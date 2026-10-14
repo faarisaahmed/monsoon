@@ -81,7 +81,7 @@ async function render() {
       return;
     }
     data.loadFont(L.font);
-    await loadClips(L.code, L.tts);
+    if (L.audio) await loadClips(L.code, L.tts);
     document.documentElement.style.setProperty('--nf', `"${L.font}"`);
     store.touch(code, path);
   }

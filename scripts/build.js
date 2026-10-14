@@ -44,6 +44,7 @@ for (const code of fs.readdirSync(DATA).sort((a, b) => (ORDER.indexOf(a) + 1 || 
     phrases,
     letters,
     sample: c.native,
+    audio: fs.existsSync(path.join(ROOT, 'audio', code, 'index.json')),
   });
 }
 fs.writeFileSync(path.join(DATA, 'languages.json'), JSON.stringify(langs, null, 1) + '\n');
