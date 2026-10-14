@@ -26,7 +26,7 @@
     { "native": "କେଉଁଠୁ", "roman": "keuṃṭhu", "en": "from where", "pos": "q", "note": "Formal: କେଉଁଠାରୁ (keuṃṭharu)." },
     { "native": "କାହିଁକି", "roman": "kahiṃki", "en": "why", "pos": "q" },
     { "native": "ନୁହେଁ", "roman": "nuheṃ", "en": "is not; am not", "pos": "verb", "note": "Negative of identity: ମୁଁ ଡାକ୍ତର ନୁହେଁ. Forms: ତୁମେ ନୁହଁ, ଆପଣ ନୁହଁନ୍ତି." },
-    { "native": "ରହିବା", "roman": "rôhiba", "en": "to live, stay", "pos": "verb", "note": "ମୁଁ ରହେ, ତୁମେ ରୁହ, ଆପଣ ରୁହନ୍ତି." },
+    { "native": "ରହିବା", "roman": "rôhiba", "en": "to live, stay", "pos": "verb", "note": "ମୁଁ ରହେ, ତୁମେ ରହ, ଆପଣ ରହନ୍ତି (in fast speech often ରୁହନ୍ତି). Command: ରୁହ / ରୁହନ୍ତୁ." },
     { "native": "ଆସିବା", "roman": "asiba", "en": "to come", "pos": "verb", "note": "ଆସିଛି 'have come' is used for 'I'm from…'." },
     { "native": "କହିବା", "roman": "kôhiba", "en": "to say, speak, tell", "pos": "verb", "note": "Command: କୁହନ୍ତୁ (formal), କୁହ (familiar)." },
     { "native": "ଜାଣିବା", "roman": "jaṇiba", "en": "to know", "pos": "verb", "note": "Colloquial negative: ଜାଣିନି 'I don't know'." },
@@ -40,7 +40,7 @@
     { "native": "ମୋ ନାମ ସାମ୍।", "roman": "mo namô Sam.", "en": "My name is Sam." },
     { "native": "ଆପଣ କେଉଁଠୁ ଆସିଛନ୍ତି?", "roman": "apôṇô keuṃṭhu asichhônti?", "en": "Where are you from? (lit. have come from)" },
     { "native": "ମୁଁ ଇଂଲଣ୍ଡରୁ ଆସିଛି।", "roman": "muṃ Iṅlôṇḍôru asichhi.", "en": "I'm from England." },
-    { "native": "ଆପଣ କେଉଁଠି ରୁହନ୍ତି?", "roman": "apôṇô keuṃṭhi ruhônti?", "en": "Where do you live?" },
+    { "native": "ଆପଣ କେଉଁଠି ରହନ୍ତି?", "roman": "apôṇô keuṃṭhi rôhônti?", "en": "Where do you live?" },
     { "native": "ମୁଁ ଭୁବନେଶ୍ୱରରେ ରହେ।", "roman": "muṃ Bhubôneswôrôre rôhe.", "en": "I live in Bhubaneswar." },
     { "native": "ଆପଣ ଇଂରାଜୀ କହିପାରନ୍ତି?", "roman": "apôṇô Iṅraji kôhiparônti?", "en": "Can you speak English?" },
     { "native": "ମୁଁ ଟିକିଏ ଓଡ଼ିଆ କହିପାରେ।", "roman": "muṃ ṭikie Oṛia kôhipare.", "en": "I can speak a little Odia." },
@@ -52,18 +52,18 @@
   "grammar": [
     {
       "title": "Pronouns and 'to be'",
-      "body": "**Identity** ('X is Y') needs no verb in everyday Odia: ମୋ ନାମ ସାମ୍ 'my name [is] Sam', ସେ ଡାକ୍ତର 'he/she [is a] doctor'. (Formal writing adds **ଅଟେ** *ôṭe*.) The negative is **ନୁହେଁ** *nuheṃ* 'is not'.\n\n**Location or state** ('X is in Y', 'X is well') uses **ଅଛି** *achhi*, which agrees with the subject:\nମୁଁ ଅଛି *muṃ achhi* — I am\nଆମେ ଅଛୁ *ame achhu* — we are\nତୁ ଅଛୁ *tu achhu* — you are (intimate)\nତୁମେ ଅଛ *tume achhô* — you are (familiar)\nଆପଣ ଅଛନ୍ତି *apôṇô achhônti* — you are (formal)\nସେ ଅଛି *se achhi* — he/she is\nସେ ଅଛନ୍ତି *se achhônti* — he/she is (respectful)\nସେମାନେ ଅଛନ୍ତି *semane achhônti* — they are\n\nThe negative of ଅଛି is **ନାହିଁ** for every person: ସେ ଘରେ ନାହିଁ 'he/she isn't at home'. Notice there is **no gender** anywhere: ସେ is both 'he' and 'she'.",
+      "body": "**Identity** ('X is Y') needs no verb in everyday Odia: ମୋ ନାମ ସାମ୍ 'my name [is] Sam', ସେ ଡାକ୍ତର 'he/she [is a] doctor'. (Formal writing adds **ଅଟେ** *ôṭe*.) The negative is **ନୁହେଁ** *nuheṃ* 'is not'.\n\n**Location or state** ('X is in Y', 'X is well') uses **ଅଛି** *ôchhi*, which agrees with the subject:\nମୁଁ ଅଛି *muṃ ôchhi* — I am\nଆମେ ଅଛୁ *ame ôchhu* — we are\nତୁ ଅଛୁ *tu ôchhu* — you are (intimate)\nତୁମେ ଅଛ *tume ôchhô* — you are (familiar)\nଆପଣ ଅଛନ୍ତି *apôṇô ôchhônti* — you are (formal)\nସେ ଅଛି *se ôchhi* — he/she is\nସେ ଅଛନ୍ତି *se ôchhônti* — he/she is (respectful)\nସେମାନେ ଅଛନ୍ତି *semane ôchhônti* — they are\n\nThe negative of ଅଛି is **ନାହିଁ** for every person: ସେ ଘରେ ନାହିଁ 'he/she isn't at home'. Notice there is **no gender** anywhere: ସେ is both 'he' and 'she'.",
       "examples": [
         { "native": "ମୁଁ ଜଣେ ଛାତ୍ର।", "roman": "muṃ jôṇe chhatrô.", "en": "I am a student." },
         { "native": "ସେ ଡାକ୍ତର ନୁହେଁ।", "roman": "se ḍaktôrô nuheṃ.", "en": "He/She is not a doctor." },
-        { "native": "ଆମେ ଭୁବନେଶ୍ୱରରେ ଅଛୁ।", "roman": "ame Bhubôneswôrôre achhu.", "en": "We are in Bhubaneswar." },
+        { "native": "ଆମେ ଭୁବନେଶ୍ୱରରେ ଅଛୁ।", "roman": "ame Bhubôneswôrôre ôchhu.", "en": "We are in Bhubaneswar." },
         { "native": "ସେ ଏବେ ଘରେ ନାହାନ୍ତି।", "roman": "se ebe ghôre nahanti.", "en": "He/She (respected) is not at home now." },
         { "native": "ଏହା ମୋର।", "roman": "eha morô.", "en": "This is mine." }
       ]
     },
     {
       "title": "Question words stay in place",
-      "body": "To ask a question in Odia, put the question word **where the answer would be** — no change of word order and no 'do/does'. Compare: ମୁଁ **ଭୁବନେଶ୍ୱରରେ** ରହେ 'I live in Bhubaneswar' → ଆପଣ **କେଉଁଠି** ରୁହନ୍ତି? 'Where do you live?'\n\nThe main question words: **କ'ଣ** what · **କିଏ** who · **କେଉଁଠି** where · **କେଉଁଠୁ** from where · **କେମିତି** how · **କାହିଁକି** why · **କେବେ** when · **କେତେ** how much/many · **କେଉଁ** which.\n\nYes/no questions just use rising intonation, optionally with **କି** at the end.",
+      "body": "To ask a question in Odia, put the question word **where the answer would be** — no change of word order and no 'do/does'. Compare: ମୁଁ **ଭୁବନେଶ୍ୱରରେ** ରହେ 'I live in Bhubaneswar' → ଆପଣ **କେଉଁଠି** ରହନ୍ତି? 'Where do you live?'\n\nThe main question words: **କ'ଣ** what · **କିଏ** who · **କେଉଁଠି** where · **କେଉଁଠୁ** from where · **କେମିତି** how · **କାହିଁକି** why · **କେବେ** when · **କେତେ** how much/many · **କେଉଁ** which.\n\nYes/no questions just use rising intonation, optionally with **କି** at the end.",
       "examples": [
         { "native": "ଏ କିଏ?", "roman": "e kie?", "en": "Who is this?" },
         { "native": "ଆପଣଙ୍କ ଦେଶ କେଉଁଠି?", "roman": "apôṇôṅkô desô keuṃṭhi?", "en": "Where is your country? / Which country are you from?" },

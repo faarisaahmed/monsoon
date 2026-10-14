@@ -4,9 +4,9 @@
   "goal": "Tell a story with natural connectors, use relative clauses and reported speech, and sound like a real Punjabi speaker with fillers and idioms.",
   "intro": "Punjabis love a good story — told loudly, with plenty of 'ਫਿਰ ਕੀ ਹੋਇਆ?', dramatic pauses and a well-placed proverb. In this final unit you'll learn to link events, describe people and things with 'who/which' clauses, report what people said, and use the small words that make conversation flow.\n\nYou now have all the main building blocks of Punjabi grammar. ਵਧਾਈਆਂ — congratulations!",
   "vocab": [
-    { "native": "ਕਹਾਣੀ", "roman": "kā́ṇī", "en": "story", "pos": "noun", "note": "f; ਕਹਾਣੀ ਸੁਣਾਉਣੀ 'to tell a story'; high tone" },
+    { "native": "ਕਹਾਣੀ", "roman": "kahā̀ṇī", "en": "story", "pos": "noun", "note": "f; ਕਹਾਣੀ ਸੁਣਾਉਣੀ 'to tell a story'; low tone on ā" },
     { "native": "ਗੱਲ", "roman": "gall", "en": "matter, thing; talk", "pos": "noun", "note": "f · pl ਗੱਲਾਂ; ਗੱਲ ਕਰਨੀ 'to talk'" },
-    { "native": "ਕਹਿਣਾ", "roman": "kéṇā", "en": "to say", "pos": "verb", "note": "past ਕਿਹਾ; takes ਨੂੰ for the person told" },
+    { "native": "ਕਹਿਣਾ", "roman": "káiṇā", "en": "to say", "pos": "verb", "note": "past ਕਿਹਾ; takes ਨੂੰ for the person told" },
     { "native": "ਆਖਣਾ", "roman": "ākhṇā", "en": "to say (Majhi, literary)", "pos": "verb" },
     { "native": "ਸੁਣਾਉਣਾ", "roman": "suṇāuṇā", "en": "to tell (a story), to recite; to 'tell your news'", "pos": "verb", "note": "ਸੁਣਾਓ! 'what's new?'" },
     { "native": "ਯਕੀਨ", "roman": "yakīn", "en": "belief, trust", "pos": "noun", "note": "m; ਯਕੀਨ ਨਹੀਂ ਆਉਂਦਾ 'I can't believe it'" },
@@ -29,7 +29,7 @@
     { "native": "ਯਾਰ", "roman": "yār", "en": "mate, friend; (filler) man!", "pos": "noun", "note": "m; ਛੱਡ ਯਾਰ 'forget it, man'" },
     { "native": "ਪਿੰਡ", "roman": "piṇḍ", "en": "village; home village", "pos": "noun", "note": "m" },
     { "native": "ਦੁਨੀਆ", "roman": "dunīā", "en": "world; people", "pos": "noun", "note": "f" },
-    { "native": "ਮੁਹਾਵਰਾ", "roman": "muā́varā", "en": "idiom", "pos": "noun", "note": "m" },
+    { "native": "ਮੁਹਾਵਰਾ", "roman": "muhā̀varā", "en": "idiom", "pos": "noun", "note": "m" },
     { "native": "ਅਖਾਣ", "roman": "akhāṇ", "en": "proverb, saying", "pos": "noun", "note": "m" }
   ],
   "phrases": [
@@ -37,8 +37,8 @@
     { "native": "ਫਿਰ ਕੀ ਹੋਇਆ?", "roman": "phir kī hoiā?", "en": "Then what happened?" },
     { "native": "ਅੱਛਾ, ਫਿਰ?", "roman": "achchhā, phir?", "en": "Really? And then?" },
     { "native": "ਗੱਲ ਇਹ ਹੈ ਕਿ…", "roman": "gall é hai ki…", "en": "The thing is…" },
-    { "native": "ਵੈਸੇ, ਤੁਸੀਂ ਕਦੇ ਲਾਹੌਰ ਗਏ ਹੋ?", "roman": "vaise, tusīṃ kade Lahaur gae ho?", "en": "By the way, have you ever been to Lahore?" },
-    { "native": "ਮੈਨੂੰ ਯਕੀਨ ਨਹੀਂ ਆਉਂਦਾ!", "roman": "mainūṃ yakīn náīṃ āundā!", "en": "I can't believe it!" },
+    { "native": "ਵੈਸੇ, ਤੁਸੀਂ ਕਦੇ ਲਾਹੌਰ ਗਏ ਹੋ?", "roman": "vaise, tusīṃ kade Lahàur gae ho?", "en": "By the way, have you ever been to Lahore?" },
+    { "native": "ਮੈਨੂੰ ਯਕੀਨ ਨਹੀਂ ਆਉਂਦਾ!", "roman": "mainūṃ yakīn nahī̀ṃ āundā!", "en": "I can't believe it!" },
     { "native": "ਹਾਏ ਰੱਬਾ!", "roman": "hāe rabbā!", "en": "Oh my God!" },
     { "native": "ਛੱਡੋ ਯਾਰ!", "roman": "chhaḍḍo yār!", "en": "Forget it, man!" },
     { "native": "ਕੋਈ ਨਾ।", "roman": "koī nā.", "en": "No worries. (colloquial)" },
@@ -53,21 +53,21 @@
       "body": "Punjabi builds 'who/which/where/when' clauses as **pairs**: a relative word starting with ਜ- in one clause, and a matching word starting with ਉ- (or ਤ-) in the other:\n\nਜਿਹੜਾ / ਜੋ … ਉਹ … — the one who … he/she/it\nਜਿੱਥੇ … ਉੱਥੇ … — where … there\nਜਦੋਂ … ਉਦੋਂ / ਤਾਂ … — when … then\nਜਿਵੇਂ … ਉਵੇਂ … — as … so\nਜਿੰਨਾ … ਉੱਨਾ … — as much … so much\n\nThe relative clause usually comes **first**: ਜਿਹੜਾ ਮੁੰਡਾ ਕੱਲ੍ਹ ਆਇਆ ਸੀ, ਉਹ ਮੇਰਾ ਭਰਾ ਹੈ — 'the boy who came yesterday is my brother' (lit. which boy came yesterday, he is my brother).\n\nWith a postposition, ਜਿਹੜਾ/ਜੋ become **ਜਿਸ** (sg) and **ਜਿਨ੍ਹਾਂ** (pl): ਜਿਸ ਕੁੜੀ ਨੂੰ ਤੁਸੀਂ ਮਿਲੇ… 'the girl you met…'.",
       "examples": [
         { "native": "ਜਿਹੜਾ ਮੁੰਡਾ ਕੱਲ੍ਹ ਆਇਆ ਸੀ, ਉਹ ਮੇਰਾ ਭਰਾ ਹੈ।", "roman": "jéṛā muṇḍā káll āiā sī, ó merā parā̀ hai.", "en": "The boy who came yesterday is my brother." },
-        { "native": "ਜੋ ਕਿਤਾਬ ਤੁਸੀਂ ਦਿੱਤੀ, ਉਹ ਬਹੁਤ ਵਧੀਆ ਹੈ।", "roman": "jo kitāb tusīṃ dittī, ó báut vádīā hai.", "en": "The book you gave me is excellent." },
+        { "native": "ਜੋ ਕਿਤਾਬ ਤੁਸੀਂ ਦਿੱਤੀ, ਉਹ ਬਹੁਤ ਵਧੀਆ ਹੈ।", "roman": "jo kitāb tusīṃ dittī, ó báut vadī̀ā hai.", "en": "The book you gave me is excellent." },
         { "native": "ਜਿਸ ਪਿੰਡ ਵਿੱਚ ਮੇਰੇ ਦਾਦਾ ਜੀ ਜੰਮੇ, ਉਹ ਹੁਣ ਪਾਕਿਸਤਾਨ ਵਿੱਚ ਹੈ।", "roman": "jis piṇḍ vich mere dādā jī jamme, ó huṇ Pākistān vich hai.", "en": "The village where my grandfather was born is now in Pakistan." },
-        { "native": "ਜਿੱਥੇ ਤੁਸੀਂ ਰਹਿੰਦੇ ਹੋ, ਉੱਥੇ ਬਹੁਤ ਠੰਢ ਹੈ।", "roman": "jitthe tusīṃ rénde ho, utthe báut ṭháṇḍ hai.", "en": "It's very cold where you live." },
-        { "native": "ਜਦੋਂ ਮੈਂ ਛੋਟਾ ਸੀ, ਉਦੋਂ ਅਸੀਂ ਪਿੰਡ ਰਹਿੰਦੇ ਸੀ।", "roman": "jadoṃ maiṃ chhoṭā sī, udoṃ asīṃ piṇḍ rénde sī.", "en": "When I was little, we lived in the village." },
-        { "native": "ਜਿਵੇਂ ਤੁਹਾਡੀ ਮਰਜ਼ੀ।", "roman": "jiveṃ tuā́ḍī marzī.", "en": "As you wish." }
+        { "native": "ਜਿੱਥੇ ਤੁਸੀਂ ਰਹਿੰਦੇ ਹੋ, ਉੱਥੇ ਬਹੁਤ ਠੰਢ ਹੈ।", "roman": "jitthe tusīṃ ráinde ho, utthe báut ṭháṇḍ hai.", "en": "It's very cold where you live." },
+        { "native": "ਜਦੋਂ ਮੈਂ ਛੋਟਾ ਸੀ, ਉਦੋਂ ਅਸੀਂ ਪਿੰਡ ਰਹਿੰਦੇ ਸੀ।", "roman": "jadoṃ maiṃ chhoṭā sī, udoṃ asīṃ piṇḍ ráinde sī.", "en": "When I was little, we lived in the village." },
+        { "native": "ਜਿਵੇਂ ਤੁਹਾਡੀ ਮਰਜ਼ੀ।", "roman": "jiveṃ tuhā̀ḍī marzī.", "en": "As you wish." }
       ]
     },
     {
       "title": "Reported speech: ਕਿਹਾ ਕਿ…",
       "body": "Punjabi usually reports speech **directly**: after ਕਿ, the words keep their original person and tense, as if in quotation marks.\n\nਉਸ ਨੇ ਕਿਹਾ ਕਿ ਮੈਂ ਕੱਲ੍ਹ ਆਵਾਂਗਾ — lit. 'he said that I will come tomorrow' = 'he said he would come tomorrow'.\n\nQuestions use ਪੁੱਛਿਆ ਕਿ…: ਉਸ ਨੇ ਪੁੱਛਿਆ ਕਿ ਤੁਸੀਂ ਕਿੱਥੋਂ ਹੋ 'she asked where I was from'. Commands use the imperative or ਨੂੰ + oblique infinitive + ਲਈ: ਮੈਨੂੰ ਬੈਠਣ ਲਈ ਕਿਹਾ 'told me to sit'.\n\nIn lively storytelling, the colloquial **ਕਹਿੰਦਾ / ਕਹਿੰਦੀ / ਕਹਿੰਦੇ** ('he says') is used like English 'he goes…': ਉਹ ਕਹਿੰਦਾ, \"ਮੈਂ ਨਹੀਂ ਜਾਣਾ!\" 'He goes, \"I'm not going!\"'",
       "examples": [
-        { "native": "ਸਿਮਰਨ ਨੇ ਕਿਹਾ ਕਿ ਮੈਂ ਥੱਕ ਗਈ ਹਾਂ।", "roman": "Simran ne kíā ki maiṃ thakk gaī hāṃ.", "en": "Simran said she was tired." },
+        { "native": "ਸਿਮਰਨ ਨੇ ਕਿਹਾ ਕਿ ਮੈਂ ਥੱਕ ਗਈ ਹਾਂ।", "roman": "Simran ne kihā̀ ki maiṃ thakk gaī hāṃ.", "en": "Simran said she was tired." },
         { "native": "ਉਹਨਾਂ ਨੇ ਪੁੱਛਿਆ ਕਿ ਤੁਸੀਂ ਕਦੋਂ ਆਓਗੇ।", "roman": "únāṃ ne puchchhiā ki tusīṃ kadoṃ āoge.", "en": "They asked when you would come." },
-        { "native": "ਡਾਕਟਰ ਨੇ ਮੈਨੂੰ ਆਰਾਮ ਕਰਨ ਲਈ ਕਿਹਾ।", "roman": "ḍākṭar ne mainūṃ ārām karan laī kíā.", "en": "The doctor told me to rest." },
-        { "native": "ਬਾਪੂ ਜੀ ਕਹਿੰਦੇ, \"ਪਹਿਲਾਂ ਰੋਟੀ ਖਾਓ!\"", "roman": "bāpū jī kénde, \"pélāṃ roṭī khāo!\"", "en": "Dad goes, \"Eat first!\"" },
+        { "native": "ਡਾਕਟਰ ਨੇ ਮੈਨੂੰ ਆਰਾਮ ਕਰਨ ਲਈ ਕਿਹਾ।", "roman": "ḍākṭar ne mainūṃ ārām karan laī kihā̀.", "en": "The doctor told me to rest." },
+        { "native": "ਬਾਪੂ ਜੀ ਕਹਿੰਦੇ, \"ਪਹਿਲਾਂ ਰੋਟੀ ਖਾਓ!\"", "roman": "bāpū jī káinde, \"páilāṃ roṭī khāo!\"", "en": "Dad goes, \"Eat first!\"" },
         { "native": "ਮੈਂ ਉਸ ਨੂੰ ਦੱਸਿਆ ਕਿ ਮੈਨੂੰ ਪੰਜਾਬੀ ਆਉਂਦੀ ਹੈ।", "roman": "maiṃ us nūṃ dassiā ki mainūṃ panjābī āundī hai.", "en": "I told him/her that I know Punjabi." }
       ]
     },
@@ -86,16 +86,16 @@
     "title": "Farewell evening",
     "setting": "On his last night, Tom tells Simran's family about his trip; Grandfather (Dadaji) listens.",
     "lines": [
-      { "speaker": "Simran", "native": "ਟੌਮ, ਦਾਦਾ ਜੀ ਨੂੰ ਉਹ ਕਹਾਣੀ ਸੁਣਾਓ, ਬੈਗ ਵਾਲੀ!", "roman": "Ṭaum, dādā jī nūṃ ó kā́ṇī suṇāo, baig vālī!", "en": "Tom, tell Grandpa that story — the one about the bag!" },
+      { "speaker": "Simran", "native": "ਟੌਮ, ਦਾਦਾ ਜੀ ਨੂੰ ਉਹ ਕਹਾਣੀ ਸੁਣਾਓ, ਬੈਗ ਵਾਲੀ!", "roman": "Ṭaum, dādā jī nūṃ ó kahā̀ṇī suṇāo, baig vālī!", "en": "Tom, tell Grandpa that story — the one about the bag!" },
       { "speaker": "Tom", "native": "ਹਾਂ ਜੀ! ਗੱਲ ਇਹ ਹੈ ਕਿ ਸਟੇਸ਼ਨ 'ਤੇ ਮੇਰਾ ਬੈਗ ਚੋਰੀ ਹੋ ਗਿਆ।", "roman": "hāṃ jī! gall é hai ki saṭeshan te merā baig chorī ho giā.", "en": "Yes! The thing is, my bag got stolen at the station." },
       { "speaker": "Dadaji", "native": "ਹਾਏ ਰੱਬਾ! ਫਿਰ ਕੀ ਹੋਇਆ?", "roman": "hāe rabbā! phir kī hoiā?", "en": "Oh my God! Then what happened?" },
-      { "speaker": "Tom", "native": "ਅਸੀਂ ਥਾਣੇ ਗਏ। ਪੁਲਿਸ ਵਾਲੇ ਕਹਿੰਦੇ, \"ਜੇ ਮਿਲ ਗਿਆ ਤਾਂ ਫ਼ੋਨ ਕਰਾਂਗੇ।\"", "roman": "asīṃ thāṇe gae. pulis vāle kénde, \"je mil giā tāṃ fon karāṅge.\"", "en": "We went to the police station. The police go, \"If it turns up, we'll phone.\"" },
+      { "speaker": "Tom", "native": "ਅਸੀਂ ਥਾਣੇ ਗਏ। ਪੁਲਿਸ ਵਾਲੇ ਕਹਿੰਦੇ, \"ਜੇ ਮਿਲ ਗਿਆ ਤਾਂ ਫ਼ੋਨ ਕਰਾਂਗੇ।\"", "roman": "asīṃ thāṇe gae. pulis vāle káinde, \"je mil giā tāṃ fon karāṅge.\"", "en": "We went to the police station. The police go, \"If it turns up, we'll phone.\"" },
       { "speaker": "Dadaji", "native": "ਅੱਛਾ, ਫਿਰ?", "roman": "achchhā, phir?", "en": "I see, and then?" },
       { "speaker": "Tom", "native": "ਦੋ ਦਿਨਾਂ ਬਾਅਦ ਇਕਦਮ ਫ਼ੋਨ ਆਇਆ। ਜਿਸ ਬੰਦੇ ਨੇ ਬੈਗ ਚੁੱਕਿਆ ਸੀ, ਉਹ ਫੜਿਆ ਗਿਆ!", "roman": "do dināṃ bāad ikdam fon āiā. jis bande ne baig chukkiā sī, ó phaṛiā giā!", "en": "Two days later, suddenly a call came. The man who had taken the bag had been caught!" },
       { "speaker": "Simran", "native": "ਤੇ ਸਭ ਕੁਝ ਵਾਪਸ ਮਿਲ ਗਿਆ — ਕੈਮਰਾ ਵੀ!", "roman": "te sáb kúj vāpas mil giā — kaimrā vī!", "en": "And he got everything back — even the camera!" },
-      { "speaker": "Dadaji", "native": "ਬੱਲੇ ਬੱਲੇ! ਮੈਨੂੰ ਯਕੀਨ ਨਹੀਂ ਆਉਂਦਾ। ਤੁਸੀਂ ਤਾਂ ਖ਼ੁਸ਼ਕਿਸਮਤ ਹੋ, ਪੁੱਤ।", "roman": "balle balle! mainūṃ yakīn náīṃ āundā. tusīṃ tāṃ xushkismat ho, putt.", "en": "Bravo! I can't believe it. You're a lucky one, son." },
-      { "speaker": "Tom", "native": "ਅਸਲ ਵਿੱਚ ਮੈਂ ਖ਼ੁਸ਼ਕਿਸਮਤ ਹਾਂ ਕਿਉਂਕਿ ਮੈਨੂੰ ਤੁਹਾਡੇ ਵਰਗਾ ਪਰਿਵਾਰ ਮਿਲਿਆ।", "roman": "asal vich maiṃ xushkismat hāṃ kiuṅki mainūṃ tuā́ḍe vargā parivār miliā.", "en": "Actually, I'm lucky because I found a family like yours." },
-      { "speaker": "Dadaji", "native": "ਜਿੱਥੇ ਵੀ ਜਾਓ, ਪੰਜਾਬੀ ਨਾ ਭੁੱਲਿਓ। ਜੀਂਦੇ ਰਹੋ, ਪੁੱਤਰਾ!", "roman": "jitthe vī jāo, panjābī nā pùllio. jīnde raho, puttarā!", "en": "Wherever you go, don't forget Punjabi. Live long, my son!" }
+      { "speaker": "Dadaji", "native": "ਬੱਲੇ ਬੱਲੇ! ਮੈਨੂੰ ਯਕੀਨ ਨਹੀਂ ਆਉਂਦਾ। ਤੁਸੀਂ ਤਾਂ ਖ਼ੁਸ਼ਕਿਸਮਤ ਹੋ, ਪੁੱਤ।", "roman": "balle balle! mainūṃ yakīn nahī̀ṃ āundā. tusīṃ tāṃ xushkismat ho, putt.", "en": "Bravo! I can't believe it. You're a lucky one, son." },
+      { "speaker": "Tom", "native": "ਅਸਲ ਵਿੱਚ ਮੈਂ ਖ਼ੁਸ਼ਕਿਸਮਤ ਹਾਂ ਕਿਉਂਕਿ ਮੈਨੂੰ ਤੁਹਾਡੇ ਵਰਗਾ ਪਰਿਵਾਰ ਮਿਲਿਆ।", "roman": "asal vich maiṃ xushkismat hāṃ kiuṅki mainūṃ tuhā̀ḍe vargā parivār miliā.", "en": "Actually, I'm lucky because I found a family like yours." },
+      { "speaker": "Dadaji", "native": "ਜਿੱਥੇ ਵੀ ਜਾਓ, ਪੰਜਾਬੀ ਨਾ ਭੁੱਲਿਓ। ਜੀਂਦੇ ਰਹੋ, ਪੁੱਤਰਾ!", "roman": "jitthe vī jāo, panjābī nā pùllio. jīnde rahò, puttarā!", "en": "Wherever you go, don't forget Punjabi. Live long, my son!" }
     ]
   },
   "culture": "Punjabi has a deep oral tradition: the epic romances (ਕਿੱਸੇ) like *Heer Ranjha* by Waris Shah, Sufi poetry by Bulleh Shah and Baba Farid, the hymns of the Sikh Gurus, and folk forms like ਬੋਲੀਆਂ (witty couplets sung at weddings) and ਟੱਪੇ. Elders often address the young with vocative forms — ਪੁੱਤਰਾ, ਧੀਏ, ਰੱਬਾ — and close a conversation with blessings. Keep listening to Punjabi music, films and podcasts from both sides of the border: the accents vary, but it's all one language."
