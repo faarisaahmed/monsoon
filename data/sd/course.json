@@ -1,0 +1,579 @@
+{
+  "code": "sd",
+  "name": "Sindhi",
+  "native": "سنڌي",
+  "scriptName": "Perso-Arabic (Sindhi alphabet)",
+  "dir": "rtl",
+  "tts": "sd-PK",
+  "font": "Noto Naskh Arabic",
+  "speakers": "≈32 million (L1), plus L2 speakers in Sindh",
+  "where": "Sindh province of Pakistan (Karachi, Hyderabad, Sukkur, Larkana, Thar); in India among the Sindhi community (Kutch in Gujarat, Ulhasnagar and Mumbai, Ahmedabad, Delhi, Rajasthan); large diaspora in the Gulf, UK, USA, Hong Kong, Singapore and elsewhere",
+  "tagline": "Learn the language of the Indus — of Shah Abdul Latif's poetry, ajrak and Sufi music — with sounds you will not hear in any other major South Asian language.",
+  "intro": "**Sindhi** (سنڌي) is an Indo-Aryan language named after the **Sindhu** (Indus) river. It is the language of Sindh, one of the oldest centres of civilisation in South Asia, and today it is an official language of Pakistan's Sindh province and one of the 22 scheduled languages of India. It is a close cousin of Punjabi, Saraiki, Gujarati, Hindi and Urdu, and shares many words with them — but its sound system and grammar have a strongly individual flavour.\n\nSindhi has a few famous features you will meet in the very first unit: four **implosive consonants** (ٻ ڄ ڳ ڏ — sounds made by pulling air *into* the mouth), **words that almost always end in a short vowel** (gharu 'house', ɓāru 'child'), and **pronoun endings attached to verbs and nouns** (chayāīṃ 'he said', bhāṇasi 'his brother').\n\nIn Pakistan Sindhi is written in a **52-letter extension of the Arabic alphabet**, standardised in 1853, with many letters you will not find in Urdu or Persian (ڪ ٻ ڄ ڏ ڳ ٽ ٿ ٺ ڀ ڦ ڍ ڻ ڱ ڃ …). In India many Sindhis also use **Devanagari** for Sindhi (and older generations used the Khudabadi/Landa scripts), but this course uses the Arabic-based Sindhi script throughout, as used in schools, newspapers and on television in Sindh.\n\nThis course teaches the **standard modern spoken Sindhi** heard in Hyderabad and Karachi media, with notes on common colloquial forms. Sindhi is a polite language: you will learn **توهان** (tavhāṃ, polite 'you'), **تون** (tūṃ, intimate 'you'), and warm forms of address like **سائين** (sāīṃ) and **ادا** (adā).",
+  "romanizationNote": "Romanization shows pronunciation. A bar marks long vowels (ā ī ū); e and o are always long ('café', 'go'); ai and au are as in 'bat'/'law'. Plain a i u are short (a = 'u' in 'but'). **Final short vowels are written** — gharu, rāti, ɗaha — because they carry grammar (kitābu 'book' vs kitāba 'books'); say them very lightly, almost whispered, but don't drop them. The four **implosives** are written with hooked letters: **ɓ** (ٻ), **ʄ** (ڄ), **ɠ** (ڳ), **ɗ** (ڏ) — a b, j, g or d said while pulling air inwards (see Pronunciation). A dot under a letter means retroflex, tongue curled back: ṭ ṭh ḍ ḍh ṛ ṇ; plain t d are dental (tongue tip on the teeth). An h after a consonant means aspiration — a puff of breath (kh, gh, chh, jh, ṭh, ḍh, th, dh, ph, bh) — never English 'th' or 'f'; lh mh nh rh are breathy l m n r. ñ is the 'ny' sound (ڃ), ṅ the 'ng' of 'sing' (ڱ). ṃ after a vowel means the vowel is nasalised (māṃ 'I'). Persian/Arabic sounds: x (خ, Scottish 'loch'), ġ (غ), q (ق), ʿ (ع, usually silent). Remember: in Sindhi the letter **ڪ is k** and **ک is kh**.",
+
+  "script": {
+    "overview": "Sindhi is written **right to left** in a 52-letter alphabet based on Arabic, usually in the upright **Naskh** style (unlike Urdu's slanted Nastaliq). It was standardised under British rule in 1853 and is taught in every school in Sindh. To fit Sindhi's rich sound system, many new letters were made by adding **dots** to Arabic shapes: four dots for aspirates (ڀ ٿ ڦ ڇ), dots arranged vertically or horizontally for retroflex and implosive sounds (ٽ ٺ ڊ ڏ ڙ ٻ ڄ), a bar or extra dots for new k- and g-sounds (ڪ ک ڳ). Learn the shapes in families and then the dot patterns — the dots are the whole difference.\n\n**Important for anyone who knows Urdu or Persian:** Sindhi uses **ڪ** (the 'swash' kāf) for plain k, while the Urdu-style **ک** means **kh** in Sindhi. Also, the aspirated sounds bh, th, ṭh, dh, ḍh, chh, kh, ph each have their **own single letter** (ڀ ٿ ٺ ڌ ڍ ڇ ک ڦ); only jh and gh are written as two-part letters (جه گه), and the breathy l m n r are written with ه (له مه نه ره).\n\nSindhi is cursive: most letters join to the next letter, but **ا د ڌ ڏ ڊ ڍ ذ ر ڙ ز ژ و** never join to the following letter, so a word can break into several pieces (e.g. ڊوڙ = ڊ · و · ڙ). Letters that do join have initial, medial and final shapes, mostly by dropping their 'tail'.\n\nAs in Urdu, **long vowels are written** (ا ā, ي ī/e/ai, و ū/o/au) but **short vowels a, i, u are normally not**. They can be shown with diacritics (zabar, zer, pesh), which Sindhi uses more often than Urdu — especially at the end of words, where they mark grammar. Two Sindhi conventions to learn early: a **single ه after a consonant at the end of a word stands for a short final vowel** (نه na 'no', ٻه ɓa 'two', ته ta 'that'), while a real final h sound is written **هه** (ڏهه ɗaha 'ten', ڳالهه ɠālhi 'talk'); and a final short vowel after a long vowel is written with **ء + diacritic** (ماءُ māu 'mother', لاءِ lāi 'for', هوءَ hūa 'she').",
+    "groups": [
+      {
+        "id": "be",
+        "title": "Alif and the 'be' family",
+        "note": "Alif plus nine letters built on the same 'boat' shape (ٮ), which differ only in their dots. In the middle of a word the boat shrinks to a small 'tooth' with the dots above or below it.",
+        "letters": [
+          { "char": "ا", "roman": "a / ā", "ipa": "ə / aː", "sound": "alif. At the start of a word it carries a vowel (a, i, u, ā); in the middle or end it is long ā as in 'father'. With madd (آ) it is long ā at the start of a word. Does NOT join to the next letter.", "example": { "native": "انب", "roman": "anbu", "en": "mango" }, "strokes": "One vertical stroke, top to bottom." },
+          { "char": "ب", "roman": "b", "ipa": "b", "sound": "be. Ordinary English b (said with air going out). Joins both ways; initial بـ.", "example": { "native": "بازار", "roman": "bāzāru", "en": "market" }, "strokes": "A shallow boat, right to left; one dot below." },
+          { "char": "ٻ", "roman": "ɓ", "ipa": "ɓ", "sound": "ɓe — implosive b. Close your lips as for b, then lower the jaw/larynx slightly so the air is sucked inwards as you open: a hollow, 'gulping' b. One of Sindhi's signature sounds. Joins both ways.", "example": { "native": "ٻار", "roman": "ɓāru", "en": "child" }, "strokes": "The boat with TWO dots below (compare ب with one)." },
+          { "char": "ڀ", "roman": "bh", "ipa": "bʱ", "sound": "bhe. Breathy b: b followed by a murmur of breath, as in 'clu**b h**ouse' said fast. A single letter in Sindhi.", "example": { "native": "ڀاءُ", "roman": "bhāu", "en": "brother" }, "strokes": "The boat with FOUR dots below in a square." },
+          { "char": "ت", "roman": "t", "ipa": "t̪", "sound": "te. Dental t: tongue tip pressed against the back of the upper teeth, no puff of air — softer than English t.", "example": { "native": "تارو", "roman": "tāro", "en": "star" }, "strokes": "The boat with two dots side by side above." },
+          { "char": "ٿ", "roman": "th", "ipa": "t̪ʰ", "sound": "the. Dental t with a strong puff of air. Never the English 'th' of 'thin'.", "example": { "native": "ٿڌو", "roman": "thadho", "en": "cold" }, "strokes": "The boat with FOUR dots above in a square." },
+          { "char": "ٽ", "roman": "ṭ", "ipa": "ʈ", "sound": "ṭe. Retroflex t: curl the tongue tip back and touch the roof of the mouth behind the gum ridge. Sounds 'hard' and hollow; no puff of air.", "example": { "native": "ٽوپي", "roman": "ṭopī", "en": "cap" }, "strokes": "The boat with THREE dots above in an upside-down triangle (point downwards) — compare ث, whose triangle points up." },
+          { "char": "ٺ", "roman": "ṭh", "ipa": "ʈʰ", "sound": "ṭhe. Retroflex t with a puff of air.", "example": { "native": "ٺيڪ", "roman": "ṭhīk", "en": "fine, OK" }, "strokes": "The boat with TWO dots above stacked vertically (compare ت, side by side)." },
+          { "char": "ث", "roman": "s", "ipa": "s", "sound": "se. Pronounced s; used only in Arabic loanwords.", "example": { "native": "ثابت", "roman": "sābitu", "en": "whole; proven" }, "strokes": "The boat with three dots above in a triangle." },
+          { "char": "پ", "roman": "p", "ipa": "p", "sound": "pe. Like English p but with little or no puff of air (as in 'spin').", "example": { "native": "پاڻي", "roman": "pāṇī", "en": "water" }, "strokes": "The boat with three dots below in a triangle." }
+        ]
+      },
+      {
+        "id": "jim",
+        "title": "The 'jīm' family",
+        "note": "A hook-and-bowl shape (ح). The dots inside or below the bowl decide the sound. Initial and medial forms lose the bowl: جـ ـجـ.",
+        "letters": [
+          { "char": "ج", "roman": "j", "ipa": "d͡ʒ", "sound": "jīm. English j in 'jam', said without lip rounding.", "example": { "native": "جبل", "roman": "jabalu", "en": "mountain" }, "strokes": "Short top stroke to the left, sharp turn into a big open bowl; one dot inside." },
+          { "char": "ڄ", "roman": "ʄ", "ipa": "ʄ", "sound": "ʄe — implosive j. Make the j position, then suck air inwards as you release: a hollow, 'swallowed' j, closer to a gulped 'dy'. Joins both ways.", "example": { "native": "اڄ", "roman": "aʄu", "en": "today" }, "strokes": "The jīm bowl with TWO dots inside, one above the other." },
+          { "char": "جه", "roman": "jh", "ipa": "d͡ʒʱ", "sound": "jhe. Breathy j: j followed by a breathy murmur. Written as jīm + he but counted as one letter of the alphabet. (Some keyboards and books use ھ: جھ.)", "example": { "native": "جهنڊو", "roman": "jhanḍo", "en": "flag" }, "strokes": "Initial jīm (جـ) joined to the 'two-eyed' medial/final he." },
+          { "char": "ڃ", "roman": "ñ", "ipa": "ɲ", "sound": "ñe. Palatal nasal, like the 'ny' in 'canyon' or Spanish ñ. Found mostly in the middle of words.", "example": { "native": "اڃ", "roman": "añu", "en": "thirst" }, "strokes": "The jīm bowl with TWO dots inside side by side." },
+          { "char": "چ", "roman": "ch", "ipa": "t͡ʃ", "sound": "che. Like 'ch' in 'church' but with no puff of air.", "example": { "native": "چانهه", "roman": "chānhi", "en": "tea" }, "strokes": "The jīm bowl with three dots inside." },
+          { "char": "ڇ", "roman": "chh", "ipa": "t͡ʃʰ", "sound": "chhe. 'ch' with a strong puff of air, as in 'church!' said forcefully.", "example": { "native": "ڇوڪرو", "roman": "chhokiro", "en": "boy" }, "strokes": "The jīm bowl with FOUR dots inside." },
+          { "char": "ح", "roman": "h", "ipa": "ɦ", "sound": "vaḍī he ('big he'). Pronounced like ordinary h; only in Arabic loanwords.", "example": { "native": "حال", "roman": "hālu", "en": "condition, state" }, "strokes": "The jīm bowl with no dots." },
+          { "char": "خ", "roman": "x", "ipa": "x", "sound": "khe. The rough 'ch' of Scottish 'loch' or German 'Bach'. In rural speech often softened to kh.", "example": { "native": "خوش", "roman": "xush", "en": "happy" }, "strokes": "The jīm bowl with one dot above the top stroke." }
+        ]
+      },
+      {
+        "id": "dal",
+        "title": "The 'dāl' family (non-joiners)",
+        "note": "Six letters on the small angled dāl shape. None of them joins to the next letter. Sindhi has FIVE kinds of d (dental, breathy dental, implosive, retroflex, breathy retroflex) — keep the dot patterns straight!",
+        "letters": [
+          { "char": "د", "roman": "d", "ipa": "d̪", "sound": "dāl. Dental d: tongue tip against the upper teeth, softer than English d.", "example": { "native": "در", "roman": "daru", "en": "door" }, "strokes": "A short angled stroke: down-left then a flat foot to the left." },
+          { "char": "ڌ", "roman": "dh", "ipa": "d̪ʱ", "sound": "dhe. Dental d with a breathy murmur. Never English 'th' of 'this'.", "example": { "native": "ڌيءُ", "roman": "dhīu", "en": "daughter" }, "strokes": "The dāl shape with TWO dots above, side by side." },
+          { "char": "ڏ", "roman": "ɗ", "ipa": "ɗ", "sound": "ɗe — implosive d. Tongue as for d, but suck air inwards as you release: a hollow, 'gulping' d. Extremely common (ɗīṃhu 'day', ɗiyaṇu 'to give', ɗisaṇu 'to see').", "example": { "native": "ڏينهن", "roman": "ɗīṃhu", "en": "day" }, "strokes": "The dāl shape with THREE dots above (triangle pointing down)." },
+          { "char": "ڊ", "roman": "ḍ", "ipa": "ɖ", "sound": "ḍe. Retroflex d: tongue tip curled back against the roof of the mouth.", "example": { "native": "ڊپ", "roman": "ḍapu", "en": "fear" }, "strokes": "The dāl shape with ONE dot below." },
+          { "char": "ڍ", "roman": "ḍh", "ipa": "ɖʱ", "sound": "ḍhe. Retroflex d with a breathy murmur.", "example": { "native": "ڍول", "roman": "ḍholu", "en": "drum" }, "strokes": "The dāl shape with TWO dots below (compare ڌ with two dots above)." },
+          { "char": "ذ", "roman": "z", "ipa": "z", "sound": "zāl. Pronounced z; Arabic loanwords only.", "example": { "native": "ذائقو", "roman": "zāiqo", "en": "taste, flavour" }, "strokes": "The dāl shape with one dot above." }
+        ]
+      },
+      {
+        "id": "re",
+        "title": "The 're' family (non-joiners)",
+        "note": "A short curved tail that sits on or below the line. None of these joins to the following letter.",
+        "letters": [
+          { "char": "ر", "roman": "r", "ipa": "r / ɾ", "sound": "re. A tapped or lightly rolled r (like Spanish 'pero'), always pronounced.", "example": { "native": "رات", "roman": "rāti", "en": "night" }, "strokes": "A small curve sweeping down and to the left." },
+          { "char": "ڙ", "roman": "ṛ", "ipa": "ɽ", "sound": "ṛe. Retroflex flap: curl the tongue back and flick it forward once. Never at the start of a word.", "example": { "native": "گهڙي", "roman": "ghaṛī", "en": "watch; moment" }, "strokes": "The re shape with FOUR dots above (Sindhi) — not the small ط of Urdu ڑ." },
+          { "char": "ز", "roman": "z", "ipa": "z", "sound": "ze. English z.", "example": { "native": "زال", "roman": "zāla", "en": "wife" }, "strokes": "The re shape with one dot above." },
+          { "char": "ژ", "roman": "zh", "ipa": "ʒ", "sound": "zhe. The 's' of 'measure'. Rare; Persian loans only.", "example": { "native": "اژدها", "roman": "azhdahā", "en": "dragon" }, "strokes": "The re shape with three dots above." }
+        ]
+      },
+      {
+        "id": "sin",
+        "title": "The 'sīn', 'sād', 'toe' and 'ʿain' families",
+        "note": "Sindhi keeps Arabic letters in Arabic loanwords even where the sound is the same as a native letter: three letters for s (ث س ص), four for z (ذ ز ض ظ), two for t (ت ط).",
+        "letters": [
+          { "char": "س", "roman": "s", "ipa": "s", "sound": "sīn. English s.", "example": { "native": "سنڌ", "roman": "sindhu", "en": "Sindh" }, "strokes": "Three small teeth then a deep bowl; initial سـ is just the teeth." },
+          { "char": "ش", "roman": "sh", "ipa": "ʃ", "sound": "shīn. English sh.", "example": { "native": "شهر", "roman": "shaharu", "en": "city" }, "strokes": "The sīn shape with three dots above." },
+          { "char": "ص", "roman": "s", "ipa": "s", "sound": "sād. Pronounced s; Arabic loans.", "example": { "native": "صبح", "roman": "subuh", "en": "morning" }, "strokes": "A closed loop then a bowl." },
+          { "char": "ض", "roman": "z", "ipa": "z", "sound": "zād. Pronounced z; Arabic loans.", "example": { "native": "ضرور", "roman": "zarūr", "en": "certainly" }, "strokes": "The sād shape with one dot above." },
+          { "char": "ط", "roman": "t", "ipa": "t̪", "sound": "toe. Pronounced like dental t; Arabic loans.", "example": { "native": "طوطو", "roman": "tūto", "en": "parrot" }, "strokes": "A flat loop with a tall upright stroke." },
+          { "char": "ظ", "roman": "z", "ipa": "z", "sound": "zoe. Pronounced z; Arabic loans.", "example": { "native": "ظلم", "roman": "zulmu", "en": "cruelty, injustice" }, "strokes": "The toe shape with one dot." },
+          { "char": "ع", "roman": "ʿ", "ipa": "ʔ / –", "sound": "ʿain. In Sindhi usually silent or a slight catch; it often just colours the neighbouring vowel. Marked ʿ in romanization so you can spell the word.", "example": { "native": "عمر", "roman": "ʿumira", "en": "age" }, "strokes": "A small open curve like a 'c', then a bowl; initial form عـ." },
+          { "char": "غ", "roman": "ġ", "ipa": "ɣ", "sound": "ġain. A gargled g made at the back of the throat, like French 'r'. Often said as plain g in casual speech.", "example": { "native": "غريب", "roman": "ġarību", "en": "poor" }, "strokes": "The ʿain shape with one dot above." }
+        ]
+      },
+      {
+        "id": "fe",
+        "title": "The 'fe' and 'qāf' letters",
+        "note": "A small loop on a line. Note that Sindhi ڦ (ph) has four dots — in Sindhi, ph is a native sound, not f.",
+        "letters": [
+          { "char": "ف", "roman": "f", "ipa": "f", "sound": "fe. English f; loanwords. In village speech often pronounced ph.", "example": { "native": "فقير", "roman": "faqīru", "en": "Sufi mendicant, ascetic" }, "strokes": "A small loop on a flat stroke; one dot above." },
+          { "char": "ڦ", "roman": "ph", "ipa": "pʰ", "sound": "phe. p with a strong puff of air, like the p in 'pot' said emphatically. NOT f.", "example": { "native": "ڦل", "roman": "phalu", "en": "fruit" }, "strokes": "The fe loop with FOUR dots above." },
+          { "char": "ق", "roman": "q", "ipa": "q", "sound": "qāf. A k made far back in the throat. Many speakers say it as an ordinary k.", "example": { "native": "قلم", "roman": "qalamu", "en": "pen" }, "strokes": "A loop with a deep round tail; two dots above." }
+        ]
+      },
+      {
+        "id": "kaf",
+        "title": "The k- and g- letters",
+        "note": "The most important trap for Urdu readers: Sindhi **ڪ = k** (a long flat 'swash' shape), **ک = kh**. Then come four g-letters and the velar nasal.",
+        "letters": [
+          { "char": "ڪ", "roman": "k", "ipa": "k", "sound": "kāf. Plain k, with little puff of air (as in 'skin'). This flat, long letter is the everyday Sindhi k.", "example": { "native": "ڪتاب", "roman": "kitābu", "en": "book" }, "strokes": "A long flat base stroke with a slanting top stroke rising from the left end; joins both ways." },
+          { "char": "ک", "roman": "kh", "ipa": "kʰ", "sound": "khe. k with a strong puff of air, as in 'kit!'. In Urdu this shape is plain k — in Sindhi it is ALWAYS kh.", "example": { "native": "کير", "roman": "khīru", "en": "milk" }, "strokes": "An upright stroke, then a slanting top bar and a flat base (the Persian/Urdu kāf shape)." },
+          { "char": "گ", "roman": "g", "ipa": "ɡ", "sound": "gāf. English g in 'go'.", "example": { "native": "گل", "roman": "gulu", "en": "flower" }, "strokes": "The khe shape with a second slanting bar on top." },
+          { "char": "ڳ", "roman": "ɠ", "ipa": "ɠ", "sound": "ɠe — implosive g. Back of the tongue as for g, then pull air inwards as you release: a deep, gulping g. Very common: ɠālhi 'talk', ɠālhāiṇu 'to speak'.", "example": { "native": "ڳالهه", "roman": "ɠālhi", "en": "talk, matter" }, "strokes": "The gāf shape with TWO dots below, one above the other." },
+          { "char": "گه", "roman": "gh", "ipa": "ɡʱ", "sound": "ghe. Breathy g. Written gāf + he but counted as one letter. (Some keyboards and books use ھ: گھ.)", "example": { "native": "گهر", "roman": "gharu", "en": "house, home" }, "strokes": "Initial gāf (گـ) joined to the two-eyed medial/final he." },
+          { "char": "ڱ", "roman": "ṅ", "ipa": "ŋ", "sound": "ṅe. The 'ng' of 'singer' (NOT 'finger' — no g after it). Never at the start of a word.", "example": { "native": "اڱڻ", "roman": "aṅaṇu", "en": "courtyard" }, "strokes": "The gāf shape with dots above the top bar." }
+        ]
+      },
+      {
+        "id": "lmnvhy",
+        "title": "Lām, mīm, the two nūns, vāu, he and ye",
+        "note": "The last seven letters. Note Sindhi's second n, the retroflex ڻ (ṇ), and that و and ي do double duty as consonants and long vowels.",
+        "letters": [
+          { "char": "ل", "roman": "l", "ipa": "l", "sound": "lām. A clear l (tongue tip on the teeth/gum), never the 'dark' l of English 'full'. With alif it makes the ligature لا.", "example": { "native": "لوڻ", "roman": "lūṇu", "en": "salt" }, "strokes": "A tall upright that curves into a deep bowl at the bottom." },
+          { "char": "م", "roman": "m", "ipa": "m", "sound": "mīm. English m.", "example": { "native": "ماءُ", "roman": "māu", "en": "mother" }, "strokes": "A small closed loop with a tail going down." },
+          { "char": "ن", "roman": "n", "ipa": "n̪", "sound": "nūn. Dental n. At the end of many words, and before consonants, it often just nasalises the vowel before it (مان māṃ 'I').", "example": { "native": "نالو", "roman": "nālo", "en": "name" }, "strokes": "A deep round bowl with one dot above." },
+          { "char": "ڻ", "roman": "ṇ", "ipa": "ɳ", "sound": "ṇūn. Retroflex n: curl the tongue back as for ṭ and say n. Never at the start of a word; very common in the middle and at the end (every infinitive ends in -ṇu).", "example": { "native": "ماڻهو", "roman": "māṇhū", "en": "person, people" }, "strokes": "The nūn bowl with a small ط on top instead of a dot." },
+          { "char": "و", "roman": "v / ū / o / au", "ipa": "ʋ / uː / oː / ɔː", "sound": "vāu. A soft v/w between English v and w as a consonant; as a vowel long ū ('food'), o ('go') or au ('law'). Does NOT join to the next letter.", "example": { "native": "وڻ", "roman": "vaṇu", "en": "tree" }, "strokes": "A small round head with a tail curving down to the left." },
+          { "char": "ه", "roman": "h", "ipa": "ɦ", "sound": "he. Breathy h, always pronounced as h except in one case: a single ه at the very end of a word after a consonant stands for a short final vowel (نه na, ٻه ɓa). After a consonant in the middle of a word it marks aspiration or breathy voice (گهر gharu, ڳالهه ɠālhi). Medial form ـهـ looks like the 'two-eyed' he.", "example": { "native": "هٿ", "roman": "hathu", "en": "hand" }, "strokes": "A small loop; medially a figure-of-eight with two 'eyes'." },
+          { "char": "ي", "roman": "y / ī / e / ai", "ipa": "j / iː / eː / ɛː", "sound": "ye. As a consonant, English y; as a vowel, long ī ('see'), e ('café') or ai ('bat'). Sindhi writes the two dots below even at the end of a word (unlike Urdu ی).", "example": { "native": "يار", "roman": "yāru", "en": "friend (informal)" }, "strokes": "Initially a small tooth with two dots below; finally a deep curve with two dots below." }
+        ]
+      },
+      {
+        "id": "vowels",
+        "title": "Writing vowels",
+        "note": "Long vowels are written with ا و ي; short vowels only with optional diacritics. At the start of a word every vowel needs alif (or ع) to carry it.",
+        "letters": [
+          { "char": "آ", "roman": "ā", "ipa": "aː", "sound": "Long ā at the start of a word, as in 'father'. In the middle or end of a word long ā is plain ا.", "sign": "ا", "signExample": "ماني (mānī)", "example": { "native": "آچر", "roman": "ācharu", "en": "Sunday" }, "strokes": "Alif with a wavy madd stroke above." },
+          { "char": "اَ", "roman": "a", "ipa": "ə", "sound": "Short a, like the 'u' in 'but'. Marked with zabar (usually omitted).", "sign": "◌َ", "signExample": "گَهرُ (gharu)", "example": { "native": "اڄ", "roman": "aʄu", "en": "today" }, "strokes": "Alif with a small slanting stroke above." },
+          { "char": "اِ", "roman": "i", "ipa": "ɪ", "sound": "Short i, as in 'bit'. Marked with zer (usually omitted).", "sign": "◌ِ", "signExample": "دِل (dila)", "example": { "native": "اِهو", "roman": "iho", "en": "this (one)" }, "strokes": "Alif with a small slanting stroke below." },
+          { "char": "اُ", "roman": "u", "ipa": "ʊ", "sound": "Short u, as in 'put'. Marked with pesh (usually omitted).", "sign": "◌ُ", "signExample": "ڪُتو (kuto)", "example": { "native": "اُٺ", "roman": "uṭhu", "en": "camel" }, "strokes": "Alif with a small curl above." },
+          { "char": "اي", "roman": "ī / e", "ipa": "iː / eː", "sound": "Long ī ('see') or long e ('café'), written with ي. Ordinary text does not show which; fully pointed text puts zer before ي for ī.", "sign": "ي", "signExample": "ڪير (kēr) / کير (khīru)", "example": { "native": "ايڪيهه", "roman": "ekīha", "en": "twenty-one" }, "strokes": "Alif + initial ye." },
+          { "char": "اَي", "roman": "ai", "ipa": "ɛː", "sound": "ai, like the 'a' in 'bat' drawn out. Written ي (or ئ) with zabar on the preceding letter in pointed text.", "sign": "ي", "signExample": "پئسا (paisā)", "example": { "native": "پئسا", "roman": "paisā", "en": "money" }, "strokes": "Alif with zabar + ye." },
+          { "char": "او", "roman": "ū / o", "ipa": "uː / oː", "sound": "Long ū ('food') or o ('go'), written with و.", "sign": "و", "signExample": "سومر (sūmaru) / گهوڙو (ghoṛo)", "example": { "native": "اوچتو", "roman": "ochito", "en": "suddenly" }, "strokes": "Alif + vāu." },
+          { "char": "اَو", "roman": "au", "ipa": "ɔː", "sound": "au, like 'aw' in 'law'. و with zabar before it in pointed text.", "sign": "و", "signExample": "سَؤ (sau)", "example": { "native": "اَوطاق", "roman": "autāqu", "en": "guest house, men's sitting place" }, "strokes": "Alif with zabar + vāu." }
+        ]
+      },
+      {
+        "id": "marks",
+        "title": "Diacritics and special marks",
+        "note": "These small marks are optional in ordinary text, but Sindhi dictionaries, school books and careful writers use them — especially at the ends of words, where they show grammar.",
+        "letters": [
+          { "char": "◌َ", "roman": "a", "ipa": "ə", "sound": "zabar: short a above a letter. At the end of a word it marks a final -a, e.g. plural ڪتابَ kitāba 'books'.", "example": { "native": "ڪتابَ", "roman": "kitāba", "en": "books" }, "strokes": "Short slanting stroke above." },
+          { "char": "◌ِ", "roman": "i", "ipa": "ɪ", "sound": "zer: short i below a letter. At the end of a word, final -i (راتِ rāti 'night').", "example": { "native": "راتِ", "roman": "rāti", "en": "night" }, "strokes": "Short slanting stroke below." },
+          { "char": "◌ُ", "roman": "u", "ipa": "ʊ", "sound": "pesh: short u above a letter. At the end of a word, the masculine final -u (گهرُ gharu 'house').", "example": { "native": "گهرُ", "roman": "gharu", "en": "house" }, "strokes": "A tiny curl like a comma above." },
+          { "char": "◌ْ", "roman": "–", "ipa": "–", "sound": "jazm: no vowel after this consonant (a consonant cluster).", "example": { "native": "سنْڌ", "roman": "sindhu", "en": "Sindh" }, "strokes": "A tiny circle above." },
+          { "char": "◌ّ", "roman": "(double)", "ipa": "ː", "sound": "shad: the consonant is doubled (held longer).", "example": { "native": "سَتّر", "roman": "sattara", "en": "seventy" }, "strokes": "A small 'w' shape above." },
+          { "char": "ء", "roman": "’", "ipa": "ʔ / –", "sound": "hamza. In Sindhi it mostly appears at the end of a word after a long vowel, carrying the final short vowel: ءُ = -u, ءِ = -i, ءَ = -a (ماءُ māu, لاءِ lāi, هوءَ hūa). On a ye-seat (ئ) it separates two vowels (آئون āūṃ).", "example": { "native": "پوءِ", "roman": "poi", "en": "then, afterwards" }, "strokes": "A small 'c'-like squiggle." },
+          { "char": "ئ", "roman": "(vowel break)", "ipa": "–", "sound": "hamza on a ye-seat: shows that two vowels meet (ai → a-i, ī-a). Very common in Sindhi spellings like ڪيئن kīeṃ 'how', نئون naoṃ 'new'.", "example": { "native": "نئون", "roman": "naoṃ", "en": "new" }, "strokes": "A ye-tooth with hamza above." },
+          { "char": "ھ", "roman": "h (aspiration)", "ipa": "ʱ", "sound": "do-chashmī he ('two-eyed he'). Many Sindhi books and keyboards spell the aspirates jh and gh with this form (جھ گھ). In standard Sindhi computing the ordinary ه is used, which takes the same two-eyed shape in the middle of a word — so جه and جھ look alike in print.", "example": { "native": "گهر", "roman": "gharu", "en": "house" }, "strokes": "A loop with two 'eyes'." },
+          { "char": "هه", "roman": "-h", "ipa": "ɦ", "sound": "Doubled final he: shows that a word really ends in an h sound (often followed by a light vowel), as opposed to single final ه which is just a short vowel. Compare ٻه ɓa 'two' with ڏهه ɗaha 'ten'.", "example": { "native": "ڏهه", "roman": "ɗaha", "en": "ten" }, "strokes": "Medial he + final he." }
+        ]
+      },
+      {
+        "id": "ligatures",
+        "title": "Ligatures, special signs and common combinations",
+        "note": "A few combinations and signs are unique to Sindhi or so common that you should learn them as units.",
+        "letters": [
+          { "char": "لا", "roman": "lā", "ipa": "laː", "sound": "lām + alif always fuse into this ligature.", "example": { "native": "لاءِ", "roman": "lāi", "en": "for" }, "strokes": "Two strokes crossing at the bottom like a 'V' with a foot." },
+          { "char": "۾", "roman": "meṃ", "ipa": "mẽ", "sound": "The special Sindhi sign for the postposition 'in' (meṃ), a mīm with a small mark. Written as a separate word: گهر ۾ ghar meṃ 'in the house'.", "example": { "native": "گهر ۾", "roman": "ghara meṃ", "en": "in the house" }, "strokes": "A mīm loop with a small stroke/curl below it." },
+          { "char": "۽", "roman": "ai", "ipa": "ɛː", "sound": "The special Sindhi sign for 'and' (ai) — a hamza-like ʿain shape with a vowel mark below. Used constantly.", "example": { "native": "ماءُ ۽ پيءُ", "roman": "māu ai pīu", "en": "mother and father" }, "strokes": "A small ʿain head with a zer-like mark below." },
+          { "char": "ءُ", "roman": "-u", "ipa": "ʊ", "sound": "Final -u after a long vowel (masculine nouns like ڀاءُ bhāu 'brother', پيءُ pīu 'father').", "example": { "native": "ڀاءُ", "roman": "bhāu", "en": "brother" }, "strokes": "Hamza with pesh." },
+          { "char": "ءِ", "roman": "-i", "ipa": "ɪ", "sound": "Final -i after a long vowel (لاءِ lāi 'for', ڇاڪاڻ ته …). Also the oblique ending on nouns in -ī: ڪراچيءَ … (see ءَ).", "example": { "native": "جاءِ", "roman": "jāi", "en": "place" }, "strokes": "Hamza with zer." },
+          { "char": "ءَ", "roman": "-a", "ipa": "ə", "sound": "Final -a after a long vowel: هوءَ hūa 'she', and the oblique of nouns in -ī: ڪراچيءَ ۾ karāchīa meṃ 'in Karachi'.", "example": { "native": "هوءَ", "roman": "hūa", "en": "she (far)" }, "strokes": "Hamza with zabar." },
+          { "char": "ڻ", "roman": "-ṇu (infinitive)", "ipa": "ɳʊ", "sound": "Every Sindhi infinitive ends in -ڻ: ڪرڻ karaṇu 'to do', وڃڻ vañaṇu 'to go'. Learn to spot it.", "example": { "native": "ڪرڻ", "roman": "karaṇu", "en": "to do" }, "strokes": "Final ṇūn." },
+          { "char": "له", "roman": "lh", "ipa": "lʱ", "sound": "Breathy l, written l + h; not a separate letter.", "example": { "native": "ڪالهه", "roman": "kālha", "en": "yesterday" }, "strokes": "Medial lām + he." },
+          { "char": "نه", "roman": "nh", "ipa": "nʱ", "sound": "Breathy n in the middle of a word (منهن munhũ 'face'); but standing alone نه is the word na 'no, not'.", "example": { "native": "سنهو", "roman": "sanho", "en": "thin" }, "strokes": "Medial nūn + he." },
+          { "char": "مه", "roman": "mh", "ipa": "mʱ", "sound": "Breathy m, written m + h.", "example": { "native": "سمهڻ", "roman": "sumhaṇu", "en": "to sleep" }, "strokes": "Medial mīm + he." },
+          { "char": "ڙه", "roman": "ṛh", "ipa": "ɽʱ", "sound": "Breathy retroflex flap, written ṛ + h.", "example": { "native": "پڙهڻ", "roman": "paṛhaṇu", "en": "to read, study" }, "strokes": "ṛe + he (ṛe does not join, so he starts fresh)." },
+          { "char": "ره", "roman": "rh", "ipa": "rʱ", "sound": "Breathy r, written r + h.", "example": { "native": "ٻارهن", "roman": "ɓārahan", "en": "twelve" }, "strokes": "re + initial he." },
+          { "char": "الله", "roman": "allāh", "ipa": "əlːaːɦ", "sound": "The word for God, with its own traditional ligature in many fonts.", "example": { "native": "الله حافظ", "roman": "allāh hāfiz", "en": "goodbye (God protect you)" }, "strokes": "Alif, two lāms, he." }
+        ]
+      },
+      {
+        "id": "digits",
+        "title": "Sindhi digits ۰–۹",
+        "note": "Sindhi uses the Eastern Arabic-Indic (Perso-Urdu) digits, written left to right even inside right-to-left text. Sindhi fonts give 4, 6 and 7 the same 'Urdu' shapes as Urdu (۴ ۶ ۷), which differ slightly from the Arabic forms. Western digits are also very common in Sindh.",
+        "letters": [
+          { "char": "۰", "roman": "0 · ɓuṛī", "sound": "zero — a dot." },
+          { "char": "۱", "roman": "1 · hiku", "sound": "one — a vertical stroke." },
+          { "char": "۲", "roman": "2 · ɓa", "sound": "two — a stroke with one hook at the top." },
+          { "char": "۳", "roman": "3 · ṭe", "sound": "three — two hooks at the top." },
+          { "char": "۴", "roman": "4 · chāra", "sound": "four — Urdu/Sindhi style, with a small loop (unlike Arabic ٤)." },
+          { "char": "۵", "roman": "5 · panja", "sound": "five — a small closed loop." },
+          { "char": "۶", "roman": "6 · chha", "sound": "six — Urdu/Sindhi style with a tail to the left at the bottom." },
+          { "char": "۷", "roman": "7 · sata", "sound": "seven — a 'V' shape, Urdu/Sindhi style." },
+          { "char": "۸", "roman": "8 · aṭha", "sound": "eight — an upside-down 'V'." },
+          { "char": "۹", "roman": "9 · nava", "sound": "nine — like a 9 with a loop on top." }
+        ]
+      }
+    ]
+  },
+
+  "pronunciation": [
+    {
+      "id": "implosives",
+      "title": "The four implosives: ٻ ڄ ڳ ڏ",
+      "body": "Sindhi's signature sounds are four **implosive** consonants: **ɓ** (ٻ), **ʄ** (ڄ), **ɠ** (ڳ) and **ɗ** (ڏ). They are voiced like b, j, g, d, but instead of pushing air *out*, you briefly pull it *in*. No other major language of South Asia has a full set of them, and they are extremely common: ɓa 'two', ɗīṃhu 'day', ɠālhi 'talk', aʄu 'today'.\n\nHow to make one: say a normal **b** but, while your lips are closed, let your **larynx (Adam's apple) drop** a little — as if starting to swallow or to say a deep, surprised 'oh!'. This lowers the air pressure in your mouth, so when you open your lips air rushes *in*. The result sounds hollow, deep and slightly 'gulped', a bit like the pop of a cork pulled from a bottle, but voiced. Do the same with the tongue in the d, j and g positions. Put your hand on your throat: for b you feel nothing move, for ɓ you feel the larynx dip.\n\nAlso note the position: Sindhi **ɗ** is made with the tongue a little further back than dental d (near the gum ridge or slightly curled), and **ʄ** is made with the front of the tongue on the hard palate, so it can sound like a gulped 'dy'. Implosives are never aspirated.\n\nThese sounds contrast with ordinary b, j, g, d and change meaning: ٻار ɓāru 'child' vs بار bāru 'load'. If you can't make them yet, say a firm, deep, voiced b/j/g/d with no puff of air — you will be understood from context — but practise daily: they are the key to sounding Sindhi.",
+      "tips": [
+        "Hand on throat: for ɓ ʄ ɠ ɗ your Adam's apple should dip downwards as you release.",
+        "Start from a 'swallowing' gesture with lips closed, then open: that is ɓ.",
+        "Implosives are never followed by a puff of air.",
+        "Learn the dot patterns: ٻ (two below), ڄ (two inside the bowl), ڳ (two below), ڏ (three above).",
+        "Practise in common words first: ɓa, ɗaha, ɠālhi, aʄu."
+      ],
+      "pairs": [
+        { "a": { "native": "ٻار", "roman": "ɓāru", "en": "child" }, "b": { "native": "بار", "roman": "bāru", "en": "load, burden" }, "note": "Implosive ɓ vs ordinary b." },
+        { "a": { "native": "ٻولي", "roman": "ɓolī", "en": "language" }, "b": { "native": "بولي", "roman": "bolī", "en": "bid (at an auction)" }, "note": "ɓ vs b." },
+        { "a": { "native": "ڄمڻ", "roman": "ʄamaṇu", "en": "to be born" }, "b": { "native": "جمڻ", "roman": "jamaṇu", "en": "to freeze, set (of yoghurt)" }, "note": "Implosive ʄ vs ordinary j." },
+        { "a": { "native": "ڳاڙهو", "roman": "ɠāṛho", "en": "red" }, "b": { "native": "گاڙهو", "roman": "gāṛho", "en": "thick (of liquids)" }, "note": "Implosive ɠ vs ordinary g." },
+        { "a": { "native": "ڏس", "roman": "ɗisu", "en": "look! (informal)" }, "b": { "native": "دس", "roman": "dasa", "en": "directions, address" }, "note": "Implosive ɗ vs dental d (the vowel differs too)." }
+      ],
+      "drill": [
+        { "native": "ٻه", "roman": "ɓa", "en": "two" },
+        { "native": "ڏهه", "roman": "ɗaha", "en": "ten" },
+        { "native": "ڳالهه", "roman": "ɠālhi", "en": "talk, matter" },
+        { "native": "اڄ", "roman": "aʄu", "en": "today" },
+        { "native": "ڏينهن", "roman": "ɗīṃhu", "en": "day" },
+        { "native": "ٻاهر", "roman": "ɓāhar", "en": "outside" },
+        { "native": "ڄاڻڻ", "roman": "ʄāṇaṇu", "en": "to know" },
+        { "native": "ڳالهايو", "roman": "ɠālhāyo", "en": "speak (polite)" },
+        { "native": "ڏاڍو سٺو", "roman": "ɗāḍho suṭho", "en": "very good" }
+      ]
+    },
+    {
+      "id": "retroflex",
+      "title": "Retroflex vs dental consonants",
+      "body": "Like other Indo-Aryan languages, Sindhi has two series of t/d sounds that English lumps together. **Dental** t, d (ت د, and th, dh ٿ ڌ) are made with the tongue tip pressed against the back of the upper front teeth — softer and 'flatter' than English t. **Retroflex** ṭ, ḍ (ٽ ڊ, and ṭh, ḍh ٺ ڍ) are made with the tongue tip curled back to touch the roof of the mouth behind the gum ridge — they sound hollow and 'hard'. English t and d are in between, so to Sindhi ears an English speaker's t usually sounds retroflex.\n\nThe retroflex flap **ṛ** (ڙ) is made by curling the tongue back and flicking it forward once, striking the roof of the mouth on the way; it appears in the middle and at the end of words (ɠāṛho 'red', ghaṛī 'watch'). The retroflex nasal **ṇ** (ڻ) is an n with the tongue curled back (pāṇī 'water').\n\nIn Sindhi there is a third kind of d, the implosive ɗ (ڏ) — see the previous topic. So: د d (teeth), ڊ ḍ (curled back), ڏ ɗ (gulped).",
+      "tips": [
+        "For dental t/d, let the tongue tip touch the TEETH, not the gum.",
+        "For retroflex ṭ/ḍ, curl the tip back until you feel the hard roof of the mouth.",
+        "Dots, not a small ط, mark Sindhi retroflexes: ٽ ٺ ڊ ڍ ڙ — learn each pattern.",
+        "ṛ never starts a word; ṇ almost never does."
+      ],
+      "pairs": [
+        { "a": { "native": "ٽي", "roman": "ṭe", "en": "three" }, "b": { "native": "تي", "roman": "te", "en": "on" }, "note": "Retroflex ṭ vs dental t — a perfect minimal pair." },
+        { "a": { "native": "ڍڪ", "roman": "ḍhaku", "en": "lid, cover" }, "b": { "native": "ڌڪ", "roman": "dhaku", "en": "push, blow" }, "note": "Retroflex ḍh vs dental dh." },
+        { "a": { "native": "مٺو", "roman": "miṭho", "en": "sweet" }, "b": { "native": "مٿو", "roman": "matho", "en": "head" }, "note": "Retroflex ṭh vs dental th (vowels differ slightly)." },
+        { "a": { "native": "ڪڻ", "roman": "kaṇu", "en": "grain, particle" }, "b": { "native": "ڪن", "roman": "kanu", "en": "ear" }, "note": "Retroflex ṇ vs dental n." },
+        { "a": { "native": "پاڻ", "roman": "pāṇa", "en": "oneself" }, "b": { "native": "پان", "roman": "pāna", "en": "betel leaf (paan)" }, "note": "ṇ vs n." }
+      ],
+      "drill": [
+        { "native": "ٽوپي", "roman": "ṭopī", "en": "cap" },
+        { "native": "ٺيڪ", "roman": "ṭhīk", "en": "fine, OK" },
+        { "native": "ڊاڪٽر", "roman": "ḍākṭaru", "en": "doctor" },
+        { "native": "ڍول", "roman": "ḍholu", "en": "drum" },
+        { "native": "ڳاڙهو", "roman": "ɠāṛho", "en": "red" },
+        { "native": "ٿڌو پاڻي", "roman": "thadho pāṇī", "en": "cold water" },
+        { "native": "ننڍو", "roman": "nanḍho", "en": "small" },
+        { "native": "پٽ", "roman": "puṭu", "en": "son" }
+      ]
+    },
+    {
+      "id": "aspiration",
+      "title": "Aspirated and breathy consonants",
+      "body": "Sindhi distinguishes plain consonants from **aspirated** ones, said with a strong puff of air. Hold a tissue in front of your mouth: for ڪ k it should barely move, for ک kh it should flutter. English speakers aspirate at the start of words without noticing ('pin' has a puff, 'spin' doesn't), so the trick is to learn to say **plain** p, t, k, ch with *no* puff, like the p in 'spin'.\n\nThe voiced ones — **bh, dh, ḍh, jh, gh** (ڀ ڌ ڍ جه گه) — are 'breathy': the consonant is followed by a murmured, sighing h. Sindhi also has breathy **lh, mh, nh, rh, ṛh** (ڪالهه kālha 'yesterday', سمهڻ sumhaṇu 'to sleep', پڙهڻ paṛhaṇu 'to read').\n\nIn Sindhi most aspirates are **single letters** with four dots or other special shapes: ڀ bh, ٿ th, ٺ ṭh, ڌ dh, ڍ ḍh, ڇ chh, ک kh, ڦ ph. Only jh and gh are two-part (جه گه). Remember that **ک = kh** and **ڦ = ph** (not f).",
+      "tips": [
+        "Tissue test: plain sounds don't move it, aspirates do.",
+        "th (ٿ) is never English 'th'; ph (ڦ) is never 'f'.",
+        "For bh, dh, gh: say the consonant, then a breathy sigh into the vowel.",
+        "Four dots usually means 'aspirated': ڀ ٿ ڦ ڇ."
+      ],
+      "pairs": [
+        { "a": { "native": "ڪارو", "roman": "kāro", "en": "black" }, "b": { "native": "کارو", "roman": "khāro", "en": "salty" }, "note": "k (ڪ) vs kh (ک)." },
+        { "a": { "native": "تو", "roman": "to", "en": "you (oblique, informal)" }, "b": { "native": "ٿو", "roman": "tho", "en": "present-tense marker (m.)" }, "note": "t vs th." },
+        { "a": { "native": "پٽ", "roman": "puṭu", "en": "son" }, "b": { "native": "ڦٽ", "roman": "phaṭu", "en": "wound" }, "note": "p vs ph (vowels differ)." },
+        { "a": { "native": "باغ", "roman": "bāġu", "en": "garden" }, "b": { "native": "ڀاڳ", "roman": "bhāɠu", "en": "fortune, luck" }, "note": "b vs bh." },
+        { "a": { "native": "ڪير", "roman": "kēr", "en": "who" }, "b": { "native": "کير", "roman": "khīru", "en": "milk" }, "note": "k vs kh (vowels differ)." }
+      ],
+      "drill": [
+        { "native": "ڀاءُ", "roman": "bhāu", "en": "brother" },
+        { "native": "ڌيءُ", "roman": "dhīu", "en": "daughter" },
+        { "native": "ڇا", "roman": "chhā", "en": "what" },
+        { "native": "ڦل", "roman": "phalu", "en": "fruit" },
+        { "native": "گهر", "roman": "gharu", "en": "house" },
+        { "native": "جهنڊو", "roman": "jhanḍo", "en": "flag" },
+        { "native": "ڪالهه", "roman": "kālha", "en": "yesterday" },
+        { "native": "پڙهڻ", "roman": "paṛhaṇu", "en": "to read" }
+      ]
+    },
+    {
+      "id": "kaf-khe",
+      "title": "Reading pitfalls: ڪ vs ک, and letters that differ from Urdu",
+      "body": "If you already read Urdu or Persian, a handful of Sindhi letters will trip you up. The biggest is **k**: Sindhi writes plain k with the long, flat **ڪ**, and uses the Urdu-looking **ک for kh**. So Sindhi کير is *khīru* 'milk', not 'kīr', and ڪير is *kēr* 'who'. Likewise Sindhi has its own letters for **ṭ (ٽ)**, **ḍ (ڊ)** and **ṛ (ڙ)** — dotted, not with the small ط of Urdu ٹ ڈ ڑ — and **ṇ (ڻ)** is a separate letter.\n\nSindhi also writes **ي with two dots** at the end of words (where Urdu has ی or ے), and uses ordinary **ه** for h and in aspirates (Urdu uses ہ and ھ). Finally, Sindhi spells many shared words differently because the pronunciation is different: Urdu 'kitāb' کتاب is Sindhi ڪتاب kitābu; Urdu 'ghar' گھر is Sindhi گهر gharu.\n\nOn the plus side, the Sindhi alphabet is more phonetic than Urdu's: most aspirates have their own letters, and diacritics are used more freely.",
+      "tips": [
+        "ڪ (long and flat) = k. ک (upright) = kh. Always.",
+        "Dots on ٽ ڊ ڙ ڏ ٻ etc. replace the small ط used in Urdu.",
+        "Final ي (dotted) can be ī or e: ماني mānī, آهي āhe.",
+        "A single final ه after a consonant = short vowel (نه na); هه = real h."
+      ],
+      "pairs": [
+        { "a": { "native": "ڪير", "roman": "kēr", "en": "who" }, "b": { "native": "کير", "roman": "khīru", "en": "milk" }, "note": "The letter shape decides k vs kh." },
+        { "a": { "native": "ڪارو", "roman": "kāro", "en": "black" }, "b": { "native": "کارو", "roman": "khāro", "en": "salty" } },
+        { "a": { "native": "ٻه", "roman": "ɓa", "en": "two" }, "b": { "native": "ڏهه", "roman": "ɗaha", "en": "ten" }, "note": "Single final ه = vowel; هه = h sound." }
+      ],
+      "drill": [
+        { "native": "ڪم", "roman": "kamu", "en": "work" },
+        { "native": "کاڌو", "roman": "khādho", "en": "food" },
+        { "native": "ڪڪڙ", "roman": "kukuṛu", "en": "chicken" },
+        { "native": "ڪٿي", "roman": "kithe", "en": "where" },
+        { "native": "کٽ", "roman": "khaṭa", "en": "bed (charpai)" },
+        { "native": "کائڻ", "roman": "khāiṇu", "en": "to eat" }
+      ]
+    },
+    {
+      "id": "final-vowels",
+      "title": "Every word ends in a vowel",
+      "body": "A defining feature of Sindhi: **nearly every native word ends in a vowel**. Where Urdu says *ghar* 'house', Sindhi says **gharu**; Urdu *din* 'day', Sindhi **ɗīṃhu**; Urdu *rāt* 'night', Sindhi **rāti**. The final short vowels -u, -i, -a are pronounced very lightly — almost whispered, and in fast Karachi speech sometimes barely audible — but native speakers hear them, and they **carry grammar**.\n\nThe most important pattern: masculine nouns in **-u** make their plural (and oblique singular) in **-a**: ڪتابُ kitābu 'book' → ڪتابَ kitāba 'books'; ٻارُ ɓāru 'child' → ٻارَ ɓāra 'children'. In ordinary writing these look identical (ڪتاب), because the final short vowel is not written — context tells you which is meant, and careful writers add the diacritic.\n\nFeminine nouns typically end in -a or -i (zāla 'wife', rāti 'night'), or in long -ī (chhokirī 'girl'). Many adjectives, numbers and adverbs end in vowels too (hiku 'one', ɓa 'two', para 'but'). In this course final short vowels are always written in the romanization. Say them lightly — but say them!",
+      "tips": [
+        "Final -u, -i, -a are short and light: gharu ≈ 'gha-r(u)'.",
+        "Masculine -u → plural -a is the single most useful sound-to-grammar rule.",
+        "Loanwords join the system: dostu 'friend', vaqtu 'time', shaharu 'city'.",
+        "Don't stress the final vowel — stress usually falls on the first long syllable."
+      ],
+      "pairs": [
+        { "a": { "native": "ڪتابُ", "roman": "kitābu", "en": "book" }, "b": { "native": "ڪتابَ", "roman": "kitāba", "en": "books" }, "note": "Same letters; only the final vowel differs." },
+        { "a": { "native": "ٻارُ", "roman": "ɓāru", "en": "child" }, "b": { "native": "ٻارَ", "roman": "ɓāra", "en": "children" } },
+        { "a": { "native": "دوستُ", "roman": "dostu", "en": "friend" }, "b": { "native": "دوستَ", "roman": "dosta", "en": "friends" } },
+        { "a": { "native": "پٽُ", "roman": "puṭu", "en": "son" }, "b": { "native": "پٽَ", "roman": "puṭa", "en": "sons" } }
+      ],
+      "drill": [
+        { "native": "گهرُ", "roman": "gharu", "en": "house" },
+        { "native": "راتِ", "roman": "rāti", "en": "night" },
+        { "native": "هڪُ", "roman": "hiku", "en": "one" },
+        { "native": "ماڻهو", "roman": "māṇhū", "en": "person" },
+        { "native": "شهرُ", "roman": "shaharu", "en": "city" },
+        { "native": "ڪمُ", "roman": "kamu", "en": "work" }
+      ]
+    },
+    {
+      "id": "nasals",
+      "title": "Sindhi's five nasals: م ن ڻ ڃ ڱ",
+      "body": "Besides m and n, Sindhi has three nasal consonants that are separate letters: **ṇ** (ڻ, retroflex), **ñ** (ڃ, palatal) and **ṅ** (ڱ, velar). English has two of them only as variants (the 'ny' in 'canyon', the 'ng' in 'sing'), so the challenge is to pronounce them in new positions.\n\n**ڻ ṇ**: curl the tongue back as for ṭ and say n. Extremely common — every infinitive ends in -ṇu (karaṇu, vañaṇu), and words like pāṇī 'water', māṇhū 'person', bheṇa 'sister'.\n\n**ڃ ñ**: the middle of the tongue presses on the hard palate, as in 'canyon' or Spanish 'año'. Common in vañaṇu 'to go', añā 'still, yet', añu 'thirst'.\n\n**ڱ ṅ**: the back of the tongue against the soft palate, as in 'singer' — with **no g** after it (unlike 'finger'). Found in aṅaṇu 'courtyard', aṅāro 'Tuesday', āṅura 'finger'.",
+      "tips": [
+        "ṅ = 'singer', not 'finger'.",
+        "ñ = 'canyon'. Don't split it into n + y.",
+        "ṇ: tongue curled back, like the ṭ position.",
+        "None of ڻ ڃ ڱ normally begins a word."
+      ],
+      "pairs": [
+        { "a": { "native": "ڪڻ", "roman": "kaṇu", "en": "grain" }, "b": { "native": "ڪن", "roman": "kanu", "en": "ear" }, "note": "ṇ vs n." },
+        { "a": { "native": "پاڻ", "roman": "pāṇa", "en": "oneself" }, "b": { "native": "پان", "roman": "pāna", "en": "betel leaf" }, "note": "ṇ vs n." }
+      ],
+      "drill": [
+        { "native": "پاڻي", "roman": "pāṇī", "en": "water" },
+        { "native": "وڃڻ", "roman": "vañaṇu", "en": "to go" },
+        { "native": "اڃا", "roman": "añā", "en": "still, yet" },
+        { "native": "اڱڻ", "roman": "aṅaṇu", "en": "courtyard" },
+        { "native": "اڱارو", "roman": "aṅāro", "en": "Tuesday" },
+        { "native": "ڀيڻ", "roman": "bheṇa", "en": "sister" },
+        { "native": "سڃاڻڻ", "roman": "sañāṇaṇu", "en": "to recognise" }
+      ]
+    },
+    {
+      "id": "nasal-vowels",
+      "title": "Nasal vowels",
+      "body": "Many Sindhi words contain **nasalised vowels**: air flows through the nose and mouth at the same time, as in French 'bon' or the 'uh-uh' of English 'no'. In this course they are written with **ṃ** after the vowel: **māṃ** 'I', **tūṃ** 'you', **asīṃ** 'we', **kithāṃ** 'from where'.\n\nIn the script, a nasal vowel is normally written with **ن** — so the same letter can be a real n (نالو nālo 'name') or just nasalisation (مان māṃ). At the end of a word after a long vowel, ن is almost always nasalisation. (Some writers use ں as in Urdu, but standard Sindhi uses ن.)\n\nNasal vowels are grammatically important: they mark the 1st person (āhiyāṃ 'I am'), the plural feminine (chhokiryūṃ 'girls') and many pronouns. Don't pronounce a full n — just let the vowel 'hum' through your nose.",
+      "tips": [
+        "Pinch your nose: on a nasal vowel you'll feel it vibrate.",
+        "Final ن after a long vowel is usually nasalisation, not n.",
+        "Don't add an 'n' or 'ng' sound at the end: māṃ, not 'maan'."
+      ],
+      "pairs": [
+        { "a": { "native": "تون", "roman": "tūṃ", "en": "you (informal)" }, "b": { "native": "تو", "roman": "to", "en": "you (oblique)" }, "note": "Nasal ū vs oral o." },
+        { "a": { "native": "سان", "roman": "sāṃ", "en": "with" }, "b": { "native": "سا", "roman": "sā", "en": "she who / that one (f.)" } }
+      ],
+      "drill": [
+        { "native": "مان", "roman": "māṃ", "en": "I" },
+        { "native": "اسين", "roman": "asīṃ", "en": "we" },
+        { "native": "ڪٿان", "roman": "kithāṃ", "en": "from where" },
+        { "native": "توهان", "roman": "tavhāṃ", "en": "you (polite)" },
+        { "native": "سائين", "roman": "sāīṃ", "en": "sir (respectful)" },
+        { "native": "ڇوڪريون", "roman": "chhokiryūṃ", "en": "girls" }
+      ]
+    },
+    {
+      "id": "five-ds",
+      "title": "Five d's, four t's: putting it all together",
+      "body": "Sindhi has more t- and d-sounds than almost any language you'll meet, and they are all distinct letters:\n\n**t-sounds:** ت t (dental) · ٿ th (dental, aspirated) · ٽ ṭ (retroflex) · ٺ ṭh (retroflex, aspirated).\n\n**d-sounds:** د d (dental) · ڌ dh (dental, breathy) · ڊ ḍ (retroflex) · ڍ ḍh (retroflex, breathy) · ڏ ɗ (implosive).\n\nWork through them slowly: first fix the tongue position (teeth vs curled back), then add or remove the puff of air, then for ɗ add the inward 'gulp'. Practise in real words, not isolation, and use the drill below as a daily warm-up.",
+      "tips": [
+        "Teeth → t d th dh. Curled back → ṭ ḍ ṭh ḍh. Gulp → ɗ.",
+        "Read the drill top to bottom, then bottom to top.",
+        "Record yourself and compare with a Sindhi speaker or a Sindhi news clip."
+      ],
+      "pairs": [
+        { "a": { "native": "در", "roman": "daru", "en": "door" }, "b": { "native": "ڌر", "roman": "dhiru", "en": "side, party (in a dispute)" }, "note": "d vs dh." },
+        { "a": { "native": "ٽي", "roman": "ṭe", "en": "three" }, "b": { "native": "تي", "roman": "te", "en": "on" } },
+        { "a": { "native": "ڍڪ", "roman": "ḍhaku", "en": "lid" }, "b": { "native": "ڌڪ", "roman": "dhaku", "en": "push" } }
+      ],
+      "drill": [
+        { "native": "دال", "roman": "dāla", "en": "lentils" },
+        { "native": "ڌوٻي", "roman": "dhobī", "en": "washerman" },
+        { "native": "ڊوڙ", "roman": "ḍoṛu", "en": "a run, race" },
+        { "native": "ڍڳو", "roman": "ḍhaɠo", "en": "ox" },
+        { "native": "ڏند", "roman": "ɗandu", "en": "tooth" },
+        { "native": "تارو", "roman": "tāro", "en": "star" },
+        { "native": "ٿانءُ", "roman": "thāṃu", "en": "pot, vessel" },
+        { "native": "ٽڪيٽ", "roman": "ṭikeṭa", "en": "ticket" },
+        { "native": "ٺاهڻ", "roman": "ṭhāhaṇu", "en": "to make" }
+      ]
+    },
+    {
+      "id": "short-vowels",
+      "title": "Unwritten short vowels and vowel length",
+      "body": "Ordinary Sindhi writing leaves out short a, i, u inside words, so you learn each word's vowels along with its spelling — the romanization is your guide. For example ڪم is kamu 'work', ڇوڪرو is chhokiro 'boy' (the i is not written), and پڙهڻ is paṛhaṇu.\n\nVowel **length** matters: short a (like 'u' in 'but') vs long ā (like 'father'), short i ('bit') vs ī ('beet'), short u ('put') vs ū ('boot'). Long vowels are written with ا ي و; short ones aren't. Sindhi also contrasts **e** (café) with **ai** (bat) and **o** (go) with **au** (law); the script writes both pairs with the same letter (ي، و).\n\nA useful habit: when a word has a diacritic in your book or dictionary, read it carefully once — Sindhi dictionaries and school texts are fully pointed.",
+      "tips": [
+        "Short a is never the 'a' of 'cat'.",
+        "e and o are pure vowels — no glide ('café', not 'day').",
+        "Long vowels are held about twice as long as short ones."
+      ],
+      "pairs": [
+        { "a": { "native": "پر", "roman": "para", "en": "but" }, "b": { "native": "پار", "roman": "pāru", "en": "the far bank, across" }, "note": "short a vs long ā." },
+        { "a": { "native": "مير", "roman": "mīru", "en": "chief, leader" }, "b": { "native": "ميرو", "roman": "mero", "en": "dirty" } }
+      ],
+      "drill": [
+        { "native": "ڇوڪرو", "roman": "chhokiro", "en": "boy" },
+        { "native": "سهڻو", "roman": "sohaṇo", "en": "beautiful" },
+        { "native": "مهرباني", "roman": "meharbānī", "en": "thank you; kindness" },
+        { "native": "پيسا", "roman": "paisā", "en": "money" },
+        { "native": "سؤ", "roman": "sau", "en": "hundred" },
+        { "native": "وڃڻ", "roman": "vañaṇu", "en": "to go" }
+      ]
+    },
+    {
+      "id": "loan-sounds",
+      "title": "Persian and Arabic sounds: x, ġ, q, f, z",
+      "body": "Sindhi has borrowed thousands of words from Persian and Arabic, and educated speakers (and newsreaders) pronounce their special sounds: **x** (خ, the 'ch' of Scottish 'loch'), **ġ** (غ, a gargled g like French r), **q** (ق, a k far back in the throat), **f** (ف) and **z** (ز ذ ض ظ).\n\nIn everyday and rural speech these are often 'Sindhi-ised': خ → kh, غ → g, ق → k, ف → ph, ز → j. So you will hear both *xush* and *khush* 'happy', *qalamu* and *kalamu* 'pen', *faqīru* and *phakīru* 'ascetic'. Both are understood; the first is more formal.\n\nThe Arabic letters ع (ʿain) and ء (hamza) are usually silent or just a break between vowels.",
+      "tips": [
+        "x: like clearing your throat gently — not k.",
+        "q: further back than k, almost in the throat.",
+        "Formal TV Sindhi keeps x ġ q f z; village speech often doesn't — both are correct in their setting."
+      ],
+      "pairs": [
+        { "a": { "native": "خير", "roman": "xairu", "en": "well-being" }, "b": { "native": "کير", "roman": "khīru", "en": "milk" }, "note": "x (friction, no stop) vs kh (stop + puff of air); vowels differ too." },
+        { "a": { "native": "قلم", "roman": "qalamu", "en": "pen" }, "b": { "native": "ڪلام", "roman": "kalāmu", "en": "poetry, verse; speech" }, "note": "q vs k." }
+      ],
+      "drill": [
+        { "native": "خوش", "roman": "xush", "en": "happy" },
+        { "native": "غريب", "roman": "ġarību", "en": "poor" },
+        { "native": "قيمت", "roman": "qīmata", "en": "price" },
+        { "native": "فقير", "roman": "faqīru", "en": "ascetic, Sufi" },
+        { "native": "ضرور", "roman": "zarūr", "en": "certainly" },
+        { "native": "عمر", "roman": "ʿumira", "en": "age" }
+      ]
+    },
+    {
+      "id": "intonation",
+      "title": "Stress, rhythm and question intonation",
+      "body": "Sindhi stress is light and even. It usually falls on the **first long syllable** of a word (**ā**hiyāṃ, ma**hī**no, **ɠā**lhi), never on the final short vowel. Don't hit syllables hard as in English — Sindhi sounds flowing and melodic.\n\nYes/no questions are made in two ways: by **rising intonation** at the end of an ordinary sentence (توهان ٺيڪ آهيو؟ tavhāṃ ṭhīk āhyo? ↗) or by putting **ڇا** (chhā) at the start: ڇا توهان سنڌي ڳالهايو ٿا؟ 'Do you speak Sindhi?' Question-word questions (who, where, when) fall at the end.\n\nSindhi speech is full of soft tags that make it warm: **سائين** (sāīṃ) at the end of a sentence to show respect, **ادا** (adā) 'brother', **ڀلا** (bhalā) 'well, so', **نه** (na) as a 'right?' tag.",
+      "tips": [
+        "Yes/no question: rise at the end. Wh-question: fall at the end.",
+        "Never stress the final -u/-i/-a.",
+        "Add 'sāīṃ' to sound polite and warm."
+      ],
+      "pairs": [
+        { "a": { "native": "توهان ٺيڪ آهيو.", "roman": "tavhāṃ ṭhīk āhyo.", "en": "You are fine. (falling)" }, "b": { "native": "توهان ٺيڪ آهيو؟", "roman": "tavhāṃ ṭhīk āhyo?", "en": "Are you fine? (rising)" }, "note": "Only the intonation differs." },
+        { "a": { "native": "هو آيو.", "roman": "hū āyo.", "en": "He came." }, "b": { "native": "هو آيو؟", "roman": "hū āyo?", "en": "Did he come?" } }
+      ],
+      "drill": [
+        { "native": "ڇا توهان سنڌي ڳالهايو ٿا؟", "roman": "chhā tavhāṃ sindhī ɠālhāyo thā?", "en": "Do you speak Sindhi?" },
+        { "native": "توهان ڪٿان جا آهيو؟", "roman": "tavhāṃ kithāṃ jā āhyo?", "en": "Where are you from?" },
+        { "native": "ڪيئن آهيو، سائين؟", "roman": "kīeṃ āhyo, sāīṃ?", "en": "How are you, sir?" },
+        { "native": "ٺيڪ آهي نه؟", "roman": "ṭhīk āhe na?", "en": "It's fine, right?" }
+      ]
+    }
+  ],
+
+  "numbers": [
+    { "n": 0, "native": "ٻڙي", "roman": "ɓuṛī", "digit": "۰" },
+    { "n": 1, "native": "هڪ", "roman": "hiku", "digit": "۱" },
+    { "n": 2, "native": "ٻه", "roman": "ɓa", "digit": "۲" },
+    { "n": 3, "native": "ٽي", "roman": "ṭe", "digit": "۳" },
+    { "n": 4, "native": "چار", "roman": "chāra", "digit": "۴" },
+    { "n": 5, "native": "پنج", "roman": "panja", "digit": "۵" },
+    { "n": 6, "native": "ڇهه", "roman": "chha", "digit": "۶" },
+    { "n": 7, "native": "ست", "roman": "sata", "digit": "۷" },
+    { "n": 8, "native": "اٺ", "roman": "aṭha", "digit": "۸" },
+    { "n": 9, "native": "نو", "roman": "nava", "digit": "۹" },
+    { "n": 10, "native": "ڏهه", "roman": "ɗaha", "digit": "۱۰" },
+    { "n": 11, "native": "يارهن", "roman": "yārahan", "digit": "۱۱" },
+    { "n": 12, "native": "ٻارهن", "roman": "ɓārahan", "digit": "۱۲" },
+    { "n": 13, "native": "تيرهن", "roman": "terahan", "digit": "۱۳" },
+    { "n": 14, "native": "چوڏهن", "roman": "choɗahan", "digit": "۱۴" },
+    { "n": 15, "native": "پندرهن", "roman": "pandrahan", "digit": "۱۵" },
+    { "n": 16, "native": "سورهن", "roman": "sorahan", "digit": "۱۶" },
+    { "n": 17, "native": "سترهن", "roman": "satrahan", "digit": "۱۷" },
+    { "n": 18, "native": "ارڙهن", "roman": "aṛahan", "digit": "۱۸" },
+    { "n": 19, "native": "اڻويهه", "roman": "uṇvīha", "digit": "۱۹" },
+    { "n": 20, "native": "ويهه", "roman": "vīha", "digit": "۲۰" },
+    { "n": 21, "native": "ايڪيهه", "roman": "ekīha", "digit": "۲۱" },
+    { "n": 22, "native": "ٻاويهه", "roman": "ɓāvīha", "digit": "۲۲" },
+    { "n": 23, "native": "ٽيويهه", "roman": "ṭevīha", "digit": "۲۳" },
+    { "n": 24, "native": "چوويهه", "roman": "chovīha", "digit": "۲۴" },
+    { "n": 25, "native": "پنجويهه", "roman": "panjvīha", "digit": "۲۵" },
+    { "n": 26, "native": "ڇويهه", "roman": "chhavīha", "digit": "۲۶" },
+    { "n": 27, "native": "ستاويهه", "roman": "satāvīha", "digit": "۲۷" },
+    { "n": 28, "native": "اٺاويهه", "roman": "aṭhāvīha", "digit": "۲۸" },
+    { "n": 29, "native": "اڻٽيهه", "roman": "uṇṭīha", "digit": "۲۹" },
+    { "n": 30, "native": "ٽيهه", "roman": "ṭīha", "digit": "۳۰" },
+    { "n": 31, "native": "ايڪٽيهه", "roman": "ekaṭīha", "digit": "۳۱" },
+    { "n": 32, "native": "ٻٽيهه", "roman": "ɓaṭīha", "digit": "۳۲" },
+    { "n": 33, "native": "ٽيٽيهه", "roman": "ṭeṭīha", "digit": "۳۳" },
+    { "n": 34, "native": "چوٽيهه", "roman": "choṭīha", "digit": "۳۴" },
+    { "n": 35, "native": "پنجٽيهه", "roman": "panjaṭīha", "digit": "۳۵" },
+    { "n": 36, "native": "ڇٽيهه", "roman": "chhaṭīha", "digit": "۳۶" },
+    { "n": 37, "native": "سٽيهه", "roman": "saṭīha", "digit": "۳۷" },
+    { "n": 38, "native": "اٺٽيهه", "roman": "aṭhaṭīha", "digit": "۳۸" },
+    { "n": 39, "native": "اڻيتاليهه", "roman": "uṇetālīha", "digit": "۳۹" },
+    { "n": 40, "native": "چاليهه", "roman": "chālīha", "digit": "۴۰" },
+    { "n": 41, "native": "ايڪيتاليهه", "roman": "eketālīha", "digit": "۴۱" },
+    { "n": 42, "native": "ٻائيتاليهه", "roman": "ɓāetālīha", "digit": "۴۲" },
+    { "n": 43, "native": "ٽيتاليهه", "roman": "ṭetālīha", "digit": "۴۳" },
+    { "n": 44, "native": "چوئيتاليهه", "roman": "choetālīha", "digit": "۴۴" },
+    { "n": 45, "native": "پنجيتاليهه", "roman": "panjetālīha", "digit": "۴۵" },
+    { "n": 46, "native": "ڇائيتاليهه", "roman": "chhāetālīha", "digit": "۴۶" },
+    { "n": 47, "native": "سنتاليهه", "roman": "santālīha", "digit": "۴۷" },
+    { "n": 48, "native": "اٺيتاليهه", "roman": "aṭhetālīha", "digit": "۴۸" },
+    { "n": 49, "native": "اڻونجاهه", "roman": "uṇvanjāha", "digit": "۴۹" },
+    { "n": 50, "native": "پنجاهه", "roman": "panjāha", "digit": "۵۰" },
+    { "n": 51, "native": "ايڪونجاهه", "roman": "ekvanjāha", "digit": "۵۱" },
+    { "n": 52, "native": "ٻاونجاهه", "roman": "ɓāvanjāha", "digit": "۵۲" },
+    { "n": 53, "native": "ٽيونجاهه", "roman": "ṭevanjāha", "digit": "۵۳" },
+    { "n": 54, "native": "چوونجاهه", "roman": "chovanjāha", "digit": "۵۴" },
+    { "n": 55, "native": "پنجونجاهه", "roman": "panjvanjāha", "digit": "۵۵" },
+    { "n": 56, "native": "ڇاونجاهه", "roman": "chhāvanjāha", "digit": "۵۶" },
+    { "n": 57, "native": "ستونجاهه", "roman": "satvanjāha", "digit": "۵۷" },
+    { "n": 58, "native": "اٺونجاهه", "roman": "aṭhvanjāha", "digit": "۵۸" },
+    { "n": 59, "native": "اڻسٺ", "roman": "uṇsaṭha", "digit": "۵۹" },
+    { "n": 60, "native": "سٺ", "roman": "saṭha", "digit": "۶۰" },
+    { "n": 61, "native": "ايڪهٺ", "roman": "ekahaṭha", "digit": "۶۱" },
+    { "n": 62, "native": "ٻاهٺ", "roman": "ɓāhaṭha", "digit": "۶۲" },
+    { "n": 63, "native": "ٽيهٺ", "roman": "ṭehaṭha", "digit": "۶۳" },
+    { "n": 64, "native": "چوهٺ", "roman": "chohaṭha", "digit": "۶۴" },
+    { "n": 65, "native": "پنجهٺ", "roman": "panjahaṭha", "digit": "۶۵" },
+    { "n": 66, "native": "ڇاهٺ", "roman": "chhāhaṭha", "digit": "۶۶" },
+    { "n": 67, "native": "ستهٺ", "roman": "satahaṭha", "digit": "۶۷" },
+    { "n": 68, "native": "اٺهٺ", "roman": "aṭhahaṭha", "digit": "۶۸" },
+    { "n": 69, "native": "اڻهتر", "roman": "uṇhatara", "digit": "۶۹" },
+    { "n": 70, "native": "ستر", "roman": "sattara", "digit": "۷۰" },
+    { "n": 71, "native": "ايڪهتر", "roman": "ekahattara", "digit": "۷۱" },
+    { "n": 72, "native": "ٻاهتر", "roman": "ɓāhattara", "digit": "۷۲" },
+    { "n": 73, "native": "ٽيهتر", "roman": "ṭehattara", "digit": "۷۳" },
+    { "n": 74, "native": "چوهتر", "roman": "chohattara", "digit": "۷۴" },
+    { "n": 75, "native": "پنجهتر", "roman": "panjahattara", "digit": "۷۵" },
+    { "n": 76, "native": "ڇاهتر", "roman": "chhāhattara", "digit": "۷۶" },
+    { "n": 77, "native": "ستهتر", "roman": "satahattara", "digit": "۷۷" },
+    { "n": 78, "native": "اٺهتر", "roman": "aṭhahattara", "digit": "۷۸" },
+    { "n": 79, "native": "اڻاسي", "roman": "uṇāsī", "digit": "۷۹" },
+    { "n": 80, "native": "اسي", "roman": "asī", "digit": "۸۰" },
+    { "n": 81, "native": "ايڪاسي", "roman": "ekāsī", "digit": "۸۱" },
+    { "n": 82, "native": "ٻياسي", "roman": "ɓiyāsī", "digit": "۸۲" },
+    { "n": 83, "native": "ٽياسي", "roman": "ṭiyāsī", "digit": "۸۳" },
+    { "n": 84, "native": "چوراسي", "roman": "chorāsī", "digit": "۸۴" },
+    { "n": 85, "native": "پنجاسي", "roman": "panjāsī", "digit": "۸۵" },
+    { "n": 86, "native": "ڇاسي", "roman": "chhāsī", "digit": "۸۶" },
+    { "n": 87, "native": "ستاسي", "roman": "satāsī", "digit": "۸۷" },
+    { "n": 88, "native": "اٺاسي", "roman": "aṭhāsī", "digit": "۸۸" },
+    { "n": 89, "native": "اڻانوي", "roman": "uṇānave", "digit": "۸۹" },
+    { "n": 90, "native": "نوي", "roman": "nave", "digit": "۹۰" },
+    { "n": 91, "native": "ايڪانوي", "roman": "ekānave", "digit": "۹۱" },
+    { "n": 92, "native": "ٻيانوي", "roman": "ɓiyānave", "digit": "۹۲" },
+    { "n": 93, "native": "ٽيانوي", "roman": "ṭiyānave", "digit": "۹۳" },
+    { "n": 94, "native": "چورانوي", "roman": "chorānave", "digit": "۹۴" },
+    { "n": 95, "native": "پنجانوي", "roman": "panjānave", "digit": "۹۵" },
+    { "n": 96, "native": "ڇيانوي", "roman": "chhiyānave", "digit": "۹۶" },
+    { "n": 97, "native": "ستانوي", "roman": "satānave", "digit": "۹۷" },
+    { "n": 98, "native": "اٺانوي", "roman": "aṭhānave", "digit": "۹۸" },
+    { "n": 99, "native": "نوانوي", "roman": "navānave", "digit": "۹۹" },
+    { "n": 100, "native": "سؤ", "roman": "sau", "digit": "۱۰۰" },
+    { "n": 200, "native": "ٻه سؤ", "roman": "ɓa sau", "digit": "۲۰۰" },
+    { "n": 500, "native": "پنج سؤ", "roman": "panja sau", "digit": "۵۰۰" },
+    { "n": 1000, "native": "هڪ هزار", "roman": "hiku hazāru", "digit": "۱۰۰۰" },
+    { "n": 100000, "native": "هڪ لک", "roman": "hiku lakhu", "digit": "۱,۰۰,۰۰۰" },
+    { "n": 10000000, "native": "هڪ ڪروڙ", "roman": "hiku karoṛu", "digit": "۱,۰۰,۰۰,۰۰۰" }
+  ]
+}

@@ -1,8 +1,8 @@
-# Boli — learn the languages of India
+# Monsoon — learn the languages of South Asia
 
-**Live site: https://faarisaahmed.github.io/boli/**
+**Live site: https://faarisaahmed.github.io/monsoon/**
 
-Boli (बोली, "speech") is a calm, thorough, open-source course for eleven major languages of India and Pakistan:
+Monsoon is a calm, thorough, open-source course for the major languages of South Asia — India, Pakistan, Bangladesh, Nepal, Sri Lanka and the diaspora:
 
 | Language | Script |
 |---|---|
@@ -10,6 +10,9 @@ Boli (बोली, "speech") is a calm, thorough, open-source course for eleven
 | Urdu اردو | Perso-Arabic (Nastaliq) |
 | Bengali বাংলা | Bengali–Assamese |
 | Punjabi ਪੰਜਾਬੀ | Gurmukhi |
+| Nepali नेपाली | Devanagari |
+| Pashto پښتو | Perso-Arabic (Pashto) |
+| Sindhi سنڌي | Perso-Arabic (Sindhi) |
 | Marathi मराठी | Devanagari |
 | Gujarati ગુજરાતી | Gujarati |
 | Tamil தமிழ் | Tamil |
@@ -39,7 +42,17 @@ Accounts are local to the browser. Each one has a username and a password (store
 
 ## Audio
 
-Boli uses the device's own speech-synthesis voices. If the device has no voice for a language, it falls back to an online voice (you can turn this off in Settings). Automatic pronunciation checking needs the Web Speech recognition API (Chrome, Edge, Safari). In other browsers it switches to record-and-compare.
+Every word, phrase, sentence, letter and number has a pre-recorded clip in `audio/<code>/`, so audio works on any phone or computer with nothing to install. The clips come from Microsoft neural voices via `edge-tts`. Punjabi uses Google's voice and Odia uses Meta's open MMS-TTS model, because neither has a neural voice. Sindhi has no speech voice anywhere yet, so it has no audio, and its speaking exercises use record-and-compare. Device voices and an online voice are used only as a fallback.
+
+To regenerate after editing content:
+
+```sh
+pip install edge-tts            # plus transformers + torch for Odia
+node scripts/audio-texts.js > /tmp/texts.json
+python3 scripts/make_audio.py /tmp/texts.json      # only creates missing clips, removes stale ones
+```
+
+Automatic pronunciation checking needs the Web Speech recognition API (Chrome, Edge, Safari). In other browsers it switches to record-and-compare.
 
 ## Running locally
 

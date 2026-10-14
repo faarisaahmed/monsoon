@@ -37,6 +37,9 @@ export async function langHome({ code, L }) {
       h('p.muted', { style: { flex: '1 1 300px', margin: '0 0 6px' } }, c.tagline),
     ),
     h('p.small.muted', `${L.script} script · ${c.speakers} · ${c.where}`),
+    canSpeak(L.tts)
+      ? null
+      : h('div.callout', { style: { margin: '12px 0' } }, `There is no speech voice for ${c.name} yet, so this course has no audio. Lean on the sound descriptions in the Script and Pronunciation sections, listen to native speakers wherever you can (radio, YouTube, music), and use the speaking exercises to record and compare yourself.`),
     started
       ? h(
           'div.stat-row',

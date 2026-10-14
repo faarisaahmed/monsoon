@@ -28,10 +28,10 @@ export async function homeView() {
     h(
       'section.hero',
       name ? h('p.small.muted', { style: { marginBottom: '6px' } }, `Welcome back, ${name}.`) : null,
-      h('h1', 'Learn the languages of India — properly.'),
+      h('h1', 'Learn the languages of South Asia — properly.'),
       h(
         'p',
-        'A complete, calm course for eleven major languages: the script, how to really pronounce it, the words people actually use, grammar that makes sense, and practice that sticks.',
+        `A complete, calm course for ${countWord(langs.length)} major languages of India, Pakistan, Bangladesh, Nepal and Sri Lanka: the script, how to really pronounce it, the words people actually use, grammar that makes sense, and practice that sticks.`,
       ),
       store.isGuest()
         ? h(
@@ -52,7 +52,7 @@ export async function homeView() {
     h('section.section', h('div.section-head', h('h2', started.length ? 'All languages' : 'Choose a language')), h('div.grid', langs.map(langCard))),
     h(
       'section.section',
-      h('h2', 'How Boli works'),
+      h('h2', 'How Monsoon works'),
       h(
         'div.how',
         how('1 · Script first', 'Every course starts with the writing system, letter by letter, with audio, sound descriptions, stroke hints and a handwriting pad. Romanization is there as a crutch you can turn off.'),
@@ -83,8 +83,8 @@ export async function aboutView() {
   return h(
     'div.prose',
     { 'data-title': 'About' },
-    h('h1', 'About Boli'),
-    h('p', 'Boli (बोली, "speech") is a free, open-source course for the most widely spoken languages of India and Pakistan. It aims to be the tool you would actually want: thorough enough to take you from zero to real conversations and reading, quiet enough that it never nags you.'),
+    h('h1', 'About Monsoon'),
+    h('p', 'Monsoon is a free, open-source course for the most widely spoken languages of South Asia — across India, Pakistan, Bangladesh, Nepal, Sri Lanka and the diaspora. The name is for the one thing the whole region shares. It aims to be the tool you would actually want: thorough enough to take you from zero to real conversations and reading, quiet enough that it never nags you.'),
     h('h2', 'Languages'),
     h('ul', langs.map((l) => h('li', h('strong', l.name), ` (${l.native}) — ${l.script} script · ${l.speakers}`))),
     h('h2', 'What each course contains'),
@@ -98,11 +98,14 @@ export async function aboutView() {
       h('li', 'Reading room, numbers 0–100 and beyond, a searchable glossary and printable alphabet chart.'),
     ),
     h('h2', 'Audio'),
-    h('p', 'Audio uses the voices built into your device. Most phones and Chrome/Edge include voices for Indian languages; on a desktop without one, Boli can fall back to an online voice (Settings → Audio). Recognition-based speaking checks work best in Chrome or Edge.'),
+    h('p', 'Every word, phrase and sentence has a recorded clip made with natural-sounding neural voices, so audio works on any phone or computer without installing anything. (Sindhi is the exception: no speech voice exists for it yet, so its course relies on written pronunciation guides and recording yourself.) Recognition-based speaking checks work best in Chrome, Edge or Safari.'),
     h('h2', 'Accounts and your data'),
-    h('p', 'Accounts are stored in this browser — nothing is sent to a server, and your password is only kept as a salted PBKDF2 hash. To use Boli on another device, export your progress file from Settings and import it there (it brings your account with it).'),
+    h('p', 'Accounts are stored in this browser — nothing is sent to a server, and your password is only kept as a salted PBKDF2 hash. To use Monsoon on another device, export your progress file from Settings and import it there (it brings your account with it).'),
     h('h2', 'Philosophy'),
     h('p', 'No streaks, no hearts, no leaderboards. You will see how much you know and how much time you have put in, and the app will suggest a sensible next step. Missing a day costs you nothing.'),
-    h('p', h('a', { href: 'https://github.com/faarisaahmed/boli' }, 'Source code and corrections on GitHub'), ' — native speakers, issues and pull requests are very welcome.'),
+    h('p', h('a', { href: 'https://github.com/faarisaahmed/monsoon' }, 'Source code and corrections on GitHub'), ' — native speakers, issues and pull requests are very welcome.'),
   );
 }
+
+const WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen'];
+const countWord = (n) => WORDS[n] || String(n);

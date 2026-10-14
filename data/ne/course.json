@@ -1,0 +1,566 @@
+{
+  "code": "ne",
+  "name": "Nepali",
+  "native": "नेपाली",
+  "scriptName": "Devanagari",
+  "dir": "ltr",
+  "tts": "ne-NP",
+  "font": "Noto Sans Devanagari",
+  "speakers": "≈19 million first-language speakers; ≈32 million including second-language speakers",
+  "where": "Nepal (official language and lingua franca); Sikkim and the Darjeeling–Kalimpong hills of West Bengal, India (a scheduled language of India); southern Bhutan; Nepali communities in Assam, the Gulf, Malaysia, the UK, USA and Australia",
+  "tagline": "Nepali opens up the Himalaya — from Kathmandu tea shops and trekking trails to Darjeeling and Sikkim — and Nepalis are delighted when a visitor makes the effort.",
+  "intro": "**Nepali** (नेपाली *nepāli*) is the national language of Nepal and the common language between its 120-plus ethnic groups — a Newar shopkeeper, a Sherpa guide and a Tharu farmer will talk to each other in Nepali. It is also an official language in Sikkim and the Darjeeling hills of India and is widely spoken in southern Bhutan. Older names you may meet are *Gorkhali* and *Khas kura*.\n\nNepali is an Indo-Aryan language, a cousin of Hindi, and is written in the same **Devanagari** script. Many words look alike (पानी *pāni* 'water', घर *ghar* 'house'), and many Nepalis understand Hindi from films. But the grammar and the everyday words are quite different: Nepali has **two verbs 'to be'** (हो and छ), an **ergative marker ले** that appears in the past tense, verbs that change for **four levels of respect**, and its own sound system — Nepali keeps many final vowels Hindi drops, pronounces च as *ts*, and merges ब/व and श/ष/स.\n\nRespect is built into the grammar. There are four ways to say 'you': **तँ** *taṃ* (intimate/rude), **तिमी** *timi* (friends, younger people), **तपाईं** *tapāiṃ* (polite default) and **हजुर** *hajur* (very respectful), and the verb changes with each. This course teaches the standard spoken Nepali of **Kathmandu**, using तपाईं by default and तिमी with friends, with the English loanwords Nepalis really use (मोबाइल, बस, अफिस, टिकट…) noted along the way.",
+  "romanizationNote": "The romanization follows **pronunciation**, not spelling. Plain *a* is the Nepali inherent vowel अ — a short, slightly rounded sound between the u of 'cup' and the o of 'pot' (नमस्ते sounds like 'no-mos-te'); *ā* is the open a of 'father'. Nepali does **not** distinguish long and short i or u in speech, so we write plain *i* and *u* for both इ/ई and उ/ऊ (पानी *pāni*, दूध *dudh*); the alphabet chart alone uses ī ū to tell the letters apart. Likewise श, ष and स all sound like *s* in everyday speech, so words are written with *s* (देश *des*, भाषा *bhāsā*), and ण is written *n*. व is written *b* where it is pronounced b (वर्ष *barsa*, धन्यवाद *dhanyabād*) and *w* where it is pronounced w (स्वागत *swāgat*, हावा *hāwā*). A final *a* is written only where Nepalis actually say it: most nouns drop it (घर *ghar*), but verb forms, words ending in a cluster and little words keep it (छ *chha*, गयो *gayo*, मित्र *mitra*, अब *aba*, तर *tara*). An *h* after a consonant always means a puff of breath (*kh, chh, ṭh, th, ph* and the breathy voiced *gh, jh, ḍh, dh, bh*) — never English 'th' or 'f'. Dots under *ṭ ṭh ḍ ḍh* mark retroflex sounds; plain *t d* are dental. *ch chh j jh* are usually pronounced *ts tsh dz dzh* by Nepali speakers. *ṃ* after a vowel means the vowel is nasal (गाउँ *gāuṃ*, तपाईं *tapāiṃ*). *e* and *o* are pure vowels as in Spanish; *ai* and *au* are real glides as in 'eye' and 'cow'.",
+  "script": {
+    "overview": "Nepali is written in **Devanagari**, the same script as Hindi, Marathi and Sanskrit. It is an **abugida**: every consonant letter carries a built-in vowel *a* (pronounced in Nepali as a short, slightly rounded 'uh/o'). क on its own is *ka*. To write another vowel you add a **vowel sign** (मात्रा *mātrā*): का *kā*, कि/की *ki*, कु/कू *ku*, कृ *kri*, के *ke*, कै *kai*, को *ko*, कौ *kau*. Full vowel letters (अ आ इ…) appear only at the start of a word or after another vowel (आउनु *āunu*, भाइ *bhāi*).\n\nWriting runs **left to right**, and the letters hang from a horizontal **headline** (शिरोरेखा). To cancel the inherent vowel you can add a **halanta** (्) under a letter: छन् *chhan*. Nepali uses the halanta more than Hindi does, especially at the end of verb forms — and, importantly, a final letter *without* halanta in a verb is often pronounced with its vowel (गर *gara* 'do!' vs गर् *gar* 'do!' to an intimate). When two consonants meet inside a word they usually join into a **conjunct** (संयुक्ताक्षर): स + त → स्त in नमस्ते.\n\nNepali schools teach the alphabet as **12 vowels** (स्वरवर्ण, including अं and अः) and **36 consonants** (व्यञ्जनवर्ण) ending with the three compound letters क्ष, त्र, ज्ञ. Nepal also uses its own **Devanagari digits** ०–९ everywhere — on number plates, bus numbers, prices and dates — so learn them early. Nepali does **not** use the dotted (nukta) letters of Hindi/Urdu: 'z' and 'f' sounds in loanwords are written ज and फ (हजार *hajār*, फोन *phon*). The full stop is the vertical bar । (पूर्णविराम).",
+    "groups": [
+      {
+        "id": "vowels",
+        "title": "Vowels (स्वर)",
+        "note": "Each vowel has a full form (used at the start of a word) and a sign (मात्रा) attached to consonants. In speech Nepali has only six basic vowels — a ā i u e o — plus the glides ai and au. इ/ई and उ/ऊ sound the same.",
+        "letters": [
+          { "char": "अ", "roman": "a", "ipa": "ʌ", "sound": "Short, slightly rounded 'uh/o' — between the u of 'cup' and the o of British 'pot'. Not the flat a of 'cat'.", "sign": "—", "signExample": "क (ka)", "example": { "native": "अनार", "roman": "anār", "en": "pomegranate" }, "strokes": "Draw the 3-like curve, add the short bar and the vertical line on the right, then the headline." },
+          { "char": "आ", "roman": "ā", "ipa": "a", "sound": "Open 'a' as in 'father', but shorter.", "sign": "ा", "signExample": "का (kā)", "example": { "native": "आमा", "roman": "āmā", "en": "mother" }, "strokes": "Write अ, then add a second vertical line to its right." },
+          { "char": "इ", "roman": "i", "ipa": "i", "sound": "'ee' as in 'see', fairly short.", "sign": "ि", "signExample": "कि (ki)", "example": { "native": "इनार", "roman": "inār", "en": "well (for water)" }, "strokes": "A small curl like a backwards 5 under the headline; the sign ि is written BEFORE the consonant it follows in speech." },
+          { "char": "ई", "roman": "ī", "ipa": "i", "sound": "Spelled as a 'long' i, but pronounced exactly like इ in normal speech.", "sign": "ी", "signExample": "की (ki)", "example": { "native": "ईश्वर", "roman": "iswar", "en": "God" }, "strokes": "Write इ and add a small hook (रेफ-like) curling up above the headline." },
+          { "char": "उ", "roman": "u", "ipa": "u", "sound": "'oo' as in 'put/food', fairly short.", "sign": "ु", "signExample": "कु (ku)", "example": { "native": "उखु", "roman": "ukhu", "en": "sugarcane" }, "strokes": "A 3-like shape with a tail curling right; the sign ु hangs below the letter." },
+          { "char": "ऊ", "roman": "ū", "ipa": "u", "sound": "Spelled as a 'long' u but sounds the same as उ. On its own, ऊ is also the word 'he/she' (informal).", "sign": "ू", "signExample": "कू (ku)", "example": { "native": "ऊन", "roman": "un", "en": "wool" }, "strokes": "Write उ with an extra loop on the tail." },
+          { "char": "ऋ", "roman": "ri", "ipa": "ri", "sound": "Pronounced 'ri' as in 'rip'. Only in Sanskrit loanwords.", "sign": "ृ", "signExample": "कृ (kri)", "example": { "native": "ऋतु", "roman": "ritu", "en": "season" }, "strokes": "A curl with a hooked tail below; the sign ृ is a small hook under the consonant." },
+          { "char": "ए", "roman": "e", "ipa": "e", "sound": "Pure 'e' as in Spanish/Italian 'e' (like 'ay' in 'day' without the y-glide).", "sign": "े", "signExample": "के (ke)", "example": { "native": "एक", "roman": "ek", "en": "one" }, "strokes": "A backward-leaning curve with a short diagonal; the sign े is a slanted stroke above the headline." },
+          { "char": "ऐ", "roman": "ai", "ipa": "ʌi", "sound": "A real glide, like 'eye' (Nepali keeps the diphthong; Hindi often turns it into 'e').", "sign": "ै", "signExample": "कै (kai)", "example": { "native": "ऐना", "roman": "ainā", "en": "mirror" }, "strokes": "Write ए and add a second slanted stroke above." },
+          { "char": "ओ", "roman": "o", "ipa": "o", "sound": "Pure 'o' as in Spanish 'no' — no 'w' glide at the end.", "sign": "ो", "signExample": "को (ko)", "example": { "native": "ओठ", "roman": "oṭh", "en": "lip" }, "strokes": "Write आ and add a slanted stroke above the right-hand line." },
+          { "char": "औ", "roman": "au", "ipa": "ʌu", "sound": "A real glide like 'ow' in 'cow'.", "sign": "ौ", "signExample": "कौ (kau)", "example": { "native": "औँला", "roman": "auṃlā", "en": "finger" }, "strokes": "Write आ and add two slanted strokes above the right-hand line." },
+          { "char": "अं", "roman": "aṃ", "ipa": "ʌ̃ / ʌŋ", "sound": "Taught as the 12th vowel: अ with anusvara. A nasal 'ang/an', as in अंक (aṅk, number).", "sign": "ं", "signExample": "कं (kaṃ)", "example": { "native": "अंश", "roman": "ans", "en": "part, share" }, "strokes": "Write अ and put a dot above the headline." },
+          { "char": "अः", "roman": "aḥ", "ipa": "ʌh", "sound": "Taught as the 13th vowel: अ with visarga, a short breath of h. Rare; mostly in Sanskrit words.", "sign": "ः", "signExample": "दुःख (dukha)", "example": { "native": "अतः", "roman": "ataḥ", "en": "therefore (formal)" }, "strokes": "Write अ and add two small circles (like a colon) to its right." }
+        ]
+      },
+      {
+        "id": "velar",
+        "title": "Velar consonants (क-वर्ग)",
+        "note": "Made at the back of the mouth. Each row of the alphabet goes: plain, aspirated, voiced, voiced-aspirated, nasal.",
+        "letters": [
+          { "char": "क", "roman": "k", "ipa": "k", "sound": "k with NO puff of air, like the k in 'skin'.", "example": { "native": "कलम", "roman": "kalam", "en": "pen" }, "strokes": "Vertical line, a loop to the left of it, a curved tail to the right; headline last." },
+          { "char": "ख", "roman": "kh", "ipa": "kʰ", "sound": "k with a strong puff of air, like 'k' in 'kite' said forcefully.", "example": { "native": "खरायो", "roman": "kharāyo", "en": "rabbit" }, "strokes": "A small loop joined to a 'व'-like body, then the vertical line." },
+          { "char": "ग", "roman": "g", "ipa": "ɡ", "sound": "g as in 'go'.", "example": { "native": "गाई", "roman": "gāi", "en": "cow" }, "strokes": "A small hook on the left, a vertical line on the right, headline over both." },
+          { "char": "घ", "roman": "gh", "ipa": "ɡʱ", "sound": "g followed by a breathy h, as in 'doghouse' said fast.", "example": { "native": "घर", "roman": "ghar", "en": "house, home" }, "strokes": "A rounded 'u' shape joined to a vertical line." },
+          { "char": "ङ", "roman": "ṅ", "ipa": "ŋ", "sound": "'ng' as in 'sing'. Never at the start of a word.", "example": { "native": "रङ", "roman": "raṅ", "en": "colour" }, "strokes": "Like ड with a dot to its right." }
+        ]
+      },
+      {
+        "id": "palatal",
+        "title": "Palatal consonants (च-वर्ग)",
+        "note": "In Nepali these are usually pronounced as 'ts' sounds (tongue tip behind the teeth): च ts, छ tsh, ज dz, झ dzh. Before i, e and y they sound closer to English ch/j.",
+        "letters": [
+          { "char": "च", "roman": "ch", "ipa": "ts ~ tʃ", "sound": "Usually 'ts' as in 'cats', without a puff. Before i/e it can sound like 'ch'.", "example": { "native": "चरा", "roman": "charā", "en": "bird" }, "strokes": "A short bar from the left joined to a vertical line." },
+          { "char": "छ", "roman": "chh", "ipa": "tsʰ ~ tʃʰ", "sound": "'ts' with a strong puff of air. Also a hugely common word: छ chha 'is' — and the number 6.", "example": { "native": "छाता", "roman": "chhātā", "en": "umbrella" }, "strokes": "A rounded body with a little curl in the middle, hanging from the headline; no vertical line." },
+          { "char": "ज", "roman": "j", "ipa": "dz ~ dʒ", "sound": "Usually 'dz' as in 'adze'; before i/e closer to English j. Also used for the z of English loans (जु zoo).", "example": { "native": "जुत्ता", "roman": "juttā", "en": "shoe" }, "strokes": "A sideways 'S' curve joined to the vertical line." },
+          { "char": "झ", "roman": "jh", "ipa": "dzʱ", "sound": "'dz' + breathy h.", "example": { "native": "झोला", "roman": "jholā", "en": "cloth shoulder bag" }, "strokes": "A '3'-like body with a tail, joined to a vertical line." },
+          { "char": "ञ", "roman": "ñ", "ipa": "ɲ", "sound": "'ny' as in 'canyon'; in practice used before च/ज and pronounced 'n'.", "example": { "native": "मञ्च", "roman": "mañcha", "en": "stage, platform" }, "strokes": "A curve with a tail and a vertical line." }
+        ]
+      },
+      {
+        "id": "retroflex",
+        "title": "Retroflex consonants (ट-वर्ग)",
+        "note": "Curl the tongue tip back and touch the roof of the mouth behind the ridge. Between vowels ड and ढ often become a quick flap (like Hindi ड़ ढ़), but Nepali writes them without a dot.",
+        "letters": [
+          { "char": "ट", "roman": "ṭ", "ipa": "ʈ", "sound": "Hard, 'hollow' t with the tongue curled back; no puff. Closest to the English t.", "example": { "native": "टोपी", "roman": "ṭopi", "en": "cap, hat" }, "strokes": "A curl hanging from the headline, open to the right; no vertical line." },
+          { "char": "ठ", "roman": "ṭh", "ipa": "ʈʰ", "sound": "Retroflex t with a puff of air.", "example": { "native": "ठूलो", "roman": "ṭhulo", "en": "big" }, "strokes": "A small circle hanging from the headline." },
+          { "char": "ड", "roman": "ḍ", "ipa": "ɖ ~ ɽ", "sound": "Retroflex d; between vowels a quick flap.", "example": { "native": "डाँडा", "roman": "ḍāṃḍā", "en": "hill, ridge" }, "strokes": "Like a 'z' curve hanging from the headline with a dot-less tail." },
+          { "char": "ढ", "roman": "ḍh", "ipa": "ɖʱ ~ ɽʱ", "sound": "Retroflex d + breathy h.", "example": { "native": "ढोका", "roman": "ḍhokā", "en": "door" }, "strokes": "Like ड with a small loop at the bottom." },
+          { "char": "ण", "roman": "ṇ", "ipa": "ɳ ~ n", "sound": "Spelled as a retroflex n, but most speakers just say 'n'.", "example": { "native": "गणेश", "roman": "Ganes", "en": "Ganesh (the god)" }, "strokes": "Two little vertical strokes joined by a curve, then a vertical line." }
+        ]
+      },
+      {
+        "id": "dental",
+        "title": "Dental consonants (त-वर्ग)",
+        "note": "Tongue tip pressed against the back of the upper teeth — further forward than English t/d. English speakers' t/d sound retroflex to Nepali ears.",
+        "letters": [
+          { "char": "त", "roman": "t", "ipa": "t̪", "sound": "Soft t with the tongue on the teeth, no puff — like French/Spanish t.", "example": { "native": "तारा", "roman": "tārā", "en": "star" }, "strokes": "A short curve from the left meeting a vertical line." },
+          { "char": "थ", "roman": "th", "ipa": "t̪ʰ", "sound": "Dental t with a puff of air. Never the 'th' of 'thin'.", "example": { "native": "थाल", "roman": "thāl", "en": "large metal plate" }, "strokes": "A small loop with a curved tail joined to a vertical line." },
+          { "char": "द", "roman": "d", "ipa": "d̪", "sound": "Soft d with the tongue on the teeth.", "example": { "native": "दाँत", "roman": "dāṃt", "en": "tooth" }, "strokes": "A '5'-like curve hanging from the headline, no vertical line." },
+          { "char": "ध", "roman": "dh", "ipa": "d̪ʱ", "sound": "Dental d + breathy h. Never the 'th' of 'this'.", "example": { "native": "धारा", "roman": "dhārā", "en": "public water tap" }, "strokes": "A small loop joined to a vertical line; NOTE: no headline over the loop part." },
+          { "char": "न", "roman": "n", "ipa": "n", "sound": "n with the tongue on the teeth.", "example": { "native": "नाक", "roman": "nāk", "en": "nose" }, "strokes": "A short hooked bar joined to a vertical line." }
+        ]
+      },
+      {
+        "id": "labial",
+        "title": "Labial consonants (प-वर्ग)",
+        "note": "Made with both lips.",
+        "letters": [
+          { "char": "प", "roman": "p", "ipa": "p", "sound": "p with no puff of air, as in 'spin'.", "example": { "native": "पानी", "roman": "pāni", "en": "water" }, "strokes": "A 'u' shape joined to a vertical line." },
+          { "char": "फ", "roman": "ph", "ipa": "pʰ ~ ɸ", "sound": "p with a puff; many speakers soften it towards f. Also used for the f of English loans (फोन phon 'phone').", "example": { "native": "फूल", "roman": "phul", "en": "flower" }, "strokes": "Write प and add a small curl to the right of the vertical line." },
+          { "char": "ब", "roman": "b", "ipa": "b", "sound": "b as in 'bat'.", "example": { "native": "बाघ", "roman": "bāgh", "en": "tiger" }, "strokes": "A small triangle-like loop joined to a vertical line." },
+          { "char": "भ", "roman": "bh", "ipa": "bʱ", "sound": "b + breathy h, as in 'clubhouse' said fast.", "example": { "native": "भात", "roman": "bhāt", "en": "cooked rice; a meal" }, "strokes": "A '7'-like hook with a loop, joined to a vertical line." },
+          { "char": "म", "roman": "m", "ipa": "m", "sound": "m as in 'man'.", "example": { "native": "माछा", "roman": "māchhā", "en": "fish" }, "strokes": "A small loop and a bar joined to a vertical line, headline across." }
+        ]
+      },
+      {
+        "id": "semivowels",
+        "title": "Semivowels (अन्तस्थ)",
+        "note": "य र ल व. Note that व is usually pronounced b at the start of a word and w after a consonant.",
+        "letters": [
+          { "char": "य", "roman": "y", "ipa": "j", "sound": "y as in 'yes'.", "example": { "native": "यात्रा", "roman": "yātrā", "en": "journey, trip" }, "strokes": "A small 'u' with a loop, joined to a vertical line." },
+          { "char": "र", "roman": "r", "ipa": "ɾ", "sound": "A light tapped r, like the tt in American 'butter' or Spanish 'pero'. Never the English r.", "example": { "native": "रातो", "roman": "rāto", "en": "red" }, "strokes": "A small hook hanging from the headline. Before another consonant it becomes a hook above (र्क); after one, a slant below (प्र)." },
+          { "char": "ल", "roman": "l", "ipa": "l", "sound": "Clear l as in 'leaf' (never the dark l of 'full').", "example": { "native": "लुगा", "roman": "lugā", "en": "clothes" }, "strokes": "A loop with a curl, joined to a vertical line." },
+          { "char": "व", "roman": "w / b", "ipa": "w ~ b", "sound": "Pronounced b at the start of most words (वन ban), w after a consonant (स्वागत swāgat) and between vowels (हावा hāwā).", "example": { "native": "वन", "roman": "ban", "en": "forest" }, "strokes": "Like ब but with an open bottom-left loop (ब has a closed triangle)." }
+        ]
+      },
+      {
+        "id": "sibilants",
+        "title": "Sibilants and h (ऊष्म)",
+        "note": "श, ष and स are three letters for what is, in everyday Nepali, one sound: s. Learn the spellings, but say s.",
+        "letters": [
+          { "char": "श", "roman": "s (sh)", "ipa": "s ~ ʃ", "sound": "Spelled 'sh' (तालव्य श) but normally said s; some careful speakers say sh in words like श्री.", "example": { "native": "शान्ति", "roman": "sānti", "en": "peace" }, "strokes": "A curl with a small loop and a short bar, joined to a vertical line." },
+          { "char": "ष", "roman": "s (ṣ)", "ipa": "s", "sound": "Spelled as a retroflex 'sh' (मूर्धन्य ष), pronounced s. Only in Sanskrit-derived words.", "example": { "native": "भाषा", "roman": "bhāsā", "en": "language" }, "strokes": "Write प and add a diagonal stroke across the 'u'." },
+          { "char": "स", "roman": "s", "ipa": "s", "sound": "s as in 'sun' (दन्त्य स).", "example": { "native": "साथी", "roman": "sāthi", "en": "friend" }, "strokes": "A hook and a small bar joined to a vertical line." },
+          { "char": "ह", "roman": "h", "ipa": "ɦ", "sound": "A breathy, voiced h. In the middle of a word it is often very weak (बहिनी sounds like 'bo-ini').", "example": { "native": "हात", "roman": "hāt", "en": "hand" }, "strokes": "A '5'-like shape with a tail hanging from the headline; no vertical line." }
+        ]
+      },
+      {
+        "id": "compound",
+        "title": "Compound letters (क्ष त्र ज्ञ)",
+        "note": "Nepali children learn these three conjuncts as the last letters of the alphabet: क, ख, ग … स, ह, क्ष, त्र, ज्ञ.",
+        "letters": [
+          { "char": "क्ष", "roman": "chhya / kchh", "ipa": "tsʰj ~ ktsʰ", "sound": "क + ष. At the start of a word said 'chhya/chhe'; in the middle 'kchh'. Not 'ksh' as in Hindi.", "example": { "native": "क्षेत्र", "roman": "chhetra", "en": "area, field" }, "strokes": "A special shape: a क-like loop with a crossed tail, joined to a vertical line." },
+          { "char": "त्र", "roman": "tra", "ipa": "t̪rʌ", "sound": "त + र: 'tr' with a dental t and tapped r.", "example": { "native": "मित्र", "roman": "mitra", "en": "friend (formal)" }, "strokes": "Like त with a slanted stroke cutting the left part." },
+          { "char": "ज्ञ", "roman": "gya", "ipa": "ɡjʌ", "sound": "ज + ञ, but pronounced 'gya' in Nepali.", "example": { "native": "ज्ञान", "roman": "gyān", "en": "knowledge" }, "strokes": "A special shape: a ज-like curve fused with a loop, joined to a vertical line." }
+        ]
+      },
+      {
+        "id": "marks",
+        "title": "Special marks",
+        "note": "Signs that nasalize, cancel the inherent vowel or punctuate. Nepali does not use the nukta dot.",
+        "letters": [
+          { "char": "ँ", "roman": "ṃ", "ipa": "̃", "sound": "Chandrabindu (moon and dot): the vowel is said through the nose, with no n. Very common in Nepali verb endings (छौँ chhauṃ 'we are').", "example": { "native": "गाउँ", "roman": "gāuṃ", "en": "village" }, "strokes": "A small upward crescent with a dot above the headline." },
+          { "char": "ं", "roman": "ṃ / n", "ipa": "̃ / n m ŋ", "sound": "Anusvara (dot). Before a consonant it is the nasal that fits it (संसार sansār); at the end of a word it nasalizes the vowel (तपाईं tapāiṃ). Also replaces ँ when a sign already sits above the line.", "example": { "native": "संसार", "roman": "sansār", "en": "world" }, "strokes": "A dot above the headline, at the right of the letter." },
+          { "char": "ः", "roman": "ḥ", "ipa": "h", "sound": "Visarga: a short breath after the vowel; inside words it often just lengthens the next consonant (दुःख dukha).", "example": { "native": "दुःख", "roman": "dukha", "en": "sorrow, hardship" }, "strokes": "Two small circles one above the other, like a colon." },
+          { "char": "्", "roman": "(no vowel)", "ipa": "∅", "sound": "Halanta (हलन्त): removes the inherent vowel. At the end of verb forms it tells you NOT to pronounce a final a (छन् chhan 'they are').", "example": { "native": "छन्", "roman": "chhan", "en": "(they) are" }, "strokes": "A short slanting stroke under the letter." },
+          { "char": "र्‍", "roman": "r", "ipa": "ɾ", "sound": "'Eyelash ra': the special half-form of र used before य and sometimes व in Nepali (गर्‍यो garyo 'did').", "example": { "native": "गर्‍यो", "roman": "garyo", "en": "(he) did" }, "strokes": "A small curved 'eyelash' stroke joined to the following letter." },
+          { "char": "।", "roman": "(full stop)", "ipa": "", "sound": "Purnabiram (पूर्णविराम), the Nepali full stop. Question and exclamation marks are the same as in English.", "example": { "native": "म ठीक छु।", "roman": "ma ṭhik chhu.", "en": "I am fine." }, "strokes": "A single vertical bar." },
+          { "char": "ॐ", "roman": "om", "ipa": "om", "sound": "The sacred syllable Om, seen on temples, prayer flags and greetings cards.", "example": { "native": "ॐ मणि पद्मे हुँ", "roman": "om mani padme huṃ", "en": "Om mani padme hum (Buddhist mantra)" }, "strokes": "A 3-like shape with a tail, topped by a chandrabindu." }
+        ]
+      },
+      {
+        "id": "conjuncts",
+        "title": "Common conjuncts (संयुक्ताक्षर)",
+        "note": "When consonants meet with no vowel between them they fuse. Usually the first letter loses its vertical line (half form); र becomes a hook above (reph) or a slant below; some pairs make special shapes.",
+        "letters": [
+          { "char": "स्त", "roman": "st", "ipa": "st̪", "sound": "स + त.", "example": { "native": "नमस्ते", "roman": "namaste", "en": "hello" } },
+          { "char": "न्त", "roman": "nt", "ipa": "nt̪", "sound": "न + त.", "example": { "native": "सन्तोष", "roman": "santos", "en": "contentment" } },
+          { "char": "न्द", "roman": "nd", "ipa": "nd̪", "sound": "न + द.", "example": { "native": "मन्दिर", "roman": "mandir", "en": "temple" } },
+          { "char": "द्ध", "roman": "ddh", "ipa": "d̪d̪ʱ", "sound": "द + ध, stacked or fused.", "example": { "native": "बुद्ध", "roman": "Buddha", "en": "the Buddha" } },
+          { "char": "द्य", "roman": "dy", "ipa": "d̪j", "sound": "द + य.", "example": { "native": "विद्यालय", "roman": "bidyālaya", "en": "school (formal)" } },
+          { "char": "द्व", "roman": "dw", "ipa": "d̪w", "sound": "द + व (here व = w).", "example": { "native": "द्वार", "roman": "dwār", "en": "gate" } },
+          { "char": "श्र", "roman": "sr", "ipa": "sɾ", "sound": "श + र: a special shape.", "example": { "native": "श्रीमती", "roman": "srimati", "en": "wife; Mrs" } },
+          { "char": "प्र", "roman": "pr", "ipa": "pɾ", "sound": "प + र: r is a slant at the foot of प.", "example": { "native": "प्रश्न", "roman": "prasna", "en": "question" } },
+          { "char": "र्क", "roman": "rk", "ipa": "ɾk", "sound": "र + क: र becomes a hook (reph) above the next letter.", "example": { "native": "तरकारी", "roman": "tarkāri", "en": "vegetables; curry" } },
+          { "char": "ह्र", "roman": "hr", "ipa": "ɦɾ", "sound": "ह + र. Note: बाह्र 'twelve' is said 'bāhra'.", "example": { "native": "बाह्र", "roman": "bāhra", "en": "twelve" } },
+          { "char": "च्च", "roman": "chch", "ipa": "tstsʌ", "sound": "Doubled च — hold the closure.", "example": { "native": "बच्चा", "roman": "bachchā", "en": "baby, small child" } },
+          { "char": "त्त", "roman": "tt", "ipa": "t̪t̪", "sound": "Doubled त.", "example": { "native": "सत्तरी", "roman": "sattari", "en": "seventy" } },
+          { "char": "ट्ठ", "roman": "ṭṭh", "ipa": "ʈʈʰ", "sound": "ट + ठ, often stacked.", "example": { "native": "चिट्ठी", "roman": "chiṭṭhi", "en": "letter (mail)" } },
+          { "char": "ष्ट", "roman": "sṭ", "ipa": "sʈ", "sound": "ष + ट.", "example": { "native": "कष्ट", "roman": "kasṭa", "en": "trouble, hardship" } },
+          { "char": "श्च", "roman": "sch", "ipa": "sts", "sound": "श + च.", "example": { "native": "पश्चिम", "roman": "paschim", "en": "west" } },
+          { "char": "ङ्ग", "roman": "ṅg", "ipa": "ŋɡ", "sound": "ङ + ग. Often also written with anusvara (अंग्रेजी).", "example": { "native": "अङ्ग्रेजी", "roman": "aṅgreji", "en": "English (language)" } },
+          { "char": "न्न", "roman": "nn", "ipa": "nn", "sound": "Doubled न.", "example": { "native": "अन्न", "roman": "anna", "en": "grain, food grains" } },
+          { "char": "क्त", "roman": "kt", "ipa": "kt̪", "sound": "क + त.", "example": { "native": "शक्ति", "roman": "sakti", "en": "power, strength" } },
+          { "char": "ल्ल", "roman": "ll", "ipa": "ll", "sound": "Doubled ल.", "example": { "native": "बल्ल", "roman": "balla", "en": "at last, finally" } },
+          { "char": "स्व", "roman": "sw", "ipa": "sw", "sound": "स + व (व = w).", "example": { "native": "स्वागत", "roman": "swāgat", "en": "welcome" } }
+        ]
+      },
+      {
+        "id": "digits",
+        "title": "Devanagari digits",
+        "note": "Used everywhere in Nepal: prices, bus numbers, number plates, dates, official forms. Western digits are also understood.",
+        "letters": [
+          { "char": "०", "roman": "0", "ipa": "", "sound": "शून्य sunya — zero.", "example": { "native": "शून्य", "roman": "sunya", "en": "zero" } },
+          { "char": "१", "roman": "1", "ipa": "", "sound": "एक ek — one.", "example": { "native": "एक", "roman": "ek", "en": "one" } },
+          { "char": "२", "roman": "2", "ipa": "", "sound": "दुई dui — two.", "example": { "native": "दुई", "roman": "dui", "en": "two" } },
+          { "char": "३", "roman": "3", "ipa": "", "sound": "तीन tin — three.", "example": { "native": "तीन", "roman": "tin", "en": "three" } },
+          { "char": "४", "roman": "4", "ipa": "", "sound": "चार chār — four. Looks like a pretzel / figure-8 with a tail.", "example": { "native": "चार", "roman": "chār", "en": "four" } },
+          { "char": "५", "roman": "5", "ipa": "", "sound": "पाँच pāṃch — five.", "example": { "native": "पाँच", "roman": "pāṃch", "en": "five" } },
+          { "char": "६", "roman": "6", "ipa": "", "sound": "छ chha — six.", "example": { "native": "छ", "roman": "chha", "en": "six" } },
+          { "char": "७", "roman": "7", "ipa": "", "sound": "सात sāt — seven.", "example": { "native": "सात", "roman": "sāt", "en": "seven" } },
+          { "char": "८", "roman": "8", "ipa": "", "sound": "आठ āṭh — eight.", "example": { "native": "आठ", "roman": "āṭh", "en": "eight" } },
+          { "char": "९", "roman": "9", "ipa": "", "sound": "नौ nau — nine.", "example": { "native": "नौ", "roman": "nau", "en": "nine" } }
+        ]
+      }
+    ]
+  },
+  "pronunciation": [
+    {
+      "id": "inherent-a",
+      "title": "The Nepali 'a': round and dark",
+      "body": "The inherent vowel अ is the most frequent sound in Nepali, and it is **not** the a of 'cat' nor quite the 'uh' of Hindi. It is a short vowel made with the mouth slightly rounded, between the u of 'cup' and the o of British 'pot'. नमस्ते sounds like 'no-mos-te', कलम like 'ko-lom'. In this course it is written plain *a*.\n\nThe contrast that really matters is **a vs ā**: आ is a wide-open 'aa' with unrounded lips. Since Nepali doesn't distinguish long and short i/u in speech, a/ā is the only vowel-length pair you must get right — and it changes meaning constantly: कम *kam* 'less' vs काम *kām* 'work'.",
+      "tips": ["Say English 'cup' with slightly rounded lips — that is roughly अ.", "For आ, open your jaw wide as if the doctor said 'say aah'.", "Never use the flat 'æ' of 'cat' for either vowel.", "Listen for how Nepalis say their own country: नेपाल ne-PAAL, with a clear ā."],
+      "pairs": [
+        { "a": { "native": "कम", "roman": "kam", "en": "less, little" }, "b": { "native": "काम", "roman": "kām", "en": "work" } },
+        { "a": { "native": "मन", "roman": "man", "en": "mind, heart" }, "b": { "native": "मान", "roman": "mān", "en": "respect, honour" } },
+        { "a": { "native": "दल", "roman": "dal", "en": "(political) party" }, "b": { "native": "दाल", "roman": "dāl", "en": "lentil soup" } },
+        { "a": { "native": "तर", "roman": "tara", "en": "but" }, "b": { "native": "तार", "roman": "tār", "en": "wire" } },
+        { "a": { "native": "कल", "roman": "kal", "en": "machine; tap" }, "b": { "native": "काल", "roman": "kāl", "en": "death; era" } }
+      ],
+      "drill": [
+        { "native": "नमस्ते", "roman": "namaste", "en": "hello" },
+        { "native": "अब", "roman": "aba", "en": "now" },
+        { "native": "सबै", "roman": "sabai", "en": "all" },
+        { "native": "कमल", "roman": "kamal", "en": "lotus" },
+        { "native": "मान्छे", "roman": "mānchhe", "en": "person" },
+        { "native": "धन्यवाद", "roman": "dhanyabād", "en": "thank you" }
+      ]
+    },
+    {
+      "id": "final-vowel",
+      "title": "Final vowels: Nepali keeps more of them",
+      "body": "In Hindi the inherent a is dropped at the end of almost every word. Nepali drops it at the end of most **nouns and adjectives** (घर *ghar*, नाम *nām*), but **keeps** it in several big groups of words:\n\n**1. Verb forms**: छ *chha* 'is', गयो *gayo* 'went', गरेन *garena* 'didn't do', गर *gara* 'do!'. When a verb form really ends in a consonant, Nepali spelling marks it with a halanta: छन् *chhan*, गरिन् *garin*, गर् *gar*.\n**2. Words ending in a conjunct**: मित्र *mitra*, पत्र *patra*, शब्द *sabda*.\n**3. Little words**: अब *aba* 'now', तब *taba*, जब *jaba*, तर *tara* 'but', र *ra* 'and', त *ta*, न *na*, म *ma* 'I'.\n**4. Several numbers**: एघार *eghāra* 11, अठार *aṭhāra* 18.\n\nSo the same spelling can be read two ways: बस as a noun is *bas* 'bus', but as a command it is *basa* 'sit!'.",
+      "tips": ["If a verb ends without a halanta, say the final a: गर्छ is 'gar-chha', not 'garch'.", "Halanta ् at the end = stop on the consonant.", "Hindi speakers: अब, तब, कब-type words are 'aba, taba' in Nepali."],
+      "pairs": [
+        { "a": { "native": "बस", "roman": "bas", "en": "bus" }, "b": { "native": "बस", "roman": "basa", "en": "sit! (to a friend)" }, "note": "Same spelling: noun vs command." },
+        { "a": { "native": "गर", "roman": "gara", "en": "do! (तिमी)" }, "b": { "native": "गर्", "roman": "gar", "en": "do! (तँ)" } },
+        { "a": { "native": "भन", "roman": "bhana", "en": "say! (तिमी)" }, "b": { "native": "भन्", "roman": "bhan", "en": "say! (तँ)" } },
+        { "a": { "native": "छ", "roman": "chha", "en": "(he/it) is" }, "b": { "native": "छन्", "roman": "chhan", "en": "(they) are" } }
+      ],
+      "drill": [
+        { "native": "मित्र", "roman": "mitra", "en": "friend" },
+        { "native": "गयो", "roman": "gayo", "en": "went" },
+        { "native": "तर", "roman": "tara", "en": "but" },
+        { "native": "एघार", "roman": "eghāra", "en": "eleven" },
+        { "native": "गरेन", "roman": "garena", "en": "didn't do" },
+        { "native": "हुन्छ", "roman": "hunchha", "en": "OK; it happens" },
+        { "native": "घर", "roman": "ghar", "en": "house" },
+        { "native": "पत्र", "roman": "patra", "en": "letter, document" }
+      ]
+    },
+    {
+      "id": "aspiration",
+      "title": "Aspiration: plain vs breathy consonants",
+      "body": "Nepali has plain and aspirated versions of almost every stop. Plain sounds (क त प च ट) have **no** puff of air — like the p in 'spin'. Aspirated ones (ख थ फ छ ठ) have a strong puff. Getting this wrong changes words: दान *dān* 'donation' vs धान *dhān* 'rice paddy'.\n\nThe **voiced aspirates** घ झ ढ ध भ are the hardest: a voiced sound followed by breathy murmur, as in 'doghouse', 'madhouse', 'clubhouse' squashed into one syllable. They are frequent in basic words: भात *bhāt* 'rice', घर *ghar* 'house', धन्यवाद *dhanyabād* 'thanks'.\n\nRemember: *th* and *ph* are NOT English 'th' and 'f' — they are a t or p with a puff. (Some Nepalis do soften फ toward f.)",
+      "tips": ["Hold your palm in front of your mouth: still for क त प, a puff for ख थ फ.", "For plain p/t/k, think of the sound after s: 'spa, star, sky'.", "For bh/dh/gh, start from 'clubhouse, madhouse, doghouse' and shorten.", "Don't over-aspirate English-style: Nepali क in काम should feel 'soft'."],
+      "pairs": [
+        { "a": { "native": "दान", "roman": "dān", "en": "donation" }, "b": { "native": "धान", "roman": "dhān", "en": "rice paddy" } },
+        { "a": { "native": "बात", "roman": "bāt", "en": "matter (in phrases)" }, "b": { "native": "भात", "roman": "bhāt", "en": "cooked rice" } },
+        { "a": { "native": "ताल", "roman": "tāl", "en": "lake" }, "b": { "native": "थाल", "roman": "thāl", "en": "large plate" } },
+        { "a": { "native": "पाल", "roman": "pāl", "en": "tent" }, "b": { "native": "फाल", "roman": "phāl", "en": "leap, jump" } },
+        { "a": { "native": "काम", "roman": "kām", "en": "work" }, "b": { "native": "खाम", "roman": "khām", "en": "envelope" } }
+      ],
+      "drill": [
+        { "native": "भाइ", "roman": "bhāi", "en": "younger brother" },
+        { "native": "घर", "roman": "ghar", "en": "house" },
+        { "native": "धन्यवाद", "roman": "dhanyabād", "en": "thank you" },
+        { "native": "झोला", "roman": "jholā", "en": "bag" },
+        { "native": "खाना", "roman": "khānā", "en": "food" },
+        { "native": "थाहा", "roman": "thāhā", "en": "knowledge (थाहा छ = I know)" },
+        { "native": "फूल", "roman": "phul", "en": "flower" },
+        { "native": "भोक", "roman": "bhok", "en": "hunger" }
+      ]
+    },
+    {
+      "id": "retroflex",
+      "title": "Retroflex vs dental: ट vs त",
+      "body": "Nepali has two sets of t/d sounds. **Dental** त थ द ध: tongue tip pressed against the back of your upper front teeth (like French or Spanish t). **Retroflex** ट ठ ड ढ: tongue tip curled back to touch the roof of the mouth behind the gum ridge, giving a hollow, 'hard' sound.\n\nEnglish t/d are in between, and Nepalis hear them as retroflex — that's why English loans are written with ट/ड: टिकट *ṭikaṭ* 'ticket', डाक्टर *ḍākṭar* 'doctor'. Your job is mostly to make त/द far enough **forward**.\n\nBetween vowels ड and ढ often turn into a quick flap of the curled tongue (गाडी *gāḍi* 'car', पढ्नु *paḍhnu* 'to study'), like Hindi ड़/ढ़; Nepali doesn't write the difference, and neither do we.",
+      "tips": ["For त/द, put your tongue tip literally on your teeth.", "For ट/ड, curl the tip back and 'pop' it down.", "Practise साथी (friend) vs साठी (sixty) — a mix-up here is a classic learner joke."],
+      "pairs": [
+        { "a": { "native": "साथी", "roman": "sāthi", "en": "friend" }, "b": { "native": "साठी", "roman": "sāṭhi", "en": "sixty" } },
+        { "a": { "native": "धोका", "roman": "dhokā", "en": "deception" }, "b": { "native": "ढोका", "roman": "ḍhokā", "en": "door" } },
+        { "a": { "native": "पात", "roman": "pāt", "en": "leaf" }, "b": { "native": "पाठ", "roman": "pāṭh", "en": "lesson" } },
+        { "a": { "native": "दाम", "roman": "dām", "en": "price (old word)" }, "b": { "native": "डाम", "roman": "ḍām", "en": "burn mark, brand" } }
+      ],
+      "drill": [
+        { "native": "टाउको", "roman": "ṭāuko", "en": "head" },
+        { "native": "ठूलो", "roman": "ṭhulo", "en": "big" },
+        { "native": "डाँडा", "roman": "ḍāṃḍā", "en": "hill" },
+        { "native": "गाडी", "roman": "gāḍi", "en": "vehicle, car" },
+        { "native": "पढ्नु", "roman": "paḍhnu", "en": "to read, study" },
+        { "native": "तातो", "roman": "tāto", "en": "hot" },
+        { "native": "दाँत", "roman": "dāṃt", "en": "tooth" },
+        { "native": "टिकट", "roman": "ṭikaṭ", "en": "ticket" }
+      ]
+    },
+    {
+      "id": "ts-dz",
+      "title": "च छ ज झ: the Nepali 'ts' sounds",
+      "body": "In Hindi च and ज are like English ch and j. In native Nepali speech they are usually pronounced further forward, with the tongue tip behind the teeth: **च = ts** (as in 'cats'), **छ = tsh** (ts + puff), **ज = dz** (as in 'adze'), **झ = dzh**. Before i, e and y (चिया *chiyā* 'tea', जेठो *jeṭho* 'eldest') they slide back toward English ch/j. Many speakers in India (Darjeeling, Sikkim) and younger urban speakers use ch/j more.\n\nThe romanization keeps *ch chh j jh*, but aim for the ts/dz sounds. Especially notice छ *chha*: it is the most frequent word in the language ('is'), and it sounds like 'tsho', not 'cha'.\n\nAs always, keep plain च without a puff and give छ a strong one.",
+      "tips": ["Say 'cats' and keep only the 'ts' — that's च.", "छ (is) ≈ 'tsho' with a breath: म ठीक छु ≈ 'ma ṭhik tshu'.", "Don't worry if you say English ch/j — you'll be understood; ts/dz just sounds more native."],
+      "pairs": [
+        { "a": { "native": "चाल", "roman": "chāl", "en": "gait; trick" }, "b": { "native": "छाल", "roman": "chhāl", "en": "bark, skin, hide" } },
+        { "a": { "native": "चाक", "roman": "chāk", "en": "potter's wheel" }, "b": { "native": "छाक", "roman": "chhāk", "en": "a meal (one sitting)" } },
+        { "a": { "native": "जाल", "roman": "jāl", "en": "net" }, "b": { "native": "झाल", "roman": "jhāl", "en": "cymbals" } }
+      ],
+      "drill": [
+        { "native": "चिया", "roman": "chiyā", "en": "tea" },
+        { "native": "छोरा", "roman": "chhorā", "en": "son" },
+        { "native": "छोरी", "roman": "chhori", "en": "daughter" },
+        { "native": "चामल", "roman": "chāmal", "en": "uncooked rice" },
+        { "native": "जाडो", "roman": "jāḍo", "en": "cold (weather)" },
+        { "native": "झ्याल", "roman": "jhyāl", "en": "window" },
+        { "native": "म ठीक छु", "roman": "ma ṭhik chhu", "en": "I'm fine" },
+        { "native": "बच्चा", "roman": "bachchā", "en": "baby" }
+      ]
+    },
+    {
+      "id": "b-w",
+      "title": "ब and व: one letter, two sounds",
+      "body": "Nepali speech has no separate 'v' sound. The letter **व** is pronounced:\n\n**b** at the start of most words: वन *ban* 'forest', वर्ष *barsa* 'year', विद्यार्थी *bidyārthi* 'student', and inside धन्यवाद *dhanyabād*.\n**w** after another consonant: स्वागत *swāgat* 'welcome', द्वार *dwār* 'gate', ज्वरो *jwaro* 'fever'; and between vowels: हावा *hāwā* 'wind', नवौँ *nawauṃ* 'ninth'.\n\nSo ब and व often sound identical, and many words have both spellings (आइतबार is now standard, but you'll see आइतवार). English 'v' in loans becomes b or bh: भिसा *bhisā* 'visa', भिडियो *bhiḍiyo* 'video'.",
+      "tips": ["Never use an English v sound in Nepali.", "Rule of thumb: व at the start = b; व after a consonant or between vowels = w.", "When you hear b, it might be spelled ब or व — check the spelling when you learn a word."],
+      "pairs": [
+        { "a": { "native": "बीस", "roman": "bis", "en": "twenty" }, "b": { "native": "विष", "roman": "bis", "en": "poison" }, "note": "Identical in speech: ब=व, ई=इ, ष=स." },
+        { "a": { "native": "बाद", "roman": "bād", "en": "deduction" }, "b": { "native": "वाद", "roman": "bād", "en": "-ism, doctrine; argument" }, "note": "Homophones." }
+      ],
+      "drill": [
+        { "native": "धन्यवाद", "roman": "dhanyabād", "en": "thank you" },
+        { "native": "विद्यालय", "roman": "bidyālaya", "en": "school" },
+        { "native": "स्वागत", "roman": "swāgat", "en": "welcome" },
+        { "native": "ज्वरो", "roman": "jwaro", "en": "fever" },
+        { "native": "हावा", "roman": "hāwā", "en": "wind, air" },
+        { "native": "विश्वास", "roman": "biswās", "en": "trust, belief" },
+        { "native": "वर्ष", "roman": "barsa", "en": "year" },
+        { "native": "व्यापार", "roman": "byāpār", "en": "trade, business" }
+      ]
+    },
+    {
+      "id": "sibilants",
+      "title": "श ष स — three letters, one 's'",
+      "body": "Spelling distinguishes three s-letters, but in everyday Nepali they are all pronounced **s**: देश *des* 'country', भाषा *bhāsā* 'language', सहर *sahar* 'city'. Some educated speakers say 'sh' in a few Sanskrit words (श्री *shri*), and Darjeeling/Sikkim speakers may use more 'sh', but plain s is the Kathmandu norm and always correct.\n\nTwo compound letters also surprise learners: **ज्ञ** is 'gya' (ज्ञान *gyān* 'knowledge'), and **क्ष** is 'chhya' at the start of a word and 'kchh' inside (क्षमा *chhyamā* 'forgiveness', शिक्षक *sikchhak* 'teacher'). Neither is the 'ksh/gy' of Hindi.\n\nThe flip side: English 'sh' in loanwords is usually s too (शो/सो *so* 'show', मेसिन *mesin* 'machine').",
+      "tips": ["When reading, treat श ष स identically: s.", "Learn the spelling separately — it matters for writing exams, not for speaking.", "ज्ञ = gya, क्ष = chhya: memorise these two with ज्ञान and क्षमा."],
+      "pairs": [
+        { "a": { "native": "शहर", "roman": "sahar", "en": "city (older spelling)" }, "b": { "native": "सहर", "roman": "sahar", "en": "city (standard spelling)" }, "note": "Two spellings, one pronunciation." },
+        { "a": { "native": "शान", "roman": "sān", "en": "pride, splendour" }, "b": { "native": "सान", "roman": "sān", "en": "whetstone; a sign/gesture" }, "note": "Homophones." }
+      ],
+      "drill": [
+        { "native": "शुभकामना", "roman": "subhakāmanā", "en": "best wishes" },
+        { "native": "देश", "roman": "des", "en": "country" },
+        { "native": "शनिबार", "roman": "sanibār", "en": "Saturday" },
+        { "native": "विशेष", "roman": "bises", "en": "special" },
+        { "native": "श्रीमती", "roman": "srimati", "en": "wife" },
+        { "native": "ज्ञान", "roman": "gyān", "en": "knowledge" },
+        { "native": "क्षमा", "roman": "chhyamā", "en": "forgiveness" },
+        { "native": "शिक्षक", "roman": "sikchhak", "en": "teacher" }
+      ]
+    },
+    {
+      "id": "vowel-length",
+      "title": "No long and short i/u in speech",
+      "body": "Devanagari has a 'short' and a 'long' version of i (इ/ई, ि/ी) and u (उ/ऊ, ु/ू). In Hindi the long ones really are longer. **In Nepali they are pronounced the same** — the spelling difference is historical. दिन *din* 'day' and दीन *din* 'humble' are homophones; पानी 'water' ends in an ordinary i.\n\nThis is great news for speaking — you have fewer sounds to master — but you must still learn each word's spelling. This course writes plain *i* and *u* for both. The vowel contrast that does matter is **a vs ā** (see 'The Nepali a').\n\nVowel length in Nepali is controlled by stress and syllable shape instead: vowels before a doubled consonant are short and clipped (पत्ती *patti*), and the first syllable of a word usually carries a little extra weight.",
+      "tips": ["Read ि and ी, ु and ू the same.", "Don't lengthen English-style: पानी is 'paa-ni', not 'paa-neee'.", "When writing, check the dictionary — spelling mistakes with ि/ी are the most common ones even for Nepalis."],
+      "pairs": [
+        { "a": { "native": "दिन", "roman": "din", "en": "day" }, "b": { "native": "दीन", "roman": "din", "en": "poor, humble" }, "note": "Pronounced the same." },
+        { "a": { "native": "सुत", "roman": "suta", "en": "sleep! (to a friend)" }, "b": { "native": "सूत", "roman": "sut", "en": "cotton thread" }, "note": "Only the final vowel differs, not the u." }
+      ],
+      "drill": [
+        { "native": "पानी", "roman": "pāni", "en": "water" },
+        { "native": "दिदी", "roman": "didi", "en": "older sister" },
+        { "native": "दूध", "roman": "dudh", "en": "milk" },
+        { "native": "चिसो", "roman": "chiso", "en": "cold (to touch)" },
+        { "native": "बहिनी", "roman": "bahini", "en": "younger sister" },
+        { "native": "सुन", "roman": "sun", "en": "gold" },
+        { "native": "नीलो", "roman": "nilo", "en": "blue" }
+      ]
+    },
+    {
+      "id": "nasal-vowels",
+      "title": "Nasal vowels (ँ and ं)",
+      "body": "A **chandrabindu** ँ (or a dot ं above the line) makes a vowel nasal: air goes through the nose as well as the mouth, as in French 'bon', with no n consonant at the end. We write it *ṃ*: गाउँ *gāuṃ* 'village', तपाईं *tapāiṃ* 'you'.\n\nNasal vowels are everywhere in Nepali grammar: छौँ *chhauṃ* 'we are' vs छौ *chhau* 'you are'; हौँ *hauṃ* 'we are' vs हौ *hau* 'you are'; गरौँ *garauṃ* 'let's do'. Dropping the nasal changes the person!\n\nNote: a dot before a consonant is just a normal nasal consonant: संसार *sansār*, अंक *aṅk*.",
+      "tips": ["Hum while saying the vowel — if your nose vibrates, it's nasal.", "Don't add an n or ng: गाउँ is 'gaa-ũ', not 'gaa-oong'.", "Pinch your nose: an oral vowel sounds the same, a nasal one changes."],
+      "pairs": [
+        { "a": { "native": "छौ", "roman": "chhau", "en": "you are (तिमी)" }, "b": { "native": "छौँ", "roman": "chhauṃ", "en": "we are" } },
+        { "a": { "native": "हौ", "roman": "hau", "en": "you are (तिमी, identity)" }, "b": { "native": "हौँ", "roman": "hauṃ", "en": "we are (identity)" } },
+        { "a": { "native": "बास", "roman": "bās", "en": "a night's lodging" }, "b": { "native": "बाँस", "roman": "bāṃs", "en": "bamboo" } },
+        { "a": { "native": "गाउ", "roman": "gāu", "en": "sing! (to a friend)" }, "b": { "native": "गाउँ", "roman": "gāuṃ", "en": "village" } }
+      ],
+      "drill": [
+        { "native": "तपाईं", "roman": "tapāiṃ", "en": "you (polite)" },
+        { "native": "उहाँ", "roman": "uhāṃ", "en": "he/she (respectful)" },
+        { "native": "कहाँ", "roman": "kahāṃ", "en": "where" },
+        { "native": "आँखा", "roman": "āṃkhā", "en": "eye" },
+        { "native": "हाँस्नु", "roman": "hāṃsnu", "en": "to laugh" },
+        { "native": "दाँत", "roman": "dāṃt", "en": "tooth" },
+        { "native": "म हुँ", "roman": "ma huṃ", "en": "it's me / I am" }
+      ]
+    },
+    {
+      "id": "geminates",
+      "title": "Double consonants",
+      "body": "A doubled consonant (written as a conjunct: त्त, च्च, ट्ठ) is **held** for a moment before release, like the 'tt' in Italian 'gatto' or the join in English 'bookcase'. The vowel before it is short and clipped.\n\nDoubling changes meaning: कति *kati* 'how much?' vs कत्ति *katti* '(not) at all'; पति *pati* 'husband' vs पत्ती *patti* 'tea leaves'.",
+      "tips": ["Pause on the consonant: 'kat-ti', 'bach-chā'.", "Don't double by accident when a word has a single consonant (कति, पति).", "Many numbers have doubles: सत्तरी 70, अट्ठाइस 28, छब्बीस 26."],
+      "pairs": [
+        { "a": { "native": "कति", "roman": "kati", "en": "how much / how many" }, "b": { "native": "कत्ति", "roman": "katti", "en": "(not) at all" } },
+        { "a": { "native": "पति", "roman": "pati", "en": "husband (formal)" }, "b": { "native": "पत्ती", "roman": "patti", "en": "tea leaves" } },
+        { "a": { "native": "गदा", "roman": "gadā", "en": "mace (club)" }, "b": { "native": "गद्दा", "roman": "gaddā", "en": "mattress" } }
+      ],
+      "drill": [
+        { "native": "पक्का", "roman": "pakkā", "en": "sure, definite" },
+        { "native": "बच्चा", "roman": "bachchā", "en": "baby" },
+        { "native": "सत्तरी", "roman": "sattari", "en": "seventy" },
+        { "native": "अट्ठाइस", "roman": "aṭṭhāis", "en": "twenty-eight" },
+        { "native": "जुत्ता", "roman": "juttā", "en": "shoe" },
+        { "native": "चिट्ठी", "roman": "chiṭṭhi", "en": "letter" },
+        { "native": "अन्न", "roman": "anna", "en": "grain" }
+      ]
+    },
+    {
+      "id": "diphthongs",
+      "title": "e/o vs ai/au",
+      "body": "ए *e* and ओ *o* are **pure** vowels, as in Spanish: no gliding 'ay' or 'ow'. Keep your tongue and lips still: नेपाल is 'ne-pāl', not 'nay-pāl'; को *ko* is short and clean.\n\nऐ *ai* and औ *au* are **real glides** in Nepali — unlike Hindi, where they are often flattened. पैसा 'money' is 'pai-sā' (like 'pie'), नौ 'nine' is 'nau' (like 'now'). This makes several clear minimal pairs.",
+      "tips": ["e = French 'é', held steady.", "o = Spanish 'o', no w at the end.", "ai = 'eye' with a darker start; au = 'ow' in 'how'."],
+      "pairs": [
+        { "a": { "native": "पेसा", "roman": "pesā", "en": "profession" }, "b": { "native": "पैसा", "roman": "paisā", "en": "money" } },
+        { "a": { "native": "मेला", "roman": "melā", "en": "fair, festival market" }, "b": { "native": "मैला", "roman": "mailā", "en": "dirty; filth" } },
+        { "a": { "native": "चोर", "roman": "chor", "en": "thief" }, "b": { "native": "चौर", "roman": "chaur", "en": "meadow, pasture" } },
+        { "a": { "native": "कोसी", "roman": "kosi", "en": "Koshi (river)" }, "b": { "native": "कौसी", "roman": "kausi", "en": "flat rooftop terrace" } }
+      ],
+      "drill": [
+        { "native": "धेरै", "roman": "dherai", "en": "a lot, very" },
+        { "native": "सबै", "roman": "sabai", "en": "all" },
+        { "native": "नौ", "roman": "nau", "en": "nine" },
+        { "native": "भैंसी", "roman": "bhaiṃsi", "en": "buffalo (female)" },
+        { "native": "दौडनु", "roman": "dauḍanu", "en": "to run" },
+        { "native": "नेपाल", "roman": "nepāl", "en": "Nepal" },
+        { "native": "मोटो", "roman": "moṭo", "en": "fat" }
+      ]
+    },
+    {
+      "id": "intonation",
+      "title": "Questions, intonation and little particles",
+      "body": "A yes/no question in Nepali is just a statement with **rising intonation** at the end — no question word is needed: तपाईं नेपाली हो। 'You are Nepali.' → तपाईं नेपाली हो? 'Are you Nepali?' Stress is light and usually on the first syllable; don't stress the end of words English-style.\n\nSpoken Nepali is full of small sentence-final particles that carry attitude:\n**है** *hai* — friendly 'OK?/won't you?' (आउनुहोस् है 'do come, OK?')\n**नि** *ni* — 'you know', 'what about…?' (तपाईं नि? 'And you?')\n**त** *ta* — 'though, as for' (म त जान्छु 'I, for one, am going')\n**न** *na* — softens commands (बस न 'do sit')\n**र** *ra* at the end — surprise/doubt (हो र? 'Really?')\n**हगि/हगी** *hagi* — Kathmandu 'right?'",
+      "tips": ["Raise your pitch on the last syllable for yes/no questions.", "Use नि for 'and you?': म ठीक छु, तपाईं नि?", "Add है to invitations and goodbyes to sound warm.", "Question words (के, कहाँ…) usually go right before the verb, not first."],
+      "pairs": [
+        { "a": { "native": "तपाईं नेपाली हो।", "roman": "tapāiṃ nepāli ho.", "en": "You are Nepali." }, "b": { "native": "तपाईं नेपाली हो?", "roman": "tapāiṃ nepāli ho?", "en": "Are you Nepali?" }, "note": "Only the intonation differs." },
+        { "a": { "native": "खाना खानुभयो।", "roman": "khānā khānubhayo.", "en": "You have eaten." }, "b": { "native": "खाना खानुभयो?", "roman": "khānā khānubhayo?", "en": "Have you eaten?" } },
+        { "a": { "native": "हो।", "roman": "ho.", "en": "Yes, it is." }, "b": { "native": "हो र?", "roman": "ho ra?", "en": "Really?" } }
+      ],
+      "drill": [
+        { "native": "तपाईं नि?", "roman": "tapāiṃ ni?", "en": "And you?" },
+        { "native": "फेरि आउनुहोस् है।", "roman": "pheri āunuhos hai.", "en": "Do come again, OK?" },
+        { "native": "म त जान्छु।", "roman": "ma ta jānchhu.", "en": "Well, I'm going." },
+        { "native": "बस न।", "roman": "basa na.", "en": "Go on, sit down." },
+        { "native": "राम्रो छ, हगि?", "roman": "rāmro chha, hagi?", "en": "It's nice, isn't it?" },
+        { "native": "के भयो?", "roman": "ke bhayo?", "en": "What happened?" }
+      ]
+    },
+    {
+      "id": "spelling-surprises",
+      "title": "Spelling vs sound: other surprises",
+      "body": "A few more places where Nepali pronunciation departs from the letters:\n\n**Weak h**: ह between vowels is often barely heard — बहिनी sounds like 'bo-i-ni', पहिलो 'pai-lo', कहिले 'kai-le'. We keep the h in romanization because careful speakers say it.\n**ए and य**: initial य in a few words is said 'e' (यो *yo* 'this' stays yo, but एउटा *euṭā* 'one (thing)' is often heard 'yauṭā').\n**ण** is just n; **ऋ** is ri (कृपया *kripayā*).\n**Visarga** ः inside a word doubles the next sound (दुःख ≈ 'dukkha').\n**-यो** after a consonant: गर्‍यो *garyo*, पर्‍यो *paryo* — the eyelash ra (र्‍) is pronounced as an ordinary r.\n**English loans** follow Nepali sounds: z → j (जु *ju* 'zoo'), v → bh/b (भ्यान *bhyān* 'van'), f → ph (फोन *phon*), and initial 'st/sk' often gets an i- or e- (इस्कुल *iskul* 'school', colloquial).",
+      "tips": ["Don't over-pronounce h in the middle of words.", "Expect loanwords to be 'Nepalified' — and copy that pronunciation; it's what people understand.", "Spell-check with a dictionary; say it the way you hear it."],
+      "drill": [
+        { "native": "बहिनी", "roman": "bahini", "en": "younger sister" },
+        { "native": "पहिलो", "roman": "pahilo", "en": "first" },
+        { "native": "कहिले", "roman": "kahile", "en": "when" },
+        { "native": "कृपया", "roman": "kripayā", "en": "please (formal)" },
+        { "native": "पर्‍यो", "roman": "paryo", "en": "it fell / it was necessary" },
+        { "native": "स्कुल", "roman": "skul", "en": "school" },
+        { "native": "फोन", "roman": "phon", "en": "phone" },
+        { "native": "भ्यान", "roman": "bhyān", "en": "van" }
+      ]
+    }
+  ],
+  "numbers": [
+    { "n": 0, "native": "शून्य", "roman": "sunya", "digit": "०" },
+    { "n": 1, "native": "एक", "roman": "ek", "digit": "१" },
+    { "n": 2, "native": "दुई", "roman": "dui", "digit": "२" },
+    { "n": 3, "native": "तीन", "roman": "tin", "digit": "३" },
+    { "n": 4, "native": "चार", "roman": "chār", "digit": "४" },
+    { "n": 5, "native": "पाँच", "roman": "pāṃch", "digit": "५" },
+    { "n": 6, "native": "छ", "roman": "chha", "digit": "६" },
+    { "n": 7, "native": "सात", "roman": "sāt", "digit": "७" },
+    { "n": 8, "native": "आठ", "roman": "āṭh", "digit": "८" },
+    { "n": 9, "native": "नौ", "roman": "nau", "digit": "९" },
+    { "n": 10, "native": "दस", "roman": "das", "digit": "१०" },
+    { "n": 11, "native": "एघार", "roman": "eghāra", "digit": "११" },
+    { "n": 12, "native": "बाह्र", "roman": "bāhra", "digit": "१२" },
+    { "n": 13, "native": "तेह्र", "roman": "tehra", "digit": "१३" },
+    { "n": 14, "native": "चौध", "roman": "chaudha", "digit": "१४" },
+    { "n": 15, "native": "पन्ध्र", "roman": "pandhra", "digit": "१५" },
+    { "n": 16, "native": "सोह्र", "roman": "sohra", "digit": "१६" },
+    { "n": 17, "native": "सत्र", "roman": "satra", "digit": "१७" },
+    { "n": 18, "native": "अठार", "roman": "aṭhāra", "digit": "१८" },
+    { "n": 19, "native": "उन्नाइस", "roman": "unnāis", "digit": "१९" },
+    { "n": 20, "native": "बीस", "roman": "bis", "digit": "२०" },
+    { "n": 21, "native": "एक्काइस", "roman": "ekkāis", "digit": "२१" },
+    { "n": 22, "native": "बाइस", "roman": "bāis", "digit": "२२" },
+    { "n": 23, "native": "तेइस", "roman": "teis", "digit": "२३" },
+    { "n": 24, "native": "चौबीस", "roman": "chaubis", "digit": "२४" },
+    { "n": 25, "native": "पच्चीस", "roman": "pachchis", "digit": "२५" },
+    { "n": 26, "native": "छब्बीस", "roman": "chhabbis", "digit": "२६" },
+    { "n": 27, "native": "सत्ताइस", "roman": "sattāis", "digit": "२७" },
+    { "n": 28, "native": "अट्ठाइस", "roman": "aṭṭhāis", "digit": "२८" },
+    { "n": 29, "native": "उनन्तीस", "roman": "unantis", "digit": "२९" },
+    { "n": 30, "native": "तीस", "roman": "tis", "digit": "३०" },
+    { "n": 31, "native": "एकतीस", "roman": "ektis", "digit": "३१" },
+    { "n": 32, "native": "बत्तीस", "roman": "battis", "digit": "३२" },
+    { "n": 33, "native": "तेत्तीस", "roman": "tettis", "digit": "३३" },
+    { "n": 34, "native": "चौँतीस", "roman": "chauṃtis", "digit": "३४" },
+    { "n": 35, "native": "पैँतीस", "roman": "paiṃtis", "digit": "३५" },
+    { "n": 36, "native": "छत्तीस", "roman": "chhattis", "digit": "३६" },
+    { "n": 37, "native": "सैँतीस", "roman": "saiṃtis", "digit": "३७" },
+    { "n": 38, "native": "अठतीस", "roman": "aṭhtis", "digit": "३८" },
+    { "n": 39, "native": "उनन्चालीस", "roman": "unanchālis", "digit": "३९" },
+    { "n": 40, "native": "चालीस", "roman": "chālis", "digit": "४०" },
+    { "n": 41, "native": "एकचालीस", "roman": "ekchālis", "digit": "४१" },
+    { "n": 42, "native": "बयालीस", "roman": "bayālis", "digit": "४२" },
+    { "n": 43, "native": "त्रिचालीस", "roman": "trichālis", "digit": "४३" },
+    { "n": 44, "native": "चवालीस", "roman": "chawālis", "digit": "४४" },
+    { "n": 45, "native": "पैँतालीस", "roman": "paiṃtālis", "digit": "४५" },
+    { "n": 46, "native": "छयालीस", "roman": "chhayālis", "digit": "४६" },
+    { "n": 47, "native": "सतचालीस", "roman": "satchālis", "digit": "४७" },
+    { "n": 48, "native": "अठचालीस", "roman": "aṭhchālis", "digit": "४८" },
+    { "n": 49, "native": "उनन्पचास", "roman": "unanpachās", "digit": "४९" },
+    { "n": 50, "native": "पचास", "roman": "pachās", "digit": "५०" },
+    { "n": 51, "native": "एकाउन्न", "roman": "ekāunna", "digit": "५१" },
+    { "n": 52, "native": "बाउन्न", "roman": "bāunna", "digit": "५२" },
+    { "n": 53, "native": "त्रिपन्न", "roman": "tripanna", "digit": "५३" },
+    { "n": 54, "native": "चउन्न", "roman": "chaunna", "digit": "५४" },
+    { "n": 55, "native": "पचपन्न", "roman": "pachpanna", "digit": "५५" },
+    { "n": 56, "native": "छपन्न", "roman": "chhapanna", "digit": "५६" },
+    { "n": 57, "native": "सन्ताउन्न", "roman": "santāunna", "digit": "५७" },
+    { "n": 58, "native": "अन्ठाउन्न", "roman": "anṭhāunna", "digit": "५८" },
+    { "n": 59, "native": "उनन्साठी", "roman": "unansāṭhi", "digit": "५९" },
+    { "n": 60, "native": "साठी", "roman": "sāṭhi", "digit": "६०" },
+    { "n": 61, "native": "एकसट्ठी", "roman": "eksaṭṭhi", "digit": "६१" },
+    { "n": 62, "native": "बयसट्ठी", "roman": "bayasaṭṭhi", "digit": "६२" },
+    { "n": 63, "native": "त्रिसट्ठी", "roman": "trisaṭṭhi", "digit": "६३" },
+    { "n": 64, "native": "चौसट्ठी", "roman": "chausaṭṭhi", "digit": "६४" },
+    { "n": 65, "native": "पैँसट्ठी", "roman": "paiṃsaṭṭhi", "digit": "६५" },
+    { "n": 66, "native": "छयसट्ठी", "roman": "chhayasaṭṭhi", "digit": "६६" },
+    { "n": 67, "native": "सतसट्ठी", "roman": "satsaṭṭhi", "digit": "६७" },
+    { "n": 68, "native": "अठसट्ठी", "roman": "aṭhsaṭṭhi", "digit": "६८" },
+    { "n": 69, "native": "उनन्सत्तरी", "roman": "unansattari", "digit": "६९" },
+    { "n": 70, "native": "सत्तरी", "roman": "sattari", "digit": "७०" },
+    { "n": 71, "native": "एकहत्तर", "roman": "ekhattar", "digit": "७१" },
+    { "n": 72, "native": "बहत्तर", "roman": "bahattar", "digit": "७२" },
+    { "n": 73, "native": "त्रिहत्तर", "roman": "trihattar", "digit": "७३" },
+    { "n": 74, "native": "चौहत्तर", "roman": "chauhattar", "digit": "७४" },
+    { "n": 75, "native": "पचहत्तर", "roman": "pachahattar", "digit": "७५" },
+    { "n": 76, "native": "छयहत्तर", "roman": "chhayahattar", "digit": "७६" },
+    { "n": 77, "native": "सतहत्तर", "roman": "satahattar", "digit": "७७" },
+    { "n": 78, "native": "अठहत्तर", "roman": "aṭhahattar", "digit": "७८" },
+    { "n": 79, "native": "उनासी", "roman": "unāsi", "digit": "७९" },
+    { "n": 80, "native": "असी", "roman": "asi", "digit": "८०" },
+    { "n": 81, "native": "एकासी", "roman": "ekāsi", "digit": "८१" },
+    { "n": 82, "native": "बयासी", "roman": "bayāsi", "digit": "८२" },
+    { "n": 83, "native": "त्रियासी", "roman": "triyāsi", "digit": "८३" },
+    { "n": 84, "native": "चौरासी", "roman": "chaurāsi", "digit": "८४" },
+    { "n": 85, "native": "पचासी", "roman": "pachāsi", "digit": "८५" },
+    { "n": 86, "native": "छयासी", "roman": "chhayāsi", "digit": "८६" },
+    { "n": 87, "native": "सतासी", "roman": "satāsi", "digit": "८७" },
+    { "n": 88, "native": "अठासी", "roman": "aṭhāsi", "digit": "८८" },
+    { "n": 89, "native": "उनान्नब्बे", "roman": "unānnabbe", "digit": "८९" },
+    { "n": 90, "native": "नब्बे", "roman": "nabbe", "digit": "९०" },
+    { "n": 91, "native": "एकानब्बे", "roman": "ekānabbe", "digit": "९१" },
+    { "n": 92, "native": "बयानब्बे", "roman": "bayānabbe", "digit": "९२" },
+    { "n": 93, "native": "त्रियानब्बे", "roman": "triyānabbe", "digit": "९३" },
+    { "n": 94, "native": "चौरानब्बे", "roman": "chaurānabbe", "digit": "९४" },
+    { "n": 95, "native": "पन्चानब्बे", "roman": "panchānabbe", "digit": "९५" },
+    { "n": 96, "native": "छयानब्बे", "roman": "chhayānabbe", "digit": "९६" },
+    { "n": 97, "native": "सन्तानब्बे", "roman": "santānabbe", "digit": "९७" },
+    { "n": 98, "native": "अन्ठानब्बे", "roman": "anṭhānabbe", "digit": "९८" },
+    { "n": 99, "native": "उनान्सय", "roman": "unānsaya", "digit": "९९" },
+    { "n": 100, "native": "एक सय", "roman": "ek saya", "digit": "१००", "note": "also just सय saya" },
+    { "n": 200, "native": "दुई सय", "roman": "dui saya", "digit": "२००" },
+    { "n": 500, "native": "पाँच सय", "roman": "pāṃch saya", "digit": "५००" },
+    { "n": 1000, "native": "एक हजार", "roman": "ek hajār", "digit": "१,०००" },
+    { "n": 100000, "native": "एक लाख", "roman": "ek lākh", "digit": "१,००,०००", "note": "100 thousand; Nepal groups digits as 1,00,000" },
+    { "n": 1000000, "native": "दस लाख", "roman": "das lākh", "digit": "१०,००,०००", "note": "one million" },
+    { "n": 10000000, "native": "एक करोड", "roman": "ek karoḍ", "digit": "१,००,००,०००", "note": "100 lakh = ten million" },
+    { "n": 1000000000, "native": "एक अर्ब", "roman": "ek arba", "digit": "१,००,००,००,०००", "note": "100 crore = one billion" }
+  ]
+}

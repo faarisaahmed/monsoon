@@ -2,6 +2,7 @@
 // and speech recognition for pronunciation checks.
 
 import { settings } from './store.js';
+import { hashStr } from './ui.js';
 
 const synth = window.speechSynthesis;
 let voices = [];
@@ -32,25 +33,73 @@ function pickVoice(tts) {
 
 export const hasDeviceVoice = (tts) => !!pickVoice(tts);
 
-// Languages Google's public TTS endpoint is known to speak.
-const ONLINE = new Set(['hi', 'ur', 'bn', 'pa', 'mr', 'gu', 'ta', 'te', 'kn', 'ml', 'ne']);
-export const canSpeak = (tts) => hasDeviceVoice(tts) || (settings().onlineVoice && ONLINE.has(tts.split('-')[0]));
-
-let current = null;
-export function stop() {
-  if (synth) synth.cancel();
-  if (current) {
-    current.pause();
-    current = null;
+// ---------- recorded audio ----------
+// Every word, phrase and sentence in the course has a pre-generated clip in audio/<code>/.
+// audio/<code>/index.json lists which ones exist (by hashStr of the text).
+const clips = new Map(); // tts -> { code, set }
+export async function loadClips(code, tts) {
+  if (clips.has(tts)) return;
+  try {
+    const r = await fetch(`audio/${code}/index.json`);
+    clips.set(tts, { code, set: new Set(r.ok ? await r.json() : []) });
+  } catch {
+    clips.set(tts, { code, set: new Set() });
   }
 }
+const clipUrl = (text, tts) => {
+  const c = clips.get(tts);
+  const key = hashStr(text.trim());
+  return c && c.set.has(key) ? `audio/${c.code}/${key}.mp3` : null;
+};
+const hasClips = (tts) => (clips.get(tts)?.set.size || 0) > 0;
 
-// Speak text. Resolves when finished (or immediately if no voice is available).
-export function speak(text, tts, { rate } = {}) {
+// One shared <audio> element. iOS only lets a page play sound without a tap once an element
+// has been started from a tap, so we "unlock" it on the first interaction and reuse it.
+const player = new Audio();
+player.preload = 'auto';
+let unlocked = false;
+const SILENT = 'data:audio/mpeg;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjYyLjEyLjEwMgAAAAAAAAAAAAAA//NwwAAAAAAAAAAAAEluZm8AAAAPAAAABgAAAykAWlpaWlpaWlpaWlpaWlpaWnt7e3t7e3t7e3t7e3t7e3t7nJycnJycnJycnJycnJycnL29vb29vb29vb29vb29vb293t7e3t7e3t7e3t7e3t7e3t7/////////////////////AAAAAExhdmM2Mi4yOAAAAAAAAAAAAAAAACQCowAAAAAAAAMpEpf5vwAAAAAAAAAAAAAAAAD/80DEAAAAA0gAAAAATEFNRTQuMFVVVVVVVVVVVVVVVUxBTUU0LjBVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zQsRbAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVVUxBTUU0LjBVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVf/zQMSkAAADSAAAAABVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTQuMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//NCxKMAAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTQuMFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//NAxKQAAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/80LEowAAA0gAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVU=';
+function unlock() {
+  if (unlocked) return;
+  unlocked = true;
+  player.src = SILENT;
+  player.play().catch(() => (unlocked = false));
+}
+['pointerdown', 'touchend', 'keydown'].forEach((ev) => window.addEventListener(ev, unlock, { capture: true, passive: true }));
+
+// Languages Google's public TTS endpoint is known to speak (last-resort fallback).
+const ONLINE = new Set(['hi', 'ur', 'bn', 'pa', 'mr', 'gu', 'ta', 'te', 'kn', 'ml', 'ne']);
+export const canSpeak = (tts) => hasClips(tts) || hasDeviceVoice(tts) || (settings().onlineVoice && ONLINE.has(tts.split('-')[0]));
+
+let synthActive = false;
+export function stop() {
+  if (synth && synthActive) synth.cancel();
+  synthActive = false;
+  if (!player.paused) player.pause();
+}
+
+function playUrl(url, rate) {
+  return new Promise((resolve) => {
+    player.onended = () => resolve(true);
+    player.onerror = () => resolve(false);
+    player.src = url;
+    player.playbackRate = rate;
+    player.preservesPitch = true;
+    player.play().catch(() => resolve(false));
+  });
+}
+
+// Speak text: recorded clip first, then a device voice, then the online voice.
+// Resolves true when something played.
+export async function speak(text, tts, { rate } = {}) {
   stop();
   rate = rate ?? settings().rate ?? 0.9;
+  const url = clipUrl(text, tts);
+  // clips are recorded at a learner-friendly pace, so the default rate plays them as-is
+  if (url && (await playUrl(url, Math.min(1.4, Math.max(0.5, rate / 0.9))))) return true;
   const voice = pickVoice(tts);
   if (voice && synth) {
+    synthActive = true;
     return new Promise((resolve) => {
       const u = new SpeechSynthesisUtterance(text);
       u.voice = voice;
@@ -64,19 +113,10 @@ export function speak(text, tts, { rate } = {}) {
   }
   const tl = tts.split('-')[0];
   if (settings().onlineVoice && ONLINE.has(tl)) {
-    return new Promise((resolve) => {
-      const url = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=${tl}&ttsspeed=${rate < 0.8 ? 0.4 : 1}&q=${encodeURIComponent(text.slice(0, 190))}`;
-      const a = new Audio();
-      a.referrerPolicy = 'no-referrer';
-      a.src = url;
-      a.playbackRate = rate < 0.8 ? 1 : Math.max(0.7, rate);
-      current = a;
-      a.onended = () => resolve(true);
-      a.onerror = () => resolve(false);
-      a.play().catch(() => resolve(false));
-    });
+    const online = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=${tl}&q=${encodeURIComponent(text.slice(0, 190))}`;
+    return playUrl(online, Math.min(1.2, Math.max(0.6, rate)));
   }
-  return Promise.resolve(false);
+  return false;
 }
 
 // ---------- recording ----------
@@ -123,7 +163,9 @@ export async function record(maxMs = 6000, onLevel) {
 
 // ---------- recognition ----------
 const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-export const canRecognize = () => !!SR;
+// languages this browser's recogniser turned out not to support (we switch to record & compare)
+const unsupported = new Set();
+export const canRecognize = (tts) => !!SR && !unsupported.has(tts);
 
 export function recognize(tts, { timeout = 7000 } = {}) {
   return new Promise((resolve, reject) => {
@@ -142,7 +184,8 @@ export function recognize(tts, { timeout = 7000 } = {}) {
     };
     r.onerror = (e) => {
       clearTimeout(t);
-      if (!finished) reject(new Error(e.error === 'no-speech' ? 'No speech heard — try again a little louder.' : e.error === 'not-allowed' ? 'Microphone permission was denied.' : 'Recognition error: ' + e.error));
+      if (e.error === 'language-not-supported') unsupported.add(tts);
+      if (!finished) reject(new Error(e.error === 'no-speech' ? 'No speech heard — try again a little louder.' : e.error === 'not-allowed' ? 'Microphone permission was denied.' : e.error === 'language-not-supported' ? 'Your browser cannot recognise this language — press the mic again to record yourself and compare instead.' : 'Recognition error: ' + e.error));
     };
     r.onend = () => {
       clearTimeout(t);

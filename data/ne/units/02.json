@@ -1,0 +1,111 @@
+{
+  "id": 2,
+  "title": "About me",
+  "goal": "Introduce yourself, say where you're from and what languages you speak, and ask other people the same.",
+  "intro": "In this unit you'll learn the personal pronouns — including Nepali's three levels of 'he/she' — and the two verbs 'to be'. Nepali uses **हो** to say *what* something is (identity) and **छ** to say *where* or *how* it is (location, state, existence). Getting these two right is one of the keys to sounding natural.\n\nYou'll also learn the essential question words and some survival phrases for when you don't understand.",
+  "vocab": [
+    { "native": "हामी", "roman": "hāmi", "en": "we", "pos": "pron", "note": "Also हामीहरू hāmiharu (clearly plural)." },
+    { "native": "ऊ", "roman": "u", "en": "he, she (informal)", "pos": "pron", "note": "For children, close friends, people younger than you. Rude about older adults." },
+    { "native": "उनी", "roman": "uni", "en": "he, she (mid-respect)", "pos": "pron", "note": "Neutral, used for adults in news and writing; in speech a little distant." },
+    { "native": "उहाँ", "roman": "uhāṃ", "en": "he, she (respectful)", "pos": "pron", "note": "For elders, teachers, guests — anyone you'd call तपाईं. Takes the same verb forms as तपाईं." },
+    { "native": "उनीहरू", "roman": "uniharu", "en": "they", "pos": "pron", "note": "Respectful plural: उहाँहरू uhāṃharu." },
+    { "native": "यो", "roman": "yo", "en": "this; he/she (here)", "pos": "pron", "note": "Plural यी yi 'these'." },
+    { "native": "त्यो", "roman": "tyo", "en": "that; he/she (there)", "pos": "pron", "note": "Plural ती ti 'those'." },
+    { "native": "हुनु", "roman": "hunu", "en": "to be, to become", "pos": "verb", "note": "Dictionary form of both 'to be' verbs: हो (identity) and छ (location/state). Very irregular — see grammar." },
+    { "native": "नाम", "roman": "nām", "en": "name", "pos": "noun" },
+    { "native": "देश", "roman": "des", "en": "country", "pos": "noun" },
+    { "native": "कहाँ", "roman": "kahāṃ", "en": "where", "pos": "q" },
+    { "native": "बाट", "roman": "bāṭa", "en": "from; by (means)", "pos": "postp", "note": "Attached to the noun: अमेरिकाबाट 'from America', कहाँबाट 'from where'." },
+    { "native": "नेपाली", "roman": "nepāli", "en": "Nepali (language, person); Nepalese", "pos": "noun" },
+    { "native": "अङ्ग्रेजी", "roman": "aṅgreji", "en": "English (language)", "pos": "noun", "note": "Also spelled अंग्रेजी." },
+    { "native": "भाषा", "roman": "bhāsā", "en": "language", "pos": "noun" },
+    { "native": "बोल्नु", "roman": "bolnu", "en": "to speak", "pos": "verb", "note": "म बोल्छु, तपाईं बोल्नुहुन्छ." },
+    { "native": "बुझ्नु", "roman": "bujhnu", "en": "to understand", "pos": "verb", "note": "मैले बुझेँ 'I understood' / मैले बुझिनँ 'I didn't understand' (past forms take ले — unit 16)." },
+    { "native": "आउनु", "roman": "āunu", "en": "to come; to know (a skill/language)", "pos": "verb", "note": "मलाई नेपाली आउँछ 'I can speak Nepali' (lit. Nepali comes to me)." },
+    { "native": "अलिअलि", "roman": "ali ali", "en": "a little", "pos": "adv" },
+    { "native": "बिस्तारै", "roman": "bistārai", "en": "slowly; quietly", "pos": "adv" },
+    { "native": "को", "roman": "ko", "en": "who", "pos": "q", "note": "Same spelling as the possessive -को 'of', which is attached to a word." },
+    { "native": "कुन", "roman": "kun", "en": "which", "pos": "q" },
+    { "native": "कस्तो", "roman": "kasto", "en": "how; what kind of", "pos": "q", "note": "कस्तो छ? 'How is it?'" },
+    { "native": "कसरी", "roman": "kasari", "en": "how (in what way)", "pos": "q" },
+    { "native": "बस्नु", "roman": "basnu", "en": "to live, stay; to sit", "pos": "verb" },
+    { "native": "यहाँ", "roman": "yahāṃ", "en": "here", "pos": "adv", "note": "Also used as a very polite 'you' in speeches." },
+    { "native": "त्यहाँ", "roman": "tyahāṃ", "en": "there", "pos": "adv" },
+    { "native": "बेलायत", "roman": "belāyat", "en": "Britain, UK", "pos": "noun", "note": "Adjective बेलायती 'British'." },
+    { "native": "अमेरिका", "roman": "amerikā", "en": "America (USA)", "pos": "noun" },
+    { "native": "भारत", "roman": "bhārat", "en": "India", "pos": "noun", "note": "Colloquially also इन्डिया." },
+    { "native": "विदेशी", "roman": "bidesi", "en": "foreigner; foreign", "pos": "noun" },
+    { "native": "चिन्नु", "roman": "chinnu", "en": "to know (a person), recognise", "pos": "verb", "note": "म उहाँलाई चिन्छु 'I know him/her'." }
+  ],
+  "phrases": [
+    { "native": "तपाईंको नाम के हो?", "roman": "tapāiṃko nām ke ho?", "en": "What's your name?" },
+    { "native": "मेरो नाम सारा हो।", "roman": "mero nām Sārā ho.", "en": "My name is Sarah." },
+    { "native": "तपाईं कहाँबाट हो?", "roman": "tapāiṃ kahāṃbāṭa ho?", "en": "Where are you from?", "note": "Colloquial; more formal: कहाँबाट आउनुभएको?" },
+    { "native": "म बेलायतबाट आएको हुँ।", "roman": "ma belāyatbāṭa āeko huṃ.", "en": "I'm from Britain. (lit. I have come from Britain)" },
+    { "native": "तपाईं कहाँ बस्नुहुन्छ?", "roman": "tapāiṃ kahāṃ basnuhunchha?", "en": "Where do you live?" },
+    { "native": "म ठमेलमा बस्छु।", "roman": "ma Ṭhamelmā baschhu.", "en": "I'm staying in Thamel." },
+    { "native": "तपाईंलाई नेपाली आउँछ?", "roman": "tapāiṃlāi nepāli āuṃchha?", "en": "Do you speak Nepali?" },
+    { "native": "अलिअलि आउँछ।", "roman": "ali ali āuṃchha.", "en": "A little." },
+    { "native": "मैले बुझिनँ।", "roman": "maile bujhinaṃ.", "en": "I didn't understand." },
+    { "native": "बिस्तारै बोल्नुहोस् न।", "roman": "bistārai bolnuhos na.", "en": "Please speak slowly." },
+    { "native": "फेरि भन्नुहोस् त।", "roman": "pheri bhannuhos ta.", "en": "Could you say that again?" },
+    { "native": "यसलाई नेपालीमा के भन्छन्?", "roman": "yaslāi nepālimā ke bhanchhan?", "en": "What's this called in Nepali?" },
+    { "native": "उहाँ को हुनुहुन्छ?", "roman": "uhāṃ ko hunuhunchha?", "en": "Who is he/she? (respectful)" },
+    { "native": "तपाईंलाई भेटेर खुसी लाग्यो।", "roman": "tapāiṃlāi bheṭera khusi lāgyo.", "en": "Nice to meet you." }
+  ],
+  "grammar": [
+    {
+      "title": "Pronouns and the identity verb हो",
+      "body": "**हो** links a subject to *what it is*: a name, a nationality, a job, a thing. It changes with the subject and its level of respect:\n\nम **हुँ** *huṃ* · हामी **हौँ** *hauṃ*\nतँ **होस्** *hos* · तिमी **हौ** *hau* · तपाईं **हुनुहुन्छ** *hunuhunchha*\nऊ / यो / त्यो **हो** *ho* · उनी **हुन्** *hun* · उहाँ **हुनुहुन्छ** · उनीहरू **हुन्** *hun*\n\nNegative: म **होइनँ** *hoinaṃ*, हामी **होइनौँ**, तिमी **होइनौ**, ऊ **होइन**, उनीहरू **होइनन्**, तपाईं/उहाँ **हुनुहुन्न** *hunuhunna*.\n\nThird person has three respect levels: **ऊ** (low), **उनी** (middle), **उहाँ** (high, same verb as तपाईं). In relaxed Kathmandu speech people often use plain **हो** with तपाईं in questions — तपाईं कहाँबाट हो? — and say म नेपाली होइन for होइनँ. You'll hear both; the full forms are always correct.",
+      "examples": [
+        { "native": "म सारा हुँ।", "roman": "ma Sārā huṃ.", "en": "I'm Sarah." },
+        { "native": "हामी विदेशी हौँ।", "roman": "hāmi bidesi hauṃ.", "en": "We are foreigners." },
+        { "native": "उहाँ मेरो शिक्षक हुनुहुन्छ।", "roman": "uhāṃ mero sikchhak hunuhunchha.", "en": "He is my teacher. (respectful)" },
+        { "native": "उनीहरू नेपाली हुन्।", "roman": "uniharu nepāli hun.", "en": "They are Nepali." },
+        { "native": "म भारतीय होइनँ।", "roman": "ma bhāratiya hoinaṃ.", "en": "I'm not Indian." },
+        { "native": "त्यो के हो?", "roman": "tyo ke ho?", "en": "What is that?" }
+      ]
+    },
+    {
+      "title": "हो or छ? Two verbs 'to be'",
+      "body": "Nepali splits English 'to be' in two:\n\n**हो** = identity/definition: *X is a Y*, *X is (the same as) Y*. ('This is tea.' 'I am a student.' 'It's me.')\n**छ** = location, existence and state/description: *X is somewhere*, *there is an X*, *X is (in some condition)*. ('Tea is hot.' 'I'm in Kathmandu.' 'There's tea.')\n\nछ conjugates: म **छु** · हामी **छौँ** · तँ **छस्** · तिमी **छौ** · ऊ **छ** · उनी/उनीहरू **छन्** · तपाईं/उहाँ **हुनुहुन्छ**.\n\nTheir negatives are different words too: हो → **होइन**, छ → **छैन** (म छैनँ, तिमी छैनौ, ऊ छैन, उनीहरू छैनन्, तपाईं हुनुहुन्न).\n\nQuick test: if the English sentence ends in a *noun* ('…is a teacher'), use हो; if it ends in a *place* or a description of a temporary state ('…is at home', '…is tired', '…is good today'), use छ.",
+      "examples": [
+        { "native": "यो चिया हो।", "roman": "yo chiyā ho.", "en": "This is tea. (identity)" },
+        { "native": "चिया तातो छ।", "roman": "chiyā tāto chha.", "en": "The tea is hot. (state)" },
+        { "native": "म विद्यार्थी हुँ।", "roman": "ma bidyārthi huṃ.", "en": "I am a student." },
+        { "native": "म काठमाडौंमा छु।", "roman": "ma Kāṭhmāḍauṃmā chhu.", "en": "I am in Kathmandu." },
+        { "native": "उनी नेपाली होइनन्।", "roman": "uni nepāli hoinan.", "en": "He/she is not Nepali." },
+        { "native": "उनी यहाँ छैनन्।", "roman": "uni yahāṃ chhainan.", "en": "He/she isn't here." }
+      ]
+    },
+    {
+      "title": "Question words",
+      "body": "Nepali question words begin with **k-**: के 'what', को 'who', कहाँ 'where', कुन 'which', कस्तो 'how/what kind', कसरी 'how (manner)', कति 'how much/many', किन 'why', कहिले 'when'.\n\nThey do **not** move to the front of the sentence. Put the question word where the answer would go — usually just before the verb: तपाईंको नाम **के** हो? = 'Your name **what** is?'",
+      "examples": [
+        { "native": "तपाईं को हो?", "roman": "tapāiṃ ko ho?", "en": "Who are you?" },
+        { "native": "तपाईंको देश कुन हो?", "roman": "tapāiṃko des kun ho?", "en": "Which country are you from? (lit. your country is which?)" },
+        { "native": "उहाँ कहाँ हुनुहुन्छ?", "roman": "uhāṃ kahāṃ hunuhunchha?", "en": "Where is he/she?" },
+        { "native": "नेपाली भाषा कस्तो छ?", "roman": "nepāli bhāsā kasto chha?", "en": "What's the Nepali language like?" },
+        { "native": "यो कसरी बोल्ने?", "roman": "yo kasari bolne?", "en": "How do you say this?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the tea shop",
+    "setting": "Tom, an American student, sits down at a small tea shop in Patan. Ram, a local, starts chatting.",
+    "lines": [
+      { "speaker": "Ram", "native": "नमस्ते! तपाईं कहाँबाट हो?", "roman": "namaste! tapāiṃ kahāṃbāṭa ho?", "en": "Hello! Where are you from?" },
+      { "speaker": "Tom", "native": "नमस्ते! म अमेरिकाबाट आएको हुँ।", "roman": "namaste! ma amerikābāṭa āeko huṃ.", "en": "Hello! I'm from America." },
+      { "speaker": "Ram", "native": "तपाईंको नाम के हो नि?", "roman": "tapāiṃko nām ke ho ni?", "en": "And what's your name?" },
+      { "speaker": "Tom", "native": "मेरो नाम टम हो। तपाईंको नि?", "roman": "mero nām Ṭam ho. tapāiṃko ni?", "en": "My name's Tom. And yours?" },
+      { "speaker": "Ram", "native": "म राम हुँ। तपाईंलाई त नेपाली आउँछ!", "roman": "ma Rām huṃ. tapāiṃlāi ta nepāli āuṃchha!", "en": "I'm Ram. Hey, you speak Nepali!" },
+      { "speaker": "Tom", "native": "अलिअलि मात्र। म यहाँ विद्यार्थी हुँ।", "roman": "ali ali mātra. ma yahāṃ bidyārthi huṃ.", "en": "Only a little. I'm a student here." },
+      { "speaker": "Ram", "native": "तपाईं कहाँ बस्नुहुन्छ?", "roman": "tapāiṃ kahāṃ basnuhunchha?", "en": "Where do you live?" },
+      { "speaker": "Tom", "native": "म पाटनमा बस्छु। तपाईं नि?", "roman": "ma Pāṭanmā baschhu. tapāiṃ ni?", "en": "I live in Patan. And you?" },
+      { "speaker": "Ram", "native": "म पनि यहीँ बस्छु। मेरो घर त्यहाँ छ।", "roman": "ma pani yahiṃ baschhu. mero ghar tyahāṃ chha.", "en": "I live right here too. My house is over there." },
+      { "speaker": "Tom", "native": "माफ गर्नुहोस्, बिस्तारै बोल्नुहोस् न।", "roman": "māph garnuhos, bistārai bolnuhos na.", "en": "Sorry, please speak slowly." },
+      { "speaker": "Ram", "native": "हुन्छ! तपाईंलाई भेटेर खुसी लाग्यो।", "roman": "hunchha! tapāiṃlāi bheṭera khusi lāgyo.", "en": "Sure! Nice to meet you." }
+    ]
+  },
+  "culture": "Nepali is the **common language** of a very diverse country: for many Nepalis it is a second language after Newar (नेपाल भाषा), Maithili, Bhojpuri, Tamang, Tharu, Magar, Gurung, Rai or Limbu languages. So don't be surprised if two Nepalis switch to another language between themselves. In India, Nepali speakers in Darjeeling, Kalimpong and Sikkim often call themselves **Gorkha** and the language *Gorkhali*. Personal questions — age, marital status, salary, how much you paid for your phone — are normal friendly conversation, not rudeness; answer vaguely if you prefer."
+}

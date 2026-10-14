@@ -7,7 +7,7 @@ const crypto = require('crypto');
 
 const ROOT = path.join(__dirname, '..');
 const DATA = path.join(ROOT, 'data');
-const ORDER = ['hi', 'ur', 'bn', 'pa', 'mr', 'gu', 'ta', 'te', 'kn', 'ml', 'or'];
+const ORDER = ['hi', 'ur', 'bn', 'pa', 'ne', 'ps', 'sd', 'mr', 'gu', 'ta', 'te', 'kn', 'ml', 'or'];
 
 const langs = [];
 for (const code of fs.readdirSync(DATA).sort((a, b) => (ORDER.indexOf(a) + 1 || 99) - (ORDER.indexOf(b) + 1 || 99))) {

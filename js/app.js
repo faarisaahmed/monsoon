@@ -1,10 +1,10 @@
-// Boli — app shell: routing, top bar, activity tracking.
+// Monsoon — app shell: routing, top bar, activity tracking.
 
 import { h, fill, $, clear } from './ui.js';
 import * as store from './store.js';
 import * as data from './data.js';
 import { ctx } from './components.js';
-import { stop } from './audio.js';
+import { stop, loadClips } from './audio.js';
 import { homeView, aboutView } from './views/home.js';
 import { loginView, signupView, accountView } from './views/account.js';
 import { langHome, unitView, scriptView, letterView, soundsView, soundView, readingView, referenceView, numbersView, glossaryView } from './views/lang.js';
@@ -81,6 +81,7 @@ async function render() {
       return;
     }
     data.loadFont(L.font);
+    await loadClips(L.code, L.tts);
     document.documentElement.style.setProperty('--nf', `"${L.font}"`);
     store.touch(code, path);
   }
@@ -94,7 +95,7 @@ async function render() {
     const node = await match.view({ params: match.params, query, code, L, main });
     if (id !== renderId) return;
     if (node) fill(main, node);
-    document.title = (node?.dataset?.title ? node.dataset.title + ' · ' : L ? L.name + ' · ' : '') + 'Boli';
+    document.title = (node?.dataset?.title ? node.dataset.title + ' · ' : L ? L.name + ' · ' : '') + 'Monsoon';
     if (!query.get('keep')) window.scrollTo(0, 0);
     const anchor = query.get('to');
     if (anchor) document.getElementById(anchor)?.scrollIntoView({ behavior: 'smooth' });
@@ -111,7 +112,7 @@ function renderTop(L, section) {
   fill(top, 
     h(
       'div.topbar-in',
-      h('a.brand', { href: '#/' }, h('span.brand-mark', 'b'), 'Boli'),
+      h('a.brand', { href: '#/' }, h('span.brand-mark', 'm'), 'Monsoon'),
       L ? h('a.lang-pill', { href: `#/l/${L.code}` }, h('span.nt', { lang: L.code }, L.native), ' · ', L.name) : null,
       h('div.spacer'),
       h('a.btn.ghost.small', { href: '#/', title: 'All languages' }, 'Languages'),

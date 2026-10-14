@@ -1,6 +1,6 @@
-// Service worker: makes Boli work offline. Generated from sw.template.js by scripts/build.js.
-const VERSION = '2e8bfdd3ef';
-const CACHE = 'boli-' + VERSION;
+// Service worker: makes Monsoon work offline. Generated from sw.template.js by scripts/build.js.
+const VERSION = '19925897af';
+const CACHE = 'monsoon-' + VERSION;
 const PRECACHE = ["./","index.html","css/style.css","manifest.webmanifest","assets/icon.svg","data/languages.json","js/app.js","js/audio.js","js/components.js","js/data.js","js/session.js","js/store.js","js/ui.js","js/views/account.js","js/views/home.js","js/views/lang.js","js/views/practice.js","js/views/shared.js"];
 
 self.addEventListener('install', (e) => {
@@ -11,7 +11,7 @@ self.addEventListener('activate', (e) => {
   e.waitUntil(
     caches
       .keys()
-      .then((keys) => Promise.all(keys.filter((k) => k.startsWith('boli-') && k !== CACHE).map((k) => caches.delete(k))))
+      .then((keys) => Promise.all(keys.filter((k) => k.startsWith('monsoon-') && k !== CACHE).map((k) => caches.delete(k))))
       .then(() => self.clients.claim()),
   );
 });
@@ -29,7 +29,7 @@ self.addEventListener('fetch', (e) => {
       (hit) =>
         hit ||
         fetch(e.request).then((res) => {
-          if (res.ok || res.type === 'opaque') {
+          if (res.status === 200 || res.type === 'opaque') {
             const copy = res.clone();
             caches.open(CACHE).then((c) => c.put(e.request, copy));
           }

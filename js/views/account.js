@@ -113,7 +113,7 @@ export async function accountView() {
   const profile = guest
     ? h(
         'div.card',
-        h('h2', 'You are using Boli as a guest'),
+        h('h2', 'You are using Monsoon as a guest'),
         h('p.muted', 'Your progress is saved in this browser. Create an account to keep it under your name, protect it with a password, and share this device with others.'),
         h('div.row', h('a.btn.primary', { href: '#/signup' }, 'Create account'), h('a.btn', { href: '#/login' }, 'Sign in')),
       )
@@ -224,8 +224,8 @@ export async function accountView() {
     h('h2', 'Audio'),
     h('div.stack',
       h('div', h('div.small.muted', 'Speaking speed'), h('div.row', rate, rateLabel)),
-      h('label.check', online, 'Use an online voice when this device has none'),
-      h('p.tiny.faint', 'Device voices: on iPhone/iPad/Mac add them under Settings → Accessibility → Spoken Content → Voices; on Android under Text-to-speech settings (Google); on Windows under Time & language → Speech. Chrome and Edge include several online voices automatically.'),
+      h('p.tiny.faint', 'Course audio is pre-recorded with natural neural voices and works on every device. The options below only matter for the rare text without a recording.'),
+      h('label.check', online, 'Fall back to an online voice when there is no recording or device voice'),
       h('p.tiny.faint', canRecognize() ? 'Speech recognition is available in this browser, so speaking exercises can check your pronunciation.' : 'Speech recognition is not available in this browser, so speaking exercises use record-and-compare instead. Chrome or Edge add automatic checking.'),
       h('div.table-wrap', h('table', voiceRows)),
     ),
@@ -241,7 +241,7 @@ export async function accountView() {
       try {
         obj = JSON.parse(await f.text());
       } catch {}
-      if (!store.isProgressFile(obj)) throw new Error('This is not a Boli progress file.');
+      if (!store.isProgressFile(obj)) throw new Error('This is not a Monsoon progress file.');
       const replace = await modal('Import progress', 'Merge the file with what is already here (keeps the most recent review of each item), or replace everything?', [
         { label: 'Cancel', value: null },
         { label: 'Replace', value: 'replace', danger: true },
@@ -268,7 +268,7 @@ export async function accountView() {
         {
           onclick: () => {
             const blob = new Blob([JSON.stringify(store.exportData(), null, 1)], { type: 'application/json' });
-            const a = h('a', { href: URL.createObjectURL(blob), download: `boli-${store.isGuest() ? 'guest' : store.currentUser()}-${new Date().toISOString().slice(0, 10)}.json` });
+            const a = h('a', { href: URL.createObjectURL(blob), download: `monsoon-${store.isGuest() ? 'guest' : store.currentUser()}-${new Date().toISOString().slice(0, 10)}.json` });
             document.body.appendChild(a);
             a.click();
             a.remove();

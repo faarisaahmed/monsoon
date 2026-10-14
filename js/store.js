@@ -7,11 +7,24 @@
 import { today } from './ui.js';
 
 const K = {
-  accounts: 'boli.accounts',
-  session: 'boli.session',
-  data: (u) => `boli.data.${u}`,
+  accounts: 'monsoon.accounts',
+  session: 'monsoon.session',
+  data: (u) => `monsoon.data.${u}`,
 };
 export const GUEST = '__guest__';
+
+// The app used to be called Boli; carry over anything saved under the old key names.
+try {
+  for (const store of [localStorage, sessionStorage]) {
+    for (const k of Object.keys(store)) {
+      if (k.startsWith('boli.')) {
+        const nk = 'monsoon.' + k.slice(5);
+        if (store.getItem(nk) == null) store.setItem(nk, store.getItem(k));
+        store.removeItem(k);
+      }
+    }
+  }
+} catch {}
 
 const listeners = new Set();
 export const onChange = (fn) => (listeners.add(fn), () => listeners.delete(fn));
@@ -299,7 +312,7 @@ export function exportData() {
   const u = currentUser();
   const acc = accounts()[u];
   return {
-    app: 'boli',
+    app: 'monsoon',
     version: 1,
     exported: new Date().toISOString(),
     account: acc ? { username: u, displayName: acc.displayName, salt: acc.salt, hash: acc.hash, iterations: acc.iterations, created: acc.created } : null,
@@ -307,11 +320,11 @@ export function exportData() {
   };
 }
 
-export const isProgressFile = (obj) => !!(obj && obj.app === 'boli' && obj.data);
+export const isProgressFile = (obj) => !!(obj && (obj.app === 'monsoon' || obj.app === 'boli') && obj.data);
 
 // Import into the current account (merging), or create the account from the file if signed out.
 export function importData(obj, { replace = false } = {}) {
-  if (!isProgressFile(obj)) throw new Error('This is not a Boli progress file.');
+  if (!isProgressFile(obj)) throw new Error('This is not a Monsoon progress file.');
   let u = currentUser();
   if (u === GUEST && obj.account?.username) {
     const all = accounts();

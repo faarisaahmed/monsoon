@@ -1,0 +1,105 @@
+{
+  "id": 7,
+  "title": "Time, days & months",
+  "goal": "Tell and ask the time, name the days and months, and talk about today, tomorrow, last week and next month.",
+  "intro": "Time in Nepali is 'struck' like a bell: **कति बज्यो?** literally means 'how much has struck?'. You'll learn clock times, the parts of the day, the days of the week (they all end in **-बार**) and the twelve months of Nepal's own calendar, the Bikram Sambat.\n\nGood to know: Nepal's clocks run at **UTC+5:45** — one of the few time zones in the world with a 45-minute offset.",
+  "vocab": [
+    { "native": "समय", "roman": "samaya", "en": "time", "pos": "noun", "note": "Colloquially also टाइम ṭāim." },
+    { "native": "घडी", "roman": "ghaḍi", "en": "watch, clock", "pos": "noun" },
+    { "native": "घण्टा", "roman": "ghanṭā", "en": "hour", "pos": "noun", "note": "दुई घण्टा 'two hours'." },
+    { "native": "मिनेट", "roman": "mineṭ", "en": "minute", "pos": "noun" },
+    { "native": "बज्नु", "roman": "bajnu", "en": "to strike, ring (of clocks, bells, phones)", "pos": "verb", "note": "कति बज्यो? 'What time is it?'; तीन बजे 'at three o'clock'." },
+    { "native": "साढे", "roman": "sāḍhe", "en": "half past (+ hour)", "pos": "adj", "note": "साढे चार 4:30. But 1:30 = डेढ, 2:30 = अढाई." },
+    { "native": "सवा", "roman": "sawā", "en": "quarter past", "pos": "adj", "note": "सवा पाँच 5:15." },
+    { "native": "पौने", "roman": "paune", "en": "quarter to", "pos": "adj", "note": "पौने छ 5:45 (lit. three-quarters of six)." },
+    { "native": "बिहान", "roman": "bihāna", "en": "morning; in the morning", "pos": "noun" },
+    { "native": "दिउँसो", "roman": "diuṃso", "en": "afternoon; daytime", "pos": "noun" },
+    { "native": "बेलुका", "roman": "belukā", "en": "evening; in the evening", "pos": "noun", "note": "Also साँझ sāṃjh 'dusk'." },
+    { "native": "राति", "roman": "rāti", "en": "at night", "pos": "adv", "note": "Noun: रात rāt 'night'." },
+    { "native": "आज", "roman": "āja", "en": "today", "pos": "adv" },
+    { "native": "भोलि", "roman": "bholi", "en": "tomorrow", "pos": "adv" },
+    { "native": "हिजो", "roman": "hijo", "en": "yesterday", "pos": "adv" },
+    { "native": "पर्सि", "roman": "parsi", "en": "the day after tomorrow", "pos": "adv" },
+    { "native": "अस्ति", "roman": "asti", "en": "the day before yesterday; the other day", "pos": "adv" },
+    { "native": "अहिले", "roman": "ahile", "en": "now, at the moment", "pos": "adv", "note": "अहिले नै 'right now'." },
+    { "native": "अब", "roman": "aba", "en": "now (from now on); next", "pos": "adv", "note": "अब के गर्ने? 'What do we do now?'" },
+    { "native": "पछि", "roman": "pachhi", "en": "later; after", "pos": "adv", "note": "दुई दिनपछि 'two days later', खानापछि 'after the meal'." },
+    { "native": "पहिले", "roman": "pahile", "en": "before; earlier; first", "pos": "adv", "note": "Also अघि aghi: तीन दिन अघि 'three days ago'." },
+    { "native": "दिन", "roman": "din", "en": "day", "pos": "noun" },
+    { "native": "हप्ता", "roman": "haptā", "en": "week", "pos": "noun" },
+    { "native": "महिना", "roman": "mahinā", "en": "month", "pos": "noun" },
+    { "native": "आइतबार", "roman": "āitabār", "en": "Sunday", "pos": "noun", "note": "A working day in Nepal." },
+    { "native": "सोमबार", "roman": "sombār", "en": "Monday", "pos": "noun" },
+    { "native": "मङ्गलबार", "roman": "maṅgalbār", "en": "Tuesday", "pos": "noun" },
+    { "native": "बुधबार", "roman": "budhabār", "en": "Wednesday", "pos": "noun" },
+    { "native": "बिहीबार", "roman": "bihibār", "en": "Thursday", "pos": "noun" },
+    { "native": "शुक्रबार", "roman": "sukrabār", "en": "Friday", "pos": "noun", "note": "Many offices close early on Friday." },
+    { "native": "शनिबार", "roman": "sanibār", "en": "Saturday", "pos": "noun", "note": "The weekly holiday in Nepal." }
+  ],
+  "phrases": [
+    { "native": "अहिले कति बज्यो?", "roman": "ahile kati bajyo?", "en": "What time is it now?" },
+    { "native": "ठ्याक्कै चार बज्यो।", "roman": "ṭhyākkai chār bajyo.", "en": "It's exactly four o'clock." },
+    { "native": "साढे नौ बज्यो।", "roman": "sāḍhe nau bajyo.", "en": "It's half past nine." },
+    { "native": "तपाईं कति बजे उठ्नुहुन्छ?", "roman": "tapāiṃ kati baje uṭhnuhunchha?", "en": "What time do you get up?" },
+    { "native": "म बिहान छ बजे उठ्छु।", "roman": "ma bihāna chha baje uṭhchhu.", "en": "I get up at six in the morning." },
+    { "native": "आज के बार?", "roman": "āja ke bār?", "en": "What day is it today?" },
+    { "native": "आज शुक्रबार हो।", "roman": "āja sukrabār ho.", "en": "Today is Friday." },
+    { "native": "भोलि भेटौँ है।", "roman": "bholi bheṭauṃ hai.", "en": "Let's meet tomorrow, OK?" },
+    { "native": "पसल कति बजेसम्म खुल्छ?", "roman": "pasal kati bajesamma khulchha?", "en": "Until what time is the shop open?" },
+    { "native": "बिहान दस बजेदेखि बेलुका सात बजेसम्म।", "roman": "bihāna das bajedekhi belukā sāt bajesamma.", "en": "From ten in the morning till seven in the evening." },
+    { "native": "एकछिन पर्खनुहोस्।", "roman": "ekchhin parkhanuhos.", "en": "Please wait a moment." },
+    { "native": "मसँग समय छैन।", "roman": "masaṃga samaya chhaina.", "en": "I don't have time." },
+    { "native": "आज कति गते?", "roman": "āja kati gate?", "en": "What's the date today? (Nepali calendar)", "note": "गते gate = day of the Nepali month; for Western dates people say तारिख tārikh." }
+  ],
+  "grammar": [
+    {
+      "title": "Telling the time",
+      "body": "**कति बज्यो?** 'What time is it?' — answer with the hour + **बज्यो** 'has struck': तीन बज्यो 'it's three'.\n\n**Quarters and halves** come before the hour:\nसवा तीन 3:15 · साढे तीन 3:30 · पौने चार 3:45\nSpecial: **डेढ** 1:30 and **अढाई** 2:30 (not साढे एक/दुई).\n\n**Minutes**: तीन बजेर दस मिनेट गयो '3:10' (lit. having struck three, ten minutes went); चार बज्न दस मिनेट बाँकी छ '3:50' (lit. ten minutes remain for four to strike).\n\n**At** a time: use **बजे** — तीन बजे 'at three'. Add the part of the day in front: बिहान सात बजे '7 a.m.', दिउँसो दुई बजे '2 p.m.', बेलुका छ बजे '6 p.m.', राति दस बजे '10 p.m.'.",
+      "examples": [
+        { "native": "सवा सात बज्यो।", "roman": "sawā sāt bajyo.", "en": "It's quarter past seven." },
+        { "native": "पौने बाह्र बज्यो।", "roman": "paune bāhra bajyo.", "en": "It's quarter to twelve." },
+        { "native": "डेढ बजे खाजा खाऔँ।", "roman": "ḍeḍh baje khājā khāauṃ.", "en": "Let's have a snack at half past one." },
+        { "native": "बस राति नौ बजे छुट्छ।", "roman": "bas rāti nau baje chhuṭchha.", "en": "The bus leaves at 9 p.m." },
+        { "native": "पाँच बज्न दस मिनेट बाँकी छ।", "roman": "pāṃch bajna das mineṭ bāṃki chha.", "en": "It's ten to five." }
+      ]
+    },
+    {
+      "title": "Days, months and the Nepali calendar",
+      "body": "Days of the week all end in **-बार**. You don't need a word for 'on': सोमबार आउनुहोस् 'come on Monday'. **Saturday (शनिबार)** is the weekly day off; Sunday is a working day.\n\nNepal officially uses the **Bikram Sambat** (वि.सं.) calendar. The year begins in mid-April, and the months are:\n**बैशाख** baisākh (Apr–May) · **जेठ** jeṭh · **असार** asār · **साउन** sāun · **भदौ** bhadau · **असोज** asoj · **कात्तिक** kāttik · **मंसिर** mansir · **पुस** pus · **माघ** māgh · **फागुन** phāgun · **चैत** chait (Mar–Apr).\nA day of the month is **गते**: बैशाख एक गते = Nepali New Year's Day. Western dates (तारिख) and English month names are used too, especially in business.",
+      "examples": [
+        { "native": "म शनिबार घरमा हुन्छु।", "roman": "ma sanibār gharmā hunchhu.", "en": "I'm at home on Saturdays." },
+        { "native": "दसैं असोजमा पर्छ।", "roman": "dasaiṃ asojmā parchha.", "en": "Dashain falls in (the month of) Asoj." },
+        { "native": "आज साउन पन्ध्र गते हो।", "roman": "āja sāun pandhra gate ho.", "en": "Today is the 15th of Saun." },
+        { "native": "नयाँ वर्ष बैशाख एक गते हो।", "roman": "nayāṃ barsa baisākh ek gate ho.", "en": "New Year is on the 1st of Baisakh." }
+      ]
+    },
+    {
+      "title": "Time expressions: ago, later, from…to",
+      "body": "• **-पछि** 'after/later': दुई दिनपछि 'in two days', कामपछि 'after work'.\n• **अघि / पहिले** 'ago/before': तीन दिन अघि 'three days ago', खानाभन्दा पहिले 'before the meal'.\n• **-देखि … -सम्म** 'from … until': सोमबारदेखि शुक्रबारसम्म 'Monday to Friday'. -देखि alone also means 'since': हिजोदेखि 'since yesterday'.\n• **यो** 'this', **अर्को** 'next', **गएको / गत** 'last': यो हप्ता, अर्को महिना, गएको साल. 'Next' can also be **आउने** 'coming': आउने आइतबार 'next Sunday'.\n• For a period, no word for 'for' is needed: दुई घण्टा पर्खेँ 'I waited (for) two hours'.",
+      "examples": [
+        { "native": "म दुई हप्तापछि फर्कन्छु।", "roman": "ma dui haptāpachhi pharkanchhu.", "en": "I'll come back in two weeks." },
+        { "native": "उनी तीन दिन अघि आइन्।", "roman": "uni tin din aghi āin.", "en": "She came three days ago." },
+        { "native": "अफिस सोमबारदेखि शुक्रबारसम्म खुल्छ।", "roman": "aphis sombārdekhi sukrabārsamma khulchha.", "en": "The office is open from Monday to Friday." },
+        { "native": "अर्को महिना दसैं छ।", "roman": "arko mahinā dasaiṃ chha.", "en": "Dashain is next month." },
+        { "native": "हिजोदेखि पानी परिरहेको छ।", "roman": "hijodekhi pāni pariraheko chha.", "en": "It's been raining since yesterday." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Let's meet on Friday",
+    "setting": "Bikash phones Sarah to make plans.",
+    "lines": [
+      { "speaker": "Bikash", "native": "हेलो, सारा? म बिकास बोलेको।", "roman": "helo, Sārā? ma Bikās boleko.", "en": "Hello, Sarah? It's Bikash speaking." },
+      { "speaker": "Sarah", "native": "ए बिकास! के छ?", "roman": "e Bikās! ke chha?", "en": "Oh, Bikash! What's up?" },
+      { "speaker": "Bikash", "native": "ठीक छ। तपाईं भोलि बेलुका खाली हुनुहुन्छ?", "roman": "ṭhik chha. tapāiṃ bholi belukā khāli hunuhunchha?", "en": "All good. Are you free tomorrow evening?" },
+      { "speaker": "Sarah", "native": "भोलि के बार हो?", "roman": "bholi ke bār ho?", "en": "What day is tomorrow?" },
+      { "speaker": "Bikash", "native": "भोलि शुक्रबार।", "roman": "bholi sukrabār.", "en": "Tomorrow's Friday." },
+      { "speaker": "Sarah", "native": "शुक्रबार म छ बजेसम्म अफिसमा हुन्छु।", "roman": "sukrabār ma chha bajesamma aphismā hunchhu.", "en": "On Friday I'm at the office until six." },
+      { "speaker": "Bikash", "native": "त्यसो भए साढे सात बजे भेटौँ?", "roman": "tyaso bhae sāḍhe sāt baje bheṭauṃ?", "en": "Then shall we meet at half past seven?" },
+      { "speaker": "Sarah", "native": "हुन्छ। कहाँ भेट्ने?", "roman": "hunchha. kahāṃ bheṭne?", "en": "OK. Where shall we meet?" },
+      { "speaker": "Bikash", "native": "पाटन दरबार स्क्वायरको अगाडि। नेपाली टाइम होइन है!", "roman": "Pāṭan Darbār Skwāyarko agāḍi. nepāli ṭāim hoina hai!", "en": "In front of Patan Durbar Square. And not 'Nepali time', OK!" },
+      { "speaker": "Sarah", "native": "हाहा, ठीक छ। भोलि भेटौँला!", "roman": "hāhā, ṭhik chha. bholi bheṭauṃlā!", "en": "Haha, OK. See you tomorrow!" }
+    ]
+  },
+  "culture": "Nepalis joke about **नेपाली टाइम** 'Nepali time' — a meeting at 'seven' may start at half past. Festivals follow the lunar calendar, so their dates move every year: **Dashain** usually falls in Asoj or Kattik (Sept–Oct), **Tihar** a few weeks later, and the New Year **(नयाँ वर्ष)** on 1 Baisakh in mid-April. Official documents, school years and birthdays are usually given in Bikram Sambat (वि.सं. २०८३ ≈ 2026–27 AD), so if a Nepali friend says they were born in 2055, they mean about 1998!"
+}

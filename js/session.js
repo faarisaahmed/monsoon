@@ -324,7 +324,7 @@ export function runSession(root, opts) {
       mic.classList.add('rec');
       attempts++;
       try {
-        if (canRecognize()) {
+        if (canRecognize(L.tts)) {
           status.textContent = 'Listening…';
           const alts = await recognize(L.tts);
           mic.classList.remove('rec');

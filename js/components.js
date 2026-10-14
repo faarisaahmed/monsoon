@@ -59,6 +59,7 @@ export function rm(text, force) {
 // Play button for a piece of native text.
 export function audioBtn(text, { size = '', slow = false, auto = false } = {}) {
   const L = ctx.lang;
+  if (L && !canSpeak(L.tts)) return null; // e.g. Sindhi: no voice exists, so no dead buttons
   const b = h('button.icon-btn' + (size ? '.' + size : ''), {
     type: 'button',
     title: slow ? 'Play slowly' : 'Listen',
