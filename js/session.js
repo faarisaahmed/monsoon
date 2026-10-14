@@ -186,7 +186,7 @@ export function runSession(root, opts) {
   function renderLetter(q) {
     const l = q.item;
     const buttons = q.options.map((o, idx) =>
-      h('button.opt', { onclick: () => choose(idx) }, h('span.k', idx + 1), q.dir === 'char2roman' ? h('span', o.roman || '—', h('span.muted.small', o.sound ? '  ' + shorten(o.sound) : '')) : nt(o.char)),
+      h('button.opt', { onclick: () => choose(idx) }, h('span.k', idx + 1), q.dir === 'char2roman' ? h('span', o.roman || '—') : nt(o.char)),
     );
     const choose = (idx) => {
       if (buttons[0].disabled) return;
@@ -584,10 +584,6 @@ export function runSession(root, opts) {
   show();
 }
 
-function shorten(s) {
-  s = String(s || '');
-  return s.length > 38 ? s.slice(0, 36) + '…' : s;
-}
 
 export function cardMeta(it) {
   return { kind: it.kind || (it.char ? 'letter' : 'word'), unit: it.unit || null };

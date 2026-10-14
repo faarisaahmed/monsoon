@@ -1,0 +1,94 @@
+{
+  "id": 10,
+  "title": "Daily routine",
+  "goal": "Describe your daily routine and habits, and say what you and others are doing right now.",
+  "intro": "This is a big unit: you'll learn the most common everyday verbs and the two present tenses you'll use most.\n\n**मैं चाय पीता हूँ** 'I drink tea' (habit) vs **मैं चाय पी रहा हूँ** 'I'm drinking tea' (right now). Both are built the same way: verb stem + an ending that agrees with the subject's gender + the familiar हूँ/है/हो/हैं.",
+  "vocab": [
+    { "native": "करना", "roman": "karnā", "en": "to do, make", "pos": "verb", "note": "Makes countless compound verbs: काम करना, बात करना, आराम करना" },
+    { "native": "जाना", "roman": "jānā", "en": "to go", "pos": "verb", "note": "past irregular: गया gayā" },
+    { "native": "आना", "roman": "ānā", "en": "to come", "pos": "verb" },
+    { "native": "उठना", "roman": "uṭhnā", "en": "to get up, rise", "pos": "verb" },
+    { "native": "सोना", "roman": "sonā", "en": "to sleep", "pos": "verb", "note": "Also a noun: 'gold' (m)" },
+    { "native": "नहाना", "roman": "nahānā", "en": "to bathe, shower", "pos": "verb" },
+    { "native": "धोना", "roman": "dhonā", "en": "to wash", "pos": "verb", "note": "मुँह धोना 'wash one's face', कपड़े धोना 'do laundry'" },
+    { "native": "पहनना", "roman": "pahannā", "en": "to wear, put on", "pos": "verb", "note": "pronounced 'pehen-nā'" },
+    { "native": "बनाना", "roman": "banānā", "en": "to make, cook, build", "pos": "verb", "note": "खाना बनाना 'to cook'" },
+    { "native": "देखना", "roman": "dekhnā", "en": "to see, look, watch", "pos": "verb" },
+    { "native": "सुनना", "roman": "sunnā", "en": "to listen, hear", "pos": "verb" },
+    { "native": "पढ़ना", "roman": "paṛhnā", "en": "to read; to study", "pos": "verb" },
+    { "native": "लिखना", "roman": "likhnā", "en": "to write", "pos": "verb" },
+    { "native": "लेना", "roman": "lenā", "en": "to take", "pos": "verb" },
+    { "native": "देना", "roman": "denā", "en": "to give", "pos": "verb" },
+    { "native": "बैठना", "roman": "baiṭhnā", "en": "to sit", "pos": "verb" },
+    { "native": "चलना", "roman": "chalnā", "en": "to walk; to move, run (machines); to go along", "pos": "verb", "note": "चलो! 'let's go!'" },
+    { "native": "खेलना", "roman": "khelnā", "en": "to play", "pos": "verb" },
+    { "native": "घूमना", "roman": "ghūmnā", "en": "to wander, go out, travel around", "pos": "verb", "note": "घूमने जाना 'to go out for a stroll/trip'" },
+    { "native": "काम", "roman": "kām", "en": "work; task", "pos": "noun", "note": "m" },
+    { "native": "तैयार", "roman": "taiyār", "en": "ready", "pos": "adj", "note": "invariable · तैयार होना 'to get ready'" },
+    { "native": "रोज़", "roman": "roz", "en": "every day, daily", "pos": "adv", "note": "also हर दिन" },
+    { "native": "हमेशा", "roman": "hameshā", "en": "always", "pos": "adv" },
+    { "native": "अक्सर", "roman": "aksar", "en": "often", "pos": "adv" },
+    { "native": "कभी", "roman": "kabhī", "en": "ever; sometime", "pos": "adv", "note": "कभी-कभी 'sometimes'; कभी नहीं 'never'" },
+    { "native": "आम तौर पर", "roman": "ām taur par", "en": "usually, generally", "pos": "adv" },
+    { "native": "शुरू", "roman": "shurū", "en": "start, beginning", "pos": "noun", "note": "m · शुरू करना 'to start (something)', शुरू होना 'to begin'" },
+    { "native": "ख़त्म", "roman": "xatm", "en": "finished, over", "pos": "adj", "note": "ख़त्म करना 'to finish', ख़त्म होना 'to end'" },
+    { "native": "वापस", "roman": "vāpas", "en": "back (returning)", "pos": "adv", "note": "वापस आना 'to come back'" }
+  ],
+  "phrases": [
+    { "native": "मैं रोज़ सात बजे उठता हूँ।", "roman": "maiṃ roz sāt baje uṭhtā hūṃ.", "en": "I get up at seven every day. (man)" },
+    { "native": "आप क्या करते हैं?", "roman": "āp kyā karte haiṃ?", "en": "What do you do (for a living)?" },
+    { "native": "आप क्या कर रहे हैं?", "roman": "āp kyā kar rahe haiṃ?", "en": "What are you doing (right now)?" },
+    { "native": "मैं खाना बना रही हूँ।", "roman": "maiṃ khānā banā rahī hūṃ.", "en": "I'm cooking. (woman)" },
+    { "native": "वह नहा रहा है।", "roman": "vah nahā rahā hai.", "en": "He's having a shower." },
+    { "native": "मैं आ रहा हूँ!", "roman": "maiṃ ā rahā hūṃ!", "en": "I'm coming! (man; woman: आ रही हूँ)" },
+    { "native": "मैं ज़्यादा टीवी नहीं देखता।", "roman": "maiṃ zyādā ṭīvī nahīṃ dekhtā.", "en": "I don't watch much TV." },
+    { "native": "हम हर रविवार क्रिकेट खेलते हैं।", "roman": "ham har ravivār krikeṭ khelte haiṃ.", "en": "We play cricket every Sunday." },
+    { "native": "तुम कितने बजे सोते हो?", "roman": "tum kitne baje sote ho?", "en": "What time do you go to sleep?" },
+    { "native": "मैं सोने जा रही हूँ।", "roman": "maiṃ sone jā rahī hūṃ.", "en": "I'm going to bed. (woman)" },
+    { "native": "मैं कभी-कभी योग करता हूँ।", "roman": "maiṃ kabhī-kabhī yog kartā hūṃ.", "en": "I sometimes do yoga." },
+    { "native": "काम कब ख़त्म होता है?", "roman": "kām kab xatm hotā hai?", "en": "When does work finish?" },
+    { "native": "मैं दस मिनट में तैयार हो जाऊँगी।", "roman": "maiṃ das minaṭ meṃ taiyār ho jāūṃgī.", "en": "I'll be ready in ten minutes. (woman)" }
+  ],
+  "grammar": [
+    {
+      "title": "Present habitual: मैं करता हूँ 'I do'",
+      "body": "For habits, routines and general facts, Hindi uses: **verb stem + -ता / -ती / -ते + present of होना**.\n\nThe **stem** is the infinitive minus -ना: करना → कर, जाना → जा, उठना → उठ.\n\nThe ending agrees with the **subject's** gender and number:\n**-ता** masculine singular: मैं (m) करता हूँ, वह (m) करता है, तू करता है\n**-ती** feminine (sg. and pl.): मैं (f) करती हूँ, वह (f) करती है, हम (f) करती हैं\n**-ते** masculine plural, आप, तुम, हम (mixed/m): आप करते हैं, तुम करते हो, वे करते हैं\n\n**Negative**: put नहीं before the verb, and the auxiliary is usually dropped: मैं मांस नहीं खाता 'I don't eat meat'. (With a dropped auxiliary, the feminine plural takes a nasal: वे नहीं खातीं.)\n\nFrequency words go before the verb phrase: रोज़, हमेशा, अक्सर, कभी-कभी, कभी नहीं.",
+      "examples": [
+        { "native": "मैं हर सुबह चाय पीता हूँ।", "roman": "maiṃ har subah chāy pītā hūṃ.", "en": "I drink tea every morning. (man)" },
+        { "native": "वह बैंक में काम करती है।", "roman": "vah baiṅk meṃ kām kartī hai.", "en": "She works in a bank." },
+        { "native": "आप कहाँ रहते हैं?", "roman": "āp kahāṃ rahte haiṃ?", "en": "Where do you live?" },
+        { "native": "बच्चे पार्क में खेलते हैं।", "roman": "bachche pārk meṃ khelte haiṃ.", "en": "The children play in the park." },
+        { "native": "मैं अक्सर देर से सोती हूँ।", "roman": "maiṃ aksar der se sotī hūṃ.", "en": "I often go to bed late. (woman)" },
+        { "native": "वह कभी नाश्ता नहीं करता।", "roman": "vah kabhī nāshtā nahīṃ kartā.", "en": "He never eats breakfast." }
+      ]
+    },
+    {
+      "title": "Present continuous: मैं कर रहा हूँ 'I am doing'",
+      "body": "For actions happening **right now**, use: **verb stem + रहा / रही / रहे + present of होना**.\n\n**रहा** masculine singular, **रही** feminine, **रहे** masculine plural / आप / तुम.\n\nमैं (m) पढ़ रहा हूँ — I am reading\nवह (f) सो रही है — she is sleeping\nआप क्या कर रहे हैं? — what are you doing?\n\nNote that रहा is written as a **separate word** after the bare stem. As in English, it can also describe the near future: मैं कल दिल्ली जा रहा हूँ 'I'm going to Delhi tomorrow'.\n\nNegative: मैं नहीं सुन रहा (हूँ) 'I'm not listening'.",
+      "examples": [
+        { "native": "मैं हिंदी सीख रहा हूँ।", "roman": "maiṃ hindī sīkh rahā hūṃ.", "en": "I'm learning Hindi. (man)" },
+        { "native": "माँ खाना बना रही हैं।", "roman": "māṃ khānā banā rahī haiṃ.", "en": "Mum is cooking. (respectful plural)" },
+        { "native": "तुम क्या देख रहे हो?", "roman": "tum kyā dekh rahe ho?", "en": "What are you watching?" },
+        { "native": "बच्चे सो रहे हैं।", "roman": "bachche so rahe haiṃ.", "en": "The children are sleeping." },
+        { "native": "वह फ़ोन पर बात कर रही है।", "roman": "vah fon par bāt kar rahī hai.", "en": "She's talking on the phone." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Early bird, night owl",
+    "setting": "Flatmates Kabir and Sam chat over breakfast about their routines.",
+    "lines": [
+      { "speaker": "Kabir", "native": "तुम हमेशा इतनी जल्दी क्यों उठते हो?", "roman": "tum hameshā itnī jaldī kyoṃ uṭhte ho?", "en": "Why do you always get up so early?" },
+      { "speaker": "Sam", "native": "मैं रोज़ छह बजे उठता हूँ और योग करता हूँ।", "roman": "maiṃ roz chhah baje uṭhtā hūṃ aur yog kartā hūṃ.", "en": "I get up at six every day and do yoga." },
+      { "speaker": "Kabir", "native": "छह बजे! मैं तो नौ बजे से पहले कभी नहीं उठता।", "roman": "chhah baje! maiṃ to nau baje se pahle kabhī nahīṃ uṭhtā.", "en": "Six! I never get up before nine." },
+      { "speaker": "Sam", "native": "और तुम रात को कितने बजे सोते हो?", "roman": "aur tum rāt ko kitne baje sote ho?", "en": "And what time do you go to bed?" },
+      { "speaker": "Kabir", "native": "आम तौर पर दो बजे। मैं रात को फ़िल्में देखता हूँ।", "roman": "ām taur par do baje. maiṃ rāt ko filmeṃ dekhtā hūṃ.", "en": "Usually at two. I watch films at night." },
+      { "speaker": "Sam", "native": "नाश्ते के बाद मैं ऑफ़िस जाता हूँ। तुम आज क्या कर रहे हो?", "roman": "nāshte ke bād maiṃ ofis jātā hūṃ. tum āj kyā kar rahe ho?", "en": "After breakfast I go to the office. What are you doing today?" },
+      { "speaker": "Kabir", "native": "आज मैं घर से काम कर रहा हूँ।", "roman": "āj maiṃ ghar se kām kar rahā hūṃ.", "en": "Today I'm working from home." },
+      { "speaker": "Sam", "native": "अच्छा, तो मैं चलता हूँ। शाम को वापस आता हूँ।", "roman": "achchhā, to maiṃ chaltā hūṃ. shām ko vāpas ātā hūṃ.", "en": "OK, I'll be off then. I'll be back in the evening." },
+      { "speaker": "Kabir", "native": "ठीक है। और हाँ — आज खाना मैं बना रहा हूँ!", "roman": "ṭhīk hai. aur hāṃ — āj khānā maiṃ banā rahā hūṃ!", "en": "OK. Oh, and — I'm cooking dinner today!" },
+      { "speaker": "Sam", "native": "वाह! फिर तो मैं जल्दी आता हूँ।", "roman": "vāh! phir to maiṃ jaldī ātā hūṃ.", "en": "Wow! Then I'll come back early." }
+    ]
+  },
+  "culture": "**मैं चलता हूँ** (lit. 'I walk') is the standard way to say 'I'm off / I'll get going' when leaving — the habitual present is often used for something you're about to do. Similarly, आता हूँ can mean 'I'll be right back'. Many Indian households start the day early with a bath before breakfast and a short prayer; the evening is family time, and dinner is often late — 9 p.m. or later in cities."
+}

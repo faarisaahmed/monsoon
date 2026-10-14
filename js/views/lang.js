@@ -472,11 +472,13 @@ export async function soundView({ code, L, params }) {
   const pairs = p.pairs || [];
   const drill = p.drill || [];
   const allPairItems = pairs.flatMap((pr) => [pr.a, pr.b]);
+  // pairs spelled identically can't be told apart by synthesized audio
+  const earPairs = pairs.filter((pr) => pr.a.native.trim() !== pr.b.native.trim());
   const ear = () =>
     runSession(area, {
       code,
       record: false,
-      questions: Array.from({ length: Math.min(10, pairs.length * 3) }, (_, i) => Q.pair(pairs[i % pairs.length])).sort(() => Math.random() - 0.5),
+      questions: Array.from({ length: Math.min(10, earPairs.length * 3) }, (_, i) => Q.pair(earPairs[i % earPairs.length])).sort(() => Math.random() - 0.5),
       onExit: () => (clear(area), area.scrollIntoView({ behavior: 'smooth' })),
       doneLabel: 'Close',
     });
@@ -498,7 +500,7 @@ export async function soundView({ code, L, params }) {
     pairs.length
       ? h(
           'section.section',
-          h('div.section-head', h('h2', 'Minimal pairs'), pairs.length ? h('button.btn.primary.small', { onclick: ear }, 'Ear training') : null),
+          h('div.section-head', h('h2', 'Minimal pairs'), earPairs.length ? h('button.btn.primary.small', { onclick: ear }, 'Ear training') : null),
           pairs.map((pr) =>
             h(
               'div.pair',
@@ -607,6 +609,7 @@ export async function numbersView({ code, L }) {
           h('span.n', n.n >= 1000 ? n.n.toLocaleString('en-IN') : n.n, n.digit && n.digit !== String(n.n) ? h('div.nt.tiny', n.digit) : null),
           nt(n.native),
           rm(n.roman),
+          n.note ? h('span.tiny.faint', { style: { gridColumn: '1 / -1' } }, n.note) : null,
         ),
       ),
     ),

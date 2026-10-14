@@ -1,0 +1,87 @@
+{
+  "id": 19,
+  "title": "Travel, problems & emergencies",
+  "goal": "Handle hotels, trains and travel problems, report a loss or theft, get help in an emergency, and use 'if ... then' sentences.",
+  "intro": "Things go wrong when travelling: a missed train, a lost bag, a breakdown or a sudden illness. This unit gives you the words to explain the problem and ask for help, from a hotel desk to a police station.\n\nThe grammar is the **conditional**: Kannada makes 'if' with a single suffix, **-ಅರೆ**, attached to the past stem: ಬಂದರೆ 'if (someone) comes', ಮಳೆ ಬಂದರೆ 'if it rains'.",
+  "vocab": [
+    { "native": "ಸಮಸ್ಯೆ", "roman": "samasye", "en": "problem", "pos": "noun", "note": "Spoken also ಪ್ರಾಬ್ಲಮ್." },
+    { "native": "ತುರ್ತು", "roman": "turtu", "en": "emergency; urgent", "pos": "noun", "note": "Spoken: ಅರ್ಜೆಂಟ್ arjeṇṭ. National emergency number: 112." },
+    { "native": "ಕಾಪಾಡು", "roman": "kāpāḍu", "en": "to save, protect", "pos": "verb", "note": "ಕಾಪಾಡಿ! 'Help! Save me!'" },
+    { "native": "ಅಪಾಯ", "roman": "apāya", "en": "danger", "pos": "noun" },
+    { "native": "ಎಚ್ಚರ", "roman": "echchara", "en": "caution; awake", "pos": "noun", "note": "ಎಚ್ಚರಿಕೆ! 'Warning!' / ಹುಷಾರು! 'Careful!'" },
+    { "native": "ಸುರಕ್ಷಿತ", "roman": "surakṣita", "en": "safe", "pos": "adj" },
+    { "native": "ಪೊಲೀಸ್", "roman": "polīs", "en": "police", "pos": "noun", "note": "Police station: ಪೊಲೀಸ್ ಠಾಣೆ / ಪೊಲೀಸ್ ಸ್ಟೇಷನ್." },
+    { "native": "ಕಳ್ಳ", "roman": "kaḷḷa", "en": "thief", "pos": "noun" },
+    { "native": "ಕಳ್ಳತನ", "roman": "kaḷḷatana", "en": "theft", "pos": "noun", "note": "ಕದಿ kadi 'to steal'; ಕದ್ದರು 'they stole'." },
+    { "native": "ದೂರು", "roman": "dūru", "en": "complaint", "pos": "noun", "note": "ದೂರು ಕೊಡು 'to file a complaint'." },
+    { "native": "ಬೆಂಕಿ", "roman": "beṅki", "en": "fire", "pos": "noun" },
+    { "native": "ಆಂಬ್ಯುಲೆನ್ಸ್", "roman": "āmbyulens", "en": "ambulance", "pos": "noun" },
+    { "native": "ಕಾಣೆ", "roman": "kāṇe", "en": "missing, lost", "pos": "adj", "note": "ಕಾಣೆಯಾಗಿದೆ 'has gone missing'." },
+    { "native": "ಕಾಣು", "roman": "kāṇu", "en": "to be seen, appear; to see", "pos": "verb", "note": "Dative: ನನಗೆ ಕಾಣ್ತಿಲ್ಲ 'I can't see (it)'. Past ಕಂಡೆ." },
+    { "native": "ಕೆಡು", "roman": "keḍu", "en": "to go bad, break down, spoil", "pos": "verb", "note": "ಕಾರು ಕೆಟ್ಟು ಹೋಯ್ತು 'the car broke down'." },
+    { "native": "ರಿಪೇರಿ", "roman": "ripēri", "en": "repair", "pos": "noun" },
+    { "native": "ಪ್ರಯಾಣ", "roman": "prayāṇa", "en": "journey, travel", "pos": "noun", "note": "ಶುಭ ಪ್ರಯಾಣ 'have a good journey'." },
+    { "native": "ವಿಮಾನ", "roman": "vimāna", "en": "aeroplane", "pos": "noun", "note": "Airport: ವಿಮಾನ ನಿಲ್ದಾಣ." },
+    { "native": "ಪಾಸ್ಪೋರ್ಟ್", "roman": "pāspōrṭ", "en": "passport", "pos": "noun" },
+    { "native": "ವಿಳಾಸ", "roman": "viḷāsa", "en": "address", "pos": "noun", "note": "Spoken: ಅಡ್ರೆಸ್." },
+    { "native": "ಜಾಗ", "roman": "jāga", "en": "place, space, room", "pos": "noun" },
+    { "native": "ಬಾಡಿಗೆ", "roman": "bāḍige", "en": "rent, hire, fare", "pos": "noun" },
+    { "native": "ರದ್ದು", "roman": "raddu", "en": "cancelled", "pos": "adj", "note": "ರದ್ದು ಮಾಡು 'to cancel'; spoken ಕ್ಯಾನ್ಸಲ್." },
+    { "native": "ಗುರುತು", "roman": "gurutu", "en": "identity; mark, sign", "pos": "noun", "note": "ID card: ಗುರುತಿನ ಚೀಟಿ." }
+  ],
+  "phrases": [
+    { "native": "ಕಾಪಾಡಿ! ಸಹಾಯ ಮಾಡಿ!", "roman": "kāpāḍi! sahāya māḍi!", "en": "Help! Please help!" },
+    { "native": "ಪೊಲೀಸರನ್ನ ಕರೀರಿ!", "roman": "polīsaranna karīri!", "en": "Call the police!" },
+    { "native": "ಬೇಗ ಆಂಬ್ಯುಲೆನ್ಸ್ ಕರೀರಿ", "roman": "bēga āmbyulens karīri", "en": "Call an ambulance, quickly." },
+    { "native": "ನನ್ನ ಬ್ಯಾಗ್ ಕಳ್ಳತನ ಆಗಿದೆ", "roman": "nanna byāg kaḷḷatana āgide", "en": "My bag has been stolen." },
+    { "native": "ನನ್ನ ಪಾಸ್ಪೋರ್ಟ್ ಕಾಣೆಯಾಗಿದೆ", "roman": "nanna pāspōrṭ kāṇeyāgide", "en": "My passport is missing." },
+    { "native": "ನಾನು ದೂರು ಕೊಡಬೇಕು", "roman": "nānu dūru koḍabēku", "en": "I need to file a complaint." },
+    { "native": "ರೂಮ್ ಖಾಲಿ ಇದೆಯಾ?", "roman": "rūm khāli ideyā?", "en": "Do you have a room available?" },
+    { "native": "ಒಂದು ರಾತ್ರಿಗೆ ಬಾಡಿಗೆ ಎಷ್ಟು?", "roman": "ondu rātrige bāḍige eṣṭu?", "en": "How much is it per night?" },
+    { "native": "ರೂಮಲ್ಲಿ ಎಸಿ ಕೆಲಸ ಮಾಡ್ತಿಲ್ಲ", "roman": "rūmalli esi kelasa māḍtilla", "en": "The AC in the room isn't working." },
+    { "native": "ನನ್ನ ರೈಲು ತಪ್ಪಿ ಹೋಯ್ತು", "roman": "nanna railu tappi hōytu", "en": "I missed my train." },
+    { "native": "ಮೈಸೂರಿಗೆ ಮುಂದಿನ ರೈಲು ಯಾವಾಗ?", "roman": "maisūrige mundina railu yāvāga?", "en": "When's the next train to Mysuru?" },
+    { "native": "ಇಲ್ಲಿ ಸುರಕ್ಷಿತವಾ?", "roman": "illi surakṣitavā?", "en": "Is it safe here?" },
+    { "native": "ನನಗೆ ಕನ್ನಡ ಚೆನ್ನಾಗಿ ಬರಲ್ಲ, ಇಂಗ್ಲಿಷ್ ಬರುತ್ತಾ?", "roman": "nanage kannaḍa chennāgi baralla, iṅgliṣ baruttā?", "en": "I don't speak Kannada well, do you speak English?" }
+  ],
+  "grammar": [
+    {
+      "title": "'If ... then': the conditional -ಅರೆ",
+      "body": "Add **-ಅರೆ** *-are* (spoken **-್ರೆ** *-re*, e.g. ಮಾಡಿದ್ರೆ) to the **past stem** of the verb. It has no personal endings:\nಮಾಡು → ಮಾಡಿದರೆ / ಮಾಡಿದ್ರೆ 'if (I/you/they) do'\nಬರು → ಬಂದರೆ / ಬಂದ್ರೆ 'if ... come'\nಹೋಗು → ಹೋದರೆ / ಹೋದ್ರೆ 'if ... go'\nಇರು → ಇದ್ದರೆ / ಇದ್ರೆ 'if ... is / there is'\nಆಗು → ಆದರೆ / ಆದ್ರೆ 'if it happens / if it's possible' (also the word 'but')\nಬೇಕು → ಬೇಕಾದರೆ 'if (you) want'\n\nThe 'if' clause comes first; the 'then' clause follows with no word for 'then' (sometimes ಆಗ 'then'): ಮಳೆ ಬಂದರೆ ನಾನು ಬರಲ್ಲ 'if it rains, I won't come'.\n\n**Negative 'if not'** = infinitive stem + **-ಅದಿದ್ದರೆ** (spoken -ಅದಿದ್ರೆ / -ಅಲ್ಲಾಂದ್ರೆ): ಬರದಿದ್ದರೆ 'if (you) don't come', ಸಿಗದಿದ್ದರೆ 'if (it) isn't found'.\n\n**Unreal past** ('if I had ..., I would have ...') = -ಇದ್ದರೆ + past habitual: ಗೊತ್ತಿದ್ದರೆ ಹೇಳ್ತಿದ್ದೆ 'if I had known, I would have told you'.",
+      "examples": [
+        { "native": "ಏನಾದ್ರೂ ಸಮಸ್ಯೆ ಆದ್ರೆ ನನಗೆ ಫೋನ್ ಮಾಡಿ", "roman": "ēnādrū samasye ādre nanage phōn māḍi", "en": "If there's any problem, call me." },
+        { "native": "ಬೇಗ ಹೊರಟರೆ ರೈಲು ಸಿಗುತ್ತೆ", "roman": "bēga horaṭare railu sigutte", "en": "If you leave early, you'll catch the train." },
+        { "native": "ಪಾಸ್ಪೋರ್ಟ್ ಸಿಗದಿದ್ದರೆ ಪೊಲೀಸರಿಗೆ ದೂರು ಕೊಡಿ", "roman": "pāspōrṭ sigadiddare polīsarige dūru koḍi", "en": "If the passport isn't found, file a complaint with the police." },
+        { "native": "ನಿಮಗೆ ಹುಷಾರಿಲ್ಲದಿದ್ರೆ ಡಾಕ್ಟರ ಹತ್ರ ಹೋಗಿ", "roman": "nimage huṣārilladidre ḍākṭara hatra hōgi", "en": "If you're not well, go to a doctor." },
+        { "native": "ನನಗೆ ಗೊತ್ತಿದ್ದರೆ ಹೇಳ್ತಿದ್ದೆ", "roman": "nanage gottiddare hēḷtidde", "en": "If I'd known, I would have told you." }
+      ]
+    },
+    {
+      "title": "'Even if' -ಅರೂ, and 'when' -ಆಗ",
+      "body": "Two close relatives of the conditional:\n\n**Even if / although** = past stem + **-ಅರೂ** (conditional + -ಊ 'even'): ಮಳೆ ಬಂದರೂ ಬರ್ತೀನಿ 'I'll come even if it rains', ಎಷ್ಟು ಹುಡುಕಿದರೂ ಸಿಗಲಿಲ್ಲ 'however much I searched, I didn't find it'. With question words it means '-ever': ಏನಾದರೂ 'anything (whatever happens)', ಯಾರಾದರೂ 'anyone', ಎಲ್ಲಾದರೂ 'anywhere' (spoken ಏನಾದ್ರೂ, ಯಾರಾದ್ರೂ, ಎಲ್ಲಾದ್ರೂ).\n\n**When** = relative participle (past -ಇದ / present -ಉವ) + **-ಆಗ**: ಬಂದಾಗ 'when (someone) came / comes', ಹೋಗುವಾಗ 'while going', ಚಿಕ್ಕವನಿದ್ದಾಗ 'when I was small'. Spoken ಹೋಗುವಾಗ → ಹೋಗೋವಾಗ / ಹೋಗ್ತಾ ಇರುವಾಗ.",
+      "examples": [
+        { "native": "ಯಾರಾದ್ರೂ ಇಂಗ್ಲಿಷ್ ಮಾತಾಡ್ತೀರಾ?", "roman": "yārādrū iṅgliṣ mātāḍtīrā?", "en": "Does anyone speak English?" },
+        { "native": "ಎಷ್ಟು ಹುಡುಕಿದರೂ ನನ್ನ ಬ್ಯಾಗ್ ಸಿಗಲಿಲ್ಲ", "roman": "eṣṭu huḍukidarū nanna byāg sigalilla", "en": "However much I searched, I couldn't find my bag." },
+        { "native": "ನಾನು ರೈಲಿನಲ್ಲಿ ಮಲಗಿದ್ದಾಗ ಕಳ್ಳ ಫೋನ್ ಕದ್ದ", "roman": "nānu railinalli malagiddāga kaḷḷa phōn kadda", "en": "While I was asleep on the train, a thief stole my phone." },
+        { "native": "ಹೋಟೆಲ್ ತಲುಪಿದಾಗ ಫೋನ್ ಮಾಡಿ", "roman": "hōṭel talupidāga phōn māḍi", "en": "Call when you reach the hotel." },
+        { "native": "ತಡ ಆದರೂ ಪರವಾಗಿಲ್ಲ, ಹುಷಾರಾಗಿ ಬನ್ನಿ", "roman": "taḍa ādarū paravāgilla, huṣārāgi banni", "en": "It doesn't matter even if you're late, come safely." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the police station",
+    "setting": "Ben's phone was stolen on a crowded bus; he goes to a police station in Shivajinagar.",
+    "lines": [
+      { "speaker": "Ben", "native": "ನಮಸ್ಕಾರ ಸಾರ್. ನನ್ನ ಫೋನ್ ಕಳ್ಳತನ ಆಗಿದೆ. ದೂರು ಕೊಡಬೇಕು.", "roman": "namaskāra sār. nanna phōn kaḷḷatana āgide. dūru koḍabēku.", "en": "Hello sir. My phone has been stolen. I need to make a complaint." },
+      { "speaker": "Police", "native": "ಕೂತ್ಕೊಳ್ಳಿ. ಎಲ್ಲಿ, ಯಾವಾಗ ಆಯ್ತು?", "roman": "kūtkoḷḷi. elli, yāvāga āytu?", "en": "Sit down. Where and when did it happen?" },
+      { "speaker": "Ben", "native": "ಇವತ್ತು ಬೆಳಿಗ್ಗೆ ಬಸ್ಸಲ್ಲಿ. ತುಂಬಾ ಜನ ಇದ್ರು. ಇಳಿದಾಗ ಫೋನ್ ಇರಲಿಲ್ಲ.", "roman": "ivattu beḷigge bassalli. tumbā jana idru. iḷidāga phōn iralilla.", "en": "This morning on the bus. It was very crowded. When I got off, the phone wasn't there." },
+      { "speaker": "Police", "native": "ಯಾವ ಬಸ್ಸು? ಫೋನ್ ಯಾವ ಕಂಪನಿ, ಯಾವ ಬಣ್ಣ?", "roman": "yāva bassu? phōn yāva kampani, yāva baṇṇa?", "en": "Which bus? What make and colour is the phone?" },
+      { "speaker": "Ben", "native": "ಮುನ್ನೂರ ಮೂವತ್ತೈದು ಇ. ಕಪ್ಪು ಬಣ್ಣದ ಸ್ಯಾಮ್ಸಂಗ್.", "roman": "munnūra mūvattaidu i. kappu baṇṇada syāmsaṅg.", "en": "335E. A black Samsung." },
+      { "speaker": "Police", "native": "ನಿಮ್ಮ ಗುರುತಿನ ಚೀಟಿ ಮತ್ತು ವಿಳಾಸ ಕೊಡಿ.", "roman": "nimma gurutina chīṭi mattu viḷāsa koḍi.", "en": "Give me your ID and address." },
+      { "speaker": "Ben", "native": "ಇದು ನನ್ನ ಪಾಸ್ಪೋರ್ಟ್. ಫೋನ್ ಸಿಕ್ಕಿದರೆ ಹೇಗೆ ಗೊತ್ತಾಗುತ್ತೆ?", "roman": "idu nanna pāspōrṭ. phōn sikkidare hēge gottāgutte?", "en": "Here's my passport. If the phone is found, how will I know?" },
+      { "speaker": "Police", "native": "ಸಿಕ್ಕಿದರೆ ನಾವೇ ಫೋನ್ ಮಾಡ್ತೀವಿ. ಈ ನಂಬರಿಗೆ ಕರೀರಿ, ಏನಾದ್ರೂ ಬೇಕಾದ್ರೆ.", "roman": "sikkidare nāvē phōn māḍtīvi. ī nambarige karīri, ēnādrū bēkādre.", "en": "If it's found, we'll call you ourselves. Call this number if you need anything." },
+      { "speaker": "Ben", "native": "ತುಂಬಾ ಧನ್ಯವಾದ ಸಾರ್.", "roman": "tumbā dhanyavāda sār.", "en": "Thank you very much, sir." }
+    ]
+  },
+  "culture": "India's single emergency number is **112**; 100 (police), 101 (fire) and 108 (ambulance) also still work in Karnataka. In a crisis, bystanders are usually quick to help: calling out ಅಣ್ಣ or ಅಕ್ಕ will get attention. Keep a photocopy of your passport and visa, as hotels must register foreign guests. When travelling by KSRTC bus or train, people commonly say ಶುಭ ಪ್ರಯಾಣ 'have a good journey' or, less formally, ಹುಷಾರಾಗಿ ಹೋಗಿ ಬನ್ನಿ 'go safely and come back'."
+}

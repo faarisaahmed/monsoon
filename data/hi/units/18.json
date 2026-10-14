@@ -1,0 +1,97 @@
+{
+  "id": 18,
+  "title": "Politeness, requests & invitations",
+  "goal": "Make polite requests, ask favours and permission, offer, invite, accept and refuse gracefully.",
+  "intro": "Hindi is rich in politeness, but it doesn't rely on a word like 'please'. Politeness lives in the **verb form** (दीजिए, दीजिएगा), in little softeners like **ज़रा**, and in the respectful आप.\n\nIn this unit you'll learn a scale of politeness for requests, and a new verb form — the **subjunctive** — for 'shall I…?', 'let's…', 'may I…?' and wishes.",
+  "vocab": [
+    { "native": "मदद", "roman": "madad", "en": "help", "pos": "noun", "note": "f · X की मदद करना 'to help X' · also सहायता (formal)" },
+    { "native": "बात", "roman": "bāt", "en": "matter, thing (said); talk", "pos": "noun", "note": "f · बात करना 'to talk'; कोई बात नहीं 'never mind'" },
+    { "native": "ज़रा", "roman": "zarā", "en": "just, a little (softener)", "pos": "adv", "note": "ज़रा सुनिए 'excuse me, could you listen a moment'" },
+    { "native": "मेहरबानी", "roman": "meharbānī", "en": "kindness, favour", "pos": "noun", "note": "f · आपकी मेहरबानी 'that's kind of you'; मेहरबानी करके 'kindly, please'" },
+    { "native": "तकलीफ़", "roman": "taklīf", "en": "trouble, inconvenience; discomfort", "pos": "noun", "note": "f · तकलीफ़ के लिए माफ़ी 'sorry for the trouble'" },
+    { "native": "इजाज़त", "roman": "ijāzat", "en": "permission", "pos": "noun", "note": "f · इजाज़त दीजिए 'allow me to leave' (polite goodbye)" },
+    { "native": "ज़रूरत", "roman": "zarūrat", "en": "need", "pos": "noun", "note": "f · X की ज़रूरत है 'X is needed'" },
+    { "native": "मेहमान", "roman": "mehmān", "en": "guest", "pos": "noun", "note": "m · formal: अतिथि" },
+    { "native": "न्योता", "roman": "nyotā", "en": "invitation", "pos": "noun", "note": "m · formal: निमंत्रण; also 'इनवाइट'" },
+    { "native": "बुलाना", "roman": "bulānā", "en": "to call (over); to invite", "pos": "verb" },
+    { "native": "माँगना", "roman": "māṃgnā", "en": "to ask for, request", "pos": "verb", "note": "माफ़ी माँगना 'to apologise'" },
+    { "native": "मना", "roman": "manā", "en": "refusal; forbidden", "pos": "noun", "note": "मना करना 'to refuse, say no'; मना है 'is forbidden'" },
+    { "native": "समझाना", "roman": "samjhānā", "en": "to explain", "pos": "verb" },
+    { "native": "दोहराना", "roman": "dohrānā", "en": "to repeat", "pos": "verb" },
+    { "native": "रखना", "roman": "rakhnā", "en": "to put, keep", "pos": "verb", "note": "रख दीजिए 'put it down (please)'" },
+    { "native": "खोलना", "roman": "kholnā", "en": "to open", "pos": "verb" },
+    { "native": "बंद", "roman": "band", "en": "closed, shut; off", "pos": "adj", "note": "invariable · बंद करना 'to close, switch off'" },
+    { "native": "इस्तेमाल", "roman": "istemāl", "en": "use", "pos": "noun", "note": "m · इस्तेमाल करना 'to use'" },
+    { "native": "इंतज़ाम", "roman": "intazām", "en": "arrangement", "pos": "noun", "note": "m · इंतज़ाम करना 'to arrange'" },
+    { "native": "कोई", "roman": "koī", "en": "someone; any; some", "pos": "pron", "note": "oblique: किसी · कोई नहीं 'nobody'" },
+    { "native": "अपना", "roman": "apnā", "en": "one's own (my/your/his… own)", "pos": "pron", "note": "Used instead of मेरा/उसका etc. when the owner is the subject: मैं अपना काम करता हूँ" },
+    { "native": "ख़ुद", "roman": "xud", "en": "oneself, myself, yourself…", "pos": "pron", "note": "मैं ख़ुद कर लूँगा 'I'll do it myself'" },
+    { "native": "साहब", "roman": "sāhab", "en": "sir, Mr; gentleman", "pos": "noun", "note": "m · after a name or title: वर्मा साहब, डॉक्टर साहब · f: साहिबा, or जी" },
+    { "native": "बधाई", "roman": "badhāī", "en": "congratulations", "pos": "noun", "note": "f · बधाई हो! · also मुबारक हो! mubārak ho" },
+    { "native": "शुभकामनाएँ", "roman": "shubhkāmnāyeṃ", "en": "best wishes", "pos": "noun", "note": "f pl · जन्मदिन की शुभकामनाएँ 'happy birthday'" },
+    { "native": "तोहफ़ा", "roman": "tohfā", "en": "gift", "pos": "noun", "note": "m · also उपहार (formal), 'गिफ़्ट'" },
+    { "native": "आशीर्वाद", "roman": "āshīrvād", "en": "blessing", "pos": "noun", "note": "m · elders give it when you touch their feet" },
+    { "native": "आभारी", "roman": "ābhārī", "en": "grateful, obliged", "pos": "adj", "note": "invariable · formal: मैं आपका आभारी हूँ" },
+    { "native": "भरोसा", "roman": "bharosā", "en": "trust, reliance", "pos": "noun", "note": "m · X पर भरोसा करना 'to trust X'" }
+  ],
+  "phrases": [
+    { "native": "ज़रा सुनिए!", "roman": "zarā suniye!", "en": "Excuse me! (to get attention politely)" },
+    { "native": "ज़रा नमक दीजिएगा।", "roman": "zarā namak dījiyegā.", "en": "Could you pass the salt, please?" },
+    { "native": "क्या आप फिर से बोलेंगे?", "roman": "kyā āp phir se boleṃge?", "en": "Would you say that again, please?" },
+    { "native": "मैं अंदर आऊँ?", "roman": "maiṃ andar āūṃ?", "en": "May I come in?" },
+    { "native": "चाय बनाऊँ?", "roman": "chāy banāūṃ?", "en": "Shall I make some tea?" },
+    { "native": "चलें?", "roman": "chaleṃ?", "en": "Shall we go?" },
+    { "native": "आप शनिवार को हमारे घर खाने पर आइए।", "roman": "āp shanivār ko hamāre ghar khāne par āiye.", "en": "Do come to our place for dinner on Saturday." },
+    { "native": "ज़रूर, ख़ुशी से आऊँगी।", "roman": "zarūr, xushī se āūṃgī.", "en": "Of course, I'd love to come. (woman)" },
+    { "native": "माफ़ कीजिए, आज नहीं हो पाएगा।", "roman": "māf kījiye, āj nahīṃ ho pāyegā.", "en": "Sorry, I won't be able to make it today." },
+    { "native": "तकलीफ़ के लिए माफ़ी चाहता हूँ।", "roman": "taklīf ke liye māfī chāhtā hūṃ.", "en": "Sorry for the trouble. (man; formal)" },
+    { "native": "कोई तकलीफ़ नहीं।", "roman": "koī taklīf nahīṃ.", "en": "No trouble at all." },
+    { "native": "आपकी बड़ी मेहरबानी।", "roman": "āpkī baṛī meharbānī.", "en": "That's very kind of you." },
+    { "native": "बधाई हो!", "roman": "badhāī ho!", "en": "Congratulations!" },
+    { "native": "आराम से बैठिए।", "roman": "ārām se baiṭhiye.", "en": "Make yourself comfortable." }
+  ],
+  "grammar": [
+    {
+      "title": "A ladder of politeness for requests",
+      "body": "From blunt to very polite:\n\n**दो** (तुम) — 'give' — fine with friends and family\n**दीजिए** (आप) — 'please give' — the standard polite form\n**दे दीजिए** — adding देना after the stem makes it a smooth, 'for me' request; very natural\n**दीजिएगा** — the **polite future imperative**: stem + **-इएगा**. Extra courteous, and slightly deferred: 'would you please…'\n**क्या आप … देंगे?** / **… दे सकते हैं?** — 'will you / could you…?'\n\nAny of these can be softened further with **ज़रा** 'just', **प्लीज़**, or the formal **कृपया** / **मेहरबानी करके**.\n\nThe extra-polite irregular forms: करना → **कीजिएगा**, देना → **दीजिएगा**, लेना → **लीजिएगा**.",
+      "examples": [
+        { "native": "पानी दो।", "roman": "pānī do.", "en": "Give me water. (familiar)" },
+        { "native": "पानी दीजिए।", "roman": "pānī dījiye.", "en": "Water, please." },
+        { "native": "ज़रा दरवाज़ा बंद कर दीजिए।", "roman": "zarā darvāzā band kar dījiye.", "en": "Would you just close the door, please?" },
+        { "native": "कल मुझे फ़ोन कीजिएगा।", "roman": "kal mujhe fon kījiyegā.", "en": "Please do give me a call tomorrow." },
+        { "native": "क्या आप यह मुझे समझा सकते हैं?", "roman": "kyā āp yah mujhe samjhā sakte haiṃ?", "en": "Could you explain this to me?" },
+        { "native": "कृपया जूते बाहर उतारें।", "roman": "kripayā jūte bāhar utāreṃ.", "en": "Please remove your shoes outside. (sign)" }
+      ]
+    },
+    {
+      "title": "The subjunctive: shall I…? let's… may you…",
+      "body": "The subjunctive is simply the **future without -गा/-गी/-गे**:\n\nमैं **करूँ** · तू/वह **करे** · तुम **करो** · हम/आप/वे **करें**\n(जाना: जाऊँ, जाए, जाओ, जाएँ · होना: होऊँ/हूँ, हो, हो, हों)\n\nIt expresses possibility, suggestion or wish rather than fact:\n\n**Offers / shall I?** — मैं चाय बनाऊँ? 'shall I make tea?'\n**Asking permission** — मैं अंदर आऊँ? 'may I come in?'\n**Let's / shall we?** — चलें? 'shall we go?', चलो, कुछ खाएँ 'come on, let's eat something'\n**Very polite/formal instructions** (signs, announcements) — कृपया ध्यान दें 'please pay attention'\n**Wishes and blessings** — आप ख़ुश रहें 'may you be happy'\n**After 'want' with a different subject** — मैं चाहता हूँ कि **आप आएँ** 'I want you to come'\n**After 'maybe'** — शायद वह आए 'he might come'",
+      "examples": [
+        { "native": "मैं आपकी मदद करूँ?", "roman": "maiṃ āpkī madad karūṃ?", "en": "Shall I help you?" },
+        { "native": "क्या हम यहाँ बैठें?", "roman": "kyā ham yahāṃ baiṭheṃ?", "en": "Shall we sit here?" },
+        { "native": "माँ चाहती हैं कि मैं जल्दी घर आऊँ।", "roman": "māṃ chāhtī haiṃ ki maiṃ jaldī ghar āūṃ.", "en": "Mum wants me to come home early." },
+        { "native": "शायद कल बारिश हो।", "roman": "shāyad kal bārish ho.", "en": "It might rain tomorrow." },
+        { "native": "भगवान आपको ख़ुश रखे।", "roman": "bhagvān āpko xush rakhe.", "en": "May God keep you happy." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Dinner at the Vermas'",
+    "setting": "Kate has been invited to dinner by her colleague's parents, Mr and Mrs Verma.",
+    "lines": [
+      { "speaker": "Mrs Verma", "native": "आइए, आइए! आपका स्वागत है। अंदर आइए।", "roman": "āiye, āiye! āpkā svāgat hai. andar āiye.", "en": "Come in, come in! Welcome. Please come inside." },
+      { "speaker": "Kate", "native": "नमस्ते आंटी, नमस्ते अंकल। यह आपके लिए एक छोटा-सा तोहफ़ा।", "roman": "namaste āṇṭī, namaste aṅkal. yah āpke liye ek chhoṭā-sā tohfā.", "en": "Hello aunty, hello uncle. A little gift for you." },
+      { "speaker": "Mr Verma", "native": "अरे, इसकी क्या ज़रूरत थी! बैठिए, आराम से बैठिए।", "roman": "are, iskī kyā zarūrat thī! baiṭhiye, ārām se baiṭhiye.", "en": "Oh, there was no need for this! Sit down, make yourself comfortable." },
+      { "speaker": "Mrs Verma", "native": "आप क्या लेंगी — चाय, या कुछ ठंडा?", "roman": "āp kyā leṃgī — chāy, yā kuchh ṭhaṇḍā?", "en": "What will you have — tea, or something cold?" },
+      { "speaker": "Kate", "native": "कोई तकलीफ़ मत कीजिए, आंटी। बस पानी दे दीजिए।", "roman": "koī taklīf mat kījiye, āṇṭī. bas pānī de dījiye.", "en": "Please don't go to any trouble, aunty. Just water, please." },
+      { "speaker": "Mrs Verma", "native": "तकलीफ़ कैसी? आप हमारी मेहमान हैं। मैं चाय बनाऊँ?", "roman": "taklīf kaisī? āp hamārī mehmān haiṃ. maiṃ chāy banāūṃ?", "en": "What trouble? You're our guest. Shall I make some tea?" },
+      { "speaker": "Kate", "native": "ठीक है, आपकी बड़ी मेहरबानी।", "roman": "ṭhīk hai, āpkī baṛī meharbānī.", "en": "Alright, that's very kind of you." },
+      { "speaker": "Mr Verma", "native": "खाना तैयार है। चलिए, खाना खाएँ।", "roman": "khānā taiyār hai. chaliye, khānā khāyeṃ.", "en": "Dinner's ready. Come, let's eat." },
+      { "speaker": "Mrs Verma", "native": "और पनीर लीजिए। एक रोटी और?", "roman": "aur panīr lījiye. ek roṭī aur?", "en": "Have some more paneer. Another roti?" },
+      { "speaker": "Kate", "native": "नहीं आंटी, बस। बहुत स्वादिष्ट था, पर पेट भर गया।", "roman": "nahīṃ āṇṭī, bas. bahut svādiṣṭ thā, par peṭ bhar gayā.", "en": "No aunty, that's enough. It was delicious, but I'm full." },
+      { "speaker": "Kate", "native": "अब मुझे इजाज़त दीजिए। बहुत देर हो गई।", "roman": "ab mujhe ijāzat dījiye. bahut der ho gaī.", "en": "Now, please allow me to leave. It's got very late." },
+      { "speaker": "Mr Verma", "native": "ज़रूर। फिर आइएगा! और घर पहुँचकर फ़ोन कीजिएगा।", "roman": "zarūr. phir āiyegā! aur ghar pahuṃchkar fon kījiyegā.", "en": "Of course. Do come again! And please call when you get home." }
+    ]
+  },
+  "culture": "Guests are treated almost as sacred — the Sanskrit saying *अतिथि देवो भव* means 'the guest is God'. Expect to be offered food and drink repeatedly; refusing once is seen as modesty, so say clearly but warmly **बस, पेट भर गया** if you mean it. Bring a small gift (sweets, fruit) when visiting a home. To leave, Hindi speakers don't just say 'bye' — they **ask permission**: **अब इजाज़त दीजिए** or **अब मैं चलता/चलती हूँ**, and hosts reply **फिर आइएगा** 'do come again'. Young people often greet elders by touching their feet (पैर छूना) and receive a blessing (आशीर्वाद) in return."
+}

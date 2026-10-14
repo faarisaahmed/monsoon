@@ -4,7 +4,7 @@
   "native": "اردو",
   "scriptName": "Perso-Arabic (Nastaliq)",
   "script": {
-    "overview": "Urdu is written **right to left** in an extended Perso-Arabic alphabet of about 38 letters, plus the aspiration marker **ھ** (do-chashmī he) and the nasal **ں** (nūn ġunna). Printed and handwritten Urdu normally uses the **Nastaliq** style, in which words slope down from upper right to lower left and letters stack diagonally; newspapers, phones and computers use Nastaliq too, though you will also see the upright *Naskh* style.\n\nUrdu is a joined (cursive) script. Most letters connect to the letter before **and** after them, and so they have up to four shapes: isolated, initial, medial and final. But **nine letters never join to the following letter**: ا د ڈ ذ ر ڑ ز ژ و (and ے, which only occurs at the end of a word). After one of these, the next letter starts a fresh 'chunk' even in the middle of a word — so a word like اردو is written as three separate pieces: ا · رد · و.\n\nMany letters share the same basic shape and differ only in **dots** (nuqte): ب پ ت ٹ ث are all the same 'boat' shape with one, three or two dots or a small ط. Learn the shapes in families and then the dots.\n\nUrdu is an *abjad*-like script: **long vowels are written** with ا (ā), و (ū, o, au) and ی/ے (ī, e, ai), but **short vowels a, i, u are usually left out**. They can be marked with small diacritics (zabar, zer, pesh) — beginners' books and the Qur'an use them, but ordinary text does not. Several sounds are written with more than one letter (four letters for z, three for s, two each for t and h) because Urdu keeps the original spelling of Arabic and Persian loanwords.\n\nDigits ۰–۹ are written **left to right** even inside right-to-left text, just like in English.",
+    "overview": "Urdu is written **right to left** in an extended Perso-Arabic alphabet of about 38 letters, plus the aspiration marker **ھ** (do-chashmī he) and the nasal **ں** (nūn ġunna). Printed and handwritten Urdu normally uses the **Nastaliq** style, in which words slope down from upper right to lower left and letters stack diagonally; newspapers, phones and computers use Nastaliq too, though you will also see the upright *Naskh* style.\n\nUrdu is a joined (cursive) script. Most letters connect to the letter before **and** after them, and so they have up to four shapes: isolated, initial, medial and final. But **nine letters never join to the following letter**: ا د ڈ ذ ر ڑ ز ژ و (and ے, which only occurs at the end of a word). After one of these, the next letter starts a fresh 'chunk' even in the middle of a word — so a word like اردو is written as four separate pieces: ا · ر · د · و (all four are non-connectors).\n\nMany letters share the same basic shape and differ only in **dots** (nuqte): ب پ ت ٹ ث are all the same 'boat' shape with one, three or two dots or a small ط. Learn the shapes in families and then the dots.\n\nUrdu is an *abjad*-like script: **long vowels are written** with ا (ā), و (ū, o, au) and ی/ے (ī, e, ai), but **short vowels a, i, u are usually left out**. They can be marked with small diacritics (zabar, zer, pesh) — beginners' books and the Qur'an use them, but ordinary text does not. Several sounds are written with more than one letter (four letters for z, three for s, two each for t and h) because Urdu keeps the original spelling of Arabic and Persian loanwords.\n\nDigits ۰–۹ are written **left to right** even inside right-to-left text, just like in English.",
     "groups": [
       {
         "id": "alif-be",
@@ -381,7 +381,7 @@
             "char": "ک",
             "roman": "k",
             "ipa": "k",
-            "sound": "kāf. Like English k but without a puff of breath. Joins both ways. Note: Urdu ک is different from the Arabic ك — it never has the little hamza inside.",
+            "sound": "kāf. Like English k but without a puff of breath. Joins both ways. Note: Urdu ک is different from the Arabic ك — it never has the small squiggle inside the bowl.",
             "example": {
               "native": "کتاب",
               "roman": "kitāb",
@@ -762,9 +762,9 @@
             "sign": "ی",
             "signExample": "پی (pī)",
             "example": {
-              "native": "امیر",
-              "roman": "amīr",
-              "en": "rich"
+              "native": "اینٹ",
+              "roman": "īnṭ",
+              "en": "brick"
             },
             "strokes": "Alif + initial ye."
           },
@@ -1254,7 +1254,7 @@
   "where": "National language of Pakistan; official in several Indian states (Telangana, Uttar Pradesh, Bihar, J&K and others); spoken by large diaspora communities in the UK, Gulf, USA and Canada",
   "tagline": "The language of ghazals, Bollywood lyrics and everyday Pakistan — and once you speak it, you can understand spoken Hindi too.",
   "intro": "**Urdu** (اردو) is an Indo-Aryan language that grew up in north India between the 13th and 18th centuries, mixing the everyday speech of the Delhi region with a large vocabulary from **Persian** and **Arabic** (and some Turkish). Today it is the national language and lingua franca of Pakistan and the mother tongue of tens of millions of people in India.\n\nIn everyday conversation Urdu and **Hindi** are essentially the same language — same grammar, same basic words — so learning to speak one means you can talk with speakers of the other. They differ in script (Urdu uses a Perso-Arabic script, Hindi uses Devanagari) and in their formal and literary vocabulary: Urdu draws on Persian and Arabic where Hindi draws on Sanskrit.\n\nUrdu is written **right to left** in the flowing, slanted *Nastaliq* style. Short vowels are normally not written, so you learn words as whole shapes. Urdu is also famously polite: there are three words for 'you' (**آپ** āp, **تم** tum, **تو** tū), and choosing the right one matters.\n\nThis course teaches the **standard modern spoken Urdu** heard in Karachi, Lahore, Islamabad, Hyderabad and Lucknow. Every word comes with romanization, but we strongly encourage you to learn the script alongside it — it is much easier than it looks.",
-  "romanizationNote": "Romanization shows how words are actually pronounced. A bar marks long vowels (ā ī ū); plain a i u are short (a = the 'u' of 'but'). e and o are always long, like 'café' and 'go'; ai is like 'bat' (or 'bet') and au like 'law'. A dot under t d r (ṭ ḍ ṛ) means a retroflex sound with the tongue curled back; plain t d are dental (tongue on the teeth). An h after a consonant (kh, gh, ph, th, bh…) means aspiration — a puff of breath — so th is never English 'th' and ph is never 'f'. The Persian/Arabic sounds are q (ق, deep in the throat), x (خ, as in Scottish 'loch'), ġ (غ, a gargled g), ʿ (ع) and ’ (ء), which today are usually just vowel breaks. ṃ after a vowel means the vowel is nasalised (ہاں hāṃ). Final ہ after a short vowel is written -a or -ah (کمرہ kamra, بارہ bārah). Note that the script often doesn't show short vowels, so the romanization is your guide to them.",
+  "romanizationNote": "Romanization shows how words are actually pronounced. A bar marks long vowels (ā ī ū); plain a i u are short (a = the 'u' of 'but'). e and o are always long, like 'café' and 'go'; ai is like 'bat' (or 'bet') and au like 'law'. A dot under t d r (ṭ ḍ ṛ) means a retroflex sound with the tongue curled back; plain t d are dental (tongue on the teeth). An h after a consonant (kh, gh, ph, th, bh…) means aspiration — a puff of breath — so th is never English 'th' and ph is never 'f'. The Persian/Arabic sounds are q (ق, deep in the throat), x (خ, as in Scottish 'loch'), ġ (غ, a gargled g), ʿ (ع) and ’ (ء), which today are usually just vowel breaks. ṃ after a vowel means the vowel is nasalised (ہاں hāṃ). A silent final ہ after a consonant is written -a (کمرہ kamra), and -ah in a few words where the h is traditionally kept (بارہ bārah, سالگرہ sālgirah). Note that the script often doesn't show short vowels, so the romanization is your guide to them.",
   "pronunciation": [
     {
       "id": "short-vowels",
@@ -1295,16 +1295,16 @@
         },
         {
           "a": {
-            "native": "مِلا",
-            "roman": "milā",
-            "en": "met, got (past)"
+            "native": "سَر",
+            "roman": "sar",
+            "en": "head"
           },
           "b": {
-            "native": "مُلا",
-            "roman": "mullā",
-            "en": "mullah, cleric"
+            "native": "سُر",
+            "roman": "sur",
+            "en": "musical note, tune"
           },
-          "note": "Written ملا; context and vowels/doubling distinguish."
+          "note": "Both written سر in ordinary text."
         },
         {
           "a": {
@@ -1418,9 +1418,9 @@
             "en": "heard"
           },
           "b": {
-            "native": "سونا",
-            "roman": "sonā",
-            "en": "to sleep; gold"
+            "native": "سُونا",
+            "roman": "sūnā",
+            "en": "empty, deserted"
           }
         },
         {
@@ -1662,14 +1662,14 @@
         },
         {
           "a": {
-            "native": "پٹا",
-            "roman": "paṭā",
-            "en": "collar, leash"
+            "native": "کاٹا",
+            "roman": "kāṭā",
+            "en": "cut (past)"
           },
           "b": {
-            "native": "پتا",
-            "roman": "patā",
-            "en": "address; knowledge"
+            "native": "کاتا",
+            "roman": "kātā",
+            "en": "spun (past)"
           }
         }
       ],
@@ -1724,14 +1724,14 @@
       "pairs": [
         {
           "a": {
-            "native": "بڑا",
-            "roman": "baṛā",
-            "en": "big"
+            "native": "پڑی",
+            "roman": "paṛī",
+            "en": "lying (f.)"
           },
           "b": {
-            "native": "برا",
-            "roman": "burā",
-            "en": "bad"
+            "native": "پری",
+            "roman": "parī",
+            "en": "fairy"
           }
         },
         {
@@ -1748,14 +1748,14 @@
         },
         {
           "a": {
-            "native": "پیڑ",
-            "roman": "peṛ",
-            "en": "tree"
+            "native": "کوڑا",
+            "roman": "koṛā",
+            "en": "whip"
           },
           "b": {
-            "native": "پیر",
-            "roman": "pair",
-            "en": "foot"
+            "native": "کورا",
+            "roman": "korā",
+            "en": "blank, unused (paper, cloth)"
           }
         },
         {
@@ -1773,14 +1773,14 @@
         },
         {
           "a": {
-            "native": "گھڑی",
-            "roman": "ghaṛī",
-            "en": "watch, clock"
+            "native": "سڑ",
+            "roman": "saṛ",
+            "en": "rot! (imperative)"
           },
           "b": {
-            "native": "گھری",
-            "roman": "ghirī",
-            "en": "surrounded (f.)"
+            "native": "سر",
+            "roman": "sar",
+            "en": "head"
           }
         }
       ],
@@ -1859,14 +1859,14 @@
         },
         {
           "a": {
-            "native": "ہو",
-            "roman": "ho",
-            "en": "(you) are (informal)"
+            "native": "کہی",
+            "roman": "kahī",
+            "en": "said (f.)"
           },
           "b": {
-            "native": "ہوں",
-            "roman": "hūṃ",
-            "en": "(I) am"
+            "native": "کہیں",
+            "roman": "kahīṃ",
+            "en": "somewhere"
           }
         },
         {
@@ -1968,14 +1968,14 @@
         },
         {
           "a": {
-            "native": "قلی",
-            "roman": "qulī",
-            "en": "porter"
+            "native": "قاری",
+            "roman": "qārī",
+            "en": "Qur'an reciter"
           },
           "b": {
-            "native": "کلی",
-            "roman": "kalī",
-            "en": "bud"
+            "native": "کاری",
+            "roman": "kārī",
+            "en": "deadly, telling (of a blow)"
           }
         }
       ],
@@ -2037,16 +2037,15 @@
         },
         {
           "a": {
-            "native": "خیر",
-            "roman": "xair",
-            "en": "well-being; anyway"
+            "native": "خال",
+            "roman": "xāl",
+            "en": "mole, beauty spot"
           },
           "b": {
-            "native": "کھیر",
-            "roman": "khīr",
-            "en": "rice pudding"
-          },
-          "note": "The vowels differ too, but listen to the first sound."
+            "native": "کھال",
+            "roman": "khāl",
+            "en": "skin, hide"
+          }
         },
         {
           "a": {
@@ -2074,14 +2073,14 @@
         },
         {
           "a": {
-            "native": "غم",
-            "roman": "ġam",
-            "en": "sorrow"
+            "native": "غل",
+            "roman": "ġul",
+            "en": "din, uproar"
           },
           "b": {
-            "native": "گم",
-            "roman": "gum",
-            "en": "lost"
+            "native": "گل",
+            "roman": "gul",
+            "en": "flower, rose"
           }
         }
       ],
@@ -2126,11 +2125,11 @@
     {
       "id": "ain-hamza",
       "title": "ع ʿain and ء hamza in practice",
-      "body": "In Arabic, ع is a strong throat consonant. In everyday Urdu it is **usually not pronounced as a consonant at all**. Instead it affects the vowels around it: at the start of a word it is simply a vowel carrier (عام ʿām sounds exactly like آم ām 'mango'); after a short a it typically makes the vowel long and open (بعد baʿd → 'bād', شعر shiʿr → 'sher', معلوم maʿlūm → 'mālūm'). Careful speakers, news readers and religious contexts may add a slight catch in the throat.\n\nHamza ء marks the boundary between two vowels — جائے jā’e, آئیے ā’iye, سوال savāl — where the voice glides from one vowel to the next. It is not a hard glottal stop in normal speech.\n\nIn this course's romanization, ʿ and ’ show you where these letters are, so you can spell the words; in speaking, follow the notes and your ear.",
+      "body": "In Arabic, ع is a strong throat consonant. In everyday Urdu it is **usually not pronounced as a consonant at all**. Instead it affects the vowels around it: at the start of a word it is simply a vowel carrier (عام ʿām sounds exactly like آم ām 'mango'); after a short a it typically makes the vowel long and open (بعد baʿd → 'bād', شعر shiʿr → 'sher', معلوم maʿlūm → 'mālūm'). Careful speakers, news readers and religious contexts may add a slight catch in the throat.\n\nHamza ء marks the boundary between two vowels — جائے jā’e, آئیے ā’iye, گائے gā’e — where the voice glides from one vowel to the next. It is not a hard glottal stop in normal speech.\n\nIn this course's romanization, ʿ and ’ show you where these letters are, so you can spell the words; in speaking, follow the notes and your ear.",
       "tips": [
         "Don't produce an Arabic-style throat sound for ع in casual Urdu — it sounds affected.",
         "aʿ before a consonant usually sounds like a long ā or open 'e': بعد 'bād', شعر 'sher'.",
-        "Hamza between vowels = a smooth glide: جائیں 'jaa-eñ'.",
+        "Hamza between vowels = a smooth glide: جائیں 'jā-eṃ'.",
         "Write ع correctly even though you don't hear it — Urdu speakers notice spelling mistakes."
       ],
       "pairs": [
@@ -2201,9 +2200,9 @@
           "en": "please come"
         },
         {
-          "native": "سوال",
-          "roman": "savāl",
-          "en": "question"
+          "native": "مسئلہ",
+          "roman": "mas’ala",
+          "en": "problem"
         },
         {
           "native": "جائیں",
@@ -2263,15 +2262,16 @@
         },
         {
           "a": {
-            "native": "تیر",
-            "roman": "tīr",
-            "en": "arrow"
+            "native": "سفر",
+            "roman": "safar",
+            "en": "journey"
           },
           "b": {
-            "native": "طیر",
-            "roman": "tair",
-            "en": "bird (literary)"
-          }
+            "native": "صفر",
+            "roman": "safar",
+            "en": "Safar (Islamic month)"
+          },
+          "note": "Same pronunciation."
         }
       ],
       "drill": [
@@ -2411,7 +2411,7 @@
     {
       "id": "doubling",
       "title": "Double consonants (tashdīd)",
-      "body": "A doubled consonant is held for longer before it is released — like the 'k k' in 'bookcase' or the 'n n' in 'unnamed'. In Urdu doubling is common and can change meaning: پتا patā 'address' vs پتّا pattā 'leaf'.\n\nThe script marks doubling with tashdīd (ّ), but like the short vowels it is usually left out, so you learn it with the word. Doubling also slightly shortens the vowel before it. Many very common words have it: اچھا achchhā, بچہ bachcha, سچ ہے sach hai vs سچّا sachchā 'true', پکا pakkā 'firm, ripe'.",
+      "body": "A doubled consonant is held for longer before it is released — like the 'k k' in 'bookcase' or the 'n n' in 'unnamed'. In Urdu doubling is common and can change meaning: پتا patā 'address' vs پتّا pattā 'leaf'.\n\nThe script marks doubling with tashdīd (ّ), but like the short vowels it is usually left out, so you learn it with the word. Many very common words have it: اچھا achchhā, بچہ bachcha, سچ ہے sach hai vs سچّا sachchā 'true', پکا pakkā 'firm, ripe'.",
       "tips": [
         "Pause briefly on the consonant: ach-chhā, pak-kā.",
         "Don't double where there is no doubling — that changes the word too.",
@@ -2863,7 +2863,7 @@
     },
     {
       "n": 51,
-      "native": "اکاون",
+      "native": "اکیاون",
       "roman": "ikyāvan",
       "digit": "۵۱"
     },
@@ -3020,13 +3020,13 @@
     {
       "n": 77,
       "native": "ستتر",
-      "roman": "sathattar",
+      "roman": "sattattar",
       "digit": "۷۷"
     },
     {
       "n": 78,
       "native": "اٹھہتر",
-      "roman": "aṭhhattar",
+      "roman": "aṭhattar",
       "digit": "۷۸"
     },
     {

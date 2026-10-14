@@ -1,0 +1,90 @@
+{
+  "id": 19,
+  "title": "Travel, problems & emergencies",
+  "goal": "Check into a hotel, deal with travel problems, ask for help in an emergency, and use 'if… then' sentences.",
+  "intro": "Things go wrong on every trip: a cancelled train, a lost wallet, a sudden illness. This unit gives you the words to cope, from **বাঁচাও!** 'help!' to reporting a theft at the **থানা** (police station).\n\nThe grammar is the **conditional**. Bengali has two ways to say 'if': the word **যদি** … **তাহলে** 'if … then', and a compact verb form in **-লে**: বৃষ্টি হ**লে** 'if it rains'. You'll also meet the 'unreal' conditional: যদি জানতাম, বলতাম 'if I had known, I would have said'.",
+  "vocab": [
+    { "native": "হোটেল", "roman": "hoṭel", "en": "hotel", "pos": "noun", "note": "Careful: in Bangladesh হোটেল often means a cheap restaurant!" },
+    { "native": "কামরা", "roman": "kamra", "en": "room (hotel); compartment (train)", "pos": "noun", "note": "Also রুম." },
+    { "native": "পাসপোর্ট", "roman": "pasporṭ", "en": "passport", "pos": "noun" },
+    { "native": "ভিসা", "roman": "bhisa", "en": "visa", "pos": "noun" },
+    { "native": "মালপত্র", "roman": "malpotro", "en": "luggage", "pos": "noun", "note": "Colloquially লাগেজ." },
+    { "native": "প্ল্যাটফর্ম", "roman": "plæṭphôrm", "en": "platform", "pos": "noun" },
+    { "native": "বাতিল", "roman": "batil", "en": "cancelled", "pos": "adj", "note": "বাতিল করা 'to cancel'." },
+    { "native": "দূতাবাস", "roman": "dutabash", "en": "embassy", "pos": "noun", "note": "In India also হাই কমিশন / কনস্যুলেট." },
+    { "native": "মানিব্যাগ", "roman": "manibæg", "en": "wallet", "pos": "noun" },
+    { "native": "নম্বর", "roman": "nômbor", "en": "number (phone, room, bus)", "pos": "noun" },
+    { "native": "বাঁচাও", "roman": "baṃchao", "en": "help! (lit. 'save (me)!')", "pos": "interj" },
+    { "native": "বিপদ", "roman": "bipod", "en": "danger, trouble", "pos": "noun", "note": "বিপদে পড়েছি 'I'm in trouble'." },
+    { "native": "জরুরি", "roman": "joruri", "en": "urgent; emergency", "pos": "adj" },
+    { "native": "দুর্ঘটনা", "roman": "durghôṭona", "en": "accident", "pos": "noun", "note": "Colloquially অ্যাক্সিডেন্ট." },
+    { "native": "অ্যাম্বুলেন্স", "roman": "æmbulens", "en": "ambulance", "pos": "noun" },
+    { "native": "আগুন", "roman": "agun", "en": "fire", "pos": "noun", "note": "আগুন! আগুন! 'Fire!'" },
+    { "native": "চোর", "roman": "chor", "en": "thief", "pos": "noun" },
+    { "native": "চুরি", "roman": "churi", "en": "theft", "pos": "noun", "note": "চুরি হয়ে গেছে 'has been stolen'." },
+    { "native": "থানা", "roman": "thana", "en": "police station", "pos": "noun" },
+    { "native": "অভিযোগ", "roman": "ôbhijog", "en": "complaint", "pos": "noun", "note": "অভিযোগ করা 'to complain / report'." },
+    { "native": "ভুল", "roman": "bhul", "en": "mistake; wrong", "pos": "noun", "note": "ভুল ট্রেন 'the wrong train'." },
+    { "native": "নিরাপদ", "roman": "nirapod", "en": "safe", "pos": "adj" },
+    { "native": "সাবধান", "roman": "shabdhan", "en": "careful; watch out!", "pos": "adj", "note": "সাবধানে 'carefully'." },
+    { "native": "চার্জ", "roman": "charj", "en": "(battery) charge", "pos": "noun", "note": "ফোনে চার্জ নেই 'my phone is dead'." },
+    { "native": "যদি", "roman": "jodi", "en": "if", "pos": "conj" },
+    { "native": "তাহলে", "roman": "tahole", "en": "then, in that case", "pos": "conj" },
+    { "native": "নাহলে", "roman": "nahole", "en": "otherwise, or else", "pos": "conj" },
+    { "native": "পুলিশ ডাকা", "roman": "pulish ḍaka", "en": "to call the police", "pos": "phrase" }
+  ],
+  "phrases": [
+    { "native": "বাঁচাও! কেউ সাহায্য করুন!", "roman": "baṃchao! keu shahajjo korun!", "en": "Help! Somebody help!" },
+    { "native": "পুলিশ ডাকুন!", "roman": "pulish ḍakun!", "en": "Call the police!" },
+    { "native": "একটা অ্যাম্বুলেন্স ডাকুন, তাড়াতাড়ি!", "roman": "ækṭa æmbulens ḍakun, taṛataṛi!", "en": "Call an ambulance, quickly!" },
+    { "native": "আমার মানিব্যাগ চুরি হয়ে গেছে।", "roman": "amar manibæg churi hoye gechhe.", "en": "My wallet has been stolen." },
+    { "native": "আমি হারিয়ে গেছি।", "roman": "ami hariye gechhi.", "en": "I'm lost." },
+    { "native": "নিকটতম হাসপাতাল কোথায়?", "roman": "nikoṭotomo hashpatal kothay?", "en": "Where's the nearest hospital?" },
+    { "native": "আমার নামে একটা রুম বুক করা আছে।", "roman": "amar name ækṭa rum buk kôra achhe.", "en": "I have a room booked in my name." },
+    { "native": "ঘরে গরম জল নেই।", "roman": "ghôre gôrom jôl nei.", "en": "There's no hot water in the room." },
+    { "native": "ট্রেনটা কত দেরিতে চলছে?", "roman": "ṭrenṭa kôto derite cholchhe?", "en": "How late is the train running?" },
+    { "native": "আমি ভুল বাসে উঠেছি।", "roman": "ami bhul base uṭhechhi.", "en": "I've got on the wrong bus." },
+    { "native": "আমার ফোনে চার্জ নেই, একটু ফোন করতে পারি?", "roman": "amar phone charj nei, ekṭu phon korte pari?", "en": "My phone's dead, may I make a call?" },
+    { "native": "সাবধান! গাড়ি আসছে!", "roman": "shabdhan! gaṛi ashchhe!", "en": "Watch out! A car's coming!" }
+  ],
+  "grammar": [
+    {
+      "title": "Real conditions: যদি … তাহলে, and the -লে form",
+      "body": "For possible situations, use **যদি** 'if' with the **present or future**, and **তাহলে** 'then' (optional) before the result:\n\n**যদি** বৃষ্টি **হয়**, (**তাহলে**) আমরা যাব না. 'If it rains, we won't go.'\n\nEven more common in speech is the **conditional participle** in **-লে** (stem + -লে, no person ending): বৃষ্টি **হলে** আমরা যাব না. It means 'if / when' and often replaces যদি entirely: সময় **পেলে** ফোন করব 'If I get time, I'll call'; পৌঁছে **গেলে** জানিও 'let me know when you've arrived'.\n\nUse **যদি** with a full verb when you want to stress the condition: **যদি** সময় **পাও**, এসো 'if (and only if) you get time, come'.\n\n**Otherwise** = **নাহলে**: তাড়াতাড়ি চলো, নাহলে ট্রেন মিস করব. 'Hurry, or we'll miss the train.'",
+      "examples": [
+        { "native": "যদি হারিয়ে যাও, এই নম্বরে ফোন কোরো।", "roman": "jodi hariye jao, ei nômbore phon koro.", "en": "If you get lost, call this number." },
+        { "native": "ট্রেন বাতিল হলে বাসে যাব।", "roman": "ṭren batil hole base jabo.", "en": "If the train is cancelled, we'll go by bus." },
+        { "native": "যদি জ্বর বাড়ে, তাহলে ডাক্তার দেখাবেন।", "roman": "jodi jôr baṛe, tahole ḍaktar dækhaben.", "en": "If the fever goes up, see a doctor." },
+        { "native": "পাসপোর্ট হারালে দূতাবাসে যোগাযোগ করুন।", "roman": "pasporṭ harale dutabashe jogajog korun.", "en": "If you lose your passport, contact the embassy." },
+        { "native": "সাবধানে রাখো, নাহলে চুরি হয়ে যাবে।", "roman": "shabdhane rakho, nahole churi hoye jabe.", "en": "Keep it safe, otherwise it'll get stolen." }
+      ]
+    },
+    {
+      "title": "Unreal conditions: -তাম ('would / would have')",
+      "body": "For imaginary or past-unreal situations ('if I were…', 'if I had…'), Bengali uses the **habitual past** (stem + **-ত-** + ending) in **both** clauses:\n\nআমি **করতাম** *kortam*, তুই **করতিস**, তুমি **করতে**, আপনি **করতেন**, সে **করত** *korto*.\n\n**যদি** আমি **জানতাম**, তোমাকে **বলতাম**. 'If I had known, I would have told you.' / 'If I knew, I'd tell you.' Context decides past or present.\n\nThe same form also means 'used to' (ছোটবেলায় আমি গ্রামে থাকতাম 'As a child I used to live in a village'), and with **যদি** alone it expresses a wish: **যদি** একটা ছাতা **থাকত**! 'If only I had an umbrella!'",
+      "examples": [
+        { "native": "যদি টাকা থাকত, আমি সারা পৃথিবী ঘুরতাম।", "roman": "jodi ṭaka thakto, ami shara prithibi ghurtam.", "en": "If I had money, I'd travel the whole world." },
+        { "native": "তুমি আগে বললে আমি টিকিট কাটতাম।", "roman": "tumi age bolle ami ṭikiṭ kaṭtam.", "en": "If you'd told me earlier, I'd have bought a ticket." },
+        { "native": "আমি তোমার জায়গায় থাকলে পুলিশে খবর দিতাম।", "roman": "ami tomar jaygay thakle pulishe khôbor ditam.", "en": "If I were you, I'd report it to the police." },
+        { "native": "ইশ, যদি আরেকটু আগে আসতাম!", "roman": "ish, jodi arekṭu age ashtam!", "en": "Oh, if only I'd come a bit earlier!" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A stolen phone",
+    "setting": "Tom's phone was snatched at a busy Kolkata bus stop; he goes to the police station.",
+    "lines": [
+      { "speaker": "Tom", "native": "নমস্কার। আমার ফোন চুরি হয়ে গেছে। আমি অভিযোগ করতে চাই।", "roman": "nômoshkar. amar phon churi hoye gechhe. ami ôbhijog korte chai.", "en": "Hello. My phone has been stolen. I want to report it." },
+      { "speaker": "Officer", "native": "বসুন। কোথায় আর কখন হয়েছে?", "roman": "boshun. kothay ar kôkhon hoyechhe?", "en": "Sit down. Where and when did it happen?" },
+      { "speaker": "Tom", "native": "আধ ঘণ্টা আগে, এসপ্ল্যানেড বাসস্ট্যান্ডে। একটা ছেলে হাত থেকে টেনে নিয়ে দৌড়ে পালাল।", "roman": "adh ghônṭa age, esplæneḍ basṭænḍe. ækṭa chhele hat theke ṭene niye douṛe palalo.", "en": "Half an hour ago, at the Esplanade bus stand. A boy snatched it from my hand and ran off." },
+      { "speaker": "Officer", "native": "ফোনটা কেমন? কোনো ছবি বা আইএমইআই নম্বর আছে?", "roman": "phonṭa kæmon? kono chhobi ba aiemiai nômbor achhe?", "en": "What's the phone like? Do you have a photo or the IMEI number?" },
+      { "speaker": "Tom", "native": "কালো রঙের। বক্সটা হোটেলে আছে, ওতে নম্বর লেখা আছে।", "roman": "kalo rôṅer. bôksṭa hoṭele achhe, ote nômbor lekha achhe.", "en": "Black. The box is at the hotel; the number is written on it." },
+      { "speaker": "Officer", "native": "তাহলে কাল বক্সটা নিয়ে আসবেন। পাসপোর্টের একটা কপিও লাগবে।", "roman": "tahole kal bôksṭa niye ashben. pasporṭer ækṭa kôpio lagbe.", "en": "Then bring the box tomorrow. We'll also need a copy of your passport." },
+      { "speaker": "Tom", "native": "ফোনটা পাওয়া গেলে আমাকে জানাবেন?", "roman": "phonṭa pawa gele amake janaben?", "en": "If the phone is found, will you let me know?" },
+      { "speaker": "Officer", "native": "অবশ্যই। এই ফর্মে আপনার হোটেলের ঠিকানা আর নম্বর লিখে দিন।", "roman": "ôbosshoi. ei phôrme apnar hoṭeler ṭhikana ar nômbor likhe din.", "en": "Of course. Write your hotel address and number on this form." },
+      { "speaker": "Tom", "native": "যদি আরেকটু সাবধান থাকতাম…", "roman": "jodi arekṭu shabdhan thaktam…", "en": "If only I'd been a bit more careful…" },
+      { "speaker": "Officer", "native": "চিন্তা করবেন না। ভিড়ের জায়গায় এরকম হয়। পরের বার সাবধানে থাকবেন।", "roman": "chinta kôrben na. bhiṛer jaygay ærôkom hôy. pôrer bar shabdhane thakben.", "en": "Don't worry. This happens in crowded places. Be careful next time." }
+    ]
+  },
+  "culture": "Emergency numbers: **999** in Bangladesh (police, fire, ambulance), **112** in India (100 police, 102/108 ambulance). In both countries, crowds gather quickly around an accident and people are generally quick to help. Many foreigners register with their embassy or high commission in Dhaka or Kolkata. In Bangladesh 'হোটেল' on a sign often means a simple eatery; for a place to sleep look for 'আবাসিক হোটেল' (residential hotel) or 'গেস্ট হাউস'."
+}

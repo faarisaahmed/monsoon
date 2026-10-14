@@ -1,0 +1,91 @@
+{
+  "id": 16,
+  "title": "What happened",
+  "goal": "Talk about past events using the simple past, including the ergative ਨੇ construction with transitive verbs.",
+  "intro": "This is the big grammar unit. In the past tense Punjabi splits verbs into two kinds. **Intransitive** verbs (go, come, sit) agree with the subject, as you'd expect. **Transitive** verbs (eat, see, do) work 'backwards': the doer is marked with **ਨੇ**, and the verb agrees with the **object** — 'by him the roti was eaten'. This is called the *ergative* construction, and it's shared with Hindi-Urdu.\n\nPunjabi has a twist that makes it easier: **ਮੈਂ, ਤੂੰ, ਅਸੀਂ, ਤੁਸੀਂ never take ਨੇ**.",
+  "vocab": [
+    { "native": "ਨੇ", "roman": "ne", "en": "(marks the doer of a transitive verb in the past)", "pos": "postp", "note": "not used with ਮੈਂ, ਤੂੰ, ਅਸੀਂ, ਤੁਸੀਂ" },
+    { "native": "ਗਿਆ", "roman": "giā", "en": "went (m sg)", "pos": "verb", "note": "past of ਜਾਣਾ: ਗਈ (f), ਗਏ (m pl), ਗਈਆਂ (f pl)" },
+    { "native": "ਆਇਆ", "roman": "āiā", "en": "came (m sg)", "pos": "verb", "note": "past of ਆਉਣਾ: ਆਈ, ਆਏ, ਆਈਆਂ" },
+    { "native": "ਹੋਇਆ", "roman": "hoiā", "en": "happened, became (m sg)", "pos": "verb", "note": "past of ਹੋਣਾ: ਹੋਈ, ਹੋਏ; ਕੀ ਹੋਇਆ? 'what happened?'" },
+    { "native": "ਕੀਤਾ", "roman": "kītā", "en": "did, made", "pos": "verb", "note": "past of ਕਰਨਾ: ਕੀਤੀ, ਕੀਤੇ (irregular)" },
+    { "native": "ਦਿੱਤਾ", "roman": "dittā", "en": "gave", "pos": "verb", "note": "past of ਦੇਣਾ: ਦਿੱਤੀ, ਦਿੱਤੇ" },
+    { "native": "ਲਿਆ", "roman": "liā", "en": "took", "pos": "verb", "note": "past of ਲੈਣਾ: ਲਈ, ਲਏ" },
+    { "native": "ਖਾਧਾ", "roman": "khā́dā", "en": "ate", "pos": "verb", "note": "past of ਖਾਣਾ: ਖਾਧੀ, ਖਾਧੇ; high tone" },
+    { "native": "ਪੀਤਾ", "roman": "pītā", "en": "drank", "pos": "verb", "note": "past of ਪੀਣਾ: ਪੀਤੀ, ਪੀਤੇ" },
+    { "native": "ਕਿਹਾ", "roman": "kíā", "en": "said", "pos": "verb", "note": "past of ਕਹਿਣਾ; high tone" },
+    { "native": "ਮਿਲਣਾ", "roman": "milṇā", "en": "to meet; to get, to be found", "pos": "verb", "note": "takes ਨੂੰ: ਮੈਂ ਉਸ ਨੂੰ ਮਿਲਿਆ 'I met him'" },
+    { "native": "ਭੁੱਲਣਾ", "roman": "pùllṇā", "en": "to forget", "pos": "verb", "note": "low tone; ਮੈਂ ਭੁੱਲ ਗਿਆ 'I forgot'" },
+    { "native": "ਗੁਆਚਣਾ", "roman": "guāchṇā", "en": "to get lost", "pos": "verb", "note": "ਮੇਰਾ ਫ਼ੋਨ ਗੁਆਚ ਗਿਆ 'I've lost my phone'" },
+    { "native": "ਭੇਜਣਾ", "roman": "pèjṇā", "en": "to send", "pos": "verb", "note": "low tone" },
+    { "native": "ਛੱਡਣਾ", "roman": "chhaḍḍṇā", "en": "to leave; to drop off", "pos": "verb" },
+    { "native": "ਪਿਛਲਾ", "roman": "pichhlā", "en": "last, previous", "pos": "adj", "note": "ਪਿਛਲੇ ਹਫ਼ਤੇ 'last week'; next = ਅਗਲਾ" },
+    { "native": "ਉਦੋਂ", "roman": "udoṃ", "en": "then, at that time", "pos": "adv" },
+    { "native": "ਜਦੋਂ", "roman": "jadoṃ", "en": "when (not a question)", "pos": "conj", "note": "ਜਦੋਂ … ਉਦੋਂ / ਤਾਂ 'when … then'" },
+    { "native": "ਅਚਾਨਕ", "roman": "achānak", "en": "suddenly", "pos": "adv" },
+    { "native": "ਅਜੇ", "roman": "aje", "en": "still; (not) yet", "pos": "adv", "note": "also ਹਾਲੇ (hāle); ਅਜੇ ਨਹੀਂ 'not yet'" },
+    { "native": "ਹੁਣੇ", "roman": "huṇe", "en": "just now; right now", "pos": "adv" },
+    { "native": "ਸ਼ੁਰੂ", "roman": "shurū", "en": "beginning, start", "pos": "noun", "note": "ਸ਼ੁਰੂ ਹੋਣਾ 'to begin', ਸ਼ੁਰੂ ਕਰਨਾ 'to start'" },
+    { "native": "ਖ਼ਤਮ", "roman": "xatam", "en": "finished, over", "pos": "adj", "note": "ਖ਼ਤਮ ਹੋਣਾ 'to end'; also ਮੁੱਕਣਾ" },
+    { "native": "ਵਿਆਹ", "roman": "viā́", "en": "wedding, marriage", "pos": "noun", "note": "m; high tone" },
+    { "native": "ਵਾਰ", "roman": "vār", "en": "time, occasion", "pos": "noun", "note": "f; ਪਹਿਲੀ ਵਾਰ 'the first time', ਕਈ ਵਾਰ 'many times'" },
+    { "native": "ਸਫ਼ਰ", "roman": "safar", "en": "journey, trip", "pos": "noun", "note": "m" },
+    { "native": "ਤਸਵੀਰ", "roman": "tasvīr", "en": "picture, photo", "pos": "noun", "note": "f; also ਫ਼ੋਟੋ" }
+  ],
+  "phrases": [
+    { "native": "ਤੁਸੀਂ ਕੱਲ੍ਹ ਕੀ ਕੀਤਾ?", "roman": "tusīṃ káll kī kītā?", "en": "What did you do yesterday?" },
+    { "native": "ਮੈਂ ਬਾਜ਼ਾਰ ਗਿਆ।", "roman": "maiṃ bāzār giā.", "en": "I went to the market. (man)" },
+    { "native": "ਅਸੀਂ ਫ਼ਿਲਮ ਵੇਖੀ।", "roman": "asīṃ filam vekhī.", "en": "We watched a film." },
+    { "native": "ਉਸ ਨੇ ਮੈਨੂੰ ਫ਼ੋਨ ਕੀਤਾ।", "roman": "us ne mainūṃ fon kītā.", "en": "He/she called me." },
+    { "native": "ਖਾਣਾ ਖਾਧਾ?", "roman": "khāṇā khā́dā?", "en": "Have you eaten? (a common greeting)" },
+    { "native": "ਹਾਂ ਜੀ, ਮੈਂ ਖਾ ਲਿਆ।", "roman": "hāṃ jī, maiṃ khā liā.", "en": "Yes, I've eaten." },
+    { "native": "ਕੀ ਹੋਇਆ?", "roman": "kī hoiā?", "en": "What happened?" },
+    { "native": "ਮੇਰਾ ਫ਼ੋਨ ਗੁਆਚ ਗਿਆ।", "roman": "merā fon guāch giā.", "en": "I've lost my phone." },
+    { "native": "ਮੈਂ ਭੁੱਲ ਗਈ।", "roman": "maiṃ pùll gaī.", "en": "I forgot. (woman)" },
+    { "native": "ਤੁਸੀਂ ਕੀ ਕਿਹਾ?", "roman": "tusīṃ kī kíā?", "en": "What did you say?" },
+    { "native": "ਮੈਂ ਪਹਿਲੀ ਵਾਰ ਦੋ ਸਾਲ ਪਹਿਲਾਂ ਪੰਜਾਬ ਆਇਆ ਸੀ।", "roman": "maiṃ pélī vār do sāl pélāṃ Panjāb āiā sī.", "en": "I first came to Punjab two years ago." },
+    { "native": "ਫ਼ਿਲਮ ਖ਼ਤਮ ਹੋ ਗਈ।", "roman": "filam xatam ho gaī.", "en": "The film has finished." }
+  ],
+  "grammar": [
+    {
+      "title": "Simple past of intransitive verbs",
+      "body": "The past participle is formed from the stem: **-ਿਆ** (m sg), **-ੇ / -ਏ** (m pl), **-ੀ / -ਈ** (f sg), **-ੀਆਂ / -ਈਆਂ** (f pl). With intransitive verbs (no object) it agrees with the **subject**:\n\nਬੈਠਣਾ: ਮੈਂ ਬੈਠਿਆ / ਬੈਠੀ · ਅਸੀਂ ਬੈਠੇ · ਉਹ ਬੈਠੀਆਂ\nਆਉਣਾ: ਆਇਆ, ਆਈ, ਆਏ, ਆਈਆਂ\nਜਾਣਾ (irregular): ਗਿਆ, ਗਈ, ਗਏ, ਗਈਆਂ\nਸੌਣਾ (irregular): ਸੁੱਤਾ, ਸੁੱਤੀ\n\nThe bare participle is the simple past ('went'). Add ਹੈ for a present perfect ('has gone': ਉਹ ਗਿਆ ਹੈ) and ਸੀ for a remote past/pluperfect ('had gone, went long ago': ਉਹ ਗਿਆ ਸੀ).\n\nVery often a **compound verb** with ਜਾਣਾ is used for completed events: ਉਹ ਆ ਗਿਆ 'he has arrived', ਮੈਂ ਭੁੱਲ ਗਿਆ 'I forgot', ਖ਼ਤਮ ਹੋ ਗਿਆ 'it's over'.",
+      "examples": [
+        { "native": "ਮੈਂ ਕੱਲ੍ਹ ਦਿੱਲੀ ਗਿਆ।", "roman": "maiṃ káll Dillī giā.", "en": "I went to Delhi yesterday. (man)" },
+        { "native": "ਉਹ ਸਵੇਰੇ ਆਈ।", "roman": "ó savere āī.", "en": "She came in the morning." },
+        { "native": "ਬੱਚੇ ਛੇਤੀ ਸੁੱਤੇ।", "roman": "bachche chhetī sutte.", "en": "The children slept early." },
+        { "native": "ਮਹਿਮਾਨ ਆ ਗਏ ਹਨ।", "roman": "maímān ā gae han.", "en": "The guests have arrived." },
+        { "native": "ਅਸੀਂ ਪਿਛਲੇ ਸਾਲ ਕੈਨੇਡਾ ਗਏ ਸੀ।", "roman": "asīṃ pichhle sāl Kaineḍā gae sī.", "en": "We went to Canada last year." }
+      ]
+    },
+    {
+      "title": "Transitive verbs: the ਨੇ (ergative) construction",
+      "body": "With **transitive** verbs (eat, drink, see, do, say, buy…) in the past:\n\n1. A 3rd-person doer takes **ਨੇ**: ਉਸ ਨੇ, ਉਹਨਾਂ ਨੇ, ਸਿਮਰਨ ਨੇ, ਮੁੰਡੇ ਨੇ (oblique before ਨੇ).\n2. **ਮੈਂ, ਤੂੰ, ਅਸੀਂ, ਤੁਸੀਂ stay as they are** — no ਨੇ in Punjabi (unlike Hindi मैंने).\n3. The verb agrees with the **object**, not the doer: ਮੈਂ ਚਾਹ ਪੀਤੀ 'I drank tea' (ਚਾਹ f → ਪੀਤੀ), ਉਸ ਨੇ ਦੋ ਅੰਬ ਖਾਧੇ 'he ate two mangoes' (m pl → ਖਾਧੇ).\n4. If the object is marked with ਨੂੰ, or there's no object, the verb is masculine singular: ਉਸ ਨੇ ਕੁੜੀ ਨੂੰ ਵੇਖਿਆ 'he saw the girl'; ਅਸੀਂ ਖਾ ਲਿਆ 'we've eaten'.\n\nIrregular participles: ਕਰਨਾ → ਕੀਤਾ · ਦੇਣਾ → ਦਿੱਤਾ · ਲੈਣਾ → ਲਿਆ · ਖਾਣਾ → ਖਾਧਾ · ਪੀਣਾ → ਪੀਤਾ · ਕਹਿਣਾ → ਕਿਹਾ.\n\nSome verbs that look transitive behave as intransitive: **ਲਿਆਉਣਾ** 'bring', **ਬੋਲਣਾ** 'speak', **ਭੁੱਲਣਾ** 'forget' and **ਮਿਲਣਾ** 'meet' take no ਨੇ: ਉਹ ਮੈਨੂੰ ਮਿਲਿਆ 'he met me'.",
+      "examples": [
+        { "native": "ਮੈਂ ਰੋਟੀ ਖਾਧੀ।", "roman": "maiṃ roṭī khā́dī.", "en": "I ate (a roti / a meal)." },
+        { "native": "ਉਸ ਨੇ ਚਾਹ ਪੀਤੀ।", "roman": "us ne chā́ pītī.", "en": "He/she drank tea." },
+        { "native": "ਸਿਮਰਨ ਨੇ ਨਵਾਂ ਸੂਟ ਖ਼ਰੀਦਿਆ।", "roman": "Simran ne navāṃ sūṭ xarīdiā.", "en": "Simran bought a new suit." },
+        { "native": "ਤੁਸੀਂ ਉਹ ਫ਼ਿਲਮ ਵੇਖੀ?", "roman": "tusīṃ ó filam vekhī?", "en": "Did you see that film?" },
+        { "native": "ਉਹਨਾਂ ਨੇ ਸਾਨੂੰ ਵਿਆਹ 'ਤੇ ਬੁਲਾਇਆ।", "roman": "únāṃ ne sānūṃ viā́ te bulāiā.", "en": "They invited us to the wedding." },
+        { "native": "ਮੁੰਡੇ ਨੇ ਕਿਤਾਬਾਂ ਪੜ੍ਹੀਆਂ।", "roman": "muṇḍe ne kitābāṃ páṛīāṃ.", "en": "The boy read the books." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The wedding",
+    "setting": "Tom tells Simran about a friend's wedding he went to at the weekend.",
+    "lines": [
+      { "speaker": "Simran", "native": "ਟੌਮ, ਵਿਆਹ ਕਿਵੇਂ ਰਿਹਾ?", "roman": "Ṭaum, viā́ kiveṃ ríā?", "en": "Tom, how was the wedding?" },
+      { "speaker": "Tom", "native": "ਬਹੁਤ ਵਧੀਆ! ਅਸੀਂ ਸਾਰੀ ਰਾਤ ਭੰਗੜਾ ਪਾਇਆ।", "roman": "báut vádīā! asīṃ sārī rāt pàṅgṛā pāiā.", "en": "Fantastic! We danced bhangra all night." },
+      { "speaker": "Simran", "native": "ਤੁਸੀਂ ਵੀ ਨੱਚੇ?", "roman": "tusīṃ vī nachche?", "en": "You danced too?" },
+      { "speaker": "Tom", "native": "ਹਾਂ! ਲਾੜੇ ਦੇ ਭਰਾ ਨੇ ਮੈਨੂੰ ਸਿਖਾਇਆ।", "roman": "hāṃ! lāṛe de parā̀ ne mainūṃ sikhāiā.", "en": "Yes! The groom's brother taught me." },
+      { "speaker": "Simran", "native": "ਤੇ ਖਾਣਾ? ਤੁਸੀਂ ਕੀ ਖਾਧਾ?", "roman": "te khāṇā? tusīṃ kī khā́dā?", "en": "And the food? What did you eat?" },
+      { "speaker": "Tom", "native": "ਮੈਂ ਬਹੁਤ ਕੁਝ ਖਾਧਾ — ਪਨੀਰ, ਨਾਨ, ਤੇ ਤਿੰਨ ਗੁਲਾਬ ਜਾਮਨ!", "roman": "maiṃ báut kúj khā́dā — panīr, nān, te tinn gulāb jāman!", "en": "I ate loads — paneer, naan, and three gulab jamuns!" },
+      { "speaker": "Simran", "native": "ਹਾਹਾ! ਤੇ ਡੋਲੀ ਕਦੋਂ ਗਈ?", "roman": "hāhā! te ḍolī kadoṃ gaī?", "en": "Haha! And when did the bride leave (the doli)?" },
+      { "speaker": "Tom", "native": "ਸਵੇਰੇ ਛੇ ਵਜੇ। ਸਾਰੇ ਰੋਏ, ਮੈਂ ਵੀ ਥੋੜ੍ਹਾ ਰੋਇਆ।", "roman": "savere chhe vaje. sāre roe, maiṃ vī thóṛā roiā.", "en": "At six in the morning. Everyone cried, I cried a little too." },
+      { "speaker": "Simran", "native": "ਤੁਸੀਂ ਤਸਵੀਰਾਂ ਖਿੱਚੀਆਂ?", "roman": "tusīṃ tasvīrāṃ khichchīāṃ?", "en": "Did you take photos?" },
+      { "speaker": "Tom", "native": "ਖਿੱਚੀਆਂ ਸੀ, ਪਰ ਮੇਰਾ ਫ਼ੋਨ ਗੁਆਚ ਗਿਆ!", "roman": "khichchīāṃ sī, par merā fon guāch giā!", "en": "I did, but I've lost my phone!" }
+    ]
+  },
+  "culture": "A Punjabi wedding lasts several days: the ਰੋਕਾ and ਮੰਗਣੀ (engagement), the ਮਹਿੰਦੀ and ਸੰਗੀਤ evenings of henna, song and dance, the ceremony itself (for Sikhs, the ਅਨੰਦ ਕਾਰਜ: four rounds around the Guru Granth Sahib), and finally the emotional ਡੋਲੀ, when the bride leaves her parents' home. 'Have you eaten?' (ਰੋਟੀ ਖਾਧੀ?) is a caring everyday greeting, especially from elders."
+}

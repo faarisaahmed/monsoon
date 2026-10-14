@@ -1,0 +1,91 @@
+{
+  "id": 12,
+  "title": "Shopping & money",
+  "goal": "Ask prices, point out 'this one / that one', ask for sizes and colours, and bargain politely.",
+  "intro": "Bargaining (ਭਾਅ ਕਰਨਾ / ਮੁੱਲ ਕਰਨਾ) is normal in Punjabi bazaars — though not in malls or shops with fixed prices. Prices are given in rupees, with the fraction words you already know: ਡੇਢ ਸੌ 150, ਢਾਈ ਸੌ 250, ਸਾਢੇ ਤਿੰਨ ਸੌ 350.\n\nGrammar focus: demonstratives (ਇਹ, ਉਹ and their forms ਇਸ, ਉਸ, ਇਹਨਾਂ, ਉਹਨਾਂ) and the handy suffix **ਵਾਲਾ** — 'the one'.",
+  "vocab": [
+    { "native": "ਪੈਸੇ", "roman": "paise", "en": "money", "pos": "noun", "note": "m pl; sg ਪੈਸਾ 'coin, paisa'" },
+    { "native": "ਰੁਪਈਆ", "roman": "rupaīā", "en": "rupee", "pos": "noun", "note": "m · pl ਰੁਪਏ (rupae)" },
+    { "native": "ਕੀਮਤ", "roman": "kīmat", "en": "price, cost", "pos": "noun", "note": "f; also ਮੁੱਲ (mull, m), ਭਾਅ (pā̀, m)" },
+    { "native": "ਮਹਿੰਗਾ", "roman": "méngā", "en": "expensive", "pos": "adj", "note": "f ਮਹਿੰਗੀ; high tone" },
+    { "native": "ਸਸਤਾ", "roman": "sastā", "en": "cheap", "pos": "adj", "note": "f ਸਸਤੀ" },
+    { "native": "ਦੁਕਾਨ", "roman": "dukān", "en": "shop", "pos": "noun", "note": "f · pl ਦੁਕਾਨਾਂ" },
+    { "native": "ਦੁਕਾਨਦਾਰ", "roman": "dukāndār", "en": "shopkeeper", "pos": "noun", "note": "m" },
+    { "native": "ਖ਼ਰੀਦਣਾ", "roman": "xarīdṇā", "en": "to buy", "pos": "verb", "note": "colloquially ਲੈਣਾ 'to take' is used more" },
+    { "native": "ਵੇਚਣਾ", "roman": "vechṇā", "en": "to sell", "pos": "verb" },
+    { "native": "ਲੈਣਾ", "roman": "laiṇā", "en": "to take, to get, to buy", "pos": "verb", "note": "imperative ਲਓ; past ਲਿਆ" },
+    { "native": "ਦੇਣਾ", "roman": "deṇā", "en": "to give", "pos": "verb", "note": "imperative ਦਿਓ; past ਦਿੱਤਾ" },
+    { "native": "ਦਿਖਾਉਣਾ", "roman": "dikhāuṇā", "en": "to show", "pos": "verb", "note": "also ਵਿਖਾਉਣਾ" },
+    { "native": "ਪਾਉਣਾ", "roman": "pāuṇā", "en": "to put; to put on, to wear", "pos": "verb" },
+    { "native": "ਕੱਪੜੇ", "roman": "kappaṛe", "en": "clothes", "pos": "noun", "note": "m pl; sg ਕੱਪੜਾ 'cloth'" },
+    { "native": "ਕਮੀਜ਼", "roman": "kamīz", "en": "shirt; kameez", "pos": "noun", "note": "f" },
+    { "native": "ਪੈਂਟ", "roman": "painṭ", "en": "trousers", "pos": "noun", "note": "f" },
+    { "native": "ਸੂਟ", "roman": "sūṭ", "en": "salwar-kameez suit; suit", "pos": "noun", "note": "m; the everyday women's outfit in Punjab" },
+    { "native": "ਚੁੰਨੀ", "roman": "chunnī", "en": "long scarf, dupatta", "pos": "noun", "note": "f" },
+    { "native": "ਜੁੱਤੀ", "roman": "juttī", "en": "shoe; Punjabi embroidered slipper", "pos": "noun", "note": "f; shoes in general: ਜੁੱਤੇ (m pl)" },
+    { "native": "ਪੱਗ", "roman": "pagg", "en": "turban", "pos": "noun", "note": "f; ਪੱਗ ਬੰਨ੍ਹਣੀ 'to tie a turban'" },
+    { "native": "ਸਾਈਜ਼", "roman": "sāīz", "en": "size", "pos": "noun", "note": "m; also ਨਾਪ (nāp)" },
+    { "native": "ਛੋਟ", "roman": "chhoṭ", "en": "discount", "pos": "noun", "note": "f" },
+    { "native": "ਕਿਹੜਾ", "roman": "kéṛā", "en": "which", "pos": "q", "note": "f ਕਿਹੜੀ, pl ਕਿਹੜੇ; high tone" },
+    { "native": "ਵਾਲਾ", "roman": "vālā", "en": "the one; -er (person/thing associated with)", "pos": "particle", "note": "agrees: ਵਾਲੀ, ਵਾਲੇ" },
+    { "native": "ਇੰਨਾ", "roman": "innā", "en": "this much, so much", "pos": "adj", "note": "f ਇੰਨੀ; 'that much' ਉੱਨਾ" },
+    { "native": "ਨਕਦ", "roman": "nakad", "en": "cash", "pos": "noun", "note": "m; also ਕੈਸ਼" },
+    { "native": "ਬਾਕੀ", "roman": "bākī", "en": "remaining; the rest; change", "pos": "adj" },
+    { "native": "ਥੈਲਾ", "roman": "thailā", "en": "bag (shopping)", "pos": "noun", "note": "m; small: ਥੈਲੀ" }
+  ],
+  "phrases": [
+    { "native": "ਇਹ ਕਿੰਨੇ ਦਾ ਹੈ?", "roman": "é kinne dā hai?", "en": "How much is this? (masculine item)" },
+    { "native": "ਇਹ ਕਮੀਜ਼ ਕਿੰਨੇ ਦੀ ਹੈ?", "roman": "é kamīz kinne dī hai?", "en": "How much is this shirt?" },
+    { "native": "ਬਹੁਤ ਮਹਿੰਗਾ ਹੈ! ਕੁਝ ਘੱਟ ਕਰੋ।", "roman": "báut méngā hai! kúj kàṭṭ karo.", "en": "That's very expensive! Bring it down a bit." },
+    { "native": "ਮੈਨੂੰ ਉਹ ਲਾਲ ਵਾਲੀ ਦਿਖਾਓ।", "roman": "mainūṃ ó lāl vālī dikhāo.", "en": "Show me that red one." },
+    { "native": "ਕੋਈ ਹੋਰ ਸਾਈਜ਼ ਹੈ?", "roman": "koī hor sāīz hai?", "en": "Is there another size?" },
+    { "native": "ਮੈਂ ਸਿਰਫ਼ ਵੇਖ ਰਿਹਾ ਹਾਂ।", "roman": "maiṃ sirf vekh ríā hāṃ.", "en": "I'm just looking." },
+    { "native": "ਪਾ ਕੇ ਵੇਖਾਂ?", "roman": "pā ke vekhāṃ?", "en": "Can I try it on?" },
+    { "native": "ਕਾਰਡ ਚੱਲੇਗਾ?", "roman": "kārḍ challegā?", "en": "Do you take cards?" },
+    { "native": "ਕੁੱਲ ਕਿੰਨੇ ਪੈਸੇ ਹੋਏ?", "roman": "kull kinne paise hoe?", "en": "How much is it altogether?" },
+    { "native": "ਖੁੱਲ੍ਹੇ ਪੈਸੇ ਨਹੀਂ ਹਨ।", "roman": "khúlle paise náīṃ han.", "en": "I don't have change." },
+    { "native": "ਮੈਂ ਇਹ ਲੈ ਲਵਾਂਗੀ।", "roman": "maiṃ é lai lavāṅgī.", "en": "I'll take this. (woman)" },
+    { "native": "ਇੱਕ ਥੈਲਾ ਦੇ ਦਿਓ।", "roman": "ikk thailā de dio.", "en": "Give me a bag, please." }
+  ],
+  "grammar": [
+    {
+      "title": "Demonstratives and ਵਾਲਾ: 'this one, that one'",
+      "body": "ਇਹ 'this/these' and ਉਹ 'that/those' change before a postposition (oblique):\n\nsingular: ਇਹ → **ਇਸ**, ਉਹ → **ਉਸ** — ਇਸ ਦੁਕਾਨ ਵਿੱਚ 'in this shop', ਉਸ ਦਾ ਭਾਅ 'its price'\nplural: ਇਹ → **ਇਹਨਾਂ**, ਉਹ → **ਉਹਨਾਂ** — ਇਹਨਾਂ ਜੁੱਤੀਆਂ ਦਾ 'of these shoes'\n\n(Colloquial Majhi also uses ਆਹ 'this here' and ਔਹ 'that over there' for pointing.)\n\n**ਵਾਲਾ** after an adjective, noun or demonstrative makes 'the … one': ਇਹ ਵਾਲਾ 'this one', ਲਾਲ ਵਾਲੀ 'the red one (f)', ਵੱਡੇ ਵਾਲੇ 'the big ones'. After a noun it means 'the person/thing associated with': ਦੁੱਧ ਵਾਲਾ 'milkman', ਸਬਜ਼ੀ ਵਾਲੀ 'vegetable seller (f)', ਦਿੱਲੀ ਵਾਲੇ 'the people from Delhi'. ਵਾਲਾ agrees like any -ā adjective.\n\n**ਕਿਹੜਾ** 'which' agrees too: ਕਿਹੜਾ ਰੰਗ? ਕਿਹੜੀ ਕਮੀਜ਼? ਕਿਹੜੇ ਜੁੱਤੇ?",
+      "examples": [
+        { "native": "ਇਸ ਦੁਕਾਨ ਵਿੱਚ ਸਭ ਕੁਝ ਸਸਤਾ ਹੈ।", "roman": "is dukān vich sáb kúj sastā hai.", "en": "Everything is cheap in this shop." },
+        { "native": "ਉਸ ਕਮੀਜ਼ ਦਾ ਰੰਗ ਸੋਹਣਾ ਹੈ।", "roman": "us kamīz dā rang sóṇā hai.", "en": "That shirt's colour is lovely." },
+        { "native": "ਇਹਨਾਂ ਜੁੱਤੀਆਂ ਦੀ ਕੀਮਤ ਕੀ ਹੈ?", "roman": "ínāṃ juttīāṃ dī kīmat kī hai?", "en": "What's the price of these shoes?" },
+        { "native": "ਮੈਨੂੰ ਇਹ ਵਾਲਾ ਨਹੀਂ, ਉਹ ਵਾਲਾ ਚਾਹੀਦਾ ਹੈ।", "roman": "mainūṃ é vālā náīṃ, ó vālā chā́īdā hai.", "en": "I don't want this one, I want that one." },
+        { "native": "ਤੁਹਾਨੂੰ ਕਿਹੜੀ ਚੁੰਨੀ ਪਸੰਦ ਹੈ?", "roman": "tuā́nūṃ kéṛī chunnī pasand hai?", "en": "Which dupatta do you like?" }
+      ]
+    },
+    {
+      "title": "Asking and giving prices",
+      "body": "'How much is it?' is literally 'of how much is it?': **ਕਿੰਨੇ ਦਾ ਹੈ?** The ਦਾ agrees with the item: ਕਿੰਨੇ ਦੀ ਹੈ? for a feminine thing, ਕਿੰਨੇ ਦੇ ਹਨ? for plurals.\n\nThe answer copies the pattern: ਤਿੰਨ ਸੌ ਦਾ 'it's 300', ਪੰਜਾਹ ਰੁਪਏ ਦੀ 'it's 50 rupees (f)'. Rates: ਸੌ ਰੁਪਏ ਕਿੱਲੋ '100 rupees a kilo', ਵੀਹ ਰੁਪਏ ਦਰਜਨ '20 a dozen'.\n\nThe total: ਕਿੰਨੇ ਹੋਏ? 'how much has it come to?'. Use the fraction words: ਸਵਾ ਸੌ 125, ਡੇਢ ਸੌ 150, ਪੌਣੇ ਦੋ ਸੌ 175, ਢਾਈ ਸੌ 250, ਸਾਢੇ ਤਿੰਨ ਸੌ 350, ਡੇਢ ਹਜ਼ਾਰ 1500.",
+      "examples": [
+        { "native": "ਇਹ ਜੁੱਤੀ ਕਿੰਨੇ ਦੀ ਹੈ?", "roman": "é juttī kinne dī hai?", "en": "How much are these jutti slippers?" },
+        { "native": "ਢਾਈ ਸੌ ਦੀ।", "roman": "ṭā̀ī sau dī.", "en": "Two hundred and fifty." },
+        { "native": "ਅੰਬ ਕਿੰਨੇ ਦੇ ਕਿੱਲੋ ਹਨ?", "roman": "amb kinne de killo han?", "en": "How much are mangoes per kilo?" },
+        { "native": "ਸੌ ਰੁਪਏ ਕਿੱਲੋ।", "roman": "sau rupae killo.", "en": "A hundred rupees a kilo." },
+        { "native": "ਕੁੱਲ ਸਾਢੇ ਤਿੰਨ ਸੌ ਹੋਏ।", "roman": "kull sā́ḍe tinn sau hoe.", "en": "It comes to 350 in total." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Buying a suit in Hall Bazaar",
+    "setting": "Simran is buying a suit; Tom watches the bargaining.",
+    "lines": [
+      { "speaker": "Shopkeeper", "native": "ਆਓ ਭੈਣ ਜੀ, ਕੀ ਦਿਖਾਵਾਂ?", "roman": "āo pàiṇ jī, kī dikhāvāṃ?", "en": "Come, sister, what can I show you?" },
+      { "speaker": "Simran", "native": "ਮੈਨੂੰ ਕੋਈ ਸੂਤੀ ਸੂਟ ਦਿਖਾਓ, ਹਲਕੇ ਰੰਗ ਵਿੱਚ।", "roman": "mainūṃ koī sūtī sūṭ dikhāo, halke rang vich.", "en": "Show me a cotton suit, in a light colour." },
+      { "speaker": "Shopkeeper", "native": "ਇਹ ਵੇਖੋ — ਨੀਲਾ, ਗੁਲਾਬੀ, ਪੀਲ਼ਾ।", "roman": "é vekho — nīlā, gulābī, pīḷā.", "en": "Look at these — blue, pink, yellow." },
+      { "speaker": "Simran", "native": "ਉਹ ਗੁਲਾਬੀ ਵਾਲਾ ਕਿੰਨੇ ਦਾ ਹੈ?", "roman": "ó gulābī vālā kinne dā hai?", "en": "How much is that pink one?" },
+      { "speaker": "Shopkeeper", "native": "ਇਹ ਪੰਦਰਾਂ ਸੌ ਦਾ ਹੈ, ਚੁੰਨੀ ਨਾਲ਼।", "roman": "é pandrāṃ sau dā hai, chunnī nāḷ.", "en": "This one is 1500, with the dupatta." },
+      { "speaker": "Simran", "native": "ਪੰਦਰਾਂ ਸੌ? ਬਹੁਤ ਮਹਿੰਗਾ ਹੈ। ਹਜ਼ਾਰ ਦਾ ਦਿਓ।", "roman": "pandrāṃ sau? báut méngā hai. hazār dā dio.", "en": "1500? That's very expensive. Give it for a thousand." },
+      { "speaker": "Shopkeeper", "native": "ਨਹੀਂ ਭੈਣ ਜੀ, ਇੰਨਾ ਨਹੀਂ। ਬਾਰਾਂ ਸੌ ਲਾ ਦਿਆਂਗੇ।", "roman": "náīṃ pàiṇ jī, innā náīṃ. bārāṃ sau lā diāṅge.", "en": "No, sister, not that much. I'll make it 1200." },
+      { "speaker": "Simran", "native": "ਗਿਆਰਾਂ ਸੌ। ਆਖ਼ਰੀ ਗੱਲ।", "roman": "giārāṃ sau. āxrī gall.", "en": "Eleven hundred. Final offer." },
+      { "speaker": "Shopkeeper", "native": "ਚੱਲੋ, ਤੁਹਾਡੇ ਲਈ ਗਿਆਰਾਂ ਸੌ। ਨਕਦ ਜਾਂ ਕਾਰਡ?", "roman": "challo, tuā́ḍe laī giārāṃ sau. nakad jāṃ kārḍ?", "en": "All right, for you, eleven hundred. Cash or card?" },
+      { "speaker": "Tom", "native": "ਵਾਹ ਸਿਮਰਨ, ਤੁਸੀਂ ਤਾਂ ਕਮਾਲ ਹੋ!", "roman": "vā́ Simran, tusīṃ tāṃ kamāl ho!", "en": "Wow Simran, you're amazing!" }
+    ]
+  },
+  "culture": "Shopkeepers often call customers ਭੈਣ ਜੀ, ਭਾਜੀ or ਬਾਊ ਜੀ, and may offer tea while you browse fabric. Ready-made suits exist, but many women still buy unstitched suit fabric and take it to a tailor (ਦਰਜ਼ੀ). Amritsar's Hall Bazaar and Lahore's Anarkali are famous for clothes, juttis and phulkari embroidery."
+}

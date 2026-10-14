@@ -1,0 +1,93 @@
+{
+  "id": 9,
+  "title": "Body & health",
+  "goal": "Name parts of the body, say what hurts and how you feel, and understand a doctor's advice ('you should ...').",
+  "intro": "When you're unwell, Kannada again uses the **dative experiencer**: 'to me fever is' (ನನಗೆ ಜ್ವರ ಇದೆ) rather than 'I have a fever'. Pain is ನೋವು, and it glues onto body parts to make compounds: ತಲೆನೋವು 'headache', ಹೊಟ್ಟೆನೋವು 'stomach ache'.\n\nYou'll also learn **-ಬೇಕು** after a verb, meaning 'must / should', and its negative **-ಬಾರದು** 'must not'.",
+  "vocab": [
+    { "native": "ದೇಹ", "roman": "dēha", "en": "body", "pos": "noun", "note": "Everyday: ಮೈ mai 'body' (ಮೈ ಹುಷಾರಿಲ್ಲ 'I'm unwell')." },
+    { "native": "ತಲೆ", "roman": "tale", "en": "head", "pos": "noun" },
+    { "native": "ಕಣ್ಣು", "roman": "kaṇṇu", "en": "eye", "pos": "noun" },
+    { "native": "ಕಿವಿ", "roman": "kivi", "en": "ear", "pos": "noun" },
+    { "native": "ಮೂಗು", "roman": "mūgu", "en": "nose", "pos": "noun" },
+    { "native": "ಬಾಯಿ", "roman": "bāyi", "en": "mouth", "pos": "noun" },
+    { "native": "ಹಲ್ಲು", "roman": "hallu", "en": "tooth", "pos": "noun" },
+    { "native": "ಮುಖ", "roman": "mukha", "en": "face", "pos": "noun" },
+    { "native": "ಕೂದಲು", "roman": "kūdalu", "en": "hair (on head)", "pos": "noun" },
+    { "native": "ಕೈ", "roman": "kai", "en": "hand; arm", "pos": "noun" },
+    { "native": "ಕಾಲು", "roman": "kālu", "en": "leg; foot; (also) quarter", "pos": "noun" },
+    { "native": "ಬೆರಳು", "roman": "beraḷu", "en": "finger; toe", "pos": "noun" },
+    { "native": "ಹೊಟ್ಟೆ", "roman": "hoṭṭe", "en": "stomach, belly", "pos": "noun" },
+    { "native": "ಬೆನ್ನು", "roman": "bennu", "en": "back", "pos": "noun" },
+    { "native": "ಎದೆ", "roman": "ede", "en": "chest", "pos": "noun" },
+    { "native": "ಗಂಟಲು", "roman": "gaṇṭalu", "en": "throat", "pos": "noun" },
+    { "native": "ನೋವು", "roman": "nōvu", "en": "pain, ache", "pos": "noun" },
+    { "native": "ನೋಯು", "roman": "nōyu", "en": "to hurt, ache", "pos": "verb", "note": "ತಲೆ ನೋಯುತ್ತಿದೆ / spoken ತಲೆ ನೋಯ್ತಿದೆ 'my head is aching'." },
+    { "native": "ಜ್ವರ", "roman": "jvara", "en": "fever", "pos": "noun", "note": "Spoken often ಜರ jara." },
+    { "native": "ನೆಗಡಿ", "roman": "negaḍi", "en": "cold (illness)", "pos": "noun", "note": "Also ಶೀತ shīta." },
+    { "native": "ಕೆಮ್ಮು", "roman": "kemmu", "en": "cough; to cough", "pos": "noun" },
+    { "native": "ಆಸ್ಪತ್ರೆ", "roman": "āspatre", "en": "hospital", "pos": "noun" },
+    { "native": "ವೈದ್ಯ", "roman": "vaidya", "en": "doctor (formal)", "pos": "noun", "note": "Everyday: ಡಾಕ್ಟರ್ ḍākṭar; respectful ಡಾಕ್ಟರು." },
+    { "native": "ಔಷಧಿ", "roman": "auṣadhi", "en": "medicine", "pos": "noun", "note": "Also ಔಷಧ auṣadha; spoken ಮದ್ದು maddu in coastal/rural areas." },
+    { "native": "ಮಾತ್ರೆ", "roman": "mātre", "en": "tablet, pill", "pos": "noun" },
+    { "native": "ಹುಷಾರು", "roman": "huṣāru", "en": "well, healthy; careful", "pos": "adj", "note": "ಹುಷಾರಿಲ್ಲ huṣārilla 'unwell'; ಹುಷಾರು! 'careful!'" },
+    { "native": "ಆರೋಗ್ಯ", "roman": "ārōgya", "en": "health", "pos": "noun" },
+    { "native": "ವಿಶ್ರಾಂತಿ", "roman": "vishrānti", "en": "rest", "pos": "noun" },
+    { "native": "ಸುಸ್ತು", "roman": "sustu", "en": "tiredness; tired", "pos": "noun", "note": "ನನಗೆ ಸುಸ್ತಾಗಿದೆ 'I'm tired'." },
+    { "native": "ಗಾಯ", "roman": "gāya", "en": "wound, injury", "pos": "noun" }
+  ],
+  "phrases": [
+    { "native": "ನನಗೆ ಹುಷಾರಿಲ್ಲ", "roman": "nanage huṣārilla", "en": "I'm not well." },
+    { "native": "ನನಗೆ ಜ್ವರ ಬಂದಿದೆ", "roman": "nanage jvara bandide", "en": "I've got a fever. (lit. fever has come to me)" },
+    { "native": "ನನಗೆ ತಲೆನೋವು ಇದೆ", "roman": "nanage talenōvu ide", "en": "I have a headache." },
+    { "native": "ಹೊಟ್ಟೆ ನೋಯ್ತಿದೆ", "roman": "hoṭṭe nōytide", "en": "My stomach hurts." },
+    { "native": "ಏನಾಯ್ತು?", "roman": "ēnāytu?", "en": "What happened? / What's wrong?" },
+    { "native": "ಎಲ್ಲಿ ನೋವು?", "roman": "elli nōvu?", "en": "Where does it hurt?" },
+    { "native": "ಹತ್ತಿರ ಆಸ್ಪತ್ರೆ ಎಲ್ಲಿದೆ?", "roman": "hattira āspatre ellide?", "en": "Where's the nearest hospital?" },
+    { "native": "ಡಾಕ್ಟರನ್ನ ನೋಡಬೇಕು", "roman": "ḍākṭaranna nōḍabēku", "en": "I need to see a doctor." },
+    { "native": "ದಿನಕ್ಕೆ ಮೂರು ಸಲ ಮಾತ್ರೆ ತಗೊಳ್ಳಿ", "roman": "dinakke mūru sala mātre tagoḷḷi", "en": "Take the tablet three times a day." },
+    { "native": "ಚೆನ್ನಾಗಿ ವಿಶ್ರಾಂತಿ ತಗೊಳ್ಳಿ", "roman": "chennāgi vishrānti tagoḷḷi", "en": "Get plenty of rest." },
+    { "native": "ಬೇಗ ಹುಷಾರಾಗಿ!", "roman": "bēga huṣārāgi!", "en": "Get well soon!" },
+    { "native": "ನನಗೆ ತುಂಬಾ ಸುಸ್ತಾಗಿದೆ", "roman": "nanage tumbā sustāgide", "en": "I'm very tired." }
+  ],
+  "grammar": [
+    {
+      "title": "'I have a headache': the experiencer construction",
+      "body": "Physical and mental states are things that **happen to** you, so the person goes into the **dative** (-ಗೆ) and the illness or feeling is the subject:\n• ನನಗೆ ಜ್ವರ ಇದೆ 'to me fever is' = I have a fever\n• ನನಗೆ ನೆಗಡಿ ಆಗಿದೆ 'to me a cold has happened' = I've caught a cold\n• ನನಗೆ ಸುಸ್ತಾಗಿದೆ 'to me tiredness has happened' = I'm tired\n\nWith a **body part** as subject, use ನೋಯು 'hurt' in the continuous: ತಲೆ ನೋಯ್ತಿದೆ 'head is hurting', or the compound noun + ಇದೆ: ಕಾಲುನೋವು ಇದೆ 'have leg pain'. The owner can be added in the genitive or dative: ನನ್ನ ಕಾಲು ನೋಯ್ತಿದೆ / ನನಗೆ ಕಾಲು ನೋಯ್ತಿದೆ.\n\n**ಆಗು** *āgu* 'become, happen' is the key verb for changes of state: ಏನಾಯ್ತು? 'what happened?', ಗಾಯ ಆಯ್ತು 'got hurt', ಹುಷಾರಾಗಿದ್ದೀನಿ 'I've got better'.",
+      "examples": [
+        { "native": "ಅವನಿಗೆ ಕೆಮ್ಮು ಇದೆ", "roman": "avanige kemmu ide", "en": "He has a cough." },
+        { "native": "ನನ್ನ ಬೆನ್ನು ನೋಯ್ತಿದೆ", "roman": "nanna bennu nōytide", "en": "My back hurts." },
+        { "native": "ಮಗುವಿಗೆ ಜ್ವರ ಬಂದಿದೆ", "roman": "maguvige jvara bandide", "en": "The baby has a fever." },
+        { "native": "ಕೈಗೆ ಗಾಯ ಆಯ್ತು", "roman": "kaige gāya āytu", "en": "I hurt my hand. (lit. a wound happened to the hand)" },
+        { "native": "ಈಗ ಹುಷಾರಾಗಿದ್ದೀನಿ", "roman": "īga huṣārāgiddīni", "en": "I'm better now." }
+      ]
+    },
+    {
+      "title": "'Should / must': verb + -ಬೇಕು, and -ಬಾರದು 'must not'",
+      "body": "Add **-ಬೇಕು** to the **infinitive stem** of a verb (stem + -ಅ) to say 'must, have to, should': ಮಾಡು → ಮಾಡಬೇಕು 'must do', ಹೋಗು → ಹೋಗಬೇಕು 'must go', ತಿನ್ನು → ತಿನ್ನಬೇಕು, ಕುಡಿ → ಕುಡಿಯಬೇಕು, ಇರು → ಇರಬೇಕು. It doesn't change for person: ನಾನು / ನೀವು / ಅವರು ಹೋಗಬೇಕು.\n\nThe negatives:\n• **-ಬಾರದು** *-bāradu* 'must not, shouldn't': ತಿನ್ನಬಾರದು 'mustn't eat'\n• **-ಬೇಕಾಗಿಲ್ಲ** *-bēkāgilla* 'needn't': ಬರಬೇಕಾಗಿಲ್ಲ 'you needn't come'\n• **-ಬೇಡ** (as a command) 'don't': ತಿನ್ನಬೇಡಿ 'don't eat (polite)'\n\n'It's good to...' uses the verbal noun -ಉವುದು (spoken -ಓದು) + ಒಳ್ಳೆಯದು: ನೀರು ಕುಡಿಯುವುದು ಒಳ್ಳೆಯದು / ನೀರು ಕುಡಿಯೋದು ಒಳ್ಳೇದು 'drinking water is good'.",
+      "examples": [
+        { "native": "ನೀವು ಡಾಕ್ಟರನ್ನ ನೋಡಬೇಕು", "roman": "nīvu ḍākṭaranna nōḍabēku", "en": "You should see a doctor." },
+        { "native": "ತುಂಬಾ ನೀರು ಕುಡಿಯಬೇಕು", "roman": "tumbā nīru kuḍiyabēku", "en": "You must drink lots of water." },
+        { "native": "ಖಾರ ತಿನ್ನಬಾರದು", "roman": "khāra tinnabāradu", "en": "You shouldn't eat spicy food." },
+        { "native": "ನಾಳೆ ಆಫೀಸಿಗೆ ಹೋಗಬೇಕಾಗಿಲ್ಲ", "roman": "nāḷe āphīsige hōgabēkāgilla", "en": "You needn't go to the office tomorrow." },
+        { "native": "ಚೆನ್ನಾಗಿ ನಿದ್ದೆ ಮಾಡೋದು ಒಳ್ಳೇದು", "roman": "chennāgi nidde māḍōdu oḷḷēdu", "en": "Sleeping well is good for you." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the clinic",
+    "setting": "Mark visits a neighbourhood doctor in Jayanagar.",
+    "lines": [
+      { "speaker": "Doctor", "native": "ಬನ್ನಿ, ಕೂತ್ಕೊಳ್ಳಿ. ಏನಾಯ್ತು?", "roman": "banni, kūtkoḷḷi. ēnāytu?", "en": "Come, sit down. What's the matter?" },
+      { "speaker": "Mark", "native": "ಎರಡು ದಿನದಿಂದ ಜ್ವರ ಇದೆ, ಡಾಕ್ಟರ್.", "roman": "eraḍu dinadinda jvara ide, ḍākṭar.", "en": "I've had a fever for two days, doctor." },
+      { "speaker": "Doctor", "native": "ತಲೆನೋವು, ಕೆಮ್ಮು ಇದೆಯಾ?", "roman": "talenōvu, kemmu ideyā?", "en": "Do you have a headache or a cough?" },
+      { "speaker": "Mark", "native": "ತಲೆನೋವು ಇದೆ. ಗಂಟಲು ಕೂಡ ನೋಯ್ತಿದೆ.", "roman": "talenōvu ide. gaṇṭalu kūḍa nōytide.", "en": "I have a headache. My throat hurts too." },
+      { "speaker": "Doctor", "native": "ಬಾಯಿ ತೆಗೀರಿ... ಸರಿ, ಸ್ವಲ್ಪ ಇನ್ಫೆಕ್ಷನ್ ಇದೆ.", "roman": "bāyi tegīri... sari, svalpa inphekṣan ide.", "en": "Open your mouth... Okay, there's a slight infection." },
+      { "speaker": "Doctor", "native": "ಈ ಮಾತ್ರೆ ದಿನಕ್ಕೆ ಮೂರು ಸಲ ಊಟ ಆದಮೇಲೆ ತಗೊಳ್ಳಿ.", "roman": "ī mātre dinakke mūru sala ūṭa ādamēle tagoḷḷi.", "en": "Take this tablet three times a day after meals." },
+      { "speaker": "Mark", "native": "ಏನು ತಿನ್ನಬಾರದು?", "roman": "ēnu tinnabāradu?", "en": "What shouldn't I eat?" },
+      { "speaker": "Doctor", "native": "ತಣ್ಣಗಿನದು, ಖಾರ ಬೇಡ. ಬಿಸಿ ನೀರು ಕುಡೀರಿ, ವಿಶ್ರಾಂತಿ ತಗೊಳ್ಳಿ.", "roman": "taṇṇaginadu, khāra bēḍa. bisi nīru kuḍīri, vishrānti tagoḷḷi.", "en": "Nothing cold or spicy. Drink hot water and rest." },
+      { "speaker": "Mark", "native": "ಸರಿ ಡಾಕ್ಟರ್, ಧನ್ಯವಾದ.", "roman": "sari ḍākṭar, dhanyavāda.", "en": "Okay doctor, thank you." },
+      { "speaker": "Doctor", "native": "ಬೇಗ ಹುಷಾರಾಗಿ!", "roman": "bēga huṣārāgi!", "en": "Get well soon!" }
+    ]
+  },
+  "culture": "Home remedies are popular: ಕಷಾಯ (a hot decoction of pepper, ginger, coriander and tulsi) for colds, and ಅರಿಶಿನ (turmeric) in hot milk. Elders will advise avoiding 'cold' foods like curd and bananas during a cough. Pharmacies (ಮೆಡಿಕಲ್ ಶಾಪ್) are everywhere, and pharmacists often give advice for minor ailments."
+}

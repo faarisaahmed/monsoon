@@ -1,0 +1,108 @@
+{
+  "id": 20,
+  "title": "Telling stories & real conversation",
+  "goal": "Tell a story, link sentences with 'who / where / when', report what people said, and sound natural with fillers and idioms.",
+  "intro": "Congratulations — you've reached the last unit! Now it's time to sound less like a textbook and more like a person. You'll learn how Hindi speakers tell stories, the little words that fill real conversation (**मतलब**, **वैसे**, **यार**, **है ना?**), a handful of much-loved idioms, and two structures that let you build longer sentences: **relative clauses** (जो… वह…) and **reported speech** (उसने कहा कि…).",
+  "vocab": [
+    { "native": "कहानी", "roman": "kahānī", "en": "story", "pos": "noun", "note": "f · pl: कहानियाँ" },
+    { "native": "सुनाना", "roman": "sunānā", "en": "to tell (a story), recite; to make hear", "pos": "verb", "note": "कहानी सुनाओ! 'tell a story!'" },
+    { "native": "शब्द", "roman": "shabd", "en": "word", "pos": "noun", "note": "m · also लफ़्ज़ lafz" },
+    { "native": "गाँव", "roman": "gāṃv", "en": "village", "pos": "noun", "note": "m · pl unchanged · also one's home town: मेरा गाँव" },
+    { "native": "राजा", "roman": "rājā", "en": "king", "pos": "noun", "note": "m · queen: रानी" },
+    { "native": "जानवर", "roman": "jānvar", "en": "animal", "pos": "noun", "note": "m" },
+    { "native": "ज़माना", "roman": "zamānā", "en": "era, times; the world", "pos": "noun", "note": "m · पुराने ज़माने में 'in the old days'" },
+    { "native": "जो", "roman": "jo", "en": "who, which, that (relative)", "pos": "pron", "note": "oblique: जिस (sg), जिन (pl) · जिसने, जिन्होंने, जिसका" },
+    { "native": "जहाँ", "roman": "jahāṃ", "en": "where (relative)", "pos": "adv", "note": "जहाँ… वहाँ…" },
+    { "native": "जब", "roman": "jab", "en": "when (relative)", "pos": "conj", "note": "जब… तब/तो…" },
+    { "native": "जैसे", "roman": "jaise", "en": "as, like; for example", "pos": "conj", "note": "जैसा… वैसा… 'just as… so…'" },
+    { "native": "जितना", "roman": "jitnā", "en": "as much as", "pos": "adj", "note": "जितना… उतना… 'the more… the more…'" },
+    { "native": "जैसे ही", "roman": "jaise hī", "en": "as soon as", "pos": "conj" },
+    { "native": "ताकि", "roman": "tāki", "en": "so that", "pos": "conj", "note": "followed by the subjunctive" },
+    { "native": "हालाँकि", "roman": "hālāṃki", "en": "although", "pos": "conj" },
+    { "native": "जबकि", "roman": "jabki", "en": "whereas, while", "pos": "conj" },
+    { "native": "के बारे में", "roman": "ke bāre meṃ", "en": "about, concerning", "pos": "postp", "note": "मेरे बारे में 'about me'" },
+    { "native": "वजह", "roman": "vajah", "en": "reason, cause", "pos": "noun", "note": "f · X की वजह से 'because of X'" },
+    { "native": "बिना", "roman": "binā", "en": "without", "pos": "postp", "note": "X के बिना or बिना X के" },
+    { "native": "बीच", "roman": "bīch", "en": "middle", "pos": "noun", "note": "m · बीच में 'in the middle; meanwhile'; X के बीच 'between X'" },
+    { "native": "आख़िरकार", "roman": "āxirkār", "en": "finally, in the end", "pos": "adv", "note": "also आख़िर में" },
+    { "native": "दरअसल", "roman": "darasal", "en": "actually, in fact", "pos": "adv", "note": "also असल में" },
+    { "native": "वैसे", "roman": "vaise", "en": "by the way; actually; otherwise", "pos": "adv", "note": "Very common conversation opener: वैसे… 'by the way…'" },
+    { "native": "यानी", "roman": "yānī", "en": "that is, i.e., meaning", "pos": "conj" },
+    { "native": "ख़ैर", "roman": "xair", "en": "anyway, well", "pos": "interj" },
+    { "native": "सचमुच", "roman": "sachmuch", "en": "really, truly", "pos": "adv" },
+    { "native": "यार", "roman": "yār", "en": "mate, buddy, man", "pos": "interj", "note": "Informal, very common among friends of any gender: अरे यार!" },
+    { "native": "ऐसा", "roman": "aisā", "en": "such, like this, so", "pos": "adj", "note": "ऐसी, ऐसे · वैसा 'like that'; कैसा 'what like?'" },
+    { "native": "वग़ैरह", "roman": "vaġairah", "en": "etcetera, and so on", "pos": "adv", "note": "often pronounced vagairā" }
+  ],
+  "phrases": [
+    { "native": "एक बार की बात है…", "roman": "ek bār kī bāt hai…", "en": "Once upon a time… / This one time…" },
+    { "native": "उसके बाद?", "roman": "uske bād?", "en": "And after that?" },
+    { "native": "अच्छा है, है ना?", "roman": "achchhā hai, hai nā?", "en": "It's nice, isn't it?" },
+    { "native": "वैसे, आप कहाँ से हैं?", "roman": "vaise, āp kahāṃ se haiṃ?", "en": "By the way, where are you from?" },
+    { "native": "अरे यार!", "roman": "are yār!", "en": "Oh man! / Come on!" },
+    { "native": "क्या बात है!", "roman": "kyā bāt hai!", "en": "Brilliant! / Wow! (admiration)" },
+    { "native": "चलता है।", "roman": "chaltā hai.", "en": "It's fine. / It'll do. / Whatever." },
+    { "native": "हद हो गई!", "roman": "had ho gaī!", "en": "This is the limit! / That's too much!" },
+    { "native": "मेरा दिमाग़ मत खाओ!", "roman": "merā dimāġ mat khāo!", "en": "Stop pestering me! (lit. don't eat my brain)" },
+    { "native": "दिल छोटा मत करो।", "roman": "dil chhoṭā mat karo.", "en": "Don't lose heart. (lit. don't make your heart small)" },
+    { "native": "नाच न जाने आँगन टेढ़ा।", "roman": "nāch na jāne āṃgan ṭeṛhā.", "en": "A bad workman blames his tools. (lit. can't dance, says the courtyard is crooked)" },
+    { "native": "दूर के ढोल सुहावने।", "roman": "dūr ke ḍhol suhāvne.", "en": "The grass is always greener. (lit. distant drums sound sweet)" },
+    { "native": "ऊँट के मुँह में ज़ीरा।", "roman": "ūṃṭ ke muṃh meṃ zīrā.", "en": "A drop in the ocean. (lit. a cumin seed in a camel's mouth)" },
+    { "native": "जितने मुँह, उतनी बातें।", "roman": "jitne muṃh, utnī bāteṃ.", "en": "Everyone has a different opinion. (lit. as many mouths, so many words)" }
+  ],
+  "grammar": [
+    {
+      "title": "Relative clauses: जो … वह …",
+      "body": "English puts 'who/which' clauses inside the sentence (*the boy **who is standing there** is my brother*). Hindi usually uses a **pair** of words: a **j-** word in the relative clause and a matching **v-/t-** word in the main clause:\n\n**जो** लड़का वहाँ खड़ा है, **वह** मेरा भाई है 'The boy who is standing there is my brother' (lit. 'which boy is standing there, he is my brother').\n\nThe j-word changes like any pronoun: oblique **जिस** (sg) / **जिन** (pl): **जिस** दुकान से मैंने यह लिया… 'the shop I bought this from…'; with ने: **जिसने**, **जिन्होंने**; possessive **जिसका**.\n\nOther pairs follow the same logic:\n**जहाँ … वहाँ** where … there · **जब … तब** when … then\n**जैसा … वैसा** as … so · **जितना … उतना** as much … that much\n\nIn speech the main-clause word is often dropped, and the clause can also follow: वह आदमी, **जो** कल आया था…",
+      "examples": [
+        { "native": "जो किताब मेज़ पर है, वह मेरी है।", "roman": "jo kitāb mez par hai, vah merī hai.", "en": "The book that's on the table is mine." },
+        { "native": "जिस आदमी ने मेरी मदद की, वह डॉक्टर था।", "roman": "jis ādmī ne merī madad kī, vah ḍokṭar thā.", "en": "The man who helped me was a doctor." },
+        { "native": "जहाँ मैं रहता हूँ, वहाँ बहुत शोर है।", "roman": "jahāṃ maiṃ rahtā hūṃ, vahāṃ bahut shor hai.", "en": "Where I live, it's very noisy." },
+        { "native": "जब मैं छोटा था, तब हम गाँव में रहते थे।", "roman": "jab maiṃ chhoṭā thā, tab ham gāṃv meṃ rahte the.", "en": "When I was small, we lived in a village." },
+        { "native": "जितना पढ़ोगे, उतना सीखोगे।", "roman": "jitnā paṛhoge, utnā sīkhoge.", "en": "The more you study, the more you'll learn." },
+        { "native": "जो भी हो, मैं आऊँगा।", "roman": "jo bhī ho, maiṃ āūṃgā.", "en": "Whatever happens, I'll come." }
+      ]
+    },
+    {
+      "title": "Reporting speech: उसने कहा कि…",
+      "body": "Hindi reporting is simpler than English: after **कहा कि / बताया कि / पूछा कि**, you usually keep the **original tense**, and often even the original words:\n\nRavi: 'मैं कल आऊँगा।' → **रवि ने कहा कि वह कल आएगा** 'Ravi said that he would come tomorrow' (tense stays future).\n\nVery often speakers simply quote directly: **रवि ने कहा, \"मैं कल आऊँगा।\"** — and in casual speech, even without changing मैं: रवि बोला कि मैं कल आऊँगा (context makes it clear).\n\n**Questions**: पूछा कि **क्या** … (for yes/no), or keep the question word: उसने पूछा कि तुम कहाँ रहते हो.\n**Requests/commands**: कहा कि + **subjunctive**: माँ ने कहा कि मैं जल्दी घर आऊँ 'Mum told me to come home early'.\n\nIn speech **बोलना** often replaces कहना, and **बोला / बोली** take no ने: वह बोली कि… 'she said that…'.",
+      "examples": [
+        { "native": "उसने कहा कि वह बीमार है।", "roman": "usne kahā ki vah bīmār hai.", "en": "He/she said (that) he/she was ill." },
+        { "native": "दुकानदार ने बताया कि दुकान सात बजे बंद होती है।", "roman": "dukāndār ne batāyā ki dukān sāt baje band hotī hai.", "en": "The shopkeeper told me the shop closes at seven." },
+        { "native": "उन्होंने पूछा कि क्या मैं हिंदी समझती हूँ।", "roman": "unhoṃne pūchhā ki kyā maiṃ hindī samajhtī hūṃ.", "en": "He/she asked whether I understood Hindi. (woman speaking)" },
+        { "native": "डॉक्टर ने कहा कि मैं आराम करूँ।", "roman": "ḍokṭar ne kahā ki maiṃ ārām karūṃ.", "en": "The doctor told me to rest." },
+        { "native": "वह बोला, \"मुझे नहीं पता।\"", "roman": "vah bolā, \"mujhe nahīṃ patā.\"", "en": "He said, \"I don't know.\"" }
+      ]
+    },
+    {
+      "title": "Sounding natural: storytelling words and fillers",
+      "body": "**Telling a story**: एक बार की बात है… 'one time…' → पहले 'first' → फिर / उसके बाद 'then / after that' → अचानक 'suddenly' → तभी 'just then' → आख़िरकार 'finally'.\n\n**Fillers and tags** that make you sound fluent:\n**है ना?** / **ना?** — 'isn't it? right?' (tag question): अच्छा है, है ना?\n**मतलब…** / **यानी…** — 'I mean… / that is…'\n**वैसे…** — 'by the way… / actually…'\n**अच्छा…** — 'OK… / I see… / oh really?'\n**हाँ तो…** — 'so, anyway…' (getting back to the story)\n**ख़ैर…** — 'anyway…' (moving on)\n**यार** — 'mate' (friends only)\n**क्या बोलते हैं…** — 'what do you call it…' (while searching for a word)\n\n**Emphasis particles**: **ही** 'only, exactly' (मैं ही 'I myself', अभी ही 'right now'), **भी** 'also, even', **तो** 'as for…' (मैं तो थक गया 'as for me, I'm exhausted').",
+      "examples": [
+        { "native": "एक बार की बात है, एक गाँव में एक बूढ़ा किसान रहता था।", "roman": "ek bār kī bāt hai, ek gāṃv meṃ ek būṛhā kisān rahtā thā.", "en": "Once upon a time, an old farmer lived in a village." },
+        { "native": "तभी अचानक बिजली चली गई।", "roman": "tabhī achānak bijlī chalī gaī.", "en": "Just then, suddenly the power went out." },
+        { "native": "मतलब, मुझे पक्का नहीं पता, लेकिन…", "roman": "matlab, mujhe pakkā nahīṃ patā, lekin…", "en": "I mean, I don't know for sure, but…" },
+        { "native": "हाँ तो, मैं क्या कह रहा था?", "roman": "hāṃ to, maiṃ kyā kah rahā thā?", "en": "So, anyway, what was I saying?" },
+        { "native": "तुम भी आओगे, ना?", "roman": "tum bhī āoge, nā?", "en": "You're coming too, right?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The wedding story",
+    "setting": "Aisha meets her friend Ravi, who has just come back from his cousin's wedding in a village near Jaipur.",
+    "lines": [
+      { "speaker": "Aisha", "native": "अरे रवि! तुम वापस आ गए? शादी कैसी रही?", "roman": "are Ravi! tum vāpas ā gaye? shādī kaisī rahī?", "en": "Hey Ravi! You're back? How was the wedding?" },
+      { "speaker": "Ravi", "native": "यार, क्या बताऊँ! बहुत मज़ा आया, पर एक मज़ेदार हादसा भी हुआ।", "roman": "yār, kyā batāūṃ! bahut mazā āyā, par ek mazedār hādsā bhī huā.", "en": "Oh man, where do I start! It was great fun, but something funny happened too." },
+      { "speaker": "Aisha", "native": "अच्छा? क्या हुआ? सुनाओ!", "roman": "achchhā? kyā huā? sunāo!", "en": "Really? What happened? Tell me!" },
+      { "speaker": "Ravi", "native": "हुआ यह कि बारात शाम को निकलने वाली थी। दूल्हा घोड़ी पर बैठा था, बैंड बज रहा था…", "roman": "huā yah ki bārāt shām ko nikalne vālī thī. dūlhā ghoṛī par baiṭhā thā, baiṇḍ baj rahā thā…", "en": "What happened was, the wedding procession was about to set off in the evening. The groom was sitting on the mare, the band was playing…" },
+      { "speaker": "Aisha", "native": "फिर?", "roman": "phir?", "en": "And then?" },
+      { "speaker": "Ravi", "native": "तभी अचानक घोड़ी डर गई और भागने लगी — दूल्हे के साथ!", "roman": "tabhī achānak ghoṛī ḍar gaī aur bhāgne lagī — dūlhe ke sāth!", "en": "Just then the mare suddenly got scared and started running — with the groom on her!" },
+      { "speaker": "Aisha", "native": "क्या? सचमुच? फिर क्या हुआ?", "roman": "kyā? sachmuch? phir kyā huā?", "en": "What? Seriously? Then what?" },
+      { "speaker": "Ravi", "native": "जो लड़का घोड़ी की देखभाल करता था, वह उसके पीछे दौड़ा। पूरा गाँव हँस रहा था!", "roman": "jo laṛkā ghoṛī kī dekhbhāl kartā thā, vah uske pīchhe dauṛā. pūrā gāṃv haṃs rahā thā!", "en": "The boy who looked after the mare ran after her. The whole village was laughing!" },
+      { "speaker": "Aisha", "native": "बेचारा दूल्हा! वह ठीक तो था, ना?", "roman": "bechārā dūlhā! vah ṭhīk to thā, nā?", "en": "Poor groom! He was OK, right?" },
+      { "speaker": "Ravi", "native": "हाँ, आख़िरकार घोड़ी रुक गई। दूल्हे ने कहा कि अगली बार वह गाड़ी से आएगा!", "roman": "hāṃ, āxirkār ghoṛī ruk gaī. dūlhe ne kahā ki aglī bār vah gāṛī se āyegā!", "en": "Yes, in the end the mare stopped. The groom said next time he'll come by car!" },
+      { "speaker": "Aisha", "native": "अगली बार? हा हा! वैसे, दुल्हन ने क्या कहा?", "roman": "aglī bār? hā hā! vaise, dulhan ne kyā kahā?", "en": "Next time? Ha ha! By the way, what did the bride say?" },
+      { "speaker": "Ravi", "native": "वह बोली, \"चलता है — कम से कम वह भागा तो नहीं!\"", "roman": "vah bolī, \"chaltā hai — kam se kam vah bhāgā to nahīṃ!\"", "en": "She said, \"Never mind — at least he didn't run away!\"" }
+    ]
+  },
+  "culture": "Real-life Hindi is full of **code-switching**: urban speakers slide between Hindi and English mid-sentence ('Hinglish' — मैं literally shocked हो गया!), and it's perfectly normal. Hindi is also rich in **idioms and proverbs** (मुहावरे and कहावतें), often about animals, food and village life; dropping one into conversation always gets a smile. Storytelling is a cherished tradition, from grandmothers' tales (दादी-नानी की कहानियाँ) to the epic Ramayana and Mahabharata. From here, the best next steps are Hindi films and songs with Hindi subtitles, podcasts, and — most of all — talking to people. **आपकी हिंदी की यात्रा के लिए शुभकामनाएँ!** Best wishes for your Hindi journey!"
+}

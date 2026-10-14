@@ -137,6 +137,11 @@ export async function practiceMode({ code, L, params, query }) {
       const seen = store.hasLang(code) ? store.lang(code).letters : {};
       const practised = base.filter((l) => seen[l.char]);
       questions = sample(practised.length >= 6 ? practised : base.slice(0, 20), 8).map(Q.write);
+      // once a few letters are familiar, also write short whole words
+      if (practised.length >= 10) {
+        const shortWords = pool.filter((i) => i.kind === 'word' && !i.native.includes(' ') && i.native.length <= 5);
+        questions = shuffle([...questions.slice(0, 6), ...sample(shortWords, 3).map((w) => Q.write({ char: w.native, roman: w.roman, sound: w.en, example: w, key: w.key }))]);
+      }
       break;
     }
     case 'numbers': {
