@@ -31,15 +31,15 @@
     { "native": "பசி", "roman": "pasi", "en": "hunger", "pos": "noun", "note": "எனக்குப் பசிக்குது 'I'm hungry'" },
     { "native": "சைவம்", "roman": "saivam", "en": "vegetarian", "pos": "noun", "note": "spoken also வெஜ் 'veg'" },
     { "native": "அசைவம்", "roman": "asaivam", "en": "non-vegetarian", "pos": "noun", "note": "spoken also நான்-வெஜ் 'non-veg'" },
-    { "native": "டிபன்", "roman": "ṭiffan", "en": "tiffin: light meal (breakfast/evening snack)", "pos": "noun" }
+    { "native": "டிஃபன்", "roman": "ṭifan", "en": "tiffin: light meal (breakfast/evening snack)", "pos": "noun" }
   ],
   "phrases": [
-    { "native": "எனக்குப் பசிக்குது.", "roman": "enakku pasikkudu.", "en": "I'm hungry." },
+    { "native": "எனக்குப் பசிக்குது.", "roman": "enakkup pasikkudu.", "en": "I'm hungry." },
     { "native": "எனக்கு ஒரு காபி வேணும்.", "roman": "enakku oru kāpi vēṇum.", "en": "I want a coffee." },
     { "native": "ரெண்டு இட்லி, ஒரு தோசை குடுங்க.", "roman": "reṇḍu iḍli, oru dōsai kuḍunga.", "en": "Two idlis and one dosa, please." },
     { "native": "சாப்பாடு இருக்கா?", "roman": "sāppāḍu irukkā?", "en": "Are meals available?" },
     { "native": "காரம் கம்மியா போடுங்க.", "roman": "kāram kammiyā pōḍunga.", "en": "Make it less spicy, please." },
-    { "native": "எனக்குத் தோசை ரொம்பப் பிடிக்கும்.", "roman": "enakku dōsai rombap piḍikkum.", "en": "I really like dosa." },
+    { "native": "எனக்குத் தோசை ரொம்பப் பிடிக்கும்.", "roman": "enakkut dōsai rombap piḍikkum.", "en": "I really like dosa." },
     { "native": "எனக்கு மீன் பிடிக்காது.", "roman": "enakku mīn piḍikkādu.", "en": "I don't like fish." },
     { "native": "நான் சைவம்.", "roman": "nān saivam.", "en": "I'm vegetarian." },
     { "native": "ரொம்ப ருசியா இருக்கு!", "roman": "romba rusiyā irukku!", "en": "It's delicious!" },
@@ -50,12 +50,12 @@
   "grammar": [
     {
       "title": "Dative subject: 'I want', 'I like', 'I'm hungry'",
-      "body": "Many feelings and needs are expressed with the experiencer in the **dative case (-க்கு)** and the thing as the grammatical subject:\n\n**எனக்கு காபி வேணும்** — to-me coffee is-wanted → 'I want coffee'\n**எனக்கு காபி பிடிக்கும்** — to-me coffee is-pleasing → 'I like coffee'\n**எனக்குப் பசிக்குது** — to-me (it) hungers → 'I'm hungry'\n\nThe verb doesn't change for person: வேணும், பிடிக்கும் stay the same whoever wants or likes. Negatives: **வேணாம்** 'don't want', **பிடிக்காது** 'don't like'. Questions: வேணுமா? பிடிக்குமா?\n\n(A hard consonant after -க்கு is often doubled in writing — எனக்குப் பசி — this is sandhi; in speech you barely hear it.)",
+      "body": "Many feelings and needs are expressed with the experiencer in the **dative case (-க்கு)** and the thing as the grammatical subject:\n\n**எனக்கு காபி வேணும்** — to-me coffee is-wanted → 'I want coffee'\n**எனக்கு காபி பிடிக்கும்** — to-me coffee is-pleasing → 'I like coffee'\n**எனக்குப் பசிக்குது** — to-me (it) hungers → 'I'm hungry'\n\nThe verb doesn't change for person: வேணும், பிடிக்கும் stay the same whoever wants or likes. Negatives: **வேணாம்** 'don't want', **பிடிக்காது** 'don't like'. Questions: வேணுமா? பிடிக்குமா?\n\n(A hard consonant after -க்கு is often doubled in writing — எனக்குப் பசி *enakkup pasi* — this is sandhi; in casual speech it is weak or dropped, and many people leave it out when writing spoken Tamil.)",
       "examples": [
         { "native": "உங்களுக்கு என்ன வேணும்?", "roman": "ungaḷukku enna vēṇum?", "en": "What would you like?" },
         { "native": "அவருக்கு டீ வேணாம்.", "roman": "avarukku ṭī vēṇām.", "en": "He doesn't want tea." },
-        { "native": "உங்களுக்குக் காரம் பிடிக்குமா?", "roman": "ungaḷukku kāram piḍikkumā?", "en": "Do you like spicy food?" },
-        { "native": "குழந்தைக்குப் பசிக்குது.", "roman": "kuḻandaikku pasikkudu.", "en": "The baby is hungry." },
+        { "native": "உங்களுக்குக் காரம் பிடிக்குமா?", "roman": "ungaḷukkuk kāram piḍikkumā?", "en": "Do you like spicy food?" },
+        { "native": "குழந்தைக்குப் பசிக்குது.", "roman": "kuḻandaikkup pasikkudu.", "en": "The baby is hungry." },
         { "native": "எனக்கு இனிப்பு பிடிக்காது.", "roman": "enakku inippu piḍikkādu.", "en": "I don't like sweets." }
       ]
     },
@@ -74,16 +74,16 @@
     "title": "Breakfast at a tiffin centre",
     "setting": "Tom and his friend Karthik sit down at a busy vegetarian restaurant in the morning.",
     "lines": [
-      { "speaker": "Waiter", "native": "என்ன சாப்பிடறீங்க சார்?", "roman": "enna sāppiḍarīnga sār?", "en": "What will you have, sir?" },
-      { "speaker": "Karthik", "native": "டிபன் என்ன இருக்கு?", "roman": "ṭiffan enna irukku?", "en": "What's there for tiffin?" },
+      { "speaker": "Waiter", "native": "என்ன சாப்பிடுறீங்க சார்?", "roman": "enna sāppiḍurīnga sār?", "en": "What will you have, sir?" },
+      { "speaker": "Karthik", "native": "டிஃபன் என்ன இருக்கு?", "roman": "ṭifan enna irukku?", "en": "What's there for tiffin?" },
       { "speaker": "Waiter", "native": "இட்லி, தோசை, பொங்கல், பூரி இருக்கு.", "roman": "iḍli, dōsai, pongal, pūri irukku.", "en": "There's idli, dosa, pongal and puri." },
       { "speaker": "Karthik", "native": "எனக்கு ரெண்டு இட்லி, ஒரு வடை. டாம், உங்களுக்கு?", "roman": "enakku reṇḍu iḍli, oru vaḍai. Ṭām, ungaḷukku?", "en": "Two idlis and a vadai for me. Tom, for you?" },
       { "speaker": "Tom", "native": "எனக்கு ஒரு மசாலா தோசை வேணும். காரமா இருக்குமா?", "roman": "enakku oru masālā dōsai vēṇum. kāramā irukkumā?", "en": "I want a masala dosa. Will it be spicy?" },
       { "speaker": "Waiter", "native": "கொஞ்சம் காரம் இருக்கும் சார்.", "roman": "konjam kāram irukkum sār.", "en": "A little spicy, sir." },
-      { "speaker": "Tom", "native": "பரவால்ல. எனக்குக் காரம் பிடிக்கும்!", "roman": "paravālla. enakku kāram piḍikkum!", "en": "That's fine. I like spicy food!" },
+      { "speaker": "Tom", "native": "பரவால்ல. எனக்குக் காரம் பிடிக்கும்!", "roman": "paravālla. enakkuk kāram piḍikkum!", "en": "That's fine. I like spicy food!" },
       { "speaker": "Karthik", "native": "அப்புறம் ரெண்டு ஃபில்டர் காபி.", "roman": "appuram reṇḍu filṭar kāpi.", "en": "And then two filter coffees." },
       { "speaker": "Tom", "native": "ரொம்ப ருசியா இருக்கு! இன்னும் கொஞ்சம் சாம்பார் குடுங்க.", "roman": "romba rusiyā irukku! innum konjam sāmbār kuḍunga.", "en": "It's delicious! A little more sambar, please." },
-      { "speaker": "Karthik", "native": "சாப்பிட்டாச்சா? பில் குடுங்க!", "roman": "sāppiṭṭāchā? bil kuḍunga!", "en": "Finished eating? The bill, please!" }
+      { "speaker": "Karthik", "native": "சாப்பிட்டாச்சா? பில் குடுங்க!", "roman": "sāppiṭṭācchā? bil kuḍunga!", "en": "Finished eating? The bill, please!" }
     ]
   },
   "culture": "Traditional meals are eaten with the right hand, often from a banana leaf (வாழை இலை). Hosts will keep serving you; say போதும் 'enough' firmly — and folding the leaf towards you signals you have finished and enjoyed the meal. Filter coffee is served in a tumbler and dabarah (டபரா) and 'pulled' between the two to cool and froth it. Many Tamil homes and restaurants are vegetarian (சைவம்); a 'military hotel' is, oddly, a non-vegetarian restaurant."

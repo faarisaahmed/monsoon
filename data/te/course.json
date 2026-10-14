@@ -4,7 +4,7 @@
   "native": "తెలుగు",
   "scriptName": "Telugu",
   "script": {
-    "overview": "Telugu script is an **abugida** descended from Brahmi, written left to right, closely related to the Kannada script. Each consonant letter carries an inherent short *a*: క is *ka*. To give a consonant a different vowel you attach a **vowel sign** (called *gunintham*): కా kā, కి ki, కు ku, కె ke, కో kō. Vowel letters (అ ఆ ఇ ...) are used only at the start of a syllable.\n\nMost consonants have a small tick on top called the **talakaṭṭu** (తలకట్టు, ‘head-tie’). When a vowel sign is added, the tick is often replaced by the sign itself, so learn each consonant together with its vowel-sign forms; the shapes are rounded, built from circles and hooks.\n\nTo show a consonant with no vowel, Telugu uses the **pollu** (virama ్): క్ is a bare *k*. In everyday writing, though, a vowelless consonant usually joins the next one as a **vottu** (వత్తు, subjoined form) written below or beside it: క + క = క్క (kka), స + త = స్త (sta), ప + ర = ప్ర (pra). Learning about twenty common vottulu covers almost everything you will read.\n\nOther marks: ం (*sunna*, anusvara) is a nasal, pronounced *m* at the end of a word and as the matching nasal before a consonant; ః (visarga) appears in a few Sanskrit words; ఁ (*arasunna*, half-nasal) and the letter ఱ belong to older spelling and are no longer pronounced differently. Telugu has its own digits (౦ ౧ ౨ ...), though Western digits are what you will see almost everywhere today.",
+    "overview": "Telugu script is an **abugida** descended from Brahmi, written left to right, closely related to the Kannada script. Each consonant letter carries an inherent short *a*: క is *ka*. To give a consonant a different vowel you attach a **vowel sign** (called *gunintham*): కా kā, కి ki, కు ku, కె ke, కో kō. Vowel letters (అ ఆ ఇ ...) are used only at the start of a word.\n\nMost consonants have a small tick on top called the **talakaṭṭu** (తలకట్టు, ‘head-tie’). When a vowel sign is added, the tick is often replaced by the sign itself, so learn each consonant together with its vowel-sign forms; the shapes are rounded, built from circles and hooks.\n\nTo show a consonant with no vowel, Telugu uses the **pollu** (virama ్): క్ is a bare *k*. In everyday writing, though, a vowelless consonant usually joins the next one as a **vottu** (వత్తు, subjoined form) written below or beside it: క + క = క్క (kka), స + త = స్త (sta), ప + ర = ప్ర (pra). Learning about twenty common vottulu covers almost everything you will read.\n\nOther marks: ం (*sunna*, anusvara) is a nasal, pronounced *m* at the end of a word and as the matching nasal before a consonant; ః (visarga) appears in a few Sanskrit words; ఁ (*arasunna*, half-nasal) and the letter ఱ belong to older spelling and are no longer pronounced differently. Telugu has its own digits (౦ ౧ ౨ ...), though Western digits are what you will see almost everywhere today.",
     "groups": [
       {
         "id": "vowels",
@@ -98,7 +98,7 @@
           {
             "char": "ఋ",
             "roman": "ru",
-            "ipa": "ru",
+            "ipa": "ɾu",
             "sound": "Written vocalic r from Sanskrit; in Telugu pronounced 'ru' (some speakers 'ri').",
             "sign": "ృ",
             "signExample": "కృ (kru)",
@@ -112,7 +112,7 @@
           {
             "char": "ౠ",
             "roman": "rū",
-            "ipa": "ruː",
+            "ipa": "ɾuː",
             "sound": "Long vocalic r; listed in the alphabet but almost never used.",
             "sign": "ౄ",
             "signExample": "కౄ (krū)",
@@ -671,7 +671,7 @@
             "sound": "Historic 'hard r' (bandi ra). Today pronounced exactly like ర and usually replaced by it.",
             "example": {
               "native": "ఱెక్క",
-              "roman": "ṟekka",
+              "roman": "rekka",
               "en": "wing (old spelling of రెక్క)"
             },
             "strokes": "Two connected loops; recognise it in older texts."
@@ -1225,14 +1225,14 @@
         },
         {
           "a": {
-            "native": "కల",
-            "roman": "kala",
-            "en": "dream"
+            "native": "పదం",
+            "roman": "padam",
+            "en": "word"
           },
           "b": {
-            "native": "కాల",
-            "roman": "kāla",
-            "en": "of time (combining form)"
+            "native": "పాదం",
+            "roman": "pādam",
+            "en": "foot"
           }
         }
       ],
@@ -1517,16 +1517,16 @@
         },
         {
           "a": {
-            "native": "కత్తి",
-            "roman": "katti",
-            "en": "knife"
+            "native": "కాయం",
+            "roman": "kāyam",
+            "en": "body (formal)"
           },
           "b": {
-            "native": "కథ",
-            "roman": "katha",
-            "en": "story"
+            "native": "ఖాయం",
+            "roman": "khāyam",
+            "en": "certain, definite"
           },
-          "note": "Not a strict pair; compare t and th."
+          "note": "Only the puff of air after k differs."
         }
       ],
       "drill": [
@@ -1598,14 +1598,14 @@
         },
         {
           "a": {
-            "native": "పాలు",
-            "roman": "pālu",
-            "en": "milk"
+            "native": "ఇల్లు",
+            "roman": "illu",
+            "en": "house"
           },
           "b": {
-            "native": "పాళ్ళు",
-            "roman": "pāḷḷu",
-            "en": "shares, proportions"
+            "native": "ఇళ్ళు",
+            "roman": "iḷḷu",
+            "en": "houses"
           }
         }
       ],
@@ -1648,7 +1648,7 @@
       "body": "A doubled consonant in Telugu is genuinely **held longer**, the way Italians say 'pizza' or English 'bookcase' joins two k's. *పతి* (pati, husband) and *పత్తి* (patti, cotton) differ only in that hold.\n\nGemination is everywhere in basic vocabulary: *అమ్మ* amma, *అక్క* akka, *అన్న* anna, *కొత్త* kotta, *ఇల్లు* illu. If you say these with a single consonant you will sound clipped or be misunderstood. For stops, close the mouth, pause a beat, then release.",
       "tips": [
         "Pause briefly with the closure held: kot–ta, not ko-ta.",
-        "The vowel before a double consonant stays short.",
+        "The vowel before a double consonant is usually short (exceptions: నాన్న, నీళ్ళు).",
         "The spelling tells you: a vottu of the same letter (క్క, త్త, ల్ల) means double."
       ],
       "pairs": [
@@ -1678,28 +1678,28 @@
         },
         {
           "a": {
-            "native": "కలం",
-            "roman": "kalam",
-            "en": "pen"
+            "native": "పటం",
+            "roman": "paṭam",
+            "en": "picture, map"
           },
           "b": {
-            "native": "కల్లం",
-            "roman": "kallam",
-            "en": "threshing floor"
+            "native": "పట్టం",
+            "roman": "paṭṭam",
+            "en": "crown, coronation"
           }
         },
         {
           "a": {
-            "native": "గది",
-            "roman": "gadi",
-            "en": "room"
+            "native": "గద",
+            "roman": "gada",
+            "en": "mace, club"
           },
           "b": {
-            "native": "గద్దె",
-            "roman": "gadde",
-            "en": "raised platform, throne"
+            "native": "గద్ద",
+            "roman": "gadda",
+            "en": "kite (bird of prey)"
           },
-          "note": "Not a strict pair; compare the held d."
+          "note": "Only the held d differs."
         }
       ],
       "drill": [
@@ -1743,7 +1743,7 @@
     {
       "id": "nasals",
       "title": "Nasals and the sunna (ం)",
-      "body": "The circle ం (*sunna*) stands for a nasal consonant. At the **end of a word** it is pronounced *m*: *పుస్తకం* pustakam, *నమస్కారం* namaskāram. **Before a consonant** it takes the position of that consonant: before క/గ it is ṅ (*రంగు* raṅgu, colour), before చ/జ ñ (*మంచి* manchi, good), before ట/డ ṇ (*పండు* paṇḍu, fruit), before త/ద n (*అందం* andam, beauty), before ప/బ m (*సంబరం* sambaram, celebration).\n\nTelugu also has the full nasal letters న, మ, ణ, and rare ఙ, ఞ. Telugu has no nasalised vowels like Hindi's; ం is always a real consonant. Words ending in ం often drop the final m colloquially before adding endings: *పుస్తకం* + *లో* = *పుస్తకంలో* (pustakamlō).",
+      "body": "The circle ం (*sunna*) stands for a nasal consonant. At the **end of a word** it is pronounced *m*: *పుస్తకం* pustakam, *నమస్కారం* namaskāram. **Before a consonant** it takes the position of that consonant: before క/గ it is ṅ (*రంగు* raṅgu, colour), before చ/జ ñ (*మంచి* manchi, good), before ట/డ ṇ (*పండు* paṇḍu, fruit), before త/ద n (*అందం* andam, beauty), before ప/బ m (*సంబరం* sambaram, celebration).\n\nTelugu also has the full nasal letters న, మ, ణ, and rare ఙ, ఞ. Telugu has no nasalised vowels like Hindi's; ం is always a real consonant. Words ending in ం keep the m before most case endings: *పుస్తకం* + *లో* = *పుస్తకంలో* (pustakamlō), but drop it in the plural: *పుస్తకాలు* (pustakālu).",
       "tips": [
         "Don't nasalise the vowel; close your mouth or touch the tongue for a real m/n.",
         "Before ప/బ, close your lips: సంపద sampada.",
@@ -1752,9 +1752,9 @@
       "pairs": [
         {
           "a": {
-            "native": "కంది",
-            "roman": "kandi",
-            "en": "pigeon pea (toor dal)"
+            "native": "కంద",
+            "roman": "kanda",
+            "en": "elephant-foot yam"
           },
           "b": {
             "native": "కండ",
@@ -1765,15 +1765,16 @@
         },
         {
           "a": {
-            "native": "మంచి",
-            "roman": "manchi",
-            "en": "good"
+            "native": "అంతే",
+            "roman": "antē",
+            "en": "that's all, just that"
           },
           "b": {
-            "native": "మంచం",
-            "roman": "mancham",
-            "en": "cot, bed"
-          }
+            "native": "అంటే",
+            "roman": "aṇṭē",
+            "en": "that is, meaning"
+          },
+          "note": "Dental nt vs retroflex ṇṭ, both written with ం."
         }
       ],
       "drill": [
@@ -1831,24 +1832,24 @@
             "en": "leg"
           },
           "b": {
-            "native": "కాలికి",
-            "roman": "kāliki",
-            "en": "to the leg"
+            "native": "కాలి",
+            "roman": "kāli",
+            "en": "of the leg (కాలి వేలు, toe)"
           },
-          "note": "-u becomes -i before a case suffix."
+          "note": "-u becomes -i in the oblique form, before a noun or case suffix."
         },
         {
           "a": {
-            "native": "ఇల్లు",
-            "roman": "illu",
-            "en": "house"
+            "native": "ఊరు",
+            "roman": "ūru",
+            "en": "town, village"
           },
           "b": {
-            "native": "ఇంట్లో",
-            "roman": "iṇṭlō",
-            "en": "in the house"
+            "native": "ఊరి",
+            "roman": "ūri",
+            "en": "of the town (ఊరి పేరు, the town's name)"
           },
-          "note": "Irregular oblique stem iṇṭi-."
+          "note": "Only the final vowel differs; ఇల్లు is irregular (ఇంటి-, ఇంట్లో)."
         }
       ],
       "drill": [

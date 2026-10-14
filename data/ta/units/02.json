@@ -39,13 +39,13 @@
     { "native": "நீங்க எந்த ஊரு?", "roman": "nīnga enda ūru?", "en": "Where are you from? (lit. you which town?)" },
     { "native": "நான் லண்டன்லேருந்து வர்றேன்.", "roman": "nān Laṇḍanlērundu varrēn.", "en": "I'm from London. (lit. I come from London)" },
     { "native": "நான் இப்போ சென்னையில இருக்கேன்.", "roman": "nān ippō Chennaiyila irukkēn.", "en": "I live in Chennai now. (lit. I am in Chennai)" },
-    { "native": "உங்களுக்குத் தமிழ் தெரியுமா?", "roman": "ungaḷukku tamiḻ teriyumā?", "en": "Do you know Tamil?" },
+    { "native": "உங்களுக்குத் தமிழ் தெரியுமா?", "roman": "ungaḷukkut tamiḻ teriyumā?", "en": "Do you know Tamil?" },
     { "native": "கொஞ்சம் தெரியும்.", "roman": "konjam teriyum.", "en": "I know a little." },
     { "native": "நான் கொஞ்சம் கொஞ்சம் தமிழ் பேசுவேன்.", "roman": "nān konjam konjam tamiḻ pēsuvēn.", "en": "I speak a little bit of Tamil." },
     { "native": "இங்கிலீஷ் பேசுவீங்களா?", "roman": "inglīsh pēsuvīngaḷā?", "en": "Do you speak English?" },
     { "native": "அவரு யாரு?", "roman": "avaru yāru?", "en": "Who is he?" },
     { "native": "இவங்க என் தோழி.", "roman": "ivanga en tōḻi.", "en": "This is my friend (f)." },
-    { "native": "உங்களைப் பார்த்ததுல சந்தோஷம்.", "roman": "ungaḷaip pārttadula santōsham.", "en": "Nice to meet you. (lit. happiness in seeing you)" }
+    { "native": "உங்களைப் பாத்ததுல சந்தோஷம்.", "roman": "ungaḷaip pāttadula santōsham.", "en": "Nice to meet you. (lit. happiness in seeing you)" }
   ],
   "grammar": [
     {
@@ -53,7 +53,7 @@
       "body": "Tamil pronouns encode **respect**. For 'he/she' there are three levels:\n\n**அவன்** *avan* — he (boy, friend, someone younger)\n**அவ** *ava* (written அவள்) — she (girl, friend, someone younger)\n**அவரு** *avaru* (written அவர்) — he/she, respectful\n**அவங்க** *avanga* (written அவர்கள்) — they; also a very respectful he/she, especially for women\n**அது** *adu* — it (animals, things; also a baby)\n\nSo talking about your teacher, you say அவரு or அவங்க, never அவன்/அவ. 'We' also has two forms: **நாம** (written நாம், *we including you*) and **நாங்க** (*we, but not you*). The near-forms start with **இ-** instead of **அ-**: இவரு 'this person (here)', இவங்க, இது.",
       "examples": [
         { "native": "அவன் என் தம்பி.", "roman": "avan en tambi.", "en": "He is my younger brother." },
-        { "native": "அவரு எங்க டீச்சர்.", "roman": "avaru enga ṭīchar.", "en": "He is our teacher." },
+        { "native": "அவரு எங்க டீச்சர்.", "roman": "avaru enga ṭīcchar.", "en": "He is our teacher." },
         { "native": "அவங்க டாக்டர்.", "roman": "avanga ḍākṭar.", "en": "She is a doctor. (respectful)" },
         { "native": "நாங்க இங்கிலாந்து.", "roman": "nānga Inglāndu.", "en": "We're from England. (not including you)" },
         { "native": "நாம போலாமா?", "roman": "nāma pōlāmā?", "en": "Shall we go? (you and I)" }
@@ -72,7 +72,7 @@
     },
     {
       "title": "Question words and the question suffix -ஆ",
-      "body": "Tamil question words mostly start with **எ-** *e-*: என்ன 'what', எங்க 'where', எப்போ 'when', எப்படி 'how', எது 'which', எந்த 'which (+ noun)', plus யாரு 'who' and ஏன் 'why'. They stay in the place where the answer would go — no moving to the front.\n\nFor **yes/no questions**, add **-ஆ** *-ā* to the end of the word you are asking about (usually the verb), with rising pitch: தெரியும் 'know' → தெரியுமா? 'do you know?'. After a consonant or certain vowels a glide appears: தமிழ் → தமிழா? *tamiḻā*, சரி → சரியா? *sariyā*.",
+      "body": "Tamil question words mostly start with **எ-** *e-*: என்ன 'what', எங்க 'where', எப்போ 'when', எப்படி 'how', எது 'which', எந்த 'which (+ noun)', plus யாரு 'who' and ஏன் 'why'. They stay in the place where the answer would go — no moving to the front.\n\nFor **yes/no questions**, add **-ஆ** *-ā* to the end of the word you are asking about (usually the verb), with rising pitch: தெரியும் 'know' → தெரியுமா? 'do you know?'. After a consonant it attaches directly (தமிழ் → தமிழா? *tamiḻā*); after i, e or ai a y-glide appears (சரி → சரியா? *sariyā*).",
       "examples": [
         { "native": "நீங்க எங்க இருக்கீங்க?", "roman": "nīnga enga irukkīnga?", "en": "Where are you? / Where do you live?" },
         { "native": "இது என்ன?", "roman": "idu enna?", "en": "What is this?" },
@@ -88,12 +88,12 @@
     "lines": [
       { "speaker": "Priya", "native": "வணக்கம். நீங்க எந்த ஊரு?", "roman": "vaṇakkam. nīnga enda ūru?", "en": "Hello. Where are you from?" },
       { "speaker": "Tom", "native": "வணக்கம். நான் லண்டன்லேருந்து வர்றேன்.", "roman": "vaṇakkam. nān Laṇḍanlērundu varrēn.", "en": "Hello. I'm from London." },
-      { "speaker": "Priya", "native": "ஓ! உங்களுக்குத் தமிழ் தெரியுமா?", "roman": "ō! ungaḷukku tamiḻ teriyumā?", "en": "Oh! Do you know Tamil?" },
+      { "speaker": "Priya", "native": "ஓ! உங்களுக்குத் தமிழ் தெரியுமா?", "roman": "ō! ungaḷukkut tamiḻ teriyumā?", "en": "Oh! Do you know Tamil?" },
       { "speaker": "Tom", "native": "கொஞ்சம் கொஞ்சம் தெரியும். என் பேரு டாம். உங்க பேரு என்ன?", "roman": "konjam konjam teriyum. en pēru Ṭām. unga pēru enna?", "en": "Just a little. My name is Tom. What's your name?" },
       { "speaker": "Priya", "native": "என் பேரு பிரியா. நான் மதுரை.", "roman": "en pēru Priyā. nān Madurai.", "en": "My name is Priya. I'm from Madurai." },
       { "speaker": "Tom", "native": "நீங்க இப்போ எங்க இருக்கீங்க?", "roman": "nīnga ippō enga irukkīnga?", "en": "Where do you live now?" },
       { "speaker": "Priya", "native": "சென்னையில இருக்கேன். அவரு என் அண்ணன்.", "roman": "Chennaiyila irukkēn. avaru en aṇṇan.", "en": "I live in Chennai. He's my elder brother." },
-      { "speaker": "Tom", "native": "வணக்கம்! உங்களைப் பார்த்ததுல சந்தோஷம்.", "roman": "vaṇakkam! ungaḷaip pārttadula santōsham.", "en": "Hello! Nice to meet you." },
+      { "speaker": "Tom", "native": "வணக்கம்! உங்களைப் பாத்ததுல சந்தோஷம்.", "roman": "vaṇakkam! ungaḷaip pāttadula santōsham.", "en": "Hello! Nice to meet you." },
       { "speaker": "Priya", "native": "உங்க தமிழ் நல்லா இருக்கு!", "roman": "unga tamiḻ nallā irukku!", "en": "Your Tamil is good!" },
       { "speaker": "Tom", "native": "ரொம்ப நன்றி!", "roman": "romba nandri!", "en": "Thank you very much!" }
     ]

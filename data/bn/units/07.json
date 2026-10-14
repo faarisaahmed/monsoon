@@ -16,12 +16,12 @@
     { "native": "সকাল", "roman": "shôkal", "en": "morning", "pos": "noun" },
     { "native": "দুপুর", "roman": "dupur", "en": "midday, early afternoon (≈12–3)", "pos": "noun" },
     { "native": "বিকেল", "roman": "bikel", "en": "late afternoon (≈3–6)", "pos": "noun", "note": "BD also বিকাল (bikal)." },
-    { "native": "সন্ধ্যা", "roman": "shôndha", "en": "evening, dusk", "pos": "noun", "note": "WB colloquial: সন্ধে (shôndhe)." },
+    { "native": "সন্ধ্যা", "roman": "shondha", "en": "evening, dusk", "pos": "noun", "note": "WB colloquial: সন্ধে (shondhe)." },
     { "native": "রাত", "roman": "rat", "en": "night", "pos": "noun" },
     { "native": "আজ", "roman": "aj", "en": "today", "pos": "adv", "note": "Also আজকে (ajke)." },
     { "native": "কাল", "roman": "kal", "en": "tomorrow; yesterday", "pos": "adv", "note": "Tense decides: কাল যাব 'I'll go tomorrow'; কাল গেলাম 'I went yesterday'. Unambiguous: আগামীকাল (tomorrow), গতকাল (yesterday)." },
     { "native": "গতকাল", "roman": "gôtokal", "en": "yesterday", "pos": "adv" },
-    { "native": "পরশু", "roman": "pôrshu", "en": "the day after tomorrow; the day before yesterday", "pos": "adv" },
+    { "native": "পরশু", "roman": "porshu", "en": "the day after tomorrow; the day before yesterday", "pos": "adv" },
     { "native": "দিন", "roman": "din", "en": "day", "pos": "noun" },
     { "native": "সপ্তাহ", "roman": "shôptaho", "en": "week", "pos": "noun", "note": "Colloquial: হপ্তা (hôpta)." },
     { "native": "মাস", "roman": "mash", "en": "month", "pos": "noun" },
@@ -54,7 +54,7 @@
   "grammar": [
     {
       "title": "Telling the time",
-      "body": "Use the number + classifier **-টা / -টে** + **বাজে** ('strikes'): **চারটে বাজে** 'it's four o'clock'. To say *at* a time, use **-টার সময়** or the participle **বাজে** → simply **চারটেয়** / **চারটের সময়** 'at four'.\n\n**Fractions** come before the hour:\n**সোয়া** + hour = quarter past: সোয়া পাঁচটা 5:15\n**সাড়ে** + hour = half past: সাড়ে পাঁচটা 5:30\n**পৌনে** + hour = quarter to: পৌনে পাঁচটা 4:45\nBut 1:30 is **দেড়টা** and 2:30 is **আড়াইটা** (never *সাড়ে একটা).\n\nFor minutes: **hour-টা বেজে X মিনিট** = X past; **hour-টা বাজতে X মিনিট বাকি** = X to: চারটে বাজতে দশ মিনিট (বাকি) 'ten to four'.\n\nAdd the part of the day to avoid ambiguity: সকাল সাতটা 7 a.m., সন্ধ্যা সাতটা 7 p.m., রাত দশটা 10 p.m.",
+      "body": "Use the number + classifier **-টা / -টে** + **বাজে** ('strikes'): **চারটে বাজে** 'it's four o'clock'. To say *at* a time, add the locative **-য়** or use **-টার সময়**: **চারটেয়** / **চারটের সময়** 'at four'.\n\n**Fractions** come before the hour:\n**সোয়া** + hour = quarter past: সোয়া পাঁচটা 5:15\n**সাড়ে** + hour = half past: সাড়ে পাঁচটা 5:30\n**পৌনে** + hour = quarter to: পৌনে পাঁচটা 4:45\nBut 1:30 is **দেড়টা** and 2:30 is **আড়াইটা** (never *সাড়ে একটা).\n\nFor minutes: **hour-টা বেজে X মিনিট** = X past; **hour-টা বাজতে X মিনিট বাকি** = X to: চারটে বাজতে দশ মিনিট (বাকি) 'ten to four'.\n\nAdd the part of the day to avoid ambiguity: সকাল সাতটা 7 a.m., সন্ধ্যা সাতটা 7 p.m., রাত দশটা 10 p.m.",
       "examples": [
         { "native": "এখন সকাল আটটা।", "roman": "ækhon shôkal aṭṭa.", "en": "It's 8 a.m. now." },
         { "native": "ট্রেন দেড়টায় ছাড়বে।", "roman": "ṭren deṛṭay chhaṛbe.", "en": "The train leaves at 1:30." },
@@ -70,7 +70,7 @@
         { "native": "আমি সোমবার আসব।", "roman": "ami shombar ashbo.", "en": "I'll come on Monday." },
         { "native": "ও গত সপ্তাহে ঢাকায় ছিল।", "roman": "o gôto shôptahe ḍhakay chhilo.", "en": "He/she was in Dhaka last week." },
         { "native": "আমার জন্মদিন মার্চ মাসে।", "roman": "amar jônmodin march mashe.", "en": "My birthday is in March." },
-        { "native": "তিন মাস আগে আমি বাংলা শিখতে শুরু করি।", "roman": "tin mash age ami baṅla shikhte shuru kori.", "en": "I started learning Bengali three months ago." },
+        { "native": "তিন মাস আগে আমি বাংলা শিখতে শুরু করেছি।", "roman": "tin mash age ami baṅla shikhte shuru korechhi.", "en": "I started learning Bengali three months ago." },
         { "native": "প্রতি শুক্রবার আমরা নানির বাড়ি যাই।", "roman": "proti shukrobar amra nanir baṛi jai.", "en": "Every Friday we go to Grandma's house." }
       ]
     }
@@ -82,7 +82,7 @@
       { "speaker": "Arjun", "native": "কাল সিনেমা দেখতে যাবি?", "roman": "kal sinema dekhte jabi?", "en": "Want to go and see a film tomorrow? (intimate)" },
       { "speaker": "Riya", "native": "কাল কী বার? শনিবার?", "roman": "kal ki bar? shonibar?", "en": "What day is tomorrow? Saturday?" },
       { "speaker": "Arjun", "native": "হ্যাঁ। শো সাড়ে ছটায়।", "roman": "hæṃ. sho shaṛe chhôṭay.", "en": "Yes. The show is at 6:30." },
-      { "speaker": "Riya", "native": "সকালে আমার ক্লাস আছে, কিন্তু বিকেলে সময় আছে।", "roman": "shôkale amar klash achhe, kintu bikele shômoy achhe.", "en": "I have class in the morning, but I'm free in the afternoon." },
+      { "speaker": "Riya", "native": "সকালে আমার ক্লাস আছে, কিন্তু বিকেলে সময় আছে।", "roman": "shôkale amar klas achhe, kintu bikele shômoy achhe.", "en": "I have class in the morning, but I'm free in the afternoon." },
       { "speaker": "Arjun", "native": "তাহলে ছটার সময় হলের সামনে দেখা হবে?", "roman": "tahole chhôṭar shômoy hôler shamne dækha hobe?", "en": "Then shall we meet in front of the cinema at six?" },
       { "speaker": "Riya", "native": "ছটা? একটু তাড়াতাড়ি হয়ে যায়। সোয়া ছটা?", "roman": "chhôṭa? ekṭu taṛataṛi hoye jay. shoa chhôṭa?", "en": "Six? That's a bit early. Quarter past six?" },
       { "speaker": "Arjun", "native": "ঠিক আছে। দেরি করিস না কিন্তু!", "roman": "ṭhik achhe. deri korish na kintu!", "en": "Okay. But don't be late!" },
