@@ -1,0 +1,91 @@
+{
+  "id": 4,
+  "title": "Numbers, age & quantities",
+  "goal": "Count things and people, ask and give ages, say 'how many / how much', and use ordinals from first to tenth.",
+  "intro": "Punjabi numbers from 1 to 100 are all individual words — open the **Numbers** chart and learn them in tens, a few at a time. Many are irregular (ਪੰਜਾਹ 50 but ਇਕਵੰਜਾ 51, ਬਵੰਜਾ 52), but the 'units' part is usually recognisable. Note how Punjabi doubles consonants where Hindi doesn't: ਇੱਕ *ikk*, ਸੱਤ *satt*, ਅੱਠ *aṭṭh*.\n\nIn this unit you'll use numbers in real sentences: ages, family size, quantities at the market.",
+  "vocab": [
+    { "native": "ਕਿੰਨਾ", "roman": "kinnā", "en": "how much; how many (pl ਕਿੰਨੇ)", "pos": "q", "note": "f ਕਿੰਨੀ, m.pl ਕਿੰਨੇ, f.pl ਕਿੰਨੀਆਂ" },
+    { "native": "ਉਮਰ", "roman": "umar", "en": "age", "pos": "noun", "note": "f" },
+    { "native": "ਸਾਲ", "roman": "sāl", "en": "year", "pos": "noun", "note": "m · oblique pl ਸਾਲਾਂ" },
+    { "native": "ਅੱਧਾ", "roman": "áddā", "en": "half", "pos": "adj", "note": "f ਅੱਧੀ; high tone (ਧ after the vowel)" },
+    { "native": "ਡੇਢ", "roman": "ḍéḍ", "en": "one and a half", "pos": "num" },
+    { "native": "ਢਾਈ", "roman": "ṭā̀ī", "en": "two and a half", "pos": "num" },
+    { "native": "ਪਹਿਲਾ", "roman": "pélā", "en": "first", "pos": "adj", "note": "f ਪਹਿਲੀ" },
+    { "native": "ਦੂਜਾ", "roman": "dūjā", "en": "second; other", "pos": "adj", "note": "f ਦੂਜੀ" },
+    { "native": "ਤੀਜਾ", "roman": "tījā", "en": "third", "pos": "adj", "note": "f ਤੀਜੀ" },
+    { "native": "ਚੌਥਾ", "roman": "chauthā", "en": "fourth", "pos": "adj", "note": "f ਚੌਥੀ" },
+    { "native": "ਪੰਜਵਾਂ", "roman": "panjvāṃ", "en": "fifth", "pos": "adj", "note": "f ਪੰਜਵੀਂ; from 5th on, add -ਵਾਂ" },
+    { "native": "ਛੇਵਾਂ", "roman": "chhevāṃ", "en": "sixth", "pos": "adj", "note": "f ਛੇਵੀਂ" },
+    { "native": "ਸੱਤਵਾਂ", "roman": "sattvāṃ", "en": "seventh", "pos": "adj", "note": "f ਸੱਤਵੀਂ" },
+    { "native": "ਅੱਠਵਾਂ", "roman": "aṭṭhvāṃ", "en": "eighth", "pos": "adj", "note": "f ਅੱਠਵੀਂ" },
+    { "native": "ਨੌਵਾਂ", "roman": "nauvāṃ", "en": "ninth", "pos": "adj", "note": "f ਨੌਵੀਂ" },
+    { "native": "ਦਸਵਾਂ", "roman": "dasvāṃ", "en": "tenth", "pos": "adj", "note": "f ਦਸਵੀਂ; ਦਸਵੀਂ also = 10th grade (school)" },
+    { "native": "ਬਹੁਤ", "roman": "báut", "en": "very; a lot, many", "pos": "adv" },
+    { "native": "ਸਾਰਾ", "roman": "sārā", "en": "all, whole", "pos": "adj", "note": "f ਸਾਰੀ, pl ਸਾਰੇ ('everyone')" },
+    { "native": "ਕੁਝ", "roman": "kúj", "en": "some; something", "pos": "pron", "note": "high tone" },
+    { "native": "ਹੋਰ", "roman": "hor", "en": "more; other, else", "pos": "adj" },
+    { "native": "ਘੱਟ", "roman": "kàṭṭ", "en": "less; few, little", "pos": "adj", "note": "low tone" },
+    { "native": "ਜ਼ਿਆਦਾ", "roman": "ziādā", "en": "more; too much", "pos": "adj", "note": "colloquial ਜ਼ਿਆਦਾ / ਵੱਧ (vádd)" },
+    { "native": "ਕਾਫ਼ੀ", "roman": "kāfī", "en": "enough; quite", "pos": "adj" },
+    { "native": "ਸਿਰਫ਼", "roman": "sirf", "en": "only", "pos": "adv", "note": "also ਬੱਸ (bass), ਸਿਰਫ਼ … ਹੀ" },
+    { "native": "ਗਿਣਤੀ", "roman": "giṇtī", "en": "counting; number, count", "pos": "noun", "note": "f; ਗਿਣਨਾ 'to count'" },
+    { "native": "ਨੰਬਰ", "roman": "nambar", "en": "number (phone, house)", "pos": "noun", "note": "m" },
+    { "native": "ਕਿੱਲੋ", "roman": "killo", "en": "kilo", "pos": "noun", "note": "m" },
+    { "native": "ਜਣਾ", "roman": "jaṇā", "en": "person (in counting)", "pos": "noun", "note": "m · pl ਜਣੇ: ਚਾਰ ਜਣੇ 'four people'" },
+    { "native": "ਹਰ", "roman": "har", "en": "every, each", "pos": "adj" }
+  ],
+  "phrases": [
+    { "native": "ਤੁਹਾਡੀ ਉਮਰ ਕਿੰਨੀ ਹੈ?", "roman": "tuā́ḍī umar kinnī hai?", "en": "How old are you?" },
+    { "native": "ਮੇਰੀ ਉਮਰ ਤੀਹ ਸਾਲ ਹੈ।", "roman": "merī umar tī́ sāl hai.", "en": "I am thirty years old." },
+    { "native": "ਮੈਂ ਪੱਚੀ ਸਾਲਾਂ ਦਾ ਹਾਂ।", "roman": "maiṃ pachchī sālāṃ dā hāṃ.", "en": "I'm 25. (man speaking)" },
+    { "native": "ਮੇਰੀ ਧੀ ਅੱਠ ਸਾਲਾਂ ਦੀ ਹੈ।", "roman": "merī tī̀ aṭṭh sālāṃ dī hai.", "en": "My daughter is eight." },
+    { "native": "ਤੁਹਾਡੇ ਕਿੰਨੇ ਬੱਚੇ ਹਨ?", "roman": "tuā́ḍe kinne bachche han?", "en": "How many children do you have?" },
+    { "native": "ਕਿੰਨੇ ਜਣੇ ਹੋ?", "roman": "kinne jaṇe ho?", "en": "How many of you are there?" },
+    { "native": "ਅਸੀਂ ਚਾਰ ਜਣੇ ਹਾਂ।", "roman": "asīṃ chār jaṇe hāṃ.", "en": "There are four of us." },
+    { "native": "ਦੋ ਕਿੱਲੋ ਆਲੂ ਦੇਣਾ।", "roman": "do killo ālū deṇā.", "en": "Two kilos of potatoes, please." },
+    { "native": "ਥੋੜ੍ਹਾ ਹੋਰ ਦਿਓ।", "roman": "thóṛā hor dio.", "en": "Give a little more, please." },
+    { "native": "ਬੱਸ, ਕਾਫ਼ੀ ਹੈ।", "roman": "bass, kāfī hai.", "en": "That's enough, thanks." },
+    { "native": "ਇਹ ਮੇਰੀ ਪਹਿਲੀ ਵਾਰ ਹੈ।", "roman": "é merī pélī vār hai.", "en": "This is my first time." },
+    { "native": "ਤੁਹਾਡਾ ਫ਼ੋਨ ਨੰਬਰ ਕੀ ਹੈ?", "roman": "tuā́ḍā fon nambar kī hai?", "en": "What's your phone number?" }
+  ],
+  "grammar": [
+    {
+      "title": "Numbers with nouns",
+      "body": "Numbers come before the noun. With ਇੱਕ the noun is singular; with 2 and up it is plural: ਇੱਕ ਮੁੰਡਾ, ਦੋ ਮੁੰਡੇ; ਇੱਕ ਕੁੜੀ, ਪੰਜ ਕੁੜੀਆਂ.\n\nWhen a number + noun is followed by a postposition (ਦਾ, ਤੋਂ, ਵਿੱਚ…), the plural noun takes the **oblique plural ending -ਆਂ** (nasal -āṃ): ਦੋ ਸਾਲਾਂ ਤੋਂ 'for two years', ਤਿੰਨ ਮੁੰਡਿਆਂ ਦਾ 'of three boys'.\n\nTo count people, Punjabi often uses **ਜਣੇ** (ਜਣੀਆਂ for women only): ਅਸੀਂ ਪੰਜ ਜਣੇ ਹਾਂ 'there are five of us'. For 'all', add ਹੀ / -ਏ: ਦੋਵੇਂ 'both', ਤਿੰਨੇ 'all three', ਚਾਰੇ 'all four'.\n\nFractions: ਅੱਧਾ ½, ਡੇਢ 1½, ਢਾਈ 2½; from 3½ upward ਸਾਢੇ + number: ਸਾਢੇ ਤਿੰਨ 3½.",
+      "examples": [
+        { "native": "ਮੇਰੇ ਤਿੰਨ ਭਰਾ ਹਨ।", "roman": "mere tinn parā̀ han.", "en": "I have three brothers." },
+        { "native": "ਉਹ ਦਸ ਸਾਲਾਂ ਤੋਂ ਇੱਥੇ ਰਹਿੰਦੇ ਹਨ।", "roman": "ó das sālāṃ toṃ itthe rénde han.", "en": "They have lived here for ten years." },
+        { "native": "ਦੋਵੇਂ ਭੈਣਾਂ ਡਾਕਟਰ ਹਨ।", "roman": "doveṃ pàiṇāṃ ḍākṭar han.", "en": "Both sisters are doctors." },
+        { "native": "ਡੇਢ ਕਿੱਲੋ ਖੰਡ", "roman": "ḍéḍ killo khaṇḍ", "en": "one and a half kilos of sugar" },
+        { "native": "ਸਾਢੇ ਤਿੰਨ ਸਾਲ", "roman": "sā́ḍe tinn sāl", "en": "three and a half years" }
+      ]
+    },
+    {
+      "title": "Asking quantity and age: ਕਿੰਨਾ",
+      "body": "ਕਿੰਨਾ 'how much / how many' agrees like an adjective with the noun it asks about: ਕਿੰਨਾ (m sg), ਕਿੰਨੇ (m pl), ਕਿੰਨੀ (f sg), ਕਿੰਨੀਆਂ (f pl).\n\n**Age** can be given two ways:\n1. ਮੇਰੀ ਉਮਰ ___ ਸਾਲ ਹੈ — 'my age is ___ years' (ਉਮਰ is feminine, so ask ਤੁਹਾਡੀ ਉਮਰ ਕਿੰਨੀ ਹੈ?).\n2. ਮੈਂ ___ ਸਾਲਾਂ ਦਾ/ਦੀ ਹਾਂ — 'I am of ___ years' (ਦਾ for a man, ਦੀ for a woman). Ask: ਤੁਸੀਂ ਕਿੰਨੇ ਸਾਲਾਂ ਦੇ ਹੋ?\n\n**Ordinals** are -ā adjectives: ਪਹਿਲਾ ਦਿਨ, ਪਹਿਲੀ ਵਾਰ 'the first time', ਦੂਜੇ ਪਾਸੇ 'on the other side'.",
+      "examples": [
+        { "native": "ਤੁਸੀਂ ਕਿੰਨੇ ਸਾਲਾਂ ਦੇ ਹੋ?", "roman": "tusīṃ kinne sālāṃ de ho?", "en": "How old are you? (to a man)" },
+        { "native": "ਉਹ ਸੱਤਰ ਸਾਲਾਂ ਦੀ ਹੈ।", "roman": "ó sattar sālāṃ dī hai.", "en": "She is seventy." },
+        { "native": "ਕਿੰਨੀਆਂ ਕੁੜੀਆਂ ਹਨ?", "roman": "kinnīāṃ kuṛīāṃ han?", "en": "How many girls are there?" },
+        { "native": "ਕਿੰਨਾ ਦੁੱਧ ਚਾਹੀਦਾ ਹੈ?", "roman": "kinnā dúdd chā́īdā hai?", "en": "How much milk is needed?" },
+        { "native": "ਇਹ ਮੇਰਾ ਦੂਜਾ ਸਾਲ ਹੈ।", "roman": "é merā dūjā sāl hai.", "en": "This is my second year." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Chatting on the train",
+    "setting": "On the train to Ludhiana, an older woman (Bibi ji) chats with Tom.",
+    "lines": [
+      { "speaker": "Bibi ji", "native": "ਪੁੱਤ, ਤੁਹਾਡੀ ਉਮਰ ਕਿੰਨੀ ਹੈ?", "roman": "putt, tuā́ḍī umar kinnī hai?", "en": "Son, how old are you?" },
+      { "speaker": "Tom", "native": "ਮੈਂ ਅਠਾਈ ਸਾਲਾਂ ਦਾ ਹਾਂ, ਬੀਬੀ ਜੀ।", "roman": "maiṃ aṭhāī sālāṃ dā hāṃ, bībī jī.", "en": "I'm twenty-eight, ma'am." },
+      { "speaker": "Bibi ji", "native": "ਵਿਆਹੇ ਹੋਏ ਹੋ?", "roman": "viā́e hoe ho?", "en": "Are you married?" },
+      { "speaker": "Tom", "native": "ਨਹੀਂ ਜੀ, ਅਜੇ ਨਹੀਂ।", "roman": "náīṃ jī, aje náīṃ.", "en": "No, not yet." },
+      { "speaker": "Bibi ji", "native": "ਤੁਹਾਡੇ ਕਿੰਨੇ ਭੈਣ ਭਰਾ ਹਨ?", "roman": "tuā́ḍe kinne pàiṇ parā̀ han?", "en": "How many brothers and sisters do you have?" },
+      { "speaker": "Tom", "native": "ਦੋ ਭੈਣਾਂ। ਮੈਂ ਸਭ ਤੋਂ ਛੋਟਾ ਹਾਂ।", "roman": "do pàiṇāṃ. maiṃ sáb toṃ chhoṭā hāṃ.", "en": "Two sisters. I'm the youngest." },
+      { "speaker": "Bibi ji", "native": "ਮੇਰੇ ਪੰਜ ਬੱਚੇ ਹਨ ਤੇ ਗਿਆਰਾਂ ਪੋਤੇ ਪੋਤੀਆਂ!", "roman": "mere panj bachche han te giārāṃ pote potīāṃ!", "en": "I have five children and eleven grandchildren!" },
+      { "speaker": "Tom", "native": "ਗਿਆਰਾਂ! ਬਹੁਤ ਵੱਡਾ ਪਰਿਵਾਰ ਹੈ।", "roman": "giārāṃ! báut vaḍḍā parivār hai.", "en": "Eleven! That's a very big family." },
+      { "speaker": "Bibi ji", "native": "ਹਾਂ ਪੁੱਤ, ਰੱਬ ਦੀ ਮਿਹਰ ਹੈ।", "roman": "hāṃ putt, rabb dī mér hai.", "en": "Yes, son, it's God's grace." }
+    ]
+  },
+  "culture": "Asking someone's age, salary or marital status is not considered rude in Punjab — it's a sign of friendly interest, especially from older people. Large numbers are counted in **lakhs** (ਲੱਖ, 1,00,000) and **crores** (ਕਰੋੜ, 1,00,00,000), and written with commas in those places. Elders call younger people ਪੁੱਤ or ਪੁੱਤਰ ('son'), even girls, as a term of affection."
+}

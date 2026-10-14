@@ -1,0 +1,2864 @@
+{
+  "code": "te",
+  "name": "Telugu",
+  "native": "తెలుగు",
+  "scriptName": "Telugu",
+  "script": {
+    "overview": "Telugu script is an **abugida** descended from Brahmi, written left to right, closely related to the Kannada script. Each consonant letter carries an inherent short *a*: క is *ka*. To give a consonant a different vowel you attach a **vowel sign** (called *gunintham*): కా kā, కి ki, కు ku, కె ke, కో kō. Vowel letters (అ ఆ ఇ ...) are used only at the start of a syllable.\n\nMost consonants have a small tick on top called the **talakaṭṭu** (తలకట్టు, ‘head-tie’). When a vowel sign is added, the tick is often replaced by the sign itself, so learn each consonant together with its vowel-sign forms; the shapes are rounded, built from circles and hooks.\n\nTo show a consonant with no vowel, Telugu uses the **pollu** (virama ్): క్ is a bare *k*. In everyday writing, though, a vowelless consonant usually joins the next one as a **vottu** (వత్తు, subjoined form) written below or beside it: క + క = క్క (kka), స + త = స్త (sta), ప + ర = ప్ర (pra). Learning about twenty common vottulu covers almost everything you will read.\n\nOther marks: ం (*sunna*, anusvara) is a nasal, pronounced *m* at the end of a word and as the matching nasal before a consonant; ః (visarga) appears in a few Sanskrit words; ఁ (*arasunna*, half-nasal) and the letter ఱ belong to older spelling and are no longer pronounced differently. Telugu has its own digits (౦ ౧ ౨ ...), though Western digits are what you will see almost everywhere today.",
+    "groups": [
+      {
+        "id": "vowels",
+        "title": "Vowels (అచ్చులు)",
+        "note": "Telugu has short and long pairs for a, i, u, e and o. The first form is used at the start of a word; after a consonant you use the vowel sign shown.",
+        "letters": [
+          {
+            "char": "అ",
+            "roman": "a",
+            "ipa": "a",
+            "sound": "Short a, between the u in 'cup' and the a in 'father', but brief.",
+            "sign": "—",
+            "signExample": "క (ka)",
+            "example": {
+              "native": "అమ్మ",
+              "roman": "amma",
+              "en": "mother"
+            },
+            "strokes": "Start with the small loop on the left, sweep round to the right and finish with the tick on top."
+          },
+          {
+            "char": "ఆ",
+            "roman": "ā",
+            "ipa": "aː",
+            "sound": "Long a as in 'father'.",
+            "sign": "ా",
+            "signExample": "కా (kā)",
+            "example": {
+              "native": "ఆవు",
+              "roman": "āvu",
+              "en": "cow"
+            },
+            "strokes": "Write అ, then add the curl on the top right."
+          },
+          {
+            "char": "ఇ",
+            "roman": "i",
+            "ipa": "i",
+            "sound": "Short i as in 'sit'.",
+            "sign": "ి",
+            "signExample": "కి (ki)",
+            "example": {
+              "native": "ఇల్లు",
+              "roman": "illu",
+              "en": "house"
+            },
+            "strokes": "A rounded hook with a small inner curl; the vowel sign is a little loop in place of the tick."
+          },
+          {
+            "char": "ఈ",
+            "roman": "ī",
+            "ipa": "iː",
+            "sound": "Long ee as in 'see'.",
+            "sign": "ీ",
+            "signExample": "కీ (kī)",
+            "example": {
+              "native": "ఈగ",
+              "roman": "īga",
+              "en": "housefly"
+            },
+            "strokes": "Like ఇ with an extra curl on top."
+          },
+          {
+            "char": "ఉ",
+            "roman": "u",
+            "ipa": "u",
+            "sound": "Short u as in 'put'.",
+            "sign": "ు",
+            "signExample": "కు (ku)",
+            "example": {
+              "native": "ఉప్పు",
+              "roman": "uppu",
+              "en": "salt"
+            },
+            "strokes": "An open hook; the vowel sign is a small hook on the right side of the consonant."
+          },
+          {
+            "char": "ఊ",
+            "roman": "ū",
+            "ipa": "uː",
+            "sound": "Long oo as in 'food'.",
+            "sign": "ూ",
+            "signExample": "కూ (kū)",
+            "example": {
+              "native": "ఊరు",
+              "roman": "ūru",
+              "en": "village, home town"
+            },
+            "strokes": "Like ఉ with a second hook added."
+          },
+          {
+            "char": "ఋ",
+            "roman": "ru",
+            "ipa": "ru",
+            "sound": "Written vocalic r from Sanskrit; in Telugu pronounced 'ru' (some speakers 'ri').",
+            "sign": "ృ",
+            "signExample": "కృ (kru)",
+            "example": {
+              "native": "ఋషి",
+              "roman": "ruṣi",
+              "en": "sage"
+            },
+            "strokes": "Appears in Sanskrit words; the sign ృ hangs on the right of the consonant."
+          },
+          {
+            "char": "ౠ",
+            "roman": "rū",
+            "ipa": "ruː",
+            "sound": "Long vocalic r; listed in the alphabet but almost never used.",
+            "sign": "ౄ",
+            "signExample": "కౄ (krū)",
+            "strokes": "Like ఋ with an extra hook. You only need to recognise it."
+          },
+          {
+            "char": "ఎ",
+            "roman": "e",
+            "ipa": "e",
+            "sound": "Short e as in 'bed'. Contrasts with long ē!",
+            "sign": "ె",
+            "signExample": "కె (ke)",
+            "example": {
+              "native": "ఎలుక",
+              "roman": "eluka",
+              "en": "rat"
+            },
+            "strokes": "A rounded body with a tick; the sign ె replaces the tick with a rightward hook."
+          },
+          {
+            "char": "ఏ",
+            "roman": "ē",
+            "ipa": "eː",
+            "sound": "Long ē, like the vowel in 'café' held a little longer, without sliding into 'ee'.",
+            "sign": "ే",
+            "signExample": "కే (kē)",
+            "example": {
+              "native": "ఏనుగు",
+              "roman": "ēnugu",
+              "en": "elephant"
+            },
+            "strokes": "Like ఎ with a longer stroke on top; the sign ే has an extra flick."
+          },
+          {
+            "char": "ఐ",
+            "roman": "ai",
+            "ipa": "ai",
+            "sound": "As in 'aisle'.",
+            "sign": "ై",
+            "signExample": "కై (kai)",
+            "example": {
+              "native": "ఐదు",
+              "roman": "aidu",
+              "en": "five"
+            },
+            "strokes": "ఎ with an extra stroke below; the sign ై sits on top and hangs below."
+          },
+          {
+            "char": "ఒ",
+            "roman": "o",
+            "ipa": "o",
+            "sound": "Short o, a clipped 'o' as in Italian 'otto'.",
+            "sign": "ొ",
+            "signExample": "కొ (ko)",
+            "example": {
+              "native": "ఒంటె",
+              "roman": "oṇṭe",
+              "en": "camel"
+            },
+            "strokes": "A round body with a hook; the sign ొ attaches at the top right."
+          },
+          {
+            "char": "ఓ",
+            "roman": "ō",
+            "ipa": "oː",
+            "sound": "Long ō as in 'go', but pure (no 'w' glide at the end).",
+            "sign": "ో",
+            "signExample": "కో (kō)",
+            "example": {
+              "native": "ఓడ",
+              "roman": "ōḍa",
+              "en": "ship"
+            },
+            "strokes": "Like ఒ with a longer tail; the sign ో has an extra flick."
+          },
+          {
+            "char": "ఔ",
+            "roman": "au",
+            "ipa": "au",
+            "sound": "As in 'house'.",
+            "sign": "ౌ",
+            "signExample": "కౌ (kau)",
+            "example": {
+              "native": "ఔషధం",
+              "roman": "auṣadham",
+              "en": "medicine (formal)"
+            },
+            "strokes": "ఒ with an extra curl; mostly in Sanskrit words."
+          }
+        ]
+      },
+      {
+        "id": "velar",
+        "title": "Velar consonants (క-వర్గం)",
+        "note": "Made at the back of the mouth. Each row of stops runs: plain, aspirated, voiced, voiced aspirated, nasal.",
+        "letters": [
+          {
+            "char": "క",
+            "roman": "ka",
+            "ipa": "k",
+            "sound": "k as in 'skin' (no puff of air).",
+            "example": {
+              "native": "కలం",
+              "roman": "kalam",
+              "en": "pen"
+            },
+            "strokes": "A downward stroke with a loop at the bottom right, then the tick on top."
+          },
+          {
+            "char": "ఖ",
+            "roman": "kha",
+            "ipa": "kʰ",
+            "sound": "k with a strong puff of air, as in 'kite'. Mostly in loanwords.",
+            "example": {
+              "native": "ఖర్చు",
+              "roman": "kharchu",
+              "en": "expense"
+            },
+            "strokes": "Two joined bowls with the tick on top."
+          },
+          {
+            "char": "గ",
+            "roman": "ga",
+            "ipa": "ɡ",
+            "sound": "g as in 'go'.",
+            "example": {
+              "native": "గడియారం",
+              "roman": "gaḍiyāram",
+              "en": "clock"
+            },
+            "strokes": "A bowl open at the top with the tick."
+          },
+          {
+            "char": "ఘ",
+            "roman": "gha",
+            "ipa": "ɡʱ",
+            "sound": "g followed by a breathy h, as in 'doghouse' said fast. Sanskrit words.",
+            "example": {
+              "native": "ఘాటు",
+              "roman": "ghāṭu",
+              "en": "pungent, strong (smell)"
+            },
+            "strokes": "Like గ with an extra mark inside the bowl."
+          },
+          {
+            "char": "ఙ",
+            "roman": "ṅa",
+            "ipa": "ŋ",
+            "sound": "ng as in 'sing'. Almost never written; ం is used instead.",
+            "example": {
+              "native": "వాఙ్మయం",
+              "roman": "vāṅmayam",
+              "en": "literature"
+            },
+            "strokes": "Rare; recognise it only."
+          }
+        ]
+      },
+      {
+        "id": "palatal",
+        "title": "Palatal consonants (చ-వర్గం)",
+        "note": "Made with the tongue against the hard palate. In many native words చ and జ are said ts and dz before a, o, u.",
+        "letters": [
+          {
+            "char": "చ",
+            "roman": "cha",
+            "ipa": "tʃ ~ ts",
+            "sound": "ch as in 'church'; in many native words before a, o, u it sounds like ts in 'cats' (చాలా tsālā).",
+            "example": {
+              "native": "చేప",
+              "roman": "chēpa",
+              "en": "fish"
+            },
+            "strokes": "A hook with a small tail and the tick on top."
+          },
+          {
+            "char": "ఛ",
+            "roman": "chha",
+            "ipa": "tʃʰ",
+            "sound": "ch with a puff of air. Rare, Sanskrit words.",
+            "example": {
+              "native": "ఛాయ",
+              "roman": "chhāya",
+              "en": "shade, shadow"
+            },
+            "strokes": "Like చ with an extra stroke inside."
+          },
+          {
+            "char": "జ",
+            "roman": "ja",
+            "ipa": "dʒ ~ dz",
+            "sound": "j as in 'jam'; in some native words dz.",
+            "example": {
+              "native": "జడ",
+              "roman": "jaḍa",
+              "en": "plait, braid"
+            },
+            "strokes": "A rounded shape with a loop at the bottom and the tick."
+          },
+          {
+            "char": "ఝ",
+            "roman": "jha",
+            "ipa": "dʒʱ",
+            "sound": "j followed by breathy h. Very rare.",
+            "example": {
+              "native": "ఝరి",
+              "roman": "jhari",
+              "en": "stream (literary)"
+            },
+            "strokes": "Wide letter with two loops."
+          },
+          {
+            "char": "ఞ",
+            "roman": "ña",
+            "ipa": "ɲ",
+            "sound": "ny as in 'canyon'. Mostly seen inside జ్ఞ.",
+            "example": {
+              "native": "జ్ఞాపకం",
+              "roman": "gnāpakam",
+              "en": "memory"
+            },
+            "strokes": "Rare; recognise it inside జ్ఞ."
+          }
+        ]
+      },
+      {
+        "id": "retroflex",
+        "title": "Retroflex consonants (ట-వర్గం)",
+        "note": "Made with the tip of the tongue curled back to touch the roof of the mouth. They contrast with the dental row below.",
+        "letters": [
+          {
+            "char": "ట",
+            "roman": "ṭa",
+            "ipa": "ʈ",
+            "sound": "A hard t with the tongue curled back; close to the English t in 'stop' but further back.",
+            "example": {
+              "native": "టమాట",
+              "roman": "ṭamāṭa",
+              "en": "tomato"
+            },
+            "strokes": "A rounded hook open to the right with the tick."
+          },
+          {
+            "char": "ఠ",
+            "roman": "ṭha",
+            "ipa": "ʈʰ",
+            "sound": "Retroflex t with a puff of air. Rare.",
+            "example": {
+              "native": "కంఠం",
+              "roman": "kaṇṭham",
+              "en": "throat, voice"
+            },
+            "strokes": "A circle with a dot inside and the tick."
+          },
+          {
+            "char": "డ",
+            "roman": "ḍa",
+            "ipa": "ɖ",
+            "sound": "Retroflex d, tongue curled back; a heavy, hollow d.",
+            "example": {
+              "native": "డబ్బు",
+              "roman": "ḍabbu",
+              "en": "money"
+            },
+            "strokes": "Like ట with a small hook at the bottom left."
+          },
+          {
+            "char": "ఢ",
+            "roman": "ḍha",
+            "ipa": "ɖʱ",
+            "sound": "Retroflex d with breathy h. Very rare.",
+            "example": {
+              "native": "ఢిల్లీ",
+              "roman": "ḍhillī",
+              "en": "Delhi"
+            },
+            "strokes": "Like డ with an extra mark."
+          },
+          {
+            "char": "ణ",
+            "roman": "ṇa",
+            "ipa": "ɳ",
+            "sound": "n with the tongue curled back.",
+            "example": {
+              "native": "వీణ",
+              "roman": "vīṇa",
+              "en": "veena (instrument)"
+            },
+            "strokes": "Three humps joined, no tick."
+          }
+        ]
+      },
+      {
+        "id": "dental",
+        "title": "Dental consonants (త-వర్గం)",
+        "note": "Made with the tongue tip pressed against the back of the upper teeth: softer than English t and d.",
+        "letters": [
+          {
+            "char": "త",
+            "roman": "ta",
+            "ipa": "t̪",
+            "sound": "t with the tongue on the teeth, as in Spanish or French 't'.",
+            "example": {
+              "native": "తల",
+              "roman": "tala",
+              "en": "head"
+            },
+            "strokes": "A hook with a closed bottom and the tick."
+          },
+          {
+            "char": "థ",
+            "roman": "tha",
+            "ipa": "t̪ʰ",
+            "sound": "Dental t with a puff of air (not English 'th').",
+            "example": {
+              "native": "కథ",
+              "roman": "katha",
+              "en": "story"
+            },
+            "strokes": "Like త with a dot or line inside."
+          },
+          {
+            "char": "ద",
+            "roman": "da",
+            "ipa": "d̪",
+            "sound": "d with the tongue on the teeth.",
+            "example": {
+              "native": "దారి",
+              "roman": "dāri",
+              "en": "way, path"
+            },
+            "strokes": "A bowl with a hook on the left and the tick."
+          },
+          {
+            "char": "ధ",
+            "roman": "dha",
+            "ipa": "d̪ʱ",
+            "sound": "Dental d with breathy h.",
+            "example": {
+              "native": "ధనం",
+              "roman": "dhanam",
+              "en": "wealth"
+            },
+            "strokes": "Like ద with a line inside."
+          },
+          {
+            "char": "న",
+            "roman": "na",
+            "ipa": "n",
+            "sound": "n as in 'nap'.",
+            "example": {
+              "native": "నీళ్ళు",
+              "roman": "nīḷḷu",
+              "en": "water"
+            },
+            "strokes": "A rounded hook with a tail, then the tick."
+          }
+        ]
+      },
+      {
+        "id": "labial",
+        "title": "Labial consonants (ప-వర్గం)",
+        "note": "Made with the lips.",
+        "letters": [
+          {
+            "char": "ప",
+            "roman": "pa",
+            "ipa": "p",
+            "sound": "p as in 'spin' (no puff).",
+            "example": {
+              "native": "పాలు",
+              "roman": "pālu",
+              "en": "milk"
+            },
+            "strokes": "A cup shape with a tail on the right; no tick."
+          },
+          {
+            "char": "ఫ",
+            "roman": "pha",
+            "ipa": "pʰ ~ f",
+            "sound": "p with a puff of air; in English loanwords it is pronounced f (ఫోను phōnu, 'fōnu').",
+            "example": {
+              "native": "ఫలం",
+              "roman": "phalam",
+              "en": "fruit (formal), result"
+            },
+            "strokes": "Like ప with a stroke inside."
+          },
+          {
+            "char": "బ",
+            "roman": "ba",
+            "ipa": "b",
+            "sound": "b as in 'bat'.",
+            "example": {
+              "native": "బల్ల",
+              "roman": "balla",
+              "en": "table, bench"
+            },
+            "strokes": "A rounded bowl with a tick."
+          },
+          {
+            "char": "భ",
+            "roman": "bha",
+            "ipa": "bʱ",
+            "sound": "b with a breathy h, as in 'clubhouse'.",
+            "example": {
+              "native": "భయం",
+              "roman": "bhayam",
+              "en": "fear"
+            },
+            "strokes": "Like బ with an extra stroke."
+          },
+          {
+            "char": "మ",
+            "roman": "ma",
+            "ipa": "m",
+            "sound": "m as in 'man'.",
+            "example": {
+              "native": "మనిషి",
+              "roman": "maniṣi",
+              "en": "person, human"
+            },
+            "strokes": "Two humps with a loop, no tick."
+          }
+        ]
+      },
+      {
+        "id": "others",
+        "title": "Semivowels, sibilants and others",
+        "note": "Includes the retroflex ళ (very common), the sibilants, and the historic ఱ.",
+        "letters": [
+          {
+            "char": "య",
+            "roman": "ya",
+            "ipa": "j",
+            "sound": "y as in 'yes'.",
+            "example": {
+              "native": "యాత్ర",
+              "roman": "yātra",
+              "en": "pilgrimage, journey"
+            },
+            "strokes": "Two joined humps with a loop; no tick."
+          },
+          {
+            "char": "ర",
+            "roman": "ra",
+            "ipa": "ɾ",
+            "sound": "A light tapped r, as in Spanish 'pero'.",
+            "example": {
+              "native": "రైలు",
+              "roman": "railu",
+              "en": "train"
+            },
+            "strokes": "A simple hook with the tick."
+          },
+          {
+            "char": "ల",
+            "roman": "la",
+            "ipa": "l",
+            "sound": "A clear l with the tongue near the teeth.",
+            "example": {
+              "native": "లత",
+              "roman": "lata",
+              "en": "creeper (plant)"
+            },
+            "strokes": "A wavy shape with the tick."
+          },
+          {
+            "char": "వ",
+            "roman": "va",
+            "ipa": "ʋ",
+            "sound": "Between English v and w; lips barely touch.",
+            "example": {
+              "native": "వంద",
+              "roman": "vanda",
+              "en": "hundred"
+            },
+            "strokes": "A round body with a small inner loop and the tick."
+          },
+          {
+            "char": "శ",
+            "roman": "sha",
+            "ipa": "ʃ",
+            "sound": "sh as in 'shop'.",
+            "example": {
+              "native": "శనివారం",
+              "roman": "shanivāram",
+              "en": "Saturday"
+            },
+            "strokes": "A rounded shape with a hook at the bottom and the tick."
+          },
+          {
+            "char": "ష",
+            "roman": "ṣa",
+            "ipa": "ʂ ~ ʃ",
+            "sound": "Retroflex sh; in everyday speech the same as శ (sh).",
+            "example": {
+              "native": "భాష",
+              "roman": "bhāṣa",
+              "en": "language"
+            },
+            "strokes": "Like ప with a stroke through the middle."
+          },
+          {
+            "char": "స",
+            "roman": "sa",
+            "ipa": "s",
+            "sound": "s as in 'sun'.",
+            "example": {
+              "native": "సంచి",
+              "roman": "sanchi",
+              "en": "bag"
+            },
+            "strokes": "A round body with a hook and the tick."
+          },
+          {
+            "char": "హ",
+            "roman": "ha",
+            "ipa": "ɦ",
+            "sound": "h as in 'hat', slightly breathy.",
+            "example": {
+              "native": "హారం",
+              "roman": "hāram",
+              "en": "necklace"
+            },
+            "strokes": "A looped body with a tail; tick on top."
+          },
+          {
+            "char": "ళ",
+            "roman": "ḷa",
+            "ipa": "ɭ",
+            "sound": "Retroflex l: curl the tongue tip back and say l. Very common (నీళ్ళు, కళ్ళు).",
+            "example": {
+              "native": "కళ్ళు",
+              "roman": "kaḷḷu",
+              "en": "eyes"
+            },
+            "strokes": "Like ల with an extra loop."
+          },
+          {
+            "char": "క్ష",
+            "roman": "kṣa",
+            "ipa": "kʃ",
+            "sound": "k + sh, a fixed ligature traditionally taught as part of the alphabet.",
+            "example": {
+              "native": "క్షమించండి",
+              "roman": "kṣaminchaṇḍi",
+              "en": "sorry, excuse me (polite)"
+            },
+            "strokes": "క with ష written beneath it."
+          },
+          {
+            "char": "ఱ",
+            "roman": "ṟa",
+            "ipa": "r",
+            "sound": "Historic 'hard r' (bandi ra). Today pronounced exactly like ర and usually replaced by it.",
+            "example": {
+              "native": "ఱెక్క",
+              "roman": "ṟekka",
+              "en": "wing (old spelling of రెక్క)"
+            },
+            "strokes": "Two connected loops; recognise it in older texts."
+          }
+        ]
+      },
+      {
+        "id": "marks",
+        "title": "Special marks",
+        "note": "Nasal, breath and vowel-killing marks.",
+        "letters": [
+          {
+            "char": "ం",
+            "roman": "m / n",
+            "ipa": "m, ŋ, ɲ, ɳ, n",
+            "sound": "Sunna (anusvara). At the end of a word it is m (పుస్తకం pustakam); before a consonant it becomes the nasal of that consonant (పండు paṇḍu, మంచి manchi).",
+            "example": {
+              "native": "పండు",
+              "roman": "paṇḍu",
+              "en": "fruit; ripe"
+            },
+            "strokes": "A small circle written after the letter, mid-height."
+          },
+          {
+            "char": "ః",
+            "roman": "ḥ",
+            "ipa": "h",
+            "sound": "Visarga: a soft echo of h. Only in a few Sanskrit words.",
+            "example": {
+              "native": "దుఃఖం",
+              "roman": "duḥkham",
+              "en": "sorrow"
+            },
+            "strokes": "Two small circles, one above the other."
+          },
+          {
+            "char": "ఁ",
+            "roman": "(silent)",
+            "ipa": "—",
+            "sound": "Arasunna (half-nasal): marked a nasal in classical Telugu. Modern spelling drops it and it is not pronounced.",
+            "strokes": "A small crescent written after the letter; recognise only."
+          },
+          {
+            "char": "క్",
+            "roman": "k",
+            "ipa": "k",
+            "sound": "Pollu (virama ్) removes the inherent a. Seen mostly at the end of English loanwords (డాక్టర్ ḍākṭar); inside words, conjuncts (vottulu) are used instead.",
+            "example": {
+              "native": "డాక్టర్",
+              "roman": "ḍākṭar",
+              "en": "doctor"
+            },
+            "strokes": "The pollu replaces the tick with a small hook-like stroke on top."
+          }
+        ]
+      },
+      {
+        "id": "gunintham",
+        "title": "Gunintham: consonant + vowel",
+        "note": "Every consonant combines with every vowel sign in the same way. Learn the క row and you can read any row: గ గా గి గీ ..., మ మా మి మీ ...",
+        "letters": [
+          {
+            "char": "క",
+            "roman": "ka",
+            "sound": "Consonant with the inherent a.",
+            "example": {
+              "native": "కలం",
+              "roman": "kalam",
+              "en": "pen"
+            }
+          },
+          {
+            "char": "కా",
+            "roman": "kā",
+            "sound": "ా (dheergam) added on the right.",
+            "example": {
+              "native": "కాకి",
+              "roman": "kāki",
+              "en": "crow"
+            }
+          },
+          {
+            "char": "కి",
+            "roman": "ki",
+            "sound": "ి (gudi): a small loop replaces the tick.",
+            "example": {
+              "native": "కిటికీ",
+              "roman": "kiṭikī",
+              "en": "window"
+            }
+          },
+          {
+            "char": "కీ",
+            "roman": "kī",
+            "sound": "ీ (gudi dheergam): loop with an extra curl.",
+            "example": {
+              "native": "కీలు",
+              "roman": "kīlu",
+              "en": "joint, hinge"
+            }
+          },
+          {
+            "char": "కు",
+            "roman": "ku",
+            "sound": "ు (kommu): hook on the right.",
+            "example": {
+              "native": "కుక్క",
+              "roman": "kukka",
+              "en": "dog"
+            }
+          },
+          {
+            "char": "కూ",
+            "roman": "kū",
+            "sound": "ూ (kommu dheergam): double hook on the right.",
+            "example": {
+              "native": "కూర",
+              "roman": "kūra",
+              "en": "curry; vegetable"
+            }
+          },
+          {
+            "char": "కృ",
+            "roman": "kru",
+            "sound": "ృ (vaṭrasudi): Sanskrit words only.",
+            "example": {
+              "native": "కృషి",
+              "roman": "kruṣi",
+              "en": "effort, hard work"
+            }
+          },
+          {
+            "char": "కె",
+            "roman": "ke",
+            "sound": "ె (ettu): replaces the tick.",
+            "example": {
+              "native": "కెరటం",
+              "roman": "keraṭam",
+              "en": "wave (of the sea)"
+            }
+          },
+          {
+            "char": "కే",
+            "roman": "kē",
+            "sound": "ే (ettu dheergam): longer stroke.",
+            "example": {
+              "native": "కేక",
+              "roman": "kēka",
+              "en": "shout"
+            }
+          },
+          {
+            "char": "కై",
+            "roman": "kai",
+            "sound": "ై (aitvam): on top and below.",
+            "example": {
+              "native": "కైలాసం",
+              "roman": "kailāsam",
+              "en": "Kailash (Shiva's abode)"
+            }
+          },
+          {
+            "char": "కొ",
+            "roman": "ko",
+            "sound": "ొ (kommu with ettu).",
+            "example": {
+              "native": "కొండ",
+              "roman": "koṇḍa",
+              "en": "hill"
+            }
+          },
+          {
+            "char": "కో",
+            "roman": "kō",
+            "sound": "ో (long o sign).",
+            "example": {
+              "native": "కోతి",
+              "roman": "kōti",
+              "en": "monkey"
+            }
+          },
+          {
+            "char": "కౌ",
+            "roman": "kau",
+            "sound": "ౌ (au sign).",
+            "example": {
+              "native": "కౌలు",
+              "roman": "kaulu",
+              "en": "tenancy, lease (of land)"
+            }
+          },
+          {
+            "char": "కం",
+            "roman": "kam",
+            "sound": "With sunna: nasal after the vowel.",
+            "example": {
+              "native": "కంచం",
+              "roman": "kancham",
+              "en": "eating plate"
+            }
+          },
+          {
+            "char": "కః",
+            "roman": "kaḥ",
+            "sound": "With visarga; included in the traditional chart, rare in practice."
+          }
+        ]
+      },
+      {
+        "id": "vottulu",
+        "title": "Vottulu: conjunct consonants",
+        "note": "When two consonants meet with no vowel between them, the second is written as a small subjoined form (vottu) under or beside the first. The vowel sign goes on the first letter but is pronounced after the whole cluster.",
+        "letters": [
+          {
+            "char": "క్క",
+            "roman": "kka",
+            "sound": "Double k: క + vottu of క.",
+            "example": {
+              "native": "అక్క",
+              "roman": "akka",
+              "en": "elder sister"
+            }
+          },
+          {
+            "char": "చ్చ",
+            "roman": "chcha",
+            "sound": "Double ch.",
+            "example": {
+              "native": "పచ్చడి",
+              "roman": "pachchaḍi",
+              "en": "chutney, pickle-relish"
+            }
+          },
+          {
+            "char": "ట్ట",
+            "roman": "ṭṭa",
+            "sound": "Double retroflex t.",
+            "example": {
+              "native": "పెట్టె",
+              "roman": "peṭṭe",
+              "en": "box, trunk"
+            }
+          },
+          {
+            "char": "త్త",
+            "roman": "tta",
+            "sound": "Double dental t.",
+            "example": {
+              "native": "కొత్త",
+              "roman": "kotta",
+              "en": "new"
+            }
+          },
+          {
+            "char": "ద్ద",
+            "roman": "dda",
+            "sound": "Double dental d.",
+            "example": {
+              "native": "పెద్ద",
+              "roman": "pedda",
+              "en": "big; elder"
+            }
+          },
+          {
+            "char": "న్న",
+            "roman": "nna",
+            "sound": "Double n.",
+            "example": {
+              "native": "అన్న",
+              "roman": "anna",
+              "en": "elder brother"
+            }
+          },
+          {
+            "char": "ప్ప",
+            "roman": "ppa",
+            "sound": "Double p.",
+            "example": {
+              "native": "పప్పు",
+              "roman": "pappu",
+              "en": "dal, lentils"
+            }
+          },
+          {
+            "char": "మ్మ",
+            "roman": "mma",
+            "sound": "Double m.",
+            "example": {
+              "native": "అమ్మాయి",
+              "roman": "ammāyi",
+              "en": "girl"
+            }
+          },
+          {
+            "char": "ల్ల",
+            "roman": "lla",
+            "sound": "Double l.",
+            "example": {
+              "native": "పిల్లి",
+              "roman": "pilli",
+              "en": "cat"
+            }
+          },
+          {
+            "char": "ళ్ళ",
+            "roman": "ḷḷa",
+            "sound": "Double retroflex l; also written ళ్ల.",
+            "example": {
+              "native": "పళ్ళు",
+              "roman": "paḷḷu",
+              "en": "teeth; fruits"
+            }
+          },
+          {
+            "char": "య్య",
+            "roman": "yya",
+            "sound": "Double y.",
+            "example": {
+              "native": "చెయ్యి",
+              "roman": "cheyyi",
+              "en": "hand"
+            }
+          },
+          {
+            "char": "జ్ఞ",
+            "roman": "gna",
+            "sound": "Written j + ñ, pronounced gna / gnya.",
+            "example": {
+              "native": "జ్ఞానం",
+              "roman": "gnānam",
+              "en": "knowledge"
+            }
+          },
+          {
+            "char": "ప్ర",
+            "roman": "pra",
+            "sound": "p + r: the ra-vottu is a small hook under the letter.",
+            "example": {
+              "native": "ప్రేమ",
+              "roman": "prēma",
+              "en": "love"
+            }
+          },
+          {
+            "char": "త్ర",
+            "roman": "tra",
+            "sound": "Dental t + r.",
+            "example": {
+              "native": "రాత్రి",
+              "roman": "rātri",
+              "en": "night"
+            }
+          },
+          {
+            "char": "శ్ర",
+            "roman": "shra",
+            "sound": "sh + r.",
+            "example": {
+              "native": "శ్రమ",
+              "roman": "shrama",
+              "en": "labour, effort"
+            }
+          },
+          {
+            "char": "స్త",
+            "roman": "sta",
+            "sound": "s + t.",
+            "example": {
+              "native": "పుస్తకం",
+              "roman": "pustakam",
+              "en": "book"
+            }
+          },
+          {
+            "char": "ష్ట",
+            "roman": "ṣṭa",
+            "sound": "Retroflex sh + retroflex t.",
+            "example": {
+              "native": "కష్టం",
+              "roman": "kaṣṭam",
+              "en": "difficulty; difficult"
+            }
+          },
+          {
+            "char": "స్థ",
+            "roman": "stha",
+            "sound": "s + aspirated dental t.",
+            "example": {
+              "native": "స్థలం",
+              "roman": "sthalam",
+              "en": "place, plot of land"
+            }
+          },
+          {
+            "char": "ద్య",
+            "roman": "dya",
+            "sound": "d + y: the ya-vottu.",
+            "example": {
+              "native": "విద్య",
+              "roman": "vidya",
+              "en": "education"
+            }
+          },
+          {
+            "char": "వ్య",
+            "roman": "vya",
+            "sound": "v + y.",
+            "example": {
+              "native": "వ్యాపారం",
+              "roman": "vyāpāram",
+              "en": "business, trade"
+            }
+          },
+          {
+            "char": "ర్థ",
+            "roman": "rtha",
+            "sound": "r + aspirated t; the r is written first, the థ as a vottu.",
+            "example": {
+              "native": "అర్థం",
+              "roman": "artham",
+              "en": "meaning"
+            }
+          }
+        ]
+      },
+      {
+        "id": "digits",
+        "title": "Telugu digits",
+        "note": "Native digits appear on old signs, calendars and in formal print; everyday life uses Western digits 0–9.",
+        "letters": [
+          {
+            "char": "౦",
+            "roman": "0",
+            "sound": "sunnā (zero)"
+          },
+          {
+            "char": "౧",
+            "roman": "1",
+            "sound": "okaṭi (one)"
+          },
+          {
+            "char": "౨",
+            "roman": "2",
+            "sound": "reṇḍu (two)"
+          },
+          {
+            "char": "౩",
+            "roman": "3",
+            "sound": "mūḍu (three)"
+          },
+          {
+            "char": "౪",
+            "roman": "4",
+            "sound": "nālugu (four)"
+          },
+          {
+            "char": "౫",
+            "roman": "5",
+            "sound": "aidu (five)"
+          },
+          {
+            "char": "౬",
+            "roman": "6",
+            "sound": "āru (six)"
+          },
+          {
+            "char": "౭",
+            "roman": "7",
+            "sound": "ēḍu (seven)"
+          },
+          {
+            "char": "౮",
+            "roman": "8",
+            "sound": "enimidi (eight)"
+          },
+          {
+            "char": "౯",
+            "roman": "9",
+            "sound": "tommidi (nine)"
+          }
+        ]
+      }
+    ]
+  },
+  "dir": "ltr",
+  "tts": "te-IN",
+  "font": "Noto Sans Telugu",
+  "speakers": "≈96 million (L1 + L2)",
+  "where": "Andhra Pradesh and Telangana (India), with large communities in Karnataka, Tamil Nadu, Maharashtra, Odisha and the diaspora (USA, Gulf, UK)",
+  "tagline": "The most widely spoken Dravidian language, with a melodious, vowel-final sound and a booming film and tech culture.",
+  "intro": "**Telugu** (తెలుగు) is a Dravidian language, a relative of Tamil, Kannada and Malayalam, spoken by close to a hundred million people. Because almost every word ends in a vowel, its sound is often compared to Italian, and early European visitors called it *the Italian of the East*. It is the language of Tollywood, one of India's largest film industries, and of the tech hubs of Hyderabad.\n\nGrammatically Telugu is **agglutinative**: meaning is built by stacking suffixes onto a stem. *ఇల్లు* (illu, house) becomes *ఇంట్లో* (iṇṭlō, in the house) and *ఇంటికి* (iṇṭiki, to the house). Verbs carry endings for person, number and gender, so the subject pronoun is often dropped: *వస్తాను* (vastānu) alone means *I will come*. The basic word order is subject–object–verb, and there is no ergative construction.\n\nThe vocabulary mixes native Dravidian words with a large layer of Sanskrit and, in everyday speech, many English and (especially in Hyderabad) Urdu words. Telugu has a clear **formal/informal** divide: *మీరు* (mīru) is the polite or plural *you*, *నువ్వు* (nuvvu) the intimate one, and verbs agree with that choice.\n\nThis course teaches the **standard modern spoken language** heard in Telugu media, based on the coastal and Hyderabad varieties. Where written forms and everyday speech differ (e.g. *ఏమిటి* vs colloquial *ఏంటి*, ēmiṭi vs ēṇṭi) the notes tell you which is which.",
+  "romanizationNote": "The romanization shows how words are actually pronounced. A macron marks a long vowel: Telugu contrasts short *e/o* with long *ē/ō* (మెడ meḍa neck vs మేడ mēḍa upstairs), so pay attention to it. A dot under a letter marks a retroflex sound made with the tongue curled back (ṭ ḍ ṇ ḷ); plain t d n l are dental, with the tongue touching the teeth. Doubled letters (kk, tt, ḷḷ) are genuinely held longer. *ch* and *j* are as in English, but in many words before a, o, u a lot of speakers say *ts* and *dz* (చాలా chālā is often tsālā). The anusvara ం is written *m* at the end of a word (పుస్తకం pustakam) and as the matching nasal before a consonant (పండు paṇḍu, అంటే aṇṭē). *sh* is శ, *ṣ* is ష (in practice both sound like English sh), and జ్ఞ is written *gn*, as it is pronounced. Final *-u* is a real, short, lightly rounded vowel: never swallow it.",
+  "pronunciation": [
+    {
+      "id": "vowel-length",
+      "title": "Short vs long vowels",
+      "body": "Telugu distinguishes short and long vowels, and the difference changes meaning: *కలం* (kalam) is a pen, *కాలం* (kālam) is time. A long vowel is held roughly twice as long as a short one; the quality barely changes.\n\nEnglish speakers tend to stretch stressed vowels and shorten unstressed ones. In Telugu, length is fixed by the word, not by stress, so a long vowel stays long wherever it falls (*మామిడి* māmiḍi, mango) and a short vowel stays short.",
+      "tips": [
+        "Clap twice for a long vowel and once for a short one while saying the word.",
+        "Don't turn short i and u into the 'uh' of English unstressed syllables.",
+        "Watch the vowel sign: ా ీ ూ mark length."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "కలం",
+            "roman": "kalam",
+            "en": "pen"
+          },
+          "b": {
+            "native": "కాలం",
+            "roman": "kālam",
+            "en": "time, season"
+          }
+        },
+        {
+          "a": {
+            "native": "పడు",
+            "roman": "paḍu",
+            "en": "to fall"
+          },
+          "b": {
+            "native": "పాడు",
+            "roman": "pāḍu",
+            "en": "to sing; spoilt"
+          }
+        },
+        {
+          "a": {
+            "native": "పలు",
+            "roman": "palu",
+            "en": "several"
+          },
+          "b": {
+            "native": "పాలు",
+            "roman": "pālu",
+            "en": "milk"
+          }
+        },
+        {
+          "a": {
+            "native": "వడ",
+            "roman": "vaḍa",
+            "en": "vada (savoury doughnut)"
+          },
+          "b": {
+            "native": "వాడ",
+            "roman": "vāḍa",
+            "en": "neighbourhood, quarter"
+          }
+        },
+        {
+          "a": {
+            "native": "కల",
+            "roman": "kala",
+            "en": "dream"
+          },
+          "b": {
+            "native": "కాల",
+            "roman": "kāla",
+            "en": "of time (combining form)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "మామిడి పండు",
+          "roman": "māmiḍi paṇḍu",
+          "en": "mango"
+        },
+        {
+          "native": "నీరు",
+          "roman": "nīru",
+          "en": "water (formal)"
+        },
+        {
+          "native": "కూతురు",
+          "roman": "kūturu",
+          "en": "daughter"
+        },
+        {
+          "native": "పిల్లలు",
+          "roman": "pillalu",
+          "en": "children"
+        },
+        {
+          "native": "బాగున్నారా?",
+          "roman": "bāgunnārā?",
+          "en": "Are you well?"
+        },
+        {
+          "native": "ఆకాశం",
+          "roman": "ākāsham",
+          "en": "sky"
+        }
+      ]
+    },
+    {
+      "id": "e-o-length",
+      "title": "Short e/o vs long ē/ō",
+      "body": "Unlike Hindi, Telugu has **short e and o** as well as long ē and ō, and they are written with different letters: ఎ/ె vs ఏ/ే, ఒ/ొ vs ఓ/ో. English speakers usually say every e and o long, which turns *మెడ* (meḍa, neck) into *మేడ* (mēḍa, upstairs floor).\n\nShort e is like the e in 'bed', clipped. Short o is like the o in Italian 'otto' or British 'pot' with rounded lips. The long ones are the pure vowels of 'café' and 'go', held, without gliding into 'ee' or 'oo'.",
+      "tips": [
+        "Say short e/o quickly, as if the next consonant cuts them off.",
+        "Keep long ē/ō steady; don't let them become 'ey' and 'ow'.",
+        "When reading, look for the extra flick that marks the long sign (ే, ో)."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "మెడ",
+            "roman": "meḍa",
+            "en": "neck"
+          },
+          "b": {
+            "native": "మేడ",
+            "roman": "mēḍa",
+            "en": "upper floor; mansion"
+          }
+        },
+        {
+          "a": {
+            "native": "వెల",
+            "roman": "vela",
+            "en": "price (formal)"
+          },
+          "b": {
+            "native": "వేల",
+            "roman": "vēla",
+            "en": "thousands (of)"
+          }
+        },
+        {
+          "a": {
+            "native": "కొన",
+            "roman": "kona",
+            "en": "tip, end"
+          },
+          "b": {
+            "native": "కోన",
+            "roman": "kōna",
+            "en": "valley, glen"
+          }
+        },
+        {
+          "a": {
+            "native": "ఒడి",
+            "roman": "oḍi",
+            "en": "lap"
+          },
+          "b": {
+            "native": "ఓడి",
+            "roman": "ōḍi",
+            "en": "having lost"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ఎక్కడ?",
+          "roman": "ekkaḍa?",
+          "en": "where?"
+        },
+        {
+          "native": "ఏమిటి?",
+          "roman": "ēmiṭi?",
+          "en": "what?"
+        },
+        {
+          "native": "ఒకటి",
+          "roman": "okaṭi",
+          "en": "one"
+        },
+        {
+          "native": "ఓపిక",
+          "roman": "ōpika",
+          "en": "patience"
+        },
+        {
+          "native": "పెరుగు",
+          "roman": "perugu",
+          "en": "curd, yoghurt"
+        },
+        {
+          "native": "పేరు",
+          "roman": "pēru",
+          "en": "name"
+        },
+        {
+          "native": "కొండ",
+          "roman": "koṇḍa",
+          "en": "hill"
+        },
+        {
+          "native": "కోడి",
+          "roman": "kōḍi",
+          "en": "hen"
+        }
+      ]
+    },
+    {
+      "id": "retroflex",
+      "title": "Retroflex vs dental consonants",
+      "body": "Telugu has two sets of t, d, n (and l): **dental** త ద న ల, with the tongue tip pressed against the back of the upper teeth, and **retroflex** ట డ ణ ళ, with the tongue tip curled back to touch the roof of the mouth behind the ridge. English t and d sit in between, so to Telugu ears an English speaker's t sounds retroflex.\n\nThe difference matters: *పాట* (pāṭa) is a song, *పాత* (pāta) means old. For dentals, think Spanish or French t; for retroflexes, curl the tongue back and let it flick forward as you release.",
+      "tips": [
+        "For త/ద: put your tongue tip on your teeth, as if about to say 'th', and say t/d.",
+        "For ట/డ: curl the tip up and back; the sound becomes hollow and heavy.",
+        "English loanwords use retroflex: టీ ṭī tea, డాక్టర్ ḍākṭar doctor."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "పాట",
+            "roman": "pāṭa",
+            "en": "song"
+          },
+          "b": {
+            "native": "పాత",
+            "roman": "pāta",
+            "en": "old"
+          }
+        },
+        {
+          "a": {
+            "native": "కోట",
+            "roman": "kōṭa",
+            "en": "fort"
+          },
+          "b": {
+            "native": "కోత",
+            "roman": "kōta",
+            "en": "cut; harvest"
+          }
+        },
+        {
+          "a": {
+            "native": "పట్టి",
+            "roman": "paṭṭi",
+            "en": "strip, band"
+          },
+          "b": {
+            "native": "పత్తి",
+            "roman": "patti",
+            "en": "cotton"
+          }
+        },
+        {
+          "a": {
+            "native": "పడి",
+            "roman": "paḍi",
+            "en": "having fallen"
+          },
+          "b": {
+            "native": "పది",
+            "roman": "padi",
+            "en": "ten"
+          }
+        },
+        {
+          "a": {
+            "native": "మాట",
+            "roman": "māṭa",
+            "en": "word"
+          },
+          "b": {
+            "native": "మాత",
+            "roman": "māta",
+            "en": "mother (formal, devotional)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "టీ",
+          "roman": "ṭī",
+          "en": "tea"
+        },
+        {
+          "native": "తాతయ్య",
+          "roman": "tātayya",
+          "en": "grandfather"
+        },
+        {
+          "native": "డబ్బు",
+          "roman": "ḍabbu",
+          "en": "money"
+        },
+        {
+          "native": "దూరం",
+          "roman": "dūram",
+          "en": "far, distance"
+        },
+        {
+          "native": "బండి",
+          "roman": "baṇḍi",
+          "en": "cart, vehicle"
+        },
+        {
+          "native": "అందం",
+          "roman": "andam",
+          "en": "beauty"
+        },
+        {
+          "native": "తొందర",
+          "roman": "tondara",
+          "en": "hurry"
+        }
+      ]
+    },
+    {
+      "id": "aspiration",
+      "title": "Aspiration (mostly in loanwords)",
+      "body": "The aspirated letters ఖ ఘ ఛ ఝ ఠ ఢ థ ధ ఫ భ appear mainly in words borrowed from Sanskrit, Urdu and English. Native Telugu words use the plain consonants.\n\nIn careful and educated speech, aspirates are said with a clear puff of air (or breathy voice for gh, dh, bh). In casual speech many speakers weaken them, so *కథ* (katha) can sound like 'kata'. You should aim for the careful pronunciation, but don't be surprised when you hear it reduced. Equally important: plain క ప త are **not** aspirated, unlike English k p t at the start of a word.",
+      "tips": [
+        "Hold a paper strip in front of your mouth: it should flutter for ఖ ఫ థ, stay still for క ప త.",
+        "Say 'pat' with no puff of air, like the p in 'spat', for ప.",
+        "ఫ in English loanwords is f: ఫోను (fōnu), కాఫీ (kāfī)."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "బావి",
+            "roman": "bāvi",
+            "en": "well (for water)"
+          },
+          "b": {
+            "native": "భావి",
+            "roman": "bhāvi",
+            "en": "future (formal)"
+          }
+        },
+        {
+          "a": {
+            "native": "కాళి",
+            "roman": "kāḷi",
+            "en": "Kali (goddess)"
+          },
+          "b": {
+            "native": "ఖాళీ",
+            "roman": "khāḷī",
+            "en": "empty, free"
+          },
+          "note": "The final vowel also differs."
+        },
+        {
+          "a": {
+            "native": "కత్తి",
+            "roman": "katti",
+            "en": "knife"
+          },
+          "b": {
+            "native": "కథ",
+            "roman": "katha",
+            "en": "story"
+          },
+          "note": "Not a strict pair; compare t and th."
+        }
+      ],
+      "drill": [
+        {
+          "native": "ధన్యవాదాలు",
+          "roman": "dhanyavādālu",
+          "en": "thank you"
+        },
+        {
+          "native": "భోజనం",
+          "roman": "bhōjanam",
+          "en": "meal"
+        },
+        {
+          "native": "సుఖం",
+          "roman": "sukham",
+          "en": "comfort, happiness"
+        },
+        {
+          "native": "భాష",
+          "roman": "bhāṣa",
+          "en": "language"
+        },
+        {
+          "native": "ఫోను",
+          "roman": "phōnu",
+          "en": "phone (said 'fōnu')"
+        },
+        {
+          "native": "అర్థం",
+          "roman": "artham",
+          "en": "meaning"
+        }
+      ]
+    },
+    {
+      "id": "retroflex-l",
+      "title": "The retroflex ళ",
+      "body": "ళ (ḷa) is an l said with the tongue tip curled back, as for ట and డ. It is extremely common in native words, especially doubled: *నీళ్ళు* (nīḷḷu, water), *కళ్ళు* (kaḷḷu, eyes), *ఇళ్ళు* (iḷḷu, houses), *వాళ్ళు* (vāḷḷu, they).\n\nThe plain ల is a clear l with the tongue close to the teeth. Mixing them up can change the meaning (*కల* kala, dream vs *కళ* kaḷa, art) and immediately marks a foreign accent. Note that the spelling ళ్ళ is often printed as ళ్ల; both are pronounced ḷḷ.",
+      "tips": [
+        "Say 'll' with your tongue curled back until the tip touches the roof of your mouth.",
+        "Practise ల–ళ in alternation: la–ḷa–la–ḷa.",
+        "Doubled ళ్ళ is held: kaḷ-ḷu."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "కల",
+            "roman": "kala",
+            "en": "dream"
+          },
+          "b": {
+            "native": "కళ",
+            "roman": "kaḷa",
+            "en": "art; glow"
+          }
+        },
+        {
+          "a": {
+            "native": "వేల",
+            "roman": "vēla",
+            "en": "thousands (of)"
+          },
+          "b": {
+            "native": "వేళ",
+            "roman": "vēḷa",
+            "en": "time, moment"
+          }
+        },
+        {
+          "a": {
+            "native": "పాలు",
+            "roman": "pālu",
+            "en": "milk"
+          },
+          "b": {
+            "native": "పాళ్ళు",
+            "roman": "pāḷḷu",
+            "en": "shares, proportions"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "నీళ్ళు",
+          "roman": "nīḷḷu",
+          "en": "water"
+        },
+        {
+          "native": "కళ్ళు",
+          "roman": "kaḷḷu",
+          "en": "eyes"
+        },
+        {
+          "native": "వాళ్ళు",
+          "roman": "vāḷḷu",
+          "en": "they"
+        },
+        {
+          "native": "తాళం",
+          "roman": "tāḷam",
+          "en": "lock; rhythm"
+        },
+        {
+          "native": "మళ్ళీ",
+          "roman": "maḷḷī",
+          "en": "again"
+        },
+        {
+          "native": "వెళ్ళండి",
+          "roman": "veḷḷaṇḍi",
+          "en": "please go"
+        }
+      ]
+    },
+    {
+      "id": "gemination",
+      "title": "Double consonants (gemination)",
+      "body": "A doubled consonant in Telugu is genuinely **held longer**, the way Italians say 'pizza' or English 'bookcase' joins two k's. *పతి* (pati, husband) and *పత్తి* (patti, cotton) differ only in that hold.\n\nGemination is everywhere in basic vocabulary: *అమ్మ* amma, *అక్క* akka, *అన్న* anna, *కొత్త* kotta, *ఇల్లు* illu. If you say these with a single consonant you will sound clipped or be misunderstood. For stops, close the mouth, pause a beat, then release.",
+      "tips": [
+        "Pause briefly with the closure held: kot–ta, not ko-ta.",
+        "The vowel before a double consonant stays short.",
+        "The spelling tells you: a vottu of the same letter (క్క, త్త, ల్ల) means double."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "పతి",
+            "roman": "pati",
+            "en": "husband (formal)"
+          },
+          "b": {
+            "native": "పత్తి",
+            "roman": "patti",
+            "en": "cotton"
+          }
+        },
+        {
+          "a": {
+            "native": "ఒక",
+            "roman": "oka",
+            "en": "one, a (before a noun)"
+          },
+          "b": {
+            "native": "ఒక్క",
+            "roman": "okka",
+            "en": "a single, just one"
+          }
+        },
+        {
+          "a": {
+            "native": "కలం",
+            "roman": "kalam",
+            "en": "pen"
+          },
+          "b": {
+            "native": "కల్లం",
+            "roman": "kallam",
+            "en": "threshing floor"
+          }
+        },
+        {
+          "a": {
+            "native": "గది",
+            "roman": "gadi",
+            "en": "room"
+          },
+          "b": {
+            "native": "గద్దె",
+            "roman": "gadde",
+            "en": "raised platform, throne"
+          },
+          "note": "Not a strict pair; compare the held d."
+        }
+      ],
+      "drill": [
+        {
+          "native": "అమ్మ",
+          "roman": "amma",
+          "en": "mother"
+        },
+        {
+          "native": "నాన్న",
+          "roman": "nānna",
+          "en": "father"
+        },
+        {
+          "native": "అక్క",
+          "roman": "akka",
+          "en": "elder sister"
+        },
+        {
+          "native": "చెట్టు",
+          "roman": "cheṭṭu",
+          "en": "tree"
+        },
+        {
+          "native": "వద్దు",
+          "roman": "vaddu",
+          "en": "don't; not wanted"
+        },
+        {
+          "native": "అబ్బాయి",
+          "roman": "abbāyi",
+          "en": "boy"
+        },
+        {
+          "native": "ఎక్కువ",
+          "roman": "ekkuva",
+          "en": "more, a lot"
+        }
+      ]
+    },
+    {
+      "id": "nasals",
+      "title": "Nasals and the sunna (ం)",
+      "body": "The circle ం (*sunna*) stands for a nasal consonant. At the **end of a word** it is pronounced *m*: *పుస్తకం* pustakam, *నమస్కారం* namaskāram. **Before a consonant** it takes the position of that consonant: before క/గ it is ṅ (*రంగు* raṅgu, colour), before చ/జ ñ (*మంచి* manchi, good), before ట/డ ṇ (*పండు* paṇḍu, fruit), before త/ద n (*అందం* andam, beauty), before ప/బ m (*సంబరం* sambaram, celebration).\n\nTelugu also has the full nasal letters న, మ, ణ, and rare ఙ, ఞ. Telugu has no nasalised vowels like Hindi's; ం is always a real consonant. Words ending in ం often drop the final m colloquially before adding endings: *పుస్తకం* + *లో* = *పుస్తకంలో* (pustakamlō).",
+      "tips": [
+        "Don't nasalise the vowel; close your mouth or touch the tongue for a real m/n.",
+        "Before ప/బ, close your lips: సంపద sampada.",
+        "Final -am words are very common nouns (Sanskrit-origin)."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "కంది",
+            "roman": "kandi",
+            "en": "pigeon pea (toor dal)"
+          },
+          "b": {
+            "native": "కండ",
+            "roman": "kaṇḍa",
+            "en": "muscle, flesh"
+          },
+          "note": "Dental n vs retroflex ṇ, both written with ం."
+        },
+        {
+          "a": {
+            "native": "మంచి",
+            "roman": "manchi",
+            "en": "good"
+          },
+          "b": {
+            "native": "మంచం",
+            "roman": "mancham",
+            "en": "cot, bed"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "నమస్కారం",
+          "roman": "namaskāram",
+          "en": "hello (formal)"
+        },
+        {
+          "native": "రంగు",
+          "roman": "raṅgu",
+          "en": "colour"
+        },
+        {
+          "native": "కొంచెం",
+          "roman": "konchem",
+          "en": "a little"
+        },
+        {
+          "native": "అంటే",
+          "roman": "aṇṭē",
+          "en": "that is, meaning"
+        },
+        {
+          "native": "సంగతి",
+          "roman": "saṅgati",
+          "en": "matter, news"
+        },
+        {
+          "native": "సంబరం",
+          "roman": "sambaram",
+          "en": "celebration"
+        },
+        {
+          "native": "సంవత్సరం",
+          "roman": "samvatsaram",
+          "en": "year"
+        }
+      ]
+    },
+    {
+      "id": "final-u",
+      "title": "The final -u",
+      "body": "A huge number of Telugu words end in a short **-u**: *ఇల్లు* illu, *పాలు* pālu, *నేను* nēnu, *రెండు* reṇḍu. This -u is a real vowel, short and with only slight lip rounding; in fast speech it can sound close to the 'u' in 'put' or even a very short 'ŭ'. It must not disappear: *పాలు* is not 'pāl'.\n\nThe -u often changes when suffixes are added. Many nouns switch to -i or to a special *oblique* stem: *ఇల్లు* (house) → *ఇంటికి* (to the house), *ఊరు* (town) → *ఊరికి* (to the town), *కాలు* (leg) → *కాలికి* (to the leg). Plurals add *-lu*: *పుస్తకాలు* (books). Learn the oblique stem together with the noun.",
+      "tips": [
+        "End the word with a light, short u, as in 'put', not a long 'oo'.",
+        "Masculine nouns and verbs often end -ḍu: వాడు, అన్నయ్య వచ్చాడు.",
+        "Before -lō/-ki, check the stem: ఇల్లు → ఇంట్లో, ఊరు → ఊళ్ళో."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "కాలు",
+            "roman": "kālu",
+            "en": "leg"
+          },
+          "b": {
+            "native": "కాలికి",
+            "roman": "kāliki",
+            "en": "to the leg"
+          },
+          "note": "-u becomes -i before a case suffix."
+        },
+        {
+          "a": {
+            "native": "ఇల్లు",
+            "roman": "illu",
+            "en": "house"
+          },
+          "b": {
+            "native": "ఇంట్లో",
+            "roman": "iṇṭlō",
+            "en": "in the house"
+          },
+          "note": "Irregular oblique stem iṇṭi-."
+        }
+      ],
+      "drill": [
+        {
+          "native": "నేను",
+          "roman": "nēnu",
+          "en": "I"
+        },
+        {
+          "native": "మీరు",
+          "roman": "mīru",
+          "en": "you (polite)"
+        },
+        {
+          "native": "రెండు",
+          "roman": "reṇḍu",
+          "en": "two"
+        },
+        {
+          "native": "ఊళ్ళో",
+          "roman": "ūḷḷō",
+          "en": "in the town"
+        },
+        {
+          "native": "పుస్తకాలు",
+          "roman": "pustakālu",
+          "en": "books"
+        },
+        {
+          "native": "తెలుగు",
+          "roman": "telugu",
+          "en": "Telugu"
+        }
+      ]
+    },
+    {
+      "id": "vowel-endings",
+      "title": "Telugu words end in vowels",
+      "body": "Native Telugu words almost always end in a vowel, which gives the language its flowing, 'Italian' rhythm. Borrowed words that end in a consonant are traditionally given a vowel, usually -u: *బస్* → *బస్సు* (bassu, bus), *కార్* → *కారు* (kāru, car), *రూమ్* → *రూము* (rūmu, room), *టికెట్* → *టికెట్టు* (ṭikeṭṭu). Note that a final consonant often doubles before the added -u.\n\nIn modern urban speech and writing, English words are also used as-is with the pollu (*ఫోన్*, *బస్*), but adding the vowel is what you will hear in most of the state and what makes case endings easy: *బస్సులో* (bassulō, in the bus).",
+      "tips": [
+        "When you borrow an English word, try adding -u: 'pen' → పెన్ను pennu.",
+        "Short vowels in the middle of words are never dropped as in Hindi: మనిషి is ma-ni-ṣi.",
+        "Link words smoothly; Telugu flows vowel to consonant to vowel."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "బస్",
+            "roman": "bas",
+            "en": "bus (urban)"
+          },
+          "b": {
+            "native": "బస్సు",
+            "roman": "bassu",
+            "en": "bus (common)"
+          }
+        },
+        {
+          "a": {
+            "native": "ఫోన్",
+            "roman": "phōn",
+            "en": "phone (urban)"
+          },
+          "b": {
+            "native": "ఫోను",
+            "roman": "phōnu",
+            "en": "phone (common)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "కారు",
+          "roman": "kāru",
+          "en": "car"
+        },
+        {
+          "native": "టికెట్టు",
+          "roman": "ṭikeṭṭu",
+          "en": "ticket"
+        },
+        {
+          "native": "పెన్ను",
+          "roman": "pennu",
+          "en": "pen"
+        },
+        {
+          "native": "బస్సులో",
+          "roman": "bassulō",
+          "en": "in the bus"
+        },
+        {
+          "native": "స్కూలుకి",
+          "roman": "skūluki",
+          "en": "to school"
+        }
+      ]
+    },
+    {
+      "id": "ch-ts",
+      "title": "చ and జ: ch/j or ts/dz?",
+      "body": "Telugu చ and జ have two pronunciations. Before front vowels (i, ī, e, ē) and in Sanskrit or English loans they are like English *ch* and *j*: *చేప* chēpa (fish), *జీతం* jītam (salary). In many native words before a, ā, o, ō, u, especially in coastal Andhra speech, they are said as **ts** and **dz**: *చాలా* tsālā (very), *చూడు* tsūḍu (look), *జారు* dzāru (slip).\n\nThe script used to have separate letters for ts and dz (ౘ, ౙ), but these are now obsolete. Speakers in Telangana and many urban speakers use ch/j throughout, so both are acceptable; this course writes ch and j everywhere.",
+      "tips": [
+        "Saying ch/j everywhere is always understood and sounds standard in Hyderabad.",
+        "For a coastal sound, try ts in చాలా (tsālā) and చూడు (tsūḍu), but keep ch in చెప్పు (front vowel e).",
+        "Listen to film dialogue: older and coastal speakers use ts/dz more."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "చేప",
+            "roman": "chēpa",
+            "en": "fish (ch before e)"
+          },
+          "b": {
+            "native": "చాప",
+            "roman": "chāpa",
+            "en": "mat (often 'tsāpa')"
+          }
+        },
+        {
+          "a": {
+            "native": "జీతం",
+            "roman": "jītam",
+            "en": "salary (j before i)"
+          },
+          "b": {
+            "native": "జారు",
+            "roman": "jāru",
+            "en": "slip (often 'dzāru')"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "చాలా",
+          "roman": "chālā",
+          "en": "very, a lot"
+        },
+        {
+          "native": "చూడండి",
+          "roman": "chūḍaṇḍi",
+          "en": "please look"
+        },
+        {
+          "native": "చిన్న",
+          "roman": "chinna",
+          "en": "small"
+        },
+        {
+          "native": "జనం",
+          "roman": "janam",
+          "en": "people, crowd"
+        },
+        {
+          "native": "చెప్పండి",
+          "roman": "cheppaṇḍi",
+          "en": "please tell"
+        }
+      ]
+    },
+    {
+      "id": "historic-letters",
+      "title": "Historic letters: ఱ, ఁ and old spellings",
+      "body": "Older Telugu distinguished a 'hard' r, ఱ (*bandi ra*), from the ordinary ర, and marked a half-nasal with ఁ (*arasunna*). In the modern language both distinctions are gone: ఱ is pronounced exactly like ర and ఁ is silent. School textbooks still teach them and you will meet them in classical poetry, old books and some formal names.\n\nModern spelling simply writes ర and drops ఁ: *ఱెక్క* → *రెక్క* (rekka, wing), *వాఁడు* → *వాడు* (vāḍu, he). When you see them, just read ర and ignore ఁ.",
+      "tips": [
+        "Read ఱ as an ordinary tapped r.",
+        "Ignore ఁ when reading aloud.",
+        "You never need to write these yourself."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ఱెక్క",
+            "roman": "rekka",
+            "en": "wing (old spelling)"
+          },
+          "b": {
+            "native": "రెక్క",
+            "roman": "rekka",
+            "en": "wing (modern spelling)"
+          },
+          "note": "Same pronunciation."
+        },
+        {
+          "a": {
+            "native": "వాఁడు",
+            "roman": "vāḍu",
+            "en": "he (old spelling)"
+          },
+          "b": {
+            "native": "వాడు",
+            "roman": "vāḍu",
+            "en": "he (modern spelling)"
+          },
+          "note": "Same pronunciation."
+        }
+      ],
+      "drill": [
+        {
+          "native": "రెక్క",
+          "roman": "rekka",
+          "en": "wing"
+        },
+        {
+          "native": "మూడు",
+          "roman": "mūḍu",
+          "en": "three"
+        },
+        {
+          "native": "ఏరు",
+          "roman": "ēru",
+          "en": "stream, small river"
+        },
+        {
+          "native": "చెరువు",
+          "roman": "cheruvu",
+          "en": "lake, tank"
+        }
+      ]
+    },
+    {
+      "id": "contractions",
+      "title": "Spoken vs written: common contractions",
+      "body": "Everyday spoken Telugu shortens many written forms, and these are what you will hear in films and on the street. The most important: the first-person verb ending *-ānu* is shortened to *-ā*: *వస్తాను* (vastānu) → *వస్తా* (vastā), *ఉన్నాను* (unnānu) → *ఉన్నా* (unnā). *ఏమిటి* (ēmiṭi, what) becomes *ఏంటి* (ēṇṭi); *ఎలా ఉన్నారు* (elā unnāru) is run together as *ఎలా ఉన్నారు* → 'elunnāru'; the continuous *చేస్తున్నది* is *చేస్తోంది* (chēstōndi).\n\nWords also run together: *ఏమి + ఉంది* → *ఏముంది* (ēmundi, what is there), *బాగా + ఉన్నారా* → *బాగున్నారా* (bāgunnārā). Learn the full form so you can read, and the short form so you can follow conversations.",
+      "tips": [
+        "In speech, -ānu → -ā is normal and not rude: వస్తా, చెప్తా, చూస్తా.",
+        "ఏంటి is the everyday 'what'; ఏమిటి is careful or written.",
+        "Vowels at word boundaries merge: అది + ఏమిటి → అదేమిటి."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "వస్తాను",
+            "roman": "vastānu",
+            "en": "I'll come (full)"
+          },
+          "b": {
+            "native": "వస్తా",
+            "roman": "vastā",
+            "en": "I'll come (spoken)"
+          }
+        },
+        {
+          "a": {
+            "native": "ఏమిటి",
+            "roman": "ēmiṭi",
+            "en": "what (careful)"
+          },
+          "b": {
+            "native": "ఏంటి",
+            "roman": "ēṇṭi",
+            "en": "what (spoken)"
+          }
+        },
+        {
+          "a": {
+            "native": "చేస్తున్నది",
+            "roman": "chēstunnadi",
+            "en": "she/it is doing (written)"
+          },
+          "b": {
+            "native": "చేస్తోంది",
+            "roman": "chēstōndi",
+            "en": "she/it is doing (spoken)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "అదేంటి?",
+          "roman": "adēṇṭi?",
+          "en": "What's that?"
+        },
+        {
+          "native": "ఏముంది?",
+          "roman": "ēmundi?",
+          "en": "What's there? / What's up?"
+        },
+        {
+          "native": "బాగున్నా",
+          "roman": "bāgunnā",
+          "en": "I'm fine (spoken)"
+        },
+        {
+          "native": "చెప్తా",
+          "roman": "cheptā",
+          "en": "I'll tell (spoken)"
+        },
+        {
+          "native": "సరేనా?",
+          "roman": "sarēnā?",
+          "en": "Okay?"
+        }
+      ]
+    },
+    {
+      "id": "stress-intonation",
+      "title": "Stress, rhythm and question intonation",
+      "body": "Telugu stress is light and usually falls on the **first syllable**; it never shortens other vowels as English stress does. Every syllable gets its full vowel, so the rhythm is even and 'syllable-timed'. Long vowels and double consonants, not stress, give a word its shape.\n\nYes/no questions are formed by adding **-ā** to the last word, with a rise on it: *వస్తారు* (they come) → *వస్తారా?* (vastārā?, will you come?). Question-word questions (*ఎక్కడ*, *ఏమిటి*) have a falling tone. The tag *కదా* (kadā, isn't it?) seeks agreement, and the particle *-ē* adds emphasis: *నేనే* (nēnē, it's me myself).",
+      "tips": [
+        "Don't swallow unstressed vowels: pustakam, not 'pust-kum'.",
+        "Rise on the final -ā of a yes/no question.",
+        "Use కదా? like 'right?' at the end of a sentence."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "వస్తారు",
+            "roman": "vastāru",
+            "en": "they will come / you will come"
+          },
+          "b": {
+            "native": "వస్తారా?",
+            "roman": "vastārā?",
+            "en": "will you come?"
+          }
+        },
+        {
+          "a": {
+            "native": "బాగుంది",
+            "roman": "bāgundi",
+            "en": "it's nice"
+          },
+          "b": {
+            "native": "బాగుందా?",
+            "roman": "bāgundā?",
+            "en": "is it nice?"
+          }
+        },
+        {
+          "a": {
+            "native": "నేను",
+            "roman": "nēnu",
+            "en": "I"
+          },
+          "b": {
+            "native": "నేనే",
+            "roman": "nēnē",
+            "en": "I myself, it's me"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "టీ తాగుతారా?",
+          "roman": "ṭī tāgutārā?",
+          "en": "Will you have tea?"
+        },
+        {
+          "native": "ఎక్కడికి వెళ్తున్నారు?",
+          "roman": "ekkaḍiki veḷtunnāru?",
+          "en": "Where are you going?"
+        },
+        {
+          "native": "బాగుంది కదా?",
+          "roman": "bāgundi kadā?",
+          "en": "It's nice, isn't it?"
+        },
+        {
+          "native": "మీ పేరు ఏమిటి?",
+          "roman": "mī pēru ēmiṭi?",
+          "en": "What is your name?"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "n": 0,
+      "native": "సున్నా",
+      "roman": "sunnā",
+      "digit": "౦"
+    },
+    {
+      "n": 1,
+      "native": "ఒకటి",
+      "roman": "okaṭi",
+      "digit": "౧"
+    },
+    {
+      "n": 2,
+      "native": "రెండు",
+      "roman": "reṇḍu",
+      "digit": "౨"
+    },
+    {
+      "n": 3,
+      "native": "మూడు",
+      "roman": "mūḍu",
+      "digit": "౩"
+    },
+    {
+      "n": 4,
+      "native": "నాలుగు",
+      "roman": "nālugu",
+      "digit": "౪"
+    },
+    {
+      "n": 5,
+      "native": "ఐదు",
+      "roman": "aidu",
+      "digit": "౫",
+      "note": "also written అయిదు"
+    },
+    {
+      "n": 6,
+      "native": "ఆరు",
+      "roman": "āru",
+      "digit": "౬"
+    },
+    {
+      "n": 7,
+      "native": "ఏడు",
+      "roman": "ēḍu",
+      "digit": "౭"
+    },
+    {
+      "n": 8,
+      "native": "ఎనిమిది",
+      "roman": "enimidi",
+      "digit": "౮"
+    },
+    {
+      "n": 9,
+      "native": "తొమ్మిది",
+      "roman": "tommidi",
+      "digit": "౯"
+    },
+    {
+      "n": 10,
+      "native": "పది",
+      "roman": "padi",
+      "digit": "౧౦"
+    },
+    {
+      "n": 11,
+      "native": "పదకొండు",
+      "roman": "padakoṇḍu",
+      "digit": "౧౧"
+    },
+    {
+      "n": 12,
+      "native": "పన్నెండు",
+      "roman": "panneṇḍu",
+      "digit": "౧౨"
+    },
+    {
+      "n": 13,
+      "native": "పదమూడు",
+      "roman": "padamūḍu",
+      "digit": "౧౩"
+    },
+    {
+      "n": 14,
+      "native": "పద్నాలుగు",
+      "roman": "padnālugu",
+      "digit": "౧౪"
+    },
+    {
+      "n": 15,
+      "native": "పదిహేను",
+      "roman": "padihēnu",
+      "digit": "౧౫"
+    },
+    {
+      "n": 16,
+      "native": "పదహారు",
+      "roman": "padahāru",
+      "digit": "౧౬"
+    },
+    {
+      "n": 17,
+      "native": "పదిహేడు",
+      "roman": "padihēḍu",
+      "digit": "౧౭"
+    },
+    {
+      "n": 18,
+      "native": "పద్దెనిమిది",
+      "roman": "paddenimidi",
+      "digit": "౧౮"
+    },
+    {
+      "n": 19,
+      "native": "పందొమ్మిది",
+      "roman": "pandommidi",
+      "digit": "౧౯"
+    },
+    {
+      "n": 20,
+      "native": "ఇరవై",
+      "roman": "iravai",
+      "digit": "౨౦"
+    },
+    {
+      "n": 21,
+      "native": "ఇరవై ఒకటి",
+      "roman": "iravai okaṭi",
+      "digit": "౨౧"
+    },
+    {
+      "n": 22,
+      "native": "ఇరవై రెండు",
+      "roman": "iravai reṇḍu",
+      "digit": "౨౨"
+    },
+    {
+      "n": 23,
+      "native": "ఇరవై మూడు",
+      "roman": "iravai mūḍu",
+      "digit": "౨౩"
+    },
+    {
+      "n": 24,
+      "native": "ఇరవై నాలుగు",
+      "roman": "iravai nālugu",
+      "digit": "౨౪"
+    },
+    {
+      "n": 25,
+      "native": "ఇరవై ఐదు",
+      "roman": "iravai aidu",
+      "digit": "౨౫"
+    },
+    {
+      "n": 26,
+      "native": "ఇరవై ఆరు",
+      "roman": "iravai āru",
+      "digit": "౨౬"
+    },
+    {
+      "n": 27,
+      "native": "ఇరవై ఏడు",
+      "roman": "iravai ēḍu",
+      "digit": "౨౭"
+    },
+    {
+      "n": 28,
+      "native": "ఇరవై ఎనిమిది",
+      "roman": "iravai enimidi",
+      "digit": "౨౮"
+    },
+    {
+      "n": 29,
+      "native": "ఇరవై తొమ్మిది",
+      "roman": "iravai tommidi",
+      "digit": "౨౯"
+    },
+    {
+      "n": 30,
+      "native": "ముప్పై",
+      "roman": "muppai",
+      "digit": "౩౦"
+    },
+    {
+      "n": 31,
+      "native": "ముప్పై ఒకటి",
+      "roman": "muppai okaṭi",
+      "digit": "౩౧"
+    },
+    {
+      "n": 32,
+      "native": "ముప్పై రెండు",
+      "roman": "muppai reṇḍu",
+      "digit": "౩౨"
+    },
+    {
+      "n": 33,
+      "native": "ముప్పై మూడు",
+      "roman": "muppai mūḍu",
+      "digit": "౩౩"
+    },
+    {
+      "n": 34,
+      "native": "ముప్పై నాలుగు",
+      "roman": "muppai nālugu",
+      "digit": "౩౪"
+    },
+    {
+      "n": 35,
+      "native": "ముప్పై ఐదు",
+      "roman": "muppai aidu",
+      "digit": "౩౫"
+    },
+    {
+      "n": 36,
+      "native": "ముప్పై ఆరు",
+      "roman": "muppai āru",
+      "digit": "౩౬"
+    },
+    {
+      "n": 37,
+      "native": "ముప్పై ఏడు",
+      "roman": "muppai ēḍu",
+      "digit": "౩౭"
+    },
+    {
+      "n": 38,
+      "native": "ముప్పై ఎనిమిది",
+      "roman": "muppai enimidi",
+      "digit": "౩౮"
+    },
+    {
+      "n": 39,
+      "native": "ముప్పై తొమ్మిది",
+      "roman": "muppai tommidi",
+      "digit": "౩౯"
+    },
+    {
+      "n": 40,
+      "native": "నలభై",
+      "roman": "nalabhai",
+      "digit": "౪౦"
+    },
+    {
+      "n": 41,
+      "native": "నలభై ఒకటి",
+      "roman": "nalabhai okaṭi",
+      "digit": "౪౧"
+    },
+    {
+      "n": 42,
+      "native": "నలభై రెండు",
+      "roman": "nalabhai reṇḍu",
+      "digit": "౪౨"
+    },
+    {
+      "n": 43,
+      "native": "నలభై మూడు",
+      "roman": "nalabhai mūḍu",
+      "digit": "౪౩"
+    },
+    {
+      "n": 44,
+      "native": "నలభై నాలుగు",
+      "roman": "nalabhai nālugu",
+      "digit": "౪౪"
+    },
+    {
+      "n": 45,
+      "native": "నలభై ఐదు",
+      "roman": "nalabhai aidu",
+      "digit": "౪౫"
+    },
+    {
+      "n": 46,
+      "native": "నలభై ఆరు",
+      "roman": "nalabhai āru",
+      "digit": "౪౬"
+    },
+    {
+      "n": 47,
+      "native": "నలభై ఏడు",
+      "roman": "nalabhai ēḍu",
+      "digit": "౪౭"
+    },
+    {
+      "n": 48,
+      "native": "నలభై ఎనిమిది",
+      "roman": "nalabhai enimidi",
+      "digit": "౪౮"
+    },
+    {
+      "n": 49,
+      "native": "నలభై తొమ్మిది",
+      "roman": "nalabhai tommidi",
+      "digit": "౪౯"
+    },
+    {
+      "n": 50,
+      "native": "యాభై",
+      "roman": "yābhai",
+      "digit": "౫౦"
+    },
+    {
+      "n": 51,
+      "native": "యాభై ఒకటి",
+      "roman": "yābhai okaṭi",
+      "digit": "౫౧"
+    },
+    {
+      "n": 52,
+      "native": "యాభై రెండు",
+      "roman": "yābhai reṇḍu",
+      "digit": "౫౨"
+    },
+    {
+      "n": 53,
+      "native": "యాభై మూడు",
+      "roman": "yābhai mūḍu",
+      "digit": "౫౩"
+    },
+    {
+      "n": 54,
+      "native": "యాభై నాలుగు",
+      "roman": "yābhai nālugu",
+      "digit": "౫౪"
+    },
+    {
+      "n": 55,
+      "native": "యాభై ఐదు",
+      "roman": "yābhai aidu",
+      "digit": "౫౫"
+    },
+    {
+      "n": 56,
+      "native": "యాభై ఆరు",
+      "roman": "yābhai āru",
+      "digit": "౫౬"
+    },
+    {
+      "n": 57,
+      "native": "యాభై ఏడు",
+      "roman": "yābhai ēḍu",
+      "digit": "౫౭"
+    },
+    {
+      "n": 58,
+      "native": "యాభై ఎనిమిది",
+      "roman": "yābhai enimidi",
+      "digit": "౫౮"
+    },
+    {
+      "n": 59,
+      "native": "యాభై తొమ్మిది",
+      "roman": "yābhai tommidi",
+      "digit": "౫౯"
+    },
+    {
+      "n": 60,
+      "native": "అరవై",
+      "roman": "aravai",
+      "digit": "౬౦"
+    },
+    {
+      "n": 61,
+      "native": "అరవై ఒకటి",
+      "roman": "aravai okaṭi",
+      "digit": "౬౧"
+    },
+    {
+      "n": 62,
+      "native": "అరవై రెండు",
+      "roman": "aravai reṇḍu",
+      "digit": "౬౨"
+    },
+    {
+      "n": 63,
+      "native": "అరవై మూడు",
+      "roman": "aravai mūḍu",
+      "digit": "౬౩"
+    },
+    {
+      "n": 64,
+      "native": "అరవై నాలుగు",
+      "roman": "aravai nālugu",
+      "digit": "౬౪"
+    },
+    {
+      "n": 65,
+      "native": "అరవై ఐదు",
+      "roman": "aravai aidu",
+      "digit": "౬౫"
+    },
+    {
+      "n": 66,
+      "native": "అరవై ఆరు",
+      "roman": "aravai āru",
+      "digit": "౬౬"
+    },
+    {
+      "n": 67,
+      "native": "అరవై ఏడు",
+      "roman": "aravai ēḍu",
+      "digit": "౬౭"
+    },
+    {
+      "n": 68,
+      "native": "అరవై ఎనిమిది",
+      "roman": "aravai enimidi",
+      "digit": "౬౮"
+    },
+    {
+      "n": 69,
+      "native": "అరవై తొమ్మిది",
+      "roman": "aravai tommidi",
+      "digit": "౬౯"
+    },
+    {
+      "n": 70,
+      "native": "డెబ్బై",
+      "roman": "ḍebbai",
+      "digit": "౭౦"
+    },
+    {
+      "n": 71,
+      "native": "డెబ్బై ఒకటి",
+      "roman": "ḍebbai okaṭi",
+      "digit": "౭౧"
+    },
+    {
+      "n": 72,
+      "native": "డెబ్బై రెండు",
+      "roman": "ḍebbai reṇḍu",
+      "digit": "౭౨"
+    },
+    {
+      "n": 73,
+      "native": "డెబ్బై మూడు",
+      "roman": "ḍebbai mūḍu",
+      "digit": "౭౩"
+    },
+    {
+      "n": 74,
+      "native": "డెబ్బై నాలుగు",
+      "roman": "ḍebbai nālugu",
+      "digit": "౭౪"
+    },
+    {
+      "n": 75,
+      "native": "డెబ్బై ఐదు",
+      "roman": "ḍebbai aidu",
+      "digit": "౭౫"
+    },
+    {
+      "n": 76,
+      "native": "డెబ్బై ఆరు",
+      "roman": "ḍebbai āru",
+      "digit": "౭౬"
+    },
+    {
+      "n": 77,
+      "native": "డెబ్బై ఏడు",
+      "roman": "ḍebbai ēḍu",
+      "digit": "౭౭"
+    },
+    {
+      "n": 78,
+      "native": "డెబ్బై ఎనిమిది",
+      "roman": "ḍebbai enimidi",
+      "digit": "౭౮"
+    },
+    {
+      "n": 79,
+      "native": "డెబ్బై తొమ్మిది",
+      "roman": "ḍebbai tommidi",
+      "digit": "౭౯"
+    },
+    {
+      "n": 80,
+      "native": "ఎనభై",
+      "roman": "enabhai",
+      "digit": "౮౦"
+    },
+    {
+      "n": 81,
+      "native": "ఎనభై ఒకటి",
+      "roman": "enabhai okaṭi",
+      "digit": "౮౧"
+    },
+    {
+      "n": 82,
+      "native": "ఎనభై రెండు",
+      "roman": "enabhai reṇḍu",
+      "digit": "౮౨"
+    },
+    {
+      "n": 83,
+      "native": "ఎనభై మూడు",
+      "roman": "enabhai mūḍu",
+      "digit": "౮౩"
+    },
+    {
+      "n": 84,
+      "native": "ఎనభై నాలుగు",
+      "roman": "enabhai nālugu",
+      "digit": "౮౪"
+    },
+    {
+      "n": 85,
+      "native": "ఎనభై ఐదు",
+      "roman": "enabhai aidu",
+      "digit": "౮౫"
+    },
+    {
+      "n": 86,
+      "native": "ఎనభై ఆరు",
+      "roman": "enabhai āru",
+      "digit": "౮౬"
+    },
+    {
+      "n": 87,
+      "native": "ఎనభై ఏడు",
+      "roman": "enabhai ēḍu",
+      "digit": "౮౭"
+    },
+    {
+      "n": 88,
+      "native": "ఎనభై ఎనిమిది",
+      "roman": "enabhai enimidi",
+      "digit": "౮౮"
+    },
+    {
+      "n": 89,
+      "native": "ఎనభై తొమ్మిది",
+      "roman": "enabhai tommidi",
+      "digit": "౮౯"
+    },
+    {
+      "n": 90,
+      "native": "తొంభై",
+      "roman": "tombhai",
+      "digit": "౯౦"
+    },
+    {
+      "n": 91,
+      "native": "తొంభై ఒకటి",
+      "roman": "tombhai okaṭi",
+      "digit": "౯౧"
+    },
+    {
+      "n": 92,
+      "native": "తొంభై రెండు",
+      "roman": "tombhai reṇḍu",
+      "digit": "౯౨"
+    },
+    {
+      "n": 93,
+      "native": "తొంభై మూడు",
+      "roman": "tombhai mūḍu",
+      "digit": "౯౩"
+    },
+    {
+      "n": 94,
+      "native": "తొంభై నాలుగు",
+      "roman": "tombhai nālugu",
+      "digit": "౯౪"
+    },
+    {
+      "n": 95,
+      "native": "తొంభై ఐదు",
+      "roman": "tombhai aidu",
+      "digit": "౯౫"
+    },
+    {
+      "n": 96,
+      "native": "తొంభై ఆరు",
+      "roman": "tombhai āru",
+      "digit": "౯౬"
+    },
+    {
+      "n": 97,
+      "native": "తొంభై ఏడు",
+      "roman": "tombhai ēḍu",
+      "digit": "౯౭"
+    },
+    {
+      "n": 98,
+      "native": "తొంభై ఎనిమిది",
+      "roman": "tombhai enimidi",
+      "digit": "౯౮"
+    },
+    {
+      "n": 99,
+      "native": "తొంభై తొమ్మిది",
+      "roman": "tombhai tommidi",
+      "digit": "౯౯"
+    },
+    {
+      "n": 100,
+      "native": "వంద",
+      "roman": "vanda",
+      "digit": "౧౦౦",
+      "note": "also నూరు (nūru), more literary"
+    },
+    {
+      "n": 200,
+      "native": "రెండు వందలు",
+      "roman": "reṇḍu vandalu",
+      "digit": "౨౦౦",
+      "note": "spoken: రెండొందలు (reṇḍondalu)"
+    },
+    {
+      "n": 500,
+      "native": "ఐదు వందలు",
+      "roman": "aidu vandalu",
+      "digit": "౫౦౦",
+      "note": "spoken: ఐదొందలు (aidondalu)"
+    },
+    {
+      "n": 1000,
+      "native": "వెయ్యి",
+      "roman": "veyyi",
+      "digit": "౧౦౦౦",
+      "note": "2000 = రెండు వేలు (reṇḍu vēlu)"
+    },
+    {
+      "n": 100000,
+      "native": "లక్ష",
+      "roman": "lakṣa",
+      "digit": "౧౦౦౦౦౦",
+      "note": "one lakh = 1,00,000; pl. లక్షలు"
+    },
+    {
+      "n": 10000000,
+      "native": "కోటి",
+      "roman": "kōṭi",
+      "digit": "౧౦౦౦౦౦౦౦",
+      "note": "one crore = 1,00,00,000; pl. కోట్లు"
+    }
+  ]
+}

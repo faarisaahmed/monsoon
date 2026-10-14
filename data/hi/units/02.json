@@ -1,0 +1,426 @@
+{
+  "id": 2,
+  "title": "About me",
+  "goal": "Say who you are, where you're from, where you live and which languages you speak, and ask others the same.",
+  "intro": "Now that you can say hello, it's time to introduce yourself. You'll learn all the personal pronouns, the present tense of 'to be' (हूँ, है, हो, हैं) and the main question words.\n\nYou'll also learn some lifesaving phrases for a beginner: 'I didn't understand', 'please speak slowly' and 'what does this mean?'.",
+  "vocab": [
+    {
+      "native": "यह",
+      "roman": "yah",
+      "en": "this; he/she (near)",
+      "pos": "pron",
+      "note": "Spoken as 'ye' and often written ये in informal Hindi."
+    },
+    {
+      "native": "वह",
+      "roman": "vah",
+      "en": "that; he/she/it (far)",
+      "pos": "pron",
+      "note": "Spoken as 'vo' and often written वो in informal Hindi."
+    },
+    {
+      "native": "हम",
+      "roman": "ham",
+      "en": "we",
+      "pos": "pron",
+      "note": "Some speakers (esp. in UP/Bihar) also use हम for 'I'."
+    },
+    {
+      "native": "ये",
+      "roman": "ye",
+      "en": "these; they (near)",
+      "pos": "pron",
+      "note": "Also the respectful 'he/she' (near). Plural of यह."
+    },
+    {
+      "native": "वे",
+      "roman": "ve",
+      "en": "those; they (far)",
+      "pos": "pron",
+      "note": "Also respectful 'he/she'. Spoken as 'vo' — ये/वो serve for singular and plural in speech."
+    },
+    {
+      "native": "होना",
+      "roman": "honā",
+      "en": "to be; to happen",
+      "pos": "verb",
+      "note": "Present: हूँ hūṃ, है hai, हो ho, हैं haiṃ"
+    },
+    {
+      "native": "नाम",
+      "roman": "nām",
+      "en": "name",
+      "pos": "noun",
+      "note": "m"
+    },
+    {
+      "native": "कहाँ",
+      "roman": "kahāṃ",
+      "en": "where",
+      "pos": "q"
+    },
+    {
+      "native": "कौन",
+      "roman": "kaun",
+      "en": "who",
+      "pos": "q"
+    },
+    {
+      "native": "क्यों",
+      "roman": "kyoṃ",
+      "en": "why",
+      "pos": "q"
+    },
+    {
+      "native": "कब",
+      "roman": "kab",
+      "en": "when",
+      "pos": "q"
+    },
+    {
+      "native": "कौन-सा",
+      "roman": "kaun-sā",
+      "en": "which",
+      "pos": "q",
+      "note": "Agrees: कौन-सा (m), कौन-सी (f), कौन-से (m. pl)."
+    },
+    {
+      "native": "से",
+      "roman": "se",
+      "en": "from; with; by",
+      "pos": "postp",
+      "note": "Comes AFTER the noun: दिल्ली से 'from Delhi'."
+    },
+    {
+      "native": "देश",
+      "roman": "desh",
+      "en": "country",
+      "pos": "noun",
+      "note": "m"
+    },
+    {
+      "native": "शहर",
+      "roman": "shahar",
+      "en": "city, town",
+      "pos": "noun",
+      "note": "m · often pronounced 'sheher'."
+    },
+    {
+      "native": "भाषा",
+      "roman": "bhāṣā",
+      "en": "language",
+      "pos": "noun",
+      "note": "f · pronounced 'bhāshā'. Also ज़बान zabān (Urdu-origin)."
+    },
+    {
+      "native": "हिंदी",
+      "roman": "hindī",
+      "en": "Hindi",
+      "pos": "noun",
+      "note": "f · also spelt हिन्दी"
+    },
+    {
+      "native": "अंग्रेज़ी",
+      "roman": "aṅgrezī",
+      "en": "English (language)",
+      "pos": "noun",
+      "note": "f · also adj. 'English, British'."
+    },
+    {
+      "native": "बोलना",
+      "roman": "bolnā",
+      "en": "to speak, say",
+      "pos": "verb"
+    },
+    {
+      "native": "भारत",
+      "roman": "bhārat",
+      "en": "India",
+      "pos": "noun",
+      "note": "m · also हिंदुस्तान hindustān, and 'India' in everyday speech."
+    },
+    {
+      "native": "भारतीय",
+      "roman": "bhārtīy",
+      "en": "Indian",
+      "pos": "adj",
+      "note": "Formal; in speech also हिंदुस्तानी hindustānī or 'Indian'."
+    },
+    {
+      "native": "विदेशी",
+      "roman": "videshī",
+      "en": "foreign; foreigner",
+      "pos": "adj"
+    },
+    {
+      "native": "रहना",
+      "roman": "rahnā",
+      "en": "to live, stay",
+      "pos": "verb",
+      "note": "Pronounced 'rehnā'."
+    },
+    {
+      "native": "जानना",
+      "roman": "jānnā",
+      "en": "to know",
+      "pos": "verb"
+    },
+    {
+      "native": "समझना",
+      "roman": "samajhnā",
+      "en": "to understand",
+      "pos": "verb",
+      "note": "Past: समझा samjhā, समझी samjhī"
+    },
+    {
+      "native": "थोड़ा",
+      "roman": "thoṛā",
+      "en": "a little",
+      "pos": "adj",
+      "note": "थोड़ी (f), थोड़े (pl). थोड़ा-थोड़ा 'a little bit'."
+    },
+    {
+      "native": "धीरे",
+      "roman": "dhīre",
+      "en": "slowly",
+      "pos": "adv",
+      "note": "धीरे-धीरे 'little by little'."
+    },
+    {
+      "native": "यहाँ",
+      "roman": "yahāṃ",
+      "en": "here",
+      "pos": "adv"
+    },
+    {
+      "native": "वहाँ",
+      "roman": "vahāṃ",
+      "en": "there",
+      "pos": "adv"
+    },
+    {
+      "native": "मेरा",
+      "roman": "merā",
+      "en": "my",
+      "pos": "pron",
+      "note": "मेरी (before f. nouns), मेरे (m. pl). Full system in Unit 3."
+    },
+    {
+      "native": "आपका",
+      "roman": "āpkā",
+      "en": "your (respectful)",
+      "pos": "pron",
+      "note": "आपकी (f), आपके (m. pl)"
+    },
+    {
+      "native": "मतलब",
+      "roman": "matlab",
+      "en": "meaning",
+      "pos": "noun",
+      "note": "m · also used as a filler: 'I mean…'"
+    }
+  ],
+  "phrases": [
+    {
+      "native": "आपका नाम क्या है?",
+      "roman": "āpkā nām kyā hai?",
+      "en": "What's your name?"
+    },
+    {
+      "native": "मेरा नाम सारा है।",
+      "roman": "merā nām Sārā hai.",
+      "en": "My name is Sarah."
+    },
+    {
+      "native": "आप कहाँ से हैं?",
+      "roman": "āp kahāṃ se haiṃ?",
+      "en": "Where are you from?"
+    },
+    {
+      "native": "मैं इंग्लैंड से हूँ।",
+      "roman": "maiṃ Iṅglaiṇḍ se hūṃ.",
+      "en": "I'm from England."
+    },
+    {
+      "native": "आप कहाँ रहते हैं?",
+      "roman": "āp kahāṃ rahte haiṃ?",
+      "en": "Where do you live? (to a man; to a woman: रहती rahtī)"
+    },
+    {
+      "native": "मैं दिल्ली में रहती हूँ।",
+      "roman": "maiṃ Dillī meṃ rahtī hūṃ.",
+      "en": "I live in Delhi. (woman speaking; man: रहता rahtā)"
+    },
+    {
+      "native": "क्या आप हिंदी बोलते हैं?",
+      "roman": "kyā āp hindī bolte haiṃ?",
+      "en": "Do you speak Hindi?"
+    },
+    {
+      "native": "मैं थोड़ी-थोड़ी हिंदी बोलता हूँ।",
+      "roman": "maiṃ thoṛī-thoṛī hindī boltā hūṃ.",
+      "en": "I speak a little Hindi. (man speaking)"
+    },
+    {
+      "native": "मैं समझा नहीं।",
+      "roman": "maiṃ samjhā nahīṃ.",
+      "en": "I didn't understand. (man; woman: समझी नहीं samjhī nahīṃ)"
+    },
+    {
+      "native": "ज़रा धीरे बोलिए।",
+      "roman": "zarā dhīre boliye.",
+      "en": "Please speak a bit more slowly."
+    },
+    {
+      "native": "इसका मतलब क्या है?",
+      "roman": "iskā matlab kyā hai?",
+      "en": "What does this mean?"
+    },
+    {
+      "native": "इसको हिंदी में क्या कहते हैं?",
+      "roman": "isko hindī meṃ kyā kahte haiṃ?",
+      "en": "What do you call this in Hindi?"
+    },
+    {
+      "native": "वह कौन है?",
+      "roman": "vah kaun hai?",
+      "en": "Who is that? (spoken: vo kaun hai?)"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Pronouns and 'to be' (होना) in the present",
+      "body": "The present tense of होना 'to be' has only four forms. Learn them with their pronouns:\n\nमैं **हूँ** *maiṃ hūṃ* — I am\nतू **है** *tū hai* — you are (intimate)\nयह / वह **है** *yah / vah hai* — he, she, it, this, that is\nतुम **हो** *tum ho* — you are (familiar)\nहम **हैं** *ham haiṃ* — we are\nआप **हैं** *āp haiṃ* — you are (respectful)\nये / वे **हैं** *ye / ve haiṃ* — they are; he/she (respectful)\n\nThere is **no separate word for 'he' and 'she'**: यह/वह means both (यह for someone near, वह for someone further away or not present). Gender shows up instead in verbs and adjectives. For respect, a single person is referred to in the plural: वे हमारे टीचर हैं 'He is our teacher' (lit. 'they are').\n\nTo make a sentence negative put **नहीं** before the verb. In negative sentences हूँ/है/हैं are often dropped: मैं भारतीय नहीं (हूँ).",
+      "examples": [
+        {
+          "native": "मैं विदेशी हूँ।",
+          "roman": "maiṃ videshī hūṃ.",
+          "en": "I am a foreigner."
+        },
+        {
+          "native": "हम दोस्त हैं।",
+          "roman": "ham dost haiṃ.",
+          "en": "We are friends."
+        },
+        {
+          "native": "वह कहाँ है?",
+          "roman": "vah kahāṃ hai?",
+          "en": "Where is he/she?"
+        },
+        {
+          "native": "तुम कहाँ से हो?",
+          "roman": "tum kahāṃ se ho?",
+          "en": "Where are you from? (familiar)"
+        },
+        {
+          "native": "वे भारतीय हैं।",
+          "roman": "ve bhārtīy haiṃ.",
+          "en": "They are Indian. / He is Indian. (respectful)"
+        },
+        {
+          "native": "मैं भारतीय नहीं हूँ।",
+          "roman": "maiṃ bhārtīy nahīṃ hūṃ.",
+          "en": "I am not Indian."
+        }
+      ]
+    },
+    {
+      "title": "Question words",
+      "body": "Hindi question words mostly begin with **k-**: क्या *kyā* 'what', कौन *kaun* 'who', कहाँ *kahāṃ* 'where', कब *kab* 'when', क्यों *kyoṃ* 'why', कैसे *kaise* 'how', कौन-सा *kaun-sā* 'which'.\n\nThey **don't move to the front** of the sentence as in English. They sit where the answer would go — usually just before the verb:\n\nआपका नाम **क्या** है? — Your name **what** is?\nमेरा नाम **सारा** है। — My name **Sarah** is.\n\nRemember: क्या at the very **start** of a sentence is not 'what' but a yes/no question marker: **क्या** आप हिंदी बोलते हैं? 'Do you speak Hindi?'",
+      "examples": [
+        {
+          "native": "आप कौन हैं?",
+          "roman": "āp kaun haiṃ?",
+          "en": "Who are you?"
+        },
+        {
+          "native": "दिल्ली कहाँ है?",
+          "roman": "Dillī kahāṃ hai?",
+          "en": "Where is Delhi?"
+        },
+        {
+          "native": "आप यहाँ क्यों हैं?",
+          "roman": "āp yahāṃ kyoṃ haiṃ?",
+          "en": "Why are you here?"
+        },
+        {
+          "native": "आप कौन-सी भाषा बोलते हैं?",
+          "roman": "āp kaun-sī bhāṣā bolte haiṃ?",
+          "en": "Which language do you speak?"
+        },
+        {
+          "native": "क्या यह सही है?",
+          "roman": "kyā yah sahī hai?",
+          "en": "Is this correct?"
+        }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "On the train to Jaipur",
+    "setting": "Sarah, a British student, gets talking to Amit, who is sitting opposite her.",
+    "lines": [
+      {
+        "speaker": "Amit",
+        "native": "नमस्ते! आप कहाँ से हैं?",
+        "roman": "namaste! āp kahāṃ se haiṃ?",
+        "en": "Hello! Where are you from?"
+      },
+      {
+        "speaker": "Sarah",
+        "native": "नमस्ते! मैं इंग्लैंड से हूँ।",
+        "roman": "namaste! maiṃ Iṅglaiṇḍ se hūṃ.",
+        "en": "Hello! I'm from England."
+      },
+      {
+        "speaker": "Amit",
+        "native": "अरे वाह! आप हिंदी बोलती हैं?",
+        "roman": "are vāh! āp hindī boltī haiṃ?",
+        "en": "Oh wow! You speak Hindi?"
+      },
+      {
+        "speaker": "Sarah",
+        "native": "थोड़ी-थोड़ी। मैं यहाँ छात्रा हूँ।",
+        "roman": "thoṛī-thoṛī. maiṃ yahāṃ chhātrā hūṃ.",
+        "en": "A little. I'm a student here."
+      },
+      {
+        "speaker": "Amit",
+        "native": "बहुत अच्छा! मेरा नाम अमित है। आपका नाम क्या है?",
+        "roman": "bahut achchhā! merā nām Amit hai. āpkā nām kyā hai?",
+        "en": "Very good! My name is Amit. What's your name?"
+      },
+      {
+        "speaker": "Sarah",
+        "native": "मेरा नाम सारा है। आप कहाँ रहते हैं?",
+        "roman": "merā nām Sārā hai. āp kahāṃ rahte haiṃ?",
+        "en": "My name is Sarah. Where do you live?"
+      },
+      {
+        "speaker": "Amit",
+        "native": "मैं जयपुर में रहता हूँ, पर मैं लखनऊ से हूँ।",
+        "roman": "maiṃ Jaypur meṃ rahtā hūṃ, par maiṃ Lakhnaū se hūṃ.",
+        "en": "I live in Jaipur, but I'm from Lucknow."
+      },
+      {
+        "speaker": "Sarah",
+        "native": "माफ़ कीजिए, मैं समझी नहीं। ज़रा धीरे बोलिए।",
+        "roman": "māf kījiye, maiṃ samjhī nahīṃ. zarā dhīre boliye.",
+        "en": "Sorry, I didn't understand. Please speak a little slower."
+      },
+      {
+        "speaker": "Amit",
+        "native": "जी, ज़रूर। मैं जयपुर में रहता हूँ। जयपुर।",
+        "roman": "jī, zarūr. maiṃ Jaypur meṃ rahtā hūṃ. Jaypur.",
+        "en": "Of course. I live in Jaipur. Jaipur."
+      },
+      {
+        "speaker": "Sarah",
+        "native": "अच्छा, जयपुर! मैं भी जयपुर जा रही हूँ।",
+        "roman": "achchhā, Jaypur! maiṃ bhī Jaypur jā rahī hūṃ.",
+        "en": "Oh, Jaipur! I'm going to Jaipur too."
+      }
+    ]
+  },
+  "culture": "Indians often ask personal questions early — where you're from, whether you're married, what you do, even what you earn. It is friendly curiosity, not rudeness, and you can answer as much or as little as you like. A foreigner who speaks even a few words of Hindi gets a warm reaction (अरे वाह! 'oh wow!'). Many Indians are multilingual: someone in Jaipur might speak Marwari at home, Hindi in the market and English at work — so don't be surprised if people switch to English to 'help' you. Smile and carry on in Hindi: हिंदी में बोलिए, प्लीज़।"
+}

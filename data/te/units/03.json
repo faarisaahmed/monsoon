@@ -1,0 +1,105 @@
+{
+  "id": 3,
+  "title": "Family & people",
+  "goal": "Talk about your family, say whose something is, and say how many brothers, sisters or children you have.",
+  "intro": "Telugu kinship terms are precise: there is no single word for 'brother' or 'sister'. You must say whether they are **older** (*అన్నయ్య*, *అక్క*) or **younger** (*తమ్ముడు*, *చెల్లెలు*) than you, and uncles and aunts differ by which side of the family they are on.\n\nYou will also learn the possessive words (my, your, our) and how Telugu sorts nouns into masculine and non-masculine, which decides the form of the verb.",
+  "vocab": [
+    { "native": "కుటుంబం", "roman": "kuṭumbam", "en": "family", "pos": "noun" },
+    { "native": "అమ్మ", "roman": "amma", "en": "mother", "pos": "noun", "note": "Respectful: అమ్మగారు. Also used to address any woman kindly." },
+    { "native": "నాన్న", "roman": "nānna", "en": "father", "pos": "noun", "note": "Respectful: నాన్నగారు (nānnagāru)." },
+    { "native": "అక్క", "roman": "akka", "en": "elder sister", "pos": "noun", "note": "pl. అక్కలు" },
+    { "native": "అన్నయ్య", "roman": "annayya", "en": "elder brother", "pos": "noun", "note": "m · short form అన్న; pl. అన్నయ్యలు" },
+    { "native": "తమ్ముడు", "roman": "tammuḍu", "en": "younger brother", "pos": "noun", "note": "m · pl. తమ్ముళ్ళు (tammuḷḷu)" },
+    { "native": "చెల్లెలు", "roman": "chellelu", "en": "younger sister", "pos": "noun", "note": "Spoken: చెల్లి (chelli); pl. చెల్లెళ్ళు" },
+    { "native": "భర్త", "roman": "bharta", "en": "husband", "pos": "noun", "note": "Colloquially a wife says మా ఆయన (mā āyana)." },
+    { "native": "భార్య", "roman": "bhārya", "en": "wife", "pos": "noun", "note": "Colloquially a husband says మా ఆవిడ (mā āviḍa)." },
+    { "native": "కొడుకు", "roman": "koḍuku", "en": "son", "pos": "noun", "note": "m · pl. కొడుకులు" },
+    { "native": "కూతురు", "roman": "kūturu", "en": "daughter", "pos": "noun", "note": "pl. కూతుళ్ళు (kūtuḷḷu)" },
+    { "native": "పిల్లలు", "roman": "pillalu", "en": "children", "pos": "noun", "note": "sg. పిల్ల (pilla, child, girl), పిల్లవాడు (boy child)" },
+    { "native": "పాప", "roman": "pāpa", "en": "baby; little girl", "pos": "noun" },
+    { "native": "బాబు", "roman": "bābu", "en": "baby boy; little boy", "pos": "noun" },
+    { "native": "తాతయ్య", "roman": "tātayya", "en": "grandfather", "pos": "noun", "note": "Short form తాత." },
+    { "native": "అమ్మమ్మ", "roman": "ammamma", "en": "grandmother (mother's mother)", "pos": "noun" },
+    { "native": "నానమ్మ", "roman": "nānamma", "en": "grandmother (father's mother)", "pos": "noun", "note": "Also నాయనమ్మ." },
+    { "native": "బాబాయి", "roman": "bābāyi", "en": "uncle (father's younger brother)", "pos": "noun", "note": "His wife: పిన్ని (pinni)." },
+    { "native": "మావయ్య", "roman": "māvayya", "en": "uncle (mother's brother); father-in-law", "pos": "noun" },
+    { "native": "అత్తయ్య", "roman": "attayya", "en": "aunt (father's sister); mother-in-law", "pos": "noun" },
+    { "native": "అబ్బాయి", "roman": "abbāyi", "en": "boy; young man", "pos": "noun" },
+    { "native": "మగవాళ్ళు", "roman": "magavāḷḷu", "en": "men", "pos": "noun", "note": "sg. మగవాడు (magavāḍu)" },
+    { "native": "ఆడవాళ్ళు", "roman": "āḍavāḷḷu", "en": "women", "pos": "noun", "note": "sg. ఆడమనిషి (āḍamaniṣi); స్త్రీ (strī) is formal." },
+    { "native": "స్నేహితుడు", "roman": "snēhituḍu", "en": "friend (male)", "pos": "noun", "note": "f: స్నేహితురాలు; colloquially ఫ్రెండ్ (phreṇḍ)." },
+    { "native": "బంధువులు", "roman": "bandhuvulu", "en": "relatives", "pos": "noun" },
+    { "native": "పెళ్ళి", "roman": "peḷḷi", "en": "wedding, marriage", "pos": "noun", "note": "Married: పెళ్ళైంది (peḷḷaindi, lit. marriage happened)." },
+    { "native": "గారు", "roman": "gāru", "en": "honorific (≈ Mr/Ms/sir)", "pos": "particle", "note": "After names and kin terms: రావు గారు, అమ్మగారు." },
+    { "native": "నా", "roman": "nā", "en": "my", "pos": "pron" },
+    { "native": "మా", "roman": "mā", "en": "our (not your); my (family)", "pos": "pron", "note": "Used for family: మా అమ్మ, my mum." },
+    { "native": "మీ", "roman": "mī", "en": "your (polite/plural)", "pos": "pron" },
+    { "native": "అందరూ", "roman": "andarū", "en": "everyone, all (people)", "pos": "pron" }
+  ],
+  "phrases": [
+    { "native": "మీ కుటుంబంలో ఎంతమంది ఉన్నారు?", "roman": "mī kuṭumbamlō entamandi unnāru?", "en": "How many people are in your family?" },
+    { "native": "మా కుటుంబంలో ఐదుగురు ఉన్నారు.", "roman": "mā kuṭumbamlō aiduguru unnāru.", "en": "There are five of us in my family." },
+    { "native": "మీకు పెళ్ళైందా?", "roman": "mīku peḷḷaindā?", "en": "Are you married?" },
+    { "native": "నాకు పెళ్ళైంది.", "roman": "nāku peḷḷaindi.", "en": "I'm married." },
+    { "native": "ఇంకా పెళ్ళి కాలేదు.", "roman": "iṅkā peḷḷi kālēdu.", "en": "Not married yet." },
+    { "native": "మీకు పిల్లలు ఉన్నారా?", "roman": "mīku pillalu unnārā?", "en": "Do you have children?" },
+    { "native": "నాకు ఒక కొడుకు, ఒక కూతురు.", "roman": "nāku oka koḍuku, oka kūturu.", "en": "I have a son and a daughter." },
+    { "native": "ఈమె మా అక్క.", "roman": "īme mā akka.", "en": "This is my elder sister." },
+    { "native": "ఈయన మా నాన్నగారు.", "roman": "īyana mā nānnagāru.", "en": "This is my father." },
+    { "native": "వీళ్ళు నా ఫ్రెండ్స్.", "roman": "vīḷḷu nā phreṇḍs.", "en": "These are my friends." },
+    { "native": "మీ అమ్మగారు ఎలా ఉన్నారు?", "roman": "mī ammagāru elā unnāru?", "en": "How is your mother?" },
+    { "native": "అందరూ బాగున్నారు.", "roman": "andarū bāgunnāru.", "en": "Everyone is well." }
+  ],
+  "grammar": [
+    {
+      "title": "Possessives: my, your, his...",
+      "body": "Possessive words go before the noun, with no extra marker:\nనా (nā) my · నీ (nī) your (informal) · మీ (mī) your (polite) · అతని (atani) his · ఆయన (āyana) his (resp.) · ఆమె (āme) her · దాని (dāni) its\nమా (mā) our (excl.) · మన (mana) our (incl.) · వాళ్ళ (vāḷḷa) their\n\nFor family, Telugu prefers **మా** ('our') even when English says 'my': *మా అమ్మ* (my mum). A name can be used directly as a possessor: *రవి అక్క* (Ravi's elder sister).\n\nTo say **mine, yours**, add -ది (-di): నాది, నీది, మీది, మాది. This is also how you say where you are from: *మాది నెల్లూరు* (we are from Nellore).",
+      "examples": [
+        { "native": "నా పేరు లక్ష్మి.", "roman": "nā pēru lakṣmi.", "en": "My name is Lakshmi." },
+        { "native": "ఇది మా ఇల్లు.", "roman": "idi mā illu.", "en": "This is our house." },
+        { "native": "రవి అక్క డాక్టర్.", "roman": "ravi akka ḍākṭar.", "en": "Ravi's elder sister is a doctor." },
+        { "native": "ఈ పుస్తకం నాది.", "roman": "ī pustakam nādi.", "en": "This book is mine." },
+        { "native": "మన ఊరు చాలా అందంగా ఉంటుంది.", "roman": "mana ūru chālā andangā uṇṭundi.", "en": "Our town (yours and mine) is very beautiful." }
+      ]
+    },
+    {
+      "title": "Gender and plurals: the 'non-masculine' quirk",
+      "body": "Telugu grammar splits nouns into **masculine** (men, boys, male gods) and **non-masculine** (everything else). In the **singular**, women are grammatically grouped with things and animals: *ఆమె వచ్చింది* (she came) has the same ending as *కుక్క వచ్చింది* (the dog came), while *అతను వచ్చాడు* (he came) is different. In the **plural** the split is human vs non-human: *వాళ్ళు వచ్చారు* (they [people] came) but *అవి వచ్చాయి* (they [things] came).\n\nThis is purely grammatical; to show respect to a woman you use the respectful pronoun ఆవిడ and the plural verb: *ఆవిడ వచ్చారు*.\n\nPlural is formed with **-లు (-lu)**: పుస్తకం → పుస్తకాలు, అబ్బాయి → అబ్బాయిలు. Nouns in -డు and -ల్లు change: తమ్ముడు → తమ్ముళ్ళు, ఇల్లు → ఇళ్ళు, స్నేహితుడు → స్నేహితులు. మనిషి → మనుషులు (people).",
+      "examples": [
+        { "native": "మా తమ్ముడు వచ్చాడు.", "roman": "mā tammuḍu vachchāḍu.", "en": "My younger brother came." },
+        { "native": "మా చెల్లెలు వచ్చింది.", "roman": "mā chellelu vachchindi.", "en": "My younger sister came." },
+        { "native": "కుక్క వచ్చింది.", "roman": "kukka vachchindi.", "en": "The dog came." },
+        { "native": "పిల్లలు వచ్చారు.", "roman": "pillalu vachchāru.", "en": "The children came." },
+        { "native": "మా నాన్నగారు వచ్చారు.", "roman": "mā nānnagāru vachchāru.", "en": "My father came. (respectful plural)" }
+      ]
+    },
+    {
+      "title": "'I have': dative + ఉండు",
+      "body": "Telugu has no verb 'to have'. Instead you say *to me ... is/are*: the owner takes the **dative** (నాకు nāku, to me; మీకు mīku, to you) and the thing owned takes **ఉంది** (undi, for non-masculine singular) or **ఉన్నారు** (unnāru, people in the plural) or **ఉన్నాడు** (a male). In casual speech the verb is often dropped: *నాకు ఇద్దరు అక్కలు*.\n\nThe negative is **లేదు / లేరు**: *నాకు అన్నయ్య లేడు* (I don't have an elder brother).",
+      "examples": [
+        { "native": "నాకు ఒక అక్క ఉంది.", "roman": "nāku oka akka undi.", "en": "I have an elder sister." },
+        { "native": "నాకు ఒక తమ్ముడు ఉన్నాడు.", "roman": "nāku oka tammuḍu unnāḍu.", "en": "I have a younger brother." },
+        { "native": "మాకు ఇద్దరు పిల్లలు ఉన్నారు.", "roman": "māku iddaru pillalu unnāru.", "en": "We have two children." },
+        { "native": "నాకు అన్నయ్య లేడు.", "roman": "nāku annayya lēḍu.", "en": "I don't have an elder brother." },
+        { "native": "మీకు చెల్లెలు ఉందా?", "roman": "mīku chellelu undā?", "en": "Do you have a younger sister?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The family photo",
+    "setting": "Priya shows her colleague Meena a photo on her phone during lunch.",
+    "lines": [
+      { "speaker": "Meena", "native": "ఈ ఫోటోలో ఎవరు?", "roman": "ī phōṭōlō evaru?", "en": "Who's in this photo?" },
+      { "speaker": "Priya", "native": "ఈయన మా నాన్నగారు, ఈమె మా అమ్మ.", "roman": "īyana mā nānnagāru, īme mā amma.", "en": "This is my father, and this is my mother." },
+      { "speaker": "Meena", "native": "ఈ అబ్బాయి ఎవరు?", "roman": "ī abbāyi evaru?", "en": "Who's this boy?" },
+      { "speaker": "Priya", "native": "వాడు మా తమ్ముడు, రాజు.", "roman": "vāḍu mā tammuḍu, rāju.", "en": "That's my younger brother, Raju." },
+      { "speaker": "Meena", "native": "మీకు అక్క ఉందా?", "roman": "mīku akka undā?", "en": "Do you have an elder sister?" },
+      { "speaker": "Priya", "native": "లేదు, నాకు ఒక చెల్లెలు ఉంది. ఆమె బెంగళూరులో ఉంది.", "roman": "lēdu, nāku oka chellelu undi. āme beṅgaḷūrulō undi.", "en": "No, I have a younger sister. She's in Bangalore." },
+      { "speaker": "Meena", "native": "మీకు పెళ్ళైందా?", "roman": "mīku peḷḷaindā?", "en": "Are you married?" },
+      { "speaker": "Priya", "native": "అవును. మా ఆయన పేరు శ్రీనివాస్.", "roman": "avunu. mā āyana pēru shrīnivās.", "en": "Yes. My husband's name is Srinivas." },
+      { "speaker": "Meena", "native": "పిల్లలు?", "roman": "pillalu?", "en": "Children?" },
+      { "speaker": "Priya", "native": "ఒక పాప ఉంది. రెండేళ్ళు.", "roman": "oka pāpa undi. reṇḍēḷḷu.", "en": "We have a little girl. She's two." }
+    ]
+  },
+  "culture": "Telugu speakers use kinship terms far beyond the family: an older man is *అన్నా* or *అన్నయ్య* (brother), an older woman *అక్కా* (sister), an elderly man *తాతగారు*, and a shopkeeper might call a young woman *అమ్మా*. Adding *గారు* to a name or kin term (*రావు గారు*, *అమ్మగారు*) is the standard mark of respect. Husbands and wives traditionally avoid each other's names and say *మా ఆయన* ('our he') and *మా ఆవిడ* ('our she')."
+}

@@ -1,0 +1,549 @@
+{
+  "code": "or",
+  "name": "Odia",
+  "native": "ଓଡ଼ିଆ",
+  "scriptName": "Odia",
+  "dir": "ltr",
+  "tts": "or-IN",
+  "font": "Noto Sans Oriya",
+  "speakers": "≈38 million (L1 + L2)",
+  "where": "Odisha (official language), plus neighbouring parts of Jharkhand, West Bengal, Chhattisgarh and Andhra Pradesh",
+  "tagline": "A classical language with a beautifully rounded script, gentle sounds and no grammatical gender — the key to Odisha's temples, coast and kitchens.",
+  "intro": "**Odia** (ଓଡ଼ିଆ, formerly spelled *Oriya*) is the language of Odisha on India's east coast. It is an Indo-Aryan language, a close cousin of Bengali and Assamese and more distantly of Hindi, and in 2014 it was recognised as one of India's *classical languages* thanks to a written tradition stretching back over a thousand years.\n\nOdia has its own script, instantly recognisable by its round, umbrella-like tops. Like Devanagari it is an *abugida*: each consonant carries a built-in vowel, here pronounced **ô** (as in British *hot*), and other vowels are added as signs around the consonant. Unlike Hindi, Odia **keeps** that vowel at the end of words: ଘର is *ghôrô*, not *ghar*.\n\nThe grammar is friendly to English speakers in one big way: there is **no grammatical gender** — verbs and adjectives never change for male or female, and there is no ergative construction in the past tense. Instead, verbs change for **person** and **politeness**: Odia has three levels of *you* — respectful **ଆପଣ** (*apôṇô*), familiar **ତୁମେ** (*tume*) and intimate **ତୁ** (*tu*). Nouns take case endings (-କୁ, -ରେ, -ରୁ, -ର) and counting words (classifiers) such as **ଟି**, **ଟା** and **ଜଣ**.\n\nThis course teaches the standard spoken Odia of Cuttack and Bhubaneswar — the variety heard on Odia TV and radio and understood across the state — and points out colloquial forms you will hear on the street. You will learn the script, the sounds, numbers and twenty units of everyday language, from greetings to telling stories.",
+  "romanizationNote": "The romanization shows how words are **said**. The inherent vowel ଅ is written **ô** (the vowel of British *hot* or American *thought*, lips slightly rounded) and — unlike Hindi — it is pronounced at the end of words too: ଘର *ghôrô*, ନାମ *namô*, ଭାତ *bhatô*; only a word written with the hasanta (୍) or an English loanword ends in a bare consonant (ଠିକ୍ *ṭhik*, ବସ୍ *bôs*). ଆ is plain **a** (as in *father*); Odia has no long/short vowel contrast, so ଇ/ଈ are both **i** and ଉ/ଊ both **u**, and no macrons are used. ଏ is **e** (as in *café*), ଓ is **o** (as in *go*, without the glide), ଐ/ଔ are **ôi/ôu**. **ṭ ṭh ḍ ḍh ṇ** are retroflex (tongue curled back); plain **t th d dh n** are dental (tongue touching the teeth) — never English t/d. **ṛ ṛh** are the flaps ଡ଼ ଢ଼, and **ḷ** is the retroflex ଳ, a separate sound from ଲ *l*. All three sibilants ଶ ଷ ସ are pronounced **s** in standard Odia, so we write *s* (ଶୀତ *sitô*). Both ଜ and ଯ sound like English **j**; ୟ is **y**. **ch** is unaspirated, **chh** aspirated; an *h* after any consonant means a puff of breath (*kh, gh, th, dh, ph, bh*), so *ph* is not f and *th* is never as in *the*. **ṃ** after a vowel means the vowel is nasalised (ଚନ୍ଦ୍ରବିନ୍ଦୁ ଁ: ମୁଁ *muṃ*, ହଁ *hôṃ*); the anusvara ଂ is a real **ṅ** (as in *sing*): ସିଂହ *siṅhô*. Consonants written double are held longer (*kk, tt*); the ଯ-ଫଳା (୍ୟ) doubles the consonant before it (ବିଦ୍ୟା *biddya*). କ୍ଷ is *khy* and ଜ୍ଞ is *gy*, and the vowel ଋ / ୃ is *ru* (କୃଷକ *krusôkô*). Proper nouns are capitalised; Odia language names are capitalised too (*Oṛia*, *Iṅraji*).",
+  "script": {
+    "overview": "The Odia script (ଓଡ଼ିଆ ଲିପି) descends, like Devanagari and Bengali, from the ancient Brahmi script, but it looks very different: almost every letter is crowned by a round arch called the **ଛତା** (*chhôta*, \"umbrella\"). The usual explanation is that Odia was written for centuries with an iron stylus on dried palm leaves, where long straight horizontal lines (like the Devanagari headline) would split the leaf — so scribes used curves instead. There is no headline joining letters together; each syllable stands on its own.\n\nOdia is an **abugida**. A bare consonant letter already includes the vowel **ô**: କ is *kô*, ମ is *mô*. To give a consonant a different vowel you attach a **vowel sign** (ଫଳା/ମାତ୍ରା): କା *ka*, କି *ki*, କୁ *ku*, କେ *ke*, କୋ *ko*. Signs can sit to the right (ା ୀ), below (ୁ ୂ ୃ), to the left (େ) or around the consonant (ୋ ୌ). The full vowel letters (ଅ ଆ ଇ …) are used only at the start of a word or after another vowel. Unlike Hindi, the inherent ô is normally **pronounced even at the end of a word** (କଥା *kôtha*, ଘର *ghôrô*).\n\nTo show a consonant with no vowel at all you use the **hasanta** (୍), but much more often two consonants join into a **conjunct** (ଯୁକ୍ତାକ୍ଷର). In Odia the second consonant is usually written smaller *underneath* the first (a so-called *ଫଳା* form): ନ୍ତ, ମ୍ବ, ସ୍ତ. Some second consonants take special shapes: ର-ଫଳା (୍ର) is a little hook below (ପ୍ର), ଯ-ଫଳା (୍ୟ) a small mark to the right (ବିଦ୍ୟା), ବ-ଫଳା (୍ୱ) a small curl below (ସ୍ୱ). A ର before another consonant becomes the **ରେଫ**, a small hook on top (କର୍ମ). A few conjuncts, such as କ୍ଷ and ଜ୍ଞ, look like brand-new letters.\n\nThe script is written left to right. The full stop is the vertical bar **।** (*daṇḍô*); commas and question marks are as in English. Odia also has its own digits (୦–୯), still used in newspapers, calendars and signboards alongside Western numerals.",
+    "groups": [
+      {
+        "id": "vowels",
+        "title": "Vowels (ସ୍ୱରବର୍ଣ୍ଣ)",
+        "note": "Odia has 11 vowel letters in everyday use. Each has an independent form (used at the start of a word or after another vowel) and a sign form attached to consonants. Long and short i and u are spelled differently but sound the same. Old schoolbooks also list ୠ, ଌ, ୡ, which never occur in modern words.",
+        "letters": [
+          { "char": "ଅ", "roman": "ô", "ipa": "ɔ", "sound": "The vowel in British 'hot' or American 'thought' — lips a little rounded. This is the inherent vowel of every consonant.", "sign": "—", "signExample": "କ (kô)", "example": { "native": "ଅଣ୍ଡା", "roman": "ôṇḍa", "en": "egg" }, "strokes": "Start with the left loop, then the round top, finish with the stroke on the right." },
+          { "char": "ଆ", "roman": "a", "ipa": "a", "sound": "Open 'a' as in 'father', but shorter.", "sign": "ା", "signExample": "କା (ka)", "example": { "native": "ଆମ୍ବ", "roman": "ambô", "en": "mango" }, "strokes": "Write ଅ, then add the vertical bar on the right." },
+          { "char": "ଇ", "roman": "i", "ipa": "i", "sound": "'ee' as in 'see', but short.", "sign": "ି", "signExample": "କି (ki)", "example": { "native": "ଇଟା", "roman": "iṭa", "en": "brick" }, "strokes": "Round top first, then the curled body underneath." },
+          { "char": "ଈ", "roman": "i", "ipa": "i", "sound": "Traditionally 'long i'; in modern Odia it sounds exactly like ଇ. Only spelling differs.", "sign": "ୀ", "signExample": "କୀ (ki)", "example": { "native": "ଈଶ୍ୱର", "roman": "iswôrô", "en": "God" }, "strokes": "Write ଇ and add the small tail at the top right." },
+          { "char": "ଉ", "roman": "u", "ipa": "u", "sound": "'oo' as in 'food', but short.", "sign": "ୁ", "signExample": "କୁ (ku)", "example": { "native": "ଉପର", "roman": "upôrô", "en": "above, top" }, "strokes": "Round head, then the hooked tail down to the right." },
+          { "char": "ଊ", "roman": "u", "ipa": "u", "sound": "Traditionally 'long u'; sounds the same as ଉ in modern Odia.", "sign": "ୂ", "signExample": "କୂ (ku)", "example": { "native": "ଊଣେଇଶି", "roman": "uṇeisi", "en": "nineteen" }, "strokes": "Write ଉ and add an extra loop at the tail." },
+          { "char": "ଋ", "roman": "ru", "ipa": "ru", "sound": "Pronounced 'ru' in Odia (not 'ri' as in Hindi). Found in Sanskrit words.", "sign": "ୃ", "signExample": "କୃ (kru)", "example": { "native": "ଋଷି", "roman": "rusi", "en": "sage" }, "strokes": "Body like ର with a hook below." },
+          { "char": "ଏ", "roman": "e", "ipa": "e", "sound": "'e' as in 'café' — a pure vowel, no glide to 'ee'.", "sign": "େ", "signExample": "କେ (ke)", "example": { "native": "ଏକ", "roman": "ekô", "en": "one" }, "strokes": "The sign େ is written BEFORE (to the left of) the consonant but read after it." },
+          { "char": "ଐ", "roman": "ôi", "ipa": "ɔi", "sound": "A diphthong, ô + i, like 'oi' in 'boil'.", "sign": "ୈ", "signExample": "କୈ (kôi)", "example": { "native": "ଐରାବତ", "roman": "ôirabôtô", "en": "Airavata (Indra's elephant)" }, "strokes": "Like ଏ with an extra curl on top; the sign ୈ also goes to the left." },
+          { "char": "ଓ", "roman": "o", "ipa": "o", "sound": "'o' as in 'go', but pure — lips stay rounded, no 'w' glide.", "sign": "ୋ", "signExample": "କୋ (ko)", "example": { "native": "ଓଠ", "roman": "oṭhô", "en": "lip" }, "strokes": "The sign ୋ has two parts: େ on the left and ା on the right of the consonant." },
+          { "char": "ଔ", "roman": "ôu", "ipa": "ɔu", "sound": "A diphthong, ô + u, like 'ow' in 'cow' but starting rounder.", "sign": "ୌ", "signExample": "କୌ (kôu)", "example": { "native": "ଔଷଧ", "roman": "ôusôdhô", "en": "medicine" }, "strokes": "Sign ୌ: େ on the left, a small hooked bar on the right." }
+        ]
+      },
+      {
+        "id": "velar",
+        "title": "Velar consonants (କ-ବର୍ଗ)",
+        "note": "Made at the back of the mouth, like English k and g. Each row of consonants has the pattern: plain – aspirated – voiced – voiced aspirated – nasal.",
+        "letters": [
+          { "char": "କ", "roman": "kô", "ipa": "kɔ", "sound": "k without a puff of air, as in 'skin'.", "example": { "native": "କଦଳୀ", "roman": "kôdôḷi", "en": "banana" }, "strokes": "Round top, then the loop on the left and the small tail on the right." },
+          { "char": "ଖ", "roman": "khô", "ipa": "kʰɔ", "sound": "k with a strong puff of breath, as in 'kite' said forcefully.", "example": { "native": "ଖରା", "roman": "khôra", "en": "sunshine, heat of the sun" }, "strokes": "Two joined bowls under an arch." },
+          { "char": "ଗ", "roman": "gô", "ipa": "gɔ", "sound": "g as in 'go'.", "example": { "native": "ଗାଈ", "roman": "gai", "en": "cow" }, "strokes": "An arch with an open bowl beneath." },
+          { "char": "ଘ", "roman": "ghô", "ipa": "ɡʱɔ", "sound": "g with breath, like 'doghouse' run together.", "example": { "native": "ଘର", "roman": "ghôrô", "en": "house, home" }, "strokes": "Like ଗ with an extra loop in the middle." },
+          { "char": "ଙ", "roman": "ṅô", "ipa": "ŋɔ", "sound": "'ng' as in 'sing'. Almost only appears inside conjuncts (ଙ୍କ, ଙ୍ଗ).", "example": { "native": "ଶଙ୍ଖ", "roman": "sôṅkhô", "en": "conch shell" }, "strokes": "An arch over a small loop with a tail." }
+        ]
+      },
+      {
+        "id": "palatal",
+        "title": "Palatal consonants (ଚ-ବର୍ଗ)",
+        "note": "Made with the flat of the tongue against the hard palate — in practice like English ch and j.",
+        "letters": [
+          { "char": "ଚ", "roman": "chô", "ipa": "tʃɔ", "sound": "'ch' as in 'church', but without a puff of air.", "example": { "native": "ଚା", "roman": "cha", "en": "tea" }, "strokes": "Arch, then a small circle-like body." },
+          { "char": "ଛ", "roman": "chhô", "ipa": "tʃʰɔ", "sound": "'ch' with a strong breath, like 'church-hill' run together.", "example": { "native": "ଛତା", "roman": "chhôta", "en": "umbrella" }, "strokes": "Arch over a body with an inner loop." },
+          { "char": "ଜ", "roman": "jô", "ipa": "dʒɔ", "sound": "'j' as in 'jam'.", "example": { "native": "ଜଳ", "roman": "jôḷô", "en": "water (formal)" }, "strokes": "Arch, then a body with a loop on the left." },
+          { "char": "ଝ", "roman": "jhô", "ipa": "dʒʱɔ", "sound": "'j' with breath, like 'hedgehog' run together.", "example": { "native": "ଝିଅ", "roman": "jhiô", "en": "daughter, girl" }, "strokes": "Arch over a wide body with two bumps." },
+          { "char": "ଞ", "roman": "ñô", "ipa": "ɲɔ", "sound": "Palatal 'ny' as in 'canyon'. In practice only before ଚ ଛ ଜ ଝ.", "example": { "native": "ଅଞ୍ଚଳ", "roman": "ôñchôḷô", "en": "region" }, "strokes": "Arch over a body with a loop at the right." }
+        ]
+      },
+      {
+        "id": "retroflex",
+        "title": "Retroflex consonants (ଟ-ବର୍ଗ)",
+        "note": "Made with the tip of the tongue curled back to touch the roof of the mouth behind the gum ridge. They sound 'heavier' than English t and d. ଡ and ଢ between vowels usually become the flaps ଡ଼ ଢ଼ (see 'Other consonants').",
+        "letters": [
+          { "char": "ଟ", "roman": "ṭô", "ipa": "ʈɔ", "sound": "Retroflex t, no breath: curl the tongue tip back and tap.", "example": { "native": "ଟଙ୍କା", "roman": "ṭôṅka", "en": "rupee, money" }, "strokes": "Arch over a small hooked body." },
+          { "char": "ଠ", "roman": "ṭhô", "ipa": "ʈʰɔ", "sound": "Retroflex t with a puff of air.", "example": { "native": "ଠାକୁର", "roman": "ṭhakurô", "en": "deity, god (image)" }, "strokes": "A simple circle — the easiest letter!" },
+          { "char": "ଡ", "roman": "ḍô", "ipa": "ɖɔ", "sound": "Retroflex d: curl the tongue back.", "example": { "native": "ଡାଲି", "roman": "ḍali", "en": "lentils, dal" }, "strokes": "Arch with a curl at the lower right." },
+          { "char": "ଢ", "roman": "ḍhô", "ipa": "ɖʱɔ", "sound": "Retroflex d with breath.", "example": { "native": "ଢୋଲ", "roman": "ḍholô", "en": "drum" }, "strokes": "Like ଡ with an extra inner loop." },
+          { "char": "ଣ", "roman": "ṇô", "ipa": "ɳɔ", "sound": "Retroflex n: say n with the tongue curled back. Odia keeps this sound distinct from ନ.", "example": { "native": "ବାଣ", "roman": "baṇô", "en": "firework; arrow" }, "strokes": "Arch over a body with a hooked right side." }
+        ]
+      },
+      {
+        "id": "dental",
+        "title": "Dental consonants (ତ-ବର୍ଗ)",
+        "note": "Made with the tongue tip pressed against the back of the upper front teeth — softer and more 'forward' than English t and d.",
+        "letters": [
+          { "char": "ତ", "roman": "tô", "ipa": "t̪ɔ", "sound": "Dental t: tongue on the teeth, no puff of air (like French/Spanish t).", "example": { "native": "ତେଲ", "roman": "telô", "en": "oil" }, "strokes": "Arch over a body with a loop on the left." },
+          { "char": "ଥ", "roman": "thô", "ipa": "t̪ʰɔ", "sound": "Dental t with breath — never the 'th' of 'thin'.", "example": { "native": "ଥାଳି", "roman": "thaḷi", "en": "plate" }, "strokes": "A circle with a dot-like loop inside." },
+          { "char": "ଦ", "roman": "dô", "ipa": "d̪ɔ", "sound": "Dental d: tongue on the teeth.", "example": { "native": "ଦହି", "roman": "dôhi", "en": "curd, yogurt" }, "strokes": "Arch with a curl underneath to the left." },
+          { "char": "ଧ", "roman": "dhô", "ipa": "d̪ʱɔ", "sound": "Dental d with breath — never 'th' as in 'this'.", "example": { "native": "ଧାନ", "roman": "dhanô", "en": "paddy (rice plant)" }, "strokes": "Round body with an inner stroke." },
+          { "char": "ନ", "roman": "nô", "ipa": "n̪ɔ", "sound": "n with the tongue on the teeth.", "example": { "native": "ନଦୀ", "roman": "nôdi", "en": "river" }, "strokes": "Arch over a body that opens to the right." }
+        ]
+      },
+      {
+        "id": "labial",
+        "title": "Labial consonants (ପ-ବର୍ଗ)",
+        "note": "Made with the lips.",
+        "letters": [
+          { "char": "ପ", "roman": "pô", "ipa": "pɔ", "sound": "p without a puff of air, as in 'spin'.", "example": { "native": "ପାଣି", "roman": "paṇi", "en": "water" }, "strokes": "Arch over a cup shape." },
+          { "char": "ଫ", "roman": "phô", "ipa": "pʰɔ", "sound": "p with a strong puff of air. Some speakers say f in English loanwords, but it is not an f.", "example": { "native": "ଫୁଲ", "roman": "phulô", "en": "flower" }, "strokes": "Like ପ with a hook on top right." },
+          { "char": "ବ", "roman": "bô", "ipa": "bɔ", "sound": "b as in 'bat'. Also used for the old 'v' sound, which Odia pronounces b.", "example": { "native": "ବହି", "roman": "bôhi", "en": "book" }, "strokes": "A circle with a small notch at the top." },
+          { "char": "ଭ", "roman": "bhô", "ipa": "bʱɔ", "sound": "b with breath, like 'clubhouse' — never v.", "example": { "native": "ଭାତ", "roman": "bhatô", "en": "cooked rice" }, "strokes": "Arch over a body with a loop on the right." },
+          { "char": "ମ", "roman": "mô", "ipa": "mɔ", "sound": "m as in 'mother'.", "example": { "native": "ମାଛ", "roman": "machhô", "en": "fish" }, "strokes": "Arch over a body with a loop at bottom left." }
+        ]
+      },
+      {
+        "id": "others",
+        "title": "Semivowels, sibilants and other consonants",
+        "note": "Note the Odia specialities: ଯ is pronounced j (and ୟ is the real y), ଶ ଷ ସ all sound like s, ଳ is a retroflex l, ଡ଼ ଢ଼ are flaps, and କ୍ଷ is counted as the last letter of the alphabet.",
+        "letters": [
+          { "char": "ଯ", "roman": "jô", "ipa": "dʒɔ", "sound": "Pronounced exactly like ଜ (j) in Odia. Called 'borgiya jô'.", "example": { "native": "ଯାତ୍ରା", "roman": "jatra", "en": "journey; folk theatre" }, "strokes": "Arch over a body with a long tail." },
+          { "char": "ୟ", "roman": "yô", "ipa": "jɔ", "sound": "'y' as in 'yes'. Called 'ontôsthô yô'. Mostly between vowels.", "example": { "native": "ନିୟମ", "roman": "niyômô", "en": "rule" }, "strokes": "ଯ with a small slash/dot underneath." },
+          { "char": "ର", "roman": "rô", "ipa": "ɾɔ", "sound": "A single tapped r, like the tt in American 'butter'.", "example": { "native": "ରଥ", "roman": "rôthô", "en": "chariot" }, "strokes": "Arch over a small hooked body." },
+          { "char": "ଲ", "roman": "lô", "ipa": "lɔ", "sound": "A clear l, tongue on the teeth ridge.", "example": { "native": "ଲୁଣ", "roman": "luṇô", "en": "salt" }, "strokes": "Arch over two small bumps." },
+          { "char": "ଳ", "roman": "ḷô", "ipa": "ɭɔ", "sound": "Retroflex l: curl the tongue back as for ଡ and say l. A different sound from ଲ.", "example": { "native": "କଳା", "roman": "kôḷa", "en": "black" }, "strokes": "Arch over a body with a big loop on the right." },
+          { "char": "ଵ", "roman": "wô", "ipa": "wɔ", "sound": "Rare 'wa' letter used in Sanskrit transliteration; normally pronounced b or w.", "strokes": "Like ବ with a stroke inside." },
+          { "char": "ୱ", "roman": "wô", "ipa": "wɔ", "sound": "'w' — used in loanwords and as the ବ-ଫଳା (second part of conjuncts like ସ୍ୱ, ଦ୍ୱ).", "example": { "native": "ସ୍ୱର", "roman": "swôrô", "en": "vowel; voice" }, "strokes": "ବ with a diagonal stroke beneath." },
+          { "char": "ଶ", "roman": "sô", "ipa": "sɔ", "sound": "Called 'talôbyô sô'. Pronounced s in standard Odia (not sh).", "example": { "native": "ଶୀତ", "roman": "sitô", "en": "winter, cold" }, "strokes": "Arch over a body with a loop and a tail." },
+          { "char": "ଷ", "roman": "sô", "ipa": "sɔ", "sound": "Called 'murdhônyô sô'. Also pronounced s.", "example": { "native": "ଷଣ୍ଢ", "roman": "sôṇḍhô", "en": "bull" }, "strokes": "Like ଶ with a cross-stroke in the body." },
+          { "char": "ସ", "roman": "sô", "ipa": "sɔ", "sound": "Called 'dôntyô sô'. s as in 'sun'. The most common of the three.", "example": { "native": "ସାପ", "roman": "sapô", "en": "snake" }, "strokes": "Arch over a body with two loops." },
+          { "char": "ହ", "roman": "hô", "ipa": "ɦɔ", "sound": "A soft, breathy h.", "example": { "native": "ହାତୀ", "roman": "hati", "en": "elephant" }, "strokes": "Arch over a body with a tail to the right." },
+          { "char": "କ୍ଷ", "roman": "khyô", "ipa": "kʰjɔ", "sound": "Conjunct of କ + ଷ, taught as the last letter of the alphabet. Pronounced 'khy' in Odia.", "example": { "native": "କ୍ଷୀର", "roman": "khyirô", "en": "milk" }, "strokes": "କ with a ଷ-like tail fused underneath." },
+          { "char": "ଡ଼", "roman": "ṛô", "ipa": "ɽɔ", "sound": "A flap: curl the tongue back and flick it forward once, as if saying d and r together. Never at the start of a word.", "example": { "native": "ଘୋଡ଼ା", "roman": "ghoṛa", "en": "horse" }, "strokes": "ଡ with a dot (nukta) underneath." },
+          { "char": "ଢ଼", "roman": "ṛhô", "ipa": "ɽʱɔ", "sound": "The same flap with breath.", "example": { "native": "ପଢ଼ା", "roman": "pôṛha", "en": "studying, studies" }, "strokes": "ଢ with a dot (nukta) underneath." }
+        ]
+      },
+      {
+        "id": "marks",
+        "title": "Special marks",
+        "note": "Signs that modify a syllable: nasal sounds, a final breath, removing the inherent vowel.",
+        "letters": [
+          { "char": "◌ଂ", "roman": "ṅ", "ipa": "ŋ", "sound": "Anusvara (ଅନୁସ୍ୱାର): a nasal consonant 'ng' as in 'sing'; before ପ/ବ it sounds m.", "example": { "native": "ସିଂହ", "roman": "siṅhô", "en": "lion" }, "strokes": "A small circle written after the letter." },
+          { "char": "◌ଁ", "roman": "ṃ", "ipa": "̃", "sound": "Chandrabindu (ଚନ୍ଦ୍ରବିନ୍ଦୁ): makes the vowel nasal, air through the nose, as in French 'non'.", "example": { "native": "ଗାଁ", "roman": "gaṃ", "en": "village" }, "strokes": "A small crescent with a dot, written above the letter." },
+          { "char": "◌ଃ", "roman": "ḥ", "ipa": "h", "sound": "Visarga (ବିସର୍ଗ): a light breath after the vowel; inside words it usually just lengthens the next consonant. Rare.", "example": { "native": "ଦୁଃଖ", "roman": "dukhô", "en": "sorrow" }, "strokes": "Two small circles one above the other." },
+          { "char": "◌୍", "roman": "—", "ipa": "", "sound": "Hasanta (ହସନ୍ତ): removes the inherent ô so the consonant ends bare. Most often seen at the end of words and loanwords.", "example": { "native": "ଠିକ୍", "roman": "ṭhik", "en": "right, correct" }, "strokes": "A small slanted stroke under/after the letter." },
+          { "char": "◌଼", "roman": "·", "ipa": "", "sound": "Nukta: a dot under ଡ and ଢ that turns them into the flaps ଡ଼ ଢ଼.", "example": { "native": "ବଡ଼", "roman": "bôṛô", "en": "big" }, "strokes": "A dot under the letter." },
+          { "char": "।", "roman": "|", "ipa": "", "sound": "Daṇḍô: the full stop.", "example": { "native": "ମୁଁ ଭଲ ଅଛି।", "roman": "muṃ bhôlô achhi.", "en": "I am well." }, "strokes": "A single vertical bar." }
+        ]
+      },
+      {
+        "id": "conjuncts",
+        "title": "Common conjuncts (ଯୁକ୍ତାକ୍ଷର)",
+        "note": "When two consonants meet with no vowel between them, the second is usually written as a small 'ଫଳା' form underneath the first. Learn to recognise these — they are everywhere.",
+        "letters": [
+          { "char": "ଜ୍ଞ", "roman": "gyô", "sound": "ଜ + ଞ, pronounced 'gy' in Odia.", "example": { "native": "ଜ୍ଞାନ", "roman": "gyanô", "en": "knowledge" } },
+          { "char": "ନ୍ତ", "roman": "ntô", "sound": "ନ + ତ (ତ-ଫଳା).", "example": { "native": "ଦାନ୍ତ", "roman": "dantô", "en": "tooth" } },
+          { "char": "ନ୍ଦ", "roman": "ndô", "sound": "ନ + ଦ.", "example": { "native": "ସୁନ୍ଦର", "roman": "sundôrô", "en": "beautiful" } },
+          { "char": "ଙ୍କ", "roman": "ṅkô", "sound": "ଙ + କ. Very common: it forms honorific/plural case endings (-ଙ୍କ, -ଙ୍କୁ).", "example": { "native": "ଆପଣଙ୍କ", "roman": "apôṇôṅkô", "en": "your (polite)" } },
+          { "char": "ଙ୍ଗ", "roman": "ṅgô", "sound": "ଙ + ଗ.", "example": { "native": "ରଙ୍ଗ", "roman": "rôṅgô", "en": "colour" } },
+          { "char": "ଞ୍ଚ", "roman": "ñchô", "sound": "ଞ + ଚ.", "example": { "native": "ପାଞ୍ଚ", "roman": "pañchô", "en": "five" } },
+          { "char": "ଣ୍ଡ", "roman": "ṇḍô", "sound": "ଣ + ଡ.", "example": { "native": "ଥଣ୍ଡା", "roman": "thôṇḍa", "en": "cold" } },
+          { "char": "ମ୍ବ", "roman": "mbô", "sound": "ମ + ବ.", "example": { "native": "ଲମ୍ବା", "roman": "lômba", "en": "long, tall" } },
+          { "char": "ସ୍ତ", "roman": "stô", "sound": "ସ + ତ.", "example": { "native": "ରାସ୍ତା", "roman": "rasta", "en": "road" } },
+          { "char": "ସ୍ଥ", "roman": "sthô", "sound": "ସ + ଥ.", "example": { "native": "ସ୍ଥାନ", "roman": "sthanô", "en": "place" } },
+          { "char": "ତ୍ର", "roman": "trô", "sound": "ତ + ର-ଫଳା (the hook below).", "example": { "native": "ପତ୍ର", "roman": "pôtrô", "en": "letter; leaf" } },
+          { "char": "ପ୍ର", "roman": "prô", "sound": "ପ + ର-ଫଳା.", "example": { "native": "ପ୍ରଶ୍ନ", "roman": "prôsnô", "en": "question" } },
+          { "char": "ର୍ମ", "roman": "rmô", "sound": "ର + ମ: the ର becomes the ରେଫ hook written on top.", "example": { "native": "କର୍ମ", "roman": "kôrmô", "en": "deed, work" } },
+          { "char": "ଦ୍ୱ", "roman": "dwô", "sound": "ଦ + ବ-ଫଳା (୍ୱ).", "example": { "native": "ଦ୍ୱାର", "roman": "dwarô", "en": "door, gate" } },
+          { "char": "ଦ୍ୟ", "roman": "ddyô", "sound": "ଦ + ଯ-ଫଳା (୍ୟ). The ଯ-ଫଳା doubles the consonant before it.", "example": { "native": "ବିଦ୍ୟା", "roman": "biddya", "en": "learning, education" } },
+          { "char": "କ୍ତ", "roman": "ktô", "sound": "କ + ତ.", "example": { "native": "ରକ୍ତ", "roman": "rôktô", "en": "blood" } },
+          { "char": "ତ୍ତ", "roman": "ttô", "sound": "ତ + ତ: a doubled (held) t.", "example": { "native": "ଉତ୍ତର", "roman": "uttôrô", "en": "answer; north" } },
+          { "char": "ଚ୍ଛ", "roman": "chchhô", "sound": "ଚ + ଛ.", "example": { "native": "ଇଚ୍ଛା", "roman": "ichchha", "en": "wish, desire" } },
+          { "char": "ଦ୍ଧ", "roman": "ddhô", "sound": "ଦ + ଧ.", "example": { "native": "ବୁଦ୍ଧି", "roman": "buddhi", "en": "intelligence" } },
+          { "char": "ଷ୍ଟ", "roman": "sṭô", "sound": "ଷ + ଟ.", "example": { "native": "କଷ୍ଟ", "roman": "kôsṭô", "en": "hardship, trouble" } },
+          { "char": "ନ୍ମ", "roman": "nmô", "sound": "ନ + ମ-ଫଳା.", "example": { "native": "ଜନ୍ମ", "roman": "jônmô", "en": "birth" } },
+          { "char": "ଲ୍ପ", "roman": "ḷpô", "sound": "ଳ/ଲ + ପ.", "example": { "native": "ଅଳ୍ପ", "roman": "ôḷpô", "en": "a little, few" } }
+        ]
+      },
+      {
+        "id": "digits",
+        "title": "Odia digits (ଅଙ୍କ)",
+        "note": "Odia has its own numerals. They work exactly like Western digits (place value, 10 = ୧୦).",
+        "letters": [
+          { "char": "୦", "roman": "0 · sunô", "sound": "zero", "example": { "native": "ଶୂନ", "roman": "sunô", "en": "zero" } },
+          { "char": "୧", "roman": "1 · ekô", "sound": "one", "example": { "native": "ଏକ", "roman": "ekô", "en": "one" } },
+          { "char": "୨", "roman": "2 · dui", "sound": "two", "example": { "native": "ଦୁଇ", "roman": "dui", "en": "two" } },
+          { "char": "୩", "roman": "3 · tini", "sound": "three", "example": { "native": "ତିନି", "roman": "tini", "en": "three" } },
+          { "char": "୪", "roman": "4 · chari", "sound": "four", "example": { "native": "ଚାରି", "roman": "chari", "en": "four" } },
+          { "char": "୫", "roman": "5 · pañchô", "sound": "five", "example": { "native": "ପାଞ୍ଚ", "roman": "pañchô", "en": "five" } },
+          { "char": "୬", "roman": "6 · chhô", "sound": "six", "example": { "native": "ଛଅ", "roman": "chhô", "en": "six" } },
+          { "char": "୭", "roman": "7 · satô", "sound": "seven", "example": { "native": "ସାତ", "roman": "satô", "en": "seven" } },
+          { "char": "୮", "roman": "8 · aṭhô", "sound": "eight", "example": { "native": "ଆଠ", "roman": "aṭhô", "en": "eight" } },
+          { "char": "୯", "roman": "9 · nô", "sound": "nine", "example": { "native": "ନଅ", "roman": "nô", "en": "nine" } }
+        ]
+      }
+    ]
+  },
+  "pronunciation": [
+    {
+      "id": "o-vs-a",
+      "title": "ଅ (ô) versus ଆ (a)",
+      "body": "The single most important vowel contrast in Odia is between the inherent vowel **ଅ ô** and **ଆ a**. ô is a rounded back vowel — the *o* of British *hot* or the *aw* of *law*, said short. a is an open, unrounded *ah*. English speakers tend to say both as 'uh' (as in *cup*), which makes Odia words impossible to tell apart.\n\nTo get ô, make your lips slightly round, as if starting to say *o*, and drop your jaw. For a, keep the lips spread and the mouth wide open. Every consonant letter without a vowel sign carries ô, so this sound is everywhere.",
+      "tips": ["Never say 'uh' for ô — think 'aw' with rounded lips.", "a (ଆ) is like the a in 'father', short and open.", "Practise in front of a mirror: lips round for ô, spread for a."],
+      "pairs": [
+        { "a": { "native": "ତଳ", "roman": "tôḷô", "en": "below, bottom" }, "b": { "native": "ତାଳ", "roman": "taḷô", "en": "palm tree; rhythm" } },
+        { "a": { "native": "ବଳ", "roman": "bôḷô", "en": "strength" }, "b": { "native": "ବାଳ", "roman": "baḷô", "en": "hair" } },
+        { "a": { "native": "ମନ", "roman": "mônô", "en": "mind, heart" }, "b": { "native": "ମାନ", "roman": "manô", "en": "honour, pride" } },
+        { "a": { "native": "ଜଳ", "roman": "jôḷô", "en": "water" }, "b": { "native": "ଜାଳ", "roman": "jaḷô", "en": "flame, burning" } }
+      ],
+      "drill": [
+        { "native": "କଥା", "roman": "kôtha", "en": "talk, matter" },
+        { "native": "ଭଲ", "roman": "bhôlô", "en": "good" },
+        { "native": "ଆମ", "roman": "amô", "en": "our" },
+        { "native": "ସକାଳ", "roman": "sôkaḷô", "en": "morning" },
+        { "native": "ଅଧା", "roman": "ôdha", "en": "half" },
+        { "native": "ମଳା", "roman": "môḷa", "en": "dirt" }
+      ]
+    },
+    {
+      "id": "final-o",
+      "title": "Keep the final ô (no schwa deletion)",
+      "body": "If you know Hindi, beware: Hindi drops the inherent vowel at the end of words (घर *ghar*, नाम *nām*), but **Odia pronounces it**: ଘର *ghôrô*, ନାମ *namô*. It is short and light, but it is there, and leaving it off makes you sound like a Hindi or Bengali speaker.\n\nThe final ô often makes a grammatical difference. Many familiar (ତୁମେ) commands end in -ô, while related nouns end in -a: ଦେଖ *dekhô* 'look!' versus ଦେଖା *dekha* 'a meeting'. The vowel is only absent when a word is written with the hasanta (୍), mostly in loanwords and a few short words (ଠିକ୍ *ṭhik*, ବସ୍ *bôs*).",
+      "tips": ["Finish every word written without a final vowel sign with a short 'aw'.", "Don't stress the final ô — Odia stress is light and falls near the start of the word.", "A written hasanta (୍) means: no vowel."],
+      "pairs": [
+        { "a": { "native": "ବଡ଼", "roman": "bôṛô", "en": "big" }, "b": { "native": "ବଡ଼ା", "roman": "bôṛa", "en": "lentil fritter" } },
+        { "a": { "native": "ଦେଖ", "roman": "dekhô", "en": "look! (familiar)" }, "b": { "native": "ଦେଖା", "roman": "dekha", "en": "meeting, sight" } },
+        { "a": { "native": "ବସ", "roman": "bôsô", "en": "sit! (familiar)" }, "b": { "native": "ବସା", "roman": "bôsa", "en": "nest; lodging" } },
+        { "a": { "native": "କଳ", "roman": "kôḷô", "en": "machine; tap" }, "b": { "native": "କଳା", "roman": "kôḷa", "en": "black; art" } }
+      ],
+      "drill": [
+        { "native": "ଘର", "roman": "ghôrô", "en": "house" },
+        { "native": "ଭାତ", "roman": "bhatô", "en": "rice" },
+        { "native": "ନାମ", "roman": "namô", "en": "name" },
+        { "native": "ଦେଶ", "roman": "desô", "en": "country" },
+        { "native": "କାମ", "roman": "kamô", "en": "work" },
+        { "native": "ଓଡ଼ିଶା", "roman": "Oṛisa", "en": "Odisha" },
+        { "native": "ଜଗନ୍ନାଥ", "roman": "Jôgônnathô", "en": "Jagannath" }
+      ]
+    },
+    {
+      "id": "vowel-sequences",
+      "title": "Vowel sequences: ପୁଅ, ଝିଅ, ଗାଈ",
+      "body": "Odia loves strings of vowels with no consonant between them. The written vowel letter ଅ after another vowel is a separate short ô syllable: ପୁଅ *pu-ô* 'son', ଝିଅ *jhi-ô* 'daughter', ଛଅ *chhô* 'six' (here the two ô's merge). Likewise ଗାଈ is *ga-i* 'cow', ବୋଉ *bo-u* 'mum', ଖାଇବା *kha-i-ba* 'to eat'.\n\nPronounce each vowel clearly and glide smoothly from one to the next — don't insert a *y* or *w*, and don't collapse them into an English diphthong.",
+      "tips": ["Count the vowels: ପୁଅ has two syllables, ଖାଇବା has three.", "Keep each vowel pure; no 'y' or 'w' between them.", "ଏଇ and ସେଇ (this/that) are e-i, se-i."],
+      "pairs": [
+        { "a": { "native": "ପୁଅ", "roman": "puô", "en": "son" }, "b": { "native": "ପୁଆ", "roman": "pua", "en": "(colloquial) son, lad" }, "note": "ପୁଅ ends in rounded ô, ପୁଆ in open a." },
+        { "a": { "native": "ଖାଇ", "roman": "khai", "en": "having eaten" }, "b": { "native": "ଖାଈ", "roman": "khai", "en": "ditch, trench" }, "note": "Same sound — only the spelling of i differs." }
+      ],
+      "drill": [
+        { "native": "ଝିଅ", "roman": "jhiô", "en": "daughter" },
+        { "native": "ବୋଉ", "roman": "bou", "en": "mum" },
+        { "native": "ଗାଈ", "roman": "gai", "en": "cow" },
+        { "native": "ନଅ", "roman": "nô", "en": "nine" },
+        { "native": "ପିଇବା", "roman": "piiba", "en": "to drink" },
+        { "native": "ଆଉ", "roman": "au", "en": "and; more" },
+        { "native": "ଦିଅନ୍ତୁ", "roman": "diôntu", "en": "please give" }
+      ]
+    },
+    {
+      "id": "vowel-length",
+      "title": "Long and short vowels sound the same",
+      "body": "Odia spelling keeps the Sanskrit distinction between short ଇ/ି and long ଈ/ୀ, and short ଉ/ୁ and long ଊ/ୂ. But in modern speech they are **pronounced identically**: medium-length *i* and *u*. That is good news for speaking — you only have to remember the difference for writing.\n\nSome word pairs are spelled differently but sound exactly the same; context tells you which is meant. This course writes both simply as *i* and *u*.",
+      "tips": ["Say ଇ and ଈ the same; same for ଉ and ଊ.", "When writing, learn the spelling word by word.", "Final -ି and -ୀ are both just 'i'."],
+      "pairs": [
+        { "a": { "native": "ଦିନ", "roman": "dinô", "en": "day" }, "b": { "native": "ଦୀନ", "roman": "dinô", "en": "poor, humble" }, "note": "Pronounced identically." },
+        { "a": { "native": "କୁଳ", "roman": "kuḷô", "en": "family line" }, "b": { "native": "କୂଳ", "roman": "kuḷô", "en": "shore, bank" }, "note": "Pronounced identically." }
+      ],
+      "drill": [
+        { "native": "ନଦୀ", "roman": "nôdi", "en": "river" },
+        { "native": "ପାଣି", "roman": "paṇi", "en": "water" },
+        { "native": "ଚିନି", "roman": "chini", "en": "sugar" },
+        { "native": "ଦୂର", "roman": "durô", "en": "far" },
+        { "native": "ଫୁଲ", "roman": "phulô", "en": "flower" }
+      ]
+    },
+    {
+      "id": "aspiration",
+      "title": "Aspiration: k vs kh, d vs dh",
+      "body": "Odia distinguishes plain consonants from **aspirated** ones, which are followed by a clear puff of breath: କ *k* / ଖ *kh*, ଗ *g* / ଘ *gh*, ଚ *ch* / ଛ *chh*, ଜ *j* / ଝ *jh*, ଟ / ଠ, ଡ / ଢ, ତ / ଥ, ଦ / ଧ, ପ / ଫ, ବ / ଭ.\n\nEnglish speakers have two problems. First, English p, t, k at the start of a word already have a small puff, so Odia plain ପ ତ କ (no puff) sound to you like b d g — practise them like the p in *spin*. Second, the voiced aspirates ଘ ଝ ଢ ଧ ଭ don't exist in English: say the voiced sound and let a breathy h follow, as in *doghouse*, *clubhouse*.",
+      "tips": ["Hold a tissue in front of your mouth: it should move for ଖ ଫ ଥ, not for କ ପ ତ.", "ph is a p with breath, never an f; th/dh never like English 'th'.", "For bh, gh, dh: start the voice, then breathe out — 'club-house'."],
+      "pairs": [
+        { "a": { "native": "କାଲି", "roman": "kali", "en": "yesterday / tomorrow" }, "b": { "native": "ଖାଲି", "roman": "khali", "en": "empty; only" } },
+        { "a": { "native": "ଦାନ", "roman": "danô", "en": "donation" }, "b": { "native": "ଧାନ", "roman": "dhanô", "en": "paddy (rice plant)" } },
+        { "a": { "native": "ତାଳି", "roman": "taḷi", "en": "clapping" }, "b": { "native": "ଥାଳି", "roman": "thaḷi", "en": "plate" } },
+        { "a": { "native": "ବାଗ", "roman": "bagô", "en": "proper way, knack" }, "b": { "native": "ବାଘ", "roman": "baghô", "en": "tiger" } },
+        { "a": { "native": "ଜାଳ", "roman": "jaḷô", "en": "flame" }, "b": { "native": "ଝାଳ", "roman": "jhaḷô", "en": "sweat" } }
+      ],
+      "drill": [
+        { "native": "ଭାଇ", "roman": "bhai", "en": "brother" },
+        { "native": "ଘର", "roman": "ghôrô", "en": "house" },
+        { "native": "ଛତା", "roman": "chhôta", "en": "umbrella" },
+        { "native": "ଧନ୍ୟବାଦ", "roman": "dhônnyôbadô", "en": "thank you" },
+        { "native": "ଫଳ", "roman": "phôḷô", "en": "fruit" },
+        { "native": "ଝିଅ", "roman": "jhiô", "en": "daughter" },
+        { "native": "ଥଣ୍ଡା", "roman": "thôṇḍa", "en": "cold" }
+      ]
+    },
+    {
+      "id": "retroflex",
+      "title": "Retroflex vs dental consonants",
+      "body": "Odia has two sets of t/d sounds where English has one. The **dental** ତ ଥ ଦ ଧ ନ are made with the tongue tip pressed against the back of the upper teeth — softer and more forward than English t/d. The **retroflex** ଟ ଠ ଡ ଢ ଣ are made with the tongue tip curled back to touch the roof of the mouth behind the gum ridge — they sound hollow and 'heavy'.\n\nEnglish t and d are made in between, on the gum ridge, so Odia speakers hear them as retroflex. Practise exaggerating both: tongue between/against the teeth for ତ, tongue curled right back for ଟ.",
+      "tips": ["For ତ ଦ ନ, the tongue should touch your teeth.", "For ଟ ଡ ଣ, curl the tip backwards and strike the roof of the mouth.", "English loanwords with t/d (ଟେବୁଲ, ଡାକ୍ତର) use the retroflex set."],
+      "pairs": [
+        { "a": { "native": "ଡର", "roman": "ḍôrô", "en": "fear" }, "b": { "native": "ଦର", "roman": "dôrô", "en": "price, rate" } },
+        { "a": { "native": "କାଟ", "roman": "kaṭô", "en": "cut! (familiar)" }, "b": { "native": "କାତ", "roman": "katô", "en": "on one's side (lying)" } },
+        { "a": { "native": "ଟାଣ", "roman": "ṭaṇô", "en": "pull! ; firm" }, "b": { "native": "ତାନ", "roman": "tanô", "en": "musical tune" }, "note": "Both the t and the n differ." },
+        { "a": { "native": "ଟିକେ", "roman": "ṭike", "en": "a little" }, "b": { "native": "ତିନି", "roman": "tini", "en": "three" }, "note": "Near pair: compare the first consonants." }
+      ],
+      "drill": [
+        { "native": "ଟଙ୍କା", "roman": "ṭôṅka", "en": "rupee" },
+        { "native": "ତେଲ", "roman": "telô", "en": "oil" },
+        { "native": "ଡାକ୍ତର", "roman": "ḍaktôrô", "en": "doctor" },
+        { "native": "ଦହି", "roman": "dôhi", "en": "curd" },
+        { "native": "ଠିକ୍", "roman": "ṭhik", "en": "right" },
+        { "native": "ଥାଳି", "roman": "thaḷi", "en": "plate" },
+        { "native": "ପାଣି", "roman": "paṇi", "en": "water" },
+        { "native": "ନାକ", "roman": "nakô", "en": "nose" }
+      ]
+    },
+    {
+      "id": "flaps",
+      "title": "The flaps ଡ଼ and ଢ଼",
+      "body": "ଡ଼ (*ṛ*) and ଢ଼ (*ṛh*) are made by curling the tongue tip back and then **flicking** it forward so it brushes the roof of the mouth once on its way down. The result sounds somewhere between a d and an r. ଢ଼ is the same with a breath.\n\nThey never start a word; they appear between vowels and at the end of words: ବଡ଼ *bôṛô* 'big', ଘୋଡ଼ା *ghoṛa* 'horse', ପଢ଼ *pôṛhô* 'read!'. Don't replace them with English d (too hard) or with the tapped ର (too forward).",
+      "tips": ["Curl the tongue back, then let it fall forward — one quick flick.", "ର is tapped at the gum ridge; ଡ଼ is flicked from far back.", "The name of the language itself has one: ଓଡ଼ିଆ Oṛia."],
+      "pairs": [
+        { "a": { "native": "ପଡ଼", "roman": "pôṛô", "en": "fall! (familiar)" }, "b": { "native": "ପଢ଼", "roman": "pôṛhô", "en": "read! (familiar)" } },
+        { "a": { "native": "ଗଡ଼", "roman": "gôṛô", "en": "fort; roll! " }, "b": { "native": "ଗଢ଼", "roman": "gôṛhô", "en": "build! shape!" } },
+        { "a": { "native": "ବଡ଼", "roman": "bôṛô", "en": "big" }, "b": { "native": "ବର", "roman": "bôrô", "en": "bridegroom; boon" } },
+        { "a": { "native": "ପଡ଼", "roman": "pôṛô", "en": "fall! (familiar)" }, "b": { "native": "ପର", "roman": "pôrô", "en": "other, stranger" } }
+      ],
+      "drill": [
+        { "native": "ଓଡ଼ିଆ", "roman": "Oṛia", "en": "Odia" },
+        { "native": "ଘୋଡ଼ା", "roman": "ghoṛa", "en": "horse" },
+        { "native": "ଗାଡ଼ି", "roman": "gaṛi", "en": "vehicle, car" },
+        { "native": "ଶାଢ଼ୀ", "roman": "saṛhi", "en": "saree" },
+        { "native": "ପାହାଡ଼", "roman": "pahaṛô", "en": "hill" },
+        { "native": "ବୁଢ଼ା", "roman": "buṛha", "en": "old man" }
+      ]
+    },
+    {
+      "id": "retroflex-l",
+      "title": "ଳ versus ଲ",
+      "body": "Odia has two l-sounds. ଲ (*l*) is an ordinary clear l. ଳ (*ḷ*) is **retroflex**: curl the tongue tip back, as for ଡ, and then say l. It is very common in native Odia words (ଜଳ, ଫଳ, କଳା, ସକାଳ) and makes real differences in meaning.\n\nIn fast colloquial speech some people blur the two, but standard Odia keeps them apart — and the pairs below show why.",
+      "tips": ["ଳ = l with the tongue curled back.", "Say ଡ, then keep the tongue there and let air flow round the sides: ଳ.", "Don't confuse ଳ (ḷ) with the flap ଡ଼ (ṛ): ଳ is a continuous l."],
+      "pairs": [
+        { "a": { "native": "କଳା", "roman": "kôḷa", "en": "black" }, "b": { "native": "କଲା", "roman": "kôla", "en": "(he/she) did" } },
+        { "a": { "native": "ଗଳା", "roman": "gôḷa", "en": "throat, neck" }, "b": { "native": "ଗଲା", "roman": "gôla", "en": "(he/she) went" } },
+        { "a": { "native": "ଜାଳ", "roman": "jaḷô", "en": "flame" }, "b": { "native": "ଜାଲ", "roman": "jalô", "en": "net" } }
+      ],
+      "drill": [
+        { "native": "ସକାଳ", "roman": "sôkaḷô", "en": "morning" },
+        { "native": "ଫଳ", "roman": "phôḷô", "en": "fruit" },
+        { "native": "କଦଳୀ", "roman": "kôdôḷi", "en": "banana" },
+        { "native": "ଆଳୁ", "roman": "aḷu", "en": "potato" },
+        { "native": "ଲୁଣ", "roman": "luṇô", "en": "salt" },
+        { "native": "ଖେଳ", "roman": "kheḷô", "en": "game" }
+      ]
+    },
+    {
+      "id": "nasals",
+      "title": "Nasal consonants: ଣ, ନ, ଙ, ଞ, ମ and ଂ",
+      "body": "Odia has a full set of nasal consonants matching each place of articulation. The two you must actively practise are **ଣ** (retroflex n — tongue curled back, very common: ପାଣି, ଶୁଣ, ଲୁଣ) and **ନ** (dental n — tongue on the teeth).\n\nଙ (*ṅ*) and ଞ (*ñ*) appear almost only inside conjuncts, where the nasal simply takes the position of the next consonant: ଙ୍କ *ṅk*, ଙ୍ଗ *ṅg*, ଞ୍ଚ *ñch*. The anusvara ଂ is a full *ng* sound (ସିଂହ *siṅhô*), unlike the chandrabindu ଁ, which only nasalises a vowel.",
+      "tips": ["ଣ in ପାଣି: curl the tongue back before the n.", "ଙ୍କ/ଙ୍ଗ are 'nk'/'ng' as in 'bank', 'finger'.", "ଂ is a consonant 'ng'; ଁ is a nasal vowel."],
+      "pairs": [
+        { "a": { "native": "ବାଣ", "roman": "baṇô", "en": "firework; arrow" }, "b": { "native": "ବାନ୍ତି", "roman": "banti", "en": "vomiting" }, "note": "Near pair: retroflex ṇ versus dental n." }
+      ],
+      "drill": [
+        { "native": "ପାଣି", "roman": "paṇi", "en": "water" },
+        { "native": "କାନ", "roman": "kanô", "en": "ear" },
+        { "native": "ଶୁଣନ୍ତୁ", "roman": "suṇôntu", "en": "please listen" },
+        { "native": "ରଙ୍ଗ", "roman": "rôṅgô", "en": "colour" },
+        { "native": "ପାଞ୍ଚ", "roman": "pañchô", "en": "five" },
+        { "native": "ସିଂହ", "roman": "siṅhô", "en": "lion" },
+        { "native": "ଇଂରାଜୀ", "roman": "Iṅraji", "en": "English" }
+      ]
+    },
+    {
+      "id": "nasalization",
+      "title": "Nasal vowels (ଁ)",
+      "body": "The chandrabindu ଁ makes the vowel before it **nasal**: air flows through the nose and mouth together, as in French *non* or *bien*. There is no n or m consonant at the end — just a nasal colour on the vowel. Some of the most common words have it: ମୁଁ *muṃ* 'I', ହଁ *hôṃ* 'yes', ନାହିଁ *nahiṃ* 'no / is not', ପାଇଁ *paiṃ* 'for'.\n\nIt also matters grammatically: honorific and plural case forms add a nasal (ତାକୁ *taku* 'to him' vs ତାଙ୍କୁ *taṅku* 'to him (respectful)').",
+      "tips": ["Hum slightly through your nose while saying the vowel.", "Don't add a full n at the end of ମୁଁ — it's 'muṃ', not 'moon'.", "Pinch your nose: a nasal vowel will sound blocked."],
+      "pairs": [
+        { "a": { "native": "ଗାଁ", "roman": "gaṃ", "en": "village" }, "b": { "native": "ଗା", "roman": "ga", "en": "sing! (intimate)" } },
+        { "a": { "native": "ପାଇଁ", "roman": "paiṃ", "en": "for" }, "b": { "native": "ପାଇ", "roman": "pai", "en": "having got" } },
+        { "a": { "native": "ତାଙ୍କୁ", "roman": "taṅku", "en": "to him/her (respectful)" }, "b": { "native": "ତାକୁ", "roman": "taku", "en": "to him/her" } }
+      ],
+      "drill": [
+        { "native": "ମୁଁ", "roman": "muṃ", "en": "I" },
+        { "native": "ହଁ", "roman": "hôṃ", "en": "yes" },
+        { "native": "ନାହିଁ", "roman": "nahiṃ", "en": "no; is not" },
+        { "native": "ମୁହଁ", "roman": "muhôṃ", "en": "face" },
+        { "native": "କେଉଁଠି", "roman": "keuṃṭhi", "en": "where" },
+        { "native": "ନିଆଁ", "roman": "niaṃ", "en": "fire" }
+      ]
+    },
+    {
+      "id": "sibilants-y",
+      "title": "One s for three letters; ଯ is j, ୟ is y",
+      "body": "Odia spelling inherited three s-letters from Sanskrit — ଶ, ଷ and ସ — but standard Odia pronounces **all three as s** (as in *sun*). Speakers of Hindi or Bengali often say *sh*; in Odia that sounds bookish or foreign. A *sh* is heard only in some English loanwords and careful Sanskrit recitation.\n\nSimilarly there are two y-letters: **ଯ** (*borgiya jô*) is pronounced **j**, exactly like ଜ, while **ୟ** (*ontôsthô yô*, with a dot/slash below) is a real *y*. So ଯାତ୍ରା is *jatra*, ଯଦି is *jôdi*, but ନିୟମ is *niyômô*. The letter ୱ is *w*, mostly in conjuncts (ସ୍ୱ *sw*).",
+      "tips": ["Read every ଶ ଷ ସ as s.", "ଯ = j; ୟ = y.", "ବ is always b: Sanskrit 'v' words are said with b (ବିଦେଶ *bidesô*)."],
+      "drill": [
+        { "native": "ଶୀତ", "roman": "sitô", "en": "winter" },
+        { "native": "ଦେଶ", "roman": "desô", "en": "country" },
+        { "native": "ମଣିଷ", "roman": "môṇisô", "en": "human being" },
+        { "native": "ଯଦି", "roman": "jôdi", "en": "if" },
+        { "native": "ଯିବା", "roman": "jiba", "en": "to go" },
+        { "native": "ସମୟ", "roman": "sômôyô", "en": "time" },
+        { "native": "ସ୍ୱାମୀ", "roman": "swami", "en": "husband" },
+        { "native": "ବିଦେଶ", "roman": "bidesô", "en": "abroad" }
+      ]
+    },
+    {
+      "id": "special-letters",
+      "title": "Letters that don't sound like their spelling: ଋ, କ୍ଷ, ଜ୍ଞ",
+      "body": "A few Sanskrit letters have a typically Odia pronunciation. The vowel **ଋ / ୃ** is said **ru** (Hindi says *ri*): ଋତୁ *rutu* 'season', କୃଷକ *krusôkô* 'farmer'. The conjunct **କ୍ଷ** is said **khy** (Hindi *kṣ*): କ୍ଷୀର *khyirô* 'milk', ଶିକ୍ଷକ *sikhyôkô* 'teacher'. **ଜ୍ଞ** is said **gy**: ଜ୍ଞାନ *gyanô* 'knowledge', ଆଜ୍ଞା *agya* 'sir; yes sir'.\n\nAnd the ଯ-ଫଳା (୍ୟ) doubles the consonant before it: ଧନ୍ୟବାଦ *dhônnyôbadô*, ବିଦ୍ୟା *biddya*, ସତ୍ୟ *sôttyô*.",
+      "tips": ["ୃ = ru, never ri.", "କ୍ଷ = khy; ଜ୍ଞ = gy.", "୍ୟ: hold the consonant before it longer."],
+      "drill": [
+        { "native": "କୃଷକ", "roman": "krusôkô", "en": "farmer" },
+        { "native": "ଋତୁ", "roman": "rutu", "en": "season" },
+        { "native": "ଶିକ୍ଷକ", "roman": "sikhyôkô", "en": "teacher" },
+        { "native": "ପରୀକ୍ଷା", "roman": "pôrikhya", "en": "exam" },
+        { "native": "ଆଜ୍ଞା", "roman": "agya", "en": "sir; yes sir" },
+        { "native": "ସତ୍ୟ", "roman": "sôttyô", "en": "truth" },
+        { "native": "ଲକ୍ଷ୍ମୀ", "roman": "Lôkhmi", "en": "Lakshmi" }
+      ]
+    },
+    {
+      "id": "gemination",
+      "title": "Double consonants",
+      "body": "A doubled consonant is **held** for longer before releasing: ପକ୍କା *pôkka* has a clear pause on the k, like the 'k-c' in *book-case*. Single and double consonants can change the meaning, so don't rush through them.\n\nDoubling is written with a conjunct (କ୍କ, ତ୍ତ, ଲ୍ଲ, ଚ୍ଛ …) and also happens automatically before the ଯ-ଫଳା (୍ୟ).",
+      "tips": ["Pause briefly on the doubled consonant.", "Think 'book-case', 'hot-tea'.", "Single consonants between vowels are short and light."],
+      "pairs": [
+        { "a": { "native": "ପକା", "roman": "pôka", "en": "throw! put! (intimate)" }, "b": { "native": "ପକ୍କା", "roman": "pôkka", "en": "solid, proper, sure" } },
+        { "a": { "native": "ମତ", "roman": "môtô", "en": "opinion" }, "b": { "native": "ମତ୍ତ", "roman": "môttô", "en": "intoxicated" } }
+      ],
+      "drill": [
+        { "native": "ଉତ୍ତର", "roman": "uttôrô", "en": "answer" },
+        { "native": "ଇଚ୍ଛା", "roman": "ichchha", "en": "wish" },
+        { "native": "ଆଚ୍ଛା", "roman": "achchha", "en": "okay, well" },
+        { "native": "ଜଗନ୍ନାଥ", "roman": "Jôgônnathô", "en": "Jagannath" },
+        { "native": "ଅଟ୍ଟାଳିକା", "roman": "ôṭṭaḷika", "en": "mansion, tall building" }
+      ]
+    },
+    {
+      "id": "intonation",
+      "title": "Rhythm and question intonation",
+      "body": "Odia has a light, even rhythm: syllables are of similar length and there is no heavy English-style stress. A gentle prominence falls on the **first syllable** of a word. Don't reduce unstressed vowels to 'uh' — every ô and a keeps its full quality.\n\nA yes/no question can be made just by **raising the pitch** at the end of a statement: ସେ ଆସିବ। (falling) 'He will come.' vs ସେ ଆସିବ? (rising) 'Will he come?'. You can also add the particle **କି** (*ki*) at the end: ତୁମେ ଖାଇଛ କି? 'Have you eaten?'. Question-word questions (କ'ଣ, କେଉଁଠି…) usually fall at the end.",
+      "tips": ["Keep syllables even; don't swallow vowels.", "Rise at the end for yes/no questions; fall for 'what/where' questions.", "କି at the end turns a statement into a question."],
+      "pairs": [
+        { "a": { "native": "ସେ ଆସିବ।", "roman": "se asibô.", "en": "He/She will come." }, "b": { "native": "ସେ ଆସିବ?", "roman": "se asibô?", "en": "Will he/she come?" }, "note": "Same words — only the final pitch differs." },
+        { "a": { "native": "ତୁମେ ଖାଇଛ।", "roman": "tume khaichhô.", "en": "You have eaten." }, "b": { "native": "ତୁମେ ଖାଇଛ କି?", "roman": "tume khaichhô ki?", "en": "Have you eaten?" } }
+      ],
+      "drill": [
+        { "native": "ଆପଣ ଭଲ ଅଛନ୍ତି?", "roman": "apôṇô bhôlô achhônti?", "en": "Are you well?" },
+        { "native": "ଆପଣଙ୍କ ନାମ କ'ଣ?", "roman": "apôṇôṅkô namô kôṇô?", "en": "What is your name?" },
+        { "native": "ଚା ପିଇବେ?", "roman": "cha piibe?", "en": "Will you have tea?" },
+        { "native": "ବଜାର କେଉଁଠି?", "roman": "bôjarô keuṃṭhi?", "en": "Where is the market?" },
+        { "native": "ହଁ, ନିଶ୍ଚୟ।", "roman": "hôṃ, nischôyô.", "en": "Yes, certainly." }
+      ]
+    }
+  ],
+  "numbers": [
+    { "n": 0, "native": "ଶୂନ", "roman": "sunô", "digit": "୦" },
+    { "n": 1, "native": "ଏକ", "roman": "ekô", "digit": "୧" },
+    { "n": 2, "native": "ଦୁଇ", "roman": "dui", "digit": "୨" },
+    { "n": 3, "native": "ତିନି", "roman": "tini", "digit": "୩" },
+    { "n": 4, "native": "ଚାରି", "roman": "chari", "digit": "୪" },
+    { "n": 5, "native": "ପାଞ୍ଚ", "roman": "pañchô", "digit": "୫" },
+    { "n": 6, "native": "ଛଅ", "roman": "chhô", "digit": "୬" },
+    { "n": 7, "native": "ସାତ", "roman": "satô", "digit": "୭" },
+    { "n": 8, "native": "ଆଠ", "roman": "aṭhô", "digit": "୮" },
+    { "n": 9, "native": "ନଅ", "roman": "nô", "digit": "୯" },
+    { "n": 10, "native": "ଦଶ", "roman": "dôsô", "digit": "୧୦" },
+    { "n": 11, "native": "ଏଗାର", "roman": "egarô", "digit": "୧୧" },
+    { "n": 12, "native": "ବାର", "roman": "barô", "digit": "୧୨" },
+    { "n": 13, "native": "ତେର", "roman": "terô", "digit": "୧୩" },
+    { "n": 14, "native": "ଚଉଦ", "roman": "chôudô", "digit": "୧୪" },
+    { "n": 15, "native": "ପନ୍ଦର", "roman": "pôndôrô", "digit": "୧୫" },
+    { "n": 16, "native": "ଷୋହଳ", "roman": "sohôḷô", "digit": "୧୬" },
+    { "n": 17, "native": "ସତର", "roman": "sôtôrô", "digit": "୧୭" },
+    { "n": 18, "native": "ଅଠର", "roman": "ôṭhôrô", "digit": "୧୮" },
+    { "n": 19, "native": "ଊଣେଇଶି", "roman": "uṇeisi", "digit": "୧୯" },
+    { "n": 20, "native": "କୋଡ଼ିଏ", "roman": "koṛie", "digit": "୨୦" },
+    { "n": 21, "native": "ଏକୋଇଶି", "roman": "ekoisi", "digit": "୨୧" },
+    { "n": 22, "native": "ବାଇଶି", "roman": "baisi", "digit": "୨୨" },
+    { "n": 23, "native": "ତେଇଶି", "roman": "teisi", "digit": "୨୩" },
+    { "n": 24, "native": "ଚବିଶି", "roman": "chôbisi", "digit": "୨୪" },
+    { "n": 25, "native": "ପଚିଶି", "roman": "pôchisi", "digit": "୨୫" },
+    { "n": 26, "native": "ଛବିଶି", "roman": "chhôbisi", "digit": "୨୬" },
+    { "n": 27, "native": "ସତାଇଶି", "roman": "sôtaisi", "digit": "୨୭" },
+    { "n": 28, "native": "ଅଠାଇଶି", "roman": "ôṭhaisi", "digit": "୨୮" },
+    { "n": 29, "native": "ଅଣତିରିଶି", "roman": "ôṇôtirisi", "digit": "୨୯" },
+    { "n": 30, "native": "ତିରିଶି", "roman": "tirisi", "digit": "୩୦" },
+    { "n": 31, "native": "ଏକତିରିଶି", "roman": "ekôtirisi", "digit": "୩୧" },
+    { "n": 32, "native": "ବତିଶି", "roman": "bôtisi", "digit": "୩୨" },
+    { "n": 33, "native": "ତେତିଶି", "roman": "tetisi", "digit": "୩୩" },
+    { "n": 34, "native": "ଚଉତିରିଶି", "roman": "chôutirisi", "digit": "୩୪" },
+    { "n": 35, "native": "ପଇଁତିରିଶି", "roman": "pôiṃtirisi", "digit": "୩୫" },
+    { "n": 36, "native": "ଛତିଶି", "roman": "chhôtisi", "digit": "୩୬" },
+    { "n": 37, "native": "ସଇଁତିରିଶି", "roman": "sôiṃtirisi", "digit": "୩୭" },
+    { "n": 38, "native": "ଅଠତିରିଶି", "roman": "ôṭhôtirisi", "digit": "୩୮" },
+    { "n": 39, "native": "ଅଣଚାଳିଶି", "roman": "ôṇôchaḷisi", "digit": "୩୯" },
+    { "n": 40, "native": "ଚାଳିଶି", "roman": "chaḷisi", "digit": "୪୦" },
+    { "n": 41, "native": "ଏକଚାଳିଶି", "roman": "ekôchaḷisi", "digit": "୪୧" },
+    { "n": 42, "native": "ବୟାଳିଶି", "roman": "bôyaḷisi", "digit": "୪୨" },
+    { "n": 43, "native": "ତେୟାଳିଶି", "roman": "teyaḷisi", "digit": "୪୩" },
+    { "n": 44, "native": "ଚଉରାଳିଶି", "roman": "chôuraḷisi", "digit": "୪୪" },
+    { "n": 45, "native": "ପଞ୍ଚଚାଳିଶି", "roman": "pôñchôchaḷisi", "digit": "୪୫" },
+    { "n": 46, "native": "ଛୟାଳିଶି", "roman": "chhôyaḷisi", "digit": "୪୬" },
+    { "n": 47, "native": "ସତଚାଳିଶି", "roman": "sôtôchaḷisi", "digit": "୪୭" },
+    { "n": 48, "native": "ଅଠଚାଳିଶି", "roman": "ôṭhôchaḷisi", "digit": "୪୮" },
+    { "n": 49, "native": "ଅଣଚାଶ", "roman": "ôṇôchasô", "digit": "୪୯" },
+    { "n": 50, "native": "ପଚାଶ", "roman": "pôchasô", "digit": "୫୦" },
+    { "n": 51, "native": "ଏକାବନ", "roman": "ekabônô", "digit": "୫୧" },
+    { "n": 52, "native": "ବାଉନ", "roman": "baunô", "digit": "୫୨" },
+    { "n": 53, "native": "ତିରେପନ", "roman": "tirepônô", "digit": "୫୩" },
+    { "n": 54, "native": "ଚଉବନ", "roman": "chôubônô", "digit": "୫୪" },
+    { "n": 55, "native": "ପଞ୍ଚାବନ", "roman": "pôñchabônô", "digit": "୫୫" },
+    { "n": 56, "native": "ଛପନ", "roman": "chhôpônô", "digit": "୫୬" },
+    { "n": 57, "native": "ସତାବନ", "roman": "sôtabônô", "digit": "୫୭" },
+    { "n": 58, "native": "ଅଠାବନ", "roman": "ôṭhabônô", "digit": "୫୮" },
+    { "n": 59, "native": "ଅଣଷଠି", "roman": "ôṇôsôṭhi", "digit": "୫୯" },
+    { "n": 60, "native": "ଷାଠିଏ", "roman": "saṭhie", "digit": "୬୦" },
+    { "n": 61, "native": "ଏକଷଠି", "roman": "ekôsôṭhi", "digit": "୬୧" },
+    { "n": 62, "native": "ବାଷଠି", "roman": "basôṭhi", "digit": "୬୨" },
+    { "n": 63, "native": "ତେଷଠି", "roman": "tesôṭhi", "digit": "୬୩" },
+    { "n": 64, "native": "ଚଉଷଠି", "roman": "chôusôṭhi", "digit": "୬୪" },
+    { "n": 65, "native": "ପଞ୍ଚଷଠି", "roman": "pôñchôsôṭhi", "digit": "୬୫" },
+    { "n": 66, "native": "ଛଅଷଠି", "roman": "chhôsôṭhi", "digit": "୬୬" },
+    { "n": 67, "native": "ସତଷଠି", "roman": "sôtôsôṭhi", "digit": "୬୭" },
+    { "n": 68, "native": "ଅଠଷଠି", "roman": "ôṭhôsôṭhi", "digit": "୬୮" },
+    { "n": 69, "native": "ଅଣସ୍ତରି", "roman": "ôṇôstôri", "digit": "୬୯" },
+    { "n": 70, "native": "ସତୁରି", "roman": "sôturi", "digit": "୭୦" },
+    { "n": 71, "native": "ଏକସ୍ତରି", "roman": "ekôstôri", "digit": "୭୧" },
+    { "n": 72, "native": "ବାସ୍ତରି", "roman": "bastôri", "digit": "୭୨" },
+    { "n": 73, "native": "ତେସ୍ତରି", "roman": "testôri", "digit": "୭୩" },
+    { "n": 74, "native": "ଚଉସ୍ତରି", "roman": "chôustôri", "digit": "୭୪" },
+    { "n": 75, "native": "ପଞ୍ଚସ୍ତରି", "roman": "pôñchôstôri", "digit": "୭୫" },
+    { "n": 76, "native": "ଛଅସ୍ତରି", "roman": "chhôstôri", "digit": "୭୬" },
+    { "n": 77, "native": "ସତସ୍ତରି", "roman": "sôtôstôri", "digit": "୭୭" },
+    { "n": 78, "native": "ଅଠସ୍ତରି", "roman": "ôṭhôstôri", "digit": "୭୮" },
+    { "n": 79, "native": "ଅଣାଅଶୀ", "roman": "ôṇaôsi", "digit": "୭୯" },
+    { "n": 80, "native": "ଅଶୀ", "roman": "ôsi", "digit": "୮୦" },
+    { "n": 81, "native": "ଏକାଅଶୀ", "roman": "ekaôsi", "digit": "୮୧" },
+    { "n": 82, "native": "ବୟାଅଶୀ", "roman": "bôyaôsi", "digit": "୮୨" },
+    { "n": 83, "native": "ତେୟାଅଶୀ", "roman": "teyaôsi", "digit": "୮୩" },
+    { "n": 84, "native": "ଚଉରାଅଶୀ", "roman": "chôuraôsi", "digit": "୮୪" },
+    { "n": 85, "native": "ପଞ୍ଚାଅଶୀ", "roman": "pôñchaôsi", "digit": "୮୫" },
+    { "n": 86, "native": "ଛୟାଅଶୀ", "roman": "chhôyaôsi", "digit": "୮୬" },
+    { "n": 87, "native": "ସତାଅଶୀ", "roman": "sôtaôsi", "digit": "୮୭" },
+    { "n": 88, "native": "ଅଠାଅଶୀ", "roman": "ôṭhaôsi", "digit": "୮୮" },
+    { "n": 89, "native": "ଅଣାନବେ", "roman": "ôṇanôbe", "digit": "୮୯" },
+    { "n": 90, "native": "ନବେ", "roman": "nôbe", "digit": "୯୦" },
+    { "n": 91, "native": "ଏକାନବେ", "roman": "ekanôbe", "digit": "୯୧" },
+    { "n": 92, "native": "ବୟାନବେ", "roman": "bôyanôbe", "digit": "୯୨" },
+    { "n": 93, "native": "ତେୟାନବେ", "roman": "teyanôbe", "digit": "୯୩" },
+    { "n": 94, "native": "ଚଉରାନବେ", "roman": "chôuranôbe", "digit": "୯୪" },
+    { "n": 95, "native": "ପଞ୍ଚାନବେ", "roman": "pôñchanôbe", "digit": "୯୫" },
+    { "n": 96, "native": "ଛୟାନବେ", "roman": "chhôyanôbe", "digit": "୯୬" },
+    { "n": 97, "native": "ସତାନବେ", "roman": "sôtanôbe", "digit": "୯୭" },
+    { "n": 98, "native": "ଅଠାନବେ", "roman": "ôṭhanôbe", "digit": "୯୮" },
+    { "n": 99, "native": "ଅନେଶତ", "roman": "ônesôtô", "digit": "୯୯" },
+    { "n": 100, "native": "ଶହେ", "roman": "sôhe", "digit": "୧୦୦" },
+    { "n": 200, "native": "ଦୁଇ ଶହ", "roman": "dui sôhô", "digit": "୨୦୦" },
+    { "n": 500, "native": "ପାଞ୍ଚ ଶହ", "roman": "pañchô sôhô", "digit": "୫୦୦" },
+    { "n": 1000, "native": "ହଜାରେ", "roman": "hôjare", "digit": "୧୦୦୦" },
+    { "n": 100000, "native": "ଏକ ଲକ୍ଷ", "roman": "ekô lôkhyô", "digit": "୧୦୦୦୦୦" },
+    { "n": 10000000, "native": "ଏକ କୋଟି", "roman": "ekô koṭi", "digit": "୧୦୦୦୦୦୦୦" }
+  ]
+}

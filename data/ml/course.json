@@ -1,0 +1,2915 @@
+{
+  "code": "ml",
+  "name": "Malayalam",
+  "native": "മലയാളം",
+  "scriptName": "Malayalam",
+  "script": {
+    "overview": "Malayalam is written in its own **abugida**, descended from the ancient Grantha script. Each consonant letter carries an inherent short **a**: ക is *ka*, മ is *ma*. To get another vowel you attach a **vowel sign** — which may go after (കാ *kā*), before (കെ *ke*) or on both sides (കൊ *ko*) of the consonant, but is always *pronounced* after it. Writing runs left to right with no headline; letters are rounded and loopy, which suited writing on palm leaves with a stylus (straight lines would split the leaf).\n\nTo kill the inherent vowel you add the **chandrakkala** ് (also called *virama*). At the end of a word it is not silent: it is pronounced as the short half-u **ŭ** (samvruthokaram): ഉണ്ട് *uṇḍŭ*. Five consonants (n, r, l, ḷ, ṇ — plus a rare k) have special pure-consonant forms called **chillu** letters (ൻ ർ ൽ ൾ ൺ ൿ) used where the consonant has no vowel at all: അവൻ *avan* 'he'.\n\nWhen two consonants meet without a vowel they form a **conjunct**. Malayalam has many traditional stacked or fused ligatures (ക്ക, ങ്ങ, ന്ന, ന്റ, ത്ത, ണ്ട…). In 1971 a script reform (and later computer fonts) introduced the **reformed / modern orthography**, in which the vowel signs ു ൂ are detached and many rarer conjuncts are written with a visible chandrakkala (e.g. ന്ത് ത്സ ങ്ക). You will see both styles: signboards, newspapers and older books often use the traditional ligatures (e.g. a fused ക്കു, a stacked ന്ത), while school books and phones mostly show reformed forms. The *spelling* is the same; only the shapes differ. This course uses Unicode text, so your font decides which shapes appear.\n\nThe anusvara ം is read as **m** (usually at the end of a word: മരം *maram* 'tree'). Malayalam once had its own digits (൧ ൨ ൩…), but today ordinary Western digits 1 2 3 are used almost everywhere.",
+    "groups": [
+      {
+        "id": "vowels",
+        "title": "Vowels (സ്വരങ്ങൾ)",
+        "note": "Independent vowel letters are used at the start of a word. After a consonant, the vowel sign (shown with ക) is used instead. Malayalam distinguishes short and long versions of every vowel, including e/ē and o/ō.",
+        "letters": [
+          {
+            "char": "അ",
+            "roman": "a",
+            "ipa": "a ~ ə",
+            "sound": "Short 'u' in 'cup'; at the end of a word it is a neutral 'uh'.",
+            "sign": "—",
+            "signExample": "ക (ka)",
+            "example": {
+              "native": "അമ്മ",
+              "roman": "amma",
+              "en": "mother"
+            },
+            "strokes": "Start with the left loop, sweep right into the tall hooked tail."
+          },
+          {
+            "char": "ആ",
+            "roman": "ā",
+            "ipa": "aː",
+            "sound": "Long 'a' in 'father'.",
+            "sign": "ാ",
+            "signExample": "കാ (kā)",
+            "example": {
+              "native": "ആന",
+              "roman": "āna",
+              "en": "elephant"
+            },
+            "strokes": "Write അ, then add the ാ hook on the right."
+          },
+          {
+            "char": "ഇ",
+            "roman": "i",
+            "ipa": "i",
+            "sound": "Short 'i' in 'bit' but crisper.",
+            "sign": "ി",
+            "signExample": "കി (ki)",
+            "example": {
+              "native": "ഇല",
+              "roman": "ila",
+              "en": "leaf"
+            },
+            "strokes": "Loop, then curl down and around to the right."
+          },
+          {
+            "char": "ഈ",
+            "roman": "ī",
+            "ipa": "iː",
+            "sound": "Long 'ee' in 'see'.",
+            "sign": "ീ",
+            "signExample": "കീ (kī)",
+            "example": {
+              "native": "ഈച്ച",
+              "roman": "īccha",
+              "en": "housefly"
+            },
+            "strokes": "Like ഇ with an extra tail loop on the right."
+          },
+          {
+            "char": "ഉ",
+            "roman": "u",
+            "ipa": "u",
+            "sound": "Short 'u' in 'put'.",
+            "sign": "ു",
+            "signExample": "കു (ku)",
+            "example": {
+              "native": "ഉപ്പ്",
+              "roman": "uppŭ",
+              "en": "salt"
+            },
+            "strokes": "One rounded hump with a tail; the sign ു is a small hook below or attached to the right."
+          },
+          {
+            "char": "ഊ",
+            "roman": "ū",
+            "ipa": "uː",
+            "sound": "Long 'oo' in 'food'.",
+            "sign": "ൂ",
+            "signExample": "കൂ (kū)",
+            "example": {
+              "native": "ഊഞ്ഞാൽ",
+              "roman": "ūññāl",
+              "en": "swing"
+            },
+            "strokes": "ഉ with an added loop."
+          },
+          {
+            "char": "ഋ",
+            "roman": "ṛ (ri / ru)",
+            "ipa": "rɨ",
+            "sound": "Vocalic r, only in Sanskrit words; pronounced 'ri' or 'ru'.",
+            "sign": "ൃ",
+            "signExample": "കൃ (kri)",
+            "example": {
+              "native": "ഋഷി",
+              "roman": "riṣi",
+              "en": "sage"
+            },
+            "strokes": "A loop with a long curling tail; the sign ൃ is a small curl attached after the consonant."
+          },
+          {
+            "char": "എ",
+            "roman": "e",
+            "ipa": "e",
+            "sound": "Short 'e' in 'pet'; at the start of a word say a light 'ye-'.",
+            "sign": "െ",
+            "signExample": "കെ (ke)",
+            "example": {
+              "native": "എലി",
+              "roman": "eli",
+              "en": "rat"
+            },
+            "strokes": "The sign െ is written BEFORE (to the left of) the consonant."
+          },
+          {
+            "char": "ഏ",
+            "roman": "ē",
+            "ipa": "eː",
+            "sound": "Long 'ay' in 'day' but without the glide (pure eː).",
+            "sign": "േ",
+            "signExample": "കേ (kē)",
+            "example": {
+              "native": "ഏണി",
+              "roman": "ēṇi",
+              "en": "ladder"
+            },
+            "strokes": "The sign േ also goes before the consonant; it has a small extra stroke on top."
+          },
+          {
+            "char": "ഐ",
+            "roman": "ai",
+            "ipa": "ai̯",
+            "sound": "'i' in 'bite'.",
+            "sign": "ൈ",
+            "signExample": "കൈ (kai)",
+            "example": {
+              "native": "കൈ",
+              "roman": "kai",
+              "en": "hand / arm"
+            },
+            "strokes": "The sign ൈ is a double െ written before the consonant."
+          },
+          {
+            "char": "ഒ",
+            "roman": "o",
+            "ipa": "o",
+            "sound": "Short 'o', like 'o' in Spanish 'como'; at the start of a word a light 'wo-'.",
+            "sign": "ൊ",
+            "signExample": "കൊ (ko)",
+            "example": {
+              "native": "ഒട്ടകം",
+              "roman": "oṭṭakam",
+              "en": "camel"
+            },
+            "strokes": "The sign ൊ surrounds the consonant: െ before and ാ after."
+          },
+          {
+            "char": "ഓ",
+            "roman": "ō",
+            "ipa": "oː",
+            "sound": "Long pure 'o' as in 'go' (without the English 'w' glide).",
+            "sign": "ോ",
+            "signExample": "കോ (kō)",
+            "example": {
+              "native": "ഓല",
+              "roman": "ōla",
+              "en": "palm leaf"
+            },
+            "strokes": "The sign ോ is േ before and ാ after."
+          },
+          {
+            "char": "ഔ",
+            "roman": "au",
+            "ipa": "au̯",
+            "sound": "'ow' in 'cow'. Rare, mostly in Sanskrit words.",
+            "sign": "ൗ",
+            "signExample": "കൗ (kau)",
+            "example": {
+              "native": "ഔഷധം",
+              "roman": "auṣadham",
+              "en": "medicine"
+            },
+            "strokes": "Modern sign ൗ is െ before and the au-length mark ൗ after; older texts use ൌ."
+          }
+        ]
+      },
+      {
+        "id": "velar",
+        "title": "Velar consonants (ക-വർഗ്ഗം)",
+        "note": "Made with the back of the tongue against the soft palate. Aspirated letters (ഖ ഘ) occur almost only in Sanskrit loans; many speakers say them with weak aspiration.",
+        "letters": [
+          {
+            "char": "ക",
+            "roman": "ka",
+            "ipa": "ka ~ ɡa",
+            "sound": "Unaspirated 'k' (as in 'skin'); softened toward 'g' between vowels.",
+            "example": {
+              "native": "കടൽ",
+              "roman": "kaṭal",
+              "en": "sea"
+            },
+            "strokes": "A loop on the left joined to a rounded hump with a downward tail."
+          },
+          {
+            "char": "ഖ",
+            "roman": "kha",
+            "ipa": "kʰa",
+            "sound": "Aspirated 'k' with a puff of air, like 'k' in 'kite'.",
+            "example": {
+              "native": "ഖേദം",
+              "roman": "khēdam",
+              "en": "regret"
+            }
+          },
+          {
+            "char": "ഗ",
+            "roman": "ga",
+            "ipa": "ɡa",
+            "sound": "'g' in 'go'.",
+            "example": {
+              "native": "ഗണിതം",
+              "roman": "gaṇitam",
+              "en": "mathematics"
+            }
+          },
+          {
+            "char": "ഘ",
+            "roman": "gha",
+            "ipa": "ɡʱa",
+            "sound": "Breathy 'g' — 'g' followed by a puff of breath.",
+            "example": {
+              "native": "ഘടികാരം",
+              "roman": "ghaṭikāram",
+              "en": "clock (formal)"
+            }
+          },
+          {
+            "char": "ങ",
+            "roman": "ṅa",
+            "ipa": "ŋa",
+            "sound": "'ng' in 'sing', but it can start a syllable. Mostly appears doubled (ങ്ങ) or before ക (ങ്ക).",
+            "example": {
+              "native": "തേങ്ങ",
+              "roman": "tēṅṅa",
+              "en": "coconut"
+            }
+          }
+        ]
+      },
+      {
+        "id": "palatal",
+        "title": "Palatal consonants (ച-വർഗ്ഗം)",
+        "note": "Made with the flat of the tongue against the hard palate.",
+        "letters": [
+          {
+            "char": "ച",
+            "roman": "cha",
+            "ipa": "t͡ʃa",
+            "sound": "'ch' in 'church', without a strong puff of air.",
+            "example": {
+              "native": "ചായ",
+              "roman": "chāya",
+              "en": "tea"
+            }
+          },
+          {
+            "char": "ഛ",
+            "roman": "chha",
+            "ipa": "t͡ʃʰa",
+            "sound": "Aspirated 'ch'. Rare; in അച്ഛൻ 'father' the aspiration is usually not heard.",
+            "example": {
+              "native": "ഛായ",
+              "roman": "chhāya",
+              "en": "likeness, resemblance"
+            }
+          },
+          {
+            "char": "ജ",
+            "roman": "ja",
+            "ipa": "d͡ʒa",
+            "sound": "'j' in 'jam'.",
+            "example": {
+              "native": "ജനൽ",
+              "roman": "janal",
+              "en": "window"
+            }
+          },
+          {
+            "char": "ഝ",
+            "roman": "jha",
+            "ipa": "d͡ʒʱa",
+            "sound": "Breathy 'j'. Very rare; literary words only.",
+            "example": {
+              "native": "ഝടുതി",
+              "roman": "jhaṭuti",
+              "en": "quickly (literary)"
+            }
+          },
+          {
+            "char": "ഞ",
+            "roman": "ña",
+            "ipa": "ɲa",
+            "sound": "'ny' in 'canyon'. Common in Malayalam, even at the start of words.",
+            "example": {
+              "native": "ഞണ്ട്",
+              "roman": "ñaṇḍŭ",
+              "en": "crab"
+            }
+          }
+        ]
+      },
+      {
+        "id": "retroflex",
+        "title": "Retroflex consonants (ട-വർഗ്ഗം)",
+        "note": "Curl the tip of the tongue up and back so the underside touches the roof of the mouth behind the gum ridge. These are written with a dot below in the romanization.",
+        "letters": [
+          {
+            "char": "ട",
+            "roman": "ṭa",
+            "ipa": "ʈa ~ ɖa",
+            "sound": "Retroflex 't' — tongue curled back; a single ട between vowels sounds almost like 'ḍ'.",
+            "example": {
+              "native": "ടിക്കറ്റ്",
+              "roman": "ṭikkaṯṯŭ",
+              "en": "ticket"
+            }
+          },
+          {
+            "char": "ഠ",
+            "roman": "ṭha",
+            "ipa": "ʈʰa",
+            "sound": "Aspirated retroflex 't'. Rare, mostly Sanskrit words.",
+            "example": {
+              "native": "പാഠം",
+              "roman": "pāṭham",
+              "en": "lesson"
+            }
+          },
+          {
+            "char": "ഡ",
+            "roman": "ḍa",
+            "ipa": "ɖa",
+            "sound": "Retroflex 'd', common in English loans (doctor, dance).",
+            "example": {
+              "native": "ഡോക്ടർ",
+              "roman": "ḍōkṭar",
+              "en": "doctor"
+            }
+          },
+          {
+            "char": "ഢ",
+            "roman": "ḍha",
+            "ipa": "ɖʱa",
+            "sound": "Breathy retroflex 'd'. Very rare.",
+            "example": {
+              "native": "ഗൂഢം",
+              "roman": "gūḍham",
+              "en": "secret, mysterious"
+            }
+          },
+          {
+            "char": "ണ",
+            "roman": "ṇa",
+            "ipa": "ɳa",
+            "sound": "Retroflex 'n' — tongue curled back. Never starts a word.",
+            "example": {
+              "native": "പണം",
+              "roman": "paṇam",
+              "en": "money"
+            }
+          }
+        ]
+      },
+      {
+        "id": "dental",
+        "title": "Dental consonants (ത-വർഗ്ഗം)",
+        "note": "Tongue tip touches the back of the upper teeth (further forward than English t/d).",
+        "letters": [
+          {
+            "char": "ത",
+            "roman": "ta",
+            "ipa": "t̪a ~ d̪a",
+            "sound": "Soft dental 't' as in French/Spanish; never the English 'th' sound.",
+            "example": {
+              "native": "തല",
+              "roman": "tala",
+              "en": "head"
+            }
+          },
+          {
+            "char": "ഥ",
+            "roman": "tha",
+            "ipa": "t̪ʰa",
+            "sound": "Aspirated dental 't' (a 't' with breath), not English 'th'.",
+            "example": {
+              "native": "കഥ",
+              "roman": "katha",
+              "en": "story"
+            }
+          },
+          {
+            "char": "ദ",
+            "roman": "da",
+            "ipa": "d̪a",
+            "sound": "Dental 'd', tongue against the teeth.",
+            "example": {
+              "native": "ദിവസം",
+              "roman": "divasam",
+              "en": "day"
+            }
+          },
+          {
+            "char": "ധ",
+            "roman": "dha",
+            "ipa": "d̪ʱa",
+            "sound": "Breathy dental 'd'.",
+            "example": {
+              "native": "ധനം",
+              "roman": "dhanam",
+              "en": "wealth"
+            }
+          },
+          {
+            "char": "ന",
+            "roman": "na",
+            "ipa": "n̪a ~ na",
+            "sound": "'n'. Dental at the start of a word and before ത; alveolar (English-like) in the middle of words. (Old script had a separate letter ഩ for the alveolar n.)",
+            "example": {
+              "native": "നായ",
+              "roman": "nāya",
+              "en": "dog"
+            }
+          }
+        ]
+      },
+      {
+        "id": "labial",
+        "title": "Labial consonants (പ-വർഗ്ഗം)",
+        "note": "Made with the lips.",
+        "letters": [
+          {
+            "char": "പ",
+            "roman": "pa",
+            "ipa": "pa",
+            "sound": "Unaspirated 'p' (as in 'spin').",
+            "example": {
+              "native": "പല്ല്",
+              "roman": "pallŭ",
+              "en": "tooth"
+            }
+          },
+          {
+            "char": "ഫ",
+            "roman": "pha",
+            "ipa": "pʰa ~ fa",
+            "sound": "Aspirated 'p'; in English loans and for most modern speakers it is 'f'.",
+            "example": {
+              "native": "ഫോൺ",
+              "roman": "phōṇ (fōṇ)",
+              "en": "phone"
+            }
+          },
+          {
+            "char": "ബ",
+            "roman": "ba",
+            "ipa": "ba",
+            "sound": "'b' in 'bus'.",
+            "example": {
+              "native": "ബസ്",
+              "roman": "basŭ",
+              "en": "bus"
+            }
+          },
+          {
+            "char": "ഭ",
+            "roman": "bha",
+            "ipa": "bʱa",
+            "sound": "Breathy 'b', 'b' + puff of breath.",
+            "example": {
+              "native": "ഭാഷ",
+              "roman": "bhāṣa",
+              "en": "language"
+            }
+          },
+          {
+            "char": "മ",
+            "roman": "ma",
+            "ipa": "ma",
+            "sound": "'m' in 'mother'.",
+            "example": {
+              "native": "മരം",
+              "roman": "maram",
+              "en": "tree"
+            }
+          }
+        ]
+      },
+      {
+        "id": "others",
+        "title": "Semivowels, sibilants and other consonants",
+        "note": "This group contains the most characteristic Malayalam sounds: the retroflex ള, the unique ഴ, and the tap/trill റ.",
+        "letters": [
+          {
+            "char": "യ",
+            "roman": "ya",
+            "ipa": "ja",
+            "sound": "'y' in 'yes'.",
+            "example": {
+              "native": "യാത്ര",
+              "roman": "yātra",
+              "en": "journey"
+            }
+          },
+          {
+            "char": "ര",
+            "roman": "ra",
+            "ipa": "ɾa",
+            "sound": "Soft single tap 'r' (like Spanish 'pero'), tongue a little further back than റ.",
+            "example": {
+              "native": "രാത്രി",
+              "roman": "rātri",
+              "en": "night"
+            }
+          },
+          {
+            "char": "ല",
+            "roman": "la",
+            "ipa": "la",
+            "sound": "Clear 'l' as in 'leaf' (never the dark English 'l' of 'full').",
+            "example": {
+              "native": "ലോകം",
+              "roman": "lōkam",
+              "en": "world"
+            }
+          },
+          {
+            "char": "വ",
+            "roman": "va",
+            "ipa": "ʋa",
+            "sound": "Between 'v' and 'w' — lips close but relaxed.",
+            "example": {
+              "native": "വീട്",
+              "roman": "vīṭŭ",
+              "en": "house"
+            }
+          },
+          {
+            "char": "ശ",
+            "roman": "sha",
+            "ipa": "ɕa",
+            "sound": "'sh' with the tongue flat (palatal), softer than ഷ.",
+            "example": {
+              "native": "ശരീരം",
+              "roman": "sharīram",
+              "en": "body"
+            }
+          },
+          {
+            "char": "ഷ",
+            "roman": "ṣa",
+            "ipa": "ʂa",
+            "sound": "Retroflex 'sh' — tongue curled back. In practice close to English 'sh'.",
+            "example": {
+              "native": "ഷർട്ട്",
+              "roman": "ṣarṭŭ",
+              "en": "shirt"
+            }
+          },
+          {
+            "char": "സ",
+            "roman": "sa",
+            "ipa": "sa",
+            "sound": "'s' in 'sun'.",
+            "example": {
+              "native": "സമയം",
+              "roman": "samayam",
+              "en": "time"
+            }
+          },
+          {
+            "char": "ഹ",
+            "roman": "ha",
+            "ipa": "ɦa",
+            "sound": "'h' in 'house' (often slightly voiced).",
+            "example": {
+              "native": "ഹൃദയം",
+              "roman": "hridayam",
+              "en": "heart"
+            }
+          },
+          {
+            "char": "ള",
+            "roman": "ḷa",
+            "ipa": "ɭa",
+            "sound": "Retroflex 'l': curl the tongue tip back and say 'l'. Very common: മലയാളം, കേരളം.",
+            "example": {
+              "native": "കളി",
+              "roman": "kaḷi",
+              "en": "game, play"
+            }
+          },
+          {
+            "char": "ഴ",
+            "roman": "ḻa",
+            "ipa": "ɻa",
+            "sound": "The famous 'zha': curl the tongue tip far back without touching anything and let air flow — like an American 'r' made with a curled tongue. Not 'zh' and not 'l'.",
+            "example": {
+              "native": "പഴം",
+              "roman": "paḻam",
+              "en": "fruit; banana"
+            }
+          },
+          {
+            "char": "റ",
+            "roman": "ṟa",
+            "ipa": "ra ~ r",
+            "sound": "Alveolar tap or short trill, sharper than ര; doubled (റ്റ) it becomes a hard alveolar 't'.",
+            "example": {
+              "native": "കറി",
+              "roman": "kaṟi",
+              "en": "curry"
+            }
+          }
+        ]
+      },
+      {
+        "id": "chillu",
+        "title": "Chillu letters (ചില്ലക്ഷരങ്ങൾ)",
+        "note": "Pure consonants with no vowel at all, used mostly at the end of a word or syllable. They do not get the half-u: അവൻ is 'avan', not 'avanŭ'. Before a consonant in old texts, ർ was sometimes written as a dot above the next letter (dot reph ൎ).",
+        "letters": [
+          {
+            "char": "ൻ",
+            "roman": "n",
+            "ipa": "n",
+            "sound": "Final alveolar 'n' — the chillu of ന.",
+            "example": {
+              "native": "അവൻ",
+              "roman": "avan",
+              "en": "he"
+            }
+          },
+          {
+            "char": "ർ",
+            "roman": "r",
+            "ipa": "r",
+            "sound": "Final 'r' — the chillu of ര (sounds like a tap).",
+            "example": {
+              "native": "അവർ",
+              "roman": "avar",
+              "en": "they"
+            }
+          },
+          {
+            "char": "ൽ",
+            "roman": "l",
+            "ipa": "l",
+            "sound": "Final clear 'l' — the chillu of ല. Also used for the 'in/at' ending -il.",
+            "example": {
+              "native": "പാൽ",
+              "roman": "pāl",
+              "en": "milk"
+            }
+          },
+          {
+            "char": "ൾ",
+            "roman": "ḷ",
+            "ipa": "ɭ",
+            "sound": "Final retroflex 'ḷ' — the chillu of ള. Seen in the plural ending -kaḷ.",
+            "example": {
+              "native": "അവൾ",
+              "roman": "avaḷ",
+              "en": "she"
+            }
+          },
+          {
+            "char": "ൺ",
+            "roman": "ṇ",
+            "ipa": "ɳ",
+            "sound": "Final retroflex 'ṇ' — the chillu of ണ.",
+            "example": {
+              "native": "കൂൺ",
+              "roman": "kūṇ",
+              "en": "mushroom"
+            }
+          },
+          {
+            "char": "ൿ",
+            "roman": "k",
+            "ipa": "k",
+            "sound": "Final 'k' — rare, found only in a few Sanskrit-derived words and older texts; today usually written ക്ക് or ക്.",
+            "example": {
+              "native": "വാൿചാതുര്യം",
+              "roman": "vākchāturyam",
+              "en": "eloquence"
+            }
+          }
+        ]
+      },
+      {
+        "id": "marks",
+        "title": "Special marks",
+        "note": "Anusvara, visarga and the chandrakkala (virama). The dot reph ൎ and the old au-sign ൌ are traditional and rarely seen today.",
+        "letters": [
+          {
+            "char": "ം",
+            "roman": "m",
+            "ipa": "m",
+            "sound": "Anusvara: an 'm' sound, very common at the end of nouns (-am). Before a consonant it becomes the matching nasal.",
+            "example": {
+              "native": "കുളം",
+              "roman": "kuḷam",
+              "en": "pond"
+            }
+          },
+          {
+            "char": "ഃ",
+            "roman": "ḥ",
+            "ipa": "h",
+            "sound": "Visarga: in Sanskrit words; in practice it doubles the following consonant (ദുഃഖം ≈ dukkham).",
+            "example": {
+              "native": "ദുഃഖം",
+              "roman": "dukkham",
+              "en": "sorrow"
+            }
+          },
+          {
+            "char": "്",
+            "roman": "ŭ / (silent)",
+            "ipa": "ɨ",
+            "sound": "Chandrakkala (virama): removes the inherent a. Between consonants it is silent (it joins them); at the end of a word it is read as the short half-u ŭ.",
+            "example": {
+              "native": "ഉണ്ട്",
+              "roman": "uṇḍŭ",
+              "en": "there is / have"
+            }
+          },
+          {
+            "char": "ൗ",
+            "roman": "au (sign)",
+            "ipa": "au̯",
+            "sound": "The au-length mark; together with െ it forms the vowel sign 'au' (കൗ). In old texts ൌ was used.",
+            "example": {
+              "native": "മൗനം",
+              "roman": "maunam",
+              "en": "silence"
+            }
+          }
+        ]
+      },
+      {
+        "id": "conjuncts",
+        "title": "Common conjuncts (കൂട്ടക്ഷരങ്ങൾ)",
+        "note": "Doubled consonants are extremely common and are held long. Traditional fonts show many of these as fused ligatures; reformed style may show some with a visible ്. Nasal + stop clusters are voiced in speech (ന്ത nd, മ്പ mb, ങ്ക ṅg, ഞ്ച ñj, ണ്ട ṇḍ, ന്റ nd).",
+        "letters": [
+          {
+            "char": "ക്ക",
+            "roman": "kka",
+            "ipa": "kːa",
+            "sound": "Long, tense 'k' — hold the closure.",
+            "example": {
+              "native": "ചക്ക",
+              "roman": "chakka",
+              "en": "jackfruit"
+            }
+          },
+          {
+            "char": "ങ്ങ",
+            "roman": "ṅṅa",
+            "ipa": "ŋːa",
+            "sound": "Long 'ng'; very common (plural -ṅṅaḷ).",
+            "example": {
+              "native": "ഞങ്ങൾ",
+              "roman": "ñaṅṅaḷ",
+              "en": "we (not including you)"
+            }
+          },
+          {
+            "char": "ഞ്ഞ",
+            "roman": "ñña",
+            "ipa": "ɲːa",
+            "sound": "Long 'ny'.",
+            "example": {
+              "native": "മഞ്ഞ",
+              "roman": "mañña",
+              "en": "yellow"
+            }
+          },
+          {
+            "char": "ന്ന",
+            "roman": "nna",
+            "ipa": "nːa",
+            "sound": "Long alveolar 'n'.",
+            "example": {
+              "native": "വന്നു",
+              "roman": "vannu",
+              "en": "came"
+            }
+          },
+          {
+            "char": "ണ്ണ",
+            "roman": "ṇṇa",
+            "ipa": "ɳːa",
+            "sound": "Long retroflex 'n'.",
+            "example": {
+              "native": "കണ്ണ്",
+              "roman": "kaṇṇŭ",
+              "en": "eye"
+            }
+          },
+          {
+            "char": "ന്റ",
+            "roman": "nda",
+            "ipa": "nda (alveolar)",
+            "sound": "Alveolar 'nd' with the tongue on the gum ridge. Its old fused ligature looks quite different from ന + റ.",
+            "example": {
+              "native": "എന്റെ",
+              "roman": "ende",
+              "en": "my"
+            }
+          },
+          {
+            "char": "റ്റ",
+            "roman": "ṯṯa",
+            "ipa": "tːa (alveolar)",
+            "sound": "Hard alveolar 'tt', like English 't' in 'cat' but held. Written as two stacked റ in traditional style.",
+            "example": {
+              "native": "കാറ്റ്",
+              "roman": "kāṯṯŭ",
+              "en": "wind"
+            }
+          },
+          {
+            "char": "ണ്ട",
+            "roman": "ṇḍa",
+            "ipa": "ɳɖa",
+            "sound": "Retroflex 'nd'.",
+            "example": {
+              "native": "വണ്ടി",
+              "roman": "vaṇḍi",
+              "en": "vehicle"
+            }
+          },
+          {
+            "char": "ന്ത",
+            "roman": "nda",
+            "ipa": "n̪d̪a",
+            "sound": "Dental 'nd' (tongue on teeth). Old style shows a stacked ligature.",
+            "example": {
+              "native": "എന്ത്",
+              "roman": "endŭ",
+              "en": "what"
+            }
+          },
+          {
+            "char": "മ്പ",
+            "roman": "mba",
+            "ipa": "mba",
+            "sound": "'mb' as in 'amber'.",
+            "example": {
+              "native": "പാമ്പ്",
+              "roman": "pāmbŭ",
+              "en": "snake"
+            }
+          },
+          {
+            "char": "ങ്ക",
+            "roman": "ṅga",
+            "ipa": "ŋɡa",
+            "sound": "'ng' + 'g' as in 'finger'.",
+            "example": {
+              "native": "തിങ്കൾ",
+              "roman": "tiṅgaḷ",
+              "en": "Monday"
+            }
+          },
+          {
+            "char": "ഞ്ച",
+            "roman": "ñja",
+            "ipa": "ɲd͡ʒa",
+            "sound": "'nj' as in 'injure'.",
+            "example": {
+              "native": "പഞ്ചസാര",
+              "roman": "pañjasāra",
+              "en": "sugar"
+            }
+          },
+          {
+            "char": "ച്ച",
+            "roman": "ccha",
+            "ipa": "t͡ʃːa",
+            "sound": "Long 'ch' — hold before releasing.",
+            "example": {
+              "native": "പച്ച",
+              "roman": "paccha",
+              "en": "green"
+            }
+          },
+          {
+            "char": "ട്ട",
+            "roman": "ṭṭa",
+            "ipa": "ʈːa",
+            "sound": "Long retroflex 't'.",
+            "example": {
+              "native": "കുട്ടി",
+              "roman": "kuṭṭi",
+              "en": "child"
+            }
+          },
+          {
+            "char": "ത്ത",
+            "roman": "tta",
+            "ipa": "t̪ːa",
+            "sound": "Long dental 't'.",
+            "example": {
+              "native": "മുത്ത്",
+              "roman": "muttŭ",
+              "en": "pearl"
+            }
+          },
+          {
+            "char": "പ്പ",
+            "roman": "ppa",
+            "ipa": "pːa",
+            "sound": "Long 'p'.",
+            "example": {
+              "native": "അപ്പം",
+              "roman": "appam",
+              "en": "appam (rice pancake)"
+            }
+          },
+          {
+            "char": "ല്ല",
+            "roman": "lla",
+            "ipa": "lːa",
+            "sound": "Long clear 'l'.",
+            "example": {
+              "native": "നല്ല",
+              "roman": "nalla",
+              "en": "good"
+            }
+          },
+          {
+            "char": "ള്ള",
+            "roman": "ḷḷa",
+            "ipa": "ɭːa",
+            "sound": "Long retroflex 'l'.",
+            "example": {
+              "native": "വെള്ളം",
+              "roman": "veḷḷam",
+              "en": "water"
+            }
+          },
+          {
+            "char": "ക്ഷ",
+            "roman": "kṣa",
+            "ipa": "kʂa",
+            "sound": "'ksh'.",
+            "example": {
+              "native": "പക്ഷി",
+              "roman": "pakṣi",
+              "en": "bird"
+            }
+          },
+          {
+            "char": "ത്ര",
+            "roman": "tra",
+            "ipa": "t̪ɾa",
+            "sound": "Dental t + tap r. The ര after a consonant is written as the sign ്ര wrapped around it.",
+            "example": {
+              "native": "പത്രം",
+              "roman": "patram",
+              "en": "newspaper"
+            }
+          },
+          {
+            "char": "സ്ത",
+            "roman": "sta",
+            "ipa": "st̪a",
+            "sound": "'st' with dental t.",
+            "example": {
+              "native": "പുസ്തകം",
+              "roman": "pustakam",
+              "en": "book"
+            }
+          },
+          {
+            "char": "ഷ്ട",
+            "roman": "ṣṭa",
+            "ipa": "ʂʈa",
+            "sound": "Retroflex 'sht'.",
+            "example": {
+              "native": "ഇഷ്ടം",
+              "roman": "iṣṭam",
+              "en": "liking, fondness"
+            }
+          },
+          {
+            "char": "ജ്ഞ",
+            "roman": "jña (gnya)",
+            "ipa": "d͡ʒɲa ~ ɡɲa",
+            "sound": "Sanskrit cluster, usually pronounced 'gnya'.",
+            "example": {
+              "native": "ജ്ഞാനം",
+              "roman": "jñānam",
+              "en": "knowledge"
+            }
+          },
+          {
+            "char": "ക്യ",
+            "roman": "kya",
+            "ipa": "kja",
+            "sound": "Consonant + യ is written with the sign ്യ after the consonant.",
+            "example": {
+              "native": "ഐക്യം",
+              "roman": "aikyam",
+              "en": "unity"
+            }
+          },
+          {
+            "char": "ദ്വ",
+            "roman": "dva",
+            "ipa": "d̪ʋa",
+            "sound": "Consonant + വ is written with the sign ്വ.",
+            "example": {
+              "native": "ദ്വീപ്",
+              "roman": "dvīpŭ",
+              "en": "island"
+            }
+          }
+        ]
+      },
+      {
+        "id": "digits",
+        "title": "Malayalam digits",
+        "note": "Malayalam has its own digits, but they are now rarely used except on old documents, some calendars and traditional contexts. Western digits (0–9) are normal everywhere — on prices, buses, phones and in newspapers.",
+        "letters": [
+          {
+            "char": "൦",
+            "roman": "pūjyam (0)",
+            "sound": "Zero."
+          },
+          {
+            "char": "൧",
+            "roman": "onnŭ (1)",
+            "sound": "One."
+          },
+          {
+            "char": "൨",
+            "roman": "raṇḍŭ (2)",
+            "sound": "Two."
+          },
+          {
+            "char": "൩",
+            "roman": "mūnnŭ (3)",
+            "sound": "Three."
+          },
+          {
+            "char": "൪",
+            "roman": "nālŭ (4)",
+            "sound": "Four."
+          },
+          {
+            "char": "൫",
+            "roman": "añjŭ (5)",
+            "sound": "Five."
+          },
+          {
+            "char": "൬",
+            "roman": "āṟŭ (6)",
+            "sound": "Six."
+          },
+          {
+            "char": "൭",
+            "roman": "ēḻŭ (7)",
+            "sound": "Seven."
+          },
+          {
+            "char": "൮",
+            "roman": "eṭṭŭ (8)",
+            "sound": "Eight."
+          },
+          {
+            "char": "൯",
+            "roman": "ombatŭ (9)",
+            "sound": "Nine."
+          }
+        ]
+      }
+    ]
+  },
+  "dir": "ltr",
+  "tts": "ml-IN",
+  "font": "Noto Sans Malayalam",
+  "speakers": "≈38 million (mostly L1)",
+  "where": "Kerala and Lakshadweep (India), and large diaspora communities in the Gulf states, Singapore, Malaysia, the UK and North America",
+  "tagline": "The rolling, musical language of Kerala: famous for its ഴ, its long words, and one of the most literate societies in the world.",
+  "intro": "**Malayalam** (മലയാളം, *malayāḷam*) is a Dravidian language spoken by about 38 million people, mainly in Kerala on India's south-west coast. It split from an early form of Tamil around the 9th–13th centuries and later absorbed a very large Sanskrit vocabulary, so it sits between Tamil (shared grammar and basic words) and the Sanskrit-heavy languages of the north (shared learned vocabulary). The name itself is a nice example of its sounds: it is a **palindrome** in the Latin alphabet, and it contains the retroflex ḷ that English lacks.\n\nThe grammar is friendlier than it first looks. Word order is **subject–object–verb**, there are no articles, and — unusually for an Indian language — **verbs do not change for person, number or gender**: ഞാൻ വന്നു *ñān vannu* 'I came', അവൾ വന്നു *avaḷ vannu* 'she came', അവർ വന്നു *avar vannu* 'they came'. Instead, Malayalam piles suffixes onto nouns (cases) and verbs (tense, mood), producing long words such as പോകേണ്ടിവന്നു *pōkēṇḍivannu* 'had to go'.\n\nRegister matters: നീ *nī* is intimate 'you', നിങ്ങൾ *niṅṅaḷ* is plural and polite, താങ്കൾ *tāṅgaḷ* is formal, and in everyday life people very often avoid 'you' altogether and use a kinship title such as ചേട്ടൻ *chēṭṭan* 'elder brother' or ചേച്ചി *chēcchi* 'elder sister'. This course teaches the **standard modern spoken Malayalam** heard in films, TV and between educated speakers across Kerala, and points out common colloquial contractions (എന്താ for എന്താണ്, പോവാ for പോകുകയാണ്, etc.) in the notes.\n\nOver 20 units you will learn the script, the tricky sounds (ഴ, ള, റ, the three n's, doubled consonants and the famous 'half-u'), and the core grammar for real conversations — from greetings and food to telling stories.",
+  "romanizationNote": "The romanization shows how words are actually pronounced. Long vowels have a macron (ā ī ū ē ō) — length changes meaning, so never ignore it. Dots below mark retroflex sounds made with the tongue curled back (ṭ ḍ ṇ ḷ ṣ); ḻ is the special Malayalam ഴ; ṟ is the alveolar tap/trill റ, distinct from the soft r ര; ṯṯ is the hard alveolar stop റ്റ. **ŭ** is the short, unrounded 'half-u' (samvruthokaram, written ്) heard at the end of words like ഉണ്ട് *uṇḍŭ* — say it like a very short 'uh', never a full 'oo'. Doubled letters (kk, tt, ll, ṇṇ…) really are held longer. Nasal + stop clusters are voiced in speech, so we write them as heard: ന്ത → nd (dental), ന്റ → nd (alveolar, tongue on the gum ridge), മ്പ → mb, ങ്ക → ṅg, ഞ്ച → ñj, ണ്ട → ṇḍ. Single k, t, p between vowels are softened (almost g, d, b) in natural speech even though we write k, t, p. Words beginning with e or o are pronounced with a light y- or w- glide (എന്ത് ≈ yendŭ, ഒന്ന് ≈ wonnŭ); we do not write the glide. ch = ച, chh = ഛ, cch = ച്ച, sh = ശ, ṣ = ഷ, ñ = ഞ, ṅ = ങ.",
+  "pronunciation": [
+    {
+      "id": "gemination",
+      "title": "Double consonants (gemination)",
+      "body": "This is the single most important habit for sounding Malayali. Doubled consonants — ക്ക, ട്ട, ത്ത, പ്പ, ല്ല, ള്ള, ന്ന, ണ്ണ and so on — are **held about twice as long** as single ones, and the difference changes meaning: മതി *mati* 'enough' vs മത്തി *matti* 'sardine'.\n\nDoubled stops also sound *harder* than single ones. A single ക/ട/ത/പ between vowels is soft and almost voiced (മതി ≈ 'madi'), while the doubled version is a tense, voiceless, clearly held stop (മത്തി = 'mat-ti'). English speakers tend to make everything single; think of the gap in 'cat-tail' or 'book-case'.",
+      "tips": [
+        "Split the word at the double letter and pause slightly: kuṭ-ṭi, mat-ti.",
+        "Single stops between vowels are soft (k≈g, t≈d, p≈b); doubled stops are crisp and voiceless.",
+        "Doubled nasals and l's (nn, ṇṇ, ll, ḷḷ) are simply held longer — hum through them."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "മതി",
+            "roman": "mati",
+            "en": "enough"
+          },
+          "b": {
+            "native": "മത്തി",
+            "roman": "matti",
+            "en": "sardine"
+          }
+        },
+        {
+          "a": {
+            "native": "കുടി",
+            "roman": "kuṭi",
+            "en": "drinking (habit)"
+          },
+          "b": {
+            "native": "കുട്ടി",
+            "roman": "kuṭṭi",
+            "en": "child"
+          }
+        },
+        {
+          "a": {
+            "native": "അടി",
+            "roman": "aṭi",
+            "en": "blow, beating"
+          },
+          "b": {
+            "native": "അട്ടി",
+            "roman": "aṭṭi",
+            "en": "pile, stack"
+          }
+        },
+        {
+          "a": {
+            "native": "പതി",
+            "roman": "pati",
+            "en": "husband (literary)"
+          },
+          "b": {
+            "native": "പത്തി",
+            "roman": "patti",
+            "en": "cobra's hood"
+          }
+        },
+        {
+          "a": {
+            "native": "വെളി",
+            "roman": "veḷi",
+            "en": "outside, open space"
+          },
+          "b": {
+            "native": "വെള്ളി",
+            "roman": "veḷḷi",
+            "en": "silver; Friday"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "കുട്ടി",
+          "roman": "kuṭṭi",
+          "en": "child"
+        },
+        {
+          "native": "വെള്ളം",
+          "roman": "veḷḷam",
+          "en": "water"
+        },
+        {
+          "native": "അമ്മ",
+          "roman": "amma",
+          "en": "mother"
+        },
+        {
+          "native": "പത്ത്",
+          "roman": "pattŭ",
+          "en": "ten"
+        },
+        {
+          "native": "ചക്ക",
+          "roman": "chakka",
+          "en": "jackfruit"
+        },
+        {
+          "native": "നല്ല",
+          "roman": "nalla",
+          "en": "good"
+        },
+        {
+          "native": "കണ്ണ്",
+          "roman": "kaṇṇŭ",
+          "en": "eye"
+        },
+        {
+          "native": "അപ്പം",
+          "roman": "appam",
+          "en": "appam"
+        }
+      ]
+    },
+    {
+      "id": "zha",
+      "title": "ഴ (ḻ) — the 'zha' sound",
+      "body": "ഴ is Malayalam's signature sound (shared with Tamil). It is a **retroflex approximant**: curl the tip of your tongue far back toward the roof of the mouth, but **do not touch** anything, and let the voice flow — rather like an American 'r' said with the tongue curled. It is *not* 'zh' (as in 'measure') and *not* 'l', although many speakers in some regions do merge it with ള or with a 'y'-like sound.\n\nIt appears in many everyday words: മഴ 'rain', പുഴ 'river', വഴി 'way', ഏഴ് 'seven', കോഴി 'hen', and the city കോഴിക്കോട് (Kozhikode).",
+      "tips": [
+        "Start from 'r' in American 'bird', then curl the tongue tip back even further.",
+        "Keep a tiny gap between tongue and palate — if you hear an 'l', you are touching.",
+        "If you can't manage it yet, a retroflex ള is a more acceptable fallback than 'z' or 'zh'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "മഴ",
+            "roman": "maḻa",
+            "en": "rain"
+          },
+          "b": {
+            "native": "മല",
+            "roman": "mala",
+            "en": "mountain"
+          }
+        },
+        {
+          "a": {
+            "native": "കുഴി",
+            "roman": "kuḻi",
+            "en": "pit, hole"
+          },
+          "b": {
+            "native": "കുളി",
+            "roman": "kuḷi",
+            "en": "bath"
+          }
+        },
+        {
+          "a": {
+            "native": "വഴി",
+            "roman": "vaḻi",
+            "en": "way, road"
+          },
+          "b": {
+            "native": "വലി",
+            "roman": "vali",
+            "en": "pull, tug"
+          }
+        },
+        {
+          "a": {
+            "native": "തുഴ",
+            "roman": "tuḻa",
+            "en": "oar"
+          },
+          "b": {
+            "native": "തുള",
+            "roman": "tuḷa",
+            "en": "hole (in something)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "മഴ",
+          "roman": "maḻa",
+          "en": "rain"
+        },
+        {
+          "native": "പുഴ",
+          "roman": "puḻa",
+          "en": "river"
+        },
+        {
+          "native": "ഏഴ്",
+          "roman": "ēḻŭ",
+          "en": "seven"
+        },
+        {
+          "native": "കോഴി",
+          "roman": "kōḻi",
+          "en": "hen, chicken"
+        },
+        {
+          "native": "കോഴിക്കോട്",
+          "roman": "kōḻikkōṭŭ",
+          "en": "Kozhikode"
+        },
+        {
+          "native": "വാഴപ്പഴം",
+          "roman": "vāḻappaḻam",
+          "en": "banana"
+        },
+        {
+          "native": "തമിഴ്",
+          "roman": "tamiḻŭ",
+          "en": "Tamil"
+        },
+        {
+          "native": "മഴ പെയ്യുന്നു",
+          "roman": "maḻa peyyunnu",
+          "en": "it's raining"
+        }
+      ]
+    },
+    {
+      "id": "l-sounds",
+      "title": "ള vs ല — retroflex and clear l",
+      "body": "Malayalam has two common l-sounds. ല (l) is a **clear** l with the tongue tip just behind the upper teeth, as in 'leaf' — never the dark, hollow English 'l' of 'full'. ള (ḷ) is **retroflex**: the tongue tip curls back and touches the roof of the mouth behind the gum ridge, giving a heavier, 'thicker' l.\n\nThe difference is meaningful — പുലി 'leopard' vs പുളി 'tamarind' — and ള is everywhere, including the name of the language (മലയാളം *malayāḷam*: one of each!) and of the state (കേരളം *kēraḷam*). The plural suffix -കൾ (-kaḷ) also ends in ള.",
+      "tips": [
+        "For ള, say 'l' while the tongue is curled back as for ṭ.",
+        "Keep ല light and forward, even at the end of a word (ൽ).",
+        "Practise മലയാളം slowly: ma-la (clear) -yā-ḷam (curled)."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "പുലി",
+            "roman": "puli",
+            "en": "leopard, tiger"
+          },
+          "b": {
+            "native": "പുളി",
+            "roman": "puḷi",
+            "en": "tamarind; sour"
+          }
+        },
+        {
+          "a": {
+            "native": "കലി",
+            "roman": "kali",
+            "en": "fury"
+          },
+          "b": {
+            "native": "കളി",
+            "roman": "kaḷi",
+            "en": "game, play"
+          }
+        },
+        {
+          "a": {
+            "native": "വാൽ",
+            "roman": "vāl",
+            "en": "tail"
+          },
+          "b": {
+            "native": "വാൾ",
+            "roman": "vāḷ",
+            "en": "sword"
+          }
+        },
+        {
+          "a": {
+            "native": "തല്ല്",
+            "roman": "tallŭ",
+            "en": "a beating"
+          },
+          "b": {
+            "native": "തള്ള്",
+            "roman": "taḷḷŭ",
+            "en": "a push"
+          }
+        },
+        {
+          "a": {
+            "native": "കൊല്ലാം",
+            "roman": "kollām",
+            "en": "(one) can kill"
+          },
+          "b": {
+            "native": "കൊള്ളാം",
+            "roman": "koḷḷām",
+            "en": "nice, not bad"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "മലയാളം",
+          "roman": "malayāḷam",
+          "en": "Malayalam"
+        },
+        {
+          "native": "കേരളം",
+          "roman": "kēraḷam",
+          "en": "Kerala"
+        },
+        {
+          "native": "വെള്ളം",
+          "roman": "veḷḷam",
+          "en": "water"
+        },
+        {
+          "native": "ഉള്ളി",
+          "roman": "uḷḷi",
+          "en": "onion"
+        },
+        {
+          "native": "കൊള്ളാം",
+          "roman": "koḷḷām",
+          "en": "nice!"
+        },
+        {
+          "native": "കുട്ടികൾ",
+          "roman": "kuṭṭikaḷ",
+          "en": "children"
+        },
+        {
+          "native": "നല്ല",
+          "roman": "nalla",
+          "en": "good"
+        }
+      ]
+    },
+    {
+      "id": "r-sounds",
+      "title": "റ vs ര — the two r's",
+      "body": "ര (r) is a soft, single **tap**, like the 'r' in Spanish *pero* or the 'tt' in American 'butter'. റ (ṟ) is made a bit further forward, more firmly, and is often a short **trill** — a sharper, more 'rattly' r. Native speakers clearly hear the difference: ആറ് *āṟŭ* 'six; river' vs ആര് *ārŭ* 'who'.\n\nIn writing the two are easy to tell apart; in speech, aim for a light tap for ര and a firmer tap/trill for റ. Final ർ is usually pronounced like a tap as well. Never use the English 'r' (with rounded lips and no tongue contact).",
+      "tips": [
+        "Say 'butter' quickly in an American accent — that middle sound is ര.",
+        "For റ, push the tongue tip firmly against the gum ridge and let it flick or roll once or twice.",
+        "Doubled റ്റ is not an r at all — see the next topic."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ആറ്",
+            "roman": "āṟŭ",
+            "en": "six; river"
+          },
+          "b": {
+            "native": "ആര്",
+            "roman": "ārŭ",
+            "en": "who"
+          }
+        },
+        {
+          "a": {
+            "native": "കറി",
+            "roman": "kaṟi",
+            "en": "curry"
+          },
+          "b": {
+            "native": "കരി",
+            "roman": "kari",
+            "en": "charcoal, soot"
+          }
+        },
+        {
+          "a": {
+            "native": "അറ",
+            "roman": "aṟa",
+            "en": "chamber, compartment"
+          },
+          "b": {
+            "native": "അര",
+            "roman": "ara",
+            "en": "half; waist"
+          }
+        },
+        {
+          "a": {
+            "native": "പാറ",
+            "roman": "pāṟa",
+            "en": "rock"
+          },
+          "b": {
+            "native": "പാര",
+            "roman": "pāra",
+            "en": "crowbar; (slang) spoiler, obstacle"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "കറി",
+          "roman": "kaṟi",
+          "en": "curry"
+        },
+        {
+          "native": "ചോറ്",
+          "roman": "chōṟŭ",
+          "en": "cooked rice"
+        },
+        {
+          "native": "അരി",
+          "roman": "ari",
+          "en": "rice (uncooked)"
+        },
+        {
+          "native": "മുറി",
+          "roman": "muṟi",
+          "en": "room"
+        },
+        {
+          "native": "പറയൂ",
+          "roman": "paṟayū",
+          "en": "please say"
+        },
+        {
+          "native": "രാത്രി",
+          "roman": "rātri",
+          "en": "night"
+        },
+        {
+          "native": "നൂറ്",
+          "roman": "nūṟŭ",
+          "en": "hundred"
+        }
+      ]
+    },
+    {
+      "id": "alveolar-stops",
+      "title": "The alveolar stops റ്റ (ṯṯ) and ന്റ (nd)",
+      "body": "Malayalam has **three** t-places: dental ത (tongue on teeth), retroflex ട (tongue curled back), and an **alveolar** t written റ്റ — tongue tip on the gum ridge, exactly where English puts its 't'. So the English-like 't' in പറ്റി *paṯṯi* is actually the 'easy' one for you; the trick is to keep it distinct from ത്ത and ട്ട.\n\nAfter n, the same alveolar stop appears voiced as ന്റ (nd, alveolar): എന്റെ *ende* 'my', നിന്റെ 'your', അവന്റെ 'his'. Compare dental ന്ത in എന്ത് *endŭ* 'what'. English loanwords with 't' are usually written with റ്റ: ടിക്കറ്റ് 'ticket', ഹോട്ടൽ uses ട്ട though — spelling of loans varies.",
+      "tips": [
+        "റ്റ = English 't' in 'top', but held long.",
+        "ത്ത = tongue on the teeth (like French 't'); ട്ട = tongue curled back.",
+        "ന്റ in possessives (-ന്റെ) is very frequent: practise ende, ninde, avande."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "പറ്റി",
+            "roman": "paṯṯi",
+            "en": "about; got stuck"
+          },
+          "b": {
+            "native": "പട്ടി",
+            "roman": "paṭṭi",
+            "en": "dog"
+          }
+        },
+        {
+          "a": {
+            "native": "മുറ്റം",
+            "roman": "muṯṯam",
+            "en": "courtyard"
+          },
+          "b": {
+            "native": "മുത്തം",
+            "roman": "muttam",
+            "en": "kiss"
+          }
+        },
+        {
+          "a": {
+            "native": "കാറ്റ്",
+            "roman": "kāṯṯŭ",
+            "en": "wind"
+          },
+          "b": {
+            "native": "കാത്ത്",
+            "roman": "kāttŭ",
+            "en": "having waited"
+          }
+        },
+        {
+          "a": {
+            "native": "എന്റെ",
+            "roman": "ende",
+            "en": "my"
+          },
+          "b": {
+            "native": "എന്തേ",
+            "roman": "endē",
+            "en": "what's up? why?"
+          },
+          "note": "ന്റ is alveolar, ന്ത dental."
+        }
+      ],
+      "drill": [
+        {
+          "native": "എന്റെ",
+          "roman": "ende",
+          "en": "my"
+        },
+        {
+          "native": "നിന്റെ",
+          "roman": "ninde",
+          "en": "your (informal)"
+        },
+        {
+          "native": "അവന്റെ",
+          "roman": "avande",
+          "en": "his"
+        },
+        {
+          "native": "ഒറ്റ",
+          "roman": "oṯṯa",
+          "en": "single, alone"
+        },
+        {
+          "native": "ചുറ്റും",
+          "roman": "chuṯṯum",
+          "en": "around"
+        },
+        {
+          "native": "മാറ്റം",
+          "roman": "māṯṯam",
+          "en": "change"
+        },
+        {
+          "native": "കുറ്റം",
+          "roman": "kuṯṯam",
+          "en": "fault, crime"
+        }
+      ]
+    },
+    {
+      "id": "nasals",
+      "title": "The three n's (and ñ, ṅ)",
+      "body": "Malayalam distinguishes **retroflex ണ (ṇ)** from **ന (n)**, and ന itself has two pronunciations: **dental** (tongue on the teeth) at the start of a word and before ത — നദി, നന്ദി — and **alveolar** (English-like) in the middle and end of words — പനി, അവൻ, ന്ന. The dental/alveolar difference is predictable, so you mostly just need to get ന vs ണ right: പനി 'fever' vs പണി 'work'. (Old Malayalam had a separate letter ഩ for alveolar n.)\n\nThere are also ഞ (ñ, 'ny'), which starts very common words like ഞാൻ 'I' and ഞങ്ങൾ 'we', and ങ (ṅ, 'ng'), which in Malayalam often appears doubled: ങ്ങ in നിങ്ങൾ 'you', എങ്ങനെ 'how'.",
+      "tips": [
+        "ണ: curl the tongue back as for ṭ and hum.",
+        "ഞ at the start of a word: say the 'ny' of 'canyon' straight away — ñān.",
+        "ങ്ങ: hold 'ng' and open into the vowel without adding a 'g' — niṅ-ṅaḷ, not 'ning-gal'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "പനി",
+            "roman": "pani",
+            "en": "fever"
+          },
+          "b": {
+            "native": "പണി",
+            "roman": "paṇi",
+            "en": "work, job"
+          }
+        },
+        {
+          "a": {
+            "native": "മനം",
+            "roman": "manam",
+            "en": "mind, heart (literary)"
+          },
+          "b": {
+            "native": "മണം",
+            "roman": "maṇam",
+            "en": "smell"
+          }
+        },
+        {
+          "a": {
+            "native": "കനി",
+            "roman": "kani",
+            "en": "fruit (poetic)"
+          },
+          "b": {
+            "native": "കണി",
+            "roman": "kaṇi",
+            "en": "first auspicious sight (Vishu)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "നന്ദി",
+          "roman": "nandi",
+          "en": "thank you"
+        },
+        {
+          "native": "ഞാൻ",
+          "roman": "ñān",
+          "en": "I"
+        },
+        {
+          "native": "ഞങ്ങൾ",
+          "roman": "ñaṅṅaḷ",
+          "en": "we"
+        },
+        {
+          "native": "നിങ്ങൾ",
+          "roman": "niṅṅaḷ",
+          "en": "you (polite/plural)"
+        },
+        {
+          "native": "എങ്ങനെ",
+          "roman": "eṅṅane",
+          "en": "how"
+        },
+        {
+          "native": "എണ്ണ",
+          "roman": "eṇṇa",
+          "en": "oil"
+        },
+        {
+          "native": "ആന",
+          "roman": "āna",
+          "en": "elephant"
+        },
+        {
+          "native": "പണം",
+          "roman": "paṇam",
+          "en": "money"
+        }
+      ]
+    },
+    {
+      "id": "half-u",
+      "title": "Samvruthokaram — the 'half-u' (ŭ)",
+      "body": "Almost every Malayalam word ending in a consonant + ് is pronounced with a very short, **unrounded** vowel at the end, called *samvruthokaram* ('closed u'): ഉണ്ട് *uṇḍŭ*, വീട് *vīṭŭ*, നാല് *nālŭ*. It is like a whispered 'uh' or the vowel in the second syllable of 'roses' — **lips spread, not rounded**. English loans get it too: ബസ് *basŭ*, ബാഗ് *bāgŭ*.\n\nIt matters, because a full rounded **u** usually marks the past tense, while ŭ marks the 'having done' participle: കണ്ടു *kaṇḍu* 'saw' vs കണ്ട് *kaṇḍŭ* 'having seen'. Chillu letters (ൻ ർ ൽ ൾ ൺ) do *not* take the half-u: അവൻ is just *avan*.",
+      "tips": [
+        "Say 'u' but keep your lips relaxed and spread, and make it very short.",
+        "Don't drop it completely — 'uṇḍ' sounds foreign; 'uṇḍŭ' sounds right.",
+        "In some older spellings it is written ു് (ഉണ്ടു്)."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "കണ്ട്",
+            "roman": "kaṇḍŭ",
+            "en": "having seen"
+          },
+          "b": {
+            "native": "കണ്ടു",
+            "roman": "kaṇḍu",
+            "en": "saw"
+          }
+        },
+        {
+          "a": {
+            "native": "വന്ന്",
+            "roman": "vannŭ",
+            "en": "having come"
+          },
+          "b": {
+            "native": "വന്നു",
+            "roman": "vannu",
+            "en": "came"
+          }
+        },
+        {
+          "a": {
+            "native": "പറഞ്ഞ്",
+            "roman": "paṟaññŭ",
+            "en": "having said"
+          },
+          "b": {
+            "native": "പറഞ്ഞു",
+            "roman": "paṟaññu",
+            "en": "said"
+          }
+        },
+        {
+          "a": {
+            "native": "കേട്ട്",
+            "roman": "kēṭṭŭ",
+            "en": "having heard"
+          },
+          "b": {
+            "native": "കേട്ടു",
+            "roman": "kēṭṭu",
+            "en": "heard"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ഉണ്ട്",
+          "roman": "uṇḍŭ",
+          "en": "there is"
+        },
+        {
+          "native": "വീട്",
+          "roman": "vīṭŭ",
+          "en": "house"
+        },
+        {
+          "native": "കാറ്റ്",
+          "roman": "kāṯṯŭ",
+          "en": "wind"
+        },
+        {
+          "native": "പാട്ട്",
+          "roman": "pāṭṭŭ",
+          "en": "song"
+        },
+        {
+          "native": "ചോറ്",
+          "roman": "chōṟŭ",
+          "en": "rice (cooked)"
+        },
+        {
+          "native": "ബസ്",
+          "roman": "basŭ",
+          "en": "bus"
+        },
+        {
+          "native": "അവൻ",
+          "roman": "avan",
+          "en": "he (no half-u!)"
+        }
+      ]
+    },
+    {
+      "id": "vowel-length",
+      "title": "Vowel length: a/ā, u/ū, e/ē, o/ō",
+      "body": "Every Malayalam vowel has a short and a long partner, and length distinguishes words: മല 'mountain' vs മാല 'necklace'. Unlike English, the **short e and o are separate vowels** from long ē and ō: കൊടി *koṭi* 'flag' vs കോടി *kōṭi* 'crore (ten million)'.\n\nLong vowels are simply held about twice as long, *without* gliding: ē is a pure 'eː' (not 'ay-ee'), ō is a pure 'oː' (not 'oh-oo'). Short vowels at the end of words are brief and slightly reduced — final -a often sounds like a neutral 'uh' or even a little like 'e' in central Kerala.",
+      "tips": [
+        "Clap twice for a long vowel, once for a short one.",
+        "Don't let English diphthongs creep in: ō in കോടി is steady.",
+        "Short e and o are crisp, like Spanish e and o."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "മല",
+            "roman": "mala",
+            "en": "mountain"
+          },
+          "b": {
+            "native": "മാല",
+            "roman": "māla",
+            "en": "necklace, garland"
+          }
+        },
+        {
+          "a": {
+            "native": "കടി",
+            "roman": "kaṭi",
+            "en": "bite"
+          },
+          "b": {
+            "native": "കാടി",
+            "roman": "kāṭi",
+            "en": "rice water"
+          }
+        },
+        {
+          "a": {
+            "native": "കുടം",
+            "roman": "kuṭam",
+            "en": "pot"
+          },
+          "b": {
+            "native": "കൂടം",
+            "roman": "kūṭam",
+            "en": "sledgehammer; hall"
+          }
+        },
+        {
+          "a": {
+            "native": "കൊടി",
+            "roman": "koṭi",
+            "en": "flag"
+          },
+          "b": {
+            "native": "കോടി",
+            "roman": "kōṭi",
+            "en": "crore; new cloth"
+          }
+        },
+        {
+          "a": {
+            "native": "കെട്ട്",
+            "roman": "keṭṭŭ",
+            "en": "bundle, knot"
+          },
+          "b": {
+            "native": "കേട്ട്",
+            "roman": "kēṭṭŭ",
+            "en": "having heard"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ആന",
+          "roman": "āna",
+          "en": "elephant"
+        },
+        {
+          "native": "മീൻ",
+          "roman": "mīn",
+          "en": "fish"
+        },
+        {
+          "native": "പൂവ്",
+          "roman": "pūvŭ",
+          "en": "flower"
+        },
+        {
+          "native": "ചേട്ടൻ",
+          "roman": "chēṭṭan",
+          "en": "elder brother"
+        },
+        {
+          "native": "ചോദ്യം",
+          "roman": "chōdyam",
+          "en": "question"
+        },
+        {
+          "native": "കൊച്ചി",
+          "roman": "kocchi",
+          "en": "Kochi"
+        }
+      ]
+    },
+    {
+      "id": "retroflex",
+      "title": "Retroflex vs dental (ട vs ത)",
+      "body": "English 't' and 'd' are made on the gum ridge. Malayalam has a **dental** series (ത ദ ന — tongue tip against the back of the upper teeth) and a **retroflex** series (ട ഡ ണ ള ഷ — tongue tip curled back to touch the roof of the mouth). Swap them and you change words: മടി 'laziness' vs മതി 'enough', കാട് 'forest' vs കാത് 'ear'.\n\nRetroflex sounds have a hollow, 'heavy' sound; dentals are bright and soft. Between vowels a single ട is lenis (almost ḍ) and a single ത almost 'd', so focus on the tongue *position* rather than voicing.",
+      "tips": [
+        "Dental: put your tongue tip literally on your teeth.",
+        "Retroflex: curl the tip up and back, then flick it forward.",
+        "Never use English 'th' for ത — it's a stop, not a fricative."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "മടി",
+            "roman": "maṭi",
+            "en": "laziness; lap"
+          },
+          "b": {
+            "native": "മതി",
+            "roman": "mati",
+            "en": "enough"
+          }
+        },
+        {
+          "a": {
+            "native": "കാട്",
+            "roman": "kāṭŭ",
+            "en": "forest"
+          },
+          "b": {
+            "native": "കാത്",
+            "roman": "kātŭ",
+            "en": "ear"
+          }
+        },
+        {
+          "a": {
+            "native": "കുടി",
+            "roman": "kuṭi",
+            "en": "drinking"
+          },
+          "b": {
+            "native": "കുതി",
+            "roman": "kuti",
+            "en": "a jump, leap"
+          }
+        },
+        {
+          "a": {
+            "native": "പട്ടി",
+            "roman": "paṭṭi",
+            "en": "dog"
+          },
+          "b": {
+            "native": "പത്തി",
+            "roman": "patti",
+            "en": "cobra's hood"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "വീട്",
+          "roman": "vīṭŭ",
+          "en": "house"
+        },
+        {
+          "native": "തല",
+          "roman": "tala",
+          "en": "head"
+        },
+        {
+          "native": "ടീച്ചർ",
+          "roman": "ṭīcchar",
+          "en": "teacher"
+        },
+        {
+          "native": "ദോശ",
+          "roman": "dōsha",
+          "en": "dosa"
+        },
+        {
+          "native": "ഡോക്ടർ",
+          "roman": "ḍōkṭar",
+          "en": "doctor"
+        },
+        {
+          "native": "പത്ത്",
+          "roman": "pattŭ",
+          "en": "ten"
+        },
+        {
+          "native": "എട്ട്",
+          "roman": "eṭṭŭ",
+          "en": "eight"
+        }
+      ]
+    },
+    {
+      "id": "aspiration",
+      "title": "Aspirated consonants in loanwords",
+      "body": "Native Malayalam words have no aspirated consonants; ഖ ഘ ഛ ഝ ഠ ഢ ഥ ധ ഫ ഭ come from **Sanskrit** (and some English) loans: സുഖം 'well-being', ഭാഷ 'language', കഥ 'story', ധൈര്യം 'courage'. In careful or formal speech they are pronounced with a clear puff of breath (kh, th) or a breathy voice (gh, dh, bh). In casual speech the aspiration is often weak, and ഫ is usually pronounced **f** — ഫോൺ *fōṇ* 'phone'.\n\nAlso note that ordinary ക ത പ ട are **unaspirated** — no puff of air, as in 'skin', 'stop', 'spin'. Hold a paper in front of your mouth: it should not move for പ, and should flutter for ഫ (if pronounced p+h).",
+      "tips": [
+        "Unaspirated: ka, ta, pa without the English puff.",
+        "Breathy: say 'g' and 'h' together — gha, bha, dha.",
+        "ത (t) and ഥ (th) are both stops; 'th' is never the English 'think' sound."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "പാടം",
+            "roman": "pāṭam",
+            "en": "paddy field"
+          },
+          "b": {
+            "native": "പാഠം",
+            "roman": "pāṭham",
+            "en": "lesson"
+          }
+        },
+        {
+          "a": {
+            "native": "ദാനം",
+            "roman": "dānam",
+            "en": "donation, gift"
+          },
+          "b": {
+            "native": "ധനം",
+            "roman": "dhanam",
+            "en": "wealth"
+          },
+          "note": "Also differs in vowel length."
+        }
+      ],
+      "drill": [
+        {
+          "native": "സുഖം",
+          "roman": "sukham",
+          "en": "well-being"
+        },
+        {
+          "native": "ഭാഷ",
+          "roman": "bhāṣa",
+          "en": "language"
+        },
+        {
+          "native": "കഥ",
+          "roman": "katha",
+          "en": "story"
+        },
+        {
+          "native": "ധൈര്യം",
+          "roman": "dhairyam",
+          "en": "courage"
+        },
+        {
+          "native": "ഭക്ഷണം",
+          "roman": "bhakṣaṇam",
+          "en": "food"
+        },
+        {
+          "native": "ഫോൺ",
+          "roman": "fōṇ",
+          "en": "phone"
+        },
+        {
+          "native": "അച്ഛൻ",
+          "roman": "acchan",
+          "en": "father (aspiration usually not heard)"
+        }
+      ]
+    },
+    {
+      "id": "voicing",
+      "title": "Hidden voicing: nasal clusters and soft stops",
+      "body": "Malayalam spelling does not show voicing changes that every speaker makes. After a nasal, stops become **voiced**: ന്ത is *nd* (എന്ത് *endŭ* 'what'), മ്പ is *mb* (അമ്പലം *ambalam* 'temple'), ങ്ക is *ṅg* (തിങ്കൾ *tiṅgaḷ* 'Monday'), ഞ്ച is *ñj* (അഞ്ച് *añjŭ* 'five'), ണ്ട is *ṇḍ* (രണ്ട് *raṇḍŭ* 'two'). Saying 'entu' or 'ampalam' sounds bookish or foreign.\n\nA single stop between vowels is also **softened**: ക in പകൽ 'daytime' is close to 'g' or even a soft 'h'-like sound; ത in അതേ 'yes' is close to 'd'; പ in കപ്പൽ stays p because it is doubled. Our romanization writes the nasal clusters as voiced and leaves single intervocalic k/t/p as written — just remember to say them softly.",
+      "tips": [
+        "Every nasal + stop: voice it (nd, mb, ṅg, ñj, ṇḍ).",
+        "Doubled stops never voice: kk, tt, pp stay crisp.",
+        "Soft single stops: let the tongue barely touch."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "പന്ത്",
+            "roman": "pandŭ",
+            "en": "ball"
+          },
+          "b": {
+            "native": "പത്ത്",
+            "roman": "pattŭ",
+            "en": "ten"
+          },
+          "note": "voiced nd vs voiceless tt"
+        },
+        {
+          "a": {
+            "native": "കമ്പ്",
+            "roman": "kambŭ",
+            "en": "stick, twig"
+          },
+          "b": {
+            "native": "കപ്പ്",
+            "roman": "kappŭ",
+            "en": "cup"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "എന്ത്",
+          "roman": "endŭ",
+          "en": "what"
+        },
+        {
+          "native": "അമ്പലം",
+          "roman": "ambalam",
+          "en": "temple"
+        },
+        {
+          "native": "തിങ്കൾ",
+          "roman": "tiṅgaḷ",
+          "en": "Monday"
+        },
+        {
+          "native": "അഞ്ച്",
+          "roman": "añjŭ",
+          "en": "five"
+        },
+        {
+          "native": "രണ്ട്",
+          "roman": "raṇḍŭ",
+          "en": "two"
+        },
+        {
+          "native": "ചന്ത",
+          "roman": "chanda",
+          "en": "market"
+        },
+        {
+          "native": "പകൽ",
+          "roman": "pakal",
+          "en": "daytime"
+        }
+      ]
+    },
+    {
+      "id": "glides",
+      "title": "Initial e/o glides and final vowels",
+      "body": "Malayalam speakers naturally put a light **y** before a word-initial e/ē and a light **w** before a word-initial o/ō: എന്ത് ≈ *yendŭ*, എട്ട് ≈ *yeṭṭŭ*, ഒന്ന് ≈ *wonnŭ*, ഓണം ≈ *wōṇam*. It's subtle, but adding it makes you sound much more natural.\n\nAt the end of words, the short -a is reduced to a neutral vowel (and in central/southern Kerala it can lean toward -e): വല്ല ≈ 'vallə'. The very common noun ending -ം is a clear -am: മരം *maram*, വെള്ളം *veḷḷam*.",
+      "tips": [
+        "Don't overdo the glide — it's a slight onset, not a full 'y'/'w'.",
+        "Final -am: close your lips fully for the m.",
+        "Final -a is short and relaxed."
+      ],
+      "drill": [
+        {
+          "native": "എന്ത്",
+          "roman": "endŭ",
+          "en": "what (≈ yendŭ)"
+        },
+        {
+          "native": "എട്ട്",
+          "roman": "eṭṭŭ",
+          "en": "eight (≈ yeṭṭŭ)"
+        },
+        {
+          "native": "ഒന്ന്",
+          "roman": "onnŭ",
+          "en": "one (≈ wonnŭ)"
+        },
+        {
+          "native": "ഓണം",
+          "roman": "ōṇam",
+          "en": "Onam festival (≈ wōṇam)"
+        },
+        {
+          "native": "എവിടെ",
+          "roman": "evide",
+          "en": "where (≈ yevide)"
+        },
+        {
+          "native": "ഒരു",
+          "roman": "oru",
+          "en": "a, one (≈ woru)"
+        }
+      ]
+    },
+    {
+      "id": "intonation",
+      "title": "Rhythm and question intonation",
+      "body": "Malayalam has a gentle stress on the **first syllable** of a word and a very even, rapid rhythm — the long words and doubled consonants give it its characteristic 'rolling' sound. Don't stress later syllables as you might in English.\n\nYes/no questions are made with the particle **-ō** on the word in question (വരുമോ? 'will (you) come?', ആണോ? 'is it?'), with a rising-then-falling pitch on that ending. Tag questions use **അല്ലേ?** *allē* ('isn't it?') or **ഇല്ലേ?** *illē*. Question-word questions (എവിടെ, എന്ത്) fall at the end. A long, sung-out ending like *āāṇō?* conveys surprise. The colloquial particle **-ā** also works as a question: വരുന്നാ? 'coming?'",
+      "tips": [
+        "Put the -ō ending on whatever you're asking about.",
+        "Keep a steady beat; don't swallow syllables except the half-u.",
+        "Use അല്ലേ? constantly — it's the Malayalam 'right?'."
+      ],
+      "drill": [
+        {
+          "native": "സുഖമാണോ?",
+          "roman": "sukhamāṇō?",
+          "en": "Are you well?"
+        },
+        {
+          "native": "വരുമോ?",
+          "roman": "varumō?",
+          "en": "Will you come?"
+        },
+        {
+          "native": "നല്ലതല്ലേ?",
+          "roman": "nallatallē?",
+          "en": "It's good, isn't it?"
+        },
+        {
+          "native": "എവിടെ പോകുന്നു?",
+          "roman": "evide pōkunnu?",
+          "en": "Where are you going?"
+        },
+        {
+          "native": "അയ്യോ!",
+          "roman": "ayyō!",
+          "en": "Oh no! (exclamation)"
+        },
+        {
+          "native": "ആണോ?",
+          "roman": "āṇō?",
+          "en": "Is that so? Really?"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "n": 0,
+      "native": "പൂജ്യം",
+      "roman": "pūjyam",
+      "digit": "൦"
+    },
+    {
+      "n": 1,
+      "native": "ഒന്ന്",
+      "roman": "onnŭ",
+      "digit": "൧"
+    },
+    {
+      "n": 2,
+      "native": "രണ്ട്",
+      "roman": "raṇḍŭ",
+      "digit": "൨"
+    },
+    {
+      "n": 3,
+      "native": "മൂന്ന്",
+      "roman": "mūnnŭ",
+      "digit": "൩"
+    },
+    {
+      "n": 4,
+      "native": "നാല്",
+      "roman": "nālŭ",
+      "digit": "൪"
+    },
+    {
+      "n": 5,
+      "native": "അഞ്ച്",
+      "roman": "añjŭ",
+      "digit": "൫"
+    },
+    {
+      "n": 6,
+      "native": "ആറ്",
+      "roman": "āṟŭ",
+      "digit": "൬"
+    },
+    {
+      "n": 7,
+      "native": "ഏഴ്",
+      "roman": "ēḻŭ",
+      "digit": "൭"
+    },
+    {
+      "n": 8,
+      "native": "എട്ട്",
+      "roman": "eṭṭŭ",
+      "digit": "൮"
+    },
+    {
+      "n": 9,
+      "native": "ഒമ്പത്",
+      "roman": "ombatŭ",
+      "digit": "൯",
+      "note": "Also spelled ഒൻപത്."
+    },
+    {
+      "n": 10,
+      "native": "പത്ത്",
+      "roman": "pattŭ",
+      "digit": "൧൦"
+    },
+    {
+      "n": 11,
+      "native": "പതിനൊന്ന്",
+      "roman": "patinonnŭ",
+      "digit": "൧൧"
+    },
+    {
+      "n": 12,
+      "native": "പന്ത്രണ്ട്",
+      "roman": "pandraṇḍŭ",
+      "digit": "൧൨"
+    },
+    {
+      "n": 13,
+      "native": "പതിമൂന്ന്",
+      "roman": "patimūnnŭ",
+      "digit": "൧൩"
+    },
+    {
+      "n": 14,
+      "native": "പതിനാല്",
+      "roman": "patinālŭ",
+      "digit": "൧൪"
+    },
+    {
+      "n": 15,
+      "native": "പതിനഞ്ച്",
+      "roman": "patinañjŭ",
+      "digit": "൧൫"
+    },
+    {
+      "n": 16,
+      "native": "പതിനാറ്",
+      "roman": "patināṟŭ",
+      "digit": "൧൬"
+    },
+    {
+      "n": 17,
+      "native": "പതിനേഴ്",
+      "roman": "patinēḻŭ",
+      "digit": "൧൭"
+    },
+    {
+      "n": 18,
+      "native": "പതിനെട്ട്",
+      "roman": "patineṭṭŭ",
+      "digit": "൧൮"
+    },
+    {
+      "n": 19,
+      "native": "പത്തൊമ്പത്",
+      "roman": "pattombatŭ",
+      "digit": "൧൯"
+    },
+    {
+      "n": 20,
+      "native": "ഇരുപത്",
+      "roman": "irupatŭ",
+      "digit": "൨൦"
+    },
+    {
+      "n": 21,
+      "native": "ഇരുപത്തിയൊന്ന്",
+      "roman": "irupattiyonnŭ",
+      "digit": "൨൧",
+      "note": "Spoken also as ഇരുപത്തൊന്ന് (irupattonnŭ); the -tti- + y- pattern applies to all tens: 31 മുപ്പത്തിയൊന്ന്, 45 നാൽപത്തിയഞ്ച്."
+    },
+    {
+      "n": 22,
+      "native": "ഇരുപത്തിരണ്ട്",
+      "roman": "irupattiraṇḍŭ",
+      "digit": "൨൨"
+    },
+    {
+      "n": 23,
+      "native": "ഇരുപത്തിമൂന്ന്",
+      "roman": "irupattimūnnŭ",
+      "digit": "൨൩"
+    },
+    {
+      "n": 24,
+      "native": "ഇരുപത്തിനാല്",
+      "roman": "irupattinālŭ",
+      "digit": "൨൪"
+    },
+    {
+      "n": 25,
+      "native": "ഇരുപത്തിയഞ്ച്",
+      "roman": "irupattiyañjŭ",
+      "digit": "൨൫"
+    },
+    {
+      "n": 26,
+      "native": "ഇരുപത്തിയാറ്",
+      "roman": "irupattiyāṟŭ",
+      "digit": "൨൬"
+    },
+    {
+      "n": 27,
+      "native": "ഇരുപത്തിയേഴ്",
+      "roman": "irupattiyēḻŭ",
+      "digit": "൨൭"
+    },
+    {
+      "n": 28,
+      "native": "ഇരുപത്തിയെട്ട്",
+      "roman": "irupattiyeṭṭŭ",
+      "digit": "൨൮"
+    },
+    {
+      "n": 29,
+      "native": "ഇരുപത്തിയൊമ്പത്",
+      "roman": "irupattiyombatŭ",
+      "digit": "൨൯"
+    },
+    {
+      "n": 30,
+      "native": "മുപ്പത്",
+      "roman": "muppatŭ",
+      "digit": "൩൦"
+    },
+    {
+      "n": 31,
+      "native": "മുപ്പത്തിയൊന്ന്",
+      "roman": "muppattiyonnŭ",
+      "digit": "൩൧"
+    },
+    {
+      "n": 32,
+      "native": "മുപ്പത്തിരണ്ട്",
+      "roman": "muppattiraṇḍŭ",
+      "digit": "൩൨"
+    },
+    {
+      "n": 33,
+      "native": "മുപ്പത്തിമൂന്ന്",
+      "roman": "muppattimūnnŭ",
+      "digit": "൩൩"
+    },
+    {
+      "n": 34,
+      "native": "മുപ്പത്തിനാല്",
+      "roman": "muppattinālŭ",
+      "digit": "൩൪"
+    },
+    {
+      "n": 35,
+      "native": "മുപ്പത്തിയഞ്ച്",
+      "roman": "muppattiyañjŭ",
+      "digit": "൩൫"
+    },
+    {
+      "n": 36,
+      "native": "മുപ്പത്തിയാറ്",
+      "roman": "muppattiyāṟŭ",
+      "digit": "൩൬"
+    },
+    {
+      "n": 37,
+      "native": "മുപ്പത്തിയേഴ്",
+      "roman": "muppattiyēḻŭ",
+      "digit": "൩൭"
+    },
+    {
+      "n": 38,
+      "native": "മുപ്പത്തിയെട്ട്",
+      "roman": "muppattiyeṭṭŭ",
+      "digit": "൩൮"
+    },
+    {
+      "n": 39,
+      "native": "മുപ്പത്തിയൊമ്പത്",
+      "roman": "muppattiyombatŭ",
+      "digit": "൩൯"
+    },
+    {
+      "n": 40,
+      "native": "നാൽപത്",
+      "roman": "nālpatŭ",
+      "digit": "൪൦",
+      "note": "Traditional spelling നാല്പത്."
+    },
+    {
+      "n": 41,
+      "native": "നാൽപത്തിയൊന്ന്",
+      "roman": "nālpattiyonnŭ",
+      "digit": "൪൧"
+    },
+    {
+      "n": 42,
+      "native": "നാൽപത്തിരണ്ട്",
+      "roman": "nālpattiraṇḍŭ",
+      "digit": "൪൨"
+    },
+    {
+      "n": 43,
+      "native": "നാൽപത്തിമൂന്ന്",
+      "roman": "nālpattimūnnŭ",
+      "digit": "൪൩"
+    },
+    {
+      "n": 44,
+      "native": "നാൽപത്തിനാല്",
+      "roman": "nālpattinālŭ",
+      "digit": "൪൪"
+    },
+    {
+      "n": 45,
+      "native": "നാൽപത്തിയഞ്ച്",
+      "roman": "nālpattiyañjŭ",
+      "digit": "൪൫"
+    },
+    {
+      "n": 46,
+      "native": "നാൽപത്തിയാറ്",
+      "roman": "nālpattiyāṟŭ",
+      "digit": "൪൬"
+    },
+    {
+      "n": 47,
+      "native": "നാൽപത്തിയേഴ്",
+      "roman": "nālpattiyēḻŭ",
+      "digit": "൪൭"
+    },
+    {
+      "n": 48,
+      "native": "നാൽപത്തിയെട്ട്",
+      "roman": "nālpattiyeṭṭŭ",
+      "digit": "൪൮"
+    },
+    {
+      "n": 49,
+      "native": "നാൽപത്തിയൊമ്പത്",
+      "roman": "nālpattiyombatŭ",
+      "digit": "൪൯"
+    },
+    {
+      "n": 50,
+      "native": "അമ്പത്",
+      "roman": "ambatŭ",
+      "digit": "൫൦",
+      "note": "Also spelled അൻപത്."
+    },
+    {
+      "n": 51,
+      "native": "അമ്പത്തിയൊന്ന്",
+      "roman": "ambattiyonnŭ",
+      "digit": "൫൧"
+    },
+    {
+      "n": 52,
+      "native": "അമ്പത്തിരണ്ട്",
+      "roman": "ambattiraṇḍŭ",
+      "digit": "൫൨"
+    },
+    {
+      "n": 53,
+      "native": "അമ്പത്തിമൂന്ന്",
+      "roman": "ambattimūnnŭ",
+      "digit": "൫൩"
+    },
+    {
+      "n": 54,
+      "native": "അമ്പത്തിനാല്",
+      "roman": "ambattinālŭ",
+      "digit": "൫൪"
+    },
+    {
+      "n": 55,
+      "native": "അമ്പത്തിയഞ്ച്",
+      "roman": "ambattiyañjŭ",
+      "digit": "൫൫"
+    },
+    {
+      "n": 56,
+      "native": "അമ്പത്തിയാറ്",
+      "roman": "ambattiyāṟŭ",
+      "digit": "൫൬"
+    },
+    {
+      "n": 57,
+      "native": "അമ്പത്തിയേഴ്",
+      "roman": "ambattiyēḻŭ",
+      "digit": "൫൭"
+    },
+    {
+      "n": 58,
+      "native": "അമ്പത്തിയെട്ട്",
+      "roman": "ambattiyeṭṭŭ",
+      "digit": "൫൮"
+    },
+    {
+      "n": 59,
+      "native": "അമ്പത്തിയൊമ്പത്",
+      "roman": "ambattiyombatŭ",
+      "digit": "൫൯"
+    },
+    {
+      "n": 60,
+      "native": "അറുപത്",
+      "roman": "aṟupatŭ",
+      "digit": "൬൦"
+    },
+    {
+      "n": 61,
+      "native": "അറുപത്തിയൊന്ന്",
+      "roman": "aṟupattiyonnŭ",
+      "digit": "൬൧"
+    },
+    {
+      "n": 62,
+      "native": "അറുപത്തിരണ്ട്",
+      "roman": "aṟupattiraṇḍŭ",
+      "digit": "൬൨"
+    },
+    {
+      "n": 63,
+      "native": "അറുപത്തിമൂന്ന്",
+      "roman": "aṟupattimūnnŭ",
+      "digit": "൬൩"
+    },
+    {
+      "n": 64,
+      "native": "അറുപത്തിനാല്",
+      "roman": "aṟupattinālŭ",
+      "digit": "൬൪"
+    },
+    {
+      "n": 65,
+      "native": "അറുപത്തിയഞ്ച്",
+      "roman": "aṟupattiyañjŭ",
+      "digit": "൬൫"
+    },
+    {
+      "n": 66,
+      "native": "അറുപത്തിയാറ്",
+      "roman": "aṟupattiyāṟŭ",
+      "digit": "൬൬"
+    },
+    {
+      "n": 67,
+      "native": "അറുപത്തിയേഴ്",
+      "roman": "aṟupattiyēḻŭ",
+      "digit": "൬൭"
+    },
+    {
+      "n": 68,
+      "native": "അറുപത്തിയെട്ട്",
+      "roman": "aṟupattiyeṭṭŭ",
+      "digit": "൬൮"
+    },
+    {
+      "n": 69,
+      "native": "അറുപത്തിയൊമ്പത്",
+      "roman": "aṟupattiyombatŭ",
+      "digit": "൬൯"
+    },
+    {
+      "n": 70,
+      "native": "എഴുപത്",
+      "roman": "eḻupatŭ",
+      "digit": "൭൦"
+    },
+    {
+      "n": 71,
+      "native": "എഴുപത്തിയൊന്ന്",
+      "roman": "eḻupattiyonnŭ",
+      "digit": "൭൧"
+    },
+    {
+      "n": 72,
+      "native": "എഴുപത്തിരണ്ട്",
+      "roman": "eḻupattiraṇḍŭ",
+      "digit": "൭൨"
+    },
+    {
+      "n": 73,
+      "native": "എഴുപത്തിമൂന്ന്",
+      "roman": "eḻupattimūnnŭ",
+      "digit": "൭൩"
+    },
+    {
+      "n": 74,
+      "native": "എഴുപത്തിനാല്",
+      "roman": "eḻupattinālŭ",
+      "digit": "൭൪"
+    },
+    {
+      "n": 75,
+      "native": "എഴുപത്തിയഞ്ച്",
+      "roman": "eḻupattiyañjŭ",
+      "digit": "൭൫"
+    },
+    {
+      "n": 76,
+      "native": "എഴുപത്തിയാറ്",
+      "roman": "eḻupattiyāṟŭ",
+      "digit": "൭൬"
+    },
+    {
+      "n": 77,
+      "native": "എഴുപത്തിയേഴ്",
+      "roman": "eḻupattiyēḻŭ",
+      "digit": "൭൭"
+    },
+    {
+      "n": 78,
+      "native": "എഴുപത്തിയെട്ട്",
+      "roman": "eḻupattiyeṭṭŭ",
+      "digit": "൭൮"
+    },
+    {
+      "n": 79,
+      "native": "എഴുപത്തിയൊമ്പത്",
+      "roman": "eḻupattiyombatŭ",
+      "digit": "൭൯"
+    },
+    {
+      "n": 80,
+      "native": "എൺപത്",
+      "roman": "eṇpatŭ",
+      "digit": "൮൦",
+      "note": "Traditional spelling എണ്പത്."
+    },
+    {
+      "n": 81,
+      "native": "എൺപത്തിയൊന്ന്",
+      "roman": "eṇpattiyonnŭ",
+      "digit": "൮൧"
+    },
+    {
+      "n": 82,
+      "native": "എൺപത്തിരണ്ട്",
+      "roman": "eṇpattiraṇḍŭ",
+      "digit": "൮൨"
+    },
+    {
+      "n": 83,
+      "native": "എൺപത്തിമൂന്ന്",
+      "roman": "eṇpattimūnnŭ",
+      "digit": "൮൩"
+    },
+    {
+      "n": 84,
+      "native": "എൺപത്തിനാല്",
+      "roman": "eṇpattinālŭ",
+      "digit": "൮൪"
+    },
+    {
+      "n": 85,
+      "native": "എൺപത്തിയഞ്ച്",
+      "roman": "eṇpattiyañjŭ",
+      "digit": "൮൫"
+    },
+    {
+      "n": 86,
+      "native": "എൺപത്തിയാറ്",
+      "roman": "eṇpattiyāṟŭ",
+      "digit": "൮൬"
+    },
+    {
+      "n": 87,
+      "native": "എൺപത്തിയേഴ്",
+      "roman": "eṇpattiyēḻŭ",
+      "digit": "൮൭"
+    },
+    {
+      "n": 88,
+      "native": "എൺപത്തിയെട്ട്",
+      "roman": "eṇpattiyeṭṭŭ",
+      "digit": "൮൮"
+    },
+    {
+      "n": 89,
+      "native": "എൺപത്തിയൊമ്പത്",
+      "roman": "eṇpattiyombatŭ",
+      "digit": "൮൯"
+    },
+    {
+      "n": 90,
+      "native": "തൊണ്ണൂറ്",
+      "roman": "toṇṇūṟŭ",
+      "digit": "൯൦"
+    },
+    {
+      "n": 91,
+      "native": "തൊണ്ണൂറ്റിയൊന്ന്",
+      "roman": "toṇṇūṯṯiyonnŭ",
+      "digit": "൯൧"
+    },
+    {
+      "n": 92,
+      "native": "തൊണ്ണൂറ്റിരണ്ട്",
+      "roman": "toṇṇūṯṯiraṇḍŭ",
+      "digit": "൯൨"
+    },
+    {
+      "n": 93,
+      "native": "തൊണ്ണൂറ്റിമൂന്ന്",
+      "roman": "toṇṇūṯṯimūnnŭ",
+      "digit": "൯൩"
+    },
+    {
+      "n": 94,
+      "native": "തൊണ്ണൂറ്റിനാല്",
+      "roman": "toṇṇūṯṯinālŭ",
+      "digit": "൯൪"
+    },
+    {
+      "n": 95,
+      "native": "തൊണ്ണൂറ്റിയഞ്ച്",
+      "roman": "toṇṇūṯṯiyañjŭ",
+      "digit": "൯൫"
+    },
+    {
+      "n": 96,
+      "native": "തൊണ്ണൂറ്റിയാറ്",
+      "roman": "toṇṇūṯṯiyāṟŭ",
+      "digit": "൯൬"
+    },
+    {
+      "n": 97,
+      "native": "തൊണ്ണൂറ്റിയേഴ്",
+      "roman": "toṇṇūṯṯiyēḻŭ",
+      "digit": "൯൭"
+    },
+    {
+      "n": 98,
+      "native": "തൊണ്ണൂറ്റിയെട്ട്",
+      "roman": "toṇṇūṯṯiyeṭṭŭ",
+      "digit": "൯൮"
+    },
+    {
+      "n": 99,
+      "native": "തൊണ്ണൂറ്റിയൊമ്പത്",
+      "roman": "toṇṇūṯṯiyombatŭ",
+      "digit": "൯൯"
+    },
+    {
+      "n": 100,
+      "native": "നൂറ്",
+      "roman": "nūṟŭ",
+      "digit": "൧൦൦"
+    },
+    {
+      "n": 200,
+      "native": "ഇരുനൂറ്",
+      "roman": "irunūṟŭ",
+      "digit": "൨൦൦"
+    },
+    {
+      "n": 300,
+      "native": "മുന്നൂറ്",
+      "roman": "munnūṟŭ",
+      "digit": "൩൦൦"
+    },
+    {
+      "n": 500,
+      "native": "അഞ്ഞൂറ്",
+      "roman": "aññūṟŭ",
+      "digit": "൫൦൦"
+    },
+    {
+      "n": 1000,
+      "native": "ആയിരം",
+      "roman": "āyiram",
+      "digit": "൧൦൦൦"
+    },
+    {
+      "n": 2000,
+      "native": "രണ്ടായിരം",
+      "roman": "raṇḍāyiram",
+      "digit": "൨൦൦൦"
+    },
+    {
+      "n": 10000,
+      "native": "പതിനായിരം",
+      "roman": "patināyiram",
+      "digit": "൧൦൦൦൦"
+    },
+    {
+      "n": 100000,
+      "native": "ലക്ഷം",
+      "roman": "lakṣam",
+      "digit": "൧൦൦൦൦൦",
+      "note": "One lakh; ഒരു ലക്ഷം. Written 1,00,000."
+    },
+    {
+      "n": 10000000,
+      "native": "കോടി",
+      "roman": "kōṭi",
+      "digit": "൧൦൦൦൦൦൦൦",
+      "note": "One crore = 100 lakh; ഒരു കോടി. Written 1,00,00,000."
+    }
+  ]
+}

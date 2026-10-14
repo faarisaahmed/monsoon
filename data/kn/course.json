@@ -1,0 +1,2892 @@
+{
+  "code": "kn",
+  "name": "Kannada",
+  "native": "ಕನ್ನಡ",
+  "scriptName": "Kannada",
+  "script": {
+    "overview": "Kannada script (ಕನ್ನಡ ಲಿಪಿ) is an **abugida**, a close cousin of the Telugu script. Each consonant letter carries an inherent vowel **a**: ಕ is *ka*. To get other vowels you attach a **vowel sign** (ಕಾಗುಣಿತ *kāguṇita*): ಕ *ka*, ಕಾ *kā*, ಕಿ *ki*, ಕೀ *kī*, ಕು *ku*, ಕೂ *kū*, ಕೆ *ke*, ಕೇ *kē* and so on. Independent vowel letters (ಅ ಆ ಇ ...) are used only at the start of a word.\n\nMost letters have a little horizontal tick on top called the **ತಲೆಕಟ್ಟು** *talekaṭṭu* ('head-tie'); it represents the inherent *a*. When you add the i-sign, the tick is replaced by a curl (ಕ → ಕಿ). The script is written left to right, with no capital letters, and the letters are very round, because they were historically scratched on palm leaves, where straight lines would split the leaf.\n\nTo write a consonant **without** a vowel you add the **halant** ್ (ಕ್). When two consonants come together with no vowel between them, the second is usually written as a small **ottakshara** (ಒತ್ತಕ್ಷರ, 'pressed letter') **below** the first: ಕ + ್ + ಕ = ಕ್ಕ (*kka*), ಅಮ್ಮ *amma*, ಪುಸ್ತಕ *pustaka*. A ರ before another consonant is written as a small hook after the cluster (ಅರ್ಕಾವೊತ್ತು), as in ಧರ್ಮ *dharma*. Mastering the ottaksharas is the main hurdle in reading Kannada, but there are only about 35 subscript shapes and most look like shrunken versions of the full letter.\n\nThe traditional alphabet (ಅಕ್ಷರಮಾಲೆ *akṣaramāle*) has 49 letters: 13 vowels (ಸ್ವರ), 2 'carriers' ಂ and ಃ (ಯೋಗವಾಹ), and 34 consonants (ವ್ಯಂಜನ), divided into 25 *vargīya* (grouped, arranged by mouth position) and 9 *avargīya* (ungrouped). Kannada also has its own digits ೦–೯, though Western digits are now more common in everyday use.",
+    "groups": [
+      {
+        "id": "vowels",
+        "title": "Vowels (ಸ್ವರಗಳು)",
+        "note": "Kannada distinguishes short and long versions of a, i, u, e and o. The 'sign' column shows the vowel sign (ಕಾಗುಣಿತ ಚಿಹ್ನೆ) used after a consonant, demonstrated on ಕ. The independent letter is used only at the start of a word.",
+        "letters": [
+          {
+            "char": "ಅ",
+            "roman": "a",
+            "ipa": "ɐ",
+            "sound": "Short a, like the u in 'cup' or the a in 'about'.",
+            "sign": "—",
+            "signExample": "ಕ (ka)",
+            "example": {
+              "native": "ಅಮ್ಮ",
+              "roman": "amma",
+              "en": "mother"
+            },
+            "strokes": "Start with a small loop at top left, curve down and round to the right, finish with the head tick."
+          },
+          {
+            "char": "ಆ",
+            "roman": "ā",
+            "ipa": "aː",
+            "sound": "Long a, as in 'father'.",
+            "sign": "ಾ",
+            "signExample": "ಕಾ (kā)",
+            "example": {
+              "native": "ಆನೆ",
+              "roman": "āne",
+              "en": "elephant"
+            },
+            "strokes": "Write ಅ, then add the hook on the right."
+          },
+          {
+            "char": "ಇ",
+            "roman": "i",
+            "ipa": "i",
+            "sound": "Short i, as in 'sit' but a little tenser.",
+            "sign": "ಿ",
+            "signExample": "ಕಿ (ki)",
+            "example": {
+              "native": "ಇಲಿ",
+              "roman": "ili",
+              "en": "mouse, rat"
+            },
+            "strokes": "A rounded body with a tail swinging up to the right."
+          },
+          {
+            "char": "ಈ",
+            "roman": "ī",
+            "ipa": "iː",
+            "sound": "Long ee, as in 'seen'.",
+            "sign": "ೀ",
+            "signExample": "ಕೀ (kī)",
+            "example": {
+              "native": "ಈಗ",
+              "roman": "īga",
+              "en": "now"
+            },
+            "strokes": "Like ಇ with an extra loop on the right."
+          },
+          {
+            "char": "ಉ",
+            "roman": "u",
+            "ipa": "u",
+            "sound": "Short u, as in 'put'.",
+            "sign": "ು",
+            "signExample": "ಕು (ku)",
+            "example": {
+              "native": "ಉಪ್ಪು",
+              "roman": "uppu",
+              "en": "salt"
+            },
+            "strokes": "A round body followed by a hook; the sign ು sits to the right of the consonant."
+          },
+          {
+            "char": "ಊ",
+            "roman": "ū",
+            "ipa": "uː",
+            "sound": "Long oo, as in 'food'.",
+            "sign": "ೂ",
+            "signExample": "ಕೂ (kū)",
+            "example": {
+              "native": "ಊಟ",
+              "roman": "ūṭa",
+              "en": "meal"
+            },
+            "strokes": "ಉ with an extra curl on the right."
+          },
+          {
+            "char": "ಋ",
+            "roman": "ru",
+            "ipa": "ru",
+            "sound": "Pronounced 'ru' (tapped r + short u). Only in Sanskrit loanwords.",
+            "sign": "ೃ",
+            "signExample": "ಕೃ (kru)",
+            "example": {
+              "native": "ಋಷಿ",
+              "roman": "ruṣi",
+              "en": "sage, seer"
+            },
+            "strokes": "Body like ಖು-shaped curl; the sign ೃ hangs to the right."
+          },
+          {
+            "char": "ಎ",
+            "roman": "e",
+            "ipa": "e",
+            "sound": "Short e, as in 'bed' but crisper. At the start of a word often sounds like 'ye'.",
+            "sign": "ೆ",
+            "signExample": "ಕೆ (ke)",
+            "example": {
+              "native": "ಎಲೆ",
+              "roman": "ele",
+              "en": "leaf"
+            },
+            "strokes": "Loop, then a long tail down and to the right."
+          },
+          {
+            "char": "ಏ",
+            "roman": "ē",
+            "ipa": "eː",
+            "sound": "Long e, like 'ay' in 'say' but without the glide at the end.",
+            "sign": "ೇ",
+            "signExample": "ಕೇ (kē)",
+            "example": {
+              "native": "ಏಣಿ",
+              "roman": "ēṇi",
+              "en": "ladder"
+            },
+            "strokes": "Like ಎ with an extra loop on its tail."
+          },
+          {
+            "char": "ಐ",
+            "roman": "ai",
+            "ipa": "ɐi",
+            "sound": "As in 'aisle'.",
+            "sign": "ೈ",
+            "signExample": "ಕೈ (kai)",
+            "example": {
+              "native": "ಐದು",
+              "roman": "aidu",
+              "en": "five"
+            },
+            "strokes": "ಎ shape with a small extra stroke below."
+          },
+          {
+            "char": "ಒ",
+            "roman": "o",
+            "ipa": "o",
+            "sound": "Short o, as in 'obey'. At the start of a word often sounds like 'wo'.",
+            "sign": "ೊ",
+            "signExample": "ಕೊ (ko)",
+            "example": {
+              "native": "ಒಂಟೆ",
+              "roman": "oṇṭe",
+              "en": "camel"
+            },
+            "strokes": "Round body with a hooked tail."
+          },
+          {
+            "char": "ಓ",
+            "roman": "ō",
+            "ipa": "oː",
+            "sound": "Long o, as in 'go' but a pure vowel without a w-glide.",
+            "sign": "ೋ",
+            "signExample": "ಕೋ (kō)",
+            "example": {
+              "native": "ಓದು",
+              "roman": "ōdu",
+              "en": "to read, study"
+            },
+            "strokes": "ಒ with an extra loop on the tail."
+          },
+          {
+            "char": "ಔ",
+            "roman": "au",
+            "ipa": "ɐu",
+            "sound": "As in 'cow'. Mostly in Sanskrit loanwords.",
+            "sign": "ೌ",
+            "signExample": "ಕೌ (kau)",
+            "example": {
+              "native": "ಔಷಧ",
+              "roman": "auṣadha",
+              "en": "medicine"
+            },
+            "strokes": "ಒ body with a different curl on the right."
+          }
+        ]
+      },
+      {
+        "id": "yogavaha",
+        "title": "Anusvara, visarga and other marks",
+        "note": "ಂ and ಃ are traditionally listed after the vowels as ಯೋಗವಾಹಗಳು ('carriers'), shown here on ಅ. The halant and the nukta are diacritics rather than letters.",
+        "letters": [
+          {
+            "char": "ಅಂ",
+            "roman": "aṃ / am",
+            "ipa": "ɐm, ɐŋ",
+            "sound": "Anusvara ಂ (ಸೊನ್ನೆ, 'zero'): a nasal that takes the place of the following consonant: ŋ before k/g, ñ before ch/j, ṇ before ṭ/ḍ, n before t/d, m before p/b and at the end of a word.",
+            "example": {
+              "native": "ಅಂಗಡಿ",
+              "roman": "aṅgaḍi",
+              "en": "shop"
+            },
+            "strokes": "A small circle written after the letter, in the middle of the line."
+          },
+          {
+            "char": "ಅಃ",
+            "roman": "aḥ",
+            "ipa": "ɐh",
+            "sound": "Visarga ಃ: a light h-breath. Only in Sanskrit words.",
+            "example": {
+              "native": "ದುಃಖ",
+              "roman": "duḥkha",
+              "en": "sorrow"
+            },
+            "strokes": "Two small circles stacked vertically."
+          },
+          {
+            "char": "ಕ್",
+            "roman": "k (halant)",
+            "ipa": "k",
+            "sound": "The halant ್ (ಹಲಂತ / ವಿರಾಮ) removes the inherent a. Written visibly mostly in English loans; inside words a subscript letter is used instead.",
+            "example": {
+              "native": "ಬಸ್",
+              "roman": "bas",
+              "en": "bus"
+            },
+            "strokes": "A small hook on top right of the letter, replacing the head tick."
+          },
+          {
+            "char": "ಫ಼",
+            "roman": "f",
+            "ipa": "f",
+            "sound": "Nukta ಼ under ಫ or ಜ marks the English/Persian sounds f and z (ಜ಼ = z). Used in careful writing of loanwords; many speakers simply say p/ph and j.",
+            "example": {
+              "native": "ಫ಼್ಯಾನ್",
+              "roman": "fyān",
+              "en": "ceiling fan"
+            },
+            "strokes": "Write ಫ, then a dot below."
+          },
+          {
+            "char": "ಱ",
+            "roman": "ṟa (archaic)",
+            "ipa": "r",
+            "sound": "Archaic 'hard r' (ಶಕಟರೇಫ), found only in old Kannada texts; today replaced by ರ.",
+            "strokes": "Not needed for modern Kannada."
+          },
+          {
+            "char": "ೞ",
+            "roman": "ḻa (archaic)",
+            "ipa": "ɻ",
+            "sound": "Archaic retroflex approximant (like Tamil ழ), found in old texts; today replaced by ಳ.",
+            "strokes": "Not needed for modern Kannada."
+          }
+        ]
+      },
+      {
+        "id": "velar",
+        "title": "Velar consonants (ಕ ವರ್ಗ)",
+        "note": "Made with the back of the tongue against the soft palate. Each row (ವರ್ಗ) goes: unaspirated voiceless, aspirated voiceless, unaspirated voiced, aspirated voiced, nasal.",
+        "letters": [
+          {
+            "char": "ಕ",
+            "roman": "ka",
+            "ipa": "k",
+            "sound": "k as in 'skate', without a puff of air.",
+            "example": {
+              "native": "ಕಣ್ಣು",
+              "roman": "kaṇṇu",
+              "en": "eye"
+            },
+            "strokes": "Hook-shaped body opening right, head tick on top."
+          },
+          {
+            "char": "ಖ",
+            "roman": "kha",
+            "ipa": "kʰ",
+            "sound": "k with a strong puff of air, as in 'kite'. Mainly in loanwords.",
+            "example": {
+              "native": "ಖುಷಿ",
+              "roman": "khuṣi",
+              "en": "happiness"
+            },
+            "strokes": "Two joined bowls with a head tick."
+          },
+          {
+            "char": "ಗ",
+            "roman": "ga",
+            "ipa": "ɡ",
+            "sound": "g as in 'go'.",
+            "example": {
+              "native": "ಗಾಳಿ",
+              "roman": "gāḷi",
+              "en": "wind, air"
+            },
+            "strokes": "A rounded hook, head tick on top."
+          },
+          {
+            "char": "ಘ",
+            "roman": "gha",
+            "ipa": "ɡʱ",
+            "sound": "Breathy g, like 'g-h' said together. Often softened to plain g in speech.",
+            "example": {
+              "native": "ಘಟ್ಟ",
+              "roman": "ghaṭṭa",
+              "en": "ghat, mountain range"
+            },
+            "strokes": "Like ಫ-style double curve; practise from a model."
+          },
+          {
+            "char": "ಙ",
+            "roman": "ṅa",
+            "ipa": "ŋ",
+            "sound": "ng as in 'sing'. Almost never written alone; anusvara ಂ is used instead.",
+            "example": {
+              "native": "ವಾಙ್ಮಯ",
+              "roman": "vāṅmaya",
+              "en": "literature (formal)"
+            },
+            "strokes": "A curl with a tail; rare in modern writing."
+          }
+        ]
+      },
+      {
+        "id": "palatal",
+        "title": "Palatal consonants (ಚ ವರ್ಗ)",
+        "note": "Made with the flat of the tongue against the hard palate.",
+        "letters": [
+          {
+            "char": "ಚ",
+            "roman": "cha",
+            "ipa": "t͡ʃ",
+            "sound": "ch as in 'church', without a puff of air.",
+            "example": {
+              "native": "ಚಹಾ",
+              "roman": "chahā",
+              "en": "tea"
+            },
+            "strokes": "A round body with a little tail on the left."
+          },
+          {
+            "char": "ಛ",
+            "roman": "chha",
+            "ipa": "t͡ʃʰ",
+            "sound": "Aspirated ch, with a puff of air. Rare.",
+            "example": {
+              "native": "ಛತ್ರಿ",
+              "roman": "chhatri",
+              "en": "umbrella"
+            },
+            "strokes": "ಚ with an extra stroke underneath."
+          },
+          {
+            "char": "ಜ",
+            "roman": "ja",
+            "ipa": "d͡ʒ",
+            "sound": "j as in 'jam'.",
+            "example": {
+              "native": "ಜನ",
+              "roman": "jana",
+              "en": "people"
+            },
+            "strokes": "Wide body with a hook in the middle."
+          },
+          {
+            "char": "ಝ",
+            "roman": "jha",
+            "ipa": "d͡ʒʱ",
+            "sound": "Breathy j. Very rare.",
+            "example": {
+              "native": "ಝರಿ",
+              "roman": "jhari",
+              "en": "stream, small waterfall"
+            },
+            "strokes": "Practise from a model; rare letter."
+          },
+          {
+            "char": "ಞ",
+            "roman": "ña",
+            "ipa": "ɲ",
+            "sound": "ny as in 'canyon'. Mostly inside the conjunct ಜ್ಞ, usually pronounced 'gny' or 'jn'.",
+            "example": {
+              "native": "ಜ್ಞಾನ",
+              "roman": "jñāna",
+              "en": "knowledge"
+            },
+            "strokes": "Rare letter; learn it inside ಜ್ಞ."
+          }
+        ]
+      },
+      {
+        "id": "retroflex",
+        "title": "Retroflex consonants (ಟ ವರ್ಗ)",
+        "note": "Curl the tip of the tongue back and touch the roof of the mouth behind the ridge. English t/d are in between dental and retroflex, so you must exaggerate both.",
+        "letters": [
+          {
+            "char": "ಟ",
+            "roman": "ṭa",
+            "ipa": "ʈ",
+            "sound": "Retroflex t: tongue tip curled back. Close to the t of American 'card' said with a hard t.",
+            "example": {
+              "native": "ಟೊಪ್ಪಿ",
+              "roman": "ṭoppi",
+              "en": "cap, hat"
+            },
+            "strokes": "Round body with a flat top."
+          },
+          {
+            "char": "ಠ",
+            "roman": "ṭha",
+            "ipa": "ʈʰ",
+            "sound": "Aspirated retroflex t. Rare.",
+            "example": {
+              "native": "ಠಾಣೆ",
+              "roman": "ṭhāṇe",
+              "en": "police station"
+            },
+            "strokes": "A circle with a dot or line inside, head tick on top."
+          },
+          {
+            "char": "ಡ",
+            "roman": "ḍa",
+            "ipa": "ɖ",
+            "sound": "Retroflex d: tongue tip curled back.",
+            "example": {
+              "native": "ಡಬ್ಬಿ",
+              "roman": "ḍabbi",
+              "en": "box, tin"
+            },
+            "strokes": "Like ಜ but with an open curl."
+          },
+          {
+            "char": "ಢ",
+            "roman": "ḍha",
+            "ipa": "ɖʱ",
+            "sound": "Breathy retroflex d. Very rare.",
+            "example": {
+              "native": "ಢಕ್ಕೆ",
+              "roman": "ḍhakke",
+              "en": "large drum"
+            },
+            "strokes": "ಡ with an extra stroke below."
+          },
+          {
+            "char": "ಣ",
+            "roman": "ṇa",
+            "ipa": "ɳ",
+            "sound": "Retroflex n: say n with the tongue curled back. Never at the start of a word.",
+            "example": {
+              "native": "ಹಣ",
+              "roman": "haṇa",
+              "en": "money"
+            },
+            "strokes": "Two humps with a head tick."
+          }
+        ]
+      },
+      {
+        "id": "dental",
+        "title": "Dental consonants (ತ ವರ್ಗ)",
+        "note": "Tongue tip pressed against the back of the upper front teeth, like a French or Spanish t/d.",
+        "letters": [
+          {
+            "char": "ತ",
+            "roman": "ta",
+            "ipa": "t̪",
+            "sound": "Dental t: tongue on the teeth, no puff of air. Softer than English t.",
+            "example": {
+              "native": "ತಲೆ",
+              "roman": "tale",
+              "en": "head"
+            },
+            "strokes": "A rounded body with a head tick."
+          },
+          {
+            "char": "ಥ",
+            "roman": "tha",
+            "ipa": "t̪ʰ",
+            "sound": "Aspirated dental t (not English 'th'!).",
+            "example": {
+              "native": "ರಥ",
+              "roman": "ratha",
+              "en": "chariot"
+            },
+            "strokes": "ತ-like body with a line inside."
+          },
+          {
+            "char": "ದ",
+            "roman": "da",
+            "ipa": "d̪",
+            "sound": "Dental d, tongue on the teeth (like the 'th' in 'this', but stopped).",
+            "example": {
+              "native": "ದಾರಿ",
+              "roman": "dāri",
+              "en": "way, path"
+            },
+            "strokes": "Round body with an inward curl."
+          },
+          {
+            "char": "ಧ",
+            "roman": "dha",
+            "ipa": "d̪ʱ",
+            "sound": "Breathy dental d. Mostly in Sanskrit loans.",
+            "example": {
+              "native": "ಧನ್ಯವಾದ",
+              "roman": "dhanyavāda",
+              "en": "thanks"
+            },
+            "strokes": "ದ with an extra stroke below."
+          },
+          {
+            "char": "ನ",
+            "roman": "na",
+            "ipa": "n̪",
+            "sound": "n as in 'no', tongue touching the teeth.",
+            "example": {
+              "native": "ನೀರು",
+              "roman": "nīru",
+              "en": "water"
+            },
+            "strokes": "A rounded loop with a head tick."
+          }
+        ]
+      },
+      {
+        "id": "labial",
+        "title": "Labial consonants (ಪ ವರ್ಗ)",
+        "note": "Made with the lips.",
+        "letters": [
+          {
+            "char": "ಪ",
+            "roman": "pa",
+            "ipa": "p",
+            "sound": "p as in 'spin', without a puff of air.",
+            "example": {
+              "native": "ಪುಸ್ತಕ",
+              "roman": "pustaka",
+              "en": "book"
+            },
+            "strokes": "An open bowl; no head tick."
+          },
+          {
+            "char": "ಫ",
+            "roman": "pha",
+            "ipa": "pʰ",
+            "sound": "Aspirated p. Many speakers say f, especially in English loans.",
+            "example": {
+              "native": "ಫಲ",
+              "roman": "phala",
+              "en": "fruit, result (formal)"
+            },
+            "strokes": "ಪ with a small stroke inside."
+          },
+          {
+            "char": "ಬ",
+            "roman": "ba",
+            "ipa": "b",
+            "sound": "b as in 'bat'.",
+            "example": {
+              "native": "ಬಾಳೆಹಣ್ಣು",
+              "roman": "bāḷehaṇṇu",
+              "en": "banana"
+            },
+            "strokes": "Round body with a head tick."
+          },
+          {
+            "char": "ಭ",
+            "roman": "bha",
+            "ipa": "bʱ",
+            "sound": "Breathy b. Mostly in Sanskrit loans.",
+            "example": {
+              "native": "ಭಾಷೆ",
+              "roman": "bhāṣe",
+              "en": "language"
+            },
+            "strokes": "ಬ with an extra stroke below."
+          },
+          {
+            "char": "ಮ",
+            "roman": "ma",
+            "ipa": "m",
+            "sound": "m as in 'man'.",
+            "example": {
+              "native": "ಮನೆ",
+              "roman": "mane",
+              "en": "house, home"
+            },
+            "strokes": "Loop on the left, open body on the right."
+          }
+        ]
+      },
+      {
+        "id": "avargiya",
+        "title": "Semivowels, sibilants and others (ಅವರ್ಗೀಯ ವ್ಯಂಜನಗಳು)",
+        "note": "The nine ungrouped consonants. ಳ (retroflex l) is a distinctive Dravidian sound; ಶ and ಷ sound the same in modern speech.",
+        "letters": [
+          {
+            "char": "ಯ",
+            "roman": "ya",
+            "ipa": "j",
+            "sound": "y as in 'yes'.",
+            "example": {
+              "native": "ಯಾರು",
+              "roman": "yāru",
+              "en": "who"
+            },
+            "strokes": "Loop, a wide middle and a hook on the right."
+          },
+          {
+            "char": "ರ",
+            "roman": "ra",
+            "ipa": "ɾ",
+            "sound": "A single tapped r, like Spanish 'pero' or the tt in American 'butter'.",
+            "example": {
+              "native": "ರಾತ್ರಿ",
+              "roman": "rātri",
+              "en": "night"
+            },
+            "strokes": "A simple curve with a head tick."
+          },
+          {
+            "char": "ಲ",
+            "roman": "la",
+            "ipa": "l",
+            "sound": "Clear l, tongue on the teeth ridge, as in 'leaf'.",
+            "example": {
+              "native": "ಲೋಟ",
+              "roman": "lōṭa",
+              "en": "tumbler, glass"
+            },
+            "strokes": "Open body with a hook."
+          },
+          {
+            "char": "ವ",
+            "roman": "va",
+            "ipa": "ʋ",
+            "sound": "Between English v and w; lips close but don't touch the teeth hard.",
+            "example": {
+              "native": "ವಾರ",
+              "roman": "vāra",
+              "en": "week"
+            },
+            "strokes": "Round body with a little hook on the left."
+          },
+          {
+            "char": "ಶ",
+            "roman": "sha",
+            "ipa": "ʃ",
+            "sound": "sh as in 'ship'.",
+            "example": {
+              "native": "ಶಾಲೆ",
+              "roman": "shāle",
+              "en": "school"
+            },
+            "strokes": "Two loops joined, head tick on top."
+          },
+          {
+            "char": "ಷ",
+            "roman": "ṣa",
+            "ipa": "ʂ ~ ʃ",
+            "sound": "Historically retroflex sh; in modern speech the same as ಶ.",
+            "example": {
+              "native": "ಷರಟು",
+              "roman": "ṣaraṭu",
+              "en": "shirt"
+            },
+            "strokes": "ಪ-like bowl with a stroke inside."
+          },
+          {
+            "char": "ಸ",
+            "roman": "sa",
+            "ipa": "s",
+            "sound": "s as in 'sun'.",
+            "example": {
+              "native": "ಸಮಯ",
+              "roman": "samaya",
+              "en": "time"
+            },
+            "strokes": "Round body with an inner hook, head tick."
+          },
+          {
+            "char": "ಹ",
+            "roman": "ha",
+            "ipa": "h",
+            "sound": "h as in 'hat'. Dropped by some rural speakers.",
+            "example": {
+              "native": "ಹಾಲು",
+              "roman": "hālu",
+              "en": "milk"
+            },
+            "strokes": "Loop and long curve, head tick."
+          },
+          {
+            "char": "ಳ",
+            "roman": "ḷa",
+            "ipa": "ɭ",
+            "sound": "Retroflex l: curl the tongue tip back and say l. Never at the start of a word.",
+            "example": {
+              "native": "ಬಳೆ",
+              "roman": "baḷe",
+              "en": "bangle"
+            },
+            "strokes": "Like ಳ-shaped double loop; compare carefully with ಲ."
+          }
+        ]
+      },
+      {
+        "id": "kagunita",
+        "title": "How ಕಾಗುಣಿತ works: ಕ ಕಾ ಕಿ ಕೀ ...",
+        "note": "Every consonant combines with every vowel sign in the same way. Learn this table for ಕ, then apply it to all 34 consonants. Note how ಿ (i) replaces the head tick with a curl, and ೆ (e) hangs a hook from the right.",
+        "letters": [
+          {
+            "char": "ಕ",
+            "roman": "ka",
+            "sound": "Consonant + inherent a.",
+            "example": {
+              "native": "ಕರು",
+              "roman": "karu",
+              "en": "calf"
+            }
+          },
+          {
+            "char": "ಕಾ",
+            "roman": "kā",
+            "sound": "+ ಾ: long ā.",
+            "example": {
+              "native": "ಕಾರು",
+              "roman": "kāru",
+              "en": "car"
+            }
+          },
+          {
+            "char": "ಕಿ",
+            "roman": "ki",
+            "sound": "+ ಿ: the head tick becomes a curl.",
+            "example": {
+              "native": "ಕಿವಿ",
+              "roman": "kivi",
+              "en": "ear"
+            }
+          },
+          {
+            "char": "ಕೀ",
+            "roman": "kī",
+            "sound": "+ ೀ: curl plus a long-mark on the right.",
+            "example": {
+              "native": "ಕೀಲಿ",
+              "roman": "kīli",
+              "en": "key"
+            }
+          },
+          {
+            "char": "ಕು",
+            "roman": "ku",
+            "sound": "+ ು: hook written to the right.",
+            "example": {
+              "native": "ಕುರಿ",
+              "roman": "kuri",
+              "en": "sheep"
+            }
+          },
+          {
+            "char": "ಕೂ",
+            "roman": "kū",
+            "sound": "+ ೂ: hook with an extra curl.",
+            "example": {
+              "native": "ಕೂದಲು",
+              "roman": "kūdalu",
+              "en": "hair"
+            }
+          },
+          {
+            "char": "ಕೃ",
+            "roman": "kru",
+            "sound": "+ ೃ: the ru sign.",
+            "example": {
+              "native": "ಕೃಷಿ",
+              "roman": "kruṣi",
+              "en": "agriculture"
+            }
+          },
+          {
+            "char": "ಕೆ",
+            "roman": "ke",
+            "sound": "+ ೆ: short e; hook to the right, head tick stays.",
+            "example": {
+              "native": "ಕೆರೆ",
+              "roman": "kere",
+              "en": "lake, tank"
+            }
+          },
+          {
+            "char": "ಕೇ",
+            "roman": "kē",
+            "sound": "+ ೇ: long ē; the e-hook plus a length mark.",
+            "example": {
+              "native": "ಕೇಳು",
+              "roman": "kēḷu",
+              "en": "listen, ask"
+            }
+          },
+          {
+            "char": "ಕೈ",
+            "roman": "kai",
+            "sound": "+ ೈ: ai.",
+            "example": {
+              "native": "ಕೈ",
+              "roman": "kai",
+              "en": "hand"
+            }
+          },
+          {
+            "char": "ಕೊ",
+            "roman": "ko",
+            "sound": "+ ೊ: short o.",
+            "example": {
+              "native": "ಕೊಡೆ",
+              "roman": "koḍe",
+              "en": "umbrella"
+            }
+          },
+          {
+            "char": "ಕೋ",
+            "roman": "kō",
+            "sound": "+ ೋ: long ō.",
+            "example": {
+              "native": "ಕೋಳಿ",
+              "roman": "kōḷi",
+              "en": "chicken"
+            }
+          },
+          {
+            "char": "ಕೌ",
+            "roman": "kau",
+            "sound": "+ ೌ: au.",
+            "example": {
+              "native": "ಕೌತುಕ",
+              "roman": "kautuka",
+              "en": "curiosity, wonder"
+            }
+          },
+          {
+            "char": "ಕಂ",
+            "roman": "kaṃ",
+            "sound": "+ ಂ: nasal.",
+            "example": {
+              "native": "ಕಂಬ",
+              "roman": "kamba",
+              "en": "pillar"
+            }
+          },
+          {
+            "char": "ಕಃ",
+            "roman": "kaḥ",
+            "sound": "+ ಃ: visarga (rare)."
+          }
+        ]
+      },
+      {
+        "id": "ottakshara",
+        "title": "Ottakshara: conjunct consonants",
+        "note": "The second consonant of a cluster is written small, below the first (ಒತ್ತು). Double consonants are extremely common in Kannada. ರ before a consonant becomes a hook after it (ಅರ್ಕಾವೊತ್ತು).",
+        "letters": [
+          {
+            "char": "ಕ್ಕ",
+            "roman": "kka",
+            "sound": "Doubled k: hold the closure.",
+            "example": {
+              "native": "ಅಕ್ಕ",
+              "roman": "akka",
+              "en": "elder sister"
+            }
+          },
+          {
+            "char": "ತ್ತ",
+            "roman": "tta",
+            "sound": "Doubled dental t.",
+            "example": {
+              "native": "ಹತ್ತು",
+              "roman": "hattu",
+              "en": "ten"
+            }
+          },
+          {
+            "char": "ಪ್ಪ",
+            "roman": "ppa",
+            "sound": "Doubled p.",
+            "example": {
+              "native": "ಅಪ್ಪ",
+              "roman": "appa",
+              "en": "father"
+            }
+          },
+          {
+            "char": "ಟ್ಟ",
+            "roman": "ṭṭa",
+            "sound": "Doubled retroflex t.",
+            "example": {
+              "native": "ಬಟ್ಟೆ",
+              "roman": "baṭṭe",
+              "en": "cloth, clothes"
+            }
+          },
+          {
+            "char": "ಲ್ಲ",
+            "roman": "lla",
+            "sound": "Doubled l.",
+            "example": {
+              "native": "ಎಲ್ಲಿ",
+              "roman": "elli",
+              "en": "where"
+            }
+          },
+          {
+            "char": "ಳ್ಳ",
+            "roman": "ḷḷa",
+            "sound": "Doubled retroflex l.",
+            "example": {
+              "native": "ಕಳ್ಳ",
+              "roman": "kaḷḷa",
+              "en": "thief"
+            }
+          },
+          {
+            "char": "ಣ್ಣ",
+            "roman": "ṇṇa",
+            "sound": "Doubled retroflex n.",
+            "example": {
+              "native": "ಅಣ್ಣ",
+              "roman": "aṇṇa",
+              "en": "elder brother"
+            }
+          },
+          {
+            "char": "ನ್ನ",
+            "roman": "nna",
+            "sound": "Doubled n.",
+            "example": {
+              "native": "ಅನ್ನ",
+              "roman": "anna",
+              "en": "cooked rice"
+            }
+          },
+          {
+            "char": "ಮ್ಮ",
+            "roman": "mma",
+            "sound": "Doubled m.",
+            "example": {
+              "native": "ತಮ್ಮ",
+              "roman": "tamma",
+              "en": "younger brother"
+            }
+          },
+          {
+            "char": "ಚ್ಚ",
+            "roman": "chcha",
+            "sound": "Doubled ch.",
+            "example": {
+              "native": "ಬೆಚ್ಚಗೆ",
+              "roman": "bechchage",
+              "en": "warm"
+            }
+          },
+          {
+            "char": "ಕ್ಷ",
+            "roman": "kṣa",
+            "sound": "k + ṣ, pronounced 'ksh'. Has its own shape.",
+            "example": {
+              "native": "ಪರೀಕ್ಷೆ",
+              "roman": "parīkṣe",
+              "en": "exam"
+            }
+          },
+          {
+            "char": "ಜ್ಞ",
+            "roman": "jña",
+            "sound": "j + ñ, pronounced 'gny' or 'jn'.",
+            "example": {
+              "native": "ವಿಜ್ಞಾನ",
+              "roman": "vijñāna",
+              "en": "science"
+            }
+          },
+          {
+            "char": "ಸ್ತ",
+            "roman": "sta",
+            "sound": "s + t.",
+            "example": {
+              "native": "ಪುಸ್ತಕ",
+              "roman": "pustaka",
+              "en": "book"
+            }
+          },
+          {
+            "char": "ಷ್ಟ",
+            "roman": "ṣṭa",
+            "sound": "sh + retroflex t.",
+            "example": {
+              "native": "ಇಷ್ಟ",
+              "roman": "iṣṭa",
+              "en": "liking, liked"
+            }
+          },
+          {
+            "char": "ಪ್ರ",
+            "roman": "pra",
+            "sound": "p + r; the r-subscript is a small hook.",
+            "example": {
+              "native": "ಪ್ರೀತಿ",
+              "roman": "prīti",
+              "en": "love"
+            }
+          },
+          {
+            "char": "ತ್ರ",
+            "roman": "tra",
+            "sound": "Dental t + r.",
+            "example": {
+              "native": "ಮಿತ್ರ",
+              "roman": "mitra",
+              "en": "friend (formal)"
+            }
+          },
+          {
+            "char": "ಗ್ರ",
+            "roman": "gra",
+            "sound": "g + r.",
+            "example": {
+              "native": "ಗ್ರಾಮ",
+              "roman": "grāma",
+              "en": "village (formal)"
+            }
+          },
+          {
+            "char": "ರ್ಮ",
+            "roman": "rma",
+            "sound": "r + m: ರ before a consonant is written as the hook ರ್ after the cluster (ಅರ್ಕಾವೊತ್ತು).",
+            "example": {
+              "native": "ಧರ್ಮ",
+              "roman": "dharma",
+              "en": "religion, duty"
+            }
+          },
+          {
+            "char": "ಸ್ವ",
+            "roman": "sva",
+            "sound": "s + v.",
+            "example": {
+              "native": "ಸ್ವಲ್ಪ",
+              "roman": "svalpa",
+              "en": "a little"
+            }
+          },
+          {
+            "char": "ದ್ಯ",
+            "roman": "dya",
+            "sound": "d + y.",
+            "example": {
+              "native": "ವಿದ್ಯಾರ್ಥಿ",
+              "roman": "vidyārthi",
+              "en": "student"
+            }
+          },
+          {
+            "char": "ನ್ಯ",
+            "roman": "nya",
+            "sound": "n + y.",
+            "example": {
+              "native": "ಧನ್ಯವಾದ",
+              "roman": "dhanyavāda",
+              "en": "thank you"
+            }
+          },
+          {
+            "char": "ಲ್ಪ",
+            "roman": "lpa",
+            "sound": "l + p (different consonants: subscript is the second one).",
+            "example": {
+              "native": "ಅಲ್ಪ",
+              "roman": "alpa",
+              "en": "small, meagre"
+            }
+          }
+        ]
+      },
+      {
+        "id": "digits",
+        "title": "Kannada digits (ಅಂಕಿಗಳು)",
+        "note": "Native digits appear on government documents, older signs, calendars and school books. Western digits are more common day to day.",
+        "letters": [
+          {
+            "char": "೦",
+            "roman": "sonne",
+            "sound": "0"
+          },
+          {
+            "char": "೧",
+            "roman": "ondu",
+            "sound": "1"
+          },
+          {
+            "char": "೨",
+            "roman": "eraḍu",
+            "sound": "2"
+          },
+          {
+            "char": "೩",
+            "roman": "mūru",
+            "sound": "3"
+          },
+          {
+            "char": "೪",
+            "roman": "nālku",
+            "sound": "4"
+          },
+          {
+            "char": "೫",
+            "roman": "aidu",
+            "sound": "5"
+          },
+          {
+            "char": "೬",
+            "roman": "āru",
+            "sound": "6"
+          },
+          {
+            "char": "೭",
+            "roman": "ēḷu",
+            "sound": "7"
+          },
+          {
+            "char": "೮",
+            "roman": "eṇṭu",
+            "sound": "8"
+          },
+          {
+            "char": "೯",
+            "roman": "ombattu",
+            "sound": "9"
+          }
+        ]
+      }
+    ]
+  },
+  "dir": "ltr",
+  "tts": "kn-IN",
+  "font": "Noto Sans Kannada",
+  "speakers": "≈44 million L1; ≈60 million including L2 speakers",
+  "where": "Karnataka (south-western India) and neighbouring border districts of Maharashtra, Goa, Kerala, Tamil Nadu, Andhra Pradesh and Telangana; large diaspora in the Gulf, USA and UK",
+  "tagline": "The language of Bengaluru, Mysuru and two thousand years of literature, with one of the most logical, beautiful scripts in India.",
+  "intro": "**Kannada** (ಕನ್ನಡ) is a **Dravidian** language, a sister of Tamil, Telugu and Malayalam. It is the official language of Karnataka and the everyday language of Bengaluru, Mysuru, Hubballi-Dharwad and Mangaluru. Its literature goes back over a thousand years, and it has more Jnanpith awards than any other Indian language.\n\nKannada is **agglutinative**: meaning is built by stacking suffixes onto a root (ಮನೆ *mane* 'house' → ಮನೆಯಲ್ಲಿ *maneyalli* 'in the house' → ಮನೆಗಳಲ್ಲಿ *manegaḷalli* 'in the houses'). The basic word order is **subject–object–verb**, verbs agree with the subject in person, number and gender, and there is no ergative construction. Like all Dravidian languages it borrowed heavily from Sanskrit, so many 'learned' words will look familiar to Hindi speakers.\n\nKannada has a noticeable gap between **written standard** and **everyday speech**. Books and news say ಹೋಗುತ್ತೇನೆ *hōguttēne* 'I will go'; people in Bengaluru say ಹೋಗ್ತೀನಿ *hōgtīni*. In North Karnataka and in rural speech you will also hear forms like ಐತೆ *aite* for standard ಇದೆ *ide* 'there is'. This course gives the **neutral standard** form in vocabulary lists and grammar tables, and the **natural spoken Bengaluru/Mysuru form** in phrases and dialogues, with the other form in the notes, so you can both read a newspaper and chat at a darshini.\n\nKannada has two registers of 'you': **ನೀನು** *nīnu* (informal: friends, children, close family) and **ನೀವು** *nīvu* (polite, and plural). Start with ನೀವು with everyone you don't know well.",
+  "romanizationNote": "Romanization follows pronunciation. A macron marks a long vowel: Kannada contrasts short and long versions of **every** vowel, including **e/ē** and **o/ō** (ಬೆಳೆ *beḷe* 'crop' vs ಬೇಳೆ *bēḷe* 'lentils'), so never ignore it. A dot under a consonant means retroflex (tongue curled back): ṭ ḍ ṇ ḷ; plain t d n l are dental (tongue touching the teeth). ಶ is written *sh* and ಷ is *ṣ*, but in modern speech both sound like English 'sh'. *ch* is always as in 'church'. Doubled letters (*tt, kk, ll*) are genuinely held longer. *h* after a consonant (*kh, th, dh, bh*) means aspiration, mostly in Sanskrit loans and often weakened in speech. ಋ is written *ru* because that is how it is pronounced. Word-initial *e* and *o* are often pronounced with a little glide (ಎಲ್ಲಿ *elli* sounds like 'yelli', ಒಂದು *ondu* like 'wondu'), but the romanization does not show it.",
+  "pronunciation": [
+    {
+      "id": "vowel-length",
+      "title": "Short and long vowels: a/ā, i/ī, u/ū",
+      "body": "In Kannada, vowel length changes meaning. A long vowel is held roughly twice as long as a short one, and the quality stays the same (unlike English, where 'long' and 'short' vowels are different sounds).\n\nShort *a* is a neutral 'uh' (as in 'cup'); long *ā* is the open 'aa' of 'father'. Short *i* and *u* are tense but brief; *ī* and *ū* are held.\n\nEnglish speakers tend to shorten unstressed long vowels. In Kannada, a long vowel stays long wherever it is in the word: ಬೆಂಗಳೂರು *beṅgaḷūru* has a long *ū* in the third syllable.",
+      "tips": [
+        "Clap twice for a long vowel, once for a short one.",
+        "Short a is 'uh', not 'aa': ಮರ mara is 'muh-ruh'.",
+        "Keep the vowel quality the same; just hold it longer."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ಕರು",
+            "roman": "karu",
+            "en": "calf"
+          },
+          "b": {
+            "native": "ಕಾರು",
+            "roman": "kāru",
+            "en": "car"
+          }
+        },
+        {
+          "a": {
+            "native": "ಬಳೆ",
+            "roman": "baḷe",
+            "en": "bangle"
+          },
+          "b": {
+            "native": "ಬಾಳೆ",
+            "roman": "bāḷe",
+            "en": "banana plant"
+          }
+        },
+        {
+          "a": {
+            "native": "ಕುಡಿ",
+            "roman": "kuḍi",
+            "en": "drink!"
+          },
+          "b": {
+            "native": "ಕೂಡಿ",
+            "roman": "kūḍi",
+            "en": "together, having joined"
+          }
+        },
+        {
+          "a": {
+            "native": "ದಿನ",
+            "roman": "dina",
+            "en": "day"
+          },
+          "b": {
+            "native": "ದೀನ",
+            "roman": "dīna",
+            "en": "wretched, humble"
+          }
+        },
+        {
+          "a": {
+            "native": "ಹರಿ",
+            "roman": "hari",
+            "en": "to flow; to tear"
+          },
+          "b": {
+            "native": "ಹಾರಿ",
+            "roman": "hāri",
+            "en": "having jumped / flown"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ಬೆಂಗಳೂರು",
+          "roman": "beṅgaḷūru",
+          "en": "Bengaluru"
+        },
+        {
+          "native": "ಮೈಸೂರು",
+          "roman": "maisūru",
+          "en": "Mysuru"
+        },
+        {
+          "native": "ನೀರು",
+          "roman": "nīru",
+          "en": "water"
+        },
+        {
+          "native": "ಊಟ ಆಯ್ತಾ?",
+          "roman": "ūṭa āytā?",
+          "en": "Have you eaten?"
+        },
+        {
+          "native": "ಕಾಫಿ ಬೇಕಾ?",
+          "roman": "kāphi bēkā?",
+          "en": "Do you want coffee?"
+        }
+      ]
+    },
+    {
+      "id": "e-o-length",
+      "title": "Short and long e and o",
+      "body": "Unlike Hindi, Kannada has both **short e/o** and **long ē/ō**, and they distinguish words. The script marks them clearly (ೆ vs ೇ, ೊ vs ೋ), and this course marks long ones with a macron.\n\nShort *e* is like the e in 'bed' but tenser; long *ē* is like 'ay' in 'say' without sliding into a y. Short *o* is like 'o' in 'obey'; long *ō* is a pure 'oh' without the w-glide of English 'go'.\n\nThe past tense and personal endings often depend on this: ಮಾಡಿದೆ *māḍide* 'I did' vs ಮಾಡುತ್ತೇನೆ *māḍuttēne* 'I will do'.",
+      "tips": [
+        "Never diphthongize: ಏಳು ēḷu is not 'ay-loo' with a y-glide.",
+        "Final -e in Kannada is always short and clear: ಮನೆ mane = 'muh-neh'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ಬೆಳೆ",
+            "roman": "beḷe",
+            "en": "crop; to grow"
+          },
+          "b": {
+            "native": "ಬೇಳೆ",
+            "roman": "bēḷe",
+            "en": "lentils, dal"
+          }
+        },
+        {
+          "a": {
+            "native": "ಬೆರೆ",
+            "roman": "bere",
+            "en": "to mix"
+          },
+          "b": {
+            "native": "ಬೇರೆ",
+            "roman": "bēre",
+            "en": "different, other"
+          }
+        },
+        {
+          "a": {
+            "native": "ಕೊಡು",
+            "roman": "koḍu",
+            "en": "to give"
+          },
+          "b": {
+            "native": "ಕೋಡು",
+            "roman": "kōḍu",
+            "en": "horn"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ಬೇಕು",
+          "roman": "bēku",
+          "en": "want, need"
+        },
+        {
+          "native": "ಬೇಡ",
+          "roman": "bēḍa",
+          "en": "don't want"
+        },
+        {
+          "native": "ಹೇಳಿ",
+          "roman": "hēḷi",
+          "en": "tell (polite)"
+        },
+        {
+          "native": "ಹೋಗೋಣ",
+          "roman": "hōgōṇa",
+          "en": "let's go"
+        },
+        {
+          "native": "ಒಳ್ಳೆಯ",
+          "roman": "oḷḷeya",
+          "en": "good"
+        },
+        {
+          "native": "ಮೇಲೆ",
+          "roman": "mēle",
+          "en": "on, above"
+        }
+      ]
+    },
+    {
+      "id": "retroflex",
+      "title": "Retroflex vs dental: ṭ ḍ ṇ vs t d n",
+      "body": "Kannada has two complete sets of 't, d, n' sounds. **Dental** ತ ದ ನ: the tongue tip presses against the back of the upper teeth (as in French or Spanish). **Retroflex** ಟ ಡ ಣ: the tongue tip curls back and touches the roof of the mouth behind the gum ridge, giving a hollow, 'dark' sound.\n\nEnglish t and d sit between the two, so to a Kannada ear they sound vaguely retroflex. Indian English 't' is actually Kannada ಟ. To get it right, exaggerate: really put your tongue on your teeth for ತ, and really curl it back for ಟ.\n\nRetroflex sounds also colour the vowel before them, and between vowels ಡ often becomes a soft flap.",
+      "tips": [
+        "For ತ/ದ, you should feel your tongue touch your teeth.",
+        "For ಟ/ಡ/ಣ, curl the tongue tip up and back as if saying 'r' then release.",
+        "Indian English 'T' in 'TV' is ಟ; the 'th' in 'thin' minus the hiss is close to ತ."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ಕಟ್ಟು",
+            "roman": "kaṭṭu",
+            "en": "to tie, build"
+          },
+          "b": {
+            "native": "ಕತ್ತು",
+            "roman": "kattu",
+            "en": "neck"
+          }
+        },
+        {
+          "a": {
+            "native": "ಬಡಿ",
+            "roman": "baḍi",
+            "en": "to beat, hit"
+          },
+          "b": {
+            "native": "ಬದಿ",
+            "roman": "badi",
+            "en": "side"
+          }
+        },
+        {
+          "a": {
+            "native": "ಒಡೆ",
+            "roman": "oḍe",
+            "en": "to break"
+          },
+          "b": {
+            "native": "ಒದೆ",
+            "roman": "ode",
+            "en": "to kick"
+          }
+        },
+        {
+          "a": {
+            "native": "ಕಾಡು",
+            "roman": "kāḍu",
+            "en": "forest"
+          },
+          "b": {
+            "native": "ಕಾದು",
+            "roman": "kādu",
+            "en": "having waited"
+          }
+        },
+        {
+          "a": {
+            "native": "ಕಣ್ಣು",
+            "roman": "kaṇṇu",
+            "en": "eye"
+          },
+          "b": {
+            "native": "ಕನ್ನ",
+            "roman": "kanna",
+            "en": "burglar's tunnel"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ತಟ್ಟೆ",
+          "roman": "taṭṭe",
+          "en": "plate"
+        },
+        {
+          "native": "ದೊಡ್ಡ",
+          "roman": "doḍḍa",
+          "en": "big"
+        },
+        {
+          "native": "ಹಣ್ಣು",
+          "roman": "haṇṇu",
+          "en": "fruit"
+        },
+        {
+          "native": "ನಡೆ",
+          "roman": "naḍe",
+          "en": "to walk"
+        },
+        {
+          "native": "ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ",
+          "roman": "tumbā chennāgide",
+          "en": "It's very nice"
+        },
+        {
+          "native": "ಟೀ ಕೊಡಿ",
+          "roman": "ṭī koḍi",
+          "en": "Give me tea, please"
+        }
+      ]
+    },
+    {
+      "id": "retroflex-l",
+      "title": "ಳ vs ಲ: the retroflex l",
+      "body": "ಲ *l* is a clear l with the tongue tip on the gum ridge or teeth. ಳ *ḷ* is made by curling the tongue tip back (as for ಟ) and letting air flow round the sides. It sounds darker and heavier, a bit like an l pronounced while thinking of an r.\n\nಳ never begins a word but is very common in the middle and at the end: ಬೆಂಗಳೂರು, ಮಳೆ 'rain', ಹೇಳು 'tell', ಕೇಳು 'ask'. Some urban speakers merge ಳ into ಲ, but this is considered careless and creates real confusion, as the pairs show.",
+      "tips": [
+        "Say 'ṭa' and slide into an l without moving the tongue tip forward.",
+        "Listen for ಳ in the name of the city: Bengaḷūru."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ಹುಳಿ",
+            "roman": "huḷi",
+            "en": "sour"
+          },
+          "b": {
+            "native": "ಹುಲಿ",
+            "roman": "huli",
+            "en": "tiger"
+          }
+        },
+        {
+          "a": {
+            "native": "ಹಾಳು",
+            "roman": "hāḷu",
+            "en": "ruined, spoilt"
+          },
+          "b": {
+            "native": "ಹಾಲು",
+            "roman": "hālu",
+            "en": "milk"
+          }
+        },
+        {
+          "a": {
+            "native": "ಕಳೆ",
+            "roman": "kaḷe",
+            "en": "to lose; weed"
+          },
+          "b": {
+            "native": "ಕಲೆ",
+            "roman": "kale",
+            "en": "stain; art"
+          }
+        },
+        {
+          "a": {
+            "native": "ಬೆಳೆ",
+            "roman": "beḷe",
+            "en": "crop"
+          },
+          "b": {
+            "native": "ಬೆಲೆ",
+            "roman": "bele",
+            "en": "price"
+          }
+        },
+        {
+          "a": {
+            "native": "ಬಾಳೆ",
+            "roman": "bāḷe",
+            "en": "banana plant"
+          },
+          "b": {
+            "native": "ಬಾಲೆ",
+            "roman": "bāle",
+            "en": "young girl (literary)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ಮಳೆ",
+          "roman": "maḷe",
+          "en": "rain"
+        },
+        {
+          "native": "ಹೇಳಿ",
+          "roman": "hēḷi",
+          "en": "tell (polite)"
+        },
+        {
+          "native": "ಕೇಳಿ",
+          "roman": "kēḷi",
+          "en": "ask / listen (polite)"
+        },
+        {
+          "native": "ಬೆಳಿಗ್ಗೆ",
+          "roman": "beḷigge",
+          "en": "morning"
+        },
+        {
+          "native": "ಕೋಳಿ",
+          "roman": "kōḷi",
+          "en": "chicken"
+        },
+        {
+          "native": "ಎಲ್ಲಾ ಒಳ್ಳೆಯದು",
+          "roman": "ellā oḷḷeyadu",
+          "en": "all good"
+        }
+      ]
+    },
+    {
+      "id": "aspiration",
+      "title": "Aspiration (kh, gh, th, dh, ph, bh)",
+      "body": "Kannada script has a full set of aspirated letters (ಖ ಘ ಛ ಝ ಠ ಢ ಥ ಧ ಫ ಭ), but native Dravidian words never use them. They appear in **Sanskrit, Hindi, Persian and English loans**: ಭಾಷೆ *bhāṣe*, ಧನ್ಯವಾದ *dhanyavāda*, ಖುಷಿ *khuṣi*.\n\nIn careful speech (news, teachers, educated Mysuru speech) aspiration is pronounced. In everyday speech it is often **weakened or lost**: ಕಥೆ 'story' is very often written ಕತೆ, and ಭಾಷೆ often sounds like 'bāṣe'. As a learner, aim for light aspiration on these words: it sounds educated, but nobody will misunderstand you without it.\n\nThe flip side: **unaspirated** ಕ ಟ ತ ಪ must have *no* puff of air. English speakers aspirate initial p/t/k ('pin', 'tin'); in Kannada that can sound like a different letter. Hold your hand in front of your mouth: for ಪ ಕ ತ you should feel almost no air.",
+      "tips": [
+        "Say ಪ like the p in 'spin', not 'pin'.",
+        "For ಭ ಧ ಘ, add a breathy h *during* the release, not after.",
+        "Don't worry if natives drop aspiration; it's normal."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ದನ",
+            "roman": "dana",
+            "en": "cattle"
+          },
+          "b": {
+            "native": "ಧನ",
+            "roman": "dhana",
+            "en": "wealth"
+          }
+        },
+        {
+          "a": {
+            "native": "ಕರ",
+            "roman": "kara",
+            "en": "tax; hand (formal)"
+          },
+          "b": {
+            "native": "ಖರ",
+            "roman": "khara",
+            "en": "harsh (formal)"
+          }
+        },
+        {
+          "a": {
+            "native": "ಕತೆ",
+            "roman": "kate",
+            "en": "story (common spelling)"
+          },
+          "b": {
+            "native": "ಕಥೆ",
+            "roman": "kathe",
+            "en": "story (formal spelling)"
+          },
+          "note": "The same word: shows how aspiration is lost in everyday Kannada."
+        }
+      ],
+      "drill": [
+        {
+          "native": "ಭಾಷೆ",
+          "roman": "bhāṣe",
+          "en": "language"
+        },
+        {
+          "native": "ಧನ್ಯವಾದಗಳು",
+          "roman": "dhanyavādagaḷu",
+          "en": "thank you"
+        },
+        {
+          "native": "ಖುಷಿ ಆಯ್ತು",
+          "roman": "khuṣi āytu",
+          "en": "I'm glad"
+        },
+        {
+          "native": "ಮುಖ",
+          "roman": "mukha",
+          "en": "face"
+        },
+        {
+          "native": "ಸುಖ",
+          "roman": "sukha",
+          "en": "comfort, happiness"
+        },
+        {
+          "native": "ಪಾಠ",
+          "roman": "pāṭha",
+          "en": "lesson"
+        }
+      ]
+    },
+    {
+      "id": "gemination",
+      "title": "Double consonants (gemination)",
+      "body": "Doubled consonants are everywhere in Kannada: ಅಮ್ಮ, ಅಪ್ಪ, ಅಕ್ಕ, ಅಣ್ಣ, ಇಲ್ಲ, ಎಲ್ಲಿ. A double consonant is **held** for about twice as long, the way English joins the two t's in 'cat-tail'. The vowel before a double consonant is short and crisp.\n\nGetting this wrong changes words: ಕತೆ *kate* is 'story' but ಕತ್ತೆ *katte* is 'donkey'. Don't be the person telling a donkey.",
+      "tips": [
+        "Pause briefly on the consonant: ak-ka, am-ma, il-la.",
+        "For doubled stops, hold the closure silently before releasing."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ಕತೆ",
+            "roman": "kate",
+            "en": "story"
+          },
+          "b": {
+            "native": "ಕತ್ತೆ",
+            "roman": "katte",
+            "en": "donkey"
+          }
+        },
+        {
+          "a": {
+            "native": "ಪಟ",
+            "roman": "paṭa",
+            "en": "kite; picture"
+          },
+          "b": {
+            "native": "ಪಟ್ಟ",
+            "roman": "paṭṭa",
+            "en": "throne, title"
+          }
+        },
+        {
+          "a": {
+            "native": "ಎಲೆ",
+            "roman": "ele",
+            "en": "leaf"
+          },
+          "b": {
+            "native": "ಎಲ್ಲೆ",
+            "roman": "elle",
+            "en": "boundary, limit"
+          }
+        },
+        {
+          "a": {
+            "native": "ಹಸಿ",
+            "roman": "hasi",
+            "en": "raw; hungry"
+          },
+          "b": {
+            "native": "ಹಸು",
+            "roman": "hasu",
+            "en": "cow"
+          },
+          "note": "Not gemination, but a useful final-vowel pair to compare."
+        }
+      ],
+      "drill": [
+        {
+          "native": "ಇಲ್ಲ",
+          "roman": "illa",
+          "en": "no, isn't"
+        },
+        {
+          "native": "ಗೊತ್ತಿಲ್ಲ",
+          "roman": "gottilla",
+          "en": "I don't know"
+        },
+        {
+          "native": "ಸ್ವಲ್ಪ",
+          "roman": "svalpa",
+          "en": "a little"
+        },
+        {
+          "native": "ಚೆನ್ನಾಗಿದ್ದೀನಿ",
+          "roman": "chennāgiddīni",
+          "en": "I'm fine"
+        },
+        {
+          "native": "ಅಕ್ಕ ಅಣ್ಣ ಅಪ್ಪ ಅಮ್ಮ",
+          "roman": "akka aṇṇa appa amma",
+          "en": "sister, brother, father, mother"
+        }
+      ]
+    },
+    {
+      "id": "final-vowels",
+      "title": "Final -u, -e, -a: every word ends in a vowel",
+      "body": "Native Kannada words almost always end in a vowel, and that vowel is pronounced clearly. Unlike Hindi, the final *a* is **not** dropped: ಮರ is *mara* (tree), not 'mar'. Final -e is a clean short e: ಮನೆ *mane*, never 'main'.\n\nMany words end in a short **-u**, which in fast speech is light and slightly unrounded (almost like a short 'ɨ'), but don't drop it: ಕರು *karu* 'calf' and ಕರೆ *kare* 'call' are different words. Kannada even adds an -u to English loans ending in a consonant: ಬಸ್ಸು *bassu* 'bus', ಕಾರು *kāru* 'car', ಫ್ಯಾನು *phyānu* 'fan'.\n\nFinal vowels matter grammatically: ಮಾಡು *māḍu* 'do!' (informal) vs ಮಾಡಿ *māḍi* 'please do' (polite).",
+      "tips": [
+        "Pronounce every final vowel, briefly.",
+        "The final -u is short and relaxed, not a full 'oo'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ಕರು",
+            "roman": "karu",
+            "en": "calf"
+          },
+          "b": {
+            "native": "ಕರೆ",
+            "roman": "kare",
+            "en": "call"
+          }
+        },
+        {
+          "a": {
+            "native": "ಮಾಡು",
+            "roman": "māḍu",
+            "en": "do! (informal)"
+          },
+          "b": {
+            "native": "ಮಾಡಿ",
+            "roman": "māḍi",
+            "en": "please do (polite)"
+          }
+        },
+        {
+          "a": {
+            "native": "ಕೊಡು",
+            "roman": "koḍu",
+            "en": "give!"
+          },
+          "b": {
+            "native": "ಕೊಡೆ",
+            "roman": "koḍe",
+            "en": "umbrella"
+          }
+        },
+        {
+          "a": {
+            "native": "ಮರ",
+            "roman": "mara",
+            "en": "tree"
+          },
+          "b": {
+            "native": "ಮರೆ",
+            "roman": "mare",
+            "en": "to forget"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ಬಸ್ಸು",
+          "roman": "bassu",
+          "en": "bus"
+        },
+        {
+          "native": "ನೀರು",
+          "roman": "nīru",
+          "en": "water"
+        },
+        {
+          "native": "ಹೆಸರು",
+          "roman": "hesaru",
+          "en": "name"
+        },
+        {
+          "native": "ಕನ್ನಡ",
+          "roman": "kannaḍa",
+          "en": "Kannada"
+        },
+        {
+          "native": "ಮನೆಗೆ ಬನ್ನಿ",
+          "roman": "manege banni",
+          "en": "Come home (polite)"
+        }
+      ]
+    },
+    {
+      "id": "glides",
+      "title": "Initial e and o: the y- and w-glides",
+      "body": "In natural speech, a word beginning with ಎ/ಏ is usually pronounced with a light *y* in front, and a word beginning with ಒ/ಓ with a light *w*: ಎಲ್ಲಿ 'yelli', ಏನು 'yēnu', ಒಂದು 'wondu', ಓದು 'wōdu'. This is how Kannadigas sound, and copying it will make you sound natural. Spelling is unaffected.\n\nThe same glides smooth over vowel meetings inside words and between suffixes: ಮನೆ + ಅಲ್ಲಿ → ಮನೆಯಲ್ಲಿ *maneyalli* 'in the house' (a written ಯ appears), ಗುರು + ಅನ್ನು → ಗುರುವನ್ನು *guruvannu* (a written ವ appears).",
+      "tips": [
+        "Don't overdo it: the glide is light.",
+        "Learn the written ಯ/ವ glides in case endings: ಮನೆಯ, ಗುರುವಿನ."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ಮನೆ",
+            "roman": "mane",
+            "en": "house"
+          },
+          "b": {
+            "native": "ಮನೆಯಲ್ಲಿ",
+            "roman": "maneyalli",
+            "en": "in the house"
+          },
+          "note": "y-glide inserted before a vowel suffix"
+        },
+        {
+          "a": {
+            "native": "ಗುರು",
+            "roman": "guru",
+            "en": "teacher"
+          },
+          "b": {
+            "native": "ಗುರುವನ್ನು",
+            "roman": "guruvannu",
+            "en": "the teacher (object)"
+          },
+          "note": "v-glide after u"
+        }
+      ],
+      "drill": [
+        {
+          "native": "ಎಲ್ಲಿ?",
+          "roman": "elli?",
+          "en": "where? ('yelli')"
+        },
+        {
+          "native": "ಏನು?",
+          "roman": "ēnu?",
+          "en": "what? ('yēnu')"
+        },
+        {
+          "native": "ಒಂದು",
+          "roman": "ondu",
+          "en": "one ('wondu')"
+        },
+        {
+          "native": "ಎಷ್ಟು?",
+          "roman": "eṣṭu?",
+          "en": "how much? ('yeshtu')"
+        },
+        {
+          "native": "ಒಳಗೆ ಬನ್ನಿ",
+          "roman": "oḷage banni",
+          "en": "come in ('woḷage')"
+        }
+      ]
+    },
+    {
+      "id": "sibilants",
+      "title": "ಸ, ಶ, ಷ and Sanskrit clusters",
+      "body": "ಸ is a plain *s*. ಶ and ಷ were once different (palatal vs retroflex), but in modern Kannada both are simply **sh**. Spelling still distinguishes them, so learn each word's spelling, but pronounce both as 'sh'. Some speakers, especially in rural areas, merge ಶ into ಸ ('sāle' for ಶಾಲೆ), which is considered non-standard.\n\nThe Sanskrit clusters ಕ್ಷ and ಜ್ಞ have special pronunciations: ಕ್ಷ = 'ksh' (ಪರೀಕ್ಷೆ *parīkṣe* 'exam'), and ಜ್ಞ is usually 'gny' or 'jn' (ಜ್ಞಾನ 'gnyāna'). ಋ is said 'ru' (ಕೃಷ್ಣ *kruṣṇa*).",
+      "tips": [
+        "ಶ = ಷ = 'sh' in practice.",
+        "Keep ಸ (s) and ಶ (sh) apart: they make different words."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ಸಾಲು",
+            "roman": "sālu",
+            "en": "row, line"
+          },
+          "b": {
+            "native": "ಶಾಲು",
+            "roman": "shālu",
+            "en": "shawl"
+          }
+        },
+        {
+          "a": {
+            "native": "ಸಾಲ",
+            "roman": "sāla",
+            "en": "loan, debt"
+          },
+          "b": {
+            "native": "ಶಾಲೆ",
+            "roman": "shāle",
+            "en": "school"
+          },
+          "note": "near pair"
+        }
+      ],
+      "drill": [
+        {
+          "native": "ಕೃಷ್ಣ",
+          "roman": "kruṣṇa",
+          "en": "Krishna"
+        },
+        {
+          "native": "ಪರೀಕ್ಷೆ",
+          "roman": "parīkṣe",
+          "en": "exam"
+        },
+        {
+          "native": "ವಿಜ್ಞಾನ",
+          "roman": "vijñāna",
+          "en": "science"
+        },
+        {
+          "native": "ಶನಿವಾರ",
+          "roman": "shanivāra",
+          "en": "Saturday"
+        },
+        {
+          "native": "ಸ್ವಲ್ಪ ಶಾಂತಿ",
+          "roman": "svalpa shānti",
+          "en": "a little peace"
+        }
+      ]
+    },
+    {
+      "id": "anusvara",
+      "title": "The anusvara ಂ and nasal assimilation",
+      "body": "The little circle ಂ (anusvara, called ಸೊನ್ನೆ 'zero') is a nasal consonant whose exact sound depends on the next letter: it becomes **ṅ** (ng) before ಕ/ಗ, **ñ** before ಚ/ಜ, **ṇ** before ಟ/ಡ, **n** before ತ/ದ, and **m** before ಪ/ಬ and at the end of a word or before ವ/ಸ/ಹ etc.\n\nKannada does **not** use it for nasalized vowels as Hindi does; it is always a real consonant. So ಅಂಗಡಿ is *aṅgaḍi* (with a real 'ng' + g), and ಚಂದ is *chanda*.",
+      "tips": [
+        "Read ಂ as the nasal that matches the next consonant.",
+        "Before s, h, v, y, r, l it usually sounds like 'm'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ಕಂಬ",
+            "roman": "kamba",
+            "en": "pillar"
+          },
+          "b": {
+            "native": "ಕಬ್ಬು",
+            "roman": "kabbu",
+            "en": "sugarcane"
+          },
+          "note": "nasal + b vs double b"
+        },
+        {
+          "a": {
+            "native": "ಅಂದ",
+            "roman": "anda",
+            "en": "beauty"
+          },
+          "b": {
+            "native": "ಅದ",
+            "roman": "ada",
+            "en": "(part of) that"
+          },
+          "note": "near pair: listen for the n"
+        }
+      ],
+      "drill": [
+        {
+          "native": "ಅಂಗಡಿ",
+          "roman": "aṅgaḍi",
+          "en": "shop"
+        },
+        {
+          "native": "ಮಂಚ",
+          "roman": "mañcha",
+          "en": "bed, cot"
+        },
+        {
+          "native": "ತುಂಬಾ",
+          "roman": "tumbā",
+          "en": "very, a lot"
+        },
+        {
+          "native": "ಸಂಜೆ",
+          "roman": "sañje",
+          "en": "evening"
+        },
+        {
+          "native": "ಎಂಟು",
+          "roman": "eṇṭu",
+          "en": "eight"
+        },
+        {
+          "native": "ಸಂಸಾರ",
+          "roman": "saṃsāra",
+          "en": "family, household"
+        }
+      ]
+    },
+    {
+      "id": "spoken-forms",
+      "title": "Written vs spoken Kannada",
+      "body": "Kannada speech contracts the long written verb forms. The most important patterns (Bengaluru/Mysuru standard): the present/future suffix -ಉತ್ತ- shrinks to -ತ್-, and the endings -ಏನೆ / -ಏವೆ become -ಈನಿ / -ಈವಿ. So ಮಾಡುತ್ತೇನೆ *māḍuttēne* → ಮಾಡ್ತೀನಿ *māḍtīni* 'I do / will do'; ಬರುತ್ತಾರೆ *baruttāre* → ಬರ್ತಾರೆ *bartāre* 'they come'. ಅದು 'it' takes -ಉತ್ತೆ: ಆಗುತ್ತದೆ → ಆಗುತ್ತೆ *āgutte*.\n\nCase endings shrink too: ಮನೆಯಲ್ಲಿ → ಮನೇಲಿ *manēli*, ಮನೆಯನ್ನು → ಮನೇನ *manēna*, ಮಾಡುವುದಿಲ್ಲ → ಮಾಡಲ್ಲ *māḍalla*.\n\nRegional speech differs again: in North Karnataka and rural Mysuru areas you'll hear ಐತೆ *aite* for ಇದೆ *ide* 'is/there is', ಹೋಗ್ತೀನಿ vs ಹೋಗ್ತೇನಿ, etc. This course teaches the Bengaluru/Mysuru spoken forms for conversation; they are understood everywhere.",
+      "tips": [
+        "Read in written forms; speak in contracted forms.",
+        "The rhythm of spoken Kannada is quick: listen for -ತೀನಿ, -ತಾರೆ, -ತೀರ."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ಮಾಡುತ್ತೇನೆ",
+            "roman": "māḍuttēne",
+            "en": "I do (written)"
+          },
+          "b": {
+            "native": "ಮಾಡ್ತೀನಿ",
+            "roman": "māḍtīni",
+            "en": "I do (spoken)"
+          }
+        },
+        {
+          "a": {
+            "native": "ಹೋಗುತ್ತೇವೆ",
+            "roman": "hōguttēve",
+            "en": "we go (written)"
+          },
+          "b": {
+            "native": "ಹೋಗ್ತೀವಿ",
+            "roman": "hōgtīvi",
+            "en": "we go (spoken)"
+          }
+        },
+        {
+          "a": {
+            "native": "ಮನೆಯಲ್ಲಿ",
+            "roman": "maneyalli",
+            "en": "at home (written)"
+          },
+          "b": {
+            "native": "ಮನೇಲಿ",
+            "roman": "manēli",
+            "en": "at home (spoken)"
+          }
+        },
+        {
+          "a": {
+            "native": "ಇದೆ",
+            "roman": "ide",
+            "en": "there is (standard)"
+          },
+          "b": {
+            "native": "ಐತೆ",
+            "roman": "aite",
+            "en": "there is (North Karnataka / rural)"
+          }
+        },
+        {
+          "a": {
+            "native": "ಮಾಡುವುದಿಲ್ಲ",
+            "roman": "māḍuvudilla",
+            "en": "won't do (written)"
+          },
+          "b": {
+            "native": "ಮಾಡಲ್ಲ",
+            "roman": "māḍalla",
+            "en": "won't do (spoken)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ಏನ್ ಮಾಡ್ತಿದ್ದೀರ?",
+          "roman": "ēn māḍtiddīra?",
+          "en": "What are you doing?"
+        },
+        {
+          "native": "ನಾಳೆ ಬರ್ತೀನಿ",
+          "roman": "nāḷe bartīni",
+          "en": "I'll come tomorrow"
+        },
+        {
+          "native": "ಗೊತ್ತಾಯ್ತು",
+          "roman": "gottāytu",
+          "en": "Understood / got it"
+        },
+        {
+          "native": "ಪರವಾಗಿಲ್ಲ",
+          "roman": "paravāgilla",
+          "en": "It's okay / never mind"
+        },
+        {
+          "native": "ಆಗಲ್ಲ",
+          "roman": "āgalla",
+          "en": "Can't be done"
+        }
+      ]
+    },
+    {
+      "id": "stress-intonation",
+      "title": "Stress, rhythm and question intonation",
+      "body": "Kannada has a light, even rhythm. Stress usually falls on the **first syllable**, and every syllable keeps its full vowel: there's no swallowing of unstressed vowels as in English. Long vowels and double consonants make syllables 'heavy', and that heaviness is what gives Kannada its rhythm.\n\nYes/no questions are made by adding **-ಆ** *-ā* to the end of a sentence, with a **rising** pitch on it: ಬರ್ತೀರಾ? *bartīrā?* 'Will you come?'. Questions with a question word (ಏನು, ಎಲ್ಲಿ) have a falling intonation. The tag ಅಲ್ವಾ? *alvā?* 'isn't it?' rises.\n\nKannadigas frequently soften or end sentences with ಅಂತೆ *ante* 'apparently, they say', ಅಲ್ವಾ 'right?', and the friendly vocative particle -ಓ, e.g. ಬನ್ನಿ ಸಾರ್ 'come, sir'.",
+      "tips": [
+        "Stress the first syllable lightly; don't reduce later vowels.",
+        "Make the -ā of yes/no questions rise clearly."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ಅವನು ಬಂದ",
+            "roman": "avanu banda",
+            "en": "He came."
+          },
+          "b": {
+            "native": "ಅವನು ಬಂದನಾ?",
+            "roman": "avanu bandanā?",
+            "en": "Did he come?"
+          }
+        },
+        {
+          "a": {
+            "native": "ನೀವು ಬರ್ತೀರ",
+            "roman": "nīvu bartīra",
+            "en": "You'll come."
+          },
+          "b": {
+            "native": "ನೀವು ಬರ್ತೀರಾ?",
+            "roman": "nīvu bartīrā?",
+            "en": "Will you come?"
+          }
+        },
+        {
+          "a": {
+            "native": "ಇದು ಚೆನ್ನಾಗಿದೆ",
+            "roman": "idu chennāgide",
+            "en": "This is nice."
+          },
+          "b": {
+            "native": "ಇದು ಚೆನ್ನಾಗಿದೆಯಾ?",
+            "roman": "idu chennāgideyā?",
+            "en": "Is this nice?"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ಚೆನ್ನಾಗಿದ್ದೀರಾ?",
+          "roman": "chennāgiddīrā?",
+          "en": "Are you well?"
+        },
+        {
+          "native": "ಎಲ್ಲಿಗೆ ಹೋಗ್ತಿದ್ದೀರ?",
+          "roman": "ellige hōgtiddīra?",
+          "en": "Where are you going?"
+        },
+        {
+          "native": "ಚೆನ್ನಾಗಿದೆ ಅಲ್ವಾ?",
+          "roman": "chennāgide alvā?",
+          "en": "It's nice, isn't it?"
+        },
+        {
+          "native": "ಕಾಫಿ ಕುಡೀತೀರಾ?",
+          "roman": "kāphi kuḍītīrā?",
+          "en": "Will you have coffee?"
+        }
+      ]
+    },
+    {
+      "id": "h-dropping",
+      "title": "h-dropping and the history of ಹ",
+      "body": "Many native Kannada words begin with ಹ *h*: ಹಾಲು 'milk', ಹಣ್ಣು 'fruit', ಹೋಗು 'go', ಹೇಳು 'tell'. Historically, most of these had a *p* in Old Kannada (ಪಾಲ್ *pāl* 'milk', compare Tamil *pāl*), which softened to *h* about 800 years ago.\n\nIn some colloquial speech, especially rural southern Karnataka (Mandya, rural Mysuru) and in casual fast talk, this *h* is weakened or dropped altogether: ಹಾಲು → 'ālu', ಹೋಗು → 'ōgu', ಹೇಳು → 'ēḷu'. Standard and educated Bengaluru speech keeps the h, and you should too, because dropping it can create a different word.",
+      "tips": [
+        "Always pronounce initial ಹ in your own speech.",
+        "When listening, be ready for 'ōgi' = ಹೋಗಿ, 'ēḷi' = ಹೇಳಿ."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ಹಾರು",
+            "roman": "hāru",
+            "en": "to fly, jump"
+          },
+          "b": {
+            "native": "ಆರು",
+            "roman": "āru",
+            "en": "six"
+          }
+        },
+        {
+          "a": {
+            "native": "ಹಾಳು",
+            "roman": "hāḷu",
+            "en": "ruined"
+          },
+          "b": {
+            "native": "ಆಳು",
+            "roman": "āḷu",
+            "en": "to rule; labourer"
+          }
+        },
+        {
+          "a": {
+            "native": "ಹಣ್ಣು",
+            "roman": "haṇṇu",
+            "en": "fruit"
+          },
+          "b": {
+            "native": "ಅಣ್ಣ",
+            "roman": "aṇṇa",
+            "en": "elder brother"
+          },
+          "note": "near pair"
+        }
+      ],
+      "drill": [
+        {
+          "native": "ಹೋಗಿ ಬನ್ನಿ",
+          "roman": "hōgi banni",
+          "en": "Go and come back (polite goodbye)"
+        },
+        {
+          "native": "ಹೆಸರು",
+          "roman": "hesaru",
+          "en": "name"
+        },
+        {
+          "native": "ಹುಡುಗ",
+          "roman": "huḍuga",
+          "en": "boy"
+        },
+        {
+          "native": "ಹಾಲು ಬೇಕು",
+          "roman": "hālu bēku",
+          "en": "I want milk"
+        },
+        {
+          "native": "ಹೇಗಿದ್ದೀರಾ?",
+          "roman": "hēgiddīrā?",
+          "en": "How are you?"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "n": 0,
+      "native": "ಸೊನ್ನೆ",
+      "roman": "sonne",
+      "digit": "೦"
+    },
+    {
+      "n": 1,
+      "native": "ಒಂದು",
+      "roman": "ondu",
+      "digit": "೧"
+    },
+    {
+      "n": 2,
+      "native": "ಎರಡು",
+      "roman": "eraḍu",
+      "digit": "೨"
+    },
+    {
+      "n": 3,
+      "native": "ಮೂರು",
+      "roman": "mūru",
+      "digit": "೩"
+    },
+    {
+      "n": 4,
+      "native": "ನಾಲ್ಕು",
+      "roman": "nālku",
+      "digit": "೪"
+    },
+    {
+      "n": 5,
+      "native": "ಐದು",
+      "roman": "aidu",
+      "digit": "೫"
+    },
+    {
+      "n": 6,
+      "native": "ಆರು",
+      "roman": "āru",
+      "digit": "೬"
+    },
+    {
+      "n": 7,
+      "native": "ಏಳು",
+      "roman": "ēḷu",
+      "digit": "೭"
+    },
+    {
+      "n": 8,
+      "native": "ಎಂಟು",
+      "roman": "eṇṭu",
+      "digit": "೮"
+    },
+    {
+      "n": 9,
+      "native": "ಒಂಬತ್ತು",
+      "roman": "ombattu",
+      "digit": "೯"
+    },
+    {
+      "n": 10,
+      "native": "ಹತ್ತು",
+      "roman": "hattu",
+      "digit": "೧೦"
+    },
+    {
+      "n": 11,
+      "native": "ಹನ್ನೊಂದು",
+      "roman": "hannondu",
+      "digit": "೧೧"
+    },
+    {
+      "n": 12,
+      "native": "ಹನ್ನೆರಡು",
+      "roman": "hanneraḍu",
+      "digit": "೧೨"
+    },
+    {
+      "n": 13,
+      "native": "ಹದಿಮೂರು",
+      "roman": "hadimūru",
+      "digit": "೧೩"
+    },
+    {
+      "n": 14,
+      "native": "ಹದಿನಾಲ್ಕು",
+      "roman": "hadinālku",
+      "digit": "೧೪"
+    },
+    {
+      "n": 15,
+      "native": "ಹದಿನೈದು",
+      "roman": "hadinaidu",
+      "digit": "೧೫"
+    },
+    {
+      "n": 16,
+      "native": "ಹದಿನಾರು",
+      "roman": "hadināru",
+      "digit": "೧೬"
+    },
+    {
+      "n": 17,
+      "native": "ಹದಿನೇಳು",
+      "roman": "hadinēḷu",
+      "digit": "೧೭"
+    },
+    {
+      "n": 18,
+      "native": "ಹದಿನೆಂಟು",
+      "roman": "hadineṇṭu",
+      "digit": "೧೮"
+    },
+    {
+      "n": 19,
+      "native": "ಹತ್ತೊಂಬತ್ತು",
+      "roman": "hattombattu",
+      "digit": "೧೯"
+    },
+    {
+      "n": 20,
+      "native": "ಇಪ್ಪತ್ತು",
+      "roman": "ippattu",
+      "digit": "೨೦"
+    },
+    {
+      "n": 21,
+      "native": "ಇಪ್ಪತ್ತೊಂದು",
+      "roman": "ippattondu",
+      "digit": "೨೧"
+    },
+    {
+      "n": 22,
+      "native": "ಇಪ್ಪತ್ತೆರಡು",
+      "roman": "ippatteraḍu",
+      "digit": "೨೨"
+    },
+    {
+      "n": 23,
+      "native": "ಇಪ್ಪತ್ಮೂರು",
+      "roman": "ippatmūru",
+      "digit": "೨೩"
+    },
+    {
+      "n": 24,
+      "native": "ಇಪ್ಪತ್ನಾಲ್ಕು",
+      "roman": "ippatnālku",
+      "digit": "೨೪"
+    },
+    {
+      "n": 25,
+      "native": "ಇಪ್ಪತ್ತೈದು",
+      "roman": "ippattaidu",
+      "digit": "೨೫"
+    },
+    {
+      "n": 26,
+      "native": "ಇಪ್ಪತ್ತಾರು",
+      "roman": "ippattāru",
+      "digit": "೨೬"
+    },
+    {
+      "n": 27,
+      "native": "ಇಪ್ಪತ್ತೇಳು",
+      "roman": "ippattēḷu",
+      "digit": "೨೭"
+    },
+    {
+      "n": 28,
+      "native": "ಇಪ್ಪತ್ತೆಂಟು",
+      "roman": "ippatteṇṭu",
+      "digit": "೨೮"
+    },
+    {
+      "n": 29,
+      "native": "ಇಪ್ಪತ್ತೊಂಬತ್ತು",
+      "roman": "ippattombattu",
+      "digit": "೨೯"
+    },
+    {
+      "n": 30,
+      "native": "ಮೂವತ್ತು",
+      "roman": "mūvattu",
+      "digit": "೩೦"
+    },
+    {
+      "n": 31,
+      "native": "ಮೂವತ್ತೊಂದು",
+      "roman": "mūvattondu",
+      "digit": "೩೧"
+    },
+    {
+      "n": 32,
+      "native": "ಮೂವತ್ತೆರಡು",
+      "roman": "mūvatteraḍu",
+      "digit": "೩೨"
+    },
+    {
+      "n": 33,
+      "native": "ಮೂವತ್ಮೂರು",
+      "roman": "mūvatmūru",
+      "digit": "೩೩"
+    },
+    {
+      "n": 34,
+      "native": "ಮೂವತ್ನಾಲ್ಕು",
+      "roman": "mūvatnālku",
+      "digit": "೩೪"
+    },
+    {
+      "n": 35,
+      "native": "ಮೂವತ್ತೈದು",
+      "roman": "mūvattaidu",
+      "digit": "೩೫"
+    },
+    {
+      "n": 36,
+      "native": "ಮೂವತ್ತಾರು",
+      "roman": "mūvattāru",
+      "digit": "೩೬"
+    },
+    {
+      "n": 37,
+      "native": "ಮೂವತ್ತೇಳು",
+      "roman": "mūvattēḷu",
+      "digit": "೩೭"
+    },
+    {
+      "n": 38,
+      "native": "ಮೂವತ್ತೆಂಟು",
+      "roman": "mūvatteṇṭu",
+      "digit": "೩೮"
+    },
+    {
+      "n": 39,
+      "native": "ಮೂವತ್ತೊಂಬತ್ತು",
+      "roman": "mūvattombattu",
+      "digit": "೩೯"
+    },
+    {
+      "n": 40,
+      "native": "ನಲವತ್ತು",
+      "roman": "nalavattu",
+      "digit": "೪೦"
+    },
+    {
+      "n": 41,
+      "native": "ನಲವತ್ತೊಂದು",
+      "roman": "nalavattondu",
+      "digit": "೪೧"
+    },
+    {
+      "n": 42,
+      "native": "ನಲವತ್ತೆರಡು",
+      "roman": "nalavatteraḍu",
+      "digit": "೪೨"
+    },
+    {
+      "n": 43,
+      "native": "ನಲವತ್ಮೂರು",
+      "roman": "nalavatmūru",
+      "digit": "೪೩"
+    },
+    {
+      "n": 44,
+      "native": "ನಲವತ್ನಾಲ್ಕು",
+      "roman": "nalavatnālku",
+      "digit": "೪೪"
+    },
+    {
+      "n": 45,
+      "native": "ನಲವತ್ತೈದು",
+      "roman": "nalavattaidu",
+      "digit": "೪೫"
+    },
+    {
+      "n": 46,
+      "native": "ನಲವತ್ತಾರು",
+      "roman": "nalavattāru",
+      "digit": "೪೬"
+    },
+    {
+      "n": 47,
+      "native": "ನಲವತ್ತೇಳು",
+      "roman": "nalavattēḷu",
+      "digit": "೪೭"
+    },
+    {
+      "n": 48,
+      "native": "ನಲವತ್ತೆಂಟು",
+      "roman": "nalavatteṇṭu",
+      "digit": "೪೮"
+    },
+    {
+      "n": 49,
+      "native": "ನಲವತ್ತೊಂಬತ್ತು",
+      "roman": "nalavattombattu",
+      "digit": "೪೯"
+    },
+    {
+      "n": 50,
+      "native": "ಐವತ್ತು",
+      "roman": "aivattu",
+      "digit": "೫೦"
+    },
+    {
+      "n": 51,
+      "native": "ಐವತ್ತೊಂದು",
+      "roman": "aivattondu",
+      "digit": "೫೧"
+    },
+    {
+      "n": 52,
+      "native": "ಐವತ್ತೆರಡು",
+      "roman": "aivatteraḍu",
+      "digit": "೫೨"
+    },
+    {
+      "n": 53,
+      "native": "ಐವತ್ಮೂರು",
+      "roman": "aivatmūru",
+      "digit": "೫೩"
+    },
+    {
+      "n": 54,
+      "native": "ಐವತ್ನಾಲ್ಕು",
+      "roman": "aivatnālku",
+      "digit": "೫೪"
+    },
+    {
+      "n": 55,
+      "native": "ಐವತ್ತೈದು",
+      "roman": "aivattaidu",
+      "digit": "೫೫"
+    },
+    {
+      "n": 56,
+      "native": "ಐವತ್ತಾರು",
+      "roman": "aivattāru",
+      "digit": "೫೬"
+    },
+    {
+      "n": 57,
+      "native": "ಐವತ್ತೇಳು",
+      "roman": "aivattēḷu",
+      "digit": "೫೭"
+    },
+    {
+      "n": 58,
+      "native": "ಐವತ್ತೆಂಟು",
+      "roman": "aivatteṇṭu",
+      "digit": "೫೮"
+    },
+    {
+      "n": 59,
+      "native": "ಐವತ್ತೊಂಬತ್ತು",
+      "roman": "aivattombattu",
+      "digit": "೫೯"
+    },
+    {
+      "n": 60,
+      "native": "ಅರವತ್ತು",
+      "roman": "aravattu",
+      "digit": "೬೦"
+    },
+    {
+      "n": 61,
+      "native": "ಅರವತ್ತೊಂದು",
+      "roman": "aravattondu",
+      "digit": "೬೧"
+    },
+    {
+      "n": 62,
+      "native": "ಅರವತ್ತೆರಡು",
+      "roman": "aravatteraḍu",
+      "digit": "೬೨"
+    },
+    {
+      "n": 63,
+      "native": "ಅರವತ್ಮೂರು",
+      "roman": "aravatmūru",
+      "digit": "೬೩"
+    },
+    {
+      "n": 64,
+      "native": "ಅರವತ್ನಾಲ್ಕು",
+      "roman": "aravatnālku",
+      "digit": "೬೪"
+    },
+    {
+      "n": 65,
+      "native": "ಅರವತ್ತೈದು",
+      "roman": "aravattaidu",
+      "digit": "೬೫"
+    },
+    {
+      "n": 66,
+      "native": "ಅರವತ್ತಾರು",
+      "roman": "aravattāru",
+      "digit": "೬೬"
+    },
+    {
+      "n": 67,
+      "native": "ಅರವತ್ತೇಳು",
+      "roman": "aravattēḷu",
+      "digit": "೬೭"
+    },
+    {
+      "n": 68,
+      "native": "ಅರವತ್ತೆಂಟು",
+      "roman": "aravatteṇṭu",
+      "digit": "೬೮"
+    },
+    {
+      "n": 69,
+      "native": "ಅರವತ್ತೊಂಬತ್ತು",
+      "roman": "aravattombattu",
+      "digit": "೬೯"
+    },
+    {
+      "n": 70,
+      "native": "ಎಪ್ಪತ್ತು",
+      "roman": "eppattu",
+      "digit": "೭೦"
+    },
+    {
+      "n": 71,
+      "native": "ಎಪ್ಪತ್ತೊಂದು",
+      "roman": "eppattondu",
+      "digit": "೭೧"
+    },
+    {
+      "n": 72,
+      "native": "ಎಪ್ಪತ್ತೆರಡು",
+      "roman": "eppatteraḍu",
+      "digit": "೭೨"
+    },
+    {
+      "n": 73,
+      "native": "ಎಪ್ಪತ್ಮೂರು",
+      "roman": "eppatmūru",
+      "digit": "೭೩"
+    },
+    {
+      "n": 74,
+      "native": "ಎಪ್ಪತ್ನಾಲ್ಕು",
+      "roman": "eppatnālku",
+      "digit": "೭೪"
+    },
+    {
+      "n": 75,
+      "native": "ಎಪ್ಪತ್ತೈದು",
+      "roman": "eppattaidu",
+      "digit": "೭೫"
+    },
+    {
+      "n": 76,
+      "native": "ಎಪ್ಪತ್ತಾರು",
+      "roman": "eppattāru",
+      "digit": "೭೬"
+    },
+    {
+      "n": 77,
+      "native": "ಎಪ್ಪತ್ತೇಳು",
+      "roman": "eppattēḷu",
+      "digit": "೭೭"
+    },
+    {
+      "n": 78,
+      "native": "ಎಪ್ಪತ್ತೆಂಟು",
+      "roman": "eppatteṇṭu",
+      "digit": "೭೮"
+    },
+    {
+      "n": 79,
+      "native": "ಎಪ್ಪತ್ತೊಂಬತ್ತು",
+      "roman": "eppattombattu",
+      "digit": "೭೯"
+    },
+    {
+      "n": 80,
+      "native": "ಎಂಬತ್ತು",
+      "roman": "embattu",
+      "digit": "೮೦"
+    },
+    {
+      "n": 81,
+      "native": "ಎಂಬತ್ತೊಂದು",
+      "roman": "embattondu",
+      "digit": "೮೧"
+    },
+    {
+      "n": 82,
+      "native": "ಎಂಬತ್ತೆರಡು",
+      "roman": "embatteraḍu",
+      "digit": "೮೨"
+    },
+    {
+      "n": 83,
+      "native": "ಎಂಬತ್ಮೂರು",
+      "roman": "embatmūru",
+      "digit": "೮೩"
+    },
+    {
+      "n": 84,
+      "native": "ಎಂಬತ್ನಾಲ್ಕು",
+      "roman": "embatnālku",
+      "digit": "೮೪"
+    },
+    {
+      "n": 85,
+      "native": "ಎಂಬತ್ತೈದು",
+      "roman": "embattaidu",
+      "digit": "೮೫"
+    },
+    {
+      "n": 86,
+      "native": "ಎಂಬತ್ತಾರು",
+      "roman": "embattāru",
+      "digit": "೮೬"
+    },
+    {
+      "n": 87,
+      "native": "ಎಂಬತ್ತೇಳು",
+      "roman": "embattēḷu",
+      "digit": "೮೭"
+    },
+    {
+      "n": 88,
+      "native": "ಎಂಬತ್ತೆಂಟು",
+      "roman": "embatteṇṭu",
+      "digit": "೮೮"
+    },
+    {
+      "n": 89,
+      "native": "ಎಂಬತ್ತೊಂಬತ್ತು",
+      "roman": "embattombattu",
+      "digit": "೮೯"
+    },
+    {
+      "n": 90,
+      "native": "ತೊಂಬತ್ತು",
+      "roman": "tombattu",
+      "digit": "೯೦"
+    },
+    {
+      "n": 91,
+      "native": "ತೊಂಬತ್ತೊಂದು",
+      "roman": "tombattondu",
+      "digit": "೯೧"
+    },
+    {
+      "n": 92,
+      "native": "ತೊಂಬತ್ತೆರಡು",
+      "roman": "tombatteraḍu",
+      "digit": "೯೨"
+    },
+    {
+      "n": 93,
+      "native": "ತೊಂಬತ್ಮೂರು",
+      "roman": "tombatmūru",
+      "digit": "೯೩"
+    },
+    {
+      "n": 94,
+      "native": "ತೊಂಬತ್ನಾಲ್ಕು",
+      "roman": "tombatnālku",
+      "digit": "೯೪"
+    },
+    {
+      "n": 95,
+      "native": "ತೊಂಬತ್ತೈದು",
+      "roman": "tombattaidu",
+      "digit": "೯೫"
+    },
+    {
+      "n": 96,
+      "native": "ತೊಂಬತ್ತಾರು",
+      "roman": "tombattāru",
+      "digit": "೯೬"
+    },
+    {
+      "n": 97,
+      "native": "ತೊಂಬತ್ತೇಳು",
+      "roman": "tombattēḷu",
+      "digit": "೯೭"
+    },
+    {
+      "n": 98,
+      "native": "ತೊಂಬತ್ತೆಂಟು",
+      "roman": "tombatteṇṭu",
+      "digit": "೯೮"
+    },
+    {
+      "n": 99,
+      "native": "ತೊಂಬತ್ತೊಂಬತ್ತು",
+      "roman": "tombattombattu",
+      "digit": "೯೯"
+    },
+    {
+      "n": 100,
+      "native": "ನೂರು",
+      "roman": "nūru",
+      "digit": "೧೦೦"
+    },
+    {
+      "n": 200,
+      "native": "ಇನ್ನೂರು",
+      "roman": "innūru",
+      "digit": "೨೦೦"
+    },
+    {
+      "n": 300,
+      "native": "ಮುನ್ನೂರು",
+      "roman": "munnūru",
+      "digit": "೩೦೦"
+    },
+    {
+      "n": 500,
+      "native": "ಐನೂರು",
+      "roman": "ainūru",
+      "digit": "೫೦೦"
+    },
+    {
+      "n": 1000,
+      "native": "ಸಾವಿರ",
+      "roman": "sāvira",
+      "digit": "೧೦೦೦"
+    },
+    {
+      "n": 2000,
+      "native": "ಎರಡು ಸಾವಿರ",
+      "roman": "eraḍu sāvira",
+      "digit": "೨೦೦೦"
+    },
+    {
+      "n": 100000,
+      "native": "ಒಂದು ಲಕ್ಷ",
+      "roman": "ondu lakṣa",
+      "digit": "೧೦೦೦೦೦"
+    },
+    {
+      "n": 10000000,
+      "native": "ಒಂದು ಕೋಟಿ",
+      "roman": "ondu kōṭi",
+      "digit": "೧೦೦೦೦೦೦೦"
+    }
+  ]
+}

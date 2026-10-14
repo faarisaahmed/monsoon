@@ -1,0 +1,92 @@
+{
+  "id": 4,
+  "title": "Numbers, age & quantities",
+  "goal": "Count things and people, ask 'how many / how much', give your age and use ordinals 1st–10th.",
+  "intro": "Kannada numbers are regular once you know 1–10, the teens and the tens. Look at the numbers chart for every number from 0 to 100: notice how 21–99 are built by joining the tens word to the unit (ಇಪ್ಪತ್ತು + ಒಂದು → ಇಪ್ಪತ್ತೊಂದು 'twenty-one').\n\nIn this unit you'll use numbers in sentences, learn the special counters for people (ಒಬ್ಬ, ಇಬ್ಬರು ...), and talk about age, fractions and quantities. Big numbers use the Indian system: ಸಾವಿರ 'thousand', ಲಕ್ಷ 'lakh' (100,000) and ಕೋಟಿ 'crore' (10 million).",
+  "vocab": [
+    { "native": "ಸಂಖ್ಯೆ", "roman": "saṅkhye", "en": "number", "pos": "noun", "note": "Phone number: ಫೋನ್ ನಂಬರ್ (English is normal here)." },
+    { "native": "ಎಷ್ಟು", "roman": "eṣṭu", "en": "how much, how many", "pos": "q" },
+    { "native": "ವಯಸ್ಸು", "roman": "vayassu", "en": "age", "pos": "noun" },
+    { "native": "ವರ್ಷ", "roman": "varṣa", "en": "year; years old", "pos": "noun" },
+    { "native": "ಮೊದಲನೆಯ", "roman": "modalaneya", "en": "first", "pos": "adj", "note": "Spoken: ಮೊದಲನೇ modalanē. 'At first' = ಮೊದಲು modalu." },
+    { "native": "ಎರಡನೆಯ", "roman": "eraḍaneya", "en": "second", "pos": "adj", "note": "Spoken: ಎರಡನೇ eraḍanē." },
+    { "native": "ಮೂರನೆಯ", "roman": "mūraneya", "en": "third", "pos": "adj" },
+    { "native": "ನಾಲ್ಕನೆಯ", "roman": "nālkaneya", "en": "fourth", "pos": "adj" },
+    { "native": "ಐದನೆಯ", "roman": "aidaneya", "en": "fifth", "pos": "adj" },
+    { "native": "ಆರನೆಯ", "roman": "āraneya", "en": "sixth", "pos": "adj" },
+    { "native": "ಏಳನೆಯ", "roman": "ēḷaneya", "en": "seventh", "pos": "adj" },
+    { "native": "ಎಂಟನೆಯ", "roman": "eṇṭaneya", "en": "eighth", "pos": "adj" },
+    { "native": "ಒಂಬತ್ತನೆಯ", "roman": "ombattaneya", "en": "ninth", "pos": "adj" },
+    { "native": "ಹತ್ತನೆಯ", "roman": "hattaneya", "en": "tenth", "pos": "adj" },
+    { "native": "ಕೊನೆಯ", "roman": "koneya", "en": "last", "pos": "adj" },
+    { "native": "ಅರ್ಧ", "roman": "ardha", "en": "half", "pos": "noun" },
+    { "native": "ಮುಕ್ಕಾಲು", "roman": "mukkālu", "en": "three-quarters", "pos": "noun", "note": "One quarter = ಕಾಲು kālu (same word as 'leg')." },
+    { "native": "ಒಂದೂವರೆ", "roman": "ondūvare", "en": "one and a half", "pos": "num", "note": "Pattern: number + -ಊವರೆ: ಎರಡೂವರೆ 2½, ಮೂರೂವರೆ 3½." },
+    { "native": "ಹೆಚ್ಚು", "roman": "hechchu", "en": "more; much", "pos": "adv" },
+    { "native": "ಜಾಸ್ತಿ", "roman": "jāsti", "en": "more, too much (spoken)", "pos": "adv" },
+    { "native": "ಕಡಿಮೆ", "roman": "kaḍime", "en": "less, few", "pos": "adv" },
+    { "native": "ತುಂಬಾ", "roman": "tumbā", "en": "very; a lot, many", "pos": "adv" },
+    { "native": "ಎಲ್ಲಾ", "roman": "ellā", "en": "all, everything", "pos": "pron", "note": "Written also ಎಲ್ಲ. 'Everyone' = ಎಲ್ಲರೂ ellarū." },
+    { "native": "ಕೆಲವು", "roman": "kelavu", "en": "some, a few", "pos": "adj", "note": "Some people: ಕೆಲವರು kelavaru." },
+    { "native": "ಇನ್ನೊಂದು", "roman": "innondu", "en": "another one, one more", "pos": "pron" },
+    { "native": "ಸಲ", "roman": "sala", "en": "time(s), occasion", "pos": "noun", "note": "ಎರಡು ಸಲ 'twice'. Also ಬಾರಿ bāri." },
+    { "native": "ಒಟ್ಟು", "roman": "oṭṭu", "en": "total, altogether", "pos": "noun" },
+    { "native": "ಎಣಿಸು", "roman": "eṇisu", "en": "to count", "pos": "verb" },
+    { "native": "ಕಿಲೋ", "roman": "kilō", "en": "kilo", "pos": "noun", "note": "Half a kilo: ಅರ್ಧ ಕಿಲೋ." },
+    { "native": "ಮಾತ್ರ", "roman": "mātra", "en": "only", "pos": "particle", "note": "Comes after the word: ಒಂದು ಮಾತ್ರ 'only one'." }
+  ],
+  "phrases": [
+    { "native": "ನಿಮಗೆ ಎಷ್ಟು ವಯಸ್ಸು?", "roman": "nimage eṣṭu vayassu?", "en": "How old are you? (lit. to you how much age?)" },
+    { "native": "ನನಗೆ ಇಪ್ಪತ್ತೆಂಟು ವರ್ಷ", "roman": "nanage ippatteṇṭu varṣa", "en": "I'm twenty-eight." },
+    { "native": "ಇದು ಎಷ್ಟು?", "roman": "idu eṣṭu?", "en": "How much is this?" },
+    { "native": "ಎಷ್ಟು ಜನ ಬರ್ತಾರೆ?", "roman": "eṣṭu jana bartāre?", "en": "How many people are coming?" },
+    { "native": "ಒಟ್ಟು ಹತ್ತು ಜನ", "roman": "oṭṭu hattu jana", "en": "Ten people in total." },
+    { "native": "ಇನ್ನೊಂದು ಕೊಡಿ", "roman": "innondu koḍi", "en": "Give me one more, please." },
+    { "native": "ಅರ್ಧ ಕಿಲೋ ಸಾಕು", "roman": "ardha kilō sāku", "en": "Half a kilo is enough." },
+    { "native": "ತುಂಬಾ ಜಾಸ್ತಿ ಆಯ್ತು", "roman": "tumbā jāsti āytu", "en": "That's too much." },
+    { "native": "ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ", "roman": "svalpa kaḍime māḍi", "en": "Make it a bit less (e.g. the price)." },
+    { "native": "ನಮ್ಮ ಮನೆ ಮೂರನೇ ಮಹಡಿಯಲ್ಲಿ ಇದೆ", "roman": "namma mane mūranē mahaḍiyalli ide", "en": "Our flat is on the third floor." },
+    { "native": "ಇದು ನನ್ನ ಮೊದಲನೇ ಸಲ", "roman": "idu nanna modalanē sala", "en": "This is my first time." },
+    { "native": "ನಿಮ್ಮ ಫೋನ್ ನಂಬರ್ ಏನು?", "roman": "nimma phōn nambar ēnu?", "en": "What's your phone number?" }
+  ],
+  "grammar": [
+    {
+      "title": "Numbers with nouns; counting people",
+      "body": "Numbers go **before** the noun. With a number, things usually stay **singular** in speech (the plural is also correct): ಮೂರು ಪುಸ್ತಕ / ಮೂರು ಪುಸ್ತಕಗಳು 'three books'.\n\n**People** are counted with special human forms:\nಒಬ್ಬ *obba* (one man), ಒಬ್ಬಳು *obbaḷu* (one woman), ಇಬ್ಬರು *ibbaru* (two people), ಮೂವರು *mūvaru* (3), ನಾಲ್ವರು *nālvaru* (4), ಐವರು *aivaru* (5).\nFrom 4 or 5 on (and very often for any number), people just say **number + ಜನ** 'people': ಆರು ಜನ 'six people'.\n\nAdding **-ಊ** to a number means 'all (of them)': ಇಬ್ಬರೂ 'both (people)', ಎರಡೂ 'both (things)', ಮೂರೂ 'all three'.\n\nThe neuter form of 'one' used as a pronoun is ಒಂದು 'one (thing)'; 'one more' is ಇನ್ನೊಂದು.",
+      "examples": [
+        { "native": "ಎರಡು ಕಾಫಿ ಕೊಡಿ", "roman": "eraḍu kāphi koḍi", "en": "Two coffees, please." },
+        { "native": "ನಮಗೆ ಮೂವರು ಮಕ್ಕಳು", "roman": "namage mūvaru makkaḷu", "en": "We have three children." },
+        { "native": "ಆರು ಜನ ಇದ್ದಾರೆ", "roman": "āru jana iddāre", "en": "There are six people." },
+        { "native": "ಇಬ್ಬರೂ ಬನ್ನಿ", "roman": "ibbarū banni", "en": "Both of you come." },
+        { "native": "ಒಂದು ಮಾತ್ರ ಸಾಕು", "roman": "ondu mātra sāku", "en": "Just one is enough." }
+      ]
+    },
+    {
+      "title": "Asking how many / how old; ordinals",
+      "body": "**ಎಷ್ಟು** *eṣṭu* means both 'how much' and 'how many'. Put it where the number would go: ಎಷ್ಟು ಜನ? 'how many people?', ಎಷ್ಟು ರೂಪಾಯಿ? 'how many rupees?'.\n\n**Age** is expressed with the dative: ನನಗೆ ಮೂವತ್ತು ವರ್ಷ 'to me thirty years' = 'I'm thirty'. Ask politely: ನಿಮಗೆ ಎಷ್ಟು ವಯಸ್ಸು?\n\n**Ordinals** add **-ಅನೆಯ** (written) / **-ಅನೇ** (spoken) to the number: ಎರಡನೆಯ / ಎರಡನೇ 'second', ಹತ್ತನೆಯ 'tenth', ಇಪ್ಪತ್ತನೆಯ 'twentieth'. 'First' is ಮೊದಲನೆಯ (from ಮೊದಲು 'first, beginning'). 'Which (number)?' is ಎಷ್ಟನೇ? *eṣṭanē?*: ನೀವು ಎಷ್ಟನೇ ಕ್ಲಾಸ್? 'which class/grade are you in?'.",
+      "examples": [
+        { "native": "ನಿಮ್ಮ ಮಗನಿಗೆ ಎಷ್ಟು ವಯಸ್ಸು?", "roman": "nimma maganige eṣṭu vayassu?", "en": "How old is your son?" },
+        { "native": "ಅವನಿಗೆ ಏಳು ವರ್ಷ", "roman": "avanige ēḷu varṣa", "en": "He's seven." },
+        { "native": "ಅವಳು ಐದನೇ ಕ್ಲಾಸ್", "roman": "avaḷu aidanē klās", "en": "She's in fifth grade." },
+        { "native": "ಎಷ್ಟನೇ ಮಹಡಿ?", "roman": "eṣṭanē mahaḍi?", "en": "Which floor?" },
+        { "native": "ಎಷ್ಟು ಸಲ?", "roman": "eṣṭu sala?", "en": "How many times?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the vegetable cart",
+    "setting": "Meera buys fruit from a push-cart vendor in Malleswaram.",
+    "lines": [
+      { "speaker": "Meera", "native": "ಅಣ್ಣ, ಬಾಳೆಹಣ್ಣು ಡಜನ್ ಎಷ್ಟು?", "roman": "aṇṇa, bāḷehaṇṇu ḍajan eṣṭu?", "en": "Brother, how much for a dozen bananas?" },
+      { "speaker": "Vendor", "native": "ಅರವತ್ತು ರೂಪಾಯಿ, ಅಕ್ಕ.", "roman": "aravattu rūpāyi, akka.", "en": "Sixty rupees, sister." },
+      { "speaker": "Meera", "native": "ಅರವತ್ತಾ? ತುಂಬಾ ಜಾಸ್ತಿ. ಐವತ್ತು ಕೊಡ್ತೀನಿ.", "roman": "aravattā? tumbā jāsti. aivattu koḍtīni.", "en": "Sixty? That's too much. I'll give fifty." },
+      { "speaker": "Vendor", "native": "ಸರಿ, ಐವತ್ತೈದು. ಇನ್ನೇನು ಬೇಕು?", "roman": "sari, aivattaidu. innēnu bēku?", "en": "Okay, fifty-five. What else do you need?" },
+      { "speaker": "Meera", "native": "ಅರ್ಧ ಕಿಲೋ ಟೊಮೆಟೊ, ಒಂದು ಕಿಲೋ ಈರುಳ್ಳಿ.", "roman": "ardha kilō ṭomeṭo, ondu kilō īruḷḷi.", "en": "Half a kilo of tomatoes, one kilo of onions." },
+      { "speaker": "Vendor", "native": "ಟೊಮೆಟೊ ಇಪ್ಪತ್ತು, ಈರುಳ್ಳಿ ನಲವತ್ತು. ಒಟ್ಟು ನೂರ ಹದಿನೈದು.", "roman": "ṭomeṭo ippattu, īruḷḷi nalavattu. oṭṭu nūra hadinaidu.", "en": "Tomatoes twenty, onions forty. A hundred and fifteen altogether." },
+      { "speaker": "Meera", "native": "ಇಗೋ, ನೂರ ಇಪ್ಪತ್ತು.", "roman": "igō, nūra ippattu.", "en": "Here you go, a hundred and twenty." },
+      { "speaker": "Vendor", "native": "ಐದು ರೂಪಾಯಿ ಚಿಲ್ಲರೆ ಇಲ್ಲ, ಒಂದು ನಿಂಬೆಹಣ್ಣು ತಗೊಳ್ಳಿ.", "roman": "aidu rūpāyi chillare illa, ondu nimbehaṇṇu tagoḷḷi.", "en": "I don't have five rupees change, take a lemon." },
+      { "speaker": "Meera", "native": "ಆಯ್ತು, ಥ್ಯಾಂಕ್ಸ್ ಅಣ್ಣ!", "roman": "āytu, thyāṅks aṇṇa!", "en": "Okay, thanks brother!" }
+    ]
+  },
+  "culture": "In compound numbers above 100, ನೂರು becomes ನೂರ (*nūra*) before the rest: ನೂರ ಐವತ್ತು 150; ಇನ್ನೂರ ಐವತ್ತು 250. Prices and phone numbers are very often said in English, especially in Bengaluru, but older people and vendors use Kannada numbers, so it pays to know both. Indian grouping is used for large numbers: 1,00,000 = ಒಂದು ಲಕ್ಷ, 1,00,00,000 = ಒಂದು ಕೋಟಿ."
+}

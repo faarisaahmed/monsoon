@@ -1,0 +1,2822 @@
+{
+  "code": "pa",
+  "name": "Punjabi",
+  "native": "ਪੰਜਾਬੀ",
+  "scriptName": "Gurmukhi",
+  "script": {
+    "overview": "Gurmukhi is an **abugida**: each consonant letter carries an inherent short vowel *a* (ਕ = *ka*), and other vowels are written with **vowel signs** (ਲਗਾਂ ਮਾਤਰਾਂ, *lagāṃ mātrāṃ*) attached above, below, before or after the consonant: ਕ ka, ਕਾ kā, ਕਿ ki, ਕੀ kī, ਕੁ ku, ਕੂ kū, ਕੇ ke, ਕੈ kai, ਕੋ ko, ਕੌ kau. Note that ਿ (*sihārī*) is written **before** the consonant but pronounced after it. As in Hindi, the final inherent *a* is silent in speech: ਘਰ is *kàr*, not *kàra*. Text runs left to right and most letters hang from a horizontal headline.\n\nThe traditional alphabet is the **ਪੈਂਤੀ** (*paintī*, 'the thirty-five'), recited in seven rows of five. The first row holds the three vowel carriers ੳ ਅ ੲ — they never appear alone but carry the vowel signs to make independent vowels (ੳ+ੁ = ਉ, ਅ+ਾ = ਆ, ੲ+ਿ = ਇ) — followed by ਸ and ਹ. Then come five rows of stops grouped by place of articulation (velar, palatal, retroflex, dental, labial), each in the order plain – aspirated – voiced – 'voiced aspirate' – nasal, and a last row ਯ ਰ ਲ ਵ ੜ. Six letters with a dot at the foot (**ਪੈਰ ਬਿੰਦੀ**) were added for Persian and English sounds: ਸ਼ ਖ਼ ਗ਼ ਜ਼ ਫ਼ ਲ਼.\n\nThe fourth letter of each stop row (ਘ ਝ ਢ ਧ ਭ) is the key to Punjabi **tone**: historically a breathy-voiced sound, today it is pronounced as a plain voiceless stop plus a low tone at the start of a word, and causes a high tone when it follows the vowel. ਹ after a vowel likewise disappears into a high tone.\n\nNasalisation is written with **ਬਿੰਦੀ** ( ਂ ) or **ਟਿੱਪੀ** ( ੰ ) depending on the vowel sign. A doubled (geminate) consonant is written with **ਅੱਧਕ** ( ੱ ) on the letter before it: ਪੱਕਾ *pakkā*. Gurmukhi has very few conjuncts: only ਹ, ਰ and ਵ (rarely ਯ) can be written as small subscript forms (**ਪੈਰੀਂ**), e.g. ਪ੍ਰ *pr*, ਪੜ੍ਹ *páṛ*. Punjabi uses the danda ( । ) as a full stop, and has its own digits ੦–੯, though Western digits are now more common.",
+    "groups": [
+      {
+        "id": "first-row",
+        "title": "First row: ੳ ਅ ੲ ਸ ਹ",
+        "note": "The first row of the ਪੈਂਤੀ. ੳ ਅ ੲ are 'vowel carriers' (ਮਾਤਰਾ ਵਾਹਕ) that only appear with vowel signs (except ਅ, which alone is short a). ਸ and ਹ follow them.",
+        "letters": [
+          {
+            "char": "ੳ",
+            "roman": "(u, ū, o)",
+            "ipa": "—",
+            "sound": "ਊੜਾ (ūṛā). Never used alone: carries the vowel signs ੁ ੂ ੋ to make ਉ (u), ਊ (ū), ਓ (o). Note the special shape of ਓ.",
+            "example": {
+              "native": "ਉੱਠ",
+              "roman": "uṭṭh",
+              "en": "camel"
+            },
+            "strokes": "An open loop like a 3 sitting on the headline, with a tail curling right."
+          },
+          {
+            "char": "ਅ",
+            "roman": "a",
+            "ipa": "ə",
+            "sound": "ਐੜਾ (aiṛā). Alone it is the short a of 'about'; it also carries ਾ ੈ ੌ to make ਆ ਐ ਔ.",
+            "example": {
+              "native": "ਅੰਬ",
+              "roman": "amb",
+              "en": "mango"
+            },
+            "strokes": "Two joined loops on the left, a vertical stroke on the right, then the headline."
+          },
+          {
+            "char": "ੲ",
+            "roman": "(i, ī, e)",
+            "ipa": "—",
+            "sound": "ਈੜੀ (īṛī). Never used alone: carries ਿ ੀ ੇ to make ਇ (i), ਈ (ī), ਏ (e).",
+            "example": {
+              "native": "ਇੱਕ",
+              "roman": "ikk",
+              "en": "one"
+            },
+            "strokes": "A small hook hanging from the headline with a curl at the bottom."
+          },
+          {
+            "char": "ਸ",
+            "roman": "s",
+            "ipa": "s",
+            "sound": "ਸੱਸਾ (sassā): s as in 'sun'.",
+            "example": {
+              "native": "ਸੇਬ",
+              "roman": "seb",
+              "en": "apple"
+            },
+            "strokes": "Loop on the left, short bar, vertical stroke on the right, headline."
+          },
+          {
+            "char": "ਹ",
+            "roman": "h",
+            "ipa": "ɦ",
+            "sound": "ਹਾਹਾ (hāhā): a breathy h at the start of a word. After a vowel it is not heard as h but gives the syllable a **high tone**: ਚਾਹ chā́ (tea).",
+            "example": {
+              "native": "ਹੱਥ",
+              "roman": "hatth",
+              "en": "hand"
+            },
+            "strokes": "Like a backwards S hanging from the headline."
+          }
+        ]
+      },
+      {
+        "id": "vowels",
+        "title": "Vowels and vowel signs (ਲਗਾਂ ਮਾਤਰਾਂ)",
+        "note": "Ten vowels. The independent form (left) is used at the start of a word or after another vowel; after a consonant the sign is used. Shown with ਕ.",
+        "letters": [
+          {
+            "char": "ਅ",
+            "roman": "a",
+            "ipa": "ə",
+            "sound": "Short a as in 'about' or 'sun'. ਮੁਕਤਾ (muktā): no sign, inherent in every consonant.",
+            "sign": "—",
+            "signExample": "ਕ (ka)",
+            "example": {
+              "native": "ਅਸੀਂ",
+              "roman": "asīṃ",
+              "en": "we"
+            }
+          },
+          {
+            "char": "ਆ",
+            "roman": "ā",
+            "ipa": "aː",
+            "sound": "Long a as in 'father'. Sign: ਕੰਨਾ (kannā), a vertical stroke after the letter.",
+            "sign": "ਾ",
+            "signExample": "ਕਾ (kā)",
+            "example": {
+              "native": "ਆਲੂ",
+              "roman": "ālū",
+              "en": "potato"
+            }
+          },
+          {
+            "char": "ਇ",
+            "roman": "i",
+            "ipa": "ɪ",
+            "sound": "Short i as in 'sit'. Sign: ਸਿਹਾਰੀ (sihārī), written BEFORE the consonant.",
+            "sign": "ਿ",
+            "signExample": "ਕਿ (ki)",
+            "example": {
+              "native": "ਇਹ",
+              "roman": "é",
+              "en": "this"
+            }
+          },
+          {
+            "char": "ਈ",
+            "roman": "ī",
+            "ipa": "iː",
+            "sound": "Long ee as in 'see'. Sign: ਬਿਹਾਰੀ (bihārī), written after the consonant.",
+            "sign": "ੀ",
+            "signExample": "ਕੀ (kī)",
+            "example": {
+              "native": "ਈਦ",
+              "roman": "īd",
+              "en": "Eid"
+            }
+          },
+          {
+            "char": "ਉ",
+            "roman": "u",
+            "ipa": "ʊ",
+            "sound": "Short u as in 'put'. Sign: ਔਂਕੜ (auṅkaṛ), one hook below.",
+            "sign": "ੁ",
+            "signExample": "ਕੁ (ku)",
+            "example": {
+              "native": "ਉੱਪਰ",
+              "roman": "uppar",
+              "en": "up, above"
+            }
+          },
+          {
+            "char": "ਊ",
+            "roman": "ū",
+            "ipa": "uː",
+            "sound": "Long oo as in 'food'. Sign: ਦੁਲੈਂਕੜ (dulaiṅkaṛ), two hooks below.",
+            "sign": "ੂ",
+            "signExample": "ਕੂ (kū)",
+            "example": {
+              "native": "ਊਠ",
+              "roman": "ūṭh",
+              "en": "camel (variant of ਉੱਠ)"
+            }
+          },
+          {
+            "char": "ਏ",
+            "roman": "e",
+            "ipa": "eː",
+            "sound": "Long e as in 'they' without the glide. Sign: ਲਾਂ (lāṃ), one stroke above.",
+            "sign": "ੇ",
+            "signExample": "ਕੇ (ke)",
+            "example": {
+              "native": "ਏਥੇ",
+              "roman": "ethe",
+              "en": "here"
+            }
+          },
+          {
+            "char": "ਐ",
+            "roman": "ai",
+            "ipa": "ɛː",
+            "sound": "Open e as in 'bed' or 'bat', held long — not the 'eye' sound. Sign: ਦੁਲਾਵਾਂ (dulāvāṃ), two strokes above.",
+            "sign": "ੈ",
+            "signExample": "ਕੈ (kai)",
+            "example": {
+              "native": "ਐਨਕ",
+              "roman": "ainak",
+              "en": "spectacles"
+            }
+          },
+          {
+            "char": "ਓ",
+            "roman": "o",
+            "ipa": "oː",
+            "sound": "Long o as in 'go' without the glide. Sign: ਹੋੜਾ (hoṛā), a hook above.",
+            "sign": "ੋ",
+            "signExample": "ਕੋ (ko)",
+            "example": {
+              "native": "ਓਥੇ",
+              "roman": "othe",
+              "en": "there"
+            }
+          },
+          {
+            "char": "ਔ",
+            "roman": "au",
+            "ipa": "ɔː",
+            "sound": "Open o as in British 'law', held long — not the 'ow' sound. Sign: ਕਨੌੜਾ (kanauṛā), a double hook above.",
+            "sign": "ੌ",
+            "signExample": "ਕੌ (kau)",
+            "example": {
+              "native": "ਔਰਤ",
+              "roman": "aurat",
+              "en": "woman"
+            }
+          }
+        ]
+      },
+      {
+        "id": "velar",
+        "title": "Velars (ਕਵਰਗ)",
+        "note": "Made at the back of the mouth. Order: plain, aspirated, voiced, tonal, nasal.",
+        "letters": [
+          {
+            "char": "ਕ",
+            "roman": "k",
+            "ipa": "k",
+            "sound": "ਕੱਕਾ (kakkā): unaspirated k, as in 'skin' — no puff of air.",
+            "example": {
+              "native": "ਕਲਮ",
+              "roman": "kalam",
+              "en": "pen"
+            },
+            "strokes": "Hook on the left, loop, vertical stem, headline."
+          },
+          {
+            "char": "ਖ",
+            "roman": "kh",
+            "ipa": "kʰ",
+            "sound": "ਖੱਖਾ (khakkhā): aspirated k with a strong puff, as in 'kite'.",
+            "example": {
+              "native": "ਖੇਤ",
+              "roman": "khet",
+              "en": "field"
+            }
+          },
+          {
+            "char": "ਗ",
+            "roman": "g",
+            "ipa": "ɡ",
+            "sound": "ਗੱਗਾ (gaggā): g as in 'go'.",
+            "example": {
+              "native": "ਗਾਂ",
+              "roman": "gāṃ",
+              "en": "cow"
+            }
+          },
+          {
+            "char": "ਘ",
+            "roman": "k + low tone (initial) / high tone (after a vowel)",
+            "ipa": "k̀ / ɡ́",
+            "sound": "ਘੱਗਾ (kàggā): at the start of a word, an unaspirated k with a LOW tone on the next vowel; after a vowel, a g with a HIGH tone on the vowel before it.",
+            "example": {
+              "native": "ਘਰ",
+              "roman": "kàr",
+              "en": "house, home"
+            }
+          },
+          {
+            "char": "ਙ",
+            "roman": "ṅ",
+            "ipa": "ŋ",
+            "sound": "ਙੰਙਾ (ṅaṅṅā): the ng of 'sing'. Very rare in modern spelling.",
+            "example": {
+              "native": "ਵਾਙੂ",
+              "roman": "vāṅū",
+              "en": "like (older spelling of ਵਾਂਗੂੰ)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "palatal",
+        "title": "Palatals (ਚਵਰਗ)",
+        "note": "Made with the tongue against the hard palate.",
+        "letters": [
+          {
+            "char": "ਚ",
+            "roman": "ch",
+            "ipa": "t͡ʃ",
+            "sound": "ਚੱਚਾ (chachchā): ch as in 'church' but without a puff.",
+            "example": {
+              "native": "ਚਾਹ",
+              "roman": "chā́",
+              "en": "tea"
+            }
+          },
+          {
+            "char": "ਛ",
+            "roman": "chh",
+            "ipa": "t͡ʃʰ",
+            "sound": "ਛੱਛਾ (chhachchhā): ch with a strong puff of air.",
+            "example": {
+              "native": "ਛੱਤ",
+              "roman": "chhatt",
+              "en": "roof"
+            }
+          },
+          {
+            "char": "ਜ",
+            "roman": "j",
+            "ipa": "d͡ʒ",
+            "sound": "ਜੱਜਾ (jajjā): j as in 'jam'.",
+            "example": {
+              "native": "ਜੁੱਤੀ",
+              "roman": "juttī",
+              "en": "shoe"
+            }
+          },
+          {
+            "char": "ਝ",
+            "roman": "ch + low tone / j + high tone",
+            "ipa": "t͡ʃ̀ / d͡ʒ́",
+            "sound": "ਝੱਜਾ (chàjjā): initially an unaspirated ch with low tone; after a vowel, j with high tone (ਸਮਝ samáj).",
+            "example": {
+              "native": "ਝੰਡਾ",
+              "roman": "chàṇḍā",
+              "en": "flag"
+            }
+          },
+          {
+            "char": "ਞ",
+            "roman": "ñ",
+            "ipa": "ɲ",
+            "sound": "ਞੰਞਾ (ñaññā): the ny of 'canyon'. Very rare.",
+            "example": {
+              "native": "ਜੰਞ",
+              "roman": "jañ",
+              "en": "wedding procession"
+            }
+          }
+        ]
+      },
+      {
+        "id": "retroflex",
+        "title": "Retroflexes (ਟਵਰਗ)",
+        "note": "Curl the tip of the tongue back and strike the roof of the mouth behind the gum ridge. English t and d are between these and the dentals — aim further back.",
+        "letters": [
+          {
+            "char": "ਟ",
+            "roman": "ṭ",
+            "ipa": "ʈ",
+            "sound": "ਟੈਂਕਾ (ṭaiṅkā): hard retroflex t, tongue curled back.",
+            "example": {
+              "native": "ਟਮਾਟਰ",
+              "roman": "ṭamāṭar",
+              "en": "tomato"
+            }
+          },
+          {
+            "char": "ਠ",
+            "roman": "ṭh",
+            "ipa": "ʈʰ",
+            "sound": "ਠੱਠਾ (ṭhaṭṭhā): retroflex t with a puff of air.",
+            "example": {
+              "native": "ਠੰਢ",
+              "roman": "ṭháṇḍ",
+              "en": "cold (weather)"
+            }
+          },
+          {
+            "char": "ਡ",
+            "roman": "ḍ",
+            "ipa": "ɖ",
+            "sound": "ਡੱਡਾ (ḍaḍḍā): retroflex d.",
+            "example": {
+              "native": "ਡੱਬਾ",
+              "roman": "ḍabbā",
+              "en": "box"
+            }
+          },
+          {
+            "char": "ਢ",
+            "roman": "ṭ + low tone / ḍ + high tone",
+            "ipa": "ʈ̀ / ɖ́",
+            "sound": "ਢੱਡਾ (ṭàḍḍā): initially an unaspirated retroflex t with low tone; after a vowel, ḍ with high tone.",
+            "example": {
+              "native": "ਢੋਲ",
+              "roman": "ṭòl",
+              "en": "drum"
+            }
+          },
+          {
+            "char": "ਣ",
+            "roman": "ṇ",
+            "ipa": "ɳ",
+            "sound": "ਣਾਣਾ (ṇāṇā): retroflex n, tongue curled back; never begins a word. Very frequent in verb infinitives (ਖਾਣਾ khāṇā).",
+            "example": {
+              "native": "ਪਾਣੀ",
+              "roman": "pāṇī",
+              "en": "water"
+            }
+          }
+        ]
+      },
+      {
+        "id": "dental",
+        "title": "Dentals (ਤਵਰਗ)",
+        "note": "Tongue tip pressed against the back of the upper teeth — further forward than English t and d.",
+        "letters": [
+          {
+            "char": "ਤ",
+            "roman": "t",
+            "ipa": "t̪",
+            "sound": "ਤੱਤਾ (tattā): soft dental t, as in French or Spanish, no puff.",
+            "example": {
+              "native": "ਤਾਰਾ",
+              "roman": "tārā",
+              "en": "star"
+            }
+          },
+          {
+            "char": "ਥ",
+            "roman": "th",
+            "ipa": "t̪ʰ",
+            "sound": "ਥੱਥਾ (thatthā): dental t with a puff of air (never English 'th').",
+            "example": {
+              "native": "ਥਾਲੀ",
+              "roman": "thālī",
+              "en": "metal plate"
+            }
+          },
+          {
+            "char": "ਦ",
+            "roman": "d",
+            "ipa": "d̪",
+            "sound": "ਦੱਦਾ (daddā): dental d.",
+            "example": {
+              "native": "ਦਾਲ",
+              "roman": "dāl",
+              "en": "lentils"
+            }
+          },
+          {
+            "char": "ਧ",
+            "roman": "t + low tone / d + high tone",
+            "ipa": "t̪̀ / d̪́",
+            "sound": "ਧੱਦਾ (tàddā): initially an unaspirated dental t with low tone; after a vowel, d with high tone (ਦੁੱਧ dúdd).",
+            "example": {
+              "native": "ਧੀ",
+              "roman": "tī̀",
+              "en": "daughter"
+            }
+          },
+          {
+            "char": "ਨ",
+            "roman": "n",
+            "ipa": "n̪",
+            "sound": "ਨੰਨਾ (nannā): dental n.",
+            "example": {
+              "native": "ਨੱਕ",
+              "roman": "nakk",
+              "en": "nose"
+            }
+          }
+        ]
+      },
+      {
+        "id": "labial",
+        "title": "Labials (ਪਵਰਗ)",
+        "note": "Made with the lips.",
+        "letters": [
+          {
+            "char": "ਪ",
+            "roman": "p",
+            "ipa": "p",
+            "sound": "ਪੱਪਾ (pappā): unaspirated p as in 'spin'.",
+            "example": {
+              "native": "ਪਿੰਡ",
+              "roman": "piṇḍ",
+              "en": "village"
+            }
+          },
+          {
+            "char": "ਫ",
+            "roman": "ph",
+            "ipa": "pʰ",
+            "sound": "ਫੱਫਾ (phapphā): p with a strong puff (not f).",
+            "example": {
+              "native": "ਫੁੱਲ",
+              "roman": "phull",
+              "en": "flower"
+            }
+          },
+          {
+            "char": "ਬ",
+            "roman": "b",
+            "ipa": "b",
+            "sound": "ਬੱਬਾ (babbā): b as in 'boy'.",
+            "example": {
+              "native": "ਬੱਸ",
+              "roman": "bass",
+              "en": "bus; enough"
+            }
+          },
+          {
+            "char": "ਭ",
+            "roman": "p + low tone / b + high tone",
+            "ipa": "p̀ / b́",
+            "sound": "ਭੱਬਾ (pàbbā): initially an unaspirated p with low tone; after a vowel, b with high tone (ਲਾਭ lā́b).",
+            "example": {
+              "native": "ਭੈਣ",
+              "roman": "pàiṇ",
+              "en": "sister"
+            }
+          },
+          {
+            "char": "ਮ",
+            "roman": "m",
+            "ipa": "m",
+            "sound": "ਮੱਮਾ (mammā): m.",
+            "example": {
+              "native": "ਮਾਂ",
+              "roman": "māṃ",
+              "en": "mother"
+            }
+          }
+        ]
+      },
+      {
+        "id": "last-row",
+        "title": "Last row: ਯ ਰ ਲ ਵ ੜ",
+        "note": "Semivowels, liquids and the retroflex flap.",
+        "letters": [
+          {
+            "char": "ਯ",
+            "roman": "y",
+            "ipa": "j",
+            "sound": "ਯੱਯਾ (yayyā): y as in 'yes'.",
+            "example": {
+              "native": "ਯਾਰ",
+              "roman": "yār",
+              "en": "friend, mate"
+            }
+          },
+          {
+            "char": "ਰ",
+            "roman": "r",
+            "ipa": "ɾ",
+            "sound": "ਰਾਰਾ (rārā): a tapped r, tongue tip flicks the gum ridge once (as in Spanish 'pero').",
+            "example": {
+              "native": "ਰੋਟੀ",
+              "roman": "roṭī",
+              "en": "flatbread; meal"
+            }
+          },
+          {
+            "char": "ਲ",
+            "roman": "l",
+            "ipa": "l",
+            "sound": "ਲੱਲਾ (lallā): a clear l with the tongue at the teeth.",
+            "example": {
+              "native": "ਲੂਣ",
+              "roman": "lūṇ",
+              "en": "salt"
+            }
+          },
+          {
+            "char": "ਵ",
+            "roman": "v",
+            "ipa": "ʋ",
+            "sound": "ਵਾਵਾ (vāvā): between English v and w — lips close, teeth barely touch.",
+            "example": {
+              "native": "ਵਾਲ",
+              "roman": "vāl",
+              "en": "hair"
+            }
+          },
+          {
+            "char": "ੜ",
+            "roman": "ṛ",
+            "ipa": "ɽ",
+            "sound": "ੜਾੜਾ (ṛāṛā): retroflex flap — curl the tongue back and flick it forward past the roof of the mouth. Never begins a word.",
+            "example": {
+              "native": "ਸੜਕ",
+              "roman": "saṛak",
+              "en": "road"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pair-bindi",
+        "title": "Letters with ਪੈਰ ਬਿੰਦੀ (dot at the foot)",
+        "note": "Added for sounds from Persian, Arabic and English, plus ਲ਼ for a native Punjabi sound. In casual speech and writing the dot is often dropped.",
+        "letters": [
+          {
+            "char": "ਸ਼",
+            "roman": "sh",
+            "ipa": "ʃ",
+            "sound": "ਸ਼ੱਸ਼ਾ (shashshā): sh as in 'shop'.",
+            "example": {
+              "native": "ਸ਼ਹਿਰ",
+              "roman": "shér",
+              "en": "city"
+            }
+          },
+          {
+            "char": "ਖ਼",
+            "roman": "x",
+            "ipa": "x",
+            "sound": "ਖ਼ੱਖ਼ਾ (xaxxā): the rasping ch of Scottish 'loch'. Many speakers say kh.",
+            "example": {
+              "native": "ਖ਼ਬਰ",
+              "roman": "xabar",
+              "en": "news"
+            }
+          },
+          {
+            "char": "ਗ਼",
+            "roman": "ġ",
+            "ipa": "ɣ",
+            "sound": "ਗ਼ੱਗ਼ਾ (ġaġġā): a gargled g, like a French r. Many speakers say g.",
+            "example": {
+              "native": "ਗ਼ਰੀਬ",
+              "roman": "ġarīb",
+              "en": "poor"
+            }
+          },
+          {
+            "char": "ਜ਼",
+            "roman": "z",
+            "ipa": "z",
+            "sound": "ਜ਼ੱਜ਼ਾ (zazzā): z as in 'zoo'. Many speakers say j.",
+            "example": {
+              "native": "ਜ਼ਮੀਨ",
+              "roman": "zamīn",
+              "en": "land, ground"
+            }
+          },
+          {
+            "char": "ਫ਼",
+            "roman": "f",
+            "ipa": "f",
+            "sound": "ਫ਼ੱਫ਼ਾ (faffā): f as in 'fan'.",
+            "example": {
+              "native": "ਫ਼ੋਨ",
+              "roman": "fon",
+              "en": "phone"
+            }
+          },
+          {
+            "char": "ਲ਼",
+            "roman": "ḷ",
+            "ipa": "ɭ",
+            "sound": "ਲ਼ੱਲ਼ਾ (ḷaḷḷā): retroflex l — curl the tongue tip back while saying l. A native Punjabi sound, often written without the dot.",
+            "example": {
+              "native": "ਕਾਲ਼ਾ",
+              "roman": "kāḷā",
+              "en": "black"
+            }
+          }
+        ]
+      },
+      {
+        "id": "marks",
+        "title": "Special marks",
+        "note": "Nasalisation, gemination, the halant and punctuation.",
+        "letters": [
+          {
+            "char": "◌ਂ",
+            "roman": "ṃ / n",
+            "ipa": "̃",
+            "sound": "ਬਿੰਦੀ (bindī): nasalises the vowel, or adds a homorganic nasal before a stop. Used with ਾ ੀ ੇ ੈ ੋ ੌ and the carriers ਆ ਈ ਏ ਐ ਓ ਔ.",
+            "example": {
+              "native": "ਹਾਂ",
+              "roman": "hāṃ",
+              "en": "yes"
+            }
+          },
+          {
+            "char": "◌ੰ",
+            "roman": "ṃ / n",
+            "ipa": "̃",
+            "sound": "ਟਿੱਪੀ (ṭippī): same job as ਬਿੰਦੀ but used with the inherent a, ਿ, ੁ, ੂ (and ਉ ਊ). Before a stop it is usually a full nasal consonant: ਪੰਜ panj.",
+            "example": {
+              "native": "ਪੰਜ",
+              "roman": "panj",
+              "en": "five"
+            }
+          },
+          {
+            "char": "◌ੱ",
+            "roman": "(double)",
+            "ipa": "ː",
+            "sound": "ਅੱਧਕ (addhak): doubles (lengthens) the FOLLOWING consonant. Very common and meaningful: ਪਤਾ patā (address) vs ਪੱਤਾ pattā (leaf).",
+            "example": {
+              "native": "ਬੱਚਾ",
+              "roman": "bachchā",
+              "en": "child"
+            }
+          },
+          {
+            "char": "◌੍",
+            "roman": "—",
+            "ipa": "",
+            "sound": "ਹਲੰਤ / ਪੈਰੀਂ (halant): removes the inherent vowel; in practice used only to form the subscript ਹ, ਰ, ਵ.",
+            "example": {
+              "native": "ਪ੍ਰੀਖਿਆ",
+              "roman": "prīkhiā",
+              "en": "exam"
+            }
+          },
+          {
+            "char": "◌਼",
+            "roman": "—",
+            "ipa": "",
+            "sound": "ਨੁਕਤਾ / ਪੈਰ ਬਿੰਦੀ: the dot under a letter that makes ਸ਼ ਖ਼ ਗ਼ ਜ਼ ਫ਼ ਲ਼.",
+            "example": {
+              "native": "ਜ਼ਰੂਰ",
+              "roman": "zarūr",
+              "en": "certainly"
+            }
+          },
+          {
+            "char": "।",
+            "roman": "(full stop)",
+            "ipa": "",
+            "sound": "ਡੰਡੀ (ḍaṇḍī): the full stop. ॥ (double danda) ends a verse in scripture.",
+            "example": {
+              "native": "ਮੈਂ ਠੀਕ ਹਾਂ।",
+              "roman": "maiṃ ṭhīk hāṃ.",
+              "en": "I am fine."
+            }
+          },
+          {
+            "char": "ੴ",
+            "roman": "ik oaṅkār",
+            "ipa": "",
+            "sound": "ਇੱਕ ਓਅੰਕਾਰ: the Sikh symbol 'One God', opening the Guru Granth Sahib. You will see it on gurdwaras and in homes.",
+            "example": {
+              "native": "ਗੁਰਦੁਆਰਾ",
+              "roman": "gurduārā",
+              "en": "gurdwara, Sikh temple"
+            }
+          }
+        ]
+      },
+      {
+        "id": "conjuncts",
+        "title": "Subjoined letters (ਪੈਰੀਂ) and common clusters",
+        "note": "Only ਹ, ਰ and ਵ are written below another letter. Subjoined ਹ gives a high tone (or after a stressed vowel); subjoined ਰ adds r with no vowel between. Most other clusters are simply written with the inherent vowel, which is silent: ਕਿਰਪਾ kirpā.",
+        "letters": [
+          {
+            "char": "◌੍ਹ",
+            "roman": "(high tone)",
+            "ipa": "",
+            "sound": "ਪੈਰੀਂ ਹਾਹਾ: subscript ਹ. The h itself is not pronounced; the syllable gets a high tone.",
+            "example": {
+              "native": "ਪੜ੍ਹ",
+              "roman": "páṛ",
+              "en": "read!"
+            }
+          },
+          {
+            "char": "◌੍ਰ",
+            "roman": "r",
+            "ipa": "ɾ",
+            "sound": "ਪੈਰੀਂ ਰਾਰਾ: subscript ਰ, an r directly after the consonant with no vowel.",
+            "example": {
+              "native": "ਪ੍ਰੇਮ",
+              "roman": "prem",
+              "en": "love"
+            }
+          },
+          {
+            "char": "◌੍ਵ",
+            "roman": "v",
+            "ipa": "ʋ",
+            "sound": "ਪੈਰੀਂ ਵਾਵਾ: subscript ਵ, found in a few learned words.",
+            "example": {
+              "native": "ਸ੍ਵੈ",
+              "roman": "svai",
+              "en": "self (learned)"
+            }
+          },
+          {
+            "char": "ਨ੍ਹ",
+            "roman": "n + high tone",
+            "ipa": "ń",
+            "sound": "n with high tone, very common in ਉਨ੍ਹਾਂ, ਜਿਨ੍ਹਾਂ.",
+            "example": {
+              "native": "ਉਨ੍ਹਾਂ",
+              "roman": "únāṃ",
+              "en": "they / them (oblique)"
+            }
+          },
+          {
+            "char": "ਮ੍ਹ",
+            "roman": "m + high tone",
+            "ipa": "ḿ",
+            "sound": "m with high tone.",
+            "example": {
+              "native": "ਕੁਮ੍ਹਾਰ",
+              "roman": "kumā́r",
+              "en": "potter"
+            }
+          },
+          {
+            "char": "ਲ੍ਹ",
+            "roman": "l + high tone",
+            "ipa": "ĺ",
+            "sound": "l with high tone.",
+            "example": {
+              "native": "ਕੱਲ੍ਹ",
+              "roman": "káll",
+              "en": "yesterday; tomorrow"
+            }
+          },
+          {
+            "char": "ੜ੍ਹ",
+            "roman": "ṛ + high tone",
+            "ipa": "ɽ́",
+            "sound": "flap with high tone; the h is silent.",
+            "example": {
+              "native": "ਪੜ੍ਹਨਾ",
+              "roman": "páṛnā",
+              "en": "to read, to study"
+            }
+          },
+          {
+            "char": "ਰ੍ਹ",
+            "roman": "r + high tone",
+            "ipa": "ɾ́",
+            "sound": "r with high tone.",
+            "example": {
+              "native": "ਵਰ੍ਹਾ",
+              "roman": "varā́",
+              "en": "year (literary)"
+            }
+          },
+          {
+            "char": "ਣ੍ਹ",
+            "roman": "ṇ + high tone",
+            "ipa": "ɳ́",
+            "sound": "retroflex n with high tone.",
+            "example": {
+              "native": "ਨ੍ਹਾਉਣਾ",
+              "roman": "nā́uṇā",
+              "en": "to bathe"
+            }
+          },
+          {
+            "char": "ਪ੍ਰ",
+            "roman": "pr",
+            "ipa": "pɾ",
+            "sound": "p + r cluster.",
+            "example": {
+              "native": "ਪ੍ਰਧਾਨ",
+              "roman": "pradā̀n",
+              "en": "president, chairman"
+            }
+          },
+          {
+            "char": "ਸ੍ਰ",
+            "roman": "sr",
+            "ipa": "sɾ",
+            "sound": "s + r cluster, as in the greeting ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ.",
+            "example": {
+              "native": "ਸ੍ਰੀ",
+              "roman": "srī",
+              "en": "Mr; holy (honorific)"
+            }
+          },
+          {
+            "char": "ਕ੍ਰ",
+            "roman": "kr",
+            "ipa": "kɾ",
+            "sound": "k + r cluster.",
+            "example": {
+              "native": "ਕ੍ਰੋਧ",
+              "roman": "kród",
+              "en": "anger (formal)"
+            }
+          },
+          {
+            "char": "ਗ੍ਰ",
+            "roman": "gr",
+            "ipa": "ɡɾ",
+            "sound": "g + r cluster.",
+            "example": {
+              "native": "ਗ੍ਰੰਥ",
+              "roman": "granth",
+              "en": "scripture, holy book"
+            }
+          },
+          {
+            "char": "ਤ੍ਰ",
+            "roman": "tr",
+            "ipa": "t̪ɾ",
+            "sound": "dental t + r cluster.",
+            "example": {
+              "native": "ਤ੍ਰੇਲ",
+              "roman": "trel",
+              "en": "dew"
+            }
+          },
+          {
+            "char": "ਦ੍ਰ",
+            "roman": "dr",
+            "ipa": "d̪ɾ",
+            "sound": "dental d + r cluster.",
+            "example": {
+              "native": "ਦ੍ਰਿਸ਼",
+              "roman": "drish",
+              "en": "scene, view"
+            }
+          },
+          {
+            "char": "ਟ੍ਰ",
+            "roman": "ṭr",
+            "ipa": "ʈɾ",
+            "sound": "retroflex ṭ + r, in English loans.",
+            "example": {
+              "native": "ਟ੍ਰੇਨ",
+              "roman": "ṭren",
+              "en": "train"
+            }
+          },
+          {
+            "char": "ਬ੍ਰ",
+            "roman": "br",
+            "ipa": "bɾ",
+            "sound": "b + r cluster.",
+            "example": {
+              "native": "ਬ੍ਰਹਿਮੰਡ",
+              "roman": "brémaṇḍ",
+              "en": "universe"
+            }
+          }
+        ]
+      },
+      {
+        "id": "digits",
+        "title": "Gurmukhi digits",
+        "note": "Native digits, still seen on signs, calendars and in religious texts. Western digits are more common in daily life.",
+        "letters": [
+          {
+            "char": "੦",
+            "roman": "0",
+            "ipa": "",
+            "sound": "ਸਿਫ਼ਰ (sifar) — zero"
+          },
+          {
+            "char": "੧",
+            "roman": "1",
+            "ipa": "",
+            "sound": "ਇੱਕ (ikk) — one"
+          },
+          {
+            "char": "੨",
+            "roman": "2",
+            "ipa": "",
+            "sound": "ਦੋ (do) — two"
+          },
+          {
+            "char": "੩",
+            "roman": "3",
+            "ipa": "",
+            "sound": "ਤਿੰਨ (tinn) — three"
+          },
+          {
+            "char": "੪",
+            "roman": "4",
+            "ipa": "",
+            "sound": "ਚਾਰ (chār) — four"
+          },
+          {
+            "char": "੫",
+            "roman": "5",
+            "ipa": "",
+            "sound": "ਪੰਜ (panj) — five"
+          },
+          {
+            "char": "੬",
+            "roman": "6",
+            "ipa": "",
+            "sound": "ਛੇ (chhe) — six"
+          },
+          {
+            "char": "੭",
+            "roman": "7",
+            "ipa": "",
+            "sound": "ਸੱਤ (satt) — seven"
+          },
+          {
+            "char": "੮",
+            "roman": "8",
+            "ipa": "",
+            "sound": "ਅੱਠ (aṭṭh) — eight"
+          },
+          {
+            "char": "੯",
+            "roman": "9",
+            "ipa": "",
+            "sound": "ਨੌਂ (nauṃ) — nine"
+          }
+        ]
+      }
+    ]
+  },
+  "dir": "ltr",
+  "tts": "pa-IN",
+  "font": "Noto Sans Gurmukhi",
+  "speakers": "≈150 million (L1 + L2), across India, Pakistan and the diaspora",
+  "where": "Punjab in India and Pakistan; large communities in the UK, Canada, the USA and Australia",
+  "tagline": "A warm, musical, tonal language spoken by over a hundred million people — and the voice of bhangra, Sikh scripture and a worldwide diaspora.",
+  "intro": "**Punjabi** (ਪੰਜਾਬੀ, *panjābī*) is the language of the Punjab, the 'land of five rivers' that was divided between India and Pakistan in 1947. It is an Indo-Aryan language, a close cousin of Hindi and Urdu: much everyday vocabulary is shared, but Punjabi has its own grammar endings, its own sound system and — unusually for the region — **tones**. This course teaches standard modern spoken Punjabi based on the central *Majhi* dialect of Amritsar and Lahore, the variety heard in films, music and the media.\n\nIn India, Punjabi is written in **Gurmukhi** (ਗੁਰਮੁਖੀ, 'from the mouth of the Guru'), a script standardised by the second Sikh Guru in the 16th century. In Pakistan — where most Punjabi speakers actually live — it is written in **Shahmukhi** (شاہ مکھی), a Perso-Arabic script like Urdu's, read right to left. The spoken language is the same on both sides: ਪੰਜਾਬੀ = پنجابی, ਪਾਣੀ (water) = پانی (with the special letter ݨ for ਣ), ਘਰ (house) = گھر, ਸ਼ੁਕਰੀਆ (thanks) = شکریہ. Pakistani speech uses more Perso-Arabic words (*salām*, *shukrīā*), Indian speech more Sanskrit-derived ones (*sat srī akāl*, *tànnvād*). All native text in this course is in Gurmukhi, which is phonetic and quick to learn.\n\nPunjabi has a three-way **register** for 'you': ਤੂੰ (*tūṃ*, intimate/very informal), ਤੁਸੀਂ (*tusīṃ*, the normal polite and plural form) and ਆਪ (*āp*, very formal, mostly in writing and speeches). Respect is also shown by adding ਜੀ (*jī*) to names, titles and answers. When in doubt, use ਤੁਸੀਂ and ਜੀ.\n\nIn twenty units you will move from greetings to telling stories: pronouns and the verb 'to be', gender and postpositions, the present, past and future tenses, the famous **ਨੇ ergative** construction of the past tense, polite requests and conditionals — always with real, natural sentences.",
+  "romanizationNote": "The romanization shows how words are **pronounced**, not spelled. Long vowels have a macron (ā ī ū); *e* and *o* are always long; *ai* is the open vowel in English 'bat/bed' (ਐ, [ɛː]) and *au* the open o in 'cot' said long (ਔ, [ɔː]). Dots under letters mark retroflex sounds (ṭ ṭh ḍ ṇ ṛ ḷ); *ch* = ਚ, *chh* = ਛ; an *h* after a consonant always means aspiration (*th* is never English 'th'). Doubled consonants (*kk, tt*) are really held longer — that is the ਅੱਧਕ. A final *ṃ* means the vowel before it is nasalised (ਹਾਂ *hāṃ*). **Tones** are marked with accents on the vowel of the syllable that carries them: a **grave accent** (à ā̀ ì ī̀ ù ū̀ è ò) marks the **low tone** — a voice that dips low and rises — which arises from the letters ਘ ਝ ਢ ਧ ਭ; these letters at the start of a syllable are pronounced as plain unaspirated *k ch ṭ t p* plus a low tone, so ਘਰ is written *kàr*, ਭੈਣ *pàiṇ*. An **acute accent** (á ā́ í ī́ ú ū́ é ó) marks the **high tone** — a voice that rises high and then falls — which arises from ਹ after a vowel or from ਘ ਝ ਢ ਧ ਭ after the vowel: ਚਾਹ is *chā́*, ਦੁੱਧ *dúdd*, ਕੁਝ *kúj*. In these cases the written *h* is not pronounced as a separate sound, so we do not write it. A syllable with no accent has level (neutral) tone. Word-initial ਹ keeps a light *h* (ਹੱਥ *hatth*). Letters with a dot below — ਸ਼ ਖ਼ ਗ਼ ਜ਼ ਫ਼ — are *sh x ġ z f*; many rural speakers say plain *s kh g j ph* instead. ਲ਼ (*ḷ*) is often written as plain ਲ in print; we write ਲ਼ wherever the retroflex sound is used.",
+  "pronunciation": [
+    {
+      "id": "tones",
+      "title": "Tone: Punjabi's three tones",
+      "body": "Punjabi is the only major Indo-Aryan language with **lexical tone**: the pitch of your voice on a syllable can change the meaning of a word. There are three tones.\n\n**Level tone** (no accent): normal speaking pitch, as in English. ਕੋੜਾ *koṛā* 'whip'.\n\n**Low tone** (grave accent, *ò*): the voice starts low, dips, then rises back to normal at the end of the syllable or on the next one — like a doubtful English 'well…?'. It comes from ਘ ਝ ਢ ਧ ਭ at the start of a syllable: ਘੋੜਾ *kòṛā* 'horse'.\n\n**High tone** (acute accent, *ó*): the voice rises noticeably and then falls — like a surprised English 'oh!'. It comes from ਹ after a vowel, or ਘ ਝ ਢ ਧ ਭ after a vowel: ਕੋਹੜਾ *kóṛā* 'leprosy/leper'.\n\nThe spelling always tells you the tone, which is why these letters matter so much. Tone is relative, not absolute: a deep male voice and a high female voice both make the same contour. Tone falls on the stressed syllable.",
+      "tips": [
+        "Practise ਕੋੜਾ / ਘੋੜਾ / ਕੋਹੜਾ as a triplet: flat, dip-then-rise, rise-then-fall.",
+        "Do NOT pronounce an h in ਘ ਝ ਢ ਧ ਭ at the start of a word — the 'h' is now the tone.",
+        "Exaggerate tones at first; natives will understand you even if a bit theatrical.",
+        "Listen to how a single word like ਚਾਹ (tea) sounds in a song or film — the rise-fall is very clear."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ਕੋੜਾ",
+            "roman": "koṛā",
+            "en": "whip"
+          },
+          "b": {
+            "native": "ਘੋੜਾ",
+            "roman": "kòṛā",
+            "en": "horse"
+          },
+          "note": "level vs low tone"
+        },
+        {
+          "a": {
+            "native": "ਘੋੜਾ",
+            "roman": "kòṛā",
+            "en": "horse"
+          },
+          "b": {
+            "native": "ਕੋਹੜਾ",
+            "roman": "kóṛā",
+            "en": "leper; leprosy"
+          },
+          "note": "low vs high tone"
+        },
+        {
+          "a": {
+            "native": "ਚਾ",
+            "roman": "chā",
+            "en": "eagerness, joy"
+          },
+          "b": {
+            "native": "ਚਾਹ",
+            "roman": "chā́",
+            "en": "tea"
+          },
+          "note": "level vs high tone"
+        },
+        {
+          "a": {
+            "native": "ਕਰ",
+            "roman": "kar",
+            "en": "do!"
+          },
+          "b": {
+            "native": "ਘਰ",
+            "roman": "kàr",
+            "en": "house"
+          },
+          "note": "level vs low tone"
+        },
+        {
+          "a": {
+            "native": "ਪਾ",
+            "roman": "pā",
+            "en": "put!"
+          },
+          "b": {
+            "native": "ਭਾਅ",
+            "roman": "pā̀",
+            "en": "price, rate"
+          },
+          "note": "level vs low tone"
+        },
+        {
+          "a": {
+            "native": "ਕੜੀ",
+            "roman": "kaṛī",
+            "en": "link, chain ring"
+          },
+          "b": {
+            "native": "ਕੜ੍ਹੀ",
+            "roman": "káṛī",
+            "en": "kadhi (yoghurt curry)"
+          },
+          "note": "level vs high tone"
+        },
+        {
+          "a": {
+            "native": "ਕੱਟ",
+            "roman": "kaṭṭ",
+            "en": "cut!"
+          },
+          "b": {
+            "native": "ਘੱਟ",
+            "roman": "kàṭṭ",
+            "en": "less, little"
+          },
+          "note": "level vs low tone"
+        }
+      ],
+      "drill": [
+        {
+          "native": "ਘੋੜਾ ਘਰ ਹੈ।",
+          "roman": "kòṛā kàr hai.",
+          "en": "The horse is at home."
+        },
+        {
+          "native": "ਚਾਹ ਪੀਓ।",
+          "roman": "chā́ pīo.",
+          "en": "Have some tea."
+        },
+        {
+          "native": "ਮੇਰੀ ਭੈਣ",
+          "roman": "merī pàiṇ",
+          "en": "my sister"
+        },
+        {
+          "native": "ਦੁੱਧ",
+          "roman": "dúdd",
+          "en": "milk"
+        },
+        {
+          "native": "ਧੰਨਵਾਦ",
+          "roman": "tànnvād",
+          "en": "thank you"
+        },
+        {
+          "native": "ਬਾਂਹ",
+          "roman": "bā́ṃ",
+          "en": "arm"
+        }
+      ]
+    },
+    {
+      "id": "low-tone",
+      "title": "Low tone: ਘ ਝ ਢ ਧ ਭ at the start",
+      "body": "At the beginning of a stressed syllable, the five 'voiced aspirate' letters lose both their voicing and their breath. Instead the following vowel is said with **low tone**:\n\nਘ → *k* + low, ਝ → *ch* + low, ਢ → *ṭ* + low, ਧ → *t* + low, ਭ → *p* + low.\n\nSo ਭੈਣ (sister) sounds like *pàiṇ* — a p with no puff, and a voice that dips. Hindi and Urdu speakers say *bhain*, *ghar*, *dhī*; Punjabi speakers do not. If the letter starts an unstressed first syllable, the low tone lands on the next (stressed) syllable: ਭਰਾ (brother) is *parā̀*, ਧਿਆਨ (attention) *tìān*.",
+      "tips": [
+        "Say the word with a plain unaspirated consonant (like the p in 'spin'), then drop your pitch on the vowel and let it rise.",
+        "Compare with Hindi if you know it: Hindi bhāī ~ Punjabi pā̀ī.",
+        "Watch for the minimal pairs with ਕ ਚ ਟ ਤ ਪ: only the tone separates them."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ਤਾਰ",
+            "roman": "tār",
+            "en": "wire"
+          },
+          "b": {
+            "native": "ਧਾਰ",
+            "roman": "tā̀r",
+            "en": "edge; stream"
+          }
+        },
+        {
+          "a": {
+            "native": "ਚੋਲਾ",
+            "roman": "cholā",
+            "en": "long robe"
+          },
+          "b": {
+            "native": "ਝੋਲਾ",
+            "roman": "chòlā",
+            "en": "cloth bag"
+          }
+        },
+        {
+          "a": {
+            "native": "ਪੱਲਾ",
+            "roman": "pallā",
+            "en": "end of a scarf"
+          },
+          "b": {
+            "native": "ਭੱਲਾ",
+            "roman": "pàllā",
+            "en": "lentil dumpling"
+          }
+        },
+        {
+          "a": {
+            "native": "ਡੋਲ",
+            "roman": "ḍol",
+            "en": "bucket"
+          },
+          "b": {
+            "native": "ਢੋਲ",
+            "roman": "ṭòl",
+            "en": "drum"
+          },
+          "note": "ḍ vs ṭ + low tone"
+        }
+      ],
+      "drill": [
+        {
+          "native": "ਘਰ",
+          "roman": "kàr",
+          "en": "house"
+        },
+        {
+          "native": "ਭਰਾ",
+          "roman": "parā̀",
+          "en": "brother"
+        },
+        {
+          "native": "ਧੀ",
+          "roman": "tī̀",
+          "en": "daughter"
+        },
+        {
+          "native": "ਝੂਠ",
+          "roman": "chū̀ṭh",
+          "en": "lie, falsehood"
+        },
+        {
+          "native": "ਢਿੱਡ",
+          "roman": "ṭìḍḍ",
+          "en": "belly"
+        },
+        {
+          "native": "ਭਾਰਤ",
+          "roman": "pā̀rat",
+          "en": "India"
+        },
+        {
+          "native": "ਘੰਟਾ",
+          "roman": "kàṇṭā",
+          "en": "hour"
+        }
+      ]
+    },
+    {
+      "id": "high-tone",
+      "title": "High tone: ਹ and ਘ ਝ ਢ ਧ ਭ after the vowel",
+      "body": "When ਹ comes after a vowel — at the end of a word, before another consonant, or written as subscript ੍ਹ — the h vanishes and the preceding vowel gets **high tone**: a rise then fall. ਸ਼ਹਿਰ (city) is *shér*, ਚਾਹ (tea) *chā́*, ਪੜ੍ਹ (read) *páṛ*.\n\nThe same happens when ਘ ਝ ਢ ਧ ਭ follow the vowel: they become plain *g j ḍ d b*, and the preceding vowel is high: ਦੁੱਧ *dúdd* (milk), ਕੁਝ *kúj* (some), ਬੁੱਢਾ *búḍḍā* (old man), ਲਾਭ *lā́b* (profit).\n\nNote the very common combinations ਹਿ and ਹੁ, which usually make a single vowel: ਕਹਿਣਾ is *kéṇā* (to say), ਪਹਿਲਾਂ *pélāṃ* (first, before), ਬਹੁਤ *báut* (very).",
+      "tips": [
+        "Don't pronounce ਸ਼ਹਿਰ as 'sha-hir' — it's one syllable, shér, with a rising-falling e.",
+        "ਹਿ between a consonant and another letter usually sounds like a long e with high tone.",
+        "Practise the very frequent words ਇਹ (é, this) and ਉਹ (ó, that/he/she): one vowel, high tone, no h."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ਨਾ",
+            "roman": "nā",
+            "en": "don't; not"
+          },
+          "b": {
+            "native": "ਨ੍ਹਾ",
+            "roman": "nā́",
+            "en": "bathe!"
+          }
+        },
+        {
+          "a": {
+            "native": "ਵੀ",
+            "roman": "vī",
+            "en": "also, too"
+          },
+          "b": {
+            "native": "ਵੀਹ",
+            "roman": "vī́",
+            "en": "twenty"
+          }
+        },
+        {
+          "a": {
+            "native": "ਕੜੀ",
+            "roman": "kaṛī",
+            "en": "link"
+          },
+          "b": {
+            "native": "ਕੜ੍ਹੀ",
+            "roman": "káṛī",
+            "en": "kadhi"
+          }
+        },
+        {
+          "a": {
+            "native": "ਵਰ",
+            "roman": "var",
+            "en": "groom; boon"
+          },
+          "b": {
+            "native": "ਵਰ੍ਹ",
+            "roman": "vár",
+            "en": "rain down! (verb root)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ਸ਼ਹਿਰ",
+          "roman": "shér",
+          "en": "city"
+        },
+        {
+          "native": "ਪਹਿਲਾਂ",
+          "roman": "pélāṃ",
+          "en": "first, earlier"
+        },
+        {
+          "native": "ਮੀਂਹ",
+          "roman": "mī́ṃ",
+          "en": "rain"
+        },
+        {
+          "native": "ਕੁਝ",
+          "roman": "kúj",
+          "en": "some, something"
+        },
+        {
+          "native": "ਸਿੱਧਾ",
+          "roman": "síddā",
+          "en": "straight"
+        },
+        {
+          "native": "ਇਹ ਮੂੰਹ",
+          "roman": "é mū́ṃ",
+          "en": "this mouth/face"
+        },
+        {
+          "native": "ਬਹੁਤ ਵਧੀਆ",
+          "roman": "báut vádīā",
+          "en": "very good"
+        }
+      ]
+    },
+    {
+      "id": "aspiration",
+      "title": "Aspirated vs unaspirated consonants",
+      "body": "Punjabi distinguishes **aspirated** consonants (a strong puff of air: ਖ ਛ ਠ ਥ ਫ) from **unaspirated** ones (no puff: ਕ ਚ ਟ ਤ ਪ). English speakers aspirate at the start of words automatically ('pin' has a puff) but not after s ('spin'). In Punjabi you must control this, because it changes meaning.\n\nHold a sheet of paper or your palm in front of your mouth: it should flutter for ਫ, ਖ, ਥ and stay still for ਪ, ਕ, ਤ. Remember that ਘ ਝ ਢ ਧ ਭ are *not* aspirated in modern Punjabi — they become tones instead.",
+      "tips": [
+        "Unaspirated ਕ ਪ ਤ: think of the k in 'skin', p in 'spin', t in 'stop'.",
+        "ਫ is a breathy p, not an f; use ਫ਼ (with a dot) for f.",
+        "ਥ is a breathy dental t, never the 'th' of 'think'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ਪਲ",
+            "roman": "pal",
+            "en": "moment"
+          },
+          "b": {
+            "native": "ਫਲ",
+            "roman": "phal",
+            "en": "fruit"
+          }
+        },
+        {
+          "a": {
+            "native": "ਕੱਟ",
+            "roman": "kaṭṭ",
+            "en": "cut!"
+          },
+          "b": {
+            "native": "ਖੱਟ",
+            "roman": "khaṭṭ",
+            "en": "earn!"
+          }
+        },
+        {
+          "a": {
+            "native": "ਚਾਲ",
+            "roman": "chāl",
+            "en": "gait; trick"
+          },
+          "b": {
+            "native": "ਛਾਲ",
+            "roman": "chhāl",
+            "en": "jump, leap"
+          }
+        },
+        {
+          "a": {
+            "native": "ਤਾਲ",
+            "roman": "tāl",
+            "en": "rhythm"
+          },
+          "b": {
+            "native": "ਥਾਲ",
+            "roman": "thāl",
+            "en": "large platter"
+          }
+        },
+        {
+          "a": {
+            "native": "ਕਾਲ",
+            "roman": "kāl",
+            "en": "famine; time"
+          },
+          "b": {
+            "native": "ਖਾਲ",
+            "roman": "khāl",
+            "en": "small water channel"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ਖਾਣਾ",
+          "roman": "khāṇā",
+          "en": "food; to eat"
+        },
+        {
+          "native": "ਫੁੱਲ",
+          "roman": "phull",
+          "en": "flower"
+        },
+        {
+          "native": "ਥੋੜ੍ਹਾ",
+          "roman": "thóṛā",
+          "en": "a little"
+        },
+        {
+          "native": "ਛੋਟਾ",
+          "roman": "chhoṭā",
+          "en": "small"
+        },
+        {
+          "native": "ਠੀਕ",
+          "roman": "ṭhīk",
+          "en": "fine, OK"
+        },
+        {
+          "native": "ਪੱਕਾ",
+          "roman": "pakkā",
+          "en": "ripe; sure"
+        }
+      ]
+    },
+    {
+      "id": "retroflex",
+      "title": "Retroflex vs dental consonants",
+      "body": "Punjabi has two sets of 't/d/n' sounds. **Dentals** (ਤ ਥ ਦ ਨ) are made with the tongue tip touching the back of the upper front teeth — softer than English. **Retroflexes** (ਟ ਠ ਡ ਣ) are made with the tongue tip curled back to touch the roof of the mouth behind the gum ridge — a hollow, 'heavy' sound.\n\nEnglish t and d sit between the two, so Punjabis hear English t as ਟ (that's why 'TV' is ਟੀਵੀ). Your task is to push dentals forward onto the teeth and pull retroflexes back.",
+      "tips": [
+        "For ਤ ਦ, let the tongue tip touch the teeth — almost as if lisping.",
+        "For ਟ ਡ, curl the tongue tip upward and back, then release.",
+        "English loanwords use the retroflex: ਟਮਾਟਰ, ਡਾਕਟਰ, ਟਿਕਟ."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ਤਾਲ",
+            "roman": "tāl",
+            "en": "rhythm"
+          },
+          "b": {
+            "native": "ਟਾਲ",
+            "roman": "ṭāl",
+            "en": "put off! (postpone)"
+          }
+        },
+        {
+          "a": {
+            "native": "ਪੱਤ",
+            "roman": "patt",
+            "en": "honour"
+          },
+          "b": {
+            "native": "ਪੱਟ",
+            "roman": "paṭṭ",
+            "en": "thigh"
+          }
+        },
+        {
+          "a": {
+            "native": "ਦੰਦ",
+            "roman": "dand",
+            "en": "tooth"
+          },
+          "b": {
+            "native": "ਡੰਡ",
+            "roman": "ḍanḍ",
+            "en": "penalty; push-up"
+          }
+        },
+        {
+          "a": {
+            "native": "ਤੋਤਾ",
+            "roman": "totā",
+            "en": "parrot"
+          },
+          "b": {
+            "native": "ਟੋਟਾ",
+            "roman": "ṭoṭā",
+            "en": "piece, bit"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ਟਮਾਟਰ",
+          "roman": "ṭamāṭar",
+          "en": "tomato"
+        },
+        {
+          "native": "ਦਰਵਾਜ਼ਾ",
+          "roman": "darvāzā",
+          "en": "door"
+        },
+        {
+          "native": "ਡਾਕਟਰ",
+          "roman": "ḍākṭar",
+          "en": "doctor"
+        },
+        {
+          "native": "ਤੇਰਾ",
+          "roman": "terā",
+          "en": "your (informal)"
+        },
+        {
+          "native": "ਰੋਟੀ",
+          "roman": "roṭī",
+          "en": "bread"
+        },
+        {
+          "native": "ਦੋਸਤ",
+          "roman": "dost",
+          "en": "friend"
+        }
+      ]
+    },
+    {
+      "id": "flap",
+      "title": "The flap ੜ and the tapped ਰ",
+      "body": "ਰ is a single quick tap of the tongue tip on the gum ridge, like the tt in American 'butter' or Spanish 'pero'. It is never the English approximant r and never silent: ਕਾਰ is *kār* with a clear r.\n\n**ੜ** is a retroflex flap: curl the tongue tip back, then flick it forward so the underside slaps the roof of the mouth as it passes. It occurs only inside or at the end of words, and it is extremely common in Punjabi (ਕੁੜੀ girl, ਬੜਾ very, ਥੋੜ੍ਹਾ a little). Don't replace it with ਰ or ਡ.",
+      "tips": [
+        "Say ḍ but don't stop the air — let the tongue fly through it: that's ṛ.",
+        "ਰ is always pronounced, even at the end of a word or before a consonant.",
+        "ਕੁੜੀ (girl) and ਮੋੜ (turn) are good practice words."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ਮੋਰ",
+            "roman": "mor",
+            "en": "peacock"
+          },
+          "b": {
+            "native": "ਮੋੜ",
+            "roman": "moṛ",
+            "en": "bend, turn"
+          }
+        },
+        {
+          "a": {
+            "native": "ਵਾਰ",
+            "roman": "vār",
+            "en": "time (occasion); attack"
+          },
+          "b": {
+            "native": "ਵਾੜ",
+            "roman": "vāṛ",
+            "en": "fence, hedge"
+          }
+        },
+        {
+          "a": {
+            "native": "ਸਾਰ",
+            "roman": "sār",
+            "en": "essence; care"
+          },
+          "b": {
+            "native": "ਸਾੜ",
+            "roman": "sāṛ",
+            "en": "burning; burn!"
+          }
+        },
+        {
+          "a": {
+            "native": "ਕਰੀ",
+            "roman": "karī",
+            "en": "curry"
+          },
+          "b": {
+            "native": "ਕੜੀ",
+            "roman": "kaṛī",
+            "en": "link"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ਕੁੜੀ",
+          "roman": "kuṛī",
+          "en": "girl"
+        },
+        {
+          "native": "ਸੜਕ",
+          "roman": "saṛak",
+          "en": "road"
+        },
+        {
+          "native": "ਪਹਾੜ",
+          "roman": "pā́ṛ",
+          "en": "mountain"
+        },
+        {
+          "native": "ਬੜਾ",
+          "roman": "baṛā",
+          "en": "very; big"
+        },
+        {
+          "native": "ਰਾਤ",
+          "roman": "rāt",
+          "en": "night"
+        },
+        {
+          "native": "ਪੜ੍ਹਾਈ",
+          "roman": "paṛā́ī",
+          "en": "studies"
+        }
+      ]
+    },
+    {
+      "id": "retroflex-n-l",
+      "title": "Retroflex ਣ and ਲ਼",
+      "body": "Punjabi has a retroflex nasal **ਣ** (*ṇ*) and a retroflex lateral **ਲ਼** (*ḷ*): say n or l with the tongue tip curled back to the roof of the mouth. Both are very common: every verb infinitive after a vowel ends in -ਣਾ (ਖਾਣਾ, ਜਾਣਾ, ਪੀਣਾ), and ਲ਼ appears in everyday words like ਨਾਲ਼ (with), ਕਾਲ਼ਾ (black), ਵੇਲ਼ਾ (time). Neither ever begins a word.\n\nHindi/Urdu speakers often replace ਣ with ਨ — Punjabi speakers notice immediately. Note that ਲ਼ is frequently written as plain ਲ, so you need to learn which words have it.",
+      "tips": [
+        "Infinitives end in -ਣਾ by default (ਖਾਣਾ, ਲਿਖਣਾ, ਬੋਲਣਾ) but in -ਨਾ after ਰ, ੜ and ਣ (ਕਰਨਾ, ਲੜਨਾ, ਪੜ੍ਹਨਾ).",
+        "Keep the tongue curled through the whole ṇ: ਪਾਣੀ.",
+        "ਲ਼ often sounds 'darker' and heavier than ਲ."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ਕਾਨਾ",
+            "roman": "kānā",
+            "en": "reed"
+          },
+          "b": {
+            "native": "ਕਾਣਾ",
+            "roman": "kāṇā",
+            "en": "one-eyed"
+          }
+        },
+        {
+          "a": {
+            "native": "ਬਾਨੀ",
+            "roman": "bānī",
+            "en": "founder"
+          },
+          "b": {
+            "native": "ਬਾਣੀ",
+            "roman": "bāṇī",
+            "en": "speech; scripture"
+          }
+        },
+        {
+          "a": {
+            "native": "ਤਲ",
+            "roman": "tal",
+            "en": "bottom, surface"
+          },
+          "b": {
+            "native": "ਤਲ਼",
+            "roman": "taḷ",
+            "en": "fry!"
+          }
+        },
+        {
+          "a": {
+            "native": "ਗੱਲ",
+            "roman": "gall",
+            "en": "matter, talk"
+          },
+          "b": {
+            "native": "ਗਲ਼",
+            "roman": "gaḷ",
+            "en": "neck, throat"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ਪਾਣੀ",
+          "roman": "pāṇī",
+          "en": "water"
+        },
+        {
+          "native": "ਜਾਣਾ",
+          "roman": "jāṇā",
+          "en": "to go"
+        },
+        {
+          "native": "ਨਾਲ਼",
+          "roman": "nāḷ",
+          "en": "with"
+        },
+        {
+          "native": "ਕਾਲ਼ਾ",
+          "roman": "kāḷā",
+          "en": "black"
+        },
+        {
+          "native": "ਬਲ਼ਦ",
+          "roman": "baḷad",
+          "en": "ox"
+        },
+        {
+          "native": "ਮੇਲ਼ਾ",
+          "roman": "meḷā",
+          "en": "fair, festival"
+        }
+      ]
+    },
+    {
+      "id": "gemination",
+      "title": "Double consonants: ਅੱਧਕ",
+      "body": "The sign **ਅੱਧਕ** ( ੱ ) means the next consonant is **doubled** — held for about twice as long. In English, doubling only happens across words ('book case', 'big gun'); in Punjabi it's inside words and it changes meaning.\n\nFor stops (ਕ ਤ ਪ…), make a real pause with the mouth closed before releasing: ਪੱਕਾ = *pak-kā*. For continuants (ਲ ਮ ਨ ਸ), just hold the sound: ਗੱਲ = *gall*. Punjabi uses gemination much more than Hindi: Hindi *sāt*, *hāth*, *ek* ~ Punjabi ਸੱਤ *satt*, ਹੱਥ *hatth*, ਇੱਕ *ikk*. Note that the vowel before a doubled consonant is always short.",
+      "tips": [
+        "Say 'black cat' quickly and notice the hold on k — that's ਅੱਧਕ.",
+        "Don't shorten final doubles: ਇੱਕ ends with a firm held k.",
+        "ਅੱਧਕ only ever comes after a short vowel (a, i, u)."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ਦਸ",
+            "roman": "das",
+            "en": "ten"
+          },
+          "b": {
+            "native": "ਦੱਸ",
+            "roman": "dass",
+            "en": "tell!"
+          }
+        },
+        {
+          "a": {
+            "native": "ਪਤਾ",
+            "roman": "patā",
+            "en": "address; knowledge"
+          },
+          "b": {
+            "native": "ਪੱਤਾ",
+            "roman": "pattā",
+            "en": "leaf"
+          }
+        },
+        {
+          "a": {
+            "native": "ਪਕਾ",
+            "roman": "pakā",
+            "en": "cook!"
+          },
+          "b": {
+            "native": "ਪੱਕਾ",
+            "roman": "pakkā",
+            "en": "ripe; firm, sure"
+          }
+        },
+        {
+          "a": {
+            "native": "ਬਚਾ",
+            "roman": "bachā",
+            "en": "save!"
+          },
+          "b": {
+            "native": "ਬੱਚਾ",
+            "roman": "bachchā",
+            "en": "child"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ਇੱਕ",
+          "roman": "ikk",
+          "en": "one"
+        },
+        {
+          "native": "ਸੱਤ",
+          "roman": "satt",
+          "en": "seven"
+        },
+        {
+          "native": "ਹੱਥ",
+          "roman": "hatth",
+          "en": "hand"
+        },
+        {
+          "native": "ਕੁੱਤਾ",
+          "roman": "kuttā",
+          "en": "dog"
+        },
+        {
+          "native": "ਅੱਜ",
+          "roman": "ajj",
+          "en": "today"
+        },
+        {
+          "native": "ਗੱਲ ਕਰੋ",
+          "roman": "gall karo",
+          "en": "talk (polite)"
+        }
+      ]
+    },
+    {
+      "id": "nasalisation",
+      "title": "Nasal vowels: ਬਿੰਦੀ and ਟਿੱਪੀ",
+      "body": "A vowel marked with **ਬਿੰਦੀ** ( ਂ ) or **ਟਿੱਪੀ** ( ੰ ) is said with air flowing through the nose as well as the mouth, as in French *bon*. At the end of a word or before a vowel, it simply nasalises the vowel (ਹਾਂ *hāṃ* 'yes', ਮੈਂ *maiṃ* 'I'). Before a stop consonant, it becomes a full nasal consonant at the same place as the stop: ਪੰਜ *panj*, ਅੰਬ *amb*, ਠੰਢਾ *ṭháṇḍā*.\n\nWhich of the two is used depends on spelling only: ਟਿੱਪੀ with the inherent a, ਿ, ੁ and ੂ; ਬਿੰਦੀ with all the other vowel signs. Nasalisation matters grammatically — many plural and verb endings are nasal: ਗੱਲਾਂ (talks), ਜਾਵਾਂ (may I go), ਹੈਂ (you are).",
+      "tips": [
+        "Pinch your nose while saying ਹਾਂ: if the sound changes, you're nasalising correctly.",
+        "Don't add a full n at the end: ਮੈਂ is a nasal vowel, not 'main'.",
+        "Plural feminine nouns end in nasal -āṃ: ਕੁੜੀਆਂ, ਗੱਲਾਂ."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ਗਾ",
+            "roman": "gā",
+            "en": "sing!"
+          },
+          "b": {
+            "native": "ਗਾਂ",
+            "roman": "gāṃ",
+            "en": "cow"
+          }
+        },
+        {
+          "a": {
+            "native": "ਹੈ",
+            "roman": "hai",
+            "en": "is"
+          },
+          "b": {
+            "native": "ਹੈਂ",
+            "roman": "haiṃ",
+            "en": "(you) are (informal)"
+          }
+        },
+        {
+          "a": {
+            "native": "ਪੈਦਾ",
+            "roman": "paidā",
+            "en": "born, produced"
+          },
+          "b": {
+            "native": "ਪੈਂਦਾ",
+            "roman": "paindā",
+            "en": "falls, lies"
+          }
+        },
+        {
+          "a": {
+            "native": "ਗੱਲਾ",
+            "roman": "gallā",
+            "en": "cash box"
+          },
+          "b": {
+            "native": "ਗੱਲਾਂ",
+            "roman": "gallāṃ",
+            "en": "talks, things said"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ਹਾਂ ਜੀ",
+          "roman": "hāṃ jī",
+          "en": "yes (polite)"
+        },
+        {
+          "native": "ਮੈਂ",
+          "roman": "maiṃ",
+          "en": "I"
+        },
+        {
+          "native": "ਤੁਸੀਂ",
+          "roman": "tusīṃ",
+          "en": "you (polite)"
+        },
+        {
+          "native": "ਨਹੀਂ",
+          "roman": "náīṃ",
+          "en": "no, not"
+        },
+        {
+          "native": "ਪੰਜਾਬੀ",
+          "roman": "panjābī",
+          "en": "Punjabi"
+        },
+        {
+          "native": "ਮਾਂ",
+          "roman": "māṃ",
+          "en": "mother"
+        }
+      ]
+    },
+    {
+      "id": "vowel-length",
+      "title": "Vowel length and quality",
+      "body": "Punjabi vowels come in short/long pairs that differ in both length and quality: ਅ *a* (as in 'sun') vs ਆ *ā* ('father'); ਇ *i* ('sit') vs ਈ *ī* ('see'); ਉ *u* ('put') vs ਊ *ū* ('food'). ਏ *e* and ਓ *o* are always long and pure, without the English glide ('day', 'go'). ਐ *ai* and ਔ *au* are NOT diphthongs in standard Punjabi: ਐ is a long open e as in 'bed', ਔ a long open o as in British 'law'.\n\nThe short vowel a is very short and neutral, and in final position is usually not pronounced at all: ਕਲਮ = *kalam*, ਘਰ = *kàr*.",
+      "tips": [
+        "Keep ੇ and ੋ steady — no 'ay' or 'ow' glide.",
+        "ਮੈਂ sounds like 'men' with a nasal vowel, not like English 'mine'.",
+        "Final short a after a consonant is silent."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ਮਿਲ",
+            "roman": "mil",
+            "en": "meet!"
+          },
+          "b": {
+            "native": "ਮੀਲ",
+            "roman": "mīl",
+            "en": "mile"
+          }
+        },
+        {
+          "a": {
+            "native": "ਸੁਰ",
+            "roman": "sur",
+            "en": "tune, note"
+          },
+          "b": {
+            "native": "ਸੂਰ",
+            "roman": "sūr",
+            "en": "pig"
+          }
+        },
+        {
+          "a": {
+            "native": "ਜਲ",
+            "roman": "jal",
+            "en": "water (formal)"
+          },
+          "b": {
+            "native": "ਜਾਲ",
+            "roman": "jāl",
+            "en": "net"
+          }
+        },
+        {
+          "a": {
+            "native": "ਮੇਲ",
+            "roman": "mel",
+            "en": "meeting; harmony"
+          },
+          "b": {
+            "native": "ਮੈਲ",
+            "roman": "mail",
+            "en": "dirt"
+          }
+        },
+        {
+          "a": {
+            "native": "ਦਿਨ",
+            "roman": "din",
+            "en": "day"
+          },
+          "b": {
+            "native": "ਦੀਨ",
+            "roman": "dīn",
+            "en": "faith; humble"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ਕਲਮ",
+          "roman": "kalam",
+          "en": "pen"
+        },
+        {
+          "native": "ਔਰਤ",
+          "roman": "aurat",
+          "en": "woman"
+        },
+        {
+          "native": "ਬੈਠੋ",
+          "roman": "baiṭho",
+          "en": "sit (polite)"
+        },
+        {
+          "native": "ਕੌਣ",
+          "roman": "kauṇ",
+          "en": "who"
+        },
+        {
+          "native": "ਖ਼ੂਬ",
+          "roman": "xūb",
+          "en": "excellent"
+        },
+        {
+          "native": "ਦਿਲ",
+          "roman": "dil",
+          "en": "heart"
+        }
+      ]
+    },
+    {
+      "id": "borrowed-sounds",
+      "title": "ਵ, and the dotted letters ਸ਼ ਖ਼ ਗ਼ ਜ਼ ਫ਼",
+      "body": "**ਵ** is a single sound between English v and w: lips close together lightly, with the upper teeth barely touching the lower lip. Before ਾ and ੋ it is more w-like; before ਿ ੀ ੇ more v-like. Don't worry about it — Punjabis don't distinguish v and w.\n\nThe dotted letters represent Perso-Arabic and English sounds. Educated and urban speakers, and almost all speakers in Pakistan, use *sh, z, f*; *x* and *ġ* are less consistently pronounced and many speakers say *kh* and *g*. In villages you will hear ਸ for ਸ਼ and ਜ for ਜ਼ (ਸ਼ਹਿਰ → sér, ਜ਼ਰੂਰ → jarūr). For learners, using the dotted pronunciations is always correct.",
+      "tips": [
+        "ਫ (ph, breathy p) vs ਫ਼ (f): ਫਲ phal 'fruit' but ਫ਼ੋਨ fon 'phone'.",
+        "ਸ vs ਸ਼ can change meaning: ਸੇਰ (a weight) vs ਸ਼ੇਰ (lion).",
+        "Many English words keep their sounds: ਫ਼ਰਿੱਜ, ਜ਼ੀਰੋ."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ਸੇਰ",
+            "roman": "ser",
+            "en": "seer (old weight)"
+          },
+          "b": {
+            "native": "ਸ਼ੇਰ",
+            "roman": "sher",
+            "en": "lion"
+          }
+        },
+        {
+          "a": {
+            "native": "ਫਲ",
+            "roman": "phal",
+            "en": "fruit"
+          },
+          "b": {
+            "native": "ਫ਼ਰਕ",
+            "roman": "farak",
+            "en": "difference"
+          },
+          "note": "ph vs f (not minimal)"
+        },
+        {
+          "a": {
+            "native": "ਜਰਾ",
+            "roman": "jarā",
+            "en": "old age (literary)"
+          },
+          "b": {
+            "native": "ਜ਼ਰਾ",
+            "roman": "zarā",
+            "en": "a little, just"
+          }
+        },
+        {
+          "a": {
+            "native": "ਖਾਲੀ",
+            "roman": "khālī",
+            "en": "(rural pronunciation)"
+          },
+          "b": {
+            "native": "ਖ਼ਾਲੀ",
+            "roman": "xālī",
+            "en": "empty"
+          },
+          "note": "same word, rural vs careful"
+        }
+      ],
+      "drill": [
+        {
+          "native": "ਵੀਰ",
+          "roman": "vīr",
+          "en": "brother (affectionate)"
+        },
+        {
+          "native": "ਵਾਪਸ",
+          "roman": "vāpas",
+          "en": "back (return)"
+        },
+        {
+          "native": "ਸ਼ੁਕਰੀਆ",
+          "roman": "shukrīā",
+          "en": "thank you"
+        },
+        {
+          "native": "ਜ਼ਿੰਦਗੀ",
+          "roman": "zindagī",
+          "en": "life"
+        },
+        {
+          "native": "ਫ਼ਿਕਰ",
+          "roman": "fikar",
+          "en": "worry"
+        },
+        {
+          "native": "ਗ਼ਲਤ",
+          "roman": "ġalat",
+          "en": "wrong"
+        }
+      ]
+    },
+    {
+      "id": "stress-intonation",
+      "title": "Stress, rhythm and question intonation",
+      "body": "Punjabi stress is light and predictable: it usually falls on a long vowel or on a syllable closed by a doubled consonant, and tone is carried on that stressed syllable. Punjabi rhythm is lively and syllables are clear — don't reduce unstressed vowels to 'uh' as English does, except the short *a*.\n\nYes/no questions can be asked simply by **rising intonation** at the end of a statement: ਤੁਸੀਂ ਠੀਕ ਹੋ? Adding ਕੀ at the start makes it more explicit or formal: ਕੀ ਤੁਸੀਂ ਠੀਕ ਹੋ? Questions with question words (ਕੀ 'what', ਕਿੱਥੇ 'where') have a falling end, with the question word stressed. Tone words keep their tone contour inside the sentence melody.",
+      "tips": [
+        "Raise your pitch sharply on the last word for a yes/no question.",
+        "Stress the question word in ਕੀ/ਕਿੱਥੇ/ਕਦੋਂ questions.",
+        "ਨਾ at the end of a sentence ('…ਨਾ?') asks for agreement, like 'right?'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ਤੁਸੀਂ ਠੀਕ ਹੋ।",
+            "roman": "tusīṃ ṭhīk ho.",
+            "en": "You are fine."
+          },
+          "b": {
+            "native": "ਤੁਸੀਂ ਠੀਕ ਹੋ?",
+            "roman": "tusīṃ ṭhīk ho?",
+            "en": "Are you fine?"
+          },
+          "note": "falling vs rising end"
+        },
+        {
+          "a": {
+            "native": "ਉਹ ਆਇਆ।",
+            "roman": "ó āiā.",
+            "en": "He came."
+          },
+          "b": {
+            "native": "ਉਹ ਆਇਆ?",
+            "roman": "ó āiā?",
+            "en": "Did he come?"
+          }
+        },
+        {
+          "a": {
+            "native": "ਚਾਹ ਪੀਣੀ ਹੈ।",
+            "roman": "chā́ pīṇī hai.",
+            "en": "(I) want to have tea."
+          },
+          "b": {
+            "native": "ਚਾਹ ਪੀਣੀ ਹੈ?",
+            "roman": "chā́ pīṇī hai?",
+            "en": "Want some tea?"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ਕੀ ਹਾਲ ਹੈ?",
+          "roman": "kī hāl hai?",
+          "en": "How are things?"
+        },
+        {
+          "native": "ਤੁਸੀਂ ਕਿੱਥੇ ਰਹਿੰਦੇ ਹੋ?",
+          "roman": "tusīṃ kitthe rénde ho?",
+          "en": "Where do you live?"
+        },
+        {
+          "native": "ਸੋਹਣਾ ਹੈ ਨਾ?",
+          "roman": "sóṇā hai nā?",
+          "en": "It's lovely, isn't it?"
+        },
+        {
+          "native": "ਕੀ ਤੁਸੀਂ ਪੰਜਾਬੀ ਬੋਲਦੇ ਹੋ?",
+          "roman": "kī tusīṃ panjābī bolde ho?",
+          "en": "Do you speak Punjabi?"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "n": 0,
+      "native": "ਸਿਫ਼ਰ",
+      "roman": "sifar",
+      "digit": "੦"
+    },
+    {
+      "n": 1,
+      "native": "ਇੱਕ",
+      "roman": "ikk",
+      "digit": "੧"
+    },
+    {
+      "n": 2,
+      "native": "ਦੋ",
+      "roman": "do",
+      "digit": "੨"
+    },
+    {
+      "n": 3,
+      "native": "ਤਿੰਨ",
+      "roman": "tinn",
+      "digit": "੩"
+    },
+    {
+      "n": 4,
+      "native": "ਚਾਰ",
+      "roman": "chār",
+      "digit": "੪"
+    },
+    {
+      "n": 5,
+      "native": "ਪੰਜ",
+      "roman": "panj",
+      "digit": "੫"
+    },
+    {
+      "n": 6,
+      "native": "ਛੇ",
+      "roman": "chhe",
+      "digit": "੬"
+    },
+    {
+      "n": 7,
+      "native": "ਸੱਤ",
+      "roman": "satt",
+      "digit": "੭"
+    },
+    {
+      "n": 8,
+      "native": "ਅੱਠ",
+      "roman": "aṭṭh",
+      "digit": "੮"
+    },
+    {
+      "n": 9,
+      "native": "ਨੌਂ",
+      "roman": "nauṃ",
+      "digit": "੯"
+    },
+    {
+      "n": 10,
+      "native": "ਦਸ",
+      "roman": "das",
+      "digit": "੧੦"
+    },
+    {
+      "n": 11,
+      "native": "ਗਿਆਰਾਂ",
+      "roman": "giārāṃ",
+      "digit": "੧੧"
+    },
+    {
+      "n": 12,
+      "native": "ਬਾਰਾਂ",
+      "roman": "bārāṃ",
+      "digit": "੧੨"
+    },
+    {
+      "n": 13,
+      "native": "ਤੇਰਾਂ",
+      "roman": "terāṃ",
+      "digit": "੧੩"
+    },
+    {
+      "n": 14,
+      "native": "ਚੌਦਾਂ",
+      "roman": "chaudāṃ",
+      "digit": "੧੪"
+    },
+    {
+      "n": 15,
+      "native": "ਪੰਦਰਾਂ",
+      "roman": "pandrāṃ",
+      "digit": "੧੫"
+    },
+    {
+      "n": 16,
+      "native": "ਸੋਲ਼ਾਂ",
+      "roman": "soḷāṃ",
+      "digit": "੧੬"
+    },
+    {
+      "n": 17,
+      "native": "ਸਤਾਰਾਂ",
+      "roman": "satārāṃ",
+      "digit": "੧੭"
+    },
+    {
+      "n": 18,
+      "native": "ਅਠਾਰਾਂ",
+      "roman": "aṭhārāṃ",
+      "digit": "੧੮"
+    },
+    {
+      "n": 19,
+      "native": "ਉੱਨੀ",
+      "roman": "unnī",
+      "digit": "੧੯"
+    },
+    {
+      "n": 20,
+      "native": "ਵੀਹ",
+      "roman": "vī́",
+      "digit": "੨੦"
+    },
+    {
+      "n": 21,
+      "native": "ਇੱਕੀ",
+      "roman": "ikkī",
+      "digit": "੨੧"
+    },
+    {
+      "n": 22,
+      "native": "ਬਾਈ",
+      "roman": "bāī",
+      "digit": "੨੨"
+    },
+    {
+      "n": 23,
+      "native": "ਤੇਈ",
+      "roman": "teī",
+      "digit": "੨੩"
+    },
+    {
+      "n": 24,
+      "native": "ਚੌਵੀ",
+      "roman": "chauvī",
+      "digit": "੨੪"
+    },
+    {
+      "n": 25,
+      "native": "ਪੱਚੀ",
+      "roman": "pachchī",
+      "digit": "੨੫"
+    },
+    {
+      "n": 26,
+      "native": "ਛੱਬੀ",
+      "roman": "chhabbī",
+      "digit": "੨੬"
+    },
+    {
+      "n": 27,
+      "native": "ਸਤਾਈ",
+      "roman": "satāī",
+      "digit": "੨੭"
+    },
+    {
+      "n": 28,
+      "native": "ਅਠਾਈ",
+      "roman": "aṭhāī",
+      "digit": "੨੮"
+    },
+    {
+      "n": 29,
+      "native": "ਉਨੱਤੀ",
+      "roman": "unattī",
+      "digit": "੨੯"
+    },
+    {
+      "n": 30,
+      "native": "ਤੀਹ",
+      "roman": "tī́",
+      "digit": "੩੦"
+    },
+    {
+      "n": 31,
+      "native": "ਇਕੱਤੀ",
+      "roman": "ikattī",
+      "digit": "੩੧"
+    },
+    {
+      "n": 32,
+      "native": "ਬੱਤੀ",
+      "roman": "battī",
+      "digit": "੩੨"
+    },
+    {
+      "n": 33,
+      "native": "ਤੇਤੀ",
+      "roman": "tetī",
+      "digit": "੩੩"
+    },
+    {
+      "n": 34,
+      "native": "ਚੌਂਤੀ",
+      "roman": "chauntī",
+      "digit": "੩੪"
+    },
+    {
+      "n": 35,
+      "native": "ਪੈਂਤੀ",
+      "roman": "paintī",
+      "digit": "੩੫"
+    },
+    {
+      "n": 36,
+      "native": "ਛੱਤੀ",
+      "roman": "chhattī",
+      "digit": "੩੬"
+    },
+    {
+      "n": 37,
+      "native": "ਸੈਂਤੀ",
+      "roman": "saintī",
+      "digit": "੩੭"
+    },
+    {
+      "n": 38,
+      "native": "ਅਠੱਤੀ",
+      "roman": "aṭhattī",
+      "digit": "੩੮"
+    },
+    {
+      "n": 39,
+      "native": "ਉਨਤਾਲੀ",
+      "roman": "untālī",
+      "digit": "੩੯"
+    },
+    {
+      "n": 40,
+      "native": "ਚਾਲੀ",
+      "roman": "chālī",
+      "digit": "੪੦"
+    },
+    {
+      "n": 41,
+      "native": "ਇਕਤਾਲੀ",
+      "roman": "iktālī",
+      "digit": "੪੧"
+    },
+    {
+      "n": 42,
+      "native": "ਬਤਾਲੀ",
+      "roman": "batālī",
+      "digit": "੪੨"
+    },
+    {
+      "n": 43,
+      "native": "ਤਰਤਾਲੀ",
+      "roman": "tartālī",
+      "digit": "੪੩"
+    },
+    {
+      "n": 44,
+      "native": "ਚੁਤਾਲੀ",
+      "roman": "chutālī",
+      "digit": "੪੪"
+    },
+    {
+      "n": 45,
+      "native": "ਪੰਤਾਲੀ",
+      "roman": "pantālī",
+      "digit": "੪੫"
+    },
+    {
+      "n": 46,
+      "native": "ਛਿਆਲੀ",
+      "roman": "chhiālī",
+      "digit": "੪੬"
+    },
+    {
+      "n": 47,
+      "native": "ਸੰਤਾਲੀ",
+      "roman": "santālī",
+      "digit": "੪੭"
+    },
+    {
+      "n": 48,
+      "native": "ਅਠਤਾਲੀ",
+      "roman": "aṭhtālī",
+      "digit": "੪੮"
+    },
+    {
+      "n": 49,
+      "native": "ਉਨੰਜਾ",
+      "roman": "unanjā",
+      "digit": "੪੯"
+    },
+    {
+      "n": 50,
+      "native": "ਪੰਜਾਹ",
+      "roman": "panjā́",
+      "digit": "੫੦"
+    },
+    {
+      "n": 51,
+      "native": "ਇਕਵੰਜਾ",
+      "roman": "ikvanjā",
+      "digit": "੫੧"
+    },
+    {
+      "n": 52,
+      "native": "ਬਵੰਜਾ",
+      "roman": "bavanjā",
+      "digit": "੫੨"
+    },
+    {
+      "n": 53,
+      "native": "ਤਰਵੰਜਾ",
+      "roman": "tarvanjā",
+      "digit": "੫੩"
+    },
+    {
+      "n": 54,
+      "native": "ਚੁਰੰਜਾ",
+      "roman": "churanjā",
+      "digit": "੫੪"
+    },
+    {
+      "n": 55,
+      "native": "ਪਚਵੰਜਾ",
+      "roman": "pachvanjā",
+      "digit": "੫੫"
+    },
+    {
+      "n": 56,
+      "native": "ਛਪੰਜਾ",
+      "roman": "chhapanjā",
+      "digit": "੫੬"
+    },
+    {
+      "n": 57,
+      "native": "ਸਤਵੰਜਾ",
+      "roman": "satvanjā",
+      "digit": "੫੭"
+    },
+    {
+      "n": 58,
+      "native": "ਅਠਵੰਜਾ",
+      "roman": "aṭhvanjā",
+      "digit": "੫੮"
+    },
+    {
+      "n": 59,
+      "native": "ਉਨਾਹਠ",
+      "roman": "unā́ṭh",
+      "digit": "੫੯"
+    },
+    {
+      "n": 60,
+      "native": "ਸੱਠ",
+      "roman": "saṭṭh",
+      "digit": "੬੦"
+    },
+    {
+      "n": 61,
+      "native": "ਇਕਾਹਠ",
+      "roman": "ikā́ṭh",
+      "digit": "੬੧"
+    },
+    {
+      "n": 62,
+      "native": "ਬਾਹਠ",
+      "roman": "bā́ṭh",
+      "digit": "੬੨"
+    },
+    {
+      "n": 63,
+      "native": "ਤਰੇਹਠ",
+      "roman": "taréṭh",
+      "digit": "੬੩"
+    },
+    {
+      "n": 64,
+      "native": "ਚੌਂਹਠ",
+      "roman": "chaúṇṭh",
+      "digit": "੬੪"
+    },
+    {
+      "n": 65,
+      "native": "ਪੈਂਹਠ",
+      "roman": "paíṇṭh",
+      "digit": "੬੫"
+    },
+    {
+      "n": 66,
+      "native": "ਛਿਆਹਠ",
+      "roman": "chhiā́ṭh",
+      "digit": "੬੬"
+    },
+    {
+      "n": 67,
+      "native": "ਸਤਾਹਠ",
+      "roman": "satā́ṭh",
+      "digit": "੬੭"
+    },
+    {
+      "n": 68,
+      "native": "ਅਠਾਹਠ",
+      "roman": "aṭhā́ṭh",
+      "digit": "੬੮"
+    },
+    {
+      "n": 69,
+      "native": "ਉਨੱਤਰ",
+      "roman": "unattar",
+      "digit": "੬੯"
+    },
+    {
+      "n": 70,
+      "native": "ਸੱਤਰ",
+      "roman": "sattar",
+      "digit": "੭੦"
+    },
+    {
+      "n": 71,
+      "native": "ਇਕਹੱਤਰ",
+      "roman": "ikáttar",
+      "digit": "੭੧"
+    },
+    {
+      "n": 72,
+      "native": "ਬਹੱਤਰ",
+      "roman": "báttar",
+      "digit": "੭੨"
+    },
+    {
+      "n": 73,
+      "native": "ਤਿਹੱਤਰ",
+      "roman": "tiáttar",
+      "digit": "੭੩"
+    },
+    {
+      "n": 74,
+      "native": "ਚੁਹੱਤਰ",
+      "roman": "chuáttar",
+      "digit": "੭੪"
+    },
+    {
+      "n": 75,
+      "native": "ਪਚੱਤਰ",
+      "roman": "pachattar",
+      "digit": "੭੫"
+    },
+    {
+      "n": 76,
+      "native": "ਛਿਹੱਤਰ",
+      "roman": "chhiáttar",
+      "digit": "੭੬"
+    },
+    {
+      "n": 77,
+      "native": "ਸਤੱਤਰ",
+      "roman": "satattar",
+      "digit": "੭੭"
+    },
+    {
+      "n": 78,
+      "native": "ਅਠੱਤਰ",
+      "roman": "aṭhattar",
+      "digit": "੭੮"
+    },
+    {
+      "n": 79,
+      "native": "ਉਨਾਸੀ",
+      "roman": "unāsī",
+      "digit": "੭੯"
+    },
+    {
+      "n": 80,
+      "native": "ਅੱਸੀ",
+      "roman": "assī",
+      "digit": "੮੦"
+    },
+    {
+      "n": 81,
+      "native": "ਇਕਾਸੀ",
+      "roman": "ikāsī",
+      "digit": "੮੧"
+    },
+    {
+      "n": 82,
+      "native": "ਬਿਆਸੀ",
+      "roman": "biāsī",
+      "digit": "੮੨"
+    },
+    {
+      "n": 83,
+      "native": "ਤਿਰਾਸੀ",
+      "roman": "tirāsī",
+      "digit": "੮੩"
+    },
+    {
+      "n": 84,
+      "native": "ਚੁਰਾਸੀ",
+      "roman": "churāsī",
+      "digit": "੮੪"
+    },
+    {
+      "n": 85,
+      "native": "ਪਚਾਸੀ",
+      "roman": "pachāsī",
+      "digit": "੮੫"
+    },
+    {
+      "n": 86,
+      "native": "ਛਿਆਸੀ",
+      "roman": "chhiāsī",
+      "digit": "੮੬"
+    },
+    {
+      "n": 87,
+      "native": "ਸਤਾਸੀ",
+      "roman": "satāsī",
+      "digit": "੮੭"
+    },
+    {
+      "n": 88,
+      "native": "ਅਠਾਸੀ",
+      "roman": "aṭhāsī",
+      "digit": "੮੮"
+    },
+    {
+      "n": 89,
+      "native": "ਉਨਾਨਵੇਂ",
+      "roman": "unānveṃ",
+      "digit": "੮੯"
+    },
+    {
+      "n": 90,
+      "native": "ਨੱਬੇ",
+      "roman": "nabbe",
+      "digit": "੯੦"
+    },
+    {
+      "n": 91,
+      "native": "ਇਕਾਨਵੇਂ",
+      "roman": "ikānveṃ",
+      "digit": "੯੧"
+    },
+    {
+      "n": 92,
+      "native": "ਬਾਨਵੇਂ",
+      "roman": "bānveṃ",
+      "digit": "੯੨"
+    },
+    {
+      "n": 93,
+      "native": "ਤਰਾਨਵੇਂ",
+      "roman": "tarānveṃ",
+      "digit": "੯੩"
+    },
+    {
+      "n": 94,
+      "native": "ਚੁਰਾਨਵੇਂ",
+      "roman": "churānveṃ",
+      "digit": "੯੪"
+    },
+    {
+      "n": 95,
+      "native": "ਪਚਾਨਵੇਂ",
+      "roman": "pachānveṃ",
+      "digit": "੯੫"
+    },
+    {
+      "n": 96,
+      "native": "ਛਿਆਨਵੇਂ",
+      "roman": "chhiānveṃ",
+      "digit": "੯੬"
+    },
+    {
+      "n": 97,
+      "native": "ਸਤਾਨਵੇਂ",
+      "roman": "satānveṃ",
+      "digit": "੯੭"
+    },
+    {
+      "n": 98,
+      "native": "ਅਠਾਨਵੇਂ",
+      "roman": "aṭhānveṃ",
+      "digit": "੯੮"
+    },
+    {
+      "n": 99,
+      "native": "ਨੜਿੱਨਵੇਂ",
+      "roman": "naṛinnveṃ",
+      "digit": "੯੯"
+    },
+    {
+      "n": 100,
+      "native": "ਸੌ",
+      "roman": "sau",
+      "digit": "੧੦੦",
+      "note": "also ਇੱਕ ਸੌ (ikk sau)"
+    },
+    {
+      "n": 200,
+      "native": "ਦੋ ਸੌ",
+      "roman": "do sau",
+      "digit": "੨੦੦"
+    },
+    {
+      "n": 500,
+      "native": "ਪੰਜ ਸੌ",
+      "roman": "panj sau",
+      "digit": "੫੦੦"
+    },
+    {
+      "n": 1000,
+      "native": "ਹਜ਼ਾਰ",
+      "roman": "hazār",
+      "digit": "੧੦੦੦",
+      "note": "ਇੱਕ ਹਜ਼ਾਰ"
+    },
+    {
+      "n": 100000,
+      "native": "ਲੱਖ",
+      "roman": "lakkh",
+      "digit": "੧੦੦੦੦੦",
+      "note": "one lakh = 1,00,000"
+    },
+    {
+      "n": 10000000,
+      "native": "ਕਰੋੜ",
+      "roman": "karoṛ",
+      "digit": "੧੦੦੦੦੦੦੦",
+      "note": "one crore = 1,00,00,000 = 100 lakh"
+    }
+  ]
+}

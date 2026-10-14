@@ -1,0 +1,93 @@
+{
+  "id": 3,
+  "title": "Family & people",
+  "goal": "Talk about your family, say whose something is, and handle the gender and plural of nouns.",
+  "intro": "Marathi family vocabulary is rich: there are different words for your mother's brother (मामा) and your father's brother (काका), and age within the family matters (दादा, ताई).\n\nGrammatically, this unit introduces two essentials: possessive words like **माझा / माझी / माझं** ('my'), which change to agree with the thing owned, and the three noun genders with their plurals.",
+  "vocab": [
+    { "native": "आई", "roman": "āī", "en": "mother", "pos": "noun", "note": "f" },
+    { "native": "वडील", "roman": "vaḍīl", "en": "father (respectful)", "pos": "noun", "note": "m · always takes plural verbs: वडील घरी आहेत." },
+    { "native": "बाबा", "roman": "bābā", "en": "dad", "pos": "noun", "note": "m · also plural agreement: बाबा आले." },
+    { "native": "भाऊ", "roman": "bhāū", "en": "brother", "pos": "noun", "note": "m · pl: भाऊ" },
+    { "native": "बहीण", "roman": "bahīṇ", "en": "sister", "pos": "noun", "note": "f · pl: बहिणी" },
+    { "native": "दादा", "roman": "dādā", "en": "elder brother; 'big bro' (address)", "pos": "noun", "note": "m · also used for any older young man." },
+    { "native": "ताई", "roman": "tāī", "en": "elder sister; 'sis' (address)", "pos": "noun", "note": "f · polite way to address a woman a little older than you." },
+    { "native": "धाकटा", "roman": "dhākṭā", "en": "younger (sibling)", "pos": "adj", "note": "f धाकटी. Opposite: थोरला / मोठा 'elder'." },
+    { "native": "मुलगा", "roman": "mulgā", "en": "son; boy", "pos": "noun", "note": "m · pl: मुलगे" },
+    { "native": "मुलगी", "roman": "mulgī", "en": "daughter; girl", "pos": "noun", "note": "f · pl: मुली" },
+    { "native": "मूल", "roman": "mūl", "en": "child", "pos": "noun", "note": "n · pl: मुलं mulaṃ (written मुले)" },
+    { "native": "नवरा", "roman": "navrā", "en": "husband", "pos": "noun", "note": "m · formal: पती" },
+    { "native": "बायको", "roman": "bāyko", "en": "wife", "pos": "noun", "note": "f · formal: पत्नी" },
+    { "native": "आजी", "roman": "ājī", "en": "grandmother", "pos": "noun", "note": "f" },
+    { "native": "आजोबा", "roman": "ādzobā", "en": "grandfather", "pos": "noun", "note": "m · plural agreement" },
+    { "native": "काका", "roman": "kākā", "en": "father's brother; 'uncle'", "pos": "noun", "note": "m · his wife: काकू. Also any older man (neighbour, shopkeeper)." },
+    { "native": "मामा", "roman": "māmā", "en": "mother's brother", "pos": "noun", "note": "m · his wife: मामी" },
+    { "native": "मावशी", "roman": "māvshī", "en": "mother's sister", "pos": "noun", "note": "f · also a respectful term for a domestic helper." },
+    { "native": "आत्या", "roman": "ātyā", "en": "father's sister", "pos": "noun", "note": "f" },
+    { "native": "माणूस", "roman": "māṇūs", "en": "person; man", "pos": "noun", "note": "m · pl: माणसं māṇsaṃ 'people'" },
+    { "native": "बाई", "roman": "bāī", "en": "woman, lady; Mrs/Ms (after a name)", "pos": "noun", "note": "f · e.g. कुलकर्णी बाई 'Mrs Kulkarni'; also 'teacher' (school)." },
+    { "native": "मित्र", "roman": "mitra", "en": "friend (male)", "pos": "noun", "note": "m · pl: मित्र" },
+    { "native": "मैत्रीण", "roman": "maitrīṇ", "en": "friend (female)", "pos": "noun", "note": "f · pl: मैत्रिणी" },
+    { "native": "कुटुंब", "roman": "kuṭumb", "en": "family", "pos": "noun", "note": "n · colloquial: घरचे 'the people at home'." },
+    { "native": "लग्न", "roman": "lagna", "en": "marriage, wedding", "pos": "noun", "note": "n · लग्न झालं आहे 'is married'." },
+    { "native": "आणि", "roman": "āṇi", "en": "and", "pos": "conj" },
+    { "native": "माझा", "roman": "mādzhā", "en": "my, mine", "pos": "pron", "note": "m माझा · f माझी mājhī · n माझं mādzhaṃ · m pl माझे mājhe · f pl / oblique माझ्या mājhyā" },
+    { "native": "तुझा", "roman": "tudzhā", "en": "your (informal)", "pos": "pron", "note": "f तुझी, n तुझं" },
+    { "native": "त्याचा", "roman": "tyātsā", "en": "his", "pos": "pron", "note": "f त्याची, n त्याचं" },
+    { "native": "तिचा", "roman": "titsā", "en": "her", "pos": "pron", "note": "f तिची, n तिचं" },
+    { "native": "आमचा", "roman": "āmtsā", "en": "our (not yours)", "pos": "pron", "note": "Inclusive 'our': आपला āplā" },
+    { "native": "तुमचा", "roman": "tumtsā", "en": "your (polite / plural)", "pos": "pron", "note": "f तुमची, n तुमचं; 'their': त्यांचा tyāntsā" }
+  ],
+  "phrases": [
+    { "native": "तुमच्या घरी कोण कोण असतं?", "roman": "tumchyā gharī koṇ koṇ astaṃ?", "en": "Who's in your family? (lit. who-all is at your home?)" },
+    { "native": "माझ्या घरी आई, बाबा आणि एक बहीण आहे.", "roman": "mājhyā gharī āī, bābā āṇi ek bahīṇ āhe.", "en": "At home there's my mum, dad and a sister." },
+    { "native": "तुम्हाला भाऊ-बहीण आहेत का?", "roman": "tumhālā bhāū-bahīṇ āhet kā?", "en": "Do you have brothers and sisters?" },
+    { "native": "मला एक मोठा भाऊ आहे.", "roman": "malā ek moṭhā bhāū āhe.", "en": "I have an elder brother." },
+    { "native": "हे माझे वडील आहेत.", "roman": "he mājhe vaḍīl āhet.", "en": "This is my father." },
+    { "native": "ही माझी बायको, स्नेहा.", "roman": "hī mājhī bāyko, snehā.", "en": "This is my wife, Sneha." },
+    { "native": "तुमचं लग्न झालं आहे का?", "roman": "tumtsaṃ lagna dzhālaṃ āhe kā?", "en": "Are you married?" },
+    { "native": "हो, मला दोन मुलं आहेत.", "roman": "ho, malā don mulaṃ āhet.", "en": "Yes, I have two children." },
+    { "native": "तुझ्या बहिणीचं नाव काय?", "roman": "tujhyā bahiṇītsaṃ nāv kāy?", "en": "What's your sister's name?" },
+    { "native": "आमचं कुटुंब मोठं आहे.", "roman": "āmtsaṃ kuṭumb moṭhaṃ āhe.", "en": "Our family is big." },
+    { "native": "त्यांचे आई-वडील नाशिकला राहतात.", "roman": "tyānche āī-vaḍīl nāshiklā rāhtāt.", "en": "Their parents live in Nashik." }
+  ],
+  "grammar": [
+    {
+      "title": "Possessives: माझा, माझी, माझं",
+      "body": "'My', 'your', etc. behave like adjectives: they agree in **gender and number with the thing possessed**, not with the owner.\n\nm sg **माझा** भाऊ · f sg **माझी** बहीण · n sg **माझं** घर\nm pl **माझे** भाऊ · f pl **माझ्या** बहिणी · n pl **माझी** घरं\n\nThe same endings (-चा / -ची / -चं / -चे / -च्या) attach to **any noun** to mean 'of': सीमाचा भाऊ 'Seema's brother', आईची साडी 'mother's sari', पुण्याचं हवामान 'Pune's weather'.\n\n'To have' a relative uses the dative -ला: **मला** दोन भाऊ आहेत 'I have two brothers' (lit. 'to me are two brothers').",
+      "examples": [
+        { "native": "माझा भाऊ डॉक्टर आहे.", "roman": "mādzhā bhāū ḍôkṭar āhe.", "en": "My brother is a doctor." },
+        { "native": "माझी बहीण शिक्षिका आहे.", "roman": "mājhī bahīṇ shikṣikā āhe.", "en": "My sister is a teacher." },
+        { "native": "हे माझं घर आहे.", "roman": "he mādzhaṃ ghar āhe.", "en": "This is my house." },
+        { "native": "सीमाचा नवरा इंजिनीअर आहे.", "roman": "sīmātsā navrā iñjinīar āhe.", "en": "Seema's husband is an engineer." },
+        { "native": "तिला एक मुलगी आहे.", "roman": "tilā ek mulgī āhe.", "en": "She has a daughter." }
+      ]
+    },
+    {
+      "title": "Gender and plural of nouns",
+      "body": "Every Marathi noun is **masculine, feminine or neuter**. People follow natural gender; for things you learn the gender with the word (घर n, खुर्ची f, दिवस m). Gender matters because adjectives, possessives and verbs agree with it.\n\nCommon plural patterns:\n**m ending in -आ → -ए:** मुलगा → मुलगे, आंबा → आंबे\n**m ending in a consonant / other vowel → no change:** मित्र → मित्र, भाऊ → भाऊ\n**f ending in -ई → -ई / -या:** मुलगी → मुली, नदी → नद्या\n**f ending in a consonant → -ई (or -आ):** बहीण → बहिणी, गोष्ट → गोष्टी, वेळ → वेळा\n**n ending in a consonant → -ं (written -े):** घर → घरं, मूल → मुलं\n**n ending in -ं → -ई:** केळं → केळी",
+      "examples": [
+        { "native": "दोन मुलगे आणि एक मुलगी", "roman": "don mulge āṇi ek mulgī", "en": "two sons and a daughter" },
+        { "native": "माझ्या तीन बहिणी आहेत.", "roman": "mājhyā tīn bahiṇī āhet.", "en": "I have three sisters. (lit. my three sisters are)" },
+        { "native": "माझे मित्र इथे आहेत.", "roman": "mājhe mitra ithe āhet.", "en": "My friends are here." },
+        { "native": "गावात खूप घरं आहेत.", "roman": "gāvāt khūp gharaṃ āhet.", "en": "There are many houses in the village." },
+        { "native": "माझ्या मैत्रिणी पुण्यात राहतात.", "roman": "mājhyā maitriṇī puṇyāt rāhtāt.", "en": "My (female) friends live in Pune." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Family photos",
+    "setting": "Priya shows her colleague Rahul a family photo on her phone.",
+    "lines": [
+      { "speaker": "Priya", "native": "हा फोटो बघ! हे माझं कुटुंब.", "roman": "hā phoṭo bagh! he mādzhaṃ kuṭumb.", "en": "Look at this photo! This is my family." },
+      { "speaker": "Rahul", "native": "अरे वा! हे कोण आहेत?", "roman": "are vā! he koṇ āhet?", "en": "Oh nice! Who is this?" },
+      { "speaker": "Priya", "native": "हे माझे आजोबा आणि ही माझी आजी.", "roman": "he mājhe ādzobā āṇi hī mājhī ājī.", "en": "This is my grandfather and this is my grandmother." },
+      { "speaker": "Rahul", "native": "आणि हा मुलगा कोण?", "roman": "āṇi hā mulgā koṇ?", "en": "And who's this boy?" },
+      { "speaker": "Priya", "native": "तो माझा धाकटा भाऊ, अमित.", "roman": "to mādzhā dhākṭā bhāū, amit.", "en": "That's my younger brother, Amit." },
+      { "speaker": "Rahul", "native": "तुझ्या बाबांचं नाव काय?", "roman": "tujhyā bābāntsaṃ nāv kāy?", "en": "What's your dad's name?" },
+      { "speaker": "Priya", "native": "सुरेश. आणि आईचं नाव सुनीता.", "roman": "suresh. āṇi āītsaṃ nāv sunītā.", "en": "Suresh. And my mum's name is Sunita." },
+      { "speaker": "Rahul", "native": "तुला बहीण नाही का?", "roman": "tulā bahīṇ nāhī kā?", "en": "Don't you have a sister?" },
+      { "speaker": "Priya", "native": "आहे ना! ताई मुंबईत असते. तिचं लग्न झालं आहे.", "roman": "āhe nā! tāī mumbaīt aste. titsaṃ lagna dzhālaṃ āhe.", "en": "Of course I do! My sister lives in Mumbai. She's married." }
+    ]
+  },
+  "culture": "Respect shows up in grammar: fathers, grandfathers, uncles and teachers are usually referred to with **plural** verbs and forms (बाबा आले, आजोबांचं नाव), while mothers are often spoken of in the singular out of closeness. Marathi women traditionally took a new first name as well as surname after marriage, though this is now rare. Kinship words are used for non-relatives all the time: a rickshaw driver may be **काका** or **दादा**, a woman in a shop **ताई** or **मावशी**."
+}

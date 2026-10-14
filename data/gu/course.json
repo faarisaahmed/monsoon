@@ -1,0 +1,2666 @@
+{
+  "code": "gu",
+  "name": "Gujarati",
+  "native": "ગુજરાતી",
+  "scriptName": "Gujarati",
+  "script": {
+    "overview": "Gujarati is written in its own script, an **abugida** read left to right. Each consonant letter carries an inherent vowel *a* (ક = *ka*); other vowels are added as **vowel signs** (કા *kā*, કિ *ki*, કુ *ku*, કે *ke*). Independent vowel letters (અ, આ, ઇ…) are used only at the start of a word or after another vowel.\n\nThe biggest visual difference from Devanagari is that **Gujarati has no headline (shirorekha)**: Hindi घर hangs from a top bar, Gujarati ઘર does not. Many letters are simply Devanagari shapes without the bar (ગ, ન, મ), while others differ noticeably (ક, ખ, જ, ફ, શ, લ, ળ). Gujarati also has a letter Hindi lacks: **ળ** (retroflex ḷ).\n\nTo write a consonant with no vowel, add the **virama** (્): ક્. In practice consonants with no vowel between them are fused into **conjuncts**: સ્ત (st), ત્ર (tr), ક્ષ (kṣ). ર is written as a small hook on top (reph) when it comes first in a cluster (ધર્મ *dharm*) and as a small stroke underneath when it comes second (પ્ર *pr*).\n\nThe inherent *a* is often silent at the end of words and in the middle of many words (schwa deletion), exactly as in Hindi. Gujarati has its own **digits** (૧ ૨ ૩ …), though Western digits are also very common today. Full stop is a normal period (.), not the Hindi danda.",
+    "groups": [
+      {
+        "id": "vowels",
+        "title": "Vowels and vowel signs",
+        "note": "Independent forms are used at the start of a word; the sign (shown on ક) is used after a consonant. i/ī and u/ū are spelled differently but sound alike in normal speech.",
+        "letters": [
+          {
+            "char": "અ",
+            "roman": "a",
+            "ipa": "ə",
+            "sound": "the a in 'about'; often silent at the ends of words",
+            "sign": "—",
+            "signExample": "ક (ka)",
+            "example": {
+              "native": "અમે",
+              "roman": "ame",
+              "en": "we"
+            },
+            "strokes": "Like a 3 with a vertical bar on the right and a short joining stroke."
+          },
+          {
+            "char": "આ",
+            "roman": "ā",
+            "ipa": "a",
+            "sound": "the a in 'father'",
+            "sign": "ા",
+            "signExample": "કા (kā)",
+            "example": {
+              "native": "આંખ",
+              "roman": "āṃkh",
+              "en": "eye"
+            },
+            "strokes": "અ plus an extra vertical bar."
+          },
+          {
+            "char": "ઇ",
+            "roman": "i",
+            "ipa": "i",
+            "sound": "the i in 'machine' but short",
+            "sign": "િ",
+            "signExample": "કિ (ki)",
+            "example": {
+              "native": "ઇનામ",
+              "roman": "inām",
+              "en": "prize"
+            },
+            "strokes": "The sign is written to the LEFT of the consonant even though it is pronounced after it."
+          },
+          {
+            "char": "ઈ",
+            "roman": "ī",
+            "ipa": "i",
+            "sound": "the ee in 'see' (same length as ઇ in speech)",
+            "sign": "ી",
+            "signExample": "કી (kī)",
+            "example": {
+              "native": "ઈંડું",
+              "roman": "īṇḍuṃ",
+              "en": "egg"
+            },
+            "strokes": "ઇ with a hooked tail on top; the sign hooks to the right."
+          },
+          {
+            "char": "ઉ",
+            "roman": "u",
+            "ipa": "u",
+            "sound": "the u in 'put'",
+            "sign": "ુ",
+            "signExample": "કુ (ku)",
+            "example": {
+              "native": "ઉનાળો",
+              "roman": "unāḷo",
+              "en": "summer"
+            },
+            "strokes": "Sign is a small hook under the consonant."
+          },
+          {
+            "char": "ઊ",
+            "roman": "ū",
+            "ipa": "u",
+            "sound": "the oo in 'food' (same length as ઉ in speech)",
+            "sign": "ૂ",
+            "signExample": "કૂ (kū)",
+            "example": {
+              "native": "ઊન",
+              "roman": "ūn",
+              "en": "wool"
+            },
+            "strokes": "ઉ with an extra loop; the sign is a hook opening the other way."
+          },
+          {
+            "char": "ઋ",
+            "roman": "ru",
+            "ipa": "ɾu",
+            "sound": "pronounced 'ru' in Gujarati; only in Sanskrit words",
+            "sign": "ૃ",
+            "signExample": "કૃ (kru)",
+            "example": {
+              "native": "ઋતુ",
+              "roman": "rutu",
+              "en": "season"
+            },
+            "strokes": "Sign is a small curl under the consonant."
+          },
+          {
+            "char": "એ",
+            "roman": "e",
+            "ipa": "e / ɛ",
+            "sound": "the ay in 'say' (no glide), or the open e in 'bed' in some words",
+            "sign": "ે",
+            "signExample": "કે (ke)",
+            "example": {
+              "native": "એક",
+              "roman": "ek",
+              "en": "one"
+            },
+            "strokes": "The sign is a single slanted stroke above the consonant."
+          },
+          {
+            "char": "ઐ",
+            "roman": "ai",
+            "ipa": "əi",
+            "sound": "like 'uh-ee' run together; close to the i in 'bite'",
+            "sign": "ૈ",
+            "signExample": "કૈ (kai)",
+            "example": {
+              "native": "ઐતિહાસિક",
+              "roman": "aitihāsik",
+              "en": "historic"
+            },
+            "strokes": "Two slanted strokes above."
+          },
+          {
+            "char": "ઓ",
+            "roman": "o",
+            "ipa": "o / ɔ",
+            "sound": "the o in 'go' (no glide), or open ɔ in some words",
+            "sign": "ો",
+            "signExample": "કો (ko)",
+            "example": {
+              "native": "ઓરડો",
+              "roman": "orḍo",
+              "en": "room"
+            },
+            "strokes": "આ with the e-stroke on top."
+          },
+          {
+            "char": "ઔ",
+            "roman": "au",
+            "ipa": "əu",
+            "sound": "like 'uh-oo' run together; close to the ow in 'how'",
+            "sign": "ૌ",
+            "signExample": "કૌ (kau)",
+            "example": {
+              "native": "ઔષધ",
+              "roman": "auṣadh",
+              "en": "medicine (formal)"
+            },
+            "strokes": "આ with two strokes on top."
+          },
+          {
+            "char": "ઍ",
+            "roman": "e",
+            "ipa": "æ / ɛ",
+            "sound": "the a in 'cat'; used only in English loanwords",
+            "sign": "ૅ",
+            "signExample": "કૅ (ke)",
+            "example": {
+              "native": "ઍક્ટર",
+              "roman": "ekṭar",
+              "en": "actor"
+            },
+            "strokes": "Like આ with a small moon-shaped curve (chandra) on top."
+          },
+          {
+            "char": "ઑ",
+            "roman": "o",
+            "ipa": "ɔ",
+            "sound": "the o in British 'hot'; used in English loanwords",
+            "sign": "ૉ",
+            "signExample": "કૉ (ko)",
+            "example": {
+              "native": "ઑફિસ",
+              "roman": "ofis",
+              "en": "office"
+            },
+            "strokes": "ઓ with the chandra curve instead of the straight stroke."
+          }
+        ]
+      },
+      {
+        "id": "velar",
+        "title": "Velar consonants (back of the tongue)",
+        "note": "Made with the back of the tongue against the soft palate. Each row goes: plain, aspirated, voiced, voiced-aspirated (breathy), nasal.",
+        "letters": [
+          {
+            "char": "ક",
+            "roman": "ka",
+            "ipa": "k",
+            "sound": "k as in 'skip' — no puff of air",
+            "example": {
+              "native": "કાન",
+              "roman": "kān",
+              "en": "ear"
+            },
+            "strokes": "Quite different from Devanagari क: a loop on the left joined to a vertical bar."
+          },
+          {
+            "char": "ખ",
+            "roman": "kha",
+            "ipa": "kʰ",
+            "sound": "k with a strong puff, as in 'kite' said forcefully",
+            "example": {
+              "native": "ખાવું",
+              "roman": "khāvuṃ",
+              "en": "to eat"
+            },
+            "strokes": "Like a reversed S joined to a bar; no headline."
+          },
+          {
+            "char": "ગ",
+            "roman": "ga",
+            "ipa": "ɡ",
+            "sound": "g as in 'go'",
+            "example": {
+              "native": "ગાય",
+              "roman": "gāy",
+              "en": "cow"
+            },
+            "strokes": "Devanagari ग without the top line."
+          },
+          {
+            "char": "ઘ",
+            "roman": "gha",
+            "ipa": "ɡʱ",
+            "sound": "breathy g — 'g' followed by a murmured h, as in 'doghouse'",
+            "example": {
+              "native": "ઘર",
+              "roman": "ghar",
+              "en": "house"
+            },
+            "strokes": "Devanagari घ without the top line."
+          },
+          {
+            "char": "ઙ",
+            "roman": "ṅa",
+            "ipa": "ŋ",
+            "sound": "ng as in 'sing'; never starts a word and is almost always written as anusvara (ં)",
+            "example": {
+              "native": "રંગ",
+              "roman": "raṅg",
+              "en": "colour"
+            },
+            "strokes": "Like a ડ with a dot to the right."
+          }
+        ]
+      },
+      {
+        "id": "palatal",
+        "title": "Palatal consonants",
+        "note": "Affricates like English ch and j, made with the blade of the tongue. In Kathiawadi and Surati speech ચ/છ are often softened towards s.",
+        "letters": [
+          {
+            "char": "ચ",
+            "roman": "cha",
+            "ipa": "tʃ",
+            "sound": "ch as in 'church' but with no puff of air",
+            "example": {
+              "native": "ચા",
+              "roman": "chā",
+              "en": "tea"
+            },
+            "strokes": "Devanagari च without the headline."
+          },
+          {
+            "char": "છ",
+            "roman": "chha",
+            "ipa": "tʃʰ",
+            "sound": "ch with a strong puff of air, as in 'pitch-house'",
+            "example": {
+              "native": "છત્રી",
+              "roman": "chhatrī",
+              "en": "umbrella"
+            },
+            "strokes": "A rounded loop with a tail; also the digit-like word છ 'six'."
+          },
+          {
+            "char": "જ",
+            "roman": "ja",
+            "ipa": "dʒ",
+            "sound": "j as in 'jam'",
+            "example": {
+              "native": "જમવું",
+              "roman": "jamvuṃ",
+              "en": "to have a meal"
+            },
+            "strokes": "Different from Devanagari ज: a curve with a long tail down the right."
+          },
+          {
+            "char": "ઝ",
+            "roman": "jha",
+            "ipa": "dʒʱ / z",
+            "sound": "breathy j; also used for English z in loanwords (ઝીરો 'zero')",
+            "example": {
+              "native": "ઝાડ",
+              "roman": "jhāḍ",
+              "en": "tree"
+            },
+            "strokes": "Devanagari झ without the headline."
+          },
+          {
+            "char": "ઞ",
+            "roman": "ña",
+            "ipa": "ɲ",
+            "sound": "ny as in 'canyon'; only appears in clusters (e.g. inside જ્ઞ)",
+            "example": {
+              "native": "વ્યંજન",
+              "roman": "vyañjan",
+              "en": "consonant"
+            },
+            "strokes": "Devanagari ञ without the headline."
+          }
+        ]
+      },
+      {
+        "id": "retroflex",
+        "title": "Retroflex consonants",
+        "note": "Curl the tongue tip back to touch the roof of the mouth behind the ridge. Between vowels ડ and ઢ become quick flaps (ઘોડો sounds like 'gho-ṛo').",
+        "letters": [
+          {
+            "char": "ટ",
+            "roman": "ṭa",
+            "ipa": "ʈ",
+            "sound": "hard t with tongue tip curled back; no puff",
+            "example": {
+              "native": "ટામેટું",
+              "roman": "ṭāmeṭuṃ",
+              "en": "tomato"
+            },
+            "strokes": "Devanagari ट without the headline."
+          },
+          {
+            "char": "ઠ",
+            "roman": "ṭha",
+            "ipa": "ʈʰ",
+            "sound": "retroflex t with a puff of air",
+            "example": {
+              "native": "ઠંડી",
+              "roman": "ṭhaṇḍī",
+              "en": "cold (weather)"
+            },
+            "strokes": "A simple circle with a short tail."
+          },
+          {
+            "char": "ડ",
+            "roman": "ḍa",
+            "ipa": "ɖ / ɽ",
+            "sound": "retroflex d; a flap between vowels",
+            "example": {
+              "native": "ડાબું",
+              "roman": "ḍābuṃ",
+              "en": "left"
+            },
+            "strokes": "Devanagari ड without the headline."
+          },
+          {
+            "char": "ઢ",
+            "roman": "ḍha",
+            "ipa": "ɖʱ / ɽʱ",
+            "sound": "breathy retroflex d; a breathy flap between vowels",
+            "example": {
+              "native": "ઢોકળાં",
+              "roman": "ḍhokḷāṃ",
+              "en": "dhokla (steamed snack)"
+            },
+            "strokes": "Devanagari ढ without the headline."
+          },
+          {
+            "char": "ણ",
+            "roman": "ṇa",
+            "ipa": "ɳ",
+            "sound": "n with the tongue curled back; never starts a word",
+            "example": {
+              "native": "પાણી",
+              "roman": "pāṇī",
+              "en": "water"
+            },
+            "strokes": "Like two loops joined to a vertical bar."
+          }
+        ]
+      },
+      {
+        "id": "dental",
+        "title": "Dental consonants",
+        "note": "Tongue tip touches the back of the upper front teeth — further forward than English t and d.",
+        "letters": [
+          {
+            "char": "ત",
+            "roman": "ta",
+            "ipa": "t̪",
+            "sound": "soft t with tongue on the teeth, no puff (like Spanish/French t)",
+            "example": {
+              "native": "તારો",
+              "roman": "tāro",
+              "en": "star; your (informal)"
+            },
+            "strokes": "Devanagari त without the headline."
+          },
+          {
+            "char": "થ",
+            "roman": "tha",
+            "ipa": "t̪ʰ",
+            "sound": "dental t with a puff — NOT the th of 'thin'",
+            "example": {
+              "native": "થાળી",
+              "roman": "thāḷī",
+              "en": "plate (thali)"
+            },
+            "strokes": "Devanagari थ without the headline."
+          },
+          {
+            "char": "દ",
+            "roman": "da",
+            "ipa": "d̪",
+            "sound": "soft d with tongue on the teeth",
+            "example": {
+              "native": "દાંત",
+              "roman": "dāṃt",
+              "en": "tooth"
+            },
+            "strokes": "Devanagari द without the headline."
+          },
+          {
+            "char": "ધ",
+            "roman": "dha",
+            "ipa": "d̪ʱ",
+            "sound": "breathy dental d",
+            "example": {
+              "native": "ધોવું",
+              "roman": "dhovuṃ",
+              "en": "to wash"
+            },
+            "strokes": "Devanagari ध without the headline."
+          },
+          {
+            "char": "ન",
+            "roman": "na",
+            "ipa": "n",
+            "sound": "n as in 'no'",
+            "example": {
+              "native": "નાક",
+              "roman": "nāk",
+              "en": "nose"
+            },
+            "strokes": "Devanagari न without the headline."
+          }
+        ]
+      },
+      {
+        "id": "labial",
+        "title": "Labial consonants (lips)",
+        "note": "Made with the lips. ફ is usually pronounced f by modern speakers.",
+        "letters": [
+          {
+            "char": "પ",
+            "roman": "pa",
+            "ipa": "p",
+            "sound": "p as in 'spin' — no puff",
+            "example": {
+              "native": "પગ",
+              "roman": "pag",
+              "en": "foot, leg"
+            },
+            "strokes": "Devanagari प without the headline."
+          },
+          {
+            "char": "ફ",
+            "roman": "fa / pha",
+            "ipa": "f / pʰ",
+            "sound": "usually f as in 'fun'; careful or older speech: aspirated p",
+            "example": {
+              "native": "ફૂલ",
+              "roman": "fūl",
+              "en": "flower"
+            },
+            "strokes": "Like પ with a curl to the right."
+          },
+          {
+            "char": "બ",
+            "roman": "ba",
+            "ipa": "b",
+            "sound": "b as in 'bat'",
+            "example": {
+              "native": "બારી",
+              "roman": "bārī",
+              "en": "window"
+            },
+            "strokes": "Devanagari ब without the headline."
+          },
+          {
+            "char": "ભ",
+            "roman": "bha",
+            "ipa": "bʱ",
+            "sound": "breathy b, as in 'clubhouse'",
+            "example": {
+              "native": "ભાઈ",
+              "roman": "bhāī",
+              "en": "brother"
+            },
+            "strokes": "Devanagari भ without the headline."
+          },
+          {
+            "char": "મ",
+            "roman": "ma",
+            "ipa": "m",
+            "sound": "m as in 'mother'",
+            "example": {
+              "native": "મોર",
+              "roman": "mor",
+              "en": "peacock"
+            },
+            "strokes": "Devanagari म without the headline."
+          }
+        ]
+      },
+      {
+        "id": "semivowels",
+        "title": "Semivowels and liquids",
+        "note": "ર is a light tap of the tongue; વ is between English v and w.",
+        "letters": [
+          {
+            "char": "ય",
+            "roman": "ya",
+            "ipa": "j",
+            "sound": "y as in 'yes'",
+            "example": {
+              "native": "યાદ",
+              "roman": "yād",
+              "en": "memory"
+            },
+            "strokes": "Devanagari य without the headline."
+          },
+          {
+            "char": "ર",
+            "roman": "ra",
+            "ipa": "ɾ",
+            "sound": "a single tap, like the tt in American 'butter'",
+            "example": {
+              "native": "રાત",
+              "roman": "rāt",
+              "en": "night"
+            },
+            "strokes": "Like a 2-shaped hook; reph and subscript forms in clusters."
+          },
+          {
+            "char": "લ",
+            "roman": "la",
+            "ipa": "l",
+            "sound": "clear l as in 'leaf'",
+            "example": {
+              "native": "લીંબુ",
+              "roman": "līmbu",
+              "en": "lemon"
+            },
+            "strokes": "Quite unlike Devanagari ल: a loop sitting on a short stem."
+          },
+          {
+            "char": "વ",
+            "roman": "va",
+            "ipa": "ʋ",
+            "sound": "between v and w; lips lightly touch",
+            "example": {
+              "native": "વાત",
+              "roman": "vāt",
+              "en": "talk, matter"
+            },
+            "strokes": "Devanagari व without the headline."
+          }
+        ]
+      },
+      {
+        "id": "sibilants",
+        "title": "Sibilants, h and ળ",
+        "note": "શ and ષ are pronounced the same (sh) in modern Gujarati. ળ is a retroflex l — a sound English lacks.",
+        "letters": [
+          {
+            "char": "શ",
+            "roman": "sha",
+            "ipa": "ʃ",
+            "sound": "sh as in 'shop'",
+            "example": {
+              "native": "શાક",
+              "roman": "shāk",
+              "en": "vegetable dish"
+            },
+            "strokes": "Distinctive Gujarati shape: a loop with a slanted tail."
+          },
+          {
+            "char": "ષ",
+            "roman": "ṣa",
+            "ipa": "ʃ",
+            "sound": "pronounced sh, same as શ; found in Sanskrit words",
+            "example": {
+              "native": "ભાષા",
+              "roman": "bhāṣā",
+              "en": "language"
+            },
+            "strokes": "Devanagari ष without the headline."
+          },
+          {
+            "char": "સ",
+            "roman": "sa",
+            "ipa": "s",
+            "sound": "s as in 'sun'",
+            "example": {
+              "native": "સાપ",
+              "roman": "sāp",
+              "en": "snake"
+            },
+            "strokes": "Devanagari स without the headline."
+          },
+          {
+            "char": "હ",
+            "roman": "ha",
+            "ipa": "ɦ",
+            "sound": "a voiced, breathy h; between vowels it often melts into a murmured vowel",
+            "example": {
+              "native": "હાથ",
+              "roman": "hāth",
+              "en": "hand"
+            },
+            "strokes": "Like a backwards S with a tail."
+          },
+          {
+            "char": "ળ",
+            "roman": "ḷa",
+            "ipa": "ɭ",
+            "sound": "l with the tongue tip curled back; never at the start of a word",
+            "example": {
+              "native": "કેળું",
+              "roman": "keḷuṃ",
+              "en": "banana"
+            },
+            "strokes": "A rounded shape with a loop at the bottom right."
+          }
+        ]
+      },
+      {
+        "id": "marks",
+        "title": "Special marks",
+        "note": "Gujarati uses the anusvara for almost all nasal sounds; chandrabindu is rare in modern spelling, and there is no nukta in everyday writing.",
+        "letters": [
+          {
+            "char": "ં",
+            "roman": "ṃ",
+            "ipa": "̃ / n",
+            "sound": "anusvara: nasalises the vowel (હું huṃ, છું chhuṃ) or stands for a nasal consonant before a stop (હિંદી hindī)",
+            "example": {
+              "native": "હું",
+              "roman": "huṃ",
+              "en": "I"
+            },
+            "strokes": "A dot above the letter (right of any vowel sign)."
+          },
+          {
+            "char": "ઁ",
+            "roman": "ṃ",
+            "ipa": "̃",
+            "sound": "chandrabindu: nasal vowel; rare today, the anusvara is used instead",
+            "example": {
+              "native": "હાઁ",
+              "roman": "hāṃ",
+              "en": "yes (old spelling of હાં)"
+            },
+            "strokes": "A dot inside a small crescent above."
+          },
+          {
+            "char": "ઃ",
+            "roman": "ḥ",
+            "ipa": "h",
+            "sound": "visarga: a light echo of h, in Sanskrit words; in દુઃખ it just doubles the next consonant",
+            "example": {
+              "native": "દુઃખ",
+              "roman": "dukh",
+              "en": "sorrow, pain"
+            },
+            "strokes": "Two small circles one above the other, after the letter."
+          },
+          {
+            "char": "્",
+            "roman": "",
+            "ipa": "",
+            "sound": "virama (khodo): removes the inherent a, shown when no conjunct is available",
+            "example": {
+              "native": "વિદ્વાન",
+              "roman": "vidvān",
+              "en": "scholar"
+            },
+            "strokes": "A small slanted stroke under the consonant."
+          },
+          {
+            "char": "ઽ",
+            "roman": "",
+            "ipa": "",
+            "sound": "avagraha: marks an elided or lengthened vowel; mostly in Sanskrit and in written exclamations",
+            "example": {
+              "native": "ઓઽઽ",
+              "roman": "o",
+              "en": "ohh (drawn-out)"
+            },
+            "strokes": "Like an S-shaped hook."
+          }
+        ]
+      },
+      {
+        "id": "conjuncts",
+        "title": "Common conjuncts",
+        "note": "Clusters of consonants are fused. ક્ષ and જ્ઞ are traditionally taught as letters of the alphabet in their own right.",
+        "letters": [
+          {
+            "char": "ક્ષ",
+            "roman": "kṣa",
+            "ipa": "kʃ",
+            "sound": "k + sh ('ksh')",
+            "example": {
+              "native": "પરીક્ષા",
+              "roman": "parīkṣā",
+              "en": "exam"
+            },
+            "strokes": "A unique shape, not obviously ક + ષ."
+          },
+          {
+            "char": "જ્ઞ",
+            "roman": "gna",
+            "ipa": "ɡn",
+            "sound": "pronounced 'gn' in Gujarati (not 'gy' as in Hindi)",
+            "example": {
+              "native": "જ્ઞાન",
+              "roman": "gnān",
+              "en": "knowledge"
+            },
+            "strokes": "A unique ligature of જ + ઞ."
+          },
+          {
+            "char": "શ્ર",
+            "roman": "shra",
+            "ipa": "ʃɾ",
+            "sound": "sh + r",
+            "example": {
+              "native": "શ્રી",
+              "roman": "shrī",
+              "en": "Mr; holy (title)"
+            },
+            "strokes": "શ with a small stroke for r."
+          },
+          {
+            "char": "ત્ર",
+            "roman": "tra",
+            "ipa": "t̪ɾ",
+            "sound": "dental t + r",
+            "example": {
+              "native": "ત્રણ",
+              "roman": "traṇ",
+              "en": "three"
+            },
+            "strokes": "ત with a diagonal r-stroke at the bottom."
+          },
+          {
+            "char": "દ્ધ",
+            "roman": "ddha",
+            "ipa": "d̪d̪ʱ",
+            "sound": "d + dh",
+            "example": {
+              "native": "બુદ્ધિ",
+              "roman": "buddhi",
+              "en": "intelligence"
+            },
+            "strokes": "દ stacked over ધ."
+          },
+          {
+            "char": "દ્ય",
+            "roman": "dya",
+            "ipa": "d̪j",
+            "sound": "d + y",
+            "example": {
+              "native": "વિદ્યાર્થી",
+              "roman": "vidyārthī",
+              "en": "student"
+            },
+            "strokes": "દ joined to a ય."
+          },
+          {
+            "char": "પ્ર",
+            "roman": "pra",
+            "ipa": "pɾ",
+            "sound": "p + r",
+            "example": {
+              "native": "પ્રેમ",
+              "roman": "prem",
+              "en": "love"
+            },
+            "strokes": "પ with a small r-stroke at the foot."
+          },
+          {
+            "char": "ર્મ",
+            "roman": "rma",
+            "ipa": "ɾm",
+            "sound": "r + m (r written as a hook on top: reph)",
+            "example": {
+              "native": "ધર્મ",
+              "roman": "dharm",
+              "en": "religion, duty"
+            },
+            "strokes": "Small hook above the second consonant."
+          },
+          {
+            "char": "સ્ત",
+            "roman": "sta",
+            "ipa": "st̪",
+            "sound": "s + dental t",
+            "example": {
+              "native": "રસ્તો",
+              "roman": "rasto",
+              "en": "road"
+            },
+            "strokes": "Half-સ joined to ત."
+          },
+          {
+            "char": "સ્ટ",
+            "roman": "sṭa",
+            "ipa": "sʈ",
+            "sound": "s + retroflex t (English 'st')",
+            "example": {
+              "native": "સ્ટેશન",
+              "roman": "sṭeshan",
+              "en": "station"
+            },
+            "strokes": "Half-સ joined to ટ."
+          },
+          {
+            "char": "ક્ત",
+            "roman": "kta",
+            "ipa": "kt̪",
+            "sound": "k + t",
+            "example": {
+              "native": "શક્તિ",
+              "roman": "shakti",
+              "en": "strength"
+            },
+            "strokes": "Half-ક joined to ત."
+          },
+          {
+            "char": "દ્વ",
+            "roman": "dva",
+            "ipa": "d̪ʋ",
+            "sound": "d + v",
+            "example": {
+              "native": "દ્વાર",
+              "roman": "dvār",
+              "en": "gate"
+            },
+            "strokes": "દ with વ beneath."
+          },
+          {
+            "char": "ટ્ટ",
+            "roman": "ṭṭa",
+            "ipa": "ʈʈ",
+            "sound": "doubled retroflex t — hold it",
+            "example": {
+              "native": "છુટ્ટા",
+              "roman": "chhuṭṭā",
+              "en": "small change (money)"
+            },
+            "strokes": "ટ stacked on ટ."
+          },
+          {
+            "char": "ઠ્ઠ",
+            "roman": "ṭhṭha",
+            "ipa": "ʈʈʰ",
+            "sound": "doubled retroflex th",
+            "example": {
+              "native": "છઠ્ઠું",
+              "roman": "chhaṭhṭhuṃ",
+              "en": "sixth"
+            },
+            "strokes": "ઠ stacked on ઠ."
+          },
+          {
+            "char": "હ્ય",
+            "roman": "hya",
+            "ipa": "ɦj",
+            "sound": "h + y; very common in past tense forms",
+            "example": {
+              "native": "કહ્યું",
+              "roman": "kahyuṃ",
+              "en": "said"
+            },
+            "strokes": "હ joined to ય."
+          },
+          {
+            "char": "ન્ન",
+            "roman": "nna",
+            "ipa": "nn",
+            "sound": "doubled n — hold it",
+            "example": {
+              "native": "છન્નું",
+              "roman": "chhannuṃ",
+              "en": "ninety-six"
+            },
+            "strokes": "Half-ન joined to ન."
+          }
+        ]
+      },
+      {
+        "id": "digits",
+        "title": "Gujarati digits",
+        "note": "Used on signs, in newspapers and in schools; Western digits are equally common in daily life.",
+        "letters": [
+          {
+            "char": "૦",
+            "roman": "shūnya",
+            "sound": "0",
+            "example": {
+              "native": "શૂન્ય",
+              "roman": "shūnya",
+              "en": "zero"
+            }
+          },
+          {
+            "char": "૧",
+            "roman": "ek",
+            "sound": "1",
+            "example": {
+              "native": "એક",
+              "roman": "ek",
+              "en": "one"
+            }
+          },
+          {
+            "char": "૨",
+            "roman": "be",
+            "sound": "2",
+            "example": {
+              "native": "બે",
+              "roman": "be",
+              "en": "two"
+            }
+          },
+          {
+            "char": "૩",
+            "roman": "traṇ",
+            "sound": "3",
+            "example": {
+              "native": "ત્રણ",
+              "roman": "traṇ",
+              "en": "three"
+            }
+          },
+          {
+            "char": "૪",
+            "roman": "chār",
+            "sound": "4",
+            "example": {
+              "native": "ચાર",
+              "roman": "chār",
+              "en": "four"
+            }
+          },
+          {
+            "char": "૫",
+            "roman": "pāṃch",
+            "sound": "5",
+            "example": {
+              "native": "પાંચ",
+              "roman": "pāṃch",
+              "en": "five"
+            }
+          },
+          {
+            "char": "૬",
+            "roman": "chha",
+            "sound": "6",
+            "example": {
+              "native": "છ",
+              "roman": "chha",
+              "en": "six"
+            }
+          },
+          {
+            "char": "૭",
+            "roman": "sāt",
+            "sound": "7",
+            "example": {
+              "native": "સાત",
+              "roman": "sāt",
+              "en": "seven"
+            }
+          },
+          {
+            "char": "૮",
+            "roman": "āṭh",
+            "sound": "8",
+            "example": {
+              "native": "આઠ",
+              "roman": "āṭh",
+              "en": "eight"
+            }
+          },
+          {
+            "char": "૯",
+            "roman": "nav",
+            "sound": "9",
+            "example": {
+              "native": "નવ",
+              "roman": "nav",
+              "en": "nine"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "dir": "ltr",
+  "tts": "gu-IN",
+  "font": "Noto Sans Gujarati",
+  "speakers": "≈57 million (L1), plus a large diaspora",
+  "where": "Gujarat (India), Daman & Diu, Dadra & Nagar Haveli, Mumbai; diaspora in the UK, East Africa, North America and the Gulf",
+  "tagline": "The warm, quick-witted language of Gujarat's traders, poets and kitchens — and of Gandhi — spoken from Ahmedabad to Leicester to Nairobi.",
+  "intro": "**Gujarati** (ગુજરાતી, *gujarātī*) is an Indo-Aryan language, a close cousin of Hindi, Rajasthani and Marathi. It is the official language of Gujarat and the mother tongue of Mahatma Gandhi, and thanks to centuries of trade it is heard in markets and family kitchens from Mumbai to Mombasa to London.\n\nGujarati has its own script, which grew out of the same Nagari tradition as Hindi's Devanagari but dropped the horizontal headline. If you know Devanagari you will recognise many letters immediately; if you don't, the script is regular and quick to learn.\n\nGrammatically, Gujarati is a verb-final (subject–object–verb) language with **three genders** (masculine, feminine and neuter — unlike Hindi), **postpositions that attach to nouns as suffixes** (ઘરમાં *gharmāṃ* 'in the house', રામનું *rāmnuṃ* 'Ram's'), and an **ergative past tense** where the doer takes -e (મેં ચા પીધી *meṃ chā pīdhī* 'I drank tea').\n\nThis course teaches the **standard modern spoken Gujarati of Ahmedabad and Vadodara**, with notes on common colloquial and regional forms (Kathiawadi, Surati). You'll learn to choose between the intimate **તું** *tuṃ*, the everyday polite **તમે** *tame*, and the very respectful **આપ** *āp*.",
+  "romanizationNote": "Long vowels are written ā ī ū. Gujarati spelling distinguishes i/ī and u/ū, but in everyday speech they sound the same length — so don't strain over them. **ṃ** marks a nasal vowel: the very common neuter ending -ું is a nasalised u (*sāruṃ*, *māruṃ*), never 'um'. The letters e and o can be close (as in *say*, *go*) or open (ɛ as in *bed*, ɔ as in British *hot*); spelling doesn't show this, and an h written between vowels (*bahen*, *kahe*, *mahel*) is usually not a full h but a breathy 'murmur' on the open vowel — see Pronunciation. The silent inherent a is dropped as in speech (છોકરો *chhokro*, not *chhokaro*). **ch** is unaspirated, **chh** aspirated; **ṭ ḍ ṇ ḷ** are retroflex; ફ is written **f** because that is how most Gujaratis say it; ષ is written **ṣ** but pronounced like sh; ઋ is pronounced and written **ru**; જ્ઞ is **gn**.",
+  "pronunciation": [
+    {
+      "id": "aspiration",
+      "title": "Aspirated vs unaspirated consonants",
+      "body": "Gujarati distinguishes plain consonants (ક ચ ટ ત પ) from aspirated ones (ખ છ ઠ થ ફ) which are released with a clear puff of air. English speakers add a puff automatically at the start of words ('pin', 'top') and none after s ('spin', 'stop') — in Gujarati the puff changes the meaning, so you must control it.\n\nThe voiced series has the same contrast: બ vs ભ, દ vs ધ, ગ vs ઘ, જ vs ઝ. The 'aspirated' voiced sounds are really **breathy** (murmured): the voice is on but the vocal folds are slack and let air through, like a sigh. In fast Gujarati speech the breathiness often moves onto the following vowel rather than sounding like a separate h.",
+      "tips": [
+        "Hold a strip of paper in front of your lips: it should stay still for ક પ ત and flutter for ખ ફ થ.",
+        "To get unaspirated ક, think of the k in 'skin', then drop the s.",
+        "For ભ ધ ઘ, say the consonant with a slightly sighing, breathy vowel after it — don't insert a full English h."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "બાર",
+            "roman": "bār",
+            "en": "twelve"
+          },
+          "b": {
+            "native": "ભાર",
+            "roman": "bhār",
+            "en": "weight, burden"
+          }
+        },
+        {
+          "a": {
+            "native": "તાળી",
+            "roman": "tāḷī",
+            "en": "clap"
+          },
+          "b": {
+            "native": "થાળી",
+            "roman": "thāḷī",
+            "en": "plate"
+          }
+        },
+        {
+          "a": {
+            "native": "ચાલ",
+            "roman": "chāl",
+            "en": "gait; trick"
+          },
+          "b": {
+            "native": "છાલ",
+            "roman": "chhāl",
+            "en": "peel, bark"
+          }
+        },
+        {
+          "a": {
+            "native": "જાળ",
+            "roman": "jāḷ",
+            "en": "net"
+          },
+          "b": {
+            "native": "ઝાળ",
+            "roman": "jhāḷ",
+            "en": "flame"
+          }
+        },
+        {
+          "a": {
+            "native": "દાન",
+            "roman": "dān",
+            "en": "donation"
+          },
+          "b": {
+            "native": "ધાન",
+            "roman": "dhān",
+            "en": "grain"
+          }
+        },
+        {
+          "a": {
+            "native": "કાળ",
+            "roman": "kāḷ",
+            "en": "time; death"
+          },
+          "b": {
+            "native": "ખાળ",
+            "roman": "khāḷ",
+            "en": "drain"
+          }
+        },
+        {
+          "a": {
+            "native": "બાળ",
+            "roman": "bāḷ",
+            "en": "child (literary)"
+          },
+          "b": {
+            "native": "ભાળ",
+            "roman": "bhāḷ",
+            "en": "trace, whereabouts"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ખાવું",
+          "roman": "khāvuṃ",
+          "en": "to eat"
+        },
+        {
+          "native": "ઘર",
+          "roman": "ghar",
+          "en": "house"
+        },
+        {
+          "native": "છત્રી",
+          "roman": "chhatrī",
+          "en": "umbrella"
+        },
+        {
+          "native": "ઠંડી",
+          "roman": "ṭhaṇḍī",
+          "en": "cold (weather)"
+        },
+        {
+          "native": "થાક",
+          "roman": "thāk",
+          "en": "tiredness"
+        },
+        {
+          "native": "ધીમે",
+          "roman": "dhīme",
+          "en": "slowly"
+        },
+        {
+          "native": "ભાઈ",
+          "roman": "bhāī",
+          "en": "brother"
+        },
+        {
+          "native": "પાંચ પાંખ",
+          "roman": "pāṃch pāṃkh",
+          "en": "five wings"
+        }
+      ]
+    },
+    {
+      "id": "retroflex",
+      "title": "Retroflex vs dental: ટ ડ vs ત દ",
+      "body": "English t and d are made on the gum ridge, in between Gujarati's two series. **Dental** ત થ દ ધ ન touch the back of the upper teeth (a soft, 'French' t). **Retroflex** ટ ઠ ડ ઢ ણ are made with the tongue tip curled back to the roof of the mouth, giving a hollow, hard sound.\n\nIf you use your English t for both, Gujaratis will usually hear it as retroflex — so practise the dental ones especially. Many common words differ only in this: વાત 'talk' vs વાટ 'wick; waiting', સાથ 'company' vs સાઠ 'sixty'.",
+      "tips": [
+        "For ત દ, put your tongue tip right against your top teeth — it may even peek out slightly.",
+        "For ટ ડ, curl the tip back until the underside touches the roof of your mouth, then flick it forward.",
+        "Retroflex sounds colour the vowel next to them; listen for the slight 'r'-like tinge."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "દાળ",
+            "roman": "dāḷ",
+            "en": "lentils"
+          },
+          "b": {
+            "native": "ડાળ",
+            "roman": "ḍāḷ",
+            "en": "branch"
+          }
+        },
+        {
+          "a": {
+            "native": "વાત",
+            "roman": "vāt",
+            "en": "talk, matter"
+          },
+          "b": {
+            "native": "વાટ",
+            "roman": "vāṭ",
+            "en": "wick; waiting"
+          }
+        },
+        {
+          "a": {
+            "native": "સાથ",
+            "roman": "sāth",
+            "en": "company, support"
+          },
+          "b": {
+            "native": "સાઠ",
+            "roman": "sāṭh",
+            "en": "sixty"
+          }
+        },
+        {
+          "a": {
+            "native": "ખાત",
+            "roman": "khāt",
+            "en": "manure"
+          },
+          "b": {
+            "native": "ખાટ",
+            "roman": "khāṭ",
+            "en": "cot, bed frame"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ટામેટું",
+          "roman": "ṭāmeṭuṃ",
+          "en": "tomato"
+        },
+        {
+          "native": "દાંત",
+          "roman": "dāṃt",
+          "en": "tooth"
+        },
+        {
+          "native": "ઠંડું",
+          "roman": "ṭhaṇḍuṃ",
+          "en": "cold"
+        },
+        {
+          "native": "થાળી",
+          "roman": "thāḷī",
+          "en": "plate"
+        },
+        {
+          "native": "ડાબે",
+          "roman": "ḍābe",
+          "en": "on the left"
+        },
+        {
+          "native": "દસ",
+          "roman": "das",
+          "en": "ten"
+        },
+        {
+          "native": "પેટ",
+          "roman": "peṭ",
+          "en": "stomach"
+        },
+        {
+          "native": "તો",
+          "roman": "to",
+          "en": "then, so"
+        }
+      ]
+    },
+    {
+      "id": "lla",
+      "title": "The retroflex lateral ળ",
+      "body": "Gujarati has two l-sounds. લ is an ordinary clear l. **ળ** is made like a retroflex consonant: curl the tongue tip back to the roof of the mouth and let the air flow around the sides. It never starts a word, but it is extremely common: કેળું 'banana', પીળું 'yellow', દાળ 'lentils', ગોળ 'jaggery; round' and every form of મળવું 'to meet'.\n\nHindi speakers replace ળ with ल, so you will hear Gujaratis from Mumbai or the diaspora do the same — but in Gujarat ળ is alive and it distinguishes words.",
+      "tips": [
+        "Start from ડ: hold the tongue in the ḍ position and say l instead.",
+        "Practise ખોલો (open!) vs ખોળો (lap) until a Gujarati can tell which one you mean.",
+        "Don't over-curl: the flap is quick and light between vowels."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ખોલો",
+            "roman": "kholo",
+            "en": "open! (polite)"
+          },
+          "b": {
+            "native": "ખોળો",
+            "roman": "khoḷo",
+            "en": "lap"
+          }
+        },
+        {
+          "a": {
+            "native": "વાલ",
+            "roman": "vāl",
+            "en": "a kind of bean"
+          },
+          "b": {
+            "native": "વાળ",
+            "roman": "vāḷ",
+            "en": "hair"
+          }
+        },
+        {
+          "a": {
+            "native": "તલ",
+            "roman": "tal",
+            "en": "sesame"
+          },
+          "b": {
+            "native": "તળ",
+            "roman": "taḷ",
+            "en": "bottom, floor"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "કેળું",
+          "roman": "keḷuṃ",
+          "en": "banana"
+        },
+        {
+          "native": "પીળું",
+          "roman": "pīḷuṃ",
+          "en": "yellow"
+        },
+        {
+          "native": "ગોળ",
+          "roman": "goḷ",
+          "en": "jaggery; round"
+        },
+        {
+          "native": "સાંભળો",
+          "roman": "sāmbhaḷo",
+          "en": "listen!"
+        },
+        {
+          "native": "ફરી મળીશું",
+          "roman": "farī maḷīshuṃ",
+          "en": "we'll meet again"
+        },
+        {
+          "native": "ઉનાળો",
+          "roman": "unāḷo",
+          "en": "summer"
+        },
+        {
+          "native": "કાળું",
+          "roman": "kāḷuṃ",
+          "en": "black"
+        }
+      ]
+    },
+    {
+      "id": "open-vowels",
+      "title": "Close e/o vs open ɛ/ɔ",
+      "body": "Gujarati has two e-sounds and two o-sounds, but the script writes each with one letter. Close **e** and **o** are pure vowels like the ay in 'say' and the o in 'go' without the English glide. Open **ɛ** and **ɔ** are like the e in 'bed' and the o in British 'hot' (or the aw in 'law').\n\nThe open vowels appear above all where the spelling has a + h + e/o: બહેન 'sister' is said [bɛ̤n], મહેલ 'palace' [mɛ̤l], શહેર 'city' [ʃɛ̤ɾ], પહેલું 'first' [pɛ̤lũ], મહોર 'seal' [mɔ̤ɾ]. The h disappears and leaves the vowel open and breathy. They also occur in English loanwords, which careful writers mark with ઍ and ઑ (ઑફિસ 'office', ડૉક્ટર 'doctor').\n\nThis course writes both as plain e/o in romanization; listen to the audio and learn the open vowel with the word.",
+      "tips": [
+        "Whenever you see -ahe- or -aho- in spelling, expect a single open, slightly breathy vowel: bahen → 'bɛn'.",
+        "Keep close e/o pure — don't let them slide to 'ey'/'ow' as in English.",
+        "Words with ઑ/ૉ always have open ɔ."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "પેલું",
+            "roman": "peluṃ",
+            "en": "that one (over there)"
+          },
+          "b": {
+            "native": "પહેલું",
+            "roman": "paheluṃ",
+            "en": "first"
+          },
+          "note": "close e vs open breathy ɛ̤"
+        },
+        {
+          "a": {
+            "native": "મેલ",
+            "roman": "mel",
+            "en": "dirt"
+          },
+          "b": {
+            "native": "મહેલ",
+            "roman": "mahel",
+            "en": "palace"
+          }
+        },
+        {
+          "a": {
+            "native": "શેર",
+            "roman": "sher",
+            "en": "share; couplet"
+          },
+          "b": {
+            "native": "શહેર",
+            "roman": "shaher",
+            "en": "city"
+          }
+        },
+        {
+          "a": {
+            "native": "મોર",
+            "roman": "mor",
+            "en": "peacock"
+          },
+          "b": {
+            "native": "મહોર",
+            "roman": "mahor",
+            "en": "seal, stamp"
+          }
+        },
+        {
+          "a": {
+            "native": "કોલ",
+            "roman": "kol",
+            "en": "promise, word"
+          },
+          "b": {
+            "native": "કૉલ",
+            "roman": "kol",
+            "en": "(phone) call"
+          },
+          "note": "close o vs open ɔ"
+        }
+      ],
+      "drill": [
+        {
+          "native": "બહેન",
+          "roman": "bahen",
+          "en": "sister"
+        },
+        {
+          "native": "પહેરવું",
+          "roman": "paheravuṃ",
+          "en": "to wear"
+        },
+        {
+          "native": "કહેવું",
+          "roman": "kahevuṃ",
+          "en": "to say"
+        },
+        {
+          "native": "રહેવું",
+          "roman": "rahevuṃ",
+          "en": "to live, stay"
+        },
+        {
+          "native": "વહેલું",
+          "roman": "vaheluṃ",
+          "en": "early"
+        },
+        {
+          "native": "પહોંચવું",
+          "roman": "pahoṃchvuṃ",
+          "en": "to arrive"
+        },
+        {
+          "native": "ઑફિસ",
+          "roman": "ofis",
+          "en": "office"
+        },
+        {
+          "native": "ડૉક્ટર",
+          "roman": "ḍokṭar",
+          "en": "doctor"
+        }
+      ]
+    },
+    {
+      "id": "breathy",
+      "title": "Breathy (murmured) vowels",
+      "body": "One of the most characteristic sounds of Gujarati is **breathy voice** (murmur): a vowel spoken with a relaxed, slightly sighing voice. It comes from two sources.\n\n1. **A written h between or after vowels** usually is not pronounced as a separate h. Instead it makes the neighbouring vowel breathy: બહાર 'outside' sounds like [bä̤ɾ], close to બાર 'twelve' but with a murmured ā. ચાહ 'affection' vs ચા 'tea' work the same way.\n\n2. **Voiced aspirates** ભ ધ ઘ ઝ ઢ often lose their puff and pass the breathiness to the following vowel: ભાત 'rice' is roughly [bä̤t̪].\n\nMurmur is subtle but meaningful, and getting it right is a big step towards sounding Gujarati rather than Hindi.",
+      "tips": [
+        "Practise by sighing: say 'aah' as if relieved — that slack voice is murmur.",
+        "Don't pronounce a strong English h in બહાર, નહાવું, મહેમાન; let the vowel carry it.",
+        "Murmured vowels often sound slightly lower in pitch; copy the melody."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "બાર",
+            "roman": "bār",
+            "en": "twelve"
+          },
+          "b": {
+            "native": "બહાર",
+            "roman": "bahār",
+            "en": "outside"
+          },
+          "note": "plain ā vs murmured ā"
+        },
+        {
+          "a": {
+            "native": "ચા",
+            "roman": "chā",
+            "en": "tea"
+          },
+          "b": {
+            "native": "ચાહ",
+            "roman": "chāh",
+            "en": "affection, desire"
+          }
+        },
+        {
+          "a": {
+            "native": "વાલ",
+            "roman": "vāl",
+            "en": "a kind of bean"
+          },
+          "b": {
+            "native": "વહાલ",
+            "roman": "vahāl",
+            "en": "fondness, love"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "બહાર",
+          "roman": "bahār",
+          "en": "outside"
+        },
+        {
+          "native": "નહાવું",
+          "roman": "nahāvuṃ",
+          "en": "to bathe"
+        },
+        {
+          "native": "મહેમાન",
+          "roman": "mahemān",
+          "en": "guest"
+        },
+        {
+          "native": "કહો",
+          "roman": "kaho",
+          "en": "say! (polite)"
+        },
+        {
+          "native": "સહેલું",
+          "roman": "saheluṃ",
+          "en": "easy"
+        },
+        {
+          "native": "ભાત",
+          "roman": "bhāt",
+          "en": "cooked rice"
+        },
+        {
+          "native": "ઘડિયાળ",
+          "roman": "ghaḍiyāḷ",
+          "en": "clock, watch"
+        }
+      ]
+    },
+    {
+      "id": "schwa",
+      "title": "The silent inherent a (schwa deletion)",
+      "body": "Every consonant letter carries an inherent a, but in speech it is very often dropped. As in Hindi, the a is silent **at the end of a word** (ઘર = *ghar*, not *ghara*) and usually **in the middle of a word when a vowel follows the next consonant**: છોકરો is *chhokro*, દીકરી *dīkrī*, સમજવું *samajvuṃ*.\n\nThe practical rule: in a sequence V-C-a-C-V, the a goes silent. Compounds keep each part's pronunciation (બહેન+પણી = *bahenpaṇī*). Sanskrit words often keep a final a after a cluster (શૂન્ય *shūnya*, કૃષ્ણ *kruṣṇa*).\n\nOur romanization already drops the silent a, so follow the roman when in doubt.",
+      "tips": [
+        "Never add a final a after a single consonant: ઘર ghar, રાત rāt, દૂધ dūdh.",
+        "Verb infinitives: કરવું karvuṃ, સમજવું samajvuṃ — the a before -vuṃ disappears.",
+        "If a word sounds too long and 'spelled out', you're probably pronouncing a silent a."
+      ],
+      "drill": [
+        {
+          "native": "છોકરો",
+          "roman": "chhokro",
+          "en": "boy"
+        },
+        {
+          "native": "દીકરી",
+          "roman": "dīkrī",
+          "en": "daughter"
+        },
+        {
+          "native": "સમજવું",
+          "roman": "samajvuṃ",
+          "en": "to understand"
+        },
+        {
+          "native": "વરસાદ",
+          "roman": "varsād",
+          "en": "rain"
+        },
+        {
+          "native": "બહેનપણી",
+          "roman": "bahenpaṇī",
+          "en": "(female) friend"
+        },
+        {
+          "native": "અમદાવાદ",
+          "roman": "Amdāvād",
+          "en": "Ahmedabad"
+        },
+        {
+          "native": "કમળ",
+          "roman": "kamaḷ",
+          "en": "lotus"
+        },
+        {
+          "native": "મંગળવાર",
+          "roman": "maṅgaḷvār",
+          "en": "Tuesday"
+        }
+      ]
+    },
+    {
+      "id": "nasal",
+      "title": "Nasal vowels and the anusvara",
+      "body": "The dot above the line (ં, anusvara) does two jobs. Before a consonant in many Sanskrit-derived words it is a real nasal consonant matching the next sound: પંદર *pandar*, સુંદર *sundar*, રંગ *raṅg*. Elsewhere — and especially at the end of a word — it **nasalises the vowel**: air goes through the nose while you say the vowel, with no n or m closure. હું 'I', છું 'am', માં 'in', and the neuter ending -ું (*sāruṃ*, *māruṃ*) are all nasal vowels.\n\nNasalisation is grammatical in Gujarati: it marks the neuter plural (છોકરાં 'children' vs છોકરા 'boys') and distinguishes મા 'mother' from માં 'in'.",
+      "tips": [
+        "Say 'uh-huh' with your mouth closed, then open it: that nasal resonance is what ં adds.",
+        "For final -uṃ, round your lips for u and don't close them: it is not 'um'.",
+        "Pinch your nose: a nasal vowel should sound blocked, an oral one should not change."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "મા",
+            "roman": "mā",
+            "en": "mother"
+          },
+          "b": {
+            "native": "માં",
+            "roman": "māṃ",
+            "en": "in (postposition)"
+          }
+        },
+        {
+          "a": {
+            "native": "છોકરા",
+            "roman": "chhokrā",
+            "en": "boys"
+          },
+          "b": {
+            "native": "છોકરાં",
+            "roman": "chhokrāṃ",
+            "en": "children"
+          }
+        },
+        {
+          "a": {
+            "native": "સારા",
+            "roman": "sārā",
+            "en": "good (masc. pl)"
+          },
+          "b": {
+            "native": "સારાં",
+            "roman": "sārāṃ",
+            "en": "good (neut. pl)"
+          }
+        },
+        {
+          "a": {
+            "native": "હતા",
+            "roman": "hatā",
+            "en": "were (masc. pl)"
+          },
+          "b": {
+            "native": "હતાં",
+            "roman": "hatāṃ",
+            "en": "were (neut./mixed pl)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "હું",
+          "roman": "huṃ",
+          "en": "I"
+        },
+        {
+          "native": "છું",
+          "roman": "chhuṃ",
+          "en": "am"
+        },
+        {
+          "native": "તમારું",
+          "roman": "tamāruṃ",
+          "en": "your (neut.)"
+        },
+        {
+          "native": "પાંચ",
+          "roman": "pāṃch",
+          "en": "five"
+        },
+        {
+          "native": "આંખ",
+          "roman": "āṃkh",
+          "en": "eye"
+        },
+        {
+          "native": "સાંજ",
+          "roman": "sāṃj",
+          "en": "evening"
+        },
+        {
+          "native": "ઊંઘ",
+          "roman": "ūṃgh",
+          "en": "sleep"
+        },
+        {
+          "native": "પંદર",
+          "roman": "pandar",
+          "en": "fifteen"
+        }
+      ]
+    },
+    {
+      "id": "sibilants",
+      "title": "s, sh and the affricates ch / chh",
+      "body": "Standard Gujarati has **s** (સ) and **sh** (શ and ષ, which sound identical). Keep them apart: સાલ 'year' vs શાલ 'shawl'.\n\nThe palatals ચ છ જ ઝ are affricates, like English ch and j. ચ has no puff; છ has a strong one. છ is everywhere because it starts the verb 'to be': છે, છું, છો.\n\n**Regional note:** in Kathiawadi (Saurashtra) and Surati speech, છ is often said as s (*se* for છે), and s may become h (*hāruṃ* for સારું). You will hear this constantly in films and comedy; understand it, but use the standard sounds yourself.",
+      "tips": [
+        "છે should sound like a breathy 'chhay', not 'chay' and not 'she'.",
+        "ષ is just sh — ભાષા bhāṣā sounds like 'bhāshā'.",
+        "If someone says 'kem so?' they are asking 'kem chho?' in Kathiawadi style."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "સાલ",
+            "roman": "sāl",
+            "en": "year"
+          },
+          "b": {
+            "native": "શાલ",
+            "roman": "shāl",
+            "en": "shawl"
+          }
+        },
+        {
+          "a": {
+            "native": "સાપ",
+            "roman": "sāp",
+            "en": "snake"
+          },
+          "b": {
+            "native": "શાપ",
+            "roman": "shāp",
+            "en": "curse"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "છે",
+          "roman": "chhe",
+          "en": "is"
+        },
+        {
+          "native": "છું",
+          "roman": "chhuṃ",
+          "en": "am"
+        },
+        {
+          "native": "શાક",
+          "roman": "shāk",
+          "en": "vegetable dish"
+        },
+        {
+          "native": "ભાષા",
+          "roman": "bhāṣā",
+          "en": "language"
+        },
+        {
+          "native": "સરસ",
+          "roman": "saras",
+          "en": "nice"
+        },
+        {
+          "native": "છોકરી",
+          "roman": "chhokrī",
+          "en": "girl"
+        },
+        {
+          "native": "શહેર",
+          "roman": "shaher",
+          "en": "city"
+        },
+        {
+          "native": "ચોક્કસ",
+          "roman": "chokkas",
+          "en": "certainly"
+        }
+      ]
+    },
+    {
+      "id": "loans",
+      "title": "f, z and English loanwords",
+      "body": "Gujarati has absorbed thousands of English, Persian and Arabic words, but its script has no nukta in everyday use. Instead:\n\n- **ફ** is pronounced **f** by most speakers in all words, native or borrowed (ફૂલ *fūl* 'flower', ફોન *fon*). An aspirated p is heard in careful or rural speech.\n- **ઝ** stands for English **z** in loans (ઝીરો 'zero'), and જ is used for Persian z (જમીન *jamīn* 'land', from zamīn).\n- English short a and o are written with **ઍ** and **ઑ** (ઍક્ટર, ઑફિસ), though many people write plain એ/ઓ.\n- English t and d become **retroflex** ટ ડ (ટેબલ, ડૉક્ટર), and English th becomes dental થ (થૅન્ક યુ).",
+      "tips": [
+        "Say ફ as a relaxed f; nobody will misunderstand you.",
+        "Pronounce English loans the Gujarati way (retroflex ṭ/ḍ, tapped r) — it sounds more natural in a Gujarati sentence.",
+        "Persian-origin words in Gujarati use j for z: જરૂર jarūr 'need', બજાર bajār 'market'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "પુલ",
+            "roman": "pul",
+            "en": "bridge"
+          },
+          "b": {
+            "native": "ફૂલ",
+            "roman": "fūl",
+            "en": "flower"
+          },
+          "note": "p vs f (vowel length is not heard)"
+        },
+        {
+          "a": {
+            "native": "પળ",
+            "roman": "paḷ",
+            "en": "moment"
+          },
+          "b": {
+            "native": "ફળ",
+            "roman": "faḷ",
+            "en": "fruit"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ફોન",
+          "roman": "fon",
+          "en": "phone"
+        },
+        {
+          "native": "ફરીથી",
+          "roman": "farīthī",
+          "en": "again"
+        },
+        {
+          "native": "ઝીરો",
+          "roman": "zīro",
+          "en": "zero"
+        },
+        {
+          "native": "કૉફી",
+          "roman": "kofī",
+          "en": "coffee"
+        },
+        {
+          "native": "ટેબલ",
+          "roman": "ṭebal",
+          "en": "table"
+        },
+        {
+          "native": "જરૂર",
+          "roman": "jarūr",
+          "en": "certainly; need"
+        },
+        {
+          "native": "બજાર",
+          "roman": "bajār",
+          "en": "market"
+        }
+      ]
+    },
+    {
+      "id": "flaps",
+      "title": "ડ and ઢ between vowels: the flap",
+      "body": "At the start of a word or after a nasal, ડ and ઢ are retroflex stops (ડાબું, ઠંડું). **Between vowels and at the end of a word** they are pronounced as quick retroflex **flaps** [ɽ ɽʱ]: the tongue tip curls back and flicks forward across the roof of the mouth, briefly striking it. Hindi writes this with a dot (ड़); Gujarati doesn't mark it at all.\n\nSo ઘોડો 'horse' is *gho-ṛo*, લાડુ 'laddoo' *lā-ṛu*, ઝાડ 'tree' *jhāṛ*. We keep ḍ in the romanization, but say a flap.",
+      "tips": [
+        "Start with American 'butter' (a flap), then curl the tongue back — that's the Gujarati flap.",
+        "Don't stop the air completely between vowels; the flap is very brief.",
+        "ઢ between vowels is the same flap plus breathy voice: દાઢી dāḍhī 'beard'."
+      ],
+      "drill": [
+        {
+          "native": "ઘોડો",
+          "roman": "ghoḍo",
+          "en": "horse"
+        },
+        {
+          "native": "લાડુ",
+          "roman": "lāḍu",
+          "en": "laddoo (sweet)"
+        },
+        {
+          "native": "ઝાડ",
+          "roman": "jhāḍ",
+          "en": "tree"
+        },
+        {
+          "native": "પાડોશી",
+          "roman": "pāḍoshī",
+          "en": "neighbour"
+        },
+        {
+          "native": "દાઢી",
+          "roman": "dāḍhī",
+          "en": "beard"
+        },
+        {
+          "native": "ગાડી",
+          "roman": "gāḍī",
+          "en": "car; train"
+        },
+        {
+          "native": "રસોડું",
+          "roman": "rasoḍuṃ",
+          "en": "kitchen"
+        }
+      ]
+    },
+    {
+      "id": "geminates",
+      "title": "Double consonants and clusters",
+      "body": "A doubled consonant (written with a conjunct like ત્ત, ક્ક, ઠ્ઠ) is held for about twice as long: સત્તર *sat-tar* 'seventeen'. Shortening it can make you sound unclear or produce a different word. English has this only across word boundaries ('book case', 'cat tail').\n\nTwo clusters have special Gujarati pronunciations: **ક્ષ** is *ksh* (પરીક્ષા *parīkṣā*), and **જ્ઞ** is *gn* (જ્ઞાન *gnān* 'knowledge') — different from Hindi's 'gy'. Clusters with r (પ્ર, ત્ર, ક્ર) are said with a light tap, never an English r.",
+      "tips": [
+        "Pause very slightly on the doubled consonant: chok-kas, gus-so.",
+        "Don't insert a vowel inside clusters: ત્રણ is traṇ, not taraṇ.",
+        "જ્ઞ = gn: say 'gnān' as one syllable start, as in 'ignore' without the i."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "પતી",
+            "roman": "patī",
+            "en": "finished (f.)"
+          },
+          "b": {
+            "native": "પત્તી",
+            "roman": "pattī",
+            "en": "leaf; tea leaves"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "સત્તર",
+          "roman": "sattar",
+          "en": "seventeen"
+        },
+        {
+          "native": "છઠ્ઠું",
+          "roman": "chhaṭhṭhuṃ",
+          "en": "sixth"
+        },
+        {
+          "native": "ચોક્કસ",
+          "roman": "chokkas",
+          "en": "certainly"
+        },
+        {
+          "native": "ગુસ્સો",
+          "roman": "gusso",
+          "en": "anger"
+        },
+        {
+          "native": "પરીક્ષા",
+          "roman": "parīkṣā",
+          "en": "exam"
+        },
+        {
+          "native": "જ્ઞાન",
+          "roman": "gnān",
+          "en": "knowledge"
+        },
+        {
+          "native": "પ્રેમ",
+          "roman": "prem",
+          "en": "love"
+        },
+        {
+          "native": "ત્રણ",
+          "roman": "traṇ",
+          "en": "three"
+        }
+      ]
+    },
+    {
+      "id": "intonation",
+      "title": "Question intonation and little particles",
+      "body": "A statement becomes a yes/no question just by **rising intonation** at the end: તમે ગુજરાતી છો. 'You are Gujarati.' → તમે ગુજરાતી છો? 'Are you Gujarati?' In more careful speech, શું can be put at the start (શું તમે ગુજરાતી છો?).\n\nQuestions with question words (ક્યાં, શું, કેમ) usually fall at the end. Gujarati conversation is full of small particles that carry tone: **ને** (tag 'right?' or a softener in requests: આવો ને! 'do come!'), **જ** (emphasis, 'only, exactly'), **તો** ('so, well'), **હેં?** ('huh?'). Getting their melody right makes you sound natural.",
+      "tips": [
+        "Practise the same sentence as a statement and a question; only the last syllable's pitch changes.",
+        "Use ને with a gentle rise to soften requests: બેસો ને.",
+        "Stress in Gujarati is light and fairly even — don't hammer one syllable as in English."
+      ],
+      "drill": [
+        {
+          "native": "તમે ગુજરાતી છો?",
+          "roman": "tame gujarātī chho?",
+          "en": "Are you Gujarati?"
+        },
+        {
+          "native": "શું તમે ચા પીશો?",
+          "roman": "shuṃ tame chā pīsho?",
+          "en": "Will you have tea?"
+        },
+        {
+          "native": "તમે ક્યાં રહો છો?",
+          "roman": "tame kyāṃ raho chho?",
+          "en": "Where do you live?"
+        },
+        {
+          "native": "બેસો ને!",
+          "roman": "beso ne!",
+          "en": "Do sit down!"
+        },
+        {
+          "native": "એ તો સારું છે ને?",
+          "roman": "e to sāruṃ chhe ne?",
+          "en": "Well, that's good, isn't it?"
+        },
+        {
+          "native": "હેં? શું કહ્યું?",
+          "roman": "heṃ? shuṃ kahyuṃ?",
+          "en": "Huh? What did you say?"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "n": 0,
+      "native": "શૂન્ય",
+      "roman": "shūnya",
+      "digit": "૦"
+    },
+    {
+      "n": 1,
+      "native": "એક",
+      "roman": "ek",
+      "digit": "૧"
+    },
+    {
+      "n": 2,
+      "native": "બે",
+      "roman": "be",
+      "digit": "૨"
+    },
+    {
+      "n": 3,
+      "native": "ત્રણ",
+      "roman": "traṇ",
+      "digit": "૩"
+    },
+    {
+      "n": 4,
+      "native": "ચાર",
+      "roman": "chār",
+      "digit": "૪"
+    },
+    {
+      "n": 5,
+      "native": "પાંચ",
+      "roman": "pāṃch",
+      "digit": "૫"
+    },
+    {
+      "n": 6,
+      "native": "છ",
+      "roman": "chha",
+      "digit": "૬"
+    },
+    {
+      "n": 7,
+      "native": "સાત",
+      "roman": "sāt",
+      "digit": "૭"
+    },
+    {
+      "n": 8,
+      "native": "આઠ",
+      "roman": "āṭh",
+      "digit": "૮"
+    },
+    {
+      "n": 9,
+      "native": "નવ",
+      "roman": "nav",
+      "digit": "૯"
+    },
+    {
+      "n": 10,
+      "native": "દસ",
+      "roman": "das",
+      "digit": "૧૦"
+    },
+    {
+      "n": 11,
+      "native": "અગિયાર",
+      "roman": "agiyār",
+      "digit": "૧૧"
+    },
+    {
+      "n": 12,
+      "native": "બાર",
+      "roman": "bār",
+      "digit": "૧૨"
+    },
+    {
+      "n": 13,
+      "native": "તેર",
+      "roman": "ter",
+      "digit": "૧૩"
+    },
+    {
+      "n": 14,
+      "native": "ચૌદ",
+      "roman": "chaud",
+      "digit": "૧૪"
+    },
+    {
+      "n": 15,
+      "native": "પંદર",
+      "roman": "pandar",
+      "digit": "૧૫"
+    },
+    {
+      "n": 16,
+      "native": "સોળ",
+      "roman": "soḷ",
+      "digit": "૧૬"
+    },
+    {
+      "n": 17,
+      "native": "સત્તર",
+      "roman": "sattar",
+      "digit": "૧૭"
+    },
+    {
+      "n": 18,
+      "native": "અઢાર",
+      "roman": "aḍhār",
+      "digit": "૧૮"
+    },
+    {
+      "n": 19,
+      "native": "ઓગણીસ",
+      "roman": "ogaṇīs",
+      "digit": "૧૯"
+    },
+    {
+      "n": 20,
+      "native": "વીસ",
+      "roman": "vīs",
+      "digit": "૨૦"
+    },
+    {
+      "n": 21,
+      "native": "એકવીસ",
+      "roman": "ekvīs",
+      "digit": "૨૧"
+    },
+    {
+      "n": 22,
+      "native": "બાવીસ",
+      "roman": "bāvīs",
+      "digit": "૨૨"
+    },
+    {
+      "n": 23,
+      "native": "ત્રેવીસ",
+      "roman": "trevīs",
+      "digit": "૨૩"
+    },
+    {
+      "n": 24,
+      "native": "ચોવીસ",
+      "roman": "chovīs",
+      "digit": "૨૪"
+    },
+    {
+      "n": 25,
+      "native": "પચ્ચીસ",
+      "roman": "pachchīs",
+      "digit": "૨૫"
+    },
+    {
+      "n": 26,
+      "native": "છવ્વીસ",
+      "roman": "chhavvīs",
+      "digit": "૨૬"
+    },
+    {
+      "n": 27,
+      "native": "સત્તાવીસ",
+      "roman": "sattāvīs",
+      "digit": "૨૭"
+    },
+    {
+      "n": 28,
+      "native": "અઠ્ઠાવીસ",
+      "roman": "aṭhṭhāvīs",
+      "digit": "૨૮"
+    },
+    {
+      "n": 29,
+      "native": "ઓગણત્રીસ",
+      "roman": "ogaṇtrīs",
+      "digit": "૨૯"
+    },
+    {
+      "n": 30,
+      "native": "ત્રીસ",
+      "roman": "trīs",
+      "digit": "૩૦"
+    },
+    {
+      "n": 31,
+      "native": "એકત્રીસ",
+      "roman": "ektrīs",
+      "digit": "૩૧"
+    },
+    {
+      "n": 32,
+      "native": "બત્રીસ",
+      "roman": "batrīs",
+      "digit": "૩૨"
+    },
+    {
+      "n": 33,
+      "native": "તેત્રીસ",
+      "roman": "tetrīs",
+      "digit": "૩૩"
+    },
+    {
+      "n": 34,
+      "native": "ચોત્રીસ",
+      "roman": "chotrīs",
+      "digit": "૩૪"
+    },
+    {
+      "n": 35,
+      "native": "પાંત્રીસ",
+      "roman": "pāntrīs",
+      "digit": "૩૫"
+    },
+    {
+      "n": 36,
+      "native": "છત્રીસ",
+      "roman": "chhatrīs",
+      "digit": "૩૬"
+    },
+    {
+      "n": 37,
+      "native": "સાડત્રીસ",
+      "roman": "sāḍatrīs",
+      "digit": "૩૭"
+    },
+    {
+      "n": 38,
+      "native": "આડત્રીસ",
+      "roman": "āḍatrīs",
+      "digit": "૩૮"
+    },
+    {
+      "n": 39,
+      "native": "ઓગણચાલીસ",
+      "roman": "ogaṇchālīs",
+      "digit": "૩૯"
+    },
+    {
+      "n": 40,
+      "native": "ચાલીસ",
+      "roman": "chālīs",
+      "digit": "૪૦"
+    },
+    {
+      "n": 41,
+      "native": "એકતાલીસ",
+      "roman": "ektālīs",
+      "digit": "૪૧"
+    },
+    {
+      "n": 42,
+      "native": "બેતાલીસ",
+      "roman": "betālīs",
+      "digit": "૪૨"
+    },
+    {
+      "n": 43,
+      "native": "તેતાલીસ",
+      "roman": "tetālīs",
+      "digit": "૪૩"
+    },
+    {
+      "n": 44,
+      "native": "ચુંમાલીસ",
+      "roman": "chummālīs",
+      "digit": "૪૪"
+    },
+    {
+      "n": 45,
+      "native": "પિસ્તાલીસ",
+      "roman": "pistālīs",
+      "digit": "૪૫"
+    },
+    {
+      "n": 46,
+      "native": "છેતાલીસ",
+      "roman": "chhetālīs",
+      "digit": "૪૬"
+    },
+    {
+      "n": 47,
+      "native": "સુડતાલીસ",
+      "roman": "suḍtālīs",
+      "digit": "૪૭"
+    },
+    {
+      "n": 48,
+      "native": "અડતાલીસ",
+      "roman": "aḍtālīs",
+      "digit": "૪૮"
+    },
+    {
+      "n": 49,
+      "native": "ઓગણપચાસ",
+      "roman": "ogaṇpachās",
+      "digit": "૪૯"
+    },
+    {
+      "n": 50,
+      "native": "પચાસ",
+      "roman": "pachās",
+      "digit": "૫૦"
+    },
+    {
+      "n": 51,
+      "native": "એકાવન",
+      "roman": "ekāvan",
+      "digit": "૫૧"
+    },
+    {
+      "n": 52,
+      "native": "બાવન",
+      "roman": "bāvan",
+      "digit": "૫૨"
+    },
+    {
+      "n": 53,
+      "native": "ત્રેપન",
+      "roman": "trepan",
+      "digit": "૫૩"
+    },
+    {
+      "n": 54,
+      "native": "ચોપન",
+      "roman": "chopan",
+      "digit": "૫૪"
+    },
+    {
+      "n": 55,
+      "native": "પંચાવન",
+      "roman": "pañchāvan",
+      "digit": "૫૫"
+    },
+    {
+      "n": 56,
+      "native": "છપ્પન",
+      "roman": "chhappan",
+      "digit": "૫૬"
+    },
+    {
+      "n": 57,
+      "native": "સત્તાવન",
+      "roman": "sattāvan",
+      "digit": "૫૭"
+    },
+    {
+      "n": 58,
+      "native": "અઠ્ઠાવન",
+      "roman": "aṭhṭhāvan",
+      "digit": "૫૮"
+    },
+    {
+      "n": 59,
+      "native": "ઓગણસાઠ",
+      "roman": "ogaṇsāṭh",
+      "digit": "૫૯"
+    },
+    {
+      "n": 60,
+      "native": "સાઠ",
+      "roman": "sāṭh",
+      "digit": "૬૦"
+    },
+    {
+      "n": 61,
+      "native": "એકસઠ",
+      "roman": "eksaṭh",
+      "digit": "૬૧"
+    },
+    {
+      "n": 62,
+      "native": "બાસઠ",
+      "roman": "bāsaṭh",
+      "digit": "૬૨"
+    },
+    {
+      "n": 63,
+      "native": "ત્રેસઠ",
+      "roman": "tresaṭh",
+      "digit": "૬૩"
+    },
+    {
+      "n": 64,
+      "native": "ચોસઠ",
+      "roman": "chosaṭh",
+      "digit": "૬૪"
+    },
+    {
+      "n": 65,
+      "native": "પાંસઠ",
+      "roman": "pāṃsaṭh",
+      "digit": "૬૫"
+    },
+    {
+      "n": 66,
+      "native": "છાસઠ",
+      "roman": "chhāsaṭh",
+      "digit": "૬૬"
+    },
+    {
+      "n": 67,
+      "native": "સડસઠ",
+      "roman": "saḍsaṭh",
+      "digit": "૬૭"
+    },
+    {
+      "n": 68,
+      "native": "અડસઠ",
+      "roman": "aḍsaṭh",
+      "digit": "૬૮"
+    },
+    {
+      "n": 69,
+      "native": "ઓગણસિત્તેર",
+      "roman": "ogaṇsitter",
+      "digit": "૬૯"
+    },
+    {
+      "n": 70,
+      "native": "સિત્તેર",
+      "roman": "sitter",
+      "digit": "૭૦"
+    },
+    {
+      "n": 71,
+      "native": "એકોતેર",
+      "roman": "ekoter",
+      "digit": "૭૧"
+    },
+    {
+      "n": 72,
+      "native": "બોતેર",
+      "roman": "boter",
+      "digit": "૭૨"
+    },
+    {
+      "n": 73,
+      "native": "તોતેર",
+      "roman": "toter",
+      "digit": "૭૩"
+    },
+    {
+      "n": 74,
+      "native": "ચુમોતેર",
+      "roman": "chumoter",
+      "digit": "૭૪"
+    },
+    {
+      "n": 75,
+      "native": "પંચોતેર",
+      "roman": "pañchoter",
+      "digit": "૭૫"
+    },
+    {
+      "n": 76,
+      "native": "છોતેર",
+      "roman": "chhoter",
+      "digit": "૭૬"
+    },
+    {
+      "n": 77,
+      "native": "સિત્યોતેર",
+      "roman": "sityoter",
+      "digit": "૭૭"
+    },
+    {
+      "n": 78,
+      "native": "ઇઠ્યોતેર",
+      "roman": "iṭhyoter",
+      "digit": "૭૮"
+    },
+    {
+      "n": 79,
+      "native": "ઓગણએંસી",
+      "roman": "ogaṇeṃsī",
+      "digit": "૭૯"
+    },
+    {
+      "n": 80,
+      "native": "એંસી",
+      "roman": "eṃsī",
+      "digit": "૮૦"
+    },
+    {
+      "n": 81,
+      "native": "એક્યાસી",
+      "roman": "ekyāsī",
+      "digit": "૮૧"
+    },
+    {
+      "n": 82,
+      "native": "બ્યાસી",
+      "roman": "byāsī",
+      "digit": "૮૨"
+    },
+    {
+      "n": 83,
+      "native": "ત્યાસી",
+      "roman": "tyāsī",
+      "digit": "૮૩"
+    },
+    {
+      "n": 84,
+      "native": "ચોર્યાસી",
+      "roman": "choryāsī",
+      "digit": "૮૪"
+    },
+    {
+      "n": 85,
+      "native": "પંચાસી",
+      "roman": "pañchāsī",
+      "digit": "૮૫"
+    },
+    {
+      "n": 86,
+      "native": "છ્યાસી",
+      "roman": "chhyāsī",
+      "digit": "૮૬"
+    },
+    {
+      "n": 87,
+      "native": "સિત્યાસી",
+      "roman": "sityāsī",
+      "digit": "૮૭"
+    },
+    {
+      "n": 88,
+      "native": "ઇઠ્યાસી",
+      "roman": "iṭhyāsī",
+      "digit": "૮૮"
+    },
+    {
+      "n": 89,
+      "native": "નેવ્યાસી",
+      "roman": "nevyāsī",
+      "digit": "૮૯"
+    },
+    {
+      "n": 90,
+      "native": "નેવું",
+      "roman": "nevuṃ",
+      "digit": "૯૦"
+    },
+    {
+      "n": 91,
+      "native": "એકાણું",
+      "roman": "ekāṇuṃ",
+      "digit": "૯૧"
+    },
+    {
+      "n": 92,
+      "native": "બાણું",
+      "roman": "bāṇuṃ",
+      "digit": "૯૨"
+    },
+    {
+      "n": 93,
+      "native": "ત્રાણું",
+      "roman": "trāṇuṃ",
+      "digit": "૯૩"
+    },
+    {
+      "n": 94,
+      "native": "ચોરાણું",
+      "roman": "chorāṇuṃ",
+      "digit": "૯૪"
+    },
+    {
+      "n": 95,
+      "native": "પંચાણું",
+      "roman": "pañchāṇuṃ",
+      "digit": "૯૫"
+    },
+    {
+      "n": 96,
+      "native": "છન્નું",
+      "roman": "chhannuṃ",
+      "digit": "૯૬"
+    },
+    {
+      "n": 97,
+      "native": "સત્તાણું",
+      "roman": "sattāṇuṃ",
+      "digit": "૯૭"
+    },
+    {
+      "n": 98,
+      "native": "અઠ્ઠાણું",
+      "roman": "aṭhṭhāṇuṃ",
+      "digit": "૯૮"
+    },
+    {
+      "n": 99,
+      "native": "નવ્વાણું",
+      "roman": "navvāṇuṃ",
+      "digit": "૯૯"
+    },
+    {
+      "n": 100,
+      "native": "સો",
+      "roman": "so",
+      "digit": "૧૦૦"
+    },
+    {
+      "n": 200,
+      "native": "બસો",
+      "roman": "baso",
+      "digit": "૨૦૦"
+    },
+    {
+      "n": 500,
+      "native": "પાંચસો",
+      "roman": "pāṃchso",
+      "digit": "૫૦૦"
+    },
+    {
+      "n": 1000,
+      "native": "હજાર",
+      "roman": "hajār",
+      "digit": "૧૦૦૦"
+    },
+    {
+      "n": 100000,
+      "native": "લાખ",
+      "roman": "lākh",
+      "digit": "૧૦૦૦૦૦"
+    },
+    {
+      "n": 10000000,
+      "native": "કરોડ",
+      "roman": "karoḍ",
+      "digit": "૧૦૦૦૦૦૦૦"
+    }
+  ]
+}

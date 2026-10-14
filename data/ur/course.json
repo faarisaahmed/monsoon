@@ -1,0 +1,3195 @@
+{
+  "code": "ur",
+  "name": "Urdu",
+  "native": "اردو",
+  "scriptName": "Perso-Arabic (Nastaliq)",
+  "script": {
+    "overview": "Urdu is written **right to left** in an extended Perso-Arabic alphabet of about 38 letters, plus the aspiration marker **ھ** (do-chashmī he) and the nasal **ں** (nūn ġunna). Printed and handwritten Urdu normally uses the **Nastaliq** style, in which words slope down from upper right to lower left and letters stack diagonally; newspapers, phones and computers use Nastaliq too, though you will also see the upright *Naskh* style.\n\nUrdu is a joined (cursive) script. Most letters connect to the letter before **and** after them, and so they have up to four shapes: isolated, initial, medial and final. But **nine letters never join to the following letter**: ا د ڈ ذ ر ڑ ز ژ و (and ے, which only occurs at the end of a word). After one of these, the next letter starts a fresh 'chunk' even in the middle of a word — so a word like اردو is written as three separate pieces: ا · رد · و.\n\nMany letters share the same basic shape and differ only in **dots** (nuqte): ب پ ت ٹ ث are all the same 'boat' shape with one, three or two dots or a small ط. Learn the shapes in families and then the dots.\n\nUrdu is an *abjad*-like script: **long vowels are written** with ا (ā), و (ū, o, au) and ی/ے (ī, e, ai), but **short vowels a, i, u are usually left out**. They can be marked with small diacritics (zabar, zer, pesh) — beginners' books and the Qur'an use them, but ordinary text does not. Several sounds are written with more than one letter (four letters for z, three for s, two each for t and h) because Urdu keeps the original spelling of Arabic and Persian loanwords.\n\nDigits ۰–۹ are written **left to right** even inside right-to-left text, just like in English.",
+    "groups": [
+      {
+        "id": "alif-be",
+        "title": "Alif and the 'be' family",
+        "note": "Alif is the first letter and a non-connector. ب پ ت ٹ ث share one 'boat' shape and differ only in dots. In the middle of a word the boat shrinks to a small tooth with its dots.",
+        "letters": [
+          {
+            "char": "ا",
+            "roman": "a / ā",
+            "ipa": "ɑː",
+            "sound": "alif. At the start of a word it is a 'carrier' for a short vowel (a, i or u); elsewhere it is long ā as in 'father'. Non-connector: never joins to the letter after it (final form ـا).",
+            "example": {
+              "native": "اچھا",
+              "roman": "achchhā",
+              "en": "good / OK"
+            },
+            "strokes": "One straight stroke from top to bottom, slightly slanted."
+          },
+          {
+            "char": "ب",
+            "roman": "b",
+            "ipa": "b",
+            "sound": "be. Like English b. Joins both ways: initial بـ and medial ـبـ are just a small tooth with one dot below.",
+            "example": {
+              "native": "بات",
+              "roman": "bāt",
+              "en": "matter, talk"
+            },
+            "strokes": "A shallow boat drawn right to left with a little upturned tail on the right; one dot underneath."
+          },
+          {
+            "char": "پ",
+            "roman": "p",
+            "ipa": "p",
+            "sound": "pe. Like English p but with no puff of breath (compare پھ ph). Joins both ways.",
+            "example": {
+              "native": "پانی",
+              "roman": "pānī",
+              "en": "water"
+            },
+            "strokes": "The boat shape with three dots below in a triangle."
+          },
+          {
+            "char": "ت",
+            "roman": "t",
+            "ipa": "t̪",
+            "sound": "te. A dental t: the tongue tip touches the back of the upper teeth, softer than English t, no puff of breath. Joins both ways.",
+            "example": {
+              "native": "تین",
+              "roman": "tīn",
+              "en": "three"
+            },
+            "strokes": "The boat shape with two dots above, side by side."
+          },
+          {
+            "char": "ٹ",
+            "roman": "ṭ",
+            "ipa": "ʈ",
+            "sound": "ṭe. A retroflex t: curl the tongue tip back and tap the roof of the mouth. Sounds 'harder' and more English-like than ت. Joins both ways.",
+            "example": {
+              "native": "ٹوپی",
+              "roman": "ṭopī",
+              "en": "cap"
+            },
+            "strokes": "The boat shape with a small ط (a tiny loop with a stalk) above instead of dots."
+          },
+          {
+            "char": "ث",
+            "roman": "s",
+            "ipa": "s",
+            "sound": "se. Pronounced exactly like س (s). Found only in Arabic loanwords. Joins both ways.",
+            "example": {
+              "native": "ثابت",
+              "roman": "sābit",
+              "en": "proven; whole"
+            },
+            "strokes": "The boat shape with three dots above in a triangle."
+          }
+        ]
+      },
+      {
+        "id": "jim",
+        "title": "The 'jīm' family",
+        "note": "Four letters with the same hooked shape: dot below (ج), three dots below (چ), no dot (ح), dot above (خ). Initial and medial forms lose the big lower bowl.",
+        "letters": [
+          {
+            "char": "ج",
+            "roman": "j",
+            "ipa": "d͡ʒ",
+            "sound": "jīm. Like English j in 'jam'. Joins both ways; initial form جـ.",
+            "example": {
+              "native": "جان",
+              "roman": "jān",
+              "en": "life; dear"
+            },
+            "strokes": "A short horizontal stroke to the left, then a sharp turn into a big open bowl curving down and right; one dot inside the bowl."
+          },
+          {
+            "char": "چ",
+            "roman": "ch",
+            "ipa": "t͡ʃ",
+            "sound": "che. Like ch in 'church' but without a strong puff of breath. Joins both ways.",
+            "example": {
+              "native": "چائے",
+              "roman": "chā’e",
+              "en": "tea"
+            },
+            "strokes": "The jīm shape with three dots inside the bowl."
+          },
+          {
+            "char": "ح",
+            "roman": "h",
+            "ipa": "ɦ",
+            "sound": "baṛī he ('big h'). In Urdu pronounced just like ہ — an ordinary h. Arabic loanwords only. Joins both ways.",
+            "example": {
+              "native": "حال",
+              "roman": "hāl",
+              "en": "condition, state"
+            },
+            "strokes": "The jīm shape with no dots."
+          },
+          {
+            "char": "خ",
+            "roman": "x",
+            "ipa": "x",
+            "sound": "xe. A rasping sound at the back of the mouth, like ch in Scottish 'loch' or German 'Bach'. Not the same as کھ kh! Joins both ways.",
+            "example": {
+              "native": "خط",
+              "roman": "xat",
+              "en": "letter (mail)"
+            },
+            "strokes": "The jīm shape with one dot above the top stroke."
+          }
+        ]
+      },
+      {
+        "id": "dal",
+        "title": "The 'dāl' family (non-connectors)",
+        "note": "A small angled shape that sits on the line. These letters join to the letter before them but NEVER to the letter after them.",
+        "letters": [
+          {
+            "char": "د",
+            "roman": "d",
+            "ipa": "d̪",
+            "sound": "dāl. A dental d, tongue against the upper teeth. Non-connector.",
+            "example": {
+              "native": "دن",
+              "roman": "din",
+              "en": "day"
+            },
+            "strokes": "A short stroke down-left, then a horizontal stroke to the left — like a small angled '<' leaning back."
+          },
+          {
+            "char": "ڈ",
+            "roman": "ḍ",
+            "ipa": "ɖ",
+            "sound": "ḍāl. A retroflex d: tongue tip curled back to the roof of the mouth. Closer to English d than د is. Non-connector.",
+            "example": {
+              "native": "ڈر",
+              "roman": "ḍar",
+              "en": "fear"
+            },
+            "strokes": "The dāl shape with a small ط on top."
+          },
+          {
+            "char": "ذ",
+            "roman": "z",
+            "ipa": "z",
+            "sound": "zāl. Pronounced z in Urdu (in Arabic it was 'th' as in 'this'). Arabic loanwords. Non-connector.",
+            "example": {
+              "native": "ذرا",
+              "roman": "zarā",
+              "en": "a little; just"
+            },
+            "strokes": "The dāl shape with one dot above."
+          }
+        ]
+      },
+      {
+        "id": "re",
+        "title": "The 're' family (non-connectors)",
+        "note": "A curved stroke that dips below the line. Like dāl, these never join to the following letter.",
+        "letters": [
+          {
+            "char": "ر",
+            "roman": "r",
+            "ipa": "ɾ",
+            "sound": "re. A light tap of the tongue tip behind the teeth, like the tt in American 'butter' or a Spanish r. Always pronounced, never silent. Non-connector.",
+            "example": {
+              "native": "رات",
+              "roman": "rāt",
+              "en": "night"
+            },
+            "strokes": "A short curved stroke starting on the line and sweeping down and to the left, like a comma."
+          },
+          {
+            "char": "ڑ",
+            "roman": "ṛ",
+            "ipa": "ɽ",
+            "sound": "ṛe. A retroflex flap: curl the tongue back, then flick it forward so it strikes the roof of the mouth once. Never starts a word. Non-connector.",
+            "example": {
+              "native": "پہاڑ",
+              "roman": "pahāṛ",
+              "en": "mountain"
+            },
+            "strokes": "The re shape with a small ط on top."
+          },
+          {
+            "char": "ز",
+            "roman": "z",
+            "ipa": "z",
+            "sound": "ze. Like English z. The most common of Urdu's four z letters. Non-connector.",
+            "example": {
+              "native": "زمین",
+              "roman": "zamīn",
+              "en": "earth, land"
+            },
+            "strokes": "The re shape with one dot above."
+          },
+          {
+            "char": "ژ",
+            "roman": "zh",
+            "ipa": "ʒ",
+            "sound": "zhe. Like the s in 'measure'. Very rare — a few Persian and French/English loanwords. Non-connector.",
+            "example": {
+              "native": "ٹیلی وژن",
+              "roman": "ṭelīvizhan",
+              "en": "television"
+            },
+            "strokes": "The re shape with three dots above."
+          }
+        ]
+      },
+      {
+        "id": "sin",
+        "title": "The 'sīn', 'su’ād' and 'to’e' families",
+        "note": "س ش have three little teeth; ص ض have a flat loop; ط ظ have the loop plus an upright stalk. Several of these are pronounced identically — they mostly mark Arabic loanwords.",
+        "letters": [
+          {
+            "char": "س",
+            "roman": "s",
+            "ipa": "s",
+            "sound": "sīn. Like English s. Joins both ways; in the middle of a word it is just three small teeth (ـسـ).",
+            "example": {
+              "native": "سال",
+              "roman": "sāl",
+              "en": "year"
+            },
+            "strokes": "Three small teeth from right to left, then a deep bowl like the end of ن."
+          },
+          {
+            "char": "ش",
+            "roman": "sh",
+            "ipa": "ʃ",
+            "sound": "shīn. Like English sh. Joins both ways.",
+            "example": {
+              "native": "شام",
+              "roman": "shām",
+              "en": "evening"
+            },
+            "strokes": "The sīn shape with three dots above the teeth."
+          },
+          {
+            "char": "ص",
+            "roman": "s",
+            "ipa": "s",
+            "sound": "su’ād. Pronounced s, just like س. Arabic loanwords. Joins both ways.",
+            "example": {
+              "native": "صبح",
+              "roman": "subah",
+              "en": "morning"
+            },
+            "strokes": "A flat oval loop drawn clockwise, a tiny tooth, then a deep bowl."
+          },
+          {
+            "char": "ض",
+            "roman": "z",
+            "ipa": "z",
+            "sound": "zu’ād. Pronounced z in Urdu. Arabic loanwords. Joins both ways.",
+            "example": {
+              "native": "ضرور",
+              "roman": "zarūr",
+              "en": "certainly"
+            },
+            "strokes": "The su’ād shape with one dot above the loop."
+          },
+          {
+            "char": "ط",
+            "roman": "t",
+            "ipa": "t̪",
+            "sound": "to’e. Pronounced like ت (dental t). Arabic loanwords. Joins both ways; the shape does not change much.",
+            "example": {
+              "native": "طرف",
+              "roman": "taraf",
+              "en": "side, direction"
+            },
+            "strokes": "A flat oval loop, then an upright stalk added on the left from top to bottom."
+          },
+          {
+            "char": "ظ",
+            "roman": "z",
+            "ipa": "z",
+            "sound": "zo’e. Pronounced z. Arabic loanwords. Joins both ways.",
+            "example": {
+              "native": "ظالم",
+              "roman": "zālim",
+              "en": "cruel; tyrant"
+            },
+            "strokes": "The to’e shape with one dot to the right of the stalk."
+          }
+        ]
+      },
+      {
+        "id": "ain",
+        "title": "The 'ʿain', 'fe' and 'qāf' families",
+        "note": "ع غ have a small open mouth at the top; ف ق have a round head (one dot for ف, two for ق) and differ in their tails.",
+        "letters": [
+          {
+            "char": "ع",
+            "roman": "ʿ",
+            "ipa": "ʔ / —",
+            "sound": "ʿain. In Arabic a throat sound; in everyday Urdu it is usually silent or just a slight catch, and it often lengthens or colours a neighbouring vowel (بعد baʿd sounds like 'bād'). Joins both ways; medial form ـعـ is a small closed triangle.",
+            "example": {
+              "native": "علم",
+              "roman": "ʿilm",
+              "en": "knowledge"
+            },
+            "strokes": "A small open 'c' shape at the top, then a big bowl curving below like jīm."
+          },
+          {
+            "char": "غ",
+            "roman": "ġ",
+            "ipa": "ɣ",
+            "sound": "ġain. A gargled g made at the back of the throat, like a French or German r. Not the same as گھ gh! Joins both ways.",
+            "example": {
+              "native": "غلط",
+              "roman": "ġalat",
+              "en": "wrong"
+            },
+            "strokes": "The ʿain shape with a dot above."
+          },
+          {
+            "char": "ف",
+            "roman": "f",
+            "ipa": "f",
+            "sound": "fe. Like English f (some speakers say a light ph). Joins both ways.",
+            "example": {
+              "native": "فون",
+              "roman": "fon",
+              "en": "phone"
+            },
+            "strokes": "A small round loop with one dot above, then a flat tail to the left."
+          },
+          {
+            "char": "ق",
+            "roman": "q",
+            "ipa": "q",
+            "sound": "qāf. A k made much further back, where the tongue meets the uvula — a 'deeper', hollow k. Many speakers soften it to k in casual speech. Joins both ways.",
+            "example": {
+              "native": "قلم",
+              "roman": "qalam",
+              "en": "pen"
+            },
+            "strokes": "A small round loop with two dots above, then a deep round bowl below the line."
+          }
+        ]
+      },
+      {
+        "id": "kaf",
+        "title": "The 'kāf', 'lām', 'mīm', 'nūn' letters",
+        "note": "ک گ are tall with a slanted top stroke (گ has two). ل is a tall hook, م a small round head with a tail, ن a bowl with a dot. ں is ن without the dot and only at the end of words.",
+        "letters": [
+          {
+            "char": "ک",
+            "roman": "k",
+            "ipa": "k",
+            "sound": "kāf. Like English k but without a puff of breath. Joins both ways. Note: Urdu ک is different from the Arabic ك — it never has the little hamza inside.",
+            "example": {
+              "native": "کتاب",
+              "roman": "kitāb",
+              "en": "book"
+            },
+            "strokes": "A long diagonal stroke from upper left down to the right, then a flat base back to the left."
+          },
+          {
+            "char": "گ",
+            "roman": "g",
+            "ipa": "ɡ",
+            "sound": "gāf. Like g in 'go' (always hard). Joins both ways.",
+            "example": {
+              "native": "گاڑی",
+              "roman": "gāṛī",
+              "en": "car; train"
+            },
+            "strokes": "The kāf shape with a second short diagonal line above the first."
+          },
+          {
+            "char": "ل",
+            "roman": "l",
+            "ipa": "l",
+            "sound": "lām. A clear l with the tongue on the teeth ridge, as in 'leaf' (never the dark l of 'full'). Joins both ways.",
+            "example": {
+              "native": "لال",
+              "roman": "lāl",
+              "en": "red"
+            },
+            "strokes": "A tall vertical stroke down, curving into a round bowl at the bottom."
+          },
+          {
+            "char": "م",
+            "roman": "m",
+            "ipa": "m",
+            "sound": "mīm. Like English m. Joins both ways; medial form is a small closed loop.",
+            "example": {
+              "native": "مکان",
+              "roman": "makān",
+              "en": "house"
+            },
+            "strokes": "A small round loop, then a short tail straight down."
+          },
+          {
+            "char": "ن",
+            "roman": "n",
+            "ipa": "n",
+            "sound": "nūn. Like English n (dental). Joins both ways; initial and medial forms are a small tooth with a dot above.",
+            "example": {
+              "native": "نام",
+              "roman": "nām",
+              "en": "name"
+            },
+            "strokes": "A round bowl like a smile, with one dot inside above it."
+          },
+          {
+            "char": "ں",
+            "roman": "ṃ",
+            "ipa": "̃",
+            "sound": "nūn ġunna. Not a consonant: it makes the preceding vowel nasal (air through the nose), like French 'non'. Only at the end of a word; in the middle of a word ordinary ن (often written without its dot by hand) does the job.",
+            "example": {
+              "native": "ہاں",
+              "roman": "hāṃ",
+              "en": "yes"
+            },
+            "strokes": "The nūn bowl without the dot."
+          }
+        ]
+      },
+      {
+        "id": "vao-he-ye",
+        "title": "Vā’o, the two he's, hamza and the two ye's",
+        "note": "و is a non-connector and does double duty as consonant v and long vowels ū/o/au. ی and ے do double duty as consonant y and the vowels ī/e/ai. ہ (round he) and ھ (two-eyed he) look similar but have different jobs.",
+        "letters": [
+          {
+            "char": "و",
+            "roman": "v / ū / o / au",
+            "ipa": "ʋ, uː, oː, ɔː",
+            "sound": "vā’o. As a consonant, a soft v/w (between English v and w). As a vowel: ū ('moon'), o ('go') or au ('law'). Non-connector.",
+            "example": {
+              "native": "وقت",
+              "roman": "vaqt",
+              "en": "time"
+            },
+            "strokes": "A small round head like a closed loop, then a tail sweeping down to the left (like a big comma)."
+          },
+          {
+            "char": "ہ",
+            "roman": "h",
+            "ipa": "ɦ",
+            "sound": "choṭī he ('little h') or gol he ('round h'). An ordinary breathy h. At the end of a word after a consonant it usually stands for a short -a (کمرہ kamra 'room'). Joins both ways; its shapes change a lot: initial ہـ, medial ـہـ, final ـہ.",
+            "example": {
+              "native": "ہاتھ",
+              "roman": "hāth",
+              "en": "hand"
+            },
+            "strokes": "Isolated: a small loop with a tail, like a teardrop on its side."
+          },
+          {
+            "char": "ھ",
+            "roman": "h (aspiration)",
+            "ipa": "ʰ / ʱ",
+            "sound": "do-chashmī he ('two-eyed h'). Not used alone: it is written after a consonant to make it aspirated (breathy) — ب + ھ = بھ bh, ک + ھ = کھ kh. Always connects to the preceding letter.",
+            "example": {
+              "native": "گھر",
+              "roman": "ghar",
+              "en": "house, home"
+            },
+            "strokes": "A round shape with two small 'eyes' (loops) inside, drawn as one continuous loop that crosses itself."
+          },
+          {
+            "char": "ء",
+            "roman": "’",
+            "ipa": "ʔ / —",
+            "sound": "hamza. Marks a break between two vowels (آئیے ā’iye) rather than a real consonant; in Urdu it is mostly heard as a glide. Sits on a 'chair' ئ in the middle of words, alone ء at the end. Also used above ہ/ے for the izāfat ('of') link.",
+            "example": {
+              "native": "جائیں",
+              "roman": "jā’eṃ",
+              "en": "(please) go"
+            },
+            "strokes": "A small backwards '2'-like squiggle, written above the line."
+          },
+          {
+            "char": "ی",
+            "roman": "y / ī",
+            "ipa": "j, iː",
+            "sound": "choṭī ye ('little ye'). Consonant y, or the long vowel ī ('see'). In the middle of a word it also writes e and ai. Joins both ways; initial/medial form is a tooth with two dots below.",
+            "example": {
+              "native": "یار",
+              "roman": "yār",
+              "en": "friend, buddy (informal)"
+            },
+            "strokes": "Isolated: a curl to the left that swings back right in a deep 'S'-like tail below the line."
+          },
+          {
+            "char": "ے",
+            "roman": "e / ai",
+            "ipa": "eː, ɛː",
+            "sound": "baṛī ye ('big ye'). Only at the end of a word, for e ('café') or ai ('bat'). It joins to the letter before it but nothing can follow it. Very common: ہے hai, کے ke, سے se.",
+            "example": {
+              "native": "کمرے",
+              "roman": "kamre",
+              "en": "rooms"
+            },
+            "strokes": "A small hook, then a long straight stroke sweeping back to the right below the line."
+          }
+        ]
+      },
+      {
+        "id": "aspirates",
+        "title": "Aspirated consonants (with do-chashmī he ھ)",
+        "note": "Urdu has a whole series of breathy consonants written as a letter + ھ. They are single sounds, not 'consonant + h'. Many writers also use ہ for the rarer nasal/liquid ones (تمہارا for تمھارا). Aspiration changes meaning: کان kān 'ear' vs کھان khān 'mine'.",
+        "letters": [
+          {
+            "char": "بھ",
+            "roman": "bh",
+            "ipa": "bʱ",
+            "sound": "A breathy b — say b with a murmur of breath, as in 'club house' run together.",
+            "example": {
+              "native": "بھائی",
+              "roman": "bhā’ī",
+              "en": "brother"
+            },
+            "strokes": "Write ب (initial form) and attach ھ."
+          },
+          {
+            "char": "پھ",
+            "roman": "ph",
+            "ipa": "pʰ",
+            "sound": "p with a strong puff of air, like p in English 'pin'. Never f.",
+            "example": {
+              "native": "پھل",
+              "roman": "phal",
+              "en": "fruit"
+            },
+            "strokes": "پ + ھ."
+          },
+          {
+            "char": "تھ",
+            "roman": "th",
+            "ipa": "t̪ʰ",
+            "sound": "Dental t with a puff of air. Never English 'th'.",
+            "example": {
+              "native": "تھا",
+              "roman": "thā",
+              "en": "was"
+            },
+            "strokes": "ت + ھ."
+          },
+          {
+            "char": "ٹھ",
+            "roman": "ṭh",
+            "ipa": "ʈʰ",
+            "sound": "Retroflex ṭ with a puff of air.",
+            "example": {
+              "native": "ٹھیک",
+              "roman": "ṭhīk",
+              "en": "OK, fine; correct"
+            },
+            "strokes": "ٹ + ھ."
+          },
+          {
+            "char": "جھ",
+            "roman": "jh",
+            "ipa": "d͡ʒʱ",
+            "sound": "A breathy j.",
+            "example": {
+              "native": "جھوٹ",
+              "roman": "jhūṭ",
+              "en": "a lie"
+            },
+            "strokes": "ج + ھ."
+          },
+          {
+            "char": "چھ",
+            "roman": "chh",
+            "ipa": "t͡ʃʰ",
+            "sound": "ch with a strong puff of air.",
+            "example": {
+              "native": "چھوٹا",
+              "roman": "chhoṭā",
+              "en": "small"
+            },
+            "strokes": "چ + ھ."
+          },
+          {
+            "char": "دھ",
+            "roman": "dh",
+            "ipa": "d̪ʱ",
+            "sound": "A breathy dental d.",
+            "example": {
+              "native": "دھوپ",
+              "roman": "dhūp",
+              "en": "sunshine"
+            },
+            "strokes": "د + ھ (د doesn't join forward, but ھ still attaches to it in print as a ligature)."
+          },
+          {
+            "char": "ڈھ",
+            "roman": "ḍh",
+            "ipa": "ɖʱ",
+            "sound": "A breathy retroflex ḍ.",
+            "example": {
+              "native": "ڈھول",
+              "roman": "ḍhol",
+              "en": "drum"
+            },
+            "strokes": "ڈ + ھ."
+          },
+          {
+            "char": "ڑھ",
+            "roman": "ṛh",
+            "ipa": "ɽʱ",
+            "sound": "A breathy retroflex flap. Never starts a word.",
+            "example": {
+              "native": "پڑھنا",
+              "roman": "paṛhnā",
+              "en": "to read; to study"
+            },
+            "strokes": "ڑ + ھ."
+          },
+          {
+            "char": "کھ",
+            "roman": "kh",
+            "ipa": "kʰ",
+            "sound": "k with a strong puff of air, like k in 'kit'. Not the same as خ x.",
+            "example": {
+              "native": "کھانا",
+              "roman": "khānā",
+              "en": "food; to eat"
+            },
+            "strokes": "ک + ھ."
+          },
+          {
+            "char": "گھ",
+            "roman": "gh",
+            "ipa": "ɡʱ",
+            "sound": "A breathy g, like 'doghouse' run together. Not the same as غ ġ.",
+            "example": {
+              "native": "گھنٹا",
+              "roman": "ghanṭā",
+              "en": "hour"
+            },
+            "strokes": "گ + ھ."
+          },
+          {
+            "char": "مھ",
+            "roman": "mh",
+            "ipa": "mʱ",
+            "sound": "A breathy m. Usually written مہ.",
+            "example": {
+              "native": "تمھارا",
+              "roman": "tumhārā",
+              "en": "your (informal)"
+            },
+            "strokes": "م + ھ."
+          },
+          {
+            "char": "نھ",
+            "roman": "nh",
+            "ipa": "nʱ",
+            "sound": "A breathy n. Usually written نہ.",
+            "example": {
+              "native": "انھیں",
+              "roman": "unheṃ",
+              "en": "to them"
+            },
+            "strokes": "ن + ھ."
+          }
+        ]
+      },
+      {
+        "id": "vowels",
+        "title": "Writing vowels",
+        "note": "Long vowels are written with letters; short vowels usually aren't written at all. At the start of a word every vowel needs alif (or ع) as a carrier.",
+        "letters": [
+          {
+            "char": "آ",
+            "roman": "ā",
+            "ipa": "ɑː",
+            "sound": "alif madd: long ā at the start of a word ('father'). In the middle or end of a word ā is plain ا.",
+            "sign": "ا",
+            "signExample": "کا (kā)",
+            "example": {
+              "native": "آم",
+              "roman": "ām",
+              "en": "mango"
+            },
+            "strokes": "Alif with a wavy madd line on top."
+          },
+          {
+            "char": "اَ",
+            "roman": "a",
+            "ipa": "ə",
+            "sound": "Short a, like the u in 'but'. Written with zabar (usually omitted).",
+            "sign": "◌َ",
+            "signExample": "کَم (kam)",
+            "example": {
+              "native": "اب",
+              "roman": "ab",
+              "en": "now"
+            },
+            "strokes": "Alif with a small diagonal stroke above."
+          },
+          {
+            "char": "اِ",
+            "roman": "i",
+            "ipa": "ɪ",
+            "sound": "Short i, as in 'sit'. Written with zer (usually omitted).",
+            "sign": "◌ِ",
+            "signExample": "دِن (din)",
+            "example": {
+              "native": "ادھر",
+              "roman": "idhar",
+              "en": "here, this way"
+            },
+            "strokes": "Alif with a small diagonal stroke below."
+          },
+          {
+            "char": "اُ",
+            "roman": "u",
+            "ipa": "ʊ",
+            "sound": "Short u, as in 'put'. Written with pesh (usually omitted).",
+            "sign": "◌ُ",
+            "signExample": "تُم (tum)",
+            "example": {
+              "native": "ادھر",
+              "roman": "udhar",
+              "en": "there, that way"
+            },
+            "strokes": "Alif with a tiny و-shaped curl above."
+          },
+          {
+            "char": "ای",
+            "roman": "ī",
+            "ipa": "iː",
+            "sound": "Long ī, as in 'see'. Written with ی (یـ in the middle of a word).",
+            "sign": "ی",
+            "signExample": "پی (pī)",
+            "example": {
+              "native": "امیر",
+              "roman": "amīr",
+              "en": "rich"
+            },
+            "strokes": "Alif + initial ye."
+          },
+          {
+            "char": "اے",
+            "roman": "e",
+            "ipa": "eː",
+            "sound": "Long e, as in 'café' (a pure vowel, no glide). Written ے at the end of a word, یـ in the middle.",
+            "sign": "ے",
+            "signExample": "کے (ke)",
+            "example": {
+              "native": "ایک",
+              "roman": "ek",
+              "en": "one"
+            },
+            "strokes": "Alif + baṛī ye."
+          },
+          {
+            "char": "اَے",
+            "roman": "ai",
+            "ipa": "ɛː",
+            "sound": "ai, like the a in 'bat' (in some areas closer to 'bet'). Same letters as e; zabar can mark it.",
+            "sign": "ے",
+            "signExample": "ہے (hai)",
+            "example": {
+              "native": "ایسا",
+              "roman": "aisā",
+              "en": "like this, such"
+            },
+            "strokes": "Alif with zabar + ye."
+          },
+          {
+            "char": "او",
+            "roman": "o",
+            "ipa": "oː",
+            "sound": "Long o, as in 'go' (pure, no glide).",
+            "sign": "و",
+            "signExample": "دو (do)",
+            "example": {
+              "native": "اوس",
+              "roman": "os",
+              "en": "dew"
+            },
+            "strokes": "Alif + vā’o."
+          },
+          {
+            "char": "اُو",
+            "roman": "ū",
+            "ipa": "uː",
+            "sound": "Long ū, as in 'moon'. Same letter as o; pesh can mark it.",
+            "sign": "و",
+            "signExample": "تو (tū)",
+            "example": {
+              "native": "اونٹ",
+              "roman": "ūnṭ",
+              "en": "camel"
+            },
+            "strokes": "Alif with pesh + vā’o."
+          },
+          {
+            "char": "اَو",
+            "roman": "au",
+            "ipa": "ɔː",
+            "sound": "au, like the aw in 'law'. Same letter as o and ū; zabar can mark it.",
+            "sign": "و",
+            "signExample": "نو (nau)",
+            "example": {
+              "native": "اور",
+              "roman": "aur",
+              "en": "and; more"
+            },
+            "strokes": "Alif with zabar + vā’o."
+          }
+        ]
+      },
+      {
+        "id": "marks",
+        "title": "Diacritics (e‘rāb) and special marks",
+        "note": "Small marks above and below letters. Everyday Urdu leaves most of them out; dictionaries, children's books and poetry use them to show exact pronunciation.",
+        "letters": [
+          {
+            "char": "◌َ",
+            "roman": "a",
+            "ipa": "ə",
+            "sound": "zabar: a short slanting stroke above the letter = short a.",
+            "example": {
+              "native": "سَب",
+              "roman": "sab",
+              "en": "all"
+            },
+            "strokes": "One short stroke above, slanting down to the left."
+          },
+          {
+            "char": "◌ِ",
+            "roman": "i",
+            "ipa": "ɪ",
+            "sound": "zer: the same stroke below the letter = short i. Also used as the izāfat 'of' link in Persian phrases (وزیرِ اعظم vazīr-e aʿzam 'prime minister').",
+            "example": {
+              "native": "دِل",
+              "roman": "dil",
+              "en": "heart"
+            },
+            "strokes": "One short stroke below the letter."
+          },
+          {
+            "char": "◌ُ",
+            "roman": "u",
+            "ipa": "ʊ",
+            "sound": "pesh: a tiny vā’o above the letter = short u.",
+            "example": {
+              "native": "کُچھ",
+              "roman": "kuchh",
+              "en": "some, something"
+            },
+            "strokes": "A tiny curl like a miniature و above the letter."
+          },
+          {
+            "char": "◌ْ",
+            "roman": "(no vowel)",
+            "ipa": "—",
+            "sound": "jazm: a small circle or arc above a letter = no vowel follows it (it closes the syllable).",
+            "example": {
+              "native": "مَسْجِد",
+              "roman": "masjid",
+              "en": "mosque"
+            },
+            "strokes": "A small round or half-moon mark above the letter."
+          },
+          {
+            "char": "◌ّ",
+            "roman": "(double)",
+            "ipa": "ː",
+            "sound": "tashdīd: a small 'w' shape above = the consonant is doubled (held longer). Changes meaning: پتا patā 'address' vs پتّا pattā 'leaf'.",
+            "example": {
+              "native": "اچّھا",
+              "roman": "achchhā",
+              "en": "good / OK"
+            },
+            "strokes": "A small 'w' (three tiny teeth) above the letter."
+          },
+          {
+            "char": "اً",
+            "roman": "-an",
+            "ipa": "ən",
+            "sound": "tanvīn (do-zabar): two zabars on a final alif = -an. Only in Arabic adverbs.",
+            "example": {
+              "native": "فوراً",
+              "roman": "fauran",
+              "en": "immediately"
+            },
+            "strokes": "Two parallel zabar strokes above the final alif."
+          },
+          {
+            "char": "◌ٰ",
+            "roman": "ā",
+            "ipa": "ɑː",
+            "sound": "khaṛā zabar ('standing zabar'): a small vertical alif above a letter = long ā, in a few Arabic words.",
+            "example": {
+              "native": "اعلیٰ",
+              "roman": "aʿlā",
+              "en": "excellent, high"
+            },
+            "strokes": "A tiny upright stroke above the letter."
+          },
+          {
+            "char": "ۂ",
+            "roman": "-e",
+            "ipa": "e",
+            "sound": "hamza-e izāfat: a small hamza on a final ہ (or ے/ئے) links two nouns Persian-style, meaning 'of'.",
+            "example": {
+              "native": "نقطۂ نظر",
+              "roman": "nuqta-e nazar",
+              "en": "point of view"
+            },
+            "strokes": "Write ہ, then a small ء above it."
+          },
+          {
+            "char": "◌ٓ",
+            "roman": "ā",
+            "ipa": "ɑː",
+            "sound": "madd: the wavy line over alif (آ) that makes a long ā at the start of a word or after a vowel.",
+            "example": {
+              "native": "آج",
+              "roman": "āj",
+              "en": "today"
+            },
+            "strokes": "A short wavy horizontal line above alif."
+          }
+        ]
+      },
+      {
+        "id": "ligatures",
+        "title": "Common letter combinations and ligatures",
+        "note": "In Nastaliq, letters join and stack into characteristic shapes. These everyday combinations are worth recognising at a glance — many are the commonest little words in the language.",
+        "letters": [
+          {
+            "char": "لا",
+            "roman": "lā",
+            "ipa": "lɑː",
+            "sound": "lām-alif: lām + alif fuse into a special 'V'-like shape.",
+            "example": {
+              "native": "لاہور",
+              "roman": "lāhaur",
+              "en": "Lahore"
+            },
+            "strokes": "Two strokes rising from a shared base, crossing like a V."
+          },
+          {
+            "char": "کا",
+            "roman": "kā",
+            "ipa": "kɑː",
+            "sound": "kāf + alif: 'of' (masculine). The kāf's top stroke leans over the alif.",
+            "example": {
+              "native": "کام",
+              "roman": "kām",
+              "en": "work"
+            }
+          },
+          {
+            "char": "کی",
+            "roman": "kī",
+            "ipa": "kiː",
+            "sound": "kāf + ye: 'of' (feminine); the ye sweeps back under the kāf.",
+            "example": {
+              "native": "کیا",
+              "roman": "kyā",
+              "en": "what; (question marker)"
+            }
+          },
+          {
+            "char": "کے",
+            "roman": "ke",
+            "ipa": "keː",
+            "sound": "kāf + baṛī ye: 'of' (masc. plural / oblique).",
+            "example": {
+              "native": "کے لیے",
+              "roman": "ke liye",
+              "en": "for"
+            }
+          },
+          {
+            "char": "ہے",
+            "roman": "hai",
+            "ipa": "ɦɛː",
+            "sound": "he + baṛī ye: 'is'. Probably the most frequent word you'll read.",
+            "example": {
+              "native": "یہ ہے",
+              "roman": "ye hai",
+              "en": "this is"
+            }
+          },
+          {
+            "char": "ہیں",
+            "roman": "haiṃ",
+            "ipa": "ɦɛ̃ː",
+            "sound": "'are': he + ye + nūn ġunna.",
+            "example": {
+              "native": "آپ کہاں ہیں؟",
+              "roman": "āp kahāṃ haiṃ?",
+              "en": "Where are you?"
+            }
+          },
+          {
+            "char": "میں",
+            "roman": "maiṃ / meṃ",
+            "ipa": "mɛ̃ː, mẽː",
+            "sound": "Spelled the same for 'I' (maiṃ) and 'in' (meṃ) — context tells you which.",
+            "example": {
+              "native": "گھر میں",
+              "roman": "ghar meṃ",
+              "en": "at home, in the house"
+            }
+          },
+          {
+            "char": "نہیں",
+            "roman": "nahīṃ",
+            "ipa": "nəɦĩː",
+            "sound": "'no, not': nūn + he + ye + nūn ġunna, stacked diagonally.",
+            "example": {
+              "native": "نہیں جی",
+              "roman": "nahīṃ jī",
+              "en": "no (polite)"
+            }
+          },
+          {
+            "char": "نے",
+            "roman": "ne",
+            "ipa": "neː",
+            "sound": "The ergative marker (Unit 16): nūn + baṛī ye.",
+            "example": {
+              "native": "میں نے",
+              "roman": "maiṃ ne",
+              "en": "I (did…)"
+            }
+          },
+          {
+            "char": "سے",
+            "roman": "se",
+            "ipa": "seː",
+            "sound": "'from, with, than': sīn + baṛī ye.",
+            "example": {
+              "native": "کہاں سے",
+              "roman": "kahāṃ se",
+              "en": "from where"
+            }
+          },
+          {
+            "char": "بھی",
+            "roman": "bhī",
+            "ipa": "bʱiː",
+            "sound": "'also, too': be + do-chashmī he + ye.",
+            "example": {
+              "native": "میں بھی",
+              "roman": "maiṃ bhī",
+              "en": "me too"
+            }
+          },
+          {
+            "char": "تھا",
+            "roman": "thā",
+            "ipa": "t̪ʰɑː",
+            "sound": "'was': te + do-chashmī he + alif.",
+            "example": {
+              "native": "وہ تھا",
+              "roman": "vo thā",
+              "en": "he was"
+            }
+          },
+          {
+            "char": "یہ",
+            "roman": "ye",
+            "ipa": "jeː",
+            "sound": "'this, he/she/it (near)'. Spelled ye + he but pronounced ye (formally yah).",
+            "example": {
+              "native": "یہ کیا ہے؟",
+              "roman": "ye kyā hai?",
+              "en": "What is this?"
+            }
+          },
+          {
+            "char": "وہ",
+            "roman": "vo",
+            "ipa": "ʋoː",
+            "sound": "'that, he/she/it (far)'. Spelled vā’o + he, pronounced vo (formally voh).",
+            "example": {
+              "native": "وہ کون ہے؟",
+              "roman": "vo kaun hai?",
+              "en": "Who is that?"
+            }
+          },
+          {
+            "char": "اللہ",
+            "roman": "allāh",
+            "ipa": "ʔəlˈlɑːɦ",
+            "sound": "A special ligature with tashdīd and khaṛā zabar, often in phrases like ان شاء اللہ.",
+            "example": {
+              "native": "ان شاء اللہ",
+              "roman": "in shā’ allāh",
+              "en": "God willing"
+            }
+          }
+        ]
+      },
+      {
+        "id": "digits",
+        "title": "Urdu digits ۰–۹",
+        "note": "Urdu uses Eastern Arabic-Indic digits in their Urdu/Persian forms (note ۴ ۵ ۶ ۷ look different from Arabic ٤ ٥ ٦ ٧). Numbers are written left to right. Western digits 0–9 are also very common in Pakistan, especially for prices and phone numbers.",
+        "letters": [
+          {
+            "char": "۰",
+            "roman": "0 — sifr",
+            "sound": "zero: a small dot (or tiny circle).",
+            "example": {
+              "native": "صفر",
+              "roman": "sifr",
+              "en": "zero"
+            },
+            "strokes": "A dot."
+          },
+          {
+            "char": "۱",
+            "roman": "1 — ek",
+            "sound": "one: a vertical stroke.",
+            "example": {
+              "native": "ایک",
+              "roman": "ek",
+              "en": "one"
+            },
+            "strokes": "One vertical stroke top to bottom."
+          },
+          {
+            "char": "۲",
+            "roman": "2 — do",
+            "sound": "two: a stroke with one hook at the top right.",
+            "example": {
+              "native": "دو",
+              "roman": "do",
+              "en": "two"
+            },
+            "strokes": "A hook at top, then down."
+          },
+          {
+            "char": "۳",
+            "roman": "3 — tīn",
+            "sound": "three: a stroke with two hooks at the top.",
+            "example": {
+              "native": "تین",
+              "roman": "tīn",
+              "en": "three"
+            },
+            "strokes": "Two little teeth at top, then down."
+          },
+          {
+            "char": "۴",
+            "roman": "4 — chār",
+            "sound": "four: Urdu form with a loop and a tail (different from Arabic ٤).",
+            "example": {
+              "native": "چار",
+              "roman": "chār",
+              "en": "four"
+            },
+            "strokes": "A small loop, then a curved tail down."
+          },
+          {
+            "char": "۵",
+            "roman": "5 — pāṃch",
+            "sound": "five: Urdu form is a pointed teardrop (Arabic ٥ is a circle).",
+            "example": {
+              "native": "پانچ",
+              "roman": "pāṃch",
+              "en": "five"
+            },
+            "strokes": "An upside-down heart/teardrop shape."
+          },
+          {
+            "char": "۶",
+            "roman": "6 — chhe",
+            "sound": "six: Urdu form with a tail curving to the left at the bottom.",
+            "example": {
+              "native": "چھ",
+              "roman": "chhe",
+              "en": "six"
+            },
+            "strokes": "A small hook at top, stroke down, tail to the left."
+          },
+          {
+            "char": "۷",
+            "roman": "7 — sāt",
+            "sound": "seven: Urdu form looks like a 'V' with a small hook on the left arm.",
+            "example": {
+              "native": "سات",
+              "roman": "sāt",
+              "en": "seven"
+            },
+            "strokes": "A V shape, the left arm hooked."
+          },
+          {
+            "char": "۸",
+            "roman": "8 — āṭh",
+            "sound": "eight: an upside-down V (Λ).",
+            "example": {
+              "native": "آٹھ",
+              "roman": "āṭh",
+              "en": "eight"
+            },
+            "strokes": "Two strokes meeting at the top."
+          },
+          {
+            "char": "۹",
+            "roman": "9 — nau",
+            "sound": "nine: a small loop at the top with a vertical stem.",
+            "example": {
+              "native": "نو",
+              "roman": "nau",
+              "en": "nine"
+            },
+            "strokes": "A small loop, then a stroke straight down."
+          }
+        ]
+      }
+    ]
+  },
+  "dir": "rtl",
+  "tts": "ur-PK",
+  "font": "Noto Nastaliq Urdu",
+  "speakers": "≈230 million (L1 + L2)",
+  "where": "National language of Pakistan; official in several Indian states (Telangana, Uttar Pradesh, Bihar, J&K and others); spoken by large diaspora communities in the UK, Gulf, USA and Canada",
+  "tagline": "The language of ghazals, Bollywood lyrics and everyday Pakistan — and once you speak it, you can understand spoken Hindi too.",
+  "intro": "**Urdu** (اردو) is an Indo-Aryan language that grew up in north India between the 13th and 18th centuries, mixing the everyday speech of the Delhi region with a large vocabulary from **Persian** and **Arabic** (and some Turkish). Today it is the national language and lingua franca of Pakistan and the mother tongue of tens of millions of people in India.\n\nIn everyday conversation Urdu and **Hindi** are essentially the same language — same grammar, same basic words — so learning to speak one means you can talk with speakers of the other. They differ in script (Urdu uses a Perso-Arabic script, Hindi uses Devanagari) and in their formal and literary vocabulary: Urdu draws on Persian and Arabic where Hindi draws on Sanskrit.\n\nUrdu is written **right to left** in the flowing, slanted *Nastaliq* style. Short vowels are normally not written, so you learn words as whole shapes. Urdu is also famously polite: there are three words for 'you' (**آپ** āp, **تم** tum, **تو** tū), and choosing the right one matters.\n\nThis course teaches the **standard modern spoken Urdu** heard in Karachi, Lahore, Islamabad, Hyderabad and Lucknow. Every word comes with romanization, but we strongly encourage you to learn the script alongside it — it is much easier than it looks.",
+  "romanizationNote": "Romanization shows how words are actually pronounced. A bar marks long vowels (ā ī ū); plain a i u are short (a = the 'u' of 'but'). e and o are always long, like 'café' and 'go'; ai is like 'bat' (or 'bet') and au like 'law'. A dot under t d r (ṭ ḍ ṛ) means a retroflex sound with the tongue curled back; plain t d are dental (tongue on the teeth). An h after a consonant (kh, gh, ph, th, bh…) means aspiration — a puff of breath — so th is never English 'th' and ph is never 'f'. The Persian/Arabic sounds are q (ق, deep in the throat), x (خ, as in Scottish 'loch'), ġ (غ, a gargled g), ʿ (ع) and ’ (ء), which today are usually just vowel breaks. ṃ after a vowel means the vowel is nasalised (ہاں hāṃ). Final ہ after a short vowel is written -a or -ah (کمرہ kamra, بارہ bārah). Note that the script often doesn't show short vowels, so the romanization is your guide to them.",
+  "pronunciation": [
+    {
+      "id": "short-vowels",
+      "title": "Short vowels are usually not written",
+      "body": "Ordinary Urdu writing shows consonants and long vowels (ā ī ū e o ai au) but leaves out the short vowels a, i, u. So کم could in principle be kam, kim or kum — but in practice it is *kam* 'less', and you simply learn each word's pronunciation. This is exactly how English speakers learn that 'read' can be reed or red.\n\nTwo consequences for learners: first, **always learn the romanization along with the script** when you meet a new word. Second, don't 'read in' vowels that aren't there: سمجھ is samajh, not sa-ma-ja-ha; کتاب is kitāb, with i after k and a long ā written by alif.\n\nThe most common short vowel is a (like 'u' in 'but'). Also note the very common pattern where a written ہ at the end of a word stands for a short final -a: کمرہ kamra 'room', بچہ bachcha 'child'.",
+      "tips": [
+        "When a dictionary or children's book shows zabar/zer/pesh, use them to check your guesses.",
+        "Final ہ after a consonant is usually -a: کمرہ kamra, پردہ parda.",
+        "Learn words as whole shapes — after a few weeks you'll recognise کتاب or شکریہ instantly.",
+        "Short a sounds like the 'u' in 'cup', never like the 'a' in 'cat'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "دِل",
+            "roman": "dil",
+            "en": "heart"
+          },
+          "b": {
+            "native": "دَل",
+            "roman": "dal",
+            "en": "group, party"
+          },
+          "note": "Same letters د ل; only the unwritten vowel differs."
+        },
+        {
+          "a": {
+            "native": "کُل",
+            "roman": "kul",
+            "en": "total, whole"
+          },
+          "b": {
+            "native": "کَل",
+            "roman": "kal",
+            "en": "yesterday; tomorrow"
+          },
+          "note": "Both written کل in ordinary text."
+        },
+        {
+          "a": {
+            "native": "مِلا",
+            "roman": "milā",
+            "en": "met, got (past)"
+          },
+          "b": {
+            "native": "مُلا",
+            "roman": "mullā",
+            "en": "mullah, cleric"
+          },
+          "note": "Written ملا; context and vowels/doubling distinguish."
+        },
+        {
+          "a": {
+            "native": "عِلم",
+            "roman": "ʿilm",
+            "en": "knowledge"
+          },
+          "b": {
+            "native": "عَلَم",
+            "roman": "ʿalam",
+            "en": "flag, banner"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "کتاب",
+          "roman": "kitāb",
+          "en": "book"
+        },
+        {
+          "native": "سمجھ",
+          "roman": "samajh",
+          "en": "understanding"
+        },
+        {
+          "native": "شکریہ",
+          "roman": "shukriya",
+          "en": "thank you"
+        },
+        {
+          "native": "کمرہ",
+          "roman": "kamra",
+          "en": "room"
+        },
+        {
+          "native": "مشکل",
+          "roman": "mushkil",
+          "en": "difficult"
+        },
+        {
+          "native": "محبت",
+          "roman": "mohabbat",
+          "en": "love"
+        }
+      ]
+    },
+    {
+      "id": "vowel-length",
+      "title": "Short and long vowels",
+      "body": "Urdu contrasts short a, i, u with long ā, ī, ū, and the difference changes meaning. The long vowels are not just longer — they also have a different quality: short a is the 'u' of 'cup', long ā is the 'a' of 'father'; short i is 'sit', long ī is 'seat'; short u is 'put', long ū is 'boot'.\n\nThe vowels e and o are always long and pure — no English glide at the end. Say *e* like 'café' (not 'cay-ee') and *o* like Scottish 'go' (not 'goh-oo'). The vowels ai and au are single sounds too: ai is like 'bat' (Lahore and Karachi) and au like 'law'.\n\nThe good news: long vowels are always written (ا و ی ے), so the script tells you when a vowel is long.",
+      "tips": [
+        "Exaggerate the length of ā at first: kāaam.",
+        "Keep e and o steady — don't let them slide into 'ay-ee' or 'oh-oo'.",
+        "ai in ہے hai sounds like English 'heh' or 'hæ', not 'high'.",
+        "au in اور aur sounds like 'or' in British English without the r-colour, not 'hour'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "کم",
+            "roman": "kam",
+            "en": "less"
+          },
+          "b": {
+            "native": "کام",
+            "roman": "kām",
+            "en": "work"
+          }
+        },
+        {
+          "a": {
+            "native": "دن",
+            "roman": "din",
+            "en": "day"
+          },
+          "b": {
+            "native": "دین",
+            "roman": "dīn",
+            "en": "religion, faith"
+          }
+        },
+        {
+          "a": {
+            "native": "جل",
+            "roman": "jal",
+            "en": "burn! (imperative)"
+          },
+          "b": {
+            "native": "جال",
+            "roman": "jāl",
+            "en": "net, web"
+          }
+        },
+        {
+          "a": {
+            "native": "مل",
+            "roman": "mil",
+            "en": "meet! (imperative)"
+          },
+          "b": {
+            "native": "میل",
+            "roman": "mīl",
+            "en": "mile"
+          }
+        },
+        {
+          "a": {
+            "native": "سنا",
+            "roman": "sunā",
+            "en": "heard"
+          },
+          "b": {
+            "native": "سونا",
+            "roman": "sonā",
+            "en": "to sleep; gold"
+          }
+        },
+        {
+          "a": {
+            "native": "بس",
+            "roman": "bas",
+            "en": "enough; bus"
+          },
+          "b": {
+            "native": "باس",
+            "roman": "bās",
+            "en": "smell (esp. stale)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "آم",
+          "roman": "ām",
+          "en": "mango"
+        },
+        {
+          "native": "تیر",
+          "roman": "tīr",
+          "en": "arrow"
+        },
+        {
+          "native": "دور",
+          "roman": "dūr",
+          "en": "far"
+        },
+        {
+          "native": "ہے",
+          "roman": "hai",
+          "en": "is"
+        },
+        {
+          "native": "اور",
+          "roman": "aur",
+          "en": "and"
+        },
+        {
+          "native": "میز",
+          "roman": "mez",
+          "en": "table"
+        },
+        {
+          "native": "روز",
+          "roman": "roz",
+          "en": "daily"
+        }
+      ]
+    },
+    {
+      "id": "aspiration",
+      "title": "Aspiration: k vs kh, p vs ph, t vs th…",
+      "body": "Urdu distinguishes plain consonants from aspirated ones — consonants followed by a strong puff of breath. Aspirated letters are written with **ھ** (do-chashmī he): کھ kh, پھ ph, تھ th, ٹھ ṭh, چھ chh. There are also breathy-voiced ones: بھ bh, دھ dh, ڈھ ḍh, جھ jh, گھ gh, ڑھ ṛh.\n\nEnglish actually has both kinds of k, p and t — the p in 'pin' is aspirated, the p in 'spin' is not — but English speakers don't notice the difference. In Urdu it changes meaning: کان kān 'ear' but کھان khān 'mine (quarry)'. So you need to learn to produce **plain** k, p, t, ch with *no* puff (as after s in English) and aspirated ones with a *big* puff.\n\nRemember: th is never English 'th', and ph is never 'f'. And kh (کھ) is not x (خ).",
+      "tips": [
+        "Hold a tissue in front of your mouth: it should stay still for پ p and flutter for پھ ph.",
+        "For plain p/t/k, imagine an s before them: 'spa', 'star', 'sky'.",
+        "For bh, dh, gh, say the consonant with a sigh, like 'abhor' or 'doghouse'.",
+        "Don't confuse کھ kh with خ x: kh is a k with a puff; x is a scrape in the throat."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "کان",
+            "roman": "kān",
+            "en": "ear"
+          },
+          "b": {
+            "native": "کھان",
+            "roman": "khān",
+            "en": "mine, quarry"
+          }
+        },
+        {
+          "a": {
+            "native": "پل",
+            "roman": "pal",
+            "en": "moment"
+          },
+          "b": {
+            "native": "پھل",
+            "roman": "phal",
+            "en": "fruit"
+          }
+        },
+        {
+          "a": {
+            "native": "تال",
+            "roman": "tāl",
+            "en": "rhythm; pond"
+          },
+          "b": {
+            "native": "تھال",
+            "roman": "thāl",
+            "en": "large platter"
+          }
+        },
+        {
+          "a": {
+            "native": "چال",
+            "roman": "chāl",
+            "en": "gait; trick"
+          },
+          "b": {
+            "native": "چھال",
+            "roman": "chhāl",
+            "en": "bark (of a tree)"
+          }
+        },
+        {
+          "a": {
+            "native": "بالا",
+            "roman": "bālā",
+            "en": "upper; earring"
+          },
+          "b": {
+            "native": "بھالا",
+            "roman": "bhālā",
+            "en": "spear"
+          }
+        },
+        {
+          "a": {
+            "native": "دان",
+            "roman": "dān",
+            "en": "gift, charity"
+          },
+          "b": {
+            "native": "دھان",
+            "roman": "dhān",
+            "en": "paddy (rice plant)"
+          }
+        },
+        {
+          "a": {
+            "native": "ڈال",
+            "roman": "ḍāl",
+            "en": "put! (imperative); branch"
+          },
+          "b": {
+            "native": "ڈھال",
+            "roman": "ḍhāl",
+            "en": "shield; slope"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "کھانا",
+          "roman": "khānā",
+          "en": "food; to eat"
+        },
+        {
+          "native": "گھر",
+          "roman": "ghar",
+          "en": "home"
+        },
+        {
+          "native": "ٹھیک",
+          "roman": "ṭhīk",
+          "en": "fine, OK"
+        },
+        {
+          "native": "بھائی",
+          "roman": "bhā’ī",
+          "en": "brother"
+        },
+        {
+          "native": "دودھ",
+          "roman": "dūdh",
+          "en": "milk"
+        },
+        {
+          "native": "ہاتھ",
+          "roman": "hāth",
+          "en": "hand"
+        },
+        {
+          "native": "اچھا",
+          "roman": "achchhā",
+          "en": "good"
+        },
+        {
+          "native": "سمجھ",
+          "roman": "samajh",
+          "en": "understanding"
+        }
+      ]
+    },
+    {
+      "id": "retroflex",
+      "title": "Retroflex ٹ ڈ vs dental ت د",
+      "body": "Urdu has two kinds of t and d. The **dental** ones, ت t and د d, are made with the tongue tip pressed against the back of the upper front teeth — softer than English t/d. The **retroflex** ones, ٹ ṭ and ڈ ḍ (marked with a small ط on top), are made with the tongue tip curled back to touch the roof of the mouth behind the gum ridge.\n\nEnglish t and d fall in between, which is why Urdu speakers hear English t/d as retroflex: 'TV' becomes ٹی وی, 'doctor' becomes ڈاکٹر. So if you use your normal English t/d you will sound fine for ٹ ڈ but wrong for ت د. Concentrate on making ت د truly dental — almost like a lisped t.\n\nRetroflex sounds appear in many everyday native words: ٹھیک ṭhīk 'OK', ڈر ḍar 'fear', چھوٹا chhoṭā 'small'.",
+      "tips": [
+        "For ت د, put the tongue tip firmly against your teeth, as if about to say 'th' — then make a t/d.",
+        "For ٹ ڈ, curl the tongue back and strike the roof of the mouth with its underside.",
+        "English loanwords use the retroflex series: ٹکٹ ṭikaṭ 'ticket', ڈاکٹر ḍākṭar.",
+        "Practise in pairs, slowly, then fast."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ٹال",
+            "roman": "ṭāl",
+            "en": "put off! (postpone)"
+          },
+          "b": {
+            "native": "تال",
+            "roman": "tāl",
+            "en": "rhythm; pond"
+          }
+        },
+        {
+          "a": {
+            "native": "ڈال",
+            "roman": "ḍāl",
+            "en": "put! (imperative)"
+          },
+          "b": {
+            "native": "دال",
+            "roman": "dāl",
+            "en": "lentils"
+          }
+        },
+        {
+          "a": {
+            "native": "ڈر",
+            "roman": "ḍar",
+            "en": "fear"
+          },
+          "b": {
+            "native": "در",
+            "roman": "dar",
+            "en": "door; rate"
+          }
+        },
+        {
+          "a": {
+            "native": "پٹا",
+            "roman": "paṭā",
+            "en": "collar, leash"
+          },
+          "b": {
+            "native": "پتا",
+            "roman": "patā",
+            "en": "address; knowledge"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ٹوپی",
+          "roman": "ṭopī",
+          "en": "cap"
+        },
+        {
+          "native": "ڈاکٹر",
+          "roman": "ḍākṭar",
+          "en": "doctor"
+        },
+        {
+          "native": "تین",
+          "roman": "tīn",
+          "en": "three"
+        },
+        {
+          "native": "دس",
+          "roman": "das",
+          "en": "ten"
+        },
+        {
+          "native": "چھوٹا",
+          "roman": "chhoṭā",
+          "en": "small"
+        },
+        {
+          "native": "دودھ",
+          "roman": "dūdh",
+          "en": "milk"
+        },
+        {
+          "native": "ٹماٹر",
+          "roman": "ṭamāṭar",
+          "en": "tomato"
+        }
+      ]
+    },
+    {
+      "id": "flaps",
+      "title": "The flaps ڑ ṛ and ڑھ ṛh, and the tapped ر r",
+      "body": "Urdu ر r is a single quick tap of the tongue tip behind the teeth, like the tt in American 'better' or a Spanish r. It is always pronounced, even at the end of a word (گھر ghar has a real r) — never silent as in British English.\n\nڑ ṛ is a different sound: curl the tongue tip back (as for ٹ ڈ) and then flick it forward so that the underside slaps the roof of the mouth on the way out. It never starts a word; it appears between vowels or at the end: بڑا baṛā 'big', گاڑی gāṛī 'car', پہاڑ pahāṛ 'mountain'. ڑھ ṛh is the same with a breathy release: پڑھنا paṛhnā 'to read'.\n\nThe contrast between ر, ڑ and ڈ matters: ڈ is a full stop (the tongue holds), ڑ is a flick.",
+      "tips": [
+        "Say 'butter' the American way — that middle sound is close to ر.",
+        "For ڑ, start with the tongue curled back as if for 'rr' and flick it down and forward.",
+        "Never pronounce English 'r' (with rounded lips and bunched tongue) in Urdu.",
+        "Keep final r: گھر ghar, سر sar, اور aur."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "بڑا",
+            "roman": "baṛā",
+            "en": "big"
+          },
+          "b": {
+            "native": "برا",
+            "roman": "burā",
+            "en": "bad"
+          }
+        },
+        {
+          "a": {
+            "native": "باڑ",
+            "roman": "bāṛ",
+            "en": "fence; flood"
+          },
+          "b": {
+            "native": "بار",
+            "roman": "bār",
+            "en": "time (occasion); load"
+          }
+        },
+        {
+          "a": {
+            "native": "پیڑ",
+            "roman": "peṛ",
+            "en": "tree"
+          },
+          "b": {
+            "native": "پیر",
+            "roman": "pair",
+            "en": "foot"
+          }
+        },
+        {
+          "a": {
+            "native": "مڑنا",
+            "roman": "muṛnā",
+            "en": "to turn"
+          },
+          "b": {
+            "native": "مرنا",
+            "roman": "marnā",
+            "en": "to die"
+          },
+          "note": "Also a vowel difference — but the flick vs tap is the key."
+        },
+        {
+          "a": {
+            "native": "گھڑی",
+            "roman": "ghaṛī",
+            "en": "watch, clock"
+          },
+          "b": {
+            "native": "گھری",
+            "roman": "ghirī",
+            "en": "surrounded (f.)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "سڑک",
+          "roman": "saṛak",
+          "en": "road"
+        },
+        {
+          "native": "لڑکا",
+          "roman": "laṛkā",
+          "en": "boy"
+        },
+        {
+          "native": "لڑکی",
+          "roman": "laṛkī",
+          "en": "girl"
+        },
+        {
+          "native": "کپڑے",
+          "roman": "kapṛe",
+          "en": "clothes"
+        },
+        {
+          "native": "پڑھنا",
+          "roman": "paṛhnā",
+          "en": "to read; to study"
+        },
+        {
+          "native": "گھوڑا",
+          "roman": "ghoṛā",
+          "en": "horse"
+        },
+        {
+          "native": "رات",
+          "roman": "rāt",
+          "en": "night"
+        }
+      ]
+    },
+    {
+      "id": "nasal-vowels",
+      "title": "Nasal vowels with ں",
+      "body": "A vowel can be pronounced with air flowing through the nose as well as the mouth — a nasal vowel, like French 'bon' or the 'uh-uh' sound of English 'no'. In Urdu this is written with **ں** (nūn ġunna, nūn without a dot) at the end of a word, and with an ordinary ن (often undotted in handwriting) in the middle.\n\nNasalization is grammatically important: it marks plural verbs and many grammatical endings. ہے hai 'is' vs ہیں haiṃ 'are'; کہا kahā 'said' vs کہاں kahāṃ 'where'; میں maiṃ 'I'. There is no n consonant here — don't say 'hain' with a full n; just let the vowel go through the nose.\n\nBefore a stop consonant, a nasal vowel often sounds like a short nasal consonant: پانچ pāṃch 'five', اونٹ ūnṭ 'camel'.",
+      "tips": [
+        "Pinch your nose: for a nasal vowel the sound should change; for a plain vowel it shouldn't.",
+        "Don't close your mouth or touch the tongue to the roof at the end of ہیں — it's a vowel, not 'n'.",
+        "ں is always at the end of a word; ن with a dot is a real n.",
+        "Listen for nasal endings on verbs: ہوں hūṃ, ہیں haiṃ, جائیں jā’eṃ."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "ہے",
+            "roman": "hai",
+            "en": "is"
+          },
+          "b": {
+            "native": "ہیں",
+            "roman": "haiṃ",
+            "en": "are"
+          }
+        },
+        {
+          "a": {
+            "native": "کہا",
+            "roman": "kahā",
+            "en": "said"
+          },
+          "b": {
+            "native": "کہاں",
+            "roman": "kahāṃ",
+            "en": "where"
+          }
+        },
+        {
+          "a": {
+            "native": "ہو",
+            "roman": "ho",
+            "en": "(you) are (informal)"
+          },
+          "b": {
+            "native": "ہوں",
+            "roman": "hūṃ",
+            "en": "(I) am"
+          }
+        },
+        {
+          "a": {
+            "native": "ساس",
+            "roman": "sās",
+            "en": "mother-in-law"
+          },
+          "b": {
+            "native": "سانس",
+            "roman": "sāṃs",
+            "en": "breath"
+          }
+        },
+        {
+          "a": {
+            "native": "باس",
+            "roman": "bās",
+            "en": "smell"
+          },
+          "b": {
+            "native": "بانس",
+            "roman": "bāṃs",
+            "en": "bamboo"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ہاں",
+          "roman": "hāṃ",
+          "en": "yes"
+        },
+        {
+          "native": "نہیں",
+          "roman": "nahīṃ",
+          "en": "no"
+        },
+        {
+          "native": "میں",
+          "roman": "maiṃ",
+          "en": "I"
+        },
+        {
+          "native": "یہاں",
+          "roman": "yahāṃ",
+          "en": "here"
+        },
+        {
+          "native": "گاؤں",
+          "roman": "gā’oṃ",
+          "en": "village"
+        },
+        {
+          "native": "پانچ",
+          "roman": "pāṃch",
+          "en": "five"
+        },
+        {
+          "native": "دانت",
+          "roman": "dāṃt",
+          "en": "tooth"
+        }
+      ]
+    },
+    {
+      "id": "q-k",
+      "title": "ق q vs ک k",
+      "body": "ق q is made further back than k: the back of the tongue touches the uvula (the little dangling thing at the back of the mouth) instead of the soft palate. It sounds deeper and more 'hollow', and it tends to pull neighbouring vowels back: قلم qalam sounds a bit like 'qulum'.\n\nIn careful and educated speech, and in Pakistan generally, q is kept distinct. In very casual speech and in many Indian varieties it merges with k (so you will hear 'kalam'). Learn to make q — it signals good Urdu — but don't worry if you hear k.",
+      "tips": [
+        "Say 'k' and slide the contact point as far back as you can, almost to a gargle — but with a full stop.",
+        "Practise 'kaw-kaw-qaw-qaw', feeling the tongue move back.",
+        "Most words with ق are Arabic: وقت vaqt, قیمت qīmat, حقیقت haqīqat."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "قمر",
+            "roman": "qamar",
+            "en": "moon (poetic)"
+          },
+          "b": {
+            "native": "کمر",
+            "roman": "kamar",
+            "en": "waist, lower back"
+          }
+        },
+        {
+          "a": {
+            "native": "طاق",
+            "roman": "tāq",
+            "en": "niche; odd (number)"
+          },
+          "b": {
+            "native": "تاک",
+            "roman": "tāk",
+            "en": "aim, watch (for)"
+          }
+        },
+        {
+          "a": {
+            "native": "قلی",
+            "roman": "qulī",
+            "en": "porter"
+          },
+          "b": {
+            "native": "کلی",
+            "roman": "kalī",
+            "en": "bud"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "قلم",
+          "roman": "qalam",
+          "en": "pen"
+        },
+        {
+          "native": "وقت",
+          "roman": "vaqt",
+          "en": "time"
+        },
+        {
+          "native": "قیمت",
+          "roman": "qīmat",
+          "en": "price"
+        },
+        {
+          "native": "قریب",
+          "roman": "qarīb",
+          "en": "near"
+        },
+        {
+          "native": "حقیقت",
+          "roman": "haqīqat",
+          "en": "reality"
+        },
+        {
+          "native": "شوق",
+          "roman": "shauq",
+          "en": "hobby; keen interest"
+        }
+      ]
+    },
+    {
+      "id": "x-kh-g-gh",
+      "title": "خ x, غ ġ vs کھ kh, گھ gh",
+      "body": "These four are a classic beginners' trap because the romanization of many older books writes خ as 'kh' and غ as 'gh'. In this course **kh and gh always mean the aspirated stops** کھ گھ, and **x and ġ mean the fricatives** خ غ.\n\nخ x is a continuous scraping sound at the back of the mouth, like Scottish 'loch' or German 'Bach' — your tongue never fully closes. غ ġ is the voiced version — like a French r or gargling. By contrast, کھ kh is a k (full closure!) with a puff of air, and گھ gh is a g with breathy release.\n\nخ and غ come from Persian and Arabic and are very common in everyday words: خوش xush 'happy', خبر xabar 'news', غلط ġalat 'wrong', باغ bāġ 'garden'.",
+      "tips": [
+        "For خ, say 'k' but don't let the tongue touch — let the air hiss through.",
+        "For غ, do the same with your voice on, like gargling gently.",
+        "For کھ and گھ, there is a clear stop, then a release with breath.",
+        "Casual speakers sometimes say خ as kh and غ as g; aim for x and ġ."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "خان",
+            "roman": "xān",
+            "en": "Khan (title, surname)"
+          },
+          "b": {
+            "native": "کھان",
+            "roman": "khān",
+            "en": "mine, quarry"
+          }
+        },
+        {
+          "a": {
+            "native": "خیر",
+            "roman": "xair",
+            "en": "well-being; anyway"
+          },
+          "b": {
+            "native": "کھیر",
+            "roman": "khīr",
+            "en": "rice pudding"
+          },
+          "note": "The vowels differ too, but listen to the first sound."
+        },
+        {
+          "a": {
+            "native": "غول",
+            "roman": "ġol",
+            "en": "flock, gang"
+          },
+          "b": {
+            "native": "گول",
+            "roman": "gol",
+            "en": "round"
+          }
+        },
+        {
+          "a": {
+            "native": "باغ",
+            "roman": "bāġ",
+            "en": "garden"
+          },
+          "b": {
+            "native": "باگ",
+            "roman": "bāg",
+            "en": "rein(s)"
+          }
+        },
+        {
+          "a": {
+            "native": "غم",
+            "roman": "ġam",
+            "en": "sorrow"
+          },
+          "b": {
+            "native": "گم",
+            "roman": "gum",
+            "en": "lost"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "خوش",
+          "roman": "xush",
+          "en": "happy"
+        },
+        {
+          "native": "خبر",
+          "roman": "xabar",
+          "en": "news"
+        },
+        {
+          "native": "غلط",
+          "roman": "ġalat",
+          "en": "wrong"
+        },
+        {
+          "native": "کھیل",
+          "roman": "khel",
+          "en": "game"
+        },
+        {
+          "native": "گھی",
+          "roman": "ghī",
+          "en": "ghee"
+        },
+        {
+          "native": "خدا حافظ",
+          "roman": "xudā hāfiz",
+          "en": "goodbye"
+        },
+        {
+          "native": "غریب",
+          "roman": "ġarīb",
+          "en": "poor"
+        }
+      ]
+    },
+    {
+      "id": "ain-hamza",
+      "title": "ع ʿain and ء hamza in practice",
+      "body": "In Arabic, ع is a strong throat consonant. In everyday Urdu it is **usually not pronounced as a consonant at all**. Instead it affects the vowels around it: at the start of a word it is simply a vowel carrier (عام ʿām sounds exactly like آم ām 'mango'); after a short a it typically makes the vowel long and open (بعد baʿd → 'bād', شعر shiʿr → 'sher', معلوم maʿlūm → 'mālūm'). Careful speakers, news readers and religious contexts may add a slight catch in the throat.\n\nHamza ء marks the boundary between two vowels — جائے jā’e, آئیے ā’iye, سوال savāl — where the voice glides from one vowel to the next. It is not a hard glottal stop in normal speech.\n\nIn this course's romanization, ʿ and ’ show you where these letters are, so you can spell the words; in speaking, follow the notes and your ear.",
+      "tips": [
+        "Don't produce an Arabic-style throat sound for ع in casual Urdu — it sounds affected.",
+        "aʿ before a consonant usually sounds like a long ā or open 'e': بعد 'bād', شعر 'sher'.",
+        "Hamza between vowels = a smooth glide: جائیں 'jaa-eñ'.",
+        "Write ع correctly even though you don't hear it — Urdu speakers notice spelling mistakes."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "عام",
+            "roman": "ʿām",
+            "en": "common, ordinary"
+          },
+          "b": {
+            "native": "آم",
+            "roman": "ām",
+            "en": "mango"
+          },
+          "note": "Pronounced identically: ām."
+        },
+        {
+          "a": {
+            "native": "عرض",
+            "roman": "ʿarz",
+            "en": "request, submission"
+          },
+          "b": {
+            "native": "ارض",
+            "roman": "arz",
+            "en": "earth, land (Arabic)"
+          },
+          "note": "Both pronounced arz."
+        },
+        {
+          "a": {
+            "native": "شعر",
+            "roman": "shiʿr",
+            "en": "couplet (poetry)"
+          },
+          "b": {
+            "native": "شیر",
+            "roman": "sher",
+            "en": "lion"
+          },
+          "note": "In everyday speech both sound like 'sher'."
+        }
+      ],
+      "drill": [
+        {
+          "native": "بعد",
+          "roman": "baʿd",
+          "en": "after (sounds 'bād')"
+        },
+        {
+          "native": "معلوم",
+          "roman": "maʿlūm",
+          "en": "known (sounds 'mālūm')"
+        },
+        {
+          "native": "عورت",
+          "roman": "ʿaurat",
+          "en": "woman"
+        },
+        {
+          "native": "شروع",
+          "roman": "shurūʿ",
+          "en": "beginning"
+        },
+        {
+          "native": "آئیے",
+          "roman": "ā’iye",
+          "en": "please come"
+        },
+        {
+          "native": "سوال",
+          "roman": "savāl",
+          "en": "question"
+        },
+        {
+          "native": "جائیں",
+          "roman": "jā’eṃ",
+          "en": "please go"
+        }
+      ]
+    },
+    {
+      "id": "same-sounds",
+      "title": "One sound, several letters: the z's, s's, t's and h's",
+      "body": "Because Urdu preserves the Arabic spelling of loanwords, several letters are pronounced the same:\n\n**z** — ز ذ ض ظ (ze, zāl, zu’ād, zo’e). ز is the native and Persian one and by far the most common.\n**s** — س ث ص (sīn, se, su’ād). س is the most common.\n**t** — ت ط (te, to’e).\n**h** — ہ ح (choṭī he, baṛī he).\n\nFor speaking this is good news: there are fewer sounds than letters. For writing you just have to learn which letter each word uses — the romanization (z, s, t, h) won't tell you. A useful hint: words with ث ذ ص ض ط ظ ح ع are almost always Arabic in origin.",
+      "tips": [
+        "Learn the spelling with the word: نظر nazar 'sight' has ظ; ضرور zarūr has ض; ذرا zarā has ذ.",
+        "Pairs of homophones are distinguished only in writing — like 'right/write' in English.",
+        "ژ zh is a separate, rare sound (as in 'measure')."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "سدا",
+            "roman": "sadā",
+            "en": "always (poetic)"
+          },
+          "b": {
+            "native": "صدا",
+            "roman": "sadā",
+            "en": "voice, call"
+          },
+          "note": "Same pronunciation."
+        },
+        {
+          "a": {
+            "native": "حال",
+            "roman": "hāl",
+            "en": "condition"
+          },
+          "b": {
+            "native": "ہال",
+            "roman": "hāl",
+            "en": "hall"
+          },
+          "note": "Same pronunciation."
+        },
+        {
+          "a": {
+            "native": "نذر",
+            "roman": "nazr",
+            "en": "offering"
+          },
+          "b": {
+            "native": "نظر",
+            "roman": "nazar",
+            "en": "sight, glance"
+          },
+          "note": "Different vowels, but both z."
+        },
+        {
+          "a": {
+            "native": "تیر",
+            "roman": "tīr",
+            "en": "arrow"
+          },
+          "b": {
+            "native": "طیر",
+            "roman": "tair",
+            "en": "bird (literary)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "زبان",
+          "roman": "zabān",
+          "en": "language; tongue"
+        },
+        {
+          "native": "ذرا",
+          "roman": "zarā",
+          "en": "a little"
+        },
+        {
+          "native": "ضرور",
+          "roman": "zarūr",
+          "en": "certainly"
+        },
+        {
+          "native": "ظاہر",
+          "roman": "zāhir",
+          "en": "obvious"
+        },
+        {
+          "native": "صاف",
+          "roman": "sāf",
+          "en": "clean"
+        },
+        {
+          "native": "ثابت",
+          "roman": "sābit",
+          "en": "whole; proven"
+        },
+        {
+          "native": "طرح",
+          "roman": "tarah",
+          "en": "way, manner"
+        }
+      ]
+    },
+    {
+      "id": "e-ai-o-au",
+      "title": "Same spelling, different vowels: e/ai and o/ū/au",
+      "body": "The letters ی/ے and و each write several vowels. ی in the middle of a word can be ī, e or ai; و can be ū, o or au (or the consonant v). Without diacritics, the spelling doesn't tell you which — some words are even spelled identically: پیر is both pīr 'Monday; saint' and pair 'foot'; بیل is bel 'creeper' and bail 'ox'; سو is so 'sleep!' and sau 'hundred'.\n\nIn practice context makes the meaning clear. For pronunciation, remember the qualities: e as in 'café', ai as in 'bat'; o as in 'go' (pure), au as in 'law'.",
+      "tips": [
+        "ai and au are single vowels in standard Urdu, not diphthongs like English 'eye' and 'ow'.",
+        "When in doubt, follow the romanization.",
+        "Diacritics distinguish them: پَیر pair vs پِیر pīr; سَو sau vs سو so."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "پیر",
+            "roman": "pīr",
+            "en": "Monday; saint"
+          },
+          "b": {
+            "native": "پیر",
+            "roman": "pair",
+            "en": "foot"
+          },
+          "note": "Same spelling."
+        },
+        {
+          "a": {
+            "native": "بیل",
+            "roman": "bel",
+            "en": "creeper, vine"
+          },
+          "b": {
+            "native": "بیل",
+            "roman": "bail",
+            "en": "ox, bullock"
+          },
+          "note": "Same spelling."
+        },
+        {
+          "a": {
+            "native": "سو",
+            "roman": "so",
+            "en": "sleep! (informal)"
+          },
+          "b": {
+            "native": "سو",
+            "roman": "sau",
+            "en": "hundred"
+          },
+          "note": "Same spelling."
+        },
+        {
+          "a": {
+            "native": "دور",
+            "roman": "dūr",
+            "en": "far"
+          },
+          "b": {
+            "native": "دور",
+            "roman": "daur",
+            "en": "era, period; round"
+          },
+          "note": "Same spelling."
+        }
+      ],
+      "drill": [
+        {
+          "native": "میں",
+          "roman": "maiṃ",
+          "en": "I"
+        },
+        {
+          "native": "ایک",
+          "roman": "ek",
+          "en": "one"
+        },
+        {
+          "native": "کون",
+          "roman": "kaun",
+          "en": "who"
+        },
+        {
+          "native": "دوست",
+          "roman": "dost",
+          "en": "friend"
+        },
+        {
+          "native": "خوب",
+          "roman": "xūb",
+          "en": "fine, excellent"
+        },
+        {
+          "native": "پیسہ",
+          "roman": "paisa",
+          "en": "money; paisa"
+        }
+      ]
+    },
+    {
+      "id": "doubling",
+      "title": "Double consonants (tashdīd)",
+      "body": "A doubled consonant is held for longer before it is released — like the 'k k' in 'bookcase' or the 'n n' in 'unnamed'. In Urdu doubling is common and can change meaning: پتا patā 'address' vs پتّا pattā 'leaf'.\n\nThe script marks doubling with tashdīd (ّ), but like the short vowels it is usually left out, so you learn it with the word. Doubling also slightly shortens the vowel before it. Many very common words have it: اچھا achchhā, بچہ bachcha, سچ ہے sach hai vs سچّا sachchā 'true', پکا pakkā 'firm, ripe'.",
+      "tips": [
+        "Pause briefly on the consonant: ach-chhā, pak-kā.",
+        "Don't double where there is no doubling — that changes the word too.",
+        "Words borrowed from Arabic often have tashdīd: محبت mohabbat, اول avval."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "پتا",
+            "roman": "patā",
+            "en": "address; knowledge"
+          },
+          "b": {
+            "native": "پتّا",
+            "roman": "pattā",
+            "en": "leaf"
+          }
+        },
+        {
+          "a": {
+            "native": "پکا",
+            "roman": "pakā",
+            "en": "cooked; ripened"
+          },
+          "b": {
+            "native": "پکّا",
+            "roman": "pakkā",
+            "en": "firm, definite; ripe"
+          }
+        },
+        {
+          "a": {
+            "native": "گدا",
+            "roman": "gadā",
+            "en": "beggar (literary)"
+          },
+          "b": {
+            "native": "گدّا",
+            "roman": "gaddā",
+            "en": "mattress"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "اچھا",
+          "roman": "achchhā",
+          "en": "good"
+        },
+        {
+          "native": "بچہ",
+          "roman": "bachcha",
+          "en": "child"
+        },
+        {
+          "native": "سچا",
+          "roman": "sachchā",
+          "en": "true, honest"
+        },
+        {
+          "native": "محبت",
+          "roman": "mohabbat",
+          "en": "love"
+        },
+        {
+          "native": "ستر",
+          "roman": "sattar",
+          "en": "seventy"
+        },
+        {
+          "native": "اسی",
+          "roman": "assī",
+          "en": "eighty"
+        }
+      ]
+    },
+    {
+      "id": "intonation",
+      "title": "Rhythm and question intonation",
+      "body": "Urdu stress is light and fairly even — no syllable is shouted and no vowel is swallowed the way English reduces 'banana' to 'b'nana'. Heavy syllables (with a long vowel or ending in a consonant) get slightly more weight: kitāb, ghar, ach-chhā.\n\nYes/no questions are often identical to statements except for a **rising intonation** at the end: آپ ٹھیک ہیں۔ āp ṭhīk haiṃ (statement) vs آپ ٹھیک ہیں؟ āp ṭhīk haiṃ? (question). You can also start with کیا kyā, which turns the sentence into a yes/no question — it does not mean 'what' here. Question words (کون، کیا، کہاں…) usually sit right before the verb, and the voice rises on the question word.\n\nThe little word نا nā at the end of a sentence asks for agreement, like 'right?' or 'isn't it?'.",
+      "tips": [
+        "Don't reduce unstressed vowels to 'uh'.",
+        "For yes/no questions, rise at the end — or add کیا at the start.",
+        "Add نا at the end to sound friendly and natural: ٹھیک ہے نا؟",
+        "Urdu ends statements with ۔ (a dash-like full stop), not a dot."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "آپ ٹھیک ہیں۔",
+            "roman": "āp ṭhīk haiṃ.",
+            "en": "You are fine."
+          },
+          "b": {
+            "native": "آپ ٹھیک ہیں؟",
+            "roman": "āp ṭhīk haiṃ?",
+            "en": "Are you fine?"
+          },
+          "note": "Only the intonation differs."
+        },
+        {
+          "a": {
+            "native": "وہ آ رہا ہے۔",
+            "roman": "vo ā rahā hai.",
+            "en": "He's coming."
+          },
+          "b": {
+            "native": "کیا وہ آ رہا ہے؟",
+            "roman": "kyā vo ā rahā hai?",
+            "en": "Is he coming?"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "آپ کہاں سے ہیں؟",
+          "roman": "āp kahāṃ se haiṃ?",
+          "en": "Where are you from?"
+        },
+        {
+          "native": "کیا آپ اردو بولتے ہیں؟",
+          "roman": "kyā āp urdū bolte haiṃ?",
+          "en": "Do you speak Urdu?"
+        },
+        {
+          "native": "ٹھیک ہے نا؟",
+          "roman": "ṭhīk hai nā?",
+          "en": "It's OK, right?"
+        },
+        {
+          "native": "یہ کتنے کا ہے؟",
+          "roman": "ye kitne kā hai?",
+          "en": "How much is this?"
+        },
+        {
+          "native": "اچھا؟",
+          "roman": "achchhā?",
+          "en": "Really? / Is that so?"
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "n": 0,
+      "native": "صفر",
+      "roman": "sifr",
+      "digit": "۰"
+    },
+    {
+      "n": 1,
+      "native": "ایک",
+      "roman": "ek",
+      "digit": "۱"
+    },
+    {
+      "n": 2,
+      "native": "دو",
+      "roman": "do",
+      "digit": "۲"
+    },
+    {
+      "n": 3,
+      "native": "تین",
+      "roman": "tīn",
+      "digit": "۳"
+    },
+    {
+      "n": 4,
+      "native": "چار",
+      "roman": "chār",
+      "digit": "۴"
+    },
+    {
+      "n": 5,
+      "native": "پانچ",
+      "roman": "pāṃch",
+      "digit": "۵"
+    },
+    {
+      "n": 6,
+      "native": "چھ",
+      "roman": "chhe",
+      "digit": "۶"
+    },
+    {
+      "n": 7,
+      "native": "سات",
+      "roman": "sāt",
+      "digit": "۷"
+    },
+    {
+      "n": 8,
+      "native": "آٹھ",
+      "roman": "āṭh",
+      "digit": "۸"
+    },
+    {
+      "n": 9,
+      "native": "نو",
+      "roman": "nau",
+      "digit": "۹"
+    },
+    {
+      "n": 10,
+      "native": "دس",
+      "roman": "das",
+      "digit": "۱۰"
+    },
+    {
+      "n": 11,
+      "native": "گیارہ",
+      "roman": "gyārah",
+      "digit": "۱۱"
+    },
+    {
+      "n": 12,
+      "native": "بارہ",
+      "roman": "bārah",
+      "digit": "۱۲"
+    },
+    {
+      "n": 13,
+      "native": "تیرہ",
+      "roman": "terah",
+      "digit": "۱۳"
+    },
+    {
+      "n": 14,
+      "native": "چودہ",
+      "roman": "chaudah",
+      "digit": "۱۴"
+    },
+    {
+      "n": 15,
+      "native": "پندرہ",
+      "roman": "pandrah",
+      "digit": "۱۵"
+    },
+    {
+      "n": 16,
+      "native": "سولہ",
+      "roman": "solah",
+      "digit": "۱۶"
+    },
+    {
+      "n": 17,
+      "native": "سترہ",
+      "roman": "satrah",
+      "digit": "۱۷"
+    },
+    {
+      "n": 18,
+      "native": "اٹھارہ",
+      "roman": "aṭhārah",
+      "digit": "۱۸"
+    },
+    {
+      "n": 19,
+      "native": "انیس",
+      "roman": "unnīs",
+      "digit": "۱۹"
+    },
+    {
+      "n": 20,
+      "native": "بیس",
+      "roman": "bīs",
+      "digit": "۲۰"
+    },
+    {
+      "n": 21,
+      "native": "اکیس",
+      "roman": "ikkīs",
+      "digit": "۲۱"
+    },
+    {
+      "n": 22,
+      "native": "بائیس",
+      "roman": "bā’īs",
+      "digit": "۲۲"
+    },
+    {
+      "n": 23,
+      "native": "تئیس",
+      "roman": "te’īs",
+      "digit": "۲۳"
+    },
+    {
+      "n": 24,
+      "native": "چوبیس",
+      "roman": "chaubīs",
+      "digit": "۲۴"
+    },
+    {
+      "n": 25,
+      "native": "پچیس",
+      "roman": "pachchīs",
+      "digit": "۲۵"
+    },
+    {
+      "n": 26,
+      "native": "چھبیس",
+      "roman": "chhabbīs",
+      "digit": "۲۶"
+    },
+    {
+      "n": 27,
+      "native": "ستائیس",
+      "roman": "sattā’īs",
+      "digit": "۲۷"
+    },
+    {
+      "n": 28,
+      "native": "اٹھائیس",
+      "roman": "aṭṭhā’īs",
+      "digit": "۲۸"
+    },
+    {
+      "n": 29,
+      "native": "انتیس",
+      "roman": "untīs",
+      "digit": "۲۹"
+    },
+    {
+      "n": 30,
+      "native": "تیس",
+      "roman": "tīs",
+      "digit": "۳۰"
+    },
+    {
+      "n": 31,
+      "native": "اکتیس",
+      "roman": "iktīs",
+      "digit": "۳۱"
+    },
+    {
+      "n": 32,
+      "native": "بتیس",
+      "roman": "battīs",
+      "digit": "۳۲"
+    },
+    {
+      "n": 33,
+      "native": "تینتیس",
+      "roman": "taiṃtīs",
+      "digit": "۳۳"
+    },
+    {
+      "n": 34,
+      "native": "چونتیس",
+      "roman": "chauṃtīs",
+      "digit": "۳۴"
+    },
+    {
+      "n": 35,
+      "native": "پینتیس",
+      "roman": "paiṃtīs",
+      "digit": "۳۵"
+    },
+    {
+      "n": 36,
+      "native": "چھتیس",
+      "roman": "chhattīs",
+      "digit": "۳۶"
+    },
+    {
+      "n": 37,
+      "native": "سینتیس",
+      "roman": "saiṃtīs",
+      "digit": "۳۷"
+    },
+    {
+      "n": 38,
+      "native": "اڑتیس",
+      "roman": "aṛtīs",
+      "digit": "۳۸"
+    },
+    {
+      "n": 39,
+      "native": "انتالیس",
+      "roman": "untālīs",
+      "digit": "۳۹"
+    },
+    {
+      "n": 40,
+      "native": "چالیس",
+      "roman": "chālīs",
+      "digit": "۴۰"
+    },
+    {
+      "n": 41,
+      "native": "اکتالیس",
+      "roman": "iktālīs",
+      "digit": "۴۱"
+    },
+    {
+      "n": 42,
+      "native": "بیالیس",
+      "roman": "bayālīs",
+      "digit": "۴۲"
+    },
+    {
+      "n": 43,
+      "native": "تینتالیس",
+      "roman": "taiṃtālīs",
+      "digit": "۴۳"
+    },
+    {
+      "n": 44,
+      "native": "چوالیس",
+      "roman": "chavālīs",
+      "digit": "۴۴"
+    },
+    {
+      "n": 45,
+      "native": "پینتالیس",
+      "roman": "paiṃtālīs",
+      "digit": "۴۵"
+    },
+    {
+      "n": 46,
+      "native": "چھیالیس",
+      "roman": "chhiyālīs",
+      "digit": "۴۶"
+    },
+    {
+      "n": 47,
+      "native": "سینتالیس",
+      "roman": "saiṃtālīs",
+      "digit": "۴۷"
+    },
+    {
+      "n": 48,
+      "native": "اڑتالیس",
+      "roman": "aṛtālīs",
+      "digit": "۴۸"
+    },
+    {
+      "n": 49,
+      "native": "انچاس",
+      "roman": "unchās",
+      "digit": "۴۹"
+    },
+    {
+      "n": 50,
+      "native": "پچاس",
+      "roman": "pachās",
+      "digit": "۵۰"
+    },
+    {
+      "n": 51,
+      "native": "اکاون",
+      "roman": "ikyāvan",
+      "digit": "۵۱"
+    },
+    {
+      "n": 52,
+      "native": "باون",
+      "roman": "bāvan",
+      "digit": "۵۲"
+    },
+    {
+      "n": 53,
+      "native": "ترپن",
+      "roman": "tirpan",
+      "digit": "۵۳"
+    },
+    {
+      "n": 54,
+      "native": "چوون",
+      "roman": "chauvan",
+      "digit": "۵۴"
+    },
+    {
+      "n": 55,
+      "native": "پچپن",
+      "roman": "pachpan",
+      "digit": "۵۵"
+    },
+    {
+      "n": 56,
+      "native": "چھپن",
+      "roman": "chhappan",
+      "digit": "۵۶"
+    },
+    {
+      "n": 57,
+      "native": "ستاون",
+      "roman": "sattāvan",
+      "digit": "۵۷"
+    },
+    {
+      "n": 58,
+      "native": "اٹھاون",
+      "roman": "aṭṭhāvan",
+      "digit": "۵۸"
+    },
+    {
+      "n": 59,
+      "native": "انسٹھ",
+      "roman": "unsaṭh",
+      "digit": "۵۹"
+    },
+    {
+      "n": 60,
+      "native": "ساٹھ",
+      "roman": "sāṭh",
+      "digit": "۶۰"
+    },
+    {
+      "n": 61,
+      "native": "اکسٹھ",
+      "roman": "iksaṭh",
+      "digit": "۶۱"
+    },
+    {
+      "n": 62,
+      "native": "باسٹھ",
+      "roman": "bāsaṭh",
+      "digit": "۶۲"
+    },
+    {
+      "n": 63,
+      "native": "تریسٹھ",
+      "roman": "tirsaṭh",
+      "digit": "۶۳"
+    },
+    {
+      "n": 64,
+      "native": "چونسٹھ",
+      "roman": "chauṃsaṭh",
+      "digit": "۶۴"
+    },
+    {
+      "n": 65,
+      "native": "پینسٹھ",
+      "roman": "paiṃsaṭh",
+      "digit": "۶۵"
+    },
+    {
+      "n": 66,
+      "native": "چھیاسٹھ",
+      "roman": "chhiyāsaṭh",
+      "digit": "۶۶"
+    },
+    {
+      "n": 67,
+      "native": "سڑسٹھ",
+      "roman": "saṛsaṭh",
+      "digit": "۶۷"
+    },
+    {
+      "n": 68,
+      "native": "اڑسٹھ",
+      "roman": "aṛsaṭh",
+      "digit": "۶۸"
+    },
+    {
+      "n": 69,
+      "native": "انہتر",
+      "roman": "unhattar",
+      "digit": "۶۹"
+    },
+    {
+      "n": 70,
+      "native": "ستر",
+      "roman": "sattar",
+      "digit": "۷۰"
+    },
+    {
+      "n": 71,
+      "native": "اکہتر",
+      "roman": "ikhattar",
+      "digit": "۷۱"
+    },
+    {
+      "n": 72,
+      "native": "بہتر",
+      "roman": "bahattar",
+      "digit": "۷۲"
+    },
+    {
+      "n": 73,
+      "native": "تہتر",
+      "roman": "tihattar",
+      "digit": "۷۳"
+    },
+    {
+      "n": 74,
+      "native": "چوہتر",
+      "roman": "chauhattar",
+      "digit": "۷۴"
+    },
+    {
+      "n": 75,
+      "native": "پچہتر",
+      "roman": "pachhattar",
+      "digit": "۷۵"
+    },
+    {
+      "n": 76,
+      "native": "چھہتر",
+      "roman": "chhihattar",
+      "digit": "۷۶"
+    },
+    {
+      "n": 77,
+      "native": "ستتر",
+      "roman": "sathattar",
+      "digit": "۷۷"
+    },
+    {
+      "n": 78,
+      "native": "اٹھہتر",
+      "roman": "aṭhhattar",
+      "digit": "۷۸"
+    },
+    {
+      "n": 79,
+      "native": "اناسی",
+      "roman": "unāsī",
+      "digit": "۷۹"
+    },
+    {
+      "n": 80,
+      "native": "اسی",
+      "roman": "assī",
+      "digit": "۸۰"
+    },
+    {
+      "n": 81,
+      "native": "اکیاسی",
+      "roman": "ikyāsī",
+      "digit": "۸۱"
+    },
+    {
+      "n": 82,
+      "native": "بیاسی",
+      "roman": "bayāsī",
+      "digit": "۸۲"
+    },
+    {
+      "n": 83,
+      "native": "تراسی",
+      "roman": "tirāsī",
+      "digit": "۸۳"
+    },
+    {
+      "n": 84,
+      "native": "چوراسی",
+      "roman": "chaurāsī",
+      "digit": "۸۴"
+    },
+    {
+      "n": 85,
+      "native": "پچاسی",
+      "roman": "pachāsī",
+      "digit": "۸۵"
+    },
+    {
+      "n": 86,
+      "native": "چھیاسی",
+      "roman": "chhiyāsī",
+      "digit": "۸۶"
+    },
+    {
+      "n": 87,
+      "native": "ستاسی",
+      "roman": "sattāsī",
+      "digit": "۸۷"
+    },
+    {
+      "n": 88,
+      "native": "اٹھاسی",
+      "roman": "aṭṭhāsī",
+      "digit": "۸۸"
+    },
+    {
+      "n": 89,
+      "native": "نواسی",
+      "roman": "navāsī",
+      "digit": "۸۹"
+    },
+    {
+      "n": 90,
+      "native": "نوے",
+      "roman": "navve",
+      "digit": "۹۰"
+    },
+    {
+      "n": 91,
+      "native": "اکانوے",
+      "roman": "ikānve",
+      "digit": "۹۱"
+    },
+    {
+      "n": 92,
+      "native": "بانوے",
+      "roman": "bānve",
+      "digit": "۹۲"
+    },
+    {
+      "n": 93,
+      "native": "ترانوے",
+      "roman": "tirānve",
+      "digit": "۹۳"
+    },
+    {
+      "n": 94,
+      "native": "چورانوے",
+      "roman": "chaurānve",
+      "digit": "۹۴"
+    },
+    {
+      "n": 95,
+      "native": "پچانوے",
+      "roman": "pachānve",
+      "digit": "۹۵"
+    },
+    {
+      "n": 96,
+      "native": "چھیانوے",
+      "roman": "chhiyānve",
+      "digit": "۹۶"
+    },
+    {
+      "n": 97,
+      "native": "ستانوے",
+      "roman": "sattānve",
+      "digit": "۹۷"
+    },
+    {
+      "n": 98,
+      "native": "اٹھانوے",
+      "roman": "aṭṭhānve",
+      "digit": "۹۸"
+    },
+    {
+      "n": 99,
+      "native": "ننانوے",
+      "roman": "ninānve",
+      "digit": "۹۹"
+    },
+    {
+      "n": 100,
+      "native": "سو",
+      "roman": "sau",
+      "digit": "۱۰۰"
+    },
+    {
+      "n": 200,
+      "native": "دو سو",
+      "roman": "do sau",
+      "digit": "۲۰۰"
+    },
+    {
+      "n": 500,
+      "native": "پانچ سو",
+      "roman": "pāṃch sau",
+      "digit": "۵۰۰"
+    },
+    {
+      "n": 1000,
+      "native": "ایک ہزار",
+      "roman": "ek hazār",
+      "digit": "۱۰۰۰"
+    },
+    {
+      "n": 100000,
+      "native": "ایک لاکھ",
+      "roman": "ek lākh",
+      "digit": "۱,۰۰,۰۰۰"
+    },
+    {
+      "n": 10000000,
+      "native": "ایک کروڑ",
+      "roman": "ek karoṛ",
+      "digit": "۱,۰۰,۰۰,۰۰۰"
+    }
+  ]
+}

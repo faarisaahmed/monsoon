@@ -1,0 +1,2859 @@
+{
+  "code": "bn",
+  "name": "Bengali",
+  "native": "বাংলা",
+  "scriptName": "Bengali–Assamese",
+  "script": {
+    "overview": "Bengali is written left to right in an **abugida**: each consonant letter already includes the vowel অ (*ô*), so ক alone reads *kô*. To write any other vowel after a consonant you add a **vowel sign** (কার *kar*): কা *ka*, কি *ki*, কু *ku*, কে *ke*, কো *ko*. Some signs go after the consonant (া ী), some before it (ি ে ৈ), some below (ু ূ ৃ), and two wrap around it (ো ৌ). Note that ি and ে are **written before** the consonant but **pronounced after** it. Full vowel letters (অ আ ই ...) are used only at the start of a word or after another vowel.\n\nMost letters hang from a horizontal **headline** (মাত্রা *matra*). Write the letter first, then draw the headline across the whole word. A few letters (e.g. এ ঐ ও ঔ ঙ ঞ ৎ ং ঃ ঁ, and parts of others) have no headline or only a partial one.\n\nTo show a consonant with **no** vowel you can add the hasanta (্), but normally two consonants together are fused into a **conjunct** (যুক্তাক্ষর *juktakkhor*): ন + ত = ন্ত, ক + ষ = ক্ষ. Some conjuncts are simply the two letters squeezed together; others look quite different and must be learned. Special shapes include র-ফলা (a slash under a letter for r: প্র *pr*), রেফ (a small stroke above for a preceding r: র্ম *rm*) and য-ফলা (a hook after a letter that usually just **doubles** the consonant: বিদ্যা *bidda*).\n\nSpelling is historical, so several letters now sound the same (শ ষ স; জ য; ন ণ; ই ঈ; উ ঊ). You must learn spellings word by word, but reading aloud is easy once you know which letters merge. Bengali also has its own digits (০–৯), used everywhere alongside Western numerals. The danda (।) ends a sentence instead of a full stop.",
+    "groups": [
+      {
+        "id": "vowels",
+        "title": "Vowels (স্বরবর্ণ shôrobôrno)",
+        "note": "The 11 vowel letters, used at the start of a word or syllable. After a consonant, each (except অ) is written with its vowel sign (kar). Bengali does not distinguish long and short vowels in speech: ই/ঈ and উ/ঊ sound the same.",
+        "letters": [
+          {
+            "char": "অ",
+            "roman": "ô / o",
+            "ipa": "ɔ ~ o",
+            "sound": "The inherent vowel: like the o in British 'hot' or 'law' with rounded lips. Becomes a closed o before i/u in the next syllable, and is often silent at the end of a word.",
+            "sign": "—",
+            "signExample": "ক (kô)",
+            "example": {
+              "native": "অনেক",
+              "roman": "ônek",
+              "en": "many, a lot"
+            },
+            "strokes": "Draw the 'ঝ-like' curl on the left (a 3 shape), then the vertical bar on the right with a short connector, then the headline."
+          },
+          {
+            "char": "আ",
+            "roman": "a",
+            "ipa": "a",
+            "sound": "Open a as in 'father', but shorter.",
+            "sign": "া",
+            "signExample": "কা (ka)",
+            "example": {
+              "native": "আম",
+              "roman": "am",
+              "en": "mango"
+            },
+            "strokes": "অ plus an extra vertical bar on the right."
+          },
+          {
+            "char": "ই",
+            "roman": "i",
+            "ipa": "i",
+            "sound": "ee as in 'see', short.",
+            "sign": "ি",
+            "signExample": "কি (ki)",
+            "example": {
+              "native": "ইট",
+              "roman": "iṭ",
+              "en": "brick"
+            },
+            "strokes": "Small loop-and-tail body under a headline with a hook rising above it. The sign ি is written BEFORE the consonant."
+          },
+          {
+            "char": "ঈ",
+            "roman": "i",
+            "ipa": "i",
+            "sound": "Identical in sound to ই in modern Bengali; only the spelling differs.",
+            "sign": "ী",
+            "signExample": "কী (ki)",
+            "example": {
+              "native": "ঈগল",
+              "roman": "igol",
+              "en": "eagle"
+            },
+            "strokes": "Like ই with an extra curl; the sign ী goes AFTER the consonant."
+          },
+          {
+            "char": "উ",
+            "roman": "u",
+            "ipa": "u",
+            "sound": "oo as in 'food', short.",
+            "sign": "ু",
+            "signExample": "কু (ku)",
+            "example": {
+              "native": "উট",
+              "roman": "uṭ",
+              "en": "camel"
+            },
+            "strokes": "A 'ড'-like curve with a tail; the sign ু is a small hook under the consonant."
+          },
+          {
+            "char": "ঊ",
+            "roman": "u",
+            "ipa": "u",
+            "sound": "Same sound as উ; spelling only.",
+            "sign": "ূ",
+            "signExample": "কূ (ku)",
+            "example": {
+              "native": "ঊষা",
+              "roman": "usha",
+              "en": "dawn"
+            },
+            "strokes": "উ with an extra loop; sign ূ is a loop under the consonant."
+          },
+          {
+            "char": "ঋ",
+            "roman": "ri",
+            "ipa": "ri",
+            "sound": "Pronounced 'ri' (rolled r + i). Mostly in Sanskrit loanwords.",
+            "sign": "ৃ",
+            "signExample": "কৃ (kri)",
+            "example": {
+              "native": "ঋতু",
+              "roman": "ritu",
+              "en": "season"
+            },
+            "strokes": "Body like ঝ's left part with a tail under the headline; sign ৃ is a small hook below."
+          },
+          {
+            "char": "এ",
+            "roman": "e / æ",
+            "ipa": "e ~ æ",
+            "sound": "Either e (as in 'say' without the y-glide) or æ (as in 'cat'). Which one is used depends on the word: এক is æk, দেশ is desh.",
+            "sign": "ে",
+            "signExample": "কে (ke)",
+            "example": {
+              "native": "এক",
+              "roman": "æk",
+              "en": "one"
+            },
+            "strokes": "A rounded hook with no headline. The sign ে is written BEFORE the consonant."
+          },
+          {
+            "char": "ঐ",
+            "roman": "oi",
+            "ipa": "oi̯",
+            "sound": "Diphthong 'oy' as in 'boy'.",
+            "sign": "ৈ",
+            "signExample": "কৈ (koi)",
+            "example": {
+              "native": "ঐতিহ্য",
+              "roman": "oitijjho",
+              "en": "heritage"
+            },
+            "strokes": "এ with an extra loop on top; sign ৈ is ে with a loop, written before the consonant."
+          },
+          {
+            "char": "ও",
+            "roman": "o",
+            "ipa": "o",
+            "sound": "Closed o as in 'go' without the w-glide.",
+            "sign": "ো",
+            "signExample": "কো (ko)",
+            "example": {
+              "native": "ওষুধ",
+              "roman": "oshudh",
+              "en": "medicine"
+            },
+            "strokes": "A 3-like curl with a hook on top, no full headline. The sign ো wraps around: ে before + া after."
+          },
+          {
+            "char": "ঔ",
+            "roman": "ou",
+            "ipa": "ou̯",
+            "sound": "Diphthong 'ow' with rounded lips, o + u.",
+            "sign": "ৌ",
+            "signExample": "কৌ (kou)",
+            "example": {
+              "native": "ঔষধ",
+              "roman": "oushodh",
+              "en": "medicine (formal)"
+            },
+            "strokes": "ও with a small tail on top; the sign ৌ is ে before + a hooked bar after."
+          }
+        ]
+      },
+      {
+        "id": "velar",
+        "title": "Velar consonants (ক-বর্গ)",
+        "note": "Made at the back of the mouth. Each row has unaspirated, aspirated, voiced, voiced-aspirated, and a nasal.",
+        "letters": [
+          {
+            "char": "ক",
+            "roman": "k",
+            "ipa": "k",
+            "sound": "k as in 'skin', with no puff of air.",
+            "example": {
+              "native": "কলা",
+              "roman": "kôla",
+              "en": "banana"
+            },
+            "strokes": "A cross-like shape: vertical stem with a loop on the left, under the headline."
+          },
+          {
+            "char": "খ",
+            "roman": "kh",
+            "ipa": "kʰ",
+            "sound": "k with a strong puff of air, as in 'kite' said forcefully.",
+            "example": {
+              "native": "খরগোশ",
+              "roman": "khôrgosh",
+              "en": "rabbit"
+            },
+            "strokes": "A loop on the left joined to a vertical bar; headline only over the bar."
+          },
+          {
+            "char": "গ",
+            "roman": "g",
+            "ipa": "g",
+            "sound": "g as in 'go'.",
+            "example": {
+              "native": "গরু",
+              "roman": "goru",
+              "en": "cow"
+            },
+            "strokes": "A ঀ-like curve on the left with a vertical bar on the right."
+          },
+          {
+            "char": "ঘ",
+            "roman": "gh",
+            "ipa": "gʱ",
+            "sound": "g followed by a breathy h, as in 'doghouse' said fast.",
+            "example": {
+              "native": "ঘর",
+              "roman": "ghôr",
+              "en": "room, house"
+            },
+            "strokes": "Loop at the bottom-left, a wavy top, vertical bar on the right."
+          },
+          {
+            "char": "ঙ",
+            "roman": "ṅ",
+            "ipa": "ŋ",
+            "sound": "ng as in 'sing'. Never at the start of a word.",
+            "example": {
+              "native": "ব্যাঙ",
+              "roman": "bæṅ",
+              "en": "frog"
+            },
+            "strokes": "Like ও with a small circle at the lower right; partial headline."
+          }
+        ]
+      },
+      {
+        "id": "palatal",
+        "title": "Palatal consonants (চ-বর্গ)",
+        "note": "Pronounced like English ch / j (affricates), with the tongue blade against the hard palate.",
+        "letters": [
+          {
+            "char": "চ",
+            "roman": "ch",
+            "ipa": "tʃ",
+            "sound": "ch as in 'church' but with no puff of air.",
+            "example": {
+              "native": "চা",
+              "roman": "cha",
+              "en": "tea"
+            },
+            "strokes": "A box-like hook hanging from the headline."
+          },
+          {
+            "char": "ছ",
+            "roman": "chh",
+            "ipa": "tʃʰ",
+            "sound": "ch with a strong puff of air.",
+            "example": {
+              "native": "ছাতা",
+              "roman": "chhata",
+              "en": "umbrella"
+            },
+            "strokes": "চ with an extra loop below."
+          },
+          {
+            "char": "জ",
+            "roman": "j",
+            "ipa": "dʒ",
+            "sound": "j as in 'jam'.",
+            "example": {
+              "native": "জল",
+              "roman": "jôl",
+              "en": "water (West Bengal)"
+            },
+            "strokes": "A zig-zag body with a vertical bar on the right."
+          },
+          {
+            "char": "ঝ",
+            "roman": "jh",
+            "ipa": "dʒʱ",
+            "sound": "j with a breathy h.",
+            "example": {
+              "native": "ঝড়",
+              "roman": "jhôṛ",
+              "en": "storm"
+            },
+            "strokes": "A curled left part with a tall vertical bar on the right."
+          },
+          {
+            "char": "ঞ",
+            "roman": "n",
+            "ipa": "n",
+            "sound": "Sounds like n; almost only found in conjuncts like ঞ্চ and ঞ্জ.",
+            "example": {
+              "native": "পঞ্চাশ",
+              "roman": "pônchash",
+              "en": "fifty"
+            },
+            "strokes": "A wavy 'ঞ' with a hooked tail; no full headline."
+          }
+        ]
+      },
+      {
+        "id": "retroflex",
+        "title": "Retroflex consonants (ট-বর্গ)",
+        "note": "Made with the tongue tip curled back to the ridge behind the teeth. English t/d are close to these; Bengali dental ত/দ are very different.",
+        "letters": [
+          {
+            "char": "ট",
+            "roman": "ṭ",
+            "ipa": "ʈ",
+            "sound": "A hard 't', tongue curled back, no puff of air. Closest to English t.",
+            "example": {
+              "native": "টাকা",
+              "roman": "ṭaka",
+              "en": "money; taka (currency)"
+            },
+            "strokes": "A curved hook hanging from the headline, open to the right."
+          },
+          {
+            "char": "ঠ",
+            "roman": "ṭh",
+            "ipa": "ʈʰ",
+            "sound": "Retroflex t with a puff of air.",
+            "example": {
+              "native": "ঠান্ডা",
+              "roman": "ṭhanḍa",
+              "en": "cold"
+            },
+            "strokes": "A round body like a backwards C with a small hook; headline on top."
+          },
+          {
+            "char": "ড",
+            "roman": "ḍ",
+            "ipa": "ɖ",
+            "sound": "Retroflex d, like English d in 'dog' but with the tongue further back.",
+            "example": {
+              "native": "ডাক্তার",
+              "roman": "ḍaktar",
+              "en": "doctor"
+            },
+            "strokes": "A '5'-like curve under the headline."
+          },
+          {
+            "char": "ঢ",
+            "roman": "ḍh",
+            "ipa": "ɖʱ",
+            "sound": "Retroflex d with breathy h.",
+            "example": {
+              "native": "ঢাকা",
+              "roman": "ḍhaka",
+              "en": "Dhaka"
+            },
+            "strokes": "Like ড with a small loop at the end."
+          },
+          {
+            "char": "ণ",
+            "roman": "n",
+            "ipa": "n",
+            "sound": "In modern Bengali pronounced exactly like ন (n). Only spelling differs.",
+            "example": {
+              "native": "হরিণ",
+              "roman": "horin",
+              "en": "deer"
+            },
+            "strokes": "Two humps with a vertical bar on the right."
+          }
+        ]
+      },
+      {
+        "id": "dental",
+        "title": "Dental consonants (ত-বর্গ)",
+        "note": "Tongue tip pressed against the back of the upper front teeth, like a soft Spanish or French t/d. English speakers must practise these.",
+        "letters": [
+          {
+            "char": "ত",
+            "roman": "t",
+            "ipa": "t̪",
+            "sound": "Soft dental t, tongue on the teeth, no puff of air.",
+            "example": {
+              "native": "তাল",
+              "roman": "tal",
+              "en": "palmyra palm; rhythm"
+            },
+            "strokes": "A 'ড'-like body with a small loop on the left, hanging from the headline."
+          },
+          {
+            "char": "থ",
+            "roman": "th",
+            "ipa": "t̪ʰ",
+            "sound": "Dental t with a puff of air. NOT the 'th' of 'think'.",
+            "example": {
+              "native": "থালা",
+              "roman": "thala",
+              "en": "plate (large, metal)"
+            },
+            "strokes": "A looped body with a vertical bar on the right."
+          },
+          {
+            "char": "দ",
+            "roman": "d",
+            "ipa": "d̪",
+            "sound": "Soft dental d, tongue on the teeth. NOT the 'th' of 'this'.",
+            "example": {
+              "native": "দই",
+              "roman": "doi",
+              "en": "yogurt"
+            },
+            "strokes": "A rounded hook under the headline, open to the left."
+          },
+          {
+            "char": "ধ",
+            "roman": "dh",
+            "ipa": "d̪ʱ",
+            "sound": "Dental d with breathy h.",
+            "example": {
+              "native": "ধান",
+              "roman": "dhan",
+              "en": "rice paddy"
+            },
+            "strokes": "A small loop on the left with a tall right bar; only partial headline."
+          },
+          {
+            "char": "ন",
+            "roman": "n",
+            "ipa": "n",
+            "sound": "n as in 'no'.",
+            "example": {
+              "native": "নদী",
+              "roman": "nodi",
+              "en": "river"
+            },
+            "strokes": "A rounded hook with a vertical bar on the right."
+          }
+        ]
+      },
+      {
+        "id": "labial",
+        "title": "Labial consonants (প-বর্গ)",
+        "note": "Made with the lips.",
+        "letters": [
+          {
+            "char": "প",
+            "roman": "p",
+            "ipa": "p",
+            "sound": "p as in 'spin', no puff of air.",
+            "example": {
+              "native": "পাখি",
+              "roman": "pakhi",
+              "en": "bird"
+            },
+            "strokes": "A V-shaped body with a vertical bar on the right; no headline over the left."
+          },
+          {
+            "char": "ফ",
+            "roman": "ph / f",
+            "ipa": "pʰ ~ f",
+            "sound": "p with a puff of air; many speakers (especially in Bangladesh) say it as English f.",
+            "example": {
+              "native": "ফল",
+              "roman": "phôl",
+              "en": "fruit"
+            },
+            "strokes": "প with a small curl added on the top-left."
+          },
+          {
+            "char": "ব",
+            "roman": "b",
+            "ipa": "b",
+            "sound": "b as in 'bat'. Bengali has no separate v; ব is always b.",
+            "example": {
+              "native": "বই",
+              "roman": "boi",
+              "en": "book"
+            },
+            "strokes": "A triangle hanging from the right vertical bar."
+          },
+          {
+            "char": "ভ",
+            "roman": "bh",
+            "ipa": "bʱ",
+            "sound": "b with a breathy h. Never v.",
+            "example": {
+              "native": "ভাত",
+              "roman": "bhat",
+              "en": "cooked rice"
+            },
+            "strokes": "A rounded 'ড'-shape with a hook; headline on top."
+          },
+          {
+            "char": "ম",
+            "roman": "m",
+            "ipa": "m",
+            "sound": "m as in 'man'.",
+            "example": {
+              "native": "মাছ",
+              "roman": "machh",
+              "en": "fish"
+            },
+            "strokes": "A small loop on the left joined to a vertical bar."
+          }
+        ]
+      },
+      {
+        "id": "others",
+        "title": "Semivowels, sibilants and h (অন্তঃস্থ ও ঊষ্ম বর্ণ)",
+        "note": "Note the mergers: য sounds like জ (j); শ ষ স all usually sound like 'sh'.",
+        "letters": [
+          {
+            "char": "য",
+            "roman": "j",
+            "ipa": "dʒ",
+            "sound": "Pronounced j, exactly like জ. After a consonant it becomes য-ফলা (্য), which doubles the consonant.",
+            "example": {
+              "native": "যখন",
+              "roman": "jôkhon",
+              "en": "when (relative)"
+            },
+            "strokes": "A slanting loop with a vertical bar on the right."
+          },
+          {
+            "char": "র",
+            "roman": "r",
+            "ipa": "r ~ ɾ",
+            "sound": "A tapped r, like the tt in American 'butter'.",
+            "example": {
+              "native": "রাত",
+              "roman": "rat",
+              "en": "night"
+            },
+            "strokes": "Like ব with a dot underneath. Don't forget the dot!"
+          },
+          {
+            "char": "ল",
+            "roman": "l",
+            "ipa": "l",
+            "sound": "Clear l as in 'leaf' (never the dark l of 'full').",
+            "example": {
+              "native": "লাল",
+              "roman": "lal",
+              "en": "red"
+            },
+            "strokes": "A loop with a tail on the left, vertical bar on the right."
+          },
+          {
+            "char": "শ",
+            "roman": "sh",
+            "ipa": "ʃ",
+            "sound": "sh as in 'ship'.",
+            "example": {
+              "native": "শাক",
+              "roman": "shak",
+              "en": "leafy greens"
+            },
+            "strokes": "A loop-and-hook body with a vertical bar on the right."
+          },
+          {
+            "char": "ষ",
+            "roman": "sh",
+            "ipa": "ʃ",
+            "sound": "Also sh. Historically retroflex; now the same as শ.",
+            "example": {
+              "native": "ষাঁড়",
+              "roman": "shaṃṛ",
+              "en": "bull"
+            },
+            "strokes": "Like ব with a diagonal stroke across it."
+          },
+          {
+            "char": "স",
+            "roman": "sh / s",
+            "ipa": "ʃ ~ s",
+            "sound": "Usually sh; a true s before dental consonants (স্ত, স্থ, স্ন), before র/ল, and in loanwords.",
+            "example": {
+              "native": "সাপ",
+              "roman": "shap",
+              "en": "snake"
+            },
+            "strokes": "A small hook on the left, a loop, and a vertical bar."
+          },
+          {
+            "char": "হ",
+            "roman": "h",
+            "ipa": "ɦ",
+            "sound": "h as in 'hat', slightly breathy-voiced.",
+            "example": {
+              "native": "হাত",
+              "roman": "hat",
+              "en": "hand"
+            },
+            "strokes": "A hook body like a backwards 2 hanging from the headline."
+          }
+        ]
+      },
+      {
+        "id": "extra-consonants",
+        "title": "Extra consonants: ড় ঢ় য় ৎ",
+        "note": "Letters formed with a dot (or a special shape) for sounds the classical alphabet lacked.",
+        "letters": [
+          {
+            "char": "ড়",
+            "roman": "ṛ",
+            "ipa": "ɽ",
+            "sound": "A retroflex flap: curl the tongue back and flick it forward. Never at the start of a word.",
+            "example": {
+              "native": "বড়",
+              "roman": "bôṛo",
+              "en": "big"
+            },
+            "strokes": "ড with a dot below."
+          },
+          {
+            "char": "ঢ়",
+            "roman": "ṛ",
+            "ipa": "ɽ(ʱ)",
+            "sound": "Aspirated flap in theory; in practice usually the same as ড়. Rare.",
+            "example": {
+              "native": "আষাঢ়",
+              "roman": "ashaṛ",
+              "en": "Ashar (monsoon month)"
+            },
+            "strokes": "ঢ with a dot below."
+          },
+          {
+            "char": "য়",
+            "roman": "y",
+            "ipa": "j ~ w",
+            "sound": "A y-glide (or w after o/u-sounds). Written after vowels.",
+            "example": {
+              "native": "মেয়ে",
+              "roman": "meye",
+              "en": "girl; daughter"
+            },
+            "strokes": "য with a dot below."
+          },
+          {
+            "char": "ৎ",
+            "roman": "t",
+            "ipa": "t̪",
+            "sound": "Khanda-ta: a dental t with no vowel after it, at the end of a syllable.",
+            "example": {
+              "native": "হঠাৎ",
+              "roman": "hôṭhat",
+              "en": "suddenly"
+            },
+            "strokes": "A ত-like hook with a short tail; no headline."
+          }
+        ]
+      },
+      {
+        "id": "marks",
+        "title": "Special marks",
+        "note": "Signs that nasalise, add ng or h, or kill the inherent vowel.",
+        "letters": [
+          {
+            "char": "ং",
+            "roman": "ṅ",
+            "ipa": "ŋ",
+            "sound": "Anusvara: an 'ng' sound as in 'sing', same as ঙ.",
+            "example": {
+              "native": "বাংলা",
+              "roman": "baṅla",
+              "en": "Bengali (language); Bengal"
+            },
+            "strokes": "A small circle with a short vertical tail, no headline."
+          },
+          {
+            "char": "ঃ",
+            "roman": "ḥ",
+            "ipa": "h / gemination",
+            "sound": "Visarga: in the middle of a word it usually doubles the following consonant (দুঃখ dukkho); at the end of an interjection it is a small breath (উঃ uh).",
+            "example": {
+              "native": "দুঃখ",
+              "roman": "dukkho",
+              "en": "sorrow"
+            },
+            "strokes": "Two small circles stacked vertically, like a colon."
+          },
+          {
+            "char": "ঁ",
+            "roman": "ṃ",
+            "ipa": "̃",
+            "sound": "Chandrabindu: nasalises the vowel it sits on (air through the nose).",
+            "example": {
+              "native": "চাঁদ",
+              "roman": "chaṃd",
+              "en": "moon"
+            },
+            "strokes": "A small crescent with a dot, placed above the letter."
+          },
+          {
+            "char": "্",
+            "roman": "(no vowel)",
+            "ipa": "∅",
+            "sound": "Hasanta (hôshonto): a slanting stroke under a consonant that removes its inherent vowel. Mostly seen when a conjunct is not available or for emphasis.",
+            "example": {
+              "native": "বাহ্‌",
+              "roman": "bah",
+              "en": "wow!"
+            },
+            "strokes": "A short diagonal stroke below the consonant."
+          },
+          {
+            "char": "্য",
+            "roman": "(doubling) / æ",
+            "ipa": "ː",
+            "sound": "Ja-phola: after a consonant mid-word it doubles that consonant (বিদ্যা bidda); at the start with া it gives æ (ব্যাগ bæg).",
+            "example": {
+              "native": "ব্যাগ",
+              "roman": "bæg",
+              "en": "bag"
+            },
+            "strokes": "A hook attached to the right of the consonant."
+          },
+          {
+            "char": "র্ম",
+            "roman": "rm",
+            "ipa": "rm",
+            "sound": "Ref: an r before a consonant is written as a small stroke above it (here র + ম).",
+            "example": {
+              "native": "ধর্ম",
+              "roman": "dhôrmo",
+              "en": "religion"
+            },
+            "strokes": "Write ম, then add the small hook above the headline."
+          }
+        ]
+      },
+      {
+        "id": "conjuncts",
+        "title": "Common conjuncts (যুক্তাক্ষর)",
+        "note": "Two or more consonants fused together. Learn the shapes of the frequent ones; many are just stacked versions of their parts.",
+        "letters": [
+          {
+            "char": "ক্ষ",
+            "roman": "kkh / kh",
+            "ipa": "kkʰ",
+            "sound": "ক + ষ, pronounced kh at the start of a word and kkh in the middle. Looks nothing like its parts!",
+            "example": {
+              "native": "পরীক্ষা",
+              "roman": "porikkha",
+              "en": "exam"
+            }
+          },
+          {
+            "char": "জ্ঞ",
+            "roman": "gg / g",
+            "ipa": "ggʲ",
+            "sound": "জ + ঞ, pronounced g (+ often an æ-colouring) at the start, gg in the middle.",
+            "example": {
+              "native": "বিজ্ঞান",
+              "roman": "biggan",
+              "en": "science"
+            }
+          },
+          {
+            "char": "ন্ত",
+            "roman": "nt",
+            "ipa": "n̪t̪",
+            "sound": "ন + ত.",
+            "example": {
+              "native": "শান্ত",
+              "roman": "shanto",
+              "en": "calm"
+            }
+          },
+          {
+            "char": "ক্ত",
+            "roman": "kt",
+            "ipa": "kt̪",
+            "sound": "ক + ত.",
+            "example": {
+              "native": "রক্ত",
+              "roman": "rôkto",
+              "en": "blood"
+            }
+          },
+          {
+            "char": "ন্দ",
+            "roman": "nd",
+            "ipa": "n̪d̪",
+            "sound": "ন + দ.",
+            "example": {
+              "native": "সুন্দর",
+              "roman": "shundor",
+              "en": "beautiful"
+            }
+          },
+          {
+            "char": "ম্ব",
+            "roman": "mb",
+            "ipa": "mb",
+            "sound": "ম + ব.",
+            "example": {
+              "native": "লম্বা",
+              "roman": "lômba",
+              "en": "tall, long"
+            }
+          },
+          {
+            "char": "ঙ্গ",
+            "roman": "ṅg",
+            "ipa": "ŋg",
+            "sound": "ঙ + গ.",
+            "example": {
+              "native": "সঙ্গে",
+              "roman": "shôṅge",
+              "en": "with"
+            }
+          },
+          {
+            "char": "ঞ্চ",
+            "roman": "nch",
+            "ipa": "ntʃ",
+            "sound": "ঞ + চ.",
+            "example": {
+              "native": "চঞ্চল",
+              "roman": "chônchol",
+              "en": "restless"
+            }
+          },
+          {
+            "char": "ষ্ট",
+            "roman": "shṭ",
+            "ipa": "ʃʈ",
+            "sound": "ষ + ট.",
+            "example": {
+              "native": "কষ্ট",
+              "roman": "kôshṭo",
+              "en": "hardship, pain"
+            }
+          },
+          {
+            "char": "স্ত",
+            "roman": "st",
+            "ipa": "st̪",
+            "sound": "স + ত: here স is a true s.",
+            "example": {
+              "native": "রাস্তা",
+              "roman": "rasta",
+              "en": "road"
+            }
+          },
+          {
+            "char": "ত্র",
+            "roman": "tr",
+            "ipa": "t̪r",
+            "sound": "ত + র-ফলা.",
+            "example": {
+              "native": "মাত্র",
+              "roman": "matro",
+              "en": "only, just"
+            }
+          },
+          {
+            "char": "প্র",
+            "roman": "pr",
+            "ipa": "pr",
+            "sound": "প + র-ফলা.",
+            "example": {
+              "native": "প্রথম",
+              "roman": "prôthom",
+              "en": "first"
+            }
+          },
+          {
+            "char": "ক্র",
+            "roman": "kr",
+            "ipa": "kr",
+            "sound": "ক + র-ফলা.",
+            "example": {
+              "native": "ক্রিকেট",
+              "roman": "krikeṭ",
+              "en": "cricket"
+            }
+          },
+          {
+            "char": "চ্ছ",
+            "roman": "chchh",
+            "ipa": "ttʃʰ",
+            "sound": "চ + ছ.",
+            "example": {
+              "native": "ইচ্ছা",
+              "roman": "ichchha",
+              "en": "wish, desire"
+            }
+          },
+          {
+            "char": "ল্প",
+            "roman": "lp",
+            "ipa": "lp",
+            "sound": "ল + প.",
+            "example": {
+              "native": "গল্প",
+              "roman": "gôlpo",
+              "en": "story"
+            }
+          },
+          {
+            "char": "দ্ধ",
+            "roman": "ddh",
+            "ipa": "d̪d̪ʱ",
+            "sound": "দ + ধ.",
+            "example": {
+              "native": "যুদ্ধ",
+              "roman": "juddho",
+              "en": "war"
+            }
+          },
+          {
+            "char": "ত্ত",
+            "roman": "tt",
+            "ipa": "t̪t̪",
+            "sound": "ত + ত (doubled t).",
+            "example": {
+              "native": "উত্তর",
+              "roman": "uttor",
+              "en": "answer; north"
+            }
+          },
+          {
+            "char": "ন্ন",
+            "roman": "nn",
+            "ipa": "nn",
+            "sound": "ন + ন (doubled n).",
+            "example": {
+              "native": "কান্না",
+              "roman": "kanna",
+              "en": "crying"
+            }
+          },
+          {
+            "char": "স্থ",
+            "roman": "sth",
+            "ipa": "st̪ʰ",
+            "sound": "স + থ: স is a true s here.",
+            "example": {
+              "native": "স্থান",
+              "roman": "sthan",
+              "en": "place"
+            }
+          },
+          {
+            "char": "শ্ব",
+            "roman": "shsh",
+            "ipa": "ʃʃ",
+            "sound": "শ + ব-ফলা: ব-ফলা after a consonant usually just doubles it.",
+            "example": {
+              "native": "বিশ্ব",
+              "roman": "bishsho",
+              "en": "world"
+            }
+          }
+        ]
+      },
+      {
+        "id": "digits",
+        "title": "Bengali digits",
+        "note": "Used in Bangladesh and West Bengal for prices, dates and addresses alongside Western numerals. Note that ৪ (4) looks like an 8 and ৭ (7) like a 9!",
+        "letters": [
+          {
+            "char": "০",
+            "roman": "shunno",
+            "ipa": "ʃunːo",
+            "sound": "0",
+            "example": {
+              "native": "শূন্য",
+              "roman": "shunno",
+              "en": "zero"
+            }
+          },
+          {
+            "char": "১",
+            "roman": "æk",
+            "ipa": "æk",
+            "sound": "1",
+            "example": {
+              "native": "এক",
+              "roman": "æk",
+              "en": "one"
+            }
+          },
+          {
+            "char": "২",
+            "roman": "dui",
+            "ipa": "d̪ui̯",
+            "sound": "2",
+            "example": {
+              "native": "দুই",
+              "roman": "dui",
+              "en": "two"
+            }
+          },
+          {
+            "char": "৩",
+            "roman": "tin",
+            "ipa": "t̪in",
+            "sound": "3",
+            "example": {
+              "native": "তিন",
+              "roman": "tin",
+              "en": "three"
+            }
+          },
+          {
+            "char": "৪",
+            "roman": "char",
+            "ipa": "tʃar",
+            "sound": "4 (looks like an 8!)",
+            "example": {
+              "native": "চার",
+              "roman": "char",
+              "en": "four"
+            }
+          },
+          {
+            "char": "৫",
+            "roman": "paṃch",
+            "ipa": "pãtʃ",
+            "sound": "5",
+            "example": {
+              "native": "পাঁচ",
+              "roman": "paṃch",
+              "en": "five"
+            }
+          },
+          {
+            "char": "৬",
+            "roman": "chhôy",
+            "ipa": "tʃʰɔe̯",
+            "sound": "6",
+            "example": {
+              "native": "ছয়",
+              "roman": "chhôy",
+              "en": "six"
+            }
+          },
+          {
+            "char": "৭",
+            "roman": "shat",
+            "ipa": "ʃat̪",
+            "sound": "7 (looks like a 9!)",
+            "example": {
+              "native": "সাত",
+              "roman": "shat",
+              "en": "seven"
+            }
+          },
+          {
+            "char": "৮",
+            "roman": "aṭ",
+            "ipa": "aʈ",
+            "sound": "8",
+            "example": {
+              "native": "আট",
+              "roman": "aṭ",
+              "en": "eight"
+            }
+          },
+          {
+            "char": "৯",
+            "roman": "nôy",
+            "ipa": "nɔe̯",
+            "sound": "9",
+            "example": {
+              "native": "নয়",
+              "roman": "nôy",
+              "en": "nine"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "dir": "ltr",
+  "tts": "bn-IN",
+  "font": "Noto Sans Bengali",
+  "speakers": "≈280 million (L1 + L2)",
+  "where": "Bangladesh (national language) and the Indian states of West Bengal, Tripura and parts of Assam (Barak Valley); large diaspora in the UK, Middle East and North America",
+  "tagline": "The sweet, musical language of Tagore, Satyajit Ray and 280 million speakers, with almost no gender and very regular verbs.",
+  "intro": "**Bengali** (বাংলা *baṅla*) is an Indo-Aryan language, a cousin of Hindi, Odia and Assamese, and the seventh most spoken language in the world. It is the national language of **Bangladesh** and an official language of **West Bengal** and **Tripura** in India. 21 February, International Mother Language Day, commemorates students killed in Dhaka in 1952 defending the right to speak Bengali.\n\nBengali is written in its own **Bengali–Assamese script**, an abugida closely related to Devanagari: every consonant carries a built-in vowel (here pronounced *ô*), other vowels are added as signs, and consonant clusters are fused into conjuncts. The letters hang from a headline (মাত্রা *matra*), just like Hindi.\n\nGrammatically Bengali is learner-friendly: **no grammatical gender** at all, verbs agree only with person and politeness level (never with gender or number), and there is no ergative construction. Instead you will learn **classifiers** (টা *ṭa*, টি *ṭi*, গুলো *gulo*) that attach to nouns, and **three levels of 'you'**: respectful আপনি *apni*, familiar তুমি *tumi* and intimate তুই *tui*.\n\nThis course teaches the **standard colloquial language** (চলিত ভাষা *cholito bhasha*) used in education, media and conversation in both Kolkata and Dhaka. Where Bangladesh and West Bengal commonly differ (water is পানি *pani* in Bangladesh and জল *jôl* in West Bengal; greetings follow religious lines), the notes tell you both. The older, literary সাধু ভাষা (*shadhu bhasha*) is not taught.",
+  "romanizationNote": "The romanization shows how words are **said**, not how they are spelled. The inherent vowel অ is written **ô** (like the o in British *hot* or the aw in *law*), but where it is actually pronounced as a closed o (before an i or u in the next syllable, e.g. করি *kori*, গরু *goru*) we write **o**; when it is silent at the end of a word it is simply dropped (মন *mon*, কাজ *kaj*). আ is plain **a** (there is no long/short contrast in Bengali, so no macrons are used: ই/ঈ are both **i**, উ/ঊ both **u**). The vowel এ has two pronunciations: **e** (as in *say*, without the glide) and **æ** (as in *cat*), e.g. এক *æk*, দেখা *dækha*, কেমন *kæmon*: always pronounce æ as the vowel in *cat*. Because শ, ষ and usually স all sound like English *sh*, we write **sh** for all three (সাত *shat*); স becomes **s** before dental consonants and in loanwords (রাস্তা *rasta*, স্কুল *skul*). জ and য both sound like English **j**; ণ and ন are both **n**; য় is **y** (or **w** after o/u-sounds, e.g. খাওয়া *khawa*). ট ড are retroflex **ṭ ḍ**, ড়/ঢ় are flaps **ṛ**, and a dot-free **t d** is always dental (tongue on the teeth). **ṃ** after a vowel means it is nasalised (চাঁদ *chaṃd*); ং is **ṅ** (as *ng* in *sing*). Conjuncts are written as they sound: double consonants are doubled (বিদ্যা *bidda*, পদ্ম *pôddo*), ক্ষ is *kkh* (*kh* at the start of a word) and জ্ঞ is *gg* (*g* at the start, with æ: জ্ঞান *gæn*). **ph** is a breathy p that many speakers say as an f; **bh** is never a v.",
+  "pronunciation": [
+    {
+      "id": "inherent-o",
+      "title": "The inherent vowel: ô, o, or nothing",
+      "body": "Every Bengali consonant carries the vowel অ, and it is **not** the 'uh' of Hindi. It is a rounded **ô** like the vowel in British *hot* or American *law*: কলা *kôla* 'banana', ঘর *ghôr* 'room'. Round your lips slightly and drop your jaw.\n\nThree rules tell you what actually happens to it. (1) **At the end of a word** it is usually silent: মন *mon*, কাজ *kaj*, ঘর *ghôr*; but it is kept after conjuncts and in many adjectives and verb forms (বড় *bôṛo*, ছোট *chhoṭo*, শান্ত *shanto*, করো *kôro*). (2) It becomes a **closed o** when the next syllable has i or u, or after য-ফলা: করি *kori*, গরু *goru*, বই *boi*. (3) Otherwise, especially in the first syllable, it is open **ô**.\n\nDon't confuse it with আ *a*: the difference between কল *kôl* (tap) and কাল *kal* (tomorrow / time) is exactly this vowel.",
+      "tips": [
+        "Say 'law' and cut off the w: that is ô.",
+        "Don't say Hindi-style 'kamal'; Bengali কমল is kômol.",
+        "When you see an i or u sound coming next, close ô to o.",
+        "If unsure whether a final অ is pronounced, listen: adjectives usually keep it (bhalo, bôṛo, chhoṭo)."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "কল",
+            "roman": "kôl",
+            "en": "tap; machine"
+          },
+          "b": {
+            "native": "কাল",
+            "roman": "kal",
+            "en": "tomorrow; yesterday; time"
+          },
+          "note": "ô vs a"
+        },
+        {
+          "a": {
+            "native": "পর",
+            "roman": "pôr",
+            "en": "after; other"
+          },
+          "b": {
+            "native": "পার",
+            "roman": "par",
+            "en": "riverbank; to cross"
+          }
+        },
+        {
+          "a": {
+            "native": "চল",
+            "roman": "chôl",
+            "en": "let's go; move (informal)"
+          },
+          "b": {
+            "native": "চাল",
+            "roman": "chal",
+            "en": "uncooked rice"
+          }
+        },
+        {
+          "a": {
+            "native": "দল",
+            "roman": "dôl",
+            "en": "team, group"
+          },
+          "b": {
+            "native": "দোল",
+            "roman": "dol",
+            "en": "swing; Holi festival"
+          },
+          "note": "open ô vs closed o"
+        },
+        {
+          "a": {
+            "native": "কল",
+            "roman": "kôl",
+            "en": "tap"
+          },
+          "b": {
+            "native": "কোল",
+            "roman": "kol",
+            "en": "lap"
+          },
+          "note": "open ô vs closed o"
+        },
+        {
+          "a": {
+            "native": "করা",
+            "roman": "kôra",
+            "en": "to do"
+          },
+          "b": {
+            "native": "করি",
+            "roman": "kori",
+            "en": "I do"
+          },
+          "note": "ô closes to o before i"
+        }
+      ],
+      "drill": [
+        {
+          "native": "কমল",
+          "roman": "kômol",
+          "en": "lotus"
+        },
+        {
+          "native": "বন্ধ",
+          "roman": "bôndho",
+          "en": "closed"
+        },
+        {
+          "native": "মন",
+          "roman": "mon",
+          "en": "mind, heart"
+        },
+        {
+          "native": "অনেক",
+          "roman": "ônek",
+          "en": "many"
+        },
+        {
+          "native": "ছোট",
+          "roman": "chhoṭo",
+          "en": "small"
+        },
+        {
+          "native": "গরম",
+          "roman": "gôrom",
+          "en": "hot"
+        },
+        {
+          "native": "কথা",
+          "roman": "kotha",
+          "en": "word, talk"
+        },
+        {
+          "native": "বলো",
+          "roman": "bôlo",
+          "en": "say! (tumi)"
+        }
+      ]
+    },
+    {
+      "id": "e-ae",
+      "title": "The two sounds of এ: e and æ",
+      "body": "The letter এ / sign ে has two pronunciations. Usually it is a pure **e** (as in *say*, without the y-glide): দেশ *desh* 'country', মেয়ে *meye* 'girl'. But in many common words it is an open **æ**, the vowel of English *cat*: এক *æk* 'one', কেমন *kæmon* 'how', দেখা *dækha* 'to see', খেলা *khæla* 'game'.\n\nThe æ sound is also written with য-ফলা + া: ব্যাগ *bæg* 'bag', ব্যাংক *bæṅk* 'bank', হ্যাঁ *hæṃ* 'yes'.\n\nA rough rule: এ in the first syllable becomes æ when the next syllable has a or ô (দেখা *dækha*), but stays e when the next syllable has i, u or e (দেখি *dekhi*, দেখে *dekhe*). This is **vowel harmony** and it makes verb forms shift: দেখা *dækha* / দেখি *dekhi*. There are many exceptions (দেশ, বেশ), so learn words with their sound.",
+      "tips": [
+        "æ is the vowel in 'cat', 'bad', 'man'.",
+        "In this course æ is always written æ, so trust the romanization.",
+        "Practise the verb pairs: dækha/dekhi, khæla/kheli, fæla/feli."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "দেখা",
+            "roman": "dækha",
+            "en": "to see; seen"
+          },
+          "b": {
+            "native": "দেখি",
+            "roman": "dekhi",
+            "en": "I see; let me see"
+          }
+        },
+        {
+          "a": {
+            "native": "কেন",
+            "roman": "kæno",
+            "en": "why"
+          },
+          "b": {
+            "native": "কেনা",
+            "roman": "kena",
+            "en": "to buy"
+          }
+        },
+        {
+          "a": {
+            "native": "বেলা",
+            "roman": "bæla",
+            "en": "time of day"
+          },
+          "b": {
+            "native": "বেল",
+            "roman": "bel",
+            "en": "wood-apple; bell"
+          }
+        },
+        {
+          "a": {
+            "native": "খেলা",
+            "roman": "khæla",
+            "en": "game; to play"
+          },
+          "b": {
+            "native": "খেলি",
+            "roman": "kheli",
+            "en": "I play"
+          }
+        },
+        {
+          "a": {
+            "native": "এক",
+            "roman": "æk",
+            "en": "one"
+          },
+          "b": {
+            "native": "একই",
+            "roman": "eki",
+            "en": "the same"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "কেমন আছেন?",
+          "roman": "kæmon achhen?",
+          "en": "How are you? (polite)"
+        },
+        {
+          "native": "এখন",
+          "roman": "ækhon",
+          "en": "now"
+        },
+        {
+          "native": "হ্যাঁ",
+          "roman": "hæṃ",
+          "en": "yes"
+        },
+        {
+          "native": "ব্যাংক",
+          "roman": "bæṅk",
+          "en": "bank"
+        },
+        {
+          "native": "দেশ",
+          "roman": "desh",
+          "en": "country"
+        },
+        {
+          "native": "ছেলে",
+          "roman": "chhele",
+          "en": "boy; son"
+        },
+        {
+          "native": "একটা",
+          "roman": "ækṭa",
+          "en": "one, a (with classifier)"
+        }
+      ]
+    },
+    {
+      "id": "aspiration",
+      "title": "Aspiration: k vs kh, b vs bh",
+      "body": "Bengali distinguishes **unaspirated** consonants (no puff of air) from **aspirated** ones (with a strong puff): ক *k* vs খ *kh*, প *p* vs ফ *ph*, ত *t* vs থ *th*. English speakers aspirate automatically at the start of words ('pin' has a puff, 'spin' does not), so the hard part is saying ক, প, ত, ট, চ **without** any puff, like the p in *spin*.\n\nBengali also has **voiced aspirates** (ঘ gh, ঝ jh, ঢ ḍh, ধ dh, ভ bh): a voiced consonant followed by a breathy release, like the 'gh' in 'doghouse' or 'bh' in 'clubhouse' said quickly. ভ is never v and থ/ধ are never English 'th'.\n\nThe difference changes meanings: কাল *kal* 'tomorrow' vs খাল *khal* 'canal'.",
+      "tips": [
+        "Hold a tissue in front of your mouth: it should move for খ, not for ক.",
+        "Practise 'spin, skin, still' and copy that unaspirated p, k, t.",
+        "For ভ, say 'club-house' faster and faster until it becomes one sound.",
+        "ফ is often said as English f, and that is fine."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "কাল",
+            "roman": "kal",
+            "en": "tomorrow; yesterday"
+          },
+          "b": {
+            "native": "খাল",
+            "roman": "khal",
+            "en": "canal"
+          }
+        },
+        {
+          "a": {
+            "native": "তালা",
+            "roman": "tala",
+            "en": "lock"
+          },
+          "b": {
+            "native": "থালা",
+            "roman": "thala",
+            "en": "plate"
+          }
+        },
+        {
+          "a": {
+            "native": "দান",
+            "roman": "dan",
+            "en": "donation"
+          },
+          "b": {
+            "native": "ধান",
+            "roman": "dhan",
+            "en": "rice paddy"
+          }
+        },
+        {
+          "a": {
+            "native": "বাত",
+            "roman": "bat",
+            "en": "rheumatism"
+          },
+          "b": {
+            "native": "ভাত",
+            "roman": "bhat",
+            "en": "cooked rice"
+          }
+        },
+        {
+          "a": {
+            "native": "চাল",
+            "roman": "chal",
+            "en": "uncooked rice"
+          },
+          "b": {
+            "native": "ছাল",
+            "roman": "chhal",
+            "en": "bark, skin"
+          }
+        },
+        {
+          "a": {
+            "native": "জাল",
+            "roman": "jal",
+            "en": "net; fake"
+          },
+          "b": {
+            "native": "ঝাল",
+            "roman": "jhal",
+            "en": "spicy hot"
+          }
+        },
+        {
+          "a": {
+            "native": "গা",
+            "roman": "ga",
+            "en": "body (skin)"
+          },
+          "b": {
+            "native": "ঘা",
+            "roman": "gha",
+            "en": "wound, sore"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ভালো",
+          "roman": "bhalo",
+          "en": "good"
+        },
+        {
+          "native": "খাবার",
+          "roman": "khabar",
+          "en": "food"
+        },
+        {
+          "native": "ঘুম",
+          "roman": "ghum",
+          "en": "sleep"
+        },
+        {
+          "native": "থাকা",
+          "roman": "thaka",
+          "en": "to stay"
+        },
+        {
+          "native": "ধন্যবাদ",
+          "roman": "dhônnobad",
+          "en": "thank you"
+        },
+        {
+          "native": "ঝাল খাবার",
+          "roman": "jhal khabar",
+          "en": "spicy food"
+        },
+        {
+          "native": "ফুল",
+          "roman": "phul",
+          "en": "flower"
+        }
+      ]
+    },
+    {
+      "id": "retroflex-dental",
+      "title": "Retroflex ট ড vs dental ত দ",
+      "body": "Bengali has two kinds of t and d. **Dental** ত থ দ ধ: put the tip of your tongue **against the back of your upper front teeth**, like Spanish or French t/d. **Retroflex** ট ঠ ড ঢ: curl the tongue tip **back** to touch the roof of the mouth just behind the gum ridge.\n\nEnglish t and d are made in between, on the gum ridge, so Bengali speakers hear English t/d as **retroflex**: that is why 'table' is টেবিল and 'doctor' is ডাক্তার. Your job is mainly to learn the soft, teeth-touching dental sounds and use them where the spelling shows ত/দ.\n\nRomanization: dotted **ṭ ḍ** are retroflex; plain **t d** are always dental.",
+      "tips": [
+        "For ত, the tongue should be visible between the teeth in a mirror.",
+        "For ট, curl the tongue back as if starting an American r.",
+        "If a word sounds 'English' (ṭebil, ḍaktar), it uses retroflex."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "টাক",
+            "roman": "ṭak",
+            "en": "bald patch"
+          },
+          "b": {
+            "native": "তাক",
+            "roman": "tak",
+            "en": "shelf; aim"
+          }
+        },
+        {
+          "a": {
+            "native": "ডান",
+            "roman": "ḍan",
+            "en": "right (side)"
+          },
+          "b": {
+            "native": "দান",
+            "roman": "dan",
+            "en": "donation"
+          }
+        },
+        {
+          "a": {
+            "native": "টান",
+            "roman": "ṭan",
+            "en": "pull; attachment"
+          },
+          "b": {
+            "native": "তান",
+            "roman": "tan",
+            "en": "melody"
+          }
+        },
+        {
+          "a": {
+            "native": "কাঠ",
+            "roman": "kaṭh",
+            "en": "wood"
+          },
+          "b": {
+            "native": "কাত",
+            "roman": "kat",
+            "en": "tilted, on one side"
+          }
+        },
+        {
+          "a": {
+            "native": "ডাক",
+            "roman": "ḍak",
+            "en": "call; post, mail"
+          },
+          "b": {
+            "native": "দাগ",
+            "roman": "dag",
+            "en": "stain, mark"
+          },
+          "note": "near pair: listen to the first consonant"
+        }
+      ],
+      "drill": [
+        {
+          "native": "টাকা",
+          "roman": "ṭaka",
+          "en": "money"
+        },
+        {
+          "native": "তারা",
+          "roman": "tara",
+          "en": "star; they"
+        },
+        {
+          "native": "ঠিক",
+          "roman": "ṭhik",
+          "en": "right, correct"
+        },
+        {
+          "native": "দাদা",
+          "roman": "dada",
+          "en": "elder brother"
+        },
+        {
+          "native": "ডিম",
+          "roman": "ḍim",
+          "en": "egg"
+        },
+        {
+          "native": "দুধ",
+          "roman": "dudh",
+          "en": "milk"
+        },
+        {
+          "native": "টেবিল",
+          "roman": "ṭebil",
+          "en": "table"
+        },
+        {
+          "native": "তুমি",
+          "roman": "tumi",
+          "en": "you (familiar)"
+        }
+      ]
+    },
+    {
+      "id": "flaps",
+      "title": "The flaps ড় and ঢ় (ṛ)",
+      "body": "ড় (and the rare ঢ়) is a **retroflex flap**: curl your tongue tip back, then flick it forward so it strikes the roof of the mouth once on the way out. It sounds a bit like a mix of r and d. It never begins a word.\n\nThe flap contrasts with the ordinary tapped **র** r, and the difference matters: পড়া *pôṛa* 'to read' vs পরা *pôra* 'to wear'. In some Bangladeshi and East Bengal speech the two merge into r, but standard speech keeps them apart.",
+      "tips": [
+        "Start with ড, then let the tongue slide forward without stopping: that's ড়.",
+        "Words like বড় (big), বাড়ি (house), গাড়ি (car) are very common: get them right early.",
+        "র is a quick tap with the tongue tip at the gum ridge, without curling back."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "পড়া",
+            "roman": "pôṛa",
+            "en": "to read; to fall"
+          },
+          "b": {
+            "native": "পরা",
+            "roman": "pôra",
+            "en": "to wear"
+          }
+        },
+        {
+          "a": {
+            "native": "কড়া",
+            "roman": "kôṛa",
+            "en": "strict; strong (tea)"
+          },
+          "b": {
+            "native": "করা",
+            "roman": "kôra",
+            "en": "to do"
+          }
+        },
+        {
+          "a": {
+            "native": "বাড়ি",
+            "roman": "baṛi",
+            "en": "house, home"
+          },
+          "b": {
+            "native": "বারি",
+            "roman": "bari",
+            "en": "water (poetic)"
+          }
+        },
+        {
+          "a": {
+            "native": "ঘোড়া",
+            "roman": "ghoṛa",
+            "en": "horse"
+          },
+          "b": {
+            "native": "ঘোরা",
+            "roman": "ghora",
+            "en": "to wander, turn"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "বড়",
+          "roman": "bôṛo",
+          "en": "big"
+        },
+        {
+          "native": "গাড়ি",
+          "roman": "gaṛi",
+          "en": "car, vehicle"
+        },
+        {
+          "native": "ঘড়ি",
+          "roman": "ghoṛi",
+          "en": "watch, clock"
+        },
+        {
+          "native": "পাহাড়",
+          "roman": "pahaṛ",
+          "en": "hill, mountain"
+        },
+        {
+          "native": "বাড়ি যাব",
+          "roman": "baṛi jabo",
+          "en": "I'll go home"
+        },
+        {
+          "native": "সাড়ে",
+          "roman": "shaṛe",
+          "en": "and a half (time)"
+        }
+      ]
+    },
+    {
+      "id": "nasal",
+      "title": "Nasal vowels (chandrabindu ঁ)",
+      "body": "The moon-and-dot ঁ (চন্দ্রবিন্দু *chôndrobindu*) over a letter means the vowel is **nasalised**: air flows through the nose and the mouth at the same time, like French *bon* or the vowel in a long 'uh-huh'. There is no n or m consonant after it.\n\nNasalisation changes meaning: কাঁদা *kaṃda* 'to cry' vs কাদা *kada* 'mud'. It is especially common in verbs and in respectful pronouns: তাঁর *taṃr* 'his/her (respectful)' vs তার *tar* 'his/her'. In the romanization a nasal vowel is marked with **ṃ** after it.",
+      "tips": [
+        "Pinch your nose: a nasal vowel will sound blocked, an oral one won't.",
+        "Don't add an n or m: চাঁদ is chaṃd, not 'chand'.",
+        "Keep the nasal through the whole vowel, not just at the end."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "কাঁদা",
+            "roman": "kaṃda",
+            "en": "to cry"
+          },
+          "b": {
+            "native": "কাদা",
+            "roman": "kada",
+            "en": "mud"
+          }
+        },
+        {
+          "a": {
+            "native": "কাঁটা",
+            "roman": "kaṃṭa",
+            "en": "thorn; fishbone"
+          },
+          "b": {
+            "native": "কাটা",
+            "roman": "kaṭa",
+            "en": "to cut"
+          }
+        },
+        {
+          "a": {
+            "native": "বাঁশ",
+            "roman": "baṃsh",
+            "en": "bamboo"
+          },
+          "b": {
+            "native": "বাস",
+            "roman": "bas",
+            "en": "bus"
+          }
+        },
+        {
+          "a": {
+            "native": "পাঁক",
+            "roman": "paṃk",
+            "en": "mire, sludge"
+          },
+          "b": {
+            "native": "পাক",
+            "roman": "pak",
+            "en": "cooking; a twist"
+          }
+        },
+        {
+          "a": {
+            "native": "তাঁর",
+            "roman": "taṃr",
+            "en": "his/her (respectful)"
+          },
+          "b": {
+            "native": "তার",
+            "roman": "tar",
+            "en": "his/her"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "চাঁদ",
+          "roman": "chaṃd",
+          "en": "moon"
+        },
+        {
+          "native": "পাঁচ",
+          "roman": "paṃch",
+          "en": "five"
+        },
+        {
+          "native": "হ্যাঁ",
+          "roman": "hæṃ",
+          "en": "yes"
+        },
+        {
+          "native": "আঁকা",
+          "roman": "aṃka",
+          "en": "to draw"
+        },
+        {
+          "native": "দাঁত",
+          "roman": "daṃt",
+          "en": "tooth"
+        },
+        {
+          "native": "বাঁদিক",
+          "roman": "baṃdik",
+          "en": "left side"
+        }
+      ]
+    },
+    {
+      "id": "same-sound",
+      "title": "Many letters, one sound: শ ষ স, জ য, ন ণ, ই ঈ, উ ঊ",
+      "body": "Bengali spelling preserves Sanskrit distinctions that have disappeared from speech. The good news: reading aloud is easier than it looks. The bad news: spelling must be memorised.\n\n**শ ষ স** are all normally **sh**. স is a real **s** only before a dental (স্ত st, স্থ sth, স্ন sn), in clusters with র/ল (স্র, স্ল) and in many English loans (বাস *bas*). **জ and য** are both **j**. **ন and ণ** are both **n**. **ই/ঈ** are both **i**, and **উ/ঊ** both **u**. **ঋ** is **ri**. The khanda-ta ৎ is just t. The pairs below are true homophones: same sound, different meaning.",
+      "tips": [
+        "When reading, just say sh for any of শ ষ স unless a dental consonant follows.",
+        "Learn spellings visually: সব 'all' and শব 'corpse' sound the same!",
+        "In Bangladesh many speakers say স as s more often, especially in careful speech."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "সব",
+            "roman": "shôb",
+            "en": "all"
+          },
+          "b": {
+            "native": "শব",
+            "roman": "shôb",
+            "en": "corpse"
+          },
+          "note": "homophones"
+        },
+        {
+          "a": {
+            "native": "সোনা",
+            "roman": "shona",
+            "en": "gold; darling"
+          },
+          "b": {
+            "native": "শোনা",
+            "roman": "shona",
+            "en": "to hear"
+          },
+          "note": "homophones"
+        },
+        {
+          "a": {
+            "native": "দিন",
+            "roman": "din",
+            "en": "day"
+          },
+          "b": {
+            "native": "দীন",
+            "roman": "din",
+            "en": "poor, humble"
+          },
+          "note": "ই and ঈ sound the same"
+        },
+        {
+          "a": {
+            "native": "জাম",
+            "roman": "jam",
+            "en": "black plum (jamun)"
+          },
+          "b": {
+            "native": "যাম",
+            "roman": "jam",
+            "en": "a watch of the night (3 hours)"
+          },
+          "note": "জ and য sound the same"
+        },
+        {
+          "a": {
+            "native": "কোণ",
+            "roman": "kon",
+            "en": "corner, angle"
+          },
+          "b": {
+            "native": "কোন",
+            "roman": "kon",
+            "en": "which"
+          },
+          "note": "ণ and ন sound the same"
+        }
+      ],
+      "drill": [
+        {
+          "native": "ষোলো",
+          "roman": "sholo",
+          "en": "sixteen"
+        },
+        {
+          "native": "শহর",
+          "roman": "shôhor",
+          "en": "city"
+        },
+        {
+          "native": "সময়",
+          "roman": "shômoy",
+          "en": "time"
+        },
+        {
+          "native": "আস্তে",
+          "roman": "aste",
+          "en": "slowly"
+        },
+        {
+          "native": "যাওয়া",
+          "roman": "jawa",
+          "en": "to go"
+        },
+        {
+          "native": "কৃষক",
+          "roman": "krishok",
+          "en": "farmer"
+        },
+        {
+          "native": "কারণ",
+          "roman": "karon",
+          "en": "because; reason"
+        }
+      ]
+    },
+    {
+      "id": "conjunct-sounds",
+      "title": "How conjuncts are really pronounced",
+      "body": "Several conjunct types are not pronounced letter by letter. **য-ফলা** (্য) after a consonant in the middle of a word **doubles** that consonant: বিদ্যা *bidda* 'learning', সত্য *shotto* 'truth', ধন্যবাদ *dhônnobad*. At the start of a word it does not double, and with া it gives **æ**: ব্যাগ *bæg*.\n\n**ব-ফলা** (্ব) and **ম-ফলা** (্ম) after another consonant also usually just double it: বিশ্ব *bishsho* 'world', পদ্ম *pôddo* 'lotus', আত্মা *atta* 'soul'. (But ম্ব is a real mb: লম্বা *lômba*.)\n\n**ক্ষ** is *kh* at the start (ক্ষমা *khôma*) and *kkh* in the middle (পরীক্ষা *porikkha*). **জ্ঞ** is *g* at the start, often colouring the next a to æ (জ্ঞান *gæn*), and *gg* in the middle (বিজ্ঞান *biggan*). Finally, a **visarga** in the middle of a word doubles the next consonant: দুঃখ *dukkho*.",
+      "tips": [
+        "A hook after the consonant (য-ফলা) = say it twice.",
+        "Don't say 'vishva' or 'padma': Bengali is bishsho and pôddo.",
+        "Hold double consonants slightly longer, like 'book-keeper'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "সাধ",
+            "roman": "shadh",
+            "en": "wish, longing"
+          },
+          "b": {
+            "native": "সাধ্য",
+            "roman": "shaddho",
+            "en": "ability, means"
+          },
+          "note": "য-ফলা doubles"
+        },
+        {
+          "a": {
+            "native": "বিদ্যা",
+            "roman": "bidda",
+            "en": "learning"
+          },
+          "b": {
+            "native": "বিদায়",
+            "roman": "biday",
+            "en": "farewell"
+          }
+        },
+        {
+          "a": {
+            "native": "পদ",
+            "roman": "pôd",
+            "en": "post, position"
+          },
+          "b": {
+            "native": "পদ্ম",
+            "roman": "pôddo",
+            "en": "lotus"
+          },
+          "note": "ম-ফলা doubles"
+        }
+      ],
+      "drill": [
+        {
+          "native": "ধন্যবাদ",
+          "roman": "dhônnobad",
+          "en": "thank you"
+        },
+        {
+          "native": "সত্যি",
+          "roman": "shotti",
+          "en": "true, really"
+        },
+        {
+          "native": "ক্ষমা",
+          "roman": "khôma",
+          "en": "forgiveness"
+        },
+        {
+          "native": "লক্ষ্মী",
+          "roman": "lokkhi",
+          "en": "Lakshmi; good, well-behaved"
+        },
+        {
+          "native": "জ্ঞান",
+          "roman": "gæn",
+          "en": "knowledge; consciousness"
+        },
+        {
+          "native": "দুঃখিত",
+          "roman": "dukkhito",
+          "en": "sorry"
+        },
+        {
+          "native": "স্বাস্থ্য",
+          "roman": "shastho",
+          "en": "health"
+        },
+        {
+          "native": "অবশ্যই",
+          "roman": "ôbosshoi",
+          "en": "of course"
+        }
+      ]
+    },
+    {
+      "id": "gemination",
+      "title": "Double consonants",
+      "body": "Many Bengali words have **double (long) consonants**, written as a conjunct of the same letter (ত্ত, ন্ন, ল্ল, চ্ছ, ক্ক) or produced by য-ফলা. You must hold the consonant for longer, as in English 'book-case' or 'black-cat' where two k sounds meet. Shortening a double consonant can change the word or make it sound foreign.\n\nAspirated doubles are written with the plain + aspirated letter (চ্ছ *chchh*, দ্ধ *ddh*): hold the closure, then release with the puff.",
+      "tips": [
+        "Pause briefly with the mouth closed before releasing a double consonant.",
+        "Clap the rhythm: পাত্তা is pat-ta, not pa-ta."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "পাতা",
+            "roman": "pata",
+            "en": "leaf; page"
+          },
+          "b": {
+            "native": "পাত্তা",
+            "roman": "patta",
+            "en": "importance, attention"
+          }
+        },
+        {
+          "a": {
+            "native": "মত",
+            "roman": "môto",
+            "en": "opinion; like"
+          },
+          "b": {
+            "native": "মত্ত",
+            "roman": "motto",
+            "en": "intoxicated, absorbed"
+          }
+        },
+        {
+          "a": {
+            "native": "কানা",
+            "roman": "kana",
+            "en": "blind (colloquial)"
+          },
+          "b": {
+            "native": "কান্না",
+            "roman": "kanna",
+            "en": "crying"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "আচ্ছা",
+          "roman": "achchha",
+          "en": "okay"
+        },
+        {
+          "native": "উত্তর",
+          "roman": "uttor",
+          "en": "answer"
+        },
+        {
+          "native": "চল্লিশ",
+          "roman": "chollish",
+          "en": "forty"
+        },
+        {
+          "native": "বাচ্চা",
+          "roman": "bachcha",
+          "en": "child, baby"
+        },
+        {
+          "native": "যুদ্ধ",
+          "roman": "juddho",
+          "en": "war"
+        },
+        {
+          "native": "রান্না",
+          "roman": "ranna",
+          "en": "cooking"
+        }
+      ]
+    },
+    {
+      "id": "ph-bh",
+      "title": "ph, bh, and the missing v, z and f",
+      "body": "Bengali has no native **v**, **z** or **f**. ভ is *bh* (breathy b), not v; ব is *b*. So English 'video' becomes ভিডিও *bhiḍio* (or ভিডিও with a light b), and 'university' becomes ইউনিভার্সিটি. জ covers English **z**: জিরো *jiro* 'zero'.\n\nফ is officially an aspirated *ph*, but in everyday speech, particularly in Bangladesh and among younger speakers, it is very often pronounced as **f**: ফোন *phon/fon* 'phone', ফুল *phul/ful* 'flower'. Both are correct; this course writes *ph*.",
+      "tips": [
+        "Never pronounce ভ as v: ভালো is bhalo.",
+        "English z words take j: জু (zoo) is ju.",
+        "You may say ফ as f; you'll be understood everywhere."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "বাজ",
+            "roman": "baj",
+            "en": "thunderbolt; hawk"
+          },
+          "b": {
+            "native": "ভাজ",
+            "roman": "bhaj",
+            "en": "fry! (informal)"
+          }
+        },
+        {
+          "a": {
+            "native": "পল",
+            "roman": "pôl",
+            "en": "moment"
+          },
+          "b": {
+            "native": "ফল",
+            "roman": "phôl",
+            "en": "fruit; result"
+          }
+        },
+        {
+          "a": {
+            "native": "বয়",
+            "roman": "bôy",
+            "en": "flows; carries"
+          },
+          "b": {
+            "native": "ভয়",
+            "roman": "bhôy",
+            "en": "fear"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ফোন",
+          "roman": "phon",
+          "en": "phone"
+        },
+        {
+          "native": "ভিডিও",
+          "roman": "bhiḍio",
+          "en": "video"
+        },
+        {
+          "native": "ভাষা",
+          "roman": "bhasha",
+          "en": "language"
+        },
+        {
+          "native": "ফেরা",
+          "roman": "phæra",
+          "en": "to return"
+        },
+        {
+          "native": "জিরো",
+          "roman": "jiro",
+          "en": "zero (colloquial)"
+        }
+      ]
+    },
+    {
+      "id": "stress-rhythm",
+      "title": "Stress on the first syllable and even rhythm",
+      "body": "Bengali puts a light **stress on the first syllable** of a word, and in a phrase, on the first word of a group. Unlike English, stress is weak and does not reduce other vowels: every vowel keeps its full quality. Don't swallow the second syllable of বাংলাদেশ: it's *BAṅ-la-desh*, each syllable clear.\n\nBecause stress is fixed, English loanwords are re-stressed: কম্পিউটার *KOMpiuṭar*, টেলিফোন *ṬEliphon*. Speaking with an even, syllable-timed rhythm and a slight emphasis at the start of each phrase will make you sound much more natural.",
+      "tips": [
+        "Tap the table once per syllable; make them all roughly equal length.",
+        "Put a gentle emphasis on the first syllable only.",
+        "Don't reduce vowels to 'uh' as English does."
+      ],
+      "drill": [
+        {
+          "native": "বাংলাদেশ",
+          "roman": "baṅladesh",
+          "en": "Bangladesh"
+        },
+        {
+          "native": "কলকাতা",
+          "roman": "kolkata",
+          "en": "Kolkata"
+        },
+        {
+          "native": "বিশ্ববিদ্যালয়",
+          "roman": "bishshobiddalôy",
+          "en": "university"
+        },
+        {
+          "native": "কম্পিউটার",
+          "roman": "kômpiuṭar",
+          "en": "computer"
+        },
+        {
+          "native": "আমি বাংলা শিখছি",
+          "roman": "ami baṅla shikhchhi",
+          "en": "I'm learning Bengali"
+        },
+        {
+          "native": "রবীন্দ্রনাথ ঠাকুর",
+          "roman": "robindronath ṭhakur",
+          "en": "Rabindranath Tagore"
+        }
+      ]
+    },
+    {
+      "id": "intonation",
+      "title": "Intonation: questions and the little word কি",
+      "body": "Yes/no questions in Bengali are often made by adding **কি** *ki* after the subject (or just by intonation), with **no change in word order**: তুমি কি বাংলা বলো? *tumi ki baṅla bôlo?* 'Do you speak Bengali?'\n\nThe intonation of a yes/no question **rises and then falls sharply at the very end**, on the last syllable: *baṅla bô-LO↗↘?*. This rise-fall sounds unusual to English ears; an English-style final rise can sound uncertain. Question-word questions (কী, কোথায়, কেন…) use a falling tone, like statements. Note the spelling: **কি** is the yes/no particle, **কী** is 'what'; both sound *ki*.\n\nEmphatic particles also shape intonation: **তো** *to* ('after all, right?'), **না** *na* at the end ('…, isn't it?'), and **-ই** *-i* (emphasis 'only, exactly').",
+      "tips": [
+        "For yes/no questions: rise on the second-to-last syllable, fall on the last.",
+        "Question words (কী, কোথায়) don't need a rise.",
+        "Tag questions end in ..., না? with a rising na."
+      ],
+      "drill": [
+        {
+          "native": "আপনি কি ভালো আছেন?",
+          "roman": "apni ki bhalo achhen?",
+          "en": "Are you well?"
+        },
+        {
+          "native": "তুমি কী খাবে?",
+          "roman": "tumi ki khabe?",
+          "en": "What will you eat?"
+        },
+        {
+          "native": "ও আসবে, না?",
+          "roman": "o ashbe, na?",
+          "en": "She'll come, won't she?"
+        },
+        {
+          "native": "চা খাবেন?",
+          "roman": "cha khaben?",
+          "en": "Will you have tea?"
+        },
+        {
+          "native": "এটা তো ঠিক!",
+          "roman": "æṭa to ṭhik!",
+          "en": "But that's right!"
+        },
+        {
+          "native": "আমিই করব।",
+          "roman": "ami-i korbo.",
+          "en": "I'll do it myself."
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "n": 0,
+      "native": "শূন্য",
+      "roman": "shunno",
+      "digit": "০"
+    },
+    {
+      "n": 1,
+      "native": "এক",
+      "roman": "æk",
+      "digit": "১"
+    },
+    {
+      "n": 2,
+      "native": "দুই",
+      "roman": "dui",
+      "digit": "২"
+    },
+    {
+      "n": 3,
+      "native": "তিন",
+      "roman": "tin",
+      "digit": "৩"
+    },
+    {
+      "n": 4,
+      "native": "চার",
+      "roman": "char",
+      "digit": "৪"
+    },
+    {
+      "n": 5,
+      "native": "পাঁচ",
+      "roman": "paṃch",
+      "digit": "৫"
+    },
+    {
+      "n": 6,
+      "native": "ছয়",
+      "roman": "chhôy",
+      "digit": "৬"
+    },
+    {
+      "n": 7,
+      "native": "সাত",
+      "roman": "shat",
+      "digit": "৭"
+    },
+    {
+      "n": 8,
+      "native": "আট",
+      "roman": "aṭ",
+      "digit": "৮"
+    },
+    {
+      "n": 9,
+      "native": "নয়",
+      "roman": "nôy",
+      "digit": "৯"
+    },
+    {
+      "n": 10,
+      "native": "দশ",
+      "roman": "dôsh",
+      "digit": "১০"
+    },
+    {
+      "n": 11,
+      "native": "এগারো",
+      "roman": "ægaro",
+      "digit": "১১"
+    },
+    {
+      "n": 12,
+      "native": "বারো",
+      "roman": "baro",
+      "digit": "১২"
+    },
+    {
+      "n": 13,
+      "native": "তেরো",
+      "roman": "tero",
+      "digit": "১৩"
+    },
+    {
+      "n": 14,
+      "native": "চোদ্দ",
+      "roman": "choddo",
+      "digit": "১৪",
+      "note": "Bangladesh: চৌদ্দ (chouddo)"
+    },
+    {
+      "n": 15,
+      "native": "পনেরো",
+      "roman": "pônero",
+      "digit": "১৫"
+    },
+    {
+      "n": 16,
+      "native": "ষোলো",
+      "roman": "sholo",
+      "digit": "১৬"
+    },
+    {
+      "n": 17,
+      "native": "সতেরো",
+      "roman": "shôtero",
+      "digit": "১৭"
+    },
+    {
+      "n": 18,
+      "native": "আঠারো",
+      "roman": "aṭharo",
+      "digit": "১৮"
+    },
+    {
+      "n": 19,
+      "native": "উনিশ",
+      "roman": "unish",
+      "digit": "১৯"
+    },
+    {
+      "n": 20,
+      "native": "কুড়ি",
+      "roman": "kuṛi",
+      "digit": "২০",
+      "note": "Also বিশ (bish), the usual word in Bangladesh"
+    },
+    {
+      "n": 21,
+      "native": "একুশ",
+      "roman": "ekush",
+      "digit": "২১"
+    },
+    {
+      "n": 22,
+      "native": "বাইশ",
+      "roman": "baish",
+      "digit": "২২"
+    },
+    {
+      "n": 23,
+      "native": "তেইশ",
+      "roman": "teish",
+      "digit": "২৩"
+    },
+    {
+      "n": 24,
+      "native": "চব্বিশ",
+      "roman": "chôbbish",
+      "digit": "২৪"
+    },
+    {
+      "n": 25,
+      "native": "পঁচিশ",
+      "roman": "pôṃchish",
+      "digit": "২৫"
+    },
+    {
+      "n": 26,
+      "native": "ছাব্বিশ",
+      "roman": "chhabbish",
+      "digit": "২৬"
+    },
+    {
+      "n": 27,
+      "native": "সাতাশ",
+      "roman": "shatash",
+      "digit": "২৭"
+    },
+    {
+      "n": 28,
+      "native": "আঠাশ",
+      "roman": "aṭhash",
+      "digit": "২৮"
+    },
+    {
+      "n": 29,
+      "native": "ঊনত্রিশ",
+      "roman": "unotrish",
+      "digit": "২৯"
+    },
+    {
+      "n": 30,
+      "native": "তিরিশ",
+      "roman": "tirish",
+      "digit": "৩০",
+      "note": "Bangladesh: ত্রিশ (trish)"
+    },
+    {
+      "n": 31,
+      "native": "একত্রিশ",
+      "roman": "ækotrish",
+      "digit": "৩১"
+    },
+    {
+      "n": 32,
+      "native": "বত্রিশ",
+      "roman": "bôtrish",
+      "digit": "৩২"
+    },
+    {
+      "n": 33,
+      "native": "তেত্রিশ",
+      "roman": "tetrish",
+      "digit": "৩৩"
+    },
+    {
+      "n": 34,
+      "native": "চৌত্রিশ",
+      "roman": "choutrish",
+      "digit": "৩৪"
+    },
+    {
+      "n": 35,
+      "native": "পঁয়ত্রিশ",
+      "roman": "pôṃytrish",
+      "digit": "৩৫"
+    },
+    {
+      "n": 36,
+      "native": "ছত্রিশ",
+      "roman": "chhôtrish",
+      "digit": "৩৬"
+    },
+    {
+      "n": 37,
+      "native": "সাঁইত্রিশ",
+      "roman": "shaṃitrish",
+      "digit": "৩৭"
+    },
+    {
+      "n": 38,
+      "native": "আটত্রিশ",
+      "roman": "aṭtrish",
+      "digit": "৩৮"
+    },
+    {
+      "n": 39,
+      "native": "ঊনচল্লিশ",
+      "roman": "unochollish",
+      "digit": "৩৯"
+    },
+    {
+      "n": 40,
+      "native": "চল্লিশ",
+      "roman": "chollish",
+      "digit": "৪০"
+    },
+    {
+      "n": 41,
+      "native": "একচল্লিশ",
+      "roman": "ækchollish",
+      "digit": "৪১"
+    },
+    {
+      "n": 42,
+      "native": "বিয়াল্লিশ",
+      "roman": "biyallish",
+      "digit": "৪২"
+    },
+    {
+      "n": 43,
+      "native": "তেতাল্লিশ",
+      "roman": "tetallish",
+      "digit": "৪৩"
+    },
+    {
+      "n": 44,
+      "native": "চুয়াল্লিশ",
+      "roman": "chuyallish",
+      "digit": "৪৪"
+    },
+    {
+      "n": 45,
+      "native": "পঁয়তাল্লিশ",
+      "roman": "pôṃytallish",
+      "digit": "৪৫"
+    },
+    {
+      "n": 46,
+      "native": "ছেচল্লিশ",
+      "roman": "chhechollish",
+      "digit": "৪৬"
+    },
+    {
+      "n": 47,
+      "native": "সাতচল্লিশ",
+      "roman": "shatchollish",
+      "digit": "৪৭"
+    },
+    {
+      "n": 48,
+      "native": "আটচল্লিশ",
+      "roman": "aṭchollish",
+      "digit": "৪৮"
+    },
+    {
+      "n": 49,
+      "native": "ঊনপঞ্চাশ",
+      "roman": "unopônchash",
+      "digit": "৪৯"
+    },
+    {
+      "n": 50,
+      "native": "পঞ্চাশ",
+      "roman": "pônchash",
+      "digit": "৫০"
+    },
+    {
+      "n": 51,
+      "native": "একান্ন",
+      "roman": "ækanno",
+      "digit": "৫১"
+    },
+    {
+      "n": 52,
+      "native": "বাহান্ন",
+      "roman": "bahanno",
+      "digit": "৫২"
+    },
+    {
+      "n": 53,
+      "native": "তিপ্পান্ন",
+      "roman": "tippanno",
+      "digit": "৫৩"
+    },
+    {
+      "n": 54,
+      "native": "চুয়ান্ন",
+      "roman": "chuyanno",
+      "digit": "৫৪"
+    },
+    {
+      "n": 55,
+      "native": "পঞ্চান্ন",
+      "roman": "pônchanno",
+      "digit": "৫৫"
+    },
+    {
+      "n": 56,
+      "native": "ছাপ্পান্ন",
+      "roman": "chhappanno",
+      "digit": "৫৬"
+    },
+    {
+      "n": 57,
+      "native": "সাতান্ন",
+      "roman": "shatanno",
+      "digit": "৫৭"
+    },
+    {
+      "n": 58,
+      "native": "আটান্ন",
+      "roman": "aṭanno",
+      "digit": "৫৮"
+    },
+    {
+      "n": 59,
+      "native": "ঊনষাট",
+      "roman": "unoshaṭ",
+      "digit": "৫৯"
+    },
+    {
+      "n": 60,
+      "native": "ষাট",
+      "roman": "shaṭ",
+      "digit": "৬০"
+    },
+    {
+      "n": 61,
+      "native": "একষট্টি",
+      "roman": "ækshoṭṭi",
+      "digit": "৬১"
+    },
+    {
+      "n": 62,
+      "native": "বাষট্টি",
+      "roman": "bashoṭṭi",
+      "digit": "৬২"
+    },
+    {
+      "n": 63,
+      "native": "তেষট্টি",
+      "roman": "teshoṭṭi",
+      "digit": "৬৩"
+    },
+    {
+      "n": 64,
+      "native": "চৌষট্টি",
+      "roman": "choushoṭṭi",
+      "digit": "৬৪"
+    },
+    {
+      "n": 65,
+      "native": "পঁয়ষট্টি",
+      "roman": "pôṃyshoṭṭi",
+      "digit": "৬৫"
+    },
+    {
+      "n": 66,
+      "native": "ছেষট্টি",
+      "roman": "chheshoṭṭi",
+      "digit": "৬৬"
+    },
+    {
+      "n": 67,
+      "native": "সাতষট্টি",
+      "roman": "shatshoṭṭi",
+      "digit": "৬৭"
+    },
+    {
+      "n": 68,
+      "native": "আটষট্টি",
+      "roman": "aṭshoṭṭi",
+      "digit": "৬৮"
+    },
+    {
+      "n": 69,
+      "native": "ঊনসত্তর",
+      "roman": "unoshôttor",
+      "digit": "৬৯"
+    },
+    {
+      "n": 70,
+      "native": "সত্তর",
+      "roman": "shôttor",
+      "digit": "৭০"
+    },
+    {
+      "n": 71,
+      "native": "একাত্তর",
+      "roman": "ækattor",
+      "digit": "৭১"
+    },
+    {
+      "n": 72,
+      "native": "বাহাত্তর",
+      "roman": "bahattor",
+      "digit": "৭২"
+    },
+    {
+      "n": 73,
+      "native": "তিয়াত্তর",
+      "roman": "tiyattor",
+      "digit": "৭৩"
+    },
+    {
+      "n": 74,
+      "native": "চুয়াত্তর",
+      "roman": "chuyattor",
+      "digit": "৭৪"
+    },
+    {
+      "n": 75,
+      "native": "পঁচাত্তর",
+      "roman": "pôṃchattor",
+      "digit": "৭৫"
+    },
+    {
+      "n": 76,
+      "native": "ছিয়াত্তর",
+      "roman": "chhiyattor",
+      "digit": "৭৬"
+    },
+    {
+      "n": 77,
+      "native": "সাতাত্তর",
+      "roman": "shatattor",
+      "digit": "৭৭"
+    },
+    {
+      "n": 78,
+      "native": "আটাত্তর",
+      "roman": "aṭattor",
+      "digit": "৭৮"
+    },
+    {
+      "n": 79,
+      "native": "ঊনআশি",
+      "roman": "unoashi",
+      "digit": "৭৯"
+    },
+    {
+      "n": 80,
+      "native": "আশি",
+      "roman": "ashi",
+      "digit": "৮০"
+    },
+    {
+      "n": 81,
+      "native": "একাশি",
+      "roman": "ækashi",
+      "digit": "৮১"
+    },
+    {
+      "n": 82,
+      "native": "বিরাশি",
+      "roman": "birashi",
+      "digit": "৮২"
+    },
+    {
+      "n": 83,
+      "native": "তিরাশি",
+      "roman": "tirashi",
+      "digit": "৮৩"
+    },
+    {
+      "n": 84,
+      "native": "চুরাশি",
+      "roman": "churashi",
+      "digit": "৮৪"
+    },
+    {
+      "n": 85,
+      "native": "পঁচাশি",
+      "roman": "pôṃchashi",
+      "digit": "৮৫"
+    },
+    {
+      "n": 86,
+      "native": "ছিয়াশি",
+      "roman": "chhiyashi",
+      "digit": "৮৬"
+    },
+    {
+      "n": 87,
+      "native": "সাতাশি",
+      "roman": "shatashi",
+      "digit": "৮৭"
+    },
+    {
+      "n": 88,
+      "native": "অষ্টাশি",
+      "roman": "ôshṭashi",
+      "digit": "৮৮"
+    },
+    {
+      "n": 89,
+      "native": "ঊননব্বই",
+      "roman": "unonôbboi",
+      "digit": "৮৯"
+    },
+    {
+      "n": 90,
+      "native": "নব্বই",
+      "roman": "nôbboi",
+      "digit": "৯০"
+    },
+    {
+      "n": 91,
+      "native": "একানব্বই",
+      "roman": "ækanôbboi",
+      "digit": "৯১"
+    },
+    {
+      "n": 92,
+      "native": "বিরানব্বই",
+      "roman": "biranôbboi",
+      "digit": "৯২"
+    },
+    {
+      "n": 93,
+      "native": "তিরানব্বই",
+      "roman": "tiranôbboi",
+      "digit": "৯৩"
+    },
+    {
+      "n": 94,
+      "native": "চুরানব্বই",
+      "roman": "churanôbboi",
+      "digit": "৯৪"
+    },
+    {
+      "n": 95,
+      "native": "পঁচানব্বই",
+      "roman": "pôṃchanôbboi",
+      "digit": "৯৫"
+    },
+    {
+      "n": 96,
+      "native": "ছিয়ানব্বই",
+      "roman": "chhiyanôbboi",
+      "digit": "৯৬"
+    },
+    {
+      "n": 97,
+      "native": "সাতানব্বই",
+      "roman": "shatanôbboi",
+      "digit": "৯৭"
+    },
+    {
+      "n": 98,
+      "native": "আটানব্বই",
+      "roman": "aṭanôbboi",
+      "digit": "৯৮"
+    },
+    {
+      "n": 99,
+      "native": "নিরানব্বই",
+      "roman": "niranôbboi",
+      "digit": "৯৯"
+    },
+    {
+      "n": 100,
+      "native": "একশো",
+      "roman": "æksho",
+      "digit": "১০০",
+      "note": "Also spelled একশ; 'a hundred' = একশো"
+    },
+    {
+      "n": 200,
+      "native": "দুশো",
+      "roman": "dusho",
+      "digit": "২০০"
+    },
+    {
+      "n": 500,
+      "native": "পাঁচশো",
+      "roman": "paṃchsho",
+      "digit": "৫০০"
+    },
+    {
+      "n": 1000,
+      "native": "এক হাজার",
+      "roman": "æk hajar",
+      "digit": "১০০০"
+    },
+    {
+      "n": 100000,
+      "native": "এক লাখ",
+      "roman": "æk lakh",
+      "digit": "১০০০০০",
+      "note": "Formal: লক্ষ (lôkkho). 1,00,000"
+    },
+    {
+      "n": 10000000,
+      "native": "এক কোটি",
+      "roman": "æk koṭi",
+      "digit": "১০০০০০০০",
+      "note": "1,00,00,000 = 100 lakh"
+    }
+  ]
+}

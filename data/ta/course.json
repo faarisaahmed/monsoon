@@ -1,0 +1,2905 @@
+{
+  "code": "ta",
+  "name": "Tamil",
+  "native": "தமிழ்",
+  "scriptName": "Tamil",
+  "script": {
+    "overview": "Tamil script (தமிழ் எழுத்து) is an **abugida** written left to right, descended from the ancient Brahmi script. It is the leanest of the Indian scripts: just **12 vowels** (உயிர் எழுத்து, 'life letters'), **18 consonants** (மெய் எழுத்து, 'body letters'), one special letter **ஃ** (ஆய்தம், *āytam*), plus a handful of borrowed **grantha** letters (ஜ ஷ ஸ ஹ க்ஷ ஸ்ரீ) for Sanskrit and English words. There is no headline, no aspirated letters and almost no stacked conjuncts.\n\nEvery consonant letter on its own carries an inherent short **a**: க = *ka*. To show a bare consonant with no vowel, Tamil puts a dot on top called the **புள்ளி** (*puḷḷi*): க் = *k*. Consonant clusters are simply written as dotted consonant + next letter, side by side: க்க (*kka*), ந்த (*nda*), ஸ்ரீ (*srī*).\n\nTo write a consonant with any other vowel, you add a **vowel sign** to it, producing an **உயிர்மெய்** (*uyirmey*, 'life-body') letter. 18 consonants × 12 vowels = 216 uyirmey letters, but you don't memorise them one by one: the signs for ā, i, ī, e, ē, ai, o, ō, au are regular (ா ி ீ ெ ே ை ொ ோ ௌ). Note that **ெ ே ை are written *before* the consonant** even though they are pronounced after it (கெ = *ke*, கை = *kai*), and ொ ோ ௌ wrap around it (கொ = *ko*). Only **u and ū** are irregular: the sign fuses with the consonant in several different shapes (கு, டு, சு, து, கூ, பூ…), which you learn as a small set of families.\n\nThe 18 consonants are traditionally arranged in three rows of six: **வல்லினம்** 'hard' (க ச ட த ப ற), **மெல்லினம்** 'soft' nasals (ங ஞ ண ந ம ன), each paired with the hard letter above it, and **இடையினம்** 'medium' (ய ர ல வ ழ ள). The hard letters are a key to pronunciation: one letter such as க can sound *k*, *g* or *h* depending on its position (see the pronunciation section).\n\nTamil also has its own digits (௦ ௧ ௨ ௩ …) and special signs for 10, 100 and 1000, but today everyday writing — prices, phone numbers, clocks — uses ordinary Western digits 0–9.",
+    "groups": [
+      {
+        "id": "vowels",
+        "title": "Vowels (உயிர் எழுத்து)",
+        "note": "Twelve vowels: five short–long pairs (a/ā, i/ī, u/ū, e/ē, o/ō) plus the diphthongs ai and au. The full letter is used only at the start of a word; after a consonant you use the vowel sign shown. Length is meaningful: பல் pal 'tooth' vs பால் pāl 'milk'.",
+        "letters": [
+          {
+            "char": "அ",
+            "roman": "a",
+            "ipa": "ʌ",
+            "sound": "Short a, like the u in 'but' (never the a in 'cat').",
+            "sign": "—",
+            "signExample": "க (ka)",
+            "example": {
+              "native": "அம்மா",
+              "roman": "ammā",
+              "en": "mother"
+            },
+            "strokes": "Start with the small left loop, then the large curve and the vertical on the right."
+          },
+          {
+            "char": "ஆ",
+            "roman": "ā",
+            "ipa": "aː",
+            "sound": "Long a, as in 'father'.",
+            "sign": "ா",
+            "signExample": "கா (kā)",
+            "example": {
+              "native": "ஆடு",
+              "roman": "āḍu",
+              "en": "goat"
+            },
+            "strokes": "Write அ, then add the hooked tail at the bottom right."
+          },
+          {
+            "char": "இ",
+            "roman": "i",
+            "ipa": "i",
+            "sound": "Short i, as in 'bit' but a little tenser.",
+            "sign": "ி",
+            "signExample": "கி (ki)",
+            "example": {
+              "native": "இலை",
+              "roman": "ilai",
+              "en": "leaf"
+            }
+          },
+          {
+            "char": "ஈ",
+            "roman": "ī",
+            "ipa": "iː",
+            "sound": "Long i, as in 'machine'.",
+            "sign": "ீ",
+            "signExample": "கீ (kī)",
+            "example": {
+              "native": "ஈ",
+              "roman": "ī",
+              "en": "housefly"
+            }
+          },
+          {
+            "char": "உ",
+            "roman": "u",
+            "ipa": "u",
+            "sound": "Short u, as in 'put'. At the end of a word it is often reduced to a relaxed, unrounded ɨ.",
+            "sign": "ு (irregular)",
+            "signExample": "கு (ku), சு (su), து (tu)",
+            "example": {
+              "native": "உப்பு",
+              "roman": "uppu",
+              "en": "salt"
+            }
+          },
+          {
+            "char": "ஊ",
+            "roman": "ū",
+            "ipa": "uː",
+            "sound": "Long u, as in 'food'.",
+            "sign": "ூ (irregular)",
+            "signExample": "கூ (kū), பூ (pū)",
+            "example": {
+              "native": "ஊர்",
+              "roman": "ūr",
+              "en": "town; one's home town"
+            }
+          },
+          {
+            "char": "எ",
+            "roman": "e",
+            "ipa": "e",
+            "sound": "Short e, as in 'bet'. At the start of a word most speakers say 'ye': எலி = yeli.",
+            "sign": "ெ",
+            "signExample": "கெ (ke) — sign goes BEFORE the consonant",
+            "example": {
+              "native": "எலி",
+              "roman": "eli",
+              "en": "rat"
+            }
+          },
+          {
+            "char": "ஏ",
+            "roman": "ē",
+            "ipa": "eː",
+            "sound": "Long e, like 'a' in 'cafe' held longer (no y-glide at the end).",
+            "sign": "ே",
+            "signExample": "கே (kē) — sign goes BEFORE the consonant",
+            "example": {
+              "native": "ஏணி",
+              "roman": "ēṇi",
+              "en": "ladder"
+            }
+          },
+          {
+            "char": "ஐ",
+            "roman": "ai",
+            "ipa": "ʌɪ",
+            "sound": "Diphthong like 'eye'. At the end of a word in speech it often becomes a short e or a: இலை → 'ile'.",
+            "sign": "ை",
+            "signExample": "கை (kai) — sign goes BEFORE the consonant",
+            "example": {
+              "native": "ஐந்து",
+              "roman": "aindu",
+              "en": "five"
+            }
+          },
+          {
+            "char": "ஒ",
+            "roman": "o",
+            "ipa": "o",
+            "sound": "Short o, as in Spanish 'no' but clipped. At the start of a word often said 'wo'.",
+            "sign": "ொ",
+            "signExample": "கொ (ko) — ெ before + ா after",
+            "example": {
+              "native": "ஒட்டகம்",
+              "roman": "oṭṭagam",
+              "en": "camel"
+            }
+          },
+          {
+            "char": "ஓ",
+            "roman": "ō",
+            "ipa": "oː",
+            "sound": "Long o, as in 'go' but a pure vowel without the w-glide.",
+            "sign": "ோ",
+            "signExample": "கோ (kō) — ே before + ா after",
+            "example": {
+              "native": "ஓடம்",
+              "roman": "ōḍam",
+              "en": "boat, ferry"
+            }
+          },
+          {
+            "char": "ஔ",
+            "roman": "au",
+            "ipa": "ʌʊ",
+            "sound": "Diphthong like 'ow' in 'cow'. Rare; mostly in names and loanwords.",
+            "sign": "ௌ",
+            "signExample": "கௌ (kau) — ெ before + ள-like tail after",
+            "example": {
+              "native": "ஔவையார்",
+              "roman": "Auvaiyār",
+              "en": "Avvaiyar (famous poetess)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "marks",
+        "title": "Pulli and aytham (special marks)",
+        "note": "The pulli (dot) kills the inherent vowel, like the Hindi virama. The aytham ஃ is a unique letter counted on its own; today it is mostly used with ப to write the English 'f' sound.",
+        "letters": [
+          {
+            "char": "◌்",
+            "roman": "(no vowel)",
+            "ipa": "",
+            "sound": "Puḷḷi: a dot above a consonant removes its inherent a. க = ka, க் = k. Every word-final consonant and every first member of a cluster carries it.",
+            "example": {
+              "native": "மீன்",
+              "roman": "mīn",
+              "en": "fish"
+            },
+            "strokes": "A single dot written last, above the letter."
+          },
+          {
+            "char": "ஃ",
+            "roman": "ḥ / f",
+            "ipa": "x ~ h",
+            "sound": "Āytam: three dots in a triangle. In old words it is a light h/kh sound before க (எஃகு = ehku). In modern writing ஃப = f and ஃஜ = z in loanwords.",
+            "example": {
+              "native": "எஃகு",
+              "roman": "ehku",
+              "en": "steel"
+            },
+            "strokes": "Three dots: two below, one on top."
+          },
+          {
+            "char": "ஃப",
+            "roman": "f",
+            "ipa": "f",
+            "sound": "Modern spelling for English f: aytham + ப.",
+            "example": {
+              "native": "ஃபோன்",
+              "roman": "fōn",
+              "en": "phone"
+            }
+          }
+        ]
+      },
+      {
+        "id": "hard",
+        "title": "Hard consonants — வல்லினம் (stops)",
+        "note": "Six stops. None of them is aspirated (no puff of air). Each has more than one pronunciation: voiceless at the start of a word and when doubled, voiced (and often softened) between vowels and after a nasal. ற never starts a word; ட never starts a native word.",
+        "letters": [
+          {
+            "char": "க",
+            "roman": "ka / ga / ha",
+            "ipa": "k ~ ɡ ~ ɣ ~ h",
+            "sound": "k at the start (கண் kaṇ) and doubled (க்க kk); g or a soft h-like sound between vowels (மகன் magan); g after ங் (ங்க ng).",
+            "example": {
+              "native": "கண்",
+              "roman": "kaṇ",
+              "en": "eye"
+            },
+            "strokes": "A cross-like stroke: horizontal, then the loop through the middle."
+          },
+          {
+            "char": "ச",
+            "roman": "sa / cha / ja",
+            "ipa": "s ~ tʃ ~ dʒ",
+            "sound": "Usually s at the start and between vowels (சரி sari, பசி pasi); ch when doubled (ச்ச cch) or after ட்/ற் ; j after ஞ் (ஞ்ச nj).",
+            "example": {
+              "native": "சட்டை",
+              "roman": "saṭṭai",
+              "en": "shirt"
+            }
+          },
+          {
+            "char": "ட",
+            "roman": "ṭa / ḍa",
+            "ipa": "ʈ ~ ɖ ~ ɽ",
+            "sound": "Retroflex: tongue tip curled back to the roof of the mouth. ṭ when doubled (ட்ட), ḍ (almost a flap) between vowels.",
+            "example": {
+              "native": "வீடு",
+              "roman": "vīḍu",
+              "en": "house"
+            },
+            "strokes": "One stroke: down, then right — like an L."
+          },
+          {
+            "char": "த",
+            "roman": "ta / da",
+            "ipa": "t̪ ~ d̪ ~ ð",
+            "sound": "Dental: tongue tip touching the back of the upper teeth (softer than English t). t at the start and doubled; d (almost English 'th' in 'this') between vowels.",
+            "example": {
+              "native": "தண்ணீர்",
+              "roman": "taṇṇīr",
+              "en": "water"
+            }
+          },
+          {
+            "char": "ப",
+            "roman": "pa / ba",
+            "ipa": "p ~ b ~ β",
+            "sound": "p at the start and doubled; b between vowels and after ம் (ம்ப mb).",
+            "example": {
+              "native": "பல்",
+              "roman": "pal",
+              "en": "tooth"
+            },
+            "strokes": "Like a U with the right side taller."
+          },
+          {
+            "char": "ற",
+            "roman": "ṟa",
+            "ipa": "r ~ ɾ",
+            "sound": "A tapped or lightly trilled r with the tongue a little further back than ர. In modern speech single ற ≈ ர, but doubled ற்ற sounds 'ttr' (or 'tt' in Chennai), and ன்ற sounds 'ndr'.",
+            "example": {
+              "native": "ஆறு",
+              "roman": "āru",
+              "en": "six; river"
+            }
+          }
+        ]
+      },
+      {
+        "id": "soft",
+        "title": "Soft consonants — மெல்லினம் (nasals)",
+        "note": "Six nasals, one paired with each hard consonant: ங–க, ஞ–ச, ண–ட, ந–த, ம–ப, ன–ற. Inside a word a nasal is usually followed by its partner (ங்க, ஞ்ச, ண்ட, ந்த, ம்ப, ன்ற), and the partner is then voiced.",
+        "letters": [
+          {
+            "char": "ங",
+            "roman": "ṅa",
+            "ipa": "ŋ",
+            "sound": "The ng in 'sing'. Almost only seen as ங் before க: ங்க = 'ng' as in 'finger'.",
+            "example": {
+              "native": "சிங்கம்",
+              "roman": "singam",
+              "en": "lion"
+            }
+          },
+          {
+            "char": "ஞ",
+            "roman": "ña",
+            "ipa": "ɲ",
+            "sound": "The ny in 'canyon'. Usually as ஞ் before ச: ஞ்ச = 'nj'.",
+            "example": {
+              "native": "மஞ்சள்",
+              "roman": "manjaḷ",
+              "en": "turmeric; yellow"
+            }
+          },
+          {
+            "char": "ண",
+            "roman": "ṇa",
+            "ipa": "ɳ",
+            "sound": "Retroflex n: say n with the tongue tip curled back. Common in the middle and at the end of words.",
+            "example": {
+              "native": "மண்",
+              "roman": "maṇ",
+              "en": "soil, earth"
+            }
+          },
+          {
+            "char": "ந",
+            "roman": "na",
+            "ipa": "n̪",
+            "sound": "Dental n, tongue against the teeth. Used at the start of words and before த (ந்த = 'nd').",
+            "example": {
+              "native": "நாய்",
+              "roman": "nāy",
+              "en": "dog"
+            }
+          },
+          {
+            "char": "ம",
+            "roman": "ma",
+            "ipa": "m",
+            "sound": "English m. A word-final ம் is often just nasalisation of the vowel in speech (மரம் ≈ maraṃ).",
+            "example": {
+              "native": "மரம்",
+              "roman": "maram",
+              "en": "tree"
+            }
+          },
+          {
+            "char": "ன",
+            "roman": "ṉa",
+            "ipa": "n",
+            "sound": "Alveolar n, like English n. Sounds the same as ந to most ears; it is used in the middle and at the end of words, ந at the start.",
+            "example": {
+              "native": "மீன்",
+              "roman": "mīn",
+              "en": "fish"
+            }
+          }
+        ]
+      },
+      {
+        "id": "medium",
+        "title": "Medium consonants — இடையினம் (approximants)",
+        "note": "Six continuants, including the famous ழ (ḻ) and the retroflex ள (ḷ).",
+        "letters": [
+          {
+            "char": "ய",
+            "roman": "ya",
+            "ipa": "j",
+            "sound": "The y in 'yes'.",
+            "example": {
+              "native": "யானை",
+              "roman": "yānai",
+              "en": "elephant"
+            }
+          },
+          {
+            "char": "ர",
+            "roman": "ra",
+            "ipa": "ɾ",
+            "sound": "A single tap of the tongue, like the tt in American 'butter' or Spanish 'pero'.",
+            "example": {
+              "native": "ரோஜா",
+              "roman": "rōjā",
+              "en": "rose"
+            }
+          },
+          {
+            "char": "ல",
+            "roman": "la",
+            "ipa": "l",
+            "sound": "A clear l with the tongue just behind the upper teeth (as in 'leaf', never the dark l of 'full').",
+            "example": {
+              "native": "பால்",
+              "roman": "pāl",
+              "en": "milk"
+            }
+          },
+          {
+            "char": "வ",
+            "roman": "va",
+            "ipa": "ʋ",
+            "sound": "Between English v and w; lips barely touch the teeth.",
+            "example": {
+              "native": "வாழைப்பழம்",
+              "roman": "vāḻaippaḻam",
+              "en": "banana"
+            }
+          },
+          {
+            "char": "ழ",
+            "roman": "ḻa",
+            "ipa": "ɻ",
+            "sound": "The 'Tamil zh': curl your tongue tip far back without touching anything and say an r-like glide — close to the American r in 'girl'. Never a 'z'.",
+            "example": {
+              "native": "தமிழ்",
+              "roman": "tamiḻ",
+              "en": "Tamil"
+            },
+            "strokes": "Start with the loop on the left, then the tall right side with its tail."
+          },
+          {
+            "char": "ள",
+            "roman": "ḷa",
+            "ipa": "ɭ",
+            "sound": "Retroflex l: say l with the tongue tip curled back to the roof of the mouth.",
+            "example": {
+              "native": "பள்ளி",
+              "roman": "paḷḷi",
+              "en": "school"
+            }
+          }
+        ]
+      },
+      {
+        "id": "uyirmey",
+        "title": "Uyirmey: one consonant with all 12 vowels",
+        "note": "Every consonant combines with every vowel in the same way as க below. Learn this row and you can read 216 letters. Watch the signs that go before (ெ ே ை) and around (ொ ோ ௌ) the consonant. In the old, pre-1978 style you may still see ணா றா னா and ணை லை ளை னை written with special ligatures on signs and old books.",
+        "letters": [
+          {
+            "char": "க",
+            "roman": "ka",
+            "ipa": "kʌ",
+            "sound": "Consonant + inherent a.",
+            "example": {
+              "native": "கடல்",
+              "roman": "kaḍal",
+              "en": "sea"
+            }
+          },
+          {
+            "char": "கா",
+            "roman": "kā",
+            "ipa": "kaː",
+            "sound": "+ ா after.",
+            "example": {
+              "native": "காது",
+              "roman": "kādu",
+              "en": "ear"
+            }
+          },
+          {
+            "char": "கி",
+            "roman": "ki",
+            "ipa": "ki",
+            "sound": "+ ி: a loop attached to the top right.",
+            "example": {
+              "native": "கிளி",
+              "roman": "kiḷi",
+              "en": "parrot"
+            }
+          },
+          {
+            "char": "கீ",
+            "roman": "kī",
+            "ipa": "kiː",
+            "sound": "+ ீ: the loop closed into a spiral.",
+            "example": {
+              "native": "கீரை",
+              "roman": "kīrai",
+              "en": "leafy greens"
+            }
+          },
+          {
+            "char": "கு",
+            "roman": "ku",
+            "ipa": "ku",
+            "sound": "Irregular: a hook down from the right (see the u/ū group).",
+            "example": {
+              "native": "குடை",
+              "roman": "kuḍai",
+              "en": "umbrella"
+            }
+          },
+          {
+            "char": "கூ",
+            "roman": "kū",
+            "ipa": "kuː",
+            "sound": "Irregular: a hook with an extra loop.",
+            "example": {
+              "native": "கூடை",
+              "roman": "kūḍai",
+              "en": "basket"
+            }
+          },
+          {
+            "char": "கெ",
+            "roman": "ke",
+            "ipa": "ke",
+            "sound": "ெ written BEFORE the consonant.",
+            "example": {
+              "native": "கெட்ட",
+              "roman": "keṭṭa",
+              "en": "bad"
+            }
+          },
+          {
+            "char": "கே",
+            "roman": "kē",
+            "ipa": "keː",
+            "sound": "ே written BEFORE the consonant.",
+            "example": {
+              "native": "கேள்வி",
+              "roman": "kēḷvi",
+              "en": "question"
+            }
+          },
+          {
+            "char": "கை",
+            "roman": "kai",
+            "ipa": "kʌɪ",
+            "sound": "ை written BEFORE the consonant.",
+            "example": {
+              "native": "கை",
+              "roman": "kai",
+              "en": "hand"
+            }
+          },
+          {
+            "char": "கொ",
+            "roman": "ko",
+            "ipa": "ko",
+            "sound": "ெ before + ா after.",
+            "example": {
+              "native": "கொடி",
+              "roman": "koḍi",
+              "en": "flag; creeper"
+            }
+          },
+          {
+            "char": "கோ",
+            "roman": "kō",
+            "ipa": "koː",
+            "sound": "ே before + ா after.",
+            "example": {
+              "native": "கோழி",
+              "roman": "kōḻi",
+              "en": "hen"
+            }
+          },
+          {
+            "char": "கௌ",
+            "roman": "kau",
+            "ipa": "kʌʊ",
+            "sound": "ெ before + ௗ after. Rare.",
+            "example": {
+              "native": "கௌரவம்",
+              "roman": "gauravam",
+              "en": "honour, prestige"
+            }
+          }
+        ]
+      },
+      {
+        "id": "u-forms",
+        "title": "The irregular u and ū letters",
+        "note": "u and ū have no single sign; they attach in a few shape-families. (1) A downward hook/loop: கு டு மு ரு ழு. (2) A separate small stroke to the right: சு பு யு வு. (3) A tail curling down-right: து நு ணு லு ளு னு. Long ū usually adds a loop or the ூ sign: கூ டூ மூ ரூ / சூ பூ / தூ நூ.",
+        "letters": [
+          {
+            "char": "டு",
+            "roman": "ḍu",
+            "ipa": "ɖu",
+            "sound": "Hook family: ட + downward loop.",
+            "example": {
+              "native": "நாடு",
+              "roman": "nāḍu",
+              "en": "country"
+            }
+          },
+          {
+            "char": "ரு",
+            "roman": "ru",
+            "ipa": "ɾu",
+            "sound": "Hook family: ர + downward loop.",
+            "example": {
+              "native": "ஒரு",
+              "roman": "oru",
+              "en": "one, a"
+            }
+          },
+          {
+            "char": "மு",
+            "roman": "mu",
+            "ipa": "mu",
+            "sound": "Hook family.",
+            "example": {
+              "native": "முகம்",
+              "roman": "mugam",
+              "en": "face"
+            }
+          },
+          {
+            "char": "ழு",
+            "roman": "ḻu",
+            "ipa": "ɻu",
+            "sound": "Hook family.",
+            "example": {
+              "native": "முழு",
+              "roman": "muḻu",
+              "en": "whole"
+            }
+          },
+          {
+            "char": "சு",
+            "roman": "su",
+            "ipa": "su",
+            "sound": "Stroke family: ச + small hooked stroke.",
+            "example": {
+              "native": "பசு",
+              "roman": "pasu",
+              "en": "cow"
+            }
+          },
+          {
+            "char": "பு",
+            "roman": "pu",
+            "ipa": "pu",
+            "sound": "Stroke family.",
+            "example": {
+              "native": "புலி",
+              "roman": "puli",
+              "en": "tiger"
+            }
+          },
+          {
+            "char": "வு",
+            "roman": "vu",
+            "ipa": "ʋu",
+            "sound": "Stroke family.",
+            "example": {
+              "native": "உணவு",
+              "roman": "uṇavu",
+              "en": "food"
+            }
+          },
+          {
+            "char": "து",
+            "roman": "tu / du",
+            "ipa": "t̪u",
+            "sound": "Tail family.",
+            "example": {
+              "native": "அது",
+              "roman": "adu",
+              "en": "that, it"
+            }
+          },
+          {
+            "char": "ணு",
+            "roman": "ṇu",
+            "ipa": "ɳu",
+            "sound": "Tail family.",
+            "example": {
+              "native": "கண்ணு",
+              "roman": "kaṇṇu",
+              "en": "eye (spoken); dear"
+            }
+          },
+          {
+            "char": "லு",
+            "roman": "lu",
+            "ipa": "lu",
+            "sound": "Tail family.",
+            "example": {
+              "native": "பல்லு",
+              "roman": "pallu",
+              "en": "tooth (spoken)"
+            }
+          },
+          {
+            "char": "கூ",
+            "roman": "kū",
+            "ipa": "kuː",
+            "sound": "Long ū, hook family with extra loop.",
+            "example": {
+              "native": "கூட",
+              "roman": "kūḍa",
+              "en": "with, together"
+            }
+          },
+          {
+            "char": "மூ",
+            "roman": "mū",
+            "ipa": "muː",
+            "sound": "Long ū, hook family with extra loop.",
+            "example": {
+              "native": "மூக்கு",
+              "roman": "mūkku",
+              "en": "nose"
+            }
+          },
+          {
+            "char": "பூ",
+            "roman": "pū",
+            "ipa": "puː",
+            "sound": "Long ū with the ூ sign.",
+            "example": {
+              "native": "பூ",
+              "roman": "pū",
+              "en": "flower"
+            }
+          },
+          {
+            "char": "சூ",
+            "roman": "sū",
+            "ipa": "suː",
+            "sound": "Long ū with the ூ sign.",
+            "example": {
+              "native": "சூடு",
+              "roman": "sūḍu",
+              "en": "heat; hot"
+            }
+          },
+          {
+            "char": "தூ",
+            "roman": "tū",
+            "ipa": "t̪uː",
+            "sound": "Long ū with the ூ sign.",
+            "example": {
+              "native": "தூக்கம்",
+              "roman": "tūkkam",
+              "en": "sleep"
+            }
+          },
+          {
+            "char": "ரூ",
+            "roman": "rū",
+            "ipa": "ɾuː",
+            "sound": "Long ū, hook family.",
+            "example": {
+              "native": "ரூபாய்",
+              "roman": "rūbāy",
+              "en": "rupee"
+            }
+          }
+        ]
+      },
+      {
+        "id": "grantha",
+        "title": "Grantha letters (borrowed sounds)",
+        "note": "Extra letters taken from the Grantha script to write Sanskrit and foreign sounds. They are fully part of modern Tamil spelling, especially in names and English loanwords, though purists sometimes replace them (ஜ → ச, ஸ → ச).",
+        "letters": [
+          {
+            "char": "ஜ",
+            "roman": "ja",
+            "ipa": "dʒ",
+            "sound": "English j in 'jam'.",
+            "example": {
+              "native": "ஜன்னல்",
+              "roman": "jannal",
+              "en": "window"
+            }
+          },
+          {
+            "char": "ஷ",
+            "roman": "sha",
+            "ipa": "ʂ ~ ʃ",
+            "sound": "sh in 'shoe' (strictly retroflex).",
+            "example": {
+              "native": "விஷம்",
+              "roman": "visham",
+              "en": "poison"
+            }
+          },
+          {
+            "char": "ஸ",
+            "roman": "sa",
+            "ipa": "s",
+            "sound": "s in 'sun'. Used in loanwords.",
+            "example": {
+              "native": "பஸ்",
+              "roman": "bas",
+              "en": "bus"
+            }
+          },
+          {
+            "char": "ஹ",
+            "roman": "ha",
+            "ipa": "h",
+            "sound": "h in 'hat'.",
+            "example": {
+              "native": "ஹோட்டல்",
+              "roman": "hōṭṭal",
+              "en": "hotel, restaurant"
+            }
+          },
+          {
+            "char": "க்ஷ",
+            "roman": "ksha",
+            "ipa": "kʂ",
+            "sound": "k + sh together; a conventional ligature in Sanskrit words.",
+            "example": {
+              "native": "க்ஷேமம்",
+              "roman": "kshēmam",
+              "en": "well-being (formal)"
+            }
+          },
+          {
+            "char": "ஸ்ரீ",
+            "roman": "srī",
+            "ipa": "sɾiː",
+            "sound": "'shree/sree': the honorific prefix, written as a single ligature.",
+            "example": {
+              "native": "ஸ்ரீ",
+              "roman": "srī",
+              "en": "Sri (title of respect)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "clusters",
+        "title": "Common clusters (consonant + puḷḷi + consonant)",
+        "note": "Tamil does not stack letters: a cluster is just a dotted consonant followed by the next letter. Native words only allow doubled consonants, nasal + its partner stop, and a few others after ய் ர் ழ். These patterns also decide how the stop is pronounced.",
+        "letters": [
+          {
+            "char": "க்க",
+            "roman": "kk",
+            "ipa": "kː",
+            "sound": "Doubled = held, voiceless k.",
+            "example": {
+              "native": "அக்கா",
+              "roman": "akkā",
+              "en": "elder sister"
+            }
+          },
+          {
+            "char": "ங்க",
+            "roman": "ng",
+            "ipa": "ŋɡ",
+            "sound": "ng as in 'finger'.",
+            "example": {
+              "native": "தங்கை",
+              "roman": "tangai",
+              "en": "younger sister"
+            }
+          },
+          {
+            "char": "ச்ச",
+            "roman": "cch",
+            "ipa": "tːʃ",
+            "sound": "Doubled = ch as in 'catch', held.",
+            "example": {
+              "native": "பச்சை",
+              "roman": "pacchai",
+              "en": "green"
+            }
+          },
+          {
+            "char": "ஞ்ச",
+            "roman": "nj",
+            "ipa": "ɲdʒ",
+            "sound": "n + j.",
+            "example": {
+              "native": "இஞ்சி",
+              "roman": "inji",
+              "en": "ginger"
+            }
+          },
+          {
+            "char": "ட்ட",
+            "roman": "ṭṭ",
+            "ipa": "ʈː",
+            "sound": "Doubled retroflex t, held.",
+            "example": {
+              "native": "முட்டை",
+              "roman": "muṭṭai",
+              "en": "egg"
+            }
+          },
+          {
+            "char": "ண்ட",
+            "roman": "ṇḍ",
+            "ipa": "ɳɖ",
+            "sound": "Retroflex n + d.",
+            "example": {
+              "native": "இரண்டு",
+              "roman": "iraṇḍu",
+              "en": "two"
+            }
+          },
+          {
+            "char": "த்த",
+            "roman": "tt",
+            "ipa": "t̪ː",
+            "sound": "Doubled dental t, held.",
+            "example": {
+              "native": "பத்து",
+              "roman": "pattu",
+              "en": "ten"
+            }
+          },
+          {
+            "char": "ந்த",
+            "roman": "nd",
+            "ipa": "n̪d̪",
+            "sound": "Dental n + d.",
+            "example": {
+              "native": "வந்தேன்",
+              "roman": "vandēn",
+              "en": "I came"
+            }
+          },
+          {
+            "char": "ப்ப",
+            "roman": "pp",
+            "ipa": "pː",
+            "sound": "Doubled p, held.",
+            "example": {
+              "native": "அப்பா",
+              "roman": "appā",
+              "en": "father"
+            }
+          },
+          {
+            "char": "ம்ப",
+            "roman": "mb",
+            "ipa": "mb",
+            "sound": "m + b.",
+            "example": {
+              "native": "தம்பி",
+              "roman": "tambi",
+              "en": "younger brother"
+            }
+          },
+          {
+            "char": "ற்ற",
+            "roman": "tr",
+            "ipa": "tːr ~ tː",
+            "sound": "'ttr' in careful speech; plain 'tt' in casual Chennai speech.",
+            "example": {
+              "native": "காற்று",
+              "roman": "kātru",
+              "en": "wind, air"
+            }
+          },
+          {
+            "char": "ன்ற",
+            "roman": "ndr",
+            "ipa": "ndr ~ nn",
+            "sound": "'ndr'; in casual speech often 'nn'.",
+            "example": {
+              "native": "நன்றி",
+              "roman": "nandri",
+              "en": "thanks"
+            }
+          },
+          {
+            "char": "ன்ன",
+            "roman": "nn",
+            "ipa": "nː",
+            "sound": "Doubled n.",
+            "example": {
+              "native": "என்ன",
+              "roman": "enna",
+              "en": "what"
+            }
+          },
+          {
+            "char": "ள்ள",
+            "roman": "ḷḷ",
+            "ipa": "ɭː",
+            "sound": "Doubled retroflex l.",
+            "example": {
+              "native": "வெள்ளை",
+              "roman": "veḷḷai",
+              "en": "white"
+            }
+          },
+          {
+            "char": "ல்ல",
+            "roman": "ll",
+            "ipa": "lː",
+            "sound": "Doubled l.",
+            "example": {
+              "native": "நல்ல",
+              "roman": "nalla",
+              "en": "good"
+            }
+          },
+          {
+            "char": "ண்ண",
+            "roman": "ṇṇ",
+            "ipa": "ɳː",
+            "sound": "Doubled retroflex n.",
+            "example": {
+              "native": "அண்ணா",
+              "roman": "aṇṇā",
+              "en": "elder brother"
+            }
+          }
+        ]
+      },
+      {
+        "id": "digits",
+        "title": "Tamil digits",
+        "note": "Tamil has its own digits and, traditionally, separate signs for 10, 100 and 1000 (the old system was not positional). Today you will see them on temple walls, calendars and old documents; everyday life uses Western digits.",
+        "letters": [
+          {
+            "char": "௦",
+            "roman": "0 · pūjjiyam",
+            "sound": "zero (a modern addition)"
+          },
+          {
+            "char": "௧",
+            "roman": "1 · ondru",
+            "sound": "one"
+          },
+          {
+            "char": "௨",
+            "roman": "2 · iraṇḍu",
+            "sound": "two"
+          },
+          {
+            "char": "௩",
+            "roman": "3 · mūndru",
+            "sound": "three"
+          },
+          {
+            "char": "௪",
+            "roman": "4 · nāngu",
+            "sound": "four"
+          },
+          {
+            "char": "௫",
+            "roman": "5 · aindu",
+            "sound": "five"
+          },
+          {
+            "char": "௬",
+            "roman": "6 · āru",
+            "sound": "six"
+          },
+          {
+            "char": "௭",
+            "roman": "7 · ēḻu",
+            "sound": "seven"
+          },
+          {
+            "char": "௮",
+            "roman": "8 · eṭṭu",
+            "sound": "eight"
+          },
+          {
+            "char": "௯",
+            "roman": "9 · onbadu",
+            "sound": "nine"
+          },
+          {
+            "char": "௰",
+            "roman": "10 · pattu",
+            "sound": "ten (traditional sign)"
+          },
+          {
+            "char": "௱",
+            "roman": "100 · nūru",
+            "sound": "hundred (traditional sign)"
+          },
+          {
+            "char": "௲",
+            "roman": "1000 · āyiram",
+            "sound": "thousand (traditional sign)"
+          }
+        ]
+      }
+    ]
+  },
+  "dir": "ltr",
+  "tts": "ta-IN",
+  "font": "Noto Sans Tamil",
+  "speakers": "≈80 million (L1 + L2)",
+  "where": "Tamil Nadu and Puducherry (India), northern and eastern Sri Lanka, Singapore (official language), Malaysia, and a large worldwide diaspora",
+  "tagline": "One of the world's oldest living classical languages — over 2,000 years of literature — and still the everyday voice of tens of millions, from Chennai street stalls to Kollywood films.",
+  "intro": "**Tamil** (தமிழ், *tamiḻ*) is a **Dravidian** language, unrelated to Hindi and the other Indo-Aryan languages of the north. Its closest relatives are Malayalam, Kannada and Telugu. Tamil has a continuous literary tradition reaching back more than two millennia (the Sangam poems), and it is an official language in India, Sri Lanka and Singapore.\n\nTamil grammar is **agglutinative**: words are built by gluing suffixes onto a root, one meaning per suffix — வீடு *vīḍu* 'house' → வீட்டுக்கு *vīṭṭukku* 'to the house' → வீட்டுக்குப் போனேன் *vīṭṭukku pōnēn* 'I went home'. Word order is **subject–object–verb**, there are no articles and no grammatical gender for things, but verbs agree with their subject in person, number and (for 'he/she/it') gender. Politeness is built in: **நீ** *nī* is intimate 'you', **நீங்க** *nīnga* is polite 'you'.\n\nThe most important thing to know is that Tamil is **diglossic**. The written, formal language (*centamiḻ*, used in books, news and speeches) differs noticeably from **spoken Tamil** (*pēcchu tamiḻ*), which everyone uses in conversation, films and TV. Written இருக்கிறது *irukkiṟadu* 'there is' is spoken இருக்கு *irukku*; written வருகிறேன் *varugiṟēn* 'I'm coming' is spoken வர்றேன் *varrēn*. Speaking the written form in a shop sounds like reading a newspaper aloud.\n\nThis course teaches **standard spoken Tamil** (the general colloquial heard in Chennai and across Tamil Nadu media) for all phrases and dialogues, written in Tamil script the way Tamils write casual speech (in film subtitles and chat). Vocabulary is listed in its **standard spelling**; when the everyday spoken form differs, it is given in the note (e.g. *spoken: irukku*). The script section teaches you to read both.",
+  "romanizationNote": "The romanization shows how words are **actually pronounced**, not letter-by-letter. Long vowels have a macron: *ā ī ū ē ō* (Tamil distinguishes short e/o from long ē/ō — கொடு *koḍu* 'give' vs கோடு *kōḍu* 'line'). Dots under letters mark **retroflex** sounds made with the tongue curled back: *ṭ ḍ ṇ ḷ*, and *ḻ* is the special ழ. Because one Tamil stop letter has several sounds, the romanization changes with it: க = *k* at the start of a word and when doubled, *g* between vowels and after a nasal (மகன் *magan*, தங்கம் *tangam*); ச = *s* at the start and between vowels (சரி *sari*, பசி *pasi*), *cch* when doubled, *j* after ஞ் (*nj*); ட த ப become *ḍ d b* between vowels and after nasals. ற்ற is written *tr* (காற்று *kātru*; Chennai speakers often say *kāttu*) and ன்ற is *ndr* (நன்றி *nandri*). Single ற and ன are written plain *r* and *n* except in the script and pronunciation sections where the contrast with ர/ந is being taught. *ng* is always the ng of 'finger', never of 'singer'. *t* and *d* are dental (tongue on the teeth) — never the English t. Note also that word-initial e/ē is usually pronounced *ye* and o/ō *wo* (எப்படி = 'yeppaḍi'), and a final *-u* is often a relaxed, unrounded vowel.",
+  "pronunciation": [
+    {
+      "id": "zha",
+      "title": "ழ (ḻ) — the famous 'Tamil zh'",
+      "body": "ழ is the sound Tamils are proudest of — it is in the name of the language itself, தமிழ் *tamiḻ*. It is a **retroflex approximant**: curl the tip of your tongue far back towards the top of your mouth, **don't let it touch anything**, and let the voice flow. The result sounds somewhere between an American r (as in 'girl') and an l. It is **not** a 'z' or 'zh' at all — the common English spelling 'zh' is just a convention.\n\nMany native speakers in Chennai and Sri Lanka merge ழ with ள (ḷ) or even ல, so you will hear வாழைப்பழம் said 'vāḷaippaḷam'. That is fine in casual speech, but a correct ழ is admired, and you should at least recognise it.",
+      "tips": [
+        "Say a long American 'rrr', then slide your tongue tip even further back and slightly widen it.",
+        "Keep the tongue tip off the roof of the mouth — if it touches, you are saying ள.",
+        "Practise தமிழ், then add vowels: ழா ழி ழு ழை.",
+        "If you can't make it yet, an American r is a better substitute than an l."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "வழி",
+            "roman": "vaḻi",
+            "en": "way, path"
+          },
+          "b": {
+            "native": "வலி",
+            "roman": "vali",
+            "en": "pain"
+          }
+        },
+        {
+          "a": {
+            "native": "மழை",
+            "roman": "maḻai",
+            "en": "rain"
+          },
+          "b": {
+            "native": "மலை",
+            "roman": "malai",
+            "en": "mountain"
+          }
+        },
+        {
+          "a": {
+            "native": "கிழி",
+            "roman": "kiḻi",
+            "en": "tear (verb)"
+          },
+          "b": {
+            "native": "கிளி",
+            "roman": "kiḷi",
+            "en": "parrot"
+          }
+        },
+        {
+          "a": {
+            "native": "வாழை",
+            "roman": "vāḻai",
+            "en": "banana plant"
+          },
+          "b": {
+            "native": "வாளை",
+            "roman": "vāḷai",
+            "en": "a river fish"
+          }
+        },
+        {
+          "a": {
+            "native": "தாழ்",
+            "roman": "tāḻ",
+            "en": "be low; bolt"
+          },
+          "b": {
+            "native": "தாள்",
+            "roman": "tāḷ",
+            "en": "sheet of paper"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "தமிழ்",
+          "roman": "tamiḻ",
+          "en": "Tamil"
+        },
+        {
+          "native": "வாழைப்பழம்",
+          "roman": "vāḻaippaḻam",
+          "en": "banana"
+        },
+        {
+          "native": "கோழி",
+          "roman": "kōḻi",
+          "en": "hen"
+        },
+        {
+          "native": "ஏழு",
+          "roman": "ēḻu",
+          "en": "seven"
+        },
+        {
+          "native": "கிழக்கு",
+          "roman": "kiḻakku",
+          "en": "east"
+        },
+        {
+          "native": "தோழி",
+          "roman": "tōḻi",
+          "en": "female friend"
+        },
+        {
+          "native": "மழை பெய்யுது",
+          "roman": "maḻai peyyudu",
+          "en": "it's raining"
+        }
+      ]
+    },
+    {
+      "id": "l-ll",
+      "title": "ல (l) vs ள (ḷ)",
+      "body": "Tamil has two l's. **ல** is a clean, light l with the tongue tip just behind the upper teeth — like the l in 'leaf', never the dark, hollow l of English 'full'. **ள** is **retroflex**: curl your tongue tip back and touch the hard palate, then say l. ள has a slightly 'thicker', darker sound, and it colours the vowel before it.\n\nThe difference changes meaning constantly, and ள is very common: it is in the plural suffix -கள் *-kaḷ*, in அவள் *avaḷ* 'she', and in பள்ளி *paḷḷi* 'school'.",
+      "tips": [
+        "Hold a mirror: for ல you see the tongue tip near the teeth; for ள it disappears backwards.",
+        "Doubled ள்ள is easiest to feel — start there: பள்ளி, வெள்ளை.",
+        "ள never starts a word, so if you hear an l at the start, it's ல."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "வால்",
+            "roman": "vāl",
+            "en": "tail"
+          },
+          "b": {
+            "native": "வாள்",
+            "roman": "vāḷ",
+            "en": "sword"
+          }
+        },
+        {
+          "a": {
+            "native": "பல்லி",
+            "roman": "palli",
+            "en": "lizard"
+          },
+          "b": {
+            "native": "பள்ளி",
+            "roman": "paḷḷi",
+            "en": "school"
+          }
+        },
+        {
+          "a": {
+            "native": "கல்",
+            "roman": "kal",
+            "en": "stone"
+          },
+          "b": {
+            "native": "கள்",
+            "roman": "kaḷ",
+            "en": "toddy (palm wine)"
+          }
+        },
+        {
+          "a": {
+            "native": "வெல்லம்",
+            "roman": "vellam",
+            "en": "jaggery"
+          },
+          "b": {
+            "native": "வெள்ளம்",
+            "roman": "veḷḷam",
+            "en": "flood"
+          }
+        },
+        {
+          "a": {
+            "native": "கிலி",
+            "roman": "kili",
+            "en": "fright"
+          },
+          "b": {
+            "native": "கிளி",
+            "roman": "kiḷi",
+            "en": "parrot"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "வெள்ளை",
+          "roman": "veḷḷai",
+          "en": "white"
+        },
+        {
+          "native": "நாளை",
+          "roman": "nāḷai",
+          "en": "tomorrow"
+        },
+        {
+          "native": "அவள்",
+          "roman": "avaḷ",
+          "en": "she"
+        },
+        {
+          "native": "கல்லூரி",
+          "roman": "kallūri",
+          "en": "college"
+        },
+        {
+          "native": "புத்தகங்கள்",
+          "roman": "puttagangaḷ",
+          "en": "books"
+        },
+        {
+          "native": "பால்",
+          "roman": "pāl",
+          "en": "milk"
+        }
+      ]
+    },
+    {
+      "id": "r-rr",
+      "title": "ர vs ற, and the clusters ற்ற and ன்ற",
+      "body": "**ர** (r) is a single quick tap, like the tt in American 'butter'. **ற** (ṟ) was historically a stronger, trilled r made slightly further back. In modern speech a single ற between vowels sounds almost the same as ர, but spelling keeps them apart and careful speakers still trill ற a little.\n\nWhere ற really matters is in clusters. **ற்ற** is pronounced *ttr* (or simply *tt* in colloquial Chennai speech): காற்று *kātru* / *kāttu* 'wind'. **ன்ற** is pronounced *ndr*: நன்றி *nandri* 'thank you', not 'nanri'. ற also never begins a word.",
+      "tips": [
+        "Single ர: one light tap, never the English r with rounded lips.",
+        "For ற, let the tongue flutter once or twice — like a short Spanish rr.",
+        "Read ற்ற as 'ttr' and ன்ற as 'ndr' — that one rule fixes many words."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "கரி",
+            "roman": "kari",
+            "en": "charcoal"
+          },
+          "b": {
+            "native": "கறி",
+            "roman": "kaṟi",
+            "en": "curry; meat"
+          }
+        },
+        {
+          "a": {
+            "native": "அரை",
+            "roman": "arai",
+            "en": "half"
+          },
+          "b": {
+            "native": "அறை",
+            "roman": "aṟai",
+            "en": "room; slap"
+          }
+        },
+        {
+          "a": {
+            "native": "கரை",
+            "roman": "karai",
+            "en": "shore, bank"
+          },
+          "b": {
+            "native": "கறை",
+            "roman": "kaṟai",
+            "en": "stain"
+          }
+        },
+        {
+          "a": {
+            "native": "இரை",
+            "roman": "irai",
+            "en": "prey; food (for animals)"
+          },
+          "b": {
+            "native": "இறை",
+            "roman": "iṟai",
+            "en": "God, the divine"
+          }
+        },
+        {
+          "a": {
+            "native": "அரம்",
+            "roman": "aram",
+            "en": "file (tool)"
+          },
+          "b": {
+            "native": "அறம்",
+            "roman": "aṟam",
+            "en": "virtue, dharma"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "நன்றி",
+          "roman": "nandri",
+          "en": "thank you"
+        },
+        {
+          "native": "காற்று",
+          "roman": "kātru",
+          "en": "wind"
+        },
+        {
+          "native": "வெற்றி",
+          "roman": "vetri",
+          "en": "victory"
+        },
+        {
+          "native": "மூன்று",
+          "roman": "mūndru",
+          "en": "three"
+        },
+        {
+          "native": "என்று",
+          "roman": "endru",
+          "en": "that (quotative, written)"
+        },
+        {
+          "native": "சுற்றுலா",
+          "roman": "sutrulā",
+          "en": "tourism, trip"
+        },
+        {
+          "native": "ஆறு",
+          "roman": "āṟu",
+          "en": "six; river"
+        }
+      ]
+    },
+    {
+      "id": "nasals",
+      "title": "Three n's: ந, ன and ண",
+      "body": "Tamil writes three n-letters. **ந** (dental, tongue on the teeth) and **ன** (alveolar, like English n) sound almost identical to learners; the spelling rule is simple — ந at the start of a word and before த, ன elsewhere. So you don't need to hear a difference between them.\n\n**ண** (ṇ) is different: it is **retroflex**, made with the tongue tip curled back, like ட and ள. Before it, the vowel takes on a slightly darker colour. It changes meaning: மணம் *maṇam* 'fragrance' vs மனம் *manam* 'mind'. Tamil also has ங (ng) and ஞ (ny), mostly seen in the clusters ங்க and ஞ்ச.",
+      "tips": [
+        "Practise ண்ட and ண்ண first (அண்ணா, இரண்டு) — the following ட helps you curl the tongue.",
+        "At the end of a word, ண் still needs the curled tongue: கண் 'eye' is not 'kan'.",
+        "ஞா at the start of a word is often said 'nyā' or simply 'nā' (ஞாயிறு = nyāyiru)."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "மனம்",
+            "roman": "manam",
+            "en": "mind"
+          },
+          "b": {
+            "native": "மணம்",
+            "roman": "maṇam",
+            "en": "fragrance; marriage"
+          }
+        },
+        {
+          "a": {
+            "native": "பனி",
+            "roman": "pani",
+            "en": "dew, snow"
+          },
+          "b": {
+            "native": "பணி",
+            "roman": "paṇi",
+            "en": "work, duty"
+          }
+        },
+        {
+          "a": {
+            "native": "ஆனி",
+            "roman": "āni",
+            "en": "Āni (a Tamil month)"
+          },
+          "b": {
+            "native": "ஆணி",
+            "roman": "āṇi",
+            "en": "nail (metal)"
+          }
+        },
+        {
+          "a": {
+            "native": "வானம்",
+            "roman": "vānam",
+            "en": "sky"
+          },
+          "b": {
+            "native": "வாணம்",
+            "roman": "vāṇam",
+            "en": "firework"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "கண்",
+          "roman": "kaṇ",
+          "en": "eye"
+        },
+        {
+          "native": "தண்ணீர்",
+          "roman": "taṇṇīr",
+          "en": "water"
+        },
+        {
+          "native": "நண்பன்",
+          "roman": "naṇban",
+          "en": "friend (m)"
+        },
+        {
+          "native": "நான்",
+          "roman": "nān",
+          "en": "I"
+        },
+        {
+          "native": "அண்ணா",
+          "roman": "aṇṇā",
+          "en": "elder brother"
+        },
+        {
+          "native": "ஞாயிறு",
+          "roman": "ñāyiru",
+          "en": "Sunday"
+        },
+        {
+          "native": "இஞ்சி",
+          "roman": "inji",
+          "en": "ginger"
+        },
+        {
+          "native": "சிங்கம்",
+          "roman": "singam",
+          "en": "lion"
+        }
+      ]
+    },
+    {
+      "id": "voicing",
+      "title": "One letter, several sounds: the voicing rules",
+      "body": "Tamil script has no separate letters for g, j, ḍ, d, b. Instead, the hard letters **க ச ட த ப** change their sound according to position — and the rules are very regular:\n\n**1. Start of a word → voiceless**: கண் *kaṇ*, தலை *talai*, பல் *pal* (ச → *s*: சரி *sari*).\n**2. Doubled → voiceless and held**: அக்கா *akkā*, பத்து *pattu*, அப்பா *appā*, பச்சை *pacchai*.\n**3. Between vowels → voiced, often softened**: மகன் *magan*, அது *adu*, கோபம் *kōbam*, வீடு *vīḍu*, பசி *pasi* (ச → *s*). In fast speech க between vowels can sound like a soft *h* (மகன் ≈ 'mahan').\n**4. After a nasal → voiced**: ங்க *ng*, ஞ்ச *nj*, ண்ட *ṇḍ*, ந்த *nd*, ம்ப *mb*.\n\nLoanwords break the rules (பஸ் *bas* 'bus', காபி *kāpi* 'coffee'), and Grantha ஜ gives a clear j. But for native words, if you can see a letter's neighbours, you know its sound.",
+      "tips": [
+        "Look at the letter before: a vowel → voice it; the same letter with a puḷḷi → keep it hard; a nasal → voice it.",
+        "No Tamil stop is aspirated: keep your hand in front of your mouth — no puff of air on k, t, p.",
+        "Doubling = holding the closure a beat longer, as in English 'book-keeper'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "பாடு",
+            "roman": "pāḍu",
+            "en": "sing!"
+          },
+          "b": {
+            "native": "பாட்டு",
+            "roman": "pāṭṭu",
+            "en": "song"
+          },
+          "note": "single ட between vowels = ḍ; doubled = ṭṭ"
+        },
+        {
+          "a": {
+            "native": "கோபம்",
+            "roman": "kōbam",
+            "en": "anger"
+          },
+          "b": {
+            "native": "கோப்பை",
+            "roman": "kōppai",
+            "en": "cup"
+          },
+          "note": "single ப = b; doubled = pp"
+        },
+        {
+          "a": {
+            "native": "மகன்",
+            "roman": "magan",
+            "en": "son"
+          },
+          "b": {
+            "native": "மக்கள்",
+            "roman": "makkaḷ",
+            "en": "people"
+          },
+          "note": "single க = g; doubled = kk"
+        },
+        {
+          "a": {
+            "native": "பாதி",
+            "roman": "pādi",
+            "en": "half"
+          },
+          "b": {
+            "native": "பத்து",
+            "roman": "pattu",
+            "en": "ten"
+          },
+          "note": "single த = d; doubled = tt"
+        },
+        {
+          "a": {
+            "native": "பசி",
+            "roman": "pasi",
+            "en": "hunger"
+          },
+          "b": {
+            "native": "பச்சை",
+            "roman": "pacchai",
+            "en": "green"
+          },
+          "note": "single ச = s; doubled = cch"
+        },
+        {
+          "a": {
+            "native": "தம்பி",
+            "roman": "tambi",
+            "en": "younger brother"
+          },
+          "b": {
+            "native": "தப்பு",
+            "roman": "tappu",
+            "en": "mistake"
+          },
+          "note": "ப after ம் = b"
+        }
+      ],
+      "drill": [
+        {
+          "native": "தங்கம்",
+          "roman": "tangam",
+          "en": "gold"
+        },
+        {
+          "native": "மஞ்சள்",
+          "roman": "manjaḷ",
+          "en": "yellow"
+        },
+        {
+          "native": "சந்தை",
+          "roman": "sandai",
+          "en": "market"
+        },
+        {
+          "native": "காகம்",
+          "roman": "kāgam",
+          "en": "crow"
+        },
+        {
+          "native": "ஆசை",
+          "roman": "āsai",
+          "en": "desire"
+        },
+        {
+          "native": "சாப்பாடு",
+          "roman": "sāppāḍu",
+          "en": "meal, food"
+        },
+        {
+          "native": "பம்பரம்",
+          "roman": "pambaram",
+          "en": "spinning top"
+        },
+        {
+          "native": "தகப்பன்",
+          "roman": "tagappan",
+          "en": "father (formal)"
+        }
+      ]
+    },
+    {
+      "id": "vowel-length",
+      "title": "Short and long vowels (a/ā, i/ī, u/ū)",
+      "body": "Vowel length in Tamil is phonemic: a long vowel is held roughly twice as long, and the difference makes a different word. English speakers tend to shorten long vowels in unstressed positions — but Tamil has no strong stress, so every long vowel keeps its length wherever it is.\n\nShort *a* is a central vowel like the u in 'but'; long *ā* is the a in 'father'. Don't reduce short vowels to 'uh' either: each syllable gets its full, even weight.",
+      "tips": [
+        "Clap the syllables: a long vowel takes two claps' worth of time.",
+        "Short a = 'u' of 'cup', not 'a' of 'cat'.",
+        "Tamil rhythm is even and syllable-timed — avoid English-style strong/weak syllables."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "பல்",
+            "roman": "pal",
+            "en": "tooth"
+          },
+          "b": {
+            "native": "பால்",
+            "roman": "pāl",
+            "en": "milk"
+          }
+        },
+        {
+          "a": {
+            "native": "கல்",
+            "roman": "kal",
+            "en": "stone"
+          },
+          "b": {
+            "native": "கால்",
+            "roman": "kāl",
+            "en": "leg; quarter"
+          }
+        },
+        {
+          "a": {
+            "native": "படம்",
+            "roman": "paḍam",
+            "en": "picture, film"
+          },
+          "b": {
+            "native": "பாடம்",
+            "roman": "pāḍam",
+            "en": "lesson"
+          }
+        },
+        {
+          "a": {
+            "native": "மடி",
+            "roman": "maḍi",
+            "en": "lap; fold"
+          },
+          "b": {
+            "native": "மாடி",
+            "roman": "māḍi",
+            "en": "upstairs"
+          }
+        },
+        {
+          "a": {
+            "native": "வடை",
+            "roman": "vaḍai",
+            "en": "vadai (fried snack)"
+          },
+          "b": {
+            "native": "வாடை",
+            "roman": "vāḍai",
+            "en": "smell"
+          }
+        },
+        {
+          "a": {
+            "native": "சுடு",
+            "roman": "suḍu",
+            "en": "burn, fire (a gun)"
+          },
+          "b": {
+            "native": "சூடு",
+            "roman": "sūḍu",
+            "en": "heat; hot"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "காலை",
+          "roman": "kālai",
+          "en": "morning"
+        },
+        {
+          "native": "மாலை",
+          "roman": "mālai",
+          "en": "evening; garland"
+        },
+        {
+          "native": "தீ",
+          "roman": "tī",
+          "en": "fire"
+        },
+        {
+          "native": "பூனை",
+          "roman": "pūnai",
+          "en": "cat"
+        },
+        {
+          "native": "நாளைக்கு",
+          "roman": "nāḷaikku",
+          "en": "tomorrow"
+        }
+      ]
+    },
+    {
+      "id": "e-o",
+      "title": "Short vs long e and o",
+      "body": "Unlike Hindi, Tamil has both **short e, o** and **long ē, ō**, and they distinguish words. Short e is like 'bet', short o like a clipped 'o' in Spanish 'no'. Long ē and ō are pure, held vowels — don't add the English glides ('ay', 'ow').\n\nThe script shows the difference clearly: ெ (e) vs ே (ē), ொ (o) vs ோ (ō). Note also that at the start of a word, e/ē are normally pronounced with a y-glide (எங்க = *yenga*) and o/ō with a w-glide (ஒண்ணு = *woṇṇu*).",
+      "tips": [
+        "ே has an extra loop compared with ெ — the loop means 'long'.",
+        "Say ē as in 'café' but freeze your tongue: no y at the end.",
+        "Say ō as in 'go' but keep the lips still: no w at the end."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "கொடு",
+            "roman": "koḍu",
+            "en": "give!"
+          },
+          "b": {
+            "native": "கோடு",
+            "roman": "kōḍu",
+            "en": "line"
+          }
+        },
+        {
+          "a": {
+            "native": "பொது",
+            "roman": "podu",
+            "en": "common, public"
+          },
+          "b": {
+            "native": "போது",
+            "roman": "pōdu",
+            "en": "time, when"
+          }
+        },
+        {
+          "a": {
+            "native": "கொல்",
+            "roman": "kol",
+            "en": "kill"
+          },
+          "b": {
+            "native": "கோல்",
+            "roman": "kōl",
+            "en": "stick, rod"
+          }
+        },
+        {
+          "a": {
+            "native": "கெடு",
+            "roman": "keḍu",
+            "en": "spoil, go bad"
+          },
+          "b": {
+            "native": "கேடு",
+            "roman": "kēḍu",
+            "en": "harm"
+          }
+        },
+        {
+          "a": {
+            "native": "பெண்",
+            "roman": "peṇ",
+            "en": "woman, girl"
+          },
+          "b": {
+            "native": "பேன்",
+            "roman": "pēn",
+            "en": "louse"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "எங்கே",
+          "roman": "engē",
+          "en": "where (written)"
+        },
+        {
+          "native": "ஏன்",
+          "roman": "ēn",
+          "en": "why"
+        },
+        {
+          "native": "போ",
+          "roman": "pō",
+          "en": "go!"
+        },
+        {
+          "native": "ஒன்று",
+          "roman": "ondru",
+          "en": "one"
+        },
+        {
+          "native": "தெரியும்",
+          "roman": "teriyum",
+          "en": "know"
+        },
+        {
+          "native": "சொல்லுங்க",
+          "roman": "sollunga",
+          "en": "please tell"
+        }
+      ]
+    },
+    {
+      "id": "gemination",
+      "title": "Double consonants (gemination)",
+      "body": "A doubled consonant (written with a puḷḷi on the first: க்க, ட்ட, ல்ல…) is held for an extra beat, like the 'k-k' in 'book-keeper' or 'bus stop'. Tamil is full of them, and single vs double often changes the meaning. Doubling also changes how stops sound: doubled stops are always voiceless (பாட்டு *pāṭṭu*), single ones between vowels are voiced (பாடு *pāḍu*).\n\nDoubling also appears at word boundaries: the dative -க்கு, and the sandhi rule that doubles a stop after certain words: வீட்டுக்குப் போ *vīṭṭukkup pō* 'go home'.",
+      "tips": [
+        "Pause on the closure: 'pat-tu', 'kaṭ-ṭai'.",
+        "Don't add a vowel between the two halves.",
+        "Doubled l, ḷ, n, ṇ, m are held too: அம்மா, நல்ல, வெள்ளை, அண்ணா."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "படம்",
+            "roman": "paḍam",
+            "en": "picture"
+          },
+          "b": {
+            "native": "பட்டம்",
+            "roman": "paṭṭam",
+            "en": "kite; degree"
+          }
+        },
+        {
+          "a": {
+            "native": "கடை",
+            "roman": "kaḍai",
+            "en": "shop"
+          },
+          "b": {
+            "native": "கட்டை",
+            "roman": "kaṭṭai",
+            "en": "log; short (person)"
+          }
+        },
+        {
+          "a": {
+            "native": "பதி",
+            "roman": "padi",
+            "en": "imprint, record"
+          },
+          "b": {
+            "native": "பத்தி",
+            "roman": "patti",
+            "en": "paragraph; incense stick"
+          }
+        },
+        {
+          "a": {
+            "native": "அடி",
+            "roman": "aḍi",
+            "en": "hit; foot (measure)"
+          },
+          "b": {
+            "native": "அட்டை",
+            "roman": "aṭṭai",
+            "en": "card; leech"
+          },
+          "note": "near-pair"
+        }
+      ],
+      "drill": [
+        {
+          "native": "அம்மா",
+          "roman": "ammā",
+          "en": "mother"
+        },
+        {
+          "native": "அப்பா",
+          "roman": "appā",
+          "en": "father"
+        },
+        {
+          "native": "முட்டை",
+          "roman": "muṭṭai",
+          "en": "egg"
+        },
+        {
+          "native": "தக்காளி",
+          "roman": "takkāḷi",
+          "en": "tomato"
+        },
+        {
+          "native": "இல்லை",
+          "roman": "illai",
+          "en": "no, is not"
+        },
+        {
+          "native": "வெற்றிலை",
+          "roman": "vetrilai",
+          "en": "betel leaf"
+        }
+      ]
+    },
+    {
+      "id": "retroflex",
+      "title": "Retroflex vs dental: ட/த, ண/ந, ள/ல",
+      "body": "Tamil contrasts **dental** sounds (tongue tip touching the back of the upper teeth: த ந ல) with **retroflex** sounds (tongue tip curled back to touch the roof of the mouth: ட ண ள, and ழ which doesn't touch). English t and d sit in between, on the gum ridge — so Tamils hear English t as ட!\n\nTo make a dental த, put your tongue firmly against the teeth — it sounds soft, almost like 'th'. To make a retroflex ட, curl the tongue tip up and back and flick it forward: it sounds hollow and heavy. Practise the pairs slowly.",
+      "tips": [
+        "த: tongue tip visible between the teeth if you look in a mirror.",
+        "ட: tongue tip hidden, curled back; you feel the underside of the tongue touch the palate.",
+        "Between vowels ட becomes a quick flap — like a very short American 'r' with a d."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "பத்து",
+            "roman": "pattu",
+            "en": "ten"
+          },
+          "b": {
+            "native": "பட்டு",
+            "roman": "paṭṭu",
+            "en": "silk"
+          }
+        },
+        {
+          "a": {
+            "native": "கத்து",
+            "roman": "kattu",
+            "en": "shout!"
+          },
+          "b": {
+            "native": "கட்டு",
+            "roman": "kaṭṭu",
+            "en": "tie! build!"
+          }
+        },
+        {
+          "a": {
+            "native": "வாதை",
+            "roman": "vādai",
+            "en": "torment"
+          },
+          "b": {
+            "native": "வாடை",
+            "roman": "vāḍai",
+            "en": "smell"
+          }
+        },
+        {
+          "a": {
+            "native": "குத்தி",
+            "roman": "kutti",
+            "en": "having stabbed"
+          },
+          "b": {
+            "native": "குட்டி",
+            "roman": "kuṭṭi",
+            "en": "little one; cub"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "தட்டு",
+          "roman": "taṭṭu",
+          "en": "plate"
+        },
+        {
+          "native": "தோட்டம்",
+          "roman": "tōṭṭam",
+          "en": "garden"
+        },
+        {
+          "native": "பெண்",
+          "roman": "peṇ",
+          "en": "woman"
+        },
+        {
+          "native": "தண்டு",
+          "roman": "taṇḍu",
+          "en": "stem"
+        },
+        {
+          "native": "வீட்டுல",
+          "roman": "vīṭṭula",
+          "en": "at home"
+        },
+        {
+          "native": "தாத்தா",
+          "roman": "tāttā",
+          "en": "grandfather"
+        }
+      ]
+    },
+    {
+      "id": "final-u",
+      "title": "Word-final u and the extra vowels of speech",
+      "body": "Tamil words cannot end in a hard stop, so a huge number end in **-u**: வீடு, பத்து, பாட்டு. In normal speech this final u is often **not rounded**: it becomes a short, relaxed vowel like the 'i' in 'roses' (ɨ). It is still there — never drop it completely — but don't pronounce it like a clear 'oo'.\n\nSpoken Tamil also **adds a -u** to words that end in a consonant in writing: பல் → பல்லு *pallu*, கண் → கண்ணு *kaṇṇu*, பால் → பாலு. And English loanwords get one too: 'bus' → பஸ்ஸு *bassu*, 'fan' → ஃபேனு. Hearing this extra vowel is key to understanding fast speech.",
+      "tips": [
+        "Final -u: lips relaxed, not pushed forward.",
+        "When a suffix follows, the -u usually disappears: வீடு + -ல → வீட்டுல (the ட doubles).",
+        "Don't confuse the relaxed final u with a final i — பத்து vs பத்தி."
+      ],
+      "drill": [
+        {
+          "native": "வீடு",
+          "roman": "vīḍu",
+          "en": "house"
+        },
+        {
+          "native": "பத்து",
+          "roman": "pattu",
+          "en": "ten"
+        },
+        {
+          "native": "நாக்கு",
+          "roman": "nākku",
+          "en": "tongue"
+        },
+        {
+          "native": "கண்ணு",
+          "roman": "kaṇṇu",
+          "en": "eye (spoken)"
+        },
+        {
+          "native": "பஸ்ஸு",
+          "roman": "bassu",
+          "en": "bus (spoken)"
+        },
+        {
+          "native": "சொல்லு",
+          "roman": "sollu",
+          "en": "say! (informal)"
+        }
+      ]
+    },
+    {
+      "id": "spoken",
+      "title": "Written vs spoken: the contractions you will hear",
+      "body": "Spoken Tamil systematically shortens written forms. Learn these patterns and you can link what you read with what you hear:\n\n• **-கிறேன் / -கிறது** (present tense) → **-றேன் / -து**: செய்கிறேன் → செய்யறேன் *seyyarēn*.\n• **இருக்கிறது** → **இருக்கு** *irukku*; **இல்லை** → **இல்ல** *illa*.\n• **-கள்** (plural) → **-ங்க** *-nga* in pronouns and verbs: நீங்கள் → நீங்க, வாருங்கள் → வாங்க.\n• **-இல்** (in) → **-ல** *-la*: வீட்டில் → வீட்டுல.\n• **-ஐ** (object) and final **-ai** → *-a* or *-e*: அதை → அத *ada*; இலை → 'ile'.\n• **ன்று** → **ண்ணு/ன்னு**: ஒன்று → ஒண்ணு *oṇṇu*; என்று → ன்னு *-nnu*.\n• Final **-ம்** → nasalised vowel: மரம் ≈ *maraṃ*; வேண்டும் → வேணும் *vēṇum*.\n\nNone of these is 'slang' — they are how educated Tamils speak in every everyday situation.",
+      "tips": [
+        "When reading spoken dialogue, sound it out — the spelling is close to speech.",
+        "Use spoken forms when talking; use written forms only for reading, signs and formal writing.",
+        "Spoken -ங்க (nīnga, vānga, sollunga) is your politeness marker — use it a lot."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "இருக்கிறது",
+            "roman": "irukkiradu",
+            "en": "there is (written)"
+          },
+          "b": {
+            "native": "இருக்கு",
+            "roman": "irukku",
+            "en": "there is (spoken)"
+          }
+        },
+        {
+          "a": {
+            "native": "நீங்கள்",
+            "roman": "nīngaḷ",
+            "en": "you, polite (written)"
+          },
+          "b": {
+            "native": "நீங்க",
+            "roman": "nīnga",
+            "en": "you, polite (spoken)"
+          }
+        },
+        {
+          "a": {
+            "native": "வருகிறேன்",
+            "roman": "varugirēn",
+            "en": "I'm coming (written)"
+          },
+          "b": {
+            "native": "வர்றேன்",
+            "roman": "varrēn",
+            "en": "I'm coming (spoken)"
+          }
+        },
+        {
+          "a": {
+            "native": "வேண்டும்",
+            "roman": "vēṇḍum",
+            "en": "want, need (written)"
+          },
+          "b": {
+            "native": "வேணும்",
+            "roman": "vēṇum",
+            "en": "want, need (spoken)"
+          }
+        },
+        {
+          "a": {
+            "native": "வீட்டில்",
+            "roman": "vīṭṭil",
+            "en": "at home (written)"
+          },
+          "b": {
+            "native": "வீட்டுல",
+            "roman": "vīṭṭula",
+            "en": "at home (spoken)"
+          }
+        },
+        {
+          "a": {
+            "native": "ஒன்று",
+            "roman": "ondru",
+            "en": "one (written)"
+          },
+          "b": {
+            "native": "ஒண்ணு",
+            "roman": "oṇṇu",
+            "en": "one (spoken)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "என்ன ஆச்சு?",
+          "roman": "enna āchu?",
+          "en": "What happened?"
+        },
+        {
+          "native": "தெரியல",
+          "roman": "teriyala",
+          "en": "I don't know"
+        },
+        {
+          "native": "சாப்பிட்டீங்களா?",
+          "roman": "sāppiṭṭīngaḷā?",
+          "en": "Have you eaten?"
+        },
+        {
+          "native": "போலாம்",
+          "roman": "pōlām",
+          "en": "let's go"
+        },
+        {
+          "native": "வாங்க",
+          "roman": "vānga",
+          "en": "come (polite) / welcome"
+        }
+      ]
+    },
+    {
+      "id": "intonation",
+      "title": "Rhythm and question intonation",
+      "body": "Tamil has **no strong word stress**: syllables are fairly even, with a slight prominence on the first syllable of a word. Long vowels and doubled consonants, not stress, give a word its shape. Speaking English-style, with one loud syllable and swallowed others, makes Tamil hard to understand.\n\nYes/no questions are usually marked by the suffix **-ஆ** *-ā* on the word being asked about, with a **rising pitch** on that final ā: காபி வேணுமா? *kāpi vēṇumā?* 'Do you want coffee?'. The suffix **-ஓ** *-ō* adds doubt ('I wonder…'), and **-ஏ** *-ē* adds emphasis. Questions with a question word (என்ன, எங்க…) fall at the end like statements. Tamils also use a characteristic sideways **head wobble** to mean 'yes / OK / I'm listening'.",
+      "tips": [
+        "Put the -ā on the word you are really asking about: நீங்களா? 'You?' vs போறீங்களா? 'Are you going?'.",
+        "Let pitch rise on the final ā of a yes/no question, and fall on question-word questions.",
+        "Keep syllables even — think 'machine gun', not 'Morse code'."
+      ],
+      "drill": [
+        {
+          "native": "காபி வேணுமா?",
+          "roman": "kāpi vēṇumā?",
+          "en": "Do you want coffee?"
+        },
+        {
+          "native": "நீங்க தமிழா?",
+          "roman": "nīnga tamiḻā?",
+          "en": "Are you Tamil?"
+        },
+        {
+          "native": "சரியா?",
+          "roman": "sariyā?",
+          "en": "Is that right? OK?"
+        },
+        {
+          "native": "எங்க போறீங்க?",
+          "roman": "enga pōrīnga?",
+          "en": "Where are you going?"
+        },
+        {
+          "native": "அவரு வருவாரோ?",
+          "roman": "avaru varuvārō?",
+          "en": "I wonder if he'll come."
+        },
+        {
+          "native": "நானே செய்யறேன்.",
+          "roman": "nānē seyyarēn.",
+          "en": "I'll do it myself."
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "n": 0,
+      "native": "பூஜ்ஜியம்",
+      "roman": "pūjjiyam",
+      "digit": "௦"
+    },
+    {
+      "n": 1,
+      "native": "ஒன்று",
+      "roman": "ondru",
+      "digit": "௧",
+      "note": "spoken: oṇṇu"
+    },
+    {
+      "n": 2,
+      "native": "இரண்டு",
+      "roman": "iraṇḍu",
+      "digit": "௨",
+      "note": "spoken: reṇḍu"
+    },
+    {
+      "n": 3,
+      "native": "மூன்று",
+      "roman": "mūndru",
+      "digit": "௩",
+      "note": "spoken: mūṇu"
+    },
+    {
+      "n": 4,
+      "native": "நான்கு",
+      "roman": "nāngu",
+      "digit": "௪",
+      "note": "spoken: nālu"
+    },
+    {
+      "n": 5,
+      "native": "ஐந்து",
+      "roman": "aindu",
+      "digit": "௫",
+      "note": "spoken: anju"
+    },
+    {
+      "n": 6,
+      "native": "ஆறு",
+      "roman": "āru",
+      "digit": "௬"
+    },
+    {
+      "n": 7,
+      "native": "ஏழு",
+      "roman": "ēḻu",
+      "digit": "௭"
+    },
+    {
+      "n": 8,
+      "native": "எட்டு",
+      "roman": "eṭṭu",
+      "digit": "௮"
+    },
+    {
+      "n": 9,
+      "native": "ஒன்பது",
+      "roman": "onbadu",
+      "digit": "௯",
+      "note": "spoken: ombadu"
+    },
+    {
+      "n": 10,
+      "native": "பத்து",
+      "roman": "pattu",
+      "digit": "௧௦"
+    },
+    {
+      "n": 11,
+      "native": "பதினொன்று",
+      "roman": "padinondru",
+      "digit": "௧௧",
+      "note": "spoken: padinoṇṇu"
+    },
+    {
+      "n": 12,
+      "native": "பன்னிரண்டு",
+      "roman": "panniraṇḍu",
+      "digit": "௧௨"
+    },
+    {
+      "n": 13,
+      "native": "பதின்மூன்று",
+      "roman": "padinmūndru",
+      "digit": "௧௩",
+      "note": "spoken: padimūṇu"
+    },
+    {
+      "n": 14,
+      "native": "பதினான்கு",
+      "roman": "padināngu",
+      "digit": "௧௪",
+      "note": "spoken: padinālu"
+    },
+    {
+      "n": 15,
+      "native": "பதினைந்து",
+      "roman": "padinaindu",
+      "digit": "௧௫",
+      "note": "spoken: padinanju"
+    },
+    {
+      "n": 16,
+      "native": "பதினாறு",
+      "roman": "padināru",
+      "digit": "௧௬"
+    },
+    {
+      "n": 17,
+      "native": "பதினேழு",
+      "roman": "padinēḻu",
+      "digit": "௧௭"
+    },
+    {
+      "n": 18,
+      "native": "பதினெட்டு",
+      "roman": "padineṭṭu",
+      "digit": "௧௮"
+    },
+    {
+      "n": 19,
+      "native": "பத்தொன்பது",
+      "roman": "pattonbadu",
+      "digit": "௧௯",
+      "note": "spoken: pattombadu"
+    },
+    {
+      "n": 20,
+      "native": "இருபது",
+      "roman": "irubadu",
+      "digit": "௨௦"
+    },
+    {
+      "n": 21,
+      "native": "இருபத்தொன்று",
+      "roman": "irubattondru",
+      "digit": "௨௧"
+    },
+    {
+      "n": 22,
+      "native": "இருபத்திரண்டு",
+      "roman": "irubattiraṇḍu",
+      "digit": "௨௨"
+    },
+    {
+      "n": 23,
+      "native": "இருபத்து மூன்று",
+      "roman": "irubattu mūndru",
+      "digit": "௨௩"
+    },
+    {
+      "n": 24,
+      "native": "இருபத்து நான்கு",
+      "roman": "irubattu nāngu",
+      "digit": "௨௪"
+    },
+    {
+      "n": 25,
+      "native": "இருபத்தைந்து",
+      "roman": "irubattaindu",
+      "digit": "௨௫"
+    },
+    {
+      "n": 26,
+      "native": "இருபத்தாறு",
+      "roman": "irubattāru",
+      "digit": "௨௬"
+    },
+    {
+      "n": 27,
+      "native": "இருபத்தேழு",
+      "roman": "irubattēḻu",
+      "digit": "௨௭"
+    },
+    {
+      "n": 28,
+      "native": "இருபத்தெட்டு",
+      "roman": "irubatteṭṭu",
+      "digit": "௨௮"
+    },
+    {
+      "n": 29,
+      "native": "இருபத்தொன்பது",
+      "roman": "irubattonbadu",
+      "digit": "௨௯"
+    },
+    {
+      "n": 30,
+      "native": "முப்பது",
+      "roman": "muppadu",
+      "digit": "௩௦"
+    },
+    {
+      "n": 31,
+      "native": "முப்பத்தொன்று",
+      "roman": "muppattondru",
+      "digit": "௩௧"
+    },
+    {
+      "n": 32,
+      "native": "முப்பத்திரண்டு",
+      "roman": "muppattiraṇḍu",
+      "digit": "௩௨"
+    },
+    {
+      "n": 33,
+      "native": "முப்பத்து மூன்று",
+      "roman": "muppattu mūndru",
+      "digit": "௩௩"
+    },
+    {
+      "n": 34,
+      "native": "முப்பத்து நான்கு",
+      "roman": "muppattu nāngu",
+      "digit": "௩௪"
+    },
+    {
+      "n": 35,
+      "native": "முப்பத்தைந்து",
+      "roman": "muppattaindu",
+      "digit": "௩௫"
+    },
+    {
+      "n": 36,
+      "native": "முப்பத்தாறு",
+      "roman": "muppattāru",
+      "digit": "௩௬"
+    },
+    {
+      "n": 37,
+      "native": "முப்பத்தேழு",
+      "roman": "muppattēḻu",
+      "digit": "௩௭"
+    },
+    {
+      "n": 38,
+      "native": "முப்பத்தெட்டு",
+      "roman": "muppatteṭṭu",
+      "digit": "௩௮"
+    },
+    {
+      "n": 39,
+      "native": "முப்பத்தொன்பது",
+      "roman": "muppattonbadu",
+      "digit": "௩௯"
+    },
+    {
+      "n": 40,
+      "native": "நாற்பது",
+      "roman": "nārpadu",
+      "digit": "௪௦",
+      "note": "spoken: nāppadu"
+    },
+    {
+      "n": 41,
+      "native": "நாற்பத்தொன்று",
+      "roman": "nārpattondru",
+      "digit": "௪௧"
+    },
+    {
+      "n": 42,
+      "native": "நாற்பத்திரண்டு",
+      "roman": "nārpattiraṇḍu",
+      "digit": "௪௨"
+    },
+    {
+      "n": 43,
+      "native": "நாற்பத்து மூன்று",
+      "roman": "nārpattu mūndru",
+      "digit": "௪௩"
+    },
+    {
+      "n": 44,
+      "native": "நாற்பத்து நான்கு",
+      "roman": "nārpattu nāngu",
+      "digit": "௪௪"
+    },
+    {
+      "n": 45,
+      "native": "நாற்பத்தைந்து",
+      "roman": "nārpattaindu",
+      "digit": "௪௫"
+    },
+    {
+      "n": 46,
+      "native": "நாற்பத்தாறு",
+      "roman": "nārpattāru",
+      "digit": "௪௬"
+    },
+    {
+      "n": 47,
+      "native": "நாற்பத்தேழு",
+      "roman": "nārpattēḻu",
+      "digit": "௪௭"
+    },
+    {
+      "n": 48,
+      "native": "நாற்பத்தெட்டு",
+      "roman": "nārpatteṭṭu",
+      "digit": "௪௮"
+    },
+    {
+      "n": 49,
+      "native": "நாற்பத்தொன்பது",
+      "roman": "nārpattonbadu",
+      "digit": "௪௯"
+    },
+    {
+      "n": 50,
+      "native": "ஐம்பது",
+      "roman": "aimbadu",
+      "digit": "௫௦"
+    },
+    {
+      "n": 51,
+      "native": "ஐம்பத்தொன்று",
+      "roman": "aimbattondru",
+      "digit": "௫௧"
+    },
+    {
+      "n": 52,
+      "native": "ஐம்பத்திரண்டு",
+      "roman": "aimbattiraṇḍu",
+      "digit": "௫௨"
+    },
+    {
+      "n": 53,
+      "native": "ஐம்பத்து மூன்று",
+      "roman": "aimbattu mūndru",
+      "digit": "௫௩"
+    },
+    {
+      "n": 54,
+      "native": "ஐம்பத்து நான்கு",
+      "roman": "aimbattu nāngu",
+      "digit": "௫௪"
+    },
+    {
+      "n": 55,
+      "native": "ஐம்பத்தைந்து",
+      "roman": "aimbattaindu",
+      "digit": "௫௫"
+    },
+    {
+      "n": 56,
+      "native": "ஐம்பத்தாறு",
+      "roman": "aimbattāru",
+      "digit": "௫௬"
+    },
+    {
+      "n": 57,
+      "native": "ஐம்பத்தேழு",
+      "roman": "aimbattēḻu",
+      "digit": "௫௭"
+    },
+    {
+      "n": 58,
+      "native": "ஐம்பத்தெட்டு",
+      "roman": "aimbatteṭṭu",
+      "digit": "௫௮"
+    },
+    {
+      "n": 59,
+      "native": "ஐம்பத்தொன்பது",
+      "roman": "aimbattonbadu",
+      "digit": "௫௯"
+    },
+    {
+      "n": 60,
+      "native": "அறுபது",
+      "roman": "arubadu",
+      "digit": "௬௦"
+    },
+    {
+      "n": 61,
+      "native": "அறுபத்தொன்று",
+      "roman": "arubattondru",
+      "digit": "௬௧"
+    },
+    {
+      "n": 62,
+      "native": "அறுபத்திரண்டு",
+      "roman": "arubattiraṇḍu",
+      "digit": "௬௨"
+    },
+    {
+      "n": 63,
+      "native": "அறுபத்து மூன்று",
+      "roman": "arubattu mūndru",
+      "digit": "௬௩"
+    },
+    {
+      "n": 64,
+      "native": "அறுபத்து நான்கு",
+      "roman": "arubattu nāngu",
+      "digit": "௬௪"
+    },
+    {
+      "n": 65,
+      "native": "அறுபத்தைந்து",
+      "roman": "arubattaindu",
+      "digit": "௬௫"
+    },
+    {
+      "n": 66,
+      "native": "அறுபத்தாறு",
+      "roman": "arubattāru",
+      "digit": "௬௬"
+    },
+    {
+      "n": 67,
+      "native": "அறுபத்தேழு",
+      "roman": "arubattēḻu",
+      "digit": "௬௭"
+    },
+    {
+      "n": 68,
+      "native": "அறுபத்தெட்டு",
+      "roman": "arubatteṭṭu",
+      "digit": "௬௮"
+    },
+    {
+      "n": 69,
+      "native": "அறுபத்தொன்பது",
+      "roman": "arubattonbadu",
+      "digit": "௬௯"
+    },
+    {
+      "n": 70,
+      "native": "எழுபது",
+      "roman": "eḻubadu",
+      "digit": "௭௦"
+    },
+    {
+      "n": 71,
+      "native": "எழுபத்தொன்று",
+      "roman": "eḻubattondru",
+      "digit": "௭௧"
+    },
+    {
+      "n": 72,
+      "native": "எழுபத்திரண்டு",
+      "roman": "eḻubattiraṇḍu",
+      "digit": "௭௨"
+    },
+    {
+      "n": 73,
+      "native": "எழுபத்து மூன்று",
+      "roman": "eḻubattu mūndru",
+      "digit": "௭௩"
+    },
+    {
+      "n": 74,
+      "native": "எழுபத்து நான்கு",
+      "roman": "eḻubattu nāngu",
+      "digit": "௭௪"
+    },
+    {
+      "n": 75,
+      "native": "எழுபத்தைந்து",
+      "roman": "eḻubattaindu",
+      "digit": "௭௫"
+    },
+    {
+      "n": 76,
+      "native": "எழுபத்தாறு",
+      "roman": "eḻubattāru",
+      "digit": "௭௬"
+    },
+    {
+      "n": 77,
+      "native": "எழுபத்தேழு",
+      "roman": "eḻubattēḻu",
+      "digit": "௭௭"
+    },
+    {
+      "n": 78,
+      "native": "எழுபத்தெட்டு",
+      "roman": "eḻubatteṭṭu",
+      "digit": "௭௮"
+    },
+    {
+      "n": 79,
+      "native": "எழுபத்தொன்பது",
+      "roman": "eḻubattonbadu",
+      "digit": "௭௯"
+    },
+    {
+      "n": 80,
+      "native": "எண்பது",
+      "roman": "eṇbadu",
+      "digit": "௮௦"
+    },
+    {
+      "n": 81,
+      "native": "எண்பத்தொன்று",
+      "roman": "eṇbattondru",
+      "digit": "௮௧"
+    },
+    {
+      "n": 82,
+      "native": "எண்பத்திரண்டு",
+      "roman": "eṇbattiraṇḍu",
+      "digit": "௮௨"
+    },
+    {
+      "n": 83,
+      "native": "எண்பத்து மூன்று",
+      "roman": "eṇbattu mūndru",
+      "digit": "௮௩"
+    },
+    {
+      "n": 84,
+      "native": "எண்பத்து நான்கு",
+      "roman": "eṇbattu nāngu",
+      "digit": "௮௪"
+    },
+    {
+      "n": 85,
+      "native": "எண்பத்தைந்து",
+      "roman": "eṇbattaindu",
+      "digit": "௮௫"
+    },
+    {
+      "n": 86,
+      "native": "எண்பத்தாறு",
+      "roman": "eṇbattāru",
+      "digit": "௮௬"
+    },
+    {
+      "n": 87,
+      "native": "எண்பத்தேழு",
+      "roman": "eṇbattēḻu",
+      "digit": "௮௭"
+    },
+    {
+      "n": 88,
+      "native": "எண்பத்தெட்டு",
+      "roman": "eṇbatteṭṭu",
+      "digit": "௮௮"
+    },
+    {
+      "n": 89,
+      "native": "எண்பத்தொன்பது",
+      "roman": "eṇbattonbadu",
+      "digit": "௮௯"
+    },
+    {
+      "n": 90,
+      "native": "தொண்ணூறு",
+      "roman": "toṇṇūru",
+      "digit": "௯௦",
+      "note": "spoken: toṇṇūru"
+    },
+    {
+      "n": 91,
+      "native": "தொண்ணூற்றொன்று",
+      "roman": "toṇṇūtrondru",
+      "digit": "௯௧"
+    },
+    {
+      "n": 92,
+      "native": "தொண்ணூற்றிரண்டு",
+      "roman": "toṇṇūtriraṇḍu",
+      "digit": "௯௨"
+    },
+    {
+      "n": 93,
+      "native": "தொண்ணூற்று மூன்று",
+      "roman": "toṇṇūtru mūndru",
+      "digit": "௯௩"
+    },
+    {
+      "n": 94,
+      "native": "தொண்ணூற்று நான்கு",
+      "roman": "toṇṇūtru nāngu",
+      "digit": "௯௪"
+    },
+    {
+      "n": 95,
+      "native": "தொண்ணூற்றைந்து",
+      "roman": "toṇṇūtraindu",
+      "digit": "௯௫"
+    },
+    {
+      "n": 96,
+      "native": "தொண்ணூற்றாறு",
+      "roman": "toṇṇūtrāru",
+      "digit": "௯௬"
+    },
+    {
+      "n": 97,
+      "native": "தொண்ணூற்றேழு",
+      "roman": "toṇṇūtrēḻu",
+      "digit": "௯௭"
+    },
+    {
+      "n": 98,
+      "native": "தொண்ணூற்றெட்டு",
+      "roman": "toṇṇūtreṭṭu",
+      "digit": "௯௮"
+    },
+    {
+      "n": 99,
+      "native": "தொண்ணூற்றொன்பது",
+      "roman": "toṇṇūtronbadu",
+      "digit": "௯௯"
+    },
+    {
+      "n": 100,
+      "native": "நூறு",
+      "roman": "nūru",
+      "digit": "௧௦௦"
+    },
+    {
+      "n": 200,
+      "native": "இருநூறு",
+      "roman": "irunūru",
+      "digit": "௨௦௦"
+    },
+    {
+      "n": 500,
+      "native": "ஐநூறு",
+      "roman": "ainūru",
+      "digit": "௫௦௦"
+    },
+    {
+      "n": 1000,
+      "native": "ஆயிரம்",
+      "roman": "āyiram",
+      "digit": "௧௦௦௦"
+    },
+    {
+      "n": 100000,
+      "native": "ஒரு லட்சம்",
+      "roman": "oru laṭcham",
+      "digit": "௧௦௦௦௦௦",
+      "note": "formal spelling இலட்சம்"
+    },
+    {
+      "n": 10000000,
+      "native": "ஒரு கோடி",
+      "roman": "oru kōḍi",
+      "digit": "௧௦௦௦௦௦௦௦"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": 2,
+  "title": "About me",
+  "goal": "Introduce yourself: your name, where you are from, where you live and what languages you speak, and ask others the same.",
+  "intro": "In this unit you meet all the Bengali personal pronouns and the simplest way to say 'I am…'. Good news: Bengali verbs never change for gender, and in the present tense there is usually **no verb 'to be'** at all: আমি ছাত্র 'I (am a) student'.\n\nThird-person pronouns come in two politeness levels (ordinary সে/ও vs respectful তিনি/উনি) and two distances (near/far), but never in two genders: সে means both 'he' and 'she'.",
+  "vocab": [
+    { "native": "সে", "roman": "she", "en": "he / she (ordinary)", "pos": "pron", "note": "No gender distinction. Pronounced 'she' even when it means 'he'!" },
+    { "native": "ও", "roman": "o", "en": "he / she (ordinary, colloquial; 'that one')", "pos": "pron", "note": "Very common in speech instead of সে." },
+    { "native": "তিনি", "roman": "tini", "en": "he / she (respectful, written/formal)", "pos": "pron" },
+    { "native": "উনি", "roman": "uni", "en": "he / she (respectful, spoken)", "pos": "pron", "note": "Near: ইনি (ini) 'this respected person'." },
+    { "native": "আমরা", "roman": "amra", "en": "we", "pos": "pron" },
+    { "native": "তোমরা", "roman": "tomra", "en": "you (plural, familiar)", "pos": "pron" },
+    { "native": "তোরা", "roman": "tora", "en": "you (plural, intimate)", "pos": "pron" },
+    { "native": "আপনারা", "roman": "apnara", "en": "you (plural, respectful)", "pos": "pron" },
+    { "native": "তারা", "roman": "tara", "en": "they (ordinary)", "pos": "pron", "note": "Respectful: তাঁরা (taṃra) / ওঁরা (oṃra)." },
+    { "native": "ওরা", "roman": "ora", "en": "they (colloquial)", "pos": "pron" },
+    { "native": "নাম", "roman": "nam", "en": "name", "pos": "noun" },
+    { "native": "দেশ", "roman": "desh", "en": "country; homeland", "pos": "noun", "note": "দেশের বাড়ি 'ancestral home (village)'." },
+    { "native": "শহর", "roman": "shôhor", "en": "city, town", "pos": "noun" },
+    { "native": "ভাষা", "roman": "bhasha", "en": "language", "pos": "noun" },
+    { "native": "ইংরেজি", "roman": "iṅreji", "en": "English (language)", "pos": "noun" },
+    { "native": "বাঙালি", "roman": "baṅali", "en": "Bengali (person); Bengali (adj.)", "pos": "noun", "note": "বাংলা is the language; বাঙালি the people." },
+    { "native": "বিদেশি", "roman": "bideshi", "en": "foreigner; foreign", "pos": "noun" },
+    { "native": "ছাত্র", "roman": "chhatro", "en": "student", "pos": "noun", "note": "Female: ছাত্রী (chhatri), one of the few gendered nouns." },
+    { "native": "থেকে", "roman": "theke", "en": "from", "pos": "postp", "note": "Goes after the noun: ঢাকা থেকে 'from Dhaka'." },
+    { "native": "এখানে", "roman": "ekhane", "en": "here", "pos": "adv" },
+    { "native": "কী", "roman": "ki", "en": "what", "pos": "q" },
+    { "native": "কে", "roman": "ke", "en": "who", "pos": "q", "note": "Plural: কারা (kara). Whose: কার (kar)." },
+    { "native": "কোথায়", "roman": "kothay", "en": "where", "pos": "q" },
+    { "native": "কোন", "roman": "kon", "en": "which", "pos": "q", "note": "Before a classifier: কোনটা (konṭa) 'which one'." },
+    { "native": "কেন", "roman": "kæno", "en": "why", "pos": "q" },
+    { "native": "কখন", "roman": "kôkhon", "en": "when", "pos": "q" },
+    { "native": "বলা", "roman": "bôla", "en": "to say, to speak", "pos": "verb", "note": "বলি, বলো, বলেন, বলে." },
+    { "native": "শেখা", "roman": "shekha", "en": "to learn", "pos": "verb", "note": "Stem vowel changes: আমি শিখি (shikhi), সে শেখে (shekhe)." },
+    { "native": "বোঝা", "roman": "bojha", "en": "to understand", "pos": "verb", "note": "আমি বুঝি (bujhi), সে বোঝে (bojhe)." },
+    { "native": "থাকা", "roman": "thaka", "en": "to live, to stay; to be (somewhere)", "pos": "verb", "note": "আমি কলকাতায় থাকি 'I live in Kolkata'." }
+  ],
+  "phrases": [
+    { "native": "আপনার নাম কী?", "roman": "apnar nam ki?", "en": "What is your name? (respectful)" },
+    { "native": "তোমার নাম কী?", "roman": "tomar nam ki?", "en": "What's your name? (familiar)" },
+    { "native": "আমার নাম সারা।", "roman": "amar nam shara.", "en": "My name is Sara." },
+    { "native": "আপনি কোথা থেকে এসেছেন?", "roman": "apni kotha theke eshechhen?", "en": "Where are you from? (lit. 'where have you come from')" },
+    { "native": "আমি ইংল্যান্ড থেকে এসেছি।", "roman": "ami iṅlænḍ theke eshechhi.", "en": "I'm from England." },
+    { "native": "আপনি কোথায় থাকেন?", "roman": "apni kothay thaken?", "en": "Where do you live?" },
+    { "native": "আমি এখন ঢাকায় থাকি।", "roman": "ami ækhon ḍhakay thaki.", "en": "I live in Dhaka now." },
+    { "native": "আমি বাংলা শিখছি।", "roman": "ami baṅla shikhchhi.", "en": "I'm learning Bengali." },
+    { "native": "আপনার সঙ্গে আলাপ করে ভালো লাগল।", "roman": "apnar shôṅge alap kore bhalo laglo.", "en": "Nice to meet you." },
+    { "native": "আমি বাঙালি নই।", "roman": "ami baṅali noi.", "en": "I'm not Bengali." },
+    { "native": "উনি কে?", "roman": "uni ke?", "en": "Who is he/she? (respectful)" },
+    { "native": "আপনি কী করেন?", "roman": "apni ki kôren?", "en": "What do you do (for a living)?" }
+  ],
+  "grammar": [
+    {
+      "title": "Pronouns and 'to be' (zero copula, নই, আছি)",
+      "body": "**Personal pronouns** (singular / plural):\nI আমি – we আমরা\nyou (intimate) তুই – তোরা\nyou (familiar) তুমি – তোমরা\nyou (respectful) আপনি – আপনারা\nhe/she (ordinary) সে, ও – তারা, ওরা\nhe/she (respectful) তিনি, উনি – তাঁরা, ওঁরা\n\n**'Am/is/are' + noun or adjective**: in the present tense, simply put the two side by side: আমি ছাত্র 'I am a student'.\n\n**Negative 'am not'** uses a special verb that does change by person: আমি **নই** (*noi*), তুই **নস** (*nôsh*), তুমি **নও** (*nôo*), আপনি/তিনি **নন** (*nôn*), সে **নয়** (*nôy*). In colloquial speech না is also common: সে ছাত্র না.\n\n**Existence and location** use **আছ-**: আমি আছি, তুমি আছো, আপনি আছেন, সে আছে 'I am / you are / he is (here)'.",
+      "examples": [
+        { "native": "আমি ছাত্র।", "roman": "ami chhatro.", "en": "I am a student." },
+        { "native": "উনি ডাক্তার।", "roman": "uni ḍaktar.", "en": "He/she is a doctor." },
+        { "native": "আমি বাঙালি নই, আমি বিদেশি।", "roman": "ami baṅali noi, ami bideshi.", "en": "I am not Bengali, I am a foreigner." },
+        { "native": "আপনি কি শিক্ষক নন?", "roman": "apni ki shikkhok nôn?", "en": "Aren't you a teacher?" },
+        { "native": "মা বাড়িতে আছেন।", "roman": "ma baṛite achhen.", "en": "Mother is at home." }
+      ]
+    },
+    {
+      "title": "Present tense endings and question words",
+      "body": "Bengali verbs change only for **person and politeness**, never for gender or number (আমি and আমরা take the same ending!). For বলা 'speak':\n\nআমি / আমরা **বলি** (*boli*)\nতুই / তোরা **বলিস** (*bolish*)\nতুমি / তোমরা **বলো** (*bôlo*)\nআপনি / আপনারা / তিনি **বলেন** (*bôlen*)\nসে / তারা **বলে** (*bole*)\n\n**Question words** stay where the answer would go, usually just before the verb: আপনি **কোথায়** থাকেন? 'You where live?' The main ones: কী *ki* what, কে *ke* who, কোথায় *kothay* where, কখন *kôkhon* when, কেন *kæno* why, কেমন *kæmon* how, কোন *kon* which, কত *kôto* how much.",
+      "examples": [
+        { "native": "আমরা বাংলা বলি।", "roman": "amra baṅla boli.", "en": "We speak Bengali." },
+        { "native": "সে ইংরেজি বোঝে।", "roman": "she iṅreji bojhe.", "en": "He/she understands English." },
+        { "native": "তুমি কোথায় থাকো?", "roman": "tumi kothay thako?", "en": "Where do you live? (familiar)" },
+        { "native": "উনি কোন দেশ থেকে এসেছেন?", "roman": "uni kon desh theke eshechhen?", "en": "Which country is he/she from?" },
+        { "native": "তুমি বাংলা কেন শিখছ?", "roman": "tumi baṅla kæno shikhchho?", "en": "Why are you learning Bengali?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At a language café",
+    "setting": "Tom, a British learner, chats with Mitali at a Bengali conversation meetup in Kolkata.",
+    "lines": [
+      { "speaker": "Mitali", "native": "নমস্কার! আপনার নাম কী?", "roman": "nômoshkar! apnar nam ki?", "en": "Hello! What's your name?" },
+      { "speaker": "Tom", "native": "নমস্কার। আমার নাম টম। আপনার নাম?", "roman": "nômoshkar. amar nam ṭôm. apnar nam?", "en": "Hello. My name is Tom. Yours?" },
+      { "speaker": "Mitali", "native": "আমি মিতালী। আপনি কোথা থেকে এসেছেন?", "roman": "ami mitali. apni kotha theke eshechhen?", "en": "I'm Mitali. Where are you from?" },
+      { "speaker": "Tom", "native": "আমি লন্ডন থেকে এসেছি। কিন্তু এখন কলকাতায় থাকি।", "roman": "ami lônḍon theke eshechhi. kintu ækhon kolkatay thaki.", "en": "I'm from London. But now I live in Kolkata." },
+      { "speaker": "Mitali", "native": "আপনি কি ছাত্র?", "roman": "apni ki chhatro?", "en": "Are you a student?" },
+      { "speaker": "Tom", "native": "হ্যাঁ, আমি ছাত্র। আমি বাংলা শিখছি।", "roman": "hæṃ, ami chhatro. ami baṅla shikhchhi.", "en": "Yes, I'm a student. I'm learning Bengali." },
+      { "speaker": "Mitali", "native": "আপনি তো খুব ভালো বাংলা বলেন!", "roman": "apni to khub bhalo baṅla bôlen!", "en": "But you speak very good Bengali!" },
+      { "speaker": "Tom", "native": "ধন্যবাদ! আমি একটু একটু বুঝি।", "roman": "dhônnobad! ami ekṭu ekṭu bujhi.", "en": "Thanks! I understand a little." },
+      { "speaker": "Mitali", "native": "আপনার সঙ্গে আলাপ করে ভালো লাগল।", "roman": "apnar shôṅge alap kore bhalo laglo.", "en": "Nice to meet you." }
+    ]
+  },
+  "culture": "Bengalis often ask very personal questions early on (where your family is, whether you are married, what you earn): this is friendliness, not nosiness. 'Where are you from?' is usually asked with the perfect tense এসেছেন 'have come'. In West Bengal people will ask about your দেশ meaning your ancestral district; many families trace their roots to East Bengal (now Bangladesh) and still call it দেশ."
+}

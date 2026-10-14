@@ -1,0 +1,3101 @@
+{
+  "code": "hi",
+  "name": "Hindi",
+  "native": "हिन्दी",
+  "scriptName": "Devanagari",
+  "dir": "ltr",
+  "tts": "hi-IN",
+  "font": "Noto Sans Devanagari",
+  "speakers": "≈600 million (L1 + L2)",
+  "where": "Northern and central India; lingua franca across much of India",
+  "tagline": "Learn Hindi and you can chat, joke and haggle across most of India, and follow Bollywood films and songs without subtitles.",
+  "intro": "**Hindi** is the most widely spoken language of India and one of the most spoken languages in the world. It is the everyday language of Delhi, Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan and their neighbours, and it works as a link language far beyond them, from Mumbai to Kolkata. Films, TV, cricket commentary and a huge share of Indian social media run in Hindi.\n\nHindi is written in **Devanagari**, a tidy, logical script where each letter stands for a consonant plus a built-in *a* sound. Once you know about 50 shapes and a few rules you can read almost anything aloud. Spoken Hindi is very close to **Urdu**: in everyday conversation the two are largely mutually intelligible, and many common words (ज़रूर *zarūr* 'sure', दोस्त *dost* 'friend', शुक्रिया *shukriyā* 'thanks') come from Persian and Arabic. Formal Hindi borrows from Sanskrit instead, and modern urban Hindi happily mixes in English (*phone, ticket, office*).\n\nHindi has three levels of 'you' — the respectful **आप** *āp*, the familiar **तुम** *tum* and the intimate **तू** *tū* — and verbs and adjectives agree with gender (masculine/feminine). This course teaches the natural, standard spoken Hindi you will actually hear: polite enough for strangers, relaxed enough for friends. Each unit gives you core vocabulary, ready-made phrases, one or two grammar points and a short dialogue, building from greetings to telling stories.",
+  "romanizationNote": "The romanization shows how words are **pronounced**, not letter by letter. The silent inherent *a* is dropped where Hindi speakers drop it (कमरा *kamrā*, not *kamarā*; समझना *samajhnā*). A line over a vowel means it is long: *ā* as in 'father', *ī* as in 'machine', *ū* as in 'rule'; plain *a* is the short 'uh' in 'about'. *e* and *o* are always long pure vowels (like French *é* and *eau*), *ai* is the vowel of 'bat'/'bed' (not 'eye') and *au* is the vowel of 'saw' (not 'cow'). An *h* after a consonant means a puff of air (*kh, th, ph, bh*…), never English 'th' or 'ph' = f: *th* is a breathy t, *ph* a breathy p. Dots under *ṭ ḍ ṇ ṣ* mark retroflex sounds (tongue curled back); plain *t d* are dental (tongue on the teeth). *ṛ* and *ṛh* are the flapped sounds of ड़ and ढ़. *ṃ* after a vowel means the vowel itself is nasal (हाँ *hāṃ*, मैं *maiṃ*); a nasal before a consonant is written as the nasal that naturally fits it (*ṅ* before k/g, *ñ* before ch/j, *ṇ* before ṭ/ḍ, *n* before t/d, *m* before p/b) — you don't need to think about it, your mouth does it automatically. *c* is never used: च is *ch*, छ is *chh*. Nukta sounds from Persian/Arabic/English are *q* (क़), *x* (ख़, like Scottish 'loch'), *ġ* (ग़), *z* (ज़) and *f* (फ़). Finally, short *a* before *h* is usually pronounced like the *e* in 'bet': कहना *kahnā* sounds like 'keh-naa', यह *yah* like 'yeh'.",
+  "script": {
+    "overview": "Devanagari is an **abugida**: each consonant letter carries a built-in short vowel *a* (the 'inherent vowel'). क on its own is *ka*. To write any other vowel after a consonant you attach a **vowel sign (mātrā)**: का *kā*, कि *ki*, की *kī*, कु *ku*, कू *kū*, के *ke*, कै *kai*, को *ko*, कौ *kau*. Full vowel letters (अ आ इ ई…) are used only at the start of a word or after another vowel (आइए *āiye*).\n\nIt is written **left to right**, and almost every letter hangs from a horizontal **headline** (*shirorekhā*). Most letters also have a vertical stroke on the right. Handwriting tip: write the body of each letter first, then draw the headline across the whole word at the end, the way Indian schoolchildren do.\n\nTo show a consonant with **no** vowel, put the small slanted **virama/halant** under it (क्). In practice consonant clusters are usually written as **conjuncts**: the first consonant loses its vertical stroke and joins the next (स + त = स्त, as in नमस्ते *namaste*). Some conjuncts have special shapes (क्ष, त्र, ज्ञ, श्र), and र changes form in clusters: before a consonant it becomes a hook above (र्म in गर्म *garm*), after one it becomes a small slanted stroke (प्र in प्रेम *prem*).\n\nTwo things don't show in spelling. First, **schwa deletion**: the inherent *a* is often silent in speech, especially at the end of a word (कमल is *kamal*, not *kamala*) and in the middle of many words (कमरा *kamrā*). Second, nasal vowels are marked with a dot (ं, anusvara) or a moon-dot (ँ, chandrabindu) above the letter. Hindi also has its own digits (० १ २ ३…), though Western digits are now more common in everyday life.",
+    "groups": [
+      {
+        "id": "vowels",
+        "title": "Vowels (स्वर)",
+        "note": "Each vowel has an independent letter (used at the start of a word or after another vowel) and a vowel sign (mātrā) attached to consonants. Short/long pairs really are different: the short ones are also more relaxed in quality. ि is written to the LEFT of the consonant but pronounced after it.",
+        "letters": [
+          {
+            "char": "अ",
+            "roman": "a",
+            "ipa": "ə",
+            "sound": "Short, neutral 'uh' as in the a of 'about' or the u of 'but'. Never the a of 'cat'.",
+            "sign": "—",
+            "signExample": "क (ka) — no sign; every consonant already has it",
+            "example": {
+              "native": "अनार",
+              "roman": "anār",
+              "en": "pomegranate"
+            },
+            "strokes": "Draw a '3'-like double curve, a short horizontal bar to the right, then the vertical line; finish with the headline."
+          },
+          {
+            "char": "आ",
+            "roman": "ā",
+            "ipa": "aː",
+            "sound": "Long open 'aa' as in 'father'.",
+            "sign": "ा",
+            "signExample": "का (kā)",
+            "example": {
+              "native": "आम",
+              "roman": "ām",
+              "en": "mango"
+            },
+            "strokes": "Write अ, then add a second vertical line to its right. The sign ा is just that vertical line after the consonant."
+          },
+          {
+            "char": "इ",
+            "roman": "i",
+            "ipa": "ɪ",
+            "sound": "Short 'i' as in 'bit'.",
+            "sign": "ि",
+            "signExample": "कि (ki) — written before the consonant",
+            "example": {
+              "native": "इमली",
+              "roman": "imlī",
+              "en": "tamarind"
+            },
+            "strokes": "A small curve open to the right sitting under the headline, with a tail curling down and left. The sign ि is a vertical line with a hook that curls over to the right, placed before the consonant."
+          },
+          {
+            "char": "ई",
+            "roman": "ī",
+            "ipa": "iː",
+            "sound": "Long 'ee' as in 'see'.",
+            "sign": "ी",
+            "signExample": "की (kī)",
+            "example": {
+              "native": "ईख",
+              "roman": "īkh",
+              "en": "sugarcane"
+            },
+            "strokes": "Write इ and add a small hook (like a tick) above the headline. The sign ी is a vertical line after the consonant with a hook curling back to the left over it."
+          },
+          {
+            "char": "उ",
+            "roman": "u",
+            "ipa": "ʊ",
+            "sound": "Short 'u' as in 'put'.",
+            "sign": "ु",
+            "signExample": "कु (ku) — hooked under the letter",
+            "example": {
+              "native": "उल्लू",
+              "roman": "ullū",
+              "en": "owl"
+            },
+            "strokes": "A '3'-like curve hanging from the headline with a tail to the right. The sign ु is a small hook opening right, under the consonant."
+          },
+          {
+            "char": "ऊ",
+            "roman": "ū",
+            "ipa": "uː",
+            "sound": "Long 'oo' as in 'rule'.",
+            "sign": "ू",
+            "signExample": "कू (kū)",
+            "example": {
+              "native": "ऊन",
+              "roman": "ūn",
+              "en": "wool"
+            },
+            "strokes": "Write उ and add an extra loop curling up on the right. The sign ू is a small hook opening left, under the consonant."
+          },
+          {
+            "char": "ऋ",
+            "roman": "ri",
+            "ipa": "rɪ",
+            "sound": "Originally a vowel r; in Hindi simply pronounced 'ri' as in 'rich'. Found only in Sanskrit words.",
+            "sign": "ृ",
+            "signExample": "कृ (kri) as in कृपया kripayā 'please'",
+            "example": {
+              "native": "ऋषि",
+              "roman": "rishi",
+              "en": "sage"
+            },
+            "strokes": "A small hook under the headline, a vertical line, and a little leg curling down and right from the bottom. The sign ृ is a tiny leftward hook under the consonant."
+          },
+          {
+            "char": "ए",
+            "roman": "e",
+            "ipa": "eː",
+            "sound": "Long pure 'e', like the a in 'cake' but without gliding into 'ee' (French é).",
+            "sign": "े",
+            "signExample": "के (ke)",
+            "example": {
+              "native": "एक",
+              "roman": "ek",
+              "en": "one"
+            },
+            "strokes": "A backwards-'s' curve hanging from the headline, drawn top to bottom. The sign े is a slanted stroke on top of the headline."
+          },
+          {
+            "char": "ऐ",
+            "roman": "ai",
+            "ipa": "ɛː",
+            "sound": "In standard Hindi a long open 'e' like the vowel in 'bed' or 'bat' (drawn out) — not 'eye'.",
+            "sign": "ै",
+            "signExample": "कै (kai), है (hai)",
+            "example": {
+              "native": "ऐनक",
+              "roman": "ainak",
+              "en": "spectacles"
+            },
+            "strokes": "Write ए and add a second slanted stroke above. The sign ै is two slanted strokes on top."
+          },
+          {
+            "char": "ओ",
+            "roman": "o",
+            "ipa": "oː",
+            "sound": "Long pure 'o' as in 'go' without the 'w' glide (French eau).",
+            "sign": "ो",
+            "signExample": "को (ko)",
+            "example": {
+              "native": "ओस",
+              "roman": "os",
+              "en": "dew"
+            },
+            "strokes": "Write आ and add one slanted stroke above the second vertical. The sign ो is a vertical line with a stroke on top."
+          },
+          {
+            "char": "औ",
+            "roman": "au",
+            "ipa": "ɔː",
+            "sound": "Long open 'aw' as in 'saw' (British 'law') — not 'ow' as in 'cow'.",
+            "sign": "ौ",
+            "signExample": "कौ (kau), और (aur)",
+            "example": {
+              "native": "औरत",
+              "roman": "aurat",
+              "en": "woman"
+            },
+            "strokes": "Write आ and add two slanted strokes above. The sign ौ is a vertical line with two strokes on top."
+          },
+          {
+            "char": "ऑ",
+            "roman": "o",
+            "ipa": "ɒ",
+            "sound": "The short open 'o' of British 'hot', used only in English loanwords. Many speakers say a plain ā or o instead.",
+            "sign": "ॉ",
+            "signExample": "डॉक्टर (ḍokṭar) 'doctor'",
+            "example": {
+              "native": "ऑफ़िस",
+              "roman": "ofis",
+              "en": "office"
+            },
+            "strokes": "Write आ and add a small moon-shaped curve (no dot) above. The sign ॉ is a vertical line with the curve on top."
+          }
+        ]
+      },
+      {
+        "id": "velar",
+        "title": "Velar consonants (क-वर्ग)",
+        "note": "Made at the back of the mouth, like English k and g. Hindi distinguishes four sounds where English has two: plain and aspirated (with a puff), voiceless and voiced.",
+        "letters": [
+          {
+            "char": "क",
+            "roman": "k",
+            "ipa": "k",
+            "sound": "Plain k with NO puff of air — like the k in 'skin', not 'kin'.",
+            "example": {
+              "native": "कमल",
+              "roman": "kamal",
+              "en": "lotus"
+            },
+            "strokes": "Draw the vertical line, add a loop to the left touching its middle, then a curved tail to the right; finish with the headline."
+          },
+          {
+            "char": "ख",
+            "roman": "kh",
+            "ipa": "kʰ",
+            "sound": "k with a strong puff of air, like the k in 'kite' said forcefully.",
+            "example": {
+              "native": "खरगोश",
+              "roman": "khargosh",
+              "en": "rabbit"
+            },
+            "strokes": "Draw a small loop like ' र ' joined to a 'ब'-like shape: left part is a curl, right part a vertical. Careful: it looks like र + व; the two parts touch at the bottom."
+          },
+          {
+            "char": "ग",
+            "roman": "g",
+            "ipa": "ɡ",
+            "sound": "Hard g as in 'go'.",
+            "example": {
+              "native": "गमला",
+              "roman": "gamlā",
+              "en": "flowerpot"
+            },
+            "strokes": "A short line descending from the headline on the left with a small foot, then the full vertical on the right."
+          },
+          {
+            "char": "घ",
+            "roman": "gh",
+            "ipa": "ɡʱ",
+            "sound": "g with a breathy 'h' release — like 'doghouse' run together: 'g-h'.",
+            "example": {
+              "native": "घर",
+              "roman": "ghar",
+              "en": "house, home"
+            },
+            "strokes": "A 'u'-shaped curve with a loop at the bottom left, joined to the vertical on the right; headline only over the right part."
+          },
+          {
+            "char": "ङ",
+            "roman": "ṅ",
+            "ipa": "ŋ",
+            "sound": "The 'ng' of 'sing'. Never starts a word; usually replaced by the dot ं in modern spelling.",
+            "example": {
+              "native": "अङ्क",
+              "roman": "aṅk",
+              "en": "number, digit (usually written अंक)"
+            },
+            "strokes": "Like ड with a dot to its right: a curve hanging from the headline, a loop below, then the dot."
+          }
+        ]
+      },
+      {
+        "id": "palatal",
+        "title": "Palatal consonants (च-वर्ग)",
+        "note": "Made with the front of the tongue against the hard palate: the 'ch' and 'j' family.",
+        "letters": [
+          {
+            "char": "च",
+            "roman": "ch",
+            "ipa": "tʃ",
+            "sound": "'ch' as in 'church' but with no puff of air.",
+            "example": {
+              "native": "चम्मच",
+              "roman": "chammach",
+              "en": "spoon"
+            },
+            "strokes": "A horizontal stroke from the left joining a vertical line on the right, with a small curl at the left end."
+          },
+          {
+            "char": "छ",
+            "roman": "chh",
+            "ipa": "tʃʰ",
+            "sound": "'ch' with a strong puff of air, as in 'church!' said emphatically.",
+            "example": {
+              "native": "छतरी",
+              "roman": "chhatrī",
+              "en": "umbrella"
+            },
+            "strokes": "No vertical line: draw a curve like a backwards 'c' hanging from the headline, then a loop with a tail curling down to the right."
+          },
+          {
+            "char": "ज",
+            "roman": "j",
+            "ipa": "dʒ",
+            "sound": "'j' as in 'jam'.",
+            "example": {
+              "native": "जहाज़",
+              "roman": "jahāz",
+              "en": "ship"
+            },
+            "strokes": "A small hook curling left from the headline down to a curve that meets the vertical line on the right."
+          },
+          {
+            "char": "झ",
+            "roman": "jh",
+            "ipa": "dʒʱ",
+            "sound": "'j' with a breathy release, like 'hedgehog' run together.",
+            "example": {
+              "native": "झंडा",
+              "roman": "jhaṇḍā",
+              "en": "flag"
+            },
+            "strokes": "A '3'-like curve on the left with a small leg, joined to the vertical line on the right."
+          },
+          {
+            "char": "ञ",
+            "roman": "ñ",
+            "ipa": "ɲ",
+            "sound": "The 'ny' of 'canyon'. Only appears before च/ज in Sanskrit-style spellings; usually written with ं.",
+            "example": {
+              "native": "चञ्चल",
+              "roman": "chañchal",
+              "en": "restless, playful (usually written चंचल)"
+            },
+            "strokes": "A curve like a sideways 'S' on the left joined by a horizontal bar to the vertical on the right."
+          }
+        ]
+      },
+      {
+        "id": "retroflex",
+        "title": "Retroflex consonants (ट-वर्ग)",
+        "note": "The signature sound of South Asian languages: curl the tip of your tongue back and touch the roof of your mouth behind the gum ridge. They sound 'harder' and duller than English t/d. Note that none of these letters has a vertical line.",
+        "letters": [
+          {
+            "char": "ट",
+            "roman": "ṭ",
+            "ipa": "ʈ",
+            "sound": "Tongue curled back, no puff of air. Closer to English 't' than त is, but deeper and blunter.",
+            "example": {
+              "native": "टमाटर",
+              "roman": "ṭamāṭar",
+              "en": "tomato"
+            },
+            "strokes": "A short stroke down from the headline, then a curve bulging right and back left — like a '2' without the base."
+          },
+          {
+            "char": "ठ",
+            "roman": "ṭh",
+            "ipa": "ʈʰ",
+            "sound": "Retroflex t with a strong puff of air.",
+            "example": {
+              "native": "ठंडा",
+              "roman": "ṭhaṇḍā",
+              "en": "cold"
+            },
+            "strokes": "A short stem down from the headline into a closed round loop (like a 'o' hanging under the line)."
+          },
+          {
+            "char": "ड",
+            "roman": "ḍ",
+            "ipa": "ɖ",
+            "sound": "Retroflex d: tongue curled back. At the start of a word or after n.",
+            "example": {
+              "native": "डाकिया",
+              "roman": "ḍākiyā",
+              "en": "postman"
+            },
+            "strokes": "A curve like a '5' without its top: start at the headline, go down, bulge right, and end with a small loop at the bottom left."
+          },
+          {
+            "char": "ढ",
+            "roman": "ḍh",
+            "ipa": "ɖʱ",
+            "sound": "Retroflex d with a breathy release.",
+            "example": {
+              "native": "ढोल",
+              "roman": "ḍhol",
+              "en": "barrel drum"
+            },
+            "strokes": "Like ठ but with a small tail curling in at the bottom left: stem, round bulge, inward curl."
+          },
+          {
+            "char": "ण",
+            "roman": "ṇ",
+            "ipa": "ɳ",
+            "sound": "Retroflex n (tongue curled back). Never starts a word; many Hindi speakers pronounce it like ordinary न.",
+            "example": {
+              "native": "कारण",
+              "roman": "kāraṇ",
+              "en": "reason"
+            },
+            "strokes": "Draw ण as a 'U'-like shape, a short bar, and a vertical line on the right."
+          }
+        ]
+      },
+      {
+        "id": "dental",
+        "title": "Dental consonants (त-वर्ग)",
+        "note": "Tongue tip pressed against the back of the upper front teeth — further forward than English t/d. To English ears they sound soft. Remember: th and dh are NOT the 'th' of 'thin' or 'this'.",
+        "letters": [
+          {
+            "char": "त",
+            "roman": "t",
+            "ipa": "t̪",
+            "sound": "t with the tongue against the teeth and no puff of air, as in Spanish or Italian 't'.",
+            "example": {
+              "native": "तरबूज़",
+              "roman": "tarbūz",
+              "en": "watermelon"
+            },
+            "strokes": "A horizontal hook from the left that loops down and joins the vertical line on the right."
+          },
+          {
+            "char": "थ",
+            "roman": "th",
+            "ipa": "t̪ʰ",
+            "sound": "Dental t with a puff of air — a breathy 't', never English 'th'.",
+            "example": {
+              "native": "थाली",
+              "roman": "thālī",
+              "en": "metal plate / platter meal"
+            },
+            "strokes": "A small loop at the bottom left, a curve up, then the vertical on the right; headline over the right part."
+          },
+          {
+            "char": "द",
+            "roman": "d",
+            "ipa": "d̪",
+            "sound": "d with the tongue against the teeth, as in Spanish 'd' at the start of a word.",
+            "example": {
+              "native": "दरवाज़ा",
+              "roman": "darvāzā",
+              "en": "door"
+            },
+            "strokes": "A curve hanging from the headline that bulges right, then a little tail curving down to the left. No vertical line."
+          },
+          {
+            "char": "ध",
+            "roman": "dh",
+            "ipa": "d̪ʱ",
+            "sound": "Dental d with a breathy release — never the 'th' of 'this'.",
+            "example": {
+              "native": "धूप",
+              "roman": "dhūp",
+              "en": "sunshine"
+            },
+            "strokes": "Like घ but the left part is a small loop on top: loop, curve down, join to the vertical line."
+          },
+          {
+            "char": "न",
+            "roman": "n",
+            "ipa": "n",
+            "sound": "Ordinary n.",
+            "example": {
+              "native": "नल",
+              "roman": "nal",
+              "en": "tap, faucet"
+            },
+            "strokes": "A short curve from the left meeting a vertical line, with the left stroke forming a small hook."
+          }
+        ]
+      },
+      {
+        "id": "labial",
+        "title": "Labial consonants (प-वर्ग)",
+        "note": "Made with the lips. As always: plain (no puff) vs aspirated (puff), and ph is a puffed p, not f.",
+        "letters": [
+          {
+            "char": "प",
+            "roman": "p",
+            "ipa": "p",
+            "sound": "p with no puff of air, as in 'spin'.",
+            "example": {
+              "native": "पतंग",
+              "roman": "pataṅg",
+              "en": "kite"
+            },
+            "strokes": "A 'u' shape: a short stroke down on the left, across the bottom and up into the vertical on the right."
+          },
+          {
+            "char": "फ",
+            "roman": "ph",
+            "ipa": "pʰ",
+            "sound": "p with a strong puff of air, as in 'pot!'. Not an f (though many speakers drift toward f).",
+            "example": {
+              "native": "फल",
+              "roman": "phal",
+              "en": "fruit"
+            },
+            "strokes": "Write प and add a small curl to the right of the vertical line."
+          },
+          {
+            "char": "ब",
+            "roman": "b",
+            "ipa": "b",
+            "sound": "b as in 'bat'.",
+            "example": {
+              "native": "बकरी",
+              "roman": "bakrī",
+              "en": "goat"
+            },
+            "strokes": "A small box: a stroke down on the left, a diagonal across the bottom, and the vertical on the right."
+          },
+          {
+            "char": "भ",
+            "roman": "bh",
+            "ipa": "bʱ",
+            "sound": "b with a breathy release, as in 'clubhouse' run together.",
+            "example": {
+              "native": "भालू",
+              "roman": "bhālū",
+              "en": "bear"
+            },
+            "strokes": "Like a म with a small loop: curve on the left with a tail, joined to the vertical on the right; headline only over the right part."
+          },
+          {
+            "char": "म",
+            "roman": "m",
+            "ipa": "m",
+            "sound": "Ordinary m.",
+            "example": {
+              "native": "मछली",
+              "roman": "machhlī",
+              "en": "fish"
+            },
+            "strokes": "A small loop on the left, a horizontal joining to the vertical on the right, with the headline across the top."
+          }
+        ]
+      },
+      {
+        "id": "semivowels",
+        "title": "Semivowels (य र ल व)",
+        "note": "र is a quick tongue-tap, as in Spanish 'pero' — never the English r. व is between English v and w.",
+        "letters": [
+          {
+            "char": "य",
+            "roman": "y",
+            "ipa": "j",
+            "sound": "y as in 'yes'.",
+            "example": {
+              "native": "यात्रा",
+              "roman": "yātrā",
+              "en": "journey"
+            },
+            "strokes": "A small loop on the left with a horizontal stroke joining the vertical on the right."
+          },
+          {
+            "char": "र",
+            "roman": "r",
+            "ipa": "ɾ",
+            "sound": "A single tap of the tongue tip behind the teeth, like the 'tt' in American 'butter'. Never silent, even at the end of a word.",
+            "example": {
+              "native": "रस्सी",
+              "roman": "rassī",
+              "en": "rope"
+            },
+            "strokes": "A short stroke down from the headline that turns sharply left, like a '7' backwards. With ु and ू it changes shape: रु, रू."
+          },
+          {
+            "char": "ल",
+            "roman": "l",
+            "ipa": "l",
+            "sound": "A clear l as in 'leaf' (never the dark l of 'full').",
+            "example": {
+              "native": "लड़का",
+              "roman": "laṛkā",
+              "en": "boy"
+            },
+            "strokes": "A small curve on the left, a stroke across, then the vertical line on the right."
+          },
+          {
+            "char": "व",
+            "roman": "v",
+            "ipa": "ʋ",
+            "sound": "Between v and w: lips close together but not quite touching the teeth. Sounds like w in many words (e.g. after consonants: स्वाद svād).",
+            "example": {
+              "native": "वकील",
+              "roman": "vakīl",
+              "en": "lawyer"
+            },
+            "strokes": "Like ब without the diagonal: a round loop on the left joined to the vertical line."
+          }
+        ]
+      },
+      {
+        "id": "sibilants",
+        "title": "Sibilants and ह",
+        "note": "In everyday Hindi श and ष sound the same ('sh'); ष appears mainly in Sanskrit words. ह is a voiced, breathy h.",
+        "letters": [
+          {
+            "char": "श",
+            "roman": "sh",
+            "ipa": "ʃ",
+            "sound": "'sh' as in 'shoe'. Some speakers from the Hindi heartland say s instead.",
+            "example": {
+              "native": "शेर",
+              "roman": "sher",
+              "en": "tiger / lion"
+            },
+            "strokes": "A curl on the left with a small hook, a horizontal joining the vertical; a little diagonal stroke inside."
+          },
+          {
+            "char": "ष",
+            "roman": "ṣ",
+            "ipa": "ʃ",
+            "sound": "Historically a retroflex 'sh'; in modern Hindi pronounced just like श.",
+            "example": {
+              "native": "भाषा",
+              "roman": "bhāṣā",
+              "en": "language"
+            },
+            "strokes": "Write प and draw a diagonal line through the inside of the box."
+          },
+          {
+            "char": "स",
+            "roman": "s",
+            "ipa": "s",
+            "sound": "s as in 'sun'.",
+            "example": {
+              "native": "सेब",
+              "roman": "seb",
+              "en": "apple"
+            },
+            "strokes": "A small curve on the left, a short horizontal, and the vertical on the right — like म with an opening at the top."
+          },
+          {
+            "char": "ह",
+            "roman": "h",
+            "ipa": "ɦ",
+            "sound": "A voiced, breathy h. After a vowel it is often weak and colours the vowel: कहना sounds like 'keh-nā'.",
+            "example": {
+              "native": "हाथी",
+              "roman": "hāthī",
+              "en": "elephant"
+            },
+            "strokes": "No vertical line: a curve like a '5' hanging from the headline, with a tail curling down to the right."
+          }
+        ]
+      },
+      {
+        "id": "extra",
+        "title": "Flaps and nukta letters",
+        "note": "ड़ and ढ़ are true Hindi sounds (flaps). The other dotted letters (with a nukta ़ underneath) write sounds from Persian, Arabic and English. Many speakers merge क़ ख़ ग़ into क ख ग, and many writers leave out the dot, but ज़ and फ़ are pronounced z and f by almost everyone.",
+        "letters": [
+          {
+            "char": "ड़",
+            "roman": "ṛ",
+            "ipa": "ɽ",
+            "sound": "Curl the tongue back, then flick it forward so it slaps the roof of the mouth once — a retroflex tap. Found between vowels and at the end of words.",
+            "example": {
+              "native": "पेड़",
+              "roman": "peṛ",
+              "en": "tree"
+            },
+            "strokes": "Write ड and put a dot underneath."
+          },
+          {
+            "char": "ढ़",
+            "roman": "ṛh",
+            "ipa": "ɽʱ",
+            "sound": "The ड़ flap with a breathy release.",
+            "example": {
+              "native": "पढ़ना",
+              "roman": "paṛhnā",
+              "en": "to read, study"
+            },
+            "strokes": "Write ढ and put a dot underneath."
+          },
+          {
+            "char": "क़",
+            "roman": "q",
+            "ipa": "q",
+            "sound": "A k made further back, in the throat (uvular). Many speakers just say k.",
+            "example": {
+              "native": "क़लम",
+              "roman": "qalam",
+              "en": "pen"
+            },
+            "strokes": "Write क and put a dot underneath the loop."
+          },
+          {
+            "char": "ख़",
+            "roman": "x",
+            "ipa": "x",
+            "sound": "The rough 'ch' of Scottish 'loch' or German 'Bach'. Many speakers say kh.",
+            "example": {
+              "native": "ख़त",
+              "roman": "xat",
+              "en": "letter (mail)"
+            },
+            "strokes": "Write ख and put a dot underneath the left part."
+          },
+          {
+            "char": "ग़",
+            "roman": "ġ",
+            "ipa": "ɣ",
+            "sound": "A gargled g, like a French r. Many speakers say g.",
+            "example": {
+              "native": "ग़लत",
+              "roman": "ġalat",
+              "en": "wrong"
+            },
+            "strokes": "Write ग and put a dot underneath."
+          },
+          {
+            "char": "ज़",
+            "roman": "z",
+            "ipa": "z",
+            "sound": "z as in 'zoo'.",
+            "example": {
+              "native": "ज़मीन",
+              "roman": "zamīn",
+              "en": "ground, land"
+            },
+            "strokes": "Write ज and put a dot underneath."
+          },
+          {
+            "char": "फ़",
+            "roman": "f",
+            "ipa": "f",
+            "sound": "f as in 'fun'.",
+            "example": {
+              "native": "फ़ोन",
+              "roman": "fon",
+              "en": "phone"
+            },
+            "strokes": "Write फ and put a dot underneath."
+          }
+        ]
+      },
+      {
+        "id": "marks",
+        "title": "Special marks",
+        "note": "Small signs that add nasalization, cancel the inherent vowel, or punctuate.",
+        "letters": [
+          {
+            "char": "ं",
+            "roman": "ṃ / n",
+            "ipa": "̃ / n m ŋ",
+            "sound": "Anusvara (dot above). Before a consonant it is the nasal that fits that consonant (हिंदी hindī, लंबा lambā); otherwise it nasalizes the vowel (में meṃ, नहीं nahīṃ).",
+            "example": {
+              "native": "हिंदी",
+              "roman": "hindī",
+              "en": "Hindi"
+            },
+            "strokes": "A single dot above the headline, at the right of the letter."
+          },
+          {
+            "char": "ँ",
+            "roman": "ṃ",
+            "ipa": "̃",
+            "sound": "Chandrabindu (moon and dot): the vowel is said through the nose, with no n consonant. Replaced by a plain dot when a vowel sign already sits above the line.",
+            "example": {
+              "native": "हाँ",
+              "roman": "hāṃ",
+              "en": "yes"
+            },
+            "strokes": "A small upward-opening crescent with a dot in it, above the headline."
+          },
+          {
+            "char": "ः",
+            "roman": "ḥ",
+            "ipa": "h",
+            "sound": "Visarga: a light breath of h after a vowel. Rare; in Sanskrit words only.",
+            "example": {
+              "native": "दुःख",
+              "roman": "duḥkh",
+              "en": "sorrow (also written दुख dukh)"
+            },
+            "strokes": "Two small circles one above the other, like a colon, after the letter."
+          },
+          {
+            "char": "्",
+            "roman": "—",
+            "ipa": "",
+            "sound": "Virama / halant: cancels the inherent a. Usually you see it hidden inside conjuncts; it appears visibly when a conjunct is hard to form.",
+            "example": {
+              "native": "क्या",
+              "roman": "kyā",
+              "en": "what"
+            },
+            "strokes": "A short slanted stroke under the bottom right of the letter."
+          },
+          {
+            "char": "़",
+            "roman": "—",
+            "ipa": "",
+            "sound": "Nukta: a dot under a letter that changes its sound (ज → ज़ z, फ → फ़ f, ड → ड़ ṛ).",
+            "example": {
+              "native": "ज़रा",
+              "roman": "zarā",
+              "en": "a little"
+            },
+            "strokes": "A dot directly under the letter."
+          },
+          {
+            "char": "।",
+            "roman": "",
+            "ipa": "",
+            "sound": "Pūrṇ virām (danda): the Hindi full stop. Question marks and commas are the same as in English.",
+            "example": {
+              "native": "मैं ठीक हूँ।",
+              "roman": "maiṃ ṭhīk hūṃ.",
+              "en": "I am fine."
+            },
+            "strokes": "A single vertical stroke."
+          }
+        ]
+      },
+      {
+        "id": "conjuncts",
+        "title": "Common conjuncts",
+        "note": "When two consonants meet with no vowel between, the first usually loses its vertical line ('half letter') and joins the next. A few combinations have their own shapes — learn those as separate letters. Many are taught as part of the alphabet (क्ष त्र ज्ञ श्र).",
+        "letters": [
+          {
+            "char": "क्ष",
+            "roman": "kṣ",
+            "ipa": "kʃ",
+            "sound": "क + ष: 'ksh'.",
+            "example": {
+              "native": "परीक्षा",
+              "roman": "parīkṣā",
+              "en": "exam"
+            },
+            "strokes": "A special shape: a क-like loop with a crossed tail on the left of a vertical line."
+          },
+          {
+            "char": "त्र",
+            "roman": "tr",
+            "ipa": "t̪ɾ",
+            "sound": "त + र: dental t followed by a tapped r.",
+            "example": {
+              "native": "छात्र",
+              "roman": "chhātra",
+              "en": "student"
+            },
+            "strokes": "Write a horizontal hook from the left to the vertical line, with a small diagonal cutting under it."
+          },
+          {
+            "char": "ज्ञ",
+            "roman": "gy",
+            "ipa": "ɡj",
+            "sound": "ज + ञ, but in Hindi pronounced 'gy'.",
+            "example": {
+              "native": "ज्ञान",
+              "roman": "gyān",
+              "en": "knowledge"
+            },
+            "strokes": "A special shape: a ज-like hook joined to a ञ-like curve and the vertical."
+          },
+          {
+            "char": "श्र",
+            "roman": "shr",
+            "ipa": "ʃɾ",
+            "sound": "श + र: 'shr'.",
+            "example": {
+              "native": "श्रीमती",
+              "roman": "shrīmatī",
+              "en": "Mrs."
+            },
+            "strokes": "The श loses its curl and gets a small diagonal r-stroke."
+          },
+          {
+            "char": "स्त",
+            "roman": "st",
+            "ipa": "st̪",
+            "sound": "Half स + त.",
+            "example": {
+              "native": "नमस्ते",
+              "roman": "namaste",
+              "en": "hello"
+            },
+            "strokes": "Write स without its vertical line, then a full त touching it."
+          },
+          {
+            "char": "प्र",
+            "roman": "pr",
+            "ipa": "pɾ",
+            "sound": "प + र: र after a consonant becomes a small slanted stroke at the foot.",
+            "example": {
+              "native": "प्रेम",
+              "roman": "prem",
+              "en": "love"
+            },
+            "strokes": "Write प, then a short diagonal stroke from the bottom of its vertical, slanting down-left."
+          },
+          {
+            "char": "क्र",
+            "roman": "kr",
+            "ipa": "kɾ",
+            "sound": "क + र.",
+            "example": {
+              "native": "क्रिकेट",
+              "roman": "krikeṭ",
+              "en": "cricket"
+            },
+            "strokes": "Write क and add the slanted r-stroke through the lower part of the vertical."
+          },
+          {
+            "char": "ट्र",
+            "roman": "ṭr",
+            "ipa": "ʈɾ",
+            "sound": "ट + र: with letters that have no vertical, r is a small inverted 'v' underneath. Used for English 'tr'.",
+            "example": {
+              "native": "ट्रेन",
+              "roman": "ṭren",
+              "en": "train"
+            },
+            "strokes": "Write ट and put a small ^-shaped mark under it."
+          },
+          {
+            "char": "र्म",
+            "roman": "rm",
+            "ipa": "ɾm",
+            "sound": "र + म: r before a consonant becomes a hook (reph) above the headline of the NEXT letter.",
+            "example": {
+              "native": "गर्म",
+              "roman": "garm",
+              "en": "hot, warm"
+            },
+            "strokes": "Write म, then add a small hook curling up and right above its top."
+          },
+          {
+            "char": "द्य",
+            "roman": "dy",
+            "ipa": "d̪j",
+            "sound": "द + य.",
+            "example": {
+              "native": "विद्यालय",
+              "roman": "vidyālay",
+              "en": "school (formal)"
+            },
+            "strokes": "Write द, then a small य-shape tucked under or beside it."
+          },
+          {
+            "char": "द्ध",
+            "roman": "ddh",
+            "ipa": "d̪d̪ʱ",
+            "sound": "द + ध, stacked.",
+            "example": {
+              "native": "शुद्ध",
+              "roman": "shuddh",
+              "en": "pure"
+            },
+            "strokes": "Write द, then a small ध hanging below it."
+          },
+          {
+            "char": "द्व",
+            "roman": "dv",
+            "ipa": "d̪ʋ",
+            "sound": "द + व, stacked.",
+            "example": {
+              "native": "द्वार",
+              "roman": "dvār",
+              "en": "gate, door (formal)"
+            },
+            "strokes": "Write द, then a small व loop hanging below it."
+          },
+          {
+            "char": "क्त",
+            "roman": "kt",
+            "ipa": "kt̪",
+            "sound": "Half क + त.",
+            "example": {
+              "native": "शक्ति",
+              "roman": "shakti",
+              "en": "strength"
+            },
+            "strokes": "Write क with a shortened right tail, then a त joined to it."
+          },
+          {
+            "char": "त्त",
+            "roman": "tt",
+            "ipa": "t̪t̪",
+            "sound": "Double t: hold the t a moment longer.",
+            "example": {
+              "native": "पत्ता",
+              "roman": "pattā",
+              "en": "leaf"
+            },
+            "strokes": "Half त (no vertical) followed by a full त."
+          },
+          {
+            "char": "च्च",
+            "roman": "chch",
+            "ipa": "tʃtʃ",
+            "sound": "Double ch: hold it.",
+            "example": {
+              "native": "बच्चा",
+              "roman": "bachchā",
+              "en": "child"
+            },
+            "strokes": "Half च followed by a full च."
+          },
+          {
+            "char": "म्ह",
+            "roman": "mh",
+            "ipa": "mɦ",
+            "sound": "म + ह: a breathy m.",
+            "example": {
+              "native": "तुम्हारा",
+              "roman": "tumhārā",
+              "en": "your (familiar)"
+            },
+            "strokes": "Half म (no vertical) then a full ह."
+          },
+          {
+            "char": "ड्ड",
+            "roman": "ḍḍ",
+            "ipa": "ɖɖ",
+            "sound": "Double retroflex d, stacked.",
+            "example": {
+              "native": "हड्डी",
+              "roman": "haḍḍī",
+              "en": "bone"
+            },
+            "strokes": "Write ड, then a smaller ड beneath it."
+          },
+          {
+            "char": "श्च",
+            "roman": "shch",
+            "ipa": "ʃtʃ",
+            "sound": "Half श + च.",
+            "example": {
+              "native": "पश्चिम",
+              "roman": "pashchim",
+              "en": "west"
+            },
+            "strokes": "Half श (no vertical) then a full च."
+          },
+          {
+            "char": "रु",
+            "roman": "ru",
+            "ipa": "ɾʊ",
+            "sound": "र + ु: the u-sign attaches to the middle of र, not underneath.",
+            "example": {
+              "native": "रुपया",
+              "roman": "rupayā",
+              "en": "rupee"
+            },
+            "strokes": "Write र and add a small hook to its right side, at mid-height."
+          },
+          {
+            "char": "रू",
+            "roman": "rū",
+            "ipa": "ɾuː",
+            "sound": "र + ू: again attached to the side.",
+            "example": {
+              "native": "रूप",
+              "roman": "rūp",
+              "en": "form, looks"
+            },
+            "strokes": "Write र and add a small loop with a tail to its right side."
+          }
+        ]
+      },
+      {
+        "id": "digits",
+        "title": "Devanagari digits",
+        "note": "Hindi has its own digits, seen on older signs, textbooks and official documents. Western digits (0–9) are more common in daily life.",
+        "letters": [
+          {
+            "char": "०",
+            "roman": "shūnya",
+            "ipa": "",
+            "sound": "0 — zero.",
+            "example": {
+              "native": "शून्य",
+              "roman": "shūnya",
+              "en": "zero"
+            },
+            "strokes": "A small circle."
+          },
+          {
+            "char": "१",
+            "roman": "ek",
+            "ipa": "",
+            "sound": "1 — one.",
+            "example": {
+              "native": "एक",
+              "roman": "ek",
+              "en": "one"
+            },
+            "strokes": "A small hook at the top, then a long curve down to the left."
+          },
+          {
+            "char": "२",
+            "roman": "do",
+            "ipa": "",
+            "sound": "2 — two.",
+            "example": {
+              "native": "दो",
+              "roman": "do",
+              "en": "two"
+            },
+            "strokes": "Like a 2 without its base, with a small tail curling back."
+          },
+          {
+            "char": "३",
+            "roman": "tīn",
+            "ipa": "",
+            "sound": "3 — three.",
+            "example": {
+              "native": "तीन",
+              "roman": "tīn",
+              "en": "three"
+            },
+            "strokes": "Like a 3 with an extra tail at the bottom."
+          },
+          {
+            "char": "४",
+            "roman": "chār",
+            "ipa": "",
+            "sound": "4 — four.",
+            "example": {
+              "native": "चार",
+              "roman": "chār",
+              "en": "four"
+            },
+            "strokes": "Like a figure-8 open at the top right."
+          },
+          {
+            "char": "५",
+            "roman": "pāṃch",
+            "ipa": "",
+            "sound": "5 — five.",
+            "example": {
+              "native": "पाँच",
+              "roman": "pāṃch",
+              "en": "five"
+            },
+            "strokes": "A curve like a backwards 'y' with a hook."
+          },
+          {
+            "char": "६",
+            "roman": "chhah",
+            "ipa": "",
+            "sound": "6 — six.",
+            "example": {
+              "native": "छह",
+              "roman": "chhah",
+              "en": "six"
+            },
+            "strokes": "Like a 'ε' with a tail curving down."
+          },
+          {
+            "char": "७",
+            "roman": "sāt",
+            "ipa": "",
+            "sound": "7 — seven.",
+            "example": {
+              "native": "सात",
+              "roman": "sāt",
+              "en": "seven"
+            },
+            "strokes": "A '9'-like loop with a long tail curving left."
+          },
+          {
+            "char": "८",
+            "roman": "āṭh",
+            "ipa": "",
+            "sound": "8 — eight.",
+            "example": {
+              "native": "आठ",
+              "roman": "āṭh",
+              "en": "eight"
+            },
+            "strokes": "A curve like a 'c' lying open to the left, with a hook at the top."
+          },
+          {
+            "char": "९",
+            "roman": "nau",
+            "ipa": "",
+            "sound": "9 — nine.",
+            "example": {
+              "native": "नौ",
+              "roman": "nau",
+              "en": "nine"
+            },
+            "strokes": "Like a 9 with a curled tail."
+          }
+        ]
+      }
+    ]
+  },
+  "pronunciation": [
+    {
+      "id": "aspiration",
+      "title": "Aspiration: plain vs 'puffed' consonants",
+      "body": "Hindi has two versions of almost every stop: **plain** (no breath) and **aspirated** (with a clear puff of air). In English the difference exists but never changes meaning — the p in 'pin' has a puff, the p in 'spin' doesn't. In Hindi it changes the word: पल *pal* 'moment' vs फल *phal* 'fruit'.\n\nEnglish speakers make two mistakes: they add a puff to plain sounds (so कल *kal* 'tomorrow' sounds like खल), and they read the h in *th, ph* as English 'th' and 'f'. In this course **th** is a breathy t (as in 'hot-house'), **ph** a breathy p ('top-hat'), never 'thin' or 'phone'.\n\nThe voiced aspirates **gh jh ḍh dh bh** are the hardest: say g, d or b and let a breathy h follow, as in 'doghouse', 'madhouse', 'clubhouse' squashed into one syllable. घर *ghar* 'house' is not 'gar'.",
+      "tips": [
+        "Hold a tissue or your palm in front of your mouth: it should stay still for क त प and flutter for ख थ फ.",
+        "For plain sounds, imagine an s before them: say 'spa', then drop the s — that p is Hindi प.",
+        "For gh/dh/bh, start with 'doghouse', 'adhere', 'abhor' and shorten until it is one sound.",
+        "Never pronounce थ/ध like English 'th', or फ like f — Hindi has फ़ for that."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "पल",
+            "roman": "pal",
+            "en": "moment"
+          },
+          "b": {
+            "native": "फल",
+            "roman": "phal",
+            "en": "fruit"
+          }
+        },
+        {
+          "a": {
+            "native": "कान",
+            "roman": "kān",
+            "en": "ear"
+          },
+          "b": {
+            "native": "खान",
+            "roman": "khān",
+            "en": "mine (quarry)"
+          }
+        },
+        {
+          "a": {
+            "native": "सात",
+            "roman": "sāt",
+            "en": "seven"
+          },
+          "b": {
+            "native": "साथ",
+            "roman": "sāth",
+            "en": "together, with"
+          }
+        },
+        {
+          "a": {
+            "native": "चाल",
+            "roman": "chāl",
+            "en": "gait, move"
+          },
+          "b": {
+            "native": "छाल",
+            "roman": "chhāl",
+            "en": "bark (of a tree)"
+          }
+        },
+        {
+          "a": {
+            "native": "दान",
+            "roman": "dān",
+            "en": "donation"
+          },
+          "b": {
+            "native": "धान",
+            "roman": "dhān",
+            "en": "paddy (rice plant)"
+          },
+          "note": "voiced: d vs breathy dh"
+        },
+        {
+          "a": {
+            "native": "बात",
+            "roman": "bāt",
+            "en": "matter, talk"
+          },
+          "b": {
+            "native": "भात",
+            "roman": "bhāt",
+            "en": "cooked rice"
+          },
+          "note": "voiced: b vs breathy bh"
+        },
+        {
+          "a": {
+            "native": "गड़ा",
+            "roman": "gaṛā",
+            "en": "buried"
+          },
+          "b": {
+            "native": "घड़ा",
+            "roman": "ghaṛā",
+            "en": "clay water pot"
+          },
+          "note": "voiced: g vs breathy gh"
+        }
+      ],
+      "drill": [
+        {
+          "native": "खाना",
+          "roman": "khānā",
+          "en": "food; to eat"
+        },
+        {
+          "native": "थोड़ा",
+          "roman": "thoṛā",
+          "en": "a little"
+        },
+        {
+          "native": "फिर",
+          "roman": "phir",
+          "en": "again, then"
+        },
+        {
+          "native": "घर",
+          "roman": "ghar",
+          "en": "home"
+        },
+        {
+          "native": "धन्यवाद",
+          "roman": "dhanyavād",
+          "en": "thank you"
+        },
+        {
+          "native": "भाई",
+          "roman": "bhāī",
+          "en": "brother"
+        },
+        {
+          "native": "छोटा",
+          "roman": "chhoṭā",
+          "en": "small"
+        },
+        {
+          "native": "झूठ",
+          "roman": "jhūṭh",
+          "en": "lie, falsehood"
+        }
+      ]
+    },
+    {
+      "id": "retroflex",
+      "title": "Retroflex vs dental: ट/त and ड/द",
+      "body": "English has one t and one d, made on the ridge behind the teeth. Hindi has two of each, and neither is the English one.\n\n**Dental** त थ द ध: press the tip of your tongue against the back of your upper front teeth. The sound is light and 'soft' — think of Spanish or French t/d.\n\n**Retroflex** ट ठ ड ढ: curl the tip of your tongue back and touch the roof of your mouth, further back than for English t. The sound is deeper and 'hollow'. Indian speakers hear English t/d as retroflex, which is why English words are written with ट/ड: टीवी *ṭīvī*, डॉक्टर *ḍokṭar*.\n\nMixing them up makes real mistakes: तीन *tīn* is 'three', टीन *ṭīn* is 'tin'.",
+      "tips": [
+        "Dental: tongue tip touches your teeth — you can feel it. Retroflex: tongue tip points backwards, the underside touches the palate.",
+        "If in doubt, an English t/d is closer to retroflex ट/ड than to dental त/द.",
+        "Practise in alternation: ता-टा-ता-टा, दा-डा-दा-डा.",
+        "Watch Hindi speakers' mouths: dentals are made visibly at the teeth."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "तीन",
+            "roman": "tīn",
+            "en": "three"
+          },
+          "b": {
+            "native": "टीन",
+            "roman": "ṭīn",
+            "en": "tin (metal sheet)"
+          }
+        },
+        {
+          "a": {
+            "native": "दाल",
+            "roman": "dāl",
+            "en": "lentils"
+          },
+          "b": {
+            "native": "डाल",
+            "roman": "ḍāl",
+            "en": "branch"
+          }
+        },
+        {
+          "a": {
+            "native": "दर",
+            "roman": "dar",
+            "en": "rate"
+          },
+          "b": {
+            "native": "डर",
+            "roman": "ḍar",
+            "en": "fear"
+          }
+        },
+        {
+          "a": {
+            "native": "ताल",
+            "roman": "tāl",
+            "en": "rhythm; pond"
+          },
+          "b": {
+            "native": "टाल",
+            "roman": "ṭāl",
+            "en": "put off (imperative)"
+          }
+        },
+        {
+          "a": {
+            "native": "थाना",
+            "roman": "thānā",
+            "en": "police station"
+          },
+          "b": {
+            "native": "ठाना",
+            "roman": "ṭhānā",
+            "en": "resolved, decided firmly"
+          }
+        },
+        {
+          "a": {
+            "native": "काता",
+            "roman": "kātā",
+            "en": "spun (thread)"
+          },
+          "b": {
+            "native": "काटा",
+            "roman": "kāṭā",
+            "en": "cut, bit"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "टमाटर",
+          "roman": "ṭamāṭar",
+          "en": "tomato"
+        },
+        {
+          "native": "दरवाज़ा",
+          "roman": "darvāzā",
+          "en": "door"
+        },
+        {
+          "native": "ठंडा पानी",
+          "roman": "ṭhaṇḍā pānī",
+          "en": "cold water"
+        },
+        {
+          "native": "डॉक्टर",
+          "roman": "ḍokṭar",
+          "en": "doctor"
+        },
+        {
+          "native": "तुम्हारा दोस्त",
+          "roman": "tumhārā dost",
+          "en": "your friend"
+        },
+        {
+          "native": "टिकट",
+          "roman": "ṭikaṭ",
+          "en": "ticket"
+        },
+        {
+          "native": "दो टमाटर",
+          "roman": "do ṭamāṭar",
+          "en": "two tomatoes"
+        }
+      ]
+    },
+    {
+      "id": "vowel-length",
+      "title": "Short vs long vowels",
+      "body": "Hindi pairs **a/ā, i/ī, u/ū** differ in both length and quality. Short *a* is the relaxed 'uh' of 'about'; long *ā* is the open 'aa' of 'father'. Short *i* is 'bit', long *ī* is 'beet'. Short *u* is 'put', long *ū* is 'boot'.\n\nThe classic English-speaker error is to pronounce every written *a* as 'a' in 'cat' or as long *ā*. कम *kam* 'less' and काम *kām* 'work' must sound different. Grammar depends on this too: लड़का *laṛkā* 'boy' vs लड़के *laṛke* 'boys', and करता *kartā* (masc.) vs करती *kartī* (fem.).\n\n*e* and *o* are always long, pure vowels with no glide: के *ke* is not English 'kay', and को *ko* is not 'coh-w'.",
+      "tips": [
+        "Short a = the 'u' in 'cup' or the 'a' in 'about'. Never 'cat'.",
+        "Exaggerate the length of ā, ī, ū at first — almost twice as long.",
+        "Keep e and o steady: don't let them slide into 'ay-ee' or 'oh-oo'.",
+        "Word-final ī and ā are long and clear: पानी pā-nī, not 'pani'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "कम",
+            "roman": "kam",
+            "en": "less"
+          },
+          "b": {
+            "native": "काम",
+            "roman": "kām",
+            "en": "work"
+          }
+        },
+        {
+          "a": {
+            "native": "दिन",
+            "roman": "din",
+            "en": "day"
+          },
+          "b": {
+            "native": "दीन",
+            "roman": "dīn",
+            "en": "poor, humble"
+          }
+        },
+        {
+          "a": {
+            "native": "मिल",
+            "roman": "mil",
+            "en": "mill; meet (stem)"
+          },
+          "b": {
+            "native": "मील",
+            "roman": "mīl",
+            "en": "mile"
+          }
+        },
+        {
+          "a": {
+            "native": "बल",
+            "roman": "bal",
+            "en": "strength"
+          },
+          "b": {
+            "native": "बाल",
+            "roman": "bāl",
+            "en": "hair"
+          }
+        },
+        {
+          "a": {
+            "native": "जल",
+            "roman": "jal",
+            "en": "water (formal)"
+          },
+          "b": {
+            "native": "जाल",
+            "roman": "jāl",
+            "en": "net"
+          }
+        },
+        {
+          "a": {
+            "native": "सुना",
+            "roman": "sunā",
+            "en": "heard"
+          },
+          "b": {
+            "native": "सूना",
+            "roman": "sūnā",
+            "en": "deserted, empty"
+          }
+        },
+        {
+          "a": {
+            "native": "कल",
+            "roman": "kal",
+            "en": "yesterday / tomorrow"
+          },
+          "b": {
+            "native": "काल",
+            "roman": "kāl",
+            "en": "time, era; death"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "पानी",
+          "roman": "pānī",
+          "en": "water"
+        },
+        {
+          "native": "अभी",
+          "roman": "abhī",
+          "en": "right now"
+        },
+        {
+          "native": "बहुत",
+          "roman": "bahut",
+          "en": "very, a lot"
+        },
+        {
+          "native": "दूध",
+          "roman": "dūdh",
+          "en": "milk"
+        },
+        {
+          "native": "मेरा नाम",
+          "roman": "merā nām",
+          "en": "my name"
+        },
+        {
+          "native": "कुछ भी",
+          "roman": "kuchh bhī",
+          "en": "anything"
+        },
+        {
+          "native": "सब ठीक",
+          "roman": "sab ṭhīk",
+          "en": "all fine"
+        }
+      ]
+    },
+    {
+      "id": "schwa-deletion",
+      "title": "The silent 'a' (schwa deletion)",
+      "body": "Every consonant letter carries an inherent *a*, but in speech Hindi drops many of them. If you pronounce every one, you sound like a robot reading Sanskrit.\n\n**Rule 1 — word end:** a final inherent *a* is silent. कमल is *kamal*, घर is *ghar*, नमक is *namak*. (Exception: after a cluster it is often kept lightly: मित्र *mitra*.)\n\n**Rule 2 — in the middle:** in a pattern 'vowel–consonant–a–consonant–vowel', the *a* usually drops. Read from the end of the word: कमरा = ka-ma-rā → *kam-rā*; लड़की → *laṛ-kī*; समझा → *sam-jhā*.\n\nThis is why the same root changes shape: समझ *samajh* 'understanding' but समझा *samjhā* 'understood'; नमक *namak* 'salt' but नमकीन *namkīn* 'salty'. The romanization in this course always shows the spoken form — trust it.",
+      "tips": [
+        "Never pronounce a final -a on a consonant letter: राम is Rām, not Rāma.",
+        "When adding endings (-ā, -ī, -e, -nā), the a before the last consonant of the stem often vanishes: बदल badal → बदला badlā.",
+        "Verb infinitives keep it when needed to avoid three consonants: समझना samajhnā, निकलना nikalnā.",
+        "When unsure, check the romanization; it shows exactly which a's are spoken."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "समझ",
+            "roman": "samajh",
+            "en": "understanding"
+          },
+          "b": {
+            "native": "समझा",
+            "roman": "samjhā",
+            "en": "understood"
+          }
+        },
+        {
+          "a": {
+            "native": "नमक",
+            "roman": "namak",
+            "en": "salt"
+          },
+          "b": {
+            "native": "नमकीन",
+            "roman": "namkīn",
+            "en": "salty; savoury snacks"
+          }
+        },
+        {
+          "a": {
+            "native": "बदल",
+            "roman": "badal",
+            "en": "change (stem)"
+          },
+          "b": {
+            "native": "बदला",
+            "roman": "badlā",
+            "en": "changed; revenge"
+          }
+        },
+        {
+          "a": {
+            "native": "सड़क",
+            "roman": "saṛak",
+            "en": "road"
+          },
+          "b": {
+            "native": "सड़कें",
+            "roman": "saṛkeṃ",
+            "en": "roads"
+          }
+        },
+        {
+          "a": {
+            "native": "कमल",
+            "roman": "kamal",
+            "en": "lotus"
+          },
+          "b": {
+            "native": "कमला",
+            "roman": "Kamlā",
+            "en": "Kamla (a name)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "कमरा",
+          "roman": "kamrā",
+          "en": "room"
+        },
+        {
+          "native": "लड़की",
+          "roman": "laṛkī",
+          "en": "girl"
+        },
+        {
+          "native": "आदमी",
+          "roman": "ādmī",
+          "en": "man"
+        },
+        {
+          "native": "अपना",
+          "roman": "apnā",
+          "en": "one's own"
+        },
+        {
+          "native": "कपड़े",
+          "roman": "kapṛe",
+          "en": "clothes"
+        },
+        {
+          "native": "सरकार",
+          "roman": "sarkār",
+          "en": "government"
+        },
+        {
+          "native": "बोलती",
+          "roman": "boltī",
+          "en": "speaks (f.)"
+        },
+        {
+          "native": "समझना",
+          "roman": "samajhnā",
+          "en": "to understand"
+        },
+        {
+          "native": "जानवर",
+          "roman": "jānvar",
+          "en": "animal"
+        }
+      ]
+    },
+    {
+      "id": "nasal-vowels",
+      "title": "Nasal vowels (ँ and ं)",
+      "body": "A nasal vowel is said with air flowing through both mouth and nose — like French *bon* or *vin*. There is no n or m consonant at the end: हाँ *hāṃ* 'yes' is 'haa' through the nose, not 'hahn'.\n\nNasal vowels are marked with chandrabindu ँ, or with a dot ं when a vowel sign is already sitting above the headline (में *meṃ*, नहीं *nahīṃ*, मैं *maiṃ*). They are very common in grammar: the plural है/हैं, the 'I am' हूँ *hūṃ*, feminine plurals like लड़कियाँ *laṛkiyāṃ*.\n\nCareful: the dot ं before a consonant usually stands for a real n/m sound instead (हिंदी *hindī*, लंबा *lambā*). As a rule of thumb, after a short vowel it is a consonant; after a long vowel (ā ī ū e ai o au) it is usually nasalization (साँप *sāṃp*, ईंट *īṃṭ*).",
+      "tips": [
+        "Pinch your nose while saying हाँ: if the sound changes, you are nasalizing correctly.",
+        "Don't close your mouth or touch the tongue to the palate at the end — no n!",
+        "Start with French words you know (bon, vin) or the 'uh-uh' of 'no' in English, which is nasal.",
+        "है hai (is) vs हैं haiṃ (are): the only difference is nasalization, and it is grammatical."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "सास",
+            "roman": "sās",
+            "en": "mother-in-law"
+          },
+          "b": {
+            "native": "साँस",
+            "roman": "sāṃs",
+            "en": "breath"
+          }
+        },
+        {
+          "a": {
+            "native": "पूछ",
+            "roman": "pūchh",
+            "en": "ask (imperative)"
+          },
+          "b": {
+            "native": "पूँछ",
+            "roman": "pūṃchh",
+            "en": "tail"
+          }
+        },
+        {
+          "a": {
+            "native": "गोद",
+            "roman": "god",
+            "en": "lap"
+          },
+          "b": {
+            "native": "गोंद",
+            "roman": "goṃd",
+            "en": "glue"
+          }
+        },
+        {
+          "a": {
+            "native": "काटा",
+            "roman": "kāṭā",
+            "en": "cut"
+          },
+          "b": {
+            "native": "काँटा",
+            "roman": "kāṃṭā",
+            "en": "thorn; fork"
+          }
+        },
+        {
+          "a": {
+            "native": "है",
+            "roman": "hai",
+            "en": "is"
+          },
+          "b": {
+            "native": "हैं",
+            "roman": "haiṃ",
+            "en": "are"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "हाँ",
+          "roman": "hāṃ",
+          "en": "yes"
+        },
+        {
+          "native": "नहीं",
+          "roman": "nahīṃ",
+          "en": "no, not"
+        },
+        {
+          "native": "मैं हूँ",
+          "roman": "maiṃ hūṃ",
+          "en": "I am"
+        },
+        {
+          "native": "माँ",
+          "roman": "māṃ",
+          "en": "mother"
+        },
+        {
+          "native": "आँख",
+          "roman": "āṃkh",
+          "en": "eye"
+        },
+        {
+          "native": "गाँव में",
+          "roman": "gāṃv meṃ",
+          "en": "in the village"
+        },
+        {
+          "native": "कहाँ",
+          "roman": "kahāṃ",
+          "en": "where"
+        },
+        {
+          "native": "लड़कियाँ",
+          "roman": "laṛkiyāṃ",
+          "en": "girls"
+        }
+      ]
+    },
+    {
+      "id": "flaps",
+      "title": "The flaps ड़ and ढ़",
+      "body": "ड़ *ṛ* and ढ़ *ṛh* have no English equivalent. Curl the tip of your tongue back (as for ट/ड), then flick it forward and down so the underside slaps the roof of your mouth once on its way out. The result sounds a bit like a mix of d and r.\n\nIt is different from र *r*, which is a light tap just behind the teeth with the tongue NOT curled. And it is different from ड *ḍ*, which is a full stop (the tongue holds and releases). In general ड appears at the start of words and after nasals (डर, ठंडा), and ड़ appears between vowels and at the end of words (बड़ा, पेड़).\n\nढ़ is the same flap followed by a breathy h: पढ़ना *paṛhnā* 'to study'.",
+      "tips": [
+        "Say 'ar' with the tongue curled back as far as possible, then flick it forward: that's ड़.",
+        "Compare मोर mor 'peacock' and मोड़ moṛ 'turn': r is at the front, ṛ starts at the back.",
+        "Don't hold the tongue against the palate — it is a quick slap, not a stop.",
+        "Many very common words have ड़: बड़ा, लड़का, थोड़ा, कपड़ा, गाड़ी, पेड़."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "मोर",
+            "roman": "mor",
+            "en": "peacock"
+          },
+          "b": {
+            "native": "मोड़",
+            "roman": "moṛ",
+            "en": "turn, bend"
+          }
+        },
+        {
+          "a": {
+            "native": "परी",
+            "roman": "parī",
+            "en": "fairy"
+          },
+          "b": {
+            "native": "पड़ी",
+            "roman": "paṛī",
+            "en": "lying, fallen (f.)"
+          }
+        },
+        {
+          "a": {
+            "native": "कोरा",
+            "roman": "korā",
+            "en": "blank, unused"
+          },
+          "b": {
+            "native": "कोड़ा",
+            "roman": "koṛā",
+            "en": "whip"
+          }
+        },
+        {
+          "a": {
+            "native": "पड़ा",
+            "roman": "paṛā",
+            "en": "lying, fallen"
+          },
+          "b": {
+            "native": "पढ़ा",
+            "roman": "paṛhā",
+            "en": "read, studied"
+          },
+          "note": "plain flap vs breathy flap"
+        },
+        {
+          "a": {
+            "native": "बड़ा",
+            "roman": "baṛā",
+            "en": "big"
+          },
+          "b": {
+            "native": "बढ़ा",
+            "roman": "baṛhā",
+            "en": "increased, grew"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "लड़का",
+          "roman": "laṛkā",
+          "en": "boy"
+        },
+        {
+          "native": "गाड़ी",
+          "roman": "gāṛī",
+          "en": "car, vehicle"
+        },
+        {
+          "native": "पेड़",
+          "roman": "peṛ",
+          "en": "tree"
+        },
+        {
+          "native": "सड़क",
+          "roman": "saṛak",
+          "en": "road"
+        },
+        {
+          "native": "थोड़ा",
+          "roman": "thoṛā",
+          "en": "a little"
+        },
+        {
+          "native": "पढ़ाई",
+          "roman": "paṛhāī",
+          "en": "studies"
+        },
+        {
+          "native": "बूढ़ा",
+          "roman": "būṛhā",
+          "en": "old (person)"
+        },
+        {
+          "native": "घोड़ा",
+          "roman": "ghoṛā",
+          "en": "horse"
+        }
+      ]
+    },
+    {
+      "id": "geminates",
+      "title": "Double consonants",
+      "body": "A double consonant (written with a half letter + full letter: त्त, च्च, क्क) is held for longer than a single one — like the 'tt' across 'cat-tail' or the 'kk' in 'book-case'. In English, double letters are just spelling; in Hindi they change meaning: पता *patā* 'address' vs पत्ता *pattā* 'leaf'.\n\nThe vowel before a double consonant is usually short, and the double consonant 'closes' the first syllable: *pat-tā*, *bach-chā*, *pak-kā*.",
+      "tips": [
+        "Pause briefly with your mouth in the closed position before releasing: pat…tā.",
+        "Think of English pairs across words: 'black cat' (kk), 'hot tea' (tt).",
+        "Very common doubles: बच्चा, अच्छा, पक्का, कुत्ता, चिट्ठी, सत्तर, अस्सी.",
+        "For an aspirated double (च्छ, ट्ठ, द्ध) only the second half has the puff: ach-chhā."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "पता",
+            "roman": "patā",
+            "en": "address; known"
+          },
+          "b": {
+            "native": "पत्ता",
+            "roman": "pattā",
+            "en": "leaf"
+          }
+        },
+        {
+          "a": {
+            "native": "बचा",
+            "roman": "bachā",
+            "en": "saved, left over"
+          },
+          "b": {
+            "native": "बच्चा",
+            "roman": "bachchā",
+            "en": "child"
+          }
+        },
+        {
+          "a": {
+            "native": "पका",
+            "roman": "pakā",
+            "en": "ripe, cooked"
+          },
+          "b": {
+            "native": "पक्का",
+            "roman": "pakkā",
+            "en": "certain, solid"
+          }
+        },
+        {
+          "a": {
+            "native": "गदा",
+            "roman": "gadā",
+            "en": "mace (club)"
+          },
+          "b": {
+            "native": "गद्दा",
+            "roman": "gaddā",
+            "en": "mattress"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "अच्छा",
+          "roman": "achchhā",
+          "en": "good; OK"
+        },
+        {
+          "native": "कुत्ता",
+          "roman": "kuttā",
+          "en": "dog"
+        },
+        {
+          "native": "चिट्ठी",
+          "roman": "chiṭṭhī",
+          "en": "letter (mail)"
+        },
+        {
+          "native": "सत्तर",
+          "roman": "sattar",
+          "en": "seventy"
+        },
+        {
+          "native": "अस्सी",
+          "roman": "assī",
+          "en": "eighty"
+        },
+        {
+          "native": "उल्लू",
+          "roman": "ullū",
+          "en": "owl; fool"
+        }
+      ]
+    },
+    {
+      "id": "ai-au",
+      "title": "ए vs ऐ and ओ vs औ",
+      "body": "Don't be fooled by the romanization *ai* and *au*. In standard Hindi, **ऐ** is a long open 'e' — the vowel of 'bed' or of 'bad' drawn out ([ɛː]) — and **औ** is the vowel of British 'law' ([ɔː]). They are NOT 'eye' and 'ow'. (In some eastern dialects and in Sanskrit-style recitation you will hear diphthongs, but not in everyday standard speech.)\n\nCompare them with the closed pure vowels **ए** *e* (French é) and **ओ** *o* (French eau). The difference matters in very common words: है *hai* 'is' sounds like 'heh', मैं *maiṃ* 'I' like a nasal 'meh', और *aur* 'and' like 'or' without the r-colouring of English.",
+      "tips": [
+        "ऐ: say 'bed' and stretch the vowel. है = 'hɛ', not 'high'.",
+        "औ: say 'law' (British). और = 'ɔr', not 'hour'.",
+        "ए and ओ: keep the mouth still, no glide.",
+        "Practise: मेरा / मैं / मोर / मौसम — e / ai / o / au."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "मेल",
+            "roman": "mel",
+            "en": "harmony; mail"
+          },
+          "b": {
+            "native": "मैल",
+            "roman": "mail",
+            "en": "dirt, grime"
+          }
+        },
+        {
+          "a": {
+            "native": "बेर",
+            "roman": "ber",
+            "en": "jujube berry"
+          },
+          "b": {
+            "native": "बैर",
+            "roman": "bair",
+            "en": "enmity"
+          }
+        },
+        {
+          "a": {
+            "native": "ओर",
+            "roman": "or",
+            "en": "direction, side"
+          },
+          "b": {
+            "native": "और",
+            "roman": "aur",
+            "en": "and; more"
+          }
+        },
+        {
+          "a": {
+            "native": "बोना",
+            "roman": "bonā",
+            "en": "to sow"
+          },
+          "b": {
+            "native": "बौना",
+            "roman": "baunā",
+            "en": "dwarf"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "है",
+          "roman": "hai",
+          "en": "is"
+        },
+        {
+          "native": "पैसा",
+          "roman": "paisā",
+          "en": "money"
+        },
+        {
+          "native": "बैठिए",
+          "roman": "baiṭhiye",
+          "en": "please sit"
+        },
+        {
+          "native": "कौन",
+          "roman": "kaun",
+          "en": "who"
+        },
+        {
+          "native": "मौसम",
+          "roman": "mausam",
+          "en": "weather"
+        },
+        {
+          "native": "चौदह",
+          "roman": "chaudah",
+          "en": "fourteen"
+        },
+        {
+          "native": "कैसे हो?",
+          "roman": "kaise ho?",
+          "en": "how are you? (familiar)"
+        }
+      ]
+    },
+    {
+      "id": "nukta",
+      "title": "Nukta sounds: z, f, q, x, ġ",
+      "body": "Hindi shares thousands of words with Urdu that came from Persian and Arabic, plus many English loans. Their foreign sounds are written with a dot (nukta) under a native letter: **ज़** *z*, **फ़** *f*, **क़** *q*, **ख़** *x*, **ग़** *ġ*.\n\n**ज़** and **फ़** are used by nearly all speakers and are needed to tell some words apart (राज *rāj* 'rule' vs राज़ *rāz* 'secret'). **क़ ख़ ग़** are pronounced carefully by Urdu speakers, educated speakers and in films and songs, but many Hindi speakers simply say k, kh, g — both are acceptable. On the other hand, some speakers of eastern dialects say j for z and ph for f.\n\nIn writing, the nukta is often left out (ज़रूर is commonly written जरूर). This course writes it so you know the 'proper' sound.",
+      "tips": [
+        "q (क़): a k made as far back in the throat as you can, near where you gargle.",
+        "x (ख़): the 'ch' in Scottish 'loch' or German 'Bach' — friction, not a stop.",
+        "ġ (ग़): the voiced version of x, close to a French or German r.",
+        "If unsure, say z and f properly and k/kh/g for the others — you'll be understood everywhere."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "राज",
+            "roman": "rāj",
+            "en": "rule, reign"
+          },
+          "b": {
+            "native": "राज़",
+            "roman": "rāz",
+            "en": "secret"
+          }
+        },
+        {
+          "a": {
+            "native": "सजा",
+            "roman": "sajā",
+            "en": "decorated"
+          },
+          "b": {
+            "native": "सज़ा",
+            "roman": "sazā",
+            "en": "punishment"
+          }
+        },
+        {
+          "a": {
+            "native": "जरा",
+            "roman": "jarā",
+            "en": "old age (literary)"
+          },
+          "b": {
+            "native": "ज़रा",
+            "roman": "zarā",
+            "en": "a little; just"
+          }
+        },
+        {
+          "a": {
+            "native": "फन",
+            "roman": "phan",
+            "en": "cobra's hood"
+          },
+          "b": {
+            "native": "फ़न",
+            "roman": "fan",
+            "en": "art, skill"
+          }
+        },
+        {
+          "a": {
+            "native": "खाना",
+            "roman": "khānā",
+            "en": "food; to eat"
+          },
+          "b": {
+            "native": "ख़ाना",
+            "roman": "xānā",
+            "en": "compartment, box"
+          }
+        },
+        {
+          "a": {
+            "native": "कमर",
+            "roman": "kamar",
+            "en": "waist"
+          },
+          "b": {
+            "native": "क़मर",
+            "roman": "qamar",
+            "en": "moon (poetic)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "ज़रूर",
+          "roman": "zarūr",
+          "en": "certainly"
+        },
+        {
+          "native": "ख़ुश",
+          "roman": "xush",
+          "en": "happy"
+        },
+        {
+          "native": "ग़लत",
+          "roman": "ġalat",
+          "en": "wrong"
+        },
+        {
+          "native": "क़ीमत",
+          "roman": "qīmat",
+          "en": "price"
+        },
+        {
+          "native": "फ़िल्म",
+          "roman": "film",
+          "en": "film"
+        },
+        {
+          "native": "ज़्यादा",
+          "roman": "zyādā",
+          "en": "more, too much"
+        },
+        {
+          "native": "बाज़ार",
+          "roman": "bāzār",
+          "en": "market"
+        }
+      ]
+    },
+    {
+      "id": "r-and-v",
+      "title": "The tapped र and the v/w sound of व",
+      "body": "**र** is a single quick tap of the tongue tip on the ridge behind the teeth — the sound in Spanish *pero*, or the 'tt' in American 'better'. It is always pronounced, even at the end of a word or before a consonant (घर *ghar*, गर्म *garm*, कार्ड *kārḍ*). Avoid the English r with its curled, rounded quality, and don't drop it like in British 'car'. In emphatic speech it may be lightly trilled.\n\n**व** sits between English v and w. The lower lip comes close to the upper teeth but lightly, without buzzing. Hindi speakers don't hear a difference between v and w, so वह, विकेट 'wicket', वेबसाइट 'website' all use व. After a consonant it sounds more like w: स्वाद *svād* 'taste' ≈ 'swaad', क्वार्टर 'quarter'.",
+      "tips": [
+        "Practise र by saying 'pot of tea' fast in an American accent — the 't' of 'pot of' is close to र.",
+        "Always pronounce r at word end: पर par, और aur, घर ghar.",
+        "For व, rest the lower lip very lightly near the teeth; a soft v or a w are both fine.",
+        "Don't round the lips strongly for व — it is not as 'oo'-like as English w."
+      ],
+      "drill": [
+        {
+          "native": "घर",
+          "roman": "ghar",
+          "en": "home"
+        },
+        {
+          "native": "बराबर",
+          "roman": "barābar",
+          "en": "equal"
+        },
+        {
+          "native": "गर्मी",
+          "roman": "garmī",
+          "en": "heat, summer"
+        },
+        {
+          "native": "रविवार",
+          "roman": "ravivār",
+          "en": "Sunday"
+        },
+        {
+          "native": "वापस",
+          "roman": "vāpas",
+          "en": "back (return)"
+        },
+        {
+          "native": "स्वाद",
+          "roman": "svād",
+          "en": "taste"
+        },
+        {
+          "native": "दरवाज़ा",
+          "roman": "darvāzā",
+          "en": "door"
+        }
+      ]
+    },
+    {
+      "id": "spelling-surprises",
+      "title": "Spelling vs speech: words that sound different",
+      "body": "A handful of very common words are not pronounced the way they are spelt, and you will hear them hundreds of times a day.\n\n**यह / वह** ('this', 'that/he/she') are written with -ah but said **ye** and **vo** in normal speech — so often that informal writing spells them ये and वो. Their plurals ये and वे are also commonly said *ye* and *vo*.\n\n**Short a + ह**: before or after h, short *a* sounds like the *e* of 'bet': कहना ≈ 'kehnā', पहला ≈ 'pehlā', बहन ≈ 'behen', रहना ≈ 'rehnā', छह ≈ 'chhe'. And **a + h + u** sounds like 'au': बहुत ≈ 'bohot'.\n\n**Sanskrit spellings**: ज्ञ is said *gy* (ज्ञान *gyān*), ऋ is *ri* (कृपया *kripayā*), ष is just *sh*, ण is often just *n*. Final -य after a consonant is weak (सत्य *satya*).",
+      "tips": [
+        "Say ये ye and वो vo in conversation; read यह/वह aloud as yah/vah only in formal settings.",
+        "Let short a near h drift toward e: रहता ≈ 'rehtā'.",
+        "बहुत is 'bohot' in most people's mouths; 'bahut' is fine too.",
+        "Don't pronounce the letters of ज्ञ literally — just 'gy'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "यह",
+            "roman": "yah",
+            "en": "this (written form)"
+          },
+          "b": {
+            "native": "ये",
+            "roman": "ye",
+            "en": "this/these (as spoken)"
+          },
+          "note": "same word in practice; ये is the spoken and informal spelling"
+        },
+        {
+          "a": {
+            "native": "वह",
+            "roman": "vah",
+            "en": "that, he, she (written)"
+          },
+          "b": {
+            "native": "वो",
+            "roman": "vo",
+            "en": "that, he, she (as spoken)"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "कहना",
+          "roman": "kahnā",
+          "en": "to say (≈ kehnā)"
+        },
+        {
+          "native": "पहला",
+          "roman": "pahlā",
+          "en": "first (≈ pehlā)"
+        },
+        {
+          "native": "बहन",
+          "roman": "bahan",
+          "en": "sister (≈ behen)"
+        },
+        {
+          "native": "बहुत",
+          "roman": "bahut",
+          "en": "very (≈ bohot)"
+        },
+        {
+          "native": "ज्ञान",
+          "roman": "gyān",
+          "en": "knowledge"
+        },
+        {
+          "native": "कृपया",
+          "roman": "kripayā",
+          "en": "please (formal)"
+        },
+        {
+          "native": "छह",
+          "roman": "chhah",
+          "en": "six (≈ chhe)"
+        }
+      ]
+    },
+    {
+      "id": "stress-intonation",
+      "title": "Rhythm, stress and question intonation",
+      "body": "Hindi stress is light compared with English. Every syllable keeps its full vowel — don't swallow unstressed vowels into 'uh' the English way. Roughly, the stress falls on the **heaviest** syllable (one with a long vowel or ending in a consonant), counting from the end: ka-**mīz**, **ād**-mī, **kam**-rā. If unsure, keep syllables even.\n\n**Yes/no questions** usually have the same words as statements; only the intonation changes, with a rise at the end: आप ठीक हैं। *āp ṭhīk haiṃ.* 'You're fine.' → आप ठीक हैं? *āp ṭhīk haiṃ?* 'Are you fine?' Adding क्या at the start makes it explicit: क्या आप ठीक हैं?\n\n**Question-word questions** (कहाँ, क्या, कब…) fall at the end, and the question word itself carries the emphasis. In Hindi, emphasis is often shown by word order and by little particles like **ही** *hī* 'only, exactly' and **भी** *bhī* 'also, even' rather than by loudness.",
+      "tips": [
+        "Don't reduce vowels: बनाना is ba-nā-nā, all three vowels clear.",
+        "For a yes/no question, raise your pitch on the last word: …हैं↗?",
+        "For कहाँ / क्या / कब questions, put the high pitch on the question word and fall at the end.",
+        "Use ही and भी for emphasis: मैं ही 'I myself', मैं भी 'me too'."
+      ],
+      "pairs": [
+        {
+          "a": {
+            "native": "आप ठीक हैं।",
+            "roman": "āp ṭhīk haiṃ.",
+            "en": "You're fine. (statement, falling)"
+          },
+          "b": {
+            "native": "आप ठीक हैं?",
+            "roman": "āp ṭhīk haiṃ?",
+            "en": "Are you fine? (rising)"
+          }
+        },
+        {
+          "a": {
+            "native": "वह घर पर है।",
+            "roman": "vah ghar par hai.",
+            "en": "He is at home."
+          },
+          "b": {
+            "native": "वह घर पर है?",
+            "roman": "vah ghar par hai?",
+            "en": "Is he at home?"
+          }
+        },
+        {
+          "a": {
+            "native": "मैं भी",
+            "roman": "maiṃ bhī",
+            "en": "me too"
+          },
+          "b": {
+            "native": "मैं ही",
+            "roman": "maiṃ hī",
+            "en": "only me / I myself"
+          }
+        }
+      ],
+      "drill": [
+        {
+          "native": "क्या आप चाय पिएँगे?",
+          "roman": "kyā āp chāy piyeṃge?",
+          "en": "Will you have tea? (rise at end)"
+        },
+        {
+          "native": "आप कहाँ जा रहे हैं?",
+          "roman": "āp kahāṃ jā rahe haiṃ?",
+          "en": "Where are you going? (peak on kahāṃ)"
+        },
+        {
+          "native": "अच्छा?",
+          "roman": "achchhā?",
+          "en": "Really? (rising)"
+        },
+        {
+          "native": "अच्छा।",
+          "roman": "achchhā.",
+          "en": "OK. (falling)"
+        },
+        {
+          "native": "कमीज़",
+          "roman": "kamīz",
+          "en": "shirt (stress on mīz)"
+        },
+        {
+          "native": "मुझे भी चाहिए।",
+          "roman": "mujhe bhī chāhiye.",
+          "en": "I want some too."
+        }
+      ]
+    }
+  ],
+  "numbers": [
+    {
+      "n": 0,
+      "native": "शून्य",
+      "roman": "shūnya",
+      "digit": "०"
+    },
+    {
+      "n": 1,
+      "native": "एक",
+      "roman": "ek",
+      "digit": "१"
+    },
+    {
+      "n": 2,
+      "native": "दो",
+      "roman": "do",
+      "digit": "२"
+    },
+    {
+      "n": 3,
+      "native": "तीन",
+      "roman": "tīn",
+      "digit": "३"
+    },
+    {
+      "n": 4,
+      "native": "चार",
+      "roman": "chār",
+      "digit": "४"
+    },
+    {
+      "n": 5,
+      "native": "पाँच",
+      "roman": "pāṃch",
+      "digit": "५"
+    },
+    {
+      "n": 6,
+      "native": "छह",
+      "roman": "chhah",
+      "digit": "६",
+      "note": "pronounced 'chhe'; also written छः"
+    },
+    {
+      "n": 7,
+      "native": "सात",
+      "roman": "sāt",
+      "digit": "७"
+    },
+    {
+      "n": 8,
+      "native": "आठ",
+      "roman": "āṭh",
+      "digit": "८"
+    },
+    {
+      "n": 9,
+      "native": "नौ",
+      "roman": "nau",
+      "digit": "९"
+    },
+    {
+      "n": 10,
+      "native": "दस",
+      "roman": "das",
+      "digit": "१०"
+    },
+    {
+      "n": 11,
+      "native": "ग्यारह",
+      "roman": "gyārah",
+      "digit": "११"
+    },
+    {
+      "n": 12,
+      "native": "बारह",
+      "roman": "bārah",
+      "digit": "१२"
+    },
+    {
+      "n": 13,
+      "native": "तेरह",
+      "roman": "terah",
+      "digit": "१३"
+    },
+    {
+      "n": 14,
+      "native": "चौदह",
+      "roman": "chaudah",
+      "digit": "१४"
+    },
+    {
+      "n": 15,
+      "native": "पंद्रह",
+      "roman": "pandrah",
+      "digit": "१५"
+    },
+    {
+      "n": 16,
+      "native": "सोलह",
+      "roman": "solah",
+      "digit": "१६"
+    },
+    {
+      "n": 17,
+      "native": "सत्रह",
+      "roman": "satrah",
+      "digit": "१७"
+    },
+    {
+      "n": 18,
+      "native": "अठारह",
+      "roman": "aṭhārah",
+      "digit": "१८"
+    },
+    {
+      "n": 19,
+      "native": "उन्नीस",
+      "roman": "unnīs",
+      "digit": "१९"
+    },
+    {
+      "n": 20,
+      "native": "बीस",
+      "roman": "bīs",
+      "digit": "२०"
+    },
+    {
+      "n": 21,
+      "native": "इक्कीस",
+      "roman": "ikkīs",
+      "digit": "२१"
+    },
+    {
+      "n": 22,
+      "native": "बाईस",
+      "roman": "bāīs",
+      "digit": "२२"
+    },
+    {
+      "n": 23,
+      "native": "तेईस",
+      "roman": "teīs",
+      "digit": "२३"
+    },
+    {
+      "n": 24,
+      "native": "चौबीस",
+      "roman": "chaubīs",
+      "digit": "२४"
+    },
+    {
+      "n": 25,
+      "native": "पच्चीस",
+      "roman": "pachchīs",
+      "digit": "२५"
+    },
+    {
+      "n": 26,
+      "native": "छब्बीस",
+      "roman": "chhabbīs",
+      "digit": "२६"
+    },
+    {
+      "n": 27,
+      "native": "सत्ताईस",
+      "roman": "sattāīs",
+      "digit": "२७"
+    },
+    {
+      "n": 28,
+      "native": "अट्ठाईस",
+      "roman": "aṭṭhāīs",
+      "digit": "२८"
+    },
+    {
+      "n": 29,
+      "native": "उनतीस",
+      "roman": "untīs",
+      "digit": "२९"
+    },
+    {
+      "n": 30,
+      "native": "तीस",
+      "roman": "tīs",
+      "digit": "३०"
+    },
+    {
+      "n": 31,
+      "native": "इकतीस",
+      "roman": "iktīs",
+      "digit": "३१"
+    },
+    {
+      "n": 32,
+      "native": "बत्तीस",
+      "roman": "battīs",
+      "digit": "३२"
+    },
+    {
+      "n": 33,
+      "native": "तैंतीस",
+      "roman": "taiṃtīs",
+      "digit": "३३"
+    },
+    {
+      "n": 34,
+      "native": "चौंतीस",
+      "roman": "chauṃtīs",
+      "digit": "३४"
+    },
+    {
+      "n": 35,
+      "native": "पैंतीस",
+      "roman": "paiṃtīs",
+      "digit": "३५"
+    },
+    {
+      "n": 36,
+      "native": "छत्तीस",
+      "roman": "chhattīs",
+      "digit": "३६"
+    },
+    {
+      "n": 37,
+      "native": "सैंतीस",
+      "roman": "saiṃtīs",
+      "digit": "३७"
+    },
+    {
+      "n": 38,
+      "native": "अड़तीस",
+      "roman": "aṛtīs",
+      "digit": "३८"
+    },
+    {
+      "n": 39,
+      "native": "उनतालीस",
+      "roman": "untālīs",
+      "digit": "३९"
+    },
+    {
+      "n": 40,
+      "native": "चालीस",
+      "roman": "chālīs",
+      "digit": "४०"
+    },
+    {
+      "n": 41,
+      "native": "इकतालीस",
+      "roman": "iktālīs",
+      "digit": "४१"
+    },
+    {
+      "n": 42,
+      "native": "बयालीस",
+      "roman": "bayālīs",
+      "digit": "४२"
+    },
+    {
+      "n": 43,
+      "native": "तैंतालीस",
+      "roman": "taiṃtālīs",
+      "digit": "४३"
+    },
+    {
+      "n": 44,
+      "native": "चवालीस",
+      "roman": "chavālīs",
+      "digit": "४४",
+      "note": "also चौवालीस chauvālīs"
+    },
+    {
+      "n": 45,
+      "native": "पैंतालीस",
+      "roman": "paiṃtālīs",
+      "digit": "४५"
+    },
+    {
+      "n": 46,
+      "native": "छियालीस",
+      "roman": "chhiyālīs",
+      "digit": "४६"
+    },
+    {
+      "n": 47,
+      "native": "सैंतालीस",
+      "roman": "saiṃtālīs",
+      "digit": "४७"
+    },
+    {
+      "n": 48,
+      "native": "अड़तालीस",
+      "roman": "aṛtālīs",
+      "digit": "४८"
+    },
+    {
+      "n": 49,
+      "native": "उनचास",
+      "roman": "unchās",
+      "digit": "४९"
+    },
+    {
+      "n": 50,
+      "native": "पचास",
+      "roman": "pachās",
+      "digit": "५०"
+    },
+    {
+      "n": 51,
+      "native": "इक्यावन",
+      "roman": "ikyāvan",
+      "digit": "५१"
+    },
+    {
+      "n": 52,
+      "native": "बावन",
+      "roman": "bāvan",
+      "digit": "५२"
+    },
+    {
+      "n": 53,
+      "native": "तिरपन",
+      "roman": "tirpan",
+      "digit": "५३"
+    },
+    {
+      "n": 54,
+      "native": "चौवन",
+      "roman": "chauvan",
+      "digit": "५४"
+    },
+    {
+      "n": 55,
+      "native": "पचपन",
+      "roman": "pachpan",
+      "digit": "५५"
+    },
+    {
+      "n": 56,
+      "native": "छप्पन",
+      "roman": "chhappan",
+      "digit": "५६"
+    },
+    {
+      "n": 57,
+      "native": "सत्तावन",
+      "roman": "sattāvan",
+      "digit": "५७"
+    },
+    {
+      "n": 58,
+      "native": "अट्ठावन",
+      "roman": "aṭṭhāvan",
+      "digit": "५८"
+    },
+    {
+      "n": 59,
+      "native": "उनसठ",
+      "roman": "unsaṭh",
+      "digit": "५९"
+    },
+    {
+      "n": 60,
+      "native": "साठ",
+      "roman": "sāṭh",
+      "digit": "६०"
+    },
+    {
+      "n": 61,
+      "native": "इकसठ",
+      "roman": "iksaṭh",
+      "digit": "६१"
+    },
+    {
+      "n": 62,
+      "native": "बासठ",
+      "roman": "bāsaṭh",
+      "digit": "६२"
+    },
+    {
+      "n": 63,
+      "native": "तिरसठ",
+      "roman": "tirsaṭh",
+      "digit": "६३"
+    },
+    {
+      "n": 64,
+      "native": "चौंसठ",
+      "roman": "chauṃsaṭh",
+      "digit": "६४"
+    },
+    {
+      "n": 65,
+      "native": "पैंसठ",
+      "roman": "paiṃsaṭh",
+      "digit": "६५"
+    },
+    {
+      "n": 66,
+      "native": "छियासठ",
+      "roman": "chhiyāsaṭh",
+      "digit": "६६"
+    },
+    {
+      "n": 67,
+      "native": "सड़सठ",
+      "roman": "saṛsaṭh",
+      "digit": "६७"
+    },
+    {
+      "n": 68,
+      "native": "अड़सठ",
+      "roman": "aṛsaṭh",
+      "digit": "६८"
+    },
+    {
+      "n": 69,
+      "native": "उनहत्तर",
+      "roman": "unhattar",
+      "digit": "६९"
+    },
+    {
+      "n": 70,
+      "native": "सत्तर",
+      "roman": "sattar",
+      "digit": "७०"
+    },
+    {
+      "n": 71,
+      "native": "इकहत्तर",
+      "roman": "ik-hattar",
+      "digit": "७१"
+    },
+    {
+      "n": 72,
+      "native": "बहत्तर",
+      "roman": "bahattar",
+      "digit": "७२"
+    },
+    {
+      "n": 73,
+      "native": "तिहत्तर",
+      "roman": "tihattar",
+      "digit": "७३"
+    },
+    {
+      "n": 74,
+      "native": "चौहत्तर",
+      "roman": "chauhattar",
+      "digit": "७४"
+    },
+    {
+      "n": 75,
+      "native": "पचहत्तर",
+      "roman": "pach-hattar",
+      "digit": "७५"
+    },
+    {
+      "n": 76,
+      "native": "छिहत्तर",
+      "roman": "chhihattar",
+      "digit": "७६"
+    },
+    {
+      "n": 77,
+      "native": "सतहत्तर",
+      "roman": "sat-hattar",
+      "digit": "७७"
+    },
+    {
+      "n": 78,
+      "native": "अठहत्तर",
+      "roman": "aṭh-hattar",
+      "digit": "७८"
+    },
+    {
+      "n": 79,
+      "native": "उनासी",
+      "roman": "unāsī",
+      "digit": "७९"
+    },
+    {
+      "n": 80,
+      "native": "अस्सी",
+      "roman": "assī",
+      "digit": "८०"
+    },
+    {
+      "n": 81,
+      "native": "इक्यासी",
+      "roman": "ikyāsī",
+      "digit": "८१"
+    },
+    {
+      "n": 82,
+      "native": "बयासी",
+      "roman": "bayāsī",
+      "digit": "८२"
+    },
+    {
+      "n": 83,
+      "native": "तिरासी",
+      "roman": "tirāsī",
+      "digit": "८३"
+    },
+    {
+      "n": 84,
+      "native": "चौरासी",
+      "roman": "chaurāsī",
+      "digit": "८४"
+    },
+    {
+      "n": 85,
+      "native": "पचासी",
+      "roman": "pachāsī",
+      "digit": "८५"
+    },
+    {
+      "n": 86,
+      "native": "छियासी",
+      "roman": "chhiyāsī",
+      "digit": "८६"
+    },
+    {
+      "n": 87,
+      "native": "सत्तासी",
+      "roman": "sattāsī",
+      "digit": "८७"
+    },
+    {
+      "n": 88,
+      "native": "अट्ठासी",
+      "roman": "aṭṭhāsī",
+      "digit": "८८"
+    },
+    {
+      "n": 89,
+      "native": "नवासी",
+      "roman": "navāsī",
+      "digit": "८९"
+    },
+    {
+      "n": 90,
+      "native": "नब्बे",
+      "roman": "nabbe",
+      "digit": "९०"
+    },
+    {
+      "n": 91,
+      "native": "इक्यानवे",
+      "roman": "ikyānave",
+      "digit": "९१"
+    },
+    {
+      "n": 92,
+      "native": "बानवे",
+      "roman": "bānave",
+      "digit": "९२"
+    },
+    {
+      "n": 93,
+      "native": "तिरानवे",
+      "roman": "tirānave",
+      "digit": "९३"
+    },
+    {
+      "n": 94,
+      "native": "चौरानवे",
+      "roman": "chaurānave",
+      "digit": "९४"
+    },
+    {
+      "n": 95,
+      "native": "पचानवे",
+      "roman": "pachānave",
+      "digit": "९५"
+    },
+    {
+      "n": 96,
+      "native": "छियानवे",
+      "roman": "chhiyānave",
+      "digit": "९६"
+    },
+    {
+      "n": 97,
+      "native": "सत्तानवे",
+      "roman": "sattānave",
+      "digit": "९७"
+    },
+    {
+      "n": 98,
+      "native": "अट्ठानवे",
+      "roman": "aṭṭhānave",
+      "digit": "९८"
+    },
+    {
+      "n": 99,
+      "native": "निन्यानवे",
+      "roman": "ninyānave",
+      "digit": "९९"
+    },
+    {
+      "n": 100,
+      "native": "सौ",
+      "roman": "sau",
+      "digit": "१००",
+      "note": "also एक सौ ek sau"
+    },
+    {
+      "n": 200,
+      "native": "दो सौ",
+      "roman": "do sau",
+      "digit": "२००"
+    },
+    {
+      "n": 500,
+      "native": "पाँच सौ",
+      "roman": "pāṃch sau",
+      "digit": "५००"
+    },
+    {
+      "n": 1000,
+      "native": "एक हज़ार",
+      "roman": "ek hazār",
+      "digit": "१,०००"
+    },
+    {
+      "n": 100000,
+      "native": "एक लाख",
+      "roman": "ek lākh",
+      "digit": "१,००,०००",
+      "note": "written 1,00,000 in India"
+    },
+    {
+      "n": 1000000,
+      "native": "दस लाख",
+      "roman": "das lākh",
+      "digit": "१०,००,०००",
+      "note": "one million = 10,00,000"
+    },
+    {
+      "n": 10000000,
+      "native": "एक करोड़",
+      "roman": "ek karoṛ",
+      "digit": "१,००,००,०००",
+      "note": "written 1,00,00,000; = 100 lakh"
+    }
+  ]
+}
