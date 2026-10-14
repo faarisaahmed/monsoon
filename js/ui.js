@@ -152,6 +152,7 @@ export function similarity(a, b) {
 export function toast(msg, ms = 2600) {
   let box = $('#toasts');
   if (!box) document.body.appendChild((box = h('div#toasts', { role: 'status', 'aria-live': 'polite' })));
+  if ([...box.children].some((t) => t.textContent === msg && !t.classList.contains('out'))) return; // don't stack repeats
   const t = h('div.toast', msg);
   box.appendChild(t);
   setTimeout(() => t.classList.add('out'), ms);

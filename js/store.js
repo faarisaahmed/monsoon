@@ -67,6 +67,7 @@ export async function signup(username, password, displayNameStr, { keepGuest = t
   if (String(password).length < 6) throw new Error('Password must be at least 6 characters.');
   const all = accounts();
   if (all[u]) throw new Error('That username is already taken on this device.');
+  flush();
   const ph = await hashPassword(password);
   all[u] = { ...ph, displayName: (displayNameStr || '').trim() || username.trim(), created: Date.now() };
   writeJSON(K.accounts, all);
@@ -91,6 +92,7 @@ export async function login(username, password, remember = true) {
 }
 
 function setSession(u, remember) {
+  flush();
   localStorage.removeItem(K.session);
   sessionStorage.removeItem(K.session);
   if (u !== GUEST) (remember ? localStorage : sessionStorage).setItem(K.session, u);
@@ -128,6 +130,7 @@ export function deleteAccount() {
   const all = accounts();
   delete all[u];
   writeJSON(K.accounts, all);
+  cache = null; // don't let a pending save write it back
   localStorage.removeItem(K.data(u));
   logout();
 }
@@ -156,9 +159,14 @@ function data() {
 let saveTimer = null;
 function save() {
   clearTimeout(saveTimer);
-  saveTimer = setTimeout(() => writeJSON(K.data(currentUser()), cache), 150);
+  saveTimer = setTimeout(flush, 150);
 }
-window.addEventListener('pagehide', () => cache && writeJSON(K.data(currentUser()), cache));
+// Write pending changes now (before switching account, or when the page goes away).
+function flush() {
+  clearTimeout(saveTimer);
+  if (cache) writeJSON(K.data(currentUser()), cache);
+}
+window.addEventListener('pagehide', flush);
 
 export const settings = () => data().settings;
 export function setSetting(k, v) {
@@ -175,10 +183,11 @@ export function lang(code) {
 export const startedLangs = () => Object.keys(data().langs);
 export const hasLang = (code) => !!data().langs[code];
 
+// Remember where you were — without counting a language as started just because you looked at it.
 export function touch(code, where) {
-  const l = lang(code);
-  l.last = { where, at: Date.now() };
-  data().lastLang = code;
+  const d = data();
+  if (d.langs[code]) d.langs[code].last = { where, at: Date.now() };
+  d.lastLang = code;
   save();
 }
 export const lastLang = () => data().lastLang;
@@ -298,9 +307,11 @@ export function exportData() {
   };
 }
 
+export const isProgressFile = (obj) => !!(obj && obj.app === 'boli' && obj.data);
+
 // Import into the current account (merging), or create the account from the file if signed out.
 export function importData(obj, { replace = false } = {}) {
-  if (!obj || obj.app !== 'boli' || !obj.data) throw new Error('This is not a Boli progress file.');
+  if (!isProgressFile(obj)) throw new Error('This is not a Boli progress file.');
   let u = currentUser();
   if (u === GUEST && obj.account?.username) {
     const all = accounts();
@@ -309,6 +320,9 @@ export function importData(obj, { replace = false } = {}) {
       all[name] = { ...obj.account };
       delete all[name].username;
       writeJSON(K.accounts, all);
+    } else if (all[name].hash !== obj.account.hash) {
+      // Same username, different account: never sign in without its password.
+      throw new Error(`An account named "${name}" already exists on this device. Sign in to it first, then import.`);
     }
     u = name;
     setSession(u, true);

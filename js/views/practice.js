@@ -5,6 +5,7 @@ import { ICONS } from '../components.js';
 import { canSpeak, canRecognize, canRecord } from '../audio.js';
 import { runSession, Q, mixedQuestions } from '../session.js';
 import { crumbs } from './shared.js';
+import { notFound } from './lang.js';
 
 const MODES = [
   { id: 'mixed', icon: 'refresh', title: 'Mixed practice', desc: 'A bit of everything from what you have learned.' },
@@ -159,7 +160,7 @@ export async function practiceMode({ code, L, params, query }) {
     onExit: exit,
     retry: (missed) => runSession(root, { code, questions: mixedQuestions(missed, all, { n: missed.length, kinds: ['meaning', 'recall', 'listen'] }), onExit: exit }),
     record: !['letters', 'writing', 'reading-words', 'numbers'].includes(mode),
-    emptyText: 'Not enough material yet — learn a few words in the Course first.',
+    emptyText: meta.audio && !canSpeak(L.tts) ? `No ${L.name} voice is available on this device, so this exercise can't run. See Settings → Audio.` : 'Not enough material yet — learn a few words in the Course first.',
   });
   return wrap;
 }
@@ -186,9 +187,11 @@ export async function learnView({ code, L, params }) {
   const part = params[2] === 'phrases' ? 'phrases' : 'words';
   const [units] = await Promise.all([data.allUnits(code)]);
   const u = units[n - 1];
+  if (!u) return notFound(code, 'That unit does not exist.');
   const all = units.flatMap((x) => data.unitItems(code, x));
   const items = data.unitItems(code, u).filter((i) => i.kind === (part === 'words' ? 'word' : 'phrase'));
-  const fresh = items.filter((i) => !store.card(code, i.key));
+  // words first met as a miss in a quiz still get a proper introduction
+  const fresh = items.filter((i) => !store.card(code, i.key) || store.card(code, i.key).unseen);
   const per = store.settings().newPerSession;
   const root = h('div');
   const back = () => go(`/l/${code}/u/${n}?t=${part}`);

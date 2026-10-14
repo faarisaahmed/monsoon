@@ -154,6 +154,7 @@ function suggestNext(code, c, units, { st, seenLetters, letters }) {
 // ---------- unit ----------
 export async function unitView({ code, L, params, query }) {
   const n = parseInt(params[1], 10);
+  if (!(n >= 1 && n <= L.units)) return notFound(code, 'That unit does not exist.');
   const [c, u] = await Promise.all([data.course(code), data.unit(code, n)]);
   const tab = query.get('t') || 'words';
   const pane = h('div');
@@ -275,7 +276,7 @@ export function dialogueBlock(d) {
     h(
       'div.line',
       h('div.speaker', l.speaker || ''),
-      h('div', nt(l.native), h('div.roman' + (showRoman ? '' : '.hide'), l.roman), h('div.en.small' + (showEn ? '' : '.hide'), l.en)),
+      h('div', nt(l.native), h('div.roman' + (showRoman ? '' : '.hide'), store.settings().roman === 'tap' ? rm(l.roman) : l.roman), h('div.en.small' + (showEn ? '' : '.hide'), l.en)),
       audioBtn(l.native, { size: 'sm' }),
     ),
   );
@@ -527,6 +528,7 @@ export async function readingView({ code, L, query }) {
   const sel = parseInt(query.get('u') || '0', 10);
   if (sel) {
     const u = units[sel - 1];
+    if (!u) return notFound(code, 'That reading does not exist.');
     return h(
       'div',
       { 'data-title': u.dialogue.title },
@@ -598,7 +600,7 @@ export async function numbersView({ code, L }) {
     'div',
     { 'data-title': 'Numbers' },
     crumbs([L.name, `#/l/${code}`], ['Numbers']),
-    h('div.row.between', h('h1', { style: { margin: 0 } }, 'Numbers'), h('a.btn.primary', { href: `#/l/${code}/practice/numbers` }, 'Listening practice')),
+    h('div.row.between', h('h1', { style: { margin: 0 } }, 'Numbers'), canSpeak(L.tts) ? h('a.btn.primary', { href: `#/l/${code}/practice/numbers` }, 'Listening practice') : null),
     h('p.muted', { style: { maxWidth: '64ch' } }, 'Tap any number to hear it. Numbers up to 100 are worth learning in chunks of ten — many are irregular, so there is no shortcut, but you will hear them constantly (prices, times, phone numbers).'),
     h(
       'div.num-table',
@@ -638,3 +640,5 @@ export async function glossaryView({ code, L, query }) {
   return h('div', { 'data-title': 'Glossary' }, crumbs([L.name, `#/l/${code}`], ['Reference', `#/l/${code}/reference`], ['Glossary']), h('h1', 'Glossary'), h('div.row', { style: { flexWrap: 'nowrap' } }, input, kind), count, out);
 }
 
+
+export const notFound = (code, msg) => h('div.empty', h('h2', 'Not found'), h('p', msg), h('a.btn', { href: `#/l/${code}` }, 'Back to the course'));

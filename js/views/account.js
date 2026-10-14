@@ -96,6 +96,20 @@ export async function accountView() {
   };
 
   // ----- profile
+  const pwForm = guest
+    ? null
+    : form(
+        [
+          field('Current password', h('input', { type: 'password', name: 'old', autocomplete: 'current-password', required: true })),
+          field('New password', h('input', { type: 'password', name: 'new', autocomplete: 'new-password', required: true, minlength: 6 })),
+        ],
+        'Change password',
+        async (v) => {
+          await store.changePassword(v.old, v.new);
+          pwForm.reset();
+          toast('Password changed.');
+        },
+      );
   const profile = guest
     ? h(
         'div.card',
@@ -116,19 +130,10 @@ export async function accountView() {
             form([field('Display name', h('input', { type: 'text', name: 'name', value: store.displayName() }))], 'Save name', async (v) => {
               store.renameDisplay(v.name);
               toast('Saved.');
+              go('/account?keep=1&t=' + Date.now());
             }),
             h('hr'),
-            form(
-              [
-                field('Current password', h('input', { type: 'password', name: 'old', autocomplete: 'current-password', required: true })),
-                field('New password', h('input', { type: 'password', name: 'new', autocomplete: 'new-password', required: true, minlength: 6 })),
-              ],
-              'Change password',
-              async (v) => {
-                await store.changePassword(v.old, v.new);
-                toast('Password changed.');
-              },
-            ),
+            pwForm,
           ),
         ),
       );
@@ -166,7 +171,7 @@ export async function accountView() {
                         onclick: async () => {
                           if (await modal(`Reset ${l.name}?`, `This deletes all ${l.name} progress for this account. It cannot be undone.`, [{ label: 'Cancel', value: false }, { label: 'Reset', value: true, danger: true }])) {
                             store.resetLanguage(l.code);
-                            go('/account?keep=1');
+                            go('/account?keep=1&t=' + Date.now());
                           }
                         },
                       },
@@ -232,7 +237,11 @@ export async function accountView() {
     const f = fileInput.files[0];
     if (!f) return;
     try {
-      const obj = JSON.parse(await f.text());
+      let obj = null;
+      try {
+        obj = JSON.parse(await f.text());
+      } catch {}
+      if (!store.isProgressFile(obj)) throw new Error('This is not a Boli progress file.');
       const replace = await modal('Import progress', 'Merge the file with what is already here (keeps the most recent review of each item), or replace everything?', [
         { label: 'Cancel', value: null },
         { label: 'Replace', value: 'replace', danger: true },
@@ -244,8 +253,9 @@ export async function accountView() {
       go('/account?keep=1&t=' + Date.now());
     } catch (e) {
       toast(e.message);
+    } finally {
+      fileInput.value = ''; // so picking the same file again still fires 'change'
     }
-    fileInput.value = '';
   };
   const dataCard = h(
     'div.card#data',

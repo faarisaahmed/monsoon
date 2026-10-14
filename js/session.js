@@ -67,7 +67,7 @@ export const Q = {
 export function runSession(root, opts) {
   const L = ctx.lang;
   const qs = opts.questions.filter((q) => {
-    if (q.type === 'listen' || q.from === 'audio' || q.mode === 'audio2roman' || q.type === 'pair') return canSpeak(L.tts);
+    if (q.type === 'listen' || q.from === 'audio' || q.mode === 'audio2roman' || q.type === 'pair' || q.type === 'number') return canSpeak(L.tts);
     if (q.type === 'speak') return canRecognize() || canRecord();
     return true;
   });
@@ -111,9 +111,11 @@ export function runSession(root, opts) {
       store.ensureCard(opts.code, key, cardMeta(q.item));
       store.review(opts.code, key, grade);
     } else if (opts.learn) {
-      store.ensureCard(opts.code, key, cardMeta(q.item));
-    } else if (c && !correct) {
-      c.due = Math.min(c.due, Date.now());
+      delete store.ensureCard(opts.code, key, cardMeta(q.item)).unseen;
+    } else if (!correct) {
+      // a miss goes (back) to the front of the review queue
+      const missed = store.ensureCard(opts.code, key, { ...cardMeta(q.item), unseen: !c });
+      missed.due = Math.min(missed.due, Date.now());
     } else if (c && correct && c.due <= Date.now()) {
       store.review(opts.code, key, 2);
     }
@@ -225,7 +227,7 @@ export function runSession(root, opts) {
       spellcheck: false,
       dir: q.mode === 'en2native' && L.dir === 'rtl' ? 'rtl' : 'auto',
       lang: q.mode === 'en2native' ? L.code : 'en',
-      placeholder: q.mode === 'en2native' ? 'Type here (use the keys below or your own keyboard)' : 'Type here…  (accents optional)',
+      placeholder: q.mode === 'en2native' ? 'Type here' : 'Type here…  (accents optional)',
     });
     const submit = h('button.btn.primary.block', { style: { marginTop: '12px' } }, 'Check');
     const skip = h('button.btn.ghost.small', { style: { marginTop: '8px' } }, "I don't know");
@@ -316,7 +318,7 @@ export function runSession(root, opts) {
     const mic = h('button.icon-btn.lg', { title: 'Speak', 'aria-label': 'Speak', html: ICONS.mic });
     const playback = h('div.row', { style: { justifyContent: 'center' } });
     let attempts = 0;
-    const cont = h('button.btn.ghost.small', { onclick: () => (record(q, attempts > 0), next()) }, 'Skip');
+    const cont = h('button.btn.ghost.small', { onclick: () => (record(q, false), next()) }, 'Skip');
     mic.onclick = async () => {
       if (mic.classList.contains('rec')) return;
       mic.classList.add('rec');
@@ -449,7 +451,12 @@ export function runSession(root, opts) {
     const go = h('button.btn.primary.block', { style: { marginTop: '16px' }, onclick: () => (record(q, true), next()) }, 'Got it ', h('kbd', 'enter'));
     add(body, card, go);
     setTimeout(() => go.focus(), 30);
-    setKeys(null);
+    setKeys((e) => {
+      if (e.key === 'Enter' && document.activeElement !== go) {
+        e.preventDefault();
+        go.click();
+      }
+    });
   }
 
   function renderPair(q) {
