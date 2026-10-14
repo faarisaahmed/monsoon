@@ -1,6 +1,6 @@
 // Monsoon — app shell: routing, top bar, activity tracking.
 
-import { h, fill, $, clear } from './ui.js';
+import { h, fill, $, clear, toast } from './ui.js';
 import * as store from './store.js';
 import * as data from './data.js';
 import { ctx } from './components.js';
@@ -170,5 +170,12 @@ applyTheme();
 render();
 
 if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  const hadController = !!navigator.serviceWorker.controller;
   navigator.serviceWorker.register('sw.js').catch(() => {});
+  // A new version was installed: reload to use it, unless you're in the middle of an exercise.
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadController) return;
+    if (/\/(practice\/|review|learn\/)|t=check/.test(location.hash)) return toast('Monsoon was updated — it will refresh next time you open it.');
+    location.reload();
+  });
 }
