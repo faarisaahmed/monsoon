@@ -109,19 +109,24 @@ function playUrl(url, rate) {
     player.src = url;
     player.playbackRate = rate;
     player.preservesPitch = true;
-    player.play().catch(() => resolve(false));
+    // NotAllowedError = the browser wants a tap before any sound; that's not a broken clip
+    player.play().catch((e) => resolve(e?.name === 'NotAllowedError' ? 'blocked' : false));
   });
 }
 
 // Speak text: recorded clip first, then a device voice, then the online voice.
-// Resolves true when something played (or was stopped on purpose), false when nothing could play.
+// Resolves true when something played (or was stopped on purpose), 'blocked' when the browser
+// needs a tap first, and false when nothing could play.
 export async function speak(text, tts, { rate } = {}) {
   stop();
   const my = gen;
   rate = rate ?? settings().rate ?? 0.9;
   const url = clipUrl(text, tts);
   // clips are recorded at a learner-friendly pace, so the default rate plays them as-is
-  if (url && (await playUrl(url, Math.min(1.4, Math.max(0.5, rate / 0.9))))) return true;
+  if (url) {
+    const r = await playUrl(url, Math.min(1.4, Math.max(0.5, rate / 0.9)));
+    if (r) return r;
+  }
   if (my !== gen) return true;
   const voice = pickVoice(tts);
   if (voice && synth) {

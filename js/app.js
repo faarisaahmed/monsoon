@@ -36,6 +36,8 @@ const routes = [
   [/^\/l\/(\w+)\/glossary$/, glossaryView, 'reference'],
 ];
 
+const DROP = '<svg viewBox="0 0 22 26" aria-hidden="true"><path d="M11 1.5C7 7.2 3 11.6 3 16.4A8 8 0 0 0 19 16.4C19 11.6 15 7.2 11 1.5Z" fill="currentColor"/><path d="M7.4 16.6a3.7 3.7 0 0 0 3.4 3.6" stroke="#fff" stroke-opacity=".55" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>';
+
 const SUBNAV = [
   ['home', 'Overview', ''],
   ['script', 'Script', '/script'],
@@ -117,7 +119,7 @@ function renderTop(L, section) {
   fill(top, 
     h(
       'div.topbar-in',
-      h('a.brand', { href: '#/' }, h('span.brand-mark', 'm'), 'Monsoon'),
+      h('a.brand', { href: '#/' }, h('span.brand-mark', { html: DROP }), 'Monsoon'),
       L ? h('a.lang-pill', { href: `#/l/${L.code}` }, h('span.nt', { lang: L.code }, L.native), ' · ', L.name) : null,
       h('div.spacer'),
       h('a.btn.ghost.small', { href: '#/', title: 'All languages' }, 'Languages'),

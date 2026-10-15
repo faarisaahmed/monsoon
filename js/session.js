@@ -28,9 +28,19 @@ const senses = (t) =>
     .split(/[;,/]| or /)
     .map((x) => x.replace(/^\s*(to|a|an|the)\s+/, '').replace(/[^\p{L}\p{N}' ]/gu, ' ').replace(/\s+/g, ' ').trim())
     .filter(Boolean);
+// Short glosses sharing a key word are near-synonyms too ("thank you" / "thanks").
+const STOP = new Set('the you your my our his her their its a an is are am was be been to of and or it this that that\'s these those i me we he she they with for in on at not no do does very'.split(' '));
+const stems = (x) => x.split(' ').filter((w) => w.length > 2 && !STOP.has(w)).map((w) => w.slice(0, 5));
 function overlaps(a, b) {
   const A = senses(a), B = senses(b);
-  return A.some((x) => B.some((y) => x === y || (x.length > 2 && y.length > 2 && (` ${x} `.includes(` ${y} `) || ` ${y} `.includes(` ${x} `)))));
+  return A.some((x) =>
+    B.some((y) => {
+      if (x === y || (x.length > 2 && y.length > 2 && (` ${x} `.includes(` ${y} `) || ` ${y} `.includes(` ${x} `)))) return true;
+      if (x.split(' ').length > 3 || y.split(' ').length > 3) return false;
+      const sy = stems(y);
+      return stems(x).some((w) => sy.includes(w));
+    }),
+  );
 }
 function distractors(item, pool, n, field) {
   const code = ctx.lang?.code;
@@ -214,6 +224,7 @@ export function runSession(root, opts) {
       if (buttons[0].disabled) return;
       buttons.forEach((b, j) => {
         b.disabled = true;
+        if (j === idx) b.classList.add('picked');
         if (j === q.answer) b.classList.add('right');
         else if (j === idx) b.classList.add('wrong');
       });
@@ -238,6 +249,7 @@ export function runSession(root, opts) {
       if (buttons[0].disabled) return;
       buttons.forEach((b, j) => {
         b.disabled = true;
+        if (j === idx) b.classList.add('picked');
         if (j === q.answer) b.classList.add('right');
         else if (j === idx) b.classList.add('wrong');
       });
@@ -513,6 +525,7 @@ export function runSession(root, opts) {
       const ok = opts2[idx] === target;
       buttons.forEach((b, j) => {
         b.disabled = true;
+        if (j === idx) b.classList.add('picked');
         if (opts2[j] === target) b.classList.add('right');
         else if (j === idx) b.classList.add('wrong');
       });

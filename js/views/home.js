@@ -26,9 +26,10 @@ export async function homeView() {
   return h(
     'div',
     h(
-      'section.hero',
-      name ? h('p.small.muted', { style: { marginBottom: '6px' } }, `Welcome back, ${name}.`) : null,
-      h('h1', 'Learn the languages of South Asia — properly.'),
+      'section.sky',
+      h('div.eyebrow', langs.map((l) => h('span.nt', { lang: l.code, style: { fontFamily: `"${l.font}", var(--ui)` } }, l.native))),
+      name ? h('p.hello', `Welcome back, ${name}.`) : null,
+      h('h1', 'Learn the languages of South Asia, properly.'),
       h(
         'p',
         `A complete, calm course for ${countWord(langs.length)} major languages of India, Pakistan, Bangladesh, Nepal and Sri Lanka: the script, how to really pronounce it, the words people actually use, grammar that makes sense, and practice that sticks.`,

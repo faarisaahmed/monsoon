@@ -1,5 +1,5 @@
 // Service worker: makes Monsoon work offline. Generated from sw.template.js by scripts/build.js.
-const VERSION = 'de702ab64f';
+const VERSION = '254ed7f43a';
 const CACHE = 'monsoon-' + VERSION;
 const PRECACHE = ["./","index.html","css/style.css","manifest.webmanifest","assets/icon.svg","data/languages.json","js/app.js","js/audio.js","js/cloud.js","js/components.js","js/data.js","js/session.js","js/store.js","js/ui.js","js/views/account.js","js/views/home.js","js/views/lang.js","js/views/practice.js","js/views/shared.js","js/views/talk.js"];
 
