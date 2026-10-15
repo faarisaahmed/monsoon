@@ -20,10 +20,17 @@ const distinctBy = (arr, f) => {
 const words = (t) => (t || '').trim().split(/\s+/).length;
 const isQuestion = (t) => /[?؟]\s*$/.test(t || '');
 const fold = (t) => (t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+// Glosses often list several meanings ("yes; that's right" / "okay; right, correct"): if any
+// meaning of one option matches a meaning of the answer, both would be right, so it can't be used.
+const senses = (t) =>
+  fold(t)
+    .replace(/\(.*?\)/g, ' ')
+    .split(/[;,/]| or /)
+    .map((x) => x.replace(/^\s*(to|a|an|the)\s+/, '').replace(/[^\p{L}\p{N}' ]/gu, ' ').replace(/\s+/g, ' ').trim())
+    .filter(Boolean);
 function overlaps(a, b) {
-  // "mother" vs "mother (respectful)" would make two options both right
-  const x = fold(a).replace(/\(.*?\)/g, '').trim(), y = fold(b).replace(/\(.*?\)/g, '').trim();
-  return x === y || (x.length > 2 && y.length > 2 && (` ${x} `.includes(` ${y} `) || ` ${y} `.includes(` ${x} `)));
+  const A = senses(a), B = senses(b);
+  return A.some((x) => B.some((y) => x === y || (x.length > 2 && y.length > 2 && (` ${x} `.includes(` ${y} `) || ` ${y} `.includes(` ${x} `)))));
 }
 function distractors(item, pool, n, field) {
   const code = ctx.lang?.code;

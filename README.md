@@ -28,6 +28,7 @@ Monsoon is a calm, thorough, open-source course for the major languages of South
 - **20 units** following the same path in every language, from greetings to telling stories. Each unit has about 25 words, about 10 phrases, grammar explanations with examples, a dialogue and cultural notes.
 - **Practice**: mixed sessions, flashcards, listening, dictation, translation, typing in the native script (with an on-screen keyboard), sentence building, speaking (speech recognition, or record and compare), letter drills, reading real words without romanization, handwriting and numbers.
 - **Review**: spaced repetition (SM-2 style) across everything you've learned.
+- **Conversation**: role-play any of the 20 dialogues (you type or say your lines and compare with the original), or answer questions in your own words, with example answers from the course and a synced journal of what you wrote.
 - **Reference**: numbers 0–100 plus lakh and crore, a searchable glossary, a grammar index, a printable alphabet chart and a reading room.
 
 ## Design principles

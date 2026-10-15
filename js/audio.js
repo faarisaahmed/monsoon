@@ -104,6 +104,7 @@ export function stop() {
 function playUrl(url, rate) {
   return new Promise((resolve) => {
     player.onended = () => resolve(true);
+    player.onpause = () => resolve(true); // stopped on purpose
     player.onerror = () => resolve(false);
     player.src = url;
     player.playbackRate = rate;

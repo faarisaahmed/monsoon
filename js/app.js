@@ -9,6 +9,7 @@ import { homeView, aboutView } from './views/home.js';
 import { loginView, signupView, forgotView, accountView } from './views/account.js';
 import { langHome, unitView, scriptView, letterView, soundsView, soundView, readingView, referenceView, numbersView, glossaryView } from './views/lang.js';
 import { practiceHub, practiceMode, reviewView, learnView } from './views/practice.js';
+import { talkView, roleplayView } from './views/talk.js';
 
 const routes = [
   [/^\/?$/, homeView],
@@ -26,6 +27,8 @@ const routes = [
   [/^\/l\/(\w+)\/sounds\/([\w-]+)$/, soundView, 'sounds'],
   [/^\/l\/(\w+)\/practice$/, practiceHub, 'practice'],
   [/^\/l\/(\w+)\/practice\/([\w-]+)$/, practiceMode, 'practice'],
+  [/^\/l\/(\w+)\/talk$/, talkView, 'talk'],
+  [/^\/l\/(\w+)\/talk\/(\d+)$/, roleplayView, 'talk'],
   [/^\/l\/(\w+)\/review$/, reviewView, 'review'],
   [/^\/l\/(\w+)\/reading$/, readingView, 'reading'],
   [/^\/l\/(\w+)\/reference$/, referenceView, 'reference'],
@@ -39,6 +42,7 @@ const SUBNAV = [
   ['sounds', 'Pronunciation', '/sounds'],
   ['course', 'Course', '#units'],
   ['practice', 'Practice', '/practice'],
+  ['talk', 'Conversation', '/talk'],
   ['review', 'Review', '/review'],
   ['reading', 'Reading', '/reading'],
   ['reference', 'Reference', '/reference'],
@@ -172,7 +176,7 @@ render();
 store.startSync();
 
 // Progress arrived from another device: refresh the page you're on, unless you're mid-exercise.
-const inSession = () => /\/(practice\/|review|learn\/)|t=check/.test(location.hash);
+const inSession = () => /\/(practice\/|review|learn\/|talk)|t=check/.test(location.hash);
 store.onRemoteChange(() => {
   if (!inSession()) render({ keepScroll: true });
 });

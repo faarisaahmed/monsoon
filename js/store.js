@@ -346,6 +346,29 @@ export function lang(code) {
   if (!d.langs[code]) d.langs[code] = { started: Date.now(), units: {}, letters: {}, cards: {}, activity: {}, sounds: {}, last: null };
   return d.langs[code];
 }
+// Your written answers from Conversation practice. Deleted ones are kept as tombstones so
+// syncing never brings them back; the most recently edited copy of an entry wins.
+export function journal(code) {
+  if (!hasLang(code)) return [];
+  return Object.values(lang(code).journal || {}).filter((e) => !e.deleted).sort((a, b) => b.at - a.at);
+}
+export function saveEntry(code, entry) {
+  const l = lang(code);
+  l.journal = l.journal || {};
+  const id = entry.id || Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+  l.journal[id] = { ...entry, id, at: entry.at || Date.now(), edited: Date.now() };
+  save();
+  emit();
+  return l.journal[id];
+}
+export function deleteEntry(code, id) {
+  const j = hasLang(code) && lang(code).journal;
+  if (!j || !j[id]) return;
+  j[id] = { id, deleted: true, at: j[id].at, edited: Date.now() };
+  save();
+  emit();
+}
+
 export const startedLangs = () => Object.keys(data().langs);
 export const hasLang = (code) => !!data().langs[code];
 
@@ -538,6 +561,10 @@ function mergeInto(cur, inc, { takeSettings = false } = {}) {
     }
     for (const [ch, n] of Object.entries(other.letters || {})) mine.letters[ch] = Math.max(mine.letters[ch] || 0, n);
     for (const [id, t] of Object.entries(other.sounds || {})) mine.sounds[id] = Math.max(mine.sounds[id] || 0, t);
+    for (const [id, e] of Object.entries(other.journal || {})) {
+      mine.journal = mine.journal || {};
+      if (!mine.journal[id] || (e.edited || 0) > (mine.journal[id].edited || 0)) mine.journal[id] = e;
+    }
     mine.started = Math.min(mine.started || Date.now(), other.started || Date.now());
     if ((other.last?.at || 0) > (mine.last?.at || 0)) mine.last = other.last;
   }

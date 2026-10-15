@@ -57,6 +57,12 @@ export async function practiceHub({ code, L }) {
       ),
     ),
     h(
+      'a.card.row',
+      { href: `#/l/${code}/talk`, style: { marginTop: '14px', gap: '14px', flexWrap: 'nowrap' } },
+      h('span.ico', { html: ICONS.chat }),
+      h('div', h('h3', { style: { margin: 0 } }, 'Conversation'), h('span.small.muted', 'Role-play the dialogues, or answer questions in your own words and keep a journal.')),
+    ),
+    h(
       'section.section',
       h('h2', 'Practise one unit'),
       h(
