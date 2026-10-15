@@ -100,7 +100,7 @@ export async function aboutView() {
     h('h2', 'Audio'),
     h('p', 'Every word, phrase and sentence has a recorded clip made with natural-sounding neural voices, so audio works on any phone or computer without installing anything. (Sindhi is the exception: no speech voice exists for it yet, so its course relies on written pronunciation guides and recording yourself.) Recognition-based speaking checks work best in Chrome, Edge or Safari.'),
     h('h2', 'Accounts and your data'),
-    h('p', 'Accounts are stored in this browser — nothing is sent to a server, and your password is only kept as a salted PBKDF2 hash. To use Monsoon on another device, export your progress file from Settings and import it there (it brings your account with it).'),
+    h('p', 'Create a free account (email and password) and your progress syncs across your phone, tablet and computer. Everything is also kept on your device, so Monsoon works offline and catches up when you reconnect. You can use it without an account too, and whatever you do as a guest moves into your account when you sign up.'),
     h('h2', 'Philosophy'),
     h('p', 'No streaks, no hearts, no leaderboards. You will see how much you know and how much time you have put in, and the app will suggest a sensible next step. Missing a day costs you nothing.'),
     h('p', h('a', { href: 'https://github.com/faarisaahmed/monsoon' }, 'Source code and corrections on GitHub'), ' — native speakers, issues and pull requests are very welcome.'),

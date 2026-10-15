@@ -1,7 +1,7 @@
 // Service worker: makes Monsoon work offline. Generated from sw.template.js by scripts/build.js.
-const VERSION = 'a592750099';
+const VERSION = '00416a9b5c';
 const CACHE = 'monsoon-' + VERSION;
-const PRECACHE = ["./","index.html","css/style.css","manifest.webmanifest","assets/icon.svg","data/languages.json","js/app.js","js/audio.js","js/components.js","js/data.js","js/session.js","js/store.js","js/ui.js","js/views/account.js","js/views/home.js","js/views/lang.js","js/views/practice.js","js/views/shared.js"];
+const PRECACHE = ["./","index.html","css/style.css","manifest.webmanifest","assets/icon.svg","data/languages.json","js/app.js","js/audio.js","js/cloud.js","js/components.js","js/data.js","js/session.js","js/store.js","js/ui.js","js/views/account.js","js/views/home.js","js/views/lang.js","js/views/practice.js","js/views/shared.js"];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(PRECACHE)).then(() => self.skipWaiting()));

@@ -6,7 +6,7 @@ import * as data from './data.js';
 import { ctx } from './components.js';
 import { stop, loadClips } from './audio.js';
 import { homeView, aboutView } from './views/home.js';
-import { loginView, signupView, accountView } from './views/account.js';
+import { loginView, signupView, forgotView, accountView } from './views/account.js';
 import { langHome, unitView, scriptView, letterView, soundsView, soundView, readingView, referenceView, numbersView, glossaryView } from './views/lang.js';
 import { practiceHub, practiceMode, reviewView, learnView } from './views/practice.js';
 
@@ -15,6 +15,7 @@ const routes = [
   [/^\/about$/, aboutView],
   [/^\/login$/, loginView],
   [/^\/signup$/, signupView],
+  [/^\/forgot$/, forgotView],
   [/^\/account$/, accountView],
   [/^\/l\/(\w+)$/, langHome, 'home'],
   [/^\/l\/(\w+)\/u\/(\d+)$/, unitView, 'course'],
@@ -52,7 +53,7 @@ export function parseHash() {
 export const go = (path) => (location.hash = '#' + path);
 
 let renderId = 0;
-async function render() {
+async function render(opts = {}) {
   const id = ++renderId;
   stop();
   const { path, query } = parseHash();
@@ -96,7 +97,7 @@ async function render() {
     if (id !== renderId) return;
     if (node) fill(main, node);
     document.title = (node?.dataset?.title ? node.dataset.title + ' · ' : L ? L.name + ' · ' : '') + 'Monsoon';
-    if (!query.get('keep')) window.scrollTo(0, 0);
+    if (!query.get('keep') && !opts.keepScroll) window.scrollTo(0, 0);
     const anchor = query.get('to');
     if (anchor) document.getElementById(anchor)?.scrollIntoView({ behavior: 'smooth' });
   } catch (e) {
@@ -168,6 +169,19 @@ store.onChange(() => {
 window.addEventListener('hashchange', render);
 applyTheme();
 render();
+store.startSync();
+
+// Progress arrived from another device: refresh the page you're on, unless you're mid-exercise.
+const inSession = () => /\/(practice\/|review|learn\/)|t=check/.test(location.hash);
+store.onRemoteChange(() => {
+  if (!inSession()) render({ keepScroll: true });
+});
+let lastSync = '';
+store.onChange(() => {
+  const st = store.syncInfo().state;
+  if (st === 'signed-out' && lastSync !== st) toast('You were signed out. Sign in again to keep syncing — nothing on this device was lost.', 5000);
+  lastSync = st;
+});
 
 if ('serviceWorker' in navigator && location.protocol === 'https:') {
   const hadController = !!navigator.serviceWorker.controller;
@@ -175,7 +189,7 @@ if ('serviceWorker' in navigator && location.protocol === 'https:') {
   // A new version was installed: reload to use it, unless you're in the middle of an exercise.
   navigator.serviceWorker.addEventListener('controllerchange', () => {
     if (!hadController) return;
-    if (/\/(practice\/|review|learn\/)|t=check/.test(location.hash)) return toast('Monsoon was updated — it will refresh next time you open it.');
+    if (inSession()) return toast('Monsoon was updated — it will refresh next time you open it.');
     location.reload();
   });
 }

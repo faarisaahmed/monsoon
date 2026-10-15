@@ -36,9 +36,23 @@ Monsoon is a calm, thorough, open-source course for the major languages of South
 - Script-first, though romanization can be set to *show*, *tap to reveal* or *hide*.
 - It works offline as an installable PWA once loaded.
 
-## Accounts
+## Accounts and sync
 
-Accounts are local to the browser. Each one has a username and a password (stored as a salted PBKDF2-SHA256 hash, never in plain text), and progress is kept per account, so several people can share a device. To move to another device, export your progress file under *Settings → Your data* and import it there. The file carries the account with it. Guests can use everything, and their progress moves into the account when they sign up.
+Accounts use an email and password, and progress syncs across devices. The backend runs on [Neon](https://neon.com) and lives in `backend/`:
+
+- **Neon Auth** (managed Better Auth) stores users and sessions in Postgres.
+- **A Neon Function** (`backend/src/index.ts`, a small Hono API) sits between the site and Neon Auth. The site is on GitHub Pages, a different site from Neon Auth, and browsers (Safari especially) block the cross-site session cookie. So the Function forwards sign-up and sign-in, gives the browser its session token, and checks that token on every request. Each user can only read or write their own row.
+- **Postgres** holds one `progress` row (JSON) per user. Saves carry a version number, so two devices saving at once can't overwrite each other: the second one gets the newer copy back, merges it and retries.
+
+Progress is always kept in `localStorage` as well, so the app works offline and syncs when it's back online. Guests can use everything, and their progress moves into the account on sign-up or sign-in. Older device-only accounts (username and a salted PBKDF2 hash) still sign in, and their progress carries over to an online account. Forgotten passwords are reset with a 6-digit code sent by email.
+
+Backend commands, run from `backend/` with the [Neon CLI](https://neon.com/docs/cli) linked to the project:
+
+```sh
+npm install
+npm run migrate        # create or upgrade the progress table
+npm run deploy         # neon deploy: Neon Auth + the sync Function
+```
 
 ## Audio
 

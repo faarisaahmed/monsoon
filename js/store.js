@@ -1,10 +1,12 @@
 // Accounts and progress.
 //
-// Accounts live in this browser (localStorage). Passwords are never stored: we keep a
-// PBKDF2-SHA256 hash with a random salt. Progress is stored per account and can be exported
-// to / imported from a file, which is how you move it between devices.
+// Online accounts (email + password, via cloud.js) sync progress across devices; progress is
+// always kept in localStorage too, so everything works offline and syncs when back online.
+// Older device-only accounts (username + salted PBKDF2 hash, never the password) still work.
+// Progress can also be exported to / imported from a file.
 
 import { today } from './ui.js';
+import * as cloud from './cloud.js';
 
 const K = {
   accounts: 'monsoon.accounts',
@@ -65,10 +67,16 @@ const accounts = () => readJSON(K.accounts, {});
 export const normUser = (u) => String(u || '').trim().toLowerCase();
 
 export function currentUser() {
+  const c = cloud.session();
+  if (c) return 'c-' + c.user.id;
   return sessionStorage.getItem(K.session) || localStorage.getItem(K.session) || GUEST;
 }
 export const isGuest = () => currentUser() === GUEST;
+export const isCloud = () => !!cloud.session();
+export const cloudUser = () => cloud.session()?.user || null;
 export function displayName() {
+  const c = cloud.session();
+  if (c) return c.user.name || c.user.email;
   const u = currentUser();
   if (u === GUEST) return 'Guest';
   return accounts()[u]?.displayName || u;
@@ -113,8 +121,49 @@ function setSession(u, remember) {
   emit();
 }
 
-export function logout() {
+export async function logout() {
+  if (isCloud()) {
+    flush();
+    await syncNow().catch(() => {});
+    await cloud.signOut();
+    cache = null;
+    sync.version = null;
+    emit();
+    return;
+  }
   setSession(GUEST, false);
+}
+
+// ---------- online accounts ----------
+// Whatever you did as a guest (or in a device-only account) is merged into the online account.
+async function enterCloud(action) {
+  flush();
+  const prevUser = currentUser();
+  const carry = data();
+  await action();
+  cache = null;
+  sync.version = null;
+  if (Object.keys(carry.langs || {}).length) mergeInto(data(), carry);
+  if (prevUser === GUEST) localStorage.removeItem(K.data(GUEST));
+  flush();
+  emit();
+  await syncNow().catch(() => {});
+}
+export const cloudSignUp = (email, password, name) => enterCloud(() => cloud.signUp(email, password, name));
+export const cloudSignIn = (email, password) => enterCloud(() => cloud.signIn(email, password));
+export async function cloudRename(name) {
+  await cloud.updateName(name);
+  emit();
+}
+export const cloudChangePassword = cloud.changePassword;
+export const forgotPassword = cloud.forgotPassword;
+export const resetPassword = cloud.resetPassword;
+export async function cloudDeleteAccount(password) {
+  const u = currentUser();
+  await cloud.deleteAccount(password);
+  cache = null;
+  localStorage.removeItem(K.data(u));
+  emit();
 }
 
 export async function changePassword(oldPw, newPw) {
@@ -138,6 +187,7 @@ export function renameDisplay(name) {
   emit();
 }
 
+// Deletes a device-only account.
 export function deleteAccount() {
   const u = currentUser();
   const all = accounts();
@@ -173,6 +223,7 @@ let saveTimer = null;
 function save() {
   clearTimeout(saveTimer);
   saveTimer = setTimeout(flush, 150);
+  scheduleSync();
 }
 // Write pending changes now (before switching account, or when the page goes away).
 function flush() {
@@ -180,6 +231,108 @@ function flush() {
   if (cache) writeJSON(K.data(currentUser()), cache);
 }
 window.addEventListener('pagehide', flush);
+
+// ---------- sync ----------
+const sync = { state: 'idle', last: null, error: null, dirty: false, version: null };
+export const syncInfo = () => ({ ...sync });
+const remoteListeners = new Set();
+export const onRemoteChange = (fn) => remoteListeners.add(fn);
+let syncTimer = null;
+let syncing = null;
+let again = false;
+
+function scheduleSync(ms = 8000) {
+  if (!isCloud()) return;
+  sync.dirty = true;
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(() => syncNow().catch(() => {}), ms);
+}
+
+// Pull the server copy, merge it into this device's copy, then push the result.
+export function syncNow() {
+  if (!isCloud()) return Promise.resolve();
+  if (syncing) {
+    again = true;
+    return syncing;
+  }
+  clearTimeout(syncTimer);
+  const setState = (st, error = null) => {
+    sync.state = st;
+    sync.error = error;
+    emit();
+  };
+  syncing = (async () => {
+    setState('syncing');
+    try {
+      const d = data();
+      const before = JSON.stringify(d.langs);
+      let remote = await cloud.pull();
+      // merge the server copy in and save; if another device saved in between, merge again
+      for (let attempt = 0; ; attempt++) {
+        if (remote.data) mergeInto(d, remote.data, { takeSettings: !d.synced });
+        d.synced = Date.now();
+        flush();
+        sync.dirty = false;
+        try {
+          sync.version = (await cloud.push(d, remote.version)).version;
+          break;
+        } catch (e) {
+          if (e.status !== 409 || attempt >= 4) throw e;
+          remote = e.body;
+        }
+      }
+      sync.last = Date.now();
+      setState('ok');
+      if (JSON.stringify(d.langs) !== before) remoteListeners.forEach((fn) => fn());
+    } catch (e) {
+      if (e.status === 401) {
+        // session ended (e.g. password changed elsewhere): fall back to guest, keep the local copy
+        cache = null;
+        setState('signed-out', e.message);
+      } else setState(e.status === 0 ? 'offline' : 'error', e.message);
+      throw e;
+    } finally {
+      syncing = null;
+      if (again) {
+        again = false;
+        scheduleSync(500);
+      }
+    }
+  })();
+  return syncing;
+}
+
+// On load: check the session is still valid, then sync.
+export async function startSync() {
+  if (!isCloud()) return;
+  try {
+    await cloud.refresh();
+    emit();
+  } catch (e) {
+    if (e.status === 401) {
+      cache = null;
+      emit();
+      return;
+    }
+  }
+  syncNow().catch(() => {});
+}
+
+// Leaving the page: send what we have without waiting (keepalive requests are capped at 64 KB).
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState !== 'hidden') return;
+  flush();
+  if (isCloud() && sync.dirty && cache) {
+    const body = JSON.stringify(cache);
+    // without a known version there's nothing safe to send; the next sync covers it
+    if (sync.version != null)
+      cloud
+        .push(cache, sync.version, { keepalive: body.length < 60000 })
+        .then((r) => ((sync.version = r.version), (sync.dirty = false)))
+        .catch(() => {});
+  }
+});
+window.addEventListener('online', () => isCloud() && syncNow().catch(() => {}));
 
 export const settings = () => data().settings;
 export function setSetting(k, v) {
@@ -315,7 +468,7 @@ export function exportData() {
     app: 'monsoon',
     version: 1,
     exported: new Date().toISOString(),
-    account: acc ? { username: u, displayName: acc.displayName, salt: acc.salt, hash: acc.hash, iterations: acc.iterations, created: acc.created } : null,
+    account: acc && !isCloud() ? { username: u, displayName: acc.displayName, salt: acc.salt, hash: acc.hash, iterations: acc.iterations, created: acc.created } : null,
     data: data(),
   };
 }
@@ -341,29 +494,60 @@ export function importData(obj, { replace = false } = {}) {
     setSession(u, true);
   }
   const cur = data();
-  if (replace) {
-    cache = { ...obj.data, settings: { ...DEFAULT_SETTINGS, ...obj.data.settings } };
-  } else {
-    for (const [code, inc] of Object.entries(obj.data.langs || {})) {
-      const mine = cur.langs[code];
-      if (!mine) {
-        cur.langs[code] = inc;
-        continue;
-      }
-      for (const [k, c] of Object.entries(inc.cards || {})) if (!mine.cards[k] || (c.last || 0) > (mine.cards[k].last || 0)) mine.cards[k] = c;
-      for (const [d, s] of Object.entries(inc.activity || {})) mine.activity[d] = Math.max(mine.activity[d] || 0, s);
-      for (const [n, st] of Object.entries(inc.units || {})) mine.units[n] = { ...st, ...mine.units[n] };
-      Object.assign(mine.letters, { ...inc.letters, ...mine.letters });
-      Object.assign(mine.sounds, { ...inc.sounds, ...mine.sounds });
-    }
-  }
+  if (replace) cache = { ...obj.data, settings: { ...DEFAULT_SETTINGS, ...obj.data.settings } };
+  else mergeInto(cur, obj.data);
   writeJSON(K.data(u), cache);
   emit();
+  if (isCloud()) (replace ? pushReplace() : syncNow()).catch(() => {});
   return u;
 }
 
+// Replace the server copy with this device's (used after "replace" imports and language resets,
+// where merging would bring the old data back).
+async function pushReplace() {
+  flush();
+  const { version } = await cloud.pull();
+  sync.version = (await cloud.push(data(), version)).version;
+  sync.last = Date.now();
+  sync.dirty = false;
+}
+
+// Merge another copy of the progress data into `cur` (used for imports and for sync).
+// Per item, the most recently touched version wins; time studied takes the larger figure per day.
+function mergeInto(cur, inc, { takeSettings = false } = {}) {
+  cur.langs = cur.langs || {};
+  const resets = { ...(cur.resets || {}) };
+  for (const [code, t] of Object.entries(inc.resets || {})) resets[code] = Math.max(resets[code] || 0, t);
+  cur.resets = resets;
+  if (takeSettings && inc.settings) cur.settings = { ...DEFAULT_SETTINGS, ...inc.settings };
+  const live = (l, code) => l && (l.started || 0) >= (resets[code] || 0);
+  for (const code of Object.keys(cur.langs)) if (!live(cur.langs[code], code)) delete cur.langs[code];
+  for (const [code, other] of Object.entries(inc.langs || {})) {
+    if (!live(other, code)) continue;
+    const mine = cur.langs[code];
+    if (!mine) {
+      cur.langs[code] = structuredClone(other);
+      continue;
+    }
+    const touched = (c) => c.last || c.added || 0;
+    for (const [k, c] of Object.entries(other.cards || {})) if (!mine.cards[k] || touched(c) > touched(mine.cards[k])) mine.cards[k] = c;
+    for (const [d, sec] of Object.entries(other.activity || {})) mine.activity[d] = Math.max(mine.activity[d] || 0, sec);
+    for (const [n, st] of Object.entries(other.units || {})) {
+      mine.units[n] = mine.units[n] || {};
+      for (const [part, t] of Object.entries(st)) mine.units[n][part] = Math.max(mine.units[n][part] || 0, t);
+    }
+    for (const [ch, n] of Object.entries(other.letters || {})) mine.letters[ch] = Math.max(mine.letters[ch] || 0, n);
+    for (const [id, t] of Object.entries(other.sounds || {})) mine.sounds[id] = Math.max(mine.sounds[id] || 0, t);
+    mine.started = Math.min(mine.started || Date.now(), other.started || Date.now());
+    if ((other.last?.at || 0) > (mine.last?.at || 0)) mine.last = other.last;
+  }
+  if (!cur.lastLang && inc.lastLang) cur.lastLang = inc.lastLang;
+}
+
 export function resetLanguage(code) {
-  delete data().langs[code];
+  const d = data();
+  delete d.langs[code];
+  d.resets = { ...(d.resets || {}), [code]: Date.now() }; // so syncing doesn't bring it back
   save();
   emit();
 }

@@ -1,0 +1,23 @@
+{
+  "name": "monsoon-backend",
+  "private": true,
+  "type": "module",
+  "description": "Monsoon sync API: a Neon Function that stores each signed-in user's progress.",
+  "scripts": {
+    "dev": "neon dev",
+    "deploy": "neon deploy --env .env.local",
+    "migrate": "node --env-file=.env.local scripts/migrate.mjs"
+  },
+  "dependencies": {
+    "@neon/config": "^1.9.1",
+    "@neon/env": "^1.6.2",
+    "@neon/functions": "^0.11.0",
+    "hono": "^4.13.13",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.23.1",
+    "neon": "^8.4.4",
+    "typescript": "^7.0.2"
+  }
+}
