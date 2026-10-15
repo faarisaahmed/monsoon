@@ -1,7 +1,7 @@
 // Reusable pieces: icons, audio buttons, native-text rendering, item rows, writing pad.
 
 import { h, add, toast } from './ui.js';
-import { speak, canSpeak, stop } from './audio.js';
+import { speak, canSpeak, stop, listeningOn } from './audio.js';
 import { settings } from './store.js';
 
 const svg = (d, extra = '') =>
@@ -57,7 +57,7 @@ export function rm(text, force) {
 }
 
 // Play button for a piece of native text.
-export function audioBtn(text, { size = '', slow = false, auto = false } = {}) {
+export function audioBtn(text, { size = '', slow = false, auto = false, onFail = null } = {}) {
   const L = ctx.lang;
   if (L && !canSpeak(L.tts)) return null; // e.g. Sindhi: no voice exists, so no dead buttons
   const b = h('button.icon-btn' + (size ? '.' + size : ''), {
@@ -76,13 +76,13 @@ export function audioBtn(text, { size = '', slow = false, auto = false } = {}) {
     b.classList.add('playing');
     const ok = await speak(text, L.tts, slow ? { rate: 0.6 } : {});
     b.classList.remove('playing');
-    if (!ok) toast('Could not play audio. Check your connection or install a voice (Settings → Audio).');
+    if (!ok) onFail ? onFail() : toast('Could not play audio. Check your connection or install a voice (Settings → Audio).');
   });
-  if (auto) setTimeout(() => b.isConnected && b.click(), 250);
+  if (auto && listeningOn(L.tts)) setTimeout(() => b.isConnected && b.click(), 250);
   return b;
 }
 
-export const play = (text) => ctx.lang && canSpeak(ctx.lang.tts) && speak(text, ctx.lang.tts);
+export const play = (text) => ctx.lang && listeningOn(ctx.lang.tts) && speak(text, ctx.lang.tts);
 export { stop };
 
 // A vocab/phrase row.

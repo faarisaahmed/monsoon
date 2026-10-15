@@ -55,10 +55,10 @@ export async function homeView() {
       h('h2', 'How Monsoon works'),
       h(
         'div.how',
-        how('1 · Script first', 'Every course starts with the writing system, letter by letter, with audio, sound descriptions, stroke hints and a handwriting pad. Romanization is there as a crutch you can turn off.'),
-        how('2 · Pronunciation', 'Dedicated lessons on the sounds English speakers find hard — retroflex vs dental, aspiration, nasal vowels, tones, long vowels — with minimal pairs, ear training and a mic check.'),
-        how('3 · Twenty units', 'The same 20-unit path in every language, from greetings to telling stories: vocabulary, phrases, grammar and a dialogue in each.'),
-        how('4 · Review that sticks', 'Words you learn go into spaced repetition, so they come back right before you would forget them. No streaks, no points — just steady progress.'),
+        how('Your own path', 'Start wherever you like: jump straight into speaking with romanization, or learn the script first. Nothing is locked, and you can mix both.'),
+        how('Script & pronunciation', 'The writing system letter by letter (audio, stroke hints, a handwriting pad), plus lessons on the sounds English speakers find hard, with minimal pairs, ear training and a mic check.'),
+        how('Twenty units', 'The same 20-unit path in every language, from greetings to telling stories: vocabulary, phrases, grammar and a dialogue in each.'),
+        how('Review that sticks', 'Words you learn go into spaced repetition, so they come back right before you would forget them. No streaks, no points — just steady progress.'),
       ),
     ),
   );

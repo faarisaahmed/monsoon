@@ -71,8 +71,31 @@ function unlock() {
 const ONLINE = new Set(['hi', 'ur', 'bn', 'pa', 'mr', 'gu', 'ta', 'te', 'kn', 'ml', 'ne']);
 export const canSpeak = (tts) => hasClips(tts) || hasDeviceVoice(tts) || (settings().onlineVoice && ONLINE.has(tts.split('-')[0]));
 
+// "Can't listen / speak now" switches those questions off for an hour on this device;
+// Settings → Audio switches them off for good.
+const QUIET = 'monsoon.quiet';
+let quietMem = {};
+function quietState() {
+  try {
+    return JSON.parse(localStorage.getItem(QUIET) || 'null') || quietMem;
+  } catch {
+    return quietMem;
+  }
+}
+export function pauseFor(kind, ms = 36e5) {
+  quietMem = { ...quietState(), [kind]: ms ? Date.now() + ms : 0 };
+  try {
+    localStorage.setItem(QUIET, JSON.stringify(quietMem));
+  } catch {}
+}
+export const pausedUntil = (kind) => Math.max(0, (quietState()[kind] || 0) - Date.now()) && quietState()[kind];
+export const listeningOn = (tts) => canSpeak(tts) && settings().listening !== false && !pausedUntil('listen');
+export const speakingOn = () => (canRecognize() || canRecord()) && settings().speaking !== false && !pausedUntil('speak');
+
 let synthActive = false;
+let gen = 0; // bumped on every stop, so an interrupted clip is never mistaken for a failed one
 export function stop() {
+  gen++;
   if (synth && synthActive) synth.cancel();
   synthActive = false;
   if (!player.paused) player.pause();
@@ -90,13 +113,15 @@ function playUrl(url, rate) {
 }
 
 // Speak text: recorded clip first, then a device voice, then the online voice.
-// Resolves true when something played.
+// Resolves true when something played (or was stopped on purpose), false when nothing could play.
 export async function speak(text, tts, { rate } = {}) {
   stop();
+  const my = gen;
   rate = rate ?? settings().rate ?? 0.9;
   const url = clipUrl(text, tts);
   // clips are recorded at a learner-friendly pace, so the default rate plays them as-is
   if (url && (await playUrl(url, Math.min(1.4, Math.max(0.5, rate / 0.9))))) return true;
+  if (my !== gen) return true;
   const voice = pickVoice(tts);
   if (voice && synth) {
     synthActive = true;
@@ -114,7 +139,7 @@ export async function speak(text, tts, { rate } = {}) {
   const tl = tts.split('-')[0];
   if (settings().onlineVoice && ONLINE.has(tl)) {
     const online = `https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=${tl}&q=${encodeURIComponent(text.slice(0, 190))}`;
-    return playUrl(online, Math.min(1.2, Math.max(0.6, rate)));
+    return (await playUrl(online, Math.min(1.2, Math.max(0.6, rate)))) || my !== gen;
   }
   return false;
 }

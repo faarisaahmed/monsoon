@@ -2,7 +2,7 @@
 
 import { h, fill, add, clear, shuffle, sample, normRoman, englishMatches, similarity, toast } from './ui.js';
 import { ctx, nt, rm, audioBtn, play, ICONS, writingPad } from './components.js';
-import { canSpeak, canRecognize, recognize, canRecord, record as recordAudio, stop } from './audio.js';
+import { canSpeak, canRecognize, recognize, canRecord, record as recordAudio, stop, pauseFor, listeningOn, speakingOn } from './audio.js';
 import * as store from './store.js';
 
 // ---------- question builders ----------
@@ -15,15 +15,36 @@ const distinctBy = (arr, f) => {
     return true;
   });
 };
+// Wrong options should be plausible: same kind and part of speech, same topic, similar shape,
+// and ideally things you have already met — otherwise the answer is just "the familiar one".
+const words = (t) => (t || '').trim().split(/\s+/).length;
+const isQuestion = (t) => /[?؟]\s*$/.test(t || '');
+const fold = (t) => (t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+function overlaps(a, b) {
+  // "mother" vs "mother (respectful)" would make two options both right
+  const x = fold(a).replace(/\(.*?\)/g, '').trim(), y = fold(b).replace(/\(.*?\)/g, '').trim();
+  return x === y || (x.length > 2 && y.length > 2 && (` ${x} `.includes(` ${y} `) || ` ${y} `.includes(` ${x} `)));
+}
 function distractors(item, pool, n, field) {
+  const code = ctx.lang?.code;
+  const learnable = item.kind === 'word' || item.kind === 'phrase';
   const cands = distinctBy(
-    pool.filter((p) => p[field] !== item[field] && p.native !== item.native && p.en !== item.en),
+    pool.filter((p) => p[field] !== item[field] && p.native !== item.native && p.en !== item.en && !(learnable && overlaps(p.en, item.en))),
     (p) => p[field],
   );
-  // prefer same kind & similar length so options aren't trivially guessable
-  const len = (item[field] || '').length;
-  const ranked = shuffle(cands).sort((a, b) => (a.kind === item.kind ? 0 : 1) - (b.kind === item.kind ? 0 : 1) || Math.abs((a[field] || '').length - len) - Math.abs((b[field] || '').length - len));
-  return shuffle(ranked.slice(0, n * 3)).slice(0, n);
+  const target = item[field] || '';
+  const score = (p) => {
+    const v = p[field] || '';
+    let s = Math.abs(v.length - target.length) / Math.max(4, target.length) * 3;
+    if (p.kind !== item.kind) s += 10;
+    if (item.pos && p.pos !== item.pos) s += 4;
+    if (item.kind === 'phrase') s += Math.min(3, Math.abs(words(p.en) - words(item.en))) + (isQuestion(p.en) !== isQuestion(item.en) ? 3 : 0);
+    if (item.unit && p.unit) s += p.unit === item.unit ? -2 : Math.min(2, Math.abs(p.unit - item.unit) / 4);
+    if (learnable && code && p.key && !store.card(code, p.key)) s += 1.5;
+    if (fold(v)[0] && fold(v)[0] === fold(target)[0]) s -= 1;
+    return s + Math.random() * 1.5;
+  };
+  return cands.map((p) => [score(p), p]).sort((a, b) => a[0] - b[0]).slice(0, n).map((x) => x[1]);
 }
 function mc(item, pool, from, to, extra = {}) {
   const opts = shuffle([item, ...distractors(item, pool, 3, to === 'native' ? 'native' : 'en')]);
@@ -66,11 +87,26 @@ export const Q = {
 // opts: { title, questions, onExit, onDone(results), code, record:true (update SRS) }
 export function runSession(root, opts) {
   const L = ctx.lang;
-  const qs = opts.questions.filter((q) => {
-    if (q.type === 'listen' || q.from === 'audio' || q.mode === 'audio2roman' || q.type === 'pair' || q.type === 'number') return canSpeak(L.tts);
-    if (q.type === 'speak') return canRecognize() || canRecord();
-    return true;
-  });
+  let audioBroken = false;
+  // Without sound (no voice, switched off, or it failed to load), listening questions become
+  // their written version and the ones with no written version are dropped.
+  const adapt = (q) => {
+    if (needsAudio(q) && (audioBroken || !listeningOn(L.tts))) return writtenVersion(q);
+    if (q.type === 'speak' && !speakingOn()) return null;
+    return q;
+  };
+  let qs = opts.questions.map(adapt).filter(Boolean);
+  const readapt = () => {
+    qs = [...qs.slice(0, i), ...qs.slice(i).map(adapt).filter(Boolean)];
+    if (i >= qs.length) finish();
+    else show();
+  };
+  const audioFailed = () => {
+    if (audioBroken || body.querySelector('.feedback')) return;
+    audioBroken = true;
+    toast('The audio could not play, so listening questions are switched to written ones for this session.');
+    readapt();
+  };
   const results = [];
   let i = 0;
   let keyHandler = null;
@@ -140,6 +176,7 @@ export function runSession(root, opts) {
       ),
       h('div.row', it?.native ? audioBtn(it.native) : null, cont),
     );
+    body.querySelector('.quiet')?.remove();
     body.appendChild(fb);
     setTimeout(() => cont.focus(), 30);
     setKeys((e) => {
@@ -157,7 +194,7 @@ export function runSession(root, opts) {
     if (q.reading) return h('div.prompt', h('div.q', 'How is this word read?'), nt(it.native, long ? 'long' : ''));
     if (q.from === 'native') return h('div.prompt', h('div.q', 'What does this mean?'), h('div.row', nt(it.native, long ? 'long' : ''), audioBtn(it.native)), rm(it.roman));
     if (q.from === 'en') return h('div.prompt', h('div.q', 'How do you say…'), h('div.en-big', it.en));
-    if (q.from === 'audio') return h('div.prompt', h('div.q', 'Listen. What does it mean?'), h('div.row', audioBtn(it.native, { size: 'lg', auto: true }), audioBtn(it.native, { slow: true })));
+    if (q.from === 'audio') return h('div.prompt', h('div.q', 'Listen. What does it mean?'), h('div.row', audioBtn(it.native, { size: 'lg', auto: true, onFail: audioFailed }), audioBtn(it.native, { slow: true })));
     return h('div.prompt');
   }
 
@@ -218,7 +255,7 @@ export function runSession(root, opts) {
     const it = q.item;
     let prompt;
     if (q.mode === 'en2roman') prompt = h('div.prompt', h('div.q', 'Translate — type it in romanization'), h('div.en-big', it.en));
-    else if (q.mode === 'audio2roman') prompt = h('div.prompt', h('div.q', 'Dictation — type what you hear (romanization)'), h('div.row', audioBtn(it.native, { size: 'lg', auto: true }), audioBtn(it.native, { slow: true })));
+    else if (q.mode === 'audio2roman') prompt = h('div.prompt', h('div.q', 'Dictation — type what you hear (romanization)'), h('div.row', audioBtn(it.native, { size: 'lg', auto: true, onFail: audioFailed }), audioBtn(it.native, { slow: true })));
     else prompt = h('div.prompt', h('div.q', `Translate — type it in ${L.script}`), h('div.en-big', it.en));
     const input = h('input.answer-input' + (q.mode === 'en2native' ? '.nt' : ''), {
       type: 'text',
@@ -318,7 +355,7 @@ export function runSession(root, opts) {
     const mic = h('button.icon-btn.lg', { title: 'Speak', 'aria-label': 'Speak', html: ICONS.mic });
     const playback = h('div.row', { style: { justifyContent: 'center' } });
     let attempts = 0;
-    const cont = h('button.btn.ghost.small', { onclick: () => (record(q, false), next()) }, 'Skip');
+    const cont = h('button.btn.ghost.small', { onclick: () => (record(q, false), next()) }, "I can't say it yet");
     mic.onclick = async () => {
       if (mic.classList.contains('rec')) return;
       mic.classList.add('rec');
@@ -475,7 +512,7 @@ export function runSession(root, opts) {
       results.push({ q, correct: ok });
       feedback(ok, { item: target }, pair.note || null);
     };
-    add(body, h('div.prompt', h('div.q', 'Which word do you hear?'), h('div.row', audioBtn(target.native, { size: 'lg', auto: true }), audioBtn(target.native, { slow: true }))), h('div.options', buttons));
+    add(body, h('div.prompt', h('div.q', 'Which word do you hear?'), h('div.row', audioBtn(target.native, { size: 'lg', auto: true, onFail: audioFailed }), audioBtn(target.native, { slow: true }))), h('div.options', buttons));
     setKeys((e) => {
       const n = parseInt(e.key, 10);
       if (n === 1 || n === 2) choose(n - 1);
@@ -520,7 +557,10 @@ export function runSession(root, opts) {
     };
     submit.onclick = check;
     input.addEventListener('keydown', (e) => e.key === 'Enter' && (e.preventDefault(), e.stopPropagation(), check()));
-    add(body, h('div.prompt', h('div.q', 'Listen — which number is it?'), h('div.row', audioBtn(n.native, { size: 'lg', auto: true }), audioBtn(n.native, { slow: true }))), input, submit);
+    const prompt = q.written
+      ? h('div.prompt', h('div.q', 'Which number is this?'), nt(n.native, n.native.length > 14 ? 'long' : ''), rm(n.roman))
+      : h('div.prompt', h('div.q', 'Listen — which number is it?'), h('div.row', audioBtn(n.native, { size: 'lg', auto: true, onFail: audioFailed }), audioBtn(n.native, { slow: true })));
+    add(body, prompt, input, submit);
     setKeys(null);
     setTimeout(() => input.focus(), 50);
   }
@@ -530,6 +570,12 @@ export function runSession(root, opts) {
     clear(body);
     const q = qs[i];
     ({ mc: renderMC, letter: renderLetter, type: renderType, build: renderBuild, speak: renderSpeak, flash: renderFlash, intro: renderIntro, pair: renderPair, write: renderWrite, number: renderNumber })[q.type](q);
+    const quiet = (label, kind, msg) =>
+      body.appendChild(
+        h('div.center.quiet', h('button.link-btn.small', { type: 'button', onclick: () => (stop(), pauseFor(kind), toast(msg), readapt()) }, label)),
+      );
+    if (needsAudio(q)) quiet("Can't listen now", 'listen', 'Listening questions are off for the next hour.');
+    else if (q.type === 'speak') quiet("Can't speak now", 'speak', 'Speaking questions are off for the next hour.');
   }
 
   function finish() {
@@ -585,12 +631,32 @@ export function runSession(root, opts) {
   }
 
   if (!qs.length) {
-    fill(body, h('div.empty', h('p', opts.emptyText || 'Nothing to practise here yet.'), h('button.btn', { onclick: () => opts.onExit?.() }, 'Back')));
+    // everything here needs sound or the mic and that is switched off: offer to switch it back on
+    const off = opts.questions.some((q) => needsAudio(q) && canSpeak(L.tts) && !listeningOn(L.tts)) ? 'listen' : opts.questions.some((q) => q.type === 'speak' && (canRecognize() || canRecord()) && !speakingOn()) ? 'speak' : null;
+    const turnOn = () => {
+      pauseFor(off, 0);
+      store.setSetting(off === 'listen' ? 'listening' : 'speaking', true);
+      runSession(root, opts);
+    };
+    fill(
+      body,
+      off
+        ? h('div.empty', h('p', off === 'listen' ? 'Listening exercises are switched off right now.' : 'Speaking exercises are switched off right now.'), h('div.row', { style: { justifyContent: 'center' } }, h('button.btn', { onclick: () => opts.onExit?.() }, 'Back'), h('button.btn.primary', { onclick: turnOn }, 'Turn them on')))
+        : h('div.empty', h('p', opts.emptyText || 'Nothing to practise here yet.'), h('button.btn', { onclick: () => opts.onExit?.() }, 'Back')),
+    );
     return;
   }
   show();
 }
 
+
+const needsAudio = (q) => q.type === 'pair' || q.type === 'number' || q.from === 'audio' || q.mode === 'audio2roman';
+function writtenVersion(q) {
+  if (q.from === 'audio') return { ...q, from: 'native' };
+  if (q.mode === 'audio2roman') return { ...q, mode: 'en2roman' };
+  if (q.type === 'number') return { ...q, written: true };
+  return null; // e.g. ear training: nothing to read instead
+}
 
 export function cardMeta(it) {
   return { kind: it.kind || (it.char ? 'letter' : 'word'), unit: it.unit || null };

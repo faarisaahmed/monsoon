@@ -53,8 +53,8 @@ export async function langHome({ code, L }) {
     h(
       'div.card.next-card',
       { style: { marginTop: started ? 0 : '18px' } },
-      h('div', h('div.small.muted', started ? 'Suggested next step' : 'Start here'), h('h3', { style: { margin: '2px 0' } }, next.title), h('div.small.muted', next.why)),
-      h('a.btn.accent', { href: next.href }, next.cta),
+      h('div', h('div.small.muted', started ? 'Suggested next step' : 'Start wherever you like'), h('h3', { style: { margin: '2px 0' } }, next.title), h('div.small.muted', next.why)),
+      h('div.row', next.alt ? h('a.btn', { href: next.alt.href }, next.alt.cta) : null, h('a.btn.accent', { href: next.href }, next.cta)),
     ),
     started && goal
       ? h(
@@ -68,7 +68,7 @@ export async function langHome({ code, L }) {
     h('details.about', { style: { marginTop: '22px' }, open: !started }, h('summary', `About ${c.name}`), md(c.intro), h('h3', 'Reading the romanization'), md(c.romanizationNote)),
     h(
       'section.section',
-      h('div.section-head', h('h2', 'Foundations'), h('span.small.muted', 'Do these first, then keep coming back')),
+      h('div.section-head', h('h2', 'Script & sounds'), h('span.small.muted', 'Optional — dip in whenever you like')),
       h(
         'div.grid.wide',
         h(
@@ -129,14 +129,18 @@ function milestone(words) {
 
 function suggestNext(code, c, units, { st, seenLetters, letters }) {
   if (!store.hasLang(code) || (st.total === 0 && seenLetters === 0)) {
-    return { title: 'Meet the script', why: `Get to know ${ctx.lang.script} letter by letter — it makes everything after it easier. (You can also jump straight into Unit 1; romanization is always available.)`, href: `#/l/${code}/script`, cta: 'Start with the script' };
+    return {
+      title: 'Unit 1: ' + units[0].title,
+      why: `Everything comes with romanization, so you can start speaking now and pick up the ${ctx.lang.script} script whenever you like — or learn to read first. Nothing is locked.`,
+      href: `#/l/${code}/u/1/learn/words`,
+      cta: 'Start Unit 1',
+      alt: { href: `#/l/${code}/script`, cta: 'Learn the script' },
+    };
   }
   if (st.due >= 15) return { title: `Review ${st.due} items`, why: 'These are right on the edge of being forgotten — a short review locks them in.', href: `#/l/${code}/review`, cta: 'Review now' };
-  const firstGroups = c.script.groups.slice(0, 3);
-  const basicLetters = firstGroups.flatMap((g) => g.letters);
-  const seenBasic = basicLetters.filter((l) => store.lang(code).letters[l.char]).length;
-  if (seenBasic < basicLetters.length * 0.6 && st.words < 20) {
-    return { title: 'Keep going with the script', why: `${seenLetters} of ${letters.length} letters practised. Try the letter drills or the handwriting pad.`, href: `#/l/${code}/practice/letters`, cta: 'Practise letters' };
+  // only people who chose to start with the script are pointed back to it
+  if (st.total === 0 && seenLetters < letters.length * 0.6) {
+    return { title: 'Keep going with the script', why: `${seenLetters} of ${letters.length} letters practised. Or start Unit 1 whenever you like — the script is never required.`, href: `#/l/${code}/practice/letters`, cta: 'Practise letters', alt: { href: `#/l/${code}/u/1/learn/words`, cta: 'Start Unit 1' } };
   }
   for (const u of units) {
     const us = store.unitState(code, u.id);

@@ -1,7 +1,7 @@
 import { h, fill, toast, modal, go, fmtMinutes } from '../ui.js';
 import * as store from '../store.js';
 import * as data from '../data.js';
-import { voicesFor, speak, canRecognize } from '../audio.js';
+import { voicesFor, speak, canRecognize, pauseFor, pausedUntil } from '../audio.js';
 import { weekChart } from './shared.js';
 
 function form(fields, submitLabel, onSubmit) {
@@ -335,6 +335,19 @@ export async function accountView() {
   };
   const online = h('input', { type: 'checkbox', checked: s.onlineVoice });
   online.onchange = () => store.setSetting('onlineVoice', online.checked);
+  const toggle = (key, label, hint, kind) => {
+    const box = h('input', { type: 'checkbox', checked: s[key] !== false });
+    box.onchange = () => store.setSetting(key, box.checked);
+    const until = pausedUntil(kind);
+    return h(
+      'div',
+      h('label.check', box, label),
+      h('p.tiny.faint', hint),
+      until
+        ? h('p.tiny.faint', `Paused until ${new Date(until).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}. `, h('button.link-btn.tiny', { type: 'button', onclick: (e) => (pauseFor(kind, 0), e.target.parentNode.remove()) }, 'Turn back on now'))
+        : null,
+    );
+  };
   const voiceRows = langs.map((l) => {
     const vs = voicesFor(l.tts);
     const sel = h('select', { style: { maxWidth: '260px' } }, h('option', { value: '' }, vs.length ? 'Automatic' : 'No device voice'), vs.map((v) => h('option', { value: v.voiceURI, selected: s.voices?.[l.tts] === v.voiceURI }, `${v.name} (${v.lang})`)));
@@ -346,6 +359,8 @@ export async function accountView() {
     'div.card',
     h('h2', 'Audio'),
     h('div.stack',
+      toggle('listening', 'Listening exercises', 'Off: questions that need sound become written ones, and nothing plays on its own. Speaker buttons still work.', 'listen'),
+      toggle('speaking', 'Speaking exercises', 'Off: no microphone questions.', 'speak'),
       h('div', h('div.small.muted', 'Speaking speed'), h('div.row', rate, rateLabel)),
       h('p.tiny.faint', 'Course audio is pre-recorded with natural neural voices and works on every device. The options below only matter for the rare text without a recording.'),
       h('label.check', online, 'Fall back to an online voice when there is no recording or device voice'),

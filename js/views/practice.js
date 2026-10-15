@@ -2,7 +2,7 @@ import { h, clear, shuffle, sample, go } from '../ui.js';
 import * as store from '../store.js';
 import * as data from '../data.js';
 import { ICONS } from '../components.js';
-import { canSpeak, canRecognize, canRecord } from '../audio.js';
+import { canSpeak, canRecognize, canRecord, listeningOn, speakingOn } from '../audio.js';
 import { runSession, Q, mixedQuestions } from '../session.js';
 import { crumbs } from './shared.js';
 import { notFound } from './lang.js';
@@ -31,7 +31,7 @@ async function pools(code) {
 
 export async function practiceHub({ code, L }) {
   const { learned, units } = await pools(code);
-  const voice = canSpeak(L.tts);
+  const voice = listeningOn(L.tts);
   return h(
     'div',
     { 'data-title': 'Practice' },
@@ -44,11 +44,15 @@ export async function practiceHub({ code, L }) {
         ? `Exercises draw on the ${learned.length} words and phrases you have learned so far. Choose a unit below to focus on one topic instead.`
         : 'You have not learned any words yet, so exercises will use Unit 1. Learn words in the Course to fill your practice pool.',
     ),
-    voice ? null : h('div.callout', { style: { margin: '12px 0' } }, `No ${L.name} voice was found on this device, so listening exercises are hidden. Install one or enable the online voice in `, h('a', { href: '#/account' }, 'Settings'), '.'),
+    voice
+      ? null
+      : canSpeak(L.tts)
+        ? h('div.callout', { style: { margin: '12px 0' } }, 'Listening exercises are switched off, so they are hidden. Turn them back on in ', h('a', { href: '#/account' }, 'Settings → Audio'), '.')
+        : h('div.callout', { style: { margin: '12px 0' } }, `No ${L.name} voice was found on this device, so listening exercises are hidden. Install one or enable the online voice in `, h('a', { href: '#/account' }, 'Settings'), '.'),
     h(
       'div.mode-grid',
       { style: { marginTop: '16px' } },
-      MODES.filter((m) => (!m.audio || voice) && (!m.mic || canRecognize() || canRecord())).map((m) =>
+      MODES.filter((m) => (!m.audio || voice) && (!m.mic || speakingOn())).map((m) =>
         h('a.card', { href: `#/l/${code}/practice/${m.id}` }, h('span.ico', { html: ICONS[m.icon] }), h('h3', m.title), h('span.small.muted', m.desc)),
       ),
     ),
@@ -83,7 +87,7 @@ export async function practiceMode({ code, L, params, query }) {
   const phrases = pool.filter((i) => i.kind === 'phrase');
   switch (mode) {
     case 'mixed':
-      questions = mixedQuestions(pool, all, { n: 14, kinds: ['meaning', 'listen', 'recall', 'typeRoman', 'build', 'dictation', 'speak'].filter((k) => (k !== 'speak' || canRecognize()) && ((k !== 'listen' && k !== 'dictation') || canSpeak(L.tts))) });
+      questions = mixedQuestions(pool, all, { n: 14, kinds: ['meaning', 'listen', 'recall', 'typeRoman', 'build', 'dictation', 'speak'].filter((k) => (k !== 'speak' || (canRecognize() && speakingOn())) && ((k !== 'listen' && k !== 'dictation') || listeningOn(L.tts))) });
       break;
     case 'flashcards':
       questions = sample(pool, 20).map((it) => Q.flash(it, Math.random() < 0.5 ? 'en' : 'native'));
@@ -195,7 +199,7 @@ export async function learnView({ code, L, params }) {
   const per = store.settings().newPerSession;
   const root = h('div');
   const back = () => go(`/l/${code}/u/${n}?t=${part}`);
-  const voice = canSpeak(L.tts);
+  const voice = listeningOn(L.tts);
 
   let questions;
   let batch;
