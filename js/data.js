@@ -1,5 +1,7 @@
 // Loads course content (JSON under data/) and the right web font for each script.
 
+import { unitSentences, grammarForms, buildLexicon } from './sentences.js';
+
 const cache = new Map();
 async function get(url) {
   if (!cache.has(url)) {
@@ -47,6 +49,21 @@ export function unitItems(code, u) {
   (u.vocab || []).forEach((v) => items.push({ ...v, kind: 'word', unit: u.id, key: `w:${v.native}` }));
   (u.phrases || []).forEach((v) => items.push({ ...v, kind: 'phrase', unit: u.id, key: `p:${v.native}` }));
   return items;
+}
+
+// Full sentences from a unit's grammar examples and dialogue, each with the forms its grammar point teaches.
+export function unitSentenceItems(u) {
+  return unitSentences(u).map((s) => ({ ...s, forms: s.grammar != null ? grammarForms(u.grammar[s.grammar]) : null }));
+}
+
+// Every word form in a language's course, for the wrong choices in fill-the-gap questions.
+const lexicons = new Map();
+export async function lexicon(code) {
+  if (!lexicons.has(code)) {
+    const units = await allUnits(code);
+    lexicons.set(code, buildLexicon(units.flatMap((u) => [...unitItems(code, u), ...unitSentenceItems(u)])));
+  }
+  return lexicons.get(code);
 }
 
 export function scriptLetters(c) {

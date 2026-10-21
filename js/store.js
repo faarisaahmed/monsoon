@@ -470,7 +470,7 @@ export function dueCards(code, now = Date.now()) {
     .map(([key, c]) => ({ key, ...c }));
 }
 export function cardStats(code) {
-  if (!hasLang(code)) return { total: 0, learned: 0, mastered: 0, due: 0, words: 0, letters: 0 };
+  if (!hasLang(code)) return { total: 0, learned: 0, mastered: 0, due: 0, words: 0, sentences: 0, letters: 0 };
   const cs = Object.values(lang(code).cards);
   const now = Date.now();
   return {
@@ -479,6 +479,7 @@ export function cardStats(code) {
     mastered: cs.filter((c) => c.ivl >= 21).length,
     due: cs.filter((c) => c.due <= now).length,
     words: cs.filter((c) => c.kind === 'word').length,
+    sentences: cs.filter((c) => c.kind === 'sentence').length,
     letters: cs.filter((c) => c.kind === 'letter').length,
   };
 }

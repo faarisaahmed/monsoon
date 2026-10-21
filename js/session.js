@@ -4,6 +4,7 @@ import { h, fill, add, clear, shuffle, sample, normRoman, englishMatches, simila
 import { ctx, nt, rm, audioBtn, play, ICONS, writingPad } from './components.js';
 import { canSpeak, canRecognize, recognize, canRecord, record as recordAudio, stop, pauseFor, listeningOn, speakingOn } from './audio.js';
 import * as store from './store.js';
+import { cloze } from './sentences.js';
 
 // ---------- question builders ----------
 const distinctBy = (arr, f) => {
@@ -44,7 +45,7 @@ function overlaps(a, b) {
 }
 function distractors(item, pool, n, field) {
   const code = ctx.lang?.code;
-  const learnable = item.kind === 'word' || item.kind === 'phrase';
+  const learnable = item.kind === 'word' || item.kind === 'phrase' || item.kind === 'sentence';
   const cands = distinctBy(
     pool.filter((p) => p[field] !== item[field] && p.native !== item.native && p.en !== item.en && !(learnable && overlaps(p.en, item.en))),
     (p) => p[field],
@@ -55,7 +56,7 @@ function distractors(item, pool, n, field) {
     let s = Math.abs(v.length - target.length) / Math.max(4, target.length) * 3;
     if (p.kind !== item.kind) s += 10;
     if (item.pos && p.pos !== item.pos) s += 4;
-    if (item.kind === 'phrase') s += Math.min(3, Math.abs(words(p.en) - words(item.en))) + (isQuestion(p.en) !== isQuestion(item.en) ? 3 : 0);
+    if (item.kind === 'phrase' || item.kind === 'sentence') s += Math.min(3, Math.abs(words(p.en) - words(item.en))) + (isQuestion(p.en) !== isQuestion(item.en) ? 3 : 0);
     if (item.unit && p.unit) s += p.unit === item.unit ? -2 : Math.min(2, Math.abs(p.unit - item.unit) / 4);
     if (learnable && code && p.key && !store.card(code, p.key)) s += 1.5;
     if (fold(v)[0] && fold(v)[0] === fold(target)[0]) s -= 1;
@@ -81,6 +82,9 @@ export const Q = {
       .slice(0, Math.min(3, Math.max(1, 7 - toks.length)));
     return { type: 'build', item, tokens: shuffle([...toks, ...extra]), answer: toks };
   },
+  // hear a sentence, then put its words in order (no English shown)
+  listenBuild: (item, pool) => ({ ...Q.build(item, pool), listen: true }),
+  cloze: (item, lex) => cloze(item, { forms: item.forms, lex }),
   speak: (item) => ({ type: 'speak', item }),
   flash: (item, front) => ({ type: 'flash', item, front }),
   intro: (item) => ({ type: 'intro', item }),
@@ -160,6 +164,8 @@ export function runSession(root, opts) {
     if (opts.record === false || !q.item?.key) return;
     const key = q.item.key;
     const c = store.card(opts.code, key);
+    // in a review, a question that isn't a self-graded card grades itself
+    if (grade == null && opts.type === 'review' && c) grade = correct ? 2 : 0;
     if (grade != null) {
       store.ensureCard(opts.code, key, cardMeta(q.item));
       store.review(opts.code, key, grade);
@@ -190,6 +196,7 @@ export function runSession(root, opts) {
         'div',
         h('div', h('strong', ok ? 'Correct' : 'Not quite'), extraMsg ? h('span.muted', ' — ', extraMsg) : null),
         it && it.native ? h('div', nt(it.native), ' ', rm(it.roman, 'show'), h('span.muted', ' · ', it.en)) : null,
+        it?.kind === 'sentence' && it.note ? h('div.small.muted', it.note) : null,
       ),
       h('div.row', it?.native ? audioBtn(it.native) : null, cont),
     );
@@ -359,12 +366,48 @@ export function runSession(root, opts) {
       submit.disabled = true;
       const ok = got.join(' ') === q.answer.join(' ');
       record(q, ok);
-      play(it.native);
-      feedback(ok, q);
+      if (!q.listen) play(it.native);
+      feedback(ok, q, !ok && it.topic && it.grammar != null ? `see “${it.topic}”` : null);
     };
     if (L.dir === 'rtl') line.dir = bank.dir = 'rtl';
-    add(body, h('div.prompt', h('div.q', 'Build the sentence'), h('div.en-big', it.en)), line, bank, submit);
+    const prompt = q.listen
+      ? h('div.prompt', h('div.q', 'Listen, then build what you heard'), h('div.row', audioBtn(it.native, { size: 'lg', auto: true, onFail: audioFailed }), audioBtn(it.native, { slow: true })))
+      : h('div.prompt', h('div.q', 'Build the sentence'), h('div.en-big', it.en));
+    add(body, prompt, line, bank, submit);
     setKeys(null);
+  }
+
+  function renderCloze(q) {
+    const it = q.item;
+    const romanMode = store.settings().roman;
+    const gap = h('span.gap', '\u00a0');
+    const sentence = h('div.cloze', { dir: L.dir === 'rtl' ? 'rtl' : null }, q.before ? nt(q.before) : null, gap, q.after ? nt(q.after) : null);
+    const romanGap = h('span.gap.small', '\u00a0');
+    const roman = q.romanBefore != null && romanMode !== 'hide' ? h('div.roman.cloze-roman', q.romanBefore, ' ', romanGap, ' ', q.romanAfter) : null;
+    const buttons = q.options.map((o, idx) =>
+      h('button.opt', { onclick: () => choose(idx) }, h('span.k', idx + 1), h('span', nt(o.native), o.roman && romanMode === 'show' ? h('span.roman.small', ' ' + o.roman) : null)),
+    );
+    const choose = (idx) => {
+      if (buttons[0].disabled) return;
+      buttons.forEach((b, j) => {
+        b.disabled = true;
+        if (j === idx) b.classList.add('picked');
+        if (j === q.answer) b.classList.add('right');
+        else if (j === idx) b.classList.add('wrong');
+      });
+      const ok = idx === q.answer;
+      fill(gap, nt(q.options[q.answer].native));
+      gap.classList.add(ok ? 'good' : 'bad');
+      if (q.options[q.answer].roman) romanGap.textContent = q.options[q.answer].roman;
+      record(q, ok);
+      play(it.native);
+      feedback(ok, q, !ok && it.topic && it.grammar != null ? `see “${it.topic}”` : null);
+    };
+    add(body, h('div.prompt', h('div.q', 'Fill the gap with the right word'), h('div.en-big', it.en), sentence, roman), h('div.options', buttons));
+    setKeys((e) => {
+      const n = parseInt(e.key, 10);
+      if (n >= 1 && n <= buttons.length) choose(n - 1);
+    });
   }
 
   function renderSpeak(q) {
@@ -589,7 +632,7 @@ export function runSession(root, opts) {
     header();
     clear(body);
     const q = qs[i];
-    ({ mc: renderMC, letter: renderLetter, type: renderType, build: renderBuild, speak: renderSpeak, flash: renderFlash, intro: renderIntro, pair: renderPair, write: renderWrite, number: renderNumber })[q.type](q);
+    ({ mc: renderMC, letter: renderLetter, type: renderType, build: renderBuild, cloze: renderCloze, speak: renderSpeak, flash: renderFlash, intro: renderIntro, pair: renderPair, write: renderWrite, number: renderNumber })[q.type](q);
     const quiet = (label, kind, msg) =>
       body.appendChild(
         h('div.center.quiet', h('button.link-btn.small', { type: 'button', onclick: () => (stop(), pauseFor(kind), toast(msg), readapt()) }, label)),
@@ -670,11 +713,12 @@ export function runSession(root, opts) {
 }
 
 
-const needsAudio = (q) => q.type === 'pair' || q.type === 'number' || q.from === 'audio' || q.mode === 'audio2roman';
+const needsAudio = (q) => q.type === 'pair' || q.type === 'number' || q.from === 'audio' || q.mode === 'audio2roman' || q.listen;
 function writtenVersion(q) {
   if (q.from === 'audio') return { ...q, from: 'native' };
   if (q.mode === 'audio2roman') return { ...q, mode: 'en2roman' };
   if (q.type === 'number') return { ...q, written: true };
+  if (q.listen) return { ...q, listen: false };
   return null; // e.g. ear training: nothing to read instead
 }
 
@@ -724,4 +768,18 @@ export function mixedQuestions(items, pool, { n = 12, kinds = ['meaning', 'recal
     if (kind === 'typeNative') return Q.typeNative(it, keys);
     return Q[kind](it, pool);
   });
+}
+
+// Full-sentence practice: fill the gap with the right form, put the words in order, understand,
+// hear and translate. Long dialogue lines are kept to the kinds that stay manageable.
+export function sentenceQuestions(items, pool, lex, { n = 12, kinds = ['cloze', 'build', 'meaning', 'cloze', 'listenBuild', 'typeRoman'] } = {}) {
+  const chosen = sample(items, Math.min(n, items.length));
+  return chosen.map((it, idx) => sentenceQuestion(it, kinds[idx % kinds.length], pool, lex));
+}
+export function sentenceQuestion(it, kind, pool, lex) {
+  const len = words(it.native);
+  if (kind === 'cloze') return Q.cloze(it, lex) || sentenceQuestion(it, 'build', pool, lex);
+  if ((kind === 'build' || kind === 'listenBuild') && len > 9) return Q.cloze(it, lex) || Q.meaning(it, pool);
+  if (kind === 'typeRoman' && (it.roman || '').length > 34) return sentenceQuestion(it, 'build', pool, lex);
+  return Q[kind](it, pool);
 }

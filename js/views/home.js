@@ -2,6 +2,7 @@ import { h, fmtMinutes } from '../ui.js';
 import * as store from '../store.js';
 import * as data from '../data.js';
 import { weekChart } from './shared.js';
+import { rain } from '../rain.js';
 
 export async function homeView() {
   const langs = await data.languages();
@@ -23,25 +24,28 @@ export async function homeView() {
     );
   };
 
+  const sky = h(
+    'section.sky',
+    h('div.eyebrow', langs.map((l) => h('span.nt', { lang: l.code, style: { fontFamily: `"${l.font}", var(--ui)` } }, l.native))),
+    name ? h('p.hello', `Welcome back, ${name}.`) : null,
+    h('h1', 'Learn the languages of South Asia, properly.'),
+    h(
+      'p',
+      `A complete, calm course for ${countWord(langs.length)} major languages of India, Pakistan, Bangladesh, Nepal and Sri Lanka: the script, how to really pronounce it, the words people actually use, grammar that makes sense, and practice that sticks.`,
+    ),
+    store.isGuest()
+      ? h(
+          'div.row',
+          h('a.btn.primary', { href: '#/signup' }, 'Create a free account'),
+          h('span.small.muted', 'or just pick a language — your progress is kept and moves into your account when you sign up.'),
+        )
+      : null,
+  );
+  rain(sky);
+
   return h(
     'div',
-    h(
-      'section.sky',
-      h('div.eyebrow', langs.map((l) => h('span.nt', { lang: l.code, style: { fontFamily: `"${l.font}", var(--ui)` } }, l.native))),
-      name ? h('p.hello', `Welcome back, ${name}.`) : null,
-      h('h1', 'Learn the languages of South Asia, properly.'),
-      h(
-        'p',
-        `A complete, calm course for ${countWord(langs.length)} major languages of India, Pakistan, Bangladesh, Nepal and Sri Lanka: the script, how to really pronounce it, the words people actually use, grammar that makes sense, and practice that sticks.`,
-      ),
-      store.isGuest()
-        ? h(
-            'div.row',
-            h('a.btn.primary', { href: '#/signup' }, 'Create a free account'),
-            h('span.small.muted', 'or just pick a language — your progress is kept and moves into your account when you sign up.'),
-          )
-        : null,
-    ),
+    sky,
     started.length
       ? h(
           'section.section',

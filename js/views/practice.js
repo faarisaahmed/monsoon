@@ -3,18 +3,19 @@ import * as store from '../store.js';
 import * as data from '../data.js';
 import { ICONS } from '../components.js';
 import { canSpeak, canRecognize, canRecord, listeningOn, speakingOn } from '../audio.js';
-import { runSession, Q, mixedQuestions } from '../session.js';
+import { runSession, Q, mixedQuestions, sentenceQuestions, sentenceQuestion } from '../session.js';
 import { crumbs } from './shared.js';
 import { notFound } from './lang.js';
 
 const MODES = [
   { id: 'mixed', icon: 'refresh', title: 'Mixed practice', desc: 'A bit of everything from what you have learned.' },
+  { id: 'grammar', icon: 'check', title: 'Grammar in sentences', desc: 'Full sentences from the grammar lessons: fill the gap with the right form, build, translate.' },
   { id: 'flashcards', icon: 'cards', title: 'Flashcards', desc: 'Classic cards, both directions, graded by you.' },
   { id: 'listening', icon: 'ear', title: 'Listening', desc: 'Hear a word or sentence, pick its meaning.', audio: true },
   { id: 'dictation', icon: 'ear', title: 'Dictation', desc: 'Hear it, type what you heard.', audio: true },
   { id: 'translate', icon: 'keyboard', title: 'Translate', desc: 'English → type it in romanization.' },
   { id: 'typing-script', icon: 'keyboard', title: 'Type in the script', desc: 'English → type it in the native script, with an on-screen keyboard.' },
-  { id: 'sentences', icon: 'puzzle', title: 'Sentence builder', desc: 'Put the words of a sentence in the right order.' },
+  { id: 'sentences', icon: 'puzzle', title: 'Sentence builder', desc: 'Put the words of a sentence in the right order: phrases, grammar examples and dialogue lines.' },
   { id: 'speaking', icon: 'mic', title: 'Speaking', desc: 'Say it aloud; get checked by speech recognition or compare a recording.', mic: true },
   { id: 'letters', icon: 'letters', title: 'Letter drill', desc: 'Recognise every letter and its sound.' },
   { id: 'reading-words', icon: 'book', title: 'Read real words', desc: 'Sound out words in the script — no romanization shown.' },
@@ -23,10 +24,14 @@ const MODES = [
 ];
 
 async function pools(code) {
-  const [c, units] = await Promise.all([data.course(code), data.allUnits(code)]);
+  const [c, units, lex] = await Promise.all([data.course(code), data.allUnits(code), data.lexicon(code)]);
   const all = units.flatMap((u) => data.unitItems(code, u));
   const learned = all.filter((it) => store.card(code, it.key));
-  return { c, units, all, learned, letters: data.scriptLetters(c) };
+  const sentences = units.flatMap((u) => data.unitSentenceItems(u));
+  // sentences from the units you have reached: any word learned, grammar read, or sentences practised
+  const reached = new Set(units.filter((u) => { const us = store.unitState(code, u.id); return us.grammar || us.sentences || learned.some((i) => i.unit === u.id); }).map((u) => u.id));
+  const reachedSentences = sentences.filter((s) => reached.has(s.unit));
+  return { c, units, all, learned, sentences, reachedSentences, lex, letters: data.scriptLetters(c) };
 }
 
 export async function practiceHub({ code, L }) {
@@ -41,7 +46,7 @@ export async function practiceHub({ code, L }) {
       'p.muted',
       { style: { maxWidth: '64ch' } },
       learned.length
-        ? `Exercises draw on the ${learned.length} words and phrases you have learned so far. Choose a unit below to focus on one topic instead.`
+        ? `Exercises draw on the ${learned.length} words and phrases you have learned so far, and the grammar sentences from those units. Choose a unit below to focus on one topic instead.`
         : 'You have not learned any words yet, so exercises will use Unit 1. Learn words in the Course to fill your practice pool.',
     ),
     voice
@@ -80,9 +85,10 @@ export async function practiceMode({ code, L, params, query }) {
   const mode = params[1];
   const meta = MODES.find((m) => m.id === mode);
   if (!meta) return h('div.empty', 'Unknown practice mode.');
-  const { c, units, all, learned, letters } = await pools(code);
+  const { c, units, all, learned, letters, sentences, reachedSentences, lex } = await pools(code);
   const u = parseInt(query.get('u') || '0', 10);
   let pool = u ? data.unitItems(code, units[u - 1]) : learned.length >= 4 ? learned : data.unitItems(code, units[0]);
+  const sentencePool = u ? data.unitSentenceItems(units[u - 1]) : reachedSentences.length >= 4 ? reachedSentences : data.unitSentenceItems(units[0]);
   const keys = scriptKeys(c);
   const root = h('div');
   const exit = () => go(`/l/${code}/practice`);
@@ -93,7 +99,13 @@ export async function practiceMode({ code, L, params, query }) {
   const phrases = pool.filter((i) => i.kind === 'phrase');
   switch (mode) {
     case 'mixed':
-      questions = mixedQuestions(pool, all, { n: 14, kinds: ['meaning', 'listen', 'recall', 'typeRoman', 'build', 'dictation', 'speak'].filter((k) => (k !== 'speak' || (canRecognize() && speakingOn())) && ((k !== 'listen' && k !== 'dictation') || listeningOn(L.tts))) });
+      questions = shuffle([
+        ...mixedQuestions(pool, all, { n: 10, kinds: ['meaning', 'listen', 'recall', 'typeRoman', 'build', 'dictation', 'speak'].filter((k) => (k !== 'speak' || (canRecognize() && speakingOn())) && ((k !== 'listen' && k !== 'dictation') || listeningOn(L.tts))) }),
+        ...sentenceQuestions(sentencePool, sentences, lex, { n: 4, kinds: ['cloze', 'build', 'cloze', 'meaning'] }),
+      ]);
+      break;
+    case 'grammar':
+      questions = sentenceQuestions(sentencePool, sentences, lex, { n: 14 });
       break;
     case 'flashcards':
       questions = sample(pool, 20).map((it) => Q.flash(it, Math.random() < 0.5 ? 'en' : 'native'));
@@ -113,7 +125,8 @@ export async function practiceMode({ code, L, params, query }) {
     case 'sentences': {
       let ps = phrases.length >= 4 ? phrases : all.filter((i) => i.kind === 'phrase' && i.unit <= Math.max(2, u || 2));
       ps = ps.filter((p) => p.native.split(/\s+/).length >= 2);
-      questions = sample(ps, 10).map((p) => Q.build(p, all));
+      const ss = sentencePool.filter((x) => x.native.split(/\s+/).length <= 9);
+      questions = shuffle([...sample(ps, 5).map((p) => Q.build(p, all)), ...sample(ss, 7).map((x) => Q.build(x, sentences))]);
       break;
     }
     case 'speaking':
@@ -253,8 +266,9 @@ export async function learnView({ code, L, params }) {
 
 // ---------- spaced-repetition review ----------
 export async function reviewView({ code, L }) {
-  const { all, letters } = await pools(code);
+  const { all, letters, sentences, lex } = await pools(code);
   const byKey = new Map(all.map((i) => [i.key, i]));
+  sentences.forEach((s) => byKey.set(s.key, s));
   letters.forEach((l) => byKey.set(l.key, { ...l, native: l.char, en: l.sound, kind: 'letter' }));
   const due = store.dueCards(code).filter((d) => byKey.has(d.key));
   const root = h('div');
@@ -283,6 +297,8 @@ export async function reviewView({ code, L }) {
   }
   const session = due.slice(0, 60).map((d) => {
     const it = byKey.get(d.key);
+    // sentences are reviewed by using them, not by flipping a card
+    if (it.kind === 'sentence') return sentenceQuestion(it, d.reps >= 2 ? (Math.random() < 0.5 ? 'build' : 'typeRoman') : Math.random() < 0.6 ? 'cloze' : 'build', sentences, lex);
     return Q.flash(it, it.kind !== 'letter' && d.reps >= 2 && Math.random() < 0.5 ? 'en' : 'native');
   });
   runSession(root, { code, type: 'review', questions: session, onExit: () => go(`/l/${code}`), doneLabel: 'Done' });

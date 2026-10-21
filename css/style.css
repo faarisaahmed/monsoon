@@ -231,6 +231,7 @@ input:focus, select:focus, textarea:focus { border-color: var(--accent); }
   background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px;
 }
 .unit-row:hover { border-color: var(--faint); }
+button.unit-row { width: 100%; text-align: left; font: inherit; cursor: pointer; }
 .unit-num { width: 34px; height: 34px; border-radius: 50%; background: var(--surface-2); display: grid; place-items: center; font-weight: 650; font-size: 0.9rem; color: var(--muted); }
 .unit-row.done .unit-num { background: var(--good-soft); color: var(--good); }
 .unit-row.started .unit-num { background: var(--accent-soft); color: var(--accent); }
@@ -321,6 +322,12 @@ th { font-weight: 600; color: var(--muted); font-size: 0.85rem; }
 .prompt .nt.long { font-size: 1.7rem; }
 .lang-ur .prompt .nt { line-height: 2; }
 .prompt .en-big { font-size: 1.6rem; font-weight: 600; }
+.cloze { display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: 0 0.35em; margin-top: 6px; }
+.prompt .cloze .nt { font-size: 1.9rem; }
+.cloze .gap { display: inline-block; min-width: 3.2em; border-bottom: 2px solid var(--accent); text-align: center; line-height: 1.3; }
+.cloze .gap.good { border-color: var(--good); color: var(--good); }
+.cloze .gap.bad { border-color: var(--bad, #b4513f); color: var(--accent); }
+.cloze-roman .gap { display: inline-block; min-width: 3em; border-bottom: 1px solid var(--faint); }
 .options { display: grid; gap: 10px; }
 .options.two { grid-template-columns: 1fr 1fr; }
 .opt {
@@ -445,15 +452,17 @@ kbd { font: 0.78rem var(--ui); border: 1px solid var(--line); border-bottom-widt
     radial-gradient(90% 60% at 90% 10%, rgba(255, 255, 255, 0.08), transparent 55%),
     linear-gradient(170deg, var(--sky-1), var(--sky-2));
 }
-.sky::before, .sky::after {
-  content: ''; position: absolute; inset: -40px; z-index: -1; pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cg stroke='white' stroke-width='1.1' stroke-linecap='round'%3E%3Cpath d='M14 6l-3 14M58 30l-3 14M96 2l-3 14M36 70l-3 14M80 84l-3 14M112 56l-3 14M24 104l-3 14'/%3E%3C/g%3E%3C/svg%3E");
-  opacity: 0.22; animation: rain 0.9s linear infinite;
+.sky canvas.rain { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
+/* low mist drifting behind the rain */
+.sky::before {
+  content: ''; position: absolute; inset: 0 -30%; z-index: -2; pointer-events: none; opacity: 0.5;
+  background:
+    radial-gradient(40% 55% at 20% 100%, rgba(255, 255, 255, 0.12), transparent 70%),
+    radial-gradient(35% 45% at 65% 95%, rgba(255, 255, 255, 0.09), transparent 70%),
+    radial-gradient(30% 40% at 95% 100%, rgba(255, 255, 255, 0.1), transparent 70%);
+  animation: mist 38s ease-in-out infinite alternate;
 }
-.sky::after { background-size: 190px 190px; opacity: 0.12; animation-duration: 1.6s; }
-@keyframes rain { from { background-position: 0 0; } to { background-position: -26px 120px; } }
-.sky::after { animation-name: rain-far; }
-@keyframes rain-far { from { background-position: 0 0; } to { background-position: -41px 190px; } }
+@keyframes mist { from { transform: translateX(-6%); } to { transform: translateX(6%); } }
 .sky h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.12; max-width: 17ch; margin-bottom: 14px; color: var(--sky-text); }
 .sky p { font-size: 1.08rem; max-width: 60ch; color: color-mix(in srgb, var(--sky-text) 80%, transparent); }
 .sky .eyebrow { font-size: 0.95rem; letter-spacing: 0.02em; margin-bottom: 18px; color: color-mix(in srgb, var(--sky-text) 70%, transparent); display: flex; flex-wrap: wrap; gap: 4px 14px; }
@@ -462,7 +471,7 @@ kbd { font: 0.78rem var(--ui); border: 1px solid var(--line); border-bottom-widt
 .sky .muted { color: color-mix(in srgb, var(--sky-text) 70%, transparent); }
 .sky .hello { color: var(--sun); font-weight: 550; margin-bottom: 8px; }
 @media (max-width: 600px) { .sky { padding: 30px 20px 28px; border-radius: 18px; } }
-@media (prefers-reduced-motion: reduce) { .sky::before, .sky::after { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .sky::before { animation: none; } }
 
 /* a ripple when you get it right */
 .opt.right.picked, .feedback.good { position: relative; overflow: hidden; }
