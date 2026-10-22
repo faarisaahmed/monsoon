@@ -26,11 +26,11 @@ Monsoon is a calm, thorough, open-source course for the major languages of South
 - **Script**: every vowel, vowel sign, consonant, special mark, common conjuncts and native digits. Each one comes with audio, IPA, a plain-English description of the sound, an example word, stroke hints and a handwriting pad that scores your attempt.
 - **Pronunciation**: 8–14 lessons on the sounds English speakers get wrong (retroflex vs dental, aspiration, nasal vowels, vowel length, Punjabi tones, Tamil ழ, Urdu q/x/ġ…), with minimal pairs, ear-training quizzes and speaking practice using your microphone.
 - **20 units** following the same path in every language, from greetings to telling stories. Each unit has about 25 words, about 10 phrases, grammar explanations with examples, a dialogue and cultural notes.
-- **Sentences & grammar**: every grammar point can be practised in full sentences (fill the gap with the right form, put the words in order, listen and build, translate). Each unit has a Sentences step between Grammar and Dialogue, the unit check includes sentences, and sentences join the review deck.
-- **Practice**: mixed sessions, flashcards, listening, dictation, translation, typing in the native script (with an on-screen keyboard), sentence building, speaking (speech recognition, or record and compare), letter drills, reading real words without romanization, handwriting and numbers.
+- **Sentences & grammar**: every grammar point can be practised in full sentences (fill the gap with the right form, put the words in order, listen and build, translate). Each unit has a Sentences step between Grammar and Dialogue, the unit check includes sentences, and sentences join the review deck. A Grammar section gathers every point into a handbook grouped by topic (building sentences, nouns and pronouns, postpositions and cases, verbs and tenses, want/can/must, requests and conditions, everyday patterns), each with its own sentence practice.
+- **Practice**: mixed sessions, flashcards, listening, dictation, translation, typing in the native script (with an on-screen keyboard), grammar in sentences, speaking (speech recognition, or record and compare), letter drills, reading real words without romanization, handwriting and numbers.
 - **Review**: spaced repetition (SM-2 style) across everything you've learned.
 - **Conversation**: role-play any of the 20 dialogues (you type or say your lines and compare with the original), or answer questions in your own words, with example answers from the course and a synced journal of what you wrote.
-- **Reference**: numbers 0–100 plus lakh and crore, a searchable glossary, a grammar index, a printable alphabet chart and a reading room.
+- **Reference**: numbers 0–100 plus lakh and crore, a searchable glossary and a reading room with all the dialogues.
 
 ## Design principles
 

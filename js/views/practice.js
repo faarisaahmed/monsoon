@@ -9,13 +9,13 @@ import { notFound } from './lang.js';
 
 const MODES = [
   { id: 'mixed', icon: 'refresh', title: 'Mixed practice', desc: 'A bit of everything from what you have learned.' },
-  { id: 'grammar', icon: 'check', title: 'Grammar in sentences', desc: 'Full sentences from the grammar lessons: fill the gap with the right form, build, translate.' },
+  { id: 'grammar', icon: 'check', title: 'Grammar in sentences', desc: 'Full sentences from the grammar lessons: fill the gap with the right form, put the words in order, translate.' },
   { id: 'flashcards', icon: 'cards', title: 'Flashcards', desc: 'Classic cards, both directions, graded by you.' },
   { id: 'listening', icon: 'ear', title: 'Listening', desc: 'Hear a word or sentence, pick its meaning.', audio: true },
   { id: 'dictation', icon: 'ear', title: 'Dictation', desc: 'Hear it, type what you heard.', audio: true },
   { id: 'translate', icon: 'keyboard', title: 'Translate', desc: 'English → type it in romanization.' },
   { id: 'typing-script', icon: 'keyboard', title: 'Type in the script', desc: 'English → type it in the native script, with an on-screen keyboard.' },
-  { id: 'sentences', icon: 'puzzle', title: 'Sentence builder', desc: 'Put the words of a sentence in the right order: phrases, grammar examples and dialogue lines.' },
+  { id: 'sentences', icon: 'puzzle', title: 'Sentence builder', desc: 'Put the words of a sentence in the right order: phrases, grammar examples and dialogue lines.', hidden: true },
   { id: 'speaking', icon: 'mic', title: 'Speaking', desc: 'Say it aloud; get checked by speech recognition or compare a recording.', mic: true },
   { id: 'letters', icon: 'letters', title: 'Letter drill', desc: 'Recognise every letter and its sound.' },
   { id: 'reading-words', icon: 'book', title: 'Read real words', desc: 'Sound out words in the script — no romanization shown.' },
@@ -57,15 +57,9 @@ export async function practiceHub({ code, L }) {
     h(
       'div.mode-grid',
       { style: { marginTop: '16px' } },
-      MODES.filter((m) => (!m.audio || voice) && (!m.mic || speakingOn())).map((m) =>
+      MODES.filter((m) => !m.hidden && (!m.audio || voice) && (!m.mic || speakingOn())).map((m) =>
         h('a.card', { href: `#/l/${code}/practice/${m.id}` }, h('span.ico', { html: ICONS[m.icon] }), h('h3', m.title), h('span.small.muted', m.desc)),
       ),
-    ),
-    h(
-      'a.card.row',
-      { href: `#/l/${code}/talk`, style: { marginTop: '14px', gap: '14px', flexWrap: 'nowrap' } },
-      h('span.ico', { html: ICONS.chat }),
-      h('div', h('h3', { style: { margin: 0 } }, 'Conversation'), h('span.small.muted', 'Role-play the dialogues, or answer questions in your own words and keep a journal.')),
     ),
     h(
       'section.section',

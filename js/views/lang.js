@@ -3,7 +3,7 @@ import * as store from '../store.js';
 import * as data from '../data.js';
 import { nt, rm, audioBtn, itemRow, exampleRow, writingPad, ctx } from '../components.js';
 import { speak, canSpeak, stop } from '../audio.js';
-import { runSession, Q, mixedQuestions, sentenceQuestions } from '../session.js';
+import { runSession, Q, mixedQuestions, sentenceQuestions, sentenceDrill } from '../session.js';
 import { weekChart, crumbs } from './shared.js';
 
 const PARTS = [
@@ -70,7 +70,7 @@ export async function langHome({ code, L }) {
     h('details.about', { style: { marginTop: '22px' }, open: !started }, h('summary', `About ${c.name}`), md(c.intro), h('h3', 'Reading the romanization'), md(c.romanizationNote)),
     h(
       'section.section',
-      h('div.section-head', h('h2', 'Script & sounds'), h('span.small.muted', 'Optional — dip in whenever you like')),
+      h('div.section-head', h('h2', 'Alongside the course'), h('span.small.muted', 'Dip in whenever you like')),
       h(
         'div.grid.wide',
         h(
@@ -87,7 +87,7 @@ export async function langHome({ code, L }) {
           h('p.small.muted', `${c.pronunciation.length} lessons on the sounds that matter — minimal pairs, ear training and speaking.`),
           h('div.bar.good', h('i', { style: { width: `${(soundsSeen / c.pronunciation.length) * 100}%` } })),
         ),
-        h('a.card', { href: `#/l/${code}/numbers` }, h('h3', 'Numbers'), h('p.small.muted', 'Every number from 0 to 100 (they are irregular!), plus hundreds, thousands, lakhs and crores.')),
+        h('a.card', { href: `#/l/${code}/grammar` }, h('h3', 'Grammar & sentence structure'), h('p.small.muted', `All ${units.reduce((s, u) => s + u.grammar.length, 0)} grammar points, grouped by what they do — word order, cases, tenses, linking clauses — each with sentence practice.`)),
       ),
     ),
     h(
@@ -182,24 +182,19 @@ export async function unitView({ code, L, params, query }) {
   // A sentence session in the pane. Sentences you get right join your review deck.
   function drill(list, title, mark, count) {
     stop();
-    const back = mark === 'grammar' ? 'grammar' : 'sentences';
-    const questions = sentenceQuestions(list, sentencePool, lex, { n: count || Math.min(10, list.length) });
+    const back = mark === 'sentences' ? 'sentences' : 'grammar';
     clear(pane);
     if (title) add(pane, h('p.small.muted.center', title));
     const host = h('div');
     add(pane, host);
-    runSession(host, {
+    sentenceDrill(host, {
       code,
-      learn: true,
-      questions,
+      list,
+      pool: sentencePool,
+      lex,
+      n: count,
       onExit: () => show(back),
-      doneLabel: 'Back',
-      retry: (missed) => runSession(host, { code, questions: sentenceQuestions(missed, sentencePool, lex, { n: missed.length, kinds: ['build', 'cloze', 'meaning'] }), onExit: () => show(back) }),
-      onDone: ({ pct, missed }) => {
-        questions.forEach((q) => {
-          const c = store.card(code, q.item.key);
-          if (c && !c.reps && !missed.some((m) => m.native === q.item.native)) store.review(code, q.item.key, 2);
-        });
+      onDone: ({ pct }) => {
         if (mark === 'sentences' && pct >= 70) {
           store.markUnit(code, n, 'sentences');
           renderTabs('sentences');
@@ -274,35 +269,19 @@ export async function unitView({ code, L, params, query }) {
     } else if (k === 'sentences') {
       const earlier = sentencePool.filter((x) => x.unit < n);
       const fromGrammar = sentences.filter((x) => x.grammar != null);
-      const fromDialogue = sentences.filter((x) => x.grammar == null);
       add(
         pane,
         h(
           'div.card',
           { style: { maxWidth: '640px' } },
           h('h2', 'Sentences'),
-          h('p.muted', `Full sentences built on this unit's grammar: fill the gap with the right form, put the words in order, understand what you hear, and translate. Score 70% or more to tick off this step. Sentences you miss come back in your reviews.`),
+          h('p.muted', `Full sentences built on this unit's grammar and dialogue: fill the gap with the right form, put the words in order, understand what you hear, and translate. Score 70% or more to tick off this step. Sentences you miss come back in your reviews.`),
+          h('p.small.muted', 'To work on one grammar point at a time, use ', h('button.linkish', { onclick: () => (history.replaceState(null, '', `#/l/${code}/u/${n}?t=grammar`), show('grammar')) }, 'Practise this'), ' under each point in the Grammar step, or the ', h('a', { href: `#/l/${code}/grammar` }, 'Grammar handbook'), '.'),
           us().sentences ? h('p.small', { style: { color: 'var(--good)' } }, '✓ Done. Practise again any time, mixed with earlier units.') : null,
           h(
             'div.row',
             h('button.btn.primary', { onclick: () => drill(sentences, null, 'sentences', 12) }, 'Start sentence practice'),
             earlier.length ? h('button.btn', { onclick: () => drill([...sample(sentences, 8), ...sample(earlier, 6)], null, null, 14) }, 'Mix with earlier units') : null,
-          ),
-        ),
-        h(
-          'section.section',
-          h('h3', 'By grammar point'),
-          h(
-            'div.unit-list',
-            u.grammar.map((g, gi) => {
-              const own = sentences.filter((x) => x.grammar === gi);
-              return own.length
-                ? h('button.unit-row', { onclick: () => drill(own, g.title, null) }, h('span.unit-num', gi + 1), h('div', h('div.t', g.title), h('div.g', `${own.length} example sentences`)), h('span.small.muted', 'Practise'))
-                : null;
-            }),
-            fromDialogue.length
-              ? h('button.unit-row', { onclick: () => drill(fromDialogue, u.dialogue.title, null) }, h('span.unit-num', '“'), h('div', h('div.t', `Lines from the dialogue: ${u.dialogue.title}`), h('div.g', `${fromDialogue.length} sentences`)), h('span.small.muted', 'Practise'))
-              : null,
           ),
         ),
         fromGrammar.length ? null : h('p.small.muted', 'This unit has no grammar examples yet.'),
@@ -631,7 +610,7 @@ export async function readingView({ code, L, query }) {
     return h(
       'div',
       { 'data-title': u.dialogue.title },
-      crumbs([L.name, `#/l/${code}`], ['Reading', `#/l/${code}/reading`], [u.dialogue.title]),
+      crumbs([L.name, `#/l/${code}`], ['Reference', `#/l/${code}/reference`], ['Reading', `#/l/${code}/reading`], [u.dialogue.title]),
       dialogueBlock(u.dialogue),
       h('hr'),
       h(
@@ -645,7 +624,7 @@ export async function readingView({ code, L, query }) {
   return h(
     'div',
     { 'data-title': 'Reading' },
-    crumbs([L.name, `#/l/${code}`], ['Reading']),
+    crumbs([L.name, `#/l/${code}`], ['Reference', `#/l/${code}/reference`], ['Reading']),
     h('h1', 'Reading room'),
     h('p.muted', { style: { maxWidth: '64ch' } }, 'All the dialogues from the course in one place, from simplest to hardest. Read them in the script, listen, then shadow them aloud. Try hiding the romanization and English once you know a text.'),
     h(
@@ -665,7 +644,7 @@ export async function readingView({ code, L, query }) {
 
 // ---------- reference ----------
 export async function referenceView({ code, L }) {
-  const [c, units] = await Promise.all([data.course(code), data.allUnits(code)]);
+  const c = await data.course(code);
   return h(
     'div',
     { 'data-title': 'Reference' },
@@ -675,19 +654,7 @@ export async function referenceView({ code, L }) {
       'div.grid',
       h('a.card', { href: `#/l/${code}/glossary` }, h('h3', 'Glossary'), h('p.small.muted', 'Search every word and phrase in the course, in English, romanization or script.')),
       h('a.card', { href: `#/l/${code}/numbers` }, h('h3', 'Numbers'), h('p.small.muted', '0–100 and the big ones, with audio.')),
-      h('a.card', { href: `#/l/${code}/script` }, h('h3', 'Alphabet chart'), h('p.small.muted', 'The whole script on one page — printable.')),
-      h('a.card', { href: `#/l/${code}/reading` }, h('h3', 'Reading room'), h('p.small.muted', 'All 20 dialogues.')),
-    ),
-    h(
-      'section.section',
-      h('h2', 'Grammar index'),
-      h(
-        'div.table-wrap',
-        h(
-          'table',
-          units.flatMap((u) => u.grammar.map((g) => h('tr', h('td.small.muted', `Unit ${u.id}`), h('td', h('a', { href: `#/l/${code}/u/${u.id}?t=grammar` }, g.title))))),
-        ),
-      ),
+      h('a.card', { href: `#/l/${code}/reading` }, h('h3', 'Reading room'), h('p.small.muted', 'All 20 dialogues in one place, to read, listen to and shadow.')),
     ),
     h('section.section', h('h2', 'Romanization in this course'), md(c.romanizationNote)),
   );
@@ -698,7 +665,7 @@ export async function numbersView({ code, L }) {
   return h(
     'div',
     { 'data-title': 'Numbers' },
-    crumbs([L.name, `#/l/${code}`], ['Numbers']),
+    crumbs([L.name, `#/l/${code}`], ['Reference', `#/l/${code}/reference`], ['Numbers']),
     h('div.row.between', h('h1', { style: { margin: 0 } }, 'Numbers'), canSpeak(L.tts) ? h('a.btn.primary', { href: `#/l/${code}/practice/numbers` }, 'Listening practice') : null),
     h('p.muted', { style: { maxWidth: '64ch' } }, 'Tap any number to hear it. Numbers up to 100 are worth learning in chunks of ten — many are irregular, so there is no shortcut, but you will hear them constantly (prices, times, phone numbers).'),
     h(

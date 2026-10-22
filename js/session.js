@@ -783,3 +783,24 @@ export function sentenceQuestion(it, kind, pool, lex) {
   if (kind === 'typeRoman' && (it.roman || '').length > 34) return sentenceQuestion(it, 'build', pool, lex);
   return Q[kind](it, pool);
 }
+
+// A sentence drill: a short session of sentence questions. Sentences you get right on the first
+// go join your review deck, so the grammar keeps coming back.
+export function sentenceDrill(host, { code, list, pool, lex, n, onExit, onDone, doneLabel = 'Back' }) {
+  const questions = sentenceQuestions(list, pool, lex, { n: n || Math.min(10, list.length) });
+  runSession(host, {
+    code,
+    learn: true,
+    questions,
+    onExit,
+    doneLabel,
+    retry: (missed) => runSession(host, { code, questions: sentenceQuestions(missed, pool, lex, { n: missed.length, kinds: ['build', 'cloze', 'meaning'] }), onExit }),
+    onDone: (res) => {
+      questions.forEach((q) => {
+        const c = store.card(code, q.item.key);
+        if (c && !c.reps && !res.missed.some((m) => m.native === q.item.native)) store.review(code, q.item.key, 2);
+      });
+      onDone?.(res);
+    },
+  });
+}

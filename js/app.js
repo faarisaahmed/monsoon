@@ -9,6 +9,7 @@ import { homeView, aboutView } from './views/home.js';
 import { loginView, signupView, forgotView, accountView } from './views/account.js';
 import { langHome, unitView, scriptView, letterView, soundsView, soundView, readingView, referenceView, numbersView, glossaryView } from './views/lang.js';
 import { practiceHub, practiceMode, reviewView, learnView } from './views/practice.js';
+import { grammarHub, grammarPoint } from './views/grammar.js';
 import { talkView, roleplayView } from './views/talk.js';
 
 const routes = [
@@ -25,12 +26,14 @@ const routes = [
   [/^\/l\/(\w+)\/script\/(\d+)$/, letterView, 'script'],
   [/^\/l\/(\w+)\/sounds$/, soundsView, 'sounds'],
   [/^\/l\/(\w+)\/sounds\/([\w-]+)$/, soundView, 'sounds'],
+  [/^\/l\/(\w+)\/grammar$/, grammarHub, 'grammar'],
+  [/^\/l\/(\w+)\/grammar\/(\d+)-(\d+)$/, grammarPoint, 'grammar'],
   [/^\/l\/(\w+)\/practice$/, practiceHub, 'practice'],
   [/^\/l\/(\w+)\/practice\/([\w-]+)$/, practiceMode, 'practice'],
   [/^\/l\/(\w+)\/talk$/, talkView, 'talk'],
   [/^\/l\/(\w+)\/talk\/(\d+)$/, roleplayView, 'talk'],
   [/^\/l\/(\w+)\/review$/, reviewView, 'review'],
-  [/^\/l\/(\w+)\/reading$/, readingView, 'reading'],
+  [/^\/l\/(\w+)\/reading$/, readingView, 'reference'],
   [/^\/l\/(\w+)\/reference$/, referenceView, 'reference'],
   [/^\/l\/(\w+)\/numbers$/, numbersView, 'reference'],
   [/^\/l\/(\w+)\/glossary$/, glossaryView, 'reference'],
@@ -40,13 +43,13 @@ const DROP = '<svg viewBox="0 0 22 26" aria-hidden="true"><path d="M11 1.5C7 7.2
 
 const SUBNAV = [
   ['home', 'Overview', ''],
-  ['script', 'Script', '/script'],
-  ['sounds', 'Pronunciation', '/sounds'],
   ['course', 'Course', '#units'],
+  ['grammar', 'Grammar', '/grammar'],
   ['practice', 'Practice', '/practice'],
   ['talk', 'Conversation', '/talk'],
   ['review', 'Review', '/review'],
-  ['reading', 'Reading', '/reading'],
+  ['script', 'Script', '/script'],
+  ['sounds', 'Pronunciation', '/sounds'],
   ['reference', 'Reference', '/reference'],
 ];
 
