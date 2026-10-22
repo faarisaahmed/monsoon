@@ -319,7 +319,7 @@ export async function accountView() {
     'div.card',
     h('h2', 'Learning'),
     h('div.stack',
-      h('div', h('div.small.muted', 'Romanization (Latin-letter spelling)'), seg('roman', [['show', 'Always show'], ['tap', 'Tap to reveal'], ['hide', 'Hide']]), h('p.tiny.faint', { style: { marginTop: '4px' } }, 'Once you can read the script, switch to "Tap to reveal" — it makes a big difference.')),
+      h('div', h('div.small.muted', 'Romanization (Latin-letter spelling)'), seg('roman', [['show', 'Always show'], ['tap', 'Tap to reveal'], ['hide', 'Hide']]), h('p.tiny.faint', { style: { marginTop: '4px' } }, 'Not learning to read the script? Keep "Always show": every word, answer choice and sentence tile comes with its romanization. Once you can read, switch to "Tap to reveal" — it makes a big difference. The abc button in any exercise switches it on or off.')),
       h('div', h('div.small.muted', 'New words per learning session'), newPer),
       h('div', h('div.small.muted', 'Daily time you would like to spend (minutes, optional)'), goal, h('p.tiny.faint', { style: { marginTop: '4px' } }, 'Just a gentle guide shown on the overview. Set 0 to hide it. There are no streaks — missing a day costs nothing.')),
       h('div', h('div.small.muted', 'Theme'), seg('theme', [['auto', 'Auto'], ['light', 'Light'], ['dark', 'Dark']])),

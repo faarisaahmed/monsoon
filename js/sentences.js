@@ -4,6 +4,13 @@
 
 const PUNCT = /[?.!,।॥۔؟،:;"“”‘’()[\]…–—]/g;
 export const tokens = (s) => (s || '').replace(PUNCT, ' ').split(/\s+/).filter(Boolean);
+// Romanized words: apostrophes stay, since they are part of the spelling (ko’ī, ʿaláykum).
+export const romanWords = (s) => (s || '').replace(/[?.!,:;"“”()…–—]/g, ' ').split(/\s+/).filter(Boolean);
+// The romanization of each word of a sentence, or null when the two don't line up word for word.
+export function wordRomans(item) {
+  const r = romanWords(item.roman);
+  return r.length && r.length === tokens(item.native).length ? r : null;
+}
 const chars = (s) => [...s];
 const NATIVE = /[^\p{Script=Latin}\p{N}\p{P}\p{S}\s]/u;
 const MARK = /\p{M}/u;
@@ -51,7 +58,7 @@ export function buildLexicon(items) {
   const lex = new Map();
   for (const it of items) {
     const n = tokens(it.native);
-    const r = tokens((it.roman || '').replace(/[?.!,:;"“”‘’()…–—]/g, ' '));
+    const r = romanWords(it.roman);
     n.forEach((t, i) => {
       if (!NATIVE.test(t)) return;
       const roman = n.length === r.length ? r[i].toLowerCase() : null;
@@ -104,7 +111,7 @@ function family(word, lex, exclude) {
 export function cloze(item, { forms, lex, rnd = Math.random }) {
   const toks = tokens(item.native);
   if (toks.length < 2) return null;
-  const romans = tokens((item.roman || '').replace(/[?.!,:;"“”‘’()…–—]/g, ' '));
+  const romans = romanWords(item.roman);
   const aligned = romans.length === toks.length;
   const once = (t) => toks.filter((x) => x === t).length === 1;
   const W = forms?.words || [];

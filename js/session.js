@@ -4,7 +4,7 @@ import { h, fill, add, clear, shuffle, sample, normRoman, englishMatches, simila
 import { ctx, nt, rm, audioBtn, play, ICONS, writingPad } from './components.js';
 import { canSpeak, canRecognize, recognize, canRecord, record as recordAudio, stop, pauseFor, listeningOn, speakingOn } from './audio.js';
 import * as store from './store.js';
-import { cloze } from './sentences.js';
+import { cloze, tokens, wordRomans, romanWords } from './sentences.js';
 
 // ---------- question builders ----------
 const distinctBy = (arr, f) => {
@@ -77,10 +77,34 @@ export const Q = {
   typeNative: (item, keys) => ({ type: 'type', item, mode: 'en2native', keys }),
   build: (item, pool) => {
     const toks = item.native.replace(/[?.!,।۔؟،]/g, ' $& ').split(/\s+/).filter(Boolean);
-    const extra = shuffle(pool.filter((p) => p !== item && p.native.includes(' ')).flatMap((p) => p.native.split(/\s+/)))
-      .filter((t) => !toks.includes(t) && !/^[?.!,।۔؟،]$/.test(t))
-      .slice(0, Math.min(3, Math.max(1, 7 - toks.length)));
-    return { type: 'build', item, tokens: shuffle([...toks, ...extra]), answer: toks };
+    // romanization for each tile, so the sentence can be built without reading the script
+    const romans = new Map();
+    const own = wordRomans(item);
+    if (own) toks.filter((t) => tokens(t).length).forEach((t, j) => romans.set(t, own[j]));
+    const others = shuffle(pool.filter((p) => p !== item && p.native.includes(' ')));
+    const extra = [];
+    const extraRoman = [];
+    const want = Math.min(3, Math.max(1, 7 - toks.length));
+    for (const p of others) {
+      if (extra.length >= want) break;
+      const r = wordRomans(p);
+      tokens(p.native).forEach((t, j) => {
+        if (extra.length >= want || toks.includes(t) || extra.includes(t)) return;
+        extra.push(t);
+        if (r) romans.set(t, r[j]), extraRoman.push(r[j]);
+      });
+    }
+    const romanAnswer = romanWords(item.roman);
+    return {
+      type: 'build',
+      item,
+      tokens: shuffle([...toks, ...extra]),
+      answer: toks,
+      romans: own ? romans : null,
+      // when the words don't line up, the tiles can be in romanization instead
+      romanTokens: shuffle([...romanAnswer, ...extraRoman.filter((r) => !romanAnswer.includes(r))]),
+      romanAnswer,
+    };
   },
   // hear a sentence, then put its words in order (no English shown)
   listenBuild: (item, pool) => ({ ...Q.build(item, pool), listen: true }),
@@ -156,6 +180,26 @@ export function runSession(root, opts) {
       h('button.icon-btn.sm', { title: 'Leave session', 'aria-label': 'Leave session', html: ICONS.x, onclick: () => (setKeys(null), opts.onExit?.()) }),
       h('div.bar', h('i', { style: { width: `${(i / qs.length) * 100}%` } })),
       h('span.small.muted', `${Math.min(i + 1, qs.length)} / ${qs.length}`),
+      romanToggle(),
+    );
+  }
+
+  // Romanization on or off without leaving the session; the question redraws if it isn't answered yet.
+  function romanToggle() {
+    const on = store.settings().roman === 'show';
+    return h(
+      'button.roman-toggle' + (on ? '.on' : ''),
+      {
+        type: 'button',
+        title: on ? 'Romanization is shown — tap to hide it' : 'Show romanization (Latin letters) everywhere',
+        'aria-pressed': String(on),
+        onclick: () => {
+          store.setSetting('roman', on ? 'hide' : 'show');
+          if (i < qs.length && !body.querySelector('.feedback')) show();
+          else header();
+        },
+      },
+      'abc',
     );
   }
 
@@ -336,13 +380,19 @@ export function runSession(root, opts) {
     const it = q.item;
     const line = h('div.chips.answer-line');
     const bank = h('div.chips');
+    const showRoman = store.settings().roman === 'show';
+    // can't pair each word with its romanization? then build it in romanization
+    const inRoman = showRoman && !q.romans && q.romanAnswer?.length > 1;
+    const tiles = inRoman ? q.romanTokens : q.tokens;
+    const answer = inRoman ? q.romanAnswer : q.answer;
+    const face = (t) => (inRoman ? h('span.chip-r', t) : [nt(t), showRoman && q.romans?.get(t) ? h('span.chip-roman', q.romans.get(t)) : null]);
     const chosen = [];
-    const chips = q.tokens.map((t) => {
-      const c = h('button.chip', { type: 'button' }, nt(t));
+    const chips = tiles.map((t) => {
+      const c = h('button.chip', { type: 'button', 'data-t': t }, face(t));
       c.onclick = () => {
         if (done) return;
         if (c.parentNode === bank) {
-          const placeholder = h('span.chip.used', nt(t));
+          const placeholder = h('span.chip.used', face(t));
           c._ph = placeholder;
           bank.replaceChild(placeholder, c);
           line.appendChild(c);
@@ -360,16 +410,16 @@ export function runSession(root, opts) {
     const submit = h('button.btn.primary.block', { style: { marginTop: '16px' } }, 'Check');
     submit.onclick = () => {
       if (done) return;
-      const got = [...line.children].map((c) => c.textContent);
+      const got = [...line.children].map((c) => c.dataset.t);
       if (!got.length) return;
       done = true;
       submit.disabled = true;
-      const ok = got.join(' ') === q.answer.join(' ');
+      const ok = got.join(' ') === answer.join(' ');
       record(q, ok);
       if (!q.listen) play(it.native);
       feedback(ok, q, !ok && it.topic && it.grammar != null ? `see “${it.topic}”` : null);
     };
-    if (L.dir === 'rtl') line.dir = bank.dir = 'rtl';
+    if (L.dir === 'rtl' && !inRoman) line.dir = bank.dir = 'rtl';
     const prompt = q.listen
       ? h('div.prompt', h('div.q', 'Listen, then build what you heard'), h('div.row', audioBtn(it.native, { size: 'lg', auto: true, onFail: audioFailed }), audioBtn(it.native, { slow: true })))
       : h('div.prompt', h('div.q', 'Build the sentence'), h('div.en-big', it.en));
