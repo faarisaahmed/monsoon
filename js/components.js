@@ -264,3 +264,22 @@ export function writingPad(glyph, { guide = true } = {}) {
     destroy: () => ro.disconnect(),
   };
 }
+
+// Share the app: the device's own share sheet where there is one, otherwise copy the link.
+// Only ever on request; nothing asks people to share.
+export async function shareApp() {
+  const url = location.origin + location.pathname;
+  const text = 'Monsoon: a free, calm way to learn the languages of South Asia.';
+  if (navigator.share) {
+    try {
+      await navigator.share({ title: 'Monsoon', text, url });
+    } catch {}
+    return;
+  }
+  try {
+    await navigator.clipboard.writeText(url);
+    toast('Link copied. Thank you for passing it on.');
+  } catch {
+    prompt('Copy this link:', url);
+  }
+}

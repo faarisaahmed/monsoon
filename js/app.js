@@ -11,6 +11,8 @@ import { langHome, unitView, scriptView, letterView, soundsView, soundView, read
 import { practiceHub, practiceMode, reviewView, learnView } from './views/practice.js';
 import { grammarHub, grammarPoint } from './views/grammar.js';
 import { talkView, roleplayView } from './views/talk.js';
+import { themesView } from './views/themes.js';
+import { shareApp } from './components.js';
 
 const routes = [
   [/^\/?$/, homeView],
@@ -19,6 +21,7 @@ const routes = [
   [/^\/signup$/, signupView],
   [/^\/forgot$/, forgotView],
   [/^\/account$/, accountView],
+  [/^\/themes$/, themesView],
   [/^\/l\/(\w+)$/, langHome, 'home'],
   [/^\/l\/(\w+)\/u\/(\d+)$/, unitView, 'course'],
   [/^\/l\/(\w+)\/u\/(\d+)\/learn\/(\w+)$/, learnView, 'course'],
@@ -164,7 +167,13 @@ function applyTheme() {
   const t = store.settings().theme;
   if (t === 'auto') document.documentElement.removeAttribute('data-theme');
   else document.documentElement.setAttribute('data-theme', t);
+  // the browser bar takes the page colour (auto keeps the light/dark pair from index.html)
+  document.querySelectorAll('meta[name="theme-color"]').forEach((m) => {
+    if (!m.dataset.orig) m.dataset.orig = m.content;
+    m.content = t === 'auto' ? m.dataset.orig : getComputedStyle(document.documentElement).getPropertyValue('--bg').trim() || m.dataset.orig;
+  });
 }
+document.querySelector('.footer .share-link')?.addEventListener('click', shareApp);
 
 store.onChange(() => {
   applyTheme();

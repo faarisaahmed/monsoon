@@ -6,6 +6,7 @@ import { canSpeak, canRecognize, canRecord, listeningOn, speakingOn } from '../a
 import { runSession, Q, mixedQuestions, sentenceQuestions, sentenceQuestion } from '../session.js';
 import { crumbs } from './shared.js';
 import { notFound } from './lang.js';
+import { letterLesson, teachable } from '../letters.js';
 
 const MODES = [
   { id: 'mixed', icon: 'refresh', title: 'Mixed practice', desc: 'A bit of everything from what you have learned.' },
@@ -17,7 +18,7 @@ const MODES = [
   { id: 'typing-script', icon: 'keyboard', title: 'Type in the script', desc: 'English → type it in the native script, with an on-screen keyboard.' },
   { id: 'sentences', icon: 'puzzle', title: 'Sentence builder', desc: 'Put the words of a sentence in the right order: phrases, grammar examples and dialogue lines.', hidden: true },
   { id: 'speaking', icon: 'mic', title: 'Speaking', desc: 'Say it aloud; get checked by speech recognition or compare a recording.', mic: true },
-  { id: 'letters', icon: 'letters', title: 'Letter drill', desc: 'Recognise every letter and its sound.' },
+  { id: 'letters', icon: 'letters', title: 'Learn letters', desc: 'New letters one at a time, each tested straight away, with the ones you know coming back to stay fresh.' },
   { id: 'reading-words', icon: 'book', title: 'Read real words', desc: 'Sound out words in the script — no romanization shown.' },
   { id: 'writing', icon: 'pen', title: 'Handwriting', desc: 'Draw letters from memory on the writing pad.' },
   { id: 'numbers', icon: 'hash', title: 'Numbers', desc: 'Hear a number, type it in digits.', audio: true },
@@ -88,6 +89,7 @@ export async function practiceMode({ code, L, params, query }) {
   const exit = () => go(`/l/${code}/practice`);
   const N = 12;
   let questions;
+  let lesson = null;
 
   const words = pool.filter((i) => i.kind === 'word');
   const phrases = pool.filter((i) => i.kind === 'phrase');
@@ -127,16 +129,22 @@ export async function practiceMode({ code, L, params, query }) {
       questions = sample(pool, 8).map(Q.speak);
       break;
     case 'letters': {
+      // learn letters a few at a time, and keep the ones you know coming back (see letters.js)
       const g = query.get('g');
-      let ls = (g ? letters.filter((l) => l.group === g) : letters).filter((l) => l.roman && !/^[०-९০-৯੦-੯૦-૯୦-୯௦-௯౦-౯೦-೯൦-൯۰-۹0-9]$/.test(l.char));
-      if (!g) {
-        // focus on letters not practised much yet
-        const seen = store.hasLang(code) ? store.lang(code).letters : {};
-        ls = shuffle(ls).sort((a, b) => (seen[a.char] || 0) - (seen[b.char] || 0));
+      const teach = teachable(letters).filter((l) => !g || l.group === g);
+      const byKey = new Map(letters.map((l) => [l.key, l]));
+      const known = letters.filter((l) => store.card(code, l.key));
+      const due = store.dueCards(code).map((d) => byKey.get(d.key)).filter((l) => l && (!g || l.group === g));
+      const fresh = teach.filter((l) => !store.card(code, l.key));
+      if (fresh.length || due.length) {
+        lesson = letterLesson({ fresh, due, known, all: teachable(letters), dir: L.dir, Q });
+        questions = lesson.questions;
+      } else {
+        // everything learned and nothing due: a round on the letters you have found hardest
+        const weakest = teach.map((l) => [store.card(code, l.key), l]).sort((a, b) => a[0].ease - b[0].ease || b[0].lapses - a[0].lapses).map((x) => x[1]);
+        const pick = shuffle(weakest.slice(0, 14)).slice(0, 12);
+        questions = pick.map((l, i) => (i % 2 ? Q.letterFind(l, teach) : Q.letterName(l, teach)));
       }
-      const pick = sample(ls.slice(0, Math.max(16, Math.min(ls.length, 24))), 14);
-      const ref = g ? ls.concat(letters.filter((l) => l.roman)) : letters.filter((l) => l.roman);
-      questions = pick.map((l, i) => (i % 2 ? Q.letterFind(l, ls.length >= 4 ? ls : ref) : Q.letterName(l, ls.length >= 4 ? ls : ref)));
       break;
     }
     case 'reading-words': {
@@ -175,11 +183,30 @@ export async function practiceMode({ code, L, params, query }) {
     code,
     questions,
     onExit: exit,
-    retry: (missed) => runSession(root, { code, questions: mixedQuestions(missed, all, { n: missed.length, kinds: ['meaning', 'recall', 'listen'] }), onExit: exit }),
+    retry: (missed) =>
+      runSession(root, {
+        code,
+        requeue: mode === 'letters',
+        record: mode !== 'letters',
+        questions: mode === 'letters' ? missed.flatMap((l) => [Q.letterIntro(l), Q.letterName(l, letters), Q.letterFind(l, letters.filter((x) => x === l || x.roman !== l.roman))]) : mixedQuestions(missed, all, { n: missed.length, kinds: ['meaning', 'recall', 'listen'] }),
+        onExit: exit,
+      }),
     record: !['letters', 'writing', 'reading-words', 'numbers'].includes(mode),
+    requeue: mode === 'letters',
+    onDone: lesson ? ({ missed }) => saveLetters(code, lesson, missed) : undefined,
     emptyText: meta.audio && !canSpeak(L.tts) ? `No ${L.name} voice is available on this device, so this exercise can't run. See Settings → Audio.` : 'Not enough material yet — learn a few words in the Course first.',
   });
   return wrap;
+}
+
+// After a letter lesson: new letters join the review deck, and reviewed ones are rescheduled.
+function saveLetters(code, { newOnes, reviews }, missed) {
+  const slipped = (l) => missed.some((m) => m.char === l.char);
+  newOnes.forEach((l) => {
+    store.ensureCard(code, l.key, { kind: 'letter', unit: null });
+    store.review(code, l.key, slipped(l) ? 1 : 2);
+  });
+  reviews.forEach((l) => store.review(code, l.key, slipped(l) ? 0 : 2));
 }
 
 function scriptKeys(c) {
@@ -264,6 +291,7 @@ export async function reviewView({ code, L }) {
   const byKey = new Map(all.map((i) => [i.key, i]));
   sentences.forEach((s) => byKey.set(s.key, s));
   letters.forEach((l) => byKey.set(l.key, { ...l, native: l.char, en: l.sound, kind: 'letter' }));
+  const letterOf = new Map(letters.map((l) => [l.key, l]));
   const due = store.dueCards(code).filter((d) => byKey.has(d.key));
   const root = h('div');
   const head = crumbs([L.name, `#/l/${code}`], ['Review']);
@@ -292,6 +320,7 @@ export async function reviewView({ code, L }) {
   const session = due.slice(0, 60).map((d) => {
     const it = byKey.get(d.key);
     // sentences are reviewed by using them, not by flipping a card
+    if (it.kind === 'letter') return Math.random() < 0.5 ? Q.letterName(letterOf.get(d.key), letters) : Q.letterFind(letterOf.get(d.key), letters.filter((l) => l === letterOf.get(d.key) || l.roman !== letterOf.get(d.key).roman));
     if (it.kind === 'sentence') return sentenceQuestion(it, d.reps >= 2 ? (Math.random() < 0.5 ? 'build' : 'typeRoman') : Math.random() < 0.6 ? 'cloze' : 'build', sentences, lex);
     return Q.flash(it, it.kind !== 'letter' && d.reps >= 2 && Math.random() < 0.5 ? 'en' : 'native');
   });

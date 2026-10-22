@@ -5,6 +5,7 @@ import { ctx, nt, rm, audioBtn, play, ICONS, writingPad } from './components.js'
 import { canSpeak, canRecognize, recognize, canRecord, record as recordAudio, stop, pauseFor, listeningOn, speakingOn } from './audio.js';
 import * as store from './store.js';
 import { cloze, tokens, wordRomans, romanWords } from './sentences.js';
+import { joinForms, POSITIONS } from './letters.js';
 
 // ---------- question builders ----------
 const distinctBy = (arr, f) => {
@@ -120,6 +121,12 @@ export const Q = {
     const opts = shuffle([l, ...distractors({ ...l, en: l.roman, native: l.char }, letters.map((x) => ({ ...x, en: x.roman, native: x.char })), 3, 'en').map((d) => letters.find((x) => x.char === d.char))]);
     return { type: 'letter', item: l, dir: 'char2roman', options: opts, answer: opts.indexOf(l) };
   },
+  letterIntro: (l) => ({ type: 'letterIntro', item: l }),
+  // a letter as it looks joined at the start, middle or end of a word: which letter is it?
+  letterForm: (l, letters, pos, forms) => {
+    const opts = shuffle([l, ...distractors({ ...l, en: l.roman, native: l.char }, letters.map((x) => ({ ...x, en: x.roman, native: x.char })), 3, 'native').map((d) => letters.find((x) => x.char === d.char))]);
+    return { type: 'letter', item: l, dir: 'form2char', pos, shape: forms[pos], options: opts, answer: opts.indexOf(l) };
+  },
   letterFind: (l, letters) => {
     const opts = shuffle([l, ...distractors({ ...l, en: l.roman, native: l.char }, letters.map((x) => ({ ...x, en: x.roman, native: x.char })), 3, 'native').map((d) => letters.find((x) => x.char === d.char))]);
     return { type: 'letter', item: l, dir: 'roman2char', options: opts, answer: opts.indexOf(l) };
@@ -205,6 +212,11 @@ export function runSession(root, opts) {
 
   function record(q, correct, grade) {
     results.push({ q, correct });
+    // missed it? it comes back a few questions later (twice at most), with the choices reshuffled
+    if (!correct && opts.requeue && (q.again || 0) < 2 && q.options) {
+      const options = shuffle(q.options);
+      qs.splice(Math.min(qs.length, i + 3), 0, { ...q, again: (q.again || 0) + 1, options, answer: options.indexOf(q.options[q.answer]) });
+    }
     if (opts.record === false || !q.item?.key) return;
     const key = q.item.key;
     const c = store.card(opts.code, key);
@@ -294,7 +306,7 @@ export function runSession(root, opts) {
   function renderLetter(q) {
     const l = q.item;
     const buttons = q.options.map((o, idx) =>
-      h('button.opt', { onclick: () => choose(idx) }, h('span.k', idx + 1), q.dir === 'char2roman' ? h('span', o.roman || '—') : nt(o.char)),
+      h('button.opt', { onclick: () => choose(idx) }, h('span.k', idx + 1), q.dir === 'char2roman' ? h('span', o.roman || '—') : nt(o.char), q.dir === 'form2char' && o.roman ? h('span.roman.small', ' ' + o.roman) : null),
     );
     const choose = (idx) => {
       if (buttons[0].disabled) return;
@@ -309,11 +321,14 @@ export function runSession(root, opts) {
       if (ok) store.markLetter(opts.code, l.char);
       feedback(ok, { item: l.example ? { ...l.example } : null }, `${l.char} = ${l.roman}${l.ipa ? ' /' + l.ipa + '/' : ''}`);
     };
+    const where = q.pos && POSITIONS.find(([p]) => p === q.pos)[1];
     add(body, 
       q.dir === 'char2roman'
         ? h('div.prompt', h('div.q', 'Which sound is this?'), nt(l.char, 'big-glyph'))
-        : h('div.prompt', h('div.q', 'Find the letter for'), h('div.en-big', l.roman || '—'), h('div.muted', l.sound)),
-      h('div.options' + (q.dir === 'roman2char' ? '.two' : ''), buttons),
+        : q.dir === 'form2char'
+          ? h('div.prompt', h('div.q', `This is a letter ${where}. Which one?`), nt(q.shape, 'big-glyph'))
+          : h('div.prompt', h('div.q', 'Find the letter for'), h('div.en-big', l.roman || '—'), h('div.muted', l.sound)),
+      h('div.options' + (q.dir !== 'char2roman' ? '.two' : ''), buttons),
     );
     setKeys((e) => {
       const n = parseInt(e.key, 10);
@@ -608,6 +623,32 @@ export function runSession(root, opts) {
     });
   }
 
+  function renderLetterIntro(q) {
+    const l = q.item;
+    const speakable = l.char.replace(/◌/g, '');
+    const forms = joinForms(l, L.dir);
+    const card = h(
+      'div.flash.letter-intro',
+      h('div.q.muted.small', 'New letter'),
+      h('div.row', { style: { justifyContent: 'center', gap: '18px' } }, nt(l.char, 'big-glyph'), h('div', { style: { textAlign: 'left' } }, h('div.en-big', l.roman || '—'), l.ipa ? h('div.small.faint', `/${l.ipa}/`) : null)),
+      h('div.muted', l.sound),
+      l.sign && l.sign !== '—' ? h('div.small', 'After a consonant it is written as the sign ', nt(l.sign), l.signExample ? h('span.muted', ' — e.g. ', l.signExample) : null) : null,
+      forms ? formsRow(forms) : null,
+      l.example ? h('div.small', { style: { marginTop: '6px' } }, 'As in ', nt(l.example.native), ' ', h('span.roman', l.example.roman), h('span.muted', ' · ', l.example.en)) : null,
+      h('div.row', { style: { justifyContent: 'center' } }, speakable ? audioBtn(speakable, { auto: true }) : null, l.example ? audioBtn(l.example.native, { size: 'sm' }) : null),
+    );
+    store.markLetter(opts.code, l.char);
+    const go = h('button.btn.primary.block', { style: { marginTop: '16px' }, onclick: () => (record(q, true), next()) }, 'Got it ', h('kbd', 'enter'));
+    add(body, card, go);
+    setTimeout(() => go.focus(), 30);
+    setKeys((e) => {
+      if (e.key === 'Enter' && document.activeElement !== go) {
+        e.preventDefault();
+        go.click();
+      }
+    });
+  }
+
   function renderPair(q) {
     const { pair } = q;
     const target = pair[q.which];
@@ -682,7 +723,7 @@ export function runSession(root, opts) {
     header();
     clear(body);
     const q = qs[i];
-    ({ mc: renderMC, letter: renderLetter, type: renderType, build: renderBuild, cloze: renderCloze, speak: renderSpeak, flash: renderFlash, intro: renderIntro, pair: renderPair, write: renderWrite, number: renderNumber })[q.type](q);
+    ({ mc: renderMC, letter: renderLetter, letterIntro: renderLetterIntro, type: renderType, build: renderBuild, cloze: renderCloze, speak: renderSpeak, flash: renderFlash, intro: renderIntro, pair: renderPair, write: renderWrite, number: renderNumber })[q.type](q);
     const quiet = (label, kind, msg) =>
       body.appendChild(
         h('div.center.quiet', h('button.link-btn.small', { type: 'button', onclick: () => (stop(), pauseFor(kind), toast(msg), readapt()) }, label)),
@@ -695,7 +736,7 @@ export function runSession(root, opts) {
     setKeys(null);
     i = qs.length;
     header();
-    const graded = results.filter((r) => r.q.type !== 'intro');
+    const graded = results.filter((r) => r.q.type !== 'intro' && r.q.type !== 'letterIntro');
     const right = graded.filter((r) => r.correct).length;
     const missed = distinctBy(
       graded.filter((r) => !r.correct && r.q.item),
@@ -853,4 +894,13 @@ export function sentenceDrill(host, { code, list, pool, lex, n, onExit, onDone, 
       onDone?.(res);
     },
   });
+}
+
+// The four shapes of a joining letter, start → end as it is read (right to left).
+export function formsRow(f) {
+  return h(
+    'div.forms',
+    { dir: 'rtl' },
+    POSITIONS.filter(([p]) => f[p]).map(([p, label]) => h('div.form', nt(f[p]), h('span.tiny.faint', { dir: 'ltr' }, p === 'alone' ? 'alone' : p))),
+  );
 }

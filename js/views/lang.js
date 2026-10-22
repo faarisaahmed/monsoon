@@ -3,7 +3,8 @@ import * as store from '../store.js';
 import * as data from '../data.js';
 import { nt, rm, audioBtn, itemRow, exampleRow, writingPad, ctx } from '../components.js';
 import { speak, canSpeak, stop } from '../audio.js';
-import { runSession, Q, mixedQuestions, sentenceQuestions, sentenceDrill } from '../session.js';
+import { runSession, Q, mixedQuestions, sentenceQuestions, sentenceDrill, formsRow } from '../session.js';
+import { joinForms, rightJoiners, teachable } from '../letters.js';
 import { weekChart, crumbs } from './shared.js';
 
 const PARTS = [
@@ -408,6 +409,12 @@ export function dialogueBlock(d) {
 export async function scriptView({ code, L }) {
   const c = await data.course(code);
   const seen = store.hasLang(code) ? store.lang(code).letters : {};
+  const letters = data.scriptLetters(c);
+  const teach = teachable(letters);
+  const learnedN = store.hasLang(code) ? teach.filter((l) => store.card(code, l.key)).length : 0;
+  const dueN = store.hasLang(code) ? teach.filter((l) => store.card(code, l.key)?.due <= Date.now()).length : 0;
+  const joiners = rightJoiners(letters, L.dir);
+  const joinSample = letters.filter((l) => joinForms(l, L.dir)?.joins === 'both' && /^[بجسع]$/.test(l.char));
   let idx = 0;
   return h(
     'div',
@@ -417,12 +424,24 @@ export async function scriptView({ code, L }) {
     h(
       'div.row',
       { style: { marginBottom: '14px' } },
-      h('a.btn.primary', { href: `#/l/${code}/practice/letters` }, 'Letter drill'),
+      h('a.btn.primary', { href: `#/l/${code}/practice/letters` }, learnedN ? (dueN ? `Learn letters · ${dueN} to review` : 'Learn more letters') : 'Learn letters'),
       h('a.btn', { href: `#/l/${code}/practice/writing` }, 'Handwriting practice'),
       h('a.btn', { href: `#/l/${code}/practice/reading-words` }, 'Read real words'),
       h('button.btn.ghost', { onclick: () => window.print() }, 'Print chart'),
     ),
+    h('p.small.muted', learnedN ? `${learnedN} of ${teach.length} letters learned${dueN ? ` · ${dueN} due for review` : ''}. A lesson teaches a few new ones and brings back the ones you know.` : `${teach.length} letters and signs. A lesson introduces a few at a time and tests each one straight away.`),
     h('details.about', { open: !Object.keys(seen).length }, h('summary', 'How the script works'), md(c.script.overview)),
+    joiners.length
+      ? h(
+          'details.about',
+          { open: true },
+          h('summary', 'How letters join'),
+          h('p', `${L.script} is written right to left, and most letters join to the letter after them. A joining letter has up to four shapes — on its own, at the start of a word, in the middle and at the end — but its core shape (the part with the dots) stays the same, so you recognise it by that. For example:`),
+          h('div.forms-examples', joinSample.map((l) => h('a.forms-example', { href: `#/l/${code}/script/${letters.indexOf(l)}` }, formsRow(joinForms(l, L.dir)), h('span.small.muted', l.roman)))),
+          h('p', 'These letters join only to the letter before them, never to the one after, so a word breaks into pieces after them: ', h('span.nt-inline', joiners.map((l) => h('a', { href: `#/l/${code}/script/${letters.indexOf(l)}`, style: { textDecoration: 'none' } }, nt(l.char))).flatMap((x) => [x, ' ']))),
+          h('p.small.muted', 'Open any letter to see all its shapes. Lessons for these scripts include questions on the joined shapes.'),
+        )
+      : null,
     c.script.groups.map((g) => {
       const start = idx;
       idx += g.letters.length;
@@ -471,6 +490,7 @@ export async function letterView({ code, L, params }) {
           l.ipa ? [h('dt', 'IPA'), h('dd', `/${l.ipa}/`)] : null,
           h('dt', 'Sound'),
           h('dd', l.sound),
+          joinForms(l, L.dir) ? [h('dt', 'Shapes'), h('dd', formsRow(joinForms(l, L.dir)), joinForms(l, L.dir).joins === 'right' ? h('div.small.muted', 'Joins only to the letter before it — the next letter starts fresh.') : joinForms(l, L.dir).joins === 'end' ? h('div.small.muted', 'Only written at the end of a word.') : null)] : null,
           l.sign ? [h('dt', 'Vowel sign'), h('dd', nt(l.sign), l.signExample ? h('span.muted', '  e.g. ', nt(l.signExample.split(' ')[0]), ' ', l.signExample.split(' ').slice(1).join(' ')) : null)] : null,
         ),
         l.example ? h('div', { style: { marginTop: '16px' } }, h('div.small.muted', { style: { marginBottom: '6px' } }, 'Example'), itemRow(l.example)) : null,

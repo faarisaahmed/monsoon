@@ -3,6 +3,7 @@ import * as store from '../store.js';
 import * as data from '../data.js';
 import { weekChart } from './shared.js';
 import { rain } from '../rain.js';
+import { shareApp } from '../components.js';
 
 export async function homeView() {
   const langs = await data.languages();
@@ -109,6 +110,7 @@ export async function aboutView() {
     h('h2', 'Philosophy'),
     h('p', 'No streaks, no hearts, no leaderboards. You will see how much you know and how much time you have put in, and the app will suggest a sensible next step. Missing a day costs you nothing.'),
     h('p', h('a', { href: 'https://github.com/faarisaahmed/monsoon' }, 'Source code and corrections on GitHub'), ' — native speakers, issues and pull requests are very welcome.'),
+    h('p', 'If Monsoon helps you, and you know someone it might help too, you can ', h('button.linkish', { type: 'button', onclick: shareApp }, 'share it'), '. That is the only thing it will ever ask.'),
   );
 }
 
