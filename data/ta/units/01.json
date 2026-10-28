@@ -44,7 +44,7 @@
     { "native": "திரும்ப சொல்லுங்க.", "roman": "tirumba sollunga.", "en": "Please say it again." },
     { "native": "உள்ள வாங்க.", "roman": "uḷḷa vānga.", "en": "Come in, please." },
     { "native": "சாப்பிட்டீங்களா?", "roman": "sāppiṭṭīngaḷā?", "en": "Have you eaten? (a common friendly greeting)" },
-    { "native": "போயிட்டு வர்றேன்.", "roman": "pōyiṭṭu varrēn.", "en": "Goodbye (lit. 'I'll go and come back')." , "note": "the reply is போயிட்டு வாங்க pōyiṭṭu vānga" },
+    { "native": "போயிட்டு வர்றேன்.", "roman": "pōyiṭṭu varrēn.", "en": "Goodbye (lit. 'I'll go and come back').", "note": "the reply is போயிட்டு வாங்க pōyiṭṭu vānga" },
     { "native": "சரி, அப்புறம் பாக்கலாம்.", "roman": "sari, appuram pākkalām.", "en": "OK, see you later.", "note": "written form: பார்க்கலாம் pārkkalām" }
   ],
   "grammar": [
@@ -96,5 +96,85 @@
       { "speaker": "Rajan", "native": "போயிட்டு வாங்க!", "roman": "pōyiṭṭu vānga!", "en": "Goodbye! (lit. go and come back)" }
     ]
   },
-  "culture": "Tamils rarely say 'goodbye' in a final way: you say போயிட்டு வர்றேன் 'I'll go and come back', and the reply is போயிட்டு வாங்க. Asking சாப்பிட்டீங்களா? 'Have you eaten?' is a caring greeting, not an invitation. Older people often add -ம்மா (to women and girls) or -ப்பா (to men and boys) to soften what they say: சரிம்மா, வாப்பா. 'Thank you' is used less than in English among family and close friends, where it can even sound distant."
+  "culture": "Tamils rarely say 'goodbye' in a final way: you say போயிட்டு வர்றேன் 'I'll go and come back', and the reply is போயிட்டு வாங்க. Asking சாப்பிட்டீங்களா? 'Have you eaten?' is a caring greeting, not an invitation. Older people often add -ம்மா (to women and girls) or -ப்பா (to men and boys) to soften what they say: சரிம்மா, வாப்பா. 'Thank you' is used less than in English among family and close friends, where it can even sound distant.",
+  "lessons": [
+    {
+      "title": "Hello, how are you?",
+      "tip": { "title": "நீங்க or நீ — polite or friendly \"you\"", "body": "- **நீங்க** is the polite 'you': strangers, elders, shopkeepers. Its verb ends in **-ங்க**: எப்படி இருக்**கீங்க**?\n- **நீ** is for close friends and children: எப்படி இருக்**க**?\n- About yourself: நல்லா இருக்**கேன்** 'I'm fine'.\n- When in doubt, use நீங்க.", "pattern": "நீங்க … இருக்கீங்க  ·  நீ … இருக்க  ·  நான் … இருக்கேன்", "grammar": 1 },
+      "new": ["வணக்கம்", "நீங்கள்", "நீ", "எப்படி", "நல்லா", "சார்", "மேடம்", "வணக்கம்!", "எப்படி இருக்கீங்க?", "நல்லா இருக்கேன். நீங்க?"],
+      "sentences": [
+        { "native": "வணக்கம் சார், எப்படி இருக்கீங்க?", "roman": "vaṇakkam sār, eppaḍi irukkīnga?", "en": "Hello sir, how are you?", "focus": "இருக்கீங்க", "wrong": ["இருக்க|irukka", "இருக்கேன்|irukkēn"] },
+        { "native": "வணக்கம் மேடம், நீங்க நல்லா இருக்கீங்களா?", "roman": "vaṇakkam mēḍam, nīnga nallā irukkīngaḷā?", "en": "Hello madam, are you keeping well?", "focus": "நீங்க", "wrong": ["நீ|nī", "நான்|nān"] },
+        { "native": "நீ நல்லா இருக்கியா?", "roman": "nī nallā irukkiyā?", "en": "Are you doing well? (to a friend)", "focus": "இருக்கியா", "wrong": ["இருக்கீங்களா|irukkīngaḷā", "இருக்கேனா|irukkēnā"] },
+        { "native": "எப்படி இருக்க? நல்லா இருக்கியா?", "roman": "eppaḍi irukka? nallā irukkiyā?", "en": "How are you? All good? (to a friend)", "focus": "இருக்க", "wrong": ["இருக்கேன்|irukkēn", "இருக்கீங்களா|irukkīngaḷā"] },
+        { "native": "நல்லா இருக்கேன், நீ?", "roman": "nallā irukkēn, nī?", "en": "I'm fine, and you? (to a friend)", "focus": "இருக்கேன்", "wrong": ["இருக்க|irukka", "இருக்கீங்க|irukkīnga"] },
+        { "native": "நான் நல்லா இருக்கேன் சார்.", "roman": "nān nallā irukkēn sār.", "en": "I'm fine, sir.", "focus": "நான்", "wrong": ["நீ|nī", "நீங்க|nīnga"] },
+        { "native": "நானும் நல்லா இருக்கேன்.", "roman": "nānum nallā irukkēn.", "en": "I'm fine too.", "focus": "நானும்", "wrong": ["நீயும்|nīyum", "நீங்களும்|nīngaḷum"] },
+        { "native": "மேடம், நீங்க எப்படி இருக்கீங்க?", "roman": "mēḍam, nīnga eppaḍi irukkīnga?", "en": "Madam, how are you?" }
+      ]
+    },
+    {
+      "title": "Yes, no and thank you",
+      "tip": { "title": "Speak the spoken forms", "body": "- Tamil is written one way and spoken another. Say the **spoken** form in conversation.\n- ஆமாம் → **ஆமா** 'yes', இல்லை → **இல்ல** 'no', நீங்கள் → **நீங்க**.\n- **நல்லா** 'well' describes how you are; **நல்லது** means 'that's good'.\n- **ரொம்ப** 'very' goes before the word it boosts: ரொம்ப நன்றி.", "pattern": "written இல்லை → spoken இல்ல", "grammar": 0 },
+      "new": ["ஆமாம்", "இல்லை", "சரி", "ஓகே", "நல்லது", "ரொம்ப", "நன்றி", "ரொம்ப நன்றி."],
+      "sentences": [
+        { "native": "ஆமா, நான் நல்லா இருக்கேன்.", "roman": "āmā, nān nallā irukkēn.", "en": "Yes, I'm fine.", "focus": "ஆமா", "wrong": ["இல்ல|illa", "நன்றி|nandri"] },
+        { "native": "இல்ல, நான் நல்லா இல்ல.", "roman": "illa, nān nallā illa.", "en": "No, I'm not well.", "focus": "இல்ல", "wrong": ["இருக்கேன்|irukkēn", "ஆமா|āmā"] },
+        { "native": "சரி சார், ரொம்ப நன்றி.", "roman": "sari sār, romba nandri.", "en": "OK sir, thank you very much.", "focus": "ரொம்ப", "wrong": ["நல்லா|nallā", "எப்படி|eppaḍi"] },
+        { "native": "ரொம்ப நல்லது!", "roman": "romba nalladu!", "en": "That's great!", "focus": "நல்லது", "wrong": ["நல்லா|nallā", "நன்றி|nandri"] },
+        { "native": "நான் ரொம்ப நல்லா இருக்கேன்.", "roman": "nān romba nallā irukkēn.", "en": "I'm very well.", "focus": "நல்லா", "wrong": ["நல்லது|nalladu", "நன்றி|nandri"] },
+        { "native": "இல்ல மேடம், நன்றி.", "roman": "illa mēḍam, nandri.", "en": "No thank you, madam.", "focus": "இல்ல", "wrong": ["ஆமா|āmā", "ரொம்ப|romba"] },
+        { "native": "ஓகே, நன்றி!", "roman": "ōkē, nandri!", "en": "OK, thanks!" },
+        { "native": "ஆமா சார், சரி.", "roman": "āmā sār, sari.", "en": "Yes sir, all right." }
+      ]
+    },
+    {
+      "title": "Sorry, never mind, no thanks",
+      "tip": { "title": "Being polite without \"please\"", "body": "- Sorry / excuse me: **மன்னிச்சுக்கோங்க**. மன்னிக்கவும் is the written form you see on signs.\n- The answer is **பரவால்ல** 'it's OK, never mind'.\n- 'No thanks' is **வேணாம்** (written வேண்டாம்), often with நன்றி.\n- தயவுசெய்து 'please' is rare in speech: the **-ங்க** ending already makes you polite.", "pattern": "மன்னிச்சுக்கோங்க → பரவால்ல" },
+      "new": ["மன்னிக்கவும்", "மன்னிச்சுக்கோங்க.", "பரவாயில்லை", "பரவால்ல.", "ஐயோ", "வேண்டாம்", "தயவுசெய்து"],
+      "sentences": [
+        { "native": "ஐயோ, மன்னிச்சுக்கோங்க!", "roman": "aiyō, mannicchukkōnga!", "en": "Oh no, I'm so sorry!", "focus": "மன்னிச்சுக்கோங்க", "wrong": ["பரவால்ல|paravālla", "வேணாம்|vēṇām"] },
+        { "native": "பரவால்ல சார், ஓகே.", "roman": "paravālla sār, ōkē.", "en": "It's fine sir, no problem.", "focus": "பரவால்ல", "wrong": ["மன்னிச்சுக்கோங்க|mannicchukkōnga", "வேணாம்|vēṇām"] },
+        { "native": "வேணாம், நன்றி.", "roman": "vēṇām, nandri.", "en": "No thanks.", "focus": "வேணாம்", "wrong": ["பரவால்ல|paravālla", "ஆமா|āmā"] },
+        { "native": "காபி வேணாம், நன்றி.", "roman": "kāpi vēṇām, nandri.", "en": "No coffee for me, thanks.", "focus": "வேணாம்", "wrong": ["வேணும்|vēṇum", "இல்ல|illa"] },
+        { "native": "ரொம்ப மன்னிச்சுக்கோங்க.", "roman": "romba mannicchukkōnga.", "en": "I'm very sorry.", "focus": "மன்னிச்சுக்கோங்க", "wrong": ["பரவால்ல|paravālla", "நன்றி|nandri"] },
+        { "native": "இல்ல இல்ல, பரவால்ல.", "roman": "illa illa, paravālla.", "en": "No, no, it's fine.", "focus": "பரவால்ல", "wrong": ["வேணாம்|vēṇām", "மன்னிச்சுக்கோங்க|mannicchukkōnga"] },
+        { "native": "தயவுசெய்து, வேணாம்!", "roman": "tayavuseydu, vēṇām!", "en": "Please, don't!" },
+        { "native": "மன்னிக்கவும், சார்!", "roman": "mannikkavum, sār!", "en": "Excuse me, sir! (formal)" },
+        { "native": "ஐயோ! சரி, பரவால்ல.", "roman": "aiyō! sari, paravālla.", "en": "Oh dear! Oh well, never mind." }
+      ]
+    },
+    {
+      "title": "When you don't understand",
+      "tip": { "title": "The verb comes last", "body": "- Tamil puts the **verb at the end**: கொஞ்சம் மெதுவா **பேசுங்க** 'a little slowly speak-please'.\n- Question words stay where the answer would go: நீங்க **என்ன** சொன்னீங்க? 'you what said?'\n- Polite requests end in **-ங்க**: பேசுங்க, சொல்லுங்க.", "pattern": "(who) + (how / what) + verb", "grammar": 2 },
+      "new": ["ஹலோ", "புரி", "என்ன", "மெதுவாக", "திரும்ப", "எனக்குப் புரியல.", "கொஞ்சம் மெதுவா பேசுங்க.", "திரும்ப சொல்லுங்க."],
+      "sentences": [
+        { "native": "ஹலோ, என்ன சொன்னீங்க?", "roman": "halō, enna sonnīnga?", "en": "Hello? What did you say?", "focus": "என்ன", "wrong": ["எப்படி|eppaḍi", "திரும்ப|tirumba"] },
+        { "native": "என்ன? திரும்ப சொல்லுங்க.", "roman": "enna? tirumba sollunga.", "en": "What? Say that again, please.", "focus": "சொல்லுங்க", "wrong": ["சொன்னீங்க|sonnīnga", "பேசுங்க|pēsunga"] },
+        { "native": "சார், மெதுவா பேசுங்க.", "roman": "sār, meduvā pēsunga.", "en": "Sir, please speak slowly.", "focus": "பேசுங்க", "wrong": ["சொன்னீங்க|sonnīnga", "புரியல|puriyala"] },
+        { "native": "ஐயோ, எனக்குப் புரியல!", "roman": "aiyō, enakkup puriyala!", "en": "Oh dear, I don't understand!", "focus": "புரியல", "wrong": ["புரியுது|puriyudu", "பேசுங்க|pēsunga"] },
+        { "native": "சரி, புரியுது. நன்றி!", "roman": "sari, puriyudu. nandri!", "en": "OK, I understand. Thanks!", "focus": "புரியுது", "wrong": ["புரியல|puriyala", "சொல்லுங்க|sollunga"] },
+        { "native": "மெதுவா, திரும்ப சொல்லுங்க.", "roman": "meduvā, tirumba sollunga.", "en": "Say it again, slowly.", "focus": "திரும்ப", "wrong": ["என்ன|enna", "எப்படி|eppaḍi"] },
+        { "native": "சார், புரியுதா?", "roman": "sār, puriyudā?", "en": "Do you understand, sir?" },
+        { "native": "ஹலோ? மேடம், கொஞ்சம் மெதுவா பேசுங்க.", "roman": "halō? mēḍam, konjam meduvā pēsunga.", "en": "Hello? Madam, please speak a bit more slowly.", "focus": "மெதுவா", "wrong": ["திரும்ப|tirumba", "எப்படி|eppaḍi"] }
+      ]
+    },
+    {
+      "title": "Welcome, and goodbye",
+      "tip": { "title": "Coming and going", "body": "- **வாங்க** (written வாருங்கள்) 'come' is how you welcome someone: வாங்க, உள்ள வாங்க.\n- **சாப்பிட்டீங்களா?** 'have you eaten?' is a friendly greeting, not an invitation: answer ஆமா, சாப்பிட்டேன்.\n- Leaving, say **போயிட்டு வர்றேன்** 'I'll go and come back'; the reply is **போயிட்டு வாங்க**.", "pattern": "போயிட்டு வர்றேன் → போயிட்டு வாங்க" },
+      "new": ["வாருங்கள்", "உள்ள வாங்க.", "சாப்பிட்டீங்களா?", "வாழ்த்துக்கள்", "அப்புறம்", "போயிட்டு வர்றேன்.", "சரி, அப்புறம் பாக்கலாம்."],
+      "sentences": [
+        { "native": "வணக்கம் மேடம், வாங்க!", "roman": "vaṇakkam mēḍam, vānga!", "en": "Hello madam, welcome!", "focus": "வாங்க", "wrong": ["வா|vā", "வர்றேன்|varrēn"] },
+        { "native": "வா வா, உள்ள வா!", "roman": "vā vā, uḷḷa vā!", "en": "Come, come in! (to a friend)", "focus": "வா", "wrong": ["வாங்க|vānga", "வர்றேன்|varrēn"] },
+        { "native": "சாப்பிட்டீங்களா சார்?", "roman": "sāppiṭṭīngaḷā sār?", "en": "Have you eaten, sir?" },
+        { "native": "ஆமா, சாப்பிட்டேன். நீங்க?", "roman": "āmā, sāppiṭṭēn. nīnga?", "en": "Yes, I've eaten. And you?", "focus": "சாப்பிட்டேன்", "wrong": ["சாப்பிட்டீங்களா|sāppiṭṭīngaḷā", "வர்றேன்|varrēn"] },
+        { "native": "சரி, நான் போயிட்டு வர்றேன்.", "roman": "sari, nān pōyiṭṭu varrēn.", "en": "OK, I'll be off now.", "focus": "வர்றேன்", "wrong": ["வாங்க|vānga", "வா|vā"] },
+        { "native": "சரி, போயிட்டு வாங்க!", "roman": "sari, pōyiṭṭu vānga!", "en": "OK, goodbye! (reply)", "focus": "வாங்க", "wrong": ["வர்றேன்|varrēn", "சொல்லுங்க|sollunga"] },
+        { "native": "வாழ்த்துக்கள்! ரொம்ப நல்லது.", "roman": "vāḻttukkaḷ! romba nalladu.", "en": "Congratulations! That's great." },
+        { "native": "அப்புறம்? எப்படி இருக்கீங்க?", "roman": "appuram? eppaḍi irukkīnga?", "en": "So, how are you doing?" },
+        { "native": "ரொம்ப நன்றி, அப்புறம் பாக்கலாம்!", "roman": "romba nandri, appuram pākkalām!", "en": "Thanks a lot, see you later!", "focus": "அப்புறம்", "wrong": ["எப்படி|eppaḍi", "என்ன|enna"] },
+        { "native": "வாருங்கள், வணக்கம்!", "roman": "vārungaḷ, vaṇakkam!", "en": "Welcome! (formal, as on a sign or in a speech)" }
+      ]
+    }
+  ]
 }

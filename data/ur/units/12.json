@@ -87,5 +87,87 @@
       { "speaker": "Anna", "native": "بس، شکریہ۔ یہ لیجیے۔", "roman": "bas, shukriya. ye lījiye.", "en": "That's all, thanks. Here you are." }
     ]
   },
-  "culture": "Bargaining (بھاؤ تاؤ bhā’o tā’o) is normal in bazaars and with street vendors, but not in malls, supermarkets or pharmacies with fixed prices. Keep it good-humoured — a smile and 'kuchh kam kareṃ' go a long way. Shopkeepers may offer tea to serious customers. Lawn (لان) is the light cotton fabric of Pakistani summer fashion, and 'lawn season' is a major retail event."
+  "culture": "Bargaining (بھاؤ تاؤ bhā’o tā’o) is normal in bazaars and with street vendors, but not in malls, supermarkets or pharmacies with fixed prices. Keep it good-humoured — a smile and 'kuchh kam kareṃ' go a long way. Shopkeepers may offer tea to serious customers. Lawn (لان) is the light cotton fabric of Pakistani summer fashion, and 'lawn season' is a major retail event.",
+  "lessons": [
+    {
+      "title": "Asking the price",
+      "tip": { "title": "How much? کتنے کا / کتنے کی", "body": "- Price questions use **کتنے** + **کا / کی / کے**, agreeing with the thing: دودھ کتنے **کا** ہے؟ · چائے کتنے **کی** ہے؟ · آم کتنے **کے** ہیں؟\n- Answer the same way: سو روپے **کا** ہے.\n- **مہنگا / سستا** agree too: مہنگی دکان, سستے آم.", "pattern": "thing + کتنے کا / کی / کے + ہے؟" },
+      "new": ["دکان", "دکاندار", "قیمت", "پیسے", "روپیہ", "مہنگا", "سستا", "یہ کتنے کا ہے؟", "بہت مہنگا ہے!"],
+      "sentences": [
+        { "native": "یہ آم کتنے کے ہیں؟", "roman": "ye ām kitne ke haiṃ?", "en": "How much are these mangoes?", "focus": "کے", "wrong": ["کا|kā", "کی|kī"] },
+        { "native": "چائے کتنے کی ہے؟", "roman": "chā’e kitne kī hai?", "en": "How much is the tea?", "focus": "کی", "wrong": ["کا|kā", "کے|ke"] },
+        { "native": "بھائی، دودھ کتنے کا ہے؟", "roman": "bhā’ī, dūdh kitne kā hai?", "en": "How much is the milk?", "focus": "کا", "wrong": ["کی|kī", "کے|ke"] },
+        { "native": "سو روپے کا ہے۔", "roman": "sau rupe kā hai.", "en": "It's a hundred rupees.", "focus": "کا", "wrong": ["کی|kī", "کے|ke"] },
+        { "native": "یہ دکان بہت مہنگی ہے۔", "roman": "ye dukān bahut mahangī hai.", "en": "This shop is very expensive.", "focus": "مہنگی", "wrong": ["مہنگا|mahangā", "مہنگے|mahange"] },
+        { "native": "بازار میں پھل سستے ہیں۔", "roman": "bāzār meṃ phal saste haiṃ.", "en": "Fruit is cheap at the market.", "focus": "سستے", "wrong": ["سستا|sastā", "سستی|sastī"] },
+        { "native": "یہ چاول بہت مہنگے ہیں۔", "roman": "ye chāval bahut mahange haiṃ.", "en": "This rice is very expensive.", "focus": "مہنگے", "wrong": ["مہنگا|mahangā", "مہنگی|mahangī"] },
+        { "native": "اس کی قیمت کیا ہے؟", "roman": "is kī qīmat kyā hai?", "en": "What's the price of this?" },
+        { "native": "میرے پاس صرف پانچ سو روپے ہیں۔", "roman": "mere pās sirf pāṃch sau rupe haiṃ.", "en": "I only have five hundred rupees." },
+        { "native": "دکاندار بہت اچھا آدمی ہے۔", "roman": "dukāndār bahut achchhā ādmī hai.", "en": "The shopkeeper is a really nice man." }
+      ]
+    },
+    {
+      "title": "Clothes and sizes",
+      "tip": { "title": "This, that: اس / ان before a postposition", "body": "- **یہ** and **وہ** change before میں، کا، پر، سے: singular → **اس**, plural → **ان**.\n- **اس** دکان میں 'in this shop' · **ان** جوتوں میں 'in these shoes'.\n- With no postposition they stay as they are: یہ قمیض, وہ جوتے.", "pattern": "یہ / وہ → اس / ان + postposition", "grammar": 0 },
+      "new": ["کپڑے", "قمیض", "شلوار", "دوپٹہ", "جوتا", "سائز", "یہ قمیض کتنے کی ہے؟", "یہ چھوٹا ہے، بڑا سائز ہے؟", "کیا اس میں کوئی اور رنگ ہے؟", "کیا میں یہ پہن کر دیکھ سکتی ہوں؟"],
+      "sentences": [
+        { "native": "اس قمیض کا رنگ بہت اچھا ہے۔", "roman": "is qamīz kā rang bahut achchhā hai.", "en": "This shirt is a really nice colour.", "focus": "اس", "wrong": ["یہ|ye", "ان|in"] },
+        { "native": "اس دوپٹے کی قیمت کیا ہے؟", "roman": "is dupaṭṭe kī qīmat kyā hai?", "en": "What's the price of this dupatta?", "focus": "اس", "wrong": ["یہ|ye", "ان|in"] },
+        { "native": "ان جوتوں میں بڑا سائز ہے؟", "roman": "in jūtoṃ meṃ baṛā sā’iz hai?", "en": "Do these shoes come in a bigger size?", "focus": "ان", "wrong": ["یہ|ye", "اس|is"] },
+        { "native": "یہ جوتا چھوٹا ہے۔", "roman": "ye jūtā chhoṭā hai.", "en": "This shoe is too small.", "focus": "یہ", "wrong": ["اس|is", "ان|in"] },
+        { "native": "وہ شلوار قمیض بہت خوبصورت ہے۔", "roman": "vo shalvār qamīz bahut xūbsūrat hai.", "en": "That shalwar kameez is beautiful.", "focus": "وہ", "wrong": ["اس|us", "ان|un"] },
+        { "native": "مجھے اس رنگ میں ایک دوپٹہ چاہیے۔", "roman": "mujhe is rang meṃ ek dupaṭṭa chāhiye.", "en": "I'd like a dupatta in this colour.", "focus": "اس", "wrong": ["یہ|ye", "ان|in"] },
+        { "native": "اس دکان میں کپڑے بہت سستے ہیں۔", "roman": "us dukān meṃ kapṛe bahut saste haiṃ.", "en": "Clothes are very cheap in that shop.", "focus": "اس", "wrong": ["وہ|vo", "ان|un"] },
+        { "native": "یہ قمیض بہت چھوٹی ہے۔", "roman": "ye qamīz bahut chhoṭī hai.", "en": "This shirt is too small." },
+        { "native": "کیا میں یہ جوتے پہن کر دیکھ سکتا ہوں؟", "roman": "kyā maiṃ ye jūte pahan kar dekh saktā hūṃ?", "en": "Can I try these shoes on? (man)" }
+      ]
+    },
+    {
+      "title": "This one, that one",
+      "tip": { "title": "The … one: والا", "body": "- Put **والا** after a word to say 'the … one': **یہ والا** 'this one', **لال والا** 'the red one', **سستا والا** 'the cheap one'.\n- It agrees like an adjective: **والا** (m), **والی** (f), **والے** (plural).\n- After a thing it means '-seller': پھل والا 'the fruit seller'.", "pattern": "یہ / وہ / لال + والا / والی / والے", "grammar": 0 },
+      "new": ["والا", "دکھانا", "انگوٹھی", "تھیلا", "ذرا وہ والا دکھائیے۔"],
+      "sentences": [
+        { "native": "مجھے یہ والا تھیلا چاہیے۔", "roman": "mujhe ye vālā thailā chāhiye.", "en": "I'd like this bag.", "focus": "والا", "wrong": ["والی|vālī", "والے|vāle"] },
+        { "native": "وہ والی انگوٹھی دکھائیے۔", "roman": "vo vālī angūṭhī dikhā’iye.", "en": "Show me that ring, please.", "focus": "والی", "wrong": ["والا|vālā", "والے|vāle"] },
+        { "native": "لال والے جوتے کتنے کے ہیں؟", "roman": "lāl vāle jūte kitne ke haiṃ?", "en": "How much are the red shoes?", "focus": "والے", "wrong": ["والا|vālā", "والی|vālī"] },
+        { "native": "سستا والا نہیں، اچھا والا دکھائیے۔", "roman": "sastā vālā nahīṃ, achchhā vālā dikhā’iye.", "en": "Not the cheap one, show me the good one.", "focus": "والا", "wrong": ["والی|vālī", "والے|vāle"] },
+        { "native": "ذرا سفید والی قمیض دکھائیں۔", "roman": "zarā safed vālī qamīz dikhā’eṃ.", "en": "Could you show me the white shirt?", "focus": "والی", "wrong": ["والا|vālā", "والے|vāle"] },
+        { "native": "پھل والا کہاں ہے؟", "roman": "phal vālā kahāṃ hai?", "en": "Where's the fruit seller?", "focus": "والا", "wrong": ["والی|vālī", "والے|vāle"] },
+        { "native": "یہ انگوٹھی بہت خوبصورت ہے، کتنے کی ہے؟", "roman": "ye angūṭhī bahut xūbsūrat hai, kitne kī hai?", "en": "This ring is beautiful — how much is it?" },
+        { "native": "یہ تھیلا بہت بھاری ہے۔", "roman": "ye thailā bahut bhārī hai.", "en": "This bag is very heavy." },
+        { "native": "مجھے دوسرا تھیلا دکھائیے۔", "roman": "mujhe dūsrā thailā dikhā’iye.", "en": "Show me another bag, please." }
+      ]
+    },
+    {
+      "title": "Bargaining",
+      "tip": { "title": "So expensive! اتنا, ایسا, ویسا", "body": "- **اتنا** 'this much, so', **ایسا** 'like this', **ویسا** 'like that' agree like adjectives: **اتنی** مہنگی, **ایسے** جوتے.\n- Complain with اتنا: **اتنا** مہنگا کیوں ہے؟\n- Their question partners: **کتنا** 'how much?', **کیسا** 'what kind?'.", "pattern": "اتنا / اتنی / اتنے + adjective", "grammar": 1 },
+      "new": ["اتنا", "ایسا", "ویسا", "رعایت", "آخری", "دام", "کچھ کم کریں۔", "آخری قیمت بتائیں۔"],
+      "sentences": [
+        { "native": "یہ انگوٹھی اتنی مہنگی کیوں ہے؟", "roman": "ye angūṭhī itnī mahangī kyoṃ hai?", "en": "Why is this ring so expensive?", "focus": "اتنی", "wrong": ["اتنا|itnā", "اتنے|itne"] },
+        { "native": "اتنے پیسے؟ نہیں بھائی، کچھ کم کریں۔", "roman": "itne paise? nahīṃ bhā’ī, kuchh kam kareṃ.", "en": "That much? No, brother, bring it down a bit.", "focus": "اتنے", "wrong": ["اتنا|itnā", "اتنی|itnī"] },
+        { "native": "مجھے ایسا تھیلا چاہیے۔", "roman": "mujhe aisā thailā chāhiye.", "en": "I want a bag like this.", "focus": "ایسا", "wrong": ["ایسی|aisī", "ایسے|aise"] },
+        { "native": "کیا آپ کے پاس ایسے جوتے ہیں؟", "roman": "kyā āp ke pās aise jūte haiṃ?", "en": "Do you have shoes like these?", "focus": "ایسے", "wrong": ["ایسا|aisā", "ایسی|aisī"] },
+        { "native": "ویسی قمیض نیلے رنگ میں ہے؟", "roman": "vaisī qamīz nīle rang meṃ hai?", "en": "Do you have a shirt like that in blue?", "focus": "ویسی", "wrong": ["ویسا|vaisā", "ویسے|vaise"] },
+        { "native": "باجی، اتنی کم قیمت نہیں ہو سکتی۔", "roman": "bājī, itnī kam qīmat nahīṃ ho saktī.", "en": "Sister, the price can't be that low.", "focus": "اتنی", "wrong": ["اتنا|itnā", "اتنے|itne"] },
+        { "native": "کچھ رعایت کریں، میں روز آتی ہوں۔", "roman": "kuchh riʿāyat kareṃ, maiṃ roz ātī hūṃ.", "en": "Give me a little discount, I come here every day. (woman)" },
+        { "native": "آخری دام کیا ہے؟", "roman": "āxirī dām kyā hai?", "en": "What's your final price?" }
+      ]
+    },
+    {
+      "title": "Paying and taking it home",
+      "tip": { "title": "Give and take: دیجیے, لیجیے", "body": "- **دینا** and **لینا** have irregular polite forms: **دیجیے** 'please give', **لیجیے** 'please take'.\n- Handing over money or a bag, say **یہ لیجیے** 'here you are'.\n- **لے لینا** 'take (and keep)' sounds decided: میں یہ **لے لیتا** ہوں 'I'll take it'; a woman says لے **لیتی** ہوں.", "pattern": "مجھے … دیجیے  ·  یہ لیجیے" },
+      "new": ["خریدنا", "بیچنا", "دینا", "لینا", "نقد", "کھلے پیسے", "ٹھیک ہے، میں یہ لے لیتا ہوں۔", "کیا آپ کارڈ لیتے ہیں؟", "کھلے پیسے نہیں ہیں۔"],
+      "sentences": [
+        { "native": "مجھے ایک تھیلا دیجیے۔", "roman": "mujhe ek thailā dījiye.", "en": "Could I have a bag, please?", "focus": "دیجیے", "wrong": ["دیتے|dete", "دیا|diyā"] },
+        { "native": "یہ لیجیے، پانچ سو روپے۔", "roman": "ye lījiye, pāṃch sau rupe.", "en": "Here you are, five hundred rupees.", "focus": "لیجیے", "wrong": ["لیتے|lete", "لیا|liyā"] },
+        { "native": "ٹھیک ہے، میں یہ انگوٹھی لے لیتی ہوں۔", "roman": "ṭhīk hai, maiṃ ye angūṭhī le letī hūṃ.", "en": "OK, I'll take this ring. (woman)", "focus": "لیتی", "wrong": ["لیتا|letā", "لیتے|lete"] },
+        { "native": "سو روپے واپس دیجیے۔", "roman": "sau rupe vāpas dījiye.", "en": "Please give me a hundred rupees back.", "focus": "دیجیے", "wrong": ["دیتے|dete", "دیا|diyā"] },
+        { "native": "نقد دیجیے، کارڈ نہیں چلتا۔", "roman": "naqd dījiye, kārḍ nahīṃ chaltā.", "en": "Please pay cash, cards don't work here.", "focus": "دیجیے", "wrong": ["دیتے|dete", "دیا|diyā"] },
+        { "native": "ہم صرف نقد لیتے ہیں۔", "roman": "ham sirf naqd lete haiṃ.", "en": "We only take cash.", "focus": "لیتے", "wrong": ["لیتا|letā", "لیتی|letī"] },
+        { "native": "کیا آپ کے پاس کھلے پیسے ہیں؟", "roman": "kyā āp ke pās khule paise haiṃ?", "en": "Do you have change?" },
+        { "native": "آپ کیا بیچتے ہیں؟", "roman": "āp kyā bechte haiṃ?", "en": "What do you sell?" },
+        { "native": "میں یہاں سے روز پھل خریدتا ہوں۔", "roman": "maiṃ yahāṃ se roz phal xarīdtā hūṃ.", "en": "I buy fruit here every day. (man)" }
+      ]
+    }
+  ]
 }

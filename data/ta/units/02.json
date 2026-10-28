@@ -98,5 +98,85 @@
       { "speaker": "Tom", "native": "ரொம்ப நன்றி!", "roman": "romba nandri!", "en": "Thank you very much!" }
     ]
   },
-  "culture": "Asking 'which town are you from?' (எந்த ஊரு?) is one of the first questions Tamils ask, since one's native place (சொந்த ஊரு) matters a lot even for city-dwellers. Many Tamils use only a given name plus an initial (the father's name), e.g. 'R. Priya'. Mixing English words into Tamil ('Tanglish') is completely normal in cities — don't be surprised to hear 'office', 'bus', 'phone' in every sentence."
+  "culture": "Asking 'which town are you from?' (எந்த ஊரு?) is one of the first questions Tamils ask, since one's native place (சொந்த ஊரு) matters a lot even for city-dwellers. Many Tamils use only a given name plus an initial (the father's name), e.g. 'R. Priya'. Mixing English words into Tamil ('Tanglish') is completely normal in cities — don't be surprised to hear 'office', 'bus', 'phone' in every sentence.",
+  "lessons": [
+    {
+      "title": "Saying your name",
+      "tip": { "title": "'I (am) Anna' — no verb needed", "body": "- To say who or what something **is**, just put the two words side by side: நான் டாம் 'I (am) Tom', இது தமிழ் 'this (is) Tamil'.\n- 'My name' is **என் பேரு**, 'your name' (polite) **உங்க பேரு**.\n- The negative adds **இல்ல** at the end: அது என் பேரு **இல்ல** 'that's not my name'.", "pattern": "X + Y  ·  X + Y + இல்ல", "grammar": 1 },
+      "new": ["நான்", "பெயர்", "இது", "அது", "யார்", "தமிழ்", "உங்க பேரு என்ன?", "என் பேரு அன்னா.", "உங்களைப் பாத்ததுல சந்தோஷம்."],
+      "sentences": [
+        { "native": "என் பேரு டாம்.", "roman": "en pēru Ṭām.", "en": "My name is Tom.", "focus": "என்", "wrong": ["நான்|nān", "நீ|nī"] },
+        { "native": "நான் சாரா.", "roman": "nān Sārā.", "en": "I'm Sarah.", "focus": "நான்", "wrong": ["என்|en", "உங்க|unga"] },
+        { "native": "அது என்ன?", "roman": "adu enna?", "en": "What's that?", "focus": "அது", "wrong": ["நான்|nān", "யாரு|yāru"] },
+        { "native": "இது தமிழ்.", "roman": "idu tamiḻ.", "en": "This is Tamil.", "focus": "இது", "wrong": ["நான்|nān", "என்|en"] },
+        { "native": "நீங்க யாரு?", "roman": "nīnga yāru?", "en": "Who are you?", "focus": "யாரு", "wrong": ["என்ன|enna", "எப்படி|eppaḍi"] },
+        { "native": "நான் டாம். உங்க பேரு?", "roman": "nān Ṭām. unga pēru?", "en": "I'm Tom. And your name?", "focus": "உங்க", "wrong": ["நீங்க|nīnga", "நான்|nān"] },
+        { "native": "அது என் பேரு இல்ல.", "roman": "adu en pēru illa.", "en": "That's not my name.", "focus": "இல்ல", "wrong": ["இருக்கு|irukku", "இருக்கேன்|irukkēn"] },
+        { "native": "என் பேரு அன்னா இல்ல, சாரா.", "roman": "en pēru Annā illa, Sārā.", "en": "My name isn't Anna, it's Sarah.", "focus": "இல்ல", "wrong": ["இருக்கேன்|irukkēn", "ஆமா|āmā"] },
+        { "native": "வணக்கம், உங்களைப் பாத்ததுல ரொம்ப சந்தோஷம்.", "roman": "vaṇakkam, ungaḷaip pāttadula romba santōsham.", "en": "Hello, very nice to meet you." }
+      ]
+    },
+    {
+      "title": "Where are you from?",
+      "tip": { "title": "Question words stay in place", "body": "- Tamil question words mostly start with **எ-**: எங்க 'where', எது 'which (one)', எந்த 'which + noun', plus யாரு 'who', ஏன் 'why'.\n- They sit where the answer would go: நீங்க **எந்த** ஊரு? → நான் **மதுரை**.\n- For yes/no questions add **-ஆ**: தமிழ் → தமிழா?", "pattern": "நீங்க + எந்த + ஊரு?", "grammar": 2 },
+      "new": ["ஊர்", "நாடு", "இந்தியா", "இலங்கை", "எங்கே", "எது", "நீங்க எந்த ஊரு?", "நான் லண்டன்லேருந்து வர்றேன்."],
+      "sentences": [
+        { "native": "உங்க ஊரு எது?", "roman": "unga ūru edu?", "en": "Which is your home town?", "focus": "எது", "wrong": ["யாரு|yāru", "எப்படி|eppaḍi"] },
+        { "native": "என் ஊரு மதுரை.", "roman": "en ūru Madurai.", "en": "My home town is Madurai." },
+        { "native": "நீங்க எந்த நாடு?", "roman": "nīnga enda nāḍu?", "en": "Which country are you from?", "focus": "எந்த", "wrong": ["எது|edu", "யாரு|yāru"] },
+        { "native": "நீங்க எங்கேருந்து வர்றீங்க?", "roman": "nīnga engērundu varrīnga?", "en": "Where are you from?", "focus": "எங்கேருந்து", "wrong": ["யாரு|yāru", "எது|edu"] },
+        { "native": "நான் இந்தியாவிலேருந்து வர்றேன்.", "roman": "nān Indiyāvilērundu varrēn.", "en": "I'm from India." },
+        { "native": "நீங்க தமிழா? இலங்கையா?", "roman": "nīnga tamiḻā? Ilangaiyā?", "en": "Are you Tamil? From Sri Lanka?", "focus": "இலங்கையா", "wrong": ["இலங்கை|Ilangai", "எங்க|enga"] },
+        { "native": "இல்ல, நான் இலங்கை இல்ல.", "roman": "illa, nān Ilangai illa.", "en": "No, I'm not from Sri Lanka." },
+        { "native": "லண்டன் எங்க? இங்கிலாந்தா?", "roman": "Laṇḍan enga? Inglāndā?", "en": "Where is London? In England?", "focus": "எங்க", "wrong": ["எது|edu", "யாரு|yāru"] }
+      ]
+    },
+    {
+      "title": "He, she and showing respect",
+      "tip": { "title": "Three ways to say he or she", "body": "- **அவன்** 'he' and **அவ** 'she' (written அவள்) are for children, friends and people younger than you.\n- **அவரு** (written அவர்) is a respectful 'he/she'; **அவங்க** (written அவர்கள்) means 'they' and is also a very respectful 'she'.\n- The verb shows the level too: அவன் இருக்**கான்**, அவரு இருக்**காரு**, அவங்க இருக்**காங்க**.", "pattern": "அவன் / அவ  ·  அவரு  ·  அவங்க", "grammar": 0 },
+      "new": ["அவன்", "அவள்", "அவர்", "அவர்கள்", "இங்கே", "அங்கே", "அவரு யாரு?", "இவங்க என் தோழி."],
+      "sentences": [
+        { "native": "அவங்க யாரு?", "roman": "avanga yāru?", "en": "Who is she? (respectful)", "focus": "அவங்க", "wrong": ["அவன்|avan", "அது|adu"] },
+        { "native": "அவன் பேரு என்ன?", "roman": "avan pēru enna?", "en": "What's his name? (a boy)", "focus": "அவன்", "wrong": ["அவ|ava", "அது|adu"] },
+        { "native": "அவ என் தோழி.", "roman": "ava en tōḻi.", "en": "She's my friend.", "focus": "அவ", "wrong": ["அவன்|avan", "அது|adu"] },
+        { "native": "அவரு இங்க இருக்காரு.", "roman": "avaru inga irukkāru.", "en": "He's here.", "focus": "இருக்காரு", "wrong": ["இருக்கான்|irukkān", "இருக்கேன்|irukkēn"] },
+        { "native": "அவங்க அங்க இருக்காங்க.", "roman": "avanga anga irukkānga.", "en": "They're over there.", "focus": "இருக்காங்க", "wrong": ["இருக்காரு|irukkāru", "இருக்கா|irukkā"] },
+        { "native": "அவ எங்க இருக்கா?", "roman": "ava enga irukkā?", "en": "Where is she?", "focus": "இருக்கா", "wrong": ["இருக்கான்|irukkān", "இருக்காரு|irukkāru"] },
+        { "native": "அவரு பேரு என்ன?", "roman": "avaru pēru enna?", "en": "What's his name? (respectful)", "focus": "அவரு", "wrong": ["அவ|ava", "அது|adu"] },
+        { "native": "அவன் இங்க இல்ல.", "roman": "avan inga illa.", "en": "He isn't here." },
+        { "native": "இவரு யாரு? டாமா?", "roman": "ivaru yāru? Ṭāmā?", "en": "Who's this? Is it Tom?" }
+      ]
+    },
+    {
+      "title": "Where you live",
+      "tip": { "title": "இரு — to be somewhere", "body": "- To say **where** someone is, use **இரு** with a personal ending: நான் இருக்**கேன்**, நீங்க இருக்**கீங்க**, அவரு இருக்**காரு**, அவங்க இருக்**காங்க**, நாங்க / நாம இருக்**கோம்**.\n- **நாம** is 'we' including you; **நாங்க** is 'we' but not you.\n- The negative is just **இல்ல** for everyone.", "pattern": "person + place-ல + இருக்கேன் / இருக்கோம்…", "grammar": 1 },
+      "new": ["இரு", "நாம்", "நாங்கள்", "எப்போது", "ஏன்", "நான் இப்போ சென்னையில இருக்கேன்."],
+      "sentences": [
+        { "native": "நான் இப்போ லண்டன்ல இருக்கேன்.", "roman": "nān ippō Laṇḍanla irukkēn.", "en": "I'm in London now.", "focus": "இருக்கேன்", "wrong": ["இருக்கீங்க|irukkīnga", "இருக்கோம்|irukkōm"] },
+        { "native": "நாங்க சென்னையில இருக்கோம்.", "roman": "nānga Chennaiyila irukkōm.", "en": "We live in Chennai.", "focus": "இருக்கோம்", "wrong": ["இருக்கேன்|irukkēn", "இருக்காங்க|irukkānga"] },
+        { "native": "நாம எங்க இருக்கோம்?", "roman": "nāma enga irukkōm?", "en": "Where are we? (you and I)", "focus": "நாம", "wrong": ["நாங்க|nānga", "நான்|nān"] },
+        { "native": "ஏன் இங்க இருக்கீங்க?", "roman": "ēn inga irukkīnga?", "en": "Why are you here?", "focus": "ஏன்", "wrong": ["எப்போ|eppō", "யாரு|yāru"] },
+        { "native": "எப்போ வீட்டுல இருக்கீங்க?", "roman": "eppō vīṭṭula irukkīnga?", "en": "When are you at home?", "focus": "எப்போ", "wrong": ["ஏன்|ēn", "எது|edu"] },
+        { "native": "டாம் எங்க இருக்காரு?", "roman": "Ṭām enga irukkāru?", "en": "Where is Tom?", "focus": "இருக்காரு", "wrong": ["இருக்கேன்|irukkēn", "இருக்கோம்|irukkōm"] },
+        { "native": "நாங்க இப்போ இலங்கையில இருக்கோம்.", "roman": "nānga ippō Ilangaiyila irukkōm.", "en": "We're in Sri Lanka now (my family and I).", "focus": "நாங்க", "wrong": ["நான்|nān", "அவன்|avan"] },
+        { "native": "அவரு இப்போ இங்க இல்ல.", "roman": "avaru ippō inga illa.", "en": "He isn't here right now." }
+      ]
+    },
+    {
+      "title": "The languages you speak",
+      "tip": { "title": "'I know' is 'to me it is known'", "body": "- **தெரியும்** 'know' takes the knower with **-க்கு** 'to': **எனக்கு**த் தமிழ் தெரியும் 'I know Tamil', **உங்களுக்கு** 'to you', **அவருக்கு** 'to him'.\n- Negative: **தெரியாது**. Question: **தெரியுமா?**\n- 'I speak' is நான் **பேசுவேன்**; politely asking: **பேசுவீங்களா?**", "pattern": "எனக்கு + language + தெரியும் / தெரியாது" },
+      "new": ["மொழி", "ஆங்கிலம்", "பேசு", "தெரியும்", "கொஞ்சம்", "உங்களுக்குத் தமிழ் தெரியுமா?", "கொஞ்சம் தெரியும்.", "நான் கொஞ்சம் கொஞ்சம் தமிழ் பேசுவேன்.", "இங்கிலீஷ் பேசுவீங்களா?"],
+      "sentences": [
+        { "native": "எனக்குத் தமிழ் தெரியும்.", "roman": "enakkut tamiḻ teriyum.", "en": "I know Tamil.", "focus": "எனக்குத்", "wrong": ["நான்|nān", "என்|en"] },
+        { "native": "எனக்கு இங்கிலீஷ் தெரியாது.", "roman": "enakku inglīsh teriyādu.", "en": "I don't know English.", "focus": "தெரியாது", "wrong": ["தெரியும்|teriyum", "தெரியுமா|teriyumā"] },
+        { "native": "அவருக்குத் தமிழ் தெரியுமா?", "roman": "avarukkut tamiḻ teriyumā?", "en": "Does he know Tamil?", "focus": "தெரியுமா", "wrong": ["தெரியும்|teriyum", "தெரியாது|teriyādu"] },
+        { "native": "நான் இங்கிலீஷ் பேசுவேன்.", "roman": "nān inglīsh pēsuvēn.", "en": "I speak English.", "focus": "பேசுவேன்", "wrong": ["பேசுவீங்க|pēsuvīnga", "பேசுங்க|pēsunga"] },
+        { "native": "நீங்க தமிழ் பேசுவீங்களா?", "roman": "nīnga tamiḻ pēsuvīngaḷā?", "en": "Do you speak Tamil?", "focus": "பேசுவீங்களா", "wrong": ["பேசுவேனா|pēsuvēnā", "பேசுங்க|pēsunga"] },
+        { "native": "உங்களுக்கு எந்த மொழி தெரியும்?", "roman": "ungaḷukku enda moḻi teriyum?", "en": "Which languages do you know?", "focus": "உங்களுக்கு", "wrong": ["நீங்க|nīnga", "உங்க|unga"] },
+        { "native": "ஆமா, கொஞ்சம் கொஞ்சம் பேசுவேன்.", "roman": "āmā, konjam konjam pēsuvēn.", "en": "Yes, I speak a little." },
+        { "native": "எனக்கு ஆங்கிலம் கொஞ்சம் தெரியும்.", "roman": "enakku āngilam konjam teriyum.", "en": "I know a little English.", "focus": "எனக்கு", "wrong": ["நான்|nān", "என்|en"] },
+        { "native": "தமிழ் என் மொழி.", "roman": "tamiḻ en moḻi.", "en": "Tamil is my language." }
+      ]
+    }
+  ]
 }

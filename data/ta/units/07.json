@@ -86,5 +86,85 @@
       { "speaker": "Lakshmi", "native": "சரி. லேட் பண்ணாதீங்க!", "roman": "sari. lēṭ paṇṇādīnga!", "en": "OK. Don't be late!" }
     ]
   },
-  "culture": "The Tamil year begins in Chithirai (around 14 April). The biggest festival is **Pongal** in the month of Thai (mid-January), a harvest festival where rice is boiled with milk and jaggery until it 'overflows' (பொங்கு). Many people still consult the daily calendar for auspicious times (நல்ல நேரம்) and avoid starting important things during ராகு காலம் *rāgu kālam*, an inauspicious hour and a half each day."
+  "culture": "The Tamil year begins in Chithirai (around 14 April). The biggest festival is **Pongal** in the month of Thai (mid-January), a harvest festival where rice is boiled with milk and jaggery until it 'overflows' (பொங்கு). Many people still consult the daily calendar for auspicious times (நல்ல நேரம்) and avoid starting important things during ராகு காலம் *rāgu kālam*, an inauspicious hour and a half each day.",
+  "lessons": [
+    {
+      "title": "What time is it?",
+      "tip": { "title": "மணி + number", "body": "- 'It's three o'clock' = **மணி மூணு** (or மூணு மணி).\n- Quarter and half: மூணே **கால்** 3:15, **மூணரை** 3:30, மூணே **முக்கால்** 3:45.\n- Minutes: மணி ரெண்டு பத்து **நிமிஷம்** 2:10.\n- Ask: **மணி என்ன?**", "pattern": "மணி + hour (+ கால் / அரை / முக்கால்)", "grammar": 0 },
+      "new": ["மணி", "நேரம்", "நிமிடம்", "இப்போது", "மணி என்ன?", "மணி மூணு.", "மணி நாலரை.", "இப்போ ஏழே கால்."],
+      "sentences": [
+        { "native": "இப்போ மணி என்ன?", "roman": "ippō maṇi enna?", "en": "What time is it now?" },
+        { "native": "மணி ஆறு.", "roman": "maṇi āru.", "en": "It's six o'clock.", "focus": "ஆறு", "wrong": ["ஆறாவது|ārāvadu", "ஆறுக்கு|ārukku"] },
+        { "native": "மணி பத்தரை.", "roman": "maṇi pattarai.", "en": "It's half past ten.", "focus": "பத்தரை", "wrong": ["பத்தாவது|pattāvadu", "பத்து|pattu"] },
+        { "native": "இப்போ எட்டே முக்கால்.", "roman": "ippō eṭṭē mukkāl.", "en": "It's quarter to nine now.", "focus": "முக்கால்", "wrong": ["கால்|kāl", "அரை|arai"] },
+        { "native": "மணி ரெண்டு பத்து நிமிஷம்.", "roman": "maṇi reṇḍu pattu nimisham.", "en": "It's ten past two.", "focus": "நிமிஷம்", "wrong": ["மணி|maṇi", "நாள்|nāḷ"] },
+        { "native": "இப்போ ஒம்பதே கால் ஆச்சு.", "roman": "ippō ombadē kāl ācchu.", "en": "It's already quarter past nine.", "focus": "கால்", "wrong": ["முக்கால்|mukkāl", "அரை|arai"] },
+        { "native": "இன்னும் அஞ்சு நிமிஷம்.", "roman": "innum anju nimisham.", "en": "Five more minutes." },
+        { "native": "எனக்கு நேரம் இல்ல.", "roman": "enakku nēram illa.", "en": "I don't have time." }
+      ]
+    },
+    {
+      "title": "At what time?",
+      "tip": { "title": "'At five' = அஞ்சு மணிக்கு", "body": "- 'At' a time uses **-க்கு**: அஞ்சு மணி**க்கு**, ஆறரை**க்கு**.\n- The part of the day goes first: **காலையில** 'in the morning', **மதியம்** 'at midday', **சாயங்காலம்** 'in the evening' (written மாலை), **ராத்திரி** 'at night' (written இரவு).\n- 'In ten minutes' = பத்து நிமிஷத்துல.", "pattern": "(part of day) + hour + மணிக்கு", "grammar": 0 },
+      "new": ["காலை", "மதியம்", "மாலை", "இரவு", "எத்தன மணிக்கு?", "காலையில பத்து மணிக்கு.", "அஞ்சு நிமிஷம் வெயிட் பண்ணுங்க."],
+      "sentences": [
+        { "native": "எத்தன மணிக்கு வர்றீங்க?", "roman": "ettana maṇikku varrīnga?", "en": "What time are you coming?", "focus": "மணிக்கு", "wrong": ["மணி|maṇi", "மணியில|maṇiyila"] },
+        { "native": "நான் அஞ்சு மணிக்கு வர்றேன்.", "roman": "nān anju maṇikku varrēn.", "en": "I'll come at five.", "focus": "மணிக்கு", "wrong": ["மணி|maṇi", "மணியில|maṇiyila"] },
+        { "native": "மதியம் ஒரு மணிக்கு சாப்பாடு.", "roman": "madiyam oru maṇikku sāppāḍu.", "en": "Lunch is at one in the afternoon.", "focus": "மதியம்", "wrong": ["ராத்திரி|rāttiri", "காலையில|kālaiyila"] },
+        { "native": "சாயங்காலம் ஆறரைக்கு வாங்க.", "roman": "sāyangālam āraraikku vānga.", "en": "Come at half past six in the evening.", "focus": "ஆறரைக்கு", "wrong": ["ஆறரை|ārarai", "ஆறாவது|ārāvadu"] },
+        { "native": "ராத்திரி எட்டு மணிக்கு சாப்பாடு.", "roman": "rāttiri eṭṭu maṇikku sāppāḍu.", "en": "Dinner's at eight at night.", "focus": "ராத்திரி", "wrong": ["காலையில|kālaiyila", "மதியம்|madiyam"] },
+        { "native": "காலையில பத்தரை மணிக்கு கிளாஸ்.", "roman": "kālaiyila pattarai maṇikku klās.", "en": "Class is at half past ten in the morning.", "focus": "காலையில", "wrong": ["காலை|kālai", "காலைக்கு|kālaikku"] },
+        { "native": "பத்து நிமிஷத்துல வர்றேன்.", "roman": "pattu nimishattula varrēn.", "en": "I'll be there in ten minutes.", "focus": "நிமிஷத்துல", "wrong": ["நிமிஷம்|nimisham", "நிமிஷத்துக்கு|nimishattukku"] },
+        { "native": "ஒரு நிமிஷம் வெயிட் பண்ணுங்க.", "roman": "oru nimisham veyiṭ paṇṇunga.", "en": "Wait a minute, please." }
+      ]
+    },
+    {
+      "title": "Today, tomorrow, next week",
+      "tip": { "title": "Today, yesterday, next, last", "body": "- Spoken: **இன்னைக்கு** 'today', **நாளைக்கு** 'tomorrow', **நேத்து** 'yesterday' (written இன்று, நாளை, நேற்று).\n- **அடுத்த** 'next', **போன** 'last' (lit. 'gone'), **இந்த** 'this': அடுத்த வாரம், போன மாசம், இந்த வருஷம்.\n- No word for 'on' or 'in' is needed with these.", "pattern": "அடுத்த / போன / இந்த + வாரம் / மாசம்", "grammar": 1 },
+      "new": ["இன்று", "நாளை", "நேற்று", "நாள்", "வாரம்", "மாதம்", "நாளைக்குப் பாக்கலாம்."],
+      "sentences": [
+        { "native": "இன்னைக்கு நான் வீட்டுல இருக்கேன்.", "roman": "innaikku nān vīṭṭula irukkēn.", "en": "I'm at home today.", "focus": "இன்னைக்கு", "wrong": ["நேத்து|nēttu", "நாளைக்கு|nāḷaikku"] },
+        { "native": "நாளைக்கு வர்றீங்களா?", "roman": "nāḷaikku varrīngaḷā?", "en": "Are you coming tomorrow?", "focus": "நாளைக்கு", "wrong": ["நேத்து|nēttu", "இன்னைக்கு|innaikku"] },
+        { "native": "நேத்து நான் சென்னையில இருந்தேன்.", "roman": "nēttu nān Chennaiyila irundēn.", "en": "Yesterday I was in Chennai.", "focus": "நேத்து", "wrong": ["நாளைக்கு|nāḷaikku", "அடுத்த|aḍutta"] },
+        { "native": "அடுத்த வாரம் லண்டன் போறேன்.", "roman": "aḍutta vāram Laṇḍan pōrēn.", "en": "I'm going to London next week.", "focus": "அடுத்த", "wrong": ["போன|pōna", "முதல்|mudal"] },
+        { "native": "போன மாசம் அம்மா இங்க இருந்தாங்க.", "roman": "pōna māsam ammā inga irundānga.", "en": "Last month Mum was here.", "focus": "போன", "wrong": ["அடுத்த|aḍutta", "இந்த|inda"] },
+        { "native": "இந்த வாரம் எனக்கு நேரம் இல்ல.", "roman": "inda vāram enakku nēram illa.", "en": "I don't have time this week.", "focus": "வாரம்", "wrong": ["மணி|maṇi", "நிமிஷம்|nimisham"] },
+        { "native": "ஒரு வாரத்துல ஏழு நாள்.", "roman": "oru vārattula ēḻu nāḷ.", "en": "There are seven days in a week.", "focus": "நாள்", "wrong": ["மாசம்|māsam", "வாரம்|vāram"] },
+        { "native": "நான் ரெண்டு மாசம் இங்க இருப்பேன்.", "roman": "nān reṇḍu māsam inga iruppēn.", "en": "I'll be here for two months.", "focus": "மாசம்", "wrong": ["வயசு|vayasu", "மணி|maṇi"] },
+        { "native": "நாளைக்கு எனக்கு லீவு.", "roman": "nāḷaikku enakku līvu.", "en": "I'm off tomorrow." }
+      ]
+    },
+    {
+      "title": "Days of the week",
+      "tip": { "title": "Planet + கிழமை", "body": "- Each day is a planet + **கிழமை** 'day': வெள்ளி + கிழமை → **வெள்ளிக்கிழமை** 'Friday'.\n- Spoken forms: **ஞாயித்துக்கிழமை**, **திங்கக்கிழமை**, **வியாழக்கிழமை**.\n- 'On Friday' needs no extra word: just வெள்ளிக்கிழமை.\n- 'From … to …': X **முதல்** Y **வரைக்கும்**." },
+      "new": ["கிழமை", "ஞாயிறு", "திங்கள்", "செவ்வாய்", "புதன்", "வியாழன்", "வெள்ளி", "சனி", "இன்னைக்கு என்ன கிழமை?", "இன்னைக்கு வெள்ளிக்கிழமை."],
+      "sentences": [
+        { "native": "நாளைக்கு என்ன கிழமை?", "roman": "nāḷaikku enna kiḻamai?", "en": "What day is it tomorrow?", "focus": "கிழமை", "wrong": ["மணி|maṇi", "மாசம்|māsam"] },
+        { "native": "நாளைக்கு சனிக்கிழமை.", "roman": "nāḷaikku sanikkiḻamai.", "en": "Tomorrow is Saturday." },
+        { "native": "நேத்து ஞாயித்துக்கிழமை.", "roman": "nēttu ñāyittukkiḻamai.", "en": "Yesterday was Sunday.", "focus": "நேத்து", "wrong": ["நாளைக்கு|nāḷaikku", "அடுத்த|aḍutta"] },
+        { "native": "செவ்வாய்க்கிழமை ஆஃபீஸ் இல்ல.", "roman": "sevvāykkiḻamai āfīs illa.", "en": "There's no office on Tuesday.", "focus": "செவ்வாய்க்கிழமை", "wrong": ["சனிக்கிழமை|sanikkiḻamai", "திங்கக்கிழமை|tingakkiḻamai"] },
+        { "native": "புதன்கிழமை அன்னைக்கு கிளாஸ் இருக்கு.", "roman": "pudankiḻamai annaikku klās irukku.", "en": "There's class on Wednesday." },
+        { "native": "வியாழக்கிழமை வர்றீங்களா?", "roman": "viyāḻakkiḻamai varrīngaḷā?", "en": "Are you coming on Thursday?", "focus": "வியாழக்கிழமை", "wrong": ["வெள்ளிக்கிழமை|veḷḷikkiḻamai", "புதன்கிழமை|pudankiḻamai"] },
+        { "native": "வெள்ளிக்கிழமை சாயங்காலம் கோவிலுக்குப் போவோம்.", "roman": "veḷḷikkiḻamai sāyangālam kōvilukkup pōvōm.", "en": "On Friday evenings we go to the temple." },
+        { "native": "திங்கக்கிழமை முதல் வெள்ளிக்கிழமை வரைக்கும் வேலை.", "roman": "tingakkiḻamai mudal veḷḷikkiḻamai varaikkum vēlai.", "en": "Work is from Monday to Friday.", "focus": "வரைக்கும்", "wrong": ["முதல்|mudal", "மணிக்கு|maṇikku"] },
+        { "native": "ஞாயித்துக்கிழமை எல்லாரும் வீட்டுல இருப்போம்.", "roman": "ñāyittukkiḻamai ellārum vīṭṭula iruppōm.", "en": "On Sundays we're all at home.", "focus": "ஞாயித்துக்கிழமை", "wrong": ["சனிக்கிழமை|sanikkiḻamai", "வெள்ளிக்கிழமை|veḷḷikkiḻamai"] }
+      ]
+    },
+    {
+      "title": "Late, early, always",
+      "tip": { "title": "Running late", "body": "- 'I'm late' = **லேட் ஆச்சு** 'it got late' (the written word is தாமதம்).\n- **சீக்கிரம்** = early, quickly: சீக்கிரம் வாங்க!\n- **எப்பவும்** 'always' (written எப்போதும்).\n- Tamil months mark festivals: Pongal is in **தை**, the Tamil New Year in **சித்திரை**." },
+      "new": ["சீக்கிரம்", "தாமதம்", "எப்போதும்", "தை", "சித்திரை", "லேட் ஆச்சு, மன்னிச்சுக்கோங்க.", "சீக்கிரம் வாங்க!"],
+      "sentences": [
+        { "native": "ஐயோ, லேட் ஆச்சு!", "roman": "aiyō, lēṭ ācchu!", "en": "Oh no, I'm late!", "focus": "லேட்", "wrong": ["சீக்கிரம்|sīkkiram", "நேரம்|nēram"] },
+        { "native": "நாளைக்கு சீக்கிரம் வாங்க.", "roman": "nāḷaikku sīkkiram vānga.", "en": "Come early tomorrow.", "focus": "சீக்கிரம்", "wrong": ["லேட்டா|lēṭṭā", "எப்பவும்|eppavum"] },
+        { "native": "அவரு எப்பவும் லேட்டா வருவாரு.", "roman": "avaru eppavum lēṭṭā varuvāru.", "en": "He always comes late.", "focus": "எப்பவும்", "wrong": ["சீக்கிரம்|sīkkiram", "நேத்து|nēttu"] },
+        { "native": "சீக்கிரம் சாப்பிடுங்க, லேட் ஆச்சு.", "roman": "sīkkiram sāppiḍunga, lēṭ ācchu.", "en": "Eat quickly, it's getting late.", "focus": "சீக்கிரம்", "wrong": ["லேட்டா|lēṭṭā", "எப்பவும்|eppavum"] },
+        { "native": "எப்பவும் காலையில காபி குடிப்பேன்.", "roman": "eppavum kālaiyila kāpi kuḍippēn.", "en": "I always drink coffee in the morning.", "focus": "எப்பவும்", "wrong": ["நேத்து|nēttu", "போன|pōna"] },
+        { "native": "பரவால்ல, இன்னும் நேரம் இருக்கு.", "roman": "paravālla, innum nēram irukku.", "en": "It's fine, there's still time.", "focus": "நேரம்", "wrong": ["மணி|maṇi", "நாள்|nāḷ"] },
+        { "native": "தாமதத்திற்கு மன்னிக்கவும்.", "roman": "tāmadattirku mannikkavum.", "en": "Sorry for the delay. (formal, as in announcements)" },
+        { "native": "தை மாசம் ஊருக்குப் போவோம்.", "roman": "tai māsam ūrukkup pōvōm.", "en": "We go to our home town in the month of Thai." },
+        { "native": "சித்திரை மாசம் கல்யாணம்.", "roman": "sittirai māsam kalyāṇam.", "en": "The wedding is in (the month of) Chithirai." }
+      ]
+    }
+  ]
 }

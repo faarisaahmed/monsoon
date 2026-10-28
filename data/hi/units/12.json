@@ -100,5 +100,94 @@
       { "speaker": "Shopkeeper", "native": "कार्ड नहीं, पर यूपीआई चलेगा।", "roman": "kārḍ nahīṃ, par yū-pī-āī chalegā.", "en": "Not card, but UPI is fine." }
     ]
   },
-  "culture": "Bargaining is normal in markets, with street vendors and auto drivers — but **not** in malls, supermarkets, chemists or shops with printed prices (MRP, 'maximum retail price'). Keep it friendly: smile, offer about half, and meet somewhere in the middle; walking away politely often brings a better offer. Today most payments, even at tiny stalls, are made by scanning a QR code with a phone (UPI), so carrying small change matters less than it used to — but खुले पैसे are still handy for autos and tips."
+  "culture": "Bargaining is normal in markets, with street vendors and auto drivers — but **not** in malls, supermarkets, chemists or shops with printed prices (MRP, 'maximum retail price'). Keep it friendly: smile, offer about half, and meet somewhere in the middle; walking away politely often brings a better offer. Today most payments, even at tiny stalls, are made by scanning a QR code with a phone (UPI), so carrying small change matters less than it used to — but खुले पैसे are still handy for autos and tips.",
+  "lessons": [
+    {
+      "title": "How much is this?",
+      "tip": { "title": "कितने का? — how much is it?", "body": "- Ask **कितने का है?** for a masculine item, **कितने की है?** for a feminine one, **कितने के हैं?** for plurals.\n- Answer the same way: पाँच सौ रुपये **का** है (कुर्ता), दो हज़ार **की** है (साड़ी).\n- Or just ask **कितना हुआ?** 'how much is that?'", "pattern": "item + कितने का / की / के + है?", "grammar": 2 },
+      "new": ["दुकान", "दुकानदार", "रुपया", "दाम", "पैसा", "साड़ी", "कुर्ता", "यह कितने का है?", "यह साड़ी कितने की है?"],
+      "sentences": [
+        { "native": "वह कुर्ता कितने का है?", "roman": "vah kurtā kitne kā hai?", "en": "How much is that kurta?", "focus": "का", "wrong": ["की|kī", "के|ke"] },
+        { "native": "ये साड़ियाँ कितने की हैं?", "roman": "ye sāṛiyāṃ kitne kī haiṃ?", "en": "How much are these saris?", "focus": "की", "wrong": ["का|kā", "के|ke"] },
+        { "native": "पाँच सौ रुपये का है।", "roman": "pāṃch sau rupaye kā hai.", "en": "It's five hundred rupees. (a masculine item)", "focus": "का", "wrong": ["की|kī", "के|ke"] },
+        { "native": "यह साड़ी दो हज़ार की है।", "roman": "yah sāṛī do hazār kī hai.", "en": "This sari is two thousand.", "focus": "की", "wrong": ["का|kā", "के|ke"] },
+        { "native": "भैया, चाय कितने की है?", "roman": "bhaiyā, chāy kitne kī hai?", "en": "How much is the tea?", "focus": "की", "wrong": ["का|kā", "के|ke"] },
+        { "native": "ये कुर्ते कितने के हैं?", "roman": "ye kurte kitne ke haiṃ?", "en": "How much are these kurtas?", "focus": "के", "wrong": ["का|kā", "की|kī"] },
+        { "native": "यह किताब तीन सौ की है।", "roman": "yah kitāb tīn sau kī hai.", "en": "This book is three hundred.", "focus": "की", "wrong": ["का|kā", "के|ke"] },
+        { "native": "ये आलू कितने के हैं?", "roman": "ye ālū kitne ke haiṃ?", "en": "How much are these potatoes?", "focus": "के", "wrong": ["का|kā", "की|kī"] },
+        { "native": "इसका दाम क्या है?", "roman": "iskā dām kyā hai?", "en": "What's the price of this?" },
+        { "native": "दुकानदार कहाँ है?", "roman": "dukāndār kahāṃ hai?", "en": "Where's the shopkeeper?" },
+        { "native": "यह दुकान बहुत पुरानी है।", "roman": "yah dukān bahut purānī hai.", "en": "This shop is very old." },
+        { "native": "मेरे पास पैसे नहीं हैं।", "roman": "mere pās paise nahīṃ haiṃ.", "en": "I don't have any money." }
+      ]
+    },
+    {
+      "title": "Too expensive! Bargaining",
+      "tip": { "title": "सस्ता, सस्ती, सस्ते", "body": "- Adjectives ending in **-आ** agree with the thing: **महँगा** (m), **महँगी** (f), **महँगे** (m pl).\n- साड़ी is feminine → साड़ी **महँगी** है; कुर्ता is masculine → कुर्ता **महँगा** है.\n- In markets, bargaining is normal: say **बहुत महँगा है!** and ask for the **आख़िरी दाम**." },
+      "new": ["सस्ता", "महँगा", "मोल-भाव", "छूट", "बहुत महँगा है!", "कुछ कम कीजिए।", "आख़िरी दाम बताइए।", "मुझे बस देखना है।"],
+      "sentences": [
+        { "native": "यह साड़ी बहुत महँगी है।", "roman": "yah sāṛī bahut mahaṃgī hai.", "en": "This sari is very expensive.", "focus": "महँगी", "wrong": ["महँगा|mahaṃgā", "महँगे|mahaṃge"] },
+        { "native": "यह कुर्ता सस्ता है।", "roman": "yah kurtā sastā hai.", "en": "This kurta is cheap.", "focus": "सस्ता", "wrong": ["सस्ती|sastī", "सस्ते|saste"] },
+        { "native": "बाज़ार में सब्ज़ियाँ सस्ती हैं।", "roman": "bāzār meṃ sabziyāṃ sastī haiṃ.", "en": "Vegetables are cheap at the market.", "focus": "सस्ती", "wrong": ["सस्ता|sastā", "सस्ते|saste"] },
+        { "native": "दिल्ली बहुत महँगा शहर है।", "roman": "Dillī bahut mahaṃgā shahar hai.", "en": "Delhi is a very expensive city.", "focus": "महँगा", "wrong": ["महँगी|mahaṃgī", "महँगे|mahaṃge"] },
+        { "native": "चाय यहाँ सस्ती है, बीस रुपये।", "roman": "chāy yahāṃ sastī hai, bīs rupaye.", "en": "Tea is cheap here — twenty rupees.", "focus": "सस्ती", "wrong": ["सस्ता|sastā", "सस्ते|saste"] },
+        { "native": "ये बहुत महँगे हैं, भैया।", "roman": "ye bahut mahaṃge haiṃ, bhaiyā.", "en": "These are too expensive.", "focus": "महँगे", "wrong": ["महँगा|mahaṃgā", "महँगी|mahaṃgī"] },
+        { "native": "सबसे सस्ता कौन-सा है?", "roman": "sabse sastā kaun-sā hai?", "en": "Which one is the cheapest?", "focus": "सस्ता", "wrong": ["सस्ती|sastī", "सस्ते|saste"] },
+        { "native": "कुछ छूट मिलेगी?", "roman": "kuchh chhūṭ milegī?", "en": "Can I get a bit of a discount?" },
+        { "native": "मुझे मोल-भाव करना पसंद नहीं है।", "roman": "mujhe mol-bhāv karnā pasand nahīṃ hai.", "en": "I don't like bargaining." },
+        { "native": "मैं बस देख रही हूँ।", "roman": "maiṃ bas dekh rahī hūṃ.", "en": "I'm just looking. (woman)" }
+      ]
+    },
+    {
+      "title": "This one or that one?",
+      "tip": { "title": "वाला — 'the … one'", "body": "- After an adjective, **वाला** means 'the … one': **लाल वाला** 'the red one', **यह वाला** 'this one'.\n- It agrees like an -आ adjective: **वाला** (m), **वाली** (f), **वाले** (pl).\n- After a noun it means 'the person who sells…': **चायवाला** 'tea seller'.", "pattern": "adjective + वाला / वाली / वाले", "grammar": 1 },
+      "new": ["वाला", "कपड़ा", "कमीज़", "पैंट", "जूता", "दिखाना", "कोई दूसरा रंग दिखाइए।"],
+      "sentences": [
+        { "native": "मुझे वह नीली वाली कमीज़ दिखाइए।", "roman": "mujhe vah nīlī vālī kamīz dikhāiye.", "en": "Show me that blue shirt, please.", "focus": "वाली", "wrong": ["वाला|vālā", "वाले|vāle"] },
+        { "native": "यह वाला जूता कितने का है?", "roman": "yah vālā jūtā kitne kā hai?", "en": "How much is this shoe?", "focus": "वाला", "wrong": ["वाली|vālī", "वाले|vāle"] },
+        { "native": "काले वाले जूते दिखाइए।", "roman": "kāle vāle jūte dikhāiye.", "en": "Show me the black shoes, please.", "focus": "वाले", "wrong": ["वाला|vālā", "वाली|vālī"] },
+        { "native": "मुझे सस्ती वाली पैंट चाहिए।", "roman": "mujhe sastī vālī paiṇṭ chāhiye.", "en": "I want the cheap trousers.", "focus": "वाली", "wrong": ["वाला|vālā", "वाले|vāle"] },
+        { "native": "लाल वाली या हरी वाली?", "roman": "lāl vālī yā harī vālī?", "en": "The red one or the green one? (a feminine item)", "focus": "हरी", "wrong": ["हरा|harā", "हरे|hare"] },
+        { "native": "बड़े वाले दिखाइए।", "roman": "baṛe vāle dikhāiye.", "en": "Show me the big ones, please.", "focus": "वाले", "wrong": ["वाला|vālā", "वाली|vālī"] },
+        { "native": "पीली वाली साड़ी ज़्यादा सुंदर है।", "roman": "pīlī vālī sāṛī zyādā sundar hai.", "en": "The yellow sari is nicer.", "focus": "वाली", "wrong": ["वाला|vālā", "वाले|vāle"] },
+        { "native": "ये कपड़े बहुत सुंदर हैं।", "roman": "ye kapṛe bahut sundar haiṃ.", "en": "These clothes are really nice." },
+        { "native": "चायवाला कहाँ है?", "roman": "chāyvālā kahāṃ hai?", "en": "Where's the tea seller?" },
+        { "native": "यह कमीज़ बहुत छोटी है।", "roman": "yah kamīz bahut chhoṭī hai.", "en": "This shirt is too small." }
+      ]
+    },
+    {
+      "title": "In this shop, in that size",
+      "tip": { "title": "इस, उस — this / that before a postposition", "body": "- Before **में, से, का, पर, को**, यह becomes **इस** and वह becomes **उस**: **इस** दुकान में, **उस** आदमी से.\n- Plural: ये → **इन**, वे → **उन**.\n- Joined up they mean 'it / him / her': **इसमें** 'in this', **इसका** 'its', **उससे** 'from him/her'.", "pattern": "यह → इस  ·  वह → उस  (+ postposition)", "grammar": 0 },
+      "new": ["इस", "उस", "साइज़", "थैला", "बदलना", "लौटाना", "क्या इसमें बड़ा साइज़ है?", "मैं पहनकर देख सकती हूँ?"],
+      "sentences": [
+        { "native": "इस कमीज़ में छोटा साइज़ है?", "roman": "is kamīz meṃ chhoṭā sāiz hai?", "en": "Do you have this shirt in a smaller size?", "focus": "इस", "wrong": ["यह|yah", "ये|ye"] },
+        { "native": "उस दुकान में जूते सस्ते हैं।", "roman": "us dukān meṃ jūte saste haiṃ.", "en": "Shoes are cheap in that shop.", "focus": "उस", "wrong": ["वह|vah", "वे|ve"] },
+        { "native": "इस थैले में क्या है?", "roman": "is thaile meṃ kyā hai?", "en": "What's in this bag?", "focus": "इस", "wrong": ["यह|yah", "ये|ye"] },
+        { "native": "उस आदमी को पैसे लौटाइए।", "roman": "us ādmī ko paise lauṭāiye.", "en": "Please give that man his money back.", "focus": "उस", "wrong": ["वह|vah", "वे|ve"] },
+        { "native": "इन कपड़ों का दाम क्या है?", "roman": "in kapṛoṃ kā dām kyā hai?", "en": "What's the price of these clothes?", "focus": "इन", "wrong": ["ये|ye", "इस|is"] },
+        { "native": "इस साड़ी का रंग बहुत सुंदर है।", "roman": "is sāṛī kā raṅg bahut sundar hai.", "en": "The colour of this sari is beautiful.", "focus": "इस", "wrong": ["यह|yah", "ये|ye"] },
+        { "native": "उस थैले में मेरी किताबें हैं।", "roman": "us thaile meṃ merī kitābeṃ haiṃ.", "en": "My books are in that bag.", "focus": "उस", "wrong": ["वह|vah", "वे|ve"] },
+        { "native": "इसे बदल दीजिए, यह छोटा है।", "roman": "ise badal dījiye, yah chhoṭā hai.", "en": "Please exchange this, it's too small." },
+        { "native": "एक थैला दीजिए, प्लीज़।", "roman": "ek thailā dījiye, plīz.", "en": "A bag, please." },
+        { "native": "क्या मैं यह पहनकर देख सकता हूँ?", "roman": "kyā maiṃ yah pahankar dekh saktā hūṃ?", "en": "Can I try this on? (man)" }
+      ]
+    },
+    {
+      "title": "Paying",
+      "new": ["ख़रीदना", "बेचना", "खुले पैसे", "नक़द", "कार्ड", "कुल कितने हुए?", "कार्ड चलेगा?", "खुले पैसे नहीं हैं।", "ठीक है, दे दीजिए।"],
+      "sentences": [
+        { "native": "मैं बाज़ार से सब्ज़ी ख़रीदती हूँ।", "roman": "maiṃ bāzār se sabzī xarīdtī hūṃ.", "en": "I buy vegetables at the market. (woman)" },
+        { "native": "क्या आप जूते बेचते हैं?", "roman": "kyā āp jūte bechte haiṃ?", "en": "Do you sell shoes?" },
+        { "native": "क्या आपके पास खुले पैसे हैं?", "roman": "kyā āpke pās khule paise haiṃ?", "en": "Do you have change?" },
+        { "native": "नक़द या कार्ड?", "roman": "naqad yā kārḍ?", "en": "Cash or card?" },
+        { "native": "कार्ड नहीं, सिर्फ़ नक़द।", "roman": "kārḍ nahīṃ, sirf naqad.", "en": "No cards, cash only." },
+        { "native": "कुल पाँच सौ रुपये हुए।", "roman": "kul pāṃch sau rupaye hue.", "en": "That's five hundred rupees altogether." },
+        { "native": "यह लीजिए, दो सौ रुपये।", "roman": "yah lījiye, do sau rupaye.", "en": "Here you are, two hundred rupees." },
+        { "native": "मेरे पास खुले पैसे नहीं हैं, सिर्फ़ कार्ड है।", "roman": "mere pās khule paise nahīṃ haiṃ, sirf kārḍ hai.", "en": "I don't have change, only a card." },
+        { "native": "वह पुरानी किताबें बेचता है।", "roman": "vah purānī kitābeṃ bechtā hai.", "en": "He sells old books." },
+        { "native": "ठीक है, यह वाला दे दीजिए।", "roman": "ṭhīk hai, yah vālā de dījiye.", "en": "OK, I'll take this one." },
+        { "native": "आप कार्ड लेते हैं?", "roman": "āp kārḍ lete haiṃ?", "en": "Do you take cards?" }
+      ]
+    }
+  ]
 }

@@ -100,5 +100,91 @@
       { "speaker": "Arjun", "native": "ठीक है, मान गया!", "roman": "ṭhīk hai, mān gayā!", "en": "OK, fine, you win!" }
     ]
   },
-  "culture": "Indians often express disagreement indirectly — 'शायद…', 'देखते हैं' ('we'll see') or a vague 'हाँ, हाँ' can politely mean 'no'. The famous Indian **head wobble** (a side-to-side tilt) usually means 'yes', 'OK' or 'I'm listening', not 'no'. Bollywood is a national conversation topic: films, songs and actors are safe, fun subjects with almost anyone. Strong emotions are expressed openly within families, but public displays of affection between couples are still frowned upon in many places."
+  "culture": "Indians often express disagreement indirectly — 'शायद…', 'देखते हैं' ('we'll see') or a vague 'हाँ, हाँ' can politely mean 'no'. The famous Indian **head wobble** (a side-to-side tilt) usually means 'yes', 'OK' or 'I'm listening', not 'no'. Bollywood is a national conversation topic: films, songs and actors are safe, fun subjects with almost anyone. Strong emotions are expressed openly within families, but public displays of affection between couples are still frowned upon in many places.",
+  "lessons": [
+    {
+      "title": "How are you feeling?",
+      "tip": { "title": "मैं ख़ुश हूँ — I'm happy", "body": "- Most feeling words are adjectives with **होना**: मैं **ख़ुश** हूँ, वह **उदास** है, हम **परेशान** हैं.\n- ख़ुश, उदास, नाराज़, परेशान, हैरान never change; **थका** does: थका (m), **थकी** (f), **थके** (pl).\n- Tired is often 'got tired': **मैं थक गया हूँ** (man), **थक गई हूँ** (woman).\n- 'Upset with X' = X **से** नाराज़.", "pattern": "मैं + feeling + हूँ", "grammar": 0 },
+      "new": ["ख़ुश", "उदास", "नाराज़", "परेशान", "थका", "हैरान", "मैं बहुत ख़ुश हूँ!", "मैं थक गई हूँ।", "क्या हुआ? आप उदास क्यों हैं?"],
+      "sentences": [
+        { "native": "आज मैं बहुत ख़ुश हूँ।", "roman": "āj maiṃ bahut xush hūṃ.", "en": "I'm really happy today.", "focus": "हूँ", "wrong": ["है|hai", "हैं|haiṃ"] },
+        { "native": "माँ मुझसे नाराज़ हैं।", "roman": "māṃ mujhse nārāz haiṃ.", "en": "Mum is upset with me.", "focus": "मुझसे", "wrong": ["मुझे|mujhe", "मेरा|merā"] },
+        { "native": "तुम परेशान क्यों हो?", "roman": "tum pareshān kyoṃ ho?", "en": "Why are you worried?", "focus": "हो", "wrong": ["हैं|haiṃ", "हूँ|hūṃ"] },
+        { "native": "हम बहुत थके हैं।", "roman": "ham bahut thake haiṃ.", "en": "We're very tired.", "focus": "थके", "wrong": ["थका|thakā", "थकी|thakī"] },
+        { "native": "वह थक गई है।", "roman": "vah thak gaī hai.", "en": "She's tired.", "focus": "गई", "wrong": ["गया|gayā", "गये|gaye"] },
+        { "native": "क्या आप उदास हैं?", "roman": "kyā āp udās haiṃ?", "en": "Are you sad?", "focus": "हैं", "wrong": ["हूँ|hūṃ", "है|hai"] },
+        { "native": "मैं हैरान हूँ!", "roman": "maiṃ hairān hūṃ!", "en": "I'm amazed!", "focus": "हूँ", "wrong": ["है|hai", "हैं|haiṃ"] },
+        { "native": "मैं तुमसे नाराज़ नहीं हूँ।", "roman": "maiṃ tumse nārāz nahīṃ hūṃ.", "en": "I'm not upset with you.", "focus": "तुमसे", "wrong": ["तुम्हें|tumheṃ", "तुम्हारा|tumhārā"] },
+        { "native": "आप ठीक हैं? आप परेशान लग रहे हैं।", "roman": "āp ṭhīk haiṃ? āp pareshān lag rahe haiṃ.", "en": "Are you OK? You look worried." }
+      ]
+    },
+    {
+      "title": "Fear, anger and fun",
+      "tip": { "title": "मुझे डर लगता है — feelings that come to you", "body": "- Some feelings 'come to' or 'strike' you, so the person takes **मुझे / आपको**: मुझे **ग़ुस्सा आता है** 'I get angry', मुझे **डर लगता है** 'I'm scared', मुझे **मज़ा आया** 'I had fun'.\n- The verb agrees with the feeling: ग़ुस्सा (m) **आता**, शर्म (f) **आती**.\n- The cause takes **से**: पानी **से** डर.", "pattern": "मुझे + feeling + आता / लगता है", "grammar": 0 },
+      "new": ["ग़ुस्सा", "डर", "शर्म", "मज़ा", "बोर", "चिंता", "प्यार", "मुझे बहुत मज़ा आया!", "मुझे कुत्तों से डर लगता है।", "चिंता मत कीजिए।"],
+      "sentences": [
+        { "native": "मुझे बहुत ग़ुस्सा आ रहा है।", "roman": "mujhe bahut ġussā ā rahā hai.", "en": "I'm getting really angry.", "focus": "मुझे", "wrong": ["मैं|maiṃ", "मेरा|merā"] },
+        { "native": "उसे शर्म आती है।", "roman": "use sharm ātī hai.", "en": "She feels shy.", "focus": "आती", "wrong": ["आता|ātā", "आते|āte"] },
+        { "native": "क्या तुम्हें डर लग रहा है?", "roman": "kyā tumheṃ ḍar lag rahā hai?", "en": "Are you scared?", "focus": "रहा", "wrong": ["रही|rahī", "रहे|rahe"] },
+        { "native": "बच्चों को बहुत मज़ा आया।", "roman": "bachchoṃ ko bahut mazā āyā.", "en": "The kids had a great time.", "focus": "आया", "wrong": ["आई|āī", "आये|āye"] },
+        { "native": "चिंता मत करो, सब ठीक है।", "roman": "chintā mat karo, sab ṭhīk hai.", "en": "Don't worry, everything's fine." },
+        { "native": "मुझे अपनी बेटी की चिंता है।", "roman": "mujhe apnī beṭī kī chintā hai.", "en": "I'm worried about my daughter.", "focus": "की", "wrong": ["का|kā", "के|ke"] },
+        { "native": "मैं बोर हो रहा हूँ।", "roman": "maiṃ bor ho rahā hūṃ.", "en": "I'm getting bored. (man)" },
+        { "native": "यह फ़िल्म बहुत बोर है।", "roman": "yah film bahut bor hai.", "en": "This film is really boring." },
+        { "native": "मैं तुमसे प्यार करता हूँ।", "roman": "maiṃ tumse pyār kartā hūṃ.", "en": "I love you. (man)", "focus": "तुमसे", "wrong": ["तुम्हें|tumheṃ", "तुमको|tumko"] },
+        { "native": "मुझे पानी से डर लगता है।", "roman": "mujhe pānī se ḍar lagtā hai.", "en": "I'm scared of water.", "focus": "से", "wrong": ["को|ko", "में|meṃ"] },
+        { "native": "उसे ग़ुस्सा क्यों आया?", "roman": "use ġussā kyoṃ āyā?", "en": "Why did he get angry?", "focus": "आया", "wrong": ["आई|āī", "आये|āye"] }
+      ]
+    },
+    {
+      "title": "What do you think?",
+      "tip": { "title": "मुझे लगता है कि… — I think…", "body": "- 'I think (that)…' = **मुझे लगता है कि…** (lit. 'it seems to me that').\n- Ask **आपको क्या लगता है?** 'what do you think?'\n- Also **मेरे ख़याल से…** 'in my view', **मेरी राय में…** 'in my opinion'.\n- **कि** 'that' joins the two parts — don't mix it up with **की** 'of'.", "pattern": "मुझे लगता है कि + sentence", "grammar": 1 },
+      "new": ["कि", "राय", "ख़याल", "पता", "सोचना", "सही", "आपको क्या लगता है?", "मुझे लगता है कि यह सही है।", "मुझे नहीं पता।"],
+      "sentences": [
+        { "native": "मुझे लगता है कि आप सही हैं।", "roman": "mujhe lagtā hai ki āp sahī haiṃ.", "en": "I think you're right.", "focus": "कि", "wrong": ["की|kī", "का|kā"] },
+        { "native": "मेरे ख़याल से यह बहुत महँगा है।", "roman": "mere xayāl se yah bahut mahaṃgā hai.", "en": "In my view it's too expensive.", "focus": "से", "wrong": ["में|meṃ", "को|ko"] },
+        { "native": "मेरी राय में हिंदी आसान है।", "roman": "merī rāy meṃ hindī āsān hai.", "en": "In my opinion Hindi is easy.", "focus": "मेरी", "wrong": ["मेरा|merā", "मेरे|mere"] },
+        { "native": "तुम्हें क्या लगता है?", "roman": "tumheṃ kyā lagtā hai?", "en": "What do you think? (to a friend)", "focus": "तुम्हें", "wrong": ["तुम|tum", "तुम्हारा|tumhārā"] },
+        { "native": "मुझे पता है कि वह कहाँ है।", "roman": "mujhe patā hai ki vah kahāṃ hai.", "en": "I know where he is.", "focus": "कि", "wrong": ["की|kī", "के|ke"] },
+        { "native": "क्या आपको पता है, स्टेशन कहाँ है?", "roman": "kyā āpko patā hai, sṭeshan kahāṃ hai?", "en": "Do you know where the station is?", "focus": "आपको", "wrong": ["आप|āp", "आपका|āpkā"] },
+        { "native": "मुझे लगता है कि वह परेशान है।", "roman": "mujhe lagtā hai ki vah pareshān hai.", "en": "I think she's worried.", "focus": "लगता", "wrong": ["लगती|lagtī", "लगते|lagte"] },
+        { "native": "मेरे ख़याल से हमें अभी चलना चाहिए।", "roman": "mere xayāl se hameṃ abhī chalnā chāhiye.", "en": "I think we should go now.", "focus": "से", "wrong": ["में|meṃ", "को|ko"] },
+        { "native": "एक मिनट, मैं सोच रही हूँ।", "roman": "ek minaṭ, maiṃ soch rahī hūṃ.", "en": "One minute, I'm thinking. (woman)" },
+        { "native": "आप क्या सोच रहे हैं?", "roman": "āp kyā soch rahe haiṃ?", "en": "What are you thinking about?" }
+      ]
+    },
+    {
+      "title": "Agreeing and disagreeing",
+      "new": ["मानना", "ग़लत", "सच", "शायद", "बिल्कुल", "मुझे ऐसा नहीं लगता।", "मैं आपसे सहमत हूँ।", "बिल्कुल सही!", "सच में?"],
+      "sentences": [
+        { "native": "यह बिल्कुल सच है।", "roman": "yah bilkul sach hai.", "en": "That's absolutely true." },
+        { "native": "शायद आप सही हैं।", "roman": "shāyad āp sahī haiṃ.", "en": "Maybe you're right." },
+        { "native": "नहीं, यह ग़लत है।", "roman": "nahīṃ, yah ġalat hai.", "en": "No, that's wrong." },
+        { "native": "मैं मानता हूँ कि हिंदी मुश्किल है।", "roman": "maiṃ māntā hūṃ ki hindī mushkil hai.", "en": "I admit Hindi is difficult. (man)" },
+        { "native": "सच बताओ, क्या हुआ?", "roman": "sach batāo, kyā huā?", "en": "Tell me the truth, what happened?" },
+        { "native": "शायद वह आज नहीं आ रहा।", "roman": "shāyad vah āj nahīṃ ā rahā.", "en": "Maybe he isn't coming today." },
+        { "native": "मुझे ऐसा नहीं लगता, यह रास्ता ग़लत है।", "roman": "mujhe aisā nahīṃ lagtā, yah rāstā ġalat hai.", "en": "I don't think so — this is the wrong way." },
+        { "native": "बिल्कुल नहीं!", "roman": "bilkul nahīṃ!", "en": "Not at all!" },
+        { "native": "ठीक है, मैं आपकी बात मानती हूँ।", "roman": "ṭhīk hai, maiṃ āpkī bāt māntī hūṃ.", "en": "OK, I'll go along with what you say. (woman)" },
+        { "native": "क्या आप मुझसे सहमत हैं?", "roman": "kyā āp mujhse sahmat haiṃ?", "en": "Do you agree with me?" }
+      ]
+    },
+    {
+      "title": "Because, but, so",
+      "tip": { "title": "क्योंकि, लेकिन, इसलिए", "body": "- **लेकिन** (or **पर**) 'but' · **क्योंकि** 'because' · **इसलिए** 'so, that's why'.\n- They start their clause, just like in English: मैं थका हूँ, **इसलिए** घर जा रहा हूँ.\n- **तो** 'so / well then' is everywhere in speech: **तो**, अब क्या करें?", "pattern": "… क्योंकि …  ·  … लेकिन …  ·  … इसलिए …", "grammar": 2 },
+      "new": ["क्योंकि", "लेकिन", "इसलिए", "उम्मीद", "अकेला"],
+      "sentences": [
+        { "native": "मैं उदास हूँ क्योंकि मेरा दोस्त जा रहा है।", "roman": "maiṃ udās hūṃ kyoṃki merā dost jā rahā hai.", "en": "I'm sad because my friend is leaving.", "focus": "क्योंकि", "wrong": ["इसलिए|isliye", "लेकिन|lekin"] },
+        { "native": "खाना अच्छा है, लेकिन बहुत महँगा है।", "roman": "khānā achchhā hai, lekin bahut mahaṃgā hai.", "en": "The food's good, but very expensive.", "focus": "लेकिन", "wrong": ["क्योंकि|kyoṃki", "इसलिए|isliye"] },
+        { "native": "मुझे भूख लगी है, इसलिए मैं खाना बना रहा हूँ।", "roman": "mujhe bhūkh lagī hai, isliye maiṃ khānā banā rahā hūṃ.", "en": "I'm hungry, so I'm cooking. (man)", "focus": "इसलिए", "wrong": ["क्योंकि|kyoṃki", "लेकिन|lekin"] },
+        { "native": "मैं अकेला हूँ, लेकिन उदास नहीं हूँ।", "roman": "maiṃ akelā hūṃ, lekin udās nahīṃ hūṃ.", "en": "I'm alone, but I'm not sad. (man)", "focus": "लेकिन", "wrong": ["क्योंकि|kyoṃki", "इसलिए|isliye"] },
+        { "native": "वह अकेली रहती है।", "roman": "vah akelī rahtī hai.", "en": "She lives alone.", "focus": "अकेली", "wrong": ["अकेला|akelā", "अकेले|akele"] },
+        { "native": "वह नाराज़ है क्योंकि मैं देर से आया।", "roman": "vah nārāz hai kyoṃki maiṃ der se āyā.", "en": "She's upset because I came late.", "focus": "क्योंकि", "wrong": ["इसलिए|isliye", "लेकिन|lekin"] },
+        { "native": "तो, आप क्या सोचते हैं?", "roman": "to, āp kyā sochte haiṃ?", "en": "So, what do you think?" },
+        { "native": "मुझे हिंदी पसंद है, लेकिन यह आसान नहीं है।", "roman": "mujhe hindī pasand hai, lekin yah āsān nahīṃ hai.", "en": "I like Hindi, but it isn't easy.", "focus": "लेकिन", "wrong": ["क्योंकि|kyoṃki", "इसलिए|isliye"] },
+        { "native": "ट्रेन देर से आ रही है, इसलिए हम चाय पी रहे हैं।", "roman": "ṭren der se ā rahī hai, isliye ham chāy pī rahe haiṃ.", "en": "The train's running late, so we're having tea.", "focus": "इसलिए", "wrong": ["क्योंकि|kyoṃki", "लेकिन|lekin"] },
+        { "native": "मुझे उम्मीद है कि सब ठीक है।", "roman": "mujhe ummīd hai ki sab ṭhīk hai.", "en": "I hope everything's OK." }
+      ]
+    }
+  ]
 }

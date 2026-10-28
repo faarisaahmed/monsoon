@@ -85,5 +85,88 @@
       { "speaker": "Director", "native": "کومه ستونزه نشته. سبا به درته زنګ ووهو.", "roman": "kúma stúnza nə́shta. sabā́ ba dərta zang wə́wahu.", "en": "No problem. We'll call you tomorrow." }
     ]
   },
-  "culture": "Teachers (استاد، ښوونکی) are deeply respected, and you'll hear students greet them with استاد جان or استاد صاحب. Many families make great sacrifices to send their children to school and university, and Pashtun women have long campaigned for education — Malala Yousafzai from Swat is the world's best-known example. Farming, trade and transport are traditional Pashtun occupations, and Pashtun truckers and traders run much of the long-distance trade between Pakistan and Afghanistan. Asking someone's profession is a normal part of getting to know them."
+  "culture": "Teachers (استاد، ښوونکی) are deeply respected, and you'll hear students greet them with استاد جان or استاد صاحب. Many families make great sacrifices to send their children to school and university, and Pashtun women have long campaigned for education — Malala Yousafzai from Swat is the world's best-known example. Farming, trade and transport are traditional Pashtun occupations, and Pashtun truckers and traders run much of the long-distance trade between Pakistan and Afghanistan. Asking someone's profession is a normal part of getting to know them.",
+  "lessons": [
+    {
+      "title": "What do you do?",
+      "tip": { "title": "Saying what people do", "body": "- Job + 'to be', with no word for 'a': زه ښوونکی **يم**، پلار مې بزګر **دی**.\n- A woman's job ends in **-e** where the man's ends in **-ay**: ښوونکی → ښوونک**ې**. Plural: ښوونک**ي**.\n- Ask: **ته څه کار کوې؟** (polite: تاسو څه کار کوئ؟).", "pattern": "زه + job + يم" },
+      "new": ["ښوونکی", "انجنير", "بزګر", "سوداګر", "نرس", "ليکوال", "چلوونکی", "ته څه کار کوې؟", "زه ښوونکی يم."],
+      "sentences": [
+        { "native": "پلار مې بزګر دی.", "roman": "plār me bazgár day.", "en": "My father is a farmer.", "focus": "دی", "wrong": ["ده|da", "دي|di"] },
+        { "native": "مور مې ښوونکې ده.", "roman": "mor me ṣowúnke da.", "en": "My mother is a teacher.", "focus": "ښوونکې", "wrong": ["ښوونکی|ṣowúnkay", "ښوونکي|ṣowúnki"] },
+        { "native": "زما ورور انجنير دی.", "roman": "zmā wror enjinír day.", "en": "My brother is an engineer.", "focus": "دی", "wrong": ["ده|da", "دي|di"] },
+        { "native": "هغه په روغتون کې نرس ده.", "roman": "haġá pə roġtún ke nars da.", "en": "She's a nurse at the hospital.", "focus": "ده", "wrong": ["دی|day", "دي|di"] },
+        { "native": "ستا پلار څه کار کوي؟", "roman": "stā plār tsə kār kawí?", "en": "What does your father do?", "focus": "کوي", "wrong": ["کوې|kawé", "کوم|kawə́m"] },
+        { "native": "تاسو څه کار کوئ؟", "roman": "tāso tsə kār kawə́y?", "en": "What do you do? (polite)", "focus": "کوئ", "wrong": ["کوې|kawé", "کوي|kawí"] },
+        { "native": "ښوونکي په ښوونځي کې دي.", "roman": "ṣowúnki pə ṣowundzí ke di.", "en": "The teachers are at school.", "focus": "ښوونکي", "wrong": ["ښوونکی|ṣowúnkay", "ښوونکې|ṣowúnke"] },
+        { "native": "هغه سوداګر دی، په بازار کې دوکان لري.", "roman": "haġá sawdāgár day, pə bāzā́r ke dukā́n lari.", "en": "He's a trader, he has a shop in the bazaar." },
+        { "native": "ستاسو ورور ليکوال دی؟", "roman": "stāso wror likwā́l day?", "en": "Is your brother a writer?" },
+        { "native": "زما تره د ټکسي چلوونکی دی.", "roman": "zmā trə də ṭaksí chalawúnkay day.", "en": "My uncle is a taxi driver." }
+      ]
+    },
+    {
+      "title": "School and university",
+      "new": ["زده کوونکی", "شاګرد", "پوهنتون", "ټولګی", "کتاب", "قلم", "کاغذ", "درس", "ازموينه", "زه په پوهنتون کې درس وايم."],
+      "sentences": [
+        { "native": "ته په کوم پوهنتون کې درس وايې؟", "roman": "tə pə kum pohantún ke dars wā́ye?", "en": "Which university do you study at?" },
+        { "native": "زه د کابل په پوهنتون کې زده کوونکی يم.", "roman": "zə də kābúl pə pohantún ke zdə kawúnkay yəm.", "en": "I'm a student at Kabul University." },
+        { "native": "زموږ په ټولګي کې شل شاګردان دي.", "roman": "zmuẓ pə ṭolgí ke shəl shāgərdā́n di.", "en": "There are twenty pupils in our class." },
+        { "native": "يو قلم او کاغذ راکړه.", "roman": "yaw qalám aw kāġáz rā́kṛa.", "en": "Give me a pen and some paper." },
+        { "native": "ستا قلم چېرته دی؟", "roman": "stā qalám chérta day?", "en": "Where's your pen?" },
+        { "native": "دا کتاب ډېر اسان دی.", "roman": "dā kitā́b ḍer āsā́n day.", "en": "This book is very easy." },
+        { "native": "سبا ازموينه ده؟", "roman": "sabā́ azmóyəna da?", "en": "Is the exam tomorrow?" },
+        { "native": "ازموينه سخته نه ده.", "roman": "azmóyəna sáxta na da.", "en": "The exam isn't hard." },
+        { "native": "نن درس نشته.", "roman": "nən dars nə́shta.", "en": "There's no class today." },
+        { "native": "هره ورځ درس وايم.", "roman": "hára wradz dars wā́yəm.", "en": "I study every day." }
+      ]
+    },
+    {
+      "title": "Can you …?",
+      "tip": { "title": "'Can': ليکلای شم", "body": "- Infinitive + **-āy**, then **شم / شې / شي / شو / شئ**: ليکل**ای شم** 'I can write', ويل**ای شې** 'you can speak'.\n- Negative: **نه** before شم, and the two parts swap: زه **نه شم** راتلای 'I can't come'.\n- شم changes with the person; the -āy word never does.", "pattern": "ليکلای شم · نه شم ليکلای", "grammar": 0 },
+      "new": ["کولای", "کمپيوټر", "ته انګرېزي ويلای شې؟", "هو، ويلای يې شم.", "زه نه شم راتلای."],
+      "sentences": [
+        { "native": "ته پښتو ليکلای شې؟", "roman": "tə paṣtó likə́lāy she?", "en": "Can you write Pashto?", "focus": "شې", "wrong": ["شم|shəm", "شي|shi"] },
+        { "native": "هو، لږ لږ ليکلای شم.", "roman": "ho, ləẓ ləẓ likə́lāy shəm.", "en": "Yes, I can write a little.", "focus": "شم", "wrong": ["شې|she", "شو|shu"] },
+        { "native": "ته په کمپيوټر کار کولای شې؟", "roman": "tə pə kampyuṭár kār kawə́lāy she?", "en": "Can you work on a computer?", "focus": "کولای", "wrong": ["کوې|kawé", "کړې|kṛe"] },
+        { "native": "زه نن نه شم تللای، ناروغ يم.", "roman": "zə nən na shəm tlə́lāy, nāróġ yəm.", "en": "I can't go today, I'm ill.", "focus": "شم", "wrong": ["شې|she", "شي|shi"] },
+        { "native": "هغه انګرېزي نه شي ويلای.", "roman": "haġá angrezí na shi wayə́lāy.", "en": "He can't speak English.", "focus": "شي", "wrong": ["شم|shəm", "شې|she"] },
+        { "native": "موږ سبا دفتر ته راتلای شو؟", "roman": "muẓ sabā́ daftár ta rātlā́y shu?", "en": "Can we come to the office tomorrow?", "focus": "شو", "wrong": ["شم|shəm", "شي|shi"] },
+        { "native": "زه دا کتاب نه شم لوستلای.", "roman": "zə dā kitā́b na shəm lwastə́lāy.", "en": "I can't read this book.", "focus": "لوستلای", "wrong": ["لولم|lwáləm", "لوستل|lwastə́l"] },
+        { "native": "ته اوس خبرې کولای شې؟", "roman": "tə os xabə́re kawə́lāy she?", "en": "Can you talk now?", "focus": "کولای", "wrong": ["کوې|kawé", "کړې|kṛe"] },
+        { "native": "هو، اوس بوخت نه يم.", "roman": "ho, os buxt na yəm.", "en": "Yes, I'm not busy now." }
+      ]
+    },
+    {
+      "title": "Work, pay and the boss",
+      "new": ["دنده", "کارکوونکی", "رئيس", "معاش", "ګټل", "تجربه", "زه دنده لټوم.", "ستاسو کار ښه روان دی؟", "ستا دفتر څو بجې خلاصېږي؟"],
+      "sentences": [
+        { "native": "زه نوې دنده غواړم.", "roman": "zə náwe dánda ġwā́ṛəm.", "en": "I want a new job." },
+        { "native": "معاش دې ښه دی؟", "roman": "maʿā́sh de ṣə day?", "en": "Is your salary good?" },
+        { "native": "زما رئيس ډېر سخت سړی دی.", "roman": "zmā raʾís ḍer saxt saṛáy day.", "en": "My boss is a very strict man." },
+        { "native": "زموږ په دفتر کې لس کارکوونکي دي.", "roman": "zmuẓ pə daftár ke las kārkawúnki di.", "en": "There are ten employees in our office." },
+        { "native": "هغه ډېرې پيسې ګټي.", "roman": "haġá ḍére páyse gaṭí.", "en": "He earns a lot of money." },
+        { "native": "ته څو کاله تجربه لرې؟", "roman": "tə tso kā́la tajrubá lare?", "en": "How many years' experience do you have?" },
+        { "native": "زه پنځه کاله تجربه لرم.", "roman": "zə pindzə́ kā́la tajrubá lárəm.", "en": "I have five years' experience." },
+        { "native": "دفتر اته بجې خلاصېږي.", "roman": "daftár atə́ báje xlāséẓi.", "en": "The office opens at eight." },
+        { "native": "هو، کار مې ښه روان دی.", "roman": "ho, kār me ṣə rawā́n day.", "en": "Yes, my work is going well." },
+        { "native": "رئيس صاحب نن په دفتر کې نشته.", "roman": "raʾís sāhíb nən pə daftár ke nə́shta.", "en": "The director isn't in the office today." }
+      ]
+    },
+    {
+      "title": "I have to …",
+      "tip": { "title": "'Must' and 'have to'", "body": "- **بايد** + perfective: بايد لاړ **شم** 'I must go', بايد درس ووايم 'I must study'.\n- **مجبور يم چې** + perfective = I have to (no choice): مجبور يم چې کار وکړم.\n- مجبور agrees: a woman says **مجبوره** يم.\n- The verb after بايد / چې takes the person ending: لاړ شم، لاړ شې، لاړ شي.", "pattern": "بايد + perfective · مجبور يم چې + perfective", "grammar": 1 },
+      "new": ["مجبور", "وزګار", "زده کړه", "زه مجبور يم چې سبا هم کار وکړم.", "سبا ازموينه لرم، بايد درس ووايم.", "نن وزګار يم."],
+      "sentences": [
+        { "native": "زه بايد اوس کور ته لاړ شم.", "roman": "zə bāyád os kor ta lāṛ shəm.", "en": "I have to go home now.", "focus": "شم", "wrong": ["شې|she", "شي|shi"] },
+        { "native": "زه مجبور يم چې نن ناوخته کار وکړم.", "roman": "zə majbúr yəm che nən nāwáxta kār wə́kṛəm.", "en": "I have to work late today.", "focus": "وکړم", "wrong": ["وکړې|wə́kṛe", "وکړي|wə́kṛi"] },
+        { "native": "هغه مجبوره ده چې ماشومان ښوونځي ته بوځي.", "roman": "haġá majbúra da che māshumā́n ṣowundzí ta bódzi.", "en": "She has to take the children to school.", "focus": "مجبوره", "wrong": ["مجبور|majbúr", "مجبورې|majbúre"] },
+        { "native": "ته بايد هره ورځ درس ووايې.", "roman": "tə bāyád hára wradz dars wə́wāye.", "en": "You must study every day.", "focus": "ووايې", "wrong": ["ووايم|wə́wāyəm", "ووايي|wə́wāyi"] },
+        { "native": "سبا وزګار يې؟", "roman": "sabā́ wazgā́r ye?", "en": "Are you free tomorrow?" },
+        { "native": "نه، مجبور يم چې دفتر ته لاړ شم.", "roman": "na, majbúr yəm che daftár ta lāṛ shəm.", "en": "No, I have to go to the office.", "focus": "شم", "wrong": ["شې|she", "شو|shu"] },
+        { "native": "شاګردان بايد سبا وختي راشي.", "roman": "shāgərdā́n bāyád sabā́ waxtí rā́shi.", "en": "The pupils have to come early tomorrow.", "focus": "راشي", "wrong": ["راشو|rā́shu", "راشم|rā́shəm"] },
+        { "native": "زما ورور وزګار دی، دنده نه لري.", "roman": "zmā wror wazgā́r day, dánda na lari.", "en": "My brother is out of work, he doesn't have a job." },
+        { "native": "هغه ښه زده کړه لري.", "roman": "haġá ṣa zdə kṛa lari.", "en": "She's well educated. (lit. has a good education)" }
+      ]
+    }
+  ]
 }

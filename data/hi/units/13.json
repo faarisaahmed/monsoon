@@ -88,5 +88,91 @@
       { "speaker": "Leah", "native": "दिसंबर में बारिश? मेरे पास छाता भी नहीं है!", "roman": "disambar meṃ bārish? mere pās chhātā bhī nahīṃ hai!", "en": "Rain in December? I don't even have an umbrella!" }
     ]
   },
-  "culture": "India has more seasons than four: traditionally six (ऋतु), but in everyday North Indian speech the year is **गर्मी** (roughly April–June, often above 40°C), **बरसात** (the monsoon, July–September), **सर्दी** (November–February, with dense fog in the north), plus a short, lovely **बसंत**. The arrival of the monsoon is celebrated in films, poetry and songs — rain means relief, romance and a good harvest. Festivals mark the seasons too: Holi welcomes spring, and Diwali comes as the weather cools."
+  "culture": "India has more seasons than four: traditionally six (ऋतु), but in everyday North Indian speech the year is **गर्मी** (roughly April–June, often above 40°C), **बरसात** (the monsoon, July–September), **सर्दी** (November–February, with dense fog in the north), plus a short, lovely **बसंत**. The arrival of the monsoon is celebrated in films, poetry and songs — rain means relief, romance and a good harvest. Festivals mark the seasons too: Holi welcomes spring, and Diwali comes as the weather cools.",
+  "lessons": [
+    {
+      "title": "What's the weather like?",
+      "tip": { "title": "It's hot, it's raining", "body": "- Hindi has no dummy 'it': the weather word is the subject. **गर्मी है** 'it's hot', **ठंड है** 'it's cold'.\n- Rain 'happens': **बारिश हो रही है** 'it's raining', बारिश **हुई** 'it rained'.\n- बारिश, गर्मी, ठंड, उमस are feminine, so **हो रही** है.\n- How *you* feel: **मुझे** ठंड **लग रही है** 'I feel cold'.", "pattern": "weather word + है  ·  बारिश हो रही है", "grammar": 0 },
+      "new": ["मौसम", "बारिश", "गर्मी", "ठंड", "उमस", "आज मौसम कैसा है?", "आज बहुत गर्मी है।", "बारिश हो रही है।", "बाहर बहुत ठंड है।", "आज बहुत उमस है।"],
+      "sentences": [
+        { "native": "क्या बाहर बारिश हो रही है?", "roman": "kyā bāhar bārish ho rahī hai?", "en": "Is it raining outside?", "focus": "रही", "wrong": ["रहा|rahā", "रहे|rahe"] },
+        { "native": "आज बारिश नहीं हो रही है।", "roman": "āj bārish nahīṃ ho rahī hai.", "en": "It isn't raining today.", "focus": "रही", "wrong": ["रहा|rahā", "रहे|rahe"] },
+        { "native": "कल बहुत बारिश हुई।", "roman": "kal bahut bārish huī.", "en": "It rained a lot yesterday.", "focus": "हुई", "wrong": ["हुआ|huā", "हुए|hue"] },
+        { "native": "मुझे ठंड लग रही है।", "roman": "mujhe ṭhaṇḍ lag rahī hai.", "en": "I feel cold.", "focus": "मुझे", "wrong": ["मैं|maiṃ", "मेरा|merā"] },
+        { "native": "दिल्ली में बहुत गर्मी है।", "roman": "Dillī meṃ bahut garmī hai.", "en": "It's very hot in Delhi." },
+        { "native": "आज मौसम बहुत अच्छा है।", "roman": "āj mausam bahut achchhā hai.", "en": "The weather's lovely today.", "focus": "अच्छा", "wrong": ["अच्छी|achchhī", "अच्छे|achchhe"] },
+        { "native": "यहाँ बहुत उमस है, पंखा चला दीजिए।", "roman": "yahāṃ bahut umas hai, paṅkhā chalā dījiye.", "en": "It's so humid in here, please put the fan on." },
+        { "native": "क्या तुम्हें गर्मी लग रही है?", "roman": "kyā tumheṃ garmī lag rahī hai?", "en": "Are you feeling hot?", "focus": "तुम्हें", "wrong": ["तुम|tum", "तुम्हारा|tumhārā"] },
+        { "native": "वहाँ मौसम कैसा है?", "roman": "vahāṃ mausam kaisā hai?", "en": "What's the weather like there?", "focus": "कैसा", "wrong": ["कैसी|kaisī", "कैसे|kaise"] },
+        { "native": "बाहर ठंड है, अंदर आ जाओ।", "roman": "bāhar ṭhaṇḍ hai, andar ā jāo.", "en": "It's cold out, come inside." }
+      ]
+    },
+    {
+      "title": "Sun, wind and clouds",
+      "tip": { "title": "The wind blows, the sun comes out", "body": "- Each kind of weather has its own verb: wind **चलती** है (हवा चल रही है), the sun **निकलती** है (धूप निकली है), a storm **आता** है (तूफ़ान आ रहा है).\n- The verb agrees with the weather word: **हवा, धूप, आँधी** are feminine; **बादल, तूफ़ान, सूरज** are masculine." },
+      "new": ["धूप", "सूरज", "बादल", "हवा", "आँधी", "तूफ़ान", "आसमान", "आज धूप निकली है।", "ठंडी हवा चल रही है।"],
+      "sentences": [
+        { "native": "तेज़ हवा चल रही है।", "roman": "tez havā chal rahī hai.", "en": "There's a strong wind blowing.", "focus": "चल", "wrong": ["हो|ho", "पड़|paṛ"] },
+        { "native": "आज धूप नहीं निकली।", "roman": "āj dhūp nahīṃ niklī.", "en": "The sun didn't come out today.", "focus": "निकली", "wrong": ["निकला|niklā", "निकले|nikle"] },
+        { "native": "आसमान में बहुत बादल हैं।", "roman": "āsmān meṃ bahut bādal haiṃ.", "en": "There are lots of clouds in the sky.", "focus": "हैं", "wrong": ["है|hai", "हो|ho"] },
+        { "native": "आँधी आ रही है, खिड़की बंद करो!", "roman": "āṃdhī ā rahī hai, khiṛkī band karo!", "en": "A dust storm's coming, shut the window!", "focus": "रही", "wrong": ["रहा|rahā", "रहे|rahe"] },
+        { "native": "तूफ़ान आ रहा है।", "roman": "tūfān ā rahā hai.", "en": "A storm is coming.", "focus": "रहा", "wrong": ["रही|rahī", "रहे|rahe"] },
+        { "native": "धूप निकल रही है।", "roman": "dhūp nikal rahī hai.", "en": "The sun's coming out.", "focus": "रही", "wrong": ["रहा|rahā", "रहे|rahe"] },
+        { "native": "हवा बहुत ठंडी है।", "roman": "havā bahut ṭhaṇḍī hai.", "en": "The wind is really cold.", "focus": "ठंडी", "wrong": ["ठंडा|ṭhaṇḍā", "ठंडे|ṭhaṇḍe"] },
+        { "native": "सूरज बहुत तेज़ है।", "roman": "sūraj bahut tez hai.", "en": "The sun is really strong." },
+        { "native": "आज आसमान बिल्कुल साफ़ है।", "roman": "āj āsmān bilkul sāf hai.", "en": "The sky is completely clear today." },
+        { "native": "धूप में मत बैठो, बहुत गर्मी है।", "roman": "dhūp meṃ mat baiṭho, bahut garmī hai.", "en": "Don't sit in the sun, it's very hot." }
+      ]
+    },
+    {
+      "title": "Seasons",
+      "tip": { "title": "In summer, in winter", "body": "- Seasons in general take **-ओं में**: **गर्मियों में** 'in summer', **सर्दियों में** 'in winter'.\n- Cold, heat and snow 'fall' with **पड़ना**: ठंड **पड़ती** है 'it gets cold', बर्फ़ **पड़ती** है 'it snows'.\n- For what usually happens, use the habitual: बरसात में बहुत बारिश **होती** है.", "pattern": "गर्मियों में / सर्दियों में  ·  ठंड पड़ती है" },
+      "new": ["बरसात", "सर्दी", "बसंत", "पतझड़", "बर्फ़", "पड़ना", "मुझे बरसात का मौसम पसंद है।"],
+      "sentences": [
+        { "native": "सर्दियों में यहाँ बहुत ठंड पड़ती है।", "roman": "sardiyoṃ meṃ yahāṃ bahut ṭhaṇḍ paṛtī hai.", "en": "It gets very cold here in winter.", "focus": "पड़ती", "wrong": ["पड़ता|paṛtā", "पड़ते|paṛte"] },
+        { "native": "गर्मियों में बहुत गर्मी होती है।", "roman": "garmiyoṃ meṃ bahut garmī hotī hai.", "en": "It's very hot in the summer.", "focus": "गर्मियों", "wrong": ["गर्मी|garmī", "गर्मियाँ|garmiyāṃ"] },
+        { "native": "क्या यहाँ बर्फ़ पड़ती है?", "roman": "kyā yahāṃ barf paṛtī hai?", "en": "Does it snow here?", "focus": "पड़ती", "wrong": ["पड़ता|paṛtā", "पड़ते|paṛte"] },
+        { "native": "बरसात में बहुत बारिश होती है।", "roman": "barsāt meṃ bahut bārish hotī hai.", "en": "It rains a lot in the monsoon.", "focus": "होती", "wrong": ["होता|hotā", "होते|hote"] },
+        { "native": "मुझे सर्दी हो गई है।", "roman": "mujhe sardī ho gaī hai.", "en": "I've caught a cold." },
+        { "native": "बसंत में मौसम बहुत अच्छा होता है।", "roman": "basant meṃ mausam bahut achchhā hotā hai.", "en": "The weather's lovely in spring.", "focus": "होता", "wrong": ["होती|hotī", "होते|hote"] },
+        { "native": "पतझड़ में ठंडी हवा चलती है।", "roman": "patjhaṛ meṃ ṭhaṇḍī havā chaltī hai.", "en": "In autumn a cool wind blows.", "focus": "चलती", "wrong": ["चलता|chaltā", "चलते|chalte"] },
+        { "native": "सर्दियों में आप क्या पहनते हैं?", "roman": "sardiyoṃ meṃ āp kyā pahante haiṃ?", "en": "What do you wear in winter?", "focus": "सर्दियों", "wrong": ["सर्दी|sardī", "सर्दियाँ|sardiyāṃ"] },
+        { "native": "बरसात कब शुरू होती है?", "roman": "barsāt kab shurū hotī hai?", "en": "When does the monsoon start?", "focus": "होती", "wrong": ["होता|hotā", "होते|hote"] },
+        { "native": "इस साल बहुत ठंड पड़ रही है।", "roman": "is sāl bahut ṭhaṇḍ paṛ rahī hai.", "en": "It's really cold this year.", "focus": "रही", "wrong": ["रहा|rahā", "रहे|rahe"] }
+      ]
+    },
+    {
+      "title": "It's about to rain",
+      "tip": { "title": "होने वाली है — about to", "body": "- **verb-ने + वाला + है** = 'is about to': बारिश हो**ने वाली** है 'it's about to rain'.\n- वाला agrees with the subject: बारिश (f) → **वाली**, तूफ़ान (m) → **वाला**, हम → **वाले**.\n- **लगता है** 'it looks like' starts a guess: लगता है बारिश होने वाली है.", "pattern": "verb-ने + वाला / वाली / वाले + है", "grammar": 1 },
+      "new": ["छाता", "गीला", "सूखा", "लगता है बारिश होने वाली है।", "छाता ले लो।", "मैं पूरा भीग गया।"],
+      "sentences": [
+        { "native": "तूफ़ान आने वाला है, घर चलो।", "roman": "tūfān āne vālā hai, ghar chalo.", "en": "A storm's about to hit, let's go home.", "focus": "वाला", "wrong": ["वाली|vālī", "वाले|vāle"] },
+        { "native": "बस आने वाली है, जल्दी करो!", "roman": "bas āne vālī hai, jaldī karo!", "en": "The bus is about to come, hurry up!", "focus": "वाली", "wrong": ["वाला|vālā", "वाले|vāle"] },
+        { "native": "हम बाहर जाने वाले हैं।", "roman": "ham bāhar jāne vāle haiṃ.", "en": "We're about to go out.", "focus": "वाले", "wrong": ["वाला|vālā", "वाली|vālī"] },
+        { "native": "छाता ले जाइए, बारिश होने वाली है।", "roman": "chhātā le jāiye, bārish hone vālī hai.", "en": "Take an umbrella, it's about to rain.", "focus": "वाली", "wrong": ["वाला|vālā", "वाले|vāle"] },
+        { "native": "मैं सोने वाला हूँ।", "roman": "maiṃ sone vālā hūṃ.", "en": "I'm about to go to sleep. (man)", "focus": "वाला", "wrong": ["वाली|vālī", "वाले|vāle"] },
+        { "native": "खाना तैयार होने वाला है।", "roman": "khānā taiyār hone vālā hai.", "en": "The food is almost ready.", "focus": "वाला", "wrong": ["वाली|vālī", "वाले|vāle"] },
+        { "native": "लगता है आँधी आने वाली है।", "roman": "lagtā hai āṃdhī āne vālī hai.", "en": "Looks like a dust storm is coming.", "focus": "वाली", "wrong": ["वाला|vālā", "वाले|vāle"] },
+        { "native": "मेरे कपड़े गीले हैं।", "roman": "mere kapṛe gīle haiṃ.", "en": "My clothes are wet.", "focus": "गीले", "wrong": ["गीला|gīlā", "गीली|gīlī"] },
+        { "native": "सड़क सूखी है, चलो।", "roman": "saṛak sūkhī hai, chalo.", "en": "The road's dry, let's go.", "focus": "सूखी", "wrong": ["सूखा|sūkhā", "सूखे|sūkhe"] },
+        { "native": "सड़क गीली है, धीरे चलाइए।", "roman": "saṛak gīlī hai, dhīre chalāiye.", "en": "The road is wet, drive slowly.", "focus": "गीली", "wrong": ["गीला|gīlā", "गीले|gīle"] }
+      ]
+    },
+    {
+      "title": "Out in nature",
+      "new": ["चाँद", "तारा", "पेड़", "फूल", "नदी", "पहाड़", "समुद्र", "जंगल", "कितना सुंदर नज़ारा है!"],
+      "sentences": [
+        { "native": "आज रात चाँद बहुत सुंदर है।", "roman": "āj rāt chāṃd bahut sundar hai.", "en": "The moon is beautiful tonight." },
+        { "native": "शहर में तारे नहीं दिखते।", "roman": "shahar meṃ tāre nahīṃ dikhte.", "en": "You can't see the stars in the city." },
+        { "native": "हमारे घर के सामने एक बड़ा पेड़ है।", "roman": "hamāre ghar ke sāmne ek baṛā peṛ hai.", "en": "There's a big tree in front of our house." },
+        { "native": "ये फूल कितने सुंदर हैं!", "roman": "ye phūl kitne sundar haiṃ!", "en": "How beautiful these flowers are!" },
+        { "native": "गर्मियों में हम पहाड़ों में जाते हैं।", "roman": "garmiyoṃ meṃ ham pahāṛoṃ meṃ jāte haiṃ.", "en": "In summer we go to the hills." },
+        { "native": "क्या आपको समुद्र पसंद है?", "roman": "kyā āpko samudra pasand hai?", "en": "Do you like the sea?" },
+        { "native": "यह नदी बहुत लंबी है।", "roman": "yah nadī bahut lambī hai.", "en": "This river is very long." },
+        { "native": "जंगल में मत जाओ, रात हो रही है।", "roman": "jaṅgal meṃ mat jāo, rāt ho rahī hai.", "en": "Don't go into the forest, it's getting dark." },
+        { "native": "पहाड़ पर बर्फ़ है।", "roman": "pahāṛ par barf hai.", "en": "There's snow on the mountain." },
+        { "native": "चलो, समुद्र के पास चलते हैं।", "roman": "chalo, samudra ke pās chalte haiṃ.", "en": "Come on, let's go down to the sea." }
+      ]
+    }
+  ]
 }

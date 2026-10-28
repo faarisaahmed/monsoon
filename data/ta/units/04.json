@@ -96,5 +96,85 @@
       { "speaker": "Sarah", "native": "இந்தாங்க. நன்றி!", "roman": "indānga. nandri!", "en": "Here you are. Thanks!" }
     ]
   },
-  "culture": "In speech, 'hundred' in compound numbers becomes நூத்தி *nūtti* (written நூற்றி): 120 = நூத்தி இருபது. Indians count large sums in **lakhs** (லட்சம், 100,000) and **crores** (கோடி, 10 million), written 1,00,000 and 1,00,00,000. When handing over money or objects, use your right hand; இந்தாங்க *indānga* 'here, take it' is the polite word."
+  "culture": "In speech, 'hundred' in compound numbers becomes நூத்தி *nūtti* (written நூற்றி): 120 = நூத்தி இருபது. Indians count large sums in **lakhs** (லட்சம், 100,000) and **crores** (கோடி, 10 million), written 1,00,000 and 1,00,00,000. When handing over money or objects, use your right hand; இந்தாங்க *indānga* 'here, take it' is the polite word.",
+  "lessons": [
+    {
+      "title": "Asking someone’s age",
+      "tip": { "title": "'I am thirty' is 'to me thirty years'", "body": "- Age uses the dative **-க்கு**: **எனக்கு** முப்பது வயசு 'I'm thirty', **அவருக்கு** அறுபது வயசு.\n- Ask: உங்களுக்கு **என்ன** வயசு? or **எத்தன** வயசு?\n- **எத்தன** = how many (things you count); **எவ்வளவு** = how much (amounts, prices).", "pattern": "X-க்கு + number + வயசு", "grammar": 1 },
+      "new": ["வயது", "எத்தனை", "வருடம்", "எண்", "உங்களுக்கு என்ன வயசு?", "எனக்கு முப்பது வயசு.", "உங்க ஃபோன் நம்பர் என்ன?"],
+      "sentences": [
+        { "native": "உங்க அப்பாவுக்கு என்ன வயசு?", "roman": "unga appāvukku enna vayasu?", "en": "How old is your father?", "focus": "அப்பாவுக்கு", "wrong": ["அப்பா|appā", "அப்பாவோட|appāvōḍa"] },
+        { "native": "அவருக்கு அறுபது வயசு.", "roman": "avarukku arubadu vayasu.", "en": "He's sixty.", "focus": "அவருக்கு", "wrong": ["அவரு|avaru", "அவரோட|avarōḍa"] },
+        { "native": "என் தங்கச்சிக்குப் பன்னெண்டு வயசு.", "roman": "en tangacchikkup panneṇḍu vayasu.", "en": "My younger sister is twelve.", "focus": "தங்கச்சிக்குப்", "wrong": ["தங்கச்சி|tangacchi", "தங்கச்சியோட|tangacchiyōḍa"] },
+        { "native": "குழந்தைக்கு எத்தன வயசு?", "roman": "kuḻandaikku ettana vayasu?", "en": "How old is the baby?", "focus": "எத்தன", "wrong": ["எவ்வளவு|evvaḷavu", "எங்க|enga"] },
+        { "native": "உங்க பாட்டிக்கு எத்தன வயசு?", "roman": "unga pāṭṭikku ettana vayasu?", "en": "How old is your grandmother?", "focus": "பாட்டிக்கு", "wrong": ["பாட்டி|pāṭṭi", "பாட்டியோட|pāṭṭiyōḍa"] },
+        { "native": "அவங்களுக்கு எண்பது வயசு!", "roman": "avangaḷukku eṇbadu vayasu!", "en": "She's eighty!", "focus": "அவங்களுக்கு", "wrong": ["அவங்க|avanga", "அவங்களோட|avangaḷōḍa"] },
+        { "native": "நான் சென்னையில அஞ்சு வருஷமா இருக்கேன்.", "roman": "nān Chennaiyila anju varushamā irukkēn.", "en": "I've been living in Chennai for five years.", "focus": "வருஷமா", "wrong": ["வருஷம்|varusham", "வயசு|vayasu"] },
+        { "native": "உங்க வீட்டு நம்பர் என்ன?", "roman": "unga vīṭṭu nambar enna?", "en": "What's your house number?" }
+      ]
+    },
+    {
+      "title": "Counting things and people",
+      "tip": { "title": "Number + noun (singular)", "body": "- The number comes **before** the noun, which stays singular in speech: மூணு காபி 'three coffees'.\n- 'One' before a noun is **ஒரு** (also 'a'); on its own it is **ஒண்ணு**.\n- Count people with **பேர்**: எத்தன பேர்? 'how many people?'. 'All three of us' = நாங்க மூணு **பேரும்**.", "pattern": "ஒரு டீ  ·  இன்னும் ஒண்ணு  ·  மூணு பேர்", "grammar": 0 },
+      "new": ["எல்லாம்", "ஒவ்வொரு", "ஜோடி", "இன்னும்", "எத்தன வேணும்?", "ரெண்டு போதும்.", "இன்னும் ஒண்ணு குடுங்க."],
+      "sentences": [
+        { "native": "ஒரு டீ குடுங்க.", "roman": "oru ṭī kuḍunga.", "en": "A tea, please.", "focus": "ஒரு", "wrong": ["ஒண்ணு|oṇṇu", "முதல்|mudal"] },
+        { "native": "இன்னும் ஒண்ணு வேணுமா?", "roman": "innum oṇṇu vēṇumā?", "en": "Do you want one more?", "focus": "ஒண்ணு", "wrong": ["ஒரு|oru", "முதல்|mudal"] },
+        { "native": "எங்க குடும்பத்துல ஆறு பேர்.", "roman": "enga kuḍumbattula āru pēr.", "en": "There are six of us in our family.", "focus": "பேர்", "wrong": ["பேரு|pēru", "வயசு|vayasu"] },
+        { "native": "நாங்க மூணு பேரும் தமிழ் பேசுவோம்.", "roman": "nānga mūṇu pērum tamiḻ pēsuvōm.", "en": "All three of us speak Tamil.", "focus": "பேரும்", "wrong": ["பேர்|pēr", "பேரு|pēru"] },
+        { "native": "எத்தன பேர் இருக்கீங்க?", "roman": "ettana pēr irukkīnga?", "en": "How many of you are there?", "focus": "பேர்", "wrong": ["வயசு|vayasu", "பேரு|pēru"] },
+        { "native": "ஒவ்வொரு ஆளுக்கும் ஒரு காபி.", "roman": "ovvoru āḷukkum oru kāpi.", "en": "One coffee for each person.", "focus": "ஒவ்வொரு", "wrong": ["எல்லாம்|ellām", "இன்னும்|innum"] },
+        { "native": "இன்னும் ரெண்டு டீ குடுங்க.", "roman": "innum reṇḍu ṭī kuḍunga.", "en": "Two more teas, please.", "focus": "இன்னும்", "wrong": ["முதல்|mudal", "ஒவ்வொரு|ovvoru"] },
+        { "native": "எல்லாம் ரெண்டு ரெண்டு குடுங்க.", "roman": "ellām reṇḍu reṇḍu kuḍunga.", "en": "Give me two of each, please." },
+        { "native": "அவங்க ரொம்ப நல்ல ஜோடி.", "roman": "avanga romba nalla jōḍi.", "en": "They're a lovely couple." }
+      ]
+    },
+    {
+      "title": "How much? Too much!",
+      "tip": { "title": "Only, a lot, too much", "body": "- **எவ்வளவு?** 'how much?' — இது எவ்வளவு? for prices.\n- **மட்டும்** 'only' comes **after** the word: ரெண்டு மட்டும் 'only two'.\n- **நிறைய** 'a lot' · **கொஞ்சம்** 'a little' · **ஜாஸ்தி** 'too much' (written அதிகம்) · **கம்மி** 'too little' (written குறைவு).\n- **போதும்** = 'that's enough'." },
+      "new": ["எவ்வளவு", "மொத்தம்", "நிறைய", "குறைவு", "அதிகம்", "மட்டும்", "இது எவ்வளவு?", "மொத்தம் எவ்வளவு ஆச்சு?", "ஒண்ணு மட்டும் போதும்.", "ரொம்ப ஜாஸ்தி!"],
+      "sentences": [
+        { "native": "ஒரு காபி எவ்வளவு?", "roman": "oru kāpi evvaḷavu?", "en": "How much is one coffee?", "focus": "எவ்வளவு", "wrong": ["எத்தன|ettana", "எங்க|enga"] },
+        { "native": "மொத்தம் இருநூறு ரூபா.", "roman": "mottam irunūru rūbā.", "en": "Two hundred rupees altogether.", "focus": "மொத்தம்", "wrong": ["மட்டும்|maṭṭum", "ஒவ்வொரு|ovvoru"] },
+        { "native": "ரெண்டு மட்டும் குடுங்க.", "roman": "reṇḍu maṭṭum kuḍunga.", "en": "Just two, please.", "focus": "மட்டும்", "wrong": ["நிறைய|niraiya", "எல்லாம்|ellām"] },
+        { "native": "எனக்கு நிறைய வேணாம், கொஞ்சம் போதும்.", "roman": "enakku niraiya vēṇām, konjam pōdum.", "en": "I don't want a lot, a little is enough.", "focus": "நிறைய", "wrong": ["கொஞ்சம்|konjam", "மட்டும்|maṭṭum"] },
+        { "native": "ஐநூறு ரூபாவா? ரொம்ப அதிகம்.", "roman": "ainūru rūbāvā? romba adigam.", "en": "Five hundred rupees? That's too much.", "focus": "அதிகம்", "wrong": ["குறைவு|kuraivu", "கொஞ்சம்|konjam"] },
+        { "native": "இது ரொம்பக் கம்மி.", "roman": "idu rombak kammi.", "en": "That's too little.", "focus": "கம்மி", "wrong": ["ஜாஸ்தி|jāsti", "நிறைய|niraiya"] },
+        { "native": "சார், எவ்வளவு ஆச்சு?", "roman": "sār, evvaḷavu ācchu?", "en": "How much does it come to, sir?", "focus": "எவ்வளவு", "wrong": ["எங்க|enga", "எப்போ|eppō"] },
+        { "native": "நூறு ரூபா மட்டும்!", "roman": "nūru rūbā maṭṭum!", "en": "Only a hundred rupees!" },
+        { "native": "இன்னும் கொஞ்சம் வேணுமா?", "roman": "innum konjam vēṇumā?", "en": "Would you like a little more?" }
+      ]
+    },
+    {
+      "title": "First, second, last",
+      "tip": { "title": "Ordinals with -ஆவது", "body": "- Add **-ஆவது** to a number: மூணு → **மூணாவது** 'third', அஞ்சு → **அஞ்சாவது** 'fifth'.\n- 'First' is **முதல்**; 'last' is **கடைசி**.\n- 'Which (floor, house…)?' is **எத்தனாவது**: எத்தனாவது மாடி?", "pattern": "number + ஆவது", "grammar": 2 },
+      "new": ["முதல்", "இரண்டாவது", "மூன்றாவது", "நான்காவது", "ஐந்தாவது", "கடைசி", "நான் மூணாவது மாடியில இருக்கேன்."],
+      "sentences": [
+        { "native": "நான் வீட்டுல ரெண்டாவது பையன்.", "roman": "nān vīṭṭula reṇḍāvadu paiyan.", "en": "I'm the second son in my family.", "focus": "ரெண்டாவது", "wrong": ["ரெண்டு|reṇḍu", "ரெண்டரை|reṇḍarai"] },
+        { "native": "அவ முதல் பொண்ணு.", "roman": "ava mudal poṇṇu.", "en": "She's the eldest daughter.", "focus": "முதல்", "wrong": ["ஒண்ணு|oṇṇu", "ஒரு|oru"] },
+        { "native": "அவங்க நாலாவது மாடியில இருக்காங்க.", "roman": "avanga nālāvadu māḍiyila irukkānga.", "en": "They live on the fourth floor.", "focus": "நாலாவது", "wrong": ["நாலு|nālu", "நாலரை|nālarai"] },
+        { "native": "என் தம்பி கடைசி பையன்.", "roman": "en tambi kaḍaisi paiyan.", "en": "My younger brother is the youngest son.", "focus": "கடைசி", "wrong": ["முதல்|mudal", "ரெண்டாவது|reṇḍāvadu"] },
+        { "native": "மூணாவது வீடு எங்க வீடு.", "roman": "mūṇāvadu vīḍu enga vīḍu.", "en": "The third house is ours.", "focus": "மூணாவது", "wrong": ["மூணு|mūṇu", "மூணரை|mūṇarai"] },
+        { "native": "அஞ்சாவது மாடியில யாரு இருக்காங்க?", "roman": "anjāvadu māḍiyila yāru irukkānga?", "en": "Who lives on the fifth floor?", "focus": "அஞ்சாவது", "wrong": ["அஞ்சு|anju", "அஞ்சரை|anjarai"] },
+        { "native": "நீங்க எத்தனாவது மாடி?", "roman": "nīnga ettanāvadu māḍi?", "en": "Which floor are you on?", "focus": "எத்தனாவது", "wrong": ["எத்தன|ettana", "எவ்வளவு|evvaḷavu"] },
+        { "native": "முதல்ல உங்க பேரு சொல்லுங்க.", "roman": "mudalla unga pēru sollunga.", "en": "First, tell me your name, please." }
+      ]
+    },
+    {
+      "title": "Halves, quarters and school years",
+      "tip": { "title": "Quarter, half, three quarters", "body": "- **கால்** ¼ · **அரை** ½ (before a measure: அரை கிலோ) · **முக்கால்** ¾.\n- **பாதி** is 'half of something': பாதி எனக்கு 'half for me'.\n- 2½ is **ரெண்டரை**, 2¼ ரெண்டே கால்.\n- School years are ordinals: ஆறாவது 'sixth standard'. Ask a child: **எத்தனாவது படிக்கிற?**", "pattern": "அரை கிலோ  ·  ரெண்டரை  ·  ஆறாவது", "grammar": 2 },
+      "new": ["ஆறாவது", "ஏழாவது", "எட்டாவது", "ஒன்பதாவது", "பத்தாவது", "பாதி", "அரை", "முக்கால்"],
+      "sentences": [
+        { "native": "என் பையன் ஆறாவது படிக்கிறான்.", "roman": "en paiyan ārāvadu paḍikkirān.", "en": "My son is in sixth standard.", "focus": "ஆறாவது", "wrong": ["ஆறு|āru", "ஆறரை|ārarai"] },
+        { "native": "தங்கச்சி எட்டாவது படிக்கிறா.", "roman": "tangacchi eṭṭāvadu paḍikkirā.", "en": "My younger sister is in eighth standard.", "focus": "எட்டாவது", "wrong": ["எட்டு|eṭṭu", "எட்டரை|eṭṭarai"] },
+        { "native": "நீ எத்தனாவது படிக்கிற?", "roman": "nī ettanāvadu paḍikkira?", "en": "Which standard are you in? (to a child)" },
+        { "native": "நான் ஏழாவது.", "roman": "nān ēḻāvadu.", "en": "I'm in seventh.", "focus": "ஏழாவது", "wrong": ["ஏழு|ēḻu", "ஏழரை|ēḻarai"] },
+        { "native": "அண்ணன் பத்தாவது, நான் ஒம்பதாவது.", "roman": "aṇṇan pattāvadu, nān ombadāvadu.", "en": "My elder brother is in tenth, I'm in ninth.", "focus": "ஒம்பதாவது", "wrong": ["ஒம்பது|ombadu", "பத்தாவது|pattāvadu"] },
+        { "native": "அரை கிலோ போதும்.", "roman": "arai kilō pōdum.", "en": "Half a kilo is enough.", "focus": "அரை", "wrong": ["முக்கால்|mukkāl", "கால்|kāl"] },
+        { "native": "பாதி எனக்கு, பாதி உனக்கு.", "roman": "pādi enakku, pādi unakku.", "en": "Half for me, half for you.", "focus": "பாதி", "wrong": ["அரை|arai", "முக்கால்|mukkāl"] },
+        { "native": "முக்கால் கிலோ குடுங்க.", "roman": "mukkāl kilō kuḍunga.", "en": "Three quarters of a kilo, please.", "focus": "முக்கால்", "wrong": ["அரை|arai", "கால்|kāl"] },
+        { "native": "ரெண்டரை கிலோ வேணும்.", "roman": "reṇḍarai kilō vēṇum.", "en": "I need two and a half kilos.", "focus": "ரெண்டரை", "wrong": ["ரெண்டாவது|reṇḍāvadu", "ரெண்டு|reṇḍu"] }
+      ]
+    }
+  ]
 }

@@ -96,5 +96,92 @@
       { "speaker": "Shirin", "native": "زما ورور يو مستري پيدا کړ، او دوه ساعته وروسته روان شوو.", "roman": "zmā wror yaw mistrí paydā́ kaṛ, aw dwa sāʿáta wrústa rawā́n shwu.", "en": "My brother found a mechanic, and two hours later we were on our way." }
     ]
   },
-  "culture": "The **attan** (اتڼ) is the national dance of Afghanistan and of Pashtuns everywhere: dancers move in a circle to the beat of the dhol drum and the surnai, spinning faster and faster, their long hair and scarves flying. It is danced at weddings, Eid and national celebrations. Pashtun weddings last several days, with separate gatherings for men and women, music, and a huge feast — مېلمستيا, hospitality on the grandest scale. Note the grammar in 'my brother found a mechanic' above: زما ورور looks like the direct case, but masculine nouns ending in a consonant often have no visible oblique ending — the verb کړ agrees with the mechanic."
+  "culture": "The **attan** (اتڼ) is the national dance of Afghanistan and of Pashtuns everywhere: dancers move in a circle to the beat of the dhol drum and the surnai, spinning faster and faster, their long hair and scarves flying. It is danced at weddings, Eid and national celebrations. Pashtun weddings last several days, with separate gatherings for men and women, music, and a huge feast — مېلمستيا, hospitality on the grandest scale. Note the grammar in 'my brother found a mechanic' above: زما ورور looks like the direct case, but masculine nouns ending in a consonant often have no visible oblique ending — the verb کړ agrees with the mechanic.",
+  "lessons": [
+    {
+      "title": "Where did you go?",
+      "tip": { "title": "The past of go, come, arrive", "body": "- Verbs with no object take endings for the **subject**, as in English: زه لاړ**م** · ته لاړ**ې** · موږ لاړ**و** · هغوی لاړ**ل**.\n- 'He' often has no ending, 'she' adds **-a**: هغه راغی / هغه راغل**ه**.\n- 'Was': زه **وم** · ته **وې** · هغه **و** (m) / **وه** (f).", "pattern": "زه + place + ته + لاړم", "grammar": 0 },
+      "new": ["تېر", "پخوا", "بېرته", "رسېدل", "سفر", "پرون چېرته وې؟", "زه کابل ته لاړم.", "کله راغلې؟", "پرون ماښام ورسېدم."],
+      "sentences": [
+        { "native": "زه تېره اوونۍ کلي ته لاړم.", "roman": "zə téra owənə́y kə́li ta lā́ṛəm.", "en": "I went to the village last week.", "focus": "لاړم", "wrong": ["لاړ|lāṛ", "لاړې|lā́ṛe"] },
+        { "native": "هغه کله بېرته راغی؟", "roman": "haġá kə́la bérta rā́ġay?", "en": "When did he come back?", "focus": "راغی", "wrong": ["راغله|rā́ġla", "راغلم|rā́ġləm"] },
+        { "native": "هغه پرون بېرته راغله.", "roman": "haġá parún bérta rā́ġla.", "en": "She came back yesterday.", "focus": "راغله", "wrong": ["راغی|rā́ġay", "راغلل|rā́ġləl"] },
+        { "native": "موږ دوه کاله پخوا پېښور ته لاړو.", "roman": "muẓ dwa kā́la pəxwā́ peṣawár ta lā́ṛu.", "en": "We went to Peshawar two years ago.", "focus": "لاړو", "wrong": ["لاړم|lā́ṛəm", "لاړل|lā́ṛəl"] },
+        { "native": "ماشومان ښوونځي ته لاړل.", "roman": "māshumā́n ṣowundzí ta lā́ṛəl.", "en": "The children went to school.", "focus": "لاړل", "wrong": ["لاړ|lāṛ", "لاړو|lā́ṛu"] },
+        { "native": "الوتکه په څو بجو ورسېده؟", "roman": "alwatə́ka pə tso bajó wə́raseda?", "en": "What time did the plane get in?", "focus": "ورسېده", "wrong": ["ورسېد|wə́rased", "ورسېدم|wə́rasedəm"] },
+        { "native": "سفر دې څنګه و؟", "roman": "safár de tsə́nga wə?", "en": "How was your trip?", "focus": "و", "wrong": ["وه|wa", "وو|wu"] },
+        { "native": "ډېر ښه و، خو ډېر ستړی شوم.", "roman": "ḍer ṣə wə, xo ḍer stə́ṛay shwəm.", "en": "Very good, but I got really tired.", "focus": "شوم", "wrong": ["شو|shu", "شوه|shwa"] },
+        { "native": "ته پرون په دفتر کې وې؟", "roman": "tə parún pə daftár ke we?", "en": "Were you at the office yesterday?", "focus": "وې", "wrong": ["وم|wəm", "و|wə"] },
+        { "native": "نه، زه ناروغ وم.", "roman": "na, zə nāróġ wəm.", "en": "No, I was ill.", "focus": "وم", "wrong": ["وې|we", "و|wə"] }
+      ]
+    },
+    {
+      "title": "What did you see? What did you eat?",
+      "tip": { "title": "Past with an object: ما وليد", "body": "- With verbs that take an object (see, eat, buy), the doer changes: زه → **ما**، ته → **تا**، هغه → هغه / **هغې** (f).\n- The verb agrees with the **object**, not the doer: ما کباب وخوړ (m) · ما ډوډۍ وخوړ**ه** (f) · ما مڼې وخوړ**ې** (pl).\n- موږ، تاسو، هغوی don't change.", "pattern": "ما + object + past verb (agrees with the object)", "grammar": 1 },
+      "new": ["ليدل", "تېرول", "وروستی", "ما هغه پرون وليد.", "هو، ما وخوړه، مننه."],
+      "sentences": [
+        { "native": "ما پرون ستا ورور وليد.", "roman": "mā parún stā wror wə́lid.", "en": "I saw your brother yesterday.", "focus": "ما", "wrong": ["زه|zə", "ته|tə"] },
+        { "native": "تا زما ورور وليد؟", "roman": "tā zmā wror wə́lid?", "en": "Did you see my brother?", "focus": "وليد", "wrong": ["وليده|wə́lida", "وليدم|wə́lidəm"] },
+        { "native": "هو، ما هغه په جومات کې وليد.", "roman": "ho, mā haġá pə jumā́t ke wə́lid.", "en": "Yes, I saw him at the mosque.", "focus": "ما", "wrong": ["زه|zə", "ته|tə"] },
+        { "native": "تا کباب وخوړ؟", "roman": "tā kabā́b wə́xwaṛ?", "en": "Did you eat the kebab?", "focus": "تا", "wrong": ["ته|tə", "زه|zə"] },
+        { "native": "ما مڼې وخوړې.", "roman": "mā maṇé wə́xwaṛe.", "en": "I ate the apples.", "focus": "وخوړې", "wrong": ["وخوړ|wə́xwaṛ", "وخوړل|wə́xwaṛəl"] },
+        { "native": "ما يوه ښکلې خولۍ واخيسته.", "roman": "mā yáwa ṣkə́le xwlə́y wā́xista.", "en": "I bought a lovely cap.", "focus": "واخيسته", "wrong": ["واخيست|wā́xist", "واخيستل|wā́xistəl"] },
+        { "native": "هغې ډېر ښه پلاو پوخ کړ.", "roman": "haġé ḍer ṣə palā́w pox kaṛ.", "en": "She cooked a really good palaw.", "focus": "کړ", "wrong": ["کړه|kṛa", "کړل|kṛəl"] },
+        { "native": "موږ ډېر ښه وخت تېر کړ.", "roman": "muẓ ḍer ṣə waxt ter kaṛ.", "en": "We had a great time.", "focus": "کړ", "wrong": ["کړه|kṛa", "کړې|kṛe"] },
+        { "native": "وروستی بس لاړ!", "roman": "wrustáy bas lāṛ!", "en": "The last bus has gone!" },
+        { "native": "دا زما وروستۍ ورځ ده.", "roman": "dā zmā wrustə́y wradz da.", "en": "This is my last day." }
+      ]
+    },
+    {
+      "title": "I lost it, I forgot, I remember",
+      "tip": { "title": "مې as the doer, and 'have done'", "body": "- In speech the doer is often a clitic: کتاب **مې** ولوست 'I read the book', ډوډۍ **دې** وخوړه؟ 'did you eat?', **يې** 'he/she'.\n- 'Have done': participle + 'to be', agreeing with the object: ما کتاب **لوستلی دی**.\n- 'I forgot' = هېر مې شو (lit. it became forgotten to me).", "pattern": "کتاب مې ولوست · کتاب مې لوستلی دی", "grammar": 2 },
+      "new": ["ورک", "هېرول", "ياد", "پيدا", "کيلي مې ورکه کړه.", "د هغه نوم مې هېر شو.", "ډېر ياد مې شوې.", "ډوډۍ دې وخوړه؟"],
+      "sentences": [
+        { "native": "ټيلفون مې ورک کړ.", "roman": "ṭelifún me wrak kaṛ.", "en": "I lost my phone.", "focus": "ورک", "wrong": ["ورکه|wráka", "ورکې|wráke"] },
+        { "native": "کيلي مې پيدا کړه.", "roman": "kilí me paydā́ kṛa.", "en": "I found the key.", "focus": "کړه", "wrong": ["کړ|kaṛ", "کړل|kṛəl"] },
+        { "native": "پته مې هېره شوه.", "roman": "pə́ta me hera shwa.", "en": "I forgot the address.", "focus": "شوه", "wrong": ["شو|shu", "شول|shwəl"] },
+        { "native": "د هغې نوم دې هېر شو؟", "roman": "də haġé num de her shu?", "en": "Did you forget her name?", "focus": "شو", "wrong": ["شوه|shwa", "شول|shwəl"] },
+        { "native": "کتاب دې ولوست؟", "roman": "kitā́b de wə́lwast?", "en": "Did you read the book?", "focus": "دې", "wrong": ["مې|me", "يې|ye"] },
+        { "native": "هو، کتاب مې لوستلی دی.", "roman": "ho, kitā́b me lwastə́lay day.", "en": "Yes, I've read the book.", "focus": "لوستلی", "wrong": ["لوستلې|lwastə́le", "لوستلي|lwastə́li"] },
+        { "native": "تا کابل ليدلی دی؟", "roman": "tā kābúl lidə́lay day?", "en": "Have you been to Kabul? (lit. seen)", "focus": "ليدلی", "wrong": ["ليدلې|lidə́le", "ليدلي|lidə́li"] },
+        { "native": "زه هلته نه يم تللی.", "roman": "zə hálta na yəm tlə́lay.", "en": "I haven't been there.", "focus": "يم", "wrong": ["دی|day", "يې|ye"] },
+        { "native": "ډوډۍ يې وخوړه؟", "roman": "ḍoḍə́y ye wə́xwaṛa?", "en": "Has he eaten?", "focus": "وخوړه", "wrong": ["وخوړ|wə́xwaṛ", "وخوړل|wə́xwaṛəl"] },
+        { "native": "ياد دې دی؟", "roman": "yād de day?", "en": "Do you remember?" },
+        { "native": "هو، ښه مې ياد دی.", "roman": "ho, ṣə me yād day.", "en": "Yes, I remember it well." }
+      ]
+    },
+    {
+      "title": "Born, died, happened",
+      "new": ["زېږېدل", "مړ", "پېښه", "خبر", "ناڅاپه", "لا", "څه پېښ شول؟", "ته په کوم کال کې زېږېدلی يې؟"],
+      "sentences": [
+        { "native": "زه په کابل کې وزېږېدم.", "roman": "zə pə kābúl ke wə́zeẓedəm.", "en": "I was born in Kabul." },
+        { "native": "زما لور تېره مياشت وزېږېده.", "roman": "zmā lur téra miyā́sht wə́zeẓeda.", "en": "My daughter was born last month." },
+        { "native": "هغه په کوم کال کې زېږېدلې ده؟", "roman": "haġá pə kum kāl ke zeẓedə́le da?", "en": "Which year was she born?" },
+        { "native": "زما نيکه دوه کاله پخوا مړ شو.", "roman": "zmā nikə́ dwa kā́la pəxwā́ maṛ shu.", "en": "My grandfather died two years ago." },
+        { "native": "څه پېښه وشوه؟", "roman": "tsə péṣa wə́shwa?", "en": "What happened? (lit. what incident took place?)" },
+        { "native": "خبر يې؟", "roman": "xabár ye?", "en": "Have you heard?" },
+        { "native": "نه، زه خبر نه يم. څه پېښ شول؟", "roman": "na, zə xabár na yəm. tsə peṣ shwəl?", "en": "No, I haven't. What happened?" },
+        { "native": "ناڅاپه باران وشو.", "roman": "nātsā́pa bārā́n wə́shu.", "en": "Suddenly it started to rain." },
+        { "native": "خبرونه دې واورېدل؟", "roman": "xabarúna de wā́wredəl?", "en": "Did you hear the news?" },
+        { "native": "هغه لا نه دی راغلی.", "roman": "haġá lā na day rā́ġəlay.", "en": "He hasn't come yet." },
+        { "native": "ته لا هم ناروغ يې؟", "roman": "tə lā ham nāróġ ye?", "en": "Are you still ill?" }
+      ]
+    },
+    {
+      "title": "Weddings, cricket and dancing",
+      "new": ["مېلمستيا", "ګډا", "اتڼ", "کرکټ", "لوبغاړی", "شروع", "پای"],
+      "sentences": [
+        { "native": "پرون موږ کرکټ وکړ.", "roman": "parún muẓ krikáṭ wə́kaṛ.", "en": "We played cricket yesterday." },
+        { "native": "هغه ښه لوبغاړی دی.", "roman": "haġá ṣə lobġā́ṛay day.", "en": "He's a good player." },
+        { "native": "لوبه په څو بجو شروع شوه؟", "roman": "lóba pə tso bajó shurúʿ shwa?", "en": "What time did the game start?" },
+        { "native": "په پای کې موږ وګټل.", "roman": "pə pāy ke muẓ wə́gaṭəl.", "en": "In the end we won." },
+        { "native": "لوبغاړي ستړي شول.", "roman": "lobġā́ṛi stə́ṛi shwəl.", "en": "The players got tired." },
+        { "native": "په واده کې ټولو اتڼ وکړ.", "roman": "pə wādə́ ke ṭolo aṭáṇ wə́kaṛ.", "en": "Everyone danced the attan at the wedding." },
+        { "native": "ښځو ګډا وکړه.", "roman": "ṣədzó gaḍā́ wə́kṛa.", "en": "The women danced." },
+        { "native": "واده سهار شروع شو او د شپې پای ته ورسېد.", "roman": "wādə́ sahā́r shurúʿ shu aw də shpe pāy ta wə́rased.", "en": "The wedding started in the morning and finished at night." },
+        { "native": "مېلمستيا ډېره ښه وه.", "roman": "melmastyā́ ḍéra ṣa wa.", "en": "The party was really good." },
+        { "native": "ستاسو د مېلمستيا ډېره مننه.", "roman": "stāso də melmastyā́ ḍéra manə́na.", "en": "Thank you so much for your hospitality." }
+      ]
+    }
+  ]
 }

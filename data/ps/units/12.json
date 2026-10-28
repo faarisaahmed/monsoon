@@ -85,5 +85,77 @@
       { "speaker": "Sara", "native": "دغه نسواري اخلم. دا دي پيسې.", "roman": "daġá naswārí áxləm. dā di páyse.", "en": "I'll take this brown one. Here's the money." }
     ]
   },
-  "culture": "Bargaining is expected in bazaars but done with good humour — open with a smile, compliment the goods, and don't haggle hard over small sums. A shopkeeper calling you 'brother' (ورور) or 'sister' (خور) is warm politeness, not over-familiarity. Fixed-price shops (and pharmacies) don't bargain. Traditional clothing is everyday wear: men wear **کميس پرتوګ** with a waistcoat, a cap or turban and a پټو shawl in winter; women wear long dresses with a څادر or دوپټه, and in parts of Afghanistan a burqa (چادري) outdoors. Peshawari chappals (sandals) are famous across South Asia."
+  "culture": "Bargaining is expected in bazaars but done with good humour — open with a smile, compliment the goods, and don't haggle hard over small sums. A shopkeeper calling you 'brother' (ورور) or 'sister' (خور) is warm politeness, not over-familiarity. Fixed-price shops (and pharmacies) don't bargain. Traditional clothing is everyday wear: men wear **کميس پرتوګ** with a waistcoat, a cap or turban and a پټو shawl in winter; women wear long dresses with a څادر or دوپټه, and in parts of Afghanistan a burqa (چادري) outdoors. Peshawari chappals (sandals) are famous across South Asia.",
+  "lessons": [
+    {
+      "title": "How much is it?",
+      "tip": { "title": "For how much? په څو دی؟", "body": "- Ask a price with **په څو** 'for how much' + the verb 'to be'.\n- The verb agrees with the thing: **دی** (m) · **ده** (f) · **دي** (plural): دا پياله په څو **ده**؟ دا مڼې په څو **دي**؟\n- Answer with په too: **په** شل روپۍ 'for twenty rupees'.", "pattern": "دا + thing + په څو دی / ده / دي؟", "grammar": 1 },
+      "new": ["دوکان", "دوکاندار", "بيه", "ګران", "ارزان", "پيسې", "افغانۍ", "دا په څو دی؟", "بيه يې څو ده؟", "ډېر ګران دی!"],
+      "sentences": [
+        { "native": "دا مڼې په څو دي؟", "roman": "dā maṇé pə tso di?", "en": "How much are these apples?", "focus": "دي", "wrong": ["دی|day", "ده|da"] },
+        { "native": "دا پياله په څو ده؟", "roman": "dā piyā́la pə tso da?", "en": "How much is this cup?", "focus": "ده", "wrong": ["دی|day", "دي|di"] },
+        { "native": "دا ګيلاس په شل روپۍ دی.", "roman": "dā gilā́s pə shəl rupə́y day.", "en": "This glass is twenty rupees.", "focus": "په", "wrong": ["ته|ta", "کې|ke"] },
+        { "native": "دا ډوډۍ په لس افغانۍ ده.", "roman": "dā ḍoḍə́y pə las afġānə́y da.", "en": "This bread is ten afghanis.", "focus": "ده", "wrong": ["دی|day", "دي|di"] },
+        { "native": "د وريجو بيه څو ده؟", "roman": "də wríjo bayá tso da?", "en": "What's the price of the rice?", "focus": "ده", "wrong": ["دی|day", "دي|di"] },
+        { "native": "دوه کيلو غوښه په څو ده؟", "roman": "dwa kiló ġwáṣa pə tso da?", "en": "How much for two kilos of meat?", "focus": "په", "wrong": ["ته|ta", "د|də"] },
+        { "native": "دا مېوه په څو ده؟", "roman": "dā mewá pə tso da?", "en": "How much is this fruit?", "focus": "ده", "wrong": ["دی|day", "دي|di"] },
+        { "native": "دا ټول په څو دي؟", "roman": "dā ṭol pə tso di?", "en": "How much for all of these?", "focus": "دي", "wrong": ["دی|day", "ده|da"] },
+        { "native": "نه، ګران نه دی، ډېر ارزان دی.", "roman": "na, grān na day, ḍer arzā́n day.", "en": "No, it isn't expensive, it's very cheap." },
+        { "native": "دا دوکان ډېر ارزان دی.", "roman": "dā dukā́n ḍer arzā́n day.", "en": "This shop is very cheap." },
+        { "native": "زه ډېرې پيسې نه لرم.", "roman": "zə ḍére páyse na lárəm.", "en": "I don't have much money." },
+        { "native": "دوکاندار ښه سړی دی.", "roman": "dukāndā́r ṣə saṛáy day.", "en": "The shopkeeper is a good man." }
+      ]
+    },
+    {
+      "title": "Clothes that fit",
+      "new": ["جامې", "کميس", "پرتوګ", "خولۍ", "بوټ", "اندازه", "برابر", "لويه اندازه شته؟", "دا راته برابر نه دی.", "بل رنګ لرئ؟"],
+      "sentences": [
+        { "native": "دا کميس ډېر ښکلی دی.", "roman": "dā kamís ḍer ṣkə́lay day.", "en": "This shirt is really nice." },
+        { "native": "دا خولۍ ښه ده، خو لږ وړوکې ده.", "roman": "dā xwlə́y ṣa da, xo ləẓ waṛúke da.", "en": "This cap is nice, but it's a bit small." },
+        { "native": "زه کميس پرتوګ اغوندم.", "roman": "zə kamís partúg aġundə́m.", "en": "I wear shalwar kameez." },
+        { "native": "دا بوټونه راته برابر نه دي.", "roman": "dā buṭúna rā́ta barābár na di.", "en": "These shoes don't fit me." },
+        { "native": "دا خولۍ راته برابره ده.", "roman": "dā xwlə́y rā́ta barābára da.", "en": "This cap fits me." },
+        { "native": "دا پرتوګ ډېر اوږد دی.", "roman": "dā partúg ḍer uẓd day.", "en": "These trousers are too long." },
+        { "native": "ستاسو اندازه څو ده؟", "roman": "stāso andāzá tso da?", "en": "What's your size?" },
+        { "native": "دا کميس په بل رنګ کې شته؟", "roman": "dā kamís pə bəl rang ke shta?", "en": "Does this shirt come in another colour?" },
+        { "native": "هو، شين او سپين رنګ هم شته.", "roman": "ho, shin aw spin rang ham shta.", "en": "Yes, there's green and white too." },
+        { "native": "نوې جامې غواړم.", "roman": "náwe jā́me ġwā́ṛəm.", "en": "I want new clothes." }
+      ]
+    },
+    {
+      "title": "This one or that one?",
+      "tip": { "title": "This, this here, that", "body": "- **دا** this · **دغه** this one here (pointing) · **هغه** that.\n- 'This one / that one': add **يو** (m) or **يوه** (f): هغه يوه 'that one (f)'.\n- After په، د، ته they change: دا → **دې**، دغه → **دغې** (f)، هغه → **هغې** (f)، plural **هغو**: په **دې** دوکان کې.", "pattern": "دا يو · دغه يو · هغه يو", "grammar": 0 },
+      "new": ["دغه", "پټکی", "څادر", "واسکټ", "کڅوړه", "ټوکر", "اخيستل", "هغه يو راته وښيه.", "يوازې ګورم، مننه.", "سمه ده، دا اخلم."],
+      "sentences": [
+        { "native": "دغه څادر په څو دی؟", "roman": "daġá tsādár pə tso day?", "en": "How much is this shawl here?", "focus": "دغه", "wrong": ["دې|de", "دغې|daġé"] },
+        { "native": "دا کڅوړه نه، هغه يوه راته وښيه.", "roman": "dā katsóṛa na, haġá yáwa rā́ta wə́ṣaya.", "en": "Not this bag — show me that one.", "focus": "يوه", "wrong": ["يو|yaw", "يې|ye"] },
+        { "native": "هغه پټکی ډېر ښکلی دی.", "roman": "haġá paṭkáy ḍer ṣkə́lay day.", "en": "That turban is really nice.", "focus": "هغه", "wrong": ["هغې|haġé", "هغو|haġó"] },
+        { "native": "په دغه دوکان کې ښه ټوکر شته.", "roman": "pə daġá dukā́n ke ṣə ṭukár shta.", "en": "There's good cloth in this shop here.", "focus": "دغه", "wrong": ["دغې|daġé", "دغو|daġó"] },
+        { "native": "د دې واسکټ بيه څو ده؟", "roman": "də de wāskáṭ bayá tso da?", "en": "What's the price of this waistcoat?", "focus": "دې", "wrong": ["دا|dā", "دغو|daġó"] },
+        { "native": "په هغې کڅوړې کې څه دي؟", "roman": "pə haġé katsóṛe ke tsə di?", "en": "What's in that bag?", "focus": "هغې", "wrong": ["هغو|haġó", "دا|dā"] },
+        { "native": "دغه پټکی اخلم.", "roman": "daġá paṭkáy áxləm.", "en": "I'll take this turban here.", "focus": "دغه", "wrong": ["دغې|daġé", "دغو|daġó"] },
+        { "native": "په هغو دوکانونو کې ارزانې جامې شته.", "roman": "pə haġó dukānúno ke arzā́ne jā́me shta.", "en": "There are cheap clothes in those shops.", "focus": "هغو", "wrong": ["هغې|haġé", "دا|dā"] },
+        { "native": "دا يو ګران دی، هغه يو ارزان دی.", "roman": "dā yaw grān day, haġá yaw arzā́n day.", "en": "This one is expensive, that one is cheap." },
+        { "native": "زه يوازې ګورم، نن څه نه اخلم.", "roman": "zə yawā́ze górəm, nən tsə na áxləm.", "en": "I'm just looking, I'm not buying anything today." },
+        { "native": "سمه ده، دا واسکټ اخلم.", "roman": "sáma da, dā wāskáṭ áxləm.", "en": "OK, I'll take this waistcoat." }
+      ]
+    },
+    {
+      "title": "Bargaining and paying",
+      "tip": { "title": "Give me, give you, give him", "body": "- 'Give' changes with who gets it: **را-** to me/us · **در-** to you · **ور-** to him/her/them.\n- **راکړه** give me · **درکړم** shall I give you · **ورکړه** give him.\n- The same prefixes are in راته 'to me', درته 'to you', ورته 'to him'.", "pattern": "راکړه · درکړم · ورکړه", "grammar": 1 },
+      "new": ["ورکول", "تخفيف", "پوره", "خرڅول", "بدلول", "لږ کم يې کړه.", "وروستۍ بيه يې څو ده؟", "پاتې پيسې راکړه."],
+      "sentences": [
+        { "native": "يوه کڅوړه هم راکړه.", "roman": "yáwa katsóṛa ham rā́kṛa.", "en": "Give me a bag as well.", "focus": "راکړه", "wrong": ["درکړه|dárkṛa", "ورکړه|wárkṛa"] },
+        { "native": "لږ تخفيف راکړئ.", "roman": "ləẓ taxfíf rā́kṛəy.", "en": "Give me a small discount. (polite)", "focus": "راکړئ", "wrong": ["درکړئ|dárkṛəy", "ورکړئ|wárkṛəy"] },
+        { "native": "هغه ته پاتې پيسې ورکړه.", "roman": "haġə́ ta pā́te páyse wárkṛa.", "en": "Give him the change.", "focus": "ورکړه", "wrong": ["راکړه|rā́kṛa", "درکړه|dárkṛa"] },
+        { "native": "زه تاسو ته ښه بيه درکوم.", "roman": "zə tāso ta ṣa bayá darkawə́m.", "en": "I'll give you a good price.", "focus": "درکوم", "wrong": ["راکوم|rākawə́m", "ورکوم|warkawə́m"] },
+        { "native": "نه، پوره نه دي، لس روپۍ نورې راکړه.", "roman": "na, púra na di, las rupə́y nóre rā́kṛa.", "en": "No, it's not enough — give me ten more rupees.", "focus": "راکړه", "wrong": ["ورکړه|wárkṛa", "درکړه|dárkṛa"] },
+        { "native": "ماشومانو ته يوه يوه مڼه ورکړه.", "roman": "māshumā́no ta yáwa yáwa maṇá wárkṛa.", "en": "Give the children an apple each.", "focus": "ورکړه", "wrong": ["راکړه|rā́kṛa", "درکړه|dárkṛa"] },
+        { "native": "پيسې درکړم؟", "roman": "páyse dárkṛəm?", "en": "Shall I give you the money?", "focus": "درکړم", "wrong": ["راکړم|rā́kṛəm", "ورکړم|wárkṛəm"] },
+        { "native": "ستاسو وروستۍ بيه څو ده؟", "roman": "stāso wrustə́y bayá tso da?", "en": "What's your final price? (polite)" },
+        { "native": "دا کميس راته بدل کړه، لوی دی.", "roman": "dā kamís rā́ta badál kṛa, loy day.", "en": "Change this shirt for me, it's too big." },
+        { "native": "تاسو خولۍ هم خرڅوئ؟", "roman": "tāso xwlə́y ham xartsawə́y?", "en": "Do you sell caps too?" }
+      ]
+    }
+  ]
 }

@@ -87,5 +87,86 @@
       { "speaker": "Officer", "native": "فکر نہ کریں، ایسا ہو جاتا ہے۔ اپنا خیال رکھیں۔", "roman": "fikr na kareṃ, aisā ho jātā hai. apnā xayāl rakheṃ.", "en": "Don't worry, these things happen. Take care." }
     ]
   },
-  "culture": "Emergency numbers in Pakistan: **15** police, **1122** Rescue (ambulance and fire, in most provinces), **115** Edhi ambulance — the Edhi Foundation, founded by Abdul Sattar Edhi, runs one of the world's largest volunteer ambulance services. In crowded bazaars keep valuables in front pockets. People are generally very helpful to travellers in trouble; a clear request starting with ذرا سنیے or بھائی صاحب will usually draw a crowd of helpers."
+  "culture": "Emergency numbers in Pakistan: **15** police, **1122** Rescue (ambulance and fire, in most provinces), **115** Edhi ambulance — the Edhi Foundation, founded by Abdul Sattar Edhi, runs one of the world's largest volunteer ambulance services. In crowded bazaars keep valuables in front pockets. People are generally very helpful to travellers in trouble; a clear request starting with ذرا سنیے or بھائی صاحب will usually draw a crowd of helpers.",
+  "lessons": [
+    {
+      "title": "At the hotel",
+      "new": ["ہوٹل", "سفر", "بکنگ", "کرایہ", "سامان", "پاسپورٹ", "خراب", "شکایت", "کیا آپ کے پاس کمرہ خالی ہے؟", "میرے کمرے کا اے سی خراب ہے۔"],
+      "sentences": [
+        { "native": "میری بکنگ احمد کے نام پر ہے۔", "roman": "merī buking Ahmad ke nām par hai.", "en": "My booking is under the name Ahmed." },
+        { "native": "ایک رات کا کرایہ کتنا ہے؟", "roman": "ek rāt kā kirāya kitnā hai?", "en": "How much is it for one night?" },
+        { "native": "اپنا پاسپورٹ دکھائیے۔", "roman": "apnā pāsporṭ dikhā’iye.", "en": "Please show me your passport." },
+        { "native": "میرا سامان کمرے میں لے جائیے۔", "roman": "merā sāmān kamre meṃ le jā’iye.", "en": "Please take my luggage up to the room." },
+        { "native": "کمرے کا پنکھا خراب ہے۔", "roman": "kamre kā pankhā xarāb hai.", "en": "The fan in the room isn't working." },
+        { "native": "مجھے شکایت کرنی ہے۔", "roman": "mujhe shikāyat karnī hai.", "en": "I'd like to make a complaint." },
+        { "native": "ہم دو رات ٹھہریں گے۔", "roman": "ham do rāt ṭhahreṃ ge.", "en": "We'll stay two nights." },
+        { "native": "یہ ہوٹل بہت صاف ہے۔", "roman": "ye hoṭal bahut sāf hai.", "en": "This hotel is very clean." },
+        { "native": "سفر کیسا رہا؟", "roman": "safar kaisā rahā?", "en": "How was the journey?" }
+      ]
+    },
+    {
+      "title": "Delays and cancellations",
+      "tip": { "title": "If… then: اگر … تو", "body": "- **اگر** 'if' starts the condition and **تو** 'then' starts the result: **اگر** ٹرین لیٹ ہے **تو** ہم چائے پیتے ہیں.\n- The if-part can be present, future or even past: اگر تاخیر **ہوئی** تو… 'if there's a delay…'.\n- **ورنہ** 'otherwise, or else': جلدی کرو، **ورنہ** ٹرین چلی جائے گی.", "pattern": "اگر + condition + تو + result", "grammar": 0 },
+      "new": ["اگر", "ورنہ", "تاخیر", "منسوخ", "احتیاط", "ٹرین کتنی لیٹ ہے؟", "فلائٹ منسوخ ہو گئی ہے۔"],
+      "sentences": [
+        { "native": "اگر ٹرین لیٹ ہے تو ہم چائے پیتے ہیں۔", "roman": "agar ṭren leṭ hai to ham chā’e pīte haiṃ.", "en": "If the train's late, let's have some tea.", "focus": "تو", "wrong": ["کہ|ki", "لیکن|lekin"] },
+        { "native": "اگر فلائٹ منسوخ ہو گئی تو ہم کل جائیں گے۔", "roman": "agar flā’iṭ mansūx ho ga’ī to ham kal jā’eṃ ge.", "en": "If the flight gets cancelled, we'll go tomorrow.", "focus": "اگر", "wrong": ["کیونکہ|kyoṃki", "کہ|ki"] },
+        { "native": "اگر تاخیر ہوئی تو میں آپ کو فون کروں گا۔", "roman": "agar tāxīr hu’ī to maiṃ āp ko fon karūṃ gā.", "en": "If there's a delay, I'll call you. (man)", "focus": "ہوئی", "wrong": ["ہوا|huā", "ہوئے|hu’e"] },
+        { "native": "اگر آپ کو بھوک لگی ہے تو کچھ کھا لیں۔", "roman": "agar āp ko bhūk lagī hai to kuchh khā leṃ.", "en": "If you're hungry, have something to eat.", "focus": "تو", "wrong": ["کہ|ki", "لیکن|lekin"] },
+        { "native": "اگر ٹکٹ نہیں ملا تو بس سے چلیں گے۔", "roman": "agar ṭikaṭ nahīṃ milā to bas se chaleṃ ge.", "en": "If we can't get tickets, we'll go by bus.", "focus": "ملا", "wrong": ["ملی|milī", "ملے|mile"] },
+        { "native": "احتیاط کریں، ورنہ آپ گر جائیں گے۔", "roman": "ehtiyāt kareṃ, varna āp gir jā’eṃ ge.", "en": "Be careful, or you'll fall.", "focus": "ورنہ", "wrong": ["اگر|agar", "کیونکہ|kyoṃki"] },
+        { "native": "جلدی کرو، ورنہ ٹرین چلی جائے گی۔", "roman": "jaldī karo, varna ṭren chalī jā’e gī.", "en": "Hurry up, or the train will leave without us.", "focus": "ورنہ", "wrong": ["اگر|agar", "کیونکہ|kyoṃki"] },
+        { "native": "ٹرین دو گھنٹے لیٹ ہے۔", "roman": "ṭren do ghanṭe leṭ hai.", "en": "The train is two hours late." },
+        { "native": "تاخیر کی وجہ سے ہم رات کو پہنچے۔", "roman": "tāxīr kī vajah se ham rāt ko pahuṃche.", "en": "Because of the delay we got there at night." }
+      ]
+    },
+    {
+      "title": "Lost and stolen",
+      "tip": { "title": "It's been stolen: چوری ہو گیا ہے", "body": "- Say what happened **to the thing**: میرا فون **چوری ہو گیا** ہے 'my phone has been stolen', میرا پاسپورٹ **گم ہو گیا** ہے 'my passport is missing'.\n- گیا agrees with the thing: بٹوا (m) → **گیا**, چابیاں (f) → **گئی**, کارڈ (pl) → **گئے**.\n- Report it at the **تھانہ** (police station).", "pattern": "میرا … گم / چوری ہو گیا ہے" },
+      "new": ["چور", "چوری", "گم", "بٹوا", "فون", "تھانہ", "میرا بٹوا چوری ہو گیا ہے۔", "میرا پاسپورٹ گم ہو گیا ہے۔", "میں راستہ بھٹک گئی ہوں۔"],
+      "sentences": [
+        { "native": "میرا فون چوری ہو گیا ہے۔", "roman": "merā fon chorī ho gayā hai.", "en": "My phone has been stolen.", "focus": "گیا", "wrong": ["گئی|ga’ī", "گئے|ga’e"] },
+        { "native": "میری چابیاں گم ہو گئی ہیں۔", "roman": "merī chābiyāṃ gum ho ga’ī haiṃ.", "en": "My keys are missing.", "focus": "گئی", "wrong": ["گیا|gayā", "گئے|ga’e"] },
+        { "native": "ہمارا سامان گم ہو گیا ہے۔", "roman": "hamārā sāmān gum ho gayā hai.", "en": "Our luggage has gone missing.", "focus": "گیا", "wrong": ["گئی|ga’ī", "گئے|ga’e"] },
+        { "native": "میرے کارڈ بھی چوری ہو گئے۔", "roman": "mere kārḍ bhī chorī ho ga’e.", "en": "My cards were stolen too.", "focus": "گئے", "wrong": ["گیا|gayā", "گئی|ga’ī"] },
+        { "native": "چور میرا بٹوا لے گیا۔", "roman": "chor merā baṭvā le gayā.", "en": "The thief took my wallet.", "focus": "گیا", "wrong": ["گئی|ga’ī", "گئے|ga’e"] },
+        { "native": "میرا بیٹا بازار میں گم ہو گیا ہے۔", "roman": "merā beṭā bāzār meṃ gum ho gayā hai.", "en": "My son is lost in the market.", "focus": "گیا", "wrong": ["گئی|ga’ī", "گئے|ga’e"] },
+        { "native": "میں راستہ بھٹک گیا ہوں، اسٹیشن کہاں ہے؟", "roman": "maiṃ rāsta bhaṭak gayā hūṃ, isṭeshan kahāṃ hai?", "en": "I'm lost — where's the station? (man)", "focus": "گیا", "wrong": ["گئی|ga’ī", "گئے|ga’e"] },
+        { "native": "یہاں قریب کوئی تھانہ ہے؟", "roman": "yahāṃ qarīb ko’ī thāna hai?", "en": "Is there a police station near here?" },
+        { "native": "مجھے تھانے جانا ہے۔", "roman": "mujhe thāne jānā hai.", "en": "I need to go to the police station." }
+      ]
+    },
+    {
+      "title": "Emergencies",
+      "tip": { "title": "In an emergency", "body": "- Shout **بچاؤ!** 'help!' or **مدد کرو!**\n- Keep commands short: پولیس کو **بلاؤ**! 'call the police!'; to a stranger, **بلائیے** or **بلائیں**.\n- **فوراً** 'immediately' and **جلدی** 'quickly' add urgency.\n- 'There's a fire!' = **آگ لگ گئی ہے!**", "pattern": "… کو بلائیے، فوراً!" },
+      "new": ["بچاؤ", "پولیس", "آگ", "ایمبولینس", "زخمی", "حادثہ", "فوراً", "بچاؤ! مدد کرو!", "پولیس کو بلائیے!", "ایمبولینس بلائیں، جلدی!"],
+      "sentences": [
+        { "native": "فوراً ایمبولینس بلاؤ!", "roman": "fauran aimbulens bulā’o!", "en": "Call an ambulance right away!", "focus": "بلاؤ", "wrong": ["بلایا|bulāyā", "بلاتا|bulātā"] },
+        { "native": "ڈاکٹر کو بلائیے، یہ آدمی زخمی ہے۔", "roman": "ḍākṭar ko bulā’iye, ye ādmī zaxmī hai.", "en": "Call a doctor — this man is injured.", "focus": "بلائیے", "wrong": ["بلایا|bulāyā", "بلاتے|bulāte"] },
+        { "native": "آگ لگ گئی ہے! باہر نکلو!", "roman": "āg lag ga’ī hai! bāhar niklo!", "en": "There's a fire! Get out!", "focus": "گئی", "wrong": ["گیا|gayā", "گئے|ga’e"] },
+        { "native": "یہاں ایک حادثہ ہو گیا ہے۔", "roman": "yahāṃ ek hādisa ho gayā hai.", "en": "There's been an accident here.", "focus": "گیا", "wrong": ["گئی|ga’ī", "گئے|ga’e"] },
+        { "native": "پولیس آ رہی ہے۔", "roman": "pulis ā rahī hai.", "en": "The police are on their way.", "focus": "رہی", "wrong": ["رہا|rahā", "رہو|raho"] },
+        { "native": "جلدی سے ایمبولینس کو فون کریں۔", "roman": "jaldī se aimbulens ko fon kareṃ.", "en": "Call an ambulance, quickly.", "focus": "کریں", "wrong": ["کرتے|karte", "کیا|kiyā"] },
+        { "native": "فوراً ہسپتال چلیں۔", "roman": "fauran haspatāl chaleṃ.", "en": "Let's get to the hospital straight away.", "focus": "چلیں", "wrong": ["چلتے|chalte", "چلا|chalā"] },
+        { "native": "کوئی زخمی تو نہیں ہے؟", "roman": "ko’ī zaxmī to nahīṃ hai?", "en": "Is anyone hurt?" },
+        { "native": "بچاؤ! چور! چور!", "roman": "bachā’o! chor! chor!", "en": "Help! Thief! Thief!" }
+      ]
+    },
+    {
+      "title": "If only… and finding help",
+      "tip": { "title": "If I'd known: اگر مجھے پتا ہوتا", "body": "- For things that **didn't** happen, use the -tā form in **both** halves: اگر مجھے پتا **ہوتا** تو میں **آتا** 'if I'd known, I'd have come'.\n- It agrees as usual: ہوتا / **ہوتی** / **ہوتے**.\n- **کاش** 'if only': کاش میں وہاں **ہوتا**.", "pattern": "اگر … ہوتا تو … کرتا", "grammar": 1 },
+      "new": ["خطرہ", "مسئلہ", "سفارت خانہ", "قریب ترین ہسپتال کہاں ہے؟", "مجھے اپنے سفارت خانے سے رابطہ کرنا ہے۔", "کوئی انگریزی بولتا ہے؟"],
+      "sentences": [
+        { "native": "اگر مجھے پتا ہوتا تو میں آپ کو بتاتا۔", "roman": "agar mujhe patā hotā to maiṃ āp ko batātā.", "en": "If I'd known, I'd have told you. (man)", "focus": "ہوتا", "wrong": ["ہوتی|hotī", "ہے|hai"] },
+        { "native": "اگر میرے پاس گاڑی ہوتی تو میں آپ کو چھوڑ دیتا۔", "roman": "agar mere pās gāṛī hotī to maiṃ āp ko chhoṛ detā.", "en": "If I had a car, I'd drop you off. (man)", "focus": "ہوتی", "wrong": ["ہوتا|hotā", "ہوتے|hote"] },
+        { "native": "اگر ہم احتیاط کرتے تو یہ مسئلہ نہ ہوتا۔", "roman": "agar ham ehtiyāt karte to ye mas’ala na hotā.", "en": "If we'd been careful, this wouldn't have happened.", "focus": "کرتے", "wrong": ["کرتا|kartā", "کرتی|kartī"] },
+        { "native": "اگر تم وقت پر آتے تو ہم ساتھ چلتے۔", "roman": "agar tum vaqt par āte to ham sāth chalte.", "en": "If you'd come on time, we'd have gone together.", "focus": "آتے", "wrong": ["آتا|ātā", "آتی|ātī"] },
+        { "native": "اگر ہمارے پاس نقشہ ہوتا تو ہم راستہ نہ بھٹکتے۔", "roman": "agar hamāre pās naqsha hotā to ham rāsta na bhaṭakte.", "en": "If we'd had a map, we wouldn't have got lost.", "focus": "ہوتا", "wrong": ["ہوتی|hotī", "ہوتے|hote"] },
+        { "native": "کاش میں وہاں ہوتی!", "roman": "kāsh maiṃ vahāṃ hotī!", "en": "If only I were there! (woman)", "focus": "ہوتی", "wrong": ["ہوتا|hotā", "ہوتے|hote"] },
+        { "native": "یہاں رات کو خطرہ ہے، احتیاط کریں۔", "roman": "yahāṃ rāt ko xatra hai, ehtiyāt kareṃ.", "en": "It's dangerous here at night — be careful." },
+        { "native": "سفارت خانہ کہاں ہے؟", "roman": "sifārat xāna kahāṃ hai?", "en": "Where's the embassy?" },
+        { "native": "کوئی مسئلہ نہیں۔", "roman": "ko’ī mas’ala nahīṃ.", "en": "No problem." }
+      ]
+    }
+  ]
 }

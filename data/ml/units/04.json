@@ -86,5 +86,85 @@
       { "speaker": "Ammooma", "native": "മിടുക്കി! ഇതാ, ഒരു മിഠായി.", "roman": "miṭukki! itā, oru miṭhāyi.", "en": "Clever girl! Here, a sweet." }
     ]
   },
-  "culture": "Indian number grouping is used in Kerala: 1,00,000 is one lakh and 1,00,00,000 is one crore, and prices, salaries and populations are always quoted this way. Children and younger people (even adults) are often affectionately called മോൻ / മോൾ (son / daughter) by older people — Ammooma's മോളുടെ പേരെന്താ? is completely natural even to a stranger's child."
+  "culture": "Indian number grouping is used in Kerala: 1,00,000 is one lakh and 1,00,00,000 is one crore, and prices, salaries and populations are always quoted this way. Children and younger people (even adults) are often affectionately called മോൻ / മോൾ (son / daughter) by older people — Ammooma's മോളുടെ പേരെന്താ? is completely natural even to a stranger's child.",
+  "lessons": [
+    {
+      "title": "How many?",
+      "tip": { "title": "Number + noun", "body": "- The number comes **first**: രണ്ട് ചായ 'two teas'. 'One' before a noun is **ഒരു**: ഒരു കിലോ.\n- Things usually stay singular (മൂന്ന് ചായ); people take the plural (മൂന്ന് മക്കൾ).\n- Count people with **പേർ** 'persons': നാലു പേർ. Don't mix it up with **പേര്** 'name'!", "pattern": "number + noun · എത്ര പേർ?", "grammar": 0 },
+      "new": ["എത്ര", "ഒരു", "കിലോ", "അര", "എത്ര പേർ ഉണ്ട്?", "ഞങ്ങൾ നാലു പേർ ഉണ്ട്.", "അര കിലോ മതി."],
+      "sentences": [
+        { "native": "ചേട്ടാ, മൂന്ന് ചായ.", "roman": "chēṭṭā, mūnnŭ chāya.", "en": "Three teas, please. (to the man at the stall)", "focus": "ചായ", "wrong": ["ചായകൾ|chāyakaḷ", "ചായയുടെ|chāyayuṭe"] },
+        { "native": "എനിക്ക് മൂന്ന് മക്കൾ ഉണ്ട്.", "roman": "enikkŭ mūnnŭ makkaḷ uṇḍŭ.", "en": "I have three children.", "focus": "മക്കൾ", "wrong": ["മകൻ|makan", "മകൾ|makaḷ"] },
+        { "native": "ഞങ്ങൾ അഞ്ചു പേർ ആണ്.", "roman": "ñaṅṅaḷ añju pēr āṇŭ.", "en": "There are five of us.", "focus": "പേർ", "wrong": ["പേര്|pērŭ", "ആൾ|āḷ"] },
+        { "native": "എത്ര പേർ വരും?", "roman": "etra pēr varum?", "en": "How many people will come?", "focus": "പേർ", "wrong": ["പേര്|pērŭ", "ആൾ|āḷ"] },
+        { "native": "ഒരു കിലോ മതി.", "roman": "oru kilō mati.", "en": "One kilo is enough.", "focus": "ഒരു", "wrong": ["ഒന്ന്|onnŭ", "ഒന്നാമത്തെ|onnāmatte"] },
+        { "native": "ഇത് എത്ര കിലോ ആണ്?", "roman": "itŭ etra kilō āṇŭ?", "en": "How many kilos is this?", "focus": "എത്ര", "wrong": ["എന്ത്|endŭ", "ഏത്|ētŭ"] },
+        { "native": "നിങ്ങൾക്ക് എത്ര മക്കൾ ഉണ്ട്?", "roman": "niṅṅaḷkkŭ etra makkaḷ uṇḍŭ?", "en": "How many children do you have?", "focus": "എത്ര", "wrong": ["എന്ത്|endŭ", "ആര്|ārŭ"] },
+        { "native": "ഞങ്ങൾ രണ്ടു പേരും മലയാളികൾ ആണ്.", "roman": "ñaṅṅaḷ raṇḍu pērum malayāḷikaḷ āṇŭ.", "en": "We're both Malayalis.", "focus": "പേരും", "wrong": ["പേർ|pēr", "പേരുടെ|pēruṭe"] }
+      ]
+    },
+    {
+      "title": "How old are you? What's your number?",
+      "tip": { "title": "Age: years have \"become\" to you", "body": "- Age uses the to-form + **വയസ്സായി** 'years became': **എനിക്ക്** മുപ്പത് **വയസ്സായി** 'I'm thirty'.\n- Ask: (നിങ്ങൾക്ക്) **എത്ര** വയസ്സായി?\n- **എത്ര** also asks for any number: ഫോൺ നമ്പർ **എത്രയാണ്**? 'what's the phone number?'", "pattern": "person-ക്ക് + number + വയസ്സായി", "grammar": 1 },
+      "new": ["വയസ്സ്", "നമ്പർ", "നിങ്ങൾക്ക് എത്ര വയസ്സായി?", "എനിക്ക് ഇരുപത്തിയെട്ട് വയസ്സായി.", "നിങ്ങളുടെ ഫോൺ നമ്പർ എത്രയാണ്?"],
+      "sentences": [
+        { "native": "അച്ഛന് എത്ര വയസ്സായി?", "roman": "acchanŭ etra vayassāyi?", "en": "How old is your father?", "focus": "അച്ഛന്", "wrong": ["അച്ഛൻ|acchan", "അച്ഛന്റെ|acchande"] },
+        { "native": "അച്ഛന് അറുപത് വയസ്സായി.", "roman": "acchanŭ aṟupatŭ vayassāyi.", "en": "My father is sixty.", "focus": "വയസ്സായി", "wrong": ["വയസ്സ്|vayassŭ", "വയസ്സോ|vayassō"] },
+        { "native": "എനിക്ക് മുപ്പത് വയസ്സായി.", "roman": "enikkŭ muppatŭ vayassāyi.", "en": "I'm thirty.", "focus": "എനിക്ക്", "wrong": ["ഞാൻ|ñān", "എന്റെ|ende"] },
+        { "native": "കുഞ്ഞിന് എത്ര വയസ്സായി?", "roman": "kuññinŭ etra vayassāyi?", "en": "How old is the baby?", "focus": "കുഞ്ഞിന്", "wrong": ["കുഞ്ഞ്|kuññŭ", "കുഞ്ഞിന്റെ|kuññinde"] },
+        { "native": "അവന് പത്ത് വയസ്സായി.", "roman": "avanŭ pattŭ vayassāyi.", "en": "He's ten.", "focus": "അവന്", "wrong": ["അവൻ|avan", "അവന്റെ|avande"] },
+        { "native": "അമ്മയ്ക്ക് അമ്പത് വയസ്സായി.", "roman": "ammaykkŭ ambatŭ vayassāyi.", "en": "Mum is fifty.", "focus": "അമ്മയ്ക്ക്", "wrong": ["അമ്മ|amma", "അമ്മയുടെ|ammayuṭe"] },
+        { "native": "ചേട്ടന്റെ ഫോൺ നമ്പർ എത്രയാണ്?", "roman": "chēṭṭande fōṇ nambar etrayāṇŭ?", "en": "What's your brother's phone number?", "focus": "എത്രയാണ്", "wrong": ["ആരാണ്|ārāṇŭ", "എവിടെയാണ്|eviṭeyāṇŭ"] },
+        { "native": "എന്റെ നമ്പർ ഇതാണ്.", "roman": "ende nambar itāṇŭ.", "en": "This is my number." }
+      ]
+    },
+    {
+      "title": "First, second, third",
+      "tip": { "title": "Ordinals: add -ആമത്തെ", "body": "- Number + **-ആമത്തെ** = 'nth': രണ്ട് → **രണ്ടാമത്തെ** 'second', പത്ത് → **പത്താമത്തെ** 'tenth'.\n- It goes before the noun like any describing word: മൂന്നാമത്തെ വീട്.\n- 'First' is very often **ആദ്യത്തെ**.", "pattern": "number + ആമത്തെ + noun", "grammar": 1 },
+      "new": ["ഒന്നാമത്തെ", "രണ്ടാമത്തെ", "മൂന്നാമത്തെ", "നാലാമത്തെ", "അഞ്ചാമത്തെ", "ആറാമത്തെ", "ഏഴാമത്തെ", "എട്ടാമത്തെ", "ഒമ്പതാമത്തെ", "പത്താമത്തെ", "ഇത് എന്റെ ആദ്യത്തെ കേരള യാത്രയാണ്."],
+      "sentences": [
+        { "native": "ഇത് എന്റെ ഒന്നാമത്തെ മലയാളം ക്ലാസ് ആണ്.", "roman": "itŭ ende onnāmatte malayāḷam klās āṇŭ.", "en": "This is my first Malayalam class.", "focus": "ഒന്നാമത്തെ", "wrong": ["ഒന്ന്|onnŭ", "ഒരു|oru"] },
+        { "native": "ഞാൻ രണ്ടാമത്തെ മകൻ ആണ്.", "roman": "ñān raṇḍāmatte makan āṇŭ.", "en": "I'm the second son.", "focus": "രണ്ടാമത്തെ", "wrong": ["രണ്ട്|raṇḍŭ", "രണ്ടും|raṇḍum"] },
+        { "native": "അവളുടെ വീട് മൂന്നാമത്തെ വീട് ആണ്.", "roman": "avaḷuṭe vīṭŭ mūnnāmatte vīṭŭ āṇŭ.", "en": "Hers is the third house.", "focus": "മൂന്നാമത്തെ", "wrong": ["മൂന്ന്|mūnnŭ", "മൂന്നും|mūnnum"] },
+        { "native": "ഞങ്ങളുടെ വീട് നാലാമത്തെ വീട് ആണ്.", "roman": "ñaṅṅaḷuṭe vīṭŭ nālāmatte vīṭŭ āṇŭ.", "en": "Ours is the fourth house.", "focus": "നാലാമത്തെ", "wrong": ["നാല്|nālŭ", "നാലു|nālu"] },
+        { "native": "ഇത് അവന്റെ അഞ്ചാമത്തെ കേരള യാത്രയാണ്.", "roman": "itŭ avande añjāmatte kēraḷa yātrayāṇŭ.", "en": "This is his fifth trip to Kerala.", "focus": "അഞ്ചാമത്തെ", "wrong": ["അഞ്ച്|añjŭ", "അഞ്ചു|añju"] },
+        { "native": "ആറാമത്തെ വീട് അമ്മാവന്റെ വീട് ആണ്.", "roman": "āṟāmatte vīṭŭ ammāvande vīṭŭ āṇŭ.", "en": "The sixth house is my uncle's.", "focus": "ആറാമത്തെ", "wrong": ["ആറ്|āṟŭ", "ആറു|āṟu"] },
+        { "native": "അവൾ ഏഴാമത്തെ കുട്ടി ആണ്.", "roman": "avaḷ ēḻāmatte kuṭṭi āṇŭ.", "en": "She's the seventh child.", "focus": "ഏഴാമത്തെ", "wrong": ["ഏഴ്|ēḻŭ", "ഏഴു|ēḻu"] },
+        { "native": "ഇത് എന്റെ എട്ടാമത്തെ ചായ ആണ്!", "roman": "itŭ ende eṭṭāmatte chāya āṇŭ!", "en": "This is my eighth tea!", "focus": "എട്ടാമത്തെ", "wrong": ["എട്ട്|eṭṭŭ", "എട്ടു|eṭṭu"] },
+        { "native": "ഞാൻ ഒമ്പതാമത്തെ ആൾ ആണ്.", "roman": "ñān ombatāmatte āḷ āṇŭ.", "en": "I'm ninth in line.", "focus": "ഒമ്പതാമത്തെ", "wrong": ["ഒമ്പത്|ombatŭ", "ഒമ്പതു|ombatu"] },
+        { "native": "ഇത് പത്താമത്തെ വീട് ആണോ?", "roman": "itŭ pattāmatte vīṭŭ āṇō?", "en": "Is this the tenth house?", "focus": "പത്താമത്തെ", "wrong": ["പത്ത്|pattŭ", "പത്തു|pattu"] },
+        { "native": "ഇത് നിങ്ങളുടെ ആദ്യത്തെ കേരള യാത്രയാണോ?", "roman": "itŭ niṅṅaḷuṭe ādyatte kēraḷa yātrayāṇō?", "en": "Is this your first trip to Kerala?", "focus": "ആദ്യത്തെ", "wrong": ["ഒന്ന്|onnŭ", "ഒരു|oru"] }
+      ]
+    },
+    {
+      "title": "A little, a lot, only",
+      "tip": { "title": "How much: little, lots, only", "body": "- **കുറച്ച്** a little · **ഒരുപാട്** a lot (casual) · **ധാരാളം** plenty · **കൂടുതൽ** more / too much.\n- **മാത്രം** 'only' comes **after** the word: ഒരു ചേട്ടൻ **മാത്രം** 'only one elder brother'.\n- With ആണ്, കൂടുതൽ and കുറവ് fuse: **കൂടുതലാണ്**, **കുറവാണ്**." },
+      "new": ["കുറച്ച്", "ഒരുപാട്", "ധാരാളം", "കൂടുതൽ", "കുറവ്", "പകുതി", "ഇരട്ടി", "മാത്രം", "കുറച്ച് മാത്രം."],
+      "sentences": [
+        { "native": "എനിക്ക് ഒരു ചേട്ടൻ മാത്രം ഉണ്ട്.", "roman": "enikkŭ oru chēṭṭan mātram uṇḍŭ.", "en": "I only have one elder brother.", "focus": "മാത്രം", "wrong": ["കുറച്ച്|kuṟacchŭ", "കൂടുതൽ|kūṭutal"] },
+        { "native": "അവന് ഒരുപാട് കൂട്ടുകാർ ഉണ്ട്.", "roman": "avanŭ orupāṭŭ kūṭṭukār uṇḍŭ.", "en": "He has loads of friends.", "focus": "ഒരുപാട്", "wrong": ["കുറവ്|kuṟavŭ", "പകുതി|pakuti"] },
+        { "native": "തൃശ്ശൂരിൽ ധാരാളം ബന്ധുക്കൾ ഉണ്ട്.", "roman": "Trushshūril dhārāḷam bandhukkaḷ uṇḍŭ.", "en": "We've got plenty of relatives in Thrissur." },
+        { "native": "ചായ കുറച്ച് മതി.", "roman": "chāya kuṟacchŭ mati.", "en": "Just a little tea, please.", "focus": "കുറച്ച്", "wrong": ["കൂടുതൽ|kūṭutal", "ഇരട്ടി|iraṭṭi"] },
+        { "native": "ഇത് കൂടുതൽ ആണ്.", "roman": "itŭ kūṭutal āṇŭ.", "en": "This is too much.", "focus": "കൂടുതൽ", "wrong": ["കുറവ്|kuṟavŭ", "മാത്രം|mātram"] },
+        { "native": "പകുതി മതി.", "roman": "pakuti mati.", "en": "Half is enough.", "focus": "പകുതി", "wrong": ["ഇരട്ടി|iraṭṭi", "ഒരുപാട്|orupāṭŭ"] },
+        { "native": "ചേട്ടന് എന്റെ ഇരട്ടി കൂട്ടുകാർ ഉണ്ട്.", "roman": "chēṭṭanŭ ende iraṭṭi kūṭṭukār uṇḍŭ.", "en": "My brother has twice as many friends as me." },
+        { "native": "ഇത് അര കിലോ കുറവാണ്.", "roman": "itŭ ara kilō kuṟavāṇŭ.", "en": "This is half a kilo short.", "focus": "കുറവാണ്", "wrong": ["കൂടുതലാണ്|kūṭutalāṇŭ", "കുറവ്|kuṟavŭ"] }
+      ]
+    },
+    {
+      "title": "All of them, altogether",
+      "tip": { "title": "-ഉം on a number: \"all of them\"", "body": "- Add **-ഉം** to a number: രണ്ട് → **രണ്ടും** 'both', മൂന്നു പേരും 'all three (people)'.\n- **എല്ലാം** everything · **എല്ലാവരും** everyone · **ആകെ** in total.\n- **ഒന്ന്** before a verb softens a request: ഒന്ന് എണ്ണി നോക്കൂ 'just count them'.", "pattern": "രണ്ടും · മൂന്നു പേരും · എല്ലാവരും", "grammar": 0 },
+      "new": ["എല്ലാം", "എല്ലാവരും", "ആകെ", "എണ്ണുക", "ആകെ എത്രയായി?", "എല്ലാവരും വന്നോ?", "രണ്ടും വേണ്ട, ഒന്ന് മതി.", "ഒന്ന് എണ്ണി നോക്കൂ."],
+      "sentences": [
+        { "native": "ഞങ്ങൾ എല്ലാവരും ഇവിടെ ഉണ്ട്.", "roman": "ñaṅṅaḷ ellāvarum iviṭe uṇḍŭ.", "en": "We're all here.", "focus": "എല്ലാവരും", "wrong": ["എല്ലാം|ellām", "ആകെ|āke"] },
+        { "native": "എല്ലാം ശരിയാണോ?", "roman": "ellām shariyāṇō?", "en": "Is everything OK?", "focus": "എല്ലാം", "wrong": ["എല്ലാവരും|ellāvarum", "ആകെ|āke"] },
+        { "native": "രണ്ടും നല്ലതാണ്.", "roman": "raṇḍum nallatāṇŭ.", "en": "Both are good.", "focus": "രണ്ടും", "wrong": ["രണ്ട്|raṇḍŭ", "രണ്ടാമത്തെ|raṇḍāmatte"] },
+        { "native": "ആകെ എത്ര പേർ ഉണ്ട്?", "roman": "āke etra pēr uṇḍŭ?", "en": "How many people are there in total?", "focus": "ആകെ", "wrong": ["എല്ലാം|ellām", "മാത്രം|mātram"] },
+        { "native": "ആകെ പത്തു പേർ.", "roman": "āke pattu pēr.", "en": "Ten people altogether." },
+        { "native": "മൂന്നു പേരും എന്റെ മക്കൾ ആണ്.", "roman": "mūnnu pērum ende makkaḷ āṇŭ.", "en": "All three are my children.", "focus": "പേരും", "wrong": ["പേർ|pēr", "പേര്|pērŭ"] },
+        { "native": "കുട്ടികൾ എല്ലാവരും വന്നോ?", "roman": "kuṭṭikaḷ ellāvarum vannō?", "en": "Have all the kids come?", "focus": "എല്ലാവരും", "wrong": ["എല്ലാം|ellām", "ആകെ|āke"] },
+        { "native": "ഞാൻ എണ്ണി നോക്കാം.", "roman": "ñān eṇṇi nōkkām.", "en": "I'll count them and check." }
+      ]
+    }
+  ]
 }

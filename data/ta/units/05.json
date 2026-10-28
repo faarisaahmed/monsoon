@@ -86,5 +86,84 @@
       { "speaker": "Karthik", "native": "சாப்பிட்டாச்சா? பில் குடுங்க!", "roman": "sāppiṭṭācchā? bil kuḍunga!", "en": "Finished eating? The bill, please!" }
     ]
   },
-  "culture": "Traditional meals are eaten with the right hand, often from a banana leaf (வாழை இலை). Hosts will keep serving you; say போதும் 'enough' firmly — and folding the leaf towards you signals you have finished and enjoyed the meal. Filter coffee is served in a tumbler and dabarah (டபரா) and 'pulled' between the two to cool and froth it. Many Tamil homes and restaurants are vegetarian (சைவம்); a 'military hotel' is, oddly, a non-vegetarian restaurant."
+  "culture": "Traditional meals are eaten with the right hand, often from a banana leaf (வாழை இலை). Hosts will keep serving you; say போதும் 'enough' firmly — and folding the leaf towards you signals you have finished and enjoyed the meal. Filter coffee is served in a tumbler and dabarah (டபரா) and 'pulled' between the two to cool and froth it. Many Tamil homes and restaurants are vegetarian (சைவம்); a 'military hotel' is, oddly, a non-vegetarian restaurant.",
+  "lessons": [
+    {
+      "title": "Ordering breakfast",
+      "tip": { "title": "Name it, then குடுங்க", "body": "- Name what you want and add **குடுங்க** 'please give': ரெண்டு இட்லி **குடுங்க**.\n- **கொஞ்சம்** softens it: கொஞ்சம் சாம்பார் குடுங்க.\n- Ask what's available with **இருக்கா?** → **இருக்கு** 'there is' / **இல்ல** 'there isn't'.\n- Bare **குடு** is how you talk to a child.", "pattern": "item + குடுங்க  ·  item + இருக்கா?", "grammar": 1 },
+      "new": ["இட்லி", "தோசை", "சாம்பார்", "டிஃபன்", "காபி", "டீ", "சாப்பாடு", "ரெண்டு இட்லி, ஒரு தோசை குடுங்க.", "சாப்பாடு இருக்கா?"],
+      "sentences": [
+        { "native": "ரெண்டு தோசை குடுங்க.", "roman": "reṇḍu dōsai kuḍunga.", "en": "Two dosas, please.", "focus": "குடுங்க", "wrong": ["குடு|kuḍu", "இருக்கா|irukkā"] },
+        { "native": "இட்லி இருக்கா?", "roman": "iḍli irukkā?", "en": "Is there any idli?", "focus": "இருக்கா", "wrong": ["இருக்கு|irukku", "குடுங்க|kuḍunga"] },
+        { "native": "இருக்கு சார், எத்தன வேணும்?", "roman": "irukku sār, ettana vēṇum?", "en": "Yes sir, how many would you like?", "focus": "இருக்கு", "wrong": ["இருக்கா|irukkā", "இல்ல|illa"] },
+        { "native": "தோசை இல்ல, இட்லி மட்டும் இருக்கு.", "roman": "dōsai illa, iḍli maṭṭum irukku.", "en": "There's no dosa, only idli.", "focus": "இல்ல", "wrong": ["இருக்கு|irukku", "இருக்கா|irukkā"] },
+        { "native": "கொஞ்சம் சாம்பார் குடுங்க.", "roman": "konjam sāmbār kuḍunga.", "en": "A bit of sambar, please.", "focus": "குடுங்க", "wrong": ["குடு|kuḍu", "இருக்கா|irukkā"] },
+        { "native": "அண்ணா, ரெண்டு காபி குடுங்க.", "roman": "aṇṇā, reṇḍu kāpi kuḍunga.", "en": "Two coffees, please (brother).", "focus": "குடுங்க", "wrong": ["குடு|kuḍu", "இல்ல|illa"] },
+        { "native": "சாப்பாடு இல்ல, டிஃபன் மட்டும்.", "roman": "sāppāḍu illa, ṭifan maṭṭum.", "en": "No meals, only tiffin." },
+        { "native": "டீ இருக்கா, காபி மட்டுமா?", "roman": "ṭī irukkā, kāpi maṭṭumā?", "en": "Is there tea, or only coffee?" }
+      ]
+    },
+    {
+      "title": "What would you like?",
+      "tip": { "title": "'I want' is 'to me … is wanted'", "body": "- The person who wants goes in the dative: **எனக்கு** ஒரு காபி **வேணும்** 'I want a coffee'.\n- வேணும் never changes: உங்களுக்கு வேணும், அவருக்கு வேணும்.\n- Don't want: **வேணாம்**. Question: **வேணுமா?**\n- 'Do you drink…?' uses குடி: காபி **குடிப்பீங்களா?**", "pattern": "எனக்கு + thing + வேணும் / வேணாம்", "grammar": 0 },
+      "new": ["வேண்டும்", "தண்ணீர்", "பால்", "குடி", "சர்க்கரை", "எனக்கு ஒரு காபி வேணும்.", "தண்ணி குடுங்க.", "போதும், போதும்!"],
+      "sentences": [
+        { "native": "எனக்கு ஒரு டீ வேணும்.", "roman": "enakku oru ṭī vēṇum.", "en": "I'd like a tea.", "focus": "வேணும்", "wrong": ["வேணாம்|vēṇām", "குடுங்க|kuḍunga"] },
+        { "native": "உங்களுக்குக் காபி வேணுமா?", "roman": "ungaḷukkuk kāpi vēṇumā?", "en": "Would you like a coffee?", "focus": "வேணுமா", "wrong": ["வேணும்|vēṇum", "வேணாம்|vēṇām"] },
+        { "native": "காபியில சர்க்கரை வேணாம்.", "roman": "kāpiyila sarkkarai vēṇām.", "en": "No sugar in my coffee, please.", "focus": "வேணாம்", "wrong": ["வேணும்|vēṇum", "வேணுமா|vēṇumā"] },
+        { "native": "எனக்குத் தண்ணி வேணும்.", "roman": "enakkut taṇṇi vēṇum.", "en": "I need some water.", "focus": "எனக்குத்", "wrong": ["நான்|nān", "என்|en"] },
+        { "native": "குழந்தைக்குப் பால் வேணும்.", "roman": "kuḻandaikkup pāl vēṇum.", "en": "The baby needs milk.", "focus": "குழந்தைக்குப்", "wrong": ["குழந்தை|kuḻandai", "குழந்தையோட|kuḻandaiyōḍa"] },
+        { "native": "கொஞ்சம் பால் வேணுமா?", "roman": "konjam pāl vēṇumā?", "en": "Would you like a little milk?", "focus": "வேணுமா", "wrong": ["வேணும்|vēṇum", "வேணாம்|vēṇām"] },
+        { "native": "நீங்க காபி குடிப்பீங்களா?", "roman": "nīnga kāpi kuḍippīngaḷā?", "en": "Do you drink coffee?", "focus": "குடிப்பீங்களா", "wrong": ["குடிப்பேனா|kuḍippēnā", "குடிங்க|kuḍinga"] },
+        { "native": "இல்ல, நான் டீ குடிப்பேன்.", "roman": "illa, nān ṭī kuḍippēn.", "en": "No, I drink tea.", "focus": "குடிப்பேன்", "wrong": ["குடிப்பீங்க|kuḍippīnga", "குடிங்க|kuḍinga"] },
+        { "native": "போதும், நன்றி!", "roman": "pōdum, nandri!", "en": "That's enough, thank you!" }
+      ]
+    },
+    {
+      "title": "What you like and don’t like",
+      "tip": { "title": "'I like' is 'to me … is pleasing'", "body": "- Same pattern as வேணும்: **எனக்கு** தோசை **பிடிக்கும்** 'I like dosa'.\n- Don't like: **பிடிக்காது**. Question: **பிடிக்குமா?**\n- The person always takes **-க்கு**: அவருக்கு, குழந்தைக்கு. Never say நான் பிடிக்கும்.\n- ரொம்பப் பிடிக்கும் = 'I really like / love'.", "pattern": "எனக்கு + thing + பிடிக்கும் / பிடிக்காது", "grammar": 0 },
+      "new": ["பிடிக்கும்", "மீன்", "கோழிக்கறி", "முட்டை", "இனிப்பு", "எனக்குத் தோசை ரொம்பப் பிடிக்கும்.", "எனக்கு மீன் பிடிக்காது."],
+      "sentences": [
+        { "native": "எனக்கு இட்லி பிடிக்கும்.", "roman": "enakku iḍli piḍikkum.", "en": "I like idli.", "focus": "பிடிக்கும்", "wrong": ["பிடிக்காது|piḍikkādu", "வேணும்|vēṇum"] },
+        { "native": "உங்களுக்கு மீன் பிடிக்குமா?", "roman": "ungaḷukku mīn piḍikkumā?", "en": "Do you like fish?", "focus": "பிடிக்குமா", "wrong": ["பிடிக்கும்|piḍikkum", "பிடிக்காது|piḍikkādu"] },
+        { "native": "எனக்கு முட்டை பிடிக்காது.", "roman": "enakku muṭṭai piḍikkādu.", "en": "I don't like eggs.", "focus": "பிடிக்காது", "wrong": ["பிடிக்கும்|piḍikkum", "வேணாம்|vēṇām"] },
+        { "native": "அவருக்குக் கோழிக்கறி ரொம்பப் பிடிக்கும்.", "roman": "avarukkuk kōḻikkari rombap piḍikkum.", "en": "He loves chicken.", "focus": "அவருக்குக்", "wrong": ["அவரு|avaru", "அவரோட|avarōḍa"] },
+        { "native": "குழந்தைங்களுக்கு இனிப்பு பிடிக்கும்.", "roman": "kuḻandaingaḷukku inippu piḍikkum.", "en": "Children like sweets.", "focus": "குழந்தைங்களுக்கு", "wrong": ["குழந்தைங்க|kuḻandainga", "குழந்தைங்களோட|kuḻandaingaḷōḍa"] },
+        { "native": "உங்களுக்கு என்ன பிடிக்கும்?", "roman": "ungaḷukku enna piḍikkum?", "en": "What do you like?", "focus": "பிடிக்கும்", "wrong": ["பிடிக்காது|piḍikkādu", "பிடிக்குமா|piḍikkumā"] },
+        { "native": "முட்டை தோசை இருக்கா?", "roman": "muṭṭai dōsai irukkā?", "en": "Is there egg dosa?" }
+      ]
+    },
+    {
+      "title": "Hungry? Time to eat",
+      "tip": { "title": "Eating, drinking and hunger", "body": "- **சாப்பிடு** 'eat' is also used for coffee, tea and tablets: காபி சாப்பிடுறீங்களா?\n- Inviting someone: **சாப்பிடுங்க** 'please eat'.\n- Hunger is dative too: **எனக்குப் பசிக்குது** 'I'm hungry'; **பசிக்குதா?** 'are you hungry?'", "pattern": "எனக்குப் பசிக்குது  ·  சாப்பிடுங்க" },
+      "new": ["சாப்பிடு", "பசி", "சாதம்", "அரிசி", "ரசம்", "காய்கறி", "பழம்", "எனக்குப் பசிக்குது."],
+      "sentences": [
+        { "native": "உங்களுக்குப் பசிக்குதா?", "roman": "ungaḷukkup pasikkudā?", "en": "Are you hungry?", "focus": "பசிக்குதா", "wrong": ["பசிக்குது|pasikkudu", "பிடிக்குமா|piḍikkumā"] },
+        { "native": "ஆமா, ரொம்பப் பசிக்குது.", "roman": "āmā, rombap pasikkudu.", "en": "Yes, I'm very hungry.", "focus": "பசிக்குது", "wrong": ["பிடிக்கும்|piḍikkum", "வேணும்|vēṇum"] },
+        { "native": "வாங்க, சாப்பிடுங்க!", "roman": "vānga, sāppiḍunga!", "en": "Come and eat!", "focus": "சாப்பிடுங்க", "wrong": ["சாப்பிட்டேன்|sāppiṭṭēn", "குடிங்க|kuḍinga"] },
+        { "native": "சாதம், சாம்பார், ரசம் எல்லாம் இருக்கு.", "roman": "sādam, sāmbār, rasam ellām irukku.", "en": "There's rice, sambar, rasam, everything." },
+        { "native": "எனக்குக் கொஞ்சம் சாதம் போதும்.", "roman": "enakkuk konjam sādam pōdum.", "en": "A little rice is enough for me." },
+        { "native": "கொஞ்சம் ரசம் சாப்பிடுங்க.", "roman": "konjam rasam sāppiḍunga.", "en": "Have a little rasam.", "focus": "சாப்பிடுங்க", "wrong": ["சாப்பிட்டேன்|sāppiṭṭēn", "சாப்பிட்டீங்களா|sāppiṭṭīngaḷā"] },
+        { "native": "காய்கறி, பழம் நிறைய சாப்பிடுங்க.", "roman": "kāykari, paḻam niraiya sāppiḍunga.", "en": "Eat plenty of vegetables and fruit.", "focus": "சாப்பிடுங்க", "wrong": ["சாப்பிட்டேன்|sāppiṭṭēn", "குடிங்க|kuḍinga"] },
+        { "native": "ஒரு கிலோ அரிசி எவ்வளவு?", "roman": "oru kilō arisi evvaḷavu?", "en": "How much is a kilo of rice?" },
+        { "native": "காபி சாப்பிடுறீங்களா?", "roman": "kāpi sāppiḍurīngaḷā?", "en": "Will you have a coffee?", "focus": "சாப்பிடுறீங்களா", "wrong": ["சாப்பிடுறேனா|sāppiḍurēnā", "சாப்பிடுங்க|sāppiḍunga"] }
+      ]
+    },
+    {
+      "title": "Veg, spice and the bill",
+      "tip": { "title": "Talking about the food", "body": "- **நான் சைவம்** 'I'm vegetarian'; non-veg is **அசைவம்**.\n- Describe taste with **-ஆ இருக்கு**: காரம் → **காரமா** இருக்கு 'it's spicy', ருசி → **ருசியா** இருக்கு 'it's tasty', கம்மி → **கம்மியா** 'too little'.\n- Ask for less spice: காரம் கம்மியா போடுங்க. Then: **பில் குடுங்க**.", "pattern": "noun-ஆ + இருக்கு" },
+      "new": ["சைவம்", "அசைவம்", "காரம்", "உப்பு", "காரம் கம்மியா போடுங்க.", "நான் சைவம்.", "ரொம்ப ருசியா இருக்கு!", "பில் குடுங்க."],
+      "sentences": [
+        { "native": "நீங்க சைவமா, அசைவமா?", "roman": "nīnga saivamā, asaivamā?", "en": "Are you vegetarian or non-vegetarian?" },
+        { "native": "நான் அசைவம், எனக்கு மீன் பிடிக்கும்.", "roman": "nān asaivam, enakku mīn piḍikkum.", "en": "I eat non-veg; I like fish." },
+        { "native": "இங்க சைவ சாப்பாடு இருக்கா?", "roman": "inga saiva sāppāḍu irukkā?", "en": "Are there vegetarian meals here?", "focus": "இருக்கா", "wrong": ["இருக்கு|irukku", "குடுங்க|kuḍunga"] },
+        { "native": "உப்பு கொஞ்சம் கம்மியா இருக்கு.", "roman": "uppu konjam kammiyā irukku.", "en": "It needs a little more salt.", "focus": "கம்மியா", "wrong": ["ஜாஸ்தியா|jāstiyā", "ருசியா|rusiyā"] },
+        { "native": "ரொம்பக் காரமா இருக்கு!", "roman": "rombak kāramā irukku!", "en": "It's very spicy!", "focus": "காரமா", "wrong": ["கம்மியா|kammiyā", "ருசியா|rusiyā"] },
+        { "native": "சாம்பார் ரொம்ப ருசியா இருக்கு.", "roman": "sāmbār romba rusiyā irukku.", "en": "The sambar is really tasty.", "focus": "ருசியா", "wrong": ["காரமா|kāramā", "கம்மியா|kammiyā"] },
+        { "native": "எனக்குக் காரம் பிடிக்காது.", "roman": "enakkuk kāram piḍikkādu.", "en": "I don't like spicy food.", "focus": "பிடிக்காது", "wrong": ["பிடிக்கும்|piḍikkum", "பசிக்குது|pasikkudu"] },
+        { "native": "அண்ணா, பில் குடுங்க.", "roman": "aṇṇā, bil kuḍunga.", "en": "The bill, please (brother).", "focus": "குடுங்க", "wrong": ["குடு|kuḍu", "இருக்கா|irukkā"] },
+        { "native": "கொஞ்சம் உப்பு குடுங்க.", "roman": "konjam uppu kuḍunga.", "en": "Could I have a little salt, please?" }
+      ]
+    }
+  ]
 }

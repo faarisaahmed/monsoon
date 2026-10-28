@@ -97,5 +97,83 @@
       { "speaker": "Sarah", "native": "சரி. சாவி எப்போ குடுப்பீங்க?", "roman": "sari. sāvi eppō kuḍuppīnga?", "en": "OK. When will you give me the key?" }
     ]
   },
-  "culture": "Shoes and sandals are taken off before entering a Tamil home (and always before temples). Many homes have a kōlam (கோலம்) — a pattern drawn in rice flour at the threshold each morning. The 'hall' is the usual word for the main living room, and most houses have a pūjai corner or room (பூஜை அறை) for worship."
+  "culture": "Shoes and sandals are taken off before entering a Tamil home (and always before temples). Many homes have a kōlam (கோலம்) — a pattern drawn in rice flour at the threshold each morning. The 'hall' is the usual word for the main living room, and most houses have a pūjai corner or room (பூஜை அறை) for worship.",
+  "lessons": [
+    {
+      "title": "Rooms of the house",
+      "tip": { "title": "'In, at': add -ல", "body": "- Spoken Tamil adds **-ல** for 'in, at' (written -இல்): ரூம்**ல**, ஊர்**ல**.\n- After a vowel a glide appears: மாடி**யில**, சென்னை**யில**.\n- வீடு doubles its ட: **வீட்டுல** 'at home'. The same stem takes -க்கு 'to': வீட்டுக்கு.\n- Don't mix up **-ல** 'in' and **-க்கு** 'to'.", "pattern": "place + ல + இருக்கு / இருக்கேன்", "grammar": 0 },
+      "new": ["வீடு", "அறை", "சமையலறை", "படுக்கையறை", "குளியலறை", "மாடி", "அவரு மாடியில இருக்காரு.", "பாத்ரூம் எங்க இருக்கு?"],
+      "sentences": [
+        { "native": "நான் இப்போ சமையல் ரூம்ல இருக்கேன்.", "roman": "nān ippō samaiyal rūmla irukkēn.", "en": "I'm in the kitchen now.", "focus": "ரூம்ல", "wrong": ["ரூம்|rūm", "ரூமுக்கு|rūmukku"] },
+        { "native": "அப்பா பெட்ரூம்ல இருக்காரு.", "roman": "appā beḍrūmla irukkāru.", "en": "Dad's in the bedroom.", "focus": "பெட்ரூம்ல", "wrong": ["பெட்ரூம்|beḍrūm", "பெட்ரூமுக்கு|beḍrūmukku"] },
+        { "native": "நீங்க வீட்டுல இருக்கீங்களா?", "roman": "nīnga vīṭṭula irukkīngaḷā?", "en": "Are you at home?", "focus": "வீட்டுல", "wrong": ["வீடு|vīḍu", "வீட்டுக்கு|vīṭṭukku"] },
+        { "native": "தம்பி மாடியில இருக்கான்.", "roman": "tambi māḍiyila irukkān.", "en": "My younger brother is upstairs.", "focus": "மாடியில", "wrong": ["மாடி|māḍi", "மாடிக்கு|māḍikku"] },
+        { "native": "பாத்ரூம் மாடியில இருக்கு.", "roman": "bātrūm māḍiyila irukku.", "en": "The bathroom is upstairs.", "focus": "மாடியில", "wrong": ["மாடிக்கு|māḍikku", "மாடி|māḍi"] },
+        { "native": "அவங்க ஊர்ல இருக்காங்க.", "roman": "avanga ūrla irukkānga.", "en": "She's in her home town.", "focus": "ஊர்ல", "wrong": ["ஊரு|ūru", "ஊருக்கு|ūrukku"] },
+        { "native": "இது என் அறை.", "roman": "idu en arai.", "en": "This is my room." },
+        { "native": "உங்க ரூம் எங்க இருக்கு?", "roman": "unga rūm enga irukku?", "en": "Where is your room?" }
+      ]
+    },
+    {
+      "title": "What there is and isn’t",
+      "tip": { "title": "இருக்கு — there is; இல்ல — there isn’t", "body": "- **இருக்கு** = 'there is / it is (there)': ரூம்ல ஃபேன் **இருக்கு**.\n- Ask with **இருக்கா?** 'is there?'\n- **இல்ல** = 'there isn't / isn't here', for everyone and everything: அப்பா வீட்டுல **இல்ல**.\n- People still get their own ending in the positive: அப்பா இருக்காரு.", "pattern": "place-ல + thing + இருக்கு / இல்ல", "grammar": 2 },
+      "new": ["ஃபேன்", "விளக்கு", "ஜன்னல்", "தொலைக்காட்சி", "உங்க வீட்டுல எத்தன ரூம் இருக்கு?", "எங்க வீட்டுல ரெண்டு பெட்ரூம் இருக்கு.", "இங்க ஃபேன் இல்ல."],
+      "sentences": [
+        { "native": "ஹால்ல டிவி இருக்கா?", "roman": "hālla ṭīvi irukkā?", "en": "Is there a TV in the living room?", "focus": "இருக்கா", "wrong": ["இருக்கு|irukku", "இல்ல|illa"] },
+        { "native": "இல்ல, டிவி இல்ல.", "roman": "illa, ṭīvi illa.", "en": "No, there's no TV.", "focus": "இல்ல", "wrong": ["இருக்கு|irukku", "இருக்கா|irukkā"] },
+        { "native": "இந்த ரூம்ல ஜன்னல் இருக்கு.", "roman": "inda rūmla jannal irukku.", "en": "This room has a window.", "focus": "இருக்கு", "wrong": ["இருக்கா|irukkā", "இருக்காரு|irukkāru"] },
+        { "native": "இங்க லைட் இல்ல.", "roman": "inga laiṭ illa.", "en": "There's no light here.", "focus": "இல்ல", "wrong": ["இருக்கா|irukkā", "இருக்கேன்|irukkēn"] },
+        { "native": "பெட்ரூம்ல ரெண்டு ஜன்னல் இருக்கு.", "roman": "beḍrūmla reṇḍu jannal irukku.", "en": "The bedroom has two windows." },
+        { "native": "அப்பா வீட்டுல இல்ல.", "roman": "appā vīṭṭula illa.", "en": "Dad isn't at home.", "focus": "இல்ல", "wrong": ["இருக்காரு|irukkāru", "இருக்கு|irukku"] },
+        { "native": "எத்தன ஃபேன் இருக்கு?", "roman": "ettana fēn irukku?", "en": "How many fans are there?", "focus": "இருக்கு", "wrong": ["இருக்கா|irukkā", "இல்ல|illa"] },
+        { "native": "விளக்கு எங்க இருக்கு?", "roman": "viḷakku enga irukku?", "en": "Where's the lamp?" }
+      ]
+    },
+    {
+      "title": "On, under: where's my key?",
+      "tip": { "title": "Position words come after the noun", "body": "- 'On the table' is மேசை **மேல** (table on); 'under the bed' is கட்டில் **கீழ** (bed under).\n- Spoken forms: **மேல** (written மேலே), **கீழ** (written கீழே).\n- Then just add இருக்கு: சாவி மேசை மேல இருக்கு.", "pattern": "noun + மேல / கீழ + இருக்கு", "grammar": 1 },
+      "new": ["சாவி", "மேசை", "கட்டில்", "நாற்காலி", "பை", "மேலே", "கீழே", "சாவி எங்க இருக்கு?", "மேசை மேல இருக்கு.", "பை கட்டில் கீழ இருக்கு."],
+      "sentences": [
+        { "native": "சாவி மேசை மேல இல்ல.", "roman": "sāvi mēsai mēla illa.", "en": "The key isn't on the table.", "focus": "மேல", "wrong": ["கீழ|kīḻa", "எங்க|enga"] },
+        { "native": "என் பை எங்க? நாற்காலி மேல இருக்கு.", "roman": "en pai enga? nārkāli mēla irukku.", "en": "Where's my bag? It's on the chair.", "focus": "மேல", "wrong": ["கீழ|kīḻa", "மேசை|mēsai"] },
+        { "native": "சாவி கட்டில் கீழ இருக்கா?", "roman": "sāvi kaṭṭil kīḻa irukkā?", "en": "Is the key under the bed?", "focus": "கீழ", "wrong": ["மேல|mēla", "கட்டில்|kaṭṭil"] },
+        { "native": "பூனை கட்டில் மேல இருக்கு.", "roman": "pūnai kaṭṭil mēla irukku.", "en": "The cat is on the bed.", "focus": "மேல", "wrong": ["கீழ|kīḻa", "மேசை|mēsai"] },
+        { "native": "நாற்காலி மேல உக்காருங்க.", "roman": "nārkāli mēla ukkārunga.", "en": "Please sit on the chair.", "focus": "மேல", "wrong": ["கீழ|kīḻa", "எங்க|enga"] },
+        { "native": "கட்டில் கீழ என்ன இருக்கு?", "roman": "kaṭṭil kīḻa enna irukku?", "en": "What's under the bed?", "focus": "கீழ", "wrong": ["மேல|mēla", "எங்க|enga"] },
+        { "native": "மேசை மேல ஒண்ணும் இல்ல.", "roman": "mēsai mēla oṇṇum illa.", "en": "There's nothing on the table." },
+        { "native": "என் சாவி எங்க போச்சு?", "roman": "en sāvi enga pōcchu?", "en": "Where has my key gone?" }
+      ]
+    },
+    {
+      "title": "Next to, in front, behind",
+      "tip": { "title": "Near, in front, behind, between", "body": "- **பக்கத்துல** 'next to, near' · **முன்னாடி** 'in front of' · **பின்னாடி** 'behind' · **நடுவுல** 'in the middle, between'.\n- They follow the noun: வீட்டு **முன்னாடி** 'in front of the house'.\n- 'Between X and Y': X-க்கும் Y-க்கும் நடுவுல.\n- 'On the floor' is **தரையில**, with -ல.", "pattern": "noun + பக்கத்துல / முன்னாடி / பின்னாடி", "grammar": 1 },
+      "new": ["புத்தகம்", "பாத்திரம்", "சுவர்", "தரை", "பக்கத்தில்", "முன்னால்", "பின்னால்", "நடுவில்"],
+      "sentences": [
+        { "native": "என் வீடு கோவில் பக்கத்துல இருக்கு.", "roman": "en vīḍu kōvil pakkattula irukku.", "en": "My house is next to the temple.", "focus": "பக்கத்துல", "wrong": ["பின்னாடி|pinnāḍi", "மேல|mēla"] },
+        { "native": "அம்மா பக்கத்துல யாரு இருக்காங்க?", "roman": "ammā pakkattula yāru irukkānga?", "en": "Who's next to Mum?", "focus": "பக்கத்துல", "wrong": ["முன்னாடி|munnāḍi", "கீழ|kīḻa"] },
+        { "native": "கடை எங்க வீட்டு முன்னாடி இருக்கு.", "roman": "kaḍai enga vīṭṭu munnāḍi irukku.", "en": "The shop is in front of our house.", "focus": "முன்னாடி", "wrong": ["பின்னாடி|pinnāḍi", "மேல|mēla"] },
+        { "native": "பாத்ரூம் சமையல் ரூம் பின்னாடி இருக்கு.", "roman": "bātrūm samaiyal rūm pinnāḍi irukku.", "en": "The bathroom is behind the kitchen.", "focus": "பின்னாடி", "wrong": ["முன்னாடி|munnāḍi", "கீழ|kīḻa"] },
+        { "native": "புத்தகம் தரையில இருக்கு.", "roman": "puttagam taraiyila irukku.", "en": "The book is on the floor.", "focus": "தரையில", "wrong": ["தரை|tarai", "தரைக்கு|taraikku"] },
+        { "native": "சுவர் பக்கத்துல கட்டில் இருக்கு.", "roman": "suvar pakkattula kaṭṭil irukku.", "en": "The bed is next to the wall.", "focus": "பக்கத்துல", "wrong": ["மேல|mēla", "கீழ|kīḻa"] },
+        { "native": "ரெண்டு ரூமுக்கும் நடுவுல பாத்ரூம் இருக்கு.", "roman": "reṇḍu rūmukkum naḍuvula bātrūm irukku.", "en": "The bathroom is between the two rooms.", "focus": "நடுவுல", "wrong": ["பக்கத்துல|pakkattula", "முன்னாடி|munnāḍi"] },
+        { "native": "அதுக்குப் பின்னாடி என்ன இருக்கு?", "roman": "adukkup pinnāḍi enna irukku?", "en": "What's behind it?" },
+        { "native": "இந்தப் பாத்திரம் ரொம்பப் பெரிசு.", "roman": "indap pāttiram rombap perisu.", "en": "This pot is very big." }
+      ]
+    },
+    {
+      "title": "Doors, lights and sandals",
+      "tip": { "title": "Switch it on, close it: the -ஐ ending", "body": "- The thing you act on takes **-ஐ**: கதவு → **கதவை** சாத்துங்க 'close the door', லைட் → **லைட்டை**.\n- Lights and fans: **போடுங்க** 'switch on', **அணைங்க** 'switch off'.\n- **உள்ள** 'inside' and **வெளிய** 'outside' (written உள்ளே, வெளியே).", "pattern": "thing-ஐ + போடுங்க / அணைங்க / சாத்துங்க" },
+      "new": ["கதவு", "உள்ளே", "வெளியே", "லைட்டைப் போடுங்க.", "ஃபேனை அணைங்க.", "கதவை சாத்துங்க.", "செருப்பை வெளிய விடுங்க."],
+      "sentences": [
+        { "native": "லைட்டை அணைங்க.", "roman": "laiṭṭai aṇainga.", "en": "Switch off the light, please.", "focus": "அணைங்க", "wrong": ["போடுங்க|pōḍunga", "சாத்துங்க|sāttunga"] },
+        { "native": "ஃபேனைப் போடுங்க.", "roman": "fēnaip pōḍunga.", "en": "Switch on the fan, please.", "focus": "போடுங்க", "wrong": ["அணைங்க|aṇainga", "விடுங்க|viḍunga"] },
+        { "native": "டிவியை அணைங்க.", "roman": "ṭīviyai aṇainga.", "en": "Switch off the TV, please.", "focus": "டிவியை", "wrong": ["டிவியில|ṭīviyila", "டிவிக்கு|ṭīvikku"] },
+        { "native": "வெளிய யாரு?", "roman": "veḷiya yāru?", "en": "Who's outside?", "focus": "வெளிய", "wrong": ["உள்ள|uḷḷa", "மேல|mēla"] },
+        { "native": "குழந்தைங்க வெளிய இருக்காங்க.", "roman": "kuḻandainga veḷiya irukkānga.", "en": "The children are outside.", "focus": "வெளிய", "wrong": ["உள்ள|uḷḷa", "கீழ|kīḻa"] },
+        { "native": "பை உள்ள சாவி இருக்கு.", "roman": "pai uḷḷa sāvi irukku.", "en": "The key is inside the bag.", "focus": "உள்ள", "wrong": ["வெளிய|veḷiya", "மேல|mēla"] },
+        { "native": "செருப்பை இங்க விடுங்க.", "roman": "seruppai inga viḍunga.", "en": "Leave your sandals here, please.", "focus": "செருப்பை", "wrong": ["செருப்புக்கு|seruppukku", "செருப்புல|seruppula"] },
+        { "native": "தம்பி, கதவை சாத்து.", "roman": "tambi, kadavai sāttu.", "en": "Shut the door, kiddo." }
+      ]
+    }
+  ]
 }

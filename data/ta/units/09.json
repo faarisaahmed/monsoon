@@ -87,5 +87,92 @@
       { "speaker": "Tom", "native": "சரி டாக்டர், ரொம்ப நன்றி.", "roman": "sari ḍākṭar, romba nandri.", "en": "OK doctor, thank you very much." }
     ]
   },
-  "culture": "Home remedies are widely trusted: ginger-pepper rasam or கஷாயம் (herbal decoction) for colds, turmeric milk for coughs. Siddha, a traditional Tamil system of medicine, is still practised alongside modern medicine. Pharmacies ('medical shops') are everywhere and pharmacists often give advice directly."
+  "culture": "Home remedies are widely trusted: ginger-pepper rasam or கஷாயம் (herbal decoction) for colds, turmeric milk for coughs. Siddha, a traditional Tamil system of medicine, is still practised alongside modern medicine. Pharmacies ('medical shops') are everywhere and pharmacists often give advice directly.",
+  "lessons": [
+    {
+      "title": "Where does it hurt?",
+      "tip": { "title": "'My head hurts' is 'to me head aches'", "body": "- Pain happens **to** you: the person takes **-க்கு** and the body part is the subject: **எனக்குத்** தலை **வலிக்குது**.\n- **வலிக்குது** 'it hurts'; question **வலிக்குதா?**\n- Or make one word: தலை + வலி → **தலைவலி**: அம்மாவுக்குத் தலைவலி 'Mum has a headache'.", "pattern": "X-க்கு + body part + வலிக்குது", "grammar": 0 },
+      "new": ["தலை", "கண்", "காது", "பல்", "வலி", "எனக்குத் தலை வலிக்குது.", "எங்க வலிக்குது?", "இங்க வலிக்குது."],
+      "sentences": [
+        { "native": "எனக்குக் கண்ணு வலிக்குது.", "roman": "enakkuk kaṇṇu valikkudu.", "en": "My eyes hurt.", "focus": "எனக்குக்", "wrong": ["நான்|nān", "நாங்க|nānga"] },
+        { "native": "அவருக்குப் பல் வலிக்குது.", "roman": "avarukkup pal valikkudu.", "en": "He has toothache.", "focus": "அவருக்குப்", "wrong": ["அவரு|avaru", "அவர்|avar"] },
+        { "native": "எனக்குக் காது வலிக்குது.", "roman": "enakkuk kādu valikkudu.", "en": "My ear hurts.", "focus": "வலிக்குது", "wrong": ["வலிக்குதா|valikkudā", "பசிக்குது|pasikkudu"] },
+        { "native": "உங்களுக்குப் பல் வலிக்குதா?", "roman": "ungaḷukkup pal valikkudā?", "en": "Do you have toothache?", "focus": "வலிக்குதா", "wrong": ["வலிக்குது|valikkudu", "வலி|vali"] },
+        { "native": "குழந்தைக்குக் காது வலி.", "roman": "kuḻandaikkuk kādu vali.", "en": "The baby has earache.", "focus": "குழந்தைக்குக்", "wrong": ["குழந்தை|kuḻandai", "குழந்தைங்க|kuḻandainga"] },
+        { "native": "ஐயோ, ரொம்ப வலிக்குது!", "roman": "aiyō, romba valikkudu!", "en": "Ouch, it really hurts!", "focus": "வலிக்குது", "wrong": ["வலி|vali", "வலிக்குதா|valikkudā"] },
+        { "native": "அம்மாவுக்குத் தலைவலி.", "roman": "ammāvukkut talaivali.", "en": "Mum has a headache.", "focus": "அம்மாவுக்குத்", "wrong": ["அம்மா|ammā", "அம்மாவை|ammāvai"] },
+        { "native": "இப்போ தலைவலி இல்ல.", "roman": "ippō talaivali illa.", "en": "I don't have a headache any more." }
+      ]
+    },
+    {
+      "title": "Hands, legs, back and stomach",
+      "tip": { "title": "Body words in speech", "body": "- Many get an extra **-உ** in speech: கண் → **கண்ணு**, பல் → **பல்லு**.\n- வயிறு becomes **வயித்து-** before another word or ending: **வயித்து வலி** 'stomach ache'.\n- **கை** is hand and arm; **கால்** is leg and foot.\n- 'Both legs' = ரெண்டு **காலும்**." },
+      "new": ["கை", "கால்", "வயிறு", "முதுகு", "நெஞ்சு", "மூக்கு", "வாய்", "தலைமுடி", "எனக்கு வயித்து வலி."],
+      "sentences": [
+        { "native": "எனக்கு முதுகு வலிக்குது.", "roman": "enakku mudugu valikkudu.", "en": "My back hurts.", "focus": "முதுகு", "wrong": ["வயிறு|vayiru", "நெஞ்சு|nenju"] },
+        { "native": "குழந்தைக்கு வயித்து வலி.", "roman": "kuḻandaikku vayittu vali.", "en": "The child has a stomach ache.", "focus": "வயித்து", "wrong": ["வயிறு|vayiru", "வயித்துல|vayittula"] },
+        { "native": "ரெண்டு காலும் வலிக்குது.", "roman": "reṇḍu kālum valikkudu.", "en": "Both my legs hurt.", "focus": "காலும்", "wrong": ["கையும்|kaiyum", "கண்ணும்|kaṇṇum"] },
+        { "native": "அவருக்குக் கை வலிக்குது.", "roman": "avarukkuk kai valikkudu.", "en": "His arm hurts.", "focus": "கை", "wrong": ["கால்|kāl", "காது|kādu"] },
+        { "native": "நெஞ்சு வலிக்குதா?", "roman": "nenju valikkudā?", "en": "Do you have chest pain?", "focus": "நெஞ்சு", "wrong": ["முதுகு|mudugu", "வயிறு|vayiru"] },
+        { "native": "அவனுக்கு மூக்கு ரொம்ப நீளம்.", "roman": "avanukku mūkku romba nīḷam.", "en": "He has a very long nose.", "focus": "மூக்கு", "wrong": ["வாய்|vāy", "காது|kādu"] },
+        { "native": "அவளுக்கு நீளமான தலைமுடி.", "roman": "avaḷukku nīḷamāna talaimuḍi.", "en": "She has long hair." },
+        { "native": "குழந்தை வாயில என்ன இருக்கு?", "roman": "kuḻandai vāyila enna irukku?", "en": "What's in the baby's mouth?", "focus": "வாயில", "wrong": ["வாய்|vāy", "வாய்க்கு|vāykku"] }
+      ]
+    },
+    {
+      "title": "Fever, cold and cough",
+      "tip": { "title": "Saying you are ill", "body": "- 'I'm not well' = **உடம்பு சரியில்ல** (lit. 'the body isn't right').\n- Illnesses use the dative too: **எனக்குக் காய்ச்சல்** 'I have a fever', அவனுக்கு **இருமல்**. Add **இருக்கு** if you like.\n- 'For three days' = மூணு **நாளா**.", "pattern": "X-க்கு + illness (+ இருக்கு)", "grammar": 0 },
+      "new": ["காய்ச்சல்", "இருமல்", "சளி", "தும்மல்", "வாந்தி", "உடம்பு", "நோய்", "எனக்கு உடம்பு சரியில்ல.", "எனக்குக் காய்ச்சல் இருக்கு."],
+      "sentences": [
+        { "native": "அப்பாவுக்கு உடம்பு சரியில்ல.", "roman": "appāvukku uḍambu sariyilla.", "en": "Dad isn't well.", "focus": "அப்பாவுக்கு", "wrong": ["அப்பா|appā", "அப்பாவை|appāvai"] },
+        { "native": "உங்களுக்குக் காய்ச்சல் இருக்கா?", "roman": "ungaḷukkuk kāycchal irukkā?", "en": "Do you have a fever?", "focus": "இருக்கா", "wrong": ["இருக்கு|irukku", "இருக்கேன்|irukkēn"] },
+        { "native": "எனக்கு மூணு நாளா இருமல்.", "roman": "enakku mūṇu nāḷā irumal.", "en": "I've had a cough for three days.", "focus": "நாளா", "wrong": ["நாள்|nāḷ", "நாளைக்கு|nāḷaikku"] },
+        { "native": "அவனுக்கு சளி, தும்மல் எல்லாம் இருக்கு.", "roman": "avanukku saḷi, tummal ellām irukku.", "en": "He's got a cold, sneezing, the lot." },
+        { "native": "குழந்தைக்கு வாந்தி வருது.", "roman": "kuḻandaikku vāndi varudu.", "en": "The baby is being sick.", "focus": "வருது", "wrong": ["வர்றேன்|varrēn", "இருக்கேன்|irukkēn"] },
+        { "native": "இப்போ காய்ச்சல் இல்ல.", "roman": "ippō kāycchal illa.", "en": "No fever now.", "focus": "இல்ல", "wrong": ["இருக்கா|irukkā", "இருக்கேன்|irukkēn"] },
+        { "native": "இது பெரிய நோய் இல்ல.", "roman": "idu periya nōy illa.", "en": "It isn't a serious illness." },
+        { "native": "உடம்பு எப்படி இருக்கு?", "roman": "uḍambu eppaḍi irukku?", "en": "How are you feeling?", "focus": "இருக்கு", "wrong": ["இருக்கீங்க|irukkīnga", "இருக்கேன்|irukkēn"] }
+      ]
+    },
+    {
+      "title": "At the doctor's",
+      "tip": { "title": "Should, don't, mustn't", "body": "- 'Should / must': verb + **-ணும்**: சாப்பிட**ணும்**, எடுக்**கணும்**, பாக்**கணும்**. Same for everyone.\n- Polite 'don't': **-ஆதீங்க**: குடிக்**காதீங்க**, போ**காதீங்க**.\n- 'Mustn't' (a rule): **-க்கூடாது**: சாப்பிட**க்கூடாது**.", "pattern": "verb-ணும்  ·  verb-ஆதீங்க  ·  verb-க்கூடாது", "grammar": 1 },
+      "new": [
+        "மருத்துவர்",
+        "மருந்து",
+        "மாத்திரை",
+        "ஓய்வு",
+        "டாக்டரைப் பாக்கணும்.",
+        "இந்த மாத்திரையை ஒரு நாளைக்கு ரெண்டு தடவை சாப்பிடுங்க.",
+        "நல்லா ஓய்வு எடுங்க."
+      ],
+      "sentences": [
+        { "native": "நீங்க டாக்டரைப் பாக்கணும்.", "roman": "nīnga ḍākṭaraip pākkaṇum.", "en": "You should see a doctor.", "focus": "பாக்கணும்", "wrong": ["பாருங்க|pārunga", "பாக்காதீங்க|pākkādīnga"] },
+        { "native": "இந்த மருந்து குடிக்கணும்.", "roman": "inda marundu kuḍikkaṇum.", "en": "You have to drink this medicine.", "focus": "குடிக்கணும்", "wrong": ["குடிக்காதீங்க|kuḍikkādīnga", "குடிக்கக்கூடாது|kuḍikkakkūḍādu"] },
+        { "native": "சாப்பாட்டுக்கு முன்னாடி மாத்திரை சாப்பிடணும்.", "roman": "sāppāṭṭukku munnāḍi māttirai sāppiḍaṇum.", "en": "Take the tablet before meals.", "focus": "சாப்பிடணும்", "wrong": ["சாப்பிடாதீங்க|sāppiḍādīnga", "சாப்பிட்டேன்|sāppiṭṭēn"] },
+        { "native": "ரெண்டு நாள் ஓய்வு எடுக்கணும்.", "roman": "reṇḍu nāḷ ōyvu eḍukkaṇum.", "en": "You need to rest for two days.", "focus": "எடுக்கணும்", "wrong": ["எடுக்காதீங்க|eḍukkādīnga", "எடுக்கக்கூடாது|eḍukkakkūḍādu"] },
+        { "native": "காபி குடிக்காதீங்க.", "roman": "kāpi kuḍikkādīnga.", "en": "Don't drink coffee.", "focus": "குடிக்காதீங்க", "wrong": ["குடிக்கணும்|kuḍikkaṇum", "குடிங்க|kuḍinga"] },
+        { "native": "இனிப்பு சாப்பிடக்கூடாது.", "roman": "inippu sāppiḍakkūḍādu.", "en": "You mustn't eat sweets.", "focus": "சாப்பிடக்கூடாது", "wrong": ["சாப்பிடணும்|sāppiḍaṇum", "சாப்பிடுங்க|sāppiḍunga"] },
+        { "native": "டாக்டர், எத்தன மாத்திரை சாப்பிடணும்?", "roman": "ḍākṭar, ettana māttirai sāppiḍaṇum?", "en": "Doctor, how many tablets should I take?", "focus": "சாப்பிடணும்", "wrong": ["சாப்பிடாதீங்க|sāppiḍādīnga", "சாப்பிட்டேன்|sāppiṭṭēn"] },
+        { "native": "இன்னைக்கு வெளிய போகாதீங்க.", "roman": "innaikku veḷiya pōgādīnga.", "en": "Don't go out today.", "focus": "போகாதீங்க", "wrong": ["போகணும்|pōgaṇum", "போங்க|pōnga"] },
+        { "native": "ராத்திரி ஒரு மாத்திரை மட்டும் போதும்.", "roman": "rāttiri oru māttirai maṭṭum pōdum.", "en": "Just one tablet at night is enough." },
+        { "native": "டாக்டர் என்ன சொன்னாரு?", "roman": "ḍākṭar enna sonnāru?", "en": "What did the doctor say?" }
+      ]
+    },
+    {
+      "title": "Pharmacy, hospital and getting better",
+      "tip": { "title": "Feeling better", "body": "- 'I'm better now' = **இப்போ பரவால்ல**.\n- Wish someone well: **சீக்கிரம் சரியாயிடும்!** 'it'll be all right soon'.\n- Elders ask **சுகமா இருக்கீங்களா?** 'are you keeping well?'\n- Hospital in speech: **ஆஸ்பத்திரி** or ஹாஸ்பிடல் (written மருத்துவமனை)." },
+      "new": ["மருத்துவமனை", "காயம்", "ரத்தம்", "சுகம்", "பக்கத்துல மெடிக்கல் ஷாப் இருக்கா?", "இப்போ பரவால்ல.", "சீக்கிரம் சரியாயிடும்!"],
+      "sentences": [
+        { "native": "பக்கத்துல ஆஸ்பத்திரி இருக்கா?", "roman": "pakkattula āspattiri irukkā?", "en": "Is there a hospital nearby?" },
+        { "native": "அவரு ஆஸ்பத்திரியில இருக்காரு.", "roman": "avaru āspattiriyila irukkāru.", "en": "He's in hospital.", "focus": "ஆஸ்பத்திரியில", "wrong": ["ஆஸ்பத்திரி|āspattiri", "ஆஸ்பத்திரிக்கு|āspattirikku"] },
+        { "native": "கையில காயம், ரத்தம் வருது.", "roman": "kaiyila kāyam, rattam varudu.", "en": "I've cut my hand, it's bleeding.", "focus": "கையில", "wrong": ["கை|kai", "கைக்கு|kaikku"] },
+        { "native": "பெரிய காயம் இல்ல, பரவால்ல.", "roman": "periya kāyam illa, paravālla.", "en": "It's not a big cut, it's OK.", "focus": "காயம்", "wrong": ["ரத்தம்|rattam", "நோய்|nōy"] },
+        { "native": "தாத்தா, சுகமா இருக்கீங்களா?", "roman": "tāttā, sugamā irukkīngaḷā?", "en": "Grandpa, are you keeping well?", "focus": "சுகமா", "wrong": ["சுகம்|sugam", "சுகமான|sugamāna"] },
+        { "native": "இப்போ எப்படி இருக்கு? கொஞ்சம் பரவால்லயா?", "roman": "ippō eppaḍi irukku? konjam paravāllayā?", "en": "How is it now? A bit better?" },
+        { "native": "காய்ச்சல் சீக்கிரம் சரியாயிடும்.", "roman": "kāycchal sīkkiram sariyāyiḍum.", "en": "The fever will be gone soon.", "focus": "சரியாயிடும்", "wrong": ["சரியில்ல|sariyilla", "சரியா|sariyā"] },
+        { "native": "மெடிக்கல் ஷாப்ல இந்த மருந்து இருக்கா?", "roman": "meḍikal shāpla inda marundu irukkā?", "en": "Will the pharmacy have this medicine?", "focus": "ஷாப்ல", "wrong": ["ஷாப்|shāp", "ஷாப்புக்கு|shāppukku"] }
+      ]
+    }
+  ]
 }

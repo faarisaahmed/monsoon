@@ -14,7 +14,14 @@ for (const code of fs.readdirSync(DATA).sort((a, b) => (ORDER.indexOf(a) + 1 || 
   const cf = path.join(DATA, code, 'course.json');
   if (!fs.existsSync(cf)) continue;
   const unitsDir = path.join(DATA, code, 'units');
-  const unitFiles = fs.existsSync(unitsDir) ? fs.readdirSync(unitsDir).filter((f) => /^\d+\.json$/.test(f)) : [];
+  // --tracked: only units already in git (staged or committed), so work in progress never goes live
+  let unitFiles = fs.existsSync(unitsDir) ? fs.readdirSync(unitsDir).filter((f) => /^\d+\.json$/.test(f)).sort() : [];
+  if (process.argv.includes('--tracked')) {
+    const tracked = new Set(require('child_process').execSync(`git ls-files data/${code}/units`, { cwd: ROOT }).toString().split('\n').map((f) => path.basename(f)));
+    unitFiles = unitFiles.filter((f) => tracked.has(f));
+  }
+  // units are numbered from 1 with no gaps: stop at the first missing one
+  unitFiles = unitFiles.filter((f, i) => parseInt(f, 10) === i + 1);
   if (unitFiles.length < 20 && !(process.argv.includes('--partial') && unitFiles.length)) {
     console.log(`skip ${code}: only ${unitFiles.length}/20 units`);
     continue;

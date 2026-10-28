@@ -91,5 +91,104 @@
       { "speaker": "Julia", "native": "बहुत बढ़िया! यहीं रोकिए। यह लीजिए, डेढ़ सौ।", "roman": "bahut baṛhiyā! yahīṃ rokiye. yah lījiye, ḍeṛh sau.", "en": "Great! Stop right here. Here you are, a hundred and fifty." }
     ]
   },
-  "culture": "Auto-rickshaw drivers are addressed as **भैया** and the classic opening is a question: **X चलोगे?** 'will you go to X?' — agree the fare (or the meter) before getting in. App cabs have made this easier in big cities. Directions are given by **landmarks** rather than street names: 'turn left after the temple, near the big tree'. People rarely say 'I don't know' — if you get a vague answer, ask two or three people. In metros, the first carriage is reserved for women, and on buses some seats are marked महिला 'ladies'."
+  "culture": "Auto-rickshaw drivers are addressed as **भैया** and the classic opening is a question: **X चलोगे?** 'will you go to X?' — agree the fare (or the meter) before getting in. App cabs have made this easier in big cities. Directions are given by **landmarks** rather than street names: 'turn left after the temple, near the big tree'. People rarely say 'I don't know' — if you get a vague answer, ask two or three people. In metros, the first carriage is reserved for women, and on buses some seats are marked महिला 'ladies'.",
+  "lessons": [
+    {
+      "title": "Asking the way",
+      "tip": { "title": "Please …: the -इए form", "body": "- To ask politely, add **-इए** to the verb stem: बताना → **बताइए** 'please tell', जाना → **जाइए**, आना → **आइए**.\n- With friends use **-ओ**: बताओ, जाओ, आओ.\n- A few are irregular: करना → **कीजिए**, देना → **दीजिए**, लेना → **लीजिए**.\n- **ज़रा** 'just' makes any request softer: ज़रा बताइए.", "pattern": "stem + इए (आप)  ·  stem + ओ (तुम)", "grammar": 0 },
+      "new": ["रास्ता", "बताना", "स्टेशन", "बाज़ार", "मंदिर", "मस्जिद", "माफ़ कीजिए, स्टेशन कहाँ है?", "बाज़ार का रास्ता बताइए।"],
+      "sentences": [
+        { "native": "भैया, स्टेशन का रास्ता बताइए।", "roman": "bhaiyā, sṭeshan kā rāstā batāiye.", "en": "Excuse me, could you tell me the way to the station?", "focus": "बताइए", "wrong": ["बताता|batātā", "बताते|batāte"] },
+        { "native": "माफ़ कीजिए, मंदिर कहाँ है?", "roman": "māf kījiye, mandir kahāṃ hai?", "en": "Excuse me, where is the temple?", "focus": "कीजिए", "wrong": ["करता|kartā", "करते|karte"] },
+        { "native": "दीदी, ज़रा बताइए, मस्जिद कहाँ है?", "roman": "dīdī, zarā batāiye, masjid kahāṃ hai?", "en": "Could you just tell me where the mosque is? (to a young woman)", "focus": "बताइए", "wrong": ["बताती|batātī", "बताते|batāte"] },
+        { "native": "क्या आप बाज़ार का रास्ता जानते हैं?", "roman": "kyā āp bāzār kā rāstā jānte haiṃ?", "en": "Do you know the way to the market?" },
+        { "native": "आइए, मैं आपको रास्ता बताता हूँ।", "roman": "āiye, maiṃ āpko rāstā batātā hūṃ.", "en": "Come, I'll show you the way.", "focus": "आइए", "wrong": ["आता|ātā", "आते|āte"] },
+        { "native": "यह बाज़ार बहुत बड़ा है।", "roman": "yah bāzār bahut baṛā hai.", "en": "This market is very big." },
+        { "native": "ज़रा फिर बताइए।", "roman": "zarā phir batāiye.", "en": "Could you tell me again, please?", "focus": "बताइए", "wrong": ["बताता|batātā", "बताते|batāte"] },
+        { "native": "यहाँ बैठिए, मैं अभी आता हूँ।", "roman": "yahāṃ baiṭhiye, maiṃ abhī ātā hūṃ.", "en": "Sit here, I'll be right back.", "focus": "बैठिए", "wrong": ["बैठता|baiṭhtā", "बैठते|baiṭhte"] },
+        { "native": "मैं मस्जिद जा रहा हूँ।", "roman": "maiṃ masjid jā rahā hūṃ.", "en": "I'm going to the mosque." }
+      ]
+    },
+    {
+      "title": "Left, right and straight on",
+      "tip": { "title": "से, तक, की तरफ़ — at, as far as, towards", "body": "- Going *to* a place needs no postposition: मैं बाज़ार जा रहा हूँ.\n- **से** 'from / at' a turning: चौराहे **से** दाएँ. **तक** 'as far as': पुल **तक** सीधे.\n- **की तरफ़** 'towards': मंदिर **की तरफ़**.\n- 'To the right / left / straight on' = **दाएँ / बाएँ / सीधे**. Before से and तक, चौराहा becomes **चौराहे**.", "pattern": "X से दाएँ  ·  X तक सीधे  ·  X की तरफ़", "grammar": 1 },
+      "new": ["दायाँ", "बायाँ", "सीधा", "मुड़ना", "चौराहा", "पुल", "सड़क", "तरफ़", "सीधे जाइए, फिर बाएँ मुड़िए।", "चौराहे से दाएँ।"],
+      "sentences": [
+        { "native": "पुल से बाएँ मुड़िए।", "roman": "pul se bāyeṃ muṛiye.", "en": "Turn left at the bridge.", "focus": "से", "wrong": ["का|kā", "में|meṃ"] },
+        { "native": "इस सड़क पर सीधे जाइए।", "roman": "is saṛak par sīdhe jāiye.", "en": "Go straight along this road.", "focus": "जाइए", "wrong": ["जाता|jātā", "जाते|jāte"] },
+        { "native": "चौराहे तक सीधे चलिए, फिर दाएँ मुड़िए।", "roman": "chaurāhe tak sīdhe chaliye, phir dāyeṃ muṛiye.", "en": "Go straight on as far as the crossroads, then turn right.", "focus": "तक", "wrong": ["का|kā", "में|meṃ"] },
+        { "native": "स्टेशन की तरफ़ चलिए।", "roman": "sṭeshan kī taraf chaliye.", "en": "Head towards the station.", "focus": "की", "wrong": ["का|kā", "के|ke"] },
+        { "native": "बाज़ार किस तरफ़ है?", "roman": "bāzār kis taraf hai?", "en": "Which way is the market?" },
+        { "native": "मस्जिद बाईं तरफ़ है।", "roman": "masjid bāīṃ taraf hai.", "en": "The mosque is on the left.", "focus": "बाईं", "wrong": ["बायाँ|bāyāṃ", "बाएँ|bāyeṃ"] },
+        { "native": "पुल के बाद दाएँ मुड़िए।", "roman": "pul ke bād dāyeṃ muṛiye.", "en": "Turn right after the bridge.", "focus": "दाएँ", "wrong": ["दायाँ|dāyāṃ", "दाईं|dāīṃ"] },
+        { "native": "मैं पुल की तरफ़ जा रहा हूँ।", "roman": "maiṃ pul kī taraf jā rahā hūṃ.", "en": "I'm heading towards the bridge.", "focus": "की", "wrong": ["का|kā", "को|ko"] },
+        { "native": "दूसरे चौराहे से दाएँ मुड़िए।", "roman": "dūsre chaurāhe se dāyeṃ muṛiye.", "en": "Turn right at the second crossroads.", "focus": "चौराहे", "wrong": ["चौराहा|chaurāhā", "चौराहों|chaurāhoṃ"] },
+        { "native": "यहाँ से बाएँ नहीं, दाएँ।", "roman": "yahāṃ se bāyeṃ nahīṃ, dāyeṃ.", "en": "Not left from here — right." }
+      ]
+    },
+    {
+      "title": "How far is it?",
+      "tip": { "title": "Near and far", "body": "- **X से दूर** 'far from X' · **X के नज़दीक** 'near X' (like X के पास).\n- Ask **कितनी दूर है?** 'how far is it?'\n- Answer in time: **पैदल बीस मिनट** '20 minutes on foot', or **दस मिनट लगते हैं** 'it takes ten minutes'.", "pattern": "X से दूर  ·  X के नज़दीक" },
+      "new": ["दूर", "नज़दीक", "पैदल", "पहुँचना", "ढूँढना", "कितनी दूर है?", "पैदल दस मिनट।"],
+      "sentences": [
+        { "native": "स्टेशन यहाँ से कितनी दूर है?", "roman": "sṭeshan yahāṃ se kitnī dūr hai?", "en": "How far is the station from here?", "focus": "से", "wrong": ["का|kā", "में|meṃ"] },
+        { "native": "बाज़ार ज़्यादा दूर नहीं है।", "roman": "bāzār zyādā dūr nahīṃ hai.", "en": "The market isn't too far." },
+        { "native": "मंदिर स्टेशन के नज़दीक है।", "roman": "mandir sṭeshan ke nazdīk hai.", "en": "The temple is near the station.", "focus": "के", "wrong": ["की|kī", "का|kā"] },
+        { "native": "मस्जिद पुल से दूर नहीं है।", "roman": "masjid pul se dūr nahīṃ hai.", "en": "The mosque isn't far from the bridge.", "focus": "से", "wrong": ["के|ke", "में|meṃ"] },
+        { "native": "पैदल बीस मिनट लगते हैं।", "roman": "paidal bīs minaṭ lagte haiṃ.", "en": "It's twenty minutes on foot.", "focus": "लगते", "wrong": ["लगता|lagtā", "लगती|lagtī"] },
+        { "native": "मैं बाज़ार ढूँढ रही हूँ।", "roman": "maiṃ bāzār ḍhūṃḍh rahī hūṃ.", "en": "I'm looking for the market. (woman)" },
+        { "native": "आप कितने बजे पहुँच रहे हैं?", "roman": "āp kitne baje pahuṃch rahe haiṃ?", "en": "What time are you arriving?" },
+        { "native": "क्या मंदिर के नज़दीक कोई बाज़ार है?", "roman": "kyā mandir ke nazdīk koī bāzār hai?", "en": "Is there a market near the temple?", "focus": "के", "wrong": ["की|kī", "का|kā"] },
+        { "native": "मेरा घर यहाँ से बहुत दूर है।", "roman": "merā ghar yahāṃ se bahut dūr hai.", "en": "My home is very far from here.", "focus": "से", "wrong": ["के|ke", "में|meṃ"] },
+        { "native": "आप स्टेशन से कितनी दूर रहते हैं?", "roman": "āp sṭeshan se kitnī dūr rahte haiṃ?", "en": "How far from the station do you live?", "focus": "से", "wrong": ["के|ke", "में|meṃ"] }
+      ]
+    },
+    {
+      "title": "Buses and trains",
+      "tip": { "title": "Getting on, getting off", "body": "- Going **to** a place: no postposition — यह बस बाज़ार जाती है.\n- Get **on**: बस **में** चढ़ना. Get **off**: बस **से** उतरना; get off **at** X: X **पर** उतरना.\n- 'By bus / by train': बस **से**, ट्रेन **से**.\n- बस, ट्रेन and गाड़ी are feminine: बस **जाती** है, ट्रेन **आती** है." },
+      "new": [
+        "बस",
+        "ट्रेन",
+        "गाड़ी",
+        "टिकट",
+        "चढ़ना",
+        "उतरना",
+        "हवाई अड्डा",
+        "क्या यह बस चाँदनी चौक जाती है?",
+        "मुझे अगले स्टेशन पर उतरना है।",
+        "दिल्ली की ट्रेन किस प्लेटफ़ॉर्म से जाती है?"
+      ],
+      "sentences": [
+        { "native": "हम ट्रेन से जा रहे हैं।", "roman": "ham ṭren se jā rahe haiṃ.", "en": "We're going by train.", "focus": "से", "wrong": ["को|ko", "का|kā"] },
+        { "native": "यह बस स्टेशन जाती है?", "roman": "yah bas sṭeshan jātī hai?", "en": "Does this bus go to the station?", "focus": "जाती", "wrong": ["जाता|jātā", "जाते|jāte"] },
+        { "native": "मुझे हवाई अड्डा जाना है।", "roman": "mujhe havāī aḍḍā jānā hai.", "en": "I need to go to the airport." },
+        { "native": "अगले स्टेशन पर उतरिए।", "roman": "agle sṭeshan par utariye.", "en": "Get off at the next station.", "focus": "पर", "wrong": ["से|se", "को|ko"] },
+        { "native": "बस में चढ़िए, जल्दी!", "roman": "bas meṃ chaṛhiye, jaldī!", "en": "Get on the bus, quick!", "focus": "में", "wrong": ["से|se", "पर|par"] },
+        { "native": "मैं बस से उतर रही हूँ।", "roman": "maiṃ bas se utar rahī hūṃ.", "en": "I'm getting off the bus. (woman)", "focus": "से", "wrong": ["में|meṃ", "पर|par"] },
+        { "native": "एक टिकट कितने का है?", "roman": "ek ṭikaṭ kitne kā hai?", "en": "How much is one ticket?" },
+        { "native": "ट्रेन कितने बजे आती है?", "roman": "ṭren kitne baje ātī hai?", "en": "What time does the train come?", "focus": "आती", "wrong": ["आता|ātā", "आते|āte"] },
+        { "native": "हमारी गाड़ी बाहर है।", "roman": "hamārī gāṛī bāhar hai.", "en": "Our car is outside." },
+        { "native": "दिल्ली की ट्रेन कब जाती है?", "roman": "Dillī kī ṭren kab jātī hai?", "en": "When does the Delhi train leave?", "focus": "की", "wrong": ["का|kā", "के|ke"] }
+      ]
+    },
+    {
+      "title": "Taking an auto or a taxi",
+      "tip": { "title": "Talking to drivers", "body": "- Call a driver **भैया** and ask **स्टेशन चलोगे?** 'will you go to the station?'\n- With friends, commands end in **-ओ**: रुको, चलो. Politely, **-इए**: रुकिए, चलिए.\n- 'Don't': **मत** before the verb — यहाँ **मत** रुकिए.\n- रुकना = to stop yourself; **रोकना** = to stop something: गाड़ी रोकिए.", "grammar": 0 },
+      "new": ["ऑटो", "टैक्सी", "किराया", "रुकना", "भैया, कनॉट प्लेस चलोगे?", "मीटर से चलिए।", "यहीं रोकिए।", "चलो!"],
+      "sentences": [
+        { "native": "भैया, हवाई अड्डा चलोगे?", "roman": "bhaiyā, havāī aḍḍā chaloge?", "en": "Will you go to the airport? (to a driver)" },
+        { "native": "रुको, मैं भी आ रहा हूँ!", "roman": "ruko, maiṃ bhī ā rahā hūṃ!", "en": "Wait, I'm coming too!", "focus": "रुको", "wrong": ["रुकता|ruktā", "रुकते|rukte"] },
+        { "native": "पुल पर मत रुकिए।", "roman": "pul par mat rukiye.", "en": "Please don't stop on the bridge.", "focus": "मत", "wrong": ["नहीं|nahīṃ", "भी|bhī"] },
+        { "native": "चौराहे पर रोकिए।", "roman": "chaurāhe par rokiye.", "en": "Stop at the crossroads, please.", "focus": "रोकिए", "wrong": ["रोकता|roktā", "रोकते|rokte"] },
+        { "native": "ऑटो का किराया कितना है?", "roman": "oṭo kā kirāyā kitnā hai?", "en": "How much is the auto fare?" },
+        { "native": "हम टैक्सी से चलते हैं।", "roman": "ham ṭaiksī se chalte haiṃ.", "en": "Let's go by taxi." },
+        { "native": "किराया बहुत ज़्यादा है, भैया।", "roman": "kirāyā bahut zyādā hai, bhaiyā.", "en": "The fare's too much." },
+        { "native": "ऑटो रोको, मुझे यहाँ उतरना है।", "roman": "oṭo roko, mujhe yahāṃ utarnā hai.", "en": "Stop the auto, I need to get off here.", "focus": "रोको", "wrong": ["रोकते|rokte", "रुको|ruko"] },
+        { "native": "चलो, देर हो रही है!", "roman": "chalo, der ho rahī hai!", "en": "Come on, we're getting late!", "focus": "चलो", "wrong": ["चलता|chaltā", "चलते|chalte"] },
+        { "native": "जल्दी मत करो।", "roman": "jaldī mat karo.", "en": "Don't rush.", "focus": "मत", "wrong": ["नहीं|nahīṃ", "भी|bhī"] },
+        { "native": "यहीं रुकिए, मैं अभी आती हूँ।", "roman": "yahīṃ rukiye, maiṃ abhī ātī hūṃ.", "en": "Wait right here, I'll be right back. (woman)", "focus": "रुकिए", "wrong": ["रुकती|ruktī", "रुकते|rukte"] },
+        { "native": "टैक्सी में बैठिए।", "roman": "ṭaiksī meṃ baiṭhiye.", "en": "Get in the taxi.", "focus": "बैठिए", "wrong": ["बैठता|baiṭhtā", "बैठते|baiṭhte"] }
+      ]
+    }
+  ]
 }

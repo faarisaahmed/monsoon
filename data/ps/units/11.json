@@ -87,5 +87,90 @@
       { "speaker": "Tom", "native": "هو، د هغه جومات مخې ته ودرېږه. ډېره مننه!", "roman": "ho, də haġə́ jumā́t mə́xe ta wədréẓa. ḍéra manə́na!", "en": "Yes, stop in front of that mosque. Thanks a lot!" }
     ]
   },
-  "culture": "Peshawar's **Qissa Khwani** ('storytellers') bazaar takes its name from the travellers and traders who once gathered there to swap tales over tea. In both Afghanistan and Pakistan it's normal to agree the fare before a rickshaw or taxi ride — ask څو روپۍ؟ / څو افغانۍ؟ first. Men and women are usually seated separately on buses (women at the front). Ask directions from shopkeepers or older men; if you need help as a woman, it's natural to approach a woman or a family. Many people give directions by pointing and saying 'over there' (هلته، هغه خوا), so it helps to repeat the landmark back: جومات ته نږدې؟"
+  "culture": "Peshawar's **Qissa Khwani** ('storytellers') bazaar takes its name from the travellers and traders who once gathered there to swap tales over tea. In both Afghanistan and Pakistan it's normal to agree the fare before a rickshaw or taxi ride — ask څو روپۍ؟ / څو افغانۍ؟ first. Men and women are usually seated separately on buses (women at the front). Ask directions from shopkeepers or older men; if you need help as a woman, it's natural to approach a woman or a family. Many people give directions by pointing and saying 'over there' (هلته، هغه خوا), so it helps to repeat the landmark back: جومات ته نږدې؟",
+  "lessons": [
+    {
+      "title": "Asking where places are",
+      "tip": { "title": "Excuse me, where is …?", "body": "- Stop someone politely with **بښنه غواړم** 'excuse me' (lit. I ask forgiveness).\n- Then name the place and add **چېرته دی؟** (masculine) or **چېرته ده؟** (feminine).\n- **دلته نه** = 'from here': دلته نه لرې دی؟ 'is it far from here?'", "pattern": "بښنه غواړم، + place + چېرته دی؟" },
+      "new": ["بازار", "جومات", "بانک", "لرې", "لار", "پياده", "پته", "بښنه غواړم، بازار چېرته دی؟", "دلته نه لرې دی؟", "نه، نږدې دی. پياده لس دقيقې لار ده."],
+      "sentences": [
+        { "native": "بښنه غواړم، جومات چېرته دی؟", "roman": "baṣə́na ġwā́ṛəm, jumā́t chérta day?", "en": "Excuse me, where is the mosque?", "focus": "دی", "wrong": ["ده|da", "دي|di"] },
+        { "native": "بانک دلته نه لرې دی؟", "roman": "bānk dálta na lə́re day?", "en": "Is the bank far from here?", "focus": "نه", "wrong": ["ته|ta", "کې|ke"] },
+        { "native": "نه، بانک ډېر نږدې دی.", "roman": "na, bānk ḍer nəẓdé day.", "en": "No, the bank is very close." },
+        { "native": "بازار دلته نه ډېر لرې نه دی.", "roman": "bāzā́r dálta na ḍer lə́re na day.", "en": "The bazaar isn't very far from here.", "focus": "لرې", "wrong": ["نږدې|nəẓdé", "دلته|dálta"] },
+        { "native": "دلته بانک شته؟", "roman": "dálta bānk shta?", "en": "Is there a bank here?" },
+        { "native": "جومات ته نږدې يو بانک شته.", "roman": "jumā́t ta nəẓdé yaw bānk shta.", "en": "There's a bank near the mosque." },
+        { "native": "دا لار بازار ته ځي؟", "roman": "dā lār bāzā́r ta dzi?", "en": "Does this road go to the bazaar?" },
+        { "native": "ستاسو پته څه ده؟", "roman": "stāso pə́ta tsə da?", "en": "What's your address?", "focus": "ده", "wrong": ["دی|day", "دي|di"] },
+        { "native": "بازار ته پياده ځم.", "roman": "bāzā́r ta piyā́da dzəm.", "en": "I'm walking to the bazaar." },
+        { "native": "بښنه غواړم، بازار نږدې دی؟", "roman": "baṣə́na ġwā́ṛəm, bāzā́r nəẓdé day?", "en": "Excuse me, is the bazaar nearby?" }
+      ]
+    },
+    {
+      "title": "Telling someone which way to go",
+      "tip": { "title": "Go! Turn! Show me!", "body": "- Command to a friend: stem + **-a** (لاړ **شه**، وګور**ه**). Polite or to several people: **-əy** (لاړ **شئ**، وګور**ئ**).\n- 'Turn' is تاو شه / تاو شئ; 'show me' is ما ته وښيه.\n- 'Don't' is **مه**, never نه: مه ځه 'don't go'.", "pattern": "مخامخ لاړ شه  ·  مخامخ لاړ شئ (polite)", "grammar": 0 },
+      "new": ["مخامخ", "ښي", "کيڼ", "تاوېدل", "سړک", "خوا", "ښودل", "مخامخ لاړ شه، بيا ښي لاس ته تاو شه.", "ما ته په نقشې کې وښيه."],
+      "sentences": [
+        { "native": "مخامخ لاړ شئ.", "roman": "məxāmə́x lāṛ shəy.", "en": "Go straight ahead. (polite)", "focus": "شئ", "wrong": ["شه|sha", "شم|shəm"] },
+        { "native": "بيا کيڼ لاس ته تاو شئ.", "roman": "biyā́ kiṇ lās ta tāw shəy.", "en": "Then turn left. (polite)", "focus": "شئ", "wrong": ["شو|shu", "شم|shəm"] },
+        { "native": "له جومات نه وروسته ښي لاس ته تاو شه.", "roman": "la jumā́t na wrústa ṣi lās ta tāw sha.", "en": "After the mosque, turn right.", "focus": "شه", "wrong": ["شئ|shəy", "شې|she"] },
+        { "native": "دې خوا ته راشه!", "roman": "de xwā ta rā́sha!", "en": "Come this way!", "focus": "راشه", "wrong": ["راځي|rādzí", "راغی|rā́ġay"] },
+        { "native": "هغه خوا ته مه ځه!", "roman": "haġá xwā ta ma dza!", "en": "Don't go that way!", "focus": "مه", "wrong": ["نه|na", "هم|ham"] },
+        { "native": "ما ته لار وښيه.", "roman": "mā ta lār wə́ṣaya.", "en": "Show me the way.", "focus": "وښيه", "wrong": ["ښيم|ṣáyəm", "ښيي|ṣayí"] },
+        { "native": "په دې سړک مخامخ لاړ شه.", "roman": "pə de saṛák məxāmə́x lāṛ sha.", "en": "Go straight along this road.", "focus": "شه", "wrong": ["شي|shi", "شم|shəm"] },
+        { "native": "ښي لاس ته که کيڼ لاس ته؟", "roman": "ṣi lās ta ka kiṇ lās ta?", "en": "Right or left?" },
+        { "native": "مهرباني وکړئ، دا پته ما ته وښيئ.", "roman": "mehrabāní wə́kṛəy, dā pə́ta mā ta wə́ṣayəy.", "en": "Please show me this address. (polite)", "focus": "وښيئ", "wrong": ["ښيم|ṣáyəm", "ښيي|ṣayí"] },
+        { "native": "دا سړک ډېر اوږد دی، ښي لاس ته تاو شه.", "roman": "dā saṛák ḍer uẓd day, ṣi lās ta tāw sha.", "en": "This road is very long, turn right.", "focus": "شه", "wrong": ["شم|shəm", "شو|shu"] }
+      ]
+    },
+    {
+      "title": "Taking a rickshaw or taxi",
+      "new": ["رکشه", "ټکسي", "موټر", "ودرېدل", "قصه خوانۍ ته ځې؟", "دلته ودرېږه.", "ورو ځه، مهرباني وکړه."],
+      "sentences": [
+        { "native": "وروره، بازار ته ځې؟", "roman": "wróra, bāzā́r ta dze?", "en": "Brother, will you go to the bazaar? (to a driver)", "focus": "ځې", "wrong": ["ځم|dzəm", "ځي|dzi"] },
+        { "native": "د بانک مخې ته ودرېږه.", "roman": "də bānk mə́xe ta wədréẓa.", "en": "Stop in front of the bank.", "focus": "ودرېږه", "wrong": ["ودرېږم|wədréẓəm", "ودرېږي|wədréẓi"] },
+        { "native": "ډېر تېز مه ځه!", "roman": "ḍer tez ma dza!", "en": "Don't go so fast!", "focus": "مه", "wrong": ["نه|na", "هم|ham"] },
+        { "native": "ورو ځه، ماشومان په موټر کې دي.", "roman": "wro dza, māshumā́n pə moṭár ke di.", "en": "Go slowly, there are children in the car.", "focus": "ځه", "wrong": ["ځې|dze", "ځي|dzi"] },
+        { "native": "دلته ودرېږئ، زه دلته اوسېږم.", "roman": "dálta wədréẓəy, zə dálta oséẓəm.", "en": "Stop here, please — I live here. (polite)", "focus": "ودرېږئ", "wrong": ["ودرېږم|wədréẓəm", "ودرېږي|wədréẓi"] },
+        { "native": "ټکسي غواړې؟", "roman": "ṭaksí ġwā́ṛe?", "en": "Do you want a taxi?" },
+        { "native": "نه، مننه، پياده ځم.", "roman": "na, manə́na, piyā́da dzəm.", "en": "No thanks, I'll walk." },
+        { "native": "زما موټر نشته، په رکشې کې ځم.", "roman": "zmā moṭár nə́shta, pə rikshé ke dzəm.", "en": "I don't have a car; I go by rickshaw." },
+        { "native": "دا ټکسي بازار ته ځي؟", "roman": "dā ṭaksí bāzā́r ta dzi?", "en": "Does this taxi go to the bazaar?" },
+        { "native": "ورو ځه، سړک ښه نه دی.", "roman": "wro dza, saṛák ṣə na day.", "en": "Go slowly, the road isn't good.", "focus": "ځه", "wrong": ["ځې|dze", "ځم|dzəm"] }
+      ]
+    },
+    {
+      "title": "From here to there",
+      "tip": { "title": "To, from, as far as", "body": "- **… ته** = to: بازار **ته** ځم.\n- **له … نه** = from: **له** کابل **نه**.\n- **تر … پورې** = as far as, until: **تر** پله **پورې**، **تر** جمعې **پورې**.\n- The noun in between takes the oblique: اډه → اډ**ې** ته. After له and تر a masculine noun may add **-a**: له ښار**ه**، تر بازار**ه**.", "pattern": "له … نه  ·  تر … پورې  ·  … ته", "grammar": 1 },
+      "new": ["پورې", "پل", "څلورلارې", "اډه", "کلی", "ګرځېدل", "تر پله پورې لاړ شئ.", "اډې ته څنګه ورشم؟"],
+      "sentences": [
+        { "native": "تر څلورلارې پورې مخامخ لاړ شه.", "roman": "tər tsalorlā́re póre məxāmə́x lāṛ sha.", "en": "Go straight as far as the crossroads.", "focus": "تر", "wrong": ["له|la", "په|pə"] },
+        { "native": "اډه له پل نه لرې نه ده.", "roman": "áḍa la pul na lə́re na da.", "en": "The bus stand isn't far from the bridge.", "focus": "له", "wrong": ["تر|tər", "ته|ta"] },
+        { "native": "سبا له کلي نه کابل ته ځم.", "roman": "sabā́ la kə́li na kābúl ta dzəm.", "en": "Tomorrow I'm going from the village to Kabul.", "focus": "له", "wrong": ["تر|tər", "په|pə"] },
+        { "native": "دا بس اډې ته ځي؟", "roman": "dā bas áḍe ta dzi?", "en": "Does this bus go to the bus stand?", "focus": "اډې", "wrong": ["اډه|áḍa", "اډو|áḍo"] },
+        { "native": "زه تر جمعې پورې په کابل کې يم.", "roman": "zə tər jumʿé póre pə kābúl ke yəm.", "en": "I'm in Kabul until Friday.", "focus": "پورې", "wrong": ["ته|ta", "کې|ke"] },
+        { "native": "زما کلی له ښاره ډېر لرې دی.", "roman": "zmā kə́lay la ṣā́ra ḍer lə́re day.", "en": "My village is very far from the city.", "focus": "له", "wrong": ["تر|tər", "ته|ta"] },
+        { "native": "له اډې نه کور ته پياده ځو.", "roman": "la áḍe na kor ta piyā́da dzu.", "en": "We walk home from the bus stand.", "focus": "ته", "wrong": ["کې|ke", "نه|na"] },
+        { "native": "بانک ته څنګه ورشو؟", "roman": "bānk ta tsə́nga wárshu?", "en": "How do we get to the bank?", "focus": "ته", "wrong": ["په|pə", "له|la"] },
+        { "native": "ماښام په ښار کې ګرځو؟", "roman": "māṣā́m pə ṣār ke gə́rdzu?", "en": "Shall we walk around town this evening?" },
+        { "native": "په کلي کې ډېر ګرځم.", "roman": "pə kə́li ke ḍer gə́rdzəm.", "en": "I walk around the village a lot." }
+      ]
+    },
+    {
+      "title": "Buses, trains and planes",
+      "new": ["بس", "اورګاډی", "الوتکه", "هوايي ډګر", "پوښتل", "کابل ته بس کله ځي؟", "لار مې ورکه کړې ده."],
+      "sentences": [
+        { "native": "پېښور ته اورګاډی کله ځي؟", "roman": "peṣawár ta orgā́ḍay kə́la dzi?", "en": "When does the train to Peshawar leave?", "focus": "ته", "wrong": ["له|la", "کې|ke"] },
+        { "native": "الوتکه په څو بجو ځي؟", "roman": "alwatə́ka pə tso bajó dzi?", "en": "What time does the plane leave?" },
+        { "native": "هوايي ډګر ته په ټکسي کې ځو.", "roman": "hawāyí ḍagár ta pə ṭaksí ke dzu.", "en": "We're going to the airport by taxi.", "focus": "ته", "wrong": ["له|la", "تر|tər"] },
+        { "native": "هوايي ډګر له ښاره لرې دی؟", "roman": "hawāyí ḍagár la ṣā́ra lə́re day?", "en": "Is the airport far from the city?" },
+        { "native": "د کابل بس له کومې اډې نه ځي؟", "roman": "də kābúl bas la kúme áḍe na dzi?", "en": "Which stand does the Kabul bus leave from?", "focus": "کومې", "wrong": ["کوم|kum", "کومه|kúma"] },
+        { "native": "زه په بس کې نه ځم، اورګاډی ښه دی.", "roman": "zə pə bas ke na dzəm, orgā́ḍay ṣə day.", "en": "I'm not taking the bus, the train is nicer." },
+        { "native": "بس وختي ځي، ژر شه!", "roman": "bas waxtí dzi, zhər sha!", "en": "The bus leaves early, hurry up!", "focus": "شه", "wrong": ["شئ|shəy", "شي|shi"] },
+        { "native": "له هغه سړي نه لار وپوښته.", "roman": "la haġə́ saṛí na lār wə́puṣta.", "en": "Ask that man the way.", "focus": "وپوښته", "wrong": ["پوښتم|púṣtəm", "پوښتي|puṣtí"] },
+        { "native": "له چلوونکي نه وپوښتئ، هغه پوهېږي.", "roman": "la chalawúnki na wə́puṣtəy, haġá pohéẓi.", "en": "Ask the driver, he knows. (polite)", "focus": "وپوښتئ", "wrong": ["پوښتم|púṣtəm", "پوښتي|puṣtí"] },
+        { "native": "بښنه غواړم، لار مې ورکه کړې ده.", "roman": "baṣə́na ġwā́ṛəm, lār me wráka kṛe da.", "en": "Excuse me, I'm lost." }
+      ]
+    }
+  ]
 }

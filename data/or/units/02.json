@@ -89,5 +89,97 @@
       { "speaker": "Sam", "native": "ମୋତେ ବି।", "roman": "mote bi.", "en": "Me too." }
     ]
   },
-  "culture": "Odias will happily switch to English or Hindi with a foreigner — a few sentences of Odia earn real delight. People often ask personal questions early (where you're from, whether you're married, what you do); it is friendly curiosity, not rudeness. Note that many Odias say **ଆମେ** ('we') where English uses 'I', especially in the southern and western districts."
+  "culture": "Odias will happily switch to English or Hindi with a foreigner — a few sentences of Odia earn real delight. People often ask personal questions early (where you're from, whether you're married, what you do); it is friendly curiosity, not rudeness. Note that many Odias say **ଆମେ** ('we') where English uses 'I', especially in the southern and western districts.",
+  "lessons": [
+    {
+      "title": "Asking and giving names",
+      "tip": { "title": "Question words stay put", "body": "- Questions keep the statement order: the question word sits where the answer goes. ମୋ ନାମ **ଲିପି** → ଆପଣଙ୍କ ନାମ **କ'ଣ**?\n- 'X is Y' needs no verb: ମୋ ନାମ ସାମ୍ 'my name [is] Sam'.\n- 'Your' follows the 'you': **ଆପଣଙ୍କ** (formal), **ତୁମ / ତୁମର** (familiar). 'My' is **ମୋ**.", "pattern": "ଆପଣଙ୍କ ନାମ କ'ଣ? → ମୋ ନାମ …", "grammar": 1 },
+      "new": ["ମୋ", "ତୁମର", "ଆପଣଙ୍କ", "ନାମ", "କ'ଣ", "ଆପଣଙ୍କ ନାମ କ'ଣ?", "ତୁମ ନାଁ କ'ଣ?", "ମୋ ନାମ ସାମ୍।"],
+      "sentences": [
+        { "native": "ନମସ୍କାର, ଆପଣଙ୍କ ନାମ କ'ଣ?", "roman": "nômôskarô, apôṇôṅkô namô kôṇô?", "en": "Hello, what's your name?", "focus": "କ'ଣ", "wrong": ["କେମିତି|kemiti"] },
+        { "native": "ମୋ ନାମ ଲିପି।", "roman": "mo namô Lipi.", "en": "My name is Lipi.", "focus": "ମୋ", "wrong": ["ଆପଣଙ୍କ|apôṇôṅkô", "ତୁମର|tumôrô"] },
+        { "native": "ତୁମର ନାମ କ'ଣ?", "roman": "tumôrô namô kôṇô?", "en": "What's your name? (familiar)", "focus": "ତୁମର", "wrong": ["ଆପଣଙ୍କ|apôṇôṅkô", "ମୋ|mo"] },
+        { "native": "ନମସ୍ତେ, ତୁମ ନାଁ କ'ଣ?", "roman": "nômôste, tumô naṃ kôṇô?", "en": "Hi, what's your name? (to a child or friend)", "focus": "କ'ଣ", "wrong": ["କେମିତି|kemiti"] },
+        { "native": "ଆପଣଙ୍କ ନାମ ସାମ୍?", "roman": "apôṇôṅkô namô Sam?", "en": "Is your name Sam?", "focus": "ଆପଣଙ୍କ", "wrong": ["ଆପଣ|apôṇô", "ମୋ|mo"] },
+        { "native": "ନା, ମୋ ନାମ ରବି।", "roman": "na, mo namô Rôbi.", "en": "No, my name is Rabi.", "focus": "ମୋ", "wrong": ["ତୁମର|tumôrô", "ଆପଣଙ୍କ|apôṇôṅkô"] },
+        { "native": "ମୋ ନାମ ଲିପି, ଆଉ ଆପଣଙ୍କ ନାମ?", "roman": "mo namô Lipi, au apôṇôṅkô namô?", "en": "My name is Lipi — and yours?", "focus": "ଆପଣଙ୍କ", "wrong": ["ଆପଣ|apôṇô", "ମୋ|mo"] }
+      ]
+    },
+    {
+      "title": "Saying where you're from",
+      "tip": { "title": "'I'm from…' = 'I have come from…'", "body": "- Odia says where you're from with **ଆସିଛି** 'have come': ମୁଁ ଲଣ୍ଡନ**ରୁ** ଆସିଛି.\n- **-ରୁ** means 'from': ଭାରତରୁ 'from India'.\n- Ask with **କେଉଁଠୁ** 'from where': ଆପଣ କେଉଁଠୁ **ଆସିଛନ୍ତି**? (formal) · ତୁମେ କେଉଁଠୁ **ଆସିଛ**? (familiar)", "pattern": "ମୁଁ + place-ରୁ + ଆସିଛି" },
+      "new": ["ଦେଶ", "ସହର", "ଭାରତ", "କେଉଁଠୁ", "ଆସିବା", "ଆପଣ କେଉଁଠୁ ଆସିଛନ୍ତି?", "ମୁଁ ଇଂଲଣ୍ଡରୁ ଆସିଛି।"],
+      "sentences": [
+        { "native": "ମୁଁ ଭାରତରୁ ଆସିଛି।", "roman": "muṃ Bharôtôru asichhi.", "en": "I'm from India.", "focus": "ଭାରତରୁ", "wrong": ["ଭାରତରେ|Bharôtôre", "ଭାରତର|Bharôtôrô"] },
+        { "native": "ମୁଁ ଲଣ୍ଡନରୁ ଆସିଛି।", "roman": "muṃ Lôṇḍônôru asichhi.", "en": "I'm from London.", "focus": "ଲଣ୍ଡନରୁ", "wrong": ["ଲଣ୍ଡନରେ|Lôṇḍônôre", "ଲଣ୍ଡନର|Lôṇḍônôrô"] },
+        { "native": "ତୁମେ କେଉଁଠୁ ଆସିଛ?", "roman": "tume keuṃṭhu asichhô?", "en": "Where are you from? (familiar)", "focus": "ଆସିଛ", "wrong": ["ଆସିଛନ୍ତି|asichhônti", "ଆସିଛି|asichhi"] },
+        { "native": "ଆପଣ ଭାରତରୁ ଆସିଛନ୍ତି?", "roman": "apôṇô Bharôtôru asichhônti?", "en": "Are you from India?", "focus": "ଆସିଛନ୍ତି", "wrong": ["ଆସିଛ|asichhô", "ଆସିଛି|asichhi"] },
+        { "native": "ମୁଁ ବି ଭାରତରୁ ଆସିଛି।", "roman": "muṃ bi Bharôtôru asichhi.", "en": "I'm from India too.", "focus": "ଆସିଛି", "wrong": ["ଆସିଛନ୍ତି|asichhônti", "ଆସିଛ|asichhô"] },
+        { "native": "ଆପଣ କେଉଁଠୁ ଆସିଛନ୍ତି, ଆଜ୍ଞା?", "roman": "apôṇô keuṃṭhu asichhônti, agya?", "en": "Where are you from, sir?", "focus": "କେଉଁଠୁ", "wrong": ["କେଉଁଠି|keuṃṭhi", "କେମିତି|kemiti"] },
+        { "native": "ମୋ ଦେଶ ଭାରତ।", "roman": "mo desô Bharôtô.", "en": "My country is India." },
+        { "native": "ଭାରତ ବହୁତ ଭଲ ଦେଶ।", "roman": "Bharôtô bôhutô bhôlô desô.", "en": "India is a lovely country." },
+        { "native": "ଆପଣଙ୍କ ସହର ବହୁତ ଭଲ।", "roman": "apôṇôṅkô sôhôrô bôhutô bhôlô.", "en": "Your town is lovely." }
+      ]
+    },
+    {
+      "title": "Saying where you live",
+      "tip": { "title": "The verb ending shows who", "body": "- Present-tense verbs change with the person: ମୁଁ **ରହେ**, ଆମେ **ରହୁ**, ତୁମେ **ରହ**, ସେ **ରହେ**, ଆପଣ / ସେମାନେ **ରହନ୍ତି**.\n- **-ରେ** means 'in': ଭୁବନେଶ୍ୱର**ରେ** 'in Bhubaneswar'.\n- Ask with **କେଉଁଠି** 'where', just before the verb.", "pattern": "ମୁଁ + place-ରେ + ରହେ" },
+      "new": ["କେଉଁଠି", "ରହିବା", "ଆମେ", "ସେମାନେ", "ଆପଣ କେଉଁଠି ରହନ୍ତି?", "ମୁଁ ଭୁବନେଶ୍ୱରରେ ରହେ।"],
+      "sentences": [
+        { "native": "ତୁମେ କେଉଁଠି ରହ?", "roman": "tume keuṃṭhi rôhô?", "en": "Where do you live? (familiar)", "focus": "ରହ", "wrong": ["ରହନ୍ତି|rôhônti", "ରହେ|rôhe"] },
+        { "native": "ଆମେ ଭୁବନେଶ୍ୱରରେ ରହୁ।", "roman": "ame Bhubôneswôrôre rôhu.", "en": "We live in Bhubaneswar.", "focus": "ରହୁ", "wrong": ["ରହେ|rôhe", "ରହନ୍ତି|rôhônti"] },
+        { "native": "ମୁଁ ଏବେ ଭାରତରେ ରହେ।", "roman": "muṃ ebe Bharôtôre rôhe.", "en": "I live in India now.", "focus": "ରହେ", "wrong": ["ରହୁ|rôhu", "ରହନ୍ତି|rôhônti"] },
+        { "native": "ସେମାନେ କେଉଁଠି ରହନ୍ତି?", "roman": "semane keuṃṭhi rôhônti?", "en": "Where do they live?", "focus": "ରହନ୍ତି", "wrong": ["ରହେ|rôhe", "ରହୁ|rôhu"] },
+        { "native": "ସେମାନେ ଲଣ୍ଡନରେ ରହନ୍ତି।", "roman": "semane Lôṇḍônôre rôhônti.", "en": "They live in London.", "focus": "ଲଣ୍ଡନରେ", "wrong": ["ଲଣ୍ଡନରୁ|Lôṇḍônôru", "ଲଣ୍ଡନର|Lôṇḍônôrô"] },
+        { "native": "ଆପଣ ବି ଭୁବନେଶ୍ୱରରେ ରହନ୍ତି?", "roman": "apôṇô bi Bhubôneswôrôre rôhônti?", "en": "Do you live in Bhubaneswar too?", "focus": "ରହନ୍ତି", "wrong": ["ରହ|rôhô", "ରହେ|rôhe"] },
+        { "native": "ନା, ମୁଁ ଲଣ୍ଡନରେ ରହେ।", "roman": "na, muṃ Lôṇḍônôre rôhe.", "en": "No, I live in London.", "focus": "ରହେ", "wrong": ["ରହ|rôhô", "ରହନ୍ତି|rôhônti"] },
+        { "native": "ଆମେ ଇଂଲଣ୍ଡରୁ ଆସିଛୁ।", "roman": "ame Iṅlôṇḍôru asichhu.", "en": "We're from England.", "focus": "ଆସିଛୁ", "wrong": ["ଆସିଛି|asichhi", "ଆସିଛନ୍ତି|asichhônti"] }
+      ]
+    },
+    {
+      "title": "Who's that?",
+      "tip": { "title": "'Is' and 'is not'", "body": "- 'X is Y' needs no verb: ସେ ଡାକ୍ତର 'he/she [is a] doctor'. Its negative is **ନୁହେଁ**: ସେ ଡାକ୍ତର ନୁହେଁ.\n- 'X is here / well' uses **ଅଛି**; its negative is **ନାହିଁ**: ସେ ଘରେ ନାହିଁ.\n- **ସେ** means both 'he' and 'she'. **ଏ** = this person, **ଏହା** = this thing.", "pattern": "ସେ ଛାତ୍ର  ·  ସେ ଛାତ୍ର ନୁହେଁ  ·  ସେ ଘରେ ନାହିଁ", "grammar": 0 },
+      "new": ["ସେ", "ଏ", "ଏହା", "କିଏ", "ନୁହେଁ"],
+      "sentences": [
+        { "native": "ଆଉ ଏ କିଏ?", "roman": "au e kie?", "en": "And who is this?", "focus": "କିଏ", "wrong": ["କ'ଣ|kôṇô", "କେଉଁଠି|keuṃṭhi"] },
+        { "native": "ଏ ଲିପି, ସେ ଡାକ୍ତର।", "roman": "e Lipi, se ḍaktôrô.", "en": "This is Lipi, she's a doctor.", "focus": "ଏ", "wrong": ["ଏହା|eha", "ମୁଁ|muṃ"] },
+        { "native": "ସେ ଡାକ୍ତର ନୁହେଁ, ସେ ଛାତ୍ର।", "roman": "se ḍaktôrô nuheṃ, se chhatrô.", "en": "He's not a doctor, he's a student.", "focus": "ନୁହେଁ", "wrong": ["ନାହିଁ|nahiṃ", "ନା|na"] },
+        { "native": "ମୁଁ ଡାକ୍ତର ନୁହେଁ।", "roman": "muṃ ḍaktôrô nuheṃ.", "en": "I'm not a doctor.", "focus": "ନୁହେଁ", "wrong": ["ନାହିଁ|nahiṃ", "ନା|na"] },
+        { "native": "ସେ ଏବେ ଘରେ ନାହିଁ।", "roman": "se ebe ghôre nahiṃ.", "en": "He/She isn't at home now.", "focus": "ନାହିଁ", "wrong": ["ନୁହେଁ|nuheṃ", "ନା|na"] },
+        { "native": "ଆଉ ଏହା କ'ଣ?", "roman": "au eha kôṇô?", "en": "And what is this?", "focus": "କ'ଣ", "wrong": ["କିଏ|kie", "କେଉଁଠି|keuṃṭhi"] },
+        { "native": "ସେମାନେ କିଏ?", "roman": "semane kie?", "en": "Who are they?", "focus": "କିଏ", "wrong": ["କ'ଣ|kôṇô", "କେଉଁଠି|keuṃṭhi"] },
+        { "native": "ସେ ଭଲ ଅଛନ୍ତି?", "roman": "se bhôlô ôchhônti?", "en": "Is he/she well? (respectful)", "focus": "ଅଛନ୍ତି", "wrong": ["ଅଛ|ôchhô", "ଅଛୁ|ôchhu"] }
+      ]
+    },
+    {
+      "title": "Talking about languages",
+      "tip": { "title": "'I can speak' and 'I'm learning'", "body": "- 'Can' is ପାରିବା joined to the verb: ମୁଁ **କହିପାରେ** 'I can speak', ତୁମେ **କହିପାର**, ଆପଣ **କହିପାରନ୍ତି**.\n- 'I'm learning' (right now): ମୁଁ **ଶିଖୁଛି**, ତୁମେ **ଶିଖୁଛ**, ଆପଣ **ଶିଖୁଛନ୍ତି**.\n- **-ରେ** after a language means 'in': ଓଡ଼ିଆରେ 'in Odia'.", "pattern": "ମୁଁ + language + କହିପାରେ" },
+      "new": ["ଭାଷା", "ଓଡ଼ିଆ", "ଇଂରାଜୀ", "ହିନ୍ଦୀ", "କହିବା", "ଶିଖିବା", "ଟିକିଏ", "ଆପଣ ଇଂରାଜୀ କହିପାରନ୍ତି?", "ମୁଁ ଟିକିଏ ଓଡ଼ିଆ କହିପାରେ।", "ମୁଁ ଓଡ଼ିଆ ଶିଖୁଛି।"],
+      "sentences": [
+        { "native": "ତୁମେ ଓଡ଼ିଆ କହିପାର?", "roman": "tume Oṛia kôhiparô?", "en": "Can you speak Odia? (familiar)", "focus": "କହିପାର", "wrong": ["କହିପାରନ୍ତି|kôhiparônti", "କହିପାରେ|kôhipare"] },
+        { "native": "ହଁ, ମୁଁ ହିନ୍ଦୀ ଆଉ ଇଂରାଜୀ କହିପାରେ।", "roman": "hôṃ, muṃ Hindi au Iṅraji kôhipare.", "en": "Yes, I can speak Hindi and English.", "focus": "କହିପାରେ", "wrong": ["କହିପାରନ୍ତି|kôhiparônti", "କହିପାର|kôhiparô"] },
+        { "native": "ଆପଣ ହିନ୍ଦୀ କହିପାରନ୍ତି?", "roman": "apôṇô Hindi kôhiparônti?", "en": "Can you speak Hindi?", "focus": "କହିପାରନ୍ତି", "wrong": ["କହିପାର|kôhiparô", "କହିପାରେ|kôhipare"] },
+        { "native": "ମୁଁ ହିନ୍ଦୀ କହିପାରେ ନାହିଁ।", "roman": "muṃ Hindi kôhipare nahiṃ.", "en": "I can't speak Hindi.", "focus": "ନାହିଁ", "wrong": ["ନୁହେଁ|nuheṃ", "ନା|na"] },
+        { "native": "ସେ ଟିକିଏ ଇଂରାଜୀ କହିପାରେ।", "roman": "se ṭikie Iṅraji kôhipare.", "en": "He/She can speak a little English.", "focus": "କହିପାରେ", "wrong": ["କହିପାରନ୍ତି|kôhiparônti", "କହିପାର|kôhiparô"] },
+        { "native": "ଆପଣ ଓଡ଼ିଆ ଶିଖୁଛନ୍ତି?", "roman": "apôṇô Oṛia sikhuchhônti?", "en": "Are you learning Odia?", "focus": "ଶିଖୁଛନ୍ତି", "wrong": ["ଶିଖୁଛି|sikhuchhi", "ଶିଖୁଛ|sikhuchhô"] },
+        { "native": "ହଁ, ମୁଁ ଏବେ ଓଡ଼ିଆ ଶିଖୁଛି।", "roman": "hôṃ, muṃ ebe Oṛia sikhuchhi.", "en": "Yes, I'm learning Odia now.", "focus": "ଶିଖୁଛି", "wrong": ["ଶିଖୁଛନ୍ତି|sikhuchhônti", "ଶିଖୁଛୁ|sikhuchhu"] },
+        { "native": "ଓଡ଼ିଆ ବହୁତ ଭଲ ଭାଷା।", "roman": "Oṛia bôhutô bhôlô bhasa.", "en": "Odia is a lovely language." },
+        { "native": "ଦୟାକରି ଓଡ଼ିଆରେ କୁହନ୍ତୁ।", "roman": "dôyakôri Oṛiare kuhôntu.", "en": "Please say it in Odia.", "focus": "ଓଡ଼ିଆରେ", "wrong": ["ଓଡ଼ିଆରୁ|Oṛiaru", "ଓଡ଼ିଆର|Oṛiarô"] }
+      ]
+    },
+    {
+      "title": "Nice to meet you",
+      "new": ["କାହିଁକି", "ଜାଣିବା", "ଭେଟିବା", "ମୁଁ ଜାଣେ ନାହିଁ।", "ଓଡ଼ିଆରେ ଏହାକୁ କ'ଣ କହନ୍ତି?", "ଆପଣଙ୍କୁ ଭେଟି ଖୁସି ଲାଗିଲା।"],
+      "sentences": [
+        { "native": "ଆପଣ ଓଡ଼ିଆ କାହିଁକି ଶିଖୁଛନ୍ତି?", "roman": "apôṇô Oṛia kahiṃki sikhuchhônti?", "en": "Why are you learning Odia?" },
+        { "native": "ତୁମେ ଭାରତ କାହିଁକି ଆସିଛ?", "roman": "tume Bharôtô kahiṃki asichhô?", "en": "Why have you come to India? (familiar)" },
+        { "native": "ମୁଁ ଜାଣେ ନାହିଁ, ଆପଣ ଜାଣନ୍ତି?", "roman": "muṃ jaṇe nahiṃ, apôṇô jaṇônti?", "en": "I don't know — do you?" },
+        { "native": "ସେ କିଏ? ମୁଁ ଜାଣେ ନାହିଁ।", "roman": "se kie? muṃ jaṇe nahiṃ.", "en": "Who's that? I don't know." },
+        { "native": "ତୁମେ ଇଂରାଜୀ ଜାଣ?", "roman": "tume Iṅraji jaṇô?", "en": "Do you know English? (familiar)" },
+        { "native": "ଇଂରାଜୀରେ ଏହାକୁ କ'ଣ କହନ୍ତି?", "roman": "Iṅrajire ehaku kôṇô kôhônti?", "en": "What's this called in English?" },
+        { "native": "ତୁମକୁ ଭେଟି ଖୁସି ଲାଗିଲା।", "roman": "tumôku bheṭi khusi lagila.", "en": "Nice to meet you. (familiar)" },
+        { "native": "ମୋତେ ବି ଖୁସି ଲାଗିଲା।", "roman": "mote bi khusi lagila.", "en": "I'm glad too." }
+      ]
+    }
+  ]
 }

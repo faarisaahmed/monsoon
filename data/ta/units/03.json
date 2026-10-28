@@ -96,5 +96,96 @@
       { "speaker": "Sarah", "native": "எனக்கும் இன்னும் ஆகல.", "roman": "enakkum innum āgala.", "en": "Not yet for me either." }
     ]
   },
-  "culture": "Tamils use kinship words with almost everyone: a young shop assistant is தம்பி, a slightly older man அண்ணா, a woman of your age அக்கா, an older woman அம்மா or ஆன்ட்டி. Calling elders by their first name is impolite. Traditionally, cross-cousin marriage (a man marrying his மாமா's or அத்தை's daughter) was common, which is why மாமா means both 'mother's brother' and 'father-in-law'."
+  "culture": "Tamils use kinship words with almost everyone: a young shop assistant is தம்பி, a slightly older man அண்ணா, a woman of your age அக்கா, an older woman அம்மா or ஆன்ட்டி. Calling elders by their first name is impolite. Traditionally, cross-cousin marriage (a man marrying his மாமா's or அத்தை's daughter) was common, which is why மாமா means both 'mother's brother' and 'father-in-law'.",
+  "lessons": [
+    {
+      "title": "Mum, Dad and the grandparents",
+      "tip": { "title": "My, your, his: before the noun", "body": "- Possessives go **before** the noun: **என்** அம்மா 'my mum', **உங்க** அப்பா 'your dad (polite)', **அவரோட** பேரு 'his name'.\n- For a person's name or a noun, add **-ஓட**: டாமோட குடும்பம் 'Tom's family', அப்பாவோட பேரு 'Dad's name'.\n- Don't confuse **என்** 'my' with **எனக்கு** 'to me'.", "pattern": "என் / உங்க / X-ஓட + noun", "grammar": 0 },
+      "new": ["அம்மா", "அப்பா", "குடும்பம்", "பெற்றோர்", "தாத்தா", "பாட்டி", "இது என் குடும்பம்.", "இவரு என் அப்பா."],
+      "sentences": [
+        { "native": "இவங்க என் அம்மா.", "roman": "ivanga en ammā.", "en": "This is my mother.", "focus": "என்", "wrong": ["நான்|nān", "எனக்கு|enakku"] },
+        { "native": "உங்க அப்பா பேரு என்ன?", "roman": "unga appā pēru enna?", "en": "What's your father's name?", "focus": "உங்க", "wrong": ["நீங்க|nīnga", "உங்களுக்கு|ungaḷukku"] },
+        { "native": "அப்பாவோட பேரு ராஜன்.", "roman": "appāvōḍa pēru Rājan.", "en": "Dad's name is Rajan.", "focus": "அப்பாவோட", "wrong": ["அப்பாவுக்கு|appāvukku", "அப்பாவை|appāvai"] },
+        { "native": "இது டாமோட குடும்பம்.", "roman": "idu Ṭāmōḍa kuḍumbam.", "en": "This is Tom's family.", "focus": "டாமோட", "wrong": ["டாமுக்கு|Ṭāmukku", "டாமை|Ṭāmai"] },
+        { "native": "உங்க அம்மா எப்படி இருக்காங்க?", "roman": "unga ammā eppaḍi irukkānga?", "en": "How is your mother?", "focus": "உங்க", "wrong": ["நீங்க|nīnga", "உங்களுக்கு|ungaḷukku"] },
+        { "native": "என் தாத்தா மதுரையில இருக்காரு.", "roman": "en tāttā Maduraiyila irukkāru.", "en": "My grandfather lives in Madurai.", "focus": "இருக்காரு", "wrong": ["இருக்கான்|irukkān", "இருக்கா|irukkā"] },
+        { "native": "பாட்டி வீட்டுல இருக்காங்க.", "roman": "pāṭṭi vīṭṭula irukkānga.", "en": "Grandma is at home." },
+        { "native": "என் பெற்றோர் இலங்கையில இருக்காங்க.", "roman": "en petrōr Ilangaiyila irukkānga.", "en": "My parents live in Sri Lanka.", "focus": "என்", "wrong": ["எனக்கு|enakku", "நான்|nān"] },
+        { "native": "அம்மா அப்பா எங்க இருக்காங்க?", "roman": "ammā appā enga irukkānga?", "en": "Where are Mum and Dad?" }
+      ]
+    },
+    {
+      "title": "Brothers and sisters",
+      "tip": { "title": "'I have…' is 'to me there is…'", "body": "- Tamil has no verb 'have'. Put the owner in the dative **-க்கு** and name what there is: **எனக்கு** ஒரு அக்கா 'I have an elder sister'.\n- எனக்கு, **உங்களுக்கு**, **அவருக்கு**, **அவனுக்கு**…\n- You can add இருக்காங்க / இருக்காரு; 'I don't have' is **எனக்கு … இல்ல**.\n- There's no plain 'brother': say **அண்ணன்** (elder) or **தம்பி** (younger).", "pattern": "எனக்கு + (number) + relative (+ இருக்காங்க / இல்ல)", "grammar": 2 },
+      "new": ["அண்ணன்", "அக்கா", "தம்பி", "தங்கை", "எனக்கு ரெண்டு அண்ணன், ஒரு தங்கச்சி."],
+      "sentences": [
+        { "native": "எனக்கு ஒரு அண்ணன் இருக்காரு.", "roman": "enakku oru aṇṇan irukkāru.", "en": "I have an elder brother.", "focus": "எனக்கு", "wrong": ["என்|en", "நான்|nān"] },
+        { "native": "உங்களுக்கு அக்கா இருக்காங்களா?", "roman": "ungaḷukku akkā irukkāngaḷā?", "en": "Do you have an elder sister?", "focus": "உங்களுக்கு", "wrong": ["உங்க|unga", "நீங்க|nīnga"] },
+        { "native": "எனக்குத் தம்பி இல்ல.", "roman": "enakkut tambi illa.", "en": "I don't have a younger brother.", "focus": "இல்ல", "wrong": ["இருக்கு|irukku", "இருக்காரு|irukkāru"] },
+        { "native": "அவருக்கு ரெண்டு தங்கச்சி.", "roman": "avarukku reṇḍu tangacchi.", "en": "He has two younger sisters.", "focus": "அவருக்கு", "wrong": ["அவரு|avaru", "அவரோட|avarōḍa"] },
+        { "native": "அவனுக்கு ஒரு அக்கா, ஒரு தம்பி.", "roman": "avanukku oru akkā, oru tambi.", "en": "He has an elder sister and a younger brother.", "focus": "அவனுக்கு", "wrong": ["அவன்|avan", "அவனோட|avanōḍa"] },
+        { "native": "என் அக்கா சென்னையில இருக்காங்க.", "roman": "en akkā Chennaiyila irukkānga.", "en": "My elder sister lives in Chennai.", "focus": "என்", "wrong": ["எனக்கு|enakku", "நான்|nān"] },
+        { "native": "உங்களுக்கு எத்தன அண்ணன் தம்பி?", "roman": "ungaḷukku ettana aṇṇan tambi?", "en": "How many brothers do you have?" },
+        { "native": "தம்பி, உன் பேரு என்ன?", "roman": "tambi, un pēru enna?", "en": "What's your name, young man?" }
+      ]
+    },
+    {
+      "title": "Sons, daughters and children",
+      "tip": { "title": "Plurals: -கள், spoken -ங்க", "body": "- The plural ending is **-கள்**, in speech usually **-ங்க**: குழந்தை → **குழந்தைங்க** 'children'.\n- After a number the noun usually stays singular: ரெண்டு **பையன்** 'two sons'.\n- People get he/she verbs; animals and things are அது 'it'.\n- Boy is **பையன்**, girl is **பொண்ணு** (written பெண்).", "pattern": "குழந்தை → குழந்தைங்க  ·  ரெண்டு பையன்", "grammar": 1 },
+      "new": ["மகன்", "மகள்", "குழந்தை", "பையன்", "பெண்", "ஆண்", "உங்களுக்கு எத்தன குழந்தைங்க?", "எனக்கு ஒரு பையன், ஒரு பொண்ணு."],
+      "sentences": [
+        { "native": "உங்களுக்குக் குழந்தைங்க இருக்காங்களா?", "roman": "ungaḷukkuk kuḻandainga irukkāngaḷā?", "en": "Do you have children?", "focus": "குழந்தைங்க", "wrong": ["குழந்தைக்கு|kuḻandaikku", "குழந்தையோட|kuḻandaiyōḍa"] },
+        { "native": "எனக்கு ரெண்டு பையன்.", "roman": "enakku reṇḍu paiyan.", "en": "I have two sons.", "focus": "பையன்", "wrong": ["பையனுக்கு|paiyanukku", "பையனோட|paiyanōḍa"] },
+        { "native": "என் மகன் பேரு அருண்.", "roman": "en magan pēru Aruṇ.", "en": "My son's name is Arun." },
+        { "native": "அவங்க மகள் லண்டன்ல இருக்கா.", "roman": "avanga magaḷ Laṇḍanla irukkā.", "en": "Her daughter lives in London.", "focus": "இருக்கா", "wrong": ["இருக்கான்|irukkān", "இருக்கு|irukku"] },
+        { "native": "அவங்க குழந்தைங்க இங்க இல்ல.", "roman": "avanga kuḻandainga inga illa.", "en": "Their children aren't here.", "focus": "குழந்தைங்க", "wrong": ["குழந்தைக்கு|kuḻandaikku", "குழந்தையோட|kuḻandaiyōḍa"] },
+        { "native": "இந்தப் பொண்ணு யாரு?", "roman": "indap poṇṇu yāru?", "en": "Who's this girl?", "focus": "பொண்ணு", "wrong": ["பையன்|paiyan", "அம்மா|ammā"] },
+        { "native": "ஆண் குழந்தையா, பெண் குழந்தையா?", "roman": "āṇ kuḻandaiyā, peṇ kuḻandaiyā?", "en": "Is it a boy or a girl? (a baby)" },
+        { "native": "குழந்தை எங்க?", "roman": "kuḻandai enga?", "en": "Where's the baby?" }
+      ]
+    },
+    {
+      "title": "Husbands, wives and uncles",
+      "tip": { "title": "Aunts and uncles have exact names", "body": "- Dad's side: **சித்தப்பா** (Dad's younger brother), **பெரியப்பா** (Dad's elder brother), **அத்தை** (Dad's sister). Mum's brother is **மாமா**.\n- Whose relative: add **-ஓட**: அம்மா**வோட** தங்கச்சி.\n- 'Are you married?' is 'has your wedding happened?': கல்யாணம் **ஆயிடுச்சா?** → ஆயிடுச்சு / இன்னும் **ஆகல** 'not yet'.", "pattern": "அப்பாவோட தம்பி = சித்தப்பா" },
+      "new": ["கணவர்", "மனைவி", "கல்யாணம்", "மாமா", "அத்தை", "சித்தப்பா", "பெரியப்பா", "உங்களுக்குக் கல்யாணம் ஆயிடுச்சா?", "இன்னும் ஆகல.", "அவங்க என் அம்மாவோட தங்கச்சி."],
+      "sentences": [
+        { "native": "இவரு என் கணவர்.", "roman": "ivaru en kaṇavar.", "en": "This is my husband." },
+        { "native": "இவங்க என் மனைவி.", "roman": "ivanga en manaivi.", "en": "This is my wife.", "focus": "இவங்க", "wrong": ["இவன்|ivan", "இது|idu"] },
+        { "native": "என் மாமா அம்மாவோட தம்பி.", "roman": "en māmā ammāvōḍa tambi.", "en": "My māmā is my mum's younger brother.", "focus": "அம்மாவோட", "wrong": ["அப்பாவோட|appāvōḍa", "அம்மாவுக்கு|ammāvukku"] },
+        { "native": "அத்தை அப்பாவோட அக்கா.", "roman": "attai appāvōḍa akkā.", "en": "Attai is Dad's elder sister.", "focus": "அப்பாவோட", "wrong": ["அம்மாவோட|ammāvōḍa", "அப்பாவுக்கு|appāvukku"] },
+        { "native": "சித்தப்பா அப்பாவோட தம்பி.", "roman": "sittappā appāvōḍa tambi.", "en": "Chithappa is Dad's younger brother.", "focus": "தம்பி", "wrong": ["அண்ணன்|aṇṇan", "அக்கா|akkā"] },
+        { "native": "பெரியப்பா அப்பாவோட அண்ணன்.", "roman": "periyappā appāvōḍa aṇṇan.", "en": "Periyappa is Dad's elder brother.", "focus": "அண்ணன்", "wrong": ["தம்பி|tambi", "தங்கச்சி|tangacchi"] },
+        { "native": "அவருக்குக் கல்யாணம் ஆயிடுச்சு.", "roman": "avarukkuk kalyāṇam āyiḍucchu.", "en": "He's married.", "focus": "ஆயிடுச்சு", "wrong": ["ஆகல|āgala", "ஆயிடுச்சா|āyiḍucchā"] },
+        { "native": "எனக்கு இன்னும் கல்யாணம் ஆகல.", "roman": "enakku innum kalyāṇam āgala.", "en": "I'm not married yet.", "focus": "ஆகல", "wrong": ["ஆயிடுச்சு|āyiḍucchu", "ஆயிடுச்சா|āyiḍucchā"] },
+        { "native": "உங்க கணவர் எங்க இருக்காரு?", "roman": "unga kaṇavar enga irukkāru?", "en": "Where's your husband?" },
+        { "native": "அக்காவோட கல்யாணம் எப்போ?", "roman": "akkāvōḍa kalyāṇam eppō?", "en": "When is your (elder) sister's wedding?" }
+      ]
+    },
+    {
+      "title": "Friends, and calling strangers \"brother\"",
+      "tip": { "title": "Family words for everyone", "body": "- Tamils address people with kinship words: a man a bit older than you is **அண்ணா**, a young man **தம்பி**, a woman your age **அக்கா**, an older woman **அம்மா**.\n- Note the calling form: அண்ணன் → **அண்ணா!**\n- Ask after the whole family with **எல்லாரும்** 'everyone'." },
+      "new": [
+        "நண்பன்",
+        "தோழி",
+        "ஆள்",
+        "மக்கள்",
+        "உறவினர்",
+        "இவங்க யாரு?",
+        "அண்ணா, ஒரு நிமிஷம்!",
+        "உங்க வீட்டுல எல்லாரும் எப்படி இருக்காங்க?"
+      ],
+      "sentences": [
+        { "native": "அண்ணா, இங்க வாங்க!", "roman": "aṇṇā, inga vānga!", "en": "Excuse me (brother), come here please!", "focus": "அண்ணா", "wrong": ["அண்ணன்|aṇṇan", "அண்ணனோட|aṇṇanōḍa"] },
+        { "native": "அம்மா, எப்படி இருக்கீங்க?", "roman": "ammā, eppaḍi irukkīnga?", "en": "How are you, ma’am? (to an older woman)", "focus": "அம்மா", "wrong": ["தம்பி|tambi", "அப்பா|appā"] },
+        { "native": "அக்கா, உங்க பேரு என்ன?", "roman": "akkā, unga pēru enna?", "en": "What's your name? (to a young woman)", "focus": "அக்கா", "wrong": ["அண்ணா|aṇṇā", "தம்பி|tambi"] },
+        { "native": "அவன் என் நண்பன்.", "roman": "avan en naṇban.", "en": "He's my friend.", "focus": "நண்பன்", "wrong": ["தோழி|tōḻi", "அக்கா|akkā"] },
+        { "native": "அவ என் தோழி இல்ல, என் தங்கச்சி.", "roman": "ava en tōḻi illa, en tangacchi.", "en": "She's not my friend, she's my younger sister.", "focus": "தோழி", "wrong": ["நண்பன்|naṇban", "அண்ணன்|aṇṇan"] },
+        { "native": "அந்த ஆளு யாரு?", "roman": "anda āḷu yāru?", "en": "Who is that man?" },
+        { "native": "அவரு என் உறவினர்.", "roman": "avaru en uravinar.", "en": "He's a relative of mine." },
+        { "native": "உங்க வீட்டுல எல்லாரும் நல்லா இருக்காங்களா?", "roman": "unga vīṭṭula ellārum nallā irukkāngaḷā?", "en": "Is everyone at home well?" },
+        { "native": "ஆமா, எல்லாரும் நல்லா இருக்காங்க.", "roman": "āmā, ellārum nallā irukkānga.", "en": "Yes, everyone's fine.", "focus": "இருக்காங்க", "wrong": ["இருக்கேன்|irukkēn", "இருக்கு|irukku"] },
+        { "native": "இங்க மக்கள் எல்லாரும் தமிழ் பேசுவாங்க.", "roman": "inga makkaḷ ellārum tamiḻ pēsuvānga.", "en": "People here all speak Tamil." }
+      ]
+    }
+  ]
 }

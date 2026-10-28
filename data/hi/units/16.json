@@ -101,5 +101,103 @@
       { "speaker": "Nisha", "native": "बहुत अच्छे लोग थे! आपकी क़िस्मत अच्छी है।", "roman": "bahut achchhe log the! āpkī qismat achchhī hai.", "en": "What nice people! You're lucky." }
     ]
   },
-  "culture": "**आपने खाना खाया?** 'Have you eaten?' is a common, caring question from elders and hosts — say हाँ, खा लिया even if you just had a snack, or expect to be fed! When telling stories, Hindi speakers often switch into the present tense for drama, and use lots of **फिर** 'then' and **तो** 'so'. Note how David refers to the helpful stranger with the respectful plural (उन्होंने) — older people you don't know are always spoken about respectfully, even behind their backs."
+  "culture": "**आपने खाना खाया?** 'Have you eaten?' is a common, caring question from elders and hosts — say हाँ, खा लिया even if you just had a snack, or expect to be fed! When telling stories, Hindi speakers often switch into the present tense for drama, and use lots of **फिर** 'then' and **तो** 'so'. Note how David refers to the helpful stranger with the respectful plural (उन्होंने) — older people you don't know are always spoken about respectfully, even behind their backs.",
+  "lessons": [
+    {
+      "title": "Where did you go?",
+      "tip": { "title": "मैं गया, मैं गई — went", "body": "- The simple past changes like an adjective: **-आ** (m), **-ई** (f), **-ए** (pl / आप / तुम): मैं आया, मैं आई, हम आए.\n- Irregular: जाना → **गया / गई / गए**, होना → **हुआ / हुई / हुए**.\n- Verbs with no object (go, come, arrive, sleep) just agree with the subject.\n- Adding **था** is very common for a finished event: मैं दिल्ली गया **था**.", "pattern": "मैं गया (m)  ·  मैं गई (f)  ·  हम गए", "grammar": 0 },
+      "new": ["पिछला", "तब", "यात्रा", "पार्टी", "अभी-अभी", "मैं बाज़ार गई थी।", "फिर क्या हुआ?", "हम पिछले साल भारत आए थे।"],
+      "sentences": [
+        { "native": "मैं कल दिल्ली गया।", "roman": "maiṃ kal Dillī gayā.", "en": "I went to Delhi yesterday. (man)", "focus": "गया", "wrong": ["गई|gaī", "गए|gaye"] },
+        { "native": "वह पिछले हफ़्ते भारत आई।", "roman": "vah pichhle hafte bhārat āī.", "en": "She came to India last week.", "focus": "आई", "wrong": ["आया|āyā", "आए|āye"] },
+        { "native": "तुम पार्टी में क्यों नहीं आए?", "roman": "tum pārṭī meṃ kyoṃ nahīṃ āye?", "en": "Why didn't you come to the party?", "focus": "आए", "wrong": ["आया|āyā", "आता|ātā"] },
+        { "native": "हम रात को देर से पहुँचे।", "roman": "ham rāt ko der se pahuṃche.", "en": "We got in late at night.", "focus": "पहुँचे", "wrong": ["पहुँचा|pahuṃchā", "पहुँची|pahuṃchī"] },
+        { "native": "यात्रा कैसी रही?", "roman": "yātrā kaisī rahī?", "en": "How was the trip?", "focus": "रही", "wrong": ["रहा|rahā", "रहे|rahe"] },
+        { "native": "पार्टी बहुत अच्छी थी।", "roman": "pārṭī bahut achchhī thī.", "en": "The party was really good.", "focus": "थी", "wrong": ["था|thā", "थे|the"] },
+        { "native": "मैं अभी-अभी आया हूँ।", "roman": "maiṃ abhī-abhī āyā hūṃ.", "en": "I've only just arrived. (man)", "focus": "आया", "wrong": ["आई|āī", "आए|āye"] },
+        { "native": "तब मैं घर पर नहीं था।", "roman": "tab maiṃ ghar par nahīṃ thā.", "en": "I wasn't at home then. (man)", "focus": "था", "wrong": ["थी|thī", "थे|the"] },
+        { "native": "पिछली बार हम ट्रेन से गए थे।", "roman": "pichhlī bār ham ṭren se gaye the.", "en": "Last time we went by train.", "focus": "गए", "wrong": ["गया|gayā", "गई|gaī"] },
+        { "native": "फिर हम घर वापस आए।", "roman": "phir ham ghar vāpas āye.", "en": "Then we came back home.", "focus": "आए", "wrong": ["आया|āyā", "आई|āī"] }
+      ]
+    },
+    {
+      "title": "What did you do?",
+      "tip": { "title": "मैंने चाय पी — the ने past", "body": "- With verbs that take an object (eat, see, do, buy, say), the doer takes **ने**: मैं → **मैंने**, वह → **उसने**, आप → **आपने**, हम → **हमने**.\n- The verb agrees with the **thing**, not the person: मैंने चाय **पी** (f), मैंने खाना **खाया** (m).\n- With **को** on a person, it stays **-आ**: मैंने उसको **देखा**.\n- Irregular: करना → **किया**, लेना → **लिया**.", "pattern": "मैंने + object + verb (agrees with the object)", "grammar": 1 },
+      "new": ["ने", "कहना", "पूछना", "भेजना", "ख़बर", "कल आपने क्या किया?", "मैंने एक फ़िल्म देखी।", "आपने खाना खाया?", "हाँ, खा लिया।", "किसने कहा?"],
+      "sentences": [
+        { "native": "हमने दाल और चावल खाए।", "roman": "hamne dāl aur chāval khāye.", "en": "We had dal and rice.", "focus": "हमने", "wrong": ["हम|ham", "हमें|hameṃ"] },
+        { "native": "आपने उससे क्या कहा?", "roman": "āpne usse kyā kahā?", "en": "What did you say to him?", "focus": "आपने", "wrong": ["आप|āp", "आपको|āpko"] },
+        { "native": "उसने मुझसे रास्ता पूछा।", "roman": "usne mujhse rāstā pūchhā.", "en": "He asked me the way.", "focus": "उसने", "wrong": ["वह|vah", "उसको|usko"] },
+        { "native": "मैंने माँ को पैसे भेजे।", "roman": "maiṃne māṃ ko paise bheje.", "en": "I sent Mum some money.", "focus": "भेजे", "wrong": ["भेजा|bhejā", "भेजी|bhejī"] },
+        { "native": "तुमने ख़बर सुनी?", "roman": "tumne xabar sunī?", "en": "Did you hear the news?", "focus": "सुनी", "wrong": ["सुना|sunā", "सुने|sune"] },
+        { "native": "मैंने दो कमीज़ें ख़रीदीं।", "roman": "maiṃne do kamīzeṃ xarīdīṃ.", "en": "I bought two shirts.", "focus": "ख़रीदीं", "wrong": ["ख़रीदा|xarīdā", "ख़रीदे|xarīde"] },
+        { "native": "उसने मुझे सब कुछ बताया।", "roman": "usne mujhe sab kuchh batāyā.", "en": "She told me everything.", "focus": "बताया", "wrong": ["बताई|batāī", "बताए|batāye"] },
+        { "native": "आपने आज की ख़बरें देखीं?", "roman": "āpne āj kī xabareṃ dekhīṃ?", "en": "Have you seen today's news?", "focus": "देखीं", "wrong": ["देखा|dekhā", "देखे|dekhe"] },
+        { "native": "मैंने उसको पार्टी में देखा।", "roman": "maiṃne usko pārṭī meṃ dekhā.", "en": "I saw her at the party.", "focus": "देखा", "wrong": ["देखी|dekhī", "देखे|dekhe"] },
+        { "native": "क्या तुमने दवा ली?", "roman": "kyā tumne davā lī?", "en": "Did you take your medicine?", "focus": "ली", "wrong": ["लिया|liyā", "लिए|liye"] },
+        { "native": "उसने क्या पूछा?", "roman": "usne kyā pūchhā?", "en": "What did she ask?" }
+      ]
+    },
+    {
+      "title": "Lost, broken, forgotten",
+      "tip": { "title": "It broke vs. I broke it", "body": "- Things that happen *by themselves* use **गया** and no ने: फ़ोन **खो गया** 'the phone got lost', गिलास **टूट गया** 'the glass broke', मैं **भूल गया** 'I forgot'.\n- If someone *did* it, use the ने past: **किसने** तोड़ा? 'who broke it?'\n- **लाना** 'bring' never takes ने: वह फूल **लाया**." },
+      "new": [
+        "खोना",
+        "गिरना",
+        "टूटना",
+        "तोड़ना",
+        "भूलना",
+        "लाना",
+        "मेरा फ़ोन खो गया।",
+        "मैं भूल गया।",
+        "मैंने उसे फ़ोन किया, पर उसने नहीं उठाया।"
+      ],
+      "sentences": [
+        { "native": "मेरी चाबी खो गई।", "roman": "merī chābī kho gaī.", "en": "I've lost my key.", "focus": "गई", "wrong": ["गया|gayā", "गए|gaye"] },
+        { "native": "गिलास गिर गया और टूट गया।", "roman": "gilās gir gayā aur ṭūṭ gayā.", "en": "The glass fell and broke.", "focus": "टूट", "wrong": ["तोड़|toṛ", "टूटी|ṭūṭī"] },
+        { "native": "यह किसने तोड़ा?", "roman": "yah kisne toṛā?", "en": "Who broke this?", "focus": "किसने", "wrong": ["कौन|kaun", "किसको|kisko"] },
+        { "native": "माफ़ कीजिए, मैंने खिड़की तोड़ दी।", "roman": "māf kījiye, maiṃne khiṛkī toṛ dī.", "en": "Sorry, I've broken the window.", "focus": "मैंने", "wrong": ["मैं|maiṃ", "मुझे|mujhe"] },
+        { "native": "मैं तुम्हारा नाम भूल गया।", "roman": "maiṃ tumhārā nām bhūl gayā.", "en": "I've forgotten your name. (man)", "focus": "मैं", "wrong": ["मैंने|maiṃne", "मुझे|mujhe"] },
+        { "native": "वह मिठाई लाई।", "roman": "vah miṭhāī lāī.", "en": "She brought sweets.", "focus": "वह", "wrong": ["उसने|usne", "उसको|usko"] },
+        { "native": "मेरा बच्चा सीढ़ी से गिर गया।", "roman": "merā bachchā sīṛhī se gir gayā.", "en": "My child fell down the stairs.", "focus": "गया", "wrong": ["गई|gaī", "गए|gaye"] },
+        { "native": "क्या तुम पानी लाए?", "roman": "kyā tum pānī lāye?", "en": "Did you bring water?", "focus": "तुम", "wrong": ["तुमने|tumne", "तुम्हें|tumheṃ"] },
+        { "native": "सॉरी, मैं भूल गई।", "roman": "sorī, maiṃ bhūl gaī.", "en": "Sorry, I forgot. (woman)", "focus": "गई", "wrong": ["गया|gayā", "गए|gaye"] },
+        { "native": "मेरा फ़ोन गिर गया, लेकिन टूटा नहीं।", "roman": "merā fon gir gayā, lekin ṭūṭā nahīṃ.", "en": "My phone fell, but it didn't break." }
+      ]
+    },
+    {
+      "title": "When I was little",
+      "tip": { "title": "था — was, used to", "body": "- **था** 'was' agrees: **था** (m), **थी** (f), **थे** (pl / आप), **थीं** (f pl).\n- 'Was doing': मैं सो **रहा था** 'I was sleeping'.\n- 'Used to': बचपन में मैं क्रिकेट **खेलता था**.\n- These never take ने.", "pattern": "verb + रहा था (was doing)  ·  verb-ता था (used to)", "grammar": 2 },
+      "new": ["याद", "बचपन", "पैदा", "जागना", "दिखना", "मुझे याद नहीं।", "मैं उन्नीस सौ नब्बे में पैदा हुआ।"],
+      "sentences": [
+        { "native": "बचपन में मैं हर दिन क्रिकेट खेलता था।", "roman": "bachpan meṃ maiṃ har din krikeṭ kheltā thā.", "en": "As a child I used to play cricket every day.", "focus": "था", "wrong": ["थी|thī", "थे|the"] },
+        { "native": "मुझे बचपन के दोस्त याद आते हैं।", "roman": "mujhe bachpan ke dost yād āte haiṃ.", "en": "I miss my childhood friends." },
+        { "native": "मैं रात को दो बजे तक जाग रहा था।", "roman": "maiṃ rāt ko do baje tak jāg rahā thā.", "en": "I was awake till two in the morning.", "focus": "था", "wrong": ["थी|thī", "थे|the"] },
+        { "native": "आप कहाँ पैदा हुए थे?", "roman": "āp kahāṃ paidā hue the?", "en": "Where were you born?", "focus": "थे", "wrong": ["था|thā", "थी|thī"] },
+        { "native": "मेरी बेटी दिल्ली में पैदा हुई।", "roman": "merī beṭī Dillī meṃ paidā huī.", "en": "My daughter was born in Delhi.", "focus": "हुई", "wrong": ["हुआ|huā", "हुए|hue"] },
+        { "native": "कल रात आसमान में बहुत तारे दिख रहे थे।", "roman": "kal rāt āsmān meṃ bahut tāre dikh rahe the.", "en": "You could see lots of stars last night.", "focus": "थे", "wrong": ["था|thā", "थी|thī"] },
+        { "native": "मुझे याद है, तब हम बहुत छोटे थे।", "roman": "mujhe yād hai, tab ham bahut chhoṭe the.", "en": "I remember, we were very small then.", "focus": "थे", "wrong": ["था|thā", "थी|thī"] },
+        { "native": "वह पहले यहाँ काम करती थी।", "roman": "vah pahle yahāṃ kām kartī thī.", "en": "She used to work here.", "focus": "थी", "wrong": ["था|thā", "थे|the"] },
+        { "native": "जब मैं पहुँचा, सब सो रहे थे।", "roman": "jab maiṃ pahuṃchā, sab so rahe the.", "en": "When I got there, everyone was asleep.", "focus": "थे", "wrong": ["था|thā", "थी|thī"] },
+        { "native": "तुम आज बहुत ख़ुश दिख रही हो।", "roman": "tum āj bahut xush dikh rahī ho.", "en": "You look really happy today. (to a woman)" },
+        { "native": "मुझे उसका नाम याद नहीं आ रहा।", "roman": "mujhe uskā nām yād nahīṃ ā rahā.", "en": "I can't remember her name." }
+      ]
+    },
+    {
+      "title": "Telling what happened",
+      "new": ["हादसा", "अचानक", "जीतना", "हारना", "रोना", "हँसना", "छोड़ना"],
+      "sentences": [
+        { "native": "कल सड़क पर एक हादसा हुआ।", "roman": "kal saṛak par ek hādsā huā.", "en": "There was an accident on the road yesterday." },
+        { "native": "अचानक बत्ती चली गई।", "roman": "achānak battī chalī gaī.", "en": "Suddenly the power went out." },
+        { "native": "हम जीत गए!", "roman": "ham jīt gaye!", "en": "We won!" },
+        { "native": "मैं फिर हार गया।", "roman": "maiṃ phir hār gayā.", "en": "I lost again. (man)" },
+        { "native": "बच्चा क्यों रो रहा है?", "roman": "bachchā kyoṃ ro rahā hai?", "en": "Why is the child crying?" },
+        { "native": "हम बहुत हँसे।", "roman": "ham bahut haṃse.", "en": "We laughed a lot." },
+        { "native": "मैंने वह नौकरी छोड़ दी।", "roman": "maiṃne vah naukrī chhoṛ dī.", "en": "I quit that job." },
+        { "native": "मुझे स्टेशन पर छोड़ दीजिए।", "roman": "mujhe sṭeshan par chhoṛ dījiye.", "en": "Please drop me at the station." },
+        { "native": "हादसे में किसी को चोट नहीं लगी।", "roman": "hādse meṃ kisī ko choṭ nahīṃ lagī.", "en": "Nobody was hurt in the accident." },
+        { "native": "वह अचानक रोने लगी।", "roman": "vah achānak rone lagī.", "en": "She suddenly started crying." }
+      ]
+    }
+  ]
 }

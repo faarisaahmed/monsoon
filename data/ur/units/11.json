@@ -89,5 +89,86 @@
       { "speaker": "Lucy", "native": "یہاں روک دیں۔ یہ لیجیے، شکریہ!", "roman": "yahāṃ rok deṃ. ye lījiye, shukriya!", "en": "Stop here, please. Here you are, thanks!" }
     ]
   },
-  "culture": "Directions in Pakistan are usually given by landmarks — a mosque, a petrol pump, a famous sweet shop — rather than street names. Rickshaw and taxi fares are agreed before you get in (or use a ride-hailing app). On buses and in some rickshaws there may be separate seating for women. Drivers, waiters and shopkeepers are commonly addressed as بھائی or بھائی جان, and women as باجی or آپی."
+  "culture": "Directions in Pakistan are usually given by landmarks — a mosque, a petrol pump, a famous sweet shop — rather than street names. Rickshaw and taxi fares are agreed before you get in (or use a ride-hailing app). On buses and in some rickshaws there may be separate seating for women. Drivers, waiters and shopkeepers are commonly addressed as بھائی or بھائی جان, and women as باجی or آپی.",
+  "lessons": [
+    {
+      "title": "Asking the way",
+      "tip": { "title": "Polite commands: جائیے, مڑیے", "body": "- To a stranger, give or ask directions in the **آپ** form: stem + **-iye**: **جائیے** 'go', **مڑیے** 'turn', **بتائیے** 'tell'.\n- To a friend (**تم**): stem + **-o**: جاؤ, مڑو.\n- Irregular: کرنا → **کیجیے**, so معاف کیجیے = 'excuse me'.\n- 'Don't': put **نہ** before the verb: دائیں نہ مڑیے.", "pattern": "stem + یے (آپ)  ·  stem + و (تم)", "grammar": 0 },
+      "new": ["راستہ", "سڑک", "گلی", "دائیں", "بائیں", "سیدھا", "مڑنا", "اسٹیشن", "معاف کیجیے، اسٹیشن کہاں ہے؟", "سیدھے جائیے، پھر دائیں مڑیے۔"],
+      "sentences": [
+        { "native": "مجھے اسٹیشن کا راستہ بتائیے۔", "roman": "mujhe isṭeshan kā rāsta batā’iye.", "en": "Please tell me the way to the station.", "focus": "بتائیے", "wrong": ["بتاتے|batāte", "بتایا|batāyā"] },
+        { "native": "معاف کیجیے، کیا یہ اسٹیشن کا راستہ ہے؟", "roman": "muʿāf kījiye, kyā ye isṭeshan kā rāsta hai?", "en": "Excuse me, is this the way to the station?", "focus": "کیجیے", "wrong": ["کریے|kariye", "کرتے|karte"] },
+        { "native": "آپ اس سڑک پر سیدھے جائیے۔", "roman": "āp is saṛak par sīdhe jā’iye.", "en": "Go straight along this road.", "focus": "جائیے", "wrong": ["جاؤ|jā’o", "جاتے|jāte"] },
+        { "native": "پھر پہلی گلی میں بائیں مڑیے۔", "roman": "phir pahlī galī meṃ bā’eṃ muṛiye.", "en": "Then turn left into the first lane.", "focus": "مڑیے", "wrong": ["مڑتے|muṛte", "مڑا|muṛā"] },
+        { "native": "جی نہیں، واپس جائیے اور بائیں مڑیے۔", "roman": "jī nahīṃ, vāpas jā’iye aur bā’eṃ muṛiye.", "en": "No, go back and turn left.", "focus": "جائیے", "wrong": ["جاتے|jāte", "گئے|ga’e"] },
+        { "native": "دائیں نہ مڑیے، سیدھے جائیے۔", "roman": "dā’eṃ na muṛiye, sīdhe jā’iye.", "en": "Don't turn right, go straight on.", "focus": "مڑیے", "wrong": ["مڑتے|muṛte", "مڑا|muṛā"] },
+        { "native": "تم سیدھے جاؤ اور دائیں مڑو۔", "roman": "tum sīdhe jā’o aur dā’eṃ muṛo.", "en": "Go straight and turn right. (to a friend)", "focus": "مڑو", "wrong": ["مڑیے|muṛiye", "مڑتے|muṛte"] },
+        { "native": "معاف کیجیے، یہ کون سی سڑک ہے؟", "roman": "muʿāf kījiye, ye kaun sī saṛak hai?", "en": "Excuse me, which road is this?" },
+        { "native": "یہ سڑک بہت لمبی ہے۔", "roman": "ye saṛak bahut lambī hai.", "en": "This road is very long." }
+      ]
+    },
+    {
+      "title": "Near, far and how far",
+      "tip": { "title": "From, up to, towards", "body": "- **سے** = from: یہاں **سے** 'from here'.\n- **تک** = up to, as far as, until: بازار **تک**.\n- **کی طرف** = towards: مسجد **کی طرف**.\n- 'Near' is **کے قریب**; 'far from' is **سے دور**.\n- Going *to* a place needs nothing: میں بازار جا رہا ہوں.", "pattern": "place + سے / تک / کی طرف", "grammar": 1 },
+      "new": ["قریب", "دور", "طرف", "تک", "مسجد", "بینک", "بازار", "یہاں سے کتنی دور ہے؟", "دوسری گلی میں بائیں طرف۔", "پیدل پانچ منٹ کا راستہ ہے۔"],
+      "sentences": [
+        { "native": "کیا بینک یہاں سے بہت دور ہے؟", "roman": "kyā baink yahāṃ se bahut dūr hai?", "en": "Is the bank very far from here?", "focus": "سے", "wrong": ["تک|tak", "پر|par"] },
+        { "native": "نہیں، بینک بہت قریب ہے۔", "roman": "nahīṃ, baink bahut qarīb hai.", "en": "No, the bank is very close." },
+        { "native": "مسجد بازار کے قریب ہے۔", "roman": "masjid bāzār ke qarīb hai.", "en": "The mosque is near the market.", "focus": "کے", "wrong": ["کی|kī", "کا|kā"] },
+        { "native": "یہ سڑک بازار تک جاتی ہے۔", "roman": "ye saṛak bāzār tak jātī hai.", "en": "This road goes as far as the market.", "focus": "تک", "wrong": ["سے|se", "پر|par"] },
+        { "native": "مسجد کی طرف جائیے۔", "roman": "masjid kī taraf jā’iye.", "en": "Go towards the mosque.", "focus": "طرف", "wrong": ["تک|tak", "سے|se"] },
+        { "native": "لاہور سے کراچی بہت دور ہے۔", "roman": "Lāhaur se Karāchī bahut dūr hai.", "en": "Karachi is a long way from Lahore.", "focus": "سے", "wrong": ["تک|tak", "میں|meṃ"] },
+        { "native": "میں بازار سے آ رہا ہوں۔", "roman": "maiṃ bāzār se ā rahā hūṃ.", "en": "I'm coming from the market. (man)", "focus": "سے", "wrong": ["تک|tak", "پر|par"] },
+        { "native": "میں شام تک بازار میں ہوں۔", "roman": "maiṃ shām tak bāzār meṃ hūṃ.", "en": "I'm at the market until the evening.", "focus": "تک", "wrong": ["سے|se", "پر|par"] },
+        { "native": "بینک بائیں طرف ہے، مسجد کے سامنے۔", "roman": "baink bā’eṃ taraf hai, masjid ke sāmne.", "en": "The bank is on the left, opposite the mosque." }
+      ]
+    },
+    {
+      "title": "Corners, squares and bridges",
+      "tip": { "title": "At the corner: کونے پر", "body": "- Before a postposition (پر، میں، سے، تک) a masculine noun in **-ā / -a** changes to **-e**: کونا → **کونے** پر, اڈہ → بس **اڈے** پر, راستہ → **راستے** میں.\n- 'Next' does the same: اگلا → **اگلے** چوک پر.\n- Other nouns stay as they are: چوک پر, پل پر.", "pattern": "کونا → کونے + پر", "grammar": 1 },
+      "new": ["چوک", "پل", "کونا", "اڈہ", "پہنچنا", "میں راستہ بھول گیا ہوں۔"],
+      "sentences": [
+        { "native": "اگلے چوک پر دائیں مڑیے۔", "roman": "agle chauk par dā’eṃ muṛiye.", "en": "Turn right at the next roundabout.", "focus": "اگلے", "wrong": ["اگلا|aglā", "اگلی|aglī"] },
+        { "native": "بینک کونے پر ہے۔", "roman": "baink kone par hai.", "en": "The bank is on the corner.", "focus": "کونے", "wrong": ["کونا|konā", "کونوں|konoṃ"] },
+        { "native": "دوسرے کونے پر ایک بینک ہے۔", "roman": "dūsre kone par ek baink hai.", "en": "There's a bank on the other corner.", "focus": "کونے", "wrong": ["کونا|konā", "کونوں|konoṃ"] },
+        { "native": "ہم بس اڈے پر ہیں۔", "roman": "ham bas aḍḍe par haiṃ.", "en": "We're at the bus station.", "focus": "اڈے", "wrong": ["اڈہ|aḍḍa", "اڈوں|aḍḍoṃ"] },
+        { "native": "بس اڈہ چوک کے قریب ہے۔", "roman": "bas aḍḍa chauk ke qarīb hai.", "en": "The bus station is near the roundabout.", "focus": "اڈہ", "wrong": ["اڈے|aḍḍe", "اڈوں|aḍḍoṃ"] },
+        { "native": "میں راستے میں ہوں، دس منٹ میں پہنچ رہا ہوں۔", "roman": "maiṃ rāste meṃ hūṃ, das minaṭ meṃ pahuṃch rahā hūṃ.", "en": "I'm on my way, I'll be there in ten minutes. (man)", "focus": "راستے", "wrong": ["راستہ|rāsta", "راستوں|rāstoṃ"] },
+        { "native": "پل کی دوسری طرف ایک مسجد ہے۔", "roman": "pul kī dūsrī taraf ek masjid hai.", "en": "There's a mosque on the other side of the bridge." },
+        { "native": "معاف کیجیے، میں راستہ بھول گئی ہوں۔", "roman": "muʿāf kījiye, maiṃ rāsta bhūl ga’ī hūṃ.", "en": "Excuse me, I'm lost. (woman)" }
+      ]
+    },
+    {
+      "title": "Taking a rickshaw",
+      "tip": { "title": "Softer: رکیں, چلیں and ذرا", "body": "- Stem + **-eṃ** is the everyday polite form: **رکیں** 'stop', **بیٹھیں** 'sit'. **چلیں** also means 'let's go'.\n- **ذرا** 'just' softens any request: ذرا رکیے.\n- To hire a rickshaw ask **… چلیں گے؟** 'will you go to …?'\n- 'Don't' is **نہ** before the verb: یہاں نہ رکیں.", "pattern": "ذرا + stem + یں / یے", "grammar": 0 },
+      "new": ["رکشہ", "ٹیکسی", "رکنا", "چلنا", "بھائی، صدر چلیں گے؟", "کتنے پیسے لیں گے؟", "یہاں روک دیں۔", "ذرا آہستہ چلائیے۔"],
+      "sentences": [
+        { "native": "بھائی، ذرا یہاں رکیں۔", "roman": "bhā’ī, zarā yahāṃ rukeṃ.", "en": "Could you just stop here, please?", "focus": "رکیں", "wrong": ["رکتے|rukte", "رکا|rukā"] },
+        { "native": "رکشہ! اسٹیشن چلیں گے؟", "roman": "riksha! isṭeshan chaleṃ ge?", "en": "Rickshaw! Will you go to the station?" },
+        { "native": "چلیں، ہم ٹیکسی لیتے ہیں۔", "roman": "chaleṃ, ham ṭaiksī lete haiṃ.", "en": "Come on, let's take a taxi.", "focus": "چلیں", "wrong": ["چلتے|chalte", "چلا|chalā"] },
+        { "native": "ٹیکسی میں بیٹھیے۔", "roman": "ṭaiksī meṃ baiṭhiye.", "en": "Get in the taxi.", "focus": "بیٹھیے", "wrong": ["بیٹھتے|baiṭhte", "بیٹھا|baiṭhā"] },
+        { "native": "یہاں نہ رکیں، پل کے بعد رکیں۔", "roman": "yahāṃ na rukeṃ, pul ke baʿd rukeṃ.", "en": "Don't stop here, stop after the bridge.", "focus": "رکیں", "wrong": ["رکتے|rukte", "رکا|rukā"] },
+        { "native": "ذرا جلدی چلیے، مجھے دیر ہو رہی ہے۔", "roman": "zarā jaldī chaliye, mujhe der ho rahī hai.", "en": "Please go a bit faster, I'm running late.", "focus": "چلیے", "wrong": ["چلتے|chalte", "چلا|chalā"] },
+        { "native": "ٹیکسی نہیں، رکشہ لیجیے۔", "roman": "ṭaiksī nahīṃ, riksha lījiye.", "en": "Not a taxi, take a rickshaw.", "focus": "لیجیے", "wrong": ["لیتے|lete", "لیا|liyā"] },
+        { "native": "بھائی، آہستہ چلائیے، بچے ساتھ ہیں۔", "roman": "bhā’ī, āhista chalā’iye, bachche sāth haiṃ.", "en": "Drive slowly, please, I've got the children with me.", "focus": "چلائیے", "wrong": ["چلاتے|chalāte", "چلایا|chalāyā"] },
+        { "native": "ہم پیدل چلتے ہیں، بازار قریب ہے۔", "roman": "ham paidal chalte haiṃ, bāzār qarīb hai.", "en": "Let's walk, the market is close." }
+      ]
+    },
+    {
+      "title": "Buses, trains and tickets",
+      "tip": { "title": "I need to …: مجھے اترنا ہے", "body": "- To say you **need to** do something: **مجھے** + verb in **-nā** + **ہے**: مجھے اترنا ہے 'I need to get off'.\n- The person takes **کو**, not میں: مجھے, ہمیں, آپ کو.\n- Ask: آپ کو کہاں جانا ہے؟ 'Where do you need to go?'", "pattern": "مجھے + verb-nā + ہے" },
+      "new": ["بس", "ٹرین", "گاڑی", "ٹکٹ", "اترنا", "ہوائی اڈہ", "یہ بس کہاں جاتی ہے؟", "مجھے اگلے اسٹاپ پر اترنا ہے۔"],
+      "sentences": [
+        { "native": "مجھے ہوائی اڈے جانا ہے۔", "roman": "mujhe havā’ī aḍḍe jānā hai.", "en": "I need to go to the airport.", "focus": "مجھے", "wrong": ["میں|maiṃ", "میرا|merā"] },
+        { "native": "آپ کو کہاں جانا ہے؟", "roman": "āp ko kahāṃ jānā hai?", "en": "Where do you need to go?", "focus": "کو", "wrong": ["کا|kā", "سے|se"] },
+        { "native": "مجھے اسٹیشن پر ٹکٹ لینا ہے۔", "roman": "mujhe isṭeshan par ṭikaṭ lenā hai.", "en": "I need to get a ticket at the station.", "focus": "لینا", "wrong": ["لیتا|letā", "لیا|liyā"] },
+        { "native": "ہمیں اگلے چوک پر اترنا ہے۔", "roman": "hameṃ agle chauk par utarnā hai.", "en": "We need to get off at the next roundabout.", "focus": "ہمیں", "wrong": ["ہم|ham", "ہمارا|hamārā"] },
+        { "native": "آپ کو کس اسٹاپ پر اترنا ہے؟", "roman": "āp ko kis isṭāp par utarnā hai?", "en": "Which stop do you need to get off at?", "focus": "اترنا", "wrong": ["اترتا|utartā", "اترا|utrā"] },
+        { "native": "مجھے آج ٹرین سے کراچی جانا ہے۔", "roman": "mujhe āj ṭren se Karāchī jānā hai.", "en": "I have to go to Karachi by train today.", "focus": "جانا", "wrong": ["جاتا|jātā", "گیا|gayā"] },
+        { "native": "لاہور کی ٹرین کب جاتی ہے؟", "roman": "Lāhaur kī ṭren kab jātī hai?", "en": "When does the Lahore train leave?" },
+        { "native": "کیا یہ بس صدر جاتی ہے؟", "roman": "kyā ye bas Sadr jātī hai?", "en": "Does this bus go to Saddar?" },
+        { "native": "میری گاڑی بینک کے سامنے ہے۔", "roman": "merī gāṛī baink ke sāmne hai.", "en": "My car is in front of the bank." }
+      ]
+    }
+  ]
 }

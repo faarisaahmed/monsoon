@@ -84,5 +84,82 @@
       { "speaker": "Sarah", "native": "சரி, இதையே வாங்கலாம்.", "roman": "sari, idaiyē vāngalām.", "en": "OK, let's buy this one." }
     ]
   },
-  "culture": "Colours carry meaning: **white** is traditionally worn at funerals and by widows, while **red, yellow and green** are festive and auspicious — yellow turmeric (மஞ்சள்) is used in nearly every ceremony. Tamils freely use English adjectives in speech ('super', 'nice', 'tight'); சூப்பர்! is one of the most common compliments you will hear."
+  "culture": "Colours carry meaning: **white** is traditionally worn at funerals and by widows, while **red, yellow and green** are festive and auspicious — yellow turmeric (மஞ்சள்) is used in nearly every ceremony. Tamils freely use English adjectives in speech ('super', 'nice', 'tight'); சூப்பர்! is one of the most common compliments you will hear.",
+  "lessons": [
+    {
+      "title": "Colours",
+      "tip": { "title": "The adjective goes before the noun", "body": "- Adjectives go **before** the noun and never change: **வெள்ளை** சட்டை 'a white shirt', **சிவப்பு** புடவை 'a red sari'.\n- நீலம் 'blue' becomes **நீல** before a noun: நீல கலர்.\n- 'It's black' — just put the colour after: கார் **கருப்பு**.\n- Speech often adds கலர்: என்ன கலர்?", "pattern": "colour + noun  ·  noun + colour", "grammar": 0 },
+      "new": ["நிறம்", "சிவப்பு", "பச்சை", "நீலம்", "மஞ்சள்", "கருப்பு", "வெள்ளை", "இது என்ன கலர்?", "எனக்கு நீல கலர் பிடிக்கும்."],
+      "sentences": [
+        { "native": "எனக்கு ஒரு வெள்ளை சட்டை வேணும்.", "roman": "enakku oru veḷḷai saṭṭai vēṇum.", "en": "I want a white shirt.", "focus": "வெள்ளை", "wrong": ["கருப்பு|karuppu", "மஞ்சள்|manjaḷ"] },
+        { "native": "அவரோட கார் கருப்பு.", "roman": "avarōḍa kār karuppu.", "en": "His car is black.", "focus": "கருப்பு", "wrong": ["வெள்ளை|veḷḷai", "சிவப்பு|sivappu"] },
+        { "native": "இந்த சிவப்பு புடவை எவ்வளவு?", "roman": "inda sivappu puḍavai evvaḷavu?", "en": "How much is this red sari?", "focus": "சிவப்பு", "wrong": ["பச்சை|pacchai", "நீலம்|nīlam"] },
+        { "native": "நீல சட்டை இருக்கா?", "roman": "nīla saṭṭai irukkā?", "en": "Do you have a blue shirt?", "focus": "நீல", "wrong": ["நீலம்|nīlam", "பச்சை|pacchai"] },
+        { "native": "மஞ்சள் கலர் எனக்குப் பிடிக்காது.", "roman": "manjaḷ kalar enakkup piḍikkādu.", "en": "I don't like yellow.", "focus": "மஞ்சள்", "wrong": ["வெள்ளை|veḷḷai", "கருப்பு|karuppu"] },
+        { "native": "உங்களுக்கு எந்த கலர் பிடிக்கும்?", "roman": "ungaḷukku enda kalar piḍikkum?", "en": "Which colour do you like?", "focus": "எந்த", "wrong": ["எது|edu", "எங்க|enga"] },
+        { "native": "பச்சை நிறம் ரொம்ப அழகா இருக்கு.", "roman": "pacchai niram romba aḻagā irukku.", "en": "Green is a really beautiful colour." }
+      ]
+    },
+    {
+      "title": "Big and small, tall and short",
+      "tip": { "title": "Big, small: two shapes", "body": "- Before a noun: **பெரிய** வீடு 'a big house', **சின்ன** பையன் 'a little boy'.\n- As the predicate ('it is big / small'): வீடு **பெரிசு**, ரூம் **சின்னது**.\n- Many describing words just follow the noun: அவ ரொம்ப **உயரம்** 'she's very tall'.\n- Negative: பெரிசு **இல்ல**.", "pattern": "பெரிய + noun  ·  noun + பெரிசு", "grammar": 0 },
+      "new": ["பெரிய", "சின்ன", "நீளம்", "உயரம்", "குட்டை", "அவங்க வீடு ரொம்பப் பெரிசு.", "இது பெரிசு, அது சின்னது.", "அவரு உயரமா இருக்காரு."],
+      "sentences": [
+        { "native": "இந்த ரூம் ரொம்ப சின்னது.", "roman": "inda rūm romba sinnadu.", "en": "This room is very small.", "focus": "சின்னது", "wrong": ["சின்ன|sinna", "பெரிய|periya"] },
+        { "native": "எங்க வீடு பெரிசு இல்ல.", "roman": "enga vīḍu perisu illa.", "en": "Our house isn't big.", "focus": "பெரிசு", "wrong": ["பெரிய|periya", "சின்னது|sinnadu"] },
+        { "native": "அவங்களுக்கு ஒரு பெரிய குடும்பம்.", "roman": "avangaḷukku oru periya kuḍumbam.", "en": "They have a big family.", "focus": "பெரிய", "wrong": ["பெரிசு|perisu", "சின்ன|sinna"] },
+        { "native": "அந்த சின்ன பையன் யாரு?", "roman": "anda sinna paiyan yāru?", "en": "Who's that little boy?", "focus": "சின்ன", "wrong": ["சின்னது|sinnadu", "பெரிசு|perisu"] },
+        { "native": "அவ ரொம்ப உயரம்.", "roman": "ava romba uyaram.", "en": "She's very tall.", "focus": "உயரம்", "wrong": ["குட்டை|kuṭṭai", "நீளம்|nīḷam"] },
+        { "native": "என் தம்பி கொஞ்சம் குட்டை.", "roman": "en tambi konjam kuṭṭai.", "en": "My younger brother is a bit short.", "focus": "குட்டை", "wrong": ["உயரம்|uyaram", "நீளம்|nīḷam"] },
+        { "native": "இந்த புடவை ரொம்ப நீளம்.", "roman": "inda puḍavai romba nīḷam.", "en": "This sari is very long.", "focus": "நீளம்", "wrong": ["உயரம்|uyaram", "குட்டை|kuṭṭai"] },
+        { "native": "பெரிய பை வேணுமா, சின்ன பை வேணுமா?", "roman": "periya pai vēṇumā, sinna pai vēṇumā?", "en": "Do you want a big bag or a small one?" }
+      ]
+    },
+    {
+      "title": "New, old, clean, dirty",
+      "tip": { "title": "Adjectives made with -ஆன", "body": "- Many adjectives are a noun + **-ஆன**: அழகு 'beauty' → **அழகான** 'beautiful', சுத்தம் → **சுத்தமான** 'clean'.\n- As the predicate use **-ஆ இருக்கு**: ரூம் **சுத்தமா** இருக்கு.\n- New: **புது** (written புதிய), predicate புதுசு. Old: **பழைய**, predicate **பழசு**.", "pattern": "அழகான + noun  ·  noun + அழகா இருக்கு" },
+      "new": ["புதிய", "பழைய", "அழகான", "கெட்ட", "சுத்தமான", "அழுக்கான", "இந்த சட்டை ரொம்ப அழகா இருக்கு."],
+      "sentences": [
+        { "native": "இது புது சட்டையா?", "roman": "idu pudu saṭṭaiyā?", "en": "Is this a new shirt?", "focus": "புது", "wrong": ["பழசு|paḻasu", "புதுசு|pudusu"] },
+        { "native": "இல்ல, பழைய சட்டை.", "roman": "illa, paḻaiya saṭṭai.", "en": "No, it's an old shirt.", "focus": "பழைய", "wrong": ["பழசு|paḻasu", "புது|pudu"] },
+        { "native": "என் ஃபோன் பழசு.", "roman": "en fōn paḻasu.", "en": "My phone is old.", "focus": "பழசு", "wrong": ["பழைய|paḻaiya", "புது|pudu"] },
+        { "native": "பாத்ரூம் சுத்தமா இல்ல.", "roman": "bātrūm suttamā illa.", "en": "The bathroom isn't clean.", "focus": "சுத்தமா", "wrong": ["சுத்தமான|suttamāna", "அழுக்கான|aḻukkāna"] },
+        { "native": "இது ஒரு அழகான ஊரு.", "roman": "idu oru aḻagāna ūru.", "en": "This is a beautiful town.", "focus": "அழகான", "wrong": ["அழகா|aḻagā", "அழகு|aḻagu"] },
+        { "native": "சட்டை அழுக்கா இருக்கு.", "roman": "saṭṭai aḻukkā irukku.", "en": "The shirt is dirty.", "focus": "அழுக்கா", "wrong": ["அழுக்கான|aḻukkāna", "சுத்தமா|suttamā"] },
+        { "native": "சுத்தமான தண்ணி இருக்கா?", "roman": "suttamāna taṇṇi irukkā?", "en": "Is there clean water?", "focus": "சுத்தமான", "wrong": ["சுத்தமா|suttamā", "அழுக்கான|aḻukkāna"] },
+        { "native": "அவன் கெட்ட பையன் இல்ல.", "roman": "avan keṭṭa paiyan illa.", "en": "He's not a bad boy." }
+      ]
+    },
+    {
+      "title": "Hot, cold, heavy, light",
+      "tip": { "title": "'It is hot': -ஆ இருக்கு", "body": "- Say how something **is** with **-ஆ இருக்கு**: **சூடா** இருக்கு 'it's hot', **கனமா** 'heavy', **லேசா** 'light', **ருசியா** 'tasty', **வேகமா** 'fast'.\n- Before a noun use **-ஆன**: **சூடான** காபி, **கனமான** பை.\n- 'Chilled' in speech is **ஜில்லுனு** (written குளிர்ந்த).", "pattern": "noun + சூடா இருக்கு  ·  சூடான + noun", "grammar": 0 },
+      "new": ["சூடான", "குளிர்ந்த", "கனமான", "லேசான", "ருசியான", "வேகமான", "காபி ரொம்ப சூடா இருக்கு.", "பை ரொம்பக் கனமா இருக்கு."],
+      "sentences": [
+        { "native": "ஒரு சூடான காபி குடுங்க.", "roman": "oru sūḍāna kāpi kuḍunga.", "en": "A hot coffee, please.", "focus": "சூடான", "wrong": ["சூடா|sūḍā", "சூடு|sūḍu"] },
+        { "native": "இட்லி சூடா இருக்கா?", "roman": "iḍli sūḍā irukkā?", "en": "Are the idlis hot?", "focus": "சூடா", "wrong": ["சூடான|sūḍāna", "சூடு|sūḍu"] },
+        { "native": "இந்தப் பை கனமா இல்ல, லேசா இருக்கு.", "roman": "indap pai ganamā illa, lēsā irukku.", "en": "This bag isn't heavy, it's light.", "focus": "லேசா", "wrong": ["கனமா|ganamā", "லேசான|lēsāna"] },
+        { "native": "குளிர்ந்த தண்ணி வேணுமா?", "roman": "kuḷirnda taṇṇi vēṇumā?", "en": "Would you like cold water?", "focus": "குளிர்ந்த", "wrong": ["சூடான|sūḍāna", "லேசான|lēsāna"] },
+        { "native": "தண்ணி ஜில்லுனு இருக்கு.", "roman": "taṇṇi jillunu irukku.", "en": "The water is nice and cold." },
+        { "native": "ருசியான சாப்பாடு!", "roman": "rusiyāna sāppāḍu!", "en": "Delicious food!", "focus": "ருசியான", "wrong": ["ருசியா|rusiyā", "ருசி|rusi"] },
+        { "native": "கனமான பை எனக்கு வேணாம்.", "roman": "ganamāna pai enakku vēṇām.", "en": "I don't want a heavy bag.", "focus": "கனமான", "wrong": ["கனமா|ganamā", "லேசான|lēsāna"] },
+        { "native": "அவன் ரொம்ப வேகமா பேசுவான்.", "roman": "avan romba vēgamā pēsuvān.", "en": "He talks very fast.", "focus": "வேகமா", "wrong": ["மெதுவா|meduvā", "வேகமான|vēgamāna"] },
+        { "native": "இது ரொம்ப வேகமான கார்.", "roman": "idu romba vēgamāna kār.", "en": "This is a very fast car." }
+      ]
+    },
+    {
+      "title": "Easy or hard? Comparing",
+      "tip": { "title": "'Than' is -ஐ விட", "body": "- Tamil has no '-er'. Put the thing you compare against in **-ஐ** (spoken **-அ**) + **விட** 'than': இட்லி**யவிட** தோசை பிடிக்கும் 'I like dosa more than idli'.\n- 'The most / best': **எல்லாத்தையும் விட** (things), **எல்லாரையும் விட** (people).\n- 'Even more' is இன்னும்.", "pattern": "X-அவிட + Y + adjective", "grammar": 1 },
+      "new": ["சுலபம்", "கஷ்டம்", "விட", "மிக", "தமிழ் கஷ்டமா?", "இல்ல, ரொம்பக் கஷ்டம் இல்ல.", "இது அதவிட நல்லா இருக்கு."],
+      "sentences": [
+        { "native": "தமிழ் கஷ்டம் இல்ல, சுலபம்!", "roman": "tamiḻ kashṭam illa, sulabam!", "en": "Tamil isn't hard, it's easy!", "focus": "சுலபம்", "wrong": ["கஷ்டம்|kashṭam", "கனமா|ganamā"] },
+        { "native": "இங்கிலீஷவிட தமிழ் கஷ்டமா?", "roman": "inglīshaviḍa tamiḻ kashṭamā?", "en": "Is Tamil harder than English?", "focus": "இங்கிலீஷவிட", "wrong": ["இங்கிலீஷ்|inglīsh", "இங்கிலீஷுக்கு|inglīshukku"] },
+        { "native": "இந்த வீட்டவிட அந்த வீடு பெரிசு.", "roman": "inda vīṭṭaviḍa anda vīḍu perisu.", "en": "That house is bigger than this one.", "focus": "வீட்டவிட", "wrong": ["வீடு|vīḍu", "வீட்டுல|vīṭṭula"] },
+        { "native": "அண்ணனவிட தம்பி உயரம்.", "roman": "aṇṇanaviḍa tambi uyaram.", "en": "The younger brother is taller than the elder one.", "focus": "அண்ணனவிட", "wrong": ["அண்ணன்|aṇṇan", "அண்ணனுக்கு|aṇṇanukku"] },
+        { "native": "இட்லியவிட தோசை எனக்குப் பிடிக்கும்.", "roman": "iḍliyaviḍa dōsai enakkup piḍikkum.", "en": "I like dosa more than idli.", "focus": "இட்லியவிட", "wrong": ["இட்லி|iḍli", "இட்லிக்கு|iḍlikku"] },
+        { "native": "சென்னையவிட இங்க ரொம்ப சூடா இருக்கு.", "roman": "Chennaiyaviḍa inga romba sūḍā irukku.", "en": "It's much hotter here than in Chennai.", "focus": "சென்னையவிட", "wrong": ["சென்னை|Chennai", "சென்னையில|Chennaiyila"] },
+        { "native": "இது எல்லாத்தையும் விட சுலபம்.", "roman": "idu ellāttaiyum viḍa sulabam.", "en": "This is the easiest of all.", "focus": "விட", "wrong": ["மிக|miga", "மட்டும்|maṭṭum"] },
+        { "native": "மதுரை ஒரு மிக அழகான ஊர்.", "roman": "Madurai oru miga aḻagāna ūr.", "en": "Madurai is a very beautiful town. (formal)" }
+      ]
+    }
+  ]
 }

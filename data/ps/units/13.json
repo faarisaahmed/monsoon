@@ -85,5 +85,88 @@
       { "speaker": "Shabnam", "native": "ګرمې جامې مه راوړه، دلته اړتيا نشته!", "roman": "gárme jā́me ma rāwṛá, dálta aṛtiyā́ nə́shta!", "en": "Don't bring warm clothes — you won't need them here!" }
     ]
   },
-  "culture": "Pashtun life follows the seasons. **Spring** (پسرلی) is celebrated in poetry and song as the season of love and flowers; in Jalalabad the orange blossom festival (د نارنج ګل) draws visitors, and in Afghanistan Nowruz picnics welcome the new year. **Summer** sends Peshawar and Kandahar families to the cool mountain valleys; **winter** brings heavy snow to Kabul and the high passes, when families gather around the **صندلي** (a low table over a charcoal brazier, covered with a quilt). Rain is a blessing in this dry region, and people often say د خدای رحمت دی 'it's God's mercy' when it rains."
+  "culture": "Pashtun life follows the seasons. **Spring** (پسرلی) is celebrated in poetry and song as the season of love and flowers; in Jalalabad the orange blossom festival (د نارنج ګل) draws visitors, and in Afghanistan Nowruz picnics welcome the new year. **Summer** sends Peshawar and Kandahar families to the cool mountain valleys; **winter** brings heavy snow to Kabul and the high passes, when families gather around the **صندلي** (a low table over a charcoal brazier, covered with a quilt). Rain is a blessing in this dry region, and people often say د خدای رحمت دی 'it's God's mercy' when it rains.",
+  "lessons": [
+    {
+      "title": "What's the weather like?",
+      "tip": { "title": "No 'it' in weather talk", "body": "- Pashto has no dummy 'it': the weather itself is the subject. ګرمي **ده** 'it's hot' (lit. heat is), يخ **دی** 'it's cold'.\n- **هوا** is feminine, so its adjectives end in -a: هوا ګرم**ه** / يخ**ه** / تود**ه** ده.\n- ډېر agrees too: ډېر**ه** ګرمي، ډېر يخ.", "pattern": "هوا + ګرمه / يخه + ده", "grammar": 0 },
+      "new": ["هوا", "ګرمي", "يخ", "يخني", "تودوخه", "نن هوا څنګه ده؟", "نن ډېره ګرمي ده.", "ډېر يخ دی."],
+      "sentences": [
+        { "native": "نن هوا ډېره ښه ده.", "roman": "nən hawā́ ḍéra ṣa da.", "en": "The weather is lovely today.", "focus": "ډېره", "wrong": ["ډېر|ḍer", "ډېرې|ḍére"] },
+        { "native": "هوا ګرمه ده؟", "roman": "hawā́ gárma da?", "en": "Is it hot out?", "focus": "ګرمه", "wrong": ["ګرم|garm", "ګرمې|gárme"] },
+        { "native": "په کابل کې هوا يخه ده؟", "roman": "pə kābúl ke hawā́ yáxa da?", "en": "Is it cold in Kabul?", "focus": "يخه", "wrong": ["يخ|yax", "يخې|yáxe"] },
+        { "native": "اوس ډېره ګرمي ده، پکه چالانه کړه.", "roman": "os ḍéra garmí da, páka chālā́na kṛa.", "en": "It's really hot now, turn the fan on.", "focus": "ده", "wrong": ["دی|day", "دي|di"] },
+        { "native": "دلته يخ دی، کړکۍ بنده کړه.", "roman": "dálta yax day, kaṛkə́y bánda kṛa.", "en": "It's cold in here, close the window.", "focus": "دی", "wrong": ["ده|da", "دي|di"] },
+        { "native": "د شپې يخني ده.", "roman": "də shpe yaxní da.", "en": "It's chilly at night.", "focus": "ده", "wrong": ["دی|day", "دي|di"] },
+        { "native": "هوا ګرمه نه ده، توده ده.", "roman": "hawā́ gárma na da, tóda da.", "en": "It isn't hot, it's warm.", "focus": "توده", "wrong": ["تود|tod", "تودې|tóde"] },
+        { "native": "شکر، نن ډېره يخني نه ده.", "roman": "shukr, nən ḍéra yaxní na da.", "en": "Thank God it's not very cold today.", "focus": "ډېره", "wrong": ["ډېر|ḍer", "ډېرې|ḍére"] },
+        { "native": "نن تودوخه څومره ده؟", "roman": "nən tawdóxa tsómra da?", "en": "What's the temperature today?" },
+        { "native": "ستا په ښار کې هوا څنګه ده؟", "roman": "stā pə ṣār ke hawā́ tsə́nga da?", "en": "What's the weather like in your city?" }
+      ]
+    },
+    {
+      "title": "Rain, snow and wind",
+      "new": ["باران", "واوره", "ورېدل", "باد", "ورېځ", "غر", "باران ورېږي.", "په غرونو کې واوره ورېږي.", "ورېځې دي، باد هم چلېږي."],
+      "sentences": [
+        { "native": "اوس باران ورېږي؟", "roman": "os bārā́n wréẓi?", "en": "Is it raining now?" },
+        { "native": "نه، باران نه ورېږي.", "roman": "na, bārā́n na wréẓi.", "en": "No, it isn't raining." },
+        { "native": "په کابل کې واوره ورېږي.", "roman": "pə kābúl ke wā́wra wréẓi.", "en": "It's snowing in Kabul." },
+        { "native": "هره ورځ باران ورېږي.", "roman": "hára wradz bārā́n wréẓi.", "en": "It rains every day." },
+        { "native": "نن باد ډېر دی.", "roman": "nən bād ḍer day.", "en": "It's very windy today." },
+        { "native": "باد چلېږي، خولۍ دې واغونده.", "roman": "bād chaléẓi, xwlə́y de wā́ġunda.", "en": "It's windy, put your cap on." },
+        { "native": "نن ورېځې نشته.", "roman": "nən wredzé nə́shta.", "en": "There are no clouds today." },
+        { "native": "باران ورېږي، کور ته راشه!", "roman": "bārā́n wréẓi, kor ta rā́sha!", "en": "It's raining, come home!" },
+        { "native": "دا غر ډېر لوړ دی.", "roman": "dā ġar ḍer lwaṛ day.", "en": "This mountain is very high." },
+        { "native": "په غرونو کې ډېره يخني ده.", "roman": "pə ġrúno ke ḍéra yaxní da.", "en": "It's very cold in the mountains." }
+      ]
+    },
+    {
+      "title": "The four seasons",
+      "new": ["موسم", "پسرلی", "اوړی", "منی", "ژمی", "ګل", "ونه", "تاسو ته کوم موسم خوښ دی؟", "پسرلی مې ډېر خوښ دی."],
+      "sentences": [
+        { "native": "په ژمي کې دلته ډېره واوره ورېږي.", "roman": "pə zhmí ke dálta ḍéra wā́wra wréẓi.", "en": "In winter it snows a lot here.", "focus": "ژمي", "wrong": ["ژمی|zhmay", "ژمو|zhmo"] },
+        { "native": "په اوړي کې هوا ډېره ګرمه وي.", "roman": "pə oṛí ke hawā́ ḍéra gárma wi.", "en": "In summer the weather is very hot.", "focus": "اوړي", "wrong": ["اوړی|oṛáy", "اوړو|oṛó"] },
+        { "native": "په مني کې ونې ښکلې وي.", "roman": "pə maní ke wə́ne ṣkə́le wi.", "en": "In autumn the trees are beautiful.", "focus": "مني", "wrong": ["منی|manáy", "منو|manó"] },
+        { "native": "په پسرلي کې ډېر ګلان وي.", "roman": "pə psarlí ke ḍer gulā́n wi.", "en": "There are lots of flowers in spring.", "focus": "پسرلي", "wrong": ["پسرلی|psarláy", "پسرلو|psarló"] },
+        { "native": "ژمی مې خوښ نه دی، ډېر يخ وي.", "roman": "zhmay me xwaṣ na day, ḍer yax wi.", "en": "I don't like winter, it's very cold." },
+        { "native": "ما ته منی ډېر خوښ دی.", "roman": "mā ta manáy ḍer xwaṣ day.", "en": "I really like autumn." },
+        { "native": "په کابل کې پسرلی ډېر ښکلی وي.", "roman": "pə kābúl ke psarláy ḍer ṣkə́lay wi.", "en": "Spring in Kabul is really beautiful." },
+        { "native": "دا ګلان ډېر ښکلي دي.", "roman": "dā gulā́n ḍer ṣkə́li di.", "en": "These flowers are really beautiful." },
+        { "native": "دا ونه ډېره لوړه ده.", "roman": "dā wə́na ḍéra lwáṛa da.", "en": "This tree is very tall." },
+        { "native": "دا موسم ښه دی، نه ګرمي ده نه يخني.", "roman": "dā mosám ṣə day, na garmí da na yaxní.", "en": "This is a good season — neither hot nor cold." }
+      ]
+    },
+    {
+      "title": "Sun, moon and mountains",
+      "new": ["لمر", "سپوږمۍ", "ستوری", "اسمان", "ځمکه", "سيند", "ځنګل", "سمندر", "دښته", "ښکارېدل"],
+      "sentences": [
+        { "native": "نن لمر نشته.", "roman": "nən lmar nə́shta.", "en": "There's no sun today." },
+        { "native": "لمر ښکاري، هوا ښه ده.", "roman": "lmar ṣkā́ri, hawā́ ṣa da.", "en": "The sun's out, the weather is nice." },
+        { "native": "اسمان ډېر شين دی.", "roman": "asmā́n ḍer shin day.", "en": "The sky is very blue." },
+        { "native": "نن شپه سپوږمۍ ډېره ښکلې ده.", "roman": "nən shpa spoẓmə́y ḍéra ṣkə́le da.", "en": "The moon is beautiful tonight." },
+        { "native": "په ښار کې ستوري نه ښکاري.", "roman": "pə ṣār ke stóri na ṣkā́ri.", "en": "You can't see the stars in the city." },
+        { "native": "ستاسو کلی سيند ته نږدې دی؟", "roman": "stāso kə́lay sind ta nəẓdé day?", "en": "Is your village near the river?" },
+        { "native": "په افغانستان کې سمندر نشته.", "roman": "pə afġānistā́n ke samandár nə́shta.", "en": "There's no sea in Afghanistan." },
+        { "native": "کندهار ته نږدې لويه دښته ده.", "roman": "kandahā́r ta nəẓdé lóya dáṣta da.", "en": "There's a big desert near Kandahar." },
+        { "native": "په ځنګل کې ډېرې ونې دي.", "roman": "pə dzangál ke ḍére wə́ne di.", "en": "There are lots of trees in the forest." },
+        { "native": "دا ځمکه زما د پلار ده.", "roman": "dā dzmə́ka zmā də plār da.", "en": "This land is my father's." }
+      ]
+    },
+    {
+      "title": "It's going to rain",
+      "tip": { "title": "'Is going to': به + perfective", "body": "- Put **به** before the verb and use the perfective: باران **به** وشي 'it's going to rain'.\n- به comes after the first word or phrase: سبا **به** …، نن **به** ….\n- 'Will be' is **به … وي**: سبا به هوا ښه **وي**.", "pattern": "سبا + به + perfective verb", "grammar": 1 },
+      "new": ["ښکاري چې باران به وشي.", "سبا به هوا ښه وي.", "چتري واخله، باران به وشي.", "ګرمې جامې واغونده، يخ دی."],
+      "sentences": [
+        { "native": "نن به باران وشي؟", "roman": "nən ba bārā́n wə́shi?", "en": "Is it going to rain today?", "focus": "وشي", "wrong": ["وشو|wə́shu", "شوی|shə́way"] },
+        { "native": "سبا به واوره وورېږي.", "roman": "sabā́ ba wā́wra wə́wreẓi.", "en": "It's going to snow tomorrow.", "focus": "وورېږي", "wrong": ["وورېده|wə́wreda", "ورېده|wréda"] },
+        { "native": "سبا به هوا يخه وي.", "roman": "sabā́ ba hawā́ yáxa wi.", "en": "It's going to be cold tomorrow.", "focus": "وي", "wrong": ["وه|wa", "وو|wu"] },
+        { "native": "اسمان تور دی، باران به وشي.", "roman": "asmā́n tor day, bārā́n ba wə́shi.", "en": "The sky is dark, it's going to rain.", "focus": "وشي", "wrong": ["وشو|wə́shu", "شوی|shə́way"] },
+        { "native": "سبا به لمر وي؟", "roman": "sabā́ ba lmar wi?", "en": "Will it be sunny tomorrow?", "focus": "وي", "wrong": ["وو|wu", "وه|wa"] },
+        { "native": "ګرمې جامې واخله، په غرونو کې به يخ وي.", "roman": "gárme jā́me wā́xla, pə ġrúno ke ba yax wi.", "en": "Take warm clothes, it's going to be cold in the mountains.", "focus": "وي", "wrong": ["وو|wu", "وه|wa"] },
+        { "native": "سبا به غرونو ته لاړ شو.", "roman": "sabā́ ba ġrúno ta lāṛ shu.", "en": "Tomorrow we're going to go to the mountains.", "focus": "شو", "wrong": ["شم|shəm", "شي|shi"] },
+        { "native": "ښکاري چې ژمی به ډېر سوړ وي.", "roman": "ṣkā́ri che zhmay ba ḍer soṛ wi.", "en": "It looks like winter is going to be very cold.", "focus": "سوړ", "wrong": ["سړه|saṛá", "سړې|saṛé"] },
+        { "native": "پسرلی به ژر راشي.", "roman": "psarláy ba zhər rā́shi.", "en": "Spring will be here soon.", "focus": "راشي", "wrong": ["راشم|rā́shəm", "راشې|rā́she"] }
+      ]
+    }
+  ]
 }
