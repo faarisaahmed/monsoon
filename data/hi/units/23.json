@@ -49,7 +49,6 @@
     { "native": "मुझे स्टेशन पर छोड़ दो।", "roman": "mujhe sṭeshan par chhoṛ do.", "en": "Drop me at the station." },
     { "native": "ओटीपी बताइए।", "roman": "oṭīpī batāiye.", "en": "Tell me the OTP, please. (what the cab driver says)" },
     { "native": "कितना टाइम लगेगा?", "roman": "kitnā ṭāim lagegā?", "en": "How long will it take?" },
-    { "native": "कितनी दूर है?", "roman": "kitnī dūr hai?", "en": "How far is it?" },
     { "native": "राजीव चौक के लिए कौन-सी लाइन?", "roman": "Rājīv Chauk ke liye kaun-sī lāin?", "en": "Which line for Rajiv Chowk?" },
     { "native": "अगला स्टेशन कौन-सा है?", "roman": "aglā sṭeshan kaun-sā hai?", "en": "What's the next station?" }
   ],
@@ -165,7 +164,7 @@
     {
       "title": "How long does it take?",
       "tip": { "title": "कितना टाइम लगेगा? — it takes", "body": "- Time is the **subject** of **लगना**: आधा घंटा **लगेगा**, दस मिनट **लगेंगे**.\n- Usually: **लगता है / लगते हैं**.\n- For whom: **मुझे**; doing what: verb + **-ने में**: मुझे तैयार होने **में** दस मिनट लगेंगे.\n- Money too: **कितने पैसे लगेंगे?**", "pattern": "(मुझे) + verb-ने में + time + लगना", "grammar": 1 },
-      "new": ["जाम", "किलोमीटर", "कितना टाइम लगेगा?", "कितनी दूर है?"],
+      "new": ["जाम", "किलोमीटर", "कितना टाइम लगेगा?"],
       "sentences": [
         { "native": "घर से ऑफ़िस तक कितना टाइम लगता है?", "roman": "ghar se ofis tak kitnā ṭāim lagtā hai?", "en": "How long does it take from home to the office?", "focus": "लगता", "wrong": ["लगती|lagtī", "लगते|lagte"] },
         { "native": "बस से सिर्फ़ पंद्रह मिनट लगेंगे।", "roman": "bas se sirf pandrah minaṭ lageṃge.", "en": "By bus it'll only take fifteen minutes.", "focus": "लगेंगे", "wrong": ["लगेगा|lagegā", "लगेगी|lagegī"] },
