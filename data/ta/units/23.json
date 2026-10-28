@@ -1,0 +1,195 @@
+{
+  "id": 23,
+  "title": "Around town: autos, cabs & the metro",
+  "goal": "Get an auto and agree the fare, book a cab, ride share autos and the metro, guide the driver, ask how long it takes, and get dropped exactly where you want.",
+  "intro": "Getting around a Tamil city is a conversation. You flag down an auto and ask **அண்ணா, அடையார் வருமா?** 'anna, will you go to Adyar?', agree a fare (**ரொம்ப ஜாஸ்தி!**), guide the driver past the signal and the temple, and finally say **இங்க ஓரமா நிறுத்துங்க** 'pull over here'. Cabs and bike taxis are booked on apps, share autos run along fixed routes, and Chennai has a fast-growing metro.\n\nTwo pieces of grammar make this easy: **compound verbs**, where a helper verb adds 'right here' or 'for me' (**நிறுத்திடுங்க** 'stop right here', **இறக்கி விடுங்க** 'drop me off', **ஏறிக்கோங்க** 'get in'), and **ஆகும்** for 'it takes': **எவ்வளவு நேரம் ஆகும்?** 'how long will it take?'",
+  "vocab": [
+    { "native": "சவாரி", "roman": "savāri", "en": "a fare, a ride (from the driver's side)", "pos": "noun", "note": "drivers say it: இன்னைக்கு சவாரியே இல்ல \"no fares at all today\"" },
+    { "native": "மீட்டர்", "roman": "mīṭṭar", "en": "meter (in an auto or taxi)", "pos": "noun", "note": "மீட்டர் போடு \"turn on the meter\"" },
+    { "native": "ஜாஸ்தி", "roman": "jāsti", "en": "too much, more (spoken)", "pos": "adv", "note": "ரொம்ப ஜாஸ்தி \"way too much\"; the Tamil word is அதிகம்" },
+    { "native": "ரேட்", "roman": "rēṭ", "en": "rate, fare, price", "pos": "noun", "note": "என்ன ரேட்? \"what's the fare?\"" },
+    { "native": "டிரைவர்", "roman": "ḍraivar", "en": "driver", "pos": "noun", "note": "the everyday word; ஓட்டுநர் is formal. Address him as அண்ணா" },
+    { "native": "ஓரம்", "roman": "ōram", "en": "side, edge (of the road)", "pos": "noun", "note": "ஓரமா நிறுத்துங்க \"pull over to the side\"" },
+    { "native": "இறக்கி விடு", "roman": "irakki viḍu", "en": "drop (someone) off", "pos": "verb", "note": "lit. \"lower and leave\"; polite: இறக்கி விடுங்க" },
+    { "native": "ஏற்றிக்கொள்", "roman": "ētrikkoḷ", "en": "pick up, take on (a passenger)", "pos": "verb", "note": "spoken: ஏத்திக்கோ ēttikkō" },
+    { "native": "தள்ளி", "roman": "taḷḷi", "en": "a little further, away", "pos": "adv", "note": "கொஞ்சம் தள்ளி \"a bit further on\"" },
+    { "native": "மெயின் ரோடு", "roman": "mein rōḍu", "en": "main road", "pos": "noun", "note": "on the main road: மெயின் ரோட்டுல" },
+    { "native": "மெட்ரோ", "roman": "meṭrō", "en": "metro (train)", "pos": "noun" },
+    { "native": "கேப்", "roman": "kēb", "en": "cab, taxi (usually booked on an app)", "pos": "noun", "note": "also டாக்ஸி ṭāksi" },
+    { "native": "புக் பண்ணு", "roman": "buk paṇṇu", "en": "book", "pos": "verb", "note": "கேப் புக் பண்ணு \"book a cab\"" },
+    { "native": "ஷேர் ஆட்டோ", "roman": "shēr āṭṭō", "en": "share auto (a shared auto or van on a fixed route)", "pos": "noun" },
+    { "native": "ஸ்டாப்", "roman": "sṭāp", "en": "stop (bus, metro)", "pos": "noun", "note": "written நிறுத்தம்" },
+    { "native": "ஸ்டேஷன்", "roman": "sṭēshan", "en": "station", "pos": "noun", "note": "written நிலையம்" },
+    { "native": "ரஷ்", "roman": "rash", "en": "rush, crowd", "pos": "noun", "note": "செம ரஷ் \"totally packed\"" },
+    { "native": "சீட்", "roman": "sīṭ", "en": "seat", "pos": "noun" },
+    { "native": "கிலோமீட்டர்", "roman": "kilōmīṭṭar", "en": "kilometre", "pos": "noun" },
+    { "native": "தாண்டு", "roman": "tāṇḍu", "en": "cross, go past", "pos": "verb", "note": "சிக்னல் தாண்டி \"past the signal\"" },
+    { "native": "ஓட்டு", "roman": "ōṭṭu", "en": "drive, ride", "pos": "verb", "note": "வண்டி ஓட்டு \"drive / ride a vehicle\"" },
+    { "native": "லெஃப்ட்", "roman": "lefṭ", "en": "left (spoken)", "pos": "noun", "note": "லெஃப்ட்ல \"on the left\"; லெஃப்ட் எடுங்க \"take a left\"; Tamil இடது" },
+    { "native": "ரைட்", "roman": "raiṭ", "en": "right (spoken)", "pos": "noun", "note": "ரைட்ல \"on the right\"; Tamil வலது" },
+    { "native": "யூ டர்ன்", "roman": "yū ṭarn", "en": "U-turn", "pos": "noun", "note": "யூ டர்ன் போடு \"do a U-turn\"" },
+    { "native": "எதிரில்", "roman": "ediril", "en": "opposite", "pos": "postp", "note": "spoken: எதிர்ல edirla; கோவில் எதிர்ல \"opposite the temple\"" },
+    { "native": "சந்து", "roman": "sandu", "en": "lane, alley", "pos": "noun" }
+  ],
+  "phrases": [
+    { "native": "அண்ணா, அடையார் வருமா?", "roman": "aṇṇā, Aḍaiyār varumā?", "en": "Anna, will you go to Adyar? (to an auto driver)", "note": "lit. \"will (the auto) come to Adyar?\"" },
+    { "native": "மீட்டர் போடுவீங்களா?", "roman": "mīṭṭar pōḍuvīngaḷā?", "en": "Will you go by the meter?" },
+    { "native": "ரொம்ப ஜாஸ்தி, நூறு ரூபா குடுக்கிறேன்.", "roman": "romba jāsti, nūru rūbā kuḍukkirēn.", "en": "That's too much, I'll give you a hundred." },
+    { "native": "இங்க ஓரமா நிறுத்துங்க.", "roman": "inga ōramā niruttunga.", "en": "Pull over here." },
+    { "native": "என்னை மெயின் ரோட்டுல இறக்கி விடுங்க.", "roman": "ennai mein rōṭṭula irakki viḍunga.", "en": "Drop me on the main road." },
+    { "native": "இங்கயே இறங்கிக்கிறேன்.", "roman": "ingayē irangikkirēn.", "en": "I'll get out right here." },
+    { "native": "கொஞ்சம் தள்ளி நிறுத்துங்க.", "roman": "konjam taḷḷi niruttunga.", "en": "Stop a bit further on." },
+    { "native": "சில்லறையை வச்சுக்கோங்க.", "roman": "sillaraiyai vacchukkōnga.", "en": "Keep the change." },
+    { "native": "கேப் புக் பண்ணிட்டேன், டிரைவர் வந்துக்கிட்டு இருக்காரு.", "roman": "kēb buk paṇṇiṭṭēn, ḍraivar vandukkiṭṭu irukkāru.", "en": "I've booked a cab, the driver's on his way." },
+    { "native": "இந்த மெட்ரோ சென்ட்ரல் போகுமா?", "roman": "inda meṭrō Senṭral pōgumā?", "en": "Does this metro go to Central?" },
+    { "native": "ஷேர் ஆட்டோ எங்க நிக்கும்?", "roman": "shēr āṭṭō enga nikkum?", "en": "Where do the share autos stop?" },
+    { "native": "எவ்வளவு நேரம் ஆகும்?", "roman": "evvaḷavu nēram āgum?", "en": "How long will it take?" },
+    { "native": "இன்னும் எவ்வளவு தூரம்?", "roman": "innum evvaḷavu tūram?", "en": "How much further?" },
+    { "native": "அடுத்த சிக்னல்ல லெஃப்ட் எடுங்க.", "roman": "aḍutta signalla lefṭ eḍunga.", "en": "Take a left at the next signal.", "note": "or லெஃப்ட்ல திரும்புங்க" },
+    { "native": "ரொம்ப சுத்தாதீங்க, நேரா போங்க.", "roman": "romba suttādīnga, nērā pōnga.", "en": "Don't take the long way round, go straight." }
+  ],
+  "grammar": [
+    {
+      "title": "Compound verbs: stop right here, drop me off, get in",
+      "body": "Tamil often adds a second, **helper verb** to the participle you learned in unit 22. The helper doesn't change the basic meaning; it adds a shade. Three helpers do most of the work in an auto or a cab:\n\n**விடு 'leave' → finality: 'right away, completely'** (spoken **-டு**): நிறுத்து → **நிறுத்திடுங்க** 'stop (right here)', இறங்கு → **இறங்கிடுறேன்** 'I'll hop out', போ → **போயிடலாம்** 'we'll make it'. With a person as the object it means letting them go: **இறக்கி விடுங்க** 'drop me off' (lit. 'lower and leave').\n**கொள் 'hold' → for yourself** (spoken **-க்கோ**, past **-க்கிட்டேன்**): **ஏறிக்கோங்க** 'get in', **வச்சுக்கோங்க** 'keep it', **எடுத்துக்கோங்க** 'take it (for yourself)', **இறங்கிக்கிறேன்** 'I'll get out'.\n**குடு 'give' → for someone else**: **எழுதிக் குடுங்க** 'write it down for me', **புக் பண்ணிக் குடு** 'book it for me'.\n**பாரு 'see' → try**: **ஆப்ல புக் பண்ணிப் பாரு** 'try booking on the app'.\n\nPoliteness goes on the **last** part only: நிறுத்திடு → **நிறுத்திடுங்க**, ஏறிக்கோ → **ஏறிக்கோங்க**, இறக்கி விடு → **இறக்கி விடுங்க**.\n\nThe trap: **-டு** adds urgency. **இங்க நிறுத்துங்க** is a normal request; **இங்கயே நிறுத்திடுங்க** is 'stop right here, now'. With an elderly driver, the plain form plus **கொஞ்சம்** sounds kinder.",
+      "examples": [
+        { "native": "அண்ணா, இங்கயே நிறுத்திடுங்க.", "roman": "aṇṇā, ingayē niruttiḍunga.", "en": "Stop right here, anna." },
+        { "native": "என்னை மெட்ரோ ஸ்டேஷன்ல இறக்கி விடுங்க.", "roman": "ennai meṭrō sṭēshanla irakki viḍunga.", "en": "Drop me at the metro station." },
+        { "native": "டிக்கெட்டை பத்திரமா வச்சுக்கோங்க.", "roman": "ṭikkeṭṭai pattiramā vacchukkōnga.", "en": "Keep the ticket safe." },
+        { "native": "அட்ரஸை எழுதிக் குடுங்க.", "roman": "aṭrasai eḻudik kuḍunga.", "en": "Write the address down for me." },
+        { "native": "ஒரு ஆட்டோ புக் பண்ணிப் பாரு.", "roman": "oru āṭṭō buk paṇṇip pāru.", "en": "Try booking an auto." }
+      ]
+    },
+    {
+      "title": "How long does it take?: ஆகும்",
+      "body": "'It takes' (time or money) is **ஆகும்**, 'it will become', with the amount as the subject:\n\n**எவ்வளவு நேரம் ஆகும்?** 'how long will it take?' → **அரை மணி நேரம் ஆகும்** 'it'll take half an hour'.\n**எவ்வளவு ஆகும்?** 'how much will it come to?' → **இருநூறு ரூபா ஆகும்** 'it'll be two hundred rupees'.\n\nThe destination takes **-க்கு** and the starting point **-லேருந்து** (or -ல இருந்து): **இங்கேருந்து ஏர்போர்ட்டுக்கு எவ்வளவு நேரம் ஆகும்?** 'how long from here to the airport?' For 'to do something', use the infinitive or an if-clause: **நடந்து போனா** பத்து நிமிஷம் ஆகும் 'on foot it's ten minutes'.\n\n**Past**: **ஆச்சு** 'it took': **ஒரு மணி நேரம் ஆச்சு!** 'it took an hour!'\n**Negative**: **ஆகாது** 'it won't take': **அவ்வளவு நேரம் ஆகாது** 'it won't take that long'.\n**About**: put **ஒரு** before the number: **ஒரு இருபது நிமிஷம் ஆகும்** 'about twenty minutes'.\n**Distance**: **எவ்வளவு தூரம்?** 'how far?' → **ரெண்டு கிலோமீட்டர் இருக்கும்** 'it must be two kilometres'.\n\nThe trap: don't translate 'take' with எடு ('pick up'). Time and money 'become': **ஆகும்**. You'll hear எடுக்கும் from some city speakers copying English, but ஆகும் is the natural word.",
+      "examples": [
+        { "native": "இங்கேருந்து ஏர்போர்ட்டுக்கு எவ்வளவு நேரம் ஆகும்?", "roman": "ingērundu ērpōrṭṭukku evvaḷavu nēram āgum?", "en": "How long does it take from here to the airport?" },
+        { "native": "ட்ராஃபிக் இல்லன்னா இருபது நிமிஷம் ஆகும்.", "roman": "ṭrāfik illannā irubadu nimisham āgum.", "en": "Without traffic it takes twenty minutes." },
+        { "native": "மீட்டர் போட்டா எவ்வளவு ஆகும்?", "roman": "mīṭṭar pōṭṭā evvaḷavu āgum?", "en": "How much will it come to on the meter?" },
+        { "native": "நடந்து போனா பத்து நிமிஷம்தான் ஆகும்.", "roman": "naḍandu pōnā pattu nimishamdān āgum.", "en": "On foot it's only ten minutes." },
+        { "native": "நேத்து வீட்டுக்குப் போக ரெண்டு மணி நேரம் ஆச்சு!", "roman": "nēttu vīṭṭukkup pōga reṇḍu maṇi nēram ācchu!", "en": "Yesterday it took two hours to get home!" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "An auto to Mylapore",
+    "setting": "Anu arrives at Chennai Central station with a suitcase and needs to get to her aunt's house near the Kapaleeshwarar temple in Mylapore.",
+    "lines": [
+      { "speaker": "Anu", "native": "அண்ணா, மயிலாப்பூர் வருமா?", "roman": "aṇṇā, Mayilāppūr varumā?", "en": "Anna, will you go to Mylapore?" },
+      { "speaker": "Driver", "native": "வரும்மா. முன்னூறு ரூபா ஆகும்.", "roman": "varummā. munnūru rūbā āgum.", "en": "Sure, ma. It'll be three hundred." },
+      { "speaker": "Anu", "native": "முன்னூறா? ரொம்ப ஜாஸ்தி அண்ணா. மீட்டர் போடுங்க.", "roman": "munnūrā? romba jāsti aṇṇā. mīṭṭar pōḍunga.", "en": "Three hundred? That's way too much, anna. Put the meter on." },
+      { "speaker": "Driver", "native": "மீட்டர் ரிப்பேர்மா. இருநூத்தி அம்பது குடுங்க.", "roman": "mīṭṭar rippērmā. irunūtti ambadu kuḍunga.", "en": "The meter's broken, ma. Give me two fifty." },
+      { "speaker": "Anu", "native": "ஆப்ல இதைவிட கம்மியா காட்டுது.", "roman": "āpla idaiviḍa kammiyā kāṭṭudu.", "en": "The app shows less than that." },
+      { "speaker": "Driver", "native": "சரி சரி, இருநூறு. ஏறிக்கோங்க.", "roman": "sari sari, irunūru. ērikkōnga.", "en": "OK, OK, two hundred. Get in." },
+      { "speaker": "Anu", "native": "எவ்வளவு நேரம் ஆகும்?", "roman": "evvaḷavu nēram āgum?", "en": "How long will it take?" },
+      { "speaker": "Driver", "native": "இந்த ட்ராஃபிக்ல ஒரு அரை மணி நேரம் ஆகும்.", "roman": "inda ṭrāfikla oru arai maṇi nēram āgum.", "en": "In this traffic, about half an hour." },
+      { "speaker": "Anu", "native": "அண்ணா, ஏன் இந்த சந்துல போறீங்க? ரொம்ப சுத்தாதீங்க!", "roman": "aṇṇā, ēn inda sandula pōrīnga? romba suttādīnga!", "en": "Anna, why are you going down this lane? Don't take the long way round!" },
+      { "speaker": "Driver", "native": "மெயின் ரோட்டுல செம ரஷ்மா. இது ஷார்ட்கட்.", "roman": "mein rōṭṭula sema rashmā. idu shārṭkaṭ.", "en": "The main road's jammed, ma. This is a shortcut." },
+      { "speaker": "Anu", "native": "சரி. கோவிலைத் தாண்டி, அடுத்த சிக்னல்ல லெஃப்ட் எடுங்க.", "roman": "sari. kōvilait tāṇḍi, aḍutta signalla lefṭ eḍunga.", "en": "OK. Go past the temple and take a left at the next signal." },
+      { "speaker": "Anu", "native": "இங்க ஓரமா நிறுத்திடுங்க. இந்தாங்க, இருநூறு.", "roman": "inga ōramā niruttiḍunga. indānga, irunūru.", "en": "Pull over here. Here you go, two hundred." },
+      { "speaker": "Driver", "native": "ரொம்ப நன்றிம்மா. பத்திரமா போங்க.", "roman": "romba nandrimmā. pattiramā pōnga.", "en": "Thank you very much, ma. Take care." }
+    ]
+  },
+  "culture": "Auto meters exist in Chennai but are rarely switched on, so the fare is agreed **before** you get in: ask **வருமா?**, hear the price, counter-offer, and walk away if it's silly; another auto will stop. Ride apps (Ola, Uber, Rapido bike taxis, the drivers' own app Namma Yatri) have made this easier, because everyone now quotes the app price back at the driver. The app sends you an OTP, and the driver will ask **ஓடிபி சொல்லுங்க** before he starts. Address any driver as **அண்ணா** (an older one as **அண்ணே** or **சார்**); he'll call you **சார்**, **மேடம்** or add **-ம்மா** / **-ப்பா** to his sentences, which is friendly, not rude. Directions are given by landmarks (the temple, the signal, the flyover, the big shop) rather than street names, and drivers mix English freely: **லெஃப்ட்**, **ரைட்**, **யூ டர்ன்**, **ஷார்ட்கட்**. **Share autos** and vans run along main roads and pick up anyone who waves. Chennai's metro is clean and air-conditioned, with a ladies' coach at the front; in Tamil Nadu women ride ordinary town buses for free.",
+  "lessons": [
+    {
+      "title": "Getting an auto",
+      "tip": { "title": "Haggling with an auto driver", "body": "- Ask **வருமா?** 'will it go?': அண்ணா, அடையார் வருமா?\n- Call him **அண்ணா**; he'll call you **சார்**, **மேடம்** or **-ம்மா**.\n- Agree the fare **before** you get in: **மீட்டர் போடுவீங்களா?** or **என்ன ரேட்?**\n- Too much? **ரொம்ப ஜாஸ்தி** plus a counter-offer, and be ready to walk away." },
+      "new": ["சவாரி", "மீட்டர்", "ஜாஸ்தி", "ரேட்", "டிரைவர்", "அண்ணா, அடையார் வருமா?", "மீட்டர் போடுவீங்களா?", "ரொம்ப ஜாஸ்தி, நூறு ரூபா குடுக்கிறேன்."],
+      "sentences": [
+        { "native": "அண்ணா, பீச் வருமா?", "roman": "aṇṇā, bīch varumā?", "en": "Anna, will you go to the beach?" },
+        { "native": "அண்ணா, அடையார் வருமா? எவ்வளவு?", "roman": "aṇṇā, Aḍaiyār varumā? evvaḷavu?", "en": "Anna, will you go to Adyar? How much?" },
+        { "native": "மீட்டர் போடுவீங்களா, இல்ல ரேட் சொல்லுவீங்களா?", "roman": "mīṭṭar pōḍuvīngaḷā, illa rēṭ solluvīngaḷā?", "en": "Will you use the meter, or will you tell me a fare?" },
+        { "native": "ரொம்ப ஜாஸ்தி அண்ணா, கொஞ்சம் கம்மி பண்ணுங்க.", "roman": "romba jāsti aṇṇā, konjam kammi paṇṇunga.", "en": "That's too much, anna, bring it down a bit." },
+        { "native": "ரேட் சொல்லுங்க, அப்புறம் ஏறுறேன்.", "roman": "rēṭ sollunga, appuram ērurēn.", "en": "Tell me the fare first, then I'll get in." },
+        { "native": "ராத்திரியில ரேட் கொஞ்சம் ஜாஸ்தியா இருக்கும்.", "roman": "rāttiriyila rēṭ konjam jāstiyā irukkum.", "en": "Fares are a bit higher at night." },
+        { "native": "இன்னைக்கு சவாரியே இல்ல சார்.", "roman": "innaikku savāriyē illa sār.", "en": "No fares at all today, sir." },
+        { "native": "டிரைவர் வேற வழியா போறாரு.", "roman": "ḍraivar vēra vaḻiyā pōrāru.", "en": "The driver's going a different way." },
+        { "native": "மீட்டர் போடுவீங்களா? இல்லன்னா வேற ஆட்டோ பாக்கிறேன்.", "roman": "mīṭṭar pōḍuvīngaḷā? illannā vēra āṭṭō pākkirēn.", "en": "Will you use the meter? Otherwise I'll find another auto." },
+        { "native": "நூறு ரூபா குடுக்கிறேன், வருமா?", "roman": "nūru rūbā kuḍukkirēn, varumā?", "en": "I'll give you a hundred, will you go?" }
+      ]
+    },
+    {
+      "title": "Stop here, drop me there",
+      "tip": { "title": "Helper verbs: -டு, -க்கோ, விடு", "body": "- **-டு** (from விடு) = 'right away': நிறுத்**திடுங்க** 'stop right here'.\n- **-க்கோ** (from கொள்) = 'for yourself': ஏறிக்**கோங்க** 'get in', வச்சுக்**கோங்க** 'keep it'.\n- **இறக்கி விடுங்க** = 'drop me off' (lit. lower and leave).\n- Politeness goes on the last part only: **-ங்க**.", "pattern": "participle + டு / க்கோ / விடு + ங்க", "grammar": 0 },
+      "new": ["ஓரம்", "இறக்கி விடு", "ஏற்றிக்கொள்", "தள்ளி", "மெயின் ரோடு", "இங்க ஓரமா நிறுத்துங்க.", "என்னை மெயின் ரோட்டுல இறக்கி விடுங்க.", "இங்கயே இறங்கிக்கிறேன்.", "கொஞ்சம் தள்ளி நிறுத்துங்க.", "சில்லறையை வச்சுக்கோங்க."],
+      "sentences": [
+        { "native": "அண்ணா, அந்தக் கடை கிட்ட நிறுத்திடுங்க.", "roman": "aṇṇā, andak kaḍai kiṭṭa niruttiḍunga.", "en": "Anna, stop by that shop.", "focus": "நிறுத்திடுங்க", "wrong": ["நிறுத்தினேன்|niruttinēn", "நிறுத்துவேன்|niruttuvēn"] },
+        { "native": "என்னை பஸ் ஸ்டாண்ட்ல இறக்கி விடுங்க.", "roman": "ennai bas sṭāṇḍla irakki viḍunga.", "en": "Drop me at the bus stand.", "focus": "விடுங்க", "wrong": ["விட்டேன்|viṭṭēn", "விடுவேன்|viḍuvēn"] },
+        { "native": "குழந்தையை முதல்ல ஸ்கூல்ல இறக்கி விட்டுட்டு அப்புறம் ஆஃபீஸ் போறேன்.", "roman": "kuḻandaiyai mudalla skūlla irakki viṭṭuṭṭu appuram āfīs pōrēn.", "en": "I drop the kid at school first and then go to the office.", "focus": "விட்டுட்டு", "wrong": ["விட்டேன்|viṭṭēn", "விடு|viḍu"] },
+        { "native": "வாங்க, ஏறிக்கோங்க.", "roman": "vānga, ērikkōnga.", "en": "Come on, get in.", "focus": "ஏறிக்கோங்க", "wrong": ["ஏறினேன்|ērinēn", "ஏறுவேன்|ēruvēn"] },
+        { "native": "இன்னும் ஒருத்தரை ஏத்திக்கலாமா?", "roman": "innum oruttarai ēttikkalāmā?", "en": "Can I take one more passenger? (share-auto driver)", "focus": "ஏத்திக்கலாமா", "wrong": ["ஏத்தினேன்|ēttinēn", "ஏத்து|ēttu"] },
+        { "native": "மெயின் ரோட்டுலயே இறங்கிக்கிறேன், உள்ள வர வேணாம்.", "roman": "mein rōṭṭulayē irangikkirēn, uḷḷa vara vēṇām.", "en": "I'll get out on the main road, no need to come in.", "focus": "இறங்கிக்கிறேன்", "wrong": ["இறங்கினேன்|iranginēn", "இறங்குங்க|irangunga"] },
+        { "native": "இங்க ஓரமா நிறுத்துங்க, நான் இறங்கிடுறேன்.", "roman": "inga ōramā niruttunga, nān irangiḍurēn.", "en": "Pull over here, I'll hop out.", "focus": "இறங்கிடுறேன்", "wrong": ["இறங்கினேன்|iranginēn", "இறங்கல|irangala"] },
+        { "native": "சில்லறையை வச்சுக்கோங்க அண்ணா.", "roman": "sillaraiyai vacchukkōnga aṇṇā.", "en": "Keep the change, anna.", "focus": "வச்சுக்கோங்க", "wrong": ["வச்சேன்|vacchēn", "வைப்பேன்|vaippēn"] },
+        { "native": "உங்க பையை எடுத்துக்கோங்க, மறந்துடாதீங்க.", "roman": "unga paiyai eḍuttukkōnga, maranduḍādīnga.", "en": "Take your bag, don't forget it.", "focus": "எடுத்துக்கோங்க", "wrong": ["எடுத்தேன்|eḍuttēn", "எடுப்பேன்|eḍuppēn"] },
+        { "native": "கொஞ்சம் தள்ளி நிறுத்துங்க, இங்க ட்ராஃபிக்.", "roman": "konjam taḷḷi niruttunga, inga ṭrāfik.", "en": "Stop a bit further on, there's traffic here." },
+        { "native": "சரி, இங்கயே இறங்கிக்கிறேன், நன்றி.", "roman": "sari, ingayē irangikkirēn, nandri.", "en": "OK, I'll get out right here, thanks.", "focus": "இறங்கிக்கிறேன்", "wrong": ["இறங்கினேன்|iranginēn", "இறங்குங்க|irangunga"] }
+      ]
+    },
+    {
+      "title": "Cabs, share autos and the metro",
+      "tip": { "title": "Apps, share autos and the metro", "body": "- Book with **புக் பண்ணு**: கேப் புக் பண்ணு, ஆட்டோ புக் பண்ணு.\n- The app gives you an OTP; the driver asks **ஓடிபி சொல்லுங்க**.\n- **Share autos** run fixed routes: wave one down and ask **… போகுமா?** 'does it go to…?'\n- Metro words are English: **ஸ்டேஷன்**, **ஸ்டாப்**, **சீட்**, and **ரஷ்** 'crowd'." },
+      "new": [
+        "மெட்ரோ",
+        "கேப்",
+        "புக் பண்ணு",
+        "ஷேர் ஆட்டோ",
+        "ஸ்டாப்",
+        "ஸ்டேஷன்",
+        "ரஷ்",
+        "சீட்",
+        "கேப் புக் பண்ணிட்டேன், டிரைவர் வந்துக்கிட்டு இருக்காரு.",
+        "இந்த மெட்ரோ சென்ட்ரல் போகுமா?",
+        "ஷேர் ஆட்டோ எங்க நிக்கும்?"
+      ],
+      "sentences": [
+        { "native": "மழையில கேப் கிடைக்கவே இல்ல.", "roman": "maḻaiyila kēb kiḍaikkavē illa.", "en": "I couldn't get a cab at all in the rain." },
+        { "native": "கேப் புக் பண்ணிட்டேன், டிரைவர் வந்துக்கிட்டு இருக்காரு. நீ ரெடியா?", "roman": "kēb buk paṇṇiṭṭēn, ḍraivar vandukkiṭṭu irukkāru. nī reḍiyā?", "en": "I've booked a cab, the driver's on his way. Are you ready?" },
+        { "native": "இந்த ஷேர் ஆட்டோ தாம்பரம் போகுமா?", "roman": "inda shēr āṭṭō Tāmbaram pōgumā?", "en": "Does this share auto go to Tambaram?" },
+        { "native": "அடுத்த ஸ்டாப்ல இறங்கணும்.", "roman": "aḍutta sṭāpla irangaṇum.", "en": "I need to get off at the next stop." },
+        { "native": "மெட்ரோல செம ரஷ், சீட்டே கிடைக்கல.", "roman": "meṭrōla sema rash, sīṭṭē kiḍaikkala.", "en": "The metro was packed, I couldn't get a seat at all." },
+        { "native": "இந்த மெட்ரோ சென்ட்ரல் போகுமா, இல்ல மாறணுமா?", "roman": "inda meṭrō Senṭral pōgumā, illa māraṇumā?", "en": "Does this metro go to Central, or do I have to change?" },
+        { "native": "மெட்ரோ ஸ்டேஷன் இங்கேருந்து எவ்வளவு தூரம்?", "roman": "meṭrō sṭēshan ingērundu evvaḷavu tūram?", "en": "How far is the metro station from here?" },
+        { "native": "ஷேர் ஆட்டோ எங்க நிக்கும்? அந்த சிக்னல் கிட்டயா?", "roman": "shēr āṭṭō enga nikkum? anda signal kiṭṭayā?", "en": "Where do the share autos stop? By that signal?" },
+        { "native": "இந்த சீட்டுல யாராவது இருக்காங்களா?", "roman": "inda sīṭṭula yārāvadu irukkāngaḷā?", "en": "Is anyone sitting here?" },
+        { "native": "ராத்திரி லேட்டானா கேப் புக் பண்ணு, பஸ்ல வராத.", "roman": "rāttiri lēṭṭānā kēb buk paṇṇu, basla varāda.", "en": "If it gets late, book a cab, don't take the bus." }
+      ]
+    },
+    {
+      "title": "How far, how long?",
+      "tip": { "title": "It takes: ஆகும்", "body": "- Time and money 'become': **எவ்வளவு நேரம் ஆகும்?** 'how long will it take?', **எவ்வளவு ஆகும்?** 'how much will it be?'\n- It took: **ஆச்சு** · It won't take: **ஆகாது**.\n- **ஒரு** before a number = 'about': ஒரு இருபது நிமிஷம்.\n- Don't use எடு for 'take' here.", "pattern": "time / money + ஆகும் · ஆச்சு · ஆகாது", "grammar": 1 },
+      "new": ["கிலோமீட்டர்", "தாண்டு", "ஓட்டு", "எவ்வளவு நேரம் ஆகும்?", "இன்னும் எவ்வளவு தூரம்?"],
+      "sentences": [
+        { "native": "இங்கேருந்து ஸ்டேஷனுக்கு எவ்வளவு நேரம் ஆகும்?", "roman": "ingērundu sṭēshanukku evvaḷavu nēram āgum?", "en": "How long does it take from here to the station?", "focus": "ஆகும்", "wrong": ["ஆச்சு|ācchu", "ஆகாது|āgādu"] },
+        { "native": "ட்ராஃபிக்ல ஒரு மணி நேரம் ஆகும்.", "roman": "ṭrāfikla oru maṇi nēram āgum.", "en": "With the traffic it'll take about an hour.", "focus": "ஆகும்", "wrong": ["ஆச்சு|ācchu", "ஆகல|āgala"] },
+        { "native": "நடந்து போனா அஞ்சு நிமிஷம் கூட ஆகாது.", "roman": "naḍandu pōnā anju nimisham kūḍa āgādu.", "en": "On foot it won't even take five minutes.", "focus": "ஆகாது", "wrong": ["ஆகும்|āgum", "ஆச்சு|ācchu"] },
+        { "native": "நேத்து மதுரையிலேருந்து வர பத்து மணி நேரம் ஆச்சு!", "roman": "nēttu Maduraiyilērundu vara pattu maṇi nēram ācchu!", "en": "Yesterday it took ten hours to get here from Madurai!", "focus": "ஆச்சு", "wrong": ["ஆகும்|āgum", "ஆகாது|āgādu"] },
+        { "native": "இன்னும் எவ்வளவு தூரம்? பத்து நிமிஷம் ஆகுமா?", "roman": "innum evvaḷavu tūram? pattu nimisham āgumā?", "en": "How much further? Will it take ten minutes?", "focus": "ஆகுமா", "wrong": ["ஆச்சா|ācchā", "ஆகாது|āgādu"] },
+        { "native": "பைக்ல போனா பதினஞ்சு நிமிஷம் ஆகும்.", "roman": "baikla pōnā padinanju nimisham āgum.", "en": "By bike it'd take fifteen minutes.", "focus": "ஆகும்", "wrong": ["ஆச்சு|ācchu", "ஆகாது|āgādu"] },
+        { "native": "கேப்ல போனா எவ்வளவு ஆகும்?", "roman": "kēbla pōnā evvaḷavu āgum?", "en": "How much would it be by cab?", "focus": "ஆகும்", "wrong": ["ஆச்சு|ācchu", "ஆகாது|āgādu"] },
+        { "native": "அவ்வளவு நேரம் ஆகாது, கவலைப்படாதீங்க.", "roman": "avvaḷavu nēram āgādu, kavalaippaḍādīnga.", "en": "It won't take that long, don't worry.", "focus": "ஆகாது", "wrong": ["ஆகும்|āgum", "ஆச்சு|ācchu"] },
+        { "native": "அந்தப் பாலம் தாண்டினா கோவில் வரும்.", "roman": "andap pālam tāṇḍinā kōvil varum.", "en": "Once you cross that flyover, you'll come to the temple." },
+        { "native": "அண்ணா, கொஞ்சம் மெதுவா ஓட்டுங்க!", "roman": "aṇṇā, konjam meduvā ōṭṭunga!", "en": "Anna, drive a bit slower!" },
+        { "native": "எத்தன கிலோமீட்டர் இருக்கும்?", "roman": "ettana kilōmīṭṭar irukkum?", "en": "How many kilometres would it be?" }
+      ]
+    },
+    {
+      "title": "Left, right, U-turn",
+      "tip": { "title": "Guiding the driver", "body": "- Drivers use English directions with Tamil endings: **லெஃப்ட்ல** திரும்புங்க, **ரைட்** எடுங்க, **யூ டர்ன்** போடுங்க.\n- Landmarks beat street names: **சிக்னல் தாண்டி** 'past the signal', **கோவில் எதிர்ல** 'opposite the temple'.\n- 'Up to' is **வரைக்கும்**: பாலம் வரைக்கும் நேரா போங்க." },
+      "new": ["லெஃப்ட்", "ரைட்", "யூ டர்ன்", "எதிரில்", "சந்து", "அடுத்த சிக்னல்ல லெஃப்ட் எடுங்க.", "ரொம்ப சுத்தாதீங்க, நேரா போங்க."],
+      "sentences": [
+        { "native": "அடுத்த சிக்னல்ல லெஃப்ட் எடுங்க, அப்புறம் நேரா.", "roman": "aḍutta signalla lefṭ eḍunga, appuram nērā.", "en": "Take a left at the next signal, then straight on." },
+        { "native": "கோவில் எதிர்ல நிறுத்துங்க.", "roman": "kōvil edirla niruttunga.", "en": "Stop opposite the temple." },
+        { "native": "ரைட்ல திரும்பி, முதல் சந்துல போங்க.", "roman": "raiṭla tirumbi, mudal sandula pōnga.", "en": "Turn right and go down the first lane." },
+        { "native": "இங்க யூ டர்ன் போடலாமா?", "roman": "inga yū ṭarn pōḍalāmā?", "en": "Can you do a U-turn here?" },
+        { "native": "ரொம்ப சுத்தாதீங்க அண்ணா, இந்த வழி எனக்குத் தெரியும்.", "roman": "romba suttādīnga aṇṇā, inda vaḻi enakkut teriyum.", "en": "Don't take the long way round, anna, I know this route." },
+        { "native": "பாலம் வரைக்கும் நேரா போயிட்டு லெஃப்ட்.", "roman": "pālam varaikkum nērā pōyiṭṭu lefṭ.", "en": "Straight on up to the flyover and then left." },
+        { "native": "இந்த சந்துல கார் போகாது.", "roman": "inda sandula kār pōgādu.", "en": "A car can't get down this lane." },
+        { "native": "பஸ் ஸ்டாண்டுக்கு எதிர்ல ஒரு பெரிய கடை இருக்கு, அது பக்கத்துல.", "roman": "bas sṭāṇḍukku edirla oru periya kaḍai irukku, adu pakkattula.", "en": "There's a big shop opposite the bus stand; it's next to that." },
+        { "native": "தப்பான வழி, யூ டர்ன் போடுங்க.", "roman": "tappāna vaḻi, yū ṭarn pōḍunga.", "en": "Wrong way, do a U-turn." }
+      ]
+    }
+  ]
+}

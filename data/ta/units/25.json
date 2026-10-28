@@ -1,0 +1,231 @@
+{
+  "id": 25,
+  "title": "Errands",
+  "goal": "Get everyday jobs done around town on your own: take out cash, sort out a SIM and a broken phone, get clothes stitched and ironed, get a haircut, buy medicine and send a parcel.",
+  "intro": "Living in a Tamil city means errands: the ATM with no cash in it, the token queue at the bank, the little phone shop that does SIMs, top-ups and screen repairs all at once, the tailor (டெய்லர்) who alters your trousers or stitches a blouse, the ironing cart at the corner of the street, the salon, the chemist, the courier office. Most of these jobs are done **for** you by someone else, and spoken Tamil has a few neat ways of saying exactly that.\n\nIn this unit you'll learn to say you've **handed something in to be done** (ரிப்பேருக்குக் குடுத்தேன் 'I gave it in for repair'), to ask someone to **do a job for you** (மாத்திக் குடுங்க 'change it for me'), to say you **got something done for yourself** (முடி வெட்டிக்கிட்டேன் 'I got a haircut'), and to **tell or make someone do something** (காக்க வச்சாங்க 'they kept me waiting'). And the question every errand ends with: **எப்போ ரெடி ஆகும்?** 'When will it be ready?'",
+  "vocab": [
+    { "native": "ஏடிஎம்", "roman": "ēṭīem", "en": "ATM, cash machine", "pos": "noun", "note": "cash itself is காசு or கேஷ் kēsh" },
+    { "native": "கார்டு", "roman": "kārḍu", "en": "card (bank card, ID card)", "pos": "noun", "note": "ஏடிஎம் கார்டு, டெபிட் கார்டு" },
+    { "native": "போடு", "roman": "pōḍu", "en": "put, put in; pay in (money)", "pos": "verb", "note": "past போட்டேன் pōṭṭēn. One of the busiest verbs in Tamil: பணம் போடு 'deposit money', கையெழுத்து போடு 'sign', சிம் போடு 'put a SIM in', இஸ்திரி போடு 'iron'" },
+    { "native": "படிவம்", "roman": "paḍivam", "en": "form (to fill in)", "pos": "noun", "note": "spoken: ஃபார்ம் fārm; ஃபார்ம் ஃபில் பண்ணு 'fill in a form'" },
+    { "native": "கையெழுத்து", "roman": "kaiyeḻuttu", "en": "signature; handwriting", "pos": "noun", "note": "கையெழுத்து போடு 'to sign'; spoken also சைன் பண்ணு sain paṇṇu" },
+    { "native": "வரிசை", "roman": "varisai", "en": "queue, line; row", "pos": "noun", "note": "spoken also க்யூ kyū. வரிசையில நில்லுங்க 'stand in the queue'" },
+    { "native": "நில்", "roman": "nil", "en": "stand; stop", "pos": "verb", "note": "spoken: நில்லு nillu; present நிக்கிறேன் nikkirēn, past நின்னேன் ninnēn, infinitive நிக்க nikka. நின்னுடுச்சு 'it stopped'" },
+    { "native": "டோக்கன்", "roman": "ṭōkkan", "en": "token (numbered slip for a queue)", "pos": "noun", "note": "banks, hospitals and ration shops call you by your token number" },
+    { "native": "ஓடிபி", "roman": "ōṭīpī", "en": "OTP, one-time code", "pos": "noun", "note": "never read it out to a caller you don't know" },
+    { "native": "அடையாள அட்டை", "roman": "aḍaiyāḷa aṭṭai", "en": "ID card, proof of identity", "pos": "noun", "note": "spoken: ஐடி ப்ரூஃப் aiḍi prūf. For Indians usually the Aadhaar card (ஆதார் கார்டு); foreigners show a passport" },
+    { "native": "சிம்", "roman": "sim", "en": "SIM card", "pos": "noun", "note": "also சிம் கார்டு" },
+    { "native": "ரீசார்ஜ்", "roman": "rīchārj", "en": "top-up, recharge (of a prepaid phone)", "pos": "noun", "note": "ரீசார்ஜ் பண்ணு 'to top up'" },
+    { "native": "ரிப்பேர்", "roman": "rippēr", "en": "repair; out of order", "pos": "noun", "note": "ரிப்பேர் பண்ணு 'to repair'; ரிப்பேர் ஆயிடுச்சு 'it's broken down' (lit. it became repair)" },
+    { "native": "பேட்டரி", "roman": "pēṭṭari", "en": "battery", "pos": "noun", "note": "சார்ஜ் நிக்க மாட்டேங்குது 'it won't hold its charge'" },
+    { "native": "சார்ஜர்", "roman": "chārjar", "en": "charger", "pos": "noun", "note": "சார்ஜ் போடு 'put (the phone) on charge'" },
+    { "native": "மாற்று", "roman": "mātru", "en": "change, replace; exchange", "pos": "verb", "note": "spoken: மாத்து māttu; past மாத்தினேன் māttinēn. 'To change' without an object ('it changed') is மாறு" },
+    { "native": "தையல்காரர்", "roman": "taiyalkārar", "en": "tailor", "pos": "noun", "note": "spoken: டெய்லர் ṭeylar. 'To stitch' is தை: infinitive தைக்க taikka, past தைச்சேன் taicchēn" },
+    { "native": "பிளவுஸ்", "roman": "plavus", "en": "blouse (worn under a sari)", "pos": "noun", "note": "almost always stitched to measure by a tailor" },
+    { "native": "சலூன்", "roman": "salūn", "en": "barber's, hair salon", "pos": "noun", "note": "formal முடிதிருத்தகம்; a women's salon is a பியூட்டி பார்லர் byūṭi pārlar" },
+    { "native": "வெட்டு", "roman": "veṭṭu", "en": "cut", "pos": "verb", "note": "past வெட்டினேன் veṭṭinēn. முடி வெட்டு 'cut hair'" },
+    { "native": "தாடி", "roman": "tāḍi", "en": "beard", "pos": "noun", "note": "ஷேவ் பண்ணு 'shave'; ட்ரிம் பண்ணு 'trim'" },
+    { "native": "மீசை", "roman": "mīsai", "en": "moustache", "pos": "noun" },
+    { "native": "இஸ்திரி", "roman": "istiri", "en": "ironing (of clothes)", "pos": "noun", "note": "இஸ்திரி போடு 'to iron'; spoken also அயர்ன் பண்ணு ayarn paṇṇu. The man at the ironing cart is the இஸ்திரிக்காரர்" },
+    { "native": "சலவை", "roman": "salavai", "en": "washing, laundry", "pos": "noun", "note": "சலவைக்குக் குடு 'send to the laundry'; dry cleaning is ட்ரை க்ளீனிங்" },
+    { "native": "சீட்டு", "roman": "sīṭṭu", "en": "slip, chit; prescription", "pos": "noun", "note": "டாக்டர் சீட்டு 'the doctor's prescription'; also a ticket or a chit fund" },
+    { "native": "கட்டு", "roman": "kaṭṭu", "en": "pay (a bill or fee); tie; build", "pos": "verb", "note": "past கட்டினேன் kaṭṭinēn. கரண்ட் பில் கட்டு 'pay the electricity bill'" },
+    { "native": "கூரியர்", "roman": "kūriyar", "en": "courier (service)", "pos": "noun", "note": "கூரியர் பண்ணு 'to send by courier'" },
+    { "native": "பார்சல்", "roman": "pārsal", "en": "parcel; takeaway", "pos": "noun", "note": "in a restaurant பார்சல் means 'to take away'" },
+    { "native": "எடை", "roman": "eḍai", "en": "weight", "pos": "noun", "note": "spoken also வெயிட் weyiṭ" },
+    { "native": "கட்டணம்", "roman": "kaṭṭaṇam", "en": "fee, charge", "pos": "noun", "note": "spoken often சார்ஜ் chārj" }
+  ],
+  "phrases": [
+    { "native": "பக்கத்துல ஏதாவது ஏடிஎம் இருக்கா?", "roman": "pakkattula ēdāvadu ēṭīem irukkā?", "en": "Is there an ATM nearby?" },
+    { "native": "இந்த ஏடிஎம்ல காசு இல்ல.", "roman": "inda ēṭīemla kāsu illa.", "en": "This ATM's out of cash." },
+    { "native": "ஃபார்ம் ஃபில் பண்ணி இங்க கையெழுத்து போடுங்க.", "roman": "fārm fil paṇṇi inga kaiyeḻuttu pōḍunga.", "en": "Fill in the form and sign here, please." },
+    { "native": "எனக்கு ஒரு புது சிம் வேணும்.", "roman": "enakku oru pudu sim vēṇum.", "en": "I need a new SIM." },
+    { "native": "ஓடிபி வந்துச்சா?", "roman": "ōṭīpī vanducchā?", "en": "Did the OTP come?" },
+    { "native": "ஃபோன் ஸ்கிரீன் உடைஞ்சு போச்சு.", "roman": "fōn skrīn uḍainju pōcchu.", "en": "My phone screen has cracked." },
+    { "native": "எப்போ ரெடி ஆகும்?", "roman": "eppō reḍi āgum?", "en": "When will it be ready?" },
+    { "native": "சாயங்காலம் வந்து வாங்கிக்கோங்க.", "roman": "sāyangālam vandu vāngikkōnga.", "en": "Come and collect it in the evening." },
+    { "native": "நாளைக்குக் கண்டிப்பா கிடைக்குமா?", "roman": "nāḷaikkuk kaṇḍippā kiḍaikkumā?", "en": "Will I definitely have it by tomorrow?" },
+    { "native": "கொஞ்சம் ஷார்ட்டா வெட்டுங்க.", "roman": "konjam shārṭṭā veṭṭunga.", "en": "Cut it a bit short, please." },
+    { "native": "இந்த சட்டைக்கு இஸ்திரி போட்டுக் குடுங்க.", "roman": "inda saṭṭaikku istiri pōṭṭuk kuḍunga.", "en": "Please iron this shirt for me." },
+    { "native": "ஸ்கேன் பண்ணட்டுமா?", "roman": "skēn paṇṇaṭṭumā?", "en": "Shall I scan (the QR code to pay)?", "note": "the usual way to offer to pay by GPay, PhonePe or Paytm" },
+    { "native": "இதை கோயம்புத்தூருக்கு அனுப்பணும்.", "roman": "idai Kōyambuttūrukku anuppaṇum.", "en": "I need to send this to Coimbatore." },
+    { "native": "எவ்வளவு ஆகும்?", "roman": "evvaḷavu āgum?", "en": "How much will it come to?" }
+  ],
+  "grammar": [
+    {
+      "title": "Handing it in: infinitive + குடு, and 'when will it be ready?'",
+      "body": "English says *I got my phone repaired* or *I'm having a shirt made*. The everyday Tamil way to say that you've handed something over to be done is the **infinitive + குடு** 'give (it) for doing':\n\n**ரிப்பேர் பண்ணக் குடுத்தேன்** — I gave it in for repair\n**தைக்கக் குடுத்தேன்** — I gave it in to be stitched\n**இஸ்திரி போடக் குடுக்கணும்** — I need to give (these) for ironing\n**ஆல்டர் பண்ணக் குடுத்தேன்** — I gave it in for alteration\n\nThe infinitive is the form you know from -ணும் and முடியும் (பண்ண, தைக்க, போட, மாத்த, வெட்ட); the next word's first consonant is doubled in writing: பண்ணக் குடு, தைக்கக் குடு. With a **noun** instead of a verb, use the dative -க்கு: **ரிப்பேருக்குக் குடுத்தேன்**, **சலவைக்குக் குடுத்தேன்** 'I sent it to the laundry'.\n\nThen you ask about the **thing**, which simply 'becomes ready' or 'is got': **எப்போ ரெடி ஆகும்?** 'when will it be ready?', **நாளைக்குக் கிடைக்குமா?** 'will I have it tomorrow?', **ரெடி ஆயிடுச்சா?** 'is it ready yet?'. When you go back, you **collect** it with வாங்கு: **வந்து வாங்கிக்கோங்க** 'come and collect it'.\n\n**The trap:** don't build 'I got it repaired' with கிடை — ஃபோன் கிடைச்சுது means 'I found / obtained the phone'. Say what you did (ரிப்பேருக்குக் குடுத்தேன்) or what happened to the thing (ஃபோன் ரெடி ஆயிடுச்சு 'the phone's ready').",
+      "examples": [
+        { "native": "ஃபோனை ரிப்பேருக்குக் குடுத்தேன்.", "roman": "fōnai rippērukkuk kuḍuttēn.", "en": "I gave my phone in for repair." },
+        { "native": "ரெண்டு சட்டை தைக்கக் குடுத்தேன்.", "roman": "reṇḍu saṭṭai taikkak kuḍuttēn.", "en": "I gave two shirts in to be stitched." },
+        { "native": "இந்த பேண்ட்டை ஆல்டர் பண்ணக் குடுக்கணும்.", "roman": "inda pēṇṭṭai ālṭar paṇṇak kuḍukkaṇum.", "en": "I need to give these trousers in for alteration." },
+        { "native": "துணியெல்லாம் சலவைக்குக் குடுத்தாச்சு.", "roman": "tuṇiyellām salavaikkuk kuḍuttācchu.", "en": "I've already sent all the clothes to the laundry." },
+        { "native": "ஃபோன் ரெடி ஆயிடுச்சா? — இன்னும் இல்ல, நாளைக்கு.", "roman": "fōn reḍi āyiḍucchā? — innum illa, nāḷaikku.", "en": "Is the phone ready? — Not yet, tomorrow." }
+      ]
+    },
+    {
+      "title": "For me, for yourself: -ச்சுக் குடு and -க்கோ",
+      "body": "Tamil puts a second verb after the **verbal participle** (the -இ / -ச்சு / -ட்டு form of சாப்பிட்டுப் போ, unit 18) to show **who the action is for**.\n\n**For someone else: participle + குடு (or தா).** This is how you ask a shopkeeper, mechanic or tailor to do a job for you:\n\nபண்ணு → **பண்ணிக் குடுங்க** 'do it for me'\nமாத்து → **மாத்திக் குடுங்க** 'change it for me'\nபோடு → **போட்டுக் குடுங்க** 'put it in for me'\nதை → **தைச்சுக் குடுங்க** 'stitch it for me'\n\n**தாங்க** (from தா 'give to me') works the same way and sounds a touch warmer: **மாத்தித் தாங்க**. With a friend: **பண்ணிக் குடு / பண்ணித் தா**.\n\n**For yourself: participle + கொள் (spoken -க்கோ).** This says the action is done **to or for the subject**: **முடி வெட்டிக்கிட்டேன்** 'I got a haircut', **ஷேவ் பண்ணிக்கிட்டேன்** 'I had a shave', **புது சிம் வாங்கிக்கிட்டேன்** 'I got myself a new SIM', **வச்சுக்கோங்க** 'keep it (for yourself)'. Its forms:\n\npast **-க்கிட்டேன்** (நீ -க்கிட்ட, அவரு -க்கிட்டாரு)\npresent **-க்கிறேன்**\nneed to **-க்கணும்**\ncommand **-க்கோ** (friend), **-க்கோங்க** (polite)\n\n**The trap:** **குடுங்க** on its own means 'give (me)'; **பண்ணிக் குடுங்க** means 'do it for me'. And at the salon people do say முடி வெட்டப் போறேன் 'I'm going to get a haircut' — context makes it clear — but when you report it, **வெட்டிக்கிட்டேன்** says unmistakably that it was *your* hair.",
+      "examples": [
+        { "native": "இந்த சிம்மை கொஞ்சம் போட்டுக் குடுங்க.", "roman": "inda simmai konjam pōṭṭuk kuḍunga.", "en": "Could you put this SIM in for me?" },
+        { "native": "கொஞ்சம் லூஸா தைச்சுக் குடுங்க.", "roman": "konjam lūsā taicchuk kuḍunga.", "en": "Stitch it a bit loose for me, please." },
+        { "native": "இதுக்கு சில்லறை மாத்தித் தாங்க.", "roman": "idukku sillarai māttit tānga.", "en": "Could you give me change for this?" },
+        { "native": "நேத்து முடி வெட்டி ஷேவ் பண்ணிக்கிட்டேன்.", "roman": "nēttu muḍi veṭṭi shēv paṇṇikkiṭṭēn.", "en": "Yesterday I got a haircut and a shave." },
+        { "native": "கார்டை பத்திரமா வச்சுக்கோங்க.", "roman": "kārḍai pattiramā vacchukkōnga.", "en": "Keep your card safe." }
+      ]
+    },
+    {
+      "title": "Telling and making someone do it: infinitive + சொல்லு / வை",
+      "body": "**Infinitive + சொல்லு** = 'tell someone to do something'. It's how you pass on instructions and report them:\n\n**நாளைக்கு வரச் சொல்லுங்க** — tell him to come tomorrow\n**டாக்டர் ஓய்வு எடுக்கச் சொன்னாரு** — the doctor told me to rest\n**அப்பா பில் கட்டச் சொன்னாரு** — Dad told me to pay the bill\n\nThe person you tell takes **-கிட்ட** 'to (a person)' (written -இடம்): **டெய்லர்கிட்ட சொன்னேன்** 'I told the tailor', **அவர்கிட்ட கேளுங்க** 'ask him'. Or, if you name them as the one being told, -ஐ: **அவனை வரச் சொல்லு**.\n\n**Infinitive + வை** 'put' = 'make someone do something' — the true causative. Errand stories in Tamil Nadu are full of it:\n\n**காக்க வச்சாங்க** — they kept me waiting\n**வரிசையில நிக்க வச்சாங்க** — they made me stand in the queue\n**சிரிக்க வச்சான்** — he made (us) laugh\n**அழ வச்சுட்டா** — she made (me) cry\n\nWritten Tamil also has one-word causatives (செய் 'do' → செய்வி 'cause to do'); you'll see them in notices but hardly ever hear them.\n\n**The trap:** compare **வரச் சொன்னாரு** 'he told me to come' with **வர்றேன்னு சொன்னாரு** 'he said he would come' (unit 20). The infinitive gives an order; -ன்னு quotes words. And **வை after a participle** is a different thing: வச்சுக்கோ 'keep it', எடுத்து வை 'put it away'.",
+      "examples": [
+        { "native": "அவரை நாளைக்கு வரச் சொல்லுங்க.", "roman": "avarai nāḷaikku varach sollunga.", "en": "Tell him to come tomorrow." },
+        { "native": "டெய்லர்கிட்ட கொஞ்சம் லூஸா தைக்கச் சொன்னேன்.", "roman": "ṭeylarkiṭṭa konjam lūsā taikkach sonnēn.", "en": "I told the tailor to stitch it a bit loose." },
+        { "native": "பேங்க்ல ஒரு மணி நேரம் காக்க வச்சாங்க.", "roman": "bēnkla oru maṇi nēram kākka vacchānga.", "en": "They kept me waiting an hour at the bank." },
+        { "native": "அவன் எல்லாரையும் சிரிக்க வச்சான்.", "roman": "avan ellāraiyum sirikka vacchān.", "en": "He made everyone laugh." },
+        { "native": "என்னைக் காக்க வைக்காதீங்க, ப்ளீஸ்.", "roman": "ennaik kākka vaikkādīnga, plīs.", "en": "Please don't keep me waiting." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A cracked screen in T. Nagar",
+    "setting": "Karthik dropped his phone. He and his friend Divya go to a phone shop on Ranganathan Street in T. Nagar, Chennai.",
+    "lines": [
+      { "speaker": "Karthik", "native": "அண்ணா, ஃபோன் கீழ விழுந்து ஸ்கிரீன் உடைஞ்சு போச்சு.", "roman": "aṇṇā, fōn kīḻa viḻundu skrīn uḍainju pōcchu.", "en": "Anna, my phone fell and the screen cracked." },
+      { "speaker": "Shopkeeper", "native": "காட்டுங்க… ஐயோ, முழுசா போயிடுச்சு. ஸ்கிரீன் மாத்தணும்.", "roman": "kāṭṭunga… aiyō, muḻusā pōyiḍucchu. skrīn māttaṇum.", "en": "Let's see… oh dear, it's completely gone. The screen needs replacing." },
+      { "speaker": "Karthik", "native": "எவ்வளவு ஆகும், அண்ணா?", "roman": "evvaḷavu āgum, aṇṇā?", "en": "How much will it be, anna?" },
+      { "speaker": "Shopkeeper", "native": "ஒரிஜினல்னா நாலாயிரம். சாதா ஸ்கிரீன்னா ரெண்டாயிரத்து ஐநூறு.", "roman": "orijinalnā nālāyiram. sādā skrīnnā reṇḍāyirattu ainūru.", "en": "An original one is four thousand. An ordinary screen is two and a half." },
+      { "speaker": "Divya", "native": "டேய், நாலாயிரமா? பக்கத்துல இன்னொரு கடை இருக்கு, அங்க கேட்டுப் பாக்கலாம்.", "roman": "ḍēy, nālāyiramā? pakkattula innoru kaḍai irukku, anga kēṭṭup pākkalām.", "en": "Hey, four thousand? There's another shop nearby, let's ask there." },
+      { "speaker": "Shopkeeper", "native": "மேடம், அங்கயும் இதே விலைதான். நான் நல்லா பண்ணிக் குடுக்கிறேன், கவலைப்படாதீங்க.", "roman": "mēḍam, angayum idē vilaidān. nān nallā paṇṇik kuḍukkirēn, kavalaippaḍādīnga.", "en": "Madam, it's the same price there too. I'll do a good job for you, don't worry." },
+      { "speaker": "Karthik", "native": "சரி, ஒரிஜினலே போட்டுக் குடுங்க. எப்போ ரெடி ஆகும்?", "roman": "sari, orijinalē pōṭṭuk kuḍunga. eppō reḍi āgum?", "en": "OK, put an original one in. When will it be ready?" },
+      { "speaker": "Shopkeeper", "native": "ஒரு மணி நேரத்துல ரெடி. பில் போடட்டுமா?", "roman": "oru maṇi nērattula reḍi. bil pōḍaṭṭumā?", "en": "Ready in an hour. Shall I make out the bill?" },
+      { "speaker": "Karthik", "native": "போடுங்க. ஸ்கேன் பண்றேன்.", "roman": "pōḍunga. skēn paṇrēn.", "en": "Go ahead. I'll scan and pay." },
+      { "speaker": "Divya", "native": "அதுவரைக்கும் என்ன பண்றது?", "roman": "aduvaraikkum enna paṇradu?", "en": "What do we do till then?" },
+      { "speaker": "Karthik", "native": "நான் முடி வெட்டிக்கணும். பக்கத்துல ஒரு சலூன் இருக்கு, நீ ஒரு காபி குடிச்சுட்டு இரு.", "roman": "nān muḍi veṭṭikkaṇum. pakkattula oru salūn irukku, nī oru kāpi kuḍicchuṭṭu iru.", "en": "I need to get a haircut. There's a salon nearby, you have a coffee and wait." },
+      { "speaker": "Divya", "native": "சரி, ஆனா திரும்ப என்னைக் காக்க வைக்காத! போன தடவை ஒரு மணி நேரம் காக்க வச்ச.", "roman": "sari, ānā tirumba ennaik kākka vaikkāda! pōna taḍavai oru maṇi nēram kākka vaccha.", "en": "Fine, but don't keep me waiting again! Last time you made me wait an hour." },
+      { "speaker": "Karthik", "native": "இல்ல இல்ல, இந்த தடவை பத்து நிமிஷம்தான். ப்ராமிஸ்!", "roman": "illa illa, inda taḍavai pattu nimishamdān. prāmis!", "en": "No no, this time just ten minutes. Promise!" },
+      { "speaker": "Divya", "native": "உன் பத்து நிமிஷம் எனக்குத் தெரியாதா?", "roman": "un pattu nimisham enakkut teriyādā?", "en": "As if I don't know your 'ten minutes'!" }
+    ]
+  },
+  "culture": "Most errands in Chennai, Madurai or Coimbatore happen at small neighbourhood shops where people get to know you. Call a shopkeeper your age or a bit older **அண்ணா** or **அக்கா**, an older man **சார்** and an older woman **அம்மா**, and use the polite -ங்க forms; with the young guy at the phone shop you see every week you can slide into friendly Tamil, but -ங்க never sounds wrong. Services are rarely bargained over, but always ask **எப்போ ரெடி ஆகும்?** — and know that a tailor's **நாளைக்குக் கண்டிப்பா** 'tomorrow for sure' can mean 'the day after', especially in the rush before Deepavali or Pongal, when blouses and school uniforms pile up.\n\nThe **இஸ்திரி வண்டி** — a pushcart with a heavy charcoal iron, parked under a tree at the end of the street — irons clothes for a few rupees a piece and often delivers them back to the house. Chennai's go-to places for phone repairs and accessories are Ritchie Street and the shops around Ranganathan Street in T. Nagar. A SIM needs an ID (Aadhaar for Indians, passport and visa for foreigners) and an OTP or a fingerprint check. Almost everywhere takes UPI: just ask **ஸ்கேன் பண்ணட்டுமா?** or **ஜிபே ஓகேவா?**. And a visit to the barber often ends with a free head massage, whether you asked for it or not.",
+  "lessons": [
+    {
+      "title": "At the bank and the ATM",
+      "tip": { "title": "I need to…: -ணும் runs every errand", "body": "- **-ணும்** 'need to, must' (unit 15) is the backbone of errands: பணம் **எடுக்கணும்** 'I need to take out money', பணம் **போடணும்** 'I need to pay in'.\n- Question: **போடணுமா?** 'do I need to…?' · **என்ன பண்ணணும்?** 'what do I have to do?'\n- No need: **-அ வேணாம்**: கையெழுத்து போட வேணாம்.", "pattern": "verb + -ணும் / -க்கணும்" },
+      "new": [
+        "ஏடிஎம்",
+        "கார்டு",
+        "போடு",
+        "படிவம்",
+        "கையெழுத்து",
+        "வரிசை",
+        "டோக்கன்",
+        "பக்கத்துல ஏதாவது ஏடிஎம் இருக்கா?",
+        "இந்த ஏடிஎம்ல காசு இல்ல.",
+        "ஃபார்ம் ஃபில் பண்ணி இங்க கையெழுத்து போடுங்க.",
+        "நில்"
+      ],
+      "sentences": [
+        { "native": "நான் கொஞ்சம் பணம் எடுக்கணும்.", "roman": "nān konjam paṇam eḍukkaṇum.", "en": "I need to take out some money.", "focus": "எடுக்கணும்", "wrong": ["எடுத்தேன்|eḍuttēn", "எடுக்கல|eḍukkala"] },
+        { "native": "இந்த ஏடிஎம்லயும் காசு இல்ல, வேற ஏடிஎம் தேடணும்.", "roman": "inda ēṭīemlayum kāsu illa, vēra ēṭīem tēḍaṇum.", "en": "This ATM's out of cash too, we'll have to find another one.", "focus": "தேடணும்", "wrong": ["தேடினேன்|tēḍinēn", "தேடல|tēḍala"] },
+        { "native": "பேங்க்ல பத்தாயிரம் ரூபாய் போடணும்.", "roman": "bēnkla pattāyiram rūbāy pōḍaṇum.", "en": "I need to pay ten thousand rupees into the bank.", "focus": "போடணும்", "wrong": ["போட்டேன்|pōṭṭēn", "போடல|pōḍala"] },
+        { "native": "முதல்ல டோக்கன் எடுக்கணும்.", "roman": "mudalla ṭōkkan eḍukkaṇum.", "en": "First you have to take a token.", "focus": "எடுக்கணும்", "wrong": ["எடுத்தேன்|eḍuttēn", "எடுக்காது|eḍukkādu"] },
+        { "native": "பணம் போட இந்த படிவம் ஃபில் பண்ணணும்.", "roman": "paṇam pōḍa inda paḍivam fil paṇṇaṇum.", "en": "To pay in money you have to fill in this form.", "focus": "பண்ணணும்", "wrong": ["பண்ணேன்|paṇṇēn", "பண்ணல|paṇṇala"] },
+        { "native": "ரெண்டு தடவை கையெழுத்து போடணுமா?", "roman": "reṇḍu taḍavai kaiyeḻuttu pōḍaṇumā?", "en": "Do I have to sign twice?", "focus": "போடணுமா", "wrong": ["போட்டீங்களா|pōṭṭīngaḷā", "போடலையா|pōḍalaiyā"] },
+        { "native": "எவ்வளவு நேரம் வரிசையில நிக்கணும்?", "roman": "evvaḷavu nēram varisaiyila nikkaṇum?", "en": "How long do we have to stand in the queue?", "focus": "நிக்கணும்", "wrong": ["நின்னேன்|ninnēn", "நிக்கல|nikkala"] },
+        { "native": "உங்க டோக்கன் நம்பர் என்ன?", "roman": "unga ṭōkkan nambar enna?", "en": "What's your token number?" },
+        { "native": "ஐயோ, கார்டு உள்ள போயிடுச்சு, வெளிய வரல!", "roman": "aiyō, kārḍu uḷḷa pōyiḍucchu, veḷiya varala!", "en": "Oh no, the card went in and hasn't come out!" },
+        { "native": "கார்டை யார்கிட்டயும் குடுக்கக்கூடாது.", "roman": "kārḍai yārkiṭṭayum kuḍukkakkūḍādu.", "en": "You mustn't give your card to anyone." },
+        { "native": "இதுக்கு கையெழுத்து போட வேணாம்.", "roman": "idukku kaiyeḻuttu pōḍa vēṇām.", "en": "You don't need to sign for this.", "focus": "வேணாம்", "wrong": ["வேணும்|vēṇum", "இல்ல|illa"] }
+      ]
+    },
+    {
+      "title": "Sorting out your phone",
+      "tip": { "title": "Do it for me: -ச்சுக் குடுங்க", "body": "- For a job done **for you**, put the verb in the participle and add **குடுங்க**: மாத்து → **மாத்திக் குடுங்க** 'change it for me'.\n- பண்ணு → பண்ணிக் குடுங்க · போடு → போட்டுக் குடுங்க · எடு → எடுத்துக் குடுங்க.\n- **தாங்க** works the same way: பண்ணித் **தாங்க**.\n- **குடுங்க** alone just means 'give (me)'.", "pattern": "verb participle + குடுங்க / தாங்க", "grammar": 1 },
+      "new": ["சிம்", "ரீசார்ஜ்", "ஓடிபி", "அடையாள அட்டை", "ரிப்பேர்", "பேட்டரி", "சார்ஜர்", "எனக்கு ஒரு புது சிம் வேணும்.", "ஓடிபி வந்துச்சா?", "ஃபோன் ஸ்கிரீன் உடைஞ்சு போச்சு."],
+      "sentences": [
+        { "native": "இந்த சிம்மை ஃபோன்ல போட்டுக் குடுங்க.", "roman": "inda simmai fōnla pōṭṭuk kuḍunga.", "en": "Could you put this SIM in my phone for me?", "focus": "போட்டுக்", "wrong": ["போட|pōḍa", "போடுங்க|pōḍunga"] },
+        { "native": "முன்னூறு ரூபாய்க்கு ரீசார்ஜ் பண்ணிக் குடுங்க.", "roman": "munnūru rūbāykku rīchārj paṇṇik kuḍunga.", "en": "Top me up with three hundred rupees, please.", "focus": "பண்ணிக்", "wrong": ["பண்ண|paṇṇa", "பண்ணுங்க|paṇṇunga"] },
+        { "native": "சிம் வாங்க அடையாள அட்டை வேணும்.", "roman": "sim vānga aḍaiyāḷa aṭṭai vēṇum.", "en": "You need ID to get a SIM." },
+        { "native": "எனக்கு இன்னும் ஓடிபி வரல.", "roman": "enakku innum ōṭīpī varala.", "en": "I still haven't got the OTP." },
+        { "native": "ஃபோன் ரிப்பேர் ஆயிடுச்சு, கொஞ்சம் பாத்துக் குடுங்க.", "roman": "fōn rippēr āyiḍucchu, konjam pāttuk kuḍunga.", "en": "My phone's stopped working, could you have a look at it for me?", "focus": "பாத்துக்", "wrong": ["பாக்க|pākka", "பாருங்க|pārunga"] },
+        { "native": "பேட்டரி சரியில்ல, மாத்திக் குடுங்க.", "roman": "pēṭṭari sariyilla, māttik kuḍunga.", "en": "The battery's no good, change it for me.", "focus": "மாத்திக்", "wrong": ["மாத்த|mātta", "மாத்துங்க|māttunga"] },
+        { "native": "இந்த சார்ஜர் வேலை செய்யல, வேற ஒண்ணு எடுத்துக் குடுங்க.", "roman": "inda chārjar vēlai seyyala, vēra oṇṇu eḍuttuk kuḍunga.", "en": "This charger isn't working, get me another one.", "focus": "எடுத்துக்", "wrong": ["எடுக்க|eḍukka", "எடுங்க|eḍunga"] },
+        { "native": "இந்த நம்பருக்கு ரீசார்ஜ் பண்ணித் தாங்க.", "roman": "inda nambarukku rīchārj paṇṇit tānga.", "en": "Could you top up this number for me?", "focus": "பண்ணித்", "wrong": ["பண்ண|paṇṇa", "பண்ணுங்க|paṇṇunga"] },
+        { "native": "ஸ்கிரீன் மாத்தித் தர முடியுமா?", "roman": "skrīn māttit tara muḍiyumā?", "en": "Can you replace the screen for me?", "focus": "மாத்தித்", "wrong": ["மாத்த|mātta", "மாத்துங்க|māttunga"] },
+        { "native": "உங்க ஃபோனுக்கு வர்ற ஓடிபி யார்கிட்டயும் சொல்லாதீங்க.", "roman": "unga fōnukku varra ōṭīpī yārkiṭṭayum sollādīnga.", "en": "Don't tell anyone the OTP that comes to your phone." }
+      ]
+    },
+    {
+      "title": "At the tailor's: is it ready yet?",
+      "tip": { "title": "Handing it in: infinitive + குடு", "body": "- To say you've given something in to be done: **infinitive + குடு**: தைக்கக் **குடுத்தேன்** 'I gave it in to be stitched'.\n- With a noun use -க்கு: **ரிப்பேருக்குக்** குடுத்தேன்.\n- Then ask about the thing: **எப்போ ரெடி ஆகும்?** · **நாளைக்குக் கிடைக்குமா?**\n- Collect it with **வாங்கு**: வந்து வாங்கிக்கிறேன்.", "pattern": "thing + infinitive + குடு", "grammar": 0 },
+      "new": ["தையல்காரர்", "பிளவுஸ்", "மாற்று", "எப்போ ரெடி ஆகும்?", "சாயங்காலம் வந்து வாங்கிக்கோங்க.", "நாளைக்குக் கண்டிப்பா கிடைக்குமா?"],
+      "sentences": [
+        { "native": "இங்க நல்ல தையல்காரர் யாராவது தெரியுமா?", "roman": "inga nalla taiyalkārar yārāvadu teriyumā?", "en": "Do you know a good tailor around here?" },
+        { "native": "நேத்து ரெண்டு பிளவுஸ் தைக்கக் குடுத்தேன்.", "roman": "nēttu reṇḍu plavus taikkak kuḍuttēn.", "en": "Yesterday I gave in two blouses to be stitched.", "focus": "தைக்கக்", "wrong": ["தைச்சுக்|taicchuk", "தைக்கணும்|taikkaṇum"] },
+        { "native": "இந்த பேண்ட் லூஸா இருக்கு, ஆல்டர் பண்ணக் குடுக்கணும்.", "roman": "inda pēṇṭ lūsā irukku, ālṭar paṇṇak kuḍukkaṇum.", "en": "These trousers are loose, I need to give them in for alteration.", "focus": "பண்ணக்", "wrong": ["பண்ணிக்|paṇṇik", "பண்ணுங்க|paṇṇunga"] },
+        { "native": "டெய்லர்கிட்ட சட்டை குடுத்தேன், இன்னும் ரெடி ஆகல.", "roman": "ṭeylarkiṭṭa saṭṭai kuḍuttēn, innum reḍi āgala.", "en": "I gave the shirt to the tailor and it's still not ready.", "focus": "ஆகல", "wrong": ["ஆகும்|āgum", "ஆச்சு|ācchu"] },
+        { "native": "ஒரு சட்டை தைக்க எவ்வளவு?", "roman": "oru saṭṭai taikka evvaḷavu?", "en": "How much is it to stitch a shirt?" },
+        { "native": "பிளவுஸ் எப்போ கிடைக்கும்?", "roman": "plavus eppō kiḍaikkum?", "en": "When will I get the blouse?", "focus": "கிடைக்கும்", "wrong": ["கிடைச்சுது|kiḍaicchudu", "கிடைக்கல|kiḍaikkala"] },
+        { "native": "தீபாவளிக்கு முன்னாடி ரெடி ஆயிடுமா?", "roman": "Tībāvaḷikku munnāḍi reḍi āyiḍumā?", "en": "Will it be ready before Deepavali?", "focus": "ஆயிடுமா", "wrong": ["ஆயிடுச்சா|āyiḍucchā", "ஆகலையா|āgalaiyā"] },
+        { "native": "வெள்ளிக்கிழமை சாயங்காலம் வந்து வாங்கிக்கிறேன்.", "roman": "veḷḷikkiḻamai sāyangālam vandu vāngikkirēn.", "en": "I'll come and collect it on Friday evening.", "focus": "வாங்கிக்கிறேன்", "wrong": ["வாங்கினேன்|vānginēn", "வாங்கல|vāngala"] },
+        { "native": "கை கொஞ்சம் நீளமா இருக்கு, மாத்தித் தர முடியுமா?", "roman": "kai konjam nīḷamā irukku, māttit tara muḍiyumā?", "en": "The sleeves are a bit long, can you change them for me?" },
+        { "native": "அளவு சரியா இல்ல, திரும்ப தைக்கக் குடுக்கணும்.", "roman": "aḷavu sariyā illa, tirumba taikkak kuḍukkaṇum.", "en": "It doesn't fit right, I'll have to give it back to be re-stitched.", "focus": "தைக்கக்", "wrong": ["தைச்சுக்|taicchuk", "தைச்சேன்|taicchēn"] }
+      ]
+    },
+    {
+      "title": "At the barber's",
+      "tip": { "title": "I got a haircut: -க்கிட்டேன்", "body": "- For something done **to or for yourself**, add **-க்கோ** (கொள்) to the participle: முடி **வெட்டிக்கிட்டேன்** 'I got a haircut'.\n- Present **-க்கிறேன்** · need to **-க்கணும்** · command **-க்கோ / -க்கோங்க**.\n- To a friend: வெட்டிக்கிட்**டியா?** 'did you get a haircut?'\n- **Trap:** முடி வெட்டினேன் sounds as if *you* held the scissors.", "pattern": "verb participle + க்கிட்டேன் / க்கணும் / க்கோ", "grammar": 1 },
+      "new": ["சலூன்", "வெட்டு", "தாடி", "மீசை", "கொஞ்சம் ஷார்ட்டா வெட்டுங்க."],
+      "sentences": [
+        { "native": "நாளைக்கு சலூனுக்குப் போய் முடி வெட்டிக்கணும்.", "roman": "nāḷaikku salūnukkup pōy muḍi veṭṭikkaṇum.", "en": "Tomorrow I need to go to the barber and get a haircut.", "focus": "வெட்டிக்கணும்", "wrong": ["வெட்டிக்கிட்டேன்|veṭṭikkiṭṭēn", "வெட்டிக்கோ|veṭṭikkō"] },
+        { "native": "டேய், முடி வெட்டிக்கிட்டியா? நல்லா இருக்கு!", "roman": "ḍēy, muḍi veṭṭikkiṭṭiyā? nallā irukku!", "en": "Hey, you got a haircut? Looks good!", "focus": "வெட்டிக்கிட்டியா", "wrong": ["வெட்டிக்கோ|veṭṭikkō", "வெட்டிக்கிறேன்|veṭṭikkirēn"] },
+        { "native": "தாடியையும் மீசையையும் கொஞ்சம் சரி பண்ணிக்கணும்.", "roman": "tāḍiyaiyum mīsaiyaiyum konjam sari paṇṇikkaṇum.", "en": "I want to get my beard and moustache tidied up a bit.", "focus": "பண்ணிக்கணும்", "wrong": ["பண்ணிக்கிட்டேன்|paṇṇikkiṭṭēn", "பண்ணிக்கோ|paṇṇikkō"] },
+        { "native": "பக்கத்துல ஷார்ட்டா, மேல கொஞ்சம் நீளமா வெட்டுங்க.", "roman": "pakkattula shārṭṭā, mēla konjam nīḷamā veṭṭunga.", "en": "Short on the sides and a bit longer on top, please." },
+        { "native": "நான் தினமும் வீட்டுலயே ஷேவ் பண்ணிக்கிறேன்.", "roman": "nān dinamum vīṭṭulayē shēv paṇṇikkirēn.", "en": "I shave at home every day.", "focus": "பண்ணிக்கிறேன்", "wrong": ["பண்ணிக்கிட்டேன்|paṇṇikkiṭṭēn", "பண்ணிக்கோ|paṇṇikkō"] },
+        { "native": "சலூன்ல ரொம்பக் கூட்டம், ஒரு மணி நேரம் ஆகும்.", "roman": "salūnla rombak kūṭṭam, oru maṇi nēram āgum.", "en": "The barber's is packed, it'll take an hour." },
+        { "native": "முடி வெட்டிக்க எவ்வளவு ஆகும்?", "roman": "muḍi veṭṭikka evvaḷavu āgum?", "en": "How much is a haircut?", "focus": "வெட்டிக்க", "wrong": ["வெட்டிக்கிட்டேன்|veṭṭikkiṭṭēn", "வெட்டுங்க|veṭṭunga"] },
+        { "native": "நீயும் முடி வெட்டிக்கோ, ரொம்ப நீளமா இருக்கு.", "roman": "nīyum muḍi veṭṭikkō, romba nīḷamā irukku.", "en": "You get a haircut too, it's really long.", "focus": "வெட்டிக்கோ", "wrong": ["வெட்டிக்கிட்டேன்|veṭṭikkiṭṭēn", "வெட்டிக்கிறேன்|veṭṭikkirēn"] },
+        { "native": "தாடியை எடுத்துட்டியா? ஆளே மாறிட்ட!", "roman": "tāḍiyai eḍuttuṭṭiyā? āḷē māriṭṭa!", "en": "You've shaved off your beard? You look like a different person!" }
+      ]
+    },
+    {
+      "title": "Laundry, bills and the chemist",
+      "tip": { "title": "Tell him to… · made me…", "body": "- **Infinitive + சொல்லு** = tell someone to do it: நாளைக்கு **வரச் சொல்லுங்க** 'tell him to come tomorrow'.\n- The person you tell takes **-கிட்ட**: அவர்**கிட்ட** சொல்லுங்க.\n- **Infinitive + வை** = make someone do it: **காக்க வச்சாங்க** 'they kept me waiting'.\n- Compare **வர்றேன்னு** சொன்னாரு 'he said he'd come'.", "pattern": "infinitive + சொல்லு (tell to) · infinitive + வை (make)", "grammar": 2 },
+      "new": [
+        "இஸ்திரி",
+        "சலவை",
+        "சீட்டு",
+        "கட்டு",
+        "இந்த சட்டைக்கு இஸ்திரி போட்டுக் குடுங்க.",
+        "ஸ்கேன் பண்ணட்டுமா?"
+      ],
+      "sentences": [
+        { "native": "இஸ்திரிக்காரர்கிட்ட நாளைக்கு காலையில வரச் சொல்லு.", "roman": "istirikkārarkiṭṭa nāḷaikku kālaiyila varach sollu.", "en": "Tell the ironing man to come tomorrow morning.", "focus": "வரச்", "wrong": ["வந்து|vandu", "வருவேன்|varuvēn"] },
+        { "native": "அம்மா, என் வெள்ளை சட்டையை சலவைக்குக் குடுக்கச் சொன்னேனே, குடுத்தீங்களா?", "roman": "ammā, en veḷḷai saṭṭaiyai salavaikkuk kuḍukkach sonnēnē, kuḍuttīngaḷā?", "en": "Mum, I asked you to send my white shirt to the laundry, did you?", "focus": "குடுக்கச்", "wrong": ["குடுத்து|kuḍuttu", "குடுப்பேன்|kuḍuppēn"] },
+        { "native": "டாக்டர் இந்த மாத்திரையை ரெண்டு வேளை சாப்பிடச் சொன்னாரு.", "roman": "ḍākṭar inda māttiraiyai reṇḍu vēḷai sāppiḍach sonnāru.", "en": "The doctor told me to take this tablet twice a day.", "focus": "சாப்பிடச்", "wrong": ["சாப்பிட்டு|sāppiṭṭu", "சாப்பிடுவேன்|sāppiḍuvēn"] },
+        { "native": "இந்த சீட்டுல இருக்கிற மருந்து எல்லாம் குடுங்க.", "roman": "inda sīṭṭula irukkira marundu ellām kuḍunga.", "en": "Give me all the medicines on this prescription." },
+        { "native": "அப்பா என்னை ஃபோன் பில் கட்டச் சொன்னாரு.", "roman": "appā ennai fōn bil kaṭṭach sonnāru.", "en": "Dad told me to pay the phone bill.", "focus": "கட்டச்", "wrong": ["கட்டி|kaṭṭi", "கட்டுவேன்|kaṭṭuvēn"] },
+        { "native": "பில் கட்ட ரெண்டு மணி நேரம் வரிசையில நிக்க வச்சாங்க!", "roman": "bil kaṭṭa reṇḍu maṇi nēram varisaiyila nikka vacchānga!", "en": "They made me stand in the queue for two hours to pay the bill!", "focus": "நிக்க", "wrong": ["நின்னு|ninnu", "நிக்கணும்|nikkaṇum"] },
+        { "native": "அந்த இஸ்திரிக்காரர் எப்பவும் காக்க வைக்கிறாரு.", "roman": "anda istirikkārar eppavum kākka vaikkirāru.", "en": "That ironing man always keeps you waiting.", "focus": "காக்க", "wrong": ["காத்து|kāttu", "காக்கணும்|kākkaṇum"] },
+        { "native": "சலவைக்குக் குடுத்த புடவை இன்னும் வரல.", "roman": "salavaikkuk kuḍutta puḍavai innum varala.", "en": "The sari I sent to the laundry hasn't come back yet." },
+        { "native": "கடைக்காரர் ஸ்கேன் பண்ணச் சொன்னாரு.", "roman": "kaḍaikkārar skēn paṇṇach sonnāru.", "en": "The shopkeeper told me to scan (and pay).", "focus": "பண்ணச்", "wrong": ["பண்ணி|paṇṇi", "பண்ணுவேன்|paṇṇuvēn"] },
+        { "native": "சீட்டு இல்லாம இந்த மருந்து குடுக்க மாட்டோம்.", "roman": "sīṭṭu illāma inda marundu kuḍukka māṭṭōm.", "en": "We can't give this medicine without a prescription." }
+      ]
+    },
+    {
+      "title": "Sending a parcel",
+      "new": ["கூரியர்", "பார்சல்", "எடை", "கட்டணம்", "இதை கோயம்புத்தூருக்கு அனுப்பணும்.", "எவ்வளவு ஆகும்?"],
+      "sentences": [
+        { "native": "இந்த பார்சலை மதுரைக்கு கூரியர் பண்ணணும்.", "roman": "inda pārsalai Maduraikku kūriyar paṇṇaṇum.", "en": "I need to courier this parcel to Madurai." },
+        { "native": "உள்ள என்ன இருக்கு?", "roman": "uḷḷa enna irukku?", "en": "What's inside?" },
+        { "native": "அம்மாவுக்கு கொஞ்சம் துணியும் இனிப்பும்.", "roman": "ammāvukku konjam tuṇiyum inippum.", "en": "Some clothes and sweets for my mum." },
+        { "native": "எடை எவ்வளவு இருக்கு?", "roman": "eḍai evvaḷavu irukku?", "en": "How much does it weigh?" },
+        { "native": "ரெண்டு கிலோ. கூரியர் கட்டணம் இருநூறு ரூபாய்.", "roman": "reṇḍu kilō. kūriyar kaṭṭaṇam irunūru rūbāy.", "en": "Two kilos. The courier charge is two hundred rupees." },
+        { "native": "கட்டணம் கொஞ்சம் அதிகமா இருக்கே!", "roman": "kaṭṭaṇam konjam adigamā irukkē!", "en": "That's a bit steep!" },
+        { "native": "எத்தன நாள்ல போய்ச் சேரும்?", "roman": "ettana nāḷla pōych sērum?", "en": "How many days will it take to get there?" },
+        { "native": "நாளைக்கே போய்ச் சேர்ந்துடும்.", "roman": "nāḷaikkē pōych sērnduḍum.", "en": "It'll get there tomorrow itself." },
+        { "native": "முகவரியை தெளிவா எழுதுங்க, ஃபோன் நம்பரும் போடுங்க.", "roman": "mugavariyai teḷivā eḻudunga, fōn nambarum pōḍunga.", "en": "Write the address clearly and put a phone number too." }
+      ]
+    }
+  ]
+}

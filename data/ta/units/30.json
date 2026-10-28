@@ -1,0 +1,214 @@
+{
+  "id": 30,
+  "title": "Feelings & support",
+  "goal": "Notice when a friend is low and comfort them, say sorry and mean it, cheer someone's good news and offer condolences the way Tamils do.",
+  "intro": "Friendships are made when something goes wrong — or very right. This unit gives you what people in Chennai or Coimbatore really say when a friend is stressed (**டென்ஷன் ஆகாதே**), hurt (**மனசுல வச்சுக்காதே**), grieving (**கேக்கவே ரொம்பக் கஷ்டமா இருக்கு**) or celebrating (**உன்னை நினைச்சா பெருமையா இருக்கு!**).\n\nOn the grammar side you'll see feelings that *come to* you (**எனக்கு அழுகை வந்துடுச்சு** 'I burst into tears'), how to link actions in time — *while, as soon as, until* — and how to own up to a mistake: **தெரியாம பண்ணிட்டேன்** 'I did it without meaning to'.",
+  "vocab": [
+    { "native": "டென்ஷன்", "roman": "ṭenshan", "en": "stress, tension (informal)", "pos": "noun", "note": "English 'tension', the everyday word: எனக்கு டென்ஷனா இருக்கு 'I'm stressed', டென்ஷன் ஆகாதே 'don't get stressed'. Formal: மன அழுத்தம் mana aḻuttam." },
+    { "native": "பதட்டம்", "roman": "padaṭṭam", "en": "nervousness, panic, agitation", "pos": "noun", "note": "also written பதற்றம் padatram · பதட்டப்படாதே \"don't panic\"" },
+    { "native": "அழுகை", "roman": "aḻugai", "en": "crying, the urge to cry", "pos": "noun", "note": "from அழு \"cry\" · எனக்கு அழுகை வந்துடுச்சு \"I burst into tears\"" },
+    { "native": "சிரிப்பு", "roman": "sirippu", "en": "laughter, a laugh", "pos": "noun", "note": "from சிரி \"laugh\" · எனக்கு சிரிப்பு வந்துச்சு \"I couldn't help laughing\"" },
+    { "native": "மனசு", "roman": "manasu", "en": "mind, heart (feelings)", "pos": "noun", "note": "the spoken word; written மனம் manam · மனசு சரியில்ல \"I'm feeling low\" · மனசுல வச்சுக்காதே \"don't take it to heart\"" },
+    { "native": "தனிமை", "roman": "tanimai", "en": "loneliness, being alone", "pos": "noun", "note": "தனிமையா இருக்கு \"I feel lonely\" · compare தனியா \"alone\"" },
+    { "native": "பிரேக்அப்", "roman": "brēkap", "en": "break-up", "pos": "noun", "note": "everyone uses the English word: அவங்களுக்கு பிரேக்அப் ஆயிடுச்சு \"they broke up\"" },
+    { "native": "தைரியம்", "roman": "dairiyam", "en": "courage", "pos": "noun", "note": "தைரியமா இரு \"be brave, stay strong\" · தைரியமான \"brave\"" },
+    { "native": "ஆறுதல்", "roman": "ārudal", "en": "comfort, consolation", "pos": "noun", "note": "ஆறுதல் சொல்லு \"say comforting words, console\"" },
+    { "native": "கலங்கு", "roman": "kalangu", "en": "be upset, be shaken (to tears)", "pos": "verb", "note": "கலங்காதே \"don't be upset\" — a gentle, warm way to comfort; கண் கலங்குது \"eyes are welling up\"" },
+    { "native": "கஷ்டப்படு", "roman": "kashṭappaḍu", "en": "struggle, suffer; work hard", "pos": "verb", "note": "கஷ்டம் + படு · கஷ்டப்பட்டுப் படிச்சான் \"he studied hard\"" },
+    { "native": "கட்டிப்பிடி", "roman": "kaṭṭippiḍi", "en": "hug", "pos": "verb", "note": "X-ஐக் கட்டிப்பிடி \"hug X\" · usual between friends of the same sex and in families" },
+    { "native": "நிம்மதி", "roman": "nimmadi", "en": "peace of mind, relief", "pos": "noun", "note": "நிம்மதியா இருக்கு \"I feel relieved / at peace\" · அப்பாடா! \"phew!\" goes with it" },
+    { "native": "குழப்பம்", "roman": "kuḻappam", "en": "confusion", "pos": "noun", "note": "குழப்பமா இருக்கு \"I'm confused\" · குழப்பாதே \"don't confuse (me)\"" },
+    { "native": "வருத்தம்", "roman": "varuttam", "en": "sorrow, regret, hurt feelings", "pos": "noun", "note": "வருத்தமா இருக்கு \"I feel bad / sad\" · வருத்தப்படாதே \"don't feel bad\"" },
+    { "native": "ஏமாற்றம்", "roman": "ēmātram", "en": "disappointment", "pos": "noun", "note": "spoken: ஏமாத்தம் ēmāttam · related ஏமாத்து \"cheat, let down\"" },
+    { "native": "கோபித்துக்கொள்", "roman": "kōbittukkoḷ", "en": "get upset / angry with (someone)", "pos": "verb", "note": "spoken: கோவிச்சுக்க kōvicchukka · என் மேல கோவிச்சுக்காதே \"don't be cross with me\"" },
+    { "native": "சமாதானம்", "roman": "samādānam", "en": "making up, reconciliation; peace", "pos": "noun", "note": "சமாதானம் ஆகு \"make up\" · சமாதானப்படுத்து \"calm (someone) down, talk round\"" },
+    { "native": "வேண்டுமென்றே", "roman": "vēṇḍumendrē", "en": "on purpose, deliberately", "pos": "adv", "note": "spoken: வேணும்னே vēṇumnē · நான் வேணும்னே பண்ணல \"I didn't do it on purpose\"" },
+    { "native": "தெரியாமல்", "roman": "teriyāmal", "en": "by mistake, without meaning to (lit. without knowing)", "pos": "adv", "note": "spoken: தெரியாம teriyāma" },
+    { "native": "விஷயம்", "roman": "vishayam", "en": "matter, thing, news", "pos": "noun", "note": "very frequent: என்ன விஷயம்? \"what's up? what is it?\" · ஒரு நல்ல விஷயம் \"some good news\"" },
+    { "native": "ஜெயி", "roman": "jeyi", "en": "win", "pos": "verb", "note": "past ஜெயிச்சேன் · ஜெயிச்சுட்ட! \"you won!\" · written வெல் vel" },
+    { "native": "பாஸ்", "roman": "pās", "en": "pass (an exam)", "pos": "verb", "note": "used with ஆகு: பாஸ் ஆயிட்டேன் \"I passed\"; fail: ஃபெயில் ஆகு" },
+    { "native": "பொறாமை", "roman": "porāmai", "en": "jealousy, envy", "pos": "noun", "note": "X மேல பொறாமை \"jealous of X\" · said jokingly to a friend with good news" },
+    { "native": "இறந்து போ", "roman": "irandu pō", "en": "pass away, die", "pos": "verb", "note": "spoken: இறந்துட்டாரு / இறந்து போயிட்டாங்க. Gentler: தவறிட்டாரு tavariṭṭāru; news: காலமானார் kālamānār; blunt: செத்துப் போ. Use the respectful plural for the person." },
+    { "native": "அனுதாபம்", "roman": "anudābam", "en": "sympathy, condolence", "pos": "noun", "note": "mostly in the plural formula ஆழ்ந்த அனுதாபங்கள் \"deepest condolences\"" },
+    { "native": "ஆன்மா", "roman": "ānmā", "en": "soul", "pos": "noun" },
+    { "native": "சாந்தி", "roman": "sānti", "en": "peace (of the soul)", "pos": "noun", "note": "சாந்தியடை \"rest in peace\" — in the condolence formula" }
+  ],
+  "phrases": [
+    { "native": "என்னடா ஆச்சு? ஏன் ஒரு மாதிரி இருக்க?", "roman": "ennaḍā ācchu? ēn oru mādiri irukka?", "en": "What's up, mate? Why do you seem off? (informal)", "note": "டா to a male friend, டி to a close female friend; ஒரு மாதிரி \"a bit off, not yourself\"" },
+    { "native": "கவலைப்படாதே, நான் இருக்கேன்ல.", "roman": "kavalaippaḍādē, nān irukkēnla.", "en": "Don't worry, I'm here for you. (informal)", "note": "-ல at the end = \"right? you know\": \"I'm here, aren't I?\" Polite: கவலைப்படாதீங்க." },
+    { "native": "டென்ஷன் ஆகாதே.", "roman": "ṭenshan āgādē.", "en": "Don't stress. / Chill. (informal)" },
+    { "native": "எல்லாம் சரியாயிடும், பாத்துக்கலாம்.", "roman": "ellām sariyāyiḍum, pāttukkalām.", "en": "It'll all be fine — we'll sort it out." },
+    { "native": "மனசுல வச்சுக்காதே.", "roman": "manasula vacchukkādē.", "en": "Don't take it to heart. (lit. don't keep it in your mind)" },
+    { "native": "தைரியமா இரு.", "roman": "dairiyamā iru.", "en": "Stay strong. / Be brave. (informal)", "note": "polite: தைரியமா இருங்க" },
+    { "native": "ஏதாவது வேணும்னா கூப்பிடு.", "roman": "ēdāvadu vēṇumnā kūppiḍu.", "en": "If you need anything, call me." },
+    { "native": "சாரி டா, தெரியாம பண்ணிட்டேன்.", "roman": "sāri ḍā, teriyāma paṇṇiṭṭēn.", "en": "Sorry, mate, I didn't mean to do it." },
+    { "native": "நான் வேணும்னே பண்ணல.", "roman": "nān vēṇumnē paṇṇala.", "en": "I didn't do it on purpose." },
+    { "native": "என்னை மன்னிச்சிடு.", "roman": "ennai mannicchiḍu.", "en": "Please forgive me. (informal)", "note": "polite: என்னை மன்னிச்சிடுங்க" },
+    { "native": "பரவால்ல, விடு.", "roman": "paravālla, viḍu.", "en": "It's fine, forget it. (informal)", "note": "the easy-going reply to an apology between friends" },
+    { "native": "வாழ்த்துக்கள்! ரொம்ப சந்தோஷமா இருக்கு.", "roman": "vāḻttukkaḷ! romba santōshamā irukku.", "en": "Congratulations! I'm so happy for you." },
+    { "native": "உன்னை நினைச்சா பெருமையா இருக்கு.", "roman": "unnai ninaicchā perumaiyā irukku.", "en": "I'm proud of you. (lit. when I think of you, it feels proud)" },
+    { "native": "கேக்கவே ரொம்பக் கஷ்டமா இருக்கு.", "roman": "kēkkavē rombak kashṭamā irukku.", "en": "I'm so sorry to hear that. (lit. it's hard even to hear)" },
+    { "native": "என் ஆழ்ந்த அனுதாபங்கள்.", "roman": "en āḻnda anudābangaḷ.", "en": "My deepest condolences. (formal, often written)" },
+    { "native": "அவரது ஆன்மா சாந்தியடையட்டும்.", "roman": "avaradu ānmā sāntiyaḍaiyaṭṭum.", "en": "May his/her soul rest in peace.", "note": "a fixed written formula, used in messages and on posters; அவரது is written Tamil for அவரோட" }
+  ],
+  "grammar": [
+    {
+      "title": "Feelings that come to you: எனக்கு அழுகை வந்துடுச்சு",
+      "body": "In unit 14 you met the two basic patterns: **dative + feeling** (எனக்குப் பயம்) and **-ஆ இருக்கு** (சந்தோஷமா இருக்கு). Real conversation adds three more, and they're what make you sound natural.\n\n**1. Dative + feeling + வா 'come'.** A feeling that wells up *comes to* you. The person who feels is in the dative (**எனக்கு, உனக்கு, அவனுக்கு, அவங்களுக்கு**), the feeling is the subject, and the verb is always the 'it' form: **வருது** (is coming), **வந்துச்சு** (came), **வந்துடுச்சு** (came suddenly, couldn't help it).\nஎனக்கு **அழுகை** வந்துடுச்சு 'I burst into tears' · எனக்கு **சிரிப்பு** வந்துச்சு 'I couldn't stop laughing' · அவருக்குக் **கோபம்** வந்துச்சு 'he got angry' · எனக்குத் **தூக்கம்** வருது 'I'm getting sleepy' · எனக்கு அம்மா **ஞாபகம்** வருது 'I'm missing Mum'.\n\n**2. English feeling + ஆகு 'become'.** Loanwords take ஆகு, with the *person* as subject: நான் **டென்ஷன் ஆயிட்டேன்** 'I got stressed', அவ **அப்செட் ஆயிட்டா** 'she got upset', எனக்கு **போர் ஆகுது** 'I'm bored'. Negative command: **டென்ஷன் ஆகாதே**.\n\n**3. The cause: seeing / hearing + feeling.** Put the cause first with the -உ participle: படம் **பாத்து** அழுகை வந்துடுச்சு 'the film made me cry', அதைக் **கேட்டு** வருத்தமா இருக்கு 'I'm sad to hear that'.\n\n**The trap:** with வா the verb never agrees with you. Not நான் அழுகை வந்தேன் but **எனக்கு** அழுகை **வந்துச்சு**. If you want 'I' as subject, use the -ப்படு verb instead: நான் கவலைப்படுறேன், நான் பயப்பட்டேன்.",
+      "examples": [
+        { "native": "எனக்கு அவன் மேல ரொம்பக் கோபம் வந்துச்சு.", "roman": "enakku avan mēla rombak kōbam vanducchu.", "en": "I got really angry with him." },
+        { "native": "கல்யாணத்துல அப்பாவுக்கு அழுகை வந்துடுச்சு.", "roman": "kalyāṇattula appāvukku aḻugai vanduḍucchu.", "en": "Dad cried at the wedding." },
+        { "native": "எனக்குத் தூக்கம் வருது, நான் கிளம்புறேன்.", "roman": "enakkut tūkkam varudu, nān kiḷamburēn.", "en": "I'm getting sleepy, I'm heading off." },
+        { "native": "ட்ராஃபிக்ல மாட்டிக்கிட்டு நான் டென்ஷன் ஆயிட்டேன்.", "roman": "ṭrāfikla māṭṭikkiṭṭu nān ṭenshan āyiṭṭēn.", "en": "I got stressed out stuck in traffic." },
+        { "native": "நீ ஏன் இவ்வளவு பயப்படுற?", "roman": "nī ēn ivvaḷavu bayappaḍura?", "en": "Why are you so scared?" }
+      ]
+    },
+    {
+      "title": "While, as soon as, until: -ம்போது, -தும், -ற வரைக்கும்",
+      "body": "Tamil links two actions in time by changing the **first verb** and putting it *before* the main one. None of these forms carries tense: the tense lives in the last verb.\n\n**While / when: -உம்போது** (spoken **-ம்போது**, fast **-ம்போ**). Take the verb's future 'it' form (வரும், சாப்பிடும், பேசும், அழும்) and add **போது** 'time': **வரும்போது** 'when (you) come', **சாப்பிடும்போது** 'while eating', **படிக்கும்போது** 'when (I) was studying'. With a noun, use the locative: சின்ன வயசுல 'as a child'.\n\n**As soon as: past + -தும் / past + உடனே.** Take the past relative form (வந்த, போன, கேட்ட, பாத்த) and either add **-தும்** — **வந்ததும்** 'as soon as (he) came', **போனதும்** 'as soon as (you) get there' — or follow it with **உடனே**: **பாத்த உடனே** 'the moment (I) saw'. Both work for past and future events: வீட்டுக்குப் போனதும் ஃபோன் பண்ணு 'call as soon as you get home'.\n\n**Until: present relative + வரைக்கும்** (written **-உம் வரை**). **நீ வர்ற வரைக்கும்** 'until you come', **மழை நிக்கிற வரைக்கும்** 'until the rain stops', **நீ சரியாகுற வரைக்கும்** 'until you're better'. Unlike Hindi, there's **no negative** in the 'until' clause.\n\n**The trap:** don't put a tense or person ending on the first verb. Not நான் வந்தேன் உடனே but **நான் வந்த உடனே**; not அழுறேன்போது but **அழும்போது**.",
+      "examples": [
+        { "native": "நான் சமைக்கும்போது ஃபோன் பண்ணாதே.", "roman": "nān samaikkumbōdu fōn paṇṇādē.", "en": "Don't call while I'm cooking." },
+        { "native": "காலேஜ்ல படிக்கும்போது அவன்தான் என் பெஸ்ட் ஃப்ரெண்ட்.", "roman": "kālējla paḍikkumbōdu avandān en besṭ freṇḍ.", "en": "When I was at college, he was my best friend." },
+        { "native": "நியூஸ் கேட்டதும் அம்மா அழ ஆரம்பிச்சாங்க.", "roman": "niyūs kēṭṭadum ammā aḻa ārambicchānga.", "en": "As soon as she heard the news, Mum started crying." },
+        { "native": "ட்ரெயின் கிளம்பின உடனே தூங்கிட்டேன்.", "roman": "ṭreyin kiḷambina uḍanē tūngiṭṭēn.", "en": "I fell asleep the moment the train left." },
+        { "native": "மழை நிக்கிற வரைக்கும் இங்கயே இருங்க.", "roman": "maḻai nikkira varaikkum ingayē irunga.", "en": "Stay here until the rain stops." },
+        { "native": "நீ வரும் வரை நான் சாப்பிட மாட்டேன்.", "roman": "nī varum varai nān sāppiḍa māṭṭēn.", "en": "I won't eat until you come." }
+      ]
+    },
+    {
+      "title": "Owning a mistake: தெரியாம பண்ணிட்டேன்",
+      "body": "A good Tamil apology has three parts: the **completive** verb, a word that says whether you meant it, and the request to be forgiven.\n\n**1. The completive -ட்டேன்** (unit 16) is the natural form for anything you regret: it means 'I went and did it', 'it's done'. **மறந்துட்டேன்** 'I forgot (and I'm sorry)', **லேட் ஆயிடுச்சு** 'I ended up late', **கொட்டிட்டேன்** 'I've spilt it'. Plain மறந்தேன் sounds like a flat report.\n\n**2. Meant it or not.** **தெரியாம** (written தெரியாமல்) 'without knowing' = *by accident*; **வேணும்னே** (written வேண்டுமென்றே) = *on purpose*. **தெரியாம** is one example of the **negative participle -ஆம** 'without …-ing', made from the infinitive: சொல்ல → **சொல்லாம** 'without telling', கேக்க → **கேக்காம** 'without asking', பாக்க → **பாக்காம** 'without looking'. உன்கிட்ட சொல்லாம கிளம்பிட்டேன் 'I left without telling you'.\n\n**3. Asking forgiveness** — a ladder from light to heavy:\n**சாரி / சாரி டா** — bumping into someone, being late (everyone uses the English word).\n**தெரியாம பண்ணிட்டேன்** — owning up.\n**மன்னிச்சிடு / மன்னிச்சிடுங்க** — asking forgiveness for something that hurt; use the polite form to elders and at work.\n**மன்னிக்கவும்** — formal and written: notices, announcements, emails.\n\nThe usual replies: **பரவால்ல, விடு** 'it's fine, forget it', **சரி சரி, விடு**, or to an elder **பரவால்லங்க**.",
+      "examples": [
+        { "native": "சாரி டா, உன் கால பாக்கவே இல்ல.", "roman": "sāri ḍā, un kāla pākkavē illa.", "en": "Sorry, I didn't even see your call." },
+        { "native": "அவன் சொல்லாம கொள்ளாம கிளம்பிட்டான்.", "roman": "avan sollāma koḷḷāma kiḷambiṭṭān.", "en": "He left without a word." },
+        { "native": "தெரியாம உங்க கால்ல மிதிச்சுட்டேன், சாரி.", "roman": "teriyāma unga kālla midicchuṭṭēn, sāri.", "en": "Sorry, I stepped on your foot by accident." },
+        { "native": "நான் வேணும்னே லேட்டா வரல, ட்ராஃபிக்!", "roman": "nān vēṇumnē lēṭṭā varala, ṭrāfik!", "en": "I wasn't late on purpose — it was the traffic!" },
+        { "native": "தாமதத்திற்கு மன்னிக்கவும்.", "roman": "tāmadattirku mannikkavum.", "en": "We apologise for the delay. (formal, announcements)" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Bad news over bajji",
+    "setting": "Karthik finds his friend Priya sitting quietly at their usual tea stall near Besant Nagar beach, Chennai, staring at her phone.",
+    "lines": [
+      { "speaker": "Karthik", "native": "என்ன பிரியா, ரொம்ப நேரமா ஃபோனையே பாத்துக்கிட்டு இருக்க. என்ன ஆச்சு?", "roman": "enna Priyā, romba nēramā fōnaiyē pāttukkiṭṭu irukka. enna ācchu?", "en": "Hey Priya, you've been staring at your phone for ages. What happened?" },
+      { "speaker": "Priya", "native": "ஒண்ணும் இல்ல… சரி, சொல்றேன். அந்த வேலை கிடைக்கல.", "roman": "oṇṇum illa… sari, solrēn. anda vēlai kiḍaikkala.", "en": "Nothing… OK, I'll tell you. I didn't get that job." },
+      { "speaker": "Karthik", "native": "ஐயோ! கடைசி ரவுண்டு வரைக்கும் போனியே?", "roman": "aiyō! kaḍaisi ravuṇḍu varaikkum pōniyē?", "en": "Oh no! But you made it to the final round!" },
+      { "speaker": "Priya", "native": "ஆமா. மெயில் பாத்த உடனே அழுகை வந்துடுச்சு. ரொம்ப ஏமாற்றமா இருக்கு.", "roman": "āmā. meyil pātta uḍanē aḻugai vanduḍucchu. romba ēmātramā irukku.", "en": "Yeah. The moment I saw the email I burst into tears. I'm so disappointed." },
+      { "speaker": "Karthik", "native": "கலங்காதே. நீ எவ்வளவு கஷ்டப்பட்டன்னு எனக்குத் தெரியும். அடுத்த தடவை கண்டிப்பா கிடைக்கும்.", "roman": "kalangādē. nī evvaḷavu kashṭappaṭṭannu enakkut teriyum. aḍutta taḍavai kaṇḍippā kiḍaikkum.", "en": "Don't be upset. I know how hard you worked. You'll definitely get it next time." },
+      { "speaker": "Priya", "native": "அதுவும் இல்லாம, திவ்யாவுக்கு அதே கம்பெனியில வேலை கிடைச்சிடுச்சு.", "roman": "aduvum illāma, Divyāvukku adē kampeniyila vēlai kiḍaicchiḍucchu.", "en": "And on top of that, Divya got a job at the same company." },
+      { "speaker": "Karthik", "native": "ஓ… அப்போ கொஞ்சம் பொறாமையாவும் இருக்கா?", "roman": "ō… appō konjam porāmaiyāvum irukkā?", "en": "Oh… so you're a bit jealous too?" },
+      { "speaker": "Priya", "native": "டேய்! …சரி, கொஞ்சம்தான். ஆனா அவளுக்கு வாழ்த்து சொல்லிட்டேன்.", "roman": "ḍēy! …sari, konjamdān. ānā avaḷukku vāḻttu solliṭṭēn.", "en": "Hey! …OK, just a little. But I've already congratulated her." },
+      { "speaker": "Karthik", "native": "அதான் என் பிரியா! சரி, டென்ஷன் ஆகாதே. வா, பஜ்ஜி சாப்பிடலாம், என் ட்ரீட்.", "roman": "adān en Priyā! sari, ṭenshan āgādē. vā, bajji sāppiḍalām, en ṭrīṭ.", "en": "That's my Priya! OK, don't stress. Come on, let's have some bajji — my treat." },
+      { "speaker": "Priya", "native": "பஜ்ஜி சாப்பிடும்போது எல்லா பிரச்சனையும் மறந்துடும், இல்ல?", "roman": "bajji sāppiḍumbōdu ellā pracchanaiyum maranduḍum, illa?", "en": "You forget all your problems while eating bajji, right?" },
+      { "speaker": "Karthik", "native": "கரெக்ட்! எங்க அம்மா சொல்லுவாங்க: முதல்ல சாப்பிடு, அப்புறம் அழு.", "roman": "karekṭ! enga ammā solluvānga: mudalla sāppiḍu, appuram aḻu.", "en": "Exactly! My mum always says: eat first, cry later." },
+      { "speaker": "Priya", "native": "ஹா ஹா! தேங்க்ஸ் டா. இப்போதான் கொஞ்சம் நிம்மதியா இருக்கு.", "roman": "hā hā! tēnks ḍā. ippōdān konjam nimmadiyā irukku.", "en": "Ha ha! Thanks, man. I feel a bit better now." },
+      { "speaker": "Karthik", "native": "எப்போ வேணும்னாலும் கூப்பிடு. நான் இருக்கேன்ல.", "roman": "eppō vēṇumnālum kūppiḍu. nān irukkēnla.", "en": "Call me any time. I'm here for you." }
+    ]
+  },
+  "culture": "Comfort in Tamil Nadu is practical more than wordy. A friend who's low gets fed: **சாப்பிட்டியா?** 'have you eaten?' is a real question of care, and the answer is usually a trip for coffee, bajji or biryani. Between close friends, too many thank-yous and sorries sound distant — **விடு மச்சான்** 'forget it, bro' or **பரவால்ல, விடு** closes the matter. With elders and at work, apologise in the polite form (**மன்னிச்சிடுங்க**) and don't argue back. If you accidentally touch someone with your foot, many Tamils touch the person (or the book or object) with their hand and then touch their own eyes or chest — a small, automatic apology.\n\nGood news brings an immediate demand: **ட்ரீட் எப்போ?** 'when's the treat?' Passing exams, a new job or an engagement means you buy sweets or dinner for everyone. Saying **எனக்குப் பொறாமையா இருக்கு** to a friend with good news is a joke and a compliment.\n\nWhen someone dies, people go to the family's home (**துக்கம் விசாரிக்க** 'to offer condolences'), speak little and use the respectful plural for the dead (**இறந்துட்டாங்க**, **தவறிட்டாரு**). On WhatsApp you'll see **ஆழ்ந்த அனுதாபங்கள்**, *RIP* or **ஆன்மா சாந்தியடையட்டும்**. Don't say the usual goodbye **போயிட்டு வர்றேன்** 'I'll go and come back' when leaving a house of mourning — just leave quietly. The family observes about sixteen days of mourning (ending with the **கருமாதி** / பதினாறாம் நாள் ceremony), so avoid inviting them to celebrations in that time.",
+  "lessons": [
+    {
+      "title": "Noticing something is wrong",
+      "tip": { "title": "Feelings that come to you", "body": "- Sudden feelings **come** to you: **எனக்கு** அழுகை **வந்துடுச்சு** 'I burst into tears', எனக்கு சிரிப்பு **வந்துச்சு** 'I couldn't help laughing'.\n- The verb stays in the 'it' form — never நான் … வந்தேன்.\n- English feelings take **ஆகு** with you as subject: நான் டென்ஷன் **ஆயிட்டேன்**.\n- For a state, **-ஆ இருக்கு**: எனக்கு **டென்ஷனா** இருக்கு.", "pattern": "எனக்கு + feeling + வந்துச்சு / -ஆ இருக்கு", "grammar": 0 },
+      "new": ["டென்ஷன்", "பதட்டம்", "அழுகை", "சிரிப்பு", "மனசு", "தனிமை", "பிரேக்அப்", "என்னடா ஆச்சு? ஏன் ஒரு மாதிரி இருக்க?"],
+      "sentences": [
+        { "native": "எனக்கு ரொம்ப டென்ஷனா இருக்கு.", "roman": "enakku romba ṭenshanā irukku.", "en": "I'm really stressed.", "focus": "எனக்கு", "wrong": ["நான்|nān", "என்னை|ennai"] },
+        { "native": "நாளைக்குப் பெரிய மீட்டிங், எனக்கு ரொம்பப் பதட்டமா இருக்கு.", "roman": "nāḷaikkup periya mīṭṭing, enakku rombap padaṭṭamā irukku.", "en": "Big meeting tomorrow — I'm so nervous.", "focus": "இருக்கு", "wrong": ["இருக்கேன்|irukkēn", "இருந்தேன்|irundēn"] },
+        { "native": "படம் பாத்து எனக்கு அழுகை வந்துடுச்சு.", "roman": "paḍam pāttu enakku aḻugai vanduḍucchu.", "en": "The film made me cry.", "focus": "வந்துடுச்சு", "wrong": ["வந்துட்டேன்|vanduṭṭēn", "வந்தேன்|vandēn"] },
+        { "native": "அவன் பேசுனதைக் கேட்டு எனக்கு சிரிப்பு வந்துச்சு.", "roman": "avan pēsunadaik kēṭṭu enakku sirippu vanducchu.", "en": "I couldn't help laughing at what he said.", "focus": "வந்துச்சு", "wrong": ["வந்தேன்|vandēn", "வந்தான்|vandān"] },
+        { "native": "எனக்கு அம்மா ஞாபகம் வருது.", "roman": "enakku ammā ñābagam varudu.", "en": "I'm missing Mum.", "focus": "வருது", "wrong": ["வர்றேன்|varrēn", "வருவேன்|varuvēn"] },
+        { "native": "நீ ஏன் டென்ஷன் ஆகுற?", "roman": "nī ēn ṭenshan āgura?", "en": "Why are you getting stressed?", "focus": "ஆகுற", "wrong": ["ஆகுது|āgudu", "ஆனேன்|ānēn"] },
+        { "native": "சென்னைக்கு வந்ததுல இருந்து எனக்குத் தனிமையா இருக்கு.", "roman": "Chennaikku vandadula irundu enakkut tanimaiyā irukku.", "en": "Since I moved to Chennai I've been feeling lonely.", "focus": "எனக்குத்", "wrong": ["நான்|nān", "என்|en"] },
+        { "native": "அவளுக்குப் பிரேக்அப் ஆயிடுச்சு, மனசு சரியில்ல.", "roman": "avaḷukkup brēkap āyiḍucchu, manasu sariyilla.", "en": "She's had a break-up and she's feeling low." },
+        { "native": "என் மனசு ஒரு மாதிரி இருக்கு.", "roman": "en manasu oru mādiri irukku.", "en": "I'm not feeling myself." },
+        { "native": "என்ன ஆச்சு? உனக்குக் கோபம் வந்துடுச்சா?", "roman": "enna ācchu? unakkuk kōbam vanduḍucchā?", "en": "What happened? Did you get angry?", "focus": "வந்துடுச்சா", "wrong": ["வந்துட்டியா|vanduṭṭiyā", "வருவியா|varuviyā"] }
+      ]
+    },
+    {
+      "title": "Cheering a friend up",
+      "tip": { "title": "Telling a friend 'don't…'", "body": "- Informal 'don't': verb + **-ஆதே**: அழு → **அழாதே**, கலங்கு → **கலங்காதே**, கவலைப்படு → **கவலைப்படாதே**. Polite: **-ஆதீங்க**.\n- **-ல** at the end means 'right? you know': நான் இருக்கேன்**ல** 'I'm here for you'.\n- Encourage with an adverb + **இரு**: **தைரியமா இரு** 'stay strong'." },
+      "new": ["தைரியம்", "ஆறுதல்", "கலங்கு", "கஷ்டப்படு", "கட்டிப்பிடி", "கவலைப்படாதே, நான் இருக்கேன்ல.", "டென்ஷன் ஆகாதே.", "எல்லாம் சரியாயிடும், பாத்துக்கலாம்.", "மனசுல வச்சுக்காதே.", "தைரியமா இரு."],
+      "sentences": [
+        { "native": "அழாதே, எல்லாம் சரியாயிடும்.", "roman": "aḻādē, ellām sariyāyiḍum.", "en": "Don't cry, it'll all be fine.", "focus": "அழாதே", "wrong": ["அழு|aḻu", "அழுதேன்|aḻudēn"] },
+        { "native": "கலங்காதே, அடுத்த தடவை கண்டிப்பா கிடைக்கும்.", "roman": "kalangādē, aḍutta taḍavai kaṇḍippā kiḍaikkum.", "en": "Don't be upset, you'll definitely get it next time.", "focus": "கலங்காதே", "wrong": ["கலங்கு|kalangu", "கலங்குது|kalangudu"] },
+        { "native": "நீ தைரியமான பொண்ணு, பயப்படாதே.", "roman": "nī dairiyamāna poṇṇu, bayappaḍādē.", "en": "You're a brave girl, don't be scared.", "focus": "பயப்படாதே", "wrong": ["பயப்படு|bayappaḍu", "பயப்படுறேன்|bayappaḍurēn"] },
+        { "native": "டென்ஷன் ஆகாதே, இன்னும் ரெண்டு நாள் இருக்கு.", "roman": "ṭenshan āgādē, innum reṇḍu nāḷ irukku.", "en": "Don't stress, there are still two days left.", "focus": "ஆகாதே", "wrong": ["ஆகு|āgu", "ஆயிட்டேன்|āyiṭṭēn"] },
+        { "native": "நீ ஏன் தனியா கஷ்டப்படுற? சொல்லு.", "roman": "nī ēn taniyā kashṭappaḍura? sollu.", "en": "Why are you struggling on your own? Tell me.", "focus": "கஷ்டப்படுற", "wrong": ["கஷ்டப்படுறேன்|kashṭappaḍurēn", "கஷ்டம்|kashṭam"] },
+        { "native": "சார், அவரு சொன்னதை மனசுல வச்சுக்காதீங்க.", "roman": "sār, avaru sonnadai manasula vacchukkādīnga.", "en": "Sir, please don't take what he said to heart.", "focus": "வச்சுக்காதீங்க", "wrong": ["வச்சுக்கோங்க|vacchukkōnga", "வச்சேன்|vacchēn"] },
+        { "native": "அவன் ரொம்பக் கஷ்டப்பட்டுப் படிச்சான்.", "roman": "avan rombak kashṭappaṭṭup paḍicchān.", "en": "He studied really hard." },
+        { "native": "அவனுக்குக் கொஞ்சம் ஆறுதல் சொல்லு.", "roman": "avanukkuk konjam ārudal sollu.", "en": "Say something to comfort him." },
+        { "native": "அம்மா என்னைக் கட்டிப்பிடிச்சு அழுதாங்க.", "roman": "ammā ennaik kaṭṭippiḍicchu aḻudānga.", "en": "Mum hugged me and cried." },
+        { "native": "வா, ஒரு காபி குடிக்கலாம், அப்புறம் பேசலாம்.", "roman": "vā, oru kāpi kuḍikkalām, appuram pēsalām.", "en": "Come on, let's get a coffee, then we'll talk." }
+      ]
+    },
+    {
+      "title": "Being there: while, as soon as, until",
+      "tip": { "title": "While · as soon as · until", "body": "- **While/when**: future 'it' form + **-போது**: வரும் → **வரும்போது**, அழும் → **அழும்போது**.\n- **As soon as**: past relative + **-தும்** or **உடனே**: போன → **போனதும்**, பாத்த → **பாத்த உடனே**.\n- **Until**: present relative + **வரைக்கும்**: நீ **வர்ற வரைக்கும்**.\n- The tense goes on the *last* verb only.", "pattern": "வரும்போது · வந்ததும் · வர்ற வரைக்கும்", "grammar": 1 },
+      "new": ["நிம்மதி", "குழப்பம்", "வருத்தம்", "ஏமாற்றம்", "ஏதாவது வேணும்னா கூப்பிடு."],
+      "sentences": [
+        { "native": "வீட்டுக்குப் போனதும் ஃபோன் பண்ணு.", "roman": "vīṭṭukkup pōnadum fōn paṇṇu.", "en": "Call me as soon as you get home.", "focus": "போனதும்", "wrong": ["போனேன்|pōnēn", "போவேன்|pōvēn"] },
+        { "native": "உன்னைப் பாத்த உடனே எனக்கு நிம்மதியா இருந்துச்சு.", "roman": "unnaip pātta uḍanē enakku nimmadiyā irunducchu.", "en": "The moment I saw you, I felt relieved.", "focus": "பாத்த", "wrong": ["பாத்தேன்|pāttēn", "பாக்கும்|pākkum"] },
+        { "native": "நீ அழும்போது எனக்கும் அழுகை வருது.", "roman": "nī aḻumbōdu enakkum aḻugai varudu.", "en": "When you cry, I feel like crying too.", "focus": "அழும்போது", "wrong": ["அழுதேன்|aḻudēn", "அழு|aḻu"] },
+        { "native": "நீ சரியாகுற வரைக்கும் நான் உன் கூடவே இருப்பேன்.", "roman": "nī sariyāgura varaikkum nān un kūḍavē iruppēn.", "en": "I'll stay with you until you're better.", "focus": "சரியாகுற", "wrong": ["சரியாச்சு|sariyācchu", "சரியாயிடும்|sariyāyiḍum"] },
+        { "native": "டாக்டர் வர்ற வரைக்கும் நான் இங்கயே இருப்பேன்.", "roman": "ḍākṭar varra varaikkum nān ingayē iruppēn.", "en": "I'll wait right here until the doctor comes.", "focus": "வர்ற", "wrong": ["வந்து|vandu", "வருவாரு|varuvāru"] },
+        { "native": "அவன் பொய் சொன்னான்னு தெரிஞ்சதும் ரொம்ப ஏமாற்றமா இருந்துச்சு.", "roman": "avan poy sonnānnu terinjadum romba ēmātramā irunducchu.", "en": "As soon as I found out he had lied, I felt so let down.", "focus": "தெரிஞ்சதும்", "wrong": ["தெரியும்|teriyum", "தெரியல|teriyala"] },
+        { "native": "எனக்கு வேலை கிடைக்கிற வரைக்கும் அம்மா கவலைப்பட்டுக்கிட்டே இருந்தாங்க.", "roman": "enakku vēlai kiḍaikkira varaikkum ammā kavalaippaṭṭukkiṭṭē irundānga.", "en": "Mum kept worrying until I got a job.", "focus": "கிடைக்கிற", "wrong": ["கிடைச்சு|kiḍaicchu", "கிடைக்கல|kiḍaikkala"] },
+        { "native": "அப்பா பேசும்போது நடுவுல பேசாதே.", "roman": "appā pēsumbōdu naḍuvula pēsādē.", "en": "Don't interrupt while Dad is talking.", "focus": "பேசும்போது", "wrong": ["பேசுறேன்|pēsurēn", "பேசினேன்|pēsinēn"] },
+        { "native": "எனக்குக் கொஞ்சம் குழப்பமா இருக்கு, என்ன பண்றதுன்னு தெரியல.", "roman": "enakkuk konjam kuḻappamā irukku, enna paṇradunnu teriyala.", "en": "I'm a bit confused — I don't know what to do." },
+        { "native": "நான் அப்படிப் பேசினது எனக்கே வருத்தமா இருக்கு.", "roman": "nān appaḍip pēsinadu enakkē varuttamā irukku.", "en": "I feel bad myself that I spoke like that." }
+      ]
+    },
+    {
+      "title": "Saying sorry and making up",
+      "tip": { "title": "Owning up", "body": "- Use the completive for regrets: **மறந்துட்டேன்** 'I (went and) forgot', **பண்ணிட்டேன்**.\n- **தெரியாம** 'by accident' vs **வேணும்னே** 'on purpose'.\n- **-ஆம** = 'without …-ing': சொல்ல → **சொல்லாம**, கேக்க → **கேக்காம**.\n- **மன்னிச்சிடு** to a friend, **மன்னிச்சிடுங்க** to an elder or your boss.", "pattern": "தெரியாம / சொல்லாம + verb-ட்டேன்", "grammar": 2 },
+      "new": ["கோபித்துக்கொள்", "சமாதானம்", "வேண்டுமென்றே", "தெரியாமல்", "சாரி டா, தெரியாம பண்ணிட்டேன்.", "நான் வேணும்னே பண்ணல.", "என்னை மன்னிச்சிடு.", "பரவால்ல, விடு."],
+      "sentences": [
+        { "native": "சாரி, உன் பிறந்தநாளை மறந்துட்டேன்.", "roman": "sāri, un pirandanāḷai maranduṭṭēn.", "en": "Sorry, I forgot your birthday.", "focus": "மறந்துட்டேன்", "wrong": ["மறப்பேன்|marappēn", "மறக்கல|marakkala"] },
+        { "native": "உன்கிட்ட சொல்லாம கிளம்பிட்டேன், சாரி.", "roman": "unkiṭṭa sollāma kiḷambiṭṭēn, sāri.", "en": "I left without telling you, sorry.", "focus": "சொல்லாம", "wrong": ["சொல்லி|solli", "சொன்னேன்|sonnēn"] },
+        { "native": "தெரியாம உன் காபியைக் கொட்டிட்டேன்.", "roman": "teriyāma un kāpiyaik koṭṭiṭṭēn.", "en": "I spilt your coffee by accident.", "focus": "தெரியாம", "wrong": ["தெரிஞ்சு|terinju", "தெரியும்|teriyum"] },
+        { "native": "கேக்காம உன் புத்தகத்தை எடுத்துட்டேன், மன்னிச்சிடு.", "roman": "kēkkāma un puttagattai eḍuttuṭṭēn, mannicchiḍu.", "en": "I took your book without asking — forgive me.", "focus": "கேக்காம", "wrong": ["கேட்டு|kēṭṭu", "கேட்டேன்|kēṭṭēn"] },
+        { "native": "அவன் வேணும்னே லேட்டா வந்தான்.", "roman": "avan vēṇumnē lēṭṭā vandān.", "en": "He came late on purpose.", "focus": "வேணும்னே", "wrong": ["தெரியாம|teriyāma", "வேணும்|vēṇum"] },
+        { "native": "சார், மன்னிச்சிடுங்க, இனிமே லேட்டா வர மாட்டேன்.", "roman": "sār, mannicchiḍunga, inimē lēṭṭā vara māṭṭēn.", "en": "Sir, I'm sorry, I won't be late again.", "focus": "மன்னிச்சிடுங்க", "wrong": ["மன்னிச்சிடு|mannicchiḍu", "மன்னிச்சேன்|mannicchēn"] },
+        { "native": "ஏன் என் மேல கோவிச்சுக்கிட்ட?", "roman": "ēn en mēla kōvicchukkiṭṭa?", "en": "Why did you get upset with me?" },
+        { "native": "கோவிச்சுக்காதே டா, சும்மா சொன்னேன்.", "roman": "kōvicchukkādē ḍā, summā sonnēn.", "en": "Don't be cross, mate, I was only joking." },
+        { "native": "அவங்க ரெண்டு பேரும் சமாதானம் ஆயிட்டாங்க.", "roman": "avanga reṇḍu pērum samādānam āyiṭṭānga.", "en": "The two of them have made up." },
+        { "native": "நடந்தது நடந்து போச்சு, விடு.", "roman": "naḍandadu naḍandu pōcchu, viḍu.", "en": "What's done is done — let it go." }
+      ]
+    },
+    {
+      "title": "Good news!",
+      "tip": { "title": "Cheering good news", "body": "- Announce it: **ஒரு நல்ல விஷயம்!** 'I've got good news!'\n- React big: **சூப்பர்!**, **வாழ்த்துக்கள்!** (young people also say *congrats*).\n- 'You did it!' uses the completive: நீ **ஜெயிச்சுட்ட!**, **பாஸ் ஆயிட்ட!**\n- Then the demand: **ட்ரீட் எப்போ?** 'when's the treat?'" },
+      "new": ["விஷயம்", "ஜெயி", "பாஸ்", "பொறாமை", "வாழ்த்துக்கள்! ரொம்ப சந்தோஷமா இருக்கு.", "உன்னை நினைச்சா பெருமையா இருக்கு."],
+      "sentences": [
+        { "native": "ஒரு நல்ல விஷயம் சொல்லணும்!", "roman": "oru nalla vishayam sollaṇum!", "en": "I've got some good news to tell you!" },
+        { "native": "என்ன விஷயம்? சொல்லு சொல்லு!", "roman": "enna vishayam? sollu sollu!", "en": "What is it? Tell me, tell me!" },
+        { "native": "நான் எல்லா பாடத்துலயும் பாஸ் ஆயிட்டேன்!", "roman": "nān ellā pāḍattulayum pās āyiṭṭēn!", "en": "I passed in every subject!", "focus": "ஆயிட்டேன்", "wrong": ["ஆயிட்டான்|āyiṭṭān", "ஆவேன்|āvēn"] },
+        { "native": "சென்னை ஜெயிச்சுடுச்சு! நம்பவே முடியல!", "roman": "Chennai jeyicchuḍucchu! nambavē muḍiyala!", "en": "Chennai won! I can't believe it!", "focus": "ஜெயிச்சுடுச்சு", "wrong": ["ஜெயிச்சேன்|jeyicchēn", "ஜெயிக்கும்|jeyikkum"] },
+        { "native": "நீ ஜெயிப்பன்னு எனக்குத் தெரியும்.", "roman": "nī jeyippannu enakkut teriyum.", "en": "I knew you would win." },
+        { "native": "உனக்கு வேலை கிடைச்சுடுச்சா? சூப்பர்!", "roman": "unakku vēlai kiḍaicchuḍucchā? sūppar!", "en": "You got the job? Brilliant!", "focus": "கிடைச்சுடுச்சா", "wrong": ["கிடைக்குமா|kiḍaikkumā", "கிடைச்சேனா|kiḍaicchēnā"] },
+        { "native": "உங்க பையனை நினைச்சு நீங்க பெருமைப்படணும்.", "roman": "unga paiyanai ninaicchu nīnga perumaippaḍaṇum.", "en": "You should be proud of your son." },
+        { "native": "அக்காவுக்குக் கல்யாணம் நிச்சயம் ஆயிடுச்சு!", "roman": "akkāvukkuk kalyāṇam nicchayam āyiḍucchu!", "en": "My sister's wedding has been fixed!", "focus": "ஆயிடுச்சு", "wrong": ["ஆயிட்டேன்|āyiṭṭēn", "ஆகும்|āgum"] },
+        { "native": "எனக்குக் கொஞ்சம் பொறாமையா இருக்கு, சும்மா சொன்னேன்!", "roman": "enakkuk konjam porāmaiyā irukku, summā sonnēn!", "en": "I'm a bit jealous — just kidding!" },
+        { "native": "இந்த சந்தோஷமான விஷயத்தை முதல்ல அம்மாகிட்ட சொல்லு.", "roman": "inda santōshamāna vishayattai mudalla ammākiṭṭa sollu.", "en": "Tell Mum this happy news first." }
+      ]
+    },
+    {
+      "title": "When someone has died",
+      "tip": { "title": "Condolences", "body": "- Speak of the dead with the respectful form: தாத்தா **இறந்துட்டாரு**, பாட்டி **இறந்து போயிட்டாங்க** (never -ட்டான் / -ட்டா).\n- To the family, say little: **கேக்கவே ரொம்பக் கஷ்டமா இருக்கு**.\n- In writing: **என் ஆழ்ந்த அனுதாபங்கள்**, **ஆன்மா சாந்தியடையட்டும்**.\n- Leaving the house, don't say போயிட்டு வர்றேன்: just leave quietly." },
+      "new": ["இறந்து போ", "அனுதாபம்", "ஆன்மா", "சாந்தி", "கேக்கவே ரொம்பக் கஷ்டமா இருக்கு.", "என் ஆழ்ந்த அனுதாபங்கள்.", "அவரது ஆன்மா சாந்தியடையட்டும்."],
+      "sentences": [
+        { "native": "அவங்க தாத்தா நேத்து ராத்திரி இறந்துட்டாரு.", "roman": "avanga tāttā nēttu rāttiri iranduṭṭāru.", "en": "Her grandfather passed away last night.", "focus": "இறந்துட்டாரு", "wrong": ["இறந்துட்டான்|iranduṭṭān", "இறந்துடுச்சு|iranduḍucchu"] },
+        { "native": "அவங்க பாட்டி தூக்கத்துலயே இறந்து போயிட்டாங்க.", "roman": "avanga pāṭṭi tūkkattulayē irandu pōyiṭṭānga.", "en": "His grandmother passed away in her sleep.", "focus": "போயிட்டாங்க", "wrong": ["போயிட்டா|pōyiṭṭā", "போச்சு|pōcchu"] },
+        { "native": "உங்க அப்பா இறந்துட்டாருன்னு கேட்டு ரொம்ப வருத்தமா இருக்கு.", "roman": "unga appā iranduṭṭārunnu kēṭṭu romba varuttamā irukku.", "en": "I'm so sorry to hear your father passed away.", "focus": "இறந்துட்டாருன்னு", "wrong": ["இறந்துட்டான்னு|iranduṭṭānnu", "இறந்துடுச்சுன்னு|iranduḍucchunnu"] },
+        { "native": "திடீர்னு நடந்துடுச்சு, யாரும் எதிர்பாக்கல.", "roman": "tiḍīrnu naḍanduḍucchu, yārum edirpākkala.", "en": "It happened suddenly; nobody expected it." },
+        { "native": "அவரு ரொம்ப நல்லவரா இருந்தாரு.", "roman": "avaru romba nallavarā irundāru.", "en": "He was a very good man.", "focus": "இருந்தாரு", "wrong": ["இருந்தான்|irundān", "இருந்துச்சு|irunducchu"] },
+        { "native": "அவரோட குடும்பத்துக்கு என் அனுதாபங்கள்.", "roman": "avarōḍa kuḍumbattukku en anudābangaḷ.", "en": "My condolences to his family." },
+        { "native": "நாளைக்குக் காலையில அவங்க வீட்டுக்குப் போகணும்.", "roman": "nāḷaikkuk kālaiyila avanga vīṭṭukkup pōgaṇum.", "en": "We need to go to their house tomorrow morning." },
+        { "native": "கவலைப்படாதீங்க, நாங்க எல்லாரும் உங்க கூட இருக்கோம்.", "roman": "kavalaippaḍādīnga, nānga ellārum unga kūḍa irukkōm.", "en": "Don't worry, we're all here with you.", "focus": "கவலைப்படாதீங்க", "wrong": ["கவலைப்படுங்க|kavalaippaḍunga", "கவலைப்பட்டேன்|kavalaippaṭṭēn"] },
+        { "native": "அவங்க அம்மாவோட ஆன்மா சாந்தியடையட்டும்.", "roman": "avanga ammāvōḍa ānmā sāntiyaḍaiyaṭṭum.", "en": "May her mother's soul rest in peace." },
+        { "native": "ஏதாவது உதவி வேணும்னா தயவுசெய்து சொல்லுங்க.", "roman": "ēdāvadu udavi vēṇumnā tayavuseydu sollunga.", "en": "If you need any help, please tell us." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": 32,
+  "title": "Health in depth",
+  "goal": "Describe symptoms precisely and say how long you have had them, give your medical history, book tests, and follow a doctor's or pharmacist's instructions.",
+  "intro": "Unit 9 got you to the doctor. This unit lets you have the whole conversation: what exactly hurts and how (**விட்டு விட்டு வலிக்குது** 'it comes and goes'), since when (**ரெண்டு நாளா காய்ச்சல் அடிக்குது** 'I've had a fever for two days'), what you're allergic to, and what the doctor tells you to do (**சாப்பாட்டுக்கு அப்புறம், ஒரு நாளைக்கு மூணு வேளை**).\n\nThe key grammar is Tamil's way of saying *have been … for*: a present-tense verb plus a duration ending in **-ஆ**. Then come the sensation verbs that make your body the subject — **அரிக்குது, சுத்துது, வீங்கியிருக்கு** — and the patterns of medical instructions.",
+  "vocab": [
+    { "native": "அறிகுறி", "roman": "arigiri", "en": "symptom; sign", "pos": "noun", "note": "formal; a doctor will just ask வேற என்ன இருக்கு? \"what else?\"" },
+    { "native": "தொண்டை", "roman": "toṇḍai", "en": "throat", "pos": "noun", "note": "தொண்டை வலி \"sore throat\" · தொண்டை கட்டிடுச்சு \"my voice has gone hoarse\"" },
+    { "native": "தலைசுற்றல்", "roman": "talaisutral", "en": "dizziness", "pos": "noun", "note": "in speech: தலை சுத்துது \"my head is spinning\"" },
+    { "native": "குமட்டல்", "roman": "kumaṭṭal", "en": "nausea", "pos": "noun", "note": "குமட்டலா இருக்கு \"I feel sick\" · or வாந்தி வர்ற மாதிரி இருக்கு" },
+    { "native": "மயக்கம்", "roman": "mayakkam", "en": "faintness, fainting; drowsiness", "pos": "noun", "note": "மயக்கம் வந்துடுச்சு \"(he) fainted\" · மயக்கமா இருக்கு \"I feel faint\"" },
+    { "native": "அரிப்பு", "roman": "arippu", "en": "itching, an itch", "pos": "noun", "note": "verb அரி: அரிக்குது \"it itches\"" },
+    { "native": "வீக்கம்", "roman": "vīkkam", "en": "swelling", "pos": "noun", "note": "verb வீங்கு \"swell\": வீங்கியிருக்கு \"it's swollen\"" },
+    { "native": "விழுங்கு", "roman": "viḻungu", "en": "swallow", "pos": "verb", "note": "விழுங்கும்போது வலிக்குது \"it hurts when I swallow\"" },
+    { "native": "பேதி", "roman": "bēdi", "en": "diarrhoea", "pos": "noun", "note": "பேதி ஆகுது \"I have diarrhoea\"; many people say லூஸ் மோஷன் lūs mōshan" },
+    { "native": "நெஞ்செரிச்சல்", "roman": "nenjericchal", "en": "heartburn, acidity", "pos": "noun", "note": "also just கேஸ் / அசிடிட்டி" },
+    { "native": "சோர்வு", "roman": "sōrvu", "en": "tiredness, weakness, fatigue", "pos": "noun", "note": "சோர்வா இருக்கு \"I feel drained\"; in speech also டயர்டா இருக்கு" },
+    { "native": "மூச்சு", "roman": "mūcchu", "en": "breath", "pos": "noun", "note": "மூச்சு விட கஷ்டமா இருக்கு \"it's hard to breathe\" · மூச்சு வாங்குது \"I'm out of breath\"" },
+    { "native": "அலர்ஜி", "roman": "alarji", "en": "allergy", "pos": "noun", "note": "எனக்கு X அலர்ஜி \"I'm allergic to X\" · formal ஒவ்வாமை ovvāmai" },
+    { "native": "சுகர்", "roman": "sugar", "en": "diabetes (lit. sugar)", "pos": "noun", "note": "எனக்கு சுகர் இருக்கு \"I'm diabetic\" · formal சர்க்கரை நோய் sarkkarai nōy" },
+    { "native": "பிரஷர்", "roman": "prashar", "en": "blood pressure (high BP)", "pos": "noun", "note": "பிரஷர் இருக்கு \"(I) have high BP\" · also பி.பி. · formal இரத்த அழுத்தம்" },
+    { "native": "பக்க விளைவு", "roman": "pakka viḷaivu", "en": "side effect", "pos": "noun", "note": "in speech also சைட் எஃபெக்ட்" },
+    { "native": "அப்பாயின்ட்மென்ட்", "roman": "appāyinṭmenṭ", "en": "appointment", "pos": "noun", "note": "clinics also hand out a டோக்கன் \"token\" number" },
+    { "native": "டெஸ்ட்", "roman": "ṭesṭ", "en": "test (medical)", "pos": "noun", "note": "ரத்த டெஸ்ட் \"blood test\" · formal பரிசோதனை parisōdanai" },
+    { "native": "ஸ்கேன்", "roman": "skēn", "en": "scan", "pos": "noun", "note": "ஸ்கேன் எடு \"take a scan\" · எக்ஸ்ரே \"X-ray\"" },
+    { "native": "ஊசி", "roman": "ūsi", "en": "injection; needle", "pos": "noun", "note": "ஊசி போடு \"give an injection\"" },
+    { "native": "மருந்துச்சீட்டு", "roman": "marunducchīṭṭu", "en": "prescription", "pos": "noun", "note": "in speech often ப்ரிஸ்கிரிப்ஷன் or just சீட்டு" },
+    { "native": "சிரப்", "roman": "sirap", "en": "syrup, liquid medicine", "pos": "noun", "note": "older people also say டானிக் ṭānik" },
+    { "native": "டோஸ்", "roman": "ḍōs", "en": "dose", "pos": "noun" },
+    { "native": "வெறும் வயிறு", "roman": "verum vayiru", "en": "empty stomach", "pos": "noun", "note": "வெறும் வயித்துல \"on an empty stomach\" (spoken locative)" },
+    { "native": "களிம்பு", "roman": "kaḷimbu", "en": "ointment, cream", "pos": "noun", "note": "in speech also ஆயின்ட்மென்ட் / கிரீம்" },
+    { "native": "தடவு", "roman": "taḍavu", "en": "apply, rub on (cream, oil)", "pos": "verb", "note": "களிம்பைத் தடவுங்க \"apply the ointment\"" },
+    { "native": "சுளுக்கு", "roman": "suḷukku", "en": "sprain; to be sprained", "pos": "noun", "note": "கால் சுளுக்கிடுச்சு \"I've sprained my ankle\"" },
+    { "native": "எலும்பு", "roman": "elumbu", "en": "bone", "pos": "noun", "note": "எலும்பு முறிவு \"fracture\" · in speech எலும்பு உடைஞ்சிடுச்சு \"the bone's broken\"" },
+    { "native": "குணமாகு", "roman": "kuṇamāgu", "en": "get well, be cured", "pos": "verb", "note": "சீக்கிரம் குணமாயிடும் \"you'll get better soon\"; in speech also சரியாகு" },
+    { "native": "பத்தியம்", "roman": "pattiyam", "en": "diet restrictions (while ill or on medicine)", "pos": "noun", "note": "a very Tamil idea: no cold drinks, no curd at night, plain food. பத்தியம் இரு \"keep to the diet\"" },
+    { "native": "வெந்நீர்", "roman": "vennīr", "en": "hot water (to drink)", "pos": "noun", "note": "the first remedy every Tamil mother prescribes; spoken also சுடு தண்ணி" }
+  ],
+  "phrases": [
+    { "native": "தலை சுத்துற மாதிரி இருக்கு.", "roman": "talai suttura mādiri irukku.", "en": "I feel dizzy. (lit. it's as if my head is spinning)" },
+    { "native": "வாந்தி வர்ற மாதிரி இருக்கு.", "roman": "vāndi varra mādiri irukku.", "en": "I feel like I'm going to be sick." },
+    { "native": "எனக்கு ரெண்டு நாளா காய்ச்சல் அடிக்குது.", "roman": "enakku reṇḍu nāḷā kāycchal aḍikkudu.", "en": "I've had a fever for two days.", "note": "a fever \"beats\" (அடி) in Tamil" },
+    { "native": "நேத்துலேருந்து தொண்டை வலிக்குது.", "roman": "nēttulērundu toṇḍai valikkudu.", "en": "My throat has been hurting since yesterday." },
+    { "native": "எனக்கு எந்த அலர்ஜியும் இல்ல.", "roman": "enakku enda alarjiyum illa.", "en": "I don't have any allergies." },
+    { "native": "எனக்கு சுகர் இருக்கு.", "roman": "enakku sugar irukku.", "en": "I'm diabetic." },
+    { "native": "டாக்டர்கிட்ட அப்பாயின்ட்மென்ட் வேணும்.", "roman": "ḍākṭarkiṭṭa appāyinṭmenṭ vēṇum.", "en": "I need an appointment with the doctor." },
+    { "native": "டாக்டர் எத்தன மணிக்கு வருவாரு?", "roman": "ḍākṭar ettana maṇikku varuvāru?", "en": "What time does the doctor come in?" },
+    { "native": "பயப்பட ஒண்ணும் இல்ல.", "roman": "bayappaḍa oṇṇum illa.", "en": "There's nothing to worry about." },
+    { "native": "இதை எப்படிச் சாப்பிடணும்?", "roman": "idai eppaḍic sāppiḍaṇum?", "en": "How should I take this?", "note": "medicine is \"eaten\" (சாப்பிடு) — or a tablet is \"put\" (போடு)" },
+    { "native": "சாப்பாட்டுக்கு அப்புறம், ஒரு நாளைக்கு மூணு வேளை.", "roman": "sāppāṭṭukku appuram, oru nāḷaikku mūṇu vēḷai.", "en": "After food, three times a day.", "note": "வேளை \"mealtime, time of day\"" },
+    { "native": "இதுக்கு மருந்துச்சீட்டு வேணுமா?", "roman": "idukku marunducchīṭṭu vēṇumā?", "en": "Do I need a prescription for this?" },
+    { "native": "ரெண்டு நாள்ல சரியாயிடும்.", "roman": "reṇḍu nāḷla sariyāyiḍum.", "en": "It'll be fine in a couple of days." },
+    { "native": "இப்போ கொஞ்சம் பரவால்லையா?", "roman": "ippō konjam paravāllaiyā?", "en": "Feeling a bit better now?" }
+  ],
+  "grammar": [
+    {
+      "title": "'I've had it for two days': duration with -ஆ, and since -லேருந்து",
+      "body": "English says *I've had a fever for two days* or *I've been coughing since morning*. Tamil uses the **present tense** — the fever is still going on — plus a time word.\n\n**For (a length of time): duration + -ஆ** (written **-ஆக**)\nரெண்டு நாள் → **ரெண்டு நாளா**, ஒரு வாரம் → **ஒரு வாரமா**, மூணு மாசம் → **மூணு மாசமா**.\nரெண்டு நாளா காய்ச்சல் **அடிக்குது** 'I've had a fever for two days' · ஆறு மாசமா மாத்திரை **சாப்பிடுறேன்** 'I've been taking tablets for six months'. The question: **எத்தன நாளா?** / **எவ்வளவு நாளா?** 'for how long?'\n\n**Since (a point in time): -லேருந்து** (also -ல இருந்து; written **-இலிருந்து**)\nநேத்து → **நேத்துலேருந்து** 'since yesterday', காலையில → **காலையிலேருந்து** 'since this morning', திங்கக்கிழமை → **திங்கக்கிழமைலேருந்து**. The question: **எப்போலேருந்து?** 'since when?'\nSince an event: past verb + **-துலேருந்து**: மாத்திரை சாப்பிட்ட**துலேருந்து** 'since I took the tablet'.\n\n**Non-stop: -க்கிட்டே இரு.** இருமி**க்கிட்டே இருக்கேன்** 'I keep coughing', வலிச்சு**க்கிட்டே இருக்கு** 'it keeps hurting'.\n\n**Ago: duration + முன்னாடி** (no -ஆ): ரெண்டு நாள் **முன்னாடி** விழுந்தேன் 'I fell two days ago'.\n\n**The traps:** (1) don't use the past tense for something still going on — not ரெண்டு நாளா காய்ச்சல் அடிச்சுது. (2) Don't confuse **-ஆ** 'for the past …' with **-க்கு** 'for the next …' in instructions: அஞ்சு நாளைக்குச் சாப்பிடுங்க 'take it for five days'.",
+      "examples": [
+        { "native": "ஒரு வாரமா இருமல் இருக்கு.", "roman": "oru vāramā irumal irukku.", "en": "I've had a cough for a week." },
+        { "native": "எத்தன நாளா இப்படி இருக்கு?", "roman": "ettana nāḷā ippaḍi irukku?", "en": "How long has it been like this?" },
+        { "native": "காலையிலேருந்து எதுவும் சாப்பிடல.", "roman": "kālaiyilērundu eduvum sāppiḍala.", "en": "I haven't eaten anything since this morning." },
+        { "native": "ஆறு மாசமா சுகர் மாத்திரை சாப்பிடுறேன்.", "roman": "āru māsamā sugar māttirai sāppiḍurēn.", "en": "I've been taking diabetes tablets for six months." },
+        { "native": "மூணு நாள் முன்னாடி கீழ விழுந்தேன்.", "roman": "mūṇu nāḷ munnāḍi kīḻa viḻundēn.", "en": "I fell three days ago." }
+      ]
+    },
+    {
+      "title": "Describing symptoms: வலிக்குது, அரிக்குது, -ற மாதிரி இருக்கு",
+      "body": "In Tamil your **body part** is the subject and the sensation is a verb in the 'it' form. The person, if you mention them, goes in the dative:\n\n(எனக்கு) தலை **வலிக்குது** 'my head hurts'\nகண் **அரிக்குது** 'my eyes itch'\nதலை **சுத்துது** 'my head is spinning, I'm dizzy'\nகால் **வீங்கியிருக்கு** 'my foot is swollen' (perfect: it has swollen and stays so)\nமூச்சு **வாங்குது** 'I'm out of breath'\nகால் **சுளுக்கிடுச்சு** 'I've sprained my ankle'\n\nThe noun forms work with **இருக்கு** or **-ஆ இருக்கு**: அரிப்பு இருக்கு, வீக்கம் இருக்கு, சோர்வா இருக்கு, குமட்டலா இருக்கு.\n\n**How it hurts:** **லேசா** 'slightly', **ரொம்ப** 'a lot', **விட்டு விட்டு** 'on and off', **எப்பவும்** 'all the time', and **-ம்போது** for 'when': விழுங்கும்போது வலிக்குது 'it hurts when I swallow', நடக்கும்போது வலிக்குது 'it hurts when I walk'.\n\n**Feels as if: present relative + மாதிரி இருக்கு.** For feelings that are vague or about to happen: வாந்தி **வர்ற மாதிரி இருக்கு** 'I feel like I'm going to be sick', மயக்கம் வர்ற மாதிரி இருக்கு 'I feel faint', காய்ச்சல் வர்ற மாதிரி இருக்கு 'I think I'm coming down with a fever'.\n\n**The trap:** never put *yourself* as the subject of the sensation verb: not நான் வலிக்கிறேன் but **எனக்கு வலிக்குது**.",
+      "examples": [
+        { "native": "எனக்கு முதுகு வலிக்குது.", "roman": "enakku mudugu valikkudu.", "en": "My back hurts." },
+        { "native": "கண் ரெண்டும் அரிக்குது.", "roman": "kaṇ reṇḍum arikkudu.", "en": "Both my eyes are itching." },
+        { "native": "கை வீங்கியிருக்கு.", "roman": "kai vīngiyirukku.", "en": "My hand is swollen." },
+        { "native": "தலை லேசா சுத்துது.", "roman": "talai lēsā suttudu.", "en": "I'm a little dizzy." },
+        { "native": "காய்ச்சல் வர்ற மாதிரி இருக்கு.", "roman": "kāycchal varra mādiri irukku.", "en": "I think I'm coming down with a fever." }
+      ]
+    },
+    {
+      "title": "Following instructions: how often, when, how long",
+      "body": "Doctors and pharmacists give instructions with a fixed set of patterns. Learn them as chunks.\n\n**How often:** **ஒரு நாளைக்கு** + number + **வேளை / தடவை**: ஒரு நாளைக்கு ரெண்டு வேளை 'twice a day'. Or by time: **காலையில ஒண்ணு, ராத்திரி ஒண்ணு**. Indian prescriptions write this as **1-0-1** (morning – afternoon – night) or 1-1-1.\n\n**When:** **சாப்பாட்டுக்கு முன்னாடி / அப்புறம்** 'before / after food' (written உணவுக்கு முன் / பின்), **வெறும் வயித்துல** 'on an empty stomach', **தூங்குறதுக்கு முன்னாடி** 'before sleeping' (verb + -றதுக்கு முன்னாடி 'before …-ing').\n\n**For how long:** number + **நாளைக்கு**: அஞ்சு நாளைக்கு 'for five days' (compare **நாளா** 'for the past …').\n\n**In what order:** the -ட்டு form chains actions: சாப்பிட்**டுட்டு** மாத்திரை போடுங்க 'eat, *then* take the tablet'.\n\n**Do / don't:** polite **-ங்க** (போடுங்க, தடவுங்க), **-ணும்** 'must' (சாப்பிடணும்), and **-க்கூடாது** 'must not' (நிறுத்தக்கூடாது 'you mustn't stop'), or **-ஆதீங்க** 'don't' (குடிக்காதீங்க).\n\n**The verbs:** you **சாப்பிடு** 'eat' or **போடு** 'put' a tablet, **குடி** 'drink' a syrup, **தடவு** 'apply' a cream, and the nurse **போடு**s an injection.",
+      "examples": [
+        { "native": "இந்த மாத்திரையைக் காலையிலயும் ராத்திரியும் சாப்பாட்டுக்கு அப்புறம் போடுங்க.", "roman": "inda māttiraiyaik kālaiyilayum rāttiriyum sāppāṭṭukku appuram pōḍunga.", "en": "Take this tablet morning and night, after food." },
+        { "native": "இந்த டெஸ்ட்டுக்கு வெறும் வயித்துல வரணும்.", "roman": "inda ṭesṭṭukku verum vayittula varaṇum.", "en": "You have to come on an empty stomach for this test." },
+        { "native": "ஏழு நாளைக்குத் தொடர்ந்து சாப்பிடணும், நடுவுல நிறுத்தக்கூடாது.", "roman": "ēḻu nāḷaikkut toḍarndu sāppiḍaṇum, naḍuvula niruttakkūḍādu.", "en": "Take it for seven days straight; don't stop halfway." },
+        { "native": "களிம்பை ஒரு நாளைக்கு ரெண்டு தடவை தடவுங்க.", "roman": "kaḷimbai oru nāḷaikku reṇḍu taḍavai taḍavunga.", "en": "Apply the ointment twice a day." },
+        { "native": "சிரப்பைக் குடிச்சதும் தண்ணி குடிக்காதீங்க.", "roman": "sirappaik kuḍicchadum taṇṇi kuḍikkādīnga.", "en": "Don't drink water straight after the syrup." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the clinic",
+    "setting": "Meena has had a fever for three days and goes to a family doctor's clinic in R.S. Puram, Coimbatore.",
+    "lines": [
+      { "speaker": "Doctor", "native": "வாங்க, உக்காருங்க. என்ன பிரச்சனை?", "roman": "vānga, ukkārunga. enna pracchanai?", "en": "Come in, have a seat. What's the problem?" },
+      { "speaker": "Meena", "native": "டாக்டர், மூணு நாளா காய்ச்சல் அடிக்குது. நேத்துலேருந்து தொண்டையும் வலிக்குது.", "roman": "ḍākṭar, mūṇu nāḷā kāycchal aḍikkudu. nēttulērundu toṇḍaiyum valikkudu.", "en": "Doctor, I've had a fever for three days. And my throat's been hurting since yesterday." },
+      { "speaker": "Doctor", "native": "விழுங்கும்போது வலிக்குதா? இருமல் இருக்கா?", "roman": "viḻungumbōdu valikkudā? irumal irukkā?", "en": "Does it hurt when you swallow? Any cough?" },
+      { "speaker": "Meena", "native": "ஆமா, தண்ணி குடிக்கும்போது கூட வலிக்குது. ராத்திரி ஃபுல்லா இருமிக்கிட்டே இருந்தேன்.", "roman": "āmā, taṇṇi kuḍikkumbōdu kūḍa valikkudu. rāttiri fullā irumikkiṭṭē irundēn.", "en": "Yes, it hurts even when I drink water. I was coughing all night." },
+      { "speaker": "Doctor", "native": "சரி, வாயைத் திறங்க… ஆ சொல்லுங்க. தொண்டை நல்லா சிவந்திருக்கு. உங்களுக்கு ஏதாவது அலர்ஜி இருக்கா?", "roman": "sari, vāyait tiranga… ā sollunga. toṇḍai nallā sivandirukku. ungaḷukku ēdāvadu alarji irukkā?", "en": "OK, open your mouth… say \"aah\". Your throat is quite red. Do you have any allergies?" },
+      { "speaker": "Meena", "native": "பெனிசிலின் அலர்ஜி, டாக்டர். போன தடவை உடம்பெல்லாம் அரிச்சுது.", "roman": "penisilin alarji, ḍākṭar. pōna taḍavai uḍambellām aricchudu.", "en": "I'm allergic to penicillin, doctor. Last time I itched all over." },
+      { "speaker": "Doctor", "native": "நல்லவேளை சொன்னீங்க. வேற மருந்து எழுதித் தர்றேன். ஒரு ரத்த டெஸ்ட்டும் பண்ணிடலாம்.", "roman": "nallavēḷai sonnīnga. vēra marundu eḻudit tarrēn. oru ratta ṭesṭṭum paṇṇiḍalām.", "en": "Good thing you told me. I'll prescribe something else. Let's do a blood test too." },
+      { "speaker": "Meena", "native": "டெஸ்ட்டுக்கு வெறும் வயித்துல வரணுமா?", "roman": "ṭesṭṭukku verum vayittula varaṇumā?", "en": "Do I need to come on an empty stomach for the test?" },
+      { "speaker": "Doctor", "native": "வேணாம், இது சாதாரண டெஸ்ட்தான். மாத்திரை காலையில ஒண்ணு, ராத்திரி ஒண்ணு, சாப்பாட்டுக்கு அப்புறம். அஞ்சு நாளைக்கு.", "roman": "vēṇām, idu sādāraṇa ṭesṭdān. māttirai kālaiyila oṇṇu, rāttiri oṇṇu, sāppāṭṭukku appuram. anju nāḷaikku.", "en": "No, it's just a routine test. The tablets: one in the morning, one at night, after food. For five days." },
+      { "speaker": "Meena", "native": "காய்ச்சல் குறைஞ்சா நிறுத்திடலாமா?", "roman": "kāycchal kurainjā niruttiḍalāmā?", "en": "Can I stop if the fever goes down?" },
+      { "speaker": "Doctor", "native": "இல்ல, இல்ல! அஞ்சு நாளும் முழுசா சாப்பிடணும். நடுவுல நிறுத்தக்கூடாது.", "roman": "illa, illa! anju nāḷum muḻusā sāppiḍaṇum. naḍuvula niruttakkūḍādu.", "en": "No, no! You have to take the full five days. Don't stop halfway." },
+      { "speaker": "Meena", "native": "சரி டாக்டர். ஏதாவது பத்தியம் இருக்கா?", "roman": "sari ḍākṭar. ēdāvadu pattiyam irukkā?", "en": "OK, doctor. Anything I should avoid eating?" },
+      { "speaker": "Doctor", "native": "ஐஸ்கிரீம், கூல் ட்ரிங்க்ஸ் வேணாம். வெந்நீர் நிறைய குடிங்க. ரெண்டு மூணு நாள்ல சரியாயிடும்.", "roman": "aiskrīm, kūl ṭrinks vēṇām. vennīr niraiya kuḍinga. reṇḍu mūṇu nāḷla sariyāyiḍum.", "en": "No ice cream or cold drinks. Drink lots of hot water. You'll be fine in two or three days." }
+    ]
+  },
+  "culture": "Most people in Tamil Nadu go first to a neighbourhood **கிளினிக்** or family doctor, often in the evening; you take a **டோக்கன்** and wait. Government hospitals (**ஜி.ஹெச்.**, 'GH') are free and busy. Prescriptions are written in English, with the **1-0-1** shorthand, and the **மெடிக்கல் ஷாப்** pharmacist ('அண்ணா') will explain the dose in Tamil. Many common medicines are sold without a prescription; antibiotics are supposed to need one.\n\nHome remedies are taken seriously: **வெந்நீர்**, **ரசம்**, **கஞ்சி** (rice gruel) for a sick stomach, **சுக்கு காபி** (dry-ginger coffee) or **கஷாயம்** (herbal decoction) for a cold, and in dengue season, **நிலவேம்புக் கஷாயம்**, which government health centres hand out. Siddha medicine, Tamil Nadu's own traditional system, has its own hospitals and shops. Expect advice about **பத்தியம்** — no curd or cold water with a cold, no oily food with a fever — from every relative.\n\nWhen someone is ill, people visit with fruit (apples, oranges, a bunch of bananas) and ask **இப்போ பரவால்லையா?** Talking about **சுகர்** and **பிரஷர்** is completely normal small talk among the over-forties.",
+  "lessons": [
+    {
+      "title": "Saying exactly what's wrong",
+      "tip": { "title": "Your body is the subject", "body": "- The body part + an 'it' verb: தொண்டை **வலிக்குது**, உடம்பு **அரிக்குது**, தலை **சுத்துது**, கால் **வீங்கியிருக்கு**.\n- Never நான் வலிக்கிறேன் — say **எனக்கு** … வலிக்குது.\n- 'When': **விழுங்கும்போது** வலிக்குது.\n- 'Feels as if': **வர்ற மாதிரி இருக்கு**: வாந்தி வர்ற மாதிரி இருக்கு.", "pattern": "(எனக்கு) + body part + வலிக்குது / அரிக்குது", "grammar": 1 },
+      "new": ["அறிகுறி", "தொண்டை", "விழுங்கு", "தலைசுற்றல்", "குமட்டல்", "மயக்கம்", "அரிப்பு", "வீக்கம்", "தலை சுத்துற மாதிரி இருக்கு.", "வாந்தி வர்ற மாதிரி இருக்கு."],
+      "sentences": [
+        { "native": "எனக்கு விழுங்கும்போது தொண்டை வலிக்குது.", "roman": "enakku viḻungumbōdu toṇḍai valikkudu.", "en": "My throat hurts when I swallow.", "focus": "வலிக்குது", "wrong": ["வலிக்கிறேன்|valikkirēn", "வலி|vali"] },
+        { "native": "எழுந்திருச்சா தலை சுத்துது.", "roman": "eḻundiricchā talai suttudu.", "en": "When I get up, my head spins.", "focus": "சுத்துது", "wrong": ["சுத்துறேன்|sutturēn", "சுத்து|suttu"] },
+        { "native": "உடம்பெல்லாம் அரிக்குது.", "roman": "uḍambellām arikkudu.", "en": "I'm itching all over.", "focus": "அரிக்குது", "wrong": ["அரிக்கிறேன்|arikkirēn", "அரிப்பு|arippu"] },
+        { "native": "கால் வீங்கியிருக்கு, டாக்டர்.", "roman": "kāl vīngiyirukku, ḍākṭar.", "en": "My foot is swollen, doctor.", "focus": "வீங்கியிருக்கு", "wrong": ["வீங்கியிருக்கேன்|vīngiyirukkēn", "வீங்கு|vīngu"] },
+        { "native": "தலை விட்டு விட்டு வலிக்குது.", "roman": "talai viṭṭu viṭṭu valikkudu.", "en": "My headache comes and goes.", "focus": "வலிக்குது", "wrong": ["வலிக்குறேன்|valikkurēn", "வலிச்சேன்|valicchēn"] },
+        { "native": "நிக்கும்போது மயக்கம் வர்ற மாதிரி இருக்கு.", "roman": "nikkumbōdu mayakkam varra mādiri irukku.", "en": "When I stand up I feel like I'm going to faint.", "focus": "வர்ற", "wrong": ["வந்தேன்|vandēn", "வருவேன்|varuvēn"] },
+        { "native": "சாப்பிட்டா குமட்டலா இருக்கு.", "roman": "sāppiṭṭā kumaṭṭalā irukku.", "en": "I feel nauseous when I eat." },
+        { "native": "அவருக்கு திடீர்னு மயக்கம் வந்துடுச்சு.", "roman": "avarukku tiḍīrnu mayakkam vanduḍucchu.", "en": "He suddenly fainted.", "focus": "அவருக்கு", "wrong": ["அவரு|avaru", "அவரை|avarai"] },
+        { "native": "வேற என்ன அறிகுறி இருக்கு?", "roman": "vēra enna arigiri irukku?", "en": "What other symptoms do you have?" },
+        { "native": "தலைசுற்றல் எப்போ அதிகமா இருக்கு?", "roman": "talaisutral eppō adigamā irukku?", "en": "When is the dizziness worse?" },
+        { "native": "அந்த இடத்துல வீக்கமும் அரிப்பும் இருக்கு.", "roman": "anda iḍattula vīkkamum arippum irukku.", "en": "There's swelling and itching in that spot." }
+      ]
+    },
+    {
+      "title": "Since when?",
+      "tip": { "title": "For … / since …", "body": "- **For** (still going on): duration + **-ஆ** + present tense: ரெண்டு **நாளா** காய்ச்சல் **அடிக்குது**.\n- **Since**: **-லேருந்து**: நேத்து**லேருந்து**, காலையி**லேருந்து**.\n- **Non-stop**: **-க்கிட்டே இருக்கேன்**: இருமிக்கிட்டே இருக்கேன்.\n- **Ago**: duration + **முன்னாடி**: ரெண்டு நாள் முன்னாடி.", "pattern": "ரெண்டு நாளா / நேத்துலேருந்து + present", "grammar": 0 },
+      "new": ["பேதி", "நெஞ்செரிச்சல்", "சோர்வு", "மூச்சு", "எனக்கு ரெண்டு நாளா காய்ச்சல் அடிக்குது.", "நேத்துலேருந்து தொண்டை வலிக்குது."],
+      "sentences": [
+        { "native": "மூணு நாளா பேதி ஆகுது.", "roman": "mūṇu nāḷā bēdi āgudu.", "en": "I've had diarrhoea for three days.", "focus": "நாளா", "wrong": ["நாளைக்கு|nāḷaikku", "நாள்ல|nāḷla"] },
+        { "native": "ஒரு வாரமா ராத்திரி நெஞ்செரிச்சல் இருக்கு.", "roman": "oru vāramā rāttiri nenjericchal irukku.", "en": "I've been getting heartburn at night for a week.", "focus": "வாரமா", "wrong": ["வாரத்துக்கு|vārattukku", "வாரம்|vāram"] },
+        { "native": "எத்தன நாளா இந்த சோர்வு இருக்கு?", "roman": "ettana nāḷā inda sōrvu irukku?", "en": "How long have you been feeling this tired?", "focus": "நாளா", "wrong": ["நாளைக்கு|nāḷaikku", "நாள்|nāḷ"] },
+        { "native": "நேத்து ராத்திரிலேருந்து மூச்சு விட கஷ்டமா இருக்கு.", "roman": "nēttu rāttirilērundu mūcchu viḍa kashṭamā irukku.", "en": "It's been hard to breathe since last night.", "focus": "ராத்திரிலேருந்து", "wrong": ["ராத்திரிக்கு|rāttirikku", "ராத்திரியா|rāttiriyā"] },
+        { "native": "அந்த மாத்திரை சாப்பிட்டதுலேருந்து தூக்கமா வருது.", "roman": "anda māttirai sāppiṭṭadulērundu tūkkamā varudu.", "en": "I've been feeling sleepy since I took that tablet.", "focus": "சாப்பிட்டதுலேருந்து", "wrong": ["சாப்பிட்டேன்|sāppiṭṭēn", "சாப்பிடுறேன்|sāppiḍurēn"] },
+        { "native": "காலையிலேருந்து இருமிக்கிட்டே இருக்கேன்.", "roman": "kālaiyilērundu irumikkiṭṭē irukkēn.", "en": "I've been coughing non-stop since this morning.", "focus": "இருமிக்கிட்டே", "wrong": ["இருமினேன்|iruminēn", "இருமல்|irumal"] },
+        { "native": "ரெண்டு வாரம் முன்னாடி இதே மாதிரி காய்ச்சல் வந்துச்சு.", "roman": "reṇḍu vāram munnāḍi idē mādiri kāycchal vanducchu.", "en": "I had the same kind of fever two weeks ago.", "focus": "முன்னாடி", "wrong": ["அப்புறம்|appuram", "வரைக்கும்|varaikkum"] },
+        { "native": "எப்போலேருந்து இப்படி இருக்கு?", "roman": "eppōlērundu ippaḍi irukku?", "en": "Since when has it been like this?" },
+        { "native": "ரொம்ப சோர்வா இருக்கு, எதுவும் செய்ய முடியல.", "roman": "romba sōrvā irukku, eduvum seyya muḍiyala.", "en": "I feel so drained I can't do anything." }
+      ]
+    },
+    {
+      "title": "Your medical history",
+      "tip": { "title": "Conditions and allergies", "body": "- Conditions are things you **have**: எனக்கு சுகர் **இருக்கு**, பிரஷர் **இருக்கு**.\n- Allergies need no verb: எனக்கு மீன் **அலர்ஜி**.\n- Regular medicine: **தினமும்** மாத்திரை **போடுறேன் / சாப்பிடுறேன்** — Tamil 'puts' or 'eats' a tablet.\n- Ask: **பக்க விளைவு ஏதாவது இருக்கா?**" },
+      "new": ["அலர்ஜி", "சுகர்", "பிரஷர்", "பக்க விளைவு", "எனக்கு எந்த அலர்ஜியும் இல்ல.", "எனக்கு சுகர் இருக்கு."],
+      "sentences": [
+        { "native": "எனக்கு இந்த மருந்து அலர்ஜி.", "roman": "enakku inda marundu alarji.", "en": "I'm allergic to this medicine." },
+        { "native": "அப்பாவுக்கு சுகரும் பிரஷரும் இருக்கு.", "roman": "appāvukku sugarum prasharum irukku.", "en": "Dad has diabetes and high blood pressure.", "focus": "அப்பாவுக்கு", "wrong": ["அப்பா|appā", "அப்பாவை|appāvai"] },
+        { "native": "நான் தினமும் பிரஷர் மாத்திரை போடுறேன்.", "roman": "nān dinamum prashar māttirai pōḍurēn.", "en": "I take a blood-pressure tablet every day.", "focus": "போடுறேன்", "wrong": ["போட்டேன்|pōṭṭēn", "போடுங்க|pōḍunga"] },
+        { "native": "உங்களுக்கு சுகர் இருக்கா?", "roman": "ungaḷukku sugar irukkā?", "en": "Are you diabetic?", "focus": "இருக்கா", "wrong": ["இருக்கீங்களா|irukkīngaḷā", "இருந்தீங்களா|irundīngaḷā"] },
+        { "native": "எனக்கு மீன் அலர்ஜி, சாப்பிட்டா உடம்பெல்லாம் அரிக்கும்.", "roman": "enakku mīn alarji, sāppiṭṭā uḍambellām arikkum.", "en": "I'm allergic to fish — if I eat it, I itch all over." },
+        { "native": "இந்த மருந்துக்கு ஏதாவது பக்க விளைவு இருக்கா?", "roman": "inda marundukku ēdāvadu pakka viḷaivu irukkā?", "en": "Does this medicine have any side effects?" },
+        { "native": "சில பேருக்குத் தூக்கம் வரும், அவ்வளவுதான்.", "roman": "sila pērukkut tūkkam varum, avvaḷavudān.", "en": "Some people get sleepy, that's all." },
+        { "native": "வேற ஏதாவது மாத்திரை சாப்பிடுறீங்களா?", "roman": "vēra ēdāvadu māttirai sāppiḍurīngaḷā?", "en": "Are you taking any other tablets?", "focus": "சாப்பிடுறீங்களா", "wrong": ["சாப்பிட்டேனா|sāppiṭṭēnā", "சாப்பிடுங்க|sāppiḍunga"] },
+        { "native": "டாக்டர், என் பிரஷர் எவ்வளவு இருக்கு?", "roman": "ḍākṭar, en prashar evvaḷavu irukku?", "en": "Doctor, what's my blood pressure?" }
+      ]
+    },
+    {
+      "title": "Appointments and tests",
+      "tip": { "title": "Booking and tests", "body": "- Booking: **அப்பாயின்ட்மென்ட் வேணும்** / **கிடைக்குமா?**\n- Tests are 'done' and scans 'taken': டெஸ்ட் **பண்ணணும்**, ஸ்கேன் **எடுக்கணும்**; an injection is 'put': ஊசி **போடணும்**.\n- 'I'm scared of …': எனக்கு ஊசி**ன்னா** பயம்.\n- Doctors reassure: **பயப்பட ஒண்ணும் இல்ல**." },
+      "new": ["அப்பாயின்ட்மென்ட்", "டெஸ்ட்", "ஸ்கேன்", "ஊசி", "டாக்டர்கிட்ட அப்பாயின்ட்மென்ட் வேணும்.", "டாக்டர் எத்தன மணிக்கு வருவாரு?", "பயப்பட ஒண்ணும் இல்ல."],
+      "sentences": [
+        { "native": "நாளைக்குக் காலையில அப்பாயின்ட்மென்ட் கிடைக்குமா?", "roman": "nāḷaikkuk kālaiyila appāyinṭmenṭ kiḍaikkumā?", "en": "Can I get an appointment tomorrow morning?" },
+        { "native": "சாயங்காலம் அஞ்சு மணிக்கு வாங்க.", "roman": "sāyangālam anju maṇikku vānga.", "en": "Come at five in the evening." },
+        { "native": "ரத்த டெஸ்ட் பண்ணணும்.", "roman": "ratta ṭesṭ paṇṇaṇum.", "en": "We need to do a blood test.", "focus": "பண்ணணும்", "wrong": ["எடுக்கணும்|eḍukkaṇum", "போடணும்|pōḍaṇum"] },
+        { "native": "கால்ல ஒரு ஸ்கேன் எடுத்துப் பாக்கலாம்.", "roman": "kālla oru skēn eḍuttup pākkalām.", "en": "Let's scan your leg and see.", "focus": "எடுத்துப்", "wrong": ["போட்டுப்|pōṭṭup", "குடிச்சுப்|kuḍicchup"] },
+        { "native": "டெஸ்ட் ரிப்போர்ட் எப்போ கிடைக்கும்?", "roman": "ṭesṭ rippōrṭ eppō kiḍaikkum?", "en": "When will the test report be ready?" },
+        { "native": "ஊசி போடணுமா? எனக்கு ஊசின்னா பயம்.", "roman": "ūsi pōḍaṇumā? enakku ūsinnā bayam.", "en": "Do I need an injection? I'm scared of needles.", "focus": "போடணுமா", "wrong": ["பண்ணணுமா|paṇṇaṇumā", "எடுக்கணுமா|eḍukkaṇumā"] },
+        { "native": "ஒரு ஊசி போட்டா காய்ச்சல் குறைஞ்சிடும்.", "roman": "oru ūsi pōṭṭā kāycchal kurainjiḍum.", "en": "One injection and the fever will come down." },
+        { "native": "ரிப்போர்ட் எல்லாம் சரியா இருக்கு.", "roman": "rippōrṭ ellām sariyā irukku.", "en": "All the reports are fine." },
+        { "native": "டாக்டர் இன்னைக்கு லீவு, நாளைக்குத்தான் வருவாரு.", "roman": "ḍākṭar innaikku līvu, nāḷaikkuttān varuvāru.", "en": "The doctor's off today; he'll only be in tomorrow." }
+      ]
+    },
+    {
+      "title": "At the pharmacy: following instructions",
+      "tip": { "title": "How often, when, how long", "body": "- How often: **ஒரு நாளைக்கு ரெண்டு வேளை**; prescriptions write **1-0-1** (morning–noon–night).\n- When: **சாப்பாட்டுக்கு முன்னாடி / அப்புறம்**, **வெறும் வயித்துல**, **தூங்குறதுக்கு முன்னாடி**.\n- How long: number + **நாளைக்கு**: அஞ்சு **நாளைக்கு** (not நாளா).\n- Don't: **-க்கூடாது**: நிறுத்தக்கூடாது.", "pattern": "ஒரு நாளைக்கு X வேளை · X நாளைக்கு", "grammar": 2 },
+      "new": [
+        "மருந்துச்சீட்டு",
+        "சிரப்",
+        "டோஸ்",
+        "வெறும் வயிறு",
+        "களிம்பு",
+        "தடவு",
+        "இதை எப்படிச் சாப்பிடணும்?",
+        "சாப்பாட்டுக்கு அப்புறம், ஒரு நாளைக்கு மூணு வேளை.",
+        "இதுக்கு மருந்துச்சீட்டு வேணுமா?"
+      ],
+      "sentences": [
+        { "native": "இந்த மாத்திரையை வெறும் வயித்துல போடணும்.", "roman": "inda māttiraiyai verum vayittula pōḍaṇum.", "en": "This tablet has to be taken on an empty stomach.", "focus": "வயித்துல", "wrong": ["வயிறு|vayiru", "வயித்துக்கு|vayittukku"] },
+        { "native": "சிரப் ஒரு நாளைக்கு மூணு வேளை குடுங்க.", "roman": "sirap oru nāḷaikku mūṇu vēḷai kuḍunga.", "en": "Give the syrup three times a day.", "focus": "நாளைக்கு", "wrong": ["நாளா|nāḷā", "நாள்ல|nāḷla"] },
+        { "native": "அஞ்சு நாளைக்கு இதைச் சாப்பிடுங்க.", "roman": "anju nāḷaikku idaic sāppiḍunga.", "en": "Take this for five days.", "focus": "நாளைக்கு", "wrong": ["நாளா|nāḷā", "நாள்|nāḷ"] },
+        { "native": "தூங்குறதுக்கு முன்னாடி களிம்பைத் தடவுங்க.", "roman": "tūnguradukku munnāḍi kaḷimbait taḍavunga.", "en": "Apply the ointment before you go to sleep.", "focus": "தடவுங்க", "wrong": ["தடவினேன்|taḍavinēn", "தடவாதீங்க|taḍavādīnga"] },
+        { "native": "சாப்பிட்டுட்டு மாத்திரை போடுங்க.", "roman": "sāppiṭṭuṭṭu māttirai pōḍunga.", "en": "Eat first, then take the tablet.", "focus": "சாப்பிட்டுட்டு", "wrong": ["சாப்பிடாம|sāppiḍāma", "சாப்பிடுங்க|sāppiḍunga"] },
+        { "native": "ரெண்டு டோஸ் சேர்த்துப் போடக்கூடாது.", "roman": "reṇḍu ḍōs sērttup pōḍakkūḍādu.", "en": "You mustn't take two doses together.", "focus": "போடக்கூடாது", "wrong": ["போடணும்|pōḍaṇum", "போடலாம்|pōḍalām"] },
+        { "native": "ஒரு டோஸ் மறந்துட்டா என்ன பண்றது?", "roman": "oru ḍōs maranduṭṭā enna paṇradu?", "en": "What should I do if I forget a dose?" },
+        { "native": "மருந்துச்சீட்டு இல்லாம இந்த மருந்தைக் குடுக்க முடியாது.", "roman": "marunducchīṭṭu illāma inda marundaik kuḍukka muḍiyādu.", "en": "We can't give this medicine without a prescription." },
+        { "native": "அண்ணா, இந்த சிரப் குழந்தைக்குக் குடுக்கலாமா?", "roman": "aṇṇā, inda sirap kuḻandaikkuk kuḍukkalāmā?", "en": "Is this syrup OK to give a child?" },
+        { "native": "இதை சாப்பாட்டுக்கு முன்னாடியா அப்புறமா சாப்பிடணும்?", "roman": "idai sāppāṭṭukku munnāḍiyā appuramā sāppiḍaṇum?", "en": "Should I take this before or after food?" }
+      ]
+    },
+    {
+      "title": "Sprains, recovery and advice",
+      "tip": { "title": "Getting better", "body": "- Ask: **இப்போ பரவால்லையா?** 'better now?', **உடம்பு எப்படி இருக்கு?**\n- Reassure: **சீக்கிரம் குணமாயிடும்**, **நல்லா ஓய்வு எடு**.\n- Everyone has advice: **வெந்நீர் குடி**, a **பத்தியம்** (no cold drinks, no curd at night) — accept it with a smile." },
+      "new": ["சுளுக்கு", "எலும்பு", "குணமாகு", "பத்தியம்", "வெந்நீர்", "ரெண்டு நாள்ல சரியாயிடும்.", "இப்போ கொஞ்சம் பரவால்லையா?"],
+      "sentences": [
+        { "native": "ஓடும்போது கால் சுளுக்கிடுச்சு.", "roman": "ōḍumbōdu kāl suḷukkiḍucchu.", "en": "I sprained my ankle while running." },
+        { "native": "எலும்பு ஒண்ணும் உடையல, சுளுக்குதான்.", "roman": "elumbu oṇṇum uḍaiyala, suḷukkudān.", "en": "Nothing's broken — it's just a sprain." },
+        { "native": "சீக்கிரம் குணமாயிடும், கவலைப்படாதே.", "roman": "sīkkiram kuṇamāyiḍum, kavalaippaḍādē.", "en": "You'll get better soon, don't worry." },
+        { "native": "அவருக்கு இப்போ முழுசா குணமாயிடுச்சு.", "roman": "avarukku ippō muḻusā kuṇamāyiḍucchu.", "en": "He's fully recovered now." },
+        { "native": "டாக்டர் ஒரு வாரம் பத்தியம் இருக்கச் சொன்னாரு.", "roman": "ḍākṭar oru vāram pattiyam irukkac sonnāru.", "en": "The doctor told me to stick to a plain diet for a week." },
+        { "native": "சளி இருக்கும்போது குளிர்ந்த தண்ணி குடிக்கக்கூடாதுன்னு பாட்டி சொல்லுவாங்க.", "roman": "saḷi irukkumbōdu kuḷirnda taṇṇi kuḍikkakkūḍādunnu pāṭṭi solluvānga.", "en": "Grandma always says you shouldn't drink cold water when you have a cold." },
+        { "native": "சூடா வெந்நீர் குடி, தொண்டைக்கு நல்லது.", "roman": "sūḍā vennīr kuḍi, toṇḍaikku nalladu.", "en": "Drink some hot water — it's good for your throat." },
+        { "native": "உடம்பு இப்போ எப்படி இருக்கு?", "roman": "uḍambu ippō eppaḍi irukku?", "en": "How are you feeling now?" },
+        { "native": "நேத்தை விட இன்னைக்கு நல்லா இருக்கு.", "roman": "nēttai viḍa innaikku nallā irukku.", "en": "Better than yesterday." },
+        { "native": "நல்லா ஓய்வு எடு, நாளைக்கு ஆஃபீஸ் வர வேணாம்.", "roman": "nallā ōyvu eḍu, nāḷaikku āfīs vara vēṇām.", "en": "Get plenty of rest — don't come to the office tomorrow." }
+      ]
+    }
+  ]
+}

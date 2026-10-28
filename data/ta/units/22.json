@@ -1,0 +1,186 @@
+{
+  "id": 22,
+  "title": "Calls, texts & voice notes",
+  "goal": "Make and answer calls, deal with bad signal and dead batteries, send messages, voice notes and your location, and say what you have just, already or not yet done.",
+  "intro": "Half of your Tamil will happen on the phone: calls that start with **ஹலோ, சொல்லுங்க**, WhatsApp groups, voice notes from aunties and the eternal **கேக்குதா?** 'can you hear me?'. Phone Tamil is full of English words, each with a Tamil verb attached: **மெசேஜ் பண்ணு**, **லொகேஷன் ஷேர் பண்ணு**, **சார்ஜ் போடு**, **கட் ஆயிடுச்சு**.\n\nThe grammar here unlocks longer sentences: the **-ட்டு** participle for 'do X and then Y' (**வீட்டுக்குப் போயிட்டு மெசேஜ் பண்ணு** 'text me when you get home'), and the words for 'just', 'already', 'still' and 'not yet' (**இப்போதான்**, **ஏற்கனவே**, **இன்னும்**).",
+  "vocab": [
+    { "native": "ஃபோன்", "roman": "fōn", "en": "phone; a (phone) call", "pos": "noun", "note": "ஃபோன் பண்ணு or கால் பண்ணு \"to call\"; ஃபோன் எடு \"to pick up\"" },
+    { "native": "சிக்னல்", "roman": "signal", "en": "signal (phone); traffic lights", "pos": "noun", "note": "சிக்னல் இல்ல \"no signal\"; சிக்னல்ல திரும்புங்க \"turn at the lights\"" },
+    { "native": "லைன்", "roman": "lain", "en": "line (phone)", "pos": "noun", "note": "வேற லைன்ல இருக்காரு \"he's on another call\"; லைன் கிடைக்கல \"I can't get through\"" },
+    { "native": "ஸ்பீக்கர்", "roman": "spīkkar", "en": "speaker(phone)", "pos": "noun", "note": "ஸ்பீக்கர்ல போடு \"put it on speaker\"" },
+    { "native": "தெளிவாக", "roman": "teḷivāga", "en": "clearly", "pos": "adv", "note": "spoken: தெளிவா teḷivā" },
+    { "native": "கட்", "roman": "kaṭ", "en": "cut (off)", "pos": "noun", "note": "கட் ஆயிடுச்சு \"it got cut off\"; கட் பண்ணு \"to hang up\"" },
+    { "native": "மெசேஜ்", "roman": "mesēj", "en": "message, text", "pos": "noun", "note": "மெசேஜ் பண்ணு / அனுப்பு \"to text\"" },
+    { "native": "வாட்ஸ்அப்", "roman": "vāṭsap", "en": "WhatsApp", "pos": "noun", "note": "வாட்ஸ்அப்ல \"on WhatsApp\"" },
+    { "native": "வாய்ஸ் நோட்", "roman": "vāys nōṭ", "en": "voice note", "pos": "noun", "note": "also வாய்ஸ் மெசேஜ்" },
+    { "native": "டைப்", "roman": "ṭaip", "en": "type", "pos": "noun", "note": "டைப் பண்ணு \"to type\"" },
+    { "native": "போட்டோ", "roman": "pōṭṭō", "en": "photo", "pos": "noun", "note": "போட்டோ எடு \"to take a photo\"" },
+    { "native": "இப்போதான்", "roman": "ippōdān", "en": "just now, only just", "pos": "adv", "note": "written இப்போதுதான் ippōdudān" },
+    { "native": "ரிப்ளை", "roman": "riplai", "en": "reply", "pos": "noun", "note": "ரிப்ளை பண்ணு \"to reply\"" },
+    { "native": "பதில்", "roman": "padil", "en": "answer, reply", "pos": "noun", "note": "பதில் சொல்லு \"to answer\"" },
+    { "native": "ஆன்லைன்", "roman": "ānlain", "en": "online", "pos": "adj" },
+    { "native": "ஸ்டேட்டஸ்", "roman": "sṭēṭṭas", "en": "(WhatsApp) status", "pos": "noun", "note": "ஸ்டேட்டஸ் போடு \"to post a status\"" },
+    { "native": "இனிமேல்", "roman": "inimēl", "en": "from now on; (with a negative) not any more", "pos": "adv", "note": "spoken: இனிமே inimē" },
+    { "native": "லொகேஷன்", "roman": "lokēshan", "en": "location", "pos": "noun" },
+    { "native": "ஷேர்", "roman": "shēr", "en": "share", "pos": "noun", "note": "ஷேர் பண்ணு \"to share\"" },
+    { "native": "நெட்", "roman": "neṭ", "en": "internet, mobile data", "pos": "noun", "note": "நெட் இல்ல \"no data\"" },
+    { "native": "சார்ஜ்", "roman": "sārj", "en": "charge (battery)", "pos": "noun", "note": "சார்ஜ் போடு \"put on charge\"; சார்ஜ் இல்ல \"the battery's dead\"" },
+    { "native": "நம்பர்", "roman": "nambar", "en": "phone number", "pos": "noun", "note": "the everyday word; எண் is written" },
+    { "native": "குரூப்", "roman": "grūp", "en": "group (chat)", "pos": "noun", "note": "குடும்ப குரூப் \"the family group\"" },
+    { "native": "ஃபார்வர்ட்", "roman": "fārvarḍ", "en": "forward (a message)", "pos": "noun", "note": "ஃபார்வர்ட் பண்ணு \"to forward\"" },
+    { "native": "மிஸ்டு கால்", "roman": "misḍu kāl", "en": "missed call", "pos": "noun", "note": "மிஸ்டு கால் குடு \"to give a missed call\" (ring once so they call back)" },
+    { "native": "வீடியோ கால்", "roman": "vīḍiyō kāl", "en": "video call", "pos": "noun", "note": "வீடியோ கால் பண்ணு" }
+  ],
+  "phrases": [
+    { "native": "ஹலோ, கேக்குதா?", "roman": "halō, kēkkudā?", "en": "Hello, can you hear me? (lit. is it heard?)" },
+    { "native": "சரியா கேக்கல, சிக்னல் இல்ல.", "roman": "sariyā kēkkala, signal illa.", "en": "I can't hear you properly, there's no signal." },
+    { "native": "ஏன் ஃபோன் எடுக்கல?", "roman": "ēn fōn eḍukkala?", "en": "Why didn't you pick up?" },
+    { "native": "கால் கட் ஆயிடுச்சு.", "roman": "kāl kaṭ āyiḍucchu.", "en": "The call got cut off." },
+    { "native": "வாட்ஸ்அப்ல மெசேஜ் பண்ணு.", "roman": "vāṭsapla mesēj paṇṇu.", "en": "Message me on WhatsApp. (informal)" },
+    { "native": "வாய்ஸ் நோட் அனுப்புறேன், டைப் பண்ண டைம் இல்ல.", "roman": "vāys nōṭ anuppurēn, ṭaip paṇṇa ṭaim illa.", "en": "I'll send a voice note, no time to type." },
+    { "native": "வீட்டுக்குப் போயிட்டு மெசேஜ் பண்ணு.", "roman": "vīṭṭukkup pōyiṭṭu mesēj paṇṇu.", "en": "Text me when you get home. (lit. go home and then text)" },
+    { "native": "இப்போதான் உன் மெசேஜ் பாத்தேன்.", "roman": "ippōdān un mesēj pāttēn.", "en": "I've only just seen your message." },
+    { "native": "இன்னும் ரிப்ளை பண்ணல!", "roman": "innum riplai paṇṇala!", "en": "(He/you) still haven't replied!" },
+    { "native": "லொகேஷன் ஷேர் பண்ணு.", "roman": "lokēshan shēr paṇṇu.", "en": "Share your location. (informal)" },
+    { "native": "ஃபோன்ல சார்ஜ் இல்ல.", "roman": "fōnla sārj illa.", "en": "My phone's out of charge." },
+    { "native": "அப்புறம் கூப்பிடுறேன்.", "roman": "appuram kūppiḍurēn.", "en": "I'll call you back later." },
+    { "native": "நான் மீட்டிங்ல இருக்கேன்.", "roman": "nān mīṭṭingla irukkēn.", "en": "I'm in a meeting." },
+    { "native": "உனக்கு நாலு மிஸ்டு கால் குடுத்தேன்!", "roman": "unakku nālu misḍu kāl kuḍuttēn!", "en": "I gave you four missed calls!" },
+    { "native": "உன் ஃபோன் ஸ்விட்ச் ஆஃப்னு வந்துச்சு.", "roman": "un fōn sviṭch āfnu vanducchu.", "en": "It said your phone was switched off." }
+  ],
+  "grammar": [
+    {
+      "title": "Do X and then Y: the -ட்டு participle",
+      "body": "To chain actions, Tamil puts every verb except the last in the **verbal participle** ('having done'), and only the last verb carries tense and person: **சாப்பிட்டு கூப்பிடுறேன்** 'I'll eat and then call', lit. 'having eaten, I'll call'.\n\nThe participle comes from the past stem (unit 16): drop the personal ending and you're left with a form in -உ or -இ:\nபோனேன் → **போய்** (spoken போயி) · வந்தேன் → **வந்து** · சாப்பிட்டேன் → **சாப்பிட்டு** · பாத்தேன் → **பாத்து** · பண்ணினேன் → **பண்ணி** · எடுத்தேன் → **எடுத்து** · கேட்டேன் → **கேட்டு** · குளிச்சேன் → **குளிச்சு**\n\n**-ட்டு 'after finishing'**: add -ட்டு (from விடு) to stress 'first finish X, then Y': **பண்ணிட்டு**, **போயிட்டு**, **சாப்பிட்டுட்டு**, **பாத்துட்டு**: **வீட்டுக்குப் போயிட்டு மெசேஜ் பண்ணு** 'text me once you get home'. The everyday goodbye **போயிட்டு வர்றேன்** is literally 'I'll go and come back'.\n\nThe last verb decides the tense of the whole chain: **பாத்துட்டு சொல்றேன்** 'I'll look and tell you', **பாத்துட்டு சொன்னான்** 'he looked and then told me'.\n\nMany English single verbs are Tamil pairs: **எடுத்துட்டு வா** 'bring' (take-and-come), **கூட்டிட்டுப் போ** 'take (someone) along', **வாங்கிட்டு வா** 'pick up, get (from a shop)'.\n\nThe trap: don't put tense on both verbs (✗ சாப்பிட்டேன் கூப்பிடுறேன்), and don't join verbs with -உம் 'and': that is for nouns.",
+      "examples": [
+        { "native": "சாப்பிட்டுட்டு கூப்பிடுறேன்.", "roman": "sāppiṭṭuṭṭu kūppiḍurēn.", "en": "I'll call you after I've eaten." },
+        { "native": "கடைக்குப் போய் பால் வாங்கிட்டு வா.", "roman": "kaḍaikkup pōy pāl vāngiṭṭu vā.", "en": "Go to the shop and pick up some milk." },
+        { "native": "அவன் மெசேஜ் பாத்துட்டு ரிப்ளை பண்ணல.", "roman": "avan mesēj pāttuṭṭu riplai paṇṇala.", "en": "He saw the message and didn't reply." },
+        { "native": "ஆஃபீஸ் முடிஞ்சு நேரா வீட்டுக்கு வா.", "roman": "āfīs muḍinju nērā vīṭṭukku vā.", "en": "Come straight home after work." },
+        { "native": "மெசேஜ் பண்ணிட்டு வா.", "roman": "mesēj paṇṇiṭṭu vā.", "en": "Text me before you come over." }
+      ]
+    },
+    {
+      "title": "Just, already, still and not yet",
+      "body": "**Just (now)**: **இப்போதான்** + past: **இப்போதான் பாத்தேன்** 'I've just seen it'. -தான் on any time word means 'only just': **நேத்துதான் வந்தேன்** 'I only came yesterday'.\n**Already**: past + **-ட்டேன்** or **-ஆச்சு** (unit 16), with or without **ஏற்கனவே**: **ஏற்கனவே அனுப்பிட்டேன்** 'I've already sent it', **சாப்பிட்டாச்சு** 'already eaten'.\n**Still**: **இன்னும்** + present or continuous: **இன்னும் பேசிக்கிட்டு இருக்கான்** 'he's still talking', **இன்னும் ஆஃபீஸ்லதான் இருக்கேன்** 'I'm still at the office'.\n**Not yet**: **இன்னும்** + negative **-ல**: **இன்னும் ரிப்ளை பண்ணல** 'hasn't replied yet'. The short answer is **இன்னும் இல்ல** 'not yet'.\n**Not any more / from now on**: **இனிமே** + **மாட்டேன்** (unit 17): **இனிமே மெசேஜ் பண்ண மாட்டேன்** 'I won't text any more'; with a positive verb it means 'from now on'.\n**Already?! (surprised)**: **அதுக்குள்ள** 'so soon, by then': **அதுக்குள்ள கிளம்பிட்டியா?** 'you've left already?'\n\nThe trap: **இன்னும்** means 'still', 'yet' and 'more'. The verb tells you which: present = still, negative = not yet, with a noun (இன்னும் கொஞ்சம்) = more.",
+      "examples": [
+        { "native": "இப்போதான் எந்திரிச்சேன்.", "roman": "ippōdān endiricchēn.", "en": "I've only just got up." },
+        { "native": "ஏற்கனவே லொகேஷன் அனுப்பிட்டேன்.", "roman": "ērkanavē lokēshan anuppiṭṭēn.", "en": "I've already sent the location." },
+        { "native": "அவங்க இன்னும் தூங்கிக்கிட்டு இருக்காங்க.", "roman": "avanga innum tūngikkiṭṭu irukkānga.", "en": "They're still asleep." },
+        { "native": "பணம் இன்னும் வரல.", "roman": "paṇam innum varala.", "en": "The money hasn't come through yet." },
+        { "native": "அதுக்குள்ள கிளம்பிட்டியா?", "roman": "adukkuḷḷa kiḷambiṭṭiyā?", "en": "You've left already?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Can you hear me?",
+    "setting": "Sanjay has come to Coimbatore for his friend Priya's sister's engagement. He calls Priya from Gandhipuram bus stand; the last line is a voice note.",
+    "lines": [
+      { "speaker": "Sanjay", "native": "ஹலோ, பிரியா? கேக்குதா?", "roman": "halō, Priyā? kēkkudā?", "en": "Hello, Priya? Can you hear me?" },
+      { "speaker": "Priya", "native": "ஹலோ? சஞ்சய்? சரியா கேக்கல, கொஞ்சம் சத்தமா பேசு!", "roman": "halō? Sanjay? sariyā kēkkala, konjam sattamā pēsu!", "en": "Hello? Sanjay? I can't hear you properly, speak up!" },
+      { "speaker": "Sanjay", "native": "நான் இப்போதான் காந்திபுரம் பஸ் ஸ்டாண்ட்ல இறங்கினேன்.", "roman": "nān ippōdān Gāndhipuram bas sṭāṇḍla iranginēn.", "en": "I've just got off at Gandhipuram bus stand." },
+      { "speaker": "Priya", "native": "அதுக்குள்ள வந்துட்டியா? சூப்பர்! நான் மூணு தடவை கால் பண்ணேன், ஏன் எடுக்கல?", "roman": "adukkuḷḷa vanduṭṭiyā? sūppar! nān mūṇu taḍavai kāl paṇṇēn, ēn eḍukkala?", "en": "You're here already? Great! I called three times, why didn't you pick up?" },
+      { "speaker": "Sanjay", "native": "பஸ்ல சிக்னலே இல்ல. சார்ஜும் கம்மி.", "roman": "basla signalē illa. sārjum kammi.", "en": "There was no signal at all on the bus. And my battery's low." },
+      { "speaker": "Priya", "native": "சரி, லொகேஷன் அனுப்புறேன். ஆட்டோ புடிச்சு நேரா வந்துடு.", "roman": "sari, lokēshan anuppurēn. āṭṭō puḍicchu nērā vanduḍu.", "en": "OK, I'll send you the location. Grab an auto and come straight here." },
+      { "speaker": "Sanjay", "native": "வாட்ஸ்அப்ல அனுப்பு. நெட் இருக்கு, ஆனா ரொம்ப ஸ்லோ.", "roman": "vāṭsapla anuppu. neṭ irukku, ānā romba slō.", "en": "Send it on WhatsApp. I've got data, but it's really slow." },
+      { "speaker": "Priya", "native": "அனுப்பிட்டேன். வந்துச்சா?", "roman": "anuppiṭṭēn. vanducchā?", "en": "Sent. Has it come?" },
+      { "speaker": "Sanjay", "native": "இன்னும் வரல… இரு… ஆ, இப்போ வந்துடுச்சு.", "roman": "innum varala… iru… ā, ippō vanduḍucchu.", "en": "Not yet… wait… ah, it's come now." },
+      { "speaker": "Priya", "native": "அம்மா உன்னைப் பத்தி கேட்டுக்கிட்டே இருக்காங்க.", "roman": "ammā unnaip patti kēṭṭukkiṭṭē irukkānga.", "en": "Mum keeps asking about you." },
+      { "speaker": "Sanjay", "native": "ஹலோ? ஹலோ? கேக்குதா? ஐயோ, கட் ஆயிடுச்சு.", "roman": "halō? halō? kēkkudā? aiyō, kaṭ āyiḍucchu.", "en": "Hello? Hello? Can you hear me? Oh no, it's cut off." },
+      { "speaker": "Sanjay", "native": "பிரியா, ஃபோன் ஆஃப் ஆகப் போகுது. வந்துட்டு பேசுறேன்!", "roman": "Priyā, fōn āf āgap pōgudu. vanduṭṭu pēsurēn!", "en": "(voice note) Priya, my phone's about to die. I'll talk to you when I get there!" }
+    ]
+  },
+  "culture": "Tamil Nadu runs on WhatsApp. Families have a **குடும்ப குரூப்** where relatives forward good-morning images and news, friends plan everything in groups, and shops and auto drivers take orders by message. **Voice notes** are everywhere, partly because typing Tamil script on a phone is slow: most young people type Tamil in English letters instead (*enna panra?* 'what are you doing?', *saptiya?* 'have you eaten?'), so learn to read that too. People answer the phone with **ஹலோ, சொல்லுங்க** 'hello, go ahead' (to friends **சொல்லு**), and a call from an elder often opens with **சாப்பிட்டியா?** 'have you eaten?', which is a greeting rather than a question. A **missed call** is a message in itself: 'call me back', 'I've arrived', 'come down, I'm outside'. Calls end with **சரி, வைக்கிறேன்** 'OK, I'll put the phone down'. Not answering for a few hours is normal, but leaving someone on the blue ticks after reading their message can cause offence, so a quick **அப்புறம் கூப்பிடுறேன்** is good manners.",
+  "lessons": [
+    {
+      "title": "On the phone",
+      "tip": { "title": "Phone Tamil", "body": "- Answer with **ஹலோ, சொல்லுங்க** 'hello, go ahead' (friends: **சொல்லு**).\n- 'Call' is **ஃபோன் பண்ணு** or **கால் பண்ணு**; 'pick up' is **எடு**: ஏன் ஃபோன் எடுக்கல?\n- 'Can you hear me?' is **கேக்குதா?**, lit. 'is it heard?'; no 'you' needed.\n- Finish with **சரி, வைக்கிறேன்** 'OK, I'll hang up'." },
+      "new": ["ஃபோன்", "சிக்னல்", "லைன்", "ஸ்பீக்கர்", "தெளிவாக", "கட்", "ஹலோ, கேக்குதா?", "சரியா கேக்கல, சிக்னல் இல்ல.", "ஏன் ஃபோன் எடுக்கல?", "கால் கட் ஆயிடுச்சு."],
+      "sentences": [
+        { "native": "ஹலோ, சொல்லுங்க, யாரு பேசுறது?", "roman": "halō, sollunga, yāru pēsuradu?", "en": "Hello, go ahead, who's speaking?" },
+        { "native": "ஹலோ, கேக்குதா? நான் பஸ்ல இருக்கேன்.", "roman": "halō, kēkkudā? nān basla irukkēn.", "en": "Hello, can you hear me? I'm on the bus." },
+        { "native": "இங்க சிக்னல் சரியில்ல, வெளிய வந்து பேசுறேன்.", "roman": "inga signal sariyilla, veḷiya vandu pēsurēn.", "en": "The signal's bad here, I'll step outside and talk." },
+        { "native": "தெளிவா கேக்கல, திரும்ப சொல்லு.", "roman": "teḷivā kēkkala, tirumba sollu.", "en": "I can't hear clearly, say that again." },
+        { "native": "அவரு வேற லைன்ல இருக்காரு, ஒரு நிமிஷம்.", "roman": "avaru vēra lainla irukkāru, oru nimisham.", "en": "He's on another call, one minute." },
+        { "native": "ஸ்பீக்கர்ல போடு, எல்லாரும் கேக்கட்டும்.", "roman": "spīkkarla pōḍu, ellārum kēkkaṭṭum.", "en": "Put it on speaker, let everyone hear." },
+        { "native": "கால் கட் ஆயிடுச்சு, திரும்பக் கூப்பிடு.", "roman": "kāl kaṭ āyiḍucchu, tirumbak kūppiḍu.", "en": "The call dropped, call me back." },
+        { "native": "சாரி, ஃபோன் பையில இருந்துச்சு.", "roman": "sāri, fōn paiyila irunducchu.", "en": "Sorry, my phone was in my bag." },
+        { "native": "ஏன் ஃபோன் எடுக்கல? எத்தன தடவை கூப்பிட்டேன்!", "roman": "ēn fōn eḍukkala? ettana taḍavai kūppiṭṭēn!", "en": "Why didn't you pick up? I called so many times!" },
+        { "native": "சரி, வைக்கிறேன். அப்புறம் பேசலாம்.", "roman": "sari, vaikkirēn. appuram pēsalām.", "en": "OK, I'll hang up. Talk later." }
+      ]
+    },
+    {
+      "title": "Text me when you get there",
+      "tip": { "title": "Do X and then Y: -ட்டு", "body": "- Only the **last** verb takes tense and person; the ones before go into the 'having done' form: **பாத்து**, **எடுத்து**, **வந்து**, **போய்**.\n- Add **-ட்டு** for 'after finishing': போயி**ட்டு** மெசேஜ் பண்ணு 'text me once you get there'.\n- The last verb sets the tense: பாத்துட்டு **சொல்றேன்** 'I'll look and tell you'.", "pattern": "verb-ட்டு + verb (with tense)", "grammar": 0 },
+      "new": [
+        "மெசேஜ்",
+        "வாட்ஸ்அப்",
+        "வாய்ஸ் நோட்",
+        "டைப்",
+        "போட்டோ",
+        "வாட்ஸ்அப்ல மெசேஜ் பண்ணு.",
+        "வாய்ஸ் நோட் அனுப்புறேன், டைப் பண்ண டைம் இல்ல.",
+        "வீட்டுக்குப் போயிட்டு மெசேஜ் பண்ணு."
+      ],
+      "sentences": [
+        { "native": "ரீச் ஆயிட்டு மெசேஜ் பண்ணு, சரியா?", "roman": "rīch āyiṭṭu mesēj paṇṇu, sariyā?", "en": "Text me when you get there, OK?", "focus": "ஆயிட்டு", "wrong": ["ஆயிட்டேன்|āyiṭṭēn", "ஆகும்|āgum"] },
+        { "native": "போட்டோ எடுத்து வாட்ஸ்அப்ல அனுப்பு.", "roman": "pōṭṭō eḍuttu vāṭsapla anuppu.", "en": "Take a photo and send it on WhatsApp.", "focus": "எடுத்து", "wrong": ["எடுத்தேன்|eḍuttēn", "எடு|eḍu"] },
+        { "native": "குளிச்சுட்டு வாய்ஸ் நோட் அனுப்புறேன்.", "roman": "kuḷicchuṭṭu vāys nōṭ anuppurēn.", "en": "I'll send a voice note after my shower.", "focus": "குளிச்சுட்டு", "wrong": ["குளிச்சேன்|kuḷicchēn", "குளி|kuḷi"] },
+        { "native": "அவ மெசேஜ் படிச்சுட்டு சிரிச்சா.", "roman": "ava mesēj paḍicchuṭṭu siricchā.", "en": "She read the message and laughed.", "focus": "படிச்சுட்டு", "wrong": ["படிச்சா|paḍicchā", "படிக்கிறா|paḍikkirā"] },
+        { "native": "வாய்ஸ் நோட் கேட்டுட்டு சொல்றேன்.", "roman": "vāys nōṭ kēṭṭuṭṭu solrēn.", "en": "I'll listen to the voice note and get back to you.", "focus": "கேட்டுட்டு", "wrong": ["கேட்டேன்|kēṭṭēn", "கேளு|kēḷu"] },
+        { "native": "வீட்டுக்குப் போயிட்டு மெசேஜ் பண்ணு, ராத்திரி ஆயிடுச்சு.", "roman": "vīṭṭukkup pōyiṭṭu mesēj paṇṇu, rāttiri āyiḍucchu.", "en": "Text me when you get home, it's late.", "focus": "போயிட்டு", "wrong": ["போனேன்|pōnēn", "போ|pō"] },
+        { "native": "போட்டோ பாத்துட்டு என்ன நினைக்கிறன்னு சொல்லு.", "roman": "pōṭṭō pāttuṭṭu enna ninaikkirannu sollu.", "en": "Look at the photos and tell me what you think.", "focus": "பாத்துட்டு", "wrong": ["பாத்தேன்|pāttēn", "பாரு|pāru"] },
+        { "native": "வாட்ஸ்அப்ல மெசேஜ் பண்ணு, கால் பண்ணாத, நான் ஆஃபீஸ்ல இருக்கேன்.", "roman": "vāṭsapla mesēj paṇṇu, kāl paṇṇāda, nān āfīsla irukkēn.", "en": "Message me on WhatsApp, don't call, I'm at work." },
+        { "native": "தமிழ்ல டைப் பண்ணத் தெரியாது, அதான் வாய்ஸ் நோட் அனுப்புறேன்.", "roman": "tamiḻla ṭaip paṇṇat teriyādu, adān vāys nōṭ anuppurēn.", "en": "I can't type in Tamil, that's why I send voice notes." }
+      ]
+    },
+    {
+      "title": "Have you seen it yet?",
+      "tip": { "title": "Just · already · still · not yet", "body": "- Just: **இப்போதான்** + past: இப்போதான் பாத்தேன்.\n- Already: past + **-ட்டேன்**: அனுப்பி**ட்டேன்**; surprised 'already?!' is **அதுக்குள்ள**.\n- Still: **இன்னும்** + present: இன்னும் பேசிக்கிட்டு இருக்கா.\n- Not yet: **இன்னும்** + **-ல**: இன்னும் ரிப்ளை பண்ண**ல**.\n- Not any more: **இனிமே** + மாட்டேன்.", "pattern": "இப்போதான் · ஏற்கனவே · இன்னும் · இனிமே", "grammar": 1 },
+      "new": ["இப்போதான்", "ரிப்ளை", "பதில்", "ஆன்லைன்", "ஸ்டேட்டஸ்", "இனிமேல்", "இப்போதான் உன் மெசேஜ் பாத்தேன்.", "இன்னும் ரிப்ளை பண்ணல!"],
+      "sentences": [
+        { "native": "இப்போதான் உன் மெசேஜ் பாத்தேன், சாரி!", "roman": "ippōdān un mesēj pāttēn, sāri!", "en": "I've only just seen your message, sorry!", "focus": "இப்போதான்", "wrong": ["இன்னும்|innum", "இனிமே|inimē"] },
+        { "native": "அவன் ஆன்லைன்ல இருக்கான், ஆனா இன்னும் ரிப்ளை பண்ணல!", "roman": "avan ānlainla irukkān, ānā innum riplai paṇṇala!", "en": "He's online, but he still hasn't replied!", "focus": "பண்ணல", "wrong": ["பண்ணான்|paṇṇān", "பண்றான்|paṇrān"] },
+        { "native": "நான் ஏற்கனவே பதில் அனுப்பிட்டேன்.", "roman": "nān ērkanavē padil anuppiṭṭēn.", "en": "I've already sent a reply.", "focus": "அனுப்பிட்டேன்", "wrong": ["அனுப்பல|anuppala", "அனுப்புவேன்|anuppuvēn"] },
+        { "native": "அவ இன்னும் ஆஃபீஸ்லதான் இருக்கா.", "roman": "ava innum āfīsladān irukkā.", "en": "She's still at the office.", "focus": "இருக்கா", "wrong": ["இருந்தா|irundā", "இருப்பா|iruppā"] },
+        { "native": "இப்போதான் உன் ஸ்டேட்டஸ் பாத்தேன், செம போட்டோ!", "roman": "ippōdān un sṭēṭṭas pāttēn, sema pōṭṭō!", "en": "Just saw your status, great photo!", "focus": "இப்போதான்", "wrong": ["இனிமே|inimē", "இன்னும்|innum"] },
+        { "native": "சாப்பிட்டியா? — இன்னும் இல்ல.", "roman": "sāppiṭṭiyā? — innum illa.", "en": "Have you eaten? — Not yet.", "focus": "இன்னும்", "wrong": ["ஏற்கனவே|ērkanavē", "இப்போதான்|ippōdān"] },
+        { "native": "இனிமே அவனுக்கு மெசேஜ் பண்ண மாட்டேன்!", "roman": "inimē avanukku mesēj paṇṇa māṭṭēn!", "en": "I'm not texting him any more!", "focus": "இனிமே", "wrong": ["இப்போதான்|ippōdān", "ஏற்கனவே|ērkanavē"] },
+        { "native": "அதுக்குள்ள ரிப்ளை பண்ணிட்டியா?", "roman": "adukkuḷḷa riplai paṇṇiṭṭiyā?", "en": "You've replied already?", "focus": "அதுக்குள்ள", "wrong": ["இன்னும்|innum", "இனிமே|inimē"] },
+        { "native": "அவரு இன்னும் ஃபோன்ல பேசிக்கிட்டு இருக்காரு.", "roman": "avaru innum fōnla pēsikkiṭṭu irukkāru.", "en": "He's still on the phone.", "focus": "பேசிக்கிட்டு", "wrong": ["பேசிட்டு|pēsiṭṭu", "பேசல|pēsala"] },
+        { "native": "நான் கேட்டதுக்கு அவ பதில் சொல்லல.", "roman": "nān kēṭṭadukku ava padil sollala.", "en": "She didn't answer what I asked." }
+      ]
+    },
+    {
+      "title": "Sharing your location and more",
+      "tip": { "title": "English word + பண்ணு, ஆகு, போடு", "body": "- Most phone words are English plus a Tamil verb: **பண்ணு** 'do' when you do it (ஷேர் பண்ணு, ஃபார்வர்ட் பண்ணு), **ஆகு** 'become' when it happens (கட் ஆயிடுச்சு).\n- **போடு** 'put' for switching or posting: சார்ஜ் போடு, ஸ்டேட்டஸ் போடு.\n- **வா** 'come' for things arriving: லொகேஷன் **வந்துச்சா?** 'did it come?'" },
+      "new": ["லொகேஷன்", "ஷேர்", "நெட்", "சார்ஜ்", "நம்பர்", "குரூப்", "ஃபார்வர்ட்", "லொகேஷன் ஷேர் பண்ணு.", "ஃபோன்ல சார்ஜ் இல்ல."],
+      "sentences": [
+        { "native": "உன் லொகேஷன் ஷேர் பண்ணு, நான் வந்து பிக்கப் பண்றேன்.", "roman": "un lokēshan shēr paṇṇu, nān vandu pikkap paṇrēn.", "en": "Share your location, I'll come and pick you up." },
+        { "native": "லொகேஷன் வந்துச்சா?", "roman": "lokēshan vanducchā?", "en": "Did the location come through?" },
+        { "native": "நெட் வேலை செய்யல.", "roman": "neṭ vēlai seyyala.", "en": "The internet isn't working." },
+        { "native": "ஃபோன்ல சார்ஜ் இல்ல, சார்ஜ் போடணும்.", "roman": "fōnla sārj illa, sārj pōḍaṇum.", "en": "My phone's out of charge, I need to charge it." },
+        { "native": "உன் நம்பர் குடு, குரூப்ல சேர்க்கிறேன்.", "roman": "un nambar kuḍu, grūpla sērkkirēn.", "en": "Give me your number, I'll add you to the group." },
+        { "native": "அம்மா குரூப்ல எல்லாத்தையும் ஃபார்வர்ட் பண்றாங்க.", "roman": "ammā grūpla ellāttaiyum fārvarḍ paṇrānga.", "en": "Mum forwards everything to the group." },
+        { "native": "போட்டோ எல்லாம் குரூப்ல ஷேர் பண்ணிட்டேன்.", "roman": "pōṭṭō ellām grūpla shēr paṇṇiṭṭēn.", "en": "I've shared all the photos in the group." },
+        { "native": "இந்த மெசேஜ் யாருக்கும் ஃபார்வர்ட் பண்ணாத!", "roman": "inda mesēj yārukkum fārvarḍ paṇṇāda!", "en": "Don't forward this message to anyone!" },
+        { "native": "என் நம்பர் உன்கிட்ட இருக்கா?", "roman": "en nambar unkiṭṭa irukkā?", "en": "Have you got my number?" }
+      ]
+    },
+    {
+      "title": "Missed calls and calling back",
+      "tip": { "title": "Missed calls and call-backs", "body": "- A **மிஸ்டு கால்** is a message in itself: 'call me back' or 'I've arrived'.\n- Busy? **நான் மீட்டிங்ல இருக்கேன், அப்புறம் கூப்பிடுறேன்**.\n- Promise with the present tense: **கூப்பிடுறேன்** 'I'll call'; spoken Tamil uses it for the near future." },
+      "new": ["மிஸ்டு கால்", "வீடியோ கால்", "அப்புறம் கூப்பிடுறேன்.", "நான் மீட்டிங்ல இருக்கேன்.", "உனக்கு நாலு மிஸ்டு கால் குடுத்தேன்!", "உன் ஃபோன் ஸ்விட்ச் ஆஃப்னு வந்துச்சு."],
+      "sentences": [
+        { "native": "உனக்கு நாலு மிஸ்டு கால் குடுத்தேன்! எங்க போன?", "roman": "unakku nālu misḍu kāl kuḍuttēn! enga pōna?", "en": "I gave you four missed calls! Where did you go?" },
+        { "native": "மிஸ்டு கால் குடு, நான் கூப்பிடுறேன்.", "roman": "misḍu kāl kuḍu, nān kūppiḍurēn.", "en": "Give me a missed call, I'll call you back." },
+        { "native": "நான் மீட்டிங்ல இருக்கேன், அப்புறம் கூப்பிடுறேன்.", "roman": "nān mīṭṭingla irukkēn, appuram kūppiḍurēn.", "en": "I'm in a meeting, I'll call you back later." },
+        { "native": "சாயங்காலம் வீடியோ கால் பண்ணலாமா?", "roman": "sāyangālam vīḍiyō kāl paṇṇalāmā?", "en": "Shall we video call this evening?" },
+        { "native": "பாட்டி வீடியோ கால்ல எல்லாரையும் பாக்கணும்னு சொன்னாங்க.", "roman": "pāṭṭi vīḍiyō kālla ellāraiyum pākkaṇumnu sonnānga.", "en": "Grandma said she wants to see everyone on a video call." },
+        { "native": "உன் ஃபோன் ஸ்விட்ச் ஆஃப்னு வந்துச்சு, என்ன ஆச்சு?", "roman": "un fōn sviṭch āfnu vanducchu, enna ācchu?", "en": "It said your phone was switched off, what happened?" },
+        { "native": "ஃபோன் ஸ்விட்ச் ஆஃப் ஆயிடுச்சு, சார்ஜ் இல்ல.", "roman": "fōn sviṭch āf āyiḍucchu, sārj illa.", "en": "My phone switched itself off, the battery was dead." },
+        { "native": "யாரோ மிஸ்டு கால் குடுத்திருக்காங்க, நம்பர் தெரியல.", "roman": "yārō misḍu kāl kuḍuttirukkānga, nambar teriyala.", "en": "Someone's given me a missed call, I don't know the number." }
+      ]
+    }
+  ]
+}
