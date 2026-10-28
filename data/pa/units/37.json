@@ -1,0 +1,191 @@
+{
+  "id": 37,
+  "title": "Sorting out problems",
+  "goal": "Return things, ask for a refund, deal with customer care and the police, and settle a dispute calmly — and report exactly what everyone told you.",
+  "intro": "A wrong order, a phone that dies after a week, a refund that never arrives, a wallet gone missing, an auto driver who overcharged you: this unit is for the days when things go wrong. You'll learn to explain the problem, insist politely, and find a compromise.\n\nThe grammar is **reported speech in full**: 'he said that…', 'she asked whether…', and above all 'they told me to…' — the sentences you need when you're repeating to a manager what his staff promised you.",
+  "vocab": [
+    { "native": "ਆਰਡਰ", "roman": "ārḍar", "en": "order (online, food)", "pos": "noun", "note": "m; ਆਰਡਰ ਕਰਨਾ 'to order'" },
+    { "native": "ਪੈਕਟ", "roman": "paikaṭ", "en": "packet, package", "pos": "noun", "note": "m" },
+    { "native": "ਨੁਕਸ", "roman": "nukas", "en": "defect, fault", "pos": "noun", "note": "m; ਇਸ ਵਿੱਚ ਨੁਕਸ ਹੈ 'it's faulty'" },
+    { "native": "ਵਾਪਸ ਕਰਨਾ", "roman": "vāpas karnā", "en": "to return, to give back", "pos": "verb", "note": "ਵਾਪਸ ਹੋਣਾ 'to be returned, refunded'" },
+    { "native": "ਰਿਫ਼ੰਡ", "roman": "rifanḍ", "en": "refund", "pos": "noun", "note": "m" },
+    { "native": "ਐਕਸਚੇਂਜ", "roman": "aikschenj", "en": "exchange", "pos": "noun", "note": "m; ਐਕਸਚੇਂਜ ਕਰਨਾ 'to exchange'" },
+    { "native": "ਕਸਟਮਰ ਕੇਅਰ", "roman": "kasṭamar kear", "en": "customer care, helpline", "pos": "noun", "note": "f; the people there are ਕਸਟਮਰ ਕੇਅਰ ਵਾਲੇ" },
+    { "native": "ਵਾਰ ਵਾਰ", "roman": "vār vār", "en": "again and again", "pos": "adv" },
+    { "native": "ਸਮਝਾਉਣਾ", "roman": "samjā̀uṇā", "en": "to explain; to reason with, to talk round", "pos": "verb", "note": "causative of ਸਮਝਣਾ" },
+    { "native": "ਸ਼ਾਂਤ", "roman": "shānt", "en": "calm, quiet", "pos": "adj", "note": "invariable; ਸ਼ਾਂਤ ਰਹੋ 'stay calm'" },
+    { "native": "ਭਰੋਸਾ", "roman": "paròsā", "en": "trust, confidence; reassurance", "pos": "noun", "note": "m; ਭਰੋਸਾ ਰੱਖੋ 'trust me, don't worry'" },
+    { "native": "ਵਾਰੰਟੀ", "roman": "vāranṭī", "en": "warranty, guarantee", "pos": "noun", "note": "f; also ਗਰੰਟੀ" },
+    { "native": "ਬਲੌਕ", "roman": "blauk", "en": "blocked", "pos": "adj", "note": "ਬਲੌਕ ਕਰਵਾਉਣਾ 'to get (a card, SIM) blocked'" },
+    { "native": "ਸਬੂਤ", "roman": "sabūt", "en": "proof, evidence", "pos": "noun", "note": "m" },
+    { "native": "ਬੀਮਾ", "roman": "bīmā", "en": "insurance", "pos": "noun", "note": "m; oblique ਬੀਮੇ" },
+    { "native": "ਕਲੇਮ", "roman": "kalem", "en": "claim (insurance)", "pos": "noun", "note": "m; ਕਲੇਮ ਕਰਨਾ 'to claim'" },
+    { "native": "ਨੁਕਸਾਨ", "roman": "nuksān", "en": "loss, damage", "pos": "noun", "note": "m" },
+    { "native": "ਧੋਖਾ", "roman": "tòkhā", "en": "deception, fraud, scam", "pos": "noun", "note": "m; ਮੇਰੇ ਨਾਲ਼ ਧੋਖਾ ਹੋਇਆ 'I've been cheated'" },
+    { "native": "ਠੱਗਣਾ", "roman": "ṭhaggṇā", "en": "to cheat, to con, to rip off", "pos": "verb", "note": "ਠੱਗ 'conman'" },
+    { "native": "ਦੋਸ਼", "roman": "dosh", "en": "fault, blame", "pos": "noun", "note": "m; ਦੋਸ਼ ਦੇਣਾ 'to blame'" },
+    { "native": "ਜ਼ਿੰਮੇਵਾਰ", "roman": "zimmevār", "en": "responsible", "pos": "adj", "note": "invariable" },
+    { "native": "ਮਸਲਾ", "roman": "maslā", "en": "problem, issue", "pos": "noun", "note": "m" },
+    { "native": "ਹੱਲ", "roman": "hall", "en": "solution", "pos": "noun", "note": "m; ਹੱਲ ਕੱਢਣਾ 'to find a solution', ਹੱਲ ਹੋਣਾ 'to be solved'" },
+    { "native": "ਸਮਝੌਤਾ", "roman": "samjàutā", "en": "compromise, settlement, deal", "pos": "noun", "note": "m" }
+  ],
+  "phrases": [
+    { "native": "ਮੇਰਾ ਆਰਡਰ ਗ਼ਲਤ ਆਇਆ ਹੈ।", "roman": "merā ārḍar ġalat āiā hai.", "en": "My order came wrong." },
+    { "native": "ਮੈਨੂੰ ਰਿਫ਼ੰਡ ਚਾਹੀਦਾ ਹੈ।", "roman": "mainūṃ rifanḍ chā́īdā hai.", "en": "I want a refund." },
+    { "native": "ਕੀ ਇਹ ਬਦਲ ਜਾਵੇਗਾ?", "roman": "kī é badal jāvegā?", "en": "Can I exchange this? (lit. will this get changed?)" },
+    { "native": "ਮੈਂ ਤਿੰਨ ਵਾਰ ਫ਼ੋਨ ਕਰ ਚੁੱਕਾ ਹਾਂ।", "roman": "maiṃ tinn vār fon kar chukkā hāṃ.", "en": "I've already called three times. (man speaking)", "note": "a woman says ਕਰ ਚੁੱਕੀ ਹਾਂ" },
+    { "native": "ਤੁਸੀਂ ਕਿਹਾ ਸੀ ਕਿ ਦੋ ਦਿਨਾਂ ਵਿੱਚ ਹੋ ਜਾਵੇਗਾ।", "roman": "tusīṃ kihā̀ sī ki do dināṃ vich ho jāvegā.", "en": "You said it'd be done in two days." },
+    { "native": "ਕਿਰਪਾ ਕਰਕੇ ਮੈਨੇਜਰ ਨਾਲ਼ ਗੱਲ ਕਰਵਾ ਦਿਓ।", "roman": "kirpā karke mainejar nāḷ gall karvā dio.", "en": "Please let me speak to the manager." },
+    { "native": "ਭਰੋਸਾ ਰੱਖੋ, ਅਸੀਂ ਵੇਖ ਲਵਾਂਗੇ।", "roman": "paròsā rakkho, asīṃ vekh lavāṅge.", "en": "Don't worry, we'll look into it." },
+    { "native": "ਵਾਰੰਟੀ ਅਜੇ ਚੱਲ ਰਹੀ ਹੈ।", "roman": "vāranṭī aje chall rahī̀ hai.", "en": "It's still under warranty." },
+    { "native": "ਮੇਰਾ ਫ਼ੋਨ ਗੁਆਚ ਗਿਆ, ਸਿਮ ਬਲੌਕ ਕਰਵਾਉਣੀ ਹੈ।", "roman": "merā fon guāch giā, sim blauk karvāuṇī hai.", "en": "I've lost my phone, I need to get the SIM blocked." },
+    { "native": "ਇਸ ਵਿੱਚ ਮੇਰਾ ਕੀ ਦੋਸ਼ ਹੈ?", "roman": "is vich merā kī dosh hai?", "en": "How is this my fault?" },
+    { "native": "ਮੇਰੇ ਨਾਲ਼ ਧੋਖਾ ਹੋਇਆ ਹੈ।", "roman": "mere nāḷ tòkhā hoiā hai.", "en": "I've been cheated." },
+    { "native": "ਆਰਾਮ ਨਾਲ਼ ਗੱਲ ਕਰਦੇ ਹਾਂ।", "roman": "ārām nāḷ gall karde hāṃ.", "en": "Let's talk about this calmly." },
+    { "native": "ਕੋਈ ਹੱਲ ਕੱਢੋ।", "roman": "koī hall káḍḍo.", "en": "Find some solution, please." },
+    { "native": "ਅੱਧਾ ਅੱਧਾ ਕਰ ਲਈਏ?", "roman": "áddā áddā kar laīe?", "en": "Shall we split the difference? (lit. shall we make it half and half?)" }
+  ],
+  "grammar": [
+    {
+      "title": "Reporting what people said and asked",
+      "body": "Unit 20 introduced ਕਿਹਾ ਕਿ…. When you're sorting out a problem you report all the time: 'the shop said…', 'the man on the phone asked whether…'. Here is the full picture.\n\n**1. Two ways to report a statement.** After **ਕਿ**, Punjabi can keep the speaker's **own words** (the most common way in speech) or shift them to your point of view:\nown words: ਉਸ ਨੇ ਕਿਹਾ ਕਿ **ਮੈਂ** ਕੱਲ੍ਹ **ਭੇਜਾਂਗਾ** — lit. 'he said that I will send it tomorrow'\nshifted: ਉਸ ਨੇ ਕਿਹਾ ਕਿ **ਉਹ** ਕੱਲ੍ਹ **ਭੇਜੇਗਾ** — 'he said that he would send it tomorrow'\nBoth mean the same. Either way, the **tense does not move back** as in English: 'will' stays -ਗਾ, 'is' stays ਹੈ: ਉਸ ਨੇ ਦੱਸਿਆ ਕਿ ਪੈਕਟ ਰਸਤੇ ਵਿੱਚ **ਹੈ** 'she said the package **was** on its way'.\n\n**2. The verbs.** ਕਹਿਣਾ 'say' (ਕਿਹਾ), ਦੱਸਣਾ 'tell, inform' (ਦੱਸਿਆ), ਪੁੱਛਣਾ 'ask a question' (ਪੁੱਛਿਆ), ਮੰਨਣਾ 'admit' (ਮੰਨਿਆ). All follow the ਨੇ rule in the past. The person told or asked takes **ਨੂੰ**: ਉਸ ਨੇ ਮੈਨੂੰ ਦੱਸਿਆ.\n\n**3. Questions** keep their question word: ਉਹਨਾਂ ਨੇ ਪੁੱਛਿਆ ਕਿ ਮੈਂ ਆਰਡਰ **ਕਦੋਂ** ਕੀਤਾ ਸੀ. For a yes/no question ('whether'), put **ਕੀ** after ਕਿ: ਪੁੱਛਿਆ ਕਿ **ਕੀ** ਮੇਰੇ ਕੋਲ ਸਬੂਤ ਹੈ.\n\n**4. Chatty reporting.** In conversation people drop ਕਿਹਾ ਕਿ and use **ਕਹਿੰਦਾ / ਕਹਿੰਦੀ / ਕਹਿੰਦੇ** ('he goes…') or **ਅਖੇ** ('he says…, supposedly'). ਅਖੇ comes with a raised eyebrow — perfect for complaining: ਅਖੇ ਕੱਲ੍ਹ ਤੱਕ ਆ ਜਾਊ! 'It'll be there by tomorrow, he says!'\n\n**5. 'You told me…'** — the pluperfect ਕਿਹਾ ਸੀ / ਦੱਸਿਆ ਸੀ is how you hold people to their word: ਤੁਸੀਂ ਕਿਹਾ ਸੀ ਕਿ… 'you (had) said that…'.\n\nThe trap: ਪੁੱਛਣਾ is only for questions. 'He asked me to wait' is not ਪੁੱਛਿਆ — see the next note.",
+      "examples": [
+        { "native": "ਦੁਕਾਨਦਾਰ ਨੇ ਕਿਹਾ ਕਿ ਮੈਂ ਪੈਸੇ ਵਾਪਸ ਨਹੀਂ ਕਰ ਸਕਦਾ।", "roman": "dukāndār ne kihā̀ ki maiṃ paise vāpas nahī̀ṃ kar sakdā.", "en": "The shopkeeper said he couldn't give the money back." },
+        { "native": "ਉਸ ਨੇ ਦੱਸਿਆ ਕਿ ਪੈਕਟ ਰਸਤੇ ਵਿੱਚ ਹੈ।", "roman": "us ne dassiā ki paikaṭ raste vich hai.", "en": "She told me the package was on its way." },
+        { "native": "ਉਹਨਾਂ ਨੇ ਪੁੱਛਿਆ ਕਿ ਮੈਂ ਆਰਡਰ ਕਦੋਂ ਕੀਤਾ ਸੀ।", "roman": "únāṃ ne puchchhiā ki maiṃ ārḍar kadoṃ kītā sī.", "en": "They asked when I'd placed the order." },
+        { "native": "ਪੁਲਿਸ ਵਾਲੇ ਨੇ ਪੁੱਛਿਆ ਕਿ ਕੀ ਮੇਰੇ ਕੋਲ ਕੋਈ ਸਬੂਤ ਹੈ।", "roman": "pulis vāle ne puchchhiā ki kī mere kol koī sabūt hai.", "en": "The policeman asked whether I had any proof." },
+        { "native": "ਅਖੇ ਕੱਲ੍ਹ ਤੱਕ ਰਿਫ਼ੰਡ ਆ ਜਾਊ!", "roman": "akhe káll takk rifanḍ ā jāū!", "en": "The refund will come by tomorrow, supposedly!" }
+      ]
+    },
+    {
+      "title": "Reporting requests and orders: 'told me to…'",
+      "body": "To report a request, an instruction or a piece of advice, there are two patterns.\n\n**1. ਨੂੰ + oblique infinitive + ਲਈ + ਕਹਿਣਾ.** The infinitive loses its final -ਆ: ਕਰਨਾ → **ਕਰਨ**, ਆਉਣਾ → **ਆਉਣ**, ਰਹਿਣਾ → **ਰਹਿਣ**, ਰੱਖਣਾ → **ਰੱਖਣ**.\nਉਹਨਾਂ ਨੇ ਮੈਨੂੰ ਉਡੀਕ **ਕਰਨ ਲਈ** ਕਿਹਾ — 'they told me to wait'.\nFor 'not to', put **ਨਾ** before the infinitive: ਮੈਨੂੰ ਚਾਹ **ਨਾ ਪੀਣ ਲਈ** ਕਿਹਾ 'told me not to drink tea'. (In casual speech you'll also hear ਨੂੰ instead of ਲਈ: ਆਉਣ ਨੂੰ ਕਿਹਾ.)\n\n**2. ਕਿਹਾ ਕਿ + subjunctive** (or the original command):\nਪੁਲਿਸ ਨੇ ਕਿਹਾ ਕਿ ਮੈਂ ਕੱਲ੍ਹ ਥਾਣੇ **ਆਵਾਂ** — 'the police said I should come to the station tomorrow'\nਪੁਲਿਸ ਨੇ ਕਿਹਾ ਕਿ ਕੱਲ੍ਹ ਥਾਣੇ **ਆਓ** — 'the police said: come to the station tomorrow'\n\n**ਪੁੱਛਣਾ or ਕਹਿਣਾ?** English 'ask' does two jobs. Asking a **question** is ਪੁੱਛਣਾ; asking someone **to do something** is ਕਹਿਣਾ (formally ਬੇਨਤੀ ਕਰਨਾ): ਮੈਂ ਉਸ ਨੂੰ ਰੁਕਣ ਲਈ **ਕਿਹਾ** 'I asked him to stop' — never ਪੁੱਛਿਆ.\n\n**Holding people to it**: ਤੁਸੀਂ ਮੈਨੂੰ ਬਿੱਲ ਰੱਖਣ ਲਈ ਕਿਹਾ ਸੀ, ਮੈਂ ਰੱਖਿਆ — 'you told me to keep the bill, and I did'. Calmly repeating what you were told is the strongest move in any dispute.",
+      "examples": [
+        { "native": "ਕਸਟਮਰ ਕੇਅਰ ਵਾਲਿਆਂ ਨੇ ਮੈਨੂੰ ਉਡੀਕ ਕਰਨ ਲਈ ਕਿਹਾ।", "roman": "kasṭamar kear vāliāṃ ne mainūṃ uḍīk karan laī kihā̀.", "en": "Customer care told me to wait." },
+        { "native": "ਮੈਂ ਉਸ ਨੂੰ ਰੁਕਣ ਲਈ ਕਿਹਾ।", "roman": "maiṃ us nūṃ rukaṇ laī kihā̀.", "en": "I asked him to stop." },
+        { "native": "ਪੁਲਿਸ ਨੇ ਕਿਹਾ ਕਿ ਮੈਂ ਕੱਲ੍ਹ ਥਾਣੇ ਆਵਾਂ।", "roman": "pulis ne kihā̀ ki maiṃ káll thāṇe āvāṃ.", "en": "The police said I should come to the station tomorrow." },
+        { "native": "ਡਾਕਟਰ ਨੇ ਮੈਨੂੰ ਚਾਹ ਨਾ ਪੀਣ ਲਈ ਕਿਹਾ।", "roman": "ḍākṭar ne mainūṃ chā́ nā pīṇ laī kihā̀.", "en": "The doctor told me not to drink tea." },
+        { "native": "ਤੁਸੀਂ ਮੈਨੂੰ ਕਿਹਾ ਸੀ ਕਿ ਪੈਸੇ ਵਾਪਸ ਹੋ ਜਾਣਗੇ।", "roman": "tusīṃ mainūṃ kihā̀ sī ki paise vāpas ho jāṇge.", "en": "You told me the money would be refunded." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The phone that keeps dying",
+    "setting": "A mobile shop in Ludhiana. Harman bought a phone here last week; it keeps switching itself off. The owner is behind the counter.",
+    "lines": [
+      { "speaker": "Harman", "native": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਭਾਜੀ। ਇਹ ਫ਼ੋਨ ਮੈਂ ਪਿਛਲੇ ਹਫ਼ਤੇ ਇੱਥੋਂ ਲਿਆ ਸੀ, ਇਸ ਵਿੱਚ ਨੁਕਸ ਹੈ।", "roman": "sat srī akāl pā̀jī. é fon maiṃ pichhle hafte itthoṃ liā sī, is vich nukas hai.", "en": "Hello, bhaji. I bought this phone here last week, and it's faulty." },
+      { "speaker": "Owner", "native": "ਕੀ ਹੋਇਆ ਜੀ? ਡਿੱਗ ਤਾਂ ਨਹੀਂ ਗਿਆ?", "roman": "kī hoiā jī? ḍigg tāṃ nahī̀ṃ giā?", "en": "What's wrong? You didn't drop it, did you?" },
+      { "speaker": "Harman", "native": "ਨਹੀਂ ਜੀ! ਪਹਿਲੇ ਦਿਨ ਤੋਂ ਹੀ ਵਾਰ ਵਾਰ ਬੰਦ ਹੋ ਜਾਂਦਾ ਹੈ।", "roman": "nahī̀ṃ jī! páile din toṃ hī vār vār band ho jāndā hai.", "en": "No! Since day one it keeps switching off." },
+      { "speaker": "Owner", "native": "ਪੂਰਾ ਚਾਰਜ ਕਰਕੇ ਵੇਖੋ…", "roman": "pūrā chārj karke vekho…", "en": "Try charging it fully…" },
+      { "speaker": "Harman", "native": "ਭਾਜੀ, ਤੁਹਾਡੇ ਮੁੰਡੇ ਨੇ ਵੀ ਇਹੀ ਕਿਹਾ ਸੀ। ਅਖੇ ਦੋ ਦਿਨਾਂ ਵਿੱਚ ਠੀਕ ਹੋ ਜਾਊ!", "roman": "pā̀jī, tuhā̀ḍe muṇḍe ne vī éī kihā̀ sī. akhe do dināṃ vich ṭhīk ho jāū!", "en": "Bhaji, your lad said exactly that. 'It'll sort itself out in two days,' he says!" },
+      { "speaker": "Owner", "native": "ਅੱਛਾ… ਉਸ ਨੇ ਤੁਹਾਨੂੰ ਬਿੱਲ ਦਿੱਤਾ ਸੀ?", "roman": "achchhā… us ne tuhā̀nūṃ bill dittā sī?", "en": "I see… did he give you a bill?" },
+      { "speaker": "Harman", "native": "ਹਾਂ ਜੀ, ਆਹ ਰਿਹਾ। ਤੇ ਉਸ ਨੇ ਮੈਨੂੰ ਡੱਬਾ ਰੱਖਣ ਲਈ ਵੀ ਕਿਹਾ ਸੀ — ਆਹ ਡੱਬਾ।", "roman": "hāṃ jī, ā́ rihā̀. te us ne mainūṃ ḍabbā rakkhaṇ laī vī kihā̀ sī — ā́ ḍabbā.", "en": "Yes, here it is. And he told me to keep the box as well — here's the box." },
+      { "speaker": "Owner", "native": "ਵੇਖੋ ਜੀ, ਅਸੀਂ ਰਿਫ਼ੰਡ ਤਾਂ ਨਹੀਂ ਕਰਦੇ। ਕੰਪਨੀ ਦੀ ਵਾਰੰਟੀ ਹੈ, ਸਰਵਿਸ ਸੈਂਟਰ ਚਲੇ ਜਾਓ।", "roman": "vekho jī, asīṃ rifanḍ tāṃ nahī̀ṃ karde. kampanī dī vāranṭī hai, sarvis sainṭar chale jāo.", "en": "Look, we don't do refunds. There's the company warranty — go to the service centre." },
+      { "speaker": "Harman", "native": "ਸਰਵਿਸ ਸੈਂਟਰ ਵਾਲੇ ਕਹਿੰਦੇ, ਸੱਤ ਦਿਨਾਂ ਦੇ ਅੰਦਰ ਦੁਕਾਨ ਹੀ ਬਦਲੇਗੀ। ਮੈਂ ਉੱਥੋਂ ਹੀ ਆ ਰਿਹਾ ਹਾਂ!", "roman": "sarvis sainṭar vāle káinde, satt dināṃ de andar dukān hī badlegī. maiṃ utthoṃ hī ā rihā̀ hāṃ!", "en": "The service centre people go, 'within seven days, it's the shop that replaces it.' I've just come from there!" },
+      { "speaker": "Owner", "native": "ਹਾਂ… ਚਲੋ, ਤੁਸੀਂ ਗੁੱਸਾ ਨਾ ਕਰੋ। ਕੋਈ ਹੱਲ ਕੱਢਦੇ ਹਾਂ।", "roman": "hāṃ… chalo, tusīṃ gussā nā karo. koī hall káḍḍde hāṃ.", "en": "Right… OK, don't get angry. Let's find a solution." },
+      { "speaker": "Harman", "native": "ਮੈਂ ਤਾਂ ਬਿਲਕੁਲ ਸ਼ਾਂਤ ਹਾਂ, ਭਾਜੀ। ਬੱਸ ਨਵਾਂ ਫ਼ੋਨ ਦੇ ਦਿਓ।", "roman": "maiṃ tāṃ bilkul shānt hāṃ, pā̀jī. bass navāṃ fon de dio.", "en": "I'm perfectly calm, bhaji. Just give me a new phone." },
+      { "speaker": "Owner", "native": "ਠੀਕ ਹੈ, ਐਕਸਚੇਂਜ ਕਰ ਦਿੰਦੇ ਹਾਂ। ਪਰ ਕਿਸੇ ਨੂੰ ਨਾ ਦੱਸਿਓ ਕਿ ਮੈਂ ਇੰਨਾ ਚੰਗਾ ਹਾਂ!", "roman": "ṭhīk hai, aikschenj kar dinde hāṃ. par kise nūṃ nā dassio ki maiṃ innā changā hāṃ!", "en": "Fine, we'll exchange it. But don't tell anyone I'm this nice!" },
+      { "speaker": "Harman", "native": "ਨਹੀਂ ਦੱਸਦਾ! ਬਹੁਤ ਧੰਨਵਾਦ।", "roman": "nahī̀ṃ dassdā! báut tànnvād.", "en": "I won't! Thanks a lot." }
+    ]
+  },
+  "culture": "Many Indian shops display the sign **ਵਿਕਿਆ ਹੋਇਆ ਮਾਲ ਵਾਪਸ ਨਹੀਂ ਹੋਵੇਗਾ** 'goods once sold will not be taken back' — but most will **exchange** an item, especially if you're polite, have the bill and come back quickly. Refunds are easier with big chains and online orders, where the battle moves to customer care: be patient, note the complaint number, and ask for a supervisor (ਸੀਨੀਅਰ / ਮੈਨੇਜਰ) if you get nowhere.\n\nThe style that works is **calm and persistent**: ਜੀ and ਭਾਜੀ in every sentence, no shouting, and a precise account of who told you what and when (ਤੁਸੀਂ ਕਿਹਾ ਸੀ…). Shouting makes people lose face and dig in; a joke often opens the way to a ਸਮਝੌਤਾ. Haggling over a settlement — 'half and half?' — is perfectly normal.\n\nFor a lost or stolen phone, get the SIM blocked first, then file a police report (Indian states let you do it online) — insurers and the phone company will ask for it. Phone scams are common: no bank or company will ever ask for your OTP, and ਠੱਗ 'conman' is a word you'll hear a lot in the news.",
+  "lessons": [
+    {
+      "title": "Returning things",
+      "tip": { "title": "Returns: ਵਾਪਸ ਕਰਨਾ and ਵਾਪਸ ਹੋਣਾ", "body": "- **ਵਾਪਸ ਕਰਨਾ** 'to return, give back' — you do it: ਮੈਂ ਪੈਕਟ ਵਾਪਸ **ਕਰ ਦਿੱਤਾ**.\n- **ਵਾਪਸ ਹੋਣਾ** 'to be refunded' — it happens: ਪੈਸੇ ਵਾਪਸ **ਹੋ ਗਏ**.\n- In the past, ਕਰ ਦਿੱਤਾ agrees with the thing returned: ਜੁੱਤੀ ਵਾਪਸ ਕਰ **ਦਿੱਤੀ**.", "pattern": "thing + ਵਾਪਸ ਕਰਨਾ  ·  ਪੈਸੇ + ਵਾਪਸ ਹੋਣਾ" },
+      "new": ["ਆਰਡਰ", "ਪੈਕਟ", "ਨੁਕਸ", "ਵਾਪਸ ਕਰਨਾ", "ਰਿਫ਼ੰਡ", "ਐਕਸਚੇਂਜ", "ਮੇਰਾ ਆਰਡਰ ਗ਼ਲਤ ਆਇਆ ਹੈ।", "ਮੈਨੂੰ ਰਿਫ਼ੰਡ ਚਾਹੀਦਾ ਹੈ।", "ਕੀ ਇਹ ਬਦਲ ਜਾਵੇਗਾ?"],
+      "sentences": [
+        { "native": "ਮੈਂ ਕੱਲ੍ਹ ਪੈਕਟ ਵਾਪਸ ਕਰ ਦਿੱਤਾ।", "roman": "maiṃ káll paikaṭ vāpas kar dittā.", "en": "I returned the package yesterday.", "focus": "ਦਿੱਤਾ", "wrong": ["ਦਿੱਤੀ|dittī", "ਦਿੱਤੇ|ditte"] },
+        { "native": "ਜੁੱਤੀ ਛੋਟੀ ਸੀ, ਇਸ ਲਈ ਮੈਂ ਵਾਪਸ ਕਰ ਦਿੱਤੀ।", "roman": "juttī chhoṭī sī, is laī maiṃ vāpas kar dittī.", "en": "The shoes were too small, so I sent them back.", "focus": "ਦਿੱਤੀ", "wrong": ["ਦਿੱਤਾ|dittā", "ਦਿੱਤੇ|ditte"] },
+        { "native": "ਮੇਰੇ ਪੈਸੇ ਅਜੇ ਵਾਪਸ ਨਹੀਂ ਹੋਏ।", "roman": "mere paise aje vāpas nahī̀ṃ hoe.", "en": "My money hasn't been refunded yet.", "focus": "ਹੋਏ", "wrong": ["ਹੋਇਆ|hoiā", "ਹੋਈ|hoī"] },
+        { "native": "ਰਿਫ਼ੰਡ ਕਿੰਨੇ ਦਿਨਾਂ ਵਿੱਚ ਆਵੇਗਾ?", "roman": "rifanḍ kinne dināṃ vich āvegā?", "en": "How many days will the refund take?", "focus": "ਆਵੇਗਾ", "wrong": ["ਆਵੇਗੀ|āvegī", "ਆਉਣਗੇ|āuṇge"] },
+        { "native": "ਇਸ ਫ਼ੋਨ ਵਿੱਚ ਨੁਕਸ ਹੈ, ਮੈਂ ਵਾਪਸ ਕਰਨਾ ਹੈ।", "roman": "is fon vich nukas hai, maiṃ vāpas karnā hai.", "en": "This phone is faulty, I want to return it.", "focus": "ਕਰਨਾ", "wrong": ["ਕੀਤਾ|kītā", "ਕਰਦਾ|kardā"] },
+        { "native": "ਪੈਸੇ ਵਾਪਸ ਹੋ ਜਾਣਗੇ, ਫ਼ਿਕਰ ਨਾ ਕਰੋ।", "roman": "paise vāpas ho jāṇge, fikar nā karo.", "en": "You'll get your money back, don't worry.", "focus": "ਜਾਣਗੇ", "wrong": ["ਜਾਵੇਗਾ|jāvegā", "ਜਾਵੇਗੀ|jāvegī"] },
+        { "native": "ਕੀ ਮੈਂ ਇਹ ਕਮੀਜ਼ ਐਕਸਚੇਂਜ ਕਰ ਸਕਦੀ ਹਾਂ?", "roman": "kī maiṃ é kamīz aikschenj kar sakdī hāṃ?", "en": "Can I exchange this shirt? (woman speaking)" },
+        { "native": "ਆਰਡਰ ਤਾਂ ਆ ਗਿਆ, ਪਰ ਪੈਕਟ ਟੁੱਟਿਆ ਹੋਇਆ ਸੀ।", "roman": "ārḍar tāṃ ā giā, par paikaṭ ṭuṭṭiā hoiā sī.", "en": "The order did come, but the package was broken." },
+        { "native": "ਮੈਂ ਨੀਲਾ ਮੰਗਿਆ ਸੀ, ਇਹ ਤਾਂ ਕਾਲ਼ਾ ਹੈ!", "roman": "maiṃ nīlā mangiā sī, é tāṃ kāḷā hai!", "en": "I ordered blue — this one's black!" }
+      ]
+    },
+    {
+      "title": "What they told me",
+      "tip": { "title": "He said that…: ਕਿਹਾ ਕਿ, ਦੱਸਿਆ ਕਿ", "body": "- After **ਕਿ** you can keep the speaker's own words: ਉਸ ਨੇ ਕਿਹਾ ਕਿ **ਮੈਂ** ਕੱਲ੍ਹ ਭੇਜਾਂਗਾ 'he said he'd send it tomorrow'.\n- The tense doesn't move back as in English: 'will' stays **-ਗਾ**.\n- Venting? Use **ਅਖੇ** or **ਕਹਿੰਦੇ** ('they go…') instead of ਕਿਹਾ ਕਿ.", "pattern": "X ਨੇ ਕਿਹਾ ਕਿ + their own words", "grammar": 0 },
+      "new": [
+        "ਕਸਟਮਰ ਕੇਅਰ",
+        "ਵਾਰ ਵਾਰ",
+        "ਮੈਂ ਤਿੰਨ ਵਾਰ ਫ਼ੋਨ ਕਰ ਚੁੱਕਾ ਹਾਂ।",
+        "ਤੁਸੀਂ ਕਿਹਾ ਸੀ ਕਿ ਦੋ ਦਿਨਾਂ ਵਿੱਚ ਹੋ ਜਾਵੇਗਾ।"
+      ],
+      "sentences": [
+        { "native": "ਉਸ ਨੇ ਕਿਹਾ ਕਿ ਮੈਂ ਕੱਲ੍ਹ ਨਵਾਂ ਪੈਕਟ ਭੇਜਾਂਗਾ।", "roman": "us ne kihā̀ ki maiṃ káll navāṃ paikaṭ pèjāṅgā.", "en": "He said he'd send a new package tomorrow.", "focus": "ਭੇਜਾਂਗਾ", "wrong": ["ਭੇਜਦਾ|pèjdā", "ਭੇਜਿਆ|pèjiā"] },
+        { "native": "ਕਸਟਮਰ ਕੇਅਰ ਵਾਲੀ ਕੁੜੀ ਨੇ ਦੱਸਿਆ ਕਿ ਰਿਫ਼ੰਡ ਹੋ ਗਿਆ ਹੈ।", "roman": "kasṭamar kear vālī kuṛī ne dassiā ki rifanḍ ho giā hai.", "en": "The woman at customer care told me the refund had gone through.", "focus": "ਨੇ", "wrong": ["ਨੂੰ|nūṃ", "ਤੋਂ|toṃ"] },
+        { "native": "ਮੈਂ ਵਾਰ ਵਾਰ ਫ਼ੋਨ ਕੀਤਾ, ਪਰ ਹਰ ਵਾਰ ਕਹਿੰਦੇ ਕਿ ਉਡੀਕ ਕਰੋ।", "roman": "maiṃ vār vār fon kītā, par har vār káinde ki uḍīk karo.", "en": "I called again and again, but every time they go, 'please wait'.", "focus": "ਕਹਿੰਦੇ", "wrong": ["ਕਹਿੰਦਾ|káindā", "ਕਹਿੰਦੀ|káindī"] },
+        { "native": "ਦੁਕਾਨਦਾਰ ਨੇ ਦੱਸਿਆ ਕਿ ਇਹ ਸਾਮਾਨ ਵਾਪਸ ਨਹੀਂ ਹੁੰਦਾ।", "roman": "dukāndār ne dassiā ki é sāmān vāpas nahī̀ṃ hundā.", "en": "The shopkeeper told me this stuff can't be returned.", "focus": "ਦੱਸਿਆ", "wrong": ["ਦੱਸੀ|dassī", "ਦੱਸੇ|dasse"] },
+        { "native": "ਉਹ ਕਹਿੰਦੀ, \"ਤੁਹਾਡਾ ਆਰਡਰ ਰਸਤੇ ਵਿੱਚ ਹੈ!\"", "roman": "ó káindī, \"tuhā̀ḍā ārḍar raste vich hai!\"", "en": "She goes, 'Your order is on its way!'", "focus": "ਕਹਿੰਦੀ", "wrong": ["ਕਹਿੰਦਾ|káindā", "ਕਹਿੰਦੇ|káinde"] },
+        { "native": "ਉਹਨਾਂ ਨੇ ਕਿਹਾ ਕਿ ਤੁਹਾਡਾ ਆਰਡਰ ਕੈਂਸਲ ਹੋ ਗਿਆ ਹੈ।", "roman": "únāṃ ne kihā̀ ki tuhā̀ḍā ārḍar kainsal ho giā hai.", "en": "They said my order had been cancelled. (lit. said that your order has been cancelled)", "focus": "ਉਹਨਾਂ", "wrong": ["ਉਹ|ó", "ਉਹਨੂੰ|ónūṃ"] },
+        { "native": "ਅਖੇ ਆਖ਼ਰੀ ਵਾਰ ਮਾਫ਼ ਕਰ ਦਿਓ!", "roman": "akhe āxrī vār māf kar dio!", "en": "'Forgive us just this last time,' they say!" },
+        { "native": "ਇਹ ਮੇਰੀ ਆਖ਼ਰੀ ਸ਼ਿਕਾਇਤ ਹੈ, ਫਿਰ ਮੈਂ ਥਾਣੇ ਜਾਵਾਂਗਾ।", "roman": "é merī āxrī shikāit hai, phir maiṃ thāṇe jāvāṅgā.", "en": "This is my last complaint, after that I'm going to the police." }
+      ]
+    },
+    {
+      "title": "They told me to wait",
+      "tip": { "title": "Told me to…: ਕਰਨ ਲਈ ਕਿਹਾ", "body": "- Instructions: **ਨੂੰ + verb-ਣ/-ਨ + ਲਈ ਕਿਹਾ**: ਮੈਨੂੰ ਕੱਲ੍ਹ **ਆਉਣ ਲਈ** ਕਿਹਾ 'told me to come tomorrow'. 'Not to' = **ਨਾ** before it.\n- Or ਕਿਹਾ ਕਿ + subjunctive: ਕਿਹਾ ਕਿ ਮੈਂ ਆਰਾਮ **ਕਰਾਂ**.\n- 'Ask someone to do' is **ਕਹਿਣਾ**, never ਪੁੱਛਣਾ (that's only for questions).", "pattern": "ਨੂੰ + ਆਉਣ / ਕਰਨ + ਲਈ ਕਿਹਾ", "grammar": 1 },
+      "new": ["ਸਮਝਾਉਣਾ", "ਸ਼ਾਂਤ", "ਭਰੋਸਾ", "ਵਾਰੰਟੀ", "ਕਿਰਪਾ ਕਰਕੇ ਮੈਨੇਜਰ ਨਾਲ਼ ਗੱਲ ਕਰਵਾ ਦਿਓ।", "ਭਰੋਸਾ ਰੱਖੋ, ਅਸੀਂ ਵੇਖ ਲਵਾਂਗੇ।", "ਵਾਰੰਟੀ ਅਜੇ ਚੱਲ ਰਹੀ ਹੈ।"],
+      "sentences": [
+        { "native": "ਮੈਨੇਜਰ ਨੇ ਮੈਨੂੰ ਕੱਲ੍ਹ ਆਉਣ ਲਈ ਕਿਹਾ।", "roman": "mainejar ne mainūṃ káll āuṇ laī kihā̀.", "en": "The manager told me to come tomorrow.", "focus": "ਆਉਣ", "wrong": ["ਆਉਣਾ|āuṇā", "ਆਇਆ|āiā"] },
+        { "native": "ਉਹਨਾਂ ਨੇ ਮੈਨੂੰ ਸ਼ਾਂਤ ਰਹਿਣ ਲਈ ਕਿਹਾ, ਜਿਵੇਂ ਮੈਂ ਰੌਲਾ ਪਾ ਰਿਹਾ ਸੀ!", "roman": "únāṃ ne mainūṃ shānt ráiṇ laī kihā̀, jiveṃ maiṃ raulā pā rihā̀ sī!", "en": "They told me to stay calm, as if I was making a scene!", "focus": "ਲਈ", "wrong": ["ਨੂੰ|nūṃ", "ਤੋਂ|toṃ"] },
+        { "native": "ਮੈਂ ਉਹਨਾਂ ਨੂੰ ਪੈਸੇ ਵਾਪਸ ਕਰਨ ਲਈ ਕਿਹਾ।", "roman": "maiṃ únāṃ nūṃ paise vāpas karan laī kihā̀.", "en": "I asked them to refund the money.", "focus": "ਕਿਹਾ", "wrong": ["ਪੁੱਛਿਆ|puchchhiā"] },
+        { "native": "ਦੁਕਾਨਦਾਰ ਨੇ ਸਾਨੂੰ ਰਸੀਦ ਰੱਖਣ ਲਈ ਕਿਹਾ ਸੀ, ਕਿਉਂਕਿ ਵਾਰੰਟੀ ਇੱਕ ਸਾਲ ਦੀ ਹੈ।", "roman": "dukāndār ne sānūṃ rasīd rakkhaṇ laī kihā̀ sī, kiuṅki vāranṭī ikk sāl dī hai.", "en": "The shopkeeper told us to keep the receipt, because the warranty is for a year.", "focus": "ਰੱਖਣ", "wrong": ["ਰੱਖਣਾ|rakkhṇā", "ਰੱਖਿਆ|rakkhiā"] },
+        { "native": "ਡਾਕਟਰ ਨੇ ਕਿਹਾ ਕਿ ਮੈਂ ਦੋ ਦਿਨ ਆਰਾਮ ਕਰਾਂ।", "roman": "ḍākṭar ne kihā̀ ki maiṃ do din ārām karāṃ.", "en": "The doctor said I should rest for two days.", "focus": "ਕਰਾਂ", "wrong": ["ਕਰਦਾ|kardā", "ਕੀਤਾ|kītā"] },
+        { "native": "ਉਸ ਨੇ ਮੈਨੂੰ ਫ਼ਿਕਰ ਨਾ ਕਰਨ ਲਈ ਕਿਹਾ ਤੇ ਸਾਰੀ ਗੱਲ ਸਮਝਾਈ।", "roman": "us ne mainūṃ fikar nā karan laī kihā̀ te sārī gall samjā̀ī.", "en": "He told me not to worry and explained the whole thing.", "focus": "ਸਮਝਾਈ", "wrong": ["ਸਮਝਾਇਆ|samjā̀iā", "ਸਮਝਾਏ|samjā̀e"] },
+        { "native": "ਭਰੋਸਾ ਰੱਖੋ ਜੀ, ਤੁਹਾਡਾ ਫ਼ੋਨ ਵਾਰੰਟੀ ਵਿੱਚ ਹੈ।", "roman": "paròsā rakkho jī, tuhā̀ḍā fon vāranṭī vich hai.", "en": "Don't worry, your phone is under warranty." },
+        { "native": "ਮੈਂ ਉਸ ਨੂੰ ਬਹੁਤ ਸਮਝਾਇਆ, ਪਰ ਉਹ ਨਹੀਂ ਮੰਨਿਆ।", "roman": "maiṃ us nūṃ báut samjā̀iā, par ó nahī̀ṃ manniā.", "en": "I tried hard to talk him round, but he wouldn't agree." }
+      ]
+    },
+    {
+      "title": "Lost phone, police and insurance",
+      "tip": { "title": "They asked whether…: ਪੁੱਛਿਆ ਕਿ ਕੀ…", "body": "- Reported questions keep their question word: ਪੁੱਛਿਆ ਕਿ ਫ਼ੋਨ **ਕਿੱਥੇ** ਗੁਆਚਿਆ.\n- Yes/no questions ('whether') add **ਕੀ** after ਕਿ: ਪੁੱਛਿਆ ਕਿ **ਕੀ** ਮੇਰੇ ਕੋਲ ਬਿੱਲ ਹੈ.\n- The person asked takes **ਨੂੰ**: ਉਸ ਨੇ **ਮੈਨੂੰ** ਪੁੱਛਿਆ.", "pattern": "ਪੁੱਛਿਆ ਕਿ + question word / ਕੀ", "grammar": 0 },
+      "new": ["ਬਲੌਕ", "ਸਬੂਤ", "ਬੀਮਾ", "ਕਲੇਮ", "ਨੁਕਸਾਨ", "ਮੇਰਾ ਫ਼ੋਨ ਗੁਆਚ ਗਿਆ, ਸਿਮ ਬਲੌਕ ਕਰਵਾਉਣੀ ਹੈ।"],
+      "sentences": [
+        { "native": "ਪੁਲਿਸ ਨੇ ਪੁੱਛਿਆ ਕਿ ਫ਼ੋਨ ਕਿੱਥੇ ਗੁਆਚਿਆ।", "roman": "pulis ne puchchhiā ki fon kitthe guāchiā.", "en": "The police asked where the phone was lost.", "focus": "ਪੁੱਛਿਆ", "wrong": ["ਕਿਹਾ|kihā̀", "ਦੱਸਿਆ|dassiā"] },
+        { "native": "ਉਹਨਾਂ ਨੇ ਪੁੱਛਿਆ ਕਿ ਕੀ ਮੇਰੇ ਕੋਲ ਬਿੱਲ ਹੈ।", "roman": "únāṃ ne puchchhiā ki kī mere kol bill hai.", "en": "They asked whether I had the bill.", "focus": "ਕੀ", "wrong": ["ਕੌਣ|kauṇ", "ਕਿਉਂ|kiuṃ"] },
+        { "native": "ਬੀਮੇ ਵਾਲਿਆਂ ਨੇ ਪੁੱਛਿਆ ਕਿ ਨੁਕਸਾਨ ਕਿੰਨਾ ਹੋਇਆ।", "roman": "bīme vāliāṃ ne puchchhiā ki nuksān kinnā hoiā.", "en": "The insurance people asked how much damage there was.", "focus": "ਕਿੰਨਾ", "wrong": ["ਕਿੰਨੀ|kinnī", "ਕਿੰਨੇ|kinne"] },
+        { "native": "ਮੈਂ ਪੁੱਛਿਆ ਕਿ ਕਲੇਮ ਲਈ ਕਿਹੜੇ ਸਬੂਤ ਚਾਹੀਦੇ ਹਨ।", "roman": "maiṃ puchchhiā ki kalem laī kéṛe sabūt chā́īde han.", "en": "I asked what proof they needed for the claim.", "focus": "ਚਾਹੀਦੇ", "wrong": ["ਚਾਹੀਦਾ|chā́īdā", "ਚਾਹੀਦੀ|chā́īdī"] },
+        { "native": "ਉਸ ਨੇ ਮੈਨੂੰ ਪੁੱਛਿਆ ਕਿ ਕੀ ਫ਼ੋਨ ਦਾ ਬੀਮਾ ਹੈ।", "roman": "us ne mainūṃ puchchhiā ki kī fon dā bīmā hai.", "en": "He asked me whether the phone was insured.", "focus": "ਮੈਨੂੰ", "wrong": ["ਮੈਂ|maiṃ", "ਮੇਰਾ|merā"] },
+        { "native": "ਮੈਂ ਪੁੱਛਿਆ ਕਿ ਕੀ ਮੈਂ ਨੁਕਸਾਨ ਦਾ ਕਲੇਮ ਕਰ ਸਕਦਾ ਹਾਂ।", "roman": "maiṃ puchchhiā ki kī maiṃ nuksān dā kalem kar sakdā hāṃ.", "en": "I asked whether I could claim for the damage. (man speaking)" },
+        { "native": "ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਸਿਮ ਬਲੌਕ ਕਰਵਾਓ।", "roman": "sáb toṃ páilāṃ sim blauk karvāo.", "en": "First of all, get the SIM blocked." },
+        { "native": "ਮੇਰਾ ਬਟੂਆ ਗੁਆਚ ਗਿਆ, ਕਾਰਡ ਵੀ ਬਲੌਕ ਕਰਵਾਉਣੇ ਹਨ।", "roman": "merā baṭūā guāch giā, kārḍ vī blauk karvāuṇe han.", "en": "My wallet's gone, I need to get the cards blocked too.", "focus": "ਕਰਵਾਉਣੇ", "wrong": ["ਕਰਵਾਉਣਾ|karvāuṇā", "ਕਰਵਾਉਣੀ|karvāuṇī"] }
+      ]
+    },
+    {
+      "title": "Scams and blame",
+      "tip": { "title": "Cheated: ਮੇਰੇ ਨਾਲ਼ ਧੋਖਾ ਹੋਇਆ", "body": "- Bad things happen **ਨਾਲ਼** 'with' you: ਮੇਰੇ **ਨਾਲ਼** ਧੋਖਾ ਹੋਇਆ 'I've been cheated'.\n- Or name who did it: ਉਸ ਨੇ ਮੈਨੂੰ **ਠੱਗ ਲਿਆ** 'he ripped me off' (ਨੇ for the doer, ਨੂੰ for the victim).\n- Blame: ਕਿਸ ਦਾ **ਦੋਸ਼** ਹੈ? · ਕੌਣ **ਜ਼ਿੰਮੇਵਾਰ** ਹੈ?", "pattern": "X ਨਾਲ਼ ਧੋਖਾ ਹੋਇਆ  ·  X ਨੇ Y ਨੂੰ ਠੱਗ ਲਿਆ" },
+      "new": ["ਧੋਖਾ", "ਠੱਗਣਾ", "ਦੋਸ਼", "ਜ਼ਿੰਮੇਵਾਰ", "ਇਸ ਵਿੱਚ ਮੇਰਾ ਕੀ ਦੋਸ਼ ਹੈ?", "ਮੇਰੇ ਨਾਲ਼ ਧੋਖਾ ਹੋਇਆ ਹੈ।"],
+      "sentences": [
+        { "native": "ਉਸ ਨੇ ਮੈਨੂੰ ਠੱਗ ਲਿਆ, ਪੰਜ ਹਜ਼ਾਰ ਰੁਪਏ ਲੈ ਗਿਆ।", "roman": "us ne mainūṃ ṭhagg liā, panj hazār rupae lai giā.", "en": "He conned me, made off with five thousand rupees.", "focus": "ਮੈਨੂੰ", "wrong": ["ਮੇਰੇ|mere", "ਮੈਂ|maiṃ"] },
+        { "native": "ਮੇਰੇ ਦੋਸਤ ਨਾਲ਼ ਵੀ ਇਹੀ ਧੋਖਾ ਹੋਇਆ ਸੀ।", "roman": "mere dost nāḷ vī éī tòkhā hoiā sī.", "en": "My friend fell for exactly the same scam.", "focus": "ਨਾਲ਼", "wrong": ["ਨੂੰ|nūṃ", "ਨੇ|ne"] },
+        { "native": "ਆਟੋ ਵਾਲੇ ਨੇ ਸਾਨੂੰ ਠੱਗ ਲਿਆ!", "roman": "āṭo vāle ne sānūṃ ṭhagg liā!", "en": "The auto driver ripped us off!", "focus": "ਨੇ", "wrong": ["ਨੂੰ|nūṃ", "ਨਾਲ਼|nāḷ"] },
+        { "native": "ਇਸ ਵਿੱਚ ਤੁਹਾਡਾ ਕੋਈ ਦੋਸ਼ ਨਹੀਂ।", "roman": "is vich tuhā̀ḍā koī dosh nahī̀ṃ.", "en": "None of this is your fault.", "focus": "ਤੁਹਾਡਾ", "wrong": ["ਤੁਹਾਡੀ|tuhā̀ḍī", "ਤੁਹਾਨੂੰ|tuhā̀nūṃ"] },
+        { "native": "ਪੈਕਟ ਟੁੱਟਿਆ, ਤਾਂ ਕੌਣ ਜ਼ਿੰਮੇਵਾਰ ਹੈ?", "roman": "paikaṭ ṭuṭṭiā, tāṃ kauṇ zimmevār hai?", "en": "The package got broken, so who's responsible?" },
+        { "native": "ਕੋਰੀਅਰ ਵਾਲਾ ਕਹਿੰਦਾ ਕਿ ਉਹ ਜ਼ਿੰਮੇਵਾਰ ਨਹੀਂ।", "roman": "koriar vālā káindā ki ó zimmevār nahī̀ṃ.", "en": "The courier guy says he's not responsible.", "focus": "ਕਹਿੰਦਾ", "wrong": ["ਕਹਿੰਦੀ|káindī", "ਕਹਿੰਦੇ|káinde"] },
+        { "native": "ਮੈਂ ਕਿਸੇ ਨੂੰ ਦੋਸ਼ ਨਹੀਂ ਦੇ ਰਿਹਾ, ਬੱਸ ਪੈਸੇ ਵਾਪਸ ਚਾਹੀਦੇ ਹਨ।", "roman": "maiṃ kise nūṃ dosh nahī̀ṃ de rihā̀, bass paise vāpas chā́īde han.", "en": "I'm not blaming anyone, I just want my money back.", "focus": "ਚਾਹੀਦੇ", "wrong": ["ਚਾਹੀਦਾ|chā́īdā", "ਚਾਹੀਦੀ|chā́īdī"] },
+        { "native": "ਕਿਸੇ ਨੂੰ ਆਪਣਾ ਓ.ਟੀ.ਪੀ. ਨਾ ਦੱਸੋ, ਇਹ ਧੋਖਾ ਹੈ।", "roman": "kise nūṃ āpṇā o.ṭī.pī. nā dasso, é tòkhā hai.", "en": "Don't tell anyone your OTP — it's a scam." }
+      ]
+    },
+    {
+      "title": "Finding a solution",
+      "tip": { "title": "Settling it calmly", "body": "- Suggest with **ਆਪਾਂ** + subjunctive: ਆਪਾਂ ਬੈਠ ਕੇ ਗੱਲ **ਕਰੀਏ** 'let's sit and talk'; ਅੱਧਾ ਅੱਧਾ ਕਰ **ਲਈਏ**? 'shall we split it?'\n- 'How about if…?' = **ਜੇ … ਤਾਂ ਕਿਵੇਂ ਰਹੇਗਾ?**\n- Keep the temperature down: ਆਰਾਮ ਨਾਲ਼ ਗੱਲ ਕਰਦੇ ਹਾਂ, ਗੁੱਸਾ ਨਾ ਕਰੋ.", "pattern": "ਆਪਾਂ + …-ਈਏ  ·  ਜੇ … ਤਾਂ ਕਿਵੇਂ ਰਹੇਗਾ?" },
+      "new": ["ਮਸਲਾ", "ਹੱਲ", "ਸਮਝੌਤਾ", "ਆਰਾਮ ਨਾਲ਼ ਗੱਲ ਕਰਦੇ ਹਾਂ।", "ਕੋਈ ਹੱਲ ਕੱਢੋ।", "ਅੱਧਾ ਅੱਧਾ ਕਰ ਲਈਏ?"],
+      "sentences": [
+        { "native": "ਆਪਾਂ ਮਿਲ ਕੇ ਕੋਈ ਹੱਲ ਲੱਭੀਏ।", "roman": "āpāṃ mil ke koī hall lábbīe.", "en": "Let's find a solution together.", "focus": "ਲੱਭੀਏ", "wrong": ["ਲੱਭਦੇ|lábbde", "ਲੱਭਿਆ|lábbiā"] },
+        { "native": "ਜੇ ਤੁਸੀਂ ਅੱਧੇ ਪੈਸੇ ਵਾਪਸ ਕਰ ਦਿਓ ਤਾਂ ਕਿਵੇਂ ਰਹੇਗਾ?", "roman": "je tusīṃ ádde paise vāpas kar dio tāṃ kiveṃ rahègā?", "en": "How about if you refund half the money?", "focus": "ਰਹੇਗਾ", "wrong": ["ਰਹੇਗੀ|rahègī", "ਰਿਹਾ|rihā̀"] },
+        { "native": "ਚੱਲੋ, ਸਮਝੌਤਾ ਕਰ ਲਈਏ।", "roman": "challo, samjàutā kar laīe.", "en": "Come on, let's reach a deal.", "focus": "ਲਈਏ", "wrong": ["ਲਿਆ|liā", "ਲੈਂਦਾ|laindā"] },
+        { "native": "ਗੁੱਸਾ ਨਾ ਕਰੋ ਜੀ, ਆਪਾਂ ਬੈਠ ਕੇ ਗੱਲ ਕਰੀਏ।", "roman": "gussā nā karo jī, āpāṃ baiṭh ke gall karīe.", "en": "Please don't get angry, let's sit down and talk.", "focus": "ਕਰੀਏ", "wrong": ["ਕਰਦੇ|karde", "ਕੀਤੀ|kītī"] },
+        { "native": "ਆਪਾਂ ਕੱਲ੍ਹ ਮੈਨੇਜਰ ਨਾਲ਼ ਗੱਲ ਕਰੀਏ?", "roman": "āpāṃ káll mainejar nāḷ gall karīe?", "en": "Shall we talk to the manager tomorrow?", "focus": "ਕਰੀਏ", "wrong": ["ਕਰਦੇ|karde", "ਕੀਤੀ|kītī"] },
+        { "native": "ਜੇ ਤੁਸੀਂ ਨਵਾਂ ਭੇਜ ਦਿਓ ਤਾਂ ਮੈਂ ਸ਼ਿਕਾਇਤ ਵਾਪਸ ਲੈ ਲਵਾਂਗਾ।", "roman": "je tusīṃ navāṃ pèj dio tāṃ maiṃ shikāit vāpas lai lavāṅgā.", "en": "If you send a new one, I'll withdraw my complaint.", "focus": "ਦਿਓ", "wrong": ["ਦਿੱਤਾ|dittā", "ਦਿੰਦੇ|dinde"] },
+        { "native": "ਇਹ ਮਸਲਾ ਫ਼ੋਨ 'ਤੇ ਹੱਲ ਨਹੀਂ ਹੋਵੇਗਾ, ਮੈਂ ਦੁਕਾਨ 'ਤੇ ਆਉਂਦਾ ਹਾਂ।", "roman": "é maslā fon te hall nahī̀ṃ hovegā, maiṃ dukān te āundā hāṃ.", "en": "This won't get sorted out on the phone — I'll come to the shop." },
+        { "native": "ਮਸਲਾ ਕੀ ਹੈ? ਮੈਨੂੰ ਪੂਰੀ ਗੱਲ ਦੱਸੋ।", "roman": "maslā kī hai? mainūṃ pūrī gall dasso.", "en": "What's the problem? Tell me the whole story." },
+        { "native": "ਸਮਝੌਤਾ ਹੋ ਗਿਆ, ਹੁਣ ਚਾਹ ਪੀਓ!", "roman": "samjàutā ho giā, huṇ chā́ pīo!", "en": "Deal done — now have some tea!" }
+      ]
+    }
+  ]
+}

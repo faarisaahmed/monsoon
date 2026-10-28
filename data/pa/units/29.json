@@ -1,0 +1,186 @@
+{
+  "id": 29,
+  "title": "Opinions & discussions",
+  "goal": "Hold your own in a discussion: agree and disagree politely, hedge (\"it depends\", \"to be honest\"), say how likely something is, say what should have happened, and talk about the topics Punjab argues about — from stubble burning to the last over.",
+  "intro": "Punjabis argue for fun. At the dhaba, in the family WhatsApp group or in front of a cricket match, everyone has a ਰਾਇ and nobody keeps it quiet. Joining in is one of the fastest ways to make friends — as long as you know how to soften a 'no' (ਗੱਲ ਤਾਂ ਠੀਕ ਹੈ, ਪਰ…) and when to stop (ਆਪੋ ਆਪਣੀ ਰਾਇ ਹੈ).\n\nThe grammar is about certainty and hindsight: **maybe / might** (ਸ਼ਾਇਦ ਆਵੇ, ਹੋ ਸਕਦਾ ਹੈ ਕਿ…), **I don't think…** (ਮੈਨੂੰ ਨਹੀਂ ਲੱਗਦਾ ਕਿ…), and **should have** (ਕਰਨਾ ਚਾਹੀਦਾ ਸੀ) — the favourite tense of every armchair cricket captain.",
+  "vocab": [
+    { "native": "ਸਹਿਮਤ", "roman": "sáimat", "en": "agreed, in agreement", "pos": "adj", "note": "high tone; invariable; ਮੈਂ ਤੁਹਾਡੇ ਨਾਲ਼ ਸਹਿਮਤ ਹਾਂ 'I agree with you'" },
+    { "native": "ਪੱਖ", "roman": "pakkh", "en": "side (in an argument); point of view", "pos": "noun", "note": "m; ਕਿਸੇ ਦੇ ਪੱਖ ਵਿੱਚ 'on someone's side'" },
+    { "native": "ਦਲੀਲ", "roman": "dalīl", "en": "argument, reasoning, point", "pos": "noun", "note": "f" },
+    { "native": "ਬਹਿਸ", "roman": "báis", "en": "argument, debate", "pos": "noun", "note": "f; high tone; ਬਹਿਸ ਕਰਨੀ 'to argue'" },
+    { "native": "ਨਿਰਭਰ", "roman": "nirpàr", "en": "dependent", "pos": "adj", "note": "low tone; X 'ਤੇ ਨਿਰਭਰ ਕਰਨਾ 'to depend on X'; young people also say ਡਿਪੈਂਡ ਕਰਦਾ ਹੈ" },
+    { "native": "ਮੁੱਦਾ", "roman": "muddā", "en": "issue, topic", "pos": "noun", "note": "m" },
+    { "native": "ਇਮਾਨਦਾਰ", "roman": "imāndār", "en": "honest", "pos": "adj", "note": "invariable" },
+    { "native": "ਸ਼ੱਕ", "roman": "shakk", "en": "doubt, suspicion", "pos": "noun", "note": "m; ਮੈਨੂੰ ਸ਼ੱਕ ਹੈ 'I doubt it / I suspect'" },
+    { "native": "ਅੰਦਾਜ਼ਾ", "roman": "andāzā", "en": "guess, estimate", "pos": "noun", "note": "m; ਮੇਰਾ ਅੰਦਾਜ਼ਾ ਹੈ ਕਿ… 'my guess is…'" },
+    { "native": "ਮੁਮਕਿਨ", "roman": "mumkin", "en": "possible", "pos": "adj", "note": "invariable" },
+    { "native": "ਮੁਸ਼ਕਲ", "roman": "mushkal", "en": "difficult; unlikely; difficulty", "pos": "adj", "note": "invariable; also a noun (f)" },
+    { "native": "ਹਾਰ", "roman": "hār", "en": "defeat, loss", "pos": "noun", "note": "f; ਹਾਰ ਜਾਣਾ 'to lose (a match)'" },
+    { "native": "ਸਰਕਾਰ", "roman": "sarkār", "en": "government", "pos": "noun", "note": "f" },
+    { "native": "ਮਹਿੰਗਾਈ", "roman": "máingāī", "en": "rising prices, inflation", "pos": "noun", "note": "f; high tone; from ਮਹਿੰਗਾ" },
+    { "native": "ਚੋਣ", "roman": "choṇ", "en": "election; choice", "pos": "noun", "note": "f; elections are usually ਚੋਣਾਂ (pl)" },
+    { "native": "ਨੇਤਾ", "roman": "netā", "en": "politician, leader", "pos": "noun", "note": "m; colloquially also ਲੀਡਰ" },
+    { "native": "ਪ੍ਰਦੂਸ਼ਣ", "roman": "pradūshaṇ", "en": "pollution", "pos": "noun", "note": "m" },
+    { "native": "ਪਰਾਲੀ", "roman": "parālī", "en": "paddy stubble, rice straw", "pos": "noun", "note": "f" },
+    { "native": "ਸਾੜਨਾ", "roman": "sāṛnā", "en": "to burn (something)", "pos": "verb" },
+    { "native": "ਨਸ਼ਾ", "roman": "nashā", "en": "drugs, addiction; intoxication", "pos": "noun", "note": "m" },
+    { "native": "ਫ਼ੁਟਬਾਲ", "roman": "fuṭbāl", "en": "football", "pos": "noun", "note": "m" },
+    { "native": "ਬੈਟਿੰਗ", "roman": "baiṭiṅg", "en": "batting", "pos": "noun", "note": "f; ਬੈਟਿੰਗ ਕਰਨੀ 'to bat'" },
+    { "native": "ਆਊਟ", "roman": "āūṭ", "en": "out (in cricket)", "pos": "adj", "note": "ਆਊਟ ਹੋਣਾ 'to be out'" },
+    { "native": "ਫ਼ਾਈਨਲ", "roman": "fāīnal", "en": "final (match)", "pos": "noun", "note": "m" },
+    { "native": "ਗੇਂਦ", "roman": "gend", "en": "ball; delivery (in cricket)", "pos": "noun", "note": "f" },
+    { "native": "ਛੱਕਾ", "roman": "chhakkā", "en": "six (in cricket)", "pos": "noun", "note": "m; ਛੱਕਾ ਮਾਰਨਾ 'to hit a six'" },
+    { "native": "ਚੌਕਾ", "roman": "chaukā", "en": "four (in cricket)", "pos": "noun", "note": "m" },
+    { "native": "ਸੈਂਕੜਾ", "roman": "saiṅkṛā", "en": "century, hundred", "pos": "noun", "note": "m" }
+  ],
+  "phrases": [
+    { "native": "ਮੈਂ ਤੁਹਾਡੇ ਨਾਲ਼ ਸਹਿਮਤ ਹਾਂ।", "roman": "maiṃ tuhā̀ḍe nāḷ sáimat hāṃ.", "en": "I agree with you." },
+    { "native": "ਗੱਲ ਤਾਂ ਠੀਕ ਹੈ, ਪਰ…", "roman": "gall tāṃ ṭhīk hai, par…", "en": "That's true, but…", "note": "the polite way to disagree" },
+    { "native": "ਮੈਨੂੰ ਨਹੀਂ ਲੱਗਦਾ।", "roman": "mainūṃ nahī̀ṃ lagdā.", "en": "I don't think so." },
+    { "native": "ਤੁਹਾਡੀ ਗੱਲ ਵਿੱਚ ਦਮ ਹੈ।", "roman": "tuhā̀ḍī gall vich dam hai.", "en": "You've got a point.", "note": "lit. there is strength in what you say" },
+    { "native": "ਇਹ ਤਾਂ ਮੈਂ ਨਹੀਂ ਮੰਨਦਾ।", "roman": "é tāṃ maiṃ nahī̀ṃ manndā.", "en": "That I just don't accept. (man)" },
+    { "native": "ਛੱਡ, ਬਹਿਸ ਨਾ ਕਰ।", "roman": "chhaḍḍ, báis nā kar.", "en": "Drop it, don't argue. (to a friend)" },
+    { "native": "ਸੱਚ ਪੁੱਛੋ ਤਾਂ…", "roman": "sachch puchchho tāṃ…", "en": "To be honest…", "note": "lit. if you ask the truth" },
+    { "native": "ਇਹ ਨਿਰਭਰ ਕਰਦਾ ਹੈ।", "roman": "é nirpàr kardā hai.", "en": "It depends." },
+    { "native": "ਪਾਗਲ ਹੋ ਗਿਆ ਹੈਂ?", "roman": "pāgal ho giā haiṃ?", "en": "Have you gone mad? (joking, to a male friend)" },
+    { "native": "ਆਪੋ ਆਪਣੀ ਰਾਇ ਹੈ।", "roman": "āpo āpṇī rāe hai.", "en": "Everyone's entitled to their opinion." },
+    { "native": "ਹੋ ਸਕਦਾ ਹੈ।", "roman": "ho sakdā hai.", "en": "Could be. / Maybe." },
+    { "native": "ਮੈਚ ਕੌਣ ਜਿੱਤ ਰਿਹਾ ਹੈ?", "roman": "maich kauṇ jitt rihā̀ hai?", "en": "Who's winning?" },
+    { "native": "ਤੂੰ ਪਹਿਲਾਂ ਦੱਸਣਾ ਸੀ!", "roman": "tūṃ páilāṃ dassṇā sī!", "en": "You should've said so earlier!" }
+  ],
+  "grammar": [
+    {
+      "title": "Maybe, might and must: ਸ਼ਾਇਦ, ਹੋ ਸਕਦਾ ਹੈ, ਹੋਵੇਗਾ",
+      "body": "Punjabi grades certainty with a handful of patterns, from sure to unlikely:\n\n**ਪੱਕਾ / ਜ਼ਰੂਰ** + future — definitely: ਉਹ ਪੱਕਾ ਆਵੇਗਾ\n**future of ਹੋਣਾ** — must be, probably (unit 17): ਉਹ ਘਰ ਹੋਵੇਗਾ 'he must be at home'\n**ਸ਼ਾਇਦ** + future — probably will: ਸ਼ਾਇਦ ਮੀਂਹ ਪਵੇਗਾ\n**ਸ਼ਾਇਦ** + subjunctive — might: ਸ਼ਾਇਦ ਉਹ ਆਵੇ 'he might come'\n**ਹੋ ਸਕਦਾ ਹੈ (ਕਿ)** + subjunctive — it's possible that: ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਮੈਚ ਰੱਦ ਹੋ ਜਾਵੇ\n**ਮੁਸ਼ਕਲ ਹੈ** — unlikely: ਅੱਜ ਜਿੱਤਣਾ ਮੁਸ਼ਕਲ ਹੈ\n\nIn the subjunctive, 'not' is **ਨਾ**, not ਨਹੀਂ: ਸ਼ਾਇਦ ਉਹ ਨਾ ਆਵੇ 'he might not come'.\n\n**Might have done** = participle + **ਹੋਵੇ**: ਹੋ ਸਕਦਾ ਹੈ ਉਹ ਭੁੱਲ ਗਿਆ ਹੋਵੇ 'he might have forgotten'; ਹੋ ਸਕਦਾ ਹੈ ਉਸ ਨੇ ਮੈਸੇਜ ਨਾ ਵੇਖਿਆ ਹੋਵੇ 'maybe she hasn't seen the message'.\n**Must have done** = participle + **ਹੋਵੇਗਾ**: ਉਹ ਥੱਕ ਗਏ ਹੋਣਗੇ 'they must be tired (they must have got tired)'.\n\nOne-word answers are just as useful: ਹੋ ਸਕਦਾ ਹੈ 'could be', ਸ਼ਾਇਦ 'maybe', ਪਤਾ ਨਹੀਂ 'no idea', ਪੱਕਾ? 'sure?', ਮੁਸ਼ਕਲ ਹੈ 'I doubt it'.",
+      "examples": [
+        { "native": "ਸ਼ਾਇਦ ਮੈਂ ਵੀ ਆਵਾਂ, ਪਰ ਪੱਕਾ ਨਹੀਂ।", "roman": "shāid maiṃ vī āvāṃ, par pakkā nahī̀ṃ.", "en": "I might come too, but it's not certain." },
+        { "native": "ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਮੀਂਹ ਕਰਕੇ ਮੈਚ ਰੱਦ ਹੋ ਜਾਵੇ।", "roman": "ho sakdā hai ki mī́ṃ karke maich radd ho jāve.", "en": "The match might get called off because of the rain." },
+        { "native": "ਹੋ ਸਕਦਾ ਹੈ ਉਹ ਭੁੱਲ ਗਿਆ ਹੋਵੇ।", "roman": "ho sakdā hai ó pùll giā hove.", "en": "He might have forgotten." },
+        { "native": "ਉਹ ਥੱਕ ਗਏ ਹੋਣਗੇ।", "roman": "ó thakk gae hoṇge.", "en": "They must be tired." },
+        { "native": "ਇਸ ਵਾਰ ਜਿੱਤਣਾ ਮੁਸ਼ਕਲ ਹੈ।", "roman": "is vār jittṇā mushkal hai.", "en": "We're unlikely to win this time." }
+      ]
+    },
+    {
+      "title": "I don't think…; agreeing, disagreeing and hedging",
+      "body": "**I don't think…**: as in English, the 'not' goes with 'think': **ਮੈਨੂੰ ਨਹੀਂ ਲੱਗਦਾ ਕਿ** ਉਹ ਜਿੱਤਣਗੇ 'I don't think they'll win'. (ਮੈਨੂੰ ਲੱਗਦਾ ਹੈ ਕਿ ਉਹ ਨਹੀਂ ਜਿੱਤਣਗੇ is possible, but blunter; ਮੈਂ ਨਹੀਂ ਸੋਚਦਾ ਕਿ… sounds bookish.) Short answers: ਮੈਨੂੰ ਨਹੀਂ ਲੱਗਦਾ 'I don't think so' · ਮੈਨੂੰ ਵੀ ਇਹ ਹੀ ਲੱਗਦਾ ਹੈ 'I think so too'.\n\n**Agreeing**: ਮੈਂ ਸਹਿਮਤ ਹਾਂ · ਬਿਲਕੁਲ ਠੀਕ · ਤੁਹਾਡੀ ਗੱਲ ਵਿੱਚ ਦਮ ਹੈ 'you've got a point'. You agree **with** someone using ਨਾਲ਼: ਮੈਂ ਤੇਰੇ ਨਾਲ਼ ਸਹਿਮਤ ਹਾਂ.\n\n**Disagreeing politely**: agree first, then turn. ਗੱਲ **ਤਾਂ** ਠੀਕ ਹੈ, **ਪਰ**… — the little ਤਾਂ means 'granted' and does the softening. ਹਾਂ, ਪਰ ਦੂਜੇ ਪਾਸੇ… 'yes, but on the other hand…'.\n\n**Hedging**: **ਸੱਚ ਪੁੱਛੋ ਤਾਂ** 'to be honest' · **ਮੇਰੇ ਖ਼ਿਆਲ ਵਿੱਚ** 'in my view' · **ਇਹ ਨਿਰਭਰ ਕਰਦਾ ਹੈ** 'it depends' — and on what: X **'ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ**: ਇਹ ਮੌਸਮ 'ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ. (Young people mostly say ਡਿਪੈਂਡ ਕਰਦਾ ਹੈ.) **ਆਪੋ ਆਪਣੀ ਰਾਇ ਹੈ** 'each to their own' ends an argument gracefully.\n\n**Register.** Among friends disagreement is loud and affectionate: ਕੀ ਗੱਲ ਕਰਦਾ ਹੈਂ! 'what are you on about!', ਪਾਗਲ ਹੋ ਗਿਆ ਹੈਂ? With elders, never contradict head-on: ਜੀ, ਤੁਹਾਡੀ ਗੱਲ ਠੀਕ ਹੈ, ਪਰ ਮੈਂ ਸੋਚ ਰਿਹਾ ਸੀ ਕਿ… 'yes, you're right, but I was wondering whether…'.",
+      "examples": [
+        { "native": "ਮੈਨੂੰ ਨਹੀਂ ਲੱਗਦਾ ਕਿ ਉਹ ਜਿੱਤਣਗੇ।", "roman": "mainūṃ nahī̀ṃ lagdā ki ó jittṇge.", "en": "I don't think they'll win." },
+        { "native": "ਗੱਲ ਤਾਂ ਸਹੀ ਹੈ, ਪਰ ਦੂਜੇ ਪਾਸੇ ਮਹਿੰਗਾਈ ਵੀ ਵਧ ਰਹੀ ਹੈ।", "roman": "gall tāṃ sahī̀ hai, par dūje pāse máingāī vī vád rahī̀ hai.", "en": "That's true, but on the other hand prices are going up too." },
+        { "native": "ਸੱਚ ਪੁੱਛੋ ਤਾਂ ਮੈਨੂੰ ਕ੍ਰਿਕਟ ਬੋਰ ਲੱਗਦਾ ਹੈ।", "roman": "sachch puchchho tāṃ mainūṃ krikaṭ bor lagdā hai.", "en": "To be honest, I find cricket boring." },
+        { "native": "ਇਹ ਮੌਸਮ 'ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ।", "roman": "é mausam te nirpàr kardā hai.", "en": "It depends on the weather." },
+        { "native": "ਜੀ, ਤੁਹਾਡੀ ਗੱਲ ਠੀਕ ਹੈ, ਪਰ ਮੈਂ ਸੋਚ ਰਿਹਾ ਸੀ ਕਿ ਅਸੀਂ ਕੱਲ੍ਹ ਚੱਲੀਏ।", "roman": "jī, tuhā̀ḍī gall ṭhīk hai, par maiṃ soch rihā̀ sī ki asīṃ káll challīe.", "en": "Yes, you're right, but I was thinking we could go tomorrow." }
+      ]
+    },
+    {
+      "title": "Should have: ਕਰਨਾ ਚਾਹੀਦਾ ਸੀ",
+      "body": "**Should have** = ਨੂੰ + infinitive + **ਚਾਹੀਦਾ ਸੀ** — the 'should' of unit 9, moved into the past: ਤੈਨੂੰ ਮੈਨੂੰ ਦੱਸਣਾ ਚਾਹੀਦਾ ਸੀ 'you should have told me'. **Shouldn't have**: ਨਹੀਂ before the infinitive: ਉਸ ਨੂੰ ਉਹ ਸ਼ਾਟ ਨਹੀਂ ਖੇਡਣਾ ਚਾਹੀਦਾ ਸੀ.\n\nAs always with ਚਾਹੀਦਾ, the infinitive and ਚਾਹੀਦਾ agree with the **object** if there is one: ਸਾਨੂੰ ਪਹਿਲਾਂ ਬੈਟਿੰਗ ਕਰਨੀ ਚਾਹੀਦੀ ਸੀ (ਬੈਟਿੰਗ f) · ਹੋਰ ਚੌਕੇ ਮਾਰਨੇ ਚਾਹੀਦੇ ਸੀ (m pl). In writing the last ਸੀ becomes ਸਨ for plurals; in speech ਸੀ is normal.\n\nTwo everyday alternatives:\n• **Infinitive + ਸੀ**, with the person in the plain form — 'should have / was supposed to', often as a reproach: ਤੂੰ ਪਹਿਲਾਂ ਦੱਸਣਾ ਸੀ! 'you should've said so earlier!'\n• The **unreal conditional** of unit 19, for what would have happened: ਜੇ ਉਹ ਆਊਟ ਨਾ ਹੁੰਦਾ ਤਾਂ ਅਸੀਂ ਜਿੱਤ ਜਾਂਦੇ 'if he hadn't got out, we'd have won'.\n\nThe present **ਚਾਹੀਦਾ ਹੈ** gives advice about now and the future: ਸਰਕਾਰ ਨੂੰ ਕੁਝ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ 'the government should do something'.",
+      "examples": [
+        { "native": "ਤੈਨੂੰ ਮੈਨੂੰ ਪਹਿਲਾਂ ਦੱਸਣਾ ਚਾਹੀਦਾ ਸੀ।", "roman": "tainūṃ mainūṃ páilāṃ dassṇā chā́īdā sī.", "en": "You should have told me earlier." },
+        { "native": "ਮੈਨੂੰ ਇੰਨੀ ਮਿਰਚ ਨਹੀਂ ਖਾਣੀ ਚਾਹੀਦੀ ਸੀ।", "roman": "mainūṃ innī mirach nahī̀ṃ khāṇī chā́īdī sī.", "en": "I shouldn't have eaten so much chilli." },
+        { "native": "ਸਾਨੂੰ ਟਿਕਟਾਂ ਪਹਿਲਾਂ ਲੈਣੀਆਂ ਚਾਹੀਦੀਆਂ ਸੀ।", "roman": "sānūṃ ṭikṭāṃ páilāṃ laiṇīāṃ chā́īdīāṃ sī.", "en": "We should have bought the tickets earlier." },
+        { "native": "ਜੇ ਉਹ ਆਊਟ ਨਾ ਹੁੰਦਾ ਤਾਂ ਅਸੀਂ ਜਿੱਤ ਜਾਂਦੇ।", "roman": "je ó āūṭ nā hundā tāṃ asīṃ jitt jānde.", "en": "If he hadn't got out, we'd have won." },
+        { "native": "ਸਾਨੂੰ ਵੀ ਪ੍ਰਦੂਸ਼ਣ ਬਾਰੇ ਕੁਝ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।", "roman": "sānūṃ vī pradūshaṇ bāre kúj karnā chā́īdā hai.", "en": "We should do something about pollution too." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The last over",
+    "setting": "Jaggi's flat in Mohali. Jaggi, Preet and Rohan are watching Punjab chase a big total in an IPL match.",
+    "lines": [
+      { "speaker": "Jaggi", "native": "ਓਏ, ਇਹ ਕੀ ਸ਼ਾਟ ਸੀ! ਆਊਟ ਹੋ ਗਿਆ!", "roman": "oe, é kī shāṭ sī! āūṭ ho giā!", "en": "Oh no, what kind of shot was that! He's out!" },
+      { "speaker": "Preet", "native": "ਆਰਾਮ ਨਾਲ਼ ਯਾਰ! ਅਜੇ ਵੀ ਜਿੱਤ ਸਕਦੇ ਹਾਂ।", "roman": "ārām nāḷ yār! aje vī jitt sakde hāṃ.", "en": "Easy, man! We can still win." },
+      { "speaker": "Jaggi", "native": "ਮੈਨੂੰ ਨਹੀਂ ਲੱਗਦਾ। ਤੀਹ ਗੇਂਦਾਂ 'ਤੇ ਸੱਠ ਦੌੜਾਂ? ਮੁਸ਼ਕਲ ਹੈ।", "roman": "mainūṃ nahī̀ṃ lagdā. tī́ gendāṃ te saṭṭh dauṛāṃ? mushkal hai.", "en": "I don't think so. Sixty off thirty balls? Unlikely." },
+      { "speaker": "Preet", "native": "ਹੋ ਸਕਦਾ ਹੈ। ਸ਼ੁਭਮਨ ਅਜੇ ਆਊਟ ਨਹੀਂ ਹੋਇਆ।", "roman": "ho sakdā hai. Shubhman aje āūṭ nahī̀ṃ hoiā.", "en": "It's possible. Shubman's not out yet." },
+      { "speaker": "Rohan", "native": "ਸੱਚ ਪੁੱਛੋ ਤਾਂ ਸਾਰਾ ਕਸੂਰ ਕਪਤਾਨ ਦਾ ਹੈ। ਉਸ ਨੂੰ ਪਹਿਲਾਂ ਬੈਟਿੰਗ ਲੈਣੀ ਚਾਹੀਦੀ ਸੀ।", "roman": "sachch puchchho tāṃ sārā kasūr kaptān dā hai. us nūṃ páilāṃ baiṭiṅg laiṇī chā́īdī sī.", "en": "To be honest, it's all the captain's fault. He should have chosen to bat first." },
+      { "speaker": "Preet", "native": "ਗੱਲ ਤਾਂ ਠੀਕ ਹੈ, ਪਰ ਇਹ ਪਿੱਚ 'ਤੇ ਵੀ ਨਿਰਭਰ ਕਰਦਾ ਹੈ।", "roman": "gall tāṃ ṭhīk hai, par é pichch te vī nirpàr kardā hai.", "en": "Fair enough, but it depends on the pitch too." },
+      { "speaker": "Jaggi", "native": "ਚੌਕਾ! ਬੱਲੇ ਬੱਲੇ! ਮੈਂ ਕਿਹਾ ਸੀ ਨਾ, ਜਿੱਤ ਸਕਦੇ ਹਾਂ!", "roman": "chaukā! balle balle! maiṃ kihā̀ sī nā, jitt sakde hāṃ!", "en": "Four! Yes! Didn't I say we could win!" },
+      { "speaker": "Preet", "native": "ਵਾਹ! ਦੋ ਮਿੰਟ ਪਹਿਲਾਂ ਤਾਂ ਤੂੰ ਕਹਿ ਰਿਹਾ ਸੀ 'ਮੁਸ਼ਕਲ ਹੈ'!", "roman": "vā́! do minṭ páilāṃ tāṃ tūṃ kái rihā̀ sī 'mushkal hai'!", "en": "Oh, really! Two minutes ago you were saying 'unlikely'!" },
+      { "speaker": "Rohan", "native": "ਛੱਡੋ ਕ੍ਰਿਕਟ। ਬਾਹਰ ਵੇਖੋ, ਕਿੰਨਾ ਪ੍ਰਦੂਸ਼ਣ ਹੈ। ਫਿਰ ਪਰਾਲੀ ਸਾੜ ਰਹੇ ਹਨ।", "roman": "chhaḍḍo krikaṭ. bā́r vekho, kinnā pradūshaṇ hai. phir parālī sāṛ rahè han.", "en": "Forget the cricket. Look outside, look at the pollution. They're burning stubble again." },
+      { "speaker": "Jaggi", "native": "ਕਿਸਾਨਾਂ ਕੋਲ ਹੋਰ ਕੀ ਰਸਤਾ ਹੈ? ਸਰਕਾਰ ਨੂੰ ਕੋਈ ਹੱਲ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ।", "roman": "kisānāṃ kol hor kī rastā hai? sarkār nūṃ koī hall deṇā chā́īdā hai.", "en": "What other option do the farmers have? The government should give them a solution." },
+      { "speaker": "Rohan", "native": "ਮੈਂ ਸਹਿਮਤ ਨਹੀਂ। ਹਰ ਗੱਲ ਲਈ ਸਰਕਾਰ…", "roman": "maiṃ sáimat nahī̀ṃ. har gall laī sarkār…", "en": "I don't agree. Blaming the government for everything…" },
+      { "speaker": "Preet", "native": "ਬੱਸ! ਬਹਿਸ ਬਾਅਦ ਵਿੱਚ। ਆਖ਼ਰੀ ਓਵਰ ਹੈ!", "roman": "bass! báis bāad vich. āxrī ovar hai!", "en": "Enough! Argue later. It's the last over!" }
+    ]
+  },
+  "culture": "Arguing is a social sport in Punjab: in the village ਸੱਥ (the square where men sit and talk), at the dhaba, in family WhatsApp groups and around every TV showing a match. Raised voices usually mean engagement, not anger, and a good argument ends with tea, not grudges. The live topics of the day are local: stubble burning and the winter smog, the drug problem (ਨਸ਼ਾ) and what it has done to a generation, young people leaving for Canada, farm prices and the farmers' protests of 2020–21, and of course ਮਹਿੰਗਾਈ. Cricket unites everyone; football has deep roots in Doaba towns like Mahilpur, and kabaddi is the rural passion. With people you don't know well, steer clear of religion and party politics, and with elders soften every disagreement with ਜੀ and ਪਰ. When things get too hot, ਆਪੋ ਆਪਣੀ ਰਾਇ ਹੈ lets everyone walk away with their pride.",
+  "lessons": [
+    {
+      "title": "Agreeing and disagreeing",
+      "tip": { "title": "I don't think…: ਮੈਨੂੰ ਨਹੀਂ ਲੱਗਦਾ ਕਿ…", "body": "- 'I don't think…' = **ਮੈਨੂੰ ਨਹੀਂ ਲੱਗਦਾ ਕਿ…** — the 'not' goes with 'think', as in English.\n- Agree **with** someone using **ਨਾਲ਼**: ਮੈਂ ਤੇਰੇ **ਨਾਲ਼** ਸਹਿਮਤ ਹਾਂ.\n- Disagree softly: agree first, then turn: ਗੱਲ **ਤਾਂ** ਠੀਕ ਹੈ, **ਪਰ**…", "pattern": "ਮੈਨੂੰ ਨਹੀਂ ਲੱਗਦਾ ਕਿ …  ·  X ਨਾਲ਼ ਸਹਿਮਤ", "grammar": 1 },
+      "new": ["ਸਹਿਮਤ", "ਪੱਖ", "ਦਲੀਲ", "ਬਹਿਸ", "ਮੈਂ ਤੁਹਾਡੇ ਨਾਲ਼ ਸਹਿਮਤ ਹਾਂ।", "ਗੱਲ ਤਾਂ ਠੀਕ ਹੈ, ਪਰ…", "ਮੈਨੂੰ ਨਹੀਂ ਲੱਗਦਾ।", "ਤੁਹਾਡੀ ਗੱਲ ਵਿੱਚ ਦਮ ਹੈ।", "ਇਹ ਤਾਂ ਮੈਂ ਨਹੀਂ ਮੰਨਦਾ।", "ਛੱਡ, ਬਹਿਸ ਨਾ ਕਰ।"],
+      "sentences": [
+        { "native": "ਮੈਨੂੰ ਨਹੀਂ ਲੱਗਦਾ ਕਿ ਇਹ ਸਹੀ ਹੈ।", "roman": "mainūṃ nahī̀ṃ lagdā ki é sahī̀ hai.", "en": "I don't think that's right.", "focus": "ਲੱਗਦਾ", "wrong": ["ਲੱਗਦੀ|lagdī", "ਲੱਗਦੇ|lagde"] },
+        { "native": "ਮੈਂ ਤੇਰੇ ਨਾਲ਼ ਬਿਲਕੁਲ ਸਹਿਮਤ ਹਾਂ।", "roman": "maiṃ tere nāḷ bilkul sáimat hāṃ.", "en": "I totally agree with you.", "focus": "ਨਾਲ਼", "wrong": ["ਨੂੰ|nūṃ", "ਤੋਂ|toṃ"] },
+        { "native": "ਗੱਲ ਤਾਂ ਸਹੀ ਹੈ, ਪਰ ਹਰ ਕੋਈ ਇਹ ਨਹੀਂ ਕਰ ਸਕਦਾ।", "roman": "gall tāṃ sahī̀ hai, par har koī é nahī̀ṃ kar sakdā.", "en": "That's true, but not everyone can do that.", "focus": "ਪਰ", "wrong": ["ਕਿਉਂਕਿ|kiuṅki", "ਜਾਂ|jāṃ"] },
+        { "native": "ਤੁਸੀਂ ਕਿਸ ਦੇ ਪੱਖ ਵਿੱਚ ਹੋ?", "roman": "tusīṃ kis de pakkh vich ho?", "en": "Whose side are you on?" },
+        { "native": "ਉਸ ਦੀ ਦਲੀਲ ਵਿੱਚ ਦਮ ਹੈ।", "roman": "us dī dalīl vich dam hai.", "en": "Her argument makes sense." },
+        { "native": "ਮੈਨੂੰ ਨਹੀਂ ਲੱਗਦਾ ਕਿ ਉਹ ਅੱਜ ਆਉਣਗੇ।", "roman": "mainūṃ nahī̀ṃ lagdā ki ó ajj āuṇge.", "en": "I don't think they'll come today.", "focus": "ਨਹੀਂ", "wrong": ["ਨਾ|nā", "ਵੀ|vī"] },
+        { "native": "ਤੂੰ ਹਰ ਗੱਲ 'ਤੇ ਬਹਿਸ ਕਿਉਂ ਕਰਦਾ ਹੈਂ?", "roman": "tūṃ har gall te báis kiuṃ kardā haiṃ?", "en": "Why do you argue about everything? (to a male friend)" },
+        { "native": "ਮੈਂ ਇਸ ਗੱਲ ਨਾਲ਼ ਸਹਿਮਤ ਨਹੀਂ ਹਾਂ।", "roman": "maiṃ is gall nāḷ sáimat nahī̀ṃ hāṃ.", "en": "I don't agree with that.", "focus": "ਨਾਲ਼", "wrong": ["ਨੂੰ|nūṃ", "ਦਾ|dā"] },
+        { "native": "ਮੈਨੂੰ ਵੀ ਇਹ ਹੀ ਲੱਗਦਾ ਹੈ।", "roman": "mainūṃ vī é hī lagdā hai.", "en": "I think so too.", "focus": "ਲੱਗਦਾ", "wrong": ["ਲੱਗਦੀ|lagdī", "ਲੱਗਿਆ|laggiā"] }
+      ]
+    },
+    {
+      "title": "To be honest, it depends",
+      "tip": { "title": "Hedging: ਸੱਚ ਪੁੱਛੋ ਤਾਂ, … 'ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ", "body": "- **ਸੱਚ ਪੁੱਛੋ ਤਾਂ** 'to be honest' and **ਮੇਰੇ ਖ਼ਿਆਲ ਵਿੱਚ** 'in my view' go at the front of the sentence.\n- 'It depends **on** X' = X + **'ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ** (friends say ਡਿਪੈਂਡ ਕਰਦਾ ਹੈ).\n- End a pointless argument with **ਆਪੋ ਆਪਣੀ ਰਾਇ ਹੈ** 'each to their own'.", "pattern": "ਸੱਚ ਪੁੱਛੋ ਤਾਂ …  ·  X 'ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ", "grammar": 1 },
+      "new": ["ਨਿਰਭਰ", "ਮੁੱਦਾ", "ਇਮਾਨਦਾਰ", "ਸੱਚ ਪੁੱਛੋ ਤਾਂ…", "ਇਹ ਨਿਰਭਰ ਕਰਦਾ ਹੈ।", "ਪਾਗਲ ਹੋ ਗਿਆ ਹੈਂ?", "ਆਪੋ ਆਪਣੀ ਰਾਇ ਹੈ।"],
+      "sentences": [
+        { "native": "ਇਹ ਕੀਮਤ 'ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ।", "roman": "é kīmat te nirpàr kardā hai.", "en": "It depends on the price." },
+        { "native": "ਸੱਚ ਪੁੱਛੋ ਤਾਂ ਮੈਨੂੰ ਇਹ ਫ਼ਿਲਮ ਬੋਰ ਲੱਗੀ।", "roman": "sachch puchchho tāṃ mainūṃ é filam bor laggī.", "en": "To be honest, I found this film boring.", "focus": "ਲੱਗੀ", "wrong": ["ਲੱਗਾ|laggā", "ਲੱਗੇ|lagge"] },
+        { "native": "ਮੇਰੇ ਖ਼ਿਆਲ ਵਿੱਚ ਸਭ ਤੋਂ ਵੱਡਾ ਮੁੱਦਾ ਨੌਕਰੀਆਂ ਹਨ।", "roman": "mere xiāl vich sáb toṃ vaḍḍā muddā naukrīāṃ han.", "en": "In my view the biggest issue is jobs.", "focus": "ਵੱਡਾ", "wrong": ["ਵੱਡੀ|vaḍḍī", "ਵੱਡੇ|vaḍḍe"] },
+        { "native": "ਸੱਚ ਪੁੱਛੋ ਤਾਂ ਉਹ ਬਹੁਤ ਇਮਾਨਦਾਰ ਬੰਦਾ ਹੈ।", "roman": "sachch puchchho tāṃ ó báut imāndār bandā hai.", "en": "Honestly, he's a really honest guy." },
+        { "native": "ਜਾਣਾ ਜਾਂ ਨਾ ਜਾਣਾ ਤੇਰੇ 'ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ।", "roman": "jāṇā jāṃ nā jāṇā tere te nirpàr kardā hai.", "en": "Whether you go or not is up to you." },
+        { "native": "ਆਪੋ ਆਪਣੀ ਰਾਇ ਹੈ, ਲੜਨਾ ਕਿਉਂ?", "roman": "āpo āpṇī rāe hai, laṛnā kiuṃ?", "en": "Everyone has their own opinion, why fight about it?" },
+        { "native": "ਇਹ ਮੁੱਦਾ ਬਹੁਤ ਪੁਰਾਣਾ ਹੈ, ਹਰ ਸਾਲ ਇਹ ਹੀ ਗੱਲਾਂ ਹੁੰਦੀਆਂ ਹਨ।", "roman": "é muddā báut purāṇā hai, har sāl é hī gallāṃ hundīāṃ han.", "en": "This issue is ancient, it's the same talk every year." },
+        { "native": "ਮੇਰੇ ਖ਼ਿਆਲ ਵਿੱਚ ਤੂੰ ਗ਼ਲਤ ਹੈਂ, ਪਰ ਸੱਚ ਪੁੱਛੋ ਤਾਂ ਮੈਨੂੰ ਪੱਕਾ ਨਹੀਂ ਪਤਾ।", "roman": "mere xiāl vich tūṃ ġalat haiṃ, par sachch puchchho tāṃ mainūṃ pakkā nahī̀ṃ patā.", "en": "I think you're wrong, but to be honest I'm not sure." }
+      ]
+    },
+    {
+      "title": "Maybe, might, must be",
+      "tip": { "title": "Might: ਸ਼ਾਇਦ ਆਵੇ, ਹੋ ਸਕਦਾ ਹੈ ਕਿ…", "body": "- 'Might' = **ਸ਼ਾਇਦ** or **ਹੋ ਸਕਦਾ ਹੈ ਕਿ** + **subjunctive**: ਸ਼ਾਇਦ ਮੀਂਹ **ਪਵੇ**. 'Not' here is **ਨਾ**.\n- 'Must be' = future of ਹੋਣਾ: ਉਹ ਘਰ **ਹੋਵੇਗਾ**.\n- 'Might have…' = participle + **ਹੋਵੇ**: ਵੇਖਿਆ **ਹੋਵੇ**.\n- 'Unlikely' = **ਮੁਸ਼ਕਲ ਹੈ**.", "pattern": "ਸ਼ਾਇਦ / ਹੋ ਸਕਦਾ ਹੈ ਕਿ + subjunctive", "grammar": 0 },
+      "new": ["ਸ਼ੱਕ", "ਅੰਦਾਜ਼ਾ", "ਮੁਮਕਿਨ", "ਮੁਸ਼ਕਲ", "ਹਾਰ", "ਹੋ ਸਕਦਾ ਹੈ।"],
+      "sentences": [
+        { "native": "ਸ਼ਾਇਦ ਉਹ ਅੱਜ ਨਾ ਆਵੇ।", "roman": "shāid ó ajj nā āve.", "en": "He might not come today.", "focus": "ਆਵੇ", "wrong": ["ਆਇਆ|āiā", "ਆਉਂਦਾ|āundā"] },
+        { "native": "ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਮੈਂ ਦੇਰ ਨਾਲ਼ ਪਹੁੰਚਾਂ।", "roman": "ho sakdā hai ki maiṃ der nāḷ páunchāṃ.", "en": "I might be late.", "focus": "ਪਹੁੰਚਾਂ", "wrong": ["ਪਹੁੰਚਿਆ|páunchiā", "ਪਹੁੰਚੇ|páunche"] },
+        { "native": "ਮੇਰਾ ਅੰਦਾਜ਼ਾ ਹੈ ਕਿ ਉਹ ਘਰ ਹੋਵੇਗਾ।", "roman": "merā andāzā hai ki ó kàr hovegā.", "en": "My guess is he's at home.", "focus": "ਹੋਵੇਗਾ", "wrong": ["ਹੋਇਆ|hoiā", "ਹੁੰਦਾ|hundā"] },
+        { "native": "ਹੋ ਸਕਦਾ ਹੈ ਉਸ ਨੇ ਮੈਸੇਜ ਨਾ ਵੇਖਿਆ ਹੋਵੇ।", "roman": "ho sakdā hai us ne maisej nā vekhiā hove.", "en": "Maybe she hasn't seen the message.", "focus": "ਹੋਵੇ", "wrong": ["ਹੈ|hai", "ਸੀ|sī"] },
+        { "native": "ਮੈਨੂੰ ਉਸ ਦੀ ਗੱਲ 'ਤੇ ਸ਼ੱਕ ਹੈ।", "roman": "mainūṃ us dī gall te shakk hai.", "en": "I have my doubts about what he says." },
+        { "native": "ਅੱਜ ਟਿਕਟਾਂ ਮਿਲਣੀਆਂ ਮੁਸ਼ਕਲ ਹਨ।", "roman": "ajj ṭikṭāṃ milṇīāṃ mushkal han.", "en": "It's going to be hard to get tickets today.", "focus": "ਮਿਲਣੀਆਂ", "wrong": ["ਮਿਲਣਾ|milṇā", "ਮਿਲਣੀ|milṇī"] },
+        { "native": "ਕੀ ਇਹ ਮੁਮਕਿਨ ਹੈ? ਪੱਕਾ?", "roman": "kī é mumkin hai? pakkā?", "en": "Is that possible? Sure?" },
+        { "native": "ਉਹ ਥੱਕ ਗਈ ਹੋਵੇਗੀ, ਸਾਰਾ ਦਿਨ ਕੰਮ ਕੀਤਾ।", "roman": "ó thakk gaī hovegī, sārā din kamm kītā.", "en": "She must be tired, she worked all day.", "focus": "ਹੋਵੇਗੀ", "wrong": ["ਹੋਵੇਗਾ|hovegā", "ਹੋਣਗੇ|hoṇge"] },
+        { "native": "ਸ਼ਾਇਦ ਕੱਲ੍ਹ ਮੀਂਹ ਪਵੇ।", "roman": "shāid káll mī́ṃ pave.", "en": "It might rain tomorrow.", "focus": "ਪਵੇ", "wrong": ["ਪਿਆ|piā", "ਪੈਂਦਾ|paindā"] },
+        { "native": "ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਅਸੀਂ ਹਾਰ ਜਾਈਏ, ਪਰ ਕੋਸ਼ਿਸ਼ ਤਾਂ ਕਰੀਏ।", "roman": "ho sakdā hai ki asīṃ hār jāīe, par koshish tāṃ karīe.", "en": "We might lose, but let's at least try.", "focus": "ਜਾਈਏ", "wrong": ["ਜਾਵਾਂ|jāvāṃ", "ਜਾਵੇ|jāve"] }
+      ]
+    },
+    {
+      "title": "What everyone is talking about",
+      "new": ["ਸਰਕਾਰ", "ਮਹਿੰਗਾਈ", "ਚੋਣ", "ਨੇਤਾ", "ਪ੍ਰਦੂਸ਼ਣ", "ਪਰਾਲੀ", "ਸਾੜਨਾ", "ਨਸ਼ਾ"],
+      "sentences": [
+        { "native": "ਸਰਕਾਰ ਨੂੰ ਮਹਿੰਗਾਈ ਬਾਰੇ ਕੁਝ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।", "roman": "sarkār nūṃ máingāī bāre kúj karnā chā́īdā hai.", "en": "The government should do something about prices.", "focus": "ਚਾਹੀਦਾ", "wrong": ["ਚਾਹੀਦੀ|chā́īdī", "ਚਾਹੀਦੇ|chā́īde"] },
+        { "native": "ਮਹਿੰਗਾਈ ਬਹੁਤ ਵਧ ਗਈ ਹੈ, ਦੁੱਧ ਵੀ ਮਹਿੰਗਾ ਹੋ ਗਿਆ।", "roman": "máingāī báut vád gaī hai, dúdd vī máingā ho giā.", "en": "Prices have shot up, even milk has got expensive.", "focus": "ਗਈ", "wrong": ["ਗਿਆ|giā", "ਗਏ|gae"] },
+        { "native": "ਚੋਣਾਂ ਤੋਂ ਪਹਿਲਾਂ ਸਾਰੇ ਨੇਤਾ ਵਾਅਦੇ ਕਰਦੇ ਹਨ।", "roman": "choṇāṃ toṃ páilāṃ sāre netā vāade karde han.", "en": "Before elections every politician makes promises." },
+        { "native": "ਸਰਦੀਆਂ ਵਿੱਚ ਪ੍ਰਦੂਸ਼ਣ ਬਹੁਤ ਹੁੰਦਾ ਹੈ।", "roman": "sardīāṃ vich pradūshaṇ báut hundā hai.", "en": "Pollution is really bad in winter." },
+        { "native": "ਕਿਸਾਨ ਪਰਾਲੀ ਕਿਉਂ ਸਾੜਦੇ ਹਨ?", "roman": "kisān parālī kiuṃ sāṛde han?", "en": "Why do farmers burn stubble?", "focus": "ਸਾੜਦੇ", "wrong": ["ਸਾੜਦਾ|sāṛdā", "ਸਾੜਦੀ|sāṛdī"] },
+        { "native": "ਮੇਰੇ ਖ਼ਿਆਲ ਵਿੱਚ ਨਸ਼ਾ ਪੰਜਾਬ ਦਾ ਸਭ ਤੋਂ ਵੱਡਾ ਮੁੱਦਾ ਹੈ।", "roman": "mere xiāl vich nashā Panjāb dā sáb toṃ vaḍḍā muddā hai.", "en": "In my view drugs are Punjab's biggest problem." },
+        { "native": "ਮੈਨੂੰ ਨਹੀਂ ਲੱਗਦਾ ਕਿ ਕੋਈ ਵੀ ਨੇਤਾ ਕੁਝ ਕਰੇਗਾ।", "roman": "mainūṃ nahī̀ṃ lagdā ki koī vī netā kúj karegā.", "en": "I don't think any politician will do anything." },
+        { "native": "ਇਸ ਵਾਰ ਚੋਣਾਂ ਵਿੱਚ ਕੌਣ ਜਿੱਤੇਗਾ?", "roman": "is vār choṇāṃ vich kauṇ jittegā?", "en": "Who will win the election this time?" },
+        { "native": "ਪਰਾਲੀ ਸਾੜਨੀ ਨਹੀਂ ਚਾਹੀਦੀ, ਪਰ ਕਿਸਾਨ ਵੀ ਕੀ ਕਰਨ?", "roman": "parālī sāṛnī nahī̀ṃ chā́īdī, par kisān vī kī karan?", "en": "Stubble shouldn't be burned, but what are the farmers supposed to do?", "focus": "ਸਾੜਨੀ", "wrong": ["ਸਾੜਨਾ|sāṛnā", "ਸਾੜਨੇ|sāṛne"] }
+      ]
+    },
+    {
+      "title": "Armchair cricket captains",
+      "tip": { "title": "Should have: ਕਰਨਾ ਚਾਹੀਦਾ ਸੀ", "body": "- 'Should have' = ਨੂੰ + infinitive + **ਚਾਹੀਦਾ ਸੀ**: ਸਾਨੂੰ ਪਹਿਲਾਂ ਬੈਟਿੰਗ ਕਰਨੀ **ਚਾਹੀਦੀ ਸੀ**.\n- Both words agree with the object: ਬੈਟਿੰਗ (f) → ਕਰਨੀ ਚਾਹੀਦੀ; ਚੌਕੇ (m pl) → ਮਾਰਨੇ ਚਾਹੀਦੇ.\n- 'Shouldn't have': **ਨਹੀਂ** + infinitive.\n- Reproach a friend: ਤੂੰ ਪਹਿਲਾਂ ਦੱਸਣਾ **ਸੀ**!", "pattern": "ਨੂੰ + infinitive + ਚਾਹੀਦਾ ਸੀ", "grammar": 2 },
+      "new": ["ਫ਼ੁਟਬਾਲ", "ਬੈਟਿੰਗ", "ਆਊਟ", "ਫ਼ਾਈਨਲ", "ਗੇਂਦ", "ਛੱਕਾ", "ਚੌਕਾ", "ਸੈਂਕੜਾ", "ਮੈਚ ਕੌਣ ਜਿੱਤ ਰਿਹਾ ਹੈ?", "ਤੂੰ ਪਹਿਲਾਂ ਦੱਸਣਾ ਸੀ!"],
+      "sentences": [
+        { "native": "ਸਾਨੂੰ ਪਹਿਲਾਂ ਬੈਟਿੰਗ ਕਰਨੀ ਚਾਹੀਦੀ ਸੀ।", "roman": "sānūṃ páilāṃ baiṭiṅg karnī chā́īdī sī.", "en": "We should have batted first.", "focus": "ਚਾਹੀਦੀ", "wrong": ["ਚਾਹੀਦਾ|chā́īdā", "ਚਾਹੀਦੇ|chā́īde"] },
+        { "native": "ਉਸ ਨੂੰ ਉਹ ਸ਼ਾਟ ਨਹੀਂ ਖੇਡਣਾ ਚਾਹੀਦਾ ਸੀ।", "roman": "us nūṃ ó shāṭ nahī̀ṃ kheḍṇā chā́īdā sī.", "en": "He shouldn't have played that shot.", "focus": "ਖੇਡਣਾ", "wrong": ["ਖੇਡਿਆ|kheḍiā", "ਖੇਡਦਾ|kheḍdā"] },
+        { "native": "ਸਾਨੂੰ ਮੈਚ ਵੇਖਣ ਜਾਣਾ ਚਾਹੀਦਾ ਸੀ — ਆਖ਼ਰੀ ਗੇਂਦ 'ਤੇ ਛੱਕਾ!", "roman": "sānūṃ maich vekhaṇ jāṇā chā́īdā sī — āxrī gend te chhakkā!", "en": "We should have gone to the match — a six off the last ball!", "focus": "ਜਾਣਾ", "wrong": ["ਗਏ|gae", "ਜਾਂਦੇ|jānde"] },
+        { "native": "ਉਹ ਸੈਂਕੜੇ ਤੋਂ ਪਹਿਲਾਂ ਹੀ ਆਊਟ ਹੋ ਗਿਆ, ਉਸ ਨੂੰ ਆਰਾਮ ਨਾਲ਼ ਖੇਡਣਾ ਚਾਹੀਦਾ ਸੀ।", "roman": "ó saiṅkṛe toṃ páilāṃ hī āūṭ ho giā, us nūṃ ārām nāḷ kheḍṇā chā́īdā sī.", "en": "He got out just short of his century, he should have taken it easy.", "focus": "ਚਾਹੀਦਾ", "wrong": ["ਚਾਹੀਦੀ|chā́īdī", "ਚਾਹੀਦੇ|chā́īde"] },
+        { "native": "ਤੂੰ ਫ਼ਾਈਨਲ ਵੇਖਣ ਮੇਰੇ ਘਰ ਆਈਂ।", "roman": "tūṃ fāīnal vekhaṇ mere kàr āīṃ.", "en": "Come over to my place to watch the final." },
+        { "native": "ਤੈਨੂੰ ਟਿਕਟਾਂ ਮਿਲ ਗਈਆਂ? ਤੂੰ ਪਹਿਲਾਂ ਦੱਸਣਾ ਸੀ, ਮੈਂ ਵੀ ਆਉਂਦਾ!", "roman": "tainūṃ ṭikṭāṃ mil gaīāṃ? tūṃ páilāṃ dassṇā sī, maiṃ vī āundā!", "en": "You got tickets? You should've said so, I'd have come too!", "focus": "ਸੀ", "wrong": ["ਹੈ|hai", "ਹੈਂ|haiṃ"] },
+        { "native": "ਪਹਿਲੀ ਗੇਂਦ 'ਤੇ ਹੀ ਆਊਟ ਹੋ ਗਿਆ!", "roman": "páilī gend te hī āūṭ ho giā!", "en": "Out first ball!" },
+        { "native": "ਮੈਨੂੰ ਕ੍ਰਿਕਟ ਨਾਲ਼ੋਂ ਫ਼ੁਟਬਾਲ ਜ਼ਿਆਦਾ ਪਸੰਦ ਹੈ।", "roman": "mainūṃ krikaṭ nāḷoṃ fuṭbāl ziādā pasand hai.", "en": "I like football more than cricket." },
+        { "native": "ਉਹਨਾਂ ਨੂੰ ਆਖ਼ਰੀ ਓਵਰ ਵਿੱਚ ਹੋਰ ਚੌਕੇ ਮਾਰਨੇ ਚਾਹੀਦੇ ਸੀ।", "roman": "únāṃ nūṃ āxrī ovar vich hor chauke mārne chā́īde sī.", "en": "They should have hit more fours in the last over.", "focus": "ਚਾਹੀਦੇ", "wrong": ["ਚਾਹੀਦਾ|chā́īdā", "ਚਾਹੀਦੀ|chā́īdī"] }
+      ]
+    }
+  ]
+}

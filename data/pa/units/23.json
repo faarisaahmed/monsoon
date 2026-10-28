@@ -1,0 +1,190 @@
+{
+  "id": 23,
+  "title": "Around town: autos, cabs & the metro",
+  "goal": "Agree a fare with an auto driver, tell a driver where to turn and where to stop, ask how long a trip takes, book a cab and find your way on the metro or bus.",
+  "intro": "Getting around a Punjabi city means autos, e-rickshaws, cabs booked on an app and, on trips to Delhi, the metro. This unit gives you everything you'll say from the back seat: the fare (**ਕਿੰਨਾ ਲਓਗੇ?**), the route (**ਲਾਈਟਾਂ ਤੋਂ ਸੱਜੇ ਮੋੜ ਲਓ**), and where to get out (**ਬੱਸ, ਇੱਥੇ ਹੀ ਰੋਕ ਦਿਓ**).\n\nThe grammar is what makes those requests sound natural: **compound verbs** like ਰੋਕ **ਦਿਓ**, ਮੋੜ **ਲਓ**, ਬੈਠ **ਜਾਓ** — a second verb that tells you who the action is for and whether it's finished — and **ਲੱਗਣਾ** for 'it takes (time)'.",
+  "vocab": [
+    { "native": "ਈ-ਰਿਕਸ਼ਾ", "roman": "ī-rikshā", "en": "e-rickshaw", "pos": "noun", "note": "m · the cheap battery rickshaw that has replaced many cycle-rickshaws" },
+    { "native": "ਸਵਾਰੀ", "roman": "savārī", "en": "passenger; ride", "pos": "noun", "note": "f · pl ਸਵਾਰੀਆਂ · drivers count ਸਵਾਰੀਆਂ, not people" },
+    { "native": "ਮੀਟਰ", "roman": "mīṭar", "en": "meter (in a taxi or auto)", "pos": "noun", "note": "m · ਮੀਟਰ ਨਾਲ਼ 'by the meter'" },
+    { "native": "ਵਾਜਬ", "roman": "vājab", "en": "fair, reasonable (price)", "pos": "adj" },
+    { "native": "ਉਤਾਰਨਾ", "roman": "utārnā", "en": "to drop (someone) off; to take down", "pos": "verb", "note": "transitive of ਉਤਰਨਾ 'to get off': ਮੈਨੂੰ ਇੱਥੇ ਉਤਾਰ ਦਿਓ 'drop me here'" },
+    { "native": "ਪਹੁੰਚਾਉਣਾ", "roman": "páunchāuṇā", "en": "to take (someone) to, to deliver", "pos": "verb", "note": "transitive of ਪਹੁੰਚਣਾ: ਸਾਨੂੰ ਸਟੇਸ਼ਨ ਪਹੁੰਚਾ ਦਿਓ 'get us to the station'" },
+    { "native": "ਸਾਹਮਣੇ", "roman": "sā́mṇe", "en": "opposite, in front (of)", "pos": "postp", "note": "X ਦੇ ਸਾਹਮਣੇ 'opposite X'" },
+    { "native": "ਗਲੀ", "roman": "galī", "en": "lane, side street", "pos": "noun", "note": "f · pl ਗਲੀਆਂ" },
+    { "native": "ਕੋਨਾ", "roman": "konā", "en": "corner", "pos": "noun", "note": "m · ਕੋਨੇ 'ਤੇ 'on the corner'" },
+    { "native": "ਡਿੱਕੀ", "roman": "ḍikkī", "en": "boot (of a car), trunk", "pos": "noun", "note": "f" },
+    { "native": "ਪੈਦਲ", "roman": "paidal", "en": "on foot", "pos": "adv", "note": "ਪੈਦਲ ਜਾਣਾ 'to walk (there)'" },
+    { "native": "ਮੋੜਨਾ", "roman": "moṛnā", "en": "to turn (a vehicle, something)", "pos": "verb", "note": "transitive: ਗੱਡੀ ਮੋੜ ਲਓ 'turn the car'. You yourself ਮੁੜਦੇ ਹੋ (ਮੁੜਨਾ)." },
+    { "native": "ਲਾਈਟਾਂ", "roman": "lāīṭāṃ", "en": "traffic lights", "pos": "noun", "note": "f pl · how Punjabis give directions: ਲਾਈਟਾਂ ਤੋਂ ਖੱਬੇ 'left at the lights'" },
+    { "native": "ਯੂ-ਟਰਨ", "roman": "yū-ṭarn", "en": "U-turn", "pos": "noun", "note": "m · ਯੂ-ਟਰਨ ਲੈਣਾ 'to make a U-turn'" },
+    { "native": "ਪਾਰ", "roman": "pār", "en": "across, the other side", "pos": "adv", "note": "ਸੜਕ ਪਾਰ ਕਰਨੀ 'to cross the road' · X ਦੇ ਪਾਰ 'across X'" },
+    { "native": "ਪੁਲ", "roman": "pul", "en": "bridge; flyover", "pos": "noun", "note": "m" },
+    { "native": "ਤੇਜ਼", "roman": "tez", "en": "fast; strong, sharp", "pos": "adj", "note": "ਤੇਜ਼ ਚਲਾਉਣਾ 'to drive fast'" },
+    { "native": "ਕਿਲੋਮੀਟਰ", "roman": "kilomīṭar", "en": "kilometre", "pos": "noun", "note": "m" },
+    { "native": "ਭੀੜ", "roman": "pī̀ṛ", "en": "crowd; rush", "pos": "noun", "note": "f · ਬਹੁਤ ਭੀੜ ਹੈ 'it's packed'" },
+    { "native": "ਕੈਬ", "roman": "kaib", "en": "cab, taxi (booked on an app)", "pos": "noun", "note": "f" },
+    { "native": "ਐਪ", "roman": "aip", "en": "app", "pos": "noun", "note": "m or f (both heard) · ਐਪ 'ਤੇ 'on the app'" },
+    { "native": "ਬੁੱਕ", "roman": "bukk", "en": "booked", "pos": "adj", "note": "ਬੁੱਕ ਕਰਨਾ 'to book' · ਬੁੱਕ ਹੋਣਾ 'to get booked'" },
+    { "native": "ਮੈਟਰੋ", "roman": "maiṭro", "en": "metro", "pos": "noun", "note": "f" },
+    { "native": "ਟੋਕਨ", "roman": "ṭokan", "en": "token (metro ticket)", "pos": "noun", "note": "m" },
+    { "native": "ਲਾਈਨ", "roman": "lāin", "en": "queue, line; (metro) line", "pos": "noun", "note": "f · ਲਾਈਨ ਵਿੱਚ ਲੱਗਣਾ 'to queue'" },
+    { "native": "ਪਲੇਟਫ਼ਾਰਮ", "roman": "pleṭfāram", "en": "platform", "pos": "noun", "note": "m" },
+    { "native": "ਸਟਾਪ", "roman": "saṭāp", "en": "stop (bus, metro)", "pos": "noun", "note": "m" }
+  ],
+  "phrases": [
+    { "native": "ਭਾਜੀ, ਬੱਸ ਅੱਡੇ ਦਾ ਕਿੰਨਾ ਲਓਗੇ?", "roman": "pā̀jī, bass aḍḍe dā kinnā laoge?", "en": "How much to the bus stand, bhaji?" },
+    { "native": "ਬਹੁਤ ਜ਼ਿਆਦਾ ਹੈ, ਸੌ ਰੁਪਏ ਲੈ ਲਓ।", "roman": "báut ziādā hai, sau rupae lai lao.", "en": "That's too much — take a hundred rupees." },
+    { "native": "ਮੀਟਰ ਨਾਲ਼ ਚੱਲੋ।", "roman": "mīṭar nāḷ challo.", "en": "Go by the meter, please." },
+    { "native": "ਮੈਨੂੰ ਸਟੇਸ਼ਨ ਛੱਡ ਦਿਓ।", "roman": "mainūṃ saṭeshan chhaḍḍ dio.", "en": "Drop me at the station." },
+    { "native": "ਬੱਸ, ਇੱਥੇ ਹੀ ਰੋਕ ਦਿਓ।", "roman": "bass, itthe hī rok dio.", "en": "Just stop right here." },
+    { "native": "ਸਾਮਾਨ ਡਿੱਕੀ ਵਿੱਚ ਰੱਖ ਦਿਓ।", "roman": "sāmān ḍikkī vich rakkh dio.", "en": "Put the luggage in the boot." },
+    { "native": "ਲਾਈਟਾਂ ਤੋਂ ਸੱਜੇ ਮੋੜ ਲਓ।", "roman": "lāīṭāṃ toṃ sajje moṛ lao.", "en": "Turn right at the lights." },
+    { "native": "ਕਿੰਨਾ ਟਾਈਮ ਲੱਗੇਗਾ?", "roman": "kinnā ṭāim laggegā?", "en": "How long will it take?" },
+    { "native": "ਵੀਹ ਮਿੰਟ ਲੱਗਦੇ ਹਨ।", "roman": "vī́ minṭ lagde han.", "en": "It takes twenty minutes." },
+    { "native": "ਕੈਬ ਬੁੱਕ ਕਰ ਲੈ।", "roman": "kaib bukk kar lai.", "en": "Book a cab. (to a friend)" },
+    { "native": "ਡਰਾਈਵਰ ਕਿੰਨੀ ਦੂਰ ਹੈ?", "roman": "ḍarāivar kinnī dūr hai?", "en": "How far away is the driver?" },
+    { "native": "ਥੋੜ੍ਹਾ ਤੇਜ਼ ਚਲਾਓ, ਮੈਨੂੰ ਦੇਰ ਹੋ ਰਹੀ ਹੈ।", "roman": "thóṛā tez chalāo, mainūṃ der ho rahī̀ hai.", "en": "Drive a bit faster, please, I'm running late." },
+    { "native": "ਅਗਲਾ ਸਟੇਸ਼ਨ ਕਿਹੜਾ ਹੈ?", "roman": "aglā saṭeshan kéṛā hai?", "en": "What's the next station?" }
+  ],
+  "grammar": [
+    {
+      "title": "Compound verbs: ਰੋਕ ਦਿਓ, ਮੋੜ ਲਓ, ਬੈਠ ਜਾਓ",
+      "body": "Punjabi often adds a second verb — **ਦੇਣਾ, ਲੈਣਾ** or **ਜਾਣਾ** — to the bare stem of the main verb. The main verb carries the meaning; the second one (which takes all the endings) adds direction and a sense of 'done'. You've already met some: ਹੋ ਗਿਆ, ਖਾ ਲਿਆ, ਬੰਦ ਕਰ ਦਿਓ.\n\n**stem + ਦੇਣਾ** — the action goes out from you, often for someone else: **ਰੋਕ ਦਿਓ** 'stop (for me)', **ਛੱਡ ਦਿਓ** 'drop me (off)', **ਉਤਾਰ ਦਿਓ** 'let me out', **ਪਹੁੰਚਾ ਦਿਓ** 'get me there', **ਦੱਸ ਦਿਓ** 'let me know'.\n**stem + ਲੈਣਾ** — the action is for yourself or comes back to you: **ਮੋੜ ਲਓ** 'turn (your car)', **ਬੁੱਕ ਕਰ ਲੈ** 'book (it for us)', **ਲੈ ਲਓ** 'take it'.\n**stem + ਜਾਣਾ** — a change of place or state, with intransitive verbs: **ਬੈਠ ਜਾਓ** 'get in, sit down', **ਉਤਰ ਜਾਓ** 'get out', **ਰੁਕ ਜਾਓ** 'stop!', **ਪਹੁੰਚ ਜਾਵਾਂਗੇ** 'we'll get there'.\n\n**Why bother?** The plain imperative (ਰੋਕੋ, ਉਤਾਰੋ) sounds abrupt, like an order shouted in an emergency. The compound is the normal, polite way to ask a driver: ਭਾਜੀ, ਇੱਥੇ ਰੋਕ ਦਿਓ.\n\nThe trap: compounds are for things that **happen**. In negatives use the simple verb: ਇੱਥੇ **ਨਾ ਰੋਕੋ** 'don't stop here' — not ਨਾ ਰੋਕ ਦਿਓ.",
+      "examples": [
+        { "native": "ਭਾਜੀ, ਅਗਲੇ ਚੌਕ 'ਤੇ ਰੋਕ ਦਿਓ।", "roman": "pā̀jī, agle chauk te rok dio.", "en": "Bhaji, stop at the next crossroads." },
+        { "native": "ਮੈਨੂੰ ਗੇਟ ਦੇ ਸਾਹਮਣੇ ਉਤਾਰ ਦਿਓ।", "roman": "mainūṃ geṭ de sā́mṇe utār dio.", "en": "Drop me opposite the gate." },
+        { "native": "ਅਗਲੀ ਗਲੀ ਵਿੱਚ ਖੱਬੇ ਮੋੜ ਲਓ।", "roman": "aglī galī vich khabbe moṛ lao.", "en": "Turn left into the next lane." },
+        { "native": "ਜਲਦੀ ਬੈਠ ਜਾਓ, ਬੱਸ ਚੱਲਣ ਵਾਲੀ ਹੈ।", "roman": "jaldī baiṭh jāo, bass challaṇ vālī hai.", "en": "Get on quickly, the bus is about to leave." },
+        { "native": "ਫ਼ਿਕਰ ਨਾ ਕਰੋ, ਅਸੀਂ ਸਮੇਂ ਸਿਰ ਪਹੁੰਚ ਜਾਵਾਂਗੇ।", "roman": "fikar nā karo, asīṃ sameṃ sir páunch jāvāṅge.", "en": "Don't worry, we'll get there on time." }
+      ]
+    },
+    {
+      "title": "It takes (time): ਲੱਗਣਾ",
+      "body": "To say how long something takes, Punjabi makes **the time the subject of ਲੱਗਣਾ** ('to be applied, to be spent'), so the verb agrees with the amount of time:\n\nਇੱਕ ਘੰਟਾ **ਲੱਗਦਾ ਹੈ** 'it takes an hour' (ਘੰਟਾ m sg)\nਵੀਹ ਮਿੰਟ **ਲੱਗਦੇ ਹਨ** 'it takes twenty minutes' (m pl)\nਬਹੁਤ ਦੇਰ **ਲੱਗੇਗੀ** 'it'll take ages' (ਦੇਰ f)\n**ਕਿੰਨਾ ਟਾਈਮ ਲੱਗੇਗਾ?** 'how long will it take?'\n\nThe person it takes goes in **ਨੂੰ**: **ਮੈਨੂੰ** ਦੋ ਘੰਟੇ **ਲੱਗੇ** 'it took me two hours'. For a general fact add ਜਾਂਦਾ: ਇੱਕ ਘੰਟਾ ਲੱਗ ਜਾਂਦਾ ਹੈ 'it ends up taking an hour'.\n\n**Money works the same way**: ਕਿੰਨੇ ਪੈਸੇ **ਲੱਗਣਗੇ**? 'how much will it cost?', ਸੌ ਰੁਪਏ ਲੱਗੇ 'it cost a hundred'.\n\n**Distance** is simpler: ਕਿੰਨੀ ਦੂਰ ਹੈ? — ਪੰਜ ਕਿਲੋਮੀਟਰ (ਹੈ). From … to …: ਇੱਥੋਂ ਸਟੇਸ਼ਨ ਤੱਕ.\n\nIn everyday Punjabi you'll also hear the short future in **-ੂ**: ਦਸ ਮਿੰਟ **ਲੱਗੂ** 'it'll take ten minutes', ਉਹ ਆਊ 'he'll come' — very common in speech, but write ਲੱਗੇਗਾ.\n\nThe trap: don't make 'it' or the traveller the subject. Not ~~ਮੈਂ ਦੋ ਘੰਟੇ ਲੱਗਿਆ~~ — it's ਮੈਨੂੰ ਦੋ ਘੰਟੇ ਲੱਗੇ.",
+      "examples": [
+        { "native": "ਸਟੇਸ਼ਨ ਤੱਕ ਕਿੰਨਾ ਟਾਈਮ ਲੱਗਦਾ ਹੈ?", "roman": "saṭeshan takk kinnā ṭāim lagdā hai?", "en": "How long does it take to the station?" },
+        { "native": "ਆਟੋ ਵਿੱਚ ਪੰਦਰਾਂ ਮਿੰਟ ਲੱਗਦੇ ਹਨ।", "roman": "āṭo vich pandrāṃ minṭ lagde han.", "en": "It takes fifteen minutes by auto." },
+        { "native": "ਕੱਲ੍ਹ ਜਾਮ ਕਰਕੇ ਮੈਨੂੰ ਦੋ ਘੰਟੇ ਲੱਗੇ।", "roman": "káll jām karke mainūṃ do kàṇṭe lagge.", "en": "Yesterday it took me two hours because of the jam." },
+        { "native": "ਕੈਬ ਵਿੱਚ ਕਿੰਨੇ ਪੈਸੇ ਲੱਗਣਗੇ?", "roman": "kaib vich kinne paise laggṇge?", "en": "How much will it cost by cab?" },
+        { "native": "ਬੱਸ ਦਸ ਮਿੰਟ ਹੋਰ ਲੱਗੂ।", "roman": "bass das minṭ hor laggū.", "en": "Just ten more minutes. (colloquial)" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Racing to the station",
+    "setting": "Kiran has a train to catch in Amritsar. She stops an auto outside her college.",
+    "lines": [
+      { "speaker": "Kiran", "native": "ਭਾਜੀ, ਰੇਲਵੇ ਸਟੇਸ਼ਨ ਦਾ ਕਿੰਨਾ ਲਓਗੇ?", "roman": "pā̀jī, relve saṭeshan dā kinnā laoge?", "en": "Bhaji, how much to the railway station?" },
+      { "speaker": "Driver", "native": "ਦੋ ਸੌ ਰੁਪਏ, ਭੈਣ ਜੀ।", "roman": "do sau rupae, pàiṇ jī.", "en": "Two hundred rupees, sister." },
+      { "speaker": "Kiran", "native": "ਦੋ ਸੌ? ਬਹੁਤ ਜ਼ਿਆਦਾ ਹੈ! ਮੈਂ ਰੋਜ਼ ਸੌ ਵਿੱਚ ਜਾਂਦੀ ਹਾਂ।", "roman": "do sau? báut ziādā hai! maiṃ roz sau vich jāndī hāṃ.", "en": "Two hundred? That's way too much! I go for a hundred every day." },
+      { "speaker": "Driver", "native": "ਸੌ ਵਿੱਚ ਨਹੀਂ ਜਾਣਾ। ਡੇਢ ਸੌ ਦੇ ਦਿਓ, ਅੱਜ ਬਹੁਤ ਜਾਮ ਹੈ।", "roman": "sau vich nahī̀ṃ jāṇā. ḍéḍ sau de dio, ajj báut jām hai.", "en": "I'm not going for a hundred. Give me a hundred and fifty — the traffic's terrible today." },
+      { "speaker": "Kiran", "native": "ਚੱਲੋ, ਇੱਕ ਸੌ ਵੀਹ। ਵਾਜਬ ਹੈ?", "roman": "challo, ikk sau vī́. vājab hai?", "en": "OK, a hundred and twenty. That's fair, isn't it?" },
+      { "speaker": "Driver", "native": "ਚੱਲੋ ਠੀਕ ਹੈ, ਬੈਠ ਜਾਓ।", "roman": "challo ṭhīk hai, baiṭh jāo.", "en": "All right, fine — get in." },
+      { "speaker": "Kiran", "native": "ਸਟੇਸ਼ਨ ਤੱਕ ਕਿੰਨਾ ਟਾਈਮ ਲੱਗੇਗਾ? ਮੇਰੀ ਗੱਡੀ ਸਾਢੇ ਚਾਰ ਵਜੇ ਹੈ।", "roman": "saṭeshan takk kinnā ṭāim laggegā? merī gaḍḍī sā́ḍe chār vaje hai.", "en": "How long will it take to the station? My train is at half past four." },
+      { "speaker": "Driver", "native": "ਆਮ ਤੌਰ 'ਤੇ ਵੀਹ ਮਿੰਟ ਲੱਗਦੇ ਹਨ। ਪਰ ਪੁਲ 'ਤੇ ਜਾਮ ਹੈ, ਮੈਂ ਗਲੀਆਂ ਵਿੱਚੋਂ ਲੈ ਜਾਂਦਾ ਹਾਂ।", "roman": "ām taur te vī́ minṭ lagde han. par pul te jām hai, maiṃ galīāṃ vichchoṃ lai jāndā hāṃ.", "en": "Usually twenty minutes. But there's a jam on the flyover — I'll take you through the lanes." },
+      { "speaker": "Kiran", "native": "ਠੀਕ ਹੈ, ਪਰ ਥੋੜ੍ਹਾ ਤੇਜ਼ ਚਲਾਓ!", "roman": "ṭhīk hai, par thóṛā tez chalāo!", "en": "OK, but drive a bit faster!" },
+      { "speaker": "Driver", "native": "ਲਓ ਜੀ, ਆ ਗਿਆ ਸਟੇਸ਼ਨ — ਸਿਰਫ਼ ਪੰਦਰਾਂ ਮਿੰਟ ਲੱਗੇ!", "roman": "lao jī, ā giā saṭeshan — sirf pandrāṃ minṭ lagge!", "en": "There you go, here's the station — only fifteen minutes!" },
+      { "speaker": "Kiran", "native": "ਕਮਾਲ ਹੋ ਗਈ! ਮੈਨੂੰ ਗੇਟ ਦੇ ਸਾਹਮਣੇ ਉਤਾਰ ਦਿਓ।", "roman": "kamāl ho gaī! mainūṃ geṭ de sā́mṇe utār dio.", "en": "Amazing! Drop me opposite the gate." },
+      { "speaker": "Driver", "native": "ਇੱਥੇ ਨਹੀਂ ਰੋਕ ਸਕਦਾ, ਪੁਲਿਸ ਵਾਲਾ ਖੜ੍ਹਾ ਹੈ। ਕੋਨੇ 'ਤੇ ਉਤਰ ਜਾਓ।", "roman": "itthe nahī̀ṃ rok sakdā, pulis vālā kháṛā hai. kone te utar jāo.", "en": "I can't stop here, there's a policeman standing there. Get out at the corner." },
+      { "speaker": "Kiran", "native": "ਆਹ ਲਓ, ਇੱਕ ਸੌ ਵੀਹ — ਤੇ ਦਸ ਹੋਰ, ਤੇਜ਼ ਚਲਾਉਣ ਲਈ!", "roman": "ā́ lao, ikk sau vī́ — te das hor, tez chalāuṇ laī!", "en": "Here you go, a hundred and twenty — and ten more for the fast driving!" }
+    ]
+  },
+  "culture": "In Punjabi cities the **auto** and the **ਈ-ਰਿਕਸ਼ਾ** are everywhere, and unless there's a working meter (rare outside big cities) you agree the fare **before** you get in. Haggling is expected and good-humoured: name your price, mention what you usually pay, and meet in the middle. Drivers are addressed as **ਭਾਜੀ**, **ਵੀਰ ਜੀ** or **ਭਾਈ ਸਾਹਬ**, an older one as **ਸਰਦਾਰ ਜੀ** or **ਅੰਕਲ ਜੀ**; they'll call a young woman **ਭੈਣ ਜੀ** and an older one **ਬੀਬੀ ਜੀ** or **ਆਂਟੀ ਜੀ**. Shared autos pick up extra **ਸਵਾਰੀਆਂ** along a fixed route for a few rupees each. App cabs work in Chandigarh, Mohali, Ludhiana and Amritsar; you'll still often get a call from the driver asking **ਕਿੱਥੇ ਆਵਾਂ?** 'where shall I come?'. Directions are given by landmarks, not street names — **ਗੁਰਦੁਆਰੇ ਤੋਂ ਅੱਗੇ, ਪੈਟਰੋਲ ਪੰਪ ਦੇ ਸਾਹਮਣੇ**, **ਲਾਈਟਾਂ ਤੋਂ ਖੱਬੇ** — and Chandigarh people navigate by sector number (*ਸੈਕਟਰ ਸਤਾਰਾਂ*). Amritsar has its BRTS 'metro bus'; the nearest real metro is in Delhi, where Punjabi is heard on every line.",
+  "lessons": [
+    {
+      "title": "Agreeing the fare",
+      "tip": { "title": "Asking the price and haggling", "body": "- Ask with the future: X ਦਾ **ਕਿੰਨਾ ਲਓਗੇ?** 'how much will you take for X?', or X **ਚੱਲੋਗੇ?** 'will you go to X?'\n- Counter with **ਲੈ ਲਓ**: ਸੌ ਰੁਪਏ ਲੈ ਲਓ 'take a hundred'.\n- Address the driver as **ਭਾਜੀ** or **ਵੀਰ ਜੀ**, and use ਤੁਸੀਂ forms.", "pattern": "place + ਦਾ ਕਿੰਨਾ ਲਓਗੇ?" },
+      "new": ["ਈ-ਰਿਕਸ਼ਾ", "ਸਵਾਰੀ", "ਮੀਟਰ", "ਵਾਜਬ", "ਭਾਜੀ, ਬੱਸ ਅੱਡੇ ਦਾ ਕਿੰਨਾ ਲਓਗੇ?", "ਬਹੁਤ ਜ਼ਿਆਦਾ ਹੈ, ਸੌ ਰੁਪਏ ਲੈ ਲਓ।", "ਮੀਟਰ ਨਾਲ਼ ਚੱਲੋ।"],
+      "sentences": [
+        { "native": "ਭਾਜੀ, ਸਟੇਸ਼ਨ ਚੱਲੋਗੇ?", "roman": "pā̀jī, saṭeshan challoge?", "en": "Bhaji, will you go to the station?", "focus": "ਚੱਲੋਗੇ", "wrong": ["ਚੱਲਾਂਗਾ|challāṅgā", "ਚੱਲਿਆ|challiā"] },
+        { "native": "ਗੁਰਦੁਆਰੇ ਦਾ ਕਿੰਨਾ ਲਓਗੇ?", "roman": "gurduāre dā kinnā laoge?", "en": "How much to the gurdwara?", "focus": "ਲਓਗੇ", "wrong": ["ਲਵਾਂਗਾ|lavāṅgā", "ਲਿਆ|liā"] },
+        { "native": "ਡੇਢ ਸੌ? ਬਹੁਤ ਜ਼ਿਆਦਾ ਹੈ, ਸੌ ਲੈ ਲਓ।", "roman": "ḍéḍ sau? báut ziādā hai, sau lai lao.", "en": "A hundred and fifty? That's too much — take a hundred.", "focus": "ਲਓ", "wrong": ["ਲਿਆ|liā", "ਲੈਂਦਾ|laindā"] },
+        { "native": "ਇਹ ਵਾਜਬ ਕਿਰਾਇਆ ਹੈ, ਮੈਂ ਰੋਜ਼ ਜਾਂਦੀ ਹਾਂ।", "roman": "é vājab kirāiā hai, maiṃ roz jāndī hāṃ.", "en": "That's a fair fare — I go every day. (woman speaking)" },
+        { "native": "ਤੁਹਾਡਾ ਮੀਟਰ ਖ਼ਰਾਬ ਹੈ?", "roman": "tuhā̀ḍā mīṭar xarāb hai?", "en": "Is your meter broken?", "focus": "ਤੁਹਾਡਾ", "wrong": ["ਤੁਹਾਡੀ|tuhā̀ḍī", "ਤੁਹਾਡੇ|tuhā̀ḍe"] },
+        { "native": "ਈ-ਰਿਕਸ਼ਾ ਸਸਤਾ ਪੈਂਦਾ ਹੈ।", "roman": "ī-rikshā sastā paindā hai.", "en": "An e-rickshaw works out cheaper.", "focus": "ਸਸਤਾ", "wrong": ["ਸਸਤੀ|sastī", "ਸਸਤੇ|saste"] },
+        { "native": "ਇਸ ਈ-ਰਿਕਸ਼ਾ ਵਿੱਚ ਛੇ ਸਵਾਰੀਆਂ ਬੈਠੀਆਂ ਹਨ!", "roman": "is ī-rikshā vich chhe savārīāṃ baiṭhīāṃ han!", "en": "There are six passengers sitting in this e-rickshaw!", "focus": "ਬੈਠੀਆਂ", "wrong": ["ਬੈਠੇ|baiṭhe", "ਬੈਠਾ|baiṭhā"] },
+        { "native": "ਠੀਕ ਹੈ, ਸੌ ਰੁਪਏ। ਬੈਠੋ।", "roman": "ṭhīk hai, sau rupae. baiṭho.", "en": "OK, a hundred rupees. Get in." },
+        { "native": "ਵਾਪਸ ਵੀ ਚੱਲੋਗੇ? ਮੈਂ ਅੱਧੇ ਘੰਟੇ ਵਿੱਚ ਮੁੜਾਂਗੀ।", "roman": "vāpas vī challoge? maiṃ ádde kàṇṭe vich muṛāṅgī.", "en": "Will you take me back too? I'll be back in half an hour. (woman speaking)", "focus": "ਚੱਲੋਗੇ", "wrong": ["ਚੱਲਾਂਗਾ|challāṅgā", "ਚੱਲਿਆ|challiā"] }
+      ]
+    },
+    {
+      "title": "Stop here, drop me there",
+      "tip": { "title": "Stop, drop me, get out: compound verbs", "body": "- **ਦੇਣਾ** when you do it for someone: ਰੋਕ **ਦਿਓ** 'stop (for me)', ਉਤਾਰ **ਦਿਓ** 'drop me'.\n- **ਲੈਣਾ** when it's for yourself: ਮੋੜ **ਲਓ**, ਬੁੱਕ ਕਰ **ਲੈ**.\n- **ਜਾਣਾ** for getting in, out, there: ਬੈਠ **ਜਾਓ**, ਉਤਰ **ਜਾਓ**.\n- In 'don't', use the simple verb: ਇੱਥੇ ਨਾ **ਰੋਕੋ**.", "pattern": "stem + ਦਿਓ / ਲਓ / ਜਾਓ", "grammar": 0 },
+      "new": ["ਉਤਾਰਨਾ", "ਪਹੁੰਚਾਉਣਾ", "ਸਾਹਮਣੇ", "ਗਲੀ", "ਕੋਨਾ", "ਡਿੱਕੀ", "ਪੈਦਲ", "ਮੈਨੂੰ ਸਟੇਸ਼ਨ ਛੱਡ ਦਿਓ।", "ਬੱਸ, ਇੱਥੇ ਹੀ ਰੋਕ ਦਿਓ।", "ਸਾਮਾਨ ਡਿੱਕੀ ਵਿੱਚ ਰੱਖ ਦਿਓ।"],
+      "sentences": [
+        { "native": "ਮੈਨੂੰ ਹਸਪਤਾਲ ਦੇ ਸਾਹਮਣੇ ਉਤਾਰ ਦਿਓ।", "roman": "mainūṃ haspatāl de sā́mṇe utār dio.", "en": "Drop me opposite the hospital.", "focus": "ਦਿਓ", "wrong": ["ਲਓ|lao", "ਜਾਓ|jāo"] },
+        { "native": "ਭਾਜੀ, ਗਲੀ ਦੇ ਕੋਨੇ 'ਤੇ ਰੋਕ ਦਿਓ।", "roman": "pā̀jī, galī de kone te rok dio.", "en": "Bhaji, stop at the corner of the lane.", "focus": "ਦਿਓ", "wrong": ["ਲਓ|lao", "ਜਾਓ|jāo"] },
+        { "native": "ਸਾਨੂੰ ਬੱਸ ਅੱਡੇ ਪਹੁੰਚਾ ਦਿਓ, ਜਲਦੀ।", "roman": "sānūṃ bass aḍḍe páunchā dio, jaldī.", "en": "Get us to the bus stand, quickly.", "focus": "ਪਹੁੰਚਾ", "wrong": ["ਪਹੁੰਚ|páunch", "ਪਹੁੰਚਿਆ|páunchiā"] },
+        { "native": "ਸਾਮਾਨ ਡਿੱਕੀ ਵਿੱਚ ਰੱਖ ਦਿਓ, ਮੈਂ ਪਿੱਛੇ ਬੈਠ ਜਾਂਦਾ ਹਾਂ।", "roman": "sāmān ḍikkī vich rakkh dio, maiṃ pichchhe baiṭh jāndā hāṃ.", "en": "Put the bags in the boot, I'll sit in the back.", "focus": "ਜਾਂਦਾ", "wrong": ["ਦਿੰਦਾ|dindā", "ਲੈਂਦਾ|laindā"] },
+        { "native": "ਨਹੀਂ ਨਹੀਂ, ਇੱਥੇ ਨਾ ਰੋਕੋ, ਅੱਗੇ ਚੱਲੋ।", "roman": "nahī̀ṃ nahī̀ṃ, itthe nā roko, agge challo.", "en": "No, no, don't stop here — keep going.", "focus": "ਰੋਕੋ", "wrong": ["ਰੋਕਿਆ|rokiā", "ਰੋਕਦੇ|rokde"] },
+        { "native": "ਮੈਨੂੰ ਮੰਦਰ ਕੋਲ ਛੱਡ ਦਿਓ, ਅੱਗੇ ਮੈਂ ਪੈਦਲ ਚਲੀ ਜਾਵਾਂਗੀ।", "roman": "mainūṃ mandar kol chhaḍḍ dio, agge maiṃ paidal chalī jāvāṅgī.", "en": "Drop me near the temple — I'll walk from there. (woman speaking)", "focus": "ਛੱਡ", "wrong": ["ਛੱਡਿਆ|chhaḍḍiā", "ਛੱਡਦੇ|chhaḍḍde"] },
+        { "native": "ਉਸ ਗਲੀ ਵਿੱਚ ਗੱਡੀ ਨਹੀਂ ਜਾਂਦੀ, ਇੱਥੇ ਹੀ ਉਤਰ ਜਾਓ।", "roman": "us galī vich gaḍḍī nahī̀ṃ jāndī, itthe hī utar jāo.", "en": "Cars can't get down that lane — get out right here.", "focus": "ਜਾਓ", "wrong": ["ਦਿਓ|dio", "ਲਓ|lao"] },
+        { "native": "ਕੋਨੇ ਵਾਲੀ ਦੁਕਾਨ ਦੇ ਸਾਹਮਣੇ ਮੇਰਾ ਘਰ ਹੈ।", "roman": "kone vālī dukān de sā́mṇe merā kàr hai.", "en": "My house is opposite the corner shop." },
+        { "native": "ਇੱਥੇ ਹੀ ਰੋਕ ਦਿਓ, ਮੈਂ ਪੈਦਲ ਜਾ ਸਕਦੀ ਹਾਂ।", "roman": "itthe hī rok dio, maiṃ paidal jā sakdī hāṃ.", "en": "Stop right here, I can walk. (woman speaking)" }
+      ]
+    },
+    {
+      "title": "Directions from the back seat",
+      "tip": { "title": "Turning: ਮੋੜ ਲਓ vs ਮੁੜ ਜਾਓ", "body": "- **ਮੋੜਨਾ** = turn something (the car): ਗੱਡੀ ਸੱਜੇ **ਮੋੜ ਲਓ**.\n- **ਮੁੜਨਾ** = turn yourself: ਸੱਜੇ **ਮੁੜ ਜਾਓ** (on foot).\n- Where to turn takes **ਤੋਂ**: ਲਾਈਟਾਂ **ਤੋਂ** ਖੱਬੇ 'left at the lights'.\n- ਲਾਈਟਾਂ is feminine plural: **ਅਗਲੀਆਂ** ਲਾਈਟਾਂ.", "pattern": "place + ਤੋਂ + ਸੱਜੇ / ਖੱਬੇ + ਮੋੜ ਲਓ", "grammar": 0 },
+      "new": ["ਮੋੜਨਾ", "ਲਾਈਟਾਂ", "ਯੂ-ਟਰਨ", "ਪਾਰ", "ਪੁਲ", "ਤੇਜ਼", "ਲਾਈਟਾਂ ਤੋਂ ਸੱਜੇ ਮੋੜ ਲਓ।"],
+      "sentences": [
+        { "native": "ਅਗਲੀਆਂ ਲਾਈਟਾਂ ਤੋਂ ਖੱਬੇ ਮੋੜ ਲਓ।", "roman": "aglīāṃ lāīṭāṃ toṃ khabbe moṛ lao.", "en": "Turn left at the next lights.", "focus": "ਅਗਲੀਆਂ", "wrong": ["ਅਗਲੇ|agle", "ਅਗਲਾ|aglā"] },
+        { "native": "ਪੁਲ ਤੋਂ ਬਾਅਦ ਯੂ-ਟਰਨ ਲੈ ਲਓ।", "roman": "pul toṃ bāad yū-ṭarn lai lao.", "en": "Make a U-turn after the flyover.", "focus": "ਲਓ", "wrong": ["ਦਿਓ|dio", "ਜਾਓ|jāo"] },
+        { "native": "ਗੱਡੀ ਇੱਥੇ ਮੋੜ ਲਓ, ਇਹ ਰਸਤਾ ਛੋਟਾ ਹੈ।", "roman": "gaḍḍī itthe moṛ lao, é rastā chhoṭā hai.", "en": "Turn the car here, this way is shorter.", "focus": "ਮੋੜ", "wrong": ["ਮੁੜ|muṛ", "ਮੋੜਿਆ|moṛiā"] },
+        { "native": "ਅਸੀਂ ਗ਼ਲਤ ਪਾਸੇ ਮੁੜ ਗਏ।", "roman": "asīṃ ġalat pāse muṛ gae.", "en": "We turned the wrong way.", "focus": "ਮੁੜ", "wrong": ["ਮੋੜ|moṛ", "ਮੋੜਿਆ|moṛiā"] },
+        { "native": "ਪੁਲ ਪਾਰ ਕਰ ਕੇ ਸੱਜੇ ਪਾਸੇ ਦੂਜੀ ਗਲੀ।", "roman": "pul pār kar ke sajje pāse dūjī galī.", "en": "Cross the bridge, then it's the second lane on the right." },
+        { "native": "ਭਾਜੀ, ਇੰਨਾ ਤੇਜ਼ ਨਾ ਚਲਾਓ!", "roman": "pā̀jī, innā tez nā chalāo!", "en": "Bhaji, don't drive so fast!", "focus": "ਨਾ", "wrong": ["ਨਹੀਂ|nahī̀ṃ", "ਨੂੰ|nūṃ"] },
+        { "native": "ਲਾਈਟਾਂ ਲਾਲ ਹਨ, ਰੁਕ ਜਾਓ!", "roman": "lāīṭāṃ lāl han, ruk jāo!", "en": "The lights are red — stop!", "focus": "ਜਾਓ", "wrong": ["ਦਿਓ|dio", "ਲਓ|lao"] },
+        { "native": "ਸੜਕ ਦੇ ਪਾਰ ਮੇਰਾ ਦਫ਼ਤਰ ਹੈ।", "roman": "saṛak de pār merā daftar hai.", "en": "My office is across the road." }
+      ]
+    },
+    {
+      "title": "How long does it take?",
+      "tip": { "title": "It takes…: ਲੱਗਣਾ", "body": "- The time is the subject of **ਲੱਗਣਾ**, and the verb agrees with it: ਇੱਕ ਘੰਟਾ **ਲੱਗਦਾ** ਹੈ, ਵੀਹ ਮਿੰਟ **ਲੱਗਦੇ** ਹਨ, ਦੇਰ (f) **ਲੱਗੇਗੀ**.\n- The person it takes gets **ਨੂੰ**: ਮੈਨੂੰ ਦੋ ਘੰਟੇ **ਲੱਗੇ** 'it took me two hours'.\n- Cost works the same way: ਕਿੰਨੇ ਪੈਸੇ **ਲੱਗਣਗੇ**?", "pattern": "(X ਨੂੰ) + time + ਲੱਗਦਾ ਹੈ / ਲੱਗਦੇ ਹਨ", "grammar": 1 },
+      "new": ["ਕਿਲੋਮੀਟਰ", "ਭੀੜ", "ਕਿੰਨਾ ਟਾਈਮ ਲੱਗੇਗਾ?", "ਵੀਹ ਮਿੰਟ ਲੱਗਦੇ ਹਨ।"],
+      "sentences": [
+        { "native": "ਇੱਥੋਂ ਹਵਾਈ ਅੱਡੇ ਤੱਕ ਕਿੰਨਾ ਟਾਈਮ ਲੱਗਦਾ ਹੈ?", "roman": "itthoṃ havāī aḍḍe takk kinnā ṭāim lagdā hai?", "en": "How long does it take from here to the airport?", "focus": "ਲੱਗਦਾ", "wrong": ["ਲੱਗਦੀ|lagdī", "ਲੱਗਦੇ|lagde"] },
+        { "native": "ਆਮ ਤੌਰ 'ਤੇ ਅੱਧਾ ਘੰਟਾ ਲੱਗਦਾ ਹੈ।", "roman": "ām taur te áddā kàṇṭā lagdā hai.", "en": "It usually takes half an hour.", "focus": "ਲੱਗਦਾ", "wrong": ["ਲੱਗਦੇ|lagde", "ਲੱਗਦੀ|lagdī"] },
+        { "native": "ਪਰ ਸ਼ਾਮ ਨੂੰ ਭੀੜ ਕਰਕੇ ਇੱਕ ਘੰਟਾ ਲੱਗ ਜਾਂਦਾ ਹੈ।", "roman": "par shām nūṃ pī̀ṛ karke ikk kàṇṭā lagg jāndā hai.", "en": "But in the evening it ends up taking an hour because of the rush." },
+        { "native": "ਕੱਲ੍ਹ ਮੈਨੂੰ ਜਾਮ ਵਿੱਚ ਦੋ ਘੰਟੇ ਲੱਗੇ।", "roman": "káll mainūṃ jām vich do kàṇṭe lagge.", "en": "Yesterday I spent two hours in a jam.", "focus": "ਲੱਗੇ", "wrong": ["ਲੱਗਿਆ|laggiā", "ਲੱਗੀ|laggī"] },
+        { "native": "ਸਟੇਸ਼ਨ ਇੱਥੋਂ ਤਿੰਨ ਕਿਲੋਮੀਟਰ ਹੈ, ਪੈਦਲ ਨਾ ਜਾ।", "roman": "saṭeshan itthoṃ tinn kilomīṭar hai, paidal nā jā.", "en": "The station's three kilometres from here — don't walk." },
+        { "native": "ਆਟੋ ਵਿੱਚ ਤਕਰੀਬਨ ਸੌ ਰੁਪਏ ਲੱਗਣਗੇ।", "roman": "āṭo vich takrīban sau rupae laggṇge.", "en": "By auto it'll cost about a hundred rupees.", "focus": "ਲੱਗਣਗੇ", "wrong": ["ਲੱਗੇਗਾ|laggegā", "ਲੱਗੇਗੀ|laggegī"] },
+        { "native": "ਬੱਸ ਵਿੱਚ ਕਿੰਨੀ ਦੇਰ ਲੱਗੇਗੀ?", "roman": "bass vich kinnī der laggegī?", "en": "How long will it take by bus?", "focus": "ਲੱਗੇਗੀ", "wrong": ["ਲੱਗੇਗਾ|laggegā", "ਲੱਗਣਗੇ|laggṇge"] },
+        { "native": "ਬੱਸ ਪੰਜ ਮਿੰਟ ਹੋਰ ਲੱਗੂ।", "roman": "bass panj minṭ hor laggū.", "en": "Just five more minutes. (colloquial)" },
+        { "native": "ਸ਼ਨਿੱਚਰਵਾਰ ਨੂੰ ਬਾਜ਼ਾਰ ਵਿੱਚ ਬਹੁਤ ਭੀੜ ਹੁੰਦੀ ਹੈ।", "roman": "shanichcharvār nūṃ bāzār vich báut pī̀ṛ hundī hai.", "en": "The market gets really crowded on Saturdays.", "focus": "ਹੁੰਦੀ", "wrong": ["ਹੁੰਦਾ|hundā", "ਹੁੰਦੇ|hunde"] }
+      ]
+    },
+    {
+      "title": "Booking a cab",
+      "tip": { "title": "English verbs: ਬੁੱਕ ਕਰ ਲੈ, ਕੈਂਸਲ ਕਰ ਦਿੱਤੀ", "body": "- App words take **ਕਰਨਾ** + a compound: ਕੈਬ ਬੁੱਕ ਕਰ **ਲੈ** (for us), ਬੁੱਕ ਕਰ **ਦਿੱਤੀ** (done!).\n- With ਨੇ the verb agrees with the thing: ਕੈਬ (f) ਬੁੱਕ ਕਰ **ਦਿੱਤੀ**, ਆਟੋ (m) ਬੁੱਕ ਕਰ **ਦਿੱਤਾ**.\n- 'It gets booked' = **ਬੁੱਕ ਹੋ ਜਾਂਦਾ ਹੈ**.", "pattern": "ਬੁੱਕ ਕਰ ਲੈ · ਬੁੱਕ ਕਰ ਦਿੱਤੀ · ਬੁੱਕ ਹੋ ਗਈ", "grammar": 0 },
+      "new": ["ਕੈਬ", "ਐਪ", "ਬੁੱਕ", "ਕੈਬ ਬੁੱਕ ਕਰ ਲੈ।", "ਡਰਾਈਵਰ ਕਿੰਨੀ ਦੂਰ ਹੈ?", "ਥੋੜ੍ਹਾ ਤੇਜ਼ ਚਲਾਓ, ਮੈਨੂੰ ਦੇਰ ਹੋ ਰਹੀ ਹੈ।"],
+      "sentences": [
+        { "native": "ਐਪ 'ਤੇ ਕੈਬ ਬੁੱਕ ਕਰ ਲੈ, ਆਟੋ ਨਹੀਂ ਮਿਲ ਰਿਹਾ।", "roman": "aip te kaib bukk kar lai, āṭo nahī̀ṃ mil rihā̀.", "en": "Book a cab on the app, we can't find an auto.", "focus": "ਲੈ", "wrong": ["ਲਿਆ|liā", "ਲੈਂਦਾ|laindā"] },
+        { "native": "ਮੈਂ ਕੈਬ ਬੁੱਕ ਕਰ ਦਿੱਤੀ ਹੈ, ਪੰਜ ਮਿੰਟ ਵਿੱਚ ਆ ਜਾਵੇਗੀ।", "roman": "maiṃ kaib bukk kar dittī hai, panj minṭ vich ā jāvegī.", "en": "I've booked a cab, it'll be here in five minutes.", "focus": "ਦਿੱਤੀ", "wrong": ["ਦਿੱਤਾ|dittā", "ਦਿੱਤੇ|ditte"] },
+        { "native": "ਡਰਾਈਵਰ ਕਹਿੰਦਾ, “ਲੋਕੇਸ਼ਨ 'ਤੇ ਆ ਜਾਓ।”", "roman": "ḍarāivar káindā, “lokeshan te ā jāo.”", "en": "The driver goes, \"Come to the pin.\"" },
+        { "native": "ਡਰਾਈਵਰ ਨੇ ਕੈਂਸਲ ਕਰ ਦਿੱਤਾ!", "roman": "ḍarāivar ne kainsal kar dittā!", "en": "The driver cancelled!", "focus": "ਨੇ", "wrong": ["ਨੂੰ|nūṃ", "ਦਾ|dā"] },
+        { "native": "ਇਸ ਐਪ 'ਤੇ ਆਟੋ ਵੀ ਬੁੱਕ ਹੋ ਜਾਂਦਾ ਹੈ।", "roman": "is aip te āṭo vī bukk ho jāndā hai.", "en": "You can book autos on this app too.", "focus": "ਹੋ", "wrong": ["ਕਰ|kar", "ਕੀਤਾ|kītā"] },
+        { "native": "ਡਰਾਈਵਰ ਕਿੰਨੀ ਦੂਰ ਹੈ? ਐਪ 'ਤੇ ਵੇਖ।", "roman": "ḍarāivar kinnī dūr hai? aip te vekh.", "en": "How far away is the driver? Check the app." },
+        { "native": "ਭਾਜੀ, ਥੋੜ੍ਹਾ ਤੇਜ਼ ਚਲਾਓ, ਗੱਡੀ ਨਿਕਲ ਜਾਵੇਗੀ।", "roman": "pā̀jī, thóṛā tez chalāo, gaḍḍī nikal jāvegī.", "en": "Bhaji, drive a bit faster, or I'll miss the train." },
+        { "native": "ਕੈਬ ਆਟੋ ਨਾਲ਼ੋਂ ਮਹਿੰਗੀ ਹੈ, ਪਰ ਆਰਾਮ ਨਾਲ਼ ਜਾਂਦੇ ਹਾਂ।", "roman": "kaib āṭo nāḷoṃ máingī hai, par ārām nāḷ jānde hāṃ.", "en": "A cab costs more than an auto, but you travel in comfort.", "focus": "ਮਹਿੰਗੀ", "wrong": ["ਮਹਿੰਗਾ|máingā", "ਮਹਿੰਗੇ|máinge"] }
+      ]
+    },
+    {
+      "title": "Metro and bus",
+      "tip": { "title": "Which one? ਕਿਹੜਾ agrees", "body": "- **ਕਿਹੜਾ** 'which' agrees like an adjective: ਕਿਹੜਾ ਸਟੇਸ਼ਨ, **ਕਿਹੜੀ** ਮੈਟਰੋ, and before a postposition **ਕਿਹੜੇ**: ਕਿਹੜੇ ਪਲੇਟਫ਼ਾਰਮ ਤੋਂ?\n- 'Have to change' = **ਬਦਲਣੀ ਪਵੇਗੀ** — the infinitive agrees with what you change (ਮੈਟਰੋ f).\n- **ਉਤਰਨਾ ਹੈ** 'I need to get off'.", "pattern": "ਕਿਹੜਾ / ਕਿਹੜੀ / ਕਿਹੜੇ + noun" },
+      "new": ["ਮੈਟਰੋ", "ਟੋਕਨ", "ਲਾਈਨ", "ਪਲੇਟਫ਼ਾਰਮ", "ਸਟਾਪ", "ਅਗਲਾ ਸਟੇਸ਼ਨ ਕਿਹੜਾ ਹੈ?"],
+      "sentences": [
+        { "native": "ਮੈਟਰੋ ਦਾ ਟੋਕਨ ਕਿੱਥੋਂ ਮਿਲੇਗਾ?", "roman": "maiṭro dā ṭokan kitthoṃ milegā?", "en": "Where can I get a metro token?", "focus": "ਮਿਲੇਗਾ", "wrong": ["ਮਿਲੇਗੀ|milegī", "ਮਿਲਣਗੇ|milaṇge"] },
+        { "native": "ਟੋਕਨ ਲਈ ਬਹੁਤ ਲੰਮੀ ਲਾਈਨ ਹੈ।", "roman": "ṭokan laī báut lammī lāin hai.", "en": "There's a really long queue for tokens.", "focus": "ਲੰਮੀ", "wrong": ["ਲੰਮਾ|lammā", "ਲੰਮੇ|lamme"] },
+        { "native": "ਇਹ ਮੈਟਰੋ ਕਿਹੜੇ ਪਲੇਟਫ਼ਾਰਮ ਤੋਂ ਜਾਂਦੀ ਹੈ?", "roman": "é maiṭro kéṛe pleṭfāram toṃ jāndī hai?", "en": "Which platform does this metro leave from?", "focus": "ਕਿਹੜੇ", "wrong": ["ਕਿਹੜਾ|kéṛā", "ਕਿਹੜੀ|kéṛī"] },
+        { "native": "ਅਗਲੇ ਸਟੇਸ਼ਨ 'ਤੇ ਮੈਟਰੋ ਬਦਲਣੀ ਪਵੇਗੀ।", "roman": "agle saṭeshan te maiṭro badalṇī pavegī.", "en": "You'll have to change trains at the next station.", "focus": "ਬਦਲਣੀ", "wrong": ["ਬਦਲਣਾ|badalṇā", "ਬਦਲਣੇ|badalṇe"] },
+        { "native": "ਅਗਲਾ ਸਟੇਸ਼ਨ ਕਿਹੜਾ ਹੈ? ਮੈਂ ਉੱਥੇ ਉਤਰਨਾ ਹੈ।", "roman": "aglā saṭeshan kéṛā hai? maiṃ utthe utarnā hai.", "en": "What's the next station? I need to get off there." },
+        { "native": "ਇਸ ਬੱਸ ਦਾ ਸਟਾਪ ਕਿੱਥੇ ਹੈ?", "roman": "is bass dā saṭāp kitthe hai?", "en": "Where's the stop for this bus?" },
+        { "native": "ਸਵੇਰੇ ਮੈਟਰੋ ਵਿੱਚ ਸੀਟ ਨਹੀਂ ਮਿਲਦੀ।", "roman": "savere maiṭro vich sīṭ nahī̀ṃ mildī.", "en": "You can't get a seat on the metro in the morning.", "focus": "ਮਿਲਦੀ", "wrong": ["ਮਿਲਦਾ|mildā", "ਮਿਲਦੇ|milde"] },
+        { "native": "ਦੋ ਸਟਾਪ ਬਾਅਦ ਉਤਰ ਜਾਈਂ।", "roman": "do saṭāp bāad utar jāīṃ.", "en": "Get off two stops later." },
+        { "native": "ਗੱਡੀ ਪਲੇਟਫ਼ਾਰਮ ਨੰਬਰ ਤਿੰਨ 'ਤੇ ਆਵੇਗੀ।", "roman": "gaḍḍī pleṭfāram nambar tinn te āvegī.", "en": "The train will come in on platform three.", "focus": "ਆਵੇਗੀ", "wrong": ["ਆਵੇਗਾ|āvegā", "ਆਉਣਗੇ|āuṇge"] }
+      ]
+    }
+  ]
+}

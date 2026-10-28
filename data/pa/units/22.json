@@ -1,0 +1,187 @@
+{
+  "id": 22,
+  "title": "Calls, texts & voice notes",
+  "goal": "Make and return calls, cope with a bad line, text and send voice notes and locations, and say what has just, already or not yet happened.",
+  "intro": "Most of your Punjabi with friends will happen on the phone: quick calls, endless voice notes, and the family WhatsApp group. This unit gives you the phrases for all of it — **ਮੇਰੀ ਆਵਾਜ਼ ਆ ਰਹੀ ਹੈ?** 'can you hear me?', **ਫ਼ੋਨ ਕੱਟ ਗਿਆ** 'the call dropped', **ਲੋਕੇਸ਼ਨ ਭੇਜ** 'send me your location' — and the English tech words everyone uses with Punjabi verbs.\n\nTwo pieces of grammar make your sentences flow: **stem + ਕੇ** for 'do X and then Y' (**ਪਹੁੰਚ ਕੇ ਮੈਸੇਜ ਕਰੀਂ** 'text me when you get there'), and the little time words **ਹੁਣੇ, ਪਹਿਲਾਂ ਹੀ, ਹਾਲੇ, ਅਜੇ ਤੱਕ** — just, already, still, not yet.",
+  "vocab": [
+    { "native": "ਕਾਲ", "roman": "kāl", "en": "call (phone)", "pos": "noun", "note": "f · ਕਾਲ ਕਰਨੀ 'to call' — past ਕਾਲ ਕੀਤੀ. ਫ਼ੋਨ ਕਰਨਾ (m) means the same: ਫ਼ੋਨ ਕੀਤਾ" },
+    { "native": "ਮਿਸਡ ਕਾਲ", "roman": "misḍ kāl", "en": "missed call", "pos": "noun", "note": "f · pl ਮਿਸਡ ਕਾਲਾਂ · ਮਿਸਡ ਕਾਲ ਮਾਰਨੀ 'to give someone a missed call' (as a signal)" },
+    { "native": "ਵੀਡੀਓ ਕਾਲ", "roman": "vīḍīo kāl", "en": "video call", "pos": "noun", "note": "f" },
+    { "native": "ਸਾਈਲੈਂਟ", "roman": "sāīlainṭ", "en": "silent (mode)", "pos": "noun", "note": "ਫ਼ੋਨ ਸਾਈਲੈਂਟ 'ਤੇ ਸੀ 'my phone was on silent' — the classic excuse" },
+    { "native": "ਮਿਲਾਉਣਾ", "roman": "milāuṇā", "en": "to dial; to connect; to mix", "pos": "verb", "note": "ਨੰਬਰ ਮਿਲਾਉਣਾ 'to dial a number'" },
+    { "native": "ਨੈੱਟਵਰਕ", "roman": "naiṭṭvark", "en": "network, signal", "pos": "noun", "note": "m · ਨੈੱਟਵਰਕ ਨਹੀਂ ਆ ਰਿਹਾ 'there's no signal'" },
+    { "native": "ਸੁਣਾਈ ਦੇਣਾ", "roman": "suṇāī deṇā", "en": "to be heard, to be audible", "pos": "verb", "note": "ਸੁਣਾਈ ਨਹੀਂ ਦੇ ਰਿਹਾ 'I can't hear (anything)' — the thing heard is the subject" },
+    { "native": "ਸਪੀਕਰ", "roman": "sapīkar", "en": "speaker (phone)", "pos": "noun", "note": "m · ਸਪੀਕਰ 'ਤੇ ਪਾਉਣਾ 'to put on speaker'" },
+    { "native": "ਚਾਰਜ", "roman": "chārj", "en": "charge (battery)", "pos": "noun", "note": "m · ਚਾਰਜ ਖ਼ਤਮ ਹੋ ਗਿਆ 'my phone died' · ਫ਼ੋਨ ਚਾਰਜ ਕਰਨਾ 'to charge the phone'" },
+    { "native": "ਬਾਅਦ ਵਿੱਚ", "roman": "bāad vich", "en": "later, afterwards", "pos": "adv" },
+    { "native": "ਮੈਸੇਜ", "roman": "maisej", "en": "message, text", "pos": "noun", "note": "m · ਮੈਸੇਜ ਕਰਨਾ / ਭੇਜਣਾ 'to text'" },
+    { "native": "ਲੋਕੇਸ਼ਨ", "roman": "lokeshan", "en": "(shared) location", "pos": "noun", "note": "f · ਲੋਕੇਸ਼ਨ ਭੇਜਣੀ 'to send your location' — past ਭੇਜੀ" },
+    { "native": "ਟਾਈਪ", "roman": "ṭāip", "en": "type", "pos": "noun", "note": "ਟਾਈਪ ਕਰਨਾ 'to type'" },
+    { "native": "ਜਵਾਬ", "roman": "javāb", "en": "answer, reply", "pos": "noun", "note": "m · ਜਵਾਬ ਦੇਣਾ 'to reply'" },
+    { "native": "ਹਾਲ ਚਾਲ", "roman": "hāl chāl", "en": "how someone's doing, news", "pos": "noun", "note": "m · ਹਾਲ ਚਾਲ ਪੁੱਛਣਾ 'to ask after someone'" },
+    { "native": "ਵਟਸਐਪ", "roman": "vaṭsaip", "en": "WhatsApp", "pos": "noun", "note": "m · the default for texting in Punjab · ਵਟਸਐਪ ਕਰ ਦੇਈਂ 'WhatsApp me'" },
+    { "native": "ਗਰੁੱਪ", "roman": "grupp", "en": "group (chat)", "pos": "noun", "note": "m · ਗਰੁੱਪ ਵਿੱਚ ਪਾਉਣਾ 'to add to the group'" },
+    { "native": "ਵੌਇਸ ਨੋਟ", "roman": "vauis noṭ", "en": "voice note", "pos": "noun", "note": "m" },
+    { "native": "ਫ਼ਾਰਵਰਡ", "roman": "fārvarḍ", "en": "forward(ed)", "pos": "noun", "note": "ਫ਼ਾਰਵਰਡ ਕਰਨਾ 'to forward'" },
+    { "native": "ਰਿਪਲਾਈ", "roman": "riplāī", "en": "reply", "pos": "noun", "note": "m · ਰਿਪਲਾਈ ਕਰਨਾ 'to reply' (to a message)" },
+    { "native": "ਸੇਵ", "roman": "sev", "en": "save", "pos": "noun", "note": "ਨੰਬਰ ਸੇਵ ਕਰਨਾ 'to save a number'" },
+    { "native": "ਸੀਨ", "roman": "sīn", "en": "seen (read, 'blue ticks')", "pos": "adj", "note": "ਮੈਸੇਜ ਸੀਨ ਕਰਨਾ 'to read a message (and not reply)'" },
+    { "native": "ਆਨਲਾਈਨ", "roman": "ānlāin", "en": "online", "pos": "adj" },
+    { "native": "ਹਾਲੇ", "roman": "hāle", "en": "still; (with ਨਹੀਂ) not yet", "pos": "adv", "note": "colloquial for ਅਜੇ; ਹਾਲੇ ਤੱਕ = ਅਜੇ ਤੱਕ 'so far'" },
+    { "native": "ਪਹਿਲਾਂ ਹੀ", "roman": "páilāṃ hī", "en": "already", "pos": "adv" }
+  ],
+  "phrases": [
+    { "native": "ਹੈਲੋ, ਕੌਣ ਬੋਲ ਰਿਹਾ ਹੈ?", "roman": "helo, kauṇ bol rihā̀ hai?", "en": "Hello, who's this?", "note": "polite: ਹੈਲੋ ਜੀ, ਕੌਣ ਬੋਲ ਰਹੇ ਹੋ?" },
+    { "native": "ਫ਼ੋਨ ਕਿਉਂ ਨਹੀਂ ਚੁੱਕਿਆ?", "roman": "fon kiuṃ nahī̀ṃ chukkiā?", "en": "Why didn't you pick up?" },
+    { "native": "ਮੇਰਾ ਫ਼ੋਨ ਸਾਈਲੈਂਟ 'ਤੇ ਸੀ।", "roman": "merā fon sāīlainṭ te sī.", "en": "My phone was on silent." },
+    { "native": "ਫ਼ੋਨ ਨਹੀਂ ਲੱਗ ਰਿਹਾ।", "roman": "fon nahī̀ṃ lagg rihā̀.", "en": "The call isn't going through." },
+    { "native": "ਮੇਰੀ ਆਵਾਜ਼ ਆ ਰਹੀ ਹੈ?", "roman": "merī āvāz ā rahī̀ hai?", "en": "Can you hear me? (lit. is my voice coming?)" },
+    { "native": "ਤੇਰੀ ਆਵਾਜ਼ ਕੱਟ ਰਹੀ ਹੈ।", "roman": "terī āvāz kaṭṭ rahī̀ hai.", "en": "You're breaking up." },
+    { "native": "ਫ਼ੋਨ ਕੱਟ ਗਿਆ।", "roman": "fon kaṭṭ giā.", "en": "The call dropped. / I got cut off." },
+    { "native": "ਮੈਂ ਤੈਨੂੰ ਬਾਅਦ ਵਿੱਚ ਫ਼ੋਨ ਕਰਦਾ ਹਾਂ।", "roman": "maiṃ tainūṃ bāad vich fon kardā hāṃ.", "en": "I'll call you back later. (man speaking)", "note": "woman speaking: ਕਰਦੀ ਹਾਂ" },
+    { "native": "ਫ਼ੋਨ ਦਾ ਚਾਰਜ ਖ਼ਤਮ ਹੋਣ ਵਾਲਾ ਹੈ।", "roman": "fon dā chārj xatam hoṇ vālā hai.", "en": "My phone's about to die." },
+    { "native": "ਲੋਕੇਸ਼ਨ ਭੇਜ।", "roman": "lokeshan pèj.", "en": "Send me your location. (to a friend)", "note": "polite: ਲੋਕੇਸ਼ਨ ਭੇਜ ਦਿਓ" },
+    { "native": "ਪਹੁੰਚ ਕੇ ਮੈਸੇਜ ਕਰੀਂ।", "roman": "páunch ke maisej karīṃ.", "en": "Text me when you get there." },
+    { "native": "ਵੌਇਸ ਨੋਟ ਭੇਜ ਦੇ।", "roman": "vauis noṭ pèj de.", "en": "Just send a voice note." },
+    { "native": "ਮੇਰਾ ਨੰਬਰ ਸੇਵ ਕਰ ਲੈ।", "roman": "merā nambar sev kar lai.", "en": "Save my number." },
+    { "native": "ਮੈਸੇਜ ਸੀਨ ਕਰ ਕੇ ਜਵਾਬ ਨਹੀਂ ਦਿੱਤਾ!", "roman": "maisej sīn kar ke javāb nahī̀ṃ dittā!", "en": "Left me on read! (lit. saw the message and didn't reply)" }
+  ],
+  "grammar": [
+    {
+      "title": "Do X and then Y: stem + ਕੇ",
+      "body": "To join two actions done one after the other by the same person, Punjabi puts the **bare stem** of the first verb + **ਕੇ** and only gives the last verb a tense:\n\n**ਪਹੁੰਚ ਕੇ** ਮੈਸੇਜ ਕਰੀਂ — 'arrive-having, text' = 'text me when you get there'\n**ਖਾ ਕੇ** ਫ਼ੋਨ ਕਰਾਂਗਾ — 'I'll call after I eat'\n**ਸੋਚ ਕੇ** ਦੱਸੀਂ — 'think about it and tell me'\n\nYou met it in unit 10 (ਉੱਠ ਕੇ). It is one of the most useful patterns in the language and replaces English 'and then', 'after …-ing', 'when you …' and even 'by …-ing'. ਕਰ ਕੇ is often written as one word, ਕਰਕੇ — don't confuse it with ਕਰਕੇ 'because of' after a noun (ਮੀਂਹ ਕਰਕੇ).\n\nIt also says **how** something is done: **ਭੱਜ ਕੇ** ਆਇਆ 'came running', **ਹੱਸ ਕੇ** 'laughing', **ਬੈਠ ਕੇ** ਗੱਲ ਕਰੀਏ 'let's sit down and talk'.\n\n**With ਨੇ**: the last verb decides. ਉਸ **ਨੇ** ਮੈਸੇਜ ਪੜ੍ਹ ਕੇ ਜਵਾਬ **ਦਿੱਤਾ** 'she read the message and replied' — ਨੇ because ਦਿੱਤਾ is transitive past.\n\nThe trap: don't put the first verb in the past. Not ~~ਪਹੁੰਚਿਆ ਕੇ~~ — the ਕੇ verb is always the bare stem, whoever does it and whenever.",
+      "examples": [
+        { "native": "ਘਰ ਜਾ ਕੇ ਫ਼ੋਨ ਕਰਾਂਗੀ।", "roman": "kàr jā ke fon karāṅgī.", "en": "I'll call when I get home. (woman speaking)" },
+        { "native": "ਉਸ ਨੇ ਮੈਸੇਜ ਪੜ੍ਹ ਕੇ ਫ਼ੋਨ ਕੀਤਾ।", "roman": "us ne maisej páṛ ke fon kītā.", "en": "She read the message and then called." },
+        { "native": "ਰੋਟੀ ਖਾ ਕੇ ਗੱਲ ਕਰਦੇ ਹਾਂ।", "roman": "roṭī khā ke gall karde hāṃ.", "en": "Let's talk after we eat." },
+        { "native": "ਮੈਂ ਭੱਜ ਕੇ ਆਇਆ ਹਾਂ।", "roman": "maiṃ pàjj ke āiā hāṃ.", "en": "I've come running." },
+        { "native": "ਸੋਚ ਕੇ ਦੱਸੀਂ।", "roman": "soch ke dassīṃ.", "en": "Think it over and let me know." }
+      ]
+    },
+    {
+      "title": "Just, already, still, not yet",
+      "body": "**ਹੁਣੇ** 'just (now)': ਉਹ **ਹੁਣੇ** ਨਿਕਲਿਆ ਹੈ 'he's just left'. It also means 'right now, at once': ਹੁਣੇ ਆ! 'come right now!'. ਹੁਣੇ ਹੀ is the same with a little more stress.\n\n**ਪਹਿਲਾਂ ਹੀ** 'already': ਮੈਂ **ਪਹਿਲਾਂ ਹੀ** ਦੱਸ ਦਿੱਤਾ ਸੀ 'I'd already told you'. In speech a compound verb (ਦੱਸ ਦਿੱਤਾ, ਖਾ ਲਿਆ) often carries the 'already' meaning on its own: ਖਾਣਾ ਖਾ ਲਿਆ? 'have you eaten (yet)?'\n\n**stem + ਚੁੱਕਾ / ਚੁੱਕੀ / ਚੁੱਕੇ + ਹੈ** — 'has already (done)', a slightly careful form: ਮੈਂ ਇਹ ਫ਼ਿਲਮ ਵੇਖ **ਚੁੱਕੀ ਹਾਂ** 'I've already seen this film'. It agrees with the subject, never takes ਨੇ.\n\n**ਅਜੇ / ਹਾਲੇ** 'still': ਉਹ **ਹਾਲੇ** ਸੌਂ ਰਿਹਾ ਹੈ 'he's still asleep'. ਅਜੇ ਵੀ / ਹਾਲੇ ਵੀ = 'even now, still'. ਹਾਲੇ is the more colloquial of the two.\n**ਅਜੇ / ਹਾਲੇ + ਨਹੀਂ** 'not yet': ਉਹ **ਹਾਲੇ ਨਹੀਂ** ਆਇਆ 'he hasn't come yet'. The negative perfect usually drops ਹੈ.\n**ਅਜੇ ਤੱਕ / ਹਾਲੇ ਤੱਕ** 'so far, till now': ਅਜੇ ਤੱਕ ਜਵਾਬ ਨਹੀਂ ਆਇਆ 'no reply so far'.\n\nThe trap: 'not yet' is not ਪਹਿਲਾਂ ਨਹੀਂ (that's 'not before'). Use ਹਾਲੇ / ਅਜੇ ਨਹੀਂ.",
+      "examples": [
+        { "native": "ਉਹ ਹੁਣੇ ਆਨਲਾਈਨ ਸੀ।", "roman": "ó huṇe ānlāin sī.", "en": "He was online just now." },
+        { "native": "ਮੈਂ ਪਹਿਲਾਂ ਹੀ ਲੋਕੇਸ਼ਨ ਭੇਜ ਦਿੱਤੀ ਹੈ।", "roman": "maiṃ páilāṃ hī lokeshan pèj dittī hai.", "en": "I've already sent the location." },
+        { "native": "ਉਸ ਦਾ ਜਵਾਬ ਅਜੇ ਤੱਕ ਨਹੀਂ ਆਇਆ।", "roman": "us dā javāb aje takk nahī̀ṃ āiā.", "en": "There's been no reply from him so far." },
+        { "native": "ਤੂੰ ਹਾਲੇ ਵੀ ਘਰ ਹੈਂ?", "roman": "tūṃ hāle vī kàr haiṃ?", "en": "You're still at home?" },
+        { "native": "ਮੈਂ ਇਹ ਫ਼ਿਲਮ ਵੇਖ ਚੁੱਕੀ ਹਾਂ।", "roman": "maiṃ é filam vekh chukkī hāṃ.", "en": "I've already seen this film. (woman speaking)" }
+      ]
+    },
+    {
+      "title": "Phone talk: ਆਉਣਾ, ਲੱਗਣਾ and English + ਕਰਨਾ",
+      "body": "Punjabi phone language uses a few verbs in special ways.\n\n**Things that reach you 'come' (ਆਉਣਾ)**: ਫ਼ੋਨ **ਆਇਆ** 'I got a call' (lit. a phone came), ਮੈਸੇਜ ਆਇਆ, ਪੈਸੇ ਆ ਗਏ, ਮੇਰੀ ਆਵਾਜ਼ **ਆ ਰਹੀ** ਹੈ? 'can you hear me?', ਨੈੱਟਵਰਕ ਨਹੀਂ **ਆ ਰਿਹਾ** 'no signal'. The thing that comes is the subject, so ਤੇਰਾ ਫ਼ੋਨ ਆਇਆ ਸੀ = 'you called' (lit. your phone came).\n\n**A call that connects 'attaches' (ਲੱਗਣਾ)**: ਫ਼ੋਨ ਨਹੀਂ **ਲੱਗ ਰਿਹਾ** 'it isn't going through', ਲੱਗ ਗਿਆ 'it's ringing / got through'.\n\n**Hearing**: ਸੁਣਾਈ ਦੇਣਾ 'to be audible': ਕੁਝ **ਸੁਣਾਈ ਨਹੀਂ ਦੇ ਰਿਹਾ** 'I can't hear anything'.\n\n**Doing**: English word + **ਕਰਨਾ** — ਮੈਸੇਜ ਕਰਨਾ, ਕਾਲ ਕਰਨੀ, ਸੇਵ ਕਰਨਾ, ਫ਼ਾਰਵਰਡ ਕਰਨਾ, ਟਾਈਪ ਕਰਨਾ. In the past with ਨੇ the verb agrees with the **object**, so the English word's gender matters: ਮੈਂ ਫ਼ੋਨ (m) **ਕੀਤਾ** but ਮੈਂ ਕਾਲ (f) **ਕੀਤੀ**; ਵੌਇਸ ਨੋਟ (m) **ਭੇਜਿਆ** but ਲੋਕੇਸ਼ਨ (f) **ਭੇਜੀ**.\n\n**Hanging up**: ਚੰਗਾ ਫਿਰ, **ਰੱਖਦਾ ਹਾਂ** 'OK then, I'll hang up' (lit. I'm putting it down).",
+      "examples": [
+        { "native": "ਕੱਲ੍ਹ ਰਾਤ ਤੇਰਾ ਫ਼ੋਨ ਆਇਆ ਸੀ?", "roman": "káll rāt terā fon āiā sī?", "en": "Did you call last night?" },
+        { "native": "ਇੱਥੇ ਨੈੱਟਵਰਕ ਨਹੀਂ ਆਉਂਦਾ।", "roman": "itthe naiṭṭvark nahī̀ṃ āundā.", "en": "There's no signal here." },
+        { "native": "ਤੇਰੀ ਆਵਾਜ਼ ਸੁਣਾਈ ਨਹੀਂ ਦੇ ਰਹੀ।", "roman": "terī āvāz suṇāī nahī̀ṃ de rahī̀.", "en": "I can't hear you." },
+        { "native": "ਉਸ ਨੇ ਮੇਰਾ ਮੈਸੇਜ ਗਰੁੱਪ ਵਿੱਚ ਫ਼ਾਰਵਰਡ ਕਰ ਦਿੱਤਾ।", "roman": "us ne merā maisej grupp vich fārvarḍ kar dittā.", "en": "He forwarded my message to the group." },
+        { "native": "ਚੰਗਾ ਫਿਰ, ਰੱਖਦਾ ਹਾਂ।", "roman": "changā phir, rakkhdā hāṃ.", "en": "OK then, I'll hang up. (man speaking)" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Where are you?",
+    "setting": "Simran is on a bus in Amritsar, late for dinner with friends; Aman calls her from the restaurant.",
+    "lines": [
+      { "speaker": "Simran", "native": "ਹੈਲੋ? ਅਮਨ? ਮੇਰੀ ਆਵਾਜ਼ ਆ ਰਹੀ ਹੈ?", "roman": "helo? Aman? merī āvāz ā rahī̀ hai?", "en": "Hello? Aman? Can you hear me?" },
+      { "speaker": "Aman", "native": "ਹਾਂ, ਪਰ ਤੇਰੀ ਆਵਾਜ਼ ਕੱਟ ਰਹੀ ਹੈ। ਤੂੰ ਕਿੱਥੇ ਹੈਂ?", "roman": "hāṃ, par terī āvāz kaṭṭ rahī̀ hai. tūṃ kitthe haiṃ?", "en": "Yes, but you're breaking up. Where are you?" },
+      { "speaker": "Simran", "native": "ਮੈਂ ਬੱਸ ਵਿੱਚ ਹਾਂ, ਇੱਥੇ ਨੈੱਟਵਰਕ ਨਹੀਂ ਆਉਂਦਾ।", "roman": "maiṃ bass vich hāṃ, itthe naiṭṭvark nahī̀ṃ āundā.", "en": "I'm on the bus, there's no signal here." },
+      { "speaker": "Aman", "native": "ਮੈਂ ਤੈਨੂੰ ਪੰਜ ਵਾਰ ਕਾਲ ਕੀਤੀ! ਫ਼ੋਨ ਕਿਉਂ ਨਹੀਂ ਚੁੱਕਿਆ?", "roman": "maiṃ tainūṃ panj vār kāl kītī! fon kiuṃ nahī̀ṃ chukkiā?", "en": "I called you five times! Why didn't you pick up?" },
+      { "speaker": "Simran", "native": "ਸੌਰੀ, ਫ਼ੋਨ ਸਾਈਲੈਂਟ 'ਤੇ ਸੀ। ਸਾਰੇ ਪਹੁੰਚ ਗਏ?", "roman": "saurī, fon sāīlainṭ te sī. sāre páunch gae?", "en": "Sorry, my phone was on silent. Has everyone arrived?" },
+      { "speaker": "Aman", "native": "ਅਸੀਂ ਤਾਂ ਪਹਿਲਾਂ ਹੀ ਪਹੁੰਚ ਚੁੱਕੇ ਹਾਂ। ਗੁਰੀ ਹਾਲੇ ਨਹੀਂ ਆਇਆ।", "roman": "asīṃ tāṃ páilāṃ hī páunch chukke hāṃ. Gurī hāle nahī̀ṃ āiā.", "en": "We've already got here. Guri hasn't come yet." },
+      { "speaker": "Simran", "native": "ਮੈਨੂੰ ਲੋਕੇਸ਼ਨ ਭੇਜ, ਮੈਨੂੰ ਰਸਤਾ ਨਹੀਂ ਪਤਾ।", "roman": "mainūṃ lokeshan pèj, mainūṃ rastā nahī̀ṃ patā.", "en": "Send me the location, I don't know the way." },
+      { "speaker": "Aman", "native": "ਮੈਂ ਗਰੁੱਪ ਵਿੱਚ ਪਹਿਲਾਂ ਹੀ ਭੇਜ ਦਿੱਤੀ ਹੈ! ਤੂੰ ਗਰੁੱਪ ਨਹੀਂ ਵੇਖਦੀ?", "roman": "maiṃ grupp vich páilāṃ hī pèj dittī hai! tūṃ grupp nahī̀ṃ vekhdī?", "en": "I already sent it to the group! Don't you look at the group?" },
+      { "speaker": "Simran", "native": "ਗਰੁੱਪ ਵਿੱਚ ਦੋ ਸੌ ਮੈਸੇਜ ਹਨ — ਸਾਰੇ ਗੁਰੀ ਦੇ ਵੌਇਸ ਨੋਟ!", "roman": "grupp vich do sau maisej han — sāre Gurī de vauis noṭ!", "en": "There are two hundred messages in the group — all Guri's voice notes!" },
+      { "speaker": "Aman", "native": "ਸੱਚੀਂ! ਠੀਕ ਹੈ, ਮੈਂ ਤੈਨੂੰ ਸਿੱਧੀ ਭੇਜਦਾ ਹਾਂ।", "roman": "sachchīṃ! ṭhīk hai, maiṃ tainūṃ síddī pèjdā hāṃ.", "en": "True! OK, I'll send it to you directly." },
+      { "speaker": "Simran", "native": "ਆ ਗਈ! ਬੱਸ ਤੋਂ ਉਤਰ ਕੇ ਫ਼ੋਨ ਕਰਦੀ ਹਾਂ।", "roman": "ā gaī! bass toṃ utar ke fon kardī hāṃ.", "en": "Got it! I'll call when I get off the bus." },
+      { "speaker": "Aman", "native": "ਹੈਲੋ? ਸਿਮਰਨ? … ਲਓ, ਫ਼ੋਨ ਕੱਟ ਗਿਆ।", "roman": "helo? Simran? … lao, fon kaṭṭ giā.", "en": "Hello? Simran? … There you go, she's cut off." }
+    ]
+  },
+  "culture": "Punjabis would rather call than type. A quick **ਫ਼ੋਨ** is normal for things others would text, and among older relatives the **voice note** is king — partly because typing Gurmukhi on a phone is slow. Many young people text Punjabi in Roman letters (*kidda, ki haal aa?*) and switch between scripts freely. Answer the phone with **ਹੈਲੋ** or **ਹਾਂ ਜੀ**; when an elder calls, greet them first — **ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਜੀ** — before getting to the point, and ask after the family (**ਸਭ ਠੀਕ ਹੈ? ਘਰ ਸਾਰੇ ਠੀਕ ਨੇ?**). A **missed call** is a message in itself: 'I've arrived', 'call me back', 'come downstairs'. Every family has a WhatsApp group full of good-morning pictures and forwarded health tips (**ਫ਼ਾਰਵਰਡ ਆਇਆ ਹੈ**) — replying with a 🙏 is perfectly acceptable. Calls end slowly: **ਚੰਗਾ ਫਿਰ… ਹੋਰ ਸੁਣਾ… ਚੰਗਾ, ਰੱਖਦਾ ਹਾਂ**, often repeated twice before anyone actually hangs up.",
+  "lessons": [
+    {
+      "title": "Making and missing calls",
+      "tip": { "title": "Calls come, connect and get made", "body": "- A call that reaches you **comes**: ਤੇਰੇ ਭਰਾ ਦਾ ਫ਼ੋਨ **ਆਇਆ** 'your brother called'.\n- A call that goes through **connects**: ਫ਼ੋਨ ਨਹੀਂ **ਲੱਗ** ਰਿਹਾ 'it isn't going through'.\n- You **make** one: ਫ਼ੋਨ ਕਰਨਾ (m), ਕਾਲ ਕਰਨੀ (f). In the past the verb agrees: ਫ਼ੋਨ **ਕੀਤਾ**, ਕਾਲ **ਕੀਤੀ**.", "pattern": "ਫ਼ੋਨ ਆਇਆ · ਫ਼ੋਨ ਲੱਗਿਆ · ਫ਼ੋਨ ਕੀਤਾ", "grammar": 2 },
+      "new": ["ਕਾਲ", "ਮਿਸਡ ਕਾਲ", "ਵੀਡੀਓ ਕਾਲ", "ਸਾਈਲੈਂਟ", "ਮਿਲਾਉਣਾ", "ਹੈਲੋ, ਕੌਣ ਬੋਲ ਰਿਹਾ ਹੈ?", "ਫ਼ੋਨ ਕਿਉਂ ਨਹੀਂ ਚੁੱਕਿਆ?", "ਮੇਰਾ ਫ਼ੋਨ ਸਾਈਲੈਂਟ 'ਤੇ ਸੀ।", "ਫ਼ੋਨ ਨਹੀਂ ਲੱਗ ਰਿਹਾ।"],
+      "sentences": [
+        { "native": "ਮੈਂ ਤੈਨੂੰ ਪੰਜ ਵਾਰ ਕਾਲ ਕੀਤੀ, ਪਰ ਤੂੰ ਨਹੀਂ ਚੁੱਕੀ।", "roman": "maiṃ tainūṃ panj vār kāl kītī, par tūṃ nahī̀ṃ chukkī.", "en": "I called you five times, but you didn't pick up.", "focus": "ਕੀਤੀ", "wrong": ["ਕੀਤਾ|kītā", "ਕੀਤੇ|kīte"] },
+        { "native": "ਮੇਰੇ ਫ਼ੋਨ 'ਤੇ ਤੇਰੀਆਂ ਤਿੰਨ ਮਿਸਡ ਕਾਲਾਂ ਸੀ।", "roman": "mere fon te terīāṃ tinn misḍ kālāṃ sī.", "en": "I had three missed calls from you.", "focus": "ਤੇਰੀਆਂ", "wrong": ["ਤੇਰੇ|tere", "ਤੇਰਾ|terā"] },
+        { "native": "ਫ਼ੋਨ ਕਿਉਂ ਨਹੀਂ ਚੁੱਕਿਆ? ਮੈਨੂੰ ਫ਼ਿਕਰ ਹੋ ਰਹੀ ਸੀ।", "roman": "fon kiuṃ nahī̀ṃ chukkiā? mainūṃ fikar ho rahī̀ sī.", "en": "Why didn't you pick up? I was getting worried.", "focus": "ਚੁੱਕਿਆ", "wrong": ["ਚੁੱਕੀ|chukkī", "ਚੁੱਕਦਾ|chukkdā"] },
+        { "native": "ਹੁਣੇ ਤੇਰੇ ਭਰਾ ਦਾ ਫ਼ੋਨ ਆਇਆ ਸੀ।", "roman": "huṇe tere parā̀ dā fon āiā sī.", "en": "Your brother just called.", "focus": "ਆਇਆ", "wrong": ["ਆਈ|āī", "ਕੀਤਾ|kītā"] },
+        { "native": "ਮੈਂ ਨੰਬਰ ਮਿਲਾਇਆ ਪਰ ਫ਼ੋਨ ਨਹੀਂ ਲੱਗਿਆ।", "roman": "maiṃ nambar milāiā par fon nahī̀ṃ laggiā.", "en": "I dialled the number but it didn't go through.", "focus": "ਲੱਗਿਆ", "wrong": ["ਆਇਆ|āiā", "ਕੀਤਾ|kītā"] },
+        { "native": "ਰਾਤ ਨੂੰ ਮੰਮੀ ਨਾਲ਼ ਵੀਡੀਓ ਕਾਲ ਕਰਾਂਗੀ।", "roman": "rāt nūṃ mammī nāḷ vīḍīo kāl karāṅgī.", "en": "I'll video call Mum tonight. (woman speaking)" },
+        { "native": "ਹੈਲੋ, ਮੈਂ ਜੱਸ ਬੋਲ ਰਿਹਾ ਹਾਂ, ਪ੍ਰੀਤ ਹੈ?", "roman": "helo, maiṃ Jass bol rihā̀ hāṃ, Prīt hai?", "en": "Hello, it's Jass — is Preet there?" },
+        { "native": "ਫ਼ੋਨ ਨਹੀਂ ਲੱਗ ਰਿਹਾ, ਸ਼ਾਇਦ ਉਸ ਦਾ ਫ਼ੋਨ ਬੰਦ ਹੈ।", "roman": "fon nahī̀ṃ lagg rihā̀, shāid us dā fon band hai.", "en": "It isn't going through — maybe his phone's off.", "focus": "ਲੱਗ", "wrong": ["ਆ|ā", "ਕਰ|kar"] },
+        { "native": "ਸੌਰੀ ਯਾਰ, ਮੇਰਾ ਫ਼ੋਨ ਸਾਈਲੈਂਟ 'ਤੇ ਸੀ।", "roman": "saurī yār, merā fon sāīlainṭ te sī.", "en": "Sorry, man, my phone was on silent." },
+        { "native": "ਮੀਟਿੰਗ ਵਿੱਚ ਫ਼ੋਨ ਸਾਈਲੈਂਟ 'ਤੇ ਰੱਖੋ।", "roman": "mīṭiṅg vich fon sāīlainṭ te rakkho.", "en": "Keep your phones on silent in the meeting." },
+        { "native": "ਮੈਨੂੰ ਇੱਕ ਮਿਸਡ ਕਾਲ ਮਾਰ ਦੇ।", "roman": "mainūṃ ikk misḍ kāl mār de.", "en": "Just give me a missed call." }
+      ]
+    },
+    {
+      "title": "Can you hear me?",
+      "tip": { "title": "On the line: what's happening now", "body": "- Use the continuous for the line right now: ਆਵਾਜ਼ (f) ਆ **ਰਹੀ** ਹੈ?, ਨੈੱਟਵਰਕ (m) ਨਹੀਂ ਆ **ਰਿਹਾ**.\n- 'I can't hear' = **ਸੁਣਾਈ ਨਹੀਂ ਦੇ ਰਿਹਾ** 'it isn't reaching me'.\n- 'I'll call you later' uses the present as a promise: ਬਾਅਦ ਵਿੱਚ ਫ਼ੋਨ **ਕਰਦਾ ਹਾਂ** (woman: ਕਰਦੀ ਹਾਂ).", "pattern": "ਆਵਾਜ਼ ਆ ਰਹੀ ਹੈ? · ਸੁਣਾਈ ਨਹੀਂ ਦੇ ਰਿਹਾ", "grammar": 2 },
+      "new": ["ਨੈੱਟਵਰਕ", "ਸੁਣਾਈ ਦੇਣਾ", "ਸਪੀਕਰ", "ਚਾਰਜ", "ਬਾਅਦ ਵਿੱਚ", "ਮੇਰੀ ਆਵਾਜ਼ ਆ ਰਹੀ ਹੈ?", "ਤੇਰੀ ਆਵਾਜ਼ ਕੱਟ ਰਹੀ ਹੈ।", "ਫ਼ੋਨ ਕੱਟ ਗਿਆ।", "ਮੈਂ ਤੈਨੂੰ ਬਾਅਦ ਵਿੱਚ ਫ਼ੋਨ ਕਰਦਾ ਹਾਂ।", "ਫ਼ੋਨ ਦਾ ਚਾਰਜ ਖ਼ਤਮ ਹੋਣ ਵਾਲਾ ਹੈ।"],
+      "sentences": [
+        { "native": "ਹਾਂ, ਤੇਰੀ ਆਵਾਜ਼ ਆ ਰਹੀ ਹੈ, ਪਰ ਬਹੁਤ ਹੌਲੀ।", "roman": "hāṃ, terī āvāz ā rahī̀ hai, par báut haulī.", "en": "Yes, I can hear you, but very faintly.", "focus": "ਰਹੀ", "wrong": ["ਰਿਹਾ|rihā̀", "ਰਹੇ|rahè"] },
+        { "native": "ਇੱਥੇ ਨੈੱਟਵਰਕ ਨਹੀਂ ਆ ਰਿਹਾ, ਮੈਂ ਬਾਹਰ ਜਾਂਦਾ ਹਾਂ।", "roman": "itthe naiṭṭvark nahī̀ṃ ā rihā̀, maiṃ bā́r jāndā hāṃ.", "en": "There's no signal here, I'll step outside.", "focus": "ਰਿਹਾ", "wrong": ["ਰਹੀ|rahī̀", "ਰਹੇ|rahè"] },
+        { "native": "ਕੁਝ ਸੁਣਾਈ ਨਹੀਂ ਦੇ ਰਿਹਾ, ਦੁਬਾਰਾ ਬੋਲ।", "roman": "kúj suṇāī nahī̀ṃ de rihā̀, dubārā bol.", "en": "I can't hear a thing — say it again.", "focus": "ਦੇ", "wrong": ["ਲੈ|lai", "ਕਰ|kar"] },
+        { "native": "ਫ਼ੋਨ ਸਪੀਕਰ 'ਤੇ ਪਾ, ਸਾਰੇ ਸੁਣਨਾ ਚਾਹੁੰਦੇ ਹਨ।", "roman": "fon sapīkar te pā, sāre suṇnā chā́unde han.", "en": "Put it on speaker, everyone wants to hear.", "focus": "ਪਾ", "wrong": ["ਪਾਉਂਦਾ|pāundā", "ਪਾਇਆ|pāiā"] },
+        { "native": "ਸੌਰੀ, ਫ਼ੋਨ ਕੱਟ ਗਿਆ ਸੀ। ਹੁਣ ਆਵਾਜ਼ ਆ ਰਹੀ ਹੈ?", "roman": "saurī, fon kaṭṭ giā sī. huṇ āvāz ā rahī̀ hai?", "en": "Sorry, I got cut off. Can you hear me now?", "focus": "ਰਹੀ", "wrong": ["ਰਿਹਾ|rihā̀", "ਰਹੇ|rahè"] },
+        { "native": "ਤੇਰੀ ਆਵਾਜ਼ ਕੱਟ ਰਹੀ ਹੈ, ਮੈਂ ਬਾਅਦ ਵਿੱਚ ਕਰਦੀ ਹਾਂ।", "roman": "terī āvāz kaṭṭ rahī̀ hai, maiṃ bāad vich kardī hāṃ.", "en": "You're breaking up — I'll call you later. (woman speaking)", "focus": "ਕਰਦੀ", "wrong": ["ਕਰਦਾ|kardā", "ਕਰਦੇ|karde"] },
+        { "native": "ਮੇਰਾ ਚਾਰਜ ਖ਼ਤਮ ਹੋ ਰਿਹਾ ਹੈ, ਛੇਤੀ ਦੱਸ।", "roman": "merā chārj xatam ho rihā̀ hai, chhetī dass.", "en": "My battery's dying, tell me quick.", "focus": "ਰਿਹਾ", "wrong": ["ਰਹੀ|rahī̀", "ਰਹੇ|rahè"] },
+        { "native": "ਮੇਰਾ ਫ਼ੋਨ ਚਾਰਜ ਕਰ ਦੇ।", "roman": "merā fon chārj kar de.", "en": "Charge my phone for me." },
+        { "native": "ਮੈਂ ਤੈਨੂੰ ਬਾਅਦ ਵਿੱਚ ਫ਼ੋਨ ਕਰਦਾ ਹਾਂ, ਹੁਣ ਮੈਂ ਗੱਡੀ ਚਲਾ ਰਿਹਾ ਹਾਂ।", "roman": "maiṃ tainūṃ bāad vich fon kardā hāṃ, huṇ maiṃ gaḍḍī chalā rihā̀ hāṃ.", "en": "I'll call you later, I'm driving right now." }
+      ]
+    },
+    {
+      "title": "Text me when you get there",
+      "tip": { "title": "Do X and then Y: stem + ਕੇ", "body": "- Put **ਕੇ** after the bare stem of the first action: ਪਹੁੰਚ **ਕੇ** ਮੈਸੇਜ ਕਰੀਂ 'get there, then text'.\n- Only the last verb shows tense and person; the ਕੇ verb never changes: ਖਾ ਕੇ, ਵੇਖ ਕੇ, ਕਰ ਕੇ.\n- With ਨੇ, the last verb decides: ਉਸ **ਨੇ** ਪੜ੍ਹ ਕੇ ਜਵਾਬ **ਦਿੱਤਾ**.", "pattern": "stem + ਕੇ + main verb", "grammar": 0 },
+      "new": ["ਮੈਸੇਜ", "ਲੋਕੇਸ਼ਨ", "ਟਾਈਪ", "ਜਵਾਬ", "ਹਾਲ ਚਾਲ", "ਪਹੁੰਚ ਕੇ ਮੈਸੇਜ ਕਰੀਂ।", "ਲੋਕੇਸ਼ਨ ਭੇਜ।"],
+      "sentences": [
+        { "native": "ਘਰ ਪਹੁੰਚ ਕੇ ਮੈਸੇਜ ਕਰ ਦੇਈਂ।", "roman": "kàr páunch ke maisej kar deīṃ.", "en": "Drop me a text when you get home.", "focus": "ਪਹੁੰਚ", "wrong": ["ਪਹੁੰਚਿਆ|páunchiā", "ਪਹੁੰਚਦਾ|páunchdā"] },
+        { "native": "ਮੈਂ ਨ੍ਹਾ ਕੇ ਫ਼ੋਨ ਕਰਦਾ ਹਾਂ।", "roman": "maiṃ nā̀ ke fon kardā hāṃ.", "en": "I'll have a shower and then call you.", "focus": "ਨ੍ਹਾ", "wrong": ["ਨ੍ਹਾਤਾ|nā̀tā", "ਨ੍ਹਾਉਂਦਾ|nā̀undā"] },
+        { "native": "ਲੋਕੇਸ਼ਨ ਵੇਖ ਕੇ ਆ ਜਾਈਂ।", "roman": "lokeshan vekh ke ā jāīṃ.", "en": "Just follow the location and come.", "focus": "ਵੇਖ", "wrong": ["ਵੇਖਿਆ|vekhiā", "ਵੇਖਦਾ|vekhdā"] },
+        { "native": "ਉਸ ਨੇ ਮੇਰਾ ਮੈਸੇਜ ਪੜ੍ਹ ਕੇ ਵੀ ਜਵਾਬ ਨਹੀਂ ਦਿੱਤਾ।", "roman": "us ne merā maisej páṛ ke vī javāb nahī̀ṃ dittā.", "en": "Even after reading my message, he didn't reply.", "focus": "ਪੜ੍ਹ", "wrong": ["ਪੜ੍ਹਿਆ|páṛiā", "ਪੜ੍ਹਦਾ|páṛdā"] },
+        { "native": "ਗੱਡੀ ਰੋਕ ਕੇ ਮੈਸੇਜ ਟਾਈਪ ਕਰੀਂ।", "roman": "gaḍḍī rok ke maisej ṭāip karīṃ.", "en": "Pull over before you type a message.", "focus": "ਰੋਕ", "wrong": ["ਰੋਕਿਆ|rokiā", "ਰੋਕਦਾ|rokdā"] },
+        { "native": "ਮੰਮੀ ਨੇ ਫ਼ੋਨ ਕਰ ਕੇ ਮੇਰਾ ਹਾਲ ਚਾਲ ਪੁੱਛਿਆ।", "roman": "mammī ne fon kar ke merā hāl chāl puchchhiā.", "en": "Mum called to ask how I was doing.", "focus": "ਕਰ", "wrong": ["ਕੀਤਾ|kītā", "ਕਰਦੇ|karde"] },
+        { "native": "ਮੈਂ ਤੈਨੂੰ ਲੋਕੇਸ਼ਨ ਭੇਜ ਦਿੱਤੀ ਹੈ।", "roman": "maiṃ tainūṃ lokeshan pèj dittī hai.", "en": "I've sent you the location.", "focus": "ਦਿੱਤੀ", "wrong": ["ਦਿੱਤਾ|dittā", "ਦਿੱਤੇ|ditte"] },
+        { "native": "ਖਾਣਾ ਖਾ ਕੇ ਲੰਮੀ ਗੱਲ ਕਰਾਂਗੇ।", "roman": "khāṇā khā ke lammī gall karāṅge.", "en": "We'll have a proper chat after dinner.", "focus": "ਖਾ", "wrong": ["ਖਾਧਾ|khā́dā", "ਖਾਂਦਾ|khāndā"] },
+        { "native": "ਮੈਨੂੰ ਪੰਜਾਬੀ ਵਿੱਚ ਟਾਈਪ ਕਰਨਾ ਨਹੀਂ ਆਉਂਦਾ।", "roman": "mainūṃ panjābī vich ṭāip karnā nahī̀ṃ āundā.", "en": "I don't know how to type in Punjabi." }
+      ]
+    },
+    {
+      "title": "Groups, voice notes and forwards",
+      "tip": { "title": "English + ਕਰਨਾ in the past", "body": "- English words become verbs with **ਕਰਨਾ**: ਸੇਵ ਕਰਨਾ, ਫ਼ਾਰਵਰਡ ਕਰਨਾ, ਰਿਪਲਾਈ ਕਰਨਾ.\n- In the past with ਨੇ, the verb agrees with the thing: ਵੌਇਸ ਨੋਟ (m) **ਭੇਜਿਆ**, ਲੋਕੇਸ਼ਨ (f) **ਭੇਜੀ**, ਤਸਵੀਰਾਂ (f pl) **ਭੇਜੀਆਂ**.\n- 'Add me to the group' = ਗਰੁੱਪ ਵਿੱਚ **ਪਾ** ਦੇ (lit. put me in).", "pattern": "X ਨੇ + thing + ਭੇਜਿਆ / ਭੇਜੀ", "grammar": 2 },
+      "new": ["ਵਟਸਐਪ", "ਗਰੁੱਪ", "ਵੌਇਸ ਨੋਟ", "ਫ਼ਾਰਵਰਡ", "ਰਿਪਲਾਈ", "ਸੇਵ", "ਵੌਇਸ ਨੋਟ ਭੇਜ ਦੇ।", "ਮੇਰਾ ਨੰਬਰ ਸੇਵ ਕਰ ਲੈ।"],
+      "sentences": [
+        { "native": "ਮੈਨੂੰ ਵਟਸਐਪ ਗਰੁੱਪ ਵਿੱਚ ਪਾ ਦੇ।", "roman": "mainūṃ vaṭsaip grupp vich pā de.", "en": "Add me to the WhatsApp group." },
+        { "native": "ਗਰੁੱਪ ਵਿੱਚ ਕਿਸੇ ਨੇ ਰਿਪਲਾਈ ਨਹੀਂ ਕੀਤਾ।", "roman": "grupp vich kise ne riplāī nahī̀ṃ kītā.", "en": "Nobody replied in the group.", "focus": "ਨੇ", "wrong": ["ਨੂੰ|nūṃ", "ਦਾ|dā"] },
+        { "native": "ਉਸ ਨੇ ਦਸ ਮਿੰਟ ਦਾ ਵੌਇਸ ਨੋਟ ਭੇਜਿਆ!", "roman": "us ne das minṭ dā vauis noṭ pèjiā!", "en": "He sent a ten-minute voice note!", "focus": "ਭੇਜਿਆ", "wrong": ["ਭੇਜੀ|pèjī", "ਭੇਜੇ|pèje"] },
+        { "native": "ਮੈਂ ਗੱਡੀ ਚਲਾ ਰਿਹਾ ਹਾਂ, ਵੌਇਸ ਨੋਟ ਭੇਜ ਦੇ।", "roman": "maiṃ gaḍḍī chalā rihā̀ hāṃ, vauis noṭ pèj de.", "en": "I'm driving — just send a voice note." },
+        { "native": "ਇਹ ਮੈਸੇਜ ਮੰਮੀ ਨੇ ਫ਼ਾਰਵਰਡ ਕੀਤਾ ਹੈ, ਸੱਚ ਨਹੀਂ ਹੈ।", "roman": "é maisej mammī ne fārvarḍ kītā hai, sachch nahī̀ṃ hai.", "en": "Mum forwarded this message — it isn't true.", "focus": "ਕੀਤਾ", "wrong": ["ਕੀਤੀ|kītī", "ਕੀਤੇ|kīte"] },
+        { "native": "ਮੇਰਾ ਨਵਾਂ ਨੰਬਰ ਸੇਵ ਕਰ ਲਈਂ।", "roman": "merā navāṃ nambar sev kar laīṃ.", "en": "Save my new number.", "focus": "ਲਈਂ", "wrong": ["ਲਿਆ|liā", "ਲੈਂਦਾ|laindā"] },
+        { "native": "ਮੈਂ ਤੇਰਾ ਨੰਬਰ ਕਿਸ ਨਾਂ 'ਤੇ ਸੇਵ ਕਰਾਂ?", "roman": "maiṃ terā nambar kis nāṃ te sev karāṃ?", "en": "What name shall I save your number under?" },
+        { "native": "ਪਾਰਟੀ ਦੀਆਂ ਤਸਵੀਰਾਂ ਗਰੁੱਪ ਵਿੱਚ ਪਾ ਦਿਓ।", "roman": "pārṭī dīāṃ tasvīrāṃ grupp vich pā dio.", "en": "Put the party photos in the group.", "focus": "ਦੀਆਂ", "wrong": ["ਦਾ|dā", "ਦੇ|de"] },
+        { "native": "ਉਸ ਨੇ ਸਾਰੀਆਂ ਤਸਵੀਰਾਂ ਮੈਨੂੰ ਭੇਜੀਆਂ।", "roman": "us ne sārīāṃ tasvīrāṃ mainūṃ pèjīāṃ.", "en": "She sent me all the photos.", "focus": "ਭੇਜੀਆਂ", "wrong": ["ਭੇਜਿਆ|pèjiā", "ਭੇਜੀ|pèjī"] }
+      ]
+    },
+    {
+      "title": "Already, still, not yet",
+      "tip": { "title": "ਹੁਣੇ · ਪਹਿਲਾਂ ਹੀ · ਹਾਲੇ · ਹਾਲੇ ਨਹੀਂ", "body": "- **ਹੁਣੇ** 'just (now)': ਉਹ ਹੁਣੇ ਨਿਕਲਿਆ ਹੈ.\n- **ਪਹਿਲਾਂ ਹੀ** 'already'; stem + **ਚੁੱਕਾ / ਚੁੱਕੀ** ਹਾਂ 'have already' (a bit careful).\n- **ਅਜੇ / ਹਾਲੇ** 'still'; with ਨਹੀਂ, 'not yet': ਹਾਲੇ ਨਹੀਂ ਆਏ (the negative usually drops ਹੈ).\n- **ਅਜੇ ਤੱਕ** 'so far'.", "pattern": "ਹਾਲੇ + ਨਹੀਂ + past = not yet", "grammar": 1 },
+      "new": ["ਹਾਲੇ", "ਪਹਿਲਾਂ ਹੀ", "ਆਨਲਾਈਨ", "ਸੀਨ", "ਮੈਸੇਜ ਸੀਨ ਕਰ ਕੇ ਜਵਾਬ ਨਹੀਂ ਦਿੱਤਾ!"],
+      "sentences": [
+        { "native": "ਉਹ ਆਨਲਾਈਨ ਹੈ ਪਰ ਜਵਾਬ ਨਹੀਂ ਦੇ ਰਹੀ।", "roman": "ó ānlāin hai par javāb nahī̀ṃ de rahī̀.", "en": "She's online but she isn't replying.", "focus": "ਰਹੀ", "wrong": ["ਰਿਹਾ|rihā̀", "ਰਹੇ|rahè"] },
+        { "native": "ਤੂੰ ਮੇਰਾ ਮੈਸੇਜ ਸੀਨ ਕੀਤਾ ਪਰ ਜਵਾਬ ਨਹੀਂ ਦਿੱਤਾ!", "roman": "tūṃ merā maisej sīn kītā par javāb nahī̀ṃ dittā!", "en": "You read my message and didn't reply!" },
+        { "native": "ਮੈਂ ਪਹਿਲਾਂ ਹੀ ਦੱਸ ਦਿੱਤਾ ਸੀ ਕਿ ਮੈਂ ਨਹੀਂ ਆ ਸਕਦਾ।", "roman": "maiṃ páilāṃ hī dass dittā sī ki maiṃ nahī̀ṃ ā sakdā.", "en": "I'd already said I couldn't come.", "focus": "ਪਹਿਲਾਂ", "wrong": ["ਹਾਲੇ|hāle", "ਅਜੇ|aje"] },
+        { "native": "ਉਹ ਹਾਲੇ ਵੀ ਸੌਂ ਰਿਹਾ ਹੈ।", "roman": "ó hāle vī sauṃ rihā̀ hai.", "en": "He's still asleep.", "focus": "ਹਾਲੇ", "wrong": ["ਪਹਿਲਾਂ|páilāṃ", "ਹੁਣੇ|huṇe"] },
+        { "native": "ਪੈਸੇ ਹਾਲੇ ਨਹੀਂ ਆਏ।", "roman": "paise hāle nahī̀ṃ āe.", "en": "The money hasn't come through yet.", "focus": "ਆਏ", "wrong": ["ਆਇਆ|āiā", "ਆਈ|āī"] },
+        { "native": "ਉਹ ਹੁਣੇ ਨਿਕਲਿਆ ਹੈ, ਦਸ ਮਿੰਟ ਵਿੱਚ ਪਹੁੰਚ ਜਾਵੇਗਾ।", "roman": "ó huṇe nikliā hai, das minṭ vich páunch jāvegā.", "en": "He's just left — he'll be there in ten minutes.", "focus": "ਹੁਣੇ", "wrong": ["ਹਾਲੇ|hāle", "ਪਹਿਲਾਂ|páilāṃ"] },
+        { "native": "ਮੈਂ ਇਹ ਮੈਸੇਜ ਪਹਿਲਾਂ ਹੀ ਪੜ੍ਹ ਚੁੱਕਾ ਹਾਂ।", "roman": "maiṃ é maisej páilāṃ hī páṛ chukkā hāṃ.", "en": "I've already read this message. (man speaking)", "focus": "ਚੁੱਕਾ", "wrong": ["ਚੁੱਕੀ|chukkī", "ਚੁੱਕੇ|chukke"] },
+        { "native": "ਅਜੇ ਤੱਕ ਕਿਸੇ ਨੇ ਗਰੁੱਪ ਵਿੱਚ ਕੁਝ ਨਹੀਂ ਲਿਖਿਆ।", "roman": "aje takk kise ne grupp vich kúj nahī̀ṃ likhiā.", "en": "So far nobody's written anything in the group." },
+        { "native": "ਹਾਲੇ ਨਹੀਂ, ਪੰਜ ਮਿੰਟ ਹੋਰ।", "roman": "hāle nahī̀ṃ, panj minṭ hor.", "en": "Not yet — five more minutes." }
+      ]
+    }
+  ]
+}

@@ -1,102 +1,217 @@
 {
   "id": 20,
-  "title": "Telling stories & real conversation",
-  "goal": "Tell a story with natural connectors, use relative clauses and reported speech, and sound like a real Punjabi speaker with fillers and idioms.",
-  "intro": "Punjabis love a good story — told loudly, with plenty of 'ਫਿਰ ਕੀ ਹੋਇਆ?', dramatic pauses and a well-placed proverb. In this final unit you'll learn to link events, describe people and things with 'who/which' clauses, report what people said, and use the small words that make conversation flow.\n\nYou now have all the main building blocks of Punjabi grammar. ਵਧਾਈਆਂ — congratulations!",
+  "title": "Real conversation",
+  "goal": "Tell a friend what happened, react while they tell you their news, pass on what people said and keep a chat going.",
+  "intro": "This last unit of Part 1 is about the thing you've been working towards: **real conversation**. You'll learn how Punjabis tell a friend what happened (**ਪਤਾ ਹੈ ਕੀ ਹੋਇਆ?** 'you know what happened?'), how listeners react (**ਹਾਏ ਰੱਬਾ!**, **ਕਮਾਲ ਹੋ ਗਈ!**, **ਮਜ਼ਾਕ ਕਰ ਰਿਹਾ ਹੈਂ?**), and the little words that keep a chat moving (**ਵੈਸੇ**, **ਮਤਲਬ**, **ਖ਼ੈਰ**, **ਹੈ ਨਾ?**).\n\nTwo structures let you build longer sentences: **relative clauses** (ਜਿਹੜੀ ਕੁੜੀ ਕੱਲ੍ਹ ਆਈ ਸੀ, ਉਹ… 'the girl who came yesterday…') and **reported speech**, including the chatty **ਕਹਿੰਦਾ** 'he goes…' and **ਅਖੇ** 'says he'. Friends in Punjabi call each other **ਤੂੰ**, so you'll practise its verb forms too.",
   "vocab": [
-    { "native": "ਕਹਾਣੀ", "roman": "kahā̀ṇī", "en": "story", "pos": "noun", "note": "f; ਕਹਾਣੀ ਸੁਣਾਉਣੀ 'to tell a story'; low tone on ā" },
-    { "native": "ਗੱਲ", "roman": "gall", "en": "matter, thing; talk", "pos": "noun", "note": "f · pl ਗੱਲਾਂ; ਗੱਲ ਕਰਨੀ 'to talk'" },
-    { "native": "ਕਹਿਣਾ", "roman": "káiṇā", "en": "to say", "pos": "verb", "note": "past ਕਿਹਾ; takes ਨੂੰ for the person told" },
-    { "native": "ਆਖਣਾ", "roman": "ākhṇā", "en": "to say (Majhi, literary)", "pos": "verb" },
-    { "native": "ਸੁਣਾਉਣਾ", "roman": "suṇāuṇā", "en": "to tell (a story), to recite; to 'tell your news'", "pos": "verb", "note": "ਸੁਣਾਓ! 'what's new?'" },
-    { "native": "ਯਕੀਨ", "roman": "yakīn", "en": "belief, trust", "pos": "noun", "note": "m; ਯਕੀਨ ਨਹੀਂ ਆਉਂਦਾ 'I can't believe it'" },
-    { "native": "ਮਤਲਬ", "roman": "matlab", "en": "meaning; I mean…", "pos": "noun", "note": "m" },
-    { "native": "ਯਾਨੀ", "roman": "yānī", "en": "that is, in other words", "pos": "conj" },
-    { "native": "ਵੈਸੇ", "roman": "vaise", "en": "by the way; actually; otherwise", "pos": "adv" },
-    { "native": "ਅਸਲ ਵਿੱਚ", "roman": "asal vich", "en": "actually, in fact", "pos": "adv" },
-    { "native": "ਖ਼ੈਰ", "roman": "xair", "en": "anyway; well", "pos": "interj" },
-    { "native": "ਆਖ਼ਰ", "roman": "āxar", "en": "finally, in the end; after all", "pos": "adv", "note": "also ਆਖ਼ਿਰਕਾਰ" },
-    { "native": "ਅੰਤ", "roman": "ant", "en": "end", "pos": "noun", "note": "m; ਅੰਤ ਵਿੱਚ 'in the end'" },
-    { "native": "ਸੋ", "roman": "so", "en": "so", "pos": "conj" },
+    { "native": "ਗੱਲ", "roman": "gall", "en": "matter, thing; talk", "pos": "noun", "note": "f · pl ਗੱਲਾਂ; ਗੱਲ ਕਰਨੀ 'to talk', ਗੱਲਾਂ ਕਰਨੀਆਂ 'to chat'" },
+    { "native": "ਕਹਾਣੀ", "roman": "kahā̀ṇī", "en": "story; the whole story (of what happened)", "pos": "noun", "note": "f · ਪੂਰੀ ਕਹਾਣੀ 'the whole story'; low tone on ā" },
+    { "native": "ਕਿੱਸਾ", "roman": "kissā", "en": "incident, funny thing that happened", "pos": "noun", "note": "m · pl ਕਿੱਸੇ · the word for a real-life anecdote" },
+    { "native": "ਸੁਣਾਉਣਾ", "roman": "suṇāuṇā", "en": "to tell (a story, news); lit. to make hear", "pos": "verb", "note": "ਸੁਣਾ! / ਸੁਣਾਓ! 'tell me (your news)!'" },
+    { "native": "ਕਹਿਣਾ", "roman": "káiṇā", "en": "to say", "pos": "verb", "note": "past ਕਿਹਾ (kihā̀); takes ਨੂੰ for the person told. In chat ਕਹਿੰਦਾ / ਕਹਿੰਦੀ / ਕਹਿੰਦੇ = 'he / she / they go…'" },
+    { "native": "ਅਖੇ", "roman": "akhe", "en": "(quoting) says he / she; supposedly", "pos": "particle", "note": "Very Punjabi. Puts someone's words in quotes, often with a raised eyebrow: ਅਖੇ ਮੈਂ ਬਿਮਾਰ ਹਾਂ 'says he's ill (yeah, right)'" },
     { "native": "ਇਕਦਮ", "roman": "ikdam", "en": "suddenly; totally", "pos": "adv" },
-    { "native": "ਜੋ", "roman": "jo", "en": "who, which, what (relative)", "pos": "pron" },
-    { "native": "ਜਿਹੜਾ", "roman": "jéṛā", "en": "who, which (relative)", "pos": "pron", "note": "f ਜਿਹੜੀ, pl ਜਿਹੜੇ; oblique ਜਿਸ, pl ਜਿਨ੍ਹਾਂ" },
+    { "native": "ਆਖ਼ਰ", "roman": "āxar", "en": "finally, in the end; after all", "pos": "adv", "note": "also ਆਖ਼ਿਰਕਾਰ" },
+    { "native": "ਲੜਾਈ", "roman": "laṛāī", "en": "fight, argument", "pos": "noun", "note": "f · X ਨਾਲ਼ ਲੜਾਈ ਹੋਣੀ 'to have a fight with X'" },
+    { "native": "ਯਾਰ", "roman": "yār", "en": "mate, friend; (filler) man!", "pos": "noun", "note": "m · used among friends of any gender; never to elders" },
+    { "native": "ਮਜ਼ਾਕ", "roman": "mazāk", "en": "joke, kidding", "pos": "noun", "note": "m · ਮਜ਼ਾਕ ਕਰਨਾ 'to joke, to kid'" },
+    { "native": "ਯਕੀਨ", "roman": "yakīn", "en": "belief, trust", "pos": "noun", "note": "m · ਮੈਨੂੰ ਯਕੀਨ ਨਹੀਂ ਆਉਂਦਾ 'I can't believe it' (lit. belief doesn't come to me)" },
+    { "native": "ਕਮਾਲ", "roman": "kamāl", "en": "wonder, marvel; amazing", "pos": "noun", "note": "f · ਕਮਾਲ ਹੋ ਗਈ! 'amazing!' · ਕਮਾਲ ਦਾ 'amazing' (adj)" },
+    { "native": "ਹਾਏ", "roman": "hāe", "en": "oh! (surprise, pain, sympathy)", "pos": "interj", "note": "ਹਾਏ ਰੱਬਾ! 'oh my God!'" },
+    { "native": "ਜੋ", "roman": "jo", "en": "who, which, what (relative)", "pos": "pron", "note": "never changes; oblique ਜਿਸ, pl ਜਿਨ੍ਹਾਂ" },
+    { "native": "ਜਿਹੜਾ", "roman": "jéṛā", "en": "who, which (relative)", "pos": "pron", "note": "f ਜਿਹੜੀ, pl ਜਿਹੜੇ; with a postposition ਜਿਹੜੇ or ਜਿਸ" },
     { "native": "ਜਿੱਥੇ", "roman": "jitthe", "en": "where (relative)", "pos": "adv", "note": "ਜਿੱਥੇ … ਉੱਥੇ" },
     { "native": "ਜਿਵੇਂ", "roman": "jiveṃ", "en": "as, the way that; like", "pos": "adv", "note": "ਜਿਵੇਂ … ਉਵੇਂ" },
-    { "native": "ਹਾਏ", "roman": "hāe", "en": "oh! alas! (surprise, pain)", "pos": "interj", "note": "ਹਾਏ ਰੱਬਾ! 'oh my God!'" },
-    { "native": "ਓਏ", "roman": "oe", "en": "hey! (to a male friend, very informal)", "pos": "interj", "note": "to a woman: ਨੀ (nī); rude to strangers" },
-    { "native": "ਬੱਲੇ ਬੱਲੇ", "roman": "balle balle", "en": "hooray! bravo!", "pos": "interj" },
-    { "native": "ਯਾਰ", "roman": "yār", "en": "mate, friend; (filler) man!", "pos": "noun", "note": "m; ਛੱਡ ਯਾਰ 'forget it, man'" },
-    { "native": "ਪਿੰਡ", "roman": "piṇḍ", "en": "village; home village", "pos": "noun", "note": "m" },
-    { "native": "ਦੁਨੀਆ", "roman": "dunīā", "en": "world; people", "pos": "noun", "note": "f" },
-    { "native": "ਮੁਹਾਵਰਾ", "roman": "muhā̀varā", "en": "idiom", "pos": "noun", "note": "m" },
-    { "native": "ਅਖਾਣ", "roman": "akhāṇ", "en": "proverb, saying", "pos": "noun", "note": "m" }
+    { "native": "ਜਿੰਨਾ", "roman": "jinnā", "en": "as much as, however much", "pos": "adv", "note": "ਜਿੰਨਾ … ਉੱਨਾ; ਜਿੰਨਾ ਮਰਜ਼ੀ 'as much as you like'" },
+    { "native": "ਬਾਰੇ", "roman": "bāre", "en": "about", "pos": "postp", "note": "ਮੇਰੇ ਬਾਰੇ 'about me', ਉਸ ਬਾਰੇ 'about him / it'; also ਦੇ ਬਾਰੇ" },
+    { "native": "ਕਰਕੇ", "roman": "karke", "en": "because of", "pos": "postp", "note": "after a noun: ਮੀਂਹ ਕਰਕੇ 'because of the rain'; the everyday Punjabi way" },
+    { "native": "ਗੜਬੜ", "roman": "gaṛbaṛ", "en": "mess, mix-up; something wrong", "pos": "noun", "note": "f · ਕੁਝ ਗੜਬੜ ਹੈ 'something's off'" },
+    { "native": "ਵੈਸੇ", "roman": "vaise", "en": "by the way; actually", "pos": "adv", "note": "the classic way to change the subject" },
+    { "native": "ਅਸਲ ਵਿੱਚ", "roman": "asal vich", "en": "actually, in fact", "pos": "adv" },
+    { "native": "ਮਤਲਬ", "roman": "matlab", "en": "meaning; I mean…, so…", "pos": "noun", "note": "m · ਮਤਲਬ ਤੂੰ ਨਹੀਂ ਆ ਰਿਹਾ? 'so you're not coming?'" },
+    { "native": "ਯਾਨੀ", "roman": "yānī", "en": "that is, in other words", "pos": "conj" },
+    { "native": "ਖ਼ੈਰ", "roman": "xair", "en": "anyway; well", "pos": "interj", "note": "moves the chat on" },
+    { "native": "ਓਏ", "roman": "oe", "en": "hey! (to a male friend, very informal)", "pos": "interj", "note": "to a girl: ਨੀ (nī); rude to strangers and elders" },
+    { "native": "ਵਿਚਾਰਾ", "roman": "vichārā", "en": "poor (thing)", "pos": "adj", "note": "f ਵਿਚਾਰੀ, pl ਵਿਚਾਰੇ · sympathy, not money: ਵਿਚਾਰਾ ਮੁੰਡਾ! 'poor guy!'; also ਬੇਚਾਰਾ" },
+    { "native": "ਪਾਗਲ", "roman": "pāgal", "en": "crazy, mad; idiot", "pos": "adj", "note": "between friends affectionate teasing; to strangers rude" },
+    { "native": "ਬਕਵਾਸ", "roman": "bakvās", "en": "nonsense, rubbish", "pos": "noun", "note": "f · ਬਕਵਾਸ ਨਾ ਕਰ 'stop talking rubbish' (blunt; friends only)" }
   ],
   "phrases": [
-    { "native": "ਇੱਕ ਵਾਰ ਦੀ ਗੱਲ ਹੈ…", "roman": "ikk vār dī gall hai…", "en": "Once upon a time… / One time…" },
+    { "native": "ਪਤਾ ਹੈ ਕੀ ਹੋਇਆ?", "roman": "patā hai kī hoiā?", "en": "You know what happened?" },
     { "native": "ਫਿਰ ਕੀ ਹੋਇਆ?", "roman": "phir kī hoiā?", "en": "Then what happened?" },
+    { "native": "ਪੂਰੀ ਗੱਲ ਸੁਣਾ।", "roman": "pūrī gall suṇā.", "en": "Tell me the whole thing. (informal)", "note": "polite: ਪੂਰੀ ਗੱਲ ਸੁਣਾਓ" },
     { "native": "ਅੱਛਾ, ਫਿਰ?", "roman": "achchhā, phir?", "en": "Really? And then?" },
-    { "native": "ਗੱਲ ਇਹ ਹੈ ਕਿ…", "roman": "gall é hai ki…", "en": "The thing is…" },
-    { "native": "ਵੈਸੇ, ਤੁਸੀਂ ਕਦੇ ਲਾਹੌਰ ਗਏ ਹੋ?", "roman": "vaise, tusīṃ kade Lahàur gae ho?", "en": "By the way, have you ever been to Lahore?" },
+    { "native": "ਮਜ਼ਾਕ ਕਰ ਰਿਹਾ ਹੈਂ?", "roman": "mazāk kar rihā̀ haiṃ?", "en": "Are you kidding? (to a male friend)", "note": "to a female friend: ਮਜ਼ਾਕ ਕਰ ਰਹੀ ਹੈਂ? · polite: ਮਜ਼ਾਕ ਕਰ ਰਹੇ ਹੋ?" },
     { "native": "ਮੈਨੂੰ ਯਕੀਨ ਨਹੀਂ ਆਉਂਦਾ!", "roman": "mainūṃ yakīn nahī̀ṃ āundā!", "en": "I can't believe it!" },
     { "native": "ਹਾਏ ਰੱਬਾ!", "roman": "hāe rabbā!", "en": "Oh my God!" },
-    { "native": "ਛੱਡੋ ਯਾਰ!", "roman": "chhaḍḍo yār!", "en": "Forget it, man!" },
-    { "native": "ਕੋਈ ਨਾ।", "roman": "koī nā.", "en": "No worries. (colloquial)" },
-    { "native": "ਚੱਲੋ, ਖ਼ੈਰ।", "roman": "challo, xair.", "en": "Oh well, anyway." },
-    { "native": "ਤੁਸੀਂ ਸਮਝ ਗਏ ਨਾ?", "roman": "tusīṃ samáj gae nā?", "en": "You get it, right?" },
-    { "native": "ਸੱਚ ਦੱਸਾਂ?", "roman": "sachch dassāṃ?", "en": "Shall I tell you the truth?" },
-    { "native": "ਬੱਲੇ ਬੱਲੇ!", "roman": "balle balle!", "en": "Hooray! Fantastic!" }
+    { "native": "ਕਮਾਲ ਹੋ ਗਈ!", "roman": "kamāl ho gaī!", "en": "Amazing! / Wow!" },
+    { "native": "ਹੱਦ ਹੋ ਗਈ!", "roman": "hadd ho gaī!", "en": "That's the limit! / Unbelievable!", "note": "ਹੱਦ = limit (f)" },
+    { "native": "ਬੱਲੇ ਬੱਲੇ!", "roman": "balle balle!", "en": "Hooray! Fantastic!" },
+    { "native": "ਗੱਲ ਇਹ ਹੈ ਕਿ…", "roman": "gall é hai ki…", "en": "The thing is…" },
+    { "native": "ਹਾਂ ਤਾਂ, ਮੈਂ ਕਿੱਥੇ ਸੀ?", "roman": "hāṃ tāṃ, maiṃ kitthe sī?", "en": "So, where was I?" },
+    { "native": "ਹੈ ਨਾ?", "roman": "hai nā?", "en": "Right? / Isn't it?" },
+    { "native": "ਹੋਰ ਸੁਣਾ, ਕੀ ਚੱਲ ਰਿਹਾ ਹੈ?", "roman": "hor suṇā, kī chall rihā̀ hai?", "en": "So, what's going on with you? (informal)", "note": "polite: ਹੋਰ ਸੁਣਾਓ…" },
+    { "native": "ਛੱਡ ਯਾਰ।", "roman": "chhaḍḍ yār.", "en": "Forget it, man.", "note": "polite / to several: ਛੱਡੋ ਯਾਰ" },
+    { "native": "ਕੋਈ ਨਾ।", "roman": "koī nā.", "en": "No worries. / Never mind. (colloquial)" }
   ],
   "grammar": [
     {
       "title": "Relative clauses: ਜਿਹੜਾ … ਉਹ …",
-      "body": "Punjabi builds 'who/which/where/when' clauses as **pairs**: a relative word starting with ਜ- in one clause, and a matching word starting with ਉ- (or ਤ-) in the other:\n\nਜਿਹੜਾ / ਜੋ … ਉਹ … — the one who … he/she/it\nਜਿੱਥੇ … ਉੱਥੇ … — where … there\nਜਦੋਂ … ਉਦੋਂ / ਤਾਂ … — when … then\nਜਿਵੇਂ … ਉਵੇਂ … — as … so\nਜਿੰਨਾ … ਉੱਨਾ … — as much … so much\n\nThe relative clause usually comes **first**: ਜਿਹੜਾ ਮੁੰਡਾ ਕੱਲ੍ਹ ਆਇਆ ਸੀ, ਉਹ ਮੇਰਾ ਭਰਾ ਹੈ — 'the boy who came yesterday is my brother' (lit. which boy came yesterday, he is my brother).\n\nWith a postposition, ਜਿਹੜਾ/ਜੋ become **ਜਿਸ** (sg) and **ਜਿਨ੍ਹਾਂ** (pl): ਜਿਸ ਕੁੜੀ ਨੂੰ ਤੁਸੀਂ ਮਿਲੇ… 'the girl you met…'.",
+      "body": "Punjabi builds 'who / which / where / when' clauses as **pairs**: a relative word starting with ਜ- in one clause, and a matching word starting with ਉ- in the other:\n\nਜਿਹੜਾ / ਜੋ … ਉਹ … — the one who … he/she/it\nਜਿੱਥੇ … ਉੱਥੇ … — where … there\nਜਦੋਂ … ਉਦੋਂ / ਤਾਂ … — when … then\nਜਿਵੇਂ … ਉਵੇਂ … — the way … that way\nਜਿੰਨਾ … ਉੱਨਾ … — as much … that much\n\nThe relative clause usually comes **first**: ਜਿਹੜਾ ਮੁੰਡਾ ਕੱਲ੍ਹ ਆਇਆ ਸੀ, ਉਹ ਮੇਰਾ ਭਰਾ ਹੈ — 'the boy who came yesterday is my brother' (lit. 'which boy came yesterday, he is my brother').\n\n**ਜਿਹੜਾ** agrees like an adjective: ਜਿਹੜੀ ਕੁੜੀ, ਜਿਹੜੇ ਲੋਕ. **ਜੋ** never changes. Before a postposition (ਨੇ, ਨੂੰ, ਨਾਲ਼, ਦਾ…) use **ਜਿਸ** (plural **ਜਿਨ੍ਹਾਂ**) or the oblique **ਜਿਹੜੇ**: ਜਿਸ ਕੁੜੀ ਨਾਲ਼ ਮੈਂ ਗੱਲ ਕੀਤੀ… 'the girl I talked to…'.\n\nThe trap: English puts 'who' after the noun and leaves out the second half. Punjabi needs both halves — drop the ਉਹ / ਉੱਥੇ and the sentence sounds unfinished. In fast speech the ਜ- word can be left out but the ਉ- word stays: ਤੂੰ ਜਿਹੜੀ ਫ਼ਿਲਮ ਦੱਸੀ ਸੀ, ਉਹ ਵੇਖੀ.",
       "examples": [
         { "native": "ਜਿਹੜਾ ਮੁੰਡਾ ਕੱਲ੍ਹ ਆਇਆ ਸੀ, ਉਹ ਮੇਰਾ ਭਰਾ ਹੈ।", "roman": "jéṛā muṇḍā káll āiā sī, ó merā parā̀ hai.", "en": "The boy who came yesterday is my brother." },
-        { "native": "ਜੋ ਕਿਤਾਬ ਤੁਸੀਂ ਦਿੱਤੀ, ਉਹ ਬਹੁਤ ਵਧੀਆ ਹੈ।", "roman": "jo kitāb tusīṃ dittī, ó báut vadī̀ā hai.", "en": "The book you gave me is excellent." },
-        { "native": "ਜਿਸ ਪਿੰਡ ਵਿੱਚ ਮੇਰੇ ਦਾਦਾ ਜੀ ਜੰਮੇ, ਉਹ ਹੁਣ ਪਾਕਿਸਤਾਨ ਵਿੱਚ ਹੈ।", "roman": "jis piṇḍ vich mere dādā jī jamme, ó huṇ Pākistān vich hai.", "en": "The village where my grandfather was born is now in Pakistan." },
+        { "native": "ਜਿਹੜੀ ਫ਼ਿਲਮ ਤੂੰ ਦੱਸੀ ਸੀ, ਉਹ ਬਹੁਤ ਵਧੀਆ ਸੀ।", "roman": "jéṛī filam tūṃ dassī sī, ó báut vadī̀ā sī.", "en": "The film you told me about was really good." },
+        { "native": "ਜਿਸ ਕੁੜੀ ਨਾਲ਼ ਮੇਰੀ ਲੜਾਈ ਹੋਈ ਸੀ, ਉਹ ਹੁਣ ਮੇਰੀ ਸਹੇਲੀ ਹੈ।", "roman": "jis kuṛī nāḷ merī laṛāī hoī sī, ó huṇ merī sahèlī hai.", "en": "The girl I had a fight with is now my friend." },
         { "native": "ਜਿੱਥੇ ਤੁਸੀਂ ਰਹਿੰਦੇ ਹੋ, ਉੱਥੇ ਬਹੁਤ ਠੰਢ ਹੈ।", "roman": "jitthe tusīṃ ráinde ho, utthe báut ṭháṇḍ hai.", "en": "It's very cold where you live." },
-        { "native": "ਜਦੋਂ ਮੈਂ ਛੋਟਾ ਸੀ, ਉਦੋਂ ਅਸੀਂ ਪਿੰਡ ਰਹਿੰਦੇ ਸੀ।", "roman": "jadoṃ maiṃ chhoṭā sī, udoṃ asīṃ piṇḍ ráinde sī.", "en": "When I was little, we lived in the village." },
+        { "native": "ਜਦੋਂ ਮੈਂ ਛੋਟਾ ਸੀ, ਉਦੋਂ ਅਸੀਂ ਲੁਧਿਆਣੇ ਰਹਿੰਦੇ ਸੀ।", "roman": "jadoṃ maiṃ chhoṭā sī, udoṃ asīṃ Ludiā̀ṇe ráinde sī.", "en": "When I was little, we lived in Ludhiana." },
         { "native": "ਜਿਵੇਂ ਤੁਹਾਡੀ ਮਰਜ਼ੀ।", "roman": "jiveṃ tuhā̀ḍī marzī.", "en": "As you wish." }
       ]
     },
     {
-      "title": "Reported speech: ਕਿਹਾ ਕਿ…",
-      "body": "Punjabi usually reports speech **directly**: after ਕਿ, the words keep their original person and tense, as if in quotation marks.\n\nਉਸ ਨੇ ਕਿਹਾ ਕਿ ਮੈਂ ਕੱਲ੍ਹ ਆਵਾਂਗਾ — lit. 'he said that I will come tomorrow' = 'he said he would come tomorrow'.\n\nQuestions use ਪੁੱਛਿਆ ਕਿ…: ਉਸ ਨੇ ਪੁੱਛਿਆ ਕਿ ਤੁਸੀਂ ਕਿੱਥੋਂ ਹੋ 'she asked where I was from'. Commands use the imperative or ਨੂੰ + oblique infinitive + ਲਈ: ਮੈਨੂੰ ਬੈਠਣ ਲਈ ਕਿਹਾ 'told me to sit'.\n\nIn lively storytelling, the colloquial **ਕਹਿੰਦਾ / ਕਹਿੰਦੀ / ਕਹਿੰਦੇ** ('he says') is used like English 'he goes…': ਉਹ ਕਹਿੰਦਾ, \"ਮੈਂ ਨਹੀਂ ਜਾਣਾ!\" 'He goes, \"I'm not going!\"'",
+      "title": "Reported speech: ਕਿਹਾ ਕਿ…, ਕਹਿੰਦਾ and ਅਖੇ",
+      "body": "Punjabi usually reports speech **directly**: after ਕਿ, the words keep their original person and tense, as if in quotation marks.\n\nਉਸ ਨੇ ਕਿਹਾ ਕਿ ਮੈਂ ਕੱਲ੍ਹ ਆਵਾਂਗਾ — lit. 'he said that I will come tomorrow' = 'he said he would come tomorrow'.\n\n**Questions** use ਪੁੱਛਿਆ ਕਿ…: ਉਸ ਨੇ ਪੁੱਛਿਆ ਕਿ ਤੁਸੀਂ ਕਿੱਥੋਂ ਹੋ 'she asked where I was from'.\n**Orders and requests**: ਨੂੰ + oblique infinitive + ਲਈ ਕਿਹਾ: ਮੈਨੂੰ ਬੈਠਣ ਲਈ ਕਿਹਾ 'told me to sit'. Or quote the order directly: ਕਹਿੰਦੇ, \"ਬੈਠ ਜਾ!\"\n\nIn conversation two colloquial forms are everywhere:\n• **ਕਹਿੰਦਾ / ਕਹਿੰਦੀ / ਕਹਿੰਦੇ** — the present participle used like English 'he goes…': ਉਹ ਕਹਿੰਦਾ, \"ਮੈਂ ਨਹੀਂ ਜਾਣਾ!\" 'He goes, \"I'm not going!\"'. It agrees with the speaker; use ਕਹਿੰਦੇ for anyone you respect (ਮੰਮੀ ਕਹਿੰਦੇ…, ਸਰ ਕਹਿੰਦੇ…).\n• **ਅਖੇ** — 'says he / she', often with a hint of disbelief: ਅਖੇ ਮੇਰੇ ਕੋਲ ਵਕਤ ਨਹੀਂ! 'says he hasn't got time!'\n\nThe trap: don't shift the tense as in English ('he said he *was*…'). Keep the speaker's own words.",
       "examples": [
         { "native": "ਸਿਮਰਨ ਨੇ ਕਿਹਾ ਕਿ ਮੈਂ ਥੱਕ ਗਈ ਹਾਂ।", "roman": "Simran ne kihā̀ ki maiṃ thakk gaī hāṃ.", "en": "Simran said she was tired." },
         { "native": "ਉਹਨਾਂ ਨੇ ਪੁੱਛਿਆ ਕਿ ਤੁਸੀਂ ਕਦੋਂ ਆਓਗੇ।", "roman": "únāṃ ne puchchhiā ki tusīṃ kadoṃ āoge.", "en": "They asked when you would come." },
-        { "native": "ਡਾਕਟਰ ਨੇ ਮੈਨੂੰ ਆਰਾਮ ਕਰਨ ਲਈ ਕਿਹਾ।", "roman": "ḍākṭar ne mainūṃ ārām karan laī kihā̀.", "en": "The doctor told me to rest." },
-        { "native": "ਬਾਪੂ ਜੀ ਕਹਿੰਦੇ, \"ਪਹਿਲਾਂ ਰੋਟੀ ਖਾਓ!\"", "roman": "bāpū jī káinde, \"páilāṃ roṭī khāo!\"", "en": "Dad goes, \"Eat first!\"" },
-        { "native": "ਮੈਂ ਉਸ ਨੂੰ ਦੱਸਿਆ ਕਿ ਮੈਨੂੰ ਪੰਜਾਬੀ ਆਉਂਦੀ ਹੈ।", "roman": "maiṃ us nūṃ dassiā ki mainūṃ panjābī āundī hai.", "en": "I told him/her that I know Punjabi." }
+        { "native": "ਮੰਮੀ ਨੇ ਮੈਨੂੰ ਦਸ ਵਜੇ ਤੱਕ ਘਰ ਆਉਣ ਲਈ ਕਿਹਾ।", "roman": "mammī ne mainūṃ das vaje takk kàr āuṇ laī kihā̀.", "en": "Mum told me to be home by ten." },
+        { "native": "ਉਹ ਕਹਿੰਦਾ, \"ਮੈਂ ਨਹੀਂ ਆਉਣਾ!\"", "roman": "ó káindā, \"maiṃ nahī̀ṃ āuṇā!\"", "en": "He goes, \"I'm not coming!\"" },
+        { "native": "ਅਖੇ ਮੇਰੇ ਕੋਲ ਵਕਤ ਨਹੀਂ!", "roman": "akhe mere kol vakat nahī̀ṃ!", "en": "Says he hasn't got time! (yeah, right)" }
       ]
     },
     {
-      "title": "Idioms and proverbs",
-      "body": "Punjabi speech is full of body-part idioms and rhyming proverbs (ਅਖਾਣ). A few that you will hear constantly:\n\nਨੱਕ ਵਿੱਚ ਦਮ ਕਰਨਾ — 'to put breath in the nose': to pester someone to exhaustion\nਹੱਥ ਧੋ ਕੇ ਪਿੱਛੇ ਪੈਣਾ — 'to wash hands and fall behind': to go after someone relentlessly\nਦਿਲ ਟੁੱਟਣਾ — to be heartbroken\nਅੱਖਾਂ ਦਾ ਤਾਰਾ — 'star of the eyes': the apple of one's eye\nਘਰ ਦੀ ਮੁਰਗੀ ਦਾਲ ਬਰਾਬਰ — 'the home chicken is worth (only) dal': we undervalue what we have\nਜਿੰਨੀ ਚਾਦਰ ਹੋਵੇ, ਉੱਨੇ ਪੈਰ ਪਸਾਰੋ — 'stretch your feet as far as your sheet reaches': live within your means",
+      "title": "Telling it and reacting: story words, reactions and fillers",
+      "body": "**Putting events in order.** ਪਹਿਲਾਂ 'first' → ਫਿਰ 'then' → ਇਕਦਮ 'suddenly' → ਆਖ਼ਰ 'in the end'. A handy pattern for 'I was doing X when suddenly Y': **… ਰਿਹਾ ਸੀ ਕਿ ਇਕਦਮ …** — ਮੈਂ ਸੌਂ ਰਿਹਾ ਸੀ ਕਿ ਇਕਦਮ ਫ਼ੋਨ ਵੱਜਿਆ.\n\n**'X happened'** is ਹੋ ਗਿਆ / ਹੋ ਗਈ, agreeing with the thing that happened: ਲੜਾਈ (f) ਹੋ ਗਈ, ਹਾਦਸਾ (m) ਹੋ ਗਿਆ. The ready-made reactions work the same way: **ਕਮਾਲ ਹੋ ਗਈ!**, **ਹੱਦ ਹੋ ਗਈ!** — feminine because ਕਮਾਲ and ਹੱਦ are.\n\n**Reacting.** A Punjabi listener is never silent: ਅੱਛਾ? 'really?', ਫਿਰ? 'and then?', ਹਾਏ ਰੱਬਾ! 'oh God!', ਬੱਲੇ ਬੱਲੇ! 'great!', ਮਜ਼ਾਕ ਕਰ ਰਿਹਾ ਹੈਂ? 'are you kidding?', ਵਿਚਾਰਾ! 'poor thing!'.\n\n**Fillers and steering words.** ਵੈਸੇ 'by the way' (new topic), ਖ਼ੈਰ 'anyway' (closing one), ਅਸਲ ਵਿੱਚ 'actually' (correcting), ਮਤਲਬ / ਯਾਨੀ 'I mean / so' (explaining or checking), ਹਾਂ ਤਾਂ 'right, so' (getting back on track).\n\n**Tag ਨਾ.** A ਨਾ at the end of a sentence asks for agreement or coaxes: ਵਧੀਆ ਸੀ, ਹੈ ਨਾ? 'it was good, wasn't it?', ਤੂੰ ਆਵੇਂਗਾ ਨਾ? 'you'll come, won't you?'. It is not 'no' — 'no' is ਨਹੀਂ.\n\n**ਤੂੰ with friends.** Punjabi has no middle 'you': friends of your own age use **ਤੂੰ**, with **ਹੈਂ** for 'are' (ਤੂੰ ਕਿੱਥੇ ਹੈਂ?) and the bare verb stem for commands (ਸੁਣਾ!, ਛੱਡ!). Switch to ਤੁਸੀਂ … ਹੋ with anyone older.",
       "examples": [
-        { "native": "ਬੱਚਿਆਂ ਨੇ ਨੱਕ ਵਿੱਚ ਦਮ ਕਰ ਦਿੱਤਾ।", "roman": "bachchiāṃ ne nakk vich dam kar dittā.", "en": "The kids have driven me mad." },
-        { "native": "ਉਹ ਆਪਣੀ ਮਾਂ ਦੀਆਂ ਅੱਖਾਂ ਦਾ ਤਾਰਾ ਹੈ।", "roman": "ó āpṇī māṃ dīāṃ akkhāṃ dā tārā hai.", "en": "He's the apple of his mother's eye." },
-        { "native": "ਘਰ ਦੀ ਮੁਰਗੀ ਦਾਲ ਬਰਾਬਰ।", "roman": "kàr dī murgī dāl barābar.", "en": "We don't value what's at home." },
-        { "native": "ਜਿੰਨੀ ਚਾਦਰ ਹੋਵੇ, ਉੱਨੇ ਪੈਰ ਪਸਾਰੋ।", "roman": "jinnī chādar hove, unne pair pasāro.", "en": "Cut your coat according to your cloth." }
+        { "native": "ਪਹਿਲਾਂ ਅਸੀਂ ਬਾਜ਼ਾਰ ਗਏ, ਫਿਰ ਫ਼ਿਲਮ ਵੇਖੀ, ਤੇ ਆਖ਼ਰ ਘਰ ਆ ਕੇ ਰੋਟੀ ਖਾਧੀ।", "roman": "páilāṃ asīṃ bāzār gae, phir filam vekhī, te āxar kàr ā ke roṭī khā́dī.", "en": "First we went to the market, then we saw a film, and in the end we came home and ate." },
+        { "native": "ਅਸੀਂ ਗੱਲਾਂ ਕਰ ਰਹੇ ਸੀ ਕਿ ਇਕਦਮ ਬੱਤੀ ਚਲੀ ਗਈ।", "roman": "asīṃ gallāṃ kar rahè sī ki ikdam battī chalī gaī.", "en": "We were chatting when suddenly the power went." },
+        { "native": "ਹਾਏ ਰੱਬਾ! ਤੂੰ ਠੀਕ ਤਾਂ ਹੈਂ?", "roman": "hāe rabbā! tūṃ ṭhīk tāṃ haiṃ?", "en": "Oh my God! You're OK, though?" },
+        { "native": "ਵੈਸੇ, ਤੇਰੀ ਭੈਣ ਦਾ ਵਿਆਹ ਕਦੋਂ ਹੈ?", "roman": "vaise, terī pàiṇ dā viā́ kadoṃ hai?", "en": "By the way, when's your sister's wedding?" },
+        { "native": "ਖ਼ੈਰ, ਕੋਈ ਨਾ। ਹੋਰ ਸੁਣਾ!", "roman": "xair, koī nā. hor suṇā!", "en": "Anyway, never mind. Tell me what's new!" }
       ]
     }
   ],
   "dialogue": {
-    "title": "Farewell evening",
-    "setting": "On his last night, Tom tells Simran's family about his trip; Grandfather (Dadaji) listens.",
+    "title": "The lost phone",
+    "setting": "Harman bumps into her friend Navi at college in Chandigarh the morning after a party.",
     "lines": [
-      { "speaker": "Simran", "native": "ਟੌਮ, ਦਾਦਾ ਜੀ ਨੂੰ ਉਹ ਕਹਾਣੀ ਸੁਣਾਓ, ਬੈਗ ਵਾਲੀ!", "roman": "Ṭaum, dādā jī nūṃ ó kahā̀ṇī suṇāo, baig vālī!", "en": "Tom, tell Grandpa that story — the one about the bag!" },
-      { "speaker": "Tom", "native": "ਹਾਂ ਜੀ! ਗੱਲ ਇਹ ਹੈ ਕਿ ਸਟੇਸ਼ਨ 'ਤੇ ਮੇਰਾ ਬੈਗ ਚੋਰੀ ਹੋ ਗਿਆ।", "roman": "hāṃ jī! gall é hai ki saṭeshan te merā baig chorī ho giā.", "en": "Yes! The thing is, my bag got stolen at the station." },
-      { "speaker": "Dadaji", "native": "ਹਾਏ ਰੱਬਾ! ਫਿਰ ਕੀ ਹੋਇਆ?", "roman": "hāe rabbā! phir kī hoiā?", "en": "Oh my God! Then what happened?" },
-      { "speaker": "Tom", "native": "ਅਸੀਂ ਥਾਣੇ ਗਏ। ਪੁਲਿਸ ਵਾਲੇ ਕਹਿੰਦੇ, \"ਜੇ ਮਿਲ ਗਿਆ ਤਾਂ ਫ਼ੋਨ ਕਰਾਂਗੇ।\"", "roman": "asīṃ thāṇe gae. pulis vāle káinde, \"je mil giā tāṃ fon karāṅge.\"", "en": "We went to the police station. The police go, \"If it turns up, we'll phone.\"" },
-      { "speaker": "Dadaji", "native": "ਅੱਛਾ, ਫਿਰ?", "roman": "achchhā, phir?", "en": "I see, and then?" },
-      { "speaker": "Tom", "native": "ਦੋ ਦਿਨਾਂ ਬਾਅਦ ਇਕਦਮ ਫ਼ੋਨ ਆਇਆ। ਜਿਸ ਬੰਦੇ ਨੇ ਬੈਗ ਚੁੱਕਿਆ ਸੀ, ਉਹ ਫੜਿਆ ਗਿਆ!", "roman": "do dināṃ bāad ikdam fon āiā. jis bande ne baig chukkiā sī, ó phaṛiā giā!", "en": "Two days later, suddenly a call came. The man who had taken the bag had been caught!" },
-      { "speaker": "Simran", "native": "ਤੇ ਸਭ ਕੁਝ ਵਾਪਸ ਮਿਲ ਗਿਆ — ਕੈਮਰਾ ਵੀ!", "roman": "te sáb kúj vāpas mil giā — kaimrā vī!", "en": "And he got everything back — even the camera!" },
-      { "speaker": "Dadaji", "native": "ਬੱਲੇ ਬੱਲੇ! ਮੈਨੂੰ ਯਕੀਨ ਨਹੀਂ ਆਉਂਦਾ। ਤੁਸੀਂ ਤਾਂ ਖ਼ੁਸ਼ਕਿਸਮਤ ਹੋ, ਪੁੱਤ।", "roman": "balle balle! mainūṃ yakīn nahī̀ṃ āundā. tusīṃ tāṃ xushkismat ho, putt.", "en": "Bravo! I can't believe it. You're a lucky one, son." },
-      { "speaker": "Tom", "native": "ਅਸਲ ਵਿੱਚ ਮੈਂ ਖ਼ੁਸ਼ਕਿਸਮਤ ਹਾਂ ਕਿਉਂਕਿ ਮੈਨੂੰ ਤੁਹਾਡੇ ਵਰਗਾ ਪਰਿਵਾਰ ਮਿਲਿਆ।", "roman": "asal vich maiṃ xushkismat hāṃ kiuṅki mainūṃ tuhā̀ḍe vargā parivār miliā.", "en": "Actually, I'm lucky because I found a family like yours." },
-      { "speaker": "Dadaji", "native": "ਜਿੱਥੇ ਵੀ ਜਾਓ, ਪੰਜਾਬੀ ਨਾ ਭੁੱਲਿਓ। ਜੀਂਦੇ ਰਹੋ, ਪੁੱਤਰਾ!", "roman": "jitthe vī jāo, panjābī nā pùllio. jīnde rahò, puttarā!", "en": "Wherever you go, don't forget Punjabi. Live long, my son!" }
+      { "speaker": "Harman", "native": "ਓਏ ਨਵੀ! ਹੋਰ ਸੁਣਾ, ਕੱਲ੍ਹ ਦੀ ਪਾਰਟੀ ਕਿਵੇਂ ਸੀ?", "roman": "oe Navī! hor suṇā, káll dī pārṭī kiveṃ sī?", "en": "Hey Navi! So tell me, how was last night's party?" },
+      { "speaker": "Navi", "native": "ਯਾਰ, ਪੁੱਛ ਨਾ! ਪਤਾ ਹੈ ਕੀ ਹੋਇਆ?", "roman": "yār, puchchh nā! patā hai kī hoiā?", "en": "Man, don't even ask! You know what happened?" },
+      { "speaker": "Harman", "native": "ਕੀ ਹੋਇਆ? ਸਭ ਠੀਕ ਹੈ ਨਾ?", "roman": "kī hoiā? sáb ṭhīk hai nā?", "en": "What happened? Everything's OK, right?" },
+      { "speaker": "Navi", "native": "ਪਾਰਟੀ ਵਿੱਚ ਮੇਰਾ ਫ਼ੋਨ ਗੁਆਚ ਗਿਆ। ਮੈਂ ਇੱਕ ਘੰਟਾ ਲੱਭਦਾ ਰਿਹਾ।", "roman": "pārṭī vich merā fon guāch giā. maiṃ ikk kàṇṭā lábbdā rihā̀.", "en": "I lost my phone at the party. I spent an hour looking for it." },
+      { "speaker": "Harman", "native": "ਹਾਏ ਰੱਬਾ! ਫਿਰ?", "roman": "hāe rabbā! phir?", "en": "Oh my God! And then?" },
+      { "speaker": "Navi", "native": "ਫਿਰ ਇਕਦਮ ਮੇਰੇ ਦੋਸਤ ਦਾ ਫ਼ੋਨ ਵੱਜਿਆ — ਮੰਮੀ ਸੀ!", "roman": "phir ikdam mere dost dā fon vajjiā — mammī sī!", "en": "Then suddenly my friend's phone rang — it was my mum!" },
+      { "speaker": "Harman", "native": "ਤੇਰੀ ਮੰਮੀ? ਮਜ਼ਾਕ ਕਰ ਰਿਹਾ ਹੈਂ?", "roman": "terī mammī? mazāk kar rihā̀ haiṃ?", "en": "Your mum? Are you kidding?" },
+      { "speaker": "Navi", "native": "ਨਹੀਂ ਯਾਰ! ਜਿਸ ਬੰਦੇ ਨੂੰ ਮੇਰਾ ਫ਼ੋਨ ਮਿਲਿਆ, ਉਸ ਨੇ ਸਿੱਧਾ ਮੰਮੀ ਨੂੰ ਫ਼ੋਨ ਕਰ ਦਿੱਤਾ।", "roman": "nahī̀ṃ yār! jis bande nūṃ merā fon miliā, us ne síddā mammī nūṃ fon kar dittā.", "en": "No, man! The guy who found my phone called my mum straight away." },
+      { "speaker": "Harman", "native": "ਹੱਦ ਹੋ ਗਈ! ਫਿਰ ਆਂਟੀ ਨੇ ਕੀ ਕਿਹਾ?", "roman": "hadd ho gaī! phir āṇṭī ne kī kihā̀?", "en": "Unbelievable! So what did Aunty say?" },
+      { "speaker": "Navi", "native": "ਉਹ ਕਹਿੰਦੇ, \"ਪਹਿਲਾਂ ਘਰ ਆ, ਫਿਰ ਗੱਲ ਕਰਾਂਗੇ!\"", "roman": "ó káinde, \"páilāṃ kàr ā, phir gall karāṅge!\"", "en": "She goes, \"Come home first, then we'll talk!\"" },
+      { "speaker": "Harman", "native": "ਵਿਚਾਰਾ ਨਵੀ! ਵੈਸੇ, ਫ਼ੋਨ ਵਾਪਸ ਮਿਲਿਆ?", "roman": "vichārā Navī! vaise, fon vāpas miliā?", "en": "Poor Navi! By the way, did you get the phone back?" },
+      { "speaker": "Navi", "native": "ਹਾਂ। ਅਸਲ ਵਿੱਚ ਉਹ ਬੰਦਾ ਮੰਮੀ ਦੀ ਸਹੇਲੀ ਦਾ ਮੁੰਡਾ ਨਿਕਲਿਆ!", "roman": "hāṃ. asal vich ó bandā mammī dī sahèlī dā muṇḍā nikliā!", "en": "Yes. Actually, the guy turned out to be my mum's friend's son!" },
+      { "speaker": "Harman", "native": "ਕਮਾਲ ਹੋ ਗਈ! ਪੰਜਾਬ ਵਿੱਚ ਸਾਰੇ ਇੱਕ ਦੂਜੇ ਨੂੰ ਜਾਣਦੇ ਹਨ, ਹੈ ਨਾ?", "roman": "kamāl ho gaī! Panjāb vich sāre ikk dūje nūṃ jāṇde han, hai nā?", "en": "Amazing! Everyone in Punjab knows everyone, right?" }
     ]
   },
-  "culture": "Punjabi has a deep oral tradition: the epic romances (ਕਿੱਸੇ) like *Heer Ranjha* by Waris Shah, Sufi poetry by Bulleh Shah and Baba Farid, the hymns of the Sikh Gurus, and folk forms like ਬੋਲੀਆਂ (witty couplets sung at weddings) and ਟੱਪੇ. Elders often address the young with vocative forms — ਪੁੱਤਰਾ, ਧੀਏ, ਰੱਬਾ — and close a conversation with blessings. Keep listening to Punjabi music, films and podcasts from both sides of the border: the accents vary, but it's all one language."
+  "culture": "A Punjabi conversation is loud, warm and interactive. Listeners keep up a running commentary — **ਅੱਛਾ?**, **ਹਾਂ**, **ਫਿਰ?**, **ਹਾਏ!** — and jumping in with a reaction is not rude, it shows you care; sitting silently can seem cold. Between friends **ਯਾਰ** is everywhere, for men and women alike, and young men greet each other with **ਓਏ** and teasing like **ਪਾਗਲ ਹੈਂ?** — a sign of closeness. Punjabi has no middle 'you' like Hindi's तुम, so friends of the same age simply use **ਤੂੰ**; with anyone older, your friends' parents (**ਆਂਟੀ, ਅੰਕਲ**) and strangers, switch to **ਤੁਸੀਂ** and **ਜੀ**, and refer to them in the respectful plural (**ਮੰਮੀ ਕਹਿੰਦੇ…**). In everyday speech you'll also hear **ਆ** for ਹੈ (ਕੀ ਹਾਲ ਆ? 'how's it going?'), and in Majhi speech **ਪਿਆ** for 'right now' (ਕੀ ਕਰਦਾ ਪਿਆ ਹੈਂ? 'what are you up to?'). English words slip into almost every sentence — *party*, *phone*, *sorry*, *actually* — so don't worry if yours do too. From here, Part 2 takes you into real life: making plans, calls, getting around town, eating out and much more.",
+  "lessons": [
+    {
+      "title": "Telling a friend what happened",
+      "tip": { "title": "First, then, suddenly, in the end", "body": "- Line events up: **ਪਹਿਲਾਂ** 'first' → **ਫਿਰ** 'then' → **ਇਕਦਮ** 'suddenly' → **ਆਖ਼ਰ** 'in the end'.\n- 'X happened' is **ਹੋ ਗਿਆ / ਹੋ ਗਈ**, agreeing with X: ਲੜਾਈ (f) **ਹੋ ਗਈ**, ਹਾਦਸਾ (m) **ਹੋ ਗਿਆ**.\n- Hook your listener first: **ਪਤਾ ਹੈ ਕੀ ਹੋਇਆ?**", "pattern": "ਪਹਿਲਾਂ … ਫਿਰ … ਇਕਦਮ … ਆਖ਼ਰ …", "grammar": 2 },
+      "new": ["ਪਤਾ ਹੈ ਕੀ ਹੋਇਆ?", "ਫਿਰ ਕੀ ਹੋਇਆ?", "ਪੂਰੀ ਗੱਲ ਸੁਣਾ।", "ਯਾਰ", "ਕਹਾਣੀ", "ਕਿੱਸਾ", "ਸੁਣਾਉਣਾ", "ਇਕਦਮ", "ਆਖ਼ਰ", "ਲੜਾਈ"],
+      "sentences": [
+        { "native": "ਯਾਰ, ਪਤਾ ਹੈ ਕੀ ਹੋਇਆ? ਮੇਰਾ ਫ਼ੋਨ ਟੁੱਟ ਗਿਆ!", "roman": "yār, patā hai kī hoiā? merā fon ṭuṭṭ giā!", "en": "Man, you know what happened? My phone broke!", "focus": "ਗਿਆ", "wrong": ["ਗਈ|gaī", "ਗਏ|gae"] },
+        { "native": "ਕੱਲ੍ਹ ਮੇਰੀ ਆਪਣੇ ਭਰਾ ਨਾਲ਼ ਲੜਾਈ ਹੋ ਗਈ।", "roman": "káll merī āpṇe parā̀ nāḷ laṛāī ho gaī.", "en": "Yesterday I had a fight with my brother.", "focus": "ਗਈ", "wrong": ["ਗਿਆ|giā", "ਗਏ|gae"] },
+        { "native": "ਪਹਿਲਾਂ ਮੀਂਹ ਪਿਆ, ਫਿਰ ਬੱਤੀ ਚਲੀ ਗਈ।", "roman": "páilāṃ mī́ṃ piā, phir battī chalī gaī.", "en": "First it rained, then the power went.", "focus": "ਫਿਰ", "wrong": ["ਆਖ਼ਰ|āxar", "ਇਕਦਮ|ikdam"] },
+        { "native": "ਮੈਂ ਸੌਂ ਰਿਹਾ ਸੀ ਕਿ ਇਕਦਮ ਫ਼ੋਨ ਵੱਜਿਆ।", "roman": "maiṃ sauṃ rihā̀ sī ki ikdam fon vajjiā.", "en": "I was asleep when suddenly the phone rang.", "focus": "ਇਕਦਮ", "wrong": ["ਆਖ਼ਰ|āxar", "ਪਹਿਲਾਂ|páilāṃ"] },
+        { "native": "ਅਸੀਂ ਇੱਕ ਘੰਟਾ ਲੱਭਦੇ ਰਹੇ, ਆਖ਼ਰ ਚਾਬੀ ਮਿਲ ਗਈ।", "roman": "asīṃ ikk kàṇṭā lábbde rahè, āxar chābī mil gaī.", "en": "We kept looking for an hour, and in the end we found the key.", "focus": "ਆਖ਼ਰ", "wrong": ["ਇਕਦਮ|ikdam", "ਪਹਿਲਾਂ|páilāṃ"] },
+        { "native": "ਪਹਿਲਾਂ ਸਭ ਠੀਕ ਸੀ, ਫਿਰ ਇਕਦਮ ਲੜਾਈ ਸ਼ੁਰੂ ਹੋ ਗਈ।", "roman": "páilāṃ sáb ṭhīk sī, phir ikdam laṛāī shurū ho gaī.", "en": "At first everything was fine, then suddenly a fight started.", "focus": "ਪਹਿਲਾਂ", "wrong": ["ਆਖ਼ਰ|āxar", "ਫਿਰ|phir"] },
+        { "native": "ਰੁਕ, ਪਹਿਲਾਂ ਪੂਰੀ ਗੱਲ ਸੁਣਾ।", "roman": "ruk, páilāṃ pūrī gall suṇā.", "en": "Wait, tell me the whole thing first." },
+        { "native": "ਉਹ ਕਿੱਸਾ ਸੁਣਾ, ਪਾਰਟੀ ਵਾਲਾ!", "roman": "ó kissā suṇā, pārṭī vālā!", "en": "Tell that story — the one about the party!" },
+        { "native": "ਉਸ ਦੀ ਕਹਾਣੀ ਸੁਣ ਕੇ ਸਾਰੇ ਹੈਰਾਨ ਹੋ ਗਏ।", "roman": "us dī kahā̀ṇī suṇ ke sāre hairān ho gae.", "en": "Everyone was amazed when they heard his story.", "focus": "ਗਏ", "wrong": ["ਗਿਆ|giā", "ਗਈ|gaī"] },
+        { "native": "ਫਿਰ ਕੀ ਹੋਇਆ? ਆਖ਼ਰ ਤੁਸੀਂ ਘਰ ਕਿਵੇਂ ਪਹੁੰਚੇ?", "roman": "phir kī hoiā? āxar tusīṃ kàr kiveṃ páunche?", "en": "Then what happened? How did you get home in the end?", "focus": "ਪਹੁੰਚੇ", "wrong": ["ਪਹੁੰਚਿਆ|páunchiā", "ਪਹੁੰਚੀ|páunchī"] },
+        { "native": "ਮੰਮੀ ਨੂੰ ਇਹ ਕਹਾਣੀ ਨਾ ਸੁਣਾਇਓ!", "roman": "mammī nūṃ é kahā̀ṇī nā suṇāio!", "en": "Don't tell Mum this story!" }
+      ]
+    },
+    {
+      "title": "Reacting while you listen",
+      "tip": { "title": "React, react, react", "body": "- Listeners react all the time: **ਅੱਛਾ?** 'really?', **ਫਿਰ?** 'and then?', **ਹਾਏ ਰੱਬਾ!** 'oh God!'.\n- **ਹੋ ਗਈ** makes ready-made reactions: **ਕਮਾਲ ਹੋ ਗਈ!** 'amazing!', **ਹੱਦ ਹੋ ਗਈ!** 'unbelievable!'.\n- To a friend you call ਤੂੰ, 'are' is **ਹੈਂ**: ਮਜ਼ਾਕ ਕਰ ਰਿਹਾ **ਹੈਂ**? With ਤੁਸੀਂ it's **ਹੋ**.", "pattern": "ਤੂੰ … ਹੈਂ?  ·  ਤੁਸੀਂ … ਹੋ?" },
+      "new": ["ਅੱਛਾ, ਫਿਰ?", "ਮਜ਼ਾਕ ਕਰ ਰਿਹਾ ਹੈਂ?", "ਮੈਨੂੰ ਯਕੀਨ ਨਹੀਂ ਆਉਂਦਾ!", "ਹਾਏ ਰੱਬਾ!", "ਕਮਾਲ ਹੋ ਗਈ!", "ਹੱਦ ਹੋ ਗਈ!", "ਮਜ਼ਾਕ", "ਯਕੀਨ", "ਕਮਾਲ", "ਹਾਏ"],
+      "sentences": [
+        { "native": "ਤੂੰ ਮਜ਼ਾਕ ਕਰ ਰਹੀ ਹੈਂ?", "roman": "tūṃ mazāk kar rahī̀ haiṃ?", "en": "Are you kidding? (to a female friend)", "focus": "ਹੈਂ", "wrong": ["ਹੋ|ho", "ਹਾਂ|hāṃ"] },
+        { "native": "ਤੁਸੀਂ ਮਜ਼ਾਕ ਕਰ ਰਹੇ ਹੋ?", "roman": "tusīṃ mazāk kar rahè ho?", "en": "Are you joking? (polite, or to several people)", "focus": "ਹੋ", "wrong": ["ਹੈਂ|haiṃ", "ਹਾਂ|hāṃ"] },
+        { "native": "ਨਹੀਂ ਯਾਰ, ਮੈਂ ਮਜ਼ਾਕ ਨਹੀਂ ਕਰ ਰਿਹਾ।", "roman": "nahī̀ṃ yār, maiṃ mazāk nahī̀ṃ kar rihā̀.", "en": "No, man, I'm not kidding. (man speaking)", "focus": "ਰਿਹਾ", "wrong": ["ਰਹੀ|rahī̀", "ਰਹੇ|rahè"] },
+        { "native": "ਹਾਏ ਰੱਬਾ! ਤੇਰਾ ਬਟੂਆ ਚੋਰੀ ਹੋ ਗਿਆ?", "roman": "hāe rabbā! terā baṭūā chorī ho giā?", "en": "Oh my God! Your wallet got stolen?", "focus": "ਤੇਰਾ", "wrong": ["ਤੇਰੀ|terī", "ਤੇਰੇ|tere"] },
+        { "native": "ਤਿੰਨ ਘੰਟੇ ਲੇਟ? ਹੱਦ ਹੋ ਗਈ!", "roman": "tinn kàṇṭe leṭ? hadd ho gaī!", "en": "Three hours late? Unbelievable!", "focus": "ਗਈ", "wrong": ["ਗਿਆ|giā", "ਗਏ|gae"] },
+        { "native": "ਮੈਨੂੰ ਅਜੇ ਵੀ ਯਕੀਨ ਨਹੀਂ ਆ ਰਿਹਾ।", "roman": "mainūṃ aje vī yakīn nahī̀ṃ ā rihā̀.", "en": "I still can't believe it.", "focus": "ਮੈਨੂੰ", "wrong": ["ਮੈਂ|maiṃ", "ਮੇਰਾ|merā"] },
+        { "native": "ਅੱਛਾ? ਫਿਰ ਉਸ ਨੇ ਕੀ ਕਿਹਾ?", "roman": "achchhā? phir us ne kī kihā̀?", "en": "Really? Then what did he say?", "focus": "ਨੇ", "wrong": ["ਨੂੰ|nūṃ", "ਦਾ|dā"] },
+        { "native": "ਕਮਾਲ ਹੋ ਗਈ, ਤੂੰ ਪਾਸ ਹੋ ਗਿਆ!", "roman": "kamāl ho gaī, tūṃ pās ho giā!", "en": "Amazing, you passed! (to a male friend)", "focus": "ਗਿਆ", "wrong": ["ਗਈ|gaī", "ਗਏ|gae"] },
+        { "native": "ਹਾਏ, ਤੇਰੇ ਹੱਥ ਨੂੰ ਕੀ ਹੋਇਆ?", "roman": "hāe, tere hatth nūṃ kī hoiā?", "en": "Oh no, what happened to your hand?" },
+        { "native": "ਇਹ ਮਜ਼ਾਕ ਨਹੀਂ ਹੈ, ਸੱਚ ਹੈ!", "roman": "é mazāk nahī̀ṃ hai, sachch hai!", "en": "This isn't a joke, it's true!" }
+      ]
+    },
+    {
+      "title": "Saying which one you mean",
+      "tip": { "title": "ਜਿਹੜਾ … ਉਹ — the one who…", "body": "- Punjabi says 'which boy came, he is my brother': **ਜਿਹੜਾ** ਮੁੰਡਾ ਆਇਆ ਸੀ, **ਉਹ** ਮੇਰਾ ਭਰਾ ਹੈ.\n- ਜਿਹੜਾ agrees like an adjective (ਜਿਹੜੀ ਕੁੜੀ, ਜਿਹੜੇ ਲੋਕ); **ਜੋ** never changes.\n- Before ਨੇ / ਨੂੰ / ਨਾਲ਼ use **ਜਿਸ** (pl ਜਿਨ੍ਹਾਂ).\n- Other pairs: ਜਿੱਥੇ … **ਉੱਥੇ**, ਜਦੋਂ … **ਉਦੋਂ**, ਜਿਵੇਂ … **ਉਵੇਂ**.", "pattern": "ਜਿਹੜਾ + clause, ਉਹ + rest", "grammar": 0 },
+      "new": ["ਜੋ", "ਜਿਹੜਾ", "ਜਿੱਥੇ", "ਜਿਵੇਂ", "ਜਿੰਨਾ"],
+      "sentences": [
+        { "native": "ਜਿਹੜੀ ਕੁੜੀ ਕੱਲ੍ਹ ਪਾਰਟੀ 'ਤੇ ਸੀ, ਉਹ ਮੇਰੀ ਭੈਣ ਦੀ ਸਹੇਲੀ ਹੈ।", "roman": "jéṛī kuṛī káll pārṭī te sī, ó merī pàiṇ dī sahèlī hai.", "en": "The girl who was at the party yesterday is my sister's friend.", "focus": "ਜਿਹੜੀ", "wrong": ["ਜਿਹੜਾ|jéṛā", "ਜਿਹੜੇ|jéṛe"] },
+        { "native": "ਜਿਹੜੇ ਮੁੰਡੇ ਲੇਟ ਆਏ, ਉਹ ਬਾਹਰ ਬੈਠੇ ਹਨ।", "roman": "jéṛe muṇḍe leṭ āe, ó bā́r baiṭhe han.", "en": "The guys who came late are sitting outside.", "focus": "ਜਿਹੜੇ", "wrong": ["ਜਿਹੜਾ|jéṛā", "ਜਿਹੜੀ|jéṛī"] },
+        { "native": "ਜੋ ਫ਼ਿਲਮ ਤੂੰ ਦੱਸੀ ਸੀ, ਉਹ ਬਹੁਤ ਬੋਰ ਸੀ।", "roman": "jo filam tūṃ dassī sī, ó báut bor sī.", "en": "The film you told me about was really boring.", "focus": "ਉਹ", "wrong": ["ਉੱਥੇ|utthe", "ਉਦੋਂ|udoṃ"] },
+        { "native": "ਜਿਸ ਮੁੰਡੇ ਨਾਲ਼ ਮੇਰੀ ਲੜਾਈ ਹੋਈ ਸੀ, ਉਹ ਹੁਣ ਮੇਰਾ ਪੱਕਾ ਦੋਸਤ ਹੈ।", "roman": "jis muṇḍe nāḷ merī laṛāī hoī sī, ó huṇ merā pakkā dost hai.", "en": "The guy I had a fight with is now my close friend.", "focus": "ਜਿਸ", "wrong": ["ਜਿਹੜਾ|jéṛā", "ਜੋ|jo"] },
+        { "native": "ਜਿੱਥੇ ਅਸੀਂ ਪਿਛਲੀ ਵਾਰ ਚਾਹ ਪੀਤੀ ਸੀ, ਉੱਥੇ ਹੀ ਚੱਲੀਏ?", "roman": "jitthe asīṃ pichhlī vār chā́ pītī sī, utthe hī challīe?", "en": "Shall we go where we had tea last time?", "focus": "ਉੱਥੇ", "wrong": ["ਇੱਥੇ|itthe", "ਉਦੋਂ|udoṃ"] },
+        { "native": "ਜਿਵੇਂ ਮੰਮੀ ਬਣਾਉਂਦੇ ਹਨ, ਉਵੇਂ ਬਣਾ।", "roman": "jiveṃ mammī baṇāunde han, uveṃ baṇā.", "en": "Make it the way Mum makes it.", "focus": "ਉਵੇਂ", "wrong": ["ਉੱਥੇ|utthe", "ਉਦੋਂ|udoṃ"] },
+        { "native": "ਜਿੰਨਾ ਮਰਜ਼ੀ ਖਾ, ਪੈਸੇ ਮੈਂ ਦੇਵਾਂਗਾ।", "roman": "jinnā marzī khā, paise maiṃ devāṅgā.", "en": "Eat as much as you like, I'm paying.", "focus": "ਜਿੰਨਾ", "wrong": ["ਜਿਵੇਂ|jiveṃ", "ਜਿੱਥੇ|jitthe"] },
+        { "native": "ਜਦੋਂ ਮੈਂ ਘਰ ਪਹੁੰਚੀ, ਉਦੋਂ ਤੱਕ ਸਾਰੇ ਸੌਂ ਗਏ ਸੀ।", "roman": "jadoṃ maiṃ kàr páunchī, udoṃ takk sāre sauṃ gae sī.", "en": "By the time I got home, everyone had gone to sleep. (woman speaking)", "focus": "ਉਦੋਂ", "wrong": ["ਉੱਥੇ|utthe", "ਉਵੇਂ|uveṃ"] },
+        { "native": "ਜੋ ਹੋ ਗਿਆ, ਉਹ ਹੋ ਗਿਆ।", "roman": "jo ho giā, ó ho giā.", "en": "What's done is done." }
+      ]
+    },
+    {
+      "title": "Passing on what someone said",
+      "tip": { "title": "ਕਿਹਾ ਕਿ… — keep their exact words", "body": "- Punjabi reports words **as they were said**: ਉਸ ਨੇ ਕਿਹਾ ਕਿ **ਮੈਂ** ਥੱਕ ਗਈ ਹਾਂ = 'she said she was tired'.\n- Questions: **ਪੁੱਛਿਆ ਕਿ…**; orders: ਮੈਨੂੰ ਆਉਣ **ਲਈ ਕਿਹਾ** 'told me to come'.\n- Chatting: **ਕਹਿੰਦਾ / ਕਹਿੰਦੀ / ਕਹਿੰਦੇ** 'he / she goes…' (ਕਹਿੰਦੇ for elders), or **ਅਖੇ** 'says he' with a raised eyebrow.", "pattern": "X ਨੇ ਕਿਹਾ ਕਿ + exact words", "grammar": 1 },
+      "new": ["ਗੱਲ", "ਕਹਿਣਾ", "ਅਖੇ", "ਗੱਲ ਇਹ ਹੈ ਕਿ…", "ਬਾਰੇ", "ਕਰਕੇ", "ਗੜਬੜ"],
+      "sentences": [
+        { "native": "ਉਸ ਨੇ ਕਿਹਾ ਕਿ ਮੈਂ ਪੰਜ ਮਿੰਟ ਵਿੱਚ ਆ ਰਿਹਾ ਹਾਂ।", "roman": "us ne kihā̀ ki maiṃ panj minṭ vich ā rihā̀ hāṃ.", "en": "He said he'd be here in five minutes.", "focus": "ਕਿ", "wrong": ["ਤਾਂ|tāṃ", "ਪਰ|par"] },
+        { "native": "ਮੈਂ ਉਸ ਨੂੰ ਪੁੱਛਿਆ ਕਿ ਤੂੰ ਕਿੱਥੇ ਹੈਂ।", "roman": "maiṃ us nūṃ puchchhiā ki tūṃ kitthe haiṃ.", "en": "I asked him where he was.", "focus": "ਪੁੱਛਿਆ", "wrong": ["ਕਿਹਾ|kihā̀", "ਦੱਸਿਆ|dassiā"] },
+        { "native": "ਮੰਮੀ ਕਹਿੰਦੇ, \"ਛੇਤੀ ਘਰ ਆ!\"", "roman": "mammī káinde, \"chhetī kàr ā!\"", "en": "Mum goes, \"Come home early!\"", "focus": "ਕਹਿੰਦੇ", "wrong": ["ਕਹਿੰਦਾ|káindā", "ਕਹਿੰਦੀ|káindī"] },
+        { "native": "ਉਹ ਕਹਿੰਦੀ, \"ਮੈਂ ਨਹੀਂ ਆਉਣਾ।\"", "roman": "ó káindī, \"maiṃ nahī̀ṃ āuṇā.\"", "en": "She goes, \"I'm not coming.\"", "focus": "ਕਹਿੰਦੀ", "wrong": ["ਕਹਿੰਦਾ|káindā", "ਕਹਿੰਦੇ|káinde"] },
+        { "native": "ਅਖੇ ਮੈਂ ਬਹੁਤ ਬਿਮਾਰ ਹਾਂ! ਕੱਲ੍ਹ ਤਾਂ ਪਾਰਟੀ ਵਿੱਚ ਸੀ।", "roman": "akhe maiṃ báut bimār hāṃ! káll tāṃ pārṭī vich sī.", "en": "Says he's really ill! He was at a party yesterday." },
+        { "native": "ਭਾਜੀ ਨੇ ਮੈਨੂੰ ਗੱਡੀ ਹੌਲੀ ਚਲਾਉਣ ਲਈ ਕਿਹਾ।", "roman": "pā̀jī ne mainūṃ gaḍḍī haulī chalāuṇ laī kihā̀.", "en": "Bhaji told me to drive slowly.", "focus": "ਚਲਾਉਣ", "wrong": ["ਚਲਾਉਣਾ|chalāuṇā", "ਚਲਾਓ|chalāo"] },
+        { "native": "ਗੱਲ ਇਹ ਹੈ ਕਿ ਮੈਨੂੰ ਉਸ ਬਾਰੇ ਕੁਝ ਨਹੀਂ ਪਤਾ ਸੀ।", "roman": "gall é hai ki mainūṃ us bāre kúj nahī̀ṃ patā sī.", "en": "The thing is, I didn't know anything about it.", "focus": "ਬਾਰੇ", "wrong": ["ਨਾਲ਼|nāḷ", "ਵਿੱਚ|vich"] },
+        { "native": "ਤੂੰ ਕਿਸ ਬਾਰੇ ਗੱਲ ਕਰ ਰਿਹਾ ਹੈਂ?", "roman": "tūṃ kis bāre gall kar rihā̀ haiṃ?", "en": "What are you talking about?", "focus": "ਬਾਰੇ", "wrong": ["ਨਾਲ਼|nāḷ", "ਨੂੰ|nūṃ"] },
+        { "native": "ਮੀਂਹ ਕਰਕੇ ਸਾਰਾ ਪਲੈਨ ਖ਼ਰਾਬ ਹੋ ਗਿਆ।", "roman": "mī́ṃ karke sārā plain xarāb ho giā.", "en": "The whole plan got ruined because of the rain.", "focus": "ਕਰਕੇ", "wrong": ["ਕਿਉਂਕਿ|kiuṅki", "ਲਈ|laī"] },
+        { "native": "ਕੁਝ ਗੜਬੜ ਹੈ, ਉਹ ਫ਼ੋਨ ਨਹੀਂ ਚੁੱਕ ਰਿਹਾ।", "roman": "kúj gaṛbaṛ hai, ó fon nahī̀ṃ chukk rihā̀.", "en": "Something's wrong — he isn't picking up the phone." },
+        { "native": "ਉਹ ਕਹਿ ਰਿਹਾ ਸੀ ਕਿ ਕੱਲ੍ਹ ਛੁੱਟੀ ਹੈ।", "roman": "ó kái rihā̀ sī ki káll chhuṭṭī hai.", "en": "He was saying tomorrow is a holiday.", "focus": "ਕਿ", "wrong": ["ਤਾਂ|tāṃ", "ਪਰ|par"] }
+      ]
+    },
+    {
+      "title": "Keeping the chat going",
+      "tip": { "title": "Little words that steer a chat", "body": "- **ਵੈਸੇ** 'by the way' opens a new topic; **ਖ਼ੈਰ** 'anyway' closes one.\n- **ਅਸਲ ਵਿੱਚ** 'actually' corrects; **ਮਤਲਬ** / **ਯਾਨੀ** 'I mean / so' explain or check.\n- A **ਨਾ** at the end asks 'right?': ਵਧੀਆ ਸੀ, **ਹੈ ਨਾ**? It is not 'no' (that's ਨਹੀਂ).", "pattern": "ਵੈਸੇ, …  ·  … , ਹੈ ਨਾ?", "grammar": 2 },
+      "new": ["ਵੈਸੇ", "ਅਸਲ ਵਿੱਚ", "ਮਤਲਬ", "ਯਾਨੀ", "ਖ਼ੈਰ", "ਹੈ ਨਾ?", "ਹਾਂ ਤਾਂ, ਮੈਂ ਕਿੱਥੇ ਸੀ?", "ਹੋਰ ਸੁਣਾ, ਕੀ ਚੱਲ ਰਿਹਾ ਹੈ?"],
+      "sentences": [
+        { "native": "ਵੈਸੇ, ਤੂੰ ਐਤਵਾਰ ਨੂੰ ਕੀ ਕਰ ਰਿਹਾ ਹੈਂ?", "roman": "vaise, tūṃ aitvār nūṃ kī kar rihā̀ haiṃ?", "en": "By the way, what are you doing on Sunday?", "focus": "ਵੈਸੇ", "wrong": ["ਖ਼ੈਰ|xair", "ਯਾਨੀ|yānī"] },
+        { "native": "ਖ਼ੈਰ, ਜੋ ਹੋਇਆ ਠੀਕ ਹੋਇਆ।", "roman": "xair, jo hoiā ṭhīk hoiā.", "en": "Anyway, what happened was for the best.", "focus": "ਖ਼ੈਰ", "wrong": ["ਵੈਸੇ|vaise", "ਮਤਲਬ|matlab"] },
+        { "native": "ਅਸਲ ਵਿੱਚ ਮੈਂ ਭੁੱਲ ਗਿਆ ਸੀ।", "roman": "asal vich maiṃ pùll giā sī.", "en": "Actually, I had forgotten. (man speaking)", "focus": "ਗਿਆ", "wrong": ["ਗਈ|gaī", "ਗਏ|gae"] },
+        { "native": "ਮਤਲਬ ਤੂੰ ਨਹੀਂ ਆ ਰਿਹਾ?", "roman": "matlab tūṃ nahī̀ṃ ā rihā̀?", "en": "So you mean you're not coming?", "focus": "ਮਤਲਬ", "wrong": ["ਵੈਸੇ|vaise", "ਖ਼ੈਰ|xair"] },
+        { "native": "ਯਾਨੀ ਸਾਨੂੰ ਫਿਰ ਉਡੀਕ ਕਰਨੀ ਪਵੇਗੀ।", "roman": "yānī sānūṃ phir uḍīk karnī pavegī.", "en": "In other words, we'll have to wait again.", "focus": "ਯਾਨੀ", "wrong": ["ਵੈਸੇ|vaise", "ਖ਼ੈਰ|xair"] },
+        { "native": "ਫ਼ਿਲਮ ਵਧੀਆ ਸੀ, ਹੈ ਨਾ?", "roman": "filam vadī̀ā sī, hai nā?", "en": "The film was great, wasn't it?", "focus": "ਨਾ", "wrong": ["ਨਹੀਂ|nahī̀ṃ", "ਨੂੰ|nūṃ"] },
+        { "native": "ਤੂੰ ਕੱਲ੍ਹ ਆਵੇਂਗਾ ਨਾ?", "roman": "tūṃ káll āveṅgā nā?", "en": "You'll come tomorrow, won't you? (to a male friend)", "focus": "ਨਾ", "wrong": ["ਨਹੀਂ|nahī̀ṃ", "ਨੂੰ|nūṃ"] },
+        { "native": "ਹੋਰ ਸੁਣਾ, ਕੰਮ ਕਿਵੇਂ ਚੱਲ ਰਿਹਾ ਹੈ?", "roman": "hor suṇā, kamm kiveṃ chall rihā̀ hai?", "en": "So tell me, how's work going?", "focus": "ਰਿਹਾ", "wrong": ["ਰਹੀ|rahī̀", "ਰਹੇ|rahè"] },
+        { "native": "ਹਾਂ ਤਾਂ, ਮੈਂ ਕਿੱਥੇ ਸੀ? ਅੱਛਾ, ਫਿਰ ਅਸੀਂ ਸਟੇਸ਼ਨ ਪਹੁੰਚੇ।", "roman": "hāṃ tāṃ, maiṃ kitthe sī? achchhā, phir asīṃ saṭeshan páunche.", "en": "Right, where was I? Oh yes, then we got to the station." },
+        { "native": "ਸਭ ਠੀਕ ਚੱਲ ਰਿਹਾ ਹੈ, ਤੂੰ ਸੁਣਾ।", "roman": "sáb ṭhīk chall rihā̀ hai, tūṃ suṇā.", "en": "Everything's fine — what about you?" }
+      ]
+    },
+    {
+      "title": "Between friends",
+      "tip": { "title": "ਯਾਰ, ਓਏ and friendly teasing", "body": "- **ਯਾਰ** 'mate' works for friends of any gender; **ਓਏ** 'hey!' only to a male friend (to a girl: ਨੀ).\n- Teasing is affection: **ਪਾਗਲ ਹੈਂ?** 'are you mad?', **ਬਕਵਾਸ ਨਾ ਕਰ!** 'stop talking rubbish!'.\n- Sympathy: **ਵਿਚਾਰਾ / ਵਿਚਾਰੀ / ਵਿਚਾਰੇ** 'poor thing', agreeing with the person.\n- None of this with elders: back to ਤੁਸੀਂ and ਜੀ." },
+      "new": ["ਓਏ", "ਪਾਗਲ", "ਬਕਵਾਸ", "ਵਿਚਾਰਾ", "ਛੱਡ ਯਾਰ।", "ਕੋਈ ਨਾ।", "ਬੱਲੇ ਬੱਲੇ!"],
+      "sentences": [
+        { "native": "ਓਏ, ਕਿੱਥੇ ਜਾ ਰਿਹਾ ਹੈਂ?", "roman": "oe, kitthe jā rihā̀ haiṃ?", "en": "Hey, where are you off to?", "focus": "ਹੈਂ", "wrong": ["ਹੋ|ho", "ਹੈ|hai"] },
+        { "native": "ਤੂੰ ਪਾਗਲ ਹੈਂ? ਇੰਨੀ ਰਾਤ ਨੂੰ?", "roman": "tūṃ pāgal haiṃ? innī rāt nūṃ?", "en": "Are you mad? This late at night?", "focus": "ਹੈਂ", "wrong": ["ਹੋ|ho", "ਹਾਂ|hāṃ"] },
+        { "native": "ਬਕਵਾਸ ਨਾ ਕਰ!", "roman": "bakvās nā kar!", "en": "Stop talking rubbish!", "focus": "ਕਰ", "wrong": ["ਕਰਦਾ|kardā", "ਕੀਤਾ|kītā"] },
+        { "native": "ਵਿਚਾਰੀ ਸਿਮਰਨ! ਉਸ ਦਾ ਫ਼ੋਨ ਫਿਰ ਗੁਆਚ ਗਿਆ।", "roman": "vichārī Simran! us dā fon phir guāch giā.", "en": "Poor Simran! She's lost her phone again.", "focus": "ਵਿਚਾਰੀ", "wrong": ["ਵਿਚਾਰਾ|vichārā", "ਵਿਚਾਰੇ|vichāre"] },
+        { "native": "ਵਿਚਾਰੇ ਬੱਚੇ ਥੱਕ ਗਏ ਹਨ।", "roman": "vichāre bachche thakk gae han.", "en": "The poor kids are worn out.", "focus": "ਵਿਚਾਰੇ", "wrong": ["ਵਿਚਾਰਾ|vichārā", "ਵਿਚਾਰੀ|vichārī"] },
+        { "native": "ਕੋਈ ਨਾ ਯਾਰ, ਅਗਲੀ ਵਾਰ ਸਹੀ।", "roman": "koī nā yār, aglī vār sahī̀.", "en": "No worries, mate — next time, then." },
+        { "native": "ਛੱਡ ਯਾਰ, ਉਹ ਹਮੇਸ਼ਾ ਲੇਟ ਹੁੰਦਾ ਹੈ।", "roman": "chhaḍḍ yār, ó hameshā leṭ hundā hai.", "en": "Forget it, man, he's always late.", "focus": "ਛੱਡ", "wrong": ["ਛੱਡਦਾ|chhaḍḍdā", "ਛੱਡਿਆ|chhaḍḍiā"] },
+        { "native": "ਬੱਲੇ ਬੱਲੇ! ਮੇਰਾ ਯਾਰ ਪਾਸ ਹੋ ਗਿਆ!", "roman": "balle balle! merā yār pās ho giā!", "en": "Hooray! My mate passed!" },
+        { "native": "ਅੰਕਲ ਜੀ ਨਾਲ਼ ਇਸ ਤਰ੍ਹਾਂ ਗੱਲ ਨਾ ਕਰ!", "roman": "aṅkal jī nāḷ is tarā̀ṃ gall nā kar!", "en": "Don't talk to Uncle like that!", "focus": "ਨਾ", "wrong": ["ਨਹੀਂ|nahī̀ṃ", "ਨੂੰ|nūṃ"] }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,212 @@
+{
+  "id": 21,
+  "title": "Making plans with friends",
+  "goal": "Ask a friend if they're free, suggest what to do, fix where and when to meet, say you're on your way or running late, and cancel without upsetting anyone.",
+  "intro": "Welcome to **Part 2**. From here on the course is about real life: the Punjabi you need with friends, around town and at work. This unit is about making plans, which in Punjabi means a lot of **ਚੱਲ** 'come on, let's', a lot of English words (**ਫ਼੍ਰੀ**, **ਬਿਜ਼ੀ**, **ਪਲੈਨ**, **ਵੀਕੈਂਡ**) and the famous **ਬੱਸ ਪੰਜ ਮਿੰਟ!** 'just five minutes!'\n\nYou'll learn the everyday way to say 'let's' and 'shall we?' (**ਚੱਲ, ਮਾਲ ਚੱਲੀਏ**, **ਕਿੱਥੇ ਮਿਲੀਏ?**), how to boss your friends around with the ਤੂੰ forms (**ਸਮੇਂ ਸਿਰ ਆਈਂ!**), and how to say you're about to leave, on your way, or stuck in traffic.",
+  "vocab": [
+    { "native": "ਫ਼੍ਰੀ", "roman": "frī", "en": "free (not busy); free of charge", "pos": "adj", "note": "English loan · ਫ਼੍ਰੀ ਹੈਂ? 'are you free?' Many people say pharī." },
+    { "native": "ਬਿਜ਼ੀ", "roman": "bizī", "en": "busy", "pos": "adj", "note": "English loan; far more common in speech than ਰੁੱਝਿਆ" },
+    { "native": "ਟਾਈਮ", "roman": "ṭāim", "en": "time", "pos": "noun", "note": "m · the everyday word with friends; ਸਮਾਂ / ਵਕਤ are more careful · ਟਾਈਮ ਹੈ? 'got time?'" },
+    { "native": "ਵੀਕੈਂਡ", "roman": "vīkaiṇḍ", "en": "weekend", "pos": "noun", "note": "m · ਇਸ ਵੀਕੈਂਡ 'this weekend'" },
+    { "native": "ਪ੍ਰੋਗਰਾਮ", "roman": "progrām", "en": "plan (for the day), what you're up to", "pos": "noun", "note": "m · ਕੀ ਪ੍ਰੋਗਰਾਮ ਹੈ? 'what's the plan?'" },
+    { "native": "ਪਲੈਨ", "roman": "plain", "en": "plan", "pos": "noun", "note": "m · ਪਲੈਨ ਬਣਾਉਣਾ 'to make a plan'" },
+    { "native": "ਮੂਡ", "roman": "mūḍ", "en": "mood", "pos": "noun", "note": "m · X ਕਰਨ ਦਾ ਮੂਡ ਹੈ / ਨਹੀਂ ਹੈ 'I feel / don't feel like doing X'" },
+    { "native": "ਤੈਨੂੰ", "roman": "tainūṃ", "en": "(to) you (intimate)", "pos": "pron", "note": "ਤੂੰ + ਨੂੰ · ਤੈਨੂੰ ਪਤਾ ਹੈ? 'do you know?' · polite: ਤੁਹਾਨੂੰ" },
+    { "native": "ਚੱਲ", "roman": "chall", "en": "come on; let's; OK then (to one friend)", "pos": "interj", "note": "the ਤੂੰ imperative of ਚੱਲਣਾ, used to start a suggestion · to several or polite: ਚੱਲੋ" },
+    { "native": "ਕਿਤੇ", "roman": "kite", "en": "somewhere; anywhere", "pos": "adv", "note": "ਕਿਤੇ ਬਾਹਰ 'somewhere out' · ਕਿਤੇ ਨਹੀਂ 'nowhere'" },
+    { "native": "ਮਾਲ", "roman": "māl", "en": "shopping mall", "pos": "noun", "note": "m" },
+    { "native": "ਮੈਚ", "roman": "maich", "en": "match (cricket, football)", "pos": "noun", "note": "m · ਮੈਚ ਵੇਖਣਾ 'to watch the match'" },
+    { "native": "ਗੇੜੀ", "roman": "geṛī", "en": "a drive or ride around for fun", "pos": "noun", "note": "f · ਗੇੜੀ ਮਾਰਨੀ 'to go for a spin'; very Punjabi" },
+    { "native": "ਗੱਪਾਂ", "roman": "gappāṃ", "en": "chit-chat, gossip", "pos": "noun", "note": "f pl · ਗੱਪਾਂ ਮਾਰਨੀਆਂ 'to chat, hang out talking' (friends only)" },
+    { "native": "ਮਾਰਨਾ", "roman": "mārnā", "en": "to hit; (with ਗੇੜੀ, ਗੱਪਾਂ) to do, to have", "pos": "verb", "note": "ਗੇੜੀ ਮਾਰਨੀ, ਗੱਪਾਂ ਮਾਰਨੀਆਂ — the infinitive agrees with the feminine noun" },
+    { "native": "ਆਪਾਂ", "roman": "āpāṃ", "en": "we, us (you and I)", "pos": "pron", "note": "very Punjabi; includes the listener: ਆਪਾਂ ਚੱਲੀਏ 'let's (you and me) go'. ਅਸੀਂ can exclude the listener." },
+    { "native": "ਇਕੱਠੇ", "roman": "ikaṭṭhe", "en": "together", "pos": "adv", "note": "ਇਕੱਠੇ ਹੋਣਾ 'to get together'" },
+    { "native": "ਥਾਂ", "roman": "thāṃ", "en": "place; room, space", "pos": "noun", "note": "f · ਉਸੇ ਥਾਂ 'at the same place'" },
+    { "native": "ਤਕਰੀਬਨ", "roman": "takrīban", "en": "about, roughly", "pos": "adv", "note": "ਤਕਰੀਬਨ ਸੱਤ ਵਜੇ 'about seven'" },
+    { "native": "ਸਮੇਂ ਸਿਰ", "roman": "sameṃ sir", "en": "on time", "pos": "adv", "note": "with friends also ਟਾਈਮ 'ਤੇ" },
+    { "native": "ਡਨ", "roman": "ḍan", "en": "done!, deal!", "pos": "interj", "note": "English loan used to seal a plan" },
+    { "native": "ਵੇਟ", "roman": "veṭ", "en": "wait", "pos": "noun", "note": "f · ਵੇਟ ਕਰਨੀ 'to wait' (ਮੇਰੀ ਵੇਟ ਕਰ 'wait for me') — everyday; ਉਡੀਕ ਕਰਨੀ is the Punjabi word" },
+    { "native": "ਕੋਸ਼ਿਸ਼", "roman": "koshish", "en": "try, attempt", "pos": "noun", "note": "f · ਕੋਸ਼ਿਸ਼ ਕਰਨੀ 'to try'; ਆਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ 'trying to come'" },
+    { "native": "ਨਿਕਲਣਾ", "roman": "nikalṇā", "en": "to leave, set off; to come out", "pos": "verb", "note": "ਨਿਕਲ ਗਿਆ 'has left' · ਘਰੋਂ ਨਿਕਲਣਾ 'to leave home'" },
+    { "native": "ਟ੍ਰੈਫ਼ਿਕ", "roman": "ṭraifik", "en": "traffic", "pos": "noun", "note": "m" },
+    { "native": "ਜਾਮ", "roman": "jām", "en": "traffic jam", "pos": "noun", "note": "m · ਜਾਮ ਲੱਗਿਆ ਹੋਇਆ ਹੈ 'there's a jam'" },
+    { "native": "ਕੈਂਸਲ", "roman": "kainsal", "en": "cancelled", "pos": "adj", "note": "ਕੈਂਸਲ ਕਰਨਾ 'to cancel' · ਕੈਂਸਲ ਹੋਣਾ 'to be cancelled'" },
+    { "native": "ਬਹਾਨਾ", "roman": "bahā̀nā", "en": "excuse", "pos": "noun", "note": "m · pl ਬਹਾਨੇ · ਬਹਾਨਾ ਬਣਾਉਣਾ 'to make an excuse'" }
+  ],
+  "phrases": [
+    { "native": "ਅੱਜ ਰਾਤ ਫ਼੍ਰੀ ਹੈਂ?", "roman": "ajj rāt frī haiṃ?", "en": "Free tonight? (to a friend)", "note": "polite: ਤੁਸੀਂ ਅੱਜ ਰਾਤ ਫ਼੍ਰੀ ਹੋ?" },
+    { "native": "ਕੀ ਪ੍ਰੋਗਰਾਮ ਹੈ?", "roman": "kī progrām hai?", "en": "What's the plan? / What are you up to?" },
+    { "native": "ਮੇਰਾ ਮੂਡ ਨਹੀਂ ਹੈ।", "roman": "merā mūḍ nahī̀ṃ hai.", "en": "I'm not in the mood." },
+    { "native": "ਚੱਲ, ਕਿਤੇ ਬਾਹਰ ਚੱਲੀਏ।", "roman": "chall, kite bā́r challīe.", "en": "Come on, let's go out somewhere." },
+    { "native": "ਕਿੱਥੇ ਮਿਲੀਏ?", "roman": "kitthe milīe?", "en": "Where shall we meet?" },
+    { "native": "ਕਿੰਨੇ ਵਜੇ?", "roman": "kinne vaje?", "en": "What time?" },
+    { "native": "ਡਨ, ਪੱਕਾ!", "roman": "ḍan, pakkā!", "en": "Done — it's a deal!" },
+    { "native": "ਮੇਰੀ ਵੇਟ ਕਰੀਂ!", "roman": "merī veṭ karīṃ!", "en": "Wait for me! (to a friend)", "note": "to several / polite: ਮੇਰੀ ਵੇਟ ਕਰਿਓ" },
+    { "native": "ਲੇਟ ਨਾ ਹੋਈਂ!", "roman": "leṭ nā hoīṃ!", "en": "Don't be late! (to a friend)" },
+    { "native": "ਮੈਂ ਰਸਤੇ ਵਿੱਚ ਹਾਂ।", "roman": "maiṃ raste vich hāṃ.", "en": "I'm on my way." },
+    { "native": "ਬੱਸ ਪੰਜ ਮਿੰਟ!", "roman": "bass panj minṭ!", "en": "Just five minutes!", "note": "Famous for meaning anything up to half an hour." },
+    { "native": "ਮੈਂ ਨਿਕਲ ਗਿਆ ਹਾਂ।", "roman": "maiṃ nikal giā hāṃ.", "en": "I've left (I'm on my way). (man speaking)", "note": "woman speaking: ਮੈਂ ਨਿਕਲ ਗਈ ਹਾਂ।" },
+    { "native": "ਮੈਂ ਟ੍ਰੈਫ਼ਿਕ ਵਿੱਚ ਫਸ ਗਈ ਹਾਂ।", "roman": "maiṃ ṭraifik vich phas gaī hāṃ.", "en": "I'm stuck in traffic. (woman speaking)", "note": "man speaking: ਫਸ ਗਿਆ ਹਾਂ" },
+    { "native": "ਸੌਰੀ ਯਾਰ, ਅੱਜ ਨਹੀਂ ਆ ਸਕਦਾ।", "roman": "saurī yār, ajj nahī̀ṃ ā sakdā.", "en": "Sorry, man, I can't make it today. (man speaking)", "note": "woman speaking: ਆ ਸਕਦੀ" },
+    { "native": "ਫਿਰ ਕਦੇ ਸਹੀ।", "roman": "phir kade sahī̀.", "en": "Some other time, then." },
+    { "native": "ਵੇਖਦੇ ਹਾਂ।", "roman": "vekhde hāṃ.", "en": "We'll see.", "note": "Often a polite no." }
+  ],
+  "grammar": [
+    {
+      "title": "Let's… and shall we…?",
+      "body": "You met the subjunctive in unit 18 ('shall I…?'). With friends its **we-form in -ਈਏ** is how you suggest things:\n\n**1. ਚੱਲ / ਚੱਲੋ + -ਈਏ** — 'let's': **ਚੱਲ, ਫ਼ਿਲਮ ਵੇਖੀਏ** 'come on, let's watch a film', **ਚੱਲੋ, ਕੁਝ ਖਾਈਏ** 'let's eat something'. ਚੱਲ to one friend, ਚੱਲੋ to several or politely. Forms: ਚੱਲੀਏ, ਮਿਲੀਏ, ਕਰੀਏ, ਵੇਖੀਏ, ਖਾਈਏ, ਬਣਾਈਏ.\n\n**2. The same form as a question** — 'shall we?': **ਕਿੱਥੇ ਮਿਲੀਏ?** 'where shall we meet?', **ਕਿੰਨੇ ਵਜੇ ਨਿਕਲੀਏ?** 'what time shall we leave?'. To float an idea: **ਕਿਉਂ ਨਾ** + -ਈਏ: ਕਿਉਂ ਨਾ ਘਰ ਹੀ ਖਾਈਏ? 'why don't we just eat at home?'\n\n**3. ਚੱਲੋ + present habitual (-ਦੇ ਹਾਂ)** — settles a plan: **ਚੱਲੋ, ਸ਼ਾਮ ਨੂੰ ਮਿਲਦੇ ਹਾਂ** 'OK, let's meet in the evening / see you this evening'; **ਚੱਲਦੇ ਹਾਂ** 'right, we're off'.\n\n**ਆਪਾਂ** is the 'we' that includes the listener: ਆਪਾਂ ਇਕੱਠੇ ਚੱਲੀਏ 'let's (you and me) go together'.\n\nThe trap: the future is not a suggestion. **ਅਸੀਂ ਕੱਲ੍ਹ ਮਿਲਾਂਗੇ** states a plan ('we will meet'); to propose it, say **ਕੱਲ੍ਹ ਮਿਲੀਏ?** or **ਚੱਲੋ, ਕੱਲ੍ਹ ਮਿਲਦੇ ਹਾਂ**.",
+      "examples": [
+        { "native": "ਚੱਲ, ਅੱਜ ਫ਼ਿਲਮ ਵੇਖੀਏ।", "roman": "chall, ajj filam vekhīe.", "en": "Come on, let's watch a film today." },
+        { "native": "ਚੱਲੋ, ਸ਼ਾਮ ਨੂੰ ਮਿਲਦੇ ਹਾਂ।", "roman": "challo, shām nūṃ milde hāṃ.", "en": "OK, let's meet in the evening." },
+        { "native": "ਕਿਉਂ ਨਾ ਅੱਜ ਘਰ ਹੀ ਖਾਈਏ?", "roman": "kiuṃ nā ajj kàr hī khāīe?", "en": "Why don't we just eat at home today?" },
+        { "native": "ਕਿੰਨੇ ਵਜੇ ਨਿਕਲੀਏ?", "roman": "kinne vaje niklīe?", "en": "What time shall we leave?" },
+        { "native": "ਚੱਲੋ ਮੁੰਡਿਓ, ਚੱਲਦੇ ਹਾਂ!", "roman": "challo muṇḍio, challde hāṃ!", "en": "Right, guys, let's go!" }
+      ]
+    },
+    {
+      "title": "Telling friends what to do: ਆ, ਆਈਂ, ਆਇਓ",
+      "body": "You met the imperative in unit 11. With friends you'll use these forms all the time:\n\n**ਤੂੰ-form: bare stem** — ਆ, ਦੱਸ, ਚੱਲ, ਕਰ, ਬੈਠ. Your default with close friends of your own age. Said to an elder it is rude.\n**ਤੁਸੀਂ-form: stem + ਓ** — ਆਓ, ਦੱਸੋ, ਕਰੋ. To several friends, or politely.\n\n**For later ('make sure you…')** Punjabi has a special future imperative:\nਤੂੰ: stem + **ਈਂ** — ਆਈਂ, ਦੱਸੀਂ, ਕਰੀਂ, ਜਾਈਂ, ਹੋਈਂ\nਤੁਸੀਂ: stem + **ਇਓ** — ਆਇਓ, ਦੱਸਿਓ, ਕਰਿਓ\nIt's softer than the plain command and is used for anything that happens after this moment: **ਕੱਲ੍ਹ ਸਮੇਂ ਸਿਰ ਆਈਂ** 'be on time tomorrow', **ਪਹੁੰਚ ਕੇ ਫ਼ੋਨ ਕਰੀਂ** 'call when you get there'.\n\n**Negative**: **ਨਾ** before the verb (or after it, for emphasis): **ਲੇਟ ਨਾ ਹੋਈਂ** 'don't be late', **ਭੁੱਲੀਂ ਨਾ!** 'don't forget!'. Never ਨਹੀਂ in a command.\n\n**Softening**: a compound with ਜਾਣਾ sounds friendlier (**ਆ ਜਾ** 'come on over'), and a ਨਾ at the end coaxes: **ਚੱਲ ਨਾ!** 'oh, come on!'.\n\nThe trap: the ਨਾ at the end of ਚੱਲ ਨਾ is not 'don't' — it's 'please, go on'. And when your friend's parents are there, switch back: ਆਓ ਜੀ, ਬੈਠੋ.",
+      "examples": [
+        { "native": "ਕੱਲ੍ਹ ਸਮੇਂ ਸਿਰ ਆਈਂ!", "roman": "káll sameṃ sir āīṃ!", "en": "Be on time tomorrow!" },
+        { "native": "ਨਿਕਲਣ ਤੋਂ ਪਹਿਲਾਂ ਫ਼ੋਨ ਕਰੀਂ।", "roman": "nikalaṇ toṃ páilāṃ fon karīṃ.", "en": "Give me a call before you leave." },
+        { "native": "ਭੁੱਲੀਂ ਨਾ!", "roman": "pùllīṃ nā!", "en": "Don't forget!" },
+        { "native": "ਚੱਲ ਨਾ, ਮੂਡ ਬਣ ਜਾਵੇਗਾ!", "roman": "chall nā, mūḍ baṇ jāvegā!", "en": "Oh, come on, you'll get in the mood!" },
+        { "native": "ਆਂਟੀ, ਤੁਸੀਂ ਵੀ ਆਇਓ!", "roman": "āṇṭī, tusīṃ vī āio!", "en": "Aunty, you come too!" }
+      ]
+    },
+    {
+      "title": "About to leave, on the way, already there",
+      "body": "Being late is a national sport, so Punjabi has precise ways to say where you are in the process:\n\n**About to**: oblique infinitive + **ਵਾਲਾ / ਵਾਲੀ / ਵਾਲੇ** + ਹਾਂ (from unit 13): **ਮੈਂ ਨਿਕਲਣ ਵਾਲਾ ਹਾਂ** 'I'm about to leave'. Add ਹੀ for 'just about to': ਨਿਕਲਣ **ਹੀ** ਵਾਲੀ ਹਾਂ.\n**Right now / on the way**: the present continuous — **ਮੈਂ ਆ ਰਿਹਾ ਹਾਂ** 'I'm coming' — or **ਰਸਤੇ ਵਿੱਚ ਹਾਂ** 'I'm on the way'.\n**Already done**: stem + **ਗਿਆ / ਗਈ / ਗਏ** (+ ਹਾਂ): **ਮੈਂ ਨਿਕਲ ਗਿਆ ਹਾਂ** 'I've left', **ਮੈਂ ਪਹੁੰਚ ਗਈ** 'I'm here'. The compound with ਜਾਣਾ marks the change as complete.\n**Coming this second**: Punjabi uses the past: **ਆਇਆ!** / **ਆਈ!** 'coming!' (to an elder: ਆਇਆ ਜੀ!). The present also promises: **ਰੁਕ, ਮੈਂ ਆਉਂਦਾ ਹਾਂ** 'hang on, I'll be right there'.\n\nEverything agrees with the speaker: a woman says ਨਿਕਲਣ **ਵਾਲੀ** ਹਾਂ, ਨਿਕਲ **ਗਈ** ਹਾਂ, ਆ **ਰਹੀ** ਹਾਂ, **ਆਈ!**\n\nThe trap: the oblique infinitive before ਵਾਲਾ ends in **-ਣ / -ਨ**, not -ਣਾ: ਨਿਕਲ**ਣ** ਵਾਲਾ, not ਨਿਕਲਣਾ ਵਾਲਾ.",
+      "examples": [
+        { "native": "ਮੈਂ ਬੱਸ ਨਿਕਲਣ ਵਾਲਾ ਹਾਂ।", "roman": "maiṃ bass nikalaṇ vālā hāṃ.", "en": "I'm just about to leave." },
+        { "native": "ਅਸੀਂ ਪਹੁੰਚਣ ਵਾਲੇ ਹਾਂ।", "roman": "asīṃ páunchaṇ vāle hāṃ.", "en": "We're nearly there." },
+        { "native": "ਮੈਂ ਨਿਕਲ ਗਈ ਹਾਂ, ਵੀਹ ਮਿੰਟ ਵਿੱਚ ਪਹੁੰਚ ਜਾਵਾਂਗੀ।", "roman": "maiṃ nikal gaī hāṃ, vī́ minṭ vich páunch jāvāṅgī.", "en": "I've left — I'll be there in twenty minutes. (woman speaking)" },
+        { "native": "ਰੁਕ, ਮੈਂ ਆਉਂਦਾ ਹਾਂ!", "roman": "ruk, maiṃ āundā hāṃ!", "en": "Hang on, I'll be right there!" },
+        { "native": "ਆਇਆ ਜੀ!", "roman": "āiā jī!", "en": "Coming! (to an elder who called you)" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Mall first, then the match",
+    "setting": "Jass calls his friend Preet in Ludhiana; later that evening he is waiting outside the mall.",
+    "lines": [
+      { "speaker": "Jass", "native": "ਹੈਲੋ ਪ੍ਰੀਤ! ਅੱਜ ਰਾਤ ਫ਼੍ਰੀ ਹੈਂ?", "roman": "helo Prīt! ajj rāt frī haiṃ?", "en": "Hi Preet! Free tonight?" },
+      { "speaker": "Preet", "native": "ਹਾਂ, ਕਿਉਂ? ਕੀ ਪ੍ਰੋਗਰਾਮ ਹੈ?", "roman": "hāṃ, kiuṃ? kī progrām hai?", "en": "Yes, why? What's the plan?" },
+      { "speaker": "Jass", "native": "ਗੁਰੀ ਕਹਿੰਦਾ ਮੈਚ ਇਕੱਠੇ ਵੇਖੀਏ, ਉਸ ਦੇ ਘਰ।", "roman": "Gurī káindā maich ikaṭṭhe vekhīe, us de kàr.", "en": "Guri says let's watch the match together at his place." },
+      { "speaker": "Preet", "native": "ਫਿਰ ਮੈਚ? ਯਾਰ, ਮੇਰਾ ਮੂਡ ਨਹੀਂ ਹੈ। ਕਿਉਂ ਨਾ ਪਹਿਲਾਂ ਮਾਲ ਚੱਲੀਏ?", "roman": "phir maich? yār, merā mūḍ nahī̀ṃ hai. kiuṃ nā páilāṃ māl challīe?", "en": "A match again? Man, I'm not in the mood. Why don't we go to the mall first?" },
+      { "speaker": "Jass", "native": "ਚੱਲ ਠੀਕ ਹੈ — ਪਹਿਲਾਂ ਮਾਲ, ਫਿਰ ਮੈਚ। ਕਿੱਥੇ ਮਿਲੀਏ?", "roman": "chall ṭhīk hai — páilāṃ māl, phir maich. kitthe milīe?", "en": "OK, fine — mall first, then the match. Where shall we meet?" },
+      { "speaker": "Preet", "native": "ਮਾਲ ਦੇ ਗੇਟ 'ਤੇ, ਤਕਰੀਬਨ ਛੇ ਵਜੇ?", "roman": "māl de geṭ te, takrīban chhe vaje?", "en": "At the mall gate, about six?" },
+      { "speaker": "Jass", "native": "ਡਨ! ਪਰ ਸਮੇਂ ਸਿਰ ਆਈਂ, ਪਿਛਲੀ ਵਾਰ ਵਾਂਗ ਨਹੀਂ!", "roman": "ḍan! par sameṃ sir āīṃ, pichhlī vār vāṅg nahī̀ṃ!", "en": "Done! But be on time — not like last time!" },
+      { "speaker": "Preet", "native": "ਬੱਸ ਇੱਕ ਵਾਰ ਲੇਟ ਹੋਈ ਸੀ! ਪੱਕਾ ਆਵਾਂਗੀ।", "roman": "bass ikk vār leṭ hoī sī! pakkā āvāṅgī.", "en": "I was late just once! I'll definitely come." },
+      { "speaker": "Jass", "native": "ਪ੍ਰੀਤ, ਕਿੱਥੇ ਹੈਂ? ਮੈਂ ਵੀਹ ਮਿੰਟ ਤੋਂ ਵੇਟ ਕਰ ਰਿਹਾ ਹਾਂ!", "roman": "Prīt, kitthe haiṃ? maiṃ vī́ minṭ toṃ veṭ kar rihā̀ hāṃ!", "en": "Preet, where are you? I've been waiting twenty minutes!" },
+      { "speaker": "Preet", "native": "ਸੌਰੀ ਸੌਰੀ! ਮੈਂ ਰਸਤੇ ਵਿੱਚ ਹਾਂ, ਟ੍ਰੈਫ਼ਿਕ ਵਿੱਚ ਫਸ ਗਈ ਹਾਂ।", "roman": "saurī saurī! maiṃ raste vich hāṃ, ṭraifik vich phas gaī hāṃ.", "en": "Sorry, sorry! I'm on my way, I'm stuck in traffic." },
+      { "speaker": "Jass", "native": "ਤੂੰ ਨਿਕਲੀ ਕਦੋਂ?", "roman": "tūṃ niklī kadoṃ?", "en": "When did you actually leave?" },
+      { "speaker": "Preet", "native": "ਅਸਲ ਵਿੱਚ… ਮੈਂ ਬੱਸ ਨਿਕਲਣ ਹੀ ਵਾਲੀ ਹਾਂ। ਬੱਸ ਪੰਜ ਮਿੰਟ!", "roman": "asal vich… maiṃ bass nikalaṇ hī vālī hāṃ. bass panj minṭ!", "en": "Actually… I'm just about to leave. Just five minutes!" },
+      { "speaker": "Jass", "native": "ਹੱਦ ਹੋ ਗਈ! ਚੱਲ, ਛੇਤੀ ਆ ਜਾ, ਮੈਂ ਇੱਥੇ ਹੀ ਹਾਂ।", "roman": "hadd ho gaī! chall, chhetī ā jā, maiṃ itthe hī hāṃ.", "en": "Unbelievable! Come on, get here quick, I'm right here." }
+    ]
+  },
+  "culture": "Plans among friends in Punjab are loose and made late: 'tonight?' at five in the evening is normal, and the group chat decides more than any one person. Time is stretchy — **ਬੱਸ ਪੰਜ ਮਿੰਟ** and **ਮੈਂ ਨਿਕਲ ਗਿਆ ਹਾਂ** are often said by someone still at home — though offices, trains and weddings with a fixed *ਮਿਲਣੀ* are another matter. A favourite pastime is the **ਗੇੜੀ**: driving or riding slowly round town with friends, music on — Chandigarh even has a famous 'geri route'. A flat **ਨਹੀਂ** to an invitation sounds harsh, so people soften it: **ਵੇਖਦੇ ਹਾਂ**, **ਕੋਸ਼ਿਸ਼ ਕਰਾਂਗਾ**, **ਫਿਰ ਕਦੇ ਸਹੀ** — all of which may mean no. Friends of your own age get **ਤੂੰ** and the bare imperative (ਆ ਜਾ!, ਦੱਸ!); if a friend's parent picks up the phone or opens the door, switch instantly to **ਤੁਸੀਂ**, **ਜੀ** and **ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਆਂਟੀ ਜੀ**.",
+  "lessons": [
+    {
+      "title": "Asking if a friend is free",
+      "tip": { "title": "With friends: ਤੂੰ … ਹੈਂ, and English words", "body": "- To a close friend: **ਤੂੰ** → **ਹੈਂ**: ਫ਼੍ਰੀ **ਹੈਂ**? To several friends or anyone older: ਤੁਸੀਂ → **ਹੋ**.\n- 'to you' is **ਤੈਨੂੰ**, 'your' is **ਤੇਰਾ / ਤੇਰੀ / ਤੇਰੇ**.\n- English words slot in with Punjabi grammar: **ਟਾਈਮ** ਹੈ?, **ਬਿਜ਼ੀ** ਹਾਂ, **ਮੂਡ** ਨਹੀਂ ਹੈ.\n- A rising voice makes the question; no ਕੀ needed.", "pattern": "ਤੂੰ + … + ਹੈਂ?" },
+      "new": ["ਫ਼੍ਰੀ", "ਬਿਜ਼ੀ", "ਟਾਈਮ", "ਵੀਕੈਂਡ", "ਪ੍ਰੋਗਰਾਮ", "ਮੂਡ", "ਤੈਨੂੰ", "ਅੱਜ ਰਾਤ ਫ਼੍ਰੀ ਹੈਂ?", "ਕੀ ਪ੍ਰੋਗਰਾਮ ਹੈ?", "ਮੇਰਾ ਮੂਡ ਨਹੀਂ ਹੈ।"],
+      "sentences": [
+        { "native": "ਤੂੰ ਕੱਲ੍ਹ ਸ਼ਾਮ ਨੂੰ ਫ਼੍ਰੀ ਹੈਂ?", "roman": "tūṃ káll shām nūṃ frī haiṃ?", "en": "Are you free tomorrow evening?", "focus": "ਹੈਂ", "wrong": ["ਹੋ|ho", "ਹਾਂ|hāṃ"] },
+        { "native": "ਨਹੀਂ ਯਾਰ, ਮੈਂ ਇਸ ਹਫ਼ਤੇ ਬਹੁਤ ਬਿਜ਼ੀ ਹਾਂ।", "roman": "nahī̀ṃ yār, maiṃ is hafte báut bizī hāṃ.", "en": "No, man, I'm really busy this week.", "focus": "ਹਾਂ", "wrong": ["ਹੈਂ|haiṃ", "ਹੋ|ho"] },
+        { "native": "ਤੇਰੇ ਕੋਲ ਕੱਲ੍ਹ ਟਾਈਮ ਹੈ?", "roman": "tere kol káll ṭāim hai?", "en": "Have you got time tomorrow?", "focus": "ਤੇਰੇ", "wrong": ["ਤੇਰਾ|terā", "ਤੇਰੀ|terī"] },
+        { "native": "ਇਸ ਵੀਕੈਂਡ ਦਾ ਕੀ ਪ੍ਰੋਗਰਾਮ ਹੈ?", "roman": "is vīkaiṇḍ dā kī progrām hai?", "en": "What's the plan for this weekend?", "focus": "ਦਾ", "wrong": ["ਦੀ|dī", "ਦੇ|de"] },
+        { "native": "ਅੱਜ ਮੇਰਾ ਬਾਹਰ ਜਾਣ ਦਾ ਮੂਡ ਨਹੀਂ ਹੈ।", "roman": "ajj merā bā́r jāṇ dā mūḍ nahī̀ṃ hai.", "en": "I'm not in the mood to go out today.", "focus": "ਜਾਣ", "wrong": ["ਜਾਣਾ|jāṇā", "ਜਾਂਦਾ|jāndā"] },
+        { "native": "ਸ਼ਨਿੱਚਰਵਾਰ ਨੂੰ ਤੇਰਾ ਕੀ ਪ੍ਰੋਗਰਾਮ ਹੈ?", "roman": "shanichcharvār nūṃ terā kī progrām hai?", "en": "What are you up to on Saturday?", "focus": "ਤੇਰਾ", "wrong": ["ਤੇਰੀ|terī", "ਤੇਰੇ|tere"] },
+        { "native": "ਆਂਟੀ, ਤੁਸੀਂ ਇਸ ਵੀਕੈਂਡ ਫ਼੍ਰੀ ਹੋ?", "roman": "āṇṭī, tusīṃ is vīkaiṇḍ frī ho?", "en": "Aunty, are you free this weekend?", "focus": "ਹੋ", "wrong": ["ਹੈਂ|haiṃ", "ਹੈ|hai"] },
+        { "native": "ਤੈਨੂੰ ਕੀ ਹੋਇਆ? ਤੇਰਾ ਮੂਡ ਖ਼ਰਾਬ ਹੈ?", "roman": "tainūṃ kī hoiā? terā mūḍ xarāb hai?", "en": "What's up with you? Are you in a bad mood?", "focus": "ਤੈਨੂੰ", "wrong": ["ਤੂੰ|tūṃ", "ਤੇਰਾ|terā"] },
+        { "native": "ਮੈਂ ਹੁਣ ਬਿਜ਼ੀ ਹਾਂ, ਬਾਅਦ ਵਿੱਚ ਗੱਲ ਕਰਦੇ ਹਾਂ।", "roman": "maiṃ huṇ bizī hāṃ, bāad vich gall karde hāṃ.", "en": "I'm busy now, let's talk later." },
+        { "native": "ਹਾਂ, ਮੈਂ ਫ਼੍ਰੀ ਹਾਂ। ਕੀ ਪ੍ਰੋਗਰਾਮ ਹੈ?", "roman": "hāṃ, maiṃ frī hāṃ. kī progrām hai?", "en": "Yes, I'm free. What's the plan?" }
+      ]
+    },
+    {
+      "title": "Suggesting what to do",
+      "tip": { "title": "Let's: ਚੱਲ + -ਈਏ", "body": "- 'Let's' = **ਚੱਲ** (to one friend) or **ਚੱਲੋ** + verb stem + **-ਈਏ**: ਚੱਲ, ਮੈਚ **ਵੇਖੀਏ**.\n- Floating an idea: **ਕਿਉਂ ਨਾ** + -ਈਏ: ਕਿਉਂ ਨਾ ਮਾਲ **ਚੱਲੀਏ**? 'why don't we go to the mall?'\n- **ਚੱਲੋ … -ਦੇ ਹਾਂ** settles it: ਚੱਲੋ, ਗੱਪਾਂ ਮਾਰ**ਦੇ ਹਾਂ**.\n- Don't use the future (ਚੱਲਾਂਗੇ) to suggest — it announces a plan.", "pattern": "ਚੱਲ, + stem-ਈਏ", "grammar": 0 },
+      "new": ["ਚੱਲ", "ਕਿਤੇ", "ਮਾਲ", "ਮੈਚ", "ਗੇੜੀ", "ਗੱਪਾਂ", "ਮਾਰਨਾ", "ਪਲੈਨ", "ਚੱਲ, ਕਿਤੇ ਬਾਹਰ ਚੱਲੀਏ।"],
+      "sentences": [
+        { "native": "ਚੱਲ, ਅੱਜ ਮਾਲ ਚੱਲੀਏ।", "roman": "chall, ajj māl challīe.", "en": "Come on, let's go to the mall today.", "focus": "ਚੱਲੀਏ", "wrong": ["ਚੱਲਦਾ|challdā", "ਚੱਲਿਆ|challiā"] },
+        { "native": "ਕਿਉਂ ਨਾ ਅੱਜ ਘਰ ਹੀ ਮੈਚ ਵੇਖੀਏ?", "roman": "kiuṃ nā ajj kàr hī maich vekhīe?", "en": "Why don't we just watch the match at home today?", "focus": "ਵੇਖੀਏ", "wrong": ["ਵੇਖਦੇ|vekhde", "ਵੇਖਿਆ|vekhiā"] },
+        { "native": "ਰਾਤ ਨੂੰ ਗੇੜੀ ਮਾਰਨ ਚੱਲੀਏ?", "roman": "rāt nūṃ geṛī māraṇ challīe?", "en": "Shall we go for a spin tonight?", "focus": "ਚੱਲੀਏ", "wrong": ["ਚੱਲਦਾ|challdā", "ਚੱਲਿਆ|challiā"] },
+        { "native": "ਚੱਲੋ, ਬੈਠ ਕੇ ਗੱਪਾਂ ਮਾਰਦੇ ਹਾਂ।", "roman": "challo, baiṭh ke gappāṃ mārde hāṃ.", "en": "Come on, let's sit and chat.", "focus": "ਮਾਰਦੇ", "wrong": ["ਮਾਰਦਾ|mārdā", "ਮਾਰਿਆ|māriā"] },
+        { "native": "ਕਿਤੇ ਬਾਹਰ ਚੱਲੀਏ? ਘਰ ਵਿੱਚ ਬੋਰ ਹੋ ਰਹੇ ਹਾਂ।", "roman": "kite bā́r challīe? kàr vich bor ho rahè hāṃ.", "en": "Shall we go out somewhere? We're getting bored at home.", "focus": "ਕਿਤੇ", "wrong": ["ਕਿੱਥੇ|kitthe", "ਇੱਥੇ|itthe"] },
+        { "native": "ਵੀਕੈਂਡ ਦਾ ਪਲੈਨ ਬਣਾਈਏ।", "roman": "vīkaiṇḍ dā plain baṇāīe.", "en": "Let's make a plan for the weekend.", "focus": "ਬਣਾਈਏ", "wrong": ["ਬਣਾਉਂਦਾ|baṇāundā", "ਬਣਾਇਆ|baṇāiā"] },
+        { "native": "ਚੱਲ, ਪਹਿਲਾਂ ਕੁਝ ਖਾ ਲਈਏ, ਫਿਰ ਮੈਚ ਵੇਖਾਂਗੇ।", "roman": "chall, páilāṃ kúj khā laīe, phir maich vekhāṅge.", "en": "Let's grab something to eat first, then we'll watch the match.", "focus": "ਲਈਏ", "wrong": ["ਲੈਂਦਾ|laindā", "ਲਿਆ|liā"] },
+        { "native": "ਮੈਚ ਕਿੰਨੇ ਵਜੇ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ?", "roman": "maich kinne vaje shurū hundā hai?", "en": "What time does the match start?" },
+        { "native": "ਚੱਲ ਨਾ ਯਾਰ, ਮਜ਼ਾ ਆਵੇਗਾ!", "roman": "chall nā yār, mazā āvegā!", "en": "Oh, come on, man, it'll be fun!" }
+      ]
+    },
+    {
+      "title": "Fixing a time and place",
+      "tip": { "title": "Shall we…? — ਮਿਲੀਏ?", "body": "- The same **-ਈਏ** form as a question means 'shall we?': ਕਿੱਥੇ **ਮਿਲੀਏ**? 'where shall we meet?'\n- **ਆਪਾਂ** is 'we' including the listener: ਆਪਾਂ ਇਕੱਠੇ ਚੱਲੀਏ? 'shall we go together?'\n- Times: **ਤਕਰੀਬਨ** ਸੱਤ ਵਜੇ 'about seven', **ਸਮੇਂ ਸਿਰ** 'on time'.\n- Seal it: **ਡਨ!**, **ਪੱਕਾ!**", "pattern": "ਕਿੱਥੇ / ਕਿੰਨੇ ਵਜੇ + stem-ਈਏ?", "grammar": 0 },
+      "new": ["ਆਪਾਂ", "ਇਕੱਠੇ", "ਥਾਂ", "ਤਕਰੀਬਨ", "ਸਮੇਂ ਸਿਰ", "ਡਨ", "ਕਿੱਥੇ ਮਿਲੀਏ?", "ਕਿੰਨੇ ਵਜੇ?", "ਡਨ, ਪੱਕਾ!"],
+      "sentences": [
+        { "native": "ਕਿੱਥੇ ਮਿਲੀਏ? ਮਾਲ ਦੇ ਬਾਹਰ?", "roman": "kitthe milīe? māl de bā́r?", "en": "Where shall we meet? Outside the mall?" },
+        { "native": "ਤਕਰੀਬਨ ਸੱਤ ਵਜੇ ਮਿਲੀਏ?", "roman": "takrīban satt vaje milīe?", "en": "Shall we meet at about seven?", "focus": "ਮਿਲੀਏ", "wrong": ["ਮਿਲਦਾ|mildā", "ਮਿਲਿਆ|miliā"] },
+        { "native": "ਪਿਛਲੀ ਵਾਰ ਵਾਲੀ ਥਾਂ 'ਤੇ ਮਿਲਦੇ ਹਾਂ।", "roman": "pichhlī vār vālī thāṃ te milde hāṃ.", "en": "Let's meet at the same place as last time.", "focus": "ਵਾਲੀ", "wrong": ["ਵਾਲਾ|vālā", "ਵਾਲੇ|vāle"] },
+        { "native": "ਆਪਾਂ ਇਕੱਠੇ ਚੱਲੀਏ?", "roman": "āpāṃ ikaṭṭhe challīe?", "en": "Shall we go together?", "focus": "ਚੱਲੀਏ", "wrong": ["ਚੱਲਦਾ|challdā", "ਚੱਲਿਆ|challiā"] },
+        { "native": "ਕਿੰਨੇ ਵਜੇ? ਅੱਠ ਵਜੇ ਠੀਕ ਹੈ?", "roman": "kinne vaje? aṭṭh vaje ṭhīk hai?", "en": "What time? Is eight OK?" },
+        { "native": "ਸਮੇਂ ਸਿਰ ਪਹੁੰਚੀਏ, ਨਹੀਂ ਤਾਂ ਟਿਕਟਾਂ ਨਹੀਂ ਮਿਲਣਗੀਆਂ।", "roman": "sameṃ sir páunchīe, nahī̀ṃ tāṃ ṭikṭāṃ nahī̀ṃ milaṇgīāṃ.", "en": "Let's get there on time, otherwise we won't get tickets.", "focus": "ਪਹੁੰਚੀਏ", "wrong": ["ਪਹੁੰਚਦਾ|páunchdā", "ਪਹੁੰਚਿਆ|páunchiā"] },
+        { "native": "ਡਨ! ਅੱਠ ਵਜੇ, ਸਟੇਸ਼ਨ ਦੇ ਬਾਹਰ।", "roman": "ḍan! aṭṭh vaje, saṭeshan de bā́r.", "en": "Done! Eight o'clock, outside the station." },
+        { "native": "ਪੱਕਾ ਆਵੇਂਗੀ ਨਾ?", "roman": "pakkā āveṅgī nā?", "en": "You'll definitely come, won't you? (to a female friend)", "focus": "ਆਵੇਂਗੀ", "wrong": ["ਆਵਾਂਗੀ|āvāṅgī", "ਆਵੇਗੀ|āvegī"] },
+        { "native": "ਇਹ ਥਾਂ ਬਹੁਤ ਦੂਰ ਹੈ, ਕਿਤੇ ਨੇੜੇ ਮਿਲੀਏ।", "roman": "é thāṃ báut dūr hai, kite neṛe milīe.", "en": "This place is too far — let's meet somewhere close.", "focus": "ਮਿਲੀਏ", "wrong": ["ਮਿਲਦਾ|mildā", "ਮਿਲਿਆ|miliā"] },
+        { "native": "ਸਾਰੇ ਇਕੱਠੇ ਹੋ ਕੇ ਚੱਲਾਂਗੇ।", "roman": "sāre ikaṭṭhe ho ke challāṅge.", "en": "We'll all get together and go." }
+      ]
+    },
+    {
+      "title": "Telling friends what to do",
+      "tip": { "title": "Now: ਆ! · Later: ਆਈਂ! · Don't: ਨਾ ਆਈਂ", "body": "- To a close friend, the **bare stem** is the command: ਆ!, ਦੱਸ!, ਵੇਟ ਕਰ!\n- For **later** ('make sure you…') add **-ਈਂ**: ਆਈਂ, ਦੱਸੀਂ, ਕਰੀਂ. To several friends: **-ਇਓ**: ਆਇਓ.\n- 'Don't' is **ਨਾ** (never ਨਹੀਂ): ਲੇਟ **ਨਾ** ਹੋਈਂ, ਭੁੱਲੀਂ **ਨਾ**.\n- To elders: back to ਆਓ ਜੀ, ਦੱਸੋ ਜੀ.", "pattern": "ਤੂੰ: stem (now) · stem-ਈਂ (later)", "grammar": 1 },
+      "new": ["ਵੇਟ", "ਕੋਸ਼ਿਸ਼", "ਮੇਰੀ ਵੇਟ ਕਰੀਂ!", "ਲੇਟ ਨਾ ਹੋਈਂ!"],
+      "sentences": [
+        { "native": "ਜਲਦੀ ਆ, ਸਾਰੇ ਤੇਰੀ ਵੇਟ ਕਰ ਰਹੇ ਹਨ!", "roman": "jaldī ā, sāre terī veṭ kar rahè han!", "en": "Hurry up, everyone's waiting for you!", "focus": "ਆ", "wrong": ["ਆਇਆ|āiā", "ਆਉਂਦਾ|āundā"] },
+        { "native": "ਕੱਲ੍ਹ ਦਸ ਵਜੇ ਤੱਕ ਆ ਜਾਈਂ।", "roman": "káll das vaje takk ā jāīṃ.", "en": "Get here by ten tomorrow.", "focus": "ਜਾਈਂ", "wrong": ["ਜਾਂਦਾ|jāndā", "ਗਿਆ|giā"] },
+        { "native": "ਭੁੱਲੀਂ ਨਾ, ਕੱਲ੍ਹ ਮੈਚ ਹੈ!", "roman": "pùllīṃ nā, káll maich hai!", "en": "Don't forget, the match is tomorrow!", "focus": "ਭੁੱਲੀਂ", "wrong": ["ਭੁੱਲਦਾ|pùlldā", "ਭੁੱਲਿਆ|pùlliā"] },
+        { "native": "ਆਉਣ ਤੋਂ ਪਹਿਲਾਂ ਫ਼ੋਨ ਕਰੀਂ।", "roman": "āuṇ toṃ páilāṃ fon karīṃ.", "en": "Call before you come.", "focus": "ਕਰੀਂ", "wrong": ["ਕਰਦਾ|kardā", "ਕੀਤਾ|kītā"] },
+        { "native": "ਮੰਮੀ ਨੂੰ ਕੁਝ ਨਾ ਦੱਸੀਂ!", "roman": "mammī nūṃ kúj nā dassīṃ!", "en": "Don't tell Mum anything!", "focus": "ਨਾ", "wrong": ["ਨਹੀਂ|nahī̀ṃ", "ਨੂੰ|nūṃ"] },
+        { "native": "ਆਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੀਂ, ਯਾਰ।", "roman": "āuṇ dī koshish karīṃ, yār.", "en": "Do try to come, mate.", "focus": "ਦੀ", "wrong": ["ਦਾ|dā", "ਦੇ|de"] },
+        { "native": "ਪੰਜ ਮਿੰਟ ਵੇਟ ਕਰ, ਮੈਂ ਤਿਆਰ ਹੋ ਰਿਹਾ ਹਾਂ।", "roman": "panj minṭ veṭ kar, maiṃ tiār ho rihā̀ hāṃ.", "en": "Wait five minutes, I'm getting ready.", "focus": "ਕਰ", "wrong": ["ਕਰਦਾ|kardā", "ਕੀਤਾ|kītā"] },
+        { "native": "ਤੁਸੀਂ ਸਾਰੇ ਸਮੇਂ ਸਿਰ ਆਇਓ!", "roman": "tusīṃ sāre sameṃ sir āio!", "en": "All of you, be on time!", "focus": "ਆਇਓ", "wrong": ["ਆਈਂ|āīṃ", "ਆਇਆ|āiā"] },
+        { "native": "ਲੇਟ ਨਾ ਹੋਈਂ! ਫ਼ਿਲਮ ਸੱਤ ਵਜੇ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ।", "roman": "leṭ nā hoīṃ! filam satt vaje shurū hundī hai.", "en": "Don't be late! The film starts at seven." },
+        { "native": "ਮੈਂ ਕੋਸ਼ਿਸ਼ ਕਰਾਂਗਾ, ਪਰ ਪੱਕਾ ਨਹੀਂ।", "roman": "maiṃ koshish karāṅgā, par pakkā nahī̀ṃ.", "en": "I'll try, but no promises. (man speaking)" },
+        { "native": "ਮੇਰੀ ਵੇਟ ਕਰੀਂ! ਮੈਂ ਵੀ ਆ ਰਹੀ ਹਾਂ।", "roman": "merī veṭ karīṃ! maiṃ vī ā rahī̀ hāṃ.", "en": "Wait for me! I'm coming too. (woman speaking)" }
+      ]
+    },
+    {
+      "title": "On my way!",
+      "tip": { "title": "About to, on the way, already there", "body": "- About to: **ਨਿਕਲਣ ਵਾਲਾ ਹਾਂ** (woman: ਵਾਲੀ).\n- On the way: **ਰਸਤੇ ਵਿੱਚ ਹਾਂ**, **ਆ ਰਿਹਾ ਹਾਂ**.\n- Done: stem + **ਗਿਆ / ਗਈ**: ਨਿਕਲ **ਗਿਆ** ਹਾਂ, ਪਹੁੰਚ **ਗਈ** ਹਾਂ.\n- 'Coming!' this second: **ਆਇਆ!** / **ਆਈ!**\n- Everything agrees with the speaker.", "pattern": "stem-ਣ ਵਾਲਾ ਹਾਂ · stem + ਗਿਆ ਹਾਂ", "grammar": 2 },
+      "new": ["ਨਿਕਲਣਾ", "ਟ੍ਰੈਫ਼ਿਕ", "ਜਾਮ", "ਮੈਂ ਰਸਤੇ ਵਿੱਚ ਹਾਂ।", "ਬੱਸ ਪੰਜ ਮਿੰਟ!", "ਮੈਂ ਨਿਕਲ ਗਿਆ ਹਾਂ।", "ਮੈਂ ਟ੍ਰੈਫ਼ਿਕ ਵਿੱਚ ਫਸ ਗਈ ਹਾਂ।"],
+      "sentences": [
+        { "native": "ਮੈਂ ਘਰੋਂ ਨਿਕਲਣ ਵਾਲੀ ਹਾਂ।", "roman": "maiṃ kàroṃ nikalaṇ vālī hāṃ.", "en": "I'm about to leave home. (woman speaking)", "focus": "ਵਾਲੀ", "wrong": ["ਵਾਲਾ|vālā", "ਵਾਲੇ|vāle"] },
+        { "native": "ਅਸੀਂ ਨਿਕਲ ਗਏ ਹਾਂ, ਦਸ ਮਿੰਟ ਵਿੱਚ ਪਹੁੰਚ ਜਾਵਾਂਗੇ।", "roman": "asīṃ nikal gae hāṃ, das minṭ vich páunch jāvāṅge.", "en": "We've left — we'll be there in ten minutes.", "focus": "ਗਏ", "wrong": ["ਗਿਆ|giā", "ਗਈ|gaī"] },
+        { "native": "ਤੂੰ ਕਿੱਥੇ ਹੈਂ? ਅਜੇ ਘਰ ਹੀ ਹੈਂ?", "roman": "tūṃ kitthe haiṃ? aje kàr hī haiṃ?", "en": "Where are you? Still at home?" },
+        { "native": "ਨਹੀਂ ਨਹੀਂ, ਮੈਂ ਰਸਤੇ ਵਿੱਚ ਹਾਂ, ਬੱਸ ਪੰਜ ਮਿੰਟ!", "roman": "nahī̀ṃ nahī̀ṃ, maiṃ raste vich hāṃ, bass panj minṭ!", "en": "No, no, I'm on my way — just five minutes!" },
+        { "native": "ਚੌਕ 'ਤੇ ਬਹੁਤ ਜਾਮ ਲੱਗਿਆ ਹੋਇਆ ਹੈ।", "roman": "chauk te báut jām laggiā hoiā hai.", "en": "There's a huge jam at the crossroads.", "focus": "ਲੱਗਿਆ", "wrong": ["ਲੱਗੀ|laggī", "ਲੱਗੇ|lagge"] },
+        { "native": "ਸੌਰੀ, ਮੈਂ ਟ੍ਰੈਫ਼ਿਕ ਵਿੱਚ ਫਸ ਗਿਆ ਹਾਂ।", "roman": "saurī, maiṃ ṭraifik vich phas giā hāṃ.", "en": "Sorry, I'm stuck in traffic. (man speaking)", "focus": "ਗਿਆ", "wrong": ["ਗਈ|gaī", "ਗਏ|gae"] },
+        { "native": "ਬੱਸ ਪਹੁੰਚਣ ਵਾਲਾ ਹਾਂ, ਬਾਹਰ ਆ ਜਾ।", "roman": "bass páunchaṇ vālā hāṃ, bā́r ā jā.", "en": "I'm nearly there — come outside.", "focus": "ਵਾਲਾ", "wrong": ["ਵਾਲੀ|vālī", "ਵਾਲੇ|vāle"] },
+        { "native": "ਮੈਂ ਪਹੁੰਚ ਗਈ ਹਾਂ, ਤੂੰ ਕਿੱਥੇ ਹੈਂ?", "roman": "maiṃ páunch gaī hāṃ, tūṃ kitthe haiṃ?", "en": "I'm here — where are you? (woman speaking)", "focus": "ਗਈ", "wrong": ["ਗਿਆ|giā", "ਗਏ|gae"] },
+        { "native": "ਦੋ ਮਿੰਟ ਰੁਕ, ਮੈਂ ਆਈ!", "roman": "do minṭ ruk, maiṃ āī!", "en": "Hang on two minutes, I'm coming! (woman speaking)", "focus": "ਆਈ", "wrong": ["ਆਇਆ|āiā", "ਆਏ|āe"] },
+        { "native": "ਤੂੰ ਹਮੇਸ਼ਾ “ਬੱਸ ਪੰਜ ਮਿੰਟ” ਕਹਿੰਦਾ ਹੈਂ!", "roman": "tūṃ hameshā “bass panj minṭ” káindā haiṃ!", "en": "You always say \"just five minutes\"!" }
+      ]
+    },
+    {
+      "title": "Cancelling without upsetting anyone",
+      "tip": { "title": "Saying no softly · English verbs + ਕਰਨਾ / ਹੋਣਾ", "body": "- A flat ਨਹੀਂ sounds harsh. Soften it: **ਸੌਰੀ ਯਾਰ**, **ਵੇਖਦੇ ਹਾਂ**, **ਕੋਸ਼ਿਸ਼ ਕਰਾਂਗਾ**, **ਫਿਰ ਕਦੇ ਸਹੀ**.\n- English words become verbs with **ਕਰਨਾ** (you do it) or **ਹੋਣਾ** (it happens): ਪਲੈਨ **ਕੈਂਸਲ ਕਰ** ਦਿੱਤਾ 'I cancelled the plan', ਮੈਚ **ਕੈਂਸਲ ਹੋ** ਗਿਆ 'the match got cancelled'.", "pattern": "ਕੈਂਸਲ ਕਰਨਾ (do) · ਕੈਂਸਲ ਹੋਣਾ (happen)" },
+      "new": ["ਕੈਂਸਲ", "ਬਹਾਨਾ", "ਸੌਰੀ ਯਾਰ, ਅੱਜ ਨਹੀਂ ਆ ਸਕਦਾ।", "ਫਿਰ ਕਦੇ ਸਹੀ।", "ਵੇਖਦੇ ਹਾਂ।"],
+      "sentences": [
+        { "native": "ਸੌਰੀ ਯਾਰ, ਮੈਨੂੰ ਪਲੈਨ ਕੈਂਸਲ ਕਰਨਾ ਪਵੇਗਾ।", "roman": "saurī yār, mainūṃ plain kainsal karnā pavegā.", "en": "Sorry, man, I'll have to cancel.", "focus": "ਕਰਨਾ", "wrong": ["ਹੋਣਾ|hoṇā", "ਕਰਦਾ|kardā"] },
+        { "native": "ਮੀਂਹ ਕਰਕੇ ਮੈਚ ਕੈਂਸਲ ਹੋ ਗਿਆ।", "roman": "mī́ṃ karke maich kainsal ho giā.", "en": "The match got cancelled because of the rain.", "focus": "ਹੋ", "wrong": ["ਕਰ|kar", "ਕੀਤਾ|kītā"] },
+        { "native": "ਉਸ ਨੇ ਫਿਰ ਕੈਂਸਲ ਕਰ ਦਿੱਤਾ!", "roman": "us ne phir kainsal kar dittā!", "en": "He cancelled again!", "focus": "ਕਰ", "wrong": ["ਹੋ|ho", "ਹੋਇਆ|hoiā"] },
+        { "native": "ਇਹ ਕੋਈ ਬਹਾਨਾ ਨਹੀਂ, ਸੱਚੀਂ ਮੈਂ ਬਿਮਾਰ ਹਾਂ।", "roman": "é koī bahā̀nā nahī̀ṃ, sachchīṃ maiṃ bimār hāṃ.", "en": "This isn't an excuse — I'm really ill." },
+        { "native": "ਤੇਰੇ ਕੋਲ ਹਰ ਵਾਰ ਕੋਈ ਨਵਾਂ ਬਹਾਨਾ ਹੁੰਦਾ ਹੈ!", "roman": "tere kol har vār koī navāṃ bahā̀nā hundā hai!", "en": "You've got a new excuse every time!", "focus": "ਨਵਾਂ", "wrong": ["ਨਵੀਂ|navīṃ", "ਨਵੇਂ|naveṃ"] },
+        { "native": "ਅੱਜ ਨਹੀਂ ਆ ਸਕਦੀ, ਫਿਰ ਕਦੇ ਸਹੀ।", "roman": "ajj nahī̀ṃ ā sakdī, phir kade sahī̀.", "en": "I can't make it today — some other time. (woman speaking)", "focus": "ਸਕਦੀ", "wrong": ["ਸਕਦਾ|sakdā", "ਸਕਦੇ|sakde"] },
+        { "native": "ਵੇਖਦੇ ਹਾਂ, ਸ਼ਾਇਦ ਆ ਜਾਵਾਂ।", "roman": "vekhde hāṃ, shāid ā jāvāṃ.", "en": "We'll see, maybe I'll come." },
+        { "native": "ਕੱਲ੍ਹ ਦਾ ਪ੍ਰੋਗਰਾਮ ਐਤਵਾਰ ਨੂੰ ਕਰ ਲਈਏ?", "roman": "káll dā progrām aitvār nūṃ kar laīe?", "en": "Shall we do tomorrow's plan on Sunday instead?", "focus": "ਲਈਏ", "wrong": ["ਲੈਂਦਾ|laindā", "ਲਿਆ|liā"] },
+        { "native": "ਕੋਈ ਨਾ, ਫਿਰ ਕਦੇ ਮਿਲਾਂਗੇ।", "roman": "koī nā, phir kade milāṅge.", "en": "No worries, we'll meet some other time." }
+      ]
+    }
+  ]
+}

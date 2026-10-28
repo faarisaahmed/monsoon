@@ -1,0 +1,191 @@
+{
+  "id": 34,
+  "title": "Phones, apps & payments",
+  "goal": "Pay by phone and sort out a failed payment, deal with the internet, data and a phone that keeps freezing, order things online and talk about posts and reels — using English tech words the Punjabi way.",
+  "intro": "Half the vocabulary of modern life is English — ਪੇਮੈਂਟ, ਡਾਟਾ, ਪਾਸਵਰਡ, ਰੀਲ — but the way you *use* those words is pure Punjabi: ਪੇਮੈਂਟ **ਹੋ ਗਈ**, ਫ਼ੋਨ ਹੈਂਗ **ਹੋ ਗਿਆ**, ਖਾਣਾ **ਮੰਗਵਾ** ਲਈਏ?, ਮੈਨੂੰ ਇੰਸਟਾ 'ਤੇ ਫ਼ਾਲੋ **ਕਰ**. In India nearly everything, down to a cup of tea at a roadside stall, is paid for by scanning a QR code; in Pakistan, phone wallets are spreading fast.\n\nThe grammar is the **English word + ਕਰਨਾ / ਹੋਣਾ** pattern (who does it vs what happens) with its gender agreement, and **real conditions in practice** — the 'if this happens, do that' of troubleshooting: **ਜੇ ਪੇਮੈਂਟ ਫ਼ੇਲ੍ਹ ਹੋ ਗਈ ਤਾਂ ਪੈਸੇ ਵਾਪਸ ਆ ਜਾਣਗੇ**.",
+  "vocab": [
+    { "native": "ਯੂ.ਪੀ.ਆਈ.", "roman": "yū.pī.āī.", "en": "UPI (instant phone payment in India)", "pos": "noun", "note": "ਯੂ.ਪੀ.ਆਈ. ਕਰਨਾ 'to pay by UPI'; people also name the app: ਗੂਗਲ ਪੇ ਕਰ ਦਿਆਂ?" },
+    { "native": "ਪੇਮੈਂਟ", "roman": "pemainṭ", "en": "payment", "pos": "noun", "note": "f; ਪੇਮੈਂਟ ਕਰਨੀ 'to pay', ਪੇਮੈਂਟ ਹੋਣੀ 'to go through'" },
+    { "native": "ਸਕੈਨ", "roman": "sakain", "en": "scan", "pos": "noun", "note": "ਸਕੈਨ ਕਰਨਾ 'to scan', ਸਕੈਨ ਹੋਣਾ 'to scan (by itself)'" },
+    { "native": "ਕਿਊ.ਆਰ. ਕੋਡ", "roman": "kiū.ār. koḍ", "en": "QR code", "pos": "noun", "note": "m" },
+    { "native": "ਕੈਸ਼", "roman": "kaish", "en": "cash", "pos": "noun", "note": "m; the formal word is ਨਕਦ" },
+    { "native": "ਟ੍ਰਾਂਸਫ਼ਰ", "roman": "ṭrānsfar", "en": "transfer", "pos": "noun", "note": "ਪੈਸੇ ਟ੍ਰਾਂਸਫ਼ਰ ਕਰਨਾ 'to send money'" },
+    { "native": "ਫ਼ੇਲ੍ਹ", "roman": "fél", "en": "failed", "pos": "adj", "note": "invariable; ਫ਼ੇਲ੍ਹ ਹੋਣਾ 'to fail' (also of exams)" },
+    { "native": "ਬੈਲੈਂਸ", "roman": "bailains", "en": "(account or phone) balance", "pos": "noun", "note": "m" },
+    { "native": "ਓ.ਟੀ.ਪੀ.", "roman": "o.ṭī.pī.", "en": "OTP, one-time code", "pos": "noun", "note": "m" },
+    { "native": "ਫ਼ਰਾਡ", "roman": "frāḍ", "en": "scam, fraud", "pos": "noun", "note": "m; also a fraudster" },
+    { "native": "ਨੈੱਟ", "roman": "naiṭṭ", "en": "internet", "pos": "noun", "note": "m; ਨੈੱਟ ਚੱਲਣਾ 'the internet works'" },
+    { "native": "ਵਾਈ-ਫ਼ਾਈ", "roman": "vāī-fāī", "en": "wifi", "pos": "noun", "note": "m" },
+    { "native": "ਪਾਸਵਰਡ", "roman": "pāsvarḍ", "en": "password", "pos": "noun", "note": "m" },
+    { "native": "ਡਾਟਾ", "roman": "ḍāṭā", "en": "mobile data", "pos": "noun", "note": "m" },
+    { "native": "ਰੀਚਾਰਜ", "roman": "rīchārj", "en": "top-up, recharge", "pos": "noun", "note": "m; ਰੀਚਾਰਜ ਕਰਨਾ / ਕਰਵਾਉਣਾ" },
+    { "native": "ਸਪੀਡ", "roman": "sapīḍ", "en": "speed", "pos": "noun", "note": "f" },
+    { "native": "ਚਾਲੂ", "roman": "chālū", "en": "on, working", "pos": "adj", "note": "invariable; ਚਾਲੂ ਕਰਨਾ 'to switch on', opposite ਬੰਦ" },
+    { "native": "ਹੈਂਗ", "roman": "haiṅg", "en": "frozen, stuck (of a phone)", "pos": "adj", "note": "ਹੈਂਗ ਹੋਣਾ 'to freeze' — only with ਹੋਣਾ" },
+    { "native": "ਡਾਊਨਲੋਡ", "roman": "ḍāūnloḍ", "en": "download", "pos": "noun", "note": "ਡਾਊਨਲੋਡ ਕਰਨਾ / ਹੋਣਾ" },
+    { "native": "ਅਪਡੇਟ", "roman": "apḍeṭ", "en": "update", "pos": "noun", "note": "ਅਪਡੇਟ ਕਰਨਾ / ਹੋਣਾ" },
+    { "native": "ਲਿੰਕ", "roman": "liṅk", "en": "link", "pos": "noun", "note": "m" },
+    { "native": "ਡਿਲੀਵਰੀ", "roman": "ḍilīvarī", "en": "delivery", "pos": "noun", "note": "f; ਡਿਲੀਵਰੀ ਵਾਲਾ 'delivery man'" },
+    { "native": "ਮੁਫ਼ਤ", "roman": "mufat", "en": "free (of charge)", "pos": "adj", "note": "invariable" },
+    { "native": "ਮੰਗਵਾਉਣਾ", "roman": "mangvāuṇā", "en": "to order (have something sent)", "pos": "verb", "note": "causative of ਮੰਗਣਾ" },
+    { "native": "ਪੋਸਟ", "roman": "posṭ", "en": "(social media) post", "pos": "noun", "note": "f; ਪੋਸਟ ਪਾਉਣੀ 'to post'" },
+    { "native": "ਰੀਲ", "roman": "rīl", "en": "reel, short video", "pos": "noun", "note": "f; pl ਰੀਲਾਂ" },
+    { "native": "ਲਾਈਕ", "roman": "lāik", "en": "like", "pos": "noun", "note": "m; ਲਾਈਕ ਕਰਨਾ" },
+    { "native": "ਸ਼ੇਅਰ", "roman": "shear", "en": "share", "pos": "noun", "note": "ਸ਼ੇਅਰ ਕਰਨਾ" },
+    { "native": "ਫ਼ਾਲੋ", "roman": "fālo", "en": "follow", "pos": "noun", "note": "X ਨੂੰ ਫ਼ਾਲੋ ਕਰਨਾ" }
+  ],
+  "phrases": [
+    { "native": "ਤੇਰੇ ਕੋਲ ਯੂ.ਪੀ.ਆਈ. ਹੈ?", "roman": "tere kol yū.pī.āī. hai?", "en": "Have you got UPI? (informal)" },
+    { "native": "ਕਿਊ.ਆਰ. ਕੋਡ ਸਕੈਨ ਕਰ ਲਓ।", "roman": "kiū.ār. koḍ sakain kar lao.", "en": "Just scan the QR code." },
+    { "native": "ਪੇਮੈਂਟ ਹੋ ਗਈ?", "roman": "pemainṭ ho gaī?", "en": "Has the payment gone through?" },
+    { "native": "ਪੈਸੇ ਕੱਟ ਗਏ ਪਰ ਪੇਮੈਂਟ ਫ਼ੇਲ੍ਹ ਹੋ ਗਈ।", "roman": "paise kaṭṭ gae par pemainṭ fél ho gaī.", "en": "The money's been taken but the payment failed." },
+    { "native": "ਕਿਸੇ ਨੂੰ ਓ.ਟੀ.ਪੀ. ਨਾ ਦੱਸੋ।", "roman": "kise nūṃ o.ṭī.pī. nā dasso.", "en": "Don't tell anyone your OTP." },
+    { "native": "ਨੈੱਟ ਨਹੀਂ ਚੱਲ ਰਿਹਾ।", "roman": "naiṭṭ nahī̀ṃ chall rihā̀.", "en": "The internet isn't working." },
+    { "native": "ਵਾਈ-ਫ਼ਾਈ ਦਾ ਪਾਸਵਰਡ ਕੀ ਹੈ?", "roman": "vāī-fāī dā pāsvarḍ kī hai?", "en": "What's the wifi password?" },
+    { "native": "ਮੇਰਾ ਡਾਟਾ ਖ਼ਤਮ ਹੋ ਗਿਆ।", "roman": "merā ḍāṭā xatam ho giā.", "en": "My data's run out." },
+    { "native": "ਫ਼ੋਨ ਵਾਰ ਵਾਰ ਹੈਂਗ ਹੋ ਰਿਹਾ ਹੈ।", "roman": "fon vār vār haiṅg ho rihā̀ hai.", "en": "My phone keeps freezing." },
+    { "native": "ਲਿੰਕ ਭੇਜ ਦੇ।", "roman": "liṅk pèj de.", "en": "Send me the link. (informal)" },
+    { "native": "ਡਿਲੀਵਰੀ ਕਦੋਂ ਤੱਕ ਆਵੇਗੀ?", "roman": "ḍilīvarī kadoṃ takk āvegī?", "en": "When will the delivery arrive?" },
+    { "native": "ਕੈਸ਼ ਦੇਣਾ ਹੈ ਜਾਂ ਆਨਲਾਈਨ?", "roman": "kaish deṇā hai jāṃ ānlāin?", "en": "Are you paying cash or online?" },
+    { "native": "ਇਹ ਰੀਲ ਵੇਖੀ? ਹਾਸਾ ਨਹੀਂ ਰੁਕ ਰਿਹਾ!", "roman": "é rīl vekhī? hāsā nahī̀ṃ ruk rihā̀!", "en": "Seen this reel? I can't stop laughing!" },
+    { "native": "ਮੈਨੂੰ ਇੰਸਟਾ 'ਤੇ ਫ਼ਾਲੋ ਕਰ।", "roman": "mainūṃ insṭā te fālo kar.", "en": "Follow me on Insta. (informal)" }
+  ],
+  "grammar": [
+    {
+      "title": "English words, Punjabi verbs: ਕਰਨਾ and ਹੋਣਾ",
+      "body": "Tech English comes into Punjabi as a **noun (or adjective) + a Punjabi verb**. Use **ਕਰਨਾ** when someone *does* it (transitive) and **ਹੋਣਾ** when it *happens* (intransitive):\n\nਡਾਊਨਲੋਡ **ਕਰਨਾ** 'to download (something)' — ਡਾਊਨਲੋਡ **ਹੋਣਾ** 'to download, be downloaded'\nਅਪਡੇਟ ਕਰਨਾ — ਅਪਡੇਟ ਹੋਣਾ · ਪੇਮੈਂਟ ਕਰਨੀ — ਪੇਮੈਂਟ ਹੋਣੀ · ਸਕੈਨ ਕਰਨਾ — ਸਕੈਨ ਹੋਣਾ · ਚਾਲੂ / ਬੰਦ ਕਰਨਾ 'switch on / off' — ਚਾਲੂ / ਬੰਦ ਹੋਣਾ\n**Only ਹੋਣਾ**: ਹੈਂਗ ਹੋਣਾ 'freeze', ਫ਼ੇਲ੍ਹ ਹੋਣਾ 'fail', ਵਾਇਰਲ ਹੋਣਾ 'go viral' — these just happen.\n\nOther Punjabi verbs join in too: ਰੀਚਾਰਜ **ਕਰਵਾਉਣਾ** (have it done at a shop), ਪੋਸਟ **ਪਾਉਣੀ** 'put up a post', ਨੈੱਟ **ਚੱਲਣਾ** 'the internet works', ਪੈਸੇ **ਕੱਟਣੇ** 'money gets debited', and ਮੰਗਣਾ → **ਮੰਗਵਾਉਣਾ** 'to order (have sent)'.\n\n**Agreement works exactly as in native Punjabi**, so you need the loanword's gender. Feminine: ਪੇਮੈਂਟ, ਪੋਸਟ, ਰੀਲ, ਡਿਲੀਵਰੀ, ਸਪੀਡ, ਈਮੇਲ, ਕਾਲ. Masculine: ਫ਼ੋਨ, ਨੈੱਟ, ਡਾਟਾ, ਪਾਸਵਰਡ, ਲਿੰਕ, ਓ.ਟੀ.ਪੀ., ਰੀਚਾਰਜ, ਮੈਸੇਜ, ਕੈਸ਼. Money (ਪੈਸੇ) is plural.\n• With **ਹੋਣਾ** the thing is the subject: ਪੇਮੈਂਟ ਹੋ **ਗਈ**, ਫ਼ੋਨ ਹੈਂਗ ਹੋ **ਗਿਆ**, ਪੈਸੇ ਟ੍ਰਾਂਸਫ਼ਰ ਹੋ **ਗਏ**.\n• With **ਕਰਨਾ** in the past it's the ergative (no ਨੇ with ਮੈਂ, ਤੂੰ, ਅਸੀਂ, ਤੁਸੀਂ), agreeing with the thing: ਮੈਂ ਪੇਮੈਂਟ ਕਰ **ਦਿੱਤੀ**, ਉਸ ਨੇ ਮੇਰੀ ਪੋਸਟ ਲਾਈਕ **ਕੀਤੀ**, ਮੈਂ ਫ਼ੋਨ ਅਪਡੇਟ **ਕੀਤਾ**, ਮੈਂ ਪੈਸੇ ਟ੍ਰਾਂਸਫ਼ਰ ਕਰ **ਦਿੱਤੇ**.\n\n**The trap:** picking the wrong verb — ਮੈਂ ਫ਼ੋਨ ਹੈਂਗ ਕੀਤਾ ✗ (phones freeze by themselves) → ਫ਼ੋਨ ਹੈਂਗ **ਹੋ ਗਿਆ**; and forgetting the gender — ਪੋਸਟ ਪਾਇਆ ✗ → ਪੋਸਟ **ਪਾਈ**. (Some speakers treat a few loanwords, such as ਪੇਮੈਂਟ, as masculine; you'll hear both.)",
+      "examples": [
+        { "native": "ਮੈਂ ਫ਼ੋਨ ਰੀਸਟਾਰਟ ਕੀਤਾ, ਫਿਰ ਵੀ ਨੈੱਟ ਨਹੀਂ ਚੱਲਿਆ।", "roman": "maiṃ fon rīsṭārṭ kītā, phir vī naiṭṭ nahī̀ṃ challiā.", "en": "I restarted the phone, but the internet still didn't work." },
+        { "native": "ਗ਼ਲਤੀ ਨਾਲ਼ ਸਾਰੇ ਮੈਸੇਜ ਡਿਲੀਟ ਹੋ ਗਏ।", "roman": "ġaltī nāḷ sāre maisej ḍilīṭ ho gae.", "en": "All the messages got deleted by mistake." },
+        { "native": "ਉਸ ਨੇ ਮੇਰੀ ਪੋਸਟ ਲਾਈਕ ਕੀਤੀ।", "roman": "us ne merī posṭ lāik kītī.", "en": "She liked my post." },
+        { "native": "ਪੈਸੇ ਟ੍ਰਾਂਸਫ਼ਰ ਕਰ ਦੇ, ਯਾਰ।", "roman": "paise ṭrānsfar kar de, yār.", "en": "Send me the money, mate." },
+        { "native": "ਲੈਪਟਾਪ ਚਾਰਜ ਹੋ ਰਿਹਾ ਹੈ।", "roman": "laipṭāp chārj ho rihā̀ hai.", "en": "The laptop is charging." }
+      ]
+    },
+    {
+      "title": "Real conditions in practice: ਜੇ … ਤਾਂ …",
+      "body": "Troubleshooting, offers and warnings are full of 'if'. You met ਜੇ … ਤਾਂ … in unit 19; here is how it really runs in everyday speech.\n\n**The if-clause** takes:\n• the **present** for a situation right now: ਜੇ ਨੈੱਟ ਨਹੀਂ **ਚੱਲ ਰਿਹਾ**…, ਜੇ ਤੇਰੇ ਕੋਲ ਕੈਸ਼ ਨਹੀਂ **ਹੈ**…\n• the **simple past** for something that may happen — very Punjabi: ਜੇ ਪੇਮੈਂਟ ਫ਼ੇਲ੍ਹ **ਹੋ ਗਈ**… 'if the payment fails', ਜੇ ਓ.ਟੀ.ਪੀ. ਨਾ **ਆਇਆ**… 'if the OTP doesn't come'\n• the **subjunctive** for a more open possibility: ਜੇ ਕੋਈ ਓ.ਟੀ.ਪੀ. **ਮੰਗੇ**… 'if anyone asks for the OTP', ਜੇ ਤੁਸੀਂ ਪੰਜ ਸੌ ਦਾ ਸਾਮਾਨ **ਲਓ**…\nThe future (ਜੇ ਫ਼ੇਲ੍ਹ ਹੋਵੇਗੀ) is heard but sounds clumsier.\n\n**The result** is a future (ਪੈਸੇ ਵਾਪਸ **ਆ ਜਾਣਗੇ**), a command (ਮੈਨੂੰ **ਦੱਸੀਂ**, ਫ਼ੋਨ **ਕੱਟ ਦਿਓ**) or a present for a general rule (ਡਿਲੀਵਰੀ ਮੁਫ਼ਤ **ਹੈ**).\n\n**In fast speech** ਜੇ is often dropped and ਤਾਂ alone marks the condition: ਪੈਸੇ ਨਾ ਆਏ **ਤਾਂ** ਦੱਸੀਂ 'let me know if the money doesn't arrive'. A negative if-clause usually has **ਨਾ** (ਜੇ ਨਾ ਆਇਆ); ਨਹੀਂ is normal with the present (ਜੇ ਨੈੱਟ ਨਹੀਂ ਚੱਲ ਰਿਹਾ).\n\nRelated: **ਨਹੀਂ ਤਾਂ** 'otherwise' (ਓ.ਟੀ.ਪੀ. ਨਾ ਦੱਸੀਂ, ਨਹੀਂ ਤਾਂ ਖਾਤਾ ਖ਼ਾਲੀ ਹੋ ਜਾਵੇਗਾ) and **ਜਦੋਂ ਵੀ** 'whenever' with the habitual: ਜਦੋਂ ਵੀ ਮੈਂ ਵੀਡੀਓ ਕਾਲ ਕਰਦਾ ਹਾਂ, ਨੈੱਟ ਚਲਾ ਜਾਂਦਾ ਹੈ.",
+      "examples": [
+        { "native": "ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਕੈਸ਼ ਨਹੀਂ ਹੈ ਤਾਂ ਯੂ.ਪੀ.ਆਈ. ਕਰ ਦਿਓ।", "roman": "je tuhā̀ḍe kol kaish nahī̀ṃ hai tāṃ yū.pī.āī. kar dio.", "en": "If you haven't got cash, pay by UPI." },
+        { "native": "ਜੇ ਪੇਮੈਂਟ ਫ਼ੇਲ੍ਹ ਹੋ ਗਈ ਤਾਂ ਕੀ ਹੋਵੇਗਾ?", "roman": "je pemainṭ fél ho gaī tāṃ kī hovegā?", "en": "What happens if the payment fails?" },
+        { "native": "ਜੇ ਕੋਈ ਪਾਸਵਰਡ ਪੁੱਛੇ ਤਾਂ ਨਾ ਦੱਸਿਓ।", "roman": "je koī pāsvarḍ puchchhe tāṃ nā dassio.", "en": "If anyone asks for your password, don't tell them." },
+        { "native": "ਡਿਲੀਵਰੀ ਲੇਟ ਹੋਈ ਤਾਂ ਪੈਸੇ ਵਾਪਸ।", "roman": "ḍilīvarī leṭ hoī tāṃ paise vāpas.", "en": "If the delivery's late, you get your money back." },
+        { "native": "ਜਦੋਂ ਵੀ ਮੈਂ ਵੀਡੀਓ ਕਾਲ ਕਰਦਾ ਹਾਂ, ਨੈੱਟ ਚਲਾ ਜਾਂਦਾ ਹੈ।", "roman": "jadoṃ vī maiṃ vīḍīo kāl kardā hāṃ, naiṭṭ chalā jāndā hai.", "en": "Whenever I make a video call, the internet goes." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Momos and a failed payment",
+    "setting": "Evening at a momos stall in Ludhiana. Nav and Jaspreet have just eaten.",
+    "lines": [
+      { "speaker": "Stall owner", "native": "ਸੱਠ ਰੁਪਏ ਹੋ ਗਏ, ਭਾਜੀ।", "roman": "saṭṭh rupae ho gae, pā̀jī.", "en": "That's sixty rupees, bhaji." },
+      { "speaker": "Nav", "native": "ਕਿਊ.ਆਰ. ਕੋਡ ਕਿੱਥੇ ਹੈ? ਮੇਰੇ ਕੋਲ ਕੈਸ਼ ਨਹੀਂ।", "roman": "kiū.ār. koḍ kitthe hai? mere kol kaish nahī̀ṃ.", "en": "Where's the QR code? I haven't got cash." },
+      { "speaker": "Stall owner", "native": "ਇਹ ਲਓ, ਸਕੈਨ ਕਰ ਲਓ।", "roman": "é lao, sakain kar lao.", "en": "Here you go, scan it." },
+      { "speaker": "Nav", "native": "ਓਏ, ਪੈਸੇ ਕੱਟ ਗਏ ਪਰ ਪੇਮੈਂਟ ਫ਼ੇਲ੍ਹ ਹੋ ਗਈ!", "roman": "oe, paise kaṭṭ gae par pemainṭ fél ho gaī!", "en": "Oh no — the money's gone but the payment failed!" },
+      { "speaker": "Jaspreet", "native": "ਘਬਰਾ ਨਾ। ਜੇ ਫ਼ੇਲ੍ਹ ਹੋ ਗਈ ਤਾਂ ਪੈਸੇ ਆਪੇ ਵਾਪਸ ਆ ਜਾਣਗੇ। ਮੈਂ ਕਰ ਦਿੰਦੀ ਹਾਂ।", "roman": "kabrā̀ nā. je fél ho gaī tāṃ paise āpe vāpas ā jāṇge. maiṃ kar dindī hāṃ.", "en": "Don't panic. If it failed, the money will come back by itself. I'll pay." },
+      { "speaker": "Stall owner", "native": "ਆ ਗਏ ਜੀ, ਸੱਠ ਰੁਪਏ। ਧੰਨਵਾਦ!", "roman": "ā gae jī, saṭṭh rupae. tànnvād!", "en": "Got it — sixty rupees. Thank you!" },
+      { "speaker": "Nav", "native": "ਥੈਂਕ ਯੂ ਯਾਰ। ਘਰ ਜਾ ਕੇ ਟ੍ਰਾਂਸਫ਼ਰ ਕਰ ਦਿਆਂਗਾ, ਹੁਣ ਨੈੱਟ ਵੀ ਨਹੀਂ ਚੱਲ ਰਿਹਾ।", "roman": "thaiṅk yū yār. kàr jā ke ṭrānsfar kar diāṅgā, huṇ naiṭṭ vī nahī̀ṃ chall rihā̀.", "en": "Thanks, mate. I'll send it when I get home — my internet isn't working now either." },
+      { "speaker": "Jaspreet", "native": "ਫਿਰ ਡਾਟਾ ਖ਼ਤਮ? ਤੂੰ ਸਾਰਾ ਦਿਨ ਰੀਲਾਂ ਵੇਖਦਾ ਹੈਂ, ਹੋਰ ਕੀ ਹੋਣਾ ਸੀ!", "roman": "phir ḍāṭā xatam? tūṃ sārā din rīlāṃ vekhdā haiṃ, hor kī hoṇā sī!", "en": "Data run out again? You watch reels all day — what did you expect!" },
+      { "speaker": "Nav", "native": "ਹਾ ਹਾ। ਵੈਸੇ, ਮੇਰੀ ਕੱਲ੍ਹ ਵਾਲੀ ਰੀਲ ਵੇਖੀ? ਦੋ ਹਜ਼ਾਰ ਲਾਈਕ!", "roman": "hā hā. vaise, merī káll vālī rīl vekhī? do hazār lāik!", "en": "Ha ha. By the way, did you see my reel from yesterday? Two thousand likes!" },
+      { "speaker": "Jaspreet", "native": "ਵੇਖੀ, ਵੇਖੀ। ਤੇ ਹਾਂ, ਮੇਰੀ ਭੈਣ ਦਾ ਜਨਮਦਿਨ ਹੈ, ਕੇਕ ਆਨਲਾਈਨ ਮੰਗਵਾ ਲਈਏ?", "roman": "vekhī, vekhī. te hāṃ, merī pàiṇ dā janamdin hai, kek ānlāin mangvā laīe?", "en": "Yes, yes, I saw it. Oh, and it's my sister's birthday — shall we order a cake online?" },
+      { "speaker": "Nav", "native": "ਹਾਂ, ਪਰ ਪੇਮੈਂਟ ਤੂੰ ਕਰੀਂ! ਮੇਰੇ ਖਾਤੇ ਵਿੱਚ ਹੁਣ ਬੈਲੈਂਸ ਹੀ ਨਹੀਂ।", "roman": "hāṃ, par pemainṭ tūṃ karīṃ! mere khāte vich huṇ bailains hī nahī̀ṃ.", "en": "Sure, but you pay! There's no balance left in my account." },
+      { "speaker": "Jaspreet", "native": "ਠੀਕ ਹੈ, ਪਰ ਸੱਠ ਰੁਪਏ ਨਾ ਭੁੱਲੀਂ!", "roman": "ṭhīk hai, par saṭṭh rupae nā pùllīṃ!", "en": "Fine — but don't forget my sixty rupees!" }
+    ]
+  },
+  "culture": "In India, **UPI** has made cash almost optional: vegetable sellers, rickshaw drivers and roadside stalls all have a QR code sticker, and people ask **ਗੂਗਲ ਪੇ / ਪੇਟੀਐਮ ਕਰ ਦਿਆਂ?** as often as ਯੂ.ਪੀ.ਆਈ. In Pakistani Punjab cash is still common, but phone wallets like JazzCash and Easypaisa are everywhere, and bank transfers are 'sent on the number'. Scam calls asking for an OTP, a 'KYC update' or claiming you've won a prize are a daily nuisance — the rule everyone repeats is **ਕਿਸੇ ਨੂੰ ਓ.ਟੀ.ਪੀ. ਨਾ ਦੱਸੋ**.\n\nTech talk is English nouns with Punjabi verbs, and young people **text in Punjabi written in English letters** (*kiddan, ki haal aa?*) far more than in Gurmukhi; voice notes are huge, especially with older relatives. Family WhatsApp groups forward good-morning messages, recipes and rumours; Instagram reels of Punjabi songs, comedy and weddings are what everyone is watching. Food and shopping apps deliver across the cities, and ਕੈਸ਼ ਆਨ ਡਿਲੀਵਰੀ is still popular for people who don't trust paying first.",
+  "lessons": [
+    {
+      "title": "Paying by phone",
+      "tip": { "title": "English + ਕਰਨਾ / ਹੋਣਾ", "body": "- Tech English pairs with **ਕਰਨਾ** when someone does it and **ਹੋਣਾ** when it happens: ਮੈਂ ਪੇਮੈਂਟ **ਕਰ ਦਿੱਤੀ** — ਪੇਮੈਂਟ **ਹੋ ਗਈ**.\n- The loanword has a gender and the verb agrees: ਪੇਮੈਂਟ (f), ਕੈਸ਼, ਕੋਡ (m).\n- Money is plural: ਪੈਸੇ ਟ੍ਰਾਂਸਫ਼ਰ ਹੋ **ਗਏ**.", "pattern": "English word + ਕਰਨਾ (do it) / ਹੋਣਾ (it happens)", "grammar": 0 },
+      "new": ["ਯੂ.ਪੀ.ਆਈ.", "ਪੇਮੈਂਟ", "ਸਕੈਨ", "ਕਿਊ.ਆਰ. ਕੋਡ", "ਕੈਸ਼", "ਟ੍ਰਾਂਸਫ਼ਰ", "ਤੇਰੇ ਕੋਲ ਯੂ.ਪੀ.ਆਈ. ਹੈ?", "ਕਿਊ.ਆਰ. ਕੋਡ ਸਕੈਨ ਕਰ ਲਓ।", "ਪੇਮੈਂਟ ਹੋ ਗਈ?"],
+      "sentences": [
+        { "native": "ਮੈਂ ਪੇਮੈਂਟ ਕਰ ਦਿੱਤੀ ਹੈ, ਵੇਖ ਲਓ।", "roman": "maiṃ pemainṭ kar dittī hai, vekh lao.", "en": "I've paid — have a look.", "focus": "ਦਿੱਤੀ", "wrong": ["ਦਿੱਤਾ|dittā", "ਦਿੱਤੇ|ditte"] },
+        { "native": "ਭਾਜੀ, ਕੋਡ ਕਿੱਥੇ ਹੈ? ਮੈਂ ਸਕੈਨ ਕਰ ਲੈਂਦਾ ਹਾਂ।", "roman": "pā̀jī, koḍ kitthe hai? maiṃ sakain kar laindā hāṃ.", "en": "Where's the code, bhaji? I'll scan it.", "focus": "ਕਰ", "wrong": ["ਹੋ|ho", "ਕੀਤਾ|kītā"] },
+        { "native": "ਕੋਡ ਸਕੈਨ ਨਹੀਂ ਹੋ ਰਿਹਾ, ਨੰਬਰ ਦੱਸੋ।", "roman": "koḍ sakain nahī̀ṃ ho rihā̀, nambar dasso.", "en": "The code won't scan — tell me your number.", "focus": "ਹੋ", "wrong": ["ਕਰ|kar", "ਕੀਤਾ|kītā"] },
+        { "native": "ਪੈਸੇ ਟ੍ਰਾਂਸਫ਼ਰ ਹੋ ਗਏ, ਮੈਸੇਜ ਆ ਗਿਆ।", "roman": "paise ṭrānsfar ho gae, maisej ā giā.", "en": "The money's gone through — I got the message.", "focus": "ਗਏ", "wrong": ["ਗਿਆ|giā", "ਗਈ|gaī"] },
+        { "native": "ਮੈਂ ਤੈਨੂੰ ਪੰਜ ਸੌ ਰੁਪਏ ਟ੍ਰਾਂਸਫ਼ਰ ਕਰ ਦਿੱਤੇ।", "roman": "maiṃ tainūṃ panj sau rupae ṭrānsfar kar ditte.", "en": "I've sent you five hundred rupees.", "focus": "ਦਿੱਤੇ", "wrong": ["ਦਿੱਤਾ|dittā", "ਦਿੱਤੀ|dittī"] },
+        { "native": "ਪੇਮੈਂਟ ਅਜੇ ਨਹੀਂ ਹੋਈ, ਇੱਕ ਮਿੰਟ।", "roman": "pemainṭ aje nahī̀ṃ hoī, ikk minṭ.", "en": "The payment hasn't gone through yet — one minute.", "focus": "ਹੋਈ", "wrong": ["ਹੋਇਆ|hoiā", "ਹੋਏ|hoe"] },
+        { "native": "ਮੇਰੇ ਕੋਲ ਕੈਸ਼ ਨਹੀਂ ਹੈ, ਯੂ.ਪੀ.ਆਈ. ਕਰ ਦਿਆਂ?", "roman": "mere kol kaish nahī̀ṃ hai, yū.pī.āī. kar diāṃ?", "en": "I haven't got cash — shall I pay by UPI?", "focus": "ਦਿਆਂ", "wrong": ["ਦਿੱਤਾ|dittā", "ਦਿੰਦਾ|dindā"] },
+        { "native": "ਇੱਥੇ ਸਿਰਫ਼ ਕੈਸ਼ ਚੱਲਦਾ ਹੈ, ਯੂ.ਪੀ.ਆਈ. ਨਹੀਂ।", "roman": "itthe sirf kaish challdā hai, yū.pī.āī. nahī̀ṃ.", "en": "Cash only here, no UPI.", "focus": "ਚੱਲਦਾ", "wrong": ["ਚੱਲਦੀ|challdī", "ਚੱਲਦੇ|challde"] }
+      ]
+    },
+    {
+      "title": "When a payment fails",
+      "tip": { "title": "If it fails…: ਜੇ … ਤਾਂ", "body": "- A situation now → **present**: ਜੇ ਬੈਲੈਂਸ ਘੱਟ **ਹੈ** ਤਾਂ…\n- Something that may happen → **simple past** (very Punjabi): ਜੇ ਪੇਮੈਂਟ ਫ਼ੇਲ੍ਹ **ਹੋ ਗਈ** ਤਾਂ…, or the subjunctive: ਜੇ ਕੋਈ ਓ.ਟੀ.ਪੀ. **ਮੰਗੇ**…\n- The result is a future or a command. In speech ਜੇ is often dropped: ਪੈਸੇ ਨਾ ਆਏ **ਤਾਂ** ਦੱਸੀਂ.", "pattern": "ਜੇ + past / present / subjunctive + ਤਾਂ + future / command", "grammar": 1 },
+      "new": ["ਫ਼ੇਲ੍ਹ", "ਬੈਲੈਂਸ", "ਓ.ਟੀ.ਪੀ.", "ਫ਼ਰਾਡ", "ਪੈਸੇ ਕੱਟ ਗਏ ਪਰ ਪੇਮੈਂਟ ਫ਼ੇਲ੍ਹ ਹੋ ਗਈ।", "ਕਿਸੇ ਨੂੰ ਓ.ਟੀ.ਪੀ. ਨਾ ਦੱਸੋ।"],
+      "sentences": [
+        { "native": "ਜੇ ਪੇਮੈਂਟ ਫ਼ੇਲ੍ਹ ਹੋ ਗਈ ਤਾਂ ਪੈਸੇ ਤਿੰਨ ਦਿਨਾਂ ਵਿੱਚ ਵਾਪਸ ਆ ਜਾਣਗੇ।", "roman": "je pemainṭ fél ho gaī tāṃ paise tinn dināṃ vich vāpas ā jāṇge.", "en": "If the payment fails, the money will come back within three days.", "focus": "ਜਾਣਗੇ", "wrong": ["ਜਾਵੇਗਾ|jāvegā", "ਗਏ|gae"] },
+        { "native": "ਜੇ ਕੋਈ ਫ਼ੋਨ 'ਤੇ ਓ.ਟੀ.ਪੀ. ਮੰਗੇ ਤਾਂ ਸਮਝੋ ਫ਼ਰਾਡ ਹੈ।", "roman": "je koī fon te o.ṭī.pī. mange tāṃ samájo frāḍ hai.", "en": "If anyone asks for your OTP on the phone, it's a scam.", "focus": "ਤਾਂ", "wrong": ["ਕਿ|ki", "ਪਰ|par"] },
+        { "native": "ਪੈਸੇ ਨਾ ਆਏ ਤਾਂ ਮੈਨੂੰ ਦੱਸੀਂ।", "roman": "paise nā āe tāṃ mainūṃ dassīṃ.", "en": "Let me know if the money doesn't arrive.", "focus": "ਆਏ", "wrong": ["ਆਇਆ|āiā", "ਆਈ|āī"] },
+        { "native": "ਜੇ ਬੈਲੈਂਸ ਘੱਟ ਹੈ ਤਾਂ ਮੈਂ ਪੇਮੈਂਟ ਕਰ ਦਿੰਦਾ ਹਾਂ।", "roman": "je bailains kàṭṭ hai tāṃ maiṃ pemainṭ kar dindā hāṃ.", "en": "If your balance is low, I'll pay.", "focus": "ਜੇ", "wrong": ["ਜਦੋਂ|jadoṃ", "ਕਿ|ki"] },
+        { "native": "ਜੇ ਓ.ਟੀ.ਪੀ. ਨਾ ਆਇਆ ਤਾਂ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੀਂ।", "roman": "je o.ṭī.pī. nā āiā tāṃ dubārā koshish karīṃ.", "en": "If the OTP doesn't come, try again.", "focus": "ਆਇਆ", "wrong": ["ਆਈ|āī", "ਆਏ|āe"] },
+        { "native": "ਕਿਸੇ ਨੂੰ ਓ.ਟੀ.ਪੀ. ਨਾ ਦੱਸੀਂ, ਨਹੀਂ ਤਾਂ ਖਾਤਾ ਖ਼ਾਲੀ ਹੋ ਜਾਵੇਗਾ।", "roman": "kise nūṃ o.ṭī.pī. nā dassīṃ, nahī̀ṃ tāṃ khātā xālī ho jāvegā.", "en": "Don't tell anyone the OTP, or your account will be emptied.", "focus": "ਜਾਵੇਗਾ", "wrong": ["ਜਾਵੇਗੀ|jāvegī", "ਗਿਆ|giā"] },
+        { "native": "ਮੇਰੇ ਖਾਤੇ ਵਿੱਚੋਂ ਪੈਸੇ ਕੱਟ ਗਏ, ਪਰ ਦੁਕਾਨਦਾਰ ਕਹਿੰਦਾ ਪੇਮੈਂਟ ਨਹੀਂ ਆਈ।", "roman": "mere khāte vichchoṃ paise kaṭṭ gae, par dukāndār káindā pemainṭ nahī̀ṃ āī.", "en": "The money's left my account, but the shopkeeper says the payment hasn't come.", "focus": "ਗਏ", "wrong": ["ਗਿਆ|giā", "ਗਈ|gaī"] },
+        { "native": "ਜੇ ਤੇਰੇ ਕੋਲ ਬੈਲੈਂਸ ਨਹੀਂ ਹੈ ਤਾਂ ਕੈਸ਼ ਦੇ ਦੇ।", "roman": "je tere kol bailains nahī̀ṃ hai tāṃ kaish de de.", "en": "If you've no balance, just give cash." },
+        { "native": "ਇਹ ਕਾਲ ਫ਼ਰਾਡ ਸੀ, ਮੈਂ ਫ਼ੋਨ ਕੱਟ ਦਿੱਤਾ।", "roman": "é kāl frāḍ sī, maiṃ fon kaṭṭ dittā.", "en": "That call was a scam — I hung up." }
+      ]
+    },
+    {
+      "title": "The internet's down",
+      "tip": { "title": "On, off, working, run out", "body": "- Things 'run': ਨੈੱਟ ਨਹੀਂ **ਚੱਲ ਰਿਹਾ**, ਫ਼ੋਨ ਠੀਕ **ਚੱਲਦਾ** ਹੈ.\n- On / off: **ਚਾਲੂ / ਬੰਦ ਕਰਨਾ** (you do it), **ਚਾਲੂ / ਬੰਦ ਹੋਣਾ** (it happens): ਫ਼ੋਨ ਚਾਲੂ ਨਹੀਂ **ਹੋ** ਰਿਹਾ.\n- Run out: ਡਾਟਾ **ਖ਼ਤਮ ਹੋ ਗਿਆ**. Top-up at a shop: ਰੀਚਾਰਜ **ਕਰਵਾਉਣਾ**." },
+      "new": ["ਨੈੱਟ", "ਵਾਈ-ਫ਼ਾਈ", "ਪਾਸਵਰਡ", "ਡਾਟਾ", "ਰੀਚਾਰਜ", "ਸਪੀਡ", "ਚਾਲੂ", "ਨੈੱਟ ਨਹੀਂ ਚੱਲ ਰਿਹਾ।", "ਵਾਈ-ਫ਼ਾਈ ਦਾ ਪਾਸਵਰਡ ਕੀ ਹੈ?", "ਮੇਰਾ ਡਾਟਾ ਖ਼ਤਮ ਹੋ ਗਿਆ।"],
+      "sentences": [
+        { "native": "ਨੈੱਟ ਸਵੇਰ ਤੋਂ ਨਹੀਂ ਚੱਲ ਰਿਹਾ।", "roman": "naiṭṭ saver toṃ nahī̀ṃ chall rihā̀.", "en": "The internet hasn't been working since this morning.", "focus": "ਰਿਹਾ", "wrong": ["ਰਹੀ|rahī̀", "ਰਹੇ|rahè"] },
+        { "native": "ਵਾਈ-ਫ਼ਾਈ ਬੰਦ ਕਰ ਕੇ ਦੁਬਾਰਾ ਚਾਲੂ ਕਰ।", "roman": "vāī-fāī band kar ke dubārā chālū kar.", "en": "Turn the wifi off and on again.", "focus": "ਚਾਲੂ", "wrong": ["ਬੰਦ|band", "ਖ਼ਤਮ|xatam"] },
+        { "native": "ਮਹੀਨਾ ਖ਼ਤਮ ਨਹੀਂ ਹੋਇਆ ਤੇ ਡਾਟਾ ਖ਼ਤਮ ਹੋ ਗਿਆ!", "roman": "mahī̀nā xatam nahī̀ṃ hoiā te ḍāṭā xatam ho giā!", "en": "The month isn't over and my data's already run out!", "focus": "ਗਿਆ", "wrong": ["ਗਈ|gaī", "ਗਏ|gae"] },
+        { "native": "ਮੈਂ ਕੱਲ੍ਹ ਹੀ ਰੀਚਾਰਜ ਕਰਵਾਇਆ ਸੀ।", "roman": "maiṃ káll hī rīchārj karvāiā sī.", "en": "I only topped up yesterday.", "focus": "ਕਰਵਾਇਆ", "wrong": ["ਕਰਵਾਈ|karvāī", "ਕਰਵਾਏ|karvāe"] },
+        { "native": "ਇੱਥੇ ਨੈੱਟ ਦੀ ਸਪੀਡ ਬਹੁਤ ਹੌਲੀ ਹੈ।", "roman": "itthe naiṭṭ dī sapīḍ báut haulī hai.", "en": "The internet speed here is really slow.", "focus": "ਦੀ", "wrong": ["ਦਾ|dā", "ਦੇ|de"] },
+        { "native": "ਵਾਈ-ਫ਼ਾਈ ਦਾ ਪਾਸਵਰਡ ਬਦਲ ਗਿਆ ਹੈ?", "roman": "vāī-fāī dā pāsvarḍ badal giā hai?", "en": "Has the wifi password changed?", "focus": "ਦਾ", "wrong": ["ਦੀ|dī", "ਦੇ|de"] },
+        { "native": "ਜੇ ਨੈੱਟ ਨਹੀਂ ਚੱਲ ਰਿਹਾ ਤਾਂ ਰੀਚਾਰਜ ਕਰਵਾ ਲੈ।", "roman": "je naiṭṭ nahī̀ṃ chall rihā̀ tāṃ rīchārj karvā lai.", "en": "If your internet isn't working, get a top-up.", "focus": "ਤਾਂ", "wrong": ["ਕਿ|ki", "ਪਰ|par"] },
+        { "native": "ਫ਼ੋਨ ਚਾਲੂ ਹੀ ਨਹੀਂ ਹੋ ਰਿਹਾ।", "roman": "fon chālū hī nahī̀ṃ ho rihā̀.", "en": "The phone won't even switch on.", "focus": "ਹੋ", "wrong": ["ਕਰ|kar", "ਕੀਤਾ|kītā"] },
+        { "native": "ਪਾਸਵਰਡ ਮੇਜ਼ 'ਤੇ ਲਿਖਿਆ ਹੋਇਆ ਹੈ।", "roman": "pāsvarḍ mez te likhiā hoiā hai.", "en": "The password is written on the table." }
+      ]
+    },
+    {
+      "title": "Apps, updates and a frozen phone",
+      "tip": { "title": "It froze: ਹੋਣਾ, not ਕਰਨਾ", "body": "- Some things only happen by themselves: ਫ਼ੋਨ ਹੈਂਗ **ਹੋ ਗਿਆ**, ਪੇਮੈਂਟ ਫ਼ੇਲ੍ਹ **ਹੋ ਗਈ** — never ਹੈਂਗ ਕੀਤਾ.\n- Others pair up: ਮੈਂ ਫ਼ੋਨ ਅਪਡੇਟ **ਕੀਤਾ** — ਫ਼ੋਨ ਅਪਡੇਟ **ਹੋ ਰਿਹਾ** ਹੈ; ਡਾਊਨਲੋਡ **ਕਰ** — ਡਾਊਨਲੋਡ **ਹੋ ਗਿਆ**.\n- 'Whenever' = **ਜਦੋਂ ਵੀ** + habitual.", "pattern": "ਹੈਂਗ / ਫ਼ੇਲ੍ਹ + ਹੋਣਾ · ਅਪਡੇਟ / ਡਾਊਨਲੋਡ + ਕਰਨਾ / ਹੋਣਾ", "grammar": 0 },
+      "new": ["ਹੈਂਗ", "ਡਾਊਨਲੋਡ", "ਅਪਡੇਟ", "ਲਿੰਕ", "ਫ਼ੋਨ ਵਾਰ ਵਾਰ ਹੈਂਗ ਹੋ ਰਿਹਾ ਹੈ।", "ਲਿੰਕ ਭੇਜ ਦੇ।"],
+      "sentences": [
+        { "native": "ਮੇਰਾ ਫ਼ੋਨ ਫਿਰ ਹੈਂਗ ਹੋ ਗਿਆ!", "roman": "merā fon phir haiṅg ho giā!", "en": "My phone has frozen again!", "focus": "ਹੋ", "wrong": ["ਕਰ|kar", "ਕੀਤਾ|kītā"] },
+        { "native": "ਫ਼ੋਨ ਅਪਡੇਟ ਹੋ ਰਿਹਾ ਹੈ, ਦਸ ਮਿੰਟ ਲੱਗਣਗੇ।", "roman": "fon apḍeṭ ho rihā̀ hai, das minṭ laggaṇge.", "en": "The phone's updating — it'll take ten minutes.", "focus": "ਹੋ", "wrong": ["ਕਰ|kar", "ਕਰਦਾ|kardā"] },
+        { "native": "ਮੈਂ ਕੱਲ੍ਹ ਰਾਤ ਫ਼ੋਨ ਅਪਡੇਟ ਕੀਤਾ, ਹੁਣ ਠੀਕ ਚੱਲਦਾ ਹੈ।", "roman": "maiṃ káll rāt fon apḍeṭ kītā, huṇ ṭhīk challdā hai.", "en": "I updated my phone last night — now it works fine.", "focus": "ਕੀਤਾ", "wrong": ["ਹੋਇਆ|hoiā", "ਕੀਤੀ|kītī"] },
+        { "native": "ਤਸਵੀਰਾਂ ਡਾਊਨਲੋਡ ਨਹੀਂ ਹੋ ਰਹੀਆਂ, ਨੈੱਟ ਹੌਲੀ ਹੈ।", "roman": "tasvīrāṃ ḍāūnloḍ nahī̀ṃ ho rahī̀āṃ, naiṭṭ haulī hai.", "en": "The photos won't download — the internet's slow.", "focus": "ਰਹੀਆਂ", "wrong": ["ਰਿਹਾ|rihā̀", "ਰਹੀ|rahī̀"] },
+        { "native": "ਮੈਨੂੰ ਲਿੰਕ ਭੇਜ, ਮੈਂ ਡਾਊਨਲੋਡ ਕਰ ਲਵਾਂਗੀ।", "roman": "mainūṃ liṅk pèj, maiṃ ḍāūnloḍ kar lavāṅgī.", "en": "Send me the link, I'll download it. (woman speaking)", "focus": "ਕਰ", "wrong": ["ਹੋ|ho", "ਕੀਤੀ|kītī"] },
+        { "native": "ਜਦੋਂ ਵੀ ਮੈਂ ਕੈਮਰਾ ਖੋਲ੍ਹਦਾ ਹਾਂ, ਫ਼ੋਨ ਹੈਂਗ ਹੋ ਜਾਂਦਾ ਹੈ।", "roman": "jadoṃ vī maiṃ kaimrā khóldā hāṃ, fon haiṅg ho jāndā hai.", "en": "Whenever I open the camera, the phone freezes.", "focus": "ਜਾਂਦਾ", "wrong": ["ਜਾਂਦੀ|jāndī", "ਗਿਆ|giā"] },
+        { "native": "ਇਹ ਲਿੰਕ ਨਾ ਖੋਲ੍ਹੀਂ, ਫ਼ਰਾਡ ਹੋ ਸਕਦਾ ਹੈ।", "roman": "é liṅk nā khólīṃ, frāḍ ho sakdā hai.", "en": "Don't open this link — it could be a scam." },
+        { "native": "ਫ਼ੋਨ ਬਹੁਤ ਪੁਰਾਣਾ ਹੈ, ਹੁਣ ਨਵਾਂ ਲੈਣਾ ਪਵੇਗਾ।", "roman": "fon báut purāṇā hai, huṇ navāṃ laiṇā pavegā.", "en": "The phone's really old — I'll have to get a new one." }
+      ]
+    },
+    {
+      "title": "Ordering online",
+      "tip": { "title": "Ordering: ਮੰਗਵਾਉਣਾ", "body": "- To order something to be delivered is **ਮੰਗਵਾਉਣਾ** 'to have it sent for': ਖਾਣਾ **ਮੰਗਵਾ** ਲਈਏ?\n- In the past it agrees with the thing: ਮੈਂ ਜੁੱਤੀ **ਮੰਗਵਾਈ**, ਕਿਤਾਬਾਂ **ਮੰਗਵਾਈਆਂ**.\n- Offers come with conditions: ਜੇ … **ਲਓ** ਤਾਂ ਡਿਲੀਵਰੀ **ਮੁਫ਼ਤ** ਹੈ." },
+      "new": ["ਡਿਲੀਵਰੀ", "ਮੁਫ਼ਤ", "ਮੰਗਵਾਉਣਾ", "ਡਿਲੀਵਰੀ ਕਦੋਂ ਤੱਕ ਆਵੇਗੀ?", "ਕੈਸ਼ ਦੇਣਾ ਹੈ ਜਾਂ ਆਨਲਾਈਨ?"],
+      "sentences": [
+        { "native": "ਅੱਜ ਖਾਣਾ ਬਾਹਰੋਂ ਮੰਗਵਾ ਲਈਏ?", "roman": "ajj khāṇā bā́roṃ mangvā laīe?", "en": "Shall we order food in tonight?", "focus": "ਮੰਗਵਾ", "wrong": ["ਮੰਗ|mang", "ਮੰਗਵਾਇਆ|mangvāiā"] },
+        { "native": "ਮੈਂ ਆਨਲਾਈਨ ਨਵੀਂ ਜੁੱਤੀ ਮੰਗਵਾਈ ਹੈ।", "roman": "maiṃ ānlāin navīṃ juttī mangvāī hai.", "en": "I've ordered new shoes online.", "focus": "ਮੰਗਵਾਈ", "wrong": ["ਮੰਗਵਾਇਆ|mangvāiā", "ਮੰਗਵਾਏ|mangvāe"] },
+        { "native": "ਪਾਪਾ ਨੇ ਦੋ ਕਿਤਾਬਾਂ ਮੰਗਵਾਈਆਂ ਸਨ, ਇੱਕੋ ਆਈ।", "roman": "pāpā ne do kitābāṃ mangvāīāṃ san, ikko āī.", "en": "Dad ordered two books, but only one came.", "focus": "ਮੰਗਵਾਈਆਂ", "wrong": ["ਮੰਗਵਾਇਆ|mangvāiā", "ਮੰਗਵਾਈ|mangvāī"] },
+        { "native": "ਜੇ ਤੁਸੀਂ ਪੰਜ ਸੌ ਤੋਂ ਜ਼ਿਆਦਾ ਦਾ ਸਾਮਾਨ ਲਓ ਤਾਂ ਡਿਲੀਵਰੀ ਮੁਫ਼ਤ ਹੈ।", "roman": "je tusīṃ panj sau toṃ ziādā dā sāmān lao tāṃ ḍilīvarī mufat hai.", "en": "If you buy more than five hundred rupees of stuff, delivery is free.", "focus": "ਲਓ", "wrong": ["ਲੈਂਦੇ|lainde", "ਲਵਾਂ|lavāṃ"] },
+        { "native": "ਮੇਰੀ ਡਿਲੀਵਰੀ ਅਜੇ ਤੱਕ ਨਹੀਂ ਆਈ।", "roman": "merī ḍilīvarī aje takk nahī̀ṃ āī.", "en": "My delivery still hasn't come.", "focus": "ਆਈ", "wrong": ["ਆਇਆ|āiā", "ਆਏ|āe"] },
+        { "native": "ਡਿਲੀਵਰੀ ਵਾਲਾ ਆ ਗਿਆ ਹੈ, ਥੱਲੇ ਜਾ ਕੇ ਲੈ ਆ।", "roman": "ḍilīvarī vālā ā giā hai, thalle jā ke lai ā.", "en": "The delivery man's here — go down and get it.", "focus": "ਵਾਲਾ", "wrong": ["ਵਾਲੀ|vālī", "ਵਾਲੇ|vāle"] },
+        { "native": "ਜੇ ਖਾਣਾ ਠੰਢਾ ਆਇਆ ਤਾਂ ਸ਼ਿਕਾਇਤ ਕਰਾਂਗੇ।", "roman": "je khāṇā ṭháṇḍā āiā tāṃ shikāit karāṅge.", "en": "If the food arrives cold, we'll complain.", "focus": "ਆਇਆ", "wrong": ["ਆਈ|āī", "ਆਏ|āe"] },
+        { "native": "ਕੁਝ ਵੀ ਮੁਫ਼ਤ ਨਹੀਂ ਹੁੰਦਾ, ਯਾਰ!", "roman": "kúj vī mufat nahī̀ṃ hundā, yār!", "en": "Nothing's ever free, mate!" }
+      ]
+    },
+    {
+      "title": "Posts, reels and followers",
+      "tip": { "title": "Social media verbs", "body": "- **ਪੋਸਟ ਪਾਉਣੀ** 'put up a post'; **ਲਾਈਕ / ਸ਼ੇਅਰ / ਫ਼ਾਲੋ ਕਰਨਾ**.\n- ਪੋਸਟ and ਰੀਲ are feminine: ਪੋਸਟ **ਪਾਈ**, ਰੀਲ **ਭੇਜੀ**, ਰੀਲ **ਵੇਖੀ**.\n- Follow *someone* takes **ਨੂੰ**: ਮੈਨੂੰ ਫ਼ਾਲੋ ਕਰ, ਮੈਂ ਉਸ ਨੂੰ ਫ਼ਾਲੋ ਕਰਦੀ ਹਾਂ." },
+      "new": ["ਪੋਸਟ", "ਰੀਲ", "ਲਾਈਕ", "ਸ਼ੇਅਰ", "ਫ਼ਾਲੋ", "ਇਹ ਰੀਲ ਵੇਖੀ? ਹਾਸਾ ਨਹੀਂ ਰੁਕ ਰਿਹਾ!", "ਮੈਨੂੰ ਇੰਸਟਾ 'ਤੇ ਫ਼ਾਲੋ ਕਰ।"],
+      "sentences": [
+        { "native": "ਤੂੰ ਇੰਸਟਾ 'ਤੇ ਨਵੀਂ ਪੋਸਟ ਪਾਈ?", "roman": "tūṃ insṭā te navīṃ posṭ pāī?", "en": "Have you put up a new post on Insta?", "focus": "ਪਾਈ", "wrong": ["ਪਾਇਆ|pāiā", "ਪਾਏ|pāe"] },
+        { "native": "ਇਹ ਰੀਲ ਮੈਂ ਤੈਨੂੰ ਭੇਜੀ ਸੀ, ਵੇਖੀ?", "roman": "é rīl maiṃ tainūṃ pèjī sī, vekhī?", "en": "I sent you this reel — did you watch it?", "focus": "ਭੇਜੀ", "wrong": ["ਭੇਜਿਆ|pèjiā", "ਭੇਜੇ|pèje"] },
+        { "native": "ਮੇਰੀ ਪੋਸਟ 'ਤੇ ਸੌ ਲਾਈਕ ਆ ਗਏ!", "roman": "merī posṭ te sau lāik ā gae!", "en": "My post has got a hundred likes!", "focus": "ਗਏ", "wrong": ["ਗਿਆ|giā", "ਗਈ|gaī"] },
+        { "native": "ਉਸ ਨੇ ਸਾਡੀ ਤਸਵੀਰ ਸਾਰਿਆਂ ਨਾਲ਼ ਸ਼ੇਅਰ ਕਰ ਦਿੱਤੀ।", "roman": "us ne sāḍī tasvīr sāriāṃ nāḷ shear kar dittī.", "en": "She shared our photo with everyone.", "focus": "ਦਿੱਤੀ", "wrong": ["ਦਿੱਤਾ|dittā", "ਦਿੱਤੇ|ditte"] },
+        { "native": "ਮੈਂ ਉਸ ਨੂੰ ਫ਼ਾਲੋ ਨਹੀਂ ਕਰਦੀ।", "roman": "maiṃ us nūṃ fālo nahī̀ṃ kardī.", "en": "I don't follow him. (woman speaking)", "focus": "ਨੂੰ", "wrong": ["ਨੇ|ne", "ਦਾ|dā"] },
+        { "native": "ਉਸ ਦੀ ਰੀਲ ਨੂੰ ਲੱਖ ਲਾਈਕ ਮਿਲੇ!", "roman": "us dī rīl nūṃ lakkh lāik mile!", "en": "His reel got a hundred thousand likes!", "focus": "ਮਿਲੇ", "wrong": ["ਮਿਲਿਆ|miliā", "ਮਿਲੀ|milī"] },
+        { "native": "ਪੋਸਟ ਚੰਗੀ ਲੱਗੀ ਤਾਂ ਸ਼ੇਅਰ ਕਰ ਦੇਈਂ।", "roman": "posṭ changī laggī tāṃ shear kar deīṃ.", "en": "If you like the post, share it.", "focus": "ਲੱਗੀ", "wrong": ["ਲੱਗਾ|laggā", "ਲੱਗੇ|lagge"] },
+        { "native": "ਸਾਰਾ ਦਿਨ ਰੀਲਾਂ ਨਾ ਵੇਖਿਆ ਕਰ!", "roman": "sārā din rīlāṃ nā vekhiā kar!", "en": "Stop watching reels all day!" },
+        { "native": "ਇਹ ਰੀਲ ਵੇਖ ਕੇ ਮੈਨੂੰ ਬਹੁਤ ਹਾਸਾ ਆਇਆ।", "roman": "é rīl vekh ke mainūṃ báut hāsā āiā.", "en": "That reel made me laugh so much." }
+      ]
+    }
+  ]
+}

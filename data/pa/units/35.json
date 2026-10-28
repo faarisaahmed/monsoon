@@ -1,0 +1,209 @@
+{
+  "id": 35,
+  "title": "Home & neighbourhood",
+  "goal": "Rent a flat, pay the bills, get the landlord to fix what's broken and sort things out with the neighbours — politely, then firmly.",
+  "intro": "Sooner or later you'll live somewhere: a floor of a family house in Ludhiana, a flat in Mohali, a room in a PG. This unit gives you the language of renting (ਕਿਰਾਇਆ, ਐਡਵਾਂਸ, ਐਗਰੀਮੈਂਟ), of things that go wrong (the tap leaks, the geyser dies, the power goes) and of living next to other people (noise, rubbish, parking).\n\nThe grammar is about **getting results**: asking politely and then insisting without being rude, and the **causative** — you don't fix the geyser yourself, you **get it fixed** (ਠੀਕ ਕਰਵਾਉਣਾ).",
+  "vocab": [
+    { "native": "ਮਕਾਨ", "roman": "makān", "en": "house (the building); rented place", "pos": "noun", "note": "m; ਮਕਾਨ ਮਾਲਕ 'landlord' (Pakistan: ਮਾਲਕ ਮਕਾਨ)" },
+    { "native": "ਫ਼ਲੈਟ", "roman": "flaiṭ", "en": "flat, apartment", "pos": "noun", "note": "m" },
+    { "native": "ਮਾਲਕ", "roman": "mālak", "en": "owner; landlord", "pos": "noun", "note": "m; a landlady is usually just ਆਂਟੀ ਜੀ" },
+    { "native": "ਖ਼ਾਲੀ", "roman": "xālī", "en": "empty, vacant, free", "pos": "adj", "note": "invariable; ਖ਼ਾਲੀ ਕਰਨਾ 'to vacate'" },
+    { "native": "ਮੰਜ਼ਿਲ", "roman": "manzil", "en": "floor, storey", "pos": "noun", "note": "f; ਪਹਿਲੀ ਮੰਜ਼ਿਲ 'first floor'; also ਫ਼ਲੋਰ" },
+    { "native": "ਐਡਵਾਂਸ", "roman": "aiḍvāns", "en": "deposit, rent in advance", "pos": "noun", "note": "m; also ਸਕਿਓਰਿਟੀ" },
+    { "native": "ਐਗਰੀਮੈਂਟ", "roman": "aigrīmainṭ", "en": "rent agreement, contract", "pos": "noun", "note": "m" },
+    { "native": "ਬਿਜਲੀ", "roman": "bijlī", "en": "electricity, power", "pos": "noun", "note": "f; in speech the power is often ਬੱਤੀ or ਲਾਈਟ" },
+    { "native": "ਬਿੱਲ", "roman": "bill", "en": "bill", "pos": "noun", "note": "m" },
+    { "native": "ਵੱਖਰਾ", "roman": "vakkhrā", "en": "separate, extra (not included)", "pos": "adj", "note": "ਵੱਖਰੀ, ਵੱਖਰੇ" },
+    { "native": "ਕਿਰਾਏਦਾਰ", "roman": "kirāedār", "en": "tenant", "pos": "noun", "note": "m" },
+    { "native": "ਟੂਟੀ", "roman": "ṭūṭī", "en": "tap", "pos": "noun", "note": "f" },
+    { "native": "ਲੀਕ", "roman": "līk", "en": "leak; leaking", "pos": "noun", "note": "ਲੀਕ ਕਰਨਾ 'to leak' (tap), ਲੀਕ ਹੋਣਾ 'to be leaking' (water)" },
+    { "native": "ਗੀਜ਼ਰ", "roman": "gīzar", "en": "water heater, geyser", "pos": "noun", "note": "m" },
+    { "native": "ਕੰਧ", "roman": "kánd", "en": "wall", "pos": "noun", "note": "f · pl ਕੰਧਾਂ" },
+    { "native": "ਪਲੰਬਰ", "roman": "palambar", "en": "plumber", "pos": "noun", "note": "m" },
+    { "native": "ਬਿਜਲੀ ਵਾਲਾ", "roman": "bijlī vālā", "en": "electrician", "pos": "noun", "note": "m; colloquial — formal ਇਲੈਕਟ੍ਰੀਸ਼ਨ" },
+    { "native": "ਬਦਲਵਾਉਣਾ", "roman": "badalvāuṇā", "en": "to get (something) replaced or changed", "pos": "verb", "note": "causative of ਬਦਲਣਾ" },
+    { "native": "ਪੇਂਟ", "roman": "penṭ", "en": "paint", "pos": "noun", "note": "m; ਪੇਂਟ ਕਰਵਾਉਣਾ 'to get (a place) painted'" },
+    { "native": "ਲਗਵਾਉਣਾ", "roman": "lagvāuṇā", "en": "to get (something) installed or put up", "pos": "verb", "note": "causative of ਲਾਉਣਾ" },
+    { "native": "ਗੁਆਂਢੀ", "roman": "guā́ṇḍī", "en": "neighbour", "pos": "noun", "note": "m · f ਗੁਆਂਢਣ (guā́ṇḍaṇ)" },
+    { "native": "ਰੌਲਾ", "roman": "raulā", "en": "noise, racket; fuss", "pos": "noun", "note": "m; ਰੌਲਾ ਪਾਉਣਾ 'to make a racket'" },
+    { "native": "ਆਵਾਜ਼", "roman": "āvāz", "en": "sound, voice; volume", "pos": "noun", "note": "f" },
+    { "native": "ਤੰਗ ਕਰਨਾ", "roman": "tang karnā", "en": "to bother, to pester", "pos": "verb", "note": "ਤੰਗ ਨਾ ਕਰ! 'stop bugging me!'" },
+    { "native": "ਕੂੜਾ", "roman": "kūṛā", "en": "rubbish, garbage", "pos": "noun", "note": "m; ਕੂੜੇ ਵਾਲਾ 'the rubbish collector'" },
+    { "native": "ਮੁਹੱਲਾ", "roman": "muhàllā", "en": "neighbourhood, locality", "pos": "noun", "note": "m; in new cities people say ਕਲੋਨੀ or ਸੈਕਟਰ" },
+    { "native": "ਪੌੜੀਆਂ", "roman": "pauṛīāṃ", "en": "stairs", "pos": "noun", "note": "f pl; sg ਪੌੜੀ 'ladder, step'" },
+    { "native": "ਚੀਜ਼", "roman": "chīz", "en": "thing", "pos": "noun", "note": "f · pl ਚੀਜ਼ਾਂ; ਕੋਈ ਚੀਜ਼ 'anything' (oblique ਕਿਸੇ ਚੀਜ਼)" },
+    { "native": "ਲੋੜ", "roman": "loṛ", "en": "need", "pos": "noun", "note": "f; ਮੈਨੂੰ … ਦੀ ਲੋੜ ਹੈ 'I need …'" },
+    { "native": "ਸ਼ਿਫ਼ਟ ਕਰਨਾ", "roman": "shifṭ karnā", "en": "to move (house)", "pos": "verb", "note": "the everyday word; ਘਰ ਬਦਲਣਾ also works" }
+  ],
+  "phrases": [
+    { "native": "ਕੀ ਇਹ ਫ਼ਲੈਟ ਕਿਰਾਏ 'ਤੇ ਖ਼ਾਲੀ ਹੈ?", "roman": "kī é flaiṭ kirāe te xālī hai?", "en": "Is this flat available to rent?" },
+    { "native": "ਐਡਵਾਂਸ ਕਿੰਨਾ ਦੇਣਾ ਪਵੇਗਾ?", "roman": "aiḍvāns kinnā deṇā pavegā?", "en": "How much deposit will I have to pay?" },
+    { "native": "ਕਿਰਾਇਆ ਕਿੰਨਾ ਹੈ? ਬਿਜਲੀ ਵੱਖਰੀ?", "roman": "kirāiā kinnā hai? bijlī vakkhrī?", "en": "How much is the rent? Is electricity extra?" },
+    { "native": "ਬੱਤੀ ਚਲੀ ਗਈ।", "roman": "battī chalī gaī.", "en": "The power's gone. (power cut)", "note": "also ਲਾਈਟ ਚਲੀ ਗਈ; when it's back: ਬੱਤੀ ਆ ਗਈ" },
+    { "native": "ਮਕਾਨ ਮਾਲਕ ਫ਼ੋਨ ਹੀ ਨਹੀਂ ਚੁੱਕਦਾ।", "roman": "makān mālak fon hī nahī̀ṃ chukkdā.", "en": "The landlord doesn't even pick up the phone." },
+    { "native": "ਟੂਟੀ ਲੀਕ ਕਰ ਰਹੀ ਹੈ।", "roman": "ṭūṭī līk kar rahī̀ hai.", "en": "The tap is leaking." },
+    { "native": "ਕਿਸੇ ਨੂੰ ਭੇਜ ਕੇ ਠੀਕ ਕਰਵਾ ਦਿਓ।", "roman": "kise nūṃ pèj ke ṭhīk karvā dio.", "en": "Please send someone to fix it. (lit. send someone and get it fixed)" },
+    { "native": "ਮੈਂ ਗੀਜ਼ਰ ਠੀਕ ਕਰਵਾਉਣਾ ਹੈ।", "roman": "maiṃ gīzar ṭhīk karvāuṇā hai.", "en": "I need to get the geyser fixed." },
+    { "native": "ਮਾਫ਼ ਕਰਨਾ, ਤੁਹਾਨੂੰ ਤੰਗ ਕਰ ਰਿਹਾ ਹਾਂ, ਪਰ…", "roman": "māf karnā, tuhā̀nūṃ tang kar rihā̀ hāṃ, par…", "en": "Sorry to bother you, but… (man speaking)", "note": "a woman says ਤੰਗ ਕਰ ਰਹੀ ਹਾਂ" },
+    { "native": "ਆਵਾਜ਼ ਥੋੜ੍ਹੀ ਹੌਲੀ ਕਰ ਲਓ, ਬੱਚੇ ਸੌਂ ਰਹੇ ਹਨ।", "roman": "āvāz thóṛī haulī kar lao, bachche sauṃ rahè han.", "en": "Could you turn it down a bit, the kids are sleeping." },
+    { "native": "ਕੂੜੇ ਵਾਲਾ ਕਿੰਨੇ ਵਜੇ ਆਉਂਦਾ ਹੈ?", "roman": "kūṛe vālā kinne vaje āundā hai?", "en": "What time does the rubbish collector come?" },
+    { "native": "ਤੁਸੀਂ ਨਵੇਂ ਆਏ ਹੋ?", "roman": "tusīṃ naveṃ āe ho?", "en": "Have you just moved in? (lit. have you newly come?)" },
+    { "native": "ਕਿਸੇ ਚੀਜ਼ ਦੀ ਲੋੜ ਹੋਵੇ ਤਾਂ ਦੱਸਿਓ।", "roman": "kise chīz dī loṛ hove tāṃ dassio.", "en": "If you need anything, let me know." },
+    { "native": "ਅਸੀਂ ਅਗਲੇ ਮਹੀਨੇ ਸ਼ਿਫ਼ਟ ਕਰ ਰਹੇ ਹਾਂ।", "roman": "asīṃ agle mahī̀ne shifṭ kar rahè hāṃ.", "en": "We're moving next month." }
+  ],
+  "grammar": [
+    {
+      "title": "Requests and complaints that get results",
+      "body": "Dealing with a landlord, a repairman or a neighbour is a mix of **politeness** and **persistence**. Punjabi does both with pieces you already know.\n\n**1. Soften the request.** A bare ਤੁਸੀਂ-command is grammatically polite but can sound like an order: ਠੀਕ ਕਰੋ. Make it a favour with a compound verb, and add ਜ਼ਰਾ and ਜੀ:\nਠੀਕ ਕਰੋ → ਠੀਕ ਕਰ ਦਿਓ → ਜ਼ਰਾ ਠੀਕ ਕਰ ਦਿਓ ਜੀ\nUse **ਦੇਣਾ** when the action is done for you (ਪਲੰਬਰ ਭੇਜ ਦਿਓ 'send the plumber'), and **ਲੈਣਾ** when you ask people to do something to their own things or for their own side (ਆਵਾਜ਼ ਹੌਲੀ ਕਰ ਲਓ 'turn your music down', ਗੱਡੀ ਪਿੱਛੇ ਕਰ ਲਓ 'move your car back').\n\n**2. Ask instead of telling.** The future as a question — ਭੇਜ ਦਿਓਗੇ? 'would you send…?' — or ਭੇਜ ਸਕਦੇ ਹੋ? 'could you send…?'.\n\n**3. Open with an apology.** ਮਾਫ਼ ਕਰਨਾ, ਤੰਗ ਕਰ ਰਿਹਾ ਹਾਂ, ਪਰ… 'sorry to bother you, but…'; ਬੁਰਾ ਨਾ ਮੰਨਿਓ, ਪਰ… 'don't take it badly, but…'.\n\n**4. Say how long it's been going on with ਤੋਂ.** Time + ਤੋਂ + the **present** tense: ਤਿੰਨ ਦਿਨਾਂ ਤੋਂ ਗੀਜ਼ਰ ਖ਼ਰਾਬ **ਹੈ** 'the geyser has been broken for three days'; ਸਵੇਰ ਤੋਂ ਪਾਣੀ ਨਹੀਂ ਆ **ਰਿਹਾ** 'there's been no water since morning'. English says 'has been', Punjabi says 'is'. Plural time words take the oblique: ਦਿਨਾਂ, ਹਫ਼ਤਿਆਂ, ਮਹੀਨਿਆਂ.\n\n**5. Insist, still politely.** ਮੈਂ ਕਈ ਵਾਰ ਕਿਹਾ ਹੈ 'I've said so several times'; ਅਜੇ ਤੱਕ ਕੋਈ ਨਹੀਂ ਆਇਆ 'nobody has come yet'; ਅੱਜ **ਹੀ** ਕਰਵਾ ਦਿਓ 'get it done today itself'.\n\n**Register**: an older landlord or neighbour gets ਤੁਸੀਂ, ਜੀ and ਅੰਕਲ ਜੀ / ਆਂਟੀ ਜੀ. A same-age friend next door gets ਯਾਰ and ਤੂੰ-commands: ਯਾਰ, ਆਵਾਜ਼ ਹੌਲੀ ਕਰ ਲੈ. Expect elders to answer you with ਤੂੰ and ਪੁੱਤਰ — that's affection, not rudeness.",
+      "examples": [
+        { "native": "ਜ਼ਰਾ ਪਲੰਬਰ ਨੂੰ ਭੇਜ ਦਿਓ ਜੀ।", "roman": "zarā palambar nūṃ pèj dio jī.", "en": "Could you just send the plumber, please." },
+        { "native": "ਤਿੰਨ ਦਿਨਾਂ ਤੋਂ ਗੀਜ਼ਰ ਖ਼ਰਾਬ ਹੈ।", "roman": "tinn dināṃ toṃ gīzar xarāb hai.", "en": "The geyser has been broken for three days." },
+        { "native": "ਮੈਂ ਕਈ ਵਾਰ ਕਿਹਾ ਹੈ, ਅਜੇ ਤੱਕ ਕੋਈ ਨਹੀਂ ਆਇਆ।", "roman": "maiṃ kaī vār kihā̀ hai, aje takk koī nahī̀ṃ āiā.", "en": "I've told you several times, and nobody has come yet." },
+        { "native": "ਬੁਰਾ ਨਾ ਮੰਨਿਓ, ਪਰ ਰਾਤ ਨੂੰ ਬਹੁਤ ਰੌਲਾ ਹੁੰਦਾ ਹੈ।", "roman": "burā nā mannio, par rāt nūṃ báut raulā hundā hai.", "en": "Don't take it badly, but there's a lot of noise at night." },
+        { "native": "ਯਾਰ, ਆਵਾਜ਼ ਹੌਲੀ ਕਰ ਲੈ!", "roman": "yār, āvāz haulī kar lai!", "en": "Mate, turn it down! (informal)" },
+        { "native": "ਕੀ ਤੁਸੀਂ ਅੱਜ ਹੀ ਕਰਵਾ ਸਕਦੇ ਹੋ?", "roman": "kī tusīṃ ajj hī karvā sakde ho?", "en": "Could you get it done today?" }
+      ]
+    },
+    {
+      "title": "Causatives revisited: getting things done",
+      "body": "At home you rarely fix things yourself: you **get them fixed**. That is the causative, which you met with errands in unit 25.\n\n**Forming it.** Add **-ਵਾ-** to the verb stem (some stems change a little):\nਕਰਨਾ → **ਕਰਵਾਉਣਾ** 'get done' · ਬਦਲਣਾ → **ਬਦਲਵਾਉਣਾ** 'get replaced' · ਬਣਾਉਣਾ → **ਬਣਵਾਉਣਾ** 'get made, get built' · ਲਾਉਣਾ → **ਲਗਵਾਉਣਾ** 'get installed, get put up'.\nWith an adjective or an English word, simply use ਕਰਵਾਉਣਾ: ਠੀਕ ਕਰਵਾਉਣਾ 'get fixed', ਸਾਫ਼ ਕਰਵਾਉਣਾ 'get cleaned', ਪੇਂਟ ਕਰਵਾਉਣਾ 'get painted'.\n\n**The person who does the work** takes **ਤੋਂ**: ਮੈਂ ਪਲੰਬਰ **ਤੋਂ** ਟੂਟੀ ਬਦਲਵਾਈ 'I got the plumber to replace the tap'. (Not ਨੂੰ, and not ਨੇ — ਨੇ belongs to the person who arranges it.)\n\n**'I need to get … done'**: infinitive + ਹੈ, or + ਪੈਣਾ for 'will have to'. As always, the infinitive agrees with a feminine or plural object:\nਗੀਜ਼ਰ ਠੀਕ ਕਰਵਾਉਣਾ ਹੈ (m) · ਟੂਟੀ ਬਦਲਵਾਉਣੀ ਹੈ (f) · ਕੰਧਾਂ ਪੇਂਟ ਕਰਵਾਉਣੀਆਂ ਪੈਣਗੀਆਂ (f pl).\n\n**Past**: causatives are transitive, so the ਨੇ rule applies — ਨੇ after a 3rd-person doer, none after ਮੈਂ/ਅਸੀਂ/ਤੁਸੀਂ — and the verb agrees with the **object**: ਮਾਲਕ ਨੇ ਨਵਾਂ ਗੀਜ਼ਰ ਲਗਵਾ**ਇਆ** (m), ਅਸੀਂ ਨਵੀਂ ਅਲਮਾਰੀ ਬਣਵਾ**ਈ** (f).\n\n**Asking**: causative + ਦਿਓ — ਠੀਕ ਕਰਵਾ ਦਿਓ — is exactly what you say to a landlord: you're not asking him to pick up a spanner, you're asking him to arrange it.\n\nThe trap: ਠੀਕ ਕਰ ਦਿਓ to a landlord sounds as if you expect *him* to do the repair. ਠੀਕ ਕਰਵਾ ਦਿਓ is the natural request.",
+      "examples": [
+        { "native": "ਸਾਨੂੰ ਨਵੀਂ ਟੂਟੀ ਲਗਵਾਉਣੀ ਪਵੇਗੀ।", "roman": "sānūṃ navīṃ ṭūṭī lagvāuṇī pavegī.", "en": "We'll have to get a new tap put in." },
+        { "native": "ਮੈਂ ਪਲੰਬਰ ਤੋਂ ਟੂਟੀ ਬਦਲਵਾਈ।", "roman": "maiṃ palambar toṃ ṭūṭī badalvāī.", "en": "I got the plumber to replace the tap." },
+        { "native": "ਮਾਲਕ ਨੇ ਸਾਰਾ ਫ਼ਲੈਟ ਪੇਂਟ ਕਰਵਾਇਆ।", "roman": "mālak ne sārā flaiṭ penṭ karvāiā.", "en": "The landlord had the whole flat painted." },
+        { "native": "ਕੱਲ੍ਹ ਤੱਕ ਬਿਜਲੀ ਠੀਕ ਕਰਵਾ ਦਿਓ ਜੀ।", "roman": "káll takk bijlī ṭhīk karvā dio jī.", "en": "Please get the electrics fixed by tomorrow." },
+        { "native": "ਅਸੀਂ ਰਸੋਈ ਵਿੱਚ ਨਵੀਂ ਅਲਮਾਰੀ ਬਣਵਾਈ।", "roman": "asīṃ rasoī vich navīṃ almārī baṇvāī.", "en": "We had a new cupboard built in the kitchen." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The geyser, again",
+    "setting": "Ludhiana, January. Simran rents the first floor of Gill uncle's house; she goes downstairs, where he is watching the news.",
+    "lines": [
+      { "speaker": "Simran", "native": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਅੰਕਲ ਜੀ! ਮਾਫ਼ ਕਰਨਾ, ਤੰਗ ਕਰ ਰਹੀ ਹਾਂ…", "roman": "sat srī akāl aṅkal jī! māf karnā, tang kar rahī̀ hāṃ…", "en": "Hello uncle! Sorry to bother you…" },
+      { "speaker": "Gill uncle", "native": "ਆ ਜਾ ਪੁੱਤਰ, ਕੋਈ ਗੱਲ ਨਹੀਂ। ਦੱਸ, ਕੀ ਹੋਇਆ?", "roman": "ā jā puttar, koī gall nahī̀ṃ. dass, kī hoiā?", "en": "Come in, dear, no problem. Tell me, what's happened?" },
+      { "speaker": "Simran", "native": "ਗੀਜ਼ਰ ਫਿਰ ਖ਼ਰਾਬ ਹੋ ਗਿਆ। ਤਿੰਨ ਦਿਨਾਂ ਤੋਂ ਠੰਢੇ ਪਾਣੀ ਨਾਲ਼ ਨ੍ਹਾ ਰਹੀ ਹਾਂ!", "roman": "gīzar phir xarāb ho giā. tinn dināṃ toṃ ṭháṇḍe pāṇī nāḷ nā̀ rahī̀ hāṃ!", "en": "The geyser's broken again. I've been showering in cold water for three days!" },
+      { "speaker": "Gill uncle", "native": "ਹਾਏ! ਜਨਵਰੀ ਵਿੱਚ? ਤੂੰ ਪਹਿਲਾਂ ਕਿਉਂ ਨਹੀਂ ਦੱਸਿਆ?", "roman": "hāe! janvarī vich? tūṃ páilāṃ kiuṃ nahī̀ṃ dassiā?", "en": "Oh no! In January? Why didn't you tell me before?" },
+      { "speaker": "Simran", "native": "ਅੰਕਲ ਜੀ, ਮੈਂ ਸੋਮਵਾਰ ਨੂੰ ਫ਼ੋਨ ਕੀਤਾ ਸੀ… ਦੋ ਵਾਰ।", "roman": "aṅkal jī, maiṃ somvār nūṃ fon kītā sī… do vār.", "en": "Uncle, I phoned you on Monday… twice." },
+      { "speaker": "Gill uncle", "native": "ਅੱਛਾ ਅੱਛਾ… ਮੇਰਾ ਫ਼ੋਨ ਤਾਂ ਹਮੇਸ਼ਾ ਸਾਈਲੈਂਟ 'ਤੇ ਹੁੰਦਾ ਹੈ।", "roman": "achchhā achchhā… merā fon tāṃ hameshā sāīlainṭ te hundā hai.", "en": "Ah, right… my phone's always on silent." },
+      { "speaker": "Gill uncle", "native": "ਮੈਂ ਅੱਜ ਹੀ ਪਲੰਬਰ ਨੂੰ ਬੁਲਾ ਕੇ ਠੀਕ ਕਰਵਾ ਦਿਆਂਗਾ।", "roman": "maiṃ ajj hī palambar nūṃ bulā ke ṭhīk karvā diāṅgā.", "en": "I'll call the plumber and get it fixed today itself." },
+      { "speaker": "Simran", "native": "ਤੇ ਅੰਕਲ ਜੀ, ਬਾਥਰੂਮ ਦੀ ਟੂਟੀ ਵੀ ਲੀਕ ਕਰ ਰਹੀ ਹੈ।", "roman": "te aṅkal jī, bāthrūm dī ṭūṭī vī līk kar rahī̀ hai.", "en": "And uncle, the bathroom tap is leaking too." },
+      { "speaker": "Gill uncle", "native": "ਚੱਲ, ਉਹ ਵੀ ਬਦਲਵਾ ਦਿਆਂਗੇ। ਹੋਰ ਕੁਝ?", "roman": "chall, ó vī badalvā diāṅge. hor kúj?", "en": "All right, we'll get that replaced too. Anything else?" },
+      { "speaker": "Simran", "native": "ਬੱਸ ਇੱਕ ਗੱਲ… ਉੱਪਰ ਵਾਲੇ ਗੁਆਂਢੀ ਰਾਤ ਨੂੰ ਬਹੁਤ ਰੌਲਾ ਪਾਉਂਦੇ ਹਨ।", "roman": "bass ikk gall… uppar vāle guā́ṇḍī rāt nūṃ báut raulā pāunde han.", "en": "Just one thing… the neighbours upstairs make a real racket at night." },
+      { "speaker": "Gill uncle", "native": "ਉਹ ਤਾਂ ਮੇਰਾ ਭਤੀਜਾ ਹੈ! ਮੈਂ ਉਹਨੂੰ ਸਮਝਾ ਦਿਆਂਗਾ।", "roman": "ó tāṃ merā patī̀jā hai! maiṃ ónūṃ samjā̀ diāṅgā.", "en": "That's my nephew! I'll have a word with him." },
+      { "speaker": "Simran", "native": "ਬਹੁਤ ਮਿਹਰਬਾਨੀ ਅੰਕਲ ਜੀ!", "roman": "báut mérbānī aṅkal jī!", "en": "Thank you so much, uncle!" },
+      { "speaker": "Gill uncle", "native": "ਕੋਈ ਨਾ। ਤੇ ਹਾਂ, ਬਿਜਲੀ ਦਾ ਬਿੱਲ ਆ ਗਿਆ ਹੈ — ਪੰਜ ਤਰੀਕ ਤੱਕ ਭਰ ਦੇਈਂ।", "roman": "koī nā. te hāṃ, bijlī dā bill ā giā hai — panj tarīk takk pàr deīṃ.", "en": "No worries. Oh, and the electricity bill has come — pay it by the fifth, OK?" }
+    ]
+  },
+  "culture": "In Punjab's cities many tenants rent **a floor of a family house** (ਉੱਪਰਲੀ ਮੰਜ਼ਿਲ), with the owners living downstairs, so your landlord is also your neighbour: address him as **ਅੰਕਲ ਜੀ** and her as **ਆਂਟੀ ਜੀ**, never by name. Students and young workers in Mohali, Chandigarh and Ludhiana often live in a **PG** (paying guest, ਪੀ.ਜੀ.) with meals included. Expect one or two months' **ਐਡਵਾਂਸ**, an eleven-month **ਐਗਰੀਮੈਂਟ**, and in India a police verification form for tenants.\n\nPower cuts (ਬੱਤੀ ਚਲੀ ਗਈ) are a fact of summer life, which is why every house has an **inverter**; water is pumped up to a tank on the roof (ਟੈਂਕੀ), and 'there's no water' often just means someone forgot to switch the motor on.\n\nNeighbours are close. New arrivals are asked ਤੁਸੀਂ ਨਵੇਂ ਆਏ ਹੋ? and then where you're from, what you do and whether you're married — that's friendliness, not nosiness. A plate of food sent over is never returned empty. Complaints are made **indirectly** first — through the landlord, a joke, or ਬੁਰਾ ਨਾ ਮੰਨਿਓ — and a raised voice is the last resort. In Pakistani Punjab you'll hear the Urdu order ਮਾਲਕ ਮਕਾਨ for 'landlord'.",
+  "lessons": [
+    {
+      "title": "Looking for a flat",
+      "tip": { "title": "Renting: ਕਿਰਾਏ 'ਤੇ, ਦੇਣਾ ਪਵੇਗਾ", "body": "- 'For rent' = **ਕਿਰਾਏ 'ਤੇ**: ਕਿਰਾਇਆ becomes **ਕਿਰਾਏ** before a postposition. ਕਿਰਾਏ 'ਤੇ ਲੈਣਾ 'to rent'.\n- 'Will I have to…?' = infinitive + **ਪਵੇਗਾ**: ਕਿੰਨਾ ਦੇਣਾ ਪਵੇਗਾ?\n- **ਮੰਜ਼ਿਲ** 'floor' is feminine: ਪਹਿਲੀ, ਦੂਜੀ ਮੰਜ਼ਿਲ.", "pattern": "ਕਿਰਾਏ 'ਤੇ  ·  infinitive + ਪਵੇਗਾ" },
+      "new": ["ਮਕਾਨ", "ਫ਼ਲੈਟ", "ਮਾਲਕ", "ਖ਼ਾਲੀ", "ਮੰਜ਼ਿਲ", "ਐਡਵਾਂਸ", "ਐਗਰੀਮੈਂਟ", "ਕੀ ਇਹ ਫ਼ਲੈਟ ਕਿਰਾਏ 'ਤੇ ਖ਼ਾਲੀ ਹੈ?", "ਐਡਵਾਂਸ ਕਿੰਨਾ ਦੇਣਾ ਪਵੇਗਾ?"],
+      "sentences": [
+        { "native": "ਅਸੀਂ ਲੁਧਿਆਣੇ ਵਿੱਚ ਫ਼ਲੈਟ ਲੱਭ ਰਹੇ ਹਾਂ।", "roman": "asīṃ Ludiā̀ṇe vich flaiṭ lább rahè hāṃ.", "en": "We're looking for a flat in Ludhiana." },
+        { "native": "ਇਹ ਮਕਾਨ ਕਿਰਾਏ 'ਤੇ ਖ਼ਾਲੀ ਹੈ?", "roman": "é makān kirāe te xālī hai?", "en": "Is this house available to rent?", "focus": "ਕਿਰਾਏ", "wrong": ["ਕਿਰਾਇਆ|kirāiā"] },
+        { "native": "ਦੂਜੀ ਮੰਜ਼ਿਲ 'ਤੇ ਇੱਕ ਫ਼ਲੈਟ ਖ਼ਾਲੀ ਹੈ।", "roman": "dūjī manzil te ikk flaiṭ xālī hai.", "en": "There's a flat free on the second floor.", "focus": "ਦੂਜੀ", "wrong": ["ਦੂਜਾ|dūjā", "ਦੂਜੇ|dūje"] },
+        { "native": "ਐਡਵਾਂਸ ਦੋ ਮਹੀਨੇ ਦਾ ਦੇਣਾ ਪਵੇਗਾ।", "roman": "aiḍvāns do mahī̀ne dā deṇā pavegā.", "en": "You'll have to pay two months' deposit.", "focus": "ਪਵੇਗਾ", "wrong": ["ਪਵੇਗੀ|pavegī", "ਪੈਣਗੇ|paiṇge"] },
+        { "native": "ਕੀ ਐਗਰੀਮੈਂਟ ਵੀ ਬਣਾਉਣਾ ਪਵੇਗਾ?", "roman": "kī aigrīmainṭ vī baṇāuṇā pavegā?", "en": "Will we have to make a rent agreement too?", "focus": "ਬਣਾਉਣਾ", "wrong": ["ਬਣਾਉਣੀ|baṇāuṇī", "ਬਣਾਉਣੇ|baṇāuṇe"] },
+        { "native": "ਮਾਲਕ ਥੱਲੇ ਰਹਿੰਦੇ ਹਨ, ਅਸੀਂ ਪਹਿਲੀ ਮੰਜ਼ਿਲ 'ਤੇ ਹਾਂ।", "roman": "mālak thalle ráinde han, asīṃ páilī manzil te hāṃ.", "en": "The landlord lives downstairs, we're on the first floor.", "focus": "ਪਹਿਲੀ", "wrong": ["ਪਹਿਲਾ|páilā", "ਪਹਿਲੇ|páile"] },
+        { "native": "ਮੈਂ ਇਹ ਫ਼ਲੈਟ ਕਿਰਾਏ 'ਤੇ ਲੈਣਾ ਚਾਹੁੰਦੀ ਹਾਂ।", "roman": "maiṃ é flaiṭ kirāe te laiṇā chā́undī hāṃ.", "en": "I'd like to rent this flat. (woman speaking)", "focus": "ਕਿਰਾਏ", "wrong": ["ਕਿਰਾਇਆ|kirāiā"] },
+        { "native": "ਫ਼ਲੈਟ ਤਾਂ ਸੋਹਣਾ ਹੈ, ਪਰ ਕਿਰਾਇਆ ਬਹੁਤ ਜ਼ਿਆਦਾ ਹੈ।", "roman": "flaiṭ tāṃ sóṇā hai, par kirāiā báut ziādā hai.", "en": "The flat's nice, but the rent is far too high.", "focus": "ਕਿਰਾਇਆ", "wrong": ["ਕਿਰਾਏ|kirāe"] },
+        { "native": "ਮਾਲਕ ਨੇ ਕਿਹਾ ਕਿ ਮਕਾਨ ਅਗਲੇ ਮਹੀਨੇ ਖ਼ਾਲੀ ਹੋਵੇਗਾ।", "roman": "mālak ne kihā̀ ki makān agle mahī̀ne xālī hovegā.", "en": "The landlord said the house will be free next month." },
+        { "native": "ਐਗਰੀਮੈਂਟ ਇੱਕ ਸਾਲ ਦਾ ਹੈ।", "roman": "aigrīmainṭ ikk sāl dā hai.", "en": "The agreement is for one year." }
+      ]
+    },
+    {
+      "title": "Rent and bills",
+      "tip": { "title": "Paying bills: ਬਿੱਲ ਭਰਨਾ", "body": "- You 'fill' a bill: **ਬਿੱਲ ਭਰਨਾ** 'to pay a bill' (rent is ਦੇਣਾ: ਕਿਰਾਇਆ ਦੇਣਾ).\n- Past, with the ਨੇ rule: ਮੈਂ ਬਿੱਲ **ਭਰਿਆ**, ਮੈਂ ਸਾਰੇ ਬਿੱਲ **ਭਰੇ**.\n- **ਵੱਖਰਾ** 'separate, extra' agrees: ਬਿੱਲ ਵੱਖਰਾ, ਬਿਜਲੀ **ਵੱਖਰੀ**.", "pattern": "ਬਿੱਲ + ਭਰਨਾ  ·  ਬਿਜਲੀ ਵੱਖਰੀ" },
+      "new": ["ਬਿਜਲੀ", "ਬਿੱਲ", "ਵੱਖਰਾ", "ਕਿਰਾਏਦਾਰ", "ਕਿਰਾਇਆ ਕਿੰਨਾ ਹੈ? ਬਿਜਲੀ ਵੱਖਰੀ?", "ਬੱਤੀ ਚਲੀ ਗਈ।", "ਮਕਾਨ ਮਾਲਕ ਫ਼ੋਨ ਹੀ ਨਹੀਂ ਚੁੱਕਦਾ।"],
+      "sentences": [
+        { "native": "ਬਿਜਲੀ ਦਾ ਬਿੱਲ ਕਦੋਂ ਭਰਨਾ ਹੈ?", "roman": "bijlī dā bill kadoṃ pàrnā hai?", "en": "When does the electricity bill have to be paid?", "focus": "ਭਰਨਾ", "wrong": ["ਭਰਨੀ|pàrnī", "ਭਰਿਆ|pàriā"] },
+        { "native": "ਮੈਂ ਕੱਲ੍ਹ ਸਾਰੇ ਬਿੱਲ ਭਰੇ।", "roman": "maiṃ káll sāre bill pàre.", "en": "I paid all the bills yesterday.", "focus": "ਭਰੇ", "wrong": ["ਭਰਿਆ|pàriā", "ਭਰੀ|pàrī"] },
+        { "native": "ਕਿਰਾਇਆ ਪੰਦਰਾਂ ਹਜ਼ਾਰ ਹੈ, ਬਿਜਲੀ ਵੱਖਰੀ।", "roman": "kirāiā pandrāṃ hazār hai, bijlī vakkhrī.", "en": "The rent is fifteen thousand, electricity extra.", "focus": "ਵੱਖਰੀ", "wrong": ["ਵੱਖਰਾ|vakkhrā", "ਵੱਖਰੇ|vakkhre"] },
+        { "native": "ਪਾਣੀ ਦਾ ਬਿੱਲ ਵੱਖਰਾ ਨਹੀਂ, ਕਿਰਾਏ ਵਿੱਚ ਹੈ।", "roman": "pāṇī dā bill vakkhrā nahī̀ṃ, kirāe vich hai.", "en": "The water bill isn't extra, it's included in the rent.", "focus": "ਵੱਖਰਾ", "wrong": ["ਵੱਖਰੀ|vakkhrī", "ਵੱਖਰੇ|vakkhre"] },
+        { "native": "ਕਿਰਾਏਦਾਰ ਨੇ ਅਜੇ ਬਿੱਲ ਨਹੀਂ ਭਰਿਆ।", "roman": "kirāedār ne aje bill nahī̀ṃ pàriā.", "en": "The tenant hasn't paid the bill yet.", "focus": "ਭਰਿਆ", "wrong": ["ਭਰੇ|pàre", "ਭਰੀ|pàrī"] },
+        { "native": "ਮਕਾਨ ਮਾਲਕ ਕਹਿੰਦਾ ਹੈ ਕਿ ਬਿੱਲ ਕਿਰਾਏਦਾਰ ਭਰੇਗਾ।", "roman": "makān mālak káindā hai ki bill kirāedār pàregā.", "en": "The landlord says the tenant will pay the bill.", "focus": "ਭਰੇਗਾ", "wrong": ["ਭਰੇਗੀ|pàregī", "ਭਰਨਗੇ|pàraṇge"] },
+        { "native": "ਅਸੀਂ ਦੋਵੇਂ ਅੱਧਾ ਅੱਧਾ ਬਿੱਲ ਭਰਾਂਗੇ।", "roman": "asīṃ doveṃ áddā áddā bill pàrāṅge.", "en": "The two of us will pay half the bill each.", "focus": "ਭਰਾਂਗੇ", "wrong": ["ਭਰਾਂਗਾ|pàrāṅgā", "ਭਰੋਗੇ|pàroge"] },
+        { "native": "ਯਾਰ, ਬੱਤੀ ਫਿਰ ਚਲੀ ਗਈ!", "roman": "yār, battī phir chalī gaī!", "en": "Oh man, the power's gone again!" },
+        { "native": "ਗਰਮੀਆਂ ਵਿੱਚ ਬਿਜਲੀ ਦਾ ਬਿੱਲ ਬਹੁਤ ਆਉਂਦਾ ਹੈ।", "roman": "garmīāṃ vich bijlī dā bill báut āundā hai.", "en": "In summer the electricity bill is huge." },
+        { "native": "ਮਾਲਕ ਫ਼ੋਨ ਨਹੀਂ ਚੁੱਕ ਰਹੇ, ਮੈਂ ਥੱਲੇ ਜਾ ਕੇ ਪੁੱਛਦੀ ਹਾਂ।", "roman": "mālak fon nahī̀ṃ chukk rahè, maiṃ thalle jā ke puchchhdī hāṃ.", "en": "The landlord isn't picking up, I'll go down and ask. (woman speaking)" }
+      ]
+    },
+    {
+      "title": "Something's broken",
+      "tip": { "title": "Ask nicely, then insist", "body": "- Soften with a compound verb + **ਜ਼ਰਾ** + **ਜੀ**: ਜ਼ਰਾ ਵੇਖ **ਦਿਓ** ਜੀ. A bare ਵੇਖੋ sounds like an order.\n- 'For two days' = **ਦੋ ਦਿਨਾਂ ਤੋਂ** + the **present**: ਦੋ ਦਿਨਾਂ ਤੋਂ ਗੀਜ਼ਰ ਖ਼ਰਾਬ **ਹੈ**.\n- 'Not yet' = **ਅਜੇ ਤੱਕ** … ਨਹੀਂ: ਅਜੇ ਤੱਕ ਕੋਈ ਨਹੀਂ ਆਇਆ.", "pattern": "ਜ਼ਰਾ + stem + ਦਿਓ ਜੀ  ·  time + ਤੋਂ + present", "grammar": 0 },
+      "new": ["ਟੂਟੀ", "ਲੀਕ", "ਗੀਜ਼ਰ", "ਕੰਧ", "ਪਲੰਬਰ", "ਬਿਜਲੀ ਵਾਲਾ", "ਟੂਟੀ ਲੀਕ ਕਰ ਰਹੀ ਹੈ।"],
+      "sentences": [
+        { "native": "ਜ਼ਰਾ ਟੂਟੀ ਵੇਖ ਦਿਓ ਜੀ, ਬਹੁਤ ਲੀਕ ਕਰਦੀ ਹੈ।", "roman": "zarā ṭūṭī vekh dio jī, báut līk kardī hai.", "en": "Could you just have a look at the tap, it leaks a lot.", "focus": "ਦਿਓ", "wrong": ["ਦਿੱਤਾ|dittā", "ਦਿਆਂਗਾ|diāṅgā"] },
+        { "native": "ਦੋ ਦਿਨਾਂ ਤੋਂ ਗੀਜ਼ਰ ਖ਼ਰਾਬ ਹੈ।", "roman": "do dināṃ toṃ gīzar xarāb hai.", "en": "The geyser has been broken for two days.", "focus": "ਤੋਂ", "wrong": ["ਨੂੰ|nūṃ", "ਵਿੱਚ|vich"] },
+        { "native": "ਇੱਕ ਹਫ਼ਤੇ ਤੋਂ ਕੰਧ ਗਿੱਲੀ ਹੈ।", "roman": "ikk hafte toṃ kánd gillī hai.", "en": "The wall has been damp for a week.", "focus": "ਤੋਂ", "wrong": ["ਨੂੰ|nūṃ", "ਤੱਕ|takk"] },
+        { "native": "ਪਲੰਬਰ ਨੂੰ ਜ਼ਰਾ ਅੱਜ ਹੀ ਭੇਜ ਦਿਓ ਜੀ।", "roman": "palambar nūṃ zarā ajj hī pèj dio jī.", "en": "Could you please send the plumber today itself.", "focus": "ਦਿਓ", "wrong": ["ਦਿੱਤਾ|dittā", "ਦੇਵੇ|deve"] },
+        { "native": "ਮੈਂ ਕਈ ਵਾਰ ਕਿਹਾ ਹੈ, ਪਰ ਅਜੇ ਤੱਕ ਪਲੰਬਰ ਨਹੀਂ ਆਇਆ।", "roman": "maiṃ kaī vār kihā̀ hai, par aje takk palambar nahī̀ṃ āiā.", "en": "I've said so several times, but the plumber still hasn't come.", "focus": "ਤੱਕ", "wrong": ["ਤੋਂ|toṃ", "ਨੂੰ|nūṃ"] },
+        { "native": "ਬਿਜਲੀ ਵਾਲੇ ਨੂੰ ਬੁਲਾ ਦਿਓਗੇ? ਪੱਖਾ ਨਹੀਂ ਚੱਲ ਰਿਹਾ।", "roman": "bijlī vāle nūṃ bulā dioge? pakkhā nahī̀ṃ chall rihā̀.", "en": "Would you call the electrician? The fan isn't working.", "focus": "ਦਿਓਗੇ", "wrong": ["ਦਿੱਤਾ|dittā", "ਦਿਆਂਗਾ|diāṅgā"] },
+        { "native": "ਸਵੇਰ ਤੋਂ ਪਾਣੀ ਨਹੀਂ ਆ ਰਿਹਾ।", "roman": "saver toṃ pāṇī nahī̀ṃ ā rihā̀.", "en": "There's been no water since this morning.", "focus": "ਤੋਂ", "wrong": ["ਤੱਕ|takk", "ਨੂੰ|nūṃ"] },
+        { "native": "ਗੀਜ਼ਰ ਚੱਲਦਾ ਹੈ, ਪਰ ਪਾਣੀ ਗਰਮ ਨਹੀਂ ਹੁੰਦਾ।", "roman": "gīzar challdā hai, par pāṇī garam nahī̀ṃ hundā.", "en": "The geyser comes on, but the water doesn't get hot." },
+        { "native": "ਪਲੰਬਰ ਕੱਲ੍ਹ ਸਵੇਰੇ ਦਸ ਵਜੇ ਆਵੇਗਾ।", "roman": "palambar káll savere das vaje āvegā.", "en": "The plumber will come at ten tomorrow morning." }
+      ]
+    },
+    {
+      "title": "Getting it fixed",
+      "tip": { "title": "Get it done: ਕਰਵਾਉਣਾ", "body": "- Add **-ਵਾ-** to say someone else does it for you: ਬਦਲਣਾ → **ਬਦਲਵਾਉਣਾ**, ਲਾਉਣਾ → **ਲਗਵਾਉਣਾ**; with ਠੀਕ, ਸਾਫ਼ use **ਕਰਵਾਉਣਾ**.\n- The worker takes **ਤੋਂ**: ਪਲੰਬਰ **ਤੋਂ** ਟੂਟੀ ਬਦਲਵਾਈ.\n- 'Need to get it done' = infinitive + ਹੈ, agreeing with a feminine object: ਟੂਟੀ ਬਦਲਵਾ**ਉਣੀ** ਹੈ.", "pattern": "worker + ਤੋਂ + thing + ਠੀਕ ਕਰਵਾਉਣਾ", "grammar": 1 },
+      "new": ["ਬਦਲਵਾਉਣਾ", "ਲਗਵਾਉਣਾ", "ਪੇਂਟ", "ਕਿਸੇ ਨੂੰ ਭੇਜ ਕੇ ਠੀਕ ਕਰਵਾ ਦਿਓ।", "ਮੈਂ ਗੀਜ਼ਰ ਠੀਕ ਕਰਵਾਉਣਾ ਹੈ।"],
+      "sentences": [
+        { "native": "ਮੈਂ ਰਸੋਈ ਦੀ ਟੂਟੀ ਬਦਲਵਾਉਣੀ ਹੈ।", "roman": "maiṃ rasoī dī ṭūṭī badalvāuṇī hai.", "en": "I need to get the kitchen tap replaced.", "focus": "ਬਦਲਵਾਉਣੀ", "wrong": ["ਬਦਲਵਾਉਣਾ|badalvāuṇā", "ਬਦਲਵਾਉਣੇ|badalvāuṇe"] },
+        { "native": "ਅਸੀਂ ਮਿਸਤਰੀ ਤੋਂ ਕੰਧ ਠੀਕ ਕਰਵਾਈ।", "roman": "asīṃ mistrī toṃ kánd ṭhīk karvāī.", "en": "We got the builder to fix the wall.", "focus": "ਤੋਂ", "wrong": ["ਨੇ|ne", "ਨੂੰ|nūṃ"] },
+        { "native": "ਮਾਲਕ ਨੇ ਨਵਾਂ ਗੀਜ਼ਰ ਲਗਵਾਇਆ।", "roman": "mālak ne navāṃ gīzar lagvāiā.", "en": "The landlord had a new geyser put in.", "focus": "ਲਗਵਾਇਆ", "wrong": ["ਲਗਵਾਈ|lagvāī", "ਲਗਵਾਏ|lagvāe"] },
+        { "native": "ਪੱਖਾ ਖ਼ਰਾਬ ਹੈ, ਠੀਕ ਕਰਵਾਉਣਾ ਪਵੇਗਾ।", "roman": "pakkhā xarāb hai, ṭhīk karvāuṇā pavegā.", "en": "The fan's not working, we'll have to get it fixed.", "focus": "ਕਰਵਾਉਣਾ", "wrong": ["ਕਰਵਾਉਣੀ|karvāuṇī", "ਕਰਵਾਇਆ|karvāiā"] },
+        { "native": "ਕੀ ਤੁਸੀਂ ਬਾਥਰੂਮ ਵਿੱਚ ਨਵੀਂ ਬੱਤੀ ਲਗਵਾ ਦਿਓਗੇ?", "roman": "kī tusīṃ bāthrūm vich navīṃ battī lagvā dioge?", "en": "Would you get a new light put in the bathroom?", "focus": "ਲਗਵਾ", "wrong": ["ਲਗਵਾਈ|lagvāī", "ਲਗਵਾਉਣਾ|lagvāuṇā"] },
+        { "native": "ਮਿਸਤਰੀ ਕਹਿੰਦਾ ਹੈ ਕਿ ਸਾਰੀ ਛੱਤ ਠੀਕ ਕਰਵਾਉਣੀ ਪਵੇਗੀ।", "roman": "mistrī káindā hai ki sārī chhatt ṭhīk karvāuṇī pavegī.", "en": "The builder says the whole roof will need to be fixed.", "focus": "ਕਰਵਾਉਣੀ", "wrong": ["ਕਰਵਾਉਣਾ|karvāuṇā", "ਕਰਵਾਉਣੇ|karvāuṇe"] },
+        { "native": "ਮੈਂ ਕੱਲ੍ਹ ਪਲੰਬਰ ਤੋਂ ਦੋਵੇਂ ਟੂਟੀਆਂ ਬਦਲਵਾਈਆਂ।", "roman": "maiṃ káll palambar toṃ doveṃ ṭūṭīāṃ badalvāīāṃ.", "en": "Yesterday I got the plumber to replace both taps.", "focus": "ਬਦਲਵਾਈਆਂ", "wrong": ["ਬਦਲਵਾਇਆ|badalvāiā", "ਬਦਲਵਾਈ|badalvāī"] },
+        { "native": "ਪਹਿਲਾਂ ਕੰਧਾਂ ਸਾਫ਼ ਕਰਵਾ ਦਿਓ, ਫਿਰ ਐਡਵਾਂਸ ਦਿਆਂਗੇ।", "roman": "páilāṃ kándāṃ sāf karvā dio, phir aiḍvāns diāṅge.", "en": "First get the walls cleaned, then we'll pay the deposit.", "focus": "ਕਰਵਾ", "wrong": ["ਕਰਵਾਈ|karvāī", "ਕਰਵਾਉਣਾ|karvāuṇā"] },
+        { "native": "ਮਾਲਕ ਨੇ ਸਾਰੇ ਕਮਰੇ ਪੇਂਟ ਕਰਵਾਏ।", "roman": "mālak ne sāre kamre penṭ karvāe.", "en": "The landlord had all the rooms painted.", "focus": "ਕਰਵਾਏ", "wrong": ["ਕਰਵਾਇਆ|karvāiā", "ਕਰਵਾਈ|karvāī"] },
+        { "native": "ਮਿਸਤਰੀ ਕਿੰਨੇ ਪੈਸੇ ਲਵੇਗਾ?", "roman": "mistrī kinne paise lavegā?", "en": "How much will the repairman charge?" }
+      ]
+    },
+    {
+      "title": "Neighbours and noise",
+      "tip": { "title": "Neighbours: ਲਓ or ਲੈ, and how to start", "body": "- To ask someone to change something of **their own** (their music, their car), use **ਲੈਣਾ**: ਆਵਾਜ਼ ਹੌਲੀ ਕਰ **ਲਓ**.\n- Older neighbours: ਤੁਸੀਂ + ਜੀ → **ਲਓ**. A same-age friend next door: ਯਾਰ + ਤੂੰ → **ਲੈ**.\n- Start with ਮਾਫ਼ ਕਰਨਾ or ਬੁਰਾ ਨਾ ਮੰਨਿਓ: complaints in Punjabi come wrapped in an apology." },
+      "new": [
+        "ਗੁਆਂਢੀ",
+        "ਰੌਲਾ",
+        "ਆਵਾਜ਼",
+        "ਤੰਗ ਕਰਨਾ",
+        "ਕੂੜਾ",
+        "ਮਾਫ਼ ਕਰਨਾ, ਤੁਹਾਨੂੰ ਤੰਗ ਕਰ ਰਿਹਾ ਹਾਂ, ਪਰ…",
+        "ਆਵਾਜ਼ ਥੋੜ੍ਹੀ ਹੌਲੀ ਕਰ ਲਓ, ਬੱਚੇ ਸੌਂ ਰਹੇ ਹਨ।",
+        "ਕੂੜੇ ਵਾਲਾ ਕਿੰਨੇ ਵਜੇ ਆਉਂਦਾ ਹੈ?"
+      ],
+      "sentences": [
+        { "native": "ਆਂਟੀ ਜੀ, ਟੀਵੀ ਦੀ ਆਵਾਜ਼ ਥੋੜ੍ਹੀ ਹੌਲੀ ਕਰ ਲਓ।", "roman": "āṇṭī jī, ṭīvī dī āvāz thóṛī haulī kar lao.", "en": "Aunty, could you turn the TV down a little.", "focus": "ਲਓ", "wrong": ["ਲੈ|lai", "ਲਿਆ|liā"] },
+        { "native": "ਯਾਰ, ਗਾਣੇ ਦੀ ਆਵਾਜ਼ ਹੌਲੀ ਕਰ ਲੈ, ਰਾਤ ਦੇ ਦੋ ਵੱਜ ਗਏ!", "roman": "yār, gāṇe dī āvāz haulī kar lai, rāt de do vajj gae!", "en": "Mate, turn the music down, it's two in the morning!", "focus": "ਲੈ", "wrong": ["ਲਿਆ|liā", "ਲਵੇਗਾ|lavegā"] },
+        { "native": "ਮਾਫ਼ ਕਰਨਾ, ਤੁਹਾਨੂੰ ਤੰਗ ਕਰ ਰਹੀ ਹਾਂ, ਪਰ ਤੁਹਾਡੀ ਗੱਡੀ ਸਾਡੇ ਦਰਵਾਜ਼ੇ ਅੱਗੇ ਹੈ।", "roman": "māf karnā, tuhā̀nūṃ tang kar rahī̀ hāṃ, par tuhā̀ḍī gaḍḍī sāḍe darvāze agge hai.", "en": "Sorry to bother you, but your car is in front of our gate. (woman speaking)", "focus": "ਰਹੀ", "wrong": ["ਰਿਹਾ|rihā̀", "ਰਹੇ|rahè"] },
+        { "native": "ਭਾਜੀ, ਜ਼ਰਾ ਆਪਣੀ ਗੱਡੀ ਪਿੱਛੇ ਕਰ ਲਓ।", "roman": "pā̀jī, zarā āpṇī gaḍḍī pichchhe kar lao.", "en": "Brother, could you just move your car back a bit.", "focus": "ਲਓ", "wrong": ["ਲਿਆ|liā", "ਲਵਾਂ|lavāṃ"] },
+        { "native": "ਕੂੜੇ ਵਾਲਾ ਅੱਜ ਨਹੀਂ ਆਇਆ, ਕੂੜਾ ਅੰਦਰ ਹੀ ਰੱਖ ਲਓ।", "roman": "kūṛe vālā ajj nahī̀ṃ āiā, kūṛā andar hī rakkh lao.", "en": "The rubbish man didn't come today, keep the rubbish inside.", "focus": "ਲਓ", "wrong": ["ਲਿਆ|liā", "ਲਵਾਂ|lavāṃ"] },
+        { "native": "ਯਾਰ, ਮੈਨੂੰ ਤੰਗ ਨਾ ਕਰ, ਮੈਂ ਪੜ੍ਹ ਰਿਹਾ ਹਾਂ।", "roman": "yār, mainūṃ tang nā kar, maiṃ páṛ rihā̀ hāṃ.", "en": "Mate, stop bugging me, I'm studying.", "focus": "ਕਰ", "wrong": ["ਕਰਦਾ|kardā", "ਕੀਤਾ|kītā"] },
+        { "native": "ਨਾਲ਼ ਵਾਲੇ ਗੁਆਂਢੀ ਹਰ ਐਤਵਾਰ ਰੌਲਾ ਪਾਉਂਦੇ ਹਨ।", "roman": "nāḷ vāle guā́ṇḍī har aitvār raulā pāunde han.", "en": "The next-door neighbours make a racket every Sunday.", "focus": "ਪਾਉਂਦੇ", "wrong": ["ਪਾਉਂਦਾ|pāundā", "ਪਾਉਂਦੀ|pāundī"] },
+        { "native": "ਬੁਰਾ ਨਾ ਮੰਨਿਓ, ਪਰ ਕੂੜਾ ਪੌੜੀਆਂ ਕੋਲ ਨਾ ਰੱਖੋ।", "roman": "burā nā mannio, par kūṛā pauṛīāṃ kol nā rakkho.", "en": "Don't take it badly, but please don't leave the rubbish by the stairs." },
+        { "native": "ਸਾਡੇ ਗੁਆਂਢੀ ਬਹੁਤ ਚੰਗੇ ਹਨ, ਕਦੇ ਤੰਗ ਨਹੀਂ ਕਰਦੇ।", "roman": "sāḍe guā́ṇḍī báut change han, kade tang nahī̀ṃ karde.", "en": "Our neighbours are really nice, they never bother us." }
+      ]
+    },
+    {
+      "title": "New in the neighbourhood",
+      "tip": { "title": "'I need': ਨੂੰ … ਦੀ ਲੋੜ ਹੈ", "body": "- **ਨੂੰ + thing + ਦੀ ਲੋੜ ਹੈ** = 'I need': ਸਾਨੂੰ ਗੱਡੀ **ਦੀ** ਲੋੜ ਹੈ. Always ਦੀ, because ਲੋੜ is feminine.\n- It works like ਚਾਹੀਦਾ but sounds a little more serious.\n- 'Anything' = ਕੋਈ ਚੀਜ਼, but before a postposition **ਕਿਸੇ ਚੀਜ਼**: ਕਿਸੇ ਚੀਜ਼ ਦੀ ਲੋੜ ਹੈ?", "pattern": "ਨੂੰ + thing + ਦੀ ਲੋੜ ਹੈ" },
+      "new": ["ਮੁਹੱਲਾ", "ਪੌੜੀਆਂ", "ਚੀਜ਼", "ਲੋੜ", "ਸ਼ਿਫ਼ਟ ਕਰਨਾ", "ਤੁਸੀਂ ਨਵੇਂ ਆਏ ਹੋ?", "ਕਿਸੇ ਚੀਜ਼ ਦੀ ਲੋੜ ਹੋਵੇ ਤਾਂ ਦੱਸਿਓ।", "ਅਸੀਂ ਅਗਲੇ ਮਹੀਨੇ ਸ਼ਿਫ਼ਟ ਕਰ ਰਹੇ ਹਾਂ।"],
+      "sentences": [
+        { "native": "ਅਸੀਂ ਇਸ ਮੁਹੱਲੇ ਵਿੱਚ ਨਵੇਂ ਆਏ ਹਾਂ।", "roman": "asīṃ is muhàlle vich naveṃ āe hāṃ.", "en": "We've just moved into this neighbourhood.", "focus": "ਮੁਹੱਲੇ", "wrong": ["ਮੁਹੱਲਾ|muhàllā"] },
+        { "native": "ਸਾਨੂੰ ਸ਼ਿਫ਼ਟ ਕਰਨ ਲਈ ਇੱਕ ਗੱਡੀ ਦੀ ਲੋੜ ਹੈ।", "roman": "sānūṃ shifṭ karan laī ikk gaḍḍī dī loṛ hai.", "en": "We need a vehicle for the move.", "focus": "ਦੀ", "wrong": ["ਦਾ|dā", "ਦੇ|de"] },
+        { "native": "ਆਂਟੀ ਜੀ, ਤੁਹਾਨੂੰ ਬਾਜ਼ਾਰ ਤੋਂ ਕਿਸੇ ਚੀਜ਼ ਦੀ ਲੋੜ ਹੈ?", "roman": "āṇṭī jī, tuhā̀nūṃ bāzār toṃ kise chīz dī loṛ hai?", "en": "Aunty, do you need anything from the market?", "focus": "ਕਿਸੇ", "wrong": ["ਕੋਈ|koī", "ਕਿਸ|kis"] },
+        { "native": "ਸਾਮਾਨ ਚੁੱਕਣ ਲਈ ਸਾਨੂੰ ਦੋ ਜਣਿਆਂ ਦੀ ਲੋੜ ਹੈ।", "roman": "sāmān chukkaṇ laī sānūṃ do jaṇiāṃ dī loṛ hai.", "en": "We need two people to carry the stuff.", "focus": "ਦੀ", "wrong": ["ਦੇ|de", "ਦਾ|dā"] },
+        { "native": "ਕੀ ਤੁਹਾਨੂੰ ਪੈਸਿਆਂ ਦੀ ਲੋੜ ਹੈ?", "roman": "kī tuhā̀nūṃ paisiāṃ dī loṛ hai?", "en": "Do you need money?", "focus": "ਪੈਸਿਆਂ", "wrong": ["ਪੈਸੇ|paise"] },
+        { "native": "ਮੈਨੂੰ ਹੁਣ ਕਿਸੇ ਚੀਜ਼ ਦੀ ਲੋੜ ਨਹੀਂ, ਬਹੁਤ ਮਿਹਰਬਾਨੀ।", "roman": "mainūṃ huṇ kise chīz dī loṛ nahī̀ṃ, báut mérbānī.", "en": "I don't need anything now, thanks very much.", "focus": "ਕਿਸੇ", "wrong": ["ਕੋਈ|koī", "ਕਿਹੜੀ|kéṛī"] },
+        { "native": "ਮੁਹੱਲੇ ਵਿੱਚ ਇੱਕ ਚੰਗੇ ਪਲੰਬਰ ਦੀ ਲੋੜ ਹੈ, ਕੋਈ ਜਾਣਦੇ ਹੋ?", "roman": "muhàlle vich ikk change palambar dī loṛ hai, koī jāṇde ho?", "en": "The neighbourhood needs a good plumber — know anyone?", "focus": "ਚੰਗੇ", "wrong": ["ਚੰਗਾ|changā", "ਚੰਗੀ|changī"] },
+        { "native": "ਸਾਡਾ ਫ਼ਲੈਟ ਚੌਥੀ ਮੰਜ਼ਿਲ 'ਤੇ ਹੈ, ਬਹੁਤ ਪੌੜੀਆਂ ਚੜ੍ਹਨੀਆਂ ਪੈਂਦੀਆਂ ਹਨ।", "roman": "sāḍā flaiṭ chauthī manzil te hai, báut pauṛīāṃ cháṛnīāṃ paindīāṃ han.", "en": "Our flat's on the fourth floor, you have to climb a lot of stairs.", "focus": "ਚੜ੍ਹਨੀਆਂ", "wrong": ["ਚੜ੍ਹਨਾ|cháṛnā", "ਚੜ੍ਹਨੀ|cháṛnī"] },
+        { "native": "ਅਸੀਂ ਪਿਛਲੇ ਹਫ਼ਤੇ ਨਵੇਂ ਘਰ ਵਿੱਚ ਸ਼ਿਫ਼ਟ ਕੀਤਾ।", "roman": "asīṃ pichhle hafte naveṃ kàr vich shifṭ kītā.", "en": "We moved into a new house last week." }
+      ]
+    }
+  ]
+}

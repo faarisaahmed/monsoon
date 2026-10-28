@@ -1,0 +1,181 @@
+{
+  "id": 32,
+  "title": "Health in depth",
+  "goal": "Describe symptoms precisely and say how long you have had them, mention allergies and conditions, follow a doctor’s instructions, and get tests done.",
+  "intro": "In unit 9 you learnt to say *where it hurts*. Now you'll talk to a doctor properly: what the symptoms are (ਉਲਟੀ, ਦਸਤ, ਸੋਜ, ਖਾਰਸ਼), **since when** you've had them (ਤਿੰਨ ਦਿਨਾਂ ਤੋਂ), what you're allergic to, and what you already take for your ਸ਼ੂਗਰ or ਬੀ.ਪੀ.\n\nThen comes the other half of the visit: understanding the instructions — **ਦਿਨ ਵਿੱਚ ਦੋ ਵਾਰ, ਰੋਟੀ ਤੋਂ ਬਾਅਦ**, ਖ਼ਾਲੀ ਪੇਟ, ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ — and getting tests done (ਟੈਸਟ ਕਰਵਾਉਣਾ). The grammar is the Punjabi way of saying *I've had / I've been … for* (**present + ਤੋਂ**) and the **infinitive** used for instructions (ਗੋਲੀ ਲੈਣੀ ਹੈ).",
+  "vocab": [
+    { "native": "ਲੱਛਣ", "roman": "lachchhaṇ", "en": "symptom", "pos": "noun", "note": "m" },
+    { "native": "ਉਲਟੀ", "roman": "ulṭī", "en": "vomiting, being sick", "pos": "noun", "note": "f; ਉਲਟੀ ਆਉਣਾ 'to vomit'; ਉਲਟੀਆਂ (pl) for repeated vomiting" },
+    { "native": "ਦਸਤ", "roman": "dast", "en": "diarrhoea", "pos": "noun", "note": "m pl; ਦਸਤ ਲੱਗਣਾ; people also say ਲੂਜ਼ ਮੋਸ਼ਨ or ਪੇਟ ਖ਼ਰਾਬ" },
+    { "native": "ਜੀ ਕੱਚਾ ਹੋਣਾ", "roman": "jī kachchā hoṇā", "en": "to feel sick, nauseous", "pos": "verb", "note": "with ਮੇਰਾ: ਮੇਰਾ ਜੀ ਕੱਚਾ ਹੋ ਰਿਹਾ ਹੈ" },
+    { "native": "ਪਸੀਨਾ", "roman": "pasīnā", "en": "sweat", "pos": "noun", "note": "m; ਪਸੀਨਾ ਆਉਣਾ 'to sweat'" },
+    { "native": "ਸਾਹ", "roman": "sā́", "en": "breath", "pos": "noun", "note": "m; ਸਾਹ ਲੈਣਾ 'to breathe', ਸਾਹ ਚੜ੍ਹਨਾ 'to be out of breath'" },
+    { "native": "ਕਮਜ਼ੋਰੀ", "roman": "kamzorī", "en": "weakness", "pos": "noun", "note": "f; weak = ਕਮਜ਼ੋਰ" },
+    { "native": "ਬੇਹੋਸ਼", "roman": "behòsh", "en": "unconscious, fainted", "pos": "adj", "note": "invariable; ਬੇਹੋਸ਼ ਹੋਣਾ 'to faint'" },
+    { "native": "ਸੋਜ", "roman": "soj", "en": "swelling", "pos": "noun", "note": "f" },
+    { "native": "ਖਾਰਸ਼", "roman": "khārash", "en": "itching, itch", "pos": "noun", "note": "f; ਖਾਰਸ਼ ਹੋਣਾ 'to itch'" },
+    { "native": "ਐਲਰਜੀ", "roman": "ailarjī", "en": "allergy", "pos": "noun", "note": "f; allergic to X = X ਤੋਂ ਐਲਰਜੀ" },
+    { "native": "ਸ਼ੂਗਰ", "roman": "shūgar", "en": "diabetes (everyday word)", "pos": "noun", "note": "f; ਮੈਨੂੰ ਸ਼ੂਗਰ ਹੈ" },
+    { "native": "ਬੀ.ਪੀ.", "roman": "bī.pī.", "en": "blood pressure", "pos": "noun", "note": "m; ਬੀ.ਪੀ. ਹਾਈ / ਲੋ" },
+    { "native": "ਮਰੀਜ਼", "roman": "marīz", "en": "patient", "pos": "noun", "note": "m/f" },
+    { "native": "ਇਲਾਜ", "roman": "ilāj", "en": "treatment", "pos": "noun", "note": "m" },
+    { "native": "ਆਪਰੇਸ਼ਨ", "roman": "āpreshan", "en": "operation, surgery", "pos": "noun", "note": "m" },
+    { "native": "ਖ਼ੁਰਾਕ", "roman": "xurāk", "en": "dose; diet", "pos": "noun", "note": "f" },
+    { "native": "ਸੀਰਪ", "roman": "sīrap", "en": "syrup (medicine)", "pos": "noun", "note": "m" },
+    { "native": "ਖ਼ਾਲੀ ਪੇਟ", "roman": "xālī peṭ", "en": "on an empty stomach", "pos": "adv" },
+    { "native": "ਪਰਹੇਜ਼", "roman": "parhèz", "en": "avoiding (foods), dietary restriction", "pos": "noun", "note": "m; X ਤੋਂ ਪਰਹੇਜ਼ ਕਰਨਾ 'to avoid X'" },
+    { "native": "ਟੀਕਾ", "roman": "ṭīkā", "en": "injection, jab", "pos": "noun", "note": "m; ਟੀਕਾ ਲਾਉਣਾ 'to give a jab', ਟੀਕਾ ਲਗਵਾਉਣਾ 'to get a jab'" },
+    { "native": "ਟੈਸਟ", "roman": "ṭaisṭ", "en": "test", "pos": "noun", "note": "m" },
+    { "native": "ਖ਼ੂਨ", "roman": "xūn", "en": "blood", "pos": "noun", "note": "m" },
+    { "native": "ਐਕਸ-ਰੇ", "roman": "aikas-re", "en": "X-ray", "pos": "noun", "note": "m" },
+    { "native": "ਅਪੌਇੰਟਮੈਂਟ", "roman": "apauinṭmainṭ", "en": "appointment", "pos": "noun", "note": "f; in everyday speech often ਟਾਈਮ: ਡਾਕਟਰ ਤੋਂ ਟਾਈਮ ਲੈਣਾ" },
+    { "native": "ਕਲੀਨਿਕ", "roman": "kalīnik", "en": "clinic, surgery", "pos": "noun", "note": "m" },
+    { "native": "ਫ਼ਰਕ", "roman": "farak", "en": "difference; improvement", "pos": "noun", "note": "m; ਫ਼ਰਕ ਪੈਣਾ 'to make a difference / get better'" }
+  ],
+  "phrases": [
+    { "native": "ਤੁਹਾਨੂੰ ਕੀ ਤਕਲੀਫ਼ ਹੈ?", "roman": "tuhā̀nūṃ kī taklīf hai?", "en": "What seems to be the problem? (doctor)" },
+    { "native": "ਕਦੋਂ ਤੋਂ?", "roman": "kadoṃ toṃ?", "en": "Since when?" },
+    { "native": "ਤਿੰਨ ਦਿਨਾਂ ਤੋਂ ਬੁਖ਼ਾਰ ਹੈ।", "roman": "tinn dināṃ toṃ buxār hai.", "en": "I've had a fever for three days." },
+    { "native": "ਮੈਨੂੰ ਰਾਤ ਤੋਂ ਉਲਟੀਆਂ ਆ ਰਹੀਆਂ ਹਨ।", "roman": "mainūṃ rāt toṃ ulṭīāṃ ā rahī̀āṃ han.", "en": "I've been throwing up since last night." },
+    { "native": "ਮੇਰਾ ਜੀ ਕੱਚਾ ਹੋ ਰਿਹਾ ਹੈ।", "roman": "merā jī kachchā ho rihā̀ hai.", "en": "I feel sick." },
+    { "native": "ਮੈਨੂੰ ਪੈਨਸਿਲੀਨ ਤੋਂ ਐਲਰਜੀ ਹੈ।", "roman": "mainūṃ painsilīn toṃ ailarjī hai.", "en": "I'm allergic to penicillin." },
+    { "native": "ਮੈਂ ਸ਼ੂਗਰ ਦਾ ਮਰੀਜ਼ ਹਾਂ।", "roman": "maiṃ shūgar dā marīz hāṃ.", "en": "I'm diabetic." },
+    { "native": "ਦਿਨ ਵਿੱਚ ਦੋ ਵਾਰ, ਰੋਟੀ ਤੋਂ ਬਾਅਦ।", "roman": "din vich do vār, roṭī toṃ bāad.", "en": "Twice a day, after food." },
+    { "native": "ਇਹ ਗੋਲੀ ਖ਼ਾਲੀ ਪੇਟ ਲੈਣੀ ਹੈ।", "roman": "é golī xālī peṭ laiṇī hai.", "en": "This tablet is to be taken on an empty stomach." },
+    { "native": "ਤਲੀਆਂ ਚੀਜ਼ਾਂ ਤੋਂ ਪਰਹੇਜ਼ ਕਰੋ।", "roman": "talīāṃ chīzāṃ toṃ parhèz karo.", "en": "Avoid fried food." },
+    { "native": "ਖ਼ੂਨ ਦਾ ਟੈਸਟ ਕਰਵਾਓ।", "roman": "xūn dā ṭaisṭ karvāo.", "en": "Get a blood test done." },
+    { "native": "ਮੈਂ ਡਾਕਟਰ ਤੋਂ ਟਾਈਮ ਲੈਣਾ ਹੈ।", "roman": "maiṃ ḍākṭar toṃ ṭāim laiṇā hai.", "en": "I need to make a doctor's appointment." },
+    { "native": "ਕੋਈ ਫ਼ਰਕ ਪਿਆ?", "roman": "koī farak piā?", "en": "Any better? (Has it made any difference?)" },
+    { "native": "ਹਾਂ ਜੀ, ਪਹਿਲਾਂ ਨਾਲ਼ੋਂ ਠੀਕ ਹਾਂ।", "roman": "hāṃ jī, páilāṃ nāḷoṃ ṭhīk hāṃ.", "en": "Yes, I'm better than before." }
+  ],
+  "grammar": [
+    {
+      "title": "How long: 'I've had it for…' = present + ਤੋਂ",
+      "body": "English says *I've had a fever for three days* or *I've been taking this for two weeks* with the perfect tense. Punjabi uses the **present** — because the situation is still going on — plus **ਤੋਂ** 'from':\n\nਮੈਨੂੰ ਤਿੰਨ ਦਿਨਾਂ **ਤੋਂ** ਬੁਖ਼ਾਰ **ਹੈ** — I've had a fever for three days (lit. 'from three days I have fever').\nਮੈਂ ਦੋ ਹਫ਼ਤਿਆਂ ਤੋਂ ਇਹ ਦਵਾਈ ਲੈ **ਰਿਹਾ ਹਾਂ** — I've been taking this medicine for two weeks.\nਮੈਂ ਪੰਜ ਸਾਲਾਂ ਤੋਂ ਸ਼ੂਗਰ ਦੀ ਦਵਾਈ **ਲੈਂਦਾ ਹਾਂ** — I've taken diabetes medicine for five years (habit).\n\nThe same **ਤੋਂ** covers both *for* and *since*. With a **period**, the number + noun go into the oblique plural: ਦੋ **ਦਿਨਾਂ** ਤੋਂ, ਤਿੰਨ **ਹਫ਼ਤਿਆਂ** ਤੋਂ, ਛੇ **ਮਹੀਨਿਆਂ** ਤੋਂ, ਦਸ **ਸਾਲਾਂ** ਤੋਂ, ਇੱਕ **ਹਫ਼ਤੇ** ਤੋਂ. With a **point in time**: ਕੱਲ੍ਹ ਤੋਂ, ਰਾਤ ਤੋਂ, ਸੋਮਵਾਰ ਤੋਂ, ਸਵੇਰ ਤੋਂ.\n\n**Asking**: **ਕਦੋਂ ਤੋਂ?** 'since when?', **ਕਿੰਨੇ ਦਿਨਾਂ ਤੋਂ?** 'for how many days?'. Colloquially also **ਕਦੋਂ ਦਾ** / ਕਿੰਨੇ ਦਿਨਾਂ ਦਾ … ਹੈ?: ਇਹ ਦਰਦ ਕਦੋਂ ਦਾ ਹੈ? 'how long have you had this pain?'\n\n**Negatives** use the plain past with ਤੋਂ: ਮੈਨੂੰ ਮਹੀਨਿਆਂ ਤੋਂ ਚੰਗੀ ਨੀਂਦ **ਨਹੀਂ ਆਈ** 'I haven't slept well for months'.\n\n**In the past**, shift ਹੈ to ਸੀ: ਮੈਨੂੰ ਹਫ਼ਤੇ ਤੋਂ ਖੰਘ **ਸੀ** 'I had had a cough for a week'. If the period is **over**, drop ਤੋਂ and use the past of ਰਹਿਣਾ: ਦੋ ਦਿਨ ਬੁਖ਼ਾਰ **ਰਿਹਾ** 'I had a fever for two days (and now it's gone)'.\n\n**The trap:** *ago* is a different word — **ਪਹਿਲਾਂ**, with the plain (not oblique plural) noun: ਦੋ **ਦਿਨ ਪਹਿਲਾਂ** 'two days ago' vs ਦੋ **ਦਿਨਾਂ ਤੋਂ** 'for two days'.",
+      "examples": [
+        { "native": "ਮੇਰਾ ਗਲ਼ ਪਰਸੋਂ ਤੋਂ ਦੁਖ ਰਿਹਾ ਹੈ।", "roman": "merā gaḷ parsoṃ toṃ dukh rihā̀ hai.", "en": "My throat has been sore since the day before yesterday." },
+        { "native": "ਉਹ ਛੇ ਮਹੀਨਿਆਂ ਤੋਂ ਇਹ ਦਵਾਈ ਲੈ ਰਹੇ ਹਨ।", "roman": "ó chhe mahī̀niāṃ toṃ é davāī lai rahè han.", "en": "He's been taking this medicine for six months." },
+        { "native": "ਇਹ ਦਰਦ ਕਦੋਂ ਦਾ ਹੈ?", "roman": "é darad kadoṃ dā hai?", "en": "How long have you had this pain?" },
+        { "native": "ਮੈਨੂੰ ਹਫ਼ਤੇ ਤੋਂ ਖੰਘ ਸੀ, ਫਿਰ ਬੁਖ਼ਾਰ ਹੋ ਗਿਆ।", "roman": "mainūṃ hafte toṃ kháṅg sī, phir buxār ho giā.", "en": "I'd had a cough for a week, then I got a fever." },
+        { "native": "ਦੋ ਦਿਨ ਪਹਿਲਾਂ ਮੈਨੂੰ ਸੱਟ ਲੱਗੀ ਸੀ।", "roman": "do din páilāṃ mainūṃ saṭṭ laggī sī.", "en": "I got hurt two days ago." }
+      ]
+    },
+    {
+      "title": "Instructions: ਗੋਲੀ ਲੈਣੀ ਹੈ, ਸੀਰਪ ਪੀਣਾ ਹੈ",
+      "body": "Doctors, chemists and labs give instructions in three ways.\n\n**1. The polite imperative** (unit 11): ਆਰਾਮ **ਕਰੋ**, ਪਾਣੀ ਜ਼ਿਆਦਾ **ਪੀਓ**, ਤਲੀਆਂ ਚੀਜ਼ਾਂ ਨਾ **ਖਾਓ**.\n\n**2. Infinitive + ਹੈ** — 'is to be done' (you met ਮੈਂ ਜਾਣਾ ਹੈ in unit 15). This is the standard way to explain a prescription: ਇਹ ਗੋਲੀ ਰੋਟੀ ਤੋਂ ਬਾਅਦ **ਲੈਣੀ ਹੈ**. The infinitive **agrees with the object**:\nਗੋਲੀ **ਲੈਣੀ** ਹੈ (f) · ਸੀਰਪ **ਪੀਣਾ** ਹੈ (m) · ਗੋਲੀਆਂ **ਲੈਣੀਆਂ** ਹਨ (f pl) · ਟੀਕੇ **ਲਗਵਾਉਣੇ** ਹਨ (m pl).\nThe bare infinitive without ਹੈ is a gentle instruction too: ਸਵੇਰੇ-ਸ਼ਾਮ ਇੱਕ ਇੱਕ ਗੋਲੀ **ਲੈਣੀ**. The negative uses ਨਹੀਂ: ਵਿੱਚ **ਨਹੀਂ ਛੱਡਣੀ** 'don't stop halfway'.\n\n**3. The -ਇਓ form** for later: ਤਿੰਨ ਦਿਨਾਂ ਬਾਅਦ ਫਿਰ **ਆਇਓ**, ਰਿਪੋਰਟ **ਦਿਖਾਇਓ**.\n\n**Timing words**: ਦਿਨ ਵਿੱਚ ਦੋ / ਤਿੰਨ ਵਾਰ · ਸਵੇਰੇ-ਸ਼ਾਮ 'morning and evening' · ਰੋਟੀ ਤੋਂ ਪਹਿਲਾਂ / ਬਾਅਦ 'before / after food' · ਖ਼ਾਲੀ ਪੇਟ · ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ 'before bed' · ਹਰ ਛੇ ਘੰਟੇ ਬਾਅਦ 'every six hours' · ਪੰਜ ਦਿਨ ਲਗਾਤਾਰ 'five days in a row' · ਅੱਧਾ ਚਮਚਾ 'half a spoon'. 'Before / after doing' uses the oblique infinitive (-ਣ / -ਨ): **ਸੌਣ** ਤੋਂ ਪਹਿਲਾਂ, ਗੋਲੀ **ਖਾਣ** ਤੋਂ ਬਾਅਦ.\n\n**The trap:** forgetting the agreement — ਗੋਲੀ ਖਾਣਾ ਹੈ ✗ → ਗੋਲੀ **ਖਾਣੀ** ਹੈ.",
+      "examples": [
+        { "native": "ਇਹ ਗੋਲੀ ਰੋਟੀ ਤੋਂ ਬਾਅਦ ਲੈਣੀ ਹੈ।", "roman": "é golī roṭī toṃ bāad laiṇī hai.", "en": "This tablet is to be taken after food." },
+        { "native": "ਸੀਰਪ ਦਿਨ ਵਿੱਚ ਦੋ ਵਾਰ ਪੀਣਾ ਹੈ।", "roman": "sīrap din vich do vār pīṇā hai.", "en": "Take the syrup twice a day." },
+        { "native": "ਸਵੇਰੇ-ਸ਼ਾਮ ਇੱਕ ਇੱਕ ਗੋਲੀ ਲੈਣੀ।", "roman": "savere-shām ikk ikk golī laiṇī.", "en": "One tablet morning and evening." },
+        { "native": "ਹਰ ਛੇ ਘੰਟੇ ਬਾਅਦ ਇਹ ਬੂੰਦਾਂ ਪਾਉਣੀਆਂ ਹਨ।", "roman": "har chhe kàṇṭe bāad é būndāṃ pāuṇīāṃ han.", "en": "Put these drops in every six hours." },
+        { "native": "ਆਰਾਮ ਕਰੋ, ਤੇ ਹਫ਼ਤੇ ਬਾਅਦ ਫਿਰ ਆਇਓ।", "roman": "ārām karo, te hafte bāad phir āio.", "en": "Rest, and come back in a week." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the clinic",
+    "setting": "A private clinic in Jalandhar. Rupinder has had a fever since a friend’s wedding; Dr Kaur sees her.",
+    "lines": [
+      { "speaker": "Dr Kaur", "native": "ਆਓ ਜੀ, ਬੈਠੋ। ਦੱਸੋ, ਕੀ ਤਕਲੀਫ਼ ਹੈ?", "roman": "āo jī, baiṭho. dasso, kī taklīf hai?", "en": "Come in, have a seat. Tell me, what's the problem?" },
+      { "speaker": "Rupinder", "native": "ਡਾਕਟਰ ਜੀ, ਮੈਨੂੰ ਤਿੰਨ ਦਿਨਾਂ ਤੋਂ ਬੁਖ਼ਾਰ ਹੈ, ਤੇ ਕੱਲ੍ਹ ਰਾਤ ਤੋਂ ਉਲਟੀਆਂ ਵੀ ਆ ਰਹੀਆਂ ਹਨ।", "roman": "ḍākṭar jī, mainūṃ tinn dināṃ toṃ buxār hai, te káll rāt toṃ ulṭīāṃ vī ā rahī̀āṃ han.", "en": "Doctor, I've had a fever for three days, and I've been throwing up since last night too." },
+      { "speaker": "Dr Kaur", "native": "ਬੁਖ਼ਾਰ ਕਿੰਨਾ ਹੁੰਦਾ ਹੈ? ਚੈੱਕ ਕੀਤਾ?", "roman": "buxār kinnā hundā hai? chaikk kītā?", "en": "How high does the fever get? Have you checked?" },
+      { "speaker": "Rupinder", "native": "ਹਾਂ ਜੀ, ਰਾਤ ਨੂੰ ਇੱਕ ਸੌ ਦੋ ਸੀ। ਪਸੀਨਾ ਬਹੁਤ ਆਉਂਦਾ ਹੈ, ਤੇ ਕਮਜ਼ੋਰੀ ਵੀ ਬਹੁਤ ਹੈ।", "roman": "hāṃ jī, rāt nūṃ ikk sau do sī. pasīnā báut āundā hai, te kamzorī vī báut hai.", "en": "Yes, it was 102 last night. I'm sweating a lot, and I feel very weak." },
+      { "speaker": "Dr Kaur", "native": "ਬਾਹਰੋਂ ਕੁਝ ਖਾਧਾ ਸੀ? ਗੋਲਗੱਪੇ, ਕੁਝ ਵੀ?", "roman": "bā́roṃ kúj khā́dā sī? golgappe, kúj vī?", "en": "Did you eat anything outside? Golgappe, anything?" },
+      { "speaker": "Rupinder", "native": "ਜੀ… ਐਤਵਾਰ ਨੂੰ ਸਹੇਲੀ ਦੇ ਵਿਆਹ 'ਤੇ ਥੋੜ੍ਹੇ ਜਿਹੇ…", "roman": "jī… aitvār nūṃ sahèlī de viā́ te thóṛe jihè…", "en": "Well… at my friend's wedding on Sunday, just a few…" },
+      { "speaker": "Dr Kaur", "native": "ਥੋੜ੍ਹੇ ਜਿਹੇ! ਹਾ ਹਾ। ਕੋਈ ਗੱਲ ਨਹੀਂ। ਕਿਸੇ ਦਵਾਈ ਤੋਂ ਐਲਰਜੀ ਤਾਂ ਨਹੀਂ?", "roman": "thóṛe jihè! hā hā. koī gall nahī̀ṃ. kise davāī toṃ ailarjī tāṃ nahī̀ṃ?", "en": "Just a few! Ha ha. Never mind. You're not allergic to any medicine?" },
+      { "speaker": "Rupinder", "native": "ਨਹੀਂ ਜੀ, ਕੋਈ ਨਹੀਂ।", "roman": "nahī̀ṃ jī, koī nahī̀ṃ.", "en": "No, none." },
+      { "speaker": "Dr Kaur", "native": "ਠੀਕ ਹੈ। ਪਹਿਲਾਂ ਖ਼ੂਨ ਦਾ ਟੈਸਟ ਕਰਵਾ ਲਓ, ਟਾਈਫ਼ਾਈਡ ਵੀ ਚੈੱਕ ਕਰਨਾ ਹੈ। ਇਹ ਗੋਲੀ ਦਿਨ ਵਿੱਚ ਤਿੰਨ ਵਾਰ ਲੈਣੀ ਹੈ, ਰੋਟੀ ਤੋਂ ਬਾਅਦ।", "roman": "ṭhīk hai. páilāṃ xūn dā ṭaisṭ karvā lao, ṭāifāiḍ vī chaikk karnā hai. é golī din vich tinn vār laiṇī hai, roṭī toṃ bāad.", "en": "OK. First get a blood test done — we need to check for typhoid too. Take this tablet three times a day, after food." },
+      { "speaker": "Rupinder", "native": "ਖਾਣ ਵਿੱਚ ਕੀ ਪਰਹੇਜ਼ ਕਰਨਾ ਹੈ?", "roman": "khāṇ vich kī parhèz karnā hai?", "en": "What should I avoid eating?" },
+      { "speaker": "Dr Kaur", "native": "ਤਲਿਆ, ਤਿੱਖਾ, ਤੇ ਖ਼ਾਸ ਕਰਕੇ ਗੋਲਗੱਪੇ! ਖਿਚੜੀ, ਦਹੀਂ, ਤੇ ਪਾਣੀ ਜ਼ਿਆਦਾ।", "roman": "taliā, tikkhā, te xās karke golgappe! khichṛī, dahī̀ṃ, te pāṇī ziādā.", "en": "Fried and spicy food — and especially golgappe! Khichdi, yoghurt, and plenty of water." },
+      { "speaker": "Dr Kaur", "native": "ਜੇ ਦੋ ਦਿਨਾਂ ਵਿੱਚ ਫ਼ਰਕ ਨਾ ਪਿਆ ਤਾਂ ਰਿਪੋਰਟ ਲੈ ਕੇ ਫਿਰ ਆਇਓ।", "roman": "je do dināṃ vich farak nā piā tāṃ riporṭ lai ke phir āio.", "en": "If you're not better in two days, come back with the report." },
+      { "speaker": "Rupinder", "native": "ਠੀਕ ਹੈ ਜੀ, ਬਹੁਤ ਮਿਹਰਬਾਨੀ।", "roman": "ṭhīk hai jī, báut mérbānī.", "en": "All right, thank you very much." }
+    ]
+  },
+  "culture": "Most people in Punjab go first to a local private **ਕਲੀਨਿਕ** or straight to the **ਕੈਮਿਸਟ**, who will often suggest something without a prescription; big cities have large private hospitals, and government hospitals are cheap but crowded. Doctors are addressed as **ਡਾਕਟਰ ਸਾਹਿਬ** or **ਡਾਕਟਰ ਜੀ**, temperatures are given in Fahrenheit (ਇੱਕ ਸੌ ਦੋ = 102°F), and English medical words (ਟੈਸਟ, ਰਿਪੋਰਟ, ਸ਼ੂਗਰ, ਬੀ.ਪੀ.) are the normal ones. Monsoon brings dengue and typhoid, so a ਖ਼ੂਨ ਦਾ ਟੈਸਟ is routine for any lasting fever.\n\nEvery family has home remedies — **ਹਲਦੀ ਵਾਲਾ ਦੁੱਧ** (turmeric milk) for coughs and injuries, ਅਜਵਾਇਣ for the stomach, ਦੇਸੀ ਘਿਓ for strength — and elders will offer them before any doctor. When someone is ill, relatives and neighbours come to **ਪਤਾ ਲੈਣ** 'ask after them', usually bringing fruit. In Pakistani Punjab you'll also hear of the **ਹਕੀਮ**, a traditional herbal doctor.",
+  "lessons": [
+    {
+      "title": "Describing symptoms",
+      "tip": { "title": "Symptoms that happen to you", "body": "- Most symptoms 'come' or 'strike' you: ਉਲਟੀ **ਆਉਣਾ**, ਪਸੀਨਾ **ਆਉਣਾ**, ਚੱਕਰ **ਆਉਣਾ**, ਦਸਤ **ਲੱਗਣਾ**.\n- The person takes **ਨੂੰ** and the verb agrees with the symptom: ਮੈਨੂੰ ਉਲਟੀ **ਆਈ** (f), ਪਸੀਨਾ **ਆਇਆ** (m), ਦਸਤ **ਲੱਗੇ** (m pl).\n- Nausea and breath take **ਮੇਰਾ**: ਮੇਰਾ ਜੀ ਕੱਚਾ ਹੋ ਰਿਹਾ ਹੈ, ਮੇਰਾ ਸਾਹ ਚੜ੍ਹ ਜਾਂਦਾ ਹੈ.", "pattern": "ਮੈਨੂੰ + symptom + ਆਉਣਾ / ਲੱਗਣਾ" },
+      "new": ["ਲੱਛਣ", "ਉਲਟੀ", "ਦਸਤ", "ਜੀ ਕੱਚਾ ਹੋਣਾ", "ਪਸੀਨਾ", "ਸਾਹ", "ਕਮਜ਼ੋਰੀ", "ਬੇਹੋਸ਼", "ਮੇਰਾ ਜੀ ਕੱਚਾ ਹੋ ਰਿਹਾ ਹੈ।"],
+      "sentences": [
+        { "native": "ਮੈਨੂੰ ਸਵੇਰ ਤੋਂ ਤਿੰਨ ਵਾਰ ਉਲਟੀ ਆਈ ਹੈ।", "roman": "mainūṃ saver toṃ tinn vār ulṭī āī hai.", "en": "I've been sick three times since this morning.", "focus": "ਆਈ", "wrong": ["ਆਇਆ|āiā", "ਆਏ|āe"] },
+        { "native": "ਰਾਤ ਨੂੰ ਬਹੁਤ ਪਸੀਨਾ ਆਇਆ।", "roman": "rāt nūṃ báut pasīnā āiā.", "en": "I sweated a lot in the night.", "focus": "ਆਇਆ", "wrong": ["ਆਈ|āī", "ਆਈਆਂ|āīāṃ"] },
+        { "native": "ਬੱਚੇ ਨੂੰ ਦਸਤ ਲੱਗੇ ਹੋਏ ਹਨ।", "roman": "bachche nūṃ dast lagge hoe han.", "en": "The child has diarrhoea.", "focus": "ਲੱਗੇ", "wrong": ["ਲੱਗੀ|laggī", "ਲੱਗਾ|laggā"] },
+        { "native": "ਬੱਸ ਵਿੱਚ ਮੇਰਾ ਜੀ ਕੱਚਾ ਹੋਣ ਲੱਗ ਪਿਆ।", "roman": "bass vich merā jī kachchā hoṇ lagg piā.", "en": "I started feeling sick on the bus.", "focus": "ਮੇਰਾ", "wrong": ["ਮੈਨੂੰ|mainūṃ", "ਮੈਂ|maiṃ"] },
+        { "native": "ਥੋੜ੍ਹਾ ਤੁਰ ਕੇ ਵੀ ਮੇਰਾ ਸਾਹ ਚੜ੍ਹ ਜਾਂਦਾ ਹੈ।", "roman": "thóṛā tur ke vī merā sā́ cháṛ jāndā hai.", "en": "I get out of breath even after walking a little.", "focus": "ਮੇਰਾ", "wrong": ["ਮੈਨੂੰ|mainūṃ", "ਮੇਰੀ|merī"] },
+        { "native": "ਬੁਖ਼ਾਰ ਤੋਂ ਬਾਅਦ ਬਹੁਤ ਕਮਜ਼ੋਰੀ ਆ ਗਈ ਹੈ।", "roman": "buxār toṃ bāad báut kamzorī ā gaī hai.", "en": "I've been left really weak after the fever.", "focus": "ਗਈ", "wrong": ["ਗਿਆ|giā", "ਗਏ|gae"] },
+        { "native": "ਉਹ ਗਰਮੀ ਨਾਲ਼ ਬੇਹੋਸ਼ ਹੋ ਗਈ।", "roman": "ó garmī nāḷ behòsh ho gaī.", "en": "She fainted from the heat.", "focus": "ਗਈ", "wrong": ["ਗਿਆ|giā", "ਗਏ|gae"] },
+        { "native": "ਡਾਕਟਰ ਜੀ, ਮੈਨੂੰ ਚੱਕਰ ਵੀ ਆਉਂਦੇ ਹਨ।", "roman": "ḍākṭar jī, mainūṃ chakkar vī āunde han.", "en": "Doctor, I get dizzy spells too.", "focus": "ਆਉਂਦੇ", "wrong": ["ਆਉਂਦੀ|āundī", "ਆਉਂਦਾ|āundā"] },
+        { "native": "ਕੋਈ ਹੋਰ ਲੱਛਣ? ਬੁਖ਼ਾਰ, ਖੰਘ?", "roman": "koī hor lachchhaṇ? buxār, kháṅg?", "en": "Any other symptoms? Fever, cough?" },
+        { "native": "ਮੇਰਾ ਜੀ ਕੱਚਾ ਹੋ ਰਿਹਾ ਹੈ, ਮੈਂ ਬਾਹਰ ਜਾ ਰਹੀ ਹਾਂ।", "roman": "merā jī kachchā ho rihā̀ hai, maiṃ bā́r jā rahī̀ hāṃ.", "en": "I feel sick, I'm going outside. (woman speaking)" }
+      ]
+    },
+    {
+      "title": "Since when? For how long?",
+      "tip": { "title": "Since when? ਤਿੰਨ ਦਿਨਾਂ ਤੋਂ", "body": "- 'I've had / I've been …-ing for' = **present** + **ਤੋਂ**: ਮੈਨੂੰ ਤਿੰਨ ਦਿਨਾਂ **ਤੋਂ** ਬੁਖ਼ਾਰ **ਹੈ**.\n- A period goes in the oblique plural: ਦਿਨਾਂ, ਹਫ਼ਤਿਆਂ, ਮਹੀਨਿਆਂ, ਸਾਲਾਂ ਤੋਂ. A point in time: ਕੱਲ੍ਹ ਤੋਂ, ਰਾਤ ਤੋਂ.\n- Ask **ਕਦੋਂ ਤੋਂ?** or **ਕਿੰਨੇ ਦਿਨਾਂ ਤੋਂ?**\n- 'Ago' is different: ਦੋ ਦਿਨ **ਪਹਿਲਾਂ**.", "pattern": "time + ਤੋਂ + present tense", "grammar": 0 },
+      "new": ["ਸੋਜ", "ਖਾਰਸ਼", "ਤੁਹਾਨੂੰ ਕੀ ਤਕਲੀਫ਼ ਹੈ?", "ਕਦੋਂ ਤੋਂ?", "ਤਿੰਨ ਦਿਨਾਂ ਤੋਂ ਬੁਖ਼ਾਰ ਹੈ।", "ਮੈਨੂੰ ਰਾਤ ਤੋਂ ਉਲਟੀਆਂ ਆ ਰਹੀਆਂ ਹਨ।"],
+      "sentences": [
+        { "native": "ਮੈਨੂੰ ਦੋ ਦਿਨਾਂ ਤੋਂ ਸਿਰ ਦਰਦ ਹੈ।", "roman": "mainūṃ do dināṃ toṃ sir darad hai.", "en": "I've had a headache for two days.", "focus": "ਤੋਂ", "wrong": ["ਪਹਿਲਾਂ|páilāṃ", "ਤੱਕ|takk"] },
+        { "native": "ਮੈਂ ਇੱਕ ਹਫ਼ਤੇ ਤੋਂ ਇਹ ਦਵਾਈ ਲੈ ਰਿਹਾ ਹਾਂ।", "roman": "maiṃ ikk hafte toṃ é davāī lai rihā̀ hāṃ.", "en": "I've been taking this medicine for a week.", "focus": "ਹਫ਼ਤੇ", "wrong": ["ਹਫ਼ਤਾ|haftā", "ਹਫ਼ਤਿਆਂ|haftiāṃ"] },
+        { "native": "ਖੰਘ ਕਦੋਂ ਤੋਂ ਹੈ? — ਪਿਛਲੇ ਐਤਵਾਰ ਤੋਂ।", "roman": "kháṅg kadoṃ toṃ hai? — pichhle aitvār toṃ.", "en": "How long have you had the cough? — Since last Sunday.", "focus": "ਕਦੋਂ", "wrong": ["ਕਿੱਥੋਂ|kitthoṃ", "ਕਿਉਂ|kiuṃ"] },
+        { "native": "ਪੈਰ 'ਤੇ ਕੱਲ੍ਹ ਤੋਂ ਸੋਜ ਹੈ।", "roman": "pair te káll toṃ soj hai.", "en": "My foot has been swollen since yesterday.", "focus": "ਤੋਂ", "wrong": ["ਨੂੰ|nūṃ", "ਪਹਿਲਾਂ|páilāṃ"] },
+        { "native": "ਮੈਨੂੰ ਮਹੀਨਿਆਂ ਤੋਂ ਚੰਗੀ ਨੀਂਦ ਨਹੀਂ ਆਈ।", "roman": "mainūṃ mahī̀niāṃ toṃ changī nīnd nahī̀ṃ āī.", "en": "I haven't slept properly for months.", "focus": "ਮਹੀਨਿਆਂ", "wrong": ["ਮਹੀਨੇ|mahī̀ne", "ਮਹੀਨਾ|mahī̀nā"] },
+        { "native": "ਖਾਰਸ਼ ਦੋ ਦਿਨ ਪਹਿਲਾਂ ਸ਼ੁਰੂ ਹੋਈ, ਹੁਣ ਲਗਾਤਾਰ ਹੋ ਰਹੀ ਹੈ।", "roman": "khārash do din páilāṃ shurū hoī, huṇ lagātār ho rahī̀ hai.", "en": "The itching started two days ago, and now it's non-stop.", "focus": "ਪਹਿਲਾਂ", "wrong": ["ਤੋਂ|toṃ", "ਬਾਅਦ|bāad"] },
+        { "native": "ਕਿੰਨੇ ਦਿਨਾਂ ਤੋਂ ਬੁਖ਼ਾਰ ਆ ਰਿਹਾ ਹੈ?", "roman": "kinne dināṃ toṃ buxār ā rihā̀ hai?", "en": "How many days have you had the fever?", "focus": "ਤੋਂ", "wrong": ["ਤੱਕ|takk", "ਨੂੰ|nūṃ"] },
+        { "native": "ਮੈਂ ਤਿੰਨ ਰਾਤਾਂ ਤੋਂ ਲਗਾਤਾਰ ਖੰਘ ਰਿਹਾ ਹਾਂ।", "roman": "maiṃ tinn rātāṃ toṃ lagātār kháṅg rihā̀ hāṃ.", "en": "I've been coughing non-stop for three nights.", "focus": "ਰਾਤਾਂ", "wrong": ["ਰਾਤ|rāt", "ਰਾਤੀਂ|rātīṃ"] },
+        { "native": "ਉਸ ਨੂੰ ਦੋ ਦਿਨ ਬੁਖ਼ਾਰ ਰਿਹਾ, ਹੁਣ ਠੀਕ ਹੈ।", "roman": "us nūṃ do din buxār rihā̀, huṇ ṭhīk hai.", "en": "He had a fever for two days; now he is fine.", "focus": "ਰਿਹਾ", "wrong": ["ਹੈ|hai", "ਰਹੀ|rahī̀"] },
+        { "native": "ਸੋਜ ਘੱਟ ਨਹੀਂ ਹੋ ਰਹੀ।", "roman": "soj kàṭṭ nahī̀ṃ ho rahī̀.", "en": "The swelling isn't going down." }
+      ]
+    },
+    {
+      "title": "Allergies and long-term conditions",
+      "tip": { "title": "Allergies and conditions", "body": "- Allergic **to** = **ਤੋਂ**: ਮੈਨੂੰ ਆਂਡੇ **ਤੋਂ** ਐਲਰਜੀ ਹੈ.\n- A long-term condition: **ਮੈਨੂੰ ਸ਼ੂਗਰ ਹੈ**, or **ਮੈਂ … ਦਾ ਮਰੀਜ਼ ਹਾਂ**.\n- Say what you already take: **ਮੈਂ ਬੀ.ਪੀ. ਦੀ ਦਵਾਈ ਲੈਂਦਾ ਹਾਂ** — medicine 'of' the illness.\n- Talk about elders' illnesses in the respectful plural: ਪਿਤਾ ਜੀ ਮਿੱਠਾ ਨਹੀਂ **ਖਾਂਦੇ**." },
+      "new": ["ਐਲਰਜੀ", "ਸ਼ੂਗਰ", "ਬੀ.ਪੀ.", "ਮਰੀਜ਼", "ਇਲਾਜ", "ਆਪਰੇਸ਼ਨ", "ਮੈਨੂੰ ਪੈਨਸਿਲੀਨ ਤੋਂ ਐਲਰਜੀ ਹੈ।", "ਮੈਂ ਸ਼ੂਗਰ ਦਾ ਮਰੀਜ਼ ਹਾਂ।"],
+      "sentences": [
+        { "native": "ਮੇਰੀ ਭੈਣ ਨੂੰ ਆਂਡੇ ਤੋਂ ਐਲਰਜੀ ਹੈ।", "roman": "merī pàiṇ nūṃ āṇḍe toṃ ailarjī hai.", "en": "My sister is allergic to eggs.", "focus": "ਤੋਂ", "wrong": ["ਨੂੰ|nūṃ", "ਦੀ|dī"] },
+        { "native": "ਕੀ ਤੁਹਾਨੂੰ ਕਿਸੇ ਦਵਾਈ ਤੋਂ ਐਲਰਜੀ ਹੈ?", "roman": "kī tuhā̀nūṃ kise davāī toṃ ailarjī hai?", "en": "Are you allergic to any medicine?", "focus": "ਤੋਂ", "wrong": ["ਨਾਲ਼|nāḷ", "ਦਾ|dā"] },
+        { "native": "ਮੇਰੇ ਪਿਤਾ ਜੀ ਨੂੰ ਸ਼ੂਗਰ ਹੈ, ਉਹ ਮਿੱਠਾ ਨਹੀਂ ਖਾਂਦੇ।", "roman": "mere pitā jī nūṃ shūgar hai, ó miṭṭhā nahī̀ṃ khānde.", "en": "My father's diabetic — he doesn't eat sweet things.", "focus": "ਖਾਂਦੇ", "wrong": ["ਖਾਂਦਾ|khāndā", "ਖਾਂਦੀ|khāndī"] },
+        { "native": "ਮੰਮੀ ਦਾ ਬੀ.ਪੀ. ਠੀਕ ਨਹੀਂ ਰਹਿੰਦਾ।", "roman": "mammī dā bī.pī. ṭhīk nahī̀ṃ ráindā.", "en": "Mum's blood pressure is often not right.", "focus": "ਰਹਿੰਦਾ", "wrong": ["ਰਹਿੰਦੀ|ráindī", "ਰਹਿੰਦੇ|ráinde"] },
+        { "native": "ਮੈਂ ਦਸ ਸਾਲਾਂ ਤੋਂ ਸ਼ੂਗਰ ਦਾ ਮਰੀਜ਼ ਹਾਂ।", "roman": "maiṃ das sālāṃ toṃ shūgar dā marīz hāṃ.", "en": "I've been diabetic for ten years.", "focus": "ਦਾ", "wrong": ["ਦੀ|dī", "ਨੂੰ|nūṃ"] },
+        { "native": "ਮੈਂ ਬੀ.ਪੀ. ਦੀ ਦਵਾਈ ਰੋਜ਼ ਲੈਂਦਾ ਹਾਂ।", "roman": "maiṃ bī.pī. dī davāī roz laindā hāṃ.", "en": "I take blood pressure medicine every day.", "focus": "ਦੀ", "wrong": ["ਦਾ|dā", "ਦੇ|de"] },
+        { "native": "ਇਸ ਦਾ ਇਲਾਜ ਲੰਮਾ ਚੱਲੇਗਾ।", "roman": "is dā ilāj lammā challegā.", "en": "The treatment for this will take a long time.", "focus": "ਲੰਮਾ", "wrong": ["ਲੰਮੀ|lammī", "ਲੰਮੇ|lamme"] },
+        { "native": "ਦਾਦੀ ਜੀ ਦਾ ਪਿਛਲੇ ਸਾਲ ਆਪਰੇਸ਼ਨ ਹੋਇਆ ਸੀ।", "roman": "dādī jī dā pichhle sāl āpreshan hoiā sī.", "en": "Grandma had an operation last year.", "focus": "ਹੋਇਆ", "wrong": ["ਹੋਈ|hoī", "ਹੋਏ|hoe"] },
+        { "native": "ਡਾਕਟਰ ਸਾਹਿਬ, ਇਸ ਮਰੀਜ਼ ਨੂੰ ਜਲਦੀ ਵੇਖ ਲਓ।", "roman": "ḍākṭar sā́b, is marīz nūṃ jaldī vekh lao.", "en": "Doctor, please see this patient quickly." }
+      ]
+    },
+    {
+      "title": "Following the doctor's instructions",
+      "tip": { "title": "Doctor's orders: ਲੈਣੀ ਹੈ, ਪੀਣਾ ਹੈ", "body": "- Instructions often use **infinitive + ਹੈ**: ਇਹ ਗੋਲੀ ਰੋਟੀ ਤੋਂ ਬਾਅਦ **ਲੈਣੀ ਹੈ**.\n- The infinitive agrees with the object: ਗੋਲੀ **ਲੈਣੀ** (f), ਸੀਰਪ **ਪੀਣਾ** (m), ਗੋਲੀਆਂ **ਲੈਣੀਆਂ** (f pl).\n- Timing: ਦਿਨ ਵਿੱਚ ਦੋ ਵਾਰ, ਸਵੇਰੇ-ਸ਼ਾਮ, **ਸੌਣ** ਤੋਂ ਪਹਿਲਾਂ, ਖ਼ਾਲੀ ਪੇਟ.", "pattern": "thing + infinitive (agreeing) + ਹੈ", "grammar": 1 },
+      "new": ["ਖ਼ੁਰਾਕ", "ਸੀਰਪ", "ਖ਼ਾਲੀ ਪੇਟ", "ਪਰਹੇਜ਼", "ਟੀਕਾ", "ਦਿਨ ਵਿੱਚ ਦੋ ਵਾਰ, ਰੋਟੀ ਤੋਂ ਬਾਅਦ।", "ਇਹ ਗੋਲੀ ਖ਼ਾਲੀ ਪੇਟ ਲੈਣੀ ਹੈ।", "ਤਲੀਆਂ ਚੀਜ਼ਾਂ ਤੋਂ ਪਰਹੇਜ਼ ਕਰੋ।"],
+      "sentences": [
+        { "native": "ਇਹ ਗੋਲੀਆਂ ਦਿਨ ਵਿੱਚ ਤਿੰਨ ਵਾਰ ਲੈਣੀਆਂ ਹਨ।", "roman": "é golīāṃ din vich tinn vār laiṇīāṃ han.", "en": "These tablets are to be taken three times a day.", "focus": "ਲੈਣੀਆਂ", "wrong": ["ਲੈਣੀ|laiṇī", "ਲੈਣਾ|laiṇā"] },
+        { "native": "ਸੀਰਪ ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ ਪੀਣਾ ਹੈ, ਦੋ ਚਮਚੇ।", "roman": "sīrap sauṇ toṃ páilāṃ pīṇā hai, do chamche.", "en": "Take the syrup before bed — two spoonfuls.", "focus": "ਪੀਣਾ", "wrong": ["ਪੀਣੀ|pīṇī", "ਪੀਣੇ|pīṇe"] },
+        { "native": "ਇਹ ਵਾਲੀ ਗੋਲੀ ਸਵੇਰੇ ਖ਼ਾਲੀ ਪੇਟ ਖਾਣੀ ਹੈ।", "roman": "é vālī golī savere xālī peṭ khāṇī hai.", "en": "This tablet is to be taken in the morning on an empty stomach.", "focus": "ਖਾਣੀ", "wrong": ["ਖਾਣਾ|khāṇā", "ਖਾਣੇ|khāṇe"] },
+        { "native": "ਦਵਾਈ ਪੰਜ ਦਿਨ ਲਗਾਤਾਰ ਲੈਣੀ ਹੈ, ਵਿੱਚ ਨਹੀਂ ਛੱਡਣੀ।", "roman": "davāī panj din lagātār laiṇī hai, vich nahī̀ṃ chhaḍḍṇī.", "en": "Take the medicine for five days in a row — don't stop halfway.", "focus": "ਛੱਡਣੀ", "wrong": ["ਛੱਡਣਾ|chhaḍḍṇā", "ਛੱਡੀ|chhaḍḍī"] },
+        { "native": "ਬੱਚੇ ਦੀ ਖ਼ੁਰਾਕ ਅੱਧਾ ਚਮਚਾ ਹੈ।", "roman": "bachche dī xurāk áddā chamchā hai.", "en": "The child's dose is half a spoon.", "focus": "ਅੱਧਾ", "wrong": ["ਅੱਧੀ|áddī", "ਅੱਧੇ|ádde"] },
+        { "native": "ਤਿੱਖੀਆਂ ਚੀਜ਼ਾਂ ਤੋਂ ਪਰਹੇਜ਼ ਕਰਨਾ ਹੈ।", "roman": "tikkhīāṃ chīzāṃ toṃ parhèz karnā hai.", "en": "You need to avoid spicy food.", "focus": "ਤੋਂ", "wrong": ["ਨੂੰ|nūṃ", "ਦਾ|dā"] },
+        { "native": "ਗੋਲੀ ਖਾਣ ਤੋਂ ਬਾਅਦ ਅੱਧਾ ਘੰਟਾ ਕੁਝ ਨਾ ਖਾਓ।", "roman": "golī khāṇ toṃ bāad áddā kàṇṭā kúj nā khāo.", "en": "Don't eat anything for half an hour after taking the tablet.", "focus": "ਖਾਣ", "wrong": ["ਖਾਣਾ|khāṇā", "ਖਾਧਾ|khā́dā"] },
+        { "native": "ਨਰਸ ਟੀਕਾ ਲਾ ਦੇਵੇਗੀ, ਡਰੋ ਨਾ।", "roman": "nars ṭīkā lā devegī, ḍaro nā.", "en": "The nurse will give you the injection, don't be scared.", "focus": "ਦੇਵੇਗੀ", "wrong": ["ਦੇਵੇਗਾ|devegā", "ਦੇਣਗੇ|deṇge"] },
+        { "native": "ਤਿੰਨ ਦਿਨਾਂ ਬਾਅਦ ਫਿਰ ਆਇਓ।", "roman": "tinn dināṃ bāad phir āio.", "en": "Come back in three days.", "focus": "ਆਇਓ", "wrong": ["ਆਇਆ|āiā", "ਆਉਂਦੇ|āunde"] },
+        { "native": "ਪਾਣੀ ਜ਼ਿਆਦਾ ਪੀਓ ਤੇ ਆਰਾਮ ਕਰੋ।", "roman": "pāṇī ziādā pīo te ārām karo.", "en": "Drink plenty of water and rest." }
+      ]
+    },
+    {
+      "title": "Tests, appointments and getting better",
+      "tip": { "title": "Getting a test done: ਕਰਵਾਉਣਾ", "body": "- You don't 'do' a test, you **get it done**: ਟੈਸਟ **ਕਰਵਾਉਣਾ**, ਐਕਸ-ਰੇ **ਕਰਵਾਉਣਾ**, ਟੀਕਾ **ਲਗਵਾਉਣਾ** (unit 25).\n- 'I need to get…': ਮੈਂ ਟੈਸਟ **ਕਰਵਾਉਣਾ** ਹੈ; plural ਟੈਸਟ **ਕਰਵਾਉਣੇ** ਹਨ.\n- Booking: **ਡਾਕਟਰ ਤੋਂ ਟਾਈਮ ਲੈਣਾ**. Progress: **ਕੋਈ ਫ਼ਰਕ ਪਿਆ?**", "pattern": "ਟੈਸਟ / ਐਕਸ-ਰੇ + ਕਰਵਾਉਣਾ" },
+      "new": ["ਟੈਸਟ", "ਖ਼ੂਨ", "ਐਕਸ-ਰੇ", "ਅਪੌਇੰਟਮੈਂਟ", "ਕਲੀਨਿਕ", "ਫ਼ਰਕ", "ਖ਼ੂਨ ਦਾ ਟੈਸਟ ਕਰਵਾਓ।", "ਮੈਂ ਡਾਕਟਰ ਤੋਂ ਟਾਈਮ ਲੈਣਾ ਹੈ।", "ਕੋਈ ਫ਼ਰਕ ਪਿਆ?", "ਹਾਂ ਜੀ, ਪਹਿਲਾਂ ਨਾਲ਼ੋਂ ਠੀਕ ਹਾਂ।"],
+      "sentences": [
+        { "native": "ਡਾਕਟਰ ਨੇ ਖ਼ੂਨ ਦਾ ਟੈਸਟ ਕਰਵਾਉਣ ਲਈ ਕਿਹਾ ਹੈ।", "roman": "ḍākṭar ne xūn dā ṭaisṭ karvāuṇ laī kihā̀ hai.", "en": "The doctor has asked me to get a blood test.", "focus": "ਕਰਵਾਉਣ", "wrong": ["ਕਰਨ|karan", "ਕਰਵਾਇਆ|karvāiā"] },
+        { "native": "ਮੈਂ ਕੱਲ੍ਹ ਸਵੇਰੇ ਖ਼ਾਲੀ ਪੇਟ ਟੈਸਟ ਕਰਵਾਉਣਾ ਹੈ।", "roman": "maiṃ káll savere xālī peṭ ṭaisṭ karvāuṇā hai.", "en": "I've got to have a fasting test tomorrow morning.", "focus": "ਕਰਵਾਉਣਾ", "wrong": ["ਕਰਵਾਉਣੀ|karvāuṇī", "ਕਰਵਾਉਣੇ|karvāuṇe"] },
+        { "native": "ਲੱਤ ਦਾ ਐਕਸ-ਰੇ ਕਰਵਾਉਣਾ ਪਵੇਗਾ।", "roman": "latt dā aikas-re karvāuṇā pavegā.", "en": "You'll need to get your leg X-rayed.", "focus": "ਕਰਵਾਉਣਾ", "wrong": ["ਕਰਵਾਉਣੀ|karvāuṇī", "ਕਰਵਾਇਆ|karvāiā"] },
+        { "native": "ਦਵਾਈ ਨਾਲ਼ ਕੋਈ ਫ਼ਰਕ ਨਹੀਂ ਪਿਆ, ਹੋਰ ਟੈਸਟ ਕਰਵਾਉਣੇ ਪੈਣਗੇ।", "roman": "davāī nāḷ koī farak nahī̀ṃ piā, hor ṭaisṭ karvāuṇe paiṇge.", "en": "The medicine hasn't helped — more tests will be needed.", "focus": "ਕਰਵਾਉਣੇ", "wrong": ["ਕਰਵਾਉਣਾ|karvāuṇā", "ਕਰਵਾਉਣੀਆਂ|karvāuṇīāṃ"] },
+        { "native": "ਰਿਪੋਰਟ ਕਦੋਂ ਮਿਲੇਗੀ?", "roman": "riporṭ kadoṃ milegī?", "en": "When will I get the report?", "focus": "ਮਿਲੇਗੀ", "wrong": ["ਮਿਲੇਗਾ|milegā", "ਮਿਲਣਗੇ|milaṇge"] },
+        { "native": "ਮੈਂ ਸੋਮਵਾਰ ਦੀ ਅਪੌਇੰਟਮੈਂਟ ਲੈ ਲਈ ਹੈ।", "roman": "maiṃ somvār dī apauinṭmainṭ lai laī hai.", "en": "I've booked an appointment for Monday.", "focus": "ਲਈ", "wrong": ["ਲਿਆ|liā", "ਲਏ|lae"] },
+        { "native": "ਪਹਿਲਾਂ ਨਾਲ਼ੋਂ ਕਾਫ਼ੀ ਫ਼ਰਕ ਹੈ, ਬੁਖ਼ਾਰ ਉਤਰ ਗਿਆ।", "roman": "páilāṃ nāḷoṃ kāfī farak hai, buxār utar giā.", "en": "I'm a lot better than before — the fever's gone down.", "focus": "ਗਿਆ", "wrong": ["ਗਈ|gaī", "ਗਏ|gae"] },
+        { "native": "ਕਲੀਨਿਕ ਪੰਜ ਵਜੇ ਤੱਕ ਬੰਦ ਹੈ।", "roman": "kalīnik panj vaje takk band hai.", "en": "The clinic's closed until five." },
+        { "native": "ਮੈਂ ਡਾਕਟਰ ਤੋਂ ਟਾਈਮ ਲੈ ਕੇ ਕਲੀਨਿਕ ਜਾਵਾਂਗੀ।", "roman": "maiṃ ḍākṭar toṃ ṭāim lai ke kalīnik jāvāṅgī.", "en": "I'll make an appointment and go to the clinic. (woman speaking)" },
+        { "native": "ਹਾਂ ਜੀ, ਹੁਣ ਮੈਂ ਬਿਲਕੁਲ ਠੀਕ ਹਾਂ।", "roman": "hāṃ jī, huṇ maiṃ bilkul ṭhīk hāṃ.", "en": "Yes, I'm completely fine now." }
+      ]
+    }
+  ]
+}
