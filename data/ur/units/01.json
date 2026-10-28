@@ -90,5 +90,98 @@
       { "speaker": "Bilal", "native": "خدا حافظ! پھر ملیں گے۔", "roman": "xudā hāfiz! phir mileṃge.", "en": "Goodbye! See you again." }
     ]
   },
-  "culture": "In Pakistan, السلام علیکم is used by everyone to everyone; the younger or arriving person usually greets first. Men often shake hands (with the right hand, sometimes both hands) and close friends hug; between men and women, wait to see if a hand is offered — a nod with the right hand on the chest is a warm, safe alternative. **جی** is the magic word of Urdu politeness: use it to answer the phone, to say yes, and after names (امی جی، احمد جی). In India, آداب and نمستے are also used by Urdu speakers depending on the company."
+  "culture": "In Pakistan, السلام علیکم is used by everyone to everyone; the younger or arriving person usually greets first. Men often shake hands (with the right hand, sometimes both hands) and close friends hug; between men and women, wait to see if a hand is offered — a nod with the right hand on the chest is a warm, safe alternative. **جی** is the magic word of Urdu politeness: use it to answer the phone, to say yes, and after names (امی جی، احمد جی). In India, آداب and نمستے are also used by Urdu speakers depending on the company.",
+  "lessons": [
+    {
+      "title": "Hello, how are you?",
+      "tip": { "title": "The verb goes last", "body": "- Urdu puts the verb at the **end**: میں ٹھیک ہوں is literally 'I fine am'.\n- **ہوں** = am (with میں), **ہیں** = are (with آپ).\n- 'How' sits just before the verb, and agrees: **کیسے** to a man, **کیسی** to a woman.", "pattern": "میں + ٹھیک + ہوں  ·  آپ + کیسے + ہیں؟", "grammar": 0 },
+      "new": ["السلام علیکم", "وعلیکم السلام", "آپ", "کیسا", "ٹھیک", "شکریہ", "آپ کیسے ہیں؟", "آپ کیسی ہیں؟", "میں ٹھیک ہوں، شکریہ۔", "اور آپ؟"],
+      "sentences": [
+        { "native": "السلام علیکم، آپ کیسے ہیں؟", "roman": "assalāmu ʿalaikum, āp kaise haiṃ?", "en": "Hello, how are you? (to a man)", "focus": "ہیں", "wrong": ["ہوں|hūṃ", "ہے|hai"] },
+        { "native": "وعلیکم السلام، میں ٹھیک ہوں۔", "roman": "vaʿalaikum assalām, maiṃ ṭhīk hūṃ.", "en": "Hello, I'm fine.", "focus": "ہوں", "wrong": ["ہیں|haiṃ", "ہے|hai"] },
+        { "native": "السلام علیکم، آپ کیسی ہیں؟", "roman": "assalāmu ʿalaikum, āp kaisī haiṃ?", "en": "Hello, how are you? (to a woman)", "focus": "کیسی", "wrong": ["کیسے|kaise", "کیسا|kaisā"] },
+        { "native": "آپ ٹھیک ہیں؟", "roman": "āp ṭhīk haiṃ?", "en": "Are you OK?", "focus": "ہیں", "wrong": ["ہوں|hūṃ", "ہے|hai"] },
+        { "native": "شکریہ، میں ٹھیک ہوں۔", "roman": "shukriya, maiṃ ṭhīk hūṃ.", "en": "Thanks, I'm fine.", "focus": "ہوں", "wrong": ["ہیں|haiṃ", "ہے|hai"] },
+        { "native": "میں ٹھیک ہوں، آپ کیسے ہیں؟", "roman": "maiṃ ṭhīk hūṃ, āp kaise haiṃ?", "en": "I'm fine, how are you? (to a man)", "focus": "کیسے", "wrong": ["کیسی|kaisī", "کیسا|kaisā"] },
+        { "native": "وعلیکم السلام، شکریہ۔ اور آپ؟", "roman": "vaʿalaikum assalām, shukriya. aur āp?", "en": "Hello, thank you. And you?" }
+      ]
+    },
+    {
+      "title": "Yes, no and polite jī",
+      "tip": { "title": "Yes, no — and 'not' before the verb", "body": "- **ہاں** = yes, **نہیں** = no. Add **جی** to sound polite: جی ہاں, جی نہیں.\n- نہیں also means 'not', and it goes **just before the verb**: میں ٹھیک **نہیں** ہوں.\n- **ٹھیک ہے** = OK, fine. **اچھا** = OK / I see / really?", "pattern": "… + نہیں + ہوں / ہے / ہیں", "grammar": 0 },
+      "new": ["ہاں", "جی", "جی ہاں", "نہیں", "جی نہیں", "اچھا", "سب ٹھیک ہے۔", "جی؟", "ٹھیک ہے۔"],
+      "sentences": [
+        { "native": "جی نہیں، میں ٹھیک نہیں ہوں۔", "roman": "jī nahīṃ, maiṃ ṭhīk nahīṃ hūṃ.", "en": "No, I'm not well. (polite)", "focus": "جی", "wrong": ["ہاں|hāṃ", "سب|sab"] },
+        { "native": "ہاں، سب ٹھیک ہے۔", "roman": "hāṃ, sab ṭhīk hai.", "en": "Yes, everything's fine.", "focus": "ہے", "wrong": ["ہوں|hūṃ", "ہیں|haiṃ"] },
+        { "native": "اچھا، آپ ٹھیک نہیں ہیں؟", "roman": "achchhā, āp ṭhīk nahīṃ haiṃ?", "en": "Oh, you're not well?", "focus": "نہیں", "wrong": ["ہاں|hāṃ", "جی|jī"] },
+        { "native": "سب ٹھیک نہیں ہے۔", "roman": "sab ṭhīk nahīṃ hai.", "en": "Not everything is fine.", "focus": "نہیں", "wrong": ["ہاں|hāṃ", "جی|jī"] },
+        { "native": "کیا سب ٹھیک ہے؟", "roman": "kyā sab ṭhīk hai?", "en": "Is everything OK?", "focus": "ہے", "wrong": ["ہوں|hūṃ", "ہیں|haiṃ"] },
+        { "native": "جی ہاں، میں بھی ٹھیک ہوں۔", "roman": "jī hāṃ, maiṃ bhī ṭhīk hūṃ.", "en": "Yes, I'm fine too.", "focus": "ہاں", "wrong": ["نہیں|nahīṃ", "اچھا|achchhā"] },
+        { "native": "اچھا، ٹھیک ہے۔", "roman": "achchhā, ṭhīk hai.", "en": "Right, OK." },
+        { "native": "جی؟ آپ ٹھیک ہیں؟", "roman": "jī? āp ṭhīk haiṃ?", "en": "Pardon? Are you OK?" }
+      ]
+    },
+    {
+      "title": "Thank you, sorry, no problem",
+      "tip": { "title": "Thanks and sorry", "body": "- **شکریہ** = thanks; **بہت شکریہ** = thanks a lot. **آپ کی مہربانی** = that's kind of you.\n- **معاف کیجیے** = excuse me / sorry (to get attention or apologise).\n- **افسوس** is sympathy: بہت افسوس ہوا = I'm so sorry to hear that.\n- The answer to thanks or sorry: **کوئی بات نہیں** — no problem." },
+      "new": ["بہت", "مہربانی", "براہ کرم", "معاف", "معافی", "افسوس", "بہت شکریہ!", "کوئی بات نہیں۔", "معاف کیجیے۔"],
+      "sentences": [
+        { "native": "آپ کی بہت مہربانی۔", "roman": "āp kī bahut meharbānī.", "en": "That's very kind of you.", "focus": "مہربانی", "wrong": ["معافی|muʿāfī", "افسوس|afsos"] },
+        { "native": "بہت بہت شکریہ!", "roman": "bahut bahut shukriya!", "en": "Thank you so much!", "focus": "شکریہ", "wrong": ["معافی|muʿāfī", "افسوس|afsos"] },
+        { "native": "معاف کیجیے، آپ ٹھیک ہیں؟", "roman": "muʿāf kījiye, āp ṭhīk haiṃ?", "en": "Excuse me, are you OK?", "focus": "معاف", "wrong": ["افسوس|afsos", "شکریہ|shukriya"] },
+        { "native": "کوئی بات نہیں، سب ٹھیک ہے۔", "roman": "ko’ī bāt nahīṃ, sab ṭhīk hai.", "en": "Never mind, it's all fine." },
+        { "native": "میں معافی چاہتا ہوں۔", "roman": "maiṃ muʿāfī chāhtā hūṃ.", "en": "I apologise. (man speaking)", "focus": "معافی", "wrong": ["مہربانی|meharbānī", "شکریہ|shukriya"] },
+        { "native": "بہت افسوس ہوا۔", "roman": "bahut afsos hu’ā.", "en": "I'm so sorry to hear that.", "focus": "افسوس", "wrong": ["معافی|muʿāfī", "مہربانی|meharbānī"] },
+        { "native": "براہ کرم مجھے معاف کیجیے۔", "roman": "barāh-e karam mujhe muʿāf kījiye.", "en": "Please forgive me. (formal)", "focus": "معاف", "wrong": ["شکریہ|shukriya", "افسوس|afsos"] },
+        { "native": "جی نہیں، شکریہ۔", "roman": "jī nahīṃ, shukriya.", "en": "No, thank you." }
+      ]
+    },
+    {
+      "title": "Friends, elders and sir",
+      "tip": { "title": "Three ways to say 'you'", "body": "- **آپ** (respectful) → **ہیں**: strangers, elders, shopkeepers. When unsure, use آپ.\n- **تم** (friendly) → **ہو**: friends your age, younger people.\n- **تو** (intimate) → **ہے**: very close friends only; to anyone else it's rude.\n- Add **صاحب** after a name, or say **جناب**, for extra respect.", "pattern": "آپ … ہیں  ·  تم … ہو  ·  تو … ہے", "grammar": 1 },
+      "new": ["تم", "تو", "جناب", "صاحب", "کیا حال ہے؟"],
+      "sentences": [
+        { "native": "تم ٹھیک ہو؟", "roman": "tum ṭhīk ho?", "en": "Are you OK? (to a friend)", "focus": "ہو", "wrong": ["ہیں|haiṃ", "ہے|hai"] },
+        { "native": "کیا حال ہے، تم کیسی ہو؟", "roman": "kyā hāl hai, tum kaisī ho?", "en": "What's up, how are you? (to a female friend)", "focus": "ہو", "wrong": ["ہیں|haiṃ", "ہوں|hūṃ"] },
+        { "native": "تو ٹھیک ہے؟", "roman": "tū ṭhīk hai?", "en": "You OK? (to a very close friend)", "focus": "ہے", "wrong": ["ہو|ho", "ہیں|haiṃ"] },
+        { "native": "احمد صاحب، آپ ٹھیک ہیں؟", "roman": "Ahmad sāhab, āp ṭhīk haiṃ?", "en": "Mr Ahmed, are you all right?", "focus": "آپ", "wrong": ["تم|tum", "تو|tū"] },
+        { "native": "جناب، آپ کیسے ہیں؟", "roman": "janāb, āp kaise haiṃ?", "en": "How are you, sir?", "focus": "ہیں", "wrong": ["ہو|ho", "ہے|hai"] },
+        { "native": "اچھا، تم بھی ٹھیک ہو؟", "roman": "achchhā, tum bhī ṭhīk ho?", "en": "Oh, you're fine too? (to a friend)", "focus": "ہو", "wrong": ["ہیں|haiṃ", "ہوں|hūṃ"] },
+        { "native": "جی جناب، سب ٹھیک ہے۔", "roman": "jī janāb, sab ṭhīk hai.", "en": "Yes sir, all's well." },
+        { "native": "کیا حال ہے، احمد صاحب؟", "roman": "kyā hāl hai, Ahmad sāhab?", "en": "How's it going, Mr Ahmed?" },
+        { "native": "میں ٹھیک ہوں، اور تم؟", "roman": "maiṃ ṭhīk hūṃ, aur tum?", "en": "I'm fine, and you? (to a friend)", "focus": "تم", "wrong": ["آپ|āp", "میں|maiṃ"] }
+      ]
+    },
+    {
+      "title": "Welcome, good morning, nice to meet you",
+      "tip": { "title": "Greetings for every time of day", "body": "- **السلام علیکم** works at any hour; **سلام** is the short, friendly version.\n- **صبح بخیر** good morning, **شب بخیر** good night; **آداب** is a respectful, traditional hello.\n- Asked how you are, people often answer **الحمد للہ** — 'fine, thank God'." },
+      "new": ["سلام", "آداب", "خوش آمدید", "صبح بخیر", "شب بخیر", "الحمد للہ", "آپ سے مل کر خوشی ہوئی۔"],
+      "sentences": [
+        { "native": "صبح بخیر، احمد صاحب!", "roman": "subah baxair, Ahmad sāhab!", "en": "Good morning, Mr Ahmed!", "focus": "صبح", "wrong": ["شب|shab"] },
+        { "native": "شب بخیر، جناب۔", "roman": "shab baxair, janāb.", "en": "Good night, sir.", "focus": "شب", "wrong": ["صبح|subah"] },
+        { "native": "الحمد للہ، سب ٹھیک ہے۔", "roman": "alhamdu lillāh, sab ṭhīk hai.", "en": "All's well, thank God." },
+        { "native": "جی، الحمد للہ۔ اور آپ؟", "roman": "jī, alhamdu lillāh. aur āp?", "en": "Fine, thank God. And you?" },
+        { "native": "خوش آمدید، احمد صاحب!", "roman": "xush āmdīd, Ahmad sāhab!", "en": "Welcome, Mr Ahmed!" },
+        { "native": "آپ سے مل کر بہت خوشی ہوئی۔", "roman": "āp se mil kar bahut xushī hu’ī.", "en": "Very nice to meet you." },
+        { "native": "مجھے بھی آپ سے مل کر خوشی ہوئی۔", "roman": "mujhe bhī āp se mil kar xushī hu’ī.", "en": "Nice to meet you too." },
+        { "native": "سلام، کیا حال ہے؟", "roman": "salām, kyā hāl hai?", "en": "Hi, how's it going?" },
+        { "native": "آداب، آپ کیسی ہیں؟", "roman": "ādāb, āp kaisī haiṃ?", "en": "Greetings, how are you? (to a woman)" }
+      ]
+    },
+    {
+      "title": "Saying goodbye",
+      "tip": { "title": "Goodbye, God willing", "body": "- **خدا حافظ** and **اللہ حافظ** both mean goodbye ('may God protect you').\n- **پھر ملیں گے** = see you again.\n- Say **ان شاء اللہ** about anything in the future: it means 'God willing, hopefully'." },
+      "new": ["خدا حافظ", "اللہ حافظ", "ان شاء اللہ", "پھر ملیں گے۔"],
+      "sentences": [
+        { "native": "اچھا، خدا حافظ!", "roman": "achchhā, xudā hāfiz!", "en": "OK, goodbye!" },
+        { "native": "شکریہ، اللہ حافظ!", "roman": "shukriya, allāh hāfiz!", "en": "Thanks, bye!" },
+        { "native": "ان شاء اللہ، پھر ملیں گے۔", "roman": "in shā’ allāh, phir mileṃ ge.", "en": "Hopefully we'll meet again." },
+        { "native": "جی، ان شاء اللہ۔", "roman": "jī, in shā’ allāh.", "en": "Yes, God willing." },
+        { "native": "پھر ملیں گے، خدا حافظ!", "roman": "phir mileṃ ge, xudā hāfiz!", "en": "See you, goodbye!" },
+        { "native": "شب بخیر، پھر ملیں گے۔", "roman": "shab baxair, phir mileṃ ge.", "en": "Good night, see you." },
+        { "native": "اللہ حافظ، احمد صاحب۔", "roman": "allāh hāfiz, Ahmad sāhab.", "en": "Goodbye, Mr Ahmed." },
+        { "native": "اچھا جی، خدا حافظ۔", "roman": "achchhā jī, xudā hāfiz.", "en": "Right then, goodbye." }
+      ]
+    }
+  ]
 }

@@ -89,5 +89,86 @@
       { "speaker": "Lena", "native": "অনেক ধন্যবাদ! আপনি সবচেয়ে ভালো মানুষ!", "roman": "ônek dhonnobad! apni shôbcheye bhalo manush!", "en": "Thank you so much! You're the best!" }
     ]
   },
-  "culture": "Colours carry meaning: brides traditionally wear red (লাল) and Bengali Hindu married women wear red vermilion (সিঁদুর) and red-and-white bangles; white is the colour of mourning and widowhood. On Pohela Boishakh, red-and-white saris and panjabis fill the streets. Comments on someone's weight (মোটা হয়েছ! 'you've put on weight!') are common and not meant as insults."
+  "culture": "Colours carry meaning: brides traditionally wear red (লাল) and Bengali Hindu married women wear red vermilion (সিঁদুর) and red-and-white bangles; white is the colour of mourning and widowhood. On Pohela Boishakh, red-and-white saris and panjabis fill the streets. Comments on someone's weight (মোটা হয়েছ! 'you've put on weight!') are common and not meant as insults.",
+  "lessons": [
+    {
+      "title": "Colours",
+      "tip": { "title": "Adjectives never change", "grammar": 0, "body": "- An adjective goes **before** the noun and never changes: লাল ব্যাগ, লাল ব্যাগগুলো 'the red bags'.\n- Add **-টা** to make 'the … one': লাল**টা** 'the red one', সবুজ**টা** 'the green one'.\n- 'What colour?' = কী রং?", "pattern": "adjective + noun  ·  লাল + টা = the red one" },
+      "new": ["রং", "লাল", "নীল", "সবুজ", "হলুদ", "কালো", "সাদা", "সুন্দর", "এটা কী রং?", "আকাশটা কী সুন্দর নীল!"],
+      "sentences": [
+        { "native": "এটা কী রং? এটা সবুজ।", "roman": "æṭa ki rôṅ? æṭa shobuj.", "en": "What colour is this? It's green.", "focus": "সবুজ", "wrong": ["লাল|lal", "নীল|nil"] },
+        { "native": "আমার একটা লাল ব্যাগ আছে।", "roman": "amar ækṭa lal bæg achhe.", "en": "I have a red bag.", "focus": "লাল", "wrong": ["সাদা|shada", "কালো|kalo"] },
+        { "native": "আজ আকাশটা কী সুন্দর নীল!", "roman": "aj akashṭa ki shundor nil!", "en": "What a beautiful blue the sky is today!", "focus": "নীল", "wrong": ["হলুদ|holud", "সবুজ|shobuj"] },
+        { "native": "বাড়িটা সাদা, দরজাটা সবুজ।", "roman": "baṛiṭa shada, dôrjaṭa shobuj.", "en": "The house is white, the door is green.", "focus": "সাদা", "wrong": ["কালো|kalo", "লাল|lal"] },
+        { "native": "আমি সবুজটা নেব, কালোটা না।", "roman": "ami shobujṭa nebo, kaloṭa na.", "en": "I'll take the green one, not the black one.", "focus": "সবুজটা", "wrong": ["সবুজের|shobujer", "সবুজে|shobuje"] },
+        { "native": "দেয়ালগুলো হলুদ, খুব সুন্দর।", "roman": "deyalgulo holud, khub shundor.", "en": "The walls are yellow, very pretty.", "focus": "হলুদ", "wrong": ["নীল|nil", "কালো|kalo"] },
+        { "native": "কালো ব্যাগটা কার?", "roman": "kalo bægṭa kar?", "en": "Whose is the black bag?", "focus": "কালো", "wrong": ["সাদা|shada", "লাল|lal"] },
+        { "native": "আলমারিটা কী রং?", "roman": "almariṭa ki rôṅ?", "en": "What colour is the wardrobe?" },
+        { "native": "লাল রং আমার খুব ভালো লাগে।", "roman": "lal rôṅ amar khub bhalo lage.", "en": "I really like the colour red." }
+      ]
+    },
+    {
+      "title": "Big, small, tall, short",
+      "tip": { "title": "\"The house is big\": no verb", "grammar": 0, "body": "- To say 'X is big', just put the adjective after X: বাড়িটা **বড়**.\n- বড় and ছোট also mean **elder** and **younger**: বড় ভাই 'elder brother', ছোট বোন 'younger sister'.\n- **লম্বা** tall / long · **বেঁটে** short (person) · **মোটা** fat · **রোগা** thin.", "pattern": "noun + টা + adjective" },
+      "new": ["বড়", "ছোট", "লম্বা", "বেঁটে", "মোটা", "রোগা", "বুড়ো", "একটু ছোট আছে?"],
+      "sentences": [
+        { "native": "আমাদের বাড়িটা খুব বড়।", "roman": "amader baṛiṭa khub bôṛo.", "en": "Our house is very big.", "focus": "বড়", "wrong": ["ছোট|chhoṭo", "বেঁটে|beṃṭe"] },
+        { "native": "এটা একটু বড়, একটু ছোট আছে?", "roman": "æṭa ekṭu bôṛo, ekṭu chhoṭo achhe?", "en": "This is a bit big, is there a slightly smaller one?", "focus": "ছোট", "wrong": ["বড়|bôṛo", "লম্বা|lômba"] },
+        { "native": "আমার ছোট বোন খুব লম্বা।", "roman": "amar chhoṭo bon khub lômba.", "en": "My younger sister is very tall.", "focus": "ছোট", "wrong": ["বড়|bôṛo", "বুড়ো|buṛo"] },
+        { "native": "আমার বড় ভাই ঢাকায় থাকে।", "roman": "amar bôṛo bhai ḍhakay thake.", "en": "My elder brother lives in Dhaka.", "focus": "বড়", "wrong": ["ছোট|chhoṭo", "লম্বা|lômba"] },
+        { "native": "ও লম্বা না, একটু বেঁটে।", "roman": "o lômba na, ekṭu beṃṭe.", "en": "He/she isn't tall, a bit short.", "focus": "বেঁটে", "wrong": ["লম্বা|lômba", "মোটা|moṭa"] },
+        { "native": "বিড়ালটা খুব মোটা!", "roman": "biṛalṭa khub moṭa!", "en": "The cat is so fat!", "focus": "মোটা", "wrong": ["রোগা|roga", "লম্বা|lômba"] },
+        { "native": "তুমি খুব রোগা, একটু বেশি খাও।", "roman": "tumi khub roga, ekṭu beshi khao.", "en": "You're so thin, eat a bit more.", "focus": "রোগা", "wrong": ["মোটা|moṭa", "বেঁটে|beṃṭe"] },
+        { "native": "বুড়ো লোকটা কে?", "roman": "buṛo lokṭa ke?", "en": "Who is the old man?" },
+        { "native": "ছোট বাচ্চারা বাইরে।", "roman": "chhoṭo bachchara baire.", "en": "The little kids are outside." }
+      ]
+    },
+    {
+      "title": "Easy, hard, new, old",
+      "tip": { "title": "Very, quite, not", "body": "- **খুব** very · **বেশ** quite, pretty · **একটু** a bit · **একদম** completely. They go before the adjective.\n- 'Not' goes after it: কঠিন **না** (everyday) / কঠিন **নয়** (careful).\n- **পুরনো** is old for things; for people use **বুড়ো** (informal) or বয়স্ক (polite)." },
+      "new": ["নতুন", "পুরনো", "খারাপ", "সহজ", "কঠিন", "বেশ", "বাংলা খুব কঠিন না।", "বেশ ভালো!"],
+      "sentences": [
+        { "native": "বাংলা খুব কঠিন না, বেশ সহজ।", "roman": "baṅla khub koṭhin na, besh shôhoj.", "en": "Bengali isn't very hard, it's quite easy." },
+        { "native": "এই প্রশ্নটা খুব কঠিন।", "roman": "ei proshnoṭa khub koṭhin.", "en": "This question is really hard.", "focus": "কঠিন", "wrong": ["সহজ|shôhoj", "হালকা|halka"] },
+        { "native": "না না, প্রশ্নটা সহজ।", "roman": "na na, proshnoṭa shôhoj.", "en": "No, no, the question is easy.", "focus": "সহজ", "wrong": ["কঠিন|koṭhin", "ভারী|bhari"] },
+        { "native": "আমার ফোনটা খুব পুরনো।", "roman": "amar phonṭa khub purono.", "en": "My phone is very old.", "focus": "পুরনো", "wrong": ["নতুন|notun", "বুড়ো|buṛo"] },
+        { "native": "নতুন ফোনটা কেমন?", "roman": "notun phonṭa kæmon?", "en": "How's the new phone?" },
+        { "native": "খাবারটা খারাপ না, বেশ ভালো।", "roman": "khabarṭa kharap na, besh bhalo.", "en": "The food isn't bad, it's pretty good." },
+        { "native": "কেমন আছো? বেশ ভালো!", "roman": "kæmon achho? besh bhalo!", "en": "How are you? Pretty good!" },
+        { "native": "আমার বাংলা খুব খারাপ।", "roman": "amar baṅla khub kharap.", "en": "My Bengali is really bad." },
+        { "native": "না, আপনার বাংলা বেশ ভালো!", "roman": "na, apnar baṅla besh bhalo!", "en": "No, your Bengali is quite good!" },
+        { "native": "পুরনো ঢাকা খুব সুন্দর।", "roman": "purono ḍhaka khub shundor.", "en": "Old Dhaka is really beautiful." }
+      ]
+    },
+    {
+      "title": "Hot, cold, heavy, clean",
+      "new": ["গরম", "ঠান্ডা", "ভারী", "হালকা", "পরিষ্কার", "নোংরা", "জলটা খুব ঠান্ডা।", "এই ব্যাগটা খুব ভারী।", "ঘরটা একদম পরিষ্কার।"],
+      "sentences": [
+        { "native": "জলটা খুব ঠান্ডা, একটু গরম জল দিন।", "roman": "jôlṭa khub ṭhanḍa, ekṭu gôrom jôl din.", "en": "The water is very cold, some warm water please.", "focus": "গরম", "wrong": ["ঠান্ডা|ṭhanḍa", "নোংরা|noṅra"] },
+        { "native": "চা ঠান্ডা হয়ে গেছে।", "roman": "cha ṭhanḍa hoye gechhe.", "en": "The tea has gone cold." },
+        { "native": "আজ খুব গরম।", "roman": "aj khub gôrom.", "en": "It's very hot today." },
+        { "native": "এই ব্যাগটা খুব ভারী, একটু হালকা আছে?", "roman": "ei bægṭa khub bhari, ekṭu halka achhe?", "en": "This bag is very heavy, is there a lighter one?", "focus": "হালকা", "wrong": ["ভারী|bhari", "মোটা|moṭa"] },
+        { "native": "ঘরটা একদম পরিষ্কার, খুব সুন্দর।", "roman": "ghôrṭa ækdôm porishkar, khub shundor.", "en": "The room is spotless, really lovely." },
+        { "native": "বাথরুমটা খুব নোংরা।", "roman": "bathrumṭa khub noṅra.", "en": "The bathroom is really dirty.", "focus": "নোংরা", "wrong": ["পরিষ্কার|porishkar", "হালকা|halka"] },
+        { "native": "জানালাগুলো পরিষ্কার না।", "roman": "janalagulo porishkar na.", "en": "The windows aren't clean." },
+        { "native": "হালকা নীল রংটা খুব সুন্দর।", "roman": "halka nil rôṅṭa khub shundor.", "en": "The light blue colour is lovely." }
+      ]
+    },
+    {
+      "title": "Bigger, better, the best",
+      "tip": { "title": "Than: -এর চেয়ে · most: সবচেয়ে", "grammar": 1, "body": "- The adjective doesn't change. Mark the thing you compare with: **-এর / -র চেয়ে** 'than': আমার **চেয়ে** লম্বা 'taller than me'.\n- **সবচেয়ে** + adjective = the most / -est: সবচেয়ে ভালো 'the best'.\n- **আরও** = even more: আরও গরম 'even hotter'.", "pattern": "A + B-এর চেয়ে + adjective  ·  সবচেয়ে + adjective" },
+      "new": ["চেয়ে", "সবচেয়ে", "আরও", "বাদামি", "গোলাপি", "আমার ভাই আমার চেয়ে লম্বা।", "এটা সবচেয়ে ভালো।", "লাল শাড়িটা নীলটার চেয়ে সুন্দর।"],
+      "sentences": [
+        { "native": "আমার ভাই আমার চেয়ে লম্বা, কিন্তু আমি ওর চেয়ে বড়।", "roman": "amar bhai amar cheye lômba, kintu ami or cheye bôṛo.", "en": "My brother is taller than me, but I'm older than him.", "focus": "চেয়ে", "wrong": ["সবচেয়ে|shôbcheye", "আরও|aro"] },
+        { "native": "বাংলা কি ইংরেজির চেয়ে সহজ?", "roman": "baṅla ki iṅrejir cheye shôhoj?", "en": "Is Bengali easier than English?", "focus": "ইংরেজির", "wrong": ["ইংরেজি|iṅreji", "ইংরেজিতে|iṅrejite"] },
+        { "native": "গোলাপি শাড়িটা বাদামিটার চেয়ে সুন্দর।", "roman": "golapi shaṛiṭa badamiṭar cheye shundor.", "en": "The pink sari is prettier than the brown one.", "focus": "বাদামিটার", "wrong": ["বাদামিটা|badamiṭa", "বাদামি|badami"] },
+        { "native": "নতুন ফোনটা পুরনোটার চেয়ে হালকা।", "roman": "notun phonṭa puronoṭar cheye halka.", "en": "The new phone is lighter than the old one.", "focus": "পুরনোটার", "wrong": ["পুরনোটা|puronoṭa", "পুরনো|purono"] },
+        { "native": "এটা সবচেয়ে ভালো, আমি এটা নেব।", "roman": "æṭa shôbcheye bhalo, ami æṭa nebo.", "en": "This one is the best, I'll take it.", "focus": "সবচেয়ে", "wrong": ["চেয়ে|cheye", "আরও|aro"] },
+        { "native": "ও আমাদের ক্লাসে সবচেয়ে লম্বা।", "roman": "o amader klase shôbcheye lômba.", "en": "He/she is the tallest in our class.", "focus": "সবচেয়ে", "wrong": ["চেয়ে|cheye", "আরও|aro"] },
+        { "native": "কোনটা সবচেয়ে সস্তা?", "roman": "konṭa shôbcheye shôsta?", "en": "Which one is the cheapest?", "focus": "সবচেয়ে", "wrong": ["চেয়ে|cheye", "আরও|aro"] },
+        { "native": "আজ আরও গরম।", "roman": "aj aro gôrom.", "en": "It's even hotter today.", "focus": "আরও", "wrong": ["সবচেয়ে|shôbcheye", "চেয়ে|cheye"] },
+        { "native": "লাল শাড়িটা সুন্দর, কিন্তু গোলাপিটা আরও সুন্দর।", "roman": "lal shaṛiṭa shundor, kintu golapiṭa aro shundor.", "en": "The red sari is pretty, but the pink one is even prettier.", "focus": "আরও", "wrong": ["সবচেয়ে|shôbcheye", "চেয়ে|cheye"] }
+      ]
+    }
+  ]
 }

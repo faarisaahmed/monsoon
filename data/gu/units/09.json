@@ -88,5 +88,86 @@
       { "speaker": "Kiran", "native": "આભાર, ડૉક્ટર સાહેબ.", "roman": "ābhār, ḍokṭar sāheb.", "en": "Thank you, doctor." }
     ]
   },
-  "culture": "Home remedies are a big part of Gujarati health culture: **હળદરવાળું દૂધ** (turmeric milk) for colds, **અજમો** (carom seeds) for stomach trouble, and ginger-tulsi tea for coughs. Expect friends and relatives to offer advice generously. 'Since two days' is said with **-થી**: **બે દિવસથી** 'for (the past) two days'."
+  "culture": "Home remedies are a big part of Gujarati health culture: **હળદરવાળું દૂધ** (turmeric milk) for colds, **અજમો** (carom seeds) for stomach trouble, and ginger-tulsi tea for coughs. Expect friends and relatives to offer advice generously. 'Since two days' is said with **-થી**: **બે દિવસથી** 'for (the past) two days'.",
+  "lessons": [
+    {
+      "title": "How are you feeling?",
+      "tip": { "title": "Asking about health", "body": "- **તબિયત** (f) is how you ask about health: તમારી તબિયત કેમ છે? → મારી તબિયત **સારી** છે / **સારી નથી**.\n- **બીમાર** 'ill' never changes.\n- **સાજું** 'well again' agrees: **સાજો** (m), **સાજી** (f), **સાજા** (respect, plural).", "pattern": "મારી તબિયત સારી છે / નથી" },
+      "new": ["તબિયત", "બીમાર", "સાજું", "તમારી તબિયત કેમ છે?", "મારી તબિયત સારી નથી.", "જલદી સાજા થઈ જાઓ!"],
+      "sentences": [
+        { "native": "દાદીની તબિયત કેમ છે?", "roman": "dādīnī tabiyat kem chhe?", "en": "How is Grandma's health?" },
+        { "native": "આજે મારી તબિયત સારી છે.", "roman": "āje mārī tabiyat sārī chhe.", "en": "I'm feeling well today.", "focus": "સારી", "wrong": ["સારો|sāro", "સારું|sāruṃ"] },
+        { "native": "મારો ભાઈ બીમાર છે.", "roman": "māro bhāī bīmār chhe.", "en": "My brother is ill." },
+        { "native": "મારા પપ્પા સાજા થઈ ગયા.", "roman": "mārā pappā sājā thaī gayā.", "en": "My dad has got better.", "focus": "સાજા", "wrong": ["સાજી|sājī", "સાજું|sājuṃ"] },
+        { "native": "મારી દીકરી બીમાર હતી, પણ આજે સાજી છે.", "roman": "mārī dīkrī bīmār hatī, paṇ āje sājī chhe.", "en": "My daughter was ill, but today she's well.", "focus": "સાજી", "wrong": ["સાજો|sājo", "સાજું|sājuṃ"] },
+        { "native": "તમે બીમાર છો?", "roman": "tame bīmār chho?", "en": "Are you ill?" },
+        { "native": "જલદી સાજો થઈ જા!", "roman": "jaldī sājo thaī jā!", "en": "Get well soon! (to a male friend)", "focus": "સાજો", "wrong": ["સાજી|sājī", "સાજું|sājuṃ"] },
+        { "native": "તમારી તબિયત સારી નથી?", "roman": "tamārī tabiyat sārī nathī?", "en": "Aren't you feeling well?", "focus": "સારી", "wrong": ["સારો|sāro", "સારું|sāruṃ"] },
+        { "native": "મારી બહેનની તબિયત સારી નથી.", "roman": "mārī bahennī tabiyat sārī nathī.", "en": "My sister isn't well.", "focus": "બહેનની", "wrong": ["બહેનનો|bahenno", "બહેનનું|bahennuṃ"] }
+      ]
+    },
+    {
+      "title": "Saying what hurts",
+      "tip": { "title": "Where does it hurt?", "body": "- The body part is the subject of **દુખે છે**: **મને** માથું દુખે છે 'I have a headache' (lit. 'to me the head hurts').\n- Or say **મારું** માથું દુખે છે — મારો / મારી / મારું agreeing with the body part.\n- Negative: માથું **નથી દુખતું**.", "pattern": "મને + body part + દુખે છે", "grammar": 0 },
+      "new": ["શરીર", "માથું", "પેટ", "ગળું", "કમર", "દાંત", "દુખવું", "મને માથું દુખે છે.", "મારું પેટ દુખે છે.", "ક્યાં દુખે છે?"],
+      "sentences": [
+        { "native": "મને પેટ દુખે છે.", "roman": "mane peṭ dukhe chhe.", "en": "I have a stomach ache.", "focus": "મને", "wrong": ["હું|huṃ", "મારે|māre"] },
+        { "native": "એને દાંત દુખે છે.", "roman": "ene dāṃt dukhe chhe.", "en": "She has toothache.", "focus": "એને", "wrong": ["એ|e", "એણે|eṇe"] },
+        { "native": "તમને ક્યાં દુખે છે?", "roman": "tamne kyāṃ dukhe chhe?", "en": "Where does it hurt?", "focus": "તમને", "wrong": ["તમે|tame", "તમારે|tamāre"] },
+        { "native": "મારી કમર દુખે છે.", "roman": "mārī kamar dukhe chhe.", "en": "My lower back hurts.", "focus": "મારી", "wrong": ["મારો|māro", "મારું|māruṃ"] },
+        { "native": "મારું ગળું બહુ દુખે છે.", "roman": "māruṃ gaḷuṃ bahu dukhe chhe.", "en": "My throat really hurts.", "focus": "મારું", "wrong": ["મારો|māro", "મારી|mārī"] },
+        { "native": "મારા દીકરાને માથું દુખે છે.", "roman": "mārā dīkrāne māthuṃ dukhe chhe.", "en": "My son has a headache.", "focus": "દીકરાને", "wrong": ["દીકરો|dīkro", "દીકરાનું|dīkrānuṃ"] },
+        { "native": "મારું શરીર બહુ દુખે છે.", "roman": "māruṃ sharīr bahu dukhe chhe.", "en": "My body aches all over.", "focus": "દુખે", "wrong": ["દુખું|dukhuṃ", "દુખો|dukho"] },
+        { "native": "પેટમાં દુખે છે?", "roman": "peṭmāṃ dukhe chhe?", "en": "Do you have a stomach ache?", "focus": "પેટમાં", "wrong": ["પેટનું|peṭnuṃ", "પેટની|peṭnī"] },
+        { "native": "ના, માથું નથી દુખતું.", "roman": "nā, māthuṃ nathī dukhtuṃ.", "en": "No, my head doesn't hurt.", "focus": "દુખતું", "wrong": ["દુખે|dukhe", "દુખતી|dukhtī"] }
+      ]
+    },
+    {
+      "title": "From head to toe",
+      "new": ["આંખ", "કાન", "નાક", "મોઢું", "હાથ", "પગ", "છાતી", "વાળ", "દુખાવો"],
+      "sentences": [
+        { "native": "મારી આંખ લાલ છે.", "roman": "mārī āṃkh lāl chhe.", "en": "My eye is red." },
+        { "native": "એને કાનમાં દુખાવો છે.", "roman": "ene kānmāṃ dukhāvo chhe.", "en": "She has earache." },
+        { "native": "મારું નાક બંધ છે.", "roman": "māruṃ nāk bandh chhe.", "en": "My nose is blocked." },
+        { "native": "બાળકનું મોઢું ગંદું છે.", "roman": "bāḷaknuṃ moḍhuṃ ganduṃ chhe.", "en": "The baby's face is dirty." },
+        { "native": "મારા હાથમાં દુખાવો છે.", "roman": "mārā hāthmāṃ dukhāvo chhe.", "en": "I have a pain in my arm." },
+        { "native": "એને પગમાં વાગ્યું છે.", "roman": "ene pagmāṃ vāgyuṃ chhe.", "en": "He's hurt his leg." },
+        { "native": "છાતીમાં દુખાવો છે?", "roman": "chhātīmāṃ dukhāvo chhe?", "en": "Do you have chest pain?" },
+        { "native": "તમારા વાળ બહુ લાંબા છે!", "roman": "tamārā vāḷ bahu lāṃbā chhe!", "en": "Your hair is very long!" },
+        { "native": "હાથ ચોખ્ખા છે?", "roman": "hāth chokkhā chhe?", "en": "Are your hands clean?" }
+      ]
+    },
+    {
+      "title": "Fever, cold and cough",
+      "tip": { "title": "Saying what's wrong", "body": "- Illnesses go with **-ને** and **છે**: **મને** તાવ છે, મને શરદી છે.\n- Feelings 'come' or 'strike': મને ચક્કર **આવે છે** 'I feel dizzy', મને ઠંડી **લાગે છે** 'I feel cold'.\n- The verb agrees with the feeling, not with the person.", "pattern": "મને + તાવ / શરદી + છે  ·  મને + ઠંડી + લાગે છે", "grammar": 0 },
+      "new": ["તાવ", "શરદી", "ઉધરસ", "ઊલટી", "ચક્કર", "લાગવું", "મને તાવ છે.", "મને શરદી અને ઉધરસ છે.", "મને ચક્કર આવે છે."],
+      "sentences": [
+        { "native": "મારી દીકરીને તાવ છે.", "roman": "mārī dīkrīne tāv chhe.", "en": "My daughter has a fever.", "focus": "દીકરીને", "wrong": ["દીકરી|dīkrī", "દીકરીનો|dīkrīno"] },
+        { "native": "તને શરદી છે?", "roman": "tane shardī chhe?", "en": "Have you got a cold? (to a friend)", "focus": "તને", "wrong": ["તું|tuṃ", "તારી|tārī"] },
+        { "native": "મને બહુ ઉધરસ છે.", "roman": "mane bahu udhras chhe.", "en": "I've got a bad cough.", "focus": "મને", "wrong": ["હું|huṃ", "મારી|mārī"] },
+        { "native": "એને ઊલટી થાય છે.", "roman": "ene ūlṭī thāy chhe.", "en": "He's being sick.", "focus": "એને", "wrong": ["એ|e", "એની|enī"] },
+        { "native": "તમને ઠંડી લાગે છે?", "roman": "tamne ṭhaṇḍī lāge chhe?", "en": "Do you feel cold?", "focus": "લાગે", "wrong": ["લાગો|lāgo", "લાગું|lāguṃ"] },
+        { "native": "દાદીને ચક્કર આવે છે.", "roman": "dādīne chakkar āve chhe.", "en": "Grandma feels dizzy.", "focus": "આવે", "wrong": ["આવો|āvo", "આવું|āvuṃ"] },
+        { "native": "મને ગરમી લાગે છે.", "roman": "mane garmī lāge chhe.", "en": "I feel hot.", "focus": "લાગે", "wrong": ["લાગો|lāgo", "લાગું|lāguṃ"] },
+        { "native": "તાવ નથી, ફક્ત શરદી છે.", "roman": "tāv nathī, fakt shardī chhe.", "en": "No fever, just a cold." },
+        { "native": "એને બે દિવસથી ઉધરસ છે.", "roman": "ene be divasthī udhras chhe.", "en": "She's had a cough for two days." }
+      ]
+    },
+    {
+      "title": "At the doctor's",
+      "tip": { "title": "You should: -વું જોઈએ", "body": "- The doer takes **-એ**: **મારે, તારે, તમારે, એણે**. Then the verb in **-વું** + **જોઈએ**: તમારે આરામ **કરવો જોઈએ**.\n- The -વું form agrees with the object: આરામ (m) → કરવો, દવા (f) → **લેવી**, પાણી (n) → **પીવું**.\n- 'Shouldn't': put **ન** before it: મીઠાઈ **ન** ખાવી જોઈએ.", "pattern": "તમારે + object + verb-વું + જોઈએ", "grammar": 1 },
+      "new": ["ડૉક્ટર", "દવાખાનું", "દવા", "ગોળી", "આરામ", "મારે ડૉક્ટર પાસે જવું છે.", "દિવસમાં ત્રણ વાર આ ગોળી લો.", "તમારે આરામ કરવો જોઈએ."],
+      "sentences": [
+        { "native": "તારે આ દવા લેવી જોઈએ.", "roman": "tāre ā davā levī joīe.", "en": "You should take this medicine. (to a friend)", "focus": "લેવી", "wrong": ["લેવો|levo", "લેવું|levuṃ"] },
+        { "native": "તમારે ગરમ પાણી પીવું જોઈએ.", "roman": "tamāre garam pāṇī pīvuṃ joīe.", "en": "You should drink hot water.", "focus": "પીવું", "wrong": ["પીવો|pīvo", "પીવી|pīvī"] },
+        { "native": "મારે આરામ કરવો જોઈએ.", "roman": "māre ārām karvo joīe.", "en": "I should rest.", "focus": "કરવો", "wrong": ["કરવી|karvī", "કરવું|karvuṃ"] },
+        { "native": "તમારે દવાખાને જવું જોઈએ.", "roman": "tamāre davākhāne javuṃ joīe.", "en": "You should go to the clinic.", "focus": "તમારે", "wrong": ["તમને|tamne", "તમે|tame"] },
+        { "native": "તમારે મીઠાઈ ન ખાવી જોઈએ.", "roman": "tamāre mīṭhāī na khāvī joīe.", "en": "You shouldn't eat sweets.", "focus": "ખાવી", "wrong": ["ખાવો|khāvo", "ખાવું|khāvuṃ"] },
+        { "native": "સવારે અને સાંજે એક એક ગોળી લો.", "roman": "savāre ane sāṃje ek ek goḷī lo.", "en": "Take one tablet in the morning and one in the evening." },
+        { "native": "ડૉક્ટર સાહેબ, મારે કેટલા દિવસ આરામ કરવો જોઈએ?", "roman": "ḍokṭar sāheb, māre keṭlā divas ārām karvo joīe?", "en": "Doctor, how many days should I rest?", "focus": "મારે", "wrong": ["મને|mane", "હું|huṃ"] },
+        { "native": "દવાખાનું ક્યાં છે?", "roman": "davākhānuṃ kyāṃ chhe?", "en": "Where is the clinic?" },
+        { "native": "એણે ડૉક્ટર પાસે જવું જોઈએ.", "roman": "eṇe ḍokṭar pāse javuṃ joīe.", "en": "He should go to the doctor.", "focus": "એણે", "wrong": ["એ|e", "એની|enī"] }
+      ]
+    }
+  ]
 }

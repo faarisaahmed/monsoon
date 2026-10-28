@@ -89,5 +89,88 @@
       { "speaker": "Sarah", "native": "توهان سان ملي ڏاڍي خوشي ٿي!", "roman": "tavhāṃ sāṃ mile ɗāḍhī xushī thī!", "en": "Lovely to meet you!" }
     ]
   },
-  "culture": "Sindh is Pakistan's southern province, stretching from the Arabian Sea and the Indus delta to the Thar desert in the east. Karachi, its capital, is Pakistan's largest city and very multilingual (Urdu dominates), while Hyderabad, Sukkur, Larkana, Nawabshah, Mirpurkhas and the countryside are strongly Sindhi-speaking. After Partition in 1947 many Hindu Sindhis migrated to India, where Sindhi is a scheduled language and is written both in the Arabic-based script and in Devanagari; Indian cities such as Ulhasnagar, Ahmedabad and Mumbai have large Sindhi communities. Asking ‘where is your village?’ is a natural opening question in Sindh — many city-dwellers keep strong ties to their ancestral ڳوٺ."
+  "culture": "Sindh is Pakistan's southern province, stretching from the Arabian Sea and the Indus delta to the Thar desert in the east. Karachi, its capital, is Pakistan's largest city and very multilingual (Urdu dominates), while Hyderabad, Sukkur, Larkana, Nawabshah, Mirpurkhas and the countryside are strongly Sindhi-speaking. After Partition in 1947 many Hindu Sindhis migrated to India, where Sindhi is a scheduled language and is written both in the Arabic-based script and in Devanagari; Indian cities such as Ulhasnagar, Ahmedabad and Mumbai have large Sindhi communities. Asking ‘where is your village?’ is a natural opening question in Sindh — many city-dwellers keep strong ties to their ancestral ڳوٺ.",
+  "lessons": [
+    {
+      "title": "Who is who: I, we, he and she",
+      "tip": { "title": "Pronouns and \"is\"", "body": "- **مان** (or **آئون**) I · **اسين** we · **هو** he / that / they · **هوءَ** she · **هي** this, he or she (here).\n- 'Is' follows the person: مان **آهيان**, اسين **آهيون**, هو/هوءَ **آهي**, they **آهن**.\n- There is no 'it': say هي 'this' or هو 'that'.", "pattern": "هو + منهنجو دوست + آهي", "grammar": 0 },
+      "new": ["مان", "آئون", "اسين", "هو", "هوءَ", "هي", "ڪير", "هوءَ ڪير آهي؟", "هي منهنجي ڀيڻ آهي."],
+      "sentences": [
+        { "native": "هو منهنجو دوست آهي.", "roman": "hū munhinjo dostu āhe.", "en": "He is my friend.", "focus": "آهي", "wrong": ["آهن|āhin", "آهيان|āhiyāṃ"] },
+        { "native": "مان علي آهيان.", "roman": "māṃ ʿAlī āhiyāṃ.", "en": "I'm Ali.", "focus": "آهيان", "wrong": ["آهي|āhe", "آهين|āhīṃ"] },
+        { "native": "اسين ٺيڪ آهيون.", "roman": "asīṃ ṭhīku āhyūṃ.", "en": "We're fine.", "focus": "آهيون", "wrong": ["آهيان|āhiyāṃ", "آهن|āhin"] },
+        { "native": "آئون ٺيڪ آهيان، ادا.", "roman": "āūṃ ṭhīku āhiyāṃ, adā.", "en": "I'm fine, brother.", "focus": "آهيان", "wrong": ["آهيون|āhyūṃ", "آهي|āhe"] },
+        { "native": "هو ڪير آهي؟", "roman": "hū ker āhe?", "en": "Who is he?", "focus": "ڪير", "wrong": ["ڪيئن|kīeṃ", "ڪٿي|kithe"] },
+        { "native": "هوءَ منهنجي ڀيڻ آهي.", "roman": "hūa munhinjī bheṇa āhe.", "en": "She is my sister.", "focus": "هوءَ", "wrong": ["هو|hū", "اسين|asīṃ"] },
+        { "native": "اسين دوست آهيون.", "roman": "asīṃ dosta āhyūṃ.", "en": "We're friends.", "focus": "آهيون", "wrong": ["آهيان|āhiyāṃ", "آهي|āhe"] },
+        { "native": "هو ٺيڪ ناهي.", "roman": "hū ṭhīku nāhe.", "en": "He isn't well.", "focus": "ناهي", "wrong": ["ناهيان|nāhiyāṃ", "ناهيو|nāhyo"] },
+        { "native": "هي ڪير آهي؟", "roman": "hī ker āhe?", "en": "Who is this?", "focus": "ڪير", "wrong": ["ڪيئن|kīeṃ", "ڇا|chhā"] },
+        { "native": "هو خوش آهن.", "roman": "hū xushu āhin.", "en": "They are happy.", "focus": "آهن", "wrong": ["آهي|āhe", "آهيون|āhyūṃ"] }
+      ]
+    },
+    {
+      "title": "Your name and where you are from",
+      "tip": { "title": "Question words go where the answer goes", "body": "- Sindhi doesn't move question words to the front: 'your name **what** is?' = توهان جو نالو **ڇا** آهي؟\n- **ڪٿي** where · **ڪٿان** from where · **ڪير** who · **ڇا** what.\n- 'From' a place is 'of' a place: مان ڪراچيءَ **جو** آهيان (man), **جي** (woman), **جا** (توهان, plural).", "pattern": "مان + place + جو/جي + آهيان", "grammar": 1 },
+      "new": ["نالو", "ڇا", "ڪٿان", "ڪٿي", "ڳوٺ", "توهان جو نالو ڇا آهي؟", "منهنجو نالو ماروي آهي.", "توهان ڪٿان جا آهيو؟", "مان ڪراچيءَ جو آهيان."],
+      "sentences": [
+        { "native": "هن جو نالو ڇا آهي؟", "roman": "hun jo nālo chhā āhe?", "en": "What is his name?", "focus": "ڇا", "wrong": ["ڪير|ker", "ڪٿي|kithe"] },
+        { "native": "منهنجو نالو علي آهي.", "roman": "munhinjo nālo ʿAlī āhe.", "en": "My name is Ali." },
+        { "native": "هوءَ ڪٿان جي آهي؟", "roman": "hūa kithāṃ jī āhe?", "en": "Where is she from?", "focus": "جي", "wrong": ["جو|jo", "جا|jā"] },
+        { "native": "اسين حيدرآباد جا آهيون.", "roman": "asīṃ haidarābād jā āhyūṃ.", "en": "We're from Hyderabad.", "focus": "جا", "wrong": ["جو|jo", "جي|jī"] },
+        { "native": "توهان جو ڳوٺ ڪٿي آهي؟", "roman": "tavhāṃ jo ɠoṭhu kithe āhe?", "en": "Where is your village?", "focus": "ڪٿي", "wrong": ["ڪٿان|kithāṃ", "ڇا|chhā"] },
+        { "native": "مان ڪراچيءَ جي آهيان.", "roman": "māṃ karāchīa jī āhiyāṃ.", "en": "I'm from Karachi. (woman)", "focus": "جي", "wrong": ["جو|jo", "جا|jā"] },
+        { "native": "سائين، توهان ڪٿان جا آهيو؟", "roman": "sāīṃ, tavhāṃ kithāṃ jā āhyo?", "en": "Where are you from, sir?", "focus": "ڪٿان", "wrong": ["ڪٿي|kithe", "ڪير|ker"] },
+        { "native": "ماروي ڪٿي آهي؟", "roman": "Mārvī kithe āhe?", "en": "Where is Marvi?", "focus": "ڪٿي", "wrong": ["ڪٿان|kithāṃ", "ڪير|ker"] },
+        { "native": "منهنجو ڳوٺ ٿر ۾ آهي.", "roman": "munhinjo ɠoṭhu thara meṃ āhe.", "en": "My village is in Thar." }
+      ]
+    },
+    {
+      "title": "Saying where you live",
+      "tip": { "title": "I live in …: رهان ٿو / رهان ٿي", "body": "- 'I live in X' = **مان X ۾ رهان ٿو** (man) or **رهان ٿي** (woman).\n- The ending follows the person: توهان **رهو ٿا**, هو/هوءَ **رهي ٿو / ٿي**, اسين **رهون ٿا**, they **رهن ٿا**.\n- **هتي** 'here' and **اتي** 'there' need no ۾." },
+      "new": ["رهڻ", "هتي", "اتي", "شهر", "ملڪ", "پاڪستان", "هندستان", "مان لنڊن ۾ رهان ٿو.", "منهنجو ڳوٺ لاڙڪاڻي ويجهو آهي."],
+      "sentences": [
+        { "native": "مان ڪراچيءَ ۾ رهان ٿو.", "roman": "māṃ karāchīa meṃ rahāṃ tho.", "en": "I live in Karachi. (man)", "focus": "ٿو", "wrong": ["ٿي|thī", "ٿا|thā"] },
+        { "native": "مان حيدرآباد ۾ رهان ٿي.", "roman": "māṃ haidarābād meṃ rahāṃ thī.", "en": "I live in Hyderabad. (woman)", "focus": "ٿي", "wrong": ["ٿو|tho", "ٿا|thā"] },
+        { "native": "توهان هتي رهو ٿا؟", "roman": "tavhāṃ hite raho thā?", "en": "Do you live here?", "focus": "رهو", "wrong": ["رهان|rahāṃ", "رهي|rahe"] },
+        { "native": "ها، مان هتي رهان ٿو.", "roman": "hā, māṃ hite rahāṃ tho.", "en": "Yes, I live here. (man)", "focus": "رهان", "wrong": ["رهو|raho", "رهي|rahe"] },
+        { "native": "هو پاڪستان ۾ رهي ٿو.", "roman": "hū pākistāna meṃ rahe tho.", "en": "He lives in Pakistan.", "focus": "رهي", "wrong": ["رهان|rahāṃ", "رهن|rahan"] },
+        { "native": "اسين هندستان ۾ رهون ٿا.", "roman": "asīṃ hindustāna meṃ rahūṃ thā.", "en": "We live in India.", "focus": "رهون", "wrong": ["رهن|rahan", "رهو|raho"] },
+        { "native": "هو اتي رهن ٿا.", "roman": "hū ute rahan thā.", "en": "They live there.", "focus": "رهن", "wrong": ["رهي|rahe", "رهون|rahūṃ"] },
+        { "native": "پاڪستان منهنجو ملڪ آهي.", "roman": "pākistānu munhinjo mulku āhe.", "en": "Pakistan is my country." },
+        { "native": "منهنجو ڳوٺ اتي آهي، شهر ويجهو.", "roman": "munhinjo ɠoṭhu ute āhe, shahara vejho.", "en": "My village is over there, near the city." }
+      ]
+    },
+    {
+      "title": "Do you speak Sindhi?",
+      "tip": { "title": "Asking and answering about languages", "body": "- **ڇا** at the front makes a yes/no question: **ڇا** توهان سنڌي ڳالهايو ٿا؟\n- The verb ending shows who: مان **ڳالهايان**, توهان **ڳالهايو**, هو/هوءَ **ڳالهائي**.\n- Then **ٿو** for a man, **ٿي** for a woman, **ٿا** with توهان.\n- 'Don't' = **نٿو / نٿي** before the verb: مان نٿو سمجهان.", "pattern": "ڇا + توهان + language + ڳالهايو ٿا؟" },
+      "new": ["ٻولي", "سنڌي", "انگريزي", "اردو", "ڳالهائڻ", "سمجهڻ", "ڇا توهان سنڌي ڳالهايو ٿا؟", "ها، ٿوري سنڌي ڳالهايان ٿو.", "مان سمجهان ٿو، پر ڳالهائي نٿو سگهان."],
+      "sentences": [
+        { "native": "ڇا توهان انگريزي ڳالهايو ٿا؟", "roman": "chhā tavhāṃ angrezī ɠālhāyo thā?", "en": "Do you speak English?", "focus": "ڳالهايو", "wrong": ["ڳالهايان|ɠālhāyāṃ", "ڳالهائي|ɠālhāe"] },
+        { "native": "ها، مان انگريزي ۽ اردو ڳالهايان ٿو.", "roman": "hā, māṃ angrezī ai urdū ɠālhāyāṃ tho.", "en": "Yes, I speak English and Urdu. (man)", "focus": "ڳالهايان", "wrong": ["ڳالهايو|ɠālhāyo", "ڳالهائي|ɠālhāe"] },
+        { "native": "مان سنڌي سمجهان ٿي.", "roman": "māṃ sindhī samujhāṃ thī.", "en": "I understand Sindhi. (woman)", "focus": "ٿي", "wrong": ["ٿو|tho", "ٿا|thā"] },
+        { "native": "توهان اردو سمجهو ٿا؟", "roman": "tavhāṃ urdū samujho thā?", "en": "Do you understand Urdu?", "focus": "سمجهو", "wrong": ["سمجهان|samujhāṃ", "سمجهي|samujhe"] },
+        { "native": "مان سنڌي نٿو سمجهان.", "roman": "māṃ sindhī natho samujhāṃ.", "en": "I don't understand Sindhi. (man)", "focus": "نٿو", "wrong": ["نٿي|nathī", "نٿا|nathā"] },
+        { "native": "هوءَ سنڌي ڳالهائي ٿي.", "roman": "hūa sindhī ɠālhāe thī.", "en": "She speaks Sindhi.", "focus": "ڳالهائي", "wrong": ["ڳالهايان|ɠālhāyāṃ", "ڳالهايو|ɠālhāyo"] },
+        { "native": "سنڌي منهنجي ٻولي آهي.", "roman": "sindhī munhinjī ɓolī āhe.", "en": "Sindhi is my language.", "focus": "منهنجي", "wrong": ["منهنجو|munhinjo", "منهنجا|munhinjā"] },
+        { "native": "مان ٿوري اردو ڳالهايان ٿي.", "roman": "māṃ thorī urdū ɠālhāyāṃ thī.", "en": "I speak a little Urdu. (woman)", "focus": "ٿي", "wrong": ["ٿو|tho", "ٿا|thā"] },
+        { "native": "مهرباني ڪري انگريزيءَ ۾ ڳالهايو.", "roman": "meharbānī kare angrezīa meṃ ɠālhāyo.", "en": "Please speak in English." }
+      ]
+    },
+    {
+      "title": "Which, when, why — and \"me too\"",
+      "tip": { "title": "More question words", "body": "- **ڪهڙو** 'which' agrees like an adjective: ڪهڙو شهر (m), ڪهڙي ٻولي (f).\n- **ڪڏهن** 'when' and **ڇو** 'why' sit just before the verb.\n- **به** 'too' comes after its word: مان **به** 'me too'.\n- 'I don't know' = **مون کي خبر ناهي** (lit. to me there is no knowledge)." },
+      "new": ["ڪهڙو", "ڪڏهن", "ڇو", "به", "خبر", "مون کي خبر ناهي."],
+      "sentences": [
+        { "native": "توهان ڪهڙي شهر ۾ رهو ٿا؟", "roman": "tavhāṃ kahiṛe shahara meṃ raho thā?", "en": "Which city do you live in?", "focus": "ڪهڙي", "wrong": ["ڪهڙو|kahiṛo", "ڪهڙا|kahiṛā"] },
+        { "native": "هي ڪهڙو شهر آهي؟", "roman": "hī kahiṛo shaharu āhe?", "en": "Which city is this?", "focus": "ڪهڙو", "wrong": ["ڪهڙي|kahiṛī", "ڪهڙا|kahiṛā"] },
+        { "native": "توهان ڪڏهن آيا؟", "roman": "tavhāṃ kaɗahiṃ āyā?", "en": "When did you come?", "focus": "ڪڏهن", "wrong": ["ڪٿان|kithāṃ", "ڇو|chho"] },
+        { "native": "تون هتي ڇو آهين؟", "roman": "tūṃ hite chho āhīṃ?", "en": "Why are you here? (to a friend)", "focus": "ڇو", "wrong": ["ڪٿي|kithe", "ڪير|ker"] },
+        { "native": "مان به سنڌي آهيان.", "roman": "māṃ bi sindhī āhiyāṃ.", "en": "I'm Sindhi too.", "focus": "به", "wrong": ["نه|na", "ها|hā"] },
+        { "native": "هوءَ به هتي رهي ٿي.", "roman": "hūa bi hite rahe thī.", "en": "She lives here too.", "focus": "به", "wrong": ["نه|na", "ڇو|chho"] },
+        { "native": "معاف ڪجو، مون کي خبر ناهي.", "roman": "māf kajo, moṃ khe xabara nāhe.", "en": "Sorry, I don't know.", "focus": "خبر", "wrong": ["حال|hālu", "نالو|nālo"] },
+        { "native": "توهان کي خبر آهي؟", "roman": "tavhāṃ khe xabara āhe?", "en": "Do you know?" },
+        { "native": "اسين به اردو سمجهون ٿا.", "roman": "asīṃ bi urdū samujhūṃ thā.", "en": "We understand Urdu too.", "focus": "سمجهون", "wrong": ["سمجهان|samujhāṃ", "سمجهن|samujhan"] }
+      ]
+    }
+  ]
 }

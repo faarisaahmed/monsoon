@@ -88,5 +88,94 @@
       { "speaker": "Mitali", "native": "আপনার সঙ্গে আলাপ করে ভালো লাগল।", "roman": "apnar shôṅge alap kore bhalo laglo.", "en": "Nice to meet you." }
     ]
   },
-  "culture": "Bengalis often ask very personal questions early on (where your family is, whether you are married, what you earn): this is friendliness, not nosiness. 'Where are you from?' is usually asked with the perfect tense এসেছেন 'have come'. In West Bengal people will ask about your দেশ meaning your ancestral district; many families trace their roots to East Bengal (now Bangladesh) and still call it দেশ."
+  "culture": "Bengalis often ask very personal questions early on (where your family is, whether you are married, what you earn): this is friendliness, not nosiness. 'Where are you from?' is usually asked with the perfect tense এসেছেন 'have come'. In West Bengal people will ask about your দেশ meaning your ancestral district; many families trace their roots to East Bengal (now Bangladesh) and still call it দেশ.",
+  "lessons": [
+    {
+      "title": "Saying who you are",
+      "tip": { "title": "No word for \"is\"", "grammar": 0, "body": "- With a noun or adjective, just put the two words side by side: আমি ছাত্র 'I (am a) student', আমার নাম সারা 'my name (is) Sara'.\n- 'Am not' has its own verb that follows the person: আমি **নই**, তুমি **নও**, আপনি **নন**, সে **নয়**.\n- কী (long ী) means 'what': আপনার নাম **কী**?", "pattern": "আমি + ছাত্র  ·  আমি + বাঙালি + নই" },
+      "new": ["নাম", "কী", "ছাত্র", "বিদেশি", "বাঙালি", "আপনার নাম কী?", "তোমার নাম কী?", "আমার নাম সারা।", "আমি বাঙালি নই।"],
+      "sentences": [
+        { "native": "আমার নাম টম, আপনার নাম কী?", "roman": "amar nam ṭôm, apnar nam ki?", "en": "My name is Tom, what is your name?", "focus": "কী", "wrong": ["কে|ke", "কেন|kæno"] },
+        { "native": "আমার নাম সারা, তোমার নাম কী?", "roman": "amar nam shara, tomar nam ki?", "en": "My name is Sara, what's yours?", "focus": "কী", "wrong": ["কে|ke", "কেন|kæno"] },
+        { "native": "আপনি কি বাঙালি?", "roman": "apni ki baṅali?", "en": "Are you Bengali?" },
+        { "native": "না, আমি বাঙালি নই।", "roman": "na, ami baṅali noi.", "en": "No, I'm not Bengali.", "focus": "নই", "wrong": ["নন|nôn", "নয়|nôy"] },
+        { "native": "তুমি কি ছাত্র?", "roman": "tumi ki chhatro?", "en": "Are you a student?" },
+        { "native": "হ্যাঁ, আমি বিদেশি ছাত্র।", "roman": "hæṃ, ami bideshi chhatro.", "en": "Yes, I'm a foreign student." },
+        { "native": "না, আমি ছাত্র নই।", "roman": "na, ami chhatro noi.", "en": "No, I'm not a student.", "focus": "নই", "wrong": ["নও|nôo", "নয়|nôy"] },
+        { "native": "আপনি বাঙালি নন?", "roman": "apni baṅali nôn?", "en": "You're not Bengali?", "focus": "নন", "wrong": ["নই|noi", "নয়|nôy"] },
+        { "native": "তুমি কি বিদেশি নও?", "roman": "tumi ki bideshi nôo?", "en": "Aren't you a foreigner?", "focus": "নও", "wrong": ["নই|noi", "নন|nôn"] },
+        { "native": "আমার নাম টম, আমি বিদেশি।", "roman": "amar nam ṭôm, ami bideshi.", "en": "My name is Tom, I'm a foreigner." }
+      ]
+    },
+    {
+      "title": "He, she, we and they",
+      "tip": { "title": "One word for he and she", "grammar": 0, "body": "- No gender: **সে / ও** = he or she (ordinary), **উনি** = he or she (respectful); **তিনি** is the written form.\n- Plurals: আমরা we · তারা / ওরা they · আপনারা / তোমরা / তোরা you all.\n- আছ- 'to be (well, somewhere)' keeps the same ending in the plural: আমি / আমরা **আছি**, সে / তারা **আছে**, উনি / আপনারা **আছেন**." },
+      "new": ["সে", "ও", "উনি", "তিনি", "কে", "উনি কে?", "আমরা", "তোমরা", "তোরা", "আপনারা", "তারা", "ওরা"],
+      "sentences": [
+        { "native": "আর উনি কে?", "roman": "ar uni ke?", "en": "And who is he/she?", "focus": "কে", "wrong": ["কী|ki", "কেন|kæno"] },
+        { "native": "উনি কেমন আছেন?", "roman": "uni kæmon achhen?", "en": "How is he/she?", "focus": "আছেন", "wrong": ["আছে|achhe", "আছো|achho"] },
+        { "native": "সে ভালো আছে।", "roman": "she bhalo achhe.", "en": "He's/She's fine.", "focus": "আছে", "wrong": ["আছেন|achhen", "আছি|achhi"] },
+        { "native": "আমরা ভালো আছি।", "roman": "amra bhalo achhi.", "en": "We're well.", "focus": "আছি", "wrong": ["আছে|achhe", "আছেন|achhen"] },
+        { "native": "আপনারা কেমন আছেন?", "roman": "apnara kæmon achhen?", "en": "How are you all?", "focus": "আছেন", "wrong": ["আছো|achho", "আছি|achhi"] },
+        { "native": "তোমরা কেমন আছো?", "roman": "tomra kæmon achho?", "en": "How are you all? (to friends)", "focus": "আছো", "wrong": ["আছেন|achhen", "আছিস|achhish"] },
+        { "native": "তোরা ঠিক আছিস?", "roman": "tora ṭhik achhish?", "en": "You lot OK? (to close friends)", "focus": "আছিস", "wrong": ["আছো|achho", "আছেন|achhen"] },
+        { "native": "ও ছাত্র নয়।", "roman": "o chhatro nôy.", "en": "He/she isn't a student.", "focus": "নয়", "wrong": ["নই|noi", "নন|nôn"] },
+        { "native": "উনি বাঙালি নন।", "roman": "uni baṅali nôn.", "en": "He/she isn't Bengali.", "focus": "নন", "wrong": ["নয়|nôy", "নই|noi"] },
+        { "native": "তারা কি বিদেশি?", "roman": "tara ki bideshi?", "en": "Are they foreigners?" },
+        { "native": "ওরা কে?", "roman": "ora ke?", "en": "Who are they?", "focus": "কে", "wrong": ["কী|ki", "কেন|kæno"] },
+        { "native": "তিনি ভালো আছেন।", "roman": "tini bhalo achhen.", "en": "He/she is well. (formal)", "focus": "আছেন", "wrong": ["আছে|achhe", "আছি|achhi"] }
+      ]
+    },
+    {
+      "title": "Where you live and come from",
+      "tip": { "title": "Verb endings follow the person", "grammar": 1, "body": "- Bengali verbs change for **person and politeness**, never for gender or number. থাকা 'to live':\n- আমি / আমরা **থাকি** · তুই **থাকিস** · তুমি **থাকো** · আপনি / উনি **থাকেন** · সে / তারা **থাকে**.\n- **থেকে** 'from' goes after the place: ঢাকা থেকে 'from Dhaka'.", "pattern": "আমি + ঢাকায় + থাকি  ·  আপনি + কোথায় + থাকেন?" },
+      "new": ["থাকা", "কোথায়", "কোন", "থেকে", "দেশ", "শহর", "আপনি কোথায় থাকেন?", "আমি এখন ঢাকায় থাকি।", "আপনি কোথা থেকে এসেছেন?", "আমি ইংল্যান্ড থেকে এসেছি।"],
+      "sentences": [
+        { "native": "আমি এখন কলকাতায় থাকি।", "roman": "ami ækhon kolkatay thaki.", "en": "I live in Kolkata now.", "focus": "থাকি", "wrong": ["থাকেন|thaken", "থাকে|thake"] },
+        { "native": "তোমরা কোথায় থাকো?", "roman": "tomra kothay thako?", "en": "Where do you all live?", "focus": "থাকো", "wrong": ["থাকেন|thaken", "থাকি|thaki"] },
+        { "native": "সে ঢাকায় থাকে।", "roman": "she ḍhakay thake.", "en": "He/she lives in Dhaka.", "focus": "থাকে", "wrong": ["থাকি|thaki", "থাকো|thako"] },
+        { "native": "উনি কোন শহরে থাকেন?", "roman": "uni kon shôhore thaken?", "en": "Which city does he/she live in?", "focus": "থাকেন", "wrong": ["থাকে|thake", "থাকি|thaki"] },
+        { "native": "তুই কোথায় থাকিস?", "roman": "tui kothay thakish?", "en": "Where do you live? (to a close friend)", "focus": "থাকিস", "wrong": ["থাকো|thako", "থাকে|thake"] },
+        { "native": "আমরা ঢাকায় থাকি।", "roman": "amra ḍhakay thaki.", "en": "We live in Dhaka.", "focus": "থাকি", "wrong": ["থাকে|thake", "থাকো|thako"] },
+        { "native": "আপনি কোন দেশ থেকে এসেছেন?", "roman": "apni kon desh theke eshechhen?", "en": "Which country are you from?", "focus": "কোন", "wrong": ["কোথায়|kothay", "কে|ke"] },
+        { "native": "মাফ করবেন, আপনি কোথায় থাকেন?", "roman": "maf korben, apni kothay thaken?", "en": "Excuse me, where do you live?", "focus": "থাকেন", "wrong": ["থাকে|thake", "থাকো|thako"] },
+        { "native": "আচ্ছা, আপনি কোথা থেকে এসেছেন?", "roman": "achchha, apni kotha theke eshechhen?", "en": "So where are you from?" },
+        { "native": "আমি ইংল্যান্ড থেকে এসেছি, কিন্তু এখন ঢাকায় থাকি।", "roman": "ami iṅlænḍ theke eshechhi, kintu ækhon ḍhakay thaki.", "en": "I'm from England, but I live in Dhaka now.", "focus": "থাকি", "wrong": ["থাকে|thake", "থাকেন|thaken"] },
+        { "native": "আমার দেশ ইংল্যান্ড।", "roman": "amar desh iṅlænḍ.", "en": "My country is England." },
+        { "native": "কলকাতা খুব ভালো শহর।", "roman": "kolkata khub bhalo shôhor.", "en": "Kolkata is a really nice city." }
+      ]
+    },
+    {
+      "title": "Which languages you speak",
+      "tip": { "title": "Verbs that change their vowel", "grammar": 1, "body": "- Some verbs swap their vowel between persons: শেখা → আমি **শিখি**, সে **শেখে**; বোঝা → আমি **বুঝি**, সে **বোঝে**.\n- The endings are the usual ones: -ি (আমি), -ো (তুমি), -েন (আপনি), -ে (সে).\n- 'Not' goes after the verb: আমি বুঝি **না**.", "pattern": "আমি বুঝি  ·  সে বোঝে  ·  আপনি বোঝেন" },
+      "new": ["ভাষা", "ইংরেজি", "বলা", "শেখা", "বোঝা", "আমি বাংলা শিখছি।"],
+      "sentences": [
+        { "native": "আমি ইংরেজি বুঝি।", "roman": "ami iṅreji bujhi.", "en": "I understand English.", "focus": "বুঝি", "wrong": ["বোঝে|bojhe", "বোঝো|bojho"] },
+        { "native": "সে বাংলা বোঝে না।", "roman": "she baṅla bojhe na.", "en": "He/she doesn't understand Bengali.", "focus": "বোঝে", "wrong": ["বুঝি|bujhi", "বোঝেন|bojhen"] },
+        { "native": "আপনি কি ইংরেজি বোঝেন?", "roman": "apni ki iṅreji bojhen?", "en": "Do you understand English?", "focus": "বোঝেন", "wrong": ["বুঝি|bujhi", "বোঝে|bojhe"] },
+        { "native": "আমরা এখানে বাংলা শিখি।", "roman": "amra ekhane baṅla shikhi.", "en": "We learn Bengali here.", "focus": "শিখি", "wrong": ["শেখে|shekhe", "শেখো|shekho"] },
+        { "native": "ও কোন ভাষা শেখে?", "roman": "o kon bhasha shekhe?", "en": "Which language does he/she learn?", "focus": "শেখে", "wrong": ["শিখি|shikhi", "শেখেন|shekhen"] },
+        { "native": "আপনি কোন ভাষা বলেন?", "roman": "apni kon bhasha bôlen?", "en": "Which language do you speak?", "focus": "বলেন", "wrong": ["বলে|bôle", "বলি|boli"] },
+        { "native": "তারা ইংরেজি বলে না।", "roman": "tara iṅreji bôle na.", "en": "They don't speak English.", "focus": "বলে", "wrong": ["বলেন|bôlen", "বলি|boli"] },
+        { "native": "আমি বাংলা শিখছি, একটু একটু বুঝি।", "roman": "ami baṅla shikhchhi, ekṭu ekṭu bujhi.", "en": "I'm learning Bengali, I understand a little." },
+        { "native": "বাংলা খুব ভালো ভাষা।", "roman": "baṅla khub bhalo bhasha.", "en": "Bengali is a lovely language." }
+      ]
+    },
+    {
+      "title": "Getting to know someone",
+      "tip": { "title": "Question words stay in place", "grammar": 1, "body": "- A question word goes where the answer would go, usually just before the verb: আপনি **কোথায়** থাকেন? 'you where live?'\n- কী what · কে who · কোথায় where · কখন when · কেন why · কোন which.\n- Don't mix them up with the yes/no particle **কি**: আপনি কি ছাত্র? 'Are you a student?'" },
+      "new": ["এখানে", "কেন", "কখন", "আপনি কী করেন?", "আপনার সঙ্গে আলাপ করে ভালো লাগল।"],
+      "sentences": [
+        { "native": "আপনি এখানে কী করেন?", "roman": "apni ekhane ki kôren?", "en": "What do you do here?", "focus": "কী", "wrong": ["কে|ke", "কেন|kæno"] },
+        { "native": "তুমি এখানে কেন?", "roman": "tumi ekhane kæno?", "en": "Why are you here?", "focus": "কেন", "wrong": ["কখন|kôkhon", "কে|ke"] },
+        { "native": "আপনি বাংলা কেন শিখছেন?", "roman": "apni baṅla kæno shikhchhen?", "en": "Why are you learning Bengali?", "focus": "কেন", "wrong": ["কখন|kôkhon", "কোথায়|kothay"] },
+        { "native": "আপনি কখন বাংলা শেখেন?", "roman": "apni kôkhon baṅla shekhen?", "en": "When do you study Bengali?", "focus": "কখন", "wrong": ["কেন|kæno", "কোথায়|kothay"] },
+        { "native": "এখানে কে থাকে?", "roman": "ekhane ke thake?", "en": "Who lives here?", "focus": "কে", "wrong": ["কী|ki", "কেন|kæno"] },
+        { "native": "সে এখানে কী করে?", "roman": "she ekhane ki kôre?", "en": "What does he/she do here?", "focus": "কী", "wrong": ["কে|ke", "কখন|kôkhon"] },
+        { "native": "উনি কোথায় থাকেন?", "roman": "uni kothay thaken?", "en": "Where does he/she live?", "focus": "কোথায়", "wrong": ["কখন|kôkhon", "কেন|kæno"] },
+        { "native": "আমি ছাত্র, এখানে বাংলা শিখি।", "roman": "ami chhatro, ekhane baṅla shikhi.", "en": "I'm a student, I study Bengali here." },
+        { "native": "আপনার সঙ্গে আলাপ করে খুব ভালো লাগল।", "roman": "apnar shôṅge alap kore khub bhalo laglo.", "en": "It was really nice to meet you." }
+      ]
+    }
+  ]
 }

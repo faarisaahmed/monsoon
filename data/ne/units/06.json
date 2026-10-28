@@ -91,5 +91,90 @@
       { "speaker": "Landlord", "native": "ल, यो लिनुहोस् — दुईवटा चाबी।", "roman": "la, yo linuhos — duiwaṭā chābi.", "en": "Here, take these — two keys." }
     ]
   },
-  "culture": "Always take your **shoes off** before entering a Nepali home, and certainly before entering the kitchen or the family shrine (पूजा कोठा). Many city houses are tall, narrow concrete buildings where the owner family (घरबेटी) lives on one floor and rents out rooms (कोठा) on others; the flat roof (**कौसी**) is used for drying clothes, sunbathing in winter and flying kites at Dashain. Power cuts (**बत्ती जाने**) were once scheduled daily as 'load-shedding' — the phrase बत्ती गयो! is still part of everyday life in many places."
+  "culture": "Always take your **shoes off** before entering a Nepali home, and certainly before entering the kitchen or the family shrine (पूजा कोठा). Many city houses are tall, narrow concrete buildings where the owner family (घरबेटी) lives on one floor and rents out rooms (कोठा) on others; the flat roof (**कौसी**) is used for drying clothes, sunbathing in winter and flying kites at Dashain. Power cuts (**बत्ती जाने**) were once scheduled daily as 'load-shedding' — the phrase बत्ती गयो! is still part of everyday life in many places.",
+  "lessons": [
+    {
+      "title": "Come in, sit down",
+      "tip": { "title": "Being a guest", "body": "- The host says **भित्र आउनुहोस्** 'come in' and **बस्नुहोस्** 'please sit'. **-नुहोस्** is the polite 'please do'; with friends and children it's **आऊ**, **बस**.\n- Shoes come off at the door: जुत्ता बाहिर खोल्नुहोस्.\n- At the door, call out घरमा कोही हुनुहुन्छ? 'Anyone home?'", "pattern": "verb + नुहोस्  (आउनुहोस्, बस्नुहोस्, खोल्नुहोस्)" },
+      "new": ["घर", "भित्र", "बाहिर", "ढोका", "बैठक", "घरमा कोही हुनुहुन्छ?", "भित्र आउनुहोस्!", "जुत्ता बाहिर खोल्नुहोस्।", "यहाँ बस्नुहोस्।"],
+      "sentences": [
+        { "native": "दिदी, घरमा हुनुहुन्छ?", "roman": "didi, gharmā hunuhunchha?", "en": "Didi, are you home?" },
+        { "native": "आउनुहोस्, भित्र बस्नुहोस्।", "roman": "āunuhos, bhitra basnuhos.", "en": "Come, sit inside.", "focus": "बस्नुहोस्", "wrong": ["बस्छु|baschhu", "बस्नु|basnu"] },
+        { "native": "जुत्ता यहाँ खोल्नुहोस्।", "roman": "juttā yahāṃ kholnuhos.", "en": "Please take your shoes off here.", "focus": "खोल्नुहोस्", "wrong": ["खोल्छु|kholchhu", "खोल्नु|kholnu"] },
+        { "native": "ढोका खोल्नुहोस् न।", "roman": "ḍhokā kholnuhos na.", "en": "Could you open the door?", "focus": "खोल्नुहोस्", "wrong": ["खोल्छु|kholchhu", "खोल्नु|kholnu"] },
+        { "native": "बैठकमा बस्नुहोस्।", "roman": "baiṭhakmā basnuhos.", "en": "Please sit in the living room.", "focus": "बस्नुहोस्", "wrong": ["बस्छु|baschhu", "बस्नु|basnu"] },
+        { "native": "बाहिर कोही छ।", "roman": "bāhira kohi chha.", "en": "There's someone outside." },
+        { "native": "म बाहिर छु।", "roman": "ma bāhira chhu.", "en": "I'm outside." },
+        { "native": "भित्र आऊ, भाइ।", "roman": "bhitra āu, bhāi.", "en": "Come in, little brother.", "focus": "आऊ", "wrong": ["आउँछु|āuṃchhu", "आउनु|āunu"] },
+        { "native": "घरमा को-को हुनुहुन्छ?", "roman": "gharmā ko-ko hunuhunchha?", "en": "Who's at home?" }
+      ]
+    },
+    {
+      "title": "Rooms of the house",
+      "tip": { "title": "'There is' = place-मा + thing + छ", "body": "- Say the place first, then the thing, then **छ**: कोठामा खाट **छ** 'there's a bed in the room'.\n- More than one: **छन्**. None: **छैन** / **छैनन्**.\n- To ask, just raise your voice: तातो पानी छ? The short answers are **छ** and **छैन**.", "pattern": "place-मा + thing + छ / छैन", "grammar": 1 },
+      "new": ["कोठा", "भान्सा", "शौचालय", "बाथरुम", "खाट", "सिरानी", "दराज", "ट्वाइलेट कहाँ छ?", "कोठामा तातो पानी आउँछ?"],
+      "sentences": [
+        { "native": "कोठामा एउटा खाट र एउटा दराज छ।", "roman": "koṭhāmā euṭā khāṭ ra euṭā darāj chha.", "en": "There's a bed and a cupboard in the room.", "focus": "छ", "wrong": ["हो|ho", "छु|chhu"] },
+        { "native": "बाथरुममा तातो पानी छ?", "roman": "bāthrummā tāto pāni chha?", "en": "Is there hot water in the bathroom?", "focus": "छ", "wrong": ["हो|ho", "छु|chhu"] },
+        { "native": "छैन, तातो पानी छैन।", "roman": "chhaina, tāto pāni chhaina.", "en": "No, there's no hot water.", "focus": "छैन", "wrong": ["होइन|hoina", "छ|chha"] },
+        { "native": "खाटमा सिरानी छैन।", "roman": "khāṭmā sirāni chhaina.", "en": "There's no pillow on the bed.", "focus": "छैन", "wrong": ["होइन|hoina", "छ|chha"] },
+        { "native": "यहाँ शौचालय छ?", "roman": "yahāṃ sauchālaya chha?", "en": "Is there a toilet here?", "focus": "छ", "wrong": ["हो|ho", "छन्|chhan"] },
+        { "native": "भान्सामा कोही छ?", "roman": "bhānsāmā kohi chha?", "en": "Is anyone in the kitchen?", "focus": "छ", "wrong": ["हो|ho", "छु|chhu"] },
+        { "native": "हाम्रो घरमा तीनवटा कोठा छन्।", "roman": "hāmro gharmā tinwaṭā koṭhā chhan.", "en": "Our house has three rooms.", "focus": "छन्", "wrong": ["हुन्|hun", "छौँ|chhauṃ"] },
+        { "native": "दराजमा दुईवटा सिरानी छन्।", "roman": "darājmā duiwaṭā sirāni chhan.", "en": "There are two pillows in the cupboard.", "focus": "छन्", "wrong": ["हुन्|hun", "छौँ|chhauṃ"] },
+        { "native": "यो मेरो कोठा हो।", "roman": "yo mero koṭhā ho.", "en": "This is my room.", "focus": "हो", "wrong": ["छ|chha", "छन्|chhan"] },
+        { "native": "ट्वाइलेटमा पानी छैन।", "roman": "ṭwāileṭmā pāni chhaina.", "en": "There's no water in the toilet.", "focus": "छैन", "wrong": ["होइन|hoina", "छ|chha"] }
+      ]
+    },
+    {
+      "title": "Where's my key?",
+      "tip": { "title": "In, on, under: -मा, -माथि, -मुनि", "body": "- **-मा** 'in / at / on' sticks to the noun: टेबल**मा** 'on the table', कोठा**मा** 'in the room'.\n- Location words come *after* the noun: टेबल**माथि** 'on top of the table', खाट**मुनि** 'under the bed'.\n- Some take **-को** first: टेबल**को छेउमा** 'next to the table'. With people: **मेरो** छेउमा 'next to me'.", "pattern": "thing + place-मा / place-माथि / place-को छेउमा + छ", "grammar": 0 },
+      "new": ["मा", "माथि", "मुनि", "छेउ", "टेबल", "कुर्सी", "चाबी", "मेरो चाबी कहाँ छ?", "टेबलमाथि छ।"],
+      "sentences": [
+        { "native": "चाबी टेबलमा छ।", "roman": "chābi ṭebalmā chha.", "en": "The key is on the table.", "focus": "टेबलमा", "wrong": ["टेबल|ṭebal", "टेबलको|ṭebalko"] },
+        { "native": "मेरो फोन कुर्सीमुनि छ।", "roman": "mero phon kursimuni chha.", "en": "My phone is under the chair.", "focus": "कुर्सीमुनि", "wrong": ["कुर्सी|kursi", "कुर्सीको|kursiko"] },
+        { "native": "झोला खाटमुनि छ?", "roman": "jholā khāṭmuni chha?", "en": "Is the bag under the bed?", "focus": "खाटमुनि", "wrong": ["खाट|khāṭ", "खाटको|khāṭko"] },
+        { "native": "दाइको छेउमा बस्नुहोस्।", "roman": "dāiko chheumā basnuhos.", "en": "Sit next to brother.", "focus": "छेउमा", "wrong": ["छेउ|chheu", "छेउको|chheuko"] },
+        { "native": "कुर्सी टेबलको छेउमा छ।", "roman": "kursi ṭebalko chheumā chha.", "en": "The chair is next to the table.", "focus": "टेबलको", "wrong": ["टेबल|ṭebal", "टेबलमा|ṭebalmā"] },
+        { "native": "चाबी दराजमा छैन।", "roman": "chābi darājmā chhaina.", "en": "The key isn't in the cupboard.", "focus": "दराजमा", "wrong": ["दराज|darāj", "दराजको|darājko"] },
+        { "native": "टेबलमाथि केही छैन।", "roman": "ṭebalmāthi kehi chhaina.", "en": "There's nothing on the table.", "focus": "टेबलमाथि", "wrong": ["टेबल|ṭebal", "टेबलको|ṭebalko"] },
+        { "native": "कुर्सीमा बस्नुहोस्।", "roman": "kursimā basnuhos.", "en": "Have a seat. (on the chair)", "focus": "कुर्सीमा", "wrong": ["कुर्सी|kursi", "कुर्सीको|kursiko"] },
+        { "native": "तिम्रो चाबी यहाँ छ।", "roman": "timro chābi yahāṃ chha.", "en": "Your key is here." }
+      ]
+    },
+    {
+      "title": "Upstairs, downstairs",
+      "tip": { "title": "Front, back, between: -को + word", "body": "- **अगाडि** 'in front', **पछाडि** 'behind' and **बीचमा** 'between' take **-को** first: घर**को अगाडि**, भर्‍याङ**को पछाडि**.\n- Between two things: X **र** Y**को बीचमा**.\n- **माथि** 'upstairs', **तल** 'downstairs'; as adjectives **माथिल्लो** / **तल्लो** 'upper / lower'.", "pattern": "place-को + अगाडि / पछाडि / बीचमा" },
+      "new": ["भर्‍याङ", "छाना", "झ्याल", "तल", "अगाडि", "पछाडि", "बीच", "माथिल्लो तलामा छ।", "झ्याल खोलूँ?"],
+      "sentences": [
+        { "native": "भान्सा भर्‍याङको पछाडि छ।", "roman": "bhānsā bharyāṅko pachhāḍi chha.", "en": "The kitchen is behind the stairs.", "focus": "भर्‍याङको", "wrong": ["भर्‍याङ|bharyāṅ", "भर्‍याङमा|bharyāṅmā"] },
+        { "native": "घरको अगाडि कोही छ।", "roman": "gharko agāḍi kohi chha.", "en": "There's someone in front of the house.", "focus": "घरको", "wrong": ["घर|ghar", "घरमा|gharmā"] },
+        { "native": "टेबल झ्यालको छेउमा छ।", "roman": "ṭebal jhyālko chheumā chha.", "en": "The table is by the window.", "focus": "झ्यालको", "wrong": ["झ्याल|jhyāl", "झ्यालमा|jhyālmā"] },
+        { "native": "बैठक र भान्साको बीचमा बाथरुम छ।", "roman": "baiṭhak ra bhānsāko bichmā bāthrum chha.", "en": "The bathroom is between the living room and the kitchen.", "focus": "बीचमा", "wrong": ["बीच|bich", "बीचको|bichko"] },
+        { "native": "मेरो अगाडि बस्नुहोस्।", "roman": "mero agāḍi basnuhos.", "en": "Sit in front of me.", "focus": "मेरो", "wrong": ["म|ma", "मलाई|malāi"] },
+        { "native": "दाइको कोठा तल्लो तलामा छ।", "roman": "dāiko koṭhā tallo talāmā chha.", "en": "Brother's room is on the lower floor.", "focus": "तल्लो", "wrong": ["तल|tala", "तलको|talako"] },
+        { "native": "बाथरुम तल छ।", "roman": "bāthrum tala chha.", "en": "The bathroom is downstairs." },
+        { "native": "आमा माथि हुनुहुन्छ, छानामा।", "roman": "āmā māthi hunuhunchha, chhānāmā.", "en": "Mum is upstairs, on the roof." },
+        { "native": "ढोका खोलूँ?", "roman": "ḍhokā kholuṃ?", "en": "Shall I open the door?" },
+        { "native": "माथिल्लो तलामा पनि बाथरुम छ।", "roman": "māthillo talāmā pani bāthrum chha.", "en": "There's a bathroom upstairs too." }
+      ]
+    },
+    {
+      "title": "Near or far? Power cuts",
+      "tip": { "title": "Where a place 'falls'", "body": "- For where a house or shop is, Nepali says it **पर्छ** 'falls': तपाईंको घर कहाँ **पर्छ**? 'Whereabouts is your house?'\n- **नजिक** 'near', **नजिकै** 'right nearby', **टाढा** 'far'; from here = **यहाँबाट**.\n- Load-shedding talk: बत्ती **गयो** 'the power's gone', बत्ती **आयो** 'it's back'.", "pattern": "X + कहाँ पर्छ?  ·  यहाँबाट + नजिक / टाढा + छ" },
+      "new": ["बत्ती", "भाँडा", "नजिक", "टाढा", "बत्ती गयो!", "तपाईंको घर कहाँ पर्छ?", "यहाँबाट टाढा छ?"],
+      "sentences": [
+        { "native": "तिम्रो घर यहाँबाट नजिक छ?", "roman": "timro ghar yahāṃbāṭa najik chha?", "en": "Is your house near here?", "focus": "नजिक", "wrong": ["टाढा|ṭāḍhā", "बीच|bich"] },
+        { "native": "होइन, अलि टाढा छ।", "roman": "hoina, ali ṭāḍhā chha.", "en": "No, it's a bit far.", "focus": "टाढा", "wrong": ["नजिक|najik", "बीच|bich"] },
+        { "native": "हाम्रो घर स्कुलको नजिक पर्छ।", "roman": "hāmro ghar skulko najik parchha.", "en": "Our house is near the school.", "focus": "पर्छ", "wrong": ["छु|chhu", "हो|ho"] },
+        { "native": "उहाँको घर पाटनमा पर्छ।", "roman": "uhāṃko ghar Pāṭanmā parchha.", "en": "His house is in Patan.", "focus": "पर्छ", "wrong": ["छु|chhu", "हो|ho"] },
+        { "native": "पसल नजिकै छ।", "roman": "pasal najikai chha.", "en": "The shop is just nearby.", "focus": "नजिकै", "wrong": ["टाढा|ṭāḍhā", "बीच|bich"] },
+        { "native": "ठमेल यहाँबाट कति टाढा छ?", "roman": "Ṭhamel yahāṃbāṭa kati ṭāḍhā chha?", "en": "How far is Thamel from here?", "focus": "यहाँबाट", "wrong": ["यहाँ|yahāṃ", "यहाँको|yahāṃko"] },
+        { "native": "फेरि बत्ती गयो!", "roman": "pheri batti gayo!", "en": "The power's gone again!", "focus": "गयो", "wrong": ["आयो|āyo", "छ|chha"] },
+        { "native": "बत्ती आयो।", "roman": "batti āyo.", "en": "The power's back.", "focus": "आयो", "wrong": ["गयो|gayo", "छैन|chhaina"] },
+        { "native": "कोठामा बत्ती छैन।", "roman": "koṭhāmā batti chhaina.", "en": "There's no light in the room." },
+        { "native": "भाँडा भान्सामा छन्।", "roman": "bhāṃḍā bhānsāmā chhan.", "en": "The dishes are in the kitchen." }
+      ]
+    }
+  ]
 }

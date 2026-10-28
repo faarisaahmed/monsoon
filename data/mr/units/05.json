@@ -91,5 +91,98 @@
       { "speaker": "Waiter", "native": "एकशे वीस रुपये.", "roman": "ekshe vīs rupaye.", "en": "A hundred and twenty rupees." }
     ]
   },
-  "culture": "A traditional Marathi meal is served on a steel plate (ताट) with वरण-भात, पोळी, a भाजी, कोशिंबीर (salad), लोणचं (pickle) and perhaps a sweet. It's polite to take a second helping when offered — a host will insist ('अजून घ्या ना!'). **जेवलात का?** ('have you eaten?') is a common way of showing care. Street food classics: वडापाव (Mumbai's potato-fritter bun), मिसळ पाव (spicy sprouts curry, Pune/Nashik/Kolhapur styles), पोहे (flattened rice, the default breakfast) and साबुदाणा खिचडी on fasting days."
+  "culture": "A traditional Marathi meal is served on a steel plate (ताट) with वरण-भात, पोळी, a भाजी, कोशिंबीर (salad), लोणचं (pickle) and perhaps a sweet. It's polite to take a second helping when offered — a host will insist ('अजून घ्या ना!'). **जेवलात का?** ('have you eaten?') is a common way of showing care. Street food classics: वडापाव (Mumbai's potato-fritter bun), मिसळ पाव (spicy sprouts curry, Pune/Nashik/Kolhapur styles), पोहे (flattened rice, the default breakfast) and साबुदाणा खिचडी on fasting days.",
+  "lessons": [
+    {
+      "title": "Tea, coffee or water?",
+      "tip": { "title": "मला … हवं — I'd like", "body": "- 'I want tea' is 'to me tea is wanted': **मला** चहा **हवा**.\n- हवा agrees with the thing: चहा **हवा** (m), कॉफी **हवी** (f), पाणी **हवं** (n).\n- **पाहिजे** means the same and never changes: मला कॉफी पाहिजे.\n- In a café just name it + **द्या** 'give': एक चहा द्या.", "pattern": "मला + thing + हवा / हवी / हवं" },
+      "new": ["चहा", "कॉफी", "पाणी", "दूध", "हवा", "पाहिजे", "तुम्हाला काय हवं?", "मला पाणी हवं आहे.", "एक कटिंग चहा द्या."],
+      "sentences": [
+        { "native": "मला चहा हवा.", "roman": "malā tsahā havā.", "en": "I'd like tea.", "focus": "हवा", "wrong": ["हवी|havī", "हवं|havaṃ"] },
+        { "native": "मला कॉफी हवी आहे.", "roman": "malā kôfī havī āhe.", "en": "I'd like a coffee.", "focus": "हवी", "wrong": ["हवा|havā", "हवं|havaṃ"] },
+        { "native": "तुला दूध हवं का?", "roman": "tulā dūdh havaṃ kā?", "en": "Do you want some milk?", "focus": "हवं", "wrong": ["हवा|havā", "हवी|havī"] },
+        { "native": "तुम्हाला चहा हवा की कॉफी?", "roman": "tumhālā tsahā havā kī kôfī?", "en": "Would you like tea or coffee?", "focus": "हवा", "wrong": ["हवी|havī", "हवं|havaṃ"] },
+        { "native": "मला चहा नको, कॉफी हवी.", "roman": "malā tsahā nako, kôfī havī.", "en": "I don't want tea, I'd like coffee.", "focus": "हवी", "wrong": ["हवा|havā", "हवं|havaṃ"] },
+        { "native": "मला पाणी पाहिजे.", "roman": "malā pāṇī pāhije.", "en": "I need some water.", "focus": "पाहिजे", "wrong": ["हवा|havā", "हवी|havī"] },
+        { "native": "दोन चहा द्या.", "roman": "don tsahā dyā.", "en": "Two teas, please.", "focus": "द्या", "wrong": ["दे|de", "देतो|deto"] },
+        { "native": "एक कॉफी आणि पाणी द्या.", "roman": "ek kôfī āṇi pāṇī dyā.", "en": "A coffee and some water, please." }
+      ]
+    },
+    {
+      "title": "What do you like?",
+      "tip": { "title": "मला आवडतं — I like", "body": "- 'I like' is 'to me … is pleasing': **मला** आंबा **आवडतो**.\n- The verb agrees with the **thing liked**: आंबा आवडतो (m), कॉफी आवडते (f), केळं आवडतं (n), आंबे **आवडतात** (pl).\n- Negative: मला गोड आवडत **नाही**.\n- To him **त्याला**, to us **आम्हाला**.", "pattern": "मला + thing + आवडतो / आवडते / आवडतं", "grammar": 0 },
+      "new": ["आवडणे", "आंबा", "केळं", "फळ", "गोड", "मला गोड आवडत नाही."],
+      "sentences": [
+        { "native": "मला केळं आवडतं.", "roman": "malā keḷaṃ āvaḍtaṃ.", "en": "I like bananas.", "focus": "आवडतं", "wrong": ["आवडतो|āvaḍto", "आवडते|āvaḍte"] },
+        { "native": "तुला आंबे आवडतात का?", "roman": "tulā āmbe āvaḍtāt kā?", "en": "Do you like mangoes?", "focus": "आवडतात", "wrong": ["आवडतो|āvaḍto", "आवडतं|āvaḍtaṃ"] },
+        { "native": "तिला चहा आवडत नाही.", "roman": "tilā tsahā āvaḍat nāhī.", "en": "She doesn't like tea.", "focus": "आवडत", "wrong": ["आवडतो|āvaḍto", "आवडते|āvaḍte"] },
+        { "native": "मला फळं खूप आवडतात.", "roman": "malā phaḷaṃ khūp āvaḍtāt.", "en": "I really like fruit.", "focus": "आवडतात", "wrong": ["आवडतं|āvaḍtaṃ", "आवडते|āvaḍte"] },
+        { "native": "त्याला कॉफी आवडते.", "roman": "tyālā kôfī āvaḍte.", "en": "He likes coffee.", "focus": "त्याला", "wrong": ["तो|to", "त्याचा|tyātsā"] },
+        { "native": "आम्हाला गोड खूप आवडतं.", "roman": "āmhālā goḍ khūp āvaḍtaṃ.", "en": "We love sweet things.", "focus": "आम्हाला", "wrong": ["आम्ही|āmhī", "आमचं|āmtsaṃ"] },
+        { "native": "तुम्हाला कोणतं फळ आवडतं?", "roman": "tumhālā koṇtaṃ phaḷ āvaḍtaṃ?", "en": "Which fruit do you like?", "focus": "कोणतं", "wrong": ["कोणता|koṇtā", "कोणती|koṇtī"] },
+        { "native": "हा आंबा खूप गोड आहे.", "roman": "hā āmbā khūp goḍ āhe.", "en": "This mango is very sweet." }
+      ]
+    },
+    {
+      "title": "I'm hungry",
+      "tip": { "title": "मला भूक लागली आहे", "body": "- Hunger and thirst 'strike' you: **मला भूक लागली आहे** 'I'm hungry', **मला तहान लागली आहे** 'I'm thirsty'.\n- भूक and तहान are feminine, so it's **लागली**.\n- खाणे 'eat', पिणे 'drink': मी खातो / खाते, तू खातोस, ते **पितात**. Breakfast is नाश्ता **करणे**.\n- **जेवलास का?** 'have you eaten?' is a caring hello.", "pattern": "मला + भूक / तहान + लागली आहे", "grammar": 1 },
+      "new": ["भूक", "तहान", "जेवण", "नाश्ता", "खाणे", "पिणे", "मला भूक लागली आहे.", "मला तहान लागली आहे.", "जेवलास का?"],
+      "sentences": [
+        { "native": "तुला भूक लागली आहे का?", "roman": "tulā bhūk lāglī āhe kā?", "en": "Are you hungry?", "focus": "लागली", "wrong": ["लागला|lāglā", "लागलं|lāglaṃ"] },
+        { "native": "आम्हाला खूप तहान लागली आहे.", "roman": "āmhālā khūp tahān lāglī āhe.", "en": "We're very thirsty.", "focus": "लागली", "wrong": ["लागला|lāglā", "लागलं|lāglaṃ"] },
+        { "native": "मुलांना भूक लागली आहे.", "roman": "mulānnā bhūk lāglī āhe.", "en": "The children are hungry.", "focus": "मुलांना", "wrong": ["मुलं|mulaṃ", "मुलांचा|mulāntsā"] },
+        { "native": "तू नाश्ता करतोस का?", "roman": "tū nāshtā kartos kā?", "en": "Do you eat breakfast? (to a man)", "focus": "करतोस", "wrong": ["करतो|karto", "करता|kartā"] },
+        { "native": "ती कॉफी पीत नाही.", "roman": "tī kôfī pīt nāhī.", "en": "She doesn't drink coffee.", "focus": "पीत", "wrong": ["पिते|pite", "पितो|pito"] },
+        { "native": "मुलं दूध पितात.", "roman": "mulaṃ dūdh pitāt.", "en": "The children drink milk.", "focus": "पितात", "wrong": ["पितो|pito", "पिते|pite"] },
+        { "native": "हो, मी जेवलो.", "roman": "ho, mī jevlo.", "en": "Yes, I've eaten. (man)" },
+        { "native": "आता जेवण नको, फक्त चहा.", "roman": "ātā jevaṇ nako, phakta tsahā.", "en": "No meal now, just tea." }
+      ]
+    },
+    {
+      "title": "A Marathi meal",
+      "tip": { "title": "Veg or non-veg?", "body": "- **मी शाकाहारी आहे** 'I'm vegetarian'. If you eat eggs, say so: मी अंडं खातो.\n- Ask politely with the तुम्ही form: तुम्ही मासे **खाता** का?\n- A host says **घ्या** 'have, help yourself'; **अजून** = more. A plate: वरण-भात, पोळी, भाजी." },
+      "new": ["भात", "पोळी", "भाजी", "वरण", "अंडं", "मासा", "शाकाहारी", "मी शाकाहारी आहे.", "अजून थोडा भात घ्या."],
+      "sentences": [
+        { "native": "तुम्ही मासे खाता का?", "roman": "tumhī māse khātā kā?", "en": "Do you eat fish?", "focus": "खाता", "wrong": ["खातो|khāto", "खाते|khāte"] },
+        { "native": "नाही, मी मासा खात नाही.", "roman": "nāhī, mī māsā khāt nāhī.", "en": "No, I don't eat fish.", "focus": "खात", "wrong": ["खातो|khāto", "खाते|khāte"] },
+        { "native": "मी अंडं खातो, पण मासे नाही.", "roman": "mī aṇḍaṃ khāto, paṇ māse nāhī.", "en": "I eat eggs, but not fish. (man)", "focus": "खातो", "wrong": ["खाता|khātā", "खाते|khāte"] },
+        { "native": "अजून एक पोळी घ्या.", "roman": "adzūn ek poḷī ghyā.", "en": "Have one more chapati. (polite)", "focus": "घ्या", "wrong": ["घे|ghe", "घेतो|gheto"] },
+        { "native": "थोडं वरण घ्या ना.", "roman": "thoḍaṃ varaṇ ghyā nā.", "en": "Do have a little dal.", "focus": "थोडं", "wrong": ["थोडा|thoḍā", "थोडी|thoḍī"] },
+        { "native": "मला वरण-भात खूप आवडतो.", "roman": "malā varaṇ-bhāt khūp āvaḍto.", "en": "I love dal and rice.", "focus": "आवडतो", "wrong": ["आवडते|āvaḍte", "आवडतात|āvaḍtāt"] },
+        { "native": "आज कोणती भाजी आहे?", "roman": "ādz koṇtī bhājī āhe?", "en": "What's the vegetable dish today?", "focus": "कोणती", "wrong": ["कोणता|koṇtā", "कोणतं|koṇtaṃ"] },
+        { "native": "भात नको, फक्त पोळी भाजी द्या.", "roman": "bhāt nako, phakta poḷī bhājī dyā.", "en": "No rice, just chapati and vegetables, please." },
+        { "native": "ती शाकाहारी आहे, ती अंडं पण खात नाही.", "roman": "tī shākāhārī āhe, tī aṇḍaṃ paṇ khāt nāhī.", "en": "She's vegetarian, she doesn't even eat eggs." }
+      ]
+    },
+    {
+      "title": "Spicy, sweet, sour",
+      "tip": { "title": "Less spicy, please", "body": "- **तिखट** spicy-hot · **गोड** sweet · **आंबट** sour.\n- **कमी** 'less' and **जास्त** 'more, too' go before the word: कमी तिखट, जास्त साखर.\n- **थोडं** 'a little' agrees with the thing: थोडं मीठ (n), थोडा भात (m), थोडी साखर (f)." },
+      "new": ["तिखट", "आंबट", "मीठ", "साखर", "कमी तिखट करा."],
+      "sentences": [
+        { "native": "हे खूप तिखट आहे!", "roman": "he khūp tikhaṭ āhe!", "en": "This is very spicy!", "focus": "तिखट", "wrong": ["गोड|goḍ", "आंबट|āmbaṭ"] },
+        { "native": "हा आंबा आंबट आहे.", "roman": "hā āmbā āmbaṭ āhe.", "en": "This mango is sour.", "focus": "आंबट", "wrong": ["गोड|goḍ", "तिखट|tikhaṭ"] },
+        { "native": "चहात साखर कमी आहे.", "roman": "tsahāt sākhar kamī āhe.", "en": "There isn't enough sugar in the tea.", "focus": "कमी", "wrong": ["जास्त|dzāst", "खूप|khūp"] },
+        { "native": "मीठ कमी आहे, थोडं मीठ द्या.", "roman": "mīṭh kamī āhe, thoḍaṃ mīṭh dyā.", "en": "There isn't enough salt, pass me a little.", "focus": "थोडं", "wrong": ["थोडा|thoḍā", "थोडी|thoḍī"] },
+        { "native": "भाजी जास्त तिखट नको.", "roman": "bhājī dzāst tikhaṭ nako.", "en": "Don't make the vegetables too spicy.", "focus": "जास्त", "wrong": ["कमी|kamī", "फक्त|phakta"] },
+        { "native": "माझ्या चहात साखर नको.", "roman": "mājhyā tsahāt sākhar nako.", "en": "No sugar in my tea, please.", "focus": "नको", "wrong": ["नाही|nāhī", "हवी|havī"] },
+        { "native": "मला तिखट खूप आवडतं.", "roman": "malā tikhaṭ khūp āvaḍtaṃ.", "en": "I love spicy food." }
+      ]
+    },
+    {
+      "title": "That was delicious",
+      "tip": { "title": "Praising the food", "body": "- **मस्त!** 'great!' and **खूप छान** praise anything; **चव** = taste.\n- '… turned out well' uses झाला / **झाली** / **झालं**, agreeing with the dish: भाजी छान झाली, वरण मस्त झालं.\n- Refusing more: **नको, पोट भरलं** 'no, I'm full'. For the bill: बिल **आणा** 'bring'." },
+      "new": ["चव", "मस्त", "पोट भरलं.", "जेवण खूप छान झालं.", "बिल आणा, प्लीज."],
+      "sentences": [
+        { "native": "भाजी मस्त झाली आहे.", "roman": "bhājī mast dzhālī āhe.", "en": "The vegetables have turned out great.", "focus": "झाली", "wrong": ["झाला|dzhālā", "झालं|dzhālaṃ"] },
+        { "native": "पोळी खूप छान झाली.", "roman": "poḷī khūp chhān dzhālī.", "en": "The chapatis turned out really well.", "focus": "झाली", "wrong": ["झाला|dzhālā", "झालं|dzhālaṃ"] },
+        { "native": "वरण मस्त झालं.", "roman": "varaṇ mast dzhālaṃ.", "en": "The dal turned out great.", "focus": "झालं", "wrong": ["झाला|dzhālā", "झाली|dzhālī"] },
+        { "native": "वरणाची चव मस्त आहे!", "roman": "varaṇāchī tsav mast āhe!", "en": "The dal tastes great!", "focus": "वरणाची", "wrong": ["वरणाचा|varaṇātsā", "वरणाचं|varaṇātsaṃ"] },
+        { "native": "भाजीला चव नाही.", "roman": "bhājīlā tsav nāhī.", "en": "The vegetables have no flavour." },
+        { "native": "नको, धन्यवाद, पोट भरलं.", "roman": "nako, dhanyavād, poṭ bharlaṃ.", "en": "No thanks, I'm full." },
+        { "native": "पाणी आणा, प्लीज.", "roman": "pāṇī āṇā, plīz.", "en": "Bring some water, please.", "focus": "आणा", "wrong": ["आण|āṇ", "आणतो|āṇto"] },
+        { "native": "काका, बिल आणा.", "roman": "kākā, bil āṇā.", "en": "The bill please, uncle.", "focus": "आणा", "wrong": ["आण|āṇ", "आणतो|āṇto"] },
+        { "native": "चहा मस्त आहे!", "roman": "tsahā mast āhe!", "en": "The tea is great!" }
+      ]
+    }
+  ]
 }

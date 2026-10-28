@@ -90,5 +90,92 @@
       { "speaker": "Tanvi", "native": "वा! मला घर आवडलं.", "roman": "vā! malā ghar āvaḍlaṃ.", "en": "Wow! I like the flat." }
     ]
   },
-  "culture": "Shoes and sandals (चपला) come off at the door of every Marathi home — look for the pile outside. Many homes have a small shrine (देवघर) in the kitchen or a corner of the living room. In Mumbai, flats are described by size as 1BHK, 2BHK ('वन बीएचके'), and the building society (सोसायटी) and its watchman (वॉचमन) are part of daily life."
+  "culture": "Shoes and sandals (चपला) come off at the door of every Marathi home — look for the pile outside. Many homes have a small shrine (देवघर) in the kitchen or a corner of the living room. In Mumbai, flats are described by size as 1BHK, 2BHK ('वन बीएचके'), and the building society (सोसायटी) and its watchman (वॉचमन) are part of daily life.",
+  "lessons": [
+    {
+      "title": "Welcome to my home",
+      "tip": { "title": "There is, there are", "body": "- Place + thing + **आहे** = 'there is'; for more than one, **आहेत**: घरात तीन खोल्या आहेत.\n- Negative: **नाही / नाहीत**. Ask with **का** at the end.\n- 'In' is the ending **-त**: घरात, खोलीत, स्वयंपाकघरात.\n- **कोणी** anyone, **काही** anything: घरात कोणी नाही.", "pattern": "place-त + thing + आहे / आहेत", "grammar": 1 },
+      "new": ["खोली", "स्वयंपाकघर", "दिवाणखाना", "न्हाणीघर", "आत", "घरात कोणी आहे का?", "आत या.", "तुमचं घर खूप छान आहे.", "टॉयलेट कुठे आहे?"],
+      "sentences": [
+        { "native": "घरात तीन खोल्या आहेत.", "roman": "gharāt tīn kholyā āhet.", "en": "There are three rooms in the house.", "focus": "आहेत", "wrong": ["आहे|āhe", "आहोत|āhot"] },
+        { "native": "तुमच्या घरात किती खोल्या आहेत?", "roman": "tumchyā gharāt kitī kholyā āhet?", "en": "How many rooms are there in your house?", "focus": "आहेत", "wrong": ["आहे|āhe", "आहोत|āhot"] },
+        { "native": "स्वयंपाकघरात कोणी आहे का?", "roman": "svayampākgharāt koṇī āhe kā?", "en": "Is anyone in the kitchen?", "focus": "कोणी", "wrong": ["काही|kāhī", "कोण|koṇ"] },
+        { "native": "दिवाणखान्यात कोणी नाही.", "roman": "divāṇkhānyāt koṇī nāhī.", "en": "There's no one in the living room.", "focus": "कोणी", "wrong": ["काही|kāhī", "कोण|koṇ"] },
+        { "native": "न्हाणीघरात पाणी नाही.", "roman": "nhāṇīgharāt pāṇī nāhī.", "en": "There's no water in the bathroom.", "focus": "नाही", "wrong": ["नाहीत|nāhīt", "नको|nako"] },
+        { "native": "स्वयंपाकघरात काही खायला आहे का?", "roman": "svayampākgharāt kāhī khāylā āhe kā?", "en": "Is there anything to eat in the kitchen?", "focus": "काही", "wrong": ["कोणी|koṇī", "किती|kitī"] },
+        { "native": "आई स्वयंपाकघरात आहे.", "roman": "āī svayampākgharāt āhe.", "en": "Mum is in the kitchen." },
+        { "native": "आत या, बसा.", "roman": "āt yā, basā.", "en": "Come in, sit down." },
+        { "native": "माझी खोली खूप छान आहे.", "roman": "mājhī kholī khūp chhān āhe.", "en": "My room is really nice." }
+      ]
+    },
+    {
+      "title": "Where's the key?",
+      "tip": { "title": "On, under, in: endings on the noun", "body": "- 'On', 'under' and 'in' stick to the end of the noun: टेबला**वर** 'on the table', पलंगा**खाली** 'under the bed', कपाटा**त** 'in the cupboard'.\n- A noun ending in a consonant adds **-आ-** first: टेबल → टेबलावर. One ending in -आ changes it to **-या-**: जिना → जिन्याखाली.\n- Nouns in -ई don't change: खुर्चीवर, खोलीत.", "pattern": "टेबल → टेबलावर · पलंग → पलंगाखाली", "grammar": 0 },
+      "new": ["किल्ली", "टेबल", "पलंग", "कपाट", "वर", "खाली", "फोन", "किल्ली कुठे आहे?", "किल्ली टेबलावर आहे."],
+      "sentences": [
+        { "native": "माझा फोन पलंगावर आहे.", "roman": "mādzhā fon palaṅgāvar āhe.", "en": "My phone is on the bed.", "focus": "पलंगावर", "wrong": ["पलंगवर|palaṅgvar", "पलंगात|palaṅgāt"] },
+        { "native": "पैसे कपाटात आहेत.", "roman": "paise kapāṭāt āhet.", "en": "The money is in the cupboard.", "focus": "कपाटात", "wrong": ["कपाटत|kapāṭat", "कपाटाला|kapāṭālā"] },
+        { "native": "पलंगाखाली काय आहे?", "roman": "palaṅgākhālī kāy āhe?", "en": "What's under the bed?", "focus": "पलंगाखाली", "wrong": ["पलंगखाली|palaṅgkhālī", "पलंगात|palaṅgāt"] },
+        { "native": "फोन टेबलावर नाही.", "roman": "fon ṭeblāvar nāhī.", "en": "The phone isn't on the table.", "focus": "टेबलावर", "wrong": ["टेबलात|ṭeblāt", "टेबलाला|ṭeblālā"] },
+        { "native": "किल्ली टेबलाखाली आहे!", "roman": "killī ṭeblākhālī āhe!", "en": "The key's under the table!", "focus": "टेबलाखाली", "wrong": ["टेबलात|ṭeblāt", "टेबलाला|ṭeblālā"] },
+        { "native": "माझी बहीण वर आहे.", "roman": "mājhī bahīṇ var āhe.", "en": "My sister is upstairs." },
+        { "native": "आजी खाली आहेत.", "roman": "ājī khālī āhet.", "en": "Grandma is downstairs." }
+      ]
+    },
+    {
+      "title": "In the bag, near the book",
+      "tip": { "title": "मध्ये, जवळ, मागे, समोर", "body": "- **मध्ये** 'in' is common with English words: बॅगमध्ये, फोनमध्ये.\n- **जवळ** near · **मागे** behind · **समोर** opposite. They take the same -आ- form: पुस्तकाजवळ, घरामागे, घरासमोर.\n- With 'my / your' use **माझ्या-**, **तुझ्या-**: तुझ्याजवळ किल्ली आहे का? 'Have you got the key on you?'" },
+      "new": ["पिशवी", "पुस्तक", "बाटली", "मध्ये", "जवळ", "मागे", "समोर", "माझा फोन बॅगेत आहे."],
+      "sentences": [
+        { "native": "पाण्याची बाटली पिशवीत आहे.", "roman": "pāṇyāchī bāṭlī pishvīt āhe.", "en": "The water bottle is in the bag.", "focus": "पिशवीत", "wrong": ["पिशवात|pishvāt", "पिशवीला|pishvīlā"] },
+        { "native": "पुस्तक बॅगमध्ये आहे.", "roman": "pustak bægmadhye āhe.", "en": "The book is in the bag.", "focus": "बॅगमध्ये", "wrong": ["बॅगला|bæglā", "बॅगचा|bægtsā"] },
+        { "native": "फोन पुस्तकाजवळ आहे.", "roman": "fon pustakādzavaḷ āhe.", "en": "The phone is next to the book.", "focus": "पुस्तकाजवळ", "wrong": ["पुस्तकजवळ|pustakdzavaḷ", "पुस्तकाला|pustakālā"] },
+        { "native": "तुझ्याजवळ किल्ली आहे का?", "roman": "tujhyādzavaḷ killī āhe kā?", "en": "Have you got the key on you?", "focus": "तुझ्याजवळ", "wrong": ["तुझाजवळ|tudzhādzavaḷ", "तुलाजवळ|tulādzavaḷ"] },
+        { "native": "आमच्या घरासमोर एक शाळा आहे.", "roman": "āmchyā gharāsamor ek shāḷā āhe.", "en": "There's a school opposite our house.", "focus": "घरासमोर", "wrong": ["घरसमोर|gharsamor", "घराला|gharālā"] },
+        { "native": "मुलं घरामागे आहेत.", "roman": "mulaṃ gharāmāge āhet.", "en": "The children are behind the house.", "focus": "घरामागे", "wrong": ["घरमागे|gharmāge", "घराला|gharālā"] },
+        { "native": "माझ्या पिशवीत दोन पुस्तकं आहेत.", "roman": "mājhyā pishvīt don pustakaṃ āhet.", "en": "There are two books in my bag.", "focus": "पुस्तकं", "wrong": ["पुस्तक|pustak", "पुस्तका|pustakā"] },
+        { "native": "बाटलीत पाणी नाही.", "roman": "bāṭlīt pāṇī nāhī.", "en": "There's no water in the bottle." }
+      ]
+    },
+    {
+      "title": "Doors, windows and the stairs",
+      "tip": { "title": "Plural of -ई words", "body": "- Feminine nouns in **-ई** make the plural in **-या**: खिडकी → खिडक्या, खुर्ची → खुर्च्या, खोली → खोल्या.\n- Feminine nouns ending in a consonant add **-ई**: भिंत → भिंती.\n- **शेजारी** 'next to' takes **-च्या**: बाथरूमच्या शेजारी. As a noun it means 'neighbour'." },
+      "new": [
+        "दार",
+        "खिडकी",
+        "भिंत",
+        "खुर्ची",
+        "जिना",
+        "शेजारी",
+        "माझ्या खोलीत एक पलंग आणि दोन खुर्च्या आहेत.",
+        "जिन्याजवळ लिफ्ट आहे."
+      ],
+      "sentences": [
+        { "native": "दिवाणखान्यात तीन खिडक्या आहेत.", "roman": "divāṇkhānyāt tīn khiḍkyā āhet.", "en": "There are three windows in the living room.", "focus": "खिडक्या", "wrong": ["खिडकी|khiḍkī", "खिडकीत|khiḍkīt"] },
+        { "native": "खोलीत खुर्च्या नाहीत.", "roman": "kholīt khurchyā nāhīt.", "en": "There are no chairs in the room.", "focus": "खुर्च्या", "wrong": ["खुर्ची|khurchī", "खुर्चीत|khurchīt"] },
+        { "native": "खुर्चीवर बसा.", "roman": "khurchīvar basā.", "en": "Sit on the chair.", "focus": "खुर्चीवर", "wrong": ["खुर्चीत|khurchīt", "खुर्चावर|khurchāvar"] },
+        { "native": "भिंतीवर काय आहे?", "roman": "bhintīvar kāy āhe?", "en": "What's on the wall?", "focus": "भिंतीवर", "wrong": ["भिंतवर|bhintvar", "भिंतीत|bhintīt"] },
+        { "native": "जिन्याखाली एक कपाट आहे.", "roman": "jinyākhālī ek kapāṭ āhe.", "en": "There's a cupboard under the stairs.", "focus": "जिन्याखाली", "wrong": ["जिनाखाली|jinākhālī", "जिन्यात|jinyāt"] },
+        { "native": "माझी खोली बाथरूमच्या शेजारी आहे.", "roman": "mājhī kholī bāthrūmchyā shedzārī āhe.", "en": "My room is next to the bathroom.", "focus": "बाथरूमच्या", "wrong": ["बाथरूमचा|bāthrūmtsā", "बाथरूमला|bāthrūmlā"] },
+        { "native": "दार बंद करा.", "roman": "dār band karā.", "en": "Please shut the door." },
+        { "native": "आमचे शेजारी खूप छान आहेत.", "roman": "āmche shedzārī khūp chhān āhet.", "en": "Our neighbours are really nice." }
+      ]
+    },
+    {
+      "title": "Fan on, light off",
+      "tip": { "title": "Telling people what to do", "body": "- To a friend, a command is the bare verb: **लाव**, **कर**, **बस**. Politely add **-आ**: लावा, करा, बसा.\n- पंखा / दिवा **लावणे** = switch on; **बंद करणे** = switch off.\n- **ना** at the end softens it: पंखा लाव ना.\n- **इथे** here · **तिथे** there · **बाहेर** outside." },
+      "new": ["पंखा", "दिवा", "इथे", "तिथे", "बाहेर", "पंखा लाव ना.", "दिवा बंद कर.", "चपला बाहेर काढा."],
+      "sentences": [
+        { "native": "दिवा लाव ना.", "roman": "divā lāv nā.", "en": "Turn on the light, will you? (to a friend)", "focus": "लाव", "wrong": ["लावा|lāvā", "लावतो|lāvto"] },
+        { "native": "पंखा बंद करा.", "roman": "paṅkhā band karā.", "en": "Please switch off the fan. (polite)", "focus": "करा", "wrong": ["कर|kar", "करतो|karto"] },
+        { "native": "दार बंद कर ना.", "roman": "dār band kar nā.", "en": "Shut the door, will you? (to a friend)", "focus": "कर", "wrong": ["करा|karā", "करतो|karto"] },
+        { "native": "चपला इथे काढा.", "roman": "tsaplā ithe kāḍhā.", "en": "Please take your sandals off here. (polite)", "focus": "काढा", "wrong": ["काढ|kāḍh", "काढतो|kāḍhto"] },
+        { "native": "तिथे बसा.", "roman": "tithe basā.", "en": "Sit over there. (polite)", "focus": "बसा", "wrong": ["बस|bas", "बसतो|basto"] },
+        { "native": "बाहेर या ना.", "roman": "bāher yā nā.", "en": "Come outside, please. (polite)", "focus": "या", "wrong": ["ये|ye", "येतो|yeto"] },
+        { "native": "इथे पंखा नाही.", "roman": "ithe paṅkhā nāhī.", "en": "There's no fan here." },
+        { "native": "किल्ली तिथे आहे, टेबलावर.", "roman": "killī tithe āhe, ṭeblāvar.", "en": "The key's over there, on the table." },
+        { "native": "मुलं बाहेर आहेत.", "roman": "mulaṃ bāher āhet.", "en": "The children are outside." }
+      ]
+    }
+  ]
 }

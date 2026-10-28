@@ -90,5 +90,97 @@
       { "speaker": "Meera", "native": "पुरेसे नाहीत! अजून दहा आण.", "roman": "purese nāhīt! adzūn dahā āṇ.", "en": "Not enough! Get ten more." }
     ]
   },
-  "culture": "In Maharashtra, school years are called by ordinal number in the feminine: पहिली, दुसरी … दहावी, बारावी (the 10th and 12th standard board exams, **दहावी** and **बारावी**, are major life events). Large numbers are counted in **लाख** (100,000) and **कोटी** (10 million), written १,००,००० — never in millions. And when a price or time is 'one-and-a-half' or 'quarter-to', expect दीड, सव्वा, पावणे — even in Mumbai English ('dedh sau' becomes 'दीडशे')."
+  "culture": "In Maharashtra, school years are called by ordinal number in the feminine: पहिली, दुसरी … दहावी, बारावी (the 10th and 12th standard board exams, **दहावी** and **बारावी**, are major life events). Large numbers are counted in **लाख** (100,000) and **कोटी** (10 million), written १,००,००० — never in millions. And when a price or time is 'one-and-a-half' or 'quarter-to', expect दीड, सव्वा, पावणे — even in Mumbai English ('dedh sau' becomes 'दीडशे').",
+  "lessons": [
+    {
+      "title": "How many of you?",
+      "tip": { "title": "Numbers take the plural", "body": "- After a number above one the noun is **plural**: एक मुलगी, दोन **मुली**; एक मूल, तीन **मुलं**.\n- Counting people, add **जण** (men or mixed) or **जणी** (all women): आम्ही चार जण आहोत.\n- 'Both of us' = आम्ही **दोघं**.\n- **किती** 'how many' never changes.", "pattern": "number + plural noun  ·  number + जण", "grammar": 0 },
+      "new": ["किती", "जण", "मोजणे", "खूप", "तुम्ही किती जण आहात?", "आम्ही चार जण आहोत.", "एकूण किती?"],
+      "sentences": [
+        { "native": "तुम्हाला किती मुलं आहेत?", "roman": "tumhālā kitī mulaṃ āhet?", "en": "How many children do you have?", "focus": "मुलं", "wrong": ["मूल|mūl", "मुलगा|mulgā"] },
+        { "native": "मला तीन भाऊ आणि दोन बहिणी आहेत.", "roman": "malā tīn bhāū āṇi don bahiṇī āhet.", "en": "I have three brothers and two sisters.", "focus": "बहिणी", "wrong": ["बहीण|bahīṇ", "बहिणा|bahiṇā"] },
+        { "native": "माझ्या घरी चार जण आहेत.", "roman": "mājhyā gharī tsār dzaṇ āhet.", "en": "There are four of us at home.", "focus": "आहेत", "wrong": ["आहे|āhe", "आहोत|āhot"] },
+        { "native": "आम्ही तिघी जणी आहोत.", "roman": "āmhī tighī dzaṇī āhot.", "en": "There are three of us (women).", "focus": "जणी", "wrong": ["जण|dzaṇ", "जणं|dzaṇaṃ"] },
+        { "native": "किती जण येणार?", "roman": "kitī dzaṇ yeṇār?", "en": "How many people are coming?", "focus": "किती", "wrong": ["कितवा|kitvā", "कधी|kadhī"] },
+        { "native": "एकूण किती जण आहेत?", "roman": "ekūṇ kitī dzaṇ āhet?", "en": "How many people are there altogether?", "focus": "किती", "wrong": ["कितवा|kitvā", "कुठे|kuṭhe"] },
+        { "native": "आम्ही दोघं मराठी बोलतो.", "roman": "āmhī doghaṃ marāṭhī bolto.", "en": "We both speak Marathi.", "focus": "दोघं", "wrong": ["दोन|don", "दुसरा|dusrā"] },
+        { "native": "खूप जण मराठी बोलतात.", "roman": "khūp dzaṇ marāṭhī boltāt.", "en": "Lots of people speak Marathi." },
+        { "native": "पैसे मोजा ना.", "roman": "paise modzā nā.", "en": "Please count the money." }
+      ]
+    },
+    {
+      "title": "How old are you?",
+      "tip": { "title": "… वर्षांचा आहे — … years old", "body": "- Ask **तुमचं वय किती आहे?** or **तुम्ही किती वर्षांचे आहात?**\n- Answer 'of … years': वर्षांचा (man), **वर्षांची** (woman), **वर्षांचं** (baby, neuter), **वर्षांचे** (respected elders).\n- Ask an age with **किती**, a date with **कधी**: तुझा वाढदिवस कधी आहे?", "pattern": "मी + number + वर्षांचा / वर्षांची + आहे", "grammar": 1 },
+      "new": ["वय", "वर्ष", "वाढदिवस", "तुमचं वय किती आहे?", "मी पंचवीस वर्षांचा आहे."],
+      "sentences": [
+        { "native": "तुझं वय किती?", "roman": "tudzhaṃ vay kitī?", "en": "How old are you? (to a friend)", "focus": "तुझं", "wrong": ["तुझा|tudzhā", "तुझी|tujhī"] },
+        { "native": "मी बत्तीस वर्षांची आहे.", "roman": "mī battīs varṣānchī āhe.", "en": "I'm thirty-two. (woman)", "focus": "वर्षांची", "wrong": ["वर्षांचा|varṣāntsā", "वर्षांचं|varṣāntsaṃ"] },
+        { "native": "माझा भाऊ वीस वर्षांचा आहे.", "roman": "mādzhā bhāū vīs varṣāntsā āhe.", "en": "My brother is twenty.", "focus": "वर्षांचा", "wrong": ["वर्षांची|varṣānchī", "वर्षांचे|varṣānche"] },
+        { "native": "तुमचे आजोबा किती वर्षांचे आहेत?", "roman": "tumche ādzobā kitī varṣānche āhet?", "en": "How old is your grandfather?", "focus": "वर्षांचे", "wrong": ["वर्षांचा|varṣāntsā", "वर्षांची|varṣānchī"] },
+        { "native": "आमचं बाळ आठ महिन्यांचं आहे.", "roman": "āmtsaṃ bāḷ āṭh mahinyāntsaṃ āhe.", "en": "Our baby is eight months old.", "focus": "महिन्यांचं", "wrong": ["महिन्यांचा|mahinyāntsā", "महिन्यांची|mahinyānchī"] },
+        { "native": "तुझा वाढदिवस कधी आहे?", "roman": "tudzhā vāḍhdivas kadhī āhe?", "en": "When is your birthday?", "focus": "कधी", "wrong": ["किती|kitī", "कुठे|kuṭhe"] },
+        { "native": "आज माझा वाढदिवस आहे!", "roman": "ādz mādzhā vāḍhdivas āhe!", "en": "It's my birthday today!", "focus": "माझा", "wrong": ["माझी|mājhī", "माझं|mādzhaṃ"] },
+        { "native": "वाढदिवसाच्या हार्दिक शुभेच्छा!", "roman": "vāḍhdivasāchyā hārdik shubhechchhā!", "en": "Happy birthday!" }
+      ]
+    },
+    {
+      "title": "First, second, third",
+      "tip": { "title": "Ordinals: पहिला, दुसरा, पाचवा", "body": "- पहिला 1st · दुसरा 2nd · तिसरा 3rd · चौथा 4th; from 5th add **-वा**: पाचवा.\n- They agree like adjectives: पहिला मुलगा, पहिली मुलगी, पहिलं मूल.\n- Before -वर 'on' they end in **-ऱ्या / -व्या**: तिसऱ्या मजल्यावर, पाचव्या मजल्यावर.\n- School years are feminine: ती दुसरीत आहे 'she's in 2nd standard'." },
+      "new": ["कितवा", "पहिला", "दुसरा", "तिसरा", "चौथा", "पाचवा", "मी तिसऱ्या मजल्यावर राहतो.", "माझी मुलगी दुसरीत आहे."],
+      "sentences": [
+        { "native": "तू कितव्या मजल्यावर राहतोस?", "roman": "tū kitvyā madzlyāvar rāhtos?", "en": "Which floor do you live on? (to a friend)", "focus": "कितव्या", "wrong": ["कितवा|kitvā", "किती|kitī"] },
+        { "native": "मी पाचव्या मजल्यावर राहते.", "roman": "mī pātsvyā madzlyāvar rāhte.", "en": "I live on the fifth floor. (woman)", "focus": "पाचव्या", "wrong": ["पाचवा|pātsvā", "पाचवी|pātsvī"] },
+        { "native": "दुसऱ्या मजल्यावर कोण राहतं?", "roman": "dusryā madzlyāvar koṇ rāhtaṃ?", "en": "Who lives on the second floor?", "focus": "दुसऱ्या", "wrong": ["दुसरा|dusrā", "दुसरी|dusrī"] },
+        { "native": "तुमची मुलगी कितवीत आहे?", "roman": "tumchī mulgī kitvīt āhe?", "en": "Which standard is your daughter in?", "focus": "कितवीत", "wrong": ["किती|kitī", "कितवा|kitvā"] },
+        { "native": "माझा मुलगा तिसरीत आहे.", "roman": "mādzhā mulgā tisrīt āhe.", "en": "My son is in 3rd standard.", "focus": "तिसरीत", "wrong": ["तिसरा|tisrā", "तिसरी|tisrī"] },
+        { "native": "ती माझी दुसरी मुलगी.", "roman": "tī mājhī dusrī mulgī.", "en": "She's my second daughter.", "focus": "दुसरी", "wrong": ["दुसरा|dusrā", "दुसरं|dusraṃ"] },
+        { "native": "आमचं पहिलं मूल मुलगी आहे.", "roman": "āmtsaṃ pahilaṃ mūl mulgī āhe.", "en": "Our first child is a girl.", "focus": "पहिलं", "wrong": ["पहिला|pahilā", "पहिली|pahilī"] },
+        { "native": "पहिला मुलगा पुण्यात राहतो, दुसरा मुंबईत.", "roman": "pahilā mulgā puṇyāt rāhto, dusrā mumbaīt.", "en": "The first son lives in Pune, the second in Mumbai.", "focus": "पहिला", "wrong": ["पहिली|pahilī", "पहिलं|pahilaṃ"] },
+        { "native": "माझा भाऊ चौथीत आहे.", "roman": "mādzhā bhāū tsauthīt āhe.", "en": "My brother is in 4th standard." }
+      ]
+    },
+    {
+      "title": "Sixth to tenth",
+      "new": ["सहावा", "सातवा", "आठवा", "नववा", "दहावा", "आकडा", "संख्या"],
+      "sentences": [
+        { "native": "माझी बहीण दहावीत आहे.", "roman": "mājhī bahīṇ dahāvīt āhe.", "en": "My sister is in 10th standard." },
+        { "native": "ते सहाव्या मजल्यावर राहतात.", "roman": "te sahāvyā madzlyāvar rāhtāt.", "en": "They live on the sixth floor." },
+        { "native": "तो आठवीत आहे.", "roman": "to āṭhvīt āhe.", "en": "He's in 8th standard." },
+        { "native": "आमचं घर नवव्या मजल्यावर आहे.", "roman": "āmtsaṃ ghar navvyā madzlyāvar āhe.", "en": "Our flat is on the ninth floor." },
+        { "native": "आज तिचा सातवा वाढदिवस आहे.", "roman": "ādz titsā sātvā vāḍhdivas āhe.", "en": "Today is her seventh birthday." },
+        { "native": "हा आकडा कोणता आहे?", "roman": "hā ākḍā koṇtā āhe?", "en": "What number is this?" },
+        { "native": "मुलांची संख्या किती आहे?", "roman": "mulānchī sankhyā kitī āhe?", "en": "How many children are there?" }
+      ]
+    },
+    {
+      "title": "At the market: halves and quarters",
+      "tip": { "title": "Halves and quarters", "body": "- **अर्धा** ½ (अर्धी, अर्धं agree), **पाव** ¼, **दीड** 1½, **अडीच** 2½.\n- From 3 up: **साडे-** +½ (साडेतीन 3½), **सव्वा-** +¼ (सव्वादोन 2¼), **पावणे-** −¼ (पावणेदोन 1¾).\n- To buy, say the amount + **द्या** 'give (me)': पाव किलो द्या." },
+      "new": ["अर्धा", "पाव", "दीड", "अडीच", "साडे", "सव्वा", "पावणे", "दोन किलो टोमॅटो द्या.", "अर्धा किलो पुरे."],
+      "sentences": [
+        { "native": "मला पाव किलो साखर द्या.", "roman": "malā pāv kilo sākhar dyā.", "en": "A quarter kilo of sugar, please.", "focus": "पाव", "wrong": ["दीड|dīḍ", "अर्धा|ardhā"] },
+        { "native": "दीड किलो टोमॅटो द्या.", "roman": "dīḍ kilo ṭomæṭo dyā.", "en": "One and a half kilos of tomatoes, please.", "focus": "दीड", "wrong": ["अडीच|aḍīts", "पाव|pāv"] },
+        { "native": "सव्वा किलो साखर द्या.", "roman": "savvā kilo sākhar dyā.", "en": "One and a quarter kilos of sugar, please.", "focus": "सव्वा", "wrong": ["पावणे|pāvṇe", "दीड|dīḍ"] },
+        { "native": "मला अर्धं केळं द्या.", "roman": "malā ardhaṃ keḷaṃ dyā.", "en": "Give me half a banana.", "focus": "अर्धं", "wrong": ["अर्धा|ardhā", "अर्धी|ardhī"] },
+        { "native": "माझा मुलगा अडीच वर्षांचा आहे.", "roman": "mādzhā mulgā aḍīts varṣāntsā āhe.", "en": "My son is two and a half.", "focus": "अडीच", "wrong": ["दीड|dīḍ", "पावणे|pāvṇe"] },
+        { "native": "ती साडेतीन वर्षांची आहे.", "roman": "tī sāḍetīn varṣānchī āhe.", "en": "She's three and a half.", "focus": "साडेतीन", "wrong": ["सव्वातीन|savvātīn", "पावणेतीन|pāvṇetīn"] },
+        { "native": "हे पावणेदोन किलो आहे.", "roman": "he pāvṇedon kilo āhe.", "en": "This is one and three-quarter kilos.", "focus": "पावणेदोन", "wrong": ["सव्वादोन|savvādon", "दीड|dīḍ"] },
+        { "native": "दोन किलो आंबे द्या.", "roman": "don kilo āmbe dyā.", "en": "Two kilos of mangoes, please." }
+      ]
+    },
+    {
+      "title": "More, less, only",
+      "tip": { "title": "खूप, जास्त, कमी, फक्त", "body": "- **खूप** a lot / very · **जास्त** more, too much · **कमी** less, too little.\n- **फक्त** 'only' goes before the word: फक्त एक.\n- **सगळा** 'all' agrees: सगळी साखर, सगळं, **सगळे** 'everyone'.\n- **काही** 'some'; with नाही or नको it means 'nothing': मला काही नको." },
+      "new": ["जास्त", "कमी", "सगळा", "काही", "फक्त", "किती झाले?", "फक्त एक, बस.", "हे खूप जास्त आहे."],
+      "sentences": [
+        { "native": "फक्त दोन किलो द्या.", "roman": "phakta don kilo dyā.", "en": "Just two kilos, please.", "focus": "फक्त", "wrong": ["काही|kāhī", "सगळा|sagḷā"] },
+        { "native": "पाच किलो जास्त आहे, दोन किलो द्या.", "roman": "pāts kilo dzāst āhe, don kilo dyā.", "en": "Five kilos is too much, give me two.", "focus": "जास्त", "wrong": ["कमी|kamī", "फक्त|phakta"] },
+        { "native": "साखर कमी आहे.", "roman": "sākhar kamī āhe.", "en": "We're low on sugar.", "focus": "कमी", "wrong": ["जास्त|dzāst", "खूप|khūp"] },
+        { "native": "सगळं किती झालं?", "roman": "sagḷaṃ kitī dzhālaṃ?", "en": "How much is it all together?", "focus": "सगळं", "wrong": ["सगळा|sagḷā", "सगळी|sagḷī"] },
+        { "native": "सगळे मराठी बोलतात.", "roman": "sagḷe marāṭhī boltāt.", "en": "Everyone speaks Marathi.", "focus": "सगळे", "wrong": ["सगळा|sagḷā", "सगळी|sagḷī"] },
+        { "native": "मला काही नको.", "roman": "malā kāhī nako.", "en": "I don't want anything.", "focus": "काही", "wrong": ["फक्त|phakta", "किती|kitī"] },
+        { "native": "आम्ही फक्त तीन जण आहोत.", "roman": "āmhī phakta tīn dzaṇ āhot.", "en": "There are only three of us.", "focus": "फक्त", "wrong": ["काही|kāhī", "सगळे|sagḷe"] },
+        { "native": "समोसे खूप कमी आहेत!", "roman": "samose khūp kamī āhet!", "en": "There are far too few samosas!" }
+      ]
+    }
+  ]
 }

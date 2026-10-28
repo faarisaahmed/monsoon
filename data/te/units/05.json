@@ -91,5 +91,88 @@
       { "speaker": "Waiter", "native": "మొత్తం నూట ఇరవై రూపాయలు.", "roman": "mottam nūṭa iravai rūpāyalu.", "en": "That's 120 rupees in total." }
     ]
   },
-  "culture": "*భోజనం చేశారా?* ('Have you eaten?') is as much a greeting as a question, and a guest will be urged to eat more than once; saying *చాలు* or *వద్దండి* firmly (often with a hand over the plate) is how you stop the second and third helpings. Traditional meals are served on a banana leaf and eaten with the right hand. Telugu cuisine is known for *gongura* (sorrel) pickle, *pesarattu* (green-gram dosa) and Hyderabadi *biryani*."
+  "culture": "*భోజనం చేశారా?* ('Have you eaten?') is as much a greeting as a question, and a guest will be urged to eat more than once; saying *చాలు* or *వద్దండి* firmly (often with a hand over the plate) is how you stop the second and third helpings. Traditional meals are served on a banana leaf and eaten with the right hand. Telugu cuisine is known for *gongura* (sorrel) pickle, *pesarattu* (green-gram dosa) and Hyderabadi *biryani*.",
+  "lessons": [
+    {
+      "title": "Ordering a drink",
+      "tip": { "title": "'I want': నాకు … కావాలి", "body": "- The person who wants takes **-కు / -కి**: నాకు, మీకు, మాకు, అతనికి, పాపకి.\n- Then the thing and **కావాలి** 'is wanted', which never changes: నాకు టీ కావాలి.\n- 'Don't want' is **వద్దు**. A question adds -ā: కావాలా?", "pattern": "నాకు + thing + కావాలి / వద్దు", "grammar": 0 },
+      "new": ["కావాలి", "వద్దు", "టీ", "కాఫీ", "నీళ్ళు", "పాలు", "చక్కెర", "తాగు", "టీ తాగుతారా, కాఫీ తాగుతారా?"],
+      "sentences": [
+        { "native": "నాకు ఒక టీ కావాలి.", "roman": "nāku oka ṭī kāvāli.", "en": "I'd like a tea.", "focus": "కావాలి", "wrong": ["వద్దు|vaddu", "ఉంది|undi"] },
+        { "native": "టీలో చక్కెర వద్దు.", "roman": "ṭīlō chakkera vaddu.", "en": "No sugar in the tea.", "focus": "వద్దు", "wrong": ["కావాలి|kāvāli", "లేదు|lēdu"] },
+        { "native": "మీకు నీళ్ళు కావాలా?", "roman": "mīku nīḷḷu kāvālā?", "en": "Would you like some water?", "focus": "కావాలా", "wrong": ["కావాలి|kāvāli", "వద్దు|vaddu"] },
+        { "native": "పాపకి పాలు కావాలి.", "roman": "pāpaki pālu kāvāli.", "en": "The little girl wants milk.", "focus": "పాపకి", "wrong": ["పాప|pāpa", "పాపది|pāpadi"] },
+        { "native": "మాకు రెండు కాఫీలు కావాలి.", "roman": "māku reṇḍu kāphīlu kāvāli.", "en": "We'd like two coffees.", "focus": "మాకు", "wrong": ["మేము|mēmu", "మా|mā"] },
+        { "native": "అతనికి టీ వద్దు, కాఫీ కావాలి.", "roman": "ataniki ṭī vaddu, kāphī kāvāli.", "en": "He doesn't want tea, he wants coffee.", "focus": "అతనికి", "wrong": ["అతను|atanu", "అతని|atani"] },
+        { "native": "నేను కాఫీ తాగను, టీ తాగుతాను.", "roman": "nēnu kāphī tāganu, ṭī tāgutānu.", "en": "I don't drink coffee, I drink tea." },
+        { "native": "మీరు ఏం తాగుతారు?", "roman": "mīru ēm tāgutāru?", "en": "What will you have to drink?", "focus": "తాగుతారు", "wrong": ["తాగుతాను|tāgutānu", "తాగు|tāgu"] },
+        { "native": "వద్దండి, థాంక్స్.", "roman": "vaddaṇḍi, thāṅks.", "en": "No, thank you." }
+      ]
+    },
+    {
+      "title": "Hungry? Have you eaten?",
+      "tip": { "title": "Hungry, thirsty, have you eaten?", "body": "- Hunger happens *to* you: **నాకు ఆకలిగా ఉంది** 'I'm hungry', **నాకు దాహంగా ఉంది** 'I'm thirsty'.\n- 'Have a meal' is **భోజనం చేయు** (lit. do a meal); భోజనం చేశారా? is also a friendly greeting.\n- Breakfast or a snack meal is **టిఫిన్**: టిఫిన్ అయిందా?" },
+      "new": ["ఆకలి", "దాహం", "నాకు ఆకలిగా ఉంది.", "నాకు దాహంగా ఉంది.", "తిను", "అన్నం", "భోజనం", "మీరు భోజనం చేశారా?", "టిఫిన్", "టిఫిన్ అయిందా?"],
+      "sentences": [
+        { "native": "నీకు ఆకలిగా ఉందా?", "roman": "nīku ākaligā undā?", "en": "Are you hungry? (to a friend)", "focus": "నీకు", "wrong": ["నువ్వు|nuvvu", "నీ|nī"] },
+        { "native": "అవును, నాకు చాలా ఆకలిగా ఉంది.", "roman": "avunu, nāku chālā ākaligā undi.", "en": "Yes, I'm very hungry.", "focus": "నాకు", "wrong": ["నేను|nēnu", "నా|nā"] },
+        { "native": "పిల్లలకి దాహంగా ఉంది.", "roman": "pillalaki dāhaṅgā undi.", "en": "The children are thirsty.", "focus": "పిల్లలకి", "wrong": ["పిల్లలు|pillalu", "పిల్లల|pillala"] },
+        { "native": "నేను భోజనం చేశాను.", "roman": "nēnu bhōjanam chēshānu.", "en": "I've eaten.", "focus": "చేశాను", "wrong": ["చేశారు|chēshāru", "చేశావు|chēshāvu"] },
+        { "native": "నువ్వు భోజనం చేశావా?", "roman": "nuvvu bhōjanam chēshāvā?", "en": "Have you eaten? (to a friend)", "focus": "చేశావా", "wrong": ["చేశారా|chēshārā", "చేశానా|chēshānā"] },
+        { "native": "ఇంకా టిఫిన్ కాలేదు.", "roman": "iṅkā ṭiphin kālēdu.", "en": "I haven't had breakfast yet." },
+        { "native": "నాకు ఆకలిగా లేదు, నేను తినను.", "roman": "nāku ākaligā lēdu, nēnu tinanu.", "en": "I'm not hungry, I won't eat.", "focus": "తినను", "wrong": ["తింటాను|tiṇṭānu", "తినండి|tinaṇḍi"] },
+        { "native": "ఇంకా అన్నం తినండి.", "roman": "iṅkā annam tinaṇḍi.", "en": "Have some more rice.", "focus": "తినండి", "wrong": ["తిను|tinu", "తింటాను|tiṇṭānu"] },
+        { "native": "టిఫిన్ తిన్నారా?", "roman": "ṭiphin tinnārā?", "en": "Have you had breakfast?" }
+      ]
+    },
+    {
+      "title": "Dishes you like",
+      "tip": { "title": "'I like': నాకు … ఇష్టం", "body": "- Liking also takes -కు: **నాకు** దోసె **ఇష్టం** 'I like dosa'.\n- To love something: X **అంటే** చాలా ఇష్టం. Not like: **ఇష్టం లేదు**.\n- A question adds -ā: ఇష్టమా? With a question word, no -ā: ఏ కూర ఇష్టం?", "pattern": "నాకు + thing + (అంటే) ఇష్టం / ఇష్టం లేదు", "grammar": 1 },
+      "new": ["కూర", "పప్పు", "పెరుగు", "చారు", "సాంబారు", "ఇడ్లీ", "దోసె", "బిర్యానీ", "ఇష్టం", "ఒక ప్లేట్ ఇడ్లీ, ఒక కాఫీ."],
+      "sentences": [
+        { "native": "నాకు దోసె ఇష్టం.", "roman": "nāku dōse iṣṭam.", "en": "I like dosa.", "focus": "ఇష్టం", "wrong": ["కావాలి|kāvāli", "వద్దు|vaddu"] },
+        { "native": "మీకు బిర్యానీ ఇష్టమా?", "roman": "mīku biryānī iṣṭamā?", "en": "Do you like biryani?", "focus": "ఇష్టమా", "wrong": ["ఇష్టం|iṣṭam", "కావాలి|kāvāli"] },
+        { "native": "నాకు పెరుగు అంటే చాలా ఇష్టం.", "roman": "nāku perugu aṇṭē chālā iṣṭam.", "en": "I love curd.", "focus": "నాకు", "wrong": ["నేను|nēnu", "నా|nā"] },
+        { "native": "ఆయనకి సాంబారు ఇష్టం లేదు.", "roman": "āyanaki sāmbāru iṣṭam lēdu.", "en": "He doesn't like sambar.", "focus": "లేదు", "wrong": ["కాదు|kādu", "వద్దు|vaddu"] },
+        { "native": "ఒక ప్లేట్ దోసె, ఒక టీ.", "roman": "oka plēṭ dōse, oka ṭī.", "en": "One plate of dosa and one tea." },
+        { "native": "పప్పు, అన్నం, పెరుగు చాలు.", "roman": "pappu, annam, perugu chālu.", "en": "Dal, rice and curd, that's enough." },
+        { "native": "పిల్లలకి ఇడ్లీ ఇష్టం.", "roman": "pillalaki iḍlī iṣṭam.", "en": "The children like idli.", "focus": "పిల్లలకి", "wrong": ["పిల్లలు|pillalu", "పిల్లల|pillala"] },
+        { "native": "నాకు చారు అంటే ఇష్టం లేదు.", "roman": "nāku chāru aṇṭē iṣṭam lēdu.", "en": "I don't like rasam.", "focus": "లేదు", "wrong": ["కాదు|kādu", "వద్దు|vaddu"] },
+        { "native": "ఈ కూర ఏమిటి?", "roman": "ī kūra ēmiṭi?", "en": "What is this curry?" },
+        { "native": "మీకు ఏ కూర ఇష్టం?", "roman": "mīku ē kūra iṣṭam?", "en": "Which curry do you like?", "focus": "ఇష్టం", "wrong": ["ఇష్టమా|iṣṭamā", "ఇష్టంగా|iṣṭaṅgā"] }
+      ]
+    },
+    {
+      "title": "How does it taste?",
+      "tip": { "title": "Talking about taste", "body": "- 'How is it?' **ఎలా ఉంది?** Answer **బాగుంది**, or taste word + **-గా ఉంది**: కారంగా ఉంది 'it's spicy', తీపిగా ఉంది 'it's sweet'.\n- For a dish you just tried: ఈ కూర నాకు **నచ్చింది** 'I liked this curry'; not: **నచ్చలేదు**.\n- Less salt / spice: ఉప్పు / కారం **తక్కువగా** వేయండి.", "pattern": "taste + -గా ఉంది  ·  … నాకు నచ్చింది" },
+      "new": ["ఉప్పు", "కారం", "తీపి", "పులుపు", "రుచి", "కారం తక్కువగా వేయండి.", "భోజనం చాలా బాగుంది."],
+      "sentences": [
+        { "native": "కూర చాలా కారంగా ఉంది.", "roman": "kūra chālā kāraṅgā undi.", "en": "The curry is very spicy.", "focus": "కారంగా", "wrong": ["కారం|kāram", "కారంలో|kāramlō"] },
+        { "native": "పప్పులో ఉప్పు తక్కువ.", "roman": "pappulō uppu takkuva.", "en": "There isn't enough salt in the dal.", "focus": "పప్పులో", "wrong": ["పప్పు|pappu", "పప్పుకి|pappuki"] },
+        { "native": "ఉప్పు తక్కువగా వేయండి.", "roman": "uppu takkuvagā vēyaṇḍi.", "en": "Please go easy on the salt.", "focus": "వేయండి", "wrong": ["వేయను|vēyanu", "వేశాను|vēshānu"] },
+        { "native": "బిర్యానీ రుచి చాలా బాగుంది.", "roman": "biryānī ruchi chālā bāgundi.", "en": "The biryani tastes great." },
+        { "native": "ఈ దోసె నాకు నచ్చింది.", "roman": "ī dōse nāku nachchindi.", "en": "I liked this dosa.", "focus": "నచ్చింది", "wrong": ["నచ్చలేదు|nachchalēdu", "నచ్చిందా|nachchindā"] },
+        { "native": "చారు కొంచెం పులుపుగా ఉంది.", "roman": "chāru konchem pulupugā undi.", "en": "The rasam is a bit sour.", "focus": "పులుపుగా", "wrong": ["పులుపు|pulupu", "పులుపులో|pulupulō"] },
+        { "native": "సాంబారు నాకు నచ్చలేదు.", "roman": "sāmbāru nāku nachchalēdu.", "en": "I didn't like the sambar.", "focus": "నచ్చలేదు", "wrong": ["నచ్చింది|nachchindi", "లేదు|lēdu"] },
+        { "native": "కూర ఎలా ఉంది?", "roman": "kūra elā undi?", "en": "How's the curry?" },
+        { "native": "టీ చాలా తీపిగా ఉంది.", "roman": "ṭī chālā tīpigā undi.", "en": "The tea is very sweet.", "focus": "తీపిగా", "wrong": ["తీపి|tīpi", "తీపిలో|tīpilō"] }
+      ]
+    },
+    {
+      "title": "Fruit, vegetables and the bill",
+      "new": ["కూరగాయలు", "పండ్లు", "అరటిపండు", "మామిడిపండు", "నేను మాంసం తినను.", "నేను శాకాహారిని.", "ఇంకా కొంచెం అన్నం వేయనా?", "వద్దండి, చాలు.", "బిల్లు ఇవ్వండి."],
+      "sentences": [
+        { "native": "నాకు మామిడిపండు అంటే చాలా ఇష్టం.", "roman": "nāku māmiḍipaṇḍu aṇṭē chālā iṣṭam.", "en": "I love mangoes." },
+        { "native": "ఒక కిలో అరటిపండ్లు ఇవ్వండి.", "roman": "oka kilō araṭipaṇḍlu ivvaṇḍi.", "en": "A kilo of bananas, please." },
+        { "native": "మీరు మాంసం తింటారా?", "roman": "mīru māmsam tiṇṭārā?", "en": "Do you eat meat?", "focus": "తింటారా", "wrong": ["తింటానా|tiṇṭānā", "తినను|tinanu"] },
+        { "native": "మా అమ్మ మాంసం తినదు.", "roman": "mā amma māmsam tinadu.", "en": "My mum doesn't eat meat.", "focus": "తినదు", "wrong": ["తినను|tinanu", "తినడు|tinaḍu"] },
+        { "native": "అతను శాకాహారి కాదు.", "roman": "atanu shākāhāri kādu.", "en": "He isn't vegetarian." },
+        { "native": "పిల్లలకి పండ్లు ఇష్టం.", "roman": "pillalaki paṇḍlu iṣṭam.", "en": "Children like fruit." },
+        { "native": "ఇంకా కొంచెం పప్పు వేయనా?", "roman": "iṅkā konchem pappu vēyanā?", "en": "Shall I give you a little more dal?" },
+        { "native": "కొంచెం పెరుగు వేయండి.", "roman": "konchem perugu vēyaṇḍi.", "en": "A little curd, please." },
+        { "native": "ఈ కూరగాయలు ఎంత?", "roman": "ī kūragāyalu enta?", "en": "How much are these vegetables?" },
+        { "native": "బిల్లు ఎంత అయింది?", "roman": "billu enta ayindi?", "en": "How much is the bill?" }
+      ]
+    }
+  ]
 }

@@ -91,5 +91,84 @@
       { "speaker": "Sarah", "native": "फेरि भेटौँला। नमस्ते!", "roman": "pheri bheṭauṃlā. namaste!", "en": "See you. Bye!" }
     ]
   },
-  "culture": "**नमस्ते** with palms together is the all-purpose greeting; with elders, bow the head a little more. Instead of asking 'how are you', Nepalis very often greet each other with **खाना खानुभयो?** 'Have you eaten (your rice)?' or **कता हिँड्नुभयो?** 'Where are you off to?' — these are friendly openers, not real questions. People are addressed by kinship terms rather than names: an older woman is **दिदी**, an older man **दाइ**, a younger person **भाइ/बहिनी**, even if you're not related. And when someone calls your name, the polite answer is not 'what?' (के?) but **हजुर?**"
+  "culture": "**नमस्ते** with palms together is the all-purpose greeting; with elders, bow the head a little more. Instead of asking 'how are you', Nepalis very often greet each other with **खाना खानुभयो?** 'Have you eaten (your rice)?' or **कता हिँड्नुभयो?** 'Where are you off to?' — these are friendly openers, not real questions. People are addressed by kinship terms rather than names: an older woman is **दिदी**, an older man **दाइ**, a younger person **भाइ/बहिनी**, even if you're not related. And when someone calls your name, the polite answer is not 'what?' (के?) but **हजुर?**",
+  "lessons": [
+    {
+      "title": "Hello, are you well?",
+      "tip": { "title": "The verb goes last", "body": "- Nepali puts the verb at the **end**: म सन्चै छु is literally 'I well am'.\n- **छु** = am (with म); the polite 'are you' is **हुनुहुन्छ** (with तपाईं).\n- A question is just the statement with a rising voice: तपाईं सन्चै हुनुहुन्छ?\n- The pronoun is often dropped: सन्चै छु 'I'm well'.", "pattern": "म + सन्चै + छु  ·  तपाईं + सन्चै + हुनुहुन्छ?", "grammar": 0 },
+      "new": ["नमस्ते", "नमस्कार", "म", "तपाईं", "सन्चो", "छ", "धन्यवाद", "पनि", "नमस्ते! सन्चै हुनुहुन्छ?", "सन्चै छु, धन्यवाद। तपाईं नि?", "म पनि सन्चै छु।"],
+      "sentences": [
+        { "native": "म सन्चै छु।", "roman": "ma sanchai chhu.", "en": "I'm well.", "focus": "छु", "wrong": ["हुनुहुन्छ|hunuhunchha", "छ|chha"] },
+        { "native": "नमस्कार! तपाईं सन्चै हुनुहुन्छ?", "roman": "namaskār! tapāiṃ sanchai hunuhunchha?", "en": "Hello! Are you well?", "focus": "हुनुहुन्छ", "wrong": ["छु|chhu", "छ|chha"] },
+        { "native": "धन्यवाद, म सन्चै छु।", "roman": "dhanyabād, ma sanchai chhu.", "en": "Thank you, I'm well.", "focus": "छु", "wrong": ["हुनुहुन्छ|hunuhunchha", "छ|chha"] },
+        { "native": "तपाईं पनि सन्चै हुनुहुन्छ?", "roman": "tapāiṃ pani sanchai hunuhunchha?", "en": "Are you well too?", "focus": "हुनुहुन्छ", "wrong": ["छु|chhu", "छ|chha"] },
+        { "native": "नमस्ते, म सन्चै छु।", "roman": "namaste, ma sanchai chhu.", "en": "Hello, I'm well.", "focus": "छु", "wrong": ["हुनुहुन्छ|hunuhunchha", "छ|chha"] },
+        { "native": "म सन्चै छु, तपाईं नि?", "roman": "ma sanchai chhu, tapāiṃ ni?", "en": "I'm well, and you?", "focus": "छु", "wrong": ["हुनुहुन्छ|hunuhunchha", "छ|chha"] },
+        { "native": "सन्चो छ?", "roman": "sancho chha?", "en": "All well? (casual)" },
+        { "native": "नमस्ते! म पनि सन्चै छु, धन्यवाद।", "roman": "namaste! ma pani sanchai chhu, dhanyabād.", "en": "Hello! I'm well too, thank you.", "focus": "पनि" }
+      ]
+    },
+    {
+      "title": "Yes, no and OK",
+      "tip": { "title": "Which 'yes'?", "body": "- **हो** / **होइन**: 'that's right' / 'that's not right', for facts.\n- **हुन्छ** 'OK, sure': the yes to an offer or request. **पर्दैन** 'no need' is the polite no.\n- **हस्** or **हजुर**: a respectful yes to elders or a boss; **अँ** 'yeah' is for friends and family.", "pattern": "offer → हुन्छ / पर्दैन  ·  fact → हो / होइन" },
+      "new": ["हो", "होइन", "हुन्छ", "अँ", "हस्", "हजुर", "हजुर?", "हुन्छ, धन्यवाद।", "पर्दैन, धन्यवाद।"],
+      "sentences": [
+        { "native": "हुन्छ, म चिया खान्छु।", "roman": "hunchha, ma chiyā khānchhu.", "en": "Sure, I'll have tea.", "focus": "हुन्छ", "wrong": ["हो|ho", "होइन|hoina"] },
+        { "native": "चिया पर्दैन, धन्यवाद।", "roman": "chiyā pardaina, dhanyabād.", "en": "No tea for me, thank you.", "focus": "पर्दैन", "wrong": ["हुन्छ|hunchha", "हो|ho"] },
+        { "native": "हो, चिया राम्रो छ।", "roman": "ho, chiyā rāmro chha.", "en": "Yes, the tea is good.", "focus": "हो", "wrong": ["हुन्छ|hunchha", "होइन|hoina"] },
+        { "native": "होइन, चिया ठीकै छ।", "roman": "hoina, chiyā ṭhikai chha.", "en": "No, the tea is just OK.", "focus": "होइन", "wrong": ["हुन्छ|hunchha", "हस्|has"] },
+        { "native": "हजुर, सन्चै छु।", "roman": "hajur, sanchai chhu.", "en": "Yes, I'm well. (to an elder)", "focus": "हजुर", "wrong": ["तँ|taṃ", "होइन|hoina"] },
+        { "native": "हस्, धन्यवाद।", "roman": "has, dhanyabād.", "en": "Very well, thank you. (to an elder)", "focus": "हस्", "wrong": ["होइन|hoina"] },
+        { "native": "अँ, म पनि ठीक छु।", "roman": "aṃ, ma pani ṭhik chhu.", "en": "Yeah, I'm fine too.", "focus": "अँ", "wrong": ["होइन|hoina"] },
+        { "native": "पर्दैन, म ठीक छु।", "roman": "pardaina, ma ṭhik chhu.", "en": "No need, I'm fine.", "focus": "पर्दैन", "wrong": ["हुन्छ|hunchha", "हो|ho"] },
+        { "native": "हजुर, चिया खानुहुन्छ?", "roman": "hajur, chiyā khānuhunchha?", "en": "Would you like some tea? (very respectful)" }
+      ]
+    },
+    {
+      "title": "How's it going? With friends",
+      "tip": { "title": "तिमी, तँ and तपाईं take different verbs", "body": "- **तपाईं** (polite) → **हुनुहुन्छ**: strangers, elders, shopkeepers. When unsure, use तपाईं.\n- **तिमी** (friendly) → **छौ**: friends, younger people.\n- **तँ** (intimate) → **छस्**: only very close friends; as a learner, mostly just hear it.\n- **म** 'I' → **छु**.", "pattern": "तपाईं … हुनुहुन्छ  ·  तिमी … छौ  ·  तँ … छस्", "grammar": 1 },
+      "new": ["तिमी", "तँ", "ठीक", "के", "खबर", "मज्जा", "के छ खबर?", "ठीकै छ।", "मज्जामा!"],
+      "sentences": [
+        { "native": "तिमी सन्चै छौ?", "roman": "timi sanchai chhau?", "en": "Are you well? (to a friend)", "focus": "छौ", "wrong": ["छु|chhu", "हुनुहुन्छ|hunuhunchha"] },
+        { "native": "म मज्जामा छु, तिमी नि?", "roman": "ma majjāmā chhu, timi ni?", "en": "I'm doing great, and you?", "focus": "छु", "wrong": ["छौ|chhau", "छ|chha"] },
+        { "native": "तिमी ठीक छौ?", "roman": "timi ṭhik chhau?", "en": "Are you OK? (to a friend)", "focus": "छौ", "wrong": ["छस्|chhas", "हुनुहुन्छ|hunuhunchha"] },
+        { "native": "तँ ठीक छस्?", "roman": "taṃ ṭhik chhas?", "en": "You OK, mate? (very close friend)", "focus": "छस्", "wrong": ["छौ|chhau", "छु|chhu"] },
+        { "native": "के तिमी पनि मज्जामा छौ?", "roman": "ke timi pani majjāmā chhau?", "en": "Are you doing great too?", "focus": "छौ", "wrong": ["छु|chhu", "हुनुहुन्छ|hunuhunchha"] },
+        { "native": "नमस्ते दिदी, तपाईं कस्तो हुनुहुन्छ?", "roman": "namaste didi, tapāiṃ kasto hunuhunchha?", "en": "Hello didi, how are you?", "focus": "हुनुहुन्छ", "wrong": ["छौ|chhau", "छु|chhu"] },
+        { "native": "अँ, म ठीकै छु।", "roman": "aṃ, ma ṭhikai chhu.", "en": "Yeah, I'm alright.", "focus": "छु", "wrong": ["छौ|chhau", "छस्|chhas"] },
+        { "native": "अँ, के छ खबर?", "roman": "aṃ, ke chha khabar?", "en": "Yeah, what's up?" },
+        { "native": "तिमी कस्तो छौ, ठीकै?", "roman": "timi kasto chhau, ṭhikai?", "en": "How are you, alright?", "focus": "छौ", "wrong": ["हुनुहुन्छ|hunuhunchha", "छु|chhu"] }
+      ]
+    },
+    {
+      "title": "Thanks and sorry",
+      "tip": { "title": "Polite and casual", "body": "- **धन्यवाद** is the polite thank-you; young people often say **थ्याङ्क्यु**. Close family rarely say thanks at all.\n- **माफ गर्नुहोस्** = 'excuse me / sorry' (polite); **सरी** is casual.\n- Reply with **ठीक छ** 'it's fine'. Politeness lives in the verb (-नुहोस्), so **कृपया** is mostly written." },
+      "new": ["थ्याङ्क्यु", "माफ", "सरी", "कृपया", "माफ गर्नुहोस्।", "ठीक छ।", "राम्रो", "स्वागत", "ल"],
+      "sentences": [
+        { "native": "माफ गर्नुहोस्, दिदी।", "roman": "māph garnuhos, didi.", "en": "Sorry, didi. (polite)", "focus": "गर्नुहोस्" },
+        { "native": "माफ गर्नुहोस्, तपाईं ठीक हुनुहुन्छ?", "roman": "māph garnuhos, tapāiṃ ṭhik hunuhunchha?", "en": "Excuse me, are you OK?", "focus": "माफ" },
+        { "native": "सरी, म ठीक छु।", "roman": "sari, ma ṭhik chhu.", "en": "Sorry, I'm fine.", "focus": "सरी" },
+        { "native": "थ्याङ्क्यु, चिया राम्रो छ!", "roman": "thyāṅkyu, chiyā rāmro chha!", "en": "Thanks, the tea is good!", "focus": "थ्याङ्क्यु" },
+        { "native": "ल, चिया खानुहोस्।", "roman": "la, chiyā khānuhos.", "en": "Here, have some tea.", "focus": "ल" },
+        { "native": "स्वागत छ, दिदी!", "roman": "swāgat chha, didi!", "en": "Welcome, didi!" },
+        { "native": "राम्रो छ, धन्यवाद!", "roman": "rāmro chha, dhanyabād!", "en": "It's nice, thank you!" },
+        { "native": "कृपया माफ गर्नुहोस्।", "roman": "kripayā māph garnuhos.", "en": "Please forgive me. (formal)", "focus": "कृपया" },
+        { "native": "ठीक छ, दिदी।", "roman": "ṭhik chha, didi.", "en": "That's fine, didi.", "focus": "ठीक" }
+      ]
+    },
+    {
+      "title": "Saying goodbye",
+      "new": ["फेरि", "भेट", "शुभ", "जाऊँ है त?", "फेरि भेटौँला।", "शुभ रात्रि।"],
+      "sentences": [
+        { "native": "ल दिदी, जाऊँ है त?", "roman": "la didi, jāuṃ hai ta?", "en": "Right didi, I'll be off then, OK?" },
+        { "native": "ल, फेरि भेटौँला, दिदी!", "roman": "la, pheri bheṭauṃlā, didi!", "en": "OK, see you again, didi!" },
+        { "native": "शुभ रात्रि, दिदी।", "roman": "subha rātri, didi.", "en": "Good night, didi." },
+        { "native": "धन्यवाद, फेरि भेटौँला।", "roman": "dhanyabād, pheri bheṭauṃlā.", "en": "Thank you, see you again." },
+        { "native": "हस्, शुभ रात्रि।", "roman": "has, subha rātri.", "en": "Very well, good night." },
+        { "native": "अँ, फेरि भेटौँला।", "roman": "aṃ, pheri bheṭauṃlā.", "en": "Yeah, see you." },
+        { "native": "नमस्ते, फेरि भेटौँला!", "roman": "namaste, pheri bheṭauṃlā!", "en": "Goodbye, see you again!" },
+        { "native": "ल, अब जाऊँ है त?", "roman": "la, aba jāuṃ hai ta?", "en": "Right, I'll be off now, OK?" }
+      ]
+    }
+  ]
 }

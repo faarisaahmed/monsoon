@@ -91,5 +91,98 @@
       { "speaker": "Ghulam Hussain", "native": "ڪا ڳالهه ناهي. چڱو، خدا حافظ!", "roman": "kā ɠālhi nāhe. chaṅgo, xudā hāfiz!", "en": "No problem. Alright, goodbye!" }
     ]
   },
-  "culture": "Greetings in Sindh are unhurried. After السلام عليڪم people ask about your health, your family and your work, often several times over — answering each with شڪر آهي or مهرباني. Men usually shake hands (often with both hands, or placing the right hand on the heart); between men and women a nod with the hand on the heart is the safe choice. Sindhi Hindus, in Sindh and in India, often greet with رام رام (rām rām) or جهوليلال (jhūlelāl), after the river-saint revered on Cheti Chand. Calling older people سائين, ادا or ادي, or a relative's title (چاچا, ماسي) even if they are not related, is normal and kind."
+  "culture": "Greetings in Sindh are unhurried. After السلام عليڪم people ask about your health, your family and your work, often several times over — answering each with شڪر آهي or مهرباني. Men usually shake hands (often with both hands, or placing the right hand on the heart); between men and women a nod with the hand on the heart is the safe choice. Sindhi Hindus, in Sindh and in India, often greet with رام رام (rām rām) or جهوليلال (jhūlelāl), after the river-saint revered on Cheti Chand. Calling older people سائين, ادا or ادي, or a relative's title (چاچا, ماسي) even if they are not related, is normal and kind.",
+  "lessons": [
+    {
+      "title": "Hello, how are you?",
+      "tip": { "title": "The verb goes last", "body": "- Sindhi puts the verb at the **end**: مان ٺيڪ آهيان is literally 'I fine am'.\n- **آهيان** = am (with مان), **آهيو** = are (with توهان), **آهي** = is.\n- The question word **ڪيئن** 'how' sits just before the verb: توهان ڪيئن آهيو؟\n- 'Not' joins the verb: **ناهيان** 'am not', **ناهي** 'is not'.", "pattern": "مان + ٺيڪ + آهيان  ·  توهان + ڪيئن + آهيو؟", "grammar": 0 },
+      "new": ["السلام عليڪم", "وعليڪم السلام", "توهان", "ڪيئن", "ٺيڪ", "مهرباني", "ڪيئن آهيو؟", "مان ٺيڪ آهيان، مهرباني."],
+      "sentences": [
+        { "native": "السلام عليڪم، توهان ڪيئن آهيو؟", "roman": "assalāmu ʿalaikum, tavhāṃ kīeṃ āhyo?", "en": "Hello, how are you?", "focus": "آهيو", "wrong": ["آهيان|āhiyāṃ", "آهي|āhe"] },
+        { "native": "وعليڪم السلام، مان ٺيڪ آهيان.", "roman": "vaʿalaikum assalām, māṃ ṭhīku āhiyāṃ.", "en": "Hello, I'm fine.", "focus": "آهيان", "wrong": ["آهيو|āhyo", "آهي|āhe"] },
+        { "native": "مان ٺيڪ آهيان، توهان ڪيئن آهيو؟", "roman": "māṃ ṭhīku āhiyāṃ, tavhāṃ kīeṃ āhyo?", "en": "I'm fine, how are you?", "focus": "آهيو", "wrong": ["آهيان|āhiyāṃ", "آهي|āhe"] },
+        { "native": "توهان ٺيڪ آهيو؟", "roman": "tavhāṃ ṭhīku āhyo?", "en": "Are you OK?", "focus": "آهيو", "wrong": ["آهيان|āhiyāṃ", "آهين|āhīṃ"] },
+        { "native": "مهرباني، مان ٺيڪ آهيان.", "roman": "meharbānī, māṃ ṭhīku āhiyāṃ.", "en": "Thank you, I'm fine.", "focus": "آهيان", "wrong": ["آهيو|āhyo", "آهي|āhe"] },
+        { "native": "مان ٺيڪ ناهيان.", "roman": "māṃ ṭhīku nāhiyāṃ.", "en": "I'm not well.", "focus": "ناهيان", "wrong": ["ناهي|nāhe", "ناهيو|nāhyo"] },
+        { "native": "ٺيڪ آهي، مهرباني.", "roman": "ṭhīku āhe, meharbānī.", "en": "It's fine, thank you.", "focus": "آهي", "wrong": ["آهيان|āhiyāṃ", "آهيو|āhyo"] },
+        { "native": "السلام عليڪم! مان ٺيڪ آهيان.", "roman": "assalāmu ʿalaikum! māṃ ṭhīku āhiyāṃ.", "en": "Hello! I'm fine.", "focus": "ٺيڪ", "wrong": ["ڪيئن|kīeṃ", "مهرباني|meharbānī"] }
+      ]
+    },
+    {
+      "title": "Yes, no, please and thank you",
+      "tip": { "title": "Yes, no and please", "body": "- **ها** = yes; **جي ها** is the polite yes, **جي نه** the polite no.\n- **نه** = no / not. At the end of a sentence it also means 'right?': ٺيڪ آهي نه؟\n- **مهرباني** is the everyday 'thank you'; **شڪريو** is a little more formal.\n- **مهرباني ڪري** 'please' goes at the start of a request." },
+      "new": ["ها", "جي", "نه", "شڪريو", "مهرباني ڪري", "بلڪل", "مهرباني ڪري آهستي ڳالهايو.", "مهرباني ڪري ٻيهر چئو."],
+      "sentences": [
+        { "native": "جي ها، مان ٺيڪ آهيان.", "roman": "jī hā, māṃ ṭhīku āhiyāṃ.", "en": "Yes, I'm fine. (polite)", "focus": "ها", "wrong": ["نه|na", "ڪيئن|kīeṃ"] },
+        { "native": "نه، مان ٺيڪ ناهيان.", "roman": "na, māṃ ṭhīku nāhiyāṃ.", "en": "No, I'm not well.", "focus": "نه", "wrong": ["ها|hā", "جي|jī"] },
+        { "native": "جي نه، مهرباني.", "roman": "jī na, meharbānī.", "en": "No, thank you. (polite)", "focus": "جي", "wrong": ["ها|hā", "نه|na"] },
+        { "native": "ها، بلڪل ٺيڪ آهي.", "roman": "hā, bilkul ṭhīku āhe.", "en": "Yes, that's absolutely right.", "focus": "بلڪل", "wrong": ["ڪيئن|kīeṃ", "مهرباني|meharbānī"] },
+        { "native": "توهان ٺيڪ آهيو نه؟", "roman": "tavhāṃ ṭhīku āhyo na?", "en": "You're OK, right?", "focus": "نه", "wrong": ["ها|hā", "جي|jī"] },
+        { "native": "شڪريو، مان ٺيڪ آهيان.", "roman": "shukriyo, māṃ ṭhīku āhiyāṃ.", "en": "Thank you, I'm fine.", "focus": "شڪريو" },
+        { "native": "مهرباني ڪري آهستي چئو.", "roman": "meharbānī kare āhistī chao.", "en": "Please say it slowly." },
+        { "native": "جي؟ مهرباني ڪري ٻيهر ڳالهايو.", "roman": "jī? meharbānī kare ɓiyahar ɠālhāyo.", "en": "Pardon? Please say that again.", "focus": "ٻيهر", "wrong": ["ٺيڪ|ṭhīku", "بلڪل|bilkul"] }
+      ]
+    },
+    {
+      "title": "Talking to a friend, a sir, a sister",
+      "tip": { "title": "Polite توهان, friendly تون", "body": "- **توهان** (polite) → verb **آهيو**: strangers, elders, shopkeepers — and anyone when in doubt.\n- **تون** (intimate) → verb **آهين**: close friends, children, younger siblings. With a stranger it sounds rude.\n- Add warmth with **سائين** 'sir', **ادا** 'brother', **ادي** 'sister' — even to strangers.", "pattern": "توهان … آهيو  ·  تون … آهين", "grammar": 1 },
+      "new": ["تون", "سائين", "ادا", "ادي", "خوش", "حال", "تون ڪيئن آهين؟", "خوش آهيو؟", "ڇا حال آهي؟"],
+      "sentences": [
+        { "native": "ادا، توهان ڪيئن آهيو؟", "roman": "adā, tavhāṃ kīeṃ āhyo?", "en": "Brother, how are you?", "focus": "آهيو", "wrong": ["آهين|āhīṃ", "آهيان|āhiyāṃ"] },
+        { "native": "ادي، توهان خوش آهيو؟", "roman": "adī, tavhāṃ xushu āhyo?", "en": "Sister, are you well?", "focus": "توهان", "wrong": ["تون|tūṃ", "مان|māṃ"] },
+        { "native": "تون خوش آهين؟", "roman": "tūṃ xushu āhīṃ?", "en": "Are you well? (to a close friend)", "focus": "آهين", "wrong": ["آهيو|āhyo", "آهيان|āhiyāṃ"] },
+        { "native": "ها سائين، مان خوش آهيان.", "roman": "hā sāīṃ, māṃ xushu āhiyāṃ.", "en": "Yes sir, I'm well.", "focus": "آهيان", "wrong": ["آهين|āhīṃ", "آهيو|āhyo"] },
+        { "native": "سائين، توهان ٺيڪ آهيو؟", "roman": "sāīṃ, tavhāṃ ṭhīku āhyo?", "en": "Sir, are you all right?", "focus": "آهيو", "wrong": ["آهين|āhīṃ", "آهي|āhe"] },
+        { "native": "تون ٺيڪ آهين نه؟", "roman": "tūṃ ṭhīku āhīṃ na?", "en": "You're OK, right? (to a close friend)", "focus": "آهين", "wrong": ["آهيو|āhyo", "آهي|āhe"] },
+        { "native": "ڇا حال آهي، ادا؟", "roman": "chhā hālu āhe, adā?", "en": "What's up, brother?", "focus": "حال", "wrong": ["خوش|xushu", "ٺيڪ|ṭhīku"] },
+        { "native": "مان خوش آهيان، ادي.", "roman": "māṃ xushu āhiyāṃ, adī.", "en": "I'm well, sister.", "focus": "آهيان", "wrong": ["آهين|āhīṃ", "آهي|āhe"] },
+        { "native": "ادا، تون ڪيئن آهين؟", "roman": "adā, tūṃ kīeṃ āhīṃ?", "en": "How are you, brother? (to a close friend)", "focus": "تون", "wrong": ["توهان|tavhāṃ", "مان|māṃ"] }
+      ]
+    },
+    {
+      "title": "Thank God, all is well",
+      "tip": { "title": "Answering \"how are you?\"", "body": "- Sindhis rarely answer with just 'fine'. Say **الحمدلله** or **شڪر آهي** 'thank God', or **خير سان** 'all well'.\n- Then turn the question back: **توهان ٻڌايو؟** 'and you?' (lit. you tell).\n- **سلام** on its own is a quick, friendly 'hi'." },
+      "new": ["سلام", "خير", "شڪر", "الحمدلله", "شڪر آهي، توهان ٻڌايو؟"],
+      "sentences": [
+        { "native": "الحمدلله، مان خوش آهيان.", "roman": "alhamdulillāh, māṃ xushu āhiyāṃ.", "en": "Thank God, I'm well.", "focus": "الحمدلله", "wrong": ["مهرباني|meharbānī", "سلام|salāmu"] },
+        { "native": "خير سان، توهان ٻڌايو؟", "roman": "xaira sāṃ, tavhāṃ ɓudhāyo?", "en": "All well — and you?", "focus": "خير", "wrong": ["شڪر|shukur", "حال|hālu"] },
+        { "native": "خير آهي، ادا.", "roman": "xairu āhe, adā.", "en": "It's nothing, brother. / All good.", "focus": "خير", "wrong": ["شڪر|shukur", "سلام|salāmu"] },
+        { "native": "سلام، ادا! ڇا حال آهي؟", "roman": "salāmu, adā! chhā hālu āhe?", "en": "Hi, brother! What's up?", "focus": "سلام", "wrong": ["خير|xairu", "شڪر|shukur"] },
+        { "native": "الحمدلله، حال ٺيڪ آهي.", "roman": "alhamdulillāh, hālu ṭhīku āhe.", "en": "Thank God, things are fine." },
+        { "native": "شڪر آهي، توهان ڪيئن آهيو؟", "roman": "shukur āhe, tavhāṃ kīeṃ āhyo?", "en": "Thank God (I am well). How are you?", "focus": "شڪر", "wrong": ["خير|xairu", "سلام|salāmu"] },
+        { "native": "ادي، شڪر آهي، مان خوش آهيان.", "roman": "adī, shukur āhe, māṃ xushu āhiyāṃ.", "en": "Sister, thank God, I'm well." }
+      ]
+    },
+    {
+      "title": "Sorry, I didn't understand",
+      "tip": { "title": "Sorry and no problem", "body": "- **معاف ڪجو** = sorry / excuse me (polite). To a friend: معاف ڪر.\n- If you're lost: **مون کي سمجهه ۾ نه آيو** 'I didn't understand'.\n- The reply to sorry or thanks: **ڪا ڳالهه ناهي** 'no problem'.\n- **چڱو** 'OK, alright' and **ڀلي** 'sure, go ahead' close a conversation softly." },
+      "new": ["معاف ڪجو", "معاف ڪجو، مون کي سمجهه ۾ نه آيو.", "ڪا ڳالهه ناهي.", "چڱو", "ڀلي"],
+      "sentences": [
+        { "native": "معاف ڪجو، سائين.", "roman": "māf kajo, sāīṃ.", "en": "Excuse me, sir.", "focus": "معاف", "wrong": ["مهرباني|meharbānī", "شڪر|shukur"] },
+        { "native": "معاف ڪجو، ٻيهر چئو.", "roman": "māf kajo, ɓiyahar chao.", "en": "Sorry, say that again." },
+        { "native": "ڪا ڳالهه ناهي، ادا.", "roman": "kā ɠālhi nāhe, adā.", "en": "No problem, brother.", "focus": "ناهي", "wrong": ["آهي|āhe", "ناهيان|nāhiyāṃ"] },
+        { "native": "مون کي سمجهه ۾ نه آيو، ادي.", "roman": "moṃ khe samajha meṃ na āyo, adī.", "en": "I didn't understand, sister.", "focus": "نه", "wrong": ["ها|hā", "جي|jī"] },
+        { "native": "چڱو، ٺيڪ آهي.", "roman": "chaṅgo, ṭhīku āhe.", "en": "Alright, that's fine.", "focus": "چڱو", "wrong": ["ڪيئن|kīeṃ", "سلام|salāmu"] },
+        { "native": "ڀلي، ڪا ڳالهه ناهي.", "roman": "bhale, kā ɠālhi nāhe.", "en": "Sure, no problem.", "focus": "ڀلي" },
+        { "native": "چڱو، مهرباني.", "roman": "chaṅgo, meharbānī.", "en": "OK, thanks." },
+        { "native": "معاف ڪجو، توهان ٺيڪ آهيو؟", "roman": "māf kajo, tavhāṃ ṭhīku āhyo?", "en": "Excuse me, are you OK?", "focus": "آهيو", "wrong": ["آهين|āhīṃ", "آهيان|āhiyāṃ"] }
+      ]
+    },
+    {
+      "title": "Welcome! Goodbye!",
+      "tip": { "title": "Welcomes and goodbyes", "body": "- **ڀلي ڪري آيا** = welcome (lit. you came well) — the warm Sindhi way to greet a guest.\n- **توهان سان ملي ڏاڍي خوشي ٿي** = very nice to meet you.\n- To leave: **خدا حافظ** or **الله حافظ**, or **چڱو، پوءِ ملنداسين** 'OK, see you later'.\n- **صبح بخير / شب بخير** (good morning / night) exist, but السلام عليڪم is far more common." },
+      "new": ["ڀلي ڪري آيا", "ڀلي ڪري آيا، سائين!", "توهان سان ملي ڏاڍي خوشي ٿي.", "خدا حافظ", "الله حافظ", "صبح بخير", "شب بخير", "چڱو، پوءِ ملنداسين.", "خدا حافظ، ادا."],
+      "sentences": [
+        { "native": "ڀلي ڪري آيا، ادي!", "roman": "bhale kare āyā, adī!", "en": "Welcome, sister!" },
+        { "native": "خدا حافظ، سائين.", "roman": "xudā hāfiz, sāīṃ.", "en": "Goodbye, sir.", "focus": "حافظ", "wrong": ["بخير|baxair", "سلام|salāmu"] },
+        { "native": "الله حافظ، ادي.", "roman": "allāh hāfiz, adī.", "en": "Goodbye, sister." },
+        { "native": "صبح بخير، سائين!", "roman": "subuh baxair, sāīṃ!", "en": "Good morning, sir!", "focus": "صبح", "wrong": ["شب|shab", "خدا|xudā"] },
+        { "native": "شب بخير، ادا.", "roman": "shab baxair, adā.", "en": "Good night, brother.", "focus": "شب", "wrong": ["صبح|subuh", "خدا|xudā"] },
+        { "native": "توهان سان ملي خوشي ٿي.", "roman": "tavhāṃ sāṃ mile xushī thī.", "en": "Nice to meet you." },
+        { "native": "چڱو، الله حافظ!", "roman": "chaṅgo, allāh hāfiz!", "en": "OK, bye!" },
+        { "native": "پوءِ ملنداسين، ادا.", "roman": "poi milandāsīṃ, adā.", "en": "See you later, brother.", "focus": "ملنداسين", "wrong": ["آيا|āyā", "آهيون|āhyūṃ"] },
+        { "native": "ڀلي ڪري آيا! توهان ڪيئن آهيو؟", "roman": "bhale kare āyā! tavhāṃ kīeṃ āhyo?", "en": "Welcome! How are you?" }
+      ]
+    }
+  ]
 }

@@ -89,5 +89,85 @@
       { "speaker": "Dhruv", "native": "હું? ક્યારેય નહીં! આવજે.", "roman": "huṃ? kyārey nahīṃ! āvje.", "en": "Me? Never! Bye." }
     ]
   },
-  "culture": "Alongside the Western calendar, Gujaratis follow the Hindu lunar calendar (Vikram Samvat) for festivals: its New Year (**બેસતું વર્ષ** *bestuṃ varṣ*) falls the day after Diwali. Its months are કારતક, માગશર, પોષ, મહા, ફાગણ, ચૈત્ર, વૈશાખ, જેઠ, અષાઢ, શ્રાવણ, ભાદરવો, આસો. 'Indian Standard Time' jokes are common: if someone says **હમણાં આવું છું** 'I'm coming right now', allow some flexibility."
+  "culture": "Alongside the Western calendar, Gujaratis follow the Hindu lunar calendar (Vikram Samvat) for festivals: its New Year (**બેસતું વર્ષ** *bestuṃ varṣ*) falls the day after Diwali. Its months are કારતક, માગશર, પોષ, મહા, ફાગણ, ચૈત્ર, વૈશાખ, જેઠ, અષાઢ, શ્રાવણ, ભાદરવો, આસો. 'Indian Standard Time' jokes are common: if someone says **હમણાં આવું છું** 'I'm coming right now', allow some flexibility.",
+  "lessons": [
+    {
+      "title": "Telling the time",
+      "tip": { "title": "What time is it?", "body": "- **કેટલા વાગ્યા છે?** → number + **વાગ્યા છે**: ત્રણ વાગ્યા છે. One o'clock is singular: એક **વાગ્યો** છે.\n- **સવા** quarter past, **સાડા** half past, **પોણા** quarter to: સવા આઠ = 8:15, પોણા બાર = 11:45. 1:30 = **દોઢ**, 2:30 = **અઢી**.\n- Minutes past: છ **વાગીને** દસ મિનિટ 'ten past six'.", "pattern": "number + વાગ્યા છે", "grammar": 0 },
+      "new": ["સમય", "વાગવું", "ઘડિયાળ", "મિનિટ", "કેટલા વાગ્યા છે?", "એક વાગ્યો છે.", "સાડા ચાર વાગ્યા છે.", "પોણા સાત વાગ્યા છે.", "દસ વાગીને પાંચ મિનિટ થઈ છે."],
+      "sentences": [
+        { "native": "ત્રણ વાગ્યા છે.", "roman": "traṇ vāgyā chhe.", "en": "It's three o'clock.", "focus": "વાગ્યા", "wrong": ["વાગ્યો|vāgyo", "વાગ્યે|vāgye"] },
+        { "native": "સવા આઠ વાગ્યા છે.", "roman": "savā āṭh vāgyā chhe.", "en": "It's quarter past eight.", "focus": "સવા", "wrong": ["સાડા|sāḍā", "પોણા|poṇā"] },
+        { "native": "અઢી નહીં, સાડા ત્રણ વાગ્યા છે.", "roman": "aḍhī nahīṃ, sāḍā traṇ vāgyā chhe.", "en": "Not half past two — it's half past three.", "focus": "સાડા", "wrong": ["સવા|savā", "પોણા|poṇā"] },
+        { "native": "પોણા બાર વાગ્યા છે.", "roman": "poṇā bār vāgyā chhe.", "en": "It's quarter to twelve.", "focus": "પોણા", "wrong": ["સવા|savā", "સાડા|sāḍā"] },
+        { "native": "તમારા ઘડિયાળમાં કેટલા વાગ્યા છે?", "roman": "tamārā ghaḍiyāḷmāṃ keṭlā vāgyā chhe?", "en": "What time does your watch say?", "focus": "કેટલા", "wrong": ["કેટલો|keṭlo", "કેટલું|keṭluṃ"] },
+        { "native": "છ વાગીને દસ મિનિટ થઈ છે.", "roman": "chha vāgīne das miniṭ thaī chhe.", "en": "It's ten past six.", "focus": "વાગીને", "wrong": ["વાગ્યે|vāgye", "વાગ્યા|vāgyā"] },
+        { "native": "મારું ઘડિયાળ ક્યાં છે?", "roman": "māruṃ ghaḍiyāḷ kyāṃ chhe?", "en": "Where's my watch?" },
+        { "native": "બહુ સમય નથી.", "roman": "bahu samay nathī.", "en": "There isn't much time." },
+        { "native": "એક વાગ્યો છે, ચાલો જમીએ.", "roman": "ek vāgyo chhe, chālo jamīe.", "en": "It's one o'clock — let's eat.", "focus": "વાગ્યો", "wrong": ["વાગ્યા|vāgyā", "વાગ્યે|vāgye"] }
+      ]
+    },
+    {
+      "title": "Morning, afternoon and evening",
+      "tip": { "title": "In the morning, at two o'clock", "body": "- Time words take **-એ** for 'in / at': સવાર → **સવારે**, બપોર → **બપોરે**, સાંજ → **સાંજે**, રાત → **રાત્રે**.\n- 'At … o'clock' is **વાગ્યે**: બે **વાગ્યે** 'at two'.\n- Part of the day comes first: સાંજે પાંચ વાગ્યે 'at 5 p.m.'", "pattern": "સવારે / સાંજે + number + વાગ્યે", "grammar": 1 },
+      "new": ["સવાર", "બપોર", "સાંજ", "રાત", "કલાક", "આજે", "મીટિંગ કેટલા વાગ્યે છે?", "બે વાગ્યે."],
+      "sentences": [
+        { "native": "હું સવારે સાત વાગ્યે ચા પીઉં છું.", "roman": "huṃ savāre sāt vāgye chā pīuṃ chhuṃ.", "en": "I have tea at seven in the morning.", "focus": "વાગ્યે", "wrong": ["વાગ્યા|vāgyā", "વાગ્યો|vāgyo"] },
+        { "native": "અમે બપોરે એક વાગ્યે જમીએ છીએ.", "roman": "ame bapore ek vāgye jamīe chhīe.", "en": "We have lunch at one in the afternoon.", "focus": "બપોરે", "wrong": ["બપોર|bapor", "બપોરમાં|bapormāṃ"] },
+        { "native": "તમે સાંજે શું કરો છો?", "roman": "tame sāṃje shuṃ karo chho?", "en": "What do you do in the evenings?", "focus": "સાંજે", "wrong": ["સાંજ|sāṃj", "સાંજનું|sāṃjnuṃ"] },
+        { "native": "રાત્રે દસ વાગ્યે ફોન કરો.", "roman": "rātre das vāgye fon karo.", "en": "Call at ten at night.", "focus": "રાત્રે", "wrong": ["રાત|rāt", "રાતમાં|rātmāṃ"] },
+        { "native": "મીટિંગ સાંજે પાંચ વાગ્યે છે.", "roman": "mīṭiṅg sāṃje pāṃch vāgye chhe.", "en": "The meeting is at five in the evening.", "focus": "વાગ્યે", "wrong": ["વાગ્યા|vāgyā", "વાગ્યો|vāgyo"] },
+        { "native": "મીટિંગ બે કલાકની છે.", "roman": "mīṭiṅg be kalāknī chhe.", "en": "The meeting is two hours long.", "focus": "કલાકની", "wrong": ["કલાકનો|kalākno", "કલાકનું|kalāknuṃ"] },
+        { "native": "અડધો કલાક બસ છે.", "roman": "aḍdho kalāk bas chhe.", "en": "Half an hour is enough." },
+        { "native": "તમે રાત્રે કેટલા વાગ્યે જમો છો?", "roman": "tame rātre keṭlā vāgye jamo chho?", "en": "What time do you have dinner?", "focus": "વાગ્યે", "wrong": ["વાગ્યા|vāgyā", "વાગ્યો|vāgyo"] },
+        { "native": "આજે સાંજે મીટિંગ છે.", "roman": "āje sāṃje mīṭiṅg chhe.", "en": "There's a meeting this evening.", "focus": "સાંજે", "wrong": ["સાંજ|sāṃj", "સાંજનું|sāṃjnuṃ"] }
+      ]
+    },
+    {
+      "title": "Days of the week",
+      "tip": { "title": "On Monday: સોમવારે", "body": "- Days add **-એ** for 'on': સોમવાર → **સોમવારે** 'on Monday', રવિવારે 'on Sundays'.\n- There's no separate word for 'on' — don't say *સોમવારમાં*.\n- Stack them: શુક્રવારે સાંજે 'on Friday evening'.", "pattern": "day-એ  ·  સોમવારે, રવિવારે", "grammar": 1 },
+      "new": ["સોમવાર", "મંગળવાર", "બુધવાર", "ગુરુવાર", "શુક્રવાર", "શનિવાર", "રવિવાર", "આજે કયો વાર છે?", "આજે શુક્રવાર છે.", "હું સોમવારે આવીશ."],
+      "sentences": [
+        { "native": "આજે સોમવાર છે.", "roman": "āje somvār chhe.", "en": "Today is Monday." },
+        { "native": "હું શનિવારે ઘરે છું.", "roman": "huṃ shanivāre ghare chhuṃ.", "en": "I'm at home on Saturday.", "focus": "શનિવારે", "wrong": ["શનિવાર|shanivār", "શનિવારમાં|shanivārmāṃ"] },
+        { "native": "મંગળવારે મીટિંગ છે.", "roman": "maṅgaḷvāre mīṭiṅg chhe.", "en": "There's a meeting on Tuesday.", "focus": "મંગળવારે", "wrong": ["મંગળવાર|maṅgaḷvār", "મંગળવારમાં|maṅgaḷvārmāṃ"] },
+        { "native": "અમે રવિવારે નાનીના ઘરે જમીએ છીએ.", "roman": "ame ravivāre nānīnā ghare jamīe chhīe.", "en": "We eat at Grandma's on Sundays.", "focus": "રવિવારે", "wrong": ["રવિવાર|ravivār", "રવિવારમાં|ravivārmāṃ"] },
+        { "native": "તમે બુધવારે આવશો?", "roman": "tame budhvāre āvsho?", "en": "Will you come on Wednesday?", "focus": "બુધવારે", "wrong": ["બુધવાર|budhvār", "બુધવારમાં|budhvārmāṃ"] },
+        { "native": "ના, હું ગુરુવારે આવીશ.", "roman": "nā, huṃ guruvāre āvīsh.", "en": "No, I'll come on Thursday.", "focus": "ગુરુવારે", "wrong": ["ગુરુવાર|guruvār", "ગુરુવારમાં|guruvārmāṃ"] },
+        { "native": "શુક્રવારે સાંજે મળીએ?", "roman": "shukravāre sāṃje maḷīe?", "en": "Shall we meet on Friday evening?", "focus": "શુક્રવારે", "wrong": ["શુક્રવાર|shukravār", "શુક્રવારમાં|shukravārmāṃ"] },
+        { "native": "આજે મંગળવાર નથી, બુધવાર છે.", "roman": "āje maṅgaḷvār nathī, budhvār chhe.", "en": "Today isn't Tuesday, it's Wednesday." }
+      ]
+    },
+    {
+      "title": "Yesterday, tomorrow, next week",
+      "tip": { "title": "Yesterday or tomorrow?", "body": "- **કાલે** means yesterday *or* tomorrow — the verb's tense tells you. To be clear: **ગઈકાલે** 'yesterday', **આવતીકાલે** 'tomorrow'.\n- 'Next': **આવતા** અઠવાડિયે, **આવતા** મહિને. 'Last': **ગયા** મહિને.\n- Note the **-એ** again: અઠવાડિયું → અઠવાડિયે, મહિનો → મહિને.", "pattern": "આવતા / ગયા + મહિને, અઠવાડિયે", "grammar": 1 },
+      "new": ["કાલે", "ગઈકાલે", "આવતીકાલે", "દિવસ", "અઠવાડિયું", "મહિનો", "તારીખ", "આજે કઈ તારીખ છે?", "જાન્યુઆરી"],
+      "sentences": [
+        { "native": "આવતીકાલે દસ તારીખ છે.", "roman": "āvtīkāle das tārīkh chhe.", "en": "Tomorrow is the 10th.", "focus": "આવતીકાલે", "wrong": ["ગઈકાલે|gaīkāle"] },
+        { "native": "ગઈકાલે સોમવાર હતો.", "roman": "gaīkāle somvār hato.", "en": "Yesterday was Monday.", "focus": "હતો", "wrong": ["છે|chhe", "હશે|hashe"] },
+        { "native": "મારી બહેન આવતા અઠવાડિયે આવે છે.", "roman": "mārī bahen āvtā aṭhvāḍiye āve chhe.", "en": "My sister is coming next week.", "focus": "અઠવાડિયે", "wrong": ["અઠવાડિયું|aṭhvāḍiyuṃ", "અઠવાડિયામાં|aṭhvāḍiyāmāṃ"] },
+        { "native": "આવતા મહિને અમે ભારત આવીશું.", "roman": "āvtā mahine ame Bhārat āvīshuṃ.", "en": "We'll come to India next month.", "focus": "મહિને", "wrong": ["મહિનો|mahino", "મહિનામાં|mahināmāṃ"] },
+        { "native": "જાન્યુઆરીમાં અમે ગુજરાતમાં છીએ.", "roman": "jānyuārīmāṃ ame Gujarātmāṃ chhīe.", "en": "In January we're in Gujarat." },
+        { "native": "ગઈકાલે હું ઘરે હતો.", "roman": "gaīkāle huṃ ghare hato.", "en": "Yesterday I was at home. (man speaking)", "focus": "ગઈકાલે", "wrong": ["આવતીકાલે|āvtīkāle"] },
+        { "native": "એ ગયા મહિને લંડનમાં હતો.", "roman": "e gayā mahine Landanmāṃ hato.", "en": "He was in London last month.", "focus": "ગયા", "wrong": ["આવતા|āvtā", "ગઈ|gaī"] },
+        { "native": "કાલે મળીશું, આવજો!", "roman": "kāle maḷīshuṃ, āvjo!", "en": "See you tomorrow, bye!" },
+        { "native": "હું બે દિવસ ગામમાં રહીશ.", "roman": "huṃ be divas gāmmāṃ rahīsh.", "en": "I'll stay in the village for two days." }
+      ]
+    },
+    {
+      "title": "Running late",
+      "new": ["હમણાં", "અત્યારે", "પછી", "પહેલાં", "મોડું", "વહેલું", "માફ કરજો, મને મોડું થયું.", "પાંચ મિનિટમાં આવું છું."],
+      "sentences": [
+        { "native": "હું અત્યારે ઘરે નથી.", "roman": "huṃ atyāre ghare nathī.", "en": "I'm not at home right now." },
+        { "native": "હમણાં આવું છું!", "roman": "hamṇāṃ āvuṃ chhuṃ!", "en": "Coming right now!" },
+        { "native": "પછી મળીએ.", "roman": "pachhī maḷīe.", "en": "Let's meet later." },
+        { "native": "મીટિંગ પહેલાં ચા પીશો?", "roman": "mīṭiṅg pahelāṃ chā pīsho?", "en": "Will you have tea before the meeting?" },
+        { "native": "બહુ મોડું થયું, ચાલો.", "roman": "bahu moḍuṃ thayuṃ, chālo.", "en": "It's got very late — let's go." },
+        { "native": "આજે હું વહેલો આવ્યો.", "roman": "āje huṃ vahelo āvyo.", "en": "I came early today. (man speaking)" },
+        { "native": "માફ કરજો, આજે મને મોડું થશે.", "roman": "māf karjo, āje mane moḍuṃ thashe.", "en": "Sorry, I'll be late today." },
+        { "native": "દસ મિનિટ પછી ફોન કરું?", "roman": "das miniṭ pachhī fon karuṃ?", "en": "Shall I call in ten minutes?" },
+        { "native": "અત્યારે કેટલા વાગ્યા છે?", "roman": "atyāre keṭlā vāgyā chhe?", "en": "What time is it now?" }
+      ]
+    }
+  ]
 }

@@ -89,5 +89,87 @@
       { "speaker": "Mark", "native": "ধন্যবাদ, ডাক্তার সাহেব।", "roman": "dhonnobad, ḍaktar shaheb.", "en": "Thank you, doctor." }
     ]
   },
-  "culture": "In Bangladesh and West Bengal many doctors see patients in a private চেম্বার (chamber) in the evening, and pharmacies will often sell medicines without a prescription after a short chat about symptoms. Doctors are addressed as ডাক্তারবাবু (WB) or ডাক্তার সাহেব / স্যার (BD). Home remedies are popular: tea with ginger and honey for a cold, and রোদে বসা 'sitting in the sun' in winter."
+  "culture": "In Bangladesh and West Bengal many doctors see patients in a private চেম্বার (chamber) in the evening, and pharmacies will often sell medicines without a prescription after a short chat about symptoms. Doctors are addressed as ডাক্তারবাবু (WB) or ডাক্তার সাহেব / স্যার (BD). Home remedies are popular: tea with ginger and honey for a cold, and রোদে বসা 'sitting in the sun' in winter.",
+  "lessons": [
+    {
+      "title": "Headache, earache, sore throat",
+      "tip": { "title": "\"My head is aching\"", "grammar": 0, "body": "- Bengali says **আমার** মাথা ব্যথা করছে 'my head is aching'. The person is in the **-র** form (আমার, তোমার, ওর).\n- The verb is always **করছে**, because the *pain* is the subject, not you: never 'করছি'.\n- Ask: তোমার কি … ব্যথা করছে?", "pattern": "আমার + body part + ব্যথা করছে" },
+      "new": ["মাথা", "চোখ", "কান", "নাক", "মুখ", "দাঁত", "গলা", "ব্যথা", "আমার মাথা ব্যথা করছে।"],
+      "sentences": [
+        { "native": "আমার চোখ ব্যথা করছে।", "roman": "amar chokh bætha korchhe.", "en": "My eyes hurt.", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "ওর কান ব্যথা করছে।", "roman": "or kan bætha korchhe.", "en": "He/she has an earache.", "focus": "করছে", "wrong": ["করছি|korchhi", "করছেন|korchhen"] },
+        { "native": "আমার গলা ব্যথা করছে।", "roman": "amar gôla bætha korchhe.", "en": "I have a sore throat.", "focus": "করছে", "wrong": ["করছি|korchhi", "করছেন|korchhen"] },
+        { "native": "তোমার কি দাঁত ব্যথা করছে?", "roman": "tomar ki daṃt bætha korchhe?", "en": "Do you have toothache?", "focus": "তোমার", "wrong": ["তুমি|tumi", "তোমাকে|tomake"] },
+        { "native": "আমার মাথা খুব ব্যথা করছে।", "roman": "amar matha khub bætha korchhe.", "en": "I have a really bad headache.", "focus": "করছে", "wrong": ["করছি|korchhi", "করছেন|korchhen"] },
+        { "native": "আমার মাথা আর গলা ব্যথা করছে।", "roman": "amar matha ar gôla bætha korchhe.", "en": "My head and throat hurt.", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "আপনার মুখ লাল কেন?", "roman": "apnar mukh lal kæno?", "en": "Why is your face red?" },
+        { "native": "নাক আর কান ঠিক আছে।", "roman": "nak ar kan ṭhik achhe.", "en": "Your nose and ears are fine." }
+      ]
+    },
+    {
+      "title": "Where does it hurt?",
+      "tip": { "title": "It hurts here: ব্যথা, লেগেছে", "body": "- 'Where' it hurts takes the place ending: পেট**ে**, বুক**ে**, পিঠ**ে**, পা → পা**য়ে**.\n- An injury 'struck' you: আমার পায়ে **লেগেছে** 'I've hurt my foot'.\n- Not feeling well: আমার শরীরটা ভালো **নেই**." },
+      "new": ["শরীর", "হাত", "পা", "পেট", "পিঠ", "বুক", "লাগা (ব্যথা)", "কোথায় ব্যথা?", "এখানে ব্যথা করছে।", "আমার শরীরটা ভালো নেই।"],
+      "sentences": [
+        { "native": "কোথায় ব্যথা? পেটে?", "roman": "kothay bætha? peṭe?", "en": "Where does it hurt? Your stomach?" },
+        { "native": "না, এখানে, বুকে ব্যথা করছে।", "roman": "na, ekhane, buke bætha korchhe.", "en": "No, here, my chest hurts.", "focus": "বুকে", "wrong": ["বুক|buk", "বুকের|buker"] },
+        { "native": "বাবার পিঠে খুব ব্যথা।", "roman": "babar piṭhe khub bætha.", "en": "Dad has bad back pain.", "focus": "পিঠে", "wrong": ["পিঠ|piṭh", "পিঠের|piṭher"] },
+        { "native": "আমার পায়ে লেগেছে।", "roman": "amar paye legechhe.", "en": "I've hurt my foot.", "focus": "পায়ে", "wrong": ["পা|pa", "পায়ের|payer"] },
+        { "native": "বাচ্চাটার হাতে লেগেছে।", "roman": "bachchaṭar hate legechhe.", "en": "The child has hurt his/her hand.", "focus": "হাতে", "wrong": ["হাত|hat", "হাতের|hater"] },
+        { "native": "এখানে খুব ব্যথা করছে।", "roman": "ekhane khub bætha korchhe.", "en": "It really hurts here.", "focus": "করছে", "wrong": ["করছি|korchhi", "করছেন|korchhen"] },
+        { "native": "আজ আমার শরীরটা ভালো নেই।", "roman": "aj amar shorirṭa bhalo nei.", "en": "I'm not feeling well today.", "focus": "নেই", "wrong": ["না|na", "আছে|achhe"] },
+        { "native": "আপনার শরীর এখন কেমন?", "roman": "apnar shorir ækhon kæmon?", "en": "How are you feeling now?" },
+        { "native": "আমার হাত আর পা খুব ব্যথা করছে।", "roman": "amar hat ar pa khub bætha korchhe.", "en": "My arms and legs really ache.", "focus": "করছে", "wrong": ["করছি|korchhi", "করছেন|korchhen"] },
+        { "native": "পেট ব্যথা করছে, কিছু খাব না।", "roman": "peṭ bætha korchhe, kichhu khabo na.", "en": "My stomach hurts, I won't eat anything." }
+      ]
+    },
+    {
+      "title": "Fever, cough and cold",
+      "tip": { "title": "\"I've got a fever\": হয়েছে", "grammar": 0, "body": "- An illness you've caught 'has happened' to you: আমার জ্বর **হয়েছে**, আমার সর্দি **হয়েছে**.\n- If you simply have it now, **আছে** also works: তোমার কি জ্বর আছে?\n- Feelings use **লাগছে**: বমি বমি লাগছে 'I feel sick', ক্লান্ত লাগছে 'I feel tired'.", "pattern": "আমার + illness + হয়েছে" },
+      "new": ["জ্বর", "সর্দি", "কাশি", "অসুখ", "অসুস্থ", "বমি", "পেট খারাপ", "আমার জ্বর হয়েছে।", "আমার পেট খারাপ।"],
+      "sentences": [
+        { "native": "ওর জ্বর হয়েছে, আজ ক্লাসে আসবে না।", "roman": "or jôr hoyechhe, aj klase ashbe na.", "en": "He/she has a fever and won't come to class today.", "focus": "হয়েছে", "wrong": ["হয়|hoy", "হবে|hobe"] },
+        { "native": "আমার একটু সর্দি আর কাশি হয়েছে।", "roman": "amar ekṭu shordi ar kashi hoyechhe.", "en": "I've got a bit of a cold and a cough.", "focus": "হয়েছে", "wrong": ["হয়|hoy", "হবে|hobe"] },
+        { "native": "তোমার কি জ্বর আছে?", "roman": "tomar ki jôr achhe?", "en": "Do you have a temperature?", "focus": "তোমার", "wrong": ["তুমি|tumi", "তোমাকে|tomake"] },
+        { "native": "আমার পেট খারাপ, বমি বমি লাগছে।", "roman": "amar peṭ kharap, bomi bomi lagchhe.", "en": "I have an upset stomach and I feel sick.", "focus": "লাগছে", "wrong": ["লাগছি|lagchhi", "লাগছেন|lagchhen"] },
+        { "native": "ওর কি পেট খারাপ হয়েছে?", "roman": "or ki peṭ kharap hoyechhe?", "en": "Has he/she got an upset stomach?", "focus": "ওর", "wrong": ["ও|o", "ওকে|oke"] },
+        { "native": "কী অসুখ হয়েছে?", "roman": "ki ôshukh hoyechhe?", "en": "What's wrong? (What illness is it?)", "focus": "হয়েছে", "wrong": ["হয়|hoy", "হবে|hobe"] },
+        { "native": "জ্বর নেই, শুধু একটু কাশি।", "roman": "jôr nei, shudhu ekṭu kashi.", "en": "No fever, just a little cough." },
+        { "native": "আমার মেয়ে অসুস্থ, আজ বাড়িতে আছে।", "roman": "amar meye ôshustho, aj baṛite achhe.", "en": "My daughter is ill, she's at home today." },
+        { "native": "উনি অনেক দিন অসুস্থ।", "roman": "uni ônek din ôshustho.", "en": "He/she has been ill for a long time." }
+      ]
+    },
+    {
+      "title": "At the doctor and the pharmacy",
+      "tip": { "title": "You \"eat\" medicine", "body": "- Medicine is **খাওয়া** 'eaten', like food and drink: ওষুধ খাওয়া.\n- Doctors give instructions in the polite future: দিনে তিনবার **খাবেন** 'take it three times a day'.\n- খাওয়ার **আগে** before meals · খাওয়ার **পরে** after meals." },
+      "new": ["ডাক্তার", "ওষুধ", "হাসপাতাল", "কাছে কোনো ডাক্তার আছে?", "আমার ওষুধে অ্যালার্জি আছে।", "দিনে তিনবার খাবেন।", "খাওয়ার পরে খাবেন।"],
+      "sentences": [
+        { "native": "মাফ করবেন, কাছে কোনো ডাক্তার আছে?", "roman": "maf korben, kachhe kono ḍaktar achhe?", "en": "Excuse me, is there a doctor nearby?" },
+        { "native": "কাছে কোনো হাসপাতাল আছে?", "roman": "kachhe kono hashpatal achhe?", "en": "Is there a hospital nearby?" },
+        { "native": "এই ওষুধটা দিনে তিনবার খাবেন।", "roman": "ei oshudhṭa dine tinbar khaben.", "en": "Take this medicine three times a day.", "focus": "খাবেন", "wrong": ["খাব|khabo", "খায়|khay"] },
+        { "native": "ওষুধটা খাওয়ার পরে খাবেন, আগে না।", "roman": "oshudhṭa khawar pôre khaben, age na.", "en": "Take the medicine after meals, not before.", "focus": "পরে", "wrong": ["আগে|age", "কাছে|kachhe"] },
+        { "native": "রাতে একটা ওষুধ খাবেন।", "roman": "rate ækṭa oshudh khaben.", "en": "Take one tablet at night.", "focus": "খাবেন", "wrong": ["খাব|khabo", "খায়|khay"] },
+        { "native": "আমার দুধে অ্যালার্জি আছে।", "roman": "amar dudhe ælarji achhe.", "en": "I'm allergic to milk." },
+        { "native": "ডাক্তার কখন আসবেন?", "roman": "ḍaktar kôkhon ashben?", "en": "When will the doctor come?" },
+        { "native": "ওষুধের দোকান কোথায়?", "roman": "oshudher dokan kothay?", "en": "Where is the pharmacy?" },
+        { "native": "আমার বাবা হাসপাতালে আছেন।", "roman": "amar baba hashpatale achhen.", "en": "My father is in hospital." }
+      ]
+    },
+    {
+      "title": "You should rest",
+      "tip": { "title": "Should: … উচিত", "grammar": 1, "body": "- 'Should' = person in the **-র** form + the verb's **-আ / -ওয়া** form + **উচিত**: তোমার বিশ্রাম **নেওয়া উচিত** 'you should rest'.\n- 'Shouldn't' = উচিত **না**: তোমার মিষ্টি খাওয়া উচিত না.\n- Common forms: খাওয়া (eat), যাওয়া (go), নেওয়া (take), দেখানো (show).", "pattern": "তোমার + … + verb-আ + উচিত" },
+      "new": ["উচিত", "বিশ্রাম", "ক্লান্ত", "ঘুম", "ঠিক হওয়া", "আমার খুব ঘুম পাচ্ছে।", "তাড়াতাড়ি সুস্থ হয়ে উঠুন।"],
+      "sentences": [
+        { "native": "তোমার একটু বিশ্রাম নেওয়া উচিত।", "roman": "tomar ekṭu bishram newa uchit.", "en": "You should rest a little.", "focus": "নেওয়া", "wrong": ["নেব|nebo", "নিন|nin"] },
+        { "native": "আপনার ডাক্তার দেখানো উচিত।", "roman": "apnar ḍaktar dækhano uchit.", "en": "You should see a doctor.", "focus": "দেখানো", "wrong": ["দেখাই|dækhai", "দেখান|dækhan"] },
+        { "native": "তোমার এখন মিষ্টি খাওয়া উচিত না।", "roman": "tomar ækhon mishṭi khawa uchit na.", "en": "You shouldn't eat sweets now.", "focus": "খাওয়া", "wrong": ["খাই|khai", "খাও|khao"] },
+        { "native": "ওর আজ ক্লাসে যাওয়া উচিত না।", "roman": "or aj klase jawa uchit na.", "en": "He/she shouldn't go to class today.", "focus": "যাওয়া", "wrong": ["যাই|jai", "যাবে|jabe"] },
+        { "native": "আমার কি হাসপাতালে যাওয়া উচিত?", "roman": "amar ki hashpatale jawa uchit?", "en": "Should I go to hospital?", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "আমি খুব ক্লান্ত, আমার খুব ঘুম পাচ্ছে।", "roman": "ami khub klanto, amar khub ghum pachchhe.", "en": "I'm really tired, I'm so sleepy." },
+        { "native": "ক্লান্ত লাগছে? একটু বিশ্রাম নিন।", "roman": "klanto lagchhe? ekṭu bishram nin.", "en": "Feeling tired? Have a little rest." },
+        { "native": "তাড়াতাড়ি ঠিক হয়ে যাও!", "roman": "taṛataṛi ṭhik hoye jao!", "en": "Get well soon! (to a friend)" },
+        { "native": "তাড়াতাড়ি সুস্থ হয়ে উঠুন, দাদু।", "roman": "taṛataṛi shustho hoye uṭhun, dadu.", "en": "Get well soon, Grandpa." }
+      ]
+    }
+  ]
 }

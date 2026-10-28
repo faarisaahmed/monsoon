@@ -99,5 +99,106 @@
       { "speaker": "Lina", "native": "ډېره ښکلې کورنۍ ده. ماشومان دې روغ وي!", "roman": "ḍéra ṣkə́le kornə́y da. māshumā́n de roġ wi!", "en": "It's a very beautiful family. Bless your little ones!" }
     ]
   },
-  "culture": "Pashtun families are large and close, and several generations often live in one house or compound. Respect for elders (مشران) is central: the eldest man usually speaks for the family, and you stand when an elder enters. Cousins on the father's side (تربور) share land and family honour — and the word تربورولي (tarburwalí) has come to mean the rivalry that can exist between them, a theme of countless proverbs and stories. Don't ask a man directly about his wife or daughters by name; asking about 'the family' or 'the children' (کورنۍ، ماشومان) is polite and normal."
+  "culture": "Pashtun families are large and close, and several generations often live in one house or compound. Respect for elders (مشران) is central: the eldest man usually speaks for the family, and you stand when an elder enters. Cousins on the father's side (تربور) share land and family honour — and the word تربورولي (tarburwalí) has come to mean the rivalry that can exist between them, a theme of countless proverbs and stories. Don't ask a man directly about his wife or daughters by name; asking about 'the family' or 'the children' (کورنۍ، ماشومان) is polite and normal.",
+  "lessons": [
+    {
+      "title": "Introducing your family",
+      "tip": { "title": "'My, your, his': زما or مې", "body": "- Full words go **before** the noun: **زما** my · **ستا** your · **ستاسو** your (polite).\n- Short clitics are what people say most: **مې** my · **دې** your · **يې** his/her. They slip in **after the first word**: پلار **مې** ډاکټر دی 'my father is a doctor'.\n- So زما پلار = پلار مې.", "pattern": "زما ورور  =  ورور مې …", "grammar": 0 },
+      "new": ["پلار", "مور", "ورور", "خور", "کورنۍ", "دا زما پلار دی.", "دا زما مور ده.", "پلار مې ډاکټر دی.", "نوم يې څه دی؟"],
+      "sentences": [
+        { "native": "دا زما ورور دی.", "roman": "dā zmā wror day.", "en": "This is my brother.", "focus": "زما", "wrong": ["ستا|stā", "ستاسو|stāso"] },
+        { "native": "دا زما خور ده.", "roman": "dā zmā xor da.", "en": "This is my sister.", "focus": "ده", "wrong": ["دی|day", "دي|di"] },
+        { "native": "ورور مې په کابل کې دی.", "roman": "wror me pə kābúl ke day.", "en": "My brother is in Kabul.", "focus": "مې", "wrong": ["دې|de", "يې|ye"] },
+        { "native": "مور دې چېرته ده؟", "roman": "mor de chérta da?", "en": "Where is your mother?", "focus": "دې", "wrong": ["مې|me", "يې|ye"] },
+        { "native": "پلار دې ډاکټر دی؟", "roman": "plār de ḍākṭár day?", "en": "Is your father a doctor?", "focus": "دې", "wrong": ["مې|me", "يې|ye"] },
+        { "native": "نوم يې احمد دی.", "roman": "num ye ahmád day.", "en": "His name is Ahmad.", "focus": "يې", "wrong": ["مې|me", "دې|de"] },
+        { "native": "خور مې هم په پېښور کې ده.", "roman": "xor me ham pə peṣawár ke da.", "en": "My sister is in Peshawar too.", "focus": "مې", "wrong": ["دې|de", "يې|ye"] },
+        { "native": "ستا ورور څنګه دی؟", "roman": "stā wror tsə́nga day?", "en": "How is your brother?", "focus": "ستا", "wrong": ["زما|zmā"] },
+        { "native": "ستاسو کورنۍ په کابل کې ده؟", "roman": "stāso kornə́y pə kābúl ke da?", "en": "Is your family in Kabul? (polite)" },
+        { "native": "زما کورنۍ په کندهار کې ده.", "roman": "zmā kornə́y pə kandahā́r ke da.", "en": "My family is in Kandahar." }
+      ]
+    },
+    {
+      "title": "Boys, girls and children",
+      "tip": { "title": "Masculine, feminine and plural", "body": "- Most masculine nouns end in a consonant or **-ay**: هلک، سړی. Feminine ones end in **-a** or **-əy**: ښځه، نجلۍ.\n- Plurals: هلک → هلک**ان** · سړی → سړ**ي** · ښځه → ښځ**ې**.\n- Family words are irregular: زوی → **زامن** · لور → **لوڼې** · نجلۍ → **نجونې**. Learn them with the noun.", "pattern": "يو هلک → دوه هلکان", "grammar": 1 },
+      "new": ["زوی", "لور", "هلک", "نجلۍ", "ماشوم", "سړی", "ښځه", "خلک"],
+      "sentences": [
+        { "native": "زما دوه زامن دي.", "roman": "zmā dwa zāmə́n di.", "en": "I have two sons. (lit. my two sons are)", "focus": "زامن", "wrong": ["زوی|zoy", "زويان|zoyā́n"] },
+        { "native": "هغه نجلۍ زما لور ده.", "roman": "haġá njlə́y zmā lur da.", "en": "That girl is my daughter.", "focus": "ده", "wrong": ["دی|day", "دي|di"] },
+        { "native": "دا هلکان ستا وروڼه دي؟", "roman": "dā halakā́n stā wróṇa di?", "en": "Are these boys your brothers?", "focus": "هلکان", "wrong": ["هلک|halə́k", "هلکې|halə́ke"] },
+        { "native": "ښځې چېرته دي؟", "roman": "ṣədzé chérta di?", "en": "Where are the women?", "focus": "ښځې", "wrong": ["ښځه|ṣədzá", "ښځان|ṣədzā́n"] },
+        { "native": "دا سړي څوک دي؟", "roman": "dā saṛí tsok di?", "en": "Who are these men?", "focus": "سړي", "wrong": ["سړی|saṛáy", "سړيان|saṛiyā́n"] },
+        { "native": "ماشومان په کور کې دي.", "roman": "māshumā́n pə kor ke di.", "en": "The children are at home.", "focus": "ماشومان", "wrong": ["ماشوم|māshúm", "ماشومانو|māshumā́no"] },
+        { "native": "نجونې په کور کې نه دي.", "roman": "njúne pə kor ke na di.", "en": "The girls aren't at home.", "focus": "نجونې", "wrong": ["نجلۍ|njlə́y", "نجلیان|njəlyā́n"] },
+        { "native": "خلک ډېر ښه دي.", "roman": "xálək ḍer ṣə di.", "en": "The people are very nice.", "focus": "دي", "wrong": ["دی|day", "ده|da"] },
+        { "native": "دا ماشوم ستا زوی دی؟", "roman": "dā māshúm stā zoy day?", "en": "Is this child your son?" },
+        { "native": "ماشاالله، ښه هلک دی!", "roman": "māshāllā́h, ṣə halə́k day!", "en": "What a good boy!" }
+      ]
+    },
+    {
+      "title": "Brothers and sisters",
+      "tip": { "title": "'I have': لرل", "body": "- **لرم** lárəm I have · **لرې** lare you have · **لري** lári he/she/they have · **لرو** láru we have · **لرئ** lárəy you (polite) have.\n- What you have comes before the verb: يوه خور لرم.\n- **مشر** 'older' and **کشر** 'younger' go before the noun and take **-a** with feminine ones: مشره خور.", "pattern": "زه + يو ورور + لرم" },
+      "new": ["لرل", "ته څو وروڼه لرې؟", "زه دوه وروڼه او يوه خور لرم.", "مشر", "کشر", "زما مشر ورور په کابل کې دی."],
+      "sentences": [
+        { "native": "زه يو ورور لرم.", "roman": "zə yaw wror lárəm.", "en": "I have one brother.", "focus": "لرم", "wrong": ["لرې|lare", "لري|lári"] },
+        { "native": "ته خويندې لرې؟", "roman": "tə xwínde lare?", "en": "Do you have sisters?", "focus": "لرې", "wrong": ["لرم|lárəm", "لري|lári"] },
+        { "native": "هغه درې زامن لري.", "roman": "haġá dre zāmə́n lári.", "en": "He has three sons.", "focus": "لري", "wrong": ["لرم|lárəm", "لرو|láru"] },
+        { "native": "موږ دوه لوڼې لرو.", "roman": "muẓ dwa lúṇe láru.", "en": "We have two daughters.", "focus": "لرو", "wrong": ["لري|lári", "لرئ|lárəy"] },
+        { "native": "تاسو ماشومان لرئ؟", "roman": "tāso māshumā́n lárəy?", "en": "Do you have children? (polite)", "focus": "لرئ", "wrong": ["لرې|lare", "لرو|láru"] },
+        { "native": "زما کشر ورور ډاکټر دی.", "roman": "zmā kə́shər wror ḍākṭár day.", "en": "My younger brother is a doctor.", "focus": "کشر", "wrong": ["کشره|kə́shra"] },
+        { "native": "زما مشره خور په پېښور کې ده.", "roman": "zmā mə́shra xor pə peṣawár ke da.", "en": "My older sister is in Peshawar.", "focus": "مشره", "wrong": ["مشر|mə́shər"] },
+        { "native": "زه کشر يم.", "roman": "zə kə́shər yəm.", "en": "I'm the youngest." },
+        { "native": "هغوی څو ماشومان لري؟", "roman": "haġwí tso māshumā́n lári?", "en": "How many children do they have?", "focus": "لري", "wrong": ["لرو|láru", "لرې|lare"] }
+      ]
+    },
+    {
+      "title": "Friends, neighbours and guests",
+      "tip": { "title": "'Of': د + the oblique", "body": "- **د** 'of' comes first, then the owner, then the thing: **د** احمد ملګری 'Ahmad's friend'.\n- After د some nouns change: -ay → **-i** (ګاونډی → د ګاونډ**ي**), -a → **-e** (ښځه → د ښځ**ې**).\n- Every plural ends in **-o** after د: د هلکان**و** 'of the boys'.", "pattern": "د + owner + thing", "grammar": 2 },
+      "new": ["ملګری", "ګاونډی", "مېلمه", "دا د احمد ورور دی.", "نيکه", "انا"],
+      "sentences": [
+        { "native": "دا د ګاونډي کور دی.", "roman": "dā də gāwnḍí kor day.", "en": "This is the neighbour's house.", "focus": "ګاونډي", "wrong": ["ګاونډی|gāwnḍáy", "ګاونډيان|gāwnḍiyā́n"] },
+        { "native": "د ښځې نوم څه دی؟", "roman": "də ṣədzé num tsə day?", "en": "What is the woman's name?", "focus": "ښځې", "wrong": ["ښځه|ṣədzá", "ښځو|ṣədzó"] },
+        { "native": "هغه زما د ملګري خور ده.", "roman": "haġá zmā də malgə́ri xor da.", "en": "She is my friend's sister.", "focus": "ملګري", "wrong": ["ملګری|malgə́ray"] },
+        { "native": "د هلکانو مور چېرته ده؟", "roman": "də halakā́no mor chérta da?", "en": "Where is the boys' mother?", "focus": "هلکانو", "wrong": ["هلکان|halakā́n", "هلک|halə́k"] },
+        { "native": "د ماشومانو نيکه ډېر ښه سړی دی.", "roman": "də māshumā́no nikə́ ḍer ṣə saṛáy day.", "en": "The children's grandfather is a very nice man.", "focus": "ماشومانو", "wrong": ["ماشومان|māshumā́n"] },
+        { "native": "انا مې په کندهار کې ده.", "roman": "anā́ me pə kandahā́r ke da.", "en": "My grandmother is in Kandahar." },
+        { "native": "دا د احمد ملګری دی.", "roman": "dā də ahmád malgə́ray day.", "en": "This is Ahmad's friend.", "focus": "د", "wrong": ["له|la"] },
+        { "native": "ګاونډيان مو ښه خلک دي.", "roman": "gāwnḍiyā́n mo ṣə xálək di.", "en": "Our neighbours are good people." },
+        { "native": "د ګاونډي زوی زما ملګری دی.", "roman": "də gāwnḍí zoy zmā malgə́ray day.", "en": "The neighbour's son is my friend.", "focus": "ګاونډي", "wrong": ["ګاونډی|gāwnḍáy"] },
+        { "native": "مېلمه څوک دی؟", "roman": "melmə́ tsok day?", "en": "Who is the guest?" }
+      ]
+    },
+    {
+      "title": "Aunts, uncles and cousins",
+      "new": ["تره", "ماما", "ترور", "خاله", "تربور", "ستاسو کورنۍ څنګه ده؟", "ماشومان دې روغ وي!"],
+      "sentences": [
+        { "native": "زما تره په کابل کې اوسېږي.", "roman": "zmā trə pə kābúl ke oséẓi.", "en": "My uncle (father's brother) lives in Kabul." },
+        { "native": "خاله مې دوه لوڼې لري.", "roman": "xā́la me dwa lúṇe lári.", "en": "My aunt (mother's sister) has two daughters.", "focus": "لري", "wrong": ["لرم|lárəm", "لرو|láru"] },
+        { "native": "ماما جان، تاسو څنګه ياست؟", "roman": "māmā́ jān, tāso tsə́nga yāst?", "en": "Uncle dear, how are you?" },
+        { "native": "ستا ترور چېرته اوسېږي؟", "roman": "stā tror chérta oséẓi?", "en": "Where does your aunt (father's sister) live?" },
+        { "native": "احمد زما تربور دی.", "roman": "ahmád zmā tarbúr day.", "en": "Ahmad is my cousin." },
+        { "native": "زما د خالې زوی ډاکټر دی.", "roman": "zmā də xā́le zoy ḍākṭár day.", "en": "My aunt's son is a doctor.", "focus": "خالې", "wrong": ["خاله|xā́la"] },
+        { "native": "ستاسو کورنۍ ښه ده؟", "roman": "stāso kornə́y ṣa da?", "en": "Is your family well? (polite)" },
+        { "native": "شکر، ښه دي. ماشومان دې روغ وي!", "roman": "shukr, ṣə di. māshumā́n de roġ wi!", "en": "Fine, thank God. Bless your children!" },
+        { "native": "د تره زامن مې په پېښور کې دي.", "roman": "də trə zāmə́n me pə peṣawár ke di.", "en": "My uncle's sons are in Peshawar." }
+      ]
+    },
+    {
+      "title": "Married? Mr and Mrs",
+      "tip": { "title": "واده شوی or واده شوې", "body": "- 'Married' agrees with the person: **واده شوی** shə́way for a man, **واده شوې** shə́we for a woman, **واده شوي** shə́wi for a couple or a group.\n- **ښاغلی** 'Mr' and **مېرمن** 'Mrs' go before a name and are formal; in everyday speech use صاحب or جان after the name.", "pattern": "زه واده شوی يم (m)  ·  زه واده شوې يم (f)" },
+      "new": ["مېړه", "واده", "ښاغلی", "مېرمن", "ته واده شوی يې؟", "هو، دوه ماشومان لرم."],
+      "sentences": [
+        { "native": "هو، زه واده شوی يم.", "roman": "ho, zə wādə́ shə́way yəm.", "en": "Yes, I'm married. (man)", "focus": "شوی", "wrong": ["شوې|shə́we", "شوي|shə́wi"] },
+        { "native": "ته واده شوې يې؟", "roman": "tə wādə́ shə́we ye?", "en": "Are you married? (to a woman)", "focus": "شوې", "wrong": ["شوی|shə́way", "شوي|shə́wi"] },
+        { "native": "نه، زه واده شوې نه يم.", "roman": "na, zə wādə́ shə́we na yəm.", "en": "No, I'm not married. (woman)", "focus": "شوې", "wrong": ["شوی|shə́way", "شوي|shə́wi"] },
+        { "native": "مېړه يې ډاکټر دی.", "roman": "meṛə́ ye ḍākṭár day.", "en": "Her husband is a doctor." },
+        { "native": "ښاغلی احمد واده شوی دی.", "roman": "ṣāġə́lay ahmád wādə́ shə́way day.", "en": "Mr Ahmad is married.", "focus": "شوی", "wrong": ["شوې|shə́we", "شوي|shə́wi"] },
+        { "native": "مېرمن پلوشه ښوونکې ده.", "roman": "mermə́n palwáṣa ṣowúnke da.", "en": "Mrs Palwasha is a teacher." },
+        { "native": "ستا مشر ورور واده شوی دی؟", "roman": "stā mə́shər wror wādə́ shə́way day?", "en": "Is your older brother married?", "focus": "شوی", "wrong": ["شوې|shə́we", "شوي|shə́wi"] },
+        { "native": "د احمد خور واده شوې ده؟", "roman": "də ahmád xor wādə́ shə́we da?", "en": "Is Ahmad's sister married?", "focus": "شوې", "wrong": ["شوی|shə́way", "شوي|shə́wi"] },
+        { "native": "هغوی واده شوي دي.", "roman": "haġwí wādə́ shə́wi di.", "en": "They're married.", "focus": "شوي", "wrong": ["شوی|shə́way", "شوې|shə́we"] },
+        { "native": "هو، يو زوی او يوه لور لرم.", "roman": "ho, yaw zoy aw yáwa lur lárəm.", "en": "Yes, I have a son and a daughter." }
+      ]
+    }
+  ]
 }

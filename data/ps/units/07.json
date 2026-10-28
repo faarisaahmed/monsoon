@@ -87,5 +87,101 @@
       { "speaker": "Nazo", "native": "سمه ده. زه تياره يم، ځه چې ځو!", "roman": "sáma da. zə tayā́ra yəm, dza che dzu!", "en": "OK. I'm ready — let's go!" }
     ]
   },
-  "culture": "The day is often described by the prayer times rather than the clock: د سهار لمونځ (dawn), ماسپښين (afternoon), ماښام (sunset), ماخستن (night prayer) — 'I'll come after ماسپښين' is a normal appointment. Punctuality is relaxed in social life, but Friday prayers at midday are a fixed point, and many shops close for them. Afghan New Year (نوی کال, نوروز) falls on 1 Wray (21 March), celebrated with picnics and the first flowers of spring; in Pakistan the Western new year matters more. During **روژه** (Ramadan) daily life shifts: people eat before dawn (پېشمني peshmanə́y) and break the fast at sunset (روژه ماتي)."
+  "culture": "The day is often described by the prayer times rather than the clock: د سهار لمونځ (dawn), ماسپښين (afternoon), ماښام (sunset), ماخستن (night prayer) — 'I'll come after ماسپښين' is a normal appointment. Punctuality is relaxed in social life, but Friday prayers at midday are a fixed point, and many shops close for them. Afghan New Year (نوی کال, نوروز) falls on 1 Wray (21 March), celebrated with picnics and the first flowers of spring; in Pakistan the Western new year matters more. During **روژه** (Ramadan) daily life shifts: people eat before dawn (پېشمني peshmanə́y) and break the fast at sunset (روژه ماتي).",
+  "lessons": [
+    {
+      "title": "What time is it?",
+      "tip": { "title": "Telling the time", "body": "- Number + **بجې** + **دي**: پنځه بجې دي 'it's five'. One o'clock is singular: **يوه بجه ده**.\n- Half past: **نيمې** بجې (but يوه **نيمه** بجه). Quarter: **پاو** — درې بجې او پاو 'quarter past three', پاو کم څلور بجې 'quarter to four'.\n- Minutes are added with **او**: نهه بجې او لس دقيقې.", "pattern": "څو بجې دي؟ — پنځه بجې دي", "grammar": 0 },
+      "new": ["بجه", "څو بجې دي؟", "يوه بجه ده.", "درې نيمې بجې دي.", "پاو", "دقيقه"],
+      "sentences": [
+        { "native": "اوس پنځه بجې دي.", "roman": "os pindzə́ báje di.", "en": "It's five o'clock now.", "focus": "بجې", "wrong": ["بجه|bája", "بجو|bajó"] },
+        { "native": "دوه بجې دي؟", "roman": "dwa báje di?", "en": "Is it two o'clock?", "focus": "دي", "wrong": ["ده|da", "دی|day"] },
+        { "native": "نه، يوه نيمه بجه ده.", "roman": "na, yáwa níma bája da.", "en": "No, it's half past one.", "focus": "نيمه", "wrong": ["نيمې|níme"] },
+        { "native": "شپږ نيمې بجې دي.", "roman": "shpaẓ níme báje di.", "en": "It's half past six.", "focus": "نيمې", "wrong": ["نيمه|níma"] },
+        { "native": "لس بجې او پاو دي.", "roman": "las báje aw pāw di.", "en": "It's quarter past ten.", "focus": "پاو", "wrong": ["نيمې|níme"] },
+        { "native": "پاو کم اته بجې دي.", "roman": "pāw kam atə́ báje di.", "en": "It's quarter to eight.", "focus": "کم", "wrong": ["او|aw"] },
+        { "native": "نهه بجې او لس دقيقې دي.", "roman": "nə́hə báje aw las daqiqé di.", "en": "It's ten past nine.", "focus": "دقيقې", "wrong": ["دقيقه|daqiqá"] },
+        { "native": "اوس اته بجې او پنځلس دقيقې دي.", "roman": "os atə́ báje aw pindzə́las daqiqé di.", "en": "It's eight fifteen now.", "focus": "دقيقې", "wrong": ["دقيقه|daqiqá"] },
+        { "native": "اوس يوه بجه ده؟", "roman": "os yáwa bája da?", "en": "Is it one o'clock now?", "focus": "بجه", "wrong": ["بجې|báje"] }
+      ]
+    },
+    {
+      "title": "At what time?",
+      "tip": { "title": "'At' a time: په … بجو", "body": "- 'At five' is **په** پنځ**و** **بجو**: the number and بجې both take **-o**.\n- په لسو بجو 'at ten', په اتو بجو 'at eight'; one o'clock is **په يوه بجه**.\n- **د سهار** in the morning · **د غرمې** at noon · **د ماښام** in the evening · **د شپې** at night.", "pattern": "په + number-o + بجو" },
+      "new": ["په څو بجو راځې؟", "په اتو بجو.", "سهار", "ماښام", "شپه", "غرمه", "ماسپښين"],
+      "sentences": [
+        { "native": "زه په شپږو بجو کور ته ځم.", "roman": "zə pə shpaẓó bajó kor ta dzəm.", "en": "I go home at six.", "focus": "بجو", "wrong": ["بجې|báje", "بجه|bája"] },
+        { "native": "تاسو په څو بجو راځئ؟", "roman": "tāso pə tso bajó rā́dzəy?", "en": "What time are you coming? (polite)", "focus": "بجو", "wrong": ["بجې|báje", "بجه|bája"] },
+        { "native": "په لسو بجو راځم.", "roman": "pə lasó bajó rā́dzəm.", "en": "I'm coming at ten.", "focus": "لسو", "wrong": ["لس|las"] },
+        { "native": "د سهار په اتو بجو ناشته کوو.", "roman": "də sahā́r pə ató bajó nāshtá kawú.", "en": "We have breakfast at eight in the morning.", "focus": "اتو", "wrong": ["اته|atə́"] },
+        { "native": "د ماښام ډوډۍ په نهو بجو ده.", "roman": "də māṣā́m ḍoḍə́y pə nəhó bajó da.", "en": "Dinner is at nine.", "focus": "نهو", "wrong": ["نهه|nə́hə"] },
+        { "native": "د غرمې ډوډۍ په يوه بجه ده.", "roman": "də ġárme ḍoḍə́y pə yáwa bája da.", "en": "Lunch is at one.", "focus": "بجه", "wrong": ["بجو|bajó", "بجې|báje"] },
+        { "native": "د شپې لس بجې دي.", "roman": "də shpe las báje di.", "en": "It's ten at night." },
+        { "native": "ماسپښين کور ته راشه.", "roman": "māspṣín kor ta rā́sha.", "en": "Come home in the afternoon." }
+      ]
+    },
+    {
+      "title": "Today, yesterday, tomorrow",
+      "tip": { "title": "Time words come first", "body": "- **نن** today, **پرون** yesterday, **سبا** tomorrow need no preposition and usually start the sentence: سبا کابل ته ځم.\n- **هره ورځ** every day (ورځ is feminine, so هر → هره).\n- The present often covers the near future: سبا راځم 'I'll come tomorrow'.", "pattern": "نن / پرون / سبا + rest of the sentence", "grammar": 1 },
+      "new": ["نن", "پرون", "سبا", "ورځ", "نن کومه ورځ ده؟", "سبا ګورو.", "سهار مو په خير!", "شپه مو په خير!"],
+      "sentences": [
+        { "native": "نن ډېره ګرمي ده.", "roman": "nən ḍéra garmí da.", "en": "It's very hot today.", "focus": "نن", "wrong": ["پرون|parún"] },
+        { "native": "سبا کابل ته ځم.", "roman": "sabā́ kābúl ta dzəm.", "en": "I'm going to Kabul tomorrow.", "focus": "سبا", "wrong": ["پرون|parún"] },
+        { "native": "پرون ډېره ګرمي وه.", "roman": "parún ḍéra garmí wa.", "en": "It was very hot yesterday.", "focus": "پرون", "wrong": ["سبا|sabā́"] },
+        { "native": "ته نن په کور کې يې؟", "roman": "tə nən pə kor ke ye?", "en": "Are you at home today?", "focus": "نن", "wrong": ["پرون|parún"] },
+        { "native": "سبا سهار په اتو بجو راځم.", "roman": "sabā́ sahā́r pə ató bajó rā́dzəm.", "en": "I'll come tomorrow morning at eight.", "focus": "سبا", "wrong": ["پرون|parún"] },
+        { "native": "نن ښه ورځ ده.", "roman": "nən ṣa wradz da.", "en": "It's a nice day today." },
+        { "native": "زه هره ورځ پښتو زده کوم.", "roman": "zə hára wradz paṣtó zdə kawə́m.", "en": "I study Pashto every day.", "focus": "هره", "wrong": ["هر|har"] },
+        { "native": "سهار مو په خير، حاجي صاحب!", "roman": "sahā́r mo pə xayr, hājí sāhíb!", "en": "Good morning, Haji sahib!" },
+        { "native": "شپه دې په خير، احمد جان.", "roman": "shpa de pə xayr, ahmád jān.", "en": "Good night, Ahmad dear." }
+      ]
+    },
+    {
+      "title": "Days of the week",
+      "tip": { "title": "'On Monday': د … په ورځ", "body": "- Say 'on the day of …': **د** دوشنب**ې** **په ورځ** 'on Monday'.\n- All the day names are feminine in -a, so after د they end in **-e**: جمعه → د جمع**ې**.\n- The Afghan week starts on شنبه (Saturday); جمعه (Friday) is the day off.", "pattern": "د + day-e + په ورځ" },
+      "new": ["اوونۍ", "شنبه", "يکشنبه", "دوشنبه", "سه‌شنبه", "چهارشنبه", "پنجشنبه", "جمعه", "نن جمعه ده."],
+      "sentences": [
+        { "native": "نن شنبه ده.", "roman": "nən shanbá da.", "en": "Today is Saturday." },
+        { "native": "سبا يکشنبه ده.", "roman": "sabā́ yakshanbá da.", "en": "Tomorrow is Sunday." },
+        { "native": "د دوشنبې په ورځ کابل ته ځم.", "roman": "də doshanbé pə wradz kābúl ta dzəm.", "en": "I'm going to Kabul on Monday.", "focus": "دوشنبې", "wrong": ["دوشنبه|doshanbá"] },
+        { "native": "د سه‌شنبې په ورځ په کور کې نه يم.", "roman": "də seshanbé pə wradz pə kor ke na yəm.", "en": "I'm not at home on Tuesday.", "focus": "سه‌شنبې", "wrong": ["سه‌شنبه|seshanbá"] },
+        { "native": "د چهارشنبې په ورځ ته چېرته يې؟", "roman": "də chārshanbé pə wradz tə chérta ye?", "en": "Where are you on Wednesday?", "focus": "چهارشنبې", "wrong": ["چهارشنبه|chārshanbá"] },
+        { "native": "د پنجشنبې په ورځ مېلمانه راځي.", "roman": "də panjshanbé pə wradz melmānə́ rā́dzi.", "en": "Guests are coming on Thursday.", "focus": "پنجشنبې", "wrong": ["پنجشنبه|panjshanbá"] },
+        { "native": "د جمعې په ورځ ټوله کورنۍ په کور کې وي.", "roman": "də jumʿé pə wradz ṭóla kornə́y pə kor ke wi.", "en": "On Fridays the whole family is at home.", "focus": "جمعې", "wrong": ["جمعه|jumʿá"] },
+        { "native": "اوونۍ اووه ورځې لري.", "roman": "owənə́y owə́ wradzé lári.", "en": "A week has seven days.", "focus": "ورځې", "wrong": ["ورځ|wradz"] },
+        { "native": "پرون جمعه وه.", "roman": "parún jumʿá wa.", "en": "Yesterday was Friday." }
+      ]
+    },
+    {
+      "title": "Early, late, always",
+      "new": ["وخت", "وختي", "ناوخته", "تل", "کله", "زه ناوخته شوم، بښنه غواړم.", "وخت نشته، ژر شه!"],
+      "sentences": [
+        { "native": "ته کله راځې؟", "roman": "tə kə́la rā́dze?", "en": "When are you coming?" },
+        { "native": "سبا وختي راځم.", "roman": "sabā́ waxtí rā́dzəm.", "en": "I'll come early tomorrow." },
+        { "native": "هغه تل ناوخته راځي.", "roman": "haġá tal nāwáxta rā́dzi.", "en": "He always comes late." },
+        { "native": "وخت لرې؟", "roman": "waxt lare?", "en": "Do you have time?" },
+        { "native": "نه، اوس وخت نه لرم.", "roman": "na, os waxt na lárəm.", "en": "No, I don't have time now." },
+        { "native": "ناوخته ده، کور ته ځم.", "roman": "nāwáxta da, kor ta dzəm.", "en": "It's late, I'm going home." },
+        { "native": "زه تل وختي ناشته کوم.", "roman": "zə tal waxtí nāshtá kawə́m.", "en": "I always have breakfast early." },
+        { "native": "احمد جان، ژر شه!", "roman": "ahmád jān, zhər sha!", "en": "Ahmad dear, hurry up!" },
+        { "native": "کله کله پلاو خورو.", "roman": "kə́la kə́la palā́w xwru.", "en": "Sometimes we have palaw." }
+      ]
+    },
+    {
+      "title": "Before, after, hours and months",
+      "tip": { "title": "Before and after", "body": "- **له** … **مخکې** 'before', **له** … **وروسته** 'after': له ډوډۍ وروسته.\n- With a length of time, put it first: دوه ساعته **وروسته** 'two hours later, in two hours'.\n- **بله** مياشت 'next month', **بله** اوونۍ 'next week' (both feminine).", "pattern": "له + noun + مخکې / وروسته" },
+      "new": ["مخکې", "وروسته", "مياشت", "ساعت"],
+      "sentences": [
+        { "native": "له ناشتې مخکې چای څښم.", "roman": "la nāshté mə́xke chāy tsṣəm.", "en": "I drink tea before breakfast.", "focus": "مخکې", "wrong": ["وروسته|wrústa"] },
+        { "native": "له ډوډۍ وروسته چای څښو.", "roman": "la ḍoḍə́y wrústa chāy tsṣu.", "en": "We drink tea after the meal.", "focus": "وروسته", "wrong": ["مخکې|mə́xke"] },
+        { "native": "دوه ساعته وروسته راځم.", "roman": "dwa sāʿáta wrústa rā́dzəm.", "en": "I'll come in two hours.", "focus": "وروسته", "wrong": ["مخکې|mə́xke"] },
+        { "native": "بله مياشت کابل ته ځو.", "roman": "bə́la miyā́sht kābúl ta dzu.", "en": "Next month we're going to Kabul.", "focus": "بله", "wrong": ["بل|bəl"] },
+        { "native": "لس دقيقې وروسته راشه.", "roman": "las daqiqé wrústa rā́sha.", "en": "Come back in ten minutes.", "focus": "وروسته", "wrong": ["مخکې|mə́xke"] },
+        { "native": "يو ساعت شپېته دقيقې لري.", "roman": "yaw sāʿát shpetə́ daqiqé lári.", "en": "An hour has sixty minutes." },
+        { "native": "زه يوه مياشت په کابل کې يم.", "roman": "zə yáwa miyā́sht pə kābúl ke yəm.", "en": "I'm in Kabul for a month." },
+        { "native": "ساعت مې په کور کې دی.", "roman": "sāʿát me pə kor ke day.", "en": "My watch is at home." },
+        { "native": "له اتو بجو مخکې کور ته راشه.", "roman": "la ató bajó mə́xke kor ta rā́sha.", "en": "Come home before eight.", "focus": "مخکې", "wrong": ["وروسته|wrústa"] }
+      ]
+    }
+  ]
 }

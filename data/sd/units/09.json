@@ -87,5 +87,85 @@
       { "speaker": "Doctor", "native": "پنهنجو ڌيان رکجو. خدا حافظ.", "roman": "panhinjo dhiyānu rakhijo. xudā hāfiz.", "en": "Take care. Goodbye." }
     ]
   },
-  "culture": "Doctors are addressed respectfully as ڊاڪٽر صاحب (ḍākṭar sāhib); a woman doctor as ڊاڪٽر صاحبه (sāhiba). Pharmacies (ميڊيڪل اسٽور) are everywhere and pharmacists often give advice directly. Home remedies are popular: warm milk with turmeric (هيڊ heḍa), honey and ginger for coughs, and avoiding cold drinks and 'cold' foods when ill. Wishing someone well, people say الله شفا ڏئي (allāh shifā ɗie) 'may God give you healing'."
+  "culture": "Doctors are addressed respectfully as ڊاڪٽر صاحب (ḍākṭar sāhib); a woman doctor as ڊاڪٽر صاحبه (sāhiba). Pharmacies (ميڊيڪل اسٽور) are everywhere and pharmacists often give advice directly. Home remedies are popular: warm milk with turmeric (هيڊ heḍa), honey and ginger for coughs, and avoiding cold drinks and 'cold' foods when ill. Wishing someone well, people say الله شفا ڏئي (allāh shifā ɗie) 'may God give you healing'.",
+  "lessons": [
+    {
+      "title": "Head, face, eyes",
+      "new": ["جسم", "مٿو", "منهن", "اک", "ڪن", "نڪ", "وات", "ڏند", "وار"],
+      "sentences": [
+        { "native": "هن جون اکيون نيريون آهن.", "roman": "hun jūṃ akhyūṃ nīryūṃ āhin.", "en": "Her eyes are blue." },
+        { "native": "ٻار جا وار ڪارا آهن.", "roman": "ɓāra jā vāra kārā āhin.", "en": "The child's hair is black.", "focus": "ڪارا", "wrong": ["ڪارو|kāro", "ڪاري|kārī"] },
+        { "native": "ٻار جو مٿو گرم آهي.", "roman": "ɓāra jo matho garamu āhe.", "en": "The child's head is hot." },
+        { "native": "منهنجو نڪ ڳاڙهو آهي.", "roman": "munhinjo naku ɠāṛho āhe.", "en": "My nose is red." },
+        { "native": "سندس منهن ڏاڍو سهڻو آهي.", "roman": "sandasi munhuṃ ɗāḍho sohaṇo āhe.", "en": "Her face is very beautiful." },
+        { "native": "ٻار جا ڏند اڇا آهن.", "roman": "ɓāra jā ɗanda achhā āhin.", "en": "The child's teeth are white." },
+        { "native": "منهنجا ڪن ٿڌا آهن.", "roman": "munhinjā kana thadhā āhin.", "en": "My ears are cold." },
+        { "native": "جسم کي پاڻي گهرجي.", "roman": "jisma khe pāṇī ghurje.", "en": "The body needs water." },
+        { "native": "اک ۾ ڪجهه آهي.", "roman": "akha meṃ kujhu āhe.", "en": "There's something in my eye." },
+        { "native": "ٻار جو وات ميرو آهي.", "roman": "ɓāra jo vātu mero āhe.", "en": "The child's mouth is dirty." }
+      ]
+    },
+    {
+      "title": "My head hurts",
+      "tip": { "title": "Saying what hurts", "body": "- **Body part + ڏکڻ**: the body part is the subject, so the verb agrees with it: منهنجو مٿو ڏکي **ٿو** (m) · منهنجي پٺي ڏکي **ٿي** (f) · منهنجا ڏند ڏکن **ٿا** (pl).\n- Or 'there is pain in …': منهنجي پيٽ ۾ **سور** آهي.\n- Ask: **ڪٿي ٿو ڏکي؟** 'where does it hurt?'", "pattern": "منهنجو + body part + ڏکي ٿو / ٿي", "grammar": 0 },
+      "new": ["ڏکڻ", "سور", "ڳلو", "پيٽ", "پٺي", "منهنجو مٿو ڏکي ٿو.", "منهنجي پيٽ ۾ سور آهي.", "ڪٿي ٿو ڏکي؟", "هتي سور آهي."],
+      "sentences": [
+        { "native": "منهنجا ڏند ڏکن ٿا.", "roman": "munhinjā ɗanda ɗukhan thā.", "en": "My teeth hurt.", "focus": "ڏکن", "wrong": ["ڏکي|ɗukhe", "ڏکان|ɗukhāṃ"] },
+        { "native": "منهنجي پٺي ڏکي ٿي.", "roman": "munhinjī puṭhī ɗukhe thī.", "en": "My back hurts.", "focus": "ٿي", "wrong": ["ٿو|tho", "ٿا|thā"] },
+        { "native": "منهنجو ڪن ڏکي ٿو.", "roman": "munhinjo kanu ɗukhe tho.", "en": "My ear hurts.", "focus": "ٿو", "wrong": ["ٿي|thī", "ٿا|thā"] },
+        { "native": "هن جون اکيون ڏکن ٿيون.", "roman": "hun jūṃ akhyūṃ ɗukhan thyūṃ.", "en": "Her eyes hurt.", "focus": "ٿيون", "wrong": ["ٿا|thā", "ٿي|thī"] },
+        { "native": "ٻار جي ڳلي ۾ سور آهي.", "roman": "ɓāra je ɠale meṃ sūru āhe.", "en": "The child has a sore throat.", "focus": "ڳلي", "wrong": ["ڳلو|ɠalo", "ڳلا|ɠalā"] },
+        { "native": "منهنجو پيٽ ڏکي ٿو.", "roman": "munhinjo peṭu ɗukhe tho.", "en": "My stomach hurts.", "focus": "ڏکي", "wrong": ["ڏکن|ɗukhan", "ڏکان|ɗukhāṃ"] },
+        { "native": "توهان جو مٿو ڏکي ٿو؟", "roman": "tavhāṃ jo matho ɗukhe tho?", "en": "Do you have a headache?", "focus": "ٿو", "wrong": ["ٿي|thī", "ٿا|thā"] },
+        { "native": "پيٽ ۾ سور آهي؟", "roman": "peṭa meṃ sūru āhe?", "en": "Do you have stomach pain?", "focus": "سور", "wrong": ["بک|bukha", "خير|xairu"] },
+        { "native": "هتي ڏکي ٿو.", "roman": "hite ɗukhe tho.", "en": "It hurts here." }
+      ]
+    },
+    {
+      "title": "Fever, cough and a cold",
+      "new": ["بخار", "کنگهه", "زڪام", "زخم", "بيمار", "مان بيمار آهيان.", "مون کي بخار ۽ کنگهه آهي.", "هاڻي طبيعت ڪيئن آهي؟", "اڳ کان بهتر آهيان."],
+      "sentences": [
+        { "native": "مون کي زڪام آهي.", "roman": "moṃ khe zukāmu āhe.", "en": "I have a cold.", "focus": "کي", "wrong": ["جو|jo", "۾|meṃ"] },
+        { "native": "منهنجي ڌيءُ کي بخار آهي.", "roman": "munhinjī dhīu khe buxāru āhe.", "en": "My daughter has a fever.", "focus": "کي", "wrong": ["جو|jo", "تي|te"] },
+        { "native": "توهان کي کنگهه آهي؟", "roman": "tavhāṃ khe khaṅgha āhe?", "en": "Do you have a cough?" },
+        { "native": "هوءَ بيمار آهي.", "roman": "hūa bīmāru āhe.", "en": "She is ill." },
+        { "native": "ٻار بيمار آهن.", "roman": "ɓāra bīmāru āhin.", "en": "The children are ill.", "focus": "آهن", "wrong": ["آهي|āhe", "آهيون|āhyūṃ"] },
+        { "native": "زخم ڏاڍو وڏو ناهي.", "roman": "zaxmu ɗāḍho vaɗo nāhe.", "en": "The wound isn't very big." },
+        { "native": "طبيعت ڪيئن آهي، ادا؟", "roman": "tabīʿata kīeṃ āhe, adā?", "en": "How are you feeling, brother?" },
+        { "native": "اڄ مان بهتر آهيان.", "roman": "aʄu māṃ bihtaru āhiyāṃ.", "en": "I'm better today." },
+        { "native": "بخار ناهي، پر کنگهه آهي.", "roman": "buxāru nāhe, para khaṅgha āhe.", "en": "No fever, but I have a cough." }
+      ]
+    },
+    {
+      "title": "Hands, feet — and the doctor",
+      "new": ["هٿ", "پير", "ٽنگ", "دل", "ڊاڪٽر", "اسپتال", "مون کي ڊاڪٽر وٽ وڃڻو آهي."],
+      "sentences": [
+        { "native": "منهنجا پير ڏکن ٿا.", "roman": "munhinjā pera ɗukhan thā.", "en": "My feet hurt.", "focus": "ڏکن", "wrong": ["ڏکي|ɗukhe", "ڏکان|ɗukhāṃ"] },
+        { "native": "هن جي ٽنگ ۾ سور آهي.", "roman": "hun jī ṭanga meṃ sūru āhe.", "en": "She has a pain in her leg." },
+        { "native": "ڊاڪٽر صاحب، منهنجو هٿ ڏکي ٿو.", "roman": "ḍākṭar sāhib, munhinjo hathu ɗukhe tho.", "en": "Doctor, my hand hurts.", "focus": "ٿو", "wrong": ["ٿي|thī", "ٿا|thā"] },
+        { "native": "ڊاڪٽر ڪٿي آهي؟", "roman": "ḍākṭaru kithe āhe?", "en": "Where's the doctor?" },
+        { "native": "اسپتال ڪٿي آهي؟", "roman": "ispatāla kithe āhe?", "en": "Where is the hospital?" },
+        { "native": "مون کي اسپتال وڃڻو آهي.", "roman": "moṃ khe ispatāla vañaṇo āhe.", "en": "I have to go to the hospital." },
+        { "native": "منهنجي دل خوش ٿي.", "roman": "munhinjī dila xushu thī.", "en": "I was delighted. (lit. my heart became happy)" },
+        { "native": "ٻار جي هٿ ۾ زخم آهي.", "roman": "ɓāra je hatha meṃ zaxmu āhe.", "en": "The child's hand is hurt. (lit. there is a wound in the child's hand)" }
+      ]
+    },
+    {
+      "title": "You should rest",
+      "tip": { "title": "Should: verb + گهرجي", "body": "- 'Should' = person + **کي** + the verb in **-ṇu** + **گهرجي**: توهان کي آرام ڪرڻ گهرجي 'you should rest'.\n- 'Shouldn't': put **نه** before the verb: تکو کاڌو نه کائڻ گهرجي.\n- 'Have to (now)': مون کي اسپتال **وڃڻو آهي**.", "pattern": "توهان کي + verb-ṇu + گهرجي", "grammar": 1 },
+      "new": ["دوا", "آرام", "صحت", "ڌيان", "توهان کي آرام ڪرڻ گهرجي.", "ڏينهن ۾ ٽي ڀيرا دوا کائو.", "پنهنجو ڌيان رکجو."],
+      "sentences": [
+        { "native": "توهان کي ڊاڪٽر وٽ وڃڻ گهرجي.", "roman": "tavhāṃ khe ḍākṭara vaṭi vañaṇu ghurje.", "en": "You should go to the doctor.", "focus": "گهرجي", "wrong": ["گهرجن|ghurjan", "آهي|āhe"] },
+        { "native": "تو کي دوا کائڻ گهرجي.", "roman": "to khe davā khāiṇu ghurje.", "en": "You should take the medicine. (to a friend)", "focus": "کائڻ", "wrong": ["کائو|khāo", "کائي|khāe"] },
+        { "native": "هن کي آرام ڪرڻ گهرجي.", "roman": "hun khe ārāmu karaṇu ghurje.", "en": "He should rest.", "focus": "ڪرڻ", "wrong": ["ڪريو|karyo", "ڪري|kare"] },
+        { "native": "توهان کي تکو کاڌو نه کائڻ گهرجي.", "roman": "tavhāṃ khe tikho khādho na khāiṇu ghurje.", "en": "You shouldn't eat spicy food.", "focus": "نه", "wrong": ["نٿو|natho", "ناهي|nāhe"] },
+        { "native": "ٻار کي اڄ گهر ۾ رهڻ گهرجي.", "roman": "ɓāra khe aʄu ghara meṃ rahaṇu ghurje.", "en": "The child should stay at home today.", "focus": "رهڻ", "wrong": ["رهي|rahe", "رهو|raho"] },
+        { "native": "ٻارن کي ميوو کائڻ گهرجي.", "roman": "ɓāran khe mevo khāiṇu ghurje.", "en": "Children should eat fruit.", "focus": "کائڻ", "wrong": ["کائو|khāo", "کائن|khāin"] },
+        { "native": "توهان کي روز صبح جو دوا کائڻ گهرجي.", "roman": "tavhāṃ khe roz subuh jo davā khāiṇu ghurje.", "en": "You should take the medicine every morning.", "focus": "گهرجي", "wrong": ["گهرجن|ghurjan", "آهي|āhe"] },
+        { "native": "صحت سڀ کان وڏي ڳالهه آهي.", "roman": "sihata sabha khāṃ vaɗī ɠālhi āhe.", "en": "Health is the most important thing." },
+        { "native": "پنهنجي صحت جو ڌيان رکو.", "roman": "panhinjī sihata jo dhiyānu rakho.", "en": "Look after your health." },
+        { "native": "دوا ماني کان پوءِ کائو.", "roman": "davā mānī khāṃ poi khāo.", "en": "Take the medicine after meals." }
+      ]
+    }
+  ]
 }

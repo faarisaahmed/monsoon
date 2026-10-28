@@ -90,5 +90,90 @@
       { "speaker": "Tom", "native": "एक सौ बारह। बहुत धन्यवाद!", "roman": "ek sau bārah. bahut dhanyavād!", "en": "One-twelve. Thanks a lot!" }
     ]
   },
-  "culture": "Indians count large numbers in **lakhs** (1,00,000) and **crores** (1,00,00,000), and commas are placed accordingly — you'll see prices like ₹1,50,000 (डेढ़ लाख). In everyday life, phone numbers, prices and times are very often said in English, especially in cities. Fractions are used constantly: डेढ़ (1½), ढाई (2½), and साढ़े '…and a half' (साढ़े तीन 3½). Ages are asked freely, and older people are addressed with respect — never comment that an elder looks 'old' as a compliment… unless you mean wise!"
+  "culture": "Indians count large numbers in **lakhs** (1,00,000) and **crores** (1,00,00,000), and commas are placed accordingly — you'll see prices like ₹1,50,000 (डेढ़ लाख). In everyday life, phone numbers, prices and times are very often said in English, especially in cities. Fractions are used constantly: डेढ़ (1½), ढाई (2½), and साढ़े '…and a half' (साढ़े तीन 3½). Ages are asked freely, and older people are addressed with respect — never comment that an elder looks 'old' as a compliment… unless you mean wise!",
+  "lessons": [
+    {
+      "title": "How many are there?",
+      "tip": { "title": "कितना / कितनी / कितने — how many", "body": "- After **एक** the noun is singular; after any other number it's plural: एक बेटा, चार बेटे.\n- **कितना** agrees with the noun: **कितनी** बहनें (f), **कितने** लोग (m. pl), कितना (m. sg, 'how much').\n- **दोनों** 'both' follows the noun or pronoun: हम दोनों.", "pattern": "कितने + m. pl · कितनी + f", "grammar": 0 },
+      "new": ["कितना", "सिर्फ़", "दोनों", "कुछ", "गिनना", "जोड़ना", "कितने लोग हैं?", "सिर्फ़ दो।"],
+      "sentences": [
+        { "native": "तुम्हारी कितनी बहनें हैं?", "roman": "tumhārī kitnī bahneṃ haiṃ?", "en": "How many sisters do you have?", "focus": "कितनी", "wrong": ["कितना|kitnā", "कितने|kitne"] },
+        { "native": "वहाँ कितने लोग रहते हैं?", "roman": "vahāṃ kitne log rahte haiṃ?", "en": "How many people live there?", "focus": "कितने", "wrong": ["कितना|kitnā", "कितनी|kitnī"] },
+        { "native": "कितनी लड़कियाँ हैं?", "roman": "kitnī laṛkiyāṃ haiṃ?", "en": "How many girls are there?", "focus": "कितनी", "wrong": ["कितना|kitnā", "कितने|kitne"] },
+        { "native": "मेरी सिर्फ़ एक बहन है।", "roman": "merī sirf ek bahan hai.", "en": "I have only one sister.", "focus": "बहन", "wrong": ["बहनें|bahneṃ", "बहनों|bahnoṃ"] },
+        { "native": "उनके चार बेटे हैं।", "roman": "unke chār beṭe haiṃ.", "en": "They have four sons.", "focus": "बेटे", "wrong": ["बेटा|beṭā", "बेटों|beṭoṃ"] },
+        { "native": "हम दोनों भारतीय हैं।", "roman": "ham donoṃ bhārtīy haiṃ.", "en": "We're both Indian.", "focus": "दोनों", "wrong": ["कुछ|kuchh", "दूसरे|dūsre"] },
+        { "native": "दोनों भाई दिल्ली में रहते हैं।", "roman": "donoṃ bhāī Dillī meṃ rahte haiṃ.", "en": "Both brothers live in Delhi.", "focus": "दोनों", "wrong": ["कुछ|kuchh", "दूसरे|dūsre"] },
+        { "native": "हम सिर्फ़ तीन लोग हैं।", "roman": "ham sirf tīn log haiṃ.", "en": "There are only three of us.", "focus": "लोग", "wrong": ["लोगों|logoṃ", "आदमी|ādmī"] },
+        { "native": "कुछ लोग अंग्रेज़ी बोलते हैं।", "roman": "kuchh log aṅgrezī bolte haiṃ.", "en": "Some people speak English." },
+        { "native": "मेरा बेटा हिंदी में गिनता है।", "roman": "merā beṭā hindī meṃ gintā hai.", "en": "My son counts in Hindi." },
+        { "native": "सब जोड़कर कितना है?", "roman": "sab joṛkar kitnā hai?", "en": "How much is it all together?", "focus": "कितना", "wrong": ["कितनी|kitnī", "कितने|kitne"] }
+      ]
+    },
+    {
+      "title": "Saying how old you are",
+      "tip": { "title": "I am 25 years 'of'", "body": "- Age: **मैं पच्चीस साल का हूँ** — lit. 'I am of 25 years'.\n- का agrees with the **person**: **का** (male), **की** (female), **के** (respected person or group).\n- Ask **आप कितने साल के हैं?** (to a woman: कितने साल **की**), or **आपकी उम्र क्या है?**", "pattern": "person + number + साल + का / की / के + है", "grammar": 1 },
+      "new": ["साल", "उम्र", "लगभग", "आप कितने साल के हैं?", "आपकी उम्र क्या है?", "मैं पच्चीस साल का हूँ।", "मैं तीस साल की हूँ।", "हम दोनों बीस साल के हैं।"],
+      "sentences": [
+        { "native": "मैं बीस साल का हूँ।", "roman": "maiṃ bīs sāl kā hūṃ.", "en": "I'm twenty. (man speaking)", "focus": "का", "wrong": ["की|kī", "के|ke"] },
+        { "native": "मेरी बहन दस साल की है।", "roman": "merī bahan das sāl kī hai.", "en": "My sister is ten.", "focus": "की", "wrong": ["का|kā", "के|ke"] },
+        { "native": "आपकी बेटी कितने साल की है?", "roman": "āpkī beṭī kitne sāl kī hai?", "en": "How old is your daughter?", "focus": "की", "wrong": ["का|kā", "के|ke"] },
+        { "native": "मेरे पिता साठ साल के हैं।", "roman": "mere pitā sāṭh sāl ke haiṃ.", "en": "My father is sixty.", "focus": "के", "wrong": ["का|kā", "की|kī"] },
+        { "native": "तुम कितने साल के हो?", "roman": "tum kitne sāl ke ho?", "en": "How old are you? (to a boy)", "focus": "के", "wrong": ["का|kā", "को|ko"] },
+        { "native": "मेरा छोटा भाई सात साल का है।", "roman": "merā chhoṭā bhāī sāt sāl kā hai.", "en": "My little brother is seven.", "focus": "का", "wrong": ["की|kī", "के|ke"] },
+        { "native": "वे दोनों पच्चीस साल की हैं।", "roman": "ve donoṃ pachchīs sāl kī haiṃ.", "en": "They're both 25. (two women)", "focus": "की", "wrong": ["का|kā", "को|ko"] },
+        { "native": "उसकी उम्र लगभग तीस साल है।", "roman": "uskī umr lagbhag tīs sāl hai.", "en": "She's about thirty." },
+        { "native": "आपके दादा जी कितने साल के हैं?", "roman": "āpke dādā jī kitne sāl ke haiṃ?", "en": "How old is your grandfather?", "focus": "के", "wrong": ["का|kā", "की|kī"] }
+      ]
+    },
+    {
+      "title": "First, second, third",
+      "tip": { "title": "Ordinals change like अच्छा", "body": "- पहला, दूसरा, तीसरा, चौथा, छठा are irregular; from 5th on add **-वाँ / -वीं / -वें**: पाँचवाँ, पाँचवीं.\n- They agree with the noun: **पहली** बार (बार 'time' is f), **दूसरा** बेटा.\n- School classes are feminine: वह **पाँचवीं** में है 'she's in class 5'." },
+      "new": ["पहला", "दूसरा", "तीसरा", "चौथा", "पाँचवाँ", "छठा", "बार", "हर", "पूरा", "मैं दूसरी बार भारत आया हूँ।"],
+      "sentences": [
+        { "native": "मैं पहली बार भारत में हूँ।", "roman": "maiṃ pahlī bār bhārat meṃ hūṃ.", "en": "This is my first time in India.", "focus": "पहली", "wrong": ["पहला|pahlā", "पहले|pahle"] },
+        { "native": "क्या आप पहली बार भारत आए हैं?", "roman": "kyā āp pahlī bār bhārat āe haiṃ?", "en": "Is this your first time in India?", "focus": "पहली", "wrong": ["पहला|pahlā", "पहले|pahle"] },
+        { "native": "जी नहीं, तीसरी बार।", "roman": "jī nahīṃ, tīsrī bār.", "en": "No, it's my third time.", "focus": "तीसरी", "wrong": ["तीसरा|tīsrā", "तीसरे|tīsre"] },
+        { "native": "वह मेरा दूसरा बेटा है।", "roman": "vah merā dūsrā beṭā hai.", "en": "He's my second son.", "focus": "दूसरा", "wrong": ["दूसरी|dūsrī", "दूसरे|dūsre"] },
+        { "native": "यह उनका चौथा बच्चा है।", "roman": "yah unkā chauthā bachchā hai.", "en": "This is their fourth child.", "focus": "चौथा", "wrong": ["चौथी|chauthī", "चौथे|chauthe"] },
+        { "native": "मेरी बेटी पाँचवीं में है।", "roman": "merī beṭī pāṃchvīṃ meṃ hai.", "en": "My daughter is in class five.", "focus": "पाँचवीं", "wrong": ["पाँचवाँ|pāṃchvāṃ", "पाँचवें|pāṃchveṃ"] },
+        { "native": "मेरा बेटा छठी में है।", "roman": "merā beṭā chhaṭhī meṃ hai.", "en": "My son is in class six.", "focus": "छठी", "wrong": ["छठा|chhaṭhā", "छठे|chhaṭhe"] },
+        { "native": "पूरा परिवार यहाँ है।", "roman": "pūrā parivār yahāṃ hai.", "en": "The whole family is here.", "focus": "पूरा", "wrong": ["पूरी|pūrī", "पूरे|pūre"] },
+        { "native": "मैं हर साल भारत आता हूँ।", "roman": "maiṃ har sāl bhārat ātā hūṃ.", "en": "I come to India every year." },
+        { "native": "मैं हर दिन थोड़ी हिंदी बोलता हूँ।", "roman": "maiṃ har din thoṛī hindī boltā hūṃ.", "en": "I speak a bit of Hindi every day. (man speaking)" }
+      ]
+    },
+    {
+      "title": "Floors, rooms and phone numbers",
+      "tip": { "title": "Seventh floor, room 910", "body": "- **मंज़िल** 'floor' is feminine, so: पहली मंज़िल, **सातवीं** मंज़िल.\n- **नंबर** is used for rooms, phones and buses: कमरा नंबर बारह.\n- Phone numbers are read digit by digit or in pairs: नौ आठ, सात छह…\n- **आख़िरी** 'last' never changes." },
+      "new": ["सातवाँ", "आठवाँ", "नौवाँ", "दसवाँ", "आख़िरी", "नंबर", "आपका फ़ोन नंबर क्या है?", "मेरा कमरा तीसरी मंज़िल पर है।"],
+      "sentences": [
+        { "native": "आपका कमरा सातवीं मंज़िल पर है।", "roman": "āpkā kamrā sātvīṃ manzil par hai.", "en": "Your room is on the seventh floor.", "focus": "सातवीं", "wrong": ["सातवाँ|sātvāṃ", "सातवें|sātveṃ"] },
+        { "native": "आपका कमरा नंबर क्या है?", "roman": "āpkā kamrā nambar kyā hai?", "en": "What's your room number?", "focus": "नंबर", "wrong": ["नाम|nām", "मतलब|matlab"] },
+        { "native": "कमरा नंबर नौ सौ दस, नौवीं मंज़िल।", "roman": "kamrā nambar nau sau das, nauvīṃ manzil.", "en": "Room 910, ninth floor.", "focus": "नौवीं", "wrong": ["नौवाँ|nauvāṃ", "नौवें|nauveṃ"] },
+        { "native": "हम पाँचवीं मंज़िल पर रहते हैं।", "roman": "ham pāṃchvīṃ manzil par rahte haiṃ.", "en": "We live on the fifth floor.", "focus": "पाँचवीं", "wrong": ["पाँचवाँ|pāṃchvāṃ", "पाँचवें|pāṃchveṃ"] },
+        { "native": "क्या तुम्हारा बेटा आठवीं में है?", "roman": "kyā tumhārā beṭā āṭhvīṃ meṃ hai?", "en": "Is your son in class eight?", "focus": "आठवीं", "wrong": ["आठवाँ|āṭhvāṃ", "आठवें|āṭhveṃ"] },
+        { "native": "दसवाँ कमरा आख़िरी कमरा है।", "roman": "dasvāṃ kamrā āxirī kamrā hai.", "en": "The tenth room is the last one.", "focus": "दसवाँ", "wrong": ["दसवीं|dasvīṃ", "दसवें|dasveṃ"] },
+        { "native": "यह मेरा आख़िरी दिन है।", "roman": "yah merā āxirī din hai.", "en": "This is my last day.", "focus": "आख़िरी", "wrong": ["पहली|pahlī", "दूसरी|dūsrī"] },
+        { "native": "उसका फ़ोन नंबर कौन जानता है?", "roman": "uskā fon nambar kaun jāntā hai?", "en": "Who knows her phone number?" },
+        { "native": "सारा का नंबर कौन-सा है?", "roman": "Sārā kā nambar kaun-sā hai?", "en": "Which one is Sarah's number?" }
+      ]
+    },
+    {
+      "title": "More, less, enough",
+      "tip": { "title": "Half a kilo, a bit more", "body": "- **आधा** ½ · **डेढ़** 1½ · **ढाई** 2½ — everyday words for kilos, hours and prices.\n- **ज़्यादा** more / too much · **कम** less / few · **थोड़ा और** a bit more.\n- To stop someone: **बस** 'that's it' or **काफ़ी है** 'that's enough'.\n- Asking politely: … **दीजिए** 'please give'." },
+      "new": ["आधा", "डेढ़", "ढाई", "ज़्यादा", "कम", "काफ़ी", "थोड़ा और।", "बस, काफ़ी है।", "आधा किलो दीजिए।"],
+      "sentences": [
+        { "native": "डेढ़ किलो दीजिए।", "roman": "ḍeṛh kilo dījiye.", "en": "One and a half kilos, please.", "focus": "डेढ़", "wrong": ["आधे|ādhe", "आधी|ādhī"] },
+        { "native": "ढाई किलो काफ़ी है।", "roman": "ḍhāī kilo kāfī hai.", "en": "Two and a half kilos is enough.", "focus": "काफ़ी", "wrong": ["कुछ|kuchh", "हर|har"] },
+        { "native": "यह बहुत ज़्यादा है।", "roman": "yah bahut zyādā hai.", "en": "That's too much.", "focus": "ज़्यादा", "wrong": ["हर|har", "सिर्फ़|sirf"] },
+        { "native": "थोड़ा कम दीजिए।", "roman": "thoṛā kam dījiye.", "en": "A bit less, please.", "focus": "कम", "wrong": ["हर|har", "दोनों|donoṃ"] },
+        { "native": "बस, आधा किलो काफ़ी है।", "roman": "bas, ādhā kilo kāfī hai.", "en": "Just half a kilo is enough.", "focus": "आधा", "wrong": ["आधी|ādhī", "आधे|ādhe"] },
+        { "native": "आधा परिवार दिल्ली में रहता है।", "roman": "ādhā parivār Dillī meṃ rahtā hai.", "en": "Half the family lives in Delhi.", "focus": "आधा", "wrong": ["आधी|ādhī", "आधे|ādhe"] },
+        { "native": "यहाँ लोग बहुत कम हैं।", "roman": "yahāṃ log bahut kam haiṃ.", "en": "There are very few people here.", "focus": "कम", "wrong": ["हर|har", "सिर्फ़|sirf"] },
+        { "native": "वह काफ़ी अच्छी हिंदी बोलता है।", "roman": "vah kāfī achchhī hindī boltā hai.", "en": "He speaks quite good Hindi." },
+        { "native": "ज़्यादा नहीं, सिर्फ़ थोड़ा।", "roman": "zyādā nahīṃ, sirf thoṛā.", "en": "Not much, just a little." }
+      ]
+    }
+  ]
 }

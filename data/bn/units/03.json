@@ -85,5 +85,91 @@
       { "speaker": "Jake", "native": "তোমার আত্মীয় অনেক!", "roman": "tomar attio ônek!", "en": "You have a lot of relatives!" }
     ]
   },
-  "culture": "Using people's first names is reserved for equals and juniors. Older siblings are called দাদা/দিদি (WB) or ভাইয়া/আপু (BD), never by name. Strangers become relatives too: a shopkeeper is দাদা or ভাই, an older woman মাসিমা or খালা, and in Dhaka a rickshaw-puller is often called মামা. Hindu and Muslim families use different words for many relatives (কাকা/চাচা, মাসি/খালা, পিসি/ফুফু, ঠাকুমা/দাদি), and in Bangladesh দাদা means 'grandfather', not 'brother'."
+  "culture": "Using people's first names is reserved for equals and juniors. Older siblings are called দাদা/দিদি (WB) or ভাইয়া/আপু (BD), never by name. Strangers become relatives too: a shopkeeper is দাদা or ভাই, an older woman মাসিমা or খালা, and in Dhaka a rickshaw-puller is often called মামা. Hindu and Muslim families use different words for many relatives (কাকা/চাচা, মাসি/খালা, পিসি/ফুফু, ঠাকুমা/দাদি), and in Bangladesh দাদা means 'grandfather', not 'brother'.",
+  "lessons": [
+    {
+      "title": "Introducing your family",
+      "tip": { "title": "'My', 'your' and 'mother's'", "grammar": 0, "body": "- Possessive pronouns: **আমার** my · **তোমার** your · **আপনার** your (polite) · **ওর** his/her · **ওনার** his/her (polite) · **আমাদের** our.\n- Nouns add **-র** after a vowel, **-এর** after a consonant: বাবা**র** নাম, ভাই**য়ের** নাম, মা → মা**য়ের**.\n- 'I have' = 'of me … is there': আমার এক ভাই **আছে**.", "pattern": "আমার + বাবার + নাম …  ·  আমার + … + আছে" },
+      "new": ["পরিবার", "মা", "বাবা", "ভাই", "বোন", "এ আমার মা।", "আমার এক ভাই আর দুই বোন আছে।", "আপনার পরিবারে কে কে আছেন?"],
+      "sentences": [
+        { "native": "এ আমার মা, আর এ আমার বাবা।", "roman": "e amar ma, ar e amar baba.", "en": "This is my mother, and this is my father.", "focus": "আমার", "wrong": ["আমি|ami", "আমরা|amra"] },
+        { "native": "আমার মায়ের নাম রিনা।", "roman": "amar mayer nam rina.", "en": "My mother's name is Rina.", "focus": "মায়ের", "wrong": ["মা|ma", "মাকে|make"] },
+        { "native": "আপনার বাবার নাম কী?", "roman": "apnar babar nam ki?", "en": "What's your father's name?", "focus": "বাবার", "wrong": ["বাবা|baba", "বাবাকে|babake"] },
+        { "native": "ওর ভাইয়ের নাম রাফি।", "roman": "or bhaiyer nam raphi.", "en": "His/her brother's name is Rafi.", "focus": "ভাইয়ের", "wrong": ["ভাই|bhai", "ভাইকে|bhaike"] },
+        { "native": "আমার এক ভাই আছে।", "roman": "amar æk bhai achhe.", "en": "I have one brother.", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "আপনার কি বোন আছে?", "roman": "apnar ki bon achhe?", "en": "Do you have a sister?", "focus": "আপনার", "wrong": ["আপনি|apni", "আপনাকে|apnake"] },
+        { "native": "আমার বোন ঢাকায় থাকে।", "roman": "amar bon ḍhakay thake.", "en": "My sister lives in Dhaka." },
+        { "native": "আমার পরিবার কলকাতায় থাকে।", "roman": "amar poribar kolkatay thake.", "en": "My family lives in Kolkata." },
+        { "native": "আমার পরিবারে মা, বাবা আর এক বোন আছে।", "roman": "amar poribare ma, baba ar æk bon achhe.", "en": "In my family there's my mum, my dad and a sister.", "focus": "পরিবারে", "wrong": ["পরিবার|poribar", "পরিবারের|poribarer"] }
+      ]
+    },
+    {
+      "title": "Married, with children",
+      "tip": { "title": "Plurals: -রা and -দের", "grammar": 1, "body": "- People take **-রা** for 'the …s': ছেলে**রা**, মেয়ে**রা**, বাচ্চা**রা**.\n- 'Of the …s' is **-দের**: মেয়ে**দের** নাম 'the girls' names'.\n- After a number or অনেক there is **no** plural ending: দুই মেয়ে 'two daughters', not দুই মেয়েরা.", "pattern": "মেয়ে → মেয়েরা · মেয়েদের  ·  দুই মেয়ে" },
+      "new": ["ছেলে", "মেয়ে", "বাচ্চা", "স্বামী", "স্ত্রী", "বিবাহিত", "আপনি কি বিবাহিত?", "আমার বিয়ে হয়নি।", "আপনার ছেলেমেয়ে কজন?"],
+      "sentences": [
+        { "native": "আমার দুই মেয়ে আর এক ছেলে আছে।", "roman": "amar dui meye ar æk chhele achhe.", "en": "I have two daughters and a son.", "focus": "মেয়ে", "wrong": ["মেয়েরা|meyera", "মেয়েদের|meyeder"] },
+        { "native": "আমার ছেলেরা ঢাকায় থাকে।", "roman": "amar chhelera ḍhakay thake.", "en": "My sons live in Dhaka.", "focus": "ছেলেরা", "wrong": ["ছেলেদের|chheleder", "ছেলের|chheler"] },
+        { "native": "আপনার মেয়েদের নাম কী?", "roman": "apnar meyeder nam ki?", "en": "What are your daughters' names?", "focus": "মেয়েদের", "wrong": ["মেয়েরা|meyera", "মেয়েগুলো|meyegulo"] },
+        { "native": "বাচ্চারা কোথায়?", "roman": "bachchara kothay?", "en": "Where are the kids?", "focus": "বাচ্চারা", "wrong": ["বাচ্চাদের|bachchader", "বাচ্চার|bachchar"] },
+        { "native": "মেয়েরা ইংরেজি বোঝে।", "roman": "meyera iṅreji bojhe.", "en": "The girls understand English.", "focus": "মেয়েরা", "wrong": ["মেয়েদের|meyeder", "মেয়ের|meyer"] },
+        { "native": "ওনার বাচ্চারা খুব ভালো।", "roman": "onar bachchara khub bhalo.", "en": "His/her children are lovely.", "focus": "বাচ্চারা", "wrong": ["বাচ্চাদের|bachchader", "বাচ্চার|bachchar"] },
+        { "native": "উনি কি বিবাহিত?", "roman": "uni ki bibahito?", "en": "Is he/she married?" },
+        { "native": "হ্যাঁ, ওনার স্বামী ডাক্তার।", "roman": "hæṃ, onar shami ḍaktar.", "en": "Yes, her husband is a doctor.", "focus": "ওনার", "wrong": ["উনি|uni", "ওরা|ora"] },
+        { "native": "না, ওর বিয়ে হয়নি।", "roman": "na, or biye hoyni.", "en": "No, he/she isn't married.", "focus": "ওর", "wrong": ["ও|o", "ওরা|ora"] },
+        { "native": "আমার বিয়ে হয়নি, কোনো বাচ্চা নেই।", "roman": "amar biye hoyni, kono bachcha nei.", "en": "I'm not married, no kids." },
+        { "native": "আপনার স্ত্রী কি বাঙালি?", "roman": "apnar stri ki baṅali?", "en": "Is your wife Bengali?" }
+      ]
+    },
+    {
+      "title": "Brothers, sisters and grandparents",
+      "tip": { "title": "Kolkata words and Dhaka words", "body": "- Elder brother: **দাদা** (West Bengal) · ভাই / ভাইয়া (Bangladesh). In Bangladesh দাদা means **grandfather**!\n- Elder sister: **দিদি** (WB) · **আপু** / আপা (BD).\n- Grandparents: **দাদু**, **ঠাকুমা** (WB) · **নানা**, **নানি** (BD, mother's side).\n- Elders get the respectful verb: দাদু কেমন **আছেন**?" },
+      "new": ["দাদা", "দিদি", "আপু", "দাদু", "ঠাকুমা", "নানা", "নানি"],
+      "sentences": [
+        { "native": "দাদা, তুমি কেমন আছো?", "roman": "dada, tumi kæmon achho?", "en": "How are you, big brother?" },
+        { "native": "আপু, তুমি কোথায়?", "roman": "apu, tumi kothay?", "en": "Where are you, sis?" },
+        { "native": "আমার দিদি কলকাতায় থাকে।", "roman": "amar didi kolkatay thake.", "en": "My elder sister lives in Kolkata." },
+        { "native": "আমার দাদু আর ঠাকুমা কলকাতায় থাকেন।", "roman": "amar dadu ar ṭhakuma kolkatay thaken.", "en": "My grandpa and grandma live in Kolkata.", "focus": "থাকেন", "wrong": ["থাকে|thake", "থাকি|thaki"] },
+        { "native": "আমার নানা আর নানি ঢাকায় থাকেন।", "roman": "amar nana ar nani ḍhakay thaken.", "en": "My grandparents (mother’s side) live in Dhaka.", "focus": "থাকেন", "wrong": ["থাকে|thake", "থাকো|thako"] },
+        { "native": "নানি, আপনি কেমন আছেন?", "roman": "nani, apni kæmon achhen?", "en": "Grandma, how are you?", "focus": "আছেন", "wrong": ["আছো|achho", "আছে|achhe"] },
+        { "native": "আপুর নাম কী?", "roman": "apur nam ki?", "en": "What's your sister's name?", "focus": "আপুর", "wrong": ["আপু|apu", "আপুকে|apuke"] },
+        { "native": "ঠাকুমা বাংলা বলেন, ইংরেজি বোঝেন না।", "roman": "ṭhakuma baṅla bôlen, iṅreji bojhen na.", "en": "Grandma speaks Bengali; she doesn't understand English.", "focus": "বোঝেন", "wrong": ["বোঝে|bojhe", "বুঝি|bujhi"] },
+        { "native": "দিদি, আপনার নাম কী?", "roman": "didi, apnar nam ki?", "en": "What's your name, didi?" }
+      ]
+    },
+    {
+      "title": "Uncles, aunts and relatives",
+      "tip": { "title": "Whose is it? -র / -এর", "grammar": 0, "body": "- Bengali kinship words are built from possessives: মামা = মা**য়ের** ভাই 'mother's brother', পিসি = বাবা**র** বোন.\n- The owner comes first and takes **-র / -এর**, the thing owned follows: খালা**র** বাড়ি 'aunt's house'.\n- আমাদের 'our' is the plural of আমার." },
+      "new": ["মামা", "মাসি", "খালা", "কাকা", "চাচা", "পিসি", "ফুফু", "আত্মীয়"],
+      "sentences": [
+        { "native": "মামা মানে মায়ের ভাই।", "roman": "mama mane mayer bhai.", "en": "'Mama' means mother's brother.", "focus": "মায়ের", "wrong": ["মা|ma", "মাকে|make"] },
+        { "native": "চাচা মানে বাবার ভাই।", "roman": "chacha mane babar bhai.", "en": "'Chacha' means father's brother.", "focus": "বাবার", "wrong": ["বাবা|baba", "বাবাকে|babake"] },
+        { "native": "খালা মানে মায়ের বোন।", "roman": "khala mane mayer bon.", "en": "'Khala' means mother's sister.", "focus": "মায়ের", "wrong": ["মা|ma", "মাকে|make"] },
+        { "native": "পিসি মানে বাবার বোন।", "roman": "pishi mane babar bon.", "en": "'Pishi' means father's sister.", "focus": "বাবার", "wrong": ["বাবা|baba", "বাবাকে|babake"] },
+        { "native": "আমার মাসির বাড়ি কলকাতায়।", "roman": "amar mashir baṛi kolkatay.", "en": "My aunt's house is in Kolkata.", "focus": "মাসির", "wrong": ["মাসি|mashi", "মাসিকে|mashike"] },
+        { "native": "ফুফুর দুই মেয়ে আছে।", "roman": "phuphur dui meye achhe.", "en": "My aunt has two daughters.", "focus": "ফুফুর", "wrong": ["ফুফু|phuphu", "ফুফুকে|phuphuke"] },
+        { "native": "খালার বাড়ি কোথায়?", "roman": "khalar baṛi kothay?", "en": "Where is your aunt's house?", "focus": "খালার", "wrong": ["খালা|khala", "খালাকে|khalake"] },
+        { "native": "উনি কি আপনার আত্মীয়?", "roman": "uni ki apnar attio?", "en": "Is he/she a relative of yours?", "focus": "আপনার", "wrong": ["আপনি|apni", "আপনাকে|apnake"] },
+        { "native": "আমাদের অনেক আত্মীয় ঢাকায় থাকেন।", "roman": "amader ônek attio ḍhakay thaken.", "en": "Lots of our relatives live in Dhaka.", "focus": "আমাদের", "wrong": ["আমরা|amra", "আমি|ami"] },
+        { "native": "কাকা, আপনি কেমন আছেন?", "roman": "kaka, apni kæmon achhen?", "en": "How are you, uncle?" }
+      ]
+    },
+    {
+      "title": "Friends and other people",
+      "tip": { "title": "Have and don't have", "grammar": 1, "body": "- Having uses **আছে** for everyone: আমার / তোমার / ওনার … **আছে**.\n- Not having is **নেই**: আমার কোনো বোন **নেই** 'I don't have a sister'.\n- Plural of people: বন্ধু**রা**, 'of friends' বন্ধু**দের**; for a group of things or people pointed at, **-গুলো**: লোক**গুলো** 'those people'." },
+      "new": ["বন্ধু", "মানুষ", "লোক", "ভদ্রমহিলা", "ও আমার সবচেয়ে ভালো বন্ধু।", "আপনার কি ভাইবোন আছে?", "আমার কোনো ভাইবোন নেই।", "বাড়ির সবাই কেমন আছে?"],
+      "sentences": [
+        { "native": "তোমার বন্ধুরা কোথায় থাকে?", "roman": "tomar bondhura kothay thake?", "en": "Where do your friends live?", "focus": "বন্ধুরা", "wrong": ["বন্ধুদের|bondhuder", "বন্ধুর|bondhur"] },
+        { "native": "তোমার বন্ধুদের নাম কী?", "roman": "tomar bondhuder nam ki?", "en": "What are your friends' names?", "focus": "বন্ধুদের", "wrong": ["বন্ধুরা|bondhura", "বন্ধু|bondhu"] },
+        { "native": "এই লোকগুলো কারা?", "roman": "ei lokgulo kara?", "en": "Who are these people?", "focus": "লোকগুলো", "wrong": ["লোকের|loker", "লোকদের|lokder"] },
+        { "native": "আমার কোনো বোন নেই।", "roman": "amar kono bon nei.", "en": "I don't have a sister.", "focus": "নেই", "wrong": ["না|na", "আছে|achhe"] },
+        { "native": "তোমার কি ভাইবোন আছে?", "roman": "tomar ki bhaibon achhe?", "en": "Do you have any brothers or sisters?", "focus": "আছে", "wrong": ["আছি|achhi", "আছো|achho"] },
+        { "native": "এখানে অনেক লোক থাকে।", "roman": "ekhane ônek lok thake.", "en": "Lots of people live here.", "focus": "লোক", "wrong": ["লোকেরা|lokera", "লোকদের|lokder"] },
+        { "native": "বাড়ির সবাই ভালো আছে।", "roman": "baṛir shôbai bhalo achhe.", "en": "Everyone at home is fine." },
+        { "native": "উনি খুব ভালো মানুষ।", "roman": "uni khub bhalo manush.", "en": "He/she is a really good person." },
+        { "native": "ভদ্রমহিলা আমার মাসি।", "roman": "bhôdromohila amar mashi.", "en": "The lady is my aunt." },
+        { "native": "ও আমার খুব ভালো বন্ধু।", "roman": "o amar khub bhalo bondhu.", "en": "He/she is a really good friend of mine." }
+      ]
+    }
+  ]
 }

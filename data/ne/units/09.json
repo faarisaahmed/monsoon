@@ -91,5 +91,90 @@
       { "speaker": "Doctor", "native": "चाँडै निको हुनुहोस्!", "roman": "chāṃḍai niko hunuhos!", "en": "Get well soon!" }
     ]
   },
-  "culture": "In the mountains, altitude sickness is called **लेक लाग्नु** *lek lāgnu* 'the high hills strike you' — guides will tell you बिस्तारै, बिस्तारै 'slowly, slowly' and to drink lots of water and garlic soup. Many medicines can be bought over the counter at an **औषधि पसल**, and the pharmacist often acts as a first doctor. Alongside modern medicine, many Nepalis also use Ayurveda, home remedies (hot water, turmeric, ginger) and, in villages, traditional healers (**धामी-झाँक्री**)."
+  "culture": "In the mountains, altitude sickness is called **लेक लाग्नु** *lek lāgnu* 'the high hills strike you' — guides will tell you बिस्तारै, बिस्तारै 'slowly, slowly' and to drink lots of water and garlic soup. Many medicines can be bought over the counter at an **औषधि पसल**, and the pharmacist often acts as a first doctor. Alongside modern medicine, many Nepalis also use Ayurveda, home remedies (hot water, turmeric, ginger) and, in villages, traditional healers (**धामी-झाँक्री**).",
+  "lessons": [
+    {
+      "title": "Where does it hurt?",
+      "tip": { "title": "'My head hurts'", "body": "- The body part is the subject: **मेरो** टाउको **दुख्यो** 'my head hurt' = I have a headache.\n- दुख्छ / दुख्यो agree with the body part, so they stay the same even with तपाईं: तपाईंको टाउको **दुख्छ**? (not दुख्नुहुन्छ).\n- 'I'm not well' = **मलाई सन्चो छैन**.", "pattern": "मेरो + body part + दुख्यो / दुख्छ", "grammar": 0 },
+      "new": ["टाउको", "आँखा", "कान", "नाक", "मुख", "दाँत", "घाँटी", "दुख्नु", "मेरो टाउको दुख्यो।", "कहाँ दुख्छ?"],
+      "sentences": [
+        { "native": "मेरो दाँत दुख्यो।", "roman": "mero dāṃt dukhyo.", "en": "I've got toothache.", "focus": "दुख्यो", "wrong": ["दुख्छु|dukhchhu", "लाग्यो|lāgyo"] },
+        { "native": "मेरो घाँटी दुख्छ।", "roman": "mero ghāṃṭi dukhchha.", "en": "My throat hurts.", "focus": "मेरो", "wrong": ["म|ma", "मैले|maile"] },
+        { "native": "तिम्रो आँखा दुख्छ?", "roman": "timro āṃkhā dukhchha?", "en": "Do your eyes hurt?", "focus": "दुख्छ", "wrong": ["दुख्छौ|dukhchhau", "दुख्छु|dukhchhu"] },
+        { "native": "उसको कान दुखिरहेको छ।", "roman": "usko kān dukhiraheko chha.", "en": "His ear is hurting.", "focus": "उसको", "wrong": ["ऊ|u", "उसलाई|uslāi"] },
+        { "native": "तपाईंको टाउको दुख्छ?", "roman": "tapāiṃko ṭāuko dukhchha?", "en": "Do you have a headache?", "focus": "दुख्छ", "wrong": ["दुख्नुहुन्छ|dukhnuhunchha", "दुख्छु|dukhchhu"] },
+        { "native": "मेरो टाउको अलि दुख्छ।", "roman": "mero ṭāuko ali dukhchha.", "en": "My head hurts a bit.", "focus": "दुख्छ", "wrong": ["दुख्छु|dukhchhu", "दुख्नुहुन्छ|dukhnuhunchha"] },
+        { "native": "दाँत धेरै दुख्यो, डाक्टर साब।", "roman": "dāṃt dherai dukhyo, ḍākṭar sāb.", "en": "My tooth really hurts, doctor.", "focus": "दुख्यो", "wrong": ["दुख्छु|dukhchhu", "लाग्यो|lāgyo"] },
+        { "native": "बच्चाको नाक रातो छ।", "roman": "bachchāko nāk rāto chha.", "en": "The child's nose is red." },
+        { "native": "मुख खोल्नुहोस्।", "roman": "mukh kholnuhos.", "en": "Open your mouth, please." },
+        { "native": "आँखामा केही छ।", "roman": "āṃkhāmā kehi chha.", "en": "There's something in my eye." }
+      ]
+    },
+    {
+      "title": "Arms, legs and back",
+      "tip": { "title": "Arm, leg, and 'what happened?'", "body": "- **हात** is the whole arm and hand, **खुट्टा** the whole leg and foot.\n- 'Is hurting right now': मेरो खुट्टा **दुखिरहेको छ**.\n- Ask about a body part with **-मा**: खुट्टा**मा** के भयो? 'What happened to your leg?'", "pattern": "body part + दुख्छ / दुखिरहेको छ" },
+      "new": ["शरीर", "हात", "खुट्टा", "पेट", "ढाड", "छाती", "कपाल", "मुटु", "मेरो पेट दुखिरहेको छ।"],
+      "sentences": [
+        { "native": "मेरो ढाड दुख्छ।", "roman": "mero ḍhāḍ dukhchha.", "en": "My back hurts.", "focus": "दुख्छ", "wrong": ["दुख्छु|dukhchhu", "दुख्नु|dukhnu"] },
+        { "native": "मेरो हात दुख्यो।", "roman": "mero hāt dukhyo.", "en": "My arm hurts.", "focus": "दुख्यो", "wrong": ["दुख्छु|dukhchhu", "दुख्नु|dukhnu"] },
+        { "native": "खुट्टा दुखिरहेको छ।", "roman": "khuṭṭā dukhiraheko chha.", "en": "My leg is hurting.", "focus": "दुखिरहेको", "wrong": ["दुख्छु|dukhchhu", "दुख्नु|dukhnu"] },
+        { "native": "छाती दुख्छ?", "roman": "chhāti dukhchha?", "en": "Does your chest hurt?", "focus": "दुख्छ", "wrong": ["दुख्नुहुन्छ|dukhnuhunchha", "दुख्छु|dukhchhu"] },
+        { "native": "बच्चाको पेट दुख्छ।", "roman": "bachchāko peṭ dukhchha.", "en": "The child has a tummy ache.", "focus": "दुख्छ", "wrong": ["दुख्छु|dukhchhu", "दुख्नु|dukhnu"] },
+        { "native": "मेरो शरीर दुख्छ।", "roman": "mero sarir dukhchha.", "en": "My body aches.", "focus": "दुख्छ", "wrong": ["दुख्छु|dukhchhu", "दुख्नु|dukhnu"] },
+        { "native": "खुट्टामा के भयो?", "roman": "khuṭṭāmā ke bhayo?", "en": "What happened to your leg?", "focus": "खुट्टामा", "wrong": ["खुट्टा|khuṭṭā", "खुट्टाको|khuṭṭāko"] },
+        { "native": "मेरो मुटु ठीक छ?", "roman": "mero muṭu ṭhik chha?", "en": "Is my heart OK?" },
+        { "native": "तिम्रो कपाल धेरै लामो छ।", "roman": "timro kapāl dherai lāmo chha.", "en": "Your hair is really long." }
+      ]
+    },
+    {
+      "title": "Fever, cold and cough",
+      "tip": { "title": "Illness 'comes' or 'strikes'", "body": "- Illnesses happen *to* you, with **मलाई**: मलाई ज्वरो **आयो** 'a fever came to me'.\n- Most others **लाग्यो** 'struck': रुघा, खोकी, पखाला, वाकवाकी लाग्यो.\n- **म बिरामी छु** 'I'm ill'. Asking: तपाईंलाई **के भयो?** 'What's wrong?'", "pattern": "मलाई + ज्वरो + आयो  ·  मलाई + रुघा + लाग्यो" },
+      "new": ["बिरामी", "ज्वरो", "रुघा", "खोकी", "लाग्नु", "पखाला", "वाकवाकी", "तपाईंलाई के भयो?", "मलाई सन्चो छैन।", "मलाई ज्वरो आयो।"],
+      "sentences": [
+        { "native": "मलाई रुघा लाग्यो।", "roman": "malāi rughā lāgyo.", "en": "I've caught a cold.", "focus": "लाग्यो", "wrong": ["आयो|āyo", "दुख्यो|dukhyo"] },
+        { "native": "बच्चालाई ज्वरो आयो।", "roman": "bachchālāi jwaro āyo.", "en": "The child has a fever.", "focus": "आयो", "wrong": ["दुख्यो|dukhyo", "दुख्छ|dukhchha"] },
+        { "native": "मलाई खोकी लागेको छ।", "roman": "malāi khoki lāgeko chha.", "en": "I've got a cough.", "focus": "लागेको", "wrong": ["दुखेको|dukheko", "दुख्छ|dukhchha"] },
+        { "native": "भाइलाई पखाला लाग्यो।", "roman": "bhāilāi pakhālā lāgyo.", "en": "My brother has diarrhoea.", "focus": "भाइलाई", "wrong": ["भाइ|bhāi", "भाइको|bhāiko"] },
+        { "native": "मलाई अलि वाकवाकी लाग्छ।", "roman": "malāi ali bākbāki lāgchha.", "en": "I feel a bit sick.", "focus": "मलाई", "wrong": ["म|ma", "मेरो|mero"] },
+        { "native": "दिदीलाई सन्चो छैन।", "roman": "didilāi sancho chhaina.", "en": "Didi isn't feeling well.", "focus": "दिदीलाई", "wrong": ["दिदी|didi", "दिदीको|didiko"] },
+        { "native": "तिमीलाई के भयो?", "roman": "timilāi ke bhayo?", "en": "What's wrong? (to a friend)", "focus": "तिमीलाई", "wrong": ["तिमी|timi", "तिम्रो|timro"] },
+        { "native": "उहाँ बिरामी हुनुहुन्छ।", "roman": "uhāṃ birāmi hunuhunchha.", "en": "He's ill." },
+        { "native": "म बिरामी छु।", "roman": "ma birāmi chhu.", "en": "I'm ill." },
+        { "native": "ज्वरो छ?", "roman": "jwaro chha?", "en": "Do you have a fever?" }
+      ]
+    },
+    {
+      "title": "At the doctor's",
+      "tip": { "title": "Should and shouldn't", "body": "- **-नुपर्छ** = 'must, need to, should': आराम गर्**नुपर्छ** 'you should rest'. The person takes **-ले** (तपाईंले) or **-लाई** (मलाई).\n- **-नुहुँदैन** = 'mustn't, shouldn't': पिरो खाना खा**नुहुँदैन**.\n- Softer: **-ए हुन्छ** 'you could': आराम गरे हुन्छ.", "pattern": "verb + नुपर्छ  ·  verb + नुहुँदैन", "grammar": 1 },
+      "new": ["डाक्टर", "अस्पताल", "औषधि", "आराम", "जाँच", "तपाईंले आराम गर्नुपर्छ।", "मलाई डाक्टरकहाँ लैजानुहोस्।", "यो औषधि दिनको तीन पटक खानुहोस्।"],
+      "sentences": [
+        { "native": "तपाईंले औषधि खानुपर्छ।", "roman": "tapāiṃle ausadhi khānuparchha.", "en": "You need to take medicine.", "focus": "खानुपर्छ", "wrong": ["खानुहुँदैन|khānuhuṃdaina", "खान्छ|khānchha"] },
+        { "native": "तिमीले आराम गर्नुपर्छ।", "roman": "timile ārām garnuparchha.", "en": "You should rest. (to a friend)", "focus": "गर्नुपर्छ", "wrong": ["गर्नुहुँदैन|garnuhuṃdaina", "गर्छ|garchha"] },
+        { "native": "मलाई अस्पताल जानुपर्छ।", "roman": "malāi aspatāl jānuparchha.", "en": "I have to go to the hospital.", "focus": "जानुपर्छ", "wrong": ["जानुहुँदैन|jānuhuṃdaina", "जान्छ|jānchha"] },
+        { "native": "पिरो खाना खानुहुँदैन।", "roman": "piro khānā khānuhuṃdaina.", "en": "You shouldn't eat spicy food.", "focus": "खानुहुँदैन", "wrong": ["खानुपर्छ|khānuparchha", "खान्छ|khānchha"] },
+        { "native": "जाँच गर्नुपर्छ।", "roman": "jāṃch garnuparchha.", "en": "You need a check-up.", "focus": "गर्नुपर्छ", "wrong": ["गर्नुहुँदैन|garnuhuṃdaina", "गर्छ|garchha"] },
+        { "native": "डाक्टर साब, मैले अस्पताल जानुपर्छ?", "roman": "ḍākṭar sāb, maile aspatāl jānuparchha?", "en": "Doctor, do I need to go to hospital?", "focus": "जानुपर्छ", "wrong": ["जानुहुँदैन|jānuhuṃdaina", "जान्छु|jānchhu"] },
+        { "native": "आज बाहिर जानुहुँदैन।", "roman": "āja bāhira jānuhuṃdaina.", "en": "You shouldn't go out today.", "focus": "जानुहुँदैन", "wrong": ["जानुपर्छ|jānuparchha", "जान्छ|jānchha"] },
+        { "native": "दुई दिन आराम गरे हुन्छ।", "roman": "dui din ārām gare hunchha.", "en": "You could rest for two days." },
+        { "native": "यो औषधि बेलुका खानुहोस्।", "roman": "yo ausadhi belukā khānuhos.", "en": "Take this medicine in the evening." },
+        { "native": "डाक्टर कति बजे आउनुहुन्छ?", "roman": "ḍākṭar kati baje āunuhunchha?", "en": "What time does the doctor come?" },
+        { "native": "भाइलाई अस्पताल लैजानुहोस्।", "roman": "bhāilāi aspatāl laijānuhos.", "en": "Please take my brother to the hospital." }
+      ]
+    },
+    {
+      "title": "Pharmacy and getting better",
+      "new": ["चोट", "निको", "नजिकै औषधि पसल छ?", "मलाई पेनिसिलिनको एलर्जी छ।", "चाँडै निको होस्!"],
+      "sentences": [
+        { "native": "यहाँ नजिकै अस्पताल छ?", "roman": "yahāṃ najikai aspatāl chha?", "en": "Is there a hospital nearby?" },
+        { "native": "औषधि पसल कति बजेसम्म खुल्छ?", "roman": "ausadhi pasal kati bajesamma khulchha?", "en": "Until what time is the pharmacy open?" },
+        { "native": "मलाई अण्डाको एलर्जी छ।", "roman": "malāi anḍāko elarji chha.", "en": "I'm allergic to eggs." },
+        { "native": "मलाई एलर्जी छैन।", "roman": "malāi elarji chhaina.", "en": "I don't have any allergies." },
+        { "native": "मलाई चोट लाग्यो।", "roman": "malāi choṭ lāgyo.", "en": "I've hurt myself." },
+        { "native": "हातमा चोट लाग्यो?", "roman": "hātmā choṭ lāgyo?", "en": "Did you hurt your hand?" },
+        { "native": "म अहिले निको भएँ।", "roman": "ma ahile niko bhaeṃ.", "en": "I'm better now." },
+        { "native": "ज्वरो निको भयो?", "roman": "jwaro niko bhayo?", "en": "Has your fever gone?" },
+        { "native": "भाइ, चाँडै निको होऊ!", "roman": "bhāi, chāṃḍai niko hou!", "en": "Get well soon, little brother!" }
+      ]
+    }
+  ]
 }

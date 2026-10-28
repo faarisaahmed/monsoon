@@ -25,13 +25,14 @@ Monsoon is a calm, thorough, open-source course for the major languages of South
 
 - **Script**: every vowel, vowel sign, consonant, special mark, common conjuncts and native digits. Each one comes with audio, IPA, a plain-English description of the sound, an example word, stroke hints and a handwriting pad that scores your attempt. Letter lessons introduce a few letters at a time: each is shown, tested straight away, tested again a few questions later and at the end, and missed ones come back within the lesson. Learned letters join the review deck. For Urdu, Pashto and Sindhi every joining letter shows its start, middle and end shapes, and lessons ask about them.
 - **Pronunciation**: 8–14 lessons on the sounds English speakers get wrong (retroflex vs dental, aspiration, nasal vowels, vowel length, Punjabi tones, Tamil ழ, Urdu q/x/ġ…), with minimal pairs, ear-training quizzes and speaking practice using your microphone.
-- **20 units** following the same path in every language, from greetings to telling stories. Each unit has about 25 words, about 10 phrases, grammar explanations with examples, a dialogue and cultural notes.
-- **Sentences & grammar**: every grammar point can be practised in full sentences (fill the gap with the right form, put the words in order, listen and build, translate). Each unit has a Sentences step between Grammar and Dialogue, the unit check includes sentences, and sentences join the review deck. A Grammar section gathers every point into a handbook grouped by topic (building sentences, nouns and pronouns, postpositions and cases, verbs and tenses, want/can/must, requests and conditions, everyday patterns), each with its own sentence practice.
+- **A guided course in two parts**, the same path in every language. *Part 1 · Foundations* (units 1–20) goes from greetings to real conversation; *Part 2 · Real life & fluency* (units 21–40) is about talking with friends, getting around town, errands, work, opinions, feelings, and sounding natural.
+- **Lessons built around sentences**: each unit is a row of short lessons, then its conversation and a check, and they open in order. A lesson starts with a quick tip on any new rule (with the full notes a tap away), introduces a few words and uses each one in a sentence straight away, then drills full sentences: fill the gap with the right form (with the forms learners really confuse as the wrong answers), build, listen and build, translate. Everything you learn joins the review deck.
+- **Notes**: each unit keeps its full grammar explanations, word and phrase lists and culture notes to look back on, and a grammar handbook gathers every rule by topic, each with its own sentence practice.
 - **Themes**: nine palettes (Monsoon auto/day/night, Jasmine, Lotus, Tea garden, Ink & paper, Indigo night, Diya), previewed and applied from the Themes page.
 - **Sharing**: a quiet "Share Monsoon" link in the footer and on the About page (the device share sheet, or copy the link). Nothing ever asks you to share.
-- **Practice**: mixed sessions, flashcards, listening, dictation, translation, typing in the native script (with an on-screen keyboard), grammar in sentences, speaking (speech recognition, or record and compare), letter lessons, reading real words without romanization, handwriting and numbers.
+- **Extra practice** (for review, alongside the course): mixed sessions, flashcards, listening, dictation, translation, typing in the native script (with an on-screen keyboard), grammar in sentences, speaking (speech recognition, or record and compare), letter lessons, reading real words without romanization, handwriting and numbers.
 - **Review**: spaced repetition (SM-2 style) across everything you've learned.
-- **Conversation**: role-play any of the 20 dialogues (you type or say your lines and compare with the original), or answer questions in your own words, with example answers from the course and a synced journal of what you wrote.
+- **Conversation**: role-play any of the dialogues (you type or say your lines and compare with the original), or answer questions in your own words, with example answers from the course and a synced journal of what you wrote.
 - **Reference**: numbers 0–100 plus lakh and crore, a searchable glossary and a reading room with all the dialogues.
 
 ## Design principles
@@ -90,7 +91,7 @@ node scripts/build.js           # regenerate data/languages.json and sw.js
 
 ## Content
 
-Course content lives in `data/<code>/course.json` and `data/<code>/units/01.json … 20.json`. The format is documented in [CONTENT_SCHEMA.md](CONTENT_SCHEMA.md). Corrections from native speakers are very welcome, so please open an issue or a pull request. The content was drafted with AI assistance and checked by schema validation, and a native-speaker review is the most valuable contribution you can make.
+Course content lives in `data/<code>/course.json` and `data/<code>/units/01.json … 40.json`; each unit's `lessons` define its path. The format is documented in [CONTENT_SCHEMA.md](CONTENT_SCHEMA.md). Corrections from native speakers are very welcome, so please open an issue or a pull request. The content was drafted with AI assistance and checked by schema validation, and a native-speaker review is the most valuable contribution you can make.
 
 ## License
 

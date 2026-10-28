@@ -97,5 +97,101 @@
       { "speaker": "Sam", "native": "આભાર! તમને મળીને આનંદ થયો.", "roman": "ābhār! tamne maḷīne ānand thayo.", "en": "Thanks! Nice to meet you." }
     ]
   },
-  "culture": "On meeting someone, Gujaratis quickly ask where you are from — and often which town or community your family comes from. Answering with a city (*Amdāvād*, *Surat*, *Rājkoṭ*) is perfectly fine. Gujarati speakers switch freely into English and Hindi words; don't be surprised if your Gujarati question gets a mixed answer."
+  "culture": "On meeting someone, Gujaratis quickly ask where you are from — and often which town or community your family comes from. Answering with a city (*Amdāvād*, *Surat*, *Rājkoṭ*) is perfectly fine. Gujarati speakers switch freely into English and Hindi words; don't be surprised if your Gujarati question gets a mixed answer.",
+  "lessons": [
+    {
+      "title": "Telling people your name",
+      "tip": { "title": "'To be': છું, છે, છો", "body": "- **હું … છું** I am · **તું / એ … છે** you (friend) are / he, she is · **તમે … છો** you are.\n- 'Not' is one word for everyone: **નથી** — હું ગુજરાતી **નથી**.\n- The verb comes last: મારું નામ પ્રિયા **છે**.", "pattern": "હું … છું  ·  તમે … છો  ·  … નથી", "grammar": 0 },
+      "new": ["હું", "હોવું", "નામ", "શું", "ગુજરાતી", "તમારું નામ શું છે?", "મારું નામ પ્રિયા છે.", "હું ભારતીય નથી."],
+      "sentences": [
+        { "native": "હું ગુજરાતી છું.", "roman": "huṃ gujarātī chhuṃ.", "en": "I'm Gujarati.", "focus": "છું", "wrong": ["છે|chhe", "છો|chho"] },
+        { "native": "તમે ગુજરાતી છો?", "roman": "tame gujarātī chho?", "en": "Are you Gujarati?", "focus": "છો", "wrong": ["છું|chhuṃ", "છે|chhe"] },
+        { "native": "ના, હું ગુજરાતી નથી.", "roman": "nā, huṃ gujarātī nathī.", "en": "No, I'm not Gujarati.", "focus": "નથી", "wrong": ["નહીં|nahīṃ", "છું|chhuṃ"] },
+        { "native": "નમસ્તે, મારું નામ નીરવ છે.", "roman": "namaste, māruṃ nām Nīrav chhe.", "en": "Hello, my name is Nirav.", "focus": "છે", "wrong": ["છું|chhuṃ", "છો|chho"] },
+        { "native": "આપનું નામ શું છે?", "roman": "āpnuṃ nām shuṃ chhe?", "en": "What is your name? (very respectful)", "focus": "છે", "wrong": ["છો|chho", "છું|chhuṃ"] },
+        { "native": "તમે ભારતીય છો?", "roman": "tame bhāratīya chho?", "en": "Are you Indian?", "focus": "છો", "wrong": ["છું|chhuṃ", "છે|chhe"] },
+        { "native": "હા, હું ભારતીય છું.", "roman": "hā, huṃ bhāratīya chhuṃ.", "en": "Yes, I'm Indian.", "focus": "છું", "wrong": ["છે|chhe", "છો|chho"] },
+        { "native": "પ્રિયા ગુજરાતી નથી.", "roman": "Priyā gujarātī nathī.", "en": "Priya isn't Gujarati.", "focus": "નથી", "wrong": ["નહીં|nahīṃ", "છો|chho"] },
+        { "native": "તું ગુજરાતી છે?", "roman": "tuṃ gujarātī chhe?", "en": "Are you Gujarati? (to a friend)", "focus": "છે", "wrong": ["છો|chho", "છું|chhuṃ"] }
+      ]
+    },
+    {
+      "title": "Saying where you're from",
+      "tip": { "title": "Question words stay put", "body": "- **શું** what, **કોણ** who, **ક્યાં** where, **ક્યાંથી** from where go where the answer goes — just before the verb.\n- તમે **ક્યાંથી** છો? → હું **લંડનથી** છું. (**-થી** = from)\n- Yes/no questions keep the normal order; just raise your voice: તમે ભારતથી છો?", "pattern": "તમે + ક્યાંથી + છો?", "grammar": 1 },
+      "new": ["ક્યાંથી", "ક્યાં", "કોણ", "આ", "દેશ", "ભારત", "ગામ", "તમે ક્યાંથી છો?", "હું લંડનથી છું.", "આ કોણ છે?"],
+      "sentences": [
+        { "native": "તું ક્યાંથી છે?", "roman": "tuṃ kyāṃthī chhe?", "en": "Where are you from? (to a friend)", "focus": "ક્યાંથી", "wrong": ["ક્યાં|kyāṃ", "કોણ|koṇ"] },
+        { "native": "હું ભારતથી છું.", "roman": "huṃ Bhāratthī chhuṃ.", "en": "I'm from India." },
+        { "native": "તમે કોણ છો?", "roman": "tame koṇ chho?", "en": "Who are you?", "focus": "કોણ", "wrong": ["શું|shuṃ", "ક્યાંથી|kyāṃthī"] },
+        { "native": "તમારું ગામ ક્યાં છે?", "roman": "tamāruṃ gām kyāṃ chhe?", "en": "Where is your home village?", "focus": "ક્યાં", "wrong": ["કોણ|koṇ", "ક્યાંથી|kyāṃthī"] },
+        { "native": "મારું ગામ ભારતમાં છે.", "roman": "māruṃ gām Bhāratmāṃ chhe.", "en": "My village is in India." },
+        { "native": "તમે ક્યાં છો?", "roman": "tame kyāṃ chho?", "en": "Where are you? (on the phone)", "focus": "ક્યાં", "wrong": ["કોણ|koṇ", "ક્યાંથી|kyāṃthī"] },
+        { "native": "આ શું છે?", "roman": "ā shuṃ chhe?", "en": "What is this?", "focus": "શું", "wrong": ["કોણ|koṇ", "ક્યાં|kyāṃ"] },
+        { "native": "તમે ક્યાંથી છો, ભારતથી?", "roman": "tame kyāṃthī chho, Bhāratthī?", "en": "Where are you from — India?", "focus": "ક્યાંથી", "wrong": ["ક્યાં|kyāṃ", "કોણ|koṇ"] },
+        { "native": "આ ગામ ક્યાં છે?", "roman": "ā gām kyāṃ chhe?", "en": "Where is this village?", "focus": "ક્યાં", "wrong": ["ક્યાંથી|kyāṃthī", "કોણ|koṇ"] },
+        { "native": "ભારત મારો દેશ છે.", "roman": "Bhārat māro desh chhe.", "en": "India is my country." }
+      ]
+    },
+    {
+      "title": "We, he, she and they",
+      "tip": { "title": "Two ways to say \"we\"", "body": "- **અમે** = we (not you); **આપણે** = we (you and I). Both take **છીએ**.\n- **એ** (spoken) / **તે** (written) = he, she, it → **છે**. **તેઓ** = they, or a respected he/she → **છે**.\n- **પણ** after a word means 'too': હું **પણ** 'me too'.", "pattern": "અમે / આપણે … છીએ  ·  એ / તેઓ … છે", "grammar": 0 },
+      "new": ["અમે", "આપણે", "તે", "એ", "તેઓ", "અને", "પણ"],
+      "sentences": [
+        { "native": "અમે લંડનથી છીએ.", "roman": "ame Landanthī chhīe.", "en": "We're from London.", "focus": "છીએ", "wrong": ["છે|chhe", "છો|chho"] },
+        { "native": "આપણે બધા મજામાં છીએ.", "roman": "āpaṇe badhā majāmāṃ chhīe.", "en": "We're all fine.", "focus": "છીએ", "wrong": ["છે|chhe", "છું|chhuṃ"] },
+        { "native": "એ ભારતથી છે.", "roman": "e Bhāratthī chhe.", "en": "She's from India.", "focus": "છે", "wrong": ["છો|chho", "છીએ|chhīe"] },
+        { "native": "તેઓ ગુજરાતી નથી.", "roman": "teo gujarātī nathī.", "en": "They aren't Gujarati.", "focus": "નથી", "wrong": ["નહીં|nahīṃ", "છીએ|chhīe"] },
+        { "native": "હું ગુજરાતી છું, અને એ પણ ગુજરાતી છે.", "roman": "huṃ gujarātī chhuṃ, ane e paṇ gujarātī chhe.", "en": "I'm Gujarati, and so is he.", "focus": "છે", "wrong": ["છું|chhuṃ", "છો|chho"] },
+        { "native": "અમે ભારતથી નથી, લંડનથી છીએ.", "roman": "ame Bhāratthī nathī, Landanthī chhīe.", "en": "We're not from India, we're from London.", "focus": "નથી", "wrong": ["નહીં|nahīṃ", "છે|chhe"] },
+        { "native": "તે પણ મજામાં છે.", "roman": "te paṇ majāmāṃ chhe.", "en": "He's fine too.", "focus": "પણ", "wrong": ["અને|ane", "નહીં|nahīṃ"] },
+        { "native": "આપણે ક્યાં છીએ?", "roman": "āpaṇe kyāṃ chhīe?", "en": "Where are we?", "focus": "છીએ", "wrong": ["છો|chho", "છે|chhe"] },
+        { "native": "તમે અને પ્રિયા ક્યાંથી છો?", "roman": "tame ane Priyā kyāṃthī chho?", "en": "Where are you and Priya from?", "focus": "છો", "wrong": ["છે|chhe", "છીએ|chhīe"] }
+      ]
+    },
+    {
+      "title": "Saying where you live",
+      "tip": { "title": "Living somewhere: રહું છું, રહો છો", "body": "- The verb takes an ending for each person, then છું / છે / છીએ / છો: હું **રહું** છું, તું / એ **રહે** છે, અમે **રહીએ** છીએ, તમે **રહો** છો.\n- **-માં** = 'in': અમદાવાદ**માં**, શહેર**માં**.\n- 'I don't live …' (man speaking): હું … **નથી રહેતો**.", "pattern": "હું + place-માં + રહું છું" },
+      "new": ["રહેવું", "શહેર", "તમે ક્યાં રહો છો?", "હું અમદાવાદમાં રહું છું.", "કેમ"],
+      "sentences": [
+        { "native": "તું ક્યાં રહે છે?", "roman": "tuṃ kyāṃ rahe chhe?", "en": "Where do you live? (to a friend)", "focus": "રહે", "wrong": ["રહો|raho", "રહું|rahuṃ"] },
+        { "native": "હું લંડનમાં રહું છું.", "roman": "huṃ Landanmāṃ rahuṃ chhuṃ.", "en": "I live in London.", "focus": "રહું", "wrong": ["રહે|rahe", "રહો|raho"] },
+        { "native": "અમે ગામમાં રહીએ છીએ.", "roman": "ame gāmmāṃ rahīe chhīe.", "en": "We live in a village.", "focus": "રહીએ", "wrong": ["રહે|rahe", "રહો|raho"] },
+        { "native": "એ ભારતમાં રહે છે.", "roman": "e Bhāratmāṃ rahe chhe.", "en": "He lives in India.", "focus": "રહે", "wrong": ["રહું|rahuṃ", "રહીએ|rahīe"] },
+        { "native": "તમે આ શહેરમાં રહો છો?", "roman": "tame ā shahermāṃ raho chho?", "en": "Do you live in this city?", "focus": "રહો", "wrong": ["રહે|rahe", "રહું|rahuṃ"] },
+        { "native": "ના, હું આ શહેરમાં નથી રહેતો.", "roman": "nā, huṃ ā shahermāṃ nathī raheto.", "en": "No, I don't live in this city. (man speaking)", "focus": "રહેતો", "wrong": ["રહેતી|rahetī", "રહું|rahuṃ"] },
+        { "native": "તેઓ ક્યાં રહે છે?", "roman": "teo kyāṃ rahe chhe?", "en": "Where do they live?", "focus": "રહે", "wrong": ["રહો|raho", "રહું|rahuṃ"] },
+        { "native": "એ કેમ લંડનમાં રહે છે?", "roman": "e kem Landanmāṃ rahe chhe?", "en": "Why does she live in London?", "focus": "કેમ", "wrong": ["ક્યાં|kyāṃ", "કોણ|koṇ"] }
+      ]
+    },
+    {
+      "title": "Which languages do you know?",
+      "tip": { "title": "'I know Gujarati': મને … આવડે છે", "body": "- To say you know a language or skill, the knower takes **-ને**: **મને** 'to me', **તને**, **તમને**, **એને**, **અમને**.\n- The language is the subject: મને ગુજરાતી **આવડે છે** — literally 'to me Gujarati comes'.\n- Negative: મને ગુજરાતી **નથી આવડતું**. Don't say *હું ગુજરાતી આવડે છે*.", "pattern": "મને + language + આવડે છે", "grammar": 2 },
+      "new": ["ભાષા", "અંગ્રેજી", "હિન્દી", "આવડવું", "થોડું", "તમને ગુજરાતી આવડે છે?", "મને થોડું થોડું ગુજરાતી આવડે છે."],
+      "sentences": [
+        { "native": "મને હિન્દી અને અંગ્રેજી આવડે છે.", "roman": "mane hindī ane aṅgrejī āvaḍe chhe.", "en": "I know Hindi and English.", "focus": "મને", "wrong": ["હું|huṃ", "મારું|māruṃ"] },
+        { "native": "તને ગુજરાતી આવડે છે?", "roman": "tane gujarātī āvaḍe chhe?", "en": "Do you know Gujarati? (to a friend)", "focus": "તને", "wrong": ["તું|tuṃ", "તમે|tame"] },
+        { "native": "એને અંગ્રેજી આવડે છે.", "roman": "ene aṅgrejī āvaḍe chhe.", "en": "She knows English.", "focus": "એને", "wrong": ["એ|e", "તે|te"] },
+        { "native": "મને ગુજરાતી નથી આવડતું.", "roman": "mane gujarātī nathī āvaḍtuṃ.", "en": "I don't know Gujarati.", "focus": "આવડતું", "wrong": ["આવડે|āvaḍe", "છે|chhe"] },
+        { "native": "આપને અંગ્રેજી આવડે છે?", "roman": "āpne aṅgrejī āvaḍe chhe?", "en": "Do you know English? (very respectful)", "focus": "આપને", "wrong": ["આપ|āp", "તમે|tame"] },
+        { "native": "હા, મને થોડું અંગ્રેજી આવડે છે.", "roman": "hā, mane thoḍuṃ aṅgrejī āvaḍe chhe.", "en": "Yes, I know a little English.", "focus": "મને", "wrong": ["હું|huṃ", "મારું|māruṃ"] },
+        { "native": "મારી ભાષા ગુજરાતી છે.", "roman": "mārī bhāṣā gujarātī chhe.", "en": "My language is Gujarati." },
+        { "native": "અમને ગુજરાતી નથી આવડતું, પણ હિન્દી આવડે છે.", "roman": "amne gujarātī nathī āvaḍtuṃ, paṇ hindī āvaḍe chhe.", "en": "We don't know Gujarati, but we know Hindi.", "focus": "અમને", "wrong": ["અમે|ame", "આપણે|āpaṇe"] }
+      ]
+    },
+    {
+      "title": "Speaking, understanding, learning",
+      "new": ["બોલવું", "સમજવું", "બહુ", "હું ગુજરાતી શીખું છું.", "તમને મળીને આનંદ થયો."],
+      "sentences": [
+        { "native": "તમે અંગ્રેજી બોલો છો?", "roman": "tame aṅgrejī bolo chho?", "en": "Do you speak English?" },
+        { "native": "હા, હું થોડું થોડું બોલું છું.", "roman": "hā, huṃ thoḍuṃ thoḍuṃ boluṃ chhuṃ.", "en": "Yes, I speak a little." },
+        { "native": "હું હિન્દી સમજું છું.", "roman": "huṃ hindī samajuṃ chhuṃ.", "en": "I understand Hindi." },
+        { "native": "તમે સમજો છો?", "roman": "tame samajo chho?", "en": "Do you understand?" },
+        { "native": "એ બહુ ધીમે બોલે છે.", "roman": "e bahu dhīme bole chhe.", "en": "He speaks very slowly." },
+        { "native": "તમે બહુ સરસ ગુજરાતી બોલો છો!", "roman": "tame bahu saras gujarātī bolo chho!", "en": "You speak Gujarati very well!" },
+        { "native": "અમે ગુજરાતી શીખીએ છીએ.", "roman": "ame gujarātī shīkhīe chhīe.", "en": "We're learning Gujarati." },
+        { "native": "તું શું શીખે છે?", "roman": "tuṃ shuṃ shīkhe chhe?", "en": "What are you learning? (to a friend)" },
+        { "native": "તમને મળીને બહુ આનંદ થયો.", "roman": "tamne maḷīne bahu ānand thayo.", "en": "Very nice to meet you." }
+      ]
+    }
+  ]
 }

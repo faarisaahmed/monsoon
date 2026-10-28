@@ -90,5 +90,88 @@
       { "speaker": "Daniel", "native": "ठीक है, मुझे घर पसंद है!", "roman": "ṭhīk hai, mujhe ghar pasand hai!", "en": "OK, I like the flat!" }
     ]
   },
-  "culture": "Shoes usually come off at the door of an Indian home, and often before entering the kitchen or a prayer area. Many homes have a small shrine (पूजा का कमरा or a corner shelf). In much of India the flat roof (छत) is living space — for drying clothes and chillies, flying kites on festivals, and sleeping on hot summer nights. Note that घर means both 'house' and 'home', and Indians say घर पर 'at home' or simply घर: मैं घर जा रहा हूँ 'I'm going home'."
+  "culture": "Shoes usually come off at the door of an Indian home, and often before entering the kitchen or a prayer area. Many homes have a small shrine (पूजा का कमरा or a corner shelf). In much of India the flat roof (छत) is living space — for drying clothes and chillies, flying kites on festivals, and sleeping on hot summer nights. Note that घर means both 'house' and 'home', and Indians say घर पर 'at home' or simply घर: मैं घर जा रहा हूँ 'I'm going home'.",
+  "lessons": [
+    {
+      "title": "Rooms of the house",
+      "tip": { "title": "'There is' = place first, then है", "body": "- No special word for 'there is': **रसोई में** फ़्रिज **है** — lit. 'in the kitchen a fridge is'.\n- **है** for one thing, **हैं** for several; 'there isn't': नहीं है.\n- **में** 'in' comes *after* the noun, and कमरा becomes **कमरे** में.", "pattern": "place + में + thing + है / हैं", "grammar": 1 },
+      "new": ["घर", "कमरा", "रसोई", "बाथरूम", "फ़्रिज", "में", "बाथरूम कहाँ है?", "घर में कितने कमरे हैं?"],
+      "sentences": [
+        { "native": "घर में दो बाथरूम हैं।", "roman": "ghar meṃ do bāthrūm haiṃ.", "en": "There are two bathrooms in the house.", "focus": "हैं", "wrong": ["है|hai"] },
+        { "native": "मेरे घर में तीन कमरे हैं।", "roman": "mere ghar meṃ tīn kamre haiṃ.", "en": "My house has three rooms.", "focus": "कमरे", "wrong": ["कमरा|kamrā"] },
+        { "native": "कमरे में कोई नहीं है।", "roman": "kamre meṃ koī nahīṃ hai.", "en": "There's nobody in the room.", "focus": "कमरे", "wrong": ["कमरा|kamrā"] },
+        { "native": "फ़्रिज में दूध है?", "roman": "frij meṃ dūdh hai?", "en": "Is there milk in the fridge?", "focus": "में", "wrong": ["पर|par"] },
+        { "native": "फ़्रिज में अंडे नहीं हैं।", "roman": "frij meṃ aṇḍe nahīṃ haiṃ.", "en": "There are no eggs in the fridge.", "focus": "हैं", "wrong": ["है|hai"] },
+        { "native": "रसोई में कौन है?", "roman": "rasoī meṃ kaun hai?", "en": "Who's in the kitchen?", "focus": "में", "wrong": ["से|se"] },
+        { "native": "माँ रसोई में हैं।", "roman": "māṃ rasoī meṃ haiṃ.", "en": "Mum's in the kitchen.", "focus": "में", "wrong": ["पर|par"] },
+        { "native": "क्या बाथरूम में पानी है?", "roman": "kyā bāthrūm meṃ pānī hai?", "en": "Is there water in the bathroom?", "focus": "है", "wrong": ["हैं|haiṃ"] },
+        { "native": "आपका घर कहाँ है?", "roman": "āpkā ghar kahāṃ hai?", "en": "Where's your house?" }
+      ]
+    },
+    {
+      "title": "Where are my keys?",
+      "tip": { "title": "on, under, above: पर, के नीचे, के ऊपर", "body": "- Short postpositions follow the noun: मेज़ **पर** 'on the table'.\n- Longer ones use **के**: मेज़ **के नीचे** 'under the table', अलमारी **के ऊपर** 'on top of the cupboard'.\n- Before any of them, m. nouns in -ā change to -e: कमरा → **कमरे** में. Alone, **ऊपर/नीचे** mean 'upstairs/downstairs'.", "pattern": "noun + के + नीचे / ऊपर", "grammar": 0 },
+      "new": ["पर", "चाबी", "मेज़", "कुर्सी", "नीचे", "ऊपर", "मेरी चाबी कहाँ है?", "मेज़ पर है।", "वह ऊपर है।"],
+      "sentences": [
+        { "native": "चाबी कुर्सी के नीचे है।", "roman": "chābī kursī ke nīche hai.", "en": "The key is under the chair.", "focus": "के", "wrong": ["का|kā"] },
+        { "native": "मेरी चाबी मेज़ पर नहीं है।", "roman": "merī chābī mez par nahīṃ hai.", "en": "My key isn't on the table.", "focus": "पर", "wrong": ["से|se"] },
+        { "native": "मेज़ के ऊपर क्या है?", "roman": "mez ke ūpar kyā hai?", "en": "What's on top of the table?", "focus": "के", "wrong": ["का|kā"] },
+        { "native": "मेज़ के नीचे कुछ है।", "roman": "mez ke nīche kuchh hai.", "en": "There's something under the table.", "focus": "के", "wrong": ["का|kā"] },
+        { "native": "माँ ऊपर कमरे में हैं।", "roman": "māṃ ūpar kamre meṃ haiṃ.", "en": "Mum's upstairs in her room.", "focus": "कमरे", "wrong": ["कमरा|kamrā"] },
+        { "native": "चाय मेज़ पर है।", "roman": "chāy mez par hai.", "en": "The tea's on the table.", "focus": "पर", "wrong": ["से|se"] },
+        { "native": "मेरी चाबियाँ कहाँ हैं?", "roman": "merī chābiyāṃ kahāṃ haiṃ?", "en": "Where are my keys?", "focus": "हैं", "wrong": ["है|hai"] },
+        { "native": "बच्चे नीचे हैं।", "roman": "bachche nīche haiṃ.", "en": "The kids are downstairs." }
+      ]
+    },
+    {
+      "title": "Doors, windows and stairs",
+      "tip": { "title": "दरवाज़ा → दरवाज़े के पीछे", "body": "- Before के, में, पर: m. nouns in **-ā → -e** (दरवाज़ा → **दरवाज़े** के पीछे); all plurals take **-oṃ** (कमरों में).\n- Other nouns stay as they are: खिड़की के सामने, घर में.\n- Pronouns too: मैं → **मेरे** पीछे 'behind me'.\n- **के बगल में** 'next to', **के सामने** 'opposite'." },
+      "new": ["दरवाज़ा", "खिड़की", "दीवार", "छत", "सीढ़ी", "पीछे", "सामने", "बगल", "रसोई के बगल में बाथरूम है।"],
+      "sentences": [
+        { "native": "बाथरूम दरवाज़े के पीछे है।", "roman": "bāthrūm darvāze ke pīchhe hai.", "en": "The bathroom is behind the door.", "focus": "दरवाज़े", "wrong": ["दरवाज़ा|darvāzā"] },
+        { "native": "मेज़ खिड़की के सामने है।", "roman": "mez khiṛkī ke sāmne hai.", "en": "The table is opposite the window.", "focus": "के", "wrong": ["का|kā"] },
+        { "native": "रसोई कमरे के बगल में है।", "roman": "rasoī kamre ke bagal meṃ hai.", "en": "The kitchen is next to the room.", "focus": "कमरे", "wrong": ["कमरा|kamrā"] },
+        { "native": "सीढ़ियाँ रसोई के पीछे हैं।", "roman": "sīṛhiyāṃ rasoī ke pīchhe haiṃ.", "en": "The stairs are behind the kitchen.", "focus": "सीढ़ियाँ", "wrong": ["सीढ़ी|sīṛhī"] },
+        { "native": "कमरे में दो खिड़कियाँ हैं।", "roman": "kamre meṃ do khiṛkiyāṃ haiṃ.", "en": "The room has two windows.", "focus": "खिड़कियाँ", "wrong": ["खिड़की|khiṛkī"] },
+        { "native": "उसका घर मेरे घर के सामने है।", "roman": "uskā ghar mere ghar ke sāmne hai.", "en": "Her house is opposite mine.", "focus": "मेरे", "wrong": ["मेरा|merā"] },
+        { "native": "मेरे पीछे कौन है?", "roman": "mere pīchhe kaun hai?", "en": "Who's behind me?", "focus": "मेरे", "wrong": ["मैं|maiṃ"] },
+        { "native": "बच्चे छत पर हैं।", "roman": "bachche chhat par haiṃ.", "en": "The kids are up on the roof.", "focus": "पर", "wrong": ["से|se"] },
+        { "native": "दीवार पर क्या है?", "roman": "dīvār par kyā hai?", "en": "What's on the wall?" }
+      ]
+    },
+    {
+      "title": "Come in, sit down",
+      "tip": { "title": "Welcoming a guest", "body": "- **अंदर आइए, बैठिए** 'come in, sit down' — the **-इए** ending is the polite request (to आप).\n- **अंदर** inside, **बाहर** outside; with a noun: घर **के अंदर**, घर **के बाहर**.\n- Plural nouns before a postposition end in **-oṃ**: किताबों के ऊपर." },
+      "new": ["पलंग", "बिस्तर", "अलमारी", "किताब", "चीज़", "अंदर", "बाहर", "किताबें अलमारी में हैं।", "अंदर आइए, बैठिए।"],
+      "sentences": [
+        { "native": "घर के अंदर आइए।", "roman": "ghar ke andar āiye.", "en": "Come inside, please.", "focus": "के", "wrong": ["का|kā"] },
+        { "native": "बाहर बैठिए।", "roman": "bāhar baiṭhiye.", "en": "Please sit outside.", "focus": "बैठिए", "wrong": ["बैठता|baiṭhtā"] },
+        { "native": "मेरी किताबें पलंग के नीचे हैं।", "roman": "merī kitābeṃ palaṅg ke nīche haiṃ.", "en": "My books are under the bed.", "focus": "किताबें", "wrong": ["किताब|kitāb"] },
+        { "native": "अलमारी में बहुत चीज़ें हैं।", "roman": "almārī meṃ bahut chīzeṃ haiṃ.", "en": "There are lots of things in the wardrobe.", "focus": "चीज़ें", "wrong": ["चीज़|chīz"] },
+        { "native": "किताबों के ऊपर चाबी है।", "roman": "kitāboṃ ke ūpar chābī hai.", "en": "The key is on top of the books.", "focus": "किताबों", "wrong": ["किताबें|kitābeṃ"] },
+        { "native": "अलमारी के अंदर क्या है?", "roman": "almārī ke andar kyā hai?", "en": "What's inside the cupboard?", "focus": "के", "wrong": ["का|kā"] },
+        { "native": "बिस्तर पर मेरी किताब है।", "roman": "bistar par merī kitāb hai.", "en": "My book is on the bed.", "focus": "पर", "wrong": ["से|se"] },
+        { "native": "यह किसकी किताब है?", "roman": "yah kiskī kitāb hai?", "en": "Whose book is this?", "focus": "किसकी", "wrong": ["किसका|kiskā"] },
+        { "native": "बच्चे बाहर हैं।", "roman": "bachche bāhar haiṃ.", "en": "The kids are outside." },
+        { "native": "पलंग बहुत बड़ा है।", "roman": "palaṅg bahut baṛā hai.", "en": "The bed is very big." }
+      ]
+    },
+    {
+      "title": "Do you have…? Fan on, light off",
+      "tip": { "title": "मेरे पास … है — I have (a thing)", "body": "- For things you could hand over: **मेरे पास** चाबी है 'I have a key' (lit. 'near me').\n- **आपके / तुम्हारे / उसके / हमारे पास** — always the **-e** form before पास.\n- For relatives use मेरा/मेरी: मेरी एक बहन है.\n- Switching things: पंखा **चला दीजिए** 'turn on the fan', बत्ती **बंद कर दो** 'turn off the light'.", "pattern": "मेरे पास + thing + है" },
+      "new": ["पास", "पंखा", "बत्ती", "क्या आपके पास पेन है?", "मेरे पास गाड़ी नहीं है।", "पंखा चला दीजिए।", "बत्ती बंद कर दो।"],
+      "sentences": [
+        { "native": "मेरे पास चाबी नहीं है।", "roman": "mere pās chābī nahīṃ hai.", "en": "I don't have the key.", "focus": "मेरे", "wrong": ["मेरा|merā"] },
+        { "native": "क्या तुम्हारे पास किताब है?", "roman": "kyā tumhāre pās kitāb hai?", "en": "Have you got the book?", "focus": "तुम्हारे", "wrong": ["तुम्हारा|tumhārā"] },
+        { "native": "उसके पास गाड़ी है।", "roman": "uske pās gāṛī hai.", "en": "She has a car.", "focus": "उसके", "wrong": ["उसका|uskā"] },
+        { "native": "हमारे पास फ़्रिज नहीं है।", "roman": "hamāre pās frij nahīṃ hai.", "en": "We don't have a fridge.", "focus": "हमारे", "wrong": ["हमारा|hamārā"] },
+        { "native": "आपके पास कितनी किताबें हैं?", "roman": "āpke pās kitnī kitābeṃ haiṃ?", "en": "How many books do you have?", "focus": "आपके", "wrong": ["आपका|āpkā"] },
+        { "native": "दरवाज़े के पास बत्ती है।", "roman": "darvāze ke pās battī hai.", "en": "There's a light by the door.", "focus": "दरवाज़े", "wrong": ["दरवाज़ा|darvāzā"] },
+        { "native": "मेरा घर दिल्ली के पास है।", "roman": "merā ghar Dillī ke pās hai.", "en": "My home is near Delhi.", "focus": "के", "wrong": ["का|kā"] },
+        { "native": "कमरे में पंखा नहीं है।", "roman": "kamre meṃ paṅkhā nahīṃ hai.", "en": "There's no fan in the room." },
+        { "native": "बत्ती बंद कर दीजिए।", "roman": "battī band kar dījiye.", "en": "Please switch off the light." },
+        { "native": "भैया, पंखा चला दो।", "roman": "bhaiyā, paṅkhā chalā do.", "en": "Turn the fan on, bhaiya." }
+      ]
+    }
+  ]
 }

@@ -85,5 +85,100 @@
       { "speaker": "Seller", "native": "اور یہ ڈھائی سو واپس۔ شکریہ!", "roman": "aur ye ḍhā’ī sau vāpas. shukriya!", "en": "And 250 back. Thank you!" }
     ]
   },
-  "culture": "Large numbers in Pakistan and India are counted in **lakhs** (لاکھ, 100,000) and **crores** (کروڑ, 10 million), and written with commas accordingly: 1,00,000. Prices are in rupees (روپیہ, often pronounced 'rupe' in the plural); the paisa is now just a word for money in general (پیسے). Asking someone's age is not rude in Pakistan, and many conversations with new acquaintances include it early on."
+  "culture": "Large numbers in Pakistan and India are counted in **lakhs** (لاکھ, 100,000) and **crores** (کروڑ, 10 million), and written with commas accordingly: 1,00,000. Prices are in rupees (روپیہ, often pronounced 'rupe' in the plural); the paisa is now just a word for money in general (پیسے). Asking someone's age is not rude in Pakistan, and many conversations with new acquaintances include it early on.",
+  "lessons": [
+    {
+      "title": "How many?",
+      "tip": { "title": "کتنا, کتنی, کتنے — how many", "body": "- The number or کتنا goes **before** the noun, and the noun is plural: دو بھائی, تین لڑکیاں.\n- **کتنا** agrees like an adjective: **کتنی** with feminine words (کتنی بہنیں), **کتنے** with masculine plurals (کتنے لوگ).\n- **سب** = all, everyone: ہم سب = all of us.", "pattern": "کتنے + masc. plural · کتنی + feminine", "grammar": 0 },
+      "new": ["کتنا", "سب", "گننا", "کتنے لوگ ہیں؟"],
+      "sentences": [
+        { "native": "آپ کے کتنے بھائی ہیں؟", "roman": "āp ke kitne bhā’ī haiṃ?", "en": "How many brothers do you have?", "focus": "کتنے", "wrong": ["کتنا|kitnā", "کتنی|kitnī"] },
+        { "native": "آپ کی کتنی بہنیں ہیں؟", "roman": "āp kī kitnī bahneṃ haiṃ?", "en": "How many sisters do you have?", "focus": "کتنی", "wrong": ["کتنا|kitnā", "کتنے|kitne"] },
+        { "native": "کتنی عورتیں ہیں؟", "roman": "kitnī ʿaurateṃ haiṃ?", "en": "How many women are there?", "focus": "کتنی", "wrong": ["کتنا|kitnā", "کتنے|kitne"] },
+        { "native": "تمہارے کتنے دوست یہاں ہیں؟", "roman": "tumhāre kitne dost yahāṃ haiṃ?", "en": "How many of your friends are here?", "focus": "کتنے", "wrong": ["کتنا|kitnā", "کتنی|kitnī"] },
+        { "native": "وہاں کتنے بچے ہیں؟", "roman": "vahāṃ kitne bachche haiṃ?", "en": "How many children are there?", "focus": "کتنے", "wrong": ["کتنا|kitnā", "کتنی|kitnī"] },
+        { "native": "یہاں تین لڑکیاں اور دو لڑکے ہیں۔", "roman": "yahāṃ tīn laṛkiyāṃ aur do laṛke haiṃ.", "en": "There are three girls and two boys here.", "focus": "لڑکیاں", "wrong": ["لڑکی|laṛkī", "لڑکا|laṛkā"] },
+        { "native": "سب لوگ یہاں ہیں۔", "roman": "sab log yahāṃ haiṃ.", "en": "Everyone's here." },
+        { "native": "ہم سب ٹھیک ہیں۔", "roman": "ham sab ṭhīk haiṃ.", "en": "We're all fine." },
+        { "native": "میں اردو میں گنتا ہوں۔", "roman": "maiṃ urdū meṃ gintā hūṃ.", "en": "I count in Urdu. (man)" }
+      ]
+    },
+    {
+      "title": "How old are you?",
+      "tip": { "title": "Age: 'years of'", "body": "- Age is 'X years **of**': میں پچیس سال **کا** ہوں (man), میں تیس سال **کی** ہوں (woman).\n- کا / کی / کے follows the person: بیٹا … سال کا, بیٹی … سال کی, بچے … سال کے.\n- Ask politely: آپ کی عمر کیا ہے؟ or casually: آپ کتنے سال کے ہیں؟", "pattern": "person + number + سال + کا / کی / کے + ہے", "grammar": 1 },
+      "new": ["عمر", "سال", "تقریباً", "آپ کی عمر کیا ہے؟", "میں پچیس سال کا ہوں۔", "میں تیس سال کی ہوں۔"],
+      "sentences": [
+        { "native": "میرا بیٹا پانچ سال کا ہے۔", "roman": "merā beṭā pāṃch sāl kā hai.", "en": "My son is five.", "focus": "کا", "wrong": ["کی|kī", "کے|ke"] },
+        { "native": "میری بیٹی سات سال کی ہے۔", "roman": "merī beṭī sāt sāl kī hai.", "en": "My daughter is seven.", "focus": "کی", "wrong": ["کا|kā", "کے|ke"] },
+        { "native": "میرے بچے دس اور سات سال کے ہیں۔", "roman": "mere bachche das aur sāt sāl ke haiṃ.", "en": "My children are ten and seven.", "focus": "کے", "wrong": ["کا|kā", "کی|kī"] },
+        { "native": "آپ کتنے سال کے ہیں؟", "roman": "āp kitne sāl ke haiṃ?", "en": "How old are you? (to a man)", "focus": "کے", "wrong": ["کا|kā", "کی|kī"] },
+        { "native": "وہ تقریباً تیس سال کی ہے۔", "roman": "vo taqrīban tīs sāl kī hai.", "en": "She's about thirty.", "focus": "کی", "wrong": ["کا|kā", "کے|ke"] },
+        { "native": "میرا بھائی پچیس سال کا ہے۔", "roman": "merā bhā’ī pachchīs sāl kā hai.", "en": "My brother is twenty-five.", "focus": "کا", "wrong": ["کی|kī", "کے|ke"] },
+        { "native": "تمہاری عمر کیا ہے؟", "roman": "tumhārī ʿumr kyā hai?", "en": "How old are you? (to a friend or child)", "focus": "تمہاری", "wrong": ["تمہارا|tumhārā", "تمہارے|tumhāre"] },
+        { "native": "بیٹا، تم کتنے سال کے ہو؟", "roman": "beṭā, tum kitne sāl ke ho?", "en": "How old are you, dear?", "focus": "ہو", "wrong": ["ہیں|haiṃ", "ہے|hai"] }
+      ]
+    },
+    {
+      "title": "First, second, tenth floor",
+      "tip": { "title": "Ordinals: پہلا, دوسرا … دسواں", "body": "- 1st–4th: **پہلا, دوسرا, تیسرا, چوتھا**; 6th is **چھٹا**. From 5th on add **-واں**: پانچواں, ساتواں, دسواں.\n- They agree like adjectives: پہلا سال, **پہلی** بار, **چوتھی** منزل.\n- The feminine of -واں is **-ویں**: پانچویں منزل = fifth floor.", "pattern": "ordinal + noun (agrees)", "grammar": 1 },
+      "new": ["پہلا", "دوسرا", "تیسرا", "چوتھا", "پانچواں", "چھٹا", "ساتواں", "آٹھواں", "نواں", "دسواں"],
+      "sentences": [
+        { "native": "یہ میرا پہلا سال ہے۔", "roman": "ye merā pahlā sāl hai.", "en": "This is my first year.", "focus": "پہلا", "wrong": ["پہلی|pahlī", "پہلے|pahle"] },
+        { "native": "یہ میرا دوسرا بچہ ہے۔", "roman": "ye merā dūsrā bachcha hai.", "en": "This is my second child.", "focus": "دوسرا", "wrong": ["دوسری|dūsrī", "دوسرے|dūsre"] },
+        { "native": "میری تیسری بیٹی سات سال کی ہے۔", "roman": "merī tīsrī beṭī sāt sāl kī hai.", "en": "My third daughter is seven.", "focus": "تیسری", "wrong": ["تیسرا|tīsrā", "تیسرے|tīsre"] },
+        { "native": "ہم چوتھی منزل پر رہتے ہیں۔", "roman": "ham chauthī manzil par rahte haiṃ.", "en": "We live on the fourth floor.", "focus": "چوتھی", "wrong": ["چوتھا|chauthā", "چوتھے|chauthe"] },
+        { "native": "میرا گھر پانچویں منزل پر ہے۔", "roman": "merā ghar pāṃchvīṃ manzil par hai.", "en": "My flat is on the fifth floor.", "focus": "پانچویں", "wrong": ["پانچواں|pāṃchvāṃ", "پانچ|pāṃch"] },
+        { "native": "وہ چھٹی منزل پر رہتی ہے۔", "roman": "vo chhaṭī manzil par rahtī hai.", "en": "She lives on the sixth floor.", "focus": "چھٹی", "wrong": ["چھٹا|chhaṭā", "چھ|chhe"] },
+        { "native": "پاکستان میں میرا ساتواں سال ہے۔", "roman": "Pākistān meṃ merā sātvāṃ sāl hai.", "en": "It's my seventh year in Pakistan.", "focus": "ساتواں", "wrong": ["ساتویں|sātvīṃ", "سات|sāt"] },
+        { "native": "آٹھویں منزل پر کون رہتا ہے؟", "roman": "āṭhvīṃ manzil par kaun rahtā hai?", "en": "Who lives on the eighth floor?", "focus": "آٹھویں", "wrong": ["آٹھواں|āṭhvāṃ", "آٹھ|āṭh"] },
+        { "native": "ہمارا گھر نویں منزل پر ہے۔", "roman": "hamārā ghar navīṃ manzil par hai.", "en": "Our flat is on the ninth floor.", "focus": "نویں", "wrong": ["نواں|navāṃ", "نو|nau"] },
+        { "native": "میں دسویں منزل پر رہتا ہوں۔", "roman": "maiṃ dasvīṃ manzil par rahtā hūṃ.", "en": "I live on the tenth floor. (man)", "focus": "دسویں", "wrong": ["دسواں|dasvāṃ", "دس|das"] }
+      ]
+    },
+    {
+      "title": "Halves and quarters at the market",
+      "tip": { "title": "Halves and quarters", "body": "- **آدھا** ½ · **ڈیڑھ** 1½ · **ڈھائی** 2½ — whole words of their own.\n- From 3 up: **ساڑھے** +½ (ساڑھے تین = 3½), **سوا** +¼ (سوا دو = 2¼), **پونے** −¼ (پونے پانچ = 4¾).\n- They work with hundreds too: ڈیڑھ سو = 150, ڈھائی سو = 250.", "pattern": "ساڑھے / سوا / پونے + number", "grammar": 1 },
+      "new": ["آدھا", "ڈیڑھ", "ڈھائی", "ساڑھے", "سوا", "پونے", "کافی", "آدھا کلو کافی ہے۔"],
+      "sentences": [
+        { "native": "آدھا کلو دیجیے۔", "roman": "ādhā kilo dījiye.", "en": "Half a kilo, please.", "focus": "آدھا", "wrong": ["ڈیڑھ|ḍeṛh", "ڈھائی|ḍhā’ī"] },
+        { "native": "ڈیڑھ کلو آم دیجیے۔", "roman": "ḍeṛh kilo ām dījiye.", "en": "One and a half kilos of mangoes, please.", "focus": "ڈیڑھ", "wrong": ["ڈھائی|ḍhā’ī", "ساڑھے|sāṛhe"] },
+        { "native": "یہ ڈھائی سو روپے کا ہے۔", "roman": "ye ḍhā’ī sau rupe kā hai.", "en": "It's 250 rupees.", "focus": "ڈھائی", "wrong": ["ڈیڑھ|ḍeṛh", "ساڑھے|sāṛhe"] },
+        { "native": "کل ساڑھے تین سو روپے ہیں۔", "roman": "kul sāṛhe tīn sau rupe haiṃ.", "en": "That's 350 rupees altogether.", "focus": "ساڑھے", "wrong": ["سوا|savā", "پونے|paune"] },
+        { "native": "آم سوا دو سو روپے کلو ہیں۔", "roman": "ām savā do sau rupe kilo haiṃ.", "en": "Mangoes are 225 rupees a kilo.", "focus": "سوا", "wrong": ["ساڑھے|sāṛhe", "پونے|paune"] },
+        { "native": "یہ پونے پانچ سو کا ہے۔", "roman": "ye paune pāṃch sau kā hai.", "en": "This one is 475.", "focus": "پونے", "wrong": ["سوا|savā", "ساڑھے|sāṛhe"] },
+        { "native": "ایک کلو کافی نہیں ہے۔", "roman": "ek kilo kāfī nahīṃ hai.", "en": "One kilo isn't enough." },
+        { "native": "ڈیڑھ ہزار روپے کافی ہیں۔", "roman": "ḍeṛh hazār rupe kāfī haiṃ.", "en": "1,500 rupees is enough." }
+      ]
+    },
+    {
+      "title": "How much is it?",
+      "tip": { "title": "Asking the price", "body": "- Urdu asks 'of how much is it?': یہ **کتنے کا** ہے؟\n- The ending follows the item: **کتنے کا** (masculine), **کتنے کی** (feminine), **کتنے کے** (plural).\n- Haggling: بہت زیادہ ہے = that's too much; تھوڑا کم کیجیے = bring it down a bit.", "pattern": "item + کتنے + کا / کی / کے + ہے؟", "grammar": 0 },
+      "new": ["درجن", "زیادہ", "کم", "یہ کتنے کا ہے؟", "ایک درجن کیلے دیجیے۔", "تھوڑا اور۔", "بس، بہت زیادہ ہے۔"],
+      "sentences": [
+        { "native": "یہ کتاب کتنے کی ہے؟", "roman": "ye kitāb kitne kī hai?", "en": "How much is this book?", "focus": "کی", "wrong": ["کا|kā", "کے|ke"] },
+        { "native": "آم کتنے کے ہیں؟", "roman": "ām kitne ke haiṃ?", "en": "How much are the mangoes?", "focus": "کے", "wrong": ["کا|kā", "کی|kī"] },
+        { "native": "یہ آم کتنے کا ہے؟", "roman": "ye ām kitne kā hai?", "en": "How much is this mango?", "focus": "کا", "wrong": ["کی|kī", "کے|ke"] },
+        { "native": "یہ کتنے کے ہیں؟", "roman": "ye kitne ke haiṃ?", "en": "How much are these?", "focus": "کے", "wrong": ["کا|kā", "کی|kī"] },
+        { "native": "تھوڑے اور آم دیجیے۔", "roman": "thoṛe aur ām dījiye.", "en": "A few more mangoes, please.", "focus": "تھوڑے", "wrong": ["تھوڑا|thoṛā", "تھوڑی|thoṛī"] },
+        { "native": "بہت زیادہ ہے، تھوڑا کم کیجیے۔", "roman": "bahut zyāda hai, thoṛā kam kījiye.", "en": "That's too much, bring it down a bit.", "focus": "زیادہ", "wrong": ["کم|kam", "کافی|kāfī"] },
+        { "native": "دو درجن کیلے دیجیے۔", "roman": "do darjan kele dījiye.", "en": "Two dozen bananas, please." },
+        { "native": "یہ بہت کم ہے۔", "roman": "ye bahut kam hai.", "en": "That's very little." },
+        { "native": "بس، کافی ہے، شکریہ۔", "roman": "bas, kāfī hai, shukriya.", "en": "That's enough, thanks." }
+      ]
+    },
+    {
+      "title": "Numbers, every year, first time",
+      "new": ["نمبر", "ہر", "کچھ", "آپ کا فون نمبر کیا ہے؟", "میں پہلی بار پاکستان آیا ہوں۔"],
+      "sentences": [
+        { "native": "میرا فون نمبر یہ ہے۔", "roman": "merā fon nambar ye hai.", "en": "Here's my phone number." },
+        { "native": "کیا یہ آپ کا نمبر ہے؟", "roman": "kyā ye āp kā nambar hai?", "en": "Is this your number?" },
+        { "native": "آپ کے گھر کا نمبر کیا ہے؟", "roman": "āp ke ghar kā nambar kyā hai?", "en": "What's your house number?" },
+        { "native": "میں پہلی بار لاہور آئی ہوں۔", "roman": "maiṃ pahlī bār Lāhaur ā’ī hūṃ.", "en": "It's my first time in Lahore. (woman)", "focus": "آئی", "wrong": ["آیا|āyā", "آئے|ā’e"] },
+        { "native": "کیا آپ پہلی بار پاکستان آئے ہیں؟", "roman": "kyā āp pahlī bār Pākistān ā’e haiṃ?", "en": "Is this your first time in Pakistan?", "focus": "آئے", "wrong": ["آیا|āyā", "آئی|ā’ī"] },
+        { "native": "ہر سال ہم لاہور آتے ہیں۔", "roman": "har sāl ham Lāhaur āte haiṃ.", "en": "We come to Lahore every year." },
+        { "native": "یہاں ہر آدمی پنجابی بولتا ہے۔", "roman": "yahāṃ har ādmī panjābī boltā hai.", "en": "Everyone here speaks Punjabi." },
+        { "native": "کچھ لوگ انگریزی بولتے ہیں۔", "roman": "kuchh log angrezī bolte haiṃ.", "en": "Some people speak English." }
+      ]
+    }
+  ]
 }

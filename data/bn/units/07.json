@@ -90,5 +90,99 @@
       { "speaker": "Arjun", "native": "হ্যাঁ, গত সপ্তাহে এক ঘণ্টা দেরি করেছিলি।", "roman": "hæṃ, gôto shôptahe æk ghônṭa deri korechhili.", "en": "Yeah, last week you were an hour late." }
     ]
   },
-  "culture": "'Bengali Standard Time' is a running joke: a stated time is often a loose guide, especially for social events. Bangladesh's weekend is Friday–Saturday; in India Sunday is the main holiday. The Bengali New Year, পয়লা বৈশাখ (14/15 April), is celebrated on both sides of the border with new clothes, processions (মঙ্গল শোভাযাত্রা in Dhaka) and shopkeepers opening new account books (হালখাতা)."
+  "culture": "'Bengali Standard Time' is a running joke: a stated time is often a loose guide, especially for social events. Bangladesh's weekend is Friday–Saturday; in India Sunday is the main holiday. The Bengali New Year, পয়লা বৈশাখ (14/15 April), is celebrated on both sides of the border with new clothes, processions (মঙ্গল শোভাযাত্রা in Dhaka) and shopkeepers opening new account books (হালখাতা).",
+  "lessons": [
+    {
+      "title": "What time is it?",
+      "tip": { "title": "Clock time: চারটে বাজে", "grammar": 0, "body": "- The hour is a number + **টা / টে** + **বাজে** 'strikes': চারটে বাজে 'it's four o'clock'. 'What time is it?' = **কটা বাজে?**\n- Minutes past: hour + **বেজে** + minutes: দশটা বেজে পাঁচ মিনিট 'five past ten'.\n- Minutes to: hour + **বাজতে** + minutes: আটটা বাজতে পাঁচ মিনিট 'five to eight'.", "pattern": "number + টা + বাজে" },
+      "new": ["এখন", "সময়", "মিনিট", "বাজা", "কটা বাজে?", "এখন তিনটে বাজে।", "দশটা বেজে পাঁচ মিনিট।", "আমার সময় নেই।"],
+      "sentences": [
+        { "native": "এখন কটা বাজে?", "roman": "ækhon kôṭa baje?", "en": "What time is it now?", "focus": "বাজে", "wrong": ["বাজি|baji", "বাজো|bajo"] },
+        { "native": "এখন চারটে বাজে।", "roman": "ækhon charṭe baje.", "en": "It's four o'clock now.", "focus": "চারটে", "wrong": ["চারজন|charjon", "চার|char"] },
+        { "native": "এখন ঠিক দুটো বাজে।", "roman": "ækhon ṭhik duṭo baje.", "en": "It's exactly two o'clock.", "focus": "দুটো", "wrong": ["দুজন|dujon", "দুই|dui"] },
+        { "native": "এখন দশটা বেজে পাঁচ মিনিট।", "roman": "ækhon dôshṭa beje paṃch miniṭ.", "en": "It's five past ten.", "focus": "বেজে", "wrong": ["বাজে|baje", "বাজতে|bajte"] },
+        { "native": "ছটা বেজে কুড়ি মিনিট।", "roman": "chhôṭa beje kuṛi miniṭ.", "en": "Twenty past six.", "focus": "বেজে", "wrong": ["বাজে|baje", "বাজতে|bajte"] },
+        { "native": "আটটা বাজতে পাঁচ মিনিট।", "roman": "aṭṭa bajte paṃch miniṭ.", "en": "Five to eight.", "focus": "বাজতে", "wrong": ["বেজে|beje", "বাজে|baje"] },
+        { "native": "আপনার কি একটু সময় আছে?", "roman": "apnar ki ekṭu shômoy achhe?", "en": "Do you have a moment?" },
+        { "native": "না, আমার এখন সময় নেই।", "roman": "na, amar ækhon shômoy nei.", "en": "No, I don't have time right now." },
+        { "native": "আর পাঁচ মিনিট, প্লিজ।", "roman": "ar paṃch miniṭ, pliz.", "en": "Five more minutes, please." }
+      ]
+    },
+    {
+      "title": "Half past and quarter to",
+      "tip": { "title": "সোয়া, সাড়ে, পৌনে", "grammar": 0, "body": "- The fraction goes **before** the hour: **সোয়া** পাঁচটা 5:15 · **সাড়ে** পাঁচটা 5:30 · **পৌনে** পাঁচটা 4:45.\n- But 1:30 is **দেড়টা** and 2:30 is **আড়াইটা** (never সাড়ে একটা).\n- 'At' a time adds **-য়**: সাড়ে সাতটা**য়** 'at half past seven'.", "pattern": "সোয়া / সাড়ে / পৌনে + hour" },
+      "new": ["সাড়ে", "সোয়া", "পৌনে", "দেড়", "আড়াই", "সাড়ে সাতটা।", "পৌনে ন'টা।", "আমার দেরি হয়ে গেছে।"],
+      "sentences": [
+        { "native": "কটা বাজে? সাড়ে সাতটা।", "roman": "kôṭa baje? shaṛe shatṭa.", "en": "What time is it? Half past seven.", "focus": "সাড়ে", "wrong": ["সোয়া|shoa", "পৌনে|poune"] },
+        { "native": "এখন সোয়া দশটা।", "roman": "ækhon shoa dôshṭa.", "en": "It's quarter past ten.", "focus": "সোয়া", "wrong": ["সাড়ে|shaṛe", "পৌনে|poune"] },
+        { "native": "পৌনে আটটা বাজে।", "roman": "poune aṭṭa baje.", "en": "It's quarter to eight.", "focus": "পৌনে", "wrong": ["সোয়া|shoa", "সাড়ে|shaṛe"] },
+        { "native": "এখন দেড়টা।", "roman": "ækhon deṛṭa.", "en": "It's half past one.", "focus": "দেড়টা", "wrong": ["আড়াইটা|aṛaiṭa", "একটা|ækṭa"] },
+        { "native": "এখন আড়াইটা বাজে।", "roman": "ækhon aṛaiṭa baje.", "en": "It's half past two.", "focus": "আড়াইটা", "wrong": ["দেড়টা|deṛṭa", "দুটো|duṭo"] },
+        { "native": "আমরা সাড়ে সাতটায় খাই।", "roman": "amra shaṛe shatṭay khai.", "en": "We eat at half past seven.", "focus": "সাতটায়", "wrong": ["সাতটা|shatṭa", "সাতজন|shatjon"] },
+        { "native": "ক্লাস পৌনে দশটায়।", "roman": "klas poune dôshṭay.", "en": "Class is at quarter to ten.", "focus": "পৌনে", "wrong": ["সাড়ে|shaṛe", "সোয়া|shoa"] },
+        { "native": "আমি সোয়া ছটায় আসব।", "roman": "ami shoa chhôṭay ashbo.", "en": "I'll come at quarter past six.", "focus": "ছটায়", "wrong": ["ছটা|chhôṭa", "ছজন|chhôjon"] },
+        { "native": "পৌনে ন'টা! আমার দেরি হয়ে গেছে।", "roman": "poune nôṭa! amar deri hoye gechhe.", "en": "Quarter to nine! I'm late." }
+      ]
+    },
+    {
+      "title": "Morning, noon and night",
+      "tip": { "title": "In the morning: সকালে", "body": "- Put the part of the day **before** the hour: সকাল সাতটা 7 a.m., বিকেল পাঁচটা 5 p.m., রাত দশটা 10 p.m.\n- 'In the morning / at night' takes the place ending: সকাল**ে**, দুপুর**ে**, বিকেল**ে**, সন্ধ্যা**য়**, রাত**ে**.\n- আজ রাতে = tonight, আজ সকালে = this morning." },
+      "new": ["আজ", "সকাল", "দুপুর", "বিকেল", "সন্ধ্যা", "রাত"],
+      "sentences": [
+        { "native": "সকালে আমি চা খাই, কফি না।", "roman": "shôkale ami cha khai, kôphi na.", "en": "In the morning I drink tea, not coffee.", "focus": "সকালে", "wrong": ["সকাল|shôkal", "সকালের|shôkaler"] },
+        { "native": "দুপুরে আমরা ভাত খাই।", "roman": "dupure amra bhat khai.", "en": "We have rice at midday.", "focus": "দুপুরে", "wrong": ["দুপুর|dupur", "দুপুরের|dupurer"] },
+        { "native": "আজ বিকেলে আমার ক্লাস আছে।", "roman": "aj bikele amar klas achhe.", "en": "I have a class this afternoon.", "focus": "বিকেলে", "wrong": ["বিকেল|bikel", "বিকেলের|bikeler"] },
+        { "native": "সন্ধ্যায় আমরা ছাদে বসি।", "roman": "shondhay amra chhade boshi.", "en": "In the evening we sit on the roof.", "focus": "সন্ধ্যায়", "wrong": ["সন্ধ্যা|shondha", "সন্ধ্যার|shondhar"] },
+        { "native": "আজ রাতে কী খাবে?", "roman": "aj rate ki khabe?", "en": "What will you have tonight?", "focus": "রাতে", "wrong": ["রাত|rat", "রাতের|rater"] },
+        { "native": "এখন রাত এগারোটা।", "roman": "ækhon rat egaroṭa.", "en": "It's eleven at night." },
+        { "native": "বিকেল পাঁচটায় দেখা হবে।", "roman": "bikel paṃchṭay dækha hobe.", "en": "See you at five in the afternoon." },
+        { "native": "আমি রাতে রুটি খাই, দুপুরে ভাত।", "roman": "ami rate ruṭi khai, dupure bhat.", "en": "I eat roti at night and rice at midday.", "focus": "রাতে", "wrong": ["রাত|rat", "রাতের|rater"] }
+      ]
+    },
+    {
+      "title": "Yesterday, tomorrow, later",
+      "tip": { "title": "Ago and later: আগে, পরে", "grammar": 1, "body": "- Time + **আগে** = ago: দুই দিন আগে 'two days ago'. Time + **পরে** = later, in: দশ মিনিট পরে 'in ten minutes'.\n- **কাল** means both 'tomorrow' and 'yesterday'; the verb's tense tells you which: কাল **আসব** 'I'll come tomorrow'.\n- পরশু is the same: the day after tomorrow or the day before yesterday.", "pattern": "time + আগে / পরে" },
+      "new": ["আগে", "পরে", "ঘণ্টা", "দিন", "কাল", "গতকাল", "পরশু", "কাল দেখা হবে।", "এক ঘণ্টা পরে আসুন।"],
+      "sentences": [
+        { "native": "আমি দুই দিন আগে ঢাকায় এসেছি।", "roman": "ami dui din age ḍhakay eshechhi.", "en": "I came to Dhaka two days ago.", "focus": "আগে", "wrong": ["পরে|pôre", "কাল|kal"] },
+        { "native": "এক ঘণ্টা পরে আসুন, উনি এখন নেই।", "roman": "æk ghônṭa pôre ashun, uni ækhon nei.", "en": "Please come back in an hour, he/she isn't here now.", "focus": "পরে", "wrong": ["আগে|age", "এখন|ækhon"] },
+        { "native": "এক ঘণ্টা আগে ও এখানে ছিল।", "roman": "æk ghônṭa age o ekhane chhilo.", "en": "He/she was here an hour ago.", "focus": "আগে", "wrong": ["পরে|pôre", "কাল|kal"] },
+        { "native": "আমি কাল আসব।", "roman": "ami kal ashbo.", "en": "I'll come tomorrow.", "focus": "আসব", "wrong": ["আসি|ashi", "আসেন|ashen"] },
+        { "native": "কাল দেখা হবে, ভালো থেকো।", "roman": "kal dækha hobe, bhalo theko.", "en": "See you tomorrow, take care." },
+        { "native": "পরশু আমরা কলকাতায় থাকব।", "roman": "porshu amra kolkatay thakbo.", "en": "The day after tomorrow we'll be in Kolkata.", "focus": "থাকব", "wrong": ["থাকি|thaki", "থাকে|thake"] },
+        { "native": "গতকাল আমি বাড়িতে ছিলাম।", "roman": "gôtokal ami baṛite chhilam.", "en": "Yesterday I was at home.", "focus": "ছিলাম", "wrong": ["আছি|achhi", "থাকব|thakbo"] },
+        { "native": "খাওয়ার পরে চা খাব।", "roman": "khawar pôre cha khabo.", "en": "I'll have tea after the meal.", "focus": "পরে", "wrong": ["আগে|age", "কাছে|kachhe"] },
+        { "native": "আমি দুই দিন এখানে থাকব।", "roman": "ami dui din ekhane thakbo.", "en": "I'll stay here for two days." }
+      ]
+    },
+    {
+      "title": "Days of the week",
+      "tip": { "title": "Every day ends in -বার", "body": "- সোম**বার** Monday, মঙ্গল**বার** Tuesday, বুধ**বার**, বৃহস্পতি**বার**, শুক্র**বার**, শনি**বার**, রবি**বার**.\n- 'On Monday' needs no extra word: সোমবার আসব.\n- The weekend: **শুক্রবার** (and শনিবার) in Bangladesh, **রবিবার** in India.\n- 'What day is it?' = আজ কী বার?" },
+      "new": ["সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার", "রবিবার", "সপ্তাহ", "আজ কী বার?"],
+      "sentences": [
+        { "native": "আজ কী বার? আজ সোমবার।", "roman": "aj ki bar? aj shombar.", "en": "What day is it today? It's Monday." },
+        { "native": "কাল মঙ্গলবার।", "roman": "kal moṅgolbar.", "en": "Tomorrow is Tuesday." },
+        { "native": "বুধবার আমার বাংলা ক্লাস আছে।", "roman": "budhbar amar baṅla klas achhe.", "en": "I have Bengali class on Wednesday." },
+        { "native": "বৃহস্পতিবার সন্ধ্যায় সময় আছে?", "roman": "brihoshpotibar shondhay shômoy achhe?", "en": "Are you free on Thursday evening?" },
+        { "native": "শুক্রবার দোকান বন্ধ।", "roman": "shukrobar dokan bôndho.", "en": "The shop is closed on Friday." },
+        { "native": "শনিবার আর রবিবার আমি বাড়িতে থাকি।", "roman": "shonibar ar robibar ami baṛite thaki.", "en": "On Saturdays and Sundays I stay at home." },
+        { "native": "সপ্তাহে দুই দিন আমি বাংলা শিখি।", "roman": "shôptahe dui din ami baṅla shikhi.", "en": "I study Bengali two days a week." },
+        { "native": "পরের সপ্তাহে দেখা হবে।", "roman": "pôrer shôptahe dækha hobe.", "en": "See you next week." }
+      ]
+    },
+    {
+      "title": "Dates and opening hours",
+      "tip": { "title": "Dates: দশ তারিখ", "grammar": 1, "body": "- A date is just number + **তারিখ**: আজ দশ তারিখ 'today is the 10th'. 'On the 10th' = দশ তারিখ**ে**.\n- Months take -এ: মে মাস**ে** 'in May'.\n- 'What's the date?' = আজ কত তারিখ? 'When does it open?' = কখন খোলে?", "pattern": "number + তারিখ  ·  month + মাসে" },
+      "new": ["মাস", "তারিখ", "আজ কত তারিখ?", "দোকান কখন খোলে?"],
+      "sentences": [
+        { "native": "আজ কত তারিখ? আজ পাঁচ তারিখ।", "roman": "aj kôto tarikh? aj paṃch tarikh.", "en": "What's the date today? It's the fifth.", "focus": "তারিখ", "wrong": ["মাস|mash", "বার|bar"] },
+        { "native": "আপনি কত তারিখে আসবেন?", "roman": "apni kôto tarikhe ashben?", "en": "What date are you coming?", "focus": "তারিখে", "wrong": ["তারিখ|tarikh", "তারিখের|tarikher"] },
+        { "native": "দোকান কখন খোলে? সকাল দশটায়।", "roman": "dokan kôkhon khole? shôkal dôshṭay.", "en": "When does the shop open? At ten in the morning." },
+        { "native": "দোকান কটায় বন্ধ হয়?", "roman": "dokan kôṭay bôndho hoy?", "en": "What time does the shop close?" },
+        { "native": "আমি এক মাস ঢাকায় থাকব।", "roman": "ami æk mash ḍhakay thakbo.", "en": "I'll be in Dhaka for a month." },
+        { "native": "ওর জন্মদিন কোন মাসে?", "roman": "or jônmodin kon mashe?", "en": "Which month is his/her birthday in?", "focus": "মাসে", "wrong": ["মাস|mash", "মাসের|masher"] },
+        { "native": "তিন মাস পরে আমি দেশে যাব।", "roman": "tin mash pôre ami deshe jabo.", "en": "In three months I'm going home.", "focus": "পরে", "wrong": ["আগে|age", "কাছে|kachhe"] }
+      ]
+    }
+  ]
 }

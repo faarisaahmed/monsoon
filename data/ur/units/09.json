@@ -89,5 +89,96 @@
       { "speaker": "Doctor", "native": "اپنا خیال رکھیے گا۔", "roman": "apnā xayāl rakhiyegā.", "en": "Take care of yourself." }
     ]
   },
-  "culture": "Visiting the sick (عیادت ʿiyādat) is an important social duty — friends and relatives will drop by with fruit. Many people combine modern medicine with home remedies: honey and ginger for coughs, دیسی گھی, and the traditional یونانی (Unani, Greek-derived) medicine of the حکیم. Pharmacists sell many medicines over the counter, and doctors are addressed as ڈاکٹر صاحب / ڈاکٹر صاحبہ."
+  "culture": "Visiting the sick (عیادت ʿiyādat) is an important social duty — friends and relatives will drop by with fruit. Many people combine modern medicine with home remedies: honey and ginger for coughs, دیسی گھی, and the traditional یونانی (Unani, Greek-derived) medicine of the حکیم. Pharmacists sell many medicines over the counter, and doctors are addressed as ڈاکٹر صاحب / ڈاکٹر صاحبہ.",
+  "lessons": [
+    {
+      "title": "Eyes, ears and hair",
+      "tip": { "title": "Body words have gender too", "body": "- Masculine: **بال** hair (plural), **کان** ear, **منہ** mouth, **دانت** tooth. Feminine: **آنکھ** eye, **ناک** nose.\n- Adjectives agree as usual: کالے بال, نیلی آنکھیں, چھوٹی ناک.\n- Before میں / پر, میرا becomes **میرے**: **میرے** کان میں." },
+      "new": ["بال", "آنکھ", "کان", "ناک", "منہ", "دانت"],
+      "sentences": [
+        { "native": "اس کی آنکھیں نیلی ہیں۔", "roman": "us kī āṃkheṃ nīlī haiṃ.", "en": "Her eyes are blue.", "focus": "آنکھیں", "wrong": ["آنکھ|āṃkh", "آنکھوں|āṃkhoṃ"] },
+        { "native": "میرے بال کالے ہیں۔", "roman": "mere bāl kāle haiṃ.", "en": "My hair is black.", "focus": "کالے", "wrong": ["کالا|kālā", "کالی|kālī"] },
+        { "native": "تمہارے بال بہت لمبے ہیں۔", "roman": "tumhāre bāl bahut lambe haiṃ.", "en": "Your hair is really long. (to a friend)", "focus": "لمبے", "wrong": ["لمبا|lambā", "لمبی|lambī"] },
+        { "native": "اس بچی کی ناک بہت چھوٹی ہے۔", "roman": "is bachchī kī nāk bahut chhoṭī hai.", "en": "This little girl's nose is tiny.", "focus": "چھوٹی", "wrong": ["چھوٹا|chhoṭā", "چھوٹے|chhoṭe"] },
+        { "native": "اس کا منہ گندا ہے۔", "roman": "us kā muṃh gandā hai.", "en": "His face is dirty.", "focus": "گندا", "wrong": ["گندی|gandī", "گندے|gande"] },
+        { "native": "میرے کان میں پانی ہے۔", "roman": "mere kān meṃ pānī hai.", "en": "I've got water in my ear.", "focus": "میرے", "wrong": ["میرا|merā", "میری|merī"] },
+        { "native": "بیٹا، دانت صاف کرو۔", "roman": "beṭā, dāṃt sāf karo.", "en": "Brush your teeth, dear." }
+      ]
+    },
+    {
+      "title": "Where does it hurt?",
+      "tip": { "title": "'I have a headache': pain is *in* you", "body": "- Urdu says 'in my head is pain': **میرے سر میں درد ہے**.\n- میرا → **میرے** before a masculine part (سر, پیٹ, گلا → **گلے**), **میری** before a feminine one (کمر, آنکھ).\n- Hurting right now: درد **ہو رہا ہے**.", "pattern": "میرے / میری + body part + میں درد ہے", "grammar": 0 },
+      "new": ["سر", "درد", "پیٹ", "کمر", "گلا", "میرے سر میں درد ہے۔", "میرے پیٹ میں درد ہے۔", "کہاں درد ہو رہا ہے؟"],
+      "sentences": [
+        { "native": "میری کمر میں درد ہے۔", "roman": "merī kamar meṃ dard hai.", "en": "My back hurts.", "focus": "میری", "wrong": ["میرا|merā", "میرے|mere"] },
+        { "native": "میرے گلے میں درد ہے۔", "roman": "mere gale meṃ dard hai.", "en": "I have a sore throat.", "focus": "گلے", "wrong": ["گلا|galā", "گلی|galī"] },
+        { "native": "امی کے سر میں درد ہے۔", "roman": "ammī ke sar meṃ dard hai.", "en": "Mum has a headache.", "focus": "کے", "wrong": ["کا|kā", "کی|kī"] },
+        { "native": "کیا آپ کے پیٹ میں درد ہے؟", "roman": "kyā āp ke peṭ meṃ dard hai?", "en": "Do you have a stomach ache?", "focus": "کے", "wrong": ["کا|kā", "کی|kī"] },
+        { "native": "میری آنکھ میں درد ہے۔", "roman": "merī āṃkh meṃ dard hai.", "en": "My eye hurts.", "focus": "میری", "wrong": ["میرا|merā", "میرے|mere"] },
+        { "native": "بچے کے کان میں درد ہے۔", "roman": "bachche ke kān meṃ dard hai.", "en": "The child has an earache.", "focus": "کے", "wrong": ["کا|kā", "کی|kī"] },
+        { "native": "سر میں بہت درد ہو رہا ہے۔", "roman": "sar meṃ bahut dard ho rahā hai.", "en": "My head really hurts.", "focus": "رہا", "wrong": ["رہی|rahī", "رہے|rahe"] }
+      ]
+    },
+    {
+      "title": "I have a fever",
+      "tip": { "title": "مجھے بخار ہے — illnesses happen *to* you", "body": "- Fever, cold, cough: **مجھے** بخار / زکام / کھانسی **ہے**.\n- Same 'to' form as چاہیے: **آپ کو**, **بچوں کو**, **اسے**.\n- How are you feeling? = آپ کی **طبیعت** کیسی ہے؟ (طبیعت is feminine.)", "pattern": "مجھے / آپ کو + illness + ہے", "grammar": 0 },
+      "new": ["بخار", "زکام", "کھانسی", "بیمار", "طبیعت", "الٹی", "مجھے بخار ہے۔", "میری طبیعت ٹھیک نہیں ہے۔"],
+      "sentences": [
+        { "native": "مجھے کھانسی ہے۔", "roman": "mujhe khāṃsī hai.", "en": "I have a cough.", "focus": "مجھے", "wrong": ["میں|maiṃ", "میرا|merā"] },
+        { "native": "بچوں کو زکام ہے۔", "roman": "bachchoṃ ko zukām hai.", "en": "The children have colds.", "focus": "کو", "wrong": ["میں|meṃ", "سے|se"] },
+        { "native": "کیا آپ کو بخار ہے؟", "roman": "kyā āp ko buxār hai?", "en": "Do you have a fever?", "focus": "کو", "wrong": ["میں|meṃ", "سے|se"] },
+        { "native": "اسے بخار نہیں ہے۔", "roman": "use buxār nahīṃ hai.", "en": "He doesn't have a fever.", "focus": "اسے", "wrong": ["وہ|vo", "اس|us"] },
+        { "native": "آپ کی طبیعت کیسی ہے؟", "roman": "āp kī tabīʿat kaisī hai?", "en": "How are you feeling?", "focus": "کیسی", "wrong": ["کیسا|kaisā", "کیسے|kaise"] },
+        { "native": "میری طبیعت اب ٹھیک ہے۔", "roman": "merī tabīʿat ab ṭhīk hai.", "en": "I'm feeling fine now.", "focus": "میری", "wrong": ["میرا|merā", "میرے|mere"] },
+        { "native": "مجھے الٹی آ رہی ہے۔", "roman": "mujhe ulṭī ā rahī hai.", "en": "I think I'm going to be sick.", "focus": "رہی", "wrong": ["رہا|rahā", "رہے|rahe"] },
+        { "native": "مجھے تھوڑا بخار اور کھانسی ہے۔", "roman": "mujhe thoṛā buxār aur khāṃsī hai.", "en": "I have a slight fever and a cough." },
+        { "native": "امی بیمار ہیں۔", "roman": "ammī bīmār haiṃ.", "en": "Mum is ill." }
+      ]
+    },
+    {
+      "title": "I've hurt myself",
+      "tip": { "title": "Getting hurt: چوٹ لگی", "body": "- 'I got hurt' = **مجھے چوٹ لگی** — 'an injury struck me'. چوٹ is feminine, so **لگی**.\n- Say where with میں: **میرے ہاتھ میں** چوٹ لگی ہے = I've hurt my hand.\n- **پاؤں** foot and **ہاتھ** hand are masculine; **ٹانگ** leg is feminine." },
+      "new": ["ہاتھ", "بازو", "ٹانگ", "پاؤں", "دل", "چوٹ", "مجھے چوٹ لگ گئی۔"],
+      "sentences": [
+        { "native": "میرے ہاتھ میں چوٹ لگی ہے۔", "roman": "mere hāth meṃ choṭ lagī hai.", "en": "I've hurt my hand.", "focus": "لگی", "wrong": ["لگا|lagā", "لگے|lage"] },
+        { "native": "کیا تمہیں چوٹ لگی؟", "roman": "kyā tumheṃ choṭ lagī?", "en": "Did you get hurt? (to a friend)", "focus": "لگی", "wrong": ["لگا|lagā", "لگے|lage"] },
+        { "native": "بچے کے بازو میں چوٹ لگی ہے۔", "roman": "bachche ke bāzū meṃ choṭ lagī hai.", "en": "The child has hurt his arm.", "focus": "کے", "wrong": ["کا|kā", "کی|kī"] },
+        { "native": "اس کی ٹانگ میں درد ہے۔", "roman": "us kī ṭāṃg meṃ dard hai.", "en": "His leg hurts.", "focus": "کی", "wrong": ["کا|kā", "کے|ke"] },
+        { "native": "میرے پاؤں میں درد ہے۔", "roman": "mere pā’oṃ meṃ dard hai.", "en": "My foot hurts.", "focus": "میرے", "wrong": ["میرا|merā", "میری|merī"] },
+        { "native": "میری ٹانگ میں بہت درد ہو رہا ہے۔", "roman": "merī ṭāṃg meṃ bahut dard ho rahā hai.", "en": "My leg is really hurting.", "focus": "میری", "wrong": ["میرا|merā", "میرے|mere"] },
+        { "native": "ہاتھ صاف کرو۔", "roman": "hāth sāf karo.", "en": "Clean your hands." },
+        { "native": "اس کا دل بہت اچھا ہے۔", "roman": "us kā dil bahut achchhā hai.", "en": "He has a good heart." }
+      ]
+    },
+    {
+      "title": "At the doctor's",
+      "tip": { "title": "'You should': … کرنا چاہیے", "body": "- Advice = person + **کو** + verb in **-نا** + **چاہیے**: آپ کو آرام **کرنا چاہیے**.\n- With a feminine thing, careful speakers say **-نی**: آپ کو دوا **لینی** چاہیے.\n- Shouldn't: **نہیں** before the verb: ٹھنڈا پانی **نہیں پینا** چاہیے.", "pattern": "آپ کو + verb-نا + چاہیے", "grammar": 1 },
+      "new": ["دوا", "ڈاکٹر", "ہسپتال", "آرام", "گولی", "آپ کو آرام کرنا چاہیے۔", "مجھے ڈاکٹر کے پاس جانا ہے۔", "یہ دوا دن میں تین بار لیں۔", "قریب کوئی فارمیسی ہے؟"],
+      "sentences": [
+        { "native": "آپ کو ڈاکٹر کے پاس جانا چاہیے۔", "roman": "āp ko ḍākṭar ke pās jānā chāhiye.", "en": "You should go to the doctor.", "focus": "جانا", "wrong": ["جاتا|jātā", "جاتے|jāte"] },
+        { "native": "تمہیں آج آرام کرنا چاہیے۔", "roman": "tumheṃ āj ārām karnā chāhiye.", "en": "You should rest today. (to a friend)", "focus": "کرنا", "wrong": ["کرتا|kartā", "کرو|karo"] },
+        { "native": "آپ کو یہ گولی لینی چاہیے۔", "roman": "āp ko ye golī lenī chāhiye.", "en": "You should take this tablet.", "focus": "لینی", "wrong": ["لیتی|letī", "لیں|leṃ"] },
+        { "native": "آپ کو ٹھنڈا پانی نہیں پینا چاہیے۔", "roman": "āp ko ṭhanḍā pānī nahīṃ pīnā chāhiye.", "en": "You shouldn't drink cold water.", "focus": "پینا", "wrong": ["پیتا|pītā", "پیو|piyo"] },
+        { "native": "بچوں کو یہ دوا نہیں دینی چاہیے۔", "roman": "bachchoṃ ko ye davā nahīṃ denī chāhiye.", "en": "Children shouldn't be given this medicine.", "focus": "دینی", "wrong": ["دیتی|detī", "دیں|deṃ"] },
+        { "native": "مجھے ہسپتال جانا ہے۔", "roman": "mujhe haspatāl jānā hai.", "en": "I need to go to the hospital.", "focus": "مجھے", "wrong": ["میں|maiṃ", "میرا|merā"] },
+        { "native": "یہ دوا رات کو لیں۔", "roman": "ye davā rāt ko leṃ.", "en": "Take this medicine at night." },
+        { "native": "کیا قریب کوئی ہسپتال ہے؟", "roman": "kyā qarīb ko’ī haspatāl hai?", "en": "Is there a hospital nearby?" },
+        { "native": "ڈاکٹر صاحب کب آتے ہیں؟", "roman": "ḍākṭar sāhab kab āte haiṃ?", "en": "When does the doctor come in?" }
+      ]
+    },
+    {
+      "title": "Get well soon",
+      "tip": { "title": "Wishing someone well", "body": "- **اللہ آپ کو صحت دے** — may God give you health: the usual 'get well soon'.\n- **اپنا خیال رکھیے گا** = take care of yourself (to a friend: اپنا خیال رکھنا).\n- **آرام سے** = gently, take it easy." },
+      "new": ["صحت", "جسم", "اپنا خیال رکھیے گا۔", "اللہ آپ کو صحت دے۔"],
+      "sentences": [
+        { "native": "اپنی صحت کا خیال رکھیے۔", "roman": "apnī sehat kā xayāl rakhiye.", "en": "Look after your health.", "focus": "اپنی", "wrong": ["اپنا|apnā", "اپنے|apne"] },
+        { "native": "اللہ آپ کی امی کو صحت دے۔", "roman": "allāh āp kī ammī ko sehat de.", "en": "I hope your mum gets well soon." },
+        { "native": "صحت سب سے بڑی چیز ہے۔", "roman": "sehat sab se baṛī chīz hai.", "en": "Health matters more than anything.", "focus": "بڑی", "wrong": ["بڑا|baṛā", "بڑے|baṛe"] },
+        { "native": "جسم کو آرام چاہیے۔", "roman": "jism ko ārām chāhiye.", "en": "The body needs rest." },
+        { "native": "اپنا خیال رکھنا، علی۔", "roman": "apnā xayāl rakhnā, ʿAlī.", "en": "Take care, Ali.", "focus": "اپنا", "wrong": ["اپنی|apnī", "اپنے|apne"] },
+        { "native": "اپنے بھائی کا خیال رکھو۔", "roman": "apne bhā’ī kā xayāl rakho.", "en": "Look after your brother.", "focus": "اپنے", "wrong": ["اپنا|apnā", "اپنی|apnī"] },
+        { "native": "آرام سے، بیٹا!", "roman": "ārām se, beṭā!", "en": "Careful, dear!" }
+      ]
+    }
+  ]
 }

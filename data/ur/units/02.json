@@ -90,5 +90,102 @@
       { "speaker": "Emma", "native": "شکریہ! آہستہ بولیے، پلیز۔", "roman": "shukriya! āhista boliye, plīz.", "en": "Thanks! Please speak slowly." }
     ]
   },
-  "culture": "Pakistanis are delighted when foreigners try Urdu, and you'll hear آپ کی اردو بہت اچھی ہے after two sentences. Most educated Pakistanis also speak English, and everyday Urdu is full of English words (پلیز، سوری، اوکے). Urdu is the mother tongue of fewer than one in ten Pakistanis — most speak Punjabi, Sindhi, Pashto, Saraiki or Balochi at home — but almost everyone uses Urdu as the common language."
+  "culture": "Pakistanis are delighted when foreigners try Urdu, and you'll hear آپ کی اردو بہت اچھی ہے after two sentences. Most educated Pakistanis also speak English, and everyday Urdu is full of English words (پلیز، سوری، اوکے). Urdu is the mother tongue of fewer than one in ten Pakistanis — most speak Punjabi, Sindhi, Pashto, Saraiki or Balochi at home — but almost everyone uses Urdu as the common language.",
+  "lessons": [
+    {
+      "title": "I am, we are, he is",
+      "tip": { "title": "'To be': ہوں, ہے, ہو, ہیں", "body": "- **میں ہوں** I am · **تم ہو** you are · **یہ / وہ ہے** he, she, it is · **ہم / آپ ہیں** we are, you are.\n- **یہ** = this one, near; **وہ** = that one, further away. Neither shows he or she.\n- Talking respectfully *about* someone? Use **ہیں** even for one person.", "pattern": "میں … ہوں · وہ … ہے · ہم / آپ … ہیں", "grammar": 0 },
+      "new": ["میں", "ہم", "یہ", "وہ", "پاکستان", "پاکستانی", "ہونا"],
+      "sentences": [
+        { "native": "میں پاکستانی نہیں ہوں۔", "roman": "maiṃ pākistānī nahīṃ hūṃ.", "en": "I'm not Pakistani.", "focus": "ہوں", "wrong": ["ہے|hai", "ہیں|haiṃ"] },
+        { "native": "ہم پاکستانی ہیں۔", "roman": "ham pākistānī haiṃ.", "en": "We're Pakistani.", "focus": "ہیں", "wrong": ["ہوں|hūṃ", "ہے|hai"] },
+        { "native": "وہ پاکستانی ہے؟", "roman": "vo pākistānī hai?", "en": "Is he Pakistani?", "focus": "ہے", "wrong": ["ہوں|hūṃ", "ہو|ho"] },
+        { "native": "تم پاکستانی ہو؟", "roman": "tum pākistānī ho?", "en": "Are you Pakistani? (to a friend)", "focus": "ہو", "wrong": ["ہے|hai", "ہوں|hūṃ"] },
+        { "native": "یہ احمد صاحب ہیں۔", "roman": "ye Ahmad sāhab haiṃ.", "en": "This is Mr Ahmed.", "focus": "ہیں", "wrong": ["ہوں|hūṃ", "ہو|ho"] },
+        { "native": "ہم ٹھیک ہیں، شکریہ۔", "roman": "ham ṭhīk haiṃ, shukriya.", "en": "We're fine, thanks.", "focus": "ہیں", "wrong": ["ہوں|hūṃ", "ہو|ho"] },
+        { "native": "وہ بھی پاکستانی ہیں؟", "roman": "vo bhī pākistānī haiṃ?", "en": "Are they Pakistani too?", "focus": "ہیں", "wrong": ["ہو|ho", "ہوں|hūṃ"] },
+        { "native": "یہ پاکستان ہے!", "roman": "ye Pākistān hai!", "en": "This is Pakistan!" }
+      ]
+    },
+    {
+      "title": "What's your name?",
+      "tip": { "title": "Asking questions", "body": "- A yes/no question needs no new word order: just add **کیا** at the start, or raise your voice.\n- Question words — **کیا** what, **کون** who — go **just before the verb**, where the answer would be.\n- آپ کا نام **کیا** ہے؟ → میرا نام **سارہ** ہے۔", "pattern": "کیا + statement؟ · … + کون / کیا + ہے؟", "grammar": 1 },
+      "new": ["نام", "کیا", "کون", "آپ کا نام کیا ہے؟", "میرا نام سارہ ہے۔", "یہ کون ہیں؟"],
+      "sentences": [
+        { "native": "یہ کون ہے؟", "roman": "ye kaun hai?", "en": "Who is this?", "focus": "کون", "wrong": ["کیا|kyā", "کیسا|kaisā"] },
+        { "native": "وہ کون ہیں؟", "roman": "vo kaun haiṃ?", "en": "Who is he? (respectful)", "focus": "کون", "wrong": ["کیا|kyā", "کیسے|kaise"] },
+        { "native": "کیا آپ احمد صاحب ہیں؟", "roman": "kyā āp Ahmad sāhab haiṃ?", "en": "Are you Mr Ahmed?", "focus": "کیا", "wrong": ["کون|kaun", "کیسے|kaise"] },
+        { "native": "جی ہاں، میں احمد ہوں۔", "roman": "jī hāṃ, maiṃ Ahmad hūṃ.", "en": "Yes, I'm Ahmed." },
+        { "native": "معاف کیجیے، آپ کون ہیں؟", "roman": "muʿāf kījiye, āp kaun haiṃ?", "en": "Excuse me, who are you?", "focus": "کون", "wrong": ["کیا|kyā", "کیسی|kaisī"] },
+        { "native": "یہ کیا ہے؟", "roman": "ye kyā hai?", "en": "What is this?", "focus": "کیا", "wrong": ["کون|kaun", "کیسا|kaisā"] },
+        { "native": "میرا نام احمد ہے۔", "roman": "merā nām Ahmad hai.", "en": "My name is Ahmed.", "focus": "ہے", "wrong": ["ہوں|hūṃ", "ہیں|haiṃ"] },
+        { "native": "آپ کا نام سارہ ہے؟", "roman": "āp kā nām Sāra hai?", "en": "Is your name Sarah?" },
+        { "native": "میرا نام سارہ ہے، اور آپ کا؟", "roman": "merā nām Sāra hai, aur āp kā?", "en": "My name's Sarah, and yours?" }
+      ]
+    },
+    {
+      "title": "Where are you from?",
+      "tip": { "title": "سے = from, after the place", "body": "- **سے** 'from' comes **after** the place: پاکستان **سے** = from Pakistan.\n- Where from? = **کہاں سے**: آپ کہاں سے ہیں؟\n- **یہاں** here, **وہاں** there: کیا آپ یہاں سے ہیں؟ = Are you from here?", "pattern": "place + سے + ہوں / ہیں" },
+      "new": ["کہاں", "ملک", "شہر", "ہندوستان", "یہاں", "وہاں", "آپ کہاں سے ہیں؟", "میں امریکہ سے ہوں۔"],
+      "sentences": [
+        { "native": "میں پاکستان سے ہوں۔", "roman": "maiṃ Pākistān se hūṃ.", "en": "I'm from Pakistan.", "focus": "سے", "wrong": ["کا|kā", "کیا|kyā"] },
+        { "native": "وہ کہاں سے ہیں؟", "roman": "vo kahāṃ se haiṃ?", "en": "Where is he from?", "focus": "کہاں", "wrong": ["کون|kaun", "کیا|kyā"] },
+        { "native": "ہم ہندوستان سے ہیں۔", "roman": "ham Hindustān se haiṃ.", "en": "We're from India.", "focus": "سے", "wrong": ["کا|kā", "کیا|kyā"] },
+        { "native": "کیا آپ یہاں سے ہیں؟", "roman": "kyā āp yahāṃ se haiṃ?", "en": "Are you from here?", "focus": "سے", "wrong": ["کا|kā", "کیا|kyā"] },
+        { "native": "سارہ، تم کہاں ہو؟", "roman": "Sāra, tum kahāṃ ho?", "en": "Sarah, where are you?", "focus": "کہاں", "wrong": ["کون|kaun", "کیا|kyā"] },
+        { "native": "آپ کا شہر کہاں ہے؟", "roman": "āp kā shahr kahāṃ hai?", "en": "Where's your town?", "focus": "کہاں", "wrong": ["کون|kaun", "کیسا|kaisā"] },
+        { "native": "احمد صاحب یہاں نہیں ہیں۔", "roman": "Ahmad sāhab yahāṃ nahīṃ haiṃ.", "en": "Mr Ahmed isn't here." },
+        { "native": "وہ وہاں ہے۔", "roman": "vo vahāṃ hai.", "en": "He's over there." },
+        { "native": "پاکستان بہت اچھا ملک ہے۔", "roman": "Pākistān bahut achchhā mulk hai.", "en": "Pakistan is a lovely country." },
+        { "native": "یہ شہر بہت اچھا ہے۔", "roman": "ye shahr bahut achchhā hai.", "en": "This city is really nice." }
+      ]
+    },
+    {
+      "title": "Which languages do you speak?",
+      "tip": { "title": "I speak: بولتا / بولتی ہوں", "body": "- 'I speak' = **میں بولتا ہوں** (a man) or **میں بولتی ہوں** (a woman).\n- With آپ, ہم, تم the verb ends in **-تے**: آپ بولتے ہیں, ہم بولتے ہیں (to a woman: آپ بولتی ہیں).\n- Languages are feminine: اردو **اچھی** ہے, **تھوڑی** اردو.", "pattern": "میں + language + بولتا / بولتی + ہوں" },
+      "new": ["زبان", "اردو", "انگریزی", "پنجابی", "بولنا", "سمجھنا", "تھوڑا", "کیا آپ اردو بولتے ہیں؟", "میں تھوڑی تھوڑی اردو بولتا ہوں۔"],
+      "sentences": [
+        { "native": "میں انگریزی بولتا ہوں۔", "roman": "maiṃ angrezī boltā hūṃ.", "en": "I speak English. (man)", "focus": "بولتا", "wrong": ["بولتی|boltī", "بولتے|bolte"] },
+        { "native": "میں اردو بولتی ہوں۔", "roman": "maiṃ urdū boltī hūṃ.", "en": "I speak Urdu. (woman)", "focus": "بولتی", "wrong": ["بولتا|boltā", "بولتے|bolte"] },
+        { "native": "کیا آپ پنجابی بولتے ہیں؟", "roman": "kyā āp panjābī bolte haiṃ?", "en": "Do you speak Punjabi? (to a man)", "focus": "بولتے", "wrong": ["بولتا|boltā", "بولتی|boltī"] },
+        { "native": "ہم اردو اور انگریزی بولتے ہیں۔", "roman": "ham urdū aur angrezī bolte haiṃ.", "en": "We speak Urdu and English.", "focus": "بولتے", "wrong": ["بولتا|boltā", "بولنا|bolnā"] },
+        { "native": "میں تھوڑی اردو سمجھتا ہوں۔", "roman": "maiṃ thoṛī urdū samajhtā hūṃ.", "en": "I understand a little Urdu. (man)", "focus": "تھوڑی", "wrong": ["تھوڑا|thoṛā", "تھوڑے|thoṛe"] },
+        { "native": "وہ انگریزی نہیں سمجھتی۔", "roman": "vo angrezī nahīṃ samajhtī.", "en": "She doesn't understand English.", "focus": "سمجھتی", "wrong": ["سمجھتا|samajhtā", "سمجھتے|samajhte"] },
+        { "native": "کیا تم انگریزی سمجھتے ہو؟", "roman": "kyā tum angrezī samajhte ho?", "en": "Do you understand English? (to a friend)", "focus": "ہو", "wrong": ["ہیں|haiṃ", "ہوں|hūṃ"] },
+        { "native": "اردو بہت اچھی زبان ہے۔", "roman": "urdū bahut achchhī zabān hai.", "en": "Urdu is a lovely language.", "focus": "اچھی", "wrong": ["اچھا|achchhā", "اچھے|achchhe"] }
+      ]
+    },
+    {
+      "title": "Where do you live?",
+      "tip": { "title": "میں = in, after the place", "body": "- **میں** after a place means 'in': کراچی **میں** = in Karachi. (It's spelled like میں 'I' — the position tells you which.)\n- 'I live' = میں **رہتا** ہوں (man) / میں **رہتی** ہوں (woman).\n- To *know* a language, say it 'comes to you': مجھے اردو **آتی** ہے.", "pattern": "place + میں + رہتا / رہتی + ہوں" },
+      "new": ["رہنا", "کب", "کیوں", "آنا", "میں کراچی میں رہتا ہوں۔", "میں لندن میں رہتی ہوں۔"],
+      "sentences": [
+        { "native": "ہم لاہور میں رہتے ہیں۔", "roman": "ham Lāhaur meṃ rahte haiṃ.", "en": "We live in Lahore.", "focus": "میں", "wrong": ["سے|se", "کا|kā"] },
+        { "native": "آپ کہاں رہتی ہیں؟", "roman": "āp kahāṃ rahtī haiṃ?", "en": "Where do you live? (to a woman)", "focus": "رہتی", "wrong": ["رہتا|rahtā", "رہتے|rahte"] },
+        { "native": "وہ کراچی میں نہیں رہتا۔", "roman": "vo Karāchī meṃ nahīṃ rahtā.", "en": "He doesn't live in Karachi.", "focus": "میں", "wrong": ["سے|se", "کا|kā"] },
+        { "native": "احمد صاحب وہاں رہتے ہیں۔", "roman": "Ahmad sāhab vahāṃ rahte haiṃ.", "en": "Mr Ahmed lives there.", "focus": "رہتے", "wrong": ["رہتی|rahtī", "رہنا|rahnā"] },
+        { "native": "مجھے اردو آتی ہے۔", "roman": "mujhe urdū ātī hai.", "en": "I know Urdu.", "focus": "آتی", "wrong": ["آتا|ātā", "آتے|āte"] },
+        { "native": "کیا آپ کو پنجابی آتی ہے؟", "roman": "kyā āp ko panjābī ātī hai?", "en": "Do you know Punjabi?", "focus": "آتی", "wrong": ["آتا|ātā", "آتے|āte"] },
+        { "native": "آپ یہاں کیوں رہتے ہیں؟", "roman": "āp yahāṃ kyoṃ rahte haiṃ?", "en": "Why do you live here?", "focus": "کیوں", "wrong": ["کب|kab", "کون|kaun"] },
+        { "native": "آپ پاکستان کب آتے ہیں؟", "roman": "āp Pākistān kab āte haiṃ?", "en": "When do you come to Pakistan?", "focus": "کب", "wrong": ["کیوں|kyoṃ", "کون|kaun"] },
+        { "native": "تم یہاں کیوں ہو؟", "roman": "tum yahāṃ kyoṃ ho?", "en": "Why are you here? (to a friend)" }
+      ]
+    },
+    {
+      "title": "Sorry, say that again?",
+      "tip": { "title": "Polite requests end in -iye", "body": "- To ask politely, use the **-یے** form: **بولیے** please speak, **کہیے** please say, **کیجیے** please do.\n- Soften it with براہ کرم or پلیز, and ask for help early: **آہستہ بولیے** — please speak slowly.\n- **صرف** = only, before the word: صرف انگریزی." },
+      "new": ["صرف", "بھی", "اور", "مجھے سمجھ نہیں آئی۔", "دوبارہ کہیے۔", "آہستہ بولیے۔", "اس کو اردو میں کیا کہتے ہیں؟"],
+      "sentences": [
+        { "native": "معاف کیجیے، دوبارہ بولیے۔", "roman": "muʿāf kījiye, dobāra boliye.", "en": "Sorry, please say it again.", "focus": "بولیے", "wrong": ["بولتا|boltā", "بولنا|bolnā"] },
+        { "native": "براہ کرم آہستہ بولیے۔", "roman": "barāh-e karam āhista boliye.", "en": "Please speak slowly.", "focus": "بولیے", "wrong": ["بولتا|boltā", "بولنا|bolnā"] },
+        { "native": "آہستہ کہیے، مجھے سمجھ نہیں آئی۔", "roman": "āhista kahiye, mujhe samajh nahīṃ ā’ī.", "en": "Say it slowly, I didn't understand.", "focus": "کہیے", "wrong": ["کہتا|kahtā", "کہنا|kahnā"] },
+        { "native": "تھوڑا اور آہستہ بولیے۔", "roman": "thoṛā aur āhista boliye.", "en": "A bit more slowly, please.", "focus": "بولیے", "wrong": ["بولتا|boltā", "بولنا|bolnā"] },
+        { "native": "اس کو انگریزی میں کیا کہتے ہیں؟", "roman": "is ko angrezī meṃ kyā kahte haiṃ?", "en": "What's this called in English?", "focus": "میں", "wrong": ["سے|se", "کا|kā"] },
+        { "native": "مجھے صرف تھوڑی اردو آتی ہے۔", "roman": "mujhe sirf thoṛī urdū ātī hai.", "en": "I only know a little Urdu." },
+        { "native": "میں صرف انگریزی بولتا ہوں۔", "roman": "maiṃ sirf angrezī boltā hūṃ.", "en": "I only speak English. (man)" },
+        { "native": "وہ اردو بھی بولتی ہے اور پنجابی بھی۔", "roman": "vo urdū bhī boltī hai aur panjābī bhī.", "en": "She speaks Urdu and Punjabi too." },
+        { "native": "میں بھی لاہور میں رہتی ہوں۔", "roman": "maiṃ bhī Lāhaur meṃ rahtī hūṃ.", "en": "I live in Lahore too. (woman)" }
+      ]
+    }
+  ]
 }

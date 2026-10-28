@@ -87,5 +87,87 @@
       { "speaker": "Kiran", "native": "ठीक आहे. धन्यवाद डॉक्टर.", "roman": "ṭhīk āhe. dhanyavād ḍôkṭar.", "en": "OK. Thank you, doctor." }
     ]
   },
-  "culture": "Many Marathi families have a trusted family doctor (फॅमिली डॉक्टर) and a stock of home remedies: हळद-दूध (turmeric milk) for a cough, आलं-तुळशीचा चहा (ginger-basil tea) for a cold, and lots of advice about 'hot' and 'cold' foods. Doctors are addressed simply as डॉक्टर or डॉक्टरसाहेब and referred to with respectful plural forms."
+  "culture": "Many Marathi families have a trusted family doctor (फॅमिली डॉक्टर) and a stock of home remedies: हळद-दूध (turmeric milk) for a cough, आलं-तुळशीचा चहा (ginger-basil tea) for a cold, and lots of advice about 'hot' and 'cold' foods. Doctors are addressed simply as डॉक्टर or डॉक्टरसाहेब and referred to with respectful plural forms.",
+  "lessons": [
+    {
+      "title": "Where does it hurt?",
+      "tip": { "title": "माझं डोकं दुखतंय", "body": "- The **body part** is the subject, so 'hurts' agrees with it: माझा पाय **दुखतोय** (m), माझी पाठ **दुखतेय** (f), माझं डोकं **दुखतंय** (n), माझे हात **दुखतायत** (pl).\n- Pain inside: **-त** + दुखतंय: माझ्या पोटात दुखतंय.\n- -तोय / -तेय / -तंय mean 'is …ing right now'; दुखते = hurts often.", "pattern": "body part + दुखतोय / दुखतेय / दुखतंय", "grammar": 0 },
+      "new": ["डोकं", "पोट", "पाठ", "पाय", "हात", "दुखणे", "माझं डोकं दुखतंय.", "माझ्या पोटात दुखतंय."],
+      "sentences": [
+        { "native": "माझा पाय दुखतोय.", "roman": "mādzhā pāy dukhtoy.", "en": "My leg hurts.", "focus": "दुखतोय", "wrong": ["दुखतेय|dukhtey", "दुखतंय|dukhtaṃy"] },
+        { "native": "माझी पाठ दुखतेय.", "roman": "mājhī pāṭh dukhtey.", "en": "My back hurts.", "focus": "दुखतेय", "wrong": ["दुखतोय|dukhtoy", "दुखतंय|dukhtaṃy"] },
+        { "native": "तुझं डोकं दुखतंय का?", "roman": "tudzhaṃ ḍokaṃ dukhtaṃy kā?", "en": "Have you got a headache?", "focus": "दुखतंय", "wrong": ["दुखतोय|dukhtoy", "दुखतेय|dukhtey"] },
+        { "native": "माझे हात दुखतायत.", "roman": "mājhe hāt dukhtāyat.", "en": "My arms are aching.", "focus": "दुखतायत", "wrong": ["दुखतोय|dukhtoy", "दुखतंय|dukhtaṃy"] },
+        { "native": "तिच्या पोटात दुखतंय.", "roman": "tichyā poṭāt dukhtaṃy.", "en": "She has a stomach ache.", "focus": "पोटात", "wrong": ["पोट|poṭ", "पोटाला|poṭālā"] },
+        { "native": "बाबांची पाठ दुखते.", "roman": "bābānchī pāṭh dukhte.", "en": "Dad's back often hurts.", "focus": "बाबांची", "wrong": ["बाबांचा|bābāntsā", "बाबांचं|bābāntsaṃ"] },
+        { "native": "कुठे दुखतंय?", "roman": "kuṭhe dukhtaṃy?", "en": "Where does it hurt?", "focus": "दुखतंय", "wrong": ["दुखतोय|dukhtoy", "दुखतेय|dukhtey"] },
+        { "native": "माझा हात दुखत नाही, पाय दुखतोय.", "roman": "mādzhā hāt dukhat nāhī, pāy dukhtoy.", "en": "My arm doesn't hurt, my leg does." }
+      ]
+    },
+    {
+      "title": "Eyes, ears, teeth",
+      "tip": { "title": "Plural body parts", "body": "- Some body parts are usually plural: **डोळे** eyes, **केस** hair, **दात** teeth (केस and दात look the same in the plural).\n- They take plural forms: माझे डोळे दुखतायत, तिचे केस लांब आहेत.\n- Inside the ear, chest: **कानात**, **छातीत** दुखतंय." },
+      "new": ["डोळा", "कान", "नाक", "तोंड", "दात", "केस", "घसा", "छाती", "शरीर"],
+      "sentences": [
+        { "native": "माझे डोळे दुखतायत.", "roman": "mājhe ḍoḷe dukhtāyat.", "en": "My eyes hurt.", "focus": "डोळे", "wrong": ["डोळा|ḍoḷā", "डोळी|ḍoḷī"] },
+        { "native": "तिचे केस खूप लांब आहेत.", "roman": "tiche kes khūp lāmb āhet.", "en": "Her hair is very long.", "focus": "तिचे", "wrong": ["तिचा|titsā", "तिची|tichī"] },
+        { "native": "त्याचे डोळे निळे आहेत.", "roman": "tyāche ḍoḷe niḷe āhet.", "en": "His eyes are blue.", "focus": "निळे", "wrong": ["निळा|niḷā", "निळ्या|niḷyā"] },
+        { "native": "माझा घसा दुखतोय.", "roman": "mādzhā ghasā dukhtoy.", "en": "I have a sore throat.", "focus": "दुखतोय", "wrong": ["दुखतेय|dukhtey", "दुखतंय|dukhtaṃy"] },
+        { "native": "माझा दात दुखतोय.", "roman": "mādzhā dāt dukhtoy.", "en": "I have a toothache.", "focus": "माझा", "wrong": ["माझी|mājhī", "माझं|mādzhaṃ"] },
+        { "native": "माझ्या कानात दुखतंय.", "roman": "mājhyā kānāt dukhtaṃy.", "en": "I have an earache.", "focus": "कानात", "wrong": ["कान|kān", "कानाला|kānālā"] },
+        { "native": "छातीत दुखतंय का?", "roman": "chhātīt dukhtaṃy kā?", "en": "Do you have any chest pain?", "focus": "छातीत", "wrong": ["छाती|chhātī", "छातीला|chhātīlā"] },
+        { "native": "माझं नाक बंद आहे.", "roman": "mādzhaṃ nāk band āhe.", "en": "My nose is blocked.", "focus": "माझं", "wrong": ["माझा|mādzhā", "माझी|mājhī"] },
+        { "native": "तोंड उघडा.", "roman": "toṇḍ ughḍā.", "en": "Open your mouth." },
+        { "native": "माझं सगळं शरीर दुखतंय.", "roman": "mādzhaṃ sagḷaṃ sharīr dukhtaṃy.", "en": "My whole body aches." }
+      ]
+    },
+    {
+      "title": "I don't feel well",
+      "tip": { "title": "मला ताप आहे, मला बरं वाटत नाही", "body": "- Illnesses: **मला** + illness + **आहे**: मला ताप आहे 'I have a fever'.\n- Just caught it: **झाला / झाली**, agreeing with the illness: खोकला **झाला** (m), सर्दी **झाली** (f).\n- Feelings use वाटणे: **मला बरं वाटतंय** 'I feel well', मला बरं **वाटत नाही** 'I don't feel well'." },
+      "new": ["ताप", "सर्दी", "खोकला", "उलटी", "आजारी", "वाटणे", "मला बरं वाटत नाही.", "मला ताप आहे.", "मला सर्दी झाली आहे."],
+      "sentences": [
+        { "native": "मला खोकला झाला आहे.", "roman": "malā khoklā dzhālā āhe.", "en": "I've got a cough.", "focus": "झाला", "wrong": ["झाली|dzhālī", "झालं|dzhālaṃ"] },
+        { "native": "तिला सर्दी आणि ताप आहे.", "roman": "tilā sardī āṇi tāp āhe.", "en": "She has a cold and a fever.", "focus": "तिला", "wrong": ["ती|tī", "तिची|tichī"] },
+        { "native": "त्याला ताप नाही.", "roman": "tyālā tāp nāhī.", "en": "He doesn't have a fever.", "focus": "त्याला", "wrong": ["तो|to", "त्याचा|tyātsā"] },
+        { "native": "आज तुम्हाला कसं वाटतंय?", "roman": "ādz tumhālā kasaṃ vāṭtaṃy?", "en": "How are you feeling today?", "focus": "तुम्हाला", "wrong": ["तुम्ही|tumhī", "तुमचं|tumtsaṃ"] },
+        { "native": "मला आता बरं वाटतंय.", "roman": "malā ātā baraṃ vāṭtaṃy.", "en": "I feel better now.", "focus": "वाटतंय", "wrong": ["वाटतोय|vāṭtoy", "वाटतेय|vāṭtey"] },
+        { "native": "आजीला बरं वाटत नाही.", "roman": "ājīlā baraṃ vāṭat nāhī.", "en": "Grandma isn't feeling well.", "focus": "आजीला", "wrong": ["आजी|ājī", "आजीची|ājīchī"] },
+        { "native": "मला उलटी होतेय.", "roman": "malā ulṭī hotey.", "en": "I'm going to be sick.", "focus": "होतेय", "wrong": ["होतोय|hotoy", "होतंय|hotaṃy"] },
+        { "native": "माझा मुलगा आजारी आहे.", "roman": "mādzhā mulgā ādzārī āhe.", "en": "My son is ill." },
+        { "native": "मी आज आजारी आहे, मी येत नाही.", "roman": "mī ādz ādzārī āhe, mī yet nāhī.", "en": "I'm ill today, I'm not coming." }
+      ]
+    },
+    {
+      "title": "At the doctor's",
+      "tip": { "title": "Medicine and the doctor", "body": "- Doctors get the respectful plural: **डॉक्टरांना** फोन करा.\n- 'Take' medicine = **घ्या**: गोळी घ्या. 'This' agrees: **हे** औषध (n), **ही** गोळी (f); plural **गोळ्या**.\n- **-तून** = 'out of': दिवसातून दोन गोळ्या 'two tablets a day'.\n- A cut 'happens': हाताला जखम **झाली**." },
+      "new": ["डॉक्टर", "दवाखाना", "औषध", "गोळी", "जखम", "इथे जवळ दवाखाना आहे का?", "डॉक्टरांना बोलवा.", "दिवसातून तीन वेळा ही गोळी घ्या.", "मला या औषधाची ॲलर्जी आहे."],
+      "sentences": [
+        { "native": "दवाखाना किती वाजता उघडतो?", "roman": "davākhānā kitī vādztā ughaḍto?", "en": "What time does the clinic open?", "focus": "उघडतो", "wrong": ["उघडते|ughaḍte", "उघडतं|ughaḍtaṃ"] },
+        { "native": "हे औषध जेवणानंतर घ्या.", "roman": "he aushadh jevaṇānantar ghyā.", "en": "Take this medicine after meals.", "focus": "हे", "wrong": ["हा|hā", "ही|hī"] },
+        { "native": "ही गोळी रात्री घ्या.", "roman": "hī goḷī rātrī ghyā.", "en": "Take this tablet at night.", "focus": "ही", "wrong": ["हा|hā", "हे|he"] },
+        { "native": "दिवसातून दोन गोळ्या घ्या.", "roman": "divasātūn don goḷyā ghyā.", "en": "Take two tablets a day.", "focus": "गोळ्या", "wrong": ["गोळी|goḷī", "गोळे|goḷe"] },
+        { "native": "डॉक्टरांना फोन करा.", "roman": "ḍôkṭarānnā fon karā.", "en": "Phone the doctor.", "focus": "डॉक्टरांना", "wrong": ["डॉक्टर|ḍôkṭar", "डॉक्टरांचा|ḍôkṭarāntsā"] },
+        { "native": "डॉक्टर, माझ्या मुलाला ताप आहे.", "roman": "ḍôkṭar, mājhyā mulālā tāp āhe.", "en": "Doctor, my son has a fever.", "focus": "मुलाला", "wrong": ["मुलगा|mulgā", "मुलाचा|mulātsā"] },
+        { "native": "हाताला जखम झाली आहे.", "roman": "hātālā dzakham dzhālī āhe.", "en": "I've cut my hand.", "focus": "झाली", "wrong": ["झाला|dzhālā", "झालं|dzhālaṃ"] },
+        { "native": "तुम्हाला कोणत्या औषधाची ॲलर्जी आहे?", "roman": "tumhālā koṇtyā aushadhāchī ælarjī āhe?", "en": "Which medicine are you allergic to?", "focus": "औषधाची", "wrong": ["औषधाचा|aushadhātsā", "औषधाचं|aushadhātsaṃ"] },
+        { "native": "दवाखाना आज बंद आहे.", "roman": "davākhānā ādz band āhe.", "en": "The clinic is closed today." }
+      ]
+    },
+    {
+      "title": "You should rest",
+      "tip": { "title": "'Should' and 'don't'", "body": "- 'Should' = stem + **-आवा / -आवी / -आवं**, agreeing with the thing: आराम करा**वा** (m), गोळी घ्या**वी** (f), औषध घ्या**वं** (n).\n- Everyday speech: stem + **-आयला हवं**: आपण दवाखान्यात जायला हवं.\n- 'Don't …' = stem + **-ऊ नका** (polite) / **-ऊ नकोस** (friend): काळजी करू नका.", "pattern": "करावा · जायला हवं · करू नका", "grammar": 1 },
+      "new": ["आराम", "काळजी", "काळजी घ्या.", "लवकर बरे व्हा!"],
+      "sentences": [
+        { "native": "तुम्ही दोन दिवस आराम करावा.", "roman": "tumhī don divas ārām karāvā.", "en": "You should rest for two days.", "focus": "करावा", "wrong": ["करावी|karāvī", "करावं|karāvaṃ"] },
+        { "native": "हे औषध रोज घ्यावं.", "roman": "he aushadh rodz ghyāvaṃ.", "en": "This medicine should be taken every day.", "focus": "घ्यावं", "wrong": ["घ्यावा|ghyāvā", "घ्यावी|ghyāvī"] },
+        { "native": "ही गोळी जेवणानंतर घ्यावी.", "roman": "hī goḷī jevaṇānantar ghyāvī.", "en": "This tablet should be taken after meals.", "focus": "घ्यावी", "wrong": ["घ्यावा|ghyāvā", "घ्यावं|ghyāvaṃ"] },
+        { "native": "तुम्ही भरपूर पाणी प्यायला हवं.", "roman": "tumhī bharpūr pāṇī pyāylā havaṃ.", "en": "You should drink plenty of water.", "focus": "प्यायला", "wrong": ["पितो|pito", "प्या|pyā"] },
+        { "native": "आपण दवाखान्यात जायला हवं.", "roman": "āpaṇ davākhānyāt dzāylā havaṃ.", "en": "We should go to the clinic.", "focus": "जायला", "wrong": ["जातो|dzāto", "जा|dzā"] },
+        { "native": "थंड पाणी पिऊ नका.", "roman": "thaṇḍ pāṇī piū nakā.", "en": "Don't drink cold water.", "focus": "पिऊ", "wrong": ["पितो|pito", "प्या|pyā"] },
+        { "native": "काळजी करू नकोस.", "roman": "kāḷjī karū nakos.", "en": "Don't worry. (to a friend)", "focus": "नकोस", "wrong": ["नाही|nāhī", "नाहीस|nāhīs"] },
+        { "native": "काळजी घे हं!", "roman": "kāḷjī ghe haṃ!", "en": "Take care, OK! (to a friend)", "focus": "घे", "wrong": ["घेतो|gheto", "घ्यावा|ghyāvā"] },
+        { "native": "लवकर बरी हो!", "roman": "lavkar barī ho!", "en": "Get well soon! (to a female friend)", "focus": "बरी", "wrong": ["बरा|barā", "बरे|bare"] }
+      ]
+    }
+  ]
 }

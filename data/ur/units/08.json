@@ -86,5 +86,103 @@
       { "speaker": "Nadia", "native": "بالکل ٹھیک ہے۔ لے لو!", "roman": "bilkul ṭhīk hai. le lo!", "en": "It's just right. Take it!" }
     ]
   },
-  "culture": "Colours carry meaning: brides traditionally wear red (لال جوڑا), white is associated with mourning and simplicity, and green with Islam and Pakistan's flag. Compliments are generous in Urdu, but praising a baby or someone's possessions is usually softened with ماشاء اللہ."
+  "culture": "Colours carry meaning: brides traditionally wear red (لال جوڑا), white is associated with mourning and simplicity, and green with Islam and Pakistan's flag. Compliments are generous in Urdu, but praising a baby or someone's possessions is usually softened with ماشاء اللہ.",
+  "lessons": [
+    {
+      "title": "What colour is it?",
+      "tip": { "title": "Colours that agree", "body": "- Colours ending in **-ا** change like میرا: **نیلا** دروازہ, **نیلی** گاڑی, **نیلے** جوتے.\n- Before میں, پر, کا … the -ا becomes **-ے**: **نیلے** رنگ میں = in blue.\n- Others never change: **لال, سفید** (and گلابی): لال کرسی, سفید کپڑے.", "pattern": "-ا (m) · -ی (f) · -ے (pl / before a postposition)", "grammar": 0 },
+      "new": ["رنگ", "لال", "نیلا", "ہرا", "پیلا", "کالا", "سفید", "یہ کس رنگ کا ہے؟", "کوئی اور رنگ ہے؟"],
+      "sentences": [
+        { "native": "میری گاڑی نیلی ہے۔", "roman": "merī gāṛī nīlī hai.", "en": "My car is blue.", "focus": "نیلی", "wrong": ["نیلا|nīlā", "نیلے|nīle"] },
+        { "native": "ہمارا دروازہ ہرا ہے۔", "roman": "hamārā darvāza harā hai.", "en": "Our door is green.", "focus": "ہرا", "wrong": ["ہری|harī", "ہرے|hare"] },
+        { "native": "مجھے کالی چائے پسند نہیں۔", "roman": "mujhe kālī chā’e pasand nahīṃ.", "en": "I don't like black tea.", "focus": "کالی", "wrong": ["کالا|kālā", "کالے|kāle"] },
+        { "native": "میرے جوتے کالے ہیں۔", "roman": "mere jūte kāle haiṃ.", "en": "My shoes are black.", "focus": "کالے", "wrong": ["کالا|kālā", "کالی|kālī"] },
+        { "native": "پیلے آم بہت میٹھے ہیں۔", "roman": "pīle ām bahut mīṭhe haiṃ.", "en": "The yellow mangoes are very sweet.", "focus": "پیلے", "wrong": ["پیلا|pīlā", "پیلی|pīlī"] },
+        { "native": "کیا یہ نیلے رنگ میں ہے؟", "roman": "kyā ye nīle rang meṃ hai?", "en": "Do you have it in blue?", "focus": "نیلے", "wrong": ["نیلا|nīlā", "نیلی|nīlī"] },
+        { "native": "یہ کس رنگ کی ہے؟", "roman": "ye kis rang kī hai?", "en": "What colour is it? (a feminine thing)", "focus": "کی", "wrong": ["کا|kā", "کے|ke"] },
+        { "native": "یہ لال کرسی کتنے کی ہے؟", "roman": "ye lāl kursī kitne kī hai?", "en": "How much is this red chair?", "focus": "کی", "wrong": ["کا|kā", "کے|ke"] },
+        { "native": "مجھے سفید رنگ بہت پسند ہے۔", "roman": "mujhe safed rang bahut pasand hai.", "en": "I really like white." }
+      ]
+    },
+    {
+      "title": "Big and small, new and old",
+      "tip": { "title": "New, big, older", "body": "- **نیا** 'new' has its own forms: **نیا** فون, **نئی** گاڑی, **نئے** جوتے.\n- **بڑا** means big *and* older: **بڑی** بہن = older sister; **چھوٹا** بھائی = younger brother.\n- **پرانا** is for things; for people say بزرگ (elderly)." },
+      "new": ["بڑا", "چھوٹا", "لمبا", "نیا", "پرانا", "بھورا", "گلابی"],
+      "sentences": [
+        { "native": "میرا فون نیا ہے۔", "roman": "merā fon nayā hai.", "en": "My phone is new.", "focus": "نیا", "wrong": ["نئی|na’ī", "نئے|na’e"] },
+        { "native": "یہ نئی گاڑی ہے؟", "roman": "ye na’ī gāṛī hai?", "en": "Is this a new car?", "focus": "نئی", "wrong": ["نیا|nayā", "نئے|na’e"] },
+        { "native": "ہمارا گھر بہت پرانا ہے۔", "roman": "hamārā ghar bahut purānā hai.", "en": "Our house is very old.", "focus": "پرانا", "wrong": ["پرانی|purānī", "پرانے|purāne"] },
+        { "native": "یہ کپڑے پرانے ہیں۔", "roman": "ye kapṛe purāne haiṃ.", "en": "These clothes are old.", "focus": "پرانے", "wrong": ["پرانا|purānā", "پرانی|purānī"] },
+        { "native": "یہ چھوٹا کمرہ میرا ہے۔", "roman": "ye chhoṭā kamra merā hai.", "en": "This small room is mine.", "focus": "چھوٹا", "wrong": ["چھوٹی|chhoṭī", "چھوٹے|chhoṭe"] },
+        { "native": "بڑے کمرے میں دو بستر ہیں۔", "roman": "baṛe kamre meṃ do bistar haiṃ.", "en": "There are two beds in the big room.", "focus": "بڑے", "wrong": ["بڑا|baṛā", "بڑی|baṛī"] },
+        { "native": "میری بڑی بہن لندن میں رہتی ہے۔", "roman": "merī baṛī bahan Landan meṃ rahtī hai.", "en": "My older sister lives in London.", "focus": "بڑی", "wrong": ["بڑا|baṛā", "بڑے|baṛe"] },
+        { "native": "وہ لڑکی بہت لمبی ہے۔", "roman": "vo laṛkī bahut lambī hai.", "en": "That girl is very tall.", "focus": "لمبی", "wrong": ["لمبا|lambā", "لمبے|lambe"] },
+        { "native": "ہماری بلی بھوری ہے۔", "roman": "hamārī billī bhūrī hai.", "en": "Our cat is brown.", "focus": "بھوری", "wrong": ["بھورا|bhūrā", "بھورے|bhūre"] },
+        { "native": "مجھے گلابی رنگ پسند نہیں۔", "roman": "mujhe gulābī rang pasand nahīṃ.", "en": "I don't like pink." }
+      ]
+    },
+    {
+      "title": "Hot, cold, clean, dirty",
+      "tip": { "title": "Agreement after the verb too", "body": "- The adjective agrees even at the end: کمرہ **گندا** ہے, چائے **ٹھنڈی** ہے, کپڑے **گندے** ہیں.\n- Words not ending in -ا stay the same: چائے **گرم** ہے, کمرہ **صاف** ہے.\n- Feminine things you'll describe a lot: چائے, روٹی, کتاب, گاڑی.", "pattern": "thing + adjective (agrees) + ہے", "grammar": 0 },
+      "new": ["گرم", "ٹھنڈا", "صاف", "گندا", "برا", "پیارا", "موٹا", "پتلا", "پانی بہت ٹھنڈا ہے۔"],
+      "sentences": [
+        { "native": "یہ پانی ٹھنڈا نہیں ہے۔", "roman": "ye pānī ṭhanḍā nahīṃ hai.", "en": "This water isn't cold.", "focus": "ٹھنڈا", "wrong": ["ٹھنڈی|ṭhanḍī", "ٹھنڈے|ṭhanḍe"] },
+        { "native": "مجھے ٹھنڈی چائے پسند نہیں۔", "roman": "mujhe ṭhanḍī chā’e pasand nahīṃ.", "en": "I don't like cold tea.", "focus": "ٹھنڈی", "wrong": ["ٹھنڈا|ṭhanḍā", "ٹھنڈے|ṭhanḍe"] },
+        { "native": "کمرہ بہت گندا ہے۔", "roman": "kamra bahut gandā hai.", "en": "The room is really dirty.", "focus": "گندا", "wrong": ["گندی|gandī", "گندے|gande"] },
+        { "native": "میرے کپڑے گندے ہیں۔", "roman": "mere kapṛe gande haiṃ.", "en": "My clothes are dirty.", "focus": "گندے", "wrong": ["گندا|gandā", "گندی|gandī"] },
+        { "native": "یہ کھانا برا نہیں ہے۔", "roman": "ye khānā burā nahīṃ hai.", "en": "This food isn't bad.", "focus": "برا", "wrong": ["بری|burī", "برے|bure"] },
+        { "native": "تمہاری بلی بہت پیاری ہے۔", "roman": "tumhārī billī bahut pyārī hai.", "en": "Your cat is so sweet.", "focus": "پیاری", "wrong": ["پیارا|pyārā", "پیارے|pyāre"] },
+        { "native": "یہ کتاب بہت موٹی ہے۔", "roman": "ye kitāb bahut moṭī hai.", "en": "This book is really thick.", "focus": "موٹی", "wrong": ["موٹا|moṭā", "موٹے|moṭe"] },
+        { "native": "مجھے پتلی روٹی پسند ہے۔", "roman": "mujhe patlī roṭī pasand hai.", "en": "I like thin roti.", "focus": "پتلی", "wrong": ["پتلا|patlā", "پتلے|patle"] },
+        { "native": "چائے بہت گرم ہے۔", "roman": "chā’e bahut garam hai.", "en": "The tea is very hot." },
+        { "native": "غسل خانہ صاف ہے؟", "roman": "ġusl xāna sāf hai?", "en": "Is the bathroom clean?" },
+        { "native": "ٹھنڈا پانی دیجیے۔", "roman": "ṭhanḍā pānī dījiye.", "en": "Cold water, please." }
+      ]
+    },
+    {
+      "title": "Easy or difficult? Light or heavy?",
+      "new": ["آسان", "مشکل", "ہلکا", "بھاری", "اردو اتنی مشکل نہیں ہے۔", "بالکل نیا لگتا ہے۔"],
+      "sentences": [
+        { "native": "انگریزی آسان نہیں ہے۔", "roman": "angrezī āsān nahīṃ hai.", "en": "English isn't easy." },
+        { "native": "کیا اردو مشکل ہے؟", "roman": "kyā urdū mushkil hai?", "en": "Is Urdu difficult?" },
+        { "native": "یہ میز بہت بھاری ہے۔", "roman": "ye mez bahut bhārī hai.", "en": "This table is very heavy." },
+        { "native": "مجھے ہلکا نیلا رنگ پسند ہے۔", "roman": "mujhe halkā nīlā rang pasand hai.", "en": "I like light blue.", "focus": "ہلکا", "wrong": ["ہلکی|halkī", "ہلکے|halke"] },
+        { "native": "یہ کرسی ہلکی ہے۔", "roman": "ye kursī halkī hai.", "en": "This chair is light.", "focus": "ہلکی", "wrong": ["ہلکا|halkā", "ہلکے|halke"] },
+        { "native": "آپ کا گھر بالکل نیا لگتا ہے۔", "roman": "āp kā ghar bilkul nayā lagtā hai.", "en": "Your house looks brand new.", "focus": "نیا", "wrong": ["نئی|na’ī", "نئے|na’e"] },
+        { "native": "یہ گاڑی بالکل نئی لگتی ہے۔", "roman": "ye gāṛī bilkul na’ī lagtī hai.", "en": "This car looks brand new.", "focus": "نئی", "wrong": ["نیا|nayā", "نئے|na’e"] }
+      ]
+    },
+    {
+      "title": "Bigger, better, the biggest",
+      "tip": { "title": "Than: سے · most: سب سے", "body": "- 'X is bigger than Y' = X **Y سے** بڑا ہے — literally 'X from Y is big'.\n- Pronouns change before سے: **مجھ سے** than me, **اس سے** than that/him.\n- 'The biggest' = **سب سے** بڑا (bigger than all). 'Better' = **بہتر**.", "pattern": "X + Y سے + adjective + ہے", "grammar": 1 },
+      "new": ["سے", "سب سے", "یہ اس سے بہتر ہے۔", "کراچی پاکستان کا سب سے بڑا شہر ہے۔", "میرا بڑا بھائی مجھ سے لمبا ہے۔"],
+      "sentences": [
+        { "native": "میرا بھائی مجھ سے بڑا ہے۔", "roman": "merā bhā’ī mujh se baṛā hai.", "en": "My brother is older than me.", "focus": "سے", "wrong": ["میں|meṃ", "کا|kā"] },
+        { "native": "لندن کراچی سے ٹھنڈا ہے۔", "roman": "Landan Karāchī se ṭhanḍā hai.", "en": "London is colder than Karachi.", "focus": "سے", "wrong": ["میں|meṃ", "کا|kā"] },
+        { "native": "یہ کمرہ اس سے چھوٹا ہے۔", "roman": "ye kamra us se chhoṭā hai.", "en": "This room is smaller than that one.", "focus": "اس", "wrong": ["وہ|vo", "میں|maiṃ"] },
+        { "native": "میری امی ابو سے لمبی ہیں۔", "roman": "merī ammī abbū se lambī haiṃ.", "en": "My mum is taller than my dad.", "focus": "لمبی", "wrong": ["لمبا|lambā", "لمبے|lambe"] },
+        { "native": "کیا اردو انگریزی سے مشکل ہے؟", "roman": "kyā urdū angrezī se mushkil hai?", "en": "Is Urdu harder than English?", "focus": "سے", "wrong": ["میں|meṃ", "کی|kī"] },
+        { "native": "یہ سب سے اچھی چائے ہے۔", "roman": "ye sab se achchhī chā’e hai.", "en": "This is the best tea.", "focus": "اچھی", "wrong": ["اچھا|achchhā", "اچھے|achchhe"] },
+        { "native": "سب سے بڑا کمرہ امی ابو کا ہے۔", "roman": "sab se baṛā kamra ammī abbū kā hai.", "en": "The biggest room is Mum and Dad's.", "focus": "بڑا", "wrong": ["بڑی|baṛī", "بڑے|baṛe"] },
+        { "native": "علی ہم سب سے لمبا ہے۔", "roman": "ʿAlī ham sab se lambā hai.", "en": "Ali is the tallest of us all." },
+        { "native": "آج کا کھانا کل سے بہتر ہے۔", "roman": "āj kā khānā kal se behtar hai.", "en": "Today's food is better than yesterday's.", "focus": "سے", "wrong": ["میں|meṃ", "کا|kā"] }
+      ]
+    },
+    {
+      "title": "Which one do you like?",
+      "tip": { "title": "Which one? The blue one", "body": "- **کون سا** 'which' agrees: کون **سا** کمرہ, کون **سی** گاڑی, کون **سے** جوتے.\n- 'The … one' = colour + **والا / والی / والے**: نیلا **والا** (m), کالی **والی** (f).\n- Pointing in a shop, that's all you need: **سفید والے** کتنے کے ہیں؟", "pattern": "کون سا / سی / سے · colour + والا / والی / والے" },
+      "new": ["کون سا", "خوبصورت", "آپ کا پسندیدہ رنگ کون سا ہے؟", "یہ بہت خوبصورت ہے!", "مجھے کالی والی پسند ہے۔"],
+      "sentences": [
+        { "native": "آپ کو کون سی گاڑی پسند ہے؟", "roman": "āp ko kaun sī gāṛī pasand hai?", "en": "Which car do you like?", "focus": "سی", "wrong": ["سا|sā", "سے|se"] },
+        { "native": "کون سا کمرہ آپ کا ہے؟", "roman": "kaun sā kamra āp kā hai?", "en": "Which room is yours?", "focus": "سا", "wrong": ["سی|sī", "سے|se"] },
+        { "native": "کون سے جوتے آپ کے ہیں؟", "roman": "kaun se jūte āp ke haiṃ?", "en": "Which shoes are yours?", "focus": "سے", "wrong": ["سا|sā", "سی|sī"] },
+        { "native": "تمہارا پسندیدہ کھانا کون سا ہے؟", "roman": "tumhārā pasandīda khānā kaun sā hai?", "en": "What's your favourite food? (to a friend)", "focus": "سا", "wrong": ["سی|sī", "سے|se"] },
+        { "native": "مجھے نیلا والا پسند ہے۔", "roman": "mujhe nīlā vālā pasand hai.", "en": "I like the blue one. (a masculine thing)", "focus": "والا", "wrong": ["والی|vālī", "والے|vāle"] },
+        { "native": "لال والی کتنے کی ہے؟", "roman": "lāl vālī kitne kī hai?", "en": "How much is the red one? (a feminine thing)", "focus": "والی", "wrong": ["والا|vālā", "والے|vāle"] },
+        { "native": "سفید والے جوتے کتنے کے ہیں؟", "roman": "safed vāle jūte kitne ke haiṃ?", "en": "How much are the white shoes?", "focus": "والے", "wrong": ["والا|vālā", "والی|vālī"] },
+        { "native": "آپ کی بیٹی بہت خوبصورت ہے۔", "roman": "āp kī beṭī bahut xūbsūrat hai.", "en": "Your daughter is very beautiful." },
+        { "native": "لاہور بہت خوبصورت شہر ہے۔", "roman": "Lāhaur bahut xūbsūrat shahr hai.", "en": "Lahore is a very beautiful city." }
+      ]
+    }
+  ]
 }

@@ -90,5 +90,105 @@
       { "speaker": "Seller", "native": "কুড়ি টাকা ফেরত।", "roman": "kuṛi ṭaka pherot.", "en": "Twenty rupees change." }
     ]
   },
-  "culture": "Both India and Bangladesh use the **lakh** (লাখ, 1,00,000) and **crore** (কোটি, 1,00,00,000) system, and commas are placed accordingly. The currency is the rupee (টাকা) in West Bengal and the taka (টাকা, ৳) in Bangladesh: in Bengali both are simply টাকা. Small change is পয়সা. Bengali has special words for fractions with numbers: দেড় (1½), আড়াই (2½), সাড়ে (+½ from 3 up): দেড়শো টাকা '150 taka'."
+  "culture": "Both India and Bangladesh use the **lakh** (লাখ, 1,00,000) and **crore** (কোটি, 1,00,00,000) system, and commas are placed accordingly. The currency is the rupee (টাকা) in West Bengal and the taka (টাকা, ৳) in Bangladesh: in Bengali both are simply টাকা. Small change is পয়সা. Bengali has special words for fractions with numbers: দেড় (1½), আড়াই (2½), সাড়ে (+½ from 3 up): দেড়শো টাকা '150 taka'.",
+  "lessons": [
+    {
+      "title": "Asking for one, two, three",
+      "tip": { "title": "Counting needs a classifier", "grammar": 0, "body": "- A number can't stand straight before a noun: add **টা** (everyday) or **টি** (polite): এক**টা** আম, দু**টো** কলা, তিন**টে** ডিম.\n- **খানা** is for flat or solid things, a bit old-fashioned: এক**খানা** বই.\n- After a noun, টা means 'the': বই**টা** 'the book'.\n- 'How many?' = **কটা**; 'give me' (polite) = **দিন**.", "pattern": "number + টা + noun  ·  কটা …?" },
+      "new": ["টা", "টি", "খানা", "কটা", "কিছু", "কটা চাই?", "দুটো দিন।", "আর একটা দিন।"],
+      "sentences": [
+        { "native": "আমার দুটো প্রশ্ন আছে।", "roman": "amar duṭo proshno achhe.", "en": "I have two questions.", "focus": "দুটো", "wrong": ["দুজন|dujon", "একজন|ækjon"] },
+        { "native": "কটা ডিম চাই?", "roman": "kôṭa ḍim chai?", "en": "How many eggs do you want?", "focus": "কটা", "wrong": ["কজন|kôjon", "কে|ke"] },
+        { "native": "ছটা ডিম দিন।", "roman": "chhôṭa ḍim din.", "en": "Six eggs, please.", "focus": "ছটা", "wrong": ["ছজন|chhôjon", "ছয়|chhoy"] },
+        { "native": "আমি তিনটে আম চাই।", "roman": "ami tinṭe am chai.", "en": "I want three mangoes.", "focus": "তিনটে", "wrong": ["তিনজন|tinjon", "তিন|tin"] },
+        { "native": "দুটো কলা আর একটা আম দিন।", "roman": "duṭo kôla ar ækṭa am din.", "en": "Two bananas and one mango, please.", "focus": "একটা", "wrong": ["একজন|ækjon", "এক|æk"] },
+        { "native": "আর একটা চা দিন, প্লিজ।", "roman": "ar ækṭa cha din, pliz.", "en": "One more tea, please.", "focus": "একটা", "wrong": ["একজন|ækjon", "এক|æk"] },
+        { "native": "আমাদের একটি ছেলে আর একটি মেয়ে আছে।", "roman": "amader ækṭi chhele ar ækṭi meye achhe.", "en": "We have a son and a daughter." },
+        { "native": "একখানা বই দিন।", "roman": "ækkhana boi din.", "en": "One book, please.", "focus": "একখানা", "wrong": ["একজন|ækjon", "এক|æk"] },
+        { "native": "আমার বইটা কোথায়?", "roman": "amar boiṭa kothay?", "en": "Where is my book?" },
+        { "native": "কিছু চাই?", "roman": "kichhu chai?", "en": "Do you need anything?" },
+        { "native": "না, কিছু চাই না।", "roman": "na, kichhu chai na.", "en": "No, I don't need anything." }
+      ]
+    },
+    {
+      "title": "How many of you?",
+      "tip": { "title": "People are counted with জন", "grammar": 0, "body": "- For people use **জন** instead of টা: এক**জন** বিদেশি, দু**জন** বন্ধু, পাঁচ**জন** ছাত্র.\n- 'How many people?' = **কজন**: আপনারা কজন?\n- **মোট** 'in all' comes before the number: মোট ছজন.", "pattern": "number + জন  ·  কজন?" },
+      "new": ["জন", "কজন", "মোট", "আমরা চারজন।"],
+      "sentences": [
+        { "native": "আপনারা কজন?", "roman": "apnara kôjon?", "en": "How many of you are there?", "focus": "কজন", "wrong": ["কটা|kôṭa", "কে|ke"] },
+        { "native": "আমরা পাঁচজন।", "roman": "amra paṃchjon.", "en": "There are five of us.", "focus": "পাঁচজন", "wrong": ["পাঁচটা|paṃchṭa", "পাঁচ|paṃch"] },
+        { "native": "আমার দুজন বন্ধু ঢাকায় থাকে।", "roman": "amar dujon bondhu ḍhakay thake.", "en": "Two of my friends live in Dhaka.", "focus": "দুজন", "wrong": ["দুটো|duṭo", "দুখানা|dukhana"] },
+        { "native": "ক্লাসে মোট কজন ছাত্র?", "roman": "klase moṭ kôjon chhatro?", "en": "How many students are in the class altogether?", "focus": "কজন", "wrong": ["কটা|kôṭa", "কে|ke"] },
+        { "native": "আমাদের পরিবারে মোট ছজন।", "roman": "amader poribare moṭ chhôjon.", "en": "There are six of us in the family altogether.", "focus": "ছজন", "wrong": ["ছটা|chhôṭa", "ছয়|chhoy"] },
+        { "native": "এখানে একজন বিদেশি থাকেন।", "roman": "ekhane ækjon bideshi thaken.", "en": "A foreigner lives here.", "focus": "একজন", "wrong": ["একটা|ækṭa", "একখানা|ækkhana"] },
+        { "native": "তোমরা কজন ভাইবোন?", "roman": "tomra kôjon bhaibon?", "en": "How many brothers and sisters are there in your family?", "focus": "কজন", "wrong": ["কটা|kôṭa", "কে|ke"] },
+        { "native": "আমরা চারজন, আর ওরা তিনজন।", "roman": "amra charjon, ar ora tinjon.", "en": "There are four of us and three of them.", "focus": "তিনজন", "wrong": ["তিনটে|tinṭe", "তিন|tin"] },
+        { "native": "মোট কত টাকা?", "roman": "moṭ kôto ṭaka?", "en": "How much is it in total?" }
+      ]
+    },
+    {
+      "title": "How old, how much?",
+      "tip": { "title": "কত: how much, how old", "grammar": 1, "body": "- **কত** asks for an amount: দাম **কত**? 'how much?', বয়স **কত**? 'how old?'.\n- Bengalis even ask a phone number with কত: ফোন নম্বর **কত**?\n- Age: আমার বয়স পঁচিশ **বছর** 'my age (is) 25 years'. Asking an elder's age directly can sound rude.", "pattern": "… + কত?" },
+      "new": ["কত", "বয়স", "বছর", "সংখ্যা", "আপনার বয়স কত?", "আমার বয়স পঁচিশ বছর।", "এটার দাম কত?", "আপনার ফোন নম্বর কত?"],
+      "sentences": [
+        { "native": "তোমার বয়স কত?", "roman": "tomar bôyosh kôto?", "en": "How old are you?", "focus": "কত", "wrong": ["কটা|kôṭa", "কজন|kôjon"] },
+        { "native": "মাফ করবেন, আপনার বয়স কত?", "roman": "maf korben, apnar bôyosh kôto?", "en": "Excuse me, how old are you?", "focus": "কত", "wrong": ["কটা|kôṭa", "কজন|kôjon"] },
+        { "native": "আমার বয়স পঁচিশ বছর, আর আমার ভাইয়ের বয়স তিরিশ।", "roman": "amar bôyosh poṃchish bôchhor, ar amar bhaiyer bôyosh tirish.", "en": "I'm twenty-five, and my brother is thirty." },
+        { "native": "আমার মেয়ের বয়স পাঁচ বছর।", "roman": "amar meyer bôyosh paṃch bôchhor.", "en": "My daughter is five." },
+        { "native": "দাদুর বয়স আশি বছর।", "roman": "dadur bôyosh ashi bôchhor.", "en": "Grandpa is eighty." },
+        { "native": "এটার দাম কত, দাদা?", "roman": "æṭar dam kôto, dada?", "en": "How much is this, dada?", "focus": "কত", "wrong": ["কটা|kôṭa", "কজন|kôjon"] },
+        { "native": "এই বইটার দাম কত?", "roman": "ei boiṭar dam kôto?", "en": "How much is this book?", "focus": "কত", "wrong": ["কটা|kôṭa", "কজন|kôjon"] },
+        { "native": "আচ্ছা, আপনার ফোন নম্বর কত?", "roman": "achchha, apnar phon nômbor kôto?", "en": "So, what's your phone number?", "focus": "কত", "wrong": ["কটা|kôṭa", "কজন|kôjon"] },
+        { "native": "ডিম কত করে?", "roman": "ḍim kôto kore?", "en": "How much are the eggs each?", "focus": "কত", "wrong": ["কটা|kôṭa", "কজন|kôjon"] },
+        { "native": "ক্লাসে ছাত্রের সংখ্যা কত?", "roman": "klase chhatrer shôṅkha kôto?", "en": "How many students are there in the class?", "focus": "কত", "wrong": ["কটা|kôṭa", "কজন|kôjon"] }
+      ]
+    },
+    {
+      "title": "By the dozen and the pair",
+      "tip": { "title": "Buying by the dozen", "body": "- Fruit and eggs are often sold by the **ডজন** (12) or হালি (4); shoes by the **জোড়া** 'pair'.\n- The quantity comes first: **অর্ধেক** ডজন 'half a dozen', এক জোড়া 'one pair'.\n- **শুধু** 'only, just' goes right before what it limits: শুধু একটু 'just a little'." },
+      "new": ["ডজন", "অর্ধেক", "জোড়া", "শুধু", "গোনা", "শুধু একটু।"],
+      "sentences": [
+        { "native": "অর্ধেক ডজন ডিম দিন।", "roman": "ôrdhek ḍôjon ḍim din.", "en": "Half a dozen eggs, please." },
+        { "native": "এক ডজন কলা কত?", "roman": "æk ḍôjon kôla kôto?", "en": "How much is a dozen bananas?" },
+        { "native": "এক জোড়া কত?", "roman": "æk joṛa kôto?", "en": "How much for a pair?" },
+        { "native": "শুধু একটু চা দিন।", "roman": "shudhu ekṭu cha din.", "en": "Just a little tea, please." },
+        { "native": "আমি শুধু অর্ধেক চাই।", "roman": "ami shudhu ôrdhek chai.", "en": "I only want half." },
+        { "native": "আমার শুধু দুটো দরকার।", "roman": "amar shudhu duṭo dôrkar.", "en": "I only need two." },
+        { "native": "উনি শুধু বাংলা বলেন।", "roman": "uni shudhu baṅla bôlen.", "en": "He/she only speaks Bengali." },
+        { "native": "টাকাটা একটু গুনে নিন।", "roman": "ṭakaṭa ekṭu gune nin.", "en": "Please count the money." }
+      ]
+    },
+    {
+      "title": "More, less, enough",
+      "tip": { "title": "More, less and enough", "body": "- **বেশি** = more, too much: দাম একটু বেশি 'the price is a bit high'.\n- **কম** = less, few: একটু কম করুন 'bring it down a little'.\n- **অনেক** a lot · **সব** all · **যথেষ্ট** enough.\n- To turn down more food politely: যথেষ্ট, ধন্যবাদ." },
+      "new": ["অনেক", "কম", "বেশি", "যথেষ্ট", "সব", "যথেষ্ট, ধন্যবাদ।"],
+      "sentences": [
+        { "native": "দাম একটু বেশি।", "roman": "dam ekṭu beshi.", "en": "The price is a bit high." },
+        { "native": "দাম একটু কম করুন।", "roman": "dam ekṭu kôm korun.", "en": "Please bring the price down a little." },
+        { "native": "এখানে অনেক বিদেশি থাকে।", "roman": "ekhane ônek bideshi thake.", "en": "Lots of foreigners live here." },
+        { "native": "আর চাই না, যথেষ্ট।", "roman": "ar chai na, jôtheshṭo.", "en": "I don't want any more, that's enough." },
+        { "native": "না না, যথেষ্ট, ধন্যবাদ।", "roman": "na na, jôtheshṭo, dhonnobad.", "en": "No, no, that's enough, thank you." },
+        { "native": "সব কত টাকা?", "roman": "shôb kôto ṭaka?", "en": "How much for everything?" },
+        { "native": "সব ঠিক আছে?", "roman": "shôb ṭhik achhe?", "en": "Is everything OK?" },
+        { "native": "ক্লাসে ছাত্র খুব কম।", "roman": "klase chhatro khub kôm.", "en": "There are very few students in the class." },
+        { "native": "আমি বাংলা কম বুঝি, ইংরেজি বেশি বুঝি।", "roman": "ami baṅla kôm bujhi, iṅreji beshi bujhi.", "en": "I understand less Bengali than English." }
+      ]
+    },
+    {
+      "title": "First, second, third",
+      "tip": { "title": "Ordinals: প্রথম, দ্বিতীয়, তৃতীয়", "grammar": 1, "body": "- The ordinals are separate words, not built from the numbers: **প্রথম** 1st, **দ্বিতীয়** 2nd, **তৃতীয়** 3rd, **চতুর্থ** 4th, **পঞ্চম** 5th … **দশম** 10th.\n- They sit before the noun like adjectives: দ্বিতীয় বছর 'second year'.\n- For the 1st of the month people say **পয়লা**.", "pattern": "প্রথম + noun" },
+      "new": ["প্রথম", "দ্বিতীয়", "তৃতীয়", "চতুর্থ", "পঞ্চম", "ষষ্ঠ", "সপ্তম", "অষ্টম", "নবম", "দশম", "এটা আমার প্রথম বার।"],
+      "sentences": [
+        { "native": "ঢাকায় এটা আমার প্রথম বার।", "roman": "ḍhakay æṭa amar prôthom bar.", "en": "It's my first time in Dhaka.", "focus": "প্রথম", "wrong": ["এক|æk", "একটা|ækṭa"] },
+        { "native": "ও তৃতীয় বছরের ছাত্র।", "roman": "o tritio bôchhorer chhatro.", "en": "He's a third-year student.", "focus": "তৃতীয়", "wrong": ["তিন|tin", "তিনটে|tinṭe"] },
+        { "native": "আমার দ্বিতীয় মেয়ের নাম মিতালী।", "roman": "amar ditio meyer nam mitali.", "en": "My second daughter's name is Mitali.", "focus": "দ্বিতীয়", "wrong": ["দুই|dui", "দুটো|duṭo"] },
+        { "native": "ঢাকায় এটা আমার চতুর্থ বছর।", "roman": "ḍhakay æṭa amar choturtho bôchhor.", "en": "This is my fourth year in Dhaka.", "focus": "চতুর্থ", "wrong": ["চার|char", "চারটে|charṭe"] },
+        { "native": "ও ক্লাসে পঞ্চম।", "roman": "o klase pônchom.", "en": "He/she is fifth in the class.", "focus": "পঞ্চম", "wrong": ["পাঁচ|paṃch", "পাঁচটা|paṃchṭa"] },
+        { "native": "এটা আমার ষষ্ঠ বাংলা ক্লাস।", "roman": "æṭa amar shôshṭho baṅla klas.", "en": "This is my sixth Bengali class.", "focus": "ষষ্ঠ", "wrong": ["ছয়|chhoy", "ছটা|chhôṭa"] },
+        { "native": "এটা ওর সপ্তম বই।", "roman": "æṭa or shôptom boi.", "en": "This is his/her seventh book.", "focus": "সপ্তম", "wrong": ["সাত|shat", "সাতটা|shatṭa"] },
+        { "native": "ক্লাসে ও অষ্টম, আমি নবম।", "roman": "klase o ôshṭom, ami nôbom.", "en": "In the class he/she's eighth and I'm ninth.", "focus": "নবম", "wrong": ["নয়|nôy", "নটা|nôṭa"] },
+        { "native": "ও প্রথম, আর আমি দশম।", "roman": "o prôthom, ar ami dôshom.", "en": "He/she came first, and I came tenth.", "focus": "দশম", "wrong": ["দশ|dôsh", "দশটা|dôshṭa"] }
+      ]
+    }
+  ]
 }

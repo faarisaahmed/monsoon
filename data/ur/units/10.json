@@ -86,5 +86,83 @@
       { "speaker": "Mariam", "native": "اچھا، مجھے دیر ہو رہی ہے۔ بعد میں بات کرتے ہیں!", "roman": "achchhā, mujhe der ho rahī hai. baʿd meṃ bāt karte haiṃ!", "en": "OK, I'm getting late. Let's talk later!" }
     ]
   },
-  "culture": "Daily life in Pakistan often follows the rhythm of prayer times, and in summer many people rest in the hottest hours of the afternoon. Evenings are social: families take walks, visit relatives, or gather at tea stalls (ڈھابے). Cricket is a national passion, played everywhere from stadiums to narrow streets (گلی کرکٹ)."
+  "culture": "Daily life in Pakistan often follows the rhythm of prayer times, and in summer many people rest in the hottest hours of the afternoon. Evenings are social: families take walks, visit relatives, or gather at tea stalls (ڈھابے). Cricket is a national passion, played everywhere from stadiums to narrow streets (گلی کرکٹ).",
+  "lessons": [
+    {
+      "title": "My morning",
+      "tip": { "title": "Things you do every day: اٹھتا ہوں", "body": "- Habits = verb stem + **-تا / -تی / -تے** + ہوں / ہے / ہیں: میں **اٹھتا** ہوں (man), میں **اٹھتی** ہوں (woman).\n- آپ, ہم, تم and respected people take **-تے** (or **-تی** for women): امی اٹھتی ہیں.\n- Order the day with **پہلے** first … **پھر** then.", "pattern": "stem + تا / تی / تے + ہوں / ہے / ہیں", "grammar": 0 },
+      "new": ["اٹھنا", "نہانا", "تیار ہونا", "پڑھنا", "نماز", "روز", "پہلے", "پھر", "میں روز صبح چھ بجے اٹھتا ہوں۔"],
+      "sentences": [
+        { "native": "میں روز سات بجے اٹھتی ہوں۔", "roman": "maiṃ roz sāt baje uṭhtī hūṃ.", "en": "I get up at seven every day. (woman)", "focus": "اٹھتی", "wrong": ["اٹھتا|uṭhtā", "اٹھتے|uṭhte"] },
+        { "native": "آپ کتنے بجے اٹھتے ہیں؟", "roman": "āp kitne baje uṭhte haiṃ?", "en": "What time do you get up? (to a man)", "focus": "اٹھتے", "wrong": ["اٹھتا|uṭhtā", "اٹھتی|uṭhtī"] },
+        { "native": "پہلے میں نہاتا ہوں، پھر ناشتہ کرتا ہوں۔", "roman": "pahle maiṃ nahātā hūṃ, phir nāshta kartā hūṃ.", "en": "First I shower, then I have breakfast. (man)", "focus": "نہاتا", "wrong": ["نہاتی|nahātī", "نہاتے|nahāte"] },
+        { "native": "ابو روز صبح نماز پڑھتے ہیں۔", "roman": "abbū roz subah namāz paṛhte haiṃ.", "en": "Dad prays every morning.", "focus": "پڑھتے", "wrong": ["پڑھتی|paṛhtī", "پڑھنا|paṛhnā"] },
+        { "native": "امی روز جلدی اٹھتی ہیں۔", "roman": "ammī roz jaldī uṭhtī haiṃ.", "en": "Mum gets up early every day.", "focus": "اٹھتی", "wrong": ["اٹھتا|uṭhtā", "اٹھتے|uṭhte"] },
+        { "native": "بچے سات بجے تیار ہوتے ہیں۔", "roman": "bachche sāt baje tayyār hote haiṃ.", "en": "The kids get ready at seven.", "focus": "ہوتے", "wrong": ["ہوتا|hotā", "ہوتی|hotī"] },
+        { "native": "تم کتنے بجے تیار ہوتی ہو؟", "roman": "tum kitne baje tayyār hotī ho?", "en": "What time do you get ready? (to a female friend)", "focus": "ہو", "wrong": ["ہیں|haiṃ", "ہے|hai"] },
+        { "native": "پھر میں چائے پیتا ہوں۔", "roman": "phir maiṃ chā’e pītā hūṃ.", "en": "Then I have tea. (man)" }
+      ]
+    },
+    {
+      "title": "What do you do for work?",
+      "tip": { "title": "'Not' drops the ہوں / ہے", "body": "- Negative habits: **نہیں** before the verb, and the ہوں / ہے / ہیں usually falls away: وہ کام **نہیں کرتا**.\n- 'To work' = **کام کرنا**; 'to go to work' = **کام پر جانا**.\n- 'To come back' = **واپس آنا**: میں چھ بجے واپس آتا ہوں.", "pattern": "… نہیں + کرتا / کرتی", "grammar": 0 },
+      "new": ["کام", "کرنا", "جانا", "لکھنا", "واپس", "آپ کیا کام کرتے ہیں؟", "آپ کتنے بجے گھر واپس آتے ہیں؟"],
+      "sentences": [
+        { "native": "میں ایک دکان میں کام کرتا ہوں۔", "roman": "maiṃ ek dukān meṃ kām kartā hūṃ.", "en": "I work in a shop. (man)", "focus": "کرتا", "wrong": ["کرتی|kartī", "کرتے|karte"] },
+        { "native": "میری بیوی کام نہیں کرتی۔", "roman": "merī bīvī kām nahīṃ kartī.", "en": "My wife doesn't work.", "focus": "کرتی", "wrong": ["کرتا|kartā", "کرتے|karte"] },
+        { "native": "وہ ہفتے کو کام نہیں کرتا۔", "roman": "vo hafte ko kām nahīṃ kartā.", "en": "He doesn't work on Saturdays.", "focus": "کرتا", "wrong": ["کرتی|kartī", "کرتے|karte"] },
+        { "native": "آپ کتنے بجے کام پر جاتے ہیں؟", "roman": "āp kitne baje kām par jāte haiṃ?", "en": "What time do you go to work?", "focus": "جاتے", "wrong": ["جاتا|jātā", "جاتی|jātī"] },
+        { "native": "میں شام چھ بجے واپس آتا ہوں۔", "roman": "maiṃ shām chhe baje vāpas ātā hūṃ.", "en": "I get back at 6 p.m. (man)", "focus": "آتا", "wrong": ["آتی|ātī", "آتے|āte"] },
+        { "native": "ابو کب واپس آتے ہیں؟", "roman": "abbū kab vāpas āte haiṃ?", "en": "When does Dad get back?", "focus": "آتے", "wrong": ["آتی|ātī", "آنا|ānā"] },
+        { "native": "وہ انگریزی میں لکھتی ہے۔", "roman": "vo angrezī meṃ likhtī hai.", "en": "She writes in English.", "focus": "لکھتی", "wrong": ["لکھتا|likhtā", "لکھتے|likhte"] },
+        { "native": "میرا بھائی کراچی میں کام کرتا ہے۔", "roman": "merā bhā’ī Karāchī meṃ kām kartā hai.", "en": "My brother works in Karachi." }
+      ]
+    },
+    {
+      "title": "Always, often, never",
+      "tip": { "title": "How often?", "body": "- **ہمیشہ** always · **اکثر** often · **عام طور پر** usually · **کبھی کبھی** sometimes.\n- **کبھی** + **نہیں** = never: وہ **کبھی** دیر سے **نہیں** آتا.\n- In a question, کبھی = ever: کیا آپ **کبھی** کھانا بناتے ہیں؟" },
+      "new": ["ہمیشہ", "اکثر", "کبھی", "عام طور پر", "بنانا", "میں عام طور پر گھر پر ناشتہ کرتی ہوں۔", "میں کبھی کبھی کھانا بناتا ہوں۔", "وہ کبھی دیر سے نہیں آتا۔"],
+      "sentences": [
+        { "native": "وہ ہمیشہ دیر سے آتا ہے۔", "roman": "vo hamesha der se ātā hai.", "en": "He's always late.", "focus": "ہمیشہ", "wrong": ["کبھی|kabhī", "اکثر|aksar"] },
+        { "native": "ہم اکثر باہر کھانا کھاتے ہیں۔", "roman": "ham aksar bāhar khānā khāte haiṃ.", "en": "We often eat out.", "focus": "اکثر", "wrong": ["ہمیشہ|hamesha", "کبھی|kabhī"] },
+        { "native": "وہ کبھی چائے نہیں پیتی۔", "roman": "vo kabhī chā’e nahīṃ pītī.", "en": "She never drinks tea.", "focus": "کبھی", "wrong": ["ہمیشہ|hamesha", "اکثر|aksar"] },
+        { "native": "کیا آپ کبھی کھانا بناتے ہیں؟", "roman": "kyā āp kabhī khānā banāte haiṃ?", "en": "Do you ever cook?", "focus": "کبھی", "wrong": ["ہمیشہ|hamesha", "اکثر|aksar"] },
+        { "native": "امی ہمیشہ مزیدار کھانا بناتی ہیں۔", "roman": "ammī hamesha mazedār khānā banātī haiṃ.", "en": "Mum always makes delicious food.", "focus": "بناتی", "wrong": ["بناتا|banātā", "بناتے|banāte"] },
+        { "native": "کبھی کبھی میں دیر سے اٹھتا ہوں۔", "roman": "kabhī kabhī maiṃ der se uṭhtā hūṃ.", "en": "Sometimes I get up late. (man)" },
+        { "native": "ابو عام طور پر گھر پر کھانا کھاتے ہیں۔", "roman": "abbū ʿām taur par ghar par khānā khāte haiṃ.", "en": "Dad usually eats at home." },
+        { "native": "میں اکثر چائے بناتا ہوں۔", "roman": "maiṃ aksar chā’e banātā hūṃ.", "en": "I often make the tea. (man)" }
+      ]
+    },
+    {
+      "title": "Cooking, washing, cricket",
+      "new": ["پکانا", "دھونا", "پہننا", "کھیلنا", "سونا", "خریداری", "ہم اتوار کو کرکٹ کھیلتے ہیں۔"],
+      "sentences": [
+        { "native": "امی روز کھانا پکاتی ہیں۔", "roman": "ammī roz khānā pakātī haiṃ.", "en": "Mum cooks every day.", "focus": "پکاتی", "wrong": ["پکاتا|pakātā", "پکاتے|pakāte"] },
+        { "native": "میں ہفتے کو کپڑے دھوتا ہوں۔", "roman": "maiṃ hafte ko kapṛe dhotā hūṃ.", "en": "I do the washing on Saturdays. (man)", "focus": "دھوتا", "wrong": ["دھوتی|dhotī", "دھوتے|dhote"] },
+        { "native": "ہم کھانے سے پہلے ہاتھ دھوتے ہیں۔", "roman": "ham khāne se pahle hāth dhote haiṃ.", "en": "We wash our hands before eating.", "focus": "دھوتے", "wrong": ["دھوتا|dhotā", "دھوتی|dhotī"] },
+        { "native": "وہ ہمیشہ سفید کپڑے پہنتے ہیں۔", "roman": "vo hamesha safed kapṛe pahante haiṃ.", "en": "He always wears white.", "focus": "پہنتے", "wrong": ["پہنتی|pahantī", "پہننا|pahannā"] },
+        { "native": "بچے شام کو باہر کھیلتے ہیں۔", "roman": "bachche shām ko bāhar khelte haiṃ.", "en": "The kids play outside in the evening.", "focus": "کھیلتے", "wrong": ["کھیلتا|kheltā", "کھیلتی|kheltī"] },
+        { "native": "ہفتے کے آخر میں ہم خریداری کرتے ہیں۔", "roman": "hafte ke āxir meṃ ham xarīdārī karte haiṃ.", "en": "We go shopping at the weekend.", "focus": "کرتے", "wrong": ["کرتا|kartā", "کرتی|kartī"] },
+        { "native": "میں رات کو دس بجے سوتا ہوں۔", "roman": "maiṃ rāt ko das baje sotā hūṃ.", "en": "I go to bed at ten. (man)", "focus": "سوتا", "wrong": ["سوتی|sotī", "سوتے|sote"] },
+        { "native": "تم کتنے بجے سوتے ہو؟", "roman": "tum kitne baje sote ho?", "en": "What time do you go to bed? (to a friend)", "focus": "سوتے", "wrong": ["سوتا|sotā", "سونا|sonā"] },
+        { "native": "کیا آپ کرکٹ کھیلتے ہیں؟", "roman": "kyā āp krikeṭ khelte haiṃ?", "en": "Do you play cricket?" }
+      ]
+    },
+    {
+      "title": "What are you doing right now?",
+      "tip": { "title": "Right now: کر رہا ہوں", "body": "- For what's happening now: verb stem + **رہا / رہی / رہے** + ہوں / ہے / ہیں.\n- **رہا** for a man, **رہی** for a woman, **رہے** for آپ, ہم, تم and plurals: ابو ٹی وی دیکھ **رہے** ہیں.\n- The stem stays a separate word: دیکھ رہا, سن رہی.", "pattern": "stem + رہا / رہی / رہے + ہوں / ہے / ہیں", "grammar": 1 },
+      "new": ["دیکھنا", "سننا", "گانا", "بعد میں", "آپ کیا کر رہے ہیں؟", "کچھ نہیں، بس ٹی وی دیکھ رہا ہوں۔", "وہ نہا رہی ہے۔", "میں تیار ہو رہی ہوں، پانچ منٹ!", "میں سونے جا رہا ہوں۔"],
+      "sentences": [
+        { "native": "میں گانا سن رہی ہوں۔", "roman": "maiṃ gānā sun rahī hūṃ.", "en": "I'm listening to a song. (woman)", "focus": "رہی", "wrong": ["رہا|rahā", "رہے|rahe"] },
+        { "native": "ابو ٹی وی دیکھ رہے ہیں۔", "roman": "abbū ṭī vī dekh rahe haiṃ.", "en": "Dad is watching TV.", "focus": "رہے", "wrong": ["رہا|rahā", "رہی|rahī"] },
+        { "native": "تم کیا کر رہی ہو؟", "roman": "tum kyā kar rahī ho?", "en": "What are you doing? (to a female friend)", "focus": "رہی", "wrong": ["رہا|rahā", "رہے|rahe"] },
+        { "native": "امی ابھی نماز پڑھ رہی ہیں۔", "roman": "ammī abhī namāz paṛh rahī haiṃ.", "en": "Mum is praying right now.", "focus": "رہی", "wrong": ["رہا|rahā", "رہے|rahe"] },
+        { "native": "لڑکے کرکٹ کھیل رہے ہیں۔", "roman": "laṛke krikeṭ khel rahe haiṃ.", "en": "The boys are playing cricket.", "focus": "رہے", "wrong": ["رہا|rahā", "رہی|rahī"] },
+        { "native": "میں کپڑے دھو رہا ہوں۔", "roman": "maiṃ kapṛe dho rahā hūṃ.", "en": "I'm doing the washing. (man)", "focus": "رہا", "wrong": ["رہی|rahī", "رہے|rahe"] },
+        { "native": "وہ گانا گا رہی ہے۔", "roman": "vo gānā gā rahī hai.", "en": "She's singing a song.", "focus": "رہی", "wrong": ["رہا|rahā", "رہے|rahe"] },
+        { "native": "کیا آپ سن رہے ہیں؟", "roman": "kyā āp sun rahe haiṃ?", "en": "Are you listening?", "focus": "رہے", "wrong": ["رہا|rahā", "رہی|rahī"] },
+        { "native": "ابھی میں کھانا کھا رہا ہوں، بعد میں فون کرتا ہوں۔", "roman": "abhī maiṃ khānā khā rahā hūṃ, baʿd meṃ fon kartā hūṃ.", "en": "I'm eating right now, I'll call you later. (man)", "focus": "رہا", "wrong": ["رہی|rahī", "رہے|rahe"] }
+      ]
+    }
+  ]
 }

@@ -101,5 +101,91 @@
       { "speaker": "Sarah", "native": "हाहा, ठीक छ। भोलि भेटौँला!", "roman": "hāhā, ṭhik chha. bholi bheṭauṃlā!", "en": "Haha, OK. See you tomorrow!" }
     ]
   },
-  "culture": "Nepalis joke about **नेपाली टाइम** 'Nepali time' — a meeting at 'seven' may start at half past. Festivals follow the lunar calendar, so their dates move every year: **Dashain** usually falls in Asoj or Kattik (Sept–Oct), **Tihar** a few weeks later, and the New Year **(नयाँ वर्ष)** on 1 Baisakh in mid-April. Official documents, school years and birthdays are usually given in Bikram Sambat (वि.सं. २०८३ ≈ 2026–27 AD), so if a Nepali friend says they were born in 2055, they mean about 1998!"
+  "culture": "Nepalis joke about **नेपाली टाइम** 'Nepali time' — a meeting at 'seven' may start at half past. Festivals follow the lunar calendar, so their dates move every year: **Dashain** usually falls in Asoj or Kattik (Sept–Oct), **Tihar** a few weeks later, and the New Year **(नयाँ वर्ष)** on 1 Baisakh in mid-April. Official documents, school years and birthdays are usually given in Bikram Sambat (वि.सं. २०८३ ≈ 2026–27 AD), so if a Nepali friend says they were born in 2055, they mean about 1998!",
+  "lessons": [
+    {
+      "title": "What time is it?",
+      "tip": { "title": "Telling the time", "body": "- **कति बज्यो?** 'What time is it?' Answer: hour + **बज्यो**: तीन बज्यो 'it's three'.\n- Quarters and halves go *before* the hour: **सवा** तीन 3:15, **साढे** तीन 3:30, **पौने** चार 3:45.\n- But 1:30 is **डेढ** and 2:30 is **अढाई**.", "pattern": "(सवा / साढे / पौने) + hour + बज्यो", "grammar": 0 },
+      "new": ["समय", "घडी", "बज्नु", "अहिले", "साढे", "सवा", "पौने", "अहिले कति बज्यो?", "ठ्याक्कै चार बज्यो।", "साढे नौ बज्यो।"],
+      "sentences": [
+        { "native": "अहिले तीन बज्यो।", "roman": "ahile tin bajyo.", "en": "It's three o'clock now.", "focus": "बज्यो", "wrong": ["बजे|baje", "बज्छ|bajchha"] },
+        { "native": "सवा दस बज्यो।", "roman": "sawā das bajyo.", "en": "It's quarter past ten.", "focus": "सवा", "wrong": ["साढे|sāḍhe", "पौने|paune"] },
+        { "native": "पौने आठ बज्यो।", "roman": "paune āṭh bajyo.", "en": "It's quarter to eight.", "focus": "पौने", "wrong": ["सवा|sawā", "साढे|sāḍhe"] },
+        { "native": "साढे पाँच बज्यो।", "roman": "sāḍhe pāṃch bajyo.", "en": "It's half past five.", "focus": "साढे", "wrong": ["सवा|sawā", "पौने|paune"] },
+        { "native": "डेढ बज्यो।", "roman": "ḍeḍh bajyo.", "en": "It's half past one.", "focus": "डेढ", "wrong": ["साढे|sāḍhe", "अढाई|aḍhāi"] },
+        { "native": "अढाई बज्यो?", "roman": "aḍhāi bajyo?", "en": "Is it half past two already?", "focus": "अढाई", "wrong": ["डेढ|ḍeḍh", "साढे|sāḍhe"] },
+        { "native": "तपाईंको घडीमा कति बज्यो?", "roman": "tapāiṃko ghaḍimā kati bajyo?", "en": "What time is it by your watch?", "focus": "बज्यो", "wrong": ["बजे|baje", "बज्छ|bajchha"] },
+        { "native": "ठ्याक्कै बाह्र बज्यो।", "roman": "ṭhyākkai bāhra bajyo.", "en": "It's exactly twelve.", "focus": "बज्यो", "wrong": ["बजे|baje", "बज्छ|bajchha"] },
+        { "native": "मसँग घडी छैन।", "roman": "masaṃga ghaḍi chhaina.", "en": "I don't have a watch." },
+        { "native": "तपाईंसँग अहिले समय छ?", "roman": "tapāiṃsaṃga ahile samaya chha?", "en": "Do you have time now?" }
+      ]
+    },
+    {
+      "title": "Morning, afternoon, evening",
+      "tip": { "title": "'At six': बजे", "body": "- 'At' a time is **बजे**: छ **बजे** 'at six'. (बज्यो is only for 'it is…'.)\n- Put the part of the day in front: **बिहान** सात बजे 7 a.m., **दिउँसो** दुई बजे 2 p.m., **बेलुका** छ बजे 6 p.m., **राति** दस बजे 10 p.m.\n- How long: दुई **घण्टा**, दस **मिनेट** (no word for 'for').", "pattern": "बिहान / दिउँसो / बेलुका / राति + hour + बजे" },
+      "new": ["बिहान", "दिउँसो", "बेलुका", "राति", "घण्टा", "मिनेट", "तपाईं कति बजे उठ्नुहुन्छ?", "म बिहान छ बजे उठ्छु।", "एकछिन पर्खनुहोस्।"],
+      "sentences": [
+        { "native": "म बिहान साढे छ बजे उठ्छु।", "roman": "ma bihāna sāḍhe chha baje uṭhchhu.", "en": "I get up at half past six in the morning.", "focus": "बजे", "wrong": ["बज्यो|bajyo", "बज्छ|bajchha"] },
+        { "native": "दिउँसो दुई बजे खाना खाऔँ।", "roman": "diuṃso dui baje khānā khāauṃ.", "en": "Let's eat at two in the afternoon.", "focus": "बजे", "wrong": ["बज्यो|bajyo", "बज्छ|bajchha"] },
+        { "native": "बेलुका छ बजे घरमा आउनुहोस्।", "roman": "belukā chha baje gharmā āunuhos.", "en": "Come to the house at six in the evening.", "focus": "बजे", "wrong": ["बज्यो|bajyo", "बज्छ|bajchha"] },
+        { "native": "म राति दस बजे सुत्छु।", "roman": "ma rāti das baje sutchhu.", "en": "I go to bed at ten at night.", "focus": "राति", "wrong": ["बिहान|bihāna", "दिउँसो|diuṃso"] },
+        { "native": "तिमी कति बजे उठ्छौ?", "roman": "timi kati baje uṭhchhau?", "en": "What time do you get up? (to a friend)", "focus": "बजे", "wrong": ["बज्यो|bajyo", "बज्छ|bajchha"] },
+        { "native": "बस कति बजे छुट्छ?", "roman": "bas kati baje chhuṭchha?", "en": "What time does the bus leave?", "focus": "बजे", "wrong": ["बज्यो|bajyo", "बज्छ|bajchha"] },
+        { "native": "दुई घण्टा लाग्छ।", "roman": "dui ghanṭā lāgchha.", "en": "It takes two hours." },
+        { "native": "दस मिनेट पर्खनुहोस् न।", "roman": "das mineṭ parkhanuhos na.", "en": "Please wait ten minutes." },
+        { "native": "म दिउँसो घरमा हुन्छु।", "roman": "ma diuṃso gharmā hunchhu.", "en": "I'm at home in the afternoon." },
+        { "native": "पाँच मिनेट मात्र।", "roman": "pāṃch mineṭ mātra.", "en": "Just five minutes." }
+      ]
+    },
+    {
+      "title": "Today, tomorrow, yesterday",
+      "tip": { "title": "Time words first", "body": "- Time words usually come first and need no 'on': **भोलि** भेटौँ 'let's meet tomorrow'.\n- **हिजो** 'yesterday' and **अस्ति** 'the other day' go with past verbs (गयो, आएँ); **भोलि** and **पर्सि** with present/future ones (जान्छु).\n- **अहिले** = 'at the moment'; **अब** = 'now, from now on, next'.", "pattern": "time word + … + verb" },
+      "new": ["आज", "भोलि", "हिजो", "पर्सि", "अस्ति", "अब", "भोलि भेटौँ है।", "मसँग समय छैन।"],
+      "sentences": [
+        { "native": "भोलि बेलुका भेटौँ।", "roman": "bholi belukā bheṭauṃ.", "en": "Let's meet tomorrow evening.", "focus": "भोलि", "wrong": ["हिजो|hijo", "अस्ति|asti"] },
+        { "native": "हिजो बत्ती गयो।", "roman": "hijo batti gayo.", "en": "The power went off yesterday.", "focus": "हिजो", "wrong": ["भोलि|bholi", "पर्सि|parsi"] },
+        { "native": "पर्सि म पाटन जान्छु।", "roman": "parsi ma Pāṭan jānchhu.", "en": "The day after tomorrow I'm going to Patan.", "focus": "पर्सि", "wrong": ["अस्ति|asti", "हिजो|hijo"] },
+        { "native": "अस्ति म ठमेल गएँ।", "roman": "asti ma Ṭhamel gaeṃ.", "en": "I went to Thamel the other day.", "focus": "अस्ति", "wrong": ["पर्सि|parsi", "भोलि|bholi"] },
+        { "native": "आज मसँग समय छैन।", "roman": "āja masaṃga samaya chhaina.", "en": "I don't have time today." },
+        { "native": "अब खाना खाऔँ।", "roman": "aba khānā khāauṃ.", "en": "Let's eat now.", "focus": "अब", "wrong": ["हिजो|hijo", "अस्ति|asti"] },
+        { "native": "ल, अब म जान्छु।", "roman": "la, aba ma jānchhu.", "en": "Right, I'm off now.", "focus": "अब", "wrong": ["हिजो|hijo", "अस्ति|asti"] },
+        { "native": "भोलि आउनुहोस् न।", "roman": "bholi āunuhos na.", "en": "Please come tomorrow.", "focus": "भोलि", "wrong": ["हिजो|hijo", "अस्ति|asti"] },
+        { "native": "हिजो दाइ आउनुभयो।", "roman": "hijo dāi āunubhayo.", "en": "Brother came yesterday.", "focus": "हिजो", "wrong": ["भोलि|bholi", "पर्सि|parsi"] }
+      ]
+    },
+    {
+      "title": "Days of the week",
+      "tip": { "title": "Days end in -बार", "body": "- Every day ends in **-बार**: आइतबार, सोमबार, मङ्गलबार, बुधबार, बिहीबार, शुक्रबार, शनिबार.\n- No word for 'on': **सोमबार** आउनुहोस् 'come on Monday'.\n- **शनिबार** (Saturday) is the day off; Sunday is a working day.\n- 'What day?' = के बार? 'What date?' = कति गते? (Nepali calendar).", "pattern": "आज + day + हो", "grammar": 1 },
+      "new": ["आइतबार", "सोमबार", "मङ्गलबार", "बुधबार", "बिहीबार", "शुक्रबार", "शनिबार", "आज के बार?", "आज शुक्रबार हो।", "आज कति गते?"],
+      "sentences": [
+        { "native": "आज आइतबार हो।", "roman": "āja āitabār ho.", "en": "Today is Sunday.", "focus": "आइतबार", "wrong": ["शनिबार|sanibār", "सोमबार|sombār"] },
+        { "native": "शनिबार भेटौँ?", "roman": "sanibār bheṭauṃ?", "en": "Shall we meet on Saturday?", "focus": "शनिबार", "wrong": ["शुक्रबार|sukrabār", "आइतबार|āitabār"] },
+        { "native": "भोलि मङ्गलबार हो?", "roman": "bholi maṅgalbār ho?", "en": "Is tomorrow Tuesday?", "focus": "मङ्गलबार", "wrong": ["बुधबार|budhabār", "सोमबार|sombār"] },
+        { "native": "होइन, भोलि बुधबार हो।", "roman": "hoina, bholi budhabār ho.", "en": "No, tomorrow's Wednesday.", "focus": "बुधबार", "wrong": ["बिहीबार|bihibār", "मङ्गलबार|maṅgalbār"] },
+        { "native": "म बिहीबार आउँछु।", "roman": "ma bihibār āuṃchhu.", "en": "I'll come on Thursday.", "focus": "बिहीबार", "wrong": ["शुक्रबार|sukrabār", "बुधबार|budhabār"] },
+        { "native": "शुक्रबार बेलुका समय छ?", "roman": "sukrabār belukā samaya chha?", "en": "Are you free on Friday evening?", "focus": "शुक्रबार", "wrong": ["शनिबार|sanibār", "बिहीबार|bihibār"] },
+        { "native": "सोमबार बिहान दस बजे आउनुहोस्।", "roman": "sombār bihāna das baje āunuhos.", "en": "Come on Monday at ten in the morning.", "focus": "सोमबार", "wrong": ["मङ्गलबार|maṅgalbār", "आइतबार|āitabār"] },
+        { "native": "हिजो के बार थियो?", "roman": "hijo ke bār thiyo?", "en": "What day was it yesterday?" },
+        { "native": "भोलि कति गते हो?", "roman": "bholi kati gate ho?", "en": "What's the date tomorrow?" }
+      ]
+    },
+    {
+      "title": "From when till when?",
+      "tip": { "title": "Before, after, from … until", "body": "- **-पछि** 'after / in': दुई दिन**पछि** 'in two days', खाना**पछि** 'after the meal'.\n- **अघि** 'ago', **पहिले** 'before, first': दुई महिना **अघि** 'two months ago'.\n- **-देखि … -सम्म** 'from … until': सोमबार**देखि** शुक्रबार**सम्म**.\n- यो हप्ता 'this week', अर्को महिना 'next month'.", "pattern": "X-देखि Y-सम्म  ·  दुई दिनपछि  ·  दुई दिन अघि", "grammar": 2 },
+      "new": ["पछि", "पहिले", "दिन", "हप्ता", "महिना", "पसल कति बजेसम्म खुल्छ?", "बिहान दस बजेदेखि बेलुका सात बजेसम्म।"],
+      "sentences": [
+        { "native": "पसल बिहान आठ बजेदेखि खुल्छ।", "roman": "pasal bihāna āṭh bajedekhi khulchha.", "en": "The shop opens from eight in the morning.", "focus": "बजेदेखि", "wrong": ["बजेसम्म|bajesamma", "बज्यो|bajyo"] },
+        { "native": "म सोमबारदेखि शुक्रबारसम्म अफिसमा हुन्छु।", "roman": "ma sombārdekhi sukrabārsamma aphismā hunchhu.", "en": "I'm at the office Monday to Friday.", "focus": "शुक्रबारसम्म", "wrong": ["शुक्रबारदेखि|sukrabārdekhi", "शुक्रबारमा|sukrabārmā"] },
+        { "native": "दुई दिनपछि भेटौँ।", "roman": "dui dinpachhi bheṭauṃ.", "en": "Let's meet in two days.", "focus": "दिनपछि", "wrong": ["दिनदेखि|dindekhi", "दिनसम्म|dinsamma"] },
+        { "native": "खानापछि चिया खाऔँ।", "roman": "khānāpachhi chiyā khāauṃ.", "en": "Let's have tea after the meal.", "focus": "खानापछि", "wrong": ["खानादेखि|khānādekhi", "खानासम्म|khānāsamma"] },
+        { "native": "म एक हप्तापछि आउँछु।", "roman": "ma ek haptāpachhi āuṃchhu.", "en": "I'll come in a week.", "focus": "हप्तापछि", "wrong": ["हप्तासम्म|haptāsamma", "हप्तादेखि|haptādekhi"] },
+        { "native": "म दुई महिना अघि नेपाल आएँ।", "roman": "ma dui mahinā aghi Nepāl āeṃ.", "en": "I came to Nepal two months ago.", "focus": "अघि", "wrong": ["पछि|pachhi", "सम्म|samma"] },
+        { "native": "पहिले चिया खाऔँ, अनि खाना।", "roman": "pahile chiyā khāauṃ, ani khānā.", "en": "Let's have tea first, then eat.", "focus": "पहिले", "wrong": ["पछि|pachhi", "अहिले|ahile"] },
+        { "native": "अफिस कति बजेसम्म खुल्छ?", "roman": "aphis kati bajesamma khulchha?", "en": "Until what time is the office open?", "focus": "बजेसम्म", "wrong": ["बजेदेखि|bajedekhi", "बज्यो|bajyo"] },
+        { "native": "म पछि फोन गर्छु।", "roman": "ma pachhi phon garchhu.", "en": "I'll call later.", "focus": "पछि", "wrong": ["पहिले|pahile", "अघि|aghi"] },
+        { "native": "यो हप्ता मसँग समय छैन।", "roman": "yo haptā masaṃga samaya chhaina.", "en": "I don't have time this week." },
+        { "native": "अर्को महिना म भारत जान्छु।", "roman": "arko mahinā ma Bhārat jānchhu.", "en": "Next month I'm going to India." }
+      ]
+    }
+  ]
 }

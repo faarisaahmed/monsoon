@@ -99,5 +99,100 @@
       { "speaker": "Vendor", "native": "હા, લો. આવજો, બેન!", "roman": "hā, lo. āvjo, ben!", "en": "Sure, here. Bye, ben!" }
     ]
   },
-  "culture": "Vendors traditionally throw in a few green chillies and a bunch of coriander for free — it's normal to ask for them. Prices are quoted 'per kilo' with -e: ચાલીસ રૂપિયે કિલો 'forty rupees a kilo'. Large amounts are counted in **lakhs** (લાખ, 100,000) and **crores** (કરોડ, 10 million), and written 1,00,000 rather than 100,000."
+  "culture": "Vendors traditionally throw in a few green chillies and a bunch of coriander for free — it's normal to ask for them. Prices are quoted 'per kilo' with -e: ચાલીસ રૂપિયે કિલો 'forty rupees a kilo'. Large amounts are counted in **lakhs** (લાખ, 100,000) and **crores** (કરોડ, 10 million), and written 1,00,000 rather than 100,000.",
+  "lessons": [
+    {
+      "title": "Counting people and things",
+      "tip": { "title": "Numbers before nouns", "body": "- The number comes first and never changes: **બે** ભાઈ, **ત્રણ** દીકરા.\n- -ો and -ું nouns change in the plural: દીકરો → ત્રણ **દીકરા**, છોકરું → છ **છોકરાં**.\n- Count people with **જણ**: અમે પાંચ **જણ** છીએ 'there are five of us'.", "pattern": "number + plural noun", "grammar": 0 },
+      "new": ["ગણવું", "જણ", "કેટલા", "તમારે કેટલાં છોકરાં છે?", "ફક્ત", "ફક્ત બે મિનિટ."],
+      "sentences": [
+        { "native": "મારે ત્રણ દીકરા છે.", "roman": "māre traṇ dīkrā chhe.", "en": "I have three sons.", "focus": "દીકરા", "wrong": ["દીકરો|dīkro", "દીકરી|dīkrī"] },
+        { "native": "અમે પાંચ જણ છીએ.", "roman": "ame pāṃch jaṇ chhīe.", "en": "There are five of us.", "focus": "છીએ", "wrong": ["છે|chhe", "છો|chho"] },
+        { "native": "તમારે કેટલા ભાઈ છે?", "roman": "tamāre keṭlā bhāī chhe?", "en": "How many brothers do you have?", "focus": "કેટલા", "wrong": ["કેટલું|keṭluṃ", "કેટલી|keṭlī"] },
+        { "native": "ઘરમાં છ છોકરાં છે.", "roman": "gharmāṃ chha chhokrāṃ chhe.", "en": "There are six children in the house.", "focus": "છોકરાં", "wrong": ["છોકરું|chhokruṃ", "છોકરો|chhokro"] },
+        { "native": "ફક્ત બે છોકરીઓ ગુજરાતી બોલે છે.", "roman": "fakt be chhokrīo gujarātī bole chhe.", "en": "Only two girls speak Gujarati.", "focus": "છોકરીઓ", "wrong": ["છોકરો|chhokro", "છોકરું|chhokruṃ"] },
+        { "native": "તમે ગુજરાતીમાં ગણો છો?", "roman": "tame gujarātīmāṃ gaṇo chho?", "en": "Do you count in Gujarati?" },
+        { "native": "અમારા ગામમાં ફક્ત સો લોકો રહે છે.", "roman": "amārā gāmmāṃ fakt so loko rahe chhe.", "en": "Only a hundred people live in our village." },
+        { "native": "આ ગામમાં કેટલા લોકો રહે છે?", "roman": "ā gāmmāṃ keṭlā loko rahe chhe?", "en": "How many people live in this village?", "focus": "કેટલા", "wrong": ["કેટલું|keṭluṃ", "કેટલી|keṭlī"] },
+        { "native": "મારે બે ભાઈ અને એક બહેન છે.", "roman": "māre be bhāī ane ek bahen chhe.", "en": "I have two brothers and a sister." }
+      ]
+    },
+    {
+      "title": "Asking how old and how much",
+      "tip": { "title": "How much? How old?", "body": "- **કેટલું** agrees with its noun: કેટલો (m), **કેટલી** ઉંમર (f), **કેટલું** દૂધ (n), **કેટલા** લોકો (pl).\n- Age: number + **વર્ષનો / વર્ષની / વર્ષનું**, agreeing with the person: એ દસ વર્ષ**નો** છે, મારી બહેન વીસ વર્ષ**ની** છે.\n- Respected men: મારા પપ્પા સાઠ વર્ષ**ના** છે.", "pattern": "person + number + વર્ષનો / વર્ષની + છે", "grammar": 1 },
+      "new": ["ઉંમર", "વર્ષ", "કેટલું", "તમારી ઉંમર કેટલી છે?", "હું પચ્ચીસ વર્ષનો છું.", "હું ત્રીસ વર્ષની છું."],
+      "sentences": [
+        { "native": "તમારી દીકરી કેટલા વર્ષની છે?", "roman": "tamārī dīkrī keṭlā varṣnī chhe?", "en": "How old is your daughter?", "focus": "વર્ષની", "wrong": ["વર્ષનો|varṣno", "વર્ષનું|varṣnuṃ"] },
+        { "native": "એ દસ વર્ષનો છે.", "roman": "e das varṣno chhe.", "en": "He's ten.", "focus": "વર્ષનો", "wrong": ["વર્ષની|varṣnī", "વર્ષનું|varṣnuṃ"] },
+        { "native": "મારી બહેન વીસ વર્ષની છે.", "roman": "mārī bahen vīs varṣnī chhe.", "en": "My sister is twenty.", "focus": "વર્ષની", "wrong": ["વર્ષનો|varṣno", "વર્ષનું|varṣnuṃ"] },
+        { "native": "આ બાળક એક વર્ષનું છે.", "roman": "ā bāḷak ek varṣnuṃ chhe.", "en": "This baby is one year old.", "focus": "વર્ષનું", "wrong": ["વર્ષનો|varṣno", "વર્ષની|varṣnī"] },
+        { "native": "તારી ઉંમર કેટલી છે?", "roman": "tārī ummar keṭlī chhe?", "en": "How old are you? (to a child or friend)", "focus": "કેટલી", "wrong": ["કેટલો|keṭlo", "કેટલું|keṭluṃ"] },
+        { "native": "તમારા દાદાની ઉંમર કેટલી છે?", "roman": "tamārā dādānī ummar keṭlī chhe?", "en": "How old is your grandfather?", "focus": "કેટલી", "wrong": ["કેટલો|keṭlo", "કેટલું|keṭluṃ"] },
+        { "native": "કેટલું દૂધ જોઈએ?", "roman": "keṭluṃ dūdh joīe?", "en": "How much milk do you need?", "focus": "કેટલું", "wrong": ["કેટલી|keṭlī", "કેટલો|keṭlo"] },
+        { "native": "મારા પપ્પા સાઠ વર્ષના છે.", "roman": "mārā pappā sāṭh varṣnā chhe.", "en": "My dad is sixty.", "focus": "વર્ષના", "wrong": ["વર્ષનો|varṣno", "વર્ષની|varṣnī"] },
+        { "native": "અમે બે વર્ષથી લંડનમાં રહીએ છીએ.", "roman": "ame be varṣthī Landanmāṃ rahīe chhīe.", "en": "We've been living in London for two years." }
+      ]
+    },
+    {
+      "title": "Kilos and halves at the market",
+      "tip": { "title": "Halves and quarters", "body": "- **અડધો / અડધી / અડધું** = half, and it agrees: અડધો કિલો, અડધી ચા.\n- **દોઢ** = 1½, **અઢી** = 2½.\n- Before a number: **સવા** +¼, **સાડા** +½ (from 3½ up), **પોણા** −¼: સાડા ત્રણ = 3½, પોણા બે = 1¾.", "pattern": "દોઢ 1½ · અઢી 2½ · સાડા ત્રણ 3½", "grammar": 2 },
+      "new": ["કિલો", "અડધું", "દોઢ", "અઢી", "સવા", "સાડા", "પોણા", "એક કિલો ટામેટાં આપો.", "અડધો કિલો બસ છે.", "બસ"],
+      "sentences": [
+        { "native": "દોઢ કિલો ટામેટાં આપો.", "roman": "doḍh kilo ṭāmeṭāṃ āpo.", "en": "Give me one and a half kilos of tomatoes.", "focus": "દોઢ", "wrong": ["અઢી|aḍhī", "સવા|savā"] },
+        { "native": "અઢી કિલો બટાકા આપો.", "roman": "aḍhī kilo baṭākā āpo.", "en": "Give me two and a half kilos of potatoes.", "focus": "અઢી", "wrong": ["દોઢ|doḍh", "સાડા|sāḍā"] },
+        { "native": "મારો દીકરો સાડા ત્રણ વર્ષનો છે.", "roman": "māro dīkro sāḍā traṇ varṣno chhe.", "en": "My son is three and a half.", "focus": "સાડા", "wrong": ["સવા|savā", "પોણા|poṇā"] },
+        { "native": "અડધી ચા આપો.", "roman": "aḍdhī chā āpo.", "en": "A half (cup of) tea, please.", "focus": "અડધી", "wrong": ["અડધો|aḍdho", "અડધું|aḍdhuṃ"] },
+        { "native": "સવા કિલો આપો, બસ.", "roman": "savā kilo āpo, bas.", "en": "Give me one and a quarter kilos, that's all." },
+        { "native": "આ પોણા બે કિલો છે.", "roman": "ā poṇā be kilo chhe.", "en": "This is one and three quarter kilos.", "focus": "પોણા", "wrong": ["સવા|savā", "સાડા|sāḍā"] },
+        { "native": "બસ, બસ! બહુ છે.", "roman": "bas, bas! bahu chhe.", "en": "Enough, enough! That's plenty." },
+        { "native": "મને અડધું કેળું આપ.", "roman": "mane aḍdhuṃ keḷuṃ āp.", "en": "Give me half a banana. (to a friend)", "focus": "અડધું", "wrong": ["અડધો|aḍdho", "અડધી|aḍdhī"] },
+        { "native": "બટાકા કેટલા રૂપિયે કિલો છે?", "roman": "baṭākā keṭlā rūpiye kilo chhe?", "en": "How much a kilo are the potatoes?" }
+      ]
+    },
+    {
+      "title": "More, less and paying up",
+      "tip": { "title": "A lot, less, more", "body": "- **ઘણું** 'a lot' and **ઓછું** 'less, few' agree like કેટલું: ઘણા લોકો, ઘણાં છોકરાં, ઓછી ખાંડ, ઓછું દૂધ.\n- **વધારે** 'more; too much' never changes.\n- **બહુ વધારે** = 'far too much'.", "pattern": "ઘણો / ઘણી / ઘણું · ઓછો / ઓછી / ઓછું" },
+      "new": ["કેટલા પૈસા થયા?", "બધું", "વધારે", "ઓછું", "ઘણું", "બહુ વધારે છે, થોડું ઓછું કરો."],
+      "sentences": [
+        { "native": "બધું મળીને કેટલા પૈસા થયા?", "roman": "badhuṃ maḷīne keṭlā paisā thayā?", "en": "How much does it all come to?" },
+        { "native": "આ બહુ વધારે છે.", "roman": "ā bahu vadhāre chhe.", "en": "This is too much." },
+        { "native": "અહીં ઘણા લોકો છે.", "roman": "ahīṃ ghaṇā loko chhe.", "en": "There are a lot of people here.", "focus": "ઘણા", "wrong": ["ઘણું|ghaṇuṃ", "ઘણી|ghaṇī"] },
+        { "native": "મને વધારે ચા જોઈએ.", "roman": "mane vadhāre chā joīe.", "en": "I'd like more tea." },
+        { "native": "દૂધ ઓછું છે.", "roman": "dūdh ochhuṃ chhe.", "en": "We're short of milk.", "focus": "ઓછું", "wrong": ["ઓછો|ochho", "ઓછી|ochhī"] },
+        { "native": "તમારે ઘણાં છોકરાં છે!", "roman": "tamāre ghaṇāṃ chhokrāṃ chhe!", "en": "You have a lot of children!", "focus": "ઘણાં", "wrong": ["ઘણો|ghaṇo", "ઘણી|ghaṇī"] },
+        { "native": "આ ગામમાં ઓછા લોકો રહે છે.", "roman": "ā gāmmāṃ ochhā loko rahe chhe.", "en": "Few people live in this village.", "focus": "ઓછા", "wrong": ["ઓછું|ochhuṃ", "ઓછી|ochhī"] },
+        { "native": "ચામાં ખાંડ ઓછી છે.", "roman": "chāmāṃ khāṃḍ ochhī chhe.", "en": "There's not much sugar in the tea.", "focus": "ઓછી", "wrong": ["ઓછો|ochho", "ઓછું|ochhuṃ"] },
+        { "native": "મારે ઘણા મિત્રો છે.", "roman": "māre ghaṇā mitro chhe.", "en": "I have a lot of friends.", "focus": "ઘણા", "wrong": ["ઘણી|ghaṇī", "ઘણું|ghaṇuṃ"] }
+      ]
+    },
+    {
+      "title": "First time, fourth floor",
+      "tip": { "title": "First, second, third…", "body": "- **પહેલું, બીજું, ત્રીજું, ચોથું** are irregular; from five on add **-મું**: પાંચમું, દસમું.\n- They agree like adjectives: **પહેલો** દિવસ (m), **પહેલી** વાર (f), **ત્રીજું** ઘર (n).\n- 'On the third floor': **ત્રીજા માળે**.", "pattern": "પહેલો / પહેલી / પહેલું + noun", "grammar": 2 },
+      "new": ["પહેલું", "બીજું", "ત્રીજું", "ચોથું", "પાંચમું", "હું અહીં પહેલી વાર આવ્યો છું.", "અમે ત્રીજા માળે રહીએ છીએ."],
+      "sentences": [
+        { "native": "આ મારો પહેલો દિવસ છે.", "roman": "ā māro pahelo divas chhe.", "en": "This is my first day.", "focus": "પહેલો", "wrong": ["પહેલી|pahelī", "પહેલું|paheluṃ"] },
+        { "native": "તમે અહીં પહેલી વાર આવ્યા છો?", "roman": "tame ahīṃ pahelī vār āvyā chho?", "en": "Is this your first time here?", "focus": "પહેલી", "wrong": ["પહેલો|pahelo", "પહેલું|paheluṃ"] },
+        { "native": "હું અહીં બીજી વાર આવી છું.", "roman": "huṃ ahīṃ bījī vār āvī chhuṃ.", "en": "This is my second time here. (woman speaking)", "focus": "બીજી", "wrong": ["બીજો|bījo", "બીજું|bījuṃ"] },
+        { "native": "અમારું ઘર ચોથા માળે છે.", "roman": "amāruṃ ghar chothā māḷe chhe.", "en": "Our flat is on the fourth floor.", "focus": "ચોથા", "wrong": ["ચોથો|chotho", "ચોથી|chothī"] },
+        { "native": "એ મારો બીજો દીકરો છે.", "roman": "e māro bījo dīkro chhe.", "en": "He's my second son.", "focus": "બીજો", "wrong": ["બીજી|bījī", "બીજું|bījuṃ"] },
+        { "native": "મારી પહેલી દીકરી લંડનમાં રહે છે.", "roman": "mārī pahelī dīkrī Landanmāṃ rahe chhe.", "en": "My eldest daughter lives in London.", "focus": "પહેલી", "wrong": ["પહેલો|pahelo", "પહેલું|paheluṃ"] },
+        { "native": "ત્રીજું ઘર અમારું છે.", "roman": "trījuṃ ghar amāruṃ chhe.", "en": "The third house is ours.", "focus": "ત્રીજું", "wrong": ["ત્રીજો|trījo", "ત્રીજી|trījī"] },
+        { "native": "તમે ક્યાં રહો છો, પાંચમા માળે?", "roman": "tame kyāṃ raho chho, pāṃchmā māḷe?", "en": "Where do you live — on the fifth floor?", "focus": "પાંચમા", "wrong": ["પાંચમો|pāṃchmo", "પાંચમી|pāṃchmī"] }
+      ]
+    },
+    {
+      "title": "Floors and phone numbers",
+      "new": ["છઠ્ઠું", "સાતમું", "આઠમું", "નવમું", "દસમું", "નંબર", "તમારો ફોન નંબર શું છે?", "જોડી"],
+      "sentences": [
+        { "native": "તારો ફોન નંબર શું છે?", "roman": "tāro fon nambar shuṃ chhe?", "en": "What's your phone number? (to a friend)" },
+        { "native": "તમારા ઘરનો નંબર શું છે?", "roman": "tamārā gharno nambar shuṃ chhe?", "en": "What's your house number?" },
+        { "native": "લંડનમાં આ મારું દસમું વર્ષ છે.", "roman": "Landanmāṃ ā māruṃ dasmuṃ varṣ chhe.", "en": "This is my tenth year in London." },
+        { "native": "સાતમું ઘર એનું છે.", "roman": "sātmuṃ ghar enuṃ chhe.", "en": "The seventh house is his." },
+        { "native": "છઠ્ઠા માળે કોણ રહે છે?", "roman": "chhaṭṭhā māḷe koṇ rahe chhe?", "en": "Who lives on the sixth floor?" },
+        { "native": "નવમા માળે મારો મિત્ર રહે છે.", "roman": "navmā māḷe māro mitra rahe chhe.", "en": "My friend lives on the ninth floor." },
+        { "native": "હું આઠમી વાર કહું છું!", "roman": "huṃ āṭhmī vār kahuṃ chhuṃ!", "en": "I'm telling you for the eighth time!" },
+        { "native": "તમારી જોડી બહુ સરસ છે!", "roman": "tamārī joḍī bahu saras chhe!", "en": "You two make a lovely couple!" }
+      ]
+    }
+  ]
 }

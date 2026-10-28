@@ -86,5 +86,98 @@
       { "speaker": "Rao", "native": "మంచిది, వెళ్ళి రండి.", "roman": "manchidi, veḷḷi raṇḍi.", "en": "Fine, go well (go and come back)." }
     ]
   },
-  "culture": "Saying 'I'm going' (వెళ్తాను) when leaving sounds blunt, even ominous, to many Telugu speakers; *వెళ్ళొస్తాను* ('I'll go and come') and the reply *వెళ్ళి రండి* ('go and come') are the polite way to part. English 'thanks', 'sorry' and 'okay' are completely normal in everyday speech, while *ధన్యవాదాలు* sounds formal, as on TV or at a function. Between family members, explicit thanks can even sound distant."
+  "culture": "Saying 'I'm going' (వెళ్తాను) when leaving sounds blunt, even ominous, to many Telugu speakers; *వెళ్ళొస్తాను* ('I'll go and come') and the reply *వెళ్ళి రండి* ('go and come') are the polite way to part. English 'thanks', 'sorry' and 'okay' are completely normal in everyday speech, while *ధన్యవాదాలు* sounds formal, as on TV or at a function. Between family members, explicit thanks can even sound distant.",
+  "lessons": [
+    {
+      "title": "Hello, how are you?",
+      "tip": { "title": "The verb comes last", "body": "- Telugu puts the verb at the **end**: నేను బాగున్నాను is literally 'I fine-am'.\n- The verb ending shows who: **-ānu** = I, **-āru** = you (polite). So the pronoun is often dropped: బాగున్నాను alone = 'I'm fine'.\n- Question words like **ఎలా** 'how' sit just before the verb: ఎలా ఉన్నారు?", "pattern": "(నేను) + బాగున్నాను  ·  (మీరు) + ఎలా + ఉన్నారు?", "grammar": 0 },
+      "new": ["నమస్కారం", "నమస్తే", "హలో", "ఎలా ఉన్నారు?", "బాగున్నాను, మీరు?", "కూడా", "నేను కూడా బాగున్నాను.", "చాలా"],
+      "sentences": [
+        { "native": "హలో, ఎలా ఉన్నారు?", "roman": "halō, elā unnāru?", "en": "Hello, how are you?", "focus": "ఉన్నారు", "wrong": ["ఉన్నాను|unnānu", "ఉన్నాడు|unnāḍu"] },
+        { "native": "నేను బాగున్నాను.", "roman": "nēnu bāgunnānu.", "en": "I'm fine.", "focus": "బాగున్నాను", "wrong": ["బాగున్నారు|bāgunnāru", "బాగున్నాడు|bāgunnāḍu"] },
+        { "native": "నేను చాలా బాగున్నాను.", "roman": "nēnu chālā bāgunnānu.", "en": "I'm very well.", "focus": "బాగున్నాను", "wrong": ["బాగున్నారు|bāgunnāru", "బాగున్నావు|bāgunnāvu"] },
+        { "native": "మీరు బాగున్నారా?", "roman": "mīru bāgunnārā?", "en": "Are you well?", "focus": "బాగున్నారా", "wrong": ["బాగున్నానా|bāgunnānā", "బాగున్నాను|bāgunnānu"] },
+        { "native": "నమస్తే, మీరు కూడా బాగున్నారా?", "roman": "namastē, mīru kūḍā bāgunnārā?", "en": "Hello, are you well too?", "focus": "కూడా", "wrong": ["చాలా|chālā", "నేను|nēnu"] },
+        { "native": "నమస్కారం, నేను బాగున్నాను.", "roman": "namaskāram, nēnu bāgunnānu.", "en": "Hello, I'm fine.", "focus": "బాగున్నాను", "wrong": ["బాగున్నారు|bāgunnāru", "ఉన్నారు|unnāru"] },
+        { "native": "నేను కూడా చాలా బాగున్నాను.", "roman": "nēnu kūḍā chālā bāgunnānu.", "en": "I'm very well too." },
+        { "native": "నమస్కారం, మీరు ఎలా ఉన్నారు?", "roman": "namaskāram, mīru elā unnāru?", "en": "Hello, how are you? (polite)", "focus": "ఎలా", "wrong": ["చాలా|chālā", "కూడా|kūḍā"] }
+      ]
+    },
+    {
+      "title": "Polite or friendly",
+      "tip": { "title": "Two ways to say 'you'", "body": "- **మీరు** (polite): strangers, elders, anyone you'd call sir or madam → ఉన్నారు, రండి, కూర్చోండి.\n- **నువ్వు** (informal): close friends, children → ఉన్నావు, రా, కూర్చో.\n- Add **అండి** to sound polite: నమస్కారం అండి, బాగున్నారా అండి?\n- When unsure, use మీరు.", "pattern": "మీరు … ఉన్నారు  ·  నువ్వు … ఉన్నావు", "grammar": 1 },
+      "new": ["అండి", "రండి", "కూర్చోండి", "రండి, కూర్చోండి.", "ఎలా ఉన్నావు?", "స్వాగతం", "శుభోదయం"],
+      "sentences": [
+        { "native": "రండి, స్వాగతం!", "roman": "raṇḍi, svāgatam!", "en": "Come in, welcome! (polite)", "focus": "రండి", "wrong": ["రా|rā", "వస్తాను|vastānu"] },
+        { "native": "హలో, ఎలా ఉన్నావు?", "roman": "halō, elā unnāvu?", "en": "Hi, how are you? (to a friend)", "focus": "ఉన్నావు", "wrong": ["ఉన్నారు|unnāru", "ఉన్నాను|unnānu"] },
+        { "native": "నువ్వు బాగున్నావా?", "roman": "nuvvu bāgunnāvā?", "en": "Are you well? (to a friend)", "focus": "బాగున్నావా", "wrong": ["బాగున్నారా|bāgunnārā", "బాగున్నానా|bāgunnānā"] },
+        { "native": "మీరు కూర్చోండి.", "roman": "mīru kūrchōṇḍi.", "en": "Please sit down. (polite)", "focus": "కూర్చోండి", "wrong": ["కూర్చో|kūrchō", "కూర్చోను|kūrchōnu"] },
+        { "native": "రా, కూర్చో.", "roman": "rā, kūrchō.", "en": "Come, sit. (to a friend)", "focus": "కూర్చో", "wrong": ["కూర్చోండి|kūrchōṇḍi", "కూర్చోను|kūrchōnu"] },
+        { "native": "మీరు బాగున్నారా అండి?", "roman": "mīru bāgunnārā aṇḍi?", "en": "Are you well, sir?", "focus": "బాగున్నారా", "wrong": ["బాగున్నావా|bāgunnāvā", "బాగున్నానా|bāgunnānā"] },
+        { "native": "శుభోదయం అండి!", "roman": "shubhōdayam aṇḍi!", "en": "Good morning! (polite)" },
+        { "native": "నువ్వు కూడా కూర్చో.", "roman": "nuvvu kūḍā kūrchō.", "en": "You sit down too. (to a friend)", "focus": "కూర్చో", "wrong": ["కూర్చోండి|kūrchōṇḍi", "కూర్చోను|kūrchōnu"] },
+        { "native": "స్వాగతం అండి, మీరు ఎలా ఉన్నారు?", "roman": "svāgatam aṇḍi, mīru elā unnāru?", "en": "Welcome! How are you?" }
+      ]
+    },
+    {
+      "title": "Yes, no and OK",
+      "tip": { "title": "Two kinds of \"no\": కాదు and లేదు", "body": "- **కాదు** says something *is not* so: నేను రవి **కాదు** 'I'm not Ravi'.\n- **లేదు** says something *isn't there* or *didn't happen*: టైం **లేదు** 'there's no time'.\n- Add అండి to soften: అవునండి, కాదండి, లేదండి.\n- **సరే**, **ఓకే**, **అలాగే** all mean 'OK, sure'." },
+      "new": ["అవును", "కాదు", "లేదు", "సరే", "ఓకే", "అలాగే", "అవునా?", "మంచిది"],
+      "sentences": [
+        { "native": "నేను రవి కాదు.", "roman": "nēnu ravi kādu.", "en": "I'm not Ravi.", "focus": "కాదు", "wrong": ["లేదు|lēdu", "అవును|avunu"] },
+        { "native": "లేదండి, ఇప్పుడు టైం లేదు.", "roman": "lēdaṇḍi, ippuḍu ṭaim lēdu.", "en": "No, there's no time now.", "focus": "లేదు", "wrong": ["కాదు|kādu", "అవును|avunu"] },
+        { "native": "అవునండి, నేను రవి.", "roman": "avunaṇḍi, nēnu ravi.", "en": "Yes, I'm Ravi.", "focus": "అవునండి", "wrong": ["కాదండి|kādaṇḍi", "లేదండి|lēdaṇḍi"] },
+        { "native": "కాదండి, నేను రవి కాదు.", "roman": "kādaṇḍi, nēnu ravi kādu.", "en": "No, I'm not Ravi.", "focus": "కాదండి", "wrong": ["లేదండి|lēdaṇḍi", "అవునండి|avunaṇḍi"] },
+        { "native": "నాకు ఇప్పుడు టైం లేదు.", "roman": "nāku ippuḍu ṭaim lēdu.", "en": "I don't have time now.", "focus": "లేదు", "wrong": ["కాదు|kādu", "సరే|sarē"] },
+        { "native": "సరే అండి, రేపు వస్తాను.", "roman": "sarē aṇḍi, rēpu vastānu.", "en": "All right, I'll come tomorrow.", "focus": "సరే", "wrong": ["కాదు|kādu", "లేదు|lēdu"] },
+        { "native": "ఓకే, రేపు కలుద్దాం.", "roman": "ōkē, rēpu kaluddām.", "en": "OK, let's meet tomorrow." },
+        { "native": "అలాగే, రేపు రండి.", "roman": "alāgē, rēpu raṇḍi.", "en": "Sure, come tomorrow." },
+        { "native": "అవునా? మంచిది!", "roman": "avunā? manchidi!", "en": "Really? That's good!" }
+      ]
+    },
+    {
+      "title": "Thank you and sorry",
+      "tip": { "title": "Everyday thanks and sorry", "body": "- In speech people say **థాంక్స్** and **సారీ**; **ధన్యవాదాలు** sounds formal (speeches, letters).\n- **క్షమించండి** is a polite 'sorry' or 'excuse me'.\n- The usual reply to sorry is **పర్వాలేదు** 'it's OK', often with అయ్యో: అయ్యో, పర్వాలేదండి!" },
+      "new": ["ధన్యవాదాలు", "థాంక్స్", "చాలా థాంక్స్ అండి.", "క్షమించండి", "సారీ", "పర్వాలేదు", "సారీ, పర్వాలేదా?", "అయ్యో"],
+      "sentences": [
+        { "native": "మీకు చాలా ధన్యవాదాలు.", "roman": "mīku chālā dhanyavādālu.", "en": "Thank you very much. (formal)", "focus": "ధన్యవాదాలు", "wrong": ["క్షమించండి|kṣaminchaṇḍi", "స్వాగతం|svāgatam"] },
+        { "native": "థాంక్స్, నేను బాగున్నాను.", "roman": "thāṅks, nēnu bāgunnānu.", "en": "Thanks, I'm fine.", "focus": "థాంక్స్", "wrong": ["సారీ|sārī", "పర్వాలేదు|parvālēdu"] },
+        { "native": "అయ్యో, సారీ!", "roman": "ayyō, sārī!", "en": "Oh no, sorry!", "focus": "సారీ", "wrong": ["థాంక్స్|thāṅks", "పర్వాలేదు|parvālēdu"] },
+        { "native": "అయ్యో, పర్వాలేదండి.", "roman": "ayyō, parvālēdaṇḍi.", "en": "Oh, don't worry about it.", "focus": "పర్వాలేదండి", "wrong": ["సారీ|sārī", "థాంక్స్|thāṅks"] },
+        { "native": "క్షమించండి, నాకు టైం లేదు.", "roman": "kṣaminchaṇḍi, nāku ṭaim lēdu.", "en": "Sorry, I don't have time.", "focus": "క్షమించండి", "wrong": ["ధన్యవాదాలు|dhanyavādālu", "స్వాగతం|svāgatam"] },
+        { "native": "పర్వాలేదు, కూర్చోండి.", "roman": "parvālēdu, kūrchōṇḍi.", "en": "It's OK, sit down.", "focus": "పర్వాలేదు", "wrong": ["సారీ|sārī", "క్షమించండి|kṣaminchaṇḍi"] },
+        { "native": "క్షమించండి, నేను రవి కాదు.", "roman": "kṣaminchaṇḍi, nēnu ravi kādu.", "en": "Excuse me, I'm not Ravi.", "focus": "క్షమించండి", "wrong": ["ధన్యవాదాలు|dhanyavādālu", "థాంక్స్|thāṅks"] },
+        { "native": "సారీ అండి, రేపు వస్తాను.", "roman": "sārī aṇḍi, rēpu vastānu.", "en": "Sorry, I'll come tomorrow." }
+      ]
+    },
+    {
+      "title": "When you don't understand",
+      "new": ["నాకు అర్థం కాలేదు.", "ఏమండీ", "దయచేసి", "మళ్ళీ", "మళ్ళీ చెప్పండి.", "నెమ్మదిగా మాట్లాడండి.", "బాగా"],
+      "sentences": [
+        { "native": "క్షమించండి, నాకు అర్థం కాలేదు.", "roman": "kṣaminchaṇḍi, nāku artham kālēdu.", "en": "Sorry, I didn't understand." },
+        { "native": "దయచేసి మళ్ళీ చెప్పండి.", "roman": "dayachēsi maḷḷī cheppaṇḍi.", "en": "Please say it again.", "focus": "చెప్పండి", "wrong": ["చెప్పు|cheppu", "చెప్తాను|cheptānu"] },
+        { "native": "ఏమండీ, నెమ్మదిగా మాట్లాడండి.", "roman": "ēmaṇḍī, nemmadigā māṭlāḍaṇḍi.", "en": "Excuse me, please speak slowly.", "focus": "మాట్లాడండి", "wrong": ["మాట్లాడు|māṭlāḍu", "మాట్లాడతాను|māṭlāḍatānu"] },
+        { "native": "అర్థం కాలేదు, మళ్ళీ చెప్పండి.", "roman": "artham kālēdu, maḷḷī cheppaṇḍi.", "en": "I didn't get it, please say it again." },
+        { "native": "దయచేసి తెలుగు మాట్లాడండి.", "roman": "dayachēsi telugu māṭlāḍaṇḍi.", "en": "Please speak Telugu.", "focus": "మాట్లాడండి", "wrong": ["మాట్లాడు|māṭlāḍu", "మాట్లాడతాడు|māṭlāḍatāḍu"] },
+        { "native": "నెమ్మదిగా చెప్పండి.", "roman": "nemmadigā cheppaṇḍi.", "en": "Please say it slowly." },
+        { "native": "మీరు తెలుగు బాగా మాట్లాడతారు!", "roman": "mīru telugu bāgā māṭlāḍatāru!", "en": "You speak Telugu well!", "focus": "మాట్లాడతారు", "wrong": ["మాట్లాడతాను|māṭlāḍatānu", "మాట్లాడతాడు|māṭlāḍatāḍu"] },
+        { "native": "రవి తెలుగు బాగా మాట్లాడతాడు.", "roman": "ravi telugu bāgā māṭlāḍatāḍu.", "en": "Ravi speaks Telugu well." }
+      ]
+    },
+    {
+      "title": "Saying goodbye",
+      "tip": { "title": "Goodbye = 'I'll go and come'", "body": "- Telugu avoids a bare 'I'm going'. You say **వెళ్ళొస్తాను** 'I'll go and come (back)'; among friends just వెళ్ళొస్తా.\n- The host replies **వెళ్ళి రండి** 'go and come back'.\n- **మళ్ళీ కలుద్దాం** 'let's meet again' works with anyone." },
+      "new": ["వెళ్ళొస్తాను", "మళ్ళీ కలుద్దాం.", "వెళ్ళి రండి.", "శుభరాత్రి"],
+      "sentences": [
+        { "native": "థాంక్స్, వెళ్ళొస్తాను.", "roman": "thāṅks, veḷḷostānu.", "en": "Thanks, I'll be off.", "focus": "వెళ్ళొస్తాను", "wrong": ["వస్తాను|vastānu", "వెళ్ళి|veḷḷi"] },
+        { "native": "అలాగే, వెళ్ళి రండి.", "roman": "alāgē, veḷḷi raṇḍi.", "en": "Sure, take care. (go and come back)", "focus": "రండి", "wrong": ["రా|rā", "వస్తాను|vastānu"] },
+        { "native": "రేపు మళ్ళీ కలుద్దాం.", "roman": "rēpu maḷḷī kaluddām.", "en": "Let's meet again tomorrow.", "focus": "కలుద్దాం", "wrong": ["కలుస్తాను|kalustānu", "కలవండి|kalavaṇḍi"] },
+        { "native": "శుభరాత్రి, రేపు కలుద్దాం.", "roman": "shubharātri, rēpu kaluddām.", "en": "Good night, see you tomorrow.", "focus": "శుభరాత్రి", "wrong": ["శుభోదయం|shubhōdayam", "స్వాగతం|svāgatam"] },
+        { "native": "నేను రేపు మళ్ళీ వస్తాను.", "roman": "nēnu rēpu maḷḷī vastānu.", "en": "I'll come again tomorrow." },
+        { "native": "ఇప్పుడు టైం లేదు, వెళ్ళొస్తాను.", "roman": "ippuḍu ṭaim lēdu, veḷḷostānu.", "en": "I don't have time now, I'll be off.", "focus": "వెళ్ళొస్తాను", "wrong": ["వెళ్ళి|veḷḷi", "రండి|raṇḍi"] },
+        { "native": "ఓకే, శుభరాత్రి!", "roman": "ōkē, shubharātri!", "en": "OK, good night!" },
+        { "native": "మళ్ళీ రండి!", "roman": "maḷḷī raṇḍi!", "en": "Come again!", "focus": "రండి", "wrong": ["రా|rā", "వస్తాను|vastānu"] }
+      ]
+    }
+  ]
 }

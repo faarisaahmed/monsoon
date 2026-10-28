@@ -99,5 +99,89 @@
       { "speaker": "Sarah", "native": "कति राम्रो परिवार!", "roman": "kati rāmro pariwār!", "en": "What a lovely family!" }
     ]
   },
-  "culture": "Nepalis rarely use each other's first names with elders or older siblings — you say **दाइ**, **दिदी**, **काका**, **आमा** instead, and you can attach them to a name (राम दाइ, सीता दिदी). Birth order is so important that it shows up in nicknames: the eldest son is often **जेठा**, the second **माइला**, the third **साइला**, the youngest **कान्छा** (girls: जेठी, माइली, साइली, कान्छी). Many families still live as joint families with grandparents, and newly married women traditionally move into the husband's home. In-laws and elders are addressed with **हजुर** and the respectful verb forms."
+  "culture": "Nepalis rarely use each other's first names with elders or older siblings — you say **दाइ**, **दिदी**, **काका**, **आमा** instead, and you can attach them to a name (राम दाइ, सीता दिदी). Birth order is so important that it shows up in nicknames: the eldest son is often **जेठा**, the second **माइला**, the third **साइला**, the youngest **कान्छा** (girls: जेठी, माइली, साइली, कान्छी). Many families still live as joint families with grandparents, and newly married women traditionally move into the husband's home. In-laws and elders are addressed with **हजुर** and the respectful verb forms.",
+  "lessons": [
+    {
+      "title": "Introducing your family",
+      "tip": { "title": "'My', 'your', 'Ram's': -को", "body": "- 'Of' is **-को** stuck to the owner, and the owner comes first: राम**को** घर 'Ram's house'.\n- म → **मेरो**, हामी → **हाम्रो**, तिमी → **तिम्रो**, तपाईं → **तपाईंको**.\n- It can agree: **-की** before a woman (मेरी आमा), **-का** before a respected man or a plural (मेरा बुबा).", "pattern": "owner + को + thing", "grammar": 0 },
+      "new": ["परिवार", "आमा", "बुबा", "भाइ", "दिदी", "मेरो", "हाम्रो", "तिम्रो", "यो मेरो भाइ हो।", "उहाँ मेरी आमा हुनुहुन्छ।"],
+      "sentences": [
+        { "native": "उहाँ मेरा बुबा हुनुहुन्छ।", "roman": "uhāṃ merā bubā hunuhunchha.", "en": "This is my father.", "focus": "मेरा", "wrong": ["म|ma", "मलाई|malāi"] },
+        { "native": "उहाँ मेरी दिदी हुनुहुन्छ।", "roman": "uhāṃ meri didi hunuhunchha.", "en": "This is my older sister.", "focus": "मेरी", "wrong": ["म|ma", "मलाई|malāi"] },
+        { "native": "यो हाम्रो परिवार हो।", "roman": "yo hāmro pariwār ho.", "en": "This is our family.", "focus": "हाम्रो", "wrong": ["हामी|hāmi", "हामीलाई|hāmilāi"] },
+        { "native": "तिम्रो भाइ कहाँ छ?", "roman": "timro bhāi kahāṃ chha?", "en": "Where's your little brother?", "focus": "तिम्रो", "wrong": ["तिमी|timi", "तिमीलाई|timilāi"] },
+        { "native": "रामको दिदी यहाँ हुनुहुन्छ।", "roman": "Rāmko didi yahāṃ hunuhunchha.", "en": "Ram's sister is here.", "focus": "रामको", "wrong": ["राम|Rām", "रामलाई|Rāmlāi"] },
+        { "native": "तपाईंको परिवार कहाँ छ?", "roman": "tapāiṃko pariwār kahāṃ chha?", "en": "Where is your family?", "focus": "तपाईंको", "wrong": ["तपाईं|tapāiṃ", "तपाईंलाई|tapāiṃlāi"] },
+        { "native": "तिम्रो भाइको नाम के हो?", "roman": "timro bhāiko nām ke ho?", "en": "What's your brother's name?", "focus": "भाइको", "wrong": ["भाइ|bhāi", "भाइलाई|bhāilāi"] },
+        { "native": "मेरी आमा नेपाली हुनुहुन्छ।", "roman": "meri āmā nepāli hunuhunchha.", "en": "My mother is Nepali.", "focus": "मेरी", "wrong": ["म|ma", "मलाई|malāi"] },
+        { "native": "बुबा, यो टम हो।", "roman": "bubā, yo Ṭam ho.", "en": "Dad, this is Tom." },
+        { "native": "हाम्रो घर त्यहाँ छ।", "roman": "hāmro ghar tyahāṃ chha.", "en": "Our house is over there." }
+      ]
+    },
+    {
+      "title": "Brothers and sisters",
+      "tip": { "title": "'I have a brother'", "body": "- There's no verb 'to have'. For relatives say 'my brother **is**': मेरो एउटा भाइ **छ**.\n- The verb agrees with the relative: plural **छन्**, a respected elder **हुनुहुन्छ**.\n- 'I don't have…' uses **छैन** / **छैनन्**: मेरो दाइ **छैन**.", "pattern": "मेरो + relative + छ / छन् / हुनुहुन्छ", "grammar": 2 },
+      "new": ["दाइ", "बहिनी", "दाजुभाइ", "दिदीबहिनी", "जेठो", "कान्छो", "तपाईं जेठो हो कि कान्छो?", "म माइलो हुँ।", "दाइ, एकछिन!"],
+      "sentences": [
+        { "native": "मेरो एउटी बहिनी छ।", "roman": "mero euṭi bahini chha.", "en": "I have a younger sister.", "focus": "छ", "wrong": ["हो|ho", "छु|chhu"] },
+        { "native": "तिम्रा दाजुभाइ छन्?", "roman": "timrā dājubhāi chhan?", "en": "Do you have brothers? (to a friend)", "focus": "छन्", "wrong": ["हुन्|hun", "छौ|chhau"] },
+        { "native": "मेरो दाइ छैन।", "roman": "mero dāi chhaina.", "en": "I don't have an older brother.", "focus": "छैन", "wrong": ["होइन|hoina", "छ|chha"] },
+        { "native": "मेरा दिदीबहिनी छैनन्।", "roman": "merā didibahini chhainan.", "en": "I don't have any sisters.", "focus": "छैनन्", "wrong": ["होइनन्|hoinan", "छैन|chhaina"] },
+        { "native": "तपाईंकी दिदी हुनुहुन्छ?", "roman": "tapāiṃki didi hunuhunchha?", "en": "Do you have an older sister?", "focus": "हुनुहुन्छ", "wrong": ["हो|ho", "हुँ|huṃ"] },
+        { "native": "मेरो एउटा भाइ र एउटी बहिनी छन्।", "roman": "mero euṭā bhāi ra euṭi bahini chhan.", "en": "I have a younger brother and a younger sister.", "focus": "छन्", "wrong": ["छ|chha", "हुन्|hun"] },
+        { "native": "मेरा दाइ अमेरिकामा हुनुहुन्छ।", "roman": "merā dāi Amerikāmā hunuhunchha.", "en": "My older brother is in America.", "focus": "हुनुहुन्छ", "wrong": ["छ|chha", "हो|ho"] },
+        { "native": "म जेठो हुँ।", "roman": "ma jeṭho huṃ.", "en": "I'm the eldest." },
+        { "native": "मेरी बहिनी कान्छी हो।", "roman": "meri bahini kānchhi ho.", "en": "My younger sister is the youngest." },
+        { "native": "भाइ, एकछिन!", "roman": "bhāi, ekchhin!", "en": "Excuse me (to a younger man), one moment!" }
+      ]
+    },
+    {
+      "title": "Married? Children?",
+      "tip": { "title": "Women, men and more than one", "body": "- Things have no gender, but **women** do: मेरी श्रीमती, तिम्री बहिनी (-ई); a respected man takes **-आ**: मेरा श्रीमान्.\n- Plural is **-हरू**: केटा → केटा**हरू** 'boys'. Skip it after a number: दुई जना छोरा 'two sons'.\n- Plural and respected people take plural verbs: छन्, छैनन्.", "pattern": "मेरी + woman  ·  मेरा + respected man  ·  noun + हरू", "grammar": 1 },
+      "new": ["छोरा", "छोरी", "श्रीमान्", "श्रीमती", "बिहे", "केटा", "केटी", "तपाईंको बिहे भयो?", "अहिलेसम्म भएको छैन।", "तपाईंका छोराछोरी छन्?", "मेरो एउटा छोरा र एउटी छोरी छन्।"],
+      "sentences": [
+        { "native": "मेरी श्रीमती नेपाली हुनुहुन्छ।", "roman": "meri srimati nepāli hunuhunchha.", "en": "My wife is Nepali.", "focus": "मेरी", "wrong": ["मेरा|merā", "म|ma"] },
+        { "native": "मेरा श्रीमान् घरमा हुनुहुन्छ।", "roman": "merā srimān gharmā hunuhunchha.", "en": "My husband is at home.", "focus": "मेरा", "wrong": ["मेरी|meri", "मलाई|malāi"] },
+        { "native": "केटाहरू कहाँ छन्?", "roman": "keṭāharu kahāṃ chhan?", "en": "Where are the boys?", "focus": "केटाहरू", "wrong": ["केटाको|keṭāko", "केटालाई|keṭālāi"] },
+        { "native": "मेरा छोराछोरी यहाँ छैनन्।", "roman": "merā chhorāchhori yahāṃ chhainan.", "en": "My children aren't here.", "focus": "छैनन्", "wrong": ["छैन|chhaina", "होइनन्|hoinan"] },
+        { "native": "मेरी छोरी अमेरिकामा छ।", "roman": "meri chhori Amerikāmā chha.", "en": "My daughter is in America.", "focus": "मेरी", "wrong": ["मेरा|merā", "म|ma"] },
+        { "native": "त्यो केटी तिम्री बहिनी हो?", "roman": "tyo keṭi timri bahini ho?", "en": "Is that girl your little sister?", "focus": "तिम्री", "wrong": ["तिम्रा|timrā", "तिमी|timi"] },
+        { "native": "तिम्रो बिहे भयो?", "roman": "timro bihe bhayo?", "en": "Are you married? (to a friend)" },
+        { "native": "मेरो बिहे भएको छैन।", "roman": "mero bihe bhaeko chhaina.", "en": "I'm not married." },
+        { "native": "तपाईंका छोराछोरी कति जना छन्?", "roman": "tapāiṃkā chhorāchhori kati janā chhan?", "en": "How many children do you have?" },
+        { "native": "यो केटा मेरो छोरा हो।", "roman": "yo keṭā mero chhorā ho.", "en": "This boy is my son." }
+      ]
+    },
+    {
+      "title": "Uncles, aunts and grandparents",
+      "tip": { "title": "An uncle for every side", "body": "- Nepali has a word for each relative: **काका** (dad's younger brother) and **काकी**; **मामा** (mum's brother — not 'mum'!) and **माइजु**; **फुपू** (dad's sister).\n- Elders get respect: **मेरा** काका, verb **हुनुहुन्छ**.\n- Call them by the kin word, not their name: काका, चिया खानुहुन्छ?" },
+      "new": ["हजुरबुबा", "हजुरआमा", "काका", "काकी", "मामा", "माइजु", "फुपू", "नाति", "तपाईंको बुबा के गर्नुहुन्छ?"],
+      "sentences": [
+        { "native": "मेरा हजुरबुबा र हजुरआमा पाटनमा बस्नुहुन्छ।", "roman": "merā hajurbubā ra hajurāmā Pāṭanmā basnuhunchha.", "en": "My grandparents live in Patan.", "focus": "बस्नुहुन्छ", "wrong": ["बस्छ|baschha", "बस्छु|baschhu"] },
+        { "native": "काका, तपाईं सन्चै हुनुहुन्छ?", "roman": "kākā, tapāiṃ sanchai hunuhunchha?", "en": "Uncle, are you well?", "focus": "हुनुहुन्छ", "wrong": ["छौ|chhau", "छ|chha"] },
+        { "native": "मेरा मामा भारतमा हुनुहुन्छ।", "roman": "merā māmā Bhāratmā hunuhunchha.", "en": "My uncle (mum's brother) is in India.", "focus": "मेरा", "wrong": ["म|ma", "मलाई|malāi"] },
+        { "native": "माइजु मामाकी श्रीमती हुनुहुन्छ।", "roman": "māiju māmāki srimati hunuhunchha.", "en": "Maiju is Mama's wife." },
+        { "native": "फुपू, चिया खानुहुन्छ?", "roman": "phupu, chiyā khānuhunchha?", "en": "Auntie, would you like some tea?", "focus": "खानुहुन्छ", "wrong": ["खान्छु|khānchhu", "खान्छ|khānchha"] },
+        { "native": "काकी घरमा हुनुहुन्न।", "roman": "kāki gharmā hunuhunna.", "en": "Auntie isn't at home.", "focus": "हुनुहुन्न", "wrong": ["छैन|chhaina", "होइन|hoina"] },
+        { "native": "यो मेरो नाति हो।", "roman": "yo mero nāti ho.", "en": "This is my grandson." },
+        { "native": "तिम्रो बुबा के गर्नुहुन्छ?", "roman": "timro bubā ke garnuhunchha?", "en": "What does your father do?" },
+        { "native": "मेरा काका डाक्टर हुनुहुन्छ।", "roman": "merā kākā ḍākṭar hunuhunchha.", "en": "My uncle is a doctor.", "focus": "हुनुहुन्छ", "wrong": ["छ|chha", "हो|ho"] }
+      ]
+    },
+    {
+      "title": "How big is your family?",
+      "new": ["मान्छे", "आफ्नो", "तपाईंको परिवारमा को-को हुनुहुन्छ?", "हाम्रो परिवारमा पाँच जना छौँ।"],
+      "sentences": [
+        { "native": "तिम्रो परिवारमा को-को छन्?", "roman": "timro pariwārmā ko-ko chhan?", "en": "Who's in your family? (to a friend)" },
+        { "native": "हाम्रो परिवारमा चार जना छौँ।", "roman": "hāmro pariwārmā chār janā chhauṃ.", "en": "There are four of us in our family." },
+        { "native": "मेरो परिवारमा आमा, बुबा र एउटा भाइ छन्।", "roman": "mero pariwārmā āmā, bubā ra euṭā bhāi chhan.", "en": "In my family there's mum, dad and a younger brother." },
+        { "native": "हाम्रो परिवार सानो छ।", "roman": "hāmro pariwār sāno chha.", "en": "Our family is small." },
+        { "native": "त्यो मान्छे को हो?", "roman": "tyo mānchhe ko ho?", "en": "Who's that person?" },
+        { "native": "त्यो मान्छे नेपाली होइन।", "roman": "tyo mānchhe nepāli hoina.", "en": "That person isn't Nepali." },
+        { "native": "राम राम्रो मान्छे हो।", "roman": "Rām rāmro mānchhe ho.", "en": "Ram is a good person." },
+        { "native": "यो मेरो आफ्नो घर हो।", "roman": "yo mero āphno ghar ho.", "en": "This is my own house." },
+        { "native": "आफ्नो नाम भन्नुहोस्।", "roman": "āphno nām bhannuhos.", "en": "Please say your name." }
+      ]
+    }
+  ]
 }

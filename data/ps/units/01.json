@@ -89,5 +89,83 @@
       { "speaker": "Haji Gul Khan", "native": "په مخه دې ښه، زويه.", "roman": "pə mə́xa de ṣa, zóya.", "en": "Go well, son." }
     ]
   },
-  "culture": "Greetings among Pashtuns are long and warm: after السلام عليکم come questions like جوړ يې؟ ښه يې؟ خوشاله يې؟ کور کلی دې ښه دی؟ ('Are you well? good? happy? Are your home and village well?'), and both people may ask at the same time — you don't have to answer each one. The younger person or the one arriving greets first, and elders are addressed with تاسو and titles like حاجي صاحب, ماما (uncle) or ادې (mother). Men shake hands, often with both hands, and friends embrace; between unrelated men and women a respectful greeting is usually given without physical contact — a nod with the right hand on the heart is always appropriate. If you're thanked for something, answer هېڅ خبره نه ده or simply شکر."
+  "culture": "Greetings among Pashtuns are long and warm: after السلام عليکم come questions like جوړ يې؟ ښه يې؟ خوشاله يې؟ کور کلی دې ښه دی؟ ('Are you well? good? happy? Are your home and village well?'), and both people may ask at the same time — you don't have to answer each one. The younger person or the one arriving greets first, and elders are addressed with تاسو and titles like حاجي صاحب, ماما (uncle) or ادې (mother). Men shake hands, often with both hands, and friends embrace; between unrelated men and women a respectful greeting is usually given without physical contact — a nod with the right hand on the heart is always appropriate. If you're thanked for something, answer هېڅ خبره نه ده or simply شکر.",
+  "lessons": [
+    {
+      "title": "Hello, how are you?",
+      "tip": { "title": "The verb goes last", "body": "- Pashto puts the verb at the **end**: زه ښه يم is literally 'I fine am'.\n- **يم** yəm = am (with زه), **يې** ye = are (with ته).\n- **نه** na 'not' goes straight before the verb: زه ښه **نه** يم 'I'm not well'.", "pattern": "زه + ښه + يم  ·  ته + څنګه + يې؟", "grammar": 0 },
+      "new": ["السلام عليکم", "وعليکم السلام", "ته", "څنګه", "ښه", "شکر", "مننه", "نه", "ته څنګه يې؟", "زه ښه يم، مننه."],
+      "sentences": [
+        { "native": "السلام عليکم، ته څنګه يې؟", "roman": "assalā́mu ʿaláykum, tə tsə́nga ye?", "en": "Hello, how are you?", "focus": "يې", "wrong": ["يم|yəm", "دی|day"] },
+        { "native": "وعليکم السلام، زه ښه يم.", "roman": "wa-ʿaláykum assalā́m, zə ṣə yəm.", "en": "Hello, I'm fine.", "focus": "يم", "wrong": ["يې|ye", "دی|day"] },
+        { "native": "شکر، ښه يم.", "roman": "shukr, ṣə yəm.", "en": "Fine, thank God.", "focus": "يم", "wrong": ["يې|ye", "ده|da"] },
+        { "native": "ته ښه يې؟", "roman": "tə ṣə ye?", "en": "Are you well?", "focus": "يې", "wrong": ["يم|yəm", "دی|day"] },
+        { "native": "زه ښه نه يم.", "roman": "zə ṣə na yəm.", "en": "I'm not well.", "focus": "نه", "wrong": ["شکر|shukr", "ښه|ṣə"] },
+        { "native": "مننه، زه ښه يم، ته څنګه يې؟", "roman": "manə́na, zə ṣə yəm, tə tsə́nga ye?", "en": "Thanks, I'm fine — how are you?", "focus": "څنګه", "wrong": ["شکر|shukr", "مننه|manə́na"] },
+        { "native": "ته ښه نه يې؟", "roman": "tə ṣə na ye?", "en": "Aren't you well?", "focus": "يې", "wrong": ["يم|yəm", "ده|da"] },
+        { "native": "شکر، ته ښه يې؟", "roman": "shukr, tə ṣə ye?", "en": "Fine, thank God. Are you well?" }
+      ]
+    },
+    {
+      "title": "Talking to elders and friends",
+      "tip": { "title": "ته or تاسو?", "body": "- **ته** tə is 'you' for a friend, a child or someone younger; **تاسو** tāso is the polite 'you' for elders and strangers (and 'you all').\n- The verb changes with it: ته … **يې** ye, but تاسو … **ياست** yāst.\n- Add **صاحب** 'sir' or **جان** 'dear' after a name: حاجي صاحب, احمد جان. When in doubt, use تاسو.", "pattern": "ته … يې؟  ·  تاسو … ياست؟", "grammar": 1 },
+      "new": ["تاسو", "جوړ", "صاحب", "جان", "خير", "تاسو څنګه ياست؟", "شکر، ته څنګه يې؟"],
+      "sentences": [
+        { "native": "تاسو ښه ياست؟", "roman": "tāso ṣə yāst?", "en": "Are you well? (polite)", "focus": "ياست", "wrong": ["يې|ye", "يم|yəm"] },
+        { "native": "احمد جان، ته جوړ يې؟", "roman": "ahmád jān, tə joṛ ye?", "en": "Ahmad dear, are you well?", "focus": "يې", "wrong": ["ياست|yāst", "يم|yəm"] },
+        { "native": "حاجي صاحب، تاسو جوړ ياست؟", "roman": "hājí sāhíb, tāso joṛ yāst?", "en": "Haji sahib, are you well?", "focus": "تاسو", "wrong": ["ته|tə"] },
+        { "native": "شکر، جوړ يم.", "roman": "shukr, joṛ yəm.", "en": "I'm well, thank God.", "focus": "يم", "wrong": ["ياست|yāst", "يې|ye"] },
+        { "native": "تاسو جوړ نه ياست؟", "roman": "tāso joṛ na yāst?", "en": "Aren't you well? (polite)", "focus": "ياست", "wrong": ["يې|ye", "يم|yəm"] },
+        { "native": "ته څنګه يې، احمد جان؟", "roman": "tə tsə́nga ye, ahmád jān?", "en": "How are you, Ahmad dear?", "focus": "ته", "wrong": ["تاسو|tāso"] },
+        { "native": "خير دی، زه جوړ يم.", "roman": "xayr day, zə joṛ yəm.", "en": "It's all right, I'm well." },
+        { "native": "حاجي صاحب، مننه، زه ښه يم.", "roman": "hājí sāhíb, manə́na, zə ṣə yəm.", "en": "Thank you, Haji sahib, I'm fine." }
+      ]
+    },
+    {
+      "title": "Greeting the Pashto way",
+      "tip": { "title": "Greetings come in pairs", "body": "- **ستړي مه شې** 'may you not be tired' greets someone arriving or working. The answer is **خوار مه شې** 'may you not be poor'.\n- To an elder or a group say **شئ** shəy instead of **شې** she: ستړي مه شئ.\n- **په خير راغلې** welcomes a guest; **ښه راغلاست** is the formal welcome on signs and in speeches.", "pattern": "ستړي مه شې → خوار مه شې" },
+      "new": ["ستړي مه شې", "خوار مه شې", "په خير راغلې", "ښه راغلاست", "هو", "جوړ يې؟ ښه يې؟"],
+      "sentences": [
+        { "native": "ستړي مه شې، احمد جان!", "roman": "stə́ṛi ma she, ahmád jān!", "en": "Hello, Ahmad dear! (lit. may you not be tired)", "focus": "ستړي", "wrong": ["خوار|xwār"] },
+        { "native": "خوار مه شې، ته جوړ يې؟", "roman": "xwār ma she, tə joṛ ye?", "en": "And to you! Are you well?", "focus": "خوار", "wrong": ["ستړي|stə́ṛi"] },
+        { "native": "ستړي مه شئ، حاجي صاحب!", "roman": "stə́ṛi ma shəy, hājí sāhíb!", "en": "Hello, Haji sahib! (polite)", "focus": "شئ", "wrong": ["شې|she"] },
+        { "native": "په خير راغلې، احمد جان!", "roman": "pə xayr rā́ġle, ahmád jān!", "en": "Welcome, Ahmad dear!", "focus": "خير", "wrong": ["خوار|xwār", "شکر|shukr"] },
+        { "native": "ښه راغلاست! تاسو ستړي نه ياست؟", "roman": "ṣə rāġlā́st! tāso stə́ṛi na yāst?", "en": "Welcome! You're not tired?" },
+        { "native": "هو، زه جوړ يم، ته ښه يې؟", "roman": "ho, zə joṛ yəm, tə ṣə ye?", "en": "Yes, I'm well — are you all right?", "focus": "هو", "wrong": ["نه|na"] },
+        { "native": "هو، زه ستړی يم.", "roman": "ho, zə stə́ṛay yəm.", "en": "Yes, I'm tired." },
+        { "native": "احمد جان، جوړ يې؟ ښه يې؟", "roman": "ahmád jān, joṛ ye? ṣə ye?", "en": "Ahmad dear, are you well? All good?", "focus": "جوړ", "wrong": ["خوار|xwār", "ستړی|stə́ṛay"] }
+      ]
+    },
+    {
+      "title": "Thank you, please and sorry",
+      "tip": { "title": "Saying thanks and sorry politely", "body": "- **ډېره مننه** 'thank you very much': ډېر 'very' takes **-a** because مننه is feminine.\n- **مهرباني وکړئ** 'please' to an elder or a stranger; **مهرباني وکړه** to a friend.\n- **بښنه غواړم** is both 'sorry' and 'excuse me'. Answer thanks or an apology with **هېڅ خبره نه ده** 'no problem'.", "pattern": "ډېره مننه  ·  مهرباني وکړئ  ·  بښنه غواړم" },
+      "new": ["ډېر", "ډېره مننه.", "مهرباني", "مهرباني وکړئ.", "بښنه", "بښنه غواړم.", "هېڅ", "خبره", "هېڅ خبره نه ده.", "سمه ده"],
+      "sentences": [
+        { "native": "ډېره مننه، حاجي صاحب.", "roman": "ḍéra manə́na, hājí sāhíb.", "en": "Thank you very much, Haji sahib.", "focus": "ډېره", "wrong": ["ډېر|ḍer"] },
+        { "native": "حاجي صاحب، مهرباني وکړئ.", "roman": "hājí sāhíb, mehrabāní wə́kṛəy.", "en": "Haji sahib, please. (polite)", "focus": "وکړئ", "wrong": ["وکړه|wə́kṛa"] },
+        { "native": "بښنه غواړم، تاسو احمد ياست؟", "roman": "baṣə́na ġwā́ṛəm, tāso ahmád yāst?", "en": "Excuse me, are you Ahmad?", "focus": "بښنه", "wrong": ["مننه|manə́na", "مهرباني|mehrabāní"] },
+        { "native": "هېڅ خبره نه ده، ته ښه يې؟", "roman": "hets xabə́ra na da, tə ṣə ye?", "en": "It's nothing — are you OK?" },
+        { "native": "سمه ده، ډېره مننه.", "roman": "sáma da, ḍéra manə́na.", "en": "All right, thanks a lot.", "focus": "ډېره", "wrong": ["ډېر|ḍer"] },
+        { "native": "مهرباني، احمد جان!", "roman": "mehrabāní, ahmád jān!", "en": "Thanks, Ahmad dear!" },
+        { "native": "خير دی، هېڅ خبره نه ده.", "roman": "xayr day, hets xabə́ra na da.", "en": "It's fine, no problem at all.", "focus": "هېڅ", "wrong": ["ډېر|ḍer"] },
+        { "native": "زه ډېر ستړی يم.", "roman": "zə ḍer stə́ṛay yəm.", "en": "I'm very tired.", "focus": "ډېر", "wrong": ["ډېره|ḍéra"] },
+        { "native": "تاسو ډېر ستړي ياست؟", "roman": "tāso ḍer stə́ṛi yāst?", "en": "Are you very tired? (polite)", "focus": "ډېر", "wrong": ["ډېره|ḍéra"] }
+      ]
+    },
+    {
+      "title": "Understanding and saying goodbye",
+      "new": ["پوه", "پوه نه شوم.", "بيا", "بيا به سره وګورو.", "خدای پامان", "په مخه دې ښه", "انشاالله", "ماشاالله", "کور دې ودان!"],
+      "sentences": [
+        { "native": "بښنه غواړم، پوه نه شوم.", "roman": "baṣə́na ġwā́ṛəm, poh na shwəm.", "en": "Sorry, I didn't understand.", "focus": "نه", "wrong": ["هو|ho"] },
+        { "native": "هو، پوه شوم.", "roman": "ho, poh shwəm.", "en": "Yes, I understood." },
+        { "native": "ته پوه شوې؟", "roman": "tə poh shwe?", "en": "Did you understand?" },
+        { "native": "سمه ده، انشاالله بيا به سره وګورو.", "roman": "sáma da, inshāllā́h biyā́ ba sara wə́goru.", "en": "All right — God willing, we'll see each other again." },
+        { "native": "خدای پامان، احمد جان!", "roman": "xudā́y pāmā́n, ahmád jān!", "en": "Goodbye, Ahmad dear!" },
+        { "native": "په مخه دې ښه، احمد جان.", "roman": "pə mə́xa de ṣa, ahmád jān.", "en": "Have a good journey, Ahmad dear." },
+        { "native": "ماشاالله، ډېر ښه!", "roman": "māshāllā́h, ḍer ṣə!", "en": "Wonderful, very good!" },
+        { "native": "مننه، کور دې ودان، حاجي صاحب!", "roman": "manə́na, kor de wadā́n, hājí sāhíb!", "en": "Thank you for your hospitality, Haji sahib!" },
+        { "native": "ډېره مننه، خدای پامان.", "roman": "ḍéra manə́na, xudā́y pāmā́n.", "en": "Thanks a lot, goodbye." }
+      ]
+    }
+  ]
 }

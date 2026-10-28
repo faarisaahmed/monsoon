@@ -93,5 +93,101 @@
       { "speaker": "Palwasha", "native": "ستاسو په ليدو ډېره خوشاله شوم!", "roman": "stāso pə lidó ḍéra xoshā́la shwəm!", "en": "I'm very glad to meet you!" }
     ]
   },
-  "culture": "Pashto is spoken on both sides of the Durand Line, the Afghanistan–Pakistan border, and people will often ask *which* Pashto you are learning: the Kandahari 'Pashto' of the south or the Peshawari 'Pakhto' of the north. Both are welcome — Pashtuns are delighted when a foreigner tries their language, and even a few sentences will win you smiles and tea. The word پښتو also means the Pashtun code of honour (*Pashtunwali*): saying of someone that he 'has Pashto' means he behaves honourably, keeps his word and looks after his guests."
+  "culture": "Pashto is spoken on both sides of the Durand Line, the Afghanistan–Pakistan border, and people will often ask *which* Pashto you are learning: the Kandahari 'Pashto' of the south or the Peshawari 'Pakhto' of the north. Both are welcome — Pashtuns are delighted when a foreigner tries their language, and even a few sentences will win you smiles and tea. The word پښتو also means the Pashtun code of honour (*Pashtunwali*): saying of someone that he 'has Pashto' means he behaves honourably, keeps his word and looks after his guests.",
+  "lessons": [
+    {
+      "title": "I, he, she, we, they",
+      "tip": { "title": "Pronouns and 'to be'", "body": "- زه **يم** · ته **يې** · هغه **دی** (he) / هغه **ده** (she) · موږ **يو** · تاسو **ياست** · هغوی **دي**.\n- **هغه** is both 'he' and 'she': only دی or ده tells you which.\n- **هم** 'too' comes after its word: زه هم 'me too'.", "pattern": "هغه پښتون دی  ·  موږ ښه يو", "grammar": 0 },
+      "new": ["زه", "هغه", "دا", "موږ", "هغوی", "پښتون", "او", "هم"],
+      "sentences": [
+        { "native": "زه پښتون يم.", "roman": "zə paṣtún yəm.", "en": "I'm a Pashtun.", "focus": "يم", "wrong": ["يې|ye", "دی|day"] },
+        { "native": "هغه هم پښتون دی.", "roman": "haġá ham paṣtún day.", "en": "He's a Pashtun too.", "focus": "دی", "wrong": ["ده|da", "دي|di"] },
+        { "native": "موږ ښه يو، شکر.", "roman": "muẓ ṣə yu, shukr.", "en": "We're fine, thank God.", "focus": "يو", "wrong": ["يم|yəm", "دي|di"] },
+        { "native": "هغوی هم پښتانه دي.", "roman": "haġwí ham paṣtānə́ di.", "en": "They're Pashtuns too.", "focus": "دي", "wrong": ["دی|day", "يو|yu"] },
+        { "native": "دا احمد دی او هغه پلوشه ده.", "roman": "dā ahmád day aw haġá palwáṣa da.", "en": "This is Ahmad and that's Palwasha.", "focus": "ده", "wrong": ["دی|day", "دي|di"] },
+        { "native": "هغه ستړې ده.", "roman": "haġá stə́ṛe da.", "en": "She's tired.", "focus": "ده", "wrong": ["دی|day", "يم|yəm"] },
+        { "native": "زه هم ښه يم.", "roman": "zə ham ṣə yəm.", "en": "I'm fine too.", "focus": "هم", "wrong": ["او|aw"] },
+        { "native": "تاسو پښتون ياست؟", "roman": "tāso paṣtún yāst?", "en": "Are you a Pashtun? (polite)", "focus": "ياست", "wrong": ["يې|ye", "يو|yu"] },
+        { "native": "نه، زه پښتون نه يم.", "roman": "na, zə paṣtún na yəm.", "en": "No, I'm not a Pashtun." }
+      ]
+    },
+    {
+      "title": "What's your name?",
+      "tip": { "title": "Question words stay in place", "body": "- Put the question word where the answer would go, just before the verb: ستا نوم احمد دی → ستا نوم **څه** دی؟\n- **څه** what · **څوک** who · **څنګه** how.\n- A yes/no question needs no extra word: just raise your voice at the end.", "pattern": "ستاسو نوم + څه + دی؟", "grammar": 1 },
+      "new": ["نوم", "زما", "ستا", "ستاسو", "څه", "څوک", "ستاسو نوم څه دی؟", "ستا نوم څه دی؟", "زما نوم احمد دی."],
+      "sentences": [
+        { "native": "هغه څوک دی؟", "roman": "haġá tsok day?", "en": "Who is he?", "focus": "څوک", "wrong": ["څه|tsə", "څنګه|tsə́nga"] },
+        { "native": "هغه احمد دی.", "roman": "haġá ahmád day.", "en": "That's Ahmad." },
+        { "native": "دا څه دی؟", "roman": "dā tsə day?", "en": "What is this?", "focus": "څه", "wrong": ["څوک|tsok", "څنګه|tsə́nga"] },
+        { "native": "دا ښه چای دی.", "roman": "dā ṣə chāy day.", "en": "This is good tea." },
+        { "native": "هغه څوک ده؟", "roman": "haġá tsok da?", "en": "Who is she?", "focus": "څوک", "wrong": ["څه|tsə", "څنګه|tsə́nga"] },
+        { "native": "زما نوم احمد نه دی.", "roman": "zmā num ahmád na day.", "en": "My name isn't Ahmad." },
+        { "native": "ستاسو نوم احمد دی؟", "roman": "stāso num ahmád day?", "en": "Is your name Ahmad? (polite)", "focus": "دی", "wrong": ["يې|ye", "يم|yəm"] },
+        { "native": "ستاسو نوم څه دی، حاجي صاحب؟", "roman": "stāso num tsə day, hājí sāhíb?", "en": "What's your name, Haji sahib?", "focus": "ستاسو", "wrong": ["ستا|stā", "زما|zmā"] },
+        { "native": "تاسو څوک ياست؟", "roman": "tāso tsok yāst?", "en": "Who are you? (polite)", "focus": "څوک", "wrong": ["څه|tsə", "څنګه|tsə́nga"] }
+      ]
+    },
+    {
+      "title": "Saying where you are from",
+      "tip": { "title": "'From': د … or له … نه", "body": "- **د** + place + verb says where you belong: زه **د** کابل يم 'I'm from Kabul'.\n- **له** … **نه** wraps the place for 'from' a starting point: **له** کندهار **نه** راغلی يم 'I've come from Kandahar'.\n- Ask with **کوم** 'which' or **چېرته** 'where': د کوم ځای يې؟", "pattern": "زه د + place + يم  ·  له + place + نه" },
+      "new": ["چېرته", "کوم", "د", "له", "هېواد", "ته د کوم ځای يې؟", "زه د کندهار يم.", "زه له انګلستان نه راغلی يم."],
+      "sentences": [
+        { "native": "ته د کوم هېواد يې؟", "roman": "tə də kum hewā́d ye?", "en": "Which country are you from?", "focus": "کوم", "wrong": ["څوک|tsok", "څه|tsə"] },
+        { "native": "زه د کابل يم.", "roman": "zə də kābúl yəm.", "en": "I'm from Kabul.", "focus": "د", "wrong": ["له|la"] },
+        { "native": "هغه د پېښور ده.", "roman": "haġá də peṣawár da.", "en": "She's from Peshawar.", "focus": "د", "wrong": ["له|la"] },
+        { "native": "احمد چېرته دی؟", "roman": "ahmád chérta day?", "en": "Where is Ahmad?", "focus": "چېرته", "wrong": ["څوک|tsok", "کوم|kum"] },
+        { "native": "ستاسو کور چېرته دی؟", "roman": "stāso kor chérta day?", "en": "Where is your house?", "focus": "چېرته", "wrong": ["څوک|tsok", "څه|tsə"] },
+        { "native": "هغه له کندهار نه راغلی دی.", "roman": "haġá la kandahā́r na rāġə́lay day.", "en": "He has come from Kandahar.", "focus": "له", "wrong": ["د|də"] },
+        { "native": "ستاسو هېواد ډېر ښه دی.", "roman": "stāso hewā́d ḍer ṣə day.", "en": "Your country is very nice." },
+        { "native": "هغوی د کوم ځای دي؟", "roman": "haġwí də kum dzāy di?", "en": "Where are they from?", "focus": "کوم", "wrong": ["څه|tsə", "څوک|tsok"] }
+      ]
+    },
+    {
+      "title": "Where do you live?",
+      "tip": { "title": "Present tense endings", "body": "- Most present verbs take these endings: زه **-əm** · ته **-e** · هغه / هغوی **-i** · موږ **-u** · تاسو **-əy**.\n- اوسېږم oséẓəm 'I live', اوسېږې, اوسېږي, اوسېږو, اوسېږئ.\n- 'In a city' is **په** … **کې**: په کابل کې.", "pattern": "زه په + place + کې اوسېږم" },
+      "new": ["اوسېدل", "ښار", "اوس", "زه په پېښور کې اوسېږم.", "ستاسو په ليدو ډېر خوشاله شوم."],
+      "sentences": [
+        { "native": "تاسو چېرته اوسېږئ؟", "roman": "tāso chérta oséẓəy?", "en": "Where do you live? (polite)", "focus": "اوسېږئ", "wrong": ["اوسېږې|oséẓe", "اوسېږم|oséẓəm"] },
+        { "native": "زه په کابل کې اوسېږم.", "roman": "zə pə kābúl ke oséẓəm.", "en": "I live in Kabul.", "focus": "اوسېږم", "wrong": ["اوسېږي|oséẓi", "اوسېږې|oséẓe"] },
+        { "native": "هغه په کوم ښار کې اوسېږي؟", "roman": "haġá pə kum ṣār ke oséẓi?", "en": "Which city does he live in?", "focus": "اوسېږي", "wrong": ["اوسېږم|oséẓəm", "اوسېږو|oséẓu"] },
+        { "native": "موږ اوس په پېښور کې اوسېږو.", "roman": "muẓ os pə peṣawár ke oséẓu.", "en": "We live in Peshawar now.", "focus": "اوسېږو", "wrong": ["اوسېږي|oséẓi", "اوسېږئ|oséẓəy"] },
+        { "native": "هغوی په کندهار کې اوسېږي.", "roman": "haġwí pə kandahā́r ke oséẓi.", "en": "They live in Kandahar.", "focus": "اوسېږي", "wrong": ["اوسېږو|oséẓu", "اوسېږم|oséẓəm"] },
+        { "native": "کابل ډېر ښه ښار دی.", "roman": "kābúl ḍer ṣə ṣār day.", "en": "Kabul is a very nice city." },
+        { "native": "ته اوس چېرته يې؟", "roman": "tə os chérta ye?", "en": "Where are you now?" },
+        { "native": "ته هم په پېښور کې اوسېږې؟", "roman": "tə ham pə peṣawár ke oséẓe?", "en": "Do you live in Peshawar too?", "focus": "اوسېږې", "wrong": ["اوسېږي|oséẓi", "اوسېږم|oséẓəm"] },
+        { "native": "زه هم ستاسو په ليدو ډېر خوشاله شوم.", "roman": "zə ham stāso pə lidó ḍer xoshā́la shwəm.", "en": "I'm very glad to meet you too." }
+      ]
+    },
+    {
+      "title": "Which languages do you speak?",
+      "tip": { "title": "Speaking and understanding a language", "body": "- 'I speak Pashto' is **پښتو وايم** (lit. I say Pashto) — the language comes before the verb.\n- 'Understand' takes **په**: **په** پښتو پوهېږم 'I understand Pashto'.\n- Same endings as before: وايم، وايې، وايي، وايو، وايئ.", "pattern": "پښتو وايم  ·  په پښتو پوهېږم" },
+      "new": ["پښتو", "انګرېزي", "اردو", "ويل", "لږ", "ته پښتو وايې؟", "هو، لږ لږ پښتو وايم.", "پوهېدل", "په انګرېزي پوهېږئ؟"],
+      "sentences": [
+        { "native": "زه انګرېزي او اردو وايم.", "roman": "zə angrezí aw urdú wā́yəm.", "en": "I speak English and Urdu.", "focus": "وايم", "wrong": ["وايې|wā́ye", "وايي|wā́yi"] },
+        { "native": "هغه پښتو نه وايي.", "roman": "haġá paṣtó na wā́yi.", "en": "He doesn't speak Pashto.", "focus": "وايي", "wrong": ["وايم|wā́yəm", "وايو|wā́yu"] },
+        { "native": "ته په اردو پوهېږې؟", "roman": "tə pə urdú pohéẓe?", "en": "Do you understand Urdu?", "focus": "په", "wrong": ["د|də", "له|la"] },
+        { "native": "هو، په پښتو لږ پوهېږم.", "roman": "ho, pə paṣtó ləẓ pohéẓəm.", "en": "Yes, I understand Pashto a little.", "focus": "پوهېږم", "wrong": ["پوهېږې|pohéẓe", "پوهېږي|pohéẓi"] },
+        { "native": "زه په انګرېزي نه پوهېږم.", "roman": "zə pə angrezí na pohéẓəm.", "en": "I don't understand English.", "focus": "په", "wrong": ["د|də", "له|la"] },
+        { "native": "تاسو انګرېزي وايئ؟", "roman": "tāso angrezí wā́yəy?", "en": "Do you speak English? (polite)", "focus": "وايئ", "wrong": ["وايې|wā́ye", "وايم|wā́yəm"] },
+        { "native": "موږ پښتو وايو.", "roman": "muẓ paṣtó wā́yu.", "en": "We speak Pashto.", "focus": "وايو", "wrong": ["وايي|wā́yi", "وايم|wā́yəm"] },
+        { "native": "هغوی لږ انګرېزي وايي.", "roman": "haġwí ləẓ angrezí wā́yi.", "en": "They speak a little English." },
+        { "native": "ته پښتو ښه وايې!", "roman": "tə paṣtó ṣə wā́ye!", "en": "You speak Pashto well!" }
+      ]
+    },
+    {
+      "title": "Learning Pashto",
+      "tip": { "title": "زده کول — to learn", "body": "- Many verbs are a word + **کول** 'to do': زده کول 'to learn' (lit. do learning).\n- Only کول changes: زده **کوم** · زده **کوې** · زده **کوي** · زده **کوو** · زده **کوئ**.\n- To slow someone down: ورو خبرې وکړئ 'speak slowly'; to a friend بيا ووايه 'say it again'.", "pattern": "زه پښتو زده کوم" },
+      "new": ["زده کول", "ورو", "زه پښتو زده کوم.", "مهرباني وکړئ، ورو خبرې وکړئ.", "بيا ووايه."],
+      "sentences": [
+        { "native": "موږ انګرېزي زده کوو.", "roman": "muẓ angrezí zdə kawú.", "en": "We're learning English.", "focus": "کوو", "wrong": ["کوم|kawə́m", "کوې|kawé"] },
+        { "native": "ته څه زده کوې؟", "roman": "tə tsə zdə kawé?", "en": "What are you learning?", "focus": "کوې", "wrong": ["کوم|kawə́m", "کوي|kawí"] },
+        { "native": "هغه اردو زده کوي.", "roman": "haġá urdú zdə kawí.", "en": "She is learning Urdu.", "focus": "کوي", "wrong": ["کوې|kawé", "کوو|kawú"] },
+        { "native": "تاسو پښتو زده کوئ؟", "roman": "tāso paṣtó zdə kawə́y?", "en": "Are you learning Pashto? (polite)", "focus": "کوئ", "wrong": ["کوې|kawé", "کوم|kawə́m"] },
+        { "native": "مهرباني وکړئ، ورو ووايئ.", "roman": "mehrabāní wə́kṛəy, wro wə́wāyəy.", "en": "Please say it slowly." },
+        { "native": "احمد جان، بيا ووايه، پوه نه شوم.", "roman": "ahmád jān, biyā́ wə́wāya, poh na shwəm.", "en": "Ahmad dear, say it again — I didn't understand." },
+        { "native": "ورو ورو پښتو زده کوم.", "roman": "wro wro paṣtó zdə kawə́m.", "en": "I'm learning Pashto bit by bit.", "focus": "کوم", "wrong": ["کوې|kawé", "کوي|kawí"] },
+        { "native": "ته ډېر ورو خبرې کوې.", "roman": "tə ḍer wro xabə́re kawé.", "en": "You talk very slowly.", "focus": "کوې", "wrong": ["کوم|kawə́m", "کوي|kawí"] }
+      ]
+    }
+  ]
 }

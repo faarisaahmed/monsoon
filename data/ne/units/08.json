@@ -101,5 +101,98 @@
       { "speaker": "Tom", "native": "धन्यवाद! यो पोखराको हो — सस्तो पनि।", "roman": "dhanyabād! yo Pokharāko ho — sasto pani.", "en": "Thanks! It's from Pokhara — and cheap too." }
     ]
   },
-  "culture": "Colours carry meaning in Nepal: **red** (रातो) is the colour of weddings, married women's सिन्दूर (vermilion in the hair parting) and the red-green पोते bead necklace; **white** (सेतो) is worn in mourning. Personal remarks are frank and usually friendly: **मोटाउनुभएछ!** 'You've put on weight!' often means 'you look healthy and well-fed', while दुब्लाउनुभएछ 'you've got thin' is a sign of concern. Don't take either personally. Everest is **सगरमाथा** in Nepali and *Chomolungma* in Sherpa/Tibetan."
+  "culture": "Colours carry meaning in Nepal: **red** (रातो) is the colour of weddings, married women's सिन्दूर (vermilion in the hair parting) and the red-green पोते bead necklace; **white** (सेतो) is worn in mourning. Personal remarks are frank and usually friendly: **मोटाउनुभएछ!** 'You've put on weight!' often means 'you look healthy and well-fed', while दुब्लाउनुभएछ 'you've got thin' is a sign of concern. Don't take either personally. Everest is **सगरमाथा** in Nepali and *Chomolungma* in Sherpa/Tibetan.",
+  "lessons": [
+    {
+      "title": "What colour is it?",
+      "tip": { "title": "Colours before the noun", "body": "- A colour (like any adjective) goes **before** the noun: **रातो** झोला 'a red bag'.\n- Or after, with छ: झोला **रातो** छ 'the bag is red'.\n- 'What colour?' = **कस्तो रङको**? or रङ कस्तो छ?", "pattern": "colour + thing  ·  thing + colour + छ" },
+      "new": ["रङ", "रातो", "नीलो", "हरियो", "पहेँलो", "कालो", "सेतो", "यसको रङ कस्तो छ?", "मलाई नीलो रङ मन पर्छ।"],
+      "sentences": [
+        { "native": "तिमीलाई कुन रङ मन पर्छ?", "roman": "timilāi kun raṅ man parchha?", "en": "Which colour do you like?" },
+        { "native": "मेरो झोला कालो छ।", "roman": "mero jholā kālo chha.", "en": "My bag is black.", "focus": "कालो", "wrong": ["सेतो|seto", "रातो|rāto"] },
+        { "native": "नीलो झोला मेरो हो।", "roman": "nilo jholā mero ho.", "en": "The blue bag is mine.", "focus": "नीलो", "wrong": ["हरियो|hariyo", "पहेँलो|paheṃlo"] },
+        { "native": "एउटा कालो चिया दिनुहोस्।", "roman": "euṭā kālo chiyā dinuhos.", "en": "One black tea, please.", "focus": "कालो", "wrong": ["सेतो|seto", "हरियो|hariyo"] },
+        { "native": "यो रातो अचार पिरो छ?", "roman": "yo rāto achār piro chha?", "en": "Is this red pickle spicy?", "focus": "रातो", "wrong": ["नीलो|nilo", "सेतो|seto"] },
+        { "native": "मेरो कोठा पहेँलो छ।", "roman": "mero koṭhā paheṃlo chha.", "en": "My room is yellow.", "focus": "पहेँलो", "wrong": ["कालो|kālo", "हरियो|hariyo"] },
+        { "native": "हिमाल सेतो छ।", "roman": "himāl seto chha.", "en": "The mountain is white.", "focus": "सेतो", "wrong": ["कालो|kālo", "रातो|rāto"] },
+        { "native": "उसको घर हरियो छ।", "roman": "usko ghar hariyo chha.", "en": "His house is green.", "focus": "हरियो", "wrong": ["नीलो|nilo", "पहेँलो|paheṃlo"] },
+        { "native": "तिम्रो फोन कस्तो रङको छ?", "roman": "timro phon kasto raṅko chha?", "en": "What colour is your phone?" },
+        { "native": "सेतो कि कालो?", "roman": "seto ki kālo?", "en": "White or black?" }
+      ]
+    },
+    {
+      "title": "Big, small, tall, old",
+      "tip": { "title": "Adjectives in -ओ change", "body": "- Adjectives ending in **-ओ** agree: **-ओ** for a man or any thing (ठूलो घर), **-ई** for a woman or girl (अग्ली बहिनी), **-आ** for a respected man or a plural (मेरा दाइ होचा हुनुहुन्छ).\n- Other adjectives never change: जवान, नयाँ, सफा.\n- The same goes after the verb: केटी **राम्री** छ.", "pattern": "ठूलो / ठूली / ठूला", "grammar": 0 },
+      "new": ["ठूलो", "सानो", "अग्लो", "होचो", "मोटो", "दुब्लो", "बूढो", "जवान", "उनी धेरै राम्री छिन्।"],
+      "sentences": [
+        { "native": "मेरो भाइ अग्लो छ।", "roman": "mero bhāi aglo chha.", "en": "My younger brother is tall.", "focus": "अग्लो", "wrong": ["अग्ली|agli", "अग्ला|aglā"] },
+        { "native": "मेरी बहिनी अग्ली छ।", "roman": "meri bahini agli chha.", "en": "My younger sister is tall.", "focus": "अग्ली", "wrong": ["अग्लो|aglo", "अग्ला|aglā"] },
+        { "native": "मेरी हजुरआमा बूढी हुनुहुन्छ।", "roman": "meri hajurāmā buḍhi hunuhunchha.", "en": "My grandmother is old.", "focus": "बूढी", "wrong": ["बूढो|buḍho", "बूढा|buḍhā"] },
+        { "native": "तिम्री छोरी कति सानी!", "roman": "timri chhori kati sāni!", "en": "Your daughter is so little!", "focus": "सानी", "wrong": ["सानो|sāno", "साना|sānā"] },
+        { "native": "हाम्रो घर ठूलो छ।", "roman": "hāmro ghar ṭhulo chha.", "en": "Our house is big.", "focus": "ठूलो", "wrong": ["ठूली|ṭhuli", "ठूला|ṭhulā"] },
+        { "native": "ऊ अलि मोटो छ।", "roman": "u ali moṭo chha.", "en": "He's a bit chubby.", "focus": "मोटो", "wrong": ["मोटी|moṭi", "मोटा|moṭā"] },
+        { "native": "मेरी दिदी दुब्ली हुनुहुन्छ।", "roman": "meri didi dubli hunuhunchha.", "en": "My older sister is slim.", "focus": "दुब्ली", "wrong": ["दुब्लो|dublo", "दुब्ला|dublā"] },
+        { "native": "मेरा दाइ होचा हुनुहुन्छ।", "roman": "merā dāi hochā hunuhunchha.", "en": "My older brother is short.", "focus": "होचा", "wrong": ["होचो|hocho", "होची|hochi"] },
+        { "native": "उनकी छोरी धेरै राम्री छिन्।", "roman": "unki chhori dherai rāmri chhin.", "en": "Her daughter is very pretty.", "focus": "राम्री", "wrong": ["राम्रो|rāmro", "राम्रा|rāmrā"] },
+        { "native": "उहाँ अझै जवान हुनुहुन्छ।", "roman": "uhāṃ ajhai jawān hunuhunchha.", "en": "He's still young." }
+      ]
+    },
+    {
+      "title": "Bigger, better, the best",
+      "tip": { "title": "Comparing: -भन्दा and सबैभन्दा", "body": "- 'X is bigger than Y' = X **Y-भन्दा** ठूलो छ. The adjective doesn't change.\n- 'The biggest' = **सबैभन्दा** ठूलो.\n- **अझ** = 'even (more)': अझ राम्रो 'even better'.\n- 'Not that…' = **त्यति** … छैन.", "pattern": "X + Y-भन्दा + adjective + छ  ·  सबैभन्दा + adjective", "grammar": 1 },
+      "new": [
+        "भन्दा",
+        "सबैभन्दा",
+        "अझ",
+        "सजिलो",
+        "गाह्रो",
+        "योभन्दा सानो छ?",
+        "सगरमाथा संसारको सबैभन्दा अग्लो हिमाल हो।",
+        "नेपाली अङ्ग्रेजीभन्दा गाह्रो छ?",
+        "होइन, त्यति गाह्रो छैन।"
+      ],
+      "sentences": [
+        { "native": "भाइ मभन्दा अग्लो छ।", "roman": "bhāi mabhandā aglo chha.", "en": "My brother is taller than me.", "focus": "मभन्दा", "wrong": ["म|ma", "मेरो|mero"] },
+        { "native": "चिया कफीभन्दा सस्तो छ।", "roman": "chiyā kaphibhandā sasto chha.", "en": "Tea is cheaper than coffee.", "focus": "कफीभन्दा", "wrong": ["कफी|kaphi", "कफीको|kaphiko"] },
+        { "native": "यो सबैभन्दा मिठो मःम हो।", "roman": "yo sabaibhandā miṭho momo ho.", "en": "These are the tastiest momos.", "focus": "सबैभन्दा", "wrong": ["भन्दा|bhandā", "अझ|ajha"] },
+        { "native": "हाम्रो परिवारमा भाइ सबैभन्दा अग्लो छ।", "roman": "hāmro pariwārmā bhāi sabaibhandā aglo chha.", "en": "My brother is the tallest in our family.", "focus": "सबैभन्दा", "wrong": ["भन्दा|bhandā", "अझ|ajha"] },
+        { "native": "यो अझ राम्रो छ।", "roman": "yo ajha rāmro chha.", "en": "This one is even better.", "focus": "अझ", "wrong": ["सबैभन्दा|sabaibhandā", "भन्दा|bhandā"] },
+        { "native": "मलाई अङ्ग्रेजी नेपालीभन्दा सजिलो लाग्छ।", "roman": "malāi aṅgreji nepālibhandā sajilo lāgchha.", "en": "I find English easier than Nepali.", "focus": "नेपालीभन्दा", "wrong": ["नेपाली|nepāli", "नेपालीको|nepāliko"] },
+        { "native": "मेरो घर तिम्रो घरभन्दा सानो छ।", "roman": "mero ghar timro gharbhandā sāno chha.", "en": "My house is smaller than yours.", "focus": "घरभन्दा", "wrong": ["घर|ghar", "घरको|gharko"] },
+        { "native": "योभन्दा ठूलो छ?", "roman": "yobhandā ṭhulo chha?", "en": "Is there a bigger one?", "focus": "योभन्दा", "wrong": ["यो|yo", "यसको|yasko"] },
+        { "native": "नेपाली गाह्रो छैन, सजिलो छ।", "roman": "nepāli gāhro chhaina, sajilo chha.", "en": "Nepali isn't hard, it's easy." }
+      ]
+    },
+    {
+      "title": "New, old, clean, dirty",
+      "new": ["नयाँ", "पुरानो", "सफा", "फोहोर", "नराम्रो", "खैरो", "गुलाबी", "सुन्तले", "यो नयाँ हो कि पुरानो?", "सबै उस्तै छन्।"],
+      "sentences": [
+        { "native": "मेरो फोन नयाँ हो।", "roman": "mero phon nayāṃ ho.", "en": "My phone is new.", "focus": "नयाँ", "wrong": ["पुरानो|purāno", "फोहोर|phohor"] },
+        { "native": "यो घर धेरै पुरानो हो।", "roman": "yo ghar dherai purāno ho.", "en": "This house is very old.", "focus": "पुरानो", "wrong": ["नयाँ|nayāṃ", "बूढो|buḍho"] },
+        { "native": "कोठा फोहोर छ।", "roman": "koṭhā phohor chha.", "en": "The room is dirty.", "focus": "फोहोर", "wrong": ["सफा|saphā", "नयाँ|nayāṃ"] },
+        { "native": "भान्सा सफा छैन।", "roman": "bhānsā saphā chhaina.", "en": "The kitchen isn't clean.", "focus": "सफा", "wrong": ["फोहोर|phohor", "पुरानो|purāno"] },
+        { "native": "खाना नराम्रो छैन।", "roman": "khānā narāmro chhaina.", "en": "The food isn't bad." },
+        { "native": "मेरी छोरीलाई गुलाबी रङ मन पर्छ।", "roman": "meri chhorilāi gulābi raṅ man parchha.", "en": "My daughter likes pink." },
+        { "native": "खैरो झोला कसको हो?", "roman": "khairo jholā kasko ho?", "en": "Whose is the brown bag?" },
+        { "native": "सुन्तले रङ तिमीलाई राम्रो लाग्छ?", "roman": "suntale raṅ timilāi rāmro lāgchha?", "en": "Do you think orange looks nice?" },
+        { "native": "यी दुईवटा झोला उस्तै छन्।", "roman": "yi duiwaṭā jholā ustai chhan.", "en": "These two bags are the same." }
+      ]
+    },
+    {
+      "title": "Very, a bit, not at all",
+      "tip": { "title": "Very, quite, a bit, not at all", "body": "- Before an adjective: **धेरै** / **एकदम** 'very, really', **निकै** 'quite', **अलि** 'a bit'.\n- With a negative only: **त्यति** 'not that', **कत्ति** 'not at all': कत्ति पिरो छैन.\n- **कति** + adjective = 'how …!': कति राम्रो!\n- 'Too big' is often अलि ठूलो **भयो** 'turned out a bit big'.", "pattern": "एकदम / निकै / अलि + adjective  ·  त्यति / कत्ति + adjective + छैन", "grammar": 2 },
+      "new": ["अलि", "लामो", "छोटो", "शान्त", "यो कस्तो छ?", "यो अलि ठूलो भयो।", "कति राम्रो!"],
+      "sentences": [
+        { "native": "मःम एकदम मिठो छ।", "roman": "momo ekdam miṭho chha.", "en": "The momos are really tasty.", "focus": "एकदम", "wrong": ["त्यति|tyati", "कत्ति|katti"] },
+        { "native": "बाटो अलि लामो छ।", "roman": "bāṭo ali lāmo chha.", "en": "The road is a bit long.", "focus": "अलि", "wrong": ["त्यति|tyati", "कत्ति|katti"] },
+        { "native": "यो मःम त्यति पिरो छैन।", "roman": "yo momo tyati piro chhaina.", "en": "These momos aren't that spicy.", "focus": "त्यति", "wrong": ["एकदम|ekdam", "निकै|nikai"] },
+        { "native": "पोखरा निकै शान्त छ।", "roman": "Pokharā nikai sānta chha.", "en": "Pokhara is pretty peaceful.", "focus": "निकै", "wrong": ["त्यति|tyati", "कत्ति|katti"] },
+        { "native": "यो झोला अलि सानो भयो।", "roman": "yo jholā ali sāno bhayo.", "en": "This bag is a bit too small.", "focus": "अलि", "wrong": ["त्यति|tyati", "कत्ति|katti"] },
+        { "native": "कति शान्त!", "roman": "kati sānta!", "en": "How peaceful!", "focus": "कति", "wrong": ["त्यति|tyati", "कत्ति|katti"] },
+        { "native": "चिया कत्ति गुलियो छैन।", "roman": "chiyā katti guliyo chhaina.", "en": "The tea isn't sweet at all.", "focus": "कत्ति", "wrong": ["एकदम|ekdam", "निकै|nikai"] },
+        { "native": "पोखरा कस्तो छ?", "roman": "Pokharā kasto chha?", "en": "What's Pokhara like?" },
+        { "native": "यो बाटो छोटो छ।", "roman": "yo bāṭo chhoṭo chha.", "en": "This way is short." }
+      ]
+    }
+  ]
 }

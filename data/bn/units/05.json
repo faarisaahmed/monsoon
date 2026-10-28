@@ -89,5 +89,88 @@
       { "speaker": "Emma", "native": "অবশ্যই!", "roman": "ôboshshoi!", "en": "Of course!" }
     ]
   },
-  "culture": "Traditionally Bengalis eat with the right hand, mixing rice with each dish in turn. A host will keep refilling your plate; to refuse, cover the plate with your hand and say না না, পেট ভরে গেছে. Hindus in West Bengal say **জল**, Muslims and most Bangladeshis **পানি**: using the 'other' word is understood but marks you as an outsider. Many Hindus avoid beef and many Muslims avoid pork. Two famous breakfasts: লুচি-আলুর দম (Kolkata) and পরোটা-ভাজি (Dhaka)."
+  "culture": "Traditionally Bengalis eat with the right hand, mixing rice with each dish in turn. A host will keep refilling your plate; to refuse, cover the plate with your hand and say না না, পেট ভরে গেছে. Hindus in West Bengal say **জল**, Muslims and most Bangladeshis **পানি**: using the 'other' word is understood but marks you as an outsider. Many Hindus avoid beef and many Muslims avoid pork. Two famous breakfasts: লুচি-আলুর দম (Kolkata) and পরোটা-ভাজি (Dhaka).",
+  "lessons": [
+    {
+      "title": "Tea, coffee and water",
+      "tip": { "title": "চাই: I want", "grammar": 0, "body": "- চাওয়া 'to want': আমি **চাই** · তুমি **চাও** · আপনি **চান** · সে **চায়**.\n- To ask for something politely, say **দিন** 'please give' or **দেবেন?** 'would you give?': এক গ্লাস জল দেবেন?\n- 'Please don't' is দেবেন **না**: চায়ে চিনি দেবেন না.", "pattern": "আমি + … + চাই  ·  … + দেবেন?" },
+      "new": ["চা", "কফি", "দুধ", "চিনি", "জল", "পানি", "চাওয়া", "এক গ্লাস জল দেবেন?", "চায়ে চিনি দেবেন না।"],
+      "sentences": [
+        { "native": "আমি এক কাপ কফি চাই।", "roman": "ami æk kap kôphi chai.", "en": "I want a cup of coffee.", "focus": "চাই", "wrong": ["চান|chan", "চায়|chay"] },
+        { "native": "আপনি কি চা চান?", "roman": "apni ki cha chan?", "en": "Would you like some tea?", "focus": "চান", "wrong": ["চাই|chai", "চাও|chao"] },
+        { "native": "তুমি কী চাও, চা না কফি?", "roman": "tumi ki chao, cha na kôphi?", "en": "What do you want, tea or coffee?", "focus": "চাও", "wrong": ["চান|chan", "চাই|chai"] },
+        { "native": "ও দুধ চায়।", "roman": "o dudh chay.", "en": "He/she wants milk.", "focus": "চায়", "wrong": ["চাই|chai", "চাও|chao"] },
+        { "native": "আমি চিনি চাই না।", "roman": "ami chini chai na.", "en": "I don't want sugar.", "focus": "চাই", "wrong": ["চান|chan", "চায়|chay"] },
+        { "native": "দুটো দুধ-চা দিন।", "roman": "duṭo dudh-cha din.", "en": "Two milky teas, please." },
+        { "native": "এক গ্লাস পানি দেবেন?", "roman": "æk glash pani deben?", "en": "Could I have a glass of water?", "focus": "দেবেন", "wrong": ["দেব|debo", "দেয়|dey"] },
+        { "native": "একটু জল দিন, প্লিজ।", "roman": "ekṭu jôl din, pliz.", "en": "Some water, please." },
+        { "native": "চায়ে একটু চিনি দেবেন?", "roman": "chaye ekṭu chini deben?", "en": "Could you put a little sugar in the tea?", "focus": "দেবেন", "wrong": ["দেব|debo", "দেয়|dey"] },
+        { "native": "চায়ে চিনি দেবেন না, দুধ দেবেন।", "roman": "chaye chini deben na, dudh deben.", "en": "No sugar in the tea, but milk, please." }
+      ]
+    },
+    {
+      "title": "Rice, fish and dal",
+      "tip": { "title": "খাওয়া: eat and drink", "grammar": 0, "body": "- খাওয়া covers eating **and** drinking: চা খাই 'I drink tea'.\n- Present: আমি **খাই** · তুমি **খাও** · আপনি **খান** · সে **খায়**.\n- To order, use the future: আমি ভাত **খাব** 'I'll have rice'; আপনি কী **খাবেন**? 'what will you have?'", "pattern": "আমি + food + খাব" },
+      "new": ["খাবার", "ভাত", "ডাল", "মাছ", "মাংস", "মুরগি", "সবজি", "রুটি", "খাওয়া", "আপনি কী খাবেন?"],
+      "sentences": [
+        { "native": "আমি রুটি আর সবজি খাব।", "roman": "ami ruṭi ar shôbji khabo.", "en": "I'll have roti and vegetables.", "focus": "খাব", "wrong": ["খাবেন|khaben", "খায়|khay"] },
+        { "native": "আপনি কী খাবেন, চা না কফি?", "roman": "apni ki khaben, cha na kôphi?", "en": "What will you have, tea or coffee?", "focus": "খাবেন", "wrong": ["খাব|khabo", "খাই|khai"] },
+        { "native": "আপনি মাছ খান?", "roman": "apni machh khan?", "en": "Do you eat fish?", "focus": "খান", "wrong": ["খাই|khai", "খায়|khay"] },
+        { "native": "আমি মাংস খাই না।", "roman": "ami maṅsho khai na.", "en": "I don't eat meat.", "focus": "খাই", "wrong": ["খান|khan", "খাও|khao"] },
+        { "native": "তুমি কী খাবে?", "roman": "tumi ki khabe?", "en": "What will you have? (to a friend)", "focus": "খাবে", "wrong": ["খাবেন|khaben", "খাব|khabo"] },
+        { "native": "আমরা মুরগি আর ভাত খাব।", "roman": "amra murgi ar bhat khabo.", "en": "We'll have chicken and rice.", "focus": "খাব", "wrong": ["খাবে|khabe", "খাবেন|khaben"] },
+        { "native": "বাঙালিরা অনেক ভাত আর মাছ খায়।", "roman": "baṅalira ônek bhat ar machh khay.", "en": "Bengalis eat a lot of rice and fish.", "focus": "খায়", "wrong": ["খাই|khai", "খান|khan"] },
+        { "native": "ও রুটি খায়, ভাত খায় না।", "roman": "o ruṭi khay, bhat khay na.", "en": "He/she eats roti, not rice.", "focus": "খায়", "wrong": ["খাও|khao", "খাই|khai"] },
+        { "native": "এখানকার খাবার খুব ভালো।", "roman": "ekhankar khabar khub bhalo.", "en": "The food here is very good." },
+        { "native": "সবজি আর ডাল দিন।", "roman": "shôbji ar ḍal din.", "en": "Vegetables and dal, please." }
+      ]
+    },
+    {
+      "title": "I'm hungry",
+      "tip": { "title": "Hunger happens to you", "body": "- Bengali says 'to me hunger has come': **আমার** খিদে পেয়েছে 'I'm hungry'. The person is in the **-র** form, not আমি.\n- Same with thirst: আমার তেষ্টা পেয়েছে.\n- Ask: তোমার কি খিদে পেয়েছে?", "pattern": "আমার + খিদে / তেষ্টা + পেয়েছে" },
+      "new": ["খিদে", "তেষ্টা", "আমার খিদে পেয়েছে।", "আমার তেষ্টা পেয়েছে।", "ডিম", "ফল", "জলখাবার", "নাস্তা"],
+      "sentences": [
+        { "native": "তোমার কি খিদে পেয়েছে?", "roman": "tomar ki khide peyechhe?", "en": "Are you hungry?", "focus": "তোমার", "wrong": ["তুমি|tumi", "তোমাকে|tomake"] },
+        { "native": "হ্যাঁ, খুব খিদে পেয়েছে।", "roman": "hæṃ, khub khide peyechhe.", "en": "Yes, I'm really hungry." },
+        { "native": "আপনার কি তেষ্টা পেয়েছে?", "roman": "apnar ki teshṭa peyechhe?", "en": "Are you thirsty?", "focus": "আপনার", "wrong": ["আপনি|apni", "আপনাকে|apnake"] },
+        { "native": "আমার তেষ্টা পেয়েছে, একটু পানি দিন।", "roman": "amar teshṭa peyechhe, ekṭu pani din.", "en": "I'm thirsty, some water please.", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "বাচ্চাদের খিদে পেয়েছে।", "roman": "bachchader khide peyechhe.", "en": "The kids are hungry.", "focus": "বাচ্চাদের", "wrong": ["বাচ্চারা|bachchara", "বাচ্চা|bachcha"] },
+        { "native": "আমার খিদে পেয়েছে, জলখাবার কী আছে?", "roman": "amar khide peyechhe, jôlkhabar ki achhe?", "en": "I'm hungry, what is there for a snack?", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "নাস্তায় কী খাবেন?", "roman": "nastay ki khaben?", "en": "What would you like for breakfast?" },
+        { "native": "আমি নাস্তায় রুটি আর ডিম খাই।", "roman": "ami nastay ruṭi ar ḍim khai.", "en": "I have roti and eggs for breakfast." },
+        { "native": "ও সকালে শুধু ফল খায়।", "roman": "o shôkale shudhu phôl khay.", "en": "He/she only eats fruit in the morning." }
+      ]
+    },
+    {
+      "title": "Sweet, spicy, sour",
+      "tip": { "title": "\"I like\" = \"to me it feels good\"", "grammar": 1, "body": "- আমার মাছ **ভালো লাগে** 'I like fish' is literally 'to me fish feels good'. The liker takes **-র** (আমার, তোমার, আপনার, ওর).\n- **লাগে** never changes with the person; 'don't like' = ভালো লাগে **না**.\n- পছন্দ করি is the other way: আমি মিষ্টি পছন্দ করি.", "pattern": "আমার + thing + ভালো লাগে" },
+      "new": ["লাগা", "স্বাদ", "মিষ্টি", "ঝাল", "টক", "তেতো", "আলু", "আমার মাছ খুব ভালো লাগে।", "খুব ভালো খেতে হয়েছে!"],
+      "sentences": [
+        { "native": "আমার ঝাল খাবার ভালো লাগে না।", "roman": "amar jhal khabar bhalo lage na.", "en": "I don't like spicy food.", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "তোমার কি মিষ্টি ভালো লাগে?", "roman": "tomar ki mishṭi bhalo lage?", "en": "Do you like sweets?", "focus": "লাগে", "wrong": ["লাগি|lagi", "লাগেন|lagen"] },
+        { "native": "আপনার মাছ ভালো লাগে?", "roman": "apnar machh bhalo lage?", "en": "Do you like fish?", "focus": "আপনার", "wrong": ["আপনি|apni", "আপনাকে|apnake"] },
+        { "native": "ওর টক দই খুব ভালো লাগে।", "roman": "or ṭôk doi khub bhalo lage.", "en": "He/she loves sour yogurt.", "focus": "ওর", "wrong": ["ও|o", "ওকে|oke"] },
+        { "native": "আমার মাছ খুব ভালো লাগে, মাংস না।", "roman": "amar machh khub bhalo lage, maṅsho na.", "en": "I really like fish, not meat.", "focus": "লাগে", "wrong": ["লাগি|lagi", "লাগো|lago"] },
+        { "native": "আমার আলু খুব ভালো লাগে।", "roman": "amar alu khub bhalo lage.", "en": "I really like potatoes.", "focus": "লাগে", "wrong": ["লাগি|lagi", "লাগেন|lagen"] },
+        { "native": "এটা একটু তেতো, কিন্তু ভালো লাগে।", "roman": "æṭa ekṭu teto, kintu bhalo lage.", "en": "It's a bit bitter, but I like it." },
+        { "native": "আমি মিষ্টি খুব পছন্দ করি।", "roman": "ami mishṭi khub pôchhondo kori.", "en": "I really love sweets.", "focus": "করি", "wrong": ["করেন|kôren", "করে|kôre"] },
+        { "native": "এই মাছের স্বাদ খুব ভালো।", "roman": "ei machher shad khub bhalo.", "en": "This fish tastes really good." },
+        { "native": "খুব ভালো খেতে হয়েছে, ধন্যবাদ!", "roman": "khub bhalo khete hoyechhe, dhonnobad!", "en": "It was delicious, thank you!" }
+      ]
+    },
+    {
+      "title": "At the table",
+      "tip": { "title": "Asking and offering at the table", "body": "- **দেবেন?** 'would you give?' is the polite way to ask: বিলটা দেবেন?\n- **দেবেন না** = 'please don't put': খুব ঝাল দেবেন না.\n- Hosts keep offering: আর একটু **নিন** 'have a little more'. To refuse: পেট ভরে গেছে 'I'm full'." },
+      "new": ["নুন", "খুব ঝাল দেবেন না।", "আমি নিরামিষ খাই।", "আর একটু ভাত নিন।", "না, পেট ভরে গেছে।", "বিলটা দেবেন?"],
+      "sentences": [
+        { "native": "একটু নুন দেবেন?", "roman": "ekṭu nun deben?", "en": "Could you pass me a little salt?", "focus": "দেবেন", "wrong": ["দেব|debo", "দেয়|dey"] },
+        { "native": "সবজিতে নুন একটু কম।", "roman": "shôbjite nun ekṭu kôm.", "en": "The vegetables need a bit more salt." },
+        { "native": "মাছে খুব ঝাল দেবেন না।", "roman": "machhe khub jhal deben na.", "en": "Please don't make the fish too spicy.", "focus": "দেবেন", "wrong": ["দেব|debo", "দেয়|dey"] },
+        { "native": "আমি নিরামিষ খাই, মাছ-মাংস খাই না।", "roman": "ami niramish khai, machh-maṅsho khai na.", "en": "I'm vegetarian, I don't eat fish or meat." },
+        { "native": "আপা, আর একটু ভাত নিন।", "roman": "apa, ar ekṭu bhat nin.", "en": "Have a little more rice, apa.", "focus": "নিন", "wrong": ["নেব|nebo", "নেয়|ney"] },
+        { "native": "না, ধন্যবাদ, পেট ভরে গেছে।", "roman": "na, dhonnobad, peṭ bhore gechhe.", "en": "No thanks, I'm full." },
+        { "native": "দাদা, বিলটা দেবেন?", "roman": "dada, bilṭa deben?", "en": "Could we have the bill, please?", "focus": "দেবেন", "wrong": ["দেব|debo", "দেয়|dey"] }
+      ]
+    }
+  ]
 }

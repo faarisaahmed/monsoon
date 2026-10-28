@@ -88,5 +88,101 @@
       { "speaker": "Gul Bibi", "native": "ډېره مننه، ډاکټر صاحب. خدای دې خوشاله ساتي.", "roman": "ḍéra manə́na, ḍākṭár sāhíb. xudā́y de xoshā́la sā́ti.", "en": "Thank you so much, doctor. May God keep you happy." }
     ]
   },
-  "culture": "Pashtuns visit the sick (د ناروغ پوښتنه, 'asking after the sick') as a social duty — expect a stream of relatives bringing fruit and good wishes, and blessings like خدای دې شفا درکړي. Many people combine modern medicine with traditional remedies (herbal teas, honey, a trip to a shrine). In conservative families a woman will prefer a female doctor (ډاکټره), and a male relative usually accompanies her. If you have to explain symptoms, pointing and using the body-part words from this unit with درد کوي will get you a long way."
+  "culture": "Pashtuns visit the sick (د ناروغ پوښتنه, 'asking after the sick') as a social duty — expect a stream of relatives bringing fruit and good wishes, and blessings like خدای دې شفا درکړي. Many people combine modern medicine with traditional remedies (herbal teas, honey, a trip to a shrine). In conservative families a woman will prefer a female doctor (ډاکټره), and a male relative usually accompanies her. If you have to explain symptoms, pointing and using the body-part words from this unit with درد کوي will get you a long way.",
+  "lessons": [
+    {
+      "title": "Head, eyes, ears and mouth",
+      "new": ["بدن", "سر", "سترګه", "غوږ", "پوزه", "خوله", "غاښ", "مخ", "ويښتان"],
+      "sentences": [
+        { "native": "د هغې سترګې ډېرې ښکلې دي.", "roman": "də haġé stə́rge ḍére ṣkə́le di.", "en": "Her eyes are very beautiful." },
+        { "native": "د ماشوم مخ چټل دی.", "roman": "də māshúm məx chaṭál day.", "en": "The child's face is dirty." },
+        { "native": "زما ويښتان تور دي.", "roman": "zmā weṣtā́n tor di.", "en": "My hair is black." },
+        { "native": "د هغه ويښتان سپين دي.", "roman": "də haġə́ weṣtā́n spin di.", "en": "His hair is white." },
+        { "native": "خوله دې خلاصه کړه.", "roman": "xwə́la de xlā́sa kṛa.", "en": "Open your mouth." },
+        { "native": "سترګې دې بندې کړه.", "roman": "stə́rge de bánde kṛa.", "en": "Close your eyes." },
+        { "native": "غاښونه دې ډېر سپين دي.", "roman": "ġāṣúna de ḍer spin di.", "en": "Your teeth are very white." },
+        { "native": "ماشوم وړوکې پوزه لري.", "roman": "māshúm waṛúke póza lári.", "en": "The baby has a little nose." },
+        { "native": "زما ټول بدن ستړی دی.", "roman": "zmā ṭol badán stə́ṛay day.", "en": "My whole body is tired." },
+        { "native": "هغه لوی غوږونه لري.", "roman": "haġá loy ġwaẓúna lári.", "en": "He has big ears." }
+      ]
+    },
+    {
+      "title": "What hurts?",
+      "tip": { "title": "'My head hurts': the body part is the subject", "body": "- Say 'head-my hurts': سر **مې** خوږېږي, or 'head-my pain does': سر مې درد **کوي**.\n- The clitic shows whose: **مې** my · **دې** your · **يې** his/her.\n- The verb goes with the body part, not with you: always خوږېږي / درد کوي — never خوږېږم.", "pattern": "body part + مې + خوږېږي / درد کوي", "grammar": 0 },
+      "new": ["درد", "خوږېدل", "ګېډه", "ستونی", "ملا", "څه شوي دي؟", "سر مې درد کوي.", "ګېډه مې خوږېږي."],
+      "sentences": [
+        { "native": "غوږ مې درد کوي.", "roman": "ġwaẓ me dard kawí.", "en": "My ear hurts.", "focus": "مې", "wrong": ["دې|de", "يې|ye"] },
+        { "native": "ملا يې خوږېږي.", "roman": "mlā ye xwaẓéẓi.", "en": "His back hurts.", "focus": "يې", "wrong": ["مې|me", "دې|de"] },
+        { "native": "سر دې خوږېږي؟", "roman": "sar de xwaẓéẓi?", "en": "Does your head hurt?", "focus": "دې", "wrong": ["مې|me", "يې|ye"] },
+        { "native": "غاښونه مې خوږېږي.", "roman": "ġāṣúna me xwaẓéẓi.", "en": "My teeth hurt.", "focus": "خوږېږي", "wrong": ["خوږېږم|xwaẓéẓəm"] },
+        { "native": "ستونی مې ډېر درد کوي.", "roman": "stúnay me ḍer dard kawí.", "en": "My throat really hurts.", "focus": "کوي", "wrong": ["کوم|kawə́m"] },
+        { "native": "د ماشوم ګېډه درد کوي.", "roman": "də māshúm géḍa dard kawí.", "en": "The child has a stomach ache.", "focus": "کوي", "wrong": ["کوم|kawə́m", "کوې|kawé"] },
+        { "native": "احمد جان، څه شوي دي؟ ملا دې خوږېږي؟", "roman": "ahmád jān, tsə shə́wi di? mlā de xwaẓéẓi?", "en": "Ahmad dear, what's wrong? Does your back hurt?" },
+        { "native": "نه، سر مې خوږېږي.", "roman": "na, sar me xwaẓéẓi.", "en": "No, I have a headache.", "focus": "خوږېږي", "wrong": ["خوږېږم|xwaẓéẓəm"] },
+        { "native": "ګېډه يې درد نه کوي.", "roman": "géḍa ye dard na kawí.", "en": "His stomach doesn't hurt." }
+      ]
+    },
+    {
+      "title": "Hands, feet and heart",
+      "new": ["لاس", "ګوته", "پښه", "زړه", "روغ"],
+      "sentences": [
+        { "native": "لاس مې درد کوي.", "roman": "lās me dard kawí.", "en": "My hand hurts." },
+        { "native": "پښې مې خوږېږي.", "roman": "pṣe me xwaẓéẓi.", "en": "My feet hurt." },
+        { "native": "د ماشوم ګوته خوږېږي.", "roman": "də māshúm gúta xwaẓéẓi.", "en": "The child's finger hurts." },
+        { "native": "لاسونه دې پاک دي؟", "roman": "lāsúna de pāk di?", "en": "Are your hands clean?" },
+        { "native": "لاسونه دې پاک کړه.", "roman": "lāsúna de pāk kṛa.", "en": "Clean your hands." },
+        { "native": "زړه مې چای غواړي.", "roman": "zṛə me chāy ġwā́ṛi.", "en": "I feel like some tea." },
+        { "native": "زړه يې روغ دی.", "roman": "zṛə ye roġ day.", "en": "His heart is healthy." },
+        { "native": "شکر، ماشومان روغ دي.", "roman": "shukr, māshumā́n roġ di.", "en": "The children are well, thank God." },
+        { "native": "زما لور روغه ده.", "roman": "zmā lur róġa da.", "en": "My daughter is healthy." }
+      ]
+    },
+    {
+      "title": "Fever, colds and coughs",
+      "tip": { "title": "Saying you're ill", "body": "- Fever, cough: use **لرل** 'have': تبه **لرم**, ټوخی **لري**.\n- A cold: زکام **شوی** يم (man) / زکام **شوې** يم (woman) 'I've caught a cold'.\n- ناروغ 'ill' agrees: زه ناروغ يم (m), زه ناروغ**ه** يم (f).", "pattern": "تبه لرم  ·  زکام شوی يم" },
+      "new": ["ناروغ", "ناروغي", "تبه", "زکام", "ټوخی", "زه ناروغ يم.", "تبه لرم.", "زکام شوی يم."],
+      "sentences": [
+        { "native": "زما زوی تبه لري.", "roman": "zmā zoy tabə́ lári.", "en": "My son has a fever.", "focus": "لري", "wrong": ["لرم|lárəm", "لرې|lare"] },
+        { "native": "ته ټوخی لرې؟", "roman": "tə ṭúxay lare?", "en": "Do you have a cough?", "focus": "لرې", "wrong": ["لرم|lárəm", "لري|lári"] },
+        { "native": "زه زکام شوې يم.", "roman": "zə zukā́m shə́we yəm.", "en": "I've caught a cold. (woman)", "focus": "شوې", "wrong": ["شوی|shə́way"] },
+        { "native": "احمد زکام شوی دی.", "roman": "ahmád zukā́m shə́way day.", "en": "Ahmad has a cold.", "focus": "شوی", "wrong": ["شوې|shə́we"] },
+        { "native": "هغه ناروغه ده.", "roman": "haġá nāróġa da.", "en": "She's ill.", "focus": "ناروغه", "wrong": ["ناروغ|nāróġ"] },
+        { "native": "زما پلار ناروغ دی.", "roman": "zmā plār nāróġ day.", "en": "My father is ill.", "focus": "ناروغ", "wrong": ["ناروغه|nāróġa"] },
+        { "native": "دا سخته ناروغي ده؟", "roman": "dā sáxta nāroġí da?", "en": "Is it a serious illness?" },
+        { "native": "نه، يوازې زکام دی.", "roman": "na, yawā́ze zukā́m day.", "en": "No, it's just a cold." },
+        { "native": "ماشومان تبه او ټوخی لري.", "roman": "māshumā́n tabə́ aw ṭúxay lári.", "en": "The children have a fever and a cough.", "focus": "لري", "wrong": ["لرو|láru", "لرم|lárəm"] }
+      ]
+    },
+    {
+      "title": "You should rest",
+      "tip": { "title": "'Should, must': بايد + و- form", "body": "- **بايد** never changes; the verb after it takes the **و-** form: بايد استراحت **و**کړم, بايد درمل **و**خورې.\n- 'Go' is different: بايد **لاړ شم** 'I must go'.\n- 'Shouldn't': **ونه** — بايد **ونه** خورې 'you shouldn't eat (it)'.", "pattern": "بايد + و-verb", "grammar": 1 },
+      "new": ["ډاکټر", "درمل", "بايد", "استراحت", "روغتون", "دا درمل ورځ کې درې ځله وخوره.", "ډاکټر ته اړتيا لرم."],
+      "sentences": [
+        { "native": "ته بايد استراحت وکړې.", "roman": "tə bāyád istirāhát wə́kṛe.", "en": "You should rest.", "focus": "وکړې", "wrong": ["کوې|kawé", "وکړم|wə́kṛəm"] },
+        { "native": "زه بايد ډاکټر ته لاړ شم.", "roman": "zə bāyád ḍākṭár ta lāṛ shəm.", "en": "I have to go to the doctor.", "focus": "شم", "wrong": ["شې|she", "شي|shi"] },
+        { "native": "تاسو بايد دا درمل وخورئ.", "roman": "tāso bāyád dā darmál wə́xwrəy.", "en": "You (polite) should take this medicine.", "focus": "وخورئ", "wrong": ["خورئ|xwrəy", "وخورې|wə́xwre"] },
+        { "native": "هغه بايد ګرم چای وڅښي.", "roman": "haġá bāyád garm chāy wə́tsṣi.", "en": "He should drink hot tea.", "focus": "وڅښي", "wrong": ["څښي|tsṣi", "وڅښم|wə́tsṣəm"] },
+        { "native": "ته بايد تېز شيان ونه خورې.", "roman": "tə bāyád tez shayā́n wənə́ xwre.", "en": "You shouldn't eat spicy things.", "focus": "ونه", "wrong": ["مه|ma"] },
+        { "native": "موږ بايد روغتون ته لاړ شو.", "roman": "muẓ bāyád roġtún ta lāṛ shu.", "en": "We have to go to the hospital.", "focus": "شو", "wrong": ["شم|shəm", "شې|she"] },
+        { "native": "زما زوی ډاکټر ته اړتيا لري.", "roman": "zmā zoy ḍākṭár ta aṛtiyā́ lári.", "en": "My son needs a doctor." },
+        { "native": "دا درمل سهار او ماښام وخوره.", "roman": "dā darmál sahā́r aw māṣā́m wə́xwra.", "en": "Take this medicine morning and evening." },
+        { "native": "بايد دوه ورځې استراحت وکړې.", "roman": "bāyád dwa wradzé istirāhát wə́kṛe.", "en": "You should rest for two days.", "focus": "وکړې", "wrong": ["کوې|kawé", "وکړم|wə́kṛəm"] }
+      ]
+    },
+    {
+      "title": "Get well soon",
+      "new": ["نږدې روغتون چېرته دی؟", "درې ورځې کېږي.", "ژر جوړ شې!", "خدای دې شفا درکړي."],
+      "sentences": [
+        { "native": "روغتون دلته نږدې دی؟", "roman": "roġtún dálta nəẓdé day?", "en": "Is the hospital near here?" },
+        { "native": "هو، د جومات شا ته دی.", "roman": "ho, də jumā́t shā ta day.", "en": "Yes, it's behind the mosque." },
+        { "native": "څو ورځې کېږي چې تبه لرې؟", "roman": "tso wradzé kéẓi che tabə́ lare?", "en": "How many days have you had a fever?" },
+        { "native": "دوه ورځې کېږي.", "roman": "dwa wradzé kéẓi.", "en": "It's been two days." },
+        { "native": "احمد جان، ژر جوړ شې!", "roman": "ahmád jān, zhər joṛ she!", "en": "Get well soon, Ahmad dear!" },
+        { "native": "خدای دې شفا درکړي، وروره.", "roman": "xudā́y de shifā́ dárkṛi, wróra.", "en": "May God heal you, brother." },
+        { "native": "انشاالله ژر روغ شې.", "roman": "inshāllā́h zhər roġ she.", "en": "God willing, you'll soon be well." },
+        { "native": "ستا مور اوس څنګه ده؟", "roman": "stā mor os tsə́nga da?", "en": "How is your mother now?" },
+        { "native": "شکر، اوس ښه ده.", "roman": "shukr, os ṣa da.", "en": "She's better now, thank God." }
+      ]
+    }
+  ]
 }

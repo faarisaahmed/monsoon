@@ -101,5 +101,86 @@
       { "speaker": "Priya", "native": "ఒక పాప ఉంది. రెండేళ్ళు.", "roman": "oka pāpa undi. reṇḍēḷḷu.", "en": "We have a little girl. She's two." }
     ]
   },
-  "culture": "Telugu speakers use kinship terms far beyond the family: an older man is *అన్నా* or *అన్నయ్య* (brother), an older woman *అక్కా* (sister), an elderly man *తాతగారు*, and a shopkeeper might call a young woman *అమ్మా*. Adding *గారు* to a name or kin term (*రావు గారు*, *అమ్మగారు*) is the standard mark of respect. Husbands and wives traditionally avoid each other's names and say *మా ఆయన* ('our he') and *మా ఆవిడ* ('our she')."
+  "culture": "Telugu speakers use kinship terms far beyond the family: an older man is *అన్నా* or *అన్నయ్య* (brother), an older woman *అక్కా* (sister), an elderly man *తాతగారు*, and a shopkeeper might call a young woman *అమ్మా*. Adding *గారు* to a name or kin term (*రావు గారు*, *అమ్మగారు*) is the standard mark of respect. Husbands and wives traditionally avoid each other's names and say *మా ఆయన* ('our he') and *మా ఆవిడ* ('our she').",
+  "lessons": [
+    {
+      "title": "Talking about your family",
+      "tip": { "title": "My, your, our", "body": "- Possessives go before the noun: **నా** my · **నీ** your (friend) · **మీ** your (polite) · **మా** our.\n- For family Telugu says **మా** 'our' even when English says 'my': మా అమ్మ 'my mum'.\n- A name works as 'X's' on its own: రవి అక్క 'Ravi's elder sister'.", "pattern": "నా / మా / మీ + noun", "grammar": 0 },
+      "new": ["కుటుంబం", "అమ్మ", "నాన్న", "అక్క", "నా", "మా", "మీ", "ఈమె మా అక్క.", "ఈయన మా నాన్నగారు."],
+      "sentences": [
+        { "native": "ఆవిడ మా అమ్మ.", "roman": "āviḍa mā amma.", "en": "She's my mother.", "focus": "మా", "wrong": ["మీ|mī", "నేను|nēnu"] },
+        { "native": "మీ నాన్నగారు ఎక్కడ ఉన్నారు?", "roman": "mī nānnagāru ekkaḍa unnāru?", "en": "Where is your father?", "focus": "మీ", "wrong": ["మా|mā", "మీరు|mīru"] },
+        { "native": "మా అక్క హైదరాబాదులో ఉంటుంది.", "roman": "mā akka haidarābādulō uṇṭundi.", "en": "My elder sister lives in Hyderabad.", "focus": "మా", "wrong": ["మీ|mī", "నేను|nēnu"] },
+        { "native": "నా పేరు రవి, మా నాన్న పేరు శ్రీనివాస్.", "roman": "nā pēru ravi, mā nānna pēru shrīnivās.", "en": "My name is Ravi, my father's name is Srinivas.", "focus": "నా", "wrong": ["నేను|nēnu", "నాకు|nāku"] },
+        { "native": "రవి అక్క విజయవాడలో ఉంది.", "roman": "ravi akka vijayavāḍalō undi.", "en": "Ravi's elder sister is in Vijayawada." },
+        { "native": "మా కుటుంబం విజయవాడలో ఉంటుంది.", "roman": "mā kuṭumbam vijayavāḍalō uṇṭundi.", "en": "My family lives in Vijayawada.", "focus": "మా", "wrong": ["మీ|mī", "మేము|mēmu"] },
+        { "native": "ఇది మా అమ్మ ఊరు.", "roman": "idi mā amma ūru.", "en": "This is my mother's home town." },
+        { "native": "మీ అమ్మ పేరు ఏమిటి?", "roman": "mī amma pēru ēmiṭi?", "en": "What's your mother's name?", "focus": "మీ", "wrong": ["మా|mā", "మీరు|mīru"] }
+      ]
+    },
+    {
+      "title": "Brothers, sisters and children",
+      "tip": { "title": "'I have': నాకు … ఉంది", "body": "- There's no verb 'have': say 'to me … is': **నాకు** ఒక అక్క **ఉంది**.\n- The verb agrees with the person you have: **ఉన్నాడు** (a male), **ఉంది** (a female), **ఉన్నారు** (people).\n- Not having: **లేడు / లేదు / లేరు**: నాకు తమ్ముడు లేడు.", "pattern": "నాకు + person + ఉన్నాడు / ఉంది / ఉన్నారు", "grammar": 2 },
+      "new": ["అన్నయ్య", "తమ్ముడు", "చెల్లెలు", "కొడుకు", "కూతురు", "పిల్లలు", "మీకు పిల్లలు ఉన్నారా?", "నాకు ఒక కొడుకు, ఒక కూతురు."],
+      "sentences": [
+        { "native": "నాకు ఒక అన్నయ్య ఉన్నాడు.", "roman": "nāku oka annayya unnāḍu.", "en": "I have an elder brother.", "focus": "ఉన్నాడు", "wrong": ["ఉంది|undi", "ఉన్నారు|unnāru"] },
+        { "native": "మీకు తమ్ముడు ఉన్నాడా?", "roman": "mīku tammuḍu unnāḍā?", "en": "Do you have a younger brother?", "focus": "ఉన్నాడా", "wrong": ["ఉందా|undā", "ఉన్నాడు|unnāḍu"] },
+        { "native": "నాకు చెల్లెలు లేదు.", "roman": "nāku chellelu lēdu.", "en": "I don't have a younger sister.", "focus": "లేదు", "wrong": ["లేడు|lēḍu", "లేరు|lēru"] },
+        { "native": "నాకు తమ్ముడు లేడు.", "roman": "nāku tammuḍu lēḍu.", "en": "I don't have a younger brother.", "focus": "లేడు", "wrong": ["లేదు|lēdu", "కాదు|kādu"] },
+        { "native": "వాళ్ళకి పిల్లలు లేరు.", "roman": "vāḷḷaki pillalu lēru.", "en": "They don't have children.", "focus": "లేరు", "wrong": ["లేదు|lēdu", "లేడు|lēḍu"] },
+        { "native": "ఆమెకు ఒక కూతురు ఉంది.", "roman": "āmeku oka kūturu undi.", "en": "She has a daughter.", "focus": "ఉంది", "wrong": ["ఉన్నాడు|unnāḍu", "ఉన్నారు|unnāru"] },
+        { "native": "అవును, ఒక కొడుకు ఉన్నాడు.", "roman": "avunu, oka koḍuku unnāḍu.", "en": "Yes, I have a son.", "focus": "ఉన్నాడు", "wrong": ["ఉంది|undi", "ఉన్నారు|unnāru"] },
+        { "native": "నా కొడుకు అమెరికాలో ఉన్నాడు.", "roman": "nā koḍuku amerikālō unnāḍu.", "en": "My son is in America." },
+        { "native": "మా అన్నయ్యకి ఇద్దరు కూతుళ్ళు.", "roman": "mā annayyaki iddaru kūtuḷḷu.", "en": "My elder brother has two daughters." }
+      ]
+    },
+    {
+      "title": "Boys, girls and friends",
+      "tip": { "title": "He came, she came: the masculine split", "body": "- Verbs split **masculine** from **everything else**: బాబు వచ్చాడు, but పాప వచ్చింది (a girl takes the same ending as a thing).\n- In the plural, people take **-ారు**: వాళ్ళు వచ్చారు, అందరూ ఉన్నారు.\n- Plural is **-లు**: అబ్బాయిలు; nouns in -డు change: స్నేహితుడు → స్నేహితులు.", "pattern": "he: -ాడు  ·  she / it: -ింది, ఉంది  ·  they: -ారు", "grammar": 1 },
+      "new": ["పాప", "బాబు", "అబ్బాయి", "మగవాళ్ళు", "ఆడవాళ్ళు", "స్నేహితుడు", "వీళ్ళు నా ఫ్రెండ్స్.", "అందరూ", "అందరూ బాగున్నారు."],
+      "sentences": [
+        { "native": "బాబు ఎక్కడ ఉన్నాడు?", "roman": "bābu ekkaḍa unnāḍu?", "en": "Where is the little boy?", "focus": "ఉన్నాడు", "wrong": ["ఉంది|undi", "ఉన్నారు|unnāru"] },
+        { "native": "పాప ఇంట్లో ఉంది.", "roman": "pāpa iṇṭlō undi.", "en": "The little girl is at home.", "focus": "ఉంది", "wrong": ["ఉన్నాడు|unnāḍu", "ఉన్నారు|unnāru"] },
+        { "native": "అబ్బాయిలు అక్కడ ఉన్నారు.", "roman": "abbāyilu akkaḍa unnāru.", "en": "The boys are over there.", "focus": "అబ్బాయిలు", "wrong": ["అబ్బాయి|abbāyi", "అబ్బాయిని|abbāyini"] },
+        { "native": "మా స్నేహితుడు వచ్చాడు.", "roman": "mā snēhituḍu vachchāḍu.", "en": "Our friend has come.", "focus": "వచ్చాడు", "wrong": ["వచ్చింది|vachchindi", "వచ్చారు|vachchāru"] },
+        { "native": "ఆడవాళ్ళు అందరూ వచ్చారు.", "roman": "āḍavāḷḷu andarū vachchāru.", "en": "All the women have come.", "focus": "వచ్చారు", "wrong": ["వచ్చింది|vachchindi", "వచ్చాయి|vachchāyi"] },
+        { "native": "మగవాళ్ళు అక్కడ ఉన్నారు.", "roman": "magavāḷḷu akkaḍa unnāru.", "en": "The men are over there.", "focus": "ఉన్నారు", "wrong": ["ఉన్నాయి|unnāyi", "ఉంది|undi"] },
+        { "native": "మా స్నేహితులు కూడా వచ్చారు.", "roman": "mā snēhitulu kūḍā vachchāru.", "en": "Our friends came too.", "focus": "స్నేహితులు", "wrong": ["స్నేహితుడు|snēhituḍu", "స్నేహితుళ్ళు|snēhituḷḷu"] },
+        { "native": "పాప వచ్చింది, బాబు రాలేదు.", "roman": "pāpa vachchindi, bābu rālēdu.", "en": "The little girl came, the little boy didn't.", "focus": "వచ్చింది", "wrong": ["వచ్చాడు|vachchāḍu", "వచ్చారు|vachchāru"] },
+        { "native": "వీళ్ళు ఎవరు?", "roman": "vīḷḷu evaru?", "en": "Who are these people?" },
+        { "native": "అందరూ ఎలా ఉన్నారు?", "roman": "andarū elā unnāru?", "en": "How is everyone?" }
+      ]
+    },
+    {
+      "title": "Grandparents, uncles and aunts",
+      "tip": { "title": "Respect: గారు and the plural verb", "body": "- Add **గారు** after names and kin words for respect: రావు గారు, అమ్మగారు, నాన్నగారు.\n- Elders get the plural verb: తాతయ్య ఎలా **ఉన్నారు**? (not ఉన్నాడు).\n- Each uncle and aunt has a name: **బాబాయి** father's younger brother, **మావయ్య** mother's brother, **అత్తయ్య** father's sister.", "pattern": "name / kin word + గారు  ·  elder + ఉన్నారు" },
+      "new": ["తాతయ్య", "అమ్మమ్మ", "నానమ్మ", "బాబాయి", "మావయ్య", "అత్తయ్య", "గారు", "బంధువులు", "మీ అమ్మగారు ఎలా ఉన్నారు?"],
+      "sentences": [
+        { "native": "మీ తాతయ్య గారు ఎలా ఉన్నారు?", "roman": "mī tātayya gāru elā unnāru?", "en": "How is your grandfather?", "focus": "ఉన్నారు", "wrong": ["ఉన్నాడు|unnāḍu", "ఉంది|undi"] },
+        { "native": "మా అమ్మమ్మ విజయవాడలో ఉంటారు.", "roman": "mā ammamma vijayavāḍalō uṇṭāru.", "en": "My grandmother lives in Vijayawada.", "focus": "ఉంటారు", "wrong": ["ఉంటాడు|uṇṭāḍu", "ఉంటాను|uṇṭānu"] },
+        { "native": "నానమ్మ ఇంట్లో ఉన్నారు.", "roman": "nānamma iṇṭlō unnāru.", "en": "Grandma is at home.", "focus": "ఉన్నారు", "wrong": ["ఉన్నాడు|unnāḍu", "ఉన్నాను|unnānu"] },
+        { "native": "మా బాబాయి అమెరికాలో ఉంటారు.", "roman": "mā bābāyi amerikālō uṇṭāru.", "en": "My uncle lives in America.", "focus": "ఉంటారు", "wrong": ["ఉంటాను|uṇṭānu", "ఉంటావు|uṇṭāvu"] },
+        { "native": "రావు గారు మా మావయ్య.", "roman": "rāvu gāru mā māvayya.", "en": "Mr Rao is my uncle.", "focus": "గారు", "wrong": ["అండి|aṇḍi", "కూడా|kūḍā"] },
+        { "native": "అత్తయ్య గారు, రండి, కూర్చోండి!", "roman": "attayya gāru, raṇḍi, kūrchōṇḍi!", "en": "Auntie, come in and sit down!", "focus": "రండి", "wrong": ["రా|rā", "వస్తాను|vastānu"] },
+        { "native": "బంధువులు అందరూ వచ్చారు.", "roman": "bandhuvulu andarū vachchāru.", "en": "All the relatives have come.", "focus": "వచ్చారు", "wrong": ["వచ్చింది|vachchindi", "వచ్చాడు|vachchāḍu"] },
+        { "native": "మావయ్య గారు, మీరు ఎలా ఉన్నారు?", "roman": "māvayya gāru, mīru elā unnāru?", "en": "Uncle, how are you?" }
+      ]
+    },
+    {
+      "title": "Husbands, wives and weddings",
+      "tip": { "title": "Talking about your spouse", "body": "- The dictionary words are **భర్త** husband and **భార్య** wife.\n- In conversation a wife says **మా ఆయన** and a husband **మా ఆవిడ**.\n- 'Married' is 'marriage happened (to me)': నాకు పెళ్ళైంది; not yet: ఇంకా పెళ్ళి కాలేదు.", "pattern": "నాకు / మీకు + పెళ్ళైంది / పెళ్ళైందా?" },
+      "new": ["భర్త", "భార్య", "పెళ్ళి", "మీకు పెళ్ళైందా?", "నాకు పెళ్ళైంది.", "ఇంకా పెళ్ళి కాలేదు.", "మీ కుటుంబంలో ఎంతమంది ఉన్నారు?", "మా కుటుంబంలో ఐదుగురు ఉన్నారు."],
+      "sentences": [
+        { "native": "మీ భర్త పేరు ఏమిటి?", "roman": "mī bharta pēru ēmiṭi?", "en": "What's your husband's name?" },
+        { "native": "మా ఆయన ఇప్పుడు ఇంట్లో లేరు.", "roman": "mā āyana ippuḍu iṇṭlō lēru.", "en": "My husband isn't home now.", "focus": "ఆయన", "wrong": ["ఆవిడ|āviḍa", "అమ్మ|amma"] },
+        { "native": "మా ఆవిడ డాక్టర్.", "roman": "mā āviḍa ḍākṭar.", "en": "My wife is a doctor.", "focus": "ఆవిడ", "wrong": ["ఆయన|āyana", "అతను|atanu"] },
+        { "native": "మీ భార్య ఎక్కడ ఉన్నారు?", "roman": "mī bhārya ekkaḍa unnāru?", "en": "Where is your wife?" },
+        { "native": "అతనికి పెళ్ళైందా?", "roman": "ataniki peḷḷaindā?", "en": "Is he married?", "focus": "అతనికి", "wrong": ["అతను|atanu", "అతని|atani"] },
+        { "native": "లేదు, అతనికి ఇంకా పెళ్ళి కాలేదు.", "roman": "lēdu, ataniki iṅkā peḷḷi kālēdu.", "en": "No, he isn't married yet.", "focus": "కాలేదు", "wrong": ["లేదు|lēdu", "కాదు|kādu"] },
+        { "native": "మా అక్కకి పెళ్ళైంది.", "roman": "mā akkaki peḷḷaindi.", "en": "My elder sister is married.", "focus": "అక్కకి", "wrong": ["అక్క|akka", "అక్కది|akkadi"] },
+        { "native": "మీ కుటుంబంలో అందరూ బాగున్నారా?", "roman": "mī kuṭumbamlō andarū bāgunnārā?", "en": "Is everyone in your family well?" },
+        { "native": "మా తమ్ముడి పెళ్ళి రేపు.", "roman": "mā tammuḍi peḷḷi rēpu.", "en": "My younger brother's wedding is tomorrow." }
+      ]
+    }
+  ]
 }

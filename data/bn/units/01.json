@@ -87,5 +87,88 @@
       { "speaker": "Sara", "native": "আপনিও ভালো থাকবেন। খোদা হাফেজ।", "roman": "apnio bhalo thakben. khoda haphej.", "en": "You take care too. Goodbye." }
     ]
   },
-  "culture": "Older people often address younger women as মা (*ma*, 'mother') and younger men as বাবা (*baba*, 'father') as a term of affection. Elders are never called by their first name: use relationship words like দাদা/ভাই (elder brother), দিদি/আপা (elder sister), কাকু/চাচা (uncle) even for strangers. In West Bengal a Hindu would answer নমস্কার with নমস্কার; in Bangladesh most people greet with সালাম. Saying যাই 'I'm going' when leaving can sound ominous; say আসি 'I'll come (again)'."
+  "culture": "Older people often address younger women as মা (*ma*, 'mother') and younger men as বাবা (*baba*, 'father') as a term of affection. Elders are never called by their first name: use relationship words like দাদা/ভাই (elder brother), দিদি/আপা (elder sister), কাকু/চাচা (uncle) even for strangers. In West Bengal a Hindu would answer নমস্কার with নমস্কার; in Bangladesh most people greet with সালাম. Saying যাই 'I'm going' when leaving can sound ominous; say আসি 'I'll come (again)'.",
+  "lessons": [
+    {
+      "title": "Hello, how are you?",
+      "tip": { "title": "The verb comes last", "grammar": 0, "body": "- Bengali puts the verb at the **end**: আমি ভালো আছি is literally 'I well am'.\n- **আছি** = am (with আমি), **আছেন** = are (with আপনি).\n- The question word **কেমন** 'how' sits just before the verb: আপনি কেমন আছেন?", "pattern": "আমি + ভালো + আছি  ·  আপনি + কেমন + আছেন?" },
+      "new": ["নমস্কার", "আসসালামু আলাইকুম", "ওয়ালাইকুম আসসালাম", "আমি", "আপনি", "ভালো", "খুব", "কেমন", "কেমন আছেন?", "ভালো আছি, আপনি?"],
+      "sentences": [
+        { "native": "আমি ভালো আছি।", "roman": "ami bhalo achhi.", "en": "I'm well.", "focus": "আছি", "wrong": ["আছেন|achhen", "আছো|achho"] },
+        { "native": "আপনি কেমন আছেন?", "roman": "apni kæmon achhen?", "en": "How are you?", "focus": "আছেন", "wrong": ["আছি|achhi", "আছো|achho"] },
+        { "native": "নমস্কার, আপনি কেমন আছেন?", "roman": "nômoshkar, apni kæmon achhen?", "en": "Hello, how are you?", "focus": "কেমন", "wrong": ["কি|ki", "ভালো|bhalo"] },
+        { "native": "আসসালামু আলাইকুম, কেমন আছেন?", "roman": "assalamu alaikum, kæmon achhen?", "en": "Hello (peace be upon you), how are you?", "focus": "আছেন", "wrong": ["আছি|achhi", "আছো|achho"] },
+        { "native": "ওয়ালাইকুম আসসালাম, আমি ভালো আছি।", "roman": "walaikum assalam, ami bhalo achhi.", "en": "And peace be upon you, I am well.", "focus": "আছি", "wrong": ["আছেন|achhen", "আছো|achho"] },
+        { "native": "আমি খুব ভালো আছি।", "roman": "ami khub bhalo achhi.", "en": "I'm very well.", "focus": "আছি", "wrong": ["আছেন|achhen", "আছো|achho"] },
+        { "native": "আপনি ভালো আছেন?", "roman": "apni bhalo achhen?", "en": "Are you well?", "focus": "আছেন", "wrong": ["আছি|achhi", "আছো|achho"] },
+        { "native": "ভালো আছি, আপনি কেমন আছেন?", "roman": "bhalo achhi, apni kæmon achhen?", "en": "I'm well, how are you?" },
+        { "native": "নমস্কার, আমি খুব ভালো আছি।", "roman": "nômoshkar, ami khub bhalo achhi.", "en": "Hello, I'm very well." }
+      ]
+    },
+    {
+      "title": "Yes, no and thank you",
+      "tip": { "title": "Yes/no questions and saying not", "grammar": 0, "body": "- Add **কি** after the subject to ask yes/no: আপনি **কি** ভালো আছেন? (this কি is spelled with short ি; কী 'what' comes later).\n- In the present, **না** goes **after** the verb: বলি না 'I don't speak'.\n- But আছি has its own negative, **নেই**: আমি ভালো **নেই** 'I'm not well'.", "pattern": "আপনি + কি + … + আছেন?  ·  … নেই" },
+      "new": ["হ্যাঁ", "জি", "না", "কি", "ধন্যবাদ", "অনেক ধন্যবাদ।", "ঠিক আছে", "আচ্ছা", "সমস্যা", "কোনো সমস্যা নেই।"],
+      "sentences": [
+        { "native": "আপনি কি ভালো আছেন?", "roman": "apni ki bhalo achhen?", "en": "Are you well?", "focus": "কি", "wrong": ["না|na", "কেমন|kæmon"] },
+        { "native": "হ্যাঁ, আমি ভালো আছি, ধন্যবাদ।", "roman": "hæṃ, ami bhalo achhi, dhonnobad.", "en": "Yes, I'm well, thank you." },
+        { "native": "না, আমি ভালো নেই।", "roman": "na, ami bhalo nei.", "en": "No, I'm not well.", "focus": "নেই", "wrong": ["না|na", "আছি|achhi"] },
+        { "native": "আপনি কি ঠিক আছেন?", "roman": "apni ki ṭhik achhen?", "en": "Are you OK?", "focus": "কি", "wrong": ["না|na", "কেমন|kæmon"] },
+        { "native": "জি, ঠিক আছি।", "roman": "ji, ṭhik achhi.", "en": "Yes, I'm fine. (polite)", "focus": "আছি", "wrong": ["আছেন|achhen", "আছো|achho"] },
+        { "native": "জি না, কোনো সমস্যা নেই।", "roman": "ji na, kono shômoshsha nei.", "en": "No, no problem at all.", "focus": "নেই", "wrong": ["না|na", "আছে|achhe"] },
+        { "native": "আচ্ছা, অনেক ধন্যবাদ।", "roman": "achchha, ônek dhonnobad.", "en": "OK, thanks a lot." },
+        { "native": "না, ধন্যবাদ।", "roman": "na, dhonnobad.", "en": "No, thank you." },
+        { "native": "সমস্যা নেই, ঠিক আছে।", "roman": "shômoshsha nei, ṭhik achhe.", "en": "No problem, it's fine.", "focus": "নেই", "wrong": ["না|na", "আছে|achhe"] },
+        { "native": "আপনি কি খুব ভালো আছেন?", "roman": "apni ki khub bhalo achhen?", "en": "Are you very well?", "focus": "কি", "wrong": ["না|na", "কেমন|kæmon"] }
+      ]
+    },
+    {
+      "title": "With friends: তুমি and তুই",
+      "tip": { "title": "Three ways to say \"you\"", "grammar": 1, "body": "- **আপনি** (respectful) → verb in **-েন**: আছেন. Strangers, elders, shopkeepers. When unsure, use আপনি.\n- **তুমি** (familiar) → **-ো**: আছো. Friends, people your age, younger people.\n- **তুই** (intimate) → **-িস**: আছিস. Best friends, siblings, children only; rude to strangers.", "pattern": "আপনি … আছেন  ·  তুমি … আছো  ·  তুই … আছিস" },
+      "new": ["তুমি", "তুই", "কেমন আছো?", "এই তো, চলছে।", "আর", "স্বাগতম"],
+      "sentences": [
+        { "native": "তুমি ভালো আছো?", "roman": "tumi bhalo achho?", "en": "Are you well? (to a friend)", "focus": "আছো", "wrong": ["আছেন|achhen", "আছিস|achhish"] },
+        { "native": "তুই ঠিক আছিস?", "roman": "tui ṭhik achhish?", "en": "You OK? (to a close friend)", "focus": "আছিস", "wrong": ["আছো|achho", "আছেন|achhen"] },
+        { "native": "তুমি কি ঠিক আছো?", "roman": "tumi ki ṭhik achho?", "en": "Are you OK? (to a friend)", "focus": "তুমি", "wrong": ["আপনি|apni", "তুই|tui"] },
+        { "native": "তুই কি ভালো আছিস?", "roman": "tui ki bhalo achhish?", "en": "Are you well? (to a sibling)", "focus": "আছিস", "wrong": ["আছো|achho", "আছেন|achhen"] },
+        { "native": "এই তো, চলছে। তুমি কেমন আছো?", "roman": "ei to, cholchhe. tumi kæmon achho?", "en": "Oh, getting along. How are you?", "focus": "আছো", "wrong": ["আছেন|achhen", "আছি|achhi"] },
+        { "native": "আমি ভালো আছি, আর তুমি?", "roman": "ami bhalo achhi, ar tumi?", "en": "I'm well, and you? (to a friend)" },
+        { "native": "আমি খুব ভালো আছি, আর তুই?", "roman": "ami khub bhalo achhi, ar tui?", "en": "I'm really well, and you? (to a close friend)" },
+        { "native": "আপনি কি ঠিক আছেন?", "roman": "apni ki ṭhik achhen?", "en": "Are you all right? (respectful)", "focus": "আপনি", "wrong": ["তুমি|tumi", "তুই|tui"] },
+        { "native": "স্বাগতম! আপনি কেমন আছেন?", "roman": "shagotom! apni kæmon achhen?", "en": "Welcome! How are you?", "focus": "আছেন", "wrong": ["আছো|achho", "আছিস|achhish"] }
+      ]
+    },
+    {
+      "title": "Sorry, I don’t understand",
+      "tip": { "title": "Being polite without \"please\"", "body": "- Bengali says 'please' far less than English: the polite verb does the work: **বলুন** 'please say' (to আপনি).\n- Soften any request with **একটু** 'a little': একটু আস্তে বলুন.\n- **মাফ করবেন** = excuse me / forgive me; **দুঃখিত** = I'm sorry.\n- **দয়া করে** is formal; in speech many people just say প্লিজ." },
+      "new": ["মাফ করবেন", "দুঃখিত", "দয়া করে", "একটু", "আবার", "আমি বুঝতে পারছি না।", "আবার বলুন, প্লিজ।", "একটু আস্তে বলুন।", "আমি একটু একটু বাংলা বলি।"],
+      "sentences": [
+        { "native": "মাফ করবেন, আমি বুঝতে পারছি না।", "roman": "maf korben, ami bujhte parchhi na.", "en": "Excuse me, I don't understand." },
+        { "native": "আমি দুঃখিত।", "roman": "ami dukkhito.", "en": "I'm sorry." },
+        { "native": "দুঃখিত, আবার বলুন, প্লিজ।", "roman": "dukkhito, abar bolun, pliz.", "en": "Sorry, please say that again.", "focus": "বলুন", "wrong": ["বলি|boli", "বলো|bôlo"] },
+        { "native": "দয়া করে একটু আস্তে বলুন।", "roman": "dôya kore ekṭu aste bolun.", "en": "Please speak a little slowly.", "focus": "একটু", "wrong": ["খুব|khub", "আবার|abar"] },
+        { "native": "আমি একটু বাংলা বলি।", "roman": "ami ekṭu baṅla boli.", "en": "I speak a little Bengali.", "focus": "বলি", "wrong": ["বলুন|bolun", "বলেন|bôlen"] },
+        { "native": "আপনি কি ইংরেজি বলেন?", "roman": "apni ki iṅreji bôlen?", "en": "Do you speak English?", "focus": "বলেন", "wrong": ["বলি|boli", "বলুন|bolun"] },
+        { "native": "তুমি কি বাংলা বলো?", "roman": "tumi ki baṅla bôlo?", "en": "Do you speak Bengali? (to a friend)", "focus": "বলো", "wrong": ["বলেন|bôlen", "বলি|boli"] },
+        { "native": "মাফ করবেন, একটু আবার বলুন।", "roman": "maf korben, ekṭu abar bolun.", "en": "Excuse me, could you say that again?", "focus": "আবার", "wrong": ["একটু|ekṭu", "খুব|khub"] },
+        { "native": "আমি ইংরেজি বলি, বাংলা একটু একটু বলি।", "roman": "ami iṅreji boli, baṅla ekṭu ekṭu boli.", "en": "I speak English, and a little Bengali." }
+      ]
+    },
+    {
+      "title": "Goodbye and good night",
+      "tip": { "title": "Leaving politely", "body": "- When leaving, say **আসি** 'I'll come (back)', not যাই 'I'm going'.\n- **ভালো থাকবেন** (to আপনি) / **ভালো থেকো** (to তুমি) = take care.\n- Muslims, especially in Bangladesh, say **খোদা হাফেজ**; বিদায় is solemn and final.\n- শুভ সকাল and শুভ রাত্রি are more written than spoken." },
+      "new": ["আসি", "আবার দেখা হবে।", "ভালো থাকবেন।", "খোদা হাফেজ", "বিদায়", "শুভ সকাল", "শুভ রাত্রি"],
+      "sentences": [
+        { "native": "আচ্ছা, আসি।", "roman": "achchha, ashi.", "en": "OK, I'll be off." },
+        { "native": "আমি এখন আসি।", "roman": "ami ækhon ashi.", "en": "I'll be going now." },
+        { "native": "আসি, ভালো থাকবেন।", "roman": "ashi, bhalo thakben.", "en": "Bye, take care." },
+        { "native": "ঠিক আছে, আবার দেখা হবে।", "roman": "ṭhik achhe, abar dækha hobe.", "en": "All right, see you again." },
+        { "native": "ধন্যবাদ, খোদা হাফেজ।", "roman": "dhonnobad, khoda haphej.", "en": "Thank you, goodbye." },
+        { "native": "ভালো থেকো, আবার দেখা হবে।", "roman": "bhalo theko, abar dækha hobe.", "en": "Take care, see you again. (to a friend)" },
+        { "native": "শুভ সকাল, আপনি কেমন আছেন?", "roman": "shubho shôkal, apni kæmon achhen?", "en": "Good morning, how are you?" },
+        { "native": "শুভ রাত্রি, ভালো থাকবেন।", "roman": "shubho ratri, bhalo thakben.", "en": "Good night, take care." },
+        { "native": "বিদায়, আবার দেখা হবে।", "roman": "biday, abar dækha hobe.", "en": "Farewell, we will meet again." }
+      ]
+    }
+  ]
 }

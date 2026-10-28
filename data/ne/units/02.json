@@ -107,5 +107,91 @@
       { "speaker": "Ram", "native": "हुन्छ! तपाईंलाई भेटेर खुसी लाग्यो।", "roman": "hunchha! tapāiṃlāi bheṭera khusi lāgyo.", "en": "Sure! Nice to meet you." }
     ]
   },
-  "culture": "Nepali is the **common language** of a very diverse country: for many Nepalis it is a second language after Newar (नेपाल भाषा), Maithili, Bhojpuri, Tamang, Tharu, Magar, Gurung, Rai or Limbu languages. So don't be surprised if two Nepalis switch to another language between themselves. In India, Nepali speakers in Darjeeling, Kalimpong and Sikkim often call themselves **Gorkha** and the language *Gorkhali*. Personal questions — age, marital status, salary, how much you paid for your phone — are normal friendly conversation, not rudeness; answer vaguely if you prefer."
+  "culture": "Nepali is the **common language** of a very diverse country: for many Nepalis it is a second language after Newar (नेपाल भाषा), Maithili, Bhojpuri, Tamang, Tharu, Magar, Gurung, Rai or Limbu languages. So don't be surprised if two Nepalis switch to another language between themselves. In India, Nepali speakers in Darjeeling, Kalimpong and Sikkim often call themselves **Gorkha** and the language *Gorkhali*. Personal questions — age, marital status, salary, how much you paid for your phone — are normal friendly conversation, not rudeness; answer vaguely if you prefer.",
+  "lessons": [
+    {
+      "title": "Saying who you are",
+      "tip": { "title": "'I am …' with हो", "body": "- **हो** says *who or what* someone is: a name, a nationality, a job.\n- It changes with the subject: म **हुँ**, तिमी **हौ**, ऊ / यो / त्यो **हो**, तपाईं / उहाँ **हुनुहुन्छ**.\n- 'Not': म **होइनँ**, ऊ **होइन**, उहाँ **हुनुहुन्न**.\n- Use respectful **उहाँ** for anyone you'd call तपाईं.", "pattern": "म … हुँ  ·  यो … हो  ·  उहाँ … हुनुहुन्छ", "grammar": 0 },
+      "new": ["नाम", "को", "यो", "त्यो", "उहाँ", "ऊ", "चिन्नु", "तपाईंको नाम के हो?", "मेरो नाम सारा हो।", "उहाँ को हुनुहुन्छ?"],
+      "sentences": [
+        { "native": "मेरो नाम राम हो।", "roman": "mero nām Rām ho.", "en": "My name is Ram.", "focus": "हो", "wrong": ["हुँ|huṃ", "छ|chha"] },
+        { "native": "म टम हुँ।", "roman": "ma Ṭam huṃ.", "en": "I'm Tom.", "focus": "हुँ", "wrong": ["हो|ho", "छु|chhu"] },
+        { "native": "उहाँ राम हुनुहुन्छ।", "roman": "uhāṃ Rām hunuhunchha.", "en": "This is Ram. (respectful)", "focus": "हुनुहुन्छ", "wrong": ["हो|ho", "हुँ|huṃ"] },
+        { "native": "यो को हो?", "roman": "yo ko ho?", "en": "Who's this?", "focus": "हो", "wrong": ["हुँ|huṃ", "हुनुहुन्छ|hunuhunchha"] },
+        { "native": "ऊ टम हो।", "roman": "u Ṭam ho.", "en": "He's Tom.", "focus": "हो", "wrong": ["हुँ|huṃ", "हुनुहुन्छ|hunuhunchha"] },
+        { "native": "तिम्रो नाम के हो?", "roman": "timro nām ke ho?", "en": "What's your name? (to a friend or child)", "focus": "हो", "wrong": ["हुँ|huṃ", "छ|chha"] },
+        { "native": "त्यो सारा हो?", "roman": "tyo Sārā ho?", "en": "Is that Sarah?", "focus": "हो", "wrong": ["हुँ|huṃ", "छ|chha"] },
+        { "native": "होइन, म राम होइनँ।", "roman": "hoina, ma Rām hoinaṃ.", "en": "No, I'm not Ram.", "focus": "होइनँ", "wrong": ["हुनुहुन्न|hunuhunna", "होइनन्|hoinan"] },
+        { "native": "तपाईं उहाँलाई चिन्नुहुन्छ?", "roman": "tapāiṃ uhāṃlāi chinnuhunchha?", "en": "Do you know him? (respectful)" },
+        { "native": "हो, म रामलाई चिन्छु।", "roman": "ho, ma Rāmlāi chinchhu.", "en": "Yes, I know Ram." }
+      ]
+    },
+    {
+      "title": "Where are you from?",
+      "tip": { "title": "Question words stay in place", "body": "- Question words start with **k-**: के 'what', को 'who', कहाँ 'where', कुन 'which', कस्तो 'how'.\n- They **don't move to the front**: put them where the answer goes, just before the verb. तपाईंको नाम **के** हो? = 'your name what is?'\n- **-बाट** 'from' sticks to the word: कहाँ**बाट** 'from where', भारत**बाट** 'from India'.", "pattern": "तपाईं + कहाँबाट + हो?  →  म + भारतबाट + …", "grammar": 2 },
+      "new": ["देश", "कहाँ", "बाट", "नेपाली", "बेलायत", "अमेरिका", "भारत", "विदेशी", "तपाईं कहाँबाट हो?", "म बेलायतबाट आएको हुँ।", "तपाईंलाई भेटेर खुसी लाग्यो।"],
+      "sentences": [
+        { "native": "तिमी कहाँबाट हौ?", "roman": "timi kahāṃbāṭa hau?", "en": "Where are you from? (to a friend)", "focus": "कहाँबाट", "wrong": ["कहाँ|kahāṃ", "कस्तो|kasto"] },
+        { "native": "म भारतबाट आएको हुँ।", "roman": "ma Bhāratbāṭa āeko huṃ.", "en": "I'm from India.", "focus": "भारतबाट", "wrong": ["भारत|Bhārat", "भारतमा|Bhāratmā"] },
+        { "native": "तपाईं अमेरिकाबाट हो?", "roman": "tapāiṃ Amerikābāṭa ho?", "en": "Are you from America?", "focus": "अमेरिकाबाट", "wrong": ["अमेरिका|Amerikā", "अमेरिकामा|Amerikāmā"] },
+        { "native": "तिम्रो देश कुन हो?", "roman": "timro des kun ho?", "en": "Which country are you from? (to a friend)", "focus": "कुन", "wrong": ["को|ko", "कहाँ|kahāṃ"] },
+        { "native": "टम बेलायतबाट आएको हो।", "roman": "Ṭam Belāyatbāṭa āeko ho.", "en": "Tom is from Britain.", "focus": "बेलायतबाट", "wrong": ["बेलायत|Belāyat", "बेलायतमा|Belāyatmā"] },
+        { "native": "म विदेशी हुँ।", "roman": "ma bidesi huṃ.", "en": "I'm a foreigner." },
+        { "native": "होइन, उहाँ नेपाली हुनुहुन्छ।", "roman": "hoina, uhāṃ nepāli hunuhunchha.", "en": "No, he's Nepali." },
+        { "native": "उहाँको नाम के हो?", "roman": "uhāṃko nām ke ho?", "en": "What's his name?", "focus": "के", "wrong": ["को|ko", "कुन|kun"] },
+        { "native": "तिमीलाई भेटेर खुसी लाग्यो।", "roman": "timilāi bheṭera khusi lāgyo.", "en": "Nice to meet you. (to a friend)" },
+        { "native": "मलाई पनि खुसी लाग्यो।", "roman": "malāi pani khusi lāgyo.", "en": "Nice to meet you too." }
+      ]
+    },
+    {
+      "title": "Where do you live?",
+      "tip": { "title": "हो or छ?", "body": "- **हो** = what something *is* (a name, a thing, a nationality): यो मेरो घर **हो**.\n- **छ** = *where* it is, or what state it's in: मेरो घर त्यहाँ **छ**.\n- छ changes too: म **छु**, हामी **छौँ**, ऊ **छ**, उनी / उनीहरू **छन्**.\n- Negatives differ: हो → **होइन**, छ → **छैन**.", "pattern": "thing → हो  ·  place / state → छ", "grammar": 1 },
+      "new": ["हुनु", "बस्नु", "यहाँ", "त्यहाँ", "उनी", "उनीहरू", "हामी", "तपाईं कहाँ बस्नुहुन्छ?", "म ठमेलमा बस्छु।"],
+      "sentences": [
+        { "native": "म यहाँ छु।", "roman": "ma yahāṃ chhu.", "en": "I'm here.", "focus": "छु", "wrong": ["हुँ|huṃ", "हो|ho"] },
+        { "native": "उनीहरू यहाँ छन्।", "roman": "uniharu yahāṃ chhan.", "en": "They're here.", "focus": "छन्", "wrong": ["हुन्|hun", "छ|chha"] },
+        { "native": "उनीहरू विदेशी हुन्।", "roman": "uniharu bidesi hun.", "en": "They're foreigners.", "focus": "हुन्", "wrong": ["छन्|chhan", "हो|ho"] },
+        { "native": "तपाईंको घर कहाँ छ?", "roman": "tapāiṃko ghar kahāṃ chha?", "en": "Where's your house?", "focus": "छ", "wrong": ["हो|ho", "हुन्|hun"] },
+        { "native": "यो मेरो घर हो।", "roman": "yo mero ghar ho.", "en": "This is my house.", "focus": "हो", "wrong": ["छ|chha", "हुँ|huṃ"] },
+        { "native": "राम यहाँ छैन।", "roman": "Rām yahāṃ chhaina.", "en": "Ram isn't here.", "focus": "छैन", "wrong": ["होइन|hoina", "छ|chha"] },
+        { "native": "उनी विद्यार्थी होइनन्।", "roman": "uni bidyārthi hoinan.", "en": "He isn't a student.", "focus": "होइनन्", "wrong": ["छैनन्|chhainan", "होइनँ|hoinaṃ"] },
+        { "native": "हामी पाटनमा छौँ।", "roman": "hāmi Pāṭanmā chhauṃ.", "en": "We're in Patan.", "focus": "छौँ", "wrong": ["हौँ|hauṃ", "छन्|chhan"] },
+        { "native": "तिमी कहाँ बस्छौ?", "roman": "timi kahāṃ baschhau?", "en": "Where do you live? (to a friend)" },
+        { "native": "उहाँ त्यहाँ बस्नुहुन्छ।", "roman": "uhāṃ tyahāṃ basnuhunchha.", "en": "He lives over there. (respectful)" }
+      ]
+    },
+    {
+      "title": "Do you speak Nepali?",
+      "tip": { "title": "'I speak …' = '… comes to me'", "body": "- To say you can speak a language, Nepali says it **comes to you**: **मलाई** नेपाली **आउँछ**.\n- The person takes **-लाई**: मलाई, तिमीलाई, तपाईंलाई, हामीलाई.\n- 'Not': मलाई अङ्ग्रेजी **आउँदैन**.\n- You can also say म नेपाली **बोल्छु** 'I speak Nepali'.", "pattern": "मलाई + language + आउँछ" },
+      "new": ["अङ्ग्रेजी", "भाषा", "बोल्नु", "आउनु", "अलिअलि", "कुन", "तपाईंलाई नेपाली आउँछ?", "अलिअलि आउँछ।"],
+      "sentences": [
+        { "native": "मलाई अङ्ग्रेजी आउँछ।", "roman": "malāi aṅgreji āuṃchha.", "en": "I speak English.", "focus": "मलाई", "wrong": ["म|ma", "मेरो|mero"] },
+        { "native": "मलाई नेपाली अलिअलि आउँछ।", "roman": "malāi nepāli aliali āuṃchha.", "en": "I speak a little Nepali.", "focus": "मलाई", "wrong": ["म|ma", "मेरो|mero"] },
+        { "native": "तिमीलाई अङ्ग्रेजी आउँछ?", "roman": "timilāi aṅgreji āuṃchha?", "en": "Do you speak English? (to a friend)", "focus": "तिमीलाई", "wrong": ["तिमी|timi", "तिम्रो|timro"] },
+        { "native": "मलाई नेपाली आउँदैन।", "roman": "malāi nepāli āuṃdaina.", "en": "I don't speak Nepali.", "focus": "आउँदैन", "wrong": ["आउँछ|āuṃchha", "छैन|chhaina"] },
+        { "native": "हामीलाई नेपाली आउँछ।", "roman": "hāmilāi nepāli āuṃchha.", "en": "We speak Nepali.", "focus": "हामीलाई", "wrong": ["हामी|hāmi", "म|ma"] },
+        { "native": "उहाँलाई कुन भाषा आउँछ?", "roman": "uhāṃlāi kun bhāsā āuṃchha?", "en": "Which languages does he speak?", "focus": "आउँछ", "wrong": ["आउँदैन|āuṃdaina", "छ|chha"] },
+        { "native": "म अलिअलि नेपाली बोल्छु।", "roman": "ma aliali nepāli bolchhu.", "en": "I speak a little Nepali." },
+        { "native": "उहाँ अङ्ग्रेजी बोल्नुहुन्छ।", "roman": "uhāṃ aṅgreji bolnuhunchha.", "en": "He speaks English. (respectful)" },
+        { "native": "नेपाली भाषा राम्रो छ।", "roman": "nepāli bhāsā rāmro chha.", "en": "Nepali is a lovely language." }
+      ]
+    },
+    {
+      "title": "When you don't understand",
+      "tip": { "title": "Asking politely: -नुहोस्", "body": "- The polite 'please do' ending is **-नुहोस्**: बोल्**नुहोस्** 'please speak', भन्**नुहोस्** 'please say'.\n- Add **न** to soften it ('do, please') or **त** ('just'): बिस्तारै बोल्नुहोस् **न**.\n- 'I didn't understand' is **मैले बुझिनँ**; 'Did you understand?' is **तपाईंले बुझ्नुभयो?**", "pattern": "verb stem + नुहोस् (+ न / त)" },
+      "new": ["बुझ्नु", "बिस्तारै", "कस्तो", "कसरी", "मैले बुझिनँ।", "बिस्तारै बोल्नुहोस् न।", "फेरि भन्नुहोस् त।", "यसलाई नेपालीमा के भन्छन्?"],
+      "sentences": [
+        { "native": "माफ गर्नुहोस्, मैले बुझिनँ।", "roman": "māph garnuhos, maile bujhinaṃ.", "en": "Sorry, I didn't understand." },
+        { "native": "फेरि बिस्तारै भन्नुहोस् न।", "roman": "pheri bistārai bhannuhos na.", "en": "Please say it again slowly.", "focus": "भन्नुहोस्", "wrong": ["भन्छु|bhanchhu", "भन्छन्|bhanchhan"] },
+        { "native": "बिस्तारै बोल्नुहोस्, म विदेशी हुँ।", "roman": "bistārai bolnuhos, ma bidesi huṃ.", "en": "Please speak slowly, I'm a foreigner.", "focus": "बोल्नुहोस्", "wrong": ["बोल्छु|bolchhu", "बोल्नु|bolnu"] },
+        { "native": "अङ्ग्रेजीमा भन्नुहोस् न।", "roman": "aṅgrejimā bhannuhos na.", "en": "Please say it in English.", "focus": "भन्नुहोस्", "wrong": ["भन्छु|bhanchhu", "भन्नु|bhannu"] },
+        { "native": "नेपालीमा बोल्नुहोस् न।", "roman": "nepālimā bolnuhos na.", "en": "Please speak in Nepali.", "focus": "बोल्नुहोस्", "wrong": ["बोल्छु|bolchhu", "बोल्नु|bolnu"] },
+        { "native": "यो नेपालीमा कसरी भन्ने?", "roman": "yo nepālimā kasari bhanne?", "en": "How do you say this in Nepali?", "focus": "कसरी", "wrong": ["कस्तो|kasto", "कहाँ|kahāṃ"] },
+        { "native": "यसलाई अङ्ग्रेजीमा के भन्छन्?", "roman": "yaslāi aṅgrejimā ke bhanchhan?", "en": "What's this called in English?" },
+        { "native": "चिया कस्तो छ?", "roman": "chiyā kasto chha?", "en": "How's the tea?", "focus": "कस्तो", "wrong": ["कसरी|kasari", "कहाँ|kahāṃ"] },
+        { "native": "तपाईंले बुझ्नुभयो?", "roman": "tapāiṃle bujhnubhayo?", "en": "Did you understand?" },
+        { "native": "अँ, अब बुझेँ।", "roman": "aṃ, aba bujheṃ.", "en": "Yeah, now I get it." }
+      ]
+    }
+  ]
 }

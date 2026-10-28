@@ -88,5 +88,103 @@
       { "speaker": "Malalai", "native": "اختر مو مبارک شه!", "roman": "axtár mo mubā́rak sha!", "en": "Happy Eid to you!" }
     ]
   },
-  "culture": "On Eid (in Pashto **اختر** axtár — the 'small Eid' after Ramadan, کوچنی اختر, and the 'big Eid' of sacrifice, لوی اختر), children go from house to house in new clothes and receive **عيدي** — small gifts of money from relatives and neighbours. Adults greet each other with اختر مو مبارک شه 'may your Eid be blessed'. Ages are not always kept precisely in rural areas, and older people may give their age as a round number; it's polite not to press. Elders are asked their age rarely — asking a woman's age is best avoided altogether."
+  "culture": "On Eid (in Pashto **اختر** axtár — the 'small Eid' after Ramadan, کوچنی اختر, and the 'big Eid' of sacrifice, لوی اختر), children go from house to house in new clothes and receive **عيدي** — small gifts of money from relatives and neighbours. Adults greet each other with اختر مو مبارک شه 'may your Eid be blessed'. Ages are not always kept precisely in rural areas, and older people may give their age as a round number; it's polite not to press. Elders are asked their age rarely — asking a woman's age is best avoided altogether.",
+  "lessons": [
+    {
+      "title": "Counting people and things",
+      "tip": { "title": "One, two, three …", "body": "- 'One' agrees: **يو** with masculine nouns, **يوه** with feminine ones: يو هلک، يوه نجلۍ. It also means 'a, an'.\n- From two up, the noun goes **plural**: دوه هلکان، درې لوڼې.\n- Kilos and rupees don't change: پنځه کيلو، لس روپۍ.", "pattern": "يو زوی  ·  يوه لور  ·  دوه لوڼې", "grammar": 0 },
+      "new": ["يو", "څو", "شمېرل", "جوړه", "څو ماشومان لرئ؟"],
+      "sentences": [
+        { "native": "زه دوه خويندې لرم.", "roman": "zə dwa xwínde lárəm.", "en": "I have two sisters.", "focus": "خويندې", "wrong": ["خور|xor", "خورې|xóre"] },
+        { "native": "هغه يو زوی او دوه لوڼې لري.", "roman": "haġá yaw zoy aw dwa lúṇe lári.", "en": "He has one son and two daughters.", "focus": "يو", "wrong": ["يوه|yáwa"] },
+        { "native": "په کور کې يوه نجلۍ او درې هلکان دي.", "roman": "pə kor ke yáwa njlə́y aw dre halakā́n di.", "en": "There are one girl and three boys in the house.", "focus": "يوه", "wrong": ["يو|yaw"] },
+        { "native": "تاسو څو لوڼې لرئ؟", "roman": "tāso tso lúṇe lárəy?", "en": "How many daughters do you have? (polite)", "focus": "څو", "wrong": ["څه|tsə", "څوک|tsok"] },
+        { "native": "زما ورور يو ماشوم لري.", "roman": "zmā wror yaw māshúm lári.", "en": "My brother has one child.", "focus": "يو", "wrong": ["يوه|yáwa"] },
+        { "native": "زما ملګری دوه زامن او درې لوڼې لري.", "roman": "zmā malgə́ray dwa zāmə́n aw dre lúṇe lári.", "en": "My friend has two sons and three daughters.", "focus": "لوڼې", "wrong": ["لور|lur", "لورې|lúre"] },
+        { "native": "ته په پښتو شمېرې؟", "roman": "tə pə paṣtó shmére?", "en": "Can you count in Pashto?" },
+        { "native": "زه په پښتو شمېرل زده کوم.", "roman": "zə pə paṣtó shmerə́l zdə kawə́m.", "en": "I'm learning to count in Pashto." },
+        { "native": "احمد او پلوشه ښه جوړه ده.", "roman": "ahmád aw palwáṣa ṣa jóṛa da.", "en": "Ahmad and Palwasha are a lovely couple." }
+      ]
+    },
+    {
+      "title": "How old are you?",
+      "tip": { "title": "Age with کلن", "body": "- Number + **کلن** 'years old' + the verb: زه شل کلن يم.\n- کلن agrees: **کلن** for a man or boy, **کلنه** for a woman or girl.\n- Ask with **څو**: ته څو کلن يې؟ Politely: ستاسو عمر څومره دی؟ ('how much is your age?') — answer with **کاله** 'years': شل کاله.", "pattern": "number + کلن / کلنه + verb", "grammar": 1 },
+      "new": ["عمر", "کال", "کلن", "ته څو کلن يې؟", "زه پنځه ويشت کلن يم.", "زه شل کلنه يم."],
+      "sentences": [
+        { "native": "زما زوی لس کلن دی.", "roman": "zmā zoy las kálan day.", "en": "My son is ten.", "focus": "کلن", "wrong": ["کلنه|kalána"] },
+        { "native": "لور مې شپږ کلنه ده.", "roman": "lur me shpaẓ kalána da.", "en": "My daughter is six.", "focus": "کلنه", "wrong": ["کلن|kálan"] },
+        { "native": "ستا ورور څو کلن دی؟", "roman": "stā wror tso kálan day?", "en": "How old is your brother?", "focus": "څو", "wrong": ["څه|tsə", "څوک|tsok"] },
+        { "native": "ستا خور څو کلنه ده؟", "roman": "stā xor tso kalána da?", "en": "How old is your sister?", "focus": "کلنه", "wrong": ["کلن|kálan"] },
+        { "native": "زما د ورور عمر شل کاله دی.", "roman": "zmā də wror ʿumr shəl kā́la day.", "en": "My brother is twenty. (lit. my brother's age is twenty years)", "focus": "کاله", "wrong": ["کال|kāl", "کالونه|kālúna"] },
+        { "native": "زه يوولس کلن يم.", "roman": "zə yawólas kálan yəm.", "en": "I'm eleven. (boy)", "focus": "کلن", "wrong": ["کلنه|kalána"] },
+        { "native": "نيکه مې اتيا کلن دی.", "roman": "nikə́ me atyā́ kálan day.", "en": "My grandfather is eighty.", "focus": "کلن", "wrong": ["کلنه|kalána"] },
+        { "native": "انا مې نوي کلنه ده، ماشاالله.", "roman": "anā́ me nawí kalána da, māshāllā́h.", "en": "My grandmother is ninety, bless her.", "focus": "کلنه", "wrong": ["کلن|kálan"] },
+        { "native": "تاسو څو کلن ياست؟", "roman": "tāso tso kálan yāst?", "en": "How old are you? (polite)", "focus": "ياست", "wrong": ["يې|ye", "يم|yəm"] }
+      ]
+    },
+    {
+      "title": "How much? Kilos and rupees",
+      "tip": { "title": "څو or څومره?", "body": "- **څو** 'how many' is for things you can count: څو مڼې؟\n- **څومره** 'how much' is for amounts: څومره اوبه؟ څومره چای؟\n- **نيم** 'half' goes first: نيم کيلو; يو نيم 'one and a half'.", "pattern": "څو مڼې؟  ·  څومره چای؟" },
+      "new": ["څومره", "کيلو", "روپۍ", "نيم", "ستاسو عمر څومره دی؟", "څومره چای غواړې؟", "دوه کيلو مڼې راکړه."],
+      "sentences": [
+        { "native": "ستا ورور څومره انګرېزي وايي؟", "roman": "stā wror tsómra angrezí wā́yi?", "en": "How much English does your brother speak?", "focus": "څومره", "wrong": ["څو|tso"] },
+        { "native": "ته څو مڼې غواړې؟", "roman": "tə tso maṇé ġwā́ṛe?", "en": "How many apples do you want?", "focus": "څو", "wrong": ["څومره|tsómra"] },
+        { "native": "نيم کيلو غواړم.", "roman": "nim kiló ġwā́ṛəm.", "en": "I want half a kilo.", "focus": "نيم", "wrong": ["يو|yaw"] },
+        { "native": "يو نيم کيلو مڼې راکړه.", "roman": "yaw nim kiló maṇé rā́kṛa.", "en": "Give me one and a half kilos of apples." },
+        { "native": "لس روپۍ لرې؟", "roman": "las rupə́y lare?", "en": "Do you have ten rupees?" },
+        { "native": "زه پنځه روپۍ لرم.", "roman": "zə pindzə́ rupə́y lárəm.", "en": "I have five rupees." },
+        { "native": "څو کيلو مڼې غواړئ؟", "roman": "tso kiló maṇé ġwā́ṛəy?", "en": "How many kilos of apples would you like?", "focus": "څو", "wrong": ["څومره|tsómra"] },
+        { "native": "ته په پښتو څومره پوهېږې؟", "roman": "tə pə paṣtó tsómra pohéẓe?", "en": "How much Pashto do you understand?", "focus": "څومره", "wrong": ["څو|tso"] },
+        { "native": "د هغه عمر څومره دی؟", "roman": "də haġə́ ʿumr tsómra day?", "en": "How old is he?", "focus": "څومره", "wrong": ["څو|tso"] },
+        { "native": "څومره چای څښې؟", "roman": "tsómra chāy tsṣe?", "en": "How much tea do you drink?", "focus": "څومره", "wrong": ["څو|tso"] }
+      ]
+    },
+    {
+      "title": "First, second, third",
+      "tip": { "title": "First, second, third …", "body": "- Most ordinals add **-əm** to the number: څلور → څلور**م**, پنځه → پنځ**م**, لس → لس**م**.\n- The first three are special: **لومړی، دويم، درېيم**.\n- They agree with feminine nouns: لومړ**ۍ** ورځ, دويم**ه** ورځ.", "pattern": "لومړی ځل  ·  لومړۍ ورځ" },
+      "new": ["لومړی", "دويم", "درېيم", "څلورم", "پنځم", "دا زما لومړی ځل دی.", "هغه په ټولګي کې لومړی دی."],
+      "sentences": [
+        { "native": "دا زما دويم ځل دی.", "roman": "dā zmā dwáyam dzal day.", "en": "This is my second time.", "focus": "دويم", "wrong": ["دويمه|dwáyama"] },
+        { "native": "دا زما لومړۍ ورځ ده.", "roman": "dā zmā lumṛə́y wradz da.", "en": "This is my first day.", "focus": "لومړۍ", "wrong": ["لومړی|lumṛáy"] },
+        { "native": "زموږ کور درېيم کور دی.", "roman": "zmuẓ kor dreyə́m kor day.", "en": "Ours is the third house.", "focus": "درېيم", "wrong": ["درېيمه|dreyə́ma", "درې|dre"] },
+        { "native": "هغه په ټولګي کې دويمه ده.", "roman": "haġá pə ṭolgí ke dwáyama da.", "en": "She is second in the class.", "focus": "دويمه", "wrong": ["دويم|dwáyam"] },
+        { "native": "زما زوی په څلورم ټولګي کې دی.", "roman": "zmā zoy pə tsalorə́m ṭolgí ke day.", "en": "My son is in fourth grade.", "focus": "څلورم", "wrong": ["څلور|tsalór"] },
+        { "native": "لور مې په پنځم ټولګي کې ده.", "roman": "lur me pə pindzə́m ṭolgí ke da.", "en": "My daughter is in fifth grade.", "focus": "پنځم", "wrong": ["پنځه|pindzə́"] },
+        { "native": "د احمد کور پنځم کور دی.", "roman": "də ahmád kor pindzə́m kor day.", "en": "Ahmad's house is the fifth one." },
+        { "native": "هغه زما دويم زوی دی.", "roman": "haġá zmā dwáyam zoy day.", "en": "He's my second son.", "focus": "دويم", "wrong": ["دويمه|dwáyama"] },
+        { "native": "نه، زه لومړی نه يم، دويم يم.", "roman": "na, zə lumṛáy na yəm, dwáyam yəm.", "en": "No, I'm not first, I'm second." }
+      ]
+    },
+    {
+      "title": "All, some, every, more",
+      "new": ["ټول", "ځينې", "زيات", "کم", "نور", "هر", "دواړه", "يوازې", "يوازې لږ، مننه.", "نور څه؟"],
+      "sentences": [
+        { "native": "ټول ماشومان په کور کې دي.", "roman": "ṭol māshumā́n pə kor ke di.", "en": "All the children are at home." },
+        { "native": "ځينې خلک پښتو نه وايي.", "roman": "dzíne xálək paṣtó na wā́yi.", "en": "Some people don't speak Pashto." },
+        { "native": "هر ماشوم يوه مڼه غواړي.", "roman": "har māshúm yáwa maṇá ġwā́ṛi.", "en": "Every child wants an apple." },
+        { "native": "موږ دواړه پښتانه يو.", "roman": "muẓ dwā́ṛa paṣtānə́ yu.", "en": "We're both Pashtuns." },
+        { "native": "نور چای غواړې؟", "roman": "nor chāy ġwā́ṛe?", "en": "Do you want more tea?" },
+        { "native": "نه، مننه، يوازې لږ چای.", "roman": "na, manə́na, yawā́ze ləẓ chāy.", "en": "No thanks, just a little tea." },
+        { "native": "هغه يوازې پنځه روپۍ لري.", "roman": "haġá yawā́ze pindzə́ rupə́y lári.", "en": "He only has five rupees." },
+        { "native": "زموږ په ښار کې پښتانه کم دي.", "roman": "zmuẓ pə ṣār ke paṣtānə́ kam di.", "en": "There are few Pashtuns in our city." },
+        { "native": "ټوله کورنۍ ښه ده، شکر.", "roman": "ṭóla kornə́y ṣa da, shukr.", "en": "The whole family is well, thank God." },
+        { "native": "زيات خلک په ښار کې اوسېږي.", "roman": "ziyā́t xálək pə ṣār ke oséẓi.", "en": "A lot of people live in the city." },
+        { "native": "نور څه غواړئ؟", "roman": "nor tsə ġwā́ṛəy?", "en": "What else would you like? (polite)" }
+      ]
+    },
+    {
+      "title": "Phone numbers and grades",
+      "new": ["شمېره", "ستا د ټيلفون شمېره څه ده؟", "شپږم", "اووم", "اتم", "نهم", "لسم"],
+      "sentences": [
+        { "native": "زما د ټيلفون شمېره دا ده.", "roman": "zmā də ṭelifún shmerá dā da.", "en": "This is my phone number." },
+        { "native": "د احمد شمېره لرې؟", "roman": "də ahmád shmerá lare?", "en": "Do you have Ahmad's number?" },
+        { "native": "زه د هغې شمېره نه لرم.", "roman": "zə də haġé shmerá na lárəm.", "en": "I don't have her number." },
+        { "native": "زه په اووم ټولګي کې يم.", "roman": "zə pə owə́m ṭolgí ke yəm.", "en": "I'm in seventh grade.", "focus": "اووم", "wrong": ["اووه|owə́", "اوومه|owə́ma"] },
+        { "native": "ستا ورور په اتم ټولګي کې دی؟", "roman": "stā wror pə atə́m ṭolgí ke day?", "en": "Is your brother in eighth grade?", "focus": "اتم", "wrong": ["اته|atə́"] },
+        { "native": "نه، هغه په نهم ټولګي کې دی.", "roman": "na, haġá pə nəhə́m ṭolgí ke day.", "en": "No, he's in ninth grade.", "focus": "نهم", "wrong": ["نهه|nə́hə"] },
+        { "native": "دا زما لسم ځل دی!", "roman": "dā zmā lasə́m dzal day!", "en": "This is my tenth time!", "focus": "لسم", "wrong": ["لس|las"] },
+        { "native": "هغه په ټولګي کې شپږمه ده.", "roman": "haġá pə ṭolgí ke shpaẓə́ma da.", "en": "She is sixth in the class.", "focus": "شپږمه", "wrong": ["شپږم|shpaẓə́m"] }
+      ]
+    }
+  ]
 }

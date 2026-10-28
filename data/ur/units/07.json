@@ -85,5 +85,86 @@
       { "speaker": "Rabia", "native": "پونے چھ۔ مجھے دیر ہو رہی ہے، خدا حافظ!", "roman": "paune chhe. mujhe der ho rahī hai, xudā hāfiz!", "en": "Quarter to six. I'm getting late — goodbye!" }
     ]
   },
-  "culture": "Pakistan's weekly holiday is Sunday, though Friday midday is special: offices often break for the جمعہ prayer. The day is also punctuated by the five daily prayers (فجر، ظہر، عصر، مغرب، عشاء), and people sometimes give times relative to them: 'after Maghrib' means just after sunset. Punctuality is relaxed in social life — 'Pakistani time' — but expected in business."
+  "culture": "Pakistan's weekly holiday is Sunday, though Friday midday is special: offices often break for the جمعہ prayer. The day is also punctuated by the five daily prayers (فجر، ظہر، عصر، مغرب، عشاء), and people sometimes give times relative to them: 'after Maghrib' means just after sunset. Punctuality is relaxed in social life — 'Pakistani time' — but expected in business.",
+  "lessons": [
+    {
+      "title": "What time is it?",
+      "tip": { "title": "Telling the time", "body": "- Ask **کتنے بجے ہیں؟** Answer: number + **بجے ہیں** (one o'clock: **ایک بجا ہے**).\n- :15 **سوا** · :30 **ساڑھے** · :45 **پونے** + the *next* hour: پونے چار = 3:45.\n- 1:30 and 2:30 have their own words: **ڈیڑھ**, **ڈھائی**.", "pattern": "سوا / ساڑھے / پونے + hour + بجے ہیں", "grammar": 0 },
+      "new": ["وقت", "بجے", "ابھی", "کتنے بجے ہیں؟", "ٹائم کیا ہوا ہے؟", "ساڑھے چار بجے ہیں۔", "ایک بجا ہے۔"],
+      "sentences": [
+        { "native": "تین بجے ہیں۔", "roman": "tīn baje haiṃ.", "en": "It's three o'clock.", "focus": "بجے", "wrong": ["بجا|bajā", "بج|baj"] },
+        { "native": "ساڑھے پانچ بجے ہیں۔", "roman": "sāṛhe pāṃch baje haiṃ.", "en": "It's half past five.", "focus": "ساڑھے", "wrong": ["سوا|savā", "پونے|paune"] },
+        { "native": "ابھی ڈیڑھ بجا ہے۔", "roman": "abhī ḍeṛh bajā hai.", "en": "It's half past one right now.", "focus": "ڈیڑھ", "wrong": ["ڈھائی|ḍhā’ī", "ساڑھے|sāṛhe"] },
+        { "native": "ڈھائی بجے ہیں۔", "roman": "ḍhā’ī baje haiṃ.", "en": "It's half past two.", "focus": "ڈھائی", "wrong": ["ڈیڑھ|ḍeṛh", "ساڑھے|sāṛhe"] },
+        { "native": "پونے دس بجے ہیں۔", "roman": "paune das baje haiṃ.", "en": "It's quarter to ten.", "focus": "پونے", "wrong": ["سوا|savā", "ساڑھے|sāṛhe"] },
+        { "native": "سوا چھ بجے ہیں۔", "roman": "savā chhe baje haiṃ.", "en": "It's quarter past six.", "focus": "سوا", "wrong": ["پونے|paune", "ساڑھے|sāṛhe"] },
+        { "native": "معاف کیجیے، کتنے بجے ہیں؟", "roman": "muʿāf kījiye, kitne baje haiṃ?", "en": "Excuse me, what time is it?" },
+        { "native": "بھائی، ٹائم کیا ہوا ہے؟", "roman": "bhā’ī, ṭā’im kyā huā hai?", "en": "Mate, what's the time?" },
+        { "native": "ابھی وقت نہیں ہے۔", "roman": "abhī vaqt nahīṃ hai.", "en": "There's no time right now." }
+      ]
+    },
+    {
+      "title": "At seven in the morning",
+      "tip": { "title": "'At' a time", "body": "- 'At five' is just **پانچ بجے** — no extra word. One o'clock: **ایک بجے** (not بجا).\n- Put the part of the day first: **صبح** سات بجے 7 a.m., **دوپہر** دو بجے 2 p.m., **شام** چھ بجے 6 p.m., **رات** آٹھ بجے 8 p.m.\n- In the evening = **شام کو**, at night = **رات کو**.", "pattern": "صبح / شام + number + بجے", "grammar": 0 },
+      "new": ["صبح", "دوپہر", "شام", "رات", "گھنٹا", "منٹ", "دکان کتنے بجے کھلتی ہے؟"],
+      "sentences": [
+        { "native": "میں صبح سات بجے چائے پیتا ہوں۔", "roman": "maiṃ subah sāt baje chā’e pītā hūṃ.", "en": "I have tea at seven in the morning. (man)", "focus": "بجے", "wrong": ["بجا|bajā", "بج|baj"] },
+        { "native": "دکان صبح دس بجے کھلتی ہے۔", "roman": "dukān subah das baje khultī hai.", "en": "The shop opens at 10 a.m.", "focus": "بجے", "wrong": ["بجا|bajā", "بج|baj"] },
+        { "native": "دکان شام چھ بجے بند ہوتی ہے۔", "roman": "dukān shām chhe baje band hotī hai.", "en": "The shop closes at 6 p.m.", "focus": "شام", "wrong": ["صبح|subah", "رات|rāt"] },
+        { "native": "دوپہر کا کھانا ایک بجے ہے۔", "roman": "dopahar kā khānā ek baje hai.", "en": "Lunch is at one.", "focus": "بجے", "wrong": ["بجا|bajā", "بج|baj"] },
+        { "native": "رات کا کھانا آٹھ بجے ہے۔", "roman": "rāt kā khānā āṭh baje hai.", "en": "Dinner is at eight.", "focus": "بجے", "wrong": ["بجا|bajā", "بج|baj"] },
+        { "native": "کیا آپ شام کو فارغ ہیں؟", "roman": "kyā āp shām ko fāriġ haiṃ?", "en": "Are you free in the evening?", "focus": "کو", "wrong": ["میں|meṃ", "سے|se"] },
+        { "native": "میں دس منٹ میں آتا ہوں۔", "roman": "maiṃ das minaṭ meṃ ātā hūṃ.", "en": "I'll be there in ten minutes. (man)" },
+        { "native": "ٹرین دو گھنٹے میں آتی ہے۔", "roman": "ṭren do ghanṭe meṃ ātī hai.", "en": "The train comes in two hours." }
+      ]
+    },
+    {
+      "title": "Today, tomorrow — and sorry I'm late",
+      "tip": { "title": "کل = yesterday *and* tomorrow", "body": "- **کل** means both yesterday and tomorrow; the verb's tense tells you which. **پرسوں** works the same way (two days off).\n- **ابھی** = right now, just; **اب** = now (as things are).\n- Late? **دیر ہو گئی** = it's got late. Coming! = **ابھی آیا!** (a woman says **ابھی آئی!**)." },
+      "new": ["آج", "کل", "پرسوں", "اب", "دن", "جلدی", "دیر", "مجھے دیر ہو گئی، معاف کیجیے۔", "ابھی آیا!", "ہم کل صبح ملیں گے۔"],
+      "sentences": [
+        { "native": "میں کل آؤں گا۔", "roman": "maiṃ kal ā’ūṃ gā.", "en": "I'll come tomorrow. (man)" },
+        { "native": "ہم پرسوں ملیں گے۔", "roman": "ham parsoṃ mileṃ ge.", "en": "We'll meet the day after tomorrow." },
+        { "native": "کل شام کو ملیں گے، ان شاء اللہ۔", "roman": "kal shām ko mileṃ ge, in shā’ allāh.", "en": "See you tomorrow evening, God willing." },
+        { "native": "ابھی آئی!", "roman": "abhī ā’ī!", "en": "Coming! (woman)", "focus": "آئی", "wrong": ["آیا|āyā", "آئے|ā’e"] },
+        { "native": "اب جلدی کرو!", "roman": "ab jaldī karo!", "en": "Hurry up now!" },
+        { "native": "بہت دیر ہو گئی، اللہ حافظ!", "roman": "bahut der ho ga’ī, allāh hāfiz!", "en": "It's got really late, bye!" },
+        { "native": "وہ دیر سے آتا ہے۔", "roman": "vo der se ātā hai.", "en": "He comes late.", "focus": "سے", "wrong": ["میں|meṃ", "پر|par"] },
+        { "native": "آج میرے پاس وقت نہیں ہے۔", "roman": "āj mere pās vaqt nahīṃ hai.", "en": "I don't have time today." },
+        { "native": "آج بہت اچھا دن ہے۔", "roman": "āj bahut achchhā din hai.", "en": "It's a lovely day today." },
+        { "native": "اب کتنے بجے ہیں؟", "roman": "ab kitne baje haiṃ?", "en": "What time is it now?" }
+      ]
+    },
+    {
+      "title": "Days of the week",
+      "tip": { "title": "On Monday: پیر کو", "body": "- 'On' a day is **کو** after it: **پیر کو** on Monday, **اتوار کو** on Sunday.\n- The week: پیر, منگل, بدھ, جمعرات, جمعہ, ہفتہ, اتوار. **ہفتہ** is also 'week'.\n- Every Thursday = **ہر جمعرات کو**.", "pattern": "day + کو", "grammar": 1 },
+      "new": ["پیر", "منگل", "بدھ", "جمعرات", "جمعہ", "ہفتہ", "اتوار", "آج کون سا دن ہے؟", "آج جمعہ ہے۔"],
+      "sentences": [
+        { "native": "آج پیر ہے۔", "roman": "āj pīr hai.", "en": "Today is Monday." },
+        { "native": "میں منگل کو لاہور آؤں گی۔", "roman": "maiṃ mangal ko Lāhaur ā’ūṃ gī.", "en": "I'll come to Lahore on Tuesday. (woman)", "focus": "کو", "wrong": ["میں|meṃ", "پر|par"] },
+        { "native": "بدھ کو میرے پاس وقت نہیں ہے۔", "roman": "budh ko mere pās vaqt nahīṃ hai.", "en": "I don't have time on Wednesday.", "focus": "کو", "wrong": ["میں|meṃ", "سے|se"] },
+        { "native": "جمعرات کو کیا ہے؟", "roman": "jumeʿrāt ko kyā hai?", "en": "What's happening on Thursday?", "focus": "کو", "wrong": ["میں|meṃ", "سے|se"] },
+        { "native": "ہفتے اور اتوار کو ہم گھر پر ہوتے ہیں۔", "roman": "hafte aur itvār ko ham ghar par hote haiṃ.", "en": "On Saturdays and Sundays we're at home.", "focus": "کو", "wrong": ["میں|meṃ", "سے|se"] },
+        { "native": "اتوار کو دکان بند ہوتی ہے۔", "roman": "itvār ko dukān band hotī hai.", "en": "The shop is closed on Sundays.", "focus": "کو", "wrong": ["میں|meṃ", "سے|se"] },
+        { "native": "ہم ہر جمعرات کو ملتے ہیں۔", "roman": "ham har jumeʿrāt ko milte haiṃ.", "en": "We meet every Thursday.", "focus": "کو", "wrong": ["میں|meṃ", "پر|par"] },
+        { "native": "کل کون سا دن ہے؟", "roman": "kal kaun sā din hai?", "en": "What day is it tomorrow?" },
+        { "native": "پرسوں جمعہ ہے۔", "roman": "parsoṃ jumʿa hai.", "en": "The day after tomorrow is Friday." }
+      ]
+    },
+    {
+      "title": "Dates, months and birthdays",
+      "tip": { "title": "In June, next week", "body": "- Months are the English ones; 'in' a month is **میں**: **جون میں**.\n- Next week / next month: **اگلے ہفتے**, **اگلے مہینے** — the -ے form, with no extra word.\n- Dates: آج دس **تاریخ** ہے = today is the 10th.", "pattern": "month + میں · اگلے + ہفتے / مہینے", "grammar": 1 },
+      "new": ["مہینہ", "تاریخ", "سالگرہ", "روزانہ", "ہفتے کے آخر میں", "آج کیا تاریخ ہے؟", "میری سالگرہ مارچ میں ہے۔"],
+      "sentences": [
+        { "native": "میری سالگرہ جون میں ہے۔", "roman": "merī sālgirah jūn meṃ hai.", "en": "My birthday is in June.", "focus": "میں", "wrong": ["کو|ko", "پر|par"] },
+        { "native": "تمہاری سالگرہ کب ہے؟", "roman": "tumhārī sālgirah kab hai?", "en": "When's your birthday? (to a friend)" },
+        { "native": "اگلے مہینے میری سالگرہ ہے۔", "roman": "agle mahīne merī sālgirah hai.", "en": "My birthday is next month.", "focus": "اگلے", "wrong": ["اگلا|aglā", "اگلی|aglī"] },
+        { "native": "ہم اگلے ہفتے ملیں گے۔", "roman": "ham agle hafte mileṃ ge.", "en": "We'll meet next week.", "focus": "اگلے", "wrong": ["اگلا|aglā", "اگلی|aglī"] },
+        { "native": "میرا بھائی ہر سال دسمبر میں آتا ہے۔", "roman": "merā bhā’ī har sāl disambar meṃ ātā hai.", "en": "My brother comes every December.", "focus": "میں", "wrong": ["کو|ko", "پر|par"] },
+        { "native": "آج دس تاریخ ہے۔", "roman": "āj das tārīx hai.", "en": "Today's the tenth." },
+        { "native": "ہفتے کے آخر میں تم فارغ ہو؟", "roman": "hafte ke āxir meṃ tum fāriġ ho?", "en": "Are you free at the weekend? (to a friend)" },
+        { "native": "میں روزانہ اردو بولتا ہوں۔", "roman": "maiṃ rozāna urdū boltā hūṃ.", "en": "I speak Urdu every day. (man)" }
+      ]
+    }
+  ]
 }

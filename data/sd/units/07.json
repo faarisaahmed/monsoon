@@ -89,5 +89,86 @@
       { "speaker": "Sorath", "native": "هر ڀيري! ڪالهه به.", "roman": "har bhere! kālha bi.", "en": "Every time! Yesterday too." }
     ]
   },
-  "culture": "**Cheti Chand** (چيٽي چنڊ), the first new moon of the month of Cheṭ (usually late March or early April), is the Sindhi New Year and the festival of **Jhulelal** (جهوليلال), the river-saint associated with the Indus, honoured especially by Hindu Sindhis in Sindh and India with processions, music and offerings to the water. In Pakistan the working week runs Monday to Saturday for many, with Sunday off; Friday midday is reserved for congregational prayers. Sindh also celebrates **Sindhi Culture Day** (Ajrak-Topi Day) on the first Sunday of December."
+  "culture": "**Cheti Chand** (چيٽي چنڊ), the first new moon of the month of Cheṭ (usually late March or early April), is the Sindhi New Year and the festival of **Jhulelal** (جهوليلال), the river-saint associated with the Indus, honoured especially by Hindu Sindhis in Sindh and India with processions, music and offerings to the water. In Pakistan the working week runs Monday to Saturday for many, with Sunday off; Friday midday is reserved for congregational prayers. Sindh also celebrates **Sindhi Culture Day** (Ajrak-Topi Day) on the first Sunday of December.",
+  "lessons": [
+    {
+      "title": "What time is it?",
+      "tip": { "title": "Telling the time", "body": "- Ask **ڪيترا وڳا آهن؟** 'how many o'clocks are there?' Answer: ٽي **وڳا** آهن — but **هڪ وڳو آهي**.\n- Quarters and halves go first: **سوا** ٽي 3:15 · **ساڍا** ٽي 3:30 · **پوڻا** چار 3:45.\n- 1:30 is **ڏيڍ** and 2:30 is **اڍائي**.", "pattern": "سوا / ساڍا / پوڻا + hour + وڳا آهن", "grammar": 0 },
+      "new": ["وقت", "وڳو", "سوا", "ساڍا", "پوڻا", "ڪيترا وڳا آهن؟", "ٽي وڳا آهن.", "هڪ وڳو آهي.", "ساڍا چار ٿيا آهن."],
+      "sentences": [
+        { "native": "معاف ڪجو، ڪيترا وڳا آهن؟", "roman": "māf kajo, ketirā vaɠā āhin?", "en": "Excuse me, what time is it?", "focus": "وڳا", "wrong": ["وڳو|vaɠo", "وڳي|vaɠe"] },
+        { "native": "پنج وڳا آهن.", "roman": "panja vaɠā āhin.", "en": "It's five o'clock.", "focus": "وڳا", "wrong": ["وڳو|vaɠo", "وڳي|vaɠe"] },
+        { "native": "سوا ڇهه وڳا آهن.", "roman": "savā chha vaɠā āhin.", "en": "It's quarter past six.", "focus": "سوا", "wrong": ["ساڍا|sāḍhā", "پوڻا|pauṇā"] },
+        { "native": "ساڍا ست وڳا آهن.", "roman": "sāḍhā sata vaɠā āhin.", "en": "It's half past seven.", "focus": "ساڍا", "wrong": ["سوا|savā", "پوڻا|pauṇā"] },
+        { "native": "پوڻا ٻارهن وڳا آهن.", "roman": "pauṇā ɓārahaṃ vaɠā āhin.", "en": "It's quarter to twelve.", "focus": "پوڻا", "wrong": ["سوا|savā", "ساڍا|sāḍhā"] },
+        { "native": "اڍائي وڳا آهن.", "roman": "aḍhāī vaɠā āhin.", "en": "It's half past two.", "focus": "اڍائي", "wrong": ["ڏيڍ|ɗeḍhu", "ساڍا|sāḍhā"] },
+        { "native": "هڪ وڳو آهي، ماني تيار آهي.", "roman": "hiku vaɠo āhe, mānī tayāru āhe.", "en": "It's one o'clock, lunch is ready.", "focus": "وڳو", "wrong": ["وڳا|vaɠā", "وڳي|vaɠe"] },
+        { "native": "مون وٽ وقت ڪونهي.", "roman": "moṃ vaṭi vaqtu konhe.", "en": "I don't have time." },
+        { "native": "ڏهه وڳا ٿيا آهن.", "roman": "ɗaha vaɠā thiyā āhin.", "en": "It's already ten o'clock.", "focus": "وڳا", "wrong": ["وڳو|vaɠo", "وڳي|vaɠe"] }
+      ]
+    },
+    {
+      "title": "At what time?",
+      "tip": { "title": "At five o'clock: پنجين وڳي", "body": "- 'At' a time: the number ends in **-īṃ**, then **وڳي**: پنجين وڳي, ستين وڳي, ڏهين وڳي.\n- Irregular: **ٽين** وڳي (3), **چئين** وڳي (4). 'At what time?' = **ڪيتري وڳي؟**\n- **دير ٿي وئي** = it got late; **جلدي** = quickly, early.", "pattern": "number + -īṃ + وڳي" },
+      "new": ["ڪلاڪ", "منٽ", "جلدي", "دير", "ڪلاس ڪيتري وڳي آهي؟", "پنجين وڳي.", "معاف ڪجو، دير ٿي وئي."],
+      "sentences": [
+        { "native": "ماني ڪيتري وڳي آهي؟", "roman": "mānī ketire vaɠe āhe?", "en": "What time is the meal?", "focus": "ڪيتري", "wrong": ["ڪيترا|ketirā", "ڪيترو|ketiro"] },
+        { "native": "ڪلاس ستين وڳي آهي.", "roman": "kilāsu satīṃ vaɠe āhe.", "en": "The class is at seven.", "focus": "ستين", "wrong": ["ست|sata", "ستون|satoṃ"] },
+        { "native": "اسين چئين وڳي ملنداسين.", "roman": "asīṃ chaīṃ vaɠe milandāsīṃ.", "en": "We'll meet at four.", "focus": "چئين", "wrong": ["چار|chāri", "چوٿون|chothoṃ"] },
+        { "native": "مون کي ڏهه منٽ گهرجن.", "roman": "moṃ khe ɗaha minaṭa ghurjan.", "en": "I need ten minutes." },
+        { "native": "ڏاڍي دير ٿي وئي!", "roman": "ɗāḍhī dera thī vaī!", "en": "It's got really late!" },
+        { "native": "جلدي اچو!", "roman": "jaldī acho!", "en": "Come quickly!" },
+        { "native": "اسين ٻارهين وڳي ماني کائون ٿا.", "roman": "asīṃ ɓārahīṃ vaɠe mānī khāūṃ thā.", "en": "We have lunch at twelve.", "focus": "ٻارهين", "wrong": ["ٻارهن|ɓārahaṃ", "ٻارهون|ɓārahoṃ"] },
+        { "native": "نيرن ڪيتري وڳي آهي؟", "roman": "nerani ketire vaɠe āhe?", "en": "What time is breakfast?", "focus": "وڳي", "wrong": ["وڳا|vaɠā", "وڳو|vaɠo"] },
+        { "native": "نيرن اٺين وڳي آهي.", "roman": "nerani aṭhīṃ vaɠe āhe.", "en": "Breakfast is at eight.", "focus": "اٺين", "wrong": ["اٺ|aṭha", "اٺون|aṭhoṃ"] },
+        { "native": "ڪلاس ٽين وڳي آهي، ٻن ڪلاڪن جو.", "roman": "kilāsu ṭīṃ vaɠe āhe, ɓin kalākan jo.", "en": "The class is at three, for two hours.", "focus": "ٽين", "wrong": ["ٽي|ṭe", "ٽيون|ṭiyoṃ"] }
+      ]
+    },
+    {
+      "title": "Morning, noon and night",
+      "tip": { "title": "In the morning: صبح جو", "body": "- Parts of the day take **جو**: صبح جو 'in the morning', شام جو 'in the evening', رات جو 'at night', منجهند جو 'at midday'.\n- Meals: **منجهند جي ماني** lunch, **رات جي ماني** dinner (ماني is feminine, so جي).\n- **روز** every day, **هاڻي** now, **پوءِ** then / later need nothing." },
+      "new": ["صبح", "منجهند", "شام", "رات", "روز", "هاڻي", "پوءِ"],
+      "sentences": [
+        { "native": "مان صبح جو چانهه پيئان ٿو.", "roman": "māṃ subuh jo chānhi pīāṃ tho.", "en": "I drink tea in the morning. (man)", "focus": "جو", "wrong": ["۾|meṃ", "تي|te"] },
+        { "native": "اسين شام جو ملون ٿا.", "roman": "asīṃ shāma jo milūṃ thā.", "en": "We meet in the evenings.", "focus": "جو", "wrong": ["۾|meṃ", "تي|te"] },
+        { "native": "رات جو بتي هلي وئي.", "roman": "rāti jo batī halī vaī.", "en": "The power went off at night.", "focus": "جو", "wrong": ["۾|meṃ", "تي|te"] },
+        { "native": "منجهند جي ماني تيار آهي.", "roman": "manjhandi jī mānī tayāru āhe.", "en": "Lunch is ready.", "focus": "جي", "wrong": ["جو|jo", "جا|jā"] },
+        { "native": "رات جي ماني ڪيتري وڳي آهي؟", "roman": "rāti jī mānī ketire vaɠe āhe?", "en": "What time is dinner?", "focus": "جي", "wrong": ["جو|jo", "جا|jā"] },
+        { "native": "مان روز رات جو چانهه پيئان ٿي.", "roman": "māṃ roz rāti jo chānhi pīāṃ thī.", "en": "I drink tea every night. (woman)", "focus": "روز", "wrong": ["هاڻي|hāṇe", "پوءِ|poi"] },
+        { "native": "شام جو مون وٽ وقت آهي.", "roman": "shāma jo moṃ vaṭi vaqtu āhe.", "en": "I have time in the evening.", "focus": "جو", "wrong": ["۾|meṃ", "تي|te"] },
+        { "native": "ماني کائو، پوءِ چانهه پيئو.", "roman": "mānī khāo, poi chānhi pīo.", "en": "Eat first, then have tea.", "focus": "پوءِ", "wrong": ["هاڻي|hāṇe", "روز|roz"] },
+        { "native": "هاڻي نه، پوءِ.", "roman": "hāṇe na, poi.", "en": "Not now — later." }
+      ]
+    },
+    {
+      "title": "Today, tomorrow, next week",
+      "tip": { "title": "Today, next week, last month", "body": "- **اڄ** today, **سڀاڻي** tomorrow, **ڪالهه** yesterday need no postposition.\n- **ايندڙ** next and **گذريل** last put the noun in the oblique: ايندڙ **هفتي**, گذريل **مهيني**.\n- Days take **تي** 'on': سومر تي, جمعي تي.", "pattern": "ايندڙ / گذريل + هفتي / مهيني", "grammar": 1 },
+      "new": ["اڄ", "سڀاڻي", "ڪالهه", "ڏينهن", "هفتو", "مهينو", "ايندڙ", "گذريل", "اڄ ڪهڙو ڏينهن آهي؟", "اسين سڀاڻي شام جو ملنداسين."],
+      "sentences": [
+        { "native": "اڄ مون وٽ وقت ڪونهي.", "roman": "aʄu moṃ vaṭi vaqtu konhe.", "en": "I don't have time today.", "focus": "اڄ", "wrong": ["سڀاڻي|subhāṇe", "ڪالهه|kālha"] },
+        { "native": "سڀاڻي ملنداسين.", "roman": "subhāṇe milandāsīṃ.", "en": "See you tomorrow.", "focus": "سڀاڻي", "wrong": ["ڪالهه|kālha", "اڄ|aʄu"] },
+        { "native": "ايندڙ هفتي ڪلاس ناهي.", "roman": "endaṛa hafte kilāsu nāhe.", "en": "There's no class next week.", "focus": "هفتي", "wrong": ["هفتو|hafto", "هفتا|haftā"] },
+        { "native": "ماروي گذريل هفتي آئي.", "roman": "Mārvī guzriyala hafte āī.", "en": "Marvi came last week.", "focus": "گذريل", "wrong": ["ايندڙ|endaṛu", "سڀاڻي|subhāṇe"] },
+        { "native": "ايندڙ مهيني منهنجي ڀيڻ جي شادي آهي.", "roman": "endaṛa mahīne munhinjī bheṇa jī shādī āhe.", "en": "My sister's wedding is next month.", "focus": "مهيني", "wrong": ["مهينو|mahīno", "مهينا|mahīnā"] },
+        { "native": "هڪ هفتي ۾ ست ڏينهن آهن.", "roman": "hika hafte meṃ sata ɗīṃha āhin.", "en": "There are seven days in a week.", "focus": "هفتي", "wrong": ["هفتو|hafto", "هفتا|haftā"] },
+        { "native": "ڪالهه دير ٿي وئي.", "roman": "kālha dera thī vaī.", "en": "I was late yesterday.", "focus": "ڪالهه", "wrong": ["سڀاڻي|subhāṇe", "هاڻي|hāṇe"] },
+        { "native": "اسين هر هفتي ملون ٿا.", "roman": "asīṃ har hafte milūṃ thā.", "en": "We meet every week.", "focus": "هفتي", "wrong": ["هفتو|hafto", "هفتا|haftā"] }
+      ]
+    },
+    {
+      "title": "Days of the week",
+      "new": ["سومر", "اڱارو", "اربع", "خميس", "جمعو", "ڇنڇر", "آچر", "اڄ جمعو آهي.", "ايندڙ هفتي ڇنڇر تي.", "مون وٽ وقت ناهي، مان جلدي ۾ آهيان."],
+      "sentences": [
+        { "native": "اڱاري تي ڪلاس آهي.", "roman": "aṅāre te kilāsu āhe.", "en": "There's class on Tuesday.", "focus": "اڱاري", "wrong": ["اڱارو|aṅāro", "اڱارا|aṅārā"] },
+        { "native": "سڀاڻي آچر آهي!", "roman": "subhāṇe ācharu āhe!", "en": "Tomorrow's Sunday!" },
+        { "native": "اسين خميس تي ملنداسين.", "roman": "asīṃ xamīsa te milandāsīṃ.", "en": "We'll meet on Thursday.", "focus": "تي", "wrong": ["۾|meṃ", "جو|jo"] },
+        { "native": "جمعي تي دڪان بند آهي.", "roman": "jumʿe te dukānu bandu āhe.", "en": "The shop is closed on Friday.", "focus": "جمعي", "wrong": ["جمعو|jumʿo", "جمعا|jumʿā"] },
+        { "native": "اڄ اربع آهي.", "roman": "aʄu arbaʿu āhe.", "en": "Today is Wednesday." },
+        { "native": "آچر تي ڪلاس ناهي.", "roman": "āchara te kilāsu nāhe.", "en": "There's no class on Sunday.", "focus": "تي", "wrong": ["۾|meṃ", "جو|jo"] },
+        { "native": "معاف ڪجو، مان جلدي ۾ آهيان.", "roman": "māf kajo, māṃ jaldī meṃ āhiyāṃ.", "en": "Sorry, I'm in a hurry." },
+        { "native": "ايندڙ سومر تي ملنداسين.", "roman": "endaṛa sūmara te milandāsīṃ.", "en": "See you next Monday.", "focus": "ايندڙ", "wrong": ["گذريل|guzriyalu", "ڪالهه|kālha"] },
+        { "native": "ڇنڇر ۽ آچر تي مون وٽ وقت آهي.", "roman": "chhanchhara ai āchara te moṃ vaṭi vaqtu āhe.", "en": "I have time on Saturday and Sunday." }
+      ]
+    }
+  ]
 }

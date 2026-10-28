@@ -89,5 +89,102 @@
       { "speaker": "Maria", "native": "ماشاء اللہ، بہت پیارا خاندان ہے!", "roman": "māshā’allāh, bahut pyārā xāndān hai!", "en": "Mashallah, what a lovely family!" }
     ]
   },
-  "culture": "Pakistani families are often large and close-knit, with grandparents, uncles and cousins living together or nearby. Kinship words are used as polite titles for non-relatives: an older man may be called انکل or چچا, a woman خالہ or آنٹی, a peer بھائی or باجی (older sister). Cousins are often called 'cousin brother/sister' in English and simply بھائی / بہن in Urdu. When complimenting children or good fortune, people say ماشاء اللہ to ward off the evil eye."
+  "culture": "Pakistani families are often large and close-knit, with grandparents, uncles and cousins living together or nearby. Kinship words are used as polite titles for non-relatives: an older man may be called انکل or چچا, a woman خالہ or آنٹی, a peer بھائی or باجی (older sister). Cousins are often called 'cousin brother/sister' in English and simply بھائی / بہن in Urdu. When complimenting children or good fortune, people say ماشاء اللہ to ward off the evil eye.",
+  "lessons": [
+    {
+      "title": "This is my mum",
+      "tip": { "title": "My: میرا, میری, میرے", "body": "- 'My' agrees with the person or thing you have, **not** with you: **میرا** بھائی, **میری** بہن, **میرے** ابو (respect plural).\n- 'Your' (polite) works the same way: آپ **کا** بھائی, آپ **کی** امی, آپ **کے** ابو.\n- کا = masculine · کی = feminine · کے = plural or respectful.", "pattern": "میرا / میری / میرے + person", "grammar": 1 },
+      "new": ["امی", "ابو", "بھائی", "بہن", "دوست", "میرا", "یہ میری امی ہیں۔", "یہ میرا دوست علی ہے۔"],
+      "sentences": [
+        { "native": "میرے ابو لاہور میں رہتے ہیں۔", "roman": "mere abbū Lāhaur meṃ rahte haiṃ.", "en": "My dad lives in Lahore.", "focus": "میرے", "wrong": ["میرا|merā", "میری|merī"] },
+        { "native": "یہ میری بہن سارہ ہے۔", "roman": "ye merī bahan Sāra hai.", "en": "This is my sister Sarah.", "focus": "میری", "wrong": ["میرا|merā", "میرے|mere"] },
+        { "native": "یہ میرا بھائی احمد ہے۔", "roman": "ye merā bhā’ī Ahmad hai.", "en": "This is my brother Ahmed.", "focus": "میرا", "wrong": ["میری|merī", "میرے|mere"] },
+        { "native": "آپ کی امی کہاں رہتی ہیں؟", "roman": "āp kī ammī kahāṃ rahtī haiṃ?", "en": "Where does your mum live?", "focus": "کی", "wrong": ["کا|kā", "کے|ke"] },
+        { "native": "آپ کا بھائی کہاں ہے؟", "roman": "āp kā bhā’ī kahāṃ hai?", "en": "Where's your brother?", "focus": "کا", "wrong": ["کی|kī", "کے|ke"] },
+        { "native": "میری امی اردو اور پنجابی بولتی ہیں۔", "roman": "merī ammī urdū aur panjābī boltī haiṃ.", "en": "My mum speaks Urdu and Punjabi.", "focus": "میری", "wrong": ["میرا|merā", "میرے|mere"] },
+        { "native": "میرا دوست انگریزی نہیں بولتا۔", "roman": "merā dost angrezī nahīṃ boltā.", "en": "My friend doesn't speak English.", "focus": "میرا", "wrong": ["میری|merī", "میرے|mere"] },
+        { "native": "علی میرا بہت اچھا دوست ہے۔", "roman": "ʿAlī merā bahut achchhā dost hai.", "en": "Ali is a very good friend of mine." },
+        { "native": "ابو، آپ کہاں ہیں؟", "roman": "abbū, āp kahāṃ haiṃ?", "en": "Dad, where are you?" }
+      ]
+    },
+    {
+      "title": "Brothers, sisters, children",
+      "tip": { "title": "One, two: plurals", "body": "- Masculine **-ā** → **-e**: بیٹا → دو **بیٹے**, بچہ → دو **بچے**.\n- Feminine **-ī** → **-iyāṃ**: بیٹی → دو **بیٹیاں**.\n- Other feminine → **-eṃ**: بہن → دو **بہنیں**. Other masculine: no change (دو بھائی).\n- 'I have three sisters' = **میری** تین بہنیں ہیں — 'my three sisters are'.", "pattern": "number + plural noun + ہیں", "grammar": 0 },
+      "new": ["بچہ", "بیٹا", "بیٹی", "آپ کے کتنے بہن بھائی ہیں؟", "میرے دو بھائی اور ایک بہن ہیں۔", "میرے دو بچے ہیں، ایک بیٹا اور ایک بیٹی۔"],
+      "sentences": [
+        { "native": "میری تین بہنیں ہیں۔", "roman": "merī tīn bahneṃ haiṃ.", "en": "I have three sisters.", "focus": "بہنیں", "wrong": ["بہن|bahan", "بھائی|bhā’ī"] },
+        { "native": "میرے دو بیٹے ہیں۔", "roman": "mere do beṭe haiṃ.", "en": "I have two sons.", "focus": "بیٹے", "wrong": ["بیٹا|beṭā", "بیٹیاں|beṭiyāṃ"] },
+        { "native": "احمد صاحب کی دو بیٹیاں ہیں۔", "roman": "Ahmad sāhab kī do beṭiyāṃ haiṃ.", "en": "Mr Ahmed has two daughters.", "focus": "بیٹیاں", "wrong": ["بیٹی|beṭī", "بیٹے|beṭe"] },
+        { "native": "آپ کے بچے کہاں ہیں؟", "roman": "āp ke bachche kahāṃ haiṃ?", "en": "Where are your children?", "focus": "بچے", "wrong": ["بچہ|bachcha", "بچی|bachchī"] },
+        { "native": "میرا بیٹا کراچی میں رہتا ہے۔", "roman": "merā beṭā Karāchī meṃ rahtā hai.", "en": "My son lives in Karachi.", "focus": "بیٹا", "wrong": ["بیٹے|beṭe", "بیٹی|beṭī"] },
+        { "native": "میرا ایک بھائی ہے۔", "roman": "merā ek bhā’ī hai.", "en": "I have one brother.", "focus": "ہے", "wrong": ["ہیں|haiṃ", "ہوں|hūṃ"] },
+        { "native": "بیٹا، تم ٹھیک ہو؟", "roman": "beṭā, tum ṭhīk ho?", "en": "Are you OK, dear? (to a child)" }
+      ]
+    },
+    {
+      "title": "Husband, wife, parents",
+      "new": ["شوہر", "بیوی", "شادی شدہ", "والدین", "ماں", "کیا آپ شادی شدہ ہیں؟"],
+      "sentences": [
+        { "native": "جی ہاں، میں شادی شدہ ہوں۔", "roman": "jī hāṃ, maiṃ shādī shuda hūṃ.", "en": "Yes, I'm married." },
+        { "native": "جی نہیں، میں شادی شدہ نہیں ہوں۔", "roman": "jī nahīṃ, maiṃ shādī shuda nahīṃ hūṃ.", "en": "No, I'm not married.", "focus": "نہیں", "wrong": ["ہاں|hāṃ", "بھی|bhī"] },
+        { "native": "یہ میرے شوہر ہیں۔", "roman": "ye mere shauhar haiṃ.", "en": "This is my husband.", "focus": "میرے", "wrong": ["میرا|merā", "میری|merī"] },
+        { "native": "میری بیوی اردو نہیں بولتی۔", "roman": "merī bīvī urdū nahīṃ boltī.", "en": "My wife doesn't speak Urdu.", "focus": "میری", "wrong": ["میرا|merā", "میرے|mere"] },
+        { "native": "میرے والدین لندن میں رہتے ہیں۔", "roman": "mere vālidain Landan meṃ rahte haiṃ.", "en": "My parents live in London.", "focus": "میرے", "wrong": ["میرا|merā", "میری|merī"] },
+        { "native": "کیا آپ کے شوہر پاکستانی ہیں؟", "roman": "kyā āp ke shauhar pākistānī haiṃ?", "en": "Is your husband Pakistani?", "focus": "کے", "wrong": ["کا|kā", "کی|kī"] },
+        { "native": "آپ کی بیوی کہاں سے ہیں؟", "roman": "āp kī bīvī kahāṃ se haiṃ?", "en": "Where is your wife from?", "focus": "کی", "wrong": ["کا|kā", "کے|ke"] },
+        { "native": "وہ دو بچوں کی ماں ہے۔", "roman": "vo do bachchoṃ kī māṃ hai.", "en": "She's a mother of two." }
+      ]
+    },
+    {
+      "title": "Grandparents, aunts and uncles",
+      "tip": { "title": "Whose side of the family?", "body": "- Urdu names relatives by side. Father's parents: **دادا, دادی**; mother's parents: **نانا, نانی**.\n- Father's brother: **چچا**; mother's brother: **ماموں**.\n- Mother's sister: **خالہ**; father's sister: **پھوپھی**.\n- Relatives you respect take **ہیں** and **میرے / میری**: میرے نانا ہیں." },
+      "new": ["خاندان", "دادا", "دادی", "نانا", "نانی", "چچا", "ماموں", "خالہ", "پھوپھی"],
+      "sentences": [
+        { "native": "میرے دادا اور دادی لاہور میں رہتے ہیں۔", "roman": "mere dādā aur dādī Lāhaur meṃ rahte haiṃ.", "en": "My grandparents (dad's parents) live in Lahore." },
+        { "native": "میری نانی صرف پنجابی بولتی ہیں۔", "roman": "merī nānī sirf panjābī boltī haiṃ.", "en": "My grandmother (mum's mum) only speaks Punjabi.", "focus": "نانی", "wrong": ["دادی|dādī", "خالہ|xāla"] },
+        { "native": "میرے نانا کراچی سے ہیں۔", "roman": "mere nānā Karāchī se haiṃ.", "en": "My grandfather (mum's dad) is from Karachi.", "focus": "نانا", "wrong": ["دادا|dādā", "چچا|chachā"] },
+        { "native": "ابو کے بھائی میرے چچا ہیں۔", "roman": "abbū ke bhā’ī mere chachā haiṃ.", "en": "Dad's brother is my uncle.", "focus": "چچا", "wrong": ["ماموں|māmūṃ", "نانا|nānā"] },
+        { "native": "امی کے بھائی میرے ماموں ہیں۔", "roman": "ammī ke bhā’ī mere māmūṃ haiṃ.", "en": "Mum's brother is my uncle.", "focus": "ماموں", "wrong": ["چچا|chachā", "دادا|dādā"] },
+        { "native": "امی کی بہن میری خالہ ہیں۔", "roman": "ammī kī bahan merī xāla haiṃ.", "en": "Mum's sister is my aunt.", "focus": "خالہ", "wrong": ["پھوپھی|phuphī", "نانی|nānī"] },
+        { "native": "ابو کی بہن میری پھوپھی ہیں۔", "roman": "abbū kī bahan merī phuphī haiṃ.", "en": "Dad's sister is my aunt.", "focus": "پھوپھی", "wrong": ["خالہ|xāla", "دادی|dādī"] },
+        { "native": "میرا خاندان پاکستان سے ہے۔", "roman": "merā xāndān Pākistān se hai.", "en": "My family is from Pakistan." },
+        { "native": "خالہ، آپ کیسی ہیں؟", "roman": "xāla, āp kaisī haiṃ?", "en": "Auntie, how are you?" }
+      ]
+    },
+    {
+      "title": "Who's that? People around you",
+      "tip": { "title": "Our, your: ہمارا, تمہارا", "body": "- **ہمارا** 'our' and **تمہارا** 'your' (to a friend) change just like میرا.\n- **-ا** before a masculine word, **-ی** before a feminine one, **-ے** before plurals or someone you respect.\n- ہمارا گھر · تمہاری بہن · تمہارے ابو", "pattern": "ہمارا / ہماری / ہمارے · تمہارا / تمہاری / تمہارے", "grammar": 1 },
+      "new": ["آدمی", "عورت", "لوگ", "لڑکا", "لڑکی", "ہمارا", "تمہارا", "وہ لڑکی کون ہے؟"],
+      "sentences": [
+        { "native": "ہمارا گھر یہاں ہے۔", "roman": "hamārā ghar yahāṃ hai.", "en": "Our house is here.", "focus": "ہمارا", "wrong": ["ہماری|hamārī", "ہمارے|hamāre"] },
+        { "native": "ہماری امی یہاں نہیں ہیں۔", "roman": "hamārī ammī yahāṃ nahīṃ haiṃ.", "en": "Our mum isn't here.", "focus": "ہماری", "wrong": ["ہمارا|hamārā", "ہمارے|hamāre"] },
+        { "native": "تمہارا گھر کہاں ہے؟", "roman": "tumhārā ghar kahāṃ hai?", "en": "Where's your house? (to a friend)", "focus": "تمہارا", "wrong": ["تمہاری|tumhārī", "تمہارے|tumhāre"] },
+        { "native": "تمہاری بہن کہاں ہے؟", "roman": "tumhārī bahan kahāṃ hai?", "en": "Where's your sister? (to a friend)", "focus": "تمہاری", "wrong": ["تمہارا|tumhārā", "تمہارے|tumhāre"] },
+        { "native": "تمہارے ابو کیسے ہیں؟", "roman": "tumhāre abbū kaise haiṃ?", "en": "How's your dad? (to a friend)", "focus": "تمہارے", "wrong": ["تمہارا|tumhārā", "تمہاری|tumhārī"] },
+        { "native": "ہمارے دوست لاہور سے ہیں۔", "roman": "hamāre dost Lāhaur se haiṃ.", "en": "Our friends are from Lahore.", "focus": "ہمارے", "wrong": ["ہمارا|hamārā", "ہماری|hamārī"] },
+        { "native": "وہ لڑکی میری دوست ہے۔", "roman": "vo laṛkī merī dost hai.", "en": "That girl is my friend.", "focus": "میری", "wrong": ["میرا|merā", "میرے|mere"] },
+        { "native": "وہ لڑکے کون ہیں؟", "roman": "vo laṛke kaun haiṃ?", "en": "Who are those boys?", "focus": "لڑکے", "wrong": ["لڑکا|laṛkā", "لڑکی|laṛkī"] },
+        { "native": "یہ لڑکیاں میری بہنیں ہیں۔", "roman": "ye laṛkiyāṃ merī bahneṃ haiṃ.", "en": "These girls are my sisters.", "focus": "لڑکیاں", "wrong": ["لڑکی|laṛkī", "لڑکے|laṛke"] },
+        { "native": "وہ عورتیں کون ہیں؟", "roman": "vo ʿaurateṃ kaun haiṃ?", "en": "Who are those women?", "focus": "عورتیں", "wrong": ["عورتوں|ʿauratoṃ", "لڑکا|laṛkā"] },
+        { "native": "وہ آدمی کون ہے؟", "roman": "vo ādmī kaun hai?", "en": "Who is that man?" },
+        { "native": "یہاں بہت لوگ ہیں۔", "roman": "yahāṃ bahut log haiṃ.", "en": "There are lots of people here." }
+      ]
+    },
+    {
+      "title": "Kind words about family",
+      "tip": { "title": "Being warm about family", "body": "- Praising someone's child? Start with **ماشاء اللہ** — it's expected, and avoids sounding envious.\n- Send greetings with **… کو میرا سلام کہیے گا** — please give … my regards.\n- **سب سے** + adjective = the most: **سب سے چھوٹا** the youngest.\n- Elders call any child **بیٹا**, even a girl." },
+      "new": ["گھر والے", "آپ کے گھر والے کہاں رہتے ہیں؟", "میں گھر میں سب سے چھوٹا ہوں۔", "اپنی امی کو میرا سلام کہیے گا۔", "ماشاء اللہ، بہت پیارا بچہ ہے!"],
+      "sentences": [
+        { "native": "میرے گھر والے کراچی میں ہیں۔", "roman": "mere ghar vāle Karāchī meṃ haiṃ.", "en": "My family is in Karachi." },
+        { "native": "آپ کے گھر والے کیسے ہیں؟", "roman": "āp ke ghar vāle kaise haiṃ?", "en": "How is your family?", "focus": "کیسے", "wrong": ["کیسا|kaisā", "کیسی|kaisī"] },
+        { "native": "ماشاء اللہ، بہت پیاری بچی ہے!", "roman": "māshā’ allāh, bahut pyārī bachchī hai!", "en": "Mashallah, what a lovely little girl!", "focus": "پیاری", "wrong": ["پیارا|pyārā", "پیارے|pyāre"] },
+        { "native": "ماشاء اللہ، آپ کے بچے بہت پیارے ہیں!", "roman": "māshā’ allāh, āp ke bachche bahut pyāre haiṃ!", "en": "Mashallah, your children are lovely!", "focus": "پیارے", "wrong": ["پیارا|pyārā", "پیاری|pyārī"] },
+        { "native": "اپنے ابو کو میرا سلام کہیے گا۔", "roman": "apne abbū ko merā salām kahiye gā.", "en": "Please give my regards to your dad.", "focus": "اپنے", "wrong": ["اپنی|apnī", "اپنا|apnā"] },
+        { "native": "اپنی بیوی کو میرا سلام کہیے گا۔", "roman": "apnī bīvī ko merā salām kahiye gā.", "en": "Please give my regards to your wife.", "focus": "اپنی", "wrong": ["اپنا|apnā", "اپنے|apne"] },
+        { "native": "میری بہن گھر میں سب سے چھوٹی ہے۔", "roman": "merī bahan ghar meṃ sab se chhoṭī hai.", "en": "My sister is the youngest at home.", "focus": "چھوٹی", "wrong": ["چھوٹا|chhoṭā", "چھوٹے|chhoṭe"] },
+        { "native": "میرا بھائی سب سے چھوٹا ہے۔", "roman": "merā bhā’ī sab se chhoṭā hai.", "en": "My brother is the youngest.", "focus": "چھوٹا", "wrong": ["چھوٹی|chhoṭī", "چھوٹے|chhoṭe"] },
+        { "native": "بیٹا، تمہارا نام کیا ہے؟", "roman": "beṭā, tumhārā nām kyā hai?", "en": "What's your name, sweetheart? (to a child)" }
+      ]
+    }
+  ]
 }

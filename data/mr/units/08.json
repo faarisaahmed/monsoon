@@ -90,5 +90,85 @@
       { "speaker": "Sneha", "native": "हीच! खूप खूप धन्यवाद!", "roman": "hīts! khūp khūp dhanyavād!", "en": "That's the one! Thank you so much!" }
     ]
   },
-  "culture": "Colours carry meaning in Maharashtra: **भगवा** (saffron) is associated with the Maratha warrior king Shivaji and his flag; brides traditionally wear a green or yellow **नऊवारी** (nine-yard sari) or a पैठणी; and on Makar Sankranti women wear **काळी** (black) saris — the one festival where black is auspicious. Note that Marathi uses the feminine 'it' (ती / तिच्यावर) for a bag because बॅग is feminine — things take the pronoun of their grammatical gender."
+  "culture": "Colours carry meaning in Maharashtra: **भगवा** (saffron) is associated with the Maratha warrior king Shivaji and his flag; brides traditionally wear a green or yellow **नऊवारी** (nine-yard sari) or a पैठणी; and on Makar Sankranti women wear **काळी** (black) saris — the one festival where black is auspicious. Note that Marathi uses the feminine 'it' (ती / तिच्यावर) for a bag because बॅग is feminine — things take the pronoun of their grammatical gender.",
+  "lessons": [
+    {
+      "title": "Big, small, new, old",
+      "tip": { "title": "Adjectives in -आ agree", "body": "- Adjectives in **-आ** agree with the noun: मोठा भाऊ (m), मोठी बहीण (f), मोठं घर (n); plural मोठे (m), मोठ्या (f).\n- Adjectives not ending in -आ never change: लहान, नवीन.\n- Before an ending like -त they take **-या**: मोठ्या खोलीत, जुन्या घरात.", "pattern": "मोठा / मोठी / मोठं + noun", "grammar": 0 },
+      "new": ["मोठा", "छोटा", "लहान", "नवीन", "जुना", "म्हातारा", "अगदी", "अगदी नवीन आहे."],
+      "sentences": [
+        { "native": "आमचं घर खूप मोठं आहे.", "roman": "āmtsaṃ ghar khūp moṭhaṃ āhe.", "en": "Our house is very big.", "focus": "मोठं", "wrong": ["मोठा|moṭhā", "मोठी|moṭhī"] },
+        { "native": "माझी खोली छोटी आहे.", "roman": "mājhī kholī chhoṭī āhe.", "en": "My room is small.", "focus": "छोटी", "wrong": ["छोटा|chhoṭā", "छोटं|chhoṭaṃ"] },
+        { "native": "हा फोन जुना आहे.", "roman": "hā fon dzunā āhe.", "en": "This phone is old.", "focus": "जुना", "wrong": ["जुनी|dzunī", "जुनं|dzunaṃ"] },
+        { "native": "माझा भाऊ लहान आहे.", "roman": "mādzhā bhāū lahān āhe.", "en": "My brother is young.", "focus": "लहान", "wrong": ["लहाना|lahānā", "लहानी|lahānī"] },
+        { "native": "ते म्हातारे आजोबा कोण आहेत?", "roman": "te mhātāre ādzobā koṇ āhet?", "en": "Who is that old gentleman?", "focus": "म्हातारे", "wrong": ["म्हातारा|mhātārā", "म्हातारी|mhātārī"] },
+        { "native": "ती म्हातारी बाई मराठी बोलते.", "roman": "tī mhātārī bāī marāṭhī bolte.", "en": "That old lady speaks Marathi.", "focus": "म्हातारी", "wrong": ["म्हातारा|mhātārā", "म्हातारे|mhātāre"] },
+        { "native": "आम्ही जुन्या घरात राहतो.", "roman": "āmhī dzunyā gharāt rāhto.", "en": "We live in an old house.", "focus": "जुन्या", "wrong": ["जुना|dzunā", "जुनं|dzunaṃ"] },
+        { "native": "मोठ्या खोलीत दोन पलंग आहेत.", "roman": "moṭhyā kholīt don palaṅg āhet.", "en": "There are two beds in the big room.", "focus": "मोठ्या", "wrong": ["मोठी|moṭhī", "मोठा|moṭhā"] },
+        { "native": "माझा फोन अगदी नवीन आहे.", "roman": "mādzhā fon agdī navīn āhe.", "en": "My phone is brand new." }
+      ]
+    },
+    {
+      "title": "Good, lovely, clean",
+      "tip": { "title": "चांगला changes, छान does not", "body": "- **चांगला** 'good' agrees: चांगली, चांगलं. **छान**, **सुंदर**, **वाईट**, **स्वच्छ**, **घाण** never change.\n- **किती** + adjective = 'how …!': किती सुंदर!\n- **पण** 'but' joins two sentences: घर लहान आहे, पण स्वच्छ आहे." },
+      "new": ["चांगला", "वाईट", "छान", "सुंदर", "स्वच्छ", "घाण", "माझं घर लहान आहे, पण स्वच्छ आहे.", "तुझा ड्रेस खूप सुंदर आहे.", "किती सुंदर!"],
+      "sentences": [
+        { "native": "हा चहा चांगला आहे.", "roman": "hā tsahā tsāṅglā āhe.", "en": "This tea is good.", "focus": "चांगला", "wrong": ["चांगली|tsāṅglī", "चांगलं|tsāṅglaṃ"] },
+        { "native": "तुझी मैत्रीण खूप चांगली आहे.", "roman": "tujhī maitrīṇ khūp tsāṅglī āhe.", "en": "Your friend is really nice.", "focus": "चांगली", "wrong": ["चांगला|tsāṅglā", "चांगलं|tsāṅglaṃ"] },
+        { "native": "हे पुस्तक चांगलं आहे.", "roman": "he pustak tsāṅglaṃ āhe.", "en": "This book is good.", "focus": "चांगलं", "wrong": ["चांगला|tsāṅglā", "चांगली|tsāṅglī"] },
+        { "native": "किती छान घर!", "roman": "kitī chhān ghar!", "en": "What a lovely home!", "focus": "किती", "wrong": ["कितवं|kitvaṃ", "कधी|kadhī"] },
+        { "native": "तुमची मुलगी किती गोड आहे!", "roman": "tumchī mulgī kitī goḍ āhe!", "en": "Your daughter is so sweet!", "focus": "किती", "wrong": ["कितवी|kitvī", "कधी|kadhī"] },
+        { "native": "तुझी खोली सुंदर आहे, पण घाण आहे!", "roman": "tujhī kholī sundar āhe, paṇ ghāṇ āhe!", "en": "Your room is lovely, but it's dirty!", "focus": "पण", "wrong": ["आणि|āṇi", "का|kā"] },
+        { "native": "न्हाणीघर स्वच्छ आहे का?", "roman": "nhāṇīghar svachchha āhe kā?", "en": "Is the bathroom clean?" },
+        { "native": "खोली खूप घाण आहे.", "roman": "kholī khūp ghāṇ āhe.", "en": "The room is really dirty." },
+        { "native": "चहा वाईट नाही.", "roman": "tsahā vāīṭ nāhī.", "en": "The tea isn't bad." }
+      ]
+    },
+    {
+      "title": "Easy, hard, heavy, light",
+      "tip": { "title": "सोपा, अवघड, जड, हलका", "body": "- **सोपा** 'easy' and **हलका** 'light' agree: सोपी, सोपं; हलकी, हलकं.\n- **अवघड** 'hard' and **जड** 'heavy' never change.\n- 'This' agrees too: **हा** फोन (m), **ही** बॅग (f), **हे** पुस्तक (n)." },
+      "new": ["सोपा", "अवघड", "जड", "हलका", "हे पुस्तक खूप अवघड आहे.", "ही बॅग खूप जड आहे."],
+      "sentences": [
+        { "native": "मराठी भाषा सोपी आहे का?", "roman": "marāṭhī bhāṣā sopī āhe kā?", "en": "Is Marathi an easy language?", "focus": "सोपी", "wrong": ["सोपा|sopā", "सोपं|sopaṃ"] },
+        { "native": "हे काम सोपं आहे.", "roman": "he kām sopaṃ āhe.", "en": "This job is easy.", "focus": "सोपं", "wrong": ["सोपा|sopā", "सोपी|sopī"] },
+        { "native": "ही पिशवी हलकी आहे.", "roman": "hī pishvī halkī āhe.", "en": "This bag is light.", "focus": "हलकी", "wrong": ["हलका|halkā", "हलकं|halkaṃ"] },
+        { "native": "हा फोन हलका आहे.", "roman": "hā fon halkā āhe.", "en": "This phone is light.", "focus": "हलका", "wrong": ["हलकी|halkī", "हलकं|halkaṃ"] },
+        { "native": "हा पंखा खूप जड आहे.", "roman": "hā paṅkhā khūp dzaḍ āhe.", "en": "This fan is really heavy.", "focus": "हा", "wrong": ["ही|hī", "हे|he"] },
+        { "native": "ही खुर्ची जड नाही, हलकी आहे.", "roman": "hī khurchī dzaḍ nāhī, halkī āhe.", "en": "This chair isn't heavy, it's light.", "focus": "ही", "wrong": ["हा|hā", "हे|he"] },
+        { "native": "हे खूप अवघड आहे!", "roman": "he khūp avghaḍ āhe!", "en": "This is really hard!" },
+        { "native": "इंग्रजी अवघड नाही.", "roman": "iṅgrajī avghaḍ nāhī.", "en": "English isn't difficult." }
+      ]
+    },
+    {
+      "title": "Colours",
+      "tip": { "title": "What colour?", "body": "- **लाल** never changes; colours in -आ agree: हिरवा, निळा, पिवळा, पांढरा, काळा → निळी बॅग, पांढरं घर, निळ्या भिंती.\n- 'What colour is it?' = **कोणत्या रंगाचा / रंगाची / रंगाचं** आहे?, agreeing with the thing." },
+      "new": ["रंग", "लाल", "हिरवा", "निळा", "पिवळा", "पांढरा", "काळा", "हा रंग छान आहे.", "तुमची गाडी कोणत्या रंगाची आहे?", "माझी गाडी पांढरी आहे."],
+      "sentences": [
+        { "native": "माझी बॅग निळी आहे.", "roman": "mājhī bæg niḷī āhe.", "en": "My bag is blue.", "focus": "निळी", "wrong": ["निळा|niḷā", "निळं|niḷaṃ"] },
+        { "native": "त्याचा फोन काळा आहे.", "roman": "tyātsā fon kāḷā āhe.", "en": "His phone is black.", "focus": "काळा", "wrong": ["काळी|kāḷī", "काळं|kāḷaṃ"] },
+        { "native": "आमचं घर पिवळं आहे.", "roman": "āmtsaṃ ghar pivḷaṃ āhe.", "en": "Our house is yellow.", "focus": "पिवळं", "wrong": ["पिवळा|pivḷā", "पिवळी|pivḷī"] },
+        { "native": "तुझा फोन कोणत्या रंगाचा आहे?", "roman": "tudzhā fon koṇtyā raṅgātsā āhe?", "en": "What colour is your phone?", "focus": "रंगाचा", "wrong": ["रंगाची|raṅgāchī", "रंगाचं|raṅgātsaṃ"] },
+        { "native": "हिरवी साडी खूप सुंदर आहे.", "roman": "hirvī sāḍī khūp sundar āhe.", "en": "The green sari is really beautiful.", "focus": "हिरवी", "wrong": ["हिरवा|hirvā", "हिरवं|hirvaṃ"] },
+        { "native": "मला पांढरा शर्ट हवा.", "roman": "malā pāṇḍhrā sharṭ havā.", "en": "I want a white shirt.", "focus": "पांढरा", "wrong": ["पांढरी|pāṇḍhrī", "पांढरं|pāṇḍhraṃ"] },
+        { "native": "माझ्या खोलीच्या भिंती निळ्या आहेत.", "roman": "mājhyā kholīchyā bhintī niḷyā āhet.", "en": "The walls of my room are blue.", "focus": "निळ्या", "wrong": ["निळी|niḷī", "निळे|niḷe"] },
+        { "native": "मला लाल रंग आवडतो.", "roman": "malā lāl raṅg āvaḍto.", "en": "I like red." }
+      ]
+    },
+    {
+      "title": "Taller, bigger, the best",
+      "tip": { "title": "Than: -पेक्षा · most: सगळ्यात", "body": "- 'Than' is **-पेक्षा** on the oblique: पुणे → पुण्यापेक्षा, मी → **माझ्यापेक्षा**, तू → तुझ्यापेक्षा.\n- The adjective itself doesn't change: तो माझ्यापेक्षा उंच आहे 'he's taller than me'.\n- 'The most' = **सर्वात** or **सगळ्यात** before the adjective.\n- उंच tall · बुटका short · लांब long, far · आखूड short (length).", "pattern": "X + Y-पेक्षा + adjective + आहे", "grammar": 1 },
+      "new": ["उंच", "बुटका", "लांब", "आखूड", "पेक्षा", "सर्वात", "मुंबई पुण्यापेक्षा मोठी आहे.", "हा सगळ्यात चांगला आहे.", "तो माझ्यापेक्षा उंच आहे."],
+      "sentences": [
+        { "native": "माझा भाऊ माझ्यापेक्षा बुटका आहे.", "roman": "mādzhā bhāū mājhyāpekṣā buṭkā āhe.", "en": "My brother is shorter than me.", "focus": "माझ्यापेक्षा", "wrong": ["मीपेक्षा|mīpekṣā", "मलापेक्षा|malāpekṣā"] },
+        { "native": "ती तुझ्यापेक्षा उंच आहे.", "roman": "tī tujhyāpekṣā unts āhe.", "en": "She's taller than you.", "focus": "तुझ्यापेक्षा", "wrong": ["तूपेक्षा|tūpekṣā", "तुलापेक्षा|tulāpekṣā"] },
+        { "native": "चहा कॉफीपेक्षा चांगला आहे.", "roman": "tsahā kôfīpekṣā tsāṅglā āhe.", "en": "Tea is better than coffee.", "focus": "कॉफीपेक्षा", "wrong": ["कॉफीला|kôfīlā", "कॉफीचा|kôfītsā"] },
+        { "native": "हिंदी मराठीपेक्षा सोपी आहे का?", "roman": "hindī marāṭhīpekṣā sopī āhe kā?", "en": "Is Hindi easier than Marathi?", "focus": "मराठीपेक्षा", "wrong": ["मराठीला|marāṭhīlā", "मराठीचा|marāṭhītsā"] },
+        { "native": "ही सगळ्यात स्वच्छ खोली आहे.", "roman": "hī sagḷyāt svachchha kholī āhe.", "en": "This is the cleanest room.", "focus": "सगळ्यात", "wrong": ["सगळा|sagḷā", "सगळी|sagḷī"] },
+        { "native": "सर्वात मोठी खोली कोणती?", "roman": "sarvāt moṭhī kholī koṇtī?", "en": "Which is the biggest room?", "focus": "सर्वात", "wrong": ["पेक्षा|pekṣā", "किती|kitī"] },
+        { "native": "घरात आजी सगळ्यात मोठ्या आहेत.", "roman": "gharāt ājī sagḷyāt moṭhyā āhet.", "en": "Grandma is the eldest in the house." },
+        { "native": "मुंबई खूप लांब आहे.", "roman": "mumbaī khūp lāmb āhe.", "en": "Mumbai is very far." },
+        { "native": "हा ड्रेस आखूड आहे.", "roman": "hā ḍres ākhūḍ āhe.", "en": "This dress is short." }
+      ]
+    }
+  ]
 }

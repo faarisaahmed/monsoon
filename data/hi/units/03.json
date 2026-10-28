@@ -92,5 +92,102 @@
       { "speaker": "Neha", "native": "कितना प्यारा परिवार है!", "roman": "kitnā pyārā parivār hai!", "en": "What a lovely family!" }
     ]
   },
-  "culture": "Hindi kinship terms are precise: चाचा (father's younger brother), ताऊ (father's elder brother), मामा (mother's brother), मौसी (mother's sister), बुआ (father's sister) — each with a matching spouse term. Strangers are addressed as family too: a shopkeeper or driver is **भैया**, a young woman **दीदी**, an older man or woman **अंकल** / **आंटी** (from English), and elders **चाचा जी** or **माता जी**. Using a first name alone for someone older can sound rude. Many Indians grow up in a **joint family** (संयुक्त परिवार), with grandparents, uncles and cousins under one roof, and cousins are often simply called भाई and बहन."
+  "culture": "Hindi kinship terms are precise: चाचा (father's younger brother), ताऊ (father's elder brother), मामा (mother's brother), मौसी (mother's sister), बुआ (father's sister) — each with a matching spouse term. Strangers are addressed as family too: a shopkeeper or driver is **भैया**, a young woman **दीदी**, an older man or woman **अंकल** / **आंटी** (from English), and elders **चाचा जी** or **माता जी**. Using a first name alone for someone older can sound rude. Many Indians grow up in a **joint family** (संयुक्त परिवार), with grandparents, uncles and cousins under one roof, and cousins are often simply called भाई and बहन.",
+  "lessons": [
+    {
+      "title": "Introducing your family",
+      "tip": { "title": "का / की / के — agreeing with the thing owned", "body": "- 'Amit's brother' = **अमित का भाई**: owner + का + thing.\n- का/की/के agree with the **thing owned**: **का** (m), **की** (f), **के** (m. pl or a respected person).\n- So do मेरा/मेरी/मेरे, आपका, **उसका** 'his/her', **उनका** 'their': उसका भाई = his *or* her brother.", "pattern": "owner + का / की / के + thing", "grammar": 1 },
+      "new": ["परिवार", "माँ", "पिता", "भाई", "बहन", "का", "उसका", "उनका"],
+      "sentences": [
+        { "native": "ये मेरी माँ हैं।", "roman": "ye merī māṃ haiṃ.", "en": "This is my mother.", "focus": "मेरी", "wrong": ["मेरा|merā", "मेरे|mere"] },
+        { "native": "ये मेरे पिता हैं।", "roman": "ye mere pitā haiṃ.", "en": "This is my father.", "focus": "मेरे", "wrong": ["मेरी|merī", "मैं|maiṃ"] },
+        { "native": "अमित का भाई दिल्ली में रहता है।", "roman": "Amit kā bhāī Dillī meṃ rahtā hai.", "en": "Amit's brother lives in Delhi.", "focus": "का", "wrong": ["की|kī", "के|ke"] },
+        { "native": "सारा की बहन इंग्लैंड में रहती है।", "roman": "Sārā kī bahan Iṅglaiṇḍ meṃ rahtī hai.", "en": "Sarah's sister lives in England.", "focus": "की", "wrong": ["का|kā", "के|ke"] },
+        { "native": "उसका भाई बहुत अच्छा है।", "roman": "uskā bhāī bahut achchhā hai.", "en": "His brother is really nice.", "focus": "उसका", "wrong": ["उसकी|uskī", "उसके|uske"] },
+        { "native": "उसकी बहन हिंदी नहीं बोलती।", "roman": "uskī bahan hindī nahīṃ boltī.", "en": "Her sister doesn't speak Hindi.", "focus": "उसकी", "wrong": ["उसका|uskā", "उसके|uske"] },
+        { "native": "उनका परिवार कहाँ रहता है?", "roman": "unkā parivār kahāṃ rahtā hai?", "en": "Where does their family live?", "focus": "उनका", "wrong": ["उनकी|unkī", "उनके|unke"] },
+        { "native": "मेरा परिवार लखनऊ में है।", "roman": "merā parivār Lakhnaū meṃ hai.", "en": "My family is in Lucknow.", "focus": "मेरा", "wrong": ["मेरी|merī", "मेरे|mere"] },
+        { "native": "आपकी माँ कैसी हैं?", "roman": "āpkī māṃ kaisī haiṃ?", "en": "How is your mother?", "focus": "आपकी", "wrong": ["आपका|āpkā", "आपके|āpke"] },
+        { "native": "मेरे पिता भारतीय हैं, और मेरी माँ विदेशी हैं।", "roman": "mere pitā bhārtīy haiṃ, aur merī māṃ videshī haiṃ.", "en": "My father is Indian and my mother is foreign." }
+      ]
+    },
+    {
+      "title": "Boys, girls and people",
+      "tip": { "title": "One boy, two boys", "body": "- Every noun is **m** or **f**. Plurals: m. **-ā → -e** (लड़का → लड़के); other m. don't change (भाई, आदमी); f. **-ī → -iyāṃ** (लड़की → लड़कियाँ); other f. add **-eṃ** (औरत → औरतें).\n- बड़ा/छोटा agree too: बड़ा भाई, छोटी बहन, बड़े भाई (respect).\n- Call a young man **भैया** and a young woman **दीदी** — polite and friendly.", "pattern": "लड़का → लड़के · लड़की → लड़कियाँ · औरत → औरतें", "grammar": 0 },
+      "new": ["लड़का", "लड़की", "आदमी", "औरत", "लोग", "बच्चा", "बड़ा", "छोटा", "भैया", "दीदी"],
+      "sentences": [
+        { "native": "वहाँ दो लड़के हैं।", "roman": "vahāṃ do laṛke haiṃ.", "en": "There are two boys over there.", "focus": "लड़के", "wrong": ["लड़का|laṛkā", "लड़कों|laṛkoṃ"] },
+        { "native": "ये लड़कियाँ भारतीय हैं।", "roman": "ye laṛkiyāṃ bhārtīy haiṃ.", "en": "These girls are Indian.", "focus": "लड़कियाँ", "wrong": ["लड़की|laṛkī", "लड़कियों|laṛkiyoṃ"] },
+        { "native": "वे औरतें कौन हैं?", "roman": "ve aurteṃ kaun haiṃ?", "en": "Who are those women?", "focus": "औरतें", "wrong": ["औरत|aurat", "औरतों|aurtoṃ"] },
+        { "native": "बच्चे कहाँ हैं?", "roman": "bachche kahāṃ haiṃ?", "en": "Where are the kids?", "focus": "बच्चे", "wrong": ["बच्चा|bachchā", "बच्चों|bachchoṃ"] },
+        { "native": "यहाँ दो आदमी और तीन औरतें हैं।", "roman": "yahāṃ do ādmī aur tīn aurteṃ haiṃ.", "en": "There are two men and three women here.", "focus": "औरतें", "wrong": ["औरत|aurat", "औरतों|aurtoṃ"] },
+        { "native": "मेरी छोटी बहन यहाँ रहती है।", "roman": "merī chhoṭī bahan yahāṃ rahtī hai.", "en": "My younger sister lives here.", "focus": "छोटी", "wrong": ["छोटा|chhoṭā", "छोटे|chhoṭe"] },
+        { "native": "मेरे बड़े भाई दिल्ली में रहते हैं।", "roman": "mere baṛe bhāī Dillī meṃ rahte haiṃ.", "en": "My elder brother lives in Delhi.", "focus": "बड़े", "wrong": ["बड़ा|baṛā", "बड़ी|baṛī"] },
+        { "native": "यहाँ बहुत लोग हैं।", "roman": "yahāṃ bahut log haiṃ.", "en": "There are a lot of people here.", "focus": "हैं", "wrong": ["है|hai", "हूँ|hūṃ"] },
+        { "native": "वह आदमी बहुत अच्छी हिंदी बोलता है।", "roman": "vah ādmī bahut achchhī hindī boltā hai.", "en": "That man speaks very good Hindi." },
+        { "native": "भैया, आप कहाँ से हैं?", "roman": "bhaiyā, āp kahāṃ se haiṃ?", "en": "Where are you from, bhaiya?" },
+        { "native": "दीदी, आप कहाँ रहती हैं?", "roman": "dīdī, āp kahāṃ rahtī haiṃ?", "en": "Where do you live, didi?" }
+      ]
+    },
+    {
+      "title": "Brothers, sisters and children",
+      "tip": { "title": "'I have a sister' = 'my one sister is'", "body": "- Hindi has no 'have' for family: **मेरी एक बहन है** 'I have a sister', **मेरे दो भाई हैं** 'I have two brothers'.\n- The possessive agrees with the relative: मेरी बहन, मेरे भाई, हमारा बेटा, हमारी बेटी.\n- **कितने** 'how many': आपके कितने बच्चे हैं?", "pattern": "मेरे / मेरी + number + relative + है / हैं" },
+      "new": [
+        "हमारा",
+        "बेटा",
+        "बेटी",
+        "आपके परिवार में कौन-कौन है?",
+        "मेरे परिवार में चार लोग हैं।",
+        "आपके कितने भाई-बहन हैं?",
+        "मेरे दो भाई हैं और एक बहन है।",
+        "आपके कितने बच्चे हैं?",
+        "हमारे दो बच्चे हैं — एक बेटा और एक बेटी।"
+      ],
+      "sentences": [
+        { "native": "मेरी एक बहन है।", "roman": "merī ek bahan hai.", "en": "I have one sister.", "focus": "मेरी", "wrong": ["मेरा|merā", "मेरे|mere"] },
+        { "native": "मेरे तीन भाई हैं।", "roman": "mere tīn bhāī haiṃ.", "en": "I have three brothers.", "focus": "मेरे", "wrong": ["मेरा|merā", "मेरी|merī"] },
+        { "native": "उसके दो बेटे हैं।", "roman": "uske do beṭe haiṃ.", "en": "She has two sons.", "focus": "उसके", "wrong": ["उसका|uskā", "उसकी|uskī"] },
+        { "native": "हमारी एक बेटी है।", "roman": "hamārī ek beṭī hai.", "en": "We have a daughter.", "focus": "हमारी", "wrong": ["हमारा|hamārā", "हमारे|hamāre"] },
+        { "native": "क्या आपके बच्चे हैं?", "roman": "kyā āpke bachche haiṃ?", "en": "Do you have children?", "focus": "आपके", "wrong": ["आपका|āpkā", "आपकी|āpkī"] },
+        { "native": "जी नहीं, हमारे बच्चे नहीं हैं।", "roman": "jī nahīṃ, hamāre bachche nahīṃ haiṃ.", "en": "No, we don't have children.", "focus": "हमारे", "wrong": ["हमारा|hamārā", "हमारी|hamārī"] },
+        { "native": "हमारा बेटा इंग्लैंड में रहता है।", "roman": "hamārā beṭā Iṅglaiṇḍ meṃ rahtā hai.", "en": "Our son lives in England.", "focus": "हमारा", "wrong": ["हमारी|hamārī", "हमारे|hamāre"] },
+        { "native": "आपके परिवार में कितने लोग हैं?", "roman": "āpke parivār meṃ kitne log haiṃ?", "en": "How many people are there in your family?", "focus": "कितने", "wrong": ["कितना|kitnā", "कितनी|kitnī"] },
+        { "native": "मेरा कोई भाई नहीं है।", "roman": "merā koī bhāī nahīṃ hai.", "en": "I don't have any brothers." },
+        { "native": "आपकी बेटी कहाँ रहती है?", "roman": "āpkī beṭī kahāṃ rahtī hai?", "en": "Where does your daughter live?" }
+      ]
+    },
+    {
+      "title": "Married or not?",
+      "tip": { "title": "Talking about marriage", "body": "- 'I'm married' is usually **मेरी शादी हो गई है** — lit. 'my wedding has happened'. 'Not yet': **अभी** मेरी शादी नहीं हुई.\n- Spouses and elders get the respectful plural: **ये** मेरे पति **हैं**, मेरी पत्नी दिल्ली से **हैं**.\n- With friends use **तुम्हारा / तुम्हारी / तुम्हारे** 'your'." },
+      "new": ["पति", "पत्नी", "शादी", "तुम्हारा", "क्या आप शादीशुदा हैं?", "जी हाँ, मेरी शादी हो गई है।", "नहीं, अभी मेरी शादी नहीं हुई।", "ये मेरे पति हैं।"],
+      "sentences": [
+        { "native": "ये मेरी पत्नी हैं।", "roman": "ye merī patnī haiṃ.", "en": "This is my wife.", "focus": "हैं", "wrong": ["है|hai", "हो|ho"] },
+        { "native": "क्या तुम्हारी शादी हो गई है?", "roman": "kyā tumhārī shādī ho gaī hai?", "en": "Are you married? (to a friend)", "focus": "तुम्हारी", "wrong": ["तुम्हारा|tumhārā", "तुम्हारे|tumhāre"] },
+        { "native": "हाँ, मेरी पत्नी दिल्ली से हैं।", "roman": "hāṃ, merī patnī Dillī se haiṃ.", "en": "Yes, my wife is from Delhi.", "focus": "मेरी", "wrong": ["मेरा|merā", "मेरे|mere"] },
+        { "native": "तुम्हारा भाई शादीशुदा है?", "roman": "tumhārā bhāī shādīshudā hai?", "en": "Is your brother married?", "focus": "तुम्हारा", "wrong": ["तुम्हारी|tumhārī", "तुम्हारे|tumhāre"] },
+        { "native": "मेरे भाई की शादी हो गई है।", "roman": "mere bhāī kī shādī ho gaī hai.", "en": "My brother is married.", "focus": "की", "wrong": ["का|kā", "के|ke"] },
+        { "native": "तुम्हारी बहन की शादी कब है?", "roman": "tumhārī bahan kī shādī kab hai?", "en": "When is your sister's wedding?", "focus": "की", "wrong": ["का|kā", "के|ke"] },
+        { "native": "मेरे पति अंग्रेज़ी और हिंदी बोलते हैं।", "roman": "mere pati aṅgrezī aur hindī bolte haiṃ.", "en": "My husband speaks English and Hindi.", "focus": "मेरे", "wrong": ["मेरी|merī", "मैं|maiṃ"] },
+        { "native": "उनकी पत्नी भारतीय हैं।", "roman": "unkī patnī bhārtīy haiṃ.", "en": "His wife is Indian.", "focus": "उनकी", "wrong": ["उनका|unkā", "उनके|unke"] },
+        { "native": "शादी कब है?", "roman": "shādī kab hai?", "en": "When is the wedding?" },
+        { "native": "नहीं, मैं शादीशुदा नहीं हूँ।", "roman": "nahīṃ, maiṃ shādīshudā nahīṃ hūṃ.", "en": "No, I'm not married." }
+      ]
+    },
+    {
+      "title": "Grandparents, aunts and uncles",
+      "tip": { "title": "Every relative has a name", "body": "- Father's side: **दादा, दादी, चाचा**. Mother's side: **नाना, नानी, मामा, मौसी**.\n- Elders take the respectful plural verb: मेरी दादी लखनऊ में रहती **हैं**; often with **जी**: दादा जी.\n- **किसका / किसकी / किसके** 'whose' agrees like का: यह **किसकी** बेटी है?" },
+      "new": ["दादा", "दादी", "चाचा", "मामा", "मौसी", "किसका", "यह मेरी दादी की फ़ोटो है।", "यह किसका बच्चा है?"],
+      "sentences": [
+        { "native": "ये मेरे दादा जी हैं।", "roman": "ye mere dādā jī haiṃ.", "en": "This is my grandfather.", "focus": "हैं", "wrong": ["है|hai", "हो|ho"] },
+        { "native": "मेरी दादी लखनऊ में रहती हैं।", "roman": "merī dādī Lakhnaū meṃ rahtī haiṃ.", "en": "My grandmother lives in Lucknow.", "focus": "हैं", "wrong": ["हूँ|hūṃ", "हो|ho"] },
+        { "native": "मेरे मामा दिल्ली में रहते हैं।", "roman": "mere māmā Dillī meṃ rahte haiṃ.", "en": "My uncle (mum's brother) lives in Delhi.", "focus": "रहते", "wrong": ["रहती|rahtī", "रहना|rahnā"] },
+        { "native": "यह किसकी बेटी है?", "roman": "yah kiskī beṭī hai?", "en": "Whose daughter is this?", "focus": "किसकी", "wrong": ["किसका|kiskā", "किसके|kiske"] },
+        { "native": "वे किसके बच्चे हैं?", "roman": "ve kiske bachche haiṃ?", "en": "Whose children are they?", "focus": "किसके", "wrong": ["किसका|kiskā", "किसकी|kiskī"] },
+        { "native": "यह मेरे चाचा का बेटा है।", "roman": "yah mere chāchā kā beṭā hai.", "en": "This is my uncle's son.", "focus": "का", "wrong": ["की|kī", "के|ke"] },
+        { "native": "मेरी मौसी की दो बेटियाँ हैं।", "roman": "merī mausī kī do beṭiyāṃ haiṃ.", "en": "My aunt has two daughters.", "focus": "बेटियाँ", "wrong": ["बेटी|beṭī", "बेटियों|beṭiyoṃ"] },
+        { "native": "मेरे मामा का नाम अमित है।", "roman": "mere māmā kā nām Amit hai.", "en": "My uncle's name is Amit.", "focus": "का", "wrong": ["की|kī", "के|ke"] },
+        { "native": "आपके दादा-दादी कहाँ रहते हैं?", "roman": "āpke dādā-dādī kahāṃ rahte haiṃ?", "en": "Where do your grandparents live?" }
+      ]
+    }
+  ]
 }

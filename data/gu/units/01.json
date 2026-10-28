@@ -86,5 +86,80 @@
       { "speaker": "Hansa", "native": "આવજો. ફરી મળીશું.", "roman": "āvjo. farī maḷīshuṃ.", "en": "Bye. See you again." }
     ]
   },
-  "culture": "Gujaratis add **-ભાઈ** *-bhāī* ('brother') or **-બેન** *-ben* ('sister') to first names as a friendly, respectful way of addressing adults: Rameshbhai, Hansaben. Elders may be called **કાકા** *kākā* 'uncle' or **માસી** *māsī* 'auntie' even by strangers. **આવજો** 'goodbye' literally means 'please come (again)' — Gujaratis avoid saying 'go' when parting. Muslim Gujaratis typically greet with *salām* / *ādāb*, and Jains often say *jay jinendra*."
+  "culture": "Gujaratis add **-ભાઈ** *-bhāī* ('brother') or **-બેન** *-ben* ('sister') to first names as a friendly, respectful way of addressing adults: Rameshbhai, Hansaben. Elders may be called **કાકા** *kākā* 'uncle' or **માસી** *māsī* 'auntie' even by strangers. **આવજો** 'goodbye' literally means 'please come (again)' — Gujaratis avoid saying 'go' when parting. Muslim Gujaratis typically greet with *salām* / *ādāb*, and Jains often say *jay jinendra*.",
+  "lessons": [
+    {
+      "title": "Hello, how are you?",
+      "tip": { "title": "The verb goes last", "body": "- Gujarati puts the verb at the **end**: હું મજામાં છું is literally 'I fine am'.\n- **છું** = am (with હું), **છો** = are (with તમે).\n- Question words like **કેમ** 'how' sit just before the verb: તમે કેમ છો?", "pattern": "હું + મજામાં + છું  ·  તમે + કેમ + છો?", "grammar": 0 },
+      "new": ["નમસ્તે", "નમસ્કાર", "જય શ્રી કૃષ્ણ", "કેમ છો?", "મજામાં", "તમે", "હું મજામાં છું. તમે?"],
+      "sentences": [
+        { "native": "નમસ્તે, તમે કેમ છો?", "roman": "namaste, tame kem chho?", "en": "Hello, how are you?", "focus": "છો", "wrong": ["છું|chhuṃ", "છે|chhe"] },
+        { "native": "નમસ્તે, હું મજામાં છું.", "roman": "namaste, huṃ majāmāṃ chhuṃ.", "en": "Hello, I'm fine.", "focus": "છું", "wrong": ["છો|chho", "છે|chhe"] },
+        { "native": "જય શ્રી કૃષ્ણ! તમે મજામાં છો?", "roman": "jay shrī kruṣṇa! tame majāmāṃ chho?", "en": "Hello! Are you well?", "focus": "છો", "wrong": ["છું|chhuṃ", "છે|chhe"] },
+        { "native": "નમસ્કાર! કેમ છો?", "roman": "namaskār! kem chho?", "en": "Good day! How are you?", "focus": "છો", "wrong": ["છું|chhuṃ", "છે|chhe"] },
+        { "native": "મજામાં, તમે કેમ છો?", "roman": "majāmāṃ, tame kem chho?", "en": "Fine. How are you?", "focus": "કેમ", "wrong": ["મજામાં|majāmāṃ", "તમે|tame"] },
+        { "native": "જય શ્રી કૃષ્ણ, હું મજામાં છું.", "roman": "jay shrī kruṣṇa, huṃ majāmāṃ chhuṃ.", "en": "Hello, I'm well.", "focus": "છું", "wrong": ["છો|chho", "છે|chhe"] }
+      ]
+    },
+    {
+      "title": "Yes, no and thank you",
+      "tip": { "title": "Yes, no, thanks and OK", "body": "- **હા** yes, **ના** no. Add **જી** to sound polite: હા જી, ના જી.\n- **આભાર** is the everyday 'thanks'; **ધન્યવાદ** is more formal. **તમારો આભાર** = 'thank you' (આભાર is masculine, so તમારો).\n- **ઠીક છે** and **સારું** both mean 'OK, fine'.", "pattern": "હા જી · ના જી · તમારો આભાર" },
+      "new": ["હા", "ના", "જી", "આભાર", "ધન્યવાદ", "તમારો આભાર.", "સારું", "ઠીક"],
+      "sentences": [
+        { "native": "હા જી, હું મજામાં છું.", "roman": "hā jī, huṃ majāmāṃ chhuṃ.", "en": "Yes, I'm fine. (polite)", "focus": "છું", "wrong": ["છો|chho", "છે|chhe"] },
+        { "native": "ના જી, આભાર.", "roman": "nā jī, ābhār.", "en": "No, thank you. (polite)" },
+        { "native": "તમારો આભાર, હું મજામાં છું.", "roman": "tamāro ābhār, huṃ majāmāṃ chhuṃ.", "en": "Thank you, I'm fine.", "focus": "તમારો", "wrong": ["તમારી|tamārī", "તમારું|tamāruṃ"] },
+        { "native": "ઠીક છે, આભાર.", "roman": "ṭhīk chhe, ābhār.", "en": "It's OK, thanks.", "focus": "છે", "wrong": ["છું|chhuṃ", "છો|chho"] },
+        { "native": "સારું, ધન્યવાદ.", "roman": "sāruṃ, dhanyavād.", "en": "Good, thank you." },
+        { "native": "હા, ઠીક છે.", "roman": "hā, ṭhīk chhe.", "en": "Yes, that's fine.", "focus": "છે", "wrong": ["છું|chhuṃ", "છો|chho"] },
+        { "native": "આભાર, તમે કેમ છો?", "roman": "ābhār, tame kem chho?", "en": "Thanks. How are you?", "focus": "છો", "wrong": ["છું|chhuṃ", "છે|chhe"] },
+        { "native": "સારું, તમારો આભાર.", "roman": "sāruṃ, tamāro ābhār.", "en": "OK, thank you.", "focus": "તમારો", "wrong": ["તમારી|tamārī", "તમારું|tamāruṃ"] }
+      ]
+    },
+    {
+      "title": "Friends, family and elders",
+      "tip": { "title": "Three ways to say 'you'", "body": "- **તમે** + **છો**: the normal polite 'you' for any adult. When unsure, use તમે.\n- **તું** + **છે**: close friends, children, younger siblings. Rude with strangers.\n- **આપ** + **છો**: very respectful, for elders and officials.", "pattern": "તું … છે  ·  તમે / આપ … છો", "grammar": 1 },
+      "new": ["તું", "આપ", "તું કેમ છે?", "શું ચાલે છે?", "ઘરમાં બધા કેમ છે?", "બધા મજામાં છે.", "બરાબર"],
+      "sentences": [
+        { "native": "તું મજામાં છે?", "roman": "tuṃ majāmāṃ chhe?", "en": "Are you OK? (to a close friend)", "focus": "છે", "wrong": ["છો|chho", "છું|chhuṃ"] },
+        { "native": "નમસ્તે, આપ મજામાં છો?", "roman": "namaste, āp majāmāṃ chho?", "en": "Hello, are you well? (very respectful)", "focus": "છો", "wrong": ["છે|chhe", "છું|chhuṃ"] },
+        { "native": "હું મજામાં છું. તું કેમ છે?", "roman": "huṃ majāmāṃ chhuṃ. tuṃ kem chhe?", "en": "I'm fine. How are you? (to a friend)", "focus": "છે", "wrong": ["છો|chho", "છું|chhuṃ"] },
+        { "native": "બધું બરાબર છે?", "roman": "badhuṃ barābar chhe?", "en": "Is everything all right?", "focus": "છે", "wrong": ["છો|chho", "છું|chhuṃ"] },
+        { "native": "હા, બધું બરાબર છે.", "roman": "hā, badhuṃ barābar chhe.", "en": "Yes, everything's fine." },
+        { "native": "જય શ્રી કૃષ્ણ, ઘરમાં બધા મજામાં છે?", "roman": "jay shrī kruṣṇa, gharmāṃ badhā majāmāṃ chhe?", "en": "Hello, is everyone at home well?", "focus": "છે", "wrong": ["છો|chho", "છું|chhuṃ"] },
+        { "native": "શું ચાલે છે? બધું બરાબર?", "roman": "shuṃ chāle chhe? badhuṃ barābar?", "en": "What's up? All good?" },
+        { "native": "હા, હું ઠીક છું. આપ કેમ છો?", "roman": "hā, huṃ ṭhīk chhuṃ. āp kem chho?", "en": "Yes, I'm fine. How are you, sir?", "focus": "છો", "wrong": ["છે|chhe", "છું|chhuṃ"] }
+      ]
+    },
+    {
+      "title": "Sorry, I didn't catch that",
+      "tip": { "title": "Saying sorry and asking again", "body": "- **માફ કરજો** is the polite 'sorry / excuse me'; **સૉરી** is casual.\n- 'I didn't understand': a man says **હું સમજ્યો નહીં**, a woman **હું સમજી નહીં**.\n- Polite requests: **બોલો** 'speak', **કહેશો?** 'would you say?'. Add **જરા** 'just, a little' to soften them.", "pattern": "માફ કરજો, હું સમજ્યો / સમજી નહીં" },
+      "new": ["માફ કરજો", "સૉરી", "નહીં", "માફ કરજો, હું સમજ્યો નહીં.", "ફરીથી કહેશો?", "જરા", "જરા ધીમે બોલો.", "મહેરબાની કરીને", "કોઈ વાંધો નહીં", "કોઈ વાંધો નહીં."],
+      "sentences": [
+        { "native": "માફ કરજો, ફરીથી કહેશો?", "roman": "māf karjo, farīthī kahesho?", "en": "Sorry, could you say that again?", "focus": "કહેશો", "wrong": ["કહેશે|kaheshe", "કહીશ|kahīsh"] },
+        { "native": "સૉરી, હું સમજ્યો નહીં.", "roman": "sorī, huṃ samajyo nahīṃ.", "en": "Sorry, I didn't get that. (man speaking)", "focus": "સમજ્યો", "wrong": ["સમજી|samajī", "સમજ્યા|samajyā"] },
+        { "native": "માફ કરજો, હું સમજી નહીં.", "roman": "māf karjo, huṃ samajī nahīṃ.", "en": "Sorry, I didn't understand. (woman speaking)", "focus": "સમજી", "wrong": ["સમજ્યો|samajyo", "સમજ્યા|samajyā"] },
+        { "native": "મહેરબાની કરીને ધીમે બોલો.", "roman": "maherbānī karīne dhīme bolo.", "en": "Please speak slowly.", "focus": "બોલો", "wrong": ["બોલ|bol", "બોલે|bole"] },
+        { "native": "માફ કરજો, જરા ધીમે બોલશો?", "roman": "māf karjo, jarā dhīme bolsho?", "en": "Sorry, could you speak a bit more slowly?", "focus": "બોલશો", "wrong": ["બોલશે|bolshe", "બોલીશ|bolīsh"] },
+        { "native": "સૉરી, આપ ફરીથી કહેશો?", "roman": "sorī, āp farīthī kahesho?", "en": "Sorry, would you say it again, please? (very respectful)", "focus": "કહેશો", "wrong": ["કહેશે|kaheshe", "કહીશ|kahīsh"] },
+        { "native": "ના, ના, કોઈ વાંધો નહીં.", "roman": "nā, nā, koī vāṃdho nahīṃ.", "en": "No, no, it's no problem." },
+        { "native": "ઠીક છે, કોઈ વાંધો નહીં.", "roman": "ṭhīk chhe, koī vāṃdho nahīṃ.", "en": "It's OK, never mind." }
+      ]
+    },
+    {
+      "title": "Welcome and goodbye",
+      "new": ["આવો", "આવો, આવો! બેસો.", "આવજો", "ચાલો, આવજો!", "ભલે", "ફરી મળીશું", "સુપ્રભાત", "શુભ રાત્રિ"],
+      "sentences": [
+        { "native": "આવો, આવો! કેમ છો?", "roman": "āvo, āvo! kem chho?", "en": "Come in, come in! How are you?" },
+        { "native": "આવો, જરા બેસો.", "roman": "āvo, jarā beso.", "en": "Come in, sit down for a bit." },
+        { "native": "ભલે, આવજો!", "roman": "bhale, āvjo!", "en": "All right, bye!" },
+        { "native": "સારું, ફરી મળીશું.", "roman": "sāruṃ, farī maḷīshuṃ.", "en": "OK, we'll meet again." },
+        { "native": "આવજો, ફરી મળીશું!", "roman": "āvjo, farī maḷīshuṃ!", "en": "Bye, see you again!" },
+        { "native": "સુપ્રભાત, આપ કેમ છો?", "roman": "suprabhāt, āp kem chho?", "en": "Good morning, how are you? (formal)" },
+        { "native": "શુભ રાત્રિ, આવજો!", "roman": "shubh rātri, āvjo!", "en": "Good night, bye!" },
+        { "native": "ભલે, કોઈ વાંધો નહીં.", "roman": "bhale, koī vāṃdho nahīṃ.", "en": "All right, no problem." },
+        { "native": "ચાલો, શુભ રાત્રિ!", "roman": "chālo, shubh rātri!", "en": "Right then, good night!" }
+      ]
+    }
+  ]
 }

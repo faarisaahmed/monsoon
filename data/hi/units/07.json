@@ -92,5 +92,90 @@
       { "speaker": "Meera", "native": "मैं कभी देर नहीं करती! बाय!", "roman": "maiṃ kabhī der nahīṃ kartī! bāy!", "en": "I'm never late! Bye!" }
     ]
   },
-  "culture": "The Hindu calendar is lunar, so festivals like Diwali and Holi move around in the Western calendar; people often refer to Hindu months (चैत, सावन, कार्तिक…) for festivals and weddings. In daily life the Western calendar with English month names is standard. Time can be flexible — 'Indian Standard Time' is a running joke — but for trains, exams and offices, be punctual. Note that अगला 'next' and पिछला 'last' agree like adjectives: अगली बार 'next time', पिछले साल 'last year'."
+  "culture": "The Hindu calendar is lunar, so festivals like Diwali and Holi move around in the Western calendar; people often refer to Hindu months (चैत, सावन, कार्तिक…) for festivals and weddings. In daily life the Western calendar with English month names is standard. Time can be flexible — 'Indian Standard Time' is a running joke — but for trains, exams and offices, be punctual. Note that अगला 'next' and पिछला 'last' agree like adjectives: अगली बार 'next time', पिछले साल 'last year'.",
+  "lessons": [
+    {
+      "title": "What time is it?",
+      "tip": { "title": "बजे — o'clock", "body": "- **कितने बजे हैं?** 'what time is it?' → तीन **बजे हैं**; only one o'clock is एक **बजा है**.\n- Quarters go *before* the hour: **सवा** तीन 3:15, **साढ़े** तीन 3:30, **पौने** चार 3:45. And **डेढ़** 1:30, **ढाई** 2:30.\n- 'At seven' is just सात **बजे** — no extra word.", "pattern": "सवा / साढ़े / पौने + hour + बजे", "grammar": 0 },
+      "new": ["बजे", "सवा", "साढ़े", "पौने", "कितने बजे हैं?", "साढ़े चार बजे हैं।", "ठीक दस बजे।"],
+      "sentences": [
+        { "native": "तीन बजे हैं।", "roman": "tīn baje haiṃ.", "en": "It's three o'clock.", "focus": "बजे", "wrong": ["बजा|bajā"] },
+        { "native": "सवा पाँच बजे हैं।", "roman": "savā pāṃch baje haiṃ.", "en": "It's quarter past five.", "focus": "सवा", "wrong": ["साढ़े|sāṛhe"] },
+        { "native": "साढ़े सात बजे हैं।", "roman": "sāṛhe sāt baje haiṃ.", "en": "It's half past seven.", "focus": "साढ़े", "wrong": ["सवा|savā"] },
+        { "native": "पौने नौ बजे हैं।", "roman": "paune nau baje haiṃ.", "en": "It's quarter to nine.", "focus": "पौने", "wrong": ["सवा|savā"] },
+        { "native": "ढाई बजे हैं।", "roman": "ḍhāī baje haiṃ.", "en": "It's half past two.", "focus": "ढाई", "wrong": ["डेढ़|ḍeṛh"] },
+        { "native": "क्या डेढ़ बजे ठीक है?", "roman": "kyā ḍeṛh baje ṭhīk hai?", "en": "Is half past one OK?", "focus": "डेढ़", "wrong": ["ढाई|ḍhāī"] },
+        { "native": "फ़िल्म आठ बजे है।", "roman": "film āṭh baje hai.", "en": "The film's at eight.", "focus": "बजे", "wrong": ["बजा|bajā"] },
+        { "native": "हम सवा छह बजे मिलते हैं।", "roman": "ham savā chhah baje milte haiṃ.", "en": "Let's meet at quarter past six.", "focus": "सवा", "wrong": ["साढ़े|sāṛhe"] },
+        { "native": "बारह बजे हैं।", "roman": "bārah baje haiṃ.", "en": "It's twelve o'clock." }
+      ]
+    },
+    {
+      "title": "Morning, noon and night",
+      "tip": { "title": "Seven in the morning, seven in the evening", "body": "- Put the part of the day first: **सुबह** सात बजे 7 a.m., **शाम** सात बजे 7 p.m., **रात** दस बजे 10 p.m.\n- On their own, शाम and रात take **को**: **शाम को** 'in the evening', **रात को** 'at night'. सुबह usually needs nothing.\n- **दिन में दो बार** 'twice a day'." },
+      "new": ["समय", "घंटा", "मिनट", "दिन", "सुबह", "दोपहर", "शाम", "रात", "मेरे पास समय नहीं है।", "एक मिनट रुकिए।"],
+      "sentences": [
+        { "native": "मैं सुबह सात बजे चाय पीता हूँ।", "roman": "maiṃ subah sāt baje chāy pītā hūṃ.", "en": "I have tea at 7 in the morning. (man speaking)", "focus": "सुबह", "wrong": ["शाम|shām"] },
+        { "native": "हम शाम को मिलते हैं।", "roman": "ham shām ko milte haiṃ.", "en": "Let's meet in the evening.", "focus": "को", "wrong": ["से|se"] },
+        { "native": "रात को मैं घर पर रहता हूँ।", "roman": "rāt ko maiṃ ghar par rahtā hūṃ.", "en": "At night I stay home. (man speaking)", "focus": "को", "wrong": ["पर|par"] },
+        { "native": "दोपहर एक बजे खाना है।", "roman": "dopahar ek baje khānā hai.", "en": "Lunch is at 1 p.m.", "focus": "दोपहर", "wrong": ["रात|rāt"] },
+        { "native": "शाम सात बजे फ़िल्म है।", "roman": "shām sāt baje film hai.", "en": "The film's at 7 p.m.", "focus": "शाम", "wrong": ["सुबह|subah"] },
+        { "native": "रात के दस बजे हैं।", "roman": "rāt ke das baje haiṃ.", "en": "It's ten at night.", "focus": "रात", "wrong": ["सुबह|subah"] },
+        { "native": "मैं दिन में दो बार चाय पीती हूँ।", "roman": "maiṃ din meṃ do bār chāy pītī hūṃ.", "en": "I drink tea twice a day. (woman speaking)", "focus": "में", "wrong": ["को|ko"] },
+        { "native": "मेरे पास सिर्फ़ एक घंटा है।", "roman": "mere pās sirf ek ghaṇṭā hai.", "en": "I've only got an hour.", "focus": "घंटा", "wrong": ["घंटे|ghaṇṭe"] },
+        { "native": "क्या आपके पास पाँच मिनट हैं?", "roman": "kyā āpke pās pāṃch minaṭ haiṃ?", "en": "Have you got five minutes?" },
+        { "native": "दस मिनट रुकिए।", "roman": "das minaṭ rukiye.", "en": "Please wait ten minutes." }
+      ]
+    },
+    {
+      "title": "Days of the week",
+      "tip": { "title": "On Monday = सोमवार को", "body": "- Days take **को** 'on': **सोमवार को** मिलते हैं.\n- Months and years take **में**: जनवरी **में**.\n- 'From … to …' = … **से** … **तक**: सोमवार से शनिवार तक.\n- Days are masculine: आज कौन-**सा** दिन है?", "pattern": "day + को", "grammar": 1 },
+      "new": ["सोमवार", "मंगलवार", "बुधवार", "गुरुवार", "शुक्रवार", "शनिवार", "रविवार", "आज", "आज कौन-सा दिन है?", "आज शुक्रवार है।"],
+      "sentences": [
+        { "native": "क्या आज मंगलवार है?", "roman": "kyā āj maṅgalvār hai?", "en": "Is it Tuesday today?", "focus": "आज", "wrong": ["कब|kab"] },
+        { "native": "नहीं, आज बुधवार है।", "roman": "nahīṃ, āj budhvār hai.", "en": "No, today's Wednesday." },
+        { "native": "मैं गुरुवार को दिल्ली में हूँ।", "roman": "maiṃ guruvār ko Dillī meṃ hūṃ.", "en": "I'm in Delhi on Thursday.", "focus": "को", "wrong": ["में|meṃ"] },
+        { "native": "शनिवार को आप क्या करते हैं?", "roman": "shanivār ko āp kyā karte haiṃ?", "en": "What do you do on Saturdays?", "focus": "को", "wrong": ["में|meṃ"] },
+        { "native": "रविवार को दुकान बंद है।", "roman": "ravivār ko dukān band hai.", "en": "The shop is closed on Sunday.", "focus": "को", "wrong": ["में|meṃ"] },
+        { "native": "शुक्रवार को मिलते हैं।", "roman": "shukravār ko milte haiṃ.", "en": "See you on Friday.", "focus": "को", "wrong": ["में|meṃ"] },
+        { "native": "क्या आप बुधवार को फ़्री हैं?", "roman": "kyā āp budhvār ko frī haiṃ?", "en": "Are you free on Wednesday?", "focus": "को", "wrong": ["में|meṃ"] },
+        { "native": "दुकान सोमवार से शनिवार तक खुली है।", "roman": "dukān somvār se shanivār tak khulī hai.", "en": "The shop is open Monday to Saturday.", "focus": "तक", "wrong": ["को|ko"] },
+        { "native": "आज मेरे पास समय है।", "roman": "āj mere pās samay hai.", "en": "I've got time today." }
+      ]
+    },
+    {
+      "title": "Yesterday, tomorrow, next week",
+      "tip": { "title": "कल = yesterday *or* tomorrow", "body": "- **कल** means both; the verb tells you which: कल रविवार **था** 'yesterday was Sunday', कल रविवार **है** 'tomorrow is Sunday'. **परसों** works the same, two days off.\n- 'Next week' = **अगले हफ़्ते**; हफ़्ता and महीना become **हफ़्ते, महीने** in time phrases: हर हफ़्ते, अगले महीने." },
+      "new": ["कल", "परसों", "हफ़्ता", "महीना", "तारीख़", "आज क्या तारीख़ है?", "कल मिलते हैं।"],
+      "sentences": [
+        { "native": "कल रविवार है।", "roman": "kal ravivār hai.", "en": "Tomorrow is Sunday.", "focus": "है", "wrong": ["था|thā"] },
+        { "native": "कल सोमवार था।", "roman": "kal somvār thā.", "en": "Yesterday was Monday.", "focus": "था", "wrong": ["है|hai"] },
+        { "native": "परसों मिलते हैं।", "roman": "parsoṃ milte haiṃ.", "en": "See you the day after tomorrow." },
+        { "native": "मैं अगले हफ़्ते दिल्ली में हूँ।", "roman": "maiṃ agle hafte Dillī meṃ hūṃ.", "en": "I'm in Delhi next week.", "focus": "हफ़्ते", "wrong": ["हफ़्ता|haftā"] },
+        { "native": "हम हर हफ़्ते मिलते हैं।", "roman": "ham har hafte milte haiṃ.", "en": "We meet every week.", "focus": "हफ़्ते", "wrong": ["हफ़्ता|haftā"] },
+        { "native": "दिवाली अगले महीने है।", "roman": "divālī agle mahīne hai.", "en": "Diwali is next month.", "focus": "महीने", "wrong": ["महीना|mahīnā"] },
+        { "native": "मैं एक महीना भारत में हूँ।", "roman": "maiṃ ek mahīnā bhārat meṃ hūṃ.", "en": "I'm in India for a month.", "focus": "महीना", "wrong": ["महीने|mahīne"] },
+        { "native": "आज पाँच तारीख़ है।", "roman": "āj pāṃch tārīx hai.", "en": "Today is the fifth." },
+        { "native": "शादी किस तारीख़ को है?", "roman": "shādī kis tārīx ko hai?", "en": "What date is the wedding?", "focus": "को", "wrong": ["में|meṃ"] },
+        { "native": "कल नहीं, परसों।", "roman": "kal nahīṃ, parsoṃ.", "en": "Not tomorrow, the day after." }
+      ]
+    },
+    {
+      "title": "Early, late, before, after",
+      "tip": { "title": "Before, after, from … to", "body": "- **X से पहले** 'before X' · **X के बाद** 'after X': खाने **के बाद**.\n- **X से Y तक** 'from X to Y'.\n- Alone: **पहले** 'first / earlier', **बाद में** 'later', **अभी** 'right now'.\n- Running late: **मुझे देर हो गई** 'I'm late'; in a hurry: **मुझे जल्दी है**." },
+      "new": ["अभी", "जल्दी", "देर", "पहले", "बाद", "मुझे देर हो गई।", "जल्दी करो!", "दो घंटे बाद।", "दुकान नौ बजे से रात दस बजे तक खुली है।"],
+      "sentences": [
+        { "native": "खाने के बाद मिलते हैं।", "roman": "khāne ke bād milte haiṃ.", "en": "See you after the meal.", "focus": "के", "wrong": ["से|se"] },
+        { "native": "नाश्ते से पहले मैं चाय पीती हूँ।", "roman": "nāshte se pahle maiṃ chāy pītī hūṃ.", "en": "I have tea before breakfast. (woman speaking)", "focus": "से", "wrong": ["का|kā"] },
+        { "native": "मैं सोमवार से शुक्रवार तक दिल्ली में हूँ।", "roman": "maiṃ somvār se shukravār tak Dillī meṃ hūṃ.", "en": "I'm in Delhi from Monday to Friday.", "focus": "तक", "wrong": ["को|ko"] },
+        { "native": "दस मिनट बाद मिलते हैं।", "roman": "das minaṭ bād milte haiṃ.", "en": "See you in ten minutes.", "focus": "बाद", "wrong": ["पहले|pahle"] },
+        { "native": "अभी नहीं, बाद में।", "roman": "abhī nahīṃ, bād meṃ.", "en": "Not now, later.", "focus": "बाद", "wrong": ["पहले|pahle"] },
+        { "native": "आप पहले चाय लीजिए।", "roman": "āp pahle chāy lījiye.", "en": "Have some tea first.", "focus": "पहले", "wrong": ["बाद|bād"] },
+        { "native": "सॉरी, मुझे थोड़ी देर हो गई।", "roman": "sorī, mujhe thoṛī der ho gaī.", "en": "Sorry, I'm a bit late.", "focus": "देर", "wrong": ["जल्दी|jaldī"] },
+        { "native": "मुझे जल्दी है।", "roman": "mujhe jaldī hai.", "en": "I'm in a hurry.", "focus": "जल्दी", "wrong": ["देर|der"] },
+        { "native": "जल्दी कीजिए, फ़िल्म आठ बजे है!", "roman": "jaldī kījiye, film āṭh baje hai!", "en": "Please hurry, the film's at eight!" },
+        { "native": "अभी दो बजे हैं।", "roman": "abhī do baje haiṃ.", "en": "It's two o'clock now." }
+      ]
+    }
+  ]
 }

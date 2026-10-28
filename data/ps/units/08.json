@@ -89,5 +89,103 @@
       { "speaker": "Spogmai", "native": "سوات تر پېښور ډېر ښکلی دی!", "roman": "swāt tər peṣawár ḍer ṣkə́lay day!", "en": "Swat is much more beautiful than Peshawar!" }
     ]
   },
-  "culture": "Pashto has rich vocabulary for appearance and character, and compliments are given freely about places, food and hospitality — but direct praise of a child or a person's looks is traditionally softened with **ماشاالله** to ward off the 'evil eye' (نظر). Colours carry associations: white is purity and peace (and the colour of mourning clothes in some areas), red and green appear in wedding clothes, and the black-red-green of the Afghan flag is a strong national symbol. Note that شين covers both green and blue — Pashtuns say a 'شين' sky and 'شين' grass, as many languages do."
+  "culture": "Pashto has rich vocabulary for appearance and character, and compliments are given freely about places, food and hospitality — but direct praise of a child or a person's looks is traditionally softened with **ماشاالله** to ward off the 'evil eye' (نظر). Colours carry associations: white is purity and peace (and the colour of mourning clothes in some areas), red and green appear in wedding clothes, and the black-red-green of the Afghan flag is a strong national symbol. Note that شين covers both green and blue — Pashtuns say a 'شين' sky and 'شين' grass, as many languages do.",
+  "lessons": [
+    {
+      "title": "Colours",
+      "tip": { "title": "Adjectives agree", "body": "- Most adjectives add **-a** with a feminine noun: تور موټر · تور**ه** خولۍ · سپين → سپين**ه**.\n- The colours red and green are irregular: سور → **سره**, شين → **شنه**.\n- Words in -i never change: نسواري، آسماني.", "pattern": "موټر تور دی  ·  خولۍ توره ده", "grammar": 0 },
+      "new": ["رنګ", "سپين", "تور", "سور", "شين", "زيړ", "دا څه رنګ دی؟", "دا موټر سپين دی.", "دا خولۍ سره ده."],
+      "sentences": [
+        { "native": "زما موټر تور دی.", "roman": "zmā moṭár tor day.", "en": "My car is black.", "focus": "تور", "wrong": ["توره|tóra"] },
+        { "native": "د احمد خولۍ توره ده.", "roman": "də ahmád xwlə́y tóra da.", "en": "Ahmad's cap is black.", "focus": "توره", "wrong": ["تور|tor"] },
+        { "native": "دروازه شنه ده.", "roman": "darwā́za shna da.", "en": "The door is green.", "focus": "شنه", "wrong": ["شين|shin"] },
+        { "native": "ستا موټر سور دی؟", "roman": "stā moṭár sur day?", "en": "Is your car red?", "focus": "سور", "wrong": ["سره|sra"] },
+        { "native": "نه، سپين دی.", "roman": "na, spin day.", "en": "No, it's white." },
+        { "native": "زما پياله سپينه ده.", "roman": "zmā piyā́la spína da.", "en": "My cup is white.", "focus": "سپينه", "wrong": ["سپين|spin"] },
+        { "native": "دا مڼه زيړه ده.", "roman": "dā maṇá zyáṛa da.", "en": "This apple is yellow.", "focus": "زيړه", "wrong": ["زيړ|zyaṛ"] },
+        { "native": "ستاسو کور څه رنګ دی؟", "roman": "stāso kor tsə rang day?", "en": "What colour is your house?" },
+        { "native": "زموږ کور سپين دی او دروازه يې شنه ده.", "roman": "zmuẓ kor spin day aw darwā́za ye shna da.", "en": "Our house is white and its door is green.", "focus": "شنه", "wrong": ["شين|shin"] },
+        { "native": "سره خولۍ مې خوښه ده.", "roman": "sra xwlə́y me xwáṣa da.", "en": "I like the red cap.", "focus": "سره", "wrong": ["سور|sur"] }
+      ]
+    },
+    {
+      "title": "Big and small, new and old",
+      "tip": { "title": "Adjectives in -ay, and the irregular ones", "body": "- Adjectives in **-ay** change like nouns: نوی (m) · نو**ې** (f) · نو**ي** (m pl). Same for وړوکی and ښکلی.\n- Some are irregular: لوی → **لويه** (f); زوړ → **زړه** (f), **زاړه** (m pl).\n- The adjective can go before the noun (نوی موټر) or after it with the verb (موټر نوی دی).", "pattern": "نوی موټر · نوې خولۍ · نوي موټرونه" },
+      "new": ["لوی", "وړوکی", "نوی", "زوړ", "ښکلی", "دا ښار ډېر لوی دی.", "ستا نوې جامې ډېرې ښکلې دي."],
+      "sentences": [
+        { "native": "زموږ کور وړوکی دی.", "roman": "zmuẓ kor waṛúkay day.", "en": "Our house is small.", "focus": "وړوکی", "wrong": ["وړوکې|waṛúke"] },
+        { "native": "زما کوټه ډېره وړوکې ده.", "roman": "zmā kóṭa ḍéra waṛúke da.", "en": "My room is very small.", "focus": "وړوکې", "wrong": ["وړوکی|waṛúkay"] },
+        { "native": "دا موټر نوی دی؟", "roman": "dā moṭár náway day?", "en": "Is this car new?", "focus": "نوی", "wrong": ["نوې|náwe"] },
+        { "native": "نه، زوړ دی.", "roman": "na, zoṛ day.", "en": "No, it's old." },
+        { "native": "دا زړه غالۍ ده، خو ډېره ښکلې ده.", "roman": "dā zaṛá ġālə́y da, xo ḍéra ṣkə́le da.", "en": "It's an old carpet, but it's very beautiful.", "focus": "زړه", "wrong": ["زوړ|zoṛ"] },
+        { "native": "کابل لوی ښار دی.", "roman": "kābúl loy ṣār day.", "en": "Kabul is a big city.", "focus": "لوی", "wrong": ["لويه|lóya"] },
+        { "native": "زموږ کوټه لويه ده.", "roman": "zmuẓ kóṭa lóya da.", "en": "Our room is big.", "focus": "لويه", "wrong": ["لوی|loy"] },
+        { "native": "ستا نوې خولۍ ښکلې ده.", "roman": "stā náwe xwlə́y ṣkə́le da.", "en": "Your new cap is nice.", "focus": "نوې", "wrong": ["نوی|náway"] },
+        { "native": "هغه ښکلی هلک دی.", "roman": "haġá ṣkə́lay halə́k day.", "en": "He's a handsome boy.", "focus": "ښکلی", "wrong": ["ښکلې|ṣkə́le"] },
+        { "native": "دا ښار زاړه کورونه لري.", "roman": "dā ṣār zāṛə́ korúna lári.", "en": "This city has old houses.", "focus": "زاړه", "wrong": ["زوړ|zoṛ"] }
+      ]
+    },
+    {
+      "title": "Describing people",
+      "new": ["اوږد", "لنډ", "لوړ", "ځوان", "ډنګر", "چاغ", "هغه ډېر اوږد سړی دی."],
+      "sentences": [
+        { "native": "زما ورور اوږد دی، خو زه لنډ يم.", "roman": "zmā wror uẓd day, xo zə lanḍ yəm.", "en": "My brother is tall, but I'm short." },
+        { "native": "هغه ځوانه نجلۍ زما خور ده.", "roman": "haġá dzwā́na njlə́y zmā xor da.", "en": "That young woman is my sister.", "focus": "ځوانه", "wrong": ["ځوان|dzwān"] },
+        { "native": "نيکه مې ډنګر دی.", "roman": "nikə́ me ḍangár day.", "en": "My grandfather is thin." },
+        { "native": "د ګاونډي هلک چاغ دی.", "roman": "də gāwnḍí halə́k chāġ day.", "en": "The neighbour's boy is chubby." },
+        { "native": "ستا خور اوږده ده؟", "roman": "stā xor uẓdá da?", "en": "Is your sister tall?", "focus": "اوږده", "wrong": ["اوږد|uẓd"] },
+        { "native": "دا ديوال ډېر لوړ دی.", "roman": "dā dewā́l ḍer lwaṛ day.", "en": "This wall is very high." },
+        { "native": "هغوی ځوان خلک دي.", "roman": "haġwí dzwān xálək di.", "en": "They're young people." },
+        { "native": "زموږ کور لنډ ديوال لري.", "roman": "zmuẓ kor lanḍ dewā́l lári.", "en": "Our house has a low wall." },
+        { "native": "تاسو ډېر ډنګر ياست!", "roman": "tāso ḍer ḍangár yāst!", "en": "You're very thin!" }
+      ]
+    },
+    {
+      "title": "Bigger, better, the best",
+      "tip": { "title": "'Than' and 'the most': تر", "body": "- No '-er' ending: say 'A **than** B big is': کابل **تر** پېښور لوی دی.\n- 'Than me / you / him': تر **ما** · تر **تا** · تر **هغه**.\n- 'The most' is 'than all': **تر ټولو** لوی 'the biggest', تر ټولو ښه 'the best'.", "pattern": "A + تر + B + adjective + دی", "grammar": 1 },
+      "new": ["تر", "کابل تر پېښور لوی دی.", "تر ټولو ښه کوم يو دی؟", "دا يې تر ټولو ارزانه ده.", "ګرم", "سوړ", "اوبه سړې دي."],
+      "sentences": [
+        { "native": "زما ورور تر ما اوږد دی.", "roman": "zmā wror tər mā uẓd day.", "en": "My brother is taller than me.", "focus": "تر", "wrong": ["د|də", "په|pə"] },
+        { "native": "پېښور تر کابل ګرم دی.", "roman": "peṣawár tər kābúl garm day.", "en": "Peshawar is hotter than Kabul.", "focus": "تر", "wrong": ["د|də", "په|pə"] },
+        { "native": "زما خور تر ما کشره ده.", "roman": "zmā xor tər mā kə́shra da.", "en": "My sister is younger than me.", "focus": "تر", "wrong": ["د|də", "په|pə"] },
+        { "native": "دا تر ټولو لوی کور دی.", "roman": "dā tər ṭolo loy kor day.", "en": "This is the biggest house.", "focus": "ټولو", "wrong": ["ټول|ṭol"] },
+        { "native": "کومه خولۍ تر ټولو ارزانه ده؟", "roman": "kúma xwlə́y tər ṭolo arzā́na da?", "en": "Which cap is the cheapest?", "focus": "ټولو", "wrong": ["ټول|ṭol"] },
+        { "native": "اوبه سړې دي، ډوډۍ ګرمه ده.", "roman": "obə́ saṛé di, ḍoḍə́y gárma da.", "en": "The water is cold and the food is hot.", "focus": "ګرمه", "wrong": ["ګرم|garm"] },
+        { "native": "چای سوړ دی.", "roman": "chāy soṛ day.", "en": "The tea is cold.", "focus": "سوړ", "wrong": ["سړه|saṛá"] },
+        { "native": "احمد په ټولګي کې تر ټولو ځوان دی.", "roman": "ahmád pə ṭolgí ke tər ṭolo dzwān day.", "en": "Ahmad is the youngest in the class.", "focus": "تر", "wrong": ["د|də", "په|pə"] },
+        { "native": "دا مڼه تر هغې خوږه ده.", "roman": "dā maṇá tər haġé xwáẓa da.", "en": "This apple is sweeter than that one.", "focus": "تر", "wrong": ["د|də", "له|la"] }
+      ]
+    },
+    {
+      "title": "Easy or hard?",
+      "tip": { "title": "Languages are feminine", "body": "- Most adjectives just add **-a** for a feminine noun: سخت → سخت**ه**, اسان → اسان**ه**, تېز → تېز**ه**.\n- Languages are feminine: پښتو سخته ده، انګرېزي اسانه ده.\n- **دومره** 'that, so': دومره سخته نه ده 'it's not that hard'.", "pattern": "پښتو سخته ده؟" },
+      "new": ["اسان", "سخت", "پښتو سخته ده؟", "نه، دومره سخته نه ده.", "بد", "تېز"],
+      "sentences": [
+        { "native": "انګرېزي اسانه ده.", "roman": "angrezí āsā́na da.", "en": "English is easy.", "focus": "اسانه", "wrong": ["اسان|āsā́n"] },
+        { "native": "اردو تر پښتو اسانه ده؟", "roman": "urdú tər paṣtó āsā́na da?", "en": "Is Urdu easier than Pashto?", "focus": "اسانه", "wrong": ["اسان|āsā́n"] },
+        { "native": "زما پلار ډېر سخت سړی دی.", "roman": "zmā plār ḍer saxt saṛáy day.", "en": "My father is a very strict man.", "focus": "سخت", "wrong": ["سخته|sáxta"] },
+        { "native": "کباب ډېر تېز دی.", "roman": "kabā́b ḍer tez day.", "en": "The kebab is very spicy.", "focus": "تېز", "wrong": ["تېزه|téza"] },
+        { "native": "چاړه تېزه ده.", "roman": "chā́ṛa téza da.", "en": "The knife is sharp.", "focus": "تېزه", "wrong": ["تېز|tez"] },
+        { "native": "دا چای بد نه دی.", "roman": "dā chāy bad na day.", "en": "This tea isn't bad." },
+        { "native": "هغه بده خبره ده.", "roman": "haġá báda xabə́ra da.", "en": "That's a bad thing to say.", "focus": "بده", "wrong": ["بد|bad"] },
+        { "native": "پښتو سخته نه ده، اسانه ده!", "roman": "paṣtó sáxta na da, āsā́na da!", "en": "Pashto isn't hard, it's easy!", "focus": "سخته", "wrong": ["سخت|saxt"] }
+      ]
+    },
+    {
+      "title": "Clean, dirty, heavy, light",
+      "new": ["دروند", "سپک", "پاک", "چټل", "نسواري", "آسماني"],
+      "sentences": [
+        { "native": "دا مېز ډېر دروند دی.", "roman": "dā mez ḍer drund day.", "en": "This table is very heavy." },
+        { "native": "دا څوکۍ سپکه ده.", "roman": "dā tsawkə́y spə́ka da.", "en": "This chair is light.", "focus": "سپکه", "wrong": ["سپک|spək"] },
+        { "native": "ستاسو کور ډېر پاک دی.", "roman": "stāso kor ḍer pāk day.", "en": "Your house is very clean." },
+        { "native": "ګيلاس چټل دی، بل ګيلاس راوړه.", "roman": "gilā́s chaṭál day, bəl gilā́s rā́wṛa.", "en": "The glass is dirty, bring another one." },
+        { "native": "زما کوټه پاکه نه ده.", "roman": "zmā kóṭa pā́ka na da.", "en": "My room isn't clean.", "focus": "پاکه", "wrong": ["پاک|pāk"] },
+        { "native": "ماشومان چټل دي.", "roman": "māshumā́n chaṭál di.", "en": "The children are dirty." },
+        { "native": "د هغه موټر نسواري دی.", "roman": "də haġə́ moṭár naswārí day.", "en": "His car is brown." },
+        { "native": "زما خولۍ آسماني ده.", "roman": "zmā xwlə́y āsmāní da.", "en": "My cap is sky blue." },
+        { "native": "دا غالۍ ډېره درنه ده.", "roman": "dā ġālə́y ḍéra drə́na da.", "en": "This carpet is very heavy.", "focus": "درنه", "wrong": ["دروند|drund"] },
+        { "native": "مور مې ډېره درنه ښځه ده.", "roman": "mor me ḍéra drə́na ṣədzá da.", "en": "My mother is a much-respected woman." }
+      ]
+    }
+  ]
 }

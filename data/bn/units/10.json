@@ -85,5 +85,89 @@
       { "speaker": "Shila", "native": "রাতে মাঝে মাঝে রান্না করি, আর এগারোটায় ঘুমিয়ে পড়ি।", "roman": "rate majhe majhe ranna kori, ar ægaroṭay ghumiye poṛi.", "en": "At night I sometimes cook, and I fall asleep at eleven." }
     ]
   },
-  "culture": "A typical Bengali day starts early with tea and ends late: dinner at 9 or 10 p.m. is normal, and many people take a nap (দিবানিদ্রা / ভাতঘুম, 'rice-sleep') after a heavy lunch on holidays. The afternoon tea and snack (চা আর মুড়ি / চানাচুর) at around 5 is an institution, as is the evening আড্ডা: long, lively chats with friends about everything from politics to football."
+  "culture": "A typical Bengali day starts early with tea and ends late: dinner at 9 or 10 p.m. is normal, and many people take a nap (দিবানিদ্রা / ভাতঘুম, 'rice-sleep') after a heavy lunch on holidays. The afternoon tea and snack (চা আর মুড়ি / চানাচুর) at around 5 is an institution, as is the evening আড্ডা: long, lively chats with friends about everything from politics to football.",
+  "lessons": [
+    {
+      "title": "Your morning",
+      "tip": { "title": "Habits: the simple present", "grammar": 0, "body": "- For what you usually do, use the simple present: আমি সাতটায় **উঠি** 'I get up at seven'.\n- Endings: আমি **-ি**, তুমি **-ো**, আপনি **-েন**, সে **-ে**: করি, করো, করেন, করে.\n- In verbs with এ / ও the vowel rises for আমি: ওঠা → আমি **উঠি**, সে **ওঠে**.", "pattern": "আমি + time + verb-ি" },
+      "new": ["ওঠা", "দাঁত মাজা", "স্নান করা", "গোসল করা", "পরা", "সাধারণত", "প্রথমে", "তারপর", "আমি সাধারণত ছটায় উঠি।"],
+      "sentences": [
+        { "native": "আমি সাধারণত সাতটায় উঠি।", "roman": "ami shadharonoto shatṭay uṭhi.", "en": "I usually get up at seven.", "focus": "উঠি", "wrong": ["ওঠে|oṭhe", "ওঠেন|oṭhen"] },
+        { "native": "আপনি কটায় ওঠেন?", "roman": "apni kôṭay oṭhen?", "en": "What time do you get up?", "focus": "ওঠেন", "wrong": ["উঠি|uṭhi", "ওঠে|oṭhe"] },
+        { "native": "তুমি কটায় ওঠো?", "roman": "tumi kôṭay oṭho?", "en": "What time do you get up? (to a friend)", "focus": "ওঠো", "wrong": ["ওঠেন|oṭhen", "উঠি|uṭhi"] },
+        { "native": "ও সাধারণত দেরিতে ওঠে।", "roman": "o shadharonoto derite oṭhe.", "en": "He/she usually gets up late.", "focus": "ওঠে", "wrong": ["উঠি|uṭhi", "ওঠো|oṭho"] },
+        { "native": "প্রথমে দাঁত মাজি, তারপর চা খাই।", "roman": "prôthome daṃt maji, tarpôr cha khai.", "en": "First I brush my teeth, then I have tea.", "focus": "মাজি", "wrong": ["মাজে|maje", "মাজেন|majen"] },
+        { "native": "বাচ্চারা প্রথমে দাঁত মাজে, তারপর নাস্তা খায়।", "roman": "bachchara prôthome daṃt maje, tarpôr nasta khay.", "en": "The kids brush their teeth first, then have breakfast.", "focus": "মাজে", "wrong": ["মাজি|maji", "মাজো|majo"] },
+        { "native": "আমি সকালে স্নান করি।", "roman": "ami shôkale snan kori.", "en": "I have a bath in the morning.", "focus": "করি", "wrong": ["করে|kôre", "করেন|kôren"] },
+        { "native": "উনি সকালে গোসল করেন, আমি রাতে।", "roman": "uni shôkale goshol kôren, ami rate.", "en": "He/she showers in the morning, I do at night.", "focus": "করেন", "wrong": ["করি|kori", "করে|kôre"] },
+        { "native": "আমি সাধারণত শাড়ি পরি।", "roman": "ami shadharonoto shaṛi pori.", "en": "I usually wear a sari.", "focus": "পরি", "wrong": ["পরে|pôre", "পরেন|pôren"] }
+      ]
+    },
+    {
+      "title": "Every day, sometimes, never",
+      "tip": { "title": "How often", "body": "- **রোজ** / **প্রতিদিন** every day · **সবসময়** always · **সাধারণত** usually · **মাঝে মাঝে** sometimes.\n- **Never** = **কখনও** … verb + **না**: আমি কখনও কফি খাই না.\n- In a question, কখনও means 'ever'." },
+      "new": ["রোজ", "প্রতিদিন", "সবসময়", "কখনও", "মাঝে মাঝে", "হাঁটা", "আমি রোজ সকালে হাঁটি।", "আমি কখনও কফি খাই না।"],
+      "sentences": [
+        { "native": "আমি রোজ বিকেলে হাঁটি।", "roman": "ami roj bikele haṃṭi.", "en": "I go for a walk every afternoon.", "focus": "হাঁটি", "wrong": ["হাঁটে|haṃṭe", "হাঁটেন|haṃṭen"] },
+        { "native": "বাবা প্রতিদিন সকালে হাঁটেন।", "roman": "baba protidin shôkale haṃṭen.", "en": "Dad walks every morning.", "focus": "হাঁটেন", "wrong": ["হাঁটি|haṃṭi", "হাঁটে|haṃṭe"] },
+        { "native": "আমি কখনও মাংস খাই না।", "roman": "ami kôkhono maṅsho khai na.", "en": "I never eat meat.", "focus": "কখনও", "wrong": ["সবসময়|shôbshômoy", "রোজ|roj"] },
+        { "native": "ও কখনও কফি খায় না, শুধু চা।", "roman": "o kôkhono kôphi khay na, shudhu cha.", "en": "He/she never drinks coffee, only tea.", "focus": "কখনও", "wrong": ["সবসময়|shôbshômoy", "রোজ|roj"] },
+        { "native": "ও সবসময় দেরি করে।", "roman": "o shôbshômoy deri kôre.", "en": "He/she is always late.", "focus": "সবসময়", "wrong": ["কখনও|kôkhono", "প্রথমে|prôthome"] },
+        { "native": "মাঝে মাঝে আমরা বাইরে খাই।", "roman": "majhe majhe amra baire khai.", "en": "Sometimes we eat out." },
+        { "native": "আপনি কি রোজ বাংলা শেখেন?", "roman": "apni ki roj baṅla shekhen?", "en": "Do you study Bengali every day?" },
+        { "native": "না, মাঝে মাঝে।", "roman": "na, majhe majhe.", "en": "No, now and then." },
+        { "native": "আমি সবসময় চায়ে চিনি খাই।", "roman": "ami shôbshômoy chaye chini khai.", "en": "I always take sugar in my tea." }
+      ]
+    },
+    {
+      "title": "Work, study, going home",
+      "tip": { "title": "Go and come: যাই, আসি", "grammar": 0, "body": "- Stems ending in a vowel take short endings: যাওয়া → আমি **যাই**, তুমি **যাও**, আপনি **যান**, সে **যায়**.\n- আসা 'come': আসি, আসো, আসেন, আসে. ফেরা 'return': ফিরি, ফেরো, ফেরেন, ফেরে.\n- 'Home' needs no ending after these verbs: বাড়ি ফিরি 'I go home'.", "pattern": "আমি অফিসে যাই  ·  আপনি কখন বাড়ি ফেরেন?" },
+      "new": ["কাজ", "করা", "রান্না করা", "পড়া", "লেখা", "যাওয়া", "আসা", "ফেরা", "আপনি কখন বাড়ি ফেরেন?"],
+      "sentences": [
+        { "native": "আমি সকালে অফিসে যাই।", "roman": "ami shôkale ophishe jai.", "en": "I go to the office in the morning.", "focus": "যাই", "wrong": ["যায়|jay", "যান|jan"] },
+        { "native": "আপনি সাধারণত কখন বাড়ি ফেরেন?", "roman": "apni shadharonoto kôkhon baṛi pheren?", "en": "When do you usually get home?", "focus": "ফেরেন", "wrong": ["ফিরি|phiri", "ফেরে|phere"] },
+        { "native": "আমি সন্ধ্যা সাতটায় বাড়ি ফিরি।", "roman": "ami shondha shatṭay baṛi phiri.", "en": "I get home at seven in the evening.", "focus": "ফিরি", "wrong": ["ফেরে|phere", "ফেরেন|pheren"] },
+        { "native": "উনি রোজ দশটায় অফিসে আসেন।", "roman": "uni roj dôshṭay ophishe ashen.", "en": "He/she comes to the office at ten every day.", "focus": "আসেন", "wrong": ["আসি|ashi", "আসে|ashe"] },
+        { "native": "ও কোথায় কাজ করে?", "roman": "o kothay kaj kôre?", "en": "Where does he/she work?", "focus": "করে", "wrong": ["করি|kori", "করো|kôro"] },
+        { "native": "আমরা শুক্রবার কাজ করি না।", "roman": "amra shukrobar kaj kori na.", "en": "We don't work on Fridays.", "focus": "করি", "wrong": ["করে|kôre", "করেন|kôren"] },
+        { "native": "মা খুব ভালো রান্না করেন।", "roman": "ma khub bhalo ranna kôren.", "en": "Mum cooks really well.", "focus": "করেন", "wrong": ["করি|kori", "করে|kôre"] },
+        { "native": "আমি রাতে একটু বাংলা পড়ি।", "roman": "ami rate ekṭu baṅla poṛi.", "en": "I study a little Bengali at night.", "focus": "পড়ি", "wrong": ["পড়ে|pôṛe", "পড়েন|pôṛen"] },
+        { "native": "ও বাংলায় লেখে, আমি ইংরেজিতে লিখি।", "roman": "o baṅlay lekhe, ami iṅrejite likhi.", "en": "He/she writes in Bengali, I write in English.", "focus": "লিখি", "wrong": ["লেখে|lekhe", "লেখেন|lekhen"] }
+      ]
+    },
+    {
+      "title": "Evenings and weekends",
+      "tip": { "title": "দেখি but দেখে", "grammar": 0, "body": "- The vowel rises in the **আমি** form: দেখা → আমি **দেখি**, সে **দেখে**; শোনা → **শুনি** / শোনে; ধোয়া → **ধুই** / ধোয়.\n- ঘুমানো 'sleep': আমি **ঘুমাই**, আপনি **ঘুমান**, সে **ঘুমায়**.\n- আপনি always takes **-েন / -ন**: বসেন, দেখেন.", "pattern": "আমি দেখি · সে দেখে" },
+      "new": ["দেখা", "শোনা", "খেলা", "বসা", "ঘুমানো", "ধোয়া", "রাতে আমি একটু টিভি দেখি।", "ছুটির দিনে আমরা ক্রিকেট খেলি।"],
+      "sentences": [
+        { "native": "রাতে আমি একটু টিভি দেখি, তুমি?", "roman": "rate ami ekṭu ṭibhi dekhi, tumi?", "en": "At night I watch a bit of TV, and you?", "focus": "দেখি", "wrong": ["দেখে|dækhe", "দেখো|dækho"] },
+        { "native": "তুমি কী গান শোনো?", "roman": "tumi ki gan shono?", "en": "What music do you listen to?", "focus": "শোনো", "wrong": ["শুনি|shuni", "শোনে|shone"] },
+        { "native": "আমি সবসময় বাংলা গান শুনি।", "roman": "ami shôbshômoy baṅla gan shuni.", "en": "I always listen to Bengali songs.", "focus": "শুনি", "wrong": ["শোনে|shone", "শোনো|shono"] },
+        { "native": "ছুটির দিনে আমরা ক্রিকেট খেলি, তুমি খেলো?", "roman": "chhuṭir dine amra krikeṭ kheli, tumi khælo?", "en": "On days off we play cricket, do you play?", "focus": "খেলি", "wrong": ["খেলে|khæle", "খেলেন|khælen"] },
+        { "native": "বাচ্চারা বিকেলে বাইরে খেলে।", "roman": "bachchara bikele baire khæle.", "en": "The kids play outside in the afternoon.", "focus": "খেলে", "wrong": ["খেলি|kheli", "খেলেন|khælen"] },
+        { "native": "দাদু বিকেলে ছাদে বসেন।", "roman": "dadu bikele chhade bôshen.", "en": "Grandpa sits on the roof in the afternoon.", "focus": "বসেন", "wrong": ["বসি|boshi", "বসে|bôshe"] },
+        { "native": "আমি রাত বারোটায় ঘুমাই।", "roman": "ami rat baroṭay ghumai.", "en": "I go to sleep at midnight.", "focus": "ঘুমাই", "wrong": ["ঘুমায়|ghumay", "ঘুমান|ghuman"] },
+        { "native": "আপনি কটায় ঘুমান?", "roman": "apni kôṭay ghuman?", "en": "What time do you go to bed?", "focus": "ঘুমান", "wrong": ["ঘুমাই|ghumai", "ঘুমায়|ghumay"] },
+        { "native": "খাওয়ার আগে হাত ধুই।", "roman": "khawar age hat dhui.", "en": "I wash my hands before eating.", "focus": "ধুই", "wrong": ["ধোয়|dhoy", "ধোন|dhon"] }
+      ]
+    },
+    {
+      "title": "What are you doing now?",
+      "tip": { "title": "Right now: করছি, যাচ্ছি", "grammar": 1, "body": "- For what's happening now add **-ছ-**: আমি করছি · তুমি করছ · আপনি করছেন · সে করছে.\n- After a vowel stem it's **-চ্ছ-**: যাচ্ছি, খাচ্ছেন, ঘুমোচ্ছে.\n- The stem vowel rises in every person: দেখছি, শুনছ, পড়ছে.", "pattern": "stem + ছি / ছ / ছেন / ছে" },
+      "new": ["তুমি এখন কী করছ?", "আমি রান্না করছি।", "ও অফিসে যাচ্ছে।", "ও এখন ঘুমোচ্ছে।", "বাচ্চারা পড়ছে, বিরক্ত কোরো না।"],
+      "sentences": [
+        { "native": "তুমি এখন কী করছ? আমি রান্না করছি।", "roman": "tumi ækhon ki korchho? ami ranna korchhi.", "en": "What are you doing now? I'm cooking.", "focus": "করছি", "wrong": ["করি|kori", "করছে|korchhe"] },
+        { "native": "আমি টিভি দেখছি।", "roman": "ami ṭibhi dekhchhi.", "en": "I'm watching TV.", "focus": "দেখছি", "wrong": ["দেখছে|dekhchhe", "দেখছেন|dekhchhen"] },
+        { "native": "বাবা এখন কাজ করছেন।", "roman": "baba ækhon kaj korchhen.", "en": "Dad is working right now.", "focus": "করছেন", "wrong": ["করছে|korchhe", "করছি|korchhi"] },
+        { "native": "ও এখন অফিসে যাচ্ছে।", "roman": "o ækhon ophishe jachchhe.", "en": "He/she is on the way to the office now.", "focus": "যাচ্ছে", "wrong": ["যাচ্ছি|jachchhi", "যাচ্ছেন|jachchhen"] },
+        { "native": "আমি বাড়ি ফিরছি।", "roman": "ami baṛi phirchhi.", "en": "I'm on my way home.", "focus": "ফিরছি", "wrong": ["ফিরছে|phirchhe", "ফিরছেন|phirchhen"] },
+        { "native": "ও এখন ঘুমোচ্ছে, পরে আসুন।", "roman": "o ækhon ghumochchhe, pôre ashun.", "en": "He/she is asleep right now, please come later.", "focus": "ঘুমোচ্ছে", "wrong": ["ঘুমোচ্ছি|ghumochchhi", "ঘুমোচ্ছেন|ghumochchhen"] },
+        { "native": "দাদু ঘুমোচ্ছেন, বিরক্ত কোরো না।", "roman": "dadu ghumochchhen, birokto koro na.", "en": "Grandpa is sleeping, don't disturb him.", "focus": "ঘুমোচ্ছেন", "wrong": ["ঘুমোচ্ছে|ghumochchhe", "ঘুমোচ্ছি|ghumochchhi"] },
+        { "native": "বাচ্চারা এখন পড়ছে।", "roman": "bachchara ækhon poṛchhe.", "en": "The kids are studying now.", "focus": "পড়ছে", "wrong": ["পড়ছি|poṛchhi", "পড়ছেন|poṛchhen"] },
+        { "native": "আপনি কী খাচ্ছেন?", "roman": "apni ki khachchhen?", "en": "What are you eating?", "focus": "খাচ্ছেন", "wrong": ["খাচ্ছে|khachchhe", "খাচ্ছি|khachchhi"] },
+        { "native": "তুমি কী শুনছ?", "roman": "tumi ki shunchho?", "en": "What are you listening to?", "focus": "শুনছ", "wrong": ["শুনছি|shunchhi", "শুনছেন|shunchhen"] },
+        { "native": "আমরা এখন খেলছি, পরে আসব।", "roman": "amra ækhon khelchhi, pôre ashbo.", "en": "We're playing now, we'll come later.", "focus": "খেলছি", "wrong": ["খেলছে|khelchhe", "খেলছ|khelchho"] }
+      ]
+    }
+  ]
 }

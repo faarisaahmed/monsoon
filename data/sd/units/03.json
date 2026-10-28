@@ -98,5 +98,85 @@
       { "speaker": "Kavita", "native": "ڏاڍا سٺا ٿا لڳن!", "roman": "ɗāḍhā suṭhā thā laɠan!", "en": "They look so nice!" }
     ]
   },
-  "culture": "Sindhi families are often large and close, and several generations may live together or near each other. Relatives are addressed by their kinship title rather than their name — چاچا، مامو، ماسي، ادا، ادي — and these titles are extended to family friends and neighbours as a mark of affection and respect. Cousins are simply called 'brother' and 'sister' (or described as 'my uncle's son'). Elders are never addressed with تون."
+  "culture": "Sindhi families are often large and close, and several generations may live together or near each other. Relatives are addressed by their kinship title rather than their name — چاچا، مامو، ماسي، ادا، ادي — and these titles are extended to family friends and neighbours as a mark of affection and respect. Cousins are simply called 'brother' and 'sister' (or described as 'my uncle's son'). Elders are never addressed with تون.",
+  "lessons": [
+    {
+      "title": "My mother, my father",
+      "tip": { "title": "\"My\" agrees with what you own", "body": "- **منهنجو** 'my' and **تنهنجو** 'your' (intimate) change with the thing owned, not the owner: منهنجو پيءُ (m) · منهنجي ماءُ (f) · منهنجا ڀائر (m pl).\n- **جو** 'of' works the same way: توهان **جو** ڀاءُ, توهان **جي** ڀيڻ, توهان **جا** ڀائر.\n- The owner comes first: ڀيڻ جو نالو 'sister's name'.", "pattern": "owner + جو / جي / جا + thing", "grammar": 1 },
+      "new": ["ماءُ", "پيءُ", "ڀاءُ", "ڀيڻ", "منهنجو", "تنهنجو", "هي منهنجي ماءُ آهي.", "منهنجو پيءُ استاد آهي.", "تنهنجي ڀيڻ جو نالو ڇا آهي؟"],
+      "sentences": [
+        { "native": "هي منهنجو پيءُ آهي.", "roman": "hī munhinjo pīu āhe.", "en": "This is my father.", "focus": "منهنجو", "wrong": ["منهنجي|munhinjī", "منهنجا|munhinjā"] },
+        { "native": "منهنجي ڀيڻ ڪراچيءَ ۾ رهي ٿي.", "roman": "munhinjī bheṇa karāchīa meṃ rahe thī.", "en": "My sister lives in Karachi.", "focus": "منهنجي", "wrong": ["منهنجو|munhinjo", "منهنجا|munhinjā"] },
+        { "native": "تنهنجو ڀاءُ ڪٿي آهي؟", "roman": "tunhinjo bhāu kithe āhe?", "en": "Where's your brother? (to a friend)", "focus": "تنهنجو", "wrong": ["تنهنجي|tunhinjī", "تنهنجا|tunhinjā"] },
+        { "native": "تنهنجي ماءُ ڪيئن آهي؟", "roman": "tunhinjī māu kīeṃ āhe?", "en": "How is your mother? (to a friend)", "focus": "تنهنجي", "wrong": ["تنهنجو|tunhinjo", "تنهنجا|tunhinjā"] },
+        { "native": "منهنجي ماءُ به استاد آهي.", "roman": "munhinjī māu bi ustādu āhe.", "en": "My mother is a teacher too.", "focus": "منهنجي", "wrong": ["منهنجو|munhinjo", "منهنجا|munhinjā"] },
+        { "native": "توهان جو ڀاءُ هتي آهي؟", "roman": "tavhāṃ jo bhāu hite āhe?", "en": "Is your brother here?", "focus": "جو", "wrong": ["جي|jī", "جا|jā"] },
+        { "native": "توهان جي ڀيڻ جو نالو ڇا آهي؟", "roman": "tavhāṃ jī bheṇa jo nālo chhā āhe?", "en": "What's your sister's name?", "focus": "جي", "wrong": ["جو|jo", "جا|jā"] },
+        { "native": "منهنجو پيءُ ڳوٺ ۾ رهي ٿو.", "roman": "munhinjo pīu ɠoṭha meṃ rahe tho.", "en": "My father lives in the village.", "focus": "منهنجو", "wrong": ["منهنجي|munhinjī", "منهنجا|munhinjā"] }
+      ]
+    },
+    {
+      "title": "Sons, daughters and children",
+      "tip": { "title": "One child, two children", "body": "- Every noun is masculine or feminine, and the plural changes the ending:\n- **-o → -ā**: ڇوڪرو → ڇوڪرا · **-ī → -yūṃ**: ڇوڪري → ڇوڪريون\n- **-u → -a**, same spelling: پٽ puṭu → puṭa, ٻار ɓāru → ɓāra.\n- From two upwards the noun is plural, and 'my' agrees: منهنجا ٻه پٽ.", "pattern": "ڇوڪرو → ڇوڪرا · ڇوڪري → ڇوڪريون", "grammar": 0 },
+      "new": ["پٽ", "ڌيءُ", "ٻار", "ڇوڪرو", "ڇوڪري", "توهان کي ٻار آهن؟", "جي ها، هڪ پٽ ۽ ٻه ڌيئرون.", "توهان جا ڪيترا ڀائر آهن؟", "منهنجا ٻه ڀائر ۽ هڪ ڀيڻ آهن."],
+      "sentences": [
+        { "native": "منهنجا ٽي ٻار آهن.", "roman": "munhinjā ṭe ɓāra āhin.", "en": "I have three children.", "focus": "منهنجا", "wrong": ["منهنجو|munhinjo", "منهنجي|munhinjī"] },
+        { "native": "هن جا ٻه ڇوڪرا آهن.", "roman": "hun jā ɓa chhokirā āhin.", "en": "He has two boys.", "focus": "ڇوڪرا", "wrong": ["ڇوڪرو|chhokiro", "ڇوڪريون|chhokiryūṃ"] },
+        { "native": "منهنجيون ٻه ڌيئرون آهن.", "roman": "munhinjyūṃ ɓa dhīarūṃ āhin.", "en": "I have two daughters.", "focus": "منهنجيون", "wrong": ["منهنجا|munhinjā", "منهنجي|munhinjī"] },
+        { "native": "ٻار ڪٿي آهن؟", "roman": "ɓāra kithe āhin?", "en": "Where are the children?", "focus": "آهن", "wrong": ["آهي|āhe", "آهيون|āhyūṃ"] },
+        { "native": "ڇوڪريون هتي آهن.", "roman": "chhokiryūṃ hite āhin.", "en": "The girls are here.", "focus": "ڇوڪريون", "wrong": ["ڇوڪري|chhokirī", "ڇوڪرا|chhokirā"] },
+        { "native": "تنهنجا ڪيترا ٻار آهن؟", "roman": "tunhinjā ketirā ɓāra āhin?", "en": "How many children do you have? (to a friend)", "focus": "تنهنجا", "wrong": ["تنهنجو|tunhinjo", "تنهنجي|tunhinjī"] },
+        { "native": "هي ڇوڪرو ڪير آهي؟", "roman": "hī chhokiro ker āhe?", "en": "Who is this boy?", "focus": "ڇوڪرو", "wrong": ["ڇوڪرا|chhokirā", "ڇوڪريون|chhokiryūṃ"] },
+        { "native": "توهان جو پٽ ڪٿي رهي ٿو؟", "roman": "tavhāṃ jo puṭu kithe rahe tho?", "en": "Where does your son live?", "focus": "جو", "wrong": ["جي|jī", "جا|jā"] },
+        { "native": "منهنجي ڌيءُ ڪٿي آهي؟", "roman": "munhinjī dhīu kithe āhe?", "en": "Where's my daughter?" }
+      ]
+    },
+    {
+      "title": "Grandparents, uncles and aunts",
+      "tip": { "title": "Father's side or mother's side?", "body": "- Sindhi has a word for each relative, depending on whose side they're on.\n- Father's side: **ڏاڏو / ڏاڏي** grandpa / grandma, **چاچو** uncle, **پڦي** aunt.\n- Mother's side: **نانو / ناني** grandpa / grandma, **مامو** uncle, **ماسي** aunt.\n- Calling someone, -o becomes -ā: چاچا سائين! 'uncle!'" },
+      "new": ["ڏاڏو", "ڏاڏي", "نانو", "ناني", "چاچو", "مامو", "ماسي", "پڦي"],
+      "sentences": [
+        { "native": "منهنجو ڏاڏو ڳوٺ ۾ رهي ٿو.", "roman": "munhinjo ɗāɗo ɠoṭha meṃ rahe tho.", "en": "My grandfather (father’s father) lives in the village.", "focus": "منهنجو", "wrong": ["منهنجي|munhinjī", "منهنجا|munhinjā"] },
+        { "native": "منهنجي ناني ڪراچيءَ ۾ رهي ٿي.", "roman": "munhinjī nānī karāchīa meṃ rahe thī.", "en": "My grandmother (mother’s mother) lives in Karachi.", "focus": "منهنجي", "wrong": ["منهنجو|munhinjo", "منهنجا|munhinjā"] },
+        { "native": "مامو منهنجي ماءُ جو ڀاءُ آهي.", "roman": "māmo munhinjī māu jo bhāu āhe.", "en": "Mamo is my mother's brother.", "focus": "جو", "wrong": ["جي|jī", "جا|jā"] },
+        { "native": "چاچو منهنجي پيءُ جو ڀاءُ آهي.", "roman": "chācho munhinje pīu jo bhāu āhe.", "en": "Chacho is my father's brother.", "focus": "جو", "wrong": ["جي|jī", "جا|jā"] },
+        { "native": "پڦي منهنجي پيءُ جي ڀيڻ آهي.", "roman": "puphī munhinje pīu jī bheṇa āhe.", "en": "Puphi is my father's sister.", "focus": "جي", "wrong": ["جو|jo", "جا|jā"] },
+        { "native": "منهنجا نانو ۽ ناني حيدرآباد ۾ رهن ٿا.", "roman": "munhinjā nāno ai nānī haidarābād meṃ rahan thā.", "en": "My grandparents (mother’s side) live in Hyderabad.", "focus": "منهنجا", "wrong": ["منهنجو|munhinjo", "منهنجي|munhinjī"] },
+        { "native": "ڏاڏي، توهان ڪيئن آهيو؟", "roman": "ɗāɗī, tavhāṃ kīeṃ āhyo?", "en": "Grandma, how are you?" },
+        { "native": "چاچا سائين، ڀلي ڪري آيا!", "roman": "chāchā sāīṃ, bhale kare āyā!", "en": "Welcome, uncle!" },
+        { "native": "ماسي ڪٿي آهي؟", "roman": "māsī kithe āhe?", "en": "Where's auntie?" }
+      ]
+    },
+    {
+      "title": "Family, friends and neighbours",
+      "new": ["ماڻهو", "مرد", "عورت", "دوست", "پاڙيسري", "گهر وارا", "امان", "بابا", "منهنجا گهر وارا حيدرآباد ۾ رهن ٿا."],
+      "sentences": [
+        { "native": "هي ماڻهو ڪير آهي؟", "roman": "hī māṇhū ker āhe?", "en": "Who is this man?" },
+        { "native": "اسان جا پاڙيسري سنڌي آهن.", "roman": "asāṃ jā pāṛesirī sindhī āhin.", "en": "Our neighbours are Sindhi.", "focus": "جا", "wrong": ["جو|jo", "جي|jī"] },
+        { "native": "امان، بابا ڪٿي آهن؟", "roman": "amāṃ, bābā kithe āhin?", "en": "Mum, where's Dad?" },
+        { "native": "تنهنجا گهر وارا ڪٿي رهن ٿا؟", "roman": "tunhinjā ghara vārā kithe rahan thā?", "en": "Where does your family live? (to a friend)", "focus": "تنهنجا", "wrong": ["تنهنجو|tunhinjo", "تنهنجي|tunhinjī"] },
+        { "native": "هوءَ منهنجي پاڙيسري آهي.", "roman": "hūa munhinjī pāṛesirī āhe.", "en": "She's my neighbour.", "focus": "منهنجي", "wrong": ["منهنجو|munhinjo", "منهنجا|munhinjā"] },
+        { "native": "اهو مرد منهنجو چاچو آهي.", "roman": "uho mardu munhinjo chācho āhe.", "en": "That man is my uncle." },
+        { "native": "هيءَ عورت منهنجي ماسي آهي.", "roman": "hīa ʿaurata munhinjī māsī āhe.", "en": "This woman is my aunt." },
+        { "native": "بابا، هي منهنجو دوست علي آهي.", "roman": "bābā, hī munhinjo dostu ʿAlī āhe.", "en": "Dad, this is my friend Ali." }
+      ]
+    },
+    {
+      "title": "Married? His wife, her brother",
+      "tip": { "title": "His brother: سندس ڀاءُ or ڀاڻس", "body": "- 'His / her' = **سندس** before the noun: سندس زال 'his wife', سندس مڙس 'her husband'.\n- In speech the ending **-s** is often stuck onto family words: **ڀاڻس** his/her brother, **ماڻس** mother, **پيڻس** father, **ڀيڻس** sister, **پٽس** son.\n- You need to recognise these; سندس is always fine to say.", "grammar": 2 },
+      "new": ["مڙس", "زال", "شادي", "سندس", "ڇا توهان شادي شده آهيو؟", "ڀاڻس ڊاڪٽر آهي.", "هي منهنجي دوست جي ماءُ آهي."],
+      "sentences": [
+        { "native": "سندس زال ڊاڪٽر آهي.", "roman": "sandasi zāla ḍākṭaru āhe.", "en": "His wife is a doctor.", "focus": "سندس", "wrong": ["منهنجي|munhinjī", "تنهنجي|tunhinjī"] },
+        { "native": "سندس مڙس استاد آهي.", "roman": "sandasi muṛsu ustādu āhe.", "en": "Her husband is a teacher.", "focus": "سندس", "wrong": ["منهنجو|munhinjo", "تنهنجو|tunhinjo"] },
+        { "native": "سندس ڀاءُ هتي رهي ٿو.", "roman": "sandasi bhāu hite rahe tho.", "en": "His/Her brother lives here.", "focus": "سندس", "wrong": ["منهنجو|munhinjo", "تنهنجو|tunhinjo"] },
+        { "native": "ماڻس ڳوٺ ۾ رهي ٿي.", "roman": "māṇasi ɠoṭha meṃ rahe thī.", "en": "His/Her mother lives in the village.", "focus": "ماڻس", "wrong": ["ڀاڻس|bhāṇasi", "پيڻس|pīṇasi"] },
+        { "native": "پيڻس ڊاڪٽر آهي.", "roman": "pīṇasi ḍākṭaru āhe.", "en": "His/Her father is a doctor.", "focus": "پيڻس", "wrong": ["ماڻس|māṇasi", "ڀيڻس|bheṇasi"] },
+        { "native": "ڀيڻس جي شادي آهي.", "roman": "bheṇasi jī shādī āhe.", "en": "It's his/her sister's wedding.", "focus": "ڀيڻس", "wrong": ["ڀاڻس|bhāṇasi", "ماڻس|māṇasi"] },
+        { "native": "پٽس ڪٿي رهي ٿو؟", "roman": "puṭasi kithe rahe tho?", "en": "Where does his/her son live?", "focus": "پٽس", "wrong": ["ماڻس|māṇasi", "ڀيڻس|bheṇasi"] },
+        { "native": "ڇا هو شادي شده آهي؟", "roman": "chhā hū shādī shuda āhe?", "en": "Is he married?" },
+        { "native": "جي نه، مان شادي شده ناهيان.", "roman": "jī na, māṃ shādī shuda nāhiyāṃ.", "en": "No, I'm not married." },
+        { "native": "هي منهنجي دوست جو پيءُ آهي.", "roman": "hī munhinje dosta jo pīu āhe.", "en": "This is my friend's father.", "focus": "جو", "wrong": ["جي|jī", "جا|jā"] }
+      ]
+    }
+  ]
 }

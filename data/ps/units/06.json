@@ -90,5 +90,100 @@
       { "speaker": "Asad", "native": "ډېره مننه، کور دې ودان!", "roman": "ḍéra manə́na, kor de wadā́n!", "en": "Thanks very much — bless your home!" }
     ]
   },
-  "culture": "Shoes come off at the door of a room with carpets, and guests are given the best place to sit — often cushions (توشکې) along the walls of the guest room. In many Pashtun homes the women's quarters are private, so a male visitor is received in the guest room or the village **حجره**, where men gather in the evenings to talk, drink tea and settle local matters. Power cuts (لوډشېډنګ in Pakistan) are common in both countries, so people sleep in the courtyard or on the roof in summer."
+  "culture": "Shoes come off at the door of a room with carpets, and guests are given the best place to sit — often cushions (توشکې) along the walls of the guest room. In many Pashtun homes the women's quarters are private, so a male visitor is received in the guest room or the village **حجره**, where men gather in the evenings to talk, drink tea and settle local matters. Power cuts (لوډشېډنګ in Pakistan) are common in both countries, so people sleep in the courtyard or on the roof in summer.",
+  "lessons": [
+    {
+      "title": "Rooms of the house",
+      "tip": { "title": "'In': په … کې", "body": "- 'In' comes in two parts that wrap round the noun: **په** کوټه **کې** 'in the room'.\n- After په some nouns change: -ay → **-i**: پخلنځی → په پخلنځ**ي** کې.\n- In quick speech people drop په: کور کې 'at home'.", "pattern": "په + place + کې", "grammar": 0 },
+      "new": ["کور", "کوټه", "پخلنځی", "تشناب", "انګړ", "کې", "تشناب چېرته دی؟"],
+      "sentences": [
+        { "native": "احمد په کوټه کې دی.", "roman": "ahmád pə kóṭa ke day.", "en": "Ahmad is in the room.", "focus": "کې", "wrong": ["ته|ta", "د|də"] },
+        { "native": "مور مې په پخلنځي کې ده.", "roman": "mor me pə paxlandzí ke da.", "en": "My mother is in the kitchen.", "focus": "پخلنځي", "wrong": ["پخلنځی|paxlandzáy"] },
+        { "native": "هلکان په انګړ کې دي.", "roman": "halakā́n pə angáṛ ke di.", "en": "The boys are in the courtyard.", "focus": "کې", "wrong": ["ته|ta", "د|də"] },
+        { "native": "ستاسو کور څو کوټې لري؟", "roman": "stāso kor tso kóṭe lári?", "en": "How many rooms does your house have?" },
+        { "native": "زموږ کور درې کوټې لري.", "roman": "zmuẓ kor dre kóṭe lári.", "en": "Our house has three rooms." },
+        { "native": "تشناب په انګړ کې دی.", "roman": "tashnā́b pə angáṛ ke day.", "en": "The bathroom is in the courtyard.", "focus": "کې", "wrong": ["ته|ta", "د|də"] },
+        { "native": "زه په کور کې يم.", "roman": "zə pə kor ke yəm.", "en": "I'm at home.", "focus": "کې", "wrong": ["ته|ta", "د|də"] },
+        { "native": "پخلنځی چېرته دی؟", "roman": "paxlandzáy chérta day?", "en": "Where's the kitchen?" },
+        { "native": "زما ورور په تشناب کې دی.", "roman": "zmā wror pə tashnā́b ke day.", "en": "My brother is in the bathroom.", "focus": "کې", "wrong": ["ته|ta", "د|də"] }
+      ]
+    },
+    {
+      "title": "Is there…? There isn't",
+      "tip": { "title": "شته and نشته", "body": "- **شته** 'there is / there are' and **نشته** 'there isn't / there aren't' never change: چای شته، اوبه نشته.\n- They're the natural question and answer: شيدې شته؟ — هو، شته / نه، نشته.\n- Also for people: احمد په کور کې نشته 'Ahmad isn't home'.", "pattern": "… شته؟ — هو، شته / نه، نشته", "grammar": 1 },
+      "new": ["شته", "نشته", "دلته", "هلته", "يخچال", "په کور کې څوک شته؟", "دلته برېښنا نشته."],
+      "sentences": [
+        { "native": "په يخچال کې اوبه شته؟", "roman": "pə yaxchā́l ke obə́ shta?", "en": "Is there any water in the fridge?" },
+        { "native": "نه، اوبه نشته.", "roman": "na, obə́ nə́shta.", "en": "No, there's no water.", "focus": "نشته", "wrong": ["شته|shta"] },
+        { "native": "هو، شيدې هم شته.", "roman": "ho, shíde ham shta.", "en": "Yes, and there's milk too.", "focus": "شته", "wrong": ["نشته|nə́shta"] },
+        { "native": "دلته تشناب نشته، هلته دی.", "roman": "dálta tashnā́b nə́shta, hálta day.", "en": "There's no bathroom here, it's over there.", "focus": "هلته", "wrong": ["دلته|dálta"] },
+        { "native": "احمد په کور کې نشته.", "roman": "ahmád pə kor ke nə́shta.", "en": "Ahmad isn't at home.", "focus": "نشته", "wrong": ["شته|shta"] },
+        { "native": "په يخچال کې هګۍ نشته.", "roman": "pə yaxchā́l ke hagə́y nə́shta.", "en": "There are no eggs in the fridge.", "focus": "نشته", "wrong": ["شته|shta"] },
+        { "native": "يخچال په پخلنځي کې دی.", "roman": "yaxchā́l pə paxlandzí ke day.", "en": "The fridge is in the kitchen." },
+        { "native": "دلته چای شته؟", "roman": "dálta chāy shta?", "en": "Is there any tea here?" },
+        { "native": "هو، هلته شته.", "roman": "ho, hálta shta.", "en": "Yes, there's some over there.", "focus": "شته", "wrong": ["نشته|nə́shta"] }
+      ]
+    },
+    {
+      "title": "Where's the key?",
+      "tip": { "title": "On, under, beside, behind", "body": "- **په** … **باندې** on: په مېز باندې.\n- **د** … **لاندې** under: د کټ لاندې.\n- **د** … **څنګ ته** beside · **د** … **شا ته** behind.\n- The noun always sits in the middle, between the two parts.", "pattern": "په مېز باندې  ·  د مېز لاندې", "grammar": 0 },
+      "new": ["مېز", "کټ", "څوکۍ", "کيلي", "لاندې", "باندې", "څنګ", "شا", "کيلي چېرته ده؟", "کيلي په مېز باندې ده."],
+      "sentences": [
+        { "native": "کيلي د مېز لاندې ده.", "roman": "kilí də mez lā́nde da.", "en": "The key is under the table.", "focus": "لاندې", "wrong": ["باندې|bā́nde", "کې|ke"] },
+        { "native": "ډوډۍ په مېز باندې ده.", "roman": "ḍoḍə́y pə mez bā́nde da.", "en": "The food is on the table.", "focus": "باندې", "wrong": ["لاندې|lā́nde", "شا|shā"] },
+        { "native": "څوکۍ د کټ څنګ ته ده.", "roman": "tsawkə́y də kaṭ tsang ta da.", "en": "The chair is beside the bed.", "focus": "څنګ", "wrong": ["شا|shā", "لاندې|lā́nde"] },
+        { "native": "ماشوم د کټ لاندې دی!", "roman": "māshúm də kaṭ lā́nde day!", "en": "The child is under the bed!", "focus": "لاندې", "wrong": ["باندې|bā́nde", "کې|ke"] },
+        { "native": "زما کيلي چېرته ده؟", "roman": "zmā kilí chérta da?", "en": "Where's my key?", "focus": "ده", "wrong": ["دی|day", "دي|di"] },
+        { "native": "کيلي دې په څوکۍ باندې ده.", "roman": "kilí de pə tsawkə́y bā́nde da.", "en": "Your key is on the chair.", "focus": "باندې", "wrong": ["لاندې|lā́nde", "شا|shā"] },
+        { "native": "هوټل د کور شا ته دی.", "roman": "hoṭál də kor shā ta day.", "en": "The restaurant is behind the house.", "focus": "شا", "wrong": ["څنګ|tsang", "لاندې|lā́nde"] },
+        { "native": "کټ په کوټه کې دی.", "roman": "kaṭ pə kóṭa ke day.", "en": "The bed is in the room." },
+        { "native": "هلکان د کور شا ته دي.", "roman": "halakā́n də kor shā ta di.", "en": "The boys are behind the house.", "focus": "شا", "wrong": ["څنګ|tsang", "باندې|bā́nde"] }
+      ]
+    },
+    {
+      "title": "Doors, windows and the fan",
+      "tip": { "title": "Open, close, switch on: '… کړه'", "body": "- Pashto says 'make the door closed': دروازه **بنده** کړه.\n- بند (closed), خلاص (open), چالان (on) agree with the thing: feminine **-a** (کړکۍ خلاصه کړه), masculine plain (څراغ بند کړه).\n- To an elder or a stranger say **کړئ** instead of کړه.", "pattern": "thing + بند / خلاص / چالان + کړه" },
+      "new": ["دروازه", "کړکۍ", "پکه", "څراغ", "دروازه بنده کړه.", "کړکۍ خلاصه کړه.", "پکه چالانه کړه، ګرمي ده."],
+      "sentences": [
+        { "native": "څراغ بند کړه.", "roman": "tsarā́ġ band kṛa.", "en": "Turn off the light.", "focus": "بند", "wrong": ["بنده|bánda"] },
+        { "native": "مهرباني وکړئ، کړکۍ بنده کړئ.", "roman": "mehrabāní wə́kṛəy, kaṛkə́y bánda kṛəy.", "en": "Please close the window. (polite)", "focus": "بنده", "wrong": ["بند|band"] },
+        { "native": "دروازه خلاصه ده؟", "roman": "darwā́za xlā́sa da?", "en": "Is the door open?", "focus": "خلاصه", "wrong": ["خلاص|xlās"] },
+        { "native": "څراغ چالان کړه.", "roman": "tsarā́ġ chālā́n kṛa.", "en": "Switch on the light.", "focus": "چالان", "wrong": ["چالانه|chālā́na"] },
+        { "native": "پکه بنده ده.", "roman": "páka bánda da.", "en": "The fan is off.", "focus": "بنده", "wrong": ["بند|band"] },
+        { "native": "په کوټه کې پکه نشته.", "roman": "pə kóṭa ke páka nə́shta.", "en": "There's no fan in the room." },
+        { "native": "ګرمي ده، کړکۍ خلاصه کړه.", "roman": "garmí da, kaṛkə́y xlā́sa kṛa.", "en": "It's hot — open the window.", "focus": "خلاصه", "wrong": ["خلاص|xlās"] },
+        { "native": "د کوټې دروازه بنده نه ده.", "roman": "də kóṭe darwā́za bánda na da.", "en": "The door of the room isn't shut.", "focus": "بنده", "wrong": ["بند|band"] },
+        { "native": "څراغ په مېز باندې دی.", "roman": "tsarā́ġ pə mez bā́nde day.", "en": "The lamp is on the table." }
+      ]
+    },
+    {
+      "title": "Welcome to our home",
+      "new": ["ستاسو کور ډېر ښکلی دی.", "راشئ، دننه راشئ!", "بوټونه دلته وباسئ.", "غالۍ", "ديوال", "نږدې", "ماشومان په انګړ کې لوبې کوي."],
+      "sentences": [
+        { "native": "زموږ کور ښار ته نږدې دی.", "roman": "zmuẓ kor ṣār ta nəẓdé day.", "en": "Our house is near the city." },
+        { "native": "ستاسو غالۍ ډېره ښکلې ده.", "roman": "stāso ġālə́y ḍéra ṣkə́le da.", "en": "Your carpet is very beautiful." },
+        { "native": "بوټونه دلته وباسه.", "roman": "buṭúna dálta wə́bāsa.", "en": "Take your shoes off here. (to a friend)" },
+        { "native": "ماشومان په غالۍ باندې لوبې کوي.", "roman": "māshumā́n pə ġālə́y bā́nde lóbe kawí.", "en": "The children are playing on the carpet." },
+        { "native": "د ديوال څنګ ته يو مېز دی.", "roman": "də dewā́l tsang ta yaw mez day.", "en": "There's a table by the wall." },
+        { "native": "حاجي صاحب، دننه راشئ.", "roman": "hājí sāhíb, danə́na rā́shəy.", "en": "Haji sahib, please come in." },
+        { "native": "ستاسو کور هوټل ته نږدې دی؟", "roman": "stāso kor hoṭál ta nəẓdé day?", "en": "Is your house near the restaurant?" },
+        { "native": "ستاسو انګړ ډېر ښکلی دی.", "roman": "stāso angáṛ ḍer ṣkə́lay day.", "en": "Your courtyard is lovely." }
+      ]
+    },
+    {
+      "title": "Cups, glasses and the roof",
+      "new": ["ګيلاس", "پياله", "چاړه", "بام"],
+      "sentences": [
+        { "native": "ګيلاس چېرته دی؟", "roman": "gilā́s chérta day?", "en": "Where's the glass?" },
+        { "native": "په مېز باندې ګيلاس نشته.", "roman": "pə mez bā́nde gilā́s nə́shta.", "en": "There's no glass on the table." },
+        { "native": "يوه پياله چای راکړه.", "roman": "yáwa piyā́la chāy rā́kṛa.", "en": "Give me a cup of tea." },
+        { "native": "پيالې په پخلنځي کې دي.", "roman": "piyā́le pə paxlandzí ke di.", "en": "The cups are in the kitchen." },
+        { "native": "چاړه لرې؟", "roman": "chā́ṛa lare?", "en": "Do you have a knife?" },
+        { "native": "چاړه په مېز باندې ده.", "roman": "chā́ṛa pə mez bā́nde da.", "en": "The knife is on the table." },
+        { "native": "ماشومان په بام باندې دي.", "roman": "māshumā́n pə bām bā́nde di.", "en": "The children are up on the roof." },
+        { "native": "دوه ګيلاسه اوبه راوړه.", "roman": "dwa gilā́sa obə́ rā́wṛa.", "en": "Bring two glasses of water." },
+        { "native": "ګرمي ده، بام ته ځو.", "roman": "garmí da, bām ta dzu.", "en": "It's hot — let's go up to the roof." }
+      ]
+    }
+  ]
 }

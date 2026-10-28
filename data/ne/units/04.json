@@ -99,5 +99,88 @@
       { "speaker": "Tom", "native": "ठीक छ। धेरै धन्यवाद!", "roman": "ṭhik chha. dherai dhanyabād!", "en": "Fine. Thanks very much!" }
     ]
   },
-  "culture": "Nepal uses its own calendar, the **Bikram Sambat** (विक्रम संवत्), which runs about 56 years and 8 months ahead of the Western one — so many Nepalis will tell you their age or birth year in both systems. Devanagari digits appear on number plates, bus routes and price tags, so it pays to read them fluently. When giving money as a gift (at weddings, Dashain or to priests) Nepalis add one rupee to make an 'unfinished', auspicious odd sum: रु. १०१, ५०१, १००१. Little girls are affectionately called **नानी** and little boys **बाबु**."
+  "culture": "Nepal uses its own calendar, the **Bikram Sambat** (विक्रम संवत्), which runs about 56 years and 8 months ahead of the Western one — so many Nepalis will tell you their age or birth year in both systems. Devanagari digits appear on number plates, bus routes and price tags, so it pays to read them fluently. When giving money as a gift (at weddings, Dashain or to priests) Nepalis add one rupee to make an 'unfinished', auspicious odd sum: रु. १०१, ५०१, १००१. Little girls are affectionately called **नानी** and little boys **बाबु**.",
+  "lessons": [
+    {
+      "title": "Counting things and people",
+      "tip": { "title": "Counter words: वटा and जना", "body": "- Put a counter between the number and the noun: things take **वटा** (दुई**वटा** झोला), people take **जना** (तीन **जना** साथी).\n- 'One thing' / 'a' is **एउटा** (**एउटी** for a woman or girl).\n- The noun stays singular after a number, and measures drop the counter: एक दर्जन अण्डा, सय रुपैयाँ.", "pattern": "number + वटा + thing  ·  number + जना + person", "grammar": 0 },
+      "new": ["वटा", "जना", "एउटा", "गन्नु", "दर्जन", "दुईवटा दिनुहोस्।", "हामी चार जना छौँ।"],
+      "sentences": [
+        { "native": "हामी पाँच जना छौँ।", "roman": "hāmi pāṃch janā chhauṃ.", "en": "There are five of us.", "focus": "जना", "wrong": ["वटा|waṭā", "एउटा|euṭā"] },
+        { "native": "मेरा दुईवटा झोला कहाँ छन्?", "roman": "merā duiwaṭā jholā kahāṃ chhan?", "en": "Where are my two bags?", "focus": "दुईवटा", "wrong": ["दुई जना|dui janā", "एउटा|euṭā"] },
+        { "native": "तीनवटा चिया दिनुहोस्।", "roman": "tinwaṭā chiyā dinuhos.", "en": "Three teas, please.", "focus": "तीनवटा", "wrong": ["तीन जना|tin janā", "एउटा|euṭā"] },
+        { "native": "यहाँ दुई जना विदेशी छन्।", "roman": "yahāṃ dui janā bidesi chhan.", "en": "There are two foreigners here.", "focus": "जना", "wrong": ["वटा|waṭā", "एउटा|euṭā"] },
+        { "native": "मेरो एउटा छोरा छ।", "roman": "mero euṭā chhorā chha.", "en": "I have one son.", "focus": "एउटा", "wrong": ["एउटी|euṭi", "जना|janā"] },
+        { "native": "उहाँकी एउटी छोरी छ।", "roman": "uhāṃki euṭi chhori chha.", "en": "She has a daughter.", "focus": "एउटी", "wrong": ["एउटा|euṭā", "जना|janā"] },
+        { "native": "हामी दुई जना मात्र छौँ।", "roman": "hāmi dui janā mātra chhauṃ.", "en": "It's just the two of us.", "focus": "जना", "wrong": ["वटा|waṭā", "एउटा|euṭā"] },
+        { "native": "एक दर्जन अण्डा दिनुहोस्।", "roman": "ek darjan anḍā dinuhos.", "en": "A dozen eggs, please." },
+        { "native": "झोलाहरू गन्नुहोस् त।", "roman": "jholāharu gannuhos ta.", "en": "Just count the bags, will you." }
+      ]
+    },
+    {
+      "title": "How much? How many?",
+      "tip": { "title": "कति: how much, how many", "body": "- **कति** asks about amount, number or price: यो कति हो? 'How much is this?'\n- Add the counter: **कतिवटा** 'how many (things)', **कति जना** 'how many (people)'.\n- Phone and room numbers use कति too: नम्बर **कति** हो?\n- The answer just replaces कति with the number.", "pattern": "कति / कतिवटा / कति जना + …?", "grammar": 1 },
+      "new": ["कति", "कतिवटा", "नम्बर", "जम्मा", "कतिवटा चाहियो?", "तपाईंको फोन नम्बर कति हो?", "जम्मा कति भयो?", "कति जना हुनुहुन्छ?"],
+      "sentences": [
+        { "native": "यो झोला कति हो?", "roman": "yo jholā kati ho?", "en": "How much is this bag?", "focus": "कति", "wrong": ["कतिवटा|katiwaṭā", "कुन|kun"] },
+        { "native": "तिम्रो फोन नम्बर कति हो?", "roman": "timro phon nambar kati ho?", "en": "What's your phone number? (to a friend)", "focus": "कति", "wrong": ["कतिवटा|katiwaṭā", "को|ko"] },
+        { "native": "तपाईंलाई कतिवटा चिया चाहियो?", "roman": "tapāiṃlāi katiwaṭā chiyā chāhiyo?", "en": "How many teas would you like?", "focus": "कतिवटा", "wrong": ["कति जना|kati janā", "कुन|kun"] },
+        { "native": "तिम्रा कति जना दाजुभाइ छन्?", "roman": "timrā kati janā dājubhāi chhan?", "en": "How many brothers do you have?", "focus": "जना", "wrong": ["वटा|waṭā", "एउटा|euṭā"] },
+        { "native": "जम्मा कति रुपैयाँ भयो?", "roman": "jammā kati rupaiyāṃ bhayo?", "en": "How many rupees is that altogether?", "focus": "कति", "wrong": ["कतिवटा|katiwaṭā", "कुन|kun"] },
+        { "native": "एक दर्जन अण्डा कति हो?", "roman": "ek darjan anḍā kati ho?", "en": "How much is a dozen eggs?", "focus": "कति", "wrong": ["कतिवटा|katiwaṭā", "कति जना|kati janā"] },
+        { "native": "जम्मा तीन सय रुपैयाँ।", "roman": "jammā tin saya rupaiyāṃ.", "en": "Three hundred rupees altogether." },
+        { "native": "मलाई दुईवटा चाहियो।", "roman": "malāi duiwaṭā chāhiyo.", "en": "I need two." },
+        { "native": "कति राम्रो!", "roman": "kati rāmro!", "en": "How nice!" }
+      ]
+    },
+    {
+      "title": "How old are you?",
+      "tip": { "title": "Age and 'sixth, seventh…'", "body": "- Age is 'I have become X years-of': म तीस वर्षको **भएँ**. Ask तपाईं कति वर्षको **हुनुभयो**? (polite) or तिमी कति वर्षको **भयौ**? (friend, child).\n- For a girl or woman: वर्ष**की**.\n- Ordinals from 5th on add **-औँ**: सात → **सातौँ**, नौ → **नवौँ**, दस → **दसौँ**; 6th is **छैटौँ**.", "pattern": "म + X + वर्षको + भएँ  ·  सात → सातौँ", "grammar": 2 },
+      "new": ["उमेर", "वर्ष", "साल", "छैटौँ", "सातौँ", "आठौँ", "नवौँ", "दसौँ", "तपाईं कति वर्षको हुनुभयो?", "म अट्ठाइस वर्षको भएँ।"],
+      "sentences": [
+        { "native": "तिमी कति वर्षको भयौ?", "roman": "timi kati barsako bhayau?", "en": "How old are you? (to a boy or a friend)", "focus": "भयौ", "wrong": ["भएँ|bhaeṃ", "हुनुभयो|hunubhayo"] },
+        { "native": "म तीस वर्षको भएँ।", "roman": "ma tis barsako bhaeṃ.", "en": "I'm thirty.", "focus": "भएँ", "wrong": ["भयो|bhayo", "भयौ|bhayau"] },
+        { "native": "मेरी छोरी दस वर्षकी भई।", "roman": "meri chhori das barsaki bhai.", "en": "My daughter is ten.", "focus": "वर्षकी", "wrong": ["वर्षको|barsako", "वर्षका|barsakā"] },
+        { "native": "तपाईंका बुबा कति वर्षको हुनुभयो?", "roman": "tapāiṃkā bubā kati barsako hunubhayo?", "en": "How old is your father?", "focus": "हुनुभयो", "wrong": ["भयो|bhayo", "भएँ|bhaeṃ"] },
+        { "native": "यो साल मेरो छोरा आठ वर्षको भयो।", "roman": "yo sāl mero chhorā āṭh barsako bhayo.", "en": "My son turned eight this year.", "focus": "भयो", "wrong": ["भएँ|bhaeṃ", "भई|bhai"] },
+        { "native": "मेरो उमेर बीस वर्ष हो।", "roman": "mero umer bis barsa ho.", "en": "I'm twenty. (lit. my age is twenty years)" },
+        { "native": "मेरो छोरा सातौँ कक्षामा पढ्छ।", "roman": "mero chhorā sātauṃ kakchhāmā paḍhchha.", "en": "My son is in class seven.", "focus": "सातौँ", "wrong": ["सात|sāt", "सातवटा|sātwaṭā"] },
+        { "native": "मेरी बहिनी नवौँ कक्षामा पढ्छे।", "roman": "meri bahini nawauṃ kakchhāmā paḍhchhe.", "en": "My younger sister is in class nine.", "focus": "नवौँ", "wrong": ["नौ|nau", "नौवटा|nauwaṭā"] },
+        { "native": "तिम्रो भाइ कुन कक्षामा पढ्छ? छैटौँ कि आठौँ?", "roman": "timro bhāi kun kakchhāmā paḍhchha? chhaiṭauṃ ki āṭhauṃ?", "en": "What class is your brother in? Six or eight?", "focus": "छैटौँ", "wrong": ["छ|chha", "छवटा|chhawaṭā"] },
+        { "native": "यो साल ऊ दसौँ कक्षामा छ।", "roman": "yo sāl u dasauṃ kakchhāmā chha.", "en": "This year he's in class ten.", "focus": "दसौँ", "wrong": ["दस|das", "दसवटा|daswaṭā"] }
+      ]
+    },
+    {
+      "title": "First time, third floor",
+      "tip": { "title": "First, second, third…", "body": "- The first four are special: **पहिलो**, **दोस्रो**, **तेस्रो**, **चौथो**; then **पाँचौँ**, छैटौँ, सातौँ…\n- **पटक** is 'time, occasion': पहिलो पटक 'the first time', एक पटक 'once', दुई पटक 'twice'.\n- Floors: तेस्रो **तलामा** 'on the third floor'.", "pattern": "पहिलो पटक  ·  तेस्रो तलामा" },
+      "new": ["पहिलो", "दोस्रो", "तेस्रो", "चौथो", "पाँचौँ", "पटक", "तला", "नेपाल आएको यो मेरो पहिलो पटक हो।", "मेरो कोठा तेस्रो तलामा छ।"],
+      "sentences": [
+        { "native": "काठमाडौं आएको यो मेरो तेस्रो पटक हो।", "roman": "Kāṭhmāḍauṃ āeko yo mero tesro paṭak ho.", "en": "This is my third time in Kathmandu.", "focus": "तेस्रो", "wrong": ["तीन|tin", "तीनवटा|tinwaṭā"] },
+        { "native": "तपाईं नेपाल पहिलो पटक आउनुभएको हो?", "roman": "tapāiṃ Nepāl pahilo paṭak āunubhaeko ho?", "en": "Is this your first time in Nepal?", "focus": "पहिलो", "wrong": ["एक|ek", "एउटा|euṭā"] },
+        { "native": "हाम्रो कोठा चौथो तलामा छ।", "roman": "hāmro koṭhā chautho talāmā chha.", "en": "Our room is on the fourth floor.", "focus": "चौथो", "wrong": ["चार|chār", "चारवटा|chārwaṭā"] },
+        { "native": "दिदीको कोठा पाँचौँ तलामा छ।", "roman": "didiko koṭhā pāṃchauṃ talāmā chha.", "en": "Didi's room is on the fifth floor.", "focus": "पाँचौँ", "wrong": ["पाँच|pāṃch", "पाँचवटा|pāṃchwaṭā"] },
+        { "native": "यो मेरो दोस्रो छोरा हो।", "roman": "yo mero dosro chhorā ho.", "en": "This is my second son.", "focus": "दोस्रो", "wrong": ["दुई|dui", "दुईवटा|duiwaṭā"] },
+        { "native": "एक पटक फेरि भन्नुहोस् न।", "roman": "ek paṭak pheri bhannuhos na.", "en": "Please say it once more.", "focus": "पटक", "wrong": ["वटा|waṭā", "जना|janā"] },
+        { "native": "तपाईंको कोठा कुन तलामा छ?", "roman": "tapāiṃko koṭhā kun talāmā chha?", "en": "Which floor is your room on?" },
+        { "native": "दोस्रो तलामा छ।", "roman": "dosro talāmā chha.", "en": "It's on the second floor.", "focus": "दोस्रो", "wrong": ["दुई|dui", "दुईवटा|duiwaṭā"] },
+        { "native": "पहिलो पटक मैले बुझिनँ।", "roman": "pahilo paṭak maile bujhinaṃ.", "en": "I didn't understand the first time." }
+      ]
+    },
+    {
+      "title": "A lot, a little, half",
+      "tip": { "title": "Amounts", "body": "- **धेरै** = 'a lot, many' and also 'very' before an adjective: धेरै राम्रो.\n- **थोरै** = 'few, not much'; **अलिकति** = 'a little bit (of)', handy when someone is serving you.\n- Halves: **आधा** ½, **डेढ** 1½, **अढाई** 2½: डेढ सय = 150, अढाई सय = 250." },
+      "new": ["आधा", "डेढ", "अढाई", "धेरै", "थोरै", "अलिकति", "धेरै धेरै धन्यवाद।", "अलिकति मात्र।"],
+      "sentences": [
+        { "native": "धेरै राम्रो छ!", "roman": "dherai rāmro chha!", "en": "It's very nice!", "focus": "धेरै" },
+        { "native": "चिया अलिकति मात्र दिनुहोस्।", "roman": "chiyā alikati mātra dinuhos.", "en": "Just a little tea, please.", "focus": "अलिकति" },
+        { "native": "मलाई आधा मात्र दिनुहोस्।", "roman": "malāi ādhā mātra dinuhos.", "en": "Just give me half, please.", "focus": "आधा" },
+        { "native": "यहाँ धेरै मान्छे छन्।", "roman": "yahāṃ dherai mānchhe chhan.", "en": "There are lots of people here.", "focus": "धेरै" },
+        { "native": "कक्षामा थोरै विद्यार्थी छन्।", "roman": "kakchhāmā thorai bidyārthi chhan.", "en": "There are only a few students in the class.", "focus": "थोरै" },
+        { "native": "जम्मा डेढ सय रुपैयाँ भयो।", "roman": "jammā ḍeḍh saya rupaiyāṃ bhayo.", "en": "It comes to 150 rupees altogether.", "focus": "डेढ", "wrong": ["आधा|ādhā", "अढाई|aḍhāi"] },
+        { "native": "अढाई सय रुपैयाँ दिनुहोस्।", "roman": "aḍhāi saya rupaiyāṃ dinuhos.", "en": "250 rupees, please.", "focus": "अढाई", "wrong": ["डेढ|ḍeḍh", "आधा|ādhā"] },
+        { "native": "मलाई नेपाली थोरै आउँछ।", "roman": "malāi nepāli thorai āuṃchha.", "en": "I only speak a little Nepali." },
+        { "native": "धेरै धन्यवाद, दाइ!", "roman": "dherai dhanyabād, dāi!", "en": "Thanks a lot, brother!" }
+      ]
+    }
+  ]
 }

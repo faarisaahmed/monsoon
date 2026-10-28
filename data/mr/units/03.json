@@ -89,5 +89,97 @@
       { "speaker": "Priya", "native": "आहे ना! ताई मुंबईत असते. तिचं लग्न झालं आहे.", "roman": "āhe nā! tāī mumbaīt aste. titsaṃ lagna dzhālaṃ āhe.", "en": "Of course I do! My sister lives in Mumbai. She's married." }
     ]
   },
-  "culture": "Respect shows up in grammar: fathers, grandfathers, uncles and teachers are usually referred to with **plural** verbs and forms (बाबा आले, आजोबांचं नाव), while mothers are often spoken of in the singular out of closeness. Marathi women traditionally took a new first name as well as surname after marriage, though this is now rare. Kinship words are used for non-relatives all the time: a rickshaw driver may be **काका** or **दादा**, a woman in a shop **ताई** or **मावशी**."
+  "culture": "Respect shows up in grammar: fathers, grandfathers, uncles and teachers are usually referred to with **plural** verbs and forms (बाबा आले, आजोबांचं नाव), while mothers are often spoken of in the singular out of closeness. Marathi women traditionally took a new first name as well as surname after marriage, though this is now rare. Kinship words are used for non-relatives all the time: a rickshaw driver may be **काका** or **दादा**, a woman in a shop **ताई** or **मावशी**.",
+  "lessons": [
+    {
+      "title": "Meet my family",
+      "tip": { "title": "माझा, माझी, माझं, माझे", "body": "- 'My' agrees with the **person or thing owned**, not with you: माझा भाऊ (m), माझी बहीण (f), माझं कुटुंब (n).\n- Respected elders take the plural: **माझे** वडील / बाबा **आहेत**.\n- 'This is' = **हा** (m), **ही** (f), **हे** (n, or respectful).\n- The same endings mean 'of' after any noun: आईचं नाव 'mum's name'.", "pattern": "माझा भाऊ · माझी बहीण · माझं कुटुंब · माझे वडील", "grammar": 0 },
+      "new": ["माझा", "आई", "वडील", "बाबा", "भाऊ", "बहीण", "कुटुंब", "हे माझे वडील आहेत."],
+      "sentences": [
+        { "native": "ही माझी आई आहे.", "roman": "hī mājhī āī āhe.", "en": "This is my mother.", "focus": "माझी", "wrong": ["माझा|mādzhā", "माझं|mādzhaṃ"] },
+        { "native": "हा माझा भाऊ, समीर.", "roman": "hā mādzhā bhāū, samīr.", "en": "This is my brother, Sameer.", "focus": "माझा", "wrong": ["माझी|mājhī", "माझं|mādzhaṃ"] },
+        { "native": "माझी बहीण पुण्यात राहते.", "roman": "mājhī bahīṇ puṇyāt rāhte.", "en": "My sister lives in Pune.", "focus": "माझी", "wrong": ["माझा|mādzhā", "माझं|mādzhaṃ"] },
+        { "native": "माझे बाबा मुंबईचे आहेत.", "roman": "mājhe bābā mumbaīche āhet.", "en": "My dad is from Mumbai.", "focus": "माझे", "wrong": ["माझी|mājhī", "माझं|mādzhaṃ"] },
+        { "native": "हे माझं कुटुंब आहे.", "roman": "he mādzhaṃ kuṭumb āhe.", "en": "This is my family.", "focus": "माझं", "wrong": ["माझा|mādzhā", "माझी|mājhī"] },
+        { "native": "माझ्या आईचं नाव सुनीता आहे.", "roman": "mājhyā āītsaṃ nāv sunītā āhe.", "en": "My mother's name is Sunita.", "focus": "आईचं", "wrong": ["आईचा|āītsā", "आईची|āīchī"] },
+        { "native": "तुमचे वडील कुठे राहतात?", "roman": "tumche vaḍīl kuṭhe rāhtāt?", "en": "Where does your father live?", "focus": "राहतात", "wrong": ["राहतो|rāhto", "राहते|rāhte"] },
+        { "native": "माझा भाऊ मराठी बोलत नाही.", "roman": "mādzhā bhāū marāṭhī bolat nāhī.", "en": "My brother doesn't speak Marathi.", "focus": "माझा", "wrong": ["माझी|mājhī", "माझं|mādzhaṃ"] },
+        { "native": "आई, बाबा कुठे आहेत?", "roman": "āī, bābā kuṭhe āhet?", "en": "Mum, where is Dad?", "focus": "आहेत", "wrong": ["आहे|āhe", "आहात|āhāt"] }
+      ]
+    },
+    {
+      "title": "Brothers and sisters",
+      "tip": { "title": "मला … आहे — I have", "body": "- 'I have a sister' is 'to me a sister is': **मला** एक बहीण **आहे**. Two or more → **आहेत**.\n- **तुला** / **तुम्हाला** 'to you', **तिला** 'to her'.\n- Older siblings are called **दादा** and **ताई** rather than by name. Younger: **धाकटा** भाऊ, **धाकटी** बहीण.", "pattern": "मला + एक भाऊ + आहे" },
+      "new": ["दादा", "ताई", "धाकटा", "आणि", "तुझा", "तुम्हाला भाऊ-बहीण आहेत का?", "मला एक मोठा भाऊ आहे.", "तुझ्या बहिणीचं नाव काय?"],
+      "sentences": [
+        { "native": "मला एक बहीण आहे.", "roman": "malā ek bahīṇ āhe.", "en": "I have a sister.", "focus": "मला", "wrong": ["मी|mī", "माझा|mādzhā"] },
+        { "native": "तुला भाऊ आहे का?", "roman": "tulā bhāū āhe kā?", "en": "Do you have a brother?", "focus": "तुला", "wrong": ["तू|tū", "तुझा|tudzhā"] },
+        { "native": "तिला दोन भाऊ आहेत.", "roman": "tilā don bhāū āhet.", "en": "She has two brothers.", "focus": "आहेत", "wrong": ["आहे|āhe", "आहोत|āhot"] },
+        { "native": "मला भाऊ नाही, पण दोन बहिणी आहेत.", "roman": "malā bhāū nāhī, paṇ don bahiṇī āhet.", "en": "I don't have a brother, but I have two sisters.", "focus": "बहिणी", "wrong": ["बहीण|bahīṇ", "बहिणा|bahiṇā"] },
+        { "native": "माझा धाकटा भाऊ मुंबईत राहतो.", "roman": "mādzhā dhākṭā bhāū mumbaīt rāhto.", "en": "My younger brother lives in Mumbai.", "focus": "धाकटा", "wrong": ["धाकटी|dhākṭī", "धाकटे|dhākṭe"] },
+        { "native": "तुझा भाऊ कुठे राहतो?", "roman": "tudzhā bhāū kuṭhe rāhto?", "en": "Where does your brother live?", "focus": "तुझा", "wrong": ["तुझी|tujhī", "तुझं|tudzhaṃ"] },
+        { "native": "ताई आणि दादा मुंबईत राहतात.", "roman": "tāī āṇi dādā mumbaīt rāhtāt.", "en": "My big sister and big brother live in Mumbai.", "focus": "राहतात", "wrong": ["राहतो|rāhto", "राहते|rāhte"] },
+        { "native": "दादा, तू कुठे आहेस?", "roman": "dādā, tū kuṭhe āhes?", "en": "Bro, where are you?" }
+      ]
+    },
+    {
+      "title": "Husband, wife and children",
+      "tip": { "title": "Gender and plurals", "body": "- Every noun is m, f or n, and 'my', 'this' and verbs follow it.\n- m **-आ → -ए**: मुलगा → मुलगे · f **-ई**: मुलगी → मुली, बहीण → बहिणी · n: मूल → **मुलं**.\n- Many m nouns don't change: एक भाऊ, दोन भाऊ.", "pattern": "मुलगा → मुलगे · मुलगी → मुली · मूल → मुलं", "grammar": 1 },
+      "new": ["नवरा", "बायको", "मुलगा", "मुलगी", "मूल", "लग्न", "ही माझी बायको, स्नेहा.", "तुमचं लग्न झालं आहे का?", "हो, मला दोन मुलं आहेत."],
+      "sentences": [
+        { "native": "मला दोन मुलगे आहेत.", "roman": "malā don mulge āhet.", "en": "I have two sons.", "focus": "मुलगे", "wrong": ["मुलगा|mulgā", "मुलगी|mulgī"] },
+        { "native": "तिला तीन मुली आहेत.", "roman": "tilā tīn mulī āhet.", "en": "She has three daughters.", "focus": "मुली", "wrong": ["मुलगी|mulgī", "मुलगे|mulge"] },
+        { "native": "तुम्हाला मुलं आहेत का?", "roman": "tumhālā mulaṃ āhet kā?", "en": "Do you have children?", "focus": "मुलं", "wrong": ["मूल|mūl", "मुलगा|mulgā"] },
+        { "native": "हा माझा मुलगा, अमित.", "roman": "hā mādzhā mulgā, amit.", "en": "This is my son, Amit.", "focus": "हा", "wrong": ["ही|hī", "हे|he"] },
+        { "native": "माझा नवरा मुंबईचा आहे.", "roman": "mādzhā navrā mumbaītsā āhe.", "en": "My husband is from Mumbai.", "focus": "माझा", "wrong": ["माझी|mājhī", "माझं|mādzhaṃ"] },
+        { "native": "तुमची बायको कुठली आहे?", "roman": "tumchī bāyko kuṭhlī āhe?", "en": "Where is your wife from?", "focus": "कुठली", "wrong": ["कुठला|kuṭhlā", "कुठलं|kuṭhlaṃ"] },
+        { "native": "माझं लग्न झालं आहे.", "roman": "mādzhaṃ lagna dzhālaṃ āhe.", "en": "I'm married.", "focus": "माझं", "wrong": ["माझा|mādzhā", "माझी|mājhī"] },
+        { "native": "माझी मुलगी इंग्रजी बोलते.", "roman": "mājhī mulgī iṅgrajī bolte.", "en": "My daughter speaks English.", "focus": "बोलते", "wrong": ["बोलतो|bolto", "बोलता|boltā"] },
+        { "native": "तिला एक मुलगा आणि एक मुलगी आहे.", "roman": "tilā ek mulgā āṇi ek mulgī āhe.", "en": "She has a son and a daughter." }
+      ]
+    },
+    {
+      "title": "Grandparents, aunts and uncles",
+      "tip": { "title": "Elders, his and her", "body": "- Respected elders take **plural** forms: माझे आजोबा, तिचे मामा **राहतात**.\n- His = **त्याचा**, her = **तिचा**. Like माझा they agree with the person owned: त्याची आत्या 'his aunt', तिचा भाऊ 'her brother'.\n- Uncles and aunts have exact names: **काका** (dad's brother), **मामा** (mum's brother), **आत्या** (dad's sister), **मावशी** (mum's sister)." },
+      "new": ["आजी", "आजोबा", "काका", "मामा", "मावशी", "आत्या", "त्याचा", "तिचा"],
+      "sentences": [
+        { "native": "माझे आजोबा गावात राहतात.", "roman": "mājhe ādzobā gāvāt rāhtāt.", "en": "My grandfather lives in the village.", "focus": "माझे", "wrong": ["माझा|mādzhā", "माझी|mājhī"] },
+        { "native": "माझी आजी मुंबईत राहते.", "roman": "mājhī ājī mumbaīt rāhte.", "en": "My grandmother lives in Mumbai.", "focus": "माझी", "wrong": ["माझा|mādzhā", "माझे|mājhe"] },
+        { "native": "काका, तुम्ही कसे आहात?", "roman": "kākā, tumhī kase āhāt?", "en": "Uncle, how are you?", "focus": "कसे", "wrong": ["कसा|kasā", "कशी|kashī"] },
+        { "native": "त्याची आत्या पुण्यात राहते.", "roman": "tyāchī ātyā puṇyāt rāhte.", "en": "His aunt (his dad's sister) lives in Pune.", "focus": "त्याची", "wrong": ["त्याचा|tyātsā", "त्याचं|tyātsaṃ"] },
+        { "native": "तिचे मामा मुंबईत राहतात.", "roman": "tiche māmā mumbaīt rāhtāt.", "en": "Her uncle (her mum's brother) lives in Mumbai.", "focus": "तिचे", "wrong": ["तिची|tichī", "तिचं|titsaṃ"] },
+        { "native": "तिचा भाऊ इंग्रजी बोलतो.", "roman": "titsā bhāū iṅgrajī bolto.", "en": "Her brother speaks English.", "focus": "तिचा", "wrong": ["तिची|tichī", "तिचं|titsaṃ"] },
+        { "native": "त्याचं नाव काय?", "roman": "tyātsaṃ nāv kāy?", "en": "What's his name?", "focus": "त्याचं", "wrong": ["त्याचा|tyātsā", "त्याची|tyāchī"] },
+        { "native": "मावशी, या ना, बसा.", "roman": "māvshī, yā nā, basā.", "en": "Auntie, do come in and sit down." }
+      ]
+    },
+    {
+      "title": "Friends and people",
+      "tip": { "title": "Friends: मित्र and मैत्रीण", "body": "- A male friend is **मित्र** (plural also मित्र); a female friend is **मैत्रीण** (plural **मैत्रिणी**).\n- **माणूस** = person / man; **बाई** = woman, and after a surname 'Mrs': कुलकर्णी बाई.\n- Respectful 'she' or a lady addressed by title takes the plural: बाई **आहेत**." },
+      "new": ["मित्र", "मैत्रीण", "माणूस", "बाई"],
+      "sentences": [
+        { "native": "हा माझा मित्र, राहुल.", "roman": "hā mādzhā mitra, rāhul.", "en": "This is my friend Rahul.", "focus": "मित्र", "wrong": ["मैत्रीण|maitrīṇ", "माणूस|māṇūs"] },
+        { "native": "ही माझी मैत्रीण, प्रिया.", "roman": "hī mājhī maitrīṇ, priyā.", "en": "This is my friend Priya.", "focus": "मैत्रीण", "wrong": ["मित्र|mitra", "बाई|bāī"] },
+        { "native": "राहुल आणि मी मित्र आहोत.", "roman": "rāhul āṇi mī mitra āhot.", "en": "Rahul and I are friends.", "focus": "आहोत", "wrong": ["आहेत|āhet", "आहात|āhāt"] },
+        { "native": "तुझ्या मैत्रिणी कुठे आहेत?", "roman": "tujhyā maitriṇī kuṭhe āhet?", "en": "Where are your (girl) friends?", "focus": "मैत्रिणी", "wrong": ["मैत्रीण|maitrīṇ", "मित्र|mitra"] },
+        { "native": "तो माणूस कोण आहे?", "roman": "to māṇūs koṇ āhe?", "en": "Who is that man?", "focus": "माणूस", "wrong": ["बाई|bāī", "मैत्रीण|maitrīṇ"] },
+        { "native": "कुलकर्णी बाई इथे आहेत का?", "roman": "kulkarṇī bāī ithe āhet kā?", "en": "Is Mrs Kulkarni here?" },
+        { "native": "ती बाई मराठी बोलत नाही.", "roman": "tī bāī marāṭhī bolat nāhī.", "en": "That lady doesn't speak Marathi." }
+      ]
+    },
+    {
+      "title": "Who's at home?",
+      "tip": { "title": "Our, your, their", "body": "- **आमचा** 'our' (not including you), **तुमचा** 'your', **त्यांचा** 'their'. All agree like माझा: आमचं घर, तुमची मुलगी.\n- Before a place word like घरी the ending becomes **-च्या**: माझ्या घरी, तुमच्या घरी 'at your place'.\n- To ask who's in someone's family: तुमच्या घरी कोण कोण असतं?", "pattern": "आमचा / तुमचा / त्यांचा" },
+      "new": ["आमचा", "तुमचा", "तुमच्या घरी कोण कोण असतं?", "माझ्या घरी आई, बाबा आणि एक बहीण आहेत.", "आमचं कुटुंब मोठं आहे.", "त्यांचे आई-वडील नाशिकला राहतात."],
+      "sentences": [
+        { "native": "आमचं घर पुण्यात आहे.", "roman": "āmtsaṃ ghar puṇyāt āhe.", "en": "Our house is in Pune.", "focus": "आमचं", "wrong": ["आमचा|āmtsā", "आमची|āmchī"] },
+        { "native": "तुमचं कुटुंब कुठे राहतं?", "roman": "tumtsaṃ kuṭumb kuṭhe rāhtaṃ?", "en": "Where does your family live?", "focus": "तुमचं", "wrong": ["तुमचा|tumtsā", "तुमची|tumchī"] },
+        { "native": "आमच्या घरी आजी आणि आजोबा पण असतात.", "roman": "āmchyā gharī ājī āṇi ādzobā paṇ astāt.", "en": "Grandma and Grandpa live with us too.", "focus": "आमच्या", "wrong": ["आमचा|āmtsā", "आमचं|āmtsaṃ"] },
+        { "native": "तुमची मुलगी काय करते?", "roman": "tumchī mulgī kāy karte?", "en": "What does your daughter do?", "focus": "तुमची", "wrong": ["तुमचा|tumtsā", "तुमचं|tumtsaṃ"] },
+        { "native": "आमचा मुलगा इंग्लंडला असतो.", "roman": "āmtsā mulgā iṅglaṇḍlā asto.", "en": "Our son lives in England.", "focus": "आमचा", "wrong": ["आमची|āmchī", "आमचं|āmtsaṃ"] },
+        { "native": "त्यांचा मुलगा मुंबईत असतो.", "roman": "tyāntsā mulgā mumbaīt asto.", "en": "Their son lives in Mumbai.", "focus": "त्यांचा", "wrong": ["त्यांची|tyānchī", "त्यांचं|tyāntsaṃ"] },
+        { "native": "माझे आई-वडील गावात राहतात.", "roman": "mājhe āī-vaḍīl gāvāt rāhtāt.", "en": "My parents live in the village." }
+      ]
+    }
+  ]
 }

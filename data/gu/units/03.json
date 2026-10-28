@@ -97,5 +97,87 @@
       { "speaker": "Meera", "native": "હા, મારાં દાદી. બધાં એમને બા કહે છે.", "roman": "hā, mārāṃ dādī. badhāṃ emne bā kahe chhe.", "en": "Yes, my grandmother. Everyone calls her Ba.", "note": "respect plural મારાં for a female elder" }
     ]
   },
-  "culture": "Family terms are used far beyond the family: a shopkeeper is *bhāī* or *kākā*, an older woman *ben* or *māsī*, and a friend's parents *kākā* and *kākī* (or *uncle* and *aunty*). Respected elders take plural verb and possessive forms — **મારા પપ્પા આવ્યા** 'my father came', not *āvyo*. In many Gujarati families grandmother is simply **બા** and grandfather **બાપુજી** or **દાદા**."
+  "culture": "Family terms are used far beyond the family: a shopkeeper is *bhāī* or *kākā*, an older woman *ben* or *māsī*, and a friend's parents *kākā* and *kākī* (or *uncle* and *aunty*). Respected elders take plural verb and possessive forms — **મારા પપ્પા આવ્યા** 'my father came', not *āvyo*. In many Gujarati families grandmother is simply **બા** and grandfather **બાપુજી** or **દાદા**.",
+  "lessons": [
+    {
+      "title": "Introducing your family",
+      "tip": { "title": "'My' agrees with the person", "body": "- 'My' changes with the noun that follows: **મારો** ભાઈ (m), **મારી** બહેન (f), **મારું** કુટુંબ (n).\n- 'Your' works the same: **તમારો / તમારી / તમારું**.\n- Respected men take the plural **મારા**: મારા પપ્પા, મારા કાકા.", "pattern": "મારો + m · મારી + f · મારું + n", "grammar": 1 },
+      "new": ["કુટુંબ", "મા", "પપ્પા", "ભાઈ", "બહેન", "મારું", "તમારું", "આ મારી મા છે."],
+      "sentences": [
+        { "native": "આ મારો ભાઈ છે.", "roman": "ā māro bhāī chhe.", "en": "This is my brother.", "focus": "મારો", "wrong": ["મારી|mārī", "મારું|māruṃ"] },
+        { "native": "આ મારી બહેન છે.", "roman": "ā mārī bahen chhe.", "en": "This is my sister.", "focus": "મારી", "wrong": ["મારો|māro", "મારું|māruṃ"] },
+        { "native": "આ મારું કુટુંબ છે.", "roman": "ā māruṃ kuṭumb chhe.", "en": "This is my family.", "focus": "મારું", "wrong": ["મારો|māro", "મારી|mārī"] },
+        { "native": "મારા પપ્પા ભારતમાં રહે છે.", "roman": "mārā pappā Bhāratmāṃ rahe chhe.", "en": "My dad lives in India.", "focus": "મારા", "wrong": ["મારો|māro", "મારું|māruṃ"] },
+        { "native": "તમારી મા ક્યાં રહે છે?", "roman": "tamārī mā kyāṃ rahe chhe?", "en": "Where does your mother live?", "focus": "તમારી", "wrong": ["તમારો|tamāro", "તમારું|tamāruṃ"] },
+        { "native": "તમારો ભાઈ ક્યાં છે?", "roman": "tamāro bhāī kyāṃ chhe?", "en": "Where's your brother?", "focus": "તમારો", "wrong": ["તમારી|tamārī", "તમારું|tamāruṃ"] },
+        { "native": "મારી બહેન લંડનમાં રહે છે.", "roman": "mārī bahen Landanmāṃ rahe chhe.", "en": "My sister lives in London.", "focus": "મારી", "wrong": ["મારો|māro", "મારું|māruṃ"] },
+        { "native": "તમારું કુટુંબ ક્યાં રહે છે?", "roman": "tamāruṃ kuṭumb kyāṃ rahe chhe?", "en": "Where does your family live?", "focus": "તમારું", "wrong": ["તમારો|tamāro", "તમારી|tamārī"] },
+        { "native": "મારા પપ્પા ગુજરાતી છે, પણ મા નથી.", "roman": "mārā pappā gujarātī chhe, paṇ mā nathī.", "en": "My dad is Gujarati, but my mum isn't." }
+      ]
+    },
+    {
+      "title": "Brothers, sisters and married life",
+      "tip": { "title": "'I have': મારે … છે", "body": "- Gujarati has no verb 'to have'. For family, say **મારે** + person + **છે**: મારે એક ભાઈ છે.\n- The others: **તારે, તમારે, અમારે, એને**.\n- 'I don't have': મારે બહેન **નથી**.", "pattern": "મારે + person + છે / નથી", "grammar": 2 },
+      "new": ["મોટો", "તારું", "આ મારો નાનો ભાઈ છે.", "મારે ભાઈ નથી, એક બહેન છે.", "તમે પરણેલા છો?", "પતિ", "પત્ની"],
+      "sentences": [
+        { "native": "મારે એક મોટો ભાઈ છે.", "roman": "māre ek moṭo bhāī chhe.", "en": "I have an elder brother.", "focus": "મારે", "wrong": ["મને|mane", "મારો|māro"] },
+        { "native": "તમારે ભાઈ-બહેન છે?", "roman": "tamāre bhāī-bahen chhe?", "en": "Do you have brothers and sisters?", "focus": "તમારે", "wrong": ["તમને|tamne", "તમારો|tamāro"] },
+        { "native": "મારે મોટી બહેન નથી, નાની બહેન છે.", "roman": "māre moṭī bahen nathī, nānī bahen chhe.", "en": "I don't have an elder sister; I have a younger one.", "focus": "મારે", "wrong": ["મને|mane", "મારી|mārī"] },
+        { "native": "તારે ભાઈ છે?", "roman": "tāre bhāī chhe?", "en": "Do you have a brother? (to a friend)", "focus": "તારે", "wrong": ["તને|tane", "તારો|tāro"] },
+        { "native": "એને બે બહેન છે.", "roman": "ene be bahen chhe.", "en": "She has two sisters.", "focus": "એને", "wrong": ["એ|e", "એની|enī"] },
+        { "native": "મારા પતિ લંડનમાં છે.", "roman": "mārā pati Landanmāṃ chhe.", "en": "My husband is in London." },
+        { "native": "હા, આ મારી પત્ની છે.", "roman": "hā, ā mārī patnī chhe.", "en": "Yes, this is my wife." },
+        { "native": "તારો મોટો ભાઈ ક્યાં રહે છે?", "roman": "tāro moṭo bhāī kyāṃ rahe chhe?", "en": "Where does your elder brother live? (to a friend)" },
+        { "native": "ના, મારે બહેન નથી.", "roman": "nā, māre bahen nathī.", "en": "No, I don't have a sister.", "focus": "મારે", "wrong": ["મને|mane", "મારી|mārī"] }
+      ]
+    },
+    {
+      "title": "Grandparents, uncles and aunts",
+      "tip": { "title": "Whose? -નો / -ની / -નું", "body": "- Add **-નો / -ની / -નું** to the owner. The ending agrees with the thing owned: મા**નો** ભાઈ (m), મા**ની** બહેન (f), માસી**નું** ઘર (n).\n- Respected men take **-ના**: નીરવ**ના** કાકા.\n- 'His / her' works the same way: **એનો, એની, એનું**.", "pattern": "owner-નો / -ની / -નું + thing", "grammar": 1 },
+      "new": ["દાદા", "દાદી", "નાના", "નાની", "કાકા", "મામા", "ફોઈ", "માસી", "રમેશભાઈ મારા કાકા છે.", "એનું"],
+      "sentences": [
+        { "native": "આ મારી માનો ભાઈ છે, મારા મામા.", "roman": "ā mārī māno bhāī chhe, mārā māmā.", "en": "This is my mother's brother, my mama (uncle).", "focus": "માનો", "wrong": ["માની|mānī", "માનું|mānuṃ"] },
+        { "native": "મારા પપ્પાની બહેન મારી ફોઈ છે.", "roman": "mārā pappānī bahen mārī foī chhe.", "en": "My dad's sister is my foi (aunt).", "focus": "પપ્પાની", "wrong": ["પપ્પાનો|pappāno", "પપ્પાનું|pappānuṃ"] },
+        { "native": "મારી માની બહેન મારી માસી છે.", "roman": "mārī mānī bahen mārī māsī chhe.", "en": "My mother's sister is my masi (aunt).", "focus": "માની", "wrong": ["માનો|māno", "માનું|mānuṃ"] },
+        { "native": "મારા દાદા અને દાદી ગામમાં રહે છે.", "roman": "mārā dādā ane dādī gāmmāṃ rahe chhe.", "en": "My grandfather and grandmother live in the village." },
+        { "native": "એનું નામ શું છે?", "roman": "enuṃ nām shuṃ chhe?", "en": "What's his name?", "focus": "એનું", "wrong": ["એનો|eno", "એની|enī"] },
+        { "native": "મારા નાના ભારતમાં રહે છે.", "roman": "mārā nānā Bhāratmāṃ rahe chhe.", "en": "My grandfather (mother's father) lives in India." },
+        { "native": "નીરવના કાકા ક્યાં રહે છે?", "roman": "Nīravnā kākā kyāṃ rahe chhe?", "en": "Where does Nirav's uncle live?", "focus": "નીરવના", "wrong": ["નીરવનો|Nīravno", "નીરવની|Nīravnī"] },
+        { "native": "માસીનું ઘર ક્યાં છે?", "roman": "māsīnuṃ ghar kyāṃ chhe?", "en": "Where is Auntie's house?", "focus": "માસીનું", "wrong": ["માસીનો|māsīno", "માસીની|māsīnī"] },
+        { "native": "મામાનું ગામ ક્યાં છે?", "roman": "māmānuṃ gām kyāṃ chhe?", "en": "Where is your mama's (uncle's) village?", "focus": "મામાનું", "wrong": ["મામાનો|māmāno", "મામાની|māmānī"] },
+        { "native": "આ મારાં નાની છે.", "roman": "ā mārāṃ nānī chhe.", "en": "This is my grandmother (mother's mother)." }
+      ]
+    },
+    {
+      "title": "Sons, daughters and children",
+      "tip": { "title": "Masculine, feminine, neuter", "body": "- **-ો** words are usually masculine: છોકરો → plural **છોકરા**.\n- **-ી** words are usually feminine: છોકરી → plural **છોકરીઓ**.\n- **-ું** words are neuter: છોકરું 'child' → plural **છોકરાં**. Babies and small children are neuter: બાળક.\n- Adjectives follow the noun: નાનો / નાની / નાનું.", "pattern": "-ો → -ા  ·  -ી → -ીઓ  ·  -ું → -ાં", "grammar": 0 },
+      "new": ["છોકરો", "છોકરી", "છોકરું", "બાળક", "દીકરો", "દીકરી", "હા, મારે બે છોકરાં છે.", "માણસ", "લોકો"],
+      "sentences": [
+        { "native": "મારે એક દીકરો અને બે દીકરીઓ છે.", "roman": "māre ek dīkro ane be dīkrīo chhe.", "en": "I have one son and two daughters.", "focus": "દીકરીઓ", "wrong": ["દીકરો|dīkro", "દીકરા|dīkrā"] },
+        { "native": "એ છોકરી મારી બહેન છે.", "roman": "e chhokrī mārī bahen chhe.", "en": "That girl is my sister.", "focus": "છોકરી", "wrong": ["છોકરો|chhokro", "છોકરું|chhokruṃ"] },
+        { "native": "તમારાં છોકરાં ક્યાં છે?", "roman": "tamārāṃ chhokrāṃ kyāṃ chhe?", "en": "Where are your children?", "focus": "છોકરાં", "wrong": ["છોકરું|chhokruṃ", "છોકરો|chhokro"] },
+        { "native": "મારો દીકરો લંડનમાં રહે છે.", "roman": "māro dīkro Landanmāṃ rahe chhe.", "en": "My son lives in London.", "focus": "દીકરો", "wrong": ["દીકરા|dīkrā", "દીકરી|dīkrī"] },
+        { "native": "આ બાળક બહુ નાનું છે.", "roman": "ā bāḷak bahu nānuṃ chhe.", "en": "This baby is very small.", "focus": "નાનું", "wrong": ["નાનો|nāno", "નાની|nānī"] },
+        { "native": "ઘરમાં બે છોકરા અને બે છોકરીઓ છે.", "roman": "gharmāṃ be chhokrā ane be chhokrīo chhe.", "en": "There are two boys and two girls in the house.", "focus": "છોકરા", "wrong": ["છોકરો|chhokro", "છોકરું|chhokruṃ"] },
+        { "native": "એ માણસ કોણ છે?", "roman": "e māṇas koṇ chhe?", "en": "Who is that man?" },
+        { "native": "આ ગામના લોકો ગુજરાતી બોલે છે.", "roman": "ā gāmnā loko gujarātī bole chhe.", "en": "The people of this village speak Gujarati.", "focus": "ગામના", "wrong": ["ગામનો|gāmno", "ગામની|gāmnī"] },
+        { "native": "તમારી દીકરી શું કરે છે?", "roman": "tamārī dīkrī shuṃ kare chhe?", "en": "What does your daughter do?" }
+      ]
+    },
+    {
+      "title": "Friends, neighbours and whose is it",
+      "new": ["તમારા કુટુંબમાં કોણ કોણ છે?", "મારા કુટુંબમાં પાંચ જણ છે.", "મિત્ર", "પાડોશી", "અમારું", "આપણું", "તમારા પપ્પા શું કરે છે?", "આ કોનું છે?", "એ મારી બહેનપણીનું ઘર છે."],
+      "sentences": [
+        { "native": "આ ઘર કોનું છે?", "roman": "ā ghar konuṃ chhe?", "en": "Whose house is this?" },
+        { "native": "એ અમારું ઘર છે.", "roman": "e amāruṃ ghar chhe.", "en": "That's our house." },
+        { "native": "આ મારો મિત્ર છે, નીરવ.", "roman": "ā māro mitra chhe, Nīrav.", "en": "This is my friend, Nirav." },
+        { "native": "અમારા પાડોશી ગુજરાતી છે.", "roman": "amārā pāḍoshī gujarātī chhe.", "en": "Our neighbours are Gujarati." },
+        { "native": "આપણું ગામ બહુ સરસ છે.", "roman": "āpaṇuṃ gām bahu saras chhe.", "en": "Our village (yours and mine) is lovely." },
+        { "native": "તમારો મિત્ર ક્યાંથી છે?", "roman": "tamāro mitra kyāṃthī chhe?", "en": "Where is your friend from?" },
+        { "native": "અમારા કુટુંબમાં બધા ગુજરાતી બોલે છે.", "roman": "amārā kuṭumbmāṃ badhā gujarātī bole chhe.", "en": "Everyone in our family speaks Gujarati." },
+        { "native": "મારી બહેનપણી પણ લંડનમાં રહે છે.", "roman": "mārī bahenpaṇī paṇ Landanmāṃ rahe chhe.", "en": "My friend lives in London too. (woman speaking)" },
+        { "native": "તમારા પતિ શું કરે છે?", "roman": "tamārā pati shuṃ kare chhe?", "en": "What does your husband do?" }
+      ]
+    }
+  ]
 }

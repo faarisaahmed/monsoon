@@ -914,6 +914,12 @@ export function lessonQuestions(lesson, { pool, sentencePool, lex }) {
   const uses = (s, it) => {
     const t = tokens(s.native);
     const w = tokens(it.native);
+    if (w.length === 1) {
+      // a verb is taught in its dictionary form (খাওয়া, खाना) but used inflected (খাই, खाता): match the stem
+      const cs = [...w[0]];
+      const stem = cs.slice(0, Math.max(2, cs.length - 2)).join('');
+      return t.includes(w[0]) || (cs.length >= 3 && t.some((x) => x.startsWith(stem)));
+    }
     return w.length > 0 && w.every((x) => t.includes(x));
   };
   for (let i = 0; i < lesson.items.length; i += 3) {

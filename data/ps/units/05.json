@@ -89,5 +89,101 @@
       { "speaker": "Bilal", "native": "حساب څومره شو، ورور؟", "roman": "hisā́b tsómra shu, wror?", "en": "How much is the bill, brother?" }
     ]
   },
-  "culture": "Hospitality (**مېلمستيا** melmastyā́) is a pillar of Pashtunwali: a guest is fed the best the house has, and refusing food outright can seem rude — say موړ شوم 'I'm full' (a woman: ماړه شوم) and accept at least some tea. Food is eaten with the right hand, often sharing from a common dish on a cloth (دسترخوان) spread on the floor. Green tea is served in small glasses or cups, often with sugared almonds or sweets, and the host will keep refilling: turn your cup over or put your hand over it when you've had enough. In Peshawar's Namak Mandi and Kabul's old bazaars, kebab houses are a social institution."
+  "culture": "Hospitality (**مېلمستيا** melmastyā́) is a pillar of Pashtunwali: a guest is fed the best the house has, and refusing food outright can seem rude — say موړ شوم 'I'm full' (a woman: ماړه شوم) and accept at least some tea. Food is eaten with the right hand, often sharing from a common dish on a cloth (دسترخوان) spread on the floor. Green tea is served in small glasses or cups, often with sugared almonds or sweets, and the host will keep refilling: turn your cup over or put your hand over it when you've had enough. In Peshawar's Namak Mandi and Kabul's old bazaars, kebab houses are a social institution.",
+  "lessons": [
+    {
+      "title": "I'm hungry, I'm thirsty",
+      "tip": { "title": "Hungry, thirsty — and eating and drinking", "body": "- **وږی** 'hungry' and **تږی** 'thirsty' agree with you: زه وږی يم (man), زه وږ**ې** يم (woman), موږ وږ**ي** يو.\n- Eat: **خورم** xwrəm, خورې, خوري, خورو, خورئ. Drink: **څښم** tsṣəm, څښې, څښي …\n- The food or drink goes before the verb: اوبه څښم.", "pattern": "زه وږی / وږې يم  ·  اوبه څښم" },
+      "new": ["وږی", "تږی", "ډوډۍ", "اوبه", "خوړل", "څښل", "زه وږی يم."],
+      "sentences": [
+        { "native": "زه ډېر تږی يم.", "roman": "zə ḍer tə́ẓay yəm.", "en": "I'm very thirsty. (man)", "focus": "تږی", "wrong": ["تږې|tə́ẓe", "تږي|tə́ẓi"] },
+        { "native": "ته وږې يې؟", "roman": "tə wə́ẓe ye?", "en": "Are you hungry? (to a woman)", "focus": "وږې", "wrong": ["وږی|wə́ẓay", "وږي|wə́ẓi"] },
+        { "native": "ماشومان وږي دي.", "roman": "māshumā́n wə́ẓi di.", "en": "The children are hungry.", "focus": "وږي", "wrong": ["وږی|wə́ẓay", "وږې|wə́ẓe"] },
+        { "native": "زه اوبه څښم.", "roman": "zə obə́ tsṣəm.", "en": "I'm drinking water.", "focus": "څښم", "wrong": ["خورم|xwrəm", "څښي|tsṣi"] },
+        { "native": "موږ ډوډۍ خورو.", "roman": "muẓ ḍoḍə́y xwru.", "en": "We're eating.", "focus": "خورو", "wrong": ["خورم|xwrəm", "خوري|xwri"] },
+        { "native": "ته چای څښې؟", "roman": "tə chāy tsṣe?", "en": "Do you drink tea?", "focus": "څښې", "wrong": ["خورې|xwre", "څښم|tsṣəm"] },
+        { "native": "هغه ډوډۍ نه خوري.", "roman": "haġá ḍoḍə́y na xwri.", "en": "She isn't eating.", "focus": "خوري", "wrong": ["څښي|tsṣi", "خورو|xwru"] },
+        { "native": "تاسو تږي ياست؟", "roman": "tāso tə́ẓi yāst?", "en": "Are you thirsty? (polite)", "focus": "تږي", "wrong": ["تږی|tə́ẓay", "تږې|tə́ẓe"] },
+        { "native": "نه، زه تږې نه يم.", "roman": "na, zə tə́ẓe na yəm.", "en": "No, I'm not thirsty. (woman)" }
+      ]
+    },
+    {
+      "title": "What would you like?",
+      "tip": { "title": "'I want': غواړم", "body": "- **غواړم** I want · غواړې · غواړي · غواړو · غواړئ — the thing goes first: شيدې غواړم.\n- These are the present endings for almost every verb.\n- To want to *do* something: غواړم **چې** + the و- form of the verb: غواړم چې چای **و**څښم.", "pattern": "thing + غواړم  ·  غواړم چې + و-verb", "grammar": 0 },
+      "new": ["غوښتل", "چای", "شيدې", "يوه پياله چای غواړم.", "تاسو څه غواړئ؟", "شنه چای که تور چای؟", "ناشته"],
+      "sentences": [
+        { "native": "زه شيدې غواړم.", "roman": "zə shíde ġwā́ṛəm.", "en": "I want milk.", "focus": "غواړم", "wrong": ["غواړې|ġwā́ṛe", "غواړي|ġwā́ṛi"] },
+        { "native": "ته شنه چای غواړې که تور چای؟", "roman": "tə shna chāy ġwā́ṛe ka tor chāy?", "en": "Do you want green tea or black tea?", "focus": "غواړې", "wrong": ["غواړم|ġwā́ṛəm", "غواړئ|ġwā́ṛəy"] },
+        { "native": "هغه شيدې نه غواړي.", "roman": "haġá shíde na ġwā́ṛi.", "en": "He doesn't want milk.", "focus": "غواړي", "wrong": ["غواړو|ġwā́ṛu", "غواړې|ġwā́ṛe"] },
+        { "native": "موږ دوه پيالې چای غواړو.", "roman": "muẓ dwa piyā́le chāy ġwā́ṛu.", "en": "We'd like two cups of tea.", "focus": "غواړو", "wrong": ["غواړي|ġwā́ṛi", "غواړم|ġwā́ṛəm"] },
+        { "native": "تاسو شيدې غواړئ؟", "roman": "tāso shíde ġwā́ṛəy?", "en": "Would you like milk? (polite)", "focus": "غواړئ", "wrong": ["غواړې|ġwā́ṛe", "غواړو|ġwā́ṛu"] },
+        { "native": "غواړم چې چای وڅښم.", "roman": "ġwā́ṛəm che chāy wə́tsṣəm.", "en": "I want to drink some tea.", "focus": "وڅښم", "wrong": ["څښم|tsṣəm", "وڅښې|wə́tsṣe"] },
+        { "native": "زه ناشته نه کوم.", "roman": "zə nāshtá na kawə́m.", "en": "I don't have breakfast." },
+        { "native": "ماشومان ناشته غواړي.", "roman": "māshumā́n nāshtá ġwā́ṛi.", "en": "The children want breakfast.", "focus": "غواړي", "wrong": ["غواړو|ġwā́ṛu", "غواړم|ġwā́ṛəm"] },
+        { "native": "شنه چای غواړم، مننه.", "roman": "shna chāy ġwā́ṛəm, manə́na.", "en": "Green tea for me, thanks." }
+      ]
+    },
+    {
+      "title": "Rice, meat and vegetables",
+      "new": ["وريجې", "غوښه", "چرګ", "هګۍ", "سابه", "کچالو", "پياز", "زه غوښه نه خورم."],
+      "sentences": [
+        { "native": "موږ وريجې او غوښه خورو.", "roman": "muẓ wríje aw ġwáṣa xwru.", "en": "We're eating rice and meat." },
+        { "native": "ته چرګ خورې؟", "roman": "tə charg xwre?", "en": "Do you eat chicken?", "focus": "خورې", "wrong": ["خورم|xwrəm", "خوري|xwri"] },
+        { "native": "نه، زه چرګ نه خورم.", "roman": "na, zə charg na xwrəm.", "en": "No, I don't eat chicken." },
+        { "native": "ماشومان هګۍ غواړي.", "roman": "māshumā́n hagə́y ġwā́ṛi.", "en": "The children want eggs.", "focus": "غواړي", "wrong": ["غواړو|ġwā́ṛu", "غواړې|ġwā́ṛe"] },
+        { "native": "سابه او کچالو هم شته؟", "roman": "sābə́ aw kachālú ham shta?", "en": "Are there vegetables and potatoes too?" },
+        { "native": "پياز لرې؟", "roman": "piyā́z lare?", "en": "Do you have any onions?" },
+        { "native": "زما زوی سابه نه خوري.", "roman": "zmā zoy sābə́ na xwri.", "en": "My son doesn't eat vegetables.", "focus": "خوري", "wrong": ["خورې|xwre", "خورو|xwru"] },
+        { "native": "دوه هګۍ او يوه ډوډۍ غواړم.", "roman": "dwa hagə́y aw yáwa ḍoḍə́y ġwā́ṛəm.", "en": "I'd like two eggs and one bread." },
+        { "native": "موږ غوښه نه خورو، يوازې سابه خورو.", "roman": "muẓ ġwáṣa na xwru, yawā́ze sābə́ xwru.", "en": "We don't eat meat, we only eat vegetables." }
+      ]
+    },
+    {
+      "title": "Fruit, yoghurt and sweet things",
+      "tip": { "title": "'I like': خوښوم or … مې خوښ دی", "body": "- With the verb: زه مڼې **خوښوم** 'I like apples'.\n- Or 'it pleases me': مېوه **مې خوښه ده**. Here خوښ agrees with the **thing**: خوښ دی (m) · **خوښه** ده (f) · **خوښې** دي (f pl).\n- Change مې to دې / يې for 'you / he, she like'.", "pattern": "زه … خوښوم  ·  … مې خوښ دی", "grammar": 1 },
+      "new": ["خوښول", "مېوه", "مڼه", "مستې", "بوره", "خوږ", "تريخ"],
+      "sentences": [
+        { "native": "زه مڼې خوښوم.", "roman": "zə maṇé xwaṣawə́m.", "en": "I like apples.", "focus": "خوښوم", "wrong": ["خوښوي|xwaṣawí", "خوښوې|xwaṣawé"] },
+        { "native": "مېوه مې خوښه ده.", "roman": "mewá me xwáṣa da.", "en": "I like fruit.", "focus": "خوښه", "wrong": ["خوښ|xwaṣ", "خوښې|xwáṣe"] },
+        { "native": "مستې دې خوښې دي؟", "roman": "máste de xwáṣe di?", "en": "Do you like yoghurt?", "focus": "خوښې", "wrong": ["خوښه|xwáṣa", "خوښ|xwaṣ"] },
+        { "native": "چرګ مې ډېر خوښ دی.", "roman": "charg me ḍer xwaṣ day.", "en": "I really like chicken.", "focus": "خوښ", "wrong": ["خوښه|xwáṣa", "خوښې|xwáṣe"] },
+        { "native": "ماشومان بوره خوښوي.", "roman": "māshumā́n búra xwaṣawí.", "en": "Children love sugar.", "focus": "خوښوي", "wrong": ["خوښوم|xwaṣawə́m", "خوښوو|xwaṣawú"] },
+        { "native": "په چای کې بوره غواړې؟", "roman": "pə chāy ke búra ġwā́ṛe?", "en": "Do you want sugar in your tea?" },
+        { "native": "دا چای ډېر تريخ دی.", "roman": "dā chāy ḍer trix day.", "en": "This tea is very bitter.", "focus": "تريخ", "wrong": ["ترخه|tráxa"] },
+        { "native": "دا مڼه ډېره خوږه ده.", "roman": "dā maṇá ḍéra xwáẓa da.", "en": "This apple is very sweet.", "focus": "خوږه", "wrong": ["خوږ|xwaẓ"] },
+        { "native": "وريجې يې خوښې نه دي.", "roman": "wríje ye xwáṣe na di.", "en": "She doesn't like rice.", "focus": "خوښې", "wrong": ["خوښه|xwáṣa", "خوښ|xwaṣ"] },
+        { "native": "تاسو مېوه خوښوئ؟", "roman": "tāso mewá xwaṣawə́y?", "en": "Do you like fruit? (polite)", "focus": "خوښوئ", "wrong": ["خوښوې|xwaṣawé", "خوښوو|xwaṣawú"] }
+      ]
+    },
+    {
+      "title": "Eating out",
+      "new": ["هوټل", "کباب", "پلاو", "خوندور", "ډوډۍ وخورئ!", "دوه پلېټه پلاو او يو کباب راوړه.", "ډېر خوندور دی!", "اوبه لرئ؟"],
+      "sentences": [
+        { "native": "دا هوټل ډېر ښه دی.", "roman": "dā hoṭál ḍer ṣə day.", "en": "This restaurant is very good." },
+        { "native": "کباب لرئ؟", "roman": "kabā́b lárəy?", "en": "Do you have kebab?" },
+        { "native": "هو، کباب او پلاو دواړه لرو.", "roman": "ho, kabā́b aw palā́w dwā́ṛa láru.", "en": "Yes, we have both kebab and palaw." },
+        { "native": "يو کباب او دوه ډوډۍ راوړه.", "roman": "yaw kabā́b aw dwa ḍoḍə́y rā́wṛa.", "en": "Bring one kebab and two breads." },
+        { "native": "پلاو دې ډېر خوندور دی!", "roman": "palā́w de ḍer xwandawár day!", "en": "Your palaw is delicious!", "focus": "خوندور", "wrong": ["خوندوره|xwandawára"] },
+        { "native": "کباب خوندور نه دی.", "roman": "kabā́b xwandawár na day.", "en": "The kebab isn't tasty.", "focus": "خوندور", "wrong": ["خوندوره|xwandawára"] },
+        { "native": "مېوه ډېره خوندوره ده.", "roman": "mewá ḍéra xwandawára da.", "en": "The fruit is really tasty.", "focus": "خوندوره", "wrong": ["خوندور|xwandawár"] },
+        { "native": "مهرباني وکړئ، ډوډۍ وخورئ.", "roman": "mehrabāní wə́kṛəy, ḍoḍə́y wə́xwrəy.", "en": "Please, do eat." },
+        { "native": "اوبه هم راوړه.", "roman": "obə́ ham rā́wṛa.", "en": "Bring some water too." }
+      ]
+    },
+    {
+      "title": "Salt, chilli and 'I'm full'",
+      "new": ["مالګه", "مرچ", "مرچ لږ واچوه.", "نور نه، مننه. موړ شوم.", "حساب څومره شو؟"],
+      "sentences": [
+        { "native": "مالګه لږه ده.", "roman": "mā́lga ləẓa da.", "en": "There isn't enough salt." },
+        { "native": "مالګه راکړه، مهرباني.", "roman": "mā́lga rā́kṛa, mehrabāní.", "en": "Pass me the salt, please." },
+        { "native": "ته مرچ خوښوې؟", "roman": "tə mərch xwaṣawé?", "en": "Do you like chilli?" },
+        { "native": "نه، مرچ مې خوښ نه دی.", "roman": "na, mərch me xwaṣ na day.", "en": "No, I don't like chilli." },
+        { "native": "نور نه غواړم، موړ شوم.", "roman": "nor na ġwā́ṛəm, moṛ shwəm.", "en": "I don't want any more, I'm full. (man)" },
+        { "native": "ماړه شوم، ډېره مننه.", "roman": "mā́ṛa shwəm, ḍéra manə́na.", "en": "I'm full, thanks a lot. (woman)" },
+        { "native": "ورور، حساب راوړه.", "roman": "wror, hisā́b rā́wṛa.", "en": "Brother, bring the bill." },
+        { "native": "حساب څو روپۍ شو؟", "roman": "hisā́b tso rupə́y shu?", "en": "How many rupees is the bill?" },
+        { "native": "ډوډۍ ډېره خوندوره ده.", "roman": "ḍoḍə́y ḍéra xwandawára da.", "en": "The food is really delicious." }
+      ]
+    }
+  ]
 }

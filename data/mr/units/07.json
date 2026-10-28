@@ -87,5 +87,83 @@
       { "speaker": "Vikram", "native": "मागच्या वेळी तू अर्धा तास उशिरा आलास!", "roman": "māgchyā veḷī tū ardhā tās ushirā ālās!", "en": "Last time you came half an hour late!" }
     ]
   },
-  "culture": "Maharashtra's big festivals follow the lunar calendar: **गुढीपाडवा** (Marathi New Year, in चैत्र, March/April), **गणेशोत्सव** (Ganesh festival, in भाद्रपद, Aug/Sept — the biggest event of the year in Mumbai and Pune), and **दिवाळी** (Oct/Nov). The weekday names come from the planets: सोम (moon), मंगळ (Mars), बुध (Mercury), गुरु (Jupiter), शुक्र (Venus), शनि (Saturn), रवि (sun)."
+  "culture": "Maharashtra's big festivals follow the lunar calendar: **गुढीपाडवा** (Marathi New Year, in चैत्र, March/April), **गणेशोत्सव** (Ganesh festival, in भाद्रपद, Aug/Sept — the biggest event of the year in Mumbai and Pune), and **दिवाळी** (Oct/Nov). The weekday names come from the planets: सोम (moon), मंगळ (Mars), बुध (Mercury), गुरु (Jupiter), शुक्र (Venus), शनि (Saturn), रवि (sun).",
+  "lessons": [
+    {
+      "title": "What time is it?",
+      "tip": { "title": "किती वाजले?", "body": "- Ask **किती वाजले?** Answer number + **वाजले**: पाच वाजले. One o'clock is singular: **एक वाजला**.\n- Halves and quarters: **दीड** 1:30, **अडीच** 2:30, **साडे**तीन 3:30, **सव्वा** सात 7:15, **पावणे** आठ 7:45.\n- Minutes: दहा **वाजून** पाच मिनिटं '5 past 10'.", "pattern": "number + वाजले", "grammar": 0 },
+      "new": ["वाजणे", "मिनिट", "वेळ", "किती वाजले?", "आता साडेचार वाजले आहेत."],
+      "sentences": [
+        { "native": "आता नऊ वाजले.", "roman": "ātā naū vādzle.", "en": "It's nine o'clock now.", "focus": "वाजले", "wrong": ["वाजला|vādzlā", "वाजता|vādztā"] },
+        { "native": "एक वाजला का?", "roman": "ek vādzlā kā?", "en": "Is it one o'clock already?", "focus": "वाजला", "wrong": ["वाजले|vādzle", "वाजता|vādztā"] },
+        { "native": "अडीच वाजले.", "roman": "aḍīts vādzle.", "en": "It's half past two.", "focus": "अडीच", "wrong": ["दीड|dīḍ", "सव्वा|savvā"] },
+        { "native": "सव्वा सात वाजले.", "roman": "savvā sāt vādzle.", "en": "It's quarter past seven.", "focus": "सव्वा", "wrong": ["पावणे|pāvṇe", "साडे|sāḍe"] },
+        { "native": "पावणे आठ वाजले आहेत.", "roman": "pāvṇe āṭh vādzle āhet.", "en": "It's quarter to eight.", "focus": "पावणे", "wrong": ["सव्वा|savvā", "साडे|sāḍe"] },
+        { "native": "दहा वाजून पाच मिनिटं झाली.", "roman": "dahā vādzūn pāts miniṭaṃ dzhālī.", "en": "It's five past ten.", "focus": "वाजून", "wrong": ["वाजता|vādztā", "वाजले|vādzle"] },
+        { "native": "मला वेळ नाही.", "roman": "malā veḷ nāhī.", "en": "I don't have time." },
+        { "native": "फक्त पाच मिनिटं!", "roman": "phakta pāts miniṭaṃ!", "en": "Just five minutes!" }
+      ]
+    },
+    {
+      "title": "Meeting at seven",
+      "tip": { "title": "'At seven', 'in an hour', 'I'm late'", "body": "- 'At' a time = **वाजता**: सात वाजता. 'At what time?' = किती वाजता?\n- 'In an hour' = एका तास**ाने**; 'in ten minutes' = दहा मिनिटां**नी**.\n- **मला उशीर झाला** 'I'm late' (lit. 'lateness happened to me').\n- **लवकर** = early, quickly." },
+      "new": ["तास", "लवकर", "उशीर", "आपण सात वाजता भेटू.", "एका तासाने भेटू.", "सॉरी, मला उशीर झाला.", "लवकर ये!"],
+      "sentences": [
+        { "native": "आपण किती वाजता भेटू?", "roman": "āpaṇ kitī vādztā bheṭū?", "en": "What time shall we meet?", "focus": "वाजता", "wrong": ["वाजले|vādzle", "वाजला|vādzlā"] },
+        { "native": "मी आठ वाजता येतो.", "roman": "mī āṭh vādztā yeto.", "en": "I'll come at eight. (man)", "focus": "वाजता", "wrong": ["वाजले|vādzle", "वाजून|vādzūn"] },
+        { "native": "मी साडेपाच वाजता घरी असतो.", "roman": "mī sāḍepāts vādztā gharī asto.", "en": "I'm home at half past five. (man)", "focus": "वाजता", "wrong": ["वाजले|vādzle", "वाजला|vādzlā"] },
+        { "native": "दहा मिनिटांनी भेटू.", "roman": "dahā miniṭānnī bheṭū.", "en": "See you in ten minutes.", "focus": "मिनिटांनी", "wrong": ["मिनिटं|miniṭaṃ", "मिनिटाचा|miniṭātsā"] },
+        { "native": "तुला उशीर झाला!", "roman": "tulā ushīr dzhālā!", "en": "You're late!", "focus": "तुला", "wrong": ["तू|tū", "तुझा|tudzhā"] },
+        { "native": "आम्हाला थोडा उशीर झाला.", "roman": "āmhālā thoḍā ushīr dzhālā.", "en": "We're a little late.", "focus": "थोडा", "wrong": ["थोडी|thoḍī", "थोडं|thoḍaṃ"] },
+        { "native": "लवकर या, प्लीज.", "roman": "lavkar yā, plīz.", "en": "Please come early.", "focus": "लवकर", "wrong": ["उशीर|ushīr", "वेळ|veḷ"] },
+        { "native": "एक तास पुरे.", "roman": "ek tās pure.", "en": "An hour is enough." }
+      ]
+    },
+    {
+      "title": "Morning, evening, tomorrow",
+      "tip": { "title": "सकाळी, रात्री — in the morning, at night", "body": "- Parts of the day take **-ई** for 'in / at': सकाळ → **सकाळी**, दुपारी, संध्याकाळी, रात्र → **रात्री**.\n- आज today · उद्या tomorrow · काल yesterday · परवा the day after tomorrow or before yesterday (the verb tells you which).\n- Time words go near the front: उद्या सकाळी भेटू.", "pattern": "सकाळ → सकाळी · रात्र → रात्री", "grammar": 1 },
+      "new": ["सकाळ", "दुपार", "संध्याकाळ", "रात्र", "आज", "उद्या", "काल", "परवा", "संध्याकाळी फोन कर."],
+      "sentences": [
+        { "native": "उद्या सकाळी भेटू.", "roman": "udyā sakāḷī bheṭū.", "en": "Let's meet tomorrow morning.", "focus": "सकाळी", "wrong": ["सकाळ|sakāḷ", "सकाळत|sakāḷat"] },
+        { "native": "मी रात्री दहा वाजता जेवतो.", "roman": "mī rātrī dahā vādztā jevto.", "en": "I have dinner at ten at night. (man)", "focus": "रात्री", "wrong": ["रात्र|rātra", "रात्रत|rātrat"] },
+        { "native": "आज दुपारी घरी कोणी नाही.", "roman": "ādz dupārī gharī koṇī nāhī.", "en": "There's no one at home this afternoon.", "focus": "दुपारी", "wrong": ["दुपार|dupār", "दुपारत|dupārat"] },
+        { "native": "उद्या संध्याकाळी फोन करतो.", "roman": "udyā sandhyākāḷī fon karto.", "en": "I'll call tomorrow evening. (man)", "focus": "संध्याकाळी", "wrong": ["संध्याकाळ|sandhyākāḷ", "संध्याकाळत|sandhyākāḷat"] },
+        { "native": "आज संध्याकाळी तू मोकळा आहेस का?", "roman": "ādz sandhyākāḷī tū mokḷā āhes kā?", "en": "Are you free this evening? (to a man)", "focus": "संध्याकाळी", "wrong": ["संध्याकाळ|sandhyākāḷ", "संध्याकाळत|sandhyākāḷat"] },
+        { "native": "काल रात्री मला उशीर झाला.", "roman": "kāl rātrī malā ushīr dzhālā.", "en": "I was late last night.", "focus": "रात्री", "wrong": ["रात्र|rātra", "रात्रत|rātrat"] },
+        { "native": "सकाळी मी फक्त चहा पितो.", "roman": "sakāḷī mī phakta tsahā pito.", "en": "In the morning I only drink tea. (man)" },
+        { "native": "परवा भेटू.", "roman": "parvā bheṭū.", "en": "Let's meet the day after tomorrow." }
+      ]
+    },
+    {
+      "title": "Days of the week",
+      "tip": { "title": "सोमवारी — on Monday", "body": "- Every day ends in **-वार**; 'on Monday' takes the same **-ई** as सकाळी: **सोमवारी**.\n- 'What day is it?' = आज कोणता **वार** आहे?\n- For what usually happens, use असतो / असते / **असतं**: रविवारी दुकान बंद असतं." },
+      "new": ["सोमवार", "मंगळवार", "बुधवार", "गुरुवार", "शुक्रवार", "शनिवार", "रविवार", "आज कोणता वार आहे?", "आज बुधवार आहे.", "मी रविवारी घरी असतो."],
+      "sentences": [
+        { "native": "मी शनिवारी मोकळी असते.", "roman": "mī shanivārī mokḷī aste.", "en": "I'm free on Saturdays. (woman)", "focus": "शनिवारी", "wrong": ["शनिवार|shanivār", "शनिवारात|shanivārāt"] },
+        { "native": "आपण शुक्रवारी भेटू.", "roman": "āpaṇ shukravārī bheṭū.", "en": "Let's meet on Friday.", "focus": "शुक्रवारी", "wrong": ["शुक्रवार|shukravār", "शुक्रवारात|shukravārāt"] },
+        { "native": "गुरुवारी मला वेळ नाही.", "roman": "guruvārī malā veḷ nāhī.", "en": "I don't have time on Thursday.", "focus": "गुरुवारी", "wrong": ["गुरुवार|guruvār", "गुरुवारात|guruvārāt"] },
+        { "native": "बुधवारी तुम्ही घरी असता का?", "roman": "budhvārī tumhī gharī astā kā?", "en": "Are you at home on Wednesdays?", "focus": "असता", "wrong": ["असतो|asto", "असते|aste"] },
+        { "native": "रविवारी दुकान बंद असतं.", "roman": "ravivārī dukān band astaṃ.", "en": "The shop is closed on Sundays.", "focus": "असतं", "wrong": ["असतो|asto", "असते|aste"] },
+        { "native": "काल रविवार होता.", "roman": "kāl ravivār hotā.", "en": "Yesterday was Sunday.", "focus": "होता", "wrong": ["आहे|āhe", "होती|hotī"] },
+        { "native": "आज सोमवार आहे.", "roman": "ādz somvār āhe.", "en": "Today's Monday." },
+        { "native": "उद्या मंगळवार आहे ना?", "roman": "udyā maṅgaḷvār āhe nā?", "en": "Tomorrow's Tuesday, isn't it?" }
+      ]
+    },
+    {
+      "title": "Weeks, months and dates",
+      "tip": { "title": "Ago and after: पूर्वी, नंतर", "body": "- **पूर्वी** 'ago, before' and **नंतर** 'after, in' follow the time word: दोन दिवसां**पूर्वी** 'two days ago', एका महिन्या**नंतर** 'in a month'.\n- Before them a plural takes **-ां-**: दिवस → दिवसांपूर्वी; -आ nouns change to -या-: महिना → महिन्यानंतर.\n- Ask the date with किती: आज तारीख किती?", "pattern": "दोन दिवसांपूर्वी · एका महिन्यानंतर" },
+      "new": ["दिवस", "आठवडा", "महिना", "तारीख", "सुट्टी", "पूर्वी", "नंतर", "आज तारीख किती आहे?", "उद्या सुट्टी आहे."],
+      "sentences": [
+        { "native": "मी दोन आठवड्यांपूर्वी इथे आलो.", "roman": "mī don āṭhavḍyāmpūrvī ithe ālo.", "en": "I came here two weeks ago. (man)", "focus": "आठवड्यांपूर्वी", "wrong": ["आठवडेपूर्वी|āṭhavḍepūrvī", "आठवडापूर्वी|āṭhavḍāpūrvī"] },
+        { "native": "मी पाच दिवसांपूर्वी पुण्यात होतो.", "roman": "mī pāts divasāmpūrvī puṇyāt hoto.", "en": "I was in Pune five days ago. (man)", "focus": "दिवसांपूर्वी", "wrong": ["दिवसपूर्वी|divaspūrvī", "दिवसाला|divasālā"] },
+        { "native": "एका महिन्यानंतर भेटू.", "roman": "ekā mahinyānantar bheṭū.", "en": "Let's meet in a month.", "focus": "महिन्यानंतर", "wrong": ["महिनानंतर|mahinānantar", "महिनेनंतर|mahinenantar"] },
+        { "native": "जेवणानंतर फोन कर.", "roman": "jevaṇānantar fon kar.", "en": "Call me after dinner.", "focus": "जेवणानंतर", "wrong": ["जेवणनंतर|jevaṇnantar", "जेवणात|jevaṇāt"] },
+        { "native": "सुट्टीत आम्ही गावाला जातो.", "roman": "suṭṭīt āmhī gāvālā dzāto.", "en": "In the holidays we go to our village.", "focus": "सुट्टीत", "wrong": ["सुट्टी|suṭṭī", "सुट्टीला|suṭṭīlā"] },
+        { "native": "तुमचा वाढदिवस कोणत्या तारखेला आहे?", "roman": "tumtsā vāḍhdivas koṇtyā tārkhelā āhe?", "en": "What date is your birthday?", "focus": "तारखेला", "wrong": ["तारीख|tārīkh", "तारखेत|tārkhet"] },
+        { "native": "आज पंधरा तारीख आहे.", "roman": "ādz pandhrā tārīkh āhe.", "en": "Today's the 15th." },
+        { "native": "तीन दिवस सुट्टी आहे.", "roman": "tīn divas suṭṭī āhe.", "en": "We have three days off." },
+        { "native": "नंतर भेटू!", "roman": "nantar bheṭū!", "en": "See you later!" }
+      ]
+    }
+  ]
 }

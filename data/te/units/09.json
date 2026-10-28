@@ -90,5 +90,87 @@
       { "speaker": "Suresh", "native": "సరే డాక్టర్, థాంక్స్.", "roman": "sarē ḍākṭar, thāṅks.", "en": "Okay, doctor, thank you." }
     ]
   },
-  "culture": "Home remedies are a first resort: turmeric milk (*పసుపు పాలు*) for a cough, *చారు* (rasam) with pepper and garlic for a cold, and *మజ్జిగ* (buttermilk) to cool the body in summer. Many people distinguish 'heat' and 'cold' foods (*వేడి చేసింది*, 'it has caused heat', is a common complaint). Pharmacies (*మందుల షాపు*) are everywhere and pharmacists often give advice directly."
+  "culture": "Home remedies are a first resort: turmeric milk (*పసుపు పాలు*) for a cough, *చారు* (rasam) with pepper and garlic for a cold, and *మజ్జిగ* (buttermilk) to cool the body in summer. Many people distinguish 'heat' and 'cold' foods (*వేడి చేసింది*, 'it has caused heat', is a common complaint). Pharmacies (*మందుల షాపు*) are everywhere and pharmacists often give advice directly.",
+  "lessons": [
+    {
+      "title": "Head and face",
+      "tip": { "title": "Body words with odd plurals", "body": "- Some plurals change: కన్ను → **కళ్ళు** eyes, పన్ను → **పళ్ళు** teeth (and later కాలు → కాళ్ళు, చెయ్యి → చేతులు).\n- His / her + body part: అతని ముఖం, ఆమె జుట్టు.\n- నోరు 'mouth' → **నోట్లో** 'in the mouth'." },
+      "new": ["తల", "జుట్టు", "ముఖం", "కన్ను", "చెవి", "ముక్కు", "నోరు", "పన్ను", "గొంతు"],
+      "sentences": [
+        { "native": "పాప కళ్ళు చాలా అందంగా ఉన్నాయి.", "roman": "pāpa kaḷḷu chālā andaṅgā unnāyi.", "en": "The little girl's eyes are very beautiful.", "focus": "కళ్ళు", "wrong": ["కన్ను|kannu", "కన్నుకి|kannuki"] },
+        { "native": "ఆమె జుట్టు చాలా పొడవు.", "roman": "āme juṭṭu chālā poḍavu.", "en": "Her hair is very long." },
+        { "native": "అతని ముఖం ఎర్రగా ఉంది.", "roman": "atani mukham erragā undi.", "en": "His face is red.", "focus": "అతని", "wrong": ["అతను|atanu", "అతనికి|ataniki"] },
+        { "native": "పాప నోట్లో ఏమి ఉంది?", "roman": "pāpa nōṭlō ēmi undi?", "en": "What's in the baby's mouth?", "focus": "నోట్లో", "wrong": ["నోరు|nōru", "నోరులో|nōrulō"] },
+        { "native": "బాబు పళ్ళు తెల్లగా ఉన్నాయి.", "roman": "bābu paḷḷu tellagā unnāyi.", "en": "The little boy's teeth are white.", "focus": "పళ్ళు", "wrong": ["పన్ను|pannu", "పన్నులు|pannulu"] },
+        { "native": "తాతయ్య జుట్టు తెల్లగా ఉంది.", "roman": "tātayya juṭṭu tellagā undi.", "en": "Grandpa's hair is white.", "focus": "ఉంది", "wrong": ["ఉన్నాయి|unnāyi", "ఉన్నాడు|unnāḍu"] },
+        { "native": "నా చెవిలో నీళ్ళు ఉన్నాయి.", "roman": "nā chevilō nīḷḷu unnāyi.", "en": "There's water in my ear.", "focus": "చెవిలో", "wrong": ["చెవి|chevi", "చెవికి|cheviki"] },
+        { "native": "మీ గొంతు చాలా బాగుంది.", "roman": "mī gontu chālā bāgundi.", "en": "You have a lovely voice." },
+        { "native": "నా ముక్కు ఎర్రగా ఉంది.", "roman": "nā mukku erragā undi.", "en": "My nose is red." },
+        { "native": "నా తల వేడిగా ఉంది.", "roman": "nā tala vēḍigā undi.", "en": "My head feels hot." }
+      ]
+    },
+    {
+      "title": "Where does it hurt?",
+      "tip": { "title": "Aches: నొప్పిగా ఉంది", "body": "- Body part + **నొప్పిగా ఉంది**: నా కాలు నొప్పిగా ఉంది 'my leg hurts'. Plural parts take ఉన్నాయి: కాళ్ళు నొప్పిగా ఉన్నాయి.\n- Aches happen *to* you, so the person takes -కు: **నాకు** తలనొప్పిగా ఉంది.\n- An illness 'comes': నాకు జ్వరం **వచ్చింది**; a cold 'does': జలుబు **చేసింది**.", "pattern": "నాకు + body part + నొప్పిగా ఉంది", "grammar": 0 },
+      "new": ["మెడ", "చెయ్యి", "వేలు", "కాలు", "కడుపు", "వీపు", "గుండె", "నొప్పి", "ఎక్కడ నొప్పిగా ఉంది?", "ఇక్కడ నొప్పిగా ఉంది."],
+      "sentences": [
+        { "native": "నా వీపు నొప్పిగా ఉంది.", "roman": "nā vīpu noppigā undi.", "en": "My back hurts.", "focus": "నొప్పిగా", "wrong": ["నొప్పితో|noppitō", "నొప్పికి|noppiki"] },
+        { "native": "నాకు కడుపు నొప్పిగా ఉంది.", "roman": "nāku kaḍupu noppigā undi.", "en": "I have a stomach ache.", "focus": "నొప్పిగా", "wrong": ["నొప్పితో|noppitō", "నొప్పికి|noppiki"] },
+        { "native": "అమ్మకి కాళ్ళు నొప్పిగా ఉన్నాయి.", "roman": "ammaki kāḷḷu noppigā unnāyi.", "en": "Mum's legs are aching.", "focus": "ఉన్నాయి", "wrong": ["ఉంది|undi", "ఉన్నారు|unnāru"] },
+        { "native": "నా చెయ్యి నొప్పిగా ఉంది.", "roman": "nā cheyyi noppigā undi.", "en": "My hand hurts.", "focus": "ఉంది", "wrong": ["ఉన్నాయి|unnāyi", "ఉన్నాను|unnānu"] },
+        { "native": "మెడ కూడా నొప్పిగా ఉంది.", "roman": "meḍa kūḍā noppigā undi.", "en": "My neck hurts too." },
+        { "native": "ఆయనకి గుండె నొప్పి వచ్చింది.", "roman": "āyanaki guṇḍe noppi vachchindi.", "en": "He had chest pain (heart pain).", "focus": "వచ్చింది", "wrong": ["వచ్చాడు|vachchāḍu", "వచ్చారు|vachchāru"] },
+        { "native": "ఎక్కడ నొప్పి? ఇక్కడా?", "roman": "ekkaḍa noppi? ikkaḍā?", "en": "Where's the pain? Here?" },
+        { "native": "బాబు కాలు నొప్పిగా ఉందా?", "roman": "bābu kālu noppigā undā?", "en": "Does the little boy's leg hurt?", "focus": "ఉందా", "wrong": ["ఉన్నాయా|unnāyā", "ఉన్నాడా|unnāḍā"] },
+        { "native": "నా వేలు కొంచెం నొప్పిగా ఉంది.", "roman": "nā vēlu konchem noppigā undi.", "en": "My finger hurts a bit.", "focus": "నొప్పిగా", "wrong": ["నొప్పితో|noppitō", "నొప్పికి|noppiki"] }
+      ]
+    },
+    {
+      "title": "Fevers, coughs and colds",
+      "new": ["శరీరం", "జ్వరం", "జలుబు", "దగ్గు", "వాంతి", "నీరసం", "జబ్బు", "ఒంట్లో బాగాలేదు.", "ఏమైంది?", "రెండు రోజుల నుంచి జ్వరం."],
+      "sentences": [
+        { "native": "అమ్మకి జ్వరం వచ్చింది.", "roman": "ammaki jvaram vachchindi.", "en": "Mum has a fever.", "focus": "వచ్చింది", "wrong": ["వచ్చారు|vachchāru", "వచ్చాను|vachchānu"] },
+        { "native": "నాకు జలుబు చేసింది.", "roman": "nāku jalubu chēsindi.", "en": "I've caught a cold.", "focus": "చేసింది", "wrong": ["చేశాను|chēshānu", "చేశారు|chēshāru"] },
+        { "native": "పాపకి దగ్గు ఉంది.", "roman": "pāpaki daggu undi.", "en": "The little girl has a cough.", "focus": "పాపకి", "wrong": ["పాప|pāpa", "పాపది|pāpadi"] },
+        { "native": "ఏమైంది? వాంతి అయిందా?", "roman": "ēmaindi? vānti ayindā?", "en": "What happened? Did you throw up?" },
+        { "native": "నాకు చాలా నీరసంగా ఉంది.", "roman": "nāku chālā nīrasaṅgā undi.", "en": "I feel very weak.", "focus": "నీరసంగా", "wrong": ["నీరసంలో|nīrasamlō", "నీరసానికి|nīrasāniki"] },
+        { "native": "ఆయనకి ఏం జబ్బు?", "roman": "āyanaki ēm jabbu?", "en": "What illness does he have?" },
+        { "native": "మూడు రోజుల నుంచి దగ్గు, జలుబు.", "roman": "mūḍu rōjula nunchi daggu, jalubu.", "en": "I've had a cough and a cold for three days.", "focus": "నుంచి", "wrong": ["కిందట|kindaṭa", "తర్వాత|tarvāta"] },
+        { "native": "ఒంట్లో బాగాలేదా?", "roman": "oṇṭlō bāgālēdā?", "en": "Aren't you feeling well?" },
+        { "native": "శరీరం చాలా వేడిగా ఉంది.", "roman": "sharīram chālā vēḍigā undi.", "en": "The body is very hot (feverish)." }
+      ]
+    },
+    {
+      "title": "At the doctor's",
+      "tip": { "title": "Should and shouldn't: -ఆలి, -అకూడదు", "body": "- Stem + **-ఆలి** = must / should, the same for everyone: వెళ్ళాలి, తాగాలి, రావాలి, వేసుకోవాలి.\n- Shouldn't: stem + **-అకూడదు**: తినకూడదు, తాగకూడదు.\n- A question adds -ā: వేసుకోవాలా?", "pattern": "verb stem + ఆలి / అకూడదు", "grammar": 1 },
+      "new": ["డాక్టర్", "మందు", "ఆసుపత్రి", "విశ్రాంతి", "నాకు డాక్టర్ కావాలి.", "దగ్గర్లో ఆసుపత్రి ఉందా?", "ఈ మందు ఎలా వేసుకోవాలి?", "భోజనం తర్వాత వేసుకోండి."],
+      "sentences": [
+        { "native": "మీరు ఆసుపత్రికి వెళ్ళాలి.", "roman": "mīru āsupatriki veḷḷāli.", "en": "You should go to hospital.", "focus": "వెళ్ళాలి", "wrong": ["వెళ్తాను|veḷtānu", "వెళ్ళాను|veḷḷānu"] },
+        { "native": "నేను ఇంటికి వెళ్ళాలి.", "roman": "nēnu iṇṭiki veḷḷāli.", "en": "I have to go home.", "focus": "వెళ్ళాలి", "wrong": ["వెళ్తారు|veḷtāru", "వెళ్ళాడు|veḷḷāḍu"] },
+        { "native": "ఈ మందు రాత్రి వేసుకోవాలి.", "roman": "ī mandu rātri vēsukōvāli.", "en": "You need to take this medicine at night.", "focus": "వేసుకోవాలి", "wrong": ["వేసుకున్నాను|vēsukunnānu", "వేసుకోకూడదు|vēsukōkūḍadu"] },
+        { "native": "రెండు రోజులు విశ్రాంతి తీసుకోండి.", "roman": "reṇḍu rōjulu vishrānti tīsukōṇḍi.", "en": "Rest for two days." },
+        { "native": "మీరు కారం తినకూడదు.", "roman": "mīru kāram tinakūḍadu.", "en": "You shouldn't eat spicy food.", "focus": "తినకూడదు", "wrong": ["తినాలి|tināli", "తినను|tinanu"] },
+        { "native": "మీరు వేడి నీళ్ళు తాగాలి.", "roman": "mīru vēḍi nīḷḷu tāgāli.", "en": "You should drink warm water.", "focus": "తాగాలి", "wrong": ["తాగకూడదు|tāgakūḍadu", "తాగాను|tāgānu"] },
+        { "native": "రేపు మళ్ళీ రావాలా?", "roman": "rēpu maḷḷī rāvālā?", "en": "Do I have to come again tomorrow?", "focus": "రావాలా", "wrong": ["రావాలి|rāvāli", "వస్తారా|vastārā"] },
+        { "native": "దగ్గర్లో మందుల షాపు ఉందా?", "roman": "daggarlō mandula ṣāpu undā?", "en": "Is there a pharmacy nearby?" },
+        { "native": "డాక్టర్ గారు ఇప్పుడు లేరు.", "roman": "ḍākṭar gāru ippuḍu lēru.", "en": "The doctor isn't in right now." },
+        { "native": "భోజనానికి ముందు వేసుకోవాలా?", "roman": "bhōjanāniki mundu vēsukōvālā?", "en": "Should I take it before meals?", "focus": "వేసుకోవాలా", "wrong": ["వేసుకోవాలి|vēsukōvāli", "వేసుకున్నారా|vēsukunnārā"] }
+      ]
+    },
+    {
+      "title": "Take care, get well soon",
+      "tip": { "title": "Getting hurt, getting well", "body": "- 'I got hurt' = 'an injury touched (my X)': నా చేతి**కి** దెబ్బ తగిలింది. The body part takes **-కి**.\n- Kind wishes: **త్వరగా కోలుకోండి** 'get well soon', **జాగ్రత్తగా ఉండండి** 'take care', or just **ఆరోగ్యం జాగ్రత్త!**", "pattern": "body part-కి + దెబ్బ తగిలింది" },
+      "new": ["ఆరోగ్యం", "జాగ్రత్త", "దెబ్బ", "త్వరగా కోలుకోండి.", "జాగ్రత్తగా ఉండండి.", "నా చేతికి దెబ్బ తగిలింది."],
+      "sentences": [
+        { "native": "మీ ఆరోగ్యం ఎలా ఉంది?", "roman": "mī ārōgyam elā undi?", "en": "How's your health?" },
+        { "native": "నా కాలికి దెబ్బ తగిలింది.", "roman": "nā kāliki debba tagilindi.", "en": "I've hurt my leg.", "focus": "కాలికి", "wrong": ["కాలు|kālu", "కాలిలో|kālilō"] },
+        { "native": "తలకి దెబ్బ తగిలిందా?", "roman": "talaki debba tagilindā?", "en": "Did you hurt your head?", "focus": "తలకి", "wrong": ["తల|tala", "తలలో|talalō"] },
+        { "native": "జాగ్రత్తగా వెళ్ళండి.", "roman": "jāgrattagā veḷḷaṇḍi.", "en": "Go carefully.", "focus": "జాగ్రత్తగా", "wrong": ["జాగ్రత్త|jāgratta", "జాగ్రత్తలో|jāgrattalō"] },
+        { "native": "ఆరోగ్యం జాగ్రత్త!", "roman": "ārōgyam jāgratta!", "en": "Look after your health!" },
+        { "native": "పిల్లలు జాగ్రత్తగా ఉండాలి.", "roman": "pillalu jāgrattagā uṇḍāli.", "en": "The children must be careful.", "focus": "ఉండాలి", "wrong": ["ఉండకూడదు|uṇḍakūḍadu", "ఉన్నారు|unnāru"] },
+        { "native": "ఇప్పుడు ఆరోగ్యం బాగుంది.", "roman": "ippuḍu ārōgyam bāgundi.", "en": "My health is good now." },
+        { "native": "దెబ్బ ఎక్కడ తగిలింది?", "roman": "debba ekkaḍa tagilindi?", "en": "Where did you get hurt?", "focus": "తగిలింది", "wrong": ["తగిలాయి|tagilāyi", "తగిలాను|tagilānu"] }
+      ]
+    }
+  ]
 }

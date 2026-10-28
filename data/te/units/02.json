@@ -92,5 +92,86 @@
       { "speaker": "Sara", "native": "నాకు కూడా సంతోషం.", "roman": "nāku kūḍā santōṣam.", "en": "Pleased to meet you too." }
     ]
   },
-  "culture": "Telugu speakers identify strongly with their *ఊరు* (home town or village), so *మీది ఏ ఊరు?* is one of the first questions you'll be asked, even of a city-dweller born elsewhere. Telugu is the official language of two states, Andhra Pradesh and Telangana; the capital of Telangana, Hyderabad, has its own Urdu-flavoured Telugu, while coastal Andhra speech is considered the basis of the standard."
+  "culture": "Telugu speakers identify strongly with their *ఊరు* (home town or village), so *మీది ఏ ఊరు?* is one of the first questions you'll be asked, even of a city-dweller born elsewhere. Telugu is the official language of two states, Andhra Pradesh and Telangana; the capital of Telangana, Hyderabad, has its own Urdu-flavoured Telugu, while coastal Andhra speech is considered the basis of the standard.",
+  "lessons": [
+    {
+      "title": "Saying who you are",
+      "tip": { "title": "'I am Kiran': no verb needed", "body": "- To say who or what someone is, just put the two side by side: నేను కిరణ్ = 'I [am] Kiran'.\n- To deny it, add **కాదు** at the end: నేను సారా **కాదు**.\n- A noun about 'I' or 'you' takes an ending: విద్యార్థి**ని** 'I'm a student', విద్యార్థి**వి** 'you're a student'.", "pattern": "నేను + name  ·  … + కాదు" },
+      "new": ["నేను", "నువ్వు", "మీరు", "పేరు", "ఏమిటి", "ఇది", "అది", "మీ పేరు ఏమిటి?", "నీ పేరు ఏంటి?", "నా పేరు సారా."],
+      "sentences": [
+        { "native": "నేను కిరణ్, మీరు?", "roman": "nēnu kiraṇ, mīru?", "en": "I'm Kiran, and you?" },
+        { "native": "నేను సారా కాదు.", "roman": "nēnu sārā kādu.", "en": "I'm not Sara.", "focus": "కాదు", "wrong": ["లేదు|lēdu", "అవును|avunu"] },
+        { "native": "నా పేరు సారా కాదు, కిరణ్.", "roman": "nā pēru sārā kādu, kiraṇ.", "en": "My name isn't Sara, it's Kiran.", "focus": "కాదు", "wrong": ["లేదు|lēdu", "లేను|lēnu"] },
+        { "native": "మీరు రవి కాదా?", "roman": "mīru ravi kādā?", "en": "Aren't you Ravi?", "focus": "కాదా", "wrong": ["లేదా|lēdā", "ఉన్నారా|unnārā"] },
+        { "native": "అవును, నేను రవి.", "roman": "avunu, nēnu ravi.", "en": "Yes, I'm Ravi." },
+        { "native": "నేను విద్యార్థిని కాదు.", "roman": "nēnu vidyārthini kādu.", "en": "I'm not a student.", "focus": "కాదు", "wrong": ["లేదు|lēdu", "లేను|lēnu"] },
+        { "native": "నువ్వు విద్యార్థివా?", "roman": "nuvvu vidyārthivā?", "en": "Are you a student? (to a friend)", "focus": "విద్యార్థివా", "wrong": ["విద్యార్థినా|vidyārthinā", "విద్యార్థి|vidyārthi"] },
+        { "native": "అది ఏమిటి?", "roman": "adi ēmiṭi?", "en": "What's that?", "focus": "ఏమిటి", "wrong": ["ఎవరు|evaru", "ఎలా|elā"] },
+        { "native": "ఇది టీ కాదు.", "roman": "idi ṭī kādu.", "en": "This isn't tea.", "focus": "కాదు", "wrong": ["లేదు|lēdu", "అవును|avunu"] }
+      ]
+    },
+    {
+      "title": "Who is where",
+      "tip": { "title": "He, she, we, they + ఉండు (to be somewhere)", "body": "- 'Be somewhere' is **ఉండు**, and its ending agrees: నేను ఉన్నాను · నువ్వు ఉన్నావు · అతను ఉన్నాడు · ఆమె ఉంది · మేము ఉన్నాము · మీరు / వాళ్ళు ఉన్నారు.\n- Respect: **ఆయన** (he), **ఆవిడ** (she) take ఉన్నారు.\n- Not there: లేదు (she, it), లేడు (he), లేరు (polite, they).\n- **మేము** = we without you; **మనం** = we including you.", "pattern": "person + place + ఉన్నాను / ఉన్నాడు / ఉంది / ఉన్నారు", "grammar": 0 },
+      "new": ["అతను", "ఆయన", "ఆమె", "ఆవిడ", "మేము", "మనం", "వాళ్ళు", "ఉండు", "ఇక్కడ", "అక్కడ"],
+      "sentences": [
+        { "native": "అతను అక్కడ ఉన్నాడు.", "roman": "atanu akkaḍa unnāḍu.", "en": "He's over there.", "focus": "ఉన్నాడు", "wrong": ["ఉంది|undi", "ఉన్నాను|unnānu"] },
+        { "native": "ఆమె ఇక్కడ లేదు.", "roman": "āme ikkaḍa lēdu.", "en": "She isn't here.", "focus": "లేదు", "wrong": ["లేడు|lēḍu", "కాదు|kādu"] },
+        { "native": "ఆవిడ అక్కడ ఉన్నారు.", "roman": "āviḍa akkaḍa unnāru.", "en": "She's over there. (respectful)", "focus": "ఉన్నారు", "wrong": ["ఉన్నాడు|unnāḍu", "ఉన్నాను|unnānu"] },
+        { "native": "ఆయన ఇక్కడ ఉన్నారు.", "roman": "āyana ikkaḍa unnāru.", "en": "He's here. (respectful)", "focus": "ఉన్నారు", "wrong": ["ఉన్నాను|unnānu", "ఉన్నావు|unnāvu"] },
+        { "native": "మేము ఇక్కడ ఉన్నాము.", "roman": "mēmu ikkaḍa unnāmu.", "en": "We're here.", "focus": "ఉన్నాము", "wrong": ["ఉన్నారు|unnāru", "ఉన్నాను|unnānu"] },
+        { "native": "మనం ఇక్కడ ఉన్నాం, వాళ్ళు అక్కడ ఉన్నారు.", "roman": "manam ikkaḍa unnām, vāḷḷu akkaḍa unnāru.", "en": "We're here, they're over there.", "focus": "ఉన్నారు", "wrong": ["ఉన్నాయి|unnāyi", "ఉన్నాడు|unnāḍu"] },
+        { "native": "రవి ఇక్కడ లేడు, అక్కడ ఉన్నాడు.", "roman": "ravi ikkaḍa lēḍu, akkaḍa unnāḍu.", "en": "Ravi isn't here, he's over there.", "focus": "లేడు", "wrong": ["లేదు|lēdu", "కాదు|kādu"] },
+        { "native": "నువ్వు ఇక్కడ ఉన్నావా?", "roman": "nuvvu ikkaḍa unnāvā?", "en": "Are you here? (to a friend)", "focus": "ఉన్నావా", "wrong": ["ఉన్నారా|unnārā", "ఉన్నాడా|unnāḍā"] },
+        { "native": "ఆయన డాక్టర్, ఆవిడ కూడా డాక్టర్.", "roman": "āyana ḍākṭar, āviḍa kūḍā ḍākṭar.", "en": "He's a doctor, and she's a doctor too." }
+      ]
+    },
+    {
+      "title": "Asking who, what and where",
+      "tip": { "title": "Questions", "body": "- A question word sits where the answer goes, just before the verb: రవి **ఎక్కడ** ఉన్నాడు?\n- **ఎవరు** who · **ఏమిటి** what · **ఎక్కడ** where · **ఎలా** how · **ఏ** which.\n- Yes/no question: add **-ā** to the last word: ఉన్నారు → ఉన్నారా?, కొత్త → కొత్తా?", "pattern": "… + ఎక్కడ + verb?  ·  … + verb-ā?", "grammar": 1 },
+      "new": ["ఎవరు", "ఎక్కడ", "ఎలా", "అవి", "నేను ఇక్కడ కొత్త."],
+      "sentences": [
+        { "native": "ఆవిడ ఎవరు?", "roman": "āviḍa evaru?", "en": "Who is she?", "focus": "ఎవరు", "wrong": ["ఏమిటి|ēmiṭi", "ఎక్కడ|ekkaḍa"] },
+        { "native": "అవి ఏమిటి?", "roman": "avi ēmiṭi?", "en": "What are those?", "focus": "ఏమిటి", "wrong": ["ఎవరు|evaru", "ఎలా|elā"] },
+        { "native": "రవి ఎక్కడ ఉన్నాడు?", "roman": "ravi ekkaḍa unnāḍu?", "en": "Where is Ravi?", "focus": "ఎక్కడ", "wrong": ["ఎవరు|evaru", "ఏమిటి|ēmiṭi"] },
+        { "native": "మనం ఇప్పుడు ఎక్కడ ఉన్నాం?", "roman": "manam ippuḍu ekkaḍa unnām?", "en": "Where are we now?", "focus": "ఎక్కడ", "wrong": ["ఎలా|elā", "ఎవరు|evaru"] },
+        { "native": "మీరు ఇక్కడ కొత్తా?", "roman": "mīru ikkaḍa kottā?", "en": "Are you new here?", "focus": "కొత్తా", "wrong": ["కొత్త|kotta", "కాదు|kādu"] },
+        { "native": "అవును, నేను కూడా కొత్త.", "roman": "avunu, nēnu kūḍā kotta.", "en": "Yes, I'm new too." },
+        { "native": "ఆమె ఎలా ఉంది?", "roman": "āme elā undi?", "en": "How is she?", "focus": "ఎలా", "wrong": ["ఎవరు|evaru", "ఏమిటి|ēmiṭi"] },
+        { "native": "వాళ్ళు ఎవరు?", "roman": "vāḷḷu evaru?", "en": "Who are they?", "focus": "ఎవరు", "wrong": ["ఏమిటి|ēmiṭi", "ఎలా|elā"] },
+        { "native": "ఆయన ఇక్కడ ఉన్నారా?", "roman": "āyana ikkaḍa unnārā?", "en": "Is he here?", "focus": "ఉన్నారా", "wrong": ["ఉన్నారు|unnāru", "ఉన్నానా|unnānā"] }
+      ]
+    },
+    {
+      "title": "Saying where you're from",
+      "tip": { "title": "'Yours is which town?'", "body": "- Telugu asks **మీది ఏ ఊరు?** 'yours is which town?' (informal **నీది**). Answer **మాది** + place.\n- **నుంచి** 'from' goes after the place: అమెరికా నుంచి వచ్చాను.\n- 'Live' is ఉంటాను 'I stay', with **-లో** 'in': విజయవాడలో ఉంటాను.", "pattern": "మాది + place  ·  place + నుంచి  ·  place-లో ఉంటాను" },
+      "new": ["ఊరు", "దేశం", "ఏ", "నుంచి", "మీది ఏ ఊరు?", "మాది విజయవాడ.", "నేను అమెరికా నుంచి వచ్చాను.", "మీరు ఎక్కడ ఉంటారు?", "నేను హైదరాబాదులో ఉంటాను."],
+      "sentences": [
+        { "native": "నీది ఏ ఊరు?", "roman": "nīdi ē ūru?", "en": "Where are you from? (to a friend)", "focus": "నీది", "wrong": ["నాది|nādi", "మాది|mādi"] },
+        { "native": "మాది హైదరాబాదు.", "roman": "mādi haidarābādu.", "en": "I'm from Hyderabad.", "focus": "మాది", "wrong": ["మీది|mīdi", "నీది|nīdi"] },
+        { "native": "ఆయనది ఏ దేశం?", "roman": "āyanadi ē dēsham?", "en": "Which country is he from?", "focus": "ఏ", "wrong": ["ఎవరు|evaru", "ఎలా|elā"] },
+        { "native": "మీరు ఎక్కడి నుంచి వచ్చారు?", "roman": "mīru ekkaḍi nunchi vachchāru?", "en": "Where have you come from?", "focus": "వచ్చారు", "wrong": ["వచ్చాను|vachchānu", "వచ్చావు|vachchāvu"] },
+        { "native": "ఆమె అమెరికా నుంచి వచ్చింది.", "roman": "āme amerikā nunchi vachchindi.", "en": "She has come from America.", "focus": "వచ్చింది", "wrong": ["వచ్చాడు|vachchāḍu", "వచ్చాను|vachchānu"] },
+        { "native": "మేము విజయవాడ నుంచి వచ్చాము.", "roman": "mēmu vijayavāḍa nunchi vachchāmu.", "en": "We've come from Vijayawada.", "focus": "నుంచి", "wrong": ["ఎక్కడ|ekkaḍa", "ఇక్కడ|ikkaḍa"] },
+        { "native": "వాళ్ళు ఎక్కడ ఉంటారు?", "roman": "vāḷḷu ekkaḍa uṇṭāru?", "en": "Where do they live?", "focus": "ఉంటారు", "wrong": ["ఉంటాను|uṇṭānu", "ఉంటాడు|uṇṭāḍu"] },
+        { "native": "నేను విజయవాడలో ఉంటాను.", "roman": "nēnu vijayavāḍalō uṇṭānu.", "en": "I live in Vijayawada.", "focus": "ఉంటాను", "wrong": ["ఉంటారు|uṇṭāru", "ఉంటావు|uṇṭāvu"] },
+        { "native": "ఆయన ఇక్కడ ఉంటారా?", "roman": "āyana ikkaḍa uṇṭārā?", "en": "Does he live here?", "focus": "ఉంటారా", "wrong": ["ఉంటానా|uṇṭānā", "ఉంటావా|uṇṭāvā"] }
+      ]
+    },
+    {
+      "title": "Talking about languages",
+      "tip": { "title": "'I know Telugu' = 'to me Telugu comes'", "body": "- The knower takes **-కు / -కి**: నాకు, నీకు, మీకు, ఆమెకు, వాళ్ళకి.\n- Then the language and **వచ్చు** 'comes': నాకు తెలుగు వచ్చు.\n- 'Don't know' is **రాదు**: నాకు హిందీ రాదు. As a question: వచ్చా?", "pattern": "నాకు + language + వచ్చు / రాదు" },
+      "new": ["భాష", "తెలుగు", "ఇంగ్లీషు", "హిందీ", "వచ్చు", "మీకు తెలుగు వచ్చా?", "కొంచెం కొంచెం వచ్చు.", "నాకు తెలుగు రాదు.", "సంతోషం", "మిమ్మల్ని కలవడం సంతోషం."],
+      "sentences": [
+        { "native": "నాకు ఇంగ్లీషు వచ్చు.", "roman": "nāku iṅglīṣu vachchu.", "en": "I know English.", "focus": "వచ్చు", "wrong": ["రాదు|rādu", "వచ్చా|vachchā"] },
+        { "native": "నీకు హిందీ వచ్చా?", "roman": "nīku hindī vachchā?", "en": "Do you know Hindi? (to a friend)", "focus": "వచ్చా", "wrong": ["వచ్చు|vachchu", "రాదు|rādu"] },
+        { "native": "నాకు హిందీ రాదు.", "roman": "nāku hindī rādu.", "en": "I don't know Hindi.", "focus": "రాదు", "wrong": ["వచ్చు|vachchu", "లేదు|lēdu"] },
+        { "native": "ఆమెకు తెలుగు బాగా వచ్చు.", "roman": "āmeku telugu bāgā vachchu.", "en": "She knows Telugu well.", "focus": "ఆమెకు", "wrong": ["ఆమె|āme", "ఆమెది|āmedi"] },
+        { "native": "మీకు ఏ భాషలు వచ్చు?", "roman": "mīku ē bhāṣalu vachchu?", "en": "Which languages do you know?", "focus": "మీకు", "wrong": ["మీరు|mīru", "మీది|mīdi"] },
+        { "native": "నాకు తెలుగు కొంచెం వచ్చు.", "roman": "nāku telugu konchem vachchu.", "en": "I know a little Telugu.", "focus": "నాకు", "wrong": ["నేను|nēnu", "నా|nā"] },
+        { "native": "వాళ్ళకి తెలుగు రాదు, ఇంగ్లీషు వచ్చు.", "roman": "vāḷḷaki telugu rādu, iṅglīṣu vachchu.", "en": "They don't know Telugu, they know English.", "focus": "వాళ్ళకి", "wrong": ["వాళ్ళు|vāḷḷu", "వాళ్ళది|vāḷḷadi"] },
+        { "native": "మిమ్మల్ని కలవడం చాలా సంతోషం.", "roman": "mimmalni kalavaḍam chālā santōṣam.", "en": "Very nice to meet you." }
+      ]
+    }
+  ]
 }

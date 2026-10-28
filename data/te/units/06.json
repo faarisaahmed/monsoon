@@ -90,5 +90,82 @@
       { "speaker": "Ravi", "native": "థాంక్స్ అమ్మా. వెళ్ళొస్తా!", "roman": "thāṅks ammā. veḷḷostā!", "en": "Thanks, Mum. Bye!" }
     ]
   },
-  "culture": "Shoes and sandals are taken off at the door of a Telugu home, and always before entering the kitchen or the *pūja* (prayer) room. Many homes have a small shrine, and the front threshold is decorated each morning with a *muggu* (rangoli) pattern drawn in rice flour. In apartments, the *watchman* and the building's *association* are central to daily life."
+  "culture": "Shoes and sandals are taken off at the door of a Telugu home, and always before entering the kitchen or the *pūja* (prayer) room. Many homes have a small shrine, and the front threshold is decorated each morning with a *muggu* (rangoli) pattern drawn in rice flour. In apartments, the *watchman* and the building's *association* are central to daily life.",
+  "lessons": [
+    {
+      "title": "Rooms of the house",
+      "tip": { "title": "'In', 'on', 'under': after the noun", "body": "- **-లో** 'in' is joined to the noun: గదిలో, వంటగదిలో, హైదరాబాదులో.\n- Other place words come *after* the noun as separate words: బల్ల **మీద** 'on the table', మంచం **కింద** 'under the bed'.\n- ఇల్లు changes before them: **ఇంట్లో** 'at home', **ఇంటి** పక్కన 'next to the house'.", "pattern": "noun-లో  ·  noun + మీద / కింద / పక్కన", "grammar": 0 },
+      "new": ["ఇల్లు", "గది", "వంటగది", "పడకగది", "బాత్రూం", "-లో", "మీ ఇల్లు ఎక్కడ?", "బాత్రూం ఎక్కడ ఉంది?"],
+      "sentences": [
+        { "native": "నాన్న పడకగదిలో ఉన్నారు.", "roman": "nānna paḍakagadilō unnāru.", "en": "Dad is in the bedroom.", "focus": "పడకగదిలో", "wrong": ["పడకగది|paḍakagadi", "పడకగదికి|paḍakagadiki"] },
+        { "native": "పిల్లలు గదిలో ఉన్నారు.", "roman": "pillalu gadilō unnāru.", "en": "The children are in the room.", "focus": "గదిలో", "wrong": ["గది|gadi", "గదికి|gadiki"] },
+        { "native": "మీ ఇల్లు హైదరాబాదులో ఉందా?", "roman": "mī illu haidarābādulō undā?", "en": "Is your house in Hyderabad?", "focus": "హైదరాబాదులో", "wrong": ["హైదరాబాదు|haidarābādu", "హైదరాబాదుకి|haidarābāduki"] },
+        { "native": "పాలు వంటగదిలో ఉన్నాయి.", "roman": "pālu vaṇṭagadilō unnāyi.", "en": "The milk is in the kitchen.", "focus": "వంటగదిలో", "wrong": ["వంటగది|vaṇṭagadi", "వంటగదికి|vaṇṭagadiki"] },
+        { "native": "ఇంట్లో ఎవరు ఉన్నారు?", "roman": "iṇṭlō evaru unnāru?", "en": "Who's at home?", "focus": "ఇంట్లో", "wrong": ["ఇల్లు|illu", "ఇంటికి|iṇṭiki"] },
+        { "native": "బాత్రూం అక్కడ ఉంది.", "roman": "bātrūm akkaḍa undi.", "en": "The bathroom is over there." },
+        { "native": "మా ఇల్లు విజయవాడలో ఉంది.", "roman": "mā illu vijayavāḍalō undi.", "en": "Our house is in Vijayawada.", "focus": "విజయవాడలో", "wrong": ["విజయవాడ|vijayavāḍa", "విజయవాడకి|vijayavāḍaki"] },
+        { "native": "పడకగది ఎక్కడ?", "roman": "paḍakagadi ekkaḍa?", "en": "Where's the bedroom?" }
+      ]
+    },
+    {
+      "title": "On, under, beside",
+      "new": ["మీద", "కింద", "పక్కన", "వెనక", "బల్ల", "కుర్చీ", "మంచం", "తాళం చెవి", "తాళం చెవి ఎక్కడ పెట్టావు?"],
+      "sentences": [
+        { "native": "తాళం చెవి బల్ల మీద ఉంది.", "roman": "tāḷam chevi balla mīda undi.", "en": "The key is on the table.", "focus": "మీద", "wrong": ["కింద|kinda", "వెనక|venaka"] },
+        { "native": "బాబు మంచం కింద ఉన్నాడు!", "roman": "bābu mancham kinda unnāḍu!", "en": "The little boy is under the bed!", "focus": "కింద", "wrong": ["మీద|mīda", "పక్కన|pakkana"] },
+        { "native": "కుర్చీ బల్ల పక్కన ఉంది.", "roman": "kurchī balla pakkana undi.", "en": "The chair is next to the table.", "focus": "పక్కన", "wrong": ["మీద|mīda", "కింద|kinda"] },
+        { "native": "పుస్తకం కుర్చీ మీద ఉంది.", "roman": "pustakam kurchī mīda undi.", "en": "The book is on the chair.", "focus": "మీద", "wrong": ["కింద|kinda", "వెనక|venaka"] },
+        { "native": "పాప కుర్చీ వెనక ఉంది.", "roman": "pāpa kurchī venaka undi.", "en": "The little girl is behind the chair.", "focus": "వెనక", "wrong": ["మీద|mīda", "కింద|kinda"] },
+        { "native": "నా పక్కన కూర్చోండి.", "roman": "nā pakkana kūrchōṇḍi.", "en": "Sit next to me.", "focus": "నా", "wrong": ["నేను|nēnu", "నాకు|nāku"] },
+        { "native": "తాళం చెవి మంచం మీద పెట్టాను.", "roman": "tāḷam chevi mancham mīda peṭṭānu.", "en": "I put the key on the bed.", "focus": "మీద", "wrong": ["కింద|kinda", "వెనక|venaka"] },
+        { "native": "మంచం కింద ఏమి ఉంది?", "roman": "mancham kinda ēmi undi?", "en": "What's under the bed?" }
+      ]
+    },
+    {
+      "title": "Doors, windows, fans and lights",
+      "tip": { "title": "Switching on and off, opening and closing", "body": "- Switch on = 'put': ఫ్యాను / లైటు **వేయండి**. Switch off = 'stop': **ఆపండి**.\n- Open: **తెరవండి**; close: **మూయండి**.\n- To a friend drop **-ండి**: ఆపు, మూయి.", "pattern": "thing + వేయండి / ఆపండి / తెరవండి / మూయండి" },
+      "new": ["తలుపు", "కిటికీ", "ఫ్యాను", "లైటు", "ఫ్యాను వేయండి.", "లైటు ఆపండి.", "తలుపు మూయండి.", "కిటికీ తెరవండి."],
+      "sentences": [
+        { "native": "లైటు వేయండి.", "roman": "laiṭu vēyaṇḍi.", "en": "Please switch on the light.", "focus": "వేయండి", "wrong": ["ఆపండి|āpaṇḍi", "తెరవండి|teravaṇḍi"] },
+        { "native": "ఫ్యాను ఆపండి.", "roman": "phyānu āpaṇḍi.", "en": "Please switch off the fan.", "focus": "ఆపండి", "wrong": ["వేయండి|vēyaṇḍi", "మూయండి|mūyaṇḍi"] },
+        { "native": "తలుపు తెరవండి.", "roman": "talupu teravaṇḍi.", "en": "Please open the door.", "focus": "తెరవండి", "wrong": ["మూయండి|mūyaṇḍi", "ఆపండి|āpaṇḍi"] },
+        { "native": "కిటికీ మూయండి.", "roman": "kiṭikī mūyaṇḍi.", "en": "Please close the window.", "focus": "మూయండి", "wrong": ["తెరవండి|teravaṇḍi", "వేయండి|vēyaṇḍi"] },
+        { "native": "తలుపు మూయి.", "roman": "talupu mūyi.", "en": "Close the door. (to a friend)", "focus": "మూయి", "wrong": ["మూయండి|mūyaṇḍi", "మూస్తాను|mūstānu"] },
+        { "native": "లైటు ఆపు.", "roman": "laiṭu āpu.", "en": "Switch off the light. (to a friend)", "focus": "ఆపు", "wrong": ["ఆపండి|āpaṇḍi", "ఆపుతాను|āputānu"] },
+        { "native": "ఈ గదిలో లైటు లేదు.", "roman": "ī gadilō laiṭu lēdu.", "en": "There's no light in this room." },
+        { "native": "కిటికీ పక్కన కూర్చోండి.", "roman": "kiṭikī pakkana kūrchōṇḍi.", "en": "Sit by the window." }
+      ]
+    },
+    {
+      "title": "What's in the cupboard?",
+      "tip": { "title": "There is, there are", "body": "- 'There is' = place + thing + **ఉంది** (one thing) or **ఉన్నాయి** (several things).\n- 'There isn't' = **లేదు** (one) / **లేవు** (several).\n- Ask with -ā: ఉందా?, ఉన్నాయా?", "pattern": "place + thing + ఉంది / ఉన్నాయి  ·  లేదు / లేవు", "grammar": 1 },
+      "new": ["అలమారా", "పెట్టె", "సంచి", "గిన్నె", "గ్లాసు", "సబ్బు", "అంతస్తు", "మెట్లు", "గోడ", "మా ఇల్లు రెండో అంతస్తులో ఉంది."],
+      "sentences": [
+        { "native": "బాత్రూంలో సబ్బు లేదు.", "roman": "bātrūmlō sabbu lēdu.", "en": "There's no soap in the bathroom.", "focus": "లేదు", "wrong": ["లేవు|lēvu", "లేరు|lēru"] },
+        { "native": "అలమారాలో గ్లాసులు ఉన్నాయి.", "roman": "alamārālō glāsulu unnāyi.", "en": "There are glasses in the cupboard.", "focus": "ఉన్నాయి", "wrong": ["ఉంది|undi", "ఉన్నారు|unnāru"] },
+        { "native": "పెట్టెలో ఏమి ఉంది?", "roman": "peṭṭelō ēmi undi?", "en": "What's in the box?", "focus": "పెట్టెలో", "wrong": ["పెట్టె|peṭṭe", "పెట్టెకి|peṭṭeki"] },
+        { "native": "గిన్నెలో పప్పు ఉంది.", "roman": "ginnelō pappu undi.", "en": "There's dal in the bowl.", "focus": "ఉంది", "wrong": ["ఉన్నాయి|unnāyi", "ఉన్నాడు|unnāḍu"] },
+        { "native": "ఇక్కడ మెట్లు ఉన్నాయా?", "roman": "ikkaḍa meṭlu unnāyā?", "en": "Are there stairs here?", "focus": "ఉన్నాయా", "wrong": ["ఉందా|undā", "ఉన్నారా|unnārā"] },
+        { "native": "మా ఇంట్లో రెండు అంతస్తులు ఉన్నాయి.", "roman": "mā iṇṭlō reṇḍu antastulu unnāyi.", "en": "Our house has two floors.", "focus": "ఉన్నాయి", "wrong": ["ఉంది|undi", "ఉన్నారు|unnāru"] },
+        { "native": "సంచిలో గ్లాసులు లేవు.", "roman": "sanchilō glāsulu lēvu.", "en": "There are no glasses in the bag.", "focus": "లేవు", "wrong": ["లేదు|lēdu", "లేరు|lēru"] },
+        { "native": "గోడ మీద ఒక ఫోటో ఉంది.", "roman": "gōḍa mīda oka phōṭō undi.", "en": "There's a photo on the wall.", "focus": "ఉంది", "wrong": ["ఉన్నాయి|unnāyi", "ఉన్నారు|unnāru"] },
+        { "native": "మేము మూడో అంతస్తులో ఉంటాం.", "roman": "mēmu mūḍō antastulō uṇṭām.", "en": "We live on the third floor." }
+      ]
+    },
+    {
+      "title": "Come in! Inside and outside",
+      "tip": { "title": "Inside, outside, near", "body": "- Being inside / outside: **లోపల**, **బయట**. Moving in / out: **లోపలికి**, **బయటికి**: లోపలికి రండి.\n- **దగ్గర** = near: బ్యాంకు దగ్గర. After a person it means 'with': నా దగ్గర తాళం చెవి ఉంది 'I've got the key on me'.", "pattern": "లోపల / బయట (where)  ·  లోపలికి / బయటికి (to where)" },
+      "new": ["లోపల", "బయట", "దగ్గర", "చెప్పులు", "ఇది మా ఇల్లు, లోపలికి రండి.", "చెప్పులు బయట వదలండి.", "ఇంట్లో ఎవరైనా ఉన్నారా?"],
+      "sentences": [
+        { "native": "చెప్పులు బయట ఉన్నాయి.", "roman": "cheppulu bayaṭa unnāyi.", "en": "The sandals are outside.", "focus": "బయట", "wrong": ["బయటికి|bayaṭiki", "లోపలికి|lōpaliki"] },
+        { "native": "లోపలికి రా.", "roman": "lōpaliki rā.", "en": "Come in. (to a friend)", "focus": "లోపలికి", "wrong": ["లోపల|lōpala", "బయట|bayaṭa"] },
+        { "native": "పిల్లలు బయట ఉన్నారు.", "roman": "pillalu bayaṭa unnāru.", "en": "The kids are outside.", "focus": "బయట", "wrong": ["బయటికి|bayaṭiki", "లోపలికి|lōpaliki"] },
+        { "native": "అమ్మ లోపల ఉంది.", "roman": "amma lōpala undi.", "en": "Mum is inside.", "focus": "లోపల", "wrong": ["లోపలికి|lōpaliki", "బయటికి|bayaṭiki"] },
+        { "native": "మా ఇల్లు బ్యాంకు దగ్గర ఉంది.", "roman": "mā illu byāṅku daggara undi.", "en": "Our house is near the bank.", "focus": "దగ్గర", "wrong": ["మీద|mīda", "కింద|kinda"] },
+        { "native": "మీ దగ్గర తాళం చెవి ఉందా?", "roman": "mī daggara tāḷam chevi undā?", "en": "Have you got the key on you?", "focus": "దగ్గర", "wrong": ["పక్కన|pakkana", "మీద|mīda"] },
+        { "native": "నా దగ్గర సబ్బు లేదు.", "roman": "nā daggara sabbu lēdu.", "en": "I haven't got any soap." },
+        { "native": "బయట ఎవరు ఉన్నారు?", "roman": "bayaṭa evaru unnāru?", "en": "Who's outside?" }
+      ]
+    }
+  ]
 }

@@ -90,5 +90,88 @@
       { "speaker": "Ayaz", "native": "ادا، بل آڻيو، مهرباني.", "roman": "adā, bilu āṇyo, meharbānī.", "en": "Brother, the bill please." }
     ]
   },
-  "culture": "Hospitality (مهمان نوازي) is a point of honour in Sindh. A guest is offered tea or a cold drink immediately, and refusing food once is expected politeness — your host will insist, and it is fine to accept the second time. Eating from shared dishes with the right hand and flatbread is normal at home. Sindhi Muslims eat halal meat and avoid pork and alcohol; many Hindu Sindhis are vegetarian or avoid beef. Famous Sindhi dishes to try: Sindhi biryani, sai bhaji with rice, koki for breakfast, and palo fish from the Indus, a seasonal delicacy around Hyderabad and Thatta."
+  "culture": "Hospitality (مهمان نوازي) is a point of honour in Sindh. A guest is offered tea or a cold drink immediately, and refusing food once is expected politeness — your host will insist, and it is fine to accept the second time. Eating from shared dishes with the right hand and flatbread is normal at home. Sindhi Muslims eat halal meat and avoid pork and alcohol; many Hindu Sindhis are vegetarian or avoid beef. Famous Sindhi dishes to try: Sindhi biryani, sai bhaji with rice, koki for breakfast, and palo fish from the Indus, a seasonal delicacy around Hyderabad and Thatta.",
+  "lessons": [
+    {
+      "title": "I'd like some tea",
+      "tip": { "title": "Wanting: مون کي … گهرجي", "body": "- 'I want / need X' = **مون کي X گهرجي** — lit. 'to me X is needed'.\n- The person takes **کي**: مون کي, توهان کي, هن کي, اسان کي.\n- If X is plural, گهرجي becomes **گهرجن**: ٻه ڪوپ چانهه گهرجن.\n- To ask politely, use **ڏيو** 'give': ٿورو پاڻي ڏيو.", "pattern": "مون کي + thing + گهرجي", "grammar": 0 },
+      "new": ["چانهه", "پاڻي", "کير", "کنڊ", "گهرجي", "مون کي هڪ ڪوپ چانهه گهرجي.", "ٿورو پاڻي ڏيو."],
+      "sentences": [
+        { "native": "مون کي ٿورو کير گهرجي.", "roman": "moṃ khe thoro khīru ghurje.", "en": "I'd like a little milk.", "focus": "گهرجي", "wrong": ["گهرجن|ghurjan", "آهي|āhe"] },
+        { "native": "توهان کي چانهه گهرجي؟", "roman": "tavhāṃ khe chānhi ghurje?", "en": "Would you like tea?", "focus": "کي", "wrong": ["جو|jo", "۾|meṃ"] },
+        { "native": "چانهه ۾ کنڊ گهرجي؟", "roman": "chānhi meṃ khanḍa ghurje?", "en": "Do you want sugar in your tea?", "focus": "گهرجي", "wrong": ["گهرجن|ghurjan", "آهيو|āhyo"] },
+        { "native": "جي نه، مون کي کنڊ نه گهرجي.", "roman": "jī na, moṃ khe khanḍa na ghurje.", "en": "No thanks, I don't want sugar.", "focus": "کي", "wrong": ["جو|jo", "۾|meṃ"] },
+        { "native": "اسان کي ٻه ڪوپ چانهه گهرجن.", "roman": "asāṃ khe ɓa kopa chānhi ghurjan.", "en": "We'd like two cups of tea.", "focus": "گهرجن", "wrong": ["گهرجي|ghurje", "آهي|āhe"] },
+        { "native": "ادا، ٿورو کير ڏيو.", "roman": "adā, thoro khīru ɗiyo.", "en": "Brother, a little milk, please." },
+        { "native": "هن کي پاڻي گهرجي.", "roman": "hun khe pāṇī ghurje.", "en": "He needs water.", "focus": "کي", "wrong": ["جو|jo", "تي|te"] },
+        { "native": "ٻار کي کير گهرجي.", "roman": "ɓāra khe khīru ghurje.", "en": "The child needs milk.", "focus": "گهرجي", "wrong": ["گهرجن|ghurjan", "آهن|āhin"] },
+        { "native": "مهرباني ڪري ٿوري کنڊ ڏيو.", "roman": "meharbānī kare thorī khanḍa ɗiyo.", "en": "A little sugar, please.", "focus": "ٿوري", "wrong": ["ٿورو|thoro", "ٿورا|thorā"] }
+      ]
+    },
+    {
+      "title": "Eating and drinking",
+      "tip": { "title": "Eat and drink", "body": "- **کائڻ** to eat, **پيئڻ** to drink. Polite 'please eat / drink': **کائو، پيئو**.\n- You 'eat bread' for a meal: **ماني کائڻ**; ماني means both roti and 'a meal'.\n- 'I eat' = مان **کايان ٿو** (man) / **ٿي** (woman); 'I don't eat' = مان **نٿو کايان**." },
+      "new": ["کاڌو", "ماني", "نيرن", "آنو", "ڏهي", "کائڻ", "پيئڻ", "ماني تيار آهي!", "توهان ڇا کائڻ چاهيو ٿا؟"],
+      "sentences": [
+        { "native": "ماني کائو، سائين.", "roman": "mānī khāo, sāīṃ.", "en": "Please eat, sir.", "focus": "کائو", "wrong": ["کاءُ|khāu", "کائي|khāe"] },
+        { "native": "مان نيرن ۾ ٻه آنا کايان ٿو.", "roman": "māṃ nerani meṃ ɓa ānā khāyāṃ tho.", "en": "I have two eggs for breakfast. (man)", "focus": "کايان", "wrong": ["کائو|khāo", "کائي|khāe"] },
+        { "native": "هو ڏهي نٿو کائي.", "roman": "hū ɗahī natho khāe.", "en": "He doesn't eat yoghurt.", "focus": "نٿو", "wrong": ["نٿي|nathī", "نٿا|nathā"] },
+        { "native": "ٻار کير پيئن ٿا.", "roman": "ɓāra khīru pīan thā.", "en": "The children drink milk.", "focus": "پيئن", "wrong": ["پيئي|pīe", "پيئو|pīo"] },
+        { "native": "توهان چانهه پيئو ٿا؟", "roman": "tavhāṃ chānhi pīo thā?", "en": "Do you drink tea?", "focus": "پيئو", "wrong": ["پيئن|pīan", "پيئي|pīe"] },
+        { "native": "کاڌو تيار آهي؟", "roman": "khādho tayāru āhe?", "en": "Is the food ready?" },
+        { "native": "اسين گهر ۾ ماني کائون ٿا.", "roman": "asīṃ ghara meṃ mānī khāūṃ thā.", "en": "We eat at home.", "focus": "کائون", "wrong": ["کايان|khāyāṃ", "کائن|khāin"] },
+        { "native": "پاڻي پيئو، ادا.", "roman": "pāṇī pīo, adā.", "en": "Have some water, brother." },
+        { "native": "توهان ڇا پيئڻ چاهيو ٿا؟", "roman": "tavhāṃ chhā pīaṇu chāhyo thā?", "en": "What would you like to drink?" }
+      ]
+    },
+    {
+      "title": "I like it! Tastes",
+      "tip": { "title": "Liking: مون کي … وڻي ٿو / ٿي", "body": "- 'I like X' = 'X pleases me': **مون کي X وڻي ٿو** (X masculine) or **وڻي ٿي** (X feminine).\n- The verb agrees with the food, not with you: مون کي برياني (f) وڻي **ٿي**, تکو کاڌو (m) وڻي **ٿو**.\n- 'Don't like' = **نٿو / نٿي** وڻي. 'Really' = ڏاڍو / ڏاڍي.", "pattern": "مون کي + thing + وڻي ٿو / ٿي", "grammar": 1 },
+      "new": ["وڻڻ", "سوادي", "مٺو", "تکو", "کٽو", "برياني", "ڀاڄي", "مون کي سائي ڀاڄي ڏاڍي وڻي ٿي.", "هي ڏاڍو سوادي آهي!"],
+      "sentences": [
+        { "native": "مون کي مٺي چانهه وڻي ٿي.", "roman": "moṃ khe miṭhī chānhi vaṇe thī.", "en": "I like sweet tea.", "focus": "ٿي", "wrong": ["ٿو|tho", "ٿا|thā"] },
+        { "native": "مون کي تکو کاڌو وڻي ٿو.", "roman": "moṃ khe tikho khādho vaṇe tho.", "en": "I like spicy food.", "focus": "ٿو", "wrong": ["ٿي|thī", "ٿا|thā"] },
+        { "native": "توهان کي برياني وڻي ٿي؟", "roman": "tavhāṃ khe biryānī vaṇe thī?", "en": "Do you like biryani?", "focus": "وڻي", "wrong": ["وڻن|vaṇan", "گهرجي|ghurje"] },
+        { "native": "هن کي ڀاڄي نٿي وڻي.", "roman": "hun khe bhāʄī nathī vaṇe.", "en": "He doesn't like vegetables.", "focus": "نٿي", "wrong": ["نٿو|natho", "نٿا|nathā"] },
+        { "native": "برياني ڏاڍي تکي آهي!", "roman": "biryānī ɗāḍhī tikhī āhe!", "en": "The biryani is really spicy!", "focus": "تکي", "wrong": ["تکو|tikho", "تکا|tikhā"] },
+        { "native": "هي ڏاڍو کٽو آهي.", "roman": "hī ɗāḍho khaṭo āhe.", "en": "This is very sour." },
+        { "native": "ٻارن کي مٺو کاڌو وڻي ٿو.", "roman": "ɓāran khe miṭho khādho vaṇe tho.", "en": "Children like sweet food.", "focus": "ٿو", "wrong": ["ٿي|thī", "ٿا|thā"] },
+        { "native": "اسان کي سنڌي برياني ڏاڍي وڻي ٿي.", "roman": "asāṃ khe sindhī biryānī ɗāḍhī vaṇe thī.", "en": "We really love Sindhi biryani.", "focus": "ڏاڍي", "wrong": ["ڏاڍو|ɗāḍho", "ڏاڍا|ɗāḍhā"] },
+        { "native": "ڀاڄي سوادي آهي؟", "roman": "bhāʄī savādī āhe?", "en": "Is the vegetable dish tasty?" },
+        { "native": "تو کي تکو کاڌو وڻي ٿو؟", "roman": "to khe tikho khādho vaṇe tho?", "en": "Do you like spicy food? (to a friend)", "focus": "ٿو", "wrong": ["ٿي|thī", "ٿا|thā"] }
+      ]
+    },
+    {
+      "title": "Fish, chicken and mangoes",
+      "new": ["ميوو", "انب", "لسي", "ڪڪڙ", "گوشت", "مڇي", "ڇا هن ۾ گوشت آهي؟", "مان گوشت نٿو کايان."],
+      "sentences": [
+        { "native": "اسان کي انب وڻن ٿا.", "roman": "asāṃ khe anba vaṇan thā.", "en": "We love mangoes.", "focus": "وڻن", "wrong": ["وڻي|vaṇe", "گهرجي|ghurje"] },
+        { "native": "توهان کي مڇي وڻي ٿي؟", "roman": "tavhāṃ khe machhī vaṇe thī?", "en": "Do you like fish?", "focus": "ٿي", "wrong": ["ٿو|tho", "ٿا|thā"] },
+        { "native": "مون کي ڪڪڙ جو گوشت وڻي ٿو.", "roman": "moṃ khe kukuṛa jo goshtu vaṇe tho.", "en": "I like chicken.", "focus": "ٿو", "wrong": ["ٿي|thī", "ٿا|thā"] },
+        { "native": "هوءَ گوشت نٿي کائي.", "roman": "hūa goshtu nathī khāe.", "en": "She doesn't eat meat.", "focus": "نٿي", "wrong": ["نٿو|natho", "نٿا|nathā"] },
+        { "native": "هن ۾ ڪڪڙ آهي؟", "roman": "hin meṃ kukuṛu āhe?", "en": "Is there chicken in this?" },
+        { "native": "اسان کي ٻه لسيون گهرجن.", "roman": "asāṃ khe ɓa lasyūṃ ghurjan.", "en": "We'd like two lassis.", "focus": "گهرجن", "wrong": ["گهرجي|ghurje", "آهي|āhe"] },
+        { "native": "ٻارن کي ميوو ڏاڍو وڻي ٿو.", "roman": "ɓāran khe mevo ɗāḍho vaṇe tho.", "en": "Children love fruit.", "focus": "ڏاڍو", "wrong": ["ڏاڍي|ɗāḍhī", "ڏاڍا|ɗāḍhā"] },
+        { "native": "مون کي لسي نٿي وڻي.", "roman": "moṃ khe lasī nathī vaṇe.", "en": "I don't like lassi.", "focus": "نٿي", "wrong": ["نٿو|natho", "نٿا|nathā"] },
+        { "native": "هتي مڇي ڏاڍي سوادي آهي.", "roman": "hite machhī ɗāḍhī savādī āhe.", "en": "The fish here is delicious." }
+      ]
+    },
+    {
+      "title": "Hungry, thirsty, full",
+      "tip": { "title": "Hunger \"strikes\" you", "body": "- 'I'm hungry' = **مون کي بک لڳي آهي** — hunger has struck me. Thirsty: **اڃ لڳي آهي**.\n- Not hungry: **مون کي بک ناهي**.\n- At the table: **مرچ گهٽ رکجو** 'go easy on the chilli', **پيٽ ڀرجي ويو** 'I'm full', **بل آڻيو** 'the bill, please'." },
+      "new": ["بک", "اڃ", "چانور", "دال", "لوڻ", "مرچ", "مون کي بک لڳي آهي.", "مرچ گهٽ رکجو.", "بس، پيٽ ڀرجي ويو.", "بل آڻيو، مهرباني."],
+      "sentences": [
+        { "native": "مون کي ڏاڍي بک لڳي آهي.", "roman": "moṃ khe ɗāḍhī bukha laɠī āhe.", "en": "I'm really hungry.", "focus": "بک", "wrong": ["اڃ|añu", "کنڊ|khanḍa"] },
+        { "native": "توهان کي اڃ لڳي آهي؟", "roman": "tavhāṃ khe añu laɠī āhe?", "en": "Are you thirsty?", "focus": "اڃ", "wrong": ["بک|bukha", "مرچ|marcha"] },
+        { "native": "ٻار کي بک لڳي آهي.", "roman": "ɓāra khe bukha laɠī āhe.", "en": "The child is hungry.", "focus": "لڳي", "wrong": ["لڳو|laɠo", "لڳا|laɠā"] },
+        { "native": "مون کي دال ۽ چانور گهرجن.", "roman": "moṃ khe dāla ai chānvara ghurjan.", "en": "I'd like dal and rice.", "focus": "گهرجن", "wrong": ["گهرجي|ghurje", "آهي|āhe"] },
+        { "native": "ٿورو لوڻ ڏيو.", "roman": "thoro lūṇu ɗiyo.", "en": "Pass the salt, please. (lit. give a little salt)" },
+        { "native": "دال ۾ لوڻ گهٽ آهي.", "roman": "dāla meṃ lūṇu ghaṭu āhe.", "en": "The dal doesn't have enough salt." },
+        { "native": "هن ۾ مرچ گهڻي آهي.", "roman": "hin meṃ marcha ghaṇī āhe.", "en": "There's a lot of chilli in this.", "focus": "گهڻي", "wrong": ["گهڻو|ghaṇo", "گهڻا|ghaṇā"] },
+        { "native": "چانور سوادي آهن.", "roman": "chānvara savādī āhin.", "en": "The rice is tasty.", "focus": "آهن", "wrong": ["آهي|āhe", "آهيون|āhyūṃ"] },
+        { "native": "نه، مهرباني، مون کي بک ناهي.", "roman": "na, meharbānī, moṃ khe bukha nāhe.", "en": "No thanks, I'm not hungry.", "focus": "بک", "wrong": ["اڃ|añu", "پاڻي|pāṇī"] },
+        { "native": "سائين، بل آڻيو.", "roman": "sāīṃ, bilu āṇyo.", "en": "The bill, please, sir." }
+      ]
+    }
+  ]
 }
