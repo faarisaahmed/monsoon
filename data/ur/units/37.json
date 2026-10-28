@@ -1,0 +1,198 @@
+{
+  "id": 37,
+  "title": "Sorting out problems",
+  "goal": "Return things and ask for a refund, deal with customer service, report a snatched phone to the police, stay calm in an argument — and tell people exactly who said what.",
+  "intro": "The wrong order arrives, the money is taken twice, the phone gets snatched on the way home. Sorting these out in Urdu takes two skills: staying **polite but firm** (ٹھنڈے دماغ سے), and **reporting what people told you** — 'they said it would come tomorrow', 'the officer told me to file an FIR', 'they asked whether I had the receipt'.\n\nUrdu reported speech is easier than English: you mostly just **quote the words after کہ**, without changing the tense. This unit shows you how, for statements, requests and questions.",
+  "vocab": [
+    { "native": "ریفنڈ", "roman": "rīfanḍ", "en": "refund", "pos": "noun", "note": "m · ریفنڈ کرنا to refund; ریفنڈ ملنا to get a refund. Formal: رقم کی واپسی." },
+    { "native": "واپس کرنا", "roman": "vāpas karnā", "en": "to return, give back", "pos": "verb", "note": "یہ قمیض واپس کرنی ہے I need to return this shirt. Passive: واپس ہونا (یہ واپس نہیں ہو گا it can't be returned)." },
+    { "native": "تبدیل کرنا", "roman": "tabdīl karnā", "en": "to exchange, change", "pos": "verb", "note": "In shops people also just say بدلنا / چینج کرنا." },
+    { "native": "ٹوٹا ہوا", "roman": "ṭūṭā huā", "en": "broken", "pos": "adj", "note": "Agrees: ٹوٹی ہوئی پلیٹ a broken plate. For machines that don't work, خراب." },
+    { "native": "نقص", "roman": "naqs", "en": "defect, fault (in a product)", "pos": "noun", "note": "m · اس میں نقص ہے there's a fault in it. Also فالٹ." },
+    { "native": "بدلے میں", "roman": "badle meṃ", "en": "in exchange, instead", "pos": "adv", "note": "اس کے بدلے میں in exchange for it" },
+    { "native": "کسٹمر سروس", "roman": "kasṭamar sarvis", "en": "customer service", "pos": "noun", "note": "f · کسٹمر سروس والے the customer service people" },
+    { "native": "ہیلپ لائن", "roman": "help lā’in", "en": "helpline", "pos": "noun", "note": "f" },
+    { "native": "کمپلین", "roman": "kamplen", "en": "complaint (to a company)", "pos": "noun", "note": "f · English, used everywhere: کمپلین کرنا, کمپلین نمبر. The Urdu word is شکایت." },
+    { "native": "پتا کرنا", "roman": "patā karnā", "en": "to find out, check", "pos": "verb", "note": "پتا کرو کہ… find out whether… (from پتا 'knowledge')" },
+    { "native": "غلط فہمی", "roman": "ġalat fahmī", "en": "misunderstanding", "pos": "noun", "note": "f · lit. wrong understanding" },
+    { "native": "حل", "roman": "hal", "en": "solution", "pos": "noun", "note": "m · حل نکالنا to find a solution; حل کرنا to solve" },
+    { "native": "ٹالنا", "roman": "ṭālnā", "en": "to put off, fob off; to avoid", "pos": "verb", "note": "مجھے ٹال رہے ہیں they're fobbing me off; بات ٹالنا to dodge the subject" },
+    { "native": "دماغ", "roman": "dimāġ", "en": "brain, mind", "pos": "noun", "note": "m · ٹھنڈے دماغ سے calmly (lit. with a cool brain); دماغ خراب کرنا to drive someone mad" },
+    { "native": "منع کرنا", "roman": "manaʿ karnā", "en": "to tell (someone) not to; to refuse", "pos": "verb", "note": "ابو نے منع کیا Dad said no; … سے منع کر دیا refused to …" },
+    { "native": "گارنٹی", "roman": "gāranṭī", "en": "guarantee, warranty", "pos": "noun", "note": "f · گارنٹی میں ہے it's under warranty. Also وارنٹی." },
+    { "native": "افسر", "roman": "afsar", "en": "officer, official", "pos": "noun", "note": "m · Police officers are addressed as سر or افسر صاحب." },
+    { "native": "ایف آئی آر", "roman": "ef ā’ī ār", "en": "FIR (first information report, filed with the police)", "pos": "noun", "note": "f · ایف آئی آر کٹوانا / درج کروانا to file an FIR" },
+    { "native": "درج کروانا", "roman": "darj karvānā", "en": "to get (a complaint, report) registered, to file", "pos": "verb", "note": "From درج 'recorded'. Passive: کمپلین درج ہو گئی the complaint has been logged." },
+    { "native": "چھیننا", "roman": "chhīnnā", "en": "to snatch", "pos": "verb", "note": "Someone snatched it: اس نے فون چھینا. It got snatched: فون چھن گیا (from چھننا)." },
+    { "native": "بلاک کروانا", "roman": "blāk karvānā", "en": "to get (a SIM, card) blocked", "pos": "verb", "note": "سم بلاک کروانا, کارڈ بلاک کروانا" },
+    { "native": "ثبوت", "roman": "sabūt", "en": "proof, evidence", "pos": "noun", "note": "m" },
+    { "native": "چیخنا", "roman": "chīxnā", "en": "to shout, scream", "pos": "verb", "note": "Often pronounced chīkhnā." },
+    { "native": "الزام", "roman": "ilzām", "en": "accusation, blame", "pos": "noun", "note": "m · (کسی پر) الزام لگانا to blame (someone)" },
+    { "native": "لاپروائی", "roman": "lāparvā’ī", "en": "carelessness, negligence", "pos": "noun", "note": "f · Also spelt لاپرواہی." }
+  ],
+  "phrases": [
+    { "native": "میرا آرڈر غلط آیا ہے۔", "roman": "merā ārḍar ġalat āyā hai.", "en": "I got the wrong order." },
+    { "native": "مجھے ریفنڈ چاہیے۔", "roman": "mujhe rīfanḍ chāhiye.", "en": "I want a refund." },
+    { "native": "آپ نے کہا تھا کہ کل تک آ جائے گا۔", "roman": "āp ne kahā thā ki kal tak ā jā’e gā.", "en": "You said it would come by tomorrow.", "note": "The tense of the original words stays: آ جائے گا 'will come'." },
+    { "native": "میرے پیسے دو بار کٹ گئے۔", "roman": "mere paise do bār kaṭ ga’e.", "en": "I was charged twice." },
+    { "native": "میری کمپلین کا نمبر کیا ہے؟", "roman": "merī kamplen kā nambar kyā hai?", "en": "What's my complaint number?" },
+    { "native": "کیا میں مینیجر سے بات کر سکتا ہوں؟", "roman": "kyā maiṃ mainejar se bāt kar saktā hūṃ?", "en": "Could I speak to the manager? (man)", "note": "Woman: کر سکتی ہوں؟" },
+    { "native": "آپ مجھے ٹال رہے ہیں۔", "roman": "āp mujhe ṭāl rahe haiṃ.", "en": "You're fobbing me off." },
+    { "native": "آرام سے، ٹھنڈے دماغ سے بات کرتے ہیں۔", "roman": "ārām se, ṭhanḍe dimāġ se bāt karte haiṃ.", "en": "Easy — let's talk about this calmly." },
+    { "native": "کوئی حل نکالیں۔", "roman": "koī hal nikāleṃ.", "en": "Please find some solution. (polite)" },
+    { "native": "انہوں نے کہا کہ انتظار کریں۔", "roman": "unhoṃ ne kahā ki intizār kareṃ.", "en": "They told (me) to wait." },
+    { "native": "یہ گارنٹی میں ہے نا؟", "roman": "ye gāranṭī meṃ hai nā?", "en": "This is under warranty, isn't it?" },
+    { "native": "میرا موبائل چھن گیا۔", "roman": "merā mobā’il chhin gayā.", "en": "My phone got snatched." },
+    { "native": "شاید کوئی غلط فہمی ہوئی ہے۔", "roman": "shāyad koī ġalat fahmī hu’ī hai.", "en": "There must be some misunderstanding.", "note": "The face-saving way to open a dispute." }
+  ],
+  "grammar": [
+    {
+      "title": "They said that…: reporting statements",
+      "body": "Urdu reports what someone said by **quoting their words after کہ** — and, unlike English, it **keeps the original tense**:\n\nانہوں نے کہا کہ پارسل کل **آ جائے گا** — 'They said the parcel **would** come tomorrow' (lit. 'they said: the parcel will come tomorrow').\n\n**Pronouns** can stay as they were (the most common choice in speech) or shift as in English:\nاس نے کہا کہ **میں** دس منٹ میں پہنچ رہا ہوں = 'He said he was arriving in ten minutes.'\nاس نے کہا کہ **وہ** دس منٹ میں پہنچ رہا ہے — also fine.\n\n**The verbs:**\n- **کہنا** 'say' — the person you say it *to* takes **سے**: مجھ **سے** کہا 'said to me'.\n- **بتانا** 'tell, inform' — the person takes **کو**: مجھے بتایا 'told me'.\n- In speech, **کہہ رہا تھا / کہہ رہی تھی** 'was saying' is very common for passing on what someone said: امی کہہ رہی تھیں کہ… 'Mum was saying that…'.\n- **کا کہنا ہے کہ** 'according to, X says that': کمپنی کا کہنا ہے کہ… 'the company says…'.\n\n**Spelling trap:** the 'that' word is **کہ** (ki), not **کے** (ke, 'of').",
+      "examples": [
+        { "native": "اس نے کہا کہ میں دس منٹ میں پہنچ رہا ہوں۔", "roman": "us ne kahā ki maiṃ das minaṭ meṃ pahuṃch rahā hūṃ.", "en": "He said he was arriving in ten minutes. (lit. 'I'm arriving')" },
+        { "native": "دکاندار نے بتایا کہ گارنٹی ایک سال کی ہے۔", "roman": "dukāndār ne batāyā ki gāranṭī ek sāl kī hai.", "en": "The shopkeeper told us the warranty is for a year." },
+        { "native": "امی کہہ رہی تھیں کہ تمہارا فون بند تھا۔", "roman": "ammī kah rahī thīṃ ki tumhārā fon band thā.", "en": "Mum was saying your phone was off." },
+        { "native": "کمپنی کا کہنا ہے کہ غلطی ان کی نہیں۔", "roman": "kampanī kā kahnā hai ki ġaltī un kī nahīṃ.", "en": "The company says it's not their fault." }
+      ]
+    },
+    {
+      "title": "He told me to…: reporting requests and orders",
+      "body": "There are two ways to report an instruction.\n\n**1. کہ + subjunctive** (or the original command):\nانہوں نے مجھ سے کہا کہ میں کل **آؤں** — 'They told me to come tomorrow.'\nانہوں نے کہا کہ انتظار **کریں** — 'They said to wait.' (their polite command, quoted)\n\n**2. Oblique infinitive + کو + کہنا** — shorter, very common:\nانہوں نے رسید **لانے کو** کہا — 'They told me to bring the receipt.'\nIn Pakistan you'll hear **کا** here just as often: رسید **لانے کا** کہا. (کو is the textbook form.)\n\n**'Not to'**: use **نہ** — کہا کہ فکر **نہ** کریں / فون استعمال **نہ** کرنے کو کہا. Or use **منع کرنا**: ابو نے **منع** کیا تھا 'Dad told me not to'; … لینے **سے منع کر دیا** 'refused to take…'.\n\n**Passing on a request**: **اس سے کہو کہ** + subjunctive — اس سے کہو کہ مجھے فون **کرے** 'tell him to call me'. Polite: ان سے کہیے گا کہ… 'do tell him (resp.) that…'.\n\n**Trap:** کہنا takes **سے**, not کو, for the person told: اس کو کہا is heard in Punjab, but **اس سے کہا** is standard.",
+      "examples": [
+        { "native": "انہوں نے مجھ سے کہا کہ میں کل دوبارہ آؤں۔", "roman": "unhoṃ ne mujh se kahā ki maiṃ kal dobāra ā’ūṃ.", "en": "They told me to come back tomorrow." },
+        { "native": "افسر نے ایف آئی آر درج کروانے کو کہا۔", "roman": "afsar ne ef ā’ī ār darj karvāne ko kahā.", "en": "The officer told us to file an FIR." },
+        { "native": "دکاندار نے رسید لانے کا کہا۔", "roman": "dukāndār ne rasīd lāne kā kahā.", "en": "The shopkeeper said to bring the receipt. (colloquial کا)" },
+        { "native": "اس سے کہو کہ مجھے فون کرے۔", "roman": "us se kaho ki mujhe fon kare.", "en": "Tell him to call me." },
+        { "native": "ابو نے منع کیا تھا کہ رات کو اکیلے نہ جاؤ۔", "roman": "abbū ne manaʿ kiyā thā ki rāt ko akele na jā’o.", "en": "Dad had told me not to go out alone at night." }
+      ]
+    },
+    {
+      "title": "She asked whether…: reporting questions",
+      "body": "Reported questions also go after **کہ**, with the question word kept in place and no change of tense:\n\nاس نے پوچھا کہ آپ کا آرڈر نمبر **کیا** ہے — 'She asked what my order number was.'\nپوچھو کہ ریفنڈ **کب تک** آئے گا — 'Ask when the refund will come.'\n\n**Yes/no questions ('whether')** can keep **کیا** (پوچھا کہ **کیا** کارڈ آپ کے پاس ہے), but in speech it's far more natural to add **کہ نہیں** or **یا نہیں** 'or not' at the end:\nپتا کریں کہ پارسل نکلا **کہ نہیں** — 'Find out whether the parcel has gone out (or not).'\n\nUseful frames: **پوچھنا کہ** 'ask', **پتا کرنا کہ** 'find out', **مجھے نہیں پتا کہ** 'I don't know whether / what', **کیا آپ بتا سکتے ہیں کہ…؟** 'could you tell me…?'.\n\nRemember: **پوچھنا** takes **سے** for the person asked: مینیجر **سے** پوچھیں.",
+      "examples": [
+        { "native": "اس نے پوچھا کہ آپ کا آرڈر نمبر کیا ہے۔", "roman": "us ne pūchhā ki āp kā ārḍar nambar kyā hai.", "en": "She asked what my order number was." },
+        { "native": "ذرا پوچھو کہ ریفنڈ کب تک آئے گا۔", "roman": "zarā pūchho ki rīfanḍ kab tak ā’e gā.", "en": "Just ask when the refund will come through." },
+        { "native": "پتا کریں کہ پارسل نکلا کہ نہیں۔", "roman": "patā kareṃ ki pārsal niklā ki nahīṃ.", "en": "Find out whether the parcel has gone out or not." },
+        { "native": "پولیس والے پوچھ رہے تھے کہ فون کب چھنا۔", "roman": "pulis vāle pūchh rahe the ki fon kab chhinā.", "en": "The police were asking when the phone was snatched." },
+        { "native": "مجھے نہیں پتا کہ وہ آئے گا یا نہیں۔", "roman": "mujhe nahīṃ patā ki vo ā’e gā yā nahīṃ.", "en": "I don't know whether he'll come or not." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The broken blender",
+    "setting": "Bilal, in Islamabad, ordered a blender online for his mum. It arrived in pieces. He rings the shop's helpline.",
+    "lines": [
+      { "speaker": "Kiran", "native": "السلام علیکم، کسٹمر سروس سے کرن بات کر رہی ہوں۔ میں آپ کی کیا مدد کر سکتی ہوں؟", "roman": "assalāmu ʿalaikum, kasṭamar sarvis se Kiran bāt kar rahī hūṃ. maiṃ āp kī kyā madad kar saktī hūṃ?", "en": "Hello, this is Kiran from customer service. How can I help you?" },
+      { "speaker": "Bilal", "native": "جی، میں نے پرسوں ایک بلینڈر آرڈر کیا تھا۔ آج آیا تو ٹوٹا ہوا تھا۔", "roman": "jī, maiṃ ne parsoṃ ek blenḍar ārḍar kiyā thā. āj āyā to ṭūṭā huā thā.", "en": "Yes, I ordered a blender two days ago. It came today and it was broken." },
+      { "speaker": "Kiran", "native": "اوہو، معذرت۔ آپ کا آرڈر نمبر بتا دیں۔", "roman": "oho, maʿzirat. āp kā ārḍar nambar batā deṃ.", "en": "Oh dear, I'm sorry. Could you give me your order number?" },
+      { "speaker": "Bilal", "native": "ایک منٹ… ہاں، 4471۔ ڈیلیوری والے نے کہا تھا کہ آپ لوگ فوراً ریفنڈ کر دیں گے۔", "roman": "ek minaṭ… hāṃ, 4471. ḍilīvarī vāle ne kahā thā ki āp log fauran rīfanḍ kar deṃ ge.", "en": "One minute… yes, 4471. The delivery guy said you'd refund me straight away." },
+      { "speaker": "Kiran", "native": "سر، ریفنڈ میں سات سے دس دن لگتے ہیں۔ پہلے آپ کو بلینڈر واپس کرنا ہو گا۔", "roman": "sar, rīfanḍ meṃ sāt se das din lagte haiṃ. pahle āp ko blenḍar vāpas karnā ho gā.", "en": "Sir, refunds take seven to ten days. First you'll need to return the blender." },
+      { "speaker": "Bilal", "native": "سات سے دس دن؟ پچھلی دفعہ بھی آپ نے یہی کہا تھا، اور پیسے مہینے بعد آئے!", "roman": "sāt se das din? pichhlī dafʿa bhī āp ne yahī kahā thā, aur paise mahīne baʿd ā’e!", "en": "Seven to ten days? You said exactly that last time, and the money came a month later!" },
+      { "speaker": "Kiran", "native": "میں سمجھ سکتی ہوں، سر۔ اگر آپ چاہیں تو ہم بدلے میں نیا بلینڈر بھیج سکتے ہیں۔", "roman": "maiṃ samajh saktī hūṃ, sar. agar āp chāheṃ to ham badle meṃ nayā blenḍar bhej sakte haiṃ.", "en": "I understand, sir. If you like, we can send a new blender instead." },
+      { "speaker": "Bilal", "native": "نیا؟ وہ کب تک آئے گا؟ امی کہہ رہی تھیں کہ جمعے کو دعوت ہے…", "roman": "nayā? vo kab tak ā’e gā? ammī kah rahī thīṃ ki jumʿe ko daʿvat hai…", "en": "A new one? When would it get here? Mum was saying there's a dinner on Friday…" },
+      { "speaker": "Kiran", "native": "جی، میں لکھ رہی ہوں کہ ارجنٹ ہے۔ جمعرات تک پہنچ جائے گا۔", "roman": "jī, maiṃ likh rahī hūṃ ki arjanṭ hai. jumeʿrāt tak pahuṃch jā’e gā.", "en": "Right, I'm noting that it's urgent. It'll reach you by Thursday." },
+      { "speaker": "Bilal", "native": "پکا؟ آپ لوگ مجھے ٹال تو نہیں رہے؟", "roman": "pakkā? āp log mujhe ṭāl to nahīṃ rahe?", "en": "Promise? You're not just fobbing me off?" },
+      { "speaker": "Kiran", "native": "نہیں سر، آپ کی کمپلین درج ہو گئی ہے۔ نمبر آپ کو میسج پر آ جائے گا۔", "roman": "nahīṃ sar, āp kī kamplen darj ho ga’ī hai. nambar āp ko mesej par ā jā’e gā.", "en": "No sir, your complaint has been logged. You'll get the number by text." },
+      { "speaker": "Bilal", "native": "ٹھیک ہے، شکریہ۔ اور ڈیلیوری والے سے کہیے گا کہ اس بار ڈبہ آرام سے اٹھائے!", "roman": "ṭhīk hai, shukriya. aur ḍilīvarī vāle se kahiye gā ki is bār ḍabba ārām se uṭhā’e!", "en": "OK, thanks. And do tell the delivery guy to carry the box gently this time!" }
+    ]
+  },
+  "culture": "**Customer service** in Pakistan is very polite on the surface — agents call you **سر** or **میڈم** and apologise a lot (معذرت، sorry) — and things move faster if you are polite back but persistent: note the **کمپلین نمبر**, the agent's name, and when they said it would be fixed (آپ نے کہا تھا کہ…). Raising your voice usually makes people dig in; **ٹھنڈے دماغ سے** and **شاید کوئی غلط فہمی ہوئی ہے** let everyone save face. In small shops, a sign saying *no return, no exchange* is common, but asking nicely for an exchange (تبدیل کر دیں) often works.\n\n**If your phone is snatched** — sadly common in Karachi — don't resist. Get the SIM blocked at your network's franchise, call the bank if cards were taken, and go to the local **تھانہ** to report it (an **FIR** or a simple report, which you'll need for a duplicate SIM or insurance). The police emergency number is **15**; **1122** is the rescue/ambulance service. Calling an officer **سر** or **افسر صاحب** and staying calm helps.\n\nIn the **diaspora**, the same conversations happen with family back home in Urdu-English mix: *refund* نہیں ملا، *complaint* کر دی، *customer service* والے کہہ رہے تھے کہ…",
+  "lessons": [
+    {
+      "title": "Returning something",
+      "tip": { "title": "They said that…: quote the words", "body": "- Report with **کہا کہ / بتایا کہ** + the original words — **no change of tense**: کہا کہ یہ واپس نہیں **ہو گا** 'said it couldn't be returned'.\n- **کہ** (ki) = that. Don't write **کے**.\n- Passing on talk: **کہہ رہا تھا کہ…** 'he was saying…'; **… کا کہنا ہے کہ** 'X says…'.", "pattern": "… نے کہا / بتایا کہ + original words", "grammar": 0 },
+      "new": ["ریفنڈ", "واپس کرنا", "تبدیل کرنا", "ٹوٹا ہوا", "نقص", "بدلے میں", "میرا آرڈر غلط آیا ہے۔", "مجھے ریفنڈ چاہیے۔", "آپ نے کہا تھا کہ کل تک آ جائے گا۔"],
+      "sentences": [
+        { "native": "دکاندار نے کہا کہ یہ واپس نہیں ہو گا۔", "roman": "dukāndār ne kahā ki ye vāpas nahīṃ ho gā.", "en": "The shopkeeper said it couldn't be returned.", "focus": "کہا", "wrong": ["کہی|kahī", "کہے|kahe"] },
+        { "native": "انہوں نے بتایا کہ جوتے تبدیل ہو سکتے ہیں۔", "roman": "unhoṃ ne batāyā ki jūte tabdīl ho sakte haiṃ.", "en": "They told me the shoes can be exchanged.", "focus": "کہ", "wrong": ["کے|ke", "کو|ko"] },
+        { "native": "آپ نے کہا تھا کہ اس میں کوئی نقص نہیں ہے۔", "roman": "āp ne kahā thā ki is meṃ koī naqs nahīṃ hai.", "en": "You said there was nothing wrong with it." },
+        { "native": "وہ کہہ رہا تھا کہ ریفنڈ نہیں ملے گا، صرف تبدیل ہو گا۔", "roman": "vo kah rahā thā ki rīfanḍ nahīṃ mile gā, sirf tabdīl ho gā.", "en": "He was saying there's no refund, only an exchange.", "focus": "کہہ", "wrong": ["کہا|kahā", "کہتا|kahtā"] },
+        { "native": "ڈیلیوری والے نے بتایا کہ کھانا راستے میں ٹھنڈا ہو گیا۔", "roman": "ḍilīvarī vāle ne batāyā ki khānā rāste meṃ ṭhanḍā ho gayā.", "en": "The delivery guy said the food went cold on the way.", "focus": "بتایا", "wrong": ["بتائی|batā’ī", "بتاتا|batātā"] },
+        { "native": "ہوٹل والوں کا کہنا ہے کہ غلطی ان کی نہیں۔", "roman": "hoṭal vāloṃ kā kahnā hai ki ġaltī un kī nahīṃ.", "en": "The restaurant people say it's not their fault.", "focus": "کہنا", "wrong": ["کہا|kahā", "کہتا|kahtā"] },
+        { "native": "بھائی، یہ ٹوٹا ہوا ہے، مجھے دوسرا دیں۔", "roman": "bhā’ī, ye ṭūṭā huā hai, mujhe dūsrā deṃ.", "en": "Bhai, this one's broken — give me another.", "focus": "ٹوٹا", "wrong": ["ٹوٹی|ṭūṭī", "ٹوٹے|ṭūṭe"] },
+        { "native": "میں یہ قمیض واپس کرنا چاہتی ہوں۔", "roman": "maiṃ ye qamīz vāpas karnā chāhtī hūṃ.", "en": "I'd like to return this shirt. (woman)" },
+        { "native": "اس میں نقص ہے، بدلے میں نیا دے دیں۔", "roman": "is meṃ naqs hai, badle meṃ nayā de deṃ.", "en": "It's faulty — please give me a new one instead." }
+      ]
+    },
+    {
+      "title": "Calling the helpline",
+      "tip": { "title": "Asking whether…: … کہ نہیں", "body": "- Reported questions keep the question word: پوچھا کہ پیسے **کب** کٹے.\n- 'Whether' = add **کہ نہیں** / **یا نہیں** at the end: پتا کریں کہ ریفنڈ آیا **کہ نہیں**.\n- **پوچھنا** and **پتا کرنا** take **سے** for the person: بینک **سے** پتا کرو.", "pattern": "پوچھنا / پتا کرنا کہ … (کہ نہیں)", "grammar": 2 },
+      "new": ["کسٹمر سروس", "ہیلپ لائن", "کمپلین", "پتا کرنا", "میرے پیسے دو بار کٹ گئے۔", "میری کمپلین کا نمبر کیا ہے؟"],
+      "sentences": [
+        { "native": "انہوں نے پوچھا کہ پیسے کب کٹے۔", "roman": "unhoṃ ne pūchhā ki paise kab kaṭe.", "en": "They asked when the money was taken.", "focus": "پوچھا", "wrong": ["پوچھی|pūchhī", "پوچھتا|pūchhtā"] },
+        { "native": "ذرا پتا کریں کہ میرا ریفنڈ آیا کہ نہیں۔", "roman": "zarā patā kareṃ ki merā rīfanḍ āyā ki nahīṃ.", "en": "Could you find out whether my refund has come through?", "focus": "آیا", "wrong": ["آئی|ā’ī", "آئے|ā’e"] },
+        { "native": "کسٹمر سروس والے پوچھ رہے تھے کہ آرڈر کس نام پر ہے۔", "roman": "kasṭamar sarvis vāle pūchh rahe the ki ārḍar kis nām par hai.", "en": "Customer service were asking what name the order is under.", "focus": "کس", "wrong": ["کون|kaun", "کیا|kyā"] },
+        { "native": "بینک سے پتا کرو کہ پیسے دو بار کیوں کٹے۔", "roman": "baink se patā karo ki paise do bār kyoṃ kaṭe.", "en": "Find out from the bank why you were charged twice.", "focus": "سے", "wrong": ["کو|ko", "میں|meṃ"] },
+        { "native": "کیا آپ بتا سکتے ہیں کہ ریفنڈ کب تک آئے گا؟", "roman": "kyā āp batā sakte haiṃ ki rīfanḍ kab tak ā’e gā?", "en": "Could you tell me when the refund will come through?", "focus": "تک", "wrong": ["سے|se", "میں|meṃ"] },
+        { "native": "ہیلپ لائن والوں نے پوچھا کہ کیا کارڈ میرے پاس ہے۔", "roman": "help lā’in vāloṃ ne pūchhā ki kyā kārḍ mere pās hai.", "en": "The helpline asked whether I had the card with me.", "focus": "کیا", "wrong": ["کون|kaun", "کب|kab"] },
+        { "native": "مجھے نہیں پتا کہ کمپلین نمبر کہاں لکھا ہے۔", "roman": "mujhe nahīṃ patā ki kamplen nambar kahāṃ likhā hai.", "en": "I don't know where the complaint number is written.", "focus": "کہاں", "wrong": ["کون|kaun", "کیسا|kaisā"] },
+        { "native": "ہیلپ لائن پر کوئی فون نہیں اٹھا رہا۔", "roman": "help lā’in par koī fon nahīṃ uṭhā rahā.", "en": "Nobody's picking up at the helpline." },
+        { "native": "میں نے کمپلین کی تھی، لیکن کچھ نہیں ہوا۔", "roman": "maiṃ ne kamplen kī thī, lekin kuchh nahīṃ huā.", "en": "I did make a complaint, but nothing happened." }
+      ]
+    },
+    {
+      "title": "Firm but polite",
+      "tip": { "title": "Keeping it calm", "body": "- Open with **شاید کوئی غلط فہمی ہوئی ہے** — nobody loses face.\n- Ask for the manager politely: کیا میں مینیجر سے بات کر **سکتا / سکتی** ہوں؟\n- Push with **کوئی حل نکالیں**; if they stall: **آپ مجھے ٹال رہے ہیں** — said calmly.\n- **ٹھنڈے دماغ سے** = calmly." },
+      "new": ["غلط فہمی", "حل", "ٹالنا", "دماغ", "کیا میں مینیجر سے بات کر سکتا ہوں؟", "آپ مجھے ٹال رہے ہیں۔", "آرام سے، ٹھنڈے دماغ سے بات کرتے ہیں۔", "کوئی حل نکالیں۔"],
+      "sentences": [
+        { "native": "دیکھیں، مجھے بس کوئی حل چاہیے۔", "roman": "dekheṃ, mujhe bas koī hal chāhiye.", "en": "Look, I just need some kind of solution." },
+        { "native": "کیا میں آپ کے مینیجر سے بات کر سکتی ہوں؟", "roman": "kyā maiṃ āp ke mainejar se bāt kar saktī hūṃ?", "en": "Could I speak to your manager? (woman)", "focus": "سکتی", "wrong": ["سکتا|saktā", "سکتے|sakte"] },
+        { "native": "تین دن سے آپ لوگ مجھے ٹال رہے ہیں۔", "roman": "tīn din se āp log mujhe ṭāl rahe haiṃ.", "en": "You've been fobbing me off for three days.", "focus": "سے", "wrong": ["تک|tak", "میں|meṃ"] },
+        { "native": "ٹھنڈے دماغ سے سوچیں، اس کا کوئی حل نکل آئے گا۔", "roman": "ṭhanḍe dimāġ se socheṃ, is kā koī hal nikal ā’e gā.", "en": "Think calmly — there'll be a way out of this." },
+        { "native": "شاید آپ کو غلط فہمی ہوئی ہے، میں نے دو پیزا آرڈر کیے تھے۔", "roman": "shāyad āp ko ġalat fahmī hu’ī hai, maiṃ ne do pīzā ārḍar kiye the.", "en": "I think you've misunderstood — I ordered two pizzas.", "focus": "کیے", "wrong": ["کیا|kiyā", "کی|kī"] },
+        { "native": "بدلے میں آپ کیا دے سکتے ہیں؟", "roman": "badle meṃ āp kyā de sakte haiṃ?", "en": "What can you give me instead?" },
+        { "native": "مینیجر صاحب ابھی میٹنگ میں ہیں، آپ تھوڑا انتظار کر لیں۔", "roman": "mainejar sāhab abhī mīṭing meṃ haiṃ, āp thoṛā intizār kar leṃ.", "en": "The manager is in a meeting right now — please wait a little." },
+        { "native": "اگر ریفنڈ نہیں ہو سکتا تو بدلے میں نیا دے دیں۔", "roman": "agar rīfanḍ nahīṃ ho saktā to badle meṃ nayā de deṃ.", "en": "If a refund isn't possible, give me a new one instead." },
+        { "native": "یار، دماغ خراب مت کرو!", "roman": "yār, dimāġ xarāb mat karo!", "en": "Man, don't do my head in! (informal)" }
+      ]
+    },
+    {
+      "title": "They told me to…",
+      "tip": { "title": "Told to: کہا کہ … کریں / … کرنے کو کہا", "body": "- **کہ + subjunctive**: مجھ سے کہا کہ میں کل **آؤں**.\n- Or **-نے کو کہنا**: رسید **لانے کو** کہا (colloquial: لانے **کا** کہا).\n- 'Not to': **نہ** (… نہ کرنے کو کہا) or **منع کرنا**.\n- The person told takes **سے**: اس **سے** کہو کہ…", "pattern": "… نے کہا کہ + subjunctive  ·  -نے کو کہا", "grammar": 1 },
+      "new": ["منع کرنا", "گارنٹی", "انہوں نے کہا کہ انتظار کریں۔", "یہ گارنٹی میں ہے نا؟"],
+      "sentences": [
+        { "native": "مینیجر نے مجھ سے کہا کہ میں کل آؤں۔", "roman": "mainejar ne mujh se kahā ki maiṃ kal ā’ūṃ.", "en": "The manager told me to come tomorrow.", "focus": "آؤں", "wrong": ["آیا|āyā", "آتا|ātā"] },
+        { "native": "انہوں نے رسید لانے کو کہا۔", "roman": "unhoṃ ne rasīd lāne ko kahā.", "en": "They told me to bring the receipt.", "focus": "لانے", "wrong": ["لانا|lānā", "لایا|lāyā"] },
+        { "native": "دکاندار نے کہا کہ گارنٹی کارڈ سنبھال کر رکھیں۔", "roman": "dukāndār ne kahā ki gāranṭī kārḍ sambhāl kar rakheṃ.", "en": "The shopkeeper said to keep the warranty card safe.", "focus": "رکھیں", "wrong": ["رکھا|rakhā", "رکھتے|rakhte"] },
+        { "native": "اس سے کہو کہ مجھے رپورٹ بھیج دے۔", "roman": "us se kaho ki mujhe riporṭ bhej de.", "en": "Tell him to send me the report.", "focus": "سے", "wrong": ["کو|ko", "نے|ne"] },
+        { "native": "انہوں نے فون استعمال نہ کرنے کو کہا۔", "roman": "unhoṃ ne fon istiʿmāl na karne ko kahā.", "en": "They told me not to use the phone.", "focus": "نہ", "wrong": ["نہیں|nahīṃ", "مت|mat"] },
+        { "native": "کمپنی والوں نے کہا ہے کہ رپورٹ آنے تک انتظار کریں۔", "roman": "kampanī vāloṃ ne kahā hai ki riporṭ āne tak intizār kareṃ.", "en": "The company said to wait until the report comes.", "focus": "کریں", "wrong": ["کیا|kiyā", "کرتا|kartā"] },
+        { "native": "دکاندار نے فون واپس لینے سے منع کر دیا۔", "roman": "dukāndār ne fon vāpas lene se manaʿ kar diyā.", "en": "The shopkeeper refused to take the phone back.", "focus": "سے", "wrong": ["کو|ko", "میں|meṃ"] },
+        { "native": "ابو نے منع کیا تھا کہ سستا فون مت لو۔", "roman": "abbū ne manaʿ kiyā thā ki sastā fon mat lo.", "en": "Dad told me not to buy a cheap phone." },
+        { "native": "گارنٹی میں ہے تو پیسے کیوں دوں؟", "roman": "gāranṭī meṃ hai to paise kyoṃ dūṃ?", "en": "If it's under warranty, why should I pay?" }
+      ]
+    },
+    {
+      "title": "A snatched phone",
+      "tip": { "title": "It got snatched: چھن گیا", "body": "- **چھیننا** 'to snatch' — someone did it, so **نے**: دو لڑکوں **نے** بٹوا **چھینا**.\n- **چھن جانا** 'to get snatched' — no doer: میرا فون **چھن گیا**. This is what people usually say.\n- Same pairs: پیسے **کٹ گئے**, فون **ٹوٹ گیا**, کمپلین **درج ہو گئی**." },
+      "new": ["افسر", "ایف آئی آر", "درج کروانا", "چھیننا", "بلاک کروانا", "ثبوت", "میرا موبائل چھن گیا۔"],
+      "sentences": [
+        { "native": "کل رات صدر میں میرا فون چھن گیا۔", "roman": "kal rāt Saddar meṃ merā fon chhin gayā.", "en": "My phone got snatched in Saddar last night.", "focus": "گیا", "wrong": ["گئی|ga’ī", "گئے|ga’e"] },
+        { "native": "دو لڑکوں نے بائیک پر آ کر بٹوا چھینا۔", "roman": "do laṛkoṃ ne bā’ik par ā kar baṭvā chhīnā.", "en": "Two guys came on a bike and snatched the wallet.", "focus": "نے", "wrong": ["کو|ko", "سے|se"] },
+        { "native": "مجھے ایف آئی آر درج کروانی ہے۔", "roman": "mujhe ef ā’ī ār darj karvānī hai.", "en": "I need to file an FIR." },
+        { "native": "افسر نے پوچھا کہ کوئی ثبوت ہے؟", "roman": "afsar ne pūchhā ki koī sabūt hai?", "en": "The officer asked if there was any proof." },
+        { "native": "تھانے والوں نے کہا کہ پہلے ایف آئی آر درج کروائیں۔", "roman": "thāne vāloṃ ne kahā ki pahle ef ā’ī ār darj karvā’eṃ.", "en": "The police station said to file an FIR first." },
+        { "native": "سب سے پہلے سم بلاک کرواؤ۔", "roman": "sab se pahle sim blāk karvā’o.", "en": "First of all, get the SIM blocked." },
+        { "native": "کارڈ بھی بلاک کروا دیا؟", "roman": "kārḍ bhī blāk karvā diyā?", "en": "Did you get the card blocked too?" },
+        { "native": "کیا آپ نے چور کو دیکھا تھا؟", "roman": "kyā āp ne chor ko dekhā thā?", "en": "Did you see the thief?" },
+        { "native": "فون کی فکر نہ کرو، تم ٹھیک ہو، یہ کافی ہے۔", "roman": "fon kī fikr na karo, tum ṭhīk ho, ye kāfī hai.", "en": "Don't worry about the phone — you're OK, that's what matters." }
+      ]
+    },
+    {
+      "title": "When it gets heated",
+      "new": ["چیخنا", "الزام", "لاپروائی", "شاید کوئی غلط فہمی ہوئی ہے۔"],
+      "sentences": [
+        { "native": "آپ مجھ پر الزام کیوں لگا رہے ہیں؟", "roman": "āp mujh par ilzām kyoṃ lagā rahe haiṃ?", "en": "Why are you blaming me?", "focus": "پر", "wrong": ["کو|ko", "سے|se"] },
+        { "native": "چیخنے کی ضرورت نہیں، آرام سے بات کریں۔", "roman": "chīxne kī zarūrat nahīṃ, ārām se bāt kareṃ.", "en": "There's no need to shout — let's talk calmly." },
+        { "native": "یہ آپ کے ڈیلیوری والے کی لاپروائی ہے۔", "roman": "ye āp ke ḍilīvarī vāle kī lāparvā’ī hai.", "en": "This is your delivery guy's carelessness.", "focus": "کی", "wrong": ["کا|kā", "کے|ke"] },
+        { "native": "وہ کہہ رہا تھا کہ غلطی میری ہے!", "roman": "vo kah rahā thā ki ġaltī merī hai!", "en": "He was saying it was my fault!" },
+        { "native": "چھوٹی سی بات پر جھگڑا ہو گیا۔", "roman": "chhoṭī sī bāt par jhagṛā ho gayā.", "en": "It turned into a row over nothing." },
+        { "native": "میں نے اس سے کہا کہ چیخو مت، ورنہ میں پولیس بلاؤں گا۔", "roman": "maiṃ ne us se kahā ki chīxo mat, varna maiṃ pulis bulā’ūṃ gā.", "en": "I told him to stop shouting or I'd call the police.", "focus": "سے", "wrong": ["کو|ko", "نے|ne"] },
+        { "native": "جھگڑے سے کچھ نہیں ہو گا، کوئی حل نکالو۔", "roman": "jhagṛe se kuchh nahīṃ ho gā, koī hal nikālo.", "en": "Fighting won't get us anywhere — let's find a solution.", "focus": "جھگڑے", "wrong": ["جھگڑا|jhagṛā", "جھگڑوں|jhagṛoṃ"] },
+        { "native": "انہوں نے اپنی لاپروائی مان لی اور سوری کہا۔", "roman": "unhoṃ ne apnī lāparvā’ī mān lī aur sorī kahā.", "en": "They admitted it was their carelessness and said sorry." },
+        { "native": "پہلے پوری بات سنیں، پھر الزام لگائیں۔", "roman": "pahle pūrī bāt suneṃ, phir ilzām lagā’eṃ.", "en": "Hear the whole story first, then blame me." }
+      ]
+    }
+  ]
+}

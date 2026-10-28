@@ -1,0 +1,213 @@
+{
+  "id": 25,
+  "title": "Errands",
+  "goal": "Run everyday errands — bank and ATM, pharmacy, mobile shop, tailor, barber, laundry and courier — and say what you need to get done and by when.",
+  "intro": "Life in Karachi or Lahore runs on errands: a top-up from the corner mobile shop, a new SIM with your **شناختی کارڈ**, a shirt from the **درزی** before Eid, a trim at the **نائی**. In almost all of them you are getting **someone else** to do something for you, and Urdu has a special verb form for exactly that: the **causative**, made with **-وا-** (کروانا, بنوانا, سلوانا).\n\nThis unit teaches the causative, how to say what you need done (**مجھے بال کٹوانے ہیں** 'I need a haircut'), and how to ask when it will be ready (**کب تک ہو جائے گا؟**). Shopkeepers are spoken to with **آپ** and the polite -یں forms (**کر دیں، دے دیں**), usually softened with **بھائی** — while your friend standing next to you gets **تم** and **یار**.",
+  "vocab": [
+    { "native": "کروانا", "roman": "karvānā", "en": "to get (something) done, have it done", "pos": "verb", "note": "causative of کرنا. Also said کرانا (karānā). ٹھیک کروانا = to get something fixed" },
+    { "native": "بنوانا", "roman": "banvānā", "en": "to get (something) made", "pos": "verb", "note": "causative of بنانا. سم بنوانا = get a SIM issued; داڑھی بنوانا = get a shave" },
+    { "native": "بدلوانا", "roman": "badalvānā", "en": "to get (something) changed, replaced", "pos": "verb", "note": "causative of بدلنا" },
+    { "native": "اے ٹی ایم", "roman": "e ṭī em", "en": "ATM, cash machine", "pos": "noun", "note": "f (also m in some people's speech)" },
+    { "native": "کارڈ", "roman": "kārḍ", "en": "card (bank card, ID card)", "pos": "noun", "note": "m" },
+    { "native": "نکالنا", "roman": "nikālnā", "en": "to take out; to withdraw (yourself)", "pos": "verb", "note": "اے ٹی ایم سے پیسے نکالنا = take money out of the ATM" },
+    { "native": "نکلوانا", "roman": "nikalvānā", "en": "to get (money) taken out; to withdraw (at a counter)", "pos": "verb", "note": "causative of نکالنا; in everyday speech also used for the ATM" },
+    { "native": "جمع کروانا", "roman": "jamaʿ karvānā", "en": "to pay in, deposit; to submit (a form, a bill)", "pos": "verb", "note": "بل جمع کروانا = to pay a bill (at a bank or shop)" },
+    { "native": "لائن", "roman": "lā’in", "en": "queue, line", "pos": "noun", "note": "f. لائن میں لگنا = to queue up" },
+    { "native": "فارم", "roman": "fārm", "en": "form (to fill in)", "pos": "noun", "note": "m" },
+    { "native": "بھرنا", "roman": "bharnā", "en": "to fill in; to fill (up)", "pos": "verb", "note": "فارم بھرنا = fill in a form; پیٹرول بھروانا = get petrol" },
+    { "native": "شناختی کارڈ", "roman": "shanāxtī kārḍ", "en": "national ID card (CNIC)", "pos": "noun", "note": "m. In speech often just \"ID card\" or \"CNIC\"" },
+    { "native": "رسید", "roman": "rasīd", "en": "receipt", "pos": "noun", "note": "f" },
+    { "native": "میڈیکل اسٹور", "roman": "meḍikal isṭor", "en": "pharmacy, chemist's", "pos": "noun", "note": "m. The everyday word in Pakistan; فارمیسی (fārmesī) for big chains" },
+    { "native": "نسخہ", "roman": "nusxa", "en": "prescription", "pos": "noun", "note": "m" },
+    { "native": "سم", "roman": "sim", "en": "SIM card", "pos": "noun", "note": "f" },
+    { "native": "لوڈ", "roman": "loḍ", "en": "mobile credit, top-up", "pos": "noun", "note": "m. لوڈ کروانا / لوڈ کرنا = to top up; also \"easyload\"" },
+    { "native": "اسکرین", "roman": "iskrīn", "en": "screen", "pos": "noun", "note": "f" },
+    { "native": "مرمت", "roman": "marammat", "en": "repair", "pos": "noun", "note": "f. In speech people mostly say ٹھیک کروانا" },
+    { "native": "خرچہ", "roman": "xarcha", "en": "cost, expense", "pos": "noun", "note": "m. کتنا خرچہ آئے گا؟ = how much will it cost?" },
+    { "native": "درزی", "roman": "darzī", "en": "tailor", "pos": "noun", "note": "m" },
+    { "native": "سلوانا", "roman": "silvānā", "en": "to get (clothes) stitched, made", "pos": "verb", "note": "causative of سینا (sīnā) to sew; سلنا (silnā) = to be stitched" },
+    { "native": "ناپ", "roman": "nāp", "en": "measurement(s)", "pos": "noun", "note": "m. ناپ لینا = to take measurements; ناپ دینا = to have them taken" },
+    { "native": "نائی", "roman": "nā’ī", "en": "barber", "pos": "noun", "note": "m. Formal: حجام (hajjām)" },
+    { "native": "پارلر", "roman": "pārlar", "en": "beauty parlour, (women's) salon", "pos": "noun", "note": "m" },
+    { "native": "کاٹنا", "roman": "kāṭnā", "en": "to cut", "pos": "verb" },
+    { "native": "کٹوانا", "roman": "kaṭvānā", "en": "to get (something) cut", "pos": "verb", "note": "causative of کاٹنا: بال کٹوانا = to get a haircut" },
+    { "native": "داڑھی", "roman": "dāṛhī", "en": "beard", "pos": "noun", "note": "f" },
+    { "native": "دھلوانا", "roman": "dhulvānā", "en": "to get (something) washed", "pos": "verb", "note": "causative of دھونا; دھلنا (dhulnā) = to be washed" },
+    { "native": "استری", "roman": "istrī", "en": "ironing; an iron", "pos": "noun", "note": "f. استری کرنا = to iron" },
+    { "native": "کوریئر", "roman": "kūriyar", "en": "courier (service)", "pos": "noun", "note": "m. کوریئر کرنا / کروانا = to send by courier" },
+    { "native": "پارسل", "roman": "pārsal", "en": "parcel", "pos": "noun", "note": "m" }
+  ],
+  "phrases": [
+    { "native": "یہاں قریب کوئی اے ٹی ایم ہے؟", "roman": "yahāṃ qarīb ko’ī e ṭī em hai?", "en": "Is there an ATM near here?" },
+    { "native": "میرا کارڈ اے ٹی ایم میں پھنس گیا۔", "roman": "merā kārḍ e ṭī em meṃ phans gayā.", "en": "My card got stuck in the ATM.", "note": "پھنسنا (phansnā) = to get stuck" },
+    { "native": "بھائی، یہاں لائن ہے!", "roman": "bhā’ī, yahāṃ lā’in hai!", "en": "Excuse me, there's a queue here! (lit. brother)" },
+    { "native": "مجھے پیسے نکلوانے ہیں۔", "roman": "mujhe paise nikalvāne haiṃ.", "en": "I need to withdraw some money." },
+    { "native": "کیا اس دوا کے لیے نسخہ چاہیے؟", "roman": "kyā is davā ke liye nusxa chāhiye?", "en": "Do I need a prescription for this medicine?" },
+    { "native": "اپنا شناختی کارڈ دکھائیں۔", "roman": "apnā shanāxtī kārḍ dikhā’eṃ.", "en": "Show your ID card, please. (what the clerk says)" },
+    { "native": "پانچ سو کا لوڈ کر دیں۔", "roman": "pāṃch sau kā loḍ kar deṃ.", "en": "Put 500 rupees of credit on, please." },
+    { "native": "اسکرین بدلوانی ہے، کتنا خرچہ آئے گا؟", "roman": "iskrīn badalvānī hai, kitnā xarcha ā’e gā?", "en": "I need the screen replaced — how much will it cost?" },
+    { "native": "کب تک مل جائے گا؟", "roman": "kab tak mil jā’e gā?", "en": "When will it be ready? (lit. by when will I get it)", "note": "گی if the thing is feminine: کب تک مل جائے گی؟" },
+    { "native": "کتنی دیر لگے گی؟", "roman": "kitnī der lage gī?", "en": "How long will it take?" },
+    { "native": "میرا ناپ لے لیں۔", "roman": "merā nāp le leṃ.", "en": "Take my measurements, please." },
+    { "native": "بس تھوڑے سے کاٹ دیں، زیادہ چھوٹے نہیں۔", "roman": "bas thoṛe se kāṭ deṃ, zyāda chhoṭe nahīṃ.", "en": "Just a trim, please — not too short.", "note": "بال is plural, so تھوڑے, چھوٹے" },
+    { "native": "یہ کپڑے استری کر دیں۔", "roman": "ye kapṛe istrī kar deṃ.", "en": "Could you iron these clothes, please?" },
+    { "native": "یہ پارسل لاہور بھیجنا ہے۔", "roman": "ye pārsal Lāhaur bhejnā hai.", "en": "I need to send this parcel to Lahore." },
+    { "native": "رسید دے دیں۔", "roman": "rasīd de deṃ.", "en": "Could I have a receipt, please?" }
+  ],
+  "grammar": [
+    {
+      "title": "Getting it done: causative verbs with -وا-",
+      "body": "When you **get someone else** to do a job, Urdu uses a causative verb, made by adding **-وا-** to the stem:\n\n**کرنا** do → **کروانا** get done\n**بنانا** make → **بنوانا** get made\n**بدلنا** change → **بدلوانا** get changed\n**کاٹنا** cut → **کٹوانا** get cut\n**نکالنا** take out → **نکلوانا** get taken out\n**دھونا** wash → **دھلوانا** get washed\n**سینا** sew → **سلوانا** get stitched\n\nA long vowel in the stem usually shortens (کاٹ → کٹ, نکال → نکل) and stems ending in a vowel add ل (دھو → دھل, سی → سل), so learn each causative as a word. You will also hear shorter forms without و, especially **کرانا** for کروانا — same meaning.\n\n**Who does the job** takes **سے**: میں نے درزی **سے** قمیض سلوائی 'I had the tailor stitch my shirt'. Usually you just leave the person out: بال کٹوانے ہیں 'I need a haircut'.\n\nCausatives are transitive, so in the past they take **نے** and agree with the thing, not with you: میں نے بال **کٹوائے** (بال m. pl.), امی نے قمیض **سلوائی** (قمیض f.).\n\nAdd **لینا** when the job is done for your own benefit — very common in speech: میں نے بال **کٹوا لیے** 'I got my hair cut'.\n\n**The trap:** the plain verb means you did it yourself. میں نے بال کاٹے means you took the scissors to your own head! At the barber, tailor or repair shop, always reach for the -وا- form.",
+      "examples": [
+        { "native": "میں نے درزی سے قمیض سلوائی۔", "roman": "maiṃ ne darzī se qamīz silvā’ī.", "en": "I had the tailor stitch a shirt." },
+        { "native": "علی نے بھائی سے اپنا فون ٹھیک کروایا۔", "roman": "ʿalī ne bhā’ī se apnā fon ṭhīk karvāyā.", "en": "Ali got his brother to fix his phone." },
+        { "native": "وہ ہر ہفتے کپڑے دھلواتی ہے۔", "roman": "vo har hafte kapṛe dhulvātī hai.", "en": "She gets her clothes washed every week." },
+        { "native": "ہم نے گھر میں رنگ کروایا۔", "roman": "ham ne ghar meṃ rang karvāyā.", "en": "We had the house painted." },
+        { "native": "میں نے خود بال کاٹے — بہت برا خیال تھا!", "roman": "maiṃ ne xud bāl kāṭe — bahut burā xayāl thā!", "en": "I cut my own hair — a really bad idea!" }
+      ]
+    },
+    {
+      "title": "Saying what you need done: مجھے … کروانا ہے",
+      "body": "You met **مجھے جانا ہے** 'I have to go' in unit 15. The same pattern is how you announce your errand: **مجھے + thing + infinitive + ہے**.\n\nWhen the thing is named, the infinitive **agrees with it**, just like an adjective, and ہے becomes ہیں for plurals:\n\nمجھے فون ٹھیک **کروانا ہے** (فون m.)\nمجھے قمیض **سلوانی ہے** (قمیض f.)\nمجھے پیسے **نکلوانے ہیں** (پیسے m. pl.)\nمجھے بال **کٹوانے ہیں** (بال m. pl.)\n\nYou will sometimes hear the plain -نا form with feminine and plural things (مجھے قمیض سلوانا ہے), but the agreeing form is standard and sounds better.\n\nAt the counter people usually drop مجھے: **بال کٹوانے ہیں** 'a haircut, please', **یہ پارسل بھیجنا ہے** 'I'd like to send this parcel'. For 'will I have to…?' use **ہوگا**: کیا مجھے فارم بھرنا **ہوگا**؟",
+      "examples": [
+        { "native": "مجھے فون ٹھیک کروانا ہے۔", "roman": "mujhe fon ṭhīk karvānā hai.", "en": "I need to get my phone fixed." },
+        { "native": "مجھے قمیض سلوانی ہے۔", "roman": "mujhe qamīz silvānī hai.", "en": "I need to get a shirt stitched." },
+        { "native": "بال کٹوانے ہیں، کتنا انتظار ہے؟", "roman": "bāl kaṭvāne haiṃ, kitnā intizār hai?", "en": "I'd like a haircut — how long's the wait?" },
+        { "native": "ہمیں نئے شناختی کارڈ بنوانے ہیں۔", "roman": "hameṃ na’e shanāxtī kārḍ banvāne haiṃ.", "en": "We need to get new ID cards made." },
+        { "native": "کیا مجھے فارم بھرنا ہوگا؟", "roman": "kyā mujhe fārm bharnā hogā?", "en": "Will I have to fill in a form?" }
+      ]
+    },
+    {
+      "title": "Will it be ready? ہو جائے گا، مل جائے گا",
+      "body": "At the counter you usually care **when the job will be done**, not who does it. For this Urdu uses the intransitive 'it happens' verb plus **جانا**:\n\n**ٹھیک ہو جانا** to get fixed\n**بن جانا** to get made, be ready\n**مل جانا** to be available, to get (lit. be found)\n**دھل جانا** to get washed · **سل جانا** to get stitched · **بدل جانا** to get changed\n\nکب تک ٹھیک **ہو جائے گا**؟ 'When will it be fixed by?' — شام تک **بن جائے گا** 'It'll be ready by this evening.' — یہ دوا **مل جائے گی**؟ 'Do you have this medicine?'\n\nThe verb agrees with the thing: فون ٹھیک ہو جائے **گا**, سم مل جائے **گی**, کپڑے دھل **جائیں گے**.\n\n**تک** means 'by' (a deadline): **کل تک** 'by tomorrow', **پانچ بجے تک** 'by five'. In the habitual it means 'is available': یہ ہر جگہ **مل جاتا ہے** 'you can get it everywhere'.\n\nThe shopkeeper's favourite answer is **بس دس منٹ** 'just ten minutes' — plan for half an hour.",
+      "examples": [
+        { "native": "کب تک ٹھیک ہو جائے گا؟", "roman": "kab tak ṭhīk ho jā’e gā?", "en": "When will it be fixed by?" },
+        { "native": "شام تک بن جائے گا۔", "roman": "shām tak ban jā’e gā.", "en": "It'll be ready by this evening." },
+        { "native": "یہ دوا مل جائے گی؟", "roman": "ye davā mil jā’e gī?", "en": "Do you have this medicine? (lit. will this medicine be found?)" },
+        { "native": "کپڑے پرسوں تک دھل جائیں گے۔", "roman": "kapṛe parsoṃ tak dhul jā’eṃ ge.", "en": "The clothes will be washed by the day after tomorrow." },
+        { "native": "قمیض جمعے تک سل جائے گی۔", "roman": "qamīz jumʿe tak sil jā’e gī.", "en": "The shirt will be stitched by Friday." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A cracked screen in Saddar",
+    "setting": "Hamza has dropped his phone. His friend Bilal takes him to a mobile market in Saddar, Karachi.",
+    "lines": [
+      { "speaker": "Bilal", "native": "یار، تمہارے فون کو کیا ہوا؟", "roman": "yār, tumhāre fon ko kyā huā?", "en": "Mate, what happened to your phone?" },
+      { "speaker": "Hamza", "native": "کل ہاتھ سے گر گیا۔ اسکرین بدلوانی پڑے گی۔", "roman": "kal hāth se gir gayā. iskrīn badalvānī paṛe gī.", "en": "It slipped out of my hand yesterday. I'll have to get the screen replaced." },
+      { "speaker": "Bilal", "native": "صدر چلو، وہاں میرا ایک جاننے والا ہے۔", "roman": "Saddar chalo, vahāṃ merā ek jānne vālā hai.", "en": "Let's go to Saddar, I know a guy there." },
+      { "speaker": "Bilal", "native": "السلام علیکم، بھائی۔ ان کی اسکرین بدلنی ہے، کتنا خرچہ آئے گا؟", "roman": "assalāmu ʿalaikum, bhā’ī. in kī iskrīn badalnī hai, kitnā xarcha ā’e gā?", "en": "Hello, brother. His screen needs replacing — how much will it cost?" },
+      { "speaker": "Shopkeeper", "native": "اوریجنل چاہیے یا کاپی؟ اوریجنل پندرہ ہزار، کاپی پانچ ہزار۔", "roman": "orijinal chāhiye yā kāpī? orijinal pandrah hazār, kāpī pāṃch hazār.", "en": "Original or copy? Original's fifteen thousand, copy's five." },
+      { "speaker": "Hamza", "native": "پندرہ ہزار؟ بھائی، یہ تو نئے فون کی قیمت ہے!", "roman": "pandrah hazār? bhā’ī, ye to na’e fon kī qīmat hai!", "en": "Fifteen thousand? Brother, that's the price of a new phone!" },
+      { "speaker": "Shopkeeper", "native": "اچھا، آپ کے لیے بارہ کر دیتا ہوں۔", "roman": "achchhā, āp ke liye bārah kar detā hūṃ.", "en": "OK, for you I'll make it twelve." },
+      { "speaker": "Bilal", "native": "دس کر دیں، ہم پرانے گاہک ہیں۔", "roman": "das kar deṃ, ham purāne gāhak haiṃ.", "en": "Make it ten, we're old customers." },
+      { "speaker": "Shopkeeper", "native": "چلیں، گیارہ۔ آخری بات۔", "roman": "chaleṃ, gyārah. āxirī bāt.", "en": "Fine, eleven. Final offer." },
+      { "speaker": "Hamza", "native": "ٹھیک ہے۔ کب تک ہو جائے گا؟", "roman": "ṭhīk hai. kab tak ho jā’e gā?", "en": "OK. When will it be done?" },
+      { "speaker": "Shopkeeper", "native": "بس ایک گھنٹا۔ تب تک آپ چائے پی لیں۔", "roman": "bas ek ghanṭā. tab tak āp chā’e pī leṃ.", "en": "Just an hour. Have some tea in the meantime." },
+      { "speaker": "Bilal", "native": "ایک گھنٹا مطلب دو گھنٹے۔ چلو، تب تک میں بال کٹوا لیتا ہوں۔", "roman": "ek ghanṭā matlab do ghanṭe. chalo, tab tak maiṃ bāl kaṭvā letā hūṃ.", "en": "\"An hour\" means two. Come on, I'll get a haircut in the meantime." },
+      { "speaker": "Hamza", "native": "اور میں درزی سے عید کے کپڑے لے آتا ہوں۔", "roman": "aur maiṃ darzī se ʿīd ke kapṛe le ātā hūṃ.", "en": "And I'll go and pick up my Eid clothes from the tailor." }
+    ]
+  },
+  "culture": "Errands in Pakistan are social. You call the man behind the counter **بھائی** or **بھائی جان** and a woman **باجی**; older people are **انکل** and **آنٹی** even if you have never met. You use **آپ** with them and the polite -یں forms (دے دیں، کر دیں), while the friend who came along with you stays **تم** and **یار**. Prices at mobile and repair shops are open to haggling ('ہم پرانے گاہک ہیں' helps), but banks, pharmacies and branded salons have fixed rates. Every neighbourhood has its **درزی**, and before Eid they are booked solid, so take your fabric in at least two or three weeks early — and know that 'کل پکا' (definitely tomorrow) often means a few days. A new SIM needs your **CNIC** (شناختی کارڈ) and a thumbprint check at the franchise. Many people now pay bills and top up through apps such as JazzCash and Easypaisa instead of queueing at the bank. In the diaspora — Bradford, Toronto, Houston, Dubai — the same words carry on: you get a suit **سلوانا** in Lahore and have it couriered over.",
+  "lessons": [
+    {
+      "title": "At the bank and the ATM",
+      "tip": { "title": "Do it vs get it done: -وا-", "body": "- Add **-وا-** to a verb when **someone else** does the job for you: کرنا → **کروانا**, نکالنا → **نکلوانا**.\n- Plain verb = you do it yourself: اے ٹی ایم سے پیسے **نکالے**.\n- Causative = you get it done: بینک سے پیسے **نکلوائے**.\n- The person who does it takes **سے**: بھائی **سے** بل جمع کروایا.", "pattern": "stem + وا + نا  ·  کر → کروانا", "grammar": 0 },
+      "new": ["کروانا", "نکالنا", "نکلوانا", "جمع کروانا", "اے ٹی ایم", "کارڈ", "لائن", "یہاں قریب کوئی اے ٹی ایم ہے؟", "میرا کارڈ اے ٹی ایم میں پھنس گیا۔", "بھائی، یہاں لائن ہے!"],
+      "sentences": [
+        { "native": "میں اے ٹی ایم سے پیسے نکالتا ہوں۔", "roman": "maiṃ e ṭī em se paise nikāltā hūṃ.", "en": "I take money out at the ATM. (man)", "focus": "نکالتا", "wrong": ["نکالا|nikālā", "نکالو|nikālo"] },
+        { "native": "امی نے بینک سے پیسے نکلوائے۔", "roman": "ammī ne baink se paise nikalvā’e.", "en": "Mum withdrew money at the bank.", "focus": "نکلوائے", "wrong": ["نکلوائی|nikalvā’ī", "نکلوایا|nikalvāyā"] },
+        { "native": "میں نے بینک میں بل جمع کروا دیا۔", "roman": "maiṃ ne baink meṃ bil jamaʿ karvā diyā.", "en": "I paid the bill at the bank.", "focus": "دیا", "wrong": ["دی|dī", "دیے|diye"] },
+        { "native": "میں نے بھائی سے پیسے جمع کروائے۔", "roman": "maiṃ ne bhā’ī se paise jamaʿ karvā’e.", "en": "I got my brother to pay the money in.", "focus": "سے", "wrong": ["کو|ko", "نے|ne"] },
+        { "native": "ابو ہر مہینے بینک میں بل جمع کرواتے ہیں۔", "roman": "abbū har mahīne baink meṃ bil jamaʿ karvāte haiṃ.", "en": "Dad pays the bills at the bank every month.", "focus": "کرواتے", "wrong": ["کرواتا|karvātā", "کروائے|karvā’e"] },
+        { "native": "بینک بند ہے، اب اے ٹی ایم سے نکالنے پڑیں گے۔", "roman": "baink band hai, ab e ṭī em se nikālne paṛeṃ ge.", "en": "The bank's closed, so I'll have to take it out at the ATM.", "focus": "نکالنے", "wrong": ["نکالا|nikālā", "نکالی|nikālī"] },
+        { "native": "بینک میں لائن بہت لمبی ہے۔", "roman": "baink meṃ lā’in bahut lambī hai.", "en": "The queue at the bank is really long.", "focus": "لمبی", "wrong": ["لمبا|lambā", "لمبے|lambe"] },
+        { "native": "یار، تمہارے پاس کارڈ ہے؟ میرا گھر پر رہ گیا۔", "roman": "yār, tumhāre pās kārḍ hai? merā ghar par rah gayā.", "en": "Mate, have you got your card? I left mine at home." },
+        { "native": "اے ٹی ایم خراب ہے، کارڈ نہیں چل رہا۔", "roman": "e ṭī em xarāb hai, kārḍ nahīṃ chal rahā.", "en": "The ATM's broken — the card isn't working." },
+        { "native": "لائن میں لگو، یار، سب انتظار کر رہے ہیں۔", "roman": "lā’in meṃ lago, yār, sab intizār kar rahe haiṃ.", "en": "Get in the queue, mate, everyone's waiting." }
+      ]
+    },
+    {
+      "title": "Forms, ID and the pharmacy",
+      "tip": { "title": "I need to get … done: مجھے … ہے", "body": "- Your errand is **مجھے + thing + infinitive + ہے**, like مجھے جانا ہے.\n- The infinitive **agrees with the thing**: فارم **بھرنا** ہے (m.), دوا **لینی** ہے (f.), پیسے **نکلوانے ہیں** (pl.).\n- At the counter you can drop مجھے: **فارم بھرنا ہے**.", "pattern": "مجھے + thing + -نا / -نی / -نے + ہے / ہیں", "grammar": 1 },
+      "new": ["فارم", "بھرنا", "شناختی کارڈ", "بنوانا", "میڈیکل اسٹور", "نسخہ", "رسید", "مجھے پیسے نکلوانے ہیں۔", "کیا اس دوا کے لیے نسخہ چاہیے؟", "اپنا شناختی کارڈ دکھائیں۔"],
+      "sentences": [
+        { "native": "مجھے یہ فارم بھرنا ہے۔", "roman": "mujhe ye fārm bharnā hai.", "en": "I need to fill in this form.", "focus": "بھرنا", "wrong": ["بھرنی|bharnī", "بھرنے|bharne"] },
+        { "native": "مجھے ایک دوا لینی ہے۔", "roman": "mujhe ek davā lenī hai.", "en": "I need to get a medicine.", "focus": "لینی", "wrong": ["لینا|lenā", "لینے|lene"] },
+        { "native": "مجھے نیا شناختی کارڈ بنوانا ہے۔", "roman": "mujhe nayā shanāxtī kārḍ banvānā hai.", "en": "I need to get a new ID card made.", "focus": "بنوانا", "wrong": ["بنوانی|banvānī", "بنوانے|banvāne"] },
+        { "native": "مجھے میڈیکل اسٹور سے دو چیزیں لینی ہیں۔", "roman": "mujhe meḍikal isṭor se do chīzeṃ lenī haiṃ.", "en": "I need to get two things from the pharmacy.", "focus": "ہیں", "wrong": ["ہے|hai", "ہوں|hūṃ"] },
+        { "native": "کیا مجھے شناختی کارڈ کی کاپی دینی ہوگی؟", "roman": "kyā mujhe shanāxtī kārḍ kī kāpī denī hogī?", "en": "Will I have to give a copy of my ID card?", "focus": "دینی", "wrong": ["دینا|denā", "دینے|dene"] },
+        { "native": "ڈاکٹر کا نسخہ دکھانا ہوگا۔", "roman": "ḍākṭar kā nusxa dikhānā hogā.", "en": "You'll have to show the doctor's prescription.", "focus": "دکھانا", "wrong": ["دکھانی|dikhānī", "دکھانے|dikhāne"] },
+        { "native": "ابو کو بینک میں کچھ پیسے جمع کروانے ہیں۔", "roman": "abbū ko baink meṃ kuchh paise jamaʿ karvāne haiṃ.", "en": "Dad needs to pay some money in at the bank.", "focus": "کروانے", "wrong": ["کروانا|karvānā", "کروانی|karvānī"] },
+        { "native": "فارم میں اپنا نمبر بھی بھریں۔", "roman": "fārm meṃ apnā nambar bhī bhareṃ.", "en": "Fill in your number on the form too, please." },
+        { "native": "یہ دوا ہر میڈیکل اسٹور پر مل جاتی ہے۔", "roman": "ye davā har meḍikal isṭor par mil jātī hai.", "en": "You can get this medicine at any pharmacy." },
+        { "native": "یہ لیں، آپ کی رسید۔", "roman": "ye leṃ, āp kī rasīd.", "en": "Here you go, your receipt." }
+      ]
+    },
+    {
+      "title": "At the mobile shop",
+      "tip": { "title": "Will it be ready? ہو جائے گا", "body": "- To ask when a job will be **done**, use the 'it happens' verb + **جانا**: ٹھیک **ہو جائے گا**, **مل جائے گا**, **بن جائے گا**.\n- It agrees with the thing: فون ٹھیک ہو جائے **گا**, سم مل جائے **گی**.\n- **تک** = by: شام **تک** 'by this evening'.", "pattern": "thing + ٹھیک ہو / مل / بن + جائے گا / گی", "grammar": 2 },
+      "new": ["سم", "لوڈ", "اسکرین", "مرمت", "خرچہ", "بدلوانا", "پانچ سو کا لوڈ کر دیں۔", "اسکرین بدلوانی ہے، کتنا خرچہ آئے گا؟", "کب تک مل جائے گا؟", "کتنی دیر لگے گی؟"],
+      "sentences": [
+        { "native": "فون شام تک ٹھیک ہو جائے گا۔", "roman": "fon shām tak ṭhīk ho jā’e gā.", "en": "The phone will be fixed by this evening.", "focus": "گا", "wrong": ["گی|gī", "گے|ge"] },
+        { "native": "نئی سم آدھے گھنٹے میں مل جائے گی۔", "roman": "na’ī sim ādhe ghanṭe meṃ mil jā’e gī.", "en": "You'll get the new SIM in half an hour.", "focus": "گی", "wrong": ["گا|gā", "گے|ge"] },
+        { "native": "اسکرین کل تک بدل جائے گی؟", "roman": "iskrīn kal tak badal jā’e gī?", "en": "Will the screen be replaced by tomorrow?", "focus": "تک", "wrong": ["سے|se", "میں|meṃ"] },
+        { "native": "بس دس منٹ میں ہو جائے گا، بھائی۔", "roman": "bas das minaṭ meṃ ho jā’e gā, bhā’ī.", "en": "It'll be done in just ten minutes, brother.", "focus": "جائے", "wrong": ["جاتا|jātā", "گیا|gayā"] },
+        { "native": "مرمت کا خرچہ کتنا ہوگا؟", "roman": "marammat kā xarcha kitnā hogā?", "en": "How much will the repair cost?", "focus": "کا", "wrong": ["کی|kī", "کے|ke"] },
+        { "native": "میں نے پچھلے مہینے بھی اسکرین بدلوائی تھی۔", "roman": "maiṃ ne pichhle mahīne bhī iskrīn badalvā’ī thī.", "en": "I had the screen replaced last month too.", "focus": "بدلوائی", "wrong": ["بدلوایا|badalvāyā", "بدلوائے|badalvā’e"] },
+        { "native": "میں نے دکاندار سے نئی سم بنوائی۔", "roman": "maiṃ ne dukāndār se na’ī sim banvā’ī.", "en": "I got the shopkeeper to set me up with a new SIM.", "focus": "سے", "wrong": ["کو|ko", "نے|ne"] },
+        { "native": "اس دکان پر ہر سم کا لوڈ ہو جاتا ہے۔", "roman": "is dukān par har sim kā loḍ ho jātā hai.", "en": "You can top up any SIM at this shop.", "focus": "جاتا", "wrong": ["جائے|jā’e", "گیا|gayā"] },
+        { "native": "یار، میرا لوڈ ختم ہو گیا، اپنا فون دو۔", "roman": "yār, merā loḍ xatm ho gayā, apnā fon do.", "en": "Mate, I've run out of credit — give me your phone." },
+        { "native": "کیا یہ فون ٹھیک ہو سکتا ہے؟", "roman": "kyā ye fon ṭhīk ho saktā hai?", "en": "Can this phone be fixed?" }
+      ]
+    },
+    {
+      "title": "At the tailor",
+      "tip": { "title": "Who does the job: سے", "body": "- The person you get to do the job takes **سے**: درزی **سے** کپڑے سلوانے ہیں.\n- In the past a causative takes **نے** and agrees with the **thing**: میں نے قمیض **سلوائی** (f.), کپڑے **سلوائے** (pl.).\n- The person who actually does it uses the plain verb with نے: درزی **نے** ناپ لیا.", "pattern": "میں نے + person + سے + thing + causative", "grammar": 0 },
+      "new": ["درزی", "سلوانا", "ناپ", "میرا ناپ لے لیں۔"],
+      "sentences": [
+        { "native": "مجھے عید کے لیے کپڑے سلوانے ہیں۔", "roman": "mujhe ʿīd ke liye kapṛe silvāne haiṃ.", "en": "I need to get some clothes stitched for Eid.", "focus": "سلوانے", "wrong": ["سلوانا|silvānā", "سلوانی|silvānī"] },
+        { "native": "میں نے اپنے درزی سے دو قمیضیں سلوائیں۔", "roman": "maiṃ ne apne darzī se do qamīzeṃ silvā’īṃ.", "en": "I had my tailor stitch two shirts.", "focus": "سلوائیں", "wrong": ["سلوایا|silvāyā", "سلوائے|silvā’e"] },
+        { "native": "امی ہمیشہ اسی درزی سے کپڑے سلواتی ہیں۔", "roman": "ammī hamesha isī darzī se kapṛe silvātī haiṃ.", "en": "Mum always gets her clothes made by this same tailor.", "focus": "سے", "wrong": ["کو|ko", "نے|ne"] },
+        { "native": "درزی نے ناپ غلط لیا!", "roman": "darzī ne nāp ġalat liyā!", "en": "The tailor took the measurements wrong!", "focus": "نے", "wrong": ["سے|se", "کو|ko"] },
+        { "native": "یہ قمیض کہاں سے سلوائی؟ بہت اچھی ہے!", "roman": "ye qamīz kahāṃ se silvā’ī? bahut achchhī hai!", "en": "Where did you get this shirt made? It's really nice!", "focus": "سلوائی", "wrong": ["سلوایا|silvāyā", "سلوائے|silvā’e"] },
+        { "native": "شادی کے لیے نئے کپڑے بنوانے ہیں۔", "roman": "shādī ke liye na’e kapṛe banvāne haiṃ.", "en": "I need new clothes made for the wedding.", "focus": "بنوانے", "wrong": ["بنوانا|banvānā", "بنوانی|banvānī"] },
+        { "native": "کپڑے کب تک سل جائیں گے؟", "roman": "kapṛe kab tak sil jā’eṃ ge?", "en": "When will the clothes be ready?", "focus": "جائیں", "wrong": ["جائے|jā’e", "جاؤں|jā’ūṃ"] },
+        { "native": "عید سے پہلے درزی کے پاس بہت کام ہوتا ہے۔", "roman": "ʿīd se pahle darzī ke pās bahut kām hotā hai.", "en": "Before Eid, tailors have loads of work." },
+        { "native": "یہ قمیض چھوٹی ہے، ٹھیک کر دیں۔", "roman": "ye qamīz chhoṭī hai, ṭhīk kar deṃ.", "en": "This shirt is too small — could you fix it?" }
+      ]
+    },
+    {
+      "title": "At the barber and the parlour",
+      "tip": { "title": "For yourself: کٹوا لیے", "body": "- Add **لینا** to a causative when it was done for you: میں نے بال **کٹوا لیے** 'I got my hair cut'.\n- To the barber, ask with the plain verb — he is the one cutting: تھوڑے سے **کاٹ دیں**.\n- Telling others what you're getting done, use the causative: بال **کٹوانے** ہیں.", "pattern": "causative stem + لیا / لی / لیے", "grammar": 0 },
+      "new": ["نائی", "پارلر", "کاٹنا", "کٹوانا", "داڑھی", "بس تھوڑے سے کاٹ دیں، زیادہ چھوٹے نہیں۔"],
+      "sentences": [
+        { "native": "مجھے بال کٹوانے ہیں۔", "roman": "mujhe bāl kaṭvāne haiṃ.", "en": "I need a haircut.", "focus": "کٹوانے", "wrong": ["کاٹنے|kāṭne", "کٹوانا|kaṭvānā"] },
+        { "native": "میں نے کل بال کٹوا لیے۔", "roman": "maiṃ ne kal bāl kaṭvā liye.", "en": "I got my hair cut yesterday.", "focus": "لیے", "wrong": ["لیا|liyā", "لی|lī"] },
+        { "native": "ارے، تم نے داڑھی کٹوا لی؟", "roman": "are, tum ne dāṛhī kaṭvā lī?", "en": "Oh, you've had your beard trimmed? (informal)", "focus": "لی", "wrong": ["لیا|liyā", "لیے|liye"] },
+        { "native": "نائی نے بال بہت چھوٹے کاٹ دیے!", "roman": "nā’ī ne bāl bahut chhoṭe kāṭ diye!", "en": "The barber cut my hair way too short!", "focus": "دیے", "wrong": ["دیا|diyā", "دی|dī"] },
+        { "native": "صرف داڑھی بنوانی ہے۔", "roman": "sirf dāṛhī banvānī hai.", "en": "Just a shave, please.", "focus": "بنوانی", "wrong": ["بنوانا|banvānā", "بنوانے|banvāne"] },
+        { "native": "میں ہر مہینے اسی نائی سے بال کٹواتا ہوں۔", "roman": "maiṃ har mahīne isī nā’ī se bāl kaṭvātā hūṃ.", "en": "I get my hair cut by the same barber every month. (man)", "focus": "کٹواتا", "wrong": ["کاٹتا|kāṭtā", "کٹوایا|kaṭvāyā"] },
+        { "native": "یہاں بال کٹوانے کے کتنے پیسے ہیں؟", "roman": "yahāṃ bāl kaṭvāne ke kitne paise haiṃ?", "en": "How much is a haircut here?", "focus": "کے", "wrong": ["کا|kā", "کی|kī"] },
+        { "native": "پیچھے سے تھوڑا اور کاٹ دیں۔", "roman": "pīchhe se thoṛā aur kāṭ deṃ.", "en": "Take a bit more off the back, please." },
+        { "native": "بہن شادی سے پہلے پارلر جا رہی ہے۔", "roman": "bahan shādī se pahle pārlar jā rahī hai.", "en": "My sister is going to the parlour before the wedding." },
+        { "native": "پارلر والی نے بہت اچھا کام کیا۔", "roman": "pārlar vālī ne bahut achchhā kām kiyā.", "en": "The woman at the parlour did a great job." }
+      ]
+    },
+    {
+      "title": "Laundry and sending a parcel",
+      "new": ["دھلوانا", "استری", "کوریئر", "پارسل", "یہ کپڑے استری کر دیں۔", "یہ پارسل لاہور بھیجنا ہے۔", "رسید دے دیں۔"],
+      "sentences": [
+        { "native": "میں کپڑے باہر سے دھلواتا ہوں۔", "roman": "maiṃ kapṛe bāhar se dhulvātā hūṃ.", "en": "I get my clothes washed outside (at a laundry). (man)", "focus": "دھلواتا", "wrong": ["دھوتا|dhotā", "دھلوایا|dhulvāyā"] },
+        { "native": "یہ کپڑے کل تک دھل جائیں گے؟", "roman": "ye kapṛe kal tak dhul jā’eṃ ge?", "en": "Will these clothes be washed by tomorrow?", "focus": "تک", "wrong": ["سے|se", "میں|meṃ"] },
+        { "native": "یہ قمیض استری کر دو، یار، مجھے دیر ہو رہی ہے۔", "roman": "ye qamīz istrī kar do, yār, mujhe der ho rahī hai.", "en": "Iron this shirt for me, mate, I'm running late. (informal)" },
+        { "native": "میں نے کوریئر سے پارسل بھیجا۔", "roman": "maiṃ ne kūriyar se pārsal bhejā.", "en": "I sent the parcel by courier.", "focus": "بھیجا", "wrong": ["بھیجی|bhejī", "بھیجے|bheje"] },
+        { "native": "پارسل کراچی کب تک پہنچ جائے گا؟", "roman": "pārsal Karāchī kab tak pahuṃch jā’e gā?", "en": "By when will the parcel reach Karachi?", "focus": "گا", "wrong": ["گی|gī", "گے|ge"] },
+        { "native": "امی کو عید کا تحفہ کوریئر کروانا ہے۔", "roman": "ammī ko ʿīd kā tohfa kūriyar karvānā hai.", "en": "Mum needs to courier an Eid present.", "focus": "کروانا", "wrong": ["کروانی|karvānī", "کروانے|karvāne"] },
+        { "native": "کیا آپ رسید پر اپنا نمبر لکھ دیں گے؟", "roman": "kyā āp rasīd par apnā nambar likh deṃ ge?", "en": "Would you write your number on the receipt?" },
+        { "native": "میری استری خراب ہو گئی ہے۔", "roman": "merī istrī xarāb ho ga’ī hai.", "en": "My iron has broken." },
+        { "native": "یہ پارسل کھول کر دکھائیں۔", "roman": "ye pārsal khol kar dikhā’eṃ.", "en": "Please open the parcel and show me." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "id": 39,
+  "title": "Sounding natural",
+  "goal": "React like a local (really? no way! amazing!), use tag questions and the little words ہی, تو, نا, use echo words like چائے وائے, and keep a conversation going when you don't understand something.",
+  "intro": "You can have perfect grammar and still sound like a textbook. What makes Urdu sound *alive* is the small stuff: **سچی؟**, **ہو ہی نہیں سکتا!**, **تم بھی نا!**, **چائے وائے پیو گے؟** This unit is all small stuff.\n\nYou'll learn the **tag** نا 'right?', the **emphatic particles** ہی and تو that change the whole tone of a sentence, **echo words** (کام وام 'work and stuff'), and the survival phrases for when someone talks too fast or uses a word you don't know. You'll also see how people slip English into Urdu — because everyone does.",
+  "vocab": [
+    { "native": "سچی", "roman": "sachchī", "en": "really?; honestly (informal)", "pos": "interj", "note": "سچی؟ really? / seriously? Also سچ میں؟ More careful: واقعی؟" },
+    { "native": "قسم سے", "roman": "qasam se", "en": "I swear (informal)", "pos": "phrase", "note": "Friends only. Stronger: اللہ قسم / خدا قسم." },
+    { "native": "واہ", "roman": "vāh", "en": "wow!, bravo!", "pos": "interj", "note": "Praise or delight: واہ، کیا بات ہے! Said sarcastically too: واہ جی واہ!" },
+    { "native": "ماشاءاللہ", "roman": "māshā’allāh", "en": "wonderful! (lit. what God has willed)", "pos": "interj", "note": "Said on hearing good news or praising someone — and to ward off the evil eye." },
+    { "native": "ظاہر ہے", "roman": "zāhir hai", "en": "obviously, of course", "pos": "phrase", "note": "lit. it is evident" },
+    { "native": "پاگل", "roman": "pāgal", "en": "crazy, mad; idiot", "pos": "adj", "note": "Among friends affectionate: پاگل ہو کیا؟ are you mad? Not for elders." },
+    { "native": "چپ", "roman": "chup", "en": "quiet, silent", "pos": "adj", "note": "چپ کرو shut up / be quiet (rude unless joking); چپ ہو جانا to fall silent" },
+    { "native": "ٹھیک ٹھاک", "roman": "ṭhīk ṭhāk", "en": "all right, so-so; fine", "pos": "adj", "note": "An echo pair from ٹھیک: کھانا ٹھیک ٹھاک تھا the food was OK. Also 'well and fine': سب ٹھیک ٹھاک ہے." },
+    { "native": "ہی", "roman": "hī", "en": "only, just; this very (emphasis)", "pos": "particle", "note": "Comes right after the word it stresses. Fuses: یہ + ہی = یہی, وہ + ہی = وہی, اب + ہی = ابھی, تب + ہی = تبھی." },
+    { "native": "تبھی", "roman": "tabhī", "en": "that's why; no wonder", "pos": "adv", "note": "تبھی تو! no wonder! (lit. only then)" },
+    { "native": "دراصل", "roman": "darasl", "en": "actually, in fact", "pos": "adv", "note": "Same as اصل میں; good for softening a no: دراصل، آج میں مصروف ہوں." },
+    { "native": "وغیرہ", "roman": "vaġaira", "en": "etc., and so on", "pos": "particle", "note": "Comes at the end of a list: کپڑے، جوتے وغیرہ." },
+    { "native": "ادھر ادھر", "roman": "idhar udhar", "en": "here and there, around", "pos": "adv", "note": "The first is idhar 'here', the second udhar 'there' — same spelling." },
+    { "native": "سچ مچ", "roman": "sach much", "en": "really, truly", "pos": "adv", "note": "An echo pair from سچ: کیا تم سچ مچ گئے؟ did you really go?" },
+    { "native": "ٹائپ", "roman": "ṭā’ip", "en": "type, kind (informal)", "pos": "noun", "note": "f/m · وہ اس ٹائپ کا بندہ نہیں he's not that type. More careful: قسم qism (f)." },
+    { "native": "آہستہ", "roman": "āhista", "en": "slowly; quietly", "pos": "adv", "note": "آہستہ آہستہ gradually, little by little" },
+    { "native": "دہرانا", "roman": "dohrānā", "en": "to repeat", "pos": "verb", "note": "ذرا دہرا دیں؟ could you repeat that?" },
+    { "native": "لفظ", "roman": "lafz", "en": "word", "pos": "noun", "note": "m · pl الفاظ (formal) — in speech also لفظ" },
+    { "native": "سمجھانا", "roman": "samjhānā", "en": "to explain", "pos": "verb", "note": "From سمجھنا 'to understand' — lit. to make understand." },
+    { "native": "بھئی", "roman": "bhaī", "en": "man, mate; well (friendly filler)", "pos": "interj", "note": "Short for بھائی, used to anyone, male or female, among friends and family: بھئی، بتاؤ تو!" },
+    { "native": "اوہو", "roman": "oho", "en": "oh no!, oops; tsk", "pos": "interj", "note": "Small mishaps and mild annoyance: اوہو، میں بھول گیا!" },
+    { "native": "ہائے", "roman": "hā’e", "en": "oh!; aww!; ouch!", "pos": "interj", "note": "Pain, longing or affection: ہائے، کتنا پیارا! Common among women and in songs." },
+    { "native": "توبہ", "roman": "tauba", "en": "good grief!, heaven forbid! (lit. repentance)", "pos": "interj", "note": "Shock or disapproval, often doubled: توبہ توبہ!" },
+    { "native": "اچھا خاصا", "roman": "achchhā xāsā", "en": "quite (good / a lot), a fair amount", "pos": "adj", "note": "Both halves agree: اچھی خاصی انگریزی pretty good English; اچھے خاصے پیسے quite a lot of money." }
+  ],
+  "phrases": [
+    { "native": "مذاق کر رہے ہو؟", "roman": "mazāq kar rahe ho?", "en": "Are you kidding? (familiar, to a man)", "note": "To a woman: مذاق کر رہی ہو؟" },
+    { "native": "ہو ہی نہیں سکتا!", "roman": "ho hī nahīṃ saktā!", "en": "No way! (lit. it just can't be)" },
+    { "native": "کیا بات ہے!", "roman": "kyā bāt hai!", "en": "Brilliant! / How wonderful!", "note": "With a falling tone it's praise. With a rising tone it means 'what's the matter?'" },
+    { "native": "تم بھی نا!", "roman": "tum bhī nā!", "en": "Oh, you! (fond exasperation)" },
+    { "native": "ٹھیک ہے نا؟", "roman": "ṭhīk hai nā?", "en": "It's OK, isn't it? / Right?" },
+    { "native": "تبھی تو!", "roman": "tabhī to!", "en": "No wonder! / That's why!" },
+    { "native": "ایسے ہی۔", "roman": "aise hī.", "en": "No reason, just because." },
+    { "native": "کچھ بھی!", "roman": "kuchh bhī!", "en": "Whatever! / As if! (dismissive)" },
+    { "native": "چلو چھوڑو۔", "roman": "chalo chhoṛo.", "en": "Oh, forget it. / Never mind." },
+    { "native": "ذرا آہستہ بولیں، میں ابھی سیکھ رہا ہوں۔", "roman": "zarā āhista boleṃ, maiṃ abhī sīkh rahā hūṃ.", "en": "Could you speak a bit more slowly? I'm still learning. (man)", "note": "Woman: سیکھ رہی ہوں." },
+    { "native": "ایک بار پھر کہیے؟", "roman": "ek bār phir kahiye?", "en": "Could you say that again? (polite)" },
+    { "native": "اس کو اردو میں کیا کہتے ہیں؟", "roman": "is ko urdū meṃ kyā kahte haiṃ?", "en": "What do you call this in Urdu?" },
+    { "native": "اس لفظ کا مطلب کیا ہے؟", "roman": "is lafz kā matlab kyā hai?", "en": "What does this word mean?" },
+    { "native": "وہ کیا کہتے ہیں…", "roman": "vo kyā kahte haiṃ…", "en": "What's the word… / what do you call it…", "note": "The filler for when a word escapes you — then describe it." },
+    { "native": "حد ہو گئی!", "roman": "had ho ga’ī!", "en": "That's the limit! / This is ridiculous!" }
+  ],
+  "grammar": [
+    {
+      "title": "Tag questions: نا and ہے نا",
+      "body": "English has dozens of tags (isn't it? don't you? won't they?). Urdu mostly has one: **نا** nā at the end of the sentence, with a rising tone — 'right?':\n\nتم کل آ رہے ہو **نا**؟ 'You're coming tomorrow, right?'\nتم نے کھانا کھا لیا ہے **نا**؟ 'You've eaten, haven't you?'\n\n**ہے نا؟** is added after a whole statement as a separate tag, and stays ہے even if the statement is in the past: کھانا اچھا تھا، **ہے نا**؟ 'The food was good, wasn't it?'\n\n**نہیں؟** 'no?' also works as a tag, especially when you're less sure: وہ تمہاری کزن ہے، **نہیں**؟\n\n**نا with commands** isn't a question at all — it softens and coaxes: بتاؤ **نا**! 'come on, tell me!', آ جاؤ **نا** 'do come'. With آپ: آپ بھی چلیں **نا**. And **تم بھی نا!** 'oh, you!' is pure fond exasperation.\n\n**Spelling trap:** **نا** (nā, long) is the tag; **نہ** (na, short) means 'not' (in subjunctives, conditionals and 'neither… nor'). Many people mix up the spellings in texts, but the sounds differ.",
+      "examples": [
+        { "native": "تم کل آ رہے ہو نا؟", "roman": "tum kal ā rahe ho nā?", "en": "You're coming tomorrow, right?" },
+        { "native": "بریانی زبردست ہے، ہے نا؟", "roman": "biryānī zabardast hai, hai nā?", "en": "The biryani's amazing, isn't it?" },
+        { "native": "بتاؤ نا، کیا ہوا؟", "roman": "batā’o nā, kyā huā?", "en": "Come on, tell me — what happened?" },
+        { "native": "وہ تمہاری کزن ہے، نہیں؟", "roman": "vo tumhārī kazin hai, nahīṃ?", "en": "She's your cousin, isn't she?" },
+        { "native": "آپ بھی چلیں نا!", "roman": "āp bhī chaleṃ nā!", "en": "Oh, do come along too!" }
+      ]
+    },
+    {
+      "title": "Emphasis: ہی, تو and بھی",
+      "body": "Three little particles change the tone of a whole sentence. Each comes **right after** the word it affects.\n\n**ہی** hī — 'only, just, the very':\nآج **ہی** 'today itself / only today', میں **ہی** 'me and nobody else', پہلے **ہی** 'already'. In negatives it means 'just not / not at all': ہو **ہی** نہیں سکتا 'it simply can't be', کبھی بتایا **ہی** نہیں 'never even said'. It fuses with some words: **یہی** (this very), **وہی** (that very, the same), **ابھی** (right now), **تبھی** (no wonder), **یہیں / وہیں** (right here / there).\n\n**تو** to (short o — not تو tū 'you') — 'as for, well, really':\n- contrast: میں **تو** نہیں جا رہا 'well, *I'm* not going' (whatever others do)\n- emphasis: یہی **تو** مسئلہ ہے 'that's exactly the problem'; یہ **تو** کمال ہے 'now *that's* amazing'\n- urging: دیکھو **تو**! 'just look!'\n\n**بھی** bhī — 'also', and 'even / at all' after question words: **کچھ بھی** 'anything (at all)', **کوئی بھی** 'anyone', **کبھی بھی** 'ever, any time', **پھر بھی** 'even so'.\n\n**Trap:** don't scatter them. One ہی or تو per sentence, on the word that matters, is what natives do.",
+      "examples": [
+        { "native": "میں نے تو پہلے ہی کہا تھا!", "roman": "maiṃ ne to pahle hī kahā thā!", "en": "I did tell you already!" },
+        { "native": "یہی تو مسئلہ ہے۔", "roman": "yahī to mas’ala hai.", "en": "That's exactly the problem." },
+        { "native": "وہ آج ہی واپس آیا ہے۔", "roman": "vo āj hī vāpas āyā hai.", "en": "He only got back today." },
+        { "native": "کچھ بھی کھا لو، سب مزیدار ہے۔", "roman": "kuchh bhī khā lo, sab mazedār hai.", "en": "Have anything — it's all delicious." },
+        { "native": "دیکھو تو، کتنا پیارا بچہ ہے!", "roman": "dekho to, kitnā pyārā bachcha hai!", "en": "Just look, what a sweet baby!" }
+      ]
+    },
+    {
+      "title": "Echo words and doubled words",
+      "body": "**Echo words:** repeat a word with its first sound replaced by **و** v, and it means 'X and stuff like that / X or anything':\n\n**چائے وائے** 'tea or something', **کام وام** 'work and all that', **پیسے ویسے** 'money and that', **کھانا وانا** 'food and so on'. A word that starts with a vowel just gets **و** in front: **انڈے ونڈے** 'eggs and things'.\n\nThe tone is casual and often a bit dismissive: **شادی وادی** کا کوئی ارادہ نہیں 'no plans for marriage or any of that'. Only the first word inflects normally; the echo copies it.\n\n**Doubled words:** repeating a word intensifies or spreads it: **جلدی جلدی** 'quick, quick', **آہستہ آہستہ** 'little by little', **گرم گرم** 'piping hot', **کبھی کبھی** 'sometimes', **کیا کیا** 'what all (things)'.\n\n**Fixed pairs:** **ٹھیک ٹھاک** 'all right', **ادھر ادھر** 'here and there', **آس پاس** 'around', **گپ شپ** 'chit-chat'. And to end a list: **وغیرہ** 'etc.'.",
+      "examples": [
+        { "native": "چائے وائے پیو گے؟", "roman": "chā’e vā’e piyo ge?", "en": "Want some tea or something?" },
+        { "native": "آج کام وام چھوڑو، باہر چلتے ہیں۔", "roman": "āj kām vām chhoṛo, bāhar chalte haiṃ.", "en": "Forget work and all that today — let's go out." },
+        { "native": "مجھے شادی وادی میں کوئی دلچسپی نہیں۔", "roman": "mujhe shādī vādī meṃ koī dilchaspī nahīṃ.", "en": "I'm not interested in marriage and all that." },
+        { "native": "گرم گرم پکوڑے کھاؤ!", "roman": "garam garam pakoṛe khā’o!", "en": "Have some piping hot pakoras!" },
+        { "native": "آہستہ آہستہ سب سمجھ آ جائے گا۔", "roman": "āhista āhista sab samajh ā jā’e gā.", "en": "Little by little you'll understand it all." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Doodh patti in Karachi",
+    "setting": "Sara, who grew up in Manchester, is visiting her cousin Faraz in Karachi. They've stopped at a roadside tea stall.",
+    "lines": [
+      { "speaker": "Faraz", "native": "تو، کراچی کیسا لگا؟ سچ بتانا۔", "roman": "to, Karāchī kaisā lagā? sach batānā.", "en": "So, how are you finding Karachi? Be honest." },
+      { "speaker": "Sara", "native": "زبردست! بس گرمی… توبہ توبہ!", "roman": "zabardast! bas garmī… tauba tauba!", "en": "Amazing! Just the heat… good grief!" },
+      { "speaker": "Faraz", "native": "ہاہا، ابھی تو اکتوبر ہے! جون میں آتیں تو پتا چلتا۔", "roman": "hāhā, abhī to aktūbar hai! jūn meṃ ātīṃ to patā chaltā.", "en": "Ha, it's only October! If you'd come in June, then you'd know." },
+      { "speaker": "Sara", "native": "سچی؟ اس سے بھی زیادہ؟ ہو ہی نہیں سکتا!", "roman": "sachchī? is se bhī zyāda? ho hī nahīṃ saktā!", "en": "Seriously? Even hotter than this? No way!" },
+      { "speaker": "Faraz", "native": "قسم سے۔ اچھا، چائے وائے پیو گی؟ یہاں کی دودھ پتی کمال ہے۔", "roman": "qasam se. achchhā, chā’e vā’e piyo gī? yahāṃ kī dūdh pattī kamāl hai.", "en": "I swear. Anyway — want some tea or something? The doodh patti here is amazing." },
+      { "speaker": "Sara", "native": "دودھ پتی؟ ایک منٹ… اس کا مطلب کیا ہے؟", "roman": "dūdh pattī? ek minaṭ… is kā matlab kyā hai?", "en": "Doodh patti? Hang on… what does that mean?" },
+      { "speaker": "Faraz", "native": "یعنی وہ چائے جو صرف دودھ میں بنتی ہے، پانی کے بغیر۔", "roman": "yaʿnī vo chā’e jo sirf dūdh meṃ bantī hai, pānī ke baġair.", "en": "I mean tea that's made just in milk, no water." },
+      { "speaker": "Sara", "native": "اچھا، تبھی تو اتنی گاڑھی اور میٹھی ہے!", "roman": "achchhā, tabhī to itnī gāṛhī aur mīṭhī hai!", "en": "Oh, no wonder it's so thick and sweet!" },
+      { "speaker": "Faraz", "native": "ویسے تمہاری اردو کافی بہتر ہو گئی ہے۔ کس سے سیکھی؟", "roman": "vaise tumhārī urdū kāfī behtar ho ga’ī hai. kis se sīkhī?", "en": "By the way, your Urdu's got much better. Who taught you?" },
+      { "speaker": "Sara", "native": "نانی سے… اور ڈراموں سے! لیکن تم لوگ بہت تیز بولتے ہو۔", "roman": "nānī se… aur ḍrāmoṃ se! lekin tum log bahut tez bolte ho.", "en": "Nani… and dramas! But you lot talk so fast." },
+      { "speaker": "Faraz", "native": "ارے، تم نے کبھی بتایا ہی نہیں! میں آہستہ بول دیتا۔", "roman": "are, tum ne kabhī batāyā hī nahīṃ! maiṃ āhista bol detā.", "en": "Hey, you never even said! I'd have spoken slowly." },
+      { "speaker": "Sara", "native": "رہنے دو، تم آہستہ بولو گے تو میں بور ہو جاؤں گی!", "roman": "rahne do, tum āhista bolo ge to maiṃ bor ho jā’ūṃ gī!", "en": "Don't bother — if you talk slowly I'll get bored!" },
+      { "speaker": "Faraz", "native": "تم بھی نا! چلو بھائی، دو دودھ پتی، اور ساتھ میں گرم گرم سموسے۔", "roman": "tum bhī nā! chalo bhā’ī, do dūdh pattī, aur sāth meṃ garam garam samose.", "en": "Honestly, you! Right, bhai — two doodh pattis, and some piping hot samosas with them." }
+    ]
+  },
+  "culture": "**Mixing English** into Urdu is completely normal in cities and among young people: *actually*, *basically*, *I mean*, *so*, *seriously* slide into Urdu sentences, and most technical, office and pop-culture words are English with Urdu verbs (*plan* کرنا, *cancel* ہو گیا). You won't sound less fluent by doing it — you'll sound local. Older people and formal settings lean more towards pure Urdu.\n\n**Reactions** carry a lot of weight. Listeners keep the speaker going with **جی جی**, **ہاں جی**, **اچھا؟**, **پھر؟**. Good news gets **واہ!** or **ماشاءاللہ**; small mishaps **اوہو**; shock **توبہ** (said seriously by older people, jokingly by the young); affection **ہائے**. Words like **پاگل**, **بکواس**, **چپ کرو** and **قسم سے** are for friends — never for elders or strangers.\n\n**Regional colour:** in Lahore you'll hear Punjabi mixed in (کی حال اے؟ 'how's it going?'); Karachi has its own slang (**ابے یار**, between close friends only). Asking **اس کو اردو میں کیا کہتے ہیں؟** delights people — expect a long, happy explanation.",
+  "lessons": [
+    {
+      "title": "Really? No way!",
+      "tip": { "title": "Reacting", "body": "- Surprise: **سچی؟** really? · **مذاق کر رہے ہو؟** kidding? · **ہو ہی نہیں سکتا!** no way!\n- Good news: **واہ!** · **کیا بات ہے!** · **کمال ہے!** · **زبردست!**\n- Swearing it's true: **قسم سے** — with friends only." },
+      "new": ["سچی", "قسم سے", "واہ", "ماشاءاللہ", "مذاق کر رہے ہو؟", "ہو ہی نہیں سکتا!", "کیا بات ہے!"],
+      "sentences": [
+        { "native": "سچی؟ تمہیں نوکری مل گئی؟", "roman": "sachchī? tumheṃ naukrī mil ga’ī?", "en": "Really? You got the job?", "focus": "گئی", "wrong": ["گیا|gayā", "گئے|ga’e"] },
+        { "native": "واہ! کیا بات ہے، مبارک ہو!", "roman": "vāh! kyā bāt hai, mubārak ho!", "en": "Wow! Brilliant — congratulations!" },
+        { "native": "ماشاءاللہ! بیٹی ڈاکٹر بن گئی؟", "roman": "māshā’allāh! beṭī ḍākṭar ban ga’ī?", "en": "How wonderful! Your daughter's become a doctor?", "focus": "گئی", "wrong": ["گیا|gayā", "گئے|ga’e"] },
+        { "native": "قسم سے، میں نے کچھ نہیں کیا!", "roman": "qasam se, maiṃ ne kuchh nahīṃ kiyā!", "en": "I swear, I didn't do anything!" },
+        { "native": "تم نے پوری بریانی اکیلے بنائی؟ کمال ہے!", "roman": "tum ne pūrī biryānī akele banā’ī? kamāl hai!", "en": "You made the whole biryani on your own? Amazing!", "focus": "بنائی", "wrong": ["بنایا|banāyā", "بنائے|banā’e"] },
+        { "native": "کل کا کنسرٹ زبردست تھا!", "roman": "kal kā kansarṭ zabardast thā!", "en": "Last night's concert was awesome!" },
+        { "native": "مذاق کر رہی ہو؟ ان دونوں کی شادی ہو رہی ہے؟", "roman": "mazāq kar rahī ho? un donoṃ kī shādī ho rahī hai?", "en": "Are you kidding? Those two are getting married? (to a woman)", "focus": "رہی", "wrong": ["رہا|rahā", "رہے|rahe"] },
+        { "native": "وہ اور وقت پر؟ ہو ہی نہیں سکتا!", "roman": "vo aur vaqt par? ho hī nahīṃ saktā!", "en": "Him, on time? No way!", "focus": "ہی", "wrong": ["بھی|bhī", "تو|to"] },
+        { "native": "زبردست! تو کب مل رہے ہیں؟", "roman": "zabardast! to kab mil rahe haiṃ?", "en": "Awesome! So when are we meeting?" },
+        { "native": "مذاق مت کرو، سچ بتاؤ!", "roman": "mazāq mat karo, sach batā’o!", "en": "Stop joking, tell me the truth!" }
+      ]
+    },
+    {
+      "title": "Right? — tag questions",
+      "tip": { "title": "Right? = نا", "body": "- Add **نا** at the end for 'right? / isn't it?': تم آ رہی ہو **نا**؟\n- After a whole statement: **ہے نا؟** — always ہے, even after a past: اچھا تھا، **ہے نا**؟\n- With a command, نا coaxes: بولو **نا**! 'come on, say it!'\n- Don't confuse **نا** (tag) with **نہ** (not).", "pattern": "statement + نا؟  ·  statement، ہے نا؟", "grammar": 0 },
+      "new": ["ظاہر ہے", "پاگل", "چپ", "ٹھیک ٹھاک", "تم بھی نا!", "ٹھیک ہے نا؟"],
+      "sentences": [
+        { "native": "تم شادی پر آ رہی ہو نا؟", "roman": "tum shādī par ā rahī ho nā?", "en": "You're coming to the wedding, right? (to a woman)", "focus": "نا", "wrong": ["نہ|na", "کیا|kyā"] },
+        { "native": "کھانا ٹھیک ٹھاک تھا، ہے نا؟", "roman": "khānā ṭhīk ṭhāk thā, hai nā?", "en": "The food was so-so, wasn't it?", "focus": "ہے", "wrong": ["تھا|thā", "ہیں|haiṃ"] },
+        { "native": "چپ کیوں ہو؟ بولو نا!", "roman": "chup kyoṃ ho? bolo nā!", "en": "Why so quiet? Come on, say something!", "focus": "نا", "wrong": ["نہ|na", "نہیں|nahīṃ"] },
+        { "native": "تم نے کھانا کھا لیا ہے نا؟", "roman": "tum ne khānā khā liyā hai nā?", "en": "You've eaten, haven't you?", "focus": "نا", "wrong": ["نہ|na", "مت|mat"] },
+        { "native": "تم لوگ لاہور میں رہتے تھے، نہیں؟", "roman": "tum log Lāhaur meṃ rahte the, nahīṃ?", "en": "You lot used to live in Lahore, didn't you?", "focus": "نہیں", "wrong": ["نہ|na", "مت|mat"] },
+        { "native": "آپ بھی کھائیں نا، تکلف مت کریں!", "roman": "āp bhī khā’eṃ nā, takalluf mat kareṃ!", "en": "Do have some too — don't stand on ceremony!", "focus": "نا", "wrong": ["نہ|na", "نہیں|nahīṃ"] },
+        { "native": "پاگل ہو کیا؟ اتنی رات کو اکیلے؟", "roman": "pāgal ho kyā? itnī rāt ko akele?", "en": "Are you mad? Alone, this late at night? (familiar)" },
+        { "native": "ظاہر ہے، وہ تمہارا بھائی ہے!", "roman": "zāhir hai, vo tumhārā bhā’ī hai!", "en": "Obviously — he's your brother!" },
+        { "native": "چپ کرو یار، میچ دیکھنے دو!", "roman": "chup karo yār, maich dekhne do!", "en": "Shut up, man, let me watch the match! (informal)" }
+      ]
+    },
+    {
+      "title": "Just, only, even",
+      "tip": { "title": "ہی, تو, بھی", "body": "- **ہی** 'only / the very': کل **ہی** 'only yesterday'; fused: **یہی**, **وہی**, **تبھی**.\n- **تو** (to) 'as for / really': میں **تو** نہیں جا رہا 'well, *I'm* not going'; دیکھو **تو**! 'just look!'\n- **بھی** after question words = 'at all': **کچھ بھی**, **کبھی بھی**.\n- Put it right after the word you stress.", "grammar": 1 },
+      "new": ["ہی", "تبھی", "دراصل", "تبھی تو!", "ایسے ہی۔", "کچھ بھی!"],
+      "sentences": [
+        { "native": "ہم تو کل ہی آئے ہیں۔", "roman": "ham to kal hī ā’e haiṃ.", "en": "We only got here yesterday.", "focus": "ہی", "wrong": ["بھی|bhī", "تو|to"] },
+        { "native": "یہی تو میں کہہ رہا تھا!", "roman": "yahī to maiṃ kah rahā thā!", "en": "That's exactly what I was saying!", "focus": "یہی", "wrong": ["یہاں|yahāṃ", "ابھی|abhī"] },
+        { "native": "وہ پوری رات میچ دیکھتا رہا؟ تبھی اتنا تھکا ہوا ہے۔", "roman": "vo pūrī rāt maich dekhtā rahā? tabhī itnā thakā huā hai.", "en": "He watched the match all night? No wonder he's so tired.", "focus": "تبھی", "wrong": ["کبھی|kabhī", "ابھی|abhī"] },
+        { "native": "کچھ نہیں، ایسے ہی فون کیا۔", "roman": "kuchh nahīṃ, aise hī fon kiyā.", "en": "Nothing — I just called (for no reason).", "focus": "ہی", "wrong": ["بھی|bhī", "تو|to"] },
+        { "native": "کچھ بھی کہو، امی کا کھانا ہی سب سے اچھا ہے۔", "roman": "kuchh bhī kaho, ammī kā khānā hī sab se achchhā hai.", "en": "Say what you like, Mum's cooking is the best.", "focus": "بھی", "wrong": ["ہی|hī", "تو|to"] },
+        { "native": "دیکھو تو، کون آیا ہے!", "roman": "dekho to, kaun āyā hai!", "en": "Just look who's here!", "focus": "تو", "wrong": ["ہی|hī", "بھی|bhī"] },
+        { "native": "میں تو نہیں جا رہا، تم جاؤ۔", "roman": "maiṃ to nahīṃ jā rahā, tum jā’o.", "en": "Well, I'm not going — you go.", "focus": "تو", "wrong": ["ہی|hī", "بھی|bhī"] },
+        { "native": "وہ کبھی بھی وقت پر نہیں آتا۔", "roman": "vo kabhī bhī vaqt par nahīṃ ātā.", "en": "He's never, ever on time.", "focus": "بھی", "wrong": ["ہی|hī", "تو|to"] },
+        { "native": "دراصل، مجھے آج کچھ کام ہے۔", "roman": "darasl, mujhe āj kuchh kām hai.", "en": "Actually, I've got something on today." }
+      ]
+    },
+    {
+      "title": "Chai wai and all that",
+      "tip": { "title": "Echo words: چائے وائے", "body": "- Repeat a word with **و** at the start = 'and stuff': **چائے وائے** tea or something, **پیسے ویسے** money and all that.\n- Doubling intensifies: **جلدی جلدی** quick quick, **گرم گرم** piping hot.\n- Fixed pairs: **ادھر ادھر**, **ٹھیک ٹھاک**. End a list with **وغیرہ**.", "pattern": "word + و-word", "grammar": 2 },
+      "new": ["وغیرہ", "ادھر ادھر", "ٹائپ", "سچ مچ", "چلو چھوڑو۔"],
+      "sentences": [
+        { "native": "کھانا وانا کھایا؟", "roman": "khānā vānā khāyā?", "en": "Have you eaten or anything?", "focus": "وانا", "wrong": ["کھانا|khānā", "وانی|vānī"] },
+        { "native": "پیسے ویسے کی فکر مت کرو۔", "roman": "paise vaise kī fikr mat karo.", "en": "Don't worry about money and all that.", "focus": "ویسے", "wrong": ["ویسا|vaisā", "پیسا|paisā"] },
+        { "native": "آج پڑھائی وڑھائی نہیں، صرف آرام۔", "roman": "āj paṛhā’ī vaṛhā’ī nahīṃ, sirf ārām.", "en": "No studying or anything today — just rest." },
+        { "native": "چلو چھوڑو، چائے وائے پیتے ہیں۔", "roman": "chalo chhoṛo, chā’e vā’e pīte haiṃ.", "en": "Oh, forget it — let's have some tea or something.", "focus": "وائے", "wrong": ["والے|vāle", "وائی|vā’ī"] },
+        { "native": "وہ پورا دن ادھر ادھر گھومتا رہتا ہے۔", "roman": "vo pūrā din idhar udhar ghūmtā rahtā hai.", "en": "He just wanders around all day." },
+        { "native": "کپڑے، جوتے وغیرہ سب پیک کر لیے۔", "roman": "kapṛe, jūte vaġaira sab paik kar liye.", "en": "Clothes, shoes and so on — I've packed it all." },
+        { "native": "جلدی جلدی کرو، فلم شروع ہونے والی ہے!", "roman": "jaldī jaldī karo, film shurūʿ hone vālī hai!", "en": "Quick, quick — the film's about to start!" },
+        { "native": "وہ اس ٹائپ کا بندہ نہیں ہے۔", "roman": "vo is ṭā’ip kā banda nahīṃ hai.", "en": "He's not that type of guy.", "focus": "کا", "wrong": ["کی|kī", "کے|ke"] },
+        { "native": "کیا تم سچ مچ اکیلے گئے؟", "roman": "kyā tum sach much akele ga’e?", "en": "Did you really go on your own?" },
+        { "native": "بکواس مت کرو، یار!", "roman": "bakvās mat karo, yār!", "en": "Don't talk rubbish, man!" }
+      ]
+    },
+    {
+      "title": "Sorry, say that again?",
+      "tip": { "title": "When you don't follow", "body": "- **جی؟** or **ایک بار پھر کہیے؟** = pardon? / say that again?\n- **ذرا آہستہ بولیں** = slower, please; **ذرا دہرا دیں** = could you repeat it?\n- Lost a word? Say **وہ کیا کہتے ہیں…** and describe it: **جہاں / جو / جس سے…**\n- Ask: **اس کا مطلب کیا ہے؟** / **سمجھا دیں؟**" },
+      "new": ["آہستہ", "دہرانا", "لفظ", "سمجھانا", "ذرا آہستہ بولیں، میں ابھی سیکھ رہا ہوں۔", "ایک بار پھر کہیے؟", "اس کو اردو میں کیا کہتے ہیں؟", "اس لفظ کا مطلب کیا ہے؟", "وہ کیا کہتے ہیں…"],
+      "sentences": [
+        { "native": "معاف کیجیے، ذرا دہرا دیں؟", "roman": "muʿāf kījiye, zarā dohrā deṃ?", "en": "Sorry, could you repeat that?" },
+        { "native": "آپ بہت تیز بول رہے ہیں، ذرا آہستہ۔", "roman": "āp bahut tez bol rahe haiṃ, zarā āhista.", "en": "You're speaking very fast — a bit slower, please." },
+        { "native": "یہ لفظ میں نے پہلے نہیں سنا۔", "roman": "ye lafz maiṃ ne pahle nahīṃ sunā.", "en": "I haven't heard this word before.", "focus": "سنا", "wrong": ["سنی|sunī", "سنے|sune"] },
+        { "native": "اس لفظ کو انگریزی میں کیا کہتے ہیں؟", "roman": "is lafz ko angrezī meṃ kyā kahte haiṃ?", "en": "What's this word in English?" },
+        { "native": "کیا آپ اس کا مطلب سمجھا سکتے ہیں؟", "roman": "kyā āp is kā matlab samjhā sakte haiṃ?", "en": "Could you explain what it means?", "focus": "سمجھا", "wrong": ["سمجھ|samajh", "سمجھے|samjhe"] },
+        { "native": "آپ نے کیا کہا؟ میں نے صحیح سے نہیں سنا۔", "roman": "āp ne kyā kahā? maiṃ ne sahī se nahīṃ sunā.", "en": "What did you say? I didn't hear properly." },
+        { "native": "وہ کیا کہتے ہیں… جہاں ٹرین رکتی ہے؟", "roman": "vo kyā kahte haiṃ… jahāṃ ṭren ruktī hai?", "en": "What's it called… where the train stops?" },
+        { "native": "فکر نہ کرو، آہستہ آہستہ عادت ہو جائے گی۔", "roman": "fikr na karo, āhista āhista ʿādat ho jā’e gī.", "en": "Don't worry, you'll get used to it bit by bit." },
+        { "native": "یار، مجھے ذرا سمجھاؤ، میں نہیں سمجھی۔", "roman": "yār, mujhe zarā samjhā’o, maiṃ nahīṃ samjhī.", "en": "Explain it to me, I didn't get it. (woman)" }
+      ]
+    },
+    {
+      "title": "Oh no! Good grief!",
+      "tip": { "title": "Little noises that say a lot", "body": "- **ارے** hey! / oh! · **اوہو** oh no, oops · **ہائے** aww / ouch · **توبہ توبہ** good grief!\n- **عجیب بات ہے** that's strange · **حد ہو گئی!** this is ridiculous!\n- **اچھا خاصا** 'quite' agrees: **اچھی خاصی** انگریزی.\n- English fillers (*basically*, *actually*) are fine — everyone uses them." },
+      "new": ["بھئی", "اوہو", "ہائے", "توبہ", "اچھا خاصا", "حد ہو گئی!"],
+      "sentences": [
+        { "native": "بھئی، ہمیں بھی بتاؤ کیا ہو رہا ہے!", "roman": "bhaī, hameṃ bhī batā’o kyā ho rahā hai!", "en": "Come on, tell us what's going on too!" },
+        { "native": "ارے، تم یہاں؟", "roman": "are, tum yahāṃ?", "en": "Hey — you here?" },
+        { "native": "اوہو، میں چابی گھر پر بھول گیا!", "roman": "oho, maiṃ chābī ghar par bhūl gayā!", "en": "Oh no, I left the key at home! (man)", "focus": "گیا", "wrong": ["گئی|ga’ī", "گئے|ga’e"] },
+        { "native": "ہائے، کتنا پیارا بچہ ہے!", "roman": "hā’e, kitnā pyārā bachcha hai!", "en": "Aww, what a sweet baby!" },
+        { "native": "توبہ توبہ، کتنی گرمی ہے!", "roman": "tauba tauba, kitnī garmī hai!", "en": "Good grief, it's so hot!", "focus": "کتنی", "wrong": ["کتنا|kitnā", "کتنے|kitne"] },
+        { "native": "عجیب بات ہے، وہ ابھی تک نہیں آیا۔", "roman": "ʿajīb bāt hai, vo abhī tak nahīṃ āyā.", "en": "That's strange, he's still not here." },
+        { "native": "حد ہو گئی، تین گھنٹے سے انتظار کر رہے ہیں!", "roman": "had ho ga’ī, tīn ghanṭe se intizār kar rahe haiṃ!", "en": "This is ridiculous — we've been waiting three hours!" },
+        { "native": "اس کی انگریزی اچھی خاصی ہے۔", "roman": "us kī angrezī achchhī xāsī hai.", "en": "Her English is pretty good.", "focus": "خاصی", "wrong": ["خاصا|xāsā", "خاصے|xāse"] },
+        { "native": "اس نے اچھے خاصے پیسے خرچ کیے۔", "roman": "us ne achchhe xāse paise xarch kiye.", "en": "He spent quite a lot of money.", "focus": "خاصے", "wrong": ["خاصا|xāsā", "خاصی|xāsī"] },
+        { "native": "بیسکلی، وہ لیٹ ہو گیا اور سب ناراض ہو گئے۔", "roman": "besikalī, vo leṭ ho gayā aur sab nārāz ho ga’e.", "en": "Basically, he was late and everyone got annoyed." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": 32,
+  "title": "Health in depth",
+  "goal": "Describe your symptoms precisely and say how long you've had them, tell a doctor about allergies and conditions, book an appointment, and understand exactly how to take your medicine.",
+  "intro": "Unit 9 got you as far as 'I have a fever'. This unit gets you through a real visit to a clinic in Pakistan: dizziness, nausea, rashes and swelling; 'I've had it for three days'; 'I'm allergic to penicillin'; and the pharmacist's 'twice a day, after food, for five days'.\n\nTwo pieces of grammar do most of the work. **Duration**: where English says 'I *have been* ill for three days', Urdu uses the plain **present** + **سے**: میں تین دن **سے** بیمار **ہوں**. And **instructions**: doctors use the polite **-یں** imperative or the **infinitive** (یہ گولی دن میں دو بار **لینی ہے**), plus a handful of timing words you'll hear on every prescription.",
+  "vocab": [
+    { "native": "علامت", "roman": "ʿalāmat", "en": "symptom; sign", "pos": "noun", "note": "f. pl. علامات" },
+    { "native": "چکر آنا", "roman": "chakkar ānā", "en": "to feel dizzy", "pos": "verb", "note": "چکر is plural here: مجھے چکر آ رہے ہیں = I feel dizzy" },
+    { "native": "متلی", "roman": "matlī", "en": "nausea", "pos": "noun", "note": "f. مجھے متلی ہو رہی ہے = I feel sick. Also جی متلانا." },
+    { "native": "دست", "roman": "dast", "en": "diarrhoea", "pos": "noun", "note": "m pl. مجھے دست لگے ہیں = I have diarrhoea" },
+    { "native": "کمزوری", "roman": "kamzorī", "en": "weakness", "pos": "noun", "note": "f. From کمزور 'weak'." },
+    { "native": "تھکاوٹ", "roman": "thakāvaṭ", "en": "tiredness, fatigue", "pos": "noun", "note": "f. Also تھکن." },
+    { "native": "سانس", "roman": "sāṃs", "en": "breath", "pos": "noun", "note": "f. سانس لینا = to breathe; سانس پھولنا = to get out of breath" },
+    { "native": "نگلنا", "roman": "nigalnā", "en": "to swallow", "pos": "verb" },
+    { "native": "کب سے", "roman": "kab se", "en": "since when? for how long?", "pos": "q", "note": "Answer with time + سے: دو دن سے" },
+    { "native": "مسلسل", "roman": "musalsal", "en": "continuously, non-stop", "pos": "adv" },
+    { "native": "خارش", "roman": "xārish", "en": "itching; itchy rash", "pos": "noun", "note": "f. خارش ہونا = to itch" },
+    { "native": "سوجن", "roman": "sūjan", "en": "swelling", "pos": "noun", "note": "f" },
+    { "native": "اپوائنٹمنٹ", "roman": "apā’inṭmanṭ", "en": "appointment", "pos": "noun", "note": "f. اپوائنٹمنٹ لینا = to book; اپوائنٹمنٹ ملنا = to get one" },
+    { "native": "کلینک", "roman": "klinik", "en": "clinic, doctor's surgery", "pos": "noun", "note": "m" },
+    { "native": "مریض", "roman": "marīz", "en": "patient", "pos": "noun", "note": "m/f. pl. مریض" },
+    { "native": "چیک اپ", "roman": "chek ap", "en": "check-up", "pos": "noun", "note": "m. چیک اپ کروانا = to have a check-up" },
+    { "native": "الرجی", "roman": "alarjī", "en": "allergy", "pos": "noun", "note": "f. مجھے X سے الرجی ہے = I'm allergic to X" },
+    { "native": "بی پی", "roman": "bī pī", "en": "blood pressure (BP)", "pos": "noun", "note": "m. The everyday word; formally بلڈ پریشر. بی پی ہائی / لو ہے = BP is high / low" },
+    { "native": "شوگر", "roman": "shūgar", "en": "diabetes (colloquial); blood sugar", "pos": "noun", "note": "f. انہیں شوگر ہے = they have diabetes. Formal: ذیابیطس." },
+    { "native": "خوراک", "roman": "xurāk", "en": "dose; diet", "pos": "noun", "note": "f" },
+    { "native": "خالی پیٹ", "roman": "xālī peṭ", "en": "on an empty stomach", "pos": "adv" },
+    { "native": "سیرپ", "roman": "sirap", "en": "syrup (medicine)", "pos": "noun", "note": "m. کھانسی کا سیرپ = cough syrup" },
+    { "native": "اینٹی بائیوٹک", "roman": "ainṭī bā’ioṭik", "en": "antibiotic", "pos": "noun", "note": "f" },
+    { "native": "پرہیز", "roman": "parhez", "en": "avoiding (certain foods), dietary restriction", "pos": "noun", "note": "m. X سے پرہیز کرنا = to avoid X" },
+    { "native": "ٹیسٹ", "roman": "ṭesṭ", "en": "test (medical)", "pos": "noun", "note": "m. ٹیسٹ کروانا = to have a test done" },
+    { "native": "انجکشن", "roman": "injekshan", "en": "injection", "pos": "noun", "note": "m. انجکشن لگانا = to give; انجکشن لگوانا = to have one" },
+    { "native": "ڈرپ", "roman": "ḍrip", "en": "IV drip", "pos": "noun", "note": "f. ڈرپ لگنا = to be put on a drip" },
+    { "native": "فرق", "roman": "farq", "en": "difference", "pos": "noun", "note": "m. فرق پڑنا = to make a difference, to get better" },
+    { "native": "بہتر", "roman": "behtar", "en": "better", "pos": "adj", "note": "Does not change for gender. پہلے سے بہتر = better than before" },
+    { "native": "ایمرجنسی", "roman": "emarjansī", "en": "emergency; A&E (casualty)", "pos": "noun", "note": "f" }
+  ],
+  "phrases": [
+    { "native": "مجھے چکر آ رہے ہیں۔", "roman": "mujhe chakkar ā rahe haiṃ.", "en": "I feel dizzy." },
+    { "native": "سانس لینے میں مشکل ہو رہی ہے۔", "roman": "sāṃs lene meṃ mushkil ho rahī hai.", "en": "I'm having trouble breathing." },
+    { "native": "کب سے طبیعت خراب ہے؟", "roman": "kab se tabīʿat xarāb hai?", "en": "How long have you been unwell?" },
+    { "native": "دو دن سے بخار ہے۔", "roman": "do din se buxār hai.", "en": "I've had a fever for two days." },
+    { "native": "ڈاکٹر صاحب کی آج کی اپوائنٹمنٹ مل سکتی ہے؟", "roman": "ḍākṭar sāhab kī āj kī apā’inṭmanṭ mil saktī hai?", "en": "Can I get an appointment with the doctor today?" },
+    { "native": "مجھے پینسلین سے الرجی ہے۔", "roman": "mujhe pensilīn se alarjī hai.", "en": "I'm allergic to penicillin." },
+    { "native": "یہ دوا دن میں دو بار، کھانے کے بعد لینی ہے۔", "roman": "ye davā din meṃ do bār, khāne ke baʿd lenī hai.", "en": "This medicine is to be taken twice a day, after food." },
+    { "native": "یہ گولی خالی پیٹ لیں۔", "roman": "ye golī xālī peṭ leṃ.", "en": "Take this tablet on an empty stomach." },
+    { "native": "تیل والی چیزوں سے پرہیز کریں۔", "roman": "tel vālī chīzoṃ se parhez kareṃ.", "en": "Avoid oily food." },
+    { "native": "اینٹی بائیوٹک کا کورس پورا کریں۔", "roman": "ainṭī bā’ioṭik kā kors pūrā kareṃ.", "en": "Finish the course of antibiotics." },
+    { "native": "کچھ ٹیسٹ کروانے پڑیں گے۔", "roman": "kuchh ṭesṭ karvāne paṛeṃge.", "en": "You'll need to have some tests done." },
+    { "native": "کوئی فرق پڑا؟", "roman": "ko’ī farq paṛā?", "en": "Any better? (lit. did it make any difference?)" },
+    { "native": "پہلے سے بہتر ہوں۔", "roman": "pahle se behtar hūṃ.", "en": "I'm better than I was." },
+    { "native": "ایمرجنسی کہاں ہے؟", "roman": "emarjansī kahāṃ hai?", "en": "Where is A&E?" }
+  ],
+  "grammar": [
+    {
+      "title": "'I've been … for': present + سے",
+      "body": "English uses the present perfect for something that started in the past and is still going on: 'I **have been** ill for three days', 'I **have had** this cough since Monday'. Urdu simply uses the **present tense** with **سے** ('from, since') after the time:\n\nمیں تین دن **سے** بیمار **ہوں** 'I've been ill for three days' (lit. I am ill from three days)\nمجھے پیر **سے** کھانسی **ہے** 'I've had a cough since Monday'\nوہ صبح **سے** سو **رہی ہے** 'she's been sleeping since the morning'\n\nThe same **سے** covers both English 'for' (a length of time: دو گھنٹے سے) and 'since' (a starting point: کل سے، پیر سے، صبح سے). To ask, use **کب سے؟** 'since when / for how long?'.\n\n**Which present?** Use **ہے / ہوں** for states (ill, a fever, pain), the **continuous** (کر رہا ہوں) for activities still going on (میں دو ہفتوں سے یہ دوا **لے رہا ہوں**), and the **habitual** for repeated things (ایک مہینے سے سر میں درد **ہوتا ہے** 'for a month I've been getting headaches').\n\n**The trap:** don't use the past. میں تین دن سے بیمار **تھا** means 'I *had* been ill for three days' (at some point in the past): جب میں ڈاکٹر کے پاس گیا تو مجھے چار دن سے بخار **تھا**.\n\nAlso useful: **… ہو گئے** 'it's been…': دو ہفتے ہو گئے، کھانسی ٹھیک نہیں ہوئی 'it's been two weeks and the cough hasn't gone'.",
+      "examples": [
+        { "native": "میں تین دن سے بیمار ہوں۔", "roman": "maiṃ tīn din se bīmār hūṃ.", "en": "I've been ill for three days." },
+        { "native": "وہ صبح سے سو رہی ہے۔", "roman": "vo subah se so rahī hai.", "en": "She's been sleeping since the morning." },
+        { "native": "ہم آدھے گھنٹے سے انتظار کر رہے ہیں۔", "roman": "ham ādhe ghanṭe se intizār kar rahe haiṃ.", "en": "We've been waiting for half an hour." },
+        { "native": "آپ کو کب سے کھانسی ہے؟", "roman": "āp ko kab se khāṃsī hai?", "en": "How long have you had the cough?" },
+        { "native": "جب میں ڈاکٹر کے پاس گیا تو مجھے چار دن سے بخار تھا۔", "roman": "jab maiṃ ḍākṭar ke pās gayā to mujhe chār din se buxār thā.", "en": "When I went to the doctor I'd had a fever for four days." }
+      ]
+    },
+    {
+      "title": "Instructions: how to take your medicine",
+      "body": "Doctors, pharmacists and parents give instructions in three ways.\n\n**1. The polite imperative -یں** (the آپ form you'll hear at every clinic): یہ گولی **لیں**, پانی زیادہ **پئیں**, آرام **کریں**, ٹھنڈی چیزیں **نہ کھائیں**. Negative with **نہ** (softer) or **مت** (firmer).\n\n**2. The infinitive + ہے** 'is to be…, you have to…': یہ گولی دن میں دو بار **لینی ہے**. The infinitive **agrees with the medicine**: گولی / دوا (f) → **لینی**; سیرپ (m) → **پینا**; گولیاں (f pl) → **لینی ہیں**. A bare **negative infinitive** is a firm rule, the way mothers and doctors talk: ٹھنڈا پانی **نہیں پینا** 'no cold water', باہر کا کھانا **نہیں کھانا** 'no eating out'.\n\n**3. Timing words** that appear on every prescription:\nدن میں دو بار / تین بار — twice / three times a day\nصبح شام — morning and evening; صبح، دوپہر، شام — three times\nہر آٹھ گھنٹے بعد — every eight hours\nکھانے سے پہلے / کھانے کے بعد — before / after food\nخالی پیٹ — on an empty stomach; سوتے وقت — at bedtime\nایک ایک گولی — one tablet each time (doubling = 'each')\n\n**تک vs سے:** for the days *ahead* use **تک**: پانچ دن **تک** لیں 'take it for five days'. For time *up to now* use **سے** (see the other note): پانچ دن **سے** لے رہا ہوں 'I've been taking it for five days'.",
+      "examples": [
+        { "native": "یہ گولی صبح شام ایک ایک لیں۔", "roman": "ye golī subah shām ek ek leṃ.", "en": "Take one of these tablets morning and evening." },
+        { "native": "یہ سیرپ سوتے وقت پینا ہے۔", "roman": "ye sirap sote vaqt pīnā hai.", "en": "This syrup is to be taken at bedtime." },
+        { "native": "ہر چھ گھنٹے بعد ایک گولی لیں۔", "roman": "har chhe ghanṭe baʿd ek golī leṃ.", "en": "Take one tablet every six hours." },
+        { "native": "تین دن تک ٹھنڈا پانی نہیں پینا۔", "roman": "tīn din tak ṭhanḍā pānī nahīṃ pīnā.", "en": "No cold water for three days." },
+        { "native": "یہ دوائیں کھانے سے پہلے لینی ہیں۔", "roman": "ye davā’eṃ khāne se pahle lenī haiṃ.", "en": "These medicines are to be taken before food." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the clinic",
+    "setting": "An evening clinic in Islamabad. Usman has had a sore throat and fever for three days; Dr Farah sees him.",
+    "lines": [
+      { "speaker": "Dr Farah", "native": "جی، تشریف رکھیے۔ بتائیے، کیا مسئلہ ہے؟", "roman": "jī, tashrīf rakhiye. batā’iye, kyā mas’ala hai?", "en": "Please, have a seat. Tell me, what's the problem?" },
+      { "speaker": "Usman", "native": "ڈاکٹر صاحبہ، تین دن سے بخار ہے اور گلے میں بہت درد ہے۔", "roman": "ḍākṭar sāhiba, tīn din se buxār hai aur gale meṃ bahut dard hai.", "en": "Doctor, I've had a fever for three days and my throat really hurts." },
+      { "speaker": "Dr Farah", "native": "بخار کتنا ہے؟ چیک کیا تھا؟", "roman": "buxār kitnā hai? chek kiyā thā?", "en": "How high is the fever? Did you check it?" },
+      { "speaker": "Usman", "native": "کل رات ایک سو ایک تھا۔ اور نگلنے میں بھی مشکل ہو رہی ہے۔", "roman": "kal rāt ek sau ek thā. aur nigalne meṃ bhī mushkil ho rahī hai.", "en": "Last night it was 101. And it's hard to swallow too." },
+      { "speaker": "Dr Farah", "native": "منہ کھولیے… ہمم، گلا کافی خراب ہے۔ کسی دوا سے الرجی ہے؟", "roman": "muṃh kholiye… hmm, galā kāfī xarāb hai. kisī davā se alarjī hai?", "en": "Open your mouth… hmm, your throat is quite bad. Are you allergic to any medicine?" },
+      { "speaker": "Usman", "native": "جی نہیں۔ ویسے میں نے خود سے پیناڈول لی تھی۔", "roman": "jī nahīṃ. vaise maiṃ ne xud se paināḍol lī thī.", "en": "No. I did take some Panadol myself, though." },
+      { "speaker": "Dr Farah", "native": "ٹھیک ہے، وہ بخار کے لیے لیتے رہیں۔ یہ اینٹی بائیوٹک ہے: دن میں دو بار، کھانے کے بعد، پانچ دن تک۔", "roman": "ṭhīk hai, vo buxār ke liye lete raheṃ. ye ainṭī bā’ioṭik hai: din meṃ do bār, khāne ke baʿd, pāṃch din tak.", "en": "Fine, keep taking that for the fever. This is an antibiotic: twice a day, after food, for five days." },
+      { "speaker": "Usman", "native": "اور اگر بیچ میں ٹھیک ہو جاؤں تو؟", "roman": "aur agar bīch meṃ ṭhīk ho jā’ūṃ to?", "en": "And if I get better halfway through?" },
+      { "speaker": "Dr Farah", "native": "تب بھی کورس پورا کرنا ہے! یہی غلطی سب کرتے ہیں۔ اور ٹھنڈا پانی، آئس کریم بالکل نہیں۔", "roman": "tab bhī kors pūrā karnā hai! yahī ġaltī sab karte haiṃ. aur ṭhanḍā pānī, ā’is krīm bilkul nahīṃ.", "en": "You still finish the course! That's the mistake everyone makes. And absolutely no cold water or ice cream." },
+      { "speaker": "Usman", "native": "آئس کریم بھی نہیں؟ یہ تو ظلم ہے!", "roman": "ā’is krīm bhī nahīṃ? ye to zulm hai!", "en": "Not even ice cream? That's cruel!" },
+      { "speaker": "Dr Farah", "native": "صرف پانچ دن کی بات ہے۔ نیم گرم پانی میں نمک ڈال کر غرارے کریں، فرق پڑے گا۔", "roman": "sirf pāṃch din kī bāt hai. nīm garam pānī meṃ namak ḍāl kar ġarāre kareṃ, farq paṛegā.", "en": "It's only five days. Gargle with salt in lukewarm water, it'll help." },
+      { "speaker": "Usman", "native": "اور اگر تین دن تک بہتر نہ ہوا؟", "roman": "aur agar tīn din tak behtar na huā?", "en": "And if I'm not better in three days?" },
+      { "speaker": "Dr Farah", "native": "تو دوبارہ آ جائیے گا، پھر کچھ ٹیسٹ کروا لیں گے۔ اپنا خیال رکھیے۔", "roman": "to dobāra ā jā’iyegā, phir kuchh ṭesṭ karvā leṃge. apnā xayāl rakhiye.", "en": "Then come back and we'll do some tests. Take care of yourself." }
+    ]
+  },
+  "culture": "Most people in Pakistan see a GP at a private **کلینک** in the evening, often without an appointment: you give your name at the desk and wait your turn. Doctors are addressed as **ڈاکٹر صاحب / ڈاکٹر صاحبہ**. For small things many people skip the doctor and go straight to the **میڈیکل اسٹور**, where the pharmacist will suggest something (including, worryingly often, antibiotics).\n\nFood is treated as medicine. You'll be told to avoid cold water, rice, yoghurt or sour things with a cold or cough, and to have **ہلدی والا دودھ** (turmeric milk) or a herbal **جوشاندہ**; foods are said to have a 'hot' or 'cold' **تاثیر** (nature), and older relatives take this very seriously. **پرہیز** (avoiding foods) is part of almost every doctor's advice too.\n\nIn hospital a family member always stays with the patient, and visitors bring fruit or juice. Visiting the sick (**عیادت**) is a social duty: say **اللہ صحت دے** or **جلدی ٹھیک ہو جائیں**. In an emergency call **1122** (Rescue 1122, in most provinces) or **115** (Edhi ambulance).",
+  "lessons": [
+    {
+      "title": "Describing your symptoms",
+      "tip": { "title": "Symptoms happen to you", "body": "- Most symptoms 'happen' to you: مجھے متلی **ہو رہی** ہے, بچے کو دست **لگے** ہیں.\n- **چکر** is plural here: مجھے چکر **آ رہے** ہیں 'I feel dizzy'.\n- 'It hurts / it's hard to…': verb-**نے** + **میں**: نگلنے **میں** درد ہوتا ہے.", "pattern": "مجھے + symptom + ہو رہا / رہی ہے" },
+      "new": ["علامت", "چکر آنا", "متلی", "دست", "کمزوری", "تھکاوٹ", "سانس", "نگلنا", "مجھے چکر آ رہے ہیں۔", "سانس لینے میں مشکل ہو رہی ہے۔"],
+      "sentences": [
+        { "native": "اور کوئی علامت ہے؟", "roman": "aur ko’ī ʿalāmat hai?", "en": "Any other symptoms?" },
+        { "native": "کھڑے ہوتے ہی مجھے چکر آتے ہیں۔", "roman": "khaṛe hote hī mujhe chakkar āte haiṃ.", "en": "I get dizzy as soon as I stand up.", "focus": "آتے", "wrong": ["آتا|ātā", "آتی|ātī"] },
+        { "native": "مجھے متلی ہو رہی ہے، شاید کچھ غلط کھا لیا۔", "roman": "mujhe matlī ho rahī hai, shāyad kuchh ġalat khā liyā.", "en": "I feel sick — maybe I ate something bad.", "focus": "رہی", "wrong": ["رہا|rahā", "رہے|rahe"] },
+        { "native": "بچے کو دست لگے ہیں۔", "roman": "bachche ko dast lage haiṃ.", "en": "The child has diarrhoea.", "focus": "لگے", "wrong": ["لگا|lagā", "لگی|lagī"] },
+        { "native": "مجھے بہت کمزوری ہو رہی ہے۔", "roman": "mujhe bahut kamzorī ho rahī hai.", "en": "I feel very weak.", "focus": "رہی", "wrong": ["رہا|rahā", "رہے|rahe"] },
+        { "native": "ہر وقت تھکاوٹ رہتی ہے۔", "roman": "har vaqt thakāvaṭ rahtī hai.", "en": "I'm tired all the time.", "focus": "رہتی", "wrong": ["رہتا|rahtā", "رہتے|rahte"] },
+        { "native": "تھوڑا چلنے سے ہی سانس پھول جاتی ہے۔", "roman": "thoṛā chalne se hī sāṃs phūl jātī hai.", "en": "I get out of breath after just a short walk.", "focus": "جاتی", "wrong": ["جاتا|jātā", "جاتے|jāte"] },
+        { "native": "نگلنے میں درد ہوتا ہے۔", "roman": "nigalne meṃ dard hotā hai.", "en": "It hurts to swallow.", "focus": "نگلنے", "wrong": ["نگلنا|nigalnā", "نگلتے|nigalte"] },
+        { "native": "کیا آپ کو الٹی بھی آئی؟", "roman": "kyā āp ko ulṭī bhī ā’ī?", "en": "Did you vomit as well?", "focus": "آئی", "wrong": ["آیا|āyā", "آئے|ā’e"] }
+      ]
+    },
+    {
+      "title": "Saying how long",
+      "tip": { "title": "I've had it for…: present + سے", "body": "- Urdu says 'I **am** ill **from** three days': میں تین دن **سے** بیمار **ہوں**.\n- **سے** = both 'for' (دو گھنٹے سے) and 'since' (کل سے، پیر سے).\n- Keep the verb in the **present** (ہے، ہوں، کر رہا ہوں) — not تھا.\n- Ask with **کب سے؟**", "pattern": "time + سے + present tense", "grammar": 0 },
+      "new": ["کب سے", "مسلسل", "خارش", "سوجن", "کب سے طبیعت خراب ہے؟", "دو دن سے بخار ہے۔"],
+      "sentences": [
+        { "native": "مجھے پرسوں سے کھانسی ہے۔", "roman": "mujhe parsoṃ se khāṃsī hai.", "en": "I've had a cough since the day before yesterday.", "focus": "سے", "wrong": ["تک|tak", "میں|meṃ"] },
+        { "native": "کب سے خارش ہو رہی ہے؟", "roman": "kab se xārish ho rahī hai?", "en": "How long has it been itching?", "focus": "سے", "wrong": ["تک|tak", "کو|ko"] },
+        { "native": "ایک ہفتے سے پاؤں میں سوجن ہے۔", "roman": "ek hafte se pā’oṃ meṃ sūjan hai.", "en": "My foot has been swollen for a week.", "focus": "ہے", "wrong": ["تھی|thī", "ہوئی|hu’ī"] },
+        { "native": "میں دو ہفتوں سے یہ دوا لے رہا ہوں۔", "roman": "maiṃ do haftoṃ se ye davā le rahā hūṃ.", "en": "I've been taking this medicine for two weeks.", "focus": "ہوں", "wrong": ["تھا|thā", "ہے|hai"] },
+        { "native": "کل رات سے مسلسل بخار ہے۔", "roman": "kal rāt se musalsal buxār hai.", "en": "I've had a fever non-stop since last night.", "focus": "سے", "wrong": ["تک|tak", "کو|ko"] },
+        { "native": "امی صبح سے ڈاکٹر کا انتظار کر رہی ہیں۔", "roman": "ammī subah se ḍākṭar kā intizār kar rahī haiṃ.", "en": "Mum's been waiting for the doctor since the morning.", "focus": "رہی", "wrong": ["رہا|rahā", "رہے|rahe"] },
+        { "native": "یہ سوجن کب سے ہے؟", "roman": "ye sūjan kab se hai?", "en": "How long have you had this swelling?" },
+        { "native": "تین مہینے سے میری کمر میں مسلسل درد ہے۔", "roman": "tīn mahīne se merī kamar meṃ musalsal dard hai.", "en": "My back has been hurting non-stop for three months.", "focus": "میری", "wrong": ["میرا|merā", "میرے|mere"] },
+        { "native": "پانچ دن ہو گئے، خارش ٹھیک نہیں ہوئی۔", "roman": "pāṃch din ho ga’e, xārish ṭhīk nahīṃ hu’ī.", "en": "It's been five days and the itching hasn't gone.", "focus": "ہوئی", "wrong": ["ہوا|huā", "ہوئے|hu’e"] },
+        { "native": "میں دس منٹ سے لائن میں کھڑا ہوں۔", "roman": "maiṃ das minaṭ se lā’in meṃ khaṛā hūṃ.", "en": "I've been standing in the queue for ten minutes.", "focus": "سے", "wrong": ["تک|tak", "کو|ko"] }
+      ]
+    },
+    {
+      "title": "At the clinic",
+      "tip": { "title": "Telling the doctor your history", "body": "- Doctors are **ڈاکٹر صاحب / صاحبہ**, with آپ and plural verbs.\n- Conditions use **کو … ہے**: ابو **کو** شوگر ہے, مجھے بی پی کا مسئلہ ہے.\n- Allergies: مجھے X **سے** الرجی ہے.\n- **اپوائنٹمنٹ** is feminine: اپوائنٹمنٹ **ملی**." },
+      "new": [
+        "اپوائنٹمنٹ",
+        "کلینک",
+        "مریض",
+        "چیک اپ",
+        "الرجی",
+        "بی پی",
+        "شوگر",
+        "ڈاکٹر صاحب کی آج کی اپوائنٹمنٹ مل سکتی ہے؟",
+        "مجھے پینسلین سے الرجی ہے۔"
+      ],
+      "sentences": [
+        { "native": "کل صبح دس بجے کی اپوائنٹمنٹ ملی ہے۔", "roman": "kal subah das baje kī apā’inṭmanṭ milī hai.", "en": "I've got an appointment at ten tomorrow morning.", "focus": "کی", "wrong": ["کا|kā", "کے|ke"] },
+        { "native": "ڈاکٹر صاحبہ آج کلینک میں کتنے بجے تک ہیں؟", "roman": "ḍākṭar sāhiba āj klinik meṃ kitne baje tak haiṃ?", "en": "Until what time is the doctor at the clinic today?", "focus": "ہیں", "wrong": ["ہے|hai", "ہوں|hūṃ"] },
+        { "native": "کلینک میں بہت مریض تھے، دو گھنٹے لگ گئے۔", "roman": "klinik meṃ bahut marīz the, do ghanṭe lag ga’e.", "en": "There were loads of patients at the clinic — it took two hours.", "focus": "تھے", "wrong": ["تھا|thā", "تھی|thī"] },
+        { "native": "سال میں ایک بار پورا چیک اپ کروا لینا چاہیے۔", "roman": "sāl meṃ ek bār pūrā chek ap karvā lenā chāhiye.", "en": "You should get a full check-up once a year." },
+        { "native": "مجھے کچھ دواؤں سے الرجی ہے۔", "roman": "mujhe kuchh davā’oṃ se alarjī hai.", "en": "I'm allergic to some medicines.", "focus": "سے", "wrong": ["کو|ko", "کا|kā"] },
+        { "native": "ابو کو شوگر ہے، اس لیے میٹھا نہیں کھاتے۔", "roman": "abbū ko shūgar hai, is liye mīṭhā nahīṃ khāte.", "en": "Dad's diabetic, so he doesn't eat sweet things.", "focus": "کو", "wrong": ["نے|ne", "کا|kā"] },
+        { "native": "آپ کا بی پی تھوڑا زیادہ ہے۔", "roman": "āp kā bī pī thoṛā zyāda hai.", "en": "Your blood pressure is a bit high." },
+        { "native": "ڈاکٹر صاحب مریض کو دیکھ رہے ہیں، تھوڑا انتظار کریں۔", "roman": "ḍākṭar sāhab marīz ko dekh rahe haiṃ, thoṛā intizār kareṃ.", "en": "The doctor is with a patient, please wait a little.", "focus": "رہے", "wrong": ["رہا|rahā", "رہی|rahī"] },
+        { "native": "کیا آپ کو کسی چیز سے الرجی ہے؟", "roman": "kyā āp ko kisī chīz se alarjī hai?", "en": "Are you allergic to anything?" }
+      ]
+    },
+    {
+      "title": "Taking your medicine",
+      "tip": { "title": "Instructions: لیں، لینی ہے، نہیں پینا", "body": "- Doctors say **-یں**: یہ گولی **لیں**, پانی زیادہ **پئیں**.\n- Or the infinitive, agreeing with the medicine: گولی (f) **لینی ہے**, سیرپ (m) **پینا ہے**.\n- A bare negative infinitive is a firm rule: ٹھنڈا پانی **نہیں پینا**.\n- For the days ahead: پانچ دن **تک**.", "pattern": "دن میں دو بار · کھانے کے بعد · لینی ہے", "grammar": 1 },
+      "new": [
+        "خوراک",
+        "خالی پیٹ",
+        "سیرپ",
+        "اینٹی بائیوٹک",
+        "پرہیز",
+        "یہ دوا دن میں دو بار، کھانے کے بعد لینی ہے۔",
+        "یہ گولی خالی پیٹ لیں۔",
+        "تیل والی چیزوں سے پرہیز کریں۔",
+        "اینٹی بائیوٹک کا کورس پورا کریں۔"
+      ],
+      "sentences": [
+        { "native": "ہر آٹھ گھنٹے بعد ایک خوراک دیں۔", "roman": "har āṭh ghanṭe baʿd ek xurāk deṃ.", "en": "Give one dose every eight hours.", "focus": "دیں", "wrong": ["دیا|diyā", "دیتے|dete"] },
+        { "native": "یہ دوا خالی پیٹ نہیں لینی۔", "roman": "ye davā xālī peṭ nahīṃ lenī.", "en": "Don't take this medicine on an empty stomach.", "focus": "لینی", "wrong": ["لینا|lenā", "لیتی|letī"] },
+        { "native": "یہ سیرپ دن میں تین بار پینا ہے۔", "roman": "ye sirap din meṃ tīn bār pīnā hai.", "en": "This syrup is to be taken three times a day.", "focus": "پینا", "wrong": ["پینی|pīnī", "پینے|pīne"] },
+        { "native": "اینٹی بائیوٹک پورے پانچ دن تک لیں۔", "roman": "ainṭī bā’ioṭik pūre pāṃch din tak leṃ.", "en": "Take the antibiotic for the full five days.", "focus": "تک", "wrong": ["سے|se", "میں|meṃ"] },
+        { "native": "مرچ والے کھانے سے پرہیز کریں۔", "roman": "mirch vāle khāne se parhez kareṃ.", "en": "Avoid spicy food.", "focus": "سے", "wrong": ["کو|ko", "پر|par"] },
+        { "native": "یہ گولیاں کھانے سے پہلے لینی ہیں۔", "roman": "ye goliyāṃ khāne se pahle lenī haiṃ.", "en": "These tablets are to be taken before food.", "focus": "لینی", "wrong": ["لینا|lenā", "لیں|leṃ"] },
+        { "native": "پانی زیادہ پئیں اور آرام کریں۔", "roman": "pānī zyāda pi’eṃ aur ārām kareṃ.", "en": "Drink plenty of water and rest.", "focus": "پئیں", "wrong": ["پیا|piyā", "پیتا|pītā"] },
+        { "native": "سوتے وقت ایک گولی لینا نہ بھولیں۔", "roman": "sote vaqt ek golī lenā na bhūleṃ.", "en": "Don't forget to take one tablet at bedtime.", "focus": "بھولیں", "wrong": ["بھولا|bhūlā", "بھولتے|bhūlte"] },
+        { "native": "بیٹا، دو دن تک باہر کا کھانا نہیں کھانا۔", "roman": "beṭā, do din tak bāhar kā khānā nahīṃ khānā.", "en": "No eating out for two days, dear." },
+        { "native": "طبیعت ٹھیک ہو جائے تب بھی دوا پوری کریں۔", "roman": "tabīʿat ṭhīk ho jā’e tab bhī davā pūrī kareṃ.", "en": "Finish the medicine even if you feel better." }
+      ]
+    },
+    {
+      "title": "Tests, injections and getting better",
+      "tip": { "title": "Any better? فرق پڑا؟", "body": "- **فرق پڑنا** = to make a difference: کوئی **فرق پڑا**؟ 'any better?'\n- Tests and injections are things you **get done**: ٹیسٹ **کروانا**, انجکشن **لگوانا**.\n- **بہتر** never changes: پہلے سے **بہتر**, کافی **بہتر** 'much better'." },
+      "new": ["ٹیسٹ", "انجکشن", "ڈرپ", "فرق", "بہتر", "ایمرجنسی", "کچھ ٹیسٹ کروانے پڑیں گے۔", "کوئی فرق پڑا؟", "پہلے سے بہتر ہوں۔", "ایمرجنسی کہاں ہے؟"],
+      "sentences": [
+        { "native": "شوگر کا ٹیسٹ کروانا ہے۔", "roman": "shūgar kā ṭesṭ karvānā hai.", "en": "I need to get my blood sugar tested.", "focus": "کروانا", "wrong": ["کروانی|karvānī", "کروانے|karvāne"] },
+        { "native": "انجکشن سے ڈر لگتا ہے؟", "roman": "injekshan se ḍar lagtā hai?", "en": "Are you scared of injections?", "focus": "سے", "wrong": ["کو|ko", "کا|kā"] },
+        { "native": "انہیں ڈرپ لگی ہوئی ہے۔", "roman": "unheṃ ḍrip lagī hu’ī hai.", "en": "She's on a drip.", "focus": "لگی", "wrong": ["لگا|lagā", "لگے|lage"] },
+        { "native": "دوا سے کوئی فرق نہیں پڑا۔", "roman": "davā se ko’ī farq nahīṃ paṛā.", "en": "The medicine hasn't made any difference.", "focus": "پڑا", "wrong": ["پڑی|paṛī", "پڑے|paṛe"] },
+        { "native": "آج آپ کی طبیعت کیسی ہے؟ پہلے سے بہتر؟", "roman": "āj āp kī tabīʿat kaisī hai? pahle se behtar?", "en": "How are you feeling today? Better?", "focus": "کیسی", "wrong": ["کیسا|kaisā", "کیسے|kaise"] },
+        { "native": "ٹیسٹ کی رپورٹ کل ملے گی۔", "roman": "ṭesṭ kī riporṭ kal mile gī.", "en": "The test results will be ready tomorrow." },
+        { "native": "ابو کو رات کو ایمرجنسی لے جانا پڑا۔", "roman": "abbū ko rāt ko emarjansī le jānā paṛā.", "en": "We had to take Dad to A&E in the night.", "focus": "پڑا", "wrong": ["پڑی|paṛī", "پڑے|paṛe"] },
+        { "native": "انجکشن کے بعد کافی فرق پڑا۔", "roman": "injekshan ke baʿd kāfī farq paṛā.", "en": "The injection made a big difference." },
+        { "native": "اب میں کافی بہتر ہوں، شکریہ۔", "roman": "ab maiṃ kāfī behtar hūṃ, shukriya.", "en": "I'm much better now, thanks." },
+        { "native": "ایمرجنسی میں 1122 پر فون کریں۔", "roman": "emarjansī meṃ 1122 par fon kareṃ.", "en": "In an emergency, call 1122.", "focus": "پر", "wrong": ["کو|ko", "سے|se"] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "id": 23,
+  "title": "Around town: rickshaws, cabs & the metro",
+  "goal": "Haggle with a rickshaw driver, book and direct a ride-app driver, tell them where to turn and stop, ask how long it takes, and use the metro.",
+  "intro": "Getting around a Pakistani city means rickshaws (agree the fare first!), ride apps like Careem, inDrive and Bykea, packed buses, and the newer metro lines in Lahore, Islamabad–Rawalpindi and Karachi. And since drivers navigate by landmarks rather than street names, you'll be giving directions from the back seat.\n\nThe grammar is what makes these commands sound natural: **compound verbs** — **روک دیں** 'stop (here)', **اتار دیں** 'drop me off', **بیٹھ جائیں** 'get in', **لے لیں** 'take (the turn)' — and **لگنا** for how long something takes or what it costs: **کتنا ٹائم لگے گا؟**",
+  "vocab": [
+    { "native": "ڈرائیور", "roman": "ḍrā’ivar", "en": "driver", "pos": "noun", "note": "m. Usually addressed as بھائی, or استاد جی in Lahore." },
+    { "native": "مانگنا", "roman": "māṃgnā", "en": "to ask for (money, a thing)", "pos": "verb", "note": "بہت زیادہ مانگ رہے ہو = you're asking too much. For asking a question use پوچھنا." },
+    { "native": "چنگچی", "roman": "chingchī", "en": "chingchi (shared motorbike rickshaw)", "pos": "noun", "note": "f. Named after the Chinese brand Qingqi; cheap and everywhere on smaller roads." },
+    { "native": "روکنا", "roman": "roknā", "en": "to stop (something)", "pos": "verb", "note": "Transitive partner of رکنا \"to stop (yourself)\": گاڑی روکیں = stop the car; گاڑی رکی = the car stopped." },
+    { "native": "پہنچانا", "roman": "pahuṃchānā", "en": "to take (someone) to, drop off", "pos": "verb", "note": "Transitive partner of پہنچنا \"arrive\": مجھے اسٹیشن پہنچا دیں = take me to the station." },
+    { "native": "سائیڈ", "roman": "sā’iḍ", "en": "side (of the road)", "pos": "noun", "note": "f. سائیڈ پر روکیں = pull over" },
+    { "native": "اے سی", "roman": "e sī", "en": "air conditioning", "pos": "noun", "note": "m. اے سی چلانا / بند کرنا = to turn the AC on / off" },
+    { "native": "سگنل", "roman": "signal", "en": "traffic lights; (phone) signal", "pos": "noun", "note": "m. Pakistanis say سگنل for traffic lights: سگنل سے دائیں = right at the lights" },
+    { "native": "آگے", "roman": "āge", "en": "ahead, further on; in front", "pos": "adv", "note": "آگے سے = up ahead; تھوڑا آگے = a bit further" },
+    { "native": "موڑ", "roman": "moṛ", "en": "turning, bend", "pos": "noun", "note": "m. اگلے موڑ سے = at the next turning" },
+    { "native": "یو ٹرن", "roman": "yū ṭarn", "en": "U-turn", "pos": "noun", "note": "m. Big roads have U-turns instead of right turns." },
+    { "native": "ایڈریس", "roman": "aiḍres", "en": "address", "pos": "noun", "note": "m. Also پتا patā. Addresses are given by landmarks." },
+    { "native": "ایپ", "roman": "aip", "en": "app", "pos": "noun", "note": "f" },
+    { "native": "بک", "roman": "buk", "en": "booked", "pos": "adj", "note": "بک کرنا = to book (a ride, ticket)" },
+    { "native": "پک", "roman": "pik", "en": "picked up", "pos": "adj", "note": "پک کرنا = to pick someone up" },
+    { "native": "ڈراپ", "roman": "ḍrāp", "en": "dropped off", "pos": "adj", "note": "ڈراپ کرنا = to drop someone off" },
+    { "native": "کیپٹن", "roman": "kaipṭan", "en": "driver (on ride apps)", "pos": "noun", "note": "m. Careem calls its drivers \"captains\" and everyone copied." },
+    { "native": "سواری", "roman": "savārī", "en": "ride; passenger", "pos": "noun", "note": "f. سواری ملی؟ = did you get a ride? Drivers call passengers سواری." },
+    { "native": "کھڑا", "roman": "khaṛā", "en": "standing; parked", "pos": "adj", "note": "f کھڑی, pl کھڑے. گاڑی باہر کھڑی ہے = the car is waiting outside." },
+    { "native": "فاصلہ", "roman": "fāsila", "en": "distance", "pos": "noun", "note": "m. کتنا فاصلہ ہے؟ = how far is it?" },
+    { "native": "پیدل", "roman": "paidal", "en": "on foot", "pos": "adv" },
+    { "native": "رش", "roman": "rash", "en": "rush, crowd, heavy traffic", "pos": "noun", "note": "m. بہت رش ہے = it's packed / the traffic's bad" },
+    { "native": "جام", "roman": "jām", "en": "jam (traffic)", "pos": "noun", "note": "m. ٹریفک جام" },
+    { "native": "تیز", "roman": "tez", "en": "fast; strong; (food) spicy", "pos": "adj", "note": "تیز چلائیں = drive faster; تیز مرچیں = hot chillies" },
+    { "native": "میٹرو", "roman": "meṭro", "en": "metro (bus or train)", "pos": "noun", "note": "f. The Metro Bus in Lahore and Islamabad–Rawalpindi, the Orange Line train in Lahore, the Green Line in Karachi." },
+    { "native": "ٹوکن", "roman": "ṭokan", "en": "token (for the metro)", "pos": "noun", "note": "m. Many people use a card instead." },
+    { "native": "اسٹاپ", "roman": "isṭāp", "en": "stop (bus, metro)", "pos": "noun", "note": "m" },
+    { "native": "کنڈکٹر", "roman": "kanḍakṭar", "en": "bus conductor", "pos": "noun", "note": "m. He hangs out of the door shouting the route." }
+  ],
+  "phrases": [
+    { "native": "بھائی، گلبرگ چلو گے؟", "roman": "bhā’ī, Gulbarg chalo ge?", "en": "Will you go to Gulberg? (to a rickshaw driver)", "note": "Literally \"will you go?\". The polite form is چلیں گے؟" },
+    { "native": "کتنا کرایہ لو گے؟", "roman": "kitnā kirāya lo ge?", "en": "How much will you charge?" },
+    { "native": "بہت زیادہ مانگ رہے ہو۔", "roman": "bahut zyāda māṃg rahe ho.", "en": "You're asking too much." },
+    { "native": "تین سو دوں گا، بس۔", "roman": "tīn sau dūṃ gā, bas.", "en": "I'll give you three hundred, that's it.", "note": "A woman says دوں گی." },
+    { "native": "مجھے صدر پہنچا دیں۔", "roman": "mujhe Sadr pahuṃchā deṃ.", "en": "Take me to Saddar, please." },
+    { "native": "بس یہیں اتار دیں۔", "roman": "bas yahīṃ utār deṃ.", "en": "Just drop me here.", "note": "اتارنا \"to let off\" is the partner of اترنا \"to get off\" (unit 11)." },
+    { "native": "سائیڈ پر روک دیں۔", "roman": "sā’iḍ par rok deṃ.", "en": "Pull over to the side, please." },
+    { "native": "اے سی چلا دیں۔", "roman": "e sī chalā deṃ.", "en": "Please turn the AC on." },
+    { "native": "اگلے سگنل سے دائیں لے لیں۔", "roman": "agle signal se dā’eṃ le leṃ.", "en": "Turn right at the next lights." },
+    { "native": "آگے سے یو ٹرن لے لیں۔", "roman": "āge se yū ṭarn le leṃ.", "en": "Take a U-turn up ahead." },
+    { "native": "کیپٹن آ گیا ہے۔", "roman": "kaipṭan ā gayā hai.", "en": "The driver's here." },
+    { "native": "میں نے گاڑی بک کر لی ہے۔", "roman": "maiṃ ne gāṛī buk kar lī hai.", "en": "I've booked a car." },
+    { "native": "کتنا ٹائم لگے گا؟", "roman": "kitnā ṭā’im lage gā?", "en": "How long will it take?" },
+    { "native": "یہاں سے کتنا فاصلہ ہے؟", "roman": "yahāṃ se kitnā fāsila hai?", "en": "How far is it from here?" },
+    { "native": "ٹوکن کہاں سے ملے گا؟", "roman": "ṭokan kahāṃ se mile gā?", "en": "Where do I get a token?" }
+  ],
+  "grammar": [
+    {
+      "title": "Compound verbs: روک دیں، بیٹھ جائیں، لے لیں",
+      "body": "Urdu often puts a second verb after the **stem** of the main verb. The main verb carries the meaning; the helper adds a shade of meaning and makes the sentence sound natural. Three helpers do most of the work:\n\n**stem + دینا** — done for someone else, outward, 'just do it': یہاں **روک دیں** 'stop here (for me)', مجھے **اتار دیں** 'let me off', **بتا دو** 'just tell me'.\n**stem + لینا** — done for yourself, inward: دائیں **لے لیں** 'take the right', میں نے گاڑی بک **کر لی** 'I booked a car (for myself)', **دیکھ لیں** 'have a look'.\n**stem + جانا** — a change of state, completion, or movement away: **بیٹھ جائیں** 'get in / sit down', ہم **پہنچ گئے** 'we've arrived', گاڑی **رک گئی** 'the car stopped'.\n\nTo a driver you almost always use the compound: **یہاں روک دیں** sounds natural, plain یہاں روکیں sounds abrupt.\n\n**Verb pairs** (intransitive → transitive): **رکنا** stop → **روکنا** stop something · **اترنا** get off → **اتارنا** let off · **پہنچنا** arrive → **پہنچانا** take someone · **مڑنا** turn. Don't mix them up: گاڑی **روکیں** 'stop the car', but میں یہاں **رکوں گا** 'I'll stop here'.\n\n**نے:** compounds with دینا / لینا are transitive, so the past takes نے: ڈرائیور **نے** گاڑی روک **دی**. Compounds with جانا never do: ہم پہنچ **گئے**.\n\n**Negatives** usually drop the helper: اس نے گاڑی **نہیں روکی** 'he didn't stop'.",
+      "examples": [
+        { "native": "بھائی، ذرا یہاں روک دیں۔", "roman": "bhā’ī, zarā yahāṃ rok deṃ.", "en": "Stop here, please, bhai." },
+        { "native": "آپ بیٹھ جائیں، میں سامان رکھ دیتا ہوں۔", "roman": "āp baiṭh jā’eṃ, maiṃ sāmān rakh detā hūṃ.", "en": "You get in, I'll put the luggage in." },
+        { "native": "ہم دس منٹ میں پہنچ جائیں گے۔", "roman": "ham das minaṭ meṃ pahuṃch jā’eṃ ge.", "en": "We'll be there in ten minutes." },
+        { "native": "میں نے رکشہ لے لیا۔", "roman": "maiṃ ne riksha le liyā.", "en": "I took a rickshaw." },
+        { "native": "مجھے اسٹیشن پر اتار دیں۔", "roman": "mujhe isṭeshan par utār deṃ.", "en": "Drop me at the station, please." },
+        { "native": "بس رک گئی، سب اتر گئے۔", "roman": "bas ruk ga’ī, sab utar ga’e.", "en": "The bus stopped and everyone got off." }
+      ]
+    },
+    {
+      "title": "It takes (time, money): لگنا",
+      "body": "For how long something takes or how much it costs, Urdu uses **لگنا**: the time or money is the **subject**, and لگنا agrees with it.\n\n**کتنا ٹائم لگے گا؟** 'how long will it take?' · **آدھا گھنٹا لگے گا** 'half an hour' · **دس منٹ لگیں گے** 'ten minutes' (plural) · **کتنی دیر لگے گی؟** (دیر is f)\n\n**Tenses:** usually takes — **لگتا ہے / لگتے ہیں**; took — **لگا / لگے**; will take — **لگے گا / لگیں گے**.\n\n**Who it takes** goes in the dative: **مجھے** دو گھنٹے لگے 'it took me two hours'.\n**To do what:** oblique infinitive + **میں**: یہاں **پہنچنے میں** ایک گھنٹا لگا 'it took an hour to get here'.\n\n**Money** works the same way: کتنے پیسے **لگیں گے**؟ 'how much will it cost?', کرایہ کتنا **لگے گا**؟\n\n**Related:** distance is کتنی دور ہے؟ or کتنا فاصلہ ہے؟; 'a ten-minute walk' is پیدل دس منٹ **کا راستہ** ہے. In casual speech لگ **جاتا** ہے adds 'it ends up taking': رش ہو تو ایک گھنٹا **لگ جاتا ہے**.",
+      "examples": [
+        { "native": "ہوائی اڈے تک کتنا ٹائم لگے گا؟", "roman": "havā’ī aḍḍe tak kitnā ṭā’im lage gā?", "en": "How long will it take to the airport?" },
+        { "native": "رش ہو تو ایک گھنٹا لگ جاتا ہے۔", "roman": "rash ho to ek ghanṭā lag jātā hai.", "en": "When the traffic is bad it takes an hour." },
+        { "native": "مجھے یہاں پہنچنے میں دو گھنٹے لگے۔", "roman": "mujhe yahāṃ pahuṃchne meṃ do ghanṭe lage.", "en": "It took me two hours to get here." },
+        { "native": "رکشے میں کتنے پیسے لگیں گے؟", "roman": "rikshe meṃ kitne paise lageṃ ge?", "en": "How much will it cost by rickshaw?" },
+        { "native": "پیدل صرف دس منٹ لگتے ہیں۔", "roman": "paidal sirf das minaṭ lagte haiṃ.", "en": "It's only ten minutes on foot." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A rickshaw to Clifton",
+    "setting": "Sana flags down a rickshaw in Saddar, Karachi.",
+    "lines": [
+      { "speaker": "Sana", "native": "بھائی، کلفٹن چلو گے؟", "roman": "bhā’ī, Kliftan chalo ge?", "en": "Will you go to Clifton?" },
+      { "speaker": "Driver", "native": "کلفٹن میں کہاں، باجی؟", "roman": "Kliftan meṃ kahāṃ, bājī?", "en": "Where in Clifton, miss?" },
+      { "speaker": "Sana", "native": "دو تلوار کے پاس۔ کتنا لو گے؟", "roman": "Do Talvār ke pās. kitnā lo ge?", "en": "Near Do Talwar. How much?" },
+      { "speaker": "Driver", "native": "آٹھ سو۔", "roman": "āṭh sau.", "en": "Eight hundred." },
+      { "speaker": "Sana", "native": "آٹھ سو؟ بہت زیادہ مانگ رہے ہو بھائی! ایپ پر چار سو دکھا رہا ہے۔", "roman": "āṭh sau? bahut zyāda māṃg rahe ho bhā’ī! aip par chār sau dikhā rahā hai.", "en": "Eight hundred? You're asking way too much! The app's showing four hundred." },
+      { "speaker": "Driver", "native": "باجی، ٹریفک دیکھیں، پیٹرول کتنا مہنگا ہے۔ چلیں، چھ سو۔", "roman": "bājī, ṭraifik dekheṃ, peṭrol kitnā mahangā hai. chaleṃ, chhe sau.", "en": "Miss, look at the traffic, and petrol is so expensive. OK, six hundred." },
+      { "speaker": "Sana", "native": "پانچ سو، بس۔ ورنہ میں کیپٹن بلا لیتی ہوں۔", "roman": "pāṃch sau, bas. varna maiṃ kaipṭan bulā letī hūṃ.", "en": "Five hundred, that's it. Or I'll just call a Careem." },
+      { "speaker": "Driver", "native": "اچھا، بیٹھ جائیں۔", "roman": "achchhā, baiṭh jā’eṃ.", "en": "All right, get in." },
+      { "speaker": "Sana", "native": "کتنا ٹائم لگے گا؟", "roman": "kitnā ṭā’im lage gā?", "en": "How long will it take?" },
+      { "speaker": "Driver", "native": "سگنل پر رش نہ ہو تو بیس منٹ۔", "roman": "signal par rash na ho to bīs minaṭ.", "en": "Twenty minutes, if the lights aren't jammed." },
+      { "speaker": "Sana", "native": "آگے سے یو ٹرن لے لیں، پھر سیدھے چلیں۔", "roman": "āge se yū ṭarn le leṃ, phir sīdhe chaleṃ.", "en": "Take the U-turn up ahead, then go straight." },
+      { "speaker": "Driver", "native": "جی باجی، پتا ہے۔ بیس سال سے رکشہ چلا رہا ہوں!", "roman": "jī bājī, patā hai. bīs sāl se riksha chalā rahā hūṃ!", "en": "Yes, miss, I know. I've been driving a rickshaw for twenty years!" },
+      { "speaker": "Sana", "native": "بس، یہیں سائیڈ پر روک دیں۔ یہ لیں، پانچ سو۔", "roman": "bas, yahīṃ sā’iḍ par rok deṃ. ye leṃ, pāṃch sau.", "en": "Right, pull over here. Here you go, five hundred." },
+      { "speaker": "Driver", "native": "شکریہ باجی، اللہ حافظ۔", "roman": "shukriya bājī, allāh hāfiz.", "en": "Thank you, miss. Goodbye." }
+    ]
+  },
+  "culture": "**Rickshaws** have no meters: agree the fare **before** you get in, and expect the first price to be high. Checking the ride-app price first gives you a fair number to quote. Call the driver **بھائی** (or **استاد جی** in Lahore); he'll call you **باجی** or **بھائی جان**. Using **تم** with a rickshaw driver while bargaining is common; **آپ** is always safe.\n\n**Ride apps:** Careem and Yango work like Uber; on **inDrive** you propose the fare yourself; **Bykea** is a motorbike taxi that also delivers parcels. Drivers ring when they arrive — **کیپٹن آ گیا ہے** — and often ask you to share your **لوکیشن** or describe the spot by a **landmark**: 'opposite the blue mosque', 'next to the bakery'. Street names and house numbers are rarely enough.\n\n**Public transport:** the Metro Bus in Lahore and Islamabad–Rawalpindi, Lahore's Orange Line train and Karachi's Green Line are cheap, air-conditioned and fast; buy a **ٹوکن** or a card. Buses and metros have a separate women's section at the front. On old buses and wagons the **کنڈکٹر** hangs from the door shouting the stops.\n\nIn London, Birmingham or New York, plenty of cab drivers are Pakistani — try a **السلام علیکم بھائی** and watch the ride get friendlier.",
+  "lessons": [
+    {
+      "title": "Getting a rickshaw",
+      "tip": { "title": "Haggling with a driver", "body": "- Fix the fare **before** you get in: بھائی، گلبرگ **چلو گے**؟ کتنا لو گے؟\n- Push back: **بہت زیادہ مانگ رہے ہو** — then name your price: **تین سو دوں گا**.\n- Call him **بھائی**; you'll be **باجی** or **بھائی جان**.\n- Walking away is part of it: **رہنے دیں** 'never mind'." },
+      "new": ["ڈرائیور", "مانگنا", "چنگچی", "بھائی، گلبرگ چلو گے؟", "کتنا کرایہ لو گے؟", "بہت زیادہ مانگ رہے ہو۔", "تین سو دوں گا، بس۔"],
+      "sentences": [
+        { "native": "بھائی، لبرٹی مارکیٹ چلو گے؟", "roman": "bhā’ī, Libarṭī Mārkeṭ chalo ge?", "en": "Will you go to Liberty Market?", "focus": "چلو", "wrong": ["چلا|chalā", "چلتا|chaltā"] },
+        { "native": "ڈرائیور پانچ سو مانگ رہا ہے۔", "roman": "ḍrā’ivar pāṃch sau māṃg rahā hai.", "en": "The driver is asking for five hundred.", "focus": "رہا", "wrong": ["رہی|rahī", "رہے|rahe"] },
+        { "native": "تم نے کتنے پیسے مانگے؟", "roman": "tum ne kitne paise māṃge?", "en": "How much did you ask for?", "focus": "مانگے", "wrong": ["مانگا|māṃgā", "مانگی|māṃgī"] },
+        { "native": "اتنا کرایہ؟ میں روز جاتا ہوں!", "roman": "itnā kirāya? maiṃ roz jātā hūṃ!", "en": "That much? I go there every day!", "focus": "اتنا", "wrong": ["اتنی|itnī", "اتنے|itne"] },
+        { "native": "چلیں، ساڑھے تین سو دے دوں گا۔", "roman": "chaleṃ, sāṛhe tīn sau de dūṃ gā.", "en": "OK, I'll give you three-fifty.", "focus": "دوں", "wrong": ["دو|do", "دیں|deṃ"] },
+        { "native": "نہیں بھائی، تین سو ٹھیک ہیں۔", "roman": "nahīṃ bhā’ī, tīn sau ṭhīk haiṃ.", "en": "No, bhai, three hundred is fair.", "focus": "ہیں", "wrong": ["ہوں|hūṃ", "ہو|ho"] },
+        { "native": "چنگچی میں بیٹھ جاتے ہیں، سستا ہے۔", "roman": "chingchī meṃ baiṭh jāte haiṃ, sastā hai.", "en": "Let's take a chingchi, it's cheaper." },
+        { "native": "وہ زیادہ پیسے مانگ رہا تھا، اس لیے میں نے نہیں لیا۔", "roman": "vo zyāda paise māṃg rahā thā, is liye maiṃ ne nahīṃ liyā.", "en": "He was asking too much, so I didn't take it." }
+      ]
+    },
+    {
+      "title": "Take me there, stop here",
+      "tip": { "title": "Compound verbs: روک دیں، بیٹھ جائیں", "body": "- Stem + **دینا** for something done for you: یہاں روک **دیں**, اتار **دیں**.\n- Stem + **جانا** for a change: بیٹھ **جائیں** 'get in', رک **گئی** 'stopped'.\n- Pairs: **رکنا** stop (yourself) ↔ **روکنا** stop (the car) · **پہنچنا** arrive ↔ **پہنچانا** take someone.\n- With دینا, the past takes **نے**: ڈرائیور **نے** روک دی.", "pattern": "stem + دیں / جائیں / لیں", "grammar": 0 },
+      "new": ["روکنا", "پہنچانا", "سائیڈ", "اے سی", "مجھے صدر پہنچا دیں۔", "بس یہیں اتار دیں۔", "سائیڈ پر روک دیں۔", "اے سی چلا دیں۔"],
+      "sentences": [
+        { "native": "بھائی، مجھے ہوائی اڈے پہنچا دیں۔", "roman": "bhā’ī, mujhe havā’ī aḍḍe pahuṃchā deṃ.", "en": "Take me to the airport, please.", "focus": "پہنچا", "wrong": ["پہنچ|pahuṃch", "پہنچے|pahuṃche"] },
+        { "native": "ذرا گاڑی روکیں، مجھے کچھ لینا ہے۔", "roman": "zarā gāṛī rokeṃ, mujhe kuchh lenā hai.", "en": "Stop the car a sec, I need to get something.", "focus": "روکیں", "wrong": ["رکیں|rukeṃ", "روکا|rokā"] },
+        { "native": "اس دکان کے سامنے اتار دیں۔", "roman": "is dukān ke sāmne utār deṃ.", "en": "Drop me in front of this shop.", "focus": "دیں", "wrong": ["لیں|leṃ", "جائیں|jā’eṃ"] },
+        { "native": "بیٹھ جائیں، اے سی چلا دیتا ہوں۔", "roman": "baiṭh jā’eṃ, e sī chalā detā hūṃ.", "en": "Get in — I'll put the AC on.", "focus": "جائیں", "wrong": ["دیں|deṃ", "لیں|leṃ"] },
+        { "native": "ڈرائیور نے گاڑی سائیڈ پر روک دی۔", "roman": "ḍrā’ivar ne gāṛī sā’iḍ par rok dī.", "en": "The driver pulled over.", "focus": "دی", "wrong": ["دیا|diyā", "دیے|diye"] },
+        { "native": "گاڑی اچانک رک گئی۔", "roman": "gāṛī achānak ruk ga’ī.", "en": "The car suddenly stopped.", "focus": "رک", "wrong": ["روک|rok", "روکی|rokī"] },
+        { "native": "ہم وقت پر پہنچ گئے۔", "roman": "ham vaqt par pahuṃch ga’e.", "en": "We got there on time.", "focus": "گئے", "wrong": ["دیے|diye", "لیے|liye"] },
+        { "native": "اے سی ذرا کم کر دیں، ٹھنڈ لگ رہی ہے۔", "roman": "e sī zarā kam kar deṃ, ṭhanḍ lag rahī hai.", "en": "Could you turn the AC down a bit? I'm cold." },
+        { "native": "بس یہیں، سائیڈ پر۔ شکریہ بھائی!", "roman": "bas yahīṃ, sā’iḍ par. shukriya bhā’ī!", "en": "Right here, at the side. Thanks, bhai!" }
+      ]
+    },
+    {
+      "title": "Directions from the back seat",
+      "tip": { "title": "Turn right at the lights: سگنل سے دائیں لے لیں", "body": "- 'Turn' is usually **لے لیں** 'take': اگلے سگنل **سے** دائیں لے لیں (lit. take right from the next signal).\n- **آگے سے** یو ٹرن 'a U-turn up ahead' · **سیدھے** چلیں 'go straight' · **پیچھے** مڑیں 'turn back'.\n- Give **landmarks**, not street names: مسجد کے پاس، اس سفید گھر کے سامنے.", "grammar": 0 },
+      "new": ["سگنل", "آگے", "موڑ", "یو ٹرن", "ایڈریس", "اگلے سگنل سے دائیں لے لیں۔", "آگے سے یو ٹرن لے لیں۔"],
+      "sentences": [
+        { "native": "دوسرے سگنل سے بائیں لے لیں۔", "roman": "dūsre signal se bā’eṃ le leṃ.", "en": "Turn left at the second set of lights.", "focus": "سے", "wrong": ["کو|ko", "کا|kā"] },
+        { "native": "تھوڑا آگے چلیں، مسجد کے پاس۔", "roman": "thoṛā āge chaleṃ, masjid ke pās.", "en": "Go a bit further, by the mosque.", "focus": "کے", "wrong": ["کی|kī", "کا|kā"] },
+        { "native": "اگلے موڑ سے دائیں مڑ جائیں۔", "roman": "agle moṛ se dā’eṃ muṛ jā’eṃ.", "en": "Turn right at the next turning.", "focus": "اگلے", "wrong": ["اگلا|aglā", "اگلی|aglī"] },
+        { "native": "یہاں سے یو ٹرن نہیں ملتا، آگے سے لیں۔", "roman": "yahāṃ se yū ṭarn nahīṃ miltā, āge se leṃ.", "en": "There's no U-turn here — take the next one.", "focus": "ملتا", "wrong": ["ملتی|miltī", "ملتے|milte"] },
+        { "native": "ایڈریس بھیجا ہے، دیکھ لیں۔", "roman": "aiḍres bhejā hai, dekh leṃ.", "en": "I've sent the address — have a look.", "focus": "لیں", "wrong": ["دیں|deṃ", "جائیں|jā’eṃ"] },
+        { "native": "آپ غلط طرف جا رہے ہیں، پیچھے مڑیں۔", "roman": "āp ġalat taraf jā rahe haiṃ, pīchhe muṛeṃ.", "en": "You're going the wrong way — turn back.", "focus": "رہے", "wrong": ["رہا|rahā", "رہی|rahī"] },
+        { "native": "سگنل لال ہے، رکیں!", "roman": "signal lāl hai, rukeṃ!", "en": "The light is red — stop!", "focus": "رکیں", "wrong": ["روکیں|rokeṃ", "رکا|rukā"] },
+        { "native": "بس، اس سفید گھر کے سامنے۔", "roman": "bas, is safed ghar ke sāmne.", "en": "Right here, in front of that white house." }
+      ]
+    },
+    {
+      "title": "Using a ride app",
+      "new": ["ایپ", "بک", "پک", "ڈراپ", "کیپٹن", "سواری", "کھڑا", "کیپٹن آ گیا ہے۔", "میں نے گاڑی بک کر لی ہے۔"],
+      "sentences": [
+        { "native": "میں ایپ سے گاڑی بک کرتا ہوں، سستی پڑے گی۔", "roman": "maiṃ aip se gāṛī buk kartā hūṃ, sastī paṛe gī.", "en": "I'll book a car on the app, it'll work out cheaper.", "focus": "سستی", "wrong": ["سستا|sastā", "سستے|saste"] },
+        { "native": "کیپٹن کہاں ہے؟ ایپ پر دو منٹ دکھا رہا ہے۔", "roman": "kaipṭan kahāṃ hai? aip par do minaṭ dikhā rahā hai.", "en": "Where's the driver? The app says two minutes." },
+        { "native": "مجھے مسجد کے سامنے سے پک کر لیں۔", "roman": "mujhe masjid ke sāmne se pik kar leṃ.", "en": "Pick me up in front of the mosque.", "focus": "لیں", "wrong": ["دیں|deṃ", "جائیں|jā’eṃ"] },
+        { "native": "مجھے اسٹیشن پر ڈراپ کر دیں۔", "roman": "mujhe isṭeshan par ḍrāp kar deṃ.", "en": "Drop me at the station, please.", "focus": "دیں", "wrong": ["لیں|leṃ", "جائیں|jā’eṃ"] },
+        { "native": "کیپٹن نے فون کیا، وہ باہر کھڑا ہے۔", "roman": "kaipṭan ne fon kiyā, vo bāhar khaṛā hai.", "en": "The driver rang — he's waiting outside.", "focus": "کھڑا", "wrong": ["کھڑی|khaṛī", "کھڑے|khaṛe"] },
+        { "native": "سواری مل گئی؟", "roman": "savārī mil ga’ī?", "en": "Did you get a ride?", "focus": "گئی", "wrong": ["گیا|gayā", "گئے|ga’e"] },
+        { "native": "اس ایپ پر کرایہ آپ بتاتے ہیں۔", "roman": "is aip par kirāya āp batāte haiṃ.", "en": "On this app you name the fare." },
+        { "native": "بائیک والی ایپ سب سے سستی ہے۔", "roman": "bā’ik vālī aip sab se sastī hai.", "en": "The bike app is the cheapest.", "focus": "سستی", "wrong": ["سستا|sastā", "سستے|saste"] },
+        { "native": "گاڑی گھر کے باہر کھڑی ہے۔", "roman": "gāṛī ghar ke bāhar khaṛī hai.", "en": "The car is waiting outside the house." }
+      ]
+    },
+    {
+      "title": "How long will it take?",
+      "tip": { "title": "It takes: لگے گا / لگتے ہیں", "body": "- Time or money + **لگنا**, agreeing with it: آدھا گھنٹا **لگے گا**, دس منٹ **لگیں گے**, کتنی دیر **لگے گی**؟\n- Took: **لگا / لگے**. Usually takes: **لگتا ہے / لگتے ہیں**.\n- Who: **مجھے** دو گھنٹے لگے. To do what: **-نے میں**: پہنچنے میں.", "pattern": "X + لگے گا / لگا / لگتا ہے", "grammar": 1 },
+      "new": ["فاصلہ", "پیدل", "رش", "جام", "تیز", "کتنا ٹائم لگے گا؟", "یہاں سے کتنا فاصلہ ہے؟"],
+      "sentences": [
+        { "native": "رکشے میں آدھا گھنٹا لگے گا۔", "roman": "rikshe meṃ ādhā ghanṭā lage gā.", "en": "It'll take half an hour by rickshaw.", "focus": "لگے", "wrong": ["لگیں|lageṃ", "لگی|lagī"] },
+        { "native": "پیدل پندرہ منٹ لگتے ہیں۔", "roman": "paidal pandrah minaṭ lagte haiṃ.", "en": "It's fifteen minutes on foot.", "focus": "لگتے", "wrong": ["لگتا|lagtā", "لگتی|lagtī"] },
+        { "native": "آج دفتر پہنچنے میں دو گھنٹے لگے، اتنا جام تھا!", "roman": "āj daftar pahuṃchne meṃ do ghanṭe lage, itnā jām thā!", "en": "It took two hours to get to work today — the jam was that bad!", "focus": "لگے", "wrong": ["لگا|lagā", "لگی|lagī"] },
+        { "native": "ٹیکسی میں کتنے پیسے لگیں گے؟", "roman": "ṭaiksī meṃ kitne paise lageṃ ge?", "en": "How much will it cost by taxi?", "focus": "لگیں", "wrong": ["لگا|lagā", "لگی|lagī"] },
+        { "native": "سگنل پر جام ہے، ابھی اور ٹائم لگے گا۔", "roman": "signal par jām hai, abhī aur ṭā’im lage gā.", "en": "There's a jam at the lights, it'll take a while longer.", "focus": "لگے", "wrong": ["لگیں|lageṃ", "لگی|lagī"] },
+        { "native": "تمہیں تیار ہونے میں کتنی دیر لگتی ہے؟", "roman": "tumheṃ tayyār hone meṃ kitnī der lagtī hai?", "en": "How long does it take you to get ready?", "focus": "لگتی", "wrong": ["لگتا|lagtā", "لگتے|lagte"] },
+        { "native": "شام کو بہت رش ہوتا ہے، جلدی نکلو۔", "roman": "shām ko bahut rash hotā hai, jaldī niklo.", "en": "The traffic is terrible in the evening — leave early.", "focus": "ہوتا", "wrong": ["ہوتی|hotī", "ہوتے|hote"] },
+        { "native": "فاصلہ زیادہ نہیں ہے، پیدل چلتے ہیں۔", "roman": "fāsila zyāda nahīṃ hai, paidal chalte haiṃ.", "en": "It's not far — let's walk." },
+        { "native": "بھائی، تھوڑا تیز چلائیں، دیر ہو رہی ہے۔", "roman": "bhā’ī, thoṛā tez chalā’eṃ, der ho rahī hai.", "en": "Could you drive a bit faster? I'm running late." }
+      ]
+    },
+    {
+      "title": "Metro and bus",
+      "new": ["میٹرو", "ٹوکن", "اسٹاپ", "کنڈکٹر", "ٹوکن کہاں سے ملے گا؟"],
+      "sentences": [
+        { "native": "ٹوکن اسٹیشن کے اندر ملتا ہے۔", "roman": "ṭokan isṭeshan ke andar miltā hai.", "en": "You get a token inside the station.", "focus": "ملتا", "wrong": ["ملتی|miltī", "ملتے|milte"] },
+        { "native": "یہ میٹرو کہاں تک جاتی ہے؟", "roman": "ye meṭro kahāṃ tak jātī hai?", "en": "How far does this metro go?", "focus": "جاتی", "wrong": ["جاتا|jātā", "جاتے|jāte"] },
+        { "native": "اگلا اسٹاپ کون سا ہے؟", "roman": "aglā isṭāp kaun sā hai?", "en": "What's the next stop?", "focus": "سا", "wrong": ["سی|sī", "سے|se"] },
+        { "native": "کنڈکٹر بھائی، صدر آئے تو بتا دینا۔", "roman": "kanḍakṭar bhā’ī, Sadr ā’e to batā denā.", "en": "Conductor, tell me when we get to Saddar.", "focus": "دینا", "wrong": ["دیا|diyā", "دیتا|detā"] },
+        { "native": "دو ٹوکن دے دیں۔", "roman": "do ṭokan de deṃ.", "en": "Two tokens, please." },
+        { "native": "تین اسٹاپ کے بعد اترنا ہے۔", "roman": "tīn isṭāp ke baʿd utarnā hai.", "en": "We get off after three stops.", "focus": "اترنا", "wrong": ["اتارنا|utārnā", "اترا|utrā"] },
+        { "native": "میٹرو سب سے سستی اور تیز ہے۔", "roman": "meṭro sab se sastī aur tez hai.", "en": "The metro is the cheapest and fastest." },
+        { "native": "بس میں بہت رش تھا، کھڑے ہو کر آیا۔", "roman": "bas meṃ bahut rash thā, khaṛe ho kar āyā.", "en": "The bus was packed — I had to stand the whole way." }
+      ]
+    }
+  ]
+}

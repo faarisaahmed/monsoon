@@ -1,0 +1,195 @@
+{
+  "id": 40,
+  "title": "Real conversations",
+  "goal": "Hold long, natural conversations: catch up with an old friend, get through a family dinner, argue about plans and settle them — joining your ideas into longer sentences and switching between تو, تم and آپ as you go.",
+  "intro": "This is where it all comes together. Real conversations don't come one sentence at a time: you catch up with a friend you haven't seen in years, his mother keeps refilling your plate, his sister disagrees with everything, and by dessert you've planned a trip to the mountains.\n\nTwo skills make that possible. First, **linking**: joining ideas with **نہ صرف … بلکہ**, **ایک تو … اوپر سے**, **اس سے پہلے کہ**, **چاہے** and the joints you already know. Second, **switching register** on the fly — آپ and تشریف رکھیں for the aunt, تم for the friend, maybe even تو for your oldest mate — without missing a beat.",
+  "vocab": [
+    { "native": "برسوں", "roman": "barsoṃ", "en": "for years, (in) ages", "pos": "adv", "note": "برسوں بعد after years; برسوں سے for years. From برس 'year'." },
+    { "native": "پہچاننا", "roman": "pahchānnā", "en": "to recognise", "pos": "verb", "note": "پہچانا نہیں؟ don't you recognise me? Noun: پہچان (f) recognition, identity." },
+    { "native": "شکوہ", "roman": "shikva", "en": "(friendly) complaint, grievance", "pos": "noun", "note": "m · Between friends and family: گلہ شکوہ 'complaints and grumbles'. For formal complaints use شکایت." },
+    { "native": "نہ صرف", "roman": "na sirf", "en": "not only", "pos": "conj", "note": "نہ صرف … بلکہ … بھی not only … but also" },
+    { "native": "ایک تو", "roman": "ek to", "en": "for one thing", "pos": "phrase", "note": "Starts a complaint that continues with اوپر سے 'and on top of that'." },
+    { "native": "اوپر سے", "roman": "ūpar se", "en": "on top of that, what's more", "pos": "adv", "note": "Also literally 'from above'." },
+    { "native": "چاہے", "roman": "chāhe", "en": "whether; even if; no matter", "pos": "conj", "note": "Followed by the subjunctive: چاہے کچھ بھی ہو whatever happens." },
+    { "native": "اس سے پہلے کہ", "roman": "is se pahle ki", "en": "before (+ clause)", "pos": "conj", "note": "Followed by the subjunctive: اس سے پہلے کہ وہ آئے before he comes. With a verb alone use -نے سے پہلے." },
+    { "native": "مختصر", "roman": "muxtasar", "en": "short, brief", "pos": "adj", "note": "مختصر یہ کہ… long story short…" },
+    { "native": "دسترخوان", "roman": "dastarxān", "en": "dining spread (the cloth or table the meal is laid on)", "pos": "noun", "note": "m · دسترخوان لگانا to lay out the meal; دسترخوان پر at the meal" },
+    { "native": "سالن", "roman": "sālan", "en": "curry, any dish with gravy", "pos": "noun", "note": "m · eaten with روٹی or چاول" },
+    { "native": "ڈالنا", "roman": "ḍālnā", "en": "to put in, pour; to serve (food onto a plate)", "pos": "verb", "note": "تھوڑا اور ڈالوں؟ shall I give you a bit more?" },
+    { "native": "بزرگ", "roman": "buzurg", "en": "elder, older person", "pos": "noun", "note": "m/f · Respectful; plural بزرگوں کے سامنے in front of the elders. As an adjective: elderly." },
+    { "native": "ضد", "roman": "zid", "en": "stubbornness, insistence", "pos": "noun", "note": "f · ضد کرنا to insist, be stubborn; ضدی stubborn (person)" },
+    { "native": "بہانہ", "roman": "bahāna", "en": "excuse", "pos": "noun", "note": "m · pl بہانے · بہانے بنانا to make excuses" },
+    { "native": "راضی", "roman": "rāzī", "en": "agreed, willing, OK with", "pos": "adj", "note": "راضی ہونا to agree; وہ راضی نہیں she isn't happy with it" },
+    { "native": "بیچ کا راستہ", "roman": "bīch kā rāsta", "en": "middle way, compromise", "pos": "noun", "note": "m · بیچ کا راستہ نکالنا to find a compromise" },
+    { "native": "لحاظ", "roman": "lihāz", "en": "respect, consideration (for others)", "pos": "noun", "note": "m · بڑوں کا لحاظ کرنا to show respect to elders" },
+    { "native": "بدتمیزی", "roman": "badtamīzī", "en": "rudeness, bad manners", "pos": "noun", "note": "f · بدتمیزی مت کرو don't be rude" },
+    { "native": "طے کرنا", "roman": "tai karnā", "en": "to decide, settle, agree on", "pos": "verb", "note": "طے ہو گیا it's settled" },
+    { "native": "بجٹ", "roman": "bajaṭ", "en": "budget", "pos": "noun", "note": "m" },
+    { "native": "روانہ ہونا", "roman": "ravāna honā", "en": "to set off, leave (on a journey)", "pos": "verb", "note": "Slightly formal; in chat people also say نکلنا." },
+    { "native": "تاکہ", "roman": "tāki", "en": "so that", "pos": "conj", "note": "Followed by the subjunctive: تاکہ ہم وقت پر پہنچیں so that we get there on time." },
+    { "native": "خاطر", "roman": "xātir", "en": "sake", "pos": "noun", "note": "f · تمہاری خاطر for your sake; … کی خاطر for the sake of. Also خاطر داری hospitality." },
+    { "native": "لہجہ", "roman": "lahja", "en": "tone (of voice); accent", "pos": "noun", "note": "m · oblique لہجے · اس لہجے میں in that tone" },
+    { "native": "بے تکلف", "roman": "be takalluf", "en": "informal, relaxed, at ease", "pos": "adj", "note": "From تکلف 'formality': بے تکلف دوست close friends with no formality." },
+    { "native": "موضوع", "roman": "mauzūʿ", "en": "topic, subject", "pos": "noun", "note": "m · موضوع بدلنا to change the subject (casually: بات بدلنا)" }
+  ],
+  "phrases": [
+    { "native": "ارے! پہچانا نہیں؟", "roman": "are! pahchānā nahīṃ?", "en": "Hey! Don't you recognise me?" },
+    { "native": "کتنے سال ہو گئے!", "roman": "kitne sāl ho ga’e!", "en": "It's been so many years!" },
+    { "native": "تم بالکل نہیں بدلے۔", "roman": "tum bilkul nahīṃ badle.", "en": "You haven't changed a bit. (to a man)", "note": "To a woman: تم بالکل نہیں بدلیں." },
+    { "native": "اور سناؤ، کیا چل رہا ہے؟", "roman": "aur sunā’o, kyā chal rahā hai?", "en": "So, tell me — what's going on with you? (familiar)", "note": "Polite: اور سنائیں." },
+    { "native": "رابطے میں رہنا۔", "roman": "rābite meṃ rahnā.", "en": "Keep in touch. (familiar)" },
+    { "native": "ایک تو دیر ہو گئی، اوپر سے بارش!", "roman": "ek to der ho ga’ī, ūpar se bārish!", "en": "We're late, and on top of that it's raining!" },
+    { "native": "مختصر یہ کہ…", "roman": "muxtasar ye ki…", "en": "Long story short…" },
+    { "native": "اور لیں نا، آپ نے تو کچھ کھایا ہی نہیں!", "roman": "aur leṃ nā, āp ne to kuchh khāyā hī nahīṃ!", "en": "Have some more — you've hardly eaten anything! (host to guest)", "note": "Every host says this, however much you've eaten." },
+    { "native": "بس، پیٹ بھر گیا، شکریہ۔", "roman": "bas, peṭ bhar gayā, shukriya.", "en": "That's it, I'm full, thanks.", "note": "Expect to say it two or three times." },
+    { "native": "چلو، بیچ کا راستہ نکالتے ہیں۔", "roman": "chalo, bīch kā rāsta nikālte haiṃ.", "en": "OK, let's find a middle way." },
+    { "native": "ٹھیک ہے، تمہاری خاطر۔", "roman": "ṭhīk hai, tumhārī xātir.", "en": "Fine — for your sake." },
+    { "native": "تو پھر طے ہو گیا؟", "roman": "to phir tai ho gayā?", "en": "So it's settled, then?" },
+    { "native": "بات بدلو مت!", "roman": "bāt badlo mat!", "en": "Don't change the subject! (familiar)" }
+  ],
+  "grammar": [
+    {
+      "title": "Linking long sentences",
+      "body": "Fluent speech strings ideas together instead of stopping after each one. You already know many of the joints; here they are together, with some new ones.\n\n**Sequence:**\n- **کر** 'having done': چائے پی **کر** 'after having tea'\n- **-نے کے بعد** 'after -ing': کھانا کھانے **کے بعد**; **-نے سے پہلے** 'before -ing': نکلنے **سے پہلے**\n- **اس سے پہلے کہ** + subjunctive, for a full clause: اس سے پہلے کہ بارش **شروع ہو** 'before it starts raining'. About the past, the -تا form: اس سے پہلے کہ میں کچھ **کہتا**، وہ چلا گیا 'before I could say anything, he'd gone'.\n- **جیسے ہی** 'as soon as', **جب … تو** 'when … then'\n\n**Adding:**\n- **نہ صرف … بلکہ … بھی** 'not only … but also'\n- **ایک تو … اوپر سے …** 'for one thing … and on top of that …' — the colloquial way to pile up complaints\n\n**Conceding:**\n- **چاہے** + subjunctive 'whether / even if / no matter': **چاہے** کچھ بھی **ہو** 'whatever happens'; چاہے بارش ہو یا نہ ہو 'rain or no rain'\n- **حالانکہ** 'although', **پھر بھی** 'even so'\n\n**Purpose and alternatives:** **تاکہ** + subjunctive 'so that', **ورنہ** 'otherwise', **یا … یا** 'either … or'.\n\n**Style tip:** spoken Urdu prefers chains of short clauses linked with **اور**, **پھر**, **تو** and **کر** over long nested sentences. A few joints used well sound more natural than many used stiffly.",
+      "examples": [
+        { "native": "نہ صرف کھانا مزیدار تھا بلکہ سستا بھی تھا۔", "roman": "na sirf khānā mazedār thā balki sastā bhī thā.", "en": "Not only was the food delicious, it was cheap too." },
+        { "native": "اس سے پہلے کہ بارش شروع ہو، گھر چلتے ہیں۔", "roman": "is se pahle ki bārish shurūʿ ho, ghar chalte haiṃ.", "en": "Let's head home before it starts raining." },
+        { "native": "کھانا کھانے کے بعد ہم چھت پر بیٹھ کر گپ شپ کرتے رہے۔", "roman": "khānā khāne ke baʿd ham chhat par baiṭh kar gap shap karte rahe.", "en": "After dinner we sat on the roof chatting for ages." },
+        { "native": "چاہے کچھ بھی ہو، میں تمہاری شادی پر ضرور آؤں گا۔", "roman": "chāhe kuchh bhī ho, maiṃ tumhārī shādī par zarūr ā’ūṃ gā.", "en": "Whatever happens, I'll definitely come to your wedding." },
+        { "native": "ایک تو وہ دیر سے آیا، اوپر سے بہانے بنا رہا تھا۔", "roman": "ek to vo der se āyā, ūpar se bahāne banā rahā thā.", "en": "First he turned up late, and on top of that he was making excuses." },
+        { "native": "جیسے ہی ہم پہنچے، بجلی چلی گئی۔", "roman": "jaise hī ham pahuṃche, bijlī chalī ga’ī.", "en": "The moment we arrived, the power went." }
+      ]
+    },
+    {
+      "title": "Switching register mid-conversation",
+      "body": "In one evening you might talk to your best friend, his grandmother, his little sister and the waiter — and Urdu makes you pick a level for each. Fluent speakers switch instantly, often in the same breath.\n\n**The levels:**\n- **تو** + bare stem (آ، بیٹھ، کھا لے) — very close friends of the same age (especially young men), small children. Rude to anyone else.\n- **تم** + **-و** (آؤ، بیٹھو) — friends, siblings, younger people. Older relatives use it to you.\n- **آپ** + **-یں** (آئیں، بیٹھیں) — elders, strangers, anyone you respect; also many colleagues and couples.\n- **آپ** + **-یے / -یے گا** and honorific verbs (**تشریف رکھیں**, **تشریف لائے**, **فرمایا**) — extra polite: guests, elders you want to honour, formal moments.\n\n**Talking *about* people** follows the same rule: respected people take plural verbs even when they're not in the room — ابو **آ گئے ہیں**، دادا ابو **سو رہے ہیں** — while a friend or child is singular: وہ **آ گیا** ہے.\n\n**Signals:** **جی** (جی امی، جی انکل) and **صاحب / جی** after a name raise the level; **یار**, **بھئی**, **اوئے** lower it.\n\n**How switching works:** you switch with the *person*, not mid-sentence to the same person: آنٹی، **آپ** تشریف **رکھیں** … اور **تم**، یار، کچن میں **آؤ**! Mixing levels for one person (آپ … آؤ) is heard in casual Punjabi-flavoured speech, but sounds careless.\n\n**When in doubt, go up a level.** Nobody minds آپ; everybody notices تو.",
+      "examples": [
+        { "native": "آنٹی، آپ تشریف رکھیں۔ اور تم، یار، کچن میں آؤ!", "roman": "ānṭī, āp tashrīf rakheṃ. aur tum, yār, kichan meṃ ā’o!", "en": "Auntie, please have a seat. And you, mate — kitchen!" },
+        { "native": "ابو آ گئے ہیں، کھانا لگا دو۔", "roman": "abbū ā ga’e haiṃ, khānā lagā do.", "en": "Dad's home — put the food out. (plural for Dad, تم to a sibling)" },
+        { "native": "بھائی صاحب، دو چائے دیجیے گا۔", "roman": "bhā’ī sāhab, do chā’e dījiye gā.", "en": "Two teas, please. (polite, to a waiter)" },
+        { "native": "اوئے، تو کہاں غائب تھا؟", "roman": "o’e, tū kahāṃ ġāyab thā?", "en": "Oi, where have you been hiding? (تو, very close friends only)" },
+        { "native": "انکل، آپ نے بالکل صحیح فرمایا۔", "roman": "ankal, āp ne bilkul sahī farmāyā.", "en": "Uncle, you're absolutely right. (very polite)" },
+        { "native": "امی، آپ آرام کریں، برتن ہم دھو لیں گے۔", "roman": "ammī, āp ārām kareṃ, bartan ham dho leṃ ge.", "en": "Mum, you rest — we'll do the dishes." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Dinner, and a trip to the north",
+    "setting": "Ahmed is back in Lahore after five years in Dubai and has come to dinner at his old friend Bilal's house. Bilal's mother keeps serving; his sister Hina has opinions.",
+    "lines": [
+      { "speaker": "Aunty", "native": "آؤ بیٹا، آؤ! کتنے سال بعد آئے ہو!", "roman": "ā’o beṭā, ā’o! kitne sāl baʿd ā’e ho!", "en": "Come in, dear, come in! It's been so many years!" },
+      { "speaker": "Ahmed", "native": "السلام علیکم آنٹی! جی، پانچ سال بعد دبئی سے آیا ہوں۔ آپ کیسی ہیں؟", "roman": "assalāmu ʿalaikum ānṭī! jī, pāṃch sāl baʿd Dubaī se āyā hūṃ. āp kaisī haiṃ?", "en": "Hello Auntie! Yes, I'm back from Dubai after five years. How are you?" },
+      { "speaker": "Aunty", "native": "الحمد للہ۔ بیٹھو، کھانا لگا ہوا ہے۔ اور لو نا، تم نے تو کچھ لیا ہی نہیں!", "roman": "alhamdulillāh. baiṭho, khānā lagā huā hai. aur lo nā, tum ne to kuchh liyā hī nahīṃ!", "en": "Very well, thank God. Sit, the food's out. Have some more — you've hardly taken anything!" },
+      { "speaker": "Ahmed", "native": "آنٹی، سچ میں، تیسری بار لیا ہے! آپ کے ہاتھ کا سالن… دبئی میں یہ کہاں!", "roman": "ānṭī, sach meṃ, tīsrī bār liyā hai! āp ke hāth kā sālan… Dubaī meṃ ye kahāṃ!", "en": "Auntie, honestly, this is my third helping! Your cooking… you don't get this in Dubai!" },
+      { "speaker": "Bilal", "native": "یار احمد، کھانا بعد میں۔ پہلے یہ بتاؤ، اگلے ہفتے کہاں چلیں؟ مری یا ہنزہ؟", "roman": "yār Ahmad, khānā baʿd meṃ. pahle ye batā’o, agle hafte kahāṃ chaleṃ? Marī yā Hunza?", "en": "Ahmed, mate, never mind the food. First tell me — where are we going next week? Murree or Hunza?" },
+      { "speaker": "Hina", "native": "ہنزہ، ظاہر ہے! مری میں ایک تو رش، اوپر سے ہر چیز مہنگی۔", "roman": "Hunza, zāhir hai! Marī meṃ ek to rash, ūpar se har chīz mahangī.", "en": "Hunza, obviously! Murree's packed for one thing, and on top of that everything's expensive." },
+      { "speaker": "Bilal", "native": "تم سے کس نے پوچھا؟ اور ہنزہ دو دن کا سفر ہے، بجٹ کا بھی سوچو۔", "roman": "tum se kis ne pūchhā? aur Hunza do din kā safar hai, bajaṭ kā bhī socho.", "en": "Who asked you? And Hunza's two days' drive — think about the budget too." },
+      { "speaker": "Aunty", "native": "بلال! بہن سے ایسے بات کرتے ہیں؟ تھوڑا لحاظ کرو۔", "roman": "Bilāl! bahan se aise bāt karte haiṃ? thoṛā lihāz karo.", "en": "Bilal! Is that any way to talk to your sister? Show a bit of respect." },
+      { "speaker": "Bilal", "native": "سوری امی… سوری ہنا۔", "roman": "sorī ammī… sorī Hinā.", "en": "Sorry, Mum… sorry, Hina." },
+      { "speaker": "Ahmed", "native": "اچھا سنو، بیچ کا راستہ نکالتے ہیں۔ ناران چلتے ہیں — نہ صرف قریب ہے بلکہ سستا بھی ہے۔", "roman": "achchhā suno, bīch kā rāsta nikālte haiṃ. Nārān chalte haiṃ — na sirf qarīb hai balki sastā bhī hai.", "en": "OK, listen, let's find a middle way. Let's go to Naran — not only is it closer, it's cheaper too." },
+      { "speaker": "Hina", "native": "ٹھیک ہے… آپ کی خاطر، احمد بھائی۔ لیکن جھیل سیف الملوک ضرور جائیں گے!", "roman": "ṭhīk hai… āp kī xātir, Ahmad bhā’ī. lekin jhīl Saif-ul-Mulūk zarūr jā’eṃ ge!", "en": "Fine… for your sake, Ahmed bhai. But we're definitely going to Lake Saiful Muluk!" },
+      { "speaker": "Bilal", "native": "تو پھر طے ہو گیا؟ جمعرات کو صبح سویرے روانہ ہوں گے۔", "roman": "to phir tai ho gayā? jumeʿrāt ko subah savere ravāna hoṃ ge.", "en": "So it's settled? We'll set off first thing Thursday morning." },
+      { "speaker": "Aunty", "native": "اور اس سے پہلے کہ تم لوگ پہاڑوں پر جاؤ، یہ کھیر ختم کرو!", "roman": "aur is se pahle ki tum log pahāṛoṃ par jā’o, ye khīr xatm karo!", "en": "And before you lot head off to the mountains, finish this kheer!" },
+      { "speaker": "Ahmed", "native": "جی آنٹی، یہ کام تو میں ابھی کر دیتا ہوں!", "roman": "jī ānṭī, ye kām to maiṃ abhī kar detā hūṃ!", "en": "Yes, Auntie — that job I can do right now!" }
+    ]
+  },
+  "culture": "**Long conversations** in Pakistani homes follow a rhythm. A guest is welcomed loudly, fed relentlessly (**اور لیں نا!**) and must refuse at least once before accepting more — and saying you're full (**بس، پیٹ بھر گیا**) is a negotiation, not a statement. Elders are greeted first, served first and never contradicted rudely; younger people lower their voices and drop slang around them (**لحاظ**). Siblings bicker freely, and parents step in exactly as Bilal's mother does.\n\n**Register shifts** are constant: young men call each other **تو** and **اوئے**, switch to **آپ** and **جی** the moment an uncle walks in, and to **بھائی صاحب** for the waiter. Girls often call their brothers' friends **بھائی**. In the diaspora, children commonly speak English to each other and Urdu to grandparents — and switch mid-sentence.\n\n**Trips to the north** — Murree, Naran, Swat, Hunza, Skardu — are the classic friends' and family holiday, especially in summer and Eid breaks. And goodbyes take as long as the visit: the 'Pakistani goodbye' starts in the sitting room and finishes, twenty minutes later, at the car door with **رابطے میں رہنا!** and **اللہ حافظ**.",
+  "lessons": [
+    {
+      "title": "Bumping into an old friend",
+      "tip": { "title": "Catching up", "body": "- **ارے! پہچانا نہیں؟** · **کتنے سال ہو گئے!** · **برسوں بعد** 'after ages'.\n- Get them talking: **اور سناؤ** (friend) / **اور سنائیں** (polite).\n- Teasing complaint: **مجھے تم سے ایک شکوہ ہے…**\n- Leaving: **رابطے میں رہنا!**" },
+      "new": ["برسوں", "پہچاننا", "شکوہ", "ارے! پہچانا نہیں؟", "کتنے سال ہو گئے!", "تم بالکل نہیں بدلے۔", "اور سناؤ، کیا چل رہا ہے؟", "رابطے میں رہنا۔"],
+      "sentences": [
+        { "native": "ارے احمد! برسوں بعد دیکھا تمہیں!", "roman": "are Ahmad! barsoṃ baʿd dekhā tumheṃ!", "en": "Ahmed! I haven't seen you in ages!" },
+        { "native": "میں نے تمہیں پہلے پہچانا ہی نہیں۔", "roman": "maiṃ ne tumheṃ pahle pahchānā hī nahīṃ.", "en": "I didn't even recognise you at first.", "focus": "ہی", "wrong": ["بھی|bhī", "تو|to"] },
+        { "native": "تم نے داڑھی رکھ لی؟ پہچان ہی نہیں سکا!", "roman": "tum ne dāṛhī rakh lī? pahchān hī nahīṃ sakā!", "en": "You've grown a beard? I couldn't recognise you! (man)", "focus": "لی", "wrong": ["لیا|liyā", "لیے|liye"] },
+        { "native": "مجھے تم سے ایک شکوہ ہے، تم نے کبھی فون نہیں کیا!", "roman": "mujhe tum se ek shikva hai, tum ne kabhī fon nahīṃ kiyā!", "en": "I've got a bone to pick with you — you never called!" },
+        { "native": "شکوہ بعد میں، پہلے چائے پیتے ہیں۔", "roman": "shikva baʿd meṃ, pahle chā’e pīte haiṃ.", "en": "Complaints later — let's have tea first." },
+        { "native": "اور سناؤ، گھر والے کیسے ہیں؟", "roman": "aur sunā’o, ghar vāle kaise haiṃ?", "en": "So tell me, how's the family?", "focus": "سناؤ", "wrong": ["سنا|sunā", "سنو|suno"] },
+        { "native": "برسوں سے یہاں نہیں آیا، سب بدل گیا ہے۔", "roman": "barsoṃ se yahāṃ nahīṃ āyā, sab badal gayā hai.", "en": "I haven't been here for years — everything's changed." },
+        { "native": "تم بھی بالکل نہیں بدلیں!", "roman": "tum bhī bilkul nahīṃ badlīṃ!", "en": "You haven't changed a bit either! (to a woman)", "focus": "بدلیں", "wrong": ["بدلے|badle", "بدلا|badlā"] },
+        { "native": "اب رابطے میں رہنا، غائب مت ہونا!", "roman": "ab rābite meṃ rahnā, ġāyab mat honā!", "en": "Now keep in touch — don't disappear!" }
+      ]
+    },
+    {
+      "title": "Joining it all up",
+      "tip": { "title": "Not only…, on top of that…, before…, whatever…", "body": "- **نہ صرف** … **بلکہ** … بھی = not only … but also.\n- **ایک تو** … **اوپر سے** … = for one thing … and on top of that.\n- **اس سے پہلے کہ** + subjunctive = before: … کہ امی ناراض **ہوں**.\n- **چاہے** + subjunctive = whatever / even if: چاہے کچھ بھی **ہو**.", "grammar": 0 },
+      "new": ["نہ صرف", "ایک تو", "اوپر سے", "چاہے", "اس سے پہلے کہ", "مختصر", "ایک تو دیر ہو گئی، اوپر سے بارش!", "مختصر یہ کہ…"],
+      "sentences": [
+        { "native": "نہ صرف وہ لیٹ آیا بلکہ کھانا بھی بھول گیا۔", "roman": "na sirf vo leṭ āyā balki khānā bhī bhūl gayā.", "en": "Not only was he late, he forgot the food too.", "focus": "بلکہ", "wrong": ["لیکن|lekin", "اور|aur"] },
+        { "native": "ایک تو ٹریفک، اوپر سے گاڑی کا اے سی خراب!", "roman": "ek to ṭraifik, ūpar se gāṛī kā e sī xarāb!", "en": "The traffic, for one thing — and on top of that the car's AC is broken!", "focus": "اوپر", "wrong": ["نیچے|nīche", "پیچھے|pīchhe"] },
+        { "native": "اس سے پہلے کہ امی ناراض ہوں، گھر چلتے ہیں۔", "roman": "is se pahle ki ammī nārāz hoṃ, ghar chalte haiṃ.", "en": "Let's go home before Mum gets annoyed.", "focus": "ہوں", "wrong": ["ہیں|haiṃ", "تھیں|thīṃ"] },
+        { "native": "چاہے کچھ بھی ہو، ہم کل نکلیں گے۔", "roman": "chāhe kuchh bhī ho, ham kal nikleṃ ge.", "en": "Whatever happens, we're leaving tomorrow.", "focus": "ہو", "wrong": ["ہے|hai", "ہوا|huā"] },
+        { "native": "چاہے بارش ہو یا نہ ہو، میچ ہو گا۔", "roman": "chāhe bārish ho yā na ho, maich ho gā.", "en": "Rain or no rain, the match is on.", "focus": "چاہے", "wrong": ["جیسے|jaise", "جب|jab"] },
+        { "native": "کھانے کے بعد چائے پی کر ہم پارک چلے گئے۔", "roman": "khāne ke baʿd chā’e pī kar ham pārk chale ga’e.", "en": "After dinner we had tea and then went to the park.", "focus": "کر", "wrong": ["کا|kā", "کو|ko"] },
+        { "native": "اس سے پہلے کہ میں کچھ کہتا، وہ چلا گیا۔", "roman": "is se pahle ki maiṃ kuchh kahtā, vo chalā gayā.", "en": "Before I could say anything, he'd gone." },
+        { "native": "ایک تو تم دیر سے آئے، اوپر سے غصہ بھی کر رہے ہو؟", "roman": "ek to tum der se ā’e, ūpar se ġussa bhī kar rahe ho?", "en": "You turn up late, and on top of that you're the one who's angry?", "focus": "تو", "wrong": ["ہی|hī", "بھی|bhī"] },
+        { "native": "مختصر یہ کہ ہمیں دیر ہو گئی اور ٹرین چلی گئی۔", "roman": "muxtasar ye ki hameṃ der ho ga’ī aur ṭren chalī ga’ī.", "en": "Long story short, we were late and the train left without us." }
+      ]
+    },
+    {
+      "title": "At the dinner table",
+      "tip": { "title": "One table, three levels", "body": "- Elders: **آپ** + **-یں / -یے**: نانی، آپ شروع **کریں**; انکل، اور **لیجیے** نا.\n- Friends, siblings: **تم** + **-و**: دسترخوان لگا **دو**. Very close friends: **تو** + stem: کھا **لے**.\n- Talking *about* elders: plural — ابو **آ گئے ہیں**.", "grammar": 1 },
+      "new": ["دسترخوان", "سالن", "ڈالنا", "بزرگ", "اور لیں نا، آپ نے تو کچھ کھایا ہی نہیں!", "بس، پیٹ بھر گیا، شکریہ۔"],
+      "sentences": [
+        { "native": "نانی، آپ پہلے شروع کریں۔", "roman": "nānī, āp pahle shurūʿ kareṃ.", "en": "Nani, you start first.", "focus": "کریں", "wrong": ["کرو|karo", "کر|kar"] },
+        { "native": "بیٹا، تھوڑا اور سالن ڈالوں؟", "roman": "beṭā, thoṛā aur sālan ḍālūṃ?", "en": "Shall I give you a bit more curry, dear?", "focus": "ڈالوں", "wrong": ["ڈالو|ḍālo", "ڈالا|ḍālā"] },
+        { "native": "ابو آ گئے ہیں، دسترخوان لگا دو۔", "roman": "abbū ā ga’e haiṃ, dastarxān lagā do.", "en": "Dad's home — lay out the food.", "focus": "گئے", "wrong": ["گیا|gayā", "گئی|ga’ī"] },
+        { "native": "انکل، آپ اور لیجیے نا۔", "roman": "ankal, āp aur lījiye nā.", "en": "Uncle, please have some more.", "focus": "لیجیے", "wrong": ["لو|lo", "لے|le"] },
+        { "native": "تو بھی کھا لے یار، بعد میں بھوک لگے گی۔", "roman": "tū bhī khā le yār, baʿd meṃ bhūk lage gī.", "en": "You eat too, mate — you'll get hungry later. (very close friend)", "focus": "لے", "wrong": ["لو|lo", "لیں|leṃ"] },
+        { "native": "دادا ابو سو رہے ہیں، شور مت کرو۔", "roman": "dādā abbū so rahe haiṃ, shor mat karo.", "en": "Grandpa's asleep — keep the noise down.", "focus": "رہے", "wrong": ["رہا|rahā", "رہی|rahī"] },
+        { "native": "بزرگوں کے سامنے آہستہ بولو۔", "roman": "buzurgoṃ ke sāmne āhista bolo.", "en": "Speak quietly in front of the elders.", "focus": "بزرگوں", "wrong": ["بزرگ|buzurg", "بزرگی|buzurgī"] },
+        { "native": "بھائی صاحب، بل لے آئیے گا۔", "roman": "bhā’ī sāhab, bil le ā’iye gā.", "en": "Could you bring the bill, please? (to a waiter)", "focus": "آئیے", "wrong": ["آؤ|ā’o", "آ|ā"] },
+        { "native": "آنٹی، بہت مزیدار تھا، لیکن اب بالکل جگہ نہیں!", "roman": "ānṭī, bahut mazedār thā, lekin ab bilkul jagah nahīṃ!", "en": "Auntie, it was delicious, but I've got no room left at all!" }
+      ]
+    },
+    {
+      "title": "Where shall we go?",
+      "tip": { "title": "Arguing without a fight", "body": "- Push back: **ضد مت کرو** don't be stubborn · **بہانے مت بناؤ** no excuses.\n- Settle it: **چلو، بیچ کا راستہ نکالتے ہیں** · **کیا سب راضی ہیں؟**\n- With elders around, keep your **لحاظ** — no **بدتمیزی**." },
+      "new": ["ضد", "بہانہ", "راضی", "بیچ کا راستہ", "لحاظ", "بدتمیزی", "چلو، بیچ کا راستہ نکالتے ہیں۔"],
+      "sentences": [
+        { "native": "ضد مت کرو، سب مری نہیں جانا چاہتے۔", "roman": "zid mat karo, sab Marī nahīṃ jānā chāhte.", "en": "Don't be stubborn — not everyone wants to go to Murree." },
+        { "native": "بہانے مت بناؤ، سیدھا بتاؤ کہ نہیں آنا۔", "roman": "bahāne mat banā’o, sīdhā batā’o ki nahīṃ ānā.", "en": "No excuses — just say you don't want to come.", "focus": "بہانے", "wrong": ["بہانہ|bahāna", "بہانوں|bahānoṃ"] },
+        { "native": "وہ آخرکار راضی ہو گئی۔", "roman": "vo āxirkār rāzī ho ga’ī.", "en": "She finally agreed.", "focus": "گئی", "wrong": ["گیا|gayā", "گئے|ga’e"] },
+        { "native": "کیا سب ہنزہ کے لیے راضی ہیں؟", "roman": "kyā sab Hunza ke liye rāzī haiṃ?", "en": "Is everyone OK with Hunza?" },
+        { "native": "بیچ کا راستہ یہ ہے کہ ایک دن مری اور دو دن ناران۔", "roman": "bīch kā rāsta ye hai ki ek din Marī aur do din Nārān.", "en": "The compromise is: one day in Murree and two in Naran." },
+        { "native": "بھائی سے ایسے بات نہیں کرتے، یہ بدتمیزی ہے۔", "roman": "bhā’ī se aise bāt nahīṃ karte, ye badtamīzī hai.", "en": "You don't talk to your brother like that — it's rude." },
+        { "native": "بڑوں کا لحاظ کرو، یار!", "roman": "baṛoṃ kā lihāz karo, yār!", "en": "Show some respect for the grown-ups, man!", "focus": "کا", "wrong": ["کی|kī", "کو|ko"] },
+        { "native": "ہر بار تمہاری ضد چلتی ہے!", "roman": "har bār tumhārī zid chaltī hai!", "en": "You always get your way!", "focus": "چلتی", "wrong": ["چلتا|chaltā", "چلتے|chalte"] },
+        { "native": "بات یہ ہے کہ بجٹ کم ہے، اس لیے مری بہتر ہے۔", "roman": "bāt ye hai ki bajaṭ kam hai, is liye Marī behtar hai.", "en": "The thing is, the budget's tight, so Murree is better." }
+      ]
+    },
+    {
+      "title": "Planning the trip",
+      "tip": { "title": "Before, after, so that", "body": "- **-نے سے پہلے** before -ing: روانہ **ہونے سے پہلے**.\n- **-نے کے بعد** after -ing: ہوٹل **پہنچنے کے بعد**.\n- **تاکہ** + subjunctive = so that: … **تاکہ** رش سے بچ **سکیں**.\n- **چاہے** + subjunctive = even if.", "grammar": 0 },
+      "new": ["طے کرنا", "بجٹ", "روانہ ہونا", "تاکہ", "خاطر", "ٹھیک ہے، تمہاری خاطر۔", "تو پھر طے ہو گیا؟"],
+      "sentences": [
+        { "native": "روانہ ہونے سے پہلے گاڑی چیک کروا لو۔", "roman": "ravāna hone se pahle gāṛī chek karvā lo.", "en": "Get the car checked before we set off.", "focus": "سے", "wrong": ["کے|ke", "میں|meṃ"] },
+        { "native": "ہم صبح چھ بجے روانہ ہوں گے تاکہ شام تک پہنچ سکیں۔", "roman": "ham subah chhe baje ravāna hoṃ ge tāki shām tak pahuṃch sakeṃ.", "en": "We'll set off at six so we can get there by evening.", "focus": "سکیں", "wrong": ["سکتے|sakte", "سکے|sake"] },
+        { "native": "ہوٹل پہنچنے کے بعد سب آرام کریں گے۔", "roman": "hoṭal pahuṃchne ke baʿd sab ārām kareṃ ge.", "en": "Once we reach the hotel, everyone will rest.", "focus": "کے", "wrong": ["کی|kī", "کا|kā"] },
+        { "native": "چاہے موسم خراب ہو، ہم جائیں گے۔", "roman": "chāhe mausam xarāb ho, ham jā’eṃ ge.", "en": "Even if the weather's bad, we're going.", "focus": "ہو", "wrong": ["ہے|hai", "تھا|thā"] },
+        { "native": "نکلنے سے پہلے سب کو لوکیشن بھیج دینا۔", "roman": "nikalne se pahle sab ko lokeshan bhej denā.", "en": "Send everyone the location before you leave.", "focus": "سے", "wrong": ["کے|ke", "کو|ko"] },
+        { "native": "پہلے بجٹ طے کرو، پھر ہوٹل دیکھتے ہیں۔", "roman": "pahle bajaṭ tai karo, phir hoṭal dekhte haiṃ.", "en": "Decide the budget first, then we'll look at hotels." },
+        { "native": "ہر بندے کا بجٹ کتنا ہے؟", "roman": "har bande kā bajaṭ kitnā hai?", "en": "What's the budget per person?" },
+        { "native": "تمہاری خاطر میں صبح جلدی اٹھ جاؤں گا۔", "roman": "tumhārī xātir maiṃ subah jaldī uṭh jā’ūṃ gā.", "en": "For your sake I'll get up early. (man)" },
+        { "native": "تو طے یہ ہوا کہ جمعرات کو نکلیں گے۔", "roman": "to tai ye huā ki jumeʿrāt ko nikleṃ ge.", "en": "So it's agreed we leave on Thursday." }
+      ]
+    },
+    {
+      "title": "Changing gears",
+      "tip": { "title": "Switch with the person", "body": "- Pick the level for each person and keep it: آنٹی، آپ تشریف **رکھیں** … اور تم، یار، مدد **کرو**!\n- **تو** only with your closest friends: تو کب **آیا**؟\n- Extra polite: **تشریف لائے**, **فرمایا**.\n- Unsure? Go up a level — **آپ** never offends.", "grammar": 1 },
+      "new": ["لہجہ", "بے تکلف", "موضوع", "بات بدلو مت!"],
+      "sentences": [
+        { "native": "آنٹی، آپ تشریف رکھیں، میں چائے لاتی ہوں۔", "roman": "ānṭī, āp tashrīf rakheṃ, maiṃ chā’e lātī hūṃ.", "en": "Auntie, please sit down — I'll bring the tea. (woman)", "focus": "رکھیں", "wrong": ["رکھو|rakho", "رکھ|rakh"] },
+        { "native": "اور تم، یار، کچن میں آ کر میری مدد کرو!", "roman": "aur tum, yār, kichan meṃ ā kar merī madad karo!", "en": "And you, mate — come and help me in the kitchen!", "focus": "کرو", "wrong": ["کرے|kare", "کیا|kiyā"] },
+        { "native": "اوئے، تو کب آیا؟", "roman": "o’e, tū kab āyā?", "en": "Oi, when did you get here? (very close friend)", "focus": "آیا", "wrong": ["آئے|ā’e", "آئیں|ā’eṃ"] },
+        { "native": "انکل، آپ کب تشریف لائے؟", "roman": "ankal, āp kab tashrīf lā’e?", "en": "Uncle, when did you arrive? (very polite)", "focus": "لائے", "wrong": ["لایا|lāyā", "آیا|āyā"] },
+        { "native": "ابو سے اس لہجے میں بات مت کرو۔", "roman": "abbū se is lahje meṃ bāt mat karo.", "en": "Don't talk to Dad in that tone.", "focus": "لہجے", "wrong": ["لہجہ|lahja", "لہجوں|lahjoṃ"] },
+        { "native": "نانی جی، آپ کو کچھ چاہیے؟", "roman": "nānī jī, āp ko kuchh chāhiye?", "en": "Nani, do you need anything?", "focus": "آپ", "wrong": ["تم|tum", "تو|tū"] },
+        { "native": "دوستوں کے ساتھ وہ بالکل بے تکلف ہے، لیکن بزرگوں کے سامنے بہت آہستہ بولتا ہے۔", "roman": "dostoṃ ke sāth vo bilkul be takalluf hai, lekin buzurgoṃ ke sāmne bahut āhista boltā hai.", "en": "With friends he's totally relaxed, but in front of elders he speaks very softly." },
+        { "native": "اس کا لہجہ بالکل کراچی والا ہے۔", "roman": "us kā lahja bilkul Karāchī vālā hai.", "en": "He's got a proper Karachi accent." },
+        { "native": "چلو، موضوع بدلتے ہیں، کرکٹ کی بات کرو۔", "roman": "chalo, mauzūʿ badalte haiṃ, krikeṭ kī bāt karo.", "en": "OK, let's change the subject — talk about cricket." }
+      ]
+    }
+  ]
+}

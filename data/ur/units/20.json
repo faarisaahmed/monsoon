@@ -1,95 +1,220 @@
 {
   "id": 20,
-  "title": "Telling stories & real conversation",
-  "goal": "Tell a story, report what people said, link sentences with relative clauses, and sound natural with fillers and idioms.",
-  "intro": "You now have the core grammar of Urdu. This final unit is about sounding natural: the **relative clauses** with **جو … وہ** ('the one who… he'), **reported speech**, the connectors that hold a story together (**پھر، اس کے بعد، آخرکار**), conversational fillers (**یعنی، ویسے، اصل میں، مطلب**) and a handful of everyday idioms and proverbs.\n\nUrdu loves a good story — from the old داستان tradition to a friend's latest drama — so let's tell one.",
+  "title": "Real conversation",
+  "goal": "Tell a friend what happened, pass on what people said, react like a local and keep a chat going.",
+  "intro": "Most of what you say to friends is stories: what happened at work, who said what, the auto driver who got lost. This unit gives you the tools: **relative clauses** with **جو … وہ** ('the one who…'), **reported speech** with **کہ** ('he said that…'), the words that move a story along (**پھر، اتنے میں، آخرکار**), and the reactions and fillers that keep a chat alive (**اچھا، پھر؟ — سچ میں؟ — قسم سے! — خیر**).\n\nThis is the end of Part 1. From here on the course is about real life: making plans, calls and texts, getting around town, eating out and much more.",
   "vocab": [
-    { "native": "کہانی", "roman": "kahānī", "en": "story", "pos": "noun", "note": "f. کہانی سنانا = to tell a story" },
-    { "native": "سنانا", "roman": "sunānā", "en": "to tell (a story), recite; to make hear", "pos": "verb" },
-    { "native": "ایک دفعہ", "roman": "ek dafʿa", "en": "once; one time", "pos": "phrase", "note": "ایک دفعہ کا ذکر ہے = once upon a time" },
-    { "native": "بادشاہ", "roman": "bādshāh", "en": "king", "pos": "noun", "note": "m. Queen: ملکہ malika." },
-    { "native": "جب", "roman": "jab", "en": "when (relative)", "pos": "conj", "note": "جب … تب / تو = when … then" },
-    { "native": "جو", "roman": "jo", "en": "who, which, that (relative)", "pos": "pron", "note": "Oblique: جس jis (sg), جن jin (pl)." },
-    { "native": "جہاں", "roman": "jahāṃ", "en": "where (relative)", "pos": "adv" },
-    { "native": "جیسے", "roman": "jaise", "en": "as, like; as if", "pos": "conj" },
-    { "native": "یعنی", "roman": "yaʿnī", "en": "that is, I mean", "pos": "conj", "note": "Sounds 'yānī'." },
-    { "native": "خیر", "roman": "xair", "en": "anyway; well-being", "pos": "interj", "note": "خیر، چھوڑو = anyway, forget it" },
-    { "native": "ویسے", "roman": "vaise", "en": "by the way; actually; otherwise", "pos": "adv" },
-    { "native": "اصل میں", "roman": "asl meṃ", "en": "actually, in fact", "pos": "phrase" },
-    { "native": "مطلب", "roman": "matlab", "en": "meaning; I mean", "pos": "noun", "note": "m. مطلب؟ = meaning what?" },
-    { "native": "یار", "roman": "yār", "en": "mate, buddy; man! (informal)", "pos": "noun", "note": "m. Very common filler among friends." },
+    { "native": "بات", "roman": "bāt", "en": "thing (that happened), matter; talk", "pos": "noun", "note": "f. بات یہ ہے کہ… = the thing is…; بات کرنا = to talk; کیا بات ہے! = wow!" },
+    { "native": "قصہ", "roman": "qissa", "en": "story; the whole business (what happened)", "pos": "noun", "note": "m. The everyday word for an incident: پورا قصہ سناؤ = tell me the whole thing. کہانی is a story in a book or film." },
+    { "native": "سنانا", "roman": "sunānā", "en": "to tell (news, a story); to play (a song) for someone", "pos": "verb", "note": "Literally \"make hear\". تم سناؤ! = your turn — what's new with you?" },
+    { "native": "اتنے میں", "roman": "itne meṃ", "en": "just then, meanwhile", "pos": "adv" },
+    { "native": "ہنسنا", "roman": "hansnā", "en": "to laugh", "pos": "verb", "note": "ہنسنے لگا = (he) started laughing" },
+    { "native": "رونا", "roman": "ronā", "en": "to cry", "pos": "verb", "note": "رونے لگی = (she) burst into tears" },
+    { "native": "سچ", "roman": "sach", "en": "truth; true", "pos": "noun", "note": "m. سچ میں؟ / سچی؟ = really? (informal); سچ بولنا = to tell the truth" },
+    { "native": "جھوٹ", "roman": "jhūṭ", "en": "lie", "pos": "noun", "note": "m. جھوٹ بولنا = to tell a lie; جھوٹ! = no way, you're lying! (teasing)" },
+    { "native": "واقعی", "roman": "vāqaʿī", "en": "really, truly", "pos": "adv", "note": "Sounds \"vāqaī\". On its own, واقعی؟ = really?" },
+    { "native": "مذاق", "roman": "mazāq", "en": "joke, kidding", "pos": "noun", "note": "m. مذاق کرنا = to joke; مذاق اڑانا = to make fun of" },
+    { "native": "قسم", "roman": "qasam", "en": "oath, swear", "pos": "noun", "note": "f. قسم سے! = I swear! (casual); اللہ کی قسم is much stronger and more serious." },
+    { "native": "ارے", "roman": "are", "en": "oh!, hey! (surprise)", "pos": "interj", "note": "ارے واہ! = oh wow!; ارے یار! = oh man!" },
+    { "native": "جو", "roman": "jo", "en": "who, which, that (relative)", "pos": "pron", "note": "Oblique: جس jis (sg), جن jin (pl). جو بھی = whatever, whoever." },
+    { "native": "جہاں", "roman": "jahāṃ", "en": "where (relative)", "pos": "adv", "note": "Pairs with وہاں: جہاں … وہاں" },
+    { "native": "جب", "roman": "jab", "en": "when (relative, not a question)", "pos": "conj", "note": "جب … تو / تب = when … then. The question \"when?\" is کب." },
+    { "native": "جیسے", "roman": "jaise", "en": "as, like; as if", "pos": "conj", "note": "جیسے کچھ ہوا ہی نہیں = as if nothing had happened" },
+    { "native": "بیچارہ", "roman": "bechāra", "en": "poor (thing), unlucky", "pos": "adj", "note": "f بیچاری bechārī, pl/oblique بیچارے bechāre. بیچارہ! = poor guy!" },
+    { "native": "یعنی", "roman": "yaʿnī", "en": "that is, so you mean", "pos": "conj", "note": "Sounds \"yānī\". یعنی؟ = meaning?" },
+    { "native": "مطلب", "roman": "matlab", "en": "meaning; I mean", "pos": "noun", "note": "m. مطلب؟ = meaning what?; میرا مطلب ہے = I mean" },
+    { "native": "ویسے", "roman": "vaise", "en": "by the way; actually", "pos": "adv", "note": "Starts a new topic: ویسے، … = by the way, …" },
+    { "native": "اصل میں", "roman": "asl meṃ", "en": "actually, in fact", "pos": "phrase", "note": "Corrects a wrong idea: اصل میں وہ بیمار نہیں تھا = actually he wasn't ill." },
+    { "native": "خیر", "roman": "xair", "en": "anyway; well", "pos": "interj", "note": "Closes a topic: خیر، چھوڑو = anyway, forget it. Also \"well-being\": خیریت." },
+    { "native": "یار", "roman": "yār", "en": "mate, man (informal)", "pos": "noun", "note": "m. Used by everyone with friends, male or female; never with elders or strangers." },
+    { "native": "گپ شپ", "roman": "gap shap", "en": "chat, chit-chat", "pos": "noun", "note": "f. گپ شپ کرنا / لگانا = to have a chat, hang out talking" },
     { "native": "آخرکار", "roman": "āxirkār", "en": "finally, in the end", "pos": "adv" },
-    { "native": "آخر", "roman": "āxir", "en": "end; after all", "pos": "noun", "note": "m. آخر میں = at the end; آخر کیوں؟ = but why?" },
-    { "native": "واقعی", "roman": "vāqaʿī", "en": "really, truly", "pos": "adv", "note": "Sounds 'vāqaī'." },
-    { "native": "حالانکہ", "roman": "hālāṃki", "en": "although", "pos": "conj" },
-    { "native": "تاکہ", "roman": "tāki", "en": "so that", "pos": "conj", "note": "Followed by the subjunctive." },
-    { "native": "اسی لیے", "roman": "isī liye", "en": "that's why", "pos": "conj" },
-    { "native": "سچ", "roman": "sach", "en": "truth; true", "pos": "noun", "note": "m. سچ میں؟ = really?" },
-    { "native": "جھوٹ", "roman": "jhūṭ", "en": "lie", "pos": "noun", "note": "m. جھوٹ بولنا = to tell a lie" },
-    { "native": "محاورہ", "roman": "muhāvara", "en": "idiom", "pos": "noun", "note": "m" },
-    { "native": "کہاوت", "roman": "kahāvat", "en": "proverb, saying", "pos": "noun", "note": "f" },
-    { "native": "عقل", "roman": "ʿaql", "en": "intelligence, sense", "pos": "noun", "note": "f. عقل مند = wise" },
-    { "native": "دنیا", "roman": "dunyā", "en": "world", "pos": "noun", "note": "f" },
-    { "native": "زمانہ", "roman": "zamāna", "en": "times, era, age", "pos": "noun", "note": "m. پرانے زمانے میں = in olden times" },
-    { "native": "ہنسنا", "roman": "hansnā", "en": "to laugh", "pos": "verb" },
-    { "native": "رونا", "roman": "ronā", "en": "to cry", "pos": "verb" },
-    { "native": "اچانک سے", "roman": "achānak se", "en": "all of a sudden (colloquial)", "pos": "adv" }
+    { "native": "اسی لیے", "roman": "isī liye", "en": "that's why, so", "pos": "conj", "note": "Stronger than اس لیے: \"that's exactly why\"." },
+    { "native": "حالانکہ", "roman": "hālāṃki", "en": "although, even though", "pos": "conj", "note": "Often answered by پھر بھی \"still\": حالانکہ … پھر بھی …" },
+    { "native": "کمال", "roman": "kamāl", "en": "wonder, something amazing", "pos": "noun", "note": "m. کمال ہے! = amazing! / unbelievable! (also sarcastic); کمال کر دیا = you nailed it" },
+    { "native": "حد", "roman": "had", "en": "limit", "pos": "noun", "note": "f. حد ہو گئی! / حد ہے! = that's the limit, this is too much!" },
+    { "native": "عجیب", "roman": "ʿajīb", "en": "strange, weird", "pos": "adj", "note": "Sounds \"ajīb\". عجیب بات ہے = that's odd" }
   ],
   "phrases": [
-    { "native": "ایک دفعہ کا ذکر ہے…", "roman": "ek dafʿa kā zikr hai…", "en": "Once upon a time…" },
+    { "native": "تم نے سنا؟", "roman": "tum ne sunā?", "en": "Did you hear? (informal)" },
     { "native": "پھر کیا ہوا؟", "roman": "phir kyā huā?", "en": "Then what happened?" },
+    { "native": "اچھا، پھر؟", "roman": "achchhā, phir?", "en": "Uh-huh, and then?", "note": "The listener's job: keep saying اچھا، ہاں ہاں، پھر؟ to show you are following." },
+    { "native": "پورا قصہ سناؤ۔", "roman": "pūrā qissa sunā’o.", "en": "Tell me the whole story. (informal)" },
     { "native": "سچ میں؟ یقین نہیں آتا!", "roman": "sach meṃ? yaqīn nahīṃ ātā!", "en": "Really? I can't believe it!" },
-    { "native": "خیر، چھوڑو۔", "roman": "xair, chhoṛo.", "en": "Anyway, forget it." },
-    { "native": "ویسے، آپ کہاں رہتے ہیں؟", "roman": "vaise, āp kahāṃ rahte haiṃ?", "en": "By the way, where do you live?" },
+    { "native": "مذاق کر رہے ہو؟", "roman": "mazāq kar rahe ho?", "en": "Are you kidding? (informal)" },
+    { "native": "قسم سے!", "roman": "qasam se!", "en": "I swear! / Honestly!" },
+    { "native": "جو ہوا، اچھا ہوا۔", "roman": "jo huā, achchhā huā.", "en": "Whatever happened was for the best." },
+    { "native": "اس نے کہا کہ وہ آ رہا ہے۔", "roman": "us ne kahā ki vo ā rahā hai.", "en": "He said he's on his way." },
     { "native": "میرا مطلب ہے…", "roman": "merā matlab hai…", "en": "I mean…" },
+    { "native": "بات یہ ہے کہ…", "roman": "bāt ye hai ki…", "en": "The thing is…" },
+    { "native": "خیر، چھوڑو۔", "roman": "xair, chhoṛo.", "en": "Anyway, forget it. (informal)" },
     { "native": "پتا نہیں۔", "roman": "patā nahīṃ.", "en": "Don't know. / No idea." },
-    { "native": "جو ہوا، اچھا ہوا۔", "roman": "jo huā, achchhā huā.", "en": "Whatever happened, happened for the best." },
-    { "native": "اونٹ کے منہ میں زیرہ۔", "roman": "ūnṭ ke muṃh meṃ zīra.", "en": "A cumin seed in a camel's mouth. (= a drop in the ocean)" },
-    { "native": "جیسی کرنی ویسی بھرنی۔", "roman": "jaisī karnī vaisī bharnī.", "en": "As you sow, so shall you reap." },
-    { "native": "ناچ نہ جانے آنگن ٹیڑھا۔", "roman": "nāch na jāne āṃgan ṭeṛhā.", "en": "Can't dance, so blames the crooked courtyard. (= a bad workman blames his tools)" },
-    { "native": "دیر آید درست آید۔", "roman": "der āyad durust āyad.", "en": "Better late than never. (Persian saying)" },
-    { "native": "اس نے کہا کہ وہ کل آئے گا۔", "roman": "us ne kahā ki vo kal ā’egā.", "en": "He said that he'd come tomorrow." }
+    { "native": "کیا بات ہے!", "roman": "kyā bāt hai!", "en": "Wow! / Brilliant!", "note": "As a real question, کیا بات ہے؟ means \"what's the matter?\" — the tone tells you which." },
+    { "native": "حد ہو گئی یار!", "roman": "had ho ga’ī yār!", "en": "That's too much, man! (informal)" }
   ],
   "grammar": [
     {
       "title": "Relative clauses: جو … وہ",
-      "body": "Urdu builds relative clauses with a **correlative pair**: the relative word (**ج-**) in one clause, and a matching 'that' word (**و-**) in the other:\n\n**جو … وہ** who/which … that one: جو لڑکا کل آیا تھا، وہ میرا بھائی ہے 'The boy who came yesterday is my brother' (lit. which boy came yesterday, he is my brother).\n**جب … تب / تو** when … then\n**جہاں … وہاں** where … there\n**جیسا … ویسا** as … so\n**جتنا … اتنا** as much … so much\n\nجو becomes **جس** (sg) / **جن** (pl) before a postposition and with نے: جس آدمی نے میری مدد کی 'the man who helped me', جس کی گاڑی 'whose car'.\n\nThe relative clause usually comes **first**, but it can follow the noun as in English: وہ آدمی جو وہاں کھڑا ہے 'that man who is standing there'.",
+      "body": "English says 'the guy **who** came yesterday is Sana's brother'. Urdu uses a **pair** of words: a **ج-** word in one clause and a matching **و-** word in the other, as if you said '**which** guy came yesterday, **that** one is Sana's brother':\n\n**جو … وہ** — who/which … that one: جو لڑکا کل آیا تھا، وہ ثنا کا بھائی ہے\n**جب … تو / تب** — when … then\n**جہاں … وہاں** — where … there\n**جیسا … ویسا** — the way … that way\n**جتنا … اتنا** — as much … that much\n\n**Forms of جو.** Before a postposition or with نے, جو becomes **جس** (singular) or **جن** (plural), exactly like وہ becomes اس / ان: **جس** لڑکی سے میں ملا 'the girl I met', **جس** کی گاڑی 'whose car', **جن** لوگوں نے مدد کی 'the people who helped'. The وہ side changes the same way: جس نے فون کیا، **اس** کا نام کیا ہے؟\n\n**Order.** The relative clause usually comes **first**. In speech it often follows the noun, as in English: وہ لڑکا **جو** وہاں کھڑا ہے 'that boy who's standing there'.\n\n**Everyday set phrases:** جو بھی ہو 'whatever happens', جو ہوا سو ہوا 'what's done is done', جب بھی 'whenever', جہاں بھی 'wherever'.\n\n**Trap:** don't use the question words کون / کیا / کب / کہاں here. 'When I arrived' is **جب** میں پہنچا, never کب میں پہنچا.",
       "examples": [
-        { "native": "جو کتاب آپ نے دی تھی، وہ بہت اچھی ہے۔", "roman": "jo kitāb āp ne dī thī, vo bahut achchhī hai.", "en": "The book you gave me is very good." },
-        { "native": "وہ صاحب جو وہاں کھڑے ہیں، میرے استاد ہیں۔", "roman": "vo sāhab jo vahāṃ khaṛe haiṃ, mere ustād haiṃ.", "en": "That man who's standing there is my teacher." },
-        { "native": "جب میں چھوٹا تھا، تب ہم کراچی میں رہتے تھے۔", "roman": "jab maiṃ chhoṭā thā, tab ham Karāchī meṃ rahte the.", "en": "When I was little, we lived in Karachi." },
-        { "native": "جہاں آپ رہتے ہیں، وہاں بہت سکون ہے۔", "roman": "jahāṃ āp rahte haiṃ, vahāṃ bahut sukūn hai.", "en": "It's very peaceful where you live." },
-        { "native": "جس لڑکی نے گانا گایا، اس کا نام کیا ہے؟", "roman": "jis laṛkī ne gānā gāyā, us kā nām kyā hai?", "en": "What's the name of the girl who sang?" }
+        { "native": "جو کتاب تم نے دی تھی، وہ بہت اچھی ہے۔", "roman": "jo kitāb tum ne dī thī, vo bahut achchhī hai.", "en": "The book you gave me is really good." },
+        { "native": "وہ لڑکا جو وہاں کھڑا ہے، علی کا بھائی ہے۔", "roman": "vo laṛkā jo vahāṃ khaṛā hai, ʿAlī kā bhā’ī hai.", "en": "That boy standing over there is Ali's brother." },
+        { "native": "جب میں نے فون کیا، تو وہ سو رہا تھا۔", "roman": "jab maiṃ ne fon kiyā, to vo so rahā thā.", "en": "When I called, he was asleep." },
+        { "native": "جہاں ہم پچھلی بار گئے تھے، وہاں چلیں؟", "roman": "jahāṃ ham pichhlī bār ga’e the, vahāṃ chaleṃ?", "en": "Shall we go to the place we went last time?" },
+        { "native": "جس لڑکی نے فون کیا تھا، وہ کون تھی؟", "roman": "jis laṛkī ne fon kiyā thā, vo kaun thī?", "en": "Who was the girl who called?" },
+        { "native": "جیسا تم کہو، ویسا کریں گے۔", "roman": "jaisā tum kaho, vaisā kareṃ ge.", "en": "We'll do whatever you say." }
       ]
     },
     {
-      "title": "Reported speech and story connectors",
-      "body": "**Reported speech** in Urdu is usually **direct**: you keep the original words after **کہ**, often including the original pronouns and tense: اس نے کہا کہ **میں** تھکا ہوا ہوں 'He said that he was tired' (lit. he said that 'I am tired'). Indirect forms with changed pronouns are also used (اس نے کہا کہ وہ تھکا ہوا ہے). Questions: اس نے پوچھا کہ آپ کہاں جا رہے ہیں 'he asked where you were going'. Requests: اس نے کہا کہ دروازہ بند کر دو / اس نے دروازہ بند کرنے کو کہا.\n\n**Story connectors:** پہلے first · پھر then · اس کے بعد after that · اچانک suddenly · اتنے میں meanwhile · آخرکار finally.\n\n**Fillers** that make you sound fluent: یعنی 'I mean', ویسے 'by the way / actually', اصل میں 'actually', خیر 'anyway', مطلب 'I mean', یار 'man' (friends only), اچھا؟ 'really?', ہاں ہاں 'yes, yes', چلو 'OK then / anyway'.\n\nTo narrate past habits, use the **past habitual** (کرتا تھا): ہم ہر گرمیوں میں گاؤں جاتے تھے 'we used to go to the village every summer'.",
+      "title": "Reported speech: اس نے کہا کہ…",
+      "body": "To pass on what someone said, put **کہ** after the verb of saying and then give their words. Urdu usually keeps the speaker's **original tense** and often even their **original pronouns**: اس نے کہا کہ **میں** تھکا ہوا **ہوں** 'he said (that) he was tired' — literally 'he said: I am tired'. Changing the pronoun is also fine: اس نے کہا کہ **وہ** تھکا ہوا ہے. What you never do is shift the tense back as English does.\n\n**The verbs:** کہنا 'say', بتانا 'tell (news)', پوچھنا 'ask'. In the past they take **نے**. The person you speak to takes **سے** with کہنا and پوچھنا (میں نے **اس سے** کہا / پوچھا) and **کو** with بتانا (اس نے **مجھے** بتایا). In speech you will hear اس کو کہا too.\n\n**Questions:** keep the question word: اس نے پوچھا کہ تم **کب** آؤ گے 'she asked when you'd come'. For yes/no questions add **یا نہیں**: اس نے پوچھا کہ تم آؤ گے یا نہیں.\n\n**Orders and requests:** either quote the command — میں نے اس سے کہا کہ **فکر نہ کرو** — or use the oblique infinitive + **کو کہنا**: اس نے مجھے جلدی **آنے کو کہا** 'she told me to come early'.\n\n**What people were saying:** the past continuous is very common for gossip and news: علی **کہہ رہا تھا** کہ… 'Ali was saying that…'. In Karachi you'll also hear بولا / بول رہا تھا for 'said'.",
       "examples": [
-        { "native": "امی نے کہا کہ کھانا تیار ہے۔", "roman": "ammī ne kahā ki khānā tayyār hai.", "en": "Mum said that the food was ready." },
-        { "native": "اس نے پوچھا کہ تم کب آؤ گے۔", "roman": "us ne pūchhā ki tum kab ā’oge.", "en": "She asked when you would come." },
+        { "native": "امی نے کہا کہ کھانا تیار ہے۔", "roman": "ammī ne kahā ki khānā tayyār hai.", "en": "Mum said the food was ready." },
+        { "native": "اس نے پوچھا کہ تم کب آؤ گے۔", "roman": "us ne pūchhā ki tum kab ā’o ge.", "en": "She asked when you'd come." },
+        { "native": "علی کہہ رہا تھا کہ وہ آج نہیں آئے گا۔", "roman": "ʿAlī kah rahā thā ki vo āj nahīṃ ā’e gā.", "en": "Ali was saying he won't come today." },
+        { "native": "میں نے اس سے کہا کہ فکر نہ کرو۔", "roman": "maiṃ ne us se kahā ki fikr na karo.", "en": "I told him not to worry." },
+        { "native": "اس نے مجھے جلدی آنے کو کہا۔", "roman": "us ne mujhe jaldī āne ko kahā.", "en": "She told me to come early." },
+        { "native": "سارہ نے بتایا کہ اس کی نوکری لگ گئی ہے۔", "roman": "Sāra ne batāyā ki us kī naukrī lag ga’ī hai.", "en": "Sara told us she's got a job." }
+      ]
+    },
+    {
+      "title": "Telling it: story words, \"started to\" and fillers",
+      "body": "**Moving the story along:** پہلے 'first' · پھر 'then' · اس کے بعد 'after that' · اچانک 'suddenly' · اتنے میں 'just then' · آخرکار 'in the end'. **Cause and contrast:** اسی لیے 'that's why' · حالانکہ … پھر بھی 'although … still'.\n\n**Setting the scene:** use the past continuous for what was going on, then **کہ اچانک** for the twist: میں گھر جا رہا تھا **کہ اچانک** بارش شروع ہو گئی 'I was walking home when suddenly it started raining'. Here کہ means 'when'.\n\n**Started to …:** oblique infinitive (-نے) + **لگنا** in the past: وہ **ہنسنے لگا** 'he started laughing', سب **رونے لگے** 'everyone burst into tears'. لگا / لگی / لگے agrees with the subject, and there is never a نے.\n\n**Reactions** (from the listener): اچھا؟ · واقعی؟ · سچ میں؟ · ارے! · کمال ہے! · حد ہو گئی! · مذاق کر رہے ہو؟ — and اچھا، پھر؟ to keep it coming.\n\n**Fillers** (from the speaker): **یعنی** 'that is / so', **مطلب** 'I mean', **اصل میں** 'actually', **ویسے** 'by the way', **خیر** 'anyway', **بات یہ ہے کہ** 'the thing is'. Young people mix in English freely — 'basically', 'literally', 'seriously?' — and that's normal Urdu today.\n\n**Register:** یار, قسم سے, حد ہو گئی are for friends. With elders keep to جی, اچھا جی, اچھا؟ and آپ.",
+      "examples": [
         { "native": "پہلے ہم نے چائے پی، پھر بازار گئے۔", "roman": "pahle ham ne chā’e pī, phir bāzār ga’e.", "en": "First we had tea, then we went to the market." },
-        { "native": "اتنے میں بارش شروع ہو گئی۔", "roman": "itne meṃ bārish shurūʿ ho ga’ī.", "en": "Meanwhile it started raining." },
-        { "native": "بچپن میں ہم ہر شام کرکٹ کھیلتے تھے۔", "roman": "bachpan meṃ ham har shām krikeṭ khelte the.", "en": "As kids we used to play cricket every evening." }
+        { "native": "میں گھر جا رہا تھا کہ اچانک بارش شروع ہو گئی۔", "roman": "maiṃ ghar jā rahā thā ki achānak bārish shurūʿ ho ga’ī.", "en": "I was on my way home when suddenly it started raining." },
+        { "native": "یہ سن کر وہ ہنسنے لگی۔", "roman": "ye sun kar vo hansne lagī.", "en": "When she heard that, she started laughing." },
+        { "native": "اتنے میں امی آ گئیں۔", "roman": "itne meṃ ammī ā ga’īṃ.", "en": "Just then Mum walked in." },
+        { "native": "میں تھکا ہوا تھا، اسی لیے جلدی سو گیا۔", "roman": "maiṃ thakā huā thā, isī liye jaldī so gayā.", "en": "I was tired, that's why I went to bed early." },
+        { "native": "حالانکہ بارش ہو رہی تھی، پھر بھی ہم گئے۔", "roman": "hālāṃki bārish ho rahī thī, phir bhī ham ga’e.", "en": "Even though it was raining, we still went." }
       ]
     }
   ],
   "dialogue": {
     "title": "You won't believe what happened",
-    "setting": "Sana tells her friend Hira about her trip to the market.",
+    "setting": "Hamza tells his friend Bilal about his evening at Sea View, Karachi, over chai at a roadside dhaba.",
     "lines": [
-      { "speaker": "Sana", "native": "یار، تمہیں پتا ہے کل کیا ہوا؟", "roman": "yār, tumheṃ patā hai kal kyā huā?", "en": "Hey, do you know what happened yesterday?" },
-      { "speaker": "Hira", "native": "نہیں، کیا ہوا؟ بتاؤ!", "roman": "nahīṃ, kyā huā? batā’o!", "en": "No, what happened? Tell me!" },
-      { "speaker": "Sana", "native": "میں انارکلی گئی تھی، وہ دکان جہاں ہم نے پچھلی عید پر چوڑیاں خریدی تھیں۔", "roman": "maiṃ Anārkalī ga’ī thī, vo dukān jahāṃ ham ne pichhlī ʿīd par chūṛiyāṃ xarīdī thīṃ.", "en": "I went to Anarkali, that shop where we bought bangles last Eid." },
-      { "speaker": "Hira", "native": "ہاں ہاں، یاد ہے۔ پھر؟", "roman": "hāṃ hāṃ, yād hai. phir?", "en": "Yes, yes, I remember. Then?" },
-      { "speaker": "Sana", "native": "اچانک ایک آدمی آیا جو بالکل شاہ رخ خان جیسا لگ رہا تھا!", "roman": "achānak ek ādmī āyā jo bilkul Shāh Rux Xān jaisā lag rahā thā!", "en": "Suddenly a man came in who looked exactly like Shah Rukh Khan!" },
-      { "speaker": "Hira", "native": "سچ میں؟ یقین نہیں آتا!", "roman": "sach meṃ? yaqīn nahīṃ ātā!", "en": "Really? I can't believe it!" },
-      { "speaker": "Sana", "native": "اور دکاندار نے کہا کہ یہ اس کا بھائی ہے۔ سب لوگ تصویریں لینے لگے۔", "roman": "aur dukāndār ne kahā ki ye us kā bhā’ī hai. sab log tasvīreṃ lene lage.", "en": "And the shopkeeper said he was his brother. Everyone started taking photos." },
-      { "speaker": "Hira", "native": "مطلب؟ شاہ رخ خان کا بھائی؟", "roman": "matlab? Shāh Rux Xān kā bhā’ī?", "en": "Meaning what? Shah Rukh Khan's brother?" },
-      { "speaker": "Sana", "native": "نہیں یار، دکاندار کا بھائی! اصل میں وہ مذاق کر رہا تھا۔", "roman": "nahīṃ yār, dukāndār kā bhā’ī! asl meṃ vo mazāq kar rahā thā.", "en": "No, silly — the shopkeeper's brother! He was actually joking." },
-      { "speaker": "Hira", "native": "ہاہا! خیر، تم نے کچھ خریدا یا نہیں؟", "roman": "hāhā! xair, tum ne kuchh xarīdā yā nahīṃ?", "en": "Haha! Anyway, did you buy anything or not?" },
-      { "speaker": "Sana", "native": "آخرکار ہاں، دو سوٹ۔ جیسی کرنی ویسی بھرنی — سارے پیسے ختم!", "roman": "āxirkār hāṃ, do sūṭ. jaisī karnī vaisī bharnī — sāre paise xatm!", "en": "In the end, yes, two suits. You reap what you sow — all my money's gone!" }
+      { "speaker": "Hamza", "native": "بلال یار، کل جو ہوا نا، تمہیں یقین نہیں آئے گا۔", "roman": "Bilāl yār, kal jo huā nā, tumheṃ yaqīn nahīṃ ā’e gā.", "en": "Bilal, man, what happened yesterday — you won't believe it." },
+      { "speaker": "Bilal", "native": "کیا ہوا؟ سب ٹھیک ہے؟", "roman": "kyā huā? sab ṭhīk hai?", "en": "What happened? Everything OK?" },
+      { "speaker": "Hamza", "native": "میں سی ویو پر چائے پی رہا تھا کہ اچانک ایک اونٹ والا آیا۔", "roman": "maiṃ Sī Vyū par chā’e pī rahā thā ki achānak ek ūnṭ vālā āyā.", "en": "I was having tea at Sea View when suddenly a camel man came up." },
+      { "speaker": "Bilal", "native": "اچھا، پھر؟", "roman": "achchhā, phir?", "en": "Uh-huh, and then?" },
+      { "speaker": "Hamza", "native": "اس نے کہا کہ صرف سو روپے، بیٹھ جاؤ۔ تو میں بیٹھ گیا۔", "roman": "us ne kahā ki sirf sau rupe, baiṭh jā’o. to maiṃ baiṭh gayā.", "en": "He said \"only a hundred rupees, hop on\". So I got on." },
+      { "speaker": "Bilal", "native": "تم؟ اونٹ پر؟ مذاق کر رہے ہو؟", "roman": "tum? ūnṭ par? mazāq kar rahe ho?", "en": "You? On a camel? Are you kidding?" },
+      { "speaker": "Hamza", "native": "قسم سے! اور جب اونٹ اٹھا، تو میرا فون جیب سے گر گیا۔", "roman": "qasam se! aur jab ūnṭ uṭhā, to merā fon jeb se gir gayā.", "en": "I swear! And when the camel stood up, my phone fell out of my pocket." },
+      { "speaker": "Bilal", "native": "ارے! پھر کیا ہوا؟", "roman": "are! phir kyā huā?", "en": "Oh no! Then what happened?" },
+      { "speaker": "Hamza", "native": "اتنے میں ایک بچہ بھاگ کر آیا اور فون اٹھا کر لے گیا۔", "roman": "itne meṃ ek bachcha bhāg kar āyā aur fon uṭhā kar le gayā.", "en": "Just then a kid came running, grabbed the phone and ran off." },
+      { "speaker": "Bilal", "native": "حد ہو گئی یار! بیچارے، فون گیا؟", "roman": "had ho ga’ī yār! bechāre, fon gayā?", "en": "That's too much! Poor you — so the phone's gone?" },
+      { "speaker": "Hamza", "native": "نہیں نہیں، اصل میں وہ اونٹ والے کا بیٹا تھا۔ وہ بولا کہ ابو، انکل کا فون!", "roman": "nahīṃ nahīṃ, asl meṃ vo ūnṭ vāle kā beṭā thā. vo bolā ki abbū, ankal kā fon!", "en": "No, no — actually he was the camel man's son. He said \"Dad, uncle's phone!\"" },
+      { "speaker": "Bilal", "native": "ہاہا! یعنی سواری بھی ہو گئی اور فون بھی واپس مل گیا۔ کیا بات ہے!", "roman": "hāhā! yaʿnī savārī bhī ho ga’ī aur fon bhī vāpas mil gayā. kyā bāt hai!", "en": "Haha! So you got a ride and got your phone back. Brilliant!" },
+      { "speaker": "Hamza", "native": "ہاں، لیکن اس نے فون واپس کرنے کے سو روپے اور لیے!", "roman": "hāṃ, lekin us ne fon vāpas karne ke sau rupe aur liye!", "en": "Yeah, but he charged another hundred for giving the phone back!" },
+      { "speaker": "Bilal", "native": "کمال ہے! خیر، آج کی چائے تمہاری طرف سے۔", "roman": "kamāl hai! xair, āj kī chā’e tumhārī taraf se.", "en": "Unbelievable! Anyway, today's tea is on you." }
     ]
   },
-  "culture": "Urdu has a rich oral storytelling tradition — the **داستان** (epic romance, like the tales of Amir Hamza) and its revived art of **داستان گوئی** — and a living culture of poetry: lines from Ghalib, Iqbal and Faiz are quoted in everyday conversation, and the **مشاعرہ** (poetry gathering) is still popular. Proverbs (کہاوتیں) and idioms (محاورے) are sprinkled liberally through speech; using one correctly will delight your listeners. **Mubārak ho** — you've completed the course!"
+  "culture": "Pakistani conversation is a team sport. While one person tells a story the others keep up a running commentary — **اچھا… ہاں ہاں… پھر؟… ارے!** — and silence can sound like you aren't interested. Interrupting with a reaction is friendly, not rude.\n\nAmong friends, **یار** goes into almost every sentence, and **قسم سے** ('I swear') is casual; **اللہ کی قسم** is a real oath, so don't throw it around. **کمال ہے!** can be genuine amazement or heavy sarcasm, depending on the tone. In Karachi you'll hear **بولا** for 'said' and the blunt **ابے** between close friends (rude to anyone else); in Lahore the Punjabi **اوئے** does the same job. With parents, elders and strangers drop یار and slang, use **آپ** and **جی**, and react with a polite **اچھا جی؟** or **واقعی؟**.\n\nEnglish words — 'basically', 'seriously', 'literally', 'so' — are mixed into Urdu all the time by young people in Karachi, Lahore and Islamabad, and by Pakistanis in London, Manchester or Toronto. You don't need to avoid them; just don't let them replace the Urdu glue (یعنی، ویسے، خیر) that makes your Urdu sound natural.",
+  "lessons": [
+    {
+      "title": "Telling a friend what happened",
+      "tip": { "title": "Setting the scene: …رہا تھا کہ اچانک", "body": "- Past continuous for the background, then **کہ اچانک** for the twist: میں چائے پی **رہا تھا کہ اچانک**…\n- Move it on with **پھر**, **اس کے بعد**, **اتنے میں** 'just then'.\n- 'Started to…': **-نے لگا / لگی / لگے** — وہ **رونے لگی** 'she burst into tears'. No نے here.", "pattern": "میں … رہا تھا کہ اچانک …  ·  وہ ہنسنے لگا", "grammar": 2 },
+      "new": ["بات", "قصہ", "سنانا", "اتنے میں", "ہنسنا", "رونا", "تم نے سنا؟", "پھر کیا ہوا؟", "اچھا، پھر؟", "پورا قصہ سناؤ۔"],
+      "sentences": [
+        { "native": "میں ناشتہ کر رہی تھی کہ اچانک بتی چلی گئی۔", "roman": "maiṃ nāshta kar rahī thī ki achānak battī chalī ga’ī.", "en": "I was having breakfast when suddenly the power went.", "focus": "رہی", "wrong": ["رہا|rahā", "رہے|rahe"] },
+        { "native": "بات کیا ہوئی تھی؟", "roman": "bāt kyā hu’ī thī?", "en": "So what had happened?", "focus": "ہوئی", "wrong": ["ہوا|huā", "ہوئے|hu’e"] },
+        { "native": "مجھے کل والا قصہ سناؤ۔", "roman": "mujhe kal vālā qissa sunā’o.", "en": "Tell me about what happened yesterday.", "focus": "سناؤ", "wrong": ["سنو|suno", "سنا|sunā"] },
+        { "native": "اتنے میں علی بھی آ گیا۔", "roman": "itne meṃ ʿAlī bhī ā gayā.", "en": "Just then Ali turned up too.", "focus": "اتنے", "wrong": ["کتنے|kitne", "جتنے|jitne"] },
+        { "native": "یہ سن کر سب ہنسنے لگے۔", "roman": "ye sun kar sab hansne lage.", "en": "When they heard that, everyone started laughing.", "focus": "لگے", "wrong": ["لگا|lagā", "لگی|lagī"] },
+        { "native": "وہ اچانک رونے لگی۔", "roman": "vo achānak rone lagī.", "en": "She suddenly burst into tears.", "focus": "رونے", "wrong": ["روتی|rotī", "رویا|royā"] },
+        { "native": "پہلے ہم نے کھانا کھایا، پھر فلم دیکھی۔", "roman": "pahle ham ne khānā khāyā, phir film dekhī.", "en": "First we ate, then we watched a film.", "focus": "پھر", "wrong": ["پہلے|pahle", "کب|kab"] },
+        { "native": "تم نے سنا؟ سارہ کی شادی ہو رہی ہے!", "roman": "tum ne sunā? Sāra kī shādī ho rahī hai!", "en": "Did you hear? Sara's getting married!", "focus": "رہی", "wrong": ["رہا|rahā", "رہے|rahe"] },
+        { "native": "پھر کیا ہوا؟ وہ واپس آیا؟", "roman": "phir kyā huā? vo vāpas āyā?", "en": "Then what happened? Did he come back?", "focus": "ہوا", "wrong": ["ہوئی|hu’ī", "ہوئے|hu’e"] },
+        { "native": "اچھا، پھر؟ اس نے کیا کہا؟", "roman": "achchhā, phir? us ne kyā kahā?", "en": "Uh-huh, and then? What did he say?" },
+        { "native": "مجھے پورا قصہ نہیں پتا۔", "roman": "mujhe pūrā qissa nahīṃ patā.", "en": "I don't know the whole story." }
+      ]
+    },
+    {
+      "title": "Reacting to news",
+      "tip": { "title": "Reacting: واقعی؟ سچ میں؟ قسم سے!", "body": "- Show surprise: **ارے!**, **واقعی؟**, **سچ میں؟**\n- Doubt it: **مذاق کر رہے ہو؟** 'are you kidding?', or a teasing **جھوٹ!**\n- Insist it's true: **قسم سے!** 'I swear!' — casual among friends; **اللہ کی قسم** is a serious oath.", "grammar": 2 },
+      "new": ["سچ", "جھوٹ", "واقعی", "مذاق", "قسم", "ارے", "سچ میں؟ یقین نہیں آتا!", "مذاق کر رہے ہو؟", "قسم سے!"],
+      "sentences": [
+        { "native": "واقعی؟ تم سچ کہہ رہے ہو؟", "roman": "vāqaʿī? tum sach kah rahe ho?", "en": "Really? Are you telling the truth?", "focus": "رہے", "wrong": ["رہا|rahā", "رہیں|raheṃ"] },
+        { "native": "میں جھوٹ نہیں بول رہا، قسم سے!", "roman": "maiṃ jhūṭ nahīṃ bol rahā, qasam se!", "en": "I'm not lying, I swear!", "focus": "بول", "wrong": ["کر|kar", "دے|de"] },
+        { "native": "ارے! یہ کب ہوا؟", "roman": "are! ye kab huā?", "en": "Oh! When did this happen?" },
+        { "native": "تم مذاق کر رہی ہو نا؟", "roman": "tum mazāq kar rahī ho nā?", "en": "You're joking, right?", "focus": "کر", "wrong": ["بول|bol", "دے|de"] },
+        { "native": "سچ بتاؤ، کیا ہوا تھا؟", "roman": "sach batā’o, kyā huā thā?", "en": "Tell me the truth — what happened?", "focus": "بتاؤ", "wrong": ["بتاتا|batātā", "بتایا|batāyā"] },
+        { "native": "سچ میں؟ اس نے یہ کہا؟", "roman": "sach meṃ? us ne ye kahā?", "en": "Really? He said that?", "focus": "نے", "wrong": ["کو|ko", "سے|se"] },
+        { "native": "واقعی؟ مجھے یقین نہیں آ رہا۔", "roman": "vāqaʿī? mujhe yaqīn nahīṃ ā rahā.", "en": "Really? I can't believe it.", "focus": "مجھے", "wrong": ["میں|maiṃ", "میرا|merā"] },
+        { "native": "یہ سب جھوٹ ہے!", "roman": "ye sab jhūṭ hai!", "en": "That's all a lie!" },
+        { "native": "قسم سے، میں نے کچھ نہیں کیا۔", "roman": "qasam se, maiṃ ne kuchh nahīṃ kiyā.", "en": "Honestly, I didn't do anything.", "focus": "نے", "wrong": ["کو|ko", "سے|se"] },
+        { "native": "ارے یار، مذاق تھا!", "roman": "are yār, mazāq thā!", "en": "Oh come on, it was a joke!" }
+      ]
+    },
+    {
+      "title": "The one who…, the place where…",
+      "tip": { "title": "جو … وہ: the one who…", "body": "- Urdu pairs a **ج-** word with a **و-** word: **جو** لڑکا آیا تھا، **وہ** میرا دوست ہے 'the boy who came is my friend'.\n- Also **جب … تو** 'when', **جہاں … وہاں** 'where', **جیسے** 'as if'.\n- Before a postposition or نے: **جس** (sg), **جن** (pl).\n- Not the question words: 'when I arrived' = **جب** میں پہنچا, not کب.", "pattern": "جو … ، وہ …  ·  جس کا / جس نے / جس سے", "grammar": 0 },
+      "new": ["جو", "جہاں", "جب", "جیسے", "بیچارہ", "جو ہوا، اچھا ہوا۔"],
+      "sentences": [
+        { "native": "جو لڑکا کل آیا تھا، وہ ثنا کا بھائی ہے۔", "roman": "jo laṛkā kal āyā thā, vo Sanā kā bhā’ī hai.", "en": "The boy who came yesterday is Sana's brother.", "focus": "جو", "wrong": ["کون|kaun", "کیا|kyā"] },
+        { "native": "جس لڑکی سے میں ملا، وہ کراچی کی ہے۔", "roman": "jis laṛkī se maiṃ milā, vo Karāchī kī hai.", "en": "The girl I met is from Karachi.", "focus": "جس", "wrong": ["جو|jo", "جن|jin"] },
+        { "native": "جہاں ہم رہتے ہیں، وہاں بہت گرمی ہوتی ہے۔", "roman": "jahāṃ ham rahte haiṃ, vahāṃ bahut garmī hotī hai.", "en": "It gets really hot where we live.", "focus": "وہاں", "wrong": ["کہاں|kahāṃ", "جہاں|jahāṃ"] },
+        { "native": "جب میں پہنچا، تو سب کھانا کھا رہے تھے۔", "roman": "jab maiṃ pahuṃchā, to sab khānā khā rahe the.", "en": "When I got there, everyone was eating.", "focus": "جب", "wrong": ["کب|kab", "جو|jo"] },
+        { "native": "وہ آدمی جس کی گاڑی خراب ہو گئی تھی، بہت پریشان تھا۔", "roman": "vo ādmī jis kī gāṛī xarāb ho ga’ī thī, bahut pareshān thā.", "en": "The man whose car had broken down was really stressed.", "focus": "جس", "wrong": ["جو|jo", "جن|jin"] },
+        { "native": "وہ ایسے بات کر رہا تھا جیسے کچھ ہوا ہی نہیں۔", "roman": "vo aise bāt kar rahā thā jaise kuchh huā hī nahīṃ.", "en": "He was talking as if nothing had happened.", "focus": "جیسے", "wrong": ["کیسے|kaise", "ایسے|aise"] },
+        { "native": "جو بھی ہوا، اب فکر نہ کرو۔", "roman": "jo bhī huā, ab fikr na karo.", "en": "Whatever happened, don't worry about it now.", "focus": "جو", "wrong": ["کیا|kyā", "کون|kaun"] },
+        { "native": "وہ جگہ جہاں ہم نے چائے پی تھی، بہت اچھی تھی۔", "roman": "vo jagah jahāṃ ham ne chā’e pī thī, bahut achchhī thī.", "en": "That place where we had tea was really nice.", "focus": "جہاں", "wrong": ["جب|jab", "جو|jo"] },
+        { "native": "بیچارہ علی! اس کا امتحان اچھا نہیں ہوا۔", "roman": "bechāra ʿAlī! us kā imtihān achchhā nahīṃ huā.", "en": "Poor Ali! His exam didn't go well." },
+        { "native": "چھوڑو یار، جو ہوا سو ہوا۔", "roman": "chhoṛo yār, jo huā so huā.", "en": "Forget it, man — what's done is done." }
+      ]
+    },
+    {
+      "title": "Passing on what people said",
+      "tip": { "title": "اس نے کہا کہ…", "body": "- Verb of saying + **کہ** + the words, keeping the **original tense**: اس نے کہا کہ وہ **آ رہا ہے** 'he said he was coming'.\n- Say **to** someone: **سے** کہنا / پوچھنا; tell someone news: **کو** بتانا (مجھے بتایا).\n- Asking someone to do something: اس نے مجھے **فون کرنے کو** کہا 'she told me to call'.", "pattern": "X نے کہا / پوچھا / بتایا کہ …", "grammar": 1 },
+      "new": ["یعنی", "مطلب", "اس نے کہا کہ وہ آ رہا ہے۔", "میرا مطلب ہے…", "بات یہ ہے کہ…"],
+      "sentences": [
+        { "native": "علی نے کہا کہ وہ پانچ بجے آئے گا۔", "roman": "ʿAlī ne kahā ki vo pāṃch baje ā’e gā.", "en": "Ali said he'd come at five.", "focus": "نے", "wrong": ["کو|ko", "سے|se"] },
+        { "native": "اس نے پوچھا کہ تم کہاں ہو۔", "roman": "us ne pūchhā ki tum kahāṃ ho.", "en": "She asked where you were.", "focus": "پوچھا", "wrong": ["بتایا|batāyā", "پوچھی|pūchhī"] },
+        { "native": "میں نے اس سے کہا کہ دیر نہ کرو۔", "roman": "maiṃ ne us se kahā ki der na karo.", "en": "I told him not to be late.", "focus": "سے", "wrong": ["نے|ne", "میں|meṃ"] },
+        { "native": "امی کہہ رہی تھیں کہ آج مہمان آ رہے ہیں۔", "roman": "ammī kah rahī thīṃ ki āj mehmān ā rahe haiṃ.", "en": "Mum was saying that guests are coming today.", "focus": "تھیں", "wrong": ["تھا|thā", "تھے|the"] },
+        { "native": "اس نے مجھے فون کرنے کو کہا۔", "roman": "us ne mujhe fon karne ko kahā.", "en": "She asked me to call her.", "focus": "کرنے", "wrong": ["کرنا|karnā", "کرو|karo"] },
+        { "native": "سارہ نے بتایا کہ وہ بیمار ہے۔", "roman": "Sāra ne batāyā ki vo bīmār hai.", "en": "Sara told me she's ill.", "focus": "بتایا", "wrong": ["بتائی|batā’ī", "بتائے|batā’e"] },
+        { "native": "اس نے کہا کہ میں تھک گیا ہوں۔", "roman": "us ne kahā ki maiṃ thak gayā hūṃ.", "en": "He said he was tired.", "focus": "کہا", "wrong": ["کہی|kahī", "کہے|kahe"] },
+        { "native": "یعنی وہ آج نہیں آئے گا؟", "roman": "yaʿnī vo āj nahīṃ ā’e gā?", "en": "So he's not coming today?" },
+        { "native": "مطلب؟ میں سمجھا نہیں۔", "roman": "matlab? maiṃ samjhā nahīṃ.", "en": "Meaning what? I don't get it." },
+        { "native": "بات یہ ہے کہ مجھے کل جلدی جانا ہے۔", "roman": "bāt ye hai ki mujhe kal jaldī jānā hai.", "en": "The thing is, I have to leave early tomorrow." },
+        { "native": "میرا مطلب ہے، وہ برا آدمی نہیں ہے۔", "roman": "merā matlab hai, vo burā ādmī nahīṃ hai.", "en": "I mean, he's not a bad guy." }
+      ]
+    },
+    {
+      "title": "Keeping the chat going",
+      "tip": { "title": "Fillers: ویسے، اصل میں، خیر", "body": "- **ویسے** 'by the way' opens a new topic; **اصل میں** 'actually' corrects one.\n- **خیر** 'anyway' closes one: خیر، چھوڑو.\n- Hand the conversation back: **تم سناؤ!** 'and you? what's new?'\n- **یار** is for friends only — never with elders.", "grammar": 2 },
+      "new": ["ویسے", "اصل میں", "خیر", "یار", "گپ شپ", "خیر، چھوڑو۔", "پتا نہیں۔", "کیا بات ہے!"],
+      "sentences": [
+        { "native": "ویسے، تم آج کل کیا کر رہے ہو؟", "roman": "vaise, tum āj kal kyā kar rahe ho?", "en": "By the way, what are you up to these days?", "focus": "رہے", "wrong": ["رہا|rahā", "رہیں|raheṃ"] },
+        { "native": "اصل میں مجھے پتا ہی نہیں تھا۔", "roman": "asl meṃ mujhe patā hī nahīṃ thā.", "en": "Actually, I had no idea.", "focus": "تھا", "wrong": ["تھی|thī", "تھے|the"] },
+        { "native": "خیر، تم سناؤ، کیا حال ہے؟", "roman": "xair, tum sunā’o, kyā hāl hai?", "en": "Anyway, what about you — how's it going?", "focus": "سناؤ", "wrong": ["سنو|suno", "سنا|sunā"] },
+        { "native": "یار، بہت دن ہو گئے، گپ شپ ہی نہیں ہوئی۔", "roman": "yār, bahut din ho ga’e, gap shap hī nahīṃ hu’ī.", "en": "Man, it's been ages — we haven't had a proper chat.", "focus": "ہوئی", "wrong": ["ہوا|huā", "ہوئے|hu’e"] },
+        { "native": "اصل میں وہ بیمار نہیں تھا، بس سو رہا تھا۔", "roman": "asl meṃ vo bīmār nahīṃ thā, bas so rahā thā.", "en": "Actually he wasn't ill, he was just asleep.", "focus": "رہا", "wrong": ["رہی|rahī", "رہے|rahe"] },
+        { "native": "خیر، چھوڑو، کچھ اور بات کرتے ہیں۔", "roman": "xair, chhoṛo, kuchh aur bāt karte haiṃ.", "en": "Anyway, forget it, let's talk about something else." },
+        { "native": "پتا نہیں وہ کہاں ہے۔", "roman": "patā nahīṃ vo kahāṃ hai.", "en": "No idea where he is." },
+        { "native": "کیا بات ہے! بہت اچھی خبر ہے۔", "roman": "kyā bāt hai! bahut achchhī xabar hai.", "en": "Wow! That's great news." },
+        { "native": "ویسے، کل شام کو کیا کر رہی ہو؟", "roman": "vaise, kal shām ko kyā kar rahī ho?", "en": "By the way, what are you doing tomorrow evening?" }
+      ]
+    },
+    {
+      "title": "That's too much! — how it ended",
+      "tip": { "title": "اسی لیے, حالانکہ … پھر بھی, آخرکار", "body": "- **اسی لیے** 'that's why': بارش ہو رہی تھی، **اسی لیے** ہم گھر پر رہے.\n- **حالانکہ … پھر بھی** 'although … still' — don't mix it up with کیونکہ 'because'.\n- **آخرکار** 'in the end'.\n- Wrap up with a verdict: **کمال ہے!**, **حد ہو گئی!**, **عجیب بات ہے!**", "pattern": "حالانکہ … ، پھر بھی …", "grammar": 2 },
+      "new": ["آخرکار", "اسی لیے", "حالانکہ", "کمال", "حد", "عجیب", "حد ہو گئی یار!"],
+      "sentences": [
+        { "native": "حالانکہ وہ بیمار تھا، پھر بھی دفتر گیا۔", "roman": "hālāṃki vo bīmār thā, phir bhī daftar gayā.", "en": "Even though he was ill, he still went to the office.", "focus": "حالانکہ", "wrong": ["کیونکہ|kyoṃki", "اگر|agar"] },
+        { "native": "بارش ہو رہی تھی، اسی لیے ہم گھر پر رہے۔", "roman": "bārish ho rahī thī, isī liye ham ghar par rahe.", "en": "It was raining, so we stayed in." },
+        { "native": "آخرکار دو گھنٹے بعد بس آئی۔", "roman": "āxirkār do ghanṭe baʿd bas ā’ī.", "en": "In the end the bus came two hours later.", "focus": "آخرکار", "wrong": ["پہلے|pahle", "کبھی|kabhī"] },
+        { "native": "کمال ہے! تم نے اتنی جلدی کیسے کر لیا؟", "roman": "kamāl hai! tum ne itnī jaldī kaise kar liyā?", "en": "Amazing! How did you do it so fast?", "focus": "لیا", "wrong": ["لی|lī", "لیے|liye"] },
+        { "native": "حد ہے یار، علی پھر دیر سے آیا!", "roman": "had hai yār, ʿAlī phir der se āyā!", "en": "This is too much, Ali's late again!", "focus": "آیا", "wrong": ["آئی|ā’ī", "آئے|ā’e"] },
+        { "native": "کتنی عجیب بات ہے!", "roman": "kitnī ʿajīb bāt hai!", "en": "How weird is that!", "focus": "کتنی", "wrong": ["کتنا|kitnā", "کتنے|kitne"] },
+        { "native": "حالانکہ میں نے اسے بتایا تھا، پھر بھی وہ بھول گیا۔", "roman": "hālāṃki maiṃ ne use batāyā thā, phir bhī vo bhūl gayā.", "en": "Even though I had told him, he still forgot.", "focus": "حالانکہ", "wrong": ["کیونکہ|kyoṃki", "اگر|agar"] },
+        { "native": "آخرکار سب ٹھیک ہو گیا۔", "roman": "āxirkār sab ṭhīk ho gayā.", "en": "In the end everything worked out.", "focus": "گیا", "wrong": ["گئی|ga’ī", "گئے|ga’e"] },
+        { "native": "وہ گھر پر نہیں تھا، اسی لیے میں واپس آ گیا۔", "roman": "vo ghar par nahīṃ thā, isī liye maiṃ vāpas ā gayā.", "en": "He wasn't home, so I came back." },
+        { "native": "حد ہو گئی یار! پھر بتی چلی گئی۔", "roman": "had ho ga’ī yār! phir battī chalī ga’ī.", "en": "This is too much! The power's gone again." },
+        { "native": "وہ آدمی بہت عجیب تھا۔", "roman": "vo ādmī bahut ʿajīb thā.", "en": "That guy was really weird." }
+      ]
+    }
+  ]
 }

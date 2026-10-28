@@ -126,7 +126,7 @@ function validateLang(code) {
   // units
   const seen = new Map();
   const unitFiles = fs.existsSync(path.join(dir, 'units')) ? fs.readdirSync(path.join(dir, 'units')).filter((f) => /^\d+\.json$/.test(f)) : [];
-  const count = Math.max(20, unitFiles.length);
+  const count = Math.max(20, ...unitFiles.map((f) => parseInt(f, 10)));
   const known = new Set(); // every word form met so far, for --words
   for (let u = 1; u <= count; u++) {
     const uf = path.join(dir, 'units', String(u).padStart(2, '0') + '.json');

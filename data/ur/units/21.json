@@ -1,0 +1,210 @@
+{
+  "id": 21,
+  "title": "Making plans with friends",
+  "goal": "Ask friends if they're free, suggest a plan, fix where to meet, say you're on your way or running late, and cancel without offending anyone.",
+  "intro": "Welcome to Part 2. From here on the course is about the Urdu you need with friends, in town and at work — the way people in Karachi, Lahore and Islamabad (and Pakistanis in London or Toronto) actually talk.\n\nWe start with plans. You'll learn the friendly **'let's'** (**چلو، چلتے ہیں!**), how to boss your friends around nicely with **تم** commands and the little word **نا**, and how to say you're **about to leave** (**نکلنے والا ہوں**) or **on your way** (**راستے میں ہوں**) — even when you haven't left yet.",
+  "vocab": [
+    { "native": "فارغ", "roman": "fāriġ", "en": "free (not busy)", "pos": "adj", "note": "فارغ ہو؟ = are you free? (informal)" },
+    { "native": "مصروف", "roman": "masrūf", "en": "busy", "pos": "adj", "note": "Young people also say بزی bizī." },
+    { "native": "پلان", "roman": "plān", "en": "plan", "pos": "noun", "note": "m. English loan, far more common in chat than منصوبہ. پلان بنانا = to make a plan." },
+    { "native": "ویک اینڈ", "roman": "vīk enḍ", "en": "weekend", "pos": "noun", "note": "m. Same as ہفتے کے آخر میں, but what people say." },
+    { "native": "کہیں", "roman": "kahīṃ", "en": "somewhere; anywhere", "pos": "adv", "note": "کہیں چلیں؟ = shall we go somewhere?; کہیں نہیں = nowhere" },
+    { "native": "چلو", "roman": "chalo", "en": "come on; let's; OK then", "pos": "interj", "note": "The تم-command of چلنا, used to start a suggestion: چلو، چلتے ہیں = come on, let's go. Polite: چلیں." },
+    { "native": "فلم", "roman": "film", "en": "film, movie", "pos": "noun", "note": "f. فلم لگی ہے = a film is showing" },
+    { "native": "سنیما", "roman": "sinemā", "en": "cinema", "pos": "noun", "note": "m" },
+    { "native": "ڈنر", "roman": "ḍinar", "en": "dinner (out)", "pos": "noun", "note": "m. ڈنر کرنا = to have dinner; at home people still say رات کا کھانا." },
+    { "native": "آئیڈیا", "roman": "ā’īḍiyā", "en": "idea", "pos": "noun", "note": "m" },
+    { "native": "اکٹھے", "roman": "ikaṭṭhe", "en": "together", "pos": "adv", "note": "Also ساتھ: سب ساتھ چلیں گے." },
+    { "native": "نا", "roman": "nā", "en": "come on…; …, right?", "pos": "particle", "note": "After a command it coaxes: آ جاؤ نا! = oh come on, come! After a statement it asks for agreement: تم آ رہے ہو نا؟ = you are coming, right? Not the same as نہ \"not\"." },
+    { "native": "مت", "roman": "mat", "en": "don't (informal command)", "pos": "particle", "note": "مت جاؤ = don't go. Blunter than نہ جاؤ; never with آپ." },
+    { "native": "بائیک", "roman": "bā’ik", "en": "motorbike", "pos": "noun", "note": "f. The way most young men get around; friends ride two or three to a bike." },
+    { "native": "نکلنا", "roman": "nikalnā", "en": "to leave, set off; to come out", "pos": "verb", "note": "گھر سے نکلنا = to leave home. No نے: میں نکل گیا." },
+    { "native": "راستے میں", "roman": "rāste meṃ", "en": "on the way", "pos": "phrase", "note": "From راستہ \"way, road\"." },
+    { "native": "ٹریفک", "roman": "ṭraifik", "en": "traffic", "pos": "noun", "note": "m/f (both heard). ٹریفک جام = traffic jam" },
+    { "native": "لیٹ", "roman": "leṭ", "en": "late", "pos": "adj", "note": "لیٹ ہونا = to be late. Means the same as مجھے دیر ہو گئی, but with the person as subject: میں لیٹ ہو گیا." },
+    { "native": "کینسل", "roman": "kainsil", "en": "cancelled", "pos": "adj", "note": "کینسل کرنا = to cancel; کینسل ہونا = to be called off" },
+    { "native": "بندہ", "roman": "banda", "en": "guy, person (informal)", "pos": "noun", "note": "m. کتنے بندے ہیں؟ = how many of us are there?" },
+    { "native": "ڈھابہ", "roman": "ḍhāba", "en": "roadside café, dhaba", "pos": "noun", "note": "m. Open late, plastic chairs, chai and paratha." },
+    { "native": "مال", "roman": "māl", "en": "shopping mall", "pos": "noun", "note": "m. Also \"goods\"." },
+    { "native": "ساحل", "roman": "sāhil", "en": "beach, seaside", "pos": "noun", "note": "m. In Karachi people just say سی ویو (Sea View)." },
+    { "native": "پارک", "roman": "pārk", "en": "park", "pos": "noun", "note": "m" },
+    { "native": "جگہ", "roman": "jagah", "en": "place, spot", "pos": "noun", "note": "f. کوئی اچھی جگہ بتاؤ = suggest a good place" },
+    { "native": "شو", "roman": "sho", "en": "show, screening", "pos": "noun", "note": "m. سات بجے والا شو = the seven o'clock show" },
+    { "native": "ٹائم", "roman": "ṭā’im", "en": "time (colloquial)", "pos": "noun", "note": "m. ٹائم ہے؟ = have you got time?; کس ٹائم؟ = what time? Same as وقت." },
+    { "native": "فائنل", "roman": "fā’inal", "en": "final, confirmed", "pos": "adj", "note": "پلان فائنل ہے؟ = is the plan on?" }
+  ],
+  "phrases": [
+    { "native": "آج شام فارغ ہو؟", "roman": "āj shām fāriġ ho?", "en": "Free this evening? (informal)" },
+    { "native": "کیا پلان ہے؟", "roman": "kyā plān hai?", "en": "What's the plan?" },
+    { "native": "چلو، فلم دیکھنے چلتے ہیں۔", "roman": "chalo, film dekhne chalte haiṃ.", "en": "Come on, let's go and see a film." },
+    { "native": "کہاں ملیں؟", "roman": "kahāṃ mileṃ?", "en": "Where shall we meet?" },
+    { "native": "اچھا آئیڈیا ہے!", "roman": "achchhā ā’īḍiyā hai!", "en": "Good idea!" },
+    { "native": "ٹینشن نہ لو۔", "roman": "ṭenshan na lo.", "en": "Don't stress. (informal)" },
+    { "native": "میں تمہیں لینے آ جاؤں گا۔", "roman": "maiṃ tumheṃ lene ā jā’ūṃ gā.", "en": "I'll come and pick you up." },
+    { "native": "میں راستے میں ہوں۔", "roman": "maiṃ rāste meṃ hūṃ.", "en": "I'm on my way." },
+    { "native": "بس نکلنے والا ہوں۔", "roman": "bas nikalne vālā hūṃ.", "en": "I'm just about to leave.", "note": "A woman says نکلنے والی ہوں." },
+    { "native": "پانچ منٹ میں پہنچ رہا ہوں۔", "roman": "pāṃch minaṭ meṃ pahuṃch rahā hūṃ.", "en": "I'll be there in five minutes.", "note": "Famously elastic: Pakistani \"five minutes\" can mean half an hour." },
+    { "native": "یار، تھوڑا لیٹ ہو جاؤں گا۔", "roman": "yār, thoṛā leṭ ho jā’ūṃ gā.", "en": "I'll be a bit late, man." },
+    { "native": "سوری یار، آج نہیں ہو سکے گا۔", "roman": "sorī yār, āj nahīṃ ho sake gā.", "en": "Sorry, I can't make it today." },
+    { "native": "پلان کینسل ہو گیا۔", "roman": "plān kainsil ho gayā.", "en": "The plan's off." },
+    { "native": "کسی اور دن رکھ لیتے ہیں۔", "roman": "kisī aur din rakh lete haiṃ.", "en": "Let's do it another day." },
+    { "native": "کون کون آ رہا ہے؟", "roman": "kaun kaun ā rahā hai?", "en": "Who all is coming?", "note": "Doubling کون asks for a list of people." }
+  ],
+  "grammar": [
+    {
+      "title": "Let's… and shall we…?",
+      "body": "Urdu has three everyday ways to suggest doing something together.\n\n**1. چلو + the ہم form of the present habitual** — the most common 'let's' among friends. It literally says 'come on, we do X': چلو، کچھ **کھاتے ہیں** 'come on, let's eat something'; چلو، **چلتے ہیں** 'let's go'. The verb is always **-تے ہیں**. Without چلو it still works: سات بجے **ملتے ہیں** 'let's meet at seven'. **ایسا کرتے ہیں…** means 'tell you what, let's…'.\n\n**2. The subjunctive (from unit 18)** for 'shall we…?': ہم کب **ملیں**؟ 'when shall we meet?', **چلیں**؟ 'shall we go?', فلم **دیکھیں**؟ 'shall we watch a film?'. **کیوں نہ** + subjunctive = 'why don't we…': کیوں نہ مال میں **ملیں**؟\n\n**3. Going somewhere to do something:** oblique infinitive (-نے) + چلنا / جانا: فلم **دیکھنے** چلتے ہیں 'let's go and see a film', چائے **پینے** چلیں؟ 'shall we go for tea?'.\n\nTo ask what the others think, add **کیا خیال ہے؟** 'what do you think?'. 'Let me…' is **مجھے … دو**: مجھے **سوچنے دو** 'let me think'.\n\n**Trap:** چلو + **-تے ہیں** means 'let's'; چلو + **-و** is an order to the other person: چلو، **کھاؤ** = 'come on, eat (you)!'.",
+      "examples": [
+        { "native": "چلو، کچھ کھاتے ہیں۔", "roman": "chalo, kuchh khāte haiṃ.", "en": "Come on, let's eat something." },
+        { "native": "آج رات کہیں باہر چلیں؟", "roman": "āj rāt kahīṃ bāhar chaleṃ?", "en": "Shall we go out somewhere tonight?" },
+        { "native": "ایسا کرتے ہیں، سات بجے ملتے ہیں۔", "roman": "aisā karte haiṃ, sāt baje milte haiṃ.", "en": "Tell you what — let's meet at seven." },
+        { "native": "ہم کب نکلیں؟", "roman": "ham kab nikleṃ?", "en": "When shall we leave?" },
+        { "native": "چلو، ساحل پر چلتے ہیں، کیا خیال ہے؟", "roman": "chalo, sāhil par chalte haiṃ, kyā xayāl hai?", "en": "Let's go to the beach — what do you think?" },
+        { "native": "مجھے سوچنے دو۔", "roman": "mujhe sochne do.", "en": "Let me think." }
+      ]
+    },
+    {
+      "title": "Commands among friends: تم, تو, نا and مت",
+      "body": "You met the three imperatives in unit 11. With friends, this is how they are really used:\n\n**تم form (-و)** — the normal way to tell a friend what to do: **آؤ**، **بتاؤ**، **سنو**، **چلو**. Use it with friends, younger siblings and cousins.\n**تو form (bare stem)** — **آ**، **بتا**، **سن**، **چل**. Between very close friends or brothers it sounds warm (چل یار!); to anyone else it is rude.\n**آپ form (-یے / -یں)** — for a friend's parents, elders, colleagues, strangers.\n\n**Making it friendlier:**\n- add **نا** after the verb to coax: آ جاؤ **نا**! 'oh, come on, come!', بتاؤ **نا**! 'go on, tell me!'\n- use a compound with **جانا / دینا**: آ **جاؤ** 'come (over)', بتا **دو** 'just tell me' — it sounds more natural than plain آؤ / بتاؤ.\n- add **ذرا** 'just': **ذرا** سنو 'listen a sec'.\n\n**Don't:** **نہ** + verb (نہ جاؤ) or the blunter **مت** (مت جاؤ). Never use مت with آپ, and never نہیں with an imperative.\n\n**Do it later:** the **infinitive** works as a command for later: پہنچ کر فون **کرنا** 'call when you get there', بھولنا مت 'don't forget'. With دینا it's a friendly reminder: فون کر **دینا**.",
+      "examples": [
+        { "native": "جلدی آ جاؤ نا!", "roman": "jaldī ā jā’o nā!", "en": "Oh come on, come quickly!" },
+        { "native": "ذرا سنو، کل فارغ ہو؟", "roman": "zarā suno, kal fāriġ ho?", "en": "Listen — are you free tomorrow?" },
+        { "native": "یار، ٹینشن مت لو۔", "roman": "yār, ṭenshan mat lo.", "en": "Don't stress, man." },
+        { "native": "پہنچ کر فون کر دینا۔", "roman": "pahuṃch kar fon kar denā.", "en": "Give me a call when you get there." },
+        { "native": "چل یار، چلتے ہیں!", "roman": "chal yār, chalte haiṃ!", "en": "Come on, mate, let's go! (very close friends)" },
+        { "native": "بتا دو، کیا پلان ہے۔", "roman": "batā do, kyā plān hai.", "en": "Just tell me what the plan is." }
+      ]
+    },
+    {
+      "title": "About to, on the way: نکلنے والا ہوں",
+      "body": "**About to:** oblique infinitive (-نے) + **والا / والی / والے** + ہونا. You used it for the weather in unit 13 (بارش ہونے والی ہے); it works for people too:\n\nمیں **نکلنے والا** ہوں 'I'm about to leave' (man) · **نکلنے والی** ہوں (woman) · ہم **نکلنے والے** ہیں (we)\nفلم **شروع ہونے والی** ہے 'the film's about to start' (فلم is f)\n\nAdd **بس** for 'just about to': **بس** پہنچنے والا ہوں.\n\n**Right now / any minute:** the present continuous also covers the very near future: میں **آ رہا ہوں** 'I'm coming', پانچ منٹ میں **پہنچ رہا ہوں** 'I'll be there in five minutes'.\n\n**Already set off:** **نکل گیا ہوں** 'I've left', **راستے میں ہوں** 'I'm on the way'. Not yet: ابھی **نہیں نکلا** 'haven't left yet'.\n\n**Running late:** either the person — **لیٹ ہو جاؤں گا** — or the dative — **مجھے دیر ہو جائے گی** (دیر is f, so ہو جائے **گی**).",
+      "examples": [
+        { "native": "ہم کھانا کھانے والے ہیں، آ جاؤ۔", "roman": "ham khānā khāne vāle haiṃ, ā jā’o.", "en": "We're about to eat — come over." },
+        { "native": "فلم شروع ہونے والی ہے!", "roman": "film shurūʿ hone vālī hai!", "en": "The film's about to start!" },
+        { "native": "میں گھر سے نکل گیا ہوں۔", "roman": "maiṃ ghar se nikal gayā hūṃ.", "en": "I've left home." },
+        { "native": "وہ راستے میں ہے، دس منٹ میں پہنچ جائے گا۔", "roman": "vo rāste meṃ hai, das minaṭ meṃ pahuṃch jā’e gā.", "en": "He's on his way — he'll be there in ten minutes." },
+        { "native": "ٹریفک بہت ہے، مجھے دیر ہو جائے گی۔", "roman": "ṭraifik bahut hai, mujhe der ho jā’e gī.", "en": "There's lots of traffic, I'm going to be late." },
+        { "native": "میں آ رہا ہوں، رکو!", "roman": "maiṃ ā rahā hūṃ, ruko!", "en": "I'm coming, wait!" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Friday night in Lahore",
+    "setting": "Zara phones Ali to make a plan; an hour later Ali calls Usman, who is late as usual.",
+    "lines": [
+      { "speaker": "Zara", "native": "علی، کیا کر رہے ہو؟ آج شام فارغ ہو؟", "roman": "ʿAlī, kyā kar rahe ho? āj shām fāriġ ho?", "en": "Ali, what are you up to? Free this evening?" },
+      { "speaker": "Ali", "native": "ہاں یار، بالکل فارغ ہوں۔ کیا پلان ہے؟", "roman": "hāṃ yār, bilkul fāriġ hūṃ. kyā plān hai?", "en": "Yeah, totally free. What's the plan?" },
+      { "speaker": "Zara", "native": "پیکجز مال میں نئی فلم لگی ہے۔ چلو دیکھتے ہیں!", "roman": "Paikejiz Māl meṃ na’ī film lagī hai. chalo dekhte haiṃ!", "en": "There's a new film on at Packages Mall. Let's go see it!" },
+      { "speaker": "Ali", "native": "اچھا آئیڈیا ہے۔ عثمان کو بھی بلا لیں؟", "roman": "achchhā ā’īḍiyā hai. ʿUsmān ko bhī bulā leṃ?", "en": "Good idea. Shall we ask Usman too?" },
+      { "speaker": "Zara", "native": "ہاں، لیکن اسے بولنا کہ وقت پر آئے۔ پچھلی بار پورا ایک گھنٹا لیٹ تھا!", "roman": "hāṃ, lekin use bolnā ki vaqt par ā’e. pichhlī bār pūrā ek ghanṭā leṭ thā!", "en": "Yes, but tell him to be on time. Last time he was a whole hour late!" },
+      { "speaker": "Ali", "native": "ہاہا، ٹھیک ہے۔ فلم کتنے بجے ہے؟", "roman": "hāhā, ṭhīk hai. film kitne baje hai?", "en": "Haha, OK. What time's the film?" },
+      { "speaker": "Zara", "native": "ساڑھے سات بجے۔ سات بجے مال کے باہر ملتے ہیں۔", "roman": "sāṛhe sāt baje. sāt baje māl ke bāhar milte haiṃ.", "en": "Half seven. Let's meet outside the mall at seven." },
+      { "speaker": "Ali", "native": "عثمان، کہاں ہو؟ فلم شروع ہونے والی ہے!", "roman": "ʿUsmān, kahāṃ ho? film shurūʿ hone vālī hai!", "en": "Usman, where are you? The film's about to start!" },
+      { "speaker": "Usman", "native": "بس یار، راستے میں ہوں۔ پانچ منٹ میں پہنچ رہا ہوں۔", "roman": "bas yār, rāste meṃ hūṃ. pāṃch minaṭ meṃ pahuṃch rahā hūṃ.", "en": "Nearly there, man, I'm on my way. Five minutes." },
+      { "speaker": "Ali", "native": "تمہارے پانچ منٹ؟ یعنی آدھا گھنٹا۔", "roman": "tumhāre pāṃch minaṭ? yaʿnī ādhā ghanṭā.", "en": "Your five minutes? So, half an hour." },
+      { "speaker": "Usman", "native": "قسم سے! کینال روڈ پر بہت ٹریفک ہے۔", "roman": "qasam se! Kenāl Roḍ par bahut ṭraifik hai.", "en": "I swear! There's loads of traffic on Canal Road." },
+      { "speaker": "Ali", "native": "ٹھیک ہے، ہم اندر جا رہے ہیں۔ جلدی آ جاؤ نا!", "roman": "ṭhīk hai, ham andar jā rahe haiṃ. jaldī ā jā’o nā!", "en": "OK, we're going in. Hurry up, will you!" },
+      { "speaker": "Usman", "native": "آ رہا ہوں، آ رہا ہوں! پاپ کارن میری طرف سے۔", "roman": "ā rahā hūṃ, ā rahā hūṃ! pāp kārn merī taraf se.", "en": "Coming, coming! Popcorn's on me." }
+    ]
+  },
+  "culture": "Plans in Pakistan are made late and loosely, usually in a WhatsApp group, and **'five minutes'** is famously elastic. Still, if you're running late, a quick **راستے میں ہوں** keeps everyone happy — even if you're still at home.\n\nSaying a flat 'no' sounds cold. Give a reason (**کل امتحان ہے**, **گھر پر مہمان ہیں**), say **سوری یار**, and offer another day: **کسی اور دن رکھ لیتے ہیں**. **ان شاء اللہ** can be a sincere 'hopefully' or a polite way of not committing — you'll learn to hear the difference. Many young people, especially women, also need to check with family first: **گھر والوں سے پوچھنا پڑے گا** is a perfectly normal answer.\n\nUse **تم** with friends; the **تو** form (چل، آ، بتا) is only for very close friends and sounds rude otherwise. If you ring a friend's house and a parent picks up, switch straight to **آپ** and **جی**: **السلام علیکم انکل، علی گھر پر ہے؟**\n\nFavourite hangouts: in Lahore, MM Alam Road, Liberty and the food streets; in Karachi, Sea View, Do Darya and Burns Road; in Islamabad, F-6 Kohsar Market and the drive up to Monal or Daman-e-Koh. Late-night chai at a **ڈھابہ** is a national institution — and in London, Bradford or Toronto the Pakistani chai spots fill up the same way.",
+  "lessons": [
+    {
+      "title": "Are you free?",
+      "tip": { "title": "Friends get تم, their parents get آپ", "body": "- With friends: **تم** فارغ **ہو**؟ — تم کیا کر رہے **ہو**؟\n- Add **یار** and you sound like a local: یار، کیا پلان ہے؟\n- A friend's mum or dad picks up? Switch to **آپ** and **جی**: انکل، علی گھر پر ہے؟\n- **فارغ** 'free' ↔ **مصروف** 'busy'." },
+      "new": ["فارغ", "مصروف", "پلان", "ویک اینڈ", "کہیں", "آج شام فارغ ہو؟", "کیا پلان ہے؟"],
+      "sentences": [
+        { "native": "تم کل شام فارغ ہو؟", "roman": "tum kal shām fāriġ ho?", "en": "Are you free tomorrow evening?", "focus": "ہو", "wrong": ["ہیں|haiṃ", "ہوں|hūṃ"] },
+        { "native": "نہیں یار، میں اس ویک اینڈ بہت مصروف ہوں۔", "roman": "nahīṃ yār, maiṃ is vīk enḍ bahut masrūf hūṃ.", "en": "No, man, I'm really busy this weekend.", "focus": "ہوں", "wrong": ["ہو|ho", "ہے|hai"] },
+        { "native": "انکل، آپ اتوار کو فارغ ہیں؟", "roman": "ankal, āp itvār ko fāriġ haiṃ?", "en": "Uncle, are you free on Sunday?", "focus": "ہیں", "wrong": ["ہو|ho", "ہے|hai"] },
+        { "native": "ویک اینڈ کا کیا پلان ہے؟", "roman": "vīk enḍ kā kyā plān hai?", "en": "What's the plan for the weekend?", "focus": "کا", "wrong": ["کی|kī", "کے|ke"] },
+        { "native": "تم آج کل بہت مصروف رہتے ہو۔", "roman": "tum āj kal bahut masrūf rahte ho.", "en": "You're always busy these days.", "focus": "رہتے", "wrong": ["رہتا|rahtā", "رہتیں|rahtīṃ"] },
+        { "native": "کیا تم لوگ کہیں جا رہے ہو؟", "roman": "kyā tum log kahīṃ jā rahe ho?", "en": "Are you guys going somewhere?", "focus": "کہیں", "wrong": ["کہاں|kahāṃ", "جہاں|jahāṃ"] },
+        { "native": "ابھی کوئی پلان نہیں ہے۔", "roman": "abhī ko’ī plān nahīṃ hai.", "en": "There's no plan yet." },
+        { "native": "میں دوپہر کے بعد فارغ ہوں گی۔", "roman": "maiṃ dopahar ke baʿd fāriġ hūṃ gī.", "en": "I'll be free after lunch." },
+        { "native": "انکل، علی گھر پر ہے؟", "roman": "ankal, ʿAlī ghar par hai?", "en": "Uncle, is Ali home?" }
+      ]
+    },
+    {
+      "title": "Let's go!",
+      "tip": { "title": "Let's: چلو … چلتے ہیں", "body": "- Friends say 'let's' with the **ہم** present: چلو، کھانا **کھاتے ہیں** 'let's eat'.\n- 'Shall we…?' uses the subjunctive: کہاں **ملیں**؟ سنیما **چلیں**؟\n- Go and do: **-نے** + چلنا: فلم **دیکھنے** چلتے ہیں.\n- Trap: چلو، **کھاؤ** is 'come on, (you) eat!', not 'let's eat'.", "pattern": "چلو، … -تے ہیں  ·  … -یں؟", "grammar": 0 },
+      "new": ["چلو", "فلم", "سنیما", "ڈنر", "آئیڈیا", "اکٹھے", "چلو، فلم دیکھنے چلتے ہیں۔", "کہاں ملیں؟", "اچھا آئیڈیا ہے!"],
+      "sentences": [
+        { "native": "چلو، آج باہر کھانا کھاتے ہیں۔", "roman": "chalo, āj bāhar khānā khāte haiṃ.", "en": "Come on, let's eat out today.", "focus": "کھاتے", "wrong": ["کھاتا|khātā", "کھایا|khāyā"] },
+        { "native": "کل سنیما چلیں؟", "roman": "kal sinemā chaleṃ?", "en": "Shall we go to the cinema tomorrow?", "focus": "چلیں", "wrong": ["چلا|chalā", "چلتا|chaltā"] },
+        { "native": "ہم سب اکٹھے ڈنر کرتے ہیں، کیا خیال ہے؟", "roman": "ham sab ikaṭṭhe ḍinar karte haiṃ, kyā xayāl hai?", "en": "Let's all have dinner together — what do you think?", "focus": "کرتے", "wrong": ["کرتا|kartā", "کرو|karo"] },
+        { "native": "کون سی فلم دیکھیں؟", "roman": "kaun sī film dekheṃ?", "en": "Which film shall we watch?", "focus": "دیکھیں", "wrong": ["دیکھا|dekhā", "دیکھتا|dekhtā"] },
+        { "native": "ڈنر کے بعد چائے پینے چلیں؟", "roman": "ḍinar ke baʿd chā’e pīne chaleṃ?", "en": "Shall we go for tea after dinner?", "focus": "پینے", "wrong": ["پینا|pīnā", "پیو|piyo"] },
+        { "native": "اچھا آئیڈیا ہے، چلو چلتے ہیں!", "roman": "achchhā ā’īḍiyā hai, chalo chalte haiṃ!", "en": "Good idea, let's go!", "focus": "چلتے", "wrong": ["چلتا|chaltā", "چلی|chalī"] },
+        { "native": "کہاں ملیں؟ تمہارے گھر کے پاس؟", "roman": "kahāṃ mileṃ? tumhāre ghar ke pās?", "en": "Where shall we meet? Near your place?", "focus": "ملیں", "wrong": ["ملا|milā", "ملتا|miltā"] },
+        { "native": "آج کوئی اچھی فلم لگی ہے؟", "roman": "āj ko’ī achchhī film lagī hai?", "en": "Is there a good film on today?" },
+        { "native": "ہم سب اکٹھے چلیں گے۔", "roman": "ham sab ikaṭṭhe chaleṃ ge.", "en": "We'll all go together." }
+      ]
+    },
+    {
+      "title": "Come on, don't stress!",
+      "tip": { "title": "Friendly commands: آ جاؤ نا! مت لو", "body": "- Friends get the **-و** form: آؤ، بتاؤ، چلو. Very close friends: bare stem **چل، آ** (rude to others).\n- Coax with **نا**: آ جاؤ **نا**! Soften with **ذرا** or a compound: بتا **دو**.\n- Don't: **نہ** or blunter **مت** — never نہیں.\n- For later: infinitive + دینا: فون کر **دینا** 'give me a call'.", "pattern": "آ جاؤ نا!  ·  مت جاؤ  ·  فون کر دینا", "grammar": 1 },
+      "new": ["نا", "مت", "بائیک", "ٹینشن نہ لو۔", "میں تمہیں لینے آ جاؤں گا۔"],
+      "sentences": [
+        { "native": "آ جاؤ نا، بہت مزہ آئے گا!", "roman": "ā jā’o nā, bahut maza ā’e gā!", "en": "Oh come on, it'll be loads of fun!", "focus": "جاؤ", "wrong": ["جاتا|jātā", "گیا|gayā"] },
+        { "native": "ابھی گھر مت جاؤ، یار۔", "roman": "abhī ghar mat jā’o, yār.", "en": "Don't go home yet, man.", "focus": "مت", "wrong": ["نہیں|nahīṃ", "کب|kab"] },
+        { "native": "ٹینشن مت لو، میں آ رہا ہوں۔", "roman": "ṭenshan mat lo, maiṃ ā rahā hūṃ.", "en": "Don't stress, I'm coming.", "focus": "لو", "wrong": ["لیا|liyā", "لیتا|letā"] },
+        { "native": "بائیک پر آؤ گے یا میں لینے آؤں؟", "roman": "bā’ik par ā’o ge yā maiṃ lene ā’ūṃ?", "en": "Are you coming on your bike, or shall I come and get you?", "focus": "لینے", "wrong": ["لینا|lenā", "لو|lo"] },
+        { "native": "ذرا جلدی کرو نا!", "roman": "zarā jaldī karo nā!", "en": "Hurry up a bit, will you!", "focus": "کرو", "wrong": ["کرتے|karte", "کیا|kiyā"] },
+        { "native": "مجھے بتا دو، تم آ رہے ہو یا نہیں۔", "roman": "mujhe batā do, tum ā rahe ho yā nahīṃ.", "en": "Just tell me whether you're coming or not.", "focus": "دو", "wrong": ["دیا|diyā", "دیتا|detā"] },
+        { "native": "گھر پہنچ کر فون کر دینا۔", "roman": "ghar pahuṃch kar fon kar denā.", "en": "Give me a call when you get home.", "focus": "دینا", "wrong": ["دیا|diyā", "دیتا|detā"] },
+        { "native": "چل یار، دیر ہو رہی ہے!", "roman": "chal yār, der ho rahī hai!", "en": "Come on, mate, it's getting late!" },
+        { "native": "یار، اتنی ٹینشن کیوں لے رہے ہو؟", "roman": "yār, itnī ṭenshan kyoṃ le rahe ho?", "en": "Why are you so stressed, man?" }
+      ]
+    },
+    {
+      "title": "I'm on my way",
+      "tip": { "title": "About to: نکلنے والا ہوں", "body": "- **-نے + والا / والی / والے + ہونا** = about to: میں **نکلنے والا** ہوں, سارہ **نکلنے والی** ہے.\n- **بس** = 'just': بس پہنچنے والا ہوں.\n- The present continuous covers 'any minute now': پانچ منٹ میں **پہنچ رہا ہوں**.\n- Already left: **نکل گیا ہوں** · **راستے میں ہوں**.", "pattern": "-نے والا / والی / والے ہوں", "grammar": 2 },
+      "new": ["نکلنا", "راستے میں", "ٹریفک", "میں راستے میں ہوں۔", "بس نکلنے والا ہوں۔", "پانچ منٹ میں پہنچ رہا ہوں۔"],
+      "sentences": [
+        { "native": "سارہ گھر سے نکلنے والی ہے۔", "roman": "Sāra ghar se nikalne vālī hai.", "en": "Sara is about to leave home.", "focus": "والی", "wrong": ["والا|vālā", "والے|vāle"] },
+        { "native": "کھانا ٹھنڈا ہونے والا ہے، جلدی آؤ!", "roman": "khānā ṭhanḍā hone vālā hai, jaldī ā’o!", "en": "The food's about to go cold — come quickly!", "focus": "ہونے", "wrong": ["ہونا|honā", "ہوتا|hotā"] },
+        { "native": "وہ راستے میں ہیں، بس پہنچنے والے ہیں۔", "roman": "vo rāste meṃ haiṃ, bas pahuṃchne vāle haiṃ.", "en": "They're on the way, just about to arrive.", "focus": "والے", "wrong": ["والا|vālā", "والی|vālī"] },
+        { "native": "میں نکل گیا ہوں، دس منٹ میں پہنچ رہا ہوں۔", "roman": "maiṃ nikal gayā hūṃ, das minaṭ meṃ pahuṃch rahā hūṃ.", "en": "I've left — I'll be there in ten minutes.", "focus": "نکل", "wrong": ["نکلا|niklā", "نکلنے|nikalne"] },
+        { "native": "یہاں بہت ٹریفک ہے، میں ابھی راستے میں ہوں۔", "roman": "yahāṃ bahut ṭraifik hai, maiṃ abhī rāste meṃ hūṃ.", "en": "There's loads of traffic here, I'm still on the way.", "focus": "راستے", "wrong": ["راستہ|rāsta", "راستوں|rāstoṃ"] },
+        { "native": "تم کب نکل رہے ہو؟", "roman": "tum kab nikal rahe ho?", "en": "When are you leaving?", "focus": "رہے", "wrong": ["رہا|rahā", "رہیں|raheṃ"] },
+        { "native": "علی ابھی گھر سے نہیں نکلا۔", "roman": "ʿAlī abhī ghar se nahīṃ niklā.", "en": "Ali hasn't even left home yet.", "focus": "نکلا", "wrong": ["نکلی|niklī", "نکلے|nikle"] },
+        { "native": "ہاں ہاں، بس نکلنے والا ہوں!", "roman": "hāṃ hāṃ, bas nikalne vālā hūṃ!", "en": "Yes, yes, I'm just about to leave!", "focus": "نکلنے", "wrong": ["نکلنا|nikalnā", "نکلو|niklo"] },
+        { "native": "بس دو منٹ، میں نیچے آ رہی ہوں۔", "roman": "bas do minaṭ, maiṃ nīche ā rahī hūṃ.", "en": "Two minutes — I'm coming down." }
+      ]
+    },
+    {
+      "title": "Running late or can't make it",
+      "tip": { "title": "Saying no nicely", "body": "- Say sorry and give a reason: **سوری یار**، کل امتحان ہے.\n- **آج نہیں ہو سکے گا** 'it won't work out today' is softer than میں نہیں آؤں گا.\n- Offer another time: **کسی اور دن** رکھ لیتے ہیں.\n- Late: **میں لیٹ ہو جاؤں گا** = **مجھے دیر ہو جائے گی**." },
+      "new": ["لیٹ", "کینسل", "ٹائم", "یار، تھوڑا لیٹ ہو جاؤں گا۔", "سوری یار، آج نہیں ہو سکے گا۔", "پلان کینسل ہو گیا۔", "کسی اور دن رکھ لیتے ہیں۔"],
+      "sentences": [
+        { "native": "سوری یار، میں لیٹ ہو گیا۔", "roman": "sorī yār, maiṃ leṭ ho gayā.", "en": "Sorry, man, I'm late.", "focus": "گیا", "wrong": ["گئے|ga’e", "گئیں|ga’īṃ"] },
+        { "native": "مجھے تھوڑی دیر ہو جائے گی۔", "roman": "mujhe thoṛī der ho jā’e gī.", "en": "I'll be a little late.", "focus": "گی", "wrong": ["گا|gā", "گے|ge"] },
+        { "native": "آج میرے پاس ٹائم نہیں ہے، کل چلیں؟", "roman": "āj mere pās ṭā’im nahīṃ hai, kal chaleṃ?", "en": "I haven't got time today — tomorrow?", "focus": "میرے", "wrong": ["میرا|merā", "میری|merī"] },
+        { "native": "بارش ہو رہی ہے، اسی لیے پلان کینسل کر دیا۔", "roman": "bārish ho rahī hai, isī liye plān kainsil kar diyā.", "en": "It's raining, so we've called it off.", "focus": "دیا", "wrong": ["دی|dī", "دیے|diye"] },
+        { "native": "سوری، آج نہیں آ سکوں گا، کل امتحان ہے۔", "roman": "sorī, āj nahīṃ ā sakūṃ gā, kal imtihān hai.", "en": "Sorry, I can't come today — I've got an exam tomorrow.", "focus": "سکوں", "wrong": ["سکے|sake", "سکو|sako"] },
+        { "native": "کوئی بات نہیں، کسی اور دن چلیں گے۔", "roman": "ko’ī bāt nahīṃ, kisī aur din chaleṃ ge.", "en": "No worries, we'll go another day.", "focus": "کسی", "wrong": ["کوئی|ko’ī", "کس|kis"] },
+        { "native": "تم ہمیشہ لیٹ ہوتے ہو!", "roman": "tum hamesha leṭ hote ho!", "en": "You're always late!", "focus": "ہوتے", "wrong": ["ہوتا|hotā", "ہوئے|hu’e"] },
+        { "native": "کل کس ٹائم فارغ ہو؟", "roman": "kal kis ṭā’im fāriġ ho?", "en": "What time are you free tomorrow?" },
+        { "native": "فلم کا پلان کینسل ہو گیا؟ کیوں؟", "roman": "film kā plān kainsil ho gayā? kyoṃ?", "en": "The film plan is off? Why?" }
+      ]
+    },
+    {
+      "title": "Who's coming, and where?",
+      "new": ["بندہ", "جگہ", "شو", "ڈھابہ", "مال", "ساحل", "پارک", "فائنل", "کون کون آ رہا ہے؟"],
+      "sentences": [
+        { "native": "کتنے بندے آ رہے ہیں؟", "roman": "kitne bande ā rahe haiṃ?", "en": "How many people are coming?", "focus": "بندے", "wrong": ["بندہ|banda", "بندوں|bandoṃ"] },
+        { "native": "کون کون آ رہا ہے؟ صرف ہم پانچ؟", "roman": "kaun kaun ā rahā hai? sirf ham pāṃch?", "en": "Who all is coming? Just the five of us?" },
+        { "native": "اتوار کو ساحل پر چلیں؟", "roman": "itvār ko sāhil par chaleṃ?", "en": "Shall we go to the beach on Sunday?", "focus": "چلیں", "wrong": ["چلا|chalā", "چلتا|chaltā"] },
+        { "native": "کیوں نہ ہم مال میں ملیں؟", "roman": "kyoṃ na ham māl meṃ mileṃ?", "en": "Why don't we meet at the mall?", "focus": "ملیں", "wrong": ["ملا|milā", "ملتے|milte"] },
+        { "native": "رات کو ڈھابے پر چائے پیتے ہیں۔", "roman": "rāt ko ḍhābe par chā’e pīte haiṃ.", "en": "Let's have chai at the dhaba tonight.", "focus": "ڈھابے", "wrong": ["ڈھابہ|ḍhāba", "ڈھابوں|ḍhāboṃ"] },
+        { "native": "پارک میں کرکٹ کھیلنے چلو گے؟", "roman": "pārk meṃ krikeṭ khelne chalo ge?", "en": "Want to come and play cricket in the park?", "focus": "کھیلنے", "wrong": ["کھیلنا|khelnā", "کھیلو|khelo"] },
+        { "native": "تو پلان فائنل ہے؟", "roman": "to plān fā’inal hai?", "en": "So the plan is on?" },
+        { "native": "ہاں، فائنل ہے: سات بجے، ڈھابے پر۔", "roman": "hāṃ, fā’inal hai: sāt baje, ḍhābe par.", "en": "Yes, it's on: seven o'clock, at the dhaba." },
+        { "native": "وہ بندہ کون ہے؟", "roman": "vo banda kaun hai?", "en": "Who's that guy?" },
+        { "native": "کوئی اچھی جگہ بتاؤ، جہاں بیٹھ کر باتیں کر سکیں۔", "roman": "ko’ī achchhī jagah batā’o, jahāṃ baiṭh kar bāteṃ kar sakeṃ.", "en": "Suggest a nice place where we can sit and talk.", "focus": "جگہ", "wrong": ["جگہیں|jagaheṃ", "جگہوں|jagahoṃ"] },
+        { "native": "شو کتنے بجے کا ہے؟", "roman": "sho kitne baje kā hai?", "en": "What time's the show?", "focus": "کا", "wrong": ["کی|kī", "کو|ko"] }
+      ]
+    }
+  ]
+}
