@@ -1,0 +1,177 @@
+{
+  "id": 22,
+  "title": "Calls, texts & voice notes",
+  "goal": "Handle phone calls (can you hear me?, call you back, it got cut off), talk about messages, voice notes and locations, and say 'do X and then Y', 'just', 'already', 'still' and 'not yet'.",
+  "intro": "Half of your Odia will happen on the phone: calls that break up, missed calls, WhatsApp groups, voice notes and 'send me the location'. Odia phone talk mixes native verbs with English nouns: you **ଫୋନ କରିବା** 'phone', **ମେସେଜ୍ କରିବା** 'message', **ଲୋକେସନ୍ ପଠାଇବା** 'send the location'.\n\nThe grammar in this unit is what makes your sentences flow. The **-ଇ form** (ଖାଇ, ପହଞ୍ଚି, ଦେଖି) strings actions together, 'get home *and* text me', and the endings and small words for **just** (ଏଇମାତ୍ର), **already** (-ଣି), **still** (ଏବେ ବି) and **not yet** (ଏପର୍ଯ୍ୟନ୍ତ … ନାହିଁ) are what you need to answer 'have you got there yet?' a dozen times a day.",
+  "vocab": [
+    { "native": "ଫୋନ କରିବା", "roman": "phonô kôriba", "en": "to phone, call", "pos": "verb", "note": "ମୋତେ ଫୋନ କର 'call me'. Also କଲ୍ କରିବା." },
+    { "native": "ହେଲୋ", "roman": "helo", "en": "hello (on the phone)", "pos": "interj", "note": "Phone calls start with ହେଲୋ, not ନମସ୍କାର, though you add ନମସ୍କାର for elders." },
+    { "native": "ଉଠାଇବା", "roman": "uṭhaiba", "en": "to pick up (the phone); to lift; to take (a photo)", "pos": "verb", "note": "ଫୋନ ଉଠାଅ! 'pick up!'; ଫଟୋ ଉଠାଇବା 'to take a photo'." },
+    { "native": "ଶୁଭିବା", "roman": "subhiba", "en": "to be heard, be audible", "pos": "verb", "note": "Impersonal, like 'it is heard': ତୁମ କଥା ଶୁଭୁନି 'I can't hear you' (lit. 'your words aren't audible'). Compare ଶୁଣିବା 'to listen, hear'." },
+    { "native": "ଜୋରରେ", "roman": "jorôre", "en": "loudly; hard, with force", "pos": "adv", "note": "ଟିକେ ଜୋରରେ କୁହ 'speak up a bit'. Opposite: ଧୀରେ 'softly, slowly'." },
+    { "native": "ନେଟୱାର୍କ", "roman": "neṭwark", "en": "network; phone signal", "pos": "noun", "note": "ନେଟୱାର୍କ ନାହିଁ 'no signal'. Also ଟାୱାର୍ ନାହିଁ (ṭawar) 'no tower', which means the same." },
+    { "native": "କଲ୍", "roman": "kôl", "en": "a (phone) call", "pos": "noun", "note": "କଲ୍ ଆସୁଛି 'a call's coming in'; କଲରେ ଅଛି 'I'm on a call'." },
+    { "native": "ମିସ୍ କଲ୍", "roman": "mis kôl", "en": "missed call", "pos": "noun", "note": "ମିସ୍ କଲ୍ ଦେବା 'to give a missed call', i.e. ring once and hang up on purpose, as a free signal ('I'm downstairs', 'call me back')." },
+    { "native": "ଫୋନ ରଖିବା", "roman": "phonô rôkhiba", "en": "to hang up", "pos": "verb", "note": "ହଉ, ଫୋନ ରଖୁଛି 'OK, I'm hanging up' is the standard way to end a call. Lit. 'to put the phone down'." },
+    { "native": "ସାଇଲେଣ୍ଟ୍", "roman": "saileṇṭ", "en": "silent (mode)", "pos": "adj", "note": "ଫୋନ ସାଇଲେଣ୍ଟରେ ଥିଲା \"my phone was on silent\", the universal excuse." },
+    { "native": "ମେସେଜ୍", "roman": "mesej", "en": "message, text", "pos": "noun", "note": "ମେସେଜ୍ କରିବା / ମେସେଜ୍ ପଠାଇବା 'to message, text'." },
+    { "native": "ୱାଟସଆପ୍", "roman": "waṭsap", "en": "WhatsApp", "pos": "noun", "note": "ୱାଟସଆପରେ ପଠାଅ 'send it on WhatsApp'. Often just ୱାଟସଆପ୍ କରିବା 'to WhatsApp (someone)'." },
+    { "native": "ଲୋକେସନ୍", "roman": "lokesôn", "en": "location (pin)", "pos": "noun", "note": "ଲୋକେସନ୍ ପଠାଅ 'send the location'; ଲାଇଭ୍ ଲୋକେସନ୍ 'live location'." },
+    { "native": "ଫଟୋ", "roman": "phôṭo", "en": "photo", "pos": "noun", "note": "ଫଟୋ ଉଠାଇବା 'to take a photo'." },
+    { "native": "ନମ୍ବର", "roman": "nômbôrô", "en": "(phone) number", "pos": "noun", "note": "ତୁମ ନମ୍ବର ଦିଅ 'give me your number'." },
+    { "native": "ଏଇମାତ୍ର", "roman": "eimatrô", "en": "just now, a moment ago", "pos": "adv", "note": "With a past verb: ଏଇମାତ୍ର ପହଞ୍ଚିଲି 'I've just arrived'. Also ଏବେ ଏବେ." },
+    { "native": "ଏବେ ବି", "roman": "ebe bi", "en": "still (even now)", "pos": "adv", "note": "ସେ ଏବେ ବି ଶୋଇଛି 'he's still asleep'." },
+    { "native": "ଏପର୍ଯ୍ୟନ୍ତ", "roman": "epôrjyôntô", "en": "so far; (with a negative) yet", "pos": "adv", "note": "ଏପର୍ଯ୍ୟନ୍ତ ଆସି ନାହିଁ 'hasn't come yet'. Colloquially ଏଯାଏ (ejae)." },
+    { "native": "ସାରିବା", "roman": "sariba", "en": "to finish (doing something)", "pos": "verb", "note": "On its own: କାମ ସାରିଲି 'I finished work'. After an -ଇ form it means 'already, completely': ଖାଇସାରିଲି 'I've finished eating'." },
+    { "native": "ରିପ୍ଲାଏ", "roman": "riplae", "en": "reply", "pos": "noun", "note": "ରିପ୍ଲାଏ ଦେବା / ରିପ୍ଲାଏ କରିବା 'to reply'. Native: ଉତ୍ତର ଦେବା." },
+    { "native": "ଅନଲାଇନ୍", "roman": "ônlain", "en": "online", "pos": "adj" },
+    { "native": "ଭଏସ୍ ମେସେଜ୍", "roman": "bhôes mesej", "en": "voice note, voice message", "pos": "noun" },
+    { "native": "ଭିଡିଓ କଲ୍", "roman": "bhiḍio kôl", "en": "video call", "pos": "noun", "note": "ଭିଡିଓ କଲ୍ କରିବା 'to video-call'." },
+    { "native": "ଗ୍ରୁପ୍", "roman": "grup", "en": "group (chat)", "pos": "noun", "note": "ଗ୍ରୁପରେ 'in the group'; ପରିବାର ଗ୍ରୁପ୍ 'the family group'." },
+    { "native": "କଟିଯିବା", "roman": "kôṭijiba", "en": "(of a call) to get cut off, drop", "pos": "verb", "note": "ଫୋନ କଟିଗଲା 'the call dropped'. Deliberately ending it is ଫୋନ କାଟିଦେବା 'to cut the call'." },
+    { "native": "ବ୍ୟାଟେରୀ", "roman": "byaṭeri", "en": "battery", "pos": "noun" },
+    { "native": "ସରିବା", "roman": "sôriba", "en": "to run out, be used up; to end", "pos": "verb", "note": "ବ୍ୟାଟେରୀ ସରିଯାଉଛି 'the battery's dying'; ଡାଟା ସରିଗଲା 'my data ran out'. Compare ସାରିବା 'to finish (something)'." }
+  ],
+  "phrases": [
+    { "native": "ହେଲୋ, କିଏ କହୁଛନ୍ତି?", "roman": "helo, kie kôhuchhônti?", "en": "Hello, who's speaking?", "note": "Uses the respectful verb, because you don't know who it is yet." },
+    { "native": "ମୋ କଥା ଶୁଭୁଛି?", "roman": "mo kôtha subhuchhi?", "en": "Can you hear me?" },
+    { "native": "ତୁମ କଥା ଶୁଭୁନି।", "roman": "tumô kôtha subhuni.", "en": "I can't hear you.", "note": "ଶୁଭୁନି is the colloquial form of ଶୁଭୁ ନାହିଁ." },
+    { "native": "ଟିକେ ଜୋରରେ କୁହ।", "roman": "ṭike jorôre kuhô.", "en": "Speak up a bit. (familiar)" },
+    { "native": "ନେଟୱାର୍କ ନାହିଁ।", "roman": "neṭwark nahiṃ.", "en": "There's no signal." },
+    { "native": "ଫୋନ କଟିଗଲା।", "roman": "phonô kôṭigôla.", "en": "The call got cut off." },
+    { "native": "ମୁଁ ପରେ ଫୋନ କରୁଛି।", "roman": "muṃ pôre phonô kôruchhi.", "en": "I'll call you back.", "note": "Present continuous as a promise, like \"I'm calling you back later\"." },
+    { "native": "ମୁଁ ମିଟିଂରେ ଅଛି।", "roman": "muṃ miṭiṅre ôchhi.", "en": "I'm in a meeting." },
+    { "native": "ତୋର ମିସ୍ କଲ୍ ଦେଖିଲି।", "roman": "torô mis kôl dekhili.", "en": "I saw your missed call. (intimate)" },
+    { "native": "ଫୋନ ଉଠାଇଲ ନାହିଁ କାହିଁକି?", "roman": "phonô uṭhailô nahiṃ kahiṃki?", "en": "Why didn't you pick up? (familiar)" },
+    { "native": "ଲୋକେସନ୍ ପଠାଅ।", "roman": "lokesôn pôṭhaô.", "en": "Send me the location. (familiar)", "note": "To a ତୁ-friend: ଲୋକେସନ୍ ପଠା." },
+    { "native": "ମେସେଜ୍ କରିଦେବି।", "roman": "mesej kôridebi.", "en": "I'll drop you a message." },
+    { "native": "ପହଞ୍ଚିକରି ମେସେଜ୍ କରିବି।", "roman": "pôhôñchikôri mesej kôribi.", "en": "I'll text when I get there." },
+    { "native": "ମୋ ବ୍ୟାଟେରୀ ସରିଯାଉଛି।", "roman": "mo byaṭeri sôrijauchhi.", "en": "My battery's dying." }
+  ],
+  "grammar": [
+    {
+      "title": "Do X and then Y: the -ଇ form (ଖାଇ, ପହଞ୍ଚି, ଦେଖି)",
+      "body": "English joins actions with 'and (then)': 'get home and text me'. Odia puts the first action in the **-ଇ form** (the conjunctive participle, 'having done') and only the **last** verb carries tense and person:\nଘରେ **ପହଞ୍ଚି** ମେସେଜ୍ କରିବି 'I'll get home and (then) text you'.\n\n**Forming it**: stem + **-ଇ**: ଦେଖ- → ଦେଖି, ପଢ଼- → ପଢ଼ି, ପହଞ୍ଚ- → ପହଞ୍ଚି, ଉଠା- → ଉଠାଇ, ଖା- → ଖାଇ. Irregular-looking but common: କରି (do), ଯାଇ (go), ଆସି (come), ଦେଇ (give), ନେଇ (take), ହୋଇ (become).\n\n**Colloquial -ଇକରି**: in speech you often hear the longer form: ଖାଇକରି, ପହଞ୍ଚିକରି. It means exactly the same.\n\n**Without doing**: ନ + -ଇ form: କାହାକୁ **ନ କହି** ଚାଲିଗଲା 'he left without telling anyone'.\n\nYou've already met it in set phrases: ଦୟାକରି 'please' (lit. 'having done kindness'), ସମସ୍ତେ ମିଶି 'all together' (lit. 'having joined'), ସିଧା ଯାଇ ବାଁକୁ ବୁଲନ୍ତୁ.\n\n**Trap**: both actions should have the **same subject**. If someone else does the first action ('when *you* arrive, *I'll* call'), use the -ଲେ form from Unit 19: ତୁମେ ପହଞ୍ଚିଲେ ମୁଁ ଫୋନ କରିବି.",
+      "examples": [
+        { "native": "ମୁଁ ଗାଧୋଇ ଆସୁଛି।", "roman": "muṃ gadhoi asuchhi.", "en": "I'll have a quick shower and come." },
+        { "native": "ଫଟୋ ଉଠାଇ ଗ୍ରୁପରେ ପଠାଇଦେ।", "roman": "phôṭo uṭhai grupôre pôṭhaide.", "en": "Take a photo and send it to the group." },
+        { "native": "ସେ ମୋ କଥା ନ ଶୁଣି ଫୋନ ରଖିଦେଲା।", "roman": "se mo kôtha nô suṇi phonô rôkhidela.", "en": "He hung up without listening to me." },
+        { "native": "ଘରେ ପହଞ୍ଚିକରି ଫୋନ କରିବୁ।", "roman": "ghôre pôhôñchikôri phonô kôribu.", "en": "Call me once you get home. (intimate)" },
+        { "native": "ଷ୍ଟେସନରୁ ଅଟୋ ନେଇ ସିଧା ଆସ।", "roman": "sṭesônôru ôṭo nei sidha asô.", "en": "Get an auto from the station and come straight here." }
+      ]
+    },
+    {
+      "title": "Just, already, still, not yet",
+      "body": "**Just (now)**: **ଏଇମାତ୍ର** (or ଏବେ ଏବେ) + past: ମୁଁ ଏଇମାତ୍ର ଉଠିଲି 'I've just woken up'.\n\n**Already**: add **-ଣି** to a past verb. It means 'already / by now' and is everywhere in speech:\nମୁଁ ଖାଇଲି**ଣି** — I've already eaten\nଆମେ / ତୁ ଖାଇଲୁ**ଣି** — we / you (intimate) have already eaten\nତୁମେ ଖାଇଲ**ଣି** — you (familiar) …\nସେ ଖାଇଲା**ଣି** — he/she …\nଆପଣ / ସେମାନେ ଖାଇଲେ**ଣି** — you (formal) / they …\nAs a question it means 'yet?': ପହଞ୍ଚିଲ**ଣି**? 'have you got there yet?' Add **ସାରି-** for 'already finished': ଖାଇସାରିଲିଣି 'I've already finished eating'.\n\n**Still**: **ଏବେ ବି** 'even now' + a present or perfect: ସେ ଏବେ ବି ଅଫିସରେ ଅଛି 'he's still at the office'.\n\n**Not yet**: **ଏପର୍ଯ୍ୟନ୍ତ** (colloquially ଏଯାଏ) + the **-ଇ + ନାହିଁ** negative from Unit 16: ସେ ଏପର୍ଯ୍ୟନ୍ତ ରିପ୍ଲାଏ ଦେଇ ନାହିଁ 'he hasn't replied yet'. In fast speech: ଦେଇନି, ଆସିନି, ଖାଇନି. A one-word answer to 'already?' is ନା, ଏପର୍ଯ୍ୟନ୍ତ ନାହିଁ 'no, not yet'.\n\n**Trap**: ବି alone means 'also'; only ଏବେ ବି means 'still'.",
+      "examples": [
+        { "native": "ମୁଁ ଏଇମାତ୍ର ଉଠିଲି।", "roman": "muṃ eimatrô uṭhili.", "en": "I've just woken up." },
+        { "native": "ସେ ପହଞ୍ଚିଲାଣି।", "roman": "se pôhôñchilaṇi.", "en": "He's already arrived." },
+        { "native": "ତୁମେ ଖାଇଲଣି?", "roman": "tume khailôṇi?", "en": "Have you eaten yet?" },
+        { "native": "ସେ ଏବେ ବି ଅଫିସରେ ଅଛି।", "roman": "se ebe bi ôphisôre ôchhi.", "en": "She's still at the office." },
+        { "native": "ମୁଁ ଏପର୍ଯ୍ୟନ୍ତ ଟିକଟ ବୁକ୍ କରି ନାହିଁ।", "roman": "muṃ epôrjyôntô ṭikôṭô buk kôri nahiṃ.", "en": "I haven't booked the ticket yet." },
+        { "native": "ସିନେମା ଆରମ୍ଭ ହେଲାଣି।", "roman": "sinema arômbhô helaṇi.", "en": "The film has already started." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Send the location!",
+    "setting": "Sam is trying to find Lipsa's new flat in Patia, Bhubaneswar, for her housewarming. He calls her from the main road.",
+    "lines": [
+      { "speaker": "Sam", "native": "ହେଲୋ, ଲିପ୍ସା? ମୁଁ ସାମ୍ କହୁଛି।", "roman": "helo, Lipsa? muṃ Sam kôhuchhi.", "en": "Hello, Lipsa? It's Sam." },
+      { "speaker": "Lipsa", "native": "ହେଲୋ? ସାମ୍? ତୁମ କଥା ଠିକ୍ ଶୁଭୁନି…", "roman": "helo? Sam? tumô kôtha ṭhik subhuni…", "en": "Hello? Sam? I can't really hear you…" },
+      { "speaker": "Sam", "native": "ମୁଁ ପାଟିଆ ଛକରେ ଅଛି। ତୁମ ଘର କେଉଁଠି?", "roman": "muṃ Paṭia chhôkôre ôchhi. tumô ghôrô keuṃṭhi?", "en": "I'm at Patia junction. Where's your place?" },
+      { "speaker": "Lipsa", "native": "କ'ଣ? ଟିକେ ଜୋରରେ କୁହ! ଏଠି ନେଟୱାର୍କ ଖରାପ।", "roman": "kôṇô? ṭike jorôre kuhô! eṭhi neṭwark khôrapô.", "en": "What? Speak up a bit! The signal's bad here." },
+      { "speaker": "Sam", "native": "ପାଟିଆ… ଛକ… ହେଲୋ? ଆରେ, ଫୋନ କଟିଗଲା।", "roman": "Paṭia… chhôkô… helo? are, phonô kôṭigôla.", "en": "Patia… junction… hello? Oh no, it cut off." },
+      { "speaker": "Lipsa", "native": "ସରି, ମୁଁ ବାରଣ୍ଡାକୁ ଆସିଲି। ଏବେ ଶୁଭୁଛି?", "roman": "sôri, muṃ barôṇḍaku asili. ebe subhuchhi?", "en": "Sorry, I've come out onto the balcony. Can you hear me now?" },
+      { "speaker": "Sam", "native": "ହଁ, ଏବେ ଠିକ୍ ଅଛି। ମୁଁ ଅଧ ଘଣ୍ଟା ହେଲା ବୁଲୁଛି!", "roman": "hôṃ, ebe ṭhik ôchhi. muṃ ôdhô ghôṇṭa hela buluchhi!", "en": "Yes, it's fine now. I've been going round in circles for half an hour!" },
+      { "speaker": "Lipsa", "native": "ଅଧ ଘଣ୍ଟା? ମୁଁ ତ ଲୋକେସନ୍ ପଠାଇଦେଇଥିଲି!", "roman": "ôdhô ghôṇṭa? muṃ tô lokesôn pôṭhaideithili!", "en": "Half an hour? But I sent you the location!" },
+      { "speaker": "Sam", "native": "କେବେ? ମୋ ୱାଟସଆପରେ ଏପର୍ଯ୍ୟନ୍ତ କିଛି ଆସିନି।", "roman": "kebe? mo waṭsapôre epôrjyôntô kichhi asini.", "en": "When? Nothing's come through on my WhatsApp yet." },
+      { "speaker": "Lipsa", "native": "ରୁହ, ଦେଖୁଛି… ଓହୋ! ମୁଁ ଭୁଲରେ ଅଫିସ୍ ଗ୍ରୁପରେ ପଠାଇଦେଲି!", "roman": "ruhô, dekhuchhi… oho! muṃ bhulôre ôphis grupôre pôṭhaideli!", "en": "Hang on, let me look… oh no! I sent it to the office group by mistake!" },
+      { "speaker": "Sam", "native": "ହା ହା! ବୋଧହୁଏ ଆଜି ତୁମ ମାଲିକ ବି ଆସିବେ।", "roman": "ha ha! bodhôhue aji tumô malikô bi asibe.", "en": "Ha ha! Maybe your boss will turn up too today." },
+      { "speaker": "Lipsa", "native": "ଚୁପ୍! ଏଇମାତ୍ର ତୁମକୁ ପଠାଇଲି। ଦେଖି ସିଧା ଚାଲିଆସ, ମୁଁ ତଳେ ଅପେକ୍ଷା କରୁଛି।", "roman": "chup! eimatrô tumôku pôṭhaili. dekhi sidha chaliasô, muṃ tôḷe ôpekhya kôruchhi.", "en": "Shut up! I've just sent it to you. Follow it and come straight over, I'll wait downstairs." },
+      { "speaker": "Sam", "native": "ହଉ, ପାଇଗଲି। ପାଞ୍ଚ ମିନିଟରେ ପହଞ୍ଚୁଛି। ମୋ ବ୍ୟାଟେରୀ ବି ସରିଯାଉଛି!", "roman": "hôu, paigôli. pañchô miniṭôre pôhôñchuchhi. mo byaṭeri bi sôrijauchhi!", "en": "OK, got it. I'll be there in five minutes. My battery's dying too!" }
+    ]
+  },
+  "culture": "Phone etiquette in Odisha is relaxed. People answer with ହେଲୋ and, if they don't recognise the number, ହେଲୋ, କିଏ କହୁଛନ୍ତି?; with elders add ନମସ୍କାର or ଆଜ୍ଞା. Calls end quickly with ହଉ, ଫୋନ ରଖୁଛି 'OK, hanging up' or ହଉ, ପରେ କଥା ହେବା 'talk later'; there's no long goodbye. Calling is still often preferred to texting, especially by older relatives, and a **missed call** on purpose is a normal signal ('I'm downstairs', 'call me back').\n\nWhatsApp is how everything is organised, from the college gang to the extended-family group where an uncle posts *Good morning* flowers and Jagannath images every day. Voice notes are hugely popular, partly because typing Odia script on a phone is slow: many young people type Odia in Roman letters ('kana karuchu?' for କ'ଣ କରୁଛୁ?) or just send a voice note. Sending a location pin is the normal way to give directions to your home, since addresses tend to be landmark-based ('behind the temple, near the water tank'). And whenever Odias don't pick up, the phone was ସାଇଲେଣ୍ଟରେ.",
+  "lessons": [
+    {
+      "title": "Hello? Can you hear me?",
+      "tip": { "title": "On the phone", "body": "- Start with **ହେଲୋ**; if you don't know who it is: **କିଏ କହୁଛନ୍ତି?**\n- 'Hear' on the phone is impersonal **ଶୁଭିବା**: ମୋ କଥା **ଶୁଭୁଛି**? 'can you hear me?', **ଶୁଭୁନି** 'can't hear'.\n- ଶୁଣିବା is 'to listen': don't mix them up." },
+      "new": ["ହେଲୋ", "ଉଠାଇବା", "ଶୁଭିବା", "ଜୋରରେ", "ନେଟୱାର୍କ", "ହେଲୋ, କିଏ କହୁଛନ୍ତି?", "ମୋ କଥା ଶୁଭୁଛି?", "ତୁମ କଥା ଶୁଭୁନି।", "ଟିକେ ଜୋରରେ କୁହ।", "ନେଟୱାର୍କ ନାହିଁ।"],
+      "sentences": [
+        { "native": "ହେଲୋ, ମୁଁ ସାମ୍ କହୁଛି।", "roman": "helo, muṃ Sam kôhuchhi.", "en": "Hello, it's Sam.", "focus": "କହୁଛି", "wrong": ["କହୁଛ|kôhuchhô", "କହୁଛନ୍ତି|kôhuchhônti"] },
+        { "native": "ହେଲୋ, ଏବେ ଶୁଭୁଛି?", "roman": "helo, ebe subhuchhi?", "en": "Hello, can you hear me now?", "focus": "ଶୁଭୁଛି", "wrong": ["ଶୁଣୁଛି|suṇuchhi", "ଦିଶୁଛି|disuchhi"] },
+        { "native": "ହଁ, ଏବେ ଭଲ ଶୁଭୁଛି।", "roman": "hôṃ, ebe bhôlô subhuchhi.", "en": "Yes, I can hear you fine now." },
+        { "native": "ନା, କିଛି ଶୁଭୁନି, ନେଟୱାର୍କ ଖରାପ।", "roman": "na, kichhi subhuni, neṭwark khôrapô.", "en": "No, I can't hear a thing, the signal's bad.", "focus": "ଶୁଭୁନି", "wrong": ["ଶୁଣୁନି|suṇuni", "ଦିଶୁନି|disuni"] },
+        { "native": "ଟିକେ ଜୋରରେ କୁହନ୍ତୁ, ଏଠି ବହୁତ ଭିଡ଼।", "roman": "ṭike jorôre kuhôntu, eṭhi bôhutô bhiṛô.", "en": "Could you speak up a bit, it's very crowded here. (polite)" },
+        { "native": "ମୁଁ ଫୋନ ଉଠାଇଲି, କିନ୍ତୁ କେହି କିଛି କହିଲେ ନାହିଁ।", "roman": "muṃ phonô uṭhaili, kintu kehi kichhi kôhile nahiṃ.", "en": "I picked up, but nobody said anything.", "focus": "ଉଠାଇଲି", "wrong": ["ଉଠାଇଲା|uṭhaila", "ଉଠାଇବି|uṭhaibi"] },
+        { "native": "ଘର ଭିତରେ ନେଟୱାର୍କ ନାହିଁ, ମୁଁ ବାହାରକୁ ଆସୁଛି।", "roman": "ghôrô bhitôre neṭwark nahiṃ, muṃ baharôku asuchhi.", "en": "There's no signal indoors, I'm coming outside." },
+        { "native": "ଆପଣ କିଏ କହୁଛନ୍ତି?", "roman": "apôṇô kie kôhuchhônti?", "en": "Who's speaking, please?", "focus": "କହୁଛନ୍ତି", "wrong": ["କହୁଛି|kôhuchhi", "କହୁଛୁ|kôhuchhu"] },
+        { "native": "ବାପା ଫୋନ ଉଠାଉ ନାହାନ୍ତି।", "roman": "bapa phonô uṭhau nahanti.", "en": "Dad isn't picking up." }
+      ]
+    },
+    {
+      "title": "I'll call you back",
+      "new": ["ଫୋନ କରିବା", "କଲ୍", "ମିସ୍ କଲ୍", "ଫୋନ ରଖିବା", "ସାଇଲେଣ୍ଟ୍", "ମୁଁ ପରେ ଫୋନ କରୁଛି।", "ମୁଁ ମିଟିଂରେ ଅଛି।", "ତୋର ମିସ୍ କଲ୍ ଦେଖିଲି।", "ଫୋନ ଉଠାଇଲ ନାହିଁ କାହିଁକି?"],
+      "sentences": [
+        { "native": "ମୁଁ ମିଟିଂରେ ଅଛି, ପରେ ଫୋନ କରୁଛି।", "roman": "muṃ miṭiṅre ôchhi, pôre phonô kôruchhi.", "en": "I'm in a meeting, I'll call you back." },
+        { "native": "ତୋର ତିନିଟା ମିସ୍ କଲ୍ ଦେଖିଲି, କ'ଣ ହେଲା?", "roman": "torô tiniṭa mis kôl dekhili, kôṇô hela?", "en": "I saw three missed calls from you, what happened?" },
+        { "native": "ସରି, ଫୋନ ସାଇଲେଣ୍ଟରେ ଥିଲା।", "roman": "sôri, phonô saileṇṭôre thila.", "en": "Sorry, my phone was on silent." },
+        { "native": "ଫୋନ ଉଠାଇଲ ନାହିଁ କାହିଁକି? ମୁଁ ଚିନ୍ତା କରୁଥିଲି।", "roman": "phonô uṭhailô nahiṃ kahiṃki? muṃ chinta kôruthili.", "en": "Why didn't you pick up? I was worried." },
+        { "native": "ତଳେ ପହଞ୍ଚିଲେ ଗୋଟିଏ ମିସ୍ କଲ୍ ଦେ।", "roman": "tôḷe pôhôñchile goṭie mis kôl de.", "en": "Give me a missed call when you're downstairs." },
+        { "native": "ହଉ, ଫୋନ ରଖୁଛି, ପରେ କଥା ହେବା।", "roman": "hôu, phonô rôkhuchhi, pôre kôtha heba.", "en": "OK, I'm hanging up, talk later." },
+        { "native": "ତାଙ୍କ କଲ୍ ଆସିଲେ ମୋତେ କହିବ।", "roman": "taṅkô kôl asile mote kôhibô.", "en": "Tell me if he calls. (lit. if his call comes)" },
+        { "native": "ମୁଁ ତୁମକୁ ରାତିରେ ଫୋନ କରିବି।", "roman": "muṃ tumôku ratire phonô kôribi.", "en": "I'll call you tonight." },
+        { "native": "ଦୁଇ ମିନିଟ୍, ଗୋଟିଏ କଲ୍ ଆସୁଛି।", "roman": "dui miniṭ, goṭie kôl asuchhi.", "en": "Two minutes, I've got another call coming in." }
+      ]
+    },
+    {
+      "title": "Get there and text me",
+      "tip": { "title": "The -ଇ form: do X and then Y", "body": "- First action in the **-ଇ form**, last action with the real ending: ଘରେ **ପହଞ୍ଚି** ମେସେଜ୍ କରିବି.\n- ଦେଖି, ପଢ଼ି, ଉଠାଇ, ଖାଇ, କରି, ଯାଇ, ଆସି, ଦେଇ, ନେଇ. Colloquial: ଖାଇ**କରି**.\n- 'Without doing': **ନ** + -ଇ form: ନ କହି.", "pattern": "verb-ଇ + verb (with tense)", "grammar": 0 },
+      "new": ["ମେସେଜ୍", "ୱାଟସଆପ୍", "ଲୋକେସନ୍", "ଫଟୋ", "ନମ୍ବର", "ଲୋକେସନ୍ ପଠାଅ।", "ମେସେଜ୍ କରିଦେବି।", "ପହଞ୍ଚିକରି ମେସେଜ୍ କରିବି।"],
+      "sentences": [
+        { "native": "ଘରେ ପହଞ୍ଚି ମେସେଜ୍ କରିବି।", "roman": "ghôre pôhôñchi mesej kôribi.", "en": "I'll text you when I get home.", "focus": "ପହଞ୍ଚି", "wrong": ["ପହଞ୍ଚିଲି|pôhôñchili", "ପହଞ୍ଚୁଛି|pôhôñchuchhi"] },
+        { "native": "ଲୋକେସନ୍ ଦେଖି ଆସିଯିବି।", "roman": "lokesôn dekhi asijibi.", "en": "I'll follow the location and come.", "focus": "ଦେଖି", "wrong": ["ଦେଖିଲି|dekhili", "ଦେଖୁଛି|dekhuchhi"] },
+        { "native": "ଖାଇବାର ଫଟୋ ଉଠାଇ ୱାଟସଆପରେ ପଠାଅ।", "roman": "khaibarô phôṭo uṭhai waṭsapôre pôṭhaô.", "en": "Take a photo of the food and send it on WhatsApp.", "focus": "ଉଠାଇ", "wrong": ["ଉଠାଇଲି|uṭhaili", "ଉଠାଉଛି|uṭhauchhi"] },
+        { "native": "ମୋ ନମ୍ବର ଲେଖି ରଖ।", "roman": "mo nômbôrô lekhi rôkhô.", "en": "Write my number down.", "focus": "ଲେଖି", "wrong": ["ଲେଖିଲି|lekhili", "ଲେଖୁଛି|lekhuchhi"] },
+        { "native": "ଖାଇକରି ଫୋନ କରୁଛି।", "roman": "khaikôri phonô kôruchhi.", "en": "I'll call after I've eaten.", "focus": "ଖାଇକରି", "wrong": ["ଖାଇଲି|khaili", "ଖାଉଛି|khauchhi"] },
+        { "native": "ମେସେଜ୍ କରିଦେବି, ଚିନ୍ତା କର ନାହିଁ।", "roman": "mesej kôridebi, chinta kôrô nahiṃ.", "en": "I'll drop you a message, don't worry." },
+        { "native": "ସେ ମେସେଜ୍ ପଢ଼ି କିଛି ଉତ୍ତର ଦେଲା ନାହିଁ।", "roman": "se mesej pôṛhi kichhi uttôrô dela nahiṃ.", "en": "He read the message and didn't answer at all.", "focus": "ପଢ଼ି", "wrong": ["ପଢ଼ିଲା|pôṛhila", "ପଢ଼ୁଛି|pôṛhuchhi"] },
+        { "native": "ଲୋକେସନ୍ ପଠାଅ, ମୁଁ ଅଟୋ ନେଇ ଆସୁଛି।", "roman": "lokesôn pôṭhaô, muṃ ôṭo nei asuchhi.", "en": "Send the location, I'll grab an auto and come.", "focus": "ନେଇ", "wrong": ["ନେଲି|neli", "ନେଉଛି|neuchhi"] },
+        { "native": "କାହାକୁ ନ କହି ସେ ଚାଲିଗଲା।", "roman": "kahaku nô kôhi se chaligôla.", "en": "He left without telling anyone.", "focus": "କହି", "wrong": ["କହିଲା|kôhila", "କହୁଛି|kôhuchhi"] }
+      ]
+    },
+    {
+      "title": "Already? Not yet!",
+      "tip": { "title": "Just, already, still, not yet", "body": "- **Just**: ଏଇମାତ୍ର + past: ଏଇମାତ୍ର ପହଞ୍ଚିଲି.\n- **Already / yet?**: past + **-ଣି**: ଖାଇଲି**ଣି**, ଖାଇଲ**ଣି**?, ଗଲା**ଣି**, ଗଲେ**ଣି**.\n- **Still**: **ଏବେ ବି**.\n- **Not yet**: **ଏପର୍ଯ୍ୟନ୍ତ** + -ଇ + ନାହିଁ: ଏପର୍ଯ୍ୟନ୍ତ ଆସି ନାହିଁ.", "pattern": "ଏଇମାତ୍ର …-ଲି · …-ଲିଣି · ଏବେ ବି … · ଏପର୍ଯ୍ୟନ୍ତ …-ଇ ନାହିଁ", "grammar": 1 },
+      "new": ["ଏଇମାତ୍ର", "ଏବେ ବି", "ଏପର୍ଯ୍ୟନ୍ତ", "ସାରିବା", "ରିପ୍ଲାଏ", "ଅନଲାଇନ୍"],
+      "sentences": [
+        { "native": "ମୁଁ ଏଇମାତ୍ର ଘରେ ପହଞ୍ଚିଲି।", "roman": "muṃ eimatrô ghôre pôhôñchili.", "en": "I've just got home.", "focus": "ଏଇମାତ୍ର", "wrong": ["ଏପର୍ଯ୍ୟନ୍ତ|epôrjyôntô", "କେବେ|kebe"] },
+        { "native": "ସେ ଏପର୍ଯ୍ୟନ୍ତ ରିପ୍ଲାଏ ଦେଇ ନାହିଁ।", "roman": "se epôrjyôntô riplae dei nahiṃ.", "en": "He hasn't replied yet.", "focus": "ଏପର୍ଯ୍ୟନ୍ତ", "wrong": ["ଏଇମାତ୍ର|eimatrô", "ଆଗରୁ|agôru"] },
+        { "native": "ତୁ ଖାଇଲୁଣି?", "roman": "tu khailuṇi?", "en": "Have you eaten yet?", "focus": "ଖାଇଲୁଣି", "wrong": ["ଖାଇବୁ|khaibu", "ଖାଉଛୁ|khauchhu"] },
+        { "native": "ହଁ, ମୁଁ ଖାଇସାରିଲିଣି।", "roman": "hôṃ, muṃ khaisariliṇi.", "en": "Yes, I've already eaten.", "focus": "ଖାଇସାରିଲିଣି", "wrong": ["ଖାଇବି|khaibi", "ଖାଉଛି|khauchhi"] },
+        { "native": "ସେ ଏବେ ବି ଅନଲାଇନ୍ ଅଛି, ହେଲେ ରିପ୍ଲାଏ ଦେଉନି।", "roman": "se ebe bi ônlain ôchhi, hele riplae deuni.", "en": "He's still online, but he's not replying." },
+        { "native": "ଭାଇ ଏବେ ବି ଶୋଇଛି।", "roman": "bhai ebe bi soichhi.", "en": "My brother's still asleep." },
+        { "native": "ତୁମେ ପହଞ୍ଚିଲଣି?", "roman": "tume pôhôñchilôṇi?", "en": "Have you got there yet?", "focus": "ପହଞ୍ଚିଲଣି", "wrong": ["ପହଞ୍ଚିଲିଣି|pôhôñchiliṇi", "ପହଞ୍ଚିବ|pôhôñchibô"] },
+        { "native": "କାମ ସାରି ଫୋନ କରିବି।", "roman": "kamô sari phonô kôribi.", "en": "I'll call when I've finished work." },
+        { "native": "ମୁଁ ଏପର୍ଯ୍ୟନ୍ତ ତାର ମେସେଜ୍ ପଢ଼ି ନାହିଁ।", "roman": "muṃ epôrjyôntô tarô mesej pôṛhi nahiṃ.", "en": "I haven't read his message yet." },
+        { "native": "ସେମାନେ ଚାଲିଗଲେଣି।", "roman": "semane chaligôleṇi.", "en": "They've already left.", "focus": "ଚାଲିଗଲେଣି", "wrong": ["ଚାଲିଯିବେ|chalijibe", "ଚାଲିଯାଉଛନ୍ତି|chalijauchhônti"] }
+      ]
+    },
+    {
+      "title": "Voice notes, video calls and dying batteries",
+      "new": ["ଭଏସ୍ ମେସେଜ୍", "ଭିଡିଓ କଲ୍", "ଗ୍ରୁପ୍", "କଟିଯିବା", "ବ୍ୟାଟେରୀ", "ସରିବା", "ଫୋନ କଟିଗଲା।", "ମୋ ବ୍ୟାଟେରୀ ସରିଯାଉଛି।"],
+      "sentences": [
+        { "native": "ମୁଁ ଗାଡ଼ି ଚଲାଉଛି, ଭଏସ୍ ମେସେଜ୍ ପଠାଉଛି।", "roman": "muṃ gaṛi chôlauchhi, bhôes mesej pôṭhauchhi.", "en": "I'm driving, I'll send a voice note." },
+        { "native": "ତୋ ଭଏସ୍ ମେସେଜ୍ ଶୁଭୁନି, ପୁଣି ପଠା।", "roman": "to bhôes mesej subhuni, puṇi pôṭha.", "en": "I can't hear your voice note, send it again." },
+        { "native": "ରବିବାର ମୁଁ ବୋଉଙ୍କ ସହ ଭିଡିଓ କଲ୍ କରେ।", "roman": "rôbibarô muṃ bouṅkô sôhô bhiḍio kôl kôre.", "en": "I video-call Mum on Sundays." },
+        { "native": "ଆରେ, ଫୋନ ପୁଣି କଟିଗଲା!", "roman": "are, phonô puṇi kôṭigôla!", "en": "Argh, the call dropped again!" },
+        { "native": "ମୋ ବ୍ୟାଟେରୀ ସରିଯାଉଛି, ଜଲଦି କୁହ।", "roman": "mo byaṭeri sôrijauchhi, jôldi kuhô.", "en": "My battery's dying, say it quick." },
+        { "native": "ପରିବାର ଗ୍ରୁପରେ ଜେଜେମା ସବୁଦିନ ସକାଳେ ଫଟୋ ପଠାନ୍ତି।", "roman": "pôribarô grupôre jejema sôbudinô sôkaḷe phôṭo pôṭhanti.", "en": "In the family group, Grandma sends photos every morning." },
+        { "native": "ଗ୍ରୁପରେ ସମସ୍ତଙ୍କୁ ପଚାରି ପ୍ଲାନ୍ ଠିକ୍ କରିବା।", "roman": "grupôre sômôstôṅku pôchari plan ṭhik kôriba.", "en": "Let's ask everyone in the group and then fix the plan." },
+        { "native": "ବ୍ୟାଟେରୀ ସରିଗଲା ବୋଲି ଫୋନ ବନ୍ଦ ହୋଇଗଲା।", "roman": "byaṭeri sôrigôla boli phonô bôndô hoigôla.", "en": "My phone died because the battery ran out." },
+        { "native": "ନେଟୱାର୍କ ଭଲ ନାହିଁ, ଭିଡିଓ କଲ୍ ପୁଣି ପୁଣି କଟିଯାଉଛି।", "roman": "neṭwark bhôlô nahiṃ, bhiḍio kôl puṇi puṇi kôṭijauchhi.", "en": "The signal is bad, the video call keeps dropping." }
+      ]
+    }
+  ]
+}

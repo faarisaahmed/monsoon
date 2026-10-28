@@ -1,0 +1,195 @@
+{
+  "id": 25,
+  "title": "Errands",
+  "goal": "Get things done around town: take out cash, sort out a SIM or a broken phone, get clothes stitched or ironed, get a haircut and send a parcel.",
+  "intro": "Life in Bhubaneswar or Cuttack is full of small errands: a queue at the bank, a cracked screen, a blouse at the tailor's, a haircut, a parcel to send home. This unit gives you the words for all of them — many of them English words that Odia has made its own (ଏଟିଏମ୍, ସିମ୍, ରିଚାର୍ଜ, କୁରିଅର୍).\n\nThe key grammar is the **causative**: Odia turns *do* into *get done* by adding **-ଆଇ-** to the verb — କରିବା 'do' → **କରାଇବା** 'get (it) done', କାଟିବା 'cut' → **କଟାଇବା** 'get (it) cut'. You'll also learn how to say *it'll be ready*, *it got stuck* and *how long will it take?* without saying who does the work.",
+  "vocab": [
+    { "native": "ଏଟିଏମ୍", "roman": "eṭiem", "en": "ATM, cash machine", "pos": "noun", "note": "With endings the hasanta is usually dropped: ଏଟିଏମରୁ eṭiemru \"from the ATM\"." },
+    { "native": "ଆକାଉଣ୍ଟ", "roman": "akauṇṭ", "en": "(bank) account", "pos": "noun", "note": "The formal Odia word is ଖାତା, but at the bank everyone says ଆକାଉଣ୍ଟ." },
+    { "native": "କାଢ଼ିବା", "roman": "kaṛhiba", "en": "to take out; to withdraw (money)", "pos": "verb", "note": "ଟଙ୍କା କାଢ଼ିବା \"to withdraw money\". Past: କାଢ଼ିଲି." },
+    { "native": "ଜମା କରିବା", "roman": "jôma kôriba", "en": "to deposit; to hand in (a form)", "pos": "verb", "note": "ଜମା ହେବା \"to be deposited / credited\"." },
+    { "native": "କାର୍ଡ", "roman": "karḍ", "en": "card (bank card, ID card)", "pos": "noun", "note": "ଆଧାର କାର୍ଡ \"Aadhaar (ID) card\", ଏଟିଏମ୍ କାର୍ଡ \"debit card\"." },
+    { "native": "ଧାଡ଼ି", "roman": "dhaṛi", "en": "queue, line; row", "pos": "noun", "note": "Colloquially also ଲାଇନ୍ (lain). ଧାଡ଼ିରେ ଠିଆ ହେବା \"to stand in the queue\"." },
+    { "native": "ଦସ୍ତଖତ", "roman": "dôstôkhôtô", "en": "signature", "pos": "noun", "note": "ଦସ୍ତଖତ କରିବା \"to sign\". Also heard: ସାଇନ୍ କରିବା." },
+    { "native": "ଜେରକ୍ସ", "roman": "jerôks", "en": "photocopy", "pos": "noun", "note": "From the brand Xerox; ଫଟୋକପି is also used. ଜେରକ୍ସ କରାଇବା \"to get a photocopy made\"." },
+    { "native": "ରସିଦ", "roman": "rôsidô", "en": "receipt; slip", "pos": "noun" },
+    { "native": "ସିମ୍", "roman": "sim", "en": "SIM card", "pos": "noun", "note": "Usually ସିମ୍ କାର୍ଡ or just ସିମ୍. You need an ID (ଆଧାର କାର୍ଡ) to get one." },
+    { "native": "ରିଚାର୍ଜ", "roman": "richarj", "en": "(mobile) recharge, top-up", "pos": "noun", "note": "ରିଚାର୍ଜ କରିବା \"to top up\"; ରିଚାର୍ଜ ହୋଇଗଲା \"the recharge went through\"." },
+    { "native": "ଚାର୍ଜ", "roman": "charj", "en": "(battery) charge", "pos": "noun", "note": "ଚାର୍ଜ କରିବା \"to charge\"; ଚାର୍ଜ ହେଉନି \"it isn't charging\"." },
+    { "native": "ସ୍କ୍ରିନ୍", "roman": "skrin", "en": "screen", "pos": "noun" },
+    { "native": "ମରାମତି", "roman": "môramôti", "en": "repair", "pos": "noun", "note": "ମରାମତି କରିବା \"to repair\" — on signboards and in careful speech. In the shop people mostly say ଠିକ୍ କରିବା or ରିପେୟାର କରିବା." },
+    { "native": "ଠିକ୍ କରିବା", "roman": "ṭhik kôriba", "en": "to fix, repair; to sort out, arrange", "pos": "verb", "note": "Its \"happening\" partner is ଠିକ୍ ହେବା \"to get fixed\": ଠିକ୍ ହୋଇଯିବ \"it'll be fixed\"." },
+    { "native": "କରାଇବା", "roman": "kôraiba", "en": "to get (something) done; to have someone do", "pos": "verb", "note": "Causative of କରିବା: କରାଇଲି, କରାଉଛି, କରାଇବି, କରାଏ." },
+    { "native": "ନିଜେ", "roman": "nije", "en": "myself, yourself… (by oneself)", "pos": "pron", "note": "ମୁଁ ନିଜେ କରିବି \"I'll do it myself\". ନିଜର \"one's own\"." },
+    { "native": "ଇସ୍ତ୍ରି", "roman": "istri", "en": "ironing; an iron", "pos": "noun", "note": "ଇସ୍ତ୍ରି କରିବା \"to iron\". The man with a charcoal iron at the street corner is the ଇସ୍ତ୍ରିବାଲା." },
+    { "native": "ଦରଜି", "roman": "dôrôji", "en": "tailor", "pos": "noun" },
+    { "native": "ସିଲେଇ", "roman": "silei", "en": "stitching, sewing", "pos": "noun", "note": "ସିଲେଇ କରିବା \"to stitch\", ସିଲେଇ କରାଇବା \"to get stitched\"." },
+    { "native": "ମାପ", "roman": "mapô", "en": "measurement(s)", "pos": "noun", "note": "ମାପ ନେବା \"to take measurements\", ମାପ ଦେବା \"to give (have) your measurements (taken)\"." },
+    { "native": "ଢିଲା", "roman": "ḍhila", "en": "loose (clothes)", "pos": "adj", "note": "For \"tight\" people mostly use English ଟାଇଟ୍ (ṭaiṭ)." },
+    { "native": "ବ୍ଲାଉଜ୍", "roman": "blauj", "en": "blouse (worn with a saree)", "pos": "noun", "note": "Almost always made to measure by a tailor." },
+    { "native": "ସେଲୁନ୍", "roman": "selun", "en": "barber's shop, salon", "pos": "noun", "note": "From \"saloon\". The traditional barber is the ବାରିକ; for women's salons people say ପାର୍ଲର୍ (parlôr)." },
+    { "native": "ଚୁଟି", "roman": "chuṭi", "en": "hair (on the head)", "pos": "noun", "note": "ଚୁଟି କଟାଇବା \"to get a haircut\". ବାଳ (baḷô) is hair in general, including body hair." },
+    { "native": "ଦାଢ଼ି", "roman": "daṛhi", "en": "beard; stubble", "pos": "noun", "note": "ଦାଢ଼ି କାଟିବା \"to shave\", ଦାଢ଼ି ରଖିବା \"to grow a beard\"." },
+    { "native": "କାଟିବା", "roman": "kaṭiba", "en": "to cut", "pos": "verb", "note": "Causative କଟାଇବା \"to get cut\": ମୁଁ ଚୁଟି କଟାଇଲି \"I got a haircut\"." },
+    { "native": "ଲଣ୍ଡ୍ରି", "roman": "lôṇḍri", "en": "laundry (shop), dry cleaner's", "pos": "noun", "note": "Washing by hand at home is still common; the traditional washerman is the ଧୋବା." },
+    { "native": "କୁରିଅର୍", "roman": "kuriôr", "en": "courier (service or package)", "pos": "noun", "note": "କୁରିଅର୍ କରିବା \"to send by courier\"." },
+    { "native": "ପାର୍ସଲ୍", "roman": "parsôl", "en": "parcel, package; takeaway", "pos": "noun", "note": "In a restaurant ପାର୍ସଲ୍ means takeaway: ପାର୍ସଲ୍ କରିଦିଅନ୍ତୁ \"pack it to take away\"." },
+    { "native": "ମେଡିକାଲ", "roman": "meḍikal", "en": "chemist's, pharmacy (colloquial)", "pos": "noun", "note": "Short for ମେଡିକାଲ ଦୋକାନ; the formal word is ଔଷଧ ଦୋକାନ." }
+  ],
+  "phrases": [
+    { "native": "ଏଠି ପାଖରେ କୌଣସି ଏଟିଏମ୍ ଅଛି କି?", "roman": "eṭhi pakhôre kôuṇôsi eṭiem ôchhi ki?", "en": "Is there an ATM near here?", "note": "କୌଣସି \"any\"." },
+    { "native": "ଏଟିଏମରେ ଟଙ୍କା ନାହିଁ।", "roman": "eṭiemre ṭôṅka nahiṃ.", "en": "The ATM's out of cash." },
+    { "native": "ମୋ କାର୍ଡ ଭିତରେ ଅଟକିଗଲା।", "roman": "mo karḍ bhitôre ôṭôkigôla.", "en": "My card got stuck inside (the machine)." },
+    { "native": "ମୁଁ ଗୋଟିଏ ସିମ୍ କାର୍ଡ ନେବାକୁ ଚାହୁଁଛି।", "roman": "muṃ goṭie sim karḍ nebaku chahuṃchhi.", "en": "I'd like to get a SIM card." },
+    { "native": "ଆଧାର କାର୍ଡ ଆଣିଛନ୍ତି?", "roman": "adharô karḍ aṇichhônti?", "en": "Have you brought your Aadhaar card? (polite)", "note": "Aadhaar is the national ID card; shops ask for it for SIMs, bank accounts and more." },
+    { "native": "ମୋ ଫୋନର ସ୍କ୍ରିନ୍ ଭାଙ୍ଗିଗଲା।", "roman": "mo phonôrô skrin bhaṅgigôla.", "en": "My phone's screen broke." },
+    { "native": "କେବେ ମିଳିବ?", "roman": "kebe miḷibô?", "en": "When will it be ready? (lit. when will it be got?)", "note": "The question for every tailor, repair shop and laundry." },
+    { "native": "କାଲି ସୁଦ୍ଧା ହୋଇଯିବ।", "roman": "kali suddha hoijibô.", "en": "It'll be done by tomorrow.", "note": "ସୁଦ୍ଧା \"by, no later than\"." },
+    { "native": "କେତେ ଦିନ ଲାଗିବ?", "roman": "kete dinô lagibô?", "en": "How many days will it take?" },
+    { "native": "ରସିଦ ଦିଅନ୍ତୁ।", "roman": "rôsidô diôntu.", "en": "Please give me a receipt." },
+    { "native": "ଏଠି ଦସ୍ତଖତ କରନ୍ତୁ।", "roman": "eṭhi dôstôkhôtô kôrôntu.", "en": "Sign here, please." },
+    { "native": "ଚୁଟି କେମିତି କାଟିବି?", "roman": "chuṭi kemiti kaṭibi?", "en": "How shall I cut your hair? (the barber asks)" },
+    { "native": "ଟିକେ ଛୋଟ କରିଦିଅନ୍ତୁ।", "roman": "ṭike chhoṭô kôridiôntu.", "en": "Make it a bit shorter, please." },
+    { "native": "ଏଇଟା ଟିକେ ଢିଲା କରିଦିଅନ୍ତୁ।", "roman": "eiṭa ṭike ḍhila kôridiôntu.", "en": "Please let this out a little (make it looser)." },
+    { "native": "ଏଇ ପାର୍ସଲ୍ ଦିଲ୍ଲୀ ପଠାଇବାକୁ ଅଛି।", "roman": "ei parsôl Dilli pôṭhaibaku ôchhi.", "en": "This parcel needs to go to Delhi.", "note": "-ବାକୁ ଅଛି \"is to be done, needs doing\"." }
+  ],
+  "grammar": [
+    {
+      "title": "Getting things done: the causative -ଆଇବା",
+      "body": "When someone *else* does the work for you — the tailor stitches, the barber cuts, the shop photocopies — Odia uses a **causative** verb. You make it by putting **-ଆଇ-** between the stem and the ending (the stem vowel sometimes changes):\n\nକରିବା *kôriba* 'do' → **କରାଇବା** *kôraiba* 'get done'\nକାଟିବା *kaṭiba* 'cut' → **କଟାଇବା** *kôṭaiba* 'get cut'\nଧୋଇବା *dhoiba* 'wash' → **ଧୁଆଇବା** *dhuaiba* 'get washed'\nଲେଖିବା *lekhiba* 'write' → **ଲେଖାଇବା** *lekhaiba* 'have written'\nଖାଇବା *khaiba* 'eat' → **ଖୁଆଇବା** *khuaiba* 'feed'\n\nYou already know two of these: ଦେଖାଇବା 'show' (make see) and ଶିଖାଇବା 'teach' (make learn).\n\nWith the many **noun + କରିବା** verbs, just change କରିବା to **କରାଇବା**: ଠିକ୍ କରାଇବା 'get fixed', ସିଲେଇ କରାଇବା 'get stitched', ଇସ୍ତ୍ରି କରାଇବା 'get ironed', ଜେରକ୍ସ କରାଇବା 'get photocopied'.\n\nThe endings are the regular ones on the stem **କରା-**: ମୁଁ କରାଏ (I get it done, habitually) · କରାଉଛି (I'm getting it done) · କରାଇଲି (I got it done) · କରାଇଛି (I've had it done) · କରାଇବି (I'll get it done) · ତୁମେ କରାଅ / କରାଇଲ · ଆପଣ କରାନ୍ତି / କରାଇଲେ.\n\n**Who does the job**: put the place or person with **ପାଖରେ** ('at X's'): ଦରଜି ପାଖରେ ସିଲେଇ କରାଇଲି 'I had it stitched at the tailor's'. To say you sent someone to do it, use **-କୁ ଦେଇ** ('through'): ପୁଅକୁ ଦେଇ ଫର୍ମ ଜମା କରାଇଲେ 'she had her son hand in the form'.\n\n**The trap**: ମୁଁ ଜାମା ଧୋଇଲି means *I* washed the shirt; ମୁଁ ଜାମା ଧୁଆଇଲି means I *had* it washed. In relaxed speech people do say ଚୁଟି କାଟିଲି for 'I got a haircut' (as English says 'I cut my hair'), but with ନିଜେ 'myself' the difference matters: ନିଜେ କାଟିଲି = I really did it myself.",
+      "examples": [
+        { "native": "ମୁଁ ମୋ ଜାମା ନିଜେ ଧୋଇଲି।", "roman": "muṃ mo jama nije dhoili.", "en": "I washed my shirt myself." },
+        { "native": "ମୁଁ ମୋ ଜାମା ଲଣ୍ଡ୍ରିରେ ଧୁଆଇଲି।", "roman": "muṃ mo jama lôṇḍrire dhuaili.", "en": "I had my shirt washed at the laundry." },
+        { "native": "ସେ ଦରଜି ପାଖରେ ଶାଢ଼ୀର ବ୍ଲାଉଜ୍ ସିଲେଇ କରାଉଛନ୍ତି।", "roman": "se dôrôji pakhôre saṛhirô blauj silei kôrauchhônti.", "en": "She's having a saree blouse stitched at the tailor's." },
+        { "native": "ମୋତେ ଫୋନ ଠିକ୍ କରାଇବାକୁ ପଡ଼ିବ।", "roman": "mote phonô ṭhik kôraibaku pôṛibô.", "en": "I'll have to get my phone fixed." },
+        { "native": "ବୋଉ ପିଲାକୁ ଭାତ ଖୁଆଉଛନ୍ତି।", "roman": "bou pilaku bhatô khuauchhônti.", "en": "Mum is feeding the child rice." }
+      ]
+    },
+    {
+      "title": "It'll be done, it got stuck: ହେବା partners and -ଇଯିବା",
+      "body": "At a counter you often don't care *who* does something, only that it gets done. Odia handles this with verb **pairs**: a *doing* verb with **କରିବା** and a *happening* verb with **ହେବା**:\n\nଠିକ୍ କରିବା 'fix' — ଠିକ୍ ହେବା 'get fixed'\nଜମା କରିବା 'deposit' — ଜମା ହେବା 'be deposited, be credited'\nଚାର୍ଜ କରିବା 'charge' — ଚାର୍ଜ ହେବା 'be charging'\nବନ୍ଦ କରିବା 'switch off, close' — ବନ୍ଦ ହେବା 'go off, shut'\n\nମୁଁ ଫୋନ ଠିକ୍ କରିବି 'I'll fix the phone' (the mechanic speaking) but ଫୋନ ଠିକ୍ ହୋଇଯିବ 'the phone will get fixed'.\n\n**-ଇ + ଯିବା**: adding ଯିବା ('go') after the -ଇ form gives a sense of something *happening to* a thing or being *completed*: ହୋଇଯିବ 'it'll get done', ଭାଙ୍ଗିଗଲା 'it broke', ଅଟକିଗଲା 'it got stuck', ମିଳିଯିବ 'you'll get it'. In the past ଯିବା becomes ଗଲା; in the perfect ଯାଇଛି (ଜମା ହୋଇଯାଇଛି 'it has been credited').\n\n**ମିଳିବା 'to be got'** puts the person who receives in the **dative**: ଆପଣଙ୍କୁ କାଲି ମିଳିଯିବ 'you'll get it tomorrow', ମୋତେ ମିଳିନି 'I haven't got it'. Don't say ~~ମୁଁ ମିଳିବି~~ for 'I'll get it' — that means 'I'll be found'!\n\n**ଲାଗିବା for time and cost** (as in unit 23): the time is the subject — ଦୁଇ ଦିନ ଲାଗିବ 'it'll take two days', କେତେ ଲାଗିବ? 'how much / how long will it take?'. Habitual ଲାଗେ: ସାଧାରଣତଃ ଗୋଟିଏ ଦିନ ଲାଗେ 'it usually takes a day'.",
+      "examples": [
+        { "native": "ମୁଁ ଫୋନ ଠିକ୍ କରିଦେବି।", "roman": "muṃ phonô ṭhik kôridebi.", "en": "I'll fix the phone for you." },
+        { "native": "ଫୋନ ଆଜି ସଞ୍ଜ ସୁଦ୍ଧା ଠିକ୍ ହୋଇଯିବ।", "roman": "phonô aji sôñjô suddha ṭhik hoijibô.", "en": "The phone will be fixed by this evening." },
+        { "native": "ଏଟିଏମରେ ମୋ କାର୍ଡ ଅଟକିଗଲା।", "roman": "eṭiemre mo karḍ ôṭôkigôla.", "en": "My card got stuck in the ATM." },
+        { "native": "ଟଙ୍କା ଆପଣଙ୍କ ଆକାଉଣ୍ଟରେ ଜମା ହୋଇଯାଇଛି।", "roman": "ṭôṅka apôṇôṅkô akauṇṭre jôma hoijaichhi.", "en": "The money has been credited to your account." },
+        { "native": "ଆପଣଙ୍କୁ କାଲି ରସିଦ ମିଳିଯିବ।", "roman": "apôṇôṅku kali rôsidô miḷijibô.", "en": "You'll get the receipt tomorrow." },
+        { "native": "ଏହି କାମରେ ଦୁଇ ଘଣ୍ଟା ଲାଗିବ।", "roman": "ehi kamôre dui ghôṇṭa lagibô.", "en": "This job will take two hours." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A cracked screen in Saheed Nagar",
+    "setting": "Sam has dropped his phone. His friend Riya takes him to a repair shop she knows in Saheed Nagar, Bhubaneswar.",
+    "lines": [
+      { "speaker": "Riya", "native": "ସାମ୍, ତୁମ ଫୋନକୁ କ'ଣ ହେଲା?", "roman": "Sam, tumô phonôku kôṇô hela?", "en": "Sam, what happened to your phone?" },
+      { "speaker": "Sam", "native": "କାଲି ହାତରୁ ଖସିପଡ଼ିଲା, ସ୍କ୍ରିନ୍ ପୂରା ଭାଙ୍ଗିଗଲା।", "roman": "kali hatôru khôsipôṛila, skrin pura bhaṅgigôla.", "en": "It slipped out of my hand yesterday — the screen's completely smashed." },
+      { "speaker": "Riya", "native": "ବାପରେ! ଚାଲ, ସହିଦ ନଗରରେ ମୋ ଜଣାଶୁଣା ଦୋକାନ ଅଛି। ସେମାନେ ଶସ୍ତାରେ ଠିକ୍ କରିଦେବେ।", "roman": "bapôre! chalô, Sôhidô Nôgôrôre mo jôṇasuṇa dokanô ôchhi. semane sôstare ṭhik kôridebe.", "en": "Yikes! Come on, I know a shop in Saheed Nagar. They'll fix it cheaply." },
+      { "speaker": "Shopkeeper", "native": "ଆସନ୍ତୁ ଭାଇ, କୁହନ୍ତୁ କ'ଣ ହେଲା?", "roman": "asôntu bhai, kuhôntu kôṇô hela?", "en": "Come in, bhai — tell me, what's happened?" },
+      { "speaker": "Sam", "native": "ସ୍କ୍ରିନ୍ ବଦଳାଇବାକୁ ପଡ଼ିବ। କେତେ ପଡ଼ିବ?", "roman": "skrin bôdôḷaibaku pôṛibô. kete pôṛibô?", "en": "The screen needs replacing. How much will it be?" },
+      { "speaker": "Shopkeeper", "native": "ଅରିଜିନାଲ ତିନି ହଜାର, ଲୋକାଲ ପନ୍ଦର ଶହ।", "roman": "ôrijinal tini hôjarô, lokal pôndôrô sôhô.", "en": "An original is three thousand, a local one fifteen hundred." },
+      { "speaker": "Riya", "native": "ଭାଇ, ସେ ମୋ ସାଙ୍ଗ। ଟିକେ କମ କରନ୍ତୁ ନା!", "roman": "bhai, se mo saṅgô. ṭike kômô kôrôntu na!", "en": "Bhai, he's my friend. Knock a bit off, won't you!" },
+      { "speaker": "Shopkeeper", "native": "ହଉ, ଅଢ଼େଇ ହଜାର ଦିଅନ୍ତୁ। ଅରିଜିନାଲ ଲଗାଇଦେବି।", "roman": "hôu, ôṛhei hôjarô diôntu. ôrijinal lôgaidebi.", "en": "Fine, give me two and a half thousand. I'll put in an original." },
+      { "speaker": "Sam", "native": "ଡିଲ୍! କେବେ ମିଳିବ?", "roman": "ḍil! kebe miḷibô?", "en": "Deal! When will it be ready?" },
+      { "speaker": "Shopkeeper", "native": "ଦୁଇ ଘଣ୍ଟା ଲାଗିବ। ପାଞ୍ଚଟା ସୁଦ୍ଧା ହୋଇଯିବ। ରସିଦଟା ନିଅନ୍ତୁ।", "roman": "dui ghôṇṭa lagibô. pañchôṭa suddha hoijibô. rôsidôṭa niôntu.", "en": "It'll take two hours. It'll be done by five. Take the receipt." },
+      { "speaker": "Sam", "native": "ସେ ଭିତରେ ମୁଁ ଚୁଟି କଟାଇ ଆସେ।", "roman": "se bhitôre muṃ chuṭi kôṭai ase.", "en": "Meanwhile I'll go and get a haircut." },
+      { "speaker": "Riya", "native": "ଆଉ ମୁଁ ଦରଜି ପାଖରୁ ମୋ ବ୍ଲାଉଜ୍ ଆଣିବି। ତିନି ଥର ଗଲିଣି, ସେ ସବୁଥର କହନ୍ତି 'କାଲି ଆସନ୍ତୁ'!", "roman": "au muṃ dôrôji pakhôru mo blauj aṇibi. tini thôrô gôliṇi, se sôbuthôrô kôhônti 'kali asôntu'!", "en": "And I'll pick up my blouse from the tailor. I've been three times already, and every time he says 'come tomorrow'!" },
+      { "speaker": "Sam", "native": "ହାହା, ସବୁ ଦରଜି ସେମିତି!", "roman": "haha, sôbu dôrôji semiti!", "en": "Haha, all tailors are like that!" }
+    ]
+  },
+  "culture": "Errands in Odisha run on a mix of apps and old-fashioned visits. Phone recharges and bills are paid by UPI, but SIM cards, bank accounts and many forms still need you in person with your **ଆଧାର କାର୍ଡ** and a **ଜେରକ୍ସ** of it — every market has a photocopy shop for exactly this. Address shopkeepers, mechanics and tailors as **ଭାଇ** or **ଭାଇନା** (to a man) and **ଅପା** (to a woman), with ଆପଣ forms; with a young barber or the ironing man (ଇସ୍ତ୍ରିବାଲା) many people slip into ତୁମେ, which is fine if he is younger than you. Polite bargaining is normal at small repair shops (ଟିକେ କମ କରନ୍ତୁ), less so at the bank or a chain store. Saree blouses are still stitched to measure, and the tailor's ‘କାଲି ଆସନ୍ତୁ’ (come tomorrow) before a festival is a running joke — order early before Durga Puja or Raja.",
+  "lessons": [
+    {
+      "title": "At the bank and the ATM",
+      "tip": { "title": "Errand verbs: noun + କରିବା", "body": "- Many errand verbs are a noun + **କରିବା**: ଜମା କରିବା 'deposit', ଦସ୍ତଖତ କରିବା 'sign', ରିଚାର୍ଜ କରିବା 'top up'.\n- English words slot straight in: ଆକାଉଣ୍ଟ ଖୋଲିବା 'open an account', କାର୍ଡ କାମ କରୁନି 'the card isn't working'.\n- 'From the ATM' takes **-ରୁ**: ଏଟିଏମରୁ ଟଙ୍କା କାଢ଼ିବା." },
+      "new": ["ଏଟିଏମ୍", "ଆକାଉଣ୍ଟ", "କାଢ଼ିବା", "ଜମା କରିବା", "କାର୍ଡ", "ଧାଡ଼ି", "ଏଠି ପାଖରେ କୌଣସି ଏଟିଏମ୍ ଅଛି କି?", "ଏଟିଏମରେ ଟଙ୍କା ନାହିଁ।", "ମୋ କାର୍ଡ ଭିତରେ ଅଟକିଗଲା।"],
+      "sentences": [
+        { "native": "ମୁଁ ଏଟିଏମରୁ ଦୁଇ ହଜାର ଟଙ୍କା କାଢ଼ିଲି।", "roman": "muṃ eṭiemru dui hôjarô ṭôṅka kaṛhili.", "en": "I took out two thousand rupees from the ATM.", "focus": "ଏଟିଏମରୁ", "wrong": ["ଏଟିଏମକୁ|eṭiemku", "ଏଟିଏମର|eṭiemrô"] },
+        { "native": "ମୋତେ ବ୍ୟାଙ୍କରେ ଟଙ୍କା ଜମା କରିବାକୁ ପଡ଼ିବ।", "roman": "mote byaṅkôre ṭôṅka jôma kôribaku pôṛibô.", "en": "I'll have to deposit some money at the bank." },
+        { "native": "ବ୍ୟାଙ୍କରେ ବହୁତ ଲମ୍ବା ଧାଡ଼ି ଅଛି।", "roman": "byaṅkôre bôhutô lômba dhaṛi ôchhi.", "en": "There's a really long queue at the bank." },
+        { "native": "ମୋ କାର୍ଡ କାମ କରୁନି।", "roman": "mo karḍ kamô kôruni.", "en": "My card isn't working.", "focus": "କରୁନି", "wrong": ["କରୁଛି|kôruchhi", "କରିବ|kôribô"] },
+        { "native": "ଆପଣଙ୍କର ଏହି ବ୍ୟାଙ୍କରେ ଆକାଉଣ୍ଟ ଅଛି କି?", "roman": "apôṇôṅkôrô ehi byaṅkôre akauṇṭ ôchhi ki?", "en": "Do you have an account at this bank? (polite)" },
+        { "native": "ମୁଁ ନୂଆ ଆକାଉଣ୍ଟ ଖୋଲିବାକୁ ଚାହୁଁଛି।", "roman": "muṃ nua akauṇṭ kholibaku chahuṃchhi.", "en": "I want to open a new account." },
+        { "native": "ଏଠି ଟଙ୍କା ନାହିଁ, ଚାଲ ଅନ୍ୟ ଗୋଟିଏ ଏଟିଏମ୍ ଖୋଜିବା।", "roman": "eṭhi ṭôṅka nahiṃ, chalô ônnyô goṭie eṭiem khojiba.", "en": "No cash here — let's find another ATM." },
+        { "native": "ଦୟାକରି ଧାଡ଼ିରେ ଅପେକ୍ଷା କରନ୍ତୁ।", "roman": "dôyakôri dhaṛire ôpekhya kôrôntu.", "en": "Please wait in the queue.", "focus": "ଧାଡ଼ିରେ", "wrong": ["ଧାଡ଼ିରୁ|dhaṛiru", "ଧାଡ଼ିର|dhaṛirô"] }
+      ]
+    },
+    {
+      "title": "Sorting out your phone",
+      "tip": { "title": "Fix it vs. it gets fixed", "body": "- Doing verb **ଠିକ୍ କରିବା** 'fix' ↔ happening verb **ଠିକ୍ ହେବା** 'get fixed'.\n- Add **ଯିବା** after the -ଇ form for something that happens or gets completed: ଭାଙ୍ଗି**ଗଲା** 'it broke', ହୋଇ**ଯିବ** 'it'll get done'.\n- No need to say who does it: ଫୋନ ଠିକ୍ ହୋଇଯିବ.", "pattern": "ମୁଁ ଠିକ୍ କରିବି · ଫୋନ ଠିକ୍ ହୋଇଯିବ", "grammar": 1 },
+      "new": ["ସିମ୍", "ରିଚାର୍ଜ", "ଚାର୍ଜ", "ସ୍କ୍ରିନ୍", "ମରାମତି", "ଠିକ୍ କରିବା", "ମୁଁ ଗୋଟିଏ ସିମ୍ କାର୍ଡ ନେବାକୁ ଚାହୁଁଛି।", "ଆଧାର କାର୍ଡ ଆଣିଛନ୍ତି?", "ମୋ ଫୋନର ସ୍କ୍ରିନ୍ ଭାଙ୍ଗିଗଲା।"],
+      "sentences": [
+        { "native": "ଚିନ୍ତା କରନ୍ତୁ ନାହିଁ, ଫୋନ ଠିକ୍ ହୋଇଯିବ।", "roman": "chinta kôrôntu nahiṃ, phonô ṭhik hoijibô.", "en": "Don't worry, the phone will get fixed.", "focus": "ହୋଇଯିବ", "wrong": ["କରିଯିବ|kôrijibô", "କରିବ|kôribô"] },
+        { "native": "ମୋ ଫୋନ ଚାର୍ଜ ହେଉନି।", "roman": "mo phonô charj heuni.", "en": "My phone isn't charging.", "focus": "ହେଉନି", "wrong": ["କରୁନି|kôruni", "କରିବି|kôribi"] },
+        { "native": "ଆପଣ ଏଇ ଫୋନ ଆଜି ଠିକ୍ କରିପାରିବେ କି?", "roman": "apôṇô ei phonô aji ṭhik kôriparibe ki?", "en": "Can you fix this phone today?", "focus": "କରିପାରିବେ", "wrong": ["ହୋଇପାରିବେ|hoiparibe", "ହୋଇଯିବ|hoijibô"] },
+        { "native": "ସ୍କ୍ରିନ୍ ମରାମତି କରିବାକୁ କେତେ ପଡ଼ିବ?", "roman": "skrin môramôti kôribaku kete pôṛibô?", "en": "How much will it cost to repair the screen?" },
+        { "native": "ରିଚାର୍ଜ ହୋଇଗଲା, ଏବେ ଫୋନ କରିପାରିବି।", "roman": "richarj hoigôla, ebe phonô kôriparibi.", "en": "The recharge went through — now I can make calls.", "focus": "ହୋଇଗଲା", "wrong": ["କରିଗଲା|kôrigôla", "କଲି|kôli"] },
+        { "native": "ସିମ୍ ଚାଲୁନି, ବୋଧହୁଏ ବନ୍ଦ ହୋଇଯାଇଛି।", "roman": "sim chaluni, bodhôhue bôndô hoijaichhi.", "en": "The SIM isn't working — maybe it's been deactivated.", "focus": "ହୋଇଯାଇଛି", "wrong": ["କରିଯାଇଛି|kôrijaichhi", "କରିଛି|kôrichhi"] },
+        { "native": "ନୂଆ ସିମ୍ ପାଇଁ ଆଧାର କାର୍ଡ ଦରକାର।", "roman": "nua sim paiṃ adharô karḍ dôrôkarô.", "en": "You need an Aadhaar card for a new SIM." },
+        { "native": "ମୋ ଫୋନରେ ଚାର୍ଜ ନାହିଁ।", "roman": "mo phonôre charj nahiṃ.", "en": "My phone's out of charge." },
+        { "native": "ମୁଁ ନିଜେ ଠିକ୍ କରିପାରିବି ନାହିଁ।", "roman": "muṃ nije ṭhik kôriparibi nahiṃ.", "en": "I can't fix it myself." }
+      ]
+    },
+    {
+      "title": "Getting it done for you",
+      "tip": { "title": "Do → get done: -ଆଇବା", "body": "- Add **-ଆଇ-** to the stem for 'get it done': କରିବା → **କରାଇବା**, କାଟିବା → **କଟାଇବା**, ଧୋଇବା → **ଧୁଆଇବା**.\n- Noun + କରିବା verbs just switch to କରାଇବା: ଜେରକ୍ସ **କରାଇବା**, ଇସ୍ତ୍ରି **କରାଇବା**.\n- Endings are regular: କରାଏ, କରାଉଛି, କରାଇଲି, କରାଇବି.\n- **ନିଜେ କରେ** = I do it myself; **କରାଏ** = I get it done.", "pattern": "stem + ଆଇ + ending: କରାଇଲି", "grammar": 0 },
+      "new": ["କରାଇବା", "ନିଜେ", "ଇସ୍ତ୍ରି", "ଜେରକ୍ସ", "ଦସ୍ତଖତ", "ରସିଦ", "ରସିଦ ଦିଅନ୍ତୁ।", "ଏଠି ଦସ୍ତଖତ କରନ୍ତୁ।"],
+      "sentences": [
+        { "native": "ଗତକାଲି ମୁଁ ଆଧାର କାର୍ଡର ଜେରକ୍ସ କରାଇଲି।", "roman": "gôtôkali muṃ adharô karḍôrô jerôks kôraili.", "en": "Yesterday I got a photocopy of my Aadhaar card made.", "focus": "କରାଇଲି", "wrong": ["କରାଇବି|kôraibi", "କରାଉଛି|kôrauchhi"] },
+        { "native": "ମୁଁ ଲୁଗା ନିଜେ ଇସ୍ତ୍ରି କରେନି, ବାହାରେ କରାଏ।", "roman": "muṃ luga nije istri kôreni, bahare kôrae.", "en": "I don't iron my clothes myself — I get it done outside.", "focus": "କରାଏ", "wrong": ["କରେ|kôre", "କରାନ୍ତି|kôranti"] },
+        { "native": "ଦଶଟା ଜେରକ୍ସ କରାଇବାକୁ ପଡ଼ିବ।", "roman": "dôsôṭa jerôks kôraibaku pôṛibô.", "en": "I'll need to get ten photocopies made.", "focus": "କରାଇବାକୁ", "wrong": ["କରାଇଲି|kôraili", "କରାଉଛି|kôrauchhi"] },
+        { "native": "ତୁମେ ଫୋନ କେଉଁଠି ଠିକ୍ କରାଇଲ?", "roman": "tume phonô keuṃṭhi ṭhik kôrailô?", "en": "Where did you get your phone fixed?", "focus": "କରାଇଲ", "wrong": ["କରାଇଲି|kôraili", "କରାଇଲା|kôraila"] },
+        { "native": "ମୁଁ ଏବେ ଦୁଇଟା ଜାମା ଇସ୍ତ୍ରି କରାଉଛି।", "roman": "muṃ ebe duiṭa jama istri kôrauchhi.", "en": "I'm getting two shirts ironed right now.", "focus": "କରାଉଛି", "wrong": ["କରାଇଲି|kôraili", "କରାଇବି|kôraibi"] },
+        { "native": "ସେ ତାଙ୍କ ପୁଅକୁ ଦେଇ ଫର୍ମ ଜମା କରାଇଲେ।", "roman": "se taṅkô puôku dei phôrm jôma kôraile.", "en": "She had her son hand in the form.", "focus": "କରାଇଲେ", "wrong": ["କଲେ|kôle", "କରାଉଛି|kôrauchhi"] },
+        { "native": "ଏଠି ଦସ୍ତଖତ କରିବି?", "roman": "eṭhi dôstôkhôtô kôribi?", "en": "Shall I sign here?" },
+        { "native": "ରସିଦଟା ସାବଧାନରେ ରଖ।", "roman": "rôsidôṭa sabôdhanôre rôkhô.", "en": "Keep the receipt safe. (informal)" }
+      ]
+    },
+    {
+      "title": "At the tailor's",
+      "tip": { "title": "At X's: ପାଖରେ + causative", "body": "- Say *where / by whom* the job is done with **ପାଖରେ**: ଦରଜି **ପାଖରେ** ସିଲେଇ କରାଇଲି 'I had it stitched at the tailor's'.\n- Collecting it *from* there is **ପାଖରୁ**: ଦରଜି ପାଖରୁ ଆଣିବି.\n- 'Needs doing' = **-ଆଇବାକୁ ପଡ଼ିବ**: ଛୋଟ କରାଇବାକୁ ପଡ଼ିବ.", "pattern": "person + ପାଖରେ + …କରାଇଲି", "grammar": 0 },
+      "new": ["ଦରଜି", "ସିଲେଇ", "ମାପ", "ଢିଲା", "ବ୍ଲାଉଜ୍", "ଏଇଟା ଟିକେ ଢିଲା କରିଦିଅନ୍ତୁ।", "କେବେ ମିଳିବ?", "କାଲି ସୁଦ୍ଧା ହୋଇଯିବ।"],
+      "sentences": [
+        { "native": "ମୁଁ ଦରଜି ପାଖରେ ଗୋଟିଏ ପ୍ୟାଣ୍ଟ ସିଲେଇ କରାଉଛି।", "roman": "muṃ dôrôji pakhôre goṭie pyaṇṭ silei kôrauchhi.", "en": "I'm having a pair of trousers stitched at the tailor's.", "focus": "ପାଖରେ", "wrong": ["ପାଖରୁ|pakhôru", "ପାଖକୁ|pakhôku"] },
+        { "native": "ବୋଉ ଦରଜି ପାଖରେ ବ୍ଲାଉଜ୍ ସିଲେଇ କରାଇଲେ।", "roman": "bou dôrôji pakhôre blauj silei kôraile.", "en": "Mum had a blouse stitched at the tailor's.", "focus": "କରାଇଲେ", "wrong": ["କରାଇଲି|kôraili", "କରାଇଲ|kôrailô"] },
+        { "native": "ଦରଜି ପାଖରେ ମାପ ଦେଲି।", "roman": "dôrôji pakhôre mapô deli.", "en": "I had my measurements taken at the tailor's.", "focus": "ପାଖରେ", "wrong": ["ପାଖରୁ|pakhôru", "ପାଖକୁ|pakhôku"] },
+        { "native": "ଜାମାଟା ବହୁତ ଢିଲା, ଦରଜି ପାଖରେ ଠିକ୍ କରାଇବି।", "roman": "jamaṭa bôhutô ḍhila, dôrôji pakhôre ṭhik kôraibi.", "en": "The shirt's too loose — I'll get it altered at the tailor's.", "focus": "କରାଇବି", "wrong": ["କରାଇଲି|kôraili", "କରାଇବେ|kôraibe"] },
+        { "native": "ଏ ପ୍ୟାଣ୍ଟ ଟିକେ ଛୋଟ କରାଇବାକୁ ପଡ଼ିବ।", "roman": "e pyaṇṭ ṭike chhoṭô kôraibaku pôṛibô.", "en": "These trousers need taking up a bit.", "focus": "କରାଇବାକୁ", "wrong": ["କରାଇଲି|kôraili", "କରାଉଛି|kôrauchhi"] },
+        { "native": "ଭଲ ଦରଜି ପାଖରେ ସିଲେଇ କରାଇଲେ ଜାମା ସୁନ୍ଦର ଦିଶେ।", "roman": "bhôlô dôrôji pakhôre silei kôraile jama sundôrô dise.", "en": "If you get it stitched by a good tailor, a shirt looks great.", "focus": "ପାଖରେ", "wrong": ["ପାଖରୁ|pakhôru", "ପାଖକୁ|pakhôku"] },
+        { "native": "ହାତ ଟିକେ ଲମ୍ବା ହୋଇଛି।", "roman": "hatô ṭike lômba hoichhi.", "en": "The sleeves have come out a bit long." },
+        { "native": "ଦରଜି ସବୁବେଳେ ଡେରି କରନ୍ତି।", "roman": "dôrôji sôbubeḷe ḍeri kôrônti.", "en": "Tailors are always late." }
+      ]
+    },
+    {
+      "title": "At the barber's",
+      "tip": { "title": "କାଟିବା or କଟାଇବା?", "body": "- **କାଟିବା** = cut (you do it); **କଟାଇବା** = get it cut (someone else does).\n- The barber asks ଚୁଟି କେମିତି **କାଟିବି**? — you say ମୁଁ ଚୁଟି **କଟାଇବି**.\n- Habitual: ମୁଁ **କଟାଏ**, ତୁମେ **କଟାଅ**, ଆପଣ / ସେମାନେ **କଟାନ୍ତି**.", "pattern": "ମୁଁ କାଟେ (I cut) · ମୁଁ କଟାଏ (I get it cut)", "grammar": 0 },
+      "new": ["ସେଲୁନ୍", "ଚୁଟି", "ଦାଢ଼ି", "କାଟିବା", "ଚୁଟି କେମିତି କାଟିବି?", "ଟିକେ ଛୋଟ କରିଦିଅନ୍ତୁ।"],
+      "sentences": [
+        { "native": "ମୁଁ ଶନିବାର ଚୁଟି କଟାଇବି।", "roman": "muṃ sônibarô chuṭi kôṭaibi.", "en": "I'll get a haircut on Saturday.", "focus": "କଟାଇବି", "wrong": ["କଟାଇଲି|kôṭaili", "କଟାଇବେ|kôṭaibe"] },
+        { "native": "ତୁମେ ଚୁଟି କେଉଁଠି କଟାଅ?", "roman": "tume chuṭi keuṃṭhi kôṭaô?", "en": "Where do you get your hair cut?", "focus": "କଟାଅ", "wrong": ["କଟାଏ|kôṭae", "କଟାନ୍ତି|kôṭanti"] },
+        { "native": "ମୋ ଘର ପାଖରେ ଗୋଟିଏ ଭଲ ସେଲୁନ୍ ଅଛି।", "roman": "mo ghôrô pakhôre goṭie bhôlô selun ôchhi.", "en": "There's a good barber's near my place." },
+        { "native": "ସେଲୁନରେ ବହୁତ ଭିଡ଼, ମୁଁ ପରେ ଆସିବି।", "roman": "selunre bôhutô bhiṛô, muṃ pôre asibi.", "en": "The barber's is packed — I'll come back later." },
+        { "native": "ଦାଢ଼ି ବି କାଟିଦେବି?", "roman": "daṛhi bi kaṭidebi?", "en": "Shall I do your beard too? (the barber asks)", "focus": "କାଟିଦେବି", "wrong": ["କାଟିଦେଲି|kaṭideli", "କାଟିଦେବେ|kaṭidebe"] },
+        { "native": "ଆଜି ମୁଁ ନିଜେ ଦାଢ଼ି କାଟିଲି।", "roman": "aji muṃ nije daṛhi kaṭili.", "en": "Today I shaved myself.", "focus": "କାଟିଲି", "wrong": ["କଟାଇଲି|kôṭaili", "କଟାଇବି|kôṭaibi"] },
+        { "native": "ତୁମେ ଚୁଟି କଟାଇଛ କି? ଭଲ ଦିଶୁଛି!", "roman": "tume chuṭi kôṭaichhô ki? bhôlô disuchhi!", "en": "Have you had a haircut? Looks good!", "focus": "କଟାଇଛ", "wrong": ["କଟାଇଛି|kôṭaichhi", "କଟାଇଛନ୍ତି|kôṭaichhônti"] },
+        { "native": "ପାଖରୁ ଛୋଟ, ଉପରେ ଟିକେ ଲମ୍ବା ରଖନ୍ତୁ।", "roman": "pakhôru chhoṭô, upôre ṭike lômba rôkhôntu.", "en": "Short at the sides, a bit longer on top, please." },
+        { "native": "ବାପା ମାସରେ ଥରେ ଚୁଟି କଟାନ୍ତି।", "roman": "bapa masôre thôre chuṭi kôṭanti.", "en": "Dad gets a haircut once a month.", "focus": "କଟାନ୍ତି", "wrong": ["କଟାଏ|kôṭae", "କଟାଅ|kôṭaô"] }
+      ]
+    },
+    {
+      "title": "Laundry, parcels and the chemist",
+      "tip": { "title": "How long? ଲାଗିବା and ମିଳିବା", "body": "- Time or cost is the subject of **ଲାଗିବା**: ତିନି ଦିନ **ଲାଗିବ** 'it'll take three days'; usually: **ଲାଗେ**.\n- **ମିଳିବା** 'be got' puts the receiver in the dative: **ଆପଣଙ୍କୁ** କାଲି ମିଳିଯିବ 'you'll get it tomorrow'.\n- Not ~~ମୁଁ ମିଳିବି~~ — that means 'I'll be found'.", "pattern": "time + ଲାଗିବ · ମୋତେ / ଆପଣଙ୍କୁ + ମିଳିବ", "grammar": 1 },
+      "new": ["ଲଣ୍ଡ୍ରି", "କୁରିଅର୍", "ପାର୍ସଲ୍", "ମେଡିକାଲ", "ଏଇ ପାର୍ସଲ୍ ଦିଲ୍ଲୀ ପଠାଇବାକୁ ଅଛି।", "କେତେ ଦିନ ଲାଗିବ?"],
+      "sentences": [
+        { "native": "ଦିଲ୍ଲୀକୁ କୁରିଅର୍ ଯିବାକୁ ତିନି ଦିନ ଲାଗିବ।", "roman": "Dilliku kuriôr jibaku tini dinô lagibô.", "en": "A courier to Delhi will take three days.", "focus": "ଲାଗିବ", "wrong": ["ଲାଗିଲା|lagila", "ଲାଗୁଛି|laguchhi"] },
+        { "native": "ପାର୍ସଲ୍ କାଲି ସୁଦ୍ଧା ଆପଣଙ୍କୁ ମିଳିଯିବ।", "roman": "parsôl kali suddha apôṇôṅku miḷijibô.", "en": "You'll get the parcel by tomorrow.", "focus": "ଆପଣଙ୍କୁ", "wrong": ["ଆପଣ|apôṇô", "ଆପଣଙ୍କର|apôṇôṅkôrô"] },
+        { "native": "ମୋତେ ମୋ ପାର୍ସଲ୍ ଏପର୍ଯ୍ୟନ୍ତ ମିଳିନି।", "roman": "mote mo parsôl epôrjyôntô miḷini.", "en": "I still haven't got my parcel.", "focus": "ମୋତେ", "wrong": ["ମୁଁ|muṃ", "ମୋର|morô"] },
+        { "native": "ଲଣ୍ଡ୍ରିରେ ଲୁଗା ଧୁଆଇବାକୁ କେତେ ଦିନ ଲାଗେ?", "roman": "lôṇḍrire luga dhuaibaku kete dinô lage?", "en": "How many days does it take to get clothes washed at the laundry?", "focus": "ଲାଗେ", "wrong": ["ଲାଗିଲା|lagila", "ଲାଗିଥିଲା|lagithila"] },
+        { "native": "ସାଧାରଣତଃ ଦୁଇ ଦିନ ଲାଗେ, କିନ୍ତୁ ଆଜି ଦେଲେ କାଲି ମିଳିଯିବ।", "roman": "sadharôṇôtô dui dinô lage, kintu aji dele kali miḷijibô.", "en": "It usually takes two days, but if you drop it off today you'll get it tomorrow.", "focus": "ଲାଗେ", "wrong": ["ଲାଗିଲା|lagila", "ଲାଗିଥିଲା|lagithila"] },
+        { "native": "ମେଡିକାଲ ଦୋକାନ ରାତି ଦଶଟା ଯାଏ ଖୋଲା ରହେ।", "roman": "meḍikal dokanô rati dôsôṭa jae khola rôhe.", "en": "The chemist's stays open till ten at night." },
+        { "native": "ମେଡିକାଲ ଯିବାକୁ ପାଞ୍ଚ ମିନିଟ୍ ଲାଗିବ, ମୁଁ ଔଷଧ ଆଣିଦେବି।", "roman": "meḍikal jibaku pañchô miniṭ lagibô, muṃ ôusôdhô aṇidebi.", "en": "It's five minutes to the chemist's — I'll get the medicine for you.", "focus": "ଲାଗିବ", "wrong": ["ଲାଗିଲା|lagila", "ଲାଗିଥିଲା|lagithila"] },
+        { "native": "ପାର୍ସଲ୍ ପଠାଇବାକୁ କେତେ ଲାଗିବ?", "roman": "parsôl pôṭhaibaku kete lagibô?", "en": "How much will it cost to send the parcel?", "focus": "ଲାଗିବ", "wrong": ["ଲାଗିଲା|lagila", "ଲାଗୁଛି|laguchhi"] }
+      ]
+    }
+  ]
+}

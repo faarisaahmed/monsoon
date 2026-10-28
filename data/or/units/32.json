@@ -1,0 +1,189 @@
+{
+  "id": 32,
+  "title": "Health in depth",
+  "goal": "Describe symptoms precisely and say how long you have had them, mention allergies and conditions, follow a doctor’s or pharmacist’s instructions and book tests.",
+  "intro": "Unit 9 got you to the doctor. This unit lets you have the whole conversation: what exactly hurts and how (**ଜଳୁଛି** 'burning', **କୁଣ୍ଡାଉଛି** 'itching', **ମୁଣ୍ଡ ବୁଲାଉଛି** 'I'm dizzy'), **since when** and **for how long**, what you are allergic to, and what the doctor tells you to do: **ଦିନକୁ ଦୁଇ ଥର ଖାଇବା ପରେ** 'twice a day after food'.\n\nThe big grammar point is a difference from English: Odia says 'I *am having* a fever for three days' — **ତିନି ଦିନ ହେଲା ଜ୍ୱର ହେଉଛି** — with the present tense, because the fever is still going on.",
+  "vocab": [
+    { "native": "ଲକ୍ଷଣ", "roman": "lôkhyôṇô", "en": "symptom; sign", "pos": "noun" },
+    { "native": "ମୁଣ୍ଡ ବୁଲାଇବା", "roman": "muṇḍô bulaiba", "en": "to feel dizzy (lit. the head spins)", "pos": "verb", "note": "Always with ମୁଣ୍ଡ as subject: ମୁଣ୍ଡ ବୁଲାଉଛି 'I feel dizzy'." },
+    { "native": "ଶ୍ୱାସ", "roman": "swasô", "en": "breath", "pos": "noun", "note": "ଶ୍ୱାସ ନେବା 'to breathe'. In speech also ନିଶ୍ୱାସ." },
+    { "native": "କଷ୍ଟ", "roman": "kôsṭô", "en": "difficulty, trouble; suffering", "pos": "noun", "note": "-ବାରେ କଷ୍ଟ ହେବା 'to have trouble …ing': ଚାଲିବାରେ କଷ୍ଟ ହେଉଛି." },
+    { "native": "ଫୁଲିବା", "roman": "phuliba", "en": "to swell", "pos": "verb", "note": "Usually as ଫୁଲିଯିବା: ଗୋଡ଼ ଫୁଲିଯାଇଛି 'my leg has swollen'." },
+    { "native": "କୁଣ୍ଡାଇବା", "roman": "kuṇḍaiba", "en": "to itch", "pos": "verb", "note": "The body part is the subject: ହାତ କୁଣ୍ଡାଉଛି 'my hand itches'." },
+    { "native": "ଜଳିବା", "roman": "jôḷiba", "en": "to burn (also of a burning sensation)", "pos": "verb", "note": "ଆଖି ଜଳୁଛି 'my eyes are burning'; ପେଟ ଜଳୁଛି 'heartburn'." },
+    { "native": "ଦୁର୍ବଳ", "roman": "durbôḷô", "en": "weak", "pos": "adj", "note": "ଦେହ ଦୁର୍ବଳ ଲାଗୁଛି 'I feel weak'." },
+    { "native": "ଧରି", "roman": "dhôri", "en": "for (a length of time)", "pos": "postp", "note": "Lit. 'holding': ଦୁଇ ସପ୍ତାହ ଧରି 'for two weeks'." },
+    { "native": "କେବେଠାରୁ", "roman": "kebeṭharu", "en": "since when?", "pos": "q", "note": "Colloquially କେବେଠୁ." },
+    { "native": "ଆଲର୍ଜି", "roman": "alôrji", "en": "allergy", "pos": "noun", "note": "ମୋର … ଆଲର୍ଜି ଅଛି 'I have an allergy'; … ଖାଇଲେ ଆଲର୍ଜି ହୁଏ 'I get an allergy if I eat …'." },
+    { "native": "ସୁଗାର୍", "roman": "sugar", "en": "diabetes (lit. sugar)", "pos": "noun", "note": "Everyday word: ମୋର ସୁଗାର୍ ଅଛି 'I'm diabetic'. Medical: ମଧୁମେହ." },
+    { "native": "ବିପି", "roman": "bipi", "en": "blood pressure (BP)", "pos": "noun", "note": "ବିପି ବେଶି / କମ 'high / low BP'. Formal: ରକ୍ତଚାପ." },
+    { "native": "ଟାବଲେଟ୍", "roman": "ṭableṭ", "en": "tablet, pill", "pos": "noun", "note": "Formal: ବଟିକା. You \"eat\" tablets: ଟାବଲେଟ୍ ଖାଇବା." },
+    { "native": "ସିରପ୍", "roman": "sirôp", "en": "syrup, liquid medicine", "pos": "noun", "note": "You \"drink\" syrup: ସିରପ୍ ପିଇବା." },
+    { "native": "ଚାମଚ", "roman": "chamôchô", "en": "spoon; spoonful", "pos": "noun" },
+    { "native": "ଥର", "roman": "thôrô", "en": "time (occasion)", "pos": "noun", "note": "ଦୁଇ ଥର 'twice', ତିନି ଥର 'three times'; ଥରେ 'once' (unit 16)." },
+    { "native": "ପ୍ରେସକ୍ରିପସନ୍", "roman": "preskripsôn", "en": "prescription", "pos": "noun", "note": "Also ପର୍ଚି 'chit'." },
+    { "native": "ଗ୍ୟାସ୍", "roman": "gyas", "en": "acidity, indigestion (lit. gas)", "pos": "noun", "note": "Very common complaint: ଗ୍ୟାସ୍ ହୋଇଛି 'I've got acidity'." },
+    { "native": "ଆପଏଣ୍ଟମେଣ୍ଟ୍", "roman": "apôeṇṭmeṇṭ", "en": "appointment", "pos": "noun" },
+    { "native": "ରକ୍ତ", "roman": "rôktô", "en": "blood", "pos": "noun" },
+    { "native": "ଟେଷ୍ଟ", "roman": "ṭesṭ", "en": "(medical) test", "pos": "noun", "note": "ରକ୍ତ ଟେଷ୍ଟ 'blood test'; ଟେଷ୍ଟ କରିବା / କରାଇବା 'to do / get a test done'. Formal: ପରୀକ୍ଷା." },
+    { "native": "ଇଞ୍ଜେକସନ୍", "roman": "iñjeksôn", "en": "injection", "pos": "noun", "note": "ଇଞ୍ଜେକସନ୍ ଦେବା (doctor) / ନେବା (patient)." },
+    { "native": "ଭର୍ତ୍ତି", "roman": "bhôrtti", "en": "admitted (to hospital)", "pos": "adj", "note": "ଡାକ୍ତରଖାନାରେ ଭର୍ତ୍ତି ହେବା 'to be admitted'. Also used for admission to a school or college." },
+    { "native": "ତେଲ ମସଲା", "roman": "telô môsôla", "en": "oily, spicy food (lit. oil and spices)", "pos": "noun", "note": "The doctor's favourite ban: ତେଲ ମସଲା ବନ୍ଦ!" },
+    { "native": "ଖାଦ୍ୟ", "roman": "khaddyô", "en": "food", "pos": "noun", "note": "ହାଲୁକା ଖାଦ୍ୟ 'light food'; ବାହାର ଖାଦ୍ୟ 'eating out, outside food'." },
+    { "native": "ସୁସ୍ଥ", "roman": "susthô", "en": "healthy, well, recovered", "pos": "adj", "note": "Opposite of ଅସୁସ୍ଥ (unit 9). ସୁସ୍ଥ ହେବା 'to get well'." }
+  ],
+  "phrases": [
+    { "native": "ମୋର ତିନି ଦିନ ହେଲା ଜ୍ୱର ହେଉଛି।", "roman": "morô tini dinô hela jwôrô heuchhi.", "en": "I've had a fever for three days." },
+    { "native": "କାଲିଠାରୁ ମୁଣ୍ଡ ବିନ୍ଧୁଛି।", "roman": "kaliṭharu muṇḍô bindhuchhi.", "en": "I've had a headache since yesterday." },
+    { "native": "ମୁଣ୍ଡ ବୁଲାଉଛି।", "roman": "muṇḍô bulauchhi.", "en": "I feel dizzy." },
+    { "native": "ଶ୍ୱାସ ନେବାରେ କଷ୍ଟ ହେଉଛି।", "roman": "swasô nebare kôsṭô heuchhi.", "en": "I'm having trouble breathing." },
+    { "native": "ମୋର ଚିଙ୍ଗୁଡ଼ି ଖାଇଲେ ଆଲର୍ଜି ହୁଏ।", "roman": "morô chiṅguṛi khaile alôrji hue.", "en": "I'm allergic to prawns. (lit. if I eat prawns, I get an allergy)" },
+    { "native": "ମୋର ସୁଗାର୍ ଅଛି।", "roman": "morô sugar ôchhi.", "en": "I'm diabetic." },
+    { "native": "ଏହି ଟାବଲେଟ୍ ଦିନକୁ ଦୁଇ ଥର ଖାଇବା ପରେ ଖାଇବେ।", "roman": "ehi ṭableṭ dinôku dui thôrô khaiba pôre khaibe.", "en": "Take this tablet twice a day after food." },
+    { "native": "ଖାଲି ପେଟରେ ଖାଇବେ ନାହିଁ।", "roman": "khali peṭôre khaibe nahiṃ.", "en": "Don't take it on an empty stomach." },
+    { "native": "ଏହା ପ୍ରେସକ୍ରିପସନ୍ ବିନା ମିଳିବ କି?", "roman": "eha preskripsôn bina miḷibô ki?", "en": "Can I get this without a prescription?" },
+    { "native": "ଡାକ୍ତରଙ୍କ ସହ ଆପଏଣ୍ଟମେଣ୍ଟ୍ ମିଳିବ କି?", "roman": "ḍaktôrôṅkô sôhô apôeṇṭmeṇṭ miḷibô ki?", "en": "Could I get an appointment with the doctor?" },
+    { "native": "ରକ୍ତ ଟେଷ୍ଟ କରିବାକୁ ପଡ଼ିବ।", "roman": "rôktô ṭesṭ kôribaku pôṛibô.", "en": "You'll need a blood test." },
+    { "native": "ତେଲ ମସଲା ଖାଆନ୍ତୁ ନାହିଁ।", "roman": "telô môsôla khaôntu nahiṃ.", "en": "Avoid oily, spicy food. (polite)" },
+    { "native": "ଏବେ କେମିତି ଲାଗୁଛି?", "roman": "ebe kemiti laguchhi?", "en": "How are you feeling now?" },
+    { "native": "ଟିକେ ଭଲ ଲାଗୁଛି।", "roman": "ṭike bhôlô laguchhi.", "en": "I'm feeling a bit better." },
+    { "native": "ଶୀଘ୍ର ସୁସ୍ଥ ହୁଅନ୍ତୁ।", "roman": "sighrô susthô huôntu.", "en": "Get well soon. (polite)", "note": "To a friend: ଶୀଘ୍ର ସୁସ୍ଥ ହୁଅ. In messages people also write \"Get well soon\" in English." }
+  ],
+  "grammar": [
+    {
+      "title": "'I've had it for three days': present tense + ହେଲା, ଧରି, -ଠାରୁ",
+      "body": "English says 'I **have had** a fever for three days'. Odia looks at it differently: the fever is **still going on**, so it uses the **present** — continuous **-ଉଛି** for something happening (ଜ୍ୱର ହେଉଛି, ମୁଣ୍ଡ ବିନ୍ଧୁଛି, ବାନ୍ତି ହେଉଛି) or **ଅଛି** for a state (କାଶ ଅଛି, ସୁଗାର୍ ଅଛି) — and adds a time phrase.\n\n**Three ways to give the time:**\n**X ହେଲା** 'it's been X' — the most colloquial; ହେଲା never changes: ତିନି ଦିନ **ହେଲା** ଜ୍ୱର ହେଉଛି.\n**X ଧରି** 'for X' (lit. holding X): ଦୁଇ ସପ୍ତାହ **ଧରି** କାଶ ଅଛି.\n**-ଠାରୁ / -ରୁ** 'since': କାଲି**ଠାରୁ**, ସୋମବାର**ଠାରୁ**, ସକାଳ**ୁ** 'since the morning', ପିଲାଦିନ**ରୁ** 'since childhood'. In speech -ଠାରୁ shrinks to **-ଠୁ**: କାଲିଠୁ.\n\n**Asking:** **କେବେଠାରୁ?** 'since when?' · **କେତେ ଦିନ ହେଲା?** 'how long has it been?'\n\n**When it started:** use the past with **ତଳେ** 'ago': ତିନି ଦିନ **ତଳେ** ଆରମ୍ଭ ହେଲା 'it started three days ago'.\n\n**Something that keeps happening:** use the simple present: ରାତିରେ କାଶ **ହୁଏ** 'I cough at night', ଚାଲିଲେ ଶ୍ୱାସ ନେବାରେ କଷ୍ଟ **ହୁଏ** 'I get breathless when I walk'.\n\n**Not yet / haven't since:** the negative perfect, usually in its short form: ସକାଳୁ କିଛି **ଖାଇନି** 'I haven't eaten anything since morning' (careful: ଖାଇ ନାହିଁ).\n\n**The trap:** the simple **past** means it's over: ତିନି ଦିନ ଜ୍ୱର **ହେଲା** 'I had a fever for three days (and now it's gone)'. If you still have it, say ତିନି ଦିନ ହେଲା ଜ୍ୱର **ହେଉଛି**. (The perfect ଜ୍ୱର **ହୋଇଛି** 'I've got a fever' is fine — it describes the state you are in now.)",
+      "examples": [
+        { "native": "ମୋର ଦୁଇ ଦିନ ହେଲା ଝାଡ଼ା ହେଉଛି।", "roman": "morô dui dinô hela jhaṛa heuchhi.", "en": "I've had diarrhoea for two days." },
+        { "native": "ଗୋଟିଏ ସପ୍ତାହ ଧରି ମୋ ପିଠି ବିନ୍ଧୁଛି।", "roman": "goṭie sôptahô dhôri mo piṭhi bindhuchhi.", "en": "My back has been hurting for a week." },
+        { "native": "ସକାଳୁ ମୁଁ ପାଣି ବି ପିଇନି।", "roman": "sôkaḷu muṃ paṇi bi piini.", "en": "I haven't even had water since the morning." },
+        { "native": "ଏ ଯନ୍ତ୍ରଣା କେବେଠାରୁ ଅଛି?", "roman": "e jôntrôṇa kebeṭharu ôchhi?", "en": "Since when have you had this pain?" },
+        { "native": "ରାତିରେ କାଶ ବେଶି ହୁଏ।", "roman": "ratire kasô besi hue.", "en": "The cough gets worse at night." },
+        { "native": "ତିନି ଦିନ ତଳେ ଜ୍ୱର ଆରମ୍ଭ ହେଲା।", "roman": "tini dinô tôḷe jwôrô arômbhô hela.", "en": "The fever started three days ago." }
+      ]
+    },
+    {
+      "title": "Instructions: how much, how often, before or after food",
+      "body": "Doctors and pharmacists give instructions with the **future** — polite **ଖାଇବେ, ପିଇବେ, ନେବେ** (or familiar **ଖାଇବ** to a young patient) — or the polite command **ଖାଆନ୍ତୁ, ପିଅନ୍ତୁ**. The negative adds ନାହିଁ: ଖାଇବେ ନାହିଁ, ଖାଆନ୍ତୁ ନାହିଁ. Note that in Odia you **eat** tablets (ଟାବଲେଟ୍ ଖାଇବା), **drink** syrup (ସିରପ୍ ପିଇବା) and **take/give** injections (ଇଞ୍ଜେକସନ୍ ନେବା / ଦେବା).\n\n**How often — the -କୁ 'per' ending:** ଦିନ**କୁ** ଦୁଇ ଥର 'twice a day', ସପ୍ତାହ**କୁ** ଥରେ 'once a week'. Or name the times: ସକାଳେ ଗୋଟିଏ, ରାତିରେ ଗୋଟିଏ 'one in the morning, one at night'; ଛଅ ଘଣ୍ଟାରେ ଥରେ 'once every six hours'.\n\n**When — -ବା + ପରେ / ଆଗରୁ** (the same -ବା pattern as ବେଳେ and ମାତ୍ରେ in unit 30): ଖାଇବା **ପରେ** 'after food', ଖାଇବା **ଆଗରୁ** 'before food', ଶୋଇବା **ଆଗରୁ** 'at bedtime', ଖାଲି ପେଟରେ 'on an empty stomach'.\n\n**How much:** ଗୋଟିଏ ଟାବଲେଟ୍, ଅଧା ଟାବଲେଟ୍, ଦୁଇ ଚାମଚ ସିରପ୍.\n\n**How long:** X **ଯାଏ / ପର୍ଯ୍ୟନ୍ତ**: ପାଞ୍ଚ ଦିନ ଯାଏ ଖାଇବେ 'take it for five days'. 'Don't stop halfway' is ମଝିରେ ଛାଡ଼ିବେ ନାହିଁ.\n\n**Must / should** (units 9 and 15): -ବାକୁ ପଡ଼ିବ 'you'll have to', -ବା ଉଚିତ 'you should', and the doctor's favourite **-ବା ଦରକାର**: ବିଶ୍ରାମ ନେବା ଦରକାର 'you need rest'.\n\n**Word order:** thing → how often → when → verb at the end: ଏହି ଟାବଲେଟ୍ | ଦିନକୁ ଦୁଇ ଥର | ଖାଇବା ପରେ | ଖାଇବେ.\n\n**The trap:** 'per day' needs **-କୁ**: ~~ଦିନ ଦୁଇ ଥର~~ → ଦିନ**କୁ** ଦୁଇ ଥର. And ପରେ / ଆଗରୁ follow the **-ବା** form, not a tense: ~~ଖାଇଲି ପରେ~~ → ଖାଇବା ପରେ.",
+      "examples": [
+        { "native": "ଦିନକୁ ତିନି ଥର ଦୁଇ ଚାମଚ ସିରପ୍ ପିଇବେ।", "roman": "dinôku tini thôrô dui chamôchô sirôp piibe.", "en": "Take two spoonfuls of syrup three times a day." },
+        { "native": "ଏହି ଟାବଲେଟ୍ ଶୋଇବା ଆଗରୁ ଖାଇବେ।", "roman": "ehi ṭableṭ soiba agôru khaibe.", "en": "Take this tablet at bedtime." },
+        { "native": "ପାଞ୍ଚ ଦିନ ଯାଏ ଔଷଧ ଖାଇବେ, ମଝିରେ ଛାଡ଼ିବେ ନାହିଁ।", "roman": "pañchô dinô jae ôusôdhô khaibe, môjhire chhaṛibe nahiṃ.", "en": "Take the medicine for five days — don't stop halfway." },
+        { "native": "ପ୍ରଚୁର ପାଣି ପିଅନ୍ତୁ।", "roman": "prôchurô paṇi piôntu.", "en": "Drink plenty of water." },
+        { "native": "ଆପଣଙ୍କୁ ଦୁଇ ଦିନ ବିଶ୍ରାମ ନେବା ଦରକାର।", "roman": "apôṇôṅku dui dinô bisramô neba dôrôkarô.", "en": "You need two days' rest." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the doctor’s chamber in Cuttack",
+    "setting": "Evening at Dr Patnaik's private clinic near Buxi Bazaar, Cuttack, in the rainy season. The doctor is older and uses ତୁମେ with Ananya, a young patient; she answers with ଆପଣ.",
+    "lines": [
+      { "speaker": "Dr Patnaik", "native": "ବସ। କ'ଣ ହେଉଛି କୁହ।", "roman": "bôsô. kôṇô heuchhi kuhô.", "en": "Have a seat. Tell me what's wrong." },
+      { "speaker": "Ananya", "native": "ଡାକ୍ତରବାବୁ, ତିନି ଦିନ ହେଲା ମୋର ଜ୍ୱର ହେଉଛି, ଆଉ ଦେହ ଦୁର୍ବଳ ଲାଗୁଛି।", "roman": "ḍaktôrôbabu, tini dinô hela morô jwôrô heuchhi, au dehô durbôḷô laguchhi.", "en": "Doctor, I've had a fever for three days, and I feel weak." },
+      { "speaker": "Dr Patnaik", "native": "ଜ୍ୱର କେତେ ଥିଲା? ମାପିଛ?", "roman": "jwôrô kete thila? mapichhô?", "en": "How high was it? Did you measure it?" },
+      { "speaker": "Ananya", "native": "ହଁ, କାଲି ରାତିରେ ଏକଶହ ଦୁଇ ଥିଲା। ସକାଳୁ ମୁଣ୍ଡ ବି ବିନ୍ଧୁଛି।", "roman": "hôṃ, kali ratire ekôsôhô dui thila. sôkaḷu muṇḍô bi bindhuchhi.", "en": "Yes, it was 102 last night. And I've had a headache since this morning." },
+      { "speaker": "Dr Patnaik", "native": "ବାନ୍ତି ହେଉଛି କି? ଗଣ୍ଠି ବିନ୍ଧୁଛି?", "roman": "banti heuchhi ki? gôṇṭhi bindhuchhi?", "en": "Any vomiting? Are your joints aching?" },
+      { "speaker": "Ananya", "native": "ବାନ୍ତି ନାହିଁ, କିନ୍ତୁ ଗଣ୍ଠି ବହୁତ ବିନ୍ଧୁଛି। ଡେଙ୍ଗୁ ନୁହେଁ ତ?", "roman": "banti nahiṃ, kintu gôṇṭhi bôhutô bindhuchhi. ḍeṅgu nuheṃ tô?", "en": "No vomiting, but my joints really hurt. It's not dengue, is it?" },
+      { "speaker": "Dr Patnaik", "native": "ଏବେ କହି ହେବ ନାହିଁ। ରକ୍ତ ଟେଷ୍ଟ କରିବାକୁ ପଡ଼ିବ। କୌଣସି ଔଷଧରେ ଆଲର୍ଜି ଅଛି?", "roman": "ebe kôhi hebô nahiṃ. rôktô ṭesṭ kôribaku pôṛibô. kôuṇôsi ôusôdhôre alôrji ôchhi?", "en": "Can't say yet. We'll need a blood test. Are you allergic to any medicine?" },
+      { "speaker": "Ananya", "native": "ନା, ସେମିତି କିଛି ନାହିଁ।", "roman": "na, semiti kichhi nahiṃ.", "en": "No, nothing like that." },
+      { "speaker": "Dr Patnaik", "native": "ଠିକ୍ ଅଛି। ଏ ପାରାସିଟାମଲ୍ ଦିନକୁ ତିନି ଥର ଖାଇବା ପରେ ଖାଇବ। ପ୍ରଚୁର ପାଣି ପିଇବ, ଆଉ ତେଲ ମସଲା ବନ୍ଦ।", "roman": "ṭhik ôchhi. e parasiṭamôl dinôku tini thôrô khaiba pôre khaibô. prôchurô paṇi piibô, au telô môsôla bôndô.", "en": "All right. Take this paracetamol three times a day after food. Drink lots of water, and no oily or spicy food." },
+      { "speaker": "Ananya", "native": "ଯନ୍ତ୍ରଣା ପାଇଁ ଅନ୍ୟ କୌଣସି ଟାବଲେଟ୍ ଖାଇପାରିବି କି?", "roman": "jôntrôṇa paiṃ ônnyô kôuṇôsi ṭableṭ khaiparibi ki?", "en": "Can I take any other tablet for the pain?" },
+      { "speaker": "Dr Patnaik", "native": "ନା, ନିଜେ ନିଜେ କିଛି ଖାଇବ ନାହିଁ। ଟେଷ୍ଟ ରିପୋର୍ଟ ଆସିବା ମାତ୍ରେ ମୋତେ ଦେଖାଇବ।", "roman": "na, nije nije kichhi khaibô nahiṃ. ṭesṭ riporṭ asiba matre mote dekhaibô.", "en": "No — don't take anything on your own. Show me the test report as soon as it comes." },
+      { "speaker": "Ananya", "native": "ଠିକ୍ ଅଛି ଡାକ୍ତରବାବୁ। ଫି କେତେ?", "roman": "ṭhik ôchhi ḍaktôrôbabu. phi kete?", "en": "OK, doctor. What's the fee?" },
+      { "speaker": "Dr Patnaik", "native": "ବାହାରେ କାଉଣ୍ଟରରେ ଦେଇଦିଅ। ଶୀଘ୍ର ସୁସ୍ଥ ହୁଅ!", "roman": "bahare kauṇṭôrôre deidiô. sighrô susthô huô!", "en": "Pay at the counter outside. Get well soon!" }
+    ]
+  },
+  "culture": "Doctors in Odisha are addressed as **ଡାକ୍ତରବାବୁ** (or **ଡାକ୍ତର ମ୍ୟାଡାମ୍**), and many government doctors also see patients in the evening at a private **chamber** — people say the doctor **ବସନ୍ତି** 'sits' there from six to nine. The big public hospitals everyone names are **SCB Medical College** in Cuttack, **AIIMS** and **Capital Hospital** in Bhubaneswar; many families use the state health card (BSKY) at these and at listed private hospitals.\n\nThe neighbourhood **ମେଡିକାଲ** (pharmacy) is often the first stop: pharmacists give advice and sell many medicines over the counter, but antibiotics and strong painkillers should come with a prescription. In the monsoon, fever plus joint pain makes everyone think of **dengue** (and malaria in some districts), so doctors ask for a blood test early and warn against taking painkillers other than paracetamol on your own. In summer, especially in western Odisha, heatstroke (**ଲୁ**) is serious: people drink **ପଖାଳ**, lemon water and ORS.\n\nHealth is a normal topic of conversation: expect **ଦେହ ଭଲ ତ?** from neighbours and plenty of home advice — don't drink cold water, eat light food, have turmeric milk. Visitors to a patient bring fruit (apples, oranges, bananas) or Horlicks, and often stay for a long chat; in hospitals a relative usually stays with the patient day and night.",
+  "lessons": [
+    {
+      "title": "Describing symptoms",
+      "tip": { "title": "Saying what hurts and how", "body": "- Body part + verb: ମୁଣ୍ଡ **ବିନ୍ଧୁଛି** (aches), ଆଖି **ଜଳୁଛି** (burns), ହାତ **କୁଣ୍ଡାଉଛି** (itches), ଗୋଡ଼ **ଫୁଲିଯାଇଛି** (has swollen).\n- 'Trouble …ing': -ବାରେ **କଷ୍ଟ** ହେଉଛି: ଶ୍ୱାସ ନେବାରେ କଷ୍ଟ.\n- ଦେହ ଦୁର୍ବଳ ଲାଗୁଛି 'I feel weak'; ମୁଣ୍ଡ ବୁଲାଉଛି 'I'm dizzy'.", "pattern": "body part + ବିନ୍ଧୁଛି / ଜଳୁଛି / କୁଣ୍ଡାଉଛି  ·  verb-ବାରେ + କଷ୍ଟ ହେଉଛି" },
+      "new": ["ଲକ୍ଷଣ", "ମୁଣ୍ଡ ବୁଲାଇବା", "ଶ୍ୱାସ", "କଷ୍ଟ", "ଫୁଲିବା", "କୁଣ୍ଡାଇବା", "ଜଳିବା", "ଦୁର୍ବଳ", "ମୁଣ୍ଡ ବୁଲାଉଛି।", "ଶ୍ୱାସ ନେବାରେ କଷ୍ଟ ହେଉଛି।"],
+      "sentences": [
+        { "native": "ଖରାରେ ମୋ ମୁଣ୍ଡ ବୁଲାଉଛି, ଟିକେ ବସିବି।", "roman": "khôrare mo muṇḍô bulauchhi, ṭike bôsibi.", "en": "I feel dizzy in this heat — I'll sit down for a bit.", "focus": "ବୁଲାଉଛି", "wrong": ["ବୁଲାଉଛ|bulauchhô", "ବୁଲାଉଛନ୍ତି|bulauchhônti"] },
+        { "native": "ମୋ ଗୋଡ଼ ଫୁଲିଯାଇଛି।", "roman": "mo goṛô phulijaichhi.", "en": "My leg has swollen up.", "focus": "ଫୁଲିଯାଇଛି", "wrong": ["ଫୁଲିଯାଇଛନ୍ତି|phulijaichhônti", "ଫୁଲିଯାଇଛ|phulijaichhô"] },
+        { "native": "ମୋ ହାତ ବହୁତ କୁଣ୍ଡାଉଛି।", "roman": "mo hatô bôhutô kuṇḍauchhi.", "en": "My hand is really itchy.", "focus": "କୁଣ୍ଡାଉଛି", "wrong": ["କୁଣ୍ଡାଉଛ|kuṇḍauchhô", "କୁଣ୍ଡାଇଲି|kuṇḍaili"] },
+        { "native": "ଆଖି ଜଳୁଛି, ପାଣି ବାହାରୁଛି।", "roman": "akhi jôḷuchhi, paṇi baharuchhi.", "en": "My eyes are burning and watering.", "focus": "ଜଳୁଛି", "wrong": ["ଜଳୁଛ|jôḷuchhô", "ଜଳୁଛନ୍ତି|jôḷuchhônti"] },
+        { "native": "ଜ୍ୱର ପରେ ଦେହ ଦୁର୍ବଳ ଲାଗୁଛି।", "roman": "jwôrô pôre dehô durbôḷô laguchhi.", "en": "I feel weak after the fever." },
+        { "native": "ଟିକେ ଚାଲିଲେ ମୋର ଶ୍ୱାସ ନେବାରେ କଷ୍ଟ ହୁଏ।", "roman": "ṭike chalile morô swasô nebare kôsṭô hue.", "en": "If I walk even a little, I get breathless.", "focus": "ନେବାରେ", "wrong": ["ନେବାକୁ|nebaku", "ନେଇ|nei"] },
+        { "native": "ଆଉ କିଛି ଲକ୍ଷଣ ଅଛି କି?", "roman": "au kichhi lôkhyôṇô ôchhi ki?", "en": "Any other symptoms?" },
+        { "native": "ତାଙ୍କୁ ଚାଲିବାରେ କଷ୍ଟ ହେଉଛି।", "roman": "taṅku chalibare kôsṭô heuchhi.", "en": "He/She (resp.) is having difficulty walking.", "focus": "ତାଙ୍କୁ", "wrong": ["ସେ|se", "ତାଙ୍କ|taṅkô"] },
+        { "native": "ପେଟ ଜଳୁଛି, କ'ଣ ଖାଇବି?", "roman": "peṭô jôḷuchhi, kôṇô khaibi?", "en": "I've got heartburn — what should I eat?" }
+      ]
+    },
+    {
+      "title": "Since when? For how long?",
+      "tip": { "title": "Still going on → present tense", "body": "- **X ହେଲା** + present: ତିନି ଦିନ **ହେଲା** ଜ୍ୱର ହେଉଛି 'for three days'.\n- **X ଧରି** 'for X'; **-ଠାରୁ / -ରୁ** 'since': କାଲିଠାରୁ, ସକାଳୁ.\n- Ask **କେବେଠାରୁ?** 'since when?'\n- Past ଜ୍ୱର **ହେଲା** = it's over.", "pattern": "X ହେଲା / X ଧରି / X-ଠାରୁ + present (-ଉଛି / ଅଛି)", "grammar": 0 },
+      "new": ["ଧରି", "କେବେଠାରୁ", "ଆଲର୍ଜି", "ସୁଗାର୍", "ବିପି", "ମୋର ତିନି ଦିନ ହେଲା ଜ୍ୱର ହେଉଛି।", "କାଲିଠାରୁ ମୁଣ୍ଡ ବିନ୍ଧୁଛି।", "ମୋର ଚିଙ୍ଗୁଡ଼ି ଖାଇଲେ ଆଲର୍ଜି ହୁଏ।", "ମୋର ସୁଗାର୍ ଅଛି।"],
+      "sentences": [
+        { "native": "କାଶ କେବେଠାରୁ ହେଉଛି?", "roman": "kasô kebeṭharu heuchhi?", "en": "Since when have you had the cough?", "focus": "କେବେଠାରୁ", "wrong": ["କେଉଁଠାରୁ|keuṃṭharu", "କେତେ|kete"] },
+        { "native": "ଦୁଇ ସପ୍ତାହ ଧରି ମୋର କାଶ ଅଛି।", "roman": "dui sôptahô dhôri morô kasô ôchhi.", "en": "I've had a cough for two weeks.", "focus": "ଧରି", "wrong": ["ଠାରୁ|ṭharu", "ପରେ|pôre"] },
+        { "native": "ମୋର ପାଞ୍ଚ ଦିନ ହେଲା ପେଟ ଖରାପ ଅଛି।", "roman": "morô pañchô dinô hela peṭô khôrapô ôchhi.", "en": "I've had an upset stomach for five days.", "focus": "ହେଲା", "wrong": ["ହେବ|hebô", "ହୁଏ|hue"] },
+        { "native": "ସୋମବାରଠାରୁ ମୁଁ ଅଫିସ୍ ଯାଇନି।", "roman": "somôbarôṭharu muṃ ôphis jaini.", "en": "I haven't been to the office since Monday.", "focus": "ସୋମବାରଠାରୁ", "wrong": ["ସୋମବାରରେ|somôbarôre", "ସୋମବାରକୁ|somôbarôku"] },
+        { "native": "ବାପାଙ୍କର ଦଶ ବର୍ଷ ହେଲା ସୁଗାର୍ ଅଛି।", "roman": "bapaṅkôrô dôsô bôrsô hela sugar ôchhi.", "en": "Dad has been diabetic for ten years.", "focus": "ଅଛି", "wrong": ["ଥିଲା|thila", "ହେଲା|hela"] },
+        { "native": "ମୋ ମାଙ୍କ ବିପି ବେଶି, ସେ ସବୁଦିନ ଔଷଧ ଖାଆନ୍ତି।", "roman": "mo maṅkô bipi besi, se sôbudinô ôusôdhô khaanti.", "en": "My mum has high blood pressure; she takes medicine every day." },
+        { "native": "ଆପଣଙ୍କର କିଛି ଆଲର୍ଜି ଅଛି କି?", "roman": "apôṇôṅkôrô kichhi alôrji ôchhi ki?", "en": "Do you have any allergies?" },
+        { "native": "ପିଲାଦିନରୁ ମୋର ଆଲର୍ଜି ଅଛି।", "roman": "piladinôru morô alôrji ôchhi.", "en": "I've had this allergy since I was a child.", "focus": "ପିଲାଦିନରୁ", "wrong": ["ପିଲାଦିନରେ|piladinôre", "ପିଲାଦିନକୁ|piladinôku"] },
+        { "native": "ତିନି ଦିନ ଜ୍ୱର ହେଲା, ଏବେ ଭଲ ଅଛି।", "roman": "tini dinô jwôrô hela, ebe bhôlô ôchhi.", "en": "I had a fever for three days; I’m fine now." },
+        { "native": "ସକାଳୁ ମୋ ମୁଣ୍ଡ ବିନ୍ଧୁଛି।", "roman": "sôkaḷu mo muṇḍô bindhuchhi.", "en": "I've had a headache since this morning.", "focus": "ବିନ୍ଧୁଛି", "wrong": ["ବିନ୍ଧିଲା|bindhila", "ବିନ୍ଧିବ|bindhibô"] }
+      ]
+    },
+    {
+      "title": "At the pharmacy",
+      "tip": { "title": "Instructions: per day, before/after food", "body": "- 'Per': **-କୁ** — ଦିନ**କୁ** ଦୁଇ ଥର.\n- When: **-ବା ପରେ / -ବା ଆଗରୁ** — ଖାଇବା ପରେ, ଶୋଇବା ଆଗରୁ; ଖାଲି ପେଟରେ.\n- The verb: polite future **ଖାଇବେ / ପିଇବେ**, or **ଖାଆନ୍ତୁ**; negative + ନାହିଁ.\n- Tablets are 'eaten', syrup is 'drunk'.", "pattern": "thing + ଦିନକୁ X ଥର + ଖାଇବା ପରେ + ଖାଇବେ", "grammar": 1 },
+      "new": [
+        "ଟାବଲେଟ୍",
+        "ସିରପ୍",
+        "ଚାମଚ",
+        "ଥର",
+        "ପ୍ରେସକ୍ରିପସନ୍",
+        "ଗ୍ୟାସ୍",
+        "ଏହି ଟାବଲେଟ୍ ଦିନକୁ ଦୁଇ ଥର ଖାଇବା ପରେ ଖାଇବେ।",
+        "ଖାଲି ପେଟରେ ଖାଇବେ ନାହିଁ।",
+        "ଏହା ପ୍ରେସକ୍ରିପସନ୍ ବିନା ମିଳିବ କି?"
+      ],
+      "sentences": [
+        { "native": "ସକାଳେ ଗୋଟିଏ, ରାତିରେ ଗୋଟିଏ ଟାବଲେଟ୍ ଖାଇବେ।", "roman": "sôkaḷe goṭie, ratire goṭie ṭableṭ khaibe.", "en": "One tablet in the morning and one at night.", "focus": "ଖାଇବେ", "wrong": ["ଖାଇଲେ|khaile", "ଖାଉଛନ୍ତି|khauchhônti"] },
+        { "native": "ଦିନକୁ କେତେ ଥର ଖାଇବି?", "roman": "dinôku kete thôrô khaibi?", "en": "How many times a day should I take it?", "focus": "ଦିନକୁ", "wrong": ["ଦିନରୁ|dinôru", "ଦିନର|dinôrô"] },
+        { "native": "ପିଲାକୁ ଅଧା ଚାମଚ ସିରପ୍ ଦିଅନ୍ତୁ।", "roman": "pilaku ôdha chamôchô sirôp diôntu.", "en": "Give the child half a spoonful of syrup.", "focus": "ଦିଅନ୍ତୁ", "wrong": ["ଦିଏ|die", "ଦେଲେ|dele"] },
+        { "native": "ଏହା ଖାଇବା ଆଗରୁ ନା ଖାଇବା ପରେ?", "roman": "eha khaiba agôru na khaiba pôre?", "en": "Before food or after food?", "focus": "ଆଗରୁ", "wrong": ["ବେଳେ|beḷe", "ମାତ୍ରେ|matre"] },
+        { "native": "ଗ୍ୟାସ୍ ପାଇଁ କିଛି ଦିଅନ୍ତୁ।", "roman": "gyas paiṃ kichhi diôntu.", "en": "Could you give me something for acidity?" },
+        { "native": "ଏ ଟାବଲେଟ୍ ସକାଳେ ଖାଲି ପେଟରେ ଖାଇବେ।", "roman": "e ṭableṭ sôkaḷe khali peṭôre khaibe.", "en": "Take this tablet in the morning on an empty stomach.", "focus": "ପେଟରେ", "wrong": ["ପେଟକୁ|peṭôku", "ପେଟରୁ|peṭôru"] },
+        { "native": "ଏ ଔଷଧ ପ୍ରେସକ୍ରିପସନ୍ ବିନା ଦିଆଯିବ ନାହିଁ।", "roman": "e ôusôdhô preskripsôn bina diajibô nahiṃ.", "en": "This medicine can't be sold without a prescription." },
+        { "native": "ସିରପ୍ ପିଇବା ପରେ ଅଧ ଘଣ୍ଟା ପାଣି ପିଇବେ ନାହିଁ।", "roman": "sirôp piiba pôre ôdhô ghôṇṭa paṇi piibe nahiṃ.", "en": "Don't drink water for half an hour after the syrup.", "focus": "ପିଇବେ", "wrong": ["ପିଇଲେ|piile", "ପିଉଛନ୍ତି|piuchhônti"] },
+        { "native": "ଶୋଇବା ଆଗରୁ ଥରେ ଖାଇବ, ବାସ୍।", "roman": "soiba agôru thôre khaibô, bas.", "en": "Just once at bedtime, that’s all. (familiar)", "focus": "ଶୋଇବା", "wrong": ["ଶୋଇଲି|soili", "ଶୋଉଛି|souchhi"] },
+        { "native": "ପ୍ରେସକ୍ରିପସନ୍ ଟିକେ ଦେଖାନ୍ତୁ।", "roman": "preskripsôn ṭike dekhantu.", "en": "Could I see the prescription, please?" }
+      ]
+    },
+    {
+      "title": "Appointments, tests and hospital",
+      "new": ["ଆପଏଣ୍ଟମେଣ୍ଟ୍", "ରକ୍ତ", "ଟେଷ୍ଟ", "ଇଞ୍ଜେକସନ୍", "ଭର୍ତ୍ତି", "ଡାକ୍ତରଙ୍କ ସହ ଆପଏଣ୍ଟମେଣ୍ଟ୍ ମିଳିବ କି?", "ରକ୍ତ ଟେଷ୍ଟ କରିବାକୁ ପଡ଼ିବ।"],
+      "sentences": [
+        { "native": "ଡାକ୍ତରଙ୍କ ଆପଏଣ୍ଟମେଣ୍ଟ୍ କାଲି ସଞ୍ଜ ପାଞ୍ଚଟାରେ।", "roman": "ḍaktôrôṅkô apôeṇṭmeṇṭ kali sôñjô pañchôṭare.", "en": "The doctor's appointment is tomorrow at five in the evening." },
+        { "native": "ରକ୍ତ ଟେଷ୍ଟ ପାଇଁ ଖାଲି ପେଟରେ ଆସନ୍ତୁ।", "roman": "rôktô ṭesṭ paiṃ khali peṭôre asôntu.", "en": "Please come on an empty stomach for the blood test." },
+        { "native": "ଟେଷ୍ଟ ରିପୋର୍ଟ କେବେ ମିଳିବ?", "roman": "ṭesṭ riporṭ kebe miḷibô?", "en": "When will I get the test report?" },
+        { "native": "ଇଞ୍ଜେକସନ୍ ନେବାକୁ ମୋତେ ଡର ଲାଗେ।", "roman": "iñjeksôn nebaku mote ḍôrô lage.", "en": "I'm scared of injections." },
+        { "native": "ଜେଜେବାପାଙ୍କୁ ଡାକ୍ତରଖାନାରେ ଭର୍ତ୍ତି କରାଯାଇଛି।", "roman": "jejebapaṅku ḍaktôrôkhanare bhôrtti kôrajaichhi.", "en": "Grandpa has been admitted to hospital." },
+        { "native": "ସେ କେତେ ଦିନ ହେଲା ଭର୍ତ୍ତି ଅଛନ୍ତି?", "roman": "se kete dinô hela bhôrtti ôchhônti?", "en": "How long has he been in hospital?", "focus": "ଅଛନ୍ତି", "wrong": ["ଥିଲେ|thile", "ଅଛି|ôchhi"] },
+        { "native": "ଡାକ୍ତର ଆଜି ବସିବେ କି?", "roman": "ḍaktôrô aji bôsibe ki?", "en": "Is the doctor seeing patients today? (lit. will the doctor sit)" },
+        { "native": "ଆପଏଣ୍ଟମେଣ୍ଟ୍ ବିନା ଡାକ୍ତର ଦେଖିବେ ନାହିଁ।", "roman": "apôeṇṭmeṇṭ bina ḍaktôrô dekhibe nahiṃ.", "en": "The doctor won't see you without an appointment." },
+        { "native": "ରକ୍ତ ଟେଷ୍ଟ ସକାଳ ଆଠଟାରୁ ହୁଏ।", "roman": "rôktô ṭesṭ sôkaḷô aṭhôṭaru hue.", "en": "Blood tests are done from eight in the morning." }
+      ]
+    },
+    {
+      "title": "Doctor’s orders and getting better",
+      "new": ["ତେଲ ମସଲା", "ଖାଦ୍ୟ", "ସୁସ୍ଥ", "ତେଲ ମସଲା ଖାଆନ୍ତୁ ନାହିଁ।", "ଏବେ କେମିତି ଲାଗୁଛି?", "ଟିକେ ଭଲ ଲାଗୁଛି।", "ଶୀଘ୍ର ସୁସ୍ଥ ହୁଅନ୍ତୁ।"],
+      "sentences": [
+        { "native": "କିଛି ଦିନ ହାଲୁକା ଖାଦ୍ୟ ଖାଆନ୍ତୁ।", "roman": "kichhi dinô haluka khaddyô khaôntu.", "en": "Eat light food for a few days.", "focus": "ଖାଆନ୍ତୁ", "wrong": ["ଖାଏ|khae", "ଖାଉଛନ୍ତି|khauchhônti"] },
+        { "native": "ଜ୍ୱର ସମୟରେ ତେଲ ମସଲା ଖାଇବା ଉଚିତ ନୁହେଁ।", "roman": "jwôrô sômôyôre telô môsôla khaiba uchitô nuheṃ.", "en": "You shouldn't eat oily, spicy food when you have a fever." },
+        { "native": "ଥଣ୍ଡା ପାଣି ପିଅ ନାହିଁ, ସର୍ଦ୍ଦି ହେବ।", "roman": "thôṇḍa paṇi piô nahiṃ, sôrddi hebô.", "en": "Don't drink cold water, you'll catch a cold.", "focus": "ପିଅ", "wrong": ["ପିଏ|pie", "ପିଇଲି|piili"] },
+        { "native": "ଏବେ କେମିତି ଲାଗୁଛି? ଜ୍ୱର ଅଛି କି?", "roman": "ebe kemiti laguchhi? jwôrô ôchhi ki?", "en": "How are you feeling now? Still got a fever?" },
+        { "native": "ଆଜି ଟିକେ ଭଲ ଲାଗୁଛି, କିନ୍ତୁ ଦୁର୍ବଳ ଲାଗୁଛି।", "roman": "aji ṭike bhôlô laguchhi, kintu durbôḷô laguchhi.", "en": "I feel a bit better today, but weak." },
+        { "native": "ମୁଁ ଏବେ ପୂରା ସୁସ୍ଥ ଅଛି।", "roman": "muṃ ebe pura susthô ôchhi.", "en": "I'm completely better now." },
+        { "native": "ଶୀଘ୍ର ସୁସ୍ଥ ହୁଅ, ମୁଁ କାଲି ଦେଖା କରିବାକୁ ଆସିବି।", "roman": "sighrô susthô huô, muṃ kali dekha kôribaku asibi.", "en": "Get well soon — I'll come and see you tomorrow.", "focus": "ହୁଅ", "wrong": ["ହୁଏ|hue", "ହେଲି|heli"] },
+        { "native": "ବାହାର ଖାଦ୍ୟ ଖାଇବା ବନ୍ଦ କର।", "roman": "baharô khaddyô khaiba bôndô kôrô.", "en": "Stop eating outside food.", "focus": "କର", "wrong": ["କରେ|kôre", "କରୁଛି|kôruchhi"] },
+        { "native": "ଡାକ୍ତର କହିଲେ ଦୁଇ ସପ୍ତାହ ଯାଏ ତେଲ ମସଲା ବନ୍ଦ।", "roman": "ḍaktôrô kôhile dui sôptahô jae telô môsôla bôndô.", "en": "The doctor said no oily or spicy food for two weeks." }
+      ]
+    }
+  ]
+}

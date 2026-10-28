@@ -1,102 +1,210 @@
 {
   "id": 20,
-  "title": "Telling stories & real conversation",
-  "goal": "Tell a story with connectors, use relative clauses and reported speech, and sound natural with fillers, particles and a few idioms.",
-  "intro": "Real Odia conversation is full of little words — **ମାନେ** 'I mean', **ତ** 'after all', **ନା** 'right?', **ହଉ**, **ଆରେ**, **ବାପରେ!** — and stories are tied together with **ପ୍ରଥମେ**, **ତା'ପରେ**, **ଶେଷରେ**. In this final unit you also learn how Odia builds 'the man *who* came' and 'she said *that*…', including the very Odia quotative **ବୋଲି**.",
+  "title": "Real conversation",
+  "goal": "Tell a friend what happened, react to their news, keep a chat going with fillers and particles, and say 'the one who…' and 'he said that…'.",
+  "intro": "Real Odia conversation runs on small words. Friends react with **ଆରେ!**, **ସତରେ?**, **ବାପରେ!** and **କ'ଣ କହୁଛ!**; they buy time with **ମାନେ…** 'I mean…' and **କଥା କ'ଣ କି…** 'the thing is…'; and they colour every sentence with the particles **ତ** and **ହିଁ** and the everyday intensifiers **ପୂରା** 'totally' and **ଜମା** '(not) at all'.\n\nThis unit gives you all of that, plus the two structures you need to retell anything: **relative clauses** ('the girl *who* came yesterday', 'the place *where* we have tea') and **reported speech** ('he said *that*…'), including the very Odia quotative **ବୋଲି**. It closes Part 1: from here on, the course is about real life with friends and around town.",
   "vocab": [
-    { "native": "ପ୍ରଥମେ", "roman": "prôthôme", "en": "first, at first", "pos": "adv" },
-    { "native": "ଯେତେବେଳେ", "roman": "jetebeḷe", "en": "when (relative: 'at the time when')", "pos": "conj", "note": "Answered by ସେତେବେଳେ 'then'." },
-    { "native": "ଯିଏ", "roman": "jie", "en": "who (relative)", "pos": "pron", "note": "Answered by ସେ." },
-    { "native": "ଯେଉଁ", "roman": "jeuṃ", "en": "which, the … that (relative)", "pos": "pron" },
-    { "native": "ଯେଉଁଠି", "roman": "jeuṃṭhi", "en": "where (relative)", "pos": "adv", "note": "Answered by ସେଠି." },
-    { "native": "ଯାହା", "roman": "jaha", "en": "what, whatever (relative)", "pos": "pron", "note": "Answered by ତାହା 'that'." },
-    { "native": "ବୋଲି", "roman": "boli", "en": "(quotative) '…', saying that; because", "pos": "particle", "note": "Marks the end of reported words or thoughts." },
-    { "native": "ଅର୍ଥାତ୍", "roman": "ôrthat", "en": "that is, in other words", "pos": "conj" },
-    { "native": "ମାନେ", "roman": "mane", "en": "I mean…; meaning", "pos": "interj", "note": "Constant filler in speech." },
-    { "native": "ହେଲେ", "roman": "hele", "en": "but, however (colloquial)", "pos": "conj" },
-    { "native": "ତ", "roman": "tô", "en": "(emphatic particle) after all, you know", "pos": "particle", "note": "ମୁଁ ତ କହିଥିଲି! 'I *did* tell you!'" },
-    { "native": "ହିଁ", "roman": "hiṃ", "en": "(emphatic) only, very, indeed", "pos": "particle", "note": "ସେ ହିଁ 'he himself / only he'." },
-    { "native": "ଏମିତି", "roman": "emiti", "en": "like this, so", "pos": "adv" },
-    { "native": "ସେମିତି", "roman": "semiti", "en": "like that", "pos": "adv" },
-    { "native": "ତଥାପି", "roman": "tôthapi", "en": "still, nevertheless", "pos": "conj" },
-    { "native": "ଯଦିଓ", "roman": "jôdio", "en": "although", "pos": "conj" },
-    { "native": "ବାସ୍", "roman": "bas", "en": "that's it; enough", "pos": "interj" },
-    { "native": "ଆରେ", "roman": "are", "en": "hey! oh! (surprise, familiar)", "pos": "interj" },
-    { "native": "ବାପରେ", "roman": "bapôre", "en": "oh my god! (lit. 'oh father')", "pos": "interj" },
-    { "native": "କଥା", "roman": "kôtha", "en": "talk; matter; story; word", "pos": "noun", "note": "କଥା ହେବା 'to chat'." },
-    { "native": "କାହାଣୀ", "roman": "kahaṇi", "en": "story, tale", "pos": "noun" },
-    { "native": "ଗପ", "roman": "gôpô", "en": "story; chit-chat", "pos": "noun", "note": "ଗପ କରିବା 'to chat, gossip'." },
-    { "native": "ଏକଦା", "roman": "ekôda", "en": "once upon a time", "pos": "adv" },
-    { "native": "ରାଜା", "roman": "raja", "en": "king", "pos": "noun" },
-    { "native": "ପ୍ରବାଦ", "roman": "prôbadô", "en": "proverb", "pos": "noun" },
-    { "native": "ଚିହ୍ନିବା", "roman": "chinhiba", "en": "to recognise", "pos": "verb" }
+    { "native": "ମାନେ", "roman": "mane", "en": "I mean…; that is; meaning", "pos": "interj", "note": "The most common filler in Odia speech. Also a noun: ଏହାର ମାନେ କ'ଣ? 'what does this mean?'" },
+    { "native": "ତ", "roman": "tô", "en": "(particle) after all, well, you know; …right?", "pos": "particle", "note": "Goes after the word it colours: ମୁଁ ତ କହିଥିଲି 'I *did* tell you'. At the end of a question it asks for agreement: ସବୁ ଭଲ ତ? 'all good, right?'" },
+    { "native": "ହିଁ", "roman": "hiṃ", "en": "(particle) just, only, exactly, the very", "pos": "particle", "note": "ଏବେ ହିଁ 'right now', ସେ ହିଁ 'he himself / he of all people'. Colloquially often shortened to -ହିଁ joined to the word or replaced by ଇ: ସେଇ, ଏଇ." },
+    { "native": "ହେଲେ", "roman": "hele", "en": "but (colloquial)", "pos": "conj", "note": "The everyday word for \"but\"; କିନ୍ତୁ is a little more careful." },
+    { "native": "ଆରେ", "roman": "are", "en": "hey!; oh! (surprise; familiar)", "pos": "interj", "note": "Only with friends and people younger than you; with elders say ଆଜ୍ଞା or just their name." },
+    { "native": "ବାପରେ", "roman": "bapôre", "en": "wow!; oh my god! (lit. \"oh father\")", "pos": "interj", "note": "For good or bad surprise. Also ମା'ଲୋ (malo) \"oh mother!\", heard more from women." },
+    { "native": "ଖବର", "roman": "khôbôrô", "en": "news", "pos": "noun", "note": "ଆଉ କ'ଣ ଖବର? 'what's new?'; ଖବର କାଗଜ 'newspaper'." },
+    { "native": "କଥା", "roman": "kôtha", "en": "thing (that is said); matter; talk", "pos": "noun", "note": "କଥା ହେବା 'to talk, have a chat'; ସେ କଥା ଛାଡ଼ 'forget that'." },
+    { "native": "ଗପ", "roman": "gôpô", "en": "chat, chit-chat; story", "pos": "noun", "note": "ଗପ କରିବା 'to chat'. Colloquially also ଗପିବା 'to chat, to talk a lot'." },
+    { "native": "ଦେଖା ହେବା", "roman": "dekha heba", "en": "to meet, run into (someone)", "pos": "verb", "note": "Impersonal: ରିନା ସହ ମୋର ଦେଖା ହେଲା 'I ran into Rina' (lit. 'my seeing with Rina happened'). For a planned meeting use ଭେଟିବା." },
+    { "native": "ପ୍ରଥମେ", "roman": "prôthôme", "en": "first, at first", "pos": "adv", "note": "Then ତା'ପରେ \"after that\" and ଶେଷରେ \"in the end\": the three words that hold any story together." },
+    { "native": "ଚିହ୍ନିବା", "roman": "chinhiba", "en": "to recognise; to know (a person)", "pos": "verb", "note": "ମୁଁ ତାଙ୍କୁ ଚିହ୍ନେ 'I know him'. Knowing a fact is ଜାଣିବା." },
+    { "native": "ଝଗଡ଼ା", "roman": "jhôgôṛa", "en": "quarrel, fight, argument", "pos": "noun", "note": "ଝଗଡ଼ା କରିବା \"to argue, fight\"; ଝଗଡ଼ା ହେବା \"a fight happens\"." },
+    { "native": "ଯିଏ", "roman": "jie", "en": "who, whoever (relative)", "pos": "pron", "note": "Answered by ସେ in the main clause. Respectful: ଯେଉଁମାନେ / ଯିଏ … ସେ (with -ନ୍ତି verb)." },
+    { "native": "ଯେଉଁ", "roman": "jeuṃ", "en": "which, the … that (relative, before a noun)", "pos": "pron", "note": "Answered by ସେହି / ସେ." },
+    { "native": "ଯେଉଁଠି", "roman": "jeuṃṭhi", "en": "where (relative)", "pos": "adv", "note": "Answered by ସେଠି \"there\"." },
+    { "native": "ଯେତେବେଳେ", "roman": "jetebeḷe", "en": "when (relative: \"at the time when\")", "pos": "conj", "note": "Answered by ସେତେବେଳେ \"then\". Not a question word: \"when?\" is କେବେ / କେତେବେଳେ." },
+    { "native": "ଯାହା", "roman": "jaha", "en": "what, whatever (relative)", "pos": "pron", "note": "Answered by ତାହା / ସେଇଟା \"that\"." },
+    { "native": "ବୋଲି", "roman": "boli", "en": "(quotative) closes reported words or thoughts; so, because; called", "pos": "particle", "note": "ସେ ଆସିବ ବୋଲି କହିଲା 'he said he'd come'; ଅସୁସ୍ଥ ବୋଲି ଆସିଲା ନାହିଁ 'didn't come because he's ill'; ମୋତେ ପାଗଳ ବୋଲି କହିଲା 'called me crazy'." },
+    { "native": "ଏମିତି", "roman": "emiti", "en": "like this, this way, so", "pos": "adv" },
+    { "native": "ସେମିତି", "roman": "semiti", "en": "like that, that way", "pos": "adv" },
+    { "native": "ଯଦିଓ", "roman": "jôdio", "en": "although, even though", "pos": "conj" },
+    { "native": "ପୂରା", "roman": "pura", "en": "totally, completely; whole, full", "pos": "adv", "note": "Colloquial intensifier: ପୂରା ପାଗଳ 'totally crazy', ପୂରା ସତ 'absolutely true'." },
+    { "native": "ଜମା", "roman": "jôma", "en": "(not) at all (colloquial, with a negative)", "pos": "adv", "note": "Always with ନାହିଁ / ନୁହେଁ: ଜମା ଭଲ ଲାଗିଲା ନାହିଁ 'I didn't like it at all'. The careful equivalent is ଆଦୌ." },
+    { "native": "ପାଗଳ", "roman": "pagôḷô", "en": "crazy, mad", "pos": "adj", "note": "Between friends it is affectionate teasing; about a stranger it is rude." },
+    { "native": "ଅଦ୍ଭୁତ", "roman": "ôdbhutô", "en": "strange, weird; amazing", "pos": "adj" },
+    { "native": "ଟେନସନ୍", "roman": "ṭensôn", "en": "stress, worry (\"tension\")", "pos": "noun", "note": "English loan used everywhere: ଟେନସନ୍ ନେବା 'to stress out', ଟେନସନ୍ ନିଅ ନାହିଁ 'don't worry'. The native word is ଚିନ୍ତା." },
+    { "native": "ବାସ୍", "roman": "bas", "en": "that's it; enough; just", "pos": "interj", "note": "ବାସ୍, ଆଉ ନୁହେଁ 'that's it, no more'. In a story: …ବାସ୍! 'and that was that!'" }
   ],
   "phrases": [
-    { "native": "ଆରେ, ତୁମେ ଏଠି!", "roman": "are, tume eṭhi!", "en": "Hey, you're here!" },
-    { "native": "ମାନେ… ମୁଁ କହୁଥିଲି କି…", "roman": "mane… muṃ kôhuthili ki…", "en": "I mean… what I was saying was…" },
-    { "native": "ତା'ପରେ କ'ଣ ହେଲା?", "roman": "tapôre kôṇô hela?", "en": "What happened then?" },
-    { "native": "ବାପରେ!", "roman": "bapôre!", "en": "Oh my god! / Wow!" },
+    { "native": "ଆରେ, ତୁମେ ଏଠି!", "roman": "are, tume eṭhi!", "en": "Hey, you're here! / Fancy seeing you here! (familiar)" },
+    { "native": "ଆଉ କ'ଣ ଖବର?", "roman": "au kôṇô khôbôrô?", "en": "What's new? / What's up?", "note": "The standard opener with friends. Answer: ସବୁ ଠିକ୍ \"all fine\" or ଏଇ ଚାଲିଛି \"just carrying on\"." },
     { "native": "ସତରେ?", "roman": "sôtôre?", "en": "Really?" },
-    { "native": "ମୁଁ ତ କହିଥିଲି!", "roman": "muṃ tô kôhithili!", "en": "I did tell you!" },
-    { "native": "ତୁମେ ଜାଣିଛ ନା?", "roman": "tume jaṇichhô na?", "en": "You know, right?" },
-    { "native": "ହଉ, ବାସ୍!", "roman": "hôu, bas!", "en": "Okay, that's enough!" },
+    { "native": "ବାପରେ!", "roman": "bapôre!", "en": "Wow! / Oh my god!" },
+    { "native": "କ'ଣ କହୁଛ!", "roman": "kôṇô kôhuchhô!", "en": "No way! (lit. \"what are you saying!\")", "note": "To a ତୁ-friend: କ'ଣ କହୁଛୁ!" },
+    { "native": "ତା'ପରେ କ'ଣ ହେଲା?", "roman": "tapôre kôṇô hela?", "en": "Then what happened?", "note": "Shorter: ତା'ପରେ? 'and then?'" },
+    { "native": "ଶୁଣ, ଗୋଟିଏ ମଜା କଥା କହୁଛି।", "roman": "suṇô, goṭie môja kôtha kôhuchhi.", "en": "Listen, I'll tell you something funny." },
     { "native": "କଥା କ'ଣ କି…", "roman": "kôtha kôṇô ki…", "en": "The thing is…" },
-    { "native": "ଆଉ କ'ଣ ଖବର?", "roman": "au kôṇô khôbôrô?", "en": "What else is new?" },
-    { "native": "ଛାଡ଼ ସେ କଥା।", "roman": "chhaṛô se kôtha.", "en": "Forget about it. (familiar)" },
-    { "native": "ଶୁଣ, ଗୋଟିଏ ମଜା କଥା କହୁଛି।", "roman": "suṇô, goṭie môja kôtha kôhuchhi.", "en": "Listen, I'll tell you something funny." }
+    { "native": "ମାନେ… ମୁଁ କହୁଥିଲି କି…", "roman": "mane… muṃ kôhuthili ki…", "en": "I mean… what I was saying was…" },
+    { "native": "ମୁଁ ତ କହିଥିଲି!", "roman": "muṃ tô kôhithili!", "en": "I did tell you! / I told you so!" },
+    { "native": "ସେ କ'ଣ କହିଲା?", "roman": "se kôṇô kôhila?", "en": "What did he/she say?", "note": "Respectful: ସେ କ'ଣ କହିଲେ?" },
+    { "native": "ତୁ ପାଗଳ କି?", "roman": "tu pagôḷô ki?", "en": "Are you crazy? (teasing; intimate)" },
+    { "native": "ଛାଡ଼ ସେ କଥା।", "roman": "chhaṛô se kôtha.", "en": "Forget it. / Never mind that. (familiar)" },
+    { "native": "ଟେନସନ୍ ନିଅ ନାହିଁ।", "roman": "ṭensôn niô nahiṃ.", "en": "Don't stress. / Don't worry. (familiar)", "note": "To a ତୁ-friend: ଟେନସନ୍ ନେ ନାହିଁ. Polite: ଚିନ୍ତା କରନ୍ତୁ ନାହିଁ." },
+    { "native": "ହଉ, ବାସ୍!", "roman": "hôu, bas!", "en": "Okay, that's enough!" }
   ],
   "grammar": [
     {
       "title": "Relative clauses: ଯେ- … ସେ- pairs and -ଥିବା",
-      "body": "Odia relative clauses come **before** the main clause and work in matched pairs — a **ଯ-word** in the relative clause, answered by a **ସ/ତ-word** in the main clause:\nଯିଏ … ସେ — who … he/she\nଯେଉଁ (noun) … ସେହି (noun) / ସେ — the … which … that\nଯେଉଁଠି … ସେଠି — where … there\nଯେତେବେଳେ … ସେତେବେଳେ — when … then\nଯାହା … ତାହା — what … that\nଯେତେ … ସେତେ — the more … the more\n\nIn everyday speech, a shorter alternative is a **participle** in front of the noun: **-ଥିବା** (who did/has done) or **-ଉଥିବା** (who is doing): କାଲି ଆସିଥିବା ଲୋକ 'the person who came yesterday', ଗୀତ ଗାଉଥିବା ଝିଅ 'the girl who is singing'.",
+      "body": "English puts 'who / which / where' *after* the noun ('the girl who came'). Odia does it the other way round: the relative clause comes **first**, opened by a **ଯ-word**, and the main clause answers it with a matching **ସ/ତ-word**:\n\nଯିଏ … ସେ — (the one) who … he/she\nଯେଉଁ + noun … ସେ / ସେହି — the (noun) which … that\nଯେଉଁଠି … ସେଠି — where … there\nଯେତେବେଳେ … ସେତେବେଳେ — when … then\nଯାହା … ତାହା — what … that\n\nSo 'the girl who came yesterday is my sister's friend' is literally 'which girl came yesterday, she is my sister's friend': ଯେଉଁ ଝିଅ କାଲି ଆସିଥିଲା, ସେ ମୋ ଅପାର ସାଙ୍ଗ. In relaxed speech the answering word is often dropped when it's obvious.\n\n**The shortcut people use most**: a participle in front of the noun, like English 'the *sitting* boy'. **-ଥିବା** = 'who did / who has done', **-ଉଥିବା** = 'who is/was doing': କାଲି ଆସିଥିବା ଝିଅଟି 'the girl who came yesterday', ଫୋନ କରୁଥିବା ଲୋକ 'the person (who is) calling'. These never change for person or politeness.\n\n**Trap**: ଯେତେବେଳେ is not a question. 'When are you coming?' is କେବେ ଆସିବ?, never ଯେତେବେଳେ.",
       "examples": [
-        { "native": "ଯିଏ ପରିଶ୍ରମ କରେ, ସେ ସଫଳ ହୁଏ।", "roman": "jie pôrisrômô kôre, se sôphôḷô hue.", "en": "Whoever works hard succeeds." },
-        { "native": "ଯେଉଁ ଲୋକ କାଲି ଆସିଥିଲେ, ସେ ମୋ ମାମୁଁ।", "roman": "jeuṃ lokô kali asithile, se mo mamuṃ.", "en": "The man who came yesterday is my uncle." },
-        { "native": "କାଲି ଆସିଥିବା ଲୋକ ମୋ ମାମୁଁ।", "roman": "kali asithiba lokô mo mamuṃ.", "en": "The man who came yesterday is my uncle. (participle)" },
-        { "native": "ଯେତେବେଳେ ମୁଁ ପିଲା ଥିଲି, ସେତେବେଳେ ଗାଁରେ ରହୁଥିଲି।", "roman": "jetebeḷe muṃ pila thili, setebeḷe gaṃre rôhuthili.", "en": "When I was a child, I lived in a village." },
-        { "native": "ମୁଁ ଯାହା କହିଲି, ତାହା ସତ।", "roman": "muṃ jaha kôhili, taha sôtô.", "en": "What I said is true." },
-        { "native": "ମୁଁ ଯେଉଁଠି ରହେ, ସେଠି ବହୁତ ଗଛ ଅଛି।", "roman": "muṃ jeuṃṭhi rôhe, seṭhi bôhutô gôchhô ôchhi.", "en": "Where I live there are lots of trees." }
+        { "native": "ଯିଏ ପ୍ରଥମେ ପହଞ୍ଚିବ, ସେ ଟେବୁଲ ଧରିବ।", "roman": "jie prôthôme pôhôñchibô, se ṭebulô dhôribô.", "en": "Whoever gets there first grabs a table." },
+        { "native": "ଯେଉଁ ଝିଅ କାଲି ଆସିଥିଲା, ସେ ମୋ ଅପାର ସାଙ୍ଗ।", "roman": "jeuṃ jhiô kali asithila, se mo ôparô saṅgô.", "en": "The girl who came yesterday is my sister's friend." },
+        { "native": "କାଲି ଆସିଥିବା ଝିଅଟି ମୋ ଅପାର ସାଙ୍ଗ।", "roman": "kali asithiba jhiôṭi mo ôparô saṅgô.", "en": "The girl who came yesterday is my sister's friend. (participle)" },
+        { "native": "ଯେତେବେଳେ ମୁଁ ପହଞ୍ଚିଲି, ସେତେବେଳେ ସମସ୍ତେ ଚାଲିଯାଇଥିଲେ।", "roman": "jetebeḷe muṃ pôhôñchili, setebeḷe sômôste chalijaithile.", "en": "When I got there, everyone had already left." },
+        { "native": "ତୁମେ ଯାହା କହିଲ, ତାହା ପୂରା ସତ।", "roman": "tume jaha kôhilô, taha pura sôtô.", "en": "What you said is absolutely true." },
+        { "native": "ଆମେ ଯେଉଁଠି ଚା ପିଉ, ସେଠି ଆଜି ବହୁତ ଭିଡ଼ ଥିଲା।", "roman": "ame jeuṃṭhi cha piu, seṭhi aji bôhutô bhiṛô thila.", "en": "The place where we have tea was really crowded today." }
       ]
     },
     {
       "title": "Reported speech: ଯେ and ବୋଲି",
-      "body": "Two patterns:\n1. **Verb + ଯେ + clause** (like English 'said that'): ସେ କହିଲା ଯେ ସେ କାଲି ଆସିବ.\n2. **Clause + ବୋଲି + verb** — the more typically Odia way: ସେ କାଲି ଆସିବ ବୋଲି କହିଲା. ବୋଲି closes the quoted words, a bit like a spoken quotation mark.\n\nThe tense of the reported words usually stays as it was originally said (no 'backshift'): 'He said he *will* come'. Direct quotes are common too: ବୋଉ କହିଲେ, “ଶୀଘ୍ର ଆସ।”\n\n**ବୋଲି** also gives a reason ('saying/thinking that…' → 'because'): ସେ ଅସୁସ୍ଥ ବୋଲି ଆସିଲା ନାହିଁ 'he didn't come because he's ill'.",
+      "body": "There are two ways to report what someone said or thought:\n\n1. **verb + ଯେ + what was said** — like English 'said that…': ସେ କହିଲା **ଯେ** ସେ ଡେରିରେ ଆସିବ.\n2. **what was said + ବୋଲି + verb** — the more typically Odia, more spoken way: ସେ ଡେରିରେ ଆସିବ **ବୋଲି** କହିଲା. Think of ବୋଲି as a spoken closing quotation mark.\n\n**No change of tense**: Odia keeps the tense that was actually used. 'He said he *would* come' is literally 'he said he *will* come' (ଆସିବ). The same goes for questions: ସେ ପଚାରିଲା ତୁମେ କେଉଁଠି ଅଛ 'he asked where you are'.\n\n**ବୋଲି with thinking**: ତୁମେ ରାଗିଛ ବୋଲି ମୁଁ ଭାବିଲି 'I thought you were angry'.\n\n**ବୋଲି as 'because'**: a reason followed by ବୋଲି ('saying/being that…'): ସେ ଅସୁସ୍ଥ ବୋଲି ଆସିଲା ନାହିଁ 'he didn't come because he's ill'.\n\n**ବୋଲି for names and labels**: ସେ ମୋତେ ପାଗଳ ବୋଲି କହିଲା 'he called me crazy'.\n\nDirect quotes are very common in storytelling, often with the voice changed for effect: ବୋଉ କହିଲେ, “ଶୀଘ୍ର ଘରକୁ ଆସ।”",
       "examples": [
-        { "native": "ସେ କହିଲା ଯେ ସେ କାଲି ଆସିବ।", "roman": "se kôhila je se kali asibô.", "en": "He/She said that he/she'd come tomorrow." },
-        { "native": "ସେ କାଲି ଆସିବ ବୋଲି କହିଲା।", "roman": "se kali asibô boli kôhila.", "en": "He/She said he/she'd come tomorrow." },
+        { "native": "ସେ କହିଲା ଯେ ସେ ଡେରିରେ ଆସିବ।", "roman": "se kôhila je se ḍerire asibô.", "en": "He said (that) he'd be late." },
+        { "native": "ସେ ଡେରିରେ ଆସିବ ବୋଲି କହିଲା।", "roman": "se ḍerire asibô boli kôhila.", "en": "He said he'd be late. (more colloquial)" },
         { "native": "ବୋଉ କହିଲେ, “ଶୀଘ୍ର ଘରକୁ ଆସ।”", "roman": "bou kôhile, “sighrô ghôrôku asô.”", "en": "Mum said, 'Come home quickly.'" },
-        { "native": "ସେ ପଚାରିଲେ ମୁଁ କେଉଁଠୁ ଆସିଛି।", "roman": "se pôcharile muṃ keuṃṭhu asichhi.", "en": "He/She asked where I'm from." },
-        { "native": "ସେ ଅସୁସ୍ଥ ବୋଲି ଆସିଲା ନାହିଁ।", "roman": "se ôsusthô boli asila nahiṃ.", "en": "He/She didn't come because he/she is ill." }
+        { "native": "ସେ ପଚାରିଲା ମୁଁ କେଉଁଠି ରହେ।", "roman": "se pôcharila muṃ keuṃṭhi rôhe.", "en": "He asked where I live." },
+        { "native": "ସେ ଅସୁସ୍ଥ ବୋଲି ଆସିଲା ନାହିଁ।", "roman": "se ôsusthô boli asila nahiṃ.", "en": "He didn't come because he's not well." },
+        { "native": "ମୁଁ ଭାବିଲି ତୁମେ ଆଉ ଆସିବ ନାହିଁ।", "roman": "muṃ bhabili tume au asibô nahiṃ.", "en": "I thought you weren't coming any more." }
       ]
     },
     {
-      "title": "Sounding natural: particles, fillers and idioms",
-      "body": "**Particles** placed after a word change its tone: **ତ** adds 'after all / you know' (ମୁଁ ତ ଜାଣେ 'well, *I* know'); **ହିଁ** means 'only / exactly' (ଏବେ ହିଁ 'right now'); **ବି** 'also'; **ନା** at the end asks for agreement ('…, right?'); **କି** at the end makes a yes/no question.\n\n**Fillers**: ମାନେ 'I mean', ହଉ 'okay', ଆଚ୍ଛା 'right…', ଦେଖ 'look…', କଥା କ'ଣ କି 'the thing is…'. **Exclamations**: ଆରେ! 'hey!', ବାପରେ! 'wow / oh no!', ହାୟ ହାୟ 'oh dear'.\n\nA few common sayings: ଆପଣା ହାତ ଜଗନ୍ନାଥ 'one's own hand is Jagannath' (if you want something done, do it yourself); ମୁଣ୍ଡରେ ହାତ ଦେଇ ବସିବା 'to sit with one's hand on one's head' (to be at one's wits' end); ନାଚି ନ ଜାଣି ଅଗଣା ଦୋଷ 'can't dance, blames the courtyard' (a bad workman blames his tools).",
+      "title": "Sounding natural: particles, fillers and reactions",
+      "body": "**Particles** go straight after the word they colour:\n**ତ** — 'after all / well / you know', with a touch of emphasis or mild protest: ମୁଁ ତ ଜାଣେ ନାହିଁ 'well, *I* don't know'; ମୁଁ ତ କହିଥିଲି 'I *did* tell you'. At the end of a question it asks for agreement: ସବୁ ଭଲ ତ? 'everything OK, right?'\n**ହିଁ** — 'exactly / only / the very': ଏବେ ହିଁ 'right now', ସେ ହିଁ 'he himself, *he* of all people'. In fast speech it fuses: ସେଇ, ଏଇ.\n**ବି** — 'also, even'; **ନା** at the end — '…, right?'; **କି** at the end — turns a statement into a yes/no question.\n\n**Fillers** to hold the floor: ମାନେ… 'I mean…', କଥା କ'ଣ କି… 'the thing is…', ଦେଖ… 'look…', ହଉ 'okay', ଆଚ୍ଛା 'right…'.\n\n**Reactions** keep the other person talking: ସତରେ? 'really?', ବାପରେ! 'wow / oh no!', ଆରେ! 'hey! oh!', କ'ଣ କହୁଛ! 'no way!', ତା'ପରେ? 'and then?', ହଁ ହଁ 'yeah, yeah'.\n\n**Intensifiers**: ପୂରା 'totally' (ପୂରା ପାଗଳ), and ଜମା '(not) at all', which only goes with a negative: ଜମା ଭଲ ଲାଗିଲା ନାହିଁ.\n\n**Trap**: ଆରେ, ତୁ and ପାଗଳ are for friends. With elders, use ଆଜ୍ଞା, ଆପଣ and a calmer ସତରେ?",
       "examples": [
         { "native": "ମୁଁ ତ ଜାଣେ ନାହିଁ।", "roman": "muṃ tô jaṇe nahiṃ.", "en": "Well, I don't know (don't ask me)." },
         { "native": "ଚାଲ, ଏବେ ହିଁ ଯିବା।", "roman": "chalô, ebe hiṃ jiba.", "en": "Come on, let's go right now." },
-        { "native": "ଆପଣା ହାତ ଜଗନ୍ନାଥ।", "roman": "apôṇa hatô Jôgônnathô.", "en": "If you want it done, do it yourself. (lit. one's own hand is Jagannath)" },
-        { "native": "ଖବର ଶୁଣି ସେ ମୁଣ୍ଡରେ ହାତ ଦେଇ ବସିଗଲେ।", "roman": "khôbôrô suṇi se muṇḍôre hatô dei bôsigôle.", "en": "Hearing the news, he/she sat down in despair." },
-        { "native": "ନାଚି ନ ଜାଣି ଅଗଣା ଦୋଷ।", "roman": "nachi nô jaṇi ôgôṇa dosô.", "en": "A bad workman blames his tools. (lit. can't dance — 'it's the courtyard's fault!')" }
+        { "native": "ଆରେ, ମୁଁ ତ ଭୁଲିଗଲି!", "roman": "are, muṃ tô bhuligôli!", "en": "Oh no, I completely forgot!" },
+        { "native": "ସେ ଜମା ଶୁଣେ ନାହିଁ।", "roman": "se jôma suṇe nahiṃ.", "en": "He doesn't listen at all." },
+        { "native": "ମାନେ, ଖାଇବା ଭଲ ଥିଲା, ହେଲେ ପୂରା ଥଣ୍ଡା।", "roman": "mane, khaiba bhôlô thila, hele pura thôṇḍa.", "en": "I mean, the food was good, but stone cold." }
       ]
     }
   ],
   "dialogue": {
-    "title": "Bapi's story",
-    "setting": "Over tea, Bapi tells Sam about a visit to his uncle's village.",
+    "title": "The Puri trip",
+    "setting": "Monday evening at a tea stall near Master Canteen, Bhubaneswar. Lipsa tells Sam about the weekend trip to Puri.",
     "lines": [
-      { "speaker": "Bapi", "native": "ଶୁଣ, ଗୋଟିଏ ମଜା କଥା କହୁଛି।", "roman": "suṇô, goṭie môja kôtha kôhuchhi.", "en": "Listen, I'll tell you something funny." },
-      { "speaker": "Sam", "native": "କୁହ, କୁହ।", "roman": "kuhô, kuhô.", "en": "Go on, tell me." },
-      { "speaker": "Bapi", "native": "ଗତ ସପ୍ତାହରେ ମୁଁ ମୋ ମାମୁଙ୍କ ଗାଁକୁ ଯାଇଥିଲି। ପ୍ରଥମେ ବସରେ ଗଲି, ତା'ପରେ ଅଟୋରେ।", "roman": "gôtô sôptahôre muṃ mo mamuṅkô gaṃku jaithili. prôthôme bôsôre gôli, tapôre ôṭore.", "en": "Last week I went to my uncle's village. First I went by bus, then by auto." },
-      { "speaker": "Bapi", "native": "ଯେଉଁଠି ଅଟୋ ଅଟକିଲା, ସେଠି ଜଣେ ବୁଢ଼ା ଲୋକ ଠିଆ ହୋଇଥିଲେ।", "roman": "jeuṃṭhi ôṭo ôṭôkila, seṭhi jôṇe buṛha lokô ṭhia hoithile.", "en": "Where the auto stopped, an old man was standing." },
-      { "speaker": "Bapi", "native": "ମୁଁ ମାମୁଙ୍କ ଘର ବିଷୟରେ ପଚାରିଲି। ସେ ସିଧା ଯାଇ ବାଁକୁ ବୁଲିବାକୁ କହିଲେ।", "roman": "muṃ mamuṅkô ghôrô bisôyôre pôcharili. se sidha jai baṃku bulibaku kôhile.", "en": "I asked him about my uncle's house. He told me to go straight and turn left." },
-      { "speaker": "Sam", "native": "ତା'ପରେ?", "roman": "tapôre?", "en": "And then?" },
-      { "speaker": "Bapi", "native": "ମୁଁ ଘଣ୍ଟେ ଚାଲିଲି, କିନ୍ତୁ ଘର ମିଳିଲା ନାହିଁ! ଭାରି ଭୋକ ଲାଗୁଥିଲା।", "roman": "muṃ ghôṇṭe chalili, kintu ghôrô miḷila nahiṃ! bhari bhokô laguthila.", "en": "I walked for an hour but couldn't find the house! I was starving." },
-      { "speaker": "Sam", "native": "ବାପରେ! ଶେଷରେ କ'ଣ ହେଲା?", "roman": "bapôre! sesôre kôṇô hela?", "en": "Oh no! What happened in the end?" },
-      { "speaker": "Bapi", "native": "ଶେଷରେ ଜାଣିଲି ଯେ ସେଇ ବୁଢ଼ା ଲୋକ ହିଁ ମୋ ମାମୁଁ! ଦଶ ବର୍ଷ ପରେ ଦେଖୁଥିଲି ବୋଲି ଚିହ୍ନିପାରିଲି ନାହିଁ।", "roman": "sesôre jaṇili je sei buṛha lokô hiṃ mo mamuṃ! dôsô bôrsô pôre dekhuthili boli chinhiparili nahiṃ.", "en": "In the end I found out that the old man WAS my uncle! I hadn't seen him for ten years, so I didn't recognise him." },
-      { "speaker": "Sam", "native": "ହା ହା! ଆଉ ସେ ତୁମକୁ ଚିହ୍ନିଲେ ନାହିଁ?", "roman": "ha ha! au se tumôku chinhile nahiṃ?", "en": "Ha ha! And he didn't recognise you?" },
-      { "speaker": "Bapi", "native": "ସେ କହିଲେ, “ମୁଁ ଭାବିଲି ତୁମେ ଜଣେ ଟୁରିଷ୍ଟ!”", "roman": "se kôhile, “muṃ bhabili tume jôṇe ṭurisṭ!”", "en": "He said, 'I thought you were a tourist!'" }
+      { "speaker": "Lipsa", "native": "ଆରେ ସାମ୍! ଆଉ କ'ଣ ଖବର?", "roman": "are Sam! au kôṇô khôbôrô?", "en": "Hey Sam! What's up?" },
+      { "speaker": "Sam", "native": "ସବୁ ଠିକ୍। ତୁମେ କୁହ, ପୁରୀ କେମିତି ଥିଲା?", "roman": "sôbu ṭhik. tume kuhô, Puri kemiti thila?", "en": "All good. You tell me, how was Puri?" },
+      { "speaker": "Lipsa", "native": "ବାପରେ, ସେ କଥା ଛାଡ଼! ମାନେ… ସମୁଦ୍ର ତ ସୁନ୍ଦର ଥିଲା, ହେଲେ…", "roman": "bapôre, se kôtha chhaṛô! mane… sômudrô tô sundôrô thila, hele…", "en": "Oh god, don't ask! I mean… the sea was lovely, but…" },
+      { "speaker": "Sam", "native": "ହେଲେ କ'ଣ? କ'ଣ ହେଲା?", "roman": "hele kôṇô? kôṇô hela?", "en": "But what? What happened?" },
+      { "speaker": "Lipsa", "native": "ବାପିକୁ ଜାଣିଛ ନା, ଯିଏ ସବୁବେଳେ 'ଚାଲ ଯିବା, ଚାଲ ଯିବା' କହେ? ସେ ହିଁ ଆସିଲା ନାହିଁ!", "roman": "Bapiku jaṇichhô na, jie sôbubeḷe 'chalô jiba, chalô jiba' kôhe? se hiṃ asila nahiṃ!", "en": "You know Bapi, the one who's always saying 'let's go, let's go'? HE didn't turn up!" },
+      { "speaker": "Sam", "native": "ସତରେ? କାହିଁକି?", "roman": "sôtôre? kahiṃki?", "en": "Really? Why?" },
+      { "speaker": "Lipsa", "native": "ସେ କହିଲା ଯେ ତା ଆଲାର୍ମ ବାଜିଲା ନାହିଁ। ଆମେ ଷ୍ଟେସନରେ ଘଣ୍ଟେ ଅପେକ୍ଷା କଲୁ!", "roman": "se kôhila je ta alarm bajila nahiṃ. ame sṭesônôre ghôṇṭe ôpekhya kôlu!", "en": "He said his alarm didn't go off. We waited at the station for an hour!" },
+      { "speaker": "Sam", "native": "ହା ହା! ମୁଁ ତ ଜାଣିଥିଲି, ସେ ସବୁବେଳେ ଏମିତି କରେ।", "roman": "ha ha! muṃ tô jaṇithili, se sôbubeḷe emiti kôre.", "en": "Ha ha! I knew it, he always does this." },
+      { "speaker": "Lipsa", "native": "ହେଲେ ଶେଷରେ ଯାହା ହେଲା, ତାହା ଶୁଣ। ଯେତେବେଳେ ଆମେ ପୁରୀ ପହଞ୍ଚିଲୁ, ସେତେବେଳେ ବାପି ସମୁଦ୍ର କୂଳରେ ବସି ଚା ପିଉଥିଲା!", "roman": "hele sesôre jaha hela, taha suṇô. jetebeḷe ame Puri pôhôñchilu, setebeḷe Bapi sômudrô kuḷôre bôsi cha piuthila!", "en": "But listen to what happened in the end. When we got to Puri, Bapi was sitting on the beach drinking tea!" },
+      { "speaker": "Sam", "native": "କ'ଣ କହୁଛ! ସେ ଆଗରୁ କେମିତି ପହଞ୍ଚିଲା?", "roman": "kôṇô kôhuchhô! se agôru kemiti pôhôñchila?", "en": "No way! How did he get there first?" },
+      { "speaker": "Lipsa", "native": "ଟ୍ରେନ୍ ଛାଡ଼ି ସେ ସିଧା ବସରେ ଆସିଥିଲା। ଆଉ ଆମକୁ ପଚାରିଲା, “ତୁମେମାନେ ଏତେ ଡେରି କାହିଁକି?”", "roman": "ṭren chhaṛi se sidha bôsôre asithila. au amôku pôcharila, “tumemane ete ḍeri kahiṃki?”", "en": "He skipped the train and came straight by bus. And he asked us, 'Why are you lot so late?'" },
+      { "speaker": "Sam", "native": "ପୂରା ପାଗଳ! ତା'ପରେ?", "roman": "pura pagôḷô! tapôre?", "en": "Totally mad! And then?" },
+      { "speaker": "Lipsa", "native": "ଆମେ ଜମା ଝଗଡ଼ା କଲୁ ନାହିଁ। ଶେଷରେ ସେ ହିଁ ସମସ୍ତଙ୍କୁ ଖଜା ଖୁଆଇଲା!", "roman": "ame jôma jhôgôṛa kôlu nahiṃ. sesôre se hiṃ sômôstôṅku khôja khuaila!", "en": "We didn't fight at all. In the end, HE treated everyone to khaja!" }
     ]
   },
-  "culture": "Odisha has a rich storytelling tradition: grandmothers' tales (ଜେଜେମା ଗପ), the medieval *Odia Bhagabata* of Jagannath Das recited in village halls (*bhagabata tungi*), and modern literature from Fakir Mohan Senapati — the father of Odia fiction — to Jnanpith winners such as Gopinath Mohanty and Sitakant Mahapatra. Chatting (ଗପ କରିବା) over tea at the *chhak* or on the veranda in the evening is a favourite pastime: the best way to practise everything you've learned. ଶୁଭେଚ୍ଛା — good luck!"
+  "culture": "Chatting (ଗପ କରିବା) is a serious pastime in Odisha: over tea at the neighbourhood *chhak* (junction), on the veranda in the evening, at the college canteen, or in a family WhatsApp group that never sleeps. A good listener reacts all the time: ହଁ ହଁ, ସତରେ?, ବାପରେ!, ତା'ପରେ? Silence sounds like boredom.\n\nWith close friends of your age, young Odias quickly drop to **ତୁ** and tease each other freely (ପାଗଳ, ବାହାନା!); with someone you've just met, or anyone older, stay with **ତୁମେ** or **ଆପଣ**, and leave out ଆରେ. Everyday talk mixes in English freely: *tension*, *sorry*, *plan*, *seriously*. Odia spoken in Cuttack and Bhubaneswar is the standard you hear on TV; in western Odisha you'll hear Sambalpuri (Kosli), and in the south Berhampur Odia, both with their own words and tunes, so don't be surprised if a friend from Sambalpur sounds different. Puri's flaky sweet **khaja** (ଖଜା), bought outside the Jagannath temple, is the classic thing to bring back from a trip.",
+  "lessons": [
+    {
+      "title": "Hey, what's new?",
+      "tip": { "title": "Reacting, and the particles ତ and ହିଁ", "body": "- React all the time: **ସତରେ?** 'really?', **ବାପରେ!** 'wow!', **କ'ଣ କହୁଛ!** 'no way!', **ଆରେ!** 'hey!' (friends only).\n- **ତ** after a word adds 'after all / well': ମୁଁ **ତ** ଜାଣେ ନାହିଁ. At the end: ସବୁ ଭଲ **ତ**? 'all good, right?'\n- **ହିଁ** means 'exactly / the very': ଏବେ **ହିଁ** 'right now', ସେ **ହିଁ** '*he* of all people'.", "pattern": "word + ତ / ହିଁ", "grammar": 2 },
+      "new": ["ଆରେ", "ବାପରେ", "ଖବର", "ତ", "ହିଁ", "ଆରେ, ତୁମେ ଏଠି!", "ଆଉ କ'ଣ ଖବର?", "ସତରେ?", "ବାପରେ!", "କ'ଣ କହୁଛ!"],
+      "sentences": [
+        { "native": "ଆରେ, ତୁମେ କେବେ ଫେରିଲ?", "roman": "are, tume kebe pherilô?", "en": "Hey! When did you get back?", "focus": "ଫେରିଲ", "wrong": ["ଫେରିଲି|pherili", "ଫେରିଲା|pherila"] },
+        { "native": "ମୁଁ ତ କାଲି ହିଁ ଫେରିଲି।", "roman": "muṃ tô kali hiṃ pherili.", "en": "Well, I only got back yesterday.", "focus": "ହିଁ", "wrong": ["କି|ki", "ନା|na"] },
+        { "native": "ସତରେ? ମୋତେ ତ କେହି କହିଲେ ନାହିଁ!", "roman": "sôtôre? mote tô kehi kôhile nahiṃ!", "en": "Really? Nobody told me!", "focus": "ତ", "wrong": ["କି|ki", "ନା|na"] },
+        { "native": "ଆଉ କ'ଣ ଖବର? ସବୁ ଭଲ ତ?", "roman": "au kôṇô khôbôrô? sôbu bhôlô tô?", "en": "What's new? All good, right?", "focus": "ତ", "wrong": ["ହିଁ|hiṃ", "ବି|bi"] },
+        { "native": "ଏହା ତ ବହୁତ ଭଲ ଖବର!", "roman": "eha tô bôhutô bhôlô khôbôrô!", "en": "Well, that's great news!" },
+        { "native": "ବାପରେ, ଏତେ ଭିଡ଼!", "roman": "bapôre, ete bhiṛô!", "en": "Wow, what a crowd!" },
+        { "native": "କ'ଣ କହୁଛ! ଭାଇନା ବାହାହେବେ?", "roman": "kôṇô kôhuchhô! bhaina bahahebe?", "en": "No way! Your big brother's getting married?", "focus": "ବାହାହେବେ", "wrong": ["ବାହାହେବି|bahahebi", "ବାହାହେବୁ|bahahebu"] },
+        { "native": "ଆରେ, ତୁମେ ଏଠି କ'ଣ କରୁଛ?", "roman": "are, tume eṭhi kôṇô kôruchhô?", "en": "Hey, what are you doing here?", "focus": "କରୁଛ", "wrong": ["କରୁଛି|kôruchhi", "କରୁଛନ୍ତି|kôruchhônti"] },
+        { "native": "ଚାଲ, ଏବେ ହିଁ ଫୋନ କରିବା।", "roman": "chalô, ebe hiṃ phonô kôriba.", "en": "Come on, let's call right now.", "focus": "ହିଁ", "wrong": ["କି|ki", "ନା|na"] }
+      ]
+    },
+    {
+      "title": "Telling a friend what happened",
+      "tip": { "title": "First, then, in the end", "body": "- Tie a story together with **ପ୍ରଥମେ** 'first', **ତା'ପରେ** 'then', **ହଠାତ୍** 'suddenly', **ଶେଷରେ** 'in the end'.\n- Running into someone is impersonal: (ମୋର) ରିନା **ସହ ଦେଖା ହେଲା** 'I ran into Rina'.\n- Use **-ଇଥିଲି** for things that happened a while ago, **-ଇଲି** for just now." },
+      "new": ["ପ୍ରଥମେ", "ଦେଖା ହେବା", "କଥା", "ଗପ", "ଚିହ୍ନିବା", "ଝଗଡ଼ା", "ତା'ପରେ କ'ଣ ହେଲା?", "ଶୁଣ, ଗୋଟିଏ ମଜା କଥା କହୁଛି।"],
+      "sentences": [
+        { "native": "କାଲି ବଜାରରେ ମୋ ପୁରୁଣା ସାଙ୍ଗ ସହ ଦେଖା ହେଲା।", "roman": "kali bôjarôre mo puruṇa saṅgô sôhô dekha hela.", "en": "Yesterday I ran into an old friend at the market.", "focus": "ହେଲା", "wrong": ["ହେଲି|heli", "ହେଉଛି|heuchhi"] },
+        { "native": "ପ୍ରଥମେ ମୁଁ ତାକୁ ଚିହ୍ନିପାରିଲି ନାହିଁ।", "roman": "prôthôme muṃ taku chinhiparili nahiṃ.", "en": "At first I couldn't recognise him." },
+        { "native": "ତା'ପରେ ଆମେ ଘଣ୍ଟେ ଗପ କଲୁ।", "roman": "tapôre ame ghôṇṭe gôpô kôlu.", "en": "Then we chatted for an hour.", "focus": "କଲୁ", "wrong": ["କଲି|kôli", "କଲା|kôla"] },
+        { "native": "ଶୁଣ, ଆଜି ଅଫିସରେ ଗୋଟିଏ ମଜା କଥା ହେଲା।", "roman": "suṇô, aji ôphisôre goṭie môja kôtha hela.", "en": "Listen, something funny happened at the office today." },
+        { "native": "ତା'ପରେ? ସେମାନେ ଝଗଡ଼ା କଲେ?", "roman": "tapôre? semane jhôgôṛa kôle?", "en": "And then? Did they have a fight?", "focus": "କଲେ", "wrong": ["କଲି|kôli", "କଲୁ|kôlu"] },
+        { "native": "ନା, ଝଗଡ଼ା ହେଲା ନାହିଁ, ଶେଷରେ ସମସ୍ତେ ହସିଲେ।", "roman": "na, jhôgôṛa hela nahiṃ, sesôre sômôste hôsile.", "en": "No, there was no fight; in the end everyone laughed." },
+        { "native": "ଏ କଥା ବୋଉକୁ କୁହ ନାହିଁ।", "roman": "e kôtha bouku kuhô nahiṃ.", "en": "Don't tell Mum about this." },
+        { "native": "ତୁମେ ମୋତେ ଚିହ୍ନିଲ?", "roman": "tume mote chinhilô?", "en": "Do you recognise me?", "focus": "ଚିହ୍ନିଲ", "wrong": ["ଚିହ୍ନିଲି|chinhili", "ଚିହ୍ନିଲା|chinhila"] },
+        { "native": "ଆଜି ସଞ୍ଜରେ ଚା ଦୋକାନରେ ଗପ କରିବା।", "roman": "aji sôñjôre cha dokanôre gôpô kôriba.", "en": "Let's chat at the tea stall this evening." }
+      ]
+    },
+    {
+      "title": "The one who…, the place where…",
+      "tip": { "title": "ଯ-word first, ସ-word answers", "body": "- The 'who/where/when' clause comes **first**, then a matching word answers it: **ଯିଏ … ସେ**, **ଯେଉଁ … ସେ**, **ଯେଉଁଠି … ସେଠି**, **ଯେତେବେଳେ … ସେତେବେଳେ**, **ଯାହା … ତାହା**.\n- Shortcut: **-ଥିବା** before a noun = 'who did': କାଲି ଆସିଥିବା ଝିଅଟି.\n- ଯେତେବେଳେ is never a question ('when?' = କେବେ).", "pattern": "ଯିଏ … , ସେ …  ·  verb-ଥିବା + noun", "grammar": 0 },
+      "new": ["ଯିଏ", "ଯେଉଁ", "ଯେଉଁଠି", "ଯେତେବେଳେ", "ଯାହା"],
+      "sentences": [
+        { "native": "ଯିଏ ପ୍ରଥମେ ପହଞ୍ଚିବ, ସେ ଜାଗା ରଖିବ।", "roman": "jie prôthôme pôhôñchibô, se jaga rôkhibô.", "en": "Whoever gets there first keeps a place.", "focus": "ଯିଏ", "wrong": ["ଯାହା|jaha", "ଯେଉଁଠି|jeuṃṭhi"] },
+        { "native": "ଯେଉଁ ପିଲା ଫୋନ କରିଥିଲା, ସେ ମୋ ଭାଇର ସାଙ୍ଗ।", "roman": "jeuṃ pila phonô kôrithila, se mo bhairô saṅgô.", "en": "The kid who called is my brother's friend.", "focus": "ଯେଉଁ", "wrong": ["ଯିଏ|jie", "ଯାହା|jaha"] },
+        { "native": "ମୁଁ ଯେଉଁଠି କାମ କରେ, ସେଠି ଭଲ ଚା ମିଳେ ନାହିଁ।", "roman": "muṃ jeuṃṭhi kamô kôre, seṭhi bhôlô cha miḷe nahiṃ.", "en": "You can't get good tea where I work.", "focus": "ଯେଉଁଠି", "wrong": ["ଯେତେବେଳେ|jetebeḷe", "ଯିଏ|jie"] },
+        { "native": "ଯେତେବେଳେ ମୁଁ ଫୋନ କଲି, ସେତେବେଳେ ସେ ଶୋଇଥିଲା।", "roman": "jetebeḷe muṃ phonô kôli, setebeḷe se soithila.", "en": "When I called, he was asleep.", "focus": "ଯେତେବେଳେ", "wrong": ["ଯେଉଁଠି|jeuṃṭhi", "ଯାହା|jaha"] },
+        { "native": "ତୁମେ ଯାହା କହିଲ, ମୁଁ ତାହା ବୁଝିଲି।", "roman": "tume jaha kôhilô, muṃ taha bujhili.", "en": "I understood what you said.", "focus": "ଯାହା", "wrong": ["ଯିଏ|jie", "ଯେଉଁଠି|jeuṃṭhi"] },
+        { "native": "କାଲି ଆସିଥିବା ଝିଅଟି କିଏ?", "roman": "kali asithiba jhiôṭi kie?", "en": "Who was the girl who came yesterday?", "focus": "ଆସିଥିବା", "wrong": ["ଆସିଥିଲା|asithila", "ଆସିବା|asiba"] },
+        { "native": "ସେଠି ବସିଥିବା ପିଲାଟି ମୋ ଭାଇ।", "roman": "seṭhi bôsithiba pilaṭi mo bhai.", "en": "The kid sitting over there is my brother.", "focus": "ବସିଥିବା", "wrong": ["ବସିଥିଲା|bôsithila", "ବସୁଛି|bôsuchhi"] },
+        { "native": "ଯିଏ ଡେରିରେ ଆସିବ, ସେ ଚା ପଇସା ଦେବ।", "roman": "jie ḍerire asibô, se cha pôisa debô.", "en": "Whoever comes late pays for the tea.", "focus": "ଯିଏ", "wrong": ["ଯେଉଁଠି|jeuṃṭhi", "ଯେତେବେଳେ|jetebeḷe"] },
+        { "native": "ଯେଉଁ ସାଙ୍ଗ ସହ କାଲି ଦେଖା ହେଲା, ତାର ନାମ ମନେପଡ଼ୁନି।", "roman": "jeuṃ saṅgô sôhô kali dekha hela, tarô namô mônepôṛuni.", "en": "I can't remember the name of the friend I ran into yesterday." }
+      ]
+    },
+    {
+      "title": "He said that…",
+      "tip": { "title": "Reporting with ଯେ and ବୋଲି", "body": "- **said + ଯେ + words**: ସେ କହିଲା **ଯେ** ସେ ଆସିବ.\n- More spoken: **words + ବୋଲି + said**: ସେ ଆସିବ **ବୋଲି** କହିଲା.\n- Keep the original tense: 'he said he'd come' = ଆସିବ ('will come').\n- ବୋଲି also gives a reason ('…so'): ଅସୁସ୍ଥ **ବୋଲି** ଆସିଲା ନାହିଁ.", "pattern": "ସେ କହିଲା ଯେ …  ·  … ବୋଲି କହିଲା", "grammar": 1 },
+      "new": ["ବୋଲି", "ପାଗଳ", "ସେ କ'ଣ କହିଲା?", "ମୁଁ ତ କହିଥିଲି!", "ତୁ ପାଗଳ କି?"],
+      "sentences": [
+        { "native": "ସେ କ'ଣ କହିଲା? ଆସିବ ନା ନାହିଁ?", "roman": "se kôṇô kôhila? asibô na nahiṃ?", "en": "What did he say? Is he coming or not?" },
+        { "native": "ସେ ଆସିବ ବୋଲି କହିଲା, କିନ୍ତୁ ଆସିଲା ନାହିଁ।", "roman": "se asibô boli kôhila, kintu asila nahiṃ.", "en": "He said he'd come, but he didn't.", "focus": "ବୋଲି", "wrong": ["ଯେ|je", "ପରି|pôri"] },
+        { "native": "ଅପା କହିଲେ ଯେ ତାଙ୍କର ଚାକିରି ମିଳିଗଲା।", "roman": "ôpa kôhile je taṅkôrô chakiri miḷigôla.", "en": "My sister said she got the job.", "focus": "ଯେ", "wrong": ["ବୋଲି|boli", "ପରି|pôri"] },
+        { "native": "ତୁମେ ରାଗିଛ ବୋଲି ମୁଁ ଭାବିଲି।", "roman": "tume ragichhô boli muṃ bhabili.", "en": "I thought you were angry.", "focus": "ବୋଲି", "wrong": ["ଯେ|je", "କାରଣ|karôṇô"] },
+        { "native": "ମୁଁ ତ କହିଥିଲି, ସେ ଡେରିରେ ଆସିବ!", "roman": "muṃ tô kôhithili, se ḍerire asibô!", "en": "I told you he'd be late!", "focus": "ଆସିବ", "wrong": ["ଆସିଲା|asila", "ଆସିବି|asibi"] },
+        { "native": "ସେ ପଚାରିଲା ତୁମେ କେଉଁଠି ଅଛ।", "roman": "se pôcharila tume keuṃṭhi ôchhô.", "en": "He asked where you are.", "focus": "ଅଛ", "wrong": ["ଅଛି|ôchhi", "ଅଛନ୍ତି|ôchhônti"] },
+        { "native": "ତୁ ପାଗଳ କି? ଏତେ ରାତିରେ କିଏ ଫୋନ କରେ?", "roman": "tu pagôḷô ki? ete ratire kie phonô kôre?", "en": "Are you crazy? Who calls this late at night?" },
+        { "native": "ଭାଇ ଅସୁସ୍ଥ ବୋଲି ଆଜି କଲେଜ ଗଲା ନାହିଁ।", "roman": "bhai ôsusthô boli aji kôlejô gôla nahiṃ.", "en": "My brother didn't go to college today because he's not well.", "focus": "ବୋଲି", "wrong": ["ଯେ|je", "ପରି|pôri"] },
+        { "native": "ବୋଉ କହିଲେ, “ରାତି ଦଶଟା ଆଗରୁ ଘରେ ପହଞ୍ଚିବୁ।”", "roman": "bou kôhile, “rati dôsôṭa agôru ghôre pôhôñchibu.”", "en": "Mum said, 'Be home before ten.'" },
+        { "native": "ସେ ମୋତେ ପାଗଳ ବୋଲି କହିଲା!", "roman": "se mote pagôḷô boli kôhila!", "en": "He called me crazy!", "focus": "ବୋଲି", "wrong": ["ଯେ|je", "କି|ki"] }
+      ]
+    },
+    {
+      "title": "I mean…, the thing is…",
+      "tip": { "title": "Fillers and \"but\"", "body": "- **ମାନେ…** 'I mean…' and **କଥା କ'ଣ କି…** 'the thing is…' buy you time and soften what comes next.\n- **ହେଲେ** is the everyday 'but'; **ଯଦିଓ** 'although' opens the first half.\n- **ଏମିତି** 'like this' / **ସେମିତି** 'like that'." },
+      "new": ["ମାନେ", "ହେଲେ", "ଏମିତି", "ସେମିତି", "ଯଦିଓ", "କଥା କ'ଣ କି…", "ମାନେ… ମୁଁ କହୁଥିଲି କି…"],
+      "sentences": [
+        { "native": "ମାନେ, ମୁଁ ଆସିବି, ହେଲେ ଟିକେ ଡେରି ହେବ।", "roman": "mane, muṃ asibi, hele ṭike ḍeri hebô.", "en": "I mean, I'll come, but I'll be a bit late.", "focus": "ହେଲେ", "wrong": ["ଯଦିଓ|jôdio", "ଯେ|je"] },
+        { "native": "କଥା କ'ଣ କି, ମୋ ପାଖରେ ଏବେ ପଇସା ନାହିଁ।", "roman": "kôtha kôṇô ki, mo pakhôre ebe pôisa nahiṃ.", "en": "The thing is, I don't have any money right now." },
+        { "native": "ଏମିତି କୁହ ନାହିଁ।", "roman": "emiti kuhô nahiṃ.", "en": "Don't say that. (lit. don't speak like this)", "focus": "ଏମିତି", "wrong": ["ଯେମିତି|jemiti", "କେମିତି|kemiti"] },
+        { "native": "ସେ ସବୁବେଳେ ସେମିତି କରେ।", "roman": "se sôbubeḷe semiti kôre.", "en": "He always does that.", "focus": "ସେମିତି", "wrong": ["ଯେମିତି|jemiti", "କେମିତି|kemiti"] },
+        { "native": "ଯଦିଓ ବର୍ଷା ହେଉଥିଲା, ଆମେ ବାହାରକୁ ଗଲୁ।", "roman": "jôdio bôrsa heuthila, ame baharôku gôlu.", "en": "Although it was raining, we went out.", "focus": "ଯଦିଓ", "wrong": ["ଯଦି|jôdi", "ଯେ|je"] },
+        { "native": "ଖାଇବା ଭଲ ଥିଲା, ହେଲେ ବହୁତ ରାଗ।", "roman": "khaiba bhôlô thila, hele bôhutô ragô.", "en": "The food was good, but really spicy.", "focus": "ହେଲେ", "wrong": ["ଯଦିଓ|jôdio", "ତେଣୁ|teṇu"] },
+        { "native": "ମାନେ… ମୁଁ କହୁଥିଲି କି, କାଲି ଆମେ ପୁରୀ ଯିବା?", "roman": "mane… muṃ kôhuthili ki, kali ame Puri jiba?", "en": "I mean… what I was saying was, shall we go to Puri tomorrow?" },
+        { "native": "ଯଦିଓ ସେ ମୋ ସାଙ୍ଗ, ମୁଁ ତାକୁ ସବୁ କଥା କହେ ନାହିଁ।", "roman": "jôdio se mo saṅgô, muṃ taku sôbu kôtha kôhe nahiṃ.", "en": "Although he's my friend, I don't tell him everything.", "focus": "ଯଦିଓ", "wrong": ["ଯଦି|jôdi", "ଯିଏ|jie"] },
+        { "native": "ଏମିତି ହିଁ ହୁଏ।", "roman": "emiti hiṃ hue.", "en": "That's just how it goes." }
+      ]
+    },
+    {
+      "title": "Totally, not at all, enough!",
+      "tip": { "title": "ପୂରା, ଜମା, ବାସ୍", "body": "- **ପୂରା** 'totally': ପୂରା ପାଗଳ, ପୂରା ସତ.\n- **ଜମା** '(not) at all' needs a negative: **ଜମା** ଭଲ ଲାଗିଲା **ନାହିଁ**.\n- **ବାସ୍** 'that's it, enough'. To calm a friend: **ଟେନସନ୍ ନିଅ ନାହିଁ**." },
+      "new": ["ପୂରା", "ଜମା", "ଅଦ୍ଭୁତ", "ଟେନସନ୍", "ବାସ୍", "ଛାଡ଼ ସେ କଥା।", "ଟେନସନ୍ ନିଅ ନାହିଁ।", "ହଉ, ବାସ୍!"],
+      "sentences": [
+        { "native": "ଟେନସନ୍ ନିଅ ନାହିଁ, ସବୁ ଠିକ୍ ହୋଇଯିବ।", "roman": "ṭensôn niô nahiṃ, sôbu ṭhik hoijibô.", "en": "Don't stress, it'll all work out." },
+        { "native": "ମୋତେ ଜମା ଭଲ ଲାଗିଲା ନାହିଁ।", "roman": "mote jôma bhôlô lagila nahiṃ.", "en": "I didn't like it at all.", "focus": "ନାହିଁ", "wrong": ["ଅଛି|ôchhi", "ହଁ|hôṃ"] },
+        { "native": "ସେ ପୂରା ପାଗଳ।", "roman": "se pura pagôḷô.", "en": "He's totally crazy.", "focus": "ପୂରା", "wrong": ["ଜମା|jôma", "କେହି|kehi"] },
+        { "native": "ଏ କଥା ପୂରା ଅଦ୍ଭୁତ!", "roman": "e kôtha pura ôdbhutô!", "en": "That's really weird!" },
+        { "native": "ଛାଡ଼ ସେ କଥା, ଚାଲ ଚା ପିଇବା।", "roman": "chhaṛô se kôtha, chalô cha piiba.", "en": "Forget it, let's have some tea." },
+        { "native": "ମୁଁ ତାକୁ ଜମା ଚିହ୍ନେ ନାହିଁ।", "roman": "muṃ taku jôma chinhe nahiṃ.", "en": "I don't know him at all.", "focus": "ଜମା", "wrong": ["ପୂରା|pura", "ସବୁ|sôbu"] },
+        { "native": "ବାସ୍, ଆଉ ଝଗଡ଼ା ନୁହେଁ!", "roman": "bas, au jhôgôṛa nuheṃ!", "en": "That's it, no more fighting!" },
+        { "native": "ହଉ, ବାସ୍! ମୁଁ ବୁଝିଗଲି।", "roman": "hôu, bas! muṃ bujhigôli.", "en": "Okay, enough! I get it." },
+        { "native": "ପରୀକ୍ଷା ପାଇଁ ଏତେ ଟେନସନ୍ କାହିଁକି?", "roman": "pôrikhya paiṃ ete ṭensôn kahiṃki?", "en": "Why so stressed about the exam?" },
+        { "native": "ମୋ ଫୋନ ପୂରା ଖରାପ ହୋଇଗଲା।", "roman": "mo phonô pura khôrapô hoigôla.", "en": "My phone's completely dead.", "focus": "ପୂରା", "wrong": ["ଜମା|jôma", "କେହି|kehi"] }
+      ]
+    }
+  ]
 }

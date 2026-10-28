@@ -1,0 +1,197 @@
+{
+  "id": 29,
+  "title": "Opinions & discussions",
+  "goal": "Join a real discussion: agree and disagree politely, say 'it depends' and 'to be honest', guess what might happen, say what someone should have done — about prices, potholes, politics, cricket, football and hockey.",
+  "intro": "Odia friends argue happily about everything — the price of onions, the potholes after the monsoon, the elections, and above all cricket (and, this being Odisha, hockey). To join in you need more than *I think*: you need to say **I don't think so**, **you're right but…**, **it depends**, **he might**, **he must have**, and the classic post-match **he should have…**.\n\nThis unit adds three tools: **probability** (ହୋଇପାରେ 'might', ଥିବ 'must be'), the polite ways to **agree and disagree** (… ବୋଲି ମୋତେ ଲାଗୁନି 'I don't think…'), and **should have** (-ବା ଉଚିତ ଥିଲା).",
+  "vocab": [
+    { "native": "ଏକଦମ୍", "roman": "ekôdôm", "en": "absolutely, totally, exactly (colloquial)", "pos": "adv", "note": "ଏକଦମ୍ ଠିକ୍! \"exactly right!\"; ଏକଦମ୍ ନୂଆ \"brand new\"." },
+    { "native": "ଏକମତ", "roman": "ekômôtô", "en": "agreed, of the same opinion", "pos": "adj", "note": "ମୁଁ ତୁମ ସହିତ ଏକମତ \"I agree with you\". Lit. \"one opinion\"." },
+    { "native": "ଅଲଗା", "roman": "ôlôga", "en": "different; separate", "pos": "adj" },
+    { "native": "ନିର୍ଭର", "roman": "nirbhôrô", "en": "dependence", "pos": "noun", "note": "… ଉପରେ ନିର୍ଭର କରେ \"it depends on …\"." },
+    { "native": "ଯୁକ୍ତି", "roman": "jukti", "en": "argument, reasoning, logic", "pos": "noun", "note": "The *reasons* you give. A quarrel is ଝଗଡ଼ା." },
+    { "native": "ନିଶ୍ଚିତ", "roman": "nischitô", "en": "sure, certain", "pos": "adj", "note": "ମୁଁ ନିଶ୍ଚିତ ନୁହେଁ \"I'm not sure\". Compare ନିଶ୍ଚୟ \"definitely\"." },
+    { "native": "ସନ୍ଦେହ", "roman": "sôndehô", "en": "doubt, suspicion", "pos": "noun", "note": "ମୋର ସନ୍ଦେହ ଅଛି \"I doubt it\"." },
+    { "native": "ବାସ୍ତବରେ", "roman": "bastôbôre", "en": "actually, in reality, in fact", "pos": "adv" },
+    { "native": "ମନେହୁଏ", "roman": "mônehue", "en": "it seems, I suppose, looks like", "pos": "adv", "note": "ମନେହୁଏ ବର୍ଷା ହେବ \"looks like it'll rain\"." },
+    { "native": "ସରକାର", "roman": "sôrôkarô", "en": "government", "pos": "noun", "note": "Usually takes respectful forms: ସରକାରଙ୍କର \"the government's\"." },
+    { "native": "ରାଜନୀତି", "roman": "rajôniti", "en": "politics", "pos": "noun" },
+    { "native": "ଭୋଟ୍", "roman": "bhoṭ", "en": "vote; election", "pos": "noun", "note": "ଭୋଟ୍ ଦେବା \"to vote\". The formal word for election is ନିର୍ବାଚନ." },
+    { "native": "ମହଙ୍ଗା", "roman": "môhôṅga", "en": "expensive, pricey (of prices going up)", "pos": "adj", "note": "Used for the cost of living: ସବୁ ଜିନିଷ ମହଙ୍ଗା ହୋଇଯାଇଛି. Compare ଦାମୀ \"expensive, high-end\"." },
+    { "native": "ପ୍ରଦୂଷଣ", "roman": "prôdusôṇô", "en": "pollution", "pos": "noun" },
+    { "native": "ଖାଲ", "roman": "khalô", "en": "pothole; pit, hollow", "pos": "noun" },
+    { "native": "ତର୍କ", "roman": "tôrkô", "en": "argument, debate", "pos": "noun", "note": "ତର୍କ କରିବା \"to argue (a point)\"." },
+    { "native": "କ୍ରିକେଟ୍", "roman": "krikeṭ", "en": "cricket", "pos": "noun" },
+    { "native": "ଫୁଟବଲ୍", "roman": "phuṭbôl", "en": "football (soccer)", "pos": "noun" },
+    { "native": "ମ୍ୟାଚ୍", "roman": "myach", "en": "match, game", "pos": "noun" },
+    { "native": "ଟିମ୍", "roman": "ṭim", "en": "team", "pos": "noun", "note": "The Odia word is ଦଳ." },
+    { "native": "ସପୋର୍ଟ୍", "roman": "sôporṭ", "en": "support (a team, a view)", "pos": "noun", "note": "X-କୁ ସପୋର୍ଟ୍ କରିବା \"to support X\"." },
+    { "native": "କ୍ୟାପଟେନ୍", "roman": "kyapṭen", "en": "captain", "pos": "noun" },
+    { "native": "ଆଉଟ୍", "roman": "auṭ", "en": "out (in cricket)", "pos": "adj", "note": "ଆଉଟ୍ ହେବା \"to get out\"." },
+    { "native": "ଶଟ୍", "roman": "sôṭ", "en": "shot (in cricket, football)", "pos": "noun", "note": "ଶଟ୍ ଖେଳିବା \"to play a shot\"." },
+    { "native": "ବାଜି ଲଗାଇବା", "roman": "baji lôgaiba", "en": "to bet, make a bet", "pos": "verb", "note": "ବାଜି \"a bet\" (also means \"firecrackers\"); ବାଜି ହାରିବା / ଜିତିବା \"to lose / win a bet\". ବାଜି ଲଗାଇବା? \"wanna bet?\"" }
+  ],
+  "phrases": [
+    { "native": "ତୁମେ ଠିକ୍ କହୁଛ।", "roman": "tume ṭhik kôhuchhô.", "en": "You're right. (lit. you're saying it right)", "note": "Polite: ଆପଣ ଠିକ୍ କହୁଛନ୍ତି." },
+    { "native": "ଏକଦମ୍ ଠିକ୍!", "roman": "ekôdôm ṭhik!", "en": "Exactly! / Absolutely!" },
+    { "native": "ମୁଁ ଏକମତ ନୁହେଁ।", "roman": "muṃ ekômôtô nuheṃ.", "en": "I don't agree." },
+    { "native": "ହଁ, କିନ୍ତୁ…", "roman": "hôṃ, kintu…", "en": "Yes, but…" },
+    { "native": "ମୋର ମତ ଟିକେ ଅଲଗା।", "roman": "morô môtô ṭike ôlôga.", "en": "I see it a bit differently." },
+    { "native": "ସେଇଟା ନିର୍ଭର କରେ।", "roman": "seiṭa nirbhôrô kôre.", "en": "It depends." },
+    { "native": "ସତ କହିବାକୁ ଗଲେ…", "roman": "sôtô kôhibaku gôle…", "en": "To be honest… (lit. if one goes to tell the truth)" },
+    { "native": "ସେମିତି ନୁହେଁ।", "roman": "semiti nuheṃ.", "en": "It's not like that." },
+    { "native": "ହୋଇପାରେ।", "roman": "hoipare.", "en": "Could be. / Maybe." },
+    { "native": "ଛାଡ଼, ଏ ବିଷୟରେ ତର୍କ କରି ଲାଭ ନାହିଁ।", "roman": "chhaṛô, e bisôyôre tôrkô kôri labhô nahiṃ.", "en": "Forget it, there's no point arguing about this.", "note": "ଲାଭ \"gain, use\"." },
+    { "native": "ତୁମେ କାହାକୁ ସପୋର୍ଟ୍ କରୁଛ?", "roman": "tume kahaku sôporṭ kôruchhô?", "en": "Who are you supporting?" },
+    { "native": "ସ୍କୋର କେତେ?", "roman": "skor kete?", "en": "What's the score?" }
+  ],
+  "grammar": [
+    {
+      "title": "Maybe, might, must be: talking about probability",
+      "body": "You already have **ବୋଧହୁଏ** 'probably' (unit 14) and **ହୁଏତ** 'maybe' (unit 17). Add these:\n\n**It seems / looks like** — **ମନେହୁଏ** at the start: ମନେହୁଏ ବର୍ଷା ହେବ 'looks like it'll rain'.\n\n**Might / could** — the -ଇ form + **ପାରେ**, the same ପାରିବା you use for 'can': ବର୍ଷା ହୋଇପାରେ 'it might rain'; ଇଣ୍ଡିଆ ହାରିପାରେ 'India could lose'; ସେମାନେ ହାରିପାରନ୍ତି 'they might lose'. On its own, **ହୋଇପାରେ** 'could be'. Negative: **ନ ହୋଇପାରେ** 'might not be'.\n\n**Must be (I'm guessing)** — Odia uses the future of ଥିବା, **ଥିବ**, for a confident guess about *now*:\nସେ ଅଫିସରେ ଥିବ 'he must be at the office'\n-ଉ + ଥିବ — is doing: ସେ ମ୍ୟାଚ୍ ଦେଖୁଥିବ 'he must be watching the match'\n-ଇ + ଥିବ — has done / is in a state: ସେ ଶୋଇଥିବ 'he must be asleep'; ସେ ଭୁଲିଯାଇଥିବ 'he must have forgotten'\nThe ending follows the person: ଥିବ (he, she, you-familiar), ଥିବେ (they, respectful), ଥିବି (I). Add **ନିଶ୍ଚୟ** to sound sure, or **ବୋଧହୁଏ** to hedge; negative ନ ଥିବ: ସେ ଦେଖି ନ ଥିବ 'he probably hasn't seen it'.\n\n**A scale of certainty**: ନିଶ୍ଚୟ … ଥିବ (must) → ବୋଧହୁଏ (probably) → ମନେହୁଏ (it seems) → ହୁଏତ / -ଇପାରେ (maybe, might) → ମୋର ସନ୍ଦେହ ଅଛି (I doubt it).\n\n**Trap**: -ଇପାରେ means both *can* and *might*. ସେ ଆସିପାରେ is 'he can come' or 'he might come'; add ହୁଏତ if you mean 'might'.",
+      "examples": [
+        { "native": "ଆଜି ସଞ୍ଜରେ ବର୍ଷା ହୋଇପାରେ।", "roman": "aji sôñjôre bôrsa hoipare.", "en": "It might rain this evening." },
+        { "native": "ବୋଧହୁଏ ଇଣ୍ଡିଆ ଏ ମ୍ୟାଚ୍ ଜିତିବ।", "roman": "bodhôhue Iṇḍia e myach jitibô.", "en": "India will probably win this match." },
+        { "native": "ସେ ଫୋନ ଉଠାଉନି, ଶୋଇଥିବ।", "roman": "se phonô uṭhauni, soithibô.", "en": "He's not picking up — he must be asleep." },
+        { "native": "ସେ ନିଶ୍ଚୟ ଭୁଲିଯାଇଥିବ।", "roman": "se nischôyô bhulijaithibô.", "en": "He must have forgotten." },
+        { "native": "ହୁଏତ ସେମାନେ ଆଉ ଆସିବେ ନାହିଁ।", "roman": "huetô semane au asibe nahiṃ.", "en": "Maybe they won't come after all." }
+      ]
+    },
+    {
+      "title": "Agreeing, disagreeing and 'I don't think…'",
+      "body": "**I think / I don't think**: the opinion comes first, closed by **ବୋଲି**, then the thinking verb. As in English, you negate the *thinking*, not the opinion:\nସେ ଜିତିବ ବୋଲି ମୋତେ **ଲାଗୁନି** 'I don't think he'll win'\nଏ ଯୋଜନା ଠିକ୍ ବୋଲି ମୁଁ **ଭାବୁନି** 'I don't think this plan is right'\nYou can also start with ମୋତେ ଲାଗୁନି **ଯେ** … (the ଯେ pattern of unit 14). Saying ସେ ଜିତିବ ନାହିଁ ବୋଲି ମୋତେ ଲାଗୁଛି is also correct, but it is a stronger prediction: 'I reckon he *won't* win'.\n\n**Agreeing**: ତୁମେ ଠିକ୍ କହୁଛ / ଠିକ୍ କହିଲ 'you're right'; ଏକଦମ୍ ଠିକ୍ 'exactly'; ମୁଁ ବି ସେଇଆ ଭାବୁଛି 'I think so too'; ମୁଁ ତୁମ ସହିତ ଏକମତ 'I agree with you'.\n\n**Disagreeing politely**: soften it first — ହଁ, କିନ୍ତୁ… 'yes, but…'; ମୋର ମତ ଟିକେ ଅଲଗା 'I see it a bit differently'; ସେମିତି ନୁହେଁ 'it's not quite like that'; ମୁଁ ନିଶ୍ଚିତ ନୁହେଁ 'I'm not sure'. The blunt ତୁମେ ଭୁଲ କହୁଛ 'you're wrong' is fine between close friends, rude to elders.\n\n**Useful frames**: ସେଇଟା ନିର୍ଭର କରେ 'it depends'; … ଉପରେ ନିର୍ଭର କରେ 'it depends on …'; ସତ କହିବାକୁ ଗଲେ… 'to be honest…'; ବାସ୍ତବରେ… 'actually…'; ମୋର ସନ୍ଦେହ ଅଛି 'I doubt it'.\n\n**Trap**: **ନୁହେଁ** (is not) vs **ନାହିଁ** (there isn't / doesn't): ମୁଁ ଏକମତ ନୁହେଁ 'I'm not in agreement', but ମୋର ସନ୍ଦେହ ନାହିଁ 'I have no doubt'.",
+      "examples": [
+        { "native": "ସେ ଆସିବ ବୋଲି ମୋତେ ଲାଗୁନି।", "roman": "se asibô boli mote laguni.", "en": "I don't think he'll come." },
+        { "native": "ଏ ଯୋଜନା ଠିକ୍ ବୋଲି ମୁଁ ଭାବୁନି।", "roman": "e jojôna ṭhik boli muṃ bhabuni.", "en": "I don't think this plan is right." },
+        { "native": "ତୁମେ ଠିକ୍ କହିଲ, ମୁଁ ବି ସେଇଆ ଭାବୁଥିଲି।", "roman": "tume ṭhik kôhilô, muṃ bi seia bhabuthili.", "en": "You're right — I was thinking the same thing." },
+        { "native": "ହଁ, କିନ୍ତୁ ସବୁ ଦୋଷ ସରକାରଙ୍କର ନୁହେଁ।", "roman": "hôṃ, kintu sôbu dosô sôrôkarôṅkôrô nuheṃ.", "en": "Yes, but it's not all the government's fault." },
+        { "native": "ଭଲ ଚାକିରି ମିଳିବା ଅନେକ କଥା ଉପରେ ନିର୍ଭର କରେ।", "roman": "bhôlô chakiri miḷiba ônekô kôtha upôre nirbhôrô kôre.", "en": "Getting a good job depends on a lot of things." }
+      ]
+    },
+    {
+      "title": "Should have…: -ବା ଉଚିତ ଥିଲା",
+      "body": "In unit 9 you learned **should**: possessive + -ବା + ଉଚିତ — ତୁମର ବିଶ୍ରାମ ନେବା ଉଚିତ 'you should rest'. Put ଉଚିତ in the past with **ଥିଲା** and you get **should have**:\n\nତୁମର ଆଗରୁ କହିବା **ଉଚିତ ଥିଲା** 'you should have said so earlier'\nମୋର ଏତେ ଖାଇବା **ଉଚିତ ନ ଥିଲା** 'I shouldn't have eaten so much'\nସରକାରଙ୍କର ରାସ୍ତା ମରାମତି କରିବା ଉଚିତ ଥିଲା 'the government should have fixed the roads'\n\nThe person is in the **possessive** (ମୋର, ତୁମର, ତାର, ତାଙ୍କର, ଆମର, ସରକାରଙ୍କର), and the verb stays in the -ବା form — nothing else changes.\n\n**Two everyday alternatives** (from unit 19's conditional):\n• **-ଇଥିଲେ ଭଲ ହୋଇଥାନ୍ତା** 'it would have been better if…': ଆମେ ଆଗରୁ ବାହାରିଥିଲେ ଭଲ ହୋଇଥାନ୍ତା\n• the bare conditional as a reproach, very common among friends: ଆଗରୁ **କହିଥାନ୍ତ** ନା! 'you could have told me earlier!'\n\nThis is the grammar of every post-match discussion: ତାର ସେଇ ବଲ୍ ଛାଡ଼ିଦେବା ଉଚିତ ଥିଲା 'he should have left that ball'.\n\n**Trap**: don't use the subject form — ~~ତୁମେ କହିବା ଉଚିତ ଥିଲା~~ → **ତୁମର** କହିବା ଉଚିତ ଥିଲା.",
+      "examples": [
+        { "native": "ତୁମର ଆଗରୁ କହିବା ଉଚିତ ଥିଲା।", "roman": "tumôrô agôru kôhiba uchitô thila.", "en": "You should have said so earlier." },
+        { "native": "ମୋର ଏତେ ଖାଇବା ଉଚିତ ନ ଥିଲା।", "roman": "morô ete khaiba uchitô nô thila.", "en": "I shouldn't have eaten so much." },
+        { "native": "ତାର ସେଇ ବଲ୍ ଛାଡ଼ିଦେବା ଉଚିତ ଥିଲା।", "roman": "tarô sei bôl chhaṛideba uchitô thila.", "en": "He should have left that ball. (cricket)" },
+        { "native": "ଆମେ ଟିକେ ଆଗରୁ ବାହାରିଥିଲେ ଭଲ ହୋଇଥାନ୍ତା।", "roman": "ame ṭike agôru baharithile bhôlô hoithanta.", "en": "It would have been better if we'd left a bit earlier." },
+        { "native": "ଆଗରୁ କହିଥାନ୍ତ ନା!", "roman": "agôru kôhithantô na!", "en": "You could have told me earlier! (colloquial)" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "India need sixty",
+    "setting": "Bapi, Lipi and Sam watch the last overs of an India–Australia one-day match on the TV at a tea stall in Cuttack.",
+    "lines": [
+      { "speaker": "Bapi", "native": "ସ୍କୋର କେତେ? ମୁଁ ଏବେ ଆସିଲି।", "roman": "skor kete? muṃ ebe asili.", "en": "What's the score? I just got here." },
+      { "speaker": "Sam", "native": "ଇଣ୍ଡିଆକୁ ଆଉ ଷାଠିଏ ରନ୍ ଦରକାର, ଚାରି ଉଇକେଟ୍ ଆଉଟ୍।", "roman": "Iṇḍiaku au saṭhie rôn dôrôkarô, chari uikeṭ auṭ.", "en": "India need sixty more runs, four wickets down." },
+      { "speaker": "Bapi", "native": "ଆରେ ବାଃ! ଇଣ୍ଡିଆ ନିଶ୍ଚୟ ଜିତିବ।", "roman": "are baḥ! Iṇḍia nischôyô jitibô.", "en": "Oh, nice! India will definitely win." },
+      { "speaker": "Lipi", "native": "ସେମାନେ ଜିତିବେ ବୋଲି ମୋତେ ଲାଗୁନି। ଆକାଶ ଦେଖ — ବର୍ଷା ହୋଇପାରେ।", "roman": "semane jitibe boli mote laguni. akasô dekhô — bôrsa hoipare.", "en": "I don't think they'll win. Look at the sky — it might rain." },
+      { "speaker": "Sam", "native": "ବର୍ଷା ହେଲେ ତ ମ୍ୟାଚ୍ ବାତିଲ ହୋଇପାରେ।", "roman": "bôrsa hele tô myach batilô hoipare.", "en": "If it rains the match could be called off." },
+      { "speaker": "Lipi", "native": "ସତ କହିବାକୁ ଗଲେ, କ୍ୟାପଟେନଙ୍କ ଦୋଷ। ତାଙ୍କର ସେଇ ଶଟ୍ ଖେଳିବା ଉଚିତ ନ ଥିଲା।", "roman": "sôtô kôhibaku gôle, kyapṭenôṅkô dosô. taṅkôrô sei sôṭ kheḷiba uchitô nô thila.", "en": "To be honest, it's the captain's fault. He shouldn't have played that shot." },
+      { "speaker": "Bapi", "native": "ହଁ, କିନ୍ତୁ ଗୋଟିଏ ଶଟ୍ ପାଇଁ ସବୁ ଦୋଷ ତାଙ୍କ ଉପରେ ପକାଇବା ଠିକ୍ ନୁହେଁ।", "roman": "hôṃ, kintu goṭie sôṭ paiṃ sôbu dosô taṅkô upôre pôkaiba ṭhik nuheṃ.", "en": "Yes, but it's not fair to put all the blame on him for one shot." },
+      { "speaker": "Lipi", "native": "ତୁମେ ଦୁହେଁ ଛାଡ଼। ମୋ ପାଇଁ ଅସଲ ଖେଳ ହକି। ଭୁବନେଶ୍ୱରରେ ୱାର୍ଲ୍ଡ କପ୍ ଦେଖିଥିଲ?", "roman": "tume duheṃ chhaṛô. mo paiṃ ôsôlô kheḷô hôki. Bhubôneswôrôre warlḍ kôp dekhithilô?", "en": "Forget it, you two. For me the real game is hockey. Did you see the World Cup in Bhubaneswar?" },
+      { "speaker": "Sam", "native": "ହଁ, କଳିଙ୍ଗ ଷ୍ଟାଡିୟମରେ! ସେ ଅନୁଭବ ପୂରା ଅଲଗା ଥିଲା।", "roman": "hôṃ, Kôḷiṅgô Sṭaḍiyômôre! se ônubhôbô pura ôlôga thila.", "en": "Yes, at Kalinga Stadium! That was a whole different experience." },
+      { "speaker": "Bapi", "native": "ଆରେ, ଆଉଟ୍! ବାପରେ, ପାଞ୍ଚ ଉଇକେଟ୍ ଗଲା।", "roman": "are, auṭ! bapôre, pañchô uikeṭ gôla.", "en": "Oh — out! Oh no, five wickets down." },
+      { "speaker": "Lipi", "native": "ମୁଁ କହିଥିଲି ନା? ବାଜି ଲଗାଇବା — ଇଣ୍ଡିଆ ହାରିବ।", "roman": "muṃ kôhithili na? baji lôgaiba — Iṇḍia haribô.", "en": "Didn't I tell you? Wanna bet — India will lose." },
+      { "speaker": "Bapi", "native": "ହାରିବ ନାହିଁ! ପାଞ୍ଚ ଶହ ଟଙ୍କାର ବାଜି!", "roman": "haribô nahiṃ! pañchô sôhô ṭôṅkarô baji!", "en": "They won't lose! Five hundred rupees on it!" },
+      { "speaker": "Sam", "native": "ମୁଁ ଏଥିରେ ନାହିଁ। ମୁଁ ଖାଲି ଚା ଆଉ ପକୁଡ଼ି ଅର୍ଡର କରୁଛି।", "roman": "muṃ ethire nahiṃ. muṃ khali cha au pôkuṛi ôrḍôr kôruchhi.", "en": "I'm staying out of this. I'm just ordering tea and pakoras." }
+    ]
+  },
+  "culture": "Arguing is a social sport in Odisha, and a good-natured **ତର୍କ** over tea is a sign of friendship, not hostility. Among friends you can be blunt (ତୁମେ ଭୁଲ କହୁଛ!), but with elders, teachers and in-laws, disagree softly — **ହଁ, କିନ୍ତୁ…**, **ମୋର ମତ ଟିକେ ଅଲଗା** — or not at all. Safe, endless topics: prices (**ସବୁ ଜିନିଷ ମହଙ୍ଗା**), potholes after the monsoon, traffic in Bhubaneswar, heatwaves, and sport. Cricket is followed everywhere, and Cuttack's **Barabati** stadium hosts international matches; Odisha is also India's hockey heartland — the state sponsors the national teams, Bhubaneswar's **Kalinga Stadium** and Rourkela hosted the 2023 men's World Cup, and many national players come from Sundargarh district. **Odisha FC** play football in the Indian Super League. Politics comes up too, but with people you don't know well it's wiser to listen, nod and say **ସେଇଟା ନିର୍ଭର କରେ**.",
+  "lessons": [
+    {
+      "title": "You're right — or are you?",
+      "tip": { "title": "Agreeing and disagreeing", "body": "- Agree: **ତୁମେ ଠିକ୍ କହୁଛ**, **ଏକଦମ୍ ଠିକ୍!**, ମୁଁ ତୁମ ସହିତ **ଏକମତ**.\n- Disagree softly: **ହଁ, କିନ୍ତୁ…**, **ମୋର ମତ ଟିକେ ଅଲଗା**. Blunt (friends only): ମୁଁ ଏକମତ **ନୁହେଁ**.\n- It depends: **ସେଇଟା ନିର୍ଭର କରେ**; on what: … **ଉପରେ** ନିର୍ଭର କରେ.", "grammar": 1 },
+      "new": ["ଏକଦମ୍", "ଏକମତ", "ଅଲଗା", "ନିର୍ଭର", "ତୁମେ ଠିକ୍ କହୁଛ।", "ଏକଦମ୍ ଠିକ୍!", "ମୁଁ ଏକମତ ନୁହେଁ।", "ହଁ, କିନ୍ତୁ…", "ମୋର ମତ ଟିକେ ଅଲଗା।", "ସେଇଟା ନିର୍ଭର କରେ।"],
+      "sentences": [
+        { "native": "ତୁମେ ଏକଦମ୍ ଠିକ୍ କହୁଛ।", "roman": "tume ekôdôm ṭhik kôhuchhô.", "en": "You're absolutely right.", "focus": "କହୁଛ", "wrong": ["କହୁଛି|kôhuchhi", "କହୁଛନ୍ତି|kôhuchhônti"] },
+        { "native": "ମୁଁ ତୁମ ସହିତ ଏକମତ।", "roman": "muṃ tumô sôhitô ekômôtô.", "en": "I agree with you.", "focus": "ସହିତ", "wrong": ["ପାଇଁ|paiṃ", "ଠାରୁ|ṭharu"] },
+        { "native": "ଏ ବିଷୟରେ ମୋ ବାପାଙ୍କ ମତ ଅଲଗା।", "roman": "e bisôyôre mo bapaṅkô môtô ôlôga.", "en": "My dad sees this differently." },
+        { "native": "ମୁଁ ଏକମତ ନୁହେଁ, ଟ୍ରାଫିକ୍ ଆଗଠାରୁ ବହୁତ ବଢ଼ିଛି।", "roman": "muṃ ekômôtô nuheṃ, ṭraphik agôṭharu bôhutô bôṛhichhi.", "en": "I don't agree — the traffic's got much worse than before.", "focus": "ନୁହେଁ", "wrong": ["ନାହିଁ|nahiṃ", "ଅଛି|ôchhi"] },
+        { "native": "ସେଇଟା ପାଗ ଉପରେ ନିର୍ଭର କରେ।", "roman": "seiṭa pagô upôre nirbhôrô kôre.", "en": "That depends on the weather.", "focus": "ଉପରେ", "wrong": ["ତଳେ|tôḷe", "ଭିତରେ|bhitôre"] },
+        { "native": "ହଁ, କିନ୍ତୁ ସବୁ ଲୋକ ସେମିତି ନୁହଁନ୍ତି।", "roman": "hôṃ, kintu sôbu lokô semiti nuhôṃnti.", "en": "Yes, but not everyone's like that.", "focus": "ନୁହଁନ୍ତି", "wrong": ["ନୁହେଁ|nuheṃ", "ନାହାନ୍ତି|nahanti"] },
+        { "native": "ଦୁଇଟା କଥା ପୂରା ଅଲଗା।", "roman": "duiṭa kôtha pura ôlôga.", "en": "The two things are completely different." },
+        { "native": "ତୁମ ମତ କ'ଣ? ତୁମେ ରାଜି?", "roman": "tumô môtô kôṇô? tume raji?", "en": "What's your take? Do you agree?" }
+      ]
+    },
+    {
+      "title": "I don't think so",
+      "tip": { "title": "I don't think…", "body": "- Opinion + **ବୋଲି** + negated thinking verb: ସେ ଜିତିବ ବୋଲି ମୋତେ **ଲାଗୁନି** / ମୁଁ **ଭାବୁନି**.\n- Or: ମୋତେ ଲାଗୁନି **ଯେ** …\n- Doubt: … ବୋଲି ମୋର **ସନ୍ଦେହ** ଅଛି. Honest: **ସତ କହିବାକୁ ଗଲେ** …", "pattern": "opinion + ବୋଲି + ମୋତେ ଲାଗୁନି / ମୁଁ ଭାବୁନି", "grammar": 1 },
+      "new": ["ନିଶ୍ଚିତ", "ସନ୍ଦେହ", "ବାସ୍ତବରେ", "ଯୁକ୍ତି", "ସତ କହିବାକୁ ଗଲେ…", "ସେମିତି ନୁହେଁ।"],
+      "sentences": [
+        { "native": "ଏ ଥର ଦାମ କମିବ ବୋଲି ମୋତେ ଲାଗୁନି।", "roman": "e thôrô damô kômibô boli mote laguni.", "en": "I don't think prices will come down this time.", "focus": "ଲାଗୁନି", "wrong": ["ଲାଗୁଛି|laguchhi", "ଲାଗିବ|lagibô"] },
+        { "native": "ସେ ସତ କହୁଛି ବୋଲି ମୁଁ ଭାବୁନି।", "roman": "se sôtô kôhuchhi boli muṃ bhabuni.", "en": "I don't think he's telling the truth.", "focus": "ଭାବୁନି", "wrong": ["ଭାବୁଛି|bhabuchhi", "ଭାବିଲି|bhabili"] },
+        { "native": "ସତ କହିବାକୁ ଗଲେ, ସିନେମାଟା ଭଲ ବୋଲି ମୁଁ ଭାବୁନି।", "roman": "sôtô kôhibaku gôle, sinemaṭa bhôlô boli muṃ bhabuni.", "en": "To be honest, I don't think the film is any good.", "focus": "ଭାବୁନି", "wrong": ["ଭାବୁଛି|bhabuchhi", "ଭାବିଲି|bhabili"] },
+        { "native": "ତୁମ ଯୁକ୍ତି ଠିକ୍, କିନ୍ତୁ ମୁଁ ନିଶ୍ଚିତ ନୁହେଁ।", "roman": "tumô jukti ṭhik, kintu muṃ nischitô nuheṃ.", "en": "Your argument makes sense, but I'm not sure." },
+        { "native": "ବାସ୍ତବରେ ଟ୍ରାଫିକ୍ ବଡ଼ ସମସ୍ୟା ବୋଲି ମୁଁ ଭାବୁନି।", "roman": "bastôbôre ṭraphik bôṛô sômôssya boli muṃ bhabuni.", "en": "Actually, I don't think traffic is the big problem.", "focus": "ଭାବୁନି", "wrong": ["ଭାବୁଛି|bhabuchhi", "ଭାବିଲି|bhabili"] },
+        { "native": "ସେ ସମୟରେ ପହଞ୍ଚିବ ବୋଲି ମୋର ସନ୍ଦେହ ଅଛି।", "roman": "se sômôyôre pôhôñchibô boli morô sôndehô ôchhi.", "en": "I doubt he'll get there on time.", "focus": "ବୋଲି", "wrong": ["କାରଣ|karôṇô", "ଯଦି|jôdi"] },
+        { "native": "ମୋତେ ଲାଗୁନି ଯେ ଏ ଯୋଜନା କାମ କରିବ।", "roman": "mote laguni je e jojôna kamô kôribô.", "en": "I don't think this plan will work.", "focus": "ଲାଗୁନି", "wrong": ["ଲାଗୁଛି|laguchhi", "ଲାଗିଲା|lagila"] },
+        { "native": "ତୁମେ ନିଶ୍ଚିତ? ମୋତେ ତ ସନ୍ଦେହ ଲାଗୁଛି।", "roman": "tume nischitô? mote tô sôndehô laguchhi.", "en": "Are you sure? I have my doubts." }
+      ]
+    },
+    {
+      "title": "Maybe, might, must be",
+      "tip": { "title": "Might and must be", "body": "- Might: -ଇ + **ପାରେ**: ବର୍ଷା **ହୋଇପାରେ**, ସେ **ଜିତିପାରେ**.\n- Must be (a guess): **ଥିବ** — ସେ ଅଫିସରେ **ଥିବ**; with -ଇ for 'must have': ଭୁଲିଯାଇ**ଥିବ**.\n- Hedge with **ବୋଧହୁଏ**, **ମନେହୁଏ**, **ହୁଏତ**; be sure with **ନିଶ୍ଚୟ**.", "pattern": "… -ଇପାରେ (might) · … ଥିବ (must be)", "grammar": 0 },
+      "new": ["ମନେହୁଏ", "ସରକାର", "ରାଜନୀତି", "ଭୋଟ୍", "ହୋଇପାରେ।"],
+      "sentences": [
+        { "native": "ଆଜି ରାତିରେ ବର୍ଷା ହୋଇପାରେ, ସାବଧାନରେ ଯାଅ।", "roman": "aji ratire bôrsa hoipare, sabôdhanôre jaô.", "en": "It might rain tonight — go carefully.", "focus": "ହୋଇପାରେ", "wrong": ["ହୋଇଗଲା|hoigôla", "ହେଉଥିଲା|heuthila"] },
+        { "native": "ମନେହୁଏ ସେ ଆଜି ଆସିବ ନାହିଁ।", "roman": "mônehue se aji asibô nahiṃ.", "en": "Looks like he won't come today." },
+        { "native": "ସେ ଫୋନ ଉଠାଉନି, ବୋଧହୁଏ ଅଫିସରେ ବ୍ୟସ୍ତ ଥିବ।", "roman": "se phonô uṭhauni, bodhôhue ôphisre byôstô thibô.", "en": "She's not picking up — she's probably busy at work.", "focus": "ଥିବ", "wrong": ["ଥିଲା|thila", "ଥିଲି|thili"] },
+        { "native": "ସେମାନେ ନିଶ୍ଚୟ ଟ୍ରାଫିକରେ ଫସିଥିବେ।", "roman": "semane nischôyô ṭraphikre phôsithibe.", "en": "They must be stuck in traffic.", "focus": "ଫସିଥିବେ", "wrong": ["ଫସିଥିବ|phôsithibô", "ଫସିଥିଲି|phôsithili"] },
+        { "native": "ଏ ଥର କିଏ ଜିତିପାରେ, ତୁମେ କ'ଣ ଭାବୁଛ?", "roman": "e thôrô kie jitipare, tume kôṇô bhabuchhô?", "en": "Who might win this time, what do you think?", "focus": "ଜିତିପାରେ", "wrong": ["ଜିତିଲା|jitila", "ଜିତୁଥିଲା|jituthila"] },
+        { "native": "ମୁଁ ରାଜନୀତି ବିଷୟରେ ବେଶି କଥା ହୁଏନି।", "roman": "muṃ rajôniti bisôyôre besi kôtha hueni.", "en": "I don't talk about politics much." },
+        { "native": "ସରକାର ବଦଳିଲେ ହୁଏତ କିଛି ବଦଳିପାରେ।", "roman": "sôrôkarô bôdôḷile huetô kichhi bôdôḷipare.", "en": "If the government changes, maybe something might change.", "focus": "ବଦଳିପାରେ", "wrong": ["ବଦଳିଲା|bôdôḷila", "ବଦଳୁଥିଲା|bôdôḷuthila"] },
+        { "native": "ତୁମେ ଭୋଟ୍ ଦେବାକୁ ଯିବ ତ?", "roman": "tume bhoṭ debaku jibô tô?", "en": "You're going to vote, aren't you?" },
+        { "native": "ସେ ବୋଧହୁଏ ମୋ ମେସେଜ୍ ଦେଖି ନ ଥିବ।", "roman": "se bodhôhue mo mesej dekhi nô thibô.", "en": "He probably hasn't seen my message.", "focus": "ଥିବ", "wrong": ["ଥିଲା|thila", "ଥିଲି|thili"] }
+      ]
+    },
+    {
+      "title": "What should have happened",
+      "tip": { "title": "Should have: -ବା ଉଚିତ ଥିଲା", "body": "- Possessive + -ବା + **ଉଚିତ ଥିଲା**: **ତୁମର** ଆଗରୁ କହିବା ଉଚିତ ଥିଲା.\n- Shouldn't have: **ଉଚିତ ନ ଥିଲା**.\n- Not ~~ତୁମେ~~ କହିବା ଉଚିତ — the person is ମୋର, ତୁମର, ତାର, ଆମର, ସରକାରଙ୍କର.\n- Softer: … -ଇଥିଲେ **ଭଲ ହୋଇଥାନ୍ତା** 'it would have been better if…'.", "pattern": "ମୋର / ତୁମର + …-ବା + ଉଚିତ (ନ) ଥିଲା", "grammar": 2 },
+      "new": ["ମହଙ୍ଗା", "ପ୍ରଦୂଷଣ", "ଖାଲ", "ତର୍କ", "ଛାଡ଼, ଏ ବିଷୟରେ ତର୍କ କରି ଲାଭ ନାହିଁ।"],
+      "sentences": [
+        { "native": "ସରକାରଙ୍କର ବର୍ଷା ଆଗରୁ ରାସ୍ତା ମରାମତି କରିବା ଉଚିତ ଥିଲା।", "roman": "sôrôkarôṅkôrô bôrsa agôru rasta môramôti kôriba uchitô thila.", "en": "The government should have repaired the roads before the rains.", "focus": "ଥିଲା", "wrong": ["ଅଛି|ôchhi", "ହେବ|hebô"] },
+        { "native": "ରାସ୍ତାରେ ଏତେ ଖାଲ, ଗାଡ଼ି ଚଳାଇବା କଷ୍ଟ।", "roman": "rastare ete khalô, gaṛi chôḷaiba kôsṭô.", "en": "So many potholes on the road — it's hard to drive." },
+        { "native": "ସବୁ ଜିନିଷ ମହଙ୍ଗା ହୋଇଯାଇଛି।", "roman": "sôbu jinisô môhôṅga hoijaichhi.", "en": "Everything's got so expensive." },
+        { "native": "ମୋର ସେ ଫୋନ କିଣିବା ଉଚିତ ନ ଥିଲା, ବହୁତ ମହଙ୍ଗା ଥିଲା।", "roman": "morô se phonô kiṇiba uchitô nô thila, bôhutô môhôṅga thila.", "en": "I shouldn't have bought that phone — it was way too expensive.", "focus": "ମୋର", "wrong": ["ମୁଁ|muṃ", "ମୋତେ|mote"] },
+        { "native": "ତୁମର ଆଗରୁ ଟିକଟ କିଣିବା ଉଚିତ ଥିଲା।", "roman": "tumôrô agôru ṭikôṭô kiṇiba uchitô thila.", "en": "You should have bought the tickets in advance.", "focus": "ତୁମର", "wrong": ["ତୁମେ|tume", "ତୁମକୁ|tumôku"] },
+        { "native": "ଆମର ଆଗରୁ ଗଛ କାଟିବା ବନ୍ଦ କରିବା ଉଚିତ ଥିଲା, ଏବେ ପ୍ରଦୂଷଣ ବଢ଼ୁଛି।", "roman": "amôrô agôru gôchhô kaṭiba bôndô kôriba uchitô thila, ebe prôdusôṇô bôṛhuchhi.", "en": "We should have stopped cutting down trees long ago — now pollution is rising.", "focus": "ଥିଲା", "wrong": ["ଅଛି|ôchhi", "ହେବ|hebô"] },
+        { "native": "ତୁମେ ଟିକେ ଚିନ୍ତା କରି କହିଥିଲେ ଭଲ ହୋଇଥାନ୍ତା।", "roman": "tume ṭike chinta kôri kôhithile bhôlô hoithanta.", "en": "It would have been better if you'd thought a bit before speaking.", "focus": "ହୋଇଥାନ୍ତା", "wrong": ["ହେଲା|hela", "ହେବ|hebô"] },
+        { "native": "ଆମର ପ୍ରଦୂଷଣ ବିଷୟରେ ଆଗରୁ ଭାବିବା ଉଚିତ ଥିଲା।", "roman": "amôrô prôdusôṇô bisôyôre agôru bhabiba uchitô thila.", "en": "We should have thought about pollution earlier.", "focus": "ଆମର", "wrong": ["ଆମେ|ame", "ଆମକୁ|amôku"] },
+        { "native": "ସେ ସବୁବେଳେ ତର୍କ କରେ, ସେଥିପାଇଁ ମୁଁ ଚୁପ୍ ରହେ।", "roman": "se sôbubeḷe tôrkô kôre, sethipaiṃ muṃ chup rôhe.", "en": "He always argues, so I just keep quiet." }
+      ]
+    },
+    {
+      "title": "Talking sport",
+      "tip": { "title": "Predicting the result", "body": "- Probably: **ବୋଧହୁଏ** + future: ବୋଧହୁଏ ଇଣ୍ଡିଆ **ଜିତିବ**.\n- Might: **-ଇପାରେ** (one) / **-ଇପାରନ୍ତି** (a team as 'they'): ସେମାନେ **ହାରିପାରନ୍ତି**.\n- Must be doing: **-ଉଥିବ**: ସେ ମ୍ୟାଚ୍ **ଦେଖୁଥିବ**.", "grammar": 0 },
+      "new": ["କ୍ରିକେଟ୍", "ଫୁଟବଲ୍", "ମ୍ୟାଚ୍", "ଟିମ୍", "କ୍ୟାପଟେନ୍", "ସପୋର୍ଟ୍", "ତୁମେ କାହାକୁ ସପୋର୍ଟ୍ କରୁଛ?"],
+      "sentences": [
+        { "native": "ଆଜିର ମ୍ୟାଚ୍ କିଏ ଜିତିବ?", "roman": "ajirô myach kie jitibô?", "en": "Who's going to win today's match?" },
+        { "native": "ବୋଧହୁଏ ଇଣ୍ଡିଆ ଜିତିବ, କିନ୍ତୁ ଅଷ୍ଟ୍ରେଲିଆ ବି ଭଲ ଟିମ୍।", "roman": "bodhôhue Iṇḍia jitibô, kintu Ôsṭrelia bi bhôlô ṭim.", "en": "India will probably win, but Australia's a good team too.", "focus": "ଜିତିବ", "wrong": ["ଜିତିଲା|jitila", "ଜିତୁଥିଲା|jituthila"] },
+        { "native": "ମୋତେ କ୍ରିକେଟ୍ ଅପେକ୍ଷା ଫୁଟବଲ୍ ବେଶି ଭଲ ଲାଗେ।", "roman": "mote krikeṭ ôpekhya phuṭbôl besi bhôlô lage.", "en": "I like football more than cricket. (ଅପେକ୍ଷା \"than\")" },
+        { "native": "ଆମ ଟିମ୍ ଆଜି ଜିତିପାରେ, ଯଦି କ୍ୟାପଟେନ୍ ଭଲ ଖେଳନ୍ତି।", "roman": "amô ṭim aji jitipare, jôdi kyapṭen bhôlô kheḷônti.", "en": "Our team could win today, if the captain plays well.", "focus": "ଜିତିପାରେ", "wrong": ["ଜିତିଲା|jitila", "ଜିତୁଥିଲା|jituthila"] },
+        { "native": "ଭାରତୀୟ ଟିମ୍ ଏ ଥର କପ୍ ଜିତିପାରେ।", "roman": "Bharôtiyô ṭim e thôrô kôp jitipare.", "en": "The Indian team could win the cup this time.", "focus": "ଜିତିପାରେ", "wrong": ["ଜିତିଲା|jitila", "ଜିତୁଥିଲା|jituthila"] },
+        { "native": "ବର୍ଷା ପାଇଁ ମ୍ୟାଚ୍ ବନ୍ଦ ହୋଇପାରେ।", "roman": "bôrsa paiṃ myach bôndô hoipare.", "en": "The match might be stopped because of the rain.", "focus": "ହୋଇପାରେ", "wrong": ["ହୋଇଗଲା|hoigôla", "ହେଉଥିଲା|heuthila"] },
+        { "native": "ସେ ନିଶ୍ଚୟ ଟିଭିରେ ମ୍ୟାଚ୍ ଦେଖୁଥିବ।", "roman": "se nischôyô ṭibhire myach dekhuthibô.", "en": "He must be watching the match on TV.", "focus": "ଦେଖୁଥିବ", "wrong": ["ଦେଖୁଥିଲା|dekhuthila", "ଦେଖିଲା|dekhila"] },
+        { "native": "ମୁଁ ଓଡ଼ିଶା ଏଫସିକୁ ସପୋର୍ଟ୍ କରେ, କିନ୍ତୁ ଆଜି ସେମାନେ ହାରିପାରନ୍ତି।", "roman": "muṃ Oṛisa Ephsiku sôporṭ kôre, kintu aji semane hariparônti.", "en": "I support Odisha FC, but today they might lose.", "focus": "ହାରିପାରନ୍ତି", "wrong": ["ହାରିପାରେ|haripare", "ହାରିଲେ|harile"] }
+      ]
+    },
+    {
+      "title": "Post-match arguments",
+      "tip": { "title": "Blame and regrets", "body": "- Who should have: **ତାର / କ୍ୟାପଟେନଙ୍କର** + -ବା + **ଉଚିତ ଥିଲା**.\n- Shouldn't have: … **ଉଚିତ ନ ଥିଲା**.\n- What would have happened: -ଇଥିଲେ … **-ଇଥାନ୍ତା / -ଇଥାନ୍ତୁ**: ସେ ଶଟ୍ ନ ଖେଳିଥିଲେ ଆମେ **ଜିତିଥାନ୍ତୁ**.", "pattern": "ତାର + …-ବା + ଉଚିତ ଥିଲା", "grammar": 2 },
+      "new": ["ଆଉଟ୍", "ଶଟ୍", "ବାଜି ଲଗାଇବା", "ସ୍କୋର କେତେ?"],
+      "sentences": [
+        { "native": "କ୍ୟାପଟେନଙ୍କର ଏତେ ଶୀଘ୍ର ଆଉଟ୍ ହେବା ଉଚିତ ନ ଥିଲା।", "roman": "kyapṭenôṅkôrô ete sighrô auṭ heba uchitô nô thila.", "en": "The captain shouldn't have got out so early.", "focus": "କ୍ୟାପଟେନଙ୍କର", "wrong": ["କ୍ୟାପଟେନ୍|kyapṭen", "କ୍ୟାପଟେନଙ୍କୁ|kyapṭenôṅku"] },
+        { "native": "ସେଇଟା ବହୁତ ଖରାପ ଶଟ୍ ଥିଲା।", "roman": "seiṭa bôhutô khôrapô sôṭ thila.", "en": "That was a really bad shot." },
+        { "native": "ଆରେ, ଆଉଟ୍! ତାର ଆଉ ଟିକେ ଧୀରେ ଖେଳିବା ଉଚିତ ଥିଲା।", "roman": "are, auṭ! tarô au ṭike dhire kheḷiba uchitô thila.", "en": "Oh, out! He should have played a bit more carefully.", "focus": "ତାର", "wrong": ["ସେ|se", "ତାକୁ|taku"] },
+        { "native": "ପାଞ୍ଚ ଶହ ଟଙ୍କାର ବାଜି, ଇଣ୍ଡିଆ ଜିତିବ!", "roman": "pañchô sôhô ṭôṅkarô baji, Iṇḍia jitibô!", "en": "Five hundred rupees says India will win!" },
+        { "native": "ଆମର ଆଜି ମ୍ୟାଚ୍ ଦେଖିବାକୁ କଟକ ଯିବା ଉଚିତ ଥିଲା।", "roman": "amôrô aji myach dekhibaku Kôṭôkô jiba uchitô thila.", "en": "We should have gone to Cuttack to watch the match today.", "focus": "ଆମର", "wrong": ["ଆମେ|ame", "ଆମକୁ|amôku"] },
+        { "native": "କ୍ୟାପଟେନ୍ ଭଲ ଖେଳିଲେ, କିନ୍ତୁ ଅନ୍ୟମାନଙ୍କର ଅଧିକ ଚେଷ୍ଟା କରିବା ଉଚିତ ଥିଲା।", "roman": "kyapṭen bhôlô kheḷile, kintu ônnyômanôṅkôrô ôdhikô chesṭa kôriba uchitô thila.", "en": "The captain played well, but the others should have tried harder.", "focus": "ଥିଲା", "wrong": ["ଅଛି|ôchhi", "ହେବ|hebô"] },
+        { "native": "ତୁମର ମୋ ସହିତ ବାଜି ଲଗାଇବା ଉଚିତ ନ ଥିଲା!", "roman": "tumôrô mo sôhitô baji lôgaiba uchitô nô thila!", "en": "You shouldn't have bet against me!", "focus": "ତୁମର", "wrong": ["ତୁମେ|tume", "ତୁମକୁ|tumôku"] },
+        { "native": "ବାଜି ହାରିଲେ ତୁମକୁ ସମସ୍ତଙ୍କୁ ଚା ଖୁଆଇବାକୁ ପଡ଼ିବ।", "roman": "baji harile tumôku sômôstôṅku cha khuaibaku pôṛibô.", "en": "If you lose the bet, you'll have to buy everyone tea." },
+        { "native": "ସେ ସେଇ ଶଟ୍ ନ ଖେଳିଥିଲେ ଆମେ ଜିତିଥାନ୍ତୁ।", "roman": "se sei sôṭ nô kheḷithile ame jitithantu.", "en": "If he hadn't played that shot, we'd have won.", "focus": "ଜିତିଥାନ୍ତୁ", "wrong": ["ଜିତିଲୁ|jitilu", "ଜିତିବା|jitiba"] }
+      ]
+    }
+  ]
+}

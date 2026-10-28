@@ -1,0 +1,176 @@
+{
+  "id": 23,
+  "title": "Around town: autos, cabs & buses",
+  "goal": "Get around Bhubaneswar and Cuttack on your own: agree an auto fare, give directions from the back seat, say 'stop here' and 'drop me at…', ask how long it takes, and handle a ride-app pickup.",
+  "intro": "In Odisha's cities you'll mostly move by **auto** (ଅଟୋ), app cab or bike taxi, and the blue city buses (*Mo Bus* in Bhubaneswar and Cuttack); there's no metro yet. Autos are either **ଶେୟାର୍** (shared, fixed route, cheap) or **ରିଜର୍ଭ୍** (hired just for you, fare agreed first). With autos and drivers you'll use the respectful **ଆପଣ** forms, but call them **ଭାଇ** 'brother'.\n\nThe grammar is what makes 'take me' and 'drop me' sound natural: **compound verbs**, where a helper like ଦେବା, ଯିବା or ନେବା follows the -ଇ form (ରଖି**ଦିଅନ୍ତୁ** 'stop (for me)', ଓହ୍ଲାଇ**ଯିବି** 'I'll get off'), and the very handy **ଲାଗିବା** for time and money: କେତେ ସମୟ **ଲାଗିବ**? 'how long will it take?'",
+  "vocab": [
+    { "native": "ଅଟୋବାଲା", "roman": "ôṭobala", "en": "auto driver", "pos": "noun", "note": "Talking about him: ଅଟୋବାଲା. Talking to him: ଭାଇ (or ଦାଦା / ମଉସା for an older man)." },
+    { "native": "ରିଜର୍ଭ୍", "roman": "rijôrbh", "en": "(auto/cab) hired just for you, private", "pos": "adj", "note": "From English 'reserve'. ରିଜର୍ଭ୍ ଯିବେ? 'will you take me (alone, not shared)?'" },
+    { "native": "ଶେୟାର୍", "roman": "seyar", "en": "shared (ride)", "pos": "adj", "note": "ଶେୟାର୍ ଅଟୋ: runs a fixed route, picks up anyone, fixed small fare." },
+    { "native": "ମିଟର୍", "roman": "miṭôr", "en": "meter (in a taxi/auto)", "pos": "noun", "note": "ମିଟରରେ 'by the meter'. Rarely used by Odisha autos; the fare is usually agreed first." },
+    { "native": "ଦରଦାମ", "roman": "dôrôdamô", "en": "bargaining, haggling", "pos": "noun", "note": "ଦରଦାମ କରିବା 'to bargain'." },
+    { "native": "ଏକ୍ସଟ୍ରା", "roman": "ekstra", "en": "extra", "pos": "adj" },
+    { "native": "ଛାଡ଼ିଦେବା", "roman": "chhaṛideba", "en": "to drop (someone) off; to let go", "pos": "verb", "note": "ମୋତେ ଛକରେ ଛାଡ଼ିଦିଅନ୍ତୁ 'drop me at the junction'." },
+    { "native": "ରଖିଦେବା", "roman": "rôkhideba", "en": "(to a driver) to stop, pull over; to put down", "pos": "verb", "note": "ଏଠି ରଖିଦିଅନ୍ତୁ 'stop here, please'. With ତୁମେ: ରଖିଦିଅ." },
+    { "native": "ଡ୍ରପ୍", "roman": "ḍrop", "en": "drop (off)", "pos": "noun", "note": "ଡ୍ରପ୍ କରିଦେବା 'to drop (someone) off', very common with friends: ମୋତେ ଡ୍ରପ୍ କରିଦେବୁ?" },
+    { "native": "ପହଞ୍ଚାଇବା", "roman": "pôhôñchaiba", "en": "to take (someone) to, get (someone) somewhere", "pos": "verb", "note": "Causative of ପହଞ୍ଚିବା \"to arrive\": \"to make arrive\"." },
+    { "native": "ବୁଲାଇବା", "roman": "bulaiba", "en": "to turn (a vehicle) round; to show around", "pos": "verb", "note": "ଗାଡ଼ି ବୁଲାଅ 'turn the car around'; ସହର ବୁଲାଇବା 'to show someone the town'." },
+    { "native": "ସିଗନାଲ୍", "roman": "signal", "en": "traffic lights, signal", "pos": "noun", "note": "ସିଗନାଲରୁ ଡାହାଣକୁ 'right at the lights'." },
+    { "native": "ଆଗକୁ", "roman": "agôku", "en": "ahead, further on, forward", "pos": "adv", "note": "ଟିକେ ଆଗକୁ 'a bit further'." },
+    { "native": "ପଛକୁ", "roman": "pôchhôku", "en": "back, backwards", "pos": "adv" },
+    { "native": "ସାମ୍ନା", "roman": "samna", "en": "front; (ସାମ୍ନାରେ) opposite, facing", "pos": "noun", "note": "ବ୍ୟାଙ୍କ ସାମ୍ନାରେ 'opposite the bank'." },
+    { "native": "ଗଳି", "roman": "gôḷi", "en": "lane, alley, side street", "pos": "noun" },
+    { "native": "ଧୀରେ", "roman": "dhire", "en": "slowly; softly", "pos": "adv", "note": "ଧୀରେ ଧୀରେ \"slowly, little by little\"." },
+    { "native": "ଜାମ୍", "roman": "jam", "en": "traffic jam", "pos": "noun", "note": "ଜାମ୍ ଲାଗିଛି / ଜାମ୍ ହୋଇଛି 'there's a jam'." },
+    { "native": "କିଲୋମିଟର୍", "roman": "kilomiṭôr", "en": "kilometre", "pos": "noun" },
+    { "native": "ଚାଲିଚାଲି", "roman": "chalichali", "en": "on foot, walking", "pos": "adv" },
+    { "native": "ଖାଲି", "roman": "khali", "en": "empty, free (seat); only, just", "pos": "adj", "note": "ଖାଲି ଅଟୋ 'an empty auto'; ଖାଲି ଦଶ ଟଙ୍କା 'only ten rupees'." },
+    { "native": "କ୍ୟାବ୍", "roman": "kyab", "en": "cab, taxi (app cab)", "pos": "noun" },
+    { "native": "ଆପ୍", "roman": "ap", "en": "app", "pos": "noun", "note": "ଆପରେ ବୁକ୍ କରିବା 'to book on the app'." },
+    { "native": "ଓଟିପି", "roman": "oṭipi", "en": "OTP (the code you give the driver)", "pos": "noun" },
+    { "native": "ପାର୍କିଂ", "roman": "parkiṅ", "en": "parking, car park", "pos": "noun" },
+    { "native": "ହେଲମେଟ୍", "roman": "helmeṭ", "en": "helmet", "pos": "noun" }
+  ],
+  "phrases": [
+    { "native": "ରିଜର୍ଭ୍ ଯିବେ?", "roman": "rijôrbh jibe?", "en": "Will you take me (private hire)?", "note": "Name the place first: ଷ୍ଟେସନ ରିଜର୍ଭ୍ ଯିବେ?" },
+    { "native": "କେତେ ନେବେ?", "roman": "kete nebe?", "en": "How much will you charge?" },
+    { "native": "ଏତେ ନୁହେଁ, ଡେଢ଼ଶହ ଦେବି।", "roman": "ete nuheṃ, ḍeṛhôsôhô debi.", "en": "Not that much, I'll give you 150." },
+    { "native": "ମିଟରରେ ଯିବେ?", "roman": "miṭôrôre jibe?", "en": "Will you go by the meter?" },
+    { "native": "ମୋତେ ଷ୍ଟେସନରେ ଛାଡ଼ିଦିଅନ୍ତୁ।", "roman": "mote sṭesônôre chhaṛidiôntu.", "en": "Drop me at the station, please." },
+    { "native": "ଏଠି ରଖିଦିଅନ୍ତୁ।", "roman": "eṭhi rôkhidiôntu.", "en": "Stop here, please." },
+    { "native": "ଏଠି ଗାଡ଼ି ବୁଲାଇଦିଅନ୍ତୁ।", "roman": "eṭhi gaṛi bulaidiôntu.", "en": "Turn around here, please." },
+    { "native": "ଟିକେ ଆଗକୁ ନିଅନ୍ତୁ।", "roman": "ṭike agôku niôntu.", "en": "Go a bit further, please." },
+    { "native": "ସିଗନାଲରୁ ବାଁକୁ ବୁଲନ୍ତୁ।", "roman": "signalôru baṃku bulôntu.", "en": "Turn left at the lights." },
+    { "native": "ଟିକେ ଧୀରେ ଚଲାନ୍ତୁ।", "roman": "ṭike dhire chôlantu.", "en": "Drive a bit slower, please." },
+    { "native": "କେତେ ସମୟ ଲାଗିବ?", "roman": "kete sômôyô lagibô?", "en": "How long will it take?" },
+    { "native": "ପ୍ରାୟ କୋଡ଼ିଏ ମିନିଟ୍ ଲାଗିବ।", "roman": "prayô koṛie miniṭ lagibô.", "en": "It'll take about twenty minutes." },
+    { "native": "ଚାଲିଚାଲି ଯିବା, ପାଖ ତ।", "roman": "chalichali jiba, pakhô tô.", "en": "Let's walk, it's close." },
+    { "native": "ଓଟିପି କେତେ?", "roman": "oṭipi kete?", "en": "What's the OTP?", "note": "The first thing an app driver asks. Read the four digits out one by one." }
+  ],
+  "grammar": [
+    {
+      "title": "Compound verbs: ରଖିଦିଅନ୍ତୁ, ଓହ୍ଲାଇଯିବି, କିଣିନେବି",
+      "body": "Odia often says an action with **two verbs**: the main verb in the **-ଇ form** + a **helper** that carries the tense and person. The helper adds a shade of meaning, and some combinations are simply how the thing is said.\n\n**ଦେବା 'give'** — the action is done *for someone else*, or completely; in requests it sounds softer and friendlier: ରଖି**ଦିଅନ୍ତୁ** 'stop (for me)', ଛାଡ଼ି**ଦିଅନ୍ତୁ** 'drop me', ବୁଲାଇ**ଦିଅନ୍ତୁ** 'turn round', ଡ୍ରପ୍ କରି**ଦେବୁ**? 'will you drop me?'\n**ଯିବା 'go'** — completion, a change of state, or movement away: ଓହ୍ଲାଇ**ଯିବି** 'I'll get off', ପହଞ୍ଚି**ଗଲି** 'I've reached', ଫସି**ଗଲି** 'I got stuck', ଭୁଲି**ଗଲି** 'I forgot'.\n**ନେବା 'take'** — done *for yourself*: କିଣି**ନେବି** 'I'll buy it (for myself)', ବୁକ୍ କରି**ନେବି** 'I'll book it myself'.\n**ପଡ଼ିବା 'fall'** — sudden, unplanned: ଶୋଇ**ପଡ଼ିଲି** 'I fell asleep', ବସି**ପଡ଼ିଲା** 'he plonked himself down'.\n**ଆସିବା 'come'** — movement towards: ଚାଲି**ଆସ** 'come over'.\n\nOnly the helper changes: ଛାଡ଼ିଦେବି, ଛାଡ଼ିଦେଲେ, ଛାଡ଼ିଦିଅ, ଛାଡ଼ିଦିଅନ୍ତୁ. Negatives usually drop the helper: 'don't drop me here' = ଏଠି ଛାଡ଼ନ୍ତୁ ନାହିଁ.\n\n**Compare** the -ଇ form of Unit 22, which links *two separate* actions (ଅଟୋ **ନେଇ** ଆସ 'take an auto and come'). A compound is *one* action with a nuance. The giveaway: in a compound, you can't put 'and then' between the verbs.",
+      "examples": [
+        { "native": "ଭାଇ, ଛକରେ ରଖିଦିଅନ୍ତୁ।", "roman": "bhai, chhôkôre rôkhidiôntu.", "en": "Bhai, stop at the junction please." },
+        { "native": "ମୁଁ ପରବର୍ତ୍ତୀ ଷ୍ଟପରେ ଓହ୍ଲାଇଯିବି।", "roman": "muṃ pôrôbôrtti sṭôpôre ohlaijibi.", "en": "I'll get off at the next stop." },
+        { "native": "ତୁ ମୋତେ ଅଫିସରେ ଡ୍ରପ୍ କରିଦେବୁ?", "roman": "tu mote ôphisôre ḍrop kôridebu?", "en": "Will you drop me at the office?" },
+        { "native": "ଟିକଟ ମୁଁ ଷ୍ଟେସନରେ କିଣିନେବି।", "roman": "ṭikôṭô muṃ sṭesônôre kiṇinebi.", "en": "I'll buy my ticket at the station." },
+        { "native": "ବସରେ ମୁଁ ଶୋଇପଡ଼ିଲି ଆଉ ଷ୍ଟପ୍ ଛାଡ଼ିଗଲା!", "roman": "bôsôre muṃ soipôṛili au sṭôp chhaṛigôla!", "en": "I fell asleep on the bus and missed my stop!" }
+      ]
+    },
+    {
+      "title": "'It takes…': ଲାଗିବା for time (and ପଡ଼ିବା for cost)",
+      "body": "You met **ଲାଗିବା** as 'to feel' (ଭୋକ ଲାଗୁଛି). With an amount of time it means **'to take'**. The time is the subject, and the person (if you mention one) goes in the dative, just like ମୋତେ ଭୋକ ଲାଗୁଛି:\n\nକେତେ ସମୟ **ଲାଗିବ**? — How long will it take?\nଅଧ ଘଣ୍ଟା **ଲାଗେ** — It takes half an hour (usually).\n**ମୋତେ** ଦୁଇ ଘଣ୍ଟା **ଲାଗିଲା** — It took me two hours.\n\nTo say *what* takes the time, use the **-ବାକୁ** form: କଟକ **ଯିବାକୁ** ଘଣ୍ଟେ ଲାଗେ 'it takes an hour to get to Cuttack'.\n\n**Money**: ଲାଗିବା works for cost too (ଶେୟାର୍ ଅଟୋରେ କୋଡ଼ିଏ ଟଙ୍କା ଲାଗେ), and **ପଡ଼ିବା** 'to come to, work out at' is very common for a total: ଭଡ଼ା କେତେ ପଡ଼ିବ? 'what will the fare come to?'\n\n**Distance**: କେତେ ଦୂର? 'how far?' — ପାଞ୍ଚ କିଲୋମିଟର୍ 'five kilometres'.\n\n**Trap**: don't use ନେବା 'take' for time. 'It takes an hour' is never 'ଘଣ୍ଟେ ନିଏ'. ନେବା is for the *driver* taking money: କେତେ ନେବେ? 'how much will you take?'",
+      "examples": [
+        { "native": "ଏଠାରୁ ପୁରୀ ଯିବାକୁ କେତେ ସମୟ ଲାଗିବ?", "roman": "eṭharu Puri jibaku kete sômôyô lagibô?", "en": "How long does it take to get to Puri from here?" },
+        { "native": "ବସରେ ପ୍ରାୟ ଦୁଇ ଘଣ୍ଟା ଲାଗେ।", "roman": "bôsôre prayô dui ghôṇṭa lage.", "en": "By bus it takes about two hours." },
+        { "native": "ଜାମ୍ ଯୋଗୁଁ ଆଜି ମୋତେ ଘଣ୍ଟେ ଲାଗିଲା।", "roman": "jam joguṃ aji mote ghôṇṭe lagila.", "en": "Because of the jam it took me an hour today." },
+        { "native": "ବିମାନବନ୍ଦର ଯାଏ ଭଡ଼ା କେତେ ପଡ଼ିବ?", "roman": "bimanôbôndôrô jae bhôṛa kete pôṛibô?", "en": "What will the fare to the airport come to?" },
+        { "native": "ଷ୍ଟେସନ ଏଠାରୁ ତିନି କିଲୋମିଟର୍।", "roman": "sṭesônô eṭharu tini kilomiṭôr.", "en": "The station is three kilometres from here." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "An auto to Saheed Nagar",
+    "setting": "Outside Bhubaneswar railway station, 8 pm. Sam needs to get to a friend's place in Saheed Nagar.",
+    "lines": [
+      { "speaker": "Sam", "native": "ଭାଇ, ସହିଦ ନଗର ରିଜର୍ଭ୍ ଯିବେ?", "roman": "bhai, Sôhidô Nôgôrô rijôrbh jibe?", "en": "Bhai, will you go to Saheed Nagar (private)?" },
+      { "speaker": "Driver", "native": "ହଁ, ଯିବି। ଦୁଇଶହ ଟଙ୍କା ହେବ।", "roman": "hôṃ, jibi. duisôhô ṭôṅka hebô.", "en": "Yes, I'll go. That'll be 200." },
+      { "speaker": "Sam", "native": "ଦୁଇଶହ? ଏତେ ନୁହେଁ ଭାଇ! ଆପରେ ଏକଶହ କୋଡ଼ିଏ ଦେଖାଉଛି।", "roman": "duisôhô? ete nuheṃ bhai! apôre ekôsôhô koṛie dekhauchhi.", "en": "200? Not that much, bhai! The app's showing 120." },
+      { "speaker": "Driver", "native": "ଆପ୍ କଥା ଛାଡ଼ନ୍ତୁ, ଏବେ ରାସ୍ତାରେ ବହୁତ ଟ୍ରାଫିକ୍। ଡେଢ଼ଶହ ଦିଅନ୍ତୁ।", "roman": "ap kôtha chhaṛôntu, ebe rastare bôhutô ṭraphik. ḍeṛhôsôhô diôntu.", "en": "Forget the app, there's loads of traffic now. Give me 150." },
+      { "speaker": "Sam", "native": "ହଉ, ଡେଢ଼ଶହ। କେତେ ସମୟ ଲାଗିବ?", "roman": "hôu, ḍeṛhôsôhô. kete sômôyô lagibô?", "en": "OK, 150. How long will it take?" },
+      { "speaker": "Driver", "native": "ଜାମ୍ ନ ଥିଲେ କୋଡ଼ିଏ ମିନିଟ୍। ବସନ୍ତୁ।", "roman": "jam nô thile koṛie miniṭ. bôsôntu.", "en": "Twenty minutes if there's no jam. Hop in." },
+      { "speaker": "Sam", "native": "ଭାଇ, ଟିକେ ଧୀରେ ଚଲାନ୍ତୁ, ମୁଁ ଡରିଯାଉଛି!", "roman": "bhai, ṭike dhire chôlantu, muṃ ḍôrijauchhi!", "en": "Bhai, slow down a bit, you're scaring me!" },
+      { "speaker": "Driver", "native": "ଡରନ୍ତୁ ନାହିଁ, ମୁଁ କୋଡ଼ିଏ ବର୍ଷ ହେଲା ଅଟୋ ଚଲାଉଛି। ଆଗରେ ସିଗନାଲ୍, କେଉଁ ପଟକୁ?", "roman": "ḍôrôntu nahiṃ, muṃ koṛie bôrsô hela ôṭo chôlauchhi. agôre signal, keuṃ pôṭôku?", "en": "Don't worry, I've been driving autos for twenty years. Lights ahead, which way?" },
+      { "speaker": "Sam", "native": "ସିଗନାଲରୁ ଡାହାଣକୁ ବୁଲନ୍ତୁ, ତା'ପରେ ସିଧା।", "roman": "signalôru ḍahaṇôku bulôntu, tapôre sidha.", "en": "Right at the lights, then straight on." },
+      { "speaker": "Driver", "native": "ସହିଦ ନଗରରେ କେଉଁଠି? ବଜାର ପାଖରେ?", "roman": "Sôhidô Nôgôrôre keuṃṭhi? bôjarô pakhôre?", "en": "Where in Saheed Nagar? Near the market?" },
+      { "speaker": "Sam", "native": "ହଁ, ବ୍ୟାଙ୍କ ସାମ୍ନାରେ ଗୋଟିଏ ଗଳି ଅଛି। ସେଇ ଗଳି ଭିତରକୁ ନେଇଯିବେ?", "roman": "hôṃ, byaṅkô samnare goṭie gôḷi ôchhi. sei gôḷi bhitôrôku neijibe?", "en": "Yes, there's a lane opposite the bank. Can you take me into that lane?" },
+      { "speaker": "Driver", "native": "ଗଳି ଭିତରେ ଅଟୋ ବୁଲାଇବାକୁ ଜାଗା ନାହିଁ। ମୁଁ ଆପଣଙ୍କୁ ମୋଡ଼ରେ ଛାଡ଼ିଦେଉଛି।", "roman": "gôḷi bhitôre ôṭo bulaibaku jaga nahiṃ. muṃ apôṇôṅku moṛôre chhaṛideuchhi.", "en": "There's no room to turn the auto in the lane. I'll drop you at the corner." },
+      { "speaker": "Sam", "native": "ଠିକ୍ ଅଛି, ଏଠି ରଖିଦିଅନ୍ତୁ। ୟୁପିଆଇ ଚାଲିବ?", "roman": "ṭhik ôchhi, eṭhi rôkhidiôntu. yupiai chalibô?", "en": "OK, stop here. Is UPI OK?" },
+      { "speaker": "Driver", "native": "ହଁ, ସ୍କାନ୍ କରନ୍ତୁ।", "roman": "hôṃ, skan kôrôntu.", "en": "Yes, go ahead and scan." }
+    ]
+  },
+  "culture": "Auto fares in Bhubaneswar and Cuttack are agreed **before** you get in: name the place, ask କେତେ ନେବେ?, offer a bit less, and if it's still too high, smile and walk to the next auto, which often brings the price down. Fares go up at night and in the rain, and drivers will ask more from people who look like visitors, so checking the app price first is the modern way to bargain (as Sam does). Once the fare is agreed, there's no tipping.\n\nAddress drivers as **ଭାଇ** (or ଦାଦା / ମଉସା if he's older) and use the polite -ନ୍ତୁ forms: ରଖିଦିଅନ୍ତୁ, ବୁଲନ୍ତୁ. Many locals use ତୁମେ with young drivers, but as a learner you can't go wrong with ଆପଣ. Directions run on landmarks, not street names: 'opposite the bank', 'behind the Hanuman temple', 'the lane after the petrol pump'. In Bhubaneswar, the blue **Mo Bus** city buses are cheap, air-conditioned on many routes and take UPI, and app cabs, autos and bike taxis are all on the usual ride apps. Between Bhubaneswar and Cuttack, people take buses, trains or shared autos across the Mahanadi bridge.",
+  "lessons": [
+    {
+      "title": "Agreeing an auto fare",
+      "tip": { "title": "Haggling with an auto driver", "body": "- Name the place + **ଯିବେ?**: ଷ୍ଟେସନ ରିଜର୍ଭ୍ ଯିବେ?\n- Ask the price: **କେତେ ନେବେ?** Counter: **ଏତେ ନୁହେଁ, … ଦେବି.**\n- Call him **ଭାଇ** and use the -ବେ / -ନ୍ତୁ forms; agree the fare before you get in." },
+      "new": ["ଅଟୋବାଲା", "ରିଜର୍ଭ୍", "ଶେୟାର୍", "ମିଟର୍", "ଦରଦାମ", "ଏକ୍ସଟ୍ରା", "ରିଜର୍ଭ୍ ଯିବେ?", "କେତେ ନେବେ?", "ଏତେ ନୁହେଁ, ଡେଢ଼ଶହ ଦେବି।", "ମିଟରରେ ଯିବେ?"],
+      "sentences": [
+        { "native": "ଭାଇ, ବିମାନବନ୍ଦର ରିଜର୍ଭ୍ ଯିବେ?", "roman": "bhai, bimanôbôndôrô rijôrbh jibe?", "en": "Bhai, will you take me to the airport?", "focus": "ଯିବେ", "wrong": ["ଯିବି|jibi", "ଯାଉଛି|jauchhi"] },
+        { "native": "ଷ୍ଟେସନ ପର୍ଯ୍ୟନ୍ତ କେତେ ନେବେ?", "roman": "sṭesônô pôrjyôntô kete nebe?", "en": "How much to the station?", "focus": "ନେବେ", "wrong": ["ନେବି|nebi", "ନେଲେ|nele"] },
+        { "native": "ତିନିଶହ? ବହୁତ ବେଶି! ଦୁଇଶହ ଦେବି।", "roman": "tinisôhô? bôhutô besi! duisôhô debi.", "en": "300? That's way too much! I'll give you 200.", "focus": "ଦେବି", "wrong": ["ଦେବେ|debe", "ଦେଲି|deli"] },
+        { "native": "ଶେୟାର୍ ଅଟୋରେ କୋଡ଼ିଏ ଟଙ୍କା ଲାଗେ।", "roman": "seyar ôṭore koṛie ṭôṅka lage.", "en": "A shared auto costs twenty rupees." },
+        { "native": "ଏ ଅଟୋବାଲା ଦରଦାମ କରୁନି।", "roman": "e ôṭobala dôrôdamô kôruni.", "en": "This auto driver won't bargain." },
+        { "native": "ମିଟରରେ ଯିବେ ନାହିଁ? ହଉ, ଛାଡ଼ନ୍ତୁ।", "roman": "miṭôrôre jibe nahiṃ? hôu, chhaṛôntu.", "en": "You won't go by the meter? OK, never mind." },
+        { "native": "ରାତିରେ କୋଡ଼ିଏ ଟଙ୍କା ଏକ୍ସଟ୍ରା ଲାଗିବ।", "roman": "ratire koṛie ṭôṅka ekstra lagibô.", "en": "At night it'll be twenty rupees extra." },
+        { "native": "ଆପଣ ବହୁତ ବେଶି କହୁଛନ୍ତି, ମୁଁ ଅନ୍ୟ ଅଟୋ ନେବି।", "roman": "apôṇô bôhutô besi kôhuchhônti, muṃ ônnyô ôṭo nebi.", "en": "You're asking too much, I'll take another auto.", "focus": "ନେବି", "wrong": ["ନେବେ|nebe", "ନେଲେ|nele"] }
+      ]
+    },
+    {
+      "title": "Stop here! Drop me there!",
+      "tip": { "title": "Compound verbs: -ଇ + helper", "body": "- Main verb in **-ଇ**, helper carries the ending: ରଖି**ଦିଅନ୍ତୁ**, ଛାଡ଼ି**ଦିଅନ୍ତୁ**.\n- **ଦେବା** = for someone / softer request · **ଯିବା** = completion, getting off (ଓହ୍ଲାଇ**ଯିବି**) · **ନେବା** = for yourself (କିଣି**ନେବି**) · **ପଡ଼ିବା** = sudden (ଶୋଇ**ପଡ଼ିଲି**).", "pattern": "verb-ଇ + ଦେବା / ଯିବା / ନେବା / ପଡ଼ିବା", "grammar": 0 },
+      "new": ["ଛାଡ଼ିଦେବା", "ରଖିଦେବା", "ଡ୍ରପ୍", "ପହଞ୍ଚାଇବା", "ବୁଲାଇବା", "ମୋତେ ଷ୍ଟେସନରେ ଛାଡ଼ିଦିଅନ୍ତୁ।", "ଏଠି ରଖିଦିଅନ୍ତୁ।", "ଏଠି ଗାଡ଼ି ବୁଲାଇଦିଅନ୍ତୁ।"],
+      "sentences": [
+        { "native": "ମୋତେ ଛକରେ ଛାଡ଼ିଦିଅନ୍ତୁ।", "roman": "mote chhôkôre chhaṛidiôntu.", "en": "Drop me at the junction, please.", "focus": "ଛାଡ଼ିଦିଅନ୍ତୁ", "wrong": ["ଛାଡ଼ିଦେଲି|chhaṛideli", "ଛାଡ଼ିବା|chhaṛiba"] },
+        { "native": "ଭାଇ, ମନ୍ଦିର ଆଗରେ ରଖିଦିଅନ୍ତୁ।", "roman": "bhai, môndirô agôre rôkhidiôntu.", "en": "Bhai, stop in front of the temple, please.", "focus": "ରଖିଦିଅନ୍ତୁ", "wrong": ["ରଖିଦେବି|rôkhidebi", "ରଖିଲି|rôkhili"] },
+        { "native": "ମୁଁ ଏଠି ଓହ୍ଲାଇଯିବି।", "roman": "muṃ eṭhi ohlaijibi.", "en": "I'll get off here.", "focus": "ଓହ୍ଲାଇଯିବି", "wrong": ["ଓହ୍ଲାଇଯିବେ|ohlaijibe", "ଓହ୍ଲାଇଲେ|ohlaile"] },
+        { "native": "ତୁ ମୋତେ ଷ୍ଟେସନରେ ଡ୍ରପ୍ କରିଦେବୁ?", "roman": "tu mote sṭesônôre ḍrop kôridebu?", "en": "Will you drop me at the station?", "focus": "କରିଦେବୁ", "wrong": ["କରିଦେବି|kôridebi", "କରିଦେଲୁ|kôridelu"] },
+        { "native": "ଚିନ୍ତା କର ନାହିଁ, ମୁଁ ତୋତେ ଘରେ ପହଞ୍ଚାଇଦେବି।", "roman": "chinta kôrô nahiṃ, muṃ tote ghôre pôhôñchaidebi.", "en": "Don't worry, I'll get you home.", "focus": "ପହଞ୍ଚାଇଦେବି", "wrong": ["ପହଞ୍ଚିବି|pôhôñchibi", "ପହଞ୍ଚାଇଲୁ|pôhôñchailu"] },
+        { "native": "ଏଠି ଗାଡ଼ି ବୁଲାଇଦିଅନ୍ତୁ, ଆମେ ଭୁଲ ବାଟରେ ଆସିଛୁ।", "roman": "eṭhi gaṛi bulaidiôntu, ame bhulô baṭôre asichhu.", "en": "Turn around here, we've come the wrong way." },
+        { "native": "ଟିକଟ ମୁଁ କିଣିନେବି।", "roman": "ṭikôṭô muṃ kiṇinebi.", "en": "I'll buy my own ticket.", "focus": "କିଣିନେବି", "wrong": ["କିଣିଲି|kiṇili", "କିଣୁଛି|kiṇuchhi"] },
+        { "native": "ଅଟୋରେ ମୁଁ ଶୋଇପଡ଼ିଲି!", "roman": "ôṭore muṃ soipôṛili!", "en": "I fell asleep in the auto!", "focus": "ଶୋଇପଡ଼ିଲି", "wrong": ["ଶୋଇପଡ଼ିବି|soipôṛibi", "ଶୋଉଛି|souchhi"] },
+        { "native": "ଅଟୋବାଲା ମୋତେ ଭୁଲ ଜାଗାରେ ଛାଡ଼ିଦେଲା।", "roman": "ôṭobala mote bhulô jagare chhaṛidela.", "en": "The auto driver dropped me at the wrong place." }
+      ]
+    },
+    {
+      "title": "Directions from the back seat",
+      "tip": { "title": "Steering the driver", "body": "- **ଟିକେ ଆଗକୁ** 'a bit further', **ପଛକୁ** 'back', **ସାମ୍ନାରେ** 'opposite'.\n- Turn: **ଡାହାଣକୁ / ବାଁକୁ ବୁଲନ୍ତୁ**; 'at the lights' = **ସିଗନାଲରୁ**.\n- Landmarks beat street names: ବ୍ୟାଙ୍କ ସାମ୍ନାରେ, ମନ୍ଦିର ପଛରେ." },
+      "new": ["ସିଗନାଲ୍", "ଆଗକୁ", "ପଛକୁ", "ସାମ୍ନା", "ଗଳି", "ଧୀରେ", "ଟିକେ ଆଗକୁ ନିଅନ୍ତୁ।", "ସିଗନାଲରୁ ବାଁକୁ ବୁଲନ୍ତୁ।", "ଟିକେ ଧୀରେ ଚଲାନ୍ତୁ।"],
+      "sentences": [
+        { "native": "ଦ୍ୱିତୀୟ ସିଗନାଲରୁ ଡାହାଣ ପଟକୁ ଯିବେ।", "roman": "dwitiyô signalôru ḍahaṇô pôṭôku jibe.", "en": "Go right at the second set of lights.", "focus": "ସିଗନାଲରୁ", "wrong": ["ସିଗନାଲକୁ|signalôku", "ସିଗନାଲର|signalôrô"] },
+        { "native": "ଟିକେ ଆଗକୁ ନିଅନ୍ତୁ, ସେଇ ନାଲି ଘର ପାଖରେ।", "roman": "ṭike agôku niôntu, sei nali ghôrô pakhôre.", "en": "A bit further, please, by that red house.", "focus": "ଆଗକୁ", "wrong": ["ଆଗରେ|agôre", "ଆଗରୁ|agôru"] },
+        { "native": "ଆମେ ଆଗକୁ ଚାଲିଆସିଲୁ, ଟିକେ ପଛକୁ ନିଅନ୍ତୁ।", "roman": "ame agôku chaliasilu, ṭike pôchhôku niôntu.", "en": "We've overshot, go back a bit please.", "focus": "ପଛକୁ", "wrong": ["ପଛରେ|pôchhôre", "ପଛରୁ|pôchhôru"] },
+        { "native": "ମନ୍ଦିର ସାମ୍ନାରେ ରଖିଦିଅନ୍ତୁ।", "roman": "môndirô samnare rôkhidiôntu.", "en": "Stop opposite the temple, please.", "focus": "ସାମ୍ନାରେ", "wrong": ["ସାମ୍ନାକୁ|samnaku", "ସାମ୍ନାରୁ|samnaru"] },
+        { "native": "ଏହି ଗଳି ଭିତରକୁ ଅଟୋ ଯିବ?", "roman": "ehi gôḷi bhitôrôku ôṭo jibô?", "en": "Can an auto get into this lane?" },
+        { "native": "ଦୟାକରି ଟିକେ ଧୀରେ ଚଲାନ୍ତୁ, ରାସ୍ତା ଖରାପ।", "roman": "dôyakôri ṭike dhire chôlantu, rasta khôrapô.", "en": "Please drive a bit slower, the road is bad." },
+        { "native": "ସିଗନାଲ୍ ନାଲି ଅଛି, ଅପେକ୍ଷା କରନ୍ତୁ।", "roman": "signal nali ôchhi, ôpekhya kôrôntu.", "en": "The light is red, wait." },
+        { "native": "ବ୍ୟାଙ୍କ ସାମ୍ନାରେ ଗୋଟିଏ ଛୋଟ ଗଳି ଅଛି।", "roman": "byaṅkô samnare goṭie chhoṭô gôḷi ôchhi.", "en": "There's a little lane opposite the bank." },
+        { "native": "ଧୀରେ ଧୀରେ ଯାଆନ୍ତୁ, ମୁଁ ଘର ନମ୍ବର ଦେଖୁଛି।", "roman": "dhire dhire jaôntu, muṃ ghôrô nômbôrô dekhuchhi.", "en": "Go slowly, I'm looking at the house numbers." }
+      ]
+    },
+    {
+      "title": "How long does it take?",
+      "tip": { "title": "ଲାଗିବା: it takes (time, money)", "body": "- Time is the subject of **ଲାଗିବା**: କେତେ ସମୟ **ଲାଗିବ**? · ଅଧ ଘଣ୍ଟା **ଲାଗେ**.\n- The person goes in the dative: **ମୋତେ** ଘଣ୍ଟେ ଲାଗିଲା 'it took me an hour'.\n- What takes the time: **-ବାକୁ**: କଟକ **ଯିବାକୁ** ଘଣ୍ଟେ ଲାଗେ.\n- Total cost: **କେତେ ପଡ଼ିବ?**", "pattern": "(ମୋତେ) + time + ଲାଗିବ / ଲାଗେ / ଲାଗିଲା", "grammar": 1 },
+      "new": ["ଜାମ୍", "କିଲୋମିଟର୍", "ଚାଲିଚାଲି", "ଖାଲି", "କେତେ ସମୟ ଲାଗିବ?", "ପ୍ରାୟ କୋଡ଼ିଏ ମିନିଟ୍ ଲାଗିବ।", "ଚାଲିଚାଲି ଯିବା, ପାଖ ତ।"],
+      "sentences": [
+        { "native": "ଏଠାରୁ ବିମାନବନ୍ଦର କେତେ ସମୟ ଲାଗିବ?", "roman": "eṭharu bimanôbôndôrô kete sômôyô lagibô?", "en": "How long will it take from here to the airport?", "focus": "ଲାଗିବ", "wrong": ["ଲାଗିବି|lagibi", "ଲାଗିଲି|lagili"] },
+        { "native": "ଜାମ୍ ନ ଥିଲେ କୋଡ଼ିଏ ମିନିଟ୍ ଲାଗେ।", "roman": "jam nô thile koṛie miniṭ lage.", "en": "If there's no jam it takes twenty minutes.", "focus": "ଲାଗେ", "wrong": ["ଲାଗନ୍ତି|lagônti", "ଲାଗିଲି|lagili"] },
+        { "native": "କାଲି କଟକ ଯିବାକୁ ମୋତେ ଦୁଇ ଘଣ୍ଟା ଲାଗିଲା!", "roman": "kali Kôṭôkô jibaku mote dui ghôṇṭa lagila!", "en": "Yesterday it took me two hours to get to Cuttack!", "focus": "ମୋତେ", "wrong": ["ମୁଁ|muṃ", "ମୋର|morô"] },
+        { "native": "ଷ୍ଟେସନ ଏଠାରୁ ପାଞ୍ଚ କିଲୋମିଟର୍।", "roman": "sṭesônô eṭharu pañchô kilomiṭôr.", "en": "The station is five kilometres from here." },
+        { "native": "ଚାଲିଚାଲି ଦଶ ମିନିଟ୍ ଲାଗିବ।", "roman": "chalichali dôsô miniṭ lagibô.", "en": "It's ten minutes on foot.", "focus": "ଲାଗିବ", "wrong": ["ଲାଗିବି|lagibi", "ଲାଗିବୁ|lagibu"] },
+        { "native": "ଏତେ ଜାମ୍! ଆଜି ପହଞ୍ଚିବାକୁ ଘଣ୍ଟେ ଲାଗିବ।", "roman": "ete jam! aji pôhôñchibaku ghôṇṭe lagibô.", "en": "What a jam! It'll take an hour to get there today.", "focus": "ପହଞ୍ଚିବାକୁ", "wrong": ["ପହଞ୍ଚିଲେ|pôhôñchile", "ପହଞ୍ଚି|pôhôñchi"] },
+        { "native": "ଖାଲି ଅଟୋ ମିଳୁନି।", "roman": "khali ôṭo miḷuni.", "en": "I can't find an empty auto." },
+        { "native": "ଦୁଇ କିଲୋମିଟର୍ ପାଇଁ ଅଟୋ କାହିଁକି? ଚାଲିଚାଲି ଯିବା।", "roman": "dui kilomiṭôr paiṃ ôṭo kahiṃki? chalichali jiba.", "en": "Why an auto for two kilometres? Let's walk." },
+        { "native": "ବସ୍ ଖାଲି ଅଛି, ଚାଲ ଚଢ଼ିଯିବା।", "roman": "bôs khali ôchhi, chalô chôṛhijiba.", "en": "The bus is empty, let's hop on." },
+        { "native": "ଭଡ଼ା କେତେ ପଡ଼ିବ?", "roman": "bhôṛa kete pôṛibô?", "en": "What will the fare come to?", "focus": "ପଡ଼ିବ", "wrong": ["ପଡ଼ିବି|pôṛibi", "ପଡ଼ିଲି|pôṛili"] }
+      ]
+    },
+    {
+      "title": "Booking a ride on the app",
+      "new": ["କ୍ୟାବ୍", "ଆପ୍", "ଓଟିପି", "ପାର୍କିଂ", "ହେଲମେଟ୍", "ଓଟିପି କେତେ?"],
+      "sentences": [
+        { "native": "ମୁଁ ଆପରେ କ୍ୟାବ୍ ବୁକ୍ କରୁଛି।", "roman": "muṃ apôre kyab buk kôruchhi.", "en": "I'm booking a cab on the app." },
+        { "native": "ଡ୍ରାଇଭର ପଚାରିଲେ, “ଓଟିପି କେତେ?”", "roman": "ḍraibhôrô pôcharile, “oṭipi kete?”", "en": "The driver asked, 'What's the OTP?'" },
+        { "native": "କ୍ୟାବ୍ ପାଞ୍ଚ ମିନିଟରେ ଆସୁଛି।", "roman": "kyab pañchô miniṭôre asuchhi.", "en": "The cab will be here in five minutes." },
+        { "native": "ମୁଁ ପାର୍କିଂ ପାଖରେ ଅପେକ୍ଷା କରୁଛି।", "roman": "muṃ parkiṅ pakhôre ôpekhya kôruchhi.", "en": "I'm waiting by the car park." },
+        { "native": "ବାଇକରେ ଯିବା ଶସ୍ତା, ହେଲେ ହେଲମେଟ୍ ପିନ୍ଧିବାକୁ ପଡ଼ିବ।", "roman": "baikôre jiba sôsta, hele helmeṭ pindhibaku pôṛibô.", "en": "Going by bike taxi is cheaper, but you have to wear a helmet." },
+        { "native": "ଆପରେ ଭଡ଼ା ଦୁଇଶହ ଦେଖାଉଛି।", "roman": "apôre bhôṛa duisôhô dekhauchhi.", "en": "The app is showing 200 for the fare." },
+        { "native": "ଡ୍ରାଇଭର ମୋ ଲୋକେସନ୍ ଖୋଜୁଛନ୍ତି।", "roman": "ḍraibhôrô mo lokesôn khojuchhônti.", "en": "The driver is trying to find my location." },
+        { "native": "ପାର୍କିଂ ନାହିଁ ବୋଲି ମୁଁ ବାଇକ୍ ଆଣିଲି ନାହିଁ।", "roman": "parkiṅ nahiṃ boli muṃ baik aṇili nahiṃ.", "en": "There's no parking, so I didn't bring my bike." },
+        { "native": "କ୍ୟାବ୍ ବାତିଲ କରିଦେଲି, ଅଟୋ ନେଇଯିବି।", "roman": "kyab batilô kôrideli, ôṭo neijibi.", "en": "I've cancelled the cab, I'll take an auto." }
+      ]
+    }
+  ]
+}

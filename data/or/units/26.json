@@ -1,0 +1,201 @@
+{
+  "id": 26,
+  "title": "At someone's home",
+  "goal": "Visit a friend's family, be a good guest (and host), accept and decline food politely, ask whether something is OK, help out, stay the night — and talk about how things used to be.",
+  "intro": "Being invited home is the heart of Odia social life, and it comes with a script: shoes off at the door, *make yourself at home*, tea that you refuse once and then accept, a host who insists you eat *one more*, and an offer to help that the host will wave away.\n\nThis unit gives you both sides of that script. The grammar is what you need as a guest: polite **offers and refusals**, **should I…? / is it OK if…?** (ଖୋଲିବି କି?, ଶୋଇଲେ ଚଳିବ?) — and **used to** (-ଉଥିଲି), because sooner or later someone's mother will tell you what your friend *used to* do as a child.",
+  "vocab": [
+    { "native": "ଖୋଲିବା", "roman": "kholiba", "en": "to open; to take off (shoes, clothes)", "pos": "verb", "note": "ଜୋତା ଖୋଲିବା \"to take off your shoes\". Opposite of ପିନ୍ଧିବା." },
+    { "native": "ଚପଲ", "roman": "chôpôlô", "en": "slippers, flip-flops, sandals", "pos": "noun", "note": "Worn inside the house; hosts often keep a spare pair by the door." },
+    { "native": "ସୋଫା", "roman": "sopha", "en": "sofa", "pos": "noun" },
+    { "native": "ନିଜ", "roman": "nijô", "en": "own (one's own)", "pos": "pron", "note": "Before a noun: ନିଜ ଘର \"one's own home\". ନିଜେ \"oneself\", ନିଜର \"one's own\" (standing alone)." },
+    { "native": "ଘରଲୋକ", "roman": "ghôrôlokô", "en": "family, the people at home", "pos": "noun", "note": "Takes a plural verb: ଘରଲୋକ କେମିତି ଅଛନ୍ତି? \"How is everyone at home?\"" },
+    { "native": "ସଙ୍କୋଚ", "roman": "sôṅkochô", "en": "hesitation, feeling awkward or shy", "pos": "noun", "note": "ସଙ୍କୋଚ କରିବା \"to hold back, feel awkward\". Hosts say ସଙ୍କୋଚ କର ନାହିଁ." },
+    { "native": "ଜୋର କରିବା", "roman": "jorô kôriba", "en": "to insist, press (someone)", "pos": "verb", "note": "ଜୋର \"force, strength\"." },
+    { "native": "ପୂରିବା", "roman": "puriba", "en": "to fill up; (stomach) to be full", "pos": "verb", "note": "ପେଟ ପୂରିଗଲା \"I'm full\" (lit. the stomach has filled)." },
+    { "native": "ଆଦର", "roman": "adôrô", "en": "warm welcome, hospitality; affection", "pos": "noun", "note": "ଆଦର କରିବା \"to welcome warmly, make a fuss of\"." },
+    { "native": "ଚଳିବା", "roman": "chôḷiba", "en": "to be OK, do, work; to get by", "pos": "verb", "note": "ଚଳିବ \"that's fine, that'll do\"; ଚଳିବ ନାହିଁ \"that won't do\". With -ଲେ: ଶୋଇଲେ ଚଳିବ? \"is it OK if I sleep…?\"" },
+    { "native": "ଚାଲୁ କରିବା", "roman": "chalu kôriba", "en": "to switch on, start (a machine)", "pos": "verb", "note": "ଚାଲୁ \"running, on\". Switch off: ବନ୍ଦ କରିବା." },
+    { "native": "ଠାକୁର ଘର", "roman": "ṭhakurô ghôrô", "en": "prayer room, household shrine", "pos": "noun", "note": "Most Odia homes have one. Never go in with shoes on." },
+    { "native": "ଗାମୁଛା", "roman": "gamuchha", "en": "gamchha (thin cotton towel)", "pos": "noun", "note": "The checked cotton towel used everywhere in Odisha. A thick towel is ଟାୱେଲ୍." },
+    { "native": "ସାବୁନ", "roman": "sabunô", "en": "soap", "pos": "noun" },
+    { "native": "ଗିଜର୍", "roman": "gijôr", "en": "water heater (geyser)", "pos": "noun", "note": "Usually switched on 10–15 minutes before a bath." },
+    { "native": "ବିଛଣା", "roman": "bichhôṇa", "en": "bedding; a bed (made up)", "pos": "noun", "note": "ବିଛଣା ତିଆରି କରିବା / ବିଛଣା ପକାଇବା \"to make up a bed\"." },
+    { "native": "ତକିଆ", "roman": "tôkia", "en": "pillow", "pos": "noun" },
+    { "native": "ଚଦର", "roman": "chôdôrô", "en": "bedsheet; light cotton blanket", "pos": "noun" },
+    { "native": "ମଶା", "roman": "môsa", "en": "mosquito", "pos": "noun" },
+    { "native": "ମଶାରି", "roman": "môsari", "en": "mosquito net", "pos": "noun", "note": "ମଶାରି ଟାଙ୍ଗିବା \"to put up the mosquito net\"." },
+    { "native": "ଟାଙ୍ଗିବା", "roman": "ṭaṅgiba", "en": "to hang (up); to put up (a net)", "pos": "verb", "note": "ଲୁଗା ଟାଙ୍ଗିବା \"to hang up clothes\"." },
+    { "native": "ବାସନ", "roman": "basônô", "en": "dishes, pots and pans", "pos": "noun" },
+    { "native": "ମାଜିବା", "roman": "majiba", "en": "to scrub, wash (dishes)", "pos": "verb", "note": "ବାସନ ମାଜିବା \"to do the dishes\"." },
+    { "native": "ପୋଛିବା", "roman": "pochhiba", "en": "to wipe; to dry (with a cloth); to mop", "pos": "verb", "note": "ଘର ପୋଛିବା \"to mop the floor\"." },
+    { "native": "ସଜାଡ଼ିବା", "roman": "sôjaṛiba", "en": "to tidy up, arrange, put in order", "pos": "verb" },
+    { "native": "ଶୁଖାଇବା", "roman": "sukhaiba", "en": "to dry (clothes, hair)", "pos": "verb", "note": "Causative of ଶୁଖିବା \"to get dry\" (compare ଶୁଖିଲା \"dry\")." },
+    { "native": "ପିଲାଦିନ", "roman": "piladinô", "en": "childhood", "pos": "noun", "note": "ପିଲାଦିନେ \"as a child, in childhood\"." },
+    { "native": "ଆଗେ", "roman": "age", "en": "earlier, before, in the old days", "pos": "adv", "note": "Pairs with -ଉଥିଲି: ଆଗେ ମୁଁ … କରୁଥିଲି \"I used to…\". Compare ଆଗରୁ \"before (a point), already\"." },
+    { "native": "ଦେଖାଶୁଣା", "roman": "dekhasuṇa", "en": "looking after, care", "pos": "noun", "note": "X-ର ଦେଖାଶୁଣା କରିବା \"to look after X\"." }
+  ],
+  "phrases": [
+    { "native": "ଆସ ଆସ, ଭିତରକୁ ଆସ!", "roman": "asô asô, bhitôrôku asô!", "en": "Come in, come in! (to a friend)", "note": "Polite: ଆସନ୍ତୁ, ଭିତରକୁ ଆସନ୍ତୁ." },
+    { "native": "ନିଜ ଘର ପରି ଭାବ।", "roman": "nijô ghôrô pôri bhabô.", "en": "Make yourself at home. (lit. think of it like your own home)" },
+    { "native": "ଜୋତା ଖୋଲିବି କି?", "roman": "jota kholibi ki?", "en": "Should I take my shoes off?" },
+    { "native": "ସଙ୍କୋଚ କରନ୍ତୁ ନାହିଁ।", "roman": "sôṅkochô kôrôntu nahiṃ.", "en": "Don't be shy / don't hold back. (polite)" },
+    { "native": "ଚା ଖାଇବ ନା କଫି?", "roman": "cha khaibô na kôphi?", "en": "Tea or coffee? (to a friend)", "note": "Odia often *eats* tea: ଚା ଖାଇବା is everyday speech; ଚା ପିଇବା is also correct." },
+    { "native": "ମୁଁ ଖାଲି ପାଣି ନେବି।", "roman": "muṃ khali paṇi nebi.", "en": "Just water for me." },
+    { "native": "ଏତେ କଷ୍ଟ କରନ୍ତୁ ନାହିଁ।", "roman": "ete kôsṭô kôrôntu nahiṃ.", "en": "Please don't go to so much trouble.", "note": "କଷ୍ଟ \"trouble, effort, hardship\"." },
+    { "native": "ଆଉ ଟିକେ ନିଅ ନା!", "roman": "au ṭike niô na!", "en": "Have a little more! (insisting, to a friend)" },
+    { "native": "ପେଟ ପୂରିଗଲା, ଆଉ ପାରିବି ନାହିଁ।", "roman": "peṭô purigôla, au paribi nahiṃ.", "en": "I'm full, I can't manage any more." },
+    { "native": "ମୁଁ ବାସନ ମାଜିଦେବି?", "roman": "muṃ basônô majidebi?", "en": "Shall I do the dishes?" },
+    { "native": "ଗିଜର୍ କେମିତି ଚାଲୁ କରିବି?", "roman": "gijôr kemiti chalu kôribi?", "en": "How do I switch on the water heater?" },
+    { "native": "ଆଜି ରାତି ଏଠି ରହିଯାଅ।", "roman": "aji rati eṭhi rôhijaô.", "en": "Stay the night here tonight. (to a friend)" },
+    { "native": "ମୁଁ ସୋଫାରେ ଶୋଇଲେ ଚଳିବ।", "roman": "muṃ sophare soile chôḷibô.", "en": "I'm fine sleeping on the sofa. (lit. if I sleep on the sofa it'll do)" },
+    { "native": "ଆପଣଙ୍କ ଆଦର ପାଇଁ ଧନ୍ୟବାଦ।", "roman": "apôṇôṅkô adôrô paiṃ dhônnyôbadô.", "en": "Thank you for having me / for your hospitality." }
+  ],
+  "grammar": [
+    {
+      "title": "'Used to': the past habitual -ଉଥିଲି",
+      "body": "In unit 16 you met **-ଉଥିଲି** as 'was doing'. Its other big job is **used to / would** — things that kept happening in the past. It's how people talk about childhood, old homes and how things were: ପିଲାଦିନେ ମୁଁ ଅଜା ଘରେ ରହୁଥିଲି 'as a child I used to stay at my grandfather's'.\n\n**Forms**: stem + **-ଉଥି-** + the past endings:\nମୁଁ ଯାଉଥିଲି *jauthili* — I used to go\nଆମେ / ତୁ ଯାଉଥିଲୁ *jauthilu*\nତୁମେ ଯାଉଥିଲ *jauthilô*\nଆପଣ / ସେ (resp.) / ସେମାନେ ଯାଉଥିଲେ *jauthile*\nସେ ଯାଉଥିଲା *jauthila*\nVowel stems work the same way: ଖାଉଥିଲି, ପିଉଥିଲି, ଦେଉଥିଲି, ଆସୁଥିଲି, କରୁଥିଲି.\n\n**Negative**: put ନ before ଥିଲି, usually written as one word: **ଖାଉନଥିଲି** *khaunôthili* 'I didn't use to eat'.\n\n**Time words** that go with it: **ଆଗେ** 'earlier, in the old days', **ପିଲାଦିନେ** 'as a child', **ସେତେବେଳେ** 'back then', **ସବୁ ରବିବାର** 'every Sunday'. Contrast with **ଏବେ** + simple present: ଆଗେ ମୁଁ ଚା ପିଉନଥିଲି, ଏବେ ଦିନକୁ ତିନି ଥର ପିଏ.\n\n**The trap**: the simple past **-ଇଲି** is for *one* event: ଗତ ରବିବାର ପୁରୀ ଗଲି 'I went to Puri last Sunday'. **-ଉଥିଲି** is for what *kept* happening: ସବୁ ରବିବାର ପୁରୀ ଯାଉଥିଲି 'I used to go to Puri every Sunday'. Only context tells you whether -ଉଥିଲି means 'was doing' or 'used to do' — a time word like ଆଗେ or ପିଲାଦିନେ makes it clear.",
+      "examples": [
+        { "native": "ପିଲାଦିନେ ମୁଁ ଅଜା ଘରେ ରହୁଥିଲି।", "roman": "piladine muṃ ôja ghôre rôhuthili.", "en": "As a child I used to stay at my grandfather's." },
+        { "native": "ଆଗେ ଆମେ ସବୁ ରବିବାର ପୁରୀ ଯାଉଥିଲୁ।", "roman": "age ame sôbu rôbibarô Puri jauthilu.", "en": "We used to go to Puri every Sunday." },
+        { "native": "ଆଗେ ମୁଁ ଚା ପିଉନଥିଲି, ଏବେ ଦିନକୁ ତିନି ଥର ପିଏ।", "roman": "age muṃ cha piunôthili, ebe dinôku tini thôrô pie.", "en": "I didn't use to drink tea; now I have it three times a day." },
+        { "native": "ଜେଜେମା ଆମ ପାଇଁ ପିଠା କରୁଥିଲେ।", "roman": "jejema amô paiṃ piṭha kôruthile.", "en": "Grandma used to make pitha for us." },
+        { "native": "ଆପଣ ଆଗେ କଟକରେ ରହୁଥିଲେ, ନା?", "roman": "apôṇô age Kôṭôkôre rôhuthile, na?", "en": "You used to live in Cuttack, didn't you?" }
+      ]
+    },
+    {
+      "title": "Offering, accepting and declining",
+      "body": "Odia hospitality follows a pattern: the host offers, the guest declines once or twice out of modesty, the host **insists** (ଜୋର କରେ), and the guest gives in. Knowing the lines on both sides makes you sound natural.\n\n**Offering** — a future question: ଚା ଖାଇବ? (friend) / ଚା ଖାଇବେ? (polite) 'will you have tea?'; ଆଉ ଟିକେ ନେବେ? 'will you take a little more?'. A command with **ନା** at the end is warm and pushy in a nice way: ଆଉ ଟିକେ ନିଅ ନା! 'oh, have some more!'\n\n**Accepting**: ହଉ, ଟିକେ ଦିଅ 'OK, just a little'; ଖାଲି … 'just …'; ଅବଶ୍ୟ 'sure'.\n\n**Declining softly**: thank or praise first, then a reason. Useful lines: ଏତେ କଷ୍ଟ କରନ୍ତୁ ନାହିଁ 'don't go to such trouble'; ପେଟ ପୂରିଗଲା 'I'm full'; ବହୁତ ହେଲା 'that's plenty'; ଆଉ ପାରିବି ନାହିଁ 'I can't manage more'; ଆଜି ନୁହେଁ, ଆଉ ଦିନେ 'not today, another time'. A bare ନା sounds cold — say ନା ନା with a smile.\n\n**Don't …!** — negative commands, used constantly by hosts:\npolite: **-ନ୍ତୁ ନାହିଁ** — ସଙ୍କୋଚ କରନ୍ତୁ ନାହିଁ\nfamiliar: **-ଅ ନାହିଁ** — ଲାଜ କର ନାହିଁ, ଆଉ ଦିଅ ନାହିଁ\nThe future + ନାହିଁ is gentler: ମନା କରିବ ନାହିଁ 'you won't say no now'.\n\n**Trap**: in Odia, tea is often *eaten* — ଚା ଖାଇବା. It isn't a mistake; it's how most people say it.",
+      "examples": [
+        { "native": "ଆପଣ ଜଳଖିଆ କରିବେ?", "roman": "apôṇô jôḷôkhia kôribe?", "en": "Will you have a snack? (polite)" },
+        { "native": "ହଉ, କିନ୍ତୁ ଖାଲି ଟିକେ ଦିଅ।", "roman": "hôu, kintu khali ṭike diô.", "en": "OK, but just a little." },
+        { "native": "ନା ନା, ବହୁତ ହେଲା।", "roman": "na na, bôhutô hela.", "en": "No no, that's plenty." },
+        { "native": "ଲାଜ କର ନାହିଁ, ଆଉ ଗୋଟିଏ ପିଠା ନିଅ।", "roman": "lajô kôrô nahiṃ, au goṭie piṭha niô.", "en": "Don't be shy, have another pitha." },
+        { "native": "ଧନ୍ୟବାଦ ମାଉସୀ, ଆଜି ନୁହେଁ, ଆଉ ଦିନେ।", "roman": "dhônnyôbadô mausi, aji nuheṃ, au dine.", "en": "Thank you, auntie — not today, another time." }
+      ]
+    },
+    {
+      "title": "Should I…? Is it OK if…?",
+      "body": "As a guest you are always checking: should I take my shoes off? can I have a bath? is it OK if I sleep here? Four patterns cover it:\n\n**Shall I / should I?** — the ମୁଁ-future, often with **କି**: ଜୋତା ଖୋଲିବି କି? 'should I take my shoes off?' Add **ଦେବା** to offer to do something *for* someone: ମୁଁ ବାସନ ମାଜି**ଦେବି**? 'shall I do the dishes (for you)?'\n\n**Do I have to?** — **-ବାକୁ ପଡ଼ିବ କି?**: ଜୋତା ଖୋଲିବାକୁ ପଡ଼ିବ କି? 'do I have to take my shoes off?'\n\n**Is it OK if…?** — the **-ଲେ** ('if') form + **ଚଳିବ?** 'will it do?': ମୁଁ ଏଠି ଶୋଇଲେ ଚଳିବ? 'is it OK if I sleep here?'. Answers: ହଁ, ଚଳିବ 'sure, that's fine' / ନା, ଚଳିବ ନାହିଁ 'no, that's not OK'. ଚଳିବ on its own — 'that works, that'll do' — is one of the most useful words in Odia.\n\n**May I?** — **-ଇପାରେ କି?** (unit 18): ମୁଁ ଗାଧୋଇପାରେ କି? 'may I have a bath?'\n\n**What should I do?** — ମୁଁ କ'ଣ କରିବି?; for advice, **-ବା ଉଚିତ** (unit 9): ଠାକୁର ଘରକୁ ଜୋତା ପିନ୍ଧି ଯିବା ଉଚିତ ନୁହେଁ 'you shouldn't go into the prayer room in shoes'.\n\n**Trap**: the ending tells you *who* — ଖୋଲିବି? 'shall *I* take them off?', but ଖୋଲିବେ? 'will *you* take them off?' (a polite request to someone else).",
+      "examples": [
+        { "native": "ଜୋତା ବାହାରେ ଖୋଲିବି କି?", "roman": "jota bahare kholibi ki?", "en": "Should I leave my shoes outside?" },
+        { "native": "ଗାମୁଛା କେଉଁଠି ରଖିବି?", "roman": "gamuchha keuṃṭhi rôkhibi?", "en": "Where shall I put the towel?" },
+        { "native": "ମୁଁ ଟିକେ ଡେରିରେ ଆସିଲେ ଚଳିବ?", "roman": "muṃ ṭike ḍerire asile chôḷibô?", "en": "Is it OK if I come a bit late?" },
+        { "native": "ହଁ, ଚଳିବ।", "roman": "hôṃ, chôḷibô.", "en": "Yes, that's fine." },
+        { "native": "ମୁଁ ଏଠି ଫୋନ ଚାର୍ଜ କରିପାରେ କି?", "roman": "muṃ eṭhi phonô charj kôripare ki?", "en": "May I charge my phone here?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Dinner at Bapi's in Cuttack",
+    "setting": "Sam visits his friend Bapi's family in Cuttack for the first time, with a box of sweets.",
+    "lines": [
+      { "speaker": "Bapi", "native": "ଆସ ଆସ, ସାମ୍! ଘର ଖୋଜିବାକୁ ଅସୁବିଧା ହେଲା ନାହିଁ ତ?", "roman": "asô asô, Sam! ghôrô khojibaku ôsubidha hela nahiṃ tô?", "en": "Come in, come in, Sam! You didn't have trouble finding the house, did you?" },
+      { "speaker": "Sam", "native": "ଟିକେ ହେଲା, ଗୁଗୁଲ୍ ମ୍ୟାପ୍ ମୋତେ ସବୁ ଗଳିରେ ବୁଲାଇଲା! ଜୋତା ଏଠି ଖୋଲିବି କି?", "roman": "ṭike hela, Gugul myap mote sôbu gôḷire bulaila! jota eṭhi kholibi ki?", "en": "A bit — Google Maps took me down every lane in town! Should I take my shoes off here?" },
+      { "speaker": "Bapi", "native": "ହଁ, ସେଠି ଚପଲ ଅଛି, ପିନ୍ଧିନିଅ। ବୋଉ, ସାମ୍ ଆସିଗଲା!", "roman": "hôṃ, seṭhi chôpôlô ôchhi, pindhiniô. bou, Sam asigôla!", "en": "Yes, there are slippers there, put them on. Mum, Sam's here!" },
+      { "speaker": "Bapi's mum", "native": "ଆସ ବାପା, ବସ। ନିଜ ଘର ପରି ଭାବ, ସଙ୍କୋଚ କର ନାହିଁ।", "roman": "asô bapa, bôsô. nijô ghôrô pôri bhabô, sôṅkochô kôrô nahiṃ.", "en": "Come, dear, sit down. Make yourself at home, don't be shy." },
+      { "speaker": "Sam", "native": "ନମସ୍କାର ମାଉସୀ। ଏଇ ମିଠା ଆପଣଙ୍କ ପାଇଁ — ପାହାଳର ରସଗୋଲା।", "roman": "nômôskarô mausi. ei miṭha apôṇôṅkô paiṃ — Pahaḷôrô rôsôgola.", "en": "Hello, auntie. These sweets are for you — rasagolas from Pahala." },
+      { "speaker": "Bapi's mum", "native": "ଆରେ, ଏସବୁ କାହିଁକି ଆଣିଲ? ଚା ଖାଇବ ନା କଫି?", "roman": "are, esôbu kahiṃki aṇilô? cha khaibô na kôphi?", "en": "Oh, why did you bring all this? Tea or coffee?" },
+      { "speaker": "Sam", "native": "ଏତେ କଷ୍ଟ କରନ୍ତୁ ନାହିଁ, ମାଉସୀ। ଖାଲି ପାଣି ଚଳିବ।", "roman": "ete kôsṭô kôrôntu nahiṃ, mausi. khali paṇi chôḷibô.", "en": "Please don't go to any trouble, auntie. Just water is fine." },
+      { "speaker": "Bapi", "native": "ସେ ମିଛ କହୁଛି, ବୋଉ। ସେ ଦିନକୁ ପାଞ୍ଚ କପ୍ ଚା ପିଏ!", "roman": "se michhô kôhuchhi, bou. se dinôku pañchô kôp cha pie!", "en": "He's lying, Mum. He drinks five cups of tea a day!" },
+      { "speaker": "Bapi's mum", "native": "ତେବେ ଚା ଆଉ ପିଠା ଆଣୁଛି। ପିଲାଦିନେ ବାପି ବି ଏମିତି ଲାଜ କରୁଥିଲା।", "roman": "tebe cha au piṭha aṇuchhi. piladine Bapi bi emiti lajô kôruthila.", "en": "Then I'm bringing tea and pitha. Bapi used to be shy like this as a little boy, too." },
+      { "speaker": "Bapi", "native": "ବୋଉ! ସେ କଥା ଛାଡ଼!", "roman": "bou! se kôtha chhaṛô!", "en": "Mum! Drop it!" },
+      { "speaker": "Bapi's mum", "native": "ଆଜି ରାତି ଏଠି ରହିଯାଅ। ବାହାରେ ବର୍ଷା ହେଉଛି।", "roman": "aji rati eṭhi rôhijaô. bahare bôrsa heuchhi.", "en": "Stay the night tonight. It's raining outside." },
+      { "speaker": "Sam", "native": "ସତରେ? ଅସୁବିଧା ନ ହେଲେ… ମୁଁ ସୋଫାରେ ଶୋଇଯିବି।", "roman": "sôtôre? ôsubidha nô hele… muṃ sophare soijibi.", "en": "Really? If it's no trouble… I'll sleep on the sofa." },
+      { "speaker": "Bapi", "native": "ସୋଫା କାହିଁକି? ମୋ କୋଠରୀରେ ବିଛଣା ଅଛି। କେବଳ ମଶାରି ଟାଙ୍ଗିବାକୁ ଭୁଲିବ ନାହିଁ — କଟକ ମଶା ପ୍ରସିଦ୍ଧ!", "roman": "sopha kahiṃki? mo koṭhôrire bichhôṇa ôchhi. kebôḷô môsari ṭaṅgibaku bhulibô nahiṃ — Kôṭôkô môsa prôsiddhô!", "en": "Why the sofa? There's a bed in my room. Just don't forget to put up the mosquito net — Cuttack's mosquitoes are famous!" }
+    ]
+  },
+  "culture": "Odisha takes hospitality seriously — guests are traditionally treated like gods. Bring something when you visit: a box of sweets (rasagola from **Pahala**, *chhena poda*, or anything from a good sweet shop) or fruit. Shoes come off at the door, and the prayer room (**ଠାକୁର ଘର**) and often the kitchen are off-limits unless you are invited in. Call a friend's parents **ମାଉସୀ** (auntie) and **ମଉସା** (uncle) and use ଆପଣ with them; don't be surprised when an older woman calls a young man **ବାପା** or **ବାପୁ** and a young woman **ମା** — it's an endearment, like 'dear'. Food will be offered again and again: refusing once is good manners, but refusing everything is not. To stop, cover your plate with your hand and say **ପେଟ ପୂରିଗଲା**. Offer to help with the dishes — you will probably be told **ନା ନା, ତୁମେ ଅତିଥି** — and at least carry your own plate to the sink. When you leave, say **ଆସୁଛି** ('I'm coming'), never ଯାଉଛି ('I'm going'), which sounds final.",
+  "lessons": [
+    {
+      "title": "Arriving at a friend's home",
+      "tip": { "title": "Welcome lines", "body": "- Hosts double the welcome: **ଆସ ଆସ, ବସ** (to a friend) / **ଆସନ୍ତୁ, ବସନ୍ତୁ** (polite).\n- Shoes come off at the door; slippers (**ଚପଲ**) are often offered.\n- Call a friend's parents **ମାଉସୀ** and **ମଉସା** (auntie, uncle) and use ଆପଣ with them." },
+      "new": ["ଖୋଲିବା", "ଚପଲ", "ସୋଫା", "ନିଜ", "ଘରଲୋକ", "ଆସ ଆସ, ଭିତରକୁ ଆସ!", "ନିଜ ଘର ପରି ଭାବ।"],
+      "sentences": [
+        { "native": "ଜୋତା ଏଠି ଖୋଲ, ଚପଲ ପିନ୍ଧ।", "roman": "jota eṭhi kholô, chôpôlô pindhô.", "en": "Take your shoes off here and put on some slippers." },
+        { "native": "ସୋଫାରେ ଆରାମରେ ବସନ୍ତୁ।", "roman": "sophare aramôre bôsôntu.", "en": "Please make yourself comfortable on the sofa." },
+        { "native": "ଘରଲୋକ ସମସ୍ତେ କେମିତି ଅଛନ୍ତି?", "roman": "ghôrôlokô sômôste kemiti ôchhônti?", "en": "How is everyone at home?" },
+        { "native": "ମୁଁ ନିଜ ଘରେ ବି ଏମିତି ଆରାମରେ ବସେ ନାହିଁ!", "roman": "muṃ nijô ghôre bi emiti aramôre bôse nahiṃ!", "en": "I don't even sit this comfortably at my own place!" },
+        { "native": "ମୋ ଘରଲୋକ ତୁମକୁ ଭେଟିବାକୁ ଚାହାଁନ୍ତି।", "roman": "mo ghôrôlokô tumôku bheṭibaku chahaṃnti.", "en": "My family want to meet you." },
+        { "native": "ଦୁଆର ଖୋଲା ଅଛି, ଭିତରକୁ ଆସ।", "roman": "duarô khola ôchhi, bhitôrôku asô.", "en": "The door's open, come on in." },
+        { "native": "ଝରକାଟା ଖୋଲିଦେବି?", "roman": "jhôrôkaṭa kholidebi?", "en": "Shall I open the window for you?" },
+        { "native": "ଆରାମରେ ବସ, ମୁଁ ପାଣି ଆଣୁଛି।", "roman": "aramôre bôsô, muṃ paṇi aṇuchhi.", "en": "Relax, I'll get you some water." }
+      ]
+    },
+    {
+      "title": "Tea, snacks and saying \"enough!\"",
+      "tip": { "title": "Offers and polite refusals", "body": "- Offer with a future question: ଚା **ଖାଇବ**? (friend) / **ଖାଇବେ**? (polite).\n- Say *don't* with **-ଅ ନାହିଁ** (friend: ଲାଜ କର ନାହିଁ) or **-ନ୍ତୁ ନାହିଁ** (polite: ଜୋର କରନ୍ତୁ ନାହିଁ).\n- Decline softly: ନା ନା, **ପେଟ ପୂରିଗଲା** / **ଏତେ କଷ୍ଟ କରନ୍ତୁ ନାହିଁ**. Refuse once — the host will insist.", "pattern": "ଖାଇବ? · କର ନାହିଁ · କରନ୍ତୁ ନାହିଁ", "grammar": 1 },
+      "new": ["ସଙ୍କୋଚ", "ଜୋର କରିବା", "ପୂରିବା", "ସଙ୍କୋଚ କରନ୍ତୁ ନାହିଁ।", "ଚା ଖାଇବ ନା କଫି?", "ମୁଁ ଖାଲି ପାଣି ନେବି।", "ଏତେ କଷ୍ଟ କରନ୍ତୁ ନାହିଁ।", "ଆଉ ଟିକେ ନିଅ ନା!", "ପେଟ ପୂରିଗଲା, ଆଉ ପାରିବି ନାହିଁ।"],
+      "sentences": [
+        { "native": "ଦୁଇଟା ପିଠା ଖାଇବ?", "roman": "duiṭa piṭha khaibô?", "en": "Will you have a couple of pitha?", "focus": "ଖାଇବ", "wrong": ["ଖାଇବି|khaibi", "ଖାଇଲ|khailô"] },
+        { "native": "ଆପଣ ଆଉ ଟିକେ ଭାତ ନେବେ?", "roman": "apôṇô au ṭike bhatô nebe?", "en": "Will you have a little more rice? (polite)", "focus": "ନେବେ", "wrong": ["ନେବି|nebi", "ନେଲେ|nele"] },
+        { "native": "ସଙ୍କୋଚ କର ନାହିଁ, ପେଟ ପୂରା ଖାଅ।", "roman": "sôṅkochô kôrô nahiṃ, peṭô pura khaô.", "en": "Don't hold back — eat your fill.", "focus": "କର", "wrong": ["କରେ|kôre", "କଲି|kôli"] },
+        { "native": "ନା ନା, ଆଉ ଦିଅ ନାହିଁ, ପେଟ ପୂରିଗଲା।", "roman": "na na, au diô nahiṃ, peṭô purigôla.", "en": "No no, don't give me any more — I'm full.", "focus": "ଦିଅ", "wrong": ["ଦେଲି|deli", "ଦେବି|debi"] },
+        { "native": "ମାଉସୀ ଜୋର କଲେ, ତେଣୁ ମୁଁ ଆଉ ଦୁଇଟା ରସଗୋଲା ଖାଇଲି।", "roman": "mausi jorô kôle, teṇu muṃ au duiṭa rôsôgola khaili.", "en": "Auntie insisted, so I ate two more rasagolas." },
+        { "native": "ଏତେ ଜୋର କରନ୍ତୁ ନାହିଁ, ମୁଁ ସତରେ ଖାଇପାରିବି ନାହିଁ।", "roman": "ete jorô kôrôntu nahiṃ, muṃ sôtôre khaiparibi nahiṃ.", "en": "Please don't insist so much — I really can't eat any more.", "focus": "କରନ୍ତୁ", "wrong": ["କରିବି|kôribi", "କଲେ|kôle"] },
+        { "native": "ହଉ, ଖାଲି ଅଧା ଗିଲାସ ଦିଅ।", "roman": "hôu, khali ôdha gilasô diô.", "en": "OK, just half a glass." },
+        { "native": "ଆଉ ଟିକେ ଚା ଖାଇବ?", "roman": "au ṭike cha khaibô?", "en": "Some more tea?", "focus": "ଖାଇବ", "wrong": ["ଖାଇବି|khaibi", "ଖାଇଲ|khailô"] },
+        { "native": "ଲାଜ କର ନାହିଁ, ଯାହା ଦରକାର କୁହ।", "roman": "lajô kôrô nahiṃ, jaha dôrôkarô kuhô.", "en": "Don't be shy — tell me whatever you need.", "focus": "କର", "wrong": ["କରିବି|kôribi", "କଲ|kôlô"] }
+      ]
+    },
+    {
+      "title": "Is it OK if I…?",
+      "tip": { "title": "Should I…? Is it OK if…?", "body": "- Shall I? — ମୁଁ-future (+ **କି**): ଜୋତା **ଖୋଲିବି କି**?\n- Is it OK if…? — **-ଲେ** + **ଚଳିବ?**: ଏଠି **ବସିଲେ ଚଳିବ**? Answer: ହଁ, ଚଳିବ / ନା, ଚଳିବ ନାହିଁ.\n- Do I have to? — **-ବାକୁ ପଡ଼ିବ କି?**\n- May I? — **-ଇପାରେ କି?**", "pattern": "ମୁଁ … -ଇଲେ ଚଳିବ?", "grammar": 2 },
+      "new": ["ଚଳିବା", "ଚାଲୁ କରିବା", "ଠାକୁର ଘର", "ଗାମୁଛା", "ସାବୁନ", "ଗିଜର୍", "ଜୋତା ଖୋଲିବି କି?", "ଗିଜର୍ କେମିତି ଚାଲୁ କରିବି?"],
+      "sentences": [
+        { "native": "ମୁଁ ଗାଧୋଇପାରେ କି?", "roman": "muṃ gadhoipare ki?", "en": "May I have a bath?", "focus": "ଗାଧୋଇପାରେ", "wrong": ["ଗାଧୋଇପାରନ୍ତି|gadhoiparônti", "ଗାଧୋଇଲି|gadhoili"] },
+        { "native": "ଗାମୁଛା ଆଉ ସାବୁନ କେଉଁଠି ଅଛି?", "roman": "gamuchha au sabunô keuṃṭhi ôchhi?", "en": "Where are the towel and soap?" },
+        { "native": "ମୁଁ ଏଠି ବସିଲେ ଚଳିବ?", "roman": "muṃ eṭhi bôsile chôḷibô?", "en": "Is it OK if I sit here?", "focus": "ବସିଲେ", "wrong": ["ବସିବି|bôsibi", "ବସୁଛି|bôsuchhi"] },
+        { "native": "ହଁ ହଁ, ଚଳିବ, ବସ।", "roman": "hôṃ hôṃ, chôḷibô, bôsô.", "en": "Yes, of course, that's fine — sit.", "focus": "ଚଳିବ", "wrong": ["ଚଳିଲା|chôḷila", "ଚଳୁଥିଲା|chôḷuthila"] },
+        { "native": "ଗିଜର୍ ଚାଲୁ କରିଦେବି?", "roman": "gijôr chalu kôridebi?", "en": "Shall I switch the water heater on for you?", "focus": "କରିଦେବି", "wrong": ["କରିଦେବେ|kôridebe", "କରିଦେଲି|kôrideli"] },
+        { "native": "ଠାକୁର ଘରେ ଫଟୋ ନେଲେ ଚଳିବ?", "roman": "ṭhakurô ghôre phôṭo nele chôḷibô?", "en": "Is it OK if I take photos in the prayer room?", "focus": "ନେଲେ", "wrong": ["ନେବି|nebi", "ନେଲି|neli"] },
+        { "native": "ନା, ସେଠି ଫଟୋ ନେବା ଚଳିବ ନାହିଁ।", "roman": "na, seṭhi phôṭo neba chôḷibô nahiṃ.", "en": "No, taking photos in there isn't OK.", "focus": "ଚଳିବ", "wrong": ["ଚଳିଲା|chôḷila", "ଚଳୁଥିଲା|chôḷuthila"] },
+        { "native": "ଠାକୁର ଘରକୁ ଜୋତା ପିନ୍ଧି ଯିବା ଉଚିତ ନୁହେଁ।", "roman": "ṭhakurô ghôrôku jota pindhi jiba uchitô nuheṃ.", "en": "You shouldn't go into the prayer room with shoes on." },
+        { "native": "ଜୋତା ଖୋଲିବାକୁ ପଡ଼ିବ କି?", "roman": "jota kholibaku pôṛibô ki?", "en": "Do I have to take my shoes off?", "focus": "ପଡ଼ିବ", "wrong": ["ପଡ଼ିଲା|pôṛila", "ପଡ଼ୁଥିଲା|pôṛuthila"] }
+      ]
+    },
+    {
+      "title": "Staying the night",
+      "new": ["ବିଛଣା", "ତକିଆ", "ଚଦର", "ମଶା", "ମଶାରି", "ଟାଙ୍ଗିବା", "ଆଜି ରାତି ଏଠି ରହିଯାଅ।", "ମୁଁ ସୋଫାରେ ଶୋଇଲେ ଚଳିବ।"],
+      "sentences": [
+        { "native": "ତୁମ ପାଇଁ ବିଛଣା ତିଆରି କରିଦେଲି।", "roman": "tumô paiṃ bichhôṇa tiari kôrideli.", "en": "I've made up a bed for you." },
+        { "native": "ଆଉ ଗୋଟିଏ ତକିଆ ମିଳିବ କି?", "roman": "au goṭie tôkia miḷibô ki?", "en": "Could I have another pillow?" },
+        { "native": "ରାତିରେ ଥଣ୍ଡା ହେଲେ ଏଇ ଚଦର ନିଅ।", "roman": "ratire thôṇḍa hele ei chôdôrô niô.", "en": "If it gets cold at night, take this sheet." },
+        { "native": "ଏଠି ବହୁତ ମଶା, ମଶାରି ଟାଙ୍ଗିଦେବି।", "roman": "eṭhi bôhutô môsa, môsari ṭaṅgidebi.", "en": "There are lots of mosquitoes here — I'll put up the net for you." },
+        { "native": "ମୁଁ ତଳେ ଶୋଇଲେ ବି ଚଳିବ।", "roman": "muṃ tôḷe soile bi chôḷibô.", "en": "I'm fine sleeping on the floor, too." },
+        { "native": "ତୁମେ ସକାଳେ କେତେବେଳେ ଉଠ?", "roman": "tume sôkaḷe ketebeḷe uṭhô?", "en": "What time do you get up in the morning?" },
+        { "native": "ବାହାରେ ବର୍ଷା ହେଉଛି, ଆଜି ଆଉ ଯାଅ ନାହିଁ।", "roman": "bahare bôrsa heuchhi, aji au jaô nahiṃ.", "en": "It's raining outside — don't go tonight." },
+        { "native": "କାଲି ସକାଳେ ବାପା ତୁମକୁ ଷ୍ଟେସନରେ ଛାଡ଼ିଦେବେ।", "roman": "kali sôkaḷe bapa tumôku sṭesônôre chhaṛidebe.", "en": "Dad will drop you at the station tomorrow morning." }
+      ]
+    },
+    {
+      "title": "Lending a hand",
+      "tip": { "title": "Offering to help: -ଇଦେବି?", "body": "- ମୁଁ-future + **ଦେବା** offers to do something *for* someone: ପୋଛି**ଦେବି**? 'shall I wipe it (for you)?'\n- The host will say **ନା ନା, ଛାଡ଼** — offer once more.\n- To insist: ମୋତେ **…-ବାକୁ ଦିଅ** 'let me…': ମୋତେ ମାଜିବାକୁ ଦିଅ.", "pattern": "ମୁଁ … -ଇଦେବି?", "grammar": 2 },
+      "new": ["ବାସନ", "ମାଜିବା", "ପୋଛିବା", "ସଜାଡ଼ିବା", "ଶୁଖାଇବା", "ମୁଁ ବାସନ ମାଜିଦେବି?"],
+      "sentences": [
+        { "native": "ମୁଁ ଟେବୁଲ ପୋଛିଦେବି?", "roman": "muṃ ṭebulô pochhidebi?", "en": "Shall I wipe the table?", "focus": "ପୋଛିଦେବି", "wrong": ["ପୋଛିଦେବେ|pochhidebe", "ପୋଛିଦେଲି|pochhideli"] },
+        { "native": "ନା ନା, ଛାଡ଼, ତୁମେ ଅତିଥି।", "roman": "na na, chhaṛô, tume ôtithi.", "en": "No no, leave it — you're a guest." },
+        { "native": "ମୋତେ ବାସନ ମାଜିବାକୁ ଦିଅ, ମୋର ଅଭ୍ୟାସ ଅଛି।", "roman": "mote basônô majibaku diô, morô ôbbhyasô ôchhi.", "en": "Let me do the dishes — I'm used to it.", "focus": "ମାଜିବାକୁ", "wrong": ["ମାଜିଲି|majili", "ମାଜୁଛି|majuchhi"] },
+        { "native": "ଲୁଗା ବାରଣ୍ଡାରେ ଶୁଖାଇଦେବି?", "roman": "luga barôṇḍare sukhaidebi?", "en": "Shall I hang the clothes out to dry on the veranda?", "focus": "ଶୁଖାଇଦେବି", "wrong": ["ଶୁଖାଇଦେଲି|sukhaideli", "ଶୁଖାଇଦେବେ|sukhaidebe"] },
+        { "native": "ମୁଁ ମୋ ବିଛଣା ନିଜେ ସଜାଡ଼ିବି।", "roman": "muṃ mo bichhôṇa nije sôjaṛibi.", "en": "I'll tidy my own bed.", "focus": "ସଜାଡ଼ିବି", "wrong": ["ସଜାଡ଼ିଲି|sôjaṛili", "ସଜାଡ଼ିବେ|sôjaṛibe"] },
+        { "native": "ତୁମେ ବାସନ ମାଜ, ମୁଁ ପୋଛିଦେବି।", "roman": "tume basônô majô, muṃ pochhidebi.", "en": "You wash the dishes, I'll dry them." },
+        { "native": "ମାଉସୀ, ମୁଁ ଆପଣଙ୍କୁ ଟିକେ ସାହାଯ୍ୟ କରିଦେବି?", "roman": "mausi, muṃ apôṇôṅku ṭike sahajjyô kôridebi?", "en": "Auntie, shall I give you a hand?", "focus": "କରିଦେବି", "wrong": ["କରିଦେବେ|kôridebe", "କରିଦେଲି|kôrideli"] },
+        { "native": "ତୁମେ ପରିବା କାଟିଦେବ?", "roman": "tume pôriba kaṭidebô?", "en": "Will you chop the vegetables for me?", "focus": "କାଟିଦେବ", "wrong": ["କାଟିଦେବି|kaṭidebi", "କାଟିଦେଲ|kaṭidelô"] }
+      ]
+    },
+    {
+      "title": "How things used to be",
+      "tip": { "title": "Used to: -ଉଥିଲି", "body": "- Past habits: stem + **-ଉଥିଲି**: ପିଲାଦିନେ ମୁଁ ଖେଳ**ଉଥିଲି** 'as a kid I used to play'.\n- Endings: -ଉଥିଲି (I), -ଉଥିଲୁ (we), -ଉଥିଲ (you), -ଉଥିଲେ (polite / they), -ଉଥିଲା (he, she).\n- Negative: **-ଉନଥିଲି** 'I didn't use to'.\n- One event is simple past: ଗଲି; a repeated one is ଯାଉଥିଲି.", "pattern": "ଆଗେ / ପିଲାଦିନେ + …-ଉଥିଲି", "grammar": 0 },
+      "new": ["ପିଲାଦିନ", "ଆଗେ", "ଦେଖାଶୁଣା", "ଆଦର", "ଆପଣଙ୍କ ଆଦର ପାଇଁ ଧନ୍ୟବାଦ।"],
+      "sentences": [
+        { "native": "ପିଲାଦିନେ ମୁଁ ଗରମ ଛୁଟିରେ ଅଜା ଘରକୁ ଯାଉଥିଲି।", "roman": "piladine muṃ gôrômô chhuṭire ôja ghôrôku jauthili.", "en": "As a kid I used to go to my grandpa's in the summer holidays.", "focus": "ଯାଉଥିଲି", "wrong": ["ଯାଉଛି|jauchhi", "ଯିବି|jibi"] },
+        { "native": "ଜେଜେମା ଆମର ଦେଖାଶୁଣା କରୁଥିଲେ।", "roman": "jejema amôrô dekhasuṇa kôruthile.", "en": "Grandma used to look after us.", "focus": "କରୁଥିଲେ", "wrong": ["କରୁଥିଲି|kôruthili", "କରୁଛନ୍ତି|kôruchhônti"] },
+        { "native": "ଆଗେ ମୁଁ ମାଛ ଖାଉନଥିଲି, ଏବେ ଭଲ ପାଏ।", "roman": "age muṃ machhô khaunôthili, ebe bhôlô pae.", "en": "I didn't use to eat fish — now I love it.", "focus": "ଖାଉନଥିଲି", "wrong": ["ଖାଏ|khae", "ଖାଉଛି|khauchhi"] },
+        { "native": "ଆମେ ପିଲାଦିନେ ସଞ୍ଜରେ ବାହାରେ ଖେଳୁଥିଲୁ।", "roman": "ame piladine sôñjôre bahare kheḷuthilu.", "en": "As kids we used to play outside in the evenings.", "focus": "ଖେଳୁଥିଲୁ", "wrong": ["ଖେଳୁଥିଲି|kheḷuthili", "ଖେଳୁଛୁ|kheḷuchhu"] },
+        { "native": "ତୁମେ ଆଗେ ଏତେ ଚା ପିଉଥିଲ କି?", "roman": "tume age ete cha piuthilô ki?", "en": "Did you use to drink this much tea before?", "focus": "ପିଉଥିଲ", "wrong": ["ପିଉଥିଲି|piuthili", "ପିଉଥିଲେ|piuthile"] },
+        { "native": "ବାପା ଆଗେ ଅଫିସ୍ ଚାଲି ଚାଲି ଯାଉଥିଲେ।", "roman": "bapa age ôphis chali chali jauthile.", "en": "Dad used to walk to the office.", "focus": "ଯାଉଥିଲେ", "wrong": ["ଯାଉଥିଲା|jauthila", "ଗଲେ|gôle"] },
+        { "native": "ଏ ଘରେ ଆଗେ ମୋ ମାମୁଁ ରହୁଥିଲେ।", "roman": "e ghôre age mo mamuṃ rôhuthile.", "en": "My uncle used to live in this house.", "focus": "ରହୁଥିଲେ", "wrong": ["ରହୁଥିଲି|rôhuthili", "ରହୁଛନ୍ତି|rôhuchhônti"] },
+        { "native": "ଆପଣଙ୍କ ଆଦର ମୋର ସବୁଦିନ ମନେ ରହିବ।", "roman": "apôṇôṅkô adôrô morô sôbudinô mône rôhibô.", "en": "I'll always remember how welcome you made me feel." }
+      ]
+    }
+  ]
+}

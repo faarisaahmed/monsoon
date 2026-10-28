@@ -1,0 +1,187 @@
+{
+  "id": 37,
+  "title": "Sorting out problems",
+  "goal": "Return a wrong order, get a refund or exchange from customer care, report a lost phone to the police, stay calm but firm — and tell your friends exactly what everyone said.",
+  "intro": "Sooner or later something goes wrong: the parcel has the wrong saree in it, the shop won't exchange the shoes, an auto driver overcharges you, your phone disappears on a Mo Bus. This unit gives you the Odia to sort it out — describing the problem, asking for a return or an exchange, pushing politely for a supervisor, filing a report at the police station — and to keep your cool while you do it.\n\nIt also completes **reported speech**, because half of every problem is retelling it: 'they *said* the money would come back in seven days', 'he *told me to* wait', 'she *asked whether* I had the bill', 'they've *promised* to send the right one'. Odia does this with **ଯେ** and **ବୋଲି**, the **-ବାକୁ** form for instructions, and **କଥା ଦେବା** for promises.",
+  "vocab": [
+    { "native": "ମଗାଇବା", "roman": "môgaiba", "en": "to order (have something sent), get delivered", "pos": "verb", "note": "Causative of ମାଗିବା 'ask for': ଅନଲାଇନ୍ ମଗାଇଥିଲି 'I ordered it online'. Many people also say ଅର୍ଡର କରିବା." },
+    { "native": "ଗ୍ରାହକ", "roman": "grahôkô", "en": "customer", "pos": "noun" },
+    { "native": "ଫେରସ୍ତ", "roman": "pherôstô", "en": "return (of goods)", "pos": "noun", "note": "ଫେରସ୍ତ କରିବା = to return (something); ଫେରସ୍ତ ହେବା = to be returnable/returned." },
+    { "native": "ବଦଳରେ", "roman": "bôdôḷôre", "en": "instead of, in exchange for", "pos": "postp", "note": "After the noun: ଏହା ବଦଳରେ 'instead of this'." },
+    { "native": "ୱାରେଣ୍ଟି", "roman": "wareṇṭi", "en": "warranty, guarantee", "pos": "noun" },
+    { "native": "ପ୍ରମାଣ", "roman": "prômaṇô", "en": "proof, evidence", "pos": "noun" },
+    { "native": "କଷ୍ଟମର୍ କେୟାର୍", "roman": "kôsṭômôr keyar", "en": "customer care, helpline", "pos": "noun", "note": "With endings: କଷ୍ଟମର୍ କେୟାରକୁ (keyarôku)." },
+    { "native": "ନିୟମ", "roman": "niyômô", "en": "rule; policy", "pos": "noun" },
+    { "native": "ଅନୁସାରେ", "roman": "ônusare", "en": "according to, as per", "pos": "postp", "note": "ନିୟମ ଅନୁସାରେ = as per the rules — the phrase every helpline uses." },
+    { "native": "ସିନିୟର୍", "roman": "siniyôr", "en": "senior; supervisor", "pos": "noun", "note": "Respectful: ସିନିୟରଙ୍କ ସହ 'with the supervisor'." },
+    { "native": "ବୁଝାଇବା", "roman": "bujhaiba", "en": "to explain", "pos": "verb", "note": "Causative of ବୁଝିବା 'understand' — lit. 'make understand'." },
+    { "native": "ସମାଧାନ", "roman": "sômadhanô", "en": "solution", "pos": "noun", "note": "ସମାଧାନ କରିବା = to solve, sort out; ସମାଧାନ ହେବା = to get sorted." },
+    { "native": "ନକଲି", "roman": "nôkôli", "en": "fake, counterfeit", "pos": "adj", "note": "Colloquially also ଡୁପ୍ଲିକେଟ୍." },
+    { "native": "ମାନିବା", "roman": "maniba", "en": "to agree to, accept; to obey", "pos": "verb", "note": "With -ବାକୁ: ଫେରାଇବାକୁ ମାନିଲେ 'they agreed to refund'; ମାନିଲେ ନାହିଁ 'they refused'." },
+    { "native": "କଥା ଦେବା", "roman": "kôtha deba", "en": "to promise (lit. give one's word)", "pos": "verb", "note": "Clause + ବୋଲି + କଥା ଦେଲେ." },
+    { "native": "ଆଶ୍ୱାସନା", "roman": "aswasôna", "en": "assurance, (empty) promise", "pos": "noun", "note": "Often ironic: ଖାଲି ଆଶ୍ୱାସନା 'nothing but promises'." },
+    { "native": "ବ୍ଲକ୍", "roman": "blôk", "en": "block (a card, SIM, number)", "pos": "noun", "note": "ବ୍ଲକ୍ କରିବା = to block." },
+    { "native": "ଏଫଆଇଆର୍", "roman": "ephaiar", "en": "FIR (first information report to the police)", "pos": "noun" },
+    { "native": "ଅଧିକାରୀ", "roman": "ôdhikari", "en": "officer, official", "pos": "noun" },
+    { "native": "ଜରିମାନା", "roman": "jôrimana", "en": "fine (penalty)", "pos": "noun" },
+    { "native": "ଠକିବା", "roman": "ṭhôkiba", "en": "to cheat, con, rip off", "pos": "verb", "note": "ମୋତେ ଠକିଦେଲା = he ripped me off." },
+    { "native": "କ୍ଷତି", "roman": "khyôti", "en": "loss, damage", "pos": "noun", "note": "ମୋର କ୍ଷତି ହେଲା = I lost out." },
+    { "native": "ଦାବି", "roman": "dabi", "en": "claim, demand", "pos": "noun", "note": "ଦାବି କରିବା = to demand, to claim." },
+    { "native": "ପାଟି କରିବା", "roman": "paṭi kôriba", "en": "to shout, make a racket", "pos": "verb", "note": "ପାଟି = mouth; ପାଟି କରିବା = to raise your voice." },
+    { "native": "ଲାଭ", "roman": "labhô", "en": "use, benefit; profit", "pos": "noun", "note": "କିଛି ଲାଭ ନାହିଁ = there's no point." }
+  ],
+  "phrases": [
+    { "native": "ମୋ ପାଖକୁ ଭୁଲ ପାର୍ସଲ୍ ଆସିଛି।", "roman": "mo pakhôku bhulô parsôl asichhi.", "en": "I've received the wrong parcel." },
+    { "native": "ମୁଁ ଏହାକୁ ଫେରସ୍ତ କରିବାକୁ ଚାହୁଁଛି।", "roman": "muṃ ehaku pherôstô kôribaku chahuṃchhi.", "en": "I'd like to return this." },
+    { "native": "ଏହା ବଦଳରେ ନୂଆ ଗୋଟିଏ ଦିଅନ୍ତୁ।", "roman": "eha bôdôḷôre nua goṭie diôntu.", "en": "Please give me a new one instead." },
+    { "native": "ମୋ ଟଙ୍କା କେବେ ଫେରିବ?", "roman": "mo ṭôṅka kebe pheribô?", "en": "When will I get my money back?", "note": "Lit. 'when will my money return?'" },
+    { "native": "ଦୟାକରି ମୋ କଥା ଟିକେ ବୁଝନ୍ତୁ।", "roman": "dôyakôri mo kôtha ṭike bujhôntu.", "en": "Please try to see it from my side." },
+    { "native": "ମୁଁ ଆପଣଙ୍କ ସିନିୟରଙ୍କ ସହ କଥା ହେବି।", "roman": "muṃ apôṇôṅkô siniyôrôṅkô sôhô kôtha hebi.", "en": "I'd like to speak to your supervisor." },
+    { "native": "ସେ କହିଲେ ଦୁଇ ଦିନରେ ଟଙ୍କା ଫେରିବ।", "roman": "se kôhile dui dinôre ṭôṅka pheribô.", "en": "They said the money would come back in two days." },
+    { "native": "ସେ ମୋତେ ଅପେକ୍ଷା କରିବାକୁ କହିଲେ।", "roman": "se mote ôpekhya kôribaku kôhile.", "en": "He told me to wait." },
+    { "native": "ସେ କାଲି ଫୋନ କରିବେ ବୋଲି କଥା ଦେଇଛନ୍ତି।", "roman": "se kali phonô kôribe boli kôtha deichhônti.", "en": "He's promised to call tomorrow." },
+    { "native": "ମୋ ଫୋନ ହଜିଗଲା, ସିମ୍ ବ୍ଲକ୍ କରିବାକୁ ହେବ।", "roman": "mo phonô hôjigôla, sim blôk kôribaku hebô.", "en": "I've lost my phone — I need to block the SIM.", "note": "-ବାକୁ ହେବ is a colloquial 'have to', like -ବାକୁ ପଡ଼ିବ." },
+    { "native": "ମୁଁ ଏଫଆଇଆର୍ କରିବାକୁ ଚାହେଁ।", "roman": "muṃ ephaiar kôribaku chahe.", "en": "I want to file an FIR." },
+    { "native": "ମୋତେ ଠକିଦେଲେ!", "roman": "mote ṭhôkidele!", "en": "I've been ripped off!" },
+    { "native": "ଶାନ୍ତ ହୁଅ, ପାଟି କରି କିଛି ଲାଭ ନାହିଁ।", "roman": "santô huô, paṭi kôri kichhi labhô nahiṃ.", "en": "Calm down — there's no point shouting. (familiar)" }
+  ],
+  "grammar": [
+    {
+      "title": "Reported speech in full: what they said and asked",
+      "body": "Unit 20 gave you the two patterns: **verb + ଯେ + clause** (ସେ କହିଲେ ଯେ …) and the more typically Odia **clause + ବୋଲି + verb** (… ବୋଲି କହିଲେ). Sorting out a problem means retelling all day, so here are the details.\n\n**1. The tense stays as it was said.** ସେ କହିଲେ ଦୁଇ ଦିନରେ ଟଙ୍କା **ଫେରିବ** — literally 'they said the money *will* come back in two days'. English shifts to 'would'; Odia doesn't. Likewise ସେ କହିଲେ ଦୋକାନ ବନ୍ଦ **ଅଛି** 'he said the shop *was* shut'.\n\n**2. Pronouns shift to your point of view**, as in English: the agent said 'I'll call you' → ସେ **ମୋତେ** ଫୋନ କରିବେ ବୋଲି କହିଲେ 'he said he'd call me'. With ବୋଲି, people also often keep the original words almost like a quotation: ସେ 'କାଲି ଆସନ୍ତୁ' ବୋଲି କହିଲେ.\n\n**3. Reported questions.** Yes/no questions take **କି ନାହିଁ** 'whether (or not)': ସେ ପଚାରିଲେ ମୋ ପାଖରେ ବିଲ୍ ଅଛି **କି ନାହିଁ** 'she asked whether I had the bill'. Question-word questions just keep the question word, in place: ମୁଁ ପଚାରିଲି ପାର୍ସଲ୍ **କେବେ** ଆସିବ 'I asked when the parcel would come'. ବୋଲି works here too: କେବେ ଆସିବ ବୋଲି ପଚାରିଲି.\n\n**4. 'He was saying…'** In relaxed retelling the past continuous **କହୁଥିଲେ / କହୁଥିଲା** is the normal reporting verb: ଦୋକାନୀ କହୁଥିଲା ୱାରେଣ୍ଟି ସରିଯାଇଛି 'the shopkeeper was saying the warranty's run out'.\n\n**5. Hearsay**: **… ବୋଲି ଶୁଣିଲି** 'I heard that …'.\n\nThe trap: don't backshift. ~~ସେ କହିଲେ ଟଙ୍କା ଫେରିଥିଲା~~ means 'he said the money *had* come back', not 'would come back'.",
+      "examples": [
+        { "native": "ସେମାନେ କହିଲେ ଯେ ତିନି ଦିନରେ ଟଙ୍କା ଫେରିବ।", "roman": "semane kôhile je tini dinôre ṭôṅka pheribô.", "en": "They said (that) the money would come back in three days." },
+        { "native": "ସେ ପଚାରିଲେ ମୋ ପାଖରେ ବିଲ୍ ଅଛି କି ନାହିଁ।", "roman": "se pôcharile mo pakhôre bil ôchhi ki nahiṃ.", "en": "She asked whether I had the bill." },
+        { "native": "ମୁଁ ପଚାରିଲି ପାର୍ସଲ୍ କେବେ ଆସିବ।", "roman": "muṃ pôcharili parsôl kebe asibô.", "en": "I asked when the parcel would come." },
+        { "native": "ଦୋକାନୀ କହୁଥିଲା ୱାରେଣ୍ଟି ସରିଯାଇଛି।", "roman": "dokani kôhuthila wareṇṭi sôrijaichhi.", "en": "The shopkeeper was saying the warranty has run out." },
+        { "native": "ସେ ଆଉ ସେଠି କାମ କରନ୍ତି ନାହିଁ ବୋଲି ଶୁଣିଲି।", "roman": "se au seṭhi kamô kôrônti nahiṃ boli suṇili.", "en": "I heard he doesn't work there any more." }
+      ]
+    },
+    {
+      "title": "Told me to…, agreed to…, promised: reporting requests and promises",
+      "body": "**Told me to do something**: the **-ବାକୁ** form + **କହିବା**, with the person told in the dative: ପୋଲିସ **ମୋତେ** ଥାନାକୁ ଆସି**ବାକୁ** କହିଲେ 'the police told me to come to the station'. The same frame works with **ଅନୁରୋଧ କରିବା** 'to request' (ମୁଁ ତାଙ୍କୁ ଟଙ୍କା ଫେରାଇବାକୁ ଅନୁରୋଧ କଲି 'I asked him to refund the money') and **ପରାମର୍ଶ ଦେବା** 'to advise'.\n\n**Told me not to**: **ନ** before the -ବାକୁ form: ବୋଉ ମୋତେ ଏକୁଟିଆ **ନ ଯିବାକୁ** କହିଲେ 'Mum told me not to go alone'.\n\n**Agreed / refused to**: -ବାକୁ + **ମାନିବା**: ଦୋକାନୀ ବଦଳାଇବାକୁ **ମାନିଲା** 'the shopkeeper agreed to exchange it', … **ମାନିଲା ନାହିଁ** 'refused'. (ମନା କରିବା from unit 18 is a firmer 'refuse'.)\n\n**Promised**: what they promised as a normal clause + **ବୋଲି** + **କଥା ଦେବା**: ସେମାନେ ସୋମବାର ସୁଦ୍ଧା ଠିକ୍ କରିଦେବେ ବୋଲି **କଥା ଦେଇଛନ୍ତି** 'they've promised to fix it by Monday'. When the promises are empty: ଖାଲି **ଆଶ୍ୱାସନା** ଦେଉଛନ୍ତି 'all they give is promises'.\n\n**Quoting the order itself** is also very common in speech: ସେ 'ଟିକେ ଅପେକ୍ଷା କରନ୍ତୁ' ବୋଲି କହିଲେ 'he said, \"please wait a moment\"'.\n\nThe trap: ସେ ମୋତେ ଅପେକ୍ଷା **କରିବାକୁ** କହିଲେ = he told *me* to wait; ସେ ଅପେକ୍ଷା **କରିବେ ବୋଲି** କହିଲେ = he said *he* would wait. The -ବାକୁ form is an instruction to the listener; a full verb + ବୋଲି is a statement.",
+      "examples": [
+        { "native": "ପୋଲିସ ମୋତେ ଥାନାକୁ ଆସିବାକୁ କହିଲେ।", "roman": "polisô mote thanaku asibaku kôhile.", "en": "The police told me to come to the station." },
+        { "native": "ବୋଉ ମୋତେ ରାତିରେ ଏକୁଟିଆ ନ ଯିବାକୁ କହିଲେ।", "roman": "bou mote ratire ekuṭia nô jibaku kôhile.", "en": "Mum told me not to go out alone at night." },
+        { "native": "ମୁଁ ତାଙ୍କୁ ମୋ ଟଙ୍କା ଫେରାଇବାକୁ ଅନୁରୋଧ କଲି।", "roman": "muṃ taṅku mo ṭôṅka pheraibaku ônurodhô kôli.", "en": "I asked him to give my money back." },
+        { "native": "ଦୋକାନୀ ଜିନିଷ ବଦଳାଇବାକୁ ମାନିଲା ନାହିଁ।", "roman": "dokani jinisô bôdôḷaibaku manila nahiṃ.", "en": "The shopkeeper refused to exchange it." },
+        { "native": "ସେମାନେ ସୋମବାର ସୁଦ୍ଧା ଠିକ୍ କରିଦେବେ ବୋଲି କଥା ଦେଇଛନ୍ତି।", "roman": "semane somôbarô suddha ṭhik kôridebe boli kôtha deichhônti.", "en": "They've promised to fix it by Monday." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The wrong saree",
+    "setting": "Bhubaneswar, the week before Raja. Lipsa ordered a Sambalpuri saree in an online sale and something else arrived. She calls customer care while her flatmate Priyanka listens.",
+    "lines": [
+      { "speaker": "Agent", "native": "ନମସ୍କାର, ମୁଁ ରାହୁଲ କହୁଛି। କହନ୍ତୁ, କ'ଣ ସାହାଯ୍ୟ କରିପାରିବି?", "roman": "nômôskarô, muṃ Rahulô kôhuchhi. kôhôntu, kôṇô sahajjyô kôriparibi?", "en": "Hello, this is Rahul speaking. How can I help?" },
+      { "speaker": "Lipsa", "native": "ନମସ୍କାର। ମୁଁ ଗୋଟିଏ ସମ୍ବଲପୁରୀ ଶାଢ଼ୀ ମଗାଇଥିଲି, କିନ୍ତୁ ଗୋଟିଏ ସାଧା ପ୍ରିଣ୍ଟେଡ୍ ଶାଢ଼ୀ ଆସିଛି।", "roman": "nômôskarô. muṃ goṭie Sômbôlôpuri saṛhi môgaithili, kintu goṭie sadha priṇṭeḍ saṛhi asichhi.", "en": "Hello. I ordered a Sambalpuri saree, but a plain printed one has come." },
+      { "speaker": "Agent", "native": "ମାଫ କରିବେ ମ୍ୟାଡାମ୍। ଆପଣଙ୍କ ଅର୍ଡର ନମ୍ବର କହିବେ?", "roman": "maphô kôribe myaḍam. apôṇôṅkô ôrḍôr nômbôrô kôhibe?", "en": "Sorry, ma'am. Could you give me your order number?" },
+      { "speaker": "Lipsa", "native": "ମେସେଜ୍ କରିଛି। ଆଉ ପ୍ରମାଣ ପାଇଁ ଫଟୋ ବି ପଠାଇଛି।", "roman": "mesej kôrichhi. au prômaṇô paiṃ phôṭo bi pôṭhaichhi.", "en": "I've messaged it. And I've sent photos as proof too." },
+      { "speaker": "Agent", "native": "ଦେଖୁଛି… କିନ୍ତୁ ମ୍ୟାଡାମ୍, ନିୟମ ଅନୁସାରେ ସେଲର ଜିନିଷ ଫେରସ୍ତ ହୁଏ ନାହିଁ।", "roman": "dekhuchhi… kintu myaḍam, niyômô ônusare selôrô jinisô pherôstô hue nahiṃ.", "en": "Let me see… but ma'am, as per the policy, sale items can't be returned." },
+      { "speaker": "Lipsa", "native": "ମୁଁ ବୁଝୁଛି, କିନ୍ତୁ ଏହା ମୋ ଭୁଲ ନୁହେଁ। ଆପଣମାନେ ଭୁଲ ଜିନିଷ ପଠାଇଛନ୍ତି।", "roman": "muṃ bujhuchhi, kintu eha mo bhulô nuheṃ. apôṇômane bhulô jinisô pôṭhaichhônti.", "en": "I understand, but this isn't my mistake. You've sent the wrong item." },
+      { "speaker": "Agent", "native": "ହଁ, ସେଇଟା ଠିକ୍… ଟିକେ ଅପେକ୍ଷା କରନ୍ତୁ, ମୁଁ ମୋ ସିନିୟରଙ୍କୁ ପଚାରୁଛି।", "roman": "hôṃ, seiṭa ṭhik… ṭike ôpekhya kôrôntu, muṃ mo siniyôrôṅku pôcharuchhi.", "en": "Yes, that's true… one moment, I'll ask my supervisor." },
+      { "speaker": "Agent", "native": "ମ୍ୟାଡାମ୍, କାଲି ଆମ ଲୋକ ଆସି ଶାଢ଼ୀ ନେଇଯିବେ। ସାତ ଦିନରେ ଟଙ୍କା ଫେରିବ, ନହେଲେ ଆପଣ ଠିକ୍ ଶାଢ଼ୀଟି ନେଇପାରିବେ।", "roman": "myaḍam, kali amô lokô asi saṛhi neijibe. satô dinôre ṭôṅka pheribô, nôhele apôṇô ṭhik saṛhiṭi neiparibe.", "en": "Ma'am, our person will come and collect the saree tomorrow. You'll get the money back in seven days — or you can have the right saree." },
+      { "speaker": "Lipsa", "native": "ଟଙ୍କା ନୁହେଁ, ମୋତେ ସେଇ ସମ୍ବଲପୁରୀ ଶାଢ଼ୀଟି ହିଁ ଦରକାର। ରଜ ପାଇଁ ମଗାଇଥିଲି।", "roman": "ṭôṅka nuheṃ, mote sei Sômbôlôpuri saṛhiṭi hiṃ dôrôkarô. Rôjô paiṃ môgaithili.", "en": "Not the money — I want that Sambalpuri saree. I ordered it for Raja." },
+      { "speaker": "Agent", "native": "ଠିକ୍ ଅଛି। ଆପଣଙ୍କ ଅଭିଯୋଗ ନମ୍ବର ମେସେଜରେ ଆସିଯିବ। ଆଉ କିଛି?", "roman": "ṭhik ôchhi. apôṇôṅkô ôbhijogô nômbôrô mesejôre asijibô. au kichhi?", "en": "All right. Your complaint number will come by text. Anything else?" },
+      { "speaker": "Priyanka", "native": "କ'ଣ କହିଲେ? ଟଙ୍କା ଫେରାଇବାକୁ ମାନିଲେ?", "roman": "kôṇô kôhile? ṭôṅka pheraibaku manile?", "en": "So what did they say? Did they agree to a refund?" },
+      { "speaker": "Lipsa", "native": "ପ୍ରଥମେ କହିଲେ ସେଲର ଜିନିଷ ଫେରସ୍ତ ହୁଏ ନାହିଁ। ମୁଁ ଶାନ୍ତରେ ବୁଝାଇଲି, ତା'ପରେ ଠିକ୍ ଶାଢ଼ୀ ପଠାଇବେ ବୋଲି କଥା ଦେଲେ। ଦେଖିବା!", "roman": "prôthôme kôhile selôrô jinisô pherôstô hue nahiṃ. muṃ santôre bujhaili, tapôre ṭhik saṛhi pôṭhaibe boli kôtha dele. dekhiba!", "en": "First they said sale items can't be returned. I explained calmly, and then they promised to send the right saree. We'll see!" }
+    ]
+  },
+  "culture": "When something goes wrong, the approach that works in Odisha is **polite persistence**: start soft (ଦୟାକରି ଟିକେ ଦେଖନ୍ତୁ), explain clearly, repeat yourself calmly, and if you get nowhere ask for the **ସିନିୟର୍**. Raising your voice (**ପାଟି କରିବା**) usually makes things slower, especially with officials — the person in front of you suddenly discovers a rule (**ନିୟମ ଅନୁସାରେ…**). A little humour and a respectful **ସାର୍ / ମ୍ୟାଡାମ୍ / ଭାଇନା** go a long way.\n\nHelplines usually start in Hindi and English; some offer Odia, and you can always ask **ଓଡ଼ିଆରେ କଥା ହୋଇପାରିବି କି?** Agents and customers alike mix in English freely — ଅର୍ଡର, ରିଫଣ୍ଡ, ଏକ୍ସଚେଞ୍ଜ, କମ୍ପ୍ଲେନ୍ — with Odia verbs around them.\n\nIf your phone is lost or stolen: block the SIM with your operator, report it at the local police station (**ଥାନା**) — a lost report or an **ଏଫଆଇଆର୍** — and then block the handset through the government's Sanchar Saathi (CEIR) website using that report. Take ID (Aadhaar or passport), address the officer as **ସାର୍** or **ଆଜ୍ଞା**, and expect to be asked to come back. With an overcharging auto driver, most locals argue briefly and with a smile, settle on a figure, and move on — **ଝଗଡ଼ା କରି କିଛି ଲାଭ ନାହିଁ**.",
+  "lessons": [
+    {
+      "title": "Returning a wrong order",
+      "tip": { "title": "Returns and exchanges", "body": "- To order (have sent): **ମଗାଇବା** — ଅନଲାଇନ୍ ମଗାଇଥିଲି.\n- To return: **ଫେରସ୍ତ କରିବା**; can it be returned? **ଫେରସ୍ତ କରି ହେବ କି?**\n- Instead: X **ବଦଳରେ** — ଏହା ବଦଳରେ ନୂଆ ଗୋଟିଏ.\n- Describe first, then ask — no need to sound angry." },
+      "new": ["ମଗାଇବା", "ଗ୍ରାହକ", "ଫେରସ୍ତ", "ବଦଳରେ", "ୱାରେଣ୍ଟି", "ପ୍ରମାଣ", "ମୋ ପାଖକୁ ଭୁଲ ପାର୍ସଲ୍ ଆସିଛି।", "ମୁଁ ଏହାକୁ ଫେରସ୍ତ କରିବାକୁ ଚାହୁଁଛି।", "ଏହା ବଦଳରେ ନୂଆ ଗୋଟିଏ ଦିଅନ୍ତୁ।"],
+      "sentences": [
+        { "native": "ମୁଁ ନେଳି ଜାମା ମଗାଇଥିଲି, କିନ୍ତୁ ନାଲି ଆସିଛି।", "roman": "muṃ neḷi jama môgaithili, kintu nali asichhi.", "en": "I ordered a blue shirt, but a red one has come." },
+        { "native": "ଏହି ଜୋତା ଛୋଟ ହେଉଛି, ଫେରସ୍ତ କରି ହେବ କି?", "roman": "ehi jota chhoṭô heuchhi, pherôstô kôri hebô ki?", "en": "These shoes are too small — can I return them?" },
+        { "native": "ପ୍ରମାଣ ପାଇଁ ପାର୍ସଲର ଫଟୋ ପଠାନ୍ତୁ।", "roman": "prômaṇô paiṃ parsôlôrô phôṭo pôṭhantu.", "en": "Please send a photo of the parcel as proof." },
+        { "native": "ଫୋନର ଏକ ବର୍ଷ ୱାରେଣ୍ଟି ଅଛି।", "roman": "phonôrô ekô bôrsô wareṇṭi ôchhi.", "en": "The phone has a one-year warranty." },
+        { "native": "ଟଙ୍କା ନୁହେଁ, ଏହା ବଦଳରେ ଅନ୍ୟ ସାଇଜ୍ ଦିଅନ୍ତୁ।", "roman": "ṭôṅka nuheṃ, eha bôdôḷôre ônnyô saij diôntu.", "en": "Not a refund — please give me another size instead." },
+        { "native": "ଆମେ ଗ୍ରାହକ, ଆମ କଥା ବି ଶୁଣନ୍ତୁ।", "roman": "ame grahôkô, amô kôtha bi suṇôntu.", "en": "We're the customers — please listen to us too." },
+        { "native": "ୱାରେଣ୍ଟି ଥିଲେ ଟଙ୍କା ଲାଗିବ ନାହିଁ।", "roman": "wareṇṭi thile ṭôṅka lagibô nahiṃ.", "en": "If it's under warranty, it won't cost anything." },
+        { "native": "ପାର୍ସଲ୍ ଖୋଲି ଦେଖିଲି, ଭିତରେ ଭଙ୍ଗା ଗିଲାସ।", "roman": "parsôl kholi dekhili, bhitôre bhôṅga gilasô.", "en": "I opened the parcel and found broken glasses inside." },
+        { "native": "ମୁଁ ଏହାକୁ ଫେରସ୍ତ କରି ଟଙ୍କା ଫେରାଇ ନେବି।", "roman": "muṃ ehaku pherôstô kôri ṭôṅka pherai nebi.", "en": "I'll return it and get my money back." }
+      ]
+    },
+    {
+      "title": "On the phone to customer care",
+      "tip": { "title": "Calm, polite, persistent", "body": "- Agents say **ନିୟମ ଅନୁସାରେ…** 'as per the policy…'. Answer calmly: ମୁଁ ବୁଝୁଛି, କିନ୍ତୁ …\n- Ask them to see your side: **ଦୟାକରି ମୋ କଥା ଟିକେ ବୁଝନ୍ତୁ**.\n- How long you've waited: **ଅଧ ଘଣ୍ଟା ହେଲା** ଅପେକ୍ଷା କରୁଛି.\n- Last step: **ସିନିୟରଙ୍କ ସହ** କଥା ହେବି." },
+      "new": ["କଷ୍ଟମର୍ କେୟାର୍", "ନିୟମ", "ଅନୁସାରେ", "ସିନିୟର୍", "ମୋ ଟଙ୍କା କେବେ ଫେରିବ?", "ଦୟାକରି ମୋ କଥା ଟିକେ ବୁଝନ୍ତୁ।", "ମୁଁ ଆପଣଙ୍କ ସିନିୟରଙ୍କ ସହ କଥା ହେବି।"],
+      "sentences": [
+        { "native": "ମୁଁ କଷ୍ଟମର୍ କେୟାରକୁ ତିନି ଥର ଫୋନ କଲିଣି।", "roman": "muṃ kôsṭômôr keyarôku tini thôrô phonô kôliṇi.", "en": "I've rung customer care three times already." },
+        { "native": "ନିୟମ ଅନୁସାରେ ସାତ ଦିନ ଭିତରେ ଫେରସ୍ତ କରିବାକୁ ପଡ଼ିବ।", "roman": "niyômô ônusare satô dinô bhitôre pherôstô kôribaku pôṛibô.", "en": "As per the policy, you have to return it within seven days." },
+        { "native": "ମୋ ଟଙ୍କା କେବେ ଫେରିବ, ଠିକ୍ କରି କୁହନ୍ତୁ।", "roman": "mo ṭôṅka kebe pheribô, ṭhik kôri kuhôntu.", "en": "Tell me exactly when I'll get my money back." },
+        { "native": "ଦୟାକରି ମୋ କଥା ଟିକେ ବୁଝନ୍ତୁ, ମୋର କିଛି ଦୋଷ ନାହିଁ।", "roman": "dôyakôri mo kôtha ṭike bujhôntu, morô kichhi dosô nahiṃ.", "en": "Please try to see my side — it's not my fault at all." },
+        { "native": "ଏହା ଆପଣଙ୍କ ନିୟମ, କିନ୍ତୁ ଭୁଲ ଆପଣଙ୍କର।", "roman": "eha apôṇôṅkô niyômô, kintu bhulô apôṇôṅkôrô.", "en": "That's your policy, but the mistake is yours." },
+        { "native": "ଅଧ ଘଣ୍ଟା ହେଲା ମୁଁ ଅପେକ୍ଷା କରୁଛି।", "roman": "ôdhô ghôṇṭa hela muṃ ôpekhya kôruchhi.", "en": "I've been waiting for half an hour." },
+        { "native": "ଆପଣଙ୍କ ସିନିୟରଙ୍କୁ ଫୋନ ଦିଅନ୍ତୁ।", "roman": "apôṇôṅkô siniyôrôṅku phonô diôntu.", "en": "Please put your supervisor on." },
+        { "native": "ଆପଣଙ୍କ ଅଭିଯୋଗ ନମ୍ବର କ'ଣ?", "roman": "apôṇôṅkô ôbhijogô nômbôrô kôṇô?", "en": "What's your complaint number?" }
+      ]
+    },
+    {
+      "title": "Telling a friend what they said",
+      "tip": { "title": "They said… they asked…", "body": "- Keep the original tense: ସେ କହିଲେ ଟଙ୍କା **ଫେରିବ** 'they said it *would* come back'.\n- **ଯେ** after the verb, or **ବୋଲି** before it: ସେ କହିଲେ **ଯେ** … · … **ବୋଲି** କହିଲା.\n- Yes/no questions: **କି ନାହିଁ** 'whether'; others keep the question word: **କେବେ** ଆସିବ.\n- Casual: ସେ **କହୁଥିଲେ** 'he was saying'.", "pattern": "ସେ କହିଲେ (ଯେ) + clause  ·  clause + ବୋଲି + କହିଲେ", "grammar": 0 },
+      "new": ["ବୁଝାଇବା", "ସମାଧାନ", "ନକଲି", "ସେ କହିଲେ ଦୁଇ ଦିନରେ ଟଙ୍କା ଫେରିବ।"],
+      "sentences": [
+        { "native": "ସେ କହିଲେ ଯେ ପାର୍ସଲ୍ କାଲି ଆସିବ।", "roman": "se kôhile je parsôl kali asibô.", "en": "They said the parcel would come tomorrow.", "focus": "ଆସିବ", "wrong": ["ଆସିଥିଲା|asithila", "ଆସିଲା|asila"] },
+        { "native": "ସେ କହୁଥିଲେ ସମସ୍ୟାର ସମାଧାନ ହୋଇଯିବ।", "roman": "se kôhuthile sômôssyarô sômadhanô hoijibô.", "en": "He was saying the problem would get sorted.", "focus": "କହୁଥିଲେ", "wrong": ["କହୁଛି|kôhuchhi", "କହିବେ|kôhibe"] },
+        { "native": "ମୁଁ ପଚାରିଲି ଟଙ୍କା କେବେ ଫେରିବ।", "roman": "muṃ pôcharili ṭôṅka kebe pheribô.", "en": "I asked when the money would come back.", "focus": "କେବେ", "wrong": ["କି|ki", "କିଏ|kie"] },
+        { "native": "ସେ ପଚାରିଲେ ପାର୍ସଲ୍ ଖୋଲା ହୋଇଛି କି ନାହିଁ।", "roman": "se pôcharile parsôl khola hoichhi ki nahiṃ.", "en": "She asked whether the parcel had been opened.", "focus": "କି", "wrong": ["ଯେ|je", "କେବେ|kebe"] },
+        { "native": "ମୁଁ ତାଙ୍କୁ ସବୁ କଥା ବୁଝାଇଲି, କିନ୍ତୁ ସେ ବୁଝିଲେ ନାହିଁ।", "roman": "muṃ taṅku sôbu kôtha bujhaili, kintu se bujhile nahiṃ.", "en": "I explained everything to him, but he didn't get it." },
+        { "native": "ଦୋକାନୀ ଏହା ନକଲି ନୁହେଁ ବୋଲି କହିଲା।", "roman": "dokani eha nôkôli nuheṃ boli kôhila.", "en": "The shopkeeper said it wasn't fake.", "focus": "ବୋଲି", "wrong": ["ଯଦି|jôdi", "କି|ki"] },
+        { "native": "ସେ ଦୋକାନରେ ନକଲି ଫୋନ ବିକନ୍ତି ବୋଲି ଶୁଣିଲି।", "roman": "se dokanôre nôkôli phonô bikônti boli suṇili.", "en": "I heard they sell fake phones in that shop.", "focus": "ଶୁଣିଲି", "wrong": ["ଶୁଣିବି|suṇibi", "ଶୁଣାଇଲି|suṇaili"] },
+        { "native": "ସେ କହିଲେ ଯେ ତାଙ୍କ ହାତରେ କିଛି ନାହିଁ।", "roman": "se kôhile je taṅkô hatôre kichhi nahiṃ.", "en": "He said it was out of his hands.", "focus": "ଯେ", "wrong": ["କି|ki", "ଯଦି|jôdi"] },
+        { "native": "ମୁଁ ଏବେ ବି ସମାଧାନ ପାଇଁ ଅପେକ୍ଷା କରୁଛି।", "roman": "muṃ ebe bi sômadhanô paiṃ ôpekhya kôruchhi.", "en": "I'm still waiting for a solution." }
+      ]
+    },
+    {
+      "title": "He told me to…, they promised…",
+      "tip": { "title": "Told me to · agreed to · promised", "body": "- Told me to: **ମୋତେ** … **-ବାକୁ କହିଲେ**; not to: **ନ** -ବାକୁ.\n- Agreed / refused: -ବାକୁ **ମାନିଲେ** / **ମାନିଲେ ନାହିଁ**.\n- Promised: clause + **ବୋଲି କଥା ଦେଲେ**.\n- Trap: ମୋତେ ଅପେକ୍ଷା କରି**ବାକୁ** କହିଲେ (me) ≠ ଅପେକ୍ଷା କରି**ବେ ବୋଲି** କହିଲେ (he).", "pattern": "person-କୁ + verb-ବାକୁ + କହିଲେ", "grammar": 1 },
+      "new": ["ମାନିବା", "କଥା ଦେବା", "ଆଶ୍ୱାସନା", "ସେ ମୋତେ ଅପେକ୍ଷା କରିବାକୁ କହିଲେ।", "ସେ କାଲି ଫୋନ କରିବେ ବୋଲି କଥା ଦେଇଛନ୍ତି।"],
+      "sentences": [
+        { "native": "ସେ ମୋତେ ନୂଆ ଅଭିଯୋଗ କରିବାକୁ କହିଲେ।", "roman": "se mote nua ôbhijogô kôribaku kôhile.", "en": "She told me to file a new complaint.", "focus": "କରିବାକୁ", "wrong": ["କରିବି|kôribi", "କଲି|kôli"] },
+        { "native": "ସେ ମୋତେ ପାର୍ସଲ୍ ନ ଖୋଲିବାକୁ କହିଲେ।", "roman": "se mote parsôl nô kholibaku kôhile.", "en": "He told me not to open the parcel.", "focus": "ଖୋଲିବାକୁ", "wrong": ["ଖୋଲିବି|kholibi", "ଖୋଲିଲି|kholili"] },
+        { "native": "ଦୋକାନୀ ଜୋତା ବଦଳାଇବାକୁ ମାନିଲା।", "roman": "dokani jota bôdôḷaibaku manila.", "en": "The shopkeeper agreed to exchange the shoes.", "focus": "ମାନିଲା", "wrong": ["ମାନିଲି|manili", "ମାନିବ|manibô"] },
+        { "native": "ସେମାନେ ଟଙ୍କା ଫେରାଇବାକୁ ମାନୁ ନାହାନ୍ତି।", "roman": "semane ṭôṅka pheraibaku manu nahanti.", "en": "They won't agree to refund the money.", "focus": "ଫେରାଇବାକୁ", "wrong": ["ଫେରାଇଲେ|pheraile", "ଫେରାଇବେ|pheraibe"] },
+        { "native": "ସେ ଆଜି ସଞ୍ଜ ସୁଦ୍ଧା ଟଙ୍କା ପଠାଇବେ ବୋଲି କଥା ଦେଲେ।", "roman": "se aji sôñjô suddha ṭôṅka pôṭhaibe boli kôtha dele.", "en": "He promised to send the money by this evening.", "focus": "ବୋଲି", "wrong": ["ଯଦି|jôdi", "କି|ki"] },
+        { "native": "ଖାଲି ଆଶ୍ୱାସନା ଦେଉଛନ୍ତି, କାମ କିଛି ହେଉନି।", "roman": "khali aswasôna deuchhônti, kamô kichhi heuni.", "en": "All they give is promises — nothing gets done." },
+        { "native": "ମୁଁ ତାଙ୍କୁ ଆଉ ଥରେ ଦେଖିବାକୁ ଅନୁରୋଧ କଲି।", "roman": "muṃ taṅku au thôre dekhibaku ônurodhô kôli.", "en": "I asked him to check once more.", "focus": "ଦେଖିବାକୁ", "wrong": ["ଦେଖିଲେ|dekhile", "ଦେଖିବି|dekhibi"] },
+        { "native": "ମା ମୋତେ ଚିନ୍ତା ନ କରିବାକୁ କହିଲେ।", "roman": "ma mote chinta nô kôribaku kôhile.", "en": "Mum told me not to worry.", "focus": "କରିବାକୁ", "wrong": ["କରିବେ|kôribe", "କଲେ|kôle"] },
+        { "native": "ତୁମେ କଥା ଦେଇଥିଲ, ଭୁଲିଗଲ କି?", "roman": "tume kôtha deithilô, bhuligôlô ki?", "en": "You promised — did you forget?" }
+      ]
+    },
+    {
+      "title": "A lost phone and the police",
+      "tip": { "title": "At the police station", "body": "- Use **ଆପଣ** and **ସାର୍ / ଆଜ୍ଞା** with officers.\n- 'I want to file an FIR': **ଏଫଆଇଆର୍ କରିବାକୁ ଚାହେଁ**.\n- First block things: ସିମ୍ / କାର୍ଡ **ବ୍ଲକ୍ କରିବା** — or have the bank do it: ବ୍ଲକ୍ **କରାଇଲି**.\n- Expect instructions: ବିଲ୍ ଆଣି**ବାକୁ** କହିଲେ." },
+      "new": ["ବ୍ଲକ୍", "ଏଫଆଇଆର୍", "ଅଧିକାରୀ", "ଜରିମାନା", "ମୋ ଫୋନ ହଜିଗଲା, ସିମ୍ ବ୍ଲକ୍ କରିବାକୁ ହେବ।", "ମୁଁ ଏଫଆଇଆର୍ କରିବାକୁ ଚାହେଁ।"],
+      "sentences": [
+        { "native": "ମୋ ଫୋନ ବସରେ କିଏ ନେଇଗଲା।", "roman": "mo phonô bôsôre kie neigôla.", "en": "Someone took my phone on the bus." },
+        { "native": "ପ୍ରଥମେ ସିମ୍ ବ୍ଲକ୍ କର, ତା'ପରେ ଥାନାକୁ ଯିବା।", "roman": "prôthôme sim blôk kôrô, tapôre thanaku jiba.", "en": "First block the SIM, then we'll go to the police station." },
+        { "native": "ସାର୍, ମୁଁ ଫୋନ ଚୋରି ପାଇଁ ଏଫଆଇଆର୍ କରିବାକୁ ଚାହେଁ।", "roman": "sar, muṃ phonô chori paiṃ ephaiar kôribaku chahe.", "en": "Sir, I want to file an FIR for a stolen phone." },
+        { "native": "ଅଧିକାରୀ ମୋତେ ଫୋନର ବିଲ୍ ଆଣିବାକୁ କହିଲେ।", "roman": "ôdhikari mote phonôrô bil aṇibaku kôhile.", "en": "The officer told me to bring the phone's bill.", "focus": "ଆଣିବାକୁ", "wrong": ["ଆଣିବି|aṇibi", "ଆଣିଲେ|aṇile"] },
+        { "native": "ସେ କହିଲେ ଫୋନ ମିଳିଲେ ମୋତେ ଜଣାଇବେ।", "roman": "se kôhile phonô miḷile mote jôṇaibe.", "en": "He said they'd let me know if the phone turned up.", "focus": "ଜଣାଇବେ", "wrong": ["ଜଣାଇଥିଲେ|jôṇaithile", "ଜଣାଇଲି|jôṇaili"] },
+        { "native": "ଟିକଟ ନ କିଣିଲେ ଟ୍ରେନରେ ଜରିମାନା ଦେବାକୁ ପଡ଼ିବ।", "roman": "ṭikôṭô nô kiṇile ṭrenôre jôrimana debaku pôṛibô.", "en": "If you don't buy a ticket, you'll have to pay a fine on the train." },
+        { "native": "ଥାନାର ଅଧିକାରୀ ବହୁତ ସାହାଯ୍ୟ କଲେ।", "roman": "thanarô ôdhikari bôhutô sahajjyô kôle.", "en": "The officer at the station was really helpful." },
+        { "native": "ମୁଁ ବ୍ୟାଙ୍କକୁ ଫୋନ କରି କାର୍ଡ ବ୍ଲକ୍ କରାଇଲି।", "roman": "muṃ byaṅkôku phonô kôri karḍ blôk kôraili.", "en": "I phoned the bank and had the card blocked." }
+      ]
+    },
+    {
+      "title": "Staying calm, standing firm",
+      "tip": { "title": "Firm, not loud", "body": "- Calm someone down: **ଶାନ୍ତ ହୁଅ** (friend) / **ଶାନ୍ତ ହୁଅନ୍ତୁ** (polite).\n- 'No point …ing': **-ଇ କିଛି ଲାଭ ନାହିଁ** — ପାଟି କରି କିଛି ଲାଭ ନାହିଁ.\n- Ripped off: ମୋତେ **ଠକିଦେଲା** (ଦେବା adds 'it happened to me').\n- Demand your due: ଏହା ମୋର **ଦାବି**, ନିୟମ ଅନୁସାରେ." },
+      "new": ["ଠକିବା", "କ୍ଷତି", "ଦାବି", "ପାଟି କରିବା", "ଲାଭ", "ମୋତେ ଠକିଦେଲେ!", "ଶାନ୍ତ ହୁଅ, ପାଟି କରି କିଛି ଲାଭ ନାହିଁ।"],
+      "sentences": [
+        { "native": "ଅଟୋ ଡ୍ରାଇଭର ମୋତେ ଠକିଦେଲା, ଦୁଇ ଶହ ଟଙ୍କା ନେଲା।", "roman": "ôṭo ḍraibhôrô mote ṭhôkidela, dui sôhô ṭôṅka nela.", "en": "The auto driver ripped me off — he took two hundred rupees.", "focus": "ଠକିଦେଲା", "wrong": ["ଠକିଦେଲି|ṭhôkideli", "ଠକିବ|ṭhôkibô"] },
+        { "native": "ଶାନ୍ତ ହୁଅନ୍ତୁ, ଆମେ କଥା ହୋଇ ସମାଧାନ କରିବା।", "roman": "santô huôntu, ame kôtha hoi sômadhanô kôriba.", "en": "Please calm down — let's talk and sort it out." },
+        { "native": "ପାଟି କରନ୍ତୁ ନାହିଁ, ମୁଁ ଆପଣଙ୍କ କଥା ଶୁଣୁଛି।", "roman": "paṭi kôrôntu nahiṃ, muṃ apôṇôṅkô kôtha suṇuchhi.", "en": "Please don't shout — I'm listening to you." },
+        { "native": "ମୋର ଦୁଇ ହଜାର ଟଙ୍କା କ୍ଷତି ହେଲା।", "roman": "morô dui hôjarô ṭôṅka khyôti hela.", "en": "I lost two thousand rupees." },
+        { "native": "ଏହା ମୋର ଦାବି ନୁହେଁ, ଏହା ନିୟମ।", "roman": "eha morô dabi nuheṃ, eha niyômô.", "en": "This isn't just me demanding it — it's the rule." },
+        { "native": "ମୁଁ ଭାବିଲି ଦୋକାନୀ ମୋତେ ଠକୁଛି।", "roman": "muṃ bhabili dokani mote ṭhôkuchhi.", "en": "I thought the shopkeeper was cheating me." },
+        { "native": "ଝଗଡ଼ା କରି କିଛି ଲାଭ ନାହିଁ, ଚାଲ ଯିବା।", "roman": "jhôgôṛa kôri kichhi labhô nahiṃ, chalô jiba.", "en": "No point fighting — let's go." },
+        { "native": "ସେ ମୋ ଉପରେ ପାଟି କଲା, କିନ୍ତୁ ମୁଁ ଶାନ୍ତ ରହିଲି।", "roman": "se mo upôre paṭi kôla, kintu muṃ santô rôhili.", "en": "He shouted at me, but I stayed calm." },
+        { "native": "ଆପଣଙ୍କ ଭୁଲ ପାଇଁ ମୋର କ୍ଷତି କାହିଁକି ହେବ?", "roman": "apôṇôṅkô bhulô paiṃ morô khyôti kahiṃki hebô?", "en": "Why should I lose out because of your mistake?" }
+      ]
+    }
+  ]
+}
