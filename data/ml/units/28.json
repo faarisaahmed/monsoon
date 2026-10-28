@@ -1,0 +1,214 @@
+{
+  "id": 28,
+  "title": "Catching up",
+  "goal": "Catch up with a friend you haven't seen in a while: what you did at the weekend, what you were doing when…, what's new, how long it's been, and whether you've ever done something.",
+  "intro": "Running into an old friend — at a wedding, in a bakery, or when someone's home from the Gulf on leave — sets off a rapid exchange: **കണ്ടിട്ട് കുറേ നാളായല്ലോ!** 'long time no see!', **എന്തൊക്കെയുണ്ട് വിശേഷം?** 'what's new?', **നാട്ടിൽ എന്ന് വന്നു?** 'when did you get home?'.\n\nThree pieces of grammar carry these conversations. The **perfect** -ഇട്ടുണ്ട് for experiences (**പോയിട്ടുണ്ടോ?** 'have you ever been?'), the **past continuous** -ഉകയായിരുന്നു for what was going on (**ഉറങ്ങുകയായിരുന്നു** 'I was sleeping'), and the time expressions **-ഇട്ട് … ആയി**, **മുതൽ** and **മുമ്പ്** for 'for', 'since' and 'ago'.",
+  "vocab": [
+    { "native": "നാൾ", "roman": "nāḷ", "en": "day (in \"how long\" expressions)", "pos": "noun", "note": "കുറേ നാളായി 'it's been ages', എത്ര നാളായി? 'how long has it been?'." },
+    { "native": "കുറേ", "roman": "kuṟē", "en": "quite a lot, a good few, many (colloquial)", "pos": "adj", "note": "കുറേ ആളുകൾ 'loads of people', കുറേ നേരം 'a long while'." },
+    { "native": "മുതൽ", "roman": "mutal", "en": "since, from (a point in time)", "pos": "postp", "note": "തിങ്കളാഴ്ച മുതൽ 'since Monday', എപ്പോൾ മുതൽ? 'since when?'." },
+    { "native": "ഈയിടെ", "roman": "īyiṭe", "en": "recently, lately", "pos": "adv", "note": "Also ഈയിടെയായി 'lately, these days'." },
+    { "native": "വാർത്ത", "roman": "vārtta", "en": "news (a piece of news; the news)", "pos": "noun", "note": "For personal news people more often say വിശേഷം." },
+    { "native": "കാര്യമായി", "roman": "kāryamāyi", "en": "seriously, much, to any great extent", "pos": "adv", "note": "കാര്യമായി ഒന്നുമില്ല 'nothing much'." },
+    { "native": "ഇതിനിടയിൽ", "roman": "itiniṭayil", "en": "in the meantime, meanwhile", "pos": "adv", "note": "From ഇത് + ഇട 'gap' + -ഇൽ. Also ഇതിനിടെ." },
+    { "native": "മാറ്റം", "roman": "māṯṯam", "en": "change", "pos": "noun", "note": "വലിയ മാറ്റം 'a big change'." },
+    { "native": "സ്ഥലംമാറ്റം", "roman": "sthalamāṯṯam", "en": "(job) transfer", "pos": "noun", "note": "A big topic in Kerala, where many work for the government or banks: തിരുവനന്തപുരത്തേക്ക് സ്ഥലംമാറ്റം കിട്ടി." },
+    { "native": "വീക്കെൻഡ്", "roman": "vīkkenḍŭ", "en": "weekend", "pos": "noun", "note": "Older people say ശനിയും ഞായറും 'Saturday and Sunday'." },
+    { "native": "ട്രിപ്പ്", "roman": "ṭrippŭ", "en": "trip, outing", "pos": "noun", "note": "ട്രിപ്പ് പോകുക 'to go on a trip'." },
+    { "native": "ബോറടിക്കുക", "roman": "bōṟaṭikkuka", "en": "to be bored (dative subject)", "pos": "verb", "note": "past ബോറടിച്ചു. എനിക്ക് ബോറടിക്കുന്നു 'I'm bored'." },
+    { "native": "ഉണരുക", "roman": "uṇaruka", "en": "to wake up", "pos": "verb", "note": "past ഉണർന്നു. എഴുന്നേൽക്കുക is getting up out of bed." },
+    { "native": "എപ്പോഴെങ്കിലും", "roman": "eppōḻeṅgilum", "en": "ever, at any time", "pos": "adv", "note": "With a perfect question: എപ്പോഴെങ്കിലും പോയിട്ടുണ്ടോ? 'have you ever been?'." },
+    { "native": "തവണ", "roman": "tavaṇa", "en": "time, occasion (once, twice…)", "pos": "noun", "note": "ഒരു തവണ 'once', രണ്ട് തവണ 'twice'. Also പ്രാവശ്യം." },
+    { "native": "ആദ്യമായി", "roman": "ādyamāyi", "en": "for the first time", "pos": "adv", "note": "ആദ്യമായിട്ടാണ് 'it's the first time'." },
+    { "native": "അനുഭവം", "roman": "anubhavam", "en": "experience", "pos": "noun" },
+    { "native": "പഠിത്തം", "roman": "paṭhittam", "en": "studies, education", "pos": "noun", "note": "പഠിത്തം കഴിഞ്ഞോ? 'have you finished studying?' is a standard question to anyone young." },
+    { "native": "പാസാവുക", "roman": "pāsāvuka", "en": "to pass (an exam, a test)", "pos": "verb", "note": "past പാസായി. More everyday than ജയിക്കുക." },
+    { "native": "ലൈസൻസ്", "roman": "laisansŭ", "en": "(driving) licence", "pos": "noun" },
+    { "native": "ചേരുക", "roman": "chēruka", "en": "to join (a course, gym, company); to get together; to suit", "pos": "verb", "note": "past ചേർന്നു. ജിമ്മിൽ ചേർന്നു 'joined a gym'." },
+    { "native": "ജിം", "roman": "jim", "en": "gym", "pos": "noun", "note": "ജിമ്മിൽ 'at the gym'." },
+    { "native": "പരിചയപ്പെടുക", "roman": "parichayappeṭuka", "en": "to get to know, meet (someone new)", "pos": "verb", "note": "past പരിചയപ്പെട്ടു. പരിചയപ്പെട്ടതിൽ സന്തോഷം 'nice to meet you'." },
+    { "native": "നിശ്ചയം", "roman": "nishchayam", "en": "engagement (betrothal ceremony)", "pos": "noun", "note": "Also കല്യാണനിശ്ചയം. Literally 'a settling, a decision'." },
+    { "native": "ഗർഭിണി", "roman": "garbhiṇi", "en": "pregnant (woman)", "pos": "noun", "note": "അവൾ ഗർഭിണിയാണ് 'she's pregnant'. Older people say it indirectly: വിശേഷം ഉണ്ട്." },
+    { "native": "പ്രസവം", "roman": "prasavam", "en": "childbirth, delivery", "pos": "noun", "note": "പ്രസവം കഴിഞ്ഞു 'she's had the baby'." },
+    { "native": "തിരിച്ചെത്തുക", "roman": "tiricchettuka", "en": "to get back, arrive back", "pos": "verb", "note": "past തിരിച്ചെത്തി." }
+  ],
+  "phrases": [
+    { "native": "കണ്ടിട്ട് കുറേ നാളായല്ലോ!", "roman": "kaṇḍiṭṭŭ kuṟē nāḷāyallō!", "en": "Long time no see!" },
+    { "native": "എന്തൊക്കെയുണ്ട് വിശേഷം?", "roman": "endokkeyuṇḍŭ vishēṣam?", "en": "What's new? How's everything?" },
+    { "native": "കാര്യമായി ഒന്നുമില്ല, പഴയതുപോലെ തന്നെ.", "roman": "kāryamāyi onnumilla, paḻayatupōle tanne.", "en": "Nothing much, same as ever." },
+    { "native": "നീ ഇപ്പോൾ എന്ത് ചെയ്യുന്നു?", "roman": "nī ippōḷ endŭ cheyyunnu?", "en": "What are you doing these days? (job, studies)" },
+    { "native": "നാട്ടിൽ എന്ന് വന്നു?", "roman": "nāṭṭil ennŭ vannu?", "en": "When did you get home? (to someone back from abroad)", "note": "എന്ന് = 'on which day, when'." },
+    { "native": "എത്ര ദിവസത്തെ ലീവുണ്ട്?", "roman": "etra divasatte līvuṇḍŭ?", "en": "How many days' leave have you got?" },
+    { "native": "വീക്കെൻഡ് എങ്ങനെയുണ്ടായിരുന്നു?", "roman": "vīkkenḍŭ eṅṅaneyuṇḍāyirunnu?", "en": "How was your weekend?" },
+    { "native": "നീ വിളിച്ചപ്പോൾ ഞാൻ ഉറങ്ങുകയായിരുന്നു.", "roman": "nī viḷicchappōḷ ñān uṟaṅṅukayāyirunnu.", "en": "I was asleep when you called." },
+    { "native": "നീ എപ്പോഴെങ്കിലും മൂന്നാറിൽ പോയിട്ടുണ്ടോ?", "roman": "nī eppōḻeṅgilum mūnnāṟil pōyiṭṭuṇḍō?", "en": "Have you ever been to Munnar?" },
+    { "native": "ഇല്ല, ഇതുവരെ പോയിട്ടില്ല.", "roman": "illa, ituvare pōyiṭṭilla.", "en": "No, I've never been." },
+    { "native": "ഞാൻ രണ്ട് തവണ പോയിട്ടുണ്ട്.", "roman": "ñān raṇḍŭ tavaṇa pōyiṭṭuṇḍŭ.", "en": "I've been twice." },
+    { "native": "ഞാൻ ഇവിടെ വന്നിട്ട് രണ്ട് വർഷമായി.", "roman": "ñān iviṭe vanniṭṭŭ raṇḍŭ varṣamāyi.", "en": "I've been here two years." },
+    { "native": "ഇത് എപ്പോൾ മുതൽ?", "roman": "itŭ eppōḷ mutal?", "en": "Since when?!" },
+    { "native": "അറിഞ്ഞില്ലേ? അവളുടെ നിശ്ചയം കഴിഞ്ഞു!", "roman": "aṟiññillē? avaḷuṭe nishchayam kaḻiññu!", "en": "Haven't you heard? She's got engaged!" }
+  ],
+  "grammar": [
+    {
+      "title": "\"Have you ever…?\": the perfect -ഇട്ടുണ്ട് vs the simple past",
+      "body": "Unit 16 introduced **-ഇട്ടുണ്ട്** 'have done'. In catching-up talk the difference from the simple past matters:\n\n• **Simple past** = a particular event, usually with a time word: ഞാൻ **ഇന്നലെ** മൂന്നാറിൽ **പോയി** 'I went to Munnar yesterday'.\n• **Perfect -ഇട്ടുണ്ട്** = experience, or something done at some point that counts now, with no particular time: ഞാൻ മൂന്നാറിൽ **പോയിട്ടുണ്ട്** 'I've been to Munnar'.\n\n**Form**: past participle + **ഇട്ട്** + **ഉണ്ട്**: പോയിട്ടുണ്ട്, കണ്ടിട്ടുണ്ട്, കഴിച്ചിട്ടുണ്ട്, ചെയ്തിട്ടുണ്ട്, വന്നിട്ടുണ്ട്.\n• **Ever?** — **എപ്പോഴെങ്കിലും** + **-ഇട്ടുണ്ടോ?**: നീ എപ്പോഴെങ്കിലും കപ്പ കഴിച്ചിട്ടുണ്ടോ?\n• **Never (yet)** — **ഇതുവരെ / ഒരിക്കലും** + **-ഇട്ടില്ല**: ഒരിക്കലും വിമാനത്തിൽ കയറിയിട്ടില്ല.\n• **How many times** — **X തവണ**: മൂന്ന് തവണ കണ്ടിട്ടുണ്ട്. **First time** — **ആദ്യമായി** / ആദ്യമായിട്ടാണ്.\n• **Had done** (before a past moment) — **-ഇട്ടുണ്ടായിരുന്നു**: ഞാൻ അവിടെ മുമ്പ് പോയിട്ടുണ്ടായിരുന്നു.\n\nAnswer a perfect question with **ഉണ്ട്** 'yes, I have' or **ഇല്ല** 'no'.\n\n**The trap**: with a specific time (ഇന്നലെ, കഴിഞ്ഞ ആഴ്ച, 2019-ൽ) use the simple past: ഇന്നലെ ആദ്യമായി കപ്പ **കഴിച്ചു**, not കഴിച്ചിട്ടുണ്ട്.",
+      "examples": [
+        { "native": "നീ എപ്പോഴെങ്കിലും കപ്പയും മീൻകറിയും കഴിച്ചിട്ടുണ്ടോ?", "roman": "nī eppōḻeṅgilum kappayum mīnkaṟiyum kaḻicchiṭṭuṇḍō?", "en": "Have you ever had tapioca and fish curry?" },
+        { "native": "ഞാൻ ഈ സിനിമ മൂന്ന് തവണ കണ്ടിട്ടുണ്ട്.", "roman": "ñān ī sinima mūnnŭ tavaṇa kaṇḍiṭṭuṇḍŭ.", "en": "I've seen this film three times." },
+        { "native": "അവൻ ഒരിക്കലും വിമാനത്തിൽ കയറിയിട്ടില്ല.", "roman": "avan orikkalum vimānattil kayaṟiyiṭṭilla.", "en": "He's never been on a plane." },
+        { "native": "ഞാൻ ആദ്യമായി ഗോവയിൽ പോയത് കഴിഞ്ഞ മാസമാണ്.", "roman": "ñān ādyamāyi gōvayil pōyatŭ kaḻiñña māsamāṇŭ.", "en": "The first time I went to Goa was last month." },
+        { "native": "അവിടെ ഞാൻ മുമ്പ് പോയിട്ടുണ്ടായിരുന്നു, അതുകൊണ്ട് വഴി അറിയാമായിരുന്നു.", "roman": "aviṭe ñān mumbŭ pōyiṭṭuṇḍāyirunnu, atukoṇḍŭ vaḻi aṟiyāmāyirunnu.", "en": "I'd been there before, so I knew the way." }
+      ]
+    },
+    {
+      "title": "\"I was …ing\": the past continuous -ഉകയായിരുന്നു",
+      "body": "The present continuous of unit 10, **-ഉകയാണ്** (പോകുകയാണ് 'is going'), moves into the past by changing ആണ് to **ആയിരുന്നു**: **-ഉകയായിരുന്നു** 'was …ing'. ഞാൻ ഉറങ്ങുകയായിരുന്നു 'I was sleeping', അവർ കളിക്കുകയായിരുന്നു 'they were playing'. Like every Malayalam verb, it's the same for all persons.\n\n**In speech** it is usually shortened: **-ഉവായിരുന്നു** or, in central Kerala, **-ഉവാരുന്നു**: ഉറങ്ങുവാരുന്നു, പറയുവാരുന്നു. Another common way to say something was going on in the background is **-ഉന്നുണ്ടായിരുന്നു**: മഴ പെയ്യുന്നുണ്ടായിരുന്നു 'it was raining'.\n\n**With 'when'**: the event that cuts in goes in the past + **-അപ്പോൾ**: വിളിച്ചു → **വിളിച്ചപ്പോൾ**, വന്നു → **വന്നപ്പോൾ**, ഉണർന്നു → **ഉണർന്നപ്പോൾ**: നീ വിളിച്ചപ്പോൾ ഞാൻ കുളിക്കുകയായിരുന്നു. Or put the interruption after with **അപ്പോഴാണ്** 'that's when': സിനിമ കാണുകയായിരുന്നു, അപ്പോഴാണ് കറന്റ് പോയത്.\n\n**'Was about to'**: **-ആൻ പോവുകയായിരുന്നു**: ഞാൻ നിന്നെ വിളിക്കാൻ പോവുകയായിരുന്നു! 'I was just about to call you!'\n\n**The trap**: the simple past is a finished event — ഞാൻ ഉറങ്ങി = 'I slept / fell asleep'. For the background activity you need -ഉകയായിരുന്നു.",
+      "examples": [
+        { "native": "നീ വിളിച്ചപ്പോൾ ഞാൻ കുളിക്കുകയായിരുന്നു.", "roman": "nī viḷicchappōḷ ñān kuḷikkukayāyirunnu.", "en": "I was in the shower when you called." },
+        { "native": "ഇന്നലെ രാത്രി പത്ത് മണിക്ക് നീ എന്ത് ചെയ്യുകയായിരുന്നു?", "roman": "innale rātri pattŭ maṇikkŭ nī endŭ cheyyukayāyirunnu?", "en": "What were you doing at ten last night?" },
+        { "native": "ഞങ്ങൾ ബീച്ചിൽ ഇരിക്കുകയായിരുന്നു, പെട്ടെന്ന് മഴ പെയ്തു.", "roman": "ñaṅṅaḷ bīcchil irikkukayāyirunnu, peṭṭennŭ maḻa peytu.", "en": "We were sitting on the beach when it suddenly poured." },
+        { "native": "ഞാൻ നിന്നെ വിളിക്കാൻ പോവുകയായിരുന്നു!", "roman": "ñān ninne viḷikkān pōvukayāyirunnu!", "en": "I was just about to call you!" },
+        { "native": "അവൻ എന്തോ പറയുവാരുന്നു, പക്ഷേ ഞാൻ കേട്ടില്ല.", "roman": "avan endō paṟayuvārunnu, pakṣē ñān kēṭṭilla.", "en": "He was saying something, but I didn't catch it." }
+      ]
+    },
+    {
+      "title": "For, since and ago: -ഇട്ട് … ആയി, മുതൽ, മുമ്പ്",
+      "body": "• **Ago** — time + **മുമ്പ്**: രണ്ട് വർഷം മുമ്പ് 'two years ago', കുറച്ച് മുമ്പ് 'a little while ago', രണ്ടാഴ്ച മുമ്പാണ് വന്നത് 'it was two weeks ago that (he) came'.\n• **For** a finished stretch — just the time phrase: മൂന്ന് ദിവസം ഗോവയിൽ ഉണ്ടായിരുന്നു 'I was in Goa for three days'. For a planned stretch add **-ഏക്ക്**: രണ്ടാഴ്ചത്തേക്ക് വന്നതാണ് 'I've come for two weeks'.\n• **It's been X since… / have been …ing for X** (still going) — past participle + **-ഇട്ട്** + time + **ആയി** ('has become'): ഇവിടെ **വന്നിട്ട്** രണ്ട് വർഷ**മായി** 'it's two years since I came = I've been here two years'; **കണ്ടിട്ട്** കുറേ **നാളായി** 'it's been ages since we met'. Ask with **എത്ര നാളായി? / എത്ര വർഷമായി?**\n• **Since** a starting point — **മുതൽ**: തിങ്കളാഴ്ച മുതൽ 'since Monday', ചെറുപ്പം മുതൽ 'since childhood'. Ask **എപ്പോൾ മുതൽ? / എന്ന് മുതൽ?** 'since when?'.\n\n**The trap**: English 'I haven't seen him **for** a month' is negative, but Malayalam says it positively: അവനെ **കണ്ടിട്ട്** ഒരു മാസ**മായി** 'it's (been) a month since I saw him'. Don't try ✗ ഒരു മാസം കണ്ടിട്ടില്ല.",
+      "examples": [
+        { "native": "ഞാൻ അവനെ കണ്ടിട്ട് ഒരു മാസമായി.", "roman": "ñān avane kaṇḍiṭṭŭ oru māsamāyi.", "en": "I haven't seen him for a month." },
+        { "native": "അവർ ഇവിടെ താമസം തുടങ്ങിയിട്ട് അഞ്ച് വർഷമായി.", "roman": "avar iviṭe tāmasam tuṭaṅṅiyiṭṭŭ añjŭ varṣamāyi.", "en": "They've lived here for five years." },
+        { "native": "രണ്ട് ആഴ്ച മുമ്പാണ് അവൻ ദുബായിൽ നിന്ന് വന്നത്.", "roman": "raṇḍŭ āḻcha mumbāṇŭ avan dubāyil ninnŭ vannatŭ.", "en": "He came back from Dubai two weeks ago." },
+        { "native": "തിങ്കളാഴ്ച മുതൽ എനിക്ക് പനിയാണ്.", "roman": "tiṅgaḷāḻcha mutal enikkŭ paniyāṇŭ.", "en": "I've had a fever since Monday." },
+        { "native": "എത്ര നാളായി ഇങ്ങനെ?", "roman": "etra nāḷāyi iṅṅane?", "en": "How long has it been like this?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Home on leave",
+    "setting": "Arun bumps into his old schoolfriend Vishnu, home on leave from the Gulf, outside a bakery in Thiruvananthapuram.",
+    "lines": [
+      { "speaker": "Arun", "native": "അളിയാ! നീയോ? കണ്ടിട്ട് എത്ര നാളായി!", "roman": "aḷiyā! nīyō? kaṇḍiṭṭŭ etra nāḷāyi!", "en": "Mate! Is that you? How long has it been!" },
+      { "speaker": "Vishnu", "native": "ഡാ അരുണേ! മൂന്ന് വർഷമായി, അല്ലേ?", "roman": "ḍā aruṇē! mūnnŭ varṣamāyi, allē?", "en": "Arun! Three years, isn't it?" },
+      { "speaker": "Arun", "native": "അതെ. നാട്ടിൽ എന്ന് വന്നു?", "roman": "ate. nāṭṭil ennŭ vannu?", "en": "Yeah. When did you get home?" },
+      { "speaker": "Vishnu", "native": "കഴിഞ്ഞ ആഴ്ച. ഒരു മാസത്തെ ലീവുണ്ട്.", "roman": "kaḻiñña āḻcha. oru māsatte līvuṇḍŭ.", "en": "Last week. I've got a month's leave." },
+      { "speaker": "Arun", "native": "അപ്പോൾ ദുബായ് എങ്ങനെ പോകുന്നു? ഇപ്പോഴും ആ പഴയ കമ്പനിയിൽ തന്നെയാണോ?", "roman": "appōḷ dubāyŭ eṅṅane pōkunnu? ippōḻum ā paḻaya kambaniyil tanneyāṇō?", "en": "So how's Dubai going? Still at the same old company?" },
+      { "speaker": "Vishnu", "native": "ഇല്ല, കഴിഞ്ഞ വർഷം മാറി. ഇപ്പോൾ അബുദാബിയിലാണ്. നിനക്കോ, എന്തൊക്കെയുണ്ട് വിശേഷം?", "roman": "illa, kaḻiñña varṣam māṟi. ippōḷ abudābiyilāṇŭ. ninakkō, endokkeyuṇḍŭ vishēṣam?", "en": "No, I switched last year. I'm in Abu Dhabi now. What about you — what's new?" },
+      { "speaker": "Arun", "native": "കാര്യമായി ഒന്നുമില്ല… ആ, ഒരു കാര്യമുണ്ട്. എന്റെ കല്യാണം കഴിഞ്ഞു!", "roman": "kāryamāyi onnumilla… ā, oru kāryamuṇḍŭ. ende kalyāṇam kaḻiññu!", "en": "Nothing much… oh, wait, there is one thing. I got married!" },
+      { "speaker": "Vishnu", "native": "എടാ ദുഷ്ടാ! എന്നെ വിളിച്ചില്ലല്ലോ!", "roman": "eṭā duṣṭā! enne viḷicchillallō!", "en": "You rascal! You didn't invite me!" },
+      { "speaker": "Arun", "native": "വിളിച്ചിരുന്നു! നിന്റെ ഫോൺ സ്വിച്ച് ഓഫ് ആയിരുന്നു. നീ അന്ന് എന്ത് ചെയ്യുകയായിരുന്നു?", "roman": "viḷicchirunnu! ninde fōṇ svicchŭ ōfŭ āyirunnu. nī annŭ endŭ cheyyukayāyirunnu?", "en": "I did call! Your phone was switched off. What were you doing that day?" },
+      { "speaker": "Vishnu", "native": "ആ… അന്ന് ഞാൻ ഫ്ലൈറ്റിൽ ആയിരുന്നിരിക്കും. എന്തായാലും, കൺഗ്രാറ്റ്സ്!", "roman": "ā… annŭ ñān flaiṯṯil āyirunnirikkum. endāyālum, kaṇgrāṯṯsŭ!", "en": "Ah… I must have been on a flight that day. Anyway, congrats!" },
+      { "speaker": "Arun", "native": "ഒരു കാര്യം കൂടി — അവൾ ഇപ്പോൾ ഗർഭിണിയാണ്.", "roman": "oru kāryam kūṭi — avaḷ ippōḷ garbhiṇiyāṇŭ.", "en": "One more thing — she's expecting." },
+      { "speaker": "Vishnu", "native": "എന്ത്! മൂന്ന് വർഷത്തിനിടയിൽ ഇത്രയും സംഭവിച്ചോ? അടിപൊളി!", "roman": "endŭ! mūnnŭ varṣattiniṭayil itrayum sambhavicchō? aṭipoḷi!", "en": "What! All this in three years? That's brilliant!" },
+      { "speaker": "Arun", "native": "വാ, ഒരു ചായ കുടിച്ചിട്ട് ബാക്കി പറയാം.", "roman": "vā, oru chāya kuṭicchiṭṭŭ bākki paṟayām.", "en": "Come on, let's grab a tea and I'll tell you the rest." }
+    ]
+  },
+  "culture": "The standard opening is **എന്തൊക്കെയുണ്ട് വിശേഷം?** or **സുഖമല്ലേ?**; the standard reply is **സുഖം** or **അങ്ങനെ പോകുന്നു** 'getting by'. Then come the questions an outsider might find personal but which are completely normal: what are you doing now, how much are you earning, when's the wedding, and — to newly-weds — **വിശേഷം ഒന്നും ആയില്ലേ?**, a polite euphemism for 'any baby on the way?' (വിശേഷം 'news, special thing' is the coded word for pregnancy).\n\nWith millions of Keralites working in the Gulf, 'home on leave' is a social event of its own: **നാട്ടിൽ എന്ന് വന്നു?**, **എത്ര ദിവസത്തെ ലീവുണ്ട്?**, **എന്നാ തിരിച്ച്?** 'when do you go back?'. Among young men **അളിയാ** (literally 'brother-in-law') is the classic 'mate!' and **ഡാ / എടാ** is everywhere; women friends say **എടീ**. In the Gulf, Malayali weekends were long built around Friday — Friday prayers, the big lunch, the weekly call home — even after the UAE moved to a Saturday–Sunday weekend.",
+  "lessons": [
+    {
+      "title": "Long time no see",
+      "tip": { "title": "For, since, ago", "body": "- **Ago**: time + **മുമ്പ്** — രണ്ട് വർഷം മുമ്പ്.\n- **It's been X (since)**: participle + **-ഇട്ട്** + time + **ആയി** — കണ്ടിട്ട് കുറേ **നാളായി**.\n- **Since** a point: **മുതൽ** — തിങ്കളാഴ്ച മുതൽ.\n- 'Haven't seen him for a month' stays positive: അവനെ **കണ്ടിട്ട്** ഒരു മാസമായി.", "pattern": "verb-ഇട്ട് + time + ആയി · time + മുതൽ · time + മുമ്പ്", "grammar": 2 },
+      "new": ["നാൾ", "കുറേ", "മുതൽ", "ഈയിടെ", "കണ്ടിട്ട് കുറേ നാളായല്ലോ!", "നാട്ടിൽ എന്ന് വന്നു?", "എത്ര ദിവസത്തെ ലീവുണ്ട്?", "ഞാൻ ഇവിടെ വന്നിട്ട് രണ്ട് വർഷമായി.", "ഇത് എപ്പോൾ മുതൽ?"],
+      "sentences": [
+        { "native": "നിന്നെ കണ്ടിട്ട് രണ്ട് വർഷമായി, അല്ലേ?", "roman": "ninne kaṇḍiṭṭŭ raṇḍŭ varṣamāyi, allē?", "en": "It's been two years since I saw you, hasn't it?", "focus": "കണ്ടിട്ട്", "wrong": ["കണ്ടു|kaṇḍu", "കാണാൻ|kāṇān"] },
+        { "native": "നീ ഗൾഫിൽ പോയിട്ട് എത്ര വർഷമായി?", "roman": "nī gaḷfil pōyiṭṭŭ etra varṣamāyi?", "en": "How many years have you been in the Gulf?", "focus": "പോയിട്ട്", "wrong": ["പോയി|pōyi", "പോകാൻ|pōkān"] },
+        { "native": "ഞാൻ ഈയിടെയാണ് നാട്ടിൽ തിരിച്ചുവന്നത്.", "roman": "ñān īyiṭeyāṇŭ nāṭṭil tiricchuvannatŭ.", "en": "I only came back home recently." },
+        { "native": "രണ്ടാഴ്ച മുമ്പ് ഞാൻ അവനെ ബസിൽ വെച്ച് കണ്ടു.", "roman": "raṇḍāḻcha mumbŭ ñān avane basil vecchŭ kaṇḍu.", "en": "I ran into him on the bus two weeks ago.", "focus": "മുമ്പ്", "wrong": ["മുതൽ|mutal", "ആയി|āyi"] },
+        { "native": "ഞാൻ ജോലി തുടങ്ങിയിട്ട് ആറ് മാസമേ ആയുള്ളൂ.", "roman": "ñān jōli tuṭaṅṅiyiṭṭŭ āṟŭ māsamē āyuḷḷū.", "en": "I've only been working for six months.", "focus": "തുടങ്ങിയിട്ട്", "wrong": ["തുടങ്ങി|tuṭaṅṅi", "തുടങ്ങാൻ|tuṭaṅṅān"] },
+        { "native": "ശനിയാഴ്ച മുതൽ ഞാൻ ലീവിലാണ്.", "roman": "shaniyāḻcha mutal ñān līvilāṇŭ.", "en": "I've been on leave since Saturday.", "focus": "മുതൽ", "wrong": ["മുമ്പ്|mumbŭ", "ആയി|āyi"] },
+        { "native": "അവൻ ചെറുപ്പം മുതൽ എന്റെ കൂട്ടുകാരനാണ്.", "roman": "avan cheṟuppam mutal ende kūṭṭukāranāṇŭ.", "en": "He's been my friend since we were kids.", "focus": "മുതൽ", "wrong": ["മുമ്പ്|mumbŭ", "ആയി|āyi"] },
+        { "native": "നമ്മൾ അവസാനം കണ്ടിട്ട് എത്ര നാളായി?", "roman": "nammaḷ avasānam kaṇḍiṭṭŭ etra nāḷāyi?", "en": "How long since we last met?", "focus": "നാളായി", "wrong": ["നാൾ|nāḷ", "നാളെ|nāḷe"] },
+        { "native": "ഇവിടെ വന്നിട്ട് കുറേ നാളായി, എല്ലാം മാറിപ്പോയി.", "roman": "iviṭe vanniṭṭŭ kuṟē nāḷāyi, ellām māṟippōyi.", "en": "It's ages since I was here — everything's changed.", "focus": "വന്നിട്ട്", "wrong": ["വന്നു|vannu", "വരാൻ|varān"] },
+        { "native": "എനിക്ക് മൂന്ന് ആഴ്ചത്തെ ലീവ് മാത്രമേയുള്ളൂ.", "roman": "enikkŭ mūnnŭ āḻchatte līvŭ mātramēyuḷḷū.", "en": "I've only got three weeks' leave." }
+      ]
+    },
+    {
+      "title": "What's new?",
+      "new": ["വാർത്ത", "കാര്യമായി", "ഇതിനിടയിൽ", "മാറ്റം", "സ്ഥലംമാറ്റം", "എന്തൊക്കെയുണ്ട് വിശേഷം?", "കാര്യമായി ഒന്നുമില്ല, പഴയതുപോലെ തന്നെ.", "നീ ഇപ്പോൾ എന്ത് ചെയ്യുന്നു?"],
+      "sentences": [
+        { "native": "പുതിയ വാർത്ത വല്ലതും ഉണ്ടോ?", "roman": "putiya vārtta vallatum uṇḍō?", "en": "Any news?" },
+        { "native": "ഇതിനിടയിൽ ഒരുപാട് കാര്യങ്ങൾ സംഭവിച്ചു.", "roman": "itiniṭayil orupāṭŭ kāryaṅṅaḷ sambhavicchu.", "en": "A lot has happened in the meantime." },
+        { "native": "ഞാൻ ജോലി മാറി, ഇപ്പോൾ ഇൻഫോപാർക്കിലാണ്.", "roman": "ñān jōli māṟi, ippōḷ infōpārkkilāṇŭ.", "en": "I changed jobs — I'm at Infopark now." },
+        { "native": "അച്ഛന് തൃശ്ശൂരിലേക്ക് സ്ഥലംമാറ്റം കിട്ടി.", "roman": "acchanŭ trushshūrilēkkŭ sthalamāṯṯam kiṭṭi.", "en": "Dad's been transferred to Thrissur." },
+        { "native": "നിന്നിൽ വലിയ മാറ്റമൊന്നുമില്ല.", "roman": "ninnil valiya māṯṯamonnumilla.", "en": "You haven't changed much." },
+        { "native": "ആകെ മാറിപ്പോയല്ലോ നീ!", "roman": "āke māṟippōyallō nī!", "en": "You've changed completely!" },
+        { "native": "ജോലിയൊക്കെ എങ്ങനെ പോകുന്നു?", "roman": "jōliyokke eṅṅane pōkunnu?", "en": "How's work going?" },
+        { "native": "വീട്ടിൽ എല്ലാവരും എന്ത് പറയുന്നു?", "roman": "vīṭṭil ellāvarum endŭ paṟayunnu?", "en": "How's everyone at home?" },
+        { "native": "ഇപ്പോൾ ബാംഗ്ലൂരിൽ ഒരു കമ്പനിയിലാണ് ജോലി.", "roman": "ippōḷ bāṅglūril oru kambaniyilāṇŭ jōli.", "en": "I work for a company in Bangalore now." }
+      ]
+    },
+    {
+      "title": "How was your weekend?",
+      "tip": { "title": "\"I was …ing\": -ഉകയായിരുന്നു", "body": "- 'Was …ing': **-ഉകയായിരുന്നു** — ഞാൻ **ഉറങ്ങുകയായിരുന്നു**. Spoken: ഉറങ്ങുവാരുന്നു.\n- The interruption: past + **-അപ്പോൾ** 'when' — നീ **വിളിച്ചപ്പോൾ**…\n- 'Was about to': **-ആൻ പോവുകയായിരുന്നു**.\n- ഉറങ്ങി = 'slept, fell asleep', not 'was sleeping'.", "pattern": "verb-ഉകയായിരുന്നു", "grammar": 1 },
+      "new": ["വീക്കെൻഡ്", "ട്രിപ്പ്", "ബോറടിക്കുക", "ഉണരുക", "വീക്കെൻഡ് എങ്ങനെയുണ്ടായിരുന്നു?", "നീ വിളിച്ചപ്പോൾ ഞാൻ ഉറങ്ങുകയായിരുന്നു."],
+      "sentences": [
+        { "native": "വീക്കെൻഡ് അടിപൊളിയായിരുന്നു, ഞങ്ങൾ വാഗമണ്ണിൽ ഒരു ട്രിപ്പ് പോയി.", "roman": "vīkkenḍŭ aṭipoḷiyāyirunnu, ñaṅṅaḷ vāgamaṇṇil oru ṭrippŭ pōyi.", "en": "The weekend was awesome — we went on a trip to Vagamon." },
+        { "native": "ഞാൻ ശനിയാഴ്ച മുഴുവൻ വീട്ടിൽ ബോറടിച്ച് ഇരിക്കുകയായിരുന്നു.", "roman": "ñān shaniyāḻcha muḻuvan vīṭṭil bōṟaṭicchŭ irikkukayāyirunnu.", "en": "I was sitting around bored at home all Saturday.", "focus": "ഇരിക്കുകയായിരുന്നു", "wrong": ["ഇരിക്കുകയാണ്|irikkukayāṇŭ", "ഇരിക്കും|irikkum"] },
+        { "native": "നീ വിളിച്ചപ്പോൾ ഞാൻ ഡ്രൈവ് ചെയ്യുകയായിരുന്നു.", "roman": "nī viḷicchappōḷ ñān ḍraivŭ cheyyukayāyirunnu.", "en": "I was driving when you called.", "focus": "ചെയ്യുകയായിരുന്നു", "wrong": ["ചെയ്യുകയാണ്|cheyyukayāṇŭ", "ചെയ്തു|cheytu"] },
+        { "native": "ഞാൻ ഉണർന്നപ്പോൾ പന്ത്രണ്ട് മണിയായി.", "roman": "ñān uṇarnnappōḷ pandraṇḍŭ maṇiyāyi.", "en": "By the time I woke up it was twelve.", "focus": "ഉണർന്നപ്പോൾ", "wrong": ["ഉണരുമ്പോൾ|uṇarumbōḷ", "ഉണർന്നു|uṇarnnu"] },
+        { "native": "ഞങ്ങൾ സിനിമ കാണുകയായിരുന്നു, അപ്പോഴാണ് കറന്റ് പോയത്.", "roman": "ñaṅṅaḷ sinima kāṇukayāyirunnu, appōḻāṇŭ kaṟanṯŭ pōyatŭ.", "en": "We were watching a film when the power went.", "focus": "കാണുകയായിരുന്നു", "wrong": ["കാണുകയാണ്|kāṇukayāṇŭ", "കണ്ടു|kaṇḍu"] },
+        { "native": "ട്രിപ്പിന് പോയപ്പോൾ എപ്പോഴും മഴ പെയ്യുകയായിരുന്നു.", "roman": "ṭrippinŭ pōyappōḷ eppōḻum maḻa peyyukayāyirunnu.", "en": "It rained the whole time we were on the trip.", "focus": "പെയ്യുകയായിരുന്നു", "wrong": ["പെയ്യുകയാണ്|peyyukayāṇŭ", "പെയ്യും|peyyum"] },
+        { "native": "ഞാൻ ഇപ്പോൾ നിനക്ക് മെസേജ് അയയ്ക്കാൻ പോവുകയായിരുന്നു!", "roman": "ñān ippōḷ ninakkŭ mesējŭ ayaykkān pōvukayāyirunnu!", "en": "I was just about to message you!", "focus": "പോവുകയായിരുന്നു", "wrong": ["പോയി|pōyi", "പോകും|pōkum"] },
+        { "native": "ഞായറാഴ്ച എനിക്ക് ഭയങ്കര ബോറടിച്ചു.", "roman": "ñāyaṟāḻcha enikkŭ bhayaṅgara bōṟaṭicchu.", "en": "I was bored stiff on Sunday." },
+        { "native": "ഇന്നലെ ഞാൻ വന്നപ്പോൾ നീ എന്ത് ചെയ്യുകയായിരുന്നു?", "roman": "innale ñān vannappōḷ nī endŭ cheyyukayāyirunnu?", "en": "What were you doing when I came by yesterday?", "focus": "ചെയ്യുകയായിരുന്നു", "wrong": ["ചെയ്തു|cheytu", "ചെയ്യും|cheyyum"] },
+        { "native": "ഇന്ന് രാവിലെ ആറ് മണിക്ക് ഉണർന്നു, ഇപ്പോൾ നല്ല ഉറക്കം വരുന്നു.", "roman": "innŭ rāvile āṟŭ maṇikkŭ uṇarnnu, ippōḷ nalla uṟakkam varunnu.", "en": "I woke up at six this morning — I'm so sleepy now." }
+      ]
+    },
+    {
+      "title": "Have you ever…?",
+      "tip": { "title": "Ever, never, twice: -ഇട്ടുണ്ട്", "body": "- Experience = **-ഇട്ടുണ്ട്**: ഞാൻ മൂന്നാറിൽ **പോയിട്ടുണ്ട്** 'I've been to Munnar'.\n- 'Ever?': **എപ്പോഴെങ്കിലും … -ഇട്ടുണ്ടോ?**; 'never': **ഇതുവരെ / ഒരിക്കലും … -ഇട്ടില്ല**.\n- How often: **രണ്ട് തവണ**; first time: **ആദ്യമായി**.\n- With ഇന്നലെ, കഴിഞ്ഞ ആഴ്ച… use the simple past: ഇന്നലെ **പോയി**.", "pattern": "എപ്പോഴെങ്കിലും + verb-ഇട്ടുണ്ടോ?", "grammar": 0 },
+      "new": [
+        "എപ്പോഴെങ്കിലും",
+        "തവണ",
+        "ആദ്യമായി",
+        "അനുഭവം",
+        "നീ എപ്പോഴെങ്കിലും മൂന്നാറിൽ പോയിട്ടുണ്ടോ?",
+        "ഇല്ല, ഇതുവരെ പോയിട്ടില്ല.",
+        "ഞാൻ രണ്ട് തവണ പോയിട്ടുണ്ട്."
+      ],
+      "sentences": [
+        { "native": "നീ എപ്പോഴെങ്കിലും ഹൗസ്ബോട്ടിൽ താമസിച്ചിട്ടുണ്ടോ?", "roman": "nī eppōḻeṅgilum hausbōṭṭil tāmasicchiṭṭuṇḍō?", "en": "Have you ever stayed on a houseboat?", "focus": "താമസിച്ചിട്ടുണ്ടോ", "wrong": ["താമസിച്ചോ|tāmasicchō", "താമസിക്കുമോ|tāmasikkumō"] },
+        { "native": "ഇല്ല, പക്ഷേ ഒരിക്കൽ ബോട്ടിൽ കയറിയിട്ടുണ്ട്.", "roman": "illa, pakṣē orikkal bōṭṭil kayaṟiyiṭṭuṇḍŭ.", "en": "No, but I've been on a boat once.", "focus": "കയറിയിട്ടുണ്ട്", "wrong": ["കയറിയിട്ടില്ല|kayaṟiyiṭṭilla", "കയറും|kayaṟum"] },
+        { "native": "ഞാൻ ഇതുവരെ തെയ്യം കണ്ടിട്ടില്ല.", "roman": "ñān ituvare teyyam kaṇḍiṭṭilla.", "en": "I've never seen Theyyam.", "focus": "കണ്ടിട്ടില്ല", "wrong": ["കാണില്ല|kāṇilla", "കണ്ടിട്ടുണ്ട്|kaṇḍiṭṭuṇḍŭ"] },
+        { "native": "ഈ ഹോട്ടലിൽ ഞാൻ ഒരുപാട് തവണ വന്നിട്ടുണ്ട്.", "roman": "ī hōṭṭalil ñān orupāṭŭ tavaṇa vanniṭṭuṇḍŭ.", "en": "I've been to this restaurant loads of times.", "focus": "വന്നിട്ടുണ്ട്", "wrong": ["വരും|varum", "വരുന്നു|varunnu"] },
+        { "native": "ഞാൻ ആദ്യമായിട്ടാണ് കേരളത്തിൽ വരുന്നത്.", "roman": "ñān ādyamāyiṭṭāṇŭ kēraḷattil varunnatŭ.", "en": "It's my first time in Kerala." },
+        { "native": "അത് ഒരു നല്ല അനുഭവമായിരുന്നു.", "roman": "atŭ oru nalla anubhavamāyirunnu.", "en": "That was a great experience." },
+        { "native": "നീ എത്ര തവണ ഗൾഫിൽ പോയിട്ടുണ്ട്?", "roman": "nī etra tavaṇa gaḷfil pōyiṭṭuṇḍŭ?", "en": "How many times have you been to the Gulf?", "focus": "പോയിട്ടുണ്ട്", "wrong": ["പോകും|pōkum", "പോകുന്നു|pōkunnu"] },
+        { "native": "ഞാൻ ഇന്നലെ ആദ്യമായി കപ്പ കഴിച്ചു.", "roman": "ñān innale ādyamāyi kappa kaḻicchu.", "en": "Yesterday I had tapioca for the first time.", "focus": "കഴിച്ചു", "wrong": ["കഴിച്ചിട്ടുണ്ട്|kaḻicchiṭṭuṇḍŭ", "കഴിക്കും|kaḻikkum"] },
+        { "native": "അങ്ങനെ ഒരു അനുഭവം എനിക്ക് ഇതുവരെ ഉണ്ടായിട്ടില്ല.", "roman": "aṅṅane oru anubhavam enikkŭ ituvare uṇḍāyiṭṭilla.", "en": "I've never had an experience like that.", "focus": "ഉണ്ടായിട്ടില്ല", "wrong": ["ഉണ്ടാകില്ല|uṇḍākilla", "ഉണ്ടായിട്ടുണ്ട്|uṇḍāyiṭṭuṇḍŭ"] },
+        { "native": "നീ എപ്പോഴെങ്കിലും പ്രേമിച്ചിട്ടുണ്ടോ?", "roman": "nī eppōḻeṅgilum prēmicchiṭṭuṇḍō?", "en": "Have you ever been in love?", "focus": "പ്രേമിച്ചിട്ടുണ്ടോ", "wrong": ["പ്രേമിച്ചോ|prēmicchō", "പ്രേമിക്കുമോ|prēmikkumō"] }
+      ]
+    },
+    {
+      "title": "Studies, licences and the gym",
+      "new": ["പഠിത്തം", "പാസാവുക", "ലൈസൻസ്", "ചേരുക", "ജിം", "പരിചയപ്പെടുക"],
+      "sentences": [
+        { "native": "നിന്റെ പഠിത്തം കഴിഞ്ഞോ?", "roman": "ninde paṭhittam kaḻiññō?", "en": "Have you finished your studies?" },
+        { "native": "ഇല്ല, ഇനി ഒരു വർഷം കൂടിയുണ്ട്.", "roman": "illa, ini oru varṣam kūṭiyuṇḍŭ.", "en": "No, there's one more year to go." },
+        { "native": "ഞാൻ എല്ലാ പരീക്ഷയും പാസായി!", "roman": "ñān ellā parīkṣayum pāsāyi!", "en": "I passed all my exams!" },
+        { "native": "അവസാനം എനിക്ക് ലൈസൻസ് കിട്ടി.", "roman": "avasānam enikkŭ laisansŭ kiṭṭi.", "en": "I finally got my driving licence." },
+        { "native": "ആദ്യത്തെ തവണ പാസായില്ല.", "roman": "ādyatte tavaṇa pāsāyilla.", "en": "I didn't pass the first time." },
+        { "native": "ഞാൻ ഒരു ജിമ്മിൽ ചേർന്നു.", "roman": "ñān oru jimmil chērnnu.", "en": "I've joined a gym." },
+        { "native": "ജിമ്മിൽ ചേർന്നിട്ട് ഒരു മാസമായി, പക്ഷേ ആകെ മൂന്ന് തവണയേ പോയുള്ളൂ.", "roman": "jimmil chērnniṭṭŭ oru māsamāyi, pakṣē āke mūnnŭ tavaṇayē pōyuḷḷū.", "en": "I joined the gym a month ago, but I've only been three times." },
+        { "native": "പുതിയ ഓഫീസിൽ ഒരുപാട് പേരെ പരിചയപ്പെട്ടു.", "roman": "putiya ōfīsil orupāṭŭ pēre parichayappeṭṭu.", "en": "I've got to know loads of people at the new office." },
+        { "native": "നിന്നെ പരിചയപ്പെട്ടതിൽ സന്തോഷം.", "roman": "ninne parichayappeṭṭatil santōṣam.", "en": "Nice to meet you." },
+        { "native": "അനിയൻ എഞ്ചിനീയറിംഗിന് ചേർന്നു.", "roman": "aniyan eñjinīyaṟiṅginŭ chērnnu.", "en": "My little brother has started engineering college." }
+      ]
+    },
+    {
+      "title": "Big news",
+      "new": ["നിശ്ചയം", "ഗർഭിണി", "പ്രസവം", "തിരിച്ചെത്തുക", "അറിഞ്ഞില്ലേ? അവളുടെ നിശ്ചയം കഴിഞ്ഞു!"],
+      "sentences": [
+        { "native": "അവളുടെ നിശ്ചയം എന്നായിരുന്നു?", "roman": "avaḷuṭe nishchayam ennāyirunnu?", "en": "When was her engagement?" },
+        { "native": "നിശ്ചയം കഴിഞ്ഞിട്ട് രണ്ട് മാസമായി, കല്യാണം ഡിസംബറിലാണ്.", "roman": "nishchayam kaḻiññiṭṭŭ raṇḍŭ māsamāyi, kalyāṇam ḍisambaṟilāṇŭ.", "en": "The engagement was two months ago; the wedding's in December." },
+        { "native": "ചേച്ചി ഗർഭിണിയാണ്, അടുത്ത മാസമാണ് പ്രസവം.", "roman": "chēcchi garbhiṇiyāṇŭ, aṭutta māsamāṇŭ prasavam.", "en": "My sister's pregnant — the baby's due next month." },
+        { "native": "പ്രസവം കഴിഞ്ഞോ? ആണോ പെണ്ണോ?", "roman": "prasavam kaḻiññō? āṇō peṇṇō?", "en": "Has she had the baby? Boy or girl?" },
+        { "native": "അവർ കാനഡയിൽ നിന്ന് തിരിച്ചെത്തി.", "roman": "avar kānaḍayil ninnŭ tiricchetti.", "en": "They're back from Canada." },
+        { "native": "നീ എന്ന് തിരിച്ചെത്തി?", "roman": "nī ennŭ tiricchetti?", "en": "When did you get back?" },
+        { "native": "നീ അറിഞ്ഞോ? അവർ പുതിയ വീട് വെച്ചു.", "roman": "nī aṟiññō? avar putiya vīṭŭ vecchu.", "en": "Did you hear? They've built a new house." },
+        { "native": "ഇത്ര പെട്ടെന്ന് എല്ലാം സംഭവിച്ചോ?", "roman": "itra peṭṭennŭ ellām sambhavicchō?", "en": "All that happened so fast?" },
+        { "native": "വിശേഷം ഒന്നും ആയില്ലേ?", "roman": "vishēṣam onnum āyillē?", "en": "Any \"good news\" yet? (the nosy question to newly-weds)" },
+        { "native": "ഒരു വർഷം കഴിഞ്ഞാണ് അവൻ തിരിച്ചെത്തിയത്.", "roman": "oru varṣam kaḻiññāṇŭ avan tiricchettiyatŭ.", "en": "He came back after a year." }
+      ]
+    }
+  ]
+}

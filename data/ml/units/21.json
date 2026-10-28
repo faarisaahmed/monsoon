@@ -1,0 +1,210 @@
+{
+  "id": 21,
+  "title": "Making plans with friends",
+  "goal": "Ask friends if they're free, suggest a plan, fix where and when to meet, say you're on your way or running late, and cancel without upsetting anyone.",
+  "intro": "Welcome to Part 2. From here on the course is about the Malayalam you need with friends, in town and at work — the way people actually talk in Kochi, Thiruvananthapuram and Kozhikode, and among Malayalis in Dubai, Doha or Muscat.\n\nWe start with plans. You'll learn the two ways to say **'let's'** (**നമുക്ക് പോകാം** 'let's go' and the softer **പോയാലോ?** 'how about going?'), how to boss your friends around nicely with the short **നീ** commands (**വാ**, **ഇരിക്ക്**, **വേഗം ഇറങ്ങ്!**), and how to say you're **about to leave** (**ഇറങ്ങാൻ പോകുവാ**), **on your way** (**വഴിയിലാണ്**) or **almost there** (**എത്താറായി**) — even when, like every Malayali saying **ദാ വരുന്നു!**, you're still at home.",
+  "vocab": [
+    { "native": "ഫ്രീ", "roman": "frī", "en": "free (not busy)", "pos": "adj", "note": "English loan, used with ആണ് / ആകുക: ഫ്രീ ആണോ? 'are you free?', ഫ്രീ ആകും 'I'll be free'. Native: ഒഴിവ്." },
+    { "native": "പരിപാടി", "roman": "paripāṭi", "en": "plan, what you're up to; event, function", "pos": "noun", "note": "എന്താ പരിപാടി? 'What are you up to? What's the plan?'" },
+    { "native": "പ്ലാൻ", "roman": "plān", "en": "plan", "pos": "noun", "note": "പ്ലാൻ ചെയ്യുക 'to plan'." },
+    { "native": "മടി", "roman": "maṭi", "en": "laziness; can't be bothered", "pos": "noun", "note": "Dative: എനിക്ക് മടിയാണ് 'I can't be bothered', പോകാൻ മടി 'too lazy to go'." },
+    { "native": "നേരം", "roman": "nēram", "en": "time (of day); while", "pos": "noun", "note": "Colloquial for സമയം in many phrases: നേരം വൈകി 'it's late', കുറച്ച് നേരം 'for a while'." },
+    { "native": "ബാക്കി", "roman": "bākki", "en": "the rest, remaining; the others", "pos": "noun", "note": "ബാക്കി എല്ലാവരും 'everyone else'; also 'change' (money back)." },
+    { "native": "കൂടുക", "roman": "kūṭuka", "en": "to get together, join; to increase", "pos": "verb", "note": "Past കൂടി. നമുക്ക് ഒന്ന് കൂടിയാലോ? 'shall we get together?'" },
+    { "native": "കറങ്ങുക", "roman": "kaṟaṅṅuka", "en": "to hang out, wander around; to spin", "pos": "verb", "note": "Past കറങ്ങി. ചുമ്മാ കറങ്ങാൻ പോകാം 'let's just go out and wander around'." },
+    { "native": "അടിച്ചുപൊളിക്കുക", "roman": "aṭicchupoḷikkuka", "en": "to have a blast, party (slang)", "pos": "verb", "note": "Past അടിച്ചുപൊളിച്ചു. Same root as അടിപൊളി." },
+    { "native": "സിനിമ", "roman": "sinima", "en": "film, movie; the cinema", "pos": "noun", "note": "സിനിമയ്ക്ക് പോകുക 'to go to a film'." },
+    { "native": "ഷോ", "roman": "ṣō", "en": "show, screening", "pos": "noun", "note": "ഫസ്റ്റ് ഷോ 'evening show', സെക്കൻഡ് ഷോ 'night show' (around 9 pm)." },
+    { "native": "തിയേറ്റർ", "roman": "tiyēṯṯar", "en": "cinema (hall), theatre", "pos": "noun" },
+    { "native": "ബീച്ച്", "roman": "bīcchŭ", "en": "beach", "pos": "noun", "note": "Native: കടപ്പുറം." },
+    { "native": "മാൾ", "roman": "māḷ", "en": "shopping mall", "pos": "noun" },
+    { "native": "ഡാ", "roman": "ḍā", "en": "hey, man (to a male friend; informal)", "pos": "interj", "note": "To a girl: ഡീ. Longer forms എടാ, എടീ. Only with close friends and younger people — rude with anyone else." },
+    { "native": "പിക്ക് ചെയ്യുക", "roman": "pikkŭ cheyyuka", "en": "to pick (someone) up", "pos": "verb", "note": "Loan + ചെയ്യുക: ഞാൻ നിന്നെ പിക്ക് ചെയ്യാം 'I'll pick you up'." },
+    { "native": "വെയ്റ്റ് ചെയ്യുക", "roman": "veyṯṯŭ cheyyuka", "en": "to wait", "pos": "verb", "note": "Everyday loan for കാത്തിരിക്കുക / കാത്തുനിൽക്കുക." },
+    { "native": "ഏകദേശം", "roman": "ēkadēsham", "en": "about, around, roughly", "pos": "adv" },
+    { "native": "ഗ്രൂപ്പ്", "roman": "grūppŭ", "en": "(WhatsApp) group; group", "pos": "noun" },
+    { "native": "ഉറപ്പിക്കുക", "roman": "uṟappikkuka", "en": "to confirm, fix (a plan)", "pos": "verb", "note": "From ഉറപ്പ് 'certainty'. Past ഉറപ്പിച്ചു." },
+    { "native": "ദാ", "roman": "dā", "en": "here! look! (pointing; 'right now')", "pos": "interj", "note": "ദാ വരുന്നു 'coming right now', ദാ എത്തി 'here I am'." },
+    { "native": "ബ്ലോക്ക്", "roman": "blōkkŭ", "en": "traffic jam (Kerala English)", "pos": "noun", "note": "ഭയങ്കര ബ്ലോക്കാണ് 'the traffic's terrible'. Also ട്രാഫിക്." },
+    { "native": "ലേറ്റ്", "roman": "lēṯṯŭ", "en": "late", "pos": "adj", "note": "With ആകുക: ലേറ്റ് ആകും 'I'll be late', ലേറ്റ് ആയി 'I'm late'. Native: വൈകുക." },
+    { "native": "ക്യാൻസൽ ചെയ്യുക", "roman": "kyānsal cheyyuka", "en": "to cancel", "pos": "verb", "note": "Everyday word; റദ്ദാക്കുക is the official one." },
+    { "native": "ഒഴിവാക്കുക", "roman": "oḻivākkuka", "en": "to skip, get out of, avoid", "pos": "verb", "note": "Past ഒഴിവാക്കി." }
+  ],
+  "phrases": [
+    { "native": "ഇന്ന് വൈകുന്നേരം ഫ്രീ ആണോ?", "roman": "innŭ vaikunnēram frī āṇō?", "en": "Are you free this evening?" },
+    { "native": "എന്താ പരിപാടി?", "roman": "endā paripāṭi?", "en": "What's the plan? What are you up to?" },
+    { "native": "നമുക്ക് ഒന്ന് കൂടിയാലോ?", "roman": "namukkŭ onnŭ kūṭiyālō?", "en": "Shall we get together?" },
+    { "native": "സിനിമയ്ക്ക് പോയാലോ?", "roman": "sinimaykkŭ pōyālō?", "en": "How about going to a film?" },
+    { "native": "വാ, പോകാം!", "roman": "vā, pōkām!", "en": "Come on, let's go! (informal)" },
+    { "native": "ഞാൻ ഒരുങ്ങി, നീയോ?", "roman": "ñān oruṅṅi, nīyō?", "en": "I'm ready — what about you?" },
+    { "native": "എവിടെ വെച്ച് കാണാം?", "roman": "eviṭe vecchŭ kāṇām?", "en": "Where shall we meet?" },
+    { "native": "ഗ്രൂപ്പിൽ ഇടാം.", "roman": "grūppil iṭām.", "en": "I'll post it on the group." },
+    { "native": "ഞാൻ ഇറങ്ങാൻ പോകുവാ.", "roman": "ñān iṟaṅṅān pōkuvā.", "en": "I'm just about to leave.", "note": "Careful form: ഇറങ്ങാൻ പോകുകയാണ്. Also heard: പോവാ." },
+    { "native": "ഞാൻ ഇറങ്ങി, വഴിയിലാണ്.", "roman": "ñān iṟaṅṅi, vaḻiyilāṇŭ.", "en": "I've left, I'm on the way." },
+    { "native": "ദാ വരുന്നു!", "roman": "dā varunnu!", "en": "Coming right now!", "note": "Famously elastic: it can mean anything from ten seconds to an hour." },
+    { "native": "ഞാൻ എത്താറായി.", "roman": "ñān ettāṟāyi.", "en": "I'm almost there." },
+    { "native": "ഭയങ്കര ബ്ലോക്കാണ്, കുറച്ച് ലേറ്റ് ആകും.", "roman": "bhayaṅgara blōkkāṇŭ, kuṟacchŭ lēṯṯŭ ākum.", "en": "The traffic's awful, I'll be a bit late." },
+    { "native": "സോറി ഡാ, ഇന്ന് പറ്റില്ല.", "roman": "sōṟi ḍā, innŭ paṯṯilla.", "en": "Sorry man, I can't make it today." },
+    { "native": "നമുക്ക് വേറെ ഒരു ദിവസം ആക്കാം.", "roman": "namukkŭ vēṟe oru divasam ākkām.", "en": "Let's make it another day." }
+  ],
+  "grammar": [
+    {
+      "title": "Let's… and how about…?: -ആം, -ആലോ?, -അണോ?",
+      "body": "Malayalam has a whole set of endings for suggesting things to friends:\n\n• **നമുക്ക് + verb-ആം** = 'let's': നമുക്ക് **പോകാം** 'let's go', നമുക്ക് **കഴിക്കാം** 'let's eat'. It is the same -ആം you met for 'I'll…' (ഞാൻ വരാം 'I'll come'); with **നമുക്ക്** it becomes 'let's'. Use **നമ്മൾ / നമുക്ക്** (which include the listener), not ഞങ്ങൾ (which leaves them out).\n• **Conditional + -ഓ** = 'how about…? what if we…?': പോയാൽ 'if (we) go' → **പോയാലോ?**, കൂടിയാൽ → **കൂടിയാലോ?**, കുടിച്ചാൽ → **കുടിച്ചാലോ?** This is the softest, most common way to float an idea.\n• **-അണോ?** (from -അണം 'must') = 'should we? do we have to?': **പോണോ?** (careful പോകണോ?) 'should we go? / must we?' — often a little reluctant.\n• **Let's not**: **വേണ്ട** or verb + **-ഏണ്ട**: പോകണ്ട 'let's not go / no need to go'.\n\nAgreeing: **ശരി**, **ഓക്കെ**, **പിന്നല്ലാതെ!**, **പോകാം!** The trap: ഞങ്ങൾ പോകാം means 'we (not you) will go' — it doesn't invite the listener.",
+      "examples": [
+        { "native": "നമുക്ക് ഇന്ന് പുറത്ത് നിന്ന് കഴിക്കാം.", "roman": "namukkŭ innŭ puṟattŭ ninnŭ kaḻikkām.", "en": "Let's eat out tonight." },
+        { "native": "ഒരു ചായ കുടിച്ചാലോ?", "roman": "oru chāya kuṭicchālō?", "en": "Shall we grab a tea?" },
+        { "native": "നാളെ രാവിലെ പോയാലോ?", "roman": "nāḷe rāvile pōyālō?", "en": "How about going tomorrow morning?" },
+        { "native": "ഇത്ര നേരത്തെ പോണോ?", "roman": "itra nēratte pōṇō?", "en": "Do we have to go this early?" },
+        { "native": "വേണ്ട, നമുക്ക് പിന്നെ പോകാം.", "roman": "vēṇḍa, namukkŭ pinne pōkām.", "en": "Nah, let's go later." }
+      ]
+    },
+    {
+      "title": "Talking to friends: short commands, softeners and don'ts",
+      "body": "With **നീ** (friends, younger people) the command is just the **bare verb stem**:\n\n• Drop **-ുക**: പറയുക → **പറ**, നോക്കുക → **നോക്ക്**, ഇരിക്കുക → **ഇരിക്ക്**, ഇറങ്ങുക → **ഇറങ്ങ്**, ഒരുങ്ങുക → **ഒരുങ്ങ്**.\n• Irregular and very common: വരുക → **വാ**, തരുക → **താ**, പോകുക → **പോ**.\n• Add **-ടാ / -ടീ** for 'man / girl': **വാടാ**, **പറയെടീ**.\n\nTo **നിങ്ങൾ** (a group, or politely) use **-ഊ**: വരൂ, ഇരിക്കൂ, നോക്കൂ. Soften either with **ഒന്ന്** ('just'): ഒന്ന് വാ, ഒന്ന് നോക്കൂ; hurry people with **വേഗം**.\n\n**Don't**: the friendly way is verb + **-ഏണ്ട** 'no need to', said **-അണ്ട** in speech: പോകണ്ട 'don't go', ടെൻഷൻ അടിക്കണ്ട 'don't stress'. For 'don't, will you!' use **-അല്ലേ**: മറക്കല്ലേ! **-അരുത്** (പോകരുത്) is a strong prohibition — fine for rules, harsh with friends.\n\nThe trap: the bare stem to a shopkeeper or an older person sounds rude. With them use **-ഊ** or **-ആമോ?** (Unit 18).",
+      "examples": [
+        { "native": "വാ, ഇരിക്ക്.", "roman": "vā, irikkŭ.", "en": "Come, sit down." },
+        { "native": "ഒന്ന് പറ, എന്താ കാര്യം?", "roman": "onnŭ paṟa, endā kāryam?", "en": "Come on, tell me — what's up?" },
+        { "native": "അത് ഇങ്ങോട്ട് താ.", "roman": "atŭ iṅṅōṭṭŭ tā.", "en": "Give that here." },
+        { "native": "നീ പോണ്ട, ഞാൻ പോകാം.", "roman": "nī pōṇḍa, ñān pōkām.", "en": "Don't you go, I'll go." },
+        { "native": "വേഗം വാടാ!", "roman": "vēgam vāṭā!", "en": "Hurry up, man!" }
+      ]
+    },
+    {
+      "title": "About to, on the way, almost there",
+      "body": "Four patterns cover everything you text while running late:\n\n• **About to**: verb-**ആൻ പോകുകയാണ്** 'am going to (right now)': ഇറങ്ങാൻ പോകുകയാണ് 'I'm about to leave'. In speech this shrinks to **പോകുവാ** or **പോവാ**: **ഇറങ്ങാൻ പോകുവാ**.\n• **Already done** — just use the past: **ഇറങ്ങി** 'I've left' (ഇറങ്ങുക 'to get off' also means 'to leave the house'), **എത്തി** 'I'm here'.\n• **On the way**: **വഴിയിലാണ്** 'I'm on the way', or the progressive **വന്നുകൊണ്ടിരിക്കുകയാണ്** 'I'm coming'.\n• **Almost**: verb-**ആറായി**: **എത്താറായി** 'almost there', **കഴിയാറായി** 'nearly finished', **തുടങ്ങാറായി** 'about to start'. (Built from -ആറ് + ആയി 'it has come to the point of'.)\n\nAnd the most famous Malayali line of all, **ദാ വരുന്നു!** 'coming right now!' — the present tense used for something about to happen.",
+      "examples": [
+        { "native": "ഞാൻ ഇറങ്ങാൻ പോകുകയാണ്.", "roman": "ñān iṟaṅṅān pōkukayāṇŭ.", "en": "I'm about to leave. (careful)" },
+        { "native": "അവൾ ഇറങ്ങി, വഴിയിലാണ്.", "roman": "avaḷ iṟaṅṅi, vaḻiyilāṇŭ.", "en": "She's left, she's on the way." },
+        { "native": "ഞാൻ വന്നുകൊണ്ടിരിക്കുകയാണ്.", "roman": "ñān vannukoṇḍirikkukayāṇŭ.", "en": "I'm on my way." },
+        { "native": "ബസ് എത്താറായി.", "roman": "basŭ ettāṟāyi.", "en": "The bus is almost here." },
+        { "native": "പണി കഴിയാറായി, ഇപ്പോൾ ഇറങ്ങും.", "roman": "paṇi kaḻiyāṟāyi, ippōḷ iṟaṅṅum.", "en": "Work's nearly done, I'll leave in a minute." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Shankumugham at six",
+    "setting": "Vishnu calls Anu to plan an evening at Shankumugham beach in Thiruvananthapuram. An hour later, she calls him.",
+    "lines": [
+      { "speaker": "Vishnu", "native": "ഡീ, ഇന്ന് വൈകുന്നേരം ഫ്രീ ആണോ?", "roman": "ḍī, innŭ vaikunnēram frī āṇō?", "en": "Hey, are you free this evening?" },
+      { "speaker": "Anu", "native": "ആ, ഫ്രീ ആണ്. എന്താ പരിപാടി?", "roman": "ā, frī āṇŭ. endā paripāṭi?", "en": "Yeah, I'm free. What's the plan?" },
+      { "speaker": "Vishnu", "native": "ശംഖുമുഖം ബീച്ചിൽ ഒന്ന് കറങ്ങിയാലോ? പിന്നെ എന്തെങ്കിലും കഴിക്കാം.", "roman": "shaṅkhumukham bīcchil onnŭ kaṟaṅṅiyālō? pinne endeṅgilum kaḻikkām.", "en": "How about hanging out at Shankumugham beach? Then we can grab something to eat." },
+      { "speaker": "Anu", "native": "അടിപൊളി! വേറെ ആരൊക്കെ വരും?", "roman": "aṭipoḷi! vēṟe ārokke varum?", "en": "Great! Who else is coming?" },
+      { "speaker": "Vishnu", "native": "അർജുനും മീരയും. ഞാൻ ഗ്രൂപ്പിൽ ഇടാം.", "roman": "arjunum mīrayum. ñān grūppil iṭām.", "en": "Arjun and Meera. I'll post it on the group." },
+      { "speaker": "Anu", "native": "ശരി. എവിടെ വെച്ച് കാണാം?", "roman": "shari. eviṭe vecchŭ kāṇām?", "en": "OK. Where shall we meet?" },
+      { "speaker": "Vishnu", "native": "ഞാൻ നിന്നെ പട്ടത്ത് നിന്ന് പിക്ക് ചെയ്യാം. ഏകദേശം അഞ്ചരയ്ക്ക് ഒരുങ്ങി ഇരിക്കണം, കേട്ടോ.", "roman": "ñān ninne paṭṭattŭ ninnŭ pikkŭ cheyyām. ēkadēsham añjaraykkŭ oruṅṅi irikkaṇam, kēṭṭō.", "en": "I'll pick you up from Pattom. Be ready around half five, OK?" },
+      { "speaker": "Anu", "native": "ഡാ, നീ എവിടെയാ? സമയം ആറ് മണിയായി!", "roman": "ḍā, nī eviṭeyā? samayam āṟŭ maṇiyāyi!", "en": "Hey, where are you? It's already six!" },
+      { "speaker": "Vishnu", "native": "ദാ വരുന്നു! ഞാൻ ഇറങ്ങി, വഴിയിലാണ്.", "roman": "dā varunnu! ñān iṟaṅṅi, vaḻiyilāṇŭ.", "en": "Coming! I've left, I'm on the way." },
+      { "speaker": "Anu", "native": "സത്യം? അതോ ഇപ്പോഴും വീട്ടിലാണോ?", "roman": "satyam? atō ippōḻum vīṭṭilāṇō?", "en": "Really? Or are you still at home?" },
+      { "speaker": "Vishnu", "native": "ഏയ്! കേശവദാസപുരത്ത് ഭയങ്കര ബ്ലോക്കാണ്. ഒരു പത്ത് മിനിറ്റ്, ഞാൻ എത്താറായി.", "roman": "ēy! kēshavadāsapurattŭ bhayaṅgara blōkkāṇŭ. oru pattŭ miniṯṯŭ, ñān ettāṟāyi.", "en": "Nah! There's a massive jam at Kesavadasapuram. Ten minutes, I'm almost there." },
+      { "speaker": "Anu", "native": "ശരി, വേഗം വാ. ലേറ്റ് ആയാൽ ഞാൻ മീരയുടെ കൂടെ പോകും!", "roman": "shari, vēgam vā. lēṯṯŭ āyāl ñān mīrayuṭe kūṭe pōkum!", "en": "Fine, hurry up. If you're late I'm going with Meera!" },
+      { "speaker": "Vishnu", "native": "ടെൻഷൻ അടിക്കണ്ട, ദാ എത്തി! താഴേക്ക് വാ.", "roman": "ṭenṣan aṭikkaṇḍa, dā etti! tāḻēkkŭ vā.", "en": "Don't stress, I'm here! Come down." }
+    ]
+  },
+  "culture": "Plans in Kerala are made late and loosely, usually in a WhatsApp group, and **ദാ വരുന്നു** ('coming right now!') and **ഇറങ്ങി** ('I've left') are famously elastic — everyone jokes about it, and everyone says it. Still, if you're running late, a quick **വഴിയിലാണ്, ഭയങ്കര ബ്ലോക്കാണ്** keeps things friendly; traffic on routes like Edappally or Vyttila in Kochi is a universally accepted excuse.\n\nA flat 'no' sounds cold. Say **സോറി**, give a reason (**വീട്ടിൽ അതിഥികൾ ഉണ്ട്**, **നാളെ പരീക്ഷയാണ്**) and offer another day: **വേറെ ഒരു ദിവസം ആക്കാം**. Many young people, especially women, check with family first, and being home by a certain time is normal — **വീട്ടിൽ ചോദിക്കണം** 'I have to ask at home' is a perfectly ordinary answer.\n\nTypical outings: a beach in the evening (Fort Kochi, Shankumugham, Kozhikode beach), a mall (Lulu in Kochi and Thiruvananthapuram), a new Malayalam film on release weekend, or just **ചായ** and snacks at a **തട്ടുകട** (roadside stall) late at night. In the Gulf, Malayali friends meet up on the weekend for biriyani, cricket or a film — and the WhatsApp group is where the plan is made and remade.",
+  "lessons": [
+    {
+      "title": "Are you free?",
+      "tip": { "title": "Asking about plans", "body": "- **ഫ്രീ ആണോ?** 'are you free?' → **ഫ്രീ ആണ്** / **ഫ്രീ അല്ല**, or **തിരക്കാണ്** 'I'm busy'.\n- **എന്താ പരിപാടി?** 'what's the plan / what are you up to?'\n- English words take **ആണ്** (is) or **ആകുക** (become): ഫ്രീ **ആകും** 'I'll be free'.\n- Too lazy? **എനിക്ക് മടിയാണ്**." },
+      "new": ["ഫ്രീ", "പരിപാടി", "പ്ലാൻ", "മടി", "നേരം", "ബാക്കി", "ഇന്ന് വൈകുന്നേരം ഫ്രീ ആണോ?", "എന്താ പരിപാടി?"],
+      "sentences": [
+        { "native": "നാളെ നീ ഫ്രീ ആണോ?", "roman": "nāḷe nī frī āṇō?", "en": "Are you free tomorrow?", "focus": "ആണോ", "wrong": ["ആണ്|āṇŭ", "അല്ല|alla"] },
+        { "native": "ഞാൻ ഇന്ന് ഫ്രീ അല്ല, ഭയങ്കര തിരക്കാണ്.", "roman": "ñān innŭ frī alla, bhayaṅgara tirakkāṇŭ.", "en": "I'm not free today, I'm crazy busy.", "focus": "അല്ല", "wrong": ["ഇല്ല|illa", "ആണോ|āṇō"] },
+        { "native": "ഇന്ന് വൈകുന്നേരം ഫ്രീ ആണോ? ഒരു കാര്യം പറയാനുണ്ട്.", "roman": "innŭ vaikunnēram frī āṇō? oru kāryam paṟayānuṇḍŭ.", "en": "Are you free this evening? There's something I need to tell you." },
+        { "native": "ശനിയാഴ്ച എന്താ പരിപാടി?", "roman": "shaniyāḻcha endā paripāṭi?", "en": "What are you up to on Saturday?" },
+        { "native": "ഒരു പരിപാടിയുമില്ല, വീട്ടിൽ ചുമ്മാ ഇരിക്കും.", "roman": "oru paripāṭiyumilla, vīṭṭil chummā irikkum.", "en": "No plans, I'll just stay in." },
+        { "native": "ആറ് മണി കഴിഞ്ഞാൽ ഞാൻ ഫ്രീ ആകും.", "roman": "āṟŭ maṇi kaḻiññāl ñān frī ākum.", "en": "I'll be free after six.", "focus": "ആകും", "wrong": ["ആയി|āyi", "ആണോ|āṇō"] },
+        { "native": "ഇന്ന് പുറത്ത് പോകാൻ എനിക്ക് മടിയാണ്.", "roman": "innŭ puṟattŭ pōkān enikkŭ maṭiyāṇŭ.", "en": "I can't be bothered to go out today.", "focus": "എനിക്ക്", "wrong": ["ഞാൻ|ñān", "എന്നെ|enne"] },
+        { "native": "ഞായറാഴ്ചത്തെ പ്ലാൻ എന്താ?", "roman": "ñāyaṟāḻchatte plān endā?", "en": "What's the plan for Sunday?" },
+        { "native": "നേരം വൈകി, ഞാൻ വീട്ടിൽ പോകട്ടെ.", "roman": "nēram vaiki, ñān vīṭṭil pōkaṭṭe.", "en": "It's getting late, I'd better head home." },
+        { "native": "ബാക്കി എല്ലാവരും ഫ്രീ ആണോ?", "roman": "bākki ellāvarum frī āṇō?", "en": "Is everyone else free?", "focus": "ആണോ", "wrong": ["ആണ്|āṇŭ", "ആകും|ākum"] }
+      ]
+    },
+    {
+      "title": "Let's go!",
+      "tip": { "title": "Let's… and how about…?", "body": "- **നമുക്ക്** + verb-**ആം** = 'let's': നമുക്ക് പോകാം.\n- Softer: past stem + **-ആലോ?** 'how about…?': പോയാലോ?, കൂടിയാലോ?\n- **-അണോ?** 'should we? must we?': പോണോ?\n- **നമ്മൾ / നമുക്ക്** include your friend; **ഞങ്ങൾ** doesn't.", "pattern": "നമുക്ക് + verb-ആം · verb-ആലോ?", "grammar": 0 },
+      "new": ["കൂടുക", "കറങ്ങുക", "അടിച്ചുപൊളിക്കുക", "സിനിമ", "ഷോ", "തിയേറ്റർ", "ബീച്ച്", "മാൾ", "നമുക്ക് ഒന്ന് കൂടിയാലോ?", "സിനിമയ്ക്ക് പോയാലോ?"],
+      "sentences": [
+        { "native": "നമുക്ക് ബീച്ചിൽ പോകാം.", "roman": "namukkŭ bīcchil pōkām.", "en": "Let's go to the beach.", "focus": "പോകാം", "wrong": ["പോയി|pōyi", "പോകുക|pōkuka"] },
+        { "native": "ഈ ശനിയാഴ്ച എല്ലാവരും ഒന്ന് കൂടിയാലോ?", "roman": "ī shaniyāḻcha ellāvarum onnŭ kūṭiyālō?", "en": "How about we all get together this Saturday?", "focus": "കൂടിയാലോ", "wrong": ["കൂടി|kūṭi", "കൂടുക|kūṭuka"] },
+        { "native": "രാത്രിയിലെ ഷോയ്ക്ക് പോയാലോ?", "roman": "rātriyile ṣōykkŭ pōyālō?", "en": "How about the night show?", "focus": "പോയാലോ", "wrong": ["പോയി|pōyi", "പോകുക|pōkuka"] },
+        { "native": "മാളിൽ ചുമ്മാ ഒന്ന് കറങ്ങാം.", "roman": "māḷil chummā onnŭ kaṟaṅṅām.", "en": "Let's just wander round the mall.", "focus": "കറങ്ങാം", "wrong": ["കറങ്ങി|kaṟaṅṅi", "കറങ്ങുക|kaṟaṅṅuka"] },
+        { "native": "ഇന്ന് രാത്രി നമുക്ക് അടിച്ചുപൊളിക്കാം!", "roman": "innŭ rātri namukkŭ aṭicchupoḷikkām!", "en": "Let's have a blast tonight!", "focus": "നമുക്ക്", "wrong": ["നമ്മൾ|nammaḷ", "ഞങ്ങൾക്ക്|ñaṅṅaḷkkŭ"] },
+        { "native": "ഏത് സിനിമയാ? ഞാൻ അത് കണ്ടതാ.", "roman": "ētŭ sinimayā? ñān atŭ kaṇḍatā.", "en": "Which film? I've already seen it." },
+        { "native": "മഴയാണ്, ബീച്ചിൽ പോണോ?", "roman": "maḻayāṇŭ, bīcchil pōṇō?", "en": "It's raining — do we really have to go to the beach?", "focus": "പോണോ", "wrong": ["പോകാം|pōkām", "പോയി|pōyi"] },
+        { "native": "വേണ്ട, നമുക്ക് തിയേറ്ററിൽ പോയി ഒരു സിനിമ കാണാം.", "roman": "vēṇḍa, namukkŭ tiyēṯṯaṟil pōyi oru sinima kāṇām.", "en": "Nah, let's go and see a film at the cinema.", "focus": "കാണാം", "wrong": ["കണ്ടു|kaṇḍu", "കാണുക|kāṇuka"] },
+        { "native": "ഞങ്ങൾ സിനിമയ്ക്ക് പോകുന്നു, നീ വരുന്നോ?", "roman": "ñaṅṅaḷ sinimaykkŭ pōkunnu, nī varunnō?", "en": "We're going to a film — are you coming?", "focus": "ഞങ്ങൾ", "wrong": ["നമ്മൾ|nammaḷ", "നമുക്ക്|namukkŭ"] },
+        { "native": "ഷോ എപ്പോഴാ? ഏഴ് മണിക്കാണോ?", "roman": "ṣō eppōḻā? ēḻŭ maṇikkāṇō?", "en": "When's the show? Seven?" }
+      ]
+    },
+    {
+      "title": "Come on, hurry up!",
+      "tip": { "title": "Short commands for friends", "body": "- To **നീ**: the bare stem: **നോക്ക്**, **ഇരിക്ക്**, **ഇറങ്ങ്**, **പറ**. Irregular: **വാ** 'come', **താ** 'give', **പോ** 'go'.\n- To a group or politely: **-ഊ**: വരൂ, ഇരിക്കൂ.\n- 'Don't': **-അണ്ട** (പോകണ്ട); pleading **-അല്ലേ** (മറക്കല്ലേ!).\n- Bare stems sound rude to elders and strangers.", "pattern": "നീ: വാ / നോക്ക് · നിങ്ങൾ: വരൂ / നോക്കൂ", "grammar": 1 },
+      "new": ["ഡാ", "പിക്ക് ചെയ്യുക", "വെയ്റ്റ് ചെയ്യുക", "വാ, പോകാം!", "ഞാൻ ഒരുങ്ങി, നീയോ?"],
+      "sentences": [
+        { "native": "വാ, പോകാം! എല്ലാവരും ഒരുങ്ങി.", "roman": "vā, pōkām! ellāvarum oruṅṅi.", "en": "Come on, let's go! Everyone's ready.", "focus": "വാ", "wrong": ["വരുക|varuka", "വന്നു|vannu"] },
+        { "native": "ഞാൻ ഒരുങ്ങി, നീയോ? വേഗം ഇറങ്ങ്!", "roman": "ñān oruṅṅi, nīyō? vēgam iṟaṅṅŭ!", "en": "I'm ready — are you? Get going!", "focus": "ഇറങ്ങ്", "wrong": ["ഇറങ്ങി|iṟaṅṅi", "ഇറങ്ങുക|iṟaṅṅuka"] },
+        { "native": "ഡാ, ഒന്ന് ഇങ്ങോട്ട് നോക്ക്!", "roman": "ḍā, onnŭ iṅṅōṭṭŭ nōkkŭ!", "en": "Hey, look over here a sec!", "focus": "നോക്ക്", "wrong": ["നോക്കി|nōkki", "നോക്കുക|nōkkuka"] },
+        { "native": "ഞാൻ അങ്ങോട്ട് വരാം, നീ അവിടെ ഇരിക്ക്.", "roman": "ñān aṅṅōṭṭŭ varām, nī aviṭe irikkŭ.", "en": "I'll come over to you — you stay there.", "focus": "ഇരിക്ക്", "wrong": ["ഇരുന്നു|irunnu", "ഇരിക്കുക|irikkuka"] },
+        { "native": "ഞാൻ നിന്നെ വീട്ടിൽ നിന്ന് പിക്ക് ചെയ്യാം.", "roman": "ñān ninne vīṭṭil ninnŭ pikkŭ cheyyām.", "en": "I'll pick you up from home." },
+        { "native": "ഡാ, ആ ബാഗ് ഇങ്ങോട്ട് താ.", "roman": "ḍā, ā bāgŭ iṅṅōṭṭŭ tā.", "en": "Hey, pass me that bag.", "focus": "താ", "wrong": ["തരുക|taruka", "തന്നു|tannu"] },
+        { "native": "നിങ്ങൾ ഇവിടെ വെയ്റ്റ് ചെയ്യൂ, ഞാൻ ടിക്കറ്റ് എടുക്കാം.", "roman": "niṅṅaḷ iviṭe veyṯṯŭ cheyyū, ñān ṭikkaṯṯŭ eṭukkām.", "en": "You guys wait here, I'll get the tickets.", "focus": "ചെയ്യൂ", "wrong": ["ചെയ്തു|cheytu", "ചെയ്യുക|cheyyuka"] },
+        { "native": "ടെൻഷൻ അടിക്കണ്ട, ഞാൻ ഉണ്ട്.", "roman": "ṭenṣan aṭikkaṇḍa, ñān uṇḍŭ.", "en": "Don't stress, I'm here for you.", "focus": "അടിക്കണ്ട", "wrong": ["അടിച്ചു|aṭicchu", "അടിക്കും|aṭikkum"] },
+        { "native": "നീ ഇപ്പോഴും കുളിക്കുകയാണോ? വേഗം ഒരുങ്ങ്!", "roman": "nī ippōḻum kuḷikkukayāṇō? vēgam oruṅṅŭ!", "en": "Are you still in the shower? Hurry up and get ready!", "focus": "ഒരുങ്ങ്", "wrong": ["ഒരുങ്ങി|oruṅṅi", "ഒരുങ്ങുക|oruṅṅuka"] },
+        { "native": "ടിക്കറ്റ് മറക്കല്ലേ!", "roman": "ṭikkaṯṯŭ maṟakkallē!", "en": "Don't forget the tickets!", "focus": "മറക്കല്ലേ", "wrong": ["മറന്നു|maṟannu", "മറക്കുക|maṟakkuka"] },
+        { "native": "നീ വരണ്ട, ഞാൻ വെയ്റ്റ് ചെയ്യാം.", "roman": "nī varaṇḍa, ñān veyṯṯŭ cheyyām.", "en": "Don't bother coming, I'll wait.", "focus": "വരണ്ട", "wrong": ["വന്നു|vannu", "വരും|varum"] }
+      ]
+    },
+    {
+      "title": "Where and when?",
+      "tip": { "title": "Fixing a time and place", "body": "- **എവിടെ വെച്ച് കാണാം?** 'where shall we meet?'\n- Time + **-ക്ക്**: ആറരയ്ക്ക് 'at 6:30'; **ഏകദേശം** 'around'.\n- Meet by a landmark: …ന്റെ **മുന്നിൽ** 'in front of', …ന്റെ **അടുത്ത്** 'near'.\n- **ഉറപ്പിച്ചോ?** 'is it confirmed?'" },
+      "new": ["ഏകദേശം", "ഗ്രൂപ്പ്", "ഉറപ്പിക്കുക", "എവിടെ വെച്ച് കാണാം?", "ഗ്രൂപ്പിൽ ഇടാം."],
+      "sentences": [
+        { "native": "എവിടെ വെച്ച് കാണാം? മാളിന്റെ മുന്നിൽ?", "roman": "eviṭe vecchŭ kāṇām? māḷinde munnil?", "en": "Where shall we meet? In front of the mall?", "focus": "മുന്നിൽ", "wrong": ["പിന്നിൽ|pinnil", "അകത്ത്|akattŭ"] },
+        { "native": "ഏകദേശം ആറരയ്ക്ക് ബീച്ചിൽ കാണാം.", "roman": "ēkadēsham āṟaraykkŭ bīcchil kāṇām.", "en": "See you at the beach around six-thirty.", "focus": "ആറരയ്ക്ക്", "wrong": ["ആറര|āṟara", "ആറരയിൽ|āṟarayil"] },
+        { "native": "സമയം ഉറപ്പിച്ചിട്ട് ഞാൻ വിളിക്കാം.", "roman": "samayam uṟappicchiṭṭŭ ñān viḷikkām.", "en": "I'll call you once I've fixed the time." },
+        { "native": "പ്ലാൻ ഉറപ്പിച്ചോ?", "roman": "plān uṟappicchō?", "en": "Is the plan confirmed?" },
+        { "native": "ഞാൻ ഗ്രൂപ്പിൽ ഇടാം, എല്ലാവരും കാണട്ടെ.", "roman": "ñān grūppil iṭām, ellāvarum kāṇaṭṭe.", "en": "I'll post it on the group so everyone sees." },
+        { "native": "ഗ്രൂപ്പിൽ ആരും ഒന്നും പറയുന്നില്ല.", "roman": "grūppil ārum onnum paṟayunnilla.", "en": "Nobody's saying anything on the group." },
+        { "native": "ഏകദേശം എത്ര പേർ വരും?", "roman": "ēkadēsham etra pēr varum?", "en": "Roughly how many people are coming?" },
+        { "native": "സ്റ്റേഷന്റെ അടുത്ത് വെച്ച് കാണാം, അതാണ് എളുപ്പം.", "roman": "sṯṯēṣande aṭuttŭ vecchŭ kāṇām, atāṇŭ eḷuppam.", "en": "Let's meet near the station, that's easiest.", "focus": "വെച്ച്", "wrong": ["നിന്ന്|ninnŭ", "വരെ|vare"] },
+        { "native": "ബാക്കി കാര്യങ്ങൾ ഗ്രൂപ്പിൽ പറയാം.", "roman": "bākki kāryaṅṅaḷ grūppil paṟayām.", "en": "We'll sort out the rest on the group." }
+      ]
+    },
+    {
+      "title": "I'm on my way",
+      "tip": { "title": "About to, on the way, almost there", "body": "- About to: verb-**ആൻ പോകുവാ** (careful: പോകുകയാണ്): ഇറങ്ങാൻ പോകുവാ.\n- Done: the past: **ഇറങ്ങി** 'I've left', **എത്തി** 'I'm here'.\n- **വഴിയിലാണ്** 'I'm on the way'.\n- Almost: verb-**ആറായി**: **എത്താറായി** 'nearly there'.\n- **ദാ വരുന്നു!** 'coming right now!'", "pattern": "verb-ആൻ പോകുവാ · verb-ആറായി", "grammar": 2 },
+      "new": ["ദാ", "ബ്ലോക്ക്", "ലേറ്റ്", "ഞാൻ ഇറങ്ങാൻ പോകുവാ.", "ഞാൻ ഇറങ്ങി, വഴിയിലാണ്.", "ദാ വരുന്നു!", "ഞാൻ എത്താറായി.", "ഭയങ്കര ബ്ലോക്കാണ്, കുറച്ച് ലേറ്റ് ആകും."],
+      "sentences": [
+        { "native": "ഞാൻ ഇറങ്ങാൻ പോകുവാ, പത്ത് മിനിറ്റിൽ എത്തും.", "roman": "ñān iṟaṅṅān pōkuvā, pattŭ miniṯṯil ettum.", "en": "I'm just leaving, I'll be there in ten minutes.", "focus": "പോകുവാ", "wrong": ["പോയി|pōyi", "പോകണം|pōkaṇam"] },
+        { "native": "നീ ഇറങ്ങിയോ?", "roman": "nī iṟaṅṅiyō?", "en": "Have you left yet?", "focus": "ഇറങ്ങിയോ", "wrong": ["ഇറങ്ങ്|iṟaṅṅŭ", "ഇറങ്ങാം|iṟaṅṅām"] },
+        { "native": "ഇറങ്ങി, ഇപ്പോൾ വഴിയിലാണ്.", "roman": "iṟaṅṅi, ippōḷ vaḻiyilāṇŭ.", "en": "I've left, I'm on the way now.", "focus": "വഴിയിലാണ്", "wrong": ["വഴിയാണ്|vaḻiyāṇŭ", "വഴിക്ക്|vaḻikkŭ"] },
+        { "native": "ദാ വരുന്നു! ഒരു മിനിറ്റ്!", "roman": "dā varunnu! oru miniṯṯŭ!", "en": "Coming! One minute!" },
+        { "native": "ഞാൻ എത്താറായി, നീ എവിടെയാ?", "roman": "ñān ettāṟāyi, nī eviṭeyā?", "en": "I'm nearly there — where are you?", "focus": "എത്താറായി", "wrong": ["എത്താൻ|ettān", "എത്തുക|ettuka"] },
+        { "native": "ഞാൻ എത്തി, മാളിന്റെ മുന്നിലുണ്ട്.", "roman": "ñān etti, māḷinde munniluṇḍŭ.", "en": "I'm here, in front of the mall.", "focus": "എത്തി", "wrong": ["എത്താം|ettām", "എത്തുക|ettuka"] },
+        { "native": "പാലാരിവട്ടത്ത് ഭയങ്കര ബ്ലോക്കാണ്.", "roman": "pālārivaṭṭattŭ bhayaṅgara blōkkāṇŭ.", "en": "There's a massive jam at Palarivattom." },
+        { "native": "ബസ് കിട്ടിയില്ല, ഞാൻ അര മണിക്കൂർ ലേറ്റ് ആകും.", "roman": "basŭ kiṭṭiyilla, ñān ara maṇikkūr lēṯṯŭ ākum.", "en": "I missed the bus, I'll be half an hour late." },
+        { "native": "ഭയങ്കര ബ്ലോക്കാണ്, കുറച്ച് ലേറ്റ് ആകും. നിങ്ങൾ തുടങ്ങിക്കോ.", "roman": "bhayaṅgara blōkkāṇŭ, kuṟacchŭ lēṯṯŭ ākum. niṅṅaḷ tuṭaṅṅikkō.", "en": "Traffic's awful, I'll be a bit late. You guys go ahead and start." },
+        { "native": "സിനിമ തുടങ്ങാറായി, വേഗം വാ!", "roman": "sinima tuṭaṅṅāṟāyi, vēgam vā!", "en": "The film's about to start, hurry up!", "focus": "തുടങ്ങാറായി", "wrong": ["തുടങ്ങാൻ|tuṭaṅṅān", "തുടങ്ങുക|tuṭaṅṅuka"] },
+        { "native": "ഞാൻ കുളിക്കാൻ പോകുവാ, പിന്നെ വിളിക്കാം.", "roman": "ñān kuḷikkān pōkuvā, pinne viḷikkām.", "en": "I'm about to have a shower, I'll call you after.", "focus": "കുളിക്കാൻ", "wrong": ["കുളിച്ചു|kuḷicchu", "കുളിക്കുക|kuḷikkuka"] }
+      ]
+    },
+    {
+      "title": "Can't make it",
+      "tip": { "title": "Cancelling nicely", "body": "- No flat 'no': say **സോറി**, give a reason, offer another day: **വേറെ ഒരു ദിവസം ആക്കാം**.\n- **പറ്റില്ല** 'I can't (make it)' is softer than **വരില്ല** 'I won't come'.\n- Move a plan: **നാളത്തേക്ക് മാറ്റിവെക്കാം** 'let's move it to tomorrow'.\n- **ക്യാൻസൽ ചെയ്യുക** 'to cancel', **ഒഴിവാക്കുക** 'to skip'." },
+      "new": ["ക്യാൻസൽ ചെയ്യുക", "ഒഴിവാക്കുക", "സോറി ഡാ, ഇന്ന് പറ്റില്ല.", "നമുക്ക് വേറെ ഒരു ദിവസം ആക്കാം."],
+      "sentences": [
+        { "native": "സോറി ഡാ, ഇന്ന് പറ്റില്ല, വീട്ടിൽ അതിഥികൾ ഉണ്ട്.", "roman": "sōṟi ḍā, innŭ paṯṯilla, vīṭṭil atithikaḷ uṇḍŭ.", "en": "Sorry man, can't make it today, we've got guests at home.", "focus": "പറ്റില്ല", "wrong": ["പറ്റും|paṯṯum", "പറ്റി|paṯṯi"] },
+        { "native": "നമുക്ക് പ്ലാൻ നാളത്തേക്ക് മാറ്റിവെക്കാം.", "roman": "namukkŭ plān nāḷattēkkŭ māṯṯivekkām.", "en": "Let's move the plan to tomorrow." },
+        { "native": "മഴ കാരണം അവർ ഷോ ക്യാൻസൽ ചെയ്തു.", "roman": "maḻa kāraṇam avar ṣō kyānsal cheytu.", "en": "They cancelled the show because of the rain." },
+        { "native": "നമുക്ക് വേറെ ഒരു ദിവസം ആക്കാം, കേട്ടോ.", "roman": "namukkŭ vēṟe oru divasam ākkām, kēṭṭō.", "en": "Let's make it another day, OK?" },
+        { "native": "ഇന്നത്തെ പരിപാടി ഒഴിവാക്കിയാലോ? എനിക്ക് നല്ല ക്ഷീണമുണ്ട്.", "roman": "innatte paripāṭi oḻivākkiyālō? enikkŭ nalla kṣīṇamuṇḍŭ.", "en": "How about we skip today's plan? I'm really tired.", "focus": "ഒഴിവാക്കിയാലോ", "wrong": ["ഒഴിവാക്കി|oḻivākki", "ഒഴിവാക്കുക|oḻivākkuka"] },
+        { "native": "അവൻ എപ്പോഴും പ്ലാൻ ഉറപ്പിച്ചിട്ട് ക്യാൻസൽ ചെയ്യും.", "roman": "avan eppōḻum plān uṟappicchiṭṭŭ kyānsal cheyyum.", "en": "He always confirms a plan and then cancels." },
+        { "native": "പരീക്ഷ ഉള്ളതുകൊണ്ട് എനിക്ക് വരാൻ പറ്റില്ല.", "roman": "parīkṣa uḷḷatukoṇḍŭ enikkŭ varān paṯṯilla.", "en": "I've got an exam, so I can't come." },
+        { "native": "കുറച്ച് കഴിഞ്ഞ് ആക്കാമോ? ഏഴിന് പറ്റുമോ?", "roman": "kuṟacchŭ kaḻiññŭ ākkāmō? ēḻinŭ paṯṯumō?", "en": "Could we make it a bit later? Does seven work?" },
+        { "native": "ഒഴിവാക്കാൻ നോക്കണ്ട, നീ വരണം!", "roman": "oḻivākkān nōkkaṇḍa, nī varaṇam!", "en": "Don't try to wriggle out of it — you have to come!", "focus": "നോക്കണ്ട", "wrong": ["നോക്കി|nōkki", "നോക്കും|nōkkum"] },
+        { "native": "ശരി, അടുത്ത ആഴ്ച ഉറപ്പായും വരാം.", "roman": "shari, aṭutta āḻcha uṟappāyum varām.", "en": "OK, I'll definitely come next week." }
+      ]
+    }
+  ]
+}

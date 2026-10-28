@@ -1,0 +1,220 @@
+{
+  "id": 37,
+  "title": "Sorting out problems",
+  "goal": "Complain about a wrong or damaged order, deal with customer care and the police, pass on exactly what people told you, and negotiate a fair solution without losing your cool.",
+  "intro": "A parcel arrives damaged, customer care promises a callback that never comes, a phone goes missing, an auto driver charges double. To sort these out you need to say clearly what happened and — above all — **what people told you**: 'they said it would come in two days', 'they told me to come back tomorrow', 'apparently it's been sent to the wrong house'.\n\nThat is this unit's grammar: **reported speech in full** with എന്ന്, reported requests with **-ആൻ പറഞ്ഞു**, and the hearsay words **-അത്രേ** and **പോലും**. Plus the phrases that calm a situation down rather than heat it up.",
+  "vocab": [
+    { "native": "പാക്കറ്റ്", "roman": "pākkaṯṯŭ", "en": "packet, parcel, package", "pos": "noun" },
+    { "native": "ഡാമേജ്", "roman": "ḍāmējŭ", "en": "damage; damaged", "pos": "noun", "note": "ഡാമേജ് ആണ് 'it's damaged', ഡാമേജ് ആയി 'got damaged'. Malayalam: കേടുപാട്." },
+    { "native": "ഡ്യൂപ്ലിക്കേറ്റ്", "roman": "ḍyūplikkēṯṯŭ", "en": "fake, counterfeit, knock-off", "pos": "noun", "note": "The everyday word for fake goods. Formal: വ്യാജം." },
+    { "native": "റീഫണ്ട്", "roman": "ṟīfaṇḍŭ", "en": "refund", "pos": "noun", "note": "റീഫണ്ട് കിട്ടുക 'get a refund'." },
+    { "native": "എക്സ്ചേഞ്ച്", "roman": "ekschēñjŭ", "en": "exchange (swap for another item)", "pos": "noun", "note": "എക്സ്ചേഞ്ച് ചെയ്യുക 'to exchange'." },
+    { "native": "കസ്റ്റമർ കെയർ", "roman": "kasṯṯamar keyar", "en": "customer care, customer service", "pos": "noun" },
+    { "native": "വാറന്റി", "roman": "vāṟanṯi", "en": "warranty, guarantee", "pos": "noun", "note": "വാറന്റി ഉണ്ട് 'it's under warranty'." },
+    { "native": "മറുപടി", "roman": "maṟupaṭi", "en": "reply, answer, response", "pos": "noun", "note": "മറുപടി തരുക 'to reply'. More formal than റിപ്ലൈ." },
+    { "native": "ഒഴിവുകഴിവ്", "roman": "oḻivukaḻivŭ", "en": "excuse", "pos": "noun", "note": "ഒഴിവുകഴിവ് പറയുക 'make excuses'." },
+    { "native": "ഉത്തരവാദി", "roman": "uttaravādi", "en": "the person responsible", "pos": "noun", "note": "ഇതിന് ആരാണ് ഉത്തരവാദി? 'who is responsible for this?'" },
+    { "native": "ഉദ്യോഗസ്ഥൻ", "roman": "udyōgasthan", "en": "officer, official", "pos": "noun", "note": "f: ഉദ്യോഗസ്ഥ. Police, bank or government staff. In speech you'd address them as സാർ / മാഡം." },
+    { "native": "തെളിവ്", "roman": "teḷivŭ", "en": "proof, evidence", "pos": "noun" },
+    { "native": "ആവശ്യപ്പെടുക", "roman": "āvashyappeṭuka", "en": "to request, to demand", "pos": "verb", "note": "past ആവശ്യപ്പെട്ടു. Formal: -ആൻ ആവശ്യപ്പെട്ടു 'asked (someone) to…'." },
+    { "native": "അശ്രദ്ധ", "roman": "ashraddha", "en": "carelessness, negligence", "pos": "noun", "note": "From ശ്രദ്ധ 'attention'." },
+    { "native": "ചതിക്കുക", "roman": "chatikkuka", "en": "to cheat, to betray", "pos": "verb", "note": "past ചതിച്ചു. A con: ചതി." },
+    { "native": "പറ്റിക്കുക", "roman": "paṯṯikkuka", "en": "to con, to fool, to rip off", "pos": "verb", "note": "past പറ്റിച്ചു. Very common: എന്നെ പറ്റിച്ചു 'I got conned'. Also used for harmless pranks." },
+    { "native": "പോലും", "roman": "pōlum", "en": "supposedly, apparently (doubtful); even", "pos": "particle", "note": "After a sentence: hearsay with doubt (വരും പോലും 'he's coming, supposedly'). After a word: 'even' (ഒരു രൂപ പോലും 'not even a rupee')." },
+    { "native": "ചൂടാവുക", "roman": "chūṭāvuka", "en": "to get angry, to get worked up", "pos": "verb", "note": "Lit. 'become hot'. ചൂടാവല്ലേ 'don't get worked up'." },
+    { "native": "ശാന്തമായി", "roman": "shāntamāyi", "en": "calmly", "pos": "adv", "note": "ശാന്തം 'calm, peaceful'." },
+    { "native": "തെറ്റിദ്ധാരണ", "roman": "teṯṯiddhāraṇa", "en": "misunderstanding", "pos": "noun" },
+    { "native": "പരിഹാരം", "roman": "parihāram", "en": "solution, remedy", "pos": "noun" },
+    { "native": "ഒത്തുതീർപ്പ്", "roman": "ottutīrppŭ", "en": "settlement, compromise", "pos": "noun", "note": "ഒത്തുതീർപ്പാക്കുക 'to settle (a dispute)'." },
+    { "native": "ഇടപെടുക", "roman": "iṭapeṭuka", "en": "to step in, to intervene, to get involved", "pos": "verb", "note": "past ഇടപെട്ടു." },
+    { "native": "നഷ്ടപരിഹാരം", "roman": "naṣṭaparihāram", "en": "compensation", "pos": "noun", "note": "Lit. 'remedy for a loss'." }
+  ],
+  "phrases": [
+    { "native": "എനിക്ക് കിട്ടിയ പാക്കറ്റ് ഡാമേജ് ആണ്.", "roman": "enikkŭ kiṭṭiya pākkaṯṯŭ ḍāmējŭ āṇŭ.", "en": "The package I received is damaged." },
+    { "native": "ഞാൻ ഓർഡർ ചെയ്തത് ഇതല്ല.", "roman": "ñān ōrḍar cheytatŭ italla.", "en": "This isn't what I ordered." },
+    { "native": "എനിക്ക് റീഫണ്ട് വേണം.", "roman": "enikkŭ ṟīfaṇḍŭ vēṇam.", "en": "I want a refund." },
+    { "native": "ഒരു മാനേജരോട് സംസാരിക്കാമോ?", "roman": "oru mānējarōṭŭ samsārikkāmō?", "en": "Could I speak to a manager?" },
+    { "native": "മൂന്ന് ദിവസത്തിനുള്ളിൽ ശരിയാക്കാമെന്ന് പറഞ്ഞിരുന്നു.", "roman": "mūnnŭ divasattinuḷḷil shariyākkāmennŭ paṟaññirunnu.", "en": "You'd said you would sort it out within three days." },
+    { "native": "ഇത് എഴുതിത്തരാമോ?", "roman": "itŭ eḻutittarāmō?", "en": "Could you give me that in writing?" },
+    { "native": "നിങ്ങൾ പറഞ്ഞത് അങ്ങനെയല്ലല്ലോ.", "roman": "niṅṅaḷ paṟaññatŭ aṅṅaneyallallō.", "en": "That's not what you said, though." },
+    { "native": "ഒഴിവുകഴിവ് പറയേണ്ട.", "roman": "oḻivukaḻivŭ paṟayēṇḍa.", "en": "Don't give me excuses.", "note": "Colloquially പറയണ്ട." },
+    { "native": "അവർ എന്നോട് നാളെ വരാൻ പറഞ്ഞു.", "roman": "avar ennōṭŭ nāḷe varān paṟaññu.", "en": "They told me to come tomorrow." },
+    { "native": "എന്റെ ഫോൺ കാണാനില്ല, പരാതി കൊടുക്കണം.", "roman": "ende fōṇ kāṇānilla, parāti koṭukkaṇam.", "en": "My phone's missing — I need to file a complaint." },
+    { "native": "എന്നെ പറ്റിച്ചു!", "roman": "enne paṯṯicchu!", "en": "I've been conned!" },
+    { "native": "അവൻ നാളെ വരുമത്രേ.", "roman": "avan nāḷe varumatrē.", "en": "Apparently he's coming tomorrow." },
+    { "native": "ചൂടാവല്ലേ, നമുക്ക് സംസാരിച്ച് ശരിയാക്കാം.", "roman": "chūṭāvallē, namukkŭ samsāricchŭ shariyākkām.", "en": "Don't get worked up — let's talk it through and sort it out." },
+    { "native": "ഇതൊരു തെറ്റിദ്ധാരണയാണ്.", "roman": "itoru teṯṯiddhāraṇayāṇŭ.", "en": "This is a misunderstanding." }
+  ],
+  "grammar": [
+    {
+      "title": "Reporting what people said: … എന്ന് in full",
+      "body": "Malayalam doesn't shift tenses or pronouns when reporting the way English does. Take the sentence as it was said, put **എന്ന്** after it (literally 'having said'), and add a verb: പറഞ്ഞു 'said', ചോദിച്ചു 'asked', അറിയിച്ചു 'informed', പറയുന്നു 'is saying'.\n\n[റീഫണ്ട് നാളെ കിട്ടും] **എന്ന്** പറഞ്ഞു → റീഫണ്ട് നാളെ കിട്ടു**മെന്ന്** പറഞ്ഞു 'they said the refund would come tomorrow'.\n\n**Joining എന്ന് on** — it fuses with the word before:\n• ആണ് → **ആണെന്ന്** · അല്ല → **അല്ലെന്ന്** · ഉണ്ട് → **ഉണ്ടെന്ന്** · ഇല്ല → **ഇല്ലെന്ന്**\n• future -ും → **-ുമെന്ന്** (വരുമെന്ന്) · -ആം → **-ആമെന്ന്** (ശരിയാക്കാമെന്ന് 'that they'd sort it')\n• past: വന്നു → **വന്നെന്ന്**, കിട്ടി → **കിട്ടിയെന്ന്** · -അണം → **-അണമെന്ന്**\nIn fast speech എന്ന് often shrinks to **-ന്ന്**: വരുംന്ന് പറഞ്ഞു.\n\n**Questions.** Yes/no questions keep their **-ഓ**, which then means 'whether': കിട്ടുമോ **എന്ന്** ചോദിച്ചു 'asked whether I'd get it'. Wh-questions stay as they are: എപ്പോൾ വരു**മെന്ന്** ചോദിച്ചു 'asked when it would come'. 'I don't know whether…' = …-ഓ എന്ന് അറിയില്ല.\n\n**'What they said was…'**: the -അത് form + **എന്നാണ്**: അവർ **പറഞ്ഞത്** രണ്ട് ദിവസം **എന്നാണ്** 'what they said was two days'. This is how you hold someone to their word. 'They're claiming that…' = … **എന്നാണ് പറയുന്നത്**.\n\n**Who was told** takes **-ഓട്**: എന്നോട്, അവരോട്, മാനേജരോട്. **'Had said'** — **പറഞ്ഞിരുന്നു** — is the form for broken promises: ശരിയാക്കാമെന്ന് **പറഞ്ഞിരുന്നു** 'you HAD said you'd fix it'.\n\n**Pronouns**: inside a quote ഞാൻ means the original speaker, so people simply drop the subject: അവൻ വരില്ലെന്ന് പറഞ്ഞു 'he said he wouldn't come'.",
+      "examples": [
+        { "native": "ഡെലിവറി ഇന്ന് ഉണ്ടാകുമെന്ന് മെസേജ് വന്നു.", "roman": "ḍelivaṟi innŭ uṇḍākumennŭ mesējŭ vannu.", "en": "I got a message saying the delivery would be today." },
+        { "native": "കട ഏഴ് മണിക്ക് അടയ്ക്കുമെന്ന് അറിയില്ലായിരുന്നു.", "roman": "kaṭa ēḻŭ maṇikkŭ aṭaykkumennŭ aṟiyillāyirunnu.", "en": "I didn't know the shop closes at seven." },
+        { "native": "പൈസ കിട്ടിയോ എന്ന് അമ്മ ചോദിച്ചു.", "roman": "paisa kiṭṭiyō ennŭ amma chōdicchu.", "en": "Mum asked whether I'd got the money." },
+        { "native": "അവർ പറഞ്ഞത് ഇത് ഫ്രീ ആണെന്നാണ്.", "roman": "avar paṟaññatŭ itŭ frī āṇennāṇŭ.", "en": "What they said was that it's free." },
+        { "native": "ഫോൺ കിട്ടിയാൽ അറിയിക്കാമെന്ന് പോലീസ് പറഞ്ഞു.", "roman": "fōṇ kiṭṭiyāl aṟiyikkāmennŭ pōlīsŭ paṟaññu.", "en": "The police said they'd let me know if they find the phone." }
+      ]
+    },
+    {
+      "title": "Reporting requests: 'they told me to…', 'they told me not to…'",
+      "body": "For what someone **told you to do**, use the infinitive **-ആൻ** + പറഞ്ഞു — no എന്ന് needed:\n• അവർ എന്നോട് നാളെ **വരാൻ** പറഞ്ഞു 'they told me to come tomorrow'\n• ബില്ല് **കൊണ്ടുവരാൻ** പറഞ്ഞു 'told me to bring the bill'\n\n**Told not to**: quote the negative command + എന്ന്:\n• **-ഏണ്ട എന്ന്** (mild, 'no need to'): പേടിക്കേണ്ട എന്ന് പറഞ്ഞു 'told me not to worry'\n• **-അരുത് എന്ന്** (firm, 'must not'): ആരോടും പറയരുത് എന്ന് പറഞ്ഞു 'told me not to tell anyone'\n\n**Said I must**: **-അണമെന്ന്** പറഞ്ഞു: ഫോട്ടോസ്റ്റാറ്റ് വേണമെന്ന് പറഞ്ഞു 'said a photocopy is needed', നാളെ വരണമെന്ന് പറഞ്ഞു 'said I must come tomorrow'.\n\n**Offered / agreed**: **-ആമെന്ന്** പറഞ്ഞു: ശരിയാക്കാമെന്ന് പറഞ്ഞു 'said they would sort it'.\n\n**Formal**: **-ആൻ ആവശ്യപ്പെട്ടു** 'requested / demanded': റീഫണ്ട് തരാൻ ആവശ്യപ്പെട്ടു 'I asked them to give me a refund'. Complaints, e-mails and the news use this.\n\n**The trap**: -ആൻ പറഞ്ഞു is a **command** ('told me to come'); -ഉമെന്ന് പറഞ്ഞു is a **statement** ('said he would come'). വരാൻ പറഞ്ഞു ≠ വരുമെന്ന് പറഞ്ഞു.",
+      "examples": [
+        { "native": "ഡോക്ടർ എന്നോട് രണ്ട് ദിവസം വിശ്രമിക്കാൻ പറഞ്ഞു.", "roman": "ḍōkṭar ennōṭŭ raṇḍŭ divasam vishramikkān paṟaññu.", "en": "The doctor told me to rest for two days." },
+        { "native": "ഇനി രാത്രി ഒറ്റയ്ക്ക് പുറത്ത് പോകരുത് എന്ന് അമ്മ പറഞ്ഞു.", "roman": "ini rātri oṯṯaykkŭ puṟattŭ pōkarutŭ ennŭ amma paṟaññu.", "en": "Mum told me not to go out alone at night any more." },
+        { "native": "വീണ്ടും വിളിക്കേണ്ട എന്ന് കസ്റ്റമർ കെയർ പറഞ്ഞു.", "roman": "vīṇḍum viḷikkēṇḍa ennŭ kasṯṯamar keyar paṟaññu.", "en": "Customer care told me there's no need to call again." },
+        { "native": "ഒരു ഐഡി കാർഡ് വേണമെന്ന് ബാങ്കിൽ പറഞ്ഞു.", "roman": "oru aiḍi kārḍŭ vēṇamennŭ bāṅkil paṟaññu.", "en": "At the bank they said I need an ID card." },
+        { "native": "പൈസ തിരിച്ചു തരാൻ ഞാൻ കമ്പനിയോട് ആവശ്യപ്പെട്ടു.", "roman": "paisa tiricchu tarān ñān kambaniyōṭŭ āvashyappeṭṭu.", "en": "I asked the company to give me my money back." }
+      ]
+    },
+    {
+      "title": "Hearsay: apparently, supposedly, I heard",
+      "body": "Malayalam has two small words for passing on news without vouching for it:\n\n• **-അത്രേ** (-atrē), stuck to the end of the sentence: 'apparently, they say'. വരു**മത്രേ** 'apparently he's coming', പോയ**ത്രേ** 'apparently he's left', ഇല്ല**ത്രേ** 'apparently there isn't any', ആണ**ത്രേ** 'apparently it's…'. Neutral — just passing it on.\n• **പോലും** after the whole sentence: 'supposedly', with a note of doubt or sarcasm: ഇത് ഡ്യൂപ്ലിക്കേറ്റ് അല്ല **പോലും**! 'this isn't a fake, supposedly!'. After a single word, പോലും means 'even' (ഒരു രൂപ പോലും ഇല്ല 'not even one rupee') — position tells you which.\n• Neutral and safe: **… എന്നാണ് കേട്ടത്** 'what I heard is that…', **… എന്ന് പറയുന്നു** 'they say that…'.\n\nThese are the words of everyday news and gossip — and of WhatsApp forwards. If you aren't sure something is true, add -അത്രേ and nobody can hold you to it.",
+      "examples": [
+        { "native": "ആ ഹോട്ടൽ പൂട്ടിയത്രേ.", "roman": "ā hōṭṭal pūṭṭiyatrē.", "en": "Apparently that restaurant has closed down." },
+        { "native": "നാളെ ഹർത്താൽ ആണത്രേ.", "roman": "nāḷe hartāl āṇatrē.", "en": "Apparently there's a hartal (general strike) tomorrow." },
+        { "native": "അവന് പുതിയ ജോലി കിട്ടിയത്രേ.", "roman": "avanŭ putiya jōli kiṭṭiyatrē.", "en": "Apparently he's got a new job." },
+        { "native": "ഇതിന് രണ്ട് വർഷം വാറന്റി ഉണ്ട് പോലും!", "roman": "itinŭ raṇḍŭ varṣam vāṟanṯi uṇḍŭ pōlum!", "en": "It's got a two-year warranty, supposedly!" },
+        { "native": "ട്രെയിൻ ഒരു മണിക്കൂർ വൈകുമെന്നാണ് കേട്ടത്.", "roman": "ṭreyin oru maṇikkūr vaikumennāṇŭ kēṭṭatŭ.", "en": "What I heard is that the train will be an hour late." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The phone that never came",
+    "setting": "Riya's online order says 'delivered', but she never got it. She goes to the courier office in Thiruvananthapuram with her friend Sanju.",
+    "lines": [
+      { "speaker": "Riya", "native": "ചേട്ടാ, എന്റെ ഫോൺ ഡെലിവർ ചെയ്തെന്നാണ് ആപ്പിൽ കാണിക്കുന്നത്. പക്ഷേ എനിക്ക് കിട്ടിയിട്ടില്ല.", "roman": "chēṭṭā, ende fōṇ ḍelivar cheytennāṇŭ āppil kāṇikkunnatŭ. pakṣē enikkŭ kiṭṭiyiṭṭilla.", "en": "Chetta, the app says my phone's been delivered. But I haven't got it." },
+      { "speaker": "Staff", "native": "ഓർഡർ നമ്പർ പറയൂ… ആ, ഇന്നലെ ഉച്ചയ്ക്ക് കൊടുത്തെന്നാണ് ഡെലിവറി ബോയ് പറയുന്നത്.", "roman": "ōrḍar nambar paṟayū… ā, innale ucchaykkŭ koṭuttennāṇŭ ḍelivaṟi bōy paṟayunnatŭ.", "en": "Tell me the order number… Right, the delivery boy says he handed it over yesterday afternoon." },
+      { "speaker": "Riya", "native": "ഇന്നലെ ഉച്ചയ്ക്ക് ഞാൻ വീട്ടിൽ ഉണ്ടായിരുന്നു! ആരും വന്നില്ല.", "roman": "innale ucchaykkŭ ñān vīṭṭil uṇḍāyirunnu! ārum vannilla.", "en": "I was at home yesterday afternoon! Nobody came." },
+      { "speaker": "Sanju", "native": "ഗേറ്റിന്റെ അടുത്ത് വെച്ചിട്ട് പോയെന്നാണോ പറയുന്നത്?", "roman": "gēṯṯinde aṭuttŭ vecchiṭṭŭ pōyennāṇō paṟayunnatŭ?", "en": "Is he saying he left it by the gate and went?" },
+      { "speaker": "Staff", "native": "അറിയില്ല, അവൻ ഫോൺ എടുക്കുന്നില്ല.", "roman": "aṟiyilla, avan fōṇ eṭukkunnilla.", "en": "Don't know — he isn't answering his phone." },
+      { "speaker": "Riya", "native": "ഇത് മൂന്നാമത്തെ തവണയാണ് ഞാൻ വിളിക്കുന്നത്. കസ്റ്റമർ കെയർ ആണ് ഇവിടെ വരാൻ പറഞ്ഞത്.", "roman": "itŭ mūnnāmatte tavaṇayāṇŭ ñān viḷikkunnatŭ. kasṯṯamar keyar āṇŭ iviṭe varān paṟaññatŭ.", "en": "This is the third time I've chased this. It was customer care who told me to come here." },
+      { "speaker": "Staff", "native": "മാഡം, ചൂടാവല്ലേ. ഞങ്ങൾ നോക്കാം.", "roman": "māḍam, chūṭāvallē. ñaṅṅaḷ nōkkām.", "en": "Madam, please don't get upset. We'll look into it." },
+      { "speaker": "Riya", "native": "എനിക്ക് ഒഴിവുകഴിവ് വേണ്ട. ഫോൺ അല്ലെങ്കിൽ റീഫണ്ട്, ഏതെങ്കിലും ഒന്ന് ഇന്ന് തന്നെ വേണം.", "roman": "enikkŭ oḻivukaḻivŭ vēṇḍa. fōṇ alleṅgil ṟīfaṇḍŭ, ēteṅgilum onnŭ innŭ tanne vēṇam.", "en": "I don't want excuses. The phone or a refund — one or the other, today." },
+      { "speaker": "Sanju", "native": "അത് എഴുതിത്തരാമോ? അല്ലെങ്കിൽ ഞങ്ങൾ പോലീസിൽ പരാതി കൊടുക്കും.", "roman": "atŭ eḻutittarāmō? alleṅgil ñaṅṅaḷ pōlīsil parāti koṭukkum.", "en": "Can you put that in writing? Otherwise we'll file a complaint with the police." },
+      { "speaker": "Staff", "native": "ഒരു മിനിറ്റ്… ഹലോ? … ആ, കിട്ടി. തെറ്റി വേറെ വീട്ടിൽ കൊടുത്തത്രേ. ഇപ്പോൾ തിരിച്ചു വാങ്ങി കൊണ്ടുവരുന്നുണ്ട്.", "roman": "oru miniṯṯŭ… halō? … ā, kiṭṭi. teṯṯi vēṟe vīṭṭil koṭuttatrē. ippōḷ tiricchu vāṅṅi koṇḍuvarunnuṇḍŭ.", "en": "One minute… Hello? … Right, got him. Apparently he gave it to the wrong house by mistake. He's getting it back and bringing it now." },
+      { "speaker": "Riya", "native": "ഹോ! വെറുതെ ഒരു ദിവസം പോയി.", "roman": "hō! veṟute oru divasam pōyi.", "en": "Ugh! A whole day wasted for nothing." },
+      { "speaker": "Sanju", "native": "സാരമില്ല, ഫോൺ കിട്ടുമല്ലോ. ഇനി ഒരു ചായ ആവാം.", "roman": "sāramilla, fōṇ kiṭṭumallō. ini oru chāya āvām.", "en": "Never mind, you're getting the phone. Now we've earned a cup of tea." }
+    ]
+  },
+  "culture": "In Kerala, polite firmness gets results; shouting usually doesn't. Address staff as **ചേട്ടാ / ചേച്ചീ** (or **സാർ / മാഡം** in an office), state the facts, say what you were told and when (**… എന്നാണ് പറഞ്ഞത്**), and ask for one clear thing. Asking for it **in writing** (എഴുതിത്തരാമോ?) or for the manager is a strong but acceptable move. Malayalis are famously aware of their rights: the **consumer court** (ഉപഭോക്തൃ കോടതി) is widely used for faulty goods and bad service, and just mentioning it can change the tone of a conversation.\n\nFor a lost or stolen phone, file a complaint at the police station or online (Kerala Police's portals), and block the SIM and the phone's IMEI. Online fraud — calls 'from the bank' asking for an OTP or card number — is common; the national cyber-crime helpline is **1930**.\n\nA final tip: when things get heated, **ചൂടാവല്ലേ** 'don't get worked up' and **സംസാരിച്ച് ശരിയാക്കാം** 'let's talk it through' are heard on both sides of the counter — and a shared ചായ afterwards often seals the peace.",
+  "lessons": [
+    {
+      "title": "My order went wrong",
+      "tip": { "title": "Saying what's wrong: 'what I ordered', 'the one I got'", "body": "- Past + **-അത്** = 'what (I) did': ഓർഡർ ചെയ്**തത്** 'what I ordered', വന്**നത്** 'what came'.\n- Past relative + noun: എനിക്ക് **കിട്ടിയ** പാക്കറ്റ് 'the package I got'.\n- English words take ആണ് / ആയി: **ഡാമേജ് ആണ്** 'is damaged', **ഡാമേജ് ആയി** 'got damaged'." },
+      "new": ["പാക്കറ്റ്", "ഡാമേജ്", "ഡ്യൂപ്ലിക്കേറ്റ്", "റീഫണ്ട്", "എക്സ്ചേഞ്ച്", "എനിക്ക് കിട്ടിയ പാക്കറ്റ് ഡാമേജ് ആണ്.", "ഞാൻ ഓർഡർ ചെയ്തത് ഇതല്ല.", "എനിക്ക് റീഫണ്ട് വേണം."],
+      "sentences": [
+        { "native": "ഞാൻ ഓർഡർ ചെയ്തത് നീല ഷർട്ട് ആണ്, വന്നത് കറുപ്പ്.", "roman": "ñān ōrḍar cheytatŭ nīla ṣarṭṭŭ āṇŭ, vannatŭ kaṟuppŭ.", "en": "I ordered a blue shirt, and a black one came.", "focus": "വന്നത്", "wrong": ["വന്നു|vannu", "വരുന്ന|varunna"] },
+        { "native": "പാക്കറ്റ് തുറന്നപ്പോൾ ഫോണിന്റെ സ്ക്രീൻ പൊട്ടിയിരുന്നു.", "roman": "pākkaṯṯŭ tuṟannappōḷ fōṇinde skrīn poṭṭiyirunnu.", "en": "When I opened the package, the phone screen was cracked." },
+        { "native": "ഇത് ഡ്യൂപ്ലിക്കേറ്റ് ആണെന്ന് തോന്നുന്നു.", "roman": "itŭ ḍyūplikkēṯṯŭ āṇennŭ tōnnunnu.", "en": "I think this is a fake." },
+        { "native": "എനിക്ക് എക്സ്ചേഞ്ച് വേണ്ട, റീഫണ്ട് മതി.", "roman": "enikkŭ ekschēñjŭ vēṇḍa, ṟīfaṇḍŭ mati.", "en": "I don't want an exchange — just a refund." },
+        { "native": "എനിക്ക് കിട്ടിയ സൈസ് ശരിയല്ല.", "roman": "enikkŭ kiṭṭiya saisŭ shariyalla.", "en": "The size I got isn't right.", "focus": "കിട്ടിയ", "wrong": ["കിട്ടി|kiṭṭi", "കിട്ടുന്നു|kiṭṭunnu"] },
+        { "native": "ഡാമേജ് ആയ സാധനം തിരിച്ചു അയച്ചാൽ റീഫണ്ട് കിട്ടുമോ?", "roman": "ḍāmējŭ āya sādhanam tiricchu ayacchāl ṟīfaṇḍŭ kiṭṭumō?", "en": "If I send the damaged item back, will I get a refund?", "focus": "ആയ", "wrong": ["ആയി|āyi", "ആണ്|āṇŭ"] },
+        { "native": "ഇന്നലെ വന്നത് മുഴുവൻ ഡാമേജ് ആയിരുന്നു.", "roman": "innale vannatŭ muḻuvan ḍāmējŭ āyirunnu.", "en": "Everything that came yesterday was damaged.", "focus": "വന്നത്", "wrong": ["വന്നു|vannu", "വന്ന|vanna"] },
+        { "native": "എക്സ്ചേഞ്ച് ചെയ്യാൻ എത്ര ദിവസം എടുക്കും?", "roman": "ekschēñjŭ cheyyān etra divasam eṭukkum?", "en": "How many days does an exchange take?" },
+        { "native": "പറഞ്ഞത് ഒന്ന്, കിട്ടിയത് വേറെ ഒന്ന്!", "roman": "paṟaññatŭ onnŭ, kiṭṭiyatŭ vēṟe onnŭ!", "en": "They promised one thing and I got something else!", "focus": "കിട്ടിയത്", "wrong": ["കിട്ടി|kiṭṭi", "കിട്ടിയ|kiṭṭiya"] }
+      ]
+    },
+    {
+      "title": "Calling customer care",
+      "tip": { "title": "Reporting what was said: … എന്ന് പറഞ്ഞു", "body": "- Quote the sentence, add **എന്ന്** + a verb of saying: [നാളെ കിട്ടും] **എന്ന്** പറഞ്ഞു → കിട്ടു**മെന്ന്** പറഞ്ഞു.\n- It fuses: ആണ് → **ആണെന്ന്**, ഉണ്ട് → **ഉണ്ടെന്ന്**, ഇല്ല → **ഇല്ലെന്ന്**, -ആം → **-ആമെന്ന്**.\n- The person told takes **-ഓട്**: എന്നോട് പറഞ്ഞു.\n- **പറഞ്ഞിരുന്നു** 'had said' — for broken promises.", "pattern": "[sentence] + എന്ന് + പറഞ്ഞു", "grammar": 0 },
+      "new": [
+        "കസ്റ്റമർ കെയർ",
+        "വാറന്റി",
+        "മറുപടി",
+        "ഒരു മാനേജരോട് സംസാരിക്കാമോ?",
+        "മൂന്ന് ദിവസത്തിനുള്ളിൽ ശരിയാക്കാമെന്ന് പറഞ്ഞിരുന്നു.",
+        "ഇത് എഴുതിത്തരാമോ?"
+      ],
+      "sentences": [
+        { "native": "കസ്റ്റമർ കെയറിൽ വിളിച്ചപ്പോൾ നാളെ റീഫണ്ട് കിട്ടുമെന്ന് പറഞ്ഞു.", "roman": "kasṯṯamar keyaṟil viḷicchappōḷ nāḷe ṟīfaṇḍŭ kiṭṭumennŭ paṟaññu.", "en": "When I called customer care, they said I'd get the refund tomorrow.", "focus": "കിട്ടുമെന്ന്", "wrong": ["കിട്ടും|kiṭṭum", "കിട്ടിയോ|kiṭṭiyō"] },
+        { "native": "ഫോണിന് ഇനിയും വാറന്റി ഉണ്ടെന്ന് അവർ പറഞ്ഞു.", "roman": "fōṇinŭ iniyum vāṟanṯi uṇḍennŭ avar paṟaññu.", "en": "They said the phone's still under warranty.", "focus": "ഉണ്ടെന്ന്", "wrong": ["ഉണ്ട്|uṇḍŭ", "ഉണ്ടോ|uṇḍō"] },
+        { "native": "ഇത് വാറന്റിയിൽ വരില്ലെന്നാണ് അവർ പറയുന്നത്.", "roman": "itŭ vāṟanṯiyil varillennāṇŭ avar paṟayunnatŭ.", "en": "They're saying this isn't covered by the warranty.", "focus": "വരില്ലെന്നാണ്", "wrong": ["വരില്ല|varilla", "വരുമോ|varumō"] },
+        { "native": "രണ്ട് ദിവസമായി ഒരു മറുപടിയും ഇല്ല.", "roman": "raṇḍŭ divasamāyi oru maṟupaṭiyum illa.", "en": "It's been two days and not a single reply." },
+        { "native": "അവർ കൃത്യമായി എന്താണ് പറഞ്ഞത്?", "roman": "avar krutyamāyi endāṇŭ paṟaññatŭ?", "en": "What exactly did they say?" },
+        { "native": "നാളെ രാവിലെ തിരിച്ചു വിളിക്കാമെന്ന് പറഞ്ഞിരുന്നു.", "roman": "nāḷe rāvile tiricchu viḷikkāmennŭ paṟaññirunnu.", "en": "They'd said they would call back tomorrow morning.", "focus": "വിളിക്കാമെന്ന്", "wrong": ["വിളിക്കാം|viḷikkām", "വിളിച്ചെന്ന്|viḷicchennŭ"] },
+        { "native": "പാക്കറ്റ് ഡാമേജ് ആണെന്ന് ഞാൻ കസ്റ്റമർ കെയറിനോട് പറഞ്ഞു.", "roman": "pākkaṯṯŭ ḍāmējŭ āṇennŭ ñān kasṯṯamar keyaṟinōṭŭ paṟaññu.", "en": "I told customer care the package was damaged.", "focus": "ആണെന്ന്", "wrong": ["ആണ്|āṇŭ", "ആണോ|āṇō"] },
+        { "native": "മാനേജരോട് സംസാരിച്ചു, ഇന്ന് തന്നെ ശരിയാക്കാമെന്ന് അദ്ദേഹം പറഞ്ഞു.", "roman": "mānējarōṭŭ samsāricchu, innŭ tanne shariyākkāmennŭ addēham paṟaññu.", "en": "I spoke to the manager; he said he'd sort it out today.", "focus": "ശരിയാക്കാമെന്ന്", "wrong": ["ശരിയാക്കാം|shariyākkām", "ശരിയാക്കിയെന്ന്|shariyākkiyennŭ"] },
+        { "native": "ആ സൈസ് ഇപ്പോൾ ഇല്ലെന്ന് പറഞ്ഞു.", "roman": "ā saisŭ ippōḷ illennŭ paṟaññu.", "en": "They said that size isn't available right now.", "focus": "ഇല്ലെന്ന്", "wrong": ["ഇല്ല|illa", "ഇല്ലേ|illē"] }
+      ]
+    },
+    {
+      "title": "What exactly did they say?",
+      "tip": { "title": "Asked whether…, what they said was…", "body": "- Yes/no questions keep **-ഓ** before എന്ന് = 'whether': കിട്ടുമോ **എന്ന്** ചോദിച്ചു.\n- Wh-questions stay as they are: എപ്പോൾ വരുമെന്ന് ചോദിച്ചു.\n- 'What they said was…' = **പറഞ്ഞത് … എന്നാണ്**.\n- 'I don't know whether…' = **-ഓ എന്ന് അറിയില്ല**.", "grammar": 0 },
+      "new": ["ഒഴിവുകഴിവ്", "ഉത്തരവാദി", "നിങ്ങൾ പറഞ്ഞത് അങ്ങനെയല്ലല്ലോ.", "ഒഴിവുകഴിവ് പറയേണ്ട."],
+      "sentences": [
+        { "native": "റീഫണ്ട് എപ്പോൾ കിട്ടുമെന്ന് ഞാൻ ചോദിച്ചു.", "roman": "ṟīfaṇḍŭ eppōḷ kiṭṭumennŭ ñān chōdicchu.", "en": "I asked when I'd get the refund.", "focus": "കിട്ടുമെന്ന്", "wrong": ["കിട്ടുമോ|kiṭṭumō", "കിട്ടും|kiṭṭum"] },
+        { "native": "പാക്കറ്റ് എവിടെയാണെന്ന് അവർക്കും അറിയില്ല.", "roman": "pākkaṯṯŭ eviṭeyāṇennŭ avarkkum aṟiyilla.", "en": "Even they don't know where the package is." },
+        { "native": "ഇന്ന് വരുമോ എന്ന് ചോദിച്ചപ്പോൾ ഉറപ്പില്ലെന്ന് പറഞ്ഞു.", "roman": "innŭ varumō ennŭ chōdicchappōḷ uṟappillennŭ paṟaññu.", "en": "When I asked if it would come today, they said they weren't sure.", "focus": "വരുമോ", "wrong": ["വരും|varum", "വന്നു|vannu"] },
+        { "native": "അവർ പറഞ്ഞത് രണ്ട് ദിവസം എന്നാണ്, ഇപ്പോൾ ഒരാഴ്ചയായി.", "roman": "avar paṟaññatŭ raṇḍŭ divasam ennāṇŭ, ippōḷ orāḻchayāyi.", "en": "What they said was two days — it's been a week now.", "focus": "എന്നാണ്", "wrong": ["എന്ന്|ennŭ", "ആണ്|āṇŭ"] },
+        { "native": "നിങ്ങൾ പറഞ്ഞത് കള്ളമാണ്.", "roman": "niṅṅaḷ paṟaññatŭ kaḷḷamāṇŭ.", "en": "What you said isn't true.", "focus": "പറഞ്ഞത്", "wrong": ["പറഞ്ഞു|paṟaññu", "പറയും|paṟayum"] },
+        { "native": "അയാൾ കള്ളം പറയുകയാണോ എന്ന് അറിയില്ല.", "roman": "ayāḷ kaḷḷam paṟayukayāṇō ennŭ aṟiyilla.", "en": "I don't know whether he's lying.", "focus": "പറയുകയാണോ", "wrong": ["പറയുകയാണ്|paṟayukayāṇŭ", "പറഞ്ഞു|paṟaññu"] },
+        { "native": "ഞാൻ വീട്ടിൽ ഇല്ലായിരുന്നു എന്നാണ് അവർ പറയുന്നത്.", "roman": "ñān vīṭṭil illāyirunnu ennāṇŭ avar paṟayunnatŭ.", "en": "They're claiming I wasn't at home.", "focus": "എന്നാണ്", "wrong": ["എന്ന്|ennŭ", "എന്നോ|ennō"] },
+        { "native": "ഇതിന് ആരാണ് ഉത്തരവാദി എന്ന് ആർക്കും അറിയില്ല.", "roman": "itinŭ ārāṇŭ uttaravādi ennŭ ārkkum aṟiyilla.", "en": "Nobody knows who is responsible for this." },
+        { "native": "എല്ലാ തവണയും ഓരോ ഒഴിവുകഴിവ്!", "roman": "ellā tavaṇayum ōrō oḻivukaḻivŭ!", "en": "Every single time, another excuse!" },
+        { "native": "എനിക്ക് ഒഴിവുകഴിവ് കേൾക്കേണ്ട, റീഫണ്ട് മതി.", "roman": "enikkŭ oḻivukaḻivŭ kēḷkkēṇḍa, ṟīfaṇḍŭ mati.", "en": "I don't want to hear excuses — just give me the refund." }
+      ]
+    },
+    {
+      "title": "At the police station",
+      "tip": { "title": "'They told me to…': -ആൻ പറഞ്ഞു", "body": "- Orders and requests: **-ആൻ** + പറഞ്ഞു: നാളെ വരാൻ പറഞ്ഞു 'told me to come tomorrow'.\n- 'Told not to': **-ഏണ്ട എന്ന്** (mild) / **-അരുത് എന്ന്** (firm) പറഞ്ഞു.\n- 'Said I must': **-അണമെന്ന്** പറഞ്ഞു.\n- Trap: വരാൻ പറഞ്ഞു 'told me to come' ≠ വരുമെന്ന് പറഞ്ഞു 'said he'd come'.", "pattern": "എന്നോട് + verb-ആൻ + പറഞ്ഞു", "grammar": 1 },
+      "new": ["ഉദ്യോഗസ്ഥൻ", "തെളിവ്", "ആവശ്യപ്പെടുക", "അവർ എന്നോട് നാളെ വരാൻ പറഞ്ഞു.", "എന്റെ ഫോൺ കാണാനില്ല, പരാതി കൊടുക്കണം."],
+      "sentences": [
+        { "native": "പോലീസ് എന്നോട് ഒരു പരാതി എഴുതിക്കൊടുക്കാൻ പറഞ്ഞു.", "roman": "pōlīsŭ ennōṭŭ oru parāti eḻutikkoṭukkān paṟaññu.", "en": "The police told me to write out a complaint.", "focus": "എഴുതിക്കൊടുക്കാൻ", "wrong": ["എഴുതിക്കൊടുത്തു|eḻutikkoṭuttu", "എഴുതിക്കൊടുക്കും|eḻutikkoṭukkum"] },
+        { "native": "ബില്ലിന്റെ ഫോട്ടോസ്റ്റാറ്റ് കൊണ്ടുവരണമെന്ന് ഉദ്യോഗസ്ഥൻ പറഞ്ഞു.", "roman": "billinde fōṭṭōsṯṯāṯṯŭ koṇḍuvaraṇamennŭ udyōgasthan paṟaññu.", "en": "The officer said I must bring a photocopy of the bill.", "focus": "കൊണ്ടുവരണമെന്ന്", "wrong": ["കൊണ്ടുവരണം|koṇḍuvaraṇam", "കൊണ്ടുവന്നെന്ന്|koṇḍuvannennŭ"] },
+        { "native": "പേടിക്കേണ്ട എന്ന് അവർ പറഞ്ഞു.", "roman": "pēṭikkēṇḍa ennŭ avar paṟaññu.", "en": "They told me not to worry.", "focus": "പേടിക്കേണ്ട", "wrong": ["പേടിക്കാൻ|pēṭikkān", "പേടിച്ചു|pēṭicchu"] },
+        { "native": "സിം ഉടനെ ബ്ലോക്ക് ചെയ്യാൻ അവർ പറഞ്ഞു.", "roman": "sim uṭane blōkkŭ cheyyān avar paṟaññu.", "en": "They told me to block the SIM straight away.", "focus": "ചെയ്യാൻ", "wrong": ["ചെയ്തു|cheytu", "ചെയ്യും|cheyyum"] },
+        { "native": "ഫോൺ എന്റേതാണെന്നതിന് തെളിവ് വേണം.", "roman": "fōṇ endētāṇennatinŭ teḷivŭ vēṇam.", "en": "They need proof that the phone is mine." },
+        { "native": "ബില്ല് ആണ് ഏറ്റവും നല്ല തെളിവ്.", "roman": "billŭ āṇŭ ēṯṯavum nalla teḷivŭ.", "en": "The bill is the best proof." },
+        { "native": "ആരോടും ഒന്നും പറയരുത് എന്ന് ഉദ്യോഗസ്ഥൻ പറഞ്ഞു.", "roman": "ārōṭum onnum paṟayarutŭ ennŭ udyōgasthan paṟaññu.", "en": "The officer told me not to tell anyone anything.", "focus": "പറയരുത്", "wrong": ["പറയാൻ|paṟayān", "പറഞ്ഞു|paṟaññu"] },
+        { "native": "ഞാൻ കടക്കാരനോട് ബില്ല് കാണിക്കാൻ ആവശ്യപ്പെട്ടു.", "roman": "ñān kaṭakkāranōṭŭ billŭ kāṇikkān āvashyappeṭṭu.", "en": "I asked the shopkeeper to show me the bill.", "focus": "കാണിക്കാൻ", "wrong": ["കാണിച്ചു|kāṇicchu", "കാണിക്കും|kāṇikkum"] },
+        { "native": "നാളെ രാവിലെ സ്റ്റേഷനിൽ വരാൻ പറഞ്ഞിട്ടുണ്ട്.", "roman": "nāḷe rāvile sṯṯēṣanil varān paṟaññiṭṭuṇḍŭ.", "en": "They've told me to come to the station tomorrow morning.", "focus": "വരാൻ", "wrong": ["വന്നു|vannu", "വരും|varum"] }
+      ]
+    },
+    {
+      "title": "That's a con!",
+      "tip": { "title": "Apparently…: -അത്രേ and പോലും", "body": "- Add **-അത്രേ** for 'apparently, they say': വരു**മത്രേ**, കിട്ടിയ**ത്രേ**, ഇല്ല**ത്രേ**.\n- **പോലും** after the sentence = 'supposedly' (doubtful, sarcastic): ഇത് ഫ്രീ ആണ് **പോലും**!\n- Neutral: **… എന്നാണ് കേട്ടത്** 'what I heard is…'.", "pattern": "sentence + -അത്രേ · sentence + പോലും", "grammar": 2 },
+      "new": ["ചതിക്കുക", "പറ്റിക്കുക", "പോലും", "എന്നെ പറ്റിച്ചു!", "അവൻ നാളെ വരുമത്രേ."],
+      "sentences": [
+        { "native": "ആ കട എല്ലാവരെയും പറ്റിക്കുമത്രേ.", "roman": "ā kaṭa ellāvareyum paṯṯikkumatrē.", "en": "Apparently that shop rips everyone off.", "focus": "പറ്റിക്കുമത്രേ", "wrong": ["പറ്റിക്കാൻ|paṯṯikkān", "പറ്റിക്കണം|paṯṯikkaṇam"] },
+        { "native": "ഫോൺ ഇന്നലെ കിട്ടിയെന്നാണ് കേട്ടത്.", "roman": "fōṇ innale kiṭṭiyennāṇŭ kēṭṭatŭ.", "en": "What I heard is that the phone was found yesterday.", "focus": "കേട്ടത്", "wrong": ["കേട്ടു|kēṭṭu", "കേൾക്കും|kēḷkkum"] },
+        { "native": "ഇത് ഡ്യൂപ്ലിക്കേറ്റ് അല്ല പോലും!", "roman": "itŭ ḍyūplikkēṯṯŭ alla pōlum!", "en": "This isn't a fake — supposedly!", "focus": "പോലും", "wrong": ["മാത്രം|mātram", "തന്നെ|tanne"] },
+        { "native": "അവൻ എന്നെ ചതിച്ചു, ഇനി അവനെ വിശ്വസിക്കില്ല.", "roman": "avan enne chaticchu, ini avane vishvasikkilla.", "en": "He cheated me — I won't trust him again." },
+        { "native": "റീഫണ്ട് അടുത്ത ആഴ്ച വരുമത്രേ.", "roman": "ṟīfaṇḍŭ aṭutta āḻcha varumatrē.", "en": "Apparently the refund will come next week.", "focus": "വരുമത്രേ", "wrong": ["വരാൻ|varān", "വരണം|varaṇam"] },
+        { "native": "ഓട്ടോക്കാരൻ എന്നെ പറ്റിച്ചു, ഇരട്ടി കാശ് വാങ്ങി.", "roman": "ōṭṭōkkāran enne paṯṯicchu, iraṭṭi kāshŭ vāṅṅi.", "en": "The auto driver conned me — he charged double." },
+        { "native": "ആ കമ്പനിക്ക് ഓഫീസ് ഇല്ലത്രേ.", "roman": "ā kambanikkŭ ōfīsŭ illatrē.", "en": "Apparently that company doesn't have an office.", "focus": "ഇല്ലത്രേ", "wrong": ["ഇല്ലാത്ത|illātta", "ഇല്ലേ|illē"] },
+        { "native": "അയാൾ ബാങ്കിൽ നിന്നാണ് പോലും വിളിച്ചത്!", "roman": "ayāḷ bāṅkil ninnāṇŭ pōlum viḷicchatŭ!", "en": "He was calling 'from the bank', supposedly!" },
+        { "native": "കാർഡ് നമ്പർ ചോദിക്കുന്നവർ ചതിക്കാനാണ് വിളിക്കുന്നത്.", "roman": "kārḍŭ nambar chōdikkunnavar chatikkānāṇŭ viḷikkunnatŭ.", "en": "People who ask for your card number are calling to cheat you." }
+      ]
+    },
+    {
+      "title": "Keeping calm and finding a solution",
+      "tip": { "title": "Cooling things down", "body": "- **ചൂടാവല്ലേ** 'don't get worked up': the pleading -അല്ലേ (unit 18) is softer than -അരുത്.\n- **ശാന്തമായി സംസാരിക്കാം** 'let's talk calmly'; **സംസാരിച്ച് ശരിയാക്കാം** 'let's talk it through'.\n- Offer a middle way: **പകുതി തന്നാൽ…** 'if you give me half…', **ഒത്തുതീർപ്പിന് റെഡിയാണ്**." },
+      "new": [
+        "ചൂടാവുക",
+        "ശാന്തമായി",
+        "തെറ്റിദ്ധാരണ",
+        "പരിഹാരം",
+        "ഒത്തുതീർപ്പ്",
+        "ഇടപെടുക",
+        "നഷ്ടപരിഹാരം",
+        "അശ്രദ്ധ",
+        "ചൂടാവല്ലേ, നമുക്ക് സംസാരിച്ച് ശരിയാക്കാം.",
+        "ഇതൊരു തെറ്റിദ്ധാരണയാണ്."
+      ],
+      "sentences": [
+        { "native": "ചേട്ടാ, ചൂടാവല്ലേ, ഇത് ചേട്ടന്റെ തെറ്റല്ലെന്ന് എനിക്കറിയാം.", "roman": "chēṭṭā, chūṭāvallē, itŭ chēṭṭande teṯṯallennŭ enikkaṟiyām.", "en": "Chetta, don't get worked up — I know it's not your fault.", "focus": "ചൂടാവല്ലേ", "wrong": ["ചൂടായി|chūṭāyi", "ചൂടാവും|chūṭāvum"] },
+        { "native": "നമുക്ക് ശാന്തമായി സംസാരിക്കാം.", "roman": "namukkŭ shāntamāyi samsārikkām.", "en": "Let's talk about this calmly." },
+        { "native": "ഇതിന് ഒരു പരിഹാരം വേണം.", "roman": "itinŭ oru parihāram vēṇam.", "en": "We need a solution to this." },
+        { "native": "എനിക്ക് നഷ്ടപരിഹാരം വേണം, സോറി മാത്രം മതിയാവില്ല.", "roman": "enikkŭ naṣṭaparihāram vēṇam, sōṟi mātram matiyāvilla.", "en": "I want compensation — a sorry isn't enough." },
+        { "native": "പകുതി റീഫണ്ട് തന്നാൽ ഒത്തുതീർപ്പിന് ഞാൻ റെഡിയാണ്.", "roman": "pakuti ṟīfaṇḍŭ tannāl ottutīrppinŭ ñān ṟeḍiyāṇŭ.", "en": "If you refund half, I'm willing to settle." },
+        { "native": "മാനേജർ ഇടപെട്ടപ്പോൾ എല്ലാം പെട്ടെന്ന് ശരിയായി.", "roman": "mānējar iṭapeṭṭappōḷ ellām peṭṭennŭ shariyāyi.", "en": "Once the manager stepped in, everything got sorted quickly." },
+        { "native": "ചൂടായിട്ട് കാര്യമില്ല.", "roman": "chūṭāyiṭṭŭ kāryamilla.", "en": "Getting angry won't help." },
+        { "native": "സോറി, ചെറിയ ഒരു തെറ്റിദ്ധാരണ ഉണ്ടായി.", "roman": "sōṟi, cheṟiya oru teṯṯiddhāraṇa uṇḍāyi.", "en": "Sorry, there was a small misunderstanding." },
+        { "native": "ഇത് നിങ്ങളുടെ ആളുടെ അശ്രദ്ധയാണ്, എന്റെ തെറ്റല്ല.", "roman": "itŭ niṅṅaḷuṭe āḷuṭe ashraddhayāṇŭ, ende teṯṯalla.", "en": "This is your guy's carelessness, not my fault." },
+        { "native": "നിങ്ങൾ ഇടപെടേണ്ട, ഞാൻ ശരിയാക്കിക്കോളാം.", "roman": "niṅṅaḷ iṭapeṭēṇḍa, ñān shariyākkikkōḷām.", "en": "Don't you get involved — I'll handle it." }
+      ]
+    }
+  ]
+}

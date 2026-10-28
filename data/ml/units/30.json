@@ -1,0 +1,230 @@
+{
+  "id": 30,
+  "title": "Feelings & support",
+  "goal": "Ask a friend what is wrong, cheer them up, apologise properly, congratulate, offer condolences — and say when, while, as soon as and until things happened.",
+  "intro": "Real friendship happens in Malayalam when things go wrong or very right: a friend who didn't get the job, a cousin who's homesick in Dubai, a fight you need to patch up, a funeral, a promotion that means you owe everyone a treat.\n\nThis unit gives you the words for it and two pieces of grammar that make your speech flow: **time clauses** ('when I heard', 'as soon as she called', 'until you're better'), and the way Malayalam makes feelings **happen to you** — anger *comes* to you, sadness *becomes* for you, and sometimes you just *burst into* tears.",
+  "vocab": [
+    { "native": "വിഷമിക്കുക", "roman": "viṣamikkuka", "en": "to be upset, to worry", "pos": "verb", "note": "Past: വിഷമിച്ചു. വിഷമിക്കേണ്ട 'don't worry' is one of the most common comforting words." },
+    { "native": "ഭയങ്കരം", "roman": "bhayaṅgaram", "en": "terrible, awful; (colloquial) so, really", "pos": "adj", "note": "Before a noun: ഭയങ്കര — ഭയങ്കര ടെൻഷൻ 'serious stress', ഭയങ്കര രസം 'so much fun'. Young people use it for good things too." },
+    { "native": "ഉറക്കം", "roman": "uṟakkam", "en": "sleep; sleepiness", "pos": "noun", "note": "എനിക്ക് ഉറക്കം വരുന്നു 'I'm sleepy'; ഉറക്കം വരുന്നില്ല 'I can't get to sleep'." },
+    { "native": "മടുക്കുക", "roman": "maṭukkuka", "en": "to get fed up, be sick of (dative subject)", "pos": "verb", "note": "Past: മടുത്തു. എനിക്ക് മടുത്തു 'I'm fed up'." },
+    { "native": "കരച്ചിൽ", "roman": "karacchil", "en": "crying (noun)", "pos": "noun", "note": "എനിക്ക് കരച്ചിൽ വന്നു 'I felt like crying' (lit. crying came to me)." },
+    { "native": "ആശ്വസിപ്പിക്കുക", "roman": "āshvasippikkuka", "en": "to comfort, console", "pos": "verb", "note": "Past: ആശ്വസിപ്പിച്ചു. Causative of ആശ്വസിക്കുക 'to feel relieved'." },
+    { "native": "സമാധാനം", "roman": "samādhānam", "en": "peace of mind, calm; peace", "pos": "noun", "note": "സമാധാനമായി 'what a relief, now I can relax'; സമാധാനമായിരിക്ക് 'calm down, relax'." },
+    { "native": "ഒറ്റയ്ക്ക്", "roman": "oṯṯaykkŭ", "en": "alone, on one's own", "pos": "adv" },
+    { "native": "കൂട്ട്", "roman": "kūṭṭŭ", "en": "company, companionship; friendship", "pos": "noun", "note": "ഞാൻ കൂട്ടിന് വരാം 'I'll come along to keep you company'." },
+    { "native": "ധൈര്യം", "roman": "dhairyam", "en": "courage, nerve; confidence", "pos": "noun", "note": "ധൈര്യമായിരിക്ക് 'be strong, don't be afraid'." },
+    { "native": "ഇടയ്ക്ക്", "roman": "iṭaykkŭ", "en": "in between; now and then; in the middle of", "pos": "adv", "note": "After -ുന്നതിന്: സംസാരിക്കുന്നതിനിടയ്ക്ക് 'in the middle of talking'. Alone: ഇടയ്ക്ക് വിളിക്കണം 'call now and then'." },
+    { "native": "ശരിയാവുക", "roman": "shariyāvuka", "en": "to work out, get sorted, get better", "pos": "verb", "note": "Future: ശരിയാവും. Past: ശരിയായി." },
+    { "native": "മാപ്പ്", "roman": "māppŭ", "en": "forgiveness; apology", "pos": "noun", "note": "മാപ്പ് ചോദിക്കുക 'to apologise'; മാപ്പ് തരണം 'please forgive me' (strong, serious)." },
+    { "native": "ക്ഷമിക്കുക", "roman": "kṣamikkuka", "en": "to forgive; to be patient", "pos": "verb", "note": "Past: ക്ഷമിച്ചു. ക്ഷമിക്കണം 'sorry' (unit 1) is its 'must' form: '(you) must forgive'." },
+    { "native": "തെറ്റ്", "roman": "teṯṯŭ", "en": "mistake; wrong", "pos": "noun", "note": "എനിക്ക് തെറ്റ് പറ്റി 'I made a mistake' (lit. a mistake happened to me)." },
+    { "native": "വേദനിപ്പിക്കുക", "roman": "vēdanippikkuka", "en": "to hurt (someone), upset", "pos": "verb", "note": "Past: വേദനിപ്പിച്ചു. The person hurt takes -എ: നിന്നെ വേദനിപ്പിച്ചു." },
+    { "native": "ദേഷ്യപ്പെടുക", "roman": "dēṣyappeṭuka", "en": "to get angry, snap (at: -ഓട്)", "pos": "verb", "note": "Past: ദേഷ്യപ്പെട്ടു." },
+    { "native": "പിണങ്ങുക", "roman": "piṇaṅṅuka", "en": "to sulk, fall out (with: -ഓട്)", "pos": "verb", "note": "Past: പിണങ്ങി. Noun: പിണക്കം 'a sulk, a falling-out'." },
+    { "native": "പ്രതീക്ഷ", "roman": "pratīkṣa", "en": "hope; expectation", "pos": "noun", "note": "Verb: പ്രതീക്ഷിക്കുക 'to hope for, expect'." },
+    { "native": "നിരാശ", "roman": "nirāsha", "en": "disappointment; despair", "pos": "noun", "note": "നിരാശപ്പെടേണ്ട 'don't lose heart'." },
+    { "native": "ശേഷം", "roman": "shēṣam", "en": "after", "pos": "postp", "note": "After the past -അതിന്: കഴിച്ചതിന് ശേഷം 'after eating'." },
+    { "native": "ആശ്വാസം", "roman": "āshvāsam", "en": "relief; comfort", "pos": "noun", "note": "എനിക്ക് ആശ്വാസമായി 'I'm relieved'." },
+    { "native": "വിജയം", "roman": "vijayam", "en": "success; win, victory", "pos": "noun" },
+    { "native": "അഭിമാനം", "roman": "abhimānam", "en": "pride (in someone); self-respect", "pos": "noun", "note": "X-നെ ഓർത്ത് അഭിമാനം തോന്നുന്നു 'I'm proud of X' (lit. thinking of X, pride is felt)." },
+    { "native": "കെട്ടിപ്പിടിക്കുക", "roman": "keṭṭippiṭikkuka", "en": "to hug", "pos": "verb", "note": "Past: കെട്ടിപ്പിടിച്ചു." },
+    { "native": "മിസ് ചെയ്യുക", "roman": "misŭ cheyyuka", "en": "to miss (someone, something)", "pos": "verb", "note": "From English; ചെയ്യുക carries the tense: മിസ് ചെയ്യുന്നു, മിസ് ചെയ്തു." },
+    { "native": "പാവം", "roman": "pāvam", "en": "poor thing; gentle, harmless (person)", "pos": "adj", "note": "അയ്യോ പാവം! 'oh, poor thing!' · അവൻ ഒരു പാവമാണ് 'he's a sweet, harmless guy'." },
+    { "native": "ബ്രേക്കപ്പ്", "roman": "brēkkappŭ", "en": "break-up", "pos": "noun", "note": "From English: അവർക്ക് ബ്രേക്കപ്പ് ആയി 'they broke up'." },
+    { "native": "ദുഃഖം", "roman": "duḥkham", "en": "grief, sorrow", "pos": "noun", "note": "Deeper and more formal than സങ്കടം; the word for bereavement. Pronounced dukkham." },
+    { "native": "അനുശോചനം", "roman": "anushōchanam", "en": "condolences (formal)", "pos": "noun", "note": "അനുശോചനം അറിയിക്കുക 'to offer condolences' — speeches, letters, the news." },
+    { "native": "ആദരാഞ്ജലികൾ", "roman": "ādarāñjalikaḷ", "en": "tributes; 'rest in peace'", "pos": "noun", "note": "What people write on posts and in WhatsApp groups when someone dies." }
+  ],
+  "phrases": [
+    { "native": "എന്ത് പറ്റി? ആകെ ഡൾ ആണല്ലോ.", "roman": "endŭ paṯṯi? āke ḍal āṇallō.", "en": "What happened? You look really down.", "note": "ഡൾ is English 'dull' — Malayalis use it for 'low, down'." },
+    { "native": "എനിക്ക് ആകെ ടെൻഷനാണ്.", "roman": "enikkŭ āke ṭenṣanāṇŭ.", "en": "I'm so stressed." },
+    { "native": "എനിക്ക് മടുത്തു.", "roman": "enikkŭ maṭuttu.", "en": "I'm fed up. / I've had enough." },
+    { "native": "വിഷമിക്കേണ്ട, എല്ലാം ശരിയാവും.", "roman": "viṣamikkēṇḍa, ellām shariyāvum.", "en": "Don't worry, it'll all work out." },
+    { "native": "ഞാൻ ഇല്ലേ കൂടെ?", "roman": "ñān illē kūṭe?", "en": "I'm here for you, aren't I? (lit. am I not with you?)", "note": "Usually run together: ഞാനില്ലേ കൂടെ?" },
+    { "native": "എന്നോട് ക്ഷമിക്കണം, എന്റെ തെറ്റാണ്.", "roman": "ennōṭŭ kṣamikkaṇam, ende teṯṯāṇŭ.", "en": "Please forgive me, it's my fault." },
+    { "native": "ഞാൻ അങ്ങനെ പറയാൻ പാടില്ലായിരുന്നു.", "roman": "ñān aṅṅane paṟayān pāṭillāyirunnu.", "en": "I shouldn't have said that.", "note": "-ആൻ പാടില്ല 'mustn't' + past ആയിരുന്നു = 'shouldn't have'." },
+    { "native": "നീ എന്നോട് പിണക്കമാണോ?", "roman": "nī ennōṭŭ piṇakkamāṇō?", "en": "Are you cross with me? (informal)" },
+    { "native": "ഹാവൂ, ഇപ്പോഴാണ് സമാധാനമായത്.", "roman": "hāvū, ippōḻāṇŭ samādhānamāyatŭ.", "en": "Phew, now I can relax.", "note": "ഹാവൂ is the sigh of relief." },
+    { "native": "എന്ത് വേണമെങ്കിലും എന്നെ വിളിച്ചോ.", "roman": "endŭ vēṇameṅgilum enne viḷicchō.", "en": "If you need anything at all, just call me.", "note": "വിളിച്ചോ 'go ahead and call' is the friendly form of വിളിച്ചോളൂ." },
+    { "native": "അഭിനന്ദനങ്ങൾ! നിന്നെ ഓർത്ത് അഭിമാനം തോന്നുന്നു.", "roman": "abhinandanaṅṅaḷ! ninne ōrttŭ abhimānam tōnnunnu.", "en": "Congratulations! I'm proud of you." },
+    { "native": "കലക്കി!", "roman": "kalakki!", "en": "You nailed it! Brilliant! (slang)", "note": "Lit. '(you) stirred it up'. Also കലക്കി മോനേ / മോളേ! to someone younger." },
+    { "native": "നിന്നെ ഒരുപാട് മിസ് ചെയ്യുന്നു.", "roman": "ninne orupāṭŭ misŭ cheyyunnu.", "en": "I miss you a lot." },
+    { "native": "അയ്യോ, കേട്ടപ്പോൾ വിഷമമായി.", "roman": "ayyō, kēṭṭappōḷ viṣamamāyi.", "en": "Oh no, I was so sorry to hear that." },
+    { "native": "നിങ്ങളുടെ ദുഃഖത്തിൽ ഞാനും പങ്കുചേരുന്നു.", "roman": "niṅṅaḷuṭe duḥkhattil ñānum paṅguchērunnu.", "en": "I share in your grief. (formal condolence)" },
+    { "native": "സാരമില്ലെടാ, പോട്ടെ.", "roman": "sāramilleṭā, pōṭṭe.", "en": "Never mind, mate, let it go. (informal, to a guy)", "note": "To a girl: സാരമില്ലെടീ. എടാ / എടീ are only for close friends your age or younger." }
+  ],
+  "grammar": [
+    {
+      "title": "When, while, as soon as, until: time clauses",
+      "body": "Malayalam has no separate words for *when, while, as soon as* or *until*. Instead the verb of the time clause takes an **ending**, and that clause comes **first**, before the main sentence.\n\n**When / while — -ുമ്പോൾ** (-umbōḷ): take the -ും future (വരും, പോകും, ഇരിക്കും) and add -മ്പോൾ: **വരുമ്പോൾ** 'when (X) comes / while coming', **പോകുമ്പോൾ**, **ഇരിക്കുമ്പോൾ**. The clause itself has no tense — the main verb decides it: ഞാൻ വരുമ്പോൾ മഴയായിരുന്നു 'when I was coming, it was raining'.\n\n**When (it happened) — past + -പ്പോൾ**: for a single finished event use the past relative form (unit 20: വന്ന, കണ്ട, പോയ, കേട്ട) + **-പ്പോൾ**: **വന്നപ്പോൾ** 'when (X) came', **കണ്ടപ്പോൾ** 'when (I) saw', **കേട്ടപ്പോൾ** 'when (I) heard'. In speech: വന്നപ്പോ.\n\n**In the middle of — -ുന്നതിനിടയ്ക്ക്**: -ുന്നത് 'the …ing' + ഇടയ്ക്ക് 'in between': **സംസാരിക്കുന്നതിനിടയ്ക്ക്** 'in the middle of talking'.\n\n**As soon as**: past relative + **ഉടനെ**: **വന്ന ഉടനെ** 'as soon as (X) came', **കിട്ടിയ ഉടനെ**. In fast speech, past + **-തും**: അവൻ **വന്നതും**… 'the moment he came…'.\n\n**Until — -ുന്നതുവരെ**: -ുന്നത് + വരെ 'up to': **വരുന്നതുവരെ** 'until (X) comes', **കഴിയുന്നതുവരെ** 'until it's over'. (A shorter വരുംവരെ is also heard.)\n\n**Before / after**: -ുന്നതിന് **മുമ്പ്** 'before …ing' (പോകുന്നതിന് മുമ്പ്), past + -അതിന് **ശേഷം** 'after …ing' (കഴിച്ചതിന് ശേഷം).\n\n**The trap**: never put the time word in front as in English. It is always glued to the **end** of its own clause: not *ഉടനെ അവൻ വന്നു…* but **അവൻ വന്ന ഉടനെ…**",
+      "examples": [
+        { "native": "ഞാൻ ഓഫീസിൽ നിന്ന് വരുമ്പോൾ നല്ല മഴയായിരുന്നു.", "roman": "ñān ōfīsil ninnŭ varumbōḷ nalla maḻayāyirunnu.", "en": "When I was coming back from the office, it was pouring." },
+        { "native": "അവൾ വിളിച്ചപ്പോൾ ഞാൻ ഉറങ്ങുകയായിരുന്നു.", "roman": "avaḷ viḷicchappōḷ ñān uṟaṅṅukayāyirunnu.", "en": "When she called, I was asleep." },
+        { "native": "ബസ് നിർത്തിയ ഉടനെ അവൻ ഇറങ്ങി ഓടി.", "roman": "basŭ nirttiya uṭane avan iṟaṅṅi ōṭi.", "en": "As soon as the bus stopped, he jumped off and ran." },
+        { "native": "അവൻ വന്നതും എല്ലാവരും ചിരിച്ചു.", "roman": "avan vannatum ellāvarum chiricchu.", "en": "The moment he walked in, everyone laughed." },
+        { "native": "നീ തിരിച്ചുവരുന്നതുവരെ ഞാൻ ഇവിടെ ഉണ്ടാവും.", "roman": "nī tiricchuvarunnatuvare ñān iviṭe uṇḍāvum.", "en": "I'll be here until you come back." },
+        { "native": "ഊണ് കഴിച്ചതിന് ശേഷം നമുക്ക് സംസാരിക്കാം.", "roman": "ūṇŭ kaḻicchatinŭ shēṣam namukkŭ samsārikkām.", "en": "Let's talk after lunch." }
+      ]
+    },
+    {
+      "title": "Feelings that happen to you",
+      "body": "In unit 14 you met feelings with the dative: എനിക്ക് സന്തോഷമാണ്. Malayalam goes further: most feelings and body states are things that **come to** you or **become** for you, not things you do. The feeler takes the **dative** (എനിക്ക്, നിനക്ക്, അവന്, അവൾക്ക്, അവർക്ക്) and the feeling is the subject:\n\n• **feeling + വരുക** 'come' — something rising up in you: എനിക്ക് **ദേഷ്യം വന്നു** 'I got angry', **ഉറക്കം വരുന്നു** 'I'm getting sleepy', **കരച്ചിൽ വന്നു** 'I felt like crying', **ചിരി വന്നു** 'I couldn't help laughing'.\n• **feeling + ആവുക** (past **ആയി**) 'become' — a change of state: എനിക്ക് **സങ്കടമായി** 'I got sad', **പേടിയായി**, **ടെൻഷനായി**, **ആശ്വാസമായി** 'I was relieved', **സമാധാനമായി**.\n• **ആണ് / ഉണ്ട്** — the state itself: എനിക്ക് **ടെൻഷനാണ്** 'I'm stressed', എനിക്ക് **വിഷമമുണ്ട്** 'I'm upset'.\n• Some verbs are dative-subject verbs on their own: എനിക്ക് **മടുത്തു** 'I'm fed up', **ബോറടിച്ചു** 'I got bored', **തോന്നി** 'I felt'.\n\n**Couldn't help it: + പോയി.** Put **പോയി** after the joining form of a verb (unit 20) to say something happened before you could stop it: ഞാൻ **കരഞ്ഞുപോയി** 'I just burst into tears', **പേടിച്ചുപോയി** 'I got such a fright', **ചിരിച്ചുപോയി**, **മറന്നുപോയി** (unit 16).\n\n**Making someone feel: -ിപ്പിക്കുക.** The causative turns 'feel' into 'make feel': വേദനിക്കുക 'hurt' → **വേദനിപ്പിക്കുക** 'hurt (someone)', ചിരിക്കുക → **ചിരിപ്പിക്കുക** 'make laugh', കരയുക → **കരയിപ്പിക്കുക** 'make cry', പേടിക്കുക → **പേടിപ്പിക്കുക** 'scare', ആശ്വസിക്കുക → **ആശ്വസിപ്പിക്കുക** 'comfort'.\n\n**The trap**: ഞാൻ ദേഷ്യം വന്നു is wrong — it must be **എനിക്ക്** ദേഷ്യം വന്നു. But the verbs ending in -പ്പെടുക take an ordinary subject: **ഞാൻ** ദേഷ്യപ്പെട്ടു 'I lost my temper (at someone)'.",
+      "examples": [
+        { "native": "എനിക്ക് അവനോട് ഭയങ്കര ദേഷ്യം വന്നു.", "roman": "enikkŭ avanōṭŭ bhayaṅgara dēṣyam vannu.", "en": "I got really angry with him." },
+        { "native": "അവൻ വിളിച്ചപ്പോൾ അമ്മയ്ക്ക് ആശ്വാസമായി.", "roman": "avan viḷicchappōḷ ammaykkŭ āshvāsamāyi.", "en": "Mum was relieved when he called." },
+        { "native": "മീറ്റിംഗിൽ ഇരുന്ന് എനിക്ക് ഉറക്കം വന്നു.", "roman": "mīṯṯiṅgil irunnŭ enikkŭ uṟakkam vannu.", "en": "Sitting in the meeting, I got sleepy." },
+        { "native": "ആ സീൻ കണ്ട് ഞാൻ ചിരിച്ചുപോയി.", "roman": "ā sīn kaṇḍŭ ñān chiricchupōyi.", "en": "I burst out laughing at that scene." },
+        { "native": "നീ എന്നെ ശരിക്കും പേടിപ്പിച്ചു!", "roman": "nī enne sharikkum pēṭippicchu!", "en": "You really scared me!" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Not the job, but…",
+    "setting": "Kochi, evening, at a tea stall near Infopark. Diya didn't get the job she wanted; her friend Arun tries to cheer her up.",
+    "lines": [
+      { "speaker": "Arun", "native": "എന്താ ദിയാ, ആകെ ഡൾ ആണല്ലോ? എന്ത് പറ്റി?", "roman": "endā diyā, āke ḍal āṇallō? endŭ paṯṯi?", "en": "What's up, Diya? You look really down. What happened?" },
+      { "speaker": "Diya", "native": "ഇൻഫോപാർക്കിലെ ആ ജോലി കിട്ടിയില്ല. മെയിൽ വന്നപ്പോൾ ഞാൻ ശരിക്കും കരഞ്ഞുപോയി.", "roman": "infōpārkkile ā jōli kiṭṭiyilla. meyil vannappōḷ ñān sharikkum karaññupōyi.", "en": "I didn't get that job at Infopark. When the email came, I actually cried." },
+      { "speaker": "Arun", "native": "അയ്യോ, കഷ്ടം. നീ ഒരുപാട് പ്രതീക്ഷിച്ചിരുന്നു, അല്ലേ?", "roman": "ayyō, kaṣṭam. nī orupāṭŭ pratīkṣicchirunnu, allē?", "en": "Oh no, what a shame. You'd really been hoping for it, hadn't you?" },
+      { "speaker": "Diya", "native": "ഉം. വീട്ടിൽ പറഞ്ഞ ഉടനെ അമ്മ തുടങ്ങി — 'അടുത്ത വീട്ടിലെ കുട്ടിക്ക് ജോലി കിട്ടി…'", "roman": "um. vīṭṭil paṟañña uṭane amma tuṭaṅṅi — 'aṭutta vīṭṭile kuṭṭikkŭ jōli kiṭṭi…'", "en": "Mm. The moment I told them at home, Mum started — 'the girl next door got a job…'" },
+      { "speaker": "Arun", "native": "ഹഹ, ആ ഡയലോഗ് എല്ലാ വീട്ടിലും ഉണ്ട്. സാരമില്ലെടീ, പോട്ടെ.", "roman": "haha, ā ḍayalōgŭ ellā vīṭṭilum uṇḍŭ. sāramilleṭī, pōṭṭe.", "en": "Haha, every house has that line. Never mind, let it go." },
+      { "speaker": "Diya", "native": "നിനക്ക് ചിരി. എനിക്ക് ആകെ ടെൻഷനാണ്, എല്ലാം മടുത്തു.", "roman": "ninakkŭ chiri. enikkŭ āke ṭenṣanāṇŭ, ellām maṭuttu.", "en": "You can laugh. I'm so stressed, I'm sick of everything." },
+      { "speaker": "Arun", "native": "സോറി, സോറി. പക്ഷേ ഇത് ആദ്യത്തെ ഇന്റർവ്യൂ അല്ലേ? ഇനിയും ഒരുപാട് വരും.", "roman": "sōṟi, sōṟi. pakṣē itŭ ādyatte inṯarvyū allē? iniyum orupāṭŭ varum.", "en": "Sorry, sorry. But this was your first interview, right? Loads more will come." },
+      { "speaker": "Diya", "native": "ഇന്നലെ നിന്നോട് ദേഷ്യപ്പെട്ടതിന് സോറി, കേട്ടോ. ഞാൻ അങ്ങനെ പറയാൻ പാടില്ലായിരുന്നു.", "roman": "innale ninnōṭŭ dēṣyappeṭṭatinŭ sōṟi, kēṭṭō. ñān aṅṅane paṟayān pāṭillāyirunnu.", "en": "And sorry for snapping at you yesterday, OK? I shouldn't have said that." },
+      { "speaker": "Arun", "native": "ഏയ്, അതൊന്നും സാരമില്ല. ഞാൻ ഇല്ലേ കൂടെ? വാ, ഒരു ചായ കുടിക്കാം.", "roman": "ēy, atonnum sāramilla. ñān illē kūṭe? vā, oru chāya kuṭikkām.", "en": "Nah, that's nothing. I'm here for you, aren't I? Come on, let's have a tea." },
+      { "speaker": "Diya", "native": "നിൽക്ക്… ഒരു മെയിൽ. അയ്യോ, ഇത് ആ ദുബായ് കമ്പനിയാണ്!", "roman": "nilkkŭ… oru meyil. ayyō, itŭ ā dubāy kambaniyāṇŭ!", "en": "Wait… an email. Oh my God, it's that Dubai company!" },
+      { "speaker": "Arun", "native": "എന്താ? എന്താ പറയുന്നത്?", "roman": "endā? endā paṟayunnatŭ?", "en": "What? What does it say?" },
+      { "speaker": "Diya", "native": "അടുത്ത റൗണ്ടിലേക്ക് എന്നെ ഷോർട്ട്ലിസ്റ്റ് ചെയ്തു!", "roman": "aṭutta ṟauṇḍilēkkŭ enne ṣōrṭṭlisṯṯŭ cheytu!", "en": "They've shortlisted me for the next round!" },
+      { "speaker": "Arun", "native": "കലക്കി! കണ്ടോ, ഞാൻ പറഞ്ഞില്ലേ? അപ്പോൾ ചായ നിന്റെ ചെലവ്!", "roman": "kalakki! kaṇḍō, ñān paṟaññillē? appōḷ chāya ninde chelavŭ!", "en": "Brilliant! See, didn't I tell you? So the tea's on you!" }
+    ]
+  },
+  "culture": "Malayalis rarely say 'I love you' or 'I'm proud of you' out loud, especially in families — care is shown by turning up, by feeding people, and by asking **കഴിച്ചോ?** 'have you eaten?'. Between friends, comfort usually comes with teasing: someone who's down gets a joke, a ചായ and **സാരമില്ലെടാ, പോട്ടെ** (to a guy) or **സാരമില്ലെടീ** (to a girl). എടാ / എടീ are warm between close friends of the same age but rude to anyone older — with them use ചേട്ടാ / ചേച്ചീ and the plain **വിഷമിക്കേണ്ട**.\n\nGood news means a **ചെലവ്** 'treat': get a job, a promotion or a visa and your friends will ask **ചെലവ് എപ്പോഴാ?** — and you pay for the biriyani. When someone dies, people visit the house (often the same day), sit quietly and say very little; a hand on the shoulder and **എന്തെങ്കിലും വേണമെങ്കിൽ പറയണം** 'tell me if you need anything' is enough. **ആദരാഞ്ജലികൾ** fills WhatsApp groups and Facebook; **അനുശോചനം** is the formal word in speeches and newspapers. In the Gulf diaspora, **മിസ് ചെയ്യുന്നു**, the Friday video call home and the yearly trip back to നാട് are a big part of how people talk about their feelings.",
+  "lessons": [
+    {
+      "title": "Asking what's wrong",
+      "tip": { "title": "Feelings come to you", "body": "- The feeler takes the dative: **എനിക്ക്** ദേഷ്യം **വന്നു** 'I got angry', അവൾക്ക് **സങ്കടമായി**, എനിക്ക് ഉറക്കം **വരുന്നു** 'I'm sleepy', എനിക്ക് **മടുത്തു**.\n- 'Couldn't help it': joining form + **പോയി**: **കരഞ്ഞുപോയി**, **പേടിച്ചുപോയി**.\n- Trap: not ഞാൻ ദേഷ്യം വന്നു — **എനിക്ക്** ദേഷ്യം വന്നു.", "pattern": "എനിക്ക് + feeling + വന്നു / ആയി", "grammar": 1 },
+      "new": ["വിഷമിക്കുക", "ഭയങ്കരം", "ഉറക്കം", "മടുക്കുക", "കരച്ചിൽ", "എന്ത് പറ്റി? ആകെ ഡൾ ആണല്ലോ.", "എനിക്ക് ആകെ ടെൻഷനാണ്.", "എനിക്ക് മടുത്തു."],
+      "sentences": [
+        { "native": "എനിക്ക് ഇന്നലെ രാത്രി ഉറക്കം വന്നില്ല.", "roman": "enikkŭ innale rātri uṟakkam vannilla.", "en": "I couldn't sleep last night.", "focus": "എനിക്ക്", "wrong": ["ഞാൻ|ñān", "എന്നെ|enne"] },
+        { "native": "നിനക്ക് എന്താ വിഷമം?", "roman": "ninakkŭ endā viṣamam?", "en": "What's bothering you? (informal)", "focus": "നിനക്ക്", "wrong": ["നീ|nī", "നിന്നെ|ninne"] },
+        { "native": "എനിക്ക് ഈ ജോലി മടുത്തു.", "roman": "enikkŭ ī jōli maṭuttu.", "en": "I'm sick of this job.", "focus": "മടുത്തു", "wrong": ["മടുക്കുക|maṭukkuka", "മടുപ്പ്|maṭuppŭ"] },
+        { "native": "അവൾക്ക് ഭയങ്കര ടെൻഷനാണ്, നാളെ പരീക്ഷയാണ്.", "roman": "avaḷkkŭ bhayaṅgara ṭenṣanāṇŭ, nāḷe parīkṣayāṇŭ.", "en": "She's super stressed — the exam is tomorrow.", "focus": "അവൾക്ക്", "wrong": ["അവൾ|avaḷ", "അവളെ|avaḷe"] },
+        { "native": "എനിക്ക് ഉറക്കം വരുന്നു, ഞാൻ പോകട്ടെ.", "roman": "enikkŭ uṟakkam varunnu, ñān pōkaṭṭe.", "en": "I'm getting sleepy, I'll head off.", "focus": "വരുന്നു", "wrong": ["ഉറങ്ങുന്നു|uṟaṅṅunnu", "ഉറങ്ങുക|uṟaṅṅuka"] },
+        { "native": "സിനിമ കണ്ട് ഞാൻ കരഞ്ഞുപോയി.", "roman": "sinima kaṇḍŭ ñān karaññupōyi.", "en": "I ended up crying at the film.", "focus": "കരഞ്ഞുപോയി", "wrong": ["കരയുക|karayuka", "കരയും|karayum"] },
+        { "native": "പെട്ടെന്ന് ലൈറ്റ് പോയി, ഞാൻ പേടിച്ചുപോയി.", "roman": "peṭṭennŭ laiṯṯŭ pōyi, ñān pēṭicchupōyi.", "en": "Suddenly the power went, and I got such a fright.", "focus": "പേടിച്ചുപോയി", "wrong": ["പേടിക്കുക|pēṭikkuka", "പേടിക്കും|pēṭikkum"] },
+        { "native": "അമ്മയെ കണ്ട് എനിക്ക് കരച്ചിൽ വന്നു.", "roman": "ammaye kaṇḍŭ enikkŭ karacchil vannu.", "en": "When I saw Mum, I felt like crying.", "focus": "വന്നു", "wrong": ["വരുക|varuka", "കരഞ്ഞു|karaññu"] },
+        { "native": "അവന്റെ തമാശ കേട്ട് എനിക്ക് ദേഷ്യം വന്നു.", "roman": "avande tamāsha kēṭṭŭ enikkŭ dēṣyam vannu.", "en": "His joke made me angry.", "focus": "എനിക്ക്", "wrong": ["ഞാൻ|ñān", "എന്റെ|ende"] },
+        { "native": "വിഷമിക്കേണ്ട, ഞാൻ സഹായിക്കാം.", "roman": "viṣamikkēṇḍa, ñān sahāyikkām.", "en": "Don't worry, I'll help." },
+        { "native": "ഇന്ന് അവൻ ആകെ ഡൾ ആണ്.", "roman": "innŭ avan āke ḍal āṇŭ.", "en": "He's really down today." },
+        { "native": "ഈ ചൂട് ഭയങ്കരമാണ്.", "roman": "ī chūṭŭ bhayaṅgaramāṇŭ.", "en": "This heat is awful." }
+      ]
+    },
+    {
+      "title": "Cheering a friend up",
+      "tip": { "title": "When and while: -ുമ്പോൾ, -പ്പോൾ", "body": "- **-ുമ്പോൾ** 'when / while': വരും → **വരുമ്പോൾ**, ഇരിക്കും → **ഇരിക്കുമ്പോൾ**.\n- One finished event: past form + **-പ്പോൾ**: വിളിച്ചു → **വിളിച്ചപ്പോൾ** 'when (I) called', കണ്ടു → **കണ്ടപ്പോൾ**.\n- The clause comes **first**; the time ending is glued to its verb.", "pattern": "clause + -ുമ്പോൾ / -പ്പോൾ, main sentence", "grammar": 0 },
+      "new": ["ആശ്വസിപ്പിക്കുക", "സമാധാനം", "ഒറ്റയ്ക്ക്", "കൂട്ട്", "ധൈര്യം", "ഇടയ്ക്ക്", "ശരിയാവുക", "വിഷമിക്കേണ്ട, എല്ലാം ശരിയാവും.", "ഞാൻ ഇല്ലേ കൂടെ?"],
+      "sentences": [
+        { "native": "വിഷമം വരുമ്പോൾ എന്നെ വിളിക്ക്.", "roman": "viṣamam varumbōḷ enne viḷikkŭ.", "en": "When you feel low, call me.", "focus": "വരുമ്പോൾ", "wrong": ["വന്നു|vannu", "വരും|varum"] },
+        { "native": "ഒറ്റയ്ക്ക് ഇരിക്കുമ്പോൾ എനിക്ക് ഭയങ്കര ബോറാണ്.", "roman": "oṯṯaykkŭ irikkumbōḷ enikkŭ bhayaṅgara bōṟāṇŭ.", "en": "When I'm on my own I get so bored.", "focus": "ഇരിക്കുമ്പോൾ", "wrong": ["ഇരുന്നു|irunnu", "ഇരിക്കും|irikkum"] },
+        { "native": "ഞാൻ വിളിച്ചപ്പോൾ അവൾ കരയുകയായിരുന്നു.", "roman": "ñān viḷicchappōḷ avaḷ karayukayāyirunnu.", "en": "When I called, she was crying.", "focus": "വിളിച്ചപ്പോൾ", "wrong": ["വിളിച്ചു|viḷicchu", "വിളിക്കും|viḷikkum"] },
+        { "native": "അവൾ കരഞ്ഞപ്പോൾ ഞാൻ അവളെ ആശ്വസിപ്പിച്ചു.", "roman": "avaḷ karaññappōḷ ñān avaḷe āshvasippicchu.", "en": "When she cried, I comforted her.", "focus": "കരഞ്ഞപ്പോൾ", "wrong": ["കരഞ്ഞു|karaññu", "കരയും|karayum"] },
+        { "native": "അവനെ കണ്ടപ്പോൾ എനിക്ക് സമാധാനമായി.", "roman": "avane kaṇḍappōḷ enikkŭ samādhānamāyi.", "en": "When I saw him, I felt relieved.", "focus": "കണ്ടപ്പോൾ", "wrong": ["കണ്ടു|kaṇḍu", "കാണും|kāṇum"] },
+        { "native": "പരീക്ഷ എഴുതുമ്പോൾ ടെൻഷൻ അടിക്കരുത്.", "roman": "parīkṣa eḻutumbōḷ ṭenṣan aṭikkarutŭ.", "en": "Don't stress while you're writing the exam.", "focus": "എഴുതുമ്പോൾ", "wrong": ["എഴുതി|eḻuti", "എഴുതും|eḻutum"] },
+        { "native": "വീട്ടിൽ എത്തുമ്പോൾ എന്നെ വിളിക്കണേ.", "roman": "vīṭṭil ettumbōḷ enne viḷikkaṇē.", "en": "Call me when you get home, OK?", "focus": "എത്തുമ്പോൾ", "wrong": ["എത്തി|etti", "എത്തും|ettum"] },
+        { "native": "സംസാരിക്കുന്നതിനിടയ്ക്ക് അവൾ ചിരിച്ചു.", "roman": "samsārikkunnatiniṭaykkŭ avaḷ chiricchu.", "en": "In the middle of talking, she smiled.", "focus": "സംസാരിക്കുന്നതിനിടയ്ക്ക്", "wrong": ["സംസാരിച്ചു|samsāricchu", "സംസാരിക്കും|samsārikkum"] },
+        { "native": "ഇടയ്ക്ക് എന്നെ വിളിക്കണം, കേട്ടോ.", "roman": "iṭaykkŭ enne viḷikkaṇam, kēṭṭō.", "en": "Call me now and then, OK?" },
+        { "native": "എനിക്ക് അവനോട് പറയാൻ ധൈര്യം ഇല്ല.", "roman": "enikkŭ avanōṭŭ paṟayān dhairyam illa.", "en": "I don't have the nerve to tell him." },
+        { "native": "വേണമെങ്കിൽ ഞാൻ കൂട്ടിന് വരാം.", "roman": "vēṇameṅgil ñān kūṭṭinŭ varām.", "en": "If you like, I'll come along to keep you company." },
+        { "native": "ഞാൻ കൂടെ ഉണ്ട്, എല്ലാം ശരിയാവും.", "roman": "ñān kūṭe uṇḍŭ, ellām shariyāvum.", "en": "I'm with you; it'll all be fine." }
+      ]
+    },
+    {
+      "title": "Saying sorry properly",
+      "tip": { "title": "Sorry, and who it's to", "body": "- Small things: **സോറി** / **ക്ഷമിക്കണം**. Real apologies: **എന്നോട് ക്ഷമിക്കണം, എന്റെ തെറ്റാണ്**; to apologise is **മാപ്പ് ചോദിക്കുക**.\n- The person you're angry, sulking or sorry *with* takes **-ഓട്**: **എന്നോട്** പിണങ്ങി, **അവനോട്** മാപ്പ് ചോദിച്ചു.\n- But you hurt someone directly: **നിന്നെ** വേദനിപ്പിച്ചു.\n- 'Shouldn't have': **-ആൻ പാടില്ലായിരുന്നു**." },
+      "new": ["മാപ്പ്", "ക്ഷമിക്കുക", "തെറ്റ്", "വേദനിപ്പിക്കുക", "ദേഷ്യപ്പെടുക", "പിണങ്ങുക", "എന്നോട് ക്ഷമിക്കണം, എന്റെ തെറ്റാണ്.", "ഞാൻ അങ്ങനെ പറയാൻ പാടില്ലായിരുന്നു.", "നീ എന്നോട് പിണക്കമാണോ?"],
+      "sentences": [
+        { "native": "സോറി, ഞാൻ ഇന്നലെ നിന്നോട് ദേഷ്യപ്പെട്ടു.", "roman": "sōṟi, ñān innale ninnōṭŭ dēṣyappeṭṭu.", "en": "Sorry, I snapped at you yesterday.", "focus": "നിന്നോട്", "wrong": ["നിന്നെ|ninne", "നിനക്ക്|ninakkŭ"] },
+        { "native": "നിന്നെ വേദനിപ്പിക്കാൻ ഞാൻ ഉദ്ദേശിച്ചില്ല.", "roman": "ninne vēdanippikkān ñān uddēshicchilla.", "en": "I didn't mean to hurt you.", "focus": "നിന്നെ", "wrong": ["നിന്നോട്|ninnōṭŭ", "നിനക്ക്|ninakkŭ"] },
+        { "native": "അവൾ എന്നോട് പിണങ്ങി, ഫോൺ എടുക്കുന്നില്ല.", "roman": "avaḷ ennōṭŭ piṇaṅṅi, fōṇ eṭukkunnilla.", "en": "She's fallen out with me and won't pick up the phone.", "focus": "എന്നോട്", "wrong": ["എന്നെ|enne", "എനിക്ക്|enikkŭ"] },
+        { "native": "ഞാൻ അവനോട് മാപ്പ് ചോദിച്ചു.", "roman": "ñān avanōṭŭ māppŭ chōdicchu.", "en": "I apologised to him.", "focus": "അവനോട്", "wrong": ["അവനെ|avane", "അവന്|avanŭ"] },
+        { "native": "നീ ഇപ്പോഴും എന്നോട് പിണക്കത്തിലാണോ?", "roman": "nī ippōḻum ennōṭŭ piṇakkattilāṇō?", "en": "Are you still cross with me?", "focus": "എന്നോട്", "wrong": ["എന്നെ|enne", "എന്റെ|ende"] },
+        { "native": "ഞാൻ നിന്നോട് അങ്ങനെ സംസാരിക്കാൻ പാടില്ലായിരുന്നു.", "roman": "ñān ninnōṭŭ aṅṅane samsārikkān pāṭillāyirunnu.", "en": "I shouldn't have spoken to you like that.", "focus": "പാടില്ലായിരുന്നു", "wrong": ["പാടില്ല|pāṭilla", "വേണമായിരുന്നു|vēṇamāyirunnu"] },
+        { "native": "ക്ഷമിക്കണം, എനിക്ക് തെറ്റ് പറ്റി.", "roman": "kṣamikkaṇam, enikkŭ teṯṯŭ paṯṯi.", "en": "Sorry, I made a mistake.", "focus": "എനിക്ക്", "wrong": ["ഞാൻ|ñān", "എന്നോട്|ennōṭŭ"] },
+        { "native": "തെറ്റ് എന്റേതാണ്, നിന്റേതല്ല.", "roman": "teṯṯŭ endētāṇŭ, nindētalla.", "en": "The fault is mine, not yours." },
+        { "native": "സാരമില്ല, ഞാൻ ക്ഷമിച്ചു.", "roman": "sāramilla, ñān kṣamicchu.", "en": "It's fine, I forgive you." },
+        { "native": "ഇനി ഒരിക്കലും ഇങ്ങനെ ചെയ്യില്ല, സത്യം!", "roman": "ini orikkalum iṅṅane cheyyilla, satyam!", "en": "I'll never do this again, I promise!" },
+        { "native": "അമ്മ ദേഷ്യപ്പെട്ടപ്പോൾ ഞാൻ ഒന്നും പറഞ്ഞില്ല.", "roman": "amma dēṣyappeṭṭappōḷ ñān onnum paṟaññilla.", "en": "When Mum got angry, I didn't say a word." }
+      ]
+    },
+    {
+      "title": "As soon as, until, after",
+      "tip": { "title": "As soon as, until, after", "body": "- As soon as: past form + **ഉടനെ**: കിട്ടിയ **ഉടനെ** 'as soon as (I) got'. Fast speech: വന്ന**തും**.\n- Until: -ുന്നത് + **വരെ**: എത്തുന്ന**തുവരെ** 'until (he) arrives'.\n- After: past + -അതിന് **ശേഷം**: കണ്ട**തിന് ശേഷം** 'after seeing'.\n- Always at the end of the clause, never in front.", "pattern": "വന്ന ഉടനെ · വരുന്നതുവരെ · വന്നതിന് ശേഷം", "grammar": 0 },
+      "new": ["പ്രതീക്ഷ", "നിരാശ", "ശേഷം", "ആശ്വാസം", "ഹാവൂ, ഇപ്പോഴാണ് സമാധാനമായത്.", "എന്ത് വേണമെങ്കിലും എന്നെ വിളിച്ചോ."],
+      "sentences": [
+        { "native": "മെസേജ് കിട്ടിയ ഉടനെ ഞാൻ അമ്മയെ വിളിച്ചു.", "roman": "mesējŭ kiṭṭiya uṭane ñān ammaye viḷicchu.", "en": "As soon as I got the message, I called Mum.", "focus": "കിട്ടിയ", "wrong": ["കിട്ടി|kiṭṭi", "കിട്ടും|kiṭṭum"] },
+        { "native": "അവൻ എത്തുന്നതുവരെ ഞാൻ ഇവിടെ കാത്തിരിക്കാം.", "roman": "avan ettunnatuvare ñān iviṭe kāttirikkām.", "en": "I'll wait here until he arrives.", "focus": "എത്തുന്നതുവരെ", "wrong": ["എത്തി|etti", "എത്തും|ettum"] },
+        { "native": "പനി മാറുന്നതുവരെ വിശ്രമിക്കൂ.", "roman": "pani māṟunnatuvare vishramikkū.", "en": "Rest until the fever goes.", "focus": "മാറുന്നതുവരെ", "wrong": ["മാറി|māṟi", "മാറും|māṟum"] },
+        { "native": "പരീക്ഷ കഴിയുന്നതുവരെ എനിക്ക് ഉറക്കം ഇല്ലായിരുന്നു.", "roman": "parīkṣa kaḻiyunnatuvare enikkŭ uṟakkam illāyirunnu.", "en": "Until the exams were over, I couldn't sleep.", "focus": "കഴിയുന്നതുവരെ", "wrong": ["കഴിഞ്ഞു|kaḻiññu", "കഴിയും|kaḻiyum"] },
+        { "native": "വീട്ടിൽ എത്തിയ ഉടനെ ഞാൻ ഉറങ്ങിപ്പോയി.", "roman": "vīṭṭil ettiya uṭane ñān uṟaṅṅippōyi.", "en": "As soon as I got home, I crashed.", "focus": "എത്തിയ", "wrong": ["എത്തി|etti", "എത്തും|ettum"] },
+        { "native": "ഫോൺ വന്നതും അവൾ ഓടി.", "roman": "fōṇ vannatum avaḷ ōṭi.", "en": "The moment the call came, she ran.", "focus": "വന്നതും", "wrong": ["വന്നു|vannu", "വരും|varum"] },
+        { "native": "അത് കേട്ട ഉടനെ അവൾക്ക് നിരാശയായി.", "roman": "atŭ kēṭṭa uṭane avaḷkkŭ nirāshayāyi.", "en": "As soon as she heard it, she was disappointed.", "focus": "കേട്ട", "wrong": ["കേട്ടു|kēṭṭu", "കേൾക്കും|kēḷkkum"] },
+        { "native": "ഡോക്ടറെ കണ്ടതിന് ശേഷം എനിക്ക് ആശ്വാസമായി.", "roman": "ḍōkṭaṟe kaṇḍatinŭ shēṣam enikkŭ āshvāsamāyi.", "en": "After seeing the doctor, I felt relieved.", "focus": "ശേഷം", "wrong": ["മുമ്പ്|mumbŭ", "വരെ|vare"] },
+        { "native": "എനിക്ക് ഒരുപാട് പ്രതീക്ഷ ഉണ്ടായിരുന്നു, പക്ഷേ കിട്ടിയില്ല.", "roman": "enikkŭ orupāṭŭ pratīkṣa uṇḍāyirunnu, pakṣē kiṭṭiyilla.", "en": "I had high hopes, but I didn't get it." },
+        { "native": "അവൻ സുരക്ഷിതമായി എത്തി, ഹാവൂ!", "roman": "avan surakṣitamāyi etti, hāvū!", "en": "He got there safely — phew!" },
+        { "native": "രാത്രി എപ്പോൾ വേണമെങ്കിലും വിളിച്ചോ.", "roman": "rātri eppōḷ vēṇameṅgilum viḷicchō.", "en": "Call any time tonight, go ahead." }
+      ]
+    },
+    {
+      "title": "Good news and missing people",
+      "tip": { "title": "Congratulations, Kerala-style", "body": "- **അഭിനന്ദനങ്ങൾ!** is the proper word (cards, elders); friends say **കലക്കി!** or **അടിപൊളി!**\n- Good news means a treat: friends ask **ചെലവ് എപ്പോഴാ?** 'when's the treat?'\n- Proud of someone: [person]**-എ ഓർത്ത് അഭിമാനം**.\n- Miss someone: **നിന്നെ മിസ് ചെയ്യുന്നു** — the person missed takes -എ." },
+      "new": [
+        "വിജയം",
+        "അഭിമാനം",
+        "കെട്ടിപ്പിടിക്കുക",
+        "മിസ് ചെയ്യുക",
+        "അഭിനന്ദനങ്ങൾ! നിന്നെ ഓർത്ത് അഭിമാനം തോന്നുന്നു.",
+        "കലക്കി!",
+        "നിന്നെ ഒരുപാട് മിസ് ചെയ്യുന്നു."
+      ],
+      "sentences": [
+        { "native": "നിനക്ക് ജോലി കിട്ടിയോ? കലക്കി!", "roman": "ninakkŭ jōli kiṭṭiyō? kalakki!", "en": "You got the job? Brilliant!" },
+        { "native": "അപ്പോൾ ചെലവ് എപ്പോഴാണ്?", "roman": "appōḷ chelavŭ eppōḻāṇŭ?", "en": "So when's the treat?" },
+        { "native": "നിന്റെ വിജയത്തിൽ എനിക്ക് ഒരുപാട് സന്തോഷമുണ്ട്.", "roman": "ninde vijayattil enikkŭ orupāṭŭ santōṣamuṇḍŭ.", "en": "I'm so happy about your success." },
+        { "native": "അച്ഛന് മകളെ ഓർത്ത് അഭിമാനമാണ്.", "roman": "acchanŭ makaḷe ōrttŭ abhimānamāṇŭ.", "en": "Dad is proud of his daughter.", "focus": "മകളെ", "wrong": ["മകൾ|makaḷ", "മകൾക്ക്|makaḷkkŭ"] },
+        { "native": "നിന്നെ ഓർത്ത് ഞങ്ങൾക്ക് എല്ലാവർക്കും അഭിമാനമുണ്ട്.", "roman": "ninne ōrttŭ ñaṅṅaḷkkŭ ellāvarkkum abhimānamuṇḍŭ.", "en": "We're all proud of you.", "focus": "നിന്നെ", "wrong": ["നിനക്ക്|ninakkŭ", "നീ|nī"] },
+        { "native": "അവൾ ഓടി വന്ന് എന്നെ കെട്ടിപ്പിടിച്ചു.", "roman": "avaḷ ōṭi vannŭ enne keṭṭippiṭicchu.", "en": "She ran up and hugged me.", "focus": "എന്നെ", "wrong": ["എനിക്ക്|enikkŭ", "എന്നോട്|ennōṭŭ"] },
+        { "native": "ദുബായിൽ ആയിരുന്നപ്പോൾ ഞാൻ അമ്മയുടെ ഭക്ഷണം ഒരുപാട് മിസ് ചെയ്തു.", "roman": "dubāyil āyirunnappōḷ ñān ammayuṭe bhakṣaṇam orupāṭŭ misŭ cheytu.", "en": "When I was in Dubai, I really missed Mum's cooking." },
+        { "native": "എല്ലാവരും നിന്നെ മിസ് ചെയ്യുന്നുണ്ട്.", "roman": "ellāvarum ninne misŭ cheyyunnuṇḍŭ.", "en": "Everyone's missing you.", "focus": "നിന്നെ", "wrong": ["നിനക്ക്|ninakkŭ", "നീ|nī"] },
+        { "native": "നീ ഇല്ലാത്തപ്പോൾ ഇവിടെ ഭയങ്കര ബോറാണ്.", "roman": "nī illāttappōḷ iviṭe bhayaṅgara bōṟāṇŭ.", "en": "It's so boring here when you're not around." },
+        { "native": "ഈ വിജയം നമുക്ക് ആഘോഷിക്കണം!", "roman": "ī vijayam namukkŭ āghōṣikkaṇam!", "en": "We have to celebrate this win!" }
+      ]
+    },
+    {
+      "title": "When the news is bad",
+      "tip": { "title": "Sympathy and condolences", "body": "- Bad news: **അയ്യോ!**, **കഷ്ടം!**, **അയ്യോ പാവം** 'oh, poor thing'.\n- A death: visit the family and say little — **എന്തെങ്കിലും വേണമെങ്കിൽ പറയണം**. **അനുശോചനം** is the formal 'condolences'; **ആദരാഞ്ജലികൾ** is what people post.\n- To a friend: **സാരമില്ലെടാ / സാരമില്ലെടീ, പോട്ടെ**." },
+      "new": [
+        "പാവം",
+        "ബ്രേക്കപ്പ്",
+        "ദുഃഖം",
+        "അനുശോചനം",
+        "ആദരാഞ്ജലികൾ",
+        "അയ്യോ, കേട്ടപ്പോൾ വിഷമമായി.",
+        "നിങ്ങളുടെ ദുഃഖത്തിൽ ഞാനും പങ്കുചേരുന്നു.",
+        "സാരമില്ലെടാ, പോട്ടെ."
+      ],
+      "sentences": [
+        { "native": "അവരുടെ അച്ഛൻ മരിച്ചു എന്ന് കേട്ടു.", "roman": "avaruṭe acchan maricchu ennŭ kēṭṭu.", "en": "I heard that her father passed away." },
+        { "native": "അയ്യോ പാവം, അവൾ ഇപ്പോൾ ഒറ്റയ്ക്കാണ്.", "roman": "ayyō pāvam, avaḷ ippōḷ oṯṯaykkāṇŭ.", "en": "Oh, poor thing, she's all alone now." },
+        { "native": "അവന് ബ്രേക്കപ്പ് ആയി, ആകെ സങ്കടത്തിലാണ്.", "roman": "avanŭ brēkkappŭ āyi, āke saṅgaṭattilāṇŭ.", "en": "He's just broken up with someone; he's really down.", "focus": "അവന്", "wrong": ["അവൻ|avan", "അവനെ|avane"] },
+        { "native": "സാരമില്ല, പോട്ടെ, നിനക്ക് നല്ലത് വരും.", "roman": "sāramilla, pōṭṭe, ninakkŭ nallatŭ varum.", "en": "Never mind, let it go — good things will come your way." },
+        { "native": "അവരുടെ കരച്ചിൽ കണ്ടപ്പോൾ എനിക്കും സങ്കടം വന്നു.", "roman": "avaruṭe karacchil kaṇḍappōḷ enikkum saṅgaṭam vannu.", "en": "When I saw them crying, I felt sad too.", "focus": "എനിക്കും", "wrong": ["ഞാനും|ñānum", "എന്നെയും|enneyum"] },
+        { "native": "അത് കേട്ടപ്പോൾ എല്ലാവർക്കും ദുഃഖമായി.", "roman": "atŭ kēṭṭappōḷ ellāvarkkum duḥkhamāyi.", "en": "Everyone was grief-stricken when they heard.", "focus": "എല്ലാവർക്കും", "wrong": ["എല്ലാവരും|ellāvarum", "എല്ലാവരെ|ellāvare"] },
+        { "native": "അനുശോചനം അറിയിക്കാൻ ഞങ്ങൾ എല്ലാവരും പോയി.", "roman": "anushōchanam aṟiyikkān ñaṅṅaḷ ellāvarum pōyi.", "en": "We all went to offer our condolences." },
+        { "native": "എല്ലാവരും ആദരാഞ്ജലികൾ എന്ന് എഴുതി.", "roman": "ellāvarum ādarāñjalikaḷ ennŭ eḻuti.", "en": "Everyone wrote 'RIP'." },
+        { "native": "എന്തെങ്കിലും വേണമെങ്കിൽ പറയണം, കേട്ടോ.", "roman": "endeṅgilum vēṇameṅgil paṟayaṇam, kēṭṭō.", "en": "If you need anything, do tell me, OK?" },
+        { "native": "അവൻ ഒരു പാവമാണ്, ആരോടും ദേഷ്യപ്പെടില്ല.", "roman": "avan oru pāvamāṇŭ, ārōṭum dēṣyappeṭilla.", "en": "He's a real softie — never gets angry with anyone." },
+        { "native": "ഞാൻ നാളെ രാവിലെ അവരുടെ വീട്ടിൽ പോകും.", "roman": "ñān nāḷe rāvile avaruṭe vīṭṭil pōkum.", "en": "I'll go to their house tomorrow morning." }
+      ]
+    }
+  ]
+}

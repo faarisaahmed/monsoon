@@ -1,0 +1,195 @@
+{
+  "id": 24,
+  "title": "Eating out with friends",
+  "goal": "Say what you feel like eating, order for a group, complain that it's too spicy or not salty enough, get food packed, and sort out the bill — or treat your friends.",
+  "intro": "Eating out in Kerala ranges from a late-night **തട്ടുകട** (roadside stall) serving dosa, omelette and black tea, to the tea shop with its **പഴംപൊരി**, the lunchtime **മീൽസ്** on a banana leaf, Malabar **ബിരിയാണി**, the porotta-and-beef combination everyone loves, and the shawarma and cafés young people pack into in the evening.\n\nThe grammar is all about quantity and desire: **too much** (**എരിവ് കൂടിപ്പോയി** 'it's too spicy'), **not enough** (**ഉപ്പ് പോരാ**), **don't overdo it** (**അധികം എരിവ് വേണ്ട**), **I feel like…** (**ബിരിയാണി കഴിക്കാൻ തോന്നുന്നു**), and ordering for a group with **ഓരോ** 'one each' and **-ഉം … -ഉം** 'and'.",
+  "vocab": [
+    { "native": "കൊതി", "roman": "kothi", "en": "craving, longing", "pos": "noun", "note": "Dative: എനിക്ക് പഴംപൊരി കഴിക്കാൻ കൊതിയാവുന്നു 'I'm craving pazhampori'." },
+    { "native": "തട്ടുകട", "roman": "taṭṭukaṭa", "en": "roadside food stall (often late at night)", "pos": "noun" },
+    { "native": "കഫേ", "roman": "kafē", "en": "café", "pos": "noun" },
+    { "native": "ബിരിയാണി", "roman": "biriyāṇi", "en": "biriyani", "pos": "noun", "note": "The Malabar (Thalassery / Kozhikode) style uses short-grain kaima rice." },
+    { "native": "ഷവർമ", "roman": "ṣavarma", "en": "shawarma", "pos": "noun", "note": "A Gulf import that became a Kerala staple." },
+    { "native": "മെനു", "roman": "menu", "en": "menu", "pos": "noun" },
+    { "native": "ഓർഡർ ചെയ്യുക", "roman": "ōrḍar cheyyuka", "en": "to order", "pos": "verb" },
+    { "native": "പൊറോട്ട", "roman": "poṟōṭṭa", "en": "porotta (flaky layered flatbread)", "pos": "noun", "note": "Also spelled പൊറാട്ട. Usually eaten with beef or chicken curry." },
+    { "native": "ബീഫ്", "roman": "bīfŭ", "en": "beef", "pos": "noun", "note": "ബീഫ് ഫ്രൈ 'beef fry', ബീഫ് കറി. Widely eaten in Kerala." },
+    { "native": "വെജ്", "roman": "vejŭ", "en": "vegetarian (food)", "pos": "adj", "note": "Opposite നോൺ-വെജ്." },
+    { "native": "പ്ലേറ്റ്", "roman": "plēṯṯŭ", "en": "plate; a portion", "pos": "noun", "note": "ഒരു പ്ലേറ്റ് ബീഫ് 'a plate of beef'." },
+    { "native": "ഹാഫ്", "roman": "hāfŭ", "en": "half (portion)", "pos": "adj", "note": "ഫുൾ 'full portion'. ഹാഫ് ബിരിയാണി." },
+    { "native": "അധികം", "roman": "adhikam", "en": "too much, (in) excess; much", "pos": "adv", "note": "അധികം എരിവ് വേണ്ട 'not too spicy'; അധികം ഇല്ല 'not much'." },
+    { "native": "തീരെ", "roman": "tīre", "en": "(with a negative) not at all", "pos": "adv", "note": "തീരെ എരിവില്ല 'not spicy at all'." },
+    { "native": "പോരാ", "roman": "pōrā", "en": "not enough, insufficient", "pos": "particle", "note": "The opposite of മതി 'enough': ഉപ്പ് പോരാ 'it needs more salt'." },
+    { "native": "ആവശ്യത്തിന്", "roman": "āvashyattinŭ", "en": "enough, as much as needed", "pos": "adv", "note": "From ആവശ്യം 'need'." },
+    { "native": "ടേസ്റ്റ്", "roman": "ṭēsṯṯŭ", "en": "taste, flavour", "pos": "noun", "note": "Everyday loan for രുചി: നല്ല ടേസ്റ്റ് ഉണ്ട് 'it tastes great'." },
+    { "native": "കട്ടൻ", "roman": "kaṭṭan", "en": "black (tea or coffee, no milk)", "pos": "noun", "note": "കട്ടൻ ചായ, കട്ടൻ കാപ്പി — or just ഒരു കട്ടൻ." },
+    { "native": "സുലൈമാനി", "roman": "sulaimāni", "en": "sulaimani (Malabar black tea with lemon and spice)", "pos": "noun" },
+    { "native": "പഴംപൊരി", "roman": "paḻampori", "en": "banana fritter", "pos": "noun", "note": "The tea-shop classic, made from ripe നേന്ത്രപ്പഴം." },
+    { "native": "ഉഴുന്നുവട", "roman": "uḻunnuvaṭa", "en": "medu vada (savoury lentil doughnut)", "pos": "noun" },
+    { "native": "ജ്യൂസ്", "roman": "jyūsŭ", "en": "juice; fruit drink", "pos": "noun" },
+    { "native": "മീൽസ്", "roman": "mīlsŭ", "en": "'meals': lunch plate of rice with curries", "pos": "noun", "note": "Rice is usually refilled for free." },
+    { "native": "ടേബിൾ", "roman": "ṭēbiḷ", "en": "table (in a restaurant)", "pos": "noun", "note": "At home people say മേശ." },
+    { "native": "പാഴ്സൽ", "roman": "pārsal", "en": "takeaway, packed food; parcel", "pos": "noun", "note": "പാഴ്സൽ തരുമോ? 'can you pack it?'" },
+    { "native": "ട്രീറ്റ്", "roman": "ṭrīṯṯŭ", "en": "treat (when someone pays for everyone)", "pos": "noun", "note": "Also ചെലവ്: ചെലവ് ചെയ്യണം 'you owe us a treat'." },
+    { "native": "സ്പ്ലിറ്റ് ചെയ്യുക", "roman": "spliṯṯŭ cheyyuka", "en": "to split (the bill)", "pos": "verb" }
+  ],
+  "phrases": [
+    { "native": "എനിക്ക് ബിരിയാണി കഴിക്കാൻ തോന്നുന്നു.", "roman": "enikkŭ biriyāṇi kaḻikkān tōnnunnu.", "en": "I feel like a biriyani." },
+    { "native": "വിശന്നിട്ട് വയ്യ!", "roman": "vishanniṭṭŭ vayya!", "en": "I'm starving! (lit. I'm so hungry I can't bear it)" },
+    { "native": "എന്താ ഇവിടത്തെ സ്പെഷ്യൽ?", "roman": "endā iviṭatte speṣyal?", "en": "What's the speciality here?" },
+    { "native": "ചേട്ടാ, മെനു ഒന്ന് തരാമോ?", "roman": "chēṭṭā, menu onnŭ tarāmō?", "en": "Could we have the menu, please?" },
+    { "native": "ഓരോ ചായ!", "roman": "ōrō chāya!", "en": "A tea each!" },
+    { "native": "രണ്ട് പൊറോട്ടയും ഒരു ബീഫ് ഫ്രൈയും.", "roman": "raṇḍŭ poṟōṭṭayum oru bīfŭ fraiyum.", "en": "Two porottas and a beef fry." },
+    { "native": "അധികം എരിവ് വേണ്ട.", "roman": "adhikam erivŭ vēṇḍa.", "en": "Not too spicy, please." },
+    { "native": "ഇതിൽ എരിവ് കൂടിപ്പോയി!", "roman": "itil erivŭ kūṭippōyi!", "en": "This is way too spicy!" },
+    { "native": "ഉപ്പ് പോരാ.", "roman": "uppŭ pōrā.", "en": "It needs more salt." },
+    { "native": "കുറച്ചുകൂടി ചോറ് വേണോ?", "roman": "kuṟacchukūṭi chōṟŭ vēṇō?", "en": "Would you like a bit more rice?" },
+    { "native": "നല്ല ടേസ്റ്റ് ഉണ്ട്!", "roman": "nalla ṭēsṯṯŭ uṇḍŭ!", "en": "This tastes great!" },
+    { "native": "ഇത് പാഴ്സൽ തരാമോ?", "roman": "itŭ pārsal tarāmō?", "en": "Could you pack this to take away?" },
+    { "native": "ഇത് എന്റെ ട്രീറ്റ്!", "roman": "itŭ ende ṭrīṯṯŭ!", "en": "This one's my treat!" },
+    { "native": "ബില്ല് സ്പ്ലിറ്റ് ചെയ്യാം.", "roman": "billŭ spliṯṯŭ cheyyām.", "en": "Let's split the bill." },
+    { "native": "ഏയ്, ഞാൻ കൊടുക്കാം!", "roman": "ēy, ñān koṭukkām!", "en": "No, no, I'll pay!" }
+  ],
+  "grammar": [
+    {
+      "title": "Too much, not enough, a little more: കൂടിപ്പോയി, പോരാ, അധികം, മതി",
+      "body": "Malayalam doesn't really have one word for 'too'. Instead it says that something **turned out to be more** or **isn't enough**:\n\n• **Too much**: **കൂടിപ്പോയി** 'it has gone over' (കൂടുക 'increase' + പോയി): എരിവ് **കൂടിപ്പോയി** 'it's too spicy', ഉപ്പ് **കൂടിപ്പോയി** 'too salty', മധുരം **കൂടിപ്പോയി** 'too sweet'. Also **കൂടുതലാണ്** '(it) is a lot / too much'.\n• **Too little**: **പോരാ** 'not enough': ഉപ്പ് **പോരാ** 'needs more salt', ചോറ് **പോരാ** 'not enough rice'. Or **കുറഞ്ഞുപോയി** 'turned out too little', **കുറവാണ്** 'is low'.\n• **Don't overdo it**: **അധികം** … **വേണ്ട**: **അധികം** എരിവ് വേണ്ട 'not too spicy', അധികം പഞ്ചസാര വേണ്ട.\n• **Enough**: **മതി** 'that's enough / that'll do'; **ആവശ്യത്തിന്** 'plenty, as much as needed': ആവശ്യത്തിന് ഉണ്ട് 'there's plenty'.\n• **A bit more**: **കുറച്ചുകൂടി** (കുറച്ച് + കൂടി 'also, more'); **ഒരു … കൂടി** 'one more': ഒരു ചായ കൂടി.\n• **Not at all**: **തീരെ** + negative: **തീരെ** എരിവില്ല 'not spicy at all', തീരെ ടേസ്റ്റ് ഇല്ല 'it's got no taste at all'.\n\nThe trap: don't translate 'too' with വളരെ ('very'). എരിവ് വളരെ ഉണ്ട് just means 'it's very spicy' — a fact, maybe a compliment. **എരിവ് കൂടിപ്പോയി** is the complaint.",
+      "examples": [
+        { "native": "ഈ കറിയിൽ ഉപ്പ് കൂടിപ്പോയി.", "roman": "ī kaṟiyil uppŭ kūṭippōyi.", "en": "This curry is too salty." },
+        { "native": "ചോറ് പോരാ, കുറച്ചുകൂടി വേണം.", "roman": "chōṟŭ pōrā, kuṟacchukūṭi vēṇam.", "en": "There isn't enough rice — we need a bit more." },
+        { "native": "അധികം പഞ്ചസാര വേണ്ട, കേട്ടോ.", "roman": "adhikam pañjasāra vēṇḍa, kēṭṭō.", "en": "Not too much sugar, OK?" },
+        { "native": "ഇത് തീരെ എരിവില്ല, കുട്ടികൾക്കും കഴിക്കാം.", "roman": "itŭ tīre erivilla, kuṭṭikaḷkkum kaḻikkām.", "en": "This isn't spicy at all — even the kids can eat it." },
+        { "native": "നാല് പേർക്ക് ആവശ്യത്തിന് ഉണ്ട്.", "roman": "nālŭ pērkkŭ āvashyattinŭ uṇḍŭ.", "en": "There's plenty for four people." }
+      ]
+    },
+    {
+      "title": "I feel like (eating)…: -ആൻ തോന്നുന്നു, -ആൻ കൊതിയാവുന്നു",
+      "body": "Wanting to eat something is a feeling that **happens to you**, so the person is in the **dative** (എനിക്ക്, നിനക്ക്) and the verb is **തോന്നുക** 'to occur to, to feel' (Unit 14):\n\n• **dative + verb-ആൻ + തോന്നുന്നു** = 'feel like doing': എനിക്ക് ബിരിയാണി **കഴിക്കാൻ തോന്നുന്നു** 'I feel like having biriyani'. Ask: **നിനക്ക് എന്ത് കഴിക്കാൻ തോന്നുന്നു?** 'what do you feel like eating?'\n• Not in the mood: **തോന്നുന്നില്ല**: എനിക്ക് ഒന്നും കഴിക്കാൻ തോന്നുന്നില്ല 'I don't feel like eating anything'. Past: **തോന്നി**.\n• Craving: **കൊതി** 'longing' + **ആവുക** 'become': പഴംപൊരി കഴിക്കാൻ **കൊതിയാവുന്നു** 'I'm dying for a pazhampori'.\n• Plain wanting (Unit 17): **-അണം**: എനിക്ക് ഒരു ജ്യൂസ് കുടിക്കണം 'I want a juice'.\n\nThe trap: ഞാൻ … തോന്നുന്നു is wrong — the feeler is always എനിക്ക്. Young people also just say **മൂഡ് ഇല്ല** 'not in the mood'.",
+      "examples": [
+        { "native": "എനിക്ക് ഇന്ന് ഷവർമ കഴിക്കാൻ തോന്നുന്നു.", "roman": "enikkŭ innŭ ṣavarma kaḻikkān tōnnunnu.", "en": "I feel like a shawarma today." },
+        { "native": "നിനക്ക് എന്ത് കുടിക്കാൻ തോന്നുന്നു? ചായയോ ജ്യൂസോ?", "roman": "ninakkŭ endŭ kuṭikkān tōnnunnu? chāyayō jyūsō?", "en": "What do you feel like drinking? Tea or juice?" },
+        { "native": "ഈ മഴയത്ത് പഴംപൊരി കഴിക്കാൻ കൊതിയാവുന്നു.", "roman": "ī maḻayattŭ paḻampori kaḻikkān kothiyāvunnu.", "en": "In this rain I'm dying for a pazhampori." },
+        { "native": "പനി കാരണം എനിക്ക് ഒന്നും കഴിക്കാൻ തോന്നിയില്ല.", "roman": "pani kāraṇam enikkŭ onnum kaḻikkān tōnniyilla.", "en": "Because of the fever I didn't feel like eating anything." },
+        { "native": "എനിക്ക് ഒരു തണുത്ത ജ്യൂസ് കുടിക്കണം.", "roman": "enikkŭ oru taṇutta jyūsŭ kuṭikkaṇam.", "en": "I want a cold juice." }
+      ]
+    },
+    {
+      "title": "Ordering for a group: ഓരോ, -ഉം … -ഉം, ആർക്കാ?",
+      "body": "A few small patterns get a table of friends fed:\n\n• **Listing**: join items with **-ഉം … -ഉം** 'both … and': രണ്ട് പൊറോട്ട**യും** ഒരു ബീഫ് ഫ്രൈ**യും**. When ordering fast, people often just list: രണ്ട് പൊറോട്ട, ഒരു ബീഫ് ഫ്രൈ.\n• **Numbers**: the noun stays singular after a number (Unit 4): മൂന്ന് ചായ, നാല് പൊറോട്ട. Portions: **ഫുൾ / ഹാഫ്**, **ഒരു പ്ലേറ്റ്**.\n• **ഓരോ** 'one each, each': **ഓരോ ചായ** 'a tea each'; **ഓരോരുത്തർക്കും** 'for each person'.\n• **Who gets what**: the dative **-ക്ക്**: **എനിക്ക്** വെജ്, **ഇവന്** ബീഫ്, **അവൾക്ക്** ജ്യൂസ്. When the food arrives: **ആർക്കാ** ബിരിയാണി? 'who's the biriyani for?'\n• **One more**: **ഒരു … കൂടി**: ഒരു പൊറോട്ട കൂടി 'one more porotta'.\n\nGet the waiter's attention with **ചേട്ടാ** or **ചേച്ചീ** — not by clapping or hissing.",
+      "examples": [
+        { "native": "ചേട്ടാ, ഓരോ കാപ്പി.", "roman": "chēṭṭā, ōrō kāppi.", "en": "A coffee each, please." },
+        { "native": "മൂന്ന് പൊറോട്ടയും ഒരു ചിക്കൻ കറിയും.", "roman": "mūnnŭ poṟōṭṭayum oru chikkan kaṟiyum.", "en": "Three porottas and a chicken curry." },
+        { "native": "എനിക്ക് വെജ് ബിരിയാണി, അവൾക്ക് ചിക്കൻ.", "roman": "enikkŭ vejŭ biriyāṇi, avaḷkkŭ chikkan.", "en": "Veg biriyani for me, chicken for her." },
+        { "native": "ആർക്കാ ഈ ഷവർമ?", "roman": "ārkkā ī ṣavarma?", "en": "Who's this shawarma for?" },
+        { "native": "രണ്ട് പൊറോട്ട കൂടി.", "roman": "raṇḍŭ poṟōṭṭa kūṭi.", "en": "Two more porottas." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Biriyani in Kozhikode",
+    "setting": "Nikhil, Sana and Jo are in Kozhikode for the weekend and walk into a busy biriyani place near the beach.",
+    "lines": [
+      { "speaker": "Nikhil", "native": "വിശന്നിട്ട് വയ്യ! നിങ്ങൾക്ക് എന്ത് കഴിക്കാൻ തോന്നുന്നു?", "roman": "vishanniṭṭŭ vayya! niṅṅaḷkkŭ endŭ kaḻikkān tōnnunnu?", "en": "I'm starving! What do you guys feel like eating?" },
+      { "speaker": "Sana", "native": "കോഴിക്കോട് വന്നിട്ട് ബിരിയാണി കഴിക്കാതെ പോകാൻ പറ്റുമോ?", "roman": "kōḻikkōṭŭ vanniṭṭŭ biriyāṇi kaḻikkāte pōkān paṯṯumō?", "en": "You can't come to Kozhikode and leave without having biriyani!" },
+      { "speaker": "Jo", "native": "എനിക്ക് പൊറോട്ടയും ബീഫും മതി.", "roman": "enikkŭ poṟōṭṭayum bīfum mati.", "en": "Porotta and beef will do for me." },
+      { "speaker": "Nikhil", "native": "ചേട്ടാ, രണ്ട് ചിക്കൻ ബിരിയാണി, രണ്ട് പൊറോട്ട, ഒരു ബീഫ് ഫ്രൈ. പിന്നെ ഓരോ നാരങ്ങാവെള്ളം.", "roman": "chēṭṭā, raṇḍŭ chikkan biriyāṇi, raṇḍŭ poṟōṭṭa, oru bīfŭ frai. pinne ōrō nāraṅṅāveḷḷam.", "en": "Two chicken biriyanis, two porottas and a beef fry, please. And a lime juice each." },
+      { "speaker": "Waiter", "native": "ബിരിയാണി ഫുൾ ആണോ ഹാഫ് ആണോ?", "roman": "biriyāṇi ful āṇō hāfŭ āṇō?", "en": "Full or half biriyani?" },
+      { "speaker": "Sana", "native": "ഹാഫ് മതി. പിന്നെ, ബീഫിൽ അധികം എരിവ് വേണ്ട, കേട്ടോ.", "roman": "hāfŭ mati. pinne, bīfil adhikam erivŭ vēṇḍa, kēṭṭō.", "en": "Half is fine. And not too spicy on the beef, OK?" },
+      { "speaker": "Jo", "native": "ഹോ! ഇതിൽ എരിവ് കൂടിപ്പോയി! വെള്ളം, വെള്ളം!", "roman": "hō! itil erivŭ kūṭippōyi! veḷḷam, veḷḷam!", "en": "Whoa! This is way too spicy! Water, water!" },
+      { "speaker": "Nikhil", "native": "ഹ ഹ! 'എരിവ് എനിക്ക് പ്രശ്നമില്ല' എന്ന് പറഞ്ഞത് നീ അല്ലേ?", "roman": "ha ha! 'erivŭ enikkŭ prashnamilla' ennŭ paṟaññatŭ nī allē?", "en": "Ha ha! Weren't you the one who said 'spice is no problem for me'?" },
+      { "speaker": "Sana", "native": "ബിരിയാണിക്ക് സൂപ്പർ ടേസ്റ്റ് ആണ്. എന്നാലും ഉപ്പ് കുറച്ച് പോരാ.", "roman": "biriyāṇikkŭ sūppar ṭēsṯṯŭ āṇŭ. ennālum uppŭ kuṟacchŭ pōrā.", "en": "The biriyani tastes amazing. Though it could use a bit more salt." },
+      { "speaker": "Nikhil", "native": "ഇനി ഒരു സുലൈമാനി കുടിക്കാൻ തോന്നുന്നു.", "roman": "ini oru sulaimāni kuṭikkān tōnnunnu.", "en": "Now I feel like a sulaimani." },
+      { "speaker": "Jo", "native": "ചേട്ടാ, മൂന്ന് സുലൈമാനി, പിന്നെ ബില്ല്.", "roman": "chēṭṭā, mūnnŭ sulaimāni, pinne billŭ.", "en": "Three sulaimanis, please, and the bill." },
+      { "speaker": "Sana", "native": "ബില്ല് സ്പ്ലിറ്റ് ചെയ്യാം. ഞാൻ ജിപേ ചെയ്യാം.", "roman": "billŭ spliṯṯŭ cheyyām. ñān jipē cheyyām.", "en": "Let's split the bill. I'll GPay you." },
+      { "speaker": "Nikhil", "native": "ഏയ്, വേണ്ട! ഇന്ന് എന്റെ ട്രീറ്റ് — ഇന്നലെ ശമ്പളം കിട്ടി!", "roman": "ēy, vēṇḍa! innŭ ende ṭrīṯṯŭ — innale shambaḷam kiṭṭi!", "en": "No way! Today's my treat — I got paid yesterday!" },
+      { "speaker": "Jo", "native": "എന്നാൽ രണ്ട് പഴംപൊരി കൂടി, പാഴ്സൽ!", "roman": "ennāl raṇḍŭ paḻampori kūṭi, pārsal!", "en": "In that case, two more pazhamporis — to take away!" }
+    ]
+  },
+  "culture": "Kerala eats out at every price: the **തട്ടുകട** that opens at night (dosa, omelette, കട്ടൻ ചായ), the tea shop with പഴംപൊരി and ഉഴുന്നുവട at four o'clock, the **മീൽസ്** lunch on a banana leaf where the rice keeps coming until you cover the leaf with your hand and say **മതി**, and the biriyani houses of **Kozhikode** and **Thalassery**, famous across the state. **Porotta and beef** is a near-universal Kerala combination; if you don't eat beef, just say **എനിക്ക് വെജ് മതി** or ask for chicken — nobody will mind. Eating with your (right) hand is normal everywhere; ask for a spoon if you want one: **ഒരു സ്പൂൺ തരാമോ?**\n\nCall the waiter **ചേട്ടാ** or **ചേച്ചീ**. Water comes free, often warm (**ചുക്കുവെള്ളം** or herbal **ദാഹശമനി**). Tipping isn't expected in small places. Among friends, people often fight over the bill — **ഞാൻ കൊടുക്കാം!** — and the one who got a job, a promotion or a new bike is expected to give a **ട്രീറ്റ്** (also called **ചെലവ്**: **ചെലവ് എപ്പോഴാ?** 'when's the treat?'). Younger friends simply split it and GPay each other.",
+  "lessons": [
+    {
+      "title": "What do you feel like?",
+      "tip": { "title": "I feel like…", "body": "- Dative + verb-**ആൻ** + **തോന്നുന്നു**: എനിക്ക് ഷവർമ കഴിക്കാൻ തോന്നുന്നു.\n- Not in the mood: **തോന്നുന്നില്ല**.\n- Craving: **കൊതിയാവുന്നു**: കഴിക്കാൻ കൊതിയാവുന്നു.\n- Ask: **നിനക്ക് എന്ത് കഴിക്കാൻ തോന്നുന്നു?**\n- Trap: never ഞാൻ … തോന്നുന്നു.", "pattern": "എനിക്ക് + verb-ആൻ + തോന്നുന്നു", "grammar": 1 },
+      "new": ["കൊതി", "തട്ടുകട", "കഫേ", "ബിരിയാണി", "ഷവർമ", "എനിക്ക് ബിരിയാണി കഴിക്കാൻ തോന്നുന്നു.", "വിശന്നിട്ട് വയ്യ!", "എന്താ ഇവിടത്തെ സ്പെഷ്യൽ?"],
+      "sentences": [
+        { "native": "എനിക്ക് ബിരിയാണി കഴിക്കാൻ തോന്നുന്നു. നമുക്ക് പോയാലോ?", "roman": "enikkŭ biriyāṇi kaḻikkān tōnnunnu. namukkŭ pōyālō?", "en": "I feel like a biriyani. Shall we go?", "focus": "തോന്നുന്നു", "wrong": ["തോന്നുക|tōnnuka", "തോന്നിയോ|tōnniyō"] },
+        { "native": "നിനക്ക് എന്ത് കഴിക്കാൻ തോന്നുന്നു?", "roman": "ninakkŭ endŭ kaḻikkān tōnnunnu?", "en": "What do you feel like eating?", "focus": "നിനക്ക്", "wrong": ["നീ|nī", "നിന്നെ|ninne"] },
+        { "native": "വിശന്നിട്ട് വയ്യ! അടുത്ത് ഒരു തട്ടുകട ഉണ്ട്.", "roman": "vishanniṭṭŭ vayya! aṭuttŭ oru taṭṭukaṭa uṇḍŭ.", "en": "I'm starving! There's a food stall nearby." },
+        { "native": "എനിക്ക് ഷവർമ കഴിക്കാൻ കൊതിയാവുന്നു.", "roman": "enikkŭ ṣavarma kaḻikkān kothiyāvunnu.", "en": "I'm craving a shawarma.", "focus": "കഴിക്കാൻ", "wrong": ["കഴിച്ചു|kaḻicchu", "കഴിക്കും|kaḻikkum"] },
+        { "native": "എനിക്ക് ഇപ്പോൾ ഒന്നും കഴിക്കാൻ തോന്നുന്നില്ല.", "roman": "enikkŭ ippōḷ onnum kaḻikkān tōnnunnilla.", "en": "I don't feel like eating anything right now.", "focus": "തോന്നുന്നില്ല", "wrong": ["തോന്നുന്നു|tōnnunnu", "തോന്നും|tōnnum"] },
+        { "native": "ആ കഫേയിൽ നല്ല കാപ്പി കിട്ടും.", "roman": "ā kafēyil nalla kāppi kiṭṭum.", "en": "You get good coffee at that café." },
+        { "native": "എന്താ ഇവിടത്തെ സ്പെഷ്യൽ? ബിരിയാണി ആണോ?", "roman": "endā iviṭatte speṣyal? biriyāṇi āṇō?", "en": "What's the speciality here? Is it the biriyani?" },
+        { "native": "എനിക്ക് ഭയങ്കരമായി വിശക്കുന്നു, രാവിലെ ഒന്നും കഴിച്ചില്ല.", "roman": "enikkŭ bhayaṅgaramāyi vishakkunnu, rāvile onnum kaḻicchilla.", "en": "I'm so hungry — I didn't eat anything this morning." },
+        { "native": "തട്ടുകടയിലെ ദോശ കഴിക്കാൻ എനിക്ക് എപ്പോഴും കൊതിയാണ്.", "roman": "taṭṭukaṭayile dōsha kaḻikkān enikkŭ eppōḻum kothiyāṇŭ.", "en": "I always crave the dosa from the food stall." },
+        { "native": "ഇന്ന് പുറത്ത് നിന്ന് കഴിക്കാൻ തോന്നുന്നു, പാചകം ചെയ്യാൻ മടിയാണ്.", "roman": "innŭ puṟattŭ ninnŭ kaḻikkān tōnnunnu, pāchakam cheyyān maṭiyāṇŭ.", "en": "I feel like eating out today — can't be bothered to cook.", "focus": "കഴിക്കാൻ", "wrong": ["കഴിച്ചു|kaḻicchu", "കഴിക്കുക|kaḻikkuka"] }
+      ]
+    },
+    {
+      "title": "Ordering for the table",
+      "tip": { "title": "Ordering for a group", "body": "- Join items with **-ഉം … -ഉം**: രണ്ട് പൊറോട്ടയും ഒരു ബീഫ് ഫ്രൈയും.\n- **ഓരോ** = one each: ഓരോ ചായ.\n- Who gets what: dative **-ക്ക്**: എനിക്ക് വെജ്, ഇവന് ബീഫ്; **ആർക്കാ?** 'for whom?'\n- Call the waiter **ചേട്ടാ / ചേച്ചീ**.", "pattern": "ഓരോ + item · A-ഉം B-ഉം", "grammar": 2 },
+      "new": ["മെനു", "ഓർഡർ ചെയ്യുക", "പൊറോട്ട", "ബീഫ്", "വെജ്", "പ്ലേറ്റ്", "ഹാഫ്", "ചേട്ടാ, മെനു ഒന്ന് തരാമോ?", "ഓരോ ചായ!", "രണ്ട് പൊറോട്ടയും ഒരു ബീഫ് ഫ്രൈയും."],
+      "sentences": [
+        { "native": "ചേട്ടാ, മെനു ഒന്ന് തരാമോ? ഞങ്ങൾ നാല് പേരുണ്ട്.", "roman": "chēṭṭā, menu onnŭ tarāmō? ñaṅṅaḷ nālŭ pēruṇḍŭ.", "en": "Could we have the menu, please? There are four of us." },
+        { "native": "ഓരോ ചായ, ഒന്നിൽ പഞ്ചസാര വേണ്ട.", "roman": "ōrō chāya, onnil pañjasāra vēṇḍa.", "en": "A tea each — one without sugar.", "focus": "ഓരോ", "wrong": ["ഒരു|oru", "എല്ലാ|ellā"] },
+        { "native": "രണ്ട് പൊറോട്ടയും ഒരു ബീഫ് ഫ്രൈയും, പിന്നെ ഒരു ഹാഫ് ബിരിയാണി.", "roman": "raṇḍŭ poṟōṭṭayum oru bīfŭ fraiyum, pinne oru hāfŭ biriyāṇi.", "en": "Two porottas and a beef fry, and a half biriyani.", "focus": "പൊറോട്ടയും", "wrong": ["പൊറോട്ടയ്ക്ക്|poṟōṭṭaykkŭ", "പൊറോട്ടയുടെ|poṟōṭṭayuṭe"] },
+        { "native": "എനിക്ക് വെജ് മതി, ഇവന് ബീഫ്.", "roman": "enikkŭ vejŭ mati, ivanŭ bīfŭ.", "en": "Veg is fine for me — beef for him.", "focus": "ഇവന്", "wrong": ["ഇവൻ|ivan", "ഇവനെ|ivane"] },
+        { "native": "ആർക്കാ ബിരിയാണി? ഫുൾ ആണോ ഹാഫ് ആണോ?", "roman": "ārkkā biriyāṇi? ful āṇō hāfŭ āṇō?", "en": "Who's having biriyani? Full or half?", "focus": "ആർക്കാ", "wrong": ["ആരാ|ārā", "ആരുടെ|āruṭe"] },
+        { "native": "നമുക്ക് ഓർഡർ ചെയ്യാം, ചേട്ടൻ വെയ്റ്റ് ചെയ്യുന്നു.", "roman": "namukkŭ ōrḍar cheyyām, chēṭṭan veyṯṯŭ cheyyunnu.", "en": "Let's order — the waiter's waiting." },
+        { "native": "ഒരു പ്ലേറ്റ് ബീഫും നാല് പൊറോട്ടയും.", "roman": "oru plēṯṯŭ bīfum nālŭ poṟōṭṭayum.", "en": "A plate of beef and four porottas.", "focus": "ബീഫും", "wrong": ["ബീഫിന്|bīfinŭ", "ബീഫിൽ|bīfil"] },
+        { "native": "മെനുവിൽ വെജ് ഒന്നുമില്ലേ?", "roman": "menuvil vejŭ onnumillē?", "en": "Isn't there anything veg on the menu?" },
+        { "native": "ഞാൻ ഓർഡർ ചെയ്തത് ഇതല്ല.", "roman": "ñān ōrḍar cheytatŭ italla.", "en": "This isn't what I ordered." },
+        { "native": "ഓരോ പ്ലേറ്റ് പൊറോട്ട, പിന്നെ ഒരു ബീഫ് കറി ഷെയർ ചെയ്യാം.", "roman": "ōrō plēṯṯŭ poṟōṭṭa, pinne oru bīfŭ kaṟi ṣeyar cheyyām.", "en": "A plate of porotta each, and we'll share a beef curry.", "focus": "ഓരോ", "wrong": ["ഒരു|oru", "ഒന്ന്|onnŭ"] }
+      ]
+    },
+    {
+      "title": "Too spicy! Not enough salt!",
+      "tip": { "title": "Too much, not enough", "body": "- Too much: **കൂടിപ്പോയി**: എരിവ് കൂടിപ്പോയി 'too spicy'.\n- Not enough: **പോരാ**: ഉപ്പ് പോരാ.\n- Don't overdo it: **അധികം … വേണ്ട**.\n- **മതി** 'enough', **കുറച്ചുകൂടി** 'a bit more', **തീരെ** + not 'not at all'.\n- Trap: വളരെ = 'very', not 'too'.", "pattern": "X കൂടിപ്പോയി · X പോരാ · അധികം X വേണ്ട", "grammar": 0 },
+      "new": ["അധികം", "തീരെ", "പോരാ", "ആവശ്യത്തിന്", "ടേസ്റ്റ്", "അധികം എരിവ് വേണ്ട.", "ഇതിൽ എരിവ് കൂടിപ്പോയി!", "ഉപ്പ് പോരാ.", "കുറച്ചുകൂടി ചോറ് വേണോ?", "നല്ല ടേസ്റ്റ് ഉണ്ട്!"],
+      "sentences": [
+        { "native": "അധികം എരിവ് വേണ്ട, കുട്ടികൾ ഉണ്ട്.", "roman": "adhikam erivŭ vēṇḍa, kuṭṭikaḷ uṇḍŭ.", "en": "Not too spicy — there are kids with us.", "focus": "അധികം", "wrong": ["തീരെ|tīre", "പോരാ|pōrā"] },
+        { "native": "ഇതിൽ എരിവ് കൂടിപ്പോയി! എനിക്ക് കഴിക്കാൻ പറ്റുന്നില്ല.", "roman": "itil erivŭ kūṭippōyi! enikkŭ kaḻikkān paṯṯunnilla.", "en": "This is way too spicy! I can't eat it.", "focus": "കൂടിപ്പോയി", "wrong": ["കുറഞ്ഞുപോയി|kuṟaññupōyi", "കൂടുക|kūṭuka"] },
+        { "native": "ഉപ്പ് പോരാ, ചേട്ടാ. കുറച്ച് ഉപ്പ് തരാമോ?", "roman": "uppŭ pōrā, chēṭṭā. kuṟacchŭ uppŭ tarāmō?", "en": "It needs more salt. Could I have some salt?", "focus": "പോരാ", "wrong": ["മതി|mati", "കൂടിപ്പോയി|kūṭippōyi"] },
+        { "native": "കുറച്ചുകൂടി ചോറ് വേണോ? — മതി, വയറു നിറഞ്ഞു!", "roman": "kuṟacchukūṭi chōṟŭ vēṇō? — mati, vayaṟu niṟaññu!", "en": "A bit more rice? — No, that's enough, I'm full!", "focus": "മതി", "wrong": ["പോരാ|pōrā", "വേണം|vēṇam"] },
+        { "native": "ഈ കറിക്ക് തീരെ ടേസ്റ്റ് ഇല്ല.", "roman": "ī kaṟikkŭ tīre ṭēsṯṯŭ illa.", "en": "This curry has no taste at all.", "focus": "തീരെ", "wrong": ["അധികം|adhikam", "ആവശ്യത്തിന്|āvashyattinŭ"] },
+        { "native": "നല്ല ടേസ്റ്റ് ഉണ്ട്! ആരാ ഉണ്ടാക്കിയത്?", "roman": "nalla ṭēsṯṯŭ uṇḍŭ! ārā uṇḍākkiyatŭ?", "en": "This tastes great! Who made it?" },
+        { "native": "ചായയിൽ മധുരം കൂടിപ്പോയി.", "roman": "chāyayil madhuram kūṭippōyi.", "en": "The tea is too sweet.", "focus": "കൂടിപ്പോയി", "wrong": ["പോരാ|pōrā", "കൂടുതൽ|kūṭutal"] },
+        { "native": "ചോറ് ആവശ്യത്തിന് ഉണ്ട്, നന്നായി കഴിക്ക്.", "roman": "chōṟŭ āvashyattinŭ uṇḍŭ, nannāyi kaḻikkŭ.", "en": "There's plenty of rice — eat up.", "focus": "ആവശ്യത്തിന്", "wrong": ["പോരാ|pōrā", "തീരെ|tīre"] },
+        { "native": "ഈ ബീഫിന് തീരെ എരിവില്ല.", "roman": "ī bīfinŭ tīre erivilla.", "en": "This beef isn't spicy at all." },
+        { "native": "ചോറ് പോരാ, ഒരു പ്ലേറ്റ് കൂടി.", "roman": "chōṟŭ pōrā, oru plēṯṯŭ kūṭi.", "en": "Not enough rice — one more plate, please.", "focus": "കൂടി", "wrong": ["കൂടുതൽ|kūṭutal", "മതി|mati"] }
+      ]
+    },
+    {
+      "title": "Tea, snacks and meals",
+      "tip": { "title": "Kerala menu words", "body": "- **മീൽസ്** = the lunch plate of rice and curries; the rice is refilled for free.\n- Tea-shop snacks: **പഴംപൊരി**, **ഉഴുന്നുവട**.\n- **കട്ടൻ** = black (tea or coffee); **സുലൈമാനി** = Malabar spiced black tea.\n- Ask for a table: **ഒരു ടേബിൾ ഒഴിവുണ്ടോ?**" },
+      "new": ["കട്ടൻ", "സുലൈമാനി", "പഴംപൊരി", "ഉഴുന്നുവട", "ജ്യൂസ്", "മീൽസ്", "ടേബിൾ"],
+      "sentences": [
+        { "native": "ഒരു കട്ടൻ ചായയും ഒരു പഴംപൊരിയും.", "roman": "oru kaṭṭan chāyayum oru paḻamporiyum.", "en": "A black tea and a pazhampori." },
+        { "native": "ഉച്ചയ്ക്ക് മീൽസ് ഉണ്ടോ?", "roman": "ucchaykkŭ mīlsŭ uṇḍō?", "en": "Do you have meals at lunchtime?" },
+        { "native": "ഈ കടയിലെ ഉഴുന്നുവട അടിപൊളിയാണ്.", "roman": "ī kaṭayile uḻunnuvaṭa aṭipoḷiyāṇŭ.", "en": "The vada at this shop is brilliant." },
+        { "native": "ഈ തണുപ്പത്ത് ഒരു സുലൈമാനി കുടിക്കാൻ തോന്നുന്നു.", "roman": "ī taṇuppattŭ oru sulaimāni kuṭikkān tōnnunnu.", "en": "In this cold I feel like a sulaimani.", "focus": "കുടിക്കാൻ", "wrong": ["കുടിച്ചു|kuṭicchu", "കുടിക്കും|kuṭikkum"] },
+        { "native": "ഒരു ടേബിൾ ഒഴിവുണ്ടോ? ഞങ്ങൾ അഞ്ച് പേരുണ്ട്.", "roman": "oru ṭēbiḷ oḻivuṇḍō? ñaṅṅaḷ añjŭ pēruṇḍŭ.", "en": "Is there a table free? There are five of us." },
+        { "native": "എനിക്ക് ഒരു തണുത്ത ജ്യൂസ് മതി, ചായ വേണ്ട.", "roman": "enikkŭ oru taṇutta jyūsŭ mati, chāya vēṇḍa.", "en": "A cold juice will do for me — no tea." },
+        { "native": "മീൽസിന് ചോറ് എത്ര വേണമെങ്കിലും കിട്ടും.", "roman": "mīlsinŭ chōṟŭ etra vēṇameṅgilum kiṭṭum.", "en": "With meals you get as much rice as you want." },
+        { "native": "പഴംപൊരിക്ക് എന്താ വില?", "roman": "paḻamporikkŭ endā vila?", "en": "How much is a pazhampori?" },
+        { "native": "ആ ടേബിളിൽ ഇരിക്കാം, അവിടെ ഫാൻ ഉണ്ട്.", "roman": "ā ṭēbiḷil irikkām, aviṭe fān uṇḍŭ.", "en": "Let's sit at that table — there's a fan there." },
+        { "native": "വൈകുന്നേരം ചായയും പഴംപൊരിയും ഇല്ലാതെ പറ്റില്ല!", "roman": "vaikunnēram chāyayum paḻamporiyum illāte paṯṯilla!", "en": "Can't get through the evening without tea and pazhampori!", "focus": "ചായയും", "wrong": ["ചായയ്ക്ക്|chāyaykkŭ", "ചായയുടെ|chāyayuṭe"] }
+      ]
+    },
+    {
+      "title": "The bill, the treat and the takeaway",
+      "tip": { "title": "Paying", "body": "- Ask for the bill: **ചേട്ടാ, ബില്ല്**.\n- Friends fight to pay: **ഞാൻ കൊടുക്കാം!** — **ഏയ്, വേണ്ട!**\n- **എന്റെ ട്രീറ്റ്** 'my treat'. New job or new bike? Your friends will ask **ചെലവ് എപ്പോഴാ?** 'when's the treat?'\n- Or **സ്പ്ലിറ്റ് ചെയ്യാം** and GPay each other.\n- Takeaway: **പാഴ്സൽ**." },
+      "new": ["പാഴ്സൽ", "ട്രീറ്റ്", "സ്പ്ലിറ്റ് ചെയ്യുക", "ഇത് പാഴ്സൽ തരാമോ?", "ഇത് എന്റെ ട്രീറ്റ്!", "ബില്ല് സ്പ്ലിറ്റ് ചെയ്യാം.", "ഏയ്, ഞാൻ കൊടുക്കാം!"],
+      "sentences": [
+        { "native": "ഇത് പാഴ്സൽ തരാമോ? വീട്ടിൽ കൊണ്ടുപോകാനാ.", "roman": "itŭ pārsal tarāmō? vīṭṭil koṇḍupōkānā.", "en": "Could you pack this? It's to take home." },
+        { "native": "രണ്ട് ബിരിയാണി പാഴ്സൽ.", "roman": "raṇḍŭ biriyāṇi pārsal.", "en": "Two biriyanis to take away." },
+        { "native": "ഇത് എന്റെ ട്രീറ്റ്! ഇന്ന് എന്റെ പിറന്നാളാണ്.", "roman": "itŭ ende ṭrīṯṯŭ! innŭ ende piṟannāḷāṇŭ.", "en": "This is my treat! It's my birthday today." },
+        { "native": "ഏയ്, ഞാൻ കൊടുക്കാം! നീ കഴിഞ്ഞ ആഴ്ച കൊടുത്തില്ലേ?", "roman": "ēy, ñān koṭukkām! nī kaḻiñña āḻcha koṭuttillē?", "en": "No, I'll pay! Didn't you pay last week?", "focus": "കൊടുക്കാം", "wrong": ["കൊടുത്തു|koṭuttu", "കൊടുക്കുക|koṭukkuka"] },
+        { "native": "ബില്ല് സ്പ്ലിറ്റ് ചെയ്യാം, ഓരോരുത്തർക്കും ഇരുനൂറ് രൂപ.", "roman": "billŭ spliṯṯŭ cheyyām, ōrōruttarkkum irunūṟŭ rūpa.", "en": "Let's split the bill — two hundred rupees each." },
+        { "native": "ജോലി കിട്ടിയില്ലേ? അപ്പോൾ ട്രീറ്റ് വേണം!", "roman": "jōli kiṭṭiyillē? appōḷ ṭrīṯṯŭ vēṇam!", "en": "You got the job, didn't you? Then we want a treat!" },
+        { "native": "ചേട്ടാ, ബില്ല്. ഞാൻ ജിപേ ചെയ്യാം.", "roman": "chēṭṭā, billŭ. ñān jipē cheyyām.", "en": "The bill, please. I'll pay by GPay." },
+        { "native": "ഞാൻ നിനക്ക് നൂറ്റമ്പത് രൂപ ജിപേ ചെയ്യാം.", "roman": "ñān ninakkŭ nūṯṯambatŭ rūpa jipē cheyyām.", "en": "I'll GPay you a hundred and fifty.", "focus": "നിനക്ക്", "wrong": ["നിന്നെ|ninne", "നീ|nī"] },
+        { "native": "ബാക്കി ഭക്ഷണം പാഴ്സൽ ചെയ്തുതരാമോ?", "roman": "bākki bhakṣaṇam pārsal cheytutarāmō?", "en": "Could you pack up the leftovers for us?", "focus": "ചെയ്തുതരാമോ", "wrong": ["ചെയ്തുകൊടുക്കാമോ|cheytukoṭukkāmō", "ചെയ്തുപോയി|cheytupōyi"] },
+        { "native": "ഇന്നത്തെ ട്രീറ്റ് അവന്റേതാണ്, അവൻ പുതിയ ബൈക്ക് വാങ്ങി!", "roman": "innatte ṭrīṯṯŭ avandētāṇŭ, avan putiya baikkŭ vāṅṅi!", "en": "Today's treat is on him — he bought a new bike!" }
+      ]
+    }
+  ]
+}

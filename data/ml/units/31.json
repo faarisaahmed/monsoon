@@ -1,0 +1,201 @@
+{
+  "id": 31,
+  "title": "Work & colleagues",
+  "goal": "Chat with colleagues, talk to your boss in the right register, write a leave letter, read office notices and get through a job interview.",
+  "intro": "Office Malayalam runs on three levels. With colleagues your age it's fast, contracted and half English ('Manglish'): ടീം, ഡെഡ്ലൈൻ, ഓവർടൈം with Malayalam endings. With the boss and clients you switch to full forms, സാർ / മാഡം instead of 'you', and polite -ആമോ requests. In letters, emails and notices you meet a third, written register with its own vocabulary — ലഭിച്ചു for കിട്ടി, ആരംഭിക്കും for തുടങ്ങും.\n\nThis unit teaches all three, plus how Malayalam says English passives like *it was decided* or *the meeting has been moved* — usually without a passive at all.",
+  "vocab": [
+    { "native": "മാനേജർ", "roman": "mānējar", "en": "manager", "pos": "noun" },
+    { "native": "ബോസ്", "roman": "bōsŭ", "en": "boss (colloquial)", "pos": "noun", "note": "Behind their back; to their face it's സാർ / മാഡം. മുതലാളി (unit 15) is the owner of a business." },
+    { "native": "ടീം", "roman": "ṭīm", "en": "team", "pos": "noun" },
+    { "native": "ഷിഫ്റ്റ്", "roman": "ṣifṯṯŭ", "en": "shift (work)", "pos": "noun", "note": "നൈറ്റ് ഷിഫ്റ്റ് 'night shift' — common in IT, hospitals and the Gulf." },
+    { "native": "ഓവർടൈം", "roman": "ōvarṭaim", "en": "overtime", "pos": "noun", "note": "ഓവർടൈം ചെയ്യുക 'to do overtime'." },
+    { "native": "ജോയിൻ ചെയ്യുക", "roman": "joyin cheyyuka", "en": "to join (a company, a course)", "pos": "verb", "note": "Past: ജോയിൻ ചെയ്തു. Formal: ചേരുക." },
+    { "native": "വർക്ക് ഫ്രം ഹോം", "roman": "varkkŭ fram hōm", "en": "work from home, WFH", "pos": "noun", "note": "ഞാൻ ഇന്ന് വർക്ക് ഫ്രം ഹോം ആണ് 'I'm WFH today'." },
+    { "native": "ഉത്തരവാദിത്തം", "roman": "uttaravādittam", "en": "responsibility", "pos": "noun" },
+    { "native": "നിർദ്ദേശം", "roman": "nirddēsham", "en": "instruction; suggestion", "pos": "noun", "note": "Plural നിർദ്ദേശങ്ങൾ." },
+    { "native": "റിപ്പോർട്ട്", "roman": "ṟippōrṭṭŭ", "en": "report", "pos": "noun" },
+    { "native": "ഡെഡ്ലൈൻ", "roman": "ḍeḍlain", "en": "deadline", "pos": "noun", "note": "Everyone uses the English word; a formal letter might say അവസാന തീയതി 'last date'." },
+    { "native": "നീട്ടുക", "roman": "nīṭṭuka", "en": "to extend (a deadline, a stay); to stretch out", "pos": "verb", "note": "Past: നീട്ടി." },
+    { "native": "ബഹുമാനപ്പെട്ട", "roman": "bahumānappeṭṭa", "en": "respected, dear (opening a letter)", "pos": "adj", "note": "ബഹുമാനപ്പെട്ട സാർ / മാഡം 'Dear Sir / Madam'." },
+    { "native": "താഴ്മയായി", "roman": "tāḻmayāyi", "en": "humbly (in formal requests)", "pos": "adv", "note": "The fixed ending of every leave letter: …എന്ന് താഴ്മയായി അപേക്ഷിക്കുന്നു." },
+    { "native": "അപേക്ഷ", "roman": "apēkṣa", "en": "application; (formal) request", "pos": "noun" },
+    { "native": "സമർപ്പിക്കുക", "roman": "samarppikkuka", "en": "to submit, hand in (formal)", "pos": "verb", "note": "Past: സമർപ്പിച്ചു. In speech: കൊടുക്കുക / അയയ്ക്കുക." },
+    { "native": "സ്ഥാപനം", "roman": "sthāpanam", "en": "organisation, institution, firm (formal)", "pos": "noun" },
+    { "native": "അറിയിക്കുക", "roman": "aṟiyikkuka", "en": "to inform, let (someone) know", "pos": "verb", "note": "Past: അറിയിച്ചു. Causative of അറിയുക 'know': 'make know'." },
+    { "native": "തീരുമാനം", "roman": "tīrumānam", "en": "decision", "pos": "noun", "note": "തീരുമാനമായി 'it's been decided'. Verb: തീരുമാനിക്കുക (unit 17)." },
+    { "native": "അംഗീകരിക്കുക", "roman": "aṅgīkarikkuka", "en": "to approve; to accept, recognise", "pos": "verb", "note": "Past: അംഗീകരിച്ചു." },
+    { "native": "ചർച്ച", "roman": "charcha", "en": "discussion", "pos": "noun", "note": "ചർച്ച ചെയ്യുക 'to discuss'." },
+    { "native": "പ്രോജക്ട്", "roman": "prōjakṭŭ", "en": "project", "pos": "noun" },
+    { "native": "ക്ലയന്റ്", "roman": "klayanṯŭ", "en": "client", "pos": "noun" },
+    { "native": "ഇന്റർവ്യൂ", "roman": "inṯarvyū", "en": "interview", "pos": "noun", "note": "ഇന്റർവ്യൂവിന് പോകുക 'to go for an interview'." },
+    { "native": "ബയോഡാറ്റ", "roman": "bayōḍāṯṯa", "en": "CV, résumé", "pos": "noun", "note": "Indian English 'biodata'; സിവി and റെസ്യൂമെ are also heard." },
+    { "native": "അപേക്ഷിക്കുക", "roman": "apēkṣikkuka", "en": "to apply (for: dative); to request (formal)", "pos": "verb", "note": "Past: അപേക്ഷിച്ചു. ഈ ജോലിക്ക് അപേക്ഷിച്ചു 'applied for this job'." },
+    { "native": "പരിചയം", "roman": "parichayam", "en": "experience; acquaintance", "pos": "noun", "note": "പരിചയപ്പെടുക 'to get to know', പരിചയപ്പെടുത്തുക 'to introduce'." },
+    { "native": "പ്രൊമോഷൻ", "roman": "promōṣan", "en": "promotion", "pos": "noun" },
+    { "native": "രാജിവെക്കുക", "roman": "rājivekkuka", "en": "to resign, quit", "pos": "verb", "note": "Past: രാജിവെച്ചു. Colloquially also ജോലി വിട്ടു 'left the job'." }
+  ],
+  "phrases": [
+    { "native": "ഈ ആഴ്ച ഭയങ്കര പണിയാണ്.", "roman": "ī āḻcha bhayaṅgara paṇiyāṇŭ.", "en": "This week is crazy busy." },
+    { "native": "ബോസ് ഇന്ന് നല്ല മൂഡിലല്ല.", "roman": "bōsŭ innŭ nalla mūḍilalla.", "en": "The boss isn't in a good mood today." },
+    { "native": "ചായ കുടിക്കാൻ പോയാലോ?", "roman": "chāya kuṭikkān pōyālō?", "en": "Shall we go for a tea?", "note": "-ആലോ? 'what if we…?' is a friendly suggestion." },
+    { "native": "ഞാൻ ഇന്ന് വർക്ക് ഫ്രം ഹോം ആണ്.", "roman": "ñān innŭ varkkŭ fram hōm āṇŭ.", "en": "I'm working from home today." },
+    { "native": "സാർ, നാളെ എനിക്ക് ഒരു ദിവസത്തെ ലീവ് വേണം.", "roman": "sār, nāḷe enikkŭ oru divasatte līvŭ vēṇam.", "en": "Sir, I need a day's leave tomorrow." },
+    { "native": "ഡെഡ്ലൈൻ എന്നാണ്?", "roman": "ḍeḍlain ennāṇŭ?", "en": "When's the deadline?", "note": "എന്ന് 'on which day' — not എപ്പോൾ, which asks the time." },
+    { "native": "ഇന്ന് കുറച്ച് നേരത്തെ ഇറങ്ങിക്കോട്ടെ?", "roman": "innŭ kuṟacchŭ nēratte iṟaṅṅikkōṭṭe?", "en": "May I leave a bit early today?" },
+    { "native": "ഞാൻ ഇപ്പോൾ തന്നെ അയയ്ക്കാം.", "roman": "ñān ippōḷ tanne ayaykkām.", "en": "I'll send it right away.", "note": "തന്നെ 'itself, right' adds emphasis: ഇപ്പോൾ തന്നെ 'right now'." },
+    { "native": "താഴ്മയായി അപേക്ഷിക്കുന്നു.", "roman": "tāḻmayāyi apēkṣikkunnu.", "en": "I humbly request. (formal letters)" },
+    { "native": "എല്ലാവരും ശ്രദ്ധിക്കുക.", "roman": "ellāvarum shraddhikkuka.", "en": "Attention, everyone. / Please note. (notices)" },
+    { "native": "മീറ്റിംഗ് നാളത്തേക്ക് മാറ്റി.", "roman": "mīṯṯiṅgŭ nāḷattēkkŭ māṯṯi.", "en": "The meeting has been moved to tomorrow." },
+    { "native": "തീരുമാനം ഞങ്ങൾ അറിയിക്കാം.", "roman": "tīrumānam ñaṅṅaḷ aṟiyikkām.", "en": "We'll let you know our decision." },
+    { "native": "ഞാൻ എന്നെ ഒന്ന് പരിചയപ്പെടുത്താം.", "roman": "ñān enne onnŭ parichayappeṭuttām.", "en": "Let me introduce myself." },
+    { "native": "എനിക്ക് മൂന്ന് വർഷത്തെ പരിചയമുണ്ട്.", "roman": "enikkŭ mūnnŭ varṣatte parichayamuṇḍŭ.", "en": "I have three years' experience." }
+  ],
+  "grammar": [
+    {
+      "title": "Formal register in full: speaking up the ladder, and writing",
+      "body": "**1. Colleagues your age** — names or നീ, contracted forms (എന്താ, പോവാ, വരുന്നുണ്ടോ?) and plenty of English nouns with Malayalam endings: ടീമിൽ, ഡെഡ്ലൈനിന് മുമ്പ്. English verbs come in with **ചെയ്യുക** (ജോയിൻ ചെയ്തു) or **ആവുക** (റെഡിയായോ?).\n\n**2. The boss, seniors, clients** — Malayalam avoids 'you' upwards. Use the **title in place of the pronoun**, in any case: **സാർ** എപ്പോഴാണ് വരുന്നത്? 'When are you coming, sir?', **സാറിന്** സമയമുണ്ടോ? 'Do you have time?', **സാറിന്റെ** നിർദ്ദേശം 'your instruction'. Use full forms (എന്താണ്, പോകുകയാണ്), requests with **-ആമോ** (നീട്ടാമോ? 'could you extend?'), permission with **-ഓട്ടെ** (ഇറങ്ങിക്കോട്ടെ? 'may I leave?') and offers with **-ആം** (ഞാൻ അയയ്ക്കാം). Never നീ; even നിങ്ങൾ can sound blunt to a boss.\n\n**3. Written / official** — letters, emails to HR, notices, announcements:\n• **Openings and closings**: ബഹുമാനപ്പെട്ട സാർ, … എന്ന് **താഴ്മയായി അപേക്ഷിക്കുന്നു**. / വിശ്വസ്തതയോടെ (Yours faithfully), name.\n• **Orders in notices use the plain dictionary form -ുക**: **ശ്രദ്ധിക്കുക** 'please note', **എത്തുക** 'arrive', **സമർപ്പിക്കുക** 'submit'. (In speech this would be ശ്രദ്ധിക്കൂ.)\n• **Future announcements in -ുന്നതാണ്**: മീറ്റിംഗ് പത്ത് മണിക്ക് **ആരംഭിക്കുന്നതാണ്** 'The meeting will begin at ten.'\n• **Formal words** replace everyday ones: കിട്ടുക → **ലഭിക്കുക** 'receive', കൊടുക്കുക → **നൽകുക** 'give', തുടങ്ങുക → **ആരംഭിക്കുക** 'begin', തീരുക → **അവസാനിക്കുക** 'end', വേണം → **ആവശ്യമാണ്** 'is required'.\n\n**The trap**: written Malayalam spoken aloud sounds like a news reader. With your boss face to face, register 2 is enough — full forms, സാർ / മാഡം, -ആമോ.",
+      "examples": [
+        { "native": "ബഹുമാനപ്പെട്ട സാർ, നാളെ ഒരു ദിവസത്തെ അവധി അനുവദിക്കണമെന്ന് താഴ്മയായി അപേക്ഷിക്കുന്നു.", "roman": "bahumānappeṭṭa sār, nāḷe oru divasatte avadhi anuvadikkaṇamennŭ tāḻmayāyi apēkṣikkunnu.", "en": "Dear Sir, I humbly request that I be granted one day's leave tomorrow." },
+        { "native": "മീറ്റിംഗ് രാവിലെ പത്ത് മണിക്ക് ആരംഭിക്കുന്നതാണ്.", "roman": "mīṯṯiṅgŭ rāvile pattŭ maṇikkŭ ārambhikkunnatāṇŭ.", "en": "The meeting will begin at 10 a.m." },
+        { "native": "സാർ, ഒന്ന് സംസാരിക്കാൻ സമയമുണ്ടോ?", "roman": "sār, onnŭ samsārikkān samayamuṇḍō?", "en": "Sir, do you have a moment to talk?" },
+        { "native": "നീ ആ ഫയൽ അയച്ചോ?", "roman": "nī ā fayal ayacchō?", "en": "Did you send that file? (to a colleague)" },
+        { "native": "റിപ്പോർട്ട് ലഭിച്ചു, നന്ദി.", "roman": "ṟippōrṭṭŭ labhicchu, nandi.", "en": "Report received, thank you. (formal email)" }
+      ]
+    },
+    {
+      "title": "\"It was decided\": passives and impersonal sentences",
+      "body": "English uses the passive all the time at work: *the meeting has been moved, she was promoted, it was decided*. Malayalam has a passive, but in everyday speech it usually says these things in other ways.\n\n**1. Active verb, no subject** (the most common). Just leave out who did it; the thing or person affected stays the **object**: മീറ്റിംഗ് നാളത്തേക്ക് **മാറ്റി** 'the meeting has been moved to tomorrow' (lit. (they) moved the meeting); **അവളെ** മാനേജരായി **തിരഞ്ഞെടുത്തു** 'she was chosen as manager' (lit. (they) chose her); ശമ്പളം അക്കൗണ്ടിൽ **ഇട്ടു** 'the salary has been credited'.\n\n**2. Noun + ആയി 'became'**: **തീരുമാനമായി** 'it's been decided', **ശരിയായി** 'it's been sorted'.\n\n**3. Receiving with കിട്ടുക**: what English says as 'I was given / granted' is 'to me it came': എനിക്ക് ലീവ് **കിട്ടി** 'my leave was granted', അവന് പ്രൊമോഷൻ **കിട്ടി** 'he was promoted'.\n\n**4. The real passive -അപ്പെടുക** (formal: news, notices, letters). Replace -ുക with **-അപ്പെടുക**: അംഗീകരിക്കുക → **അംഗീകരിക്കപ്പെട്ടു** 'was approved', തിരഞ്ഞെടുക്കുക → **തിരഞ്ഞെടുക്കപ്പെട്ടു** 'was elected', ക്ഷണിക്കുക → **ക്ഷണിക്കപ്പെട്ട** അതിഥികൾ 'invited guests'. Here the person affected is the **subject**: **അവൾ** തിരഞ്ഞെടുക്കപ്പെട്ടു.\n\n**The trap**: in speech, മീറ്റിംഗ് മാറ്റിവെക്കപ്പെട്ടു sounds like the TV news; say **മീറ്റിംഗ് മാറ്റിവെച്ചു**. And don't mix the two patterns: അവളെ തിരഞ്ഞെടുത്തു (no subject, she is object) or അവൾ തിരഞ്ഞെടുക്കപ്പെട്ടു (passive, she is subject).",
+      "examples": [
+        { "native": "ശമ്പളം ഇന്നലെ അക്കൗണ്ടിൽ ഇട്ടു.", "roman": "shambaḷam innale akkauṇḍil iṭṭu.", "en": "The salary was credited yesterday." },
+        { "native": "അവളെ ടീം ലീഡറായി തിരഞ്ഞെടുത്തു.", "roman": "avaḷe ṭīm līḍarāyi tiraññeṭuttu.", "en": "She was chosen as team lead." },
+        { "native": "പുതിയ ഓഫീസ് കാക്കനാട്ട് ആണെന്ന് തീരുമാനമായി.", "roman": "putiya ōfīsŭ kākkanāṭṭŭ āṇennŭ tīrumānamāyi.", "en": "It's been decided that the new office will be in Kakkanad." },
+        { "native": "എന്റെ അപേക്ഷ അംഗീകരിക്കപ്പെട്ടു.", "roman": "ende apēkṣa aṅgīkarikkappeṭṭu.", "en": "My application has been approved. (formal)" },
+        { "native": "ഇവിടെ ഫോട്ടോ എടുക്കാൻ അനുവദിക്കില്ല.", "roman": "iviṭe fōṭṭō eṭukkān anuvadikkilla.", "en": "Taking photos is not allowed here." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Monday at Infopark",
+    "setting": "An IT office in Kochi. Neethu and Ajmal chat at their desks until their manager, Suresh, walks in.",
+    "lines": [
+      { "speaker": "Ajmal", "native": "ഗുഡ് മോർണിംഗ്! വീക്കെൻഡ് എങ്ങനെ ഉണ്ടായിരുന്നു?", "roman": "guḍ mōrṇiṅg! vīkkenḍŭ eṅṅane uṇḍāyirunnu?", "en": "Good morning! How was the weekend?" },
+      { "speaker": "Neethu", "native": "എന്ത് വീക്കെൻഡ്? ശനിയാഴ്ചയും ക്ലയന്റ് കോൾ ഉണ്ടായിരുന്നു.", "roman": "endŭ vīkkenḍŭ? shaniyāḻchayum klayanṯŭ kōḷ uṇḍāyirunnu.", "en": "What weekend? I had a client call on Saturday too." },
+      { "speaker": "Ajmal", "native": "അയ്യോ. അതിരിക്കട്ടെ, ബോസ് ഇന്ന് നല്ല മൂഡിലല്ല, സൂക്ഷിച്ചോ.", "roman": "ayyō. atirikkaṭṭe, bōsŭ innŭ nalla mūḍilalla, sūkṣicchō.", "en": "Ouch. Anyway — the boss isn't in a good mood today, watch out." },
+      { "speaker": "Neethu", "native": "എന്ത് പറ്റി?", "roman": "endŭ paṯṯi?", "en": "Why, what happened?" },
+      { "speaker": "Ajmal", "native": "പ്രോജക്ട് ഡെഡ്ലൈൻ വെള്ളിയാഴ്ചയിലേക്ക് മാറ്റി എന്ന് കേട്ടു.", "roman": "prōjakṭŭ ḍeḍlain veḷḷiyāḻchayilēkkŭ māṯṯi ennŭ kēṭṭu.", "en": "I heard the project deadline's been moved to Friday." },
+      { "speaker": "Neethu", "native": "വെള്ളിയാഴ്ചയോ? ഞാൻ ആ ദിവസം ലീവ് ചോദിക്കാൻ ഇരിക്കുകയായിരുന്നു!", "roman": "veḷḷiyāḻchayō? ñān ā divasam līvŭ chōdikkān irikkukayāyirunnu!", "en": "Friday?! I was just about to ask for that day off!" },
+      { "speaker": "Suresh", "native": "ഗുഡ് മോർണിംഗ്. നീതു, ആ റിപ്പോർട്ട് റെഡിയായോ?", "roman": "guḍ mōrṇiṅg. nītu, ā ṟippōrṭṭŭ ṟeḍiyāyō?", "en": "Good morning. Neethu, is that report ready?" },
+      { "speaker": "Neethu", "native": "ഏകദേശം തീർന്നു, സാർ. ഉച്ചയ്ക്ക് മുമ്പ് അയയ്ക്കാം.", "roman": "ēkadēsham tīrnnu, sār. ucchaykkŭ mumbŭ ayaykkām.", "en": "Almost done, sir. I'll send it before noon." },
+      { "speaker": "Suresh", "native": "ശരി. പിന്നെ, ഡെഡ്ലൈൻ വെള്ളിയാഴ്ചയാണ്. ക്ലയന്റുമായി ചർച്ച ചെയ്ത് തീരുമാനിച്ചതാണ്.", "roman": "shari. pinne, ḍeḍlain veḷḷiyāḻchayāṇŭ. klayanṯumāyi charcha cheytŭ tīrumānicchatāṇŭ.", "en": "Fine. Also, the deadline is Friday. It was decided after talking to the client." },
+      { "speaker": "Neethu", "native": "സാർ, ഒരു കാര്യം… അന്ന് എനിക്ക് ഒരു കല്യാണമുണ്ട്. ഉച്ചയ്ക്ക് ശേഷം ലീവ് എടുത്തോട്ടെ?", "roman": "sār, oru kāryam… annŭ enikkŭ oru kalyāṇamuṇḍŭ. ucchaykkŭ shēṣam līvŭ eṭuttōṭṭe?", "en": "Sir, one thing… I have a wedding that day. May I take the afternoon off?" },
+      { "speaker": "Suresh", "native": "വ്യാഴാഴ്ച വൈകുന്നേരത്തിന് മുമ്പ് എല്ലാം സമർപ്പിച്ചാൽ കുഴപ്പമില്ല.", "roman": "vyāḻāḻcha vaikunnērattinŭ mumbŭ ellām samarppicchāl kuḻappamilla.", "en": "If everything is submitted before Thursday evening, that's fine." },
+      { "speaker": "Neethu", "native": "തീർച്ചയായും, സാർ. താങ്ക് യൂ!", "roman": "tīrcchayāyum, sār. tāṅkŭ yū!", "en": "Definitely, sir. Thank you!" },
+      { "speaker": "Ajmal", "native": "കണ്ടോ? ഇനി വ്യാഴാഴ്ച വരെ ദിവസവും ഓവർടൈം!", "roman": "kaṇḍō? ini vyāḻāḻcha vare divasavum ōvarṭaim!", "en": "See? Now it's overtime every day till Thursday!" }
+    ]
+  },
+  "culture": "Kerala's IT parks — Technopark in Thiruvananthapuram, Infopark in Kochi, Cyberpark in Kozhikode — run on **Manglish**: English nouns, Malayalam grammar (ഡെഡ്ലൈനിന് മുമ്പ് അയയ്ക്കാം). Seniors are സാർ / മാഡം, often after the first name (Suresh sir, Latha madam); in smaller firms and shops, a slightly older colleague is simply ചേട്ടൻ / ചേച്ചി. Government offices increasingly work in Malayalam, so their letters and notices use the formal written register — and every Malayali learnt the leave-letter formula ending **…എന്ന് താഴ്മയായി അപേക്ഷിക്കുന്നു** at school.\n\nThe afternoon **ചായ** break (around four, often with a snack like പഴംപൊരി) is sacred, and lunch is usually rice from a tiffin box. A huge number of Malayalis work in the **Gulf**, where offices run in English and Arabic but Malayali colleagues switch straight back to Malayalam among themselves. Talking about salary is less taboo than in the West: friends and relatives may well ask എത്ര ശമ്പളമുണ്ട്?",
+  "lessons": [
+    {
+      "title": "Chatting with colleagues",
+      "tip": { "title": "Office Manglish", "body": "- With colleagues your age: names or നീ, short forms (എന്താ) and lots of English: ടീം, ഷിഫ്റ്റ്, ഓവർടൈം.\n- English verbs take **ചെയ്യുക**: ജോയിൻ **ചെയ്തു**, ഓവർടൈം **ചെയ്യണം**.\n- English nouns take Malayalam endings: **ടീമിൽ**, **ഷിഫ്റ്റിൽ**.\n- Suggest something with **-ആലോ?**: ചായ കുടിച്ചാലോ? 'shall we have a tea?'" },
+      "new": ["ടീം", "ബോസ്", "ഷിഫ്റ്റ്", "ഓവർടൈം", "ജോയിൻ ചെയ്യുക", "വർക്ക് ഫ്രം ഹോം", "ഈ ആഴ്ച ഭയങ്കര പണിയാണ്.", "ബോസ് ഇന്ന് നല്ല മൂഡിലല്ല.", "ചായ കുടിക്കാൻ പോയാലോ?", "ഞാൻ ഇന്ന് വർക്ക് ഫ്രം ഹോം ആണ്."],
+      "sentences": [
+        { "native": "നീ എപ്പോഴാണ് ഈ കമ്പനിയിൽ ജോയിൻ ചെയ്തത്?", "roman": "nī eppōḻāṇŭ ī kambaniyil joyin cheytatŭ?", "en": "When did you join this company?", "focus": "ചെയ്തത്", "wrong": ["ചെയ്തു|cheytu", "ചെയ്യും|cheyyum"] },
+        { "native": "ഞാൻ കഴിഞ്ഞ മാസം ജോയിൻ ചെയ്തു.", "roman": "ñān kaḻiñña māsam joyin cheytu.", "en": "I joined last month.", "focus": "ചെയ്തു", "wrong": ["ചെയ്യുക|cheyyuka", "ആയി|āyi"] },
+        { "native": "നമ്മുടെ ടീമിൽ എത്ര പേരുണ്ട്?", "roman": "nammuṭe ṭīmil etra pēruṇḍŭ?", "en": "How many people are in our team?", "focus": "ടീമിൽ", "wrong": ["ടീമിന്|ṭīminŭ", "ടീം|ṭīm"] },
+        { "native": "ഇന്ന് എന്റെ ഷിഫ്റ്റ് രാത്രിയാണ്.", "roman": "innŭ ende ṣifṯṯŭ rātriyāṇŭ.", "en": "I'm on the night shift today." },
+        { "native": "ഈ മാസം ഞാൻ ഒരുപാട് ഓവർടൈം ചെയ്തു.", "roman": "ī māsam ñān orupāṭŭ ōvarṭaim cheytu.", "en": "I did loads of overtime this month.", "focus": "ചെയ്തു", "wrong": ["ആയി|āyi", "ചെയ്യുക|cheyyuka"] },
+        { "native": "ബോസ് നിന്നെ വിളിക്കുന്നു, വേഗം പോ.", "roman": "bōsŭ ninne viḷikkunnu, vēgam pō.", "en": "The boss is calling you, go quick." },
+        { "native": "ബോസ് ഇന്ന് ലീവാണ്, സമാധാനം!", "roman": "bōsŭ innŭ līvāṇŭ, samādhānam!", "en": "The boss is on leave today — bliss!" },
+        { "native": "ഊണ് കഴിഞ്ഞോ?", "roman": "ūṇŭ kaḻiññō?", "en": "Had lunch yet?" },
+        { "native": "നാലുമണിക്ക് ഒരു ചായ കുടിച്ചാലോ?", "roman": "nālumaṇikkŭ oru chāya kuṭicchālō?", "en": "Shall we have a tea at four?", "focus": "കുടിച്ചാലോ", "wrong": ["കുടിച്ചു|kuṭicchu", "കുടിക്കുക|kuṭikkuka"] },
+        { "native": "നാളെ ഞാൻ വർക്ക് ഫ്രം ഹോം ആയിരിക്കും.", "roman": "nāḷe ñān varkkŭ fram hōm āyirikkum.", "en": "I'll be working from home tomorrow." },
+        { "native": "ഇന്ന് ഒരുപാട് പണിയുണ്ട്, പിന്നെ സംസാരിക്കാം.", "roman": "innŭ orupāṭŭ paṇiyuṇḍŭ, pinne samsārikkām.", "en": "There's loads of work today — let's talk later." },
+        { "native": "ഇന്ന് എന്റെ മൂഡ് ശരിയല്ല.", "roman": "innŭ ende mūḍŭ shariyalla.", "en": "I'm not in the mood today." }
+      ]
+    },
+    {
+      "title": "Talking to the boss",
+      "tip": { "title": "Sir instead of you", "body": "- To the boss, use **സാർ / മാഡം** in place of 'you', with any ending: **സാറിന്** സമയമുണ്ടോ? 'Do you have time, sir?', **സാറിന്റെ** നിർദ്ദേശം 'your instruction'.\n- Full forms (എന്താണ്), requests with **-ആമോ?**, offers with **-ആം**, permission with **-ഓട്ടെ?**\n- Never നീ to a senior.", "pattern": "സാർ / സാറിന് / സാറിന്റെ + full form", "grammar": 0 },
+      "new": [
+        "മാനേജർ",
+        "ഉത്തരവാദിത്തം",
+        "നിർദ്ദേശം",
+        "റിപ്പോർട്ട്",
+        "ഡെഡ്ലൈൻ",
+        "നീട്ടുക",
+        "സാർ, നാളെ എനിക്ക് ഒരു ദിവസത്തെ ലീവ് വേണം.",
+        "ഡെഡ്ലൈൻ എന്നാണ്?",
+        "ഇന്ന് കുറച്ച് നേരത്തെ ഇറങ്ങിക്കോട്ടെ?",
+        "ഞാൻ ഇപ്പോൾ തന്നെ അയയ്ക്കാം."
+      ],
+      "sentences": [
+        { "native": "സാർ, റിപ്പോർട്ട് ഇന്ന് വൈകുന്നേരം തരാം.", "roman": "sār, ṟippōrṭṭŭ innŭ vaikunnēram tarām.", "en": "Sir, I'll get you the report this evening.", "focus": "തരാം", "wrong": ["കൊടുക്കാം|koṭukkām", "താ|tā"] },
+        { "native": "സാറിന് ഇപ്പോൾ സമയമുണ്ടോ?", "roman": "sāṟinŭ ippōḷ samayamuṇḍō?", "en": "Do you have time now, sir?", "focus": "സാറിന്", "wrong": ["നിനക്ക്|ninakkŭ", "സാർ|sār"] },
+        { "native": "മാഡം, ഡെഡ്ലൈൻ ഒരു ദിവസം നീട്ടാമോ?", "roman": "māḍam, ḍeḍlain oru divasam nīṭṭāmō?", "en": "Ma'am, could the deadline be pushed back a day?", "focus": "നീട്ടാമോ", "wrong": ["നീട്ട്|nīṭṭŭ", "നീട്ടി|nīṭṭi"] },
+        { "native": "സാറിന്റെ നിർദ്ദേശം പോലെ ചെയ്തിട്ടുണ്ട്.", "roman": "sāṟinde nirddēsham pōle cheytiṭṭuṇḍŭ.", "en": "I've done it as you instructed, sir.", "focus": "സാറിന്റെ", "wrong": ["നിന്റെ|ninde", "സാർ|sār"] },
+        { "native": "മാഡം വിളിച്ചിരുന്നോ?", "roman": "māḍam viḷicchirunnō?", "en": "Did you call, ma'am?", "focus": "മാഡം", "wrong": ["നീ|nī", "നിനക്ക്|ninakkŭ"] },
+        { "native": "മാഡം, ഞാൻ ഇറങ്ങിക്കോട്ടെ?", "roman": "māḍam, ñān iṟaṅṅikkōṭṭe?", "en": "Ma'am, may I head off now?", "focus": "ഇറങ്ങിക്കോട്ടെ", "wrong": ["ഇറങ്ങ്|iṟaṅṅŭ", "ഇറങ്ങി|iṟaṅṅi"] },
+        { "native": "ഇത് എന്റെ ഉത്തരവാദിത്തമാണ്, ഞാൻ നോക്കാം.", "roman": "itŭ ende uttaravādittamāṇŭ, ñān nōkkām.", "en": "This is my responsibility; I'll look into it.", "focus": "നോക്കാം", "wrong": ["നോക്ക്|nōkkŭ", "നോക്കി|nōkki"] },
+        { "native": "സാർ, നാളെ എനിക്ക് വരാൻ പറ്റില്ല, അമ്മയ്ക്ക് സുഖമില്ല.", "roman": "sār, nāḷe enikkŭ varān paṯṯilla, ammaykkŭ sukhamilla.", "en": "Sir, I can't come in tomorrow — my mother's unwell." },
+        { "native": "ക്ഷമിക്കണം സാർ, ഡെഡ്ലൈൻ ഞാൻ മറന്നുപോയി.", "roman": "kṣamikkaṇam sār, ḍeḍlain ñān maṟannupōyi.", "en": "Sorry sir, I completely forgot the deadline." },
+        { "native": "ഞാൻ ഇപ്പോൾ തന്നെ മാനേജരോട് ചോദിക്കാം.", "roman": "ñān ippōḷ tanne mānējarōṭŭ chōdikkām.", "en": "I'll ask the manager right now.", "focus": "മാനേജരോട്", "wrong": ["മാനേജരെ|mānējaṟe", "മാനേജർക്ക്|mānējarkkŭ"] },
+        { "native": "സാർ, അടുത്ത തിങ്കളാഴ്ച ലീവ് എടുക്കാമോ?", "roman": "sār, aṭutta tiṅgaḷāḻcha līvŭ eṭukkāmō?", "en": "Sir, could I take next Monday off?", "focus": "എടുക്കാമോ", "wrong": ["എടുക്ക്|eṭukkŭ", "എടുത്തു|eṭuttu"] }
+      ]
+    },
+    {
+      "title": "Letters, emails and notices",
+      "tip": { "title": "Written Malayalam", "body": "- Letters: **ബഹുമാനപ്പെട്ട സാർ,** … **എന്ന് താഴ്മയായി അപേക്ഷിക്കുന്നു.**\n- Notices give orders with the plain **-ുക** form: **ശ്രദ്ധിക്കുക**, **എത്തുക**, **സമർപ്പിക്കുക**.\n- Formal words: കിട്ടി → **ലഭിച്ചു**, തുടങ്ങും → **ആരംഭിക്കും**, കൊടുക്കുക → **നൽകുക**.", "pattern": "notice: … -ുക · letter: … എന്ന് താഴ്മയായി അപേക്ഷിക്കുന്നു", "grammar": 0 },
+      "new": ["ബഹുമാനപ്പെട്ട", "താഴ്മയായി", "അപേക്ഷ", "സമർപ്പിക്കുക", "സ്ഥാപനം", "അറിയിക്കുക", "താഴ്മയായി അപേക്ഷിക്കുന്നു.", "എല്ലാവരും ശ്രദ്ധിക്കുക."],
+      "sentences": [
+        { "native": "ബഹുമാനപ്പെട്ട സാർ, എന്റെ അപേക്ഷ താഴെ കൊടുക്കുന്നു.", "roman": "bahumānappeṭṭa sār, ende apēkṣa tāḻe koṭukkunnu.", "en": "Dear Sir, my application is given below.", "focus": "ബഹുമാനപ്പെട്ട", "wrong": ["ബഹുമാനം|bahumānam", "ബഹുമാനിക്കുക|bahumānikkuka"] },
+        { "native": "നാളെ ലീവ് തരണമെന്ന് താഴ്മയായി അപേക്ഷിക്കുന്നു.", "roman": "nāḷe līvŭ taraṇamennŭ tāḻmayāyi apēkṣikkunnu.", "en": "I humbly request leave for tomorrow.", "focus": "അപേക്ഷിക്കുന്നു", "wrong": ["അപേക്ഷിച്ചോ|apēkṣicchō", "അപേക്ഷിക്ക്|apēkṣikkŭ"] },
+        { "native": "റിപ്പോർട്ട് വെള്ളിയാഴ്ചയ്ക്ക് മുമ്പ് സമർപ്പിക്കുക.", "roman": "ṟippōrṭṭŭ veḷḷiyāḻchaykkŭ mumbŭ samarppikkuka.", "en": "Submit the report before Friday. (notice)", "focus": "സമർപ്പിക്കുക", "wrong": ["സമർപ്പിച്ചു|samarppicchu", "സമർപ്പിക്ക്|samarppikkŭ"] },
+        { "native": "എല്ലാവരും ഒമ്പത് മണിക്ക് മുമ്പ് എത്തുക.", "roman": "ellāvarum ombatŭ maṇikkŭ mumbŭ ettuka.", "en": "Everyone is to arrive before nine. (notice)", "focus": "എത്തുക", "wrong": ["എത്തി|etti", "എത്ത്|ettŭ"] },
+        { "native": "നാളെ ഓഫീസ് അവധിയായിരിക്കും എന്ന് അറിയിക്കുന്നു.", "roman": "nāḷe ōfīsŭ avadhiyāyirikkum ennŭ aṟiyikkunnu.", "en": "Please note that the office will be closed tomorrow.", "focus": "അറിയിക്കുന്നു", "wrong": ["അറിയുന്നു|aṟiyunnu", "അറിയാം|aṟiyām"] },
+        { "native": "ദയവായി അകത്ത് ഫോണിൽ സംസാരിക്കരുത്.", "roman": "dayavāyi akattŭ fōṇil samsārikkarutŭ.", "en": "Please do not talk on the phone inside." },
+        { "native": "നിങ്ങളുടെ മെയിൽ ലഭിച്ചു, നന്ദി.", "roman": "niṅṅaḷuṭe meyil labhicchu, nandi.", "en": "Your email has been received, thank you.", "focus": "ലഭിച്ചു", "wrong": ["കിട്ടി|kiṭṭi", "ലഭിക്കുക|labhikkuka"] },
+        { "native": "ഈ സ്ഥാപനത്തിൽ ഞാൻ അഞ്ച് വർഷം ജോലി ചെയ്തു.", "roman": "ī sthāpanattil ñān añjŭ varṣam jōli cheytu.", "en": "I worked at this organisation for five years." },
+        { "native": "കാര്യം മാനേജരെ അറിയിച്ചിട്ടുണ്ട്.", "roman": "kāryam mānējaṟe aṟiyicchiṭṭuṇḍŭ.", "en": "The matter has been reported to the manager." },
+        { "native": "അപേക്ഷ ഈ ആഴ്ച തന്നെ സമർപ്പിക്കണം.", "roman": "apēkṣa ī āḻcha tanne samarppikkaṇam.", "en": "The application must be submitted this week." },
+        { "native": "ലീവ് വേണമെങ്കിൽ ഒരു അപേക്ഷ എഴുതി കൊടുക്കണം.", "roman": "līvŭ vēṇameṅgil oru apēkṣa eḻuti koṭukkaṇam.", "en": "If you want leave, you have to put in a written application." }
+      ]
+    },
+    {
+      "title": "What's been decided",
+      "tip": { "title": "\"It was decided\" without a passive", "body": "- Usually: active verb, **no subject**: മീറ്റിംഗ് **മാറ്റി** 'the meeting has been moved'; **അവളെ** തിരഞ്ഞെടുത്തു 'she was chosen' (she stays the object).\n- Or noun + **ആയി**: **തീരുമാനമായി** 'it's been decided'.\n- The real passive **-അപ്പെട്ടു** is for news and letters, and the person is the subject: **അവൾ** തിരഞ്ഞെടുക്കപ്പെട്ടു.", "pattern": "object + active verb (no subject) · noun + ആയി", "grammar": 1 },
+      "new": ["തീരുമാനം", "അംഗീകരിക്കുക", "ചർച്ച", "പ്രോജക്ട്", "ക്ലയന്റ്", "മീറ്റിംഗ് നാളത്തേക്ക് മാറ്റി.", "തീരുമാനം ഞങ്ങൾ അറിയിക്കാം."],
+      "sentences": [
+        { "native": "അവസാനം തീരുമാനമായി: പ്രോജക്ട് നമുക്ക് കിട്ടി!", "roman": "avasānam tīrumānamāyi: prōjakṭŭ namukkŭ kiṭṭi!", "en": "It's finally been decided — we've got the project!", "focus": "തീരുമാനമായി", "wrong": ["തീരുമാനിക്കുക|tīrumānikkuka", "തീരുമാനിക്കും|tīrumānikkum"] },
+        { "native": "പ്രോജക്ട് അടുത്ത മാസത്തേക്ക് മാറ്റിവെച്ചു.", "roman": "prōjakṭŭ aṭutta māsattēkkŭ māṯṯivecchu.", "en": "The project's been put off till next month.", "focus": "മാറ്റിവെച്ചു", "wrong": ["മാറ്റിവെക്കുക|māṯṯivekkuka", "മാറ്റിവെക്കാം|māṯṯivekkām"] },
+        { "native": "ഈ കാര്യം ഇന്നലത്തെ മീറ്റിംഗിൽ ചർച്ച ചെയ്തു.", "roman": "ī kāryam innalatte mīṯṯiṅgil charcha cheytu.", "en": "This was discussed in yesterday's meeting.", "focus": "ചെയ്തു", "wrong": ["ചെയ്യുക|cheyyuka", "ചെയ്യാം|cheyyām"] },
+        { "native": "അവളെ പുതിയ മാനേജരായി തിരഞ്ഞെടുത്തു.", "roman": "avaḷe putiya mānējarāyi tiraññeṭuttu.", "en": "She's been chosen as the new manager.", "focus": "അവളെ", "wrong": ["അവൾ|avaḷ", "അവൾക്ക്|avaḷkkŭ"] },
+        { "native": "അവൾ പുതിയ മാനേജരായി തിരഞ്ഞെടുക്കപ്പെട്ടു.", "roman": "avaḷ putiya mānējarāyi tiraññeṭukkappeṭṭu.", "en": "She has been appointed the new manager. (formal)", "focus": "അവൾ", "wrong": ["അവളെ|avaḷe", "അവൾക്ക്|avaḷkkŭ"] },
+        { "native": "ക്ലയന്റ് നമ്മുടെ റിപ്പോർട്ട് അംഗീകരിച്ചു.", "roman": "klayanṯŭ nammuṭe ṟippōrṭṭŭ aṅgīkaricchu.", "en": "The client approved our report.", "focus": "അംഗീകരിച്ചു", "wrong": ["അംഗീകരിക്കപ്പെട്ടു|aṅgīkarikkappeṭṭu", "അംഗീകരിക്കുക|aṅgīkarikkuka"] },
+        { "native": "എന്റെ ലീവ് അംഗീകരിച്ചോ?", "roman": "ende līvŭ aṅgīkaricchō?", "en": "Has my leave been approved?", "focus": "അംഗീകരിച്ചോ", "wrong": ["അംഗീകരിക്കുക|aṅgīkarikkuka", "അംഗീകരിക്ക്|aṅgīkarikkŭ"] },
+        { "native": "ശമ്പളം ഇതുവരെ അക്കൗണ്ടിൽ ഇട്ടിട്ടില്ല.", "roman": "shambaḷam ituvare akkauṇḍil iṭṭiṭṭilla.", "en": "The salary hasn't been credited yet.", "focus": "ഇട്ടിട്ടില്ല", "wrong": ["ഇട്ടു|iṭṭu", "ഇടും|iṭum"] },
+        { "native": "തീരുമാനം നാളെ അറിയിക്കും.", "roman": "tīrumānam nāḷe aṟiyikkum.", "en": "The decision will be announced tomorrow.", "focus": "അറിയിക്കും", "wrong": ["അറിയും|aṟiyum", "അറിയാം|aṟiyām"] },
+        { "native": "അവന് പ്രൊമോഷൻ കിട്ടിയില്ല, പാവം.", "roman": "avanŭ promōṣan kiṭṭiyilla, pāvam.", "en": "He wasn't promoted, poor guy.", "focus": "അവന്", "wrong": ["അവൻ|avan", "അവനെ|avane"] },
+        { "native": "ക്ലയന്റുമായി നാളെ ഒരു ചർച്ച ഉണ്ട്.", "roman": "klayanṯumāyi nāḷe oru charcha uṇḍŭ.", "en": "There's a discussion with the client tomorrow." }
+      ]
+    },
+    {
+      "title": "The job interview",
+      "tip": { "title": "Interview Malayalam", "body": "- Polite spoken register: full forms, സാർ / മാഡം, no slang.\n- 'X years of experience': **വർഷത്തെ** പരിചയം (-ത്തെ 'of').\n- Apply **for** = dative: ഈ ജോലി**ക്ക്** അപേക്ഷിച്ചു.\n- To stress the key fact, use the **-അത് … ആണ്** focus form: ഞാൻ **പഠിച്ചത്** കോഴിക്കോട്ടാണ് 'it was in Kozhikode that I studied'." },
+      "new": ["ഇന്റർവ്യൂ", "ബയോഡാറ്റ", "അപേക്ഷിക്കുക", "പരിചയം", "പ്രൊമോഷൻ", "രാജിവെക്കുക", "ഞാൻ എന്നെ ഒന്ന് പരിചയപ്പെടുത്താം.", "എനിക്ക് മൂന്ന് വർഷത്തെ പരിചയമുണ്ട്."],
+      "sentences": [
+        { "native": "ഞാൻ ഈ ജോലിക്ക് അപേക്ഷിച്ചിട്ടുണ്ട്.", "roman": "ñān ī jōlikkŭ apēkṣicchiṭṭuṇḍŭ.", "en": "I've applied for this job.", "focus": "ജോലിക്ക്", "wrong": ["ജോലിയിൽ|jōliyil", "ജോലിയെ|jōliye"] },
+        { "native": "എന്റെ ബയോഡാറ്റ മെയിലിൽ അയച്ചിട്ടുണ്ട്.", "roman": "ende bayōḍāṯṯa meyilil ayacchiṭṭuṇḍŭ.", "en": "I've sent my CV by email." },
+        { "native": "നാളെ രാവിലെ പത്ത് മണിക്കാണ് ഇന്റർവ്യൂ.", "roman": "nāḷe rāvile pattŭ maṇikkāṇŭ inṯarvyū.", "en": "The interview is at ten tomorrow morning." },
+        { "native": "നിങ്ങൾക്ക് എത്ര വർഷത്തെ പരിചയമുണ്ട്?", "roman": "niṅṅaḷkkŭ etra varṣatte parichayamuṇḍŭ?", "en": "How many years' experience do you have?", "focus": "വർഷത്തെ", "wrong": ["വർഷം|varṣam", "വർഷത്തിൽ|varṣattil"] },
+        { "native": "എനിക്ക് ഈ ജോലിയിൽ പരിചയമില്ല, പക്ഷേ പെട്ടെന്ന് പഠിക്കും.", "roman": "enikkŭ ī jōliyil parichayamilla, pakṣē peṭṭennŭ paṭhikkum.", "en": "I don't have experience in this work, but I learn fast." },
+        { "native": "എന്തിനാണ് പഴയ ജോലി രാജിവെച്ചത്?", "roman": "endināṇŭ paḻaya jōli rājivecchatŭ?", "en": "Why did you resign from your previous job?", "focus": "രാജിവെച്ചത്", "wrong": ["രാജിവെച്ചു|rājivecchu", "രാജിവെക്കും|rājivekkum"] },
+        { "native": "എനിക്ക് കൂടുതൽ ഉത്തരവാദിത്തം വേണം.", "roman": "enikkŭ kūṭutal uttaravādittam vēṇam.", "en": "I want more responsibility." },
+        { "native": "കഴിഞ്ഞ വർഷം എനിക്ക് പ്രൊമോഷൻ കിട്ടി.", "roman": "kaḻiñña varṣam enikkŭ promōṣan kiṭṭi.", "en": "I was promoted last year.", "focus": "എനിക്ക്", "wrong": ["ഞാൻ|ñān", "എന്നെ|enne"] },
+        { "native": "അവൻ ജോലി രാജിവെച്ച് ഗൾഫിൽ പോയി.", "roman": "avan jōli rājivecchŭ gaḷfil pōyi.", "en": "He quit his job and went to the Gulf." },
+        { "native": "ശമ്പളം എത്ര പ്രതീക്ഷിക്കുന്നു?", "roman": "shambaḷam etra pratīkṣikkunnu?", "en": "What salary are you expecting?" },
+        { "native": "ഞാൻ പഠിച്ചത് കോഴിക്കോട്ടാണ്.", "roman": "ñān paṭhicchatŭ kōḻikkōṭṭāṇŭ.", "en": "I studied in Kozhikode.", "focus": "പഠിച്ചത്", "wrong": ["പഠിച്ചു|paṭhicchu", "പഠിക്കും|paṭhikkum"] }
+      ]
+    }
+  ]
+}

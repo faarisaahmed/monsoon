@@ -1,0 +1,201 @@
+{
+  "id": 35,
+  "title": "Home & neighbourhood",
+  "goal": "Rent a flat, say what's broken and for how long, get the landlord to have it fixed, sort out bills and rubbish, and keep the neighbours on your side.",
+  "intro": "Whether it's a flat in Kakkanad, a rented house in Thiruvananthapuram or a shared room in Sharjah, sooner or later you'll be talking to a landlord about rent, a deposit, a leaking tap and a power cut — and to the neighbours about noise.\n\nTwo pieces of grammar do most of the work here: **complaining politely but firmly** (how long it's been going on, what isn't working, 'I did tell you') and the **causative** from unit 25, now used to settle who gets the repair done: ഓണർ നന്നാക്കിക്കും 'the owner will get it fixed'.",
+  "vocab": [
+    { "native": "വാടക", "roman": "vāṭaka", "en": "rent", "pos": "noun", "note": "വാടകയ്ക്ക് (vāṭakaykkŭ) = for rent, on rent. A To Let board says വാടകയ്ക്ക്." },
+    { "native": "ഫ്ലാറ്റ്", "roman": "flāṯṯŭ", "en": "flat, apartment", "pos": "noun", "note": "A whole rented house is just വീട്." },
+    { "native": "വീട്ടുടമസ്ഥൻ", "roman": "vīṭṭuṭamasthan", "en": "landlord, house owner", "pos": "noun", "note": "In everyday speech most people just say ഓണർ (ōṇar) or ഹൗസ് ഓണർ." },
+    { "native": "വാടകക്കാരൻ", "roman": "vāṭakakkāran", "en": "tenant (m)", "pos": "noun", "note": "f: വാടകക്കാരി · pl: വാടകക്കാർ." },
+    { "native": "അഡ്വാൻസ്", "roman": "aḍvānsŭ", "en": "deposit (paid in advance)", "pos": "noun", "note": "The usual Kerala word for a rental deposit; refundable when you leave." },
+    { "native": "എഗ്രിമെന്റ്", "roman": "egrimenṯŭ", "en": "rental agreement", "pos": "noun", "note": "Formal: വാടകക്കരാർ. Usually for 11 months." },
+    { "native": "പാർക്കിംഗ്", "roman": "pārkkiṅgŭ", "en": "parking (space)", "pos": "noun" },
+    { "native": "പൈപ്പ്", "roman": "paippŭ", "en": "tap; pipe", "pos": "noun", "note": "In Kerala the tap itself is usually called പൈപ്പ് — പൈപ്പ് തുറക്കൂ 'turn on the tap'." },
+    { "native": "ചോരുക", "roman": "chōruka", "en": "to leak, to drip", "pos": "verb", "note": "past ചോർന്നു (chōrnnu). A leak: ചോർച്ച." },
+    { "native": "ചുമര്", "roman": "chumarŭ", "en": "wall", "pos": "noun", "note": "ചുമരിൽ 'on the wall'. Also spelled ചുവര്." },
+    { "native": "നനവ്", "roman": "nanavŭ", "en": "damp, dampness, seepage", "pos": "noun", "note": "നനവുണ്ട് 'there is damp'. From നനയുക 'get wet'." },
+    { "native": "കറന്റ്", "roman": "kaṟanṯŭ", "en": "electricity, power", "pos": "noun", "note": "കറന്റ് പോയി 'the power has gone'. Officially വൈദ്യുതി." },
+    { "native": "സ്വിച്ച്", "roman": "svicchŭ", "en": "switch", "pos": "noun", "note": "സ്വിച്ച് ഇടുക 'switch on', സ്വിച്ച് ഓഫ് ചെയ്യുക 'switch off'." },
+    { "native": "മോട്ടോർ", "roman": "mōṭṭōr", "en": "water pump", "pos": "noun", "note": "The household pump that fills the overhead tank. മോട്ടോർ ഇടുക 'switch on the pump'." },
+    { "native": "ടാങ്ക്", "roman": "ṭāṅkŭ", "en": "water tank", "pos": "noun" },
+    { "native": "പെയിന്റ്", "roman": "peyinṯŭ", "en": "paint", "pos": "noun", "note": "പെയിന്റ് ചെയ്യുക 'to paint', പെയിന്റ് പോയി 'the paint has come off'." },
+    { "native": "പ്ലംബർ", "roman": "plambar", "en": "plumber", "pos": "noun", "note": "Accusative പ്ലംബറെ (plambaṟe)." },
+    { "native": "ഇലക്ട്രീഷ്യൻ", "roman": "ilakṭrīṣyan", "en": "electrician", "pos": "noun" },
+    { "native": "ചെയ്യിക്കുക", "roman": "cheyyikkuka", "en": "to get (something) done", "pos": "verb", "note": "Causative of ചെയ്യുക. past ചെയ്യിച്ചു." },
+    { "native": "ചവറ്", "roman": "chavaṟŭ", "en": "rubbish, garbage", "pos": "noun", "note": "Also വേസ്റ്റ് (vēsṯṯŭ); official signs say മാലിന്യം." },
+    { "native": "ലിഫ്റ്റ്", "roman": "lifṯṯŭ", "en": "lift, elevator", "pos": "noun" },
+    { "native": "പരാതി", "roman": "parāti", "en": "complaint", "pos": "noun", "note": "പരാതി പറയുക 'complain (to someone)', പരാതി കൊടുക്കുക 'file a complaint'." },
+    { "native": "ഗേറ്റ്", "roman": "gēṯṯŭ", "en": "gate", "pos": "noun", "note": "Most Kerala houses have a compound wall and a gate." },
+    { "native": "അയൽപക്കം", "roman": "ayalpakkam", "en": "neighbourhood; next door", "pos": "noun", "note": "അയൽപക്കത്ത് 'in the neighbourhood, next door'. A neighbour is അയൽക്കാരൻ / അയൽക്കാരി." },
+    { "native": "ശബ്ദം", "roman": "shabdam", "en": "noise; sound; voice", "pos": "noun", "note": "ശബ്ദം കുറയ്ക്കുക 'turn it down'." },
+    { "native": "ബഹളം", "roman": "bahaḷam", "en": "racket, commotion, din", "pos": "noun", "note": "Noise made by people: shouting, a party, an argument." },
+    { "native": "ശല്യം", "roman": "shalyam", "en": "nuisance, bother", "pos": "noun", "note": "ശല്യമാണ് 'it's a nuisance'; ശല്യം ചെയ്യരുത് 'don't disturb'." },
+    { "native": "താമസം മാറുക", "roman": "tāmasam māṟuka", "en": "to move (house)", "pos": "verb", "note": "Lit. 'change residence'. ഞങ്ങൾ താമസം മാറി 'we've moved'." },
+    { "native": "സാധനം", "roman": "sādhanam", "en": "thing, item; (pl) stuff, belongings, goods", "pos": "noun", "note": "pl: സാധനങ്ങൾ. Also groceries: സാധനം വാങ്ങാൻ പോകുന്നു." },
+    { "native": "പാക്ക് ചെയ്യുക", "roman": "pākkŭ cheyyuka", "en": "to pack", "pos": "verb" }
+  ],
+  "phrases": [
+    { "native": "ഫ്ലാറ്റ് വാടകയ്ക്ക് കിട്ടുമോ?", "roman": "flāṯṯŭ vāṭakaykkŭ kiṭṭumō?", "en": "Is the flat available to rent?" },
+    { "native": "വാടക എത്രയാണ്?", "roman": "vāṭaka etrayāṇŭ?", "en": "How much is the rent?" },
+    { "native": "എത്ര മാസത്തെ അഡ്വാൻസ് വേണം?", "roman": "etra māsatte aḍvānsŭ vēṇam?", "en": "How many months' deposit do you need?" },
+    { "native": "കറന്റ് പോയി.", "roman": "kaṟanṯŭ pōyi.", "en": "The power's gone. / There's a power cut." },
+    { "native": "പൈപ്പ് ചോരുന്നുണ്ട്.", "roman": "paippŭ chōrunnuṇḍŭ.", "en": "The tap is leaking." },
+    { "native": "ഫാൻ വർക്ക് ചെയ്യുന്നില്ല.", "roman": "fān varkkŭ cheyyunnilla.", "en": "The fan isn't working.", "note": "English work + ചെയ്യുക is how everyone talks about machines." },
+    { "native": "രണ്ടാഴ്ചയായി ഇത് ഇങ്ങനെയാണ്.", "roman": "raṇḍāḻchayāyi itŭ iṅṅaneyāṇŭ.", "en": "It's been like this for two weeks.", "note": "ഇങ്ങനെ = like this, this way." },
+    { "native": "ഇത് ഒന്ന് ശരിയാക്കിത്തരാമോ?", "roman": "itŭ onnŭ shariyākkittarāmō?", "en": "Could you fix this for me?" },
+    { "native": "ഒരു പ്ലംബറെ വിളിക്കണം.", "roman": "oru plambaṟe viḷikkaṇam.", "en": "We need to call a plumber." },
+    { "native": "ഈ മാസത്തെ വാടക അടച്ചു.", "roman": "ī māsatte vāṭaka aṭacchu.", "en": "I've paid this month's rent." },
+    { "native": "ചവറ് എവിടെയാണ് ഇടേണ്ടത്?", "roman": "chavaṟŭ eviṭeyāṇŭ iṭēṇḍatŭ?", "en": "Where should the rubbish go?" },
+    { "native": "ഞാൻ പല തവണ പറഞ്ഞതാണ്.", "roman": "ñān pala tavaṇa paṟaññatāṇŭ.", "en": "I've told you several times.", "note": "പല തവണ = many times. Firm but not rude." },
+    { "native": "രാത്രി കുറച്ച് ശബ്ദം കുറയ്ക്കാമോ?", "roman": "rātri kuṟacchŭ shabdam kuṟaykkāmō?", "en": "Could you keep the noise down a bit at night?" },
+    { "native": "പുതിയ താമസക്കാരാണോ?", "roman": "putiya tāmasakkārāṇō?", "en": "Are you the new people (who have moved in)?", "note": "താമസക്കാർ = residents." },
+    { "native": "ഞങ്ങൾ അടുത്ത മാസം താമസം മാറുകയാണ്.", "roman": "ñaṅṅaḷ aṭutta māsam tāmasam māṟukayāṇŭ.", "en": "We're moving next month." }
+  ],
+  "grammar": [
+    {
+      "title": "Complaining politely but firmly",
+      "body": "Malayalis complain with a smile, but they do complain. The trick is to state the facts, say how long it has been going on, and ask for one clear action.\n\n**How long: time + -ആയി.** Add -ആയി ('having become') to the time word and put the problem after it: രണ്ട് ദിവസ**മായി** കറന്റില്ല 'there's been no power for two days', ഒരാഴ്ച**യായി** പൈപ്പ് ചോരുന്നു 'the tap's been leaking for a week'. The verb stays in the **present**, unlike English 'has been leaking'. For 'it's been X since…', put the past participle + **-ഇട്ട്** first: പരാതി പറഞ്ഞ**ിട്ട്** ഒരാഴ്ചയായി 'it's been a week since I complained'.\n\n**Not working.** Present + -ഇല്ല: വെള്ളം വരു**ന്നില്ല** 'the water isn't coming', ലൈറ്റ് കത്തുന്നില്ല 'the light won't come on'. For machines everyone uses the English loan: **വർക്ക് ചെയ്യുന്നില്ല** 'isn't working'. **കേടാണ്** 'is broken', **കേടായി** 'has broken down'. Present + **-ഉണ്ട്** stresses that it really is happening: ചോരു**ന്നുണ്ട്** 'it IS leaking'.\n\n**Not yet / I did say.** **ഇതുവരെ** + negative past = 'not … yet': ഇതുവരെ ആരും വന്നില്ല. Past + **-അത് + ആണ്** means 'I did / I already': ഞാൻ **പറഞ്ഞതാണ്** 'I did tell you' — firm without being rude.\n\n**The ask.** Start soft: ചേട്ടാ / സാർ + **ഒന്ന്** + verb-**ആമോ?** (ഒന്ന് നോക്കാമോ? 'could you take a look?'). If nothing happens, get firmer with **-അണം** 'must' and **ഇന്ന് തന്നെ** 'today itself' or **എത്രയും വേഗം** 'as soon as possible'. With an older landlord avoid നിങ്ങൾ: use സാർ or ചേട്ടൻ in the third person (ചേട്ടൻ ഒന്ന് വരാമോ?).",
+      "examples": [
+        { "native": "രണ്ട് ദിവസമായി വെള്ളം വരുന്നില്ല.", "roman": "raṇḍŭ divasamāyi veḷḷam varunnilla.", "en": "We haven't had any water for two days." },
+        { "native": "ഞാൻ പരാതി കൊടുത്തിട്ട് പത്ത് ദിവസമായി.", "roman": "ñān parāti koṭuttiṭṭŭ pattŭ divasamāyi.", "en": "It's been ten days since I filed the complaint." },
+        { "native": "ചേട്ടാ, ഇതുവരെ ആരും നോക്കാൻ വന്നില്ല.", "roman": "chēṭṭā, ituvare ārum nōkkān vannilla.", "en": "Chetta, nobody has come to look at it yet." },
+        { "native": "ഇത് ഇന്ന് തന്നെ ശരിയാക്കണം, കുട്ടികൾ ഉള്ള വീടാണ്.", "roman": "itŭ innŭ tanne shariyākkaṇam, kuṭṭikaḷ uḷḷa vīṭāṇŭ.", "en": "This has to be fixed today itself — there are kids in the house." },
+        { "native": "ഫാൻ കറങ്ങുന്നുണ്ട്, പക്ഷേ കാറ്റില്ല.", "roman": "fān kaṟaṅṅunnuṇḍŭ, pakṣē kāṯṯilla.", "en": "The fan's turning, but there's no breeze." }
+      ]
+    },
+    {
+      "title": "Causatives revisited: who gets it done",
+      "body": "You met the causative on errands (unit 25): **-ിക്കുക** turns 'do' into 'get done'. At home it's how you talk about the landlord, the plumber and the painter:\n\n• നന്നാക്കുക → **നന്നാക്കിക്കുക** 'get repaired' · ശരിയാക്കുക → **ശരിയാക്കിക്കുക** 'get sorted'\n• ചെയ്യുക → **ചെയ്യിക്കുക** 'get done' (പെയിന്റ് ചെയ്യിക്കുക 'get painted') · മാറ്റുക → **മാറ്റിക്കുക** 'get replaced'\n\n**Three people, three verbs.** Compare:\n• ഞാൻ പൈപ്പ് **നന്നാക്കി** — I fixed the tap (myself).\n• ഞാൻ പ്ലംബറെക്കൊണ്ട് പൈപ്പ് **നന്നാക്കിച്ചു** — I got the plumber to fix it.\n• ഓണർ **നന്നാക്കിച്ചുതരാം** എന്ന് പറഞ്ഞു — the owner said he'd get it fixed for me.\nThe worker takes **-എക്കൊണ്ട്**, written as one word (പ്ലംബറെക്കൊണ്ട്, അവനെക്കൊണ്ട്, ഇലക്ട്രീഷ്യനെക്കൊണ്ട്); 'for me' is the participle + **തരുക** (ശരിയാക്കിത്തരാമോ?, നന്നാക്കിത്തന്നു).\n\n**Who should get it done?** -ഏണ്ടത് 'the one who should' + ആണ് makes the question every tenant asks: ഇത് ആരാണ് നന്നാക്കിക്ക**േണ്ടത്**? 'who's supposed to get this repaired?' — and the answer: വീട്ടുടമസ്ഥനാണ് ചെയ്യിക്ക**േണ്ടത്** 'it's the landlord who should get it done'.\n\n**'I need to get … fixed'**: causative + **-അണം**: ഈ സ്വിച്ച് മാറ്റിക്ക**ണം**, ചുമര് പെയിന്റ് ചെയ്യിക്ക**ണം**. In quick speech people often use the plain verb when the meaning is obvious (ഓണർ പൈപ്പ് നന്നാക്കി usually means he had it done), but the causative is never wrong.",
+      "examples": [
+        { "native": "വീട്ടുടമസ്ഥൻ ഒരു പ്ലംബറെക്കൊണ്ട് പൈപ്പ് നന്നാക്കിച്ചു.", "roman": "vīṭṭuṭamasthan oru plambaṟekkoṇḍŭ paippŭ nannākkicchu.", "en": "The landlord got a plumber to fix the tap." },
+        { "native": "എനിക്ക് ഈ മുറി പെയിന്റ് ചെയ്യിക്കണം.", "roman": "enikkŭ ī muṟi peyinṯŭ cheyyikkaṇam.", "en": "I want to get this room painted." },
+        { "native": "വീട്ടുടമസ്ഥനാണ് ഇത് ചെയ്യിക്കേണ്ടത്.", "roman": "vīṭṭuṭamasthanāṇŭ itŭ cheyyikkēṇḍatŭ.", "en": "It's the landlord who should get this done." },
+        { "native": "നാളെ ഇലക്ട്രീഷ്യനെക്കൊണ്ട് സ്വിച്ച് മാറ്റിക്കാം.", "roman": "nāḷe ilakṭrīṣyanekkoṇḍŭ svicchŭ māṯṯikkām.", "en": "Tomorrow I'll get the electrician to replace the switch." },
+        { "native": "ഈ എഗ്രിമെന്റ് ഒന്ന് വായിച്ചുതരാമോ?", "roman": "ī egrimenṯŭ onnŭ vāyicchutarāmō?", "en": "Could you read this agreement through for me?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The tap, again",
+    "setting": "Anjali rents a flat in Kakkanad, Kochi. She rings her landlord Thomas, who lives in Dubai; later she meets her neighbour Sreeja on the stairs.",
+    "lines": [
+      { "speaker": "Anjali", "native": "ഹലോ, തോമസ് സാറല്ലേ? അഞ്ജലിയാണ്, കാക്കനാട്ടെ ഫ്ലാറ്റിൽ നിന്ന്.", "roman": "halō, tōmas sāṟallē? añjaliyāṇŭ, kākkanāṭṭe flāṯṯil ninnŭ.", "en": "Hello, is that Thomas sir? It's Anjali, from the Kakkanad flat." },
+      { "speaker": "Thomas", "native": "ആ, അഞ്ജലീ, പറയൂ. എന്താ വിശേഷം?", "roman": "ā, añjalī, paṟayū. endā vishēṣam?", "en": "Ah, Anjali, go ahead. What's up?" },
+      { "speaker": "Anjali", "native": "സാർ, അടുക്കളയിലെ പൈപ്പ് പിന്നെയും ചോരുന്നുണ്ട്. ഒരാഴ്ചയായി.", "roman": "sār, aṭukkaḷayile paippŭ pinneyum chōrunnuṇḍŭ. orāḻchayāyi.", "en": "Sir, the kitchen tap is leaking again. For a week now." },
+      { "speaker": "Thomas", "native": "അയ്യോ, കഴിഞ്ഞ മാസം നന്നാക്കിച്ചതാണല്ലോ.", "roman": "ayyō, kaḻiñña māsam nannākkicchatāṇallō.", "en": "Oh no — I only had it fixed last month." },
+      { "speaker": "Anjali", "native": "അതെ, പക്ഷേ വീണ്ടും പഴയതുപോലെയായി. കിടപ്പുമുറിയിൽ നനവുമുണ്ട്.", "roman": "ate, pakṣē vīṇḍum paḻayatupōleyāyi. kiṭappumuṟiyil nanavumuṇḍŭ.", "en": "Yes, but it's gone back to how it was. And there's damp in the bedroom too." },
+      { "speaker": "Thomas", "native": "ശരി, ഞാൻ ബിജുവിനെ വിളിച്ചു പറയാം. അവനെക്കൊണ്ട് നാളെ ശരിയാക്കിക്കാം.", "roman": "shari, ñān bijuvine viḷicchu paṟayām. avanekkoṇḍŭ nāḷe shariyākkikkām.", "en": "OK, I'll ring Biju. I'll get him to sort it out tomorrow." },
+      { "speaker": "Anjali", "native": "നാളെ തന്നെ വേണം, സാർ. ഞാൻ ഇതിനു മുമ്പും പറഞ്ഞതാണ്.", "roman": "nāḷe tanne vēṇam, sār. ñān itinu mumbum paṟaññatāṇŭ.", "en": "It really has to be tomorrow, sir. I did mention it before as well." },
+      { "speaker": "Thomas", "native": "ഉറപ്പായും. ബില്ലൊക്കെ അടച്ചല്ലോ, അല്ലേ?", "roman": "uṟappāyum. billokke aṭacchallō, allē?", "en": "Definitely. You've paid the bills and everything, haven't you?" },
+      { "speaker": "Anjali", "native": "അടച്ചു, സാർ. വാടക ഇന്നലെ അയച്ചിട്ടുണ്ട്.", "roman": "aṭacchu, sār. vāṭaka innale ayacchiṭṭuṇḍŭ.", "en": "Paid, sir. And I sent the rent yesterday." },
+      { "speaker": "Sreeja", "native": "അഞ്ജലീ, ഇന്നലെ രാത്രി എന്തായിരുന്നു ഒരു ബഹളം?", "roman": "añjalī, innale rātri endāyirunnu oru bahaḷam?", "en": "Anjali, what was all that racket last night?" },
+      { "speaker": "Anjali", "native": "അയ്യോ ചേച്ചീ, സോറി! കൂട്ടുകാരുടെ ഒരു ചെറിയ പാർട്ടി ആയിരുന്നു.", "roman": "ayyō chēcchī, sōṟi! kūṭṭukāruṭe oru cheṟiya pārṭṭi āyirunnu.", "en": "Oh chechi, sorry! It was just a small party with friends." },
+      { "speaker": "Sreeja", "native": "സാരമില്ല. പക്ഷേ മോൾക്ക് നാളെ പരീക്ഷയാണ്, ഇന്ന് ഒന്ന് ശ്രദ്ധിക്കണേ.", "roman": "sāramilla. pakṣē mōḷkkŭ nāḷe parīkṣayāṇŭ, innŭ onnŭ shraddhikkaṇē.", "en": "Never mind. But my daughter has an exam tomorrow, so do keep it down tonight." },
+      { "speaker": "Anjali", "native": "തീർച്ചയായും, ചേച്ചീ. ഇനി ഒരു ശല്യവും ഉണ്ടാവില്ല.", "roman": "tīrcchayāyum, chēcchī. ini oru shalyavum uṇḍāvilla.", "en": "Of course, chechi. We won't bother you again." }
+    ]
+  },
+  "culture": "Rentals in Kerala are found through word of mouth, **വാടകയ്ക്ക്** (To Let) boards, local WhatsApp groups and listing apps. The deposit (**അഡ്വാൻസ്**) is often large — anything from three to ten months' rent — and an **11-month agreement** is standard. Many owners work in the Gulf and leave a brother or cousin in charge, so 'call the owner' often means a WhatsApp call to Dubai or Doha.\n\nHousehold water usually comes from a well or the Water Authority line and is pumped by the **മോട്ടോർ** into a tank on the roof — മോട്ടോർ ഇട്ടോ? 'did you switch the pump on?' is a daily question, and a power cut (കറന്റ് പോയി) during the monsoon is routine. In apartment blocks the residents' association handles lifts, security and rubbish, and Kerala's waste rules mean sorting wet and dry waste.\n\nNeighbours are ചേട്ടൻ / ചേച്ചി, or ആന്റി / അങ്കിൾ if they're older; first names alone sound cold, and നിങ്ങൾ to an older neighbour sounds distant. A plate of payasam at Onam or cake at Christmas does a lot for neighbourly relations — and makes the next complaint about noise much easier.",
+  "lessons": [
+    {
+      "title": "Looking at a flat",
+      "tip": { "title": "Renting: വാടകയ്ക്ക്, അഡ്വാൻസ്, എഗ്രിമെന്റ്", "body": "- **വാടക** is the rent; the dative **വാടകയ്ക്ക്** means 'for rent': വാടകയ്ക്ക് കിട്ടുമോ? 'is it available to rent?'\n- 'Of this month', 'X months' worth' use **-ത്തെ**: ഈ മാസ**ത്തെ** വാടക, മൂന്ന് മാസ**ത്തെ** അഡ്വാൻസ്.\n- 'For eleven months' (a period ahead) is **-ത്തേക്ക്**: പതിനൊന്ന് മാസ**ത്തേക്ക്**.", "pattern": "വാടകയ്ക്ക് · X മാസത്തെ അഡ്വാൻസ്" },
+      "new": ["വാടക", "ഫ്ലാറ്റ്", "വീട്ടുടമസ്ഥൻ", "വാടകക്കാരൻ", "അഡ്വാൻസ്", "എഗ്രിമെന്റ്", "പാർക്കിംഗ്", "ഫ്ലാറ്റ് വാടകയ്ക്ക് കിട്ടുമോ?", "വാടക എത്രയാണ്?", "എത്ര മാസത്തെ അഡ്വാൻസ് വേണം?"],
+      "sentences": [
+        { "native": "കൊച്ചിയിൽ ഒരു ഫ്ലാറ്റ് വാടകയ്ക്ക് വേണം.", "roman": "kocchiyil oru flāṯṯŭ vāṭakaykkŭ vēṇam.", "en": "I need a flat to rent in Kochi.", "focus": "വാടകയ്ക്ക്", "wrong": ["വാടക|vāṭaka", "വാടകയിൽ|vāṭakayil"] },
+        { "native": "ഈ ഫ്ലാറ്റിന്റെ വാടക എത്രയാണ്?", "roman": "ī flāṯṯinde vāṭaka etrayāṇŭ?", "en": "What's the rent on this flat?", "focus": "ഫ്ലാറ്റിന്റെ", "wrong": ["ഫ്ലാറ്റിൽ|flāṯṯil", "ഫ്ലാറ്റിന്|flāṯṯinŭ"] },
+        { "native": "വാടക മാസം 15000 രൂപയാണ്.", "roman": "vāṭaka māsam 15000 rūpayāṇŭ.", "en": "The rent's 15,000 rupees a month." },
+        { "native": "മൂന്ന് മാസത്തെ അഡ്വാൻസ് വേണം.", "roman": "mūnnŭ māsatte aḍvānsŭ vēṇam.", "en": "I need three months' deposit.", "focus": "മാസത്തെ", "wrong": ["മാസം|māsam", "മാസത്തിൽ|māsattil"] },
+        { "native": "അഡ്വാൻസ് കുറച്ച് കുറയ്ക്കാമോ, സാർ?", "roman": "aḍvānsŭ kuṟacchŭ kuṟaykkāmō, sār?", "en": "Could you bring the deposit down a bit, sir?" },
+        { "native": "എഗ്രിമെന്റ് പതിനൊന്ന് മാസത്തേക്കാണ്.", "roman": "egrimenṯŭ patinonnŭ māsattēkkāṇŭ.", "en": "The agreement is for eleven months.", "focus": "മാസത്തേക്കാണ്", "wrong": ["മാസത്തെ|māsatte", "മാസമാണ്|māsamāṇŭ"] },
+        { "native": "വീട്ടുടമസ്ഥൻ ദുബായിലാണ്, അനിയനാണ് എല്ലാം നോക്കുന്നത്.", "roman": "vīṭṭuṭamasthan dubāyilāṇŭ, aniyanāṇŭ ellām nōkkunnatŭ.", "en": "The landlord is in Dubai; his younger brother looks after everything." },
+        { "native": "കാറിന് പാർക്കിംഗ് ഉണ്ടോ?", "roman": "kāṟinŭ pārkkiṅgŭ uṇḍō?", "en": "Is there parking for a car?", "focus": "കാറിന്", "wrong": ["കാറിൽ|kāṟil", "കാറിന്റെ|kāṟinde"] },
+        { "native": "ഞങ്ങൾ വാടകക്കാരാണ്, വീട് ഞങ്ങളുടേതല്ല.", "roman": "ñaṅṅaḷ vāṭakakkārāṇŭ, vīṭŭ ñaṅṅaḷuṭētalla.", "en": "We're tenants; the house isn't ours." },
+        { "native": "ഈ മാസത്തെ വാടക ഞാൻ നാളെ തരാം.", "roman": "ī māsatte vāṭaka ñān nāḷe tarām.", "en": "I'll give you this month's rent tomorrow.", "focus": "മാസത്തെ", "wrong": ["മാസം|māsam", "മാസത്തേക്ക്|māsattēkkŭ"] }
+      ]
+    },
+    {
+      "title": "Saying what's broken",
+      "tip": { "title": "Complaining: 'for two days now', 'it isn't working'", "body": "- Time + **-ആയി** = 'for … now', with the verb in the present: രണ്ട് ദിവസ**മായി** കറന്റില്ല 'no power for two days'.\n- 'Isn't working': present + **-ഇല്ല**: വെള്ളം വരു**ന്നില്ല**; for machines, **വർക്ക് ചെയ്യുന്നില്ല**.\n- Present + **-ഉണ്ട്** = 'it really is …': ചോരു**ന്നുണ്ട്**.", "pattern": "time-ആയി + problem · verb-ുന്നില്ല", "grammar": 0 },
+      "new": ["പൈപ്പ്", "ചോരുക", "നനവ്", "കറന്റ്", "ചുമര്", "സ്വിച്ച്", "മോട്ടോർ", "ടാങ്ക്", "കറന്റ് പോയി.", "പൈപ്പ് ചോരുന്നുണ്ട്.", "ഫാൻ വർക്ക് ചെയ്യുന്നില്ല.", "രണ്ടാഴ്ചയായി ഇത് ഇങ്ങനെയാണ്."],
+      "sentences": [
+        { "native": "രണ്ട് ദിവസമായി കറന്റില്ല.", "roman": "raṇḍŭ divasamāyi kaṟanṯilla.", "en": "There's been no power for two days.", "focus": "ദിവസമായി", "wrong": ["ദിവസം|divasam", "ദിവസത്തിൽ|divasattil"] },
+        { "native": "അടുക്കളയിലെ പൈപ്പ് ചോരുന്നു.", "roman": "aṭukkaḷayile paippŭ chōrunnu.", "en": "The kitchen tap is leaking.", "focus": "ചോരുന്നു", "wrong": ["ചോരുക|chōruka", "ചോരാൻ|chōrān"] },
+        { "native": "മൂന്ന് മാസമായി ഈ പൈപ്പ് ചോരുന്നുണ്ട്.", "roman": "mūnnŭ māsamāyi ī paippŭ chōrunnuṇḍŭ.", "en": "This tap's been leaking for three months.", "focus": "മാസമായി", "wrong": ["മാസം|māsam", "മാസത്തെ|māsatte"] },
+        { "native": "മഴ പെയ്താൽ കിടപ്പുമുറിയുടെ ചുമരിൽ നനവ് വരും.", "roman": "maḻa peytāl kiṭappumuṟiyuṭe chumaril nanavŭ varum.", "en": "Whenever it rains, damp comes through the bedroom wall." },
+        { "native": "ഈ മുറിയിലെ സ്വിച്ച് വർക്ക് ചെയ്യുന്നില്ല.", "roman": "ī muṟiyile svicchŭ varkkŭ cheyyunnilla.", "en": "The switch in this room isn't working.", "focus": "ചെയ്യുന്നില്ല", "wrong": ["ചെയ്യുന്നു|cheyyunnu", "ചെയ്യുന്നുണ്ട്|cheyyunnuṇḍŭ"] },
+        { "native": "ടാങ്കിൽ വെള്ളമില്ല, മോട്ടോർ ഇടണം.", "roman": "ṭāṅkil veḷḷamilla, mōṭṭōr iṭaṇam.", "en": "There's no water in the tank — we need to switch the pump on." },
+        { "native": "ഒരാഴ്ചയായി മോട്ടോർ കേടാണ്.", "roman": "orāḻchayāyi mōṭṭōr kēṭāṇŭ.", "en": "The pump's been broken for a week.", "focus": "ഒരാഴ്ചയായി", "wrong": ["ഒരാഴ്ച|orāḻcha", "ഒരാഴ്ചയിൽ|orāḻchayil"] },
+        { "native": "ഇന്നലെ രാത്രി മുതൽ കറന്റില്ല.", "roman": "innale rātri mutal kaṟanṯilla.", "en": "There's been no power since last night.", "focus": "മുതൽ", "wrong": ["വരെ|vare", "മുമ്പ്|mumbŭ"] },
+        { "native": "കറന്റ് എപ്പോൾ വരും?", "roman": "kaṟanṯŭ eppōḷ varum?", "en": "When will the power be back?" },
+        { "native": "പൈപ്പ് തുറന്നിട്ടും വെള്ളം വരുന്നില്ല.", "roman": "paippŭ tuṟanniṭṭum veḷḷam varunnilla.", "en": "Even with the tap open, no water's coming.", "focus": "വരുന്നില്ല", "wrong": ["വരുന്നു|varunnu", "വന്നു|vannu"] }
+      ]
+    },
+    {
+      "title": "Getting the landlord to fix it",
+      "tip": { "title": "Getting it done: -ിക്കുക", "body": "- Add **-ിക്കുക** to mean 'get it done by someone': നന്നാക്കുക → **നന്നാക്കിക്കുക**, ചെയ്യുക → **ചെയ്യിക്കുക**.\n- The worker takes **-എക്കൊണ്ട്**: പ്ലംബറെക്കൊണ്ട് നന്നാക്കിച്ചു.\n- 'Do it for me' = participle + **തരുക**: ശരിയാക്കിത്തരാമോ?\n- Trap: നന്നാക്കി = I fixed it myself; നന്നാക്കി**ച്ചു** = I had it fixed.", "pattern": "worker-എക്കൊണ്ട് + verb-ിക്കുക", "grammar": 1 },
+      "new": ["പ്ലംബർ", "ഇലക്ട്രീഷ്യൻ", "ചെയ്യിക്കുക", "പെയിന്റ്", "ഇത് ഒന്ന് ശരിയാക്കിത്തരാമോ?", "ഒരു പ്ലംബറെ വിളിക്കണം."],
+      "sentences": [
+        { "native": "പൈപ്പ് പ്ലംബറെക്കൊണ്ട് നന്നാക്കിക്കണം.", "roman": "paippŭ plambaṟekkoṇḍŭ nannākkikkaṇam.", "en": "We need to get the plumber to fix the tap.", "focus": "നന്നാക്കിക്കണം", "wrong": ["നന്നാക്കി|nannākki", "നന്നാക്കും|nannākkum"] },
+        { "native": "ഞാൻ ഇന്നലെ ഫാൻ നന്നാക്കിച്ചു.", "roman": "ñān innale fān nannākkicchu.", "en": "I got the fan repaired yesterday.", "focus": "നന്നാക്കിച്ചു", "wrong": ["നന്നാക്കി|nannākki", "നന്നാക്കണം|nannākkaṇam"] },
+        { "native": "സ്വിച്ച് ഞാൻ തന്നെ ശരിയാക്കി.", "roman": "svicchŭ ñān tanne shariyākki.", "en": "I fixed the switch myself.", "focus": "ശരിയാക്കി", "wrong": ["ശരിയാക്കിച്ചു|shariyākkicchu", "ശരിയാക്കിക്കണം|shariyākkikkaṇam"] },
+        { "native": "വീട്ടുടമസ്ഥനോട് പറഞ്ഞ് ഇലക്ട്രീഷ്യനെക്കൊണ്ട് ചെയ്യിക്കാം.", "roman": "vīṭṭuṭamasthanōṭŭ paṟaññŭ ilakṭrīṣyanekkoṇḍŭ cheyyikkām.", "en": "I'll tell the landlord and get the electrician to do it.", "focus": "ഇലക്ട്രീഷ്യനെക്കൊണ്ട്", "wrong": ["ഇലക്ട്രീഷ്യന്|ilakṭrīṣyanŭ", "ഇലക്ട്രീഷ്യനോട്|ilakṭrīṣyanōṭŭ"] },
+        { "native": "ചേട്ടാ, ഈ മോട്ടോർ ഇന്ന് തന്നെ ശരിയാക്കിത്തരാമോ?", "roman": "chēṭṭā, ī mōṭṭōr innŭ tanne shariyākkittarāmō?", "en": "Chetta, could you fix this pump for me today?", "focus": "ശരിയാക്കിത്തരാമോ", "wrong": ["ശരിയാക്കിയോ|shariyākkiyō", "ശരിയാക്കിക്കാമോ|shariyākkikkāmō"] },
+        { "native": "ചുമരിലെ പെയിന്റ് പോയി, വീണ്ടും പെയിന്റ് ചെയ്യിക്കണം.", "roman": "chumarile peyinṯŭ pōyi, vīṇḍum peyinṯŭ cheyyikkaṇam.", "en": "The paint's coming off the wall — we need to get it repainted.", "focus": "ചെയ്യിക്കണം", "wrong": ["ചെയ്യിച്ചു|cheyyicchu", "ചെയ്യിക്കുന്നു|cheyyikkunnu"] },
+        { "native": "പ്ലംബർ നാളെ രാവിലെ വരുമെന്ന് പറഞ്ഞു.", "roman": "plambar nāḷe rāvile varumennŭ paṟaññu.", "en": "The plumber said he'd come tomorrow morning." },
+        { "native": "എല്ലാ പണിയും ഒരു ഇലക്ട്രീഷ്യനെക്കൊണ്ട് ചെയ്യിച്ചു.", "roman": "ellā paṇiyum oru ilakṭrīṣyanekkoṇḍŭ cheyyicchu.", "en": "We had all the work done by one electrician.", "focus": "ചെയ്യിച്ചു", "wrong": ["ചെയ്തു|cheytu", "ചെയ്യും|cheyyum"] },
+        { "native": "ഇത് ആരാണ് നന്നാക്കിക്കേണ്ടത്, ഞങ്ങളോ വീട്ടുടമസ്ഥനോ?", "roman": "itŭ ārāṇŭ nannākkikkēṇḍatŭ, ñaṅṅaḷō vīṭṭuṭamasthanō?", "en": "Who's supposed to get this repaired — us or the landlord?" },
+        { "native": "പ്ലംബറെ വിളിച്ചിട്ട് എടുക്കുന്നില്ല.", "roman": "plambaṟe viḷicchiṭṭŭ eṭukkunnilla.", "en": "I've called the plumber but he isn't picking up." },
+        { "native": "അവൻ എനിക്ക് ഫാൻ നന്നാക്കിത്തന്നു.", "roman": "avan enikkŭ fān nannākkittannu.", "en": "He fixed the fan for me.", "focus": "നന്നാക്കിത്തന്നു", "wrong": ["നന്നാക്കിക്കൊടുത്തു|nannākkikkoṭuttu", "നന്നാക്കിച്ചു|nannākkicchu"] }
+      ]
+    },
+    {
+      "title": "Bills, rubbish and the building",
+      "tip": { "title": "Being firm: 'since', 'I did tell you', 'today itself'", "body": "- Participle + **-ഇട്ട്** + time + **-ആയി** = 'it's been … since': പരാതി പറഞ്ഞ**ിട്ട്** ഒരാഴ്ചയായി.\n- Past + **-അത് ആണ്** = 'I DID …': ഞാൻ **പറഞ്ഞതാണ്** 'I did tell you'.\n- **തന്നെ** after a time word = 'this very': **ഇന്ന് തന്നെ** 'today itself'.\n- Stay polite: start with ഒന്ന് … -ആമോ, then move to -അണം.", "grammar": 0 },
+      "new": ["ചവറ്", "ലിഫ്റ്റ്", "പരാതി", "ഈ മാസത്തെ വാടക അടച്ചു.", "ചവറ് എവിടെയാണ് ഇടേണ്ടത്?", "ഞാൻ പല തവണ പറഞ്ഞതാണ്."],
+      "sentences": [
+        { "native": "കറന്റ് ബില്ല് ഇന്നലെ അടച്ചു.", "roman": "kaṟanṯŭ billŭ innale aṭacchu.", "en": "I paid the electricity bill yesterday.", "focus": "അടച്ചു", "wrong": ["അടയ്ക്കും|aṭaykkum", "അടയ്ക്കണം|aṭaykkaṇam"] },
+        { "native": "പരാതി പറഞ്ഞിട്ട് ഒരാഴ്ചയായി, ഇതുവരെ ആരും വന്നില്ല.", "roman": "parāti paṟaññiṭṭŭ orāḻchayāyi, ituvare ārum vannilla.", "en": "It's been a week since I complained, and nobody's come yet.", "focus": "പറഞ്ഞിട്ട്", "wrong": ["പറഞ്ഞു|paṟaññu", "പറയാൻ|paṟayān"] },
+        { "native": "ലിഫ്റ്റ് ഇന്നും കേടാണ്, ഇന്ന് തന്നെ ശരിയാക്കണം.", "roman": "lifṯṯŭ innum kēṭāṇŭ, innŭ tanne shariyākkaṇam.", "en": "The lift is broken again today — it has to be fixed today itself.", "focus": "തന്നെ", "wrong": ["മാത്രം|mātram", "പോലെ|pōle"] },
+        { "native": "ചവറ് രാവിലെ ഏഴ് മണിക്ക് മുമ്പ് പുറത്ത് വെക്കണം.", "roman": "chavaṟŭ rāvile ēḻŭ maṇikkŭ mumbŭ puṟattŭ vekkaṇam.", "en": "Put the rubbish out before seven in the morning." },
+        { "native": "വെള്ളത്തിന്റെ ബില്ല് എത്ര വന്നു?", "roman": "veḷḷattinde billŭ etra vannu?", "en": "How much did the water bill come to?" },
+        { "native": "ഞാൻ അത് പറഞ്ഞതാണ്, ചേട്ടൻ മറന്നതാണ്.", "roman": "ñān atŭ paṟaññatāṇŭ, chēṭṭan maṟannatāṇŭ.", "en": "I DID tell you — you're the one who forgot.", "focus": "പറഞ്ഞതാണ്", "wrong": ["പറയും|paṟayum", "പറയണം|paṟayaṇam"] },
+        { "native": "ഞങ്ങൾ ഓഫീസിൽ ഒരു പരാതി എഴുതിക്കൊടുത്തു.", "roman": "ñaṅṅaḷ ōfīsil oru parāti eḻutikkoṭuttu.", "en": "We gave the office a written complaint." },
+        { "native": "രണ്ട് മാസമായി ബില്ല് അടച്ചിട്ടില്ല.", "roman": "raṇḍŭ māsamāyi billŭ aṭacchiṭṭilla.", "en": "The bill hasn't been paid for two months.", "focus": "മാസമായി", "wrong": ["മാസം|māsam", "മാസത്തിൽ|māsattil"] },
+        { "native": "ഇനിയും ശരിയാക്കിയില്ലെങ്കിൽ ഞാൻ ഫ്ലാറ്റിന്റെ ഓഫീസിൽ പരാതി കൊടുക്കും.", "roman": "iniyum shariyākkiyilleṅgil ñān flāṯṯinde ōfīsil parāti koṭukkum.", "en": "If it still isn't fixed, I'll complain to the building office." },
+        { "native": "ലിഫ്റ്റ് കേടായിട്ട് മൂന്ന് ദിവസമായി.", "roman": "lifṯṯŭ kēṭāyiṭṭŭ mūnnŭ divasamāyi.", "en": "It's been three days since the lift broke down.", "focus": "കേടായിട്ട്", "wrong": ["കേടായി|kēṭāyi", "കേടാണ്|kēṭāṇŭ"] }
+      ]
+    },
+    {
+      "title": "Getting on with the neighbours",
+      "tip": { "title": "Neighbours: be friendly first, then ask", "body": "- Open with a chat: പുതിയ താമസക്കാരാണോ? എവിടെയാ നാട്?\n- Call them **ചേട്ടാ / ചേച്ചീ**, or **ആന്റീ / അങ്കിൾ** if they're older — not നിങ്ങൾ.\n- Wrap a complaint in a reason + **ഒന്ന്** + **-ആമോ**: കുഞ്ഞ് ഉറങ്ങുകയാണ്, ശബ്ദം ഒന്ന് കുറയ്ക്കാമോ?" },
+      "new": ["അയൽപക്കം", "ഗേറ്റ്", "ശബ്ദം", "ബഹളം", "ശല്യം", "രാത്രി കുറച്ച് ശബ്ദം കുറയ്ക്കാമോ?", "പുതിയ താമസക്കാരാണോ?"],
+      "sentences": [
+        { "native": "ഞങ്ങൾ ഈ അയൽപക്കത്ത് പുതിയതാണ്.", "roman": "ñaṅṅaḷ ī ayalpakkattŭ putiyatāṇŭ.", "en": "We're new in the neighbourhood." },
+        { "native": "ചേച്ചീ, കുഞ്ഞ് ഉറങ്ങുകയാണ്, ശബ്ദം ഒന്ന് കുറയ്ക്കാമോ?", "roman": "chēcchī, kuññŭ uṟaṅṅukayāṇŭ, shabdam onnŭ kuṟaykkāmō?", "en": "Chechi, the baby's asleep — could you turn it down a little?", "focus": "കുറയ്ക്കാമോ", "wrong": ["കുറയ്ക്കും|kuṟaykkum", "കുറച്ചു|kuṟacchu"] },
+        { "native": "മുകളിലെ ഫ്ലാറ്റിൽ രാത്രി മുഴുവൻ ബഹളമാണ്.", "roman": "mukaḷile flāṯṯil rātri muḻuvan bahaḷamāṇŭ.", "en": "There's a racket in the flat upstairs all night." },
+        { "native": "അവരുടെ പാർട്ടി ഞങ്ങൾക്ക് വലിയ ശല്യമായി.", "roman": "avaruṭe pārṭṭi ñaṅṅaḷkkŭ valiya shalyamāyi.", "en": "Their party was a real nuisance for us." },
+        { "native": "ഏയ്, ഒരു ശല്യവുമില്ല, ചേട്ടാ.", "roman": "ēy, oru shalyavumilla, chēṭṭā.", "en": "Oh no, it's no bother at all, chetta." },
+        { "native": "ഈ അയൽപക്കത്ത് എല്ലാവരും നല്ല ആളുകളാണ്.", "roman": "ī ayalpakkattŭ ellāvarum nalla āḷukaḷāṇŭ.", "en": "Everyone round here is really nice." },
+        { "native": "ക്ഷമിക്കണം, ഇനി ശബ്ദം ഉണ്ടാവില്ല.", "roman": "kṣamikkaṇam, ini shabdam uṇḍāvilla.", "en": "Sorry — there won't be any more noise." },
+        { "native": "ആ ബഹളം എന്താണ്? ആരെങ്കിലും വഴക്കാണോ?", "roman": "ā bahaḷam endāṇŭ? āreṅgilum vaḻakkāṇō?", "en": "What's that racket? Is someone having a fight?" },
+        { "native": "ചേട്ടാ, ചേട്ടന്റെ കാർ ഞങ്ങളുടെ ഗേറ്റിന്റെ മുന്നിലാണ്.", "roman": "chēṭṭā, chēṭṭande kār ñaṅṅaḷuṭe gēṯṯinde munnilāṇŭ.", "en": "Chetta, your car's parked in front of our gate." },
+        { "native": "രാത്രി പത്ത് മണിക്ക് ഗേറ്റ് അടയ്ക്കും.", "roman": "rātri pattŭ maṇikkŭ gēṯṯŭ aṭaykkum.", "en": "The gate is locked at ten at night." }
+      ]
+    },
+    {
+      "title": "Moving house",
+      "new": ["താമസം മാറുക", "സാധനം", "പാക്ക് ചെയ്യുക", "ഞങ്ങൾ അടുത്ത മാസം താമസം മാറുകയാണ്."],
+      "sentences": [
+        { "native": "നിങ്ങൾ എപ്പോഴാണ് താമസം മാറുന്നത്?", "roman": "niṅṅaḷ eppōḻāṇŭ tāmasam māṟunnatŭ?", "en": "When are you moving?" },
+        { "native": "ഞങ്ങൾ കോഴിക്കോട്ടേക്ക് താമസം മാറി.", "roman": "ñaṅṅaḷ kōḻikkōṭṭēkkŭ tāmasam māṟi.", "en": "We've moved to Kozhikode." },
+        { "native": "സാധനങ്ങൾ എല്ലാം പാക്ക് ചെയ്തോ?", "roman": "sādhanaṅṅaḷ ellām pākkŭ cheytō?", "en": "Have you packed all your stuff?" },
+        { "native": "ഒരുപാട് സാധനങ്ങൾ ഇല്ല, ഒരു ദിവസം മതി.", "roman": "orupāṭŭ sādhanaṅṅaḷ illa, oru divasam mati.", "en": "We don't have much stuff — one day will do." },
+        { "native": "പാക്ക് ചെയ്യാൻ ആളെ വിളിക്കാം, അവരെക്കൊണ്ട് ചെയ്യിക്കാം.", "roman": "pākkŭ cheyyān āḷe viḷikkām, avarekkoṇḍŭ cheyyikkām.", "en": "Let's call some people in to pack — we'll get them to do it.", "focus": "അവരെക്കൊണ്ട്", "wrong": ["അവർക്ക്|avarkkŭ", "അവരോട്|avarōṭŭ"] },
+        { "native": "പോകുന്നതിന് മുമ്പ് അഡ്വാൻസ് തിരിച്ചു തരണം.", "roman": "pōkunnatinŭ mumbŭ aḍvānsŭ tiricchu taraṇam.", "en": "You need to give the deposit back before we leave." },
+        { "native": "അയൽക്കാരോട് യാത്ര പറഞ്ഞോ?", "roman": "ayalkkārōṭŭ yātra paṟaññō?", "en": "Did you say goodbye to the neighbours?" },
+        { "native": "പുതിയ വീട്ടിൽ കറന്റും വെള്ളവും ഉണ്ടോ എന്ന് നോക്കണം.", "roman": "putiya vīṭṭil kaṟanṯum veḷḷavum uṇḍō ennŭ nōkkaṇam.", "en": "We need to check that the new place has power and water." }
+      ]
+    }
+  ]
+}

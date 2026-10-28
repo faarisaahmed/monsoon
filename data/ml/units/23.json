@@ -1,0 +1,198 @@
+{
+  "id": 23,
+  "title": "Around town: autos, cabs & the metro",
+  "goal": "Get an auto and agree the fare, tell the driver where to turn and where to drop you, book a cab, use the bus and metro, and ask how long a trip will take.",
+  "intro": "Getting around a Kerala town means autos (with meters — in theory), ride apps, packed private buses with a conductor shouting the stops, red KSRTC buses, and in Kochi the **metro** and the **Water Metro** boats. Drivers navigate by landmarks, not street names, so you'll be giving directions from the back seat: 'left after the signal, opposite the bank'.\n\nThe grammar makes your instructions sound natural. **Compound verbs** add a shade of meaning with a second verb: **ഇറക്കിത്തരുക** 'drop me (for me)', **കൊണ്ടുവിടുക** 'take and leave = drop off', **ഉറങ്ങിപ്പോയി** 'fell asleep (oops)', **വിളിച്ചുനോക്കാം** 'I'll try calling'. The polite driver's line is **ഇവിടെ നിർത്തിയാൽ മതി** 'just stop here'. And **എടുക്കും** tells you how long a trip **takes**: **എത്ര സമയം എടുക്കും?**",
+  "vocab": [
+    { "native": "ഡ്രൈവർ", "roman": "ḍraivar", "en": "driver", "pos": "noun", "note": "Address him as ചേട്ടാ (or ഡ്രൈവർ ചേട്ടാ)." },
+    { "native": "മീറ്റർ", "roman": "mīṯṯar", "en": "(taxi / auto) meter; metre", "pos": "noun", "note": "മീറ്റർ ഇടുക 'to turn on the meter'." },
+    { "native": "മിനിമം", "roman": "minimam", "en": "minimum (fare)", "pos": "noun" },
+    { "native": "കൂലി", "roman": "kūli", "en": "fare; wages, charge for work", "pos": "noun", "note": "ഓട്ടോക്കൂലി 'auto fare'. People also say ചാർജ്." },
+    { "native": "ഇറക്കുക", "roman": "iṟakkuka", "en": "to drop off, let (someone) out; to take down", "pos": "verb", "note": "Causative of ഇറങ്ങുക 'get off'. Past ഇറക്കി." },
+    { "native": "കൊണ്ടുവിടുക", "roman": "koṇḍuviṭuka", "en": "to drop (someone) off, take and leave", "pos": "verb", "note": "Past കൊണ്ടുവിട്ടു. എന്നെ സ്റ്റേഷനിൽ കൊണ്ടുവിടാമോ? 'Could you drop me at the station?'" },
+    { "native": "മുന്നോട്ട്", "roman": "munnōṭṭŭ", "en": "forward, further ahead", "pos": "adv" },
+    { "native": "പിന്നോട്ട്", "roman": "pinnōṭṭŭ", "en": "backward, back", "pos": "adv", "note": "Also പുറകോട്ട്." },
+    { "native": "സിഗ്നൽ", "roman": "signal", "en": "traffic signal, traffic lights", "pos": "noun" },
+    { "native": "എതിർവശം", "roman": "etirvasham", "en": "opposite side", "pos": "noun", "note": "Locative: ബാങ്കിന്റെ എതിർവശത്ത് 'opposite the bank'." },
+    { "native": "വളവ്", "roman": "vaḷavŭ", "en": "bend, turning (in a road)", "pos": "noun" },
+    { "native": "ഓടിക്കുക", "roman": "ōṭikkuka", "en": "to drive, ride (a vehicle)", "pos": "verb", "note": "Causative of ഓടുക 'run'. Past ഓടിച്ചു." },
+    { "native": "സ്പീഡ്", "roman": "spīḍŭ", "en": "speed", "pos": "noun", "note": "സ്പീഡ് കുറയ്ക്കൂ 'slow down'." },
+    { "native": "ക്യാബ്", "roman": "kyābŭ", "en": "cab, taxi (often from an app)", "pos": "noun", "note": "Also ടാക്സി." },
+    { "native": "ആപ്പ്", "roman": "āppŭ", "en": "app", "pos": "noun" },
+    { "native": "ബൈക്ക്", "roman": "baikkŭ", "en": "motorbike, scooter; bike taxi", "pos": "noun" },
+    { "native": "മെട്രോ", "roman": "meṭrō", "en": "metro", "pos": "noun" },
+    { "native": "വാട്ടർ മെട്രോ", "roman": "vāṭṭar meṭrō", "en": "Water Metro (Kochi's ferry network)", "pos": "noun" },
+    { "native": "സ്റ്റോപ്പ്", "roman": "sṯṯōppŭ", "en": "(bus) stop", "pos": "noun" },
+    { "native": "ബസ് സ്റ്റാൻഡ്", "roman": "basŭ sṯṯāṇḍŭ", "en": "bus station, bus stand", "pos": "noun" },
+    { "native": "കണ്ടക്ടർ", "roman": "kaṇḍakṭar", "en": "(bus) conductor", "pos": "noun" },
+    { "native": "സീറ്റ്", "roman": "sīṯṯŭ", "en": "seat", "pos": "noun" },
+    { "native": "പിടിക്കുക", "roman": "piṭikkuka", "en": "to catch (a bus); to hold", "pos": "verb", "note": "Past പിടിച്ചു. ബസ് പിടിക്കുക 'to catch a bus'." },
+    { "native": "ലാസ്റ്റ്", "roman": "lāsṯṯŭ", "en": "last", "pos": "adj", "note": "Native: അവസാനത്തെ." },
+    { "native": "റൂട്ട്", "roman": "ṟūṭṭŭ", "en": "route", "pos": "noun" }
+  ],
+  "phrases": [
+    { "native": "ചേട്ടാ, കലൂർ പോകുമോ?", "roman": "chēṭṭā, kalūr pōkumō?", "en": "Will you go to Kaloor? (to an auto driver)" },
+    { "native": "മീറ്റർ ഇട്ട് പോകാമോ?", "roman": "mīṯṯar iṭṭŭ pōkāmō?", "en": "Can we go by the meter?" },
+    { "native": "എത്ര ആകും?", "roman": "etra ākum?", "en": "How much will it be?" },
+    { "native": "നൂറ് രൂപ തരാം, മതിയോ?", "roman": "nūṟŭ rūpa tarām, matiyō?", "en": "I'll give you a hundred rupees, OK?" },
+    { "native": "കുറച്ച് മുന്നോട്ട് നിർത്തിയാൽ മതി.", "roman": "kuṟacchŭ munnōṭṭŭ nirttiyāl mati.", "en": "Just stop a little further on." },
+    { "native": "ഇവിടെ ഇറക്കിയാൽ മതി.", "roman": "iviṭe iṟakkiyāl mati.", "en": "Just drop me here." },
+    { "native": "സിഗ്നലിൽ നിന്ന് വലത്തോട്ട് തിരിക്കണം.", "roman": "signalil ninnŭ valattōṭṭŭ tirikkaṇam.", "en": "Turn right at the signal.", "note": "തിരിക്കുക = turn (the vehicle); തിരിയുക = turn (yourself)." },
+    { "native": "പതുക്കെ ഓടിക്കൂ, ചേട്ടാ!", "roman": "patukke ōṭikkū, chēṭṭā!", "en": "Slow down, please!" },
+    { "native": "ഞാൻ ഒരു ക്യാബ് ബുക്ക് ചെയ്യാം.", "roman": "ñān oru kyābŭ bukkŭ cheyyām.", "en": "I'll book a cab." },
+    { "native": "ഈ ബസ് വൈറ്റില വഴി പോകുമോ?", "roman": "ī basŭ vaiṯṯila vaḻi pōkumō?", "en": "Does this bus go via Vyttila?" },
+    { "native": "ഇനി എത്ര സ്റ്റോപ്പ് ഉണ്ട്?", "roman": "ini etra sṯṯōppŭ uṇḍŭ?", "en": "How many more stops?" },
+    { "native": "ലാസ്റ്റ് മെട്രോ എപ്പോഴാ?", "roman": "lāsṯṯŭ meṭrō eppōḻā?", "en": "When's the last metro?" },
+    { "native": "എത്ര സമയം എടുക്കും?", "roman": "etra samayam eṭukkum?", "en": "How long will it take?" },
+    { "native": "ഏകദേശം ഇരുപത് മിനിറ്റ് എടുക്കും.", "roman": "ēkadēsham irupatŭ miniṯṯŭ eṭukkum.", "en": "It'll take about twenty minutes." }
+  ],
+  "grammar": [
+    {
+      "title": "Compound verbs: ഇറക്കിത്തരുക, കൊണ്ടുവിടുക, ഉറങ്ങിപ്പോയി",
+      "body": "Malayalam often follows a verb's participle (the -ഇ / -ŭ form) with a second verb that adds a shade of meaning. The two are usually written as one word, and a following ത or ക is doubled: ഇറക്കി + തരുക → **ഇറക്കിത്തരുക**.\n\n• **+ തരുക** 'give (to me)' → do it **for me**: പറഞ്ഞുതരുക 'tell me', ഇറക്കിത്തരുക 'drop me / get it down for me', ബുക്ക് ചെയ്തുതരുക 'book it for me'.\n• **+ കൊടുക്കുക** 'give (to others)' → do it **for someone else**: പറഞ്ഞുകൊടുക്കുക 'tell him/her', ഷെയർ ചെയ്തുകൊടുക്കുക.\n• **+ വിടുക** 'leave' → take and leave: **കൊണ്ടുവിടുക** 'drop (someone) off'.\n• **+ പോകുക** 'go' → it just happened, often by accident or with regret: **ഉറങ്ങിപ്പോയി** 'I fell asleep', **മറന്നുപോയി** 'I (totally) forgot', കഴിഞ്ഞുപോയി '(we) went past it'.\n• **+ നോക്കുക** 'look' → **try** doing: **വിളിച്ചുനോക്കാം** 'I'll try calling', ചോദിച്ചുനോക്കൂ 'try asking'.\n\nThe trap is തരുക vs കൊടുക്കുക: just as with 'give', **-തരുക** is towards the speaker and **-കൊടുക്കുക** is towards someone else.\n\nWith drivers, the most natural instruction isn't a command at all but **-ആൽ മതി** 'it's enough if…': **ഇവിടെ നിർത്തിയാൽ മതി** 'just stop here', **ജംഗ്ഷനിൽ ഇറക്കിയാൽ മതി** 'just drop me at the junction'.",
+      "examples": [
+        { "native": "മെട്രോ സ്റ്റേഷനിലേക്കുള്ള വഴി ഒന്ന് പറഞ്ഞുതരാമോ?", "roman": "meṭrō sṯṯēṣanilēkkuḷḷa vaḻi onnŭ paṟaññutarāmō?", "en": "Could you tell me the way to the metro station?" },
+        { "native": "എന്നെ സ്റ്റേഷനിൽ കൊണ്ടുവിടാമോ?", "roman": "enne sṯṯēṣanil koṇḍuviṭāmō?", "en": "Could you drop me at the station?" },
+        { "native": "ഞാൻ ബസിൽ ഉറങ്ങിപ്പോയി, സ്റ്റോപ്പ് കഴിഞ്ഞുപോയി!", "roman": "ñān basil uṟaṅṅippōyi, sṯṯōppŭ kaḻiññupōyi!", "en": "I fell asleep on the bus and missed my stop!" },
+        { "native": "ആപ്പിൽ ഒന്ന് ബുക്ക് ചെയ്തുനോക്ക്.", "roman": "āppil onnŭ bukkŭ cheytunōkkŭ.", "en": "Try booking on the app." },
+        { "native": "ഈ വളവ് കഴിഞ്ഞ് നിർത്തിയാൽ മതി.", "roman": "ī vaḷavŭ kaḻiññŭ nirttiyāl mati.", "en": "Just stop after this bend." }
+      ]
+    },
+    {
+      "title": "How long does it take? How much will it be? എടുക്കും and ആകും",
+      "body": "Malayalam says a trip **takes** time with **എടുക്കുക** 'to take', and it **becomes** a sum of money with **ആകുക** 'to become':\n\n• **Time**: [time] + **എടുക്കും** 'will take': അര മണിക്കൂർ എടുക്കും 'it'll take half an hour'. Ask **എത്ര സമയം എടുക്കും?** (or എത്ര നേരം എടുക്കും?). Past: **എടുത്തു** 'took'.\n• **To do what?** Put the purpose verb in **-ആൻ**: **എത്താൻ** ഒരു മണിക്കൂർ എടുക്കും 'it takes an hour to get there'.\n• **Money**: **എത്ര ആകും?** 'how much will it come to?' → നൂറ് രൂപ ആകും. At the end of the ride: **എത്ര ആയി?** 'how much is it?'\n• **Enough**: **മതി**: ബൈക്കിൽ ഇരുപത് മിനിറ്റ് മതി 'by bike twenty minutes is enough'.\n\nDistance is still **എത്ര ദൂരം ഉണ്ട്?** (Unit 11). The trap: don't use ഉണ്ട് for time taken — it's എടുക്കും, not *അര മണിക്കൂർ ഉണ്ട്* (which means 'there's half an hour left').",
+      "examples": [
+        { "native": "കലൂരിൽ നിന്ന് ആലുവയിലേക്ക് മെട്രോയിൽ എത്ര സമയം എടുക്കും?", "roman": "kalūril ninnŭ āluvayilēkkŭ meṭrōyil etra samayam eṭukkum?", "en": "How long does it take from Kaloor to Aluva on the metro?" },
+        { "native": "ബ്ലോക്ക് ഉണ്ടെങ്കിൽ ഒരു മണിക്കൂർ എടുക്കും.", "roman": "blōkkŭ uṇḍeṅgil oru maṇikkūr eṭukkum.", "en": "If there's traffic, it'll take an hour." },
+        { "native": "വിമാനത്താവളത്തിലേക്ക് ക്യാബിന് എത്ര ആകും?", "roman": "vimānattāvaḷattilēkkŭ kyābinŭ etra ākum?", "en": "How much will a cab to the airport be?" },
+        { "native": "ഇന്നലെ വീട്ടിൽ എത്താൻ രണ്ട് മണിക്കൂർ എടുത്തു.", "roman": "innale vīṭṭil ettān raṇḍŭ maṇikkūr eṭuttu.", "en": "Yesterday it took two hours to get home." },
+        { "native": "ചേട്ടാ, എത്ര ആയി?", "roman": "chēṭṭā, etra āyi?", "en": "How much is it? (at the end of the ride)" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "An auto to Panampilly Nagar",
+    "setting": "Riya comes out of Ernakulam South railway station at night and flags down an auto.",
+    "lines": [
+      { "speaker": "Riya", "native": "ചേട്ടാ, പനമ്പിള്ളി നഗർ പോകുമോ?", "roman": "chēṭṭā, panambiḷḷi nagar pōkumō?", "en": "Will you go to Panampilly Nagar?" },
+      { "speaker": "Driver", "native": "പോകാം. കയറിക്കോ.", "roman": "pōkām. kayaṟikkō.", "en": "Sure. Hop in." },
+      { "speaker": "Riya", "native": "മീറ്റർ ഇട്ട് പോകാമോ?", "roman": "mīṯṯar iṭṭŭ pōkāmō?", "en": "Can we go by the meter?" },
+      { "speaker": "Driver", "native": "മീറ്റർ കേടാണ് മോളേ. നൂറ്റമ്പത് രൂപ ആകും.", "roman": "mīṯṯar kēṭāṇŭ mōḷē. nūṯṯambatŭ rūpa ākum.", "en": "The meter's broken, dear. It'll be a hundred and fifty." },
+      { "speaker": "Riya", "native": "നൂറ്റമ്പതോ? ഭയങ്കര കൂടുതലാണ്! ആപ്പിൽ എൺപത് രൂപയേ കാണിക്കുന്നുള്ളൂ.", "roman": "nūṯṯambatō? bhayaṅgara kūṭutalāṇŭ! āppil eṇpatŭ rūpayē kāṇikkunnuḷḷū.", "en": "A hundred and fifty? That's way too much! The app only shows eighty." },
+      { "speaker": "Driver", "native": "രാത്രി ആയില്ലേ, പിന്നെ ബ്ലോക്കും. ശരി, നൂറ് തന്നാൽ മതി.", "roman": "rātri āyillē, pinne blōkkum. shari, nūṟŭ tannāl mati.", "en": "It's night, isn't it, and there's the traffic. Fine, just give me a hundred." },
+      { "speaker": "Riya", "native": "ശരി, പോകാം. എത്ര സമയം എടുക്കും?", "roman": "shari, pōkām. etra samayam eṭukkum?", "en": "OK, let's go. How long will it take?" },
+      { "speaker": "Driver", "native": "ബ്ലോക്ക് ഇല്ലെങ്കിൽ ഒരു പത്ത് മിനിറ്റ്. എവിടെയാ ഇറങ്ങേണ്ടത്?", "roman": "blōkkŭ illeṅgil oru pattŭ miniṯṯŭ. eviṭeyā iṟaṅṅēṇḍatŭ?", "en": "About ten minutes if there's no traffic. Where do you need to get off?" },
+      { "speaker": "Riya", "native": "മെട്രോ സ്റ്റേഷൻ കഴിഞ്ഞ് സിഗ്നലിൽ നിന്ന് ഇടത്തോട്ട്. ഒരു ബേക്കറിയുടെ എതിർവശത്താണ്.", "roman": "meṭrō sṯṯēṣan kaḻiññŭ signalil ninnŭ iṭattōṭṭŭ. oru bēkkaṟiyuṭe etirvashattāṇŭ.", "en": "Past the metro station, left at the signal. It's opposite a bakery." },
+      { "speaker": "Driver", "native": "ആ ബേക്കറിയുടെ അടുത്ത് ഒരു വളവുണ്ട്. അവിടെ നിർത്തട്ടെ?", "roman": "ā bēkkaṟiyuṭe aṭuttŭ oru vaḷavuṇḍŭ. aviṭe nirttaṭṭe?", "en": "There's a bend near that bakery. Shall I stop there?" },
+      { "speaker": "Riya", "native": "വേണ്ട, കുറച്ച് മുന്നോട്ട്… ആ, ഇവിടെ ഇറക്കിയാൽ മതി.", "roman": "vēṇḍa, kuṟacchŭ munnōṭṭŭ… ā, iviṭe iṟakkiyāl mati.", "en": "No, a bit further… yes, just drop me here." },
+      { "speaker": "Riya", "native": "ചേട്ടാ, ചില്ലറ ഇല്ല. ജിപേ ചെയ്യാമോ?", "roman": "chēṭṭā, chillaṟa illa. jipē cheyyāmō?", "en": "I haven't got change. Can I pay by GPay?" },
+      { "speaker": "Driver", "native": "ചെയ്തോളൂ. ദാ, സ്കാൻ ചെയ്തോ.", "roman": "cheytōḷū. dā, skān cheytō.", "en": "Go ahead. Here, scan this." }
+    ]
+  },
+  "culture": "Kerala's autos have meters and a government-fixed **minimum fare**, and there's an official surcharge late at night — but many drivers quote a fixed price anyway, especially at stations, at night or for short hops. Agree the fare before you get in, check the ride-app price for a fair number, and use the **prepaid auto counters** at big railway stations like Ernakulam and Thiruvananthapuram. Outside the city a driver may ask for **മടക്കക്കൂലി** (the return fare) because he'll drive back empty. Call the driver **ചേട്ടാ**; an older driver may call you **മോനേ** or **മോളേ** ('son', 'daughter') — that's friendly, not rude.\n\n**Ride apps** (Uber, Ola, and Rapido for bikes and autos) work in the big cities; drivers will ring to ask **എവിടെയാ?** and expect a landmark, not an address. **Buses**: private buses race each other and the conductor shouts the stops — get on, then buy your ticket from him; some seats are marked for women (**സ്ത്രീകൾ**). Red **KSRTC** buses run the long routes. In Kochi, the **Metro** (Aluva–Thrippunithura) and the **Water Metro** boats to the islands are clean, air-conditioned and on time — the Kochi1 card works on both.",
+  "lessons": [
+    {
+      "title": "Getting an auto",
+      "tip": { "title": "Haggling with an auto", "body": "- Ask first: **[place] പോകുമോ?** 'will you go to…?'\n- Ask for the meter: **മീറ്റർ ഇട്ട് പോകാമോ?** — the **മിനിമം** fare is fixed.\n- No meter? Agree first: **എത്ര ആകും?** → **നൂറ് തരാം, മതിയോ?**\n- Call the driver **ചേട്ടാ**, and keep it friendly." },
+      "new": ["ഡ്രൈവർ", "മീറ്റർ", "മിനിമം", "കൂലി", "ചേട്ടാ, കലൂർ പോകുമോ?", "മീറ്റർ ഇട്ട് പോകാമോ?", "എത്ര ആകും?", "നൂറ് രൂപ തരാം, മതിയോ?"],
+      "sentences": [
+        { "native": "ചേട്ടാ, ഫോർട്ട് കൊച്ചി പോകുമോ?", "roman": "chēṭṭā, fōrṭṭŭ kocchi pōkumō?", "en": "Will you go to Fort Kochi?", "focus": "പോകുമോ", "wrong": ["പോയോ|pōyō", "പോകണം|pōkaṇam"] },
+        { "native": "മീറ്റർ ഇട്ട് പോകാമോ? മിനിമം എത്രയാ?", "roman": "mīṯṯar iṭṭŭ pōkāmō? minimam etrayā?", "en": "Can we go by the meter? What's the minimum?" },
+        { "native": "മീറ്റർ ഇല്ലെങ്കിൽ എത്ര ആകും?", "roman": "mīṯṯar illeṅgil etra ākum?", "en": "Without the meter, how much will it be?", "focus": "ആകും", "wrong": ["ആയി|āyi", "ആണോ|āṇō"] },
+        { "native": "നൂറ് രൂപ തരാം, മതിയോ? ഇത് അടുത്താണ്.", "roman": "nūṟŭ rūpa tarām, matiyō? itŭ aṭuttāṇŭ.", "en": "I'll give you a hundred, OK? It's close." },
+        { "native": "ഈ കൂലി കുറച്ച് കൂടുതലാണ്, ചേട്ടാ.", "roman": "ī kūli kuṟacchŭ kūṭutalāṇŭ, chēṭṭā.", "en": "That fare's a bit much." },
+        { "native": "ഡ്രൈവർ മീറ്റർ ഇടാൻ സമ്മതിച്ചില്ല.", "roman": "ḍraivar mīṯṯar iṭān sammaticchilla.", "en": "The driver wouldn't agree to use the meter." },
+        { "native": "മിനിമം കൂലി മുപ്പത് രൂപയാണ്.", "roman": "minimam kūli muppatŭ rūpayāṇŭ.", "en": "The minimum fare is thirty rupees." },
+        { "native": "ഡ്രൈവർ ചേട്ടൻ നല്ല ആളാണ്, എല്ലാ വഴിയും അറിയാം.", "roman": "ḍraivar chēṭṭan nalla āḷāṇŭ, ellā vaḻiyum aṟiyām.", "en": "The driver is a nice guy — he knows every road." },
+        { "native": "എഴുപത് രൂപ മതിയോ? — ഇല്ല, എൺപത് ആകും.", "roman": "eḻupatŭ rūpa matiyō? — illa, eṇpatŭ ākum.", "en": "Is seventy OK? — No, it'll be eighty.", "focus": "ആകും", "wrong": ["ആയി|āyi", "ആണോ|āṇō"] },
+        { "native": "ചേട്ടാ, മീറ്റർ ഇട്ടില്ല!", "roman": "chēṭṭā, mīṯṯar iṭṭilla!", "en": "You haven't put the meter on!" }
+      ]
+    },
+    {
+      "title": "Drop me here",
+      "tip": { "title": "Compound verbs and -ആൽ മതി", "body": "- verb-ഇ + **തരുക** = for me: ഇറക്കിത്തരുക · + **കൊടുക്കുക** = for someone else.\n- + **വിടുക** = drop off: **കൊണ്ടുവിടുക**.\n- + **പോകുക** = it (accidentally) happened: ഉറങ്ങിപ്പോയി.\n- + **നോക്കുക** = try: വിളിച്ചുനോക്കാം.\n- **-ആൽ മതി** 'just…': ഇവിടെ നിർത്തിയാൽ മതി.", "pattern": "verb-ഇ + തരുക / വിടുക / പോകുക / നോക്കുക", "grammar": 0 },
+      "new": ["ഇറക്കുക", "കൊണ്ടുവിടുക", "മുന്നോട്ട്", "പിന്നോട്ട്", "കുറച്ച് മുന്നോട്ട് നിർത്തിയാൽ മതി.", "ഇവിടെ ഇറക്കിയാൽ മതി."],
+      "sentences": [
+        { "native": "ഇവിടെ ഇറക്കിയാൽ മതി, ചേട്ടാ.", "roman": "iviṭe iṟakkiyāl mati, chēṭṭā.", "en": "Just drop me here, please.", "focus": "ഇറക്കിയാൽ", "wrong": ["ഇറക്കി|iṟakki", "ഇറക്കുക|iṟakkuka"] },
+        { "native": "കുറച്ച് മുന്നോട്ട് നിർത്തിയാൽ മതി, ആ കടയുടെ മുന്നിൽ.", "roman": "kuṟacchŭ munnōṭṭŭ nirttiyāl mati, ā kaṭayuṭe munnil.", "en": "Just stop a bit further on, in front of that shop.", "focus": "നിർത്തിയാൽ", "wrong": ["നിർത്തി|nirtti", "നിർത്തുക|nirttuka"] },
+        { "native": "എന്നെ റെയിൽവേ സ്റ്റേഷനിൽ കൊണ്ടുവിടാമോ?", "roman": "enne ṟeyilvē sṯṯēṣanil koṇḍuviṭāmō?", "en": "Could you drop me at the railway station?", "focus": "കൊണ്ടുവിടാമോ", "wrong": ["കൊണ്ടുവന്നോ|koṇḍuvannō", "കൊണ്ടുവിടുക|koṇḍuviṭuka"] },
+        { "native": "അച്ഛൻ എന്നെ ദിവസവും കോളേജിൽ കൊണ്ടുവിടും.", "roman": "acchan enne divasavum kōḷējil koṇḍuviṭum.", "en": "Dad drops me at college every day." },
+        { "native": "അയ്യോ, കുറച്ച് പിന്നോട്ട് പോകാമോ? വീട് കഴിഞ്ഞുപോയി.", "roman": "ayyō, kuṟacchŭ pinnōṭṭŭ pōkāmō? vīṭŭ kaḻiññupōyi.", "en": "Oops, could you go back a bit? We've gone past the house.", "focus": "കഴിഞ്ഞുപോയി", "wrong": ["കഴിയും|kaḻiyum", "കഴിഞ്ഞുനോക്കി|kaḻiññunōkki"] },
+        { "native": "ഞാൻ ബസിൽ ഉറങ്ങിപ്പോയി, ഇറങ്ങാൻ മറന്നുപോയി!", "roman": "ñān basil uṟaṅṅippōyi, iṟaṅṅān maṟannupōyi!", "en": "I fell asleep on the bus and forgot to get off!", "focus": "ഉറങ്ങിപ്പോയി", "wrong": ["ഉറങ്ങിനോക്കി|uṟaṅṅinōkki", "ഉറങ്ങിത്തന്നു|uṟaṅṅittannu"] },
+        { "native": "ഈ ബാഗ് ഒന്ന് ഇറക്കിത്തരാമോ?", "roman": "ī bāgŭ onnŭ iṟakkittarāmō?", "en": "Could you get this bag down for me?", "focus": "ഇറക്കിത്തരാമോ", "wrong": ["ഇറക്കിക്കൊടുക്കാമോ|iṟakkikkoṭukkāmō", "ഇറങ്ങാമോ|iṟaṅṅāmō"] },
+        { "native": "അവന് വഴി ഒന്ന് പറഞ്ഞുകൊടുക്ക്.", "roman": "avanŭ vaḻi onnŭ paṟaññukoṭukkŭ.", "en": "Tell him the way, would you.", "focus": "പറഞ്ഞുകൊടുക്ക്", "wrong": ["പറഞ്ഞുതാ|paṟaññutā", "പറഞ്ഞുപോയി|paṟaññupōyi"] },
+        { "native": "അവൻ എവിടെയാണെന്ന് ഞാൻ ഒന്ന് വിളിച്ചുനോക്കാം.", "roman": "avan eviṭeyāṇennŭ ñān onnŭ viḷicchunōkkām.", "en": "I'll try calling to see where he is.", "focus": "വിളിച്ചുനോക്കാം", "wrong": ["വിളിച്ചുപോയി|viḷicchupōyi", "വിളിച്ചുതന്നു|viḷicchutannu"] },
+        { "native": "ജംഗ്ഷനിൽ ഇറക്കിയാൽ മതി, ഞാൻ നടന്നോളാം.", "roman": "jaṅgṣanil iṟakkiyāl mati, ñān naṭannōḷām.", "en": "Just drop me at the junction, I'll walk from there." }
+      ]
+    },
+    {
+      "title": "Directions from the back seat",
+      "tip": { "title": "Left, right, opposite", "body": "- **-ഓട്ട്** = towards: **ഇടത്തോട്ട്**, **വലത്തോട്ട്**, **മുന്നോട്ട്**, **പിന്നോട്ട്**.\n- Turn the vehicle = **തിരിക്കുക**; turn yourself = **തിരിയുക**.\n- Landmarks: …ന്റെ **എതിർവശത്ത്** 'opposite…', **സിഗ്നൽ കഴിഞ്ഞ്** 'after the signal', **അടുത്ത വളവിൽ** 'at the next bend'." },
+      "new": ["സിഗ്നൽ", "എതിർവശം", "വളവ്", "ഓടിക്കുക", "സ്പീഡ്", "സിഗ്നലിൽ നിന്ന് വലത്തോട്ട് തിരിക്കണം.", "പതുക്കെ ഓടിക്കൂ, ചേട്ടാ!"],
+      "sentences": [
+        { "native": "സിഗ്നലിൽ നിന്ന് വലത്തോട്ട് തിരിക്കണം, പിന്നെ നേരെ.", "roman": "signalil ninnŭ valattōṭṭŭ tirikkaṇam, pinne nēre.", "en": "Turn right at the signal, then straight on.", "focus": "വലത്തോട്ട്", "wrong": ["വലത്ത്|valattŭ", "വലത്തുനിന്ന്|valattuninnŭ"] },
+        { "native": "അടുത്ത വളവിൽ ഇടത്തോട്ട് തിരിക്കൂ.", "roman": "aṭutta vaḷavil iṭattōṭṭŭ tirikkū.", "en": "Turn left at the next bend.", "focus": "ഇടത്തോട്ട്", "wrong": ["ഇടത്ത്|iṭattŭ", "ഇടത്തുനിന്ന്|iṭattuninnŭ"] },
+        { "native": "പള്ളിയുടെ എതിർവശത്താണ് എന്റെ വീട്.", "roman": "paḷḷiyuṭe etirvashattāṇŭ ende vīṭŭ.", "en": "My house is opposite the church." },
+        { "native": "പതുക്കെ ഓടിക്കൂ, ചേട്ടാ! എനിക്ക് പേടിയാകുന്നു.", "roman": "patukke ōṭikkū, chēṭṭā! enikkŭ pēṭiyākunnu.", "en": "Slow down, please! I'm getting scared.", "focus": "ഓടിക്കൂ", "wrong": ["ഓടൂ|ōṭū", "ഓടിച്ചു|ōṭicchu"] },
+        { "native": "ഇത്ര സ്പീഡ് വേണ്ട, ഞങ്ങൾക്ക് തിരക്കില്ല.", "roman": "itra spīḍŭ vēṇḍa, ñaṅṅaḷkkŭ tirakkilla.", "en": "No need to go so fast, we're not in a hurry." },
+        { "native": "സിഗ്നൽ കഴിഞ്ഞ് ആദ്യത്തെ വളവിൽ.", "roman": "signal kaḻiññŭ ādyatte vaḷavil.", "en": "The first turning after the signal." },
+        { "native": "ചേട്ടാ, ഈ വഴിയല്ല, ഒന്ന് പിന്നോട്ട് എടുക്കാമോ?", "roman": "chēṭṭā, ī vaḻiyalla, onnŭ pinnōṭṭŭ eṭukkāmō?", "en": "It's not this way — could you back up a bit?", "focus": "പിന്നോട്ട്", "wrong": ["മുന്നോട്ട്|munnōṭṭŭ", "പിന്നിൽ|pinnil"] },
+        { "native": "ആ ഡ്രൈവർ ഭയങ്കര സ്പീഡിലാണ് ഓടിക്കുന്നത്.", "roman": "ā ḍraivar bhayaṅgara spīḍilāṇŭ ōṭikkunnatŭ.", "en": "That driver's going crazy fast." },
+        { "native": "ബാങ്കിന്റെ എതിർവശത്ത് നിർത്തിയാൽ മതി.", "roman": "bāṅkinde etirvashattŭ nirttiyāl mati.", "en": "Just stop opposite the bank.", "focus": "എതിർവശത്ത്", "wrong": ["എതിർവശം|etirvasham", "എതിർവശത്തേക്ക്|etirvashattēkkŭ"] },
+        { "native": "നേരെ പോയി രണ്ടാമത്തെ സിഗ്നലിൽ നിന്ന് ഇടത്തോട്ട്.", "roman": "nēre pōyi raṇḍāmatte signalil ninnŭ iṭattōṭṭŭ.", "en": "Go straight, then left at the second signal." }
+      ]
+    },
+    {
+      "title": "Using a ride app",
+      "tip": { "title": "Cabs and bike taxis", "body": "- The app shows the fare, so no haggling: **ആപ്പിൽ … കാണിക്കുന്നു** 'the app shows…'.\n- The driver will ring and ask **എവിടെയാ?** — answer with a landmark.\n- Compounds again: **ബുക്ക് ചെയ്തുതരാം** 'I'll book it for you', **ബുക്ക് ചെയ്തുനോക്കാം** 'I'll try booking'." },
+      "new": ["ക്യാബ്", "ആപ്പ്", "ബൈക്ക്", "ഞാൻ ഒരു ക്യാബ് ബുക്ക് ചെയ്യാം."],
+      "sentences": [
+        { "native": "ഞാൻ ഒരു ക്യാബ് ബുക്ക് ചെയ്യാം, ഓട്ടോ കിട്ടുന്നില്ല.", "roman": "ñān oru kyābŭ bukkŭ cheyyām, ōṭṭō kiṭṭunnilla.", "en": "I'll book a cab — there aren't any autos." },
+        { "native": "ആപ്പിൽ നൂറ്റിയിരുപത് രൂപ കാണിക്കുന്നു.", "roman": "āppil nūṯṯiyirupatŭ rūpa kāṇikkunnu.", "en": "The app is showing a hundred and twenty rupees." },
+        { "native": "ഡ്രൈവർ വിളിച്ചു, അഞ്ച് മിനിറ്റിൽ എത്തുമെന്ന് പറഞ്ഞു.", "roman": "ḍraivar viḷicchu, añjŭ miniṯṯil ettumennŭ paṟaññu.", "en": "The driver called — he said he'll be here in five minutes." },
+        { "native": "ചേട്ടാ, ഞാൻ മാളിന്റെ മുന്നിലുണ്ട്, നീല ഷർട്ട്.", "roman": "chēṭṭā, ñān māḷinde munniluṇḍŭ, nīla ṣarṭṭŭ.", "en": "I'm in front of the mall — blue shirt." },
+        { "native": "ബൈക്ക് ബുക്ക് ചെയ്താൽ വേഗം എത്താം.", "roman": "baikkŭ bukkŭ cheytāl vēgam ettām.", "en": "If we book a bike taxi we'll get there faster." },
+        { "native": "ഡ്രൈവർ ക്യാൻസൽ ചെയ്തുപോയി, വേറെ ബുക്ക് ചെയ്തുനോക്കാം.", "roman": "ḍraivar kyānsal cheytupōyi, vēṟe bukkŭ cheytunōkkām.", "en": "The driver cancelled — I'll try booking another.", "focus": "ചെയ്തുനോക്കാം", "wrong": ["ചെയ്തുപോയി|cheytupōyi", "ചെയ്തുതന്നു|cheytutannu"] },
+        { "native": "നിന്റെ ഫോണിൽ ആപ്പ് ഇല്ലെങ്കിൽ ഞാൻ ബുക്ക് ചെയ്തുതരാം.", "roman": "ninde fōṇil āppŭ illeṅgil ñān bukkŭ cheytutarām.", "en": "If you haven't got the app, I'll book it for you.", "focus": "ചെയ്തുതരാം", "wrong": ["ചെയ്തുപോകാം|cheytupōkām", "ചെയ്യാമോ|cheyyāmō"] },
+        { "native": "ക്യാബിൽ എസി ഉണ്ട്, ഓട്ടോയെക്കാൾ നല്ലതാണ്.", "roman": "kyābil esi uṇḍŭ, ōṭṭōyekkāḷ nallatāṇŭ.", "en": "The cab's got AC — it's better than an auto." },
+        { "native": "ഡ്രൈവർ എന്റെ ലൊക്കേഷൻ ചോദിച്ചു, ഞാൻ ഷെയർ ചെയ്തുകൊടുത്തു.", "roman": "ḍraivar ende lokkēṣan chōdicchu, ñān ṣeyar cheytukoṭuttu.", "en": "The driver asked for my location, so I shared it with him.", "focus": "ചെയ്തുകൊടുത്തു", "wrong": ["ചെയ്തുതന്നു|cheytutannu", "ചെയ്തുപോയി|cheytupōyi"] }
+      ]
+    },
+    {
+      "title": "Buses and the metro",
+      "tip": { "title": "On the bus", "body": "- Get on first, then buy your ticket from the **കണ്ടക്ടർ**: just say the place: **കലൂർ ഒരു ടിക്കറ്റ്**.\n- **ഈ ബസ് … വഴി പോകുമോ?** 'does this bus go via…?'\n- **ഇനി എത്ര സ്റ്റോപ്പ്?** 'how many more stops?'\n- Catch a bus = **ബസ് പിടിക്കുക**." },
+      "new": ["മെട്രോ", "വാട്ടർ മെട്രോ", "സ്റ്റോപ്പ്", "ബസ് സ്റ്റാൻഡ്", "കണ്ടക്ടർ", "സീറ്റ്", "പിടിക്കുക", "ഈ ബസ് വൈറ്റില വഴി പോകുമോ?", "ഇനി എത്ര സ്റ്റോപ്പ് ഉണ്ട്?"],
+      "sentences": [
+        { "native": "ചേട്ടാ, ഈ ബസ് വൈറ്റില വഴി പോകുമോ?", "roman": "chēṭṭā, ī basŭ vaiṯṯila vaḻi pōkumō?", "en": "Excuse me, does this bus go via Vyttila?" },
+        { "native": "ഇനി എത്ര സ്റ്റോപ്പ് ഉണ്ട്? ആലുവ എത്തിയാൽ പറയണേ.", "roman": "ini etra sṯṯōppŭ uṇḍŭ? āluva ettiyāl paṟayaṇē.", "en": "How many more stops? Please tell me when we get to Aluva." },
+        { "native": "ചേട്ടാ, കലൂർ ഒരു ടിക്കറ്റ്.", "roman": "chēṭṭā, kalūr oru ṭikkaṯṯŭ.", "en": "One ticket to Kaloor, please." },
+        { "native": "കണ്ടക്ടർ ബാക്കി ചില്ലറ തന്നില്ല.", "roman": "kaṇḍakṭar bākki chillaṟa tannilla.", "en": "The conductor didn't give me my change." },
+        { "native": "വാട്ടർ മെട്രോയിൽ വൈപ്പിനിലേക്ക് പോകാം, അടിപൊളിയാണ്.", "roman": "vāṭṭar meṭrōyil vaippinilēkkŭ pōkām, aṭipoḷiyāṇŭ.", "en": "Let's take the Water Metro to Vypin — it's great." },
+        { "native": "ബസ് സ്റ്റാൻഡിൽ നിന്ന് ഏഴരയ്ക്ക് ഒരു ബസ് ഉണ്ട്.", "roman": "basŭ sṯṯāṇḍil ninnŭ ēḻaraykkŭ oru basŭ uṇḍŭ.", "en": "There's a bus from the bus stand at half seven." },
+        { "native": "വേഗം വാ, ആ ബസ് പിടിക്കാം!", "roman": "vēgam vā, ā basŭ piṭikkām!", "en": "Hurry, let's catch that bus!" },
+        { "native": "ബസിൽ ഭയങ്കര തിരക്കാണ്, സീറ്റ് കിട്ടിയില്ല.", "roman": "basil bhayaṅgara tirakkāṇŭ, sīṯṯŭ kiṭṭiyilla.", "en": "The bus is packed — I didn't get a seat." },
+        { "native": "ഈ സീറ്റിൽ ആരെങ്കിലും ഉണ്ടോ?", "roman": "ī sīṯṯil āreṅgilum uṇḍō?", "en": "Is anyone sitting here?" },
+        { "native": "മെട്രോയിൽ പോയാൽ ബ്ലോക്ക് ഇല്ല.", "roman": "meṭrōyil pōyāl blōkkŭ illa.", "en": "If you take the metro, there's no traffic." }
+      ]
+    },
+    {
+      "title": "How long will it take?",
+      "tip": { "title": "It takes… എടുക്കും", "body": "- Time + **എടുക്കും** 'will take': അര മണിക്കൂർ എടുക്കും. Ask **എത്ര സമയം എടുക്കും?**\n- 'To get there' = **എത്താൻ**: എത്താൻ ഒരു മണിക്കൂർ എടുക്കും.\n- Money **becomes**: **എത്ര ആകും?** → നൂറ് രൂപ ആകും.\n- Past: **എടുത്തു**, **ആയി**.", "pattern": "(verb-ആൻ) + time + എടുക്കും", "grammar": 1 },
+      "new": ["റൂട്ട്", "ലാസ്റ്റ്", "ലാസ്റ്റ് മെട്രോ എപ്പോഴാ?", "എത്ര സമയം എടുക്കും?", "ഏകദേശം ഇരുപത് മിനിറ്റ് എടുക്കും."],
+      "sentences": [
+        { "native": "ഫോർട്ട് കൊച്ചിയിലേക്ക് എത്ര സമയം എടുക്കും?", "roman": "fōrṭṭŭ kocchiyilēkkŭ etra samayam eṭukkum?", "en": "How long does it take to Fort Kochi?", "focus": "എടുക്കും", "wrong": ["എടുത്തു|eṭuttu", "എടുക്കുക|eṭukkuka"] },
+        { "native": "ബ്ലോക്ക് ഇല്ലെങ്കിൽ ഏകദേശം ഇരുപത് മിനിറ്റ് എടുക്കും.", "roman": "blōkkŭ illeṅgil ēkadēsham irupatŭ miniṯṯŭ eṭukkum.", "en": "If there's no traffic, it'll take about twenty minutes.", "focus": "എടുക്കും", "wrong": ["ഉണ്ട്|uṇḍŭ", "എടുത്തു|eṭuttu"] },
+        { "native": "മെട്രോയിൽ ആലുവ എത്താൻ അര മണിക്കൂർ എടുക്കും.", "roman": "meṭrōyil āluva ettān ara maṇikkūr eṭukkum.", "en": "It takes half an hour to get to Aluva on the metro.", "focus": "എത്താൻ", "wrong": ["എത്തി|etti", "എത്തും|ettum"] },
+        { "native": "ഇന്നലെ ഓഫീസിൽ എത്താൻ ഒന്നര മണിക്കൂർ എടുത്തു!", "roman": "innale ōfīsil ettān onnara maṇikkūr eṭuttu!", "en": "Yesterday it took an hour and a half to get to the office!", "focus": "എടുത്തു", "wrong": ["എടുക്കും|eṭukkum", "എടുക്കാം|eṭukkām"] },
+        { "native": "ഓട്ടോയ്ക്ക് ഏകദേശം എത്ര ആകും?", "roman": "ōṭṭōykkŭ ēkadēsham etra ākum?", "en": "Roughly how much will an auto be?", "focus": "ആകും", "wrong": ["ആയി|āyi", "ആണ്|āṇŭ"] },
+        { "native": "ഈ റൂട്ടിൽ ബ്ലോക്ക് കൂടുതലാണ്, വേറെ റൂട്ട് എടുക്കാം.", "roman": "ī ṟūṭṭil blōkkŭ kūṭutalāṇŭ, vēṟe ṟūṭṭŭ eṭukkām.", "en": "There's more traffic on this route — let's take another one." },
+        { "native": "ബസിൽ പോയാൽ ഒരു മണിക്കൂർ എടുക്കും, ബൈക്കിൽ ഇരുപത് മിനിറ്റ് മതി.", "roman": "basil pōyāl oru maṇikkūr eṭukkum, baikkil irupatŭ miniṯṯŭ mati.", "en": "By bus it takes an hour; by bike twenty minutes is enough." },
+        { "native": "മീറ്ററിൽ എത്ര ആയി?", "roman": "mīṯṯaṟil etra āyi?", "en": "What's on the meter?", "focus": "ആയി", "wrong": ["ആകും|ākum", "എടുത്തു|eṭuttu"] },
+        { "native": "ലാസ്റ്റ് മെട്രോ എപ്പോഴാ? പത്ത് മണിക്കാണോ?", "roman": "lāsṯṯŭ meṭrō eppōḻā? pattŭ maṇikkāṇō?", "en": "When's the last metro? Ten?" },
+        { "native": "ലാസ്റ്റ് ബസ് പോയി, ഇനി ഓട്ടോ പിടിക്കണം.", "roman": "lāsṯṯŭ basŭ pōyi, ini ōṭṭō piṭikkaṇam.", "en": "The last bus has gone — we'll have to get an auto." },
+        { "native": "ഏത് റൂട്ടാണ് എളുപ്പം?", "roman": "ētŭ ṟūṭṭāṇŭ eḷuppam?", "en": "Which route is easiest?" },
+        { "native": "ഇവിടെ നിന്ന് നടന്നാൽ പത്ത് മിനിറ്റ് എടുക്കും.", "roman": "iviṭe ninnŭ naṭannāl pattŭ miniṯṯŭ eṭukkum.", "en": "It's ten minutes on foot from here." }
+      ]
+    }
+  ]
+}

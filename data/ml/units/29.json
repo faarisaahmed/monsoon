@@ -1,0 +1,217 @@
+{
+  "id": 29,
+  "title": "Opinions & discussions",
+  "goal": "Hold your own in a discussion: give your opinion, agree and disagree politely (or bluntly with friends), say \"it depends\" and \"probably\", and argue about what the coach should have done.",
+  "intro": "Malayalis love a good argument — in the tea shop, in the WhatsApp family group, in front of the TV during a match. This unit gives you the moves: asking **നിന്റെ അഭിപ്രായം എന്താ?**, agreeing (**ശരിയാ**, **ഞാൻ യോജിക്കുന്നു**), disagreeing without starting a fight (**ശരിയാണ്, പക്ഷേ…**, **എനിക്ക് അങ്ങനെ തോന്നുന്നില്ല**), and the topics people actually argue about: prices, politics, the traffic, the rain, and football.\n\nThe grammar is about **how sure you are**: **-ആയിരിക്കും / -ഉമായിരിക്കും** 'probably', **-ഇട്ടുണ്ടാകും** 'must have', **ചിലപ്പോൾ** 'might'; the natural way to say **'I don't think…'**; and **-അണമായിരുന്നു** 'should have' for every match post-mortem.",
+  "vocab": [
+    { "native": "സംശയം", "roman": "samshayam", "en": "doubt; question (to clear up)", "pos": "noun", "note": "എനിക്ക് ഒരു സംശയം 'I have a question'. സംശയമില്ല 'no doubt'." },
+    { "native": "യോജിക്കുക", "roman": "yōjikkuka", "en": "to agree (with -ഓട്); to fit, go together", "pos": "verb", "note": "past യോജിച്ചു. ഞാൻ നിന്നോട് യോജിക്കുന്നു 'I agree with you'. Friends just say ശരിയാ." },
+    { "native": "തുറന്നുപറയുക", "roman": "tuṟannupaṟayuka", "en": "to speak frankly, say openly", "pos": "verb", "note": "തുറന്നുപറഞ്ഞാൽ 'frankly, to be honest'." },
+    { "native": "തർക്കം", "roman": "tarkkam", "en": "argument, dispute, debate", "pos": "noun", "note": "തർക്കിക്കുക 'to argue'." },
+    { "native": "ന്യായം", "roman": "nyāyam", "en": "fairness; a fair point, logic; justice", "pos": "noun", "note": "അതിൽ ന്യായമുണ്ട് 'there's a point there'." },
+    { "native": "പോയിന്റ്", "roman": "pōyinṯŭ", "en": "point (in an argument)", "pos": "noun", "note": "നല്ല പോയിന്റ് 'good point'." },
+    { "native": "വാദിക്കുക", "roman": "vādikkuka", "en": "to argue (a case), make a point", "pos": "verb", "note": "past വാദിച്ചു. The argument itself is വാദം." },
+    { "native": "ആലോചിക്കുക", "roman": "ālōchikkuka", "en": "to think about, consider", "pos": "verb", "note": "past ആലോചിച്ചു. ആലോചിച്ചിട്ട് പറയാം 'I'll think about it and let you know'." },
+    { "native": "വശം", "roman": "vasham", "en": "side; aspect", "pos": "noun", "note": "മറ്റൊരു വശം 'another side (to it)'." },
+    { "native": "പക്ഷം", "roman": "pakṣam", "en": "side (in an argument, a match)", "pos": "noun", "note": "ആരുടെ പക്ഷത്താണ്? 'whose side are you on?'." },
+    { "native": "ഓവർ", "roman": "ōvar", "en": "over the top, too much (slang)", "pos": "adj", "note": "അതൊക്കെ ഓവറാ 'that's overdoing it', ഓവറാക്കല്ലേ 'don't overdo it'." },
+    { "native": "ഉറപ്പായും", "roman": "uṟappāyum", "en": "definitely, for sure", "pos": "adv", "note": "From ഉറപ്പ് 'certainty'. Also തീർച്ചയായും." },
+    { "native": "സാഹചര്യം", "roman": "sāhacharyam", "en": "situation, circumstances", "pos": "noun", "note": "ഇപ്പോഴത്തെ സാഹചര്യത്തിൽ 'in the current situation'." },
+    { "native": "അനുസരിച്ച്", "roman": "anusaricchŭ", "en": "according to; depending on", "pos": "postp", "note": "X അനുസരിച്ചിരിക്കും 'it depends on X'." },
+    { "native": "വിഷയം", "roman": "viṣayam", "en": "topic, subject, issue", "pos": "noun", "note": "Also a school subject." },
+    { "native": "രാഷ്ട്രീയം", "roman": "rāṣṭrīyam", "en": "politics", "pos": "noun", "note": "രാഷ്ട്രീയക്കാരൻ 'politician'." },
+    { "native": "തിരഞ്ഞെടുപ്പ്", "roman": "tiraññeṭuppŭ", "en": "election", "pos": "noun", "note": "From തിരഞ്ഞെടുക്കുക 'to choose'. Also ഇലക്ഷൻ." },
+    { "native": "ഹർത്താൽ", "roman": "hartāl", "en": "hartal (a called general strike when shops and transport shut)", "pos": "noun", "note": "A very Kerala word for a very Kerala event, though much rarer than it used to be." },
+    { "native": "വിലക്കയറ്റം", "roman": "vilakkayaṯṯam", "en": "rising prices, inflation", "pos": "noun", "note": "വില 'price' + കയറ്റം 'climb'." },
+    { "native": "വെള്ളപ്പൊക്കം", "roman": "veḷḷappokkam", "en": "flood", "pos": "noun", "note": "The 2018 floods are a shared memory for every Keralite." },
+    { "native": "ട്രാഫിക്", "roman": "ṭrāfikŭ", "en": "traffic", "pos": "noun", "note": "ട്രാഫിക്കിൽ പെട്ടു 'got stuck in traffic'." },
+    { "native": "കളി", "roman": "kaḷi", "en": "game, match; play; (slang) a trick", "pos": "noun", "note": "ഇന്നത്തെ കളി 'today's match'. From കളിക്കുക." },
+    { "native": "ലോകകപ്പ്", "roman": "lōkakappŭ", "en": "World Cup", "pos": "noun", "note": "For most Keralites this means the football World Cup." },
+    { "native": "സപ്പോർട്ട് ചെയ്യുക", "roman": "sappōrṭṭŭ cheyyuka", "en": "to support (a team, a person, an idea)", "pos": "verb", "note": "Takes the object form: ബ്ലാസ്റ്റേഴ്സിനെ സപ്പോർട്ട് ചെയ്യുന്നു." },
+    { "native": "കട്ടൗട്ട്", "roman": "kaṭṭauṭṭŭ", "en": "cut-out (giant poster of a star)", "pos": "noun", "note": "Fans put up huge cut-outs of film heroes and footballers." },
+    { "native": "ജയം", "roman": "jayam", "en": "win, victory", "pos": "noun", "note": "From ജയിക്കുക 'to win'." },
+    { "native": "തോൽവി", "roman": "tōlvi", "en": "defeat, loss", "pos": "noun", "note": "The verb is തോൽക്കുക (past തോറ്റു)." },
+    { "native": "കുറ്റം", "roman": "kuṯṯam", "en": "fault, blame; crime", "pos": "noun", "note": "കുറ്റം പറയുക 'to blame, find fault'. ആരുടെ കുറ്റമാ? 'whose fault is it?'." },
+    { "native": "ബെറ്റ്", "roman": "beṯṯŭ", "en": "bet", "pos": "noun", "note": "ബെറ്റ് വെക്കുക 'to bet'. Friends bet a treat or a few hundred rupees on matches." },
+    { "native": "കോച്ച്", "roman": "kōcchŭ", "en": "coach (of a team)", "pos": "noun" },
+    { "native": "സ്കോർ", "roman": "skōr", "en": "score", "pos": "noun", "note": "സ്കോർ എത്രയായി? 'what's the score?'." }
+  ],
+  "phrases": [
+    { "native": "നിന്റെ അഭിപ്രായം എന്താ?", "roman": "ninde abhiprāyam endā?", "en": "What do you think? (informal)", "note": "Polite: നിങ്ങളുടെ അഭിപ്രായം എന്താണ്?" },
+    { "native": "അത് ശരിയാ, ഞാനും അതാ പറഞ്ഞത്.", "roman": "atŭ shariyā, ñānum atā paṟaññatŭ.", "en": "That's right — that's what I said too." },
+    { "native": "സത്യം പറഞ്ഞാൽ, എനിക്ക് അത് ഇഷ്ടപ്പെട്ടില്ല.", "roman": "satyam paṟaññāl, enikkŭ atŭ iṣṭappeṭṭilla.", "en": "To be honest, I didn't like it." },
+    { "native": "എനിക്ക് അതിൽ സംശയമുണ്ട്.", "roman": "enikkŭ atil samshayamuṇḍŭ.", "en": "I have my doubts about that." },
+    { "native": "നീ പറയുന്നതിലും ന്യായമുണ്ട്.", "roman": "nī paṟayunnatilum nyāyamuṇḍŭ.", "en": "You've got a point too." },
+    { "native": "അതൊക്കെ ഓവറാ.", "roman": "atokke ōvaṟā.", "en": "That's way over the top. (slang)" },
+    { "native": "അത് സാഹചര്യം പോലെ ഇരിക്കും.", "roman": "atŭ sāhacharyam pōle irikkum.", "en": "It depends on the situation.", "note": "X പോലെ ഇരിക്കും 'it will be as X is' = 'it depends on X'." },
+    { "native": "അവർ ജയിക്കുമായിരിക്കും.", "roman": "avar jayikkumāyirikkum.", "en": "They'll probably win." },
+    { "native": "അവൻ മറന്നുപോയിട്ടുണ്ടാകും.", "roman": "avan maṟannupōyiṭṭuṇḍākum.", "en": "He must have forgotten." },
+    { "native": "ശരി, നമുക്ക് ഈ വിഷയം വിടാം.", "roman": "shari, namukkŭ ī viṣayam viṭām.", "en": "OK, let's drop the subject." },
+    { "native": "ഇന്നത്തെ കളി കണ്ടോ?", "roman": "innatte kaḷi kaṇḍō?", "en": "Did you watch today's match?" },
+    { "native": "നീ അർജന്റീനയാണോ ബ്രസീലാണോ?", "roman": "nī arjanṯīnayāṇō brasīlāṇō?", "en": "Are you Argentina or Brazil?", "note": "The Kerala football question: the state splits into two camps every World Cup." },
+    { "native": "അവൻ നേരത്തെ ഇറങ്ങണമായിരുന്നു.", "roman": "avan nēratte iṟaṅṅaṇamāyirunnu.", "en": "He should have gone in earlier." }
+  ],
+  "grammar": [
+    {
+      "title": "Probably, must have, might: how sure are you?",
+      "body": "Malayalam marks how certain you are in the verb. From sure to unsure:\n\n• **ഉറപ്പായും / തീർച്ചയായും** + the ordinary verb = definitely: അവർ ഉറപ്പായും ജയിക്കും.\n• **-ആയിരിക്കും** (for 'is') and **-ഉമായിരിക്കും** (for 'will') = **probably**: അവൻ വീട്ടിലായിരിക്കും 'he's probably at home', അവർ ജയിക്കുമായിരിക്കും 'they'll probably win', അവന് അറിയില്ലായിരിക്കും 'he probably doesn't know'. With a continuous: ഉറങ്ങുകയായിരിക്കും 'is probably sleeping'. (Unit 13 used this for the weather.) Fast speech: **-ആരിക്കും** — വീട്ടിലാരിക്കും.\n• **-ഇട്ടുണ്ടാകും** = **must have / will have** (a guess about the past): മറന്നുപോയിട്ടുണ്ടാകും 'he must have forgotten', എത്തിയിട്ടുണ്ടാകും 'they'll have arrived by now'.\n• **ചിലപ്പോൾ / ഒരുപക്ഷേ** + the future = **might, maybe**: ചിലപ്പോൾ മഴ പെയ്യും 'it might rain', ചിലപ്പോൾ ഞാൻ ലേറ്റ് ആകും. ചിലപ്പോൾ is the everyday 'maybe'; ഒരുപക്ഷേ is a little more careful.\n• **-ആൻ സാധ്യതയുണ്ട്** = 'there's a chance that': മഴ പെയ്യാൻ സാധ്യതയുണ്ട്.\n\n**It depends**: X **പോലെ ഇരിക്കും** or X **അനുസരിച്ചിരിക്കും**: അത് ആളെ പോലെ ഇരിക്കും 'it depends on the person'.\n\n**The trap**: **-ഇരിക്കും** (probably) and **-ഇരുന്നു** (past) look alike: പെയ്യുമായിരിക്കും 'it'll probably rain' vs പെയ്യുമായിരുന്നു 'it would have rained / used to rain'. Listen for the ending.",
+      "examples": [
+        { "native": "അവൻ ഇപ്പോൾ ഓഫീസിലായിരിക്കും.", "roman": "avan ippōḷ ōfīsilāyirikkum.", "en": "He's probably at the office now." },
+        { "native": "ഈ വർഷം ബ്ലാസ്റ്റേഴ്സ് കപ്പ് അടിക്കുമായിരിക്കും.", "roman": "ī varṣam blāsṯṯērsŭ kappŭ aṭikkumāyirikkum.", "en": "Maybe this year the Blasters will win the cup." },
+        { "native": "അവർ ഇതിനകം എത്തിയിട്ടുണ്ടാകും.", "roman": "avar itinakam ettiyiṭṭuṇḍākum.", "en": "They'll have arrived by now." },
+        { "native": "ചിലപ്പോൾ ഇന്ന് കളി നടക്കില്ല, മഴയാണ്.", "roman": "chilappōḷ innŭ kaḷi naṭakkilla, maḻayāṇŭ.", "en": "The match might not happen today — it's raining." },
+        { "native": "തിരഞ്ഞെടുപ്പിൽ ആര് ജയിക്കുമെന്ന് പറയാൻ പറ്റില്ല.", "roman": "tiraññeṭuppil ārŭ jayikkumennŭ paṟayān paṯṯilla.", "en": "There's no telling who'll win the election." }
+      ]
+    },
+    {
+      "title": "Agreeing, disagreeing, and \"I don't think…\"",
+      "body": "**I think** is clause + **എന്ന് തോന്നുന്നു** / **എന്ന് വിചാരിക്കുന്നു** (unit 14). The clause verb takes -എന്ന്: future വരും → **വരുമെന്ന്**, negative വരില്ല → **വരില്ലെന്ന്**, ആണ് → **ആണെന്ന്**, അല്ല → **അല്ലെന്ന്**.\n\n**I don't think…** — Malayalam usually negates the *clause*: അവൻ **വരില്ലെന്ന്** തോന്നുന്നു 'I don't think he'll come' (lit. 'I think he won't come'). Negating the thinking is also fine and sounds a little firmer: അവൻ **വരുമെന്ന്** എനിക്ക് **തോന്നുന്നില്ല**. The short answer is **എനിക്ക് അങ്ങനെ തോന്നുന്നില്ല** 'I don't think so'.\n\n**Agreeing**: ശരിയാ / അത് ശരിയാണ് · ഞാനും അതാ പറഞ്ഞത് · സംശയമില്ല · ഞാൻ നിന്നോട് **യോജിക്കുന്നു** (a bit formal; note **-ഓട്** 'with').\n\n**Disagreeing politely** — acknowledge first, then turn: **ശരിയാണ്, പക്ഷേ…** · **നീ പറയുന്നതിലും ന്യായമുണ്ട്, പക്ഷേ…** · **എനിക്ക് അതിൽ സംശയമുണ്ട്**. Openers for honesty: **സത്യം പറഞ്ഞാൽ**, **തുറന്നുപറഞ്ഞാൽ** 'to be honest, frankly'.\n\n**With friends** it gets blunt: ഏയ്, അത് ശരിയല്ല! · ചുമ്മാ പറയല്ലേ! 'don't talk rubbish!' · അതൊക്കെ ഓവറാ · നിനക്ക് തെറ്റി 'you've got it wrong'.\n\n**The trap**: a flat അല്ല! or തെറ്റാണ് to an older person sounds rude. Soften with ശരിയാണ്, പക്ഷേ… or എനിക്ക് തോന്നുന്നത്… 'the way I see it…'.",
+      "examples": [
+        { "native": "അവൻ ഇന്ന് വരില്ലെന്ന് തോന്നുന്നു.", "roman": "avan innŭ varillennŭ tōnnunnu.", "en": "I don't think he'll come today." },
+        { "native": "ഈ സിനിമ ഹിറ്റാകുമെന്ന് എനിക്ക് തോന്നുന്നില്ല.", "roman": "ī sinima hiṯṯākumennŭ enikkŭ tōnnunnilla.", "en": "I don't think this film will be a hit." },
+        { "native": "ശരിയാണ്, പക്ഷേ എല്ലാവർക്കും അത് പറ്റില്ലല്ലോ.", "roman": "shariyāṇŭ, pakṣē ellāvarkkum atŭ paṯṯillallō.", "en": "True, but not everyone can do that, can they." },
+        { "native": "അത് ആളെ പോലെ ഇരിക്കും.", "roman": "atŭ āḷe pōle irikkum.", "en": "It depends on the person." },
+        { "native": "തുറന്നുപറഞ്ഞാൽ, അവർ ചെയ്തത് ശരിയായില്ല.", "roman": "tuṟannupaṟaññāl, avar cheytatŭ shariyāyilla.", "en": "Frankly, what they did wasn't right." }
+      ]
+    },
+    {
+      "title": "\"Should have…\": -അണമായിരുന്നു and -അരുതായിരുന്നു",
+      "body": "To say what someone should or shouldn't have done — the heart of every match post-mortem — put the 'must' forms of unit 9 into the past:\n\n• **Should have** — **-അണമായിരുന്നു** (-അണം + ആയിരുന്നു), the everyday spoken form: അവൻ നേരത്തെ **ഇറങ്ങണമായിരുന്നു** 'he should have gone in earlier'. A slightly more careful form is **-ഏണ്ടതായിരുന്നു**: നേരത്തെ ബുക്ക് **ചെയ്യേണ്ടതായിരുന്നു** 'we should have booked earlier'.\n• **Shouldn't have** — **-അരുതായിരുന്നു** or **-ഏണ്ടായിരുന്നു**: അങ്ങനെ **പറയരുതായിരുന്നു** / **പറയേണ്ടായിരുന്നു** 'you shouldn't have said that'.\n• **Needn't have** — **-ഏണ്ടിയിരുന്നില്ല**: ഇത്ര ടെൻഷനടിക്കേണ്ടിയിരുന്നില്ല 'there was no need to stress so much'.\n\nUnit 36 uses the same forms for your own regrets and wishes; here they're for opinions about what others did.\n\n**The trap**: don't confuse 'should have' with 'had to' (unit 15). **-ഏണ്ടി വന്നു** = 'had to, and did': ഇറങ്ങേണ്ടി വന്നു 'I had to get off'. **-അണമായിരുന്നു** = 'should have, but didn't': ഇറങ്ങണമായിരുന്നു 'I should have got off'.",
+      "examples": [
+        { "native": "ക്യാപ്റ്റൻ ആദ്യം ബൗൾ ചെയ്യണമായിരുന്നു.", "roman": "kyāpṯṯan ādyam bauḷ cheyyaṇamāyirunnu.", "en": "The captain should have chosen to bowl first." },
+        { "native": "ആ പെനാൽറ്റി അവൻ തന്നെ എടുക്കണമായിരുന്നു.", "roman": "ā penālṯṯi avan tanne eṭukkaṇamāyirunnu.", "en": "He should have taken that penalty himself." },
+        { "native": "നമ്മൾ നേരത്തെ ഇറങ്ങേണ്ടതായിരുന്നു, ഇപ്പോൾ ട്രാഫിക്കിൽ പെട്ടു.", "roman": "nammaḷ nēratte iṟaṅṅēṇḍatāyirunnu, ippōḷ ṭrāfikkil peṭṭu.", "en": "We should have left earlier — now we're stuck in traffic." },
+        { "native": "നീ അവനോട് അങ്ങനെ പറയരുതായിരുന്നു.", "roman": "nī avanōṭŭ aṅṅane paṟayarutāyirunnu.", "en": "You shouldn't have said that to him." },
+        { "native": "ഇത്ര ടെൻഷനടിക്കേണ്ടിയിരുന്നില്ല, എല്ലാം ശരിയായി.", "roman": "itra ṭenṣanaṭikkēṇḍiyirunnilla, ellām shariyāyi.", "en": "No need to have stressed so much — it all worked out." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The morning after the match",
+    "setting": "Jithu, Sreerag and Anjana over tea at a tea shop near Kaloor stadium, Kochi, the morning after a Kerala Blasters defeat.",
+    "lines": [
+      { "speaker": "Jithu", "native": "ഇന്നലത്തെ കളി കണ്ടോ? എന്തൊരു തോൽവി!", "roman": "innalatte kaḷi kaṇḍō? endoru tōlvi!", "en": "Did you see last night's match? What a defeat!" },
+      { "speaker": "Sreerag", "native": "കണ്ടു. കോച്ച് ആ പുതിയ പയ്യനെ ആദ്യം മുതലേ ഇറക്കണമായിരുന്നു.", "roman": "kaṇḍu. kōcchŭ ā putiya payyane ādyam mutalē iṟakkaṇamāyirunnu.", "en": "I did. The coach should have played that new kid from the start." },
+      { "speaker": "Jithu", "native": "എനിക്ക് അങ്ങനെ തോന്നുന്നില്ല. അവന് ഇനിയും പരിചയം കുറവാണ്.", "roman": "enikkŭ aṅṅane tōnnunnilla. avanŭ iniyum parichayam kuṟavāṇŭ.", "en": "I don't think so. He still hasn't got enough experience." },
+      { "speaker": "Sreerag", "native": "പരിചയം കിട്ടണമെങ്കിൽ കളിക്കണ്ടേ?", "roman": "parichayam kiṭṭaṇameṅgil kaḷikkaṇḍē?", "en": "How's he supposed to get experience if he doesn't play?" },
+      { "speaker": "Anjana", "native": "നീ പറയുന്നതിലും ന്യായമുണ്ട്. പക്ഷേ സത്യം പറഞ്ഞാൽ, പ്രശ്നം ഡിഫൻസാണ്.", "roman": "nī paṟayunnatilum nyāyamuṇḍŭ. pakṣē satyam paṟaññāl, prashnam ḍifansāṇŭ.", "en": "You've got a point. But honestly, the problem is the defence." },
+      { "speaker": "Jithu", "native": "അത് ശരിയാ! മൂന്ന് ഗോളും വന്നത് ഒരേ മിസ്റ്റേക്കിൽ നിന്നാ.", "roman": "atŭ shariyā! mūnnŭ gōḷum vannatŭ orē misṯṯēkkil ninnā.", "en": "That's true! All three goals came from the same mistake." },
+      { "speaker": "Sreerag", "native": "എന്തായാലും, അടുത്ത കളിയിൽ അവർ ജയിക്കുമായിരിക്കും.", "roman": "endāyālum, aṭutta kaḷiyil avar jayikkumāyirikkum.", "en": "Anyway, they'll probably win the next one." },
+      { "speaker": "Anjana", "native": "നീ എല്ലാ വർഷവും ഇതുതന്നെ പറയും!", "roman": "nī ellā varṣavum itutanne paṟayum!", "en": "You say that every single year!" },
+      { "speaker": "Jithu", "native": "ബ്ലാസ്റ്റേഴ്സ് ആരാധകരുടെ വിധി അതാണ്.", "roman": "blāsṯṯērsŭ ārādhakaruṭe vidhi atāṇŭ.", "en": "That's the fate of a Blasters fan." },
+      { "speaker": "Sreerag", "native": "അത് വിട്. തിരഞ്ഞെടുപ്പിൽ ആര് ജയിക്കുമെന്നാ നിങ്ങൾക്ക് തോന്നുന്നത്?", "roman": "atŭ viṭŭ. tiraññeṭuppil ārŭ jayikkumennā niṅṅaḷkkŭ tōnnunnatŭ?", "en": "Forget that. Who do you reckon will win the election?" },
+      { "speaker": "Anjana", "native": "അയ്യോ, രാഷ്ട്രീയം വേണ്ട! അത് തുടങ്ങിയാൽ ഇന്ന് തർക്കം തീരില്ല.", "roman": "ayyō, rāṣṭrīyam vēṇḍa! atŭ tuṭaṅṅiyāl innŭ tarkkam tīrilla.", "en": "Oh no, not politics! Start on that and the argument won't end today." },
+      { "speaker": "Jithu", "native": "ശരിയാ. നമുക്ക് ഈ വിഷയം വിടാം. ഒരു ചായ കൂടി പറയട്ടെ?", "roman": "shariyā. namukkŭ ī viṣayam viṭām. oru chāya kūṭi paṟayaṭṭe?", "en": "True. Let's drop it. Shall I order another round of tea?" }
+    ]
+  },
+  "culture": "Kerala is one of India's most politically engaged states, and the **ചായക്കട** (tea shop), the reading room, the bus stop and the WhatsApp family group are its debating halls. Arguments among friends are loud and blunt — ചുമ്മാ പറയല്ലേ!, അതൊക്കെ ഓവറാ — but rarely personal. With elders, or with people you don't know well, soften every disagreement (ശരിയാണ്, പക്ഷേ…), and be careful with party politics and religion until you know where people stand; ശരി, നമുക്ക് ഈ വിഷയം വിടാം is the graceful exit.\n\nFootball is a passion out of all proportion to India's place in the world game. During a World Cup the state splits into **Argentina** and **Brazil** camps, giant **കട്ടൗട്ട്** of Messi and Neymar go up — once famously in the middle of a river in Kozhikode — and towns hold processions after wins. Locally, people follow the ISL club **Kerala Blasters**, whose home crowd at Kaloor is one of the loudest in Asia. Cricket matters too, especially when a Malayali like Sanju Samson is in the Indian team. Expect to be asked which side you're on — and have an opinion ready.",
+  "lessons": [
+    {
+      "title": "What do you think?",
+      "tip": { "title": "\"I don't think…\"", "body": "- 'I don't think he'll come' is usually 'I think he won't': അവൻ **വരില്ലെന്ന്** തോന്നുന്നു. Firmer: **വരുമെന്ന്** തോന്നുന്നില്ല.\n- 'I don't think so': **എനിക്ക് അങ്ങനെ തോന്നുന്നില്ല**.\n- Agree: **ശരിയാ** · ഞാൻ നിന്നോട് **യോജിക്കുന്നു**. Disagree softly: **ശരിയാണ്, പക്ഷേ…** · **സത്യം പറഞ്ഞാൽ…**", "pattern": "clause + -എന്ന് + തോന്നുന്നു / തോന്നുന്നില്ല", "grammar": 1 },
+      "new": [
+        "സംശയം",
+        "യോജിക്കുക",
+        "തുറന്നുപറയുക",
+        "ഹർത്താൽ",
+        "നിന്റെ അഭിപ്രായം എന്താ?",
+        "അത് ശരിയാ, ഞാനും അതാ പറഞ്ഞത്.",
+        "സത്യം പറഞ്ഞാൽ, എനിക്ക് അത് ഇഷ്ടപ്പെട്ടില്ല.",
+        "എനിക്ക് അതിൽ സംശയമുണ്ട്."
+      ],
+      "sentences": [
+        { "native": "ഈ പ്ലാൻ നടക്കുമെന്ന് എനിക്ക് തോന്നുന്നില്ല.", "roman": "ī plān naṭakkumennŭ enikkŭ tōnnunnilla.", "en": "I don't think this plan will work.", "focus": "നടക്കുമെന്ന്", "wrong": ["നടക്കും|naṭakkum", "നടന്നു|naṭannu"] },
+        { "native": "മഴ പെയ്യില്ലെന്ന് തോന്നുന്നു.", "roman": "maḻa peyyillennŭ tōnnunnu.", "en": "I don't think it'll rain.", "focus": "പെയ്യില്ലെന്ന്", "wrong": ["പെയ്യുമെന്ന്|peyyumennŭ", "പെയ്യില്ല|peyyilla"] },
+        { "native": "ഞാൻ നിന്നോട് യോജിക്കുന്നു.", "roman": "ñān ninnōṭŭ yōjikkunnu.", "en": "I agree with you.", "focus": "നിന്നോട്", "wrong": ["നിന്നെ|ninne", "നിനക്ക്|ninakkŭ"] },
+        { "native": "എനിക്ക് അവന്റെ കാര്യത്തിൽ കുറച്ച് സംശയമുണ്ട്.", "roman": "enikkŭ avande kāryattil kuṟacchŭ samshayamuṇḍŭ.", "en": "I've got a few doubts about him." },
+        { "native": "അവൻ പറഞ്ഞത് ശരിയാണെന്ന് തോന്നുന്നില്ല.", "roman": "avan paṟaññatŭ shariyāṇennŭ tōnnunnilla.", "en": "I don't think what he said is right.", "focus": "ശരിയാണെന്ന്", "wrong": ["ശരിയാണ്|shariyāṇŭ", "ശരി|shari"] },
+        { "native": "തുറന്നുപറഞ്ഞാൽ, ആ സിനിമ എനിക്ക് ഒട്ടും ഇഷ്ടപ്പെട്ടില്ല.", "roman": "tuṟannupaṟaññāl, ā sinima enikkŭ oṭṭum iṣṭappeṭṭilla.", "en": "Frankly, I didn't like that film at all." },
+        { "native": "സംശയമില്ല, അവൾ തന്നെയാണ് ക്ലാസിലെ ഏറ്റവും മിടുക്കി.", "roman": "samshayamilla, avaḷ tanneyāṇŭ klāsile ēṯṯavum miṭukki.", "en": "No doubt about it — she's the smartest in the class." },
+        { "native": "നാളെ കട തുറക്കില്ലെന്ന് തോന്നുന്നു, ഹർത്താലാണ്.", "roman": "nāḷe kaṭa tuṟakkillennŭ tōnnunnu, hartālāṇŭ.", "en": "I don't think the shops will open tomorrow — there's a hartal.", "focus": "തുറക്കില്ലെന്ന്", "wrong": ["തുറക്കുമെന്ന്|tuṟakkumennŭ", "തുറക്കില്ല|tuṟakkilla"] },
+        { "native": "നീ എന്ത് പറയുന്നു? എനിക്ക് അത് ശരിയാണെന്നാ തോന്നുന്നത്.", "roman": "nī endŭ paṟayunnu? enikkŭ atŭ shariyāṇennā tōnnunnatŭ.", "en": "What do you say? I think it's right.", "focus": "തോന്നുന്നത്", "wrong": ["തോന്നുന്നു|tōnnunnu", "തോന്നി|tōnni"] },
+        { "native": "അവൻ സമ്മതിക്കുമെന്ന് എനിക്ക് തോന്നുന്നില്ല.", "roman": "avan sammatikkumennŭ enikkŭ tōnnunnilla.", "en": "I don't think he'll agree.", "focus": "സമ്മതിക്കുമെന്ന്", "wrong": ["സമ്മതിക്കും|sammatikkum", "സമ്മതിച്ചു|sammaticchu"] }
+      ]
+    },
+    {
+      "title": "Arguing a point",
+      "new": ["തർക്കം", "ന്യായം", "പോയിന്റ്", "വാദിക്കുക", "ആലോചിക്കുക", "വശം", "പക്ഷം", "ഓവർ", "നീ പറയുന്നതിലും ന്യായമുണ്ട്.", "അതൊക്കെ ഓവറാ."],
+      "sentences": [
+        { "native": "ഇതിനെക്കുറിച്ച് ഞങ്ങൾ തമ്മിൽ വലിയ തർക്കമായി.", "roman": "itinekkuṟicchŭ ñaṅṅaḷ tammil valiya tarkkamāyi.", "en": "We got into a big argument about this." },
+        { "native": "അവന്റെ വാദത്തിൽ ഒരു ന്യായവുമില്ല.", "roman": "avande vādattil oru nyāyavumilla.", "en": "There's no logic to his argument at all." },
+        { "native": "നല്ല പോയിന്റ്! അത് ഞാൻ ആലോചിച്ചില്ല.", "roman": "nalla pōyinṯŭ! atŭ ñān ālōchicchilla.", "en": "Good point! I hadn't thought of that." },
+        { "native": "നീ ആരുടെ പക്ഷത്താണ്?", "roman": "nī āruṭe pakṣattāṇŭ?", "en": "Whose side are you on?" },
+        { "native": "ഞാൻ ആരുടെയും പക്ഷത്തല്ല.", "roman": "ñān āruṭeyum pakṣattalla.", "en": "I'm not on anyone's side." },
+        { "native": "വെറുതെ വാദിക്കല്ലേ, നിനക്ക് തെറ്റി.", "roman": "veṟute vādikkallē, ninakkŭ teṯṯi.", "en": "Stop arguing for the sake of it — you've got it wrong." },
+        { "native": "അവൻ എപ്പോഴും എല്ലാം ഓവറാക്കും.", "roman": "avan eppōḻum ellām ōvaṟākkum.", "en": "He always overdoes everything." },
+        { "native": "ഇത്രയും പൈസ കൊടുക്കുന്നത് കുറച്ച് ഓവറല്ലേ?", "roman": "itrayum paisa koṭukkunnatŭ kuṟacchŭ ōvaṟallē?", "en": "Isn't paying this much a bit over the top?" },
+        { "native": "ഞാൻ പറയുന്നത് ഒന്ന് കേൾക്ക്, എന്നിട്ട് വാദിക്ക്.", "roman": "ñān paṟayunnatŭ onnŭ kēḷkkŭ, enniṭṭŭ vādikkŭ.", "en": "Just listen to what I'm saying, then argue." },
+        { "native": "ശരിയാണ്, പക്ഷേ അതിന് മറ്റൊരു വശവുമുണ്ട്.", "roman": "shariyāṇŭ, pakṣē atinŭ maṯṯoru vashavumuṇḍŭ.", "en": "True, but there's another side to it." }
+      ]
+    },
+    {
+      "title": "Probably, maybe, it depends",
+      "tip": { "title": "Probably, must have, might", "body": "- Probably: **-ആയിരിക്കും** ('is') / **-ഉമായിരിക്കും** ('will'): ഉറങ്ങുകയായിരിക്കും; ജയിക്കുമായിരിക്കും.\n- Must have: **-ഇട്ടുണ്ടാകും**: മറന്നുപോയിട്ടുണ്ടാകും.\n- Might: **ചിലപ്പോൾ** + future.\n- It depends: X **പോലെ ഇരിക്കും** / X **അനുസരിച്ചിരിക്കും**.\n- Careful: -ഇരിക്കും (probably) ≠ -ഇരുന്നു (past).", "pattern": "verb-ഉമായിരിക്കും · verb-ഇട്ടുണ്ടാകും", "grammar": 0 },
+      "new": ["ഉറപ്പായും", "സാഹചര്യം", "അനുസരിച്ച്", "അത് സാഹചര്യം പോലെ ഇരിക്കും.", "അവർ ജയിക്കുമായിരിക്കും.", "അവൻ മറന്നുപോയിട്ടുണ്ടാകും."],
+      "sentences": [
+        { "native": "അവൻ ഇപ്പോൾ ഉറങ്ങുകയായിരിക്കും.", "roman": "avan ippōḷ uṟaṅṅukayāyirikkum.", "en": "He's probably asleep now.", "focus": "ഉറങ്ങുകയായിരിക്കും", "wrong": ["ഉറങ്ങുകയായിരുന്നു|uṟaṅṅukayāyirunnu", "ഉറങ്ങി|uṟaṅṅi"] },
+        { "native": "ഫോൺ എടുക്കുന്നില്ല, ചാർജ് തീർന്നിട്ടുണ്ടാകും.", "roman": "fōṇ eṭukkunnilla, chārjŭ tīrnniṭṭuṇḍākum.", "en": "He's not picking up — his battery must have died.", "focus": "തീർന്നിട്ടുണ്ടാകും", "wrong": ["തീർന്നു|tīrnnu", "തീരും|tīrum"] },
+        { "native": "ചിലപ്പോൾ ഞാൻ കുറച്ച് ലേറ്റ് ആകും.", "roman": "chilappōḷ ñān kuṟacchŭ lēṯṯŭ ākum.", "en": "I might be a bit late.", "focus": "ആകും", "wrong": ["ആയി|āyi", "ആകുന്നു|ākunnu"] },
+        { "native": "ഉറപ്പായും അവർ ഇന്ന് ജയിക്കും.", "roman": "uṟappāyum avar innŭ jayikkum.", "en": "They'll definitely win today." },
+        { "native": "അത് ഓരോരുത്തരുടെയും ഇഷ്ടം പോലെ ഇരിക്കും.", "roman": "atŭ ōrōruttaruṭeyum iṣṭam pōle irikkum.", "en": "That depends on each person's taste.", "focus": "ഇരിക്കും", "wrong": ["ഇരുന്നു|irunnu", "ഇരിക്കുന്നു|irikkunnu"] },
+        { "native": "ടിക്കറ്റിന്റെ വില ദിവസം അനുസരിച്ച് മാറും.", "roman": "ṭikkaṯṯinde vila divasam anusaricchŭ māṟum.", "en": "The ticket price changes depending on the day." },
+        { "native": "ഇപ്പോഴത്തെ സാഹചര്യത്തിൽ ഒന്നും പറയാൻ പറ്റില്ല.", "roman": "ippōḻatte sāhacharyattil onnum paṟayān paṯṯilla.", "en": "In the current situation, there's no telling." },
+        { "native": "അവൻ വഴി തെറ്റി എവിടെയോ പോയിട്ടുണ്ടാകും.", "roman": "avan vaḻi teṯṯi eviṭeyō pōyiṭṭuṇḍākum.", "en": "He must have got lost and ended up somewhere.", "focus": "പോയിട്ടുണ്ടാകും", "wrong": ["പോയി|pōyi", "പോകും|pōkum"] },
+        { "native": "നാളെ മഴ പെയ്യുമായിരിക്കും, കുട എടുത്തോ.", "roman": "nāḷe maḻa peyyumāyirikkum, kuṭa eṭuttō.", "en": "It'll probably rain tomorrow — take an umbrella.", "focus": "പെയ്യുമായിരിക്കും", "wrong": ["പെയ്യുമായിരുന്നു|peyyumāyirunnu", "പെയ്തു|peytu"] },
+        { "native": "അവന് ഇതിനെക്കുറിച്ച് അറിയില്ലായിരിക്കും.", "roman": "avanŭ itinekkuṟicchŭ aṟiyillāyirikkum.", "en": "He probably doesn't know about this.", "focus": "അറിയില്ലായിരിക്കും", "wrong": ["അറിയില്ലായിരുന്നു|aṟiyillāyirunnu", "അറിയില്ല|aṟiyilla"] }
+      ]
+    },
+    {
+      "title": "What everyone's talking about",
+      "new": ["വിഷയം", "രാഷ്ട്രീയം", "തിരഞ്ഞെടുപ്പ്", "വിലക്കയറ്റം", "വെള്ളപ്പൊക്കം", "ട്രാഫിക്", "ശരി, നമുക്ക് ഈ വിഷയം വിടാം."],
+      "sentences": [
+        { "native": "എല്ലാത്തിനും വില കയറുകയാണ്, ഈ വിലക്കയറ്റം എങ്ങോട്ടാ?", "roman": "ellāttinum vila kayaṟukayāṇŭ, ī vilakkayaṯṯam eṅṅōṭṭā?", "en": "Everything's getting dearer — where will these prices end?" },
+        { "native": "തിരഞ്ഞെടുപ്പ് അടുത്തു, എല്ലായിടത്തും പോസ്റ്ററുകളാണ്.", "roman": "tiraññeṭuppŭ aṭuttu, ellāyiṭattum pōsṯṯaṟukaḷāṇŭ.", "en": "The election's coming — there are posters everywhere." },
+        { "native": "ഞാൻ രാഷ്ട്രീയം സംസാരിക്കാറില്ല.", "roman": "ñān rāṣṭrīyam samsārikkāṟilla.", "en": "I don't usually talk politics." },
+        { "native": "ആ വലിയ വെള്ളപ്പൊക്കം ആരും മറക്കില്ല.", "roman": "ā valiya veḷḷappokkam ārum maṟakkilla.", "en": "Nobody will forget that big flood." },
+        { "native": "മഴ പെയ്താൽ റോഡിൽ മുഴുവൻ വെള്ളമാണ്, പിന്നെ ട്രാഫിക്കും.", "roman": "maḻa peytāl ṟōḍil muḻuvan veḷḷamāṇŭ, pinne ṭrāfikkum.", "en": "When it rains the roads flood — and then there's the traffic." },
+        { "native": "ഈ ട്രാഫിക് കാരണം ഞാൻ എന്നും ലേറ്റാണ്.", "roman": "ī ṭrāfikŭ kāraṇam ñān ennum lēṯṯāṇŭ.", "en": "I'm late every day because of this traffic." },
+        { "native": "ഇതാണ് ഇപ്പോൾ എല്ലാവരും സംസാരിക്കുന്ന വിഷയം.", "roman": "itāṇŭ ippōḷ ellāvarum samsārikkunna viṣayam.", "en": "This is what everyone's talking about right now." },
+        { "native": "രാഷ്ട്രീയം പറഞ്ഞ് വഴക്കിടണ്ട.", "roman": "rāṣṭrīyam paṟaññŭ vaḻakkiṭaṇḍa.", "en": "Let's not fight over politics." },
+        { "native": "അത് വേറെ വിഷയമാണ്.", "roman": "atŭ vēṟe viṣayamāṇŭ.", "en": "That's a different matter." }
+      ]
+    },
+    {
+      "title": "Football fever",
+      "new": ["കളി", "ലോകകപ്പ്", "സപ്പോർട്ട് ചെയ്യുക", "കട്ടൗട്ട്", "ഇന്നത്തെ കളി കണ്ടോ?", "നീ അർജന്റീനയാണോ ബ്രസീലാണോ?"],
+      "sentences": [
+        { "native": "ലോകകപ്പ് സമയത്ത് കേരളം മുഴുവൻ ഉറങ്ങാതെ കളി കാണും.", "roman": "lōkakappŭ samayattŭ kēraḷam muḻuvan uṟaṅṅāte kaḷi kāṇum.", "en": "During the World Cup, all of Kerala stays up watching the matches." },
+        { "native": "ഇന്ന് രാത്രി ഇന്ത്യയുടെ കളി ഉണ്ട്.", "roman": "innŭ rātri intyayuṭe kaḷi uṇḍŭ.", "en": "India are playing tonight." },
+        { "native": "നീ ആരെയാ സപ്പോർട്ട് ചെയ്യുന്നത്?", "roman": "nī āreyā sappōrṭṭŭ cheyyunnatŭ?", "en": "Who do you support?" },
+        { "native": "ഞാൻ ചെറുപ്പം മുതൽ ബ്ലാസ്റ്റേഴ്സിനെ സപ്പോർട്ട് ചെയ്യുന്നു.", "roman": "ñān cheṟuppam mutal blāsṯṯērsine sappōrṭṭŭ cheyyunnu.", "en": "I've supported the Blasters since I was a kid." },
+        { "native": "പുഴയുടെ നടുക്ക് മെസ്സിയുടെ ഒരു വലിയ കട്ടൗട്ട് വെച്ചിട്ടുണ്ട്!", "roman": "puḻayuṭe naṭukkŭ messiyuṭe oru valiya kaṭṭauṭṭŭ vecchiṭṭuṇḍŭ!", "en": "They've put up a giant Messi cut-out in the middle of the river!" },
+        { "native": "കളി എത്ര മണിക്കാ?", "roman": "kaḷi etra maṇikkā?", "en": "What time's the match?" },
+        { "native": "നമുക്ക് ഒരുമിച്ച് ഇരുന്ന് കളി കാണാം.", "roman": "namukkŭ orumicchŭ irunnŭ kaḷi kāṇām.", "en": "Let's watch the match together." },
+        { "native": "എനിക്ക് കളി കാണാൻ വലിയ ഇഷ്ടമില്ല, ബോറാണ്.", "roman": "enikkŭ kaḷi kāṇān valiya iṣṭamilla, bōṟāṇŭ.", "en": "I'm not big on watching sport — it's boring." },
+        { "native": "ഞങ്ങളുടെ വീട്ടിൽ അച്ഛൻ ബ്രസീലും ഞാൻ അർജന്റീനയുമാണ്.", "roman": "ñaṅṅaḷuṭe vīṭṭil acchan brasīlum ñān arjanṯīnayumāṇŭ.", "en": "At home, Dad's Brazil and I'm Argentina." },
+        { "native": "ആരെ സപ്പോർട്ട് ചെയ്താലും കട്ടൗട്ട് വെക്കണം, അതാണ് മലയാളി!", "roman": "āre sappōrṭṭŭ cheytālum kaṭṭauṭṭŭ vekkaṇam, atāṇŭ malayāḷi!", "en": "Whoever you support, you have to put up a cut-out — that's Malayalis for you!" }
+      ]
+    },
+    {
+      "title": "They should have…",
+      "tip": { "title": "Should have: -അണമായിരുന്നു", "body": "- 'Should have': **-അണമായിരുന്നു** — നേരത്തെ **ഇറങ്ങണമായിരുന്നു**; careful form **-ഏണ്ടതായിരുന്നു**.\n- 'Shouldn't have': **-അരുതായിരുന്നു** / **-ഏണ്ടായിരുന്നു** — അങ്ങനെ **പറയരുതായിരുന്നു**.\n- Not 'had to': **-ഏണ്ടി വന്നു** = had to (and did).", "pattern": "verb-അണമായിരുന്നു · verb-അരുതായിരുന്നു", "grammar": 2 },
+      "new": ["ജയം", "തോൽവി", "കുറ്റം", "ബെറ്റ്", "കോച്ച്", "സ്കോർ", "അവൻ നേരത്തെ ഇറങ്ങണമായിരുന്നു."],
+      "sentences": [
+        { "native": "ഇന്നലെ വലിയ തോൽവിയായിരുന്നു, ആദ്യം ബാറ്റ് ചെയ്യണമായിരുന്നു.", "roman": "innale valiya tōlviyāyirunnu, ādyam bāṯṯŭ cheyyaṇamāyirunnu.", "en": "Yesterday was a big defeat — they should have batted first.", "focus": "ചെയ്യണമായിരുന്നു", "wrong": ["ചെയ്തു|cheytu", "ചെയ്യണം|cheyyaṇam"] },
+        { "native": "കോച്ച് ആ പുതിയ ആളെ കളിപ്പിക്കരുതായിരുന്നു.", "roman": "kōcchŭ ā putiya āḷe kaḷippikkarutāyirunnu.", "en": "The coach shouldn't have played the new guy.", "focus": "കളിപ്പിക്കരുതായിരുന്നു", "wrong": ["കളിപ്പിക്കരുത്|kaḷippikkarutŭ", "കളിപ്പിച്ചു|kaḷippicchu"] },
+        { "native": "ആ ക്യാച്ച് അവൻ പിടിക്കണമായിരുന്നു!", "roman": "ā kyācchŭ avan piṭikkaṇamāyirunnu!", "en": "He should have taken that catch!", "focus": "പിടിക്കണമായിരുന്നു", "wrong": ["പിടിച്ചു|piṭicchu", "പിടിക്കും|piṭikkum"] },
+        { "native": "തോൽവിക്ക് കോച്ചിനെ മാത്രം കുറ്റം പറയണ്ട.", "roman": "tōlvikkŭ kōcchine mātram kuṯṯam paṟayaṇḍa.", "en": "Don't just blame the coach for the defeat." },
+        { "native": "ഞാൻ ഇന്നലെ ആ കളി കാണണമായിരുന്നു, നല്ല കളിയായിരുന്നു എന്ന് കേട്ടു.", "roman": "ñān innale ā kaḷi kāṇaṇamāyirunnu, nalla kaḷiyāyirunnu ennŭ kēṭṭu.", "en": "I should have watched that match yesterday — I hear it was a great game.", "focus": "കാണണമായിരുന്നു", "wrong": ["കണ്ടു|kaṇḍu", "കാണണം|kāṇaṇam"] },
+        { "native": "നീ എല്ലാവരുടെയും മുന്നിൽ അവനെ കളിയാക്കരുതായിരുന്നു.", "roman": "nī ellāvaruṭeyum munnil avane kaḷiyākkarutāyirunnu.", "en": "You shouldn't have made fun of him in front of everyone.", "focus": "കളിയാക്കരുതായിരുന്നു", "wrong": ["കളിയാക്കരുത്|kaḷiyākkarutŭ", "കളിയാക്കി|kaḷiyākki"] },
+        { "native": "സ്കോർ എത്രയായി?", "roman": "skōr etrayāyi?", "en": "What's the score?" },
+        { "native": "ബെറ്റ് വെക്കേണ്ടായിരുന്നു, ഇപ്പോൾ അഞ്ഞൂറ് രൂപ പോയി.", "roman": "beṯṯŭ vekkēṇḍāyirunnu, ippōḷ aññūṟŭ rūpa pōyi.", "en": "I shouldn't have bet — now I'm five hundred down.", "focus": "വെക്കേണ്ടായിരുന്നു", "wrong": ["വെച്ചു|vecchu", "വെക്കണം|vekkaṇam"] },
+        { "native": "ടിക്കറ്റ് നേരത്തെ ബുക്ക് ചെയ്യേണ്ടതായിരുന്നു, ഇപ്പോൾ എല്ലാം തീർന്നു.", "roman": "ṭikkaṯṯŭ nēratte bukkŭ cheyyēṇḍatāyirunnu, ippōḷ ellām tīrnnu.", "en": "Should have booked the tickets earlier — they're all gone now.", "focus": "ചെയ്യേണ്ടതായിരുന്നു", "wrong": ["ചെയ്തു|cheytu", "ചെയ്യേണ്ടി|cheyyēṇḍi"] },
+        { "native": "ഇത് നമ്മുടെ മൂന്നാമത്തെ ജയമാണ്!", "roman": "itŭ nammuṭe mūnnāmatte jayamāṇŭ!", "en": "That's our third win!" }
+      ]
+    }
+  ]
+}

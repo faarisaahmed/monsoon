@@ -1,0 +1,212 @@
+{
+  "id": 32,
+  "title": "Health in depth",
+  "goal": "Describe symptoms precisely and say how long you've had them, mention allergies and conditions, understand a doctor's and pharmacist's instructions, and find your way around a Kerala hospital.",
+  "intro": "In unit 9 you learnt to say *I have a fever* and *my head hurts*. Now you'll go to the doctor properly: **what** exactly is wrong (dizziness, nausea, an itch, a twisted ankle), **since when** (മൂന്ന് ദിവസമായി 'for three days', ഇന്നലെ മുതൽ 'since yesterday'), what you're **allergic** to, and what the doctor tells you to do — *twice a day after food, on an empty stomach, finish the whole course*.\n\nYou'll also meet the Kerala hospital routine — the **OP ticket**, the monsoon fevers everyone worries about, and the home remedies your Malayali friends will swear by.",
+  "vocab": [
+    { "native": "ലക്ഷണം", "roman": "lakṣaṇam", "en": "symptom; sign", "pos": "noun", "note": "Plural ലക്ഷണങ്ങൾ." },
+    { "native": "തൊണ്ട", "roman": "toṇḍa", "en": "throat", "pos": "noun", "note": "തൊണ്ടവേദന 'sore throat'." },
+    { "native": "ചുമയ്ക്കുക", "roman": "chumaykkuka", "en": "to cough", "pos": "verb", "note": "Past: ചുമച്ചു. Noun: ചുമ (unit 9)." },
+    { "native": "തുമ്മുക", "roman": "tummuka", "en": "to sneeze", "pos": "verb", "note": "Past: തുമ്മി." },
+    { "native": "ഓക്കാനം", "roman": "ōkkānam", "en": "nausea, feeling sick", "pos": "noun", "note": "എനിക്ക് ഓക്കാനമുണ്ട് 'I feel sick'." },
+    { "native": "തലകറക്കം", "roman": "talakaṟakkam", "en": "dizziness", "pos": "noun", "note": "Verb: തല കറങ്ങുന്നു 'I feel dizzy' (lit. the head spins)." },
+    { "native": "ഡെങ്കിപ്പനി", "roman": "deṅgippani", "en": "dengue fever", "pos": "noun", "note": "Often just ഡെങ്കി. A real risk in the monsoon." },
+    { "native": "ശ്വാസം", "roman": "shvāsam", "en": "breath", "pos": "noun", "note": "ശ്വാസം കിട്ടുന്നില്ല 'I can't breathe' (lit. breath isn't coming to me)." },
+    { "native": "ശ്വാസംമുട്ടൽ", "roman": "shvāsammuṭṭal", "en": "breathlessness; wheezing, asthma (colloquial)", "pos": "noun" },
+    { "native": "വയറിളക്കം", "roman": "vayaṟiḷakkam", "en": "diarrhoea, loose motions", "pos": "noun" },
+    { "native": "ചൊറിച്ചിൽ", "roman": "choṟicchil", "en": "itch, itching; rash", "pos": "noun", "note": "Verb: ചൊറിയുക 'to itch'." },
+    { "native": "കുറയുക", "roman": "kuṟayuka", "en": "to go down, decrease, get better (intransitive)", "pos": "verb", "note": "Past: കുറഞ്ഞു. Don't confuse with കുറയ്ക്കുക 'to reduce (something)' (unit 12): പനി കുറഞ്ഞു 'the fever came down'." },
+    { "native": "കൃത്യമായി", "roman": "krutyamāyi", "en": "regularly, properly; exactly", "pos": "adv", "note": "മരുന്ന് കൃത്യമായി കഴിക്കണം 'take the medicine regularly / as prescribed'." },
+    { "native": "വെറുംവയറ്റിൽ", "roman": "veṟumvayaṯṯil", "en": "on an empty stomach", "pos": "adv", "note": "Lit. 'in an empty stomach'." },
+    { "native": "സിറപ്പ്", "roman": "sirappŭ", "en": "(medicine) syrup", "pos": "noun", "note": "ചുമയ്ക്കുള്ള സിറപ്പ് 'cough syrup'." },
+    { "native": "മുഴുവൻ", "roman": "muḻuvan", "en": "all of, the whole; completely", "pos": "adj", "note": "രാത്രി മുഴുവൻ 'all night', മുഴുവൻ കഴിക്കണം 'finish it all'." },
+    { "native": "ആവി", "roman": "āvi", "en": "steam", "pos": "noun", "note": "ആവി പിടിക്കുക 'to do steam inhalation' — the Kerala cure for every cold." },
+    { "native": "അലർജി", "roman": "alarji", "en": "allergy", "pos": "noun", "note": "എനിക്ക് X അലർജിയാണ് 'I'm allergic to X'." },
+    { "native": "ഷുഗർ", "roman": "ṣugar", "en": "diabetes (colloquial); blood sugar", "pos": "noun", "note": "അച്ഛന് ഷുഗറുണ്ട് 'Dad is diabetic'. Formal: പ്രമേഹം." },
+    { "native": "പ്രഷർ", "roman": "praṣar", "en": "high blood pressure (colloquial); blood pressure", "pos": "noun", "note": "Formal: രക്തസമ്മർദ്ദം." },
+    { "native": "ഉളുക്ക്", "roman": "uḷukkŭ", "en": "sprain", "pos": "noun", "note": "Verb: ഉളുക്കുക — കാൽ ഉളുക്കി 'I sprained my ankle'." },
+    { "native": "ഒടിയുക", "roman": "oṭiyuka", "en": "to break, fracture (of a bone, a branch)", "pos": "verb", "note": "Past: ഒടിഞ്ഞു. Intransitive like പൊട്ടുക: കൈ ഒടിഞ്ഞു '(my) arm broke'." },
+    { "native": "മുട്ട്", "roman": "muṭṭŭ", "en": "knee", "pos": "noun", "note": "മുട്ടുവേദന 'knee pain'. Not to be confused with മുട്ട 'egg'." },
+    { "native": "നീര്", "roman": "nīrŭ", "en": "swelling", "pos": "noun", "note": "കാലിൽ നീരുണ്ട് 'my foot is swollen'." },
+    { "native": "ഒപി", "roman": "ōpi", "en": "OP, outpatient department", "pos": "noun", "note": "ഒപി ടിക്കറ്റ് — the slip you take at the counter in Kerala hospitals before seeing a doctor." },
+    { "native": "അപ്പോയിന്റ്മെന്റ്", "roman": "appōyinṯmenṯŭ", "en": "appointment", "pos": "noun" },
+    { "native": "ടെസ്റ്റ്", "roman": "ṭesṯṯŭ", "en": "(medical) test", "pos": "noun", "note": "ടെസ്റ്റ് എഴുതുക 'to order a test' (lit. write); ടെസ്റ്റ് ചെയ്യുക 'to get tested'." },
+    { "native": "പരിശോധിക്കുക", "roman": "parishōdhikkuka", "en": "to examine, check", "pos": "verb", "note": "Past: പരിശോധിച്ചു." },
+    { "native": "ഇഞ്ചക്ഷൻ", "roman": "iñjakṣan", "en": "injection", "pos": "noun" },
+    { "native": "ചികിത്സ", "roman": "chikitsa", "en": "treatment", "pos": "noun", "note": "ചികിത്സ ചെയ്യുക / എടുക്കുക 'to have treatment'." },
+    { "native": "ആയുർവേദം", "roman": "āyurvēdam", "en": "Ayurveda (traditional Indian medicine)", "pos": "noun", "note": "As an adjective: ആയുർവേദ ചികിത്സ." }
+  ],
+  "phrases": [
+    { "native": "തൊണ്ടവേദനയും ചുമയും ഉണ്ട്.", "roman": "toṇḍavēdanayum chumayum uṇḍŭ.", "en": "I've got a sore throat and a cough." },
+    { "native": "വേദന എവിടെയാണ്?", "roman": "vēdana eviṭeyāṇŭ?", "en": "Where does it hurt?" },
+    { "native": "നടക്കുമ്പോൾ തല കറങ്ങുന്നു.", "roman": "naṭakkumbōḷ tala kaṟaṅṅunnu.", "en": "I get dizzy when I walk." },
+    { "native": "മൂന്ന് ദിവസമായി പനിക്കുന്നു.", "roman": "mūnnŭ divasamāyi panikkunnu.", "en": "I've had a fever for three days.", "note": "പനിക്കുക 'to be feverish' is the everyday verb." },
+    { "native": "ഇന്നലെ രാത്രി മുതൽ ഛർദ്ദിയുണ്ട്.", "roman": "innale rātri mutal chhardiyuṇḍŭ.", "en": "I've been vomiting since last night." },
+    { "native": "ഇതിന് മുമ്പ് ഇങ്ങനെ വന്നിട്ടുണ്ടോ?", "roman": "itinŭ mumbŭ iṅṅane vanniṭṭuṇḍō?", "en": "Has this happened before?" },
+    { "native": "ഇപ്പോൾ കുറച്ച് കുറവുണ്ട്.", "roman": "ippōḷ kuṟacchŭ kuṟavuṇḍŭ.", "en": "It's a bit better now.", "note": "Lit. 'now there's a little reduction' — the standard answer to 'how are you feeling?'" },
+    { "native": "രാവിലെയും രാത്രിയും ഭക്ഷണത്തിന് ശേഷം.", "roman": "rāvileyum rātriyum bhakṣaṇattinŭ shēṣam.", "en": "Morning and night, after food." },
+    { "native": "ഇത് അഞ്ച് ദിവസത്തേക്കുള്ള മരുന്നാണ്.", "roman": "itŭ añjŭ divasattēkkuḷḷa marunnāṇŭ.", "en": "This is five days' worth of medicine." },
+    { "native": "മരുന്ന് മുഴുവൻ കഴിക്കണം, നിർത്തരുത്.", "roman": "marunnŭ muḻuvan kaḻikkaṇam, nirttarutŭ.", "en": "Finish the whole course; don't stop." },
+    { "native": "ഒന്ന് ആവി പിടിച്ചാൽ മതി.", "roman": "onnŭ āvi piṭicchāl mati.", "en": "Just do some steam inhalation, that'll do." },
+    { "native": "എനിക്ക് പെൻസിലിൻ അലർജിയാണ്.", "roman": "enikkŭ pensilin alarjiyāṇŭ.", "en": "I'm allergic to penicillin." },
+    { "native": "വേറെ എന്തെങ്കിലും മരുന്ന് കഴിക്കുന്നുണ്ടോ?", "roman": "vēṟe endeṅgilum marunnŭ kaḻikkunnuṇḍō?", "en": "Are you taking any other medicine?" },
+    { "native": "ഡോക്ടറെ കാണാൻ ഒരു അപ്പോയിന്റ്മെന്റ് വേണം.", "roman": "ḍōkṭaṟe kāṇān oru appōyinṯmenṯŭ vēṇam.", "en": "I need an appointment to see the doctor." },
+    { "native": "ഒപി ടിക്കറ്റ് എവിടെയാണ് എടുക്കുന്നത്?", "roman": "ōpi ṭikkaṯṯŭ eviṭeyāṇŭ eṭukkunnatŭ?", "en": "Where do I get an OP ticket?" }
+  ],
+  "grammar": [
+    {
+      "title": "\"I've been … for\": duration with ആയി, മുതൽ and -ിട്ട്",
+      "body": "Malayalam has no special tense for *have been …ing*. It uses the **plain present** (or ഉണ്ട് / ആണ്) together with a time expression ending in **ആയി** 'it has become':\n\n**[time]-ആയി + present**: മൂന്ന് ദിവസ**മായി** ചുമയ്ക്കുന്നു 'I've been coughing for three days' (lit. it has become three days, I cough). With a noun: രണ്ട് ആഴ്ച**യായി** തലവേദനയുണ്ട് 'I've had headaches for two weeks'.\n\n**Since a point in time — മുതൽ**: ഇന്നലെ **മുതൽ**, തിങ്കളാഴ്ച **മുതൽ**, രാവിലെ **മുതൽ**. After a verb, use the -അത് noun: ഇവിടെ വന്ന**ത് മുതൽ** 'ever since I came here'.\n\n**It's been X since…**: past + **-ിട്ട്** + X-**ആയി**: കഴിച്ചിട്ട് രണ്ട് മണിക്കൂ**റായി** 'it's been two hours since I ate'; പനി തുടങ്ങിയിട്ട് മൂന്ന് ദിവസമായി 'the fever started three days ago'.\n\n**Haven't … for X**: X-ആയി + **-ിട്ടില്ല**: രണ്ട് ദിവസമായി ഒന്നും കഴിച്ചിട്ടില്ല 'I haven't eaten anything for two days'.\n\n**Asking**: **എത്ര ദിവസമായി?** 'how many days has it been?', **എത്ര നാളായി?** 'how long now?' (നാൾ 'day, while'), **എപ്പോൾ മുതൽ?** / **എന്ന് മുതൽ?** 'since when?'.\n\n**The trap**: English 'for' is not -ക്ക് here. A period that is still running takes **ആയി**: മൂന്ന് ദിവസ**മായി**, not മൂന്ന് ദിവസത്തിന്. A period in the **future** (a prescription, a booking) takes **-ത്തേക്ക്**: അഞ്ച് ദിവസ**ത്തേക്ക്** 'for five days'.",
+      "examples": [
+        { "native": "ഒരാഴ്ചയായി എനിക്ക് നല്ല ചുമയുണ്ട്.", "roman": "orāḻchayāyi enikkŭ nalla chumayuṇḍŭ.", "en": "I've had a bad cough for a week." },
+        { "native": "ഇന്നലെ മുതൽ അവന് പനിയാണ്.", "roman": "innale mutal avanŭ paniyāṇŭ.", "en": "He's had a fever since yesterday." },
+        { "native": "രണ്ട് ദിവസമായി ഞാൻ ശരിക്ക് ഉറങ്ങിയിട്ടില്ല.", "roman": "raṇḍŭ divasamāyi ñān sharikkŭ uṟaṅṅiyiṭṭilla.", "en": "I haven't slept properly for two days." },
+        { "native": "മരുന്ന് കഴിച്ചിട്ട് ഒരു മണിക്കൂറായി.", "roman": "marunnŭ kaḻicchiṭṭŭ oru maṇikkūṟāyi.", "en": "It's been an hour since I took the medicine." },
+        { "native": "കുട്ടിക്ക് എപ്പോൾ മുതലാണ് ഈ ചൊറിച്ചിൽ?", "roman": "kuṭṭikkŭ eppōḷ mutalāṇŭ ī choṟicchil?", "en": "Since when has the child had this rash?" }
+      ]
+    },
+    {
+      "title": "Instructions: how often, when, how much, how long",
+      "body": "Doctors and pharmacists give instructions with the forms from unit 9 (**-അണം** 'must', **-അരുത്** 'must not', **-ഏണ്ട** 'no need') plus a handful of fixed chunks. Learn them as chunks:\n\n• **How often**: ദിവസം **രണ്ട് നേരം** 'twice a day', **മൂന്ന് നേരം**, **രാവിലെയും രാത്രിയും** 'morning and night', **ആറ് മണിക്കൂർ കൂടുമ്പോൾ** 'every six hours' (lit. when six hours add up), **ഒന്നിടവിട്ട ദിവസം** 'every other day'.\n• **When**: ഭക്ഷണത്തിന് **മുമ്പ്** / **ശേഷം** 'before / after food', **വെറുംവയറ്റിൽ** 'on an empty stomach', **കിടക്കുന്നതിന് മുമ്പ്** 'before bed'.\n• **How much**: **ഒരു ഗുളിക**, **പകുതി ഗുളിക** 'half a tablet', **ഒരു സ്പൂൺ** സിറപ്പ്.\n• **For how long**: **-ത്തേക്ക്**: അഞ്ച് ദിവസ**ത്തേക്ക്**; **മുഴുവൻ** കഴിക്കണം 'finish it all'.\n• **'Just do X'**: if-form + **മതി** 'is enough' — the doctor's gentle order: ആവി **പിടിച്ചാൽ മതി** 'just do steam inhalation', വിശ്രമിച്ചാൽ മതി.\n• **Without**: negative participle **-ആതെ**: വെള്ളം **കുടിക്കാതെ** 'without drinking water', **മറക്കാതെ** 'without fail'.\n• **If it doesn't get better**: **കുറഞ്ഞില്ലെങ്കിൽ** / **മാറിയില്ലെങ്കിൽ** വീണ്ടും വരണം 'if it doesn't improve, come back'. 'Even if': **കുറഞ്ഞാലും** നിർത്തരുത് 'don't stop even if it gets better'.\n\nOn labels and leaflets the plain **-ുക** form is used, as in notices (unit 31): ദിവസം രണ്ട് നേരം **കഴിക്കുക**; കുട്ടികൾക്ക് എത്താത്ത സ്ഥലത്ത് **സൂക്ഷിക്കുക** 'keep out of reach of children'.",
+      "examples": [
+        { "native": "ഈ ഗുളിക ദിവസം രണ്ട് നേരം ഭക്ഷണത്തിന് ശേഷം കഴിക്കണം.", "roman": "ī guḷika divasam raṇḍŭ nēram bhakṣaṇattinŭ shēṣam kaḻikkaṇam.", "en": "Take this tablet twice a day after food." },
+        { "native": "സിറപ്പ് രാത്രി കിടക്കുന്നതിന് മുമ്പ് ഒരു സ്പൂൺ കഴിച്ചാൽ മതി.", "roman": "sirappŭ rātri kiṭakkunnatinŭ mumbŭ oru spūṇ kaḻicchāl mati.", "en": "Just take one spoon of the syrup at night before bed." },
+        { "native": "ഇത് വെറുംവയറ്റിൽ കഴിക്കരുത്.", "roman": "itŭ veṟumvayaṯṯil kaḻikkarutŭ.", "en": "Don't take this on an empty stomach." },
+        { "native": "ആറ് മണിക്കൂർ കൂടുമ്പോൾ ഓരോ ഗുളിക കഴിക്കാം.", "roman": "āṟŭ maṇikkūr kūṭumbōḷ ōrō guḷika kaḻikkām.", "en": "You can take one tablet every six hours." },
+        { "native": "മൂന്ന് ദിവസം കഴിഞ്ഞിട്ടും പനി കുറഞ്ഞില്ലെങ്കിൽ വീണ്ടും വരണം.", "roman": "mūnnŭ divasam kaḻiññiṭṭum pani kuṟaññilleṅgil vīṇḍum varaṇam.", "en": "If the fever hasn't come down after three days, come back." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Monsoon fever",
+    "setting": "A clinic in Kozhikode during the monsoon. Fathima sees Dr Rajesh.",
+    "lines": [
+      { "speaker": "Dr Rajesh", "native": "വരൂ, ഇരിക്കൂ. എന്ത് പറ്റി?", "roman": "varū, irikkū. endŭ paṯṯi?", "en": "Come in, sit down. What's the trouble?" },
+      { "speaker": "Fathima", "native": "ഡോക്ടറേ, നാല് ദിവസമായി പനിയും ശരീരവേദനയും ഉണ്ട്.", "roman": "ḍōkṭaṟē, nālŭ divasamāyi paniyum sharīravēdanayum uṇḍŭ.", "en": "Doctor, I've had a fever and body aches for four days." },
+      { "speaker": "Dr Rajesh", "native": "ചുമയോ തൊണ്ടവേദനയോ ഉണ്ടോ?", "roman": "chumayō toṇḍavēdanayō uṇḍō?", "en": "Any cough or sore throat?" },
+      { "speaker": "Fathima", "native": "ചുമ ഇല്ല. പക്ഷേ ഇന്നലെ മുതൽ ഭയങ്കര തലവേദനയും കണ്ണിന് പിന്നിൽ വേദനയും ഉണ്ട്.", "roman": "chuma illa. pakṣē innale mutal bhayaṅgara talavēdanayum kaṇṇinŭ pinnil vēdanayum uṇḍŭ.", "en": "No cough. But since yesterday I've had a terrible headache and pain behind my eyes." },
+      { "speaker": "Dr Rajesh", "native": "ഉം… ഛർദ്ദിയോ വയറിളക്കമോ?", "roman": "um… chhardiyō vayaṟiḷakkamō?", "en": "Hmm… any vomiting or diarrhoea?" },
+      { "speaker": "Fathima", "native": "ഇന്ന് രാവിലെ ഒരു തവണ ഛർദ്ദിച്ചു.", "roman": "innŭ rāvile oru tavaṇa chhardicchu.", "en": "I was sick once this morning." },
+      { "speaker": "Dr Rajesh", "native": "ഇപ്പോൾ മഴക്കാലമാണ്, ഡെങ്കിപ്പനി ഒരുപാട് ഉണ്ട്. ഒരു ബ്ലഡ് ടെസ്റ്റ് ചെയ്യാം.", "roman": "ippōḷ maḻakkālamāṇŭ, deṅgippani orupāṭŭ uṇḍŭ. oru blaḍ ṭesṯṯŭ cheyyām.", "en": "It's the monsoon — there's a lot of dengue about. Let's do a blood test." },
+      { "speaker": "Fathima", "native": "അയ്യോ, ഡെങ്കി ആണോ?", "roman": "ayyō, deṅgi āṇō?", "en": "Oh no, is it dengue?" },
+      { "speaker": "Dr Rajesh", "native": "പേടിക്കേണ്ട, റിപ്പോർട്ട് വന്നതിന് ശേഷം പറയാം. എന്തെങ്കിലും അലർജി ഉണ്ടോ?", "roman": "pēṭikkēṇḍa, ṟippōrṭṭŭ vannatinŭ shēṣam paṟayām. endeṅgilum alarji uṇḍō?", "en": "Don't panic, I'll tell you once the report comes. Any allergies?" },
+      { "speaker": "Fathima", "native": "ഇല്ല. ഞാൻ പാരസെറ്റമോൾ കഴിക്കുന്നുണ്ട്, അത് മതിയോ?", "roman": "illa. ñān pāraseṯṯamōḷ kaḻikkunnuṇḍŭ, atŭ matiyō?", "en": "No. I've been taking paracetamol — is that enough?" },
+      { "speaker": "Dr Rajesh", "native": "ഇപ്പോൾ അത് മതി, ആറ് മണിക്കൂർ കൂടുമ്പോൾ ഒന്ന്. വേറെ ഒരു ഗുളികയും സ്വന്തമായി കഴിക്കരുത്.", "roman": "ippōḷ atŭ mati, āṟŭ maṇikkūr kūṭumbōḷ onnŭ. vēṟe oru guḷikayum svantamāyi kaḻikkarutŭ.", "en": "That's fine for now — one every six hours. Don't take any other pills on your own." },
+      { "speaker": "Dr Rajesh", "native": "ഒരുപാട് വെള്ളം കുടിക്കണം, നന്നായി വിശ്രമിക്കണം. കഞ്ഞിവെള്ളം നല്ലതാണ്.", "roman": "orupāṭŭ veḷḷam kuṭikkaṇam, nannāyi vishramikkaṇam. kaññiveḷḷam nallatāṇŭ.", "en": "Drink lots of water and rest well. Kanji water is good." },
+      { "speaker": "Fathima", "native": "ശരി ഡോക്ടറേ. ടെസ്റ്റ് എവിടെയാണ് ചെയ്യേണ്ടത്?", "roman": "shari ḍōkṭaṟē. ṭesṯṯŭ eviṭeyāṇŭ cheyyēṇḍatŭ?", "en": "OK, doctor. Where do I get the test done?" },
+      { "speaker": "Dr Rajesh", "native": "താഴെ ലാബിൽ. റിപ്പോർട്ടുമായി ഉച്ചയ്ക്ക് വരൂ.", "roman": "tāḻe lābil. ṟippōrṭṭumāyi ucchaykkŭ varū.", "en": "At the lab downstairs. Come back with the report at noon." }
+    ]
+  },
+  "culture": "Kerala is proud of its healthcare, and Malayali nurses work all over the world, from the Gulf to the UK. In government hospitals you first take an **ഒപി ടിക്കറ്റ്** for a small fee and wait for your number; private hospitals and clinics take appointments. The **monsoon** (June–September) brings a wave of fevers — viral fever, **ഡെങ്കിപ്പനി** and **എലിപ്പനി** (leptospirosis, 'rat fever') — so a fever in the rains is taken seriously and a blood test is routine.\n\nAt home, everyone has a remedy: **ആവി പിടിക്കൽ** (steam inhalation under a towel), **ചുക്കുകാപ്പി** (dry-ginger coffee) for a cold, and **കഞ്ഞി** (rice gruel) for anyone who's ill. **Ayurveda** is mainstream rather than 'alternative', and the rainy month of **കർക്കിടകം** (July–August) is the traditional season for Ayurvedic treatment. Health is not a private topic: relatives will cheerfully ask about your ഷുഗർ and പ്രഷർ, and aunties will diagnose you before the doctor does.",
+  "lessons": [
+    {
+      "title": "Describing symptoms",
+      "tip": { "title": "Saying exactly what's wrong", "body": "- Symptom noun + **ഉണ്ട്**, feeler in the dative: എനിക്ക് **ഓക്കാനമുണ്ട്** 'I feel sick'.\n- Body part + verb: തൊണ്ട **വേദനിക്കുന്നു** 'my throat hurts', തല **കറങ്ങുന്നു** 'I'm dizzy'.\n- 'X and Y': **-ഉം … -ഉം**: പനി**യും** തലവേദന**യും** ഉണ്ട്.\n- Actions: **ചുമയ്ക്കുക** 'cough', **തുമ്മുക** 'sneeze'." },
+      "new": ["ലക്ഷണം", "തൊണ്ട", "ചുമയ്ക്കുക", "തുമ്മുക", "ഓക്കാനം", "തലകറക്കം", "ഡെങ്കിപ്പനി", "തൊണ്ടവേദനയും ചുമയും ഉണ്ട്.", "വേദന എവിടെയാണ്?", "നടക്കുമ്പോൾ തല കറങ്ങുന്നു."],
+      "sentences": [
+        { "native": "എനിക്ക് ഭയങ്കര ഓക്കാനമുണ്ട്.", "roman": "enikkŭ bhayaṅgara ōkkānamuṇḍŭ.", "en": "I feel really sick.", "focus": "എനിക്ക്", "wrong": ["ഞാൻ|ñān", "എന്നെ|enne"] },
+        { "native": "എന്റെ തൊണ്ട വേദനിക്കുന്നു.", "roman": "ende toṇḍa vēdanikkunnu.", "en": "My throat hurts.", "focus": "വേദനിക്കുന്നു", "wrong": ["വേദന|vēdana", "വേദനിപ്പിക്കുന്നു|vēdanippikkunnu"] },
+        { "native": "ഇന്നലെ രാത്രി ഞാൻ ഒരുപാട് ചുമച്ചു.", "roman": "innale rātri ñān orupāṭŭ chumacchu.", "en": "I coughed a lot last night.", "focus": "ചുമച്ചു", "wrong": ["ചുമ|chuma", "ചുമയ്ക്കുക|chumaykkuka"] },
+        { "native": "എസി ഇട്ടാൽ ഞാൻ തുമ്മും.", "roman": "esi iṭṭāl ñān tummum.", "en": "If the AC's on, I start sneezing.", "focus": "തുമ്മും", "wrong": ["തുമ്മി|tummi", "തുമ്മുക|tummuka"] },
+        { "native": "പെട്ടെന്ന് എനിക്ക് തലകറക്കം വന്നു.", "roman": "peṭṭennŭ enikkŭ talakaṟakkam vannu.", "en": "Suddenly I felt dizzy.", "focus": "വന്നു", "wrong": ["ചെയ്തു|cheytu", "വരുക|varuka"] },
+        { "native": "എന്റെ തല കറങ്ങുന്നു, ഒന്ന് ഇരിക്കട്ടെ.", "roman": "ende tala kaṟaṅṅunnu, onnŭ irikkaṭṭe.", "en": "My head's spinning — let me sit down.", "focus": "കറങ്ങുന്നു", "wrong": ["കറക്കം|kaṟakkam", "കറങ്ങുക|kaṟaṅṅuka"] },
+        { "native": "പനിയും തലവേദനയും ഉണ്ട്, വേറെ ലക്ഷണങ്ങൾ ഇല്ല.", "roman": "paniyum talavēdanayum uṇḍŭ, vēṟe lakṣaṇaṅṅaḷ illa.", "en": "I have a fever and a headache, no other symptoms.", "focus": "പനിയും", "wrong": ["പനി|pani", "പനിയോ|paniyō"] },
+        { "native": "ഇത് ഡെങ്കിപ്പനിയുടെ ലക്ഷണമാണോ?", "roman": "itŭ deṅgippaniyuṭe lakṣaṇamāṇō?", "en": "Is this a sign of dengue?" },
+        { "native": "വയറ്റിൽ എവിടെയാണ് വേദന?", "roman": "vayaṯṯil eviṭeyāṇŭ vēdana?", "en": "Where in your stomach does it hurt?" },
+        { "native": "ഭക്ഷണം കഴിക്കുമ്പോൾ തൊണ്ട വേദനിക്കും.", "roman": "bhakṣaṇam kaḻikkumbōḷ toṇḍa vēdanikkum.", "en": "My throat hurts when I eat." },
+        { "native": "നടക്കുമ്പോൾ കാലിന് വേദനയുണ്ട്.", "roman": "naṭakkumbōḷ kālinŭ vēdanayuṇḍŭ.", "en": "My leg hurts when I walk.", "focus": "കാലിന്", "wrong": ["കാൽ|kāl", "കാലിനെ|kāline"] }
+      ]
+    },
+    {
+      "title": "Since when?",
+      "tip": { "title": "For and since", "body": "- 'Have been … for X': X + **ആയി** + present: മൂന്ന് ദിവസ**മായി** ചുമയ്ക്കുന്നു.\n- Since: **മുതൽ**: ഇന്നലെ **മുതൽ**; ever since (verb): വന്ന**ത് മുതൽ**.\n- 'It's been X since': past + **-ിട്ട്** … **ആയി**: തുടങ്ങിയിട്ട് മൂന്ന് ദിവസമായി.\n- Trap: not ദിവസത്തിന് — a running period takes **ആയി**.", "pattern": "X-ആയി + present · X മുതൽ · past-ിട്ട് X-ആയി", "grammar": 0 },
+      "new": ["ശ്വാസം", "ശ്വാസംമുട്ടൽ", "വയറിളക്കം", "ചൊറിച്ചിൽ", "കുറയുക", "മൂന്ന് ദിവസമായി പനിക്കുന്നു.", "ഇന്നലെ രാത്രി മുതൽ ഛർദ്ദിയുണ്ട്.", "ഇതിന് മുമ്പ് ഇങ്ങനെ വന്നിട്ടുണ്ടോ?", "ഇപ്പോൾ കുറച്ച് കുറവുണ്ട്."],
+      "sentences": [
+        { "native": "രണ്ട് ദിവസമായി എനിക്ക് വയറിളക്കമുണ്ട്.", "roman": "raṇḍŭ divasamāyi enikkŭ vayaṟiḷakkamuṇḍŭ.", "en": "I've had diarrhoea for two days.", "focus": "ദിവസമായി", "wrong": ["ദിവസത്തിന്|divasattinŭ", "ദിവസം|divasam"] },
+        { "native": "ഒരാഴ്ചയായി രാത്രി ചുമയ്ക്കുന്നു.", "roman": "orāḻchayāyi rātri chumaykkunnu.", "en": "I've been coughing at night for a week.", "focus": "ഒരാഴ്ചയായി", "wrong": ["ഒരാഴ്ചയ്ക്ക്|orāḻchaykkŭ", "ഒരാഴ്ച|orāḻcha"] },
+        { "native": "ഇന്നലെ മുതൽ ചൊറിച്ചിൽ ഉണ്ട്.", "roman": "innale mutal choṟicchil uṇḍŭ.", "en": "I've had an itch since yesterday.", "focus": "മുതൽ", "wrong": ["വരെ|vare", "ആയി|āyi"] },
+        { "native": "ഈ ചൊറിച്ചിൽ എപ്പോൾ മുതലാണ്?", "roman": "ī choṟicchil eppōḷ mutalāṇŭ?", "en": "Since when have you had this itch?", "focus": "മുതലാണ്", "wrong": ["വരെയാണ്|vareyāṇŭ", "ആയി|āyi"] },
+        { "native": "പനി തുടങ്ങിയിട്ട് മൂന്ന് ദിവസമായി.", "roman": "pani tuṭaṅṅiyiṭṭŭ mūnnŭ divasamāyi.", "en": "It's been three days since the fever started.", "focus": "തുടങ്ങിയിട്ട്", "wrong": ["തുടങ്ങി|tuṭaṅṅi", "തുടങ്ങും|tuṭaṅṅum"] },
+        { "native": "എത്ര നാളായി ഈ ചുമ തുടങ്ങിയിട്ട്?", "roman": "etra nāḷāyi ī chuma tuṭaṅṅiyiṭṭŭ?", "en": "How long have you had this cough?", "focus": "നാളായി", "wrong": ["നാളിന്|nāḷinŭ", "നാൾ|nāḷ"] },
+        { "native": "മൂന്ന് ദിവസമായി അവൻ ഒന്നും കഴിച്ചിട്ടില്ല.", "roman": "mūnnŭ divasamāyi avan onnum kaḻicchiṭṭilla.", "en": "He hasn't eaten anything for three days.", "focus": "കഴിച്ചിട്ടില്ല", "wrong": ["കഴിച്ചു|kaḻicchu", "കഴിക്കും|kaḻikkum"] },
+        { "native": "ഇവിടെ വന്നത് മുതൽ എനിക്ക് ജലദോഷമാണ്.", "roman": "iviṭe vannatŭ mutal enikkŭ jaladōṣamāṇŭ.", "en": "I've had a cold ever since I came here.", "focus": "വന്നത്", "wrong": ["വന്നു|vannu", "വരും|varum"] },
+        { "native": "കുറച്ച് നടന്നാൽ ശ്വാസംമുട്ടൽ വരും.", "roman": "kuṟacchŭ naṭannāl shvāsammuṭṭal varum.", "en": "If I walk a little, I get breathless." },
+        { "native": "എനിക്ക് ശ്വാസം കിട്ടുന്നില്ല!", "roman": "enikkŭ shvāsam kiṭṭunnilla!", "en": "I can't breathe!" },
+        { "native": "പനി കുറഞ്ഞോ?", "roman": "pani kuṟaññō?", "en": "Has the fever come down?", "focus": "കുറഞ്ഞോ", "wrong": ["കുറച്ചോ|kuṟacchō", "കുറയുക|kuṟayuka"] },
+        { "native": "ഇപ്പോൾ വേദന കുറഞ്ഞു.", "roman": "ippōḷ vēdana kuṟaññu.", "en": "The pain's gone down now.", "focus": "കുറഞ്ഞു", "wrong": ["കുറച്ചു|kuṟacchu", "കുറവ്|kuṟavŭ"] }
+      ]
+    },
+    {
+      "title": "Doing what the doctor says",
+      "tip": { "title": "Doctor's instructions", "body": "- How often: ദിവസം **രണ്ട് നേരം**; when: ഭക്ഷണത്തിന് **ശേഷം**, **വെറുംവയറ്റിൽ**; how long: അഞ്ച് **ദിവസത്തേക്ക്**.\n- 'Just do X': **-ിയാൽ മതി**: ആവി **പിടിച്ചാൽ മതി**.\n- Without: **-ആതെ**: വെള്ളം **കുടിക്കാതെ**.\n- If it doesn't get better: **കുറഞ്ഞില്ലെങ്കിൽ** വീണ്ടും വരണം.", "pattern": "ദിവസം X നേരം · -ിയാൽ മതി · -ആതെ", "grammar": 1 },
+      "new": ["കൃത്യമായി", "വെറുംവയറ്റിൽ", "സിറപ്പ്", "മുഴുവൻ", "ആവി", "രാവിലെയും രാത്രിയും ഭക്ഷണത്തിന് ശേഷം.", "ഇത് അഞ്ച് ദിവസത്തേക്കുള്ള മരുന്നാണ്.", "മരുന്ന് മുഴുവൻ കഴിക്കണം, നിർത്തരുത്.", "ഒന്ന് ആവി പിടിച്ചാൽ മതി."],
+      "sentences": [
+        { "native": "ഈ സിറപ്പ് അഞ്ച് ദിവസത്തേക്ക് കഴിക്കണം.", "roman": "ī sirappŭ añjŭ divasattēkkŭ kaḻikkaṇam.", "en": "Take this syrup for five days.", "focus": "ദിവസത്തേക്ക്", "wrong": ["ദിവസമായി|divasamāyi", "ദിവസത്തിൽ|divasattil"] },
+        { "native": "ഈ ഗുളിക വെറുംവയറ്റിൽ കഴിക്കണം.", "roman": "ī guḷika veṟumvayaṯṯil kaḻikkaṇam.", "en": "Take this tablet on an empty stomach." },
+        { "native": "കുട്ടിക്ക് സിറപ്പ് ദിവസം മൂന്ന് നേരം കൊടുക്കണം.", "roman": "kuṭṭikkŭ sirappŭ divasam mūnnŭ nēram koṭukkaṇam.", "en": "Give the child the syrup three times a day.", "focus": "കൊടുക്കണം", "wrong": ["തരണം|taraṇam", "കൊടുത്തു|koṭuttu"] },
+        { "native": "മരുന്ന് കൃത്യമായി കഴിക്കണം, മറക്കരുത്.", "roman": "marunnŭ krutyamāyi kaḻikkaṇam, maṟakkarutŭ.", "en": "Take the medicine regularly — don't forget.", "focus": "മറക്കരുത്", "wrong": ["മറക്കണം|maṟakkaṇam", "മറന്നു|maṟannu"] },
+        { "native": "ഗുളിക ഒന്നും വേണ്ട, ആവി പിടിച്ചാൽ മതി.", "roman": "guḷika onnum vēṇḍa, āvi piṭicchāl mati.", "en": "No tablets needed — just do steam inhalation.", "focus": "പിടിച്ചാൽ", "wrong": ["പിടിച്ചു|piṭicchu", "പിടിക്കും|piṭikkum"] },
+        { "native": "ചൂടുവെള്ളം കുടിച്ചാൽ മതി.", "roman": "chūṭuveḷḷam kuṭicchāl mati.", "en": "Just drink hot water, that's all.", "focus": "കുടിച്ചാൽ", "wrong": ["കുടിച്ചു|kuṭicchu", "കുടിക്കും|kuṭikkum"] },
+        { "native": "വെള്ളം കുടിക്കാതെ ഗുളിക കഴിക്കരുത്.", "roman": "veḷḷam kuṭikkāte guḷika kaḻikkarutŭ.", "en": "Don't take the tablet without water.", "focus": "കുടിക്കാതെ", "wrong": ["കുടിച്ച്|kuṭicchŭ", "കുടിക്കരുത്|kuṭikkarutŭ"] },
+        { "native": "മരുന്ന് മുഴുവൻ കഴിച്ചോ?", "roman": "marunnŭ muḻuvan kaḻicchō?", "en": "Did you finish all the medicine?" },
+        { "native": "പനി കുറഞ്ഞാലും മരുന്ന് നിർത്തരുത്.", "roman": "pani kuṟaññālum marunnŭ nirttarutŭ.", "en": "Even if the fever goes down, don't stop the medicine.", "focus": "കുറഞ്ഞാലും", "wrong": ["കുറഞ്ഞു|kuṟaññu", "കുറയും|kuṟayum"] },
+        { "native": "തണുത്തത് ഒന്നും കഴിക്കേണ്ട.", "roman": "taṇuttatŭ onnum kaḻikkēṇḍa.", "en": "Don't have anything cold.", "focus": "കഴിക്കേണ്ട", "wrong": ["കഴിക്കണം|kaḻikkaṇam", "കഴിച്ചു|kaḻicchu"] },
+        { "native": "മൂന്ന് ദിവസത്തിനുള്ളിൽ കുറഞ്ഞില്ലെങ്കിൽ വീണ്ടും വരണം.", "roman": "mūnnŭ divasattinuḷḷil kuṟaññilleṅgil vīṇḍum varaṇam.", "en": "If it doesn't get better within three days, come back.", "focus": "കുറഞ്ഞില്ലെങ്കിൽ", "wrong": ["കുറഞ്ഞാൽ|kuṟaññāl", "കുറഞ്ഞില്ല|kuṟaññilla"] }
+      ]
+    },
+    {
+      "title": "Allergies, conditions and injuries",
+      "tip": { "title": "Conditions and injuries", "body": "- Kerala says **ഷുഗർ** for diabetes and **പ്രഷർ** for high blood pressure: അച്ഛന് **ഷുഗറുണ്ട്**.\n- Allergic to X: എനിക്ക് X **അലർജിയാണ്**.\n- Bones break by themselves: കൈ **ഒടിഞ്ഞു** (like പൊട്ടി); a sprain: കാൽ **ഉളുക്കി**.\n- Where it's swollen takes **-ഇൽ**: **മുട്ടിൽ** നീരുണ്ട്." },
+      "new": [
+        "അലർജി",
+        "ഷുഗർ",
+        "പ്രഷർ",
+        "ഉളുക്ക്",
+        "ഒടിയുക",
+        "മുട്ട്",
+        "നീര്",
+        "എനിക്ക് പെൻസിലിൻ അലർജിയാണ്.",
+        "വേറെ എന്തെങ്കിലും മരുന്ന് കഴിക്കുന്നുണ്ടോ?"
+      ],
+      "sentences": [
+        { "native": "അച്ഛന് ഷുഗറും പ്രഷറും ഉണ്ട്.", "roman": "acchanŭ ṣugarum praṣarum uṇḍŭ.", "en": "Dad has diabetes and high blood pressure.", "focus": "അച്ഛന്", "wrong": ["അച്ഛൻ|acchan", "അച്ഛനെ|acchane"] },
+        { "native": "എനിക്ക് മുട്ട അലർജിയാണ്.", "roman": "enikkŭ muṭṭa alarjiyāṇŭ.", "en": "I'm allergic to eggs." },
+        { "native": "അമ്മ ദിവസവും പ്രഷറിന്റെ ഗുളിക കഴിക്കുന്നുണ്ട്.", "roman": "amma divasavum praṣarinde guḷika kaḻikkunnuṇḍŭ.", "en": "Mum takes her blood pressure pills every day." },
+        { "native": "ഷുഗർ ഉള്ളതുകൊണ്ട് ഞാൻ മധുരം കഴിക്കില്ല.", "roman": "ṣugar uḷḷatukoṇḍŭ ñān madhuram kaḻikkilla.", "en": "Because I'm diabetic, I don't eat sweets." },
+        { "native": "കളിക്കുമ്പോൾ വീണ് അവന്റെ കൈ ഒടിഞ്ഞു.", "roman": "kaḷikkumbōḷ vīṇŭ avande kai oṭiññu.", "en": "He fell while playing and broke his arm.", "focus": "ഒടിഞ്ഞു", "wrong": ["ഒടിച്ചു|oṭicchu", "ഒടിയും|oṭiyum"] },
+        { "native": "കൈ ഒടിഞ്ഞിട്ടുണ്ടോ?", "roman": "kai oṭiññiṭṭuṇḍō?", "en": "Is the arm broken?", "focus": "ഒടിഞ്ഞിട്ടുണ്ടോ", "wrong": ["ഒടിച്ചിട്ടുണ്ടോ|oṭicchiṭṭuṇḍō", "ഒടിയുമോ|oṭiyumō"] },
+        { "native": "ഇന്നലെ ഓടിയപ്പോൾ എന്റെ കാൽ ഉളുക്കി.", "roman": "innale ōṭiyappōḷ ende kāl uḷukki.", "en": "I twisted my ankle running yesterday.", "focus": "ഉളുക്കി", "wrong": ["ഉളുക്ക്|uḷukkŭ", "ഉളുക്കും|uḷukkum"] },
+        { "native": "മുട്ടിൽ നീരുണ്ട്, നടക്കാൻ പറ്റുന്നില്ല.", "roman": "muṭṭil nīruṇḍŭ, naṭakkān paṯṯunnilla.", "en": "My knee's swollen; I can't walk.", "focus": "മുട്ടിൽ", "wrong": ["മുട്ട്|muṭṭŭ", "മുട്ടിന്റെ|muṭṭinde"] },
+        { "native": "വേറെ എന്തെങ്കിലും അലർജി ഉണ്ടോ?", "roman": "vēṟe endeṅgilum alarji uṇḍō?", "en": "Do you have any other allergies?" },
+        { "native": "ഞാൻ പ്രഷറിനുള്ള മരുന്ന് കഴിക്കുന്നുണ്ട്.", "roman": "ñān praṣarinuḷḷa marunnŭ kaḻikkunnuṇḍŭ.", "en": "I'm on blood pressure medication." }
+      ]
+    },
+    {
+      "title": "At the hospital",
+      "tip": { "title": "Kerala hospitals", "body": "- Government hospital: take an **ഒപി ടിക്കറ്റ്** at the counter, then wait for your number.\n- Private hospitals and clinics: book an **അപ്പോയിന്റ്മെന്റ്**.\n- Doctors 'write' tests and medicine: ടെസ്റ്റ് **എഴുതി** 'ordered a test'.\n- Call the doctor **ഡോക്ടറേ** or **സാർ / മാഡം**." },
+      "new": [
+        "ഒപി",
+        "അപ്പോയിന്റ്മെന്റ്",
+        "ടെസ്റ്റ്",
+        "പരിശോധിക്കുക",
+        "ഇഞ്ചക്ഷൻ",
+        "ചികിത്സ",
+        "ആയുർവേദം",
+        "ഡോക്ടറെ കാണാൻ ഒരു അപ്പോയിന്റ്മെന്റ് വേണം.",
+        "ഒപി ടിക്കറ്റ് എവിടെയാണ് എടുക്കുന്നത്?"
+      ],
+      "sentences": [
+        { "native": "ഡോക്ടർ ഇന്ന് ഒപിയിൽ ഉണ്ടോ?", "roman": "ḍōkṭar innŭ ōpiyil uṇḍō?", "en": "Is the doctor seeing outpatients today?" },
+        { "native": "നാളെ രാവിലത്തേക്ക് ഒരു അപ്പോയിന്റ്മെന്റ് കിട്ടുമോ?", "roman": "nāḷe rāvilattēkkŭ oru appōyinṯmenṯŭ kiṭṭumō?", "en": "Could I get an appointment for tomorrow morning?", "focus": "കിട്ടുമോ", "wrong": ["കിട്ടിയോ|kiṭṭiyō", "കിട്ടുക|kiṭṭuka"] },
+        { "native": "ഒപി ടിക്കറ്റിന് എത്ര രൂപയാണ്?", "roman": "ōpi ṭikkaṯṯinŭ etra rūpayāṇŭ?", "en": "How much is the OP ticket?" },
+        { "native": "ഡോക്ടർ പരിശോധിച്ചിട്ട് കുറച്ച് ടെസ്റ്റുകൾ എഴുതി.", "roman": "ḍōkṭar parishōdhicchiṭṭŭ kuṟacchŭ ṭesṯṯukaḷ eḻuti.", "en": "After examining me, the doctor ordered some tests.", "focus": "പരിശോധിച്ചിട്ട്", "wrong": ["പരിശോധിച്ചു|parishōdhicchu", "പരിശോധിക്കും|parishōdhikkum"] },
+        { "native": "ടെസ്റ്റ് റിപ്പോർട്ട് എപ്പോൾ കിട്ടും?", "roman": "ṭesṯṯŭ ṟippōrṭṭŭ eppōḷ kiṭṭum?", "en": "When will the test report be ready?" },
+        { "native": "ഷുഗർ ടെസ്റ്റിന് വെറുംവയറ്റിൽ വരണം.", "roman": "ṣugar ṭesṯṯinŭ veṟumvayaṯṯil varaṇam.", "en": "For the sugar test you have to come on an empty stomach." },
+        { "native": "ഡോക്ടറേ, ഇഞ്ചക്ഷൻ വേണോ? എനിക്ക് പേടിയാണ്.", "roman": "ḍōkṭaṟē, iñjakṣan vēṇō? enikkŭ pēṭiyāṇŭ.", "en": "Doctor, do I need an injection? I'm scared of them.", "focus": "ഡോക്ടറേ", "wrong": ["ഡോക്ടർ|ḍōkṭar", "ഡോക്ടറെ|ḍōkṭaṟe"] },
+        { "native": "നടുവേദനയ്ക്ക് ഞാൻ ആയുർവേദ ചികിത്സ ചെയ്തു.", "roman": "naṭuvēdanaykkŭ ñān āyurvēda chikitsa cheytu.", "en": "I had Ayurvedic treatment for my back pain." },
+        { "native": "ഡോക്ടറെ കാണാൻ ഒരുപാട് നേരം കാത്തിരിക്കേണ്ടി വന്നു.", "roman": "ḍōkṭaṟe kāṇān orupāṭŭ nēram kāttirikkēṇḍi vannu.", "en": "I had to wait ages to see the doctor." },
+        { "native": "ടെസ്റ്റിൽ കുഴപ്പം ഒന്നും ഇല്ല, പേടിക്കേണ്ട.", "roman": "ṭesṯṯil kuḻappam onnum illa, pēṭikkēṇḍa.", "en": "The tests show nothing wrong, don't worry." }
+      ]
+    }
+  ]
+}

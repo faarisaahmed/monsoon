@@ -1,0 +1,228 @@
+{
+  "id": 25,
+  "title": "Errands",
+  "goal": "Get things done around town: take out cash, pay a bill, buy medicine, top up your SIM, and get your phone fixed, your clothes stitched and your hair cut.",
+  "intro": "This unit is about the jobs that fill a Saturday morning: the ATM that has no cash, the bank token queue, the medical shop, the mobile shop, the tailor, the barber and the courier office. The language is short and practical, full of English words (സിം, റീചാർജ്, സ്ക്രീൻ, ബില്ല്) held together by Malayalam verbs.\n\nThe new grammar is about **getting things done by someone else**. Malayalam has a **causative** verb form (മുടി **വെട്ടിച്ചു** 'I got a haircut'), a way to ask someone to do a job *for you* (**ശരിയാക്കിത്തരാമോ?** 'could you fix it for me?'), and a neat use of the infinitive for handing something in (ഫോൺ **നന്നാക്കാൻ കൊടുത്തു** 'I've given my phone in for repair').",
+  "vocab": [
+    { "native": "എടിഎം", "roman": "eṭiem", "en": "ATM, cash machine", "pos": "noun", "note": "With endings the m doubles: എടിഎമ്മിൽ 'at the ATM'." },
+    { "native": "അക്കൗണ്ട്", "roman": "akkauṇḍŭ", "en": "(bank) account", "pos": "noun", "note": "അക്കൗണ്ടിൽ 'in the account'. Also for apps: ഇൻസ്റ്റ അക്കൗണ്ട്." },
+    { "native": "ബാലൻസ്", "roman": "bālansŭ", "en": "balance (in an account; on a phone)", "pos": "noun" },
+    { "native": "ബില്ല്", "roman": "billŭ", "en": "bill; receipt", "pos": "noun", "note": "കറന്റ് ബില്ല് 'electricity bill'. Shops call the receipt the ബില്ല് too." },
+    { "native": "അടയ്ക്കുക", "roman": "aṭaykkuka", "en": "to pay (a bill, fee, tax); to pay in; to close, shut", "pos": "verb", "note": "past അടച്ചു. Bills and fees are normally അടയ്ക്കുക: ഫീസ് അടച്ചു 'paid the fee'. Intransitive 'to be closed' is അടയുക (അടഞ്ഞു)." },
+    { "native": "ടോക്കൺ", "roman": "ṭōkkaṇ", "en": "token (numbered queue slip)", "pos": "noun", "note": "Banks, hospitals and offices give you a ടോക്കൺ and call the numbers." },
+    { "native": "ക്യൂ", "roman": "kyū", "en": "queue, line", "pos": "noun", "note": "ക്യൂവിൽ നിൽക്കുക 'to stand in the queue'." },
+    { "native": "നിൽക്കുക", "roman": "nilkkuka", "en": "to stand; to stay, wait; to stop", "pos": "verb", "note": "past നിന്നു. നിൽക്ക്! 'wait! / stop!' (informal)." },
+    { "native": "ആധാർ", "roman": "ādhār", "en": "Aadhaar (India's national ID number / card)", "pos": "noun", "note": "Usually ആധാർ കാർഡ്. Asked for SIMs, bank accounts, gas connections…" },
+    { "native": "ഫോട്ടോസ്റ്റാറ്റ്", "roman": "fōṭṭōsṯṯāṯṯŭ", "en": "photocopy", "pos": "noun", "note": "Kerala's everyday word for a photocopy (from an old brand name). 'Take a copy': ഫോട്ടോസ്റ്റാറ്റ് എടുക്കുക." },
+    { "native": "മെഡിക്കൽ ഷോപ്പ്", "roman": "meḍikkal ṣōppŭ", "en": "pharmacy, chemist's", "pos": "noun", "note": "Also മെഡിക്കൽ സ്റ്റോർ. 'Pharmacy' is hardly used in speech." },
+    { "native": "കുറിപ്പടി", "roman": "kuṟippaṭi", "en": "(doctor's) prescription", "pos": "noun", "note": "Many people just say the English 'prescription'." },
+    { "native": "സിം", "roman": "sim", "en": "SIM card", "pos": "noun", "note": "Often സിം കാർഡ്. 'Get a SIM': സിം എടുക്കുക." },
+    { "native": "റീചാർജ്", "roman": "ṟīchārjŭ", "en": "(mobile) top-up, recharge", "pos": "noun", "note": "റീചാർജ് ചെയ്യുക 'to top up'. Most people do it on a payment app now." },
+    { "native": "ചാർജർ", "roman": "chārjar", "en": "(phone) charger", "pos": "noun" },
+    { "native": "സ്ക്രീൻ", "roman": "skrīn", "en": "screen", "pos": "noun" },
+    { "native": "നന്നാക്കുക", "roman": "nannākkuka", "en": "to repair, mend; to improve", "pos": "verb", "note": "past നന്നാക്കി. From നന്ന് 'good' + ആക്കുക 'make'." },
+    { "native": "ശരിയാക്കുക", "roman": "shariyākkuka", "en": "to fix, sort out, arrange", "pos": "verb", "note": "past ശരിയാക്കി. The all-purpose 'sort it out': ഫോൺ ശരിയാക്കി 'fixed the phone', ഞാൻ ശരിയാക്കാം 'I'll sort it'." },
+    { "native": "മാറ്റുക", "roman": "māṯṯuka", "en": "to change, replace (something); to move (something)", "pos": "verb", "note": "past മാറ്റി. The transitive partner of മാറുക 'to change (by itself)'." },
+    { "native": "ഏൽപ്പിക്കുക", "roman": "ēlppikkuka", "en": "to hand over, leave (something with someone); to put in charge", "pos": "verb", "note": "past ഏൽപ്പിച്ചു. ഫോൺ കടയിൽ ഏൽപ്പിച്ചു 'I left the phone at the shop'." },
+    { "native": "ടെയിലർ", "roman": "ṭeyilar", "en": "tailor", "pos": "noun", "note": "The everyday word; the Malayalam is തയ്യൽക്കാരൻ. A woman tailor is ടെയിലർ ചേച്ചി." },
+    { "native": "തയ്ക്കുക", "roman": "taykkuka", "en": "to stitch, sew", "pos": "verb", "note": "past തയ്ച്ചു. 'Get stitched': തയ്പ്പിക്കുക." },
+    { "native": "അളവ്", "roman": "aḷavŭ", "en": "measurement(s); measure, amount", "pos": "noun", "note": "അളവ് എടുക്കുക 'to take measurements'." },
+    { "native": "ചുരിദാർ", "roman": "churidār", "en": "churidar (salwar suit)", "pos": "noun", "note": "The everyday outfit of many Kerala women and girls; usually stitched to measure." },
+    { "native": "സലൂൺ", "roman": "salūṇ", "en": "salon, barber's", "pos": "noun", "note": "Older and still common: ബാർബർ ഷോപ്പ്." },
+    { "native": "വെട്ടുക", "roman": "veṭṭuka", "en": "to cut", "pos": "verb", "note": "past വെട്ടി. മുടി വെട്ടുക 'to cut hair; to get a haircut'." },
+    { "native": "ലോൺഡ്രി", "roman": "lōṇḍri", "en": "laundry (shop)", "pos": "noun" },
+    { "native": "ഇസ്തിരി", "roman": "istiri", "en": "ironing; (clothes) iron", "pos": "noun", "note": "ഇസ്തിരിയിടുക 'to iron'. Many people just say അയൺ ചെയ്യുക." },
+    { "native": "കൊറിയർ", "roman": "koṟiyar", "en": "courier (service; a package sent by courier)", "pos": "noun", "note": "കൊറിയർ അയയ്ക്കുക 'send a courier', കൊറിയർ വന്നു 'the courier came'." },
+    { "native": "അയയ്ക്കുക", "roman": "ayaykkuka", "en": "to send", "pos": "verb", "note": "past അയച്ചു. In speech also അയക്കുക." },
+    { "native": "ഗൾഫ്", "roman": "gaḷfŭ", "en": "the Gulf (countries)", "pos": "noun", "note": "For Malayalis this means the UAE, Saudi, Qatar, Oman, Kuwait and Bahrain, where millions of Keralites work. ഗൾഫിൽ 'in the Gulf'." },
+    { "native": "റെഡി", "roman": "ṟeḍi", "en": "ready", "pos": "adj", "note": "റെഡിയാണ് 'it's ready', റെഡിയാകും 'it'll be ready', റെഡിയാക്കുക 'to get (something) ready'." }
+  ],
+  "phrases": [
+    { "native": "അടുത്ത് എവിടെയെങ്കിലും എടിഎം ഉണ്ടോ?", "roman": "aṭuttŭ eviṭeyeṅgilum eṭiem uṇḍō?", "en": "Is there an ATM anywhere near here?" },
+    { "native": "ഈ എടിഎമ്മിൽ കാശില്ല.", "roman": "ī eṭiemmil kāshilla.", "en": "This ATM has run out of cash." },
+    { "native": "ഈ മരുന്ന് ഉണ്ടോ?", "roman": "ī marunnŭ uṇḍō?", "en": "Do you have this medicine?", "note": "Show the strip or the prescription as you say it." },
+    { "native": "ഇത് കുറിപ്പടി ഇല്ലാതെ തരാൻ പറ്റുമോ?", "roman": "itŭ kuṟippaṭi illāte tarān paṯṯumō?", "en": "Can you give me this without a prescription?" },
+    { "native": "ഈ നമ്പറിൽ ഇരുന്നൂറ് രൂപയ്ക്ക് റീചാർജ് ചെയ്യണം.", "roman": "ī nambaṟil irunnūṟŭ rūpaykkŭ ṟīchārjŭ cheyyaṇam.", "en": "I'd like to top up this number with 200 rupees." },
+    { "native": "ഫോണിന്റെ സ്ക്രീൻ പൊട്ടി.", "roman": "fōṇinde skrīn poṭṭi.", "en": "My phone's screen has cracked." },
+    { "native": "ഇത് നന്നാക്കാൻ എത്രയാകും?", "roman": "itŭ nannākkān etrayākum?", "en": "How much will it cost to fix this?", "note": "എത്രയാകും = എത്ര + ആകും 'how much will it come to'." },
+    { "native": "എപ്പോൾ കിട്ടും?", "roman": "eppōḷ kiṭṭum?", "en": "When can I have it (back)?" },
+    { "native": "നാളെ വൈകുന്നേരത്തേക്ക് റെഡിയാകും.", "roman": "nāḷe vaikunnērattēkkŭ ṟeḍiyākum.", "en": "It'll be ready by tomorrow evening.", "note": "-ഏക്ക് on a time = 'by, for': ശനിയാഴ്ചത്തേക്ക് 'by Saturday'." },
+    { "native": "ഇന്ന് തന്നെ ശരിയാക്കി കിട്ടുമോ?", "roman": "innŭ tanne shariyākki kiṭṭumō?", "en": "Can I get it fixed today itself?" },
+    { "native": "ചേട്ടാ, മുടി ഒന്ന് വെട്ടണം.", "roman": "chēṭṭā, muṭi onnŭ veṭṭaṇam.", "en": "Chetta, I need a haircut." },
+    { "native": "അധികം കുറയ്ക്കണ്ട, ചെറുതായി ഒന്ന് വെട്ടിയാൽ മതി.", "roman": "adhikam kuṟaykkaṇḍa, cheṟutāyi onnŭ veṭṭiyāl mati.", "en": "Don't take too much off — just a light trim.", "note": "കുറയ്ക്കണ്ട is the spoken form of കുറയ്ക്കേണ്ട 'no need to reduce'." },
+    { "native": "ഇത് ദുബായിലേക്ക് അയയ്ക്കണം.", "roman": "itŭ dubāyilēkkŭ ayaykkaṇam.", "en": "I need to send this to Dubai." },
+    { "native": "ബില്ല് തരുമോ?", "roman": "billŭ tarumō?", "en": "Could I have a receipt?" }
+  ],
+  "grammar": [
+    {
+      "title": "Getting it done: the causative -ഇക്കുക / -പ്പിക്കുക",
+      "body": "In English you *get* your hair cut or *have* the phone repaired: someone else does the job. Malayalam builds this into the verb with a **causative** suffix, and the result is an ordinary verb with all the usual tenses.\n\n**How to make it**\n• Most verbs add **-ഇക്കുക** to the stem: വെട്ടുക → **വെട്ടിക്കുക** 'get (something) cut', മാറ്റുക → **മാറ്റിക്കുക** 'get replaced', ചെയ്യുക → **ചെയ്യിക്കുക** 'get done', കഴുകുക → **കഴുകിക്കുക** 'get washed', and the -ആക്കുക verbs: നന്നാക്കുക → **നന്നാക്കിക്കുക** 'get repaired'.\n• Many verbs in -ക്കുക swap it for **-പ്പിക്കുക**: തയ്ക്കുക → **തയ്പ്പിക്കുക** 'get stitched', അടയ്ക്കുക → **അടപ്പിക്കുക** 'make (someone) pay / close', പഠിക്കുക → **പഠിപ്പിക്കുക** 'teach' (make learn), കേൾക്കുക → **കേൾപ്പിക്കുക** 'play (something) for someone'. Learn these as you meet them.\n• Tenses work as usual: past **-ഇച്ചു** (വെട്ടിച്ചു, തയ്പ്പിച്ചു), 'need to' **-ഇക്കണം** (മാറ്റിക്കണം), 'to' **-ഇക്കാൻ** (വെട്ടിക്കാൻ).\n\n**Who does the job**: the person you get to do it takes **-എക്കൊണ്ട്** ('by means of') on the object form: ടെയിലറെക്കൊണ്ട് 'by the tailor', എന്നെക്കൊണ്ട് 'me (made me)', അവനെക്കൊണ്ട്. The same pattern means *making* someone do something: അമ്മ എന്നെക്കൊണ്ട് പാത്രം കഴുകിച്ചു 'Mum made me wash the dishes'.\n\n**The trap**: in quick speech people often use the plain verb when the meaning is obvious — ഞാൻ മുടി വെട്ടി usually means 'I got a haircut', not that you cut it yourself. But the plain verb with a doer *you* did not expect sounds odd, and the causative is always clear. Don't stack: say സ്ക്രീൻ മാറ്റാൻ കൊടുത്തു, not 'മാറ്റിക്കാൻ കൊടുത്തു'.",
+      "examples": [
+        { "native": "ഞാൻ ഇന്നലെ മുടി വെട്ടിച്ചു.", "roman": "ñān innale muṭi veṭṭicchu.", "en": "I got a haircut yesterday." },
+        { "native": "ഫോണിന്റെ സ്ക്രീൻ മാറ്റിക്കണം.", "roman": "fōṇinde skrīn māṯṯikkaṇam.", "en": "I need to get the phone screen replaced." },
+        { "native": "അച്ഛൻ കാർ സർവീസ് ചെയ്യിച്ചു.", "roman": "acchan kār sarvīsŭ cheyyicchu.", "en": "Dad got the car serviced." },
+        { "native": "ഈ ബ്ലൗസ് ഞാൻ ടെയിലറെക്കൊണ്ട് ചെറുതാക്കിച്ചു.", "roman": "ī blausŭ ñān ṭeyilaṟekkoṇḍŭ cheṟutākkicchu.", "en": "I got the tailor to take this blouse in." },
+        { "native": "അമ്മ എന്നെക്കൊണ്ട് പാത്രം മുഴുവൻ കഴുകിച്ചു.", "roman": "amma ennekkoṇḍŭ pātram muḻuvan kaḻukicchu.", "en": "Mum made me wash all the dishes." }
+      ]
+    },
+    {
+      "title": "\"Do it for me\": participle + തരുക / കിട്ടുക",
+      "body": "To ask someone to do a job **for you**, put the verb in its past participle (the form you know from chaining: ശരിയാക്കി, നോക്കി, തയ്ച്ചു, പറഞ്ഞു) and add **തരുക** 'give (to me)'. It is written as one word, and the t doubles: **ശരിയാക്കിത്തരാമോ?** 'could you fix it for me?', **നോക്കിത്തരാമോ?** 'could you check it for me?', **തയ്ച്ചുതരാം** 'I'll stitch it for you'. Without തരുക (ശരിയാക്കാമോ?) the request is fine but less personal; with it you sound like a customer asking a favour.\n\nWhen the job is for **someone else**, use **കൊടുക്കുക** instead, exactly as with plain giving (unit 12): അവന് വഴി പറഞ്ഞുകൊടുക്കൂ 'tell him the way'.\n\nFrom the customer's side, ask whether you can **get** it done with **കിട്ടുക** (dative subject, written as a separate word): **ഇന്ന് ശരിയാക്കി കിട്ടുമോ?** 'can I get it fixed today?', **ശനിയാഴ്ച നന്നാക്കി കിട്ടും** 'you'll have it repaired by Saturday'.\n\n**The trap**: don't use the -ആൻ form here: ശരിയാക്കാൻ തരാമോ? means 'could you give (it to me) to fix?' — the opposite direction.",
+      "examples": [
+        { "native": "ഈ ഫോൺ ഒന്ന് നോക്കിത്തരാമോ?", "roman": "ī fōṇ onnŭ nōkkittarāmō?", "en": "Could you take a look at this phone for me?" },
+        { "native": "ചേച്ചീ, ഈ ബ്ലൗസ് വെള്ളിയാഴ്ചയ്ക്ക് മുമ്പ് തയ്ച്ചുതരാമോ?", "roman": "chēcchī, ī blausŭ veḷḷiyāḻchaykkŭ mumbŭ taycchutarāmō?", "en": "Chechi, could you stitch this blouse for me before Friday?" },
+        { "native": "ചാർജർ മാറ്റി കിട്ടുമോ?", "roman": "chārjar māṯṯi kiṭṭumō?", "en": "Can I get the charger exchanged?" },
+        { "native": "രണ്ട് മണിക്കൂറിനുള്ളിൽ ശരിയാക്കി കിട്ടും.", "roman": "raṇḍŭ maṇikkūṟinuḷḷil shariyākki kiṭṭum.", "en": "You'll have it fixed within two hours." },
+        { "native": "അവന് വഴി പറഞ്ഞുകൊടുക്കൂ.", "roman": "avanŭ vaḻi paṟaññukoṭukkū.", "en": "Tell him the way." }
+      ]
+    },
+    {
+      "title": "Handing things in: -ആൻ കൊടുക്കുക, -ആൻ പോകുക / വരുക",
+      "body": "The infinitive in **-ആൻ** ('to, in order to') is made from the stem: അടയ്ക്കുക → **അടയ്ക്കാൻ**, എടുക്കുക → **എടുക്കാൻ**, വാങ്ങുക → **വാങ്ങാൻ**, നന്നാക്കുക → **നന്നാക്കാൻ**. You met it with വേണം and പറ്റും; on errands it does three everyday jobs:\n\n• **Purpose with going and coming**: മരുന്ന് **വാങ്ങാൻ** പോവുകയാണ് 'I'm going to buy medicine'; സിം **എടുക്കാൻ** വന്നതാണ് 'I've come to get a SIM' (വന്നതാണ് 'it's that I came' is the natural way to state why you're at the counter).\n• **Handing something in for a job** with **കൊടുക്കുക**: ഫോൺ **നന്നാക്കാൻ കൊടുത്തു** 'I've given my phone in for repair', തുണി **ഇസ്തിരിയിടാൻ കൊടുത്തു** 'I've sent the clothes for ironing'. The perfect കൊടുത്തിട്ടുണ്ട് 'I have given' is very common here.\n• **What it takes**: സിം എടുക്കാൻ ആധാർ വേണം 'to get a SIM you need Aadhaar'.\n\n**The trap**: the participle + കൊടുക്കുക means the opposite: ഫോൺ നന്നാക്കി കൊടുത്തു = 'I repaired the phone for him'. Handing in → **-ആൻ** കൊടുത്തു; doing it for someone → **-ഇ** കൊടുത്തു.",
+      "examples": [
+        { "native": "വാച്ച് നന്നാക്കാൻ കൊടുത്തിട്ടുണ്ട്.", "roman": "vācchŭ nannākkān koṭuttiṭṭuṇḍŭ.", "en": "I've given my watch in for repair." },
+        { "native": "ഞാൻ ബാങ്കിൽ പൈസ അടയ്ക്കാൻ പോവുകയാണ്.", "roman": "ñān bāṅkil paisa aṭaykkān pōvukayāṇŭ.", "en": "I'm going to the bank to pay in some money." },
+        { "native": "ലാപ്ടോപ്പ് സർവീസ് ചെയ്യാൻ കൊടുത്തിരിക്കുകയാണ്.", "roman": "lāpṭōppŭ sarvīsŭ cheyyān koṭuttirikkukayāṇŭ.", "en": "My laptop is in for a service." },
+        { "native": "ബില്ല് അടയ്ക്കാൻ ഇനി ബാങ്കിൽ പോകണ്ട.", "roman": "billŭ aṭaykkān ini bāṅkil pōkaṇḍa.", "en": "You don't need to go to the bank to pay bills any more." },
+        { "native": "ഞാൻ ഒരു പാഴ്സൽ അയയ്ക്കാൻ വന്നതാണ്.", "roman": "ñān oru pārsal ayaykkān vannatāṇŭ.", "en": "I've come to send a parcel." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The cracked screen",
+    "setting": "Anu has dropped her phone. Her friend Jithin takes her to a small mobile repair shop off Broadway in Kochi.",
+    "lines": [
+      { "speaker": "Jithin", "native": "ഇതാണ് ഞാൻ പറഞ്ഞ കട. ചേട്ടൻ ആള് സൂപ്പറാ.", "roman": "itāṇŭ ñān paṟañña kaṭa. chēṭṭan āḷŭ sūppaṟā.", "en": "This is the shop I told you about. The guy's really good." },
+      { "speaker": "Shopkeeper", "native": "എന്താ മോളേ, എന്ത് പറ്റി?", "roman": "endā mōḷē, endŭ paṯṯi?", "en": "Yes, dear, what happened?" },
+      { "speaker": "Anu", "native": "ഫോൺ താഴെ വീണു, സ്ക്രീൻ പൊട്ടി. ടച്ചും ശരിക്ക് വർക്ക് ചെയ്യുന്നില്ല.", "roman": "fōṇ tāḻe vīṇu, skrīn poṭṭi. ṭacchum sharikkŭ varkkŭ cheyyunnilla.", "en": "I dropped my phone and the screen cracked. The touch isn't working properly either." },
+      { "speaker": "Shopkeeper", "native": "നോക്കട്ടെ… ഉം, ഡിസ്പ്ലേ മൊത്തം മാറ്റണം.", "roman": "nōkkaṭṭe… um, ḍisplē mottam māṯṯaṇam.", "en": "Let me see… hmm, the whole display needs replacing." },
+      { "speaker": "Anu", "native": "അയ്യോ! എത്രയാകും?", "roman": "ayyō! etrayākum?", "en": "Oh no! How much will that be?" },
+      { "speaker": "Shopkeeper", "native": "ഒറിജിനൽ ആണെങ്കിൽ നാലായിരം. ലോക്കൽ ആണെങ്കിൽ രണ്ടായിരത്തി അഞ്ഞൂറ്.", "roman": "orijinal āṇeṅgil nālāyiram. lōkkal āṇeṅgil raṇḍāyiratti aññūṟŭ.", "en": "An original one is four thousand. A local one is two and a half." },
+      { "speaker": "Jithin", "native": "ഒറിജിനൽ തന്നെ ഇട്ടോ. ലോക്കൽ ഒരു മാസം കഴിഞ്ഞാൽ പോകും.", "roman": "orijinal tanne iṭṭō. lōkkal oru māsam kaḻiññāl pōkum.", "en": "Go for the original. A local one will die in a month." },
+      { "speaker": "Anu", "native": "ശരി, ഒറിജിനൽ മതി. ഇന്ന് തന്നെ ശരിയാക്കി കിട്ടുമോ?", "roman": "shari, orijinal mati. innŭ tanne shariyākki kiṭṭumō?", "en": "OK, the original then. Can I get it fixed today?" },
+      { "speaker": "Shopkeeper", "native": "ഇന്ന് പറ്റില്ല, പാർട്ട് വരണം. നാളെ വൈകുന്നേരം റെഡിയാകും.", "roman": "innŭ paṯṯilla, pārṭṭŭ varaṇam. nāḷe vaikunnēram ṟeḍiyākum.", "en": "Not today, the part has to come in. It'll be ready tomorrow evening." },
+      { "speaker": "Anu", "native": "അപ്പോൾ നാളെ വരെ ഫോൺ ഇല്ലാതെ ജീവിക്കണം!", "roman": "appōḷ nāḷe vare fōṇ illāte jīvikkaṇam!", "en": "So I have to survive without a phone till tomorrow!" },
+      { "speaker": "Jithin", "native": "ഒരു ദിവസം ഇൻസ്റ്റ ഇല്ലാതെ നീ മരിക്കില്ല.", "roman": "oru divasam insṯṯa illāte nī marikkilla.", "en": "You won't die without Insta for one day." },
+      { "speaker": "Shopkeeper", "native": "ഫോൺ ഇവിടെ ഏൽപ്പിച്ചോളൂ. ഇതാ ബില്ല്, നാളെ ഇതുമായി വന്നാൽ മതി.", "roman": "fōṇ iviṭe ēlppicchōḷū. itā billŭ, nāḷe itumāyi vannāl mati.", "en": "Leave the phone with me. Here's the receipt — just bring it with you tomorrow." }
+    ]
+  },
+  "culture": "Errands in Kerala are done face to face and with a title: the barber, the tailor and the man at the mobile shop are ചേട്ടാ, the woman at the medical shop or the tailoring unit is ചേച്ചീ, and an older shopkeeper may call a young customer മോനേ / മോളേ ('son / daughter') — it's friendly, not rude. Use നിങ്ങൾ or no pronoun at all with them, never നീ.\n\nBanks and government offices run on **tokens** and paperwork: bring photocopies (ഫോട്ടോസ്റ്റാറ്റ്) of your ID and Aadhaar, because every form wants one. For certificates, Aadhaar updates and online applications, Keralites go to an **Akshaya centre**, the state's network of small service counters. Medical shops will sell everyday medicines over the counter, but antibiotics need a prescription.\n\nTailors are still part of normal life: churidars, blouses for sarees and school uniforms are stitched to measure, and in the weeks before Onam, Vishu, Christmas or Eid every tailor is swamped — give your cloth in early. With so many families split between Kerala and the **Gulf**, courier shops that send parcels to Dubai or Doha are everywhere; the classic parcel is home-made pickle, banana chips and snacks for someone who misses home food.",
+  "lessons": [
+    {
+      "title": "At the bank and the ATM",
+      "tip": { "title": "Money verbs", "body": "- Take out cash: **പൈസ എടുക്കുക** — എടിഎമ്മിൽ നിന്ന് പൈസ എടുത്തു.\n- Pay a bill or fee, pay money in: **അടയ്ക്കുക** — ബില്ല് **അടച്ചു**.\n- Banks give you a **ടോക്കൺ**; then you **ക്യൂവിൽ നിൽക്കുക** 'stand in the queue'.", "pattern": "ബില്ല് + അടയ്ക്കുക · പൈസ + എടുക്കുക" },
+      "new": ["എടിഎം", "അക്കൗണ്ട്", "ബാലൻസ്", "ടോക്കൺ", "ക്യൂ", "നിൽക്കുക", "ബില്ല്", "അടയ്ക്കുക", "അടുത്ത് എവിടെയെങ്കിലും എടിഎം ഉണ്ടോ?", "ഈ എടിഎമ്മിൽ കാശില്ല."],
+      "sentences": [
+        { "native": "എനിക്ക് എടിഎമ്മിൽ നിന്ന് കുറച്ച് പൈസ എടുക്കണം.", "roman": "enikkŭ eṭiemmil ninnŭ kuṟacchŭ paisa eṭukkaṇam.", "en": "I need to take out some cash from the ATM.", "focus": "എടുക്കണം", "wrong": ["അടയ്ക്കണം|aṭaykkaṇam", "കൊടുക്കണം|koṭukkaṇam"] },
+        { "native": "എന്റെ അക്കൗണ്ടിൽ ബാലൻസ് കുറവാണ്.", "roman": "ende akkauṇḍil bālansŭ kuṟavāṇŭ.", "en": "My account balance is low." },
+        { "native": "കറന്റ് ബില്ല് അടച്ചോ?", "roman": "kaṟanṯŭ billŭ aṭacchō?", "en": "Did you pay the electricity bill?", "focus": "അടച്ചോ", "wrong": ["അടഞ്ഞോ|aṭaññō", "എടുത്തോ|eṭuttō"] },
+        { "native": "ഇല്ല, നാളെ അടയ്ക്കാം.", "roman": "illa, nāḷe aṭaykkām.", "en": "No, I'll pay it tomorrow.", "focus": "അടയ്ക്കാം", "wrong": ["അടയാം|aṭayām", "എടുക്കാം|eṭukkām"] },
+        { "native": "ആദ്യം ഒരു ടോക്കൺ എടുക്കണം, പിന്നെ ക്യൂവിൽ നിൽക്കണം.", "roman": "ādyam oru ṭōkkaṇ eṭukkaṇam, pinne kyūvil nilkkaṇam.", "en": "First you take a token, then you stand in the queue.", "focus": "നിൽക്കണം", "wrong": ["നിന്നു|ninnu", "നിൽക്കുക|nilkkuka"] },
+        { "native": "ടോക്കൺ നമ്പർ എത്രയാ?", "roman": "ṭōkkaṇ nambar etrayā?", "en": "What's your token number?" },
+        { "native": "ക്യൂവിൽ ഒരുപാട് ആളുകളുണ്ട്, ഞാൻ നാളെ വരാം.", "roman": "kyūvil orupāṭŭ āḷukaḷuṇḍŭ, ñān nāḷe varām.", "en": "There are loads of people in the queue — I'll come tomorrow." },
+        { "native": "ഞാൻ ബാങ്കിൽ പോയി ബില്ല് അടച്ചു.", "roman": "ñān bāṅkil pōyi billŭ aṭacchu.", "en": "I went to the bank and paid the bill.", "focus": "അടച്ചു", "wrong": ["അടഞ്ഞു|aṭaññu", "എടുത്തു|eṭuttu"] },
+        { "native": "ചേട്ടാ, ഈ എടിഎം കേടാണോ?", "roman": "chēṭṭā, ī eṭiem kēṭāṇō?", "en": "Excuse me, is this ATM out of order?" },
+        { "native": "ഈ എടിഎമ്മിൽ കാശില്ല, നമുക്ക് വേറെ എവിടെയെങ്കിലും നോക്കാം.", "roman": "ī eṭiemmil kāshilla, namukkŭ vēṟe eviṭeyeṅgilum nōkkām.", "en": "This ATM's got no cash — let's try somewhere else." }
+      ]
+    },
+    {
+      "title": "Medicine, SIM cards and paperwork",
+      "tip": { "title": "-ആൻ: to, in order to", "body": "- Infinitive = stem + **-ആൻ**: എടുക്കാൻ, വാങ്ങാൻ, അടയ്ക്കാൻ.\n- With പോകുക / വരുക it gives the purpose: മരുന്ന് **വാങ്ങാൻ** പോവുകയാണ് 'I'm going to buy medicine'; സിം **എടുക്കാൻ വന്നതാണ്** 'I've come to get a SIM'.\n- With കൊടുക്കുക it means 'hand in for': ഫോൺ **നന്നാക്കാൻ കൊടുത്തു**.", "pattern": "thing + verb-ആൻ + പോകുക / വരുക / കൊടുക്കുക", "grammar": 2 },
+      "new": [
+        "മെഡിക്കൽ ഷോപ്പ്",
+        "കുറിപ്പടി",
+        "സിം",
+        "റീചാർജ്",
+        "ആധാർ",
+        "ഫോട്ടോസ്റ്റാറ്റ്",
+        "ഈ മരുന്ന് ഉണ്ടോ?",
+        "ഇത് കുറിപ്പടി ഇല്ലാതെ തരാൻ പറ്റുമോ?",
+        "ഈ നമ്പറിൽ ഇരുന്നൂറ് രൂപയ്ക്ക് റീചാർജ് ചെയ്യണം."
+      ],
+      "sentences": [
+        { "native": "ഞാൻ മെഡിക്കൽ ഷോപ്പിൽ മരുന്ന് വാങ്ങാൻ പോവുകയാണ്.", "roman": "ñān meḍikkal ṣōppil marunnŭ vāṅṅān pōvukayāṇŭ.", "en": "I'm going to the pharmacy to buy medicine.", "focus": "വാങ്ങാൻ", "wrong": ["വാങ്ങി|vāṅṅi", "വാങ്ങും|vāṅṅum"] },
+        { "native": "ചേച്ചീ, ഈ കുറിപ്പടിയിലെ മരുന്നുകൾ എല്ലാം ഉണ്ടോ?", "roman": "chēcchī, ī kuṟippaṭiyile marunnukaḷ ellām uṇḍō?", "en": "Chechi, do you have all the medicines on this prescription?" },
+        { "native": "ഒരു പുതിയ സിം എടുക്കാൻ വന്നതാണ്.", "roman": "oru putiya sim eṭukkān vannatāṇŭ.", "en": "I've come to get a new SIM.", "focus": "എടുക്കാൻ", "wrong": ["എടുത്ത്|eṭuttŭ", "എടുക്കും|eṭukkum"] },
+        { "native": "സിം എടുക്കാൻ ആധാറിന്റെ ഫോട്ടോസ്റ്റാറ്റ് വേണം.", "roman": "sim eṭukkān ādhāṟinde fōṭṭōsṯṯāṯṯŭ vēṇam.", "en": "To get a SIM you need a photocopy of your Aadhaar.", "focus": "എടുക്കാൻ", "wrong": ["എടുത്തു|eṭuttu", "എടുക്കുക|eṭukkuka"] },
+        { "native": "ഫോട്ടോസ്റ്റാറ്റ് എടുക്കാൻ അടുത്ത കടയിൽ പോയാൽ മതി.", "roman": "fōṭṭōsṯṯāṯṯŭ eṭukkān aṭutta kaṭayil pōyāl mati.", "en": "Just go to the next shop to get a photocopy.", "focus": "എടുക്കാൻ", "wrong": ["എടുത്ത്|eṭuttŭ", "എടുക്കണം|eṭukkaṇam"] },
+        { "native": "റീചാർജ് ചെയ്യാൻ മറന്നു, ഇപ്പോൾ ബാലൻസ് ഇല്ല.", "roman": "ṟīchārjŭ cheyyān maṟannu, ippōḷ bālansŭ illa.", "en": "I forgot to top up, and now I've got no balance.", "focus": "ചെയ്യാൻ", "wrong": ["ചെയ്തു|cheytu", "ചെയ്യും|cheyyum"] },
+        { "native": "ഈ ഗുളിക കുറിപ്പടി ഇല്ലാതെ കിട്ടില്ല.", "roman": "ī guḷika kuṟippaṭi illāte kiṭṭilla.", "en": "You can't get these tablets without a prescription." },
+        { "native": "അമ്മയ്ക്ക് മരുന്ന് വാങ്ങാനാണ് ഞാൻ വന്നത്.", "roman": "ammaykkŭ marunnŭ vāṅṅānāṇŭ ñān vannatŭ.", "en": "I came to buy medicine for Mum.", "focus": "വാങ്ങാനാണ്", "wrong": ["വാങ്ങിയാണ്|vāṅṅiyāṇŭ", "വാങ്ങുന്നതാണ്|vāṅṅunnatāṇŭ"] },
+        { "native": "മൂന്ന് മാസത്തേക്ക് റീചാർജ് ചെയ്യാൻ എത്രയാകും?", "roman": "mūnnŭ māsattēkkŭ ṟīchārjŭ cheyyān etrayākum?", "en": "How much is it to top up for three months?", "focus": "ചെയ്യാൻ", "wrong": ["ചെയ്തു|cheytu", "ചെയ്യും|cheyyum"] }
+      ]
+    },
+    {
+      "title": "Getting your phone fixed",
+      "tip": { "title": "Do it for me: -ഇത്തരാമോ? / -ഇ കിട്ടുമോ?", "body": "- Ask someone to do a job **for you**: participle + **തരുക**, one word: **ശരിയാക്കിത്തരാമോ?** 'could you fix it for me?'\n- Ask if you can **get** it done: participle + **കിട്ടുക**: ഇന്ന് **ശരിയാക്കി കിട്ടുമോ?**\n- For someone else, use **കൊടുക്കുക**: ശരിയാക്കിക്കൊടുക്കാമോ?", "pattern": "ശരിയാക്കി + തരാമോ? / കിട്ടുമോ?", "grammar": 1 },
+      "new": ["സ്ക്രീൻ", "ചാർജർ", "നന്നാക്കുക", "ശരിയാക്കുക", "മാറ്റുക", "റെഡി", "ഫോണിന്റെ സ്ക്രീൻ പൊട്ടി.", "ഇത് നന്നാക്കാൻ എത്രയാകും?", "എപ്പോൾ കിട്ടും?", "ഇന്ന് തന്നെ ശരിയാക്കി കിട്ടുമോ?"],
+      "sentences": [
+        { "native": "ചേട്ടാ, ഈ ഫോൺ ഒന്ന് ശരിയാക്കിത്തരാമോ?", "roman": "chēṭṭā, ī fōṇ onnŭ shariyākkittarāmō?", "en": "Chetta, could you fix this phone for me?", "focus": "ശരിയാക്കിത്തരാമോ", "wrong": ["ശരിയാക്കാൻ|shariyākkān", "ശരിയാക്കി|shariyākki"] },
+        { "native": "ചാർജർ കേടായി, മാറ്റി കിട്ടുമോ?", "roman": "chārjar kēṭāyi, māṯṯi kiṭṭumō?", "en": "The charger's broken — can I get it replaced?", "focus": "മാറ്റി", "wrong": ["മാറ്റാൻ|māṯṯān", "മാറി|māṟi"] },
+        { "native": "സ്ക്രീൻ മാറ്റാതെ ഇത് നന്നാക്കിത്തരാമോ?", "roman": "skrīn māṯṯāte itŭ nannākkittarāmō?", "en": "Could you repair it for me without replacing the screen?", "focus": "നന്നാക്കിത്തരാമോ", "wrong": ["നന്നാക്കാൻ|nannākkān", "നന്നാക്കി|nannākki"] },
+        { "native": "ശനിയാഴ്ചയ്ക്ക് മുമ്പ് നന്നാക്കി കിട്ടുമോ?", "roman": "shaniyāḻchaykkŭ mumbŭ nannākki kiṭṭumō?", "en": "Can I get it repaired before Saturday?", "focus": "നന്നാക്കി", "wrong": ["നന്നാക്കാൻ|nannākkān", "നന്നായി|nannāyi"] },
+        { "native": "ഫോൺ റെഡിയായോ?", "roman": "fōṇ ṟeḍiyāyō?", "en": "Is the phone ready?" },
+        { "native": "ഇല്ല, ഒരു മണിക്കൂർ കൂടി കാത്തിരിക്കണം.", "roman": "illa, oru maṇikkūr kūṭi kāttirikkaṇam.", "en": "Not yet — you'll have to wait another hour." },
+        { "native": "നാളെ രാവിലെ റെഡിയാക്കിത്തരാം.", "roman": "nāḷe rāvile ṟeḍiyākkittarām.", "en": "I'll have it ready for you tomorrow morning.", "focus": "റെഡിയാക്കിത്തരാം", "wrong": ["റെഡിയാക്കാൻ|ṟeḍiyākkān", "റെഡിയായി|ṟeḍiyāyi"] },
+        { "native": "ഇത് എങ്ങനെയാണ് ചെയ്യുന്നതെന്ന് ഒന്ന് പറഞ്ഞുതരാമോ?", "roman": "itŭ eṅṅaneyāṇŭ cheyyunnatennŭ onnŭ paṟaññutarāmō?", "en": "Could you show me how this is done?", "focus": "പറഞ്ഞുതരാമോ", "wrong": ["പറയാൻ|paṟayān", "പറഞ്ഞു|paṟaññu"] },
+        { "native": "എന്റെ ഫോണിൽ ഈ സിം ഒന്ന് ഇട്ടുതരാമോ?", "roman": "ende fōṇil ī sim onnŭ iṭṭutarāmō?", "en": "Could you put this SIM in my phone for me?", "focus": "ഇട്ടുതരാമോ", "wrong": ["ഇടാൻ|iṭān", "ഇട്ടു|iṭṭu"] },
+        { "native": "അവന്റെ ഫോൺ ഒന്ന് ശരിയാക്കിക്കൊടുക്കാമോ?", "roman": "avande fōṇ onnŭ shariyākkikkoṭukkāmō?", "en": "Could you fix his phone for him?", "focus": "ശരിയാക്കിക്കൊടുക്കാമോ", "wrong": ["ശരിയാക്കിത്തരാമോ|shariyākkittarāmō", "ശരിയാക്കാൻ|shariyākkān"] },
+        { "native": "സ്ക്രീൻ മാറ്റിയാൽ പുതിയത് പോലെയാകും.", "roman": "skrīn māṯṯiyāl putiyatŭ pōleyākum.", "en": "If you replace the screen it'll be as good as new." },
+        { "native": "സ്ക്രീനും ചാർജറും മാറ്റാൻ ആകെ എത്രയാകും?", "roman": "skrīnum chārjarum māṯṯān āke etrayākum?", "en": "How much in total to replace the screen and the charger?" }
+      ]
+    },
+    {
+      "title": "At the barber's",
+      "tip": { "title": "Getting it done: -ഇക്കുക / -പ്പിക്കുക", "body": "- The **causative** = someone else does it: വെട്ടുക → **വെട്ടിക്കുക** 'get cut', മാറ്റുക → **മാറ്റിക്കുക**, തയ്ക്കുക → **തയ്പ്പിക്കുക** 'get stitched'.\n- Past **-ഇച്ചു**: മുടി **വെട്ടിച്ചു** 'I got a haircut'.\n- The person you get to do it: **-എക്കൊണ്ട്** — അച്ഛൻ **എന്നെക്കൊണ്ട്** ബില്ല് അടപ്പിച്ചു 'Dad made me pay the bill'.", "pattern": "verb + -ഇക്കുക / -പ്പിക്കുക", "grammar": 0 },
+      "new": [
+        "സലൂൺ",
+        "വെട്ടുക",
+        "ചേട്ടാ, മുടി ഒന്ന് വെട്ടണം.",
+        "അധികം കുറയ്ക്കണ്ട, ചെറുതായി ഒന്ന് വെട്ടിയാൽ മതി."
+      ],
+      "sentences": [
+        { "native": "ഈ ആഴ്ച മുടി വെട്ടിക്കണം.", "roman": "ī āḻcha muṭi veṭṭikkaṇam.", "en": "I need to get a haircut this week.", "focus": "വെട്ടിക്കണം", "wrong": ["വെട്ടിച്ചു|veṭṭicchu", "വെട്ടുന്നു|veṭṭunnu"] },
+        { "native": "നീ എവിടെയാ മുടി വെട്ടിച്ചത്? കൊള്ളാം!", "roman": "nī eviṭeyā muṭi veṭṭicchatŭ? koḷḷām!", "en": "Where did you get your hair cut? Looks good!", "focus": "വെട്ടിച്ചത്", "wrong": ["വെട്ടിക്കുന്നത്|veṭṭikkunnatŭ", "വെട്ടിക്കും|veṭṭikkum"] },
+        { "native": "ജംഗ്ഷനിലെ സലൂണിൽ, ഇരുന്നൂറ് രൂപയേ ഉള്ളൂ.", "roman": "jaṅgṣanile salūṇil, irunnūṟŭ rūpayē uḷḷū.", "en": "At the salon at the junction — only two hundred rupees." },
+        { "native": "ഞാൻ എല്ലാ മാസവും ഇവിടെയാണ് മുടി വെട്ടിക്കുന്നത്.", "roman": "ñān ellā māsavum iviṭeyāṇŭ muṭi veṭṭikkunnatŭ.", "en": "I get my hair cut here every month.", "focus": "വെട്ടിക്കുന്നത്", "wrong": ["വെട്ടിക്കും|veṭṭikkum", "വെട്ടിച്ചു|veṭṭicchu"] },
+        { "native": "അനിയന്റെ മുടി അച്ഛൻ തന്നെയാണ് വെട്ടുന്നത്.", "roman": "aniyande muṭi acchan tanneyāṇŭ veṭṭunnatŭ.", "en": "Dad cuts my little brother's hair himself.", "focus": "വെട്ടുന്നത്", "wrong": ["വെട്ടിക്കുന്നത്|veṭṭikkunnatŭ", "വെട്ടി|veṭṭi"] },
+        { "native": "ഇവിടെ കുറച്ചുകൂടി കുറയ്ക്കാമോ?", "roman": "iviṭe kuṟacchukūṭi kuṟaykkāmō?", "en": "Could you take a bit more off here?" },
+        { "native": "കുട്ടികളുടെ മുടി വെട്ടിക്കാൻ ഒരുപാട് ബുദ്ധിമുട്ടാണ്.", "roman": "kuṭṭikaḷuṭe muṭi veṭṭikkān orupāṭŭ buddhimuṭṭāṇŭ.", "en": "Getting the kids' hair cut is such a struggle.", "focus": "വെട്ടിക്കാൻ", "wrong": ["വെട്ടിച്ച്|veṭṭicchŭ", "വെട്ടിക്കും|veṭṭikkum"] },
+        { "native": "കല്യാണത്തിന് മുമ്പ് മുടി വെട്ടിക്കാൻ മറക്കല്ലേ!", "roman": "kalyāṇattinŭ mumbŭ muṭi veṭṭikkān maṟakkallē!", "en": "Don't forget to get a haircut before the wedding!", "focus": "വെട്ടിക്കാൻ", "wrong": ["വെട്ടിച്ചു|veṭṭicchu", "വെട്ടിക്കണം|veṭṭikkaṇam"] },
+        { "native": "അച്ഛൻ എന്നെക്കൊണ്ട് ബില്ല് അടപ്പിച്ചു.", "roman": "acchan ennekkoṇḍŭ billŭ aṭappicchu.", "en": "Dad made me pay the bill.", "focus": "അടപ്പിച്ചു", "wrong": ["അടച്ചു|aṭacchu", "അടഞ്ഞു|aṭaññu"] },
+        { "native": "അയൽക്കാരനെക്കൊണ്ട് ഫാൻ മാറ്റിച്ചു.", "roman": "ayalkkāranekkoṇḍŭ fān māṯṯicchu.", "en": "I got the neighbour to change the fan.", "focus": "മാറ്റിച്ചു", "wrong": ["മാറ്റി|māṯṯi", "മാറി|māṟi"] }
+      ]
+    },
+    {
+      "title": "At the tailor's",
+      "new": ["ടെയിലർ", "തയ്ക്കുക", "അളവ്", "ചുരിദാർ", "ഏൽപ്പിക്കുക", "നാളെ വൈകുന്നേരത്തേക്ക് റെഡിയാകും."],
+      "sentences": [
+        { "native": "വിഷുവിന് ഒരു പുതിയ ചുരിദാർ തയ്പ്പിക്കണം.", "roman": "viṣuvinŭ oru putiya churidār tayppikkaṇam.", "en": "I need to get a new churidar stitched for Vishu.", "focus": "തയ്പ്പിക്കണം", "wrong": ["തയ്ച്ചു|taycchu", "തയ്പ്പിച്ചു|tayppicchu"] },
+        { "native": "ഞങ്ങളുടെ ടെയിലർ ചേച്ചി നല്ല ഭംഗിയായി തയ്ക്കും.", "roman": "ñaṅṅaḷuṭe ṭeyilar chēcchi nalla bhaṅgiyāyi taykkum.", "en": "Our tailor does lovely stitching." },
+        { "native": "ആദ്യം ചേച്ചി അളവ് എടുക്കും.", "roman": "ādyam chēcchi aḷavŭ eṭukkum.", "en": "First she'll take your measurements." },
+        { "native": "ഈ ഷർട്ട് ഞാൻ അവിടെ നിന്നാണ് തയ്പ്പിച്ചത്.", "roman": "ī ṣarṭṭŭ ñān aviṭe ninnāṇŭ tayppicchatŭ.", "en": "That's where I got this shirt stitched.", "focus": "തയ്പ്പിച്ചത്", "wrong": ["തയ്പ്പിക്കും|tayppikkum", "തയ്ക്കുന്നത്|taykkunnatŭ"] },
+        { "native": "ഓണത്തിന് മുമ്പ് ടെയിലർമാർക്ക് നല്ല തിരക്കാണ്.", "roman": "ōṇattinŭ mumbŭ ṭeyilarmārkkŭ nalla tirakkāṇŭ.", "en": "Before Onam the tailors are really busy." },
+        { "native": "ബ്ലൗസ് ടെയിലറുടെ അടുത്ത് ഏൽപ്പിച്ചിട്ടുണ്ട്.", "roman": "blausŭ ṭeyilaṟuṭe aṭuttŭ ēlppicchiṭṭuṇḍŭ.", "en": "I've left the blouse with the tailor." },
+        { "native": "ചേച്ചീ, ഇത് അടുത്ത ആഴ്ചത്തേക്ക് തയ്ച്ചുതരാമോ?", "roman": "chēcchī, itŭ aṭutta āḻchattēkkŭ taycchutarāmō?", "en": "Chechi, could you stitch this for me by next week?", "focus": "തയ്ച്ചുതരാമോ", "wrong": ["തയ്ക്കാൻ|taykkān", "തയ്ച്ചു|taycchu"] },
+        { "native": "സാരി കടയിൽ ഏൽപ്പിച്ചാൽ മതി, നാളെ വൈകുന്നേരത്തേക്ക് റെഡിയാകും.", "roman": "sāri kaṭayil ēlppicchāl mati, nāḷe vaikunnērattēkkŭ ṟeḍiyākum.", "en": "Just leave the saree at the shop; it'll be ready by tomorrow evening." },
+        { "native": "ഇതിന് സൈസ് കുറച്ച് കൂടുതലാണ്, ഒന്ന് ചെറുതാക്കിത്തരാമോ?", "roman": "itinŭ saisŭ kuṟacchŭ kūṭutalāṇŭ, onnŭ cheṟutākkittarāmō?", "en": "This is a bit big — could you take it in for me?" },
+        { "native": "എന്റെ പഴയ അളവ് ഉണ്ടല്ലോ, അത് മതി.", "roman": "ende paḻaya aḷavŭ uṇḍallō, atŭ mati.", "en": "You've got my old measurements — those will do." }
+      ]
+    },
+    {
+      "title": "Laundry and sending parcels",
+      "new": ["ലോൺഡ്രി", "ഇസ്തിരി", "കൊറിയർ", "അയയ്ക്കുക", "ഗൾഫ്", "ഇത് ദുബായിലേക്ക് അയയ്ക്കണം.", "ബില്ല് തരുമോ?"],
+      "sentences": [
+        { "native": "ഈ തുണികൾ ലോൺഡ്രിയിൽ കൊടുക്കണം.", "roman": "ī tuṇikaḷ lōṇḍriyil koṭukkaṇam.", "en": "These clothes need to go to the laundry." },
+        { "native": "ഷർട്ടുകൾ ഇസ്തിരിയിടാൻ കൊടുത്തിട്ടുണ്ട്.", "roman": "ṣarṭṭukaḷ istiriyiṭān koṭuttiṭṭuṇḍŭ.", "en": "I've sent the shirts for ironing.", "focus": "ഇസ്തിരിയിടാൻ", "wrong": ["ഇസ്തിരിയിട്ട്|istiriyiṭṭŭ", "ഇസ്തിരിയിട്ടു|istiriyiṭṭu"] },
+        { "native": "ഈ മുണ്ട് ഒന്ന് ഇസ്തിരിയിടണം.", "roman": "ī muṇḍŭ onnŭ istiriyiṭaṇam.", "en": "This mundu needs ironing." },
+        { "native": "ലോൺഡ്രിയിൽ നിന്ന് തുണി എപ്പോൾ കിട്ടും?", "roman": "lōṇḍriyil ninnŭ tuṇi eppōḷ kiṭṭum?", "en": "When do we get the clothes back from the laundry?" },
+        { "native": "ഗൾഫിലേക്ക് കൊറിയർ അയയ്ക്കാൻ എത്രയാകും?", "roman": "gaḷfilēkkŭ koṟiyar ayaykkān etrayākum?", "en": "How much does it cost to send a courier to the Gulf?", "focus": "അയയ്ക്കാൻ", "wrong": ["അയച്ചു|ayacchu", "അയയ്ക്കും|ayaykkum"] },
+        { "native": "അമ്മ ദുബായിലുള്ള ചേട്ടന് ഒരു പാഴ്സൽ അയച്ചു.", "roman": "amma dubāyiluḷḷa chēṭṭanŭ oru pārsal ayacchu.", "en": "Mum sent a parcel to my brother in Dubai." },
+        { "native": "കൊറിയർ ഇതുവരെ കിട്ടിയില്ല.", "roman": "koṟiyar ituvare kiṭṭiyilla.", "en": "The courier still hasn't arrived." },
+        { "native": "ഇതിൽ എന്തൊക്കെയാണ് ഉള്ളത്?", "roman": "itil endokkeyāṇŭ uḷḷatŭ?", "en": "What's inside this?" },
+        { "native": "ചേട്ടാ, അതിന്റെ ബില്ല് കൂടി തരുമോ?", "roman": "chēṭṭā, atinde billŭ kūṭi tarumō?", "en": "Could you give me the receipt for that too?" },
+        { "native": "സ്ക്രീൻ മാറ്റാൻ ഫോൺ ഷോപ്പിൽ കൊടുത്തിട്ടുണ്ട്.", "roman": "skrīn māṯṯān fōṇ ṣōppil koṭuttiṭṭuṇḍŭ.", "en": "I've given the phone in at the shop to get the screen replaced.", "focus": "മാറ്റാൻ", "wrong": ["മാറ്റി|māṯṯi", "മാറ്റും|māṯṯum"] }
+      ]
+    }
+  ]
+}

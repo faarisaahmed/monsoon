@@ -1,0 +1,182 @@
+{
+  "id": 22,
+  "title": "Calls, texts & voice notes",
+  "goal": "Handle phone calls (bad signal, call you back, why didn't you pick up?), send texts and voice messages, share your location, and say what you've already done or still haven't.",
+  "intro": "Kerala lives on the phone: WhatsApp groups for family, college and work, voice messages to grandparents, video calls to cousins in the Gulf, and the eternal 'where are you? — share your location'. Most of the vocabulary is English (**കോൾ, മെസേജ്, ലൊക്കേഷൻ, ഷെയർ ചെയ്യുക**), glued into Malayalam with verbs like **ചെയ്യുക** 'do', **ഇടുക** 'put' and **ആകുക** 'become'.\n\nThe grammar is what makes it flow: **-ഇട്ട്** 'after doing' (**എത്തിയിട്ട് വിളിക്കാം** 'I'll call once I'm there'), **-ആതെ** 'without', **-ഇട്ടും** 'even though', and the little time words **ഇപ്പോഴും** 'still', **ഇതുവരെ** '(not) yet', **ഇനിയും** 'still / more', and **എത്തിയതേയുള്ളൂ** 'have only just arrived'.",
+  "vocab": [
+    { "native": "കോൾ", "roman": "kōḷ", "en": "phone call", "pos": "noun", "note": "കോൾ വന്നു 'a call came', കോൾ എടുക്കുക 'to answer'. Also: ഫോൺ വിളിക്കുക 'to phone'." },
+    { "native": "റേഞ്ച്", "roman": "ṟēñjŭ", "en": "phone signal, network coverage", "pos": "noun", "note": "Kerala English: റേഞ്ച് ഇല്ല 'no signal', റേഞ്ച് കുറവാണ് 'the signal's weak'." },
+    { "native": "ഉറക്കെ", "roman": "uṟakke", "en": "loudly, aloud", "pos": "adv" },
+    { "native": "കട്ട് ചെയ്യുക", "roman": "kaṭṭŭ cheyyuka", "en": "to hang up, cut (a call)", "pos": "verb", "note": "Intransitive 'it got cut off': കട്ട് ആയി." },
+    { "native": "തിരിച്ചുവിളിക്കുക", "roman": "tiricchuviḷikkuka", "en": "to call back", "pos": "verb", "note": "Past തിരിച്ചുവിളിച്ചു." },
+    { "native": "മിസ്ഡ് കോൾ", "roman": "misḍŭ kōḷ", "en": "missed call", "pos": "noun" },
+    { "native": "ബിസി", "roman": "bisi", "en": "busy (on another call; or just busy)", "pos": "adj", "note": "ബിസി ആണ് 'it's engaged / I'm busy'. Native: തിരക്ക്." },
+    { "native": "സ്വിച്ച് ഓഫ്", "roman": "svicchŭ ōfŭ", "en": "switched off", "pos": "adj", "note": "ഫോൺ സ്വിച്ച് ഓഫ് ആണ് / ആയി." },
+    { "native": "ചാർജ്", "roman": "chārjŭ", "en": "(battery) charge", "pos": "noun", "note": "ചാർജ് ഇല്ല 'my battery's dead', ചാർജിൽ ഇടുക 'to put on charge'." },
+    { "native": "മെസേജ്", "roman": "mesējŭ", "en": "message, text", "pos": "noun", "note": "മെസേജ് ഇടുക / അയയ്ക്കുക 'to send a message'." },
+    { "native": "വോയ്സ് മെസേജ്", "roman": "vōysŭ mesējŭ", "en": "voice message, voice note", "pos": "noun", "note": "Often just വോയ്സ്: ഒരു വോയ്സ് ഇട് 'send a voice note'." },
+    { "native": "വാട്സാപ്പ്", "roman": "vāṭsāppŭ", "en": "WhatsApp", "pos": "noun" },
+    { "native": "ഇടുക", "roman": "iṭuka", "en": "to put; to post, send (a message); to wear", "pos": "verb", "note": "Past ഇട്ടു; informal command ഇട്. ഗ്രൂപ്പിൽ ഇടുക 'post on the group'." },
+    { "native": "റിപ്ലൈ", "roman": "ṟiplai", "en": "reply", "pos": "noun", "note": "റിപ്ലൈ ചെയ്യുക / തരുക 'to reply'. Native: മറുപടി." },
+    { "native": "ചാറ്റ്", "roman": "chāṯṯŭ", "en": "chat", "pos": "noun", "note": "ചാറ്റ് ചെയ്യുക 'to chat (online)'." },
+    { "native": "ഇപ്പോഴും", "roman": "ippōḻum", "en": "still (even now)", "pos": "adv" },
+    { "native": "ഇനിയും", "roman": "iniyum", "en": "still, yet (more to come); again", "pos": "adv", "note": "ഇനിയും സമയമുണ്ട് 'there's still time'; ഇനിയും വന്നില്ലേ? 'still not here?'" },
+    { "native": "ഓൺലൈൻ", "roman": "ōṇlain", "en": "online", "pos": "adj", "note": "ഓൺലൈനിൽ ഉണ്ട് 'is online'." },
+    { "native": "സ്റ്റാറ്റസ്", "roman": "sṯṯāṯṯasŭ", "en": "(WhatsApp) status", "pos": "noun", "note": "സ്റ്റാറ്റസ് ഇടുക / ആക്കുക 'to post as your status'." },
+    { "native": "ഫോട്ടോ", "roman": "fōṭṭō", "en": "photo", "pos": "noun", "note": "ഫോട്ടോ എടുക്കുക 'to take a photo'." },
+    { "native": "സ്ക്രീൻഷോട്ട്", "roman": "skrīnṣōṭṭŭ", "en": "screenshot", "pos": "noun" },
+    { "native": "ലൊക്കേഷൻ", "roman": "lokkēṣan", "en": "(shared) location", "pos": "noun" },
+    { "native": "ഷെയർ ചെയ്യുക", "roman": "ṣeyar cheyyuka", "en": "to share", "pos": "verb" },
+    { "native": "സേവ് ചെയ്യുക", "roman": "sēvŭ cheyyuka", "en": "to save (a number, a file)", "pos": "verb" },
+    { "native": "ഡിലീറ്റ് ചെയ്യുക", "roman": "ḍilīṯṯŭ cheyyuka", "en": "to delete", "pos": "verb" },
+    { "native": "വീഡിയോ കോൾ", "roman": "vīḍiyō kōḷ", "en": "video call", "pos": "noun", "note": "വീഡിയോ കോൾ ചെയ്യുക 'to video-call'." }
+  ],
+  "phrases": [
+    { "native": "ഹലോ, ആരാ?", "roman": "halō, ārā?", "en": "Hello, who's this?" },
+    { "native": "കേൾക്കാമോ?", "roman": "kēḷkkāmō?", "en": "Can you hear me?" },
+    { "native": "ഒന്നും കേൾക്കുന്നില്ല, റേഞ്ച് ഇല്ല.", "roman": "onnum kēḷkkunnilla, ṟēñjŭ illa.", "en": "I can't hear anything, there's no signal." },
+    { "native": "ഒന്ന് ഉറക്കെ പറയാമോ?", "roman": "onnŭ uṟakke paṟayāmō?", "en": "Could you speak a bit louder?" },
+    { "native": "ഞാൻ ബസിലാണ്, പിന്നെ തിരിച്ചുവിളിക്കാം.", "roman": "ñān basilāṇŭ, pinne tiricchuviḷikkām.", "en": "I'm on the bus, I'll call you back later." },
+    { "native": "നീ എന്താ ഫോൺ എടുക്കാത്തത്?", "roman": "nī endā fōṇ eṭukkāttatŭ?", "en": "Why aren't you picking up? (informal)" },
+    { "native": "നിന്റെ മിസ്ഡ് കോൾ കണ്ടു.", "roman": "ninde misḍŭ kōḷ kaṇḍu.", "en": "I saw your missed call." },
+    { "native": "ഫോൺ സ്വിച്ച് ഓഫ് ആയിരുന്നു.", "roman": "fōṇ svicchŭ ōfŭ āyirunnu.", "en": "My phone was switched off." },
+    { "native": "ചാർജ് തീരാറായി.", "roman": "chārjŭ tīrāṟāyi.", "en": "My battery's about to die." },
+    { "native": "എത്തിയിട്ട് മെസേജ് ഇട്.", "roman": "ettiyiṭṭŭ mesējŭ iṭŭ.", "en": "Text me when you get there. (informal)", "note": "Polite: എത്തിയിട്ട് മെസേജ് ഇടണേ." },
+    { "native": "വോയ്സ് മെസേജ് ഇടാം.", "roman": "vōysŭ mesējŭ iṭām.", "en": "I'll send a voice message." },
+    { "native": "മെസേജ് കണ്ടിട്ടും റിപ്ലൈ ഇല്ല!", "roman": "mesējŭ kaṇḍiṭṭum ṟiplai illa!", "en": "Seen it and still no reply!" },
+    { "native": "ഞാൻ ഇപ്പോൾ എത്തിയതേയുള്ളൂ.", "roman": "ñān ippōḷ ettiyatēyuḷḷū.", "en": "I've only just got here." },
+    { "native": "അവൻ ഇപ്പോഴും ഓൺലൈനിൽ ഉണ്ട്.", "roman": "avan ippōḻum ōṇlainil uṇḍŭ.", "en": "He's still online." },
+    { "native": "ലൊക്കേഷൻ ഒന്ന് ഷെയർ ചെയ്യ്.", "roman": "lokkēṣan onnŭ ṣeyar cheyyŭ.", "en": "Share your location, will you. (informal)", "note": "Polite: ലൊക്കേഷൻ ഒന്ന് ഷെയർ ചെയ്യാമോ?" }
+  ],
+  "grammar": [
+    {
+      "title": "After, without, even though: -ഇട്ട്, -ആതെ, -ഇട്ടും",
+      "body": "In Unit 20 you chained actions with the half-u participle (കണ്ട്, വന്ന്). Three related endings do a lot of work in everyday messages:\n\n• **-ഇട്ട്** 'after doing, once (I've) done': add it to the past form: എത്തി → **എത്തിയിട്ട്**, കഴിച്ചു → **കഴിച്ചിട്ട്**, കണ്ടു → **കണ്ടിട്ട്**, ഇട്ടു → **ഇട്ടിട്ട്**. എത്തിയിട്ട് വിളിക്കാം 'I'll call once I get there'. Compared with plain കഴിച്ച്, **കഴിച്ചിട്ട്** stresses that one thing happens *first*.\n• **-ആതെ** 'without (doing)': the negative stem + -ആതെ: പറയുക → **പറയാതെ**, എടുക്കുക → **എടുക്കാതെ**, വരുക → **വരാതെ**. ഒന്നും പറയാതെ പോയി 'left without saying anything'.\n• **-ഇട്ടും** 'even though, despite': **വിളിച്ചിട്ടും** എടുത്തില്ല 'I called, but he still didn't pick up'; **കണ്ടിട്ടും** റിപ്ലൈ ഇല്ല 'seen it, yet no reply'.\n\nAnd a related question you'll hear constantly: **എന്താ** + verb-**ആത്തത്?** 'why didn't / don't you…?': **എന്താ എടുക്കാത്തത്?** 'why aren't you answering?', **എന്താ വരാത്തത്?** 'why aren't you coming?' (built from the negative relative -ആത്ത + -ത്).",
+      "examples": [
+        { "native": "വീട്ടിൽ എത്തിയിട്ട് വിളിക്കാം.", "roman": "vīṭṭil ettiyiṭṭŭ viḷikkām.", "en": "I'll call you once I'm home." },
+        { "native": "ഫോട്ടോ എടുത്തിട്ട് ഗ്രൂപ്പിൽ ഇട്.", "roman": "fōṭṭō eṭuttiṭṭŭ grūppil iṭŭ.", "en": "Take a photo and post it on the group." },
+        { "native": "അവൾ ഒരു മെസേജ് പോലും ഇടാതെ ഗോവയ്ക്ക് പോയി.", "roman": "avaḷ oru mesējŭ pōlum iṭāte gōvaykkŭ pōyi.", "en": "She went off to Goa without even sending a message." },
+        { "native": "ഞാൻ വിളിച്ചിട്ടും അവൻ എടുത്തില്ല.", "roman": "ñān viḷicchiṭṭum avan eṭuttilla.", "en": "Even though I called, he didn't pick up." },
+        { "native": "നീ എന്താ ഇന്നലെ വരാത്തത്?", "roman": "nī endā innale varāttatŭ?", "en": "Why didn't you come yesterday?" }
+      ]
+    },
+    {
+      "title": "Still, (not) yet, already, only just",
+      "body": "English uses four little words; Malayalam does it partly with words and partly with verb forms:\n\n• **still**: **ഇപ്പോഴും** 'even now': അവൻ ഇപ്പോഴും ഓഫീസിലാണ് 'he's still at the office'. With a negative it means 'still not': ഇപ്പോഴും വന്നില്ല 'still hasn't come'.\n• **(not) yet**: just the negative past, optionally with **ഇതുവരെ** 'so far': ഇതുവരെ റിപ്ലൈ വന്നില്ല 'no reply yet'. Short answer to 'have you…?': **ഇല്ല, ഇതുവരെ ഇല്ല** 'no, not yet'.\n• **ഇനിയും** 'still (more), yet': ഇനിയും സമയമുണ്ട് 'there's still time', ഇനിയും വന്നില്ലേ? 'still not here?' (impatient).\n• **already**: usually the plain past is enough (ഞാൻ കഴിച്ചു 'I've already eaten'). To stress it, add **കഴിഞ്ഞു** 'finished' to the participle — തുടങ്ങി**ക്കഴിഞ്ഞു** 'has already started' — or use **നേരത്തെ** 'earlier': ഞാൻ നേരത്തെ പറഞ്ഞു 'I already told you'.\n• **just / only just**: **ഇപ്പോൾ** + past = 'just now': ഇപ്പോൾ വിളിച്ചു 'he just called'. 'Only just' uses the -ത് form + **-ഏ ഉള്ളൂ** 'there is only': എത്തിയത് → **എത്തിയതേയുള്ളൂ** 'have only just arrived', ഉണർന്നതേയുള്ളൂ 'only just woke up'.\n\nThe trap: ഇതുവരെ goes with a negative ('not yet'); 'still' with a positive verb is ഇപ്പോഴും.",
+      "examples": [
+        { "native": "അവൻ ഇപ്പോഴും ഫോൺ എടുക്കുന്നില്ല.", "roman": "avan ippōḻum fōṇ eṭukkunnilla.", "en": "He's still not picking up." },
+        { "native": "ഇതുവരെ റിപ്ലൈ വന്നില്ല.", "roman": "ituvare ṟiplai vannilla.", "en": "No reply yet." },
+        { "native": "ഇനിയും പത്ത് മിനിറ്റ് ഉണ്ട്.", "roman": "iniyum pattŭ miniṯṯŭ uṇḍŭ.", "en": "There's still ten minutes." },
+        { "native": "സിനിമ തുടങ്ങിക്കഴിഞ്ഞു.", "roman": "sinima tuṭaṅṅikkaḻiññu.", "en": "The film has already started." },
+        { "native": "അവൾ ഇപ്പോൾ വിളിച്ചതേയുള്ളൂ.", "roman": "avaḷ ippōḷ viḷicchatēyuḷḷū.", "en": "She only just called." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A call to Dubai",
+    "setting": "Shameer, on a bus in Kozhikode, calls his elder sister Fathima, who works in Dubai. An hour later he tries again.",
+    "lines": [
+      { "speaker": "Shameer", "native": "ഹലോ? ഇത്താ, കേൾക്കാമോ?", "roman": "halō? ittā, kēḷkkāmō?", "en": "Hello? Itha, can you hear me?" },
+      { "speaker": "Fathima", "native": "ഹലോ, ഷമീറേ! ശബ്ദം മുറിഞ്ഞുപോകുന്നു. ഒന്ന് ഉറക്കെ പറ.", "roman": "halō, shamīṟē! shabdam muṟiññupōkunnu. onnŭ uṟakke paṟa.", "en": "Hello, Shameer! You're breaking up. Speak up a bit." },
+      { "speaker": "Shameer", "native": "ഞാൻ ബസിലാണ്, ഇവിടെ റേഞ്ച് കുറവാണ്.", "roman": "ñān basilāṇŭ, iviṭe ṟēñjŭ kuṟavāṇŭ.", "en": "I'm on the bus, the signal's weak here." },
+      { "speaker": "Fathima", "native": "ശരി, കട്ട് ചെയ്യ്. വീട്ടിൽ എത്തിയിട്ട് തിരിച്ചുവിളിക്ക്.", "roman": "shari, kaṭṭŭ cheyyŭ. vīṭṭil ettiyiṭṭŭ tiricchuviḷikkŭ.", "en": "OK, hang up. Call me back once you're home." },
+      { "speaker": "Shameer", "native": "ഇത്താ, ഞാൻ എത്ര വിളിച്ചു! എന്താ എടുക്കാത്തത്?", "roman": "ittā, ñān etra viḷicchu! endā eṭukkāttatŭ?", "en": "Itha, I called so many times! Why didn't you pick up?" },
+      { "speaker": "Fathima", "native": "സോറി ഡാ, ഫോൺ ചാർജിൽ ഇട്ടിട്ട് ഞാൻ കുളിക്കുകയായിരുന്നു.", "roman": "sōṟi ḍā, fōṇ chārjil iṭṭiṭṭŭ ñān kuḷikkukayāyirunnu.", "en": "Sorry, I put the phone on charge and was in the shower." },
+      { "speaker": "Shameer", "native": "ഇത്ത എപ്പോഴാ നാട്ടിൽ വരുന്നതെന്ന് ഉമ്മ ഇപ്പോഴും ചോദിക്കുന്നു.", "roman": "itta eppōḻā nāṭṭil varunnatennŭ umma ippōḻum chōdikkunnu.", "en": "Umma keeps asking when you're coming home." },
+      { "speaker": "Fathima", "native": "ടിക്കറ്റ് ഇതുവരെ ബുക്ക് ചെയ്തിട്ടില്ല. ലീവ് ഇനിയും ശരിയായിട്ടില്ല.", "roman": "ṭikkaṯṯŭ ituvare bukkŭ cheytiṭṭilla. līvŭ iniyum shariyāyiṭṭilla.", "en": "I haven't booked a ticket yet. My leave still hasn't been sorted out." },
+      { "speaker": "Shameer", "native": "എന്നാൽ ഉമ്മയ്ക്ക് ഒരു വോയ്സ് മെസേജ് ഇട്. അതാ ഉമ്മയ്ക്ക് ഇഷ്ടം.", "roman": "ennāl ummaykkŭ oru vōysŭ mesējŭ iṭŭ. atā ummaykkŭ iṣṭam.", "en": "Then send Umma a voice message. That's what she likes." },
+      { "speaker": "Fathima", "native": "ഇടാം. ഇന്ന് രാത്രി ഒരു വീഡിയോ കോൾ ചെയ്താലോ? എല്ലാവരെയും കാണാമല്ലോ.", "roman": "iṭām. innŭ rātri oru vīḍiyō kōḷ cheytālō? ellāvareyum kāṇāmallō.", "en": "I will. How about a video call tonight? Then I can see everyone." },
+      { "speaker": "Shameer", "native": "അടിപൊളി! പിന്നെ, ഇത്തയുടെ പുതിയ മുറിയുടെ ഫോട്ടോ ഇതുവരെ ഗ്രൂപ്പിൽ ഇട്ടില്ലല്ലോ!", "roman": "aṭipoḷi! pinne, ittayuṭe putiya muṟiyuṭe fōṭṭō ituvare grūppil iṭṭillallō!", "en": "Great! And you still haven't posted photos of your new room on the group!" },
+      { "speaker": "Fathima", "native": "ഓ, മറന്നു! ഇപ്പോൾ തന്നെ ഇടാം… ദാ, ഇട്ടു.", "roman": "ō, maṟannu! ippōḷ tanne iṭām… dā, iṭṭu.", "en": "Oh, I forgot! I'll post them right now… there, done." },
+      { "speaker": "Shameer", "native": "കിട്ടി! കൊള്ളാമല്ലോ. ശരി, രാത്രി കാണാം.", "roman": "kiṭṭi! koḷḷāmallō. shari, rātri kāṇām.", "en": "Got them! Looks nice. OK, see you tonight." }
+    ]
+  },
+  "culture": "Answering the phone, Malayalis say **ഹലോ**; to a friend you'll often hear just **ആ, പറ** 'yeah, go on' — no greeting needed. Calling someone repeatedly when they don't answer is normal, and **എന്താ ഫോൺ എടുക്കാത്തത്?** is the standard (half-joking) complaint. Siblings and cousins use titles rather than names upward: a younger brother calls his sister **ചേച്ചി** — or **ഇത്താത്ത / ഇത്ത** in many Muslim families of Malabar, where mum is **ഉമ്മ** and dad **ഉപ്പ** or **ബാപ്പ**.\n\n**Voice messages** are everywhere, especially with parents and grandparents who'd rather talk than type. Young people text in **Manglish** — Malayalam typed in English letters ('njan ethi', 'evide aa?', 'ok da') — and Malayalam script is mostly for elders, news and formal messages. Leaving a message on 'seen' without replying is a classic source of friendly (or not-so-friendly) complaints.\n\nWith around two million Malayalis in the Gulf, video calls home are a daily ritual. In the UAE, WhatsApp voice and video calls are restricted, so families use approved apps such as Botim — but WhatsApp groups and voice notes carry on as usual.",
+  "lessons": [
+    {
+      "title": "Hello, can you hear me?",
+      "tip": { "title": "On the phone", "body": "- Answer **ഹലോ**; to a friend, just **ആ, പറ** 'yeah, go on'.\n- **കേൾക്കാമോ?** 'can you hear me?' → **കേൾക്കാം** / **കേൾക്കുന്നില്ല**.\n- Bad line: **റേഞ്ച് ഇല്ല**; **കട്ട് ആകുന്നു** 'it keeps cutting out' (ആകുക 'become'), but **കട്ട് ചെയ്യുന്നു** 'I'm hanging up' (ചെയ്യുക 'do')." },
+      "new": ["കോൾ", "റേഞ്ച്", "ഉറക്കെ", "കട്ട് ചെയ്യുക", "ഹലോ, ആരാ?", "കേൾക്കാമോ?", "ഒന്നും കേൾക്കുന്നില്ല, റേഞ്ച് ഇല്ല.", "ഒന്ന് ഉറക്കെ പറയാമോ?"],
+      "sentences": [
+        { "native": "ഹലോ, ആരാ? ഈ നമ്പർ എനിക്ക് അറിയില്ല.", "roman": "halō, ārā? ī nambar enikkŭ aṟiyilla.", "en": "Hello, who's this? I don't know this number." },
+        { "native": "ആ, പറ. ഞാൻ ഓഫീസിലാണ്.", "roman": "ā, paṟa. ñān ōfīsilāṇŭ.", "en": "Yeah, go on. I'm at the office." },
+        { "native": "ഹലോ, കേൾക്കാമോ? ഞാൻ ട്രെയിനിലാണ്.", "roman": "halō, kēḷkkāmō? ñān ṭreyinilāṇŭ.", "en": "Hello, can you hear me? I'm on the train.", "focus": "കേൾക്കാമോ", "wrong": ["കേട്ടു|kēṭṭu", "കേൾക്കുക|kēḷkkuka"] },
+        { "native": "ഇപ്പോൾ കേൾക്കാം, പറ.", "roman": "ippōḷ kēḷkkām, paṟa.", "en": "I can hear you now, go on.", "focus": "കേൾക്കാം", "wrong": ["കേൾക്കാമോ|kēḷkkāmō", "കേട്ടു|kēṭṭu"] },
+        { "native": "ഒന്നും കേൾക്കുന്നില്ല, റേഞ്ച് ഇല്ല. ഞാൻ പുറത്ത് വന്ന് വിളിക്കാം.", "roman": "onnum kēḷkkunnilla, ṟēñjŭ illa. ñān puṟattŭ vannŭ viḷikkām.", "en": "I can't hear a thing, there's no signal. I'll go outside and call you." },
+        { "native": "വീട്ടിൽ റേഞ്ച് കുറവാണ്, കോൾ കട്ട് ആകുന്നു.", "roman": "vīṭṭil ṟēñjŭ kuṟavāṇŭ, kōḷ kaṭṭŭ ākunnu.", "en": "The signal at home is weak, the call keeps dropping.", "focus": "ആകുന്നു", "wrong": ["ചെയ്യുന്നു|cheyyunnu", "ആണ്|āṇŭ"] },
+        { "native": "ഒന്ന് ഉറക്കെ പറയാമോ? ഞാൻ റോഡിലാണ്.", "roman": "onnŭ uṟakke paṟayāmō? ñān ṟōḍilāṇŭ.", "en": "Could you speak up a bit? I'm out on the road." },
+        { "native": "ഞാൻ കട്ട് ചെയ്യുന്നു, പിന്നെ വിളിക്കാം.", "roman": "ñān kaṭṭŭ cheyyunnu, pinne viḷikkām.", "en": "I'm hanging up, I'll call you later.", "focus": "ചെയ്യുന്നു", "wrong": ["ആകുന്നു|ākunnu", "ആണ്|āṇŭ"] },
+        { "native": "ഉറക്കെ പറ, ഒന്നും കേൾക്കുന്നില്ല!", "roman": "uṟakke paṟa, onnum kēḷkkunnilla!", "en": "Speak up, I can't hear anything!", "focus": "പറ", "wrong": ["പറയുക|paṟayuka", "പറഞ്ഞു|paṟaññu"] },
+        { "native": "ഈ കോൾ കഴിഞ്ഞിട്ട് ഞാൻ നിന്നെ വിളിക്കാം.", "roman": "ī kōḷ kaḻiññiṭṭŭ ñān ninne viḷikkām.", "en": "I'll call you after this call." }
+      ]
+    },
+    {
+      "title": "I'll call you back",
+      "tip": { "title": "After, without, even though", "body": "- Past + **-ഇട്ട്** = 'after, once': എത്തിയിട്ട് വിളിക്കാം 'I'll call once I'm there'.\n- **-ആതെ** = 'without': പറയാതെ 'without telling'.\n- **-ഇട്ടും** = 'even though': വിളിച്ചിട്ടും എടുത്തില്ല.\n- **എന്താ** + verb-**ആത്തത്?** = 'why didn't you…?': എന്താ എടുക്കാത്തത്?", "pattern": "past-ഇട്ട് + verb · verb-ആതെ + verb", "grammar": 0 },
+      "new": ["തിരിച്ചുവിളിക്കുക", "മിസ്ഡ് കോൾ", "ബിസി", "സ്വിച്ച് ഓഫ്", "ചാർജ്", "ഞാൻ ബസിലാണ്, പിന്നെ തിരിച്ചുവിളിക്കാം.", "നീ എന്താ ഫോൺ എടുക്കാത്തത്?", "നിന്റെ മിസ്ഡ് കോൾ കണ്ടു.", "ഫോൺ സ്വിച്ച് ഓഫ് ആയിരുന്നു.", "ചാർജ് തീരാറായി."],
+      "sentences": [
+        { "native": "ഞാൻ ബസിലാണ്, ഇറങ്ങിയിട്ട് തിരിച്ചുവിളിക്കാം.", "roman": "ñān basilāṇŭ, iṟaṅṅiyiṭṭŭ tiricchuviḷikkām.", "en": "I'm on the bus — I'll call you back once I get off.", "focus": "ഇറങ്ങിയിട്ട്", "wrong": ["ഇറങ്ങി|iṟaṅṅi", "ഇറങ്ങാതെ|iṟaṅṅāte"] },
+        { "native": "നീ എന്താ ഫോൺ എടുക്കാത്തത്? ഞാൻ ഒരുപാട് വിളിച്ചു!", "roman": "nī endā fōṇ eṭukkāttatŭ? ñān orupāṭŭ viḷicchu!", "en": "Why aren't you picking up? I've called loads of times!", "focus": "എടുക്കാത്തത്", "wrong": ["എടുത്തത്|eṭuttatŭ", "എടുക്കാതെ|eṭukkāte"] },
+        { "native": "നിന്റെ മിസ്ഡ് കോൾ കണ്ടു, എന്താ കാര്യം?", "roman": "ninde misḍŭ kōḷ kaṇḍu, endā kāryam?", "en": "I saw your missed call — what's up?" },
+        { "native": "ഒരുപാട് വിളിച്ചിട്ടും അവൻ എടുത്തില്ല, ബിസി ആയിരുന്നു.", "roman": "orupāṭŭ viḷicchiṭṭum avan eṭuttilla, bisi āyirunnu.", "en": "I called and called but he didn't pick up — he was busy.", "focus": "വിളിച്ചിട്ടും", "wrong": ["വിളിച്ചിട്ട്|viḷicchiṭṭŭ", "വിളിക്കാതെ|viḷikkāte"] },
+        { "native": "ഫോൺ സ്വിച്ച് ഓഫ് ആയിരുന്നു, ചാർജ് ഇല്ലായിരുന്നു.", "roman": "fōṇ svicchŭ ōfŭ āyirunnu, chārjŭ illāyirunnu.", "en": "My phone was off — the battery was dead." },
+        { "native": "ചാർജ് തീരാറായി, വീട്ടിൽ എത്തിയിട്ട് വിളിക്കാം.", "roman": "chārjŭ tīrāṟāyi, vīṭṭil ettiyiṭṭŭ viḷikkām.", "en": "My battery's nearly dead — I'll call you once I'm home.", "focus": "എത്തിയിട്ട്", "wrong": ["എത്തി|etti", "എത്താതെ|ettāte"] },
+        { "native": "അവൻ ഒന്നും പറയാതെ കട്ട് ചെയ്തു.", "roman": "avan onnum paṟayāte kaṭṭŭ cheytu.", "en": "He hung up without saying anything.", "focus": "പറയാതെ", "wrong": ["പറഞ്ഞിട്ട്|paṟaññiṭṭŭ", "പറഞ്ഞു|paṟaññu"] },
+        { "native": "അവന്റെ ഫോൺ ബിസി ആണ്, കുറച്ച് കഴിഞ്ഞ് നോക്കാം.", "roman": "avande fōṇ bisi āṇŭ, kuṟacchŭ kaḻiññŭ nōkkām.", "en": "His phone's engaged — let's try again in a bit." },
+        { "native": "അമ്മയോട് പറയാതെ പോകരുത്.", "roman": "ammayōṭŭ paṟayāte pōkarutŭ.", "en": "Don't go without telling Mum.", "focus": "പറയാതെ", "wrong": ["പറഞ്ഞിട്ട്|paṟaññiṭṭŭ", "പറയുക|paṟayuka"] },
+        { "native": "എന്താ തിരിച്ചുവിളിക്കാത്തത്? ഞാൻ വെയ്റ്റ് ചെയ്യുകയായിരുന്നു.", "roman": "endā tiricchuviḷikkāttatŭ? ñān veyṯṯŭ cheyyukayāyirunnu.", "en": "Why didn't you call back? I was waiting.", "focus": "തിരിച്ചുവിളിക്കാത്തത്", "wrong": ["തിരിച്ചുവിളിച്ചത്|tiricchuviḷicchatŭ", "തിരിച്ചുവിളിക്കാതെ|tiricchuviḷikkāte"] }
+      ]
+    },
+    {
+      "title": "Texts and voice notes",
+      "tip": { "title": "Texting words", "body": "- Send a message = **മെസേജ് ഇടുക** (to a friend: **ഇട്!**).\n- Reply = **റിപ്ലൈ ചെയ്യുക** or **റിപ്ലൈ തരുക**.\n- Messages and calls **come**: മെസേജ് **വന്നു**, കോൾ **വന്നു**.\n- Most young Malayalis text in **Manglish** — Malayalam in English letters." },
+      "new": ["മെസേജ്", "വോയ്സ് മെസേജ്", "വാട്സാപ്പ്", "ഇടുക", "റിപ്ലൈ", "ചാറ്റ്", "എത്തിയിട്ട് മെസേജ് ഇട്.", "വോയ്സ് മെസേജ് ഇടാം."],
+      "sentences": [
+        { "native": "എത്തിയിട്ട് മെസേജ് ഇട്, കേട്ടോ.", "roman": "ettiyiṭṭŭ mesējŭ iṭŭ, kēṭṭō.", "en": "Text me when you get there, OK?", "focus": "ഇട്", "wrong": ["ഇട്ടു|iṭṭu", "ഇടുക|iṭuka"] },
+        { "native": "വോയ്സ് മെസേജ് ഇടാം, എഴുതാൻ മടിയാണ്.", "roman": "vōysŭ mesējŭ iṭām, eḻutān maṭiyāṇŭ.", "en": "I'll send a voice note — can't be bothered to type." },
+        { "native": "അമ്മ വാട്സാപ്പിൽ വോയ്സ് മെസേജ് മാത്രമേ ഇടൂ.", "roman": "amma vāṭsāppil vōysŭ mesējŭ mātramē iṭū.", "en": "Mum only ever sends voice notes on WhatsApp." },
+        { "native": "നിനക്ക് എന്റെ മെസേജ് കിട്ടിയോ?", "roman": "ninakkŭ ende mesējŭ kiṭṭiyō?", "en": "Did you get my message?" },
+        { "native": "റിപ്ലൈ തരാൻ മറക്കല്ലേ.", "roman": "ṟiplai tarān maṟakkallē.", "en": "Don't forget to reply." },
+        { "native": "ഇന്നലെ രാത്രി രണ്ട് മണി വരെ ഞങ്ങൾ ചാറ്റ് ചെയ്തു.", "roman": "innale rātri raṇḍŭ maṇi vare ñaṅṅaḷ chāṯṯŭ cheytu.", "en": "We chatted till two in the morning last night." },
+        { "native": "ഈ മെസേജ് വായിച്ചിട്ട് റിപ്ലൈ ചെയ്യ്.", "roman": "ī mesējŭ vāyicchiṭṭŭ ṟiplai cheyyŭ.", "en": "Read this message and then reply.", "focus": "വായിച്ചിട്ട്", "wrong": ["വായിച്ചു|vāyicchu", "വായിക്കാതെ|vāyikkāte"] },
+        { "native": "ഒരു മെസേജ് വന്നു, ആരാണെന്ന് നോക്കട്ടെ.", "roman": "oru mesējŭ vannu, ārāṇennŭ nōkkaṭṭe.", "en": "A message came — let me see who it is.", "focus": "വന്നു", "wrong": ["ഇട്ടു|iṭṭu", "ചെയ്തു|cheytu"] },
+        { "native": "ഈ നമ്പർ വാട്സാപ്പിൽ ഉണ്ടോ?", "roman": "ī nambar vāṭsāppil uṇḍō?", "en": "Is this number on WhatsApp?" },
+        { "native": "നീ ഗ്രൂപ്പിൽ ഒന്നും ഇടാതെ എന്താ ഇരിക്കുന്നത്?", "roman": "nī grūppil onnum iṭāte endā irikkunnatŭ?", "en": "Why are you just sitting there without posting anything on the group?", "focus": "ഇടാതെ", "wrong": ["ഇട്ടിട്ട്|iṭṭiṭṭŭ", "ഇട്ടു|iṭṭu"] }
+      ]
+    },
+    {
+      "title": "Still no reply!",
+      "tip": { "title": "Still, yet, already, only just", "body": "- **ഇപ്പോഴും** 'still': ഇപ്പോഴും ഓൺലൈനിൽ ഉണ്ട്.\n- 'Not yet' = negative past (+ **ഇതുവരെ**): ഇതുവരെ വന്നില്ല.\n- **ഇനിയും** 'still (more)': ഇനിയും സമയമുണ്ട്.\n- 'Already' = the past, or + **കഴിഞ്ഞു**: തുടങ്ങിക്കഴിഞ്ഞു.\n- 'Only just' = -ത് + **ഏ ഉള്ളൂ**: എത്തിയതേയുള്ളൂ.", "pattern": "ഇപ്പോഴും … · ഇതുവരെ … -ഇല്ല · -ത് + ഏ ഉള്ളൂ", "grammar": 1 },
+      "new": ["ഇപ്പോഴും", "ഇനിയും", "ഓൺലൈൻ", "സ്റ്റാറ്റസ്", "മെസേജ് കണ്ടിട്ടും റിപ്ലൈ ഇല്ല!", "ഞാൻ ഇപ്പോൾ എത്തിയതേയുള്ളൂ.", "അവൻ ഇപ്പോഴും ഓൺലൈനിൽ ഉണ്ട്."],
+      "sentences": [
+        { "native": "അവൻ ഇപ്പോഴും ഓൺലൈനിൽ ഉണ്ട്, പക്ഷേ റിപ്ലൈ ഇല്ല.", "roman": "avan ippōḻum ōṇlainil uṇḍŭ, pakṣē ṟiplai illa.", "en": "He's still online, but no reply.", "focus": "ഇപ്പോഴും", "wrong": ["ഇതുവരെ|ituvare", "ഇനി|ini"] },
+        { "native": "മെസേജ് കണ്ടിട്ടും റിപ്ലൈ ഇല്ല! എന്ത് പറ്റി?", "roman": "mesējŭ kaṇḍiṭṭum ṟiplai illa! endŭ paṯṯi?", "en": "Seen it and no reply! What's going on?" },
+        { "native": "ഞാൻ ഇപ്പോൾ എത്തിയതേയുള്ളൂ, നീ എവിടെയാ?", "roman": "ñān ippōḷ ettiyatēyuḷḷū, nī eviṭeyā?", "en": "I've only just got here — where are you?", "focus": "എത്തിയതേയുള്ളൂ", "wrong": ["എത്താറായി|ettāṟāyi", "എത്തിയിട്ട്|ettiyiṭṭŭ"] },
+        { "native": "അവൾ ഇതുവരെ റിപ്ലൈ തന്നിട്ടില്ല.", "roman": "avaḷ ituvare ṟiplai tanniṭṭilla.", "en": "She hasn't replied yet.", "focus": "തന്നിട്ടില്ല", "wrong": ["തന്നിട്ടുണ്ട്|tanniṭṭuṇḍŭ", "തരും|tarum"] },
+        { "native": "ഇനിയും അര മണിക്കൂർ ഉണ്ട്, പേടിക്കണ്ട.", "roman": "iniyum ara maṇikkūr uṇḍŭ, pēṭikkaṇḍa.", "en": "There's still half an hour, don't worry.", "focus": "ഇനിയും", "wrong": ["ഇതുവരെ|ituvare", "ഇപ്പോൾ|ippōḷ"] },
+        { "native": "അവൻ ഇനിയും വന്നില്ലേ?", "roman": "avan iniyum vannillē?", "en": "He's still not here?" },
+        { "native": "അവളുടെ സ്റ്റാറ്റസ് കണ്ടോ? അവൾ ഇപ്പോഴും ഗോവയിലാണ്.", "roman": "avaḷuṭe sṯṯāṯṯasŭ kaṇḍō? avaḷ ippōḻum gōvayilāṇŭ.", "en": "Did you see her status? She's still in Goa.", "focus": "ഇപ്പോഴും", "wrong": ["ഇതുവരെ|ituvare", "ഇനിയും|iniyum"] },
+        { "native": "ഷോ തുടങ്ങിക്കഴിഞ്ഞു, ഫോൺ ഓഫ് ചെയ്യ്.", "roman": "ṣō tuṭaṅṅikkaḻiññu, fōṇ ōfŭ cheyyŭ.", "en": "The show's already started — switch your phone off.", "focus": "തുടങ്ങിക്കഴിഞ്ഞു", "wrong": ["തുടങ്ങാറായി|tuṭaṅṅāṟāyi", "തുടങ്ങിയിട്ടില്ല|tuṭaṅṅiyiṭṭilla"] },
+        { "native": "ഞാൻ നേരത്തെ പറഞ്ഞതാ, നീ കേട്ടില്ല.", "roman": "ñān nēratte paṟaññatā, nī kēṭṭilla.", "en": "I already told you — you didn't listen." },
+        { "native": "ഭക്ഷണം കഴിച്ചോ? — ഇല്ല, ഇതുവരെ ഇല്ല.", "roman": "bhakṣaṇam kaḻicchō? — illa, ituvare illa.", "en": "Have you eaten? — No, not yet.", "focus": "ഇതുവരെ", "wrong": ["ഇപ്പോഴും|ippōḻum", "നേരത്തെ|nēratte"] }
+      ]
+    },
+    {
+      "title": "Photos and location",
+      "tip": { "title": "English word + ചെയ്യുക", "body": "- Actions borrowed from English take **ചെയ്യുക**: ഷെയർ ചെയ്യുക, സേവ് ചെയ്യുക, ഡിലീറ്റ് ചെയ്യുക.\n- To a friend: **ചെയ്യ്** (ഷെയർ ചെയ്യ്); politely: **ചെയ്യാമോ?**\n- Don't, will you: **ചെയ്യല്ലേ**.\n- Photos and screenshots are **taken**: ഫോട്ടോ **എടുക്കുക**." },
+      "new": ["ഫോട്ടോ", "സ്ക്രീൻഷോട്ട്", "ലൊക്കേഷൻ", "ഷെയർ ചെയ്യുക", "സേവ് ചെയ്യുക", "ഡിലീറ്റ് ചെയ്യുക", "വീഡിയോ കോൾ", "ലൊക്കേഷൻ ഒന്ന് ഷെയർ ചെയ്യ്."],
+      "sentences": [
+        { "native": "ലൊക്കേഷൻ ഒന്ന് ഷെയർ ചെയ്യ്, എനിക്ക് വഴിതെറ്റി.", "roman": "lokkēṣan onnŭ ṣeyar cheyyŭ, enikkŭ vaḻiteṯṯi.", "en": "Share your location, will you — I'm lost.", "focus": "ചെയ്യ്", "wrong": ["ചെയ്തു|cheytu", "ചെയ്യുക|cheyyuka"] },
+        { "native": "ചേട്ടാ, ലൊക്കേഷൻ ഒന്ന് ഷെയർ ചെയ്യാമോ?", "roman": "chēṭṭā, lokkēṣan onnŭ ṣeyar cheyyāmō?", "en": "Could you share the location, please?", "focus": "ചെയ്യാമോ", "wrong": ["ചെയ്തോ|cheytō", "ചെയ്യുക|cheyyuka"] },
+        { "native": "ഈ ഫോട്ടോ ഗ്രൂപ്പിൽ ഇടല്ലേ!", "roman": "ī fōṭṭō grūppil iṭallē!", "en": "Don't put this photo on the group!", "focus": "ഇടല്ലേ", "wrong": ["ഇട്ടു|iṭṭu", "ഇടാം|iṭām"] },
+        { "native": "ഞാൻ നിന്റെ നമ്പർ സേവ് ചെയ്തു.", "roman": "ñān ninde nambar sēvŭ cheytu.", "en": "I've saved your number." },
+        { "native": "ആ ചാറ്റിന്റെ സ്ക്രീൻഷോട്ട് എടുത്ത് ഇട്.", "roman": "ā chāṯṯinde skrīnṣōṭṭŭ eṭuttŭ iṭŭ.", "en": "Take a screenshot of that chat and send it." },
+        { "native": "അയ്യോ, ഞാൻ ആ ഫോട്ടോ ഡിലീറ്റ് ചെയ്തുപോയി!", "roman": "ayyō, ñān ā fōṭṭō ḍilīṯṯŭ cheytupōyi!", "en": "Oh no, I accidentally deleted that photo!" },
+        { "native": "ദുബായിൽ നിന്ന് അച്ഛൻ എല്ലാ ദിവസവും വീഡിയോ കോൾ ചെയ്യും.", "roman": "dubāyil ninnŭ acchan ellā divasavum vīḍiyō kōḷ cheyyum.", "en": "Dad video-calls from Dubai every day." },
+        { "native": "ആ ഫോട്ടോ സ്റ്റാറ്റസ് ആക്കിയോ?", "roman": "ā fōṭṭō sṯṯāṯṯasŭ ākkiyō?", "en": "Did you put that photo up as your status?" },
+        { "native": "ഫോട്ടോ എടുത്തിട്ട് ഡിലീറ്റ് ചെയ്യല്ലേ, എനിക്കും വേണം.", "roman": "fōṭṭō eṭuttiṭṭŭ ḍilīṯṯŭ cheyyallē, enikkum vēṇam.", "en": "Don't delete the photos after you take them — I want them too.", "focus": "ചെയ്യല്ലേ", "wrong": ["ചെയ്തു|cheytu", "ചെയ്യാം|cheyyām"] },
+        { "native": "എന്റെ ലൊക്കേഷൻ ഷെയർ ചെയ്തിട്ടുണ്ട്, നോക്കിക്കോ.", "roman": "ende lokkēṣan ṣeyar cheytiṭṭuṇḍŭ, nōkkikkō.", "en": "I've shared my location — have a look." }
+      ]
+    }
+  ]
+}
