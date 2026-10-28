@@ -1,63 +1,72 @@
 {
   "id": 20,
-  "title": "Telling stories & real conversation",
-  "goal": "Tell a simple story, link events in time, report what people said, use relative clauses with چې, and sprinkle your Pashto with natural fillers and proverbs.",
-  "intro": "Pashtuns are great storytellers. Evenings in the حجره are filled with tales of heroes and tricksters, jokes about Mullah Nasruddin, and verses of poetry — from the ancient folk couplets (لنډۍ) to Rahman Baba and Khushal Khan Khattak. A well-placed proverb (متل) can win an argument.\n\nIn this final unit you'll put everything together: the past tense, connectors that move a story along, the all-purpose word **چې**, reported speech, and the little words that make conversation sound natural.",
+  "title": "Real conversation",
+  "goal": "Tell a friend what happened, react to their news, say which person or thing you mean, pass on what people said, and keep a chat going with the little words Pashtuns really use.",
+  "intro": "Most of the Pashto you'll speak isn't buying and asking the way — it's **ګپ شپ**: chatting over green tea, telling a friend what happened yesterday, reacting to their news, passing on what someone else said. This unit gives you the tools for that: words to tell events in order, reactions like **واه!**, **افسوس!** and **ټوکې کوې؟**, the all-purpose **چې** for 'the one who …', and the Pashto way of reporting speech.\n\nAs the last unit of Part 1, it pulls everything together — above all the past tense and its ergative construction, which you'll use every time you tell a friend what happened.",
   "vocab": [
-    { "native": "کيسه", "roman": "kissá", "en": "story", "pos": "noun", "note": "f · pl: کيسې. کيسه کول 'to tell a story'." },
-    { "native": "متل", "roman": "matál", "en": "proverb, saying", "pos": "noun", "note": "m · pl: متلونه." },
-    { "native": "لنډۍ", "roman": "landə́y", "en": "landay (two-line folk poem)", "pos": "noun", "note": "f. Also called ټپه ṭapá." },
-    { "native": "شعر", "roman": "shiʿr", "en": "poem; poetry", "pos": "noun", "note": "m." },
-    { "native": "شاعر", "roman": "shāʿír", "en": "poet", "pos": "noun", "note": "m · pl: شاعران." },
-    { "native": "سندره", "roman": "sandə́ra", "en": "song", "pos": "noun", "note": "f · pl: سندرې. سندرې ويل 'to sing'." },
-    { "native": "ټوکه", "roman": "ṭóka", "en": "joke", "pos": "noun", "note": "f. ټوکې کول 'to joke'." },
-    { "native": "خندا", "roman": "xandā́", "en": "laughter", "pos": "noun", "note": "f." },
+    { "native": "کيسه", "roman": "kissá", "en": "story; what happened, what's going on", "pos": "noun", "note": "f · pl: کيسې. کيسه کول 'to tell (what happened)'. کيسه څه ده؟ 'what's up?'" },
+    { "native": "پېښېدل", "roman": "peṣedə́l", "en": "to happen", "pos": "verb", "note": "Present: پېښېږي peṣéẓi. Past: پېښ شو (m), پېښه شوه (f), پېښ شول (pl). Everyday speech also just uses کېدل: څه وشول؟" },
+    { "native": "عجيب", "roman": "ʿajíb", "en": "strange, weird; amazing", "pos": "adj", "note": "f: عجيبه ʿajíba." },
+    { "native": "يار", "roman": "yār", "en": "friend, mate", "pos": "noun", "note": "m · pl: ياران. Vocative ياره! 'mate! man!' — between friends only, never to an elder." },
+    { "native": "ورپسې", "roman": "warpáse", "en": "after that, next; after him/it", "pos": "adv", "note": "Literally 'after it'. In stories: لومړی … ورپسې … 'first … then …'." },
+    { "native": "همدا", "roman": "hamdā́", "en": "this very, exactly this", "pos": "pron", "note": "همدا اوس 'right now, this minute'; همدا خبره ده 'that's exactly it'. همداسې 'just like that'." },
+    { "native": "کله چې", "roman": "kə́la che", "en": "when (in statements)", "pos": "conj", "note": "Not for questions: کله؟ 'when?' but کله چې راغلم 'when I came'." },
+    { "native": "داسې", "roman": "dā́se", "en": "like this, so, such", "pos": "adv", "note": "خبره داسې ده 'the thing is …'; داسې خلک 'people like that'." },
+    { "native": "وتل", "roman": "watə́l", "en": "to go out, come out, leave", "pos": "verb", "note": "Present: وځم wúdzəm. Perfective: ووځم wə́wudzəm. Past: ووتم wə́watəm, ووت wə́wat (he), ووتو wə́watu (we)." },
+    { "native": "ګوره", "roman": "góra", "en": "look; you see (filler)", "pos": "interj", "note": "Imperative of کتل. Polite / plural: ګورئ." },
+    { "native": "واه", "roman": "wāh", "en": "wow! (admiring)", "pos": "interj", "note": "For good news and nice things. For bad surprises say اوه! or افسوس!" },
+    { "native": "شاباس", "roman": "shābā́s", "en": "well done! bravo!", "pos": "interj", "note": "Also شاباش shābā́sh (Pakistan)." },
+    { "native": "افسوس", "roman": "afsós", "en": "what a shame; (I'm) sorry (to hear it)", "pos": "interj", "note": "Sympathy, not apology — for an apology say بښنه غواړم." },
+    { "native": "بالکل", "roman": "bilkúl", "en": "exactly, absolutely; (with نه) not at all", "pos": "adv", "note": "بالکل نه 'absolutely not'." },
+    { "native": "لېونی", "roman": "lewanáy", "en": "mad, crazy", "pos": "adj", "note": "f: لېونۍ. Vocative لېونيه! 'you nutter!' — teasing between friends." },
     { "native": "چې", "roman": "che", "en": "that; who, which; when; so that", "pos": "conj", "note": "The most versatile word in Pashto." },
-    { "native": "کله چې", "roman": "kə́la che", "en": "when (in statements)", "pos": "conj" },
-    { "native": "لپاره", "roman": "lapā́ra", "en": "for (with د)", "pos": "postp", "note": "ستا لپاره 'for you'; د دې لپاره چې 'so that'." },
     { "native": "لکه", "roman": "lə́ka", "en": "like, as", "pos": "prep", "note": "لکه څنګه چې 'just as'." },
-    { "native": "داسې", "roman": "dā́se", "en": "like this, so, such", "pos": "adv", "note": "همداسې 'just like that'." },
+    { "native": "مطلب", "roman": "matláb", "en": "meaning; point", "pos": "noun", "note": "m. زما مطلب دا دی چې … 'what I mean is …'." },
     { "native": "يعنې", "roman": "yaʿné", "en": "I mean; that is (filler)", "pos": "particle" },
-    { "native": "ګوره", "roman": "góra", "en": "look; you see (filler)", "pos": "interj", "note": "Imperative of کتل, used like English 'look, …'." },
-    { "native": "هسې", "roman": "háse", "en": "just, for no reason; in vain", "pos": "adv", "note": "هسې پوښتنه 'just a question'." },
-    { "native": "ګواکې", "roman": "gwā́ke", "en": "as if; supposedly", "pos": "conj" },
-    { "native": "دروغ", "roman": "daróġ", "en": "lie(s)", "pos": "noun", "note": "m pl. دروغ ويل 'to lie'." },
-    { "native": "پوښتنه", "roman": "puṣtə́na", "en": "question", "pos": "noun", "note": "f. پوښتنه کول 'to ask'." },
-    { "native": "ځواب", "roman": "dzawā́b", "en": "answer, reply", "pos": "noun", "note": "m. ځواب ورکول 'to answer'." },
-    { "native": "وتل", "roman": "watə́l", "en": "to go out, come out", "pos": "verb", "note": "Present: وځم wúdzəm. Perfective: ووځم. Past: ووتم." },
-    { "native": "پاچا", "roman": "pāchā́", "en": "king", "pos": "noun", "note": "m · pl: پاچاهان." },
-    { "native": "هوښيار", "roman": "hoṣyā́r", "en": "clever, wise; alert", "pos": "adj", "note": "f. هوښياره." },
-    { "native": "لېونی", "roman": "lewanáy", "en": "mad, crazy", "pos": "adj", "note": "f. لېونۍ. Also affectionately 'crazy (in love)'." }
+    { "native": "پوښتنه", "roman": "puṣtə́na", "en": "question", "pos": "noun", "note": "f · pl: پوښتنې. پوښتنه کول 'to ask'." },
+    { "native": "ځواب", "roman": "dzawā́b", "en": "answer, reply", "pos": "noun", "note": "m. ځواب ورکول 'to answer'; ځواب راکړه! 'answer me!'." },
+    { "native": "دروغ", "roman": "daróġ", "en": "lie(s)", "pos": "noun", "note": "m pl. دروغ ويل 'to lie': دروغ مه وايه! 'don't lie!'" },
+    { "native": "ګواکې", "roman": "gwā́ke", "en": "as if; supposedly", "pos": "conj", "note": "Sarcastic: ګواکې هغه نه پوهېږي! 'as if he doesn't know!'" },
+    { "native": "هسې", "roman": "háse", "en": "just, for no reason; in vain", "pos": "adv", "note": "هسې! 'no reason!'; هسې پوښتنه 'just asking'." },
+    { "native": "ټوکه", "roman": "ṭóka", "en": "joke", "pos": "noun", "note": "f · pl: ټوکې. ټوکې کول 'to joke'." },
+    { "native": "خندا", "roman": "xandā́", "en": "laughter", "pos": "noun", "note": "f. له خندا مړ شوم 'I died laughing'." },
+    { "native": "ګپ شپ", "roman": "gap shap", "en": "chat, chit-chat", "pos": "noun", "note": "m. ګپ شپ کول 'to chat'. Also just ګپ." },
+    { "native": "غلی", "roman": "ġə́lay", "en": "quiet, silent", "pos": "adj", "note": "f: غلې. غلی شه! 'be quiet!' (to a man), غلې شه! (to a woman)." },
+    { "native": "لپاره", "roman": "lapā́ra", "en": "for (with د)", "pos": "postp", "note": "ستا لپاره 'for you'; د دې لپاره چې 'so that'." }
   ],
   "phrases": [
-    { "native": "يو وخت و…", "roman": "yaw waxt wə…", "en": "Once upon a time… (lit. there was a time)" },
+    { "native": "کيسه څه ده؟", "roman": "kissá tsə da?", "en": "What's up? What's going on? (informal)" },
     { "native": "بيا څه وشول؟", "roman": "biyā́ tsə wə́shwəl?", "en": "Then what happened?" },
-    { "native": "رښتيا؟ باور نه کوم!", "roman": "ṛṣtiyā́? bāwár na kawə́m!", "en": "Really? I don't believe it!" },
-    { "native": "هغه وويل چې زه ستړی يم.", "roman": "haġə́ wə́wayəl che zə stə́ṛay yəm.", "en": "He said that he was tired. (lit. … that 'I am tired')" },
-    { "native": "خلک وايي چې…", "roman": "xálək wā́yi che…", "en": "People say that… / They say…" },
+    { "native": "او بيا؟", "roman": "aw biyā́?", "en": "And then?" },
     { "native": "ګوره، خبره داسې ده…", "roman": "góra, xabə́ra dā́se da…", "en": "Look, the thing is…" },
+    { "native": "واه، ډېر ښه!", "roman": "wāh, ḍer ṣə!", "en": "Wow, great!" },
+    { "native": "افسوس، ډېر بد شو.", "roman": "afsós, ḍer bad shu.", "en": "Oh no, that's really bad. / What a shame." },
+    { "native": "رښتيا؟ باور نه کوم!", "roman": "rəṣtyā́? bāwár na kawə́m!", "en": "Really? I don't believe it!" },
+    { "native": "ټوکې کوې؟", "roman": "ṭóke kawé?", "en": "Are you kidding? (informal)", "note": "Polite: ټوکې کوئ؟" },
+    { "native": "هو کنه!", "roman": "ho kəna!", "en": "Yes, of course! Exactly!" },
     { "native": "يعنې څه؟", "roman": "yaʿné tsə?", "en": "Meaning what? / What do you mean?" },
-    { "native": "په پای کې…", "roman": "pə pāy ke…", "en": "In the end…" },
+    { "native": "چا درته وويل؟", "roman": "tsā dərta wə́wayəl?", "en": "Who told you?", "note": "چا is the past-tense (oblique) form of څوک 'who'." },
+    { "native": "ما اورېدلي چې…", "roman": "mā awredə́li che…", "en": "I've heard that…" },
+    { "native": "خلک وايي چې…", "roman": "xálək wā́yi che…", "en": "People say that… / Apparently…" },
     { "native": "خبره مې پرې کړه، بښنه غواړم.", "roman": "xabə́ra me pre kṛa, baṣə́na ġwā́ṛəm.", "en": "Sorry, I interrupted you." },
-    { "native": "قطره قطره سيند جوړېږي.", "roman": "qatrá qatrá sind joṛéẓi.", "en": "Drop by drop a river is made. (proverb)" },
-    { "native": "اوبه چې له سره خړې وي، تر پايه خړې وي.", "roman": "obə́ che la sára xə́ṛe wi, tər pā́ya xə́ṛe wi.", "en": "If water is muddy at the source, it stays muddy to the end. (proverb: bad beginnings)" },
-    { "native": "پښتو له ما سره ده.", "roman": "paṣtó la mā sara da.", "en": "I keep my word / I behave honourably. (lit. Pashto is with me)" }
+    { "native": "ښه نو، وروسته به خبرې کوو.", "roman": "ṣə no, wrústa ba xabə́re kawú.", "en": "OK then, we'll talk later." }
   ],
   "grammar": [
     {
       "title": "Relative clauses with چې",
-      "body": "Pashto has no separate words for 'who', 'which', 'that' in relative clauses — it uses **چې** for all of them. The relative clause comes **after** the noun, starts with چې, and ends with its own verb:\n\nهغه سړی **چې پرون راغی** زما تره دی\n'The man **who came yesterday** is my uncle.'\n\nThe noun is often preceded by **هغه** 'that' or **دا** 'this', which signals that a relative clause is coming. When the noun is the *object* inside the relative clause, the clause follows its own rules — including ergativity in the past: هغه کتاب چې **ما** واخيست 'the book that I bought'.\n\nچې also means 'when' (کله چې) and 'so that' (د دې لپاره چې), and after verbs of saying and thinking it means 'that'.",
+      "body": "Pashto has no separate words for 'who', 'which', 'that' in relative clauses — it uses **چې** for all of them. The relative clause comes **after** the noun, starts with چې, and ends with its own verb:\n\nهغه سړی **چې پرون راغی** زما تره دی\n'The man **who came yesterday** is my uncle.'\n\nThe noun is often preceded by **هغه** 'that' or **دا** 'this', which signals that a relative clause is coming. The clause follows its own rules — so in the past it is ergative when *its* verb is transitive: هغه کتاب چې **ما** واخيست 'the book (that) I bought', هغه نجلۍ چې **مو** وليده 'the girl (that) we saw'. English often drops 'that'; Pashto never drops چې.\n\nWhen the noun is the place or the person *in, to, with* which something happens, Pashto puts a small pronoun inside the clause where English has a preposition at the end: هغه هوټل چې **پکې** مو ډوډۍ وخوړه 'the restaurant we ate **in** (lit. in it)'.\n\nWith هر 'every' you get 'whatever / whoever': **هر څه چې** غواړې 'whatever you want', **هر څوک چې** راشي 'whoever comes'. And چې also means 'when' (کله چې), 'so that' (د دې لپاره چې) and, after verbs of saying and thinking, 'that'.",
       "examples": [
         { "native": "هغه سړی چې پرون راغی زما تره دی.", "roman": "haġá saṛáy che parún rā́ġay zmā trə day.", "en": "The man who came yesterday is my uncle." },
         { "native": "هغه کتاب چې ما واخيست ډېر ښه دی.", "roman": "haġá kitā́b che mā wā́xist ḍer ṣə day.", "en": "The book I bought is very good." },
-        { "native": "هغه نجلۍ چې سندرې وايي زما خور ده.", "roman": "haġá njlə́y che sandə́re wā́yi zmā xor da.", "en": "The girl who is singing is my sister." },
+        { "native": "هغه نجلۍ چې په پوهنتون کې مو وليده د احمد خور ده.", "roman": "haġá njlə́y che pə pohantún ke mo wə́lida də ahmád xor da.", "en": "The girl we saw at the university is Ahmad's sister." },
+        { "native": "هغه خبره چې تا راته وکړه رښتيا وه.", "roman": "haġá xabə́ra che tā rā́ta wə́kṛa rəṣtyā́ wa.", "en": "What you told me was true." },
         { "native": "کله چې کور ته ورسېدم، باران شروع شو.", "roman": "kə́la che kor ta wə́rasedəm, bārā́n shurúʿ shu.", "en": "When I got home, it started to rain." },
-        { "native": "ژر راغلم د دې لپاره چې تا وګورم.", "roman": "zhər rā́ġləm də de lapā́ra che tā wə́gorəm.", "en": "I came early so that I could see you." }
+        { "native": "هر څه چې غواړې، ووايه.", "roman": "har tsə che ġwā́ṛe, wə́wāya.", "en": "Whatever you want, just say." }
       ]
     },
     {
       "title": "Reported speech: keeping the original words",
-      "body": "Pashto normally reports speech **as it was said**, after **چې**, without changing pronouns or tenses the way English does:\n\nهغه وويل چې **زه** ستړی **يم**\nlit. 'He said that \"I am tired\"' = He said he was tired.\n\nOnly the context tells you that زه refers to 'him'. Questions are reported the same way: ما وپوښتل چې **ته** چېرته ځې؟ 'I asked where he was going' (lit. I asked: where are you going?).\n\nRemember that **ويل** 'say' and **پوښتل** 'ask' are transitive, so in the past the speaker is oblique: **ما** وويل، **هغې** وپوښتل، **احمد** وويل. With no object, the verb takes the masculine plural form (وويل، وپوښتل).\n\n**وايي چې** 'they say that' introduces rumours and hearsay: وايي چې سبا به باران وي.",
+      "body": "Pashto normally reports speech **as it was said**, after **چې**, without changing pronouns or tenses the way English does:\n\nهغه وويل چې **زه** ستړی **يم**\nlit. 'He said that \"I am tired\"' = He said he was tired.\n\nOnly the context tells you that زه refers to 'him'. Questions are reported the same way: ما وپوښتل چې **ته** چېرته ځې؟ 'I asked where he was going' (lit. I asked: where are you going?).\n\nRemember that **ويل** 'say' and **پوښتل** 'ask' are transitive, so in the past the speaker is oblique: **ما** وويل، **هغې** وپوښتل، **احمد** وويل. With no object, the verb takes the masculine plural form (وويل، وپوښتل). The same goes for 'who said?': **چا** وويل؟ — never څوک وويل.\n\nTo say who it was said *to*, use راته 'to me', درته 'to you', ورته 'to him / her / them' before the verb: ما **ورته** وويل چې … 'I told him that …'. A reported command keeps the imperative: راته يې وويل چې ژر راشه 'he told me to come quickly (lit. come quickly!)'.\n\n**وايي چې** 'they say that' introduces rumours and hearsay: وايي چې سبا به باران وي.",
       "examples": [
         { "native": "هغې وويل چې زه سبا نه شم راتلای.", "roman": "haġé wə́wayəl che zə sabā́ na shəm rātlā́y.", "en": "She said she couldn't come tomorrow." },
         { "native": "احمد وويل چې زه ډوډۍ نه غواړم.", "roman": "ahmád wə́wayəl che zə ḍoḍə́y na ġwā́ṛəm.", "en": "Ahmad said he didn't want any food." },
@@ -68,33 +77,135 @@
     },
     {
       "title": "Moving a story along — and sounding natural",
-      "body": "**Story connectors:**\nيو وخت و … 'once upon a time …' · لومړی 'first' · بيا 'then' · وروسته له هغه 'after that' · هغه وخت 'at that time' · ناڅاپه 'suddenly' · کله چې 'when' · خو 'but' · نو 'so' · په پای کې 'in the end'.\n\nStories are usually told in the past, and the **imperfective past** sets the scene ('he was walking …') while the **perfective past** moves events forward ('… and suddenly he saw …').\n\n**Fillers and reactions** that make you sound natural:\nنو … 'so …' · يعنې 'I mean' · ګوره 'look' · هو کنه 'yes, exactly' · ښه؟ 'right? OK?' · واه! 'wow!' · رښتيا؟ 'really?' · څه وايې! 'you don't say!' · خير دی 'never mind' · هسې 'just, no reason'.",
+      "body": "**Telling it in order:**\nلومړی 'first' · بيا 'then' · ورپسې 'after that' · هغه وخت 'at that time' · ناڅاپه 'suddenly' · کله چې 'when' · خو 'but' · نو 'so' · په پای کې 'in the end'.\n\n**Which past?** The **imperfective past** sets the scene — زه په سړک **تلم** 'I was going down the street', موږ ډوډۍ **خوړله** 'we were eating' — and the **perfective past** (with و-) moves the story forward: … ناڅاپه مې احمد **وليد** '… and suddenly I saw Ahmad'.\n\n**The dramatic present.** At the exciting moment, friends switch to the present, just as English speakers do ('so I get home, and I look…'): کور ته ورسېدم، **ګورم** چې ټيلفون نشته! 'I got home, and I look — the phone's gone!'\n\n**Fillers and reactions** that keep a chat going:\nنو … 'so …' · يعنې 'I mean' · ګوره 'look' · مطلب دا چې 'the point is' · هو کنه 'yes, exactly' · ښه؟ 'right? OK?' · واه! 'wow!' · رښتيا؟ 'really?' · ټوکې کوې؟ 'are you kidding?' · افسوس! 'what a shame' · شاباس! 'well done!' · خير دی 'never mind' · هسې 'no reason, just'.\n\nThe trap: واه is only for good things. When a friend says their phone was stolen, it's **اوه!** or **افسوس!**",
       "examples": [
-        { "native": "يو وخت و، يو پاچا و چې درې زامن يې درلودل.", "roman": "yaw waxt wə, yaw pāchā́ wə che dre zāmə́n ye darlodə́l.", "en": "Once upon a time there was a king who had three sons." },
-        { "native": "زه په لار تلم، ناڅاپه مې يو زوړ ملګری وليد.", "roman": "zə pə lār tlə́m, nātsā́pa me yaw zoṛ malgə́ray wə́lid.", "en": "I was walking along the road when suddenly I saw an old friend." },
+        { "native": "زه په لار تلم، ناڅاپه مې يو زوړ ملګری وليد.", "roman": "zə pə lār tləm, nātsā́pa me yaw zoṛ malgə́ray wə́lid.", "en": "I was walking along the road when suddenly I saw an old friend." },
         { "native": "لومړی موږ چای وڅښه، بيا بازار ته ووتو.", "roman": "lumṛáy muẓ chāy wə́tsṣə, biyā́ bāzā́r ta wə́watu.", "en": "First we drank tea, then we went out to the bazaar." },
+        { "native": "ورپسې احمد راغی، او بيا خو خندا شروع شوه!", "roman": "warpáse ahmád rā́ġay, aw biyā́ xo xandā́ shurúʿ shwa!", "en": "After that Ahmad turned up — and then the laughing really started!" },
         { "native": "نو، يعنې ته نه ځې؟", "roman": "no, yaʿné tə na dze?", "en": "So, you mean you're not going?" },
         { "native": "هو کنه! همدا خبره ده.", "roman": "ho kəna! hamdā́ xabə́ra da.", "en": "Yes, exactly! That's the point." }
       ]
     }
   ],
   "dialogue": {
-    "title": "Grandmother's story: 'Eat, my coat!'",
-    "setting": "On a winter night, Bibi tells her grandchildren Zarlasht and Aimal a Mullah Nasruddin story.",
+    "title": "The lost phone",
+    "setting": "Bilal runs into his friend Zalmay at a tea stall in Saddar, Peshawar.",
     "lines": [
-      { "speaker": "Aimal", "native": "انا جانې، يوه کيسه راته وکړه!", "roman": "anā́ jā́ne, yáwa kissá rā́ta wə́kṛa!", "en": "Granny dear, tell us a story!" },
-      { "speaker": "Bibi", "native": "ښه، واورئ. يو وخت و، ملا نصرالدين يوې مېلمستيا ته لاړ.", "roman": "ṣə, wā́wrəy. yaw waxt wə, mullā́ nasruddín yáwe melmastyā́ ta lāṛ.", "en": "All right, listen. Once upon a time, Mullah Nasruddin went to a feast." },
-      { "speaker": "Bibi", "native": "هغه زړې او چټلې جامې اغوستې وې. هېچا ورته پام ونه کړ، هېچا ورته ډوډۍ ورنه کړه.", "roman": "haġə́ zaṛé aw chaṭə́le jā́me aġustə́le we. hechā́ wárta pām wə́na kaṛ, hechā́ wárta ḍoḍə́y wárna kṛa.", "en": "He was wearing old, dirty clothes. Nobody paid him any attention, nobody gave him any food." },
-      { "speaker": "Zarlasht", "native": "اوه! بيا څه وشول؟", "roman": "oh! biyā́ tsə wə́shwəl?", "en": "Oh! Then what happened?" },
-      { "speaker": "Bibi", "native": "ملا کور ته لاړ، يوه ښکلې نوې چپنه يې واغوسته او بېرته راغی.", "roman": "mullā́ kor ta lāṛ, yáwa ṣkə́le náwe chapána ye wā́ġusta aw bérta rā́ġay.", "en": "The Mullah went home, put on a beautiful new coat, and came back." },
-      { "speaker": "Bibi", "native": "اوس ټولو ورته ښه راغلاست وويل، او تر ټولو ښه ځای ته يې کېناوه.", "roman": "os ṭolo wárta ṣə rāġlā́st wə́wayəl, aw tər ṭolo ṣə dzāy ta ye kénāwə.", "en": "Now everyone welcomed him and seated him in the best place." },
-      { "speaker": "Aimal", "native": "او ملا څه وکړل؟", "roman": "aw mullā́ tsə wə́kṛəl?", "en": "And what did the Mullah do?" },
-      { "speaker": "Bibi", "native": "ملا خپل لستوڼی په ښوروا کې ډوب کړ او ويې ويل: وخوره، چپنې، وخوره!", "roman": "mullā́ xpəl lastóṇay pə ṣorwā́ ke ḍub kaṛ aw wə́ye wayəl: wə́xwra, chapáne, wə́xwra!", "en": "The Mullah dipped his sleeve in the soup and said: 'Eat, coat, eat!'" },
-      { "speaker": "Zarlasht", "native": "ولې؟ ګواکې چپنه ډوډۍ خوري؟", "roman": "wə́le? gwā́ke chapána ḍoḍə́y xwri?", "en": "Why? As if a coat eats food?" },
-      { "speaker": "Bibi", "native": "ملا وويل: دا مېلمستيا د چپنې لپاره ده، زما لپاره نه ده!", "roman": "mullā́ wə́wayəl: dā melmastyā́ də chapáne lapā́ra da, zmā lapā́ra na da!", "en": "The Mullah said: 'This feast is for the coat, not for me!'" },
-      { "speaker": "Aimal", "native": "هاها! ملا ډېر هوښيار و!", "roman": "hāhā́! mullā́ ḍer hoṣyā́r wə!", "en": "Ha ha! The Mullah was very clever!" },
-      { "speaker": "Bibi", "native": "هو، متل دی چې سړی په جامو نه پېژندل کېږي. اوس ويده شئ!", "roman": "ho, matál day che saṛáy pə jā́mo na pezhandə́l kéẓi. os widə́ shəy!", "en": "Yes — as the saying goes, you can't judge a man by his clothes. Now off to sleep!" }
+      { "speaker": "Bilal", "native": "زلميه! کيسه څه ده؟ ډېر ستړی ښکارې.", "roman": "zalmáya! kissá tsə da? ḍer stə́ṛay ṣkā́re.", "en": "Zalmay! What's up? You look really tired." },
+      { "speaker": "Zalmay", "native": "ياره، مه يې پوښته! پرون مې ټيلفون ورک شو.", "roman": "yā́ra, ma ye púṣta! parún me ṭelifún wrak shu.", "en": "Man, don't ask! Yesterday I lost my phone." },
+      { "speaker": "Bilal", "native": "اوه، افسوس! چېرته؟", "roman": "oh, afsós! chérta?", "en": "Oh no! Where?" },
+      { "speaker": "Zalmay", "native": "په رکشه کې. کله چې کور ته ورسېدم، ګورم چې ټيلفون نشته!", "roman": "pə rikshá ke. kə́la che kor ta wə́rasedəm, górəm che ṭelifún nə́shta!", "en": "In a rickshaw. When I got home, I look — and the phone's gone!" },
+      { "speaker": "Bilal", "native": "بيا دې څه وکړل؟", "roman": "biyā́ de tsə wə́kṛəl?", "en": "So what did you do?" },
+      { "speaker": "Zalmay", "native": "ورور مې خپل ټيلفون راکړ، او ما خپلې شمېرې ته زنګ ووهه.", "roman": "wror me xpəl ṭelifún rā́kaṛ, aw mā xpə́le shmeré ta zang wə́wahə.", "en": "My brother gave me his phone, and I rang my own number." },
+      { "speaker": "Bilal", "native": "چا ځواب درکړ؟", "roman": "tsā dzawā́b dárkaṛ?", "en": "Who answered?" },
+      { "speaker": "Zalmay", "native": "يو سړي. هغه وويل چې زه د رکشې چلوونکی يم، ټيلفون دې زما سره دی.", "roman": "yaw saṛí. haġə́ wə́wayəl che zə də rikshé chalawúnkay yəm, ṭelifún de zmā sara day.", "en": "A man. He said he was the rickshaw driver and he had my phone." },
+      { "speaker": "Bilal", "native": "رښتيا؟ ټوکې کوې؟", "roman": "rəṣtyā́? ṭóke kawé?", "en": "Really? Are you kidding?" },
+      { "speaker": "Zalmay", "native": "نه ياره! نيم ساعت وروسته زموږ کور ته راغی، پيسې يې هم نه غوښتلې.", "roman": "na yā́ra! nim sāʿát wrústa zmuẓ kor ta rā́ġay, páyse ye ham na ġuṣtə́le.", "en": "No, man! Half an hour later he came to our house — and didn't even ask for money." },
+      { "speaker": "Bilal", "native": "شاباس! داسې خلک اوس ډېر کم دي.", "roman": "shābā́s! dā́se xálək os ḍer kam di.", "en": "Good for him! There aren't many people like that these days." },
+      { "speaker": "Zalmay", "native": "بالکل. ما ورته وويل چې ته ډېر ښه سړی يې.", "roman": "bilkúl. mā wárta wə́wayəl che tə ḍer ṣə saṛáy ye.", "en": "Exactly. I told him he was a really good man." },
+      { "speaker": "Bilal", "native": "ښه نو، اوس دې ټيلفون ښه وساته، لېونيه!", "roman": "ṣə no, os de ṭelifún ṣə wə́sāta, lewanáya!", "en": "Well then, look after your phone now, you nutter!" }
     ]
   },
-  "culture": "The **landay** (لنډۍ) is the heart of Pashto folk poetry: a couplet of 9 + 13 syllables, anonymous, often sung, and traditionally composed and passed on by women. Landays speak of love, separation, war, honour and humour; one of the most famous is attributed to **Malalai of Maiwand**, the young woman who rallied Afghan fighters at the battle of Maiwand in 1880. The great poets — **Khushal Khan Khattak** (warrior-poet of honour and freedom) and **Rahman Baba** (the gentle Sufi of Peshawar, whose shrine is visited by thousands) — are quoted in everyday conversation. Learn a couple of proverbs and a landay or two, and you'll delight any Pashtun you meet. **مبارک شه** — congratulations on finishing the course!"
+  "culture": "Pashtun conversation is a team sport. Listeners keep the speaker going with **هو، هو**, **بيا؟** and **رښتيا؟**, and a good story is retold with voices, gestures and the dramatic present (**ګورم چې…** 'I look, and…'). Between friends of the same age, **ياره** and teasing like **لېونيه!** fly freely; with elders you switch to **تاسو**, call them **کاکا** 'uncle' or **حاجي صاحب**, and you don't interrupt. Chatting for hours over green tea — **ګپ شپ** — is the basic social activity, whether at a tea stall in Peshawar's Qissa Khwani, in a Kabul office or in a village حجره. Young people mix in English (OK, sorry, please, message), and in Pakistan Urdu words like **ويسې** 'by the way' and **بس** 'that's it'; Kabul Pashto speakers slip in Dari **بلې** 'yes' and **تشکر** 'thanks'. Swearing by God — **والله** (wallā́h) or **په خدای** — is the everyday way to say 'honestly!' and is not rude. **مبارک شه** — you've finished Part 1!",
+  "lessons": [
+    {
+      "title": "Asking what happened",
+      "tip": { "title": "ياره، کيسه څه ده؟ — opening a chat", "body": "- Between friends, call someone **ياره** 'mate, man' (the vocative of يار); to a woman friend use her name or **خورې**.\n- **کيسه څه ده؟** 'what's the story?' = what's up, what's going on.\n- Keep them talking with **او بيا؟** or **بيا څه وشول؟**\n- ياره is only for friends your own age — with elders use **تاسو** and **صاحب**.", "pattern": "ياره، کيسه څه ده؟  ·  او بيا؟" },
+      "new": ["يار", "کيسه", "پېښېدل", "عجيب", "کيسه څه ده؟", "بيا څه وشول؟", "او بيا؟"],
+      "sentences": [
+        { "native": "ياره، ولې خفه يې؟ څه پېښ شول؟", "roman": "yā́ra, wə́le xapá ye? tsə peṣ shwəl?", "en": "Man, why are you upset? What happened?", "focus": "ياره", "wrong": ["يار|yār", "ياران|yārā́n"] },
+        { "native": "دا ډېره عجيبه کيسه ده.", "roman": "dā ḍéra ʿajíba kissá da.", "en": "That's a really weird story.", "focus": "عجيبه", "wrong": ["عجيب|ʿajíb", "عجيبې|ʿajíbe"] },
+        { "native": "زما ملګري يوه عجيبه کيسه راته وکړه.", "roman": "zmā malgə́ri yáwa ʿajíba kissá rā́ta wə́kṛa.", "en": "My friend told me a strange story." },
+        { "native": "دا خو هره ورځ پېښېږي.", "roman": "dā xo hára wradz peṣéẓi.", "en": "But that happens every day." },
+        { "native": "ياره، دا عجيب سړی څوک دی؟", "roman": "yā́ra, dā ʿajíb saṛáy tsok day?", "en": "Mate, who's this weird guy?", "focus": "ياره", "wrong": ["يار|yār", "ياران|yārā́n"] },
+        { "native": "او بيا؟ هغه څه وويل؟", "roman": "aw biyā́? haġə́ tsə wə́wayəl?", "en": "And then? What did he say?" },
+        { "native": "ياره، کيسه دې ډېره اوږده ده!", "roman": "yā́ra, kissá de ḍéra úẓda da!", "en": "Man, your story is so long!", "focus": "ياره", "wrong": ["يار|yār", "ياران|yārā́n"] },
+        { "native": "يار مې په کابل کې اوسېږي.", "roman": "yār me pə kābúl ke oséẓi.", "en": "My mate lives in Kabul.", "focus": "يار", "wrong": ["ياره|yā́ra", "ياران|yārā́n"] },
+        { "native": "دا عجيبه خبره ده، هغه هېڅکله ناوخته نه کېږي.", "roman": "dā ʿajíba xabə́ra da, haġá hetskə́la nāwáxta na kéẓi.", "en": "That's strange — he's never late." },
+        { "native": "بيا څه وشول؟ پوليس راغلل؟", "roman": "biyā́ tsə wə́shwəl? polís rā́ġləl?", "en": "Then what happened? Did the police come?" }
+      ]
+    },
+    {
+      "title": "Telling it in order",
+      "tip": { "title": "First, then, suddenly: telling what happened", "body": "- Set the scene with the **imperfective past** (تلم 'I was going'); move the story on with the **perfective past** (ووتم 'I went out').\n- Put it in order: **لومړی** first · **بيا** then · **ورپسې** after that · **ناڅاپه** suddenly · **کله چې** when · **په پای کې** in the end.\n- At the exciting bit, friends switch to the present: ګورم چې… 'I look, and…'.", "pattern": "لومړی … ، ورپسې … ، ناڅاپه …", "grammar": 2 },
+      "new": ["کله چې", "ورپسې", "وتل", "ګوره", "همدا", "داسې", "ګوره، خبره داسې ده…"],
+      "sentences": [
+        { "native": "لومړی مو چای وڅښه، ورپسې ښار ته ووتو.", "roman": "lumṛáy mo chāy wə́tsṣə, warpáse ṣār ta wə́watu.", "en": "First we had tea, then we went out into town.", "focus": "ورپسې", "wrong": ["مخکې|mə́xke", "لومړی|lumṛáy"] },
+        { "native": "کله چې دفتر ته ورسېدم، دروازه بنده وه.", "roman": "kə́la che daftár ta wə́rasedəm, darwā́za bánda wa.", "en": "When I got to the office, the door was locked.", "focus": "ورسېدم", "wrong": ["رسېږم|raséẓəm", "ورسېدو|wə́rasedu"] },
+        { "native": "زه له کور نه ووتم او ناڅاپه باران شروع شو.", "roman": "zə la kor na wə́watəm aw nātsā́pa bārā́n shurúʿ shu.", "en": "I left the house and suddenly it started raining.", "focus": "ووتم", "wrong": ["ووتو|wə́watu", "وځم|wúdzəm"] },
+        { "native": "زه په سړک تلم، ګورم چې احمد راځي!", "roman": "zə pə saṛák tləm, górəm che ahmád rā́dzi!", "en": "I was walking down the street, and I look — there's Ahmad coming!", "focus": "تلم", "wrong": ["تلو|tlu", "ځې|dze"] },
+        { "native": "ګوره، همدا اوس له دفتر نه ووتم، ژر راځم.", "roman": "góra, hamdā́ os la daftár na wə́watəm, zhər rā́dzəm.", "en": "Look, I've just this minute left the office — I'll be there soon.", "focus": "ووتم", "wrong": ["وځم|wúdzəm", "ووتو|wə́watu"] },
+        { "native": "ورپسې ټول کور ته لاړل.", "roman": "warpáse ṭol kor ta lā́ṛəl.", "en": "After that everyone went home.", "focus": "لاړل", "wrong": ["ځي|dzi", "لاړم|lā́ṛəm"] },
+        { "native": "کله چې هغه راغی، موږ ډوډۍ خوړله.", "roman": "kə́la che haġá rā́ġay, muẓ ḍoḍə́y xwaṛə́la.", "en": "When he came, we were having dinner.", "focus": "خوړله", "wrong": ["خورم|xwrəm", "خوري|xwri"] },
+        { "native": "په پای کې موږ ټول ډېر وخندل.", "roman": "pə pāy ke muẓ ṭol ḍer wə́xandəl.", "en": "In the end we all had a good laugh." },
+        { "native": "خبره داسې وه چې زما ټيلفون ورک شو.", "roman": "xabə́ra dā́se wa che zmā ṭelifún wrak shu.", "en": "What happened was, my phone got lost." }
+      ]
+    },
+    {
+      "title": "Reacting to news",
+      "tip": { "title": "واه! افسوس! ټوکې کوې؟ — reacting like a friend", "body": "- Good news: **واه!** 'wow!' · **شاباس!** 'well done!'\n- Bad news: **افسوس!** 'what a shame' or **اوه!** — never واه.\n- Surprise: **رښتيا؟** 'really?' · **ټوکې کوې؟** 'are you kidding?'\n- Agreeing: **بالکل** 'exactly' · **هو کنه!** 'yes, of course!' — and **بالکل نه** 'absolutely not'." },
+      "new": ["واه", "شاباس", "افسوس", "بالکل", "لېونی", "واه، ډېر ښه!", "افسوس، ډېر بد شو.", "رښتيا؟ باور نه کوم!", "ټوکې کوې؟", "هو کنه!"],
+      "sentences": [
+        { "native": "واه، نوی ټيلفون دې واخيست؟", "roman": "wāh, náway ṭelifún de wā́xist?", "en": "Wow, you bought a new phone?", "focus": "واه", "wrong": ["افسوس|afsós", "اوه|oh"] },
+        { "native": "شاباس! ډېر ښه کار دې وکړ.", "roman": "shābā́s! ḍer ṣə kār de wə́kaṛ.", "en": "Well done! You did a great job.", "focus": "شاباس", "wrong": ["افسوس|afsós", "بښنه|baṣə́na"] },
+        { "native": "افسوس، نن نه شم راتلای.", "roman": "afsós, nən na shəm rātlā́y.", "en": "Shame — I can't come today." },
+        { "native": "افسوس! پلار دې لا ناروغ دی؟", "roman": "afsós! plār de lā nāróġ day?", "en": "Oh no! Is your father still ill?", "focus": "افسوس", "wrong": ["واه|wāh", "شاباس|shābā́s"] },
+        { "native": "ټوکې کوې؟ ته واده کوې؟", "roman": "ṭóke kawé? tə wādə́ kawé?", "en": "Are you kidding? You're getting married?" },
+        { "native": "بالکل، ته سم وايې.", "roman": "bilkúl, tə sam wā́ye.", "en": "Absolutely, you're right." },
+        { "native": "بالکل نه! زه هېڅکله داسې نه کوم.", "roman": "bilkúl na! zə hetskə́la dā́se na kawə́m.", "en": "Absolutely not! I'd never do that." },
+        { "native": "ته لېونی يې؟ په دې يخني کې بهر ځې؟", "roman": "tə lewanáy ye? pə de yaxní ke bahár dze?", "en": "Are you crazy? You're going out in this cold?" },
+        { "native": "واه! دا خو ډېر ښکلی کور دی.", "roman": "wāh! dā xo ḍer ṣkə́lay kor day.", "en": "Wow! What a lovely house.", "focus": "واه", "wrong": ["افسوس|afsós", "اوه|oh"] }
+      ]
+    },
+    {
+      "title": "Saying which one you mean",
+      "tip": { "title": "The man who…: چې after the noun", "body": "- The clause comes **after** the noun and starts with **چې**: هغه سړی **چې راغی** 'the man who came'.\n- One چې does the work of who, which and that — never use څوک or کوم here.\n- **هغه** or **دا** before the noun signals a clause is coming.\n- In the past the clause keeps its own ergative: هغه کتاب چې **ما** واخيست 'the book I bought'.", "pattern": "هغه + noun + چې + … + verb", "grammar": 0 },
+      "new": ["چې", "لکه", "مطلب", "يعنې", "يعنې څه؟"],
+      "sentences": [
+        { "native": "هغه هلک چې له احمد سره دی زما ورور دی.", "roman": "haġá halə́k che la ahmád sara day zmā wror day.", "en": "The boy who's with Ahmad is my brother.", "focus": "چې", "wrong": ["څوک|tsok", "کوم|kum"] },
+        { "native": "هغه ډوډۍ چې پرون مو وخوړه ډېره ګرانه وه.", "roman": "haġá ḍoḍə́y che parún mo wə́xwaṛa ḍéra grā́na wa.", "en": "The meal we had yesterday was really expensive.", "focus": "چې", "wrong": ["که|ka", "کوم|kum"] },
+        { "native": "هغه نجلۍ چې انګرېزي وايي د احمد خور ده.", "roman": "haġá njlə́y che angrezí wā́yi də ahmád xor da.", "en": "The girl who speaks English is Ahmad's sister.", "focus": "چې", "wrong": ["څوک|tsok", "که|ka"] },
+        { "native": "هغه ټيلفون چې پرون مې واخيست ښه کار نه کوي.", "roman": "haġá ṭelifún che parún me wā́xist ṣə kār na kawí.", "en": "The phone I bought yesterday doesn't work properly.", "focus": "چې", "wrong": ["کوم|kum", "که|ka"] },
+        { "native": "ستا هغه ملګری چې په کابل کې اوسېږي څه کار کوي؟", "roman": "stā haġá malgə́ray che pə kābúl ke oséẓi tsə kār kawí?", "en": "What does that friend of yours who lives in Kabul do?", "focus": "چې", "wrong": ["څوک|tsok", "کوم|kum"] },
+        { "native": "هغه سړی چې لکه ستا پلار ښکاري څوک دی؟", "roman": "haġá saṛáy che lə́ka stā plār ṣkā́ri tsok day?", "en": "Who's that man who looks like your father?", "focus": "چې", "wrong": ["که|ka", "کوم|kum"] },
+        { "native": "داسې ملګري چې تل مرسته کوي ډېر کم دي.", "roman": "dā́se malgə́ri che tal mrásta kawí ḍer kam di.", "en": "Friends who always help are hard to find.", "focus": "چې", "wrong": ["څوک|tsok", "که|ka"] },
+        { "native": "يعنې څه؟ ته نه راځې؟", "roman": "yaʿné tsə? tə na rā́dze?", "en": "What do you mean? You're not coming?" },
+        { "native": "زما مطلب دا و چې ته ستړی ښکارې.", "roman": "zmā matláb dā wə che tə stə́ṛay ṣkā́re.", "en": "What I meant was that you look tired." }
+      ]
+    },
+    {
+      "title": "Passing on what people said",
+      "tip": { "title": "He said: «I'm tired» — reporting speech", "body": "- Report the words **as they were said**, after **چې**: هغه وويل چې **زه** ستړی **يم** 'he said he was tired'.\n- Don't change 'I' to 'he' or shift the tense — the context does that.\n- ويل 'say' and پوښتل 'ask' are transitive, so in the past the speaker is oblique: **ما** وويل، **هغې** وپوښتل، **چا** وويل؟\n- **وايي چې…** = 'they say / apparently…'.", "pattern": "ما / هغه / چا + وويل چې + the exact words", "grammar": 1 },
+      "new": ["پوښتنه", "ځواب", "دروغ", "ګواکې", "هسې", "چا درته وويل؟", "ما اورېدلي چې…", "خلک وايي چې…"],
+      "sentences": [
+        { "native": "ما ورته وويل چې زه به سبا راشم.", "roman": "mā wárta wə́wayəl che zə ba sabā́ rā́shəm.", "en": "I told him I'd come tomorrow.", "focus": "ما", "wrong": ["زه|zə", "زما|zmā"] },
+        { "native": "احمد وويل چې زه ناوخته کېږم.", "roman": "ahmád wə́wayəl che zə nāwáxta kéẓəm.", "en": "Ahmad said he's running late.", "focus": "وويل", "wrong": ["وايم|wā́yəm", "ووايه|wə́wāya"] },
+        { "native": "هغې وپوښتل چې ته چېرته اوسېږې؟", "roman": "haġé wə́puṣtəl che tə chérta oséẓe?", "en": "She asked where you live.", "focus": "وپوښتل", "wrong": ["پوښتم|puṣtə́m", "وپوښته|wə́puṣta"] },
+        { "native": "مور مې وويل چې ډوډۍ تياره ده.", "roman": "mor me wə́wayəl che ḍoḍə́y tayā́ra da.", "en": "My mum said the food is ready.", "focus": "وويل", "wrong": ["وايم|wā́yəm", "ووايه|wə́wāya"] },
+        { "native": "چا وويل چې زه واده کوم؟ دا دروغ دي!", "roman": "tsā wə́wayəl che zə wādə́ kawə́m? dā daróġ di!", "en": "Who said I'm getting married? That's a lie!", "focus": "چا", "wrong": ["څوک|tsok", "چې|che"] },
+        { "native": "ما ترې وپوښتل چې ولې خفه يې؟ هغه وويل چې هسې.", "roman": "mā tre wə́puṣtəl che wə́le xapá ye? haġə́ wə́wayəl che háse.", "en": "I asked him why he was upset; he said \"no reason\".", "focus": "ما", "wrong": ["زه|zə", "زما|zmā"] },
+        { "native": "ما اورېدلي چې هغه بهر ځي.", "roman": "mā awredə́li che haġá bahár dzi.", "en": "I've heard he's going abroad.", "focus": "ما", "wrong": ["زه|zə", "زما|zmā"] },
+        { "native": "پوښتنه مې وکړه، خو ځواب يې رانه کړ.", "roman": "puṣtə́na me wə́kṛa, xo dzawā́b ye rā́na kaṛ.", "en": "I asked, but he didn't give me an answer." },
+        { "native": "هغه تل دروغ وايي.", "roman": "haġá tal daróġ wā́yi.", "en": "He always lies." },
+        { "native": "ګواکې هغه هېڅ نه پوهېږي!", "roman": "gwā́ke haġá hets na pohéẓi!", "en": "As if he doesn't know anything!" }
+      ]
+    },
+    {
+      "title": "Chatting and joking",
+      "new": ["ټوکه", "خندا", "ګپ شپ", "غلی", "لپاره", "خبره مې پرې کړه، بښنه غواړم.", "ښه نو، وروسته به خبرې کوو."],
+      "sentences": [
+        { "native": "ټوکې مه کوه، رښتيا ووايه!", "roman": "ṭóke ma kawa, rəṣtyā́ wə́wāya!", "en": "Stop joking — tell me the truth!" },
+        { "native": "هغه ډېرې ښې ټوکې کوي.", "roman": "haġá ḍére ṣe ṭóke kawí.", "en": "He tells really good jokes." },
+        { "native": "دا يوه ښه ټوکه وه!", "roman": "dā yáwa ṣa ṭóka wa!", "en": "That was a good joke!" },
+        { "native": "له خندا مړ شوم!", "roman": "la xandā́ maṛ shwəm!", "en": "I died laughing!" },
+        { "native": "ماښام به چای وڅښو او ګپ شپ به وکړو.", "roman": "māṣā́m ba chāy wə́tsṣu aw gap shap ba wə́kṛu.", "en": "In the evening we'll have tea and a chat." },
+        { "native": "غلی شه، ماشوم ويده دی.", "roman": "ġə́lay sha, māshúm widə́ day.", "en": "Be quiet, the baby is asleep." },
+        { "native": "ولې غلی يې؟ څه خبره ده؟", "roman": "wə́le ġə́lay ye? tsə xabə́ra da?", "en": "Why are you so quiet? What's the matter?" },
+        { "native": "دا چای ستا لپاره دی.", "roman": "dā chāy stā lapā́ra day.", "en": "This tea is for you." },
+        { "native": "د ګپ شپ لپاره وخت نه لرم، بوخت يم.", "roman": "də gap shap lapā́ra waxt na lárəm, buxt yəm.", "en": "I don't have time for a chat, I'm busy." },
+        { "native": "بښنه غواړم، خبره مې پرې کړه. تا څه ويل؟", "roman": "baṣə́na ġwā́ṛəm, xabə́ra me pre kṛa. tā tsə wayə́l?", "en": "Sorry, I cut you off. What were you saying?" },
+        { "native": "ښه نو، زه ځم، سبا به ګورو.", "roman": "ṣə no, zə dzəm, sabā́ ba góru.", "en": "OK then, I'm off — see you tomorrow." }
+      ]
+    }
+  ]
 }

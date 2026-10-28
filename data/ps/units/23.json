@@ -1,0 +1,176 @@
+{
+  "id": 23,
+  "title": "Around town: rickshaws, taxis & the bus",
+  "goal": "Flag down a taxi or rickshaw, agree the fare, tell the driver where to turn and where to drop you, get on and off buses, and ask how long and how far.",
+  "intro": "Getting around a Pashtun city is a negotiation. In Peshawar you'll haggle with a rickshaw driver, squeeze into a shared van or ride the BRT; in Kabul you'll wave down one of the yellow-and-white taxis or a shared car on a fixed route. Nobody uses street names — you steer by roundabouts, mosques and landmarks.\n\nThis unit gives you the driver-and-passenger Pashto for all of that. The grammar is the pairs of verbs that make it work — **کوز شه** 'get out' vs **ما کوز کړه** 'drop me', **ورسېږه** 'get there' vs **ما ورسوه** 'take me there' — and how to say **it takes half an hour**.",
+  "vocab": [
+    { "native": "ډرېور", "roman": "ḍrewár", "en": "driver", "pos": "noun", "note": "m · pl: ډرېوران. The everyday word; چلوونکی is more formal. Address an older one as کاکا, a young one as وروره." },
+    { "native": "خالي", "roman": "xālí", "en": "empty; free, vacant", "pos": "adj", "note": "Does not change for gender: خالي کوټه، خالي ټکسي." },
+    { "native": "ګاډی", "roman": "gā́ḍay", "en": "vehicle; car, van", "pos": "noun", "note": "m · pl: ګاډي. Especially in Peshawar for any car or van." },
+    { "native": "اپ", "roman": "ap", "en": "app (on a phone)", "pos": "noun", "note": "m. In Peshawar people book rides on inDrive and Careem." },
+    { "native": "رسول", "roman": "rasawə́l", "en": "to take (someone) to, get (someone) somewhere, drop", "pos": "verb", "note": "Transitive partner of رسېدل 'to arrive'. Imperative: ورسوه wə́rasawa. ما بازار ته ورسوه 'take me to the bazaar'." },
+    { "native": "چوک", "roman": "chawk", "en": "roundabout; square, junction", "pos": "noun", "note": "m. Landmarks are named after them: پښتونستان چوک (Kabul), هشت نګرۍ چوک (Peshawar)." },
+    { "native": "هاخوا", "roman": "hāxwā́", "en": "the other side, across, over there", "pos": "adv", "note": "د پل هاخوا 'across the bridge'." },
+    { "native": "دېخوا", "roman": "dexwā́", "en": "this side, over here", "pos": "adv", "note": "د سړک دېخوا 'on this side of the road'." },
+    { "native": "همدلته", "roman": "hamdálta", "en": "right here", "pos": "adv", "note": "Also همالته 'right there'." },
+    { "native": "سپرېدل", "roman": "sparedə́l", "en": "to get on / in (a vehicle); to ride", "pos": "verb", "note": "Usually as سپور کېدل: سپور شه! 'get in!'; سپور شوم 'I got on'. Present: سپرېږم. Transitive: سپور کول 'to put (someone) in'." },
+    { "native": "کوزېدل", "roman": "kuzedə́l", "en": "to get off / out; to go down", "pos": "verb", "note": "Usually as کوز کېدل: کوز شه! 'get out!'. Present: کوزېږم kuzéẓəm. Transitive: کوز کول 'to let (someone) off'. Peshawar also ښکته شه." },
+    { "native": "سيټ", "roman": "siṭ", "en": "seat", "pos": "noun", "note": "m. مخکې سيټ 'front seat', شاته سيټ 'back seat'." },
+    { "native": "ډک", "roman": "ḍak", "en": "full", "pos": "adj", "note": "f: ډکه." },
+    { "native": "سورلۍ", "roman": "sorlə́y", "en": "passenger(s); a ride, transport", "pos": "noun", "note": "f · pl: سورلۍ. A shared taxi that waits to fill up is waiting for سورلۍ." },
+    { "native": "موټرسايکل", "roman": "moṭarsāykə́l", "en": "motorbike", "pos": "noun", "note": "m." },
+    { "native": "نيول", "roman": "niwə́l", "en": "to take (time); to catch, hold", "pos": "verb", "note": "Present: نيسم nísəm, نيسي nísi. Perfective: ونيسم. Imperative: ونيسه. Past: ونيول (m pl), ونيولې (f pl). ټکسي ونيسه 'catch a taxi'." },
+    { "native": "تقريباً", "roman": "taqribán", "en": "about, roughly, nearly", "pos": "adv" },
+    { "native": "کيلومتر", "roman": "kilométr", "en": "kilometre", "pos": "noun", "note": "m. After a number: پنځه کيلومتره." },
+    { "native": "ترافيک", "roman": "trāfík", "en": "traffic", "pos": "noun", "note": "m. ترافيک ډېر دی 'the traffic is bad'." },
+    { "native": "ګڼه ګوڼه", "roman": "gáṇa góṇa", "en": "crowd, crush, rush", "pos": "noun", "note": "f. ډېره ګڼه ګوڼه ده 'it's really crowded'." },
+    { "native": "ميټرو", "roman": "meṭró", "en": "metro, rapid bus (BRT)", "pos": "noun", "note": "m. Peshawar's BRT is usually called بي آر ټي or just ميټرو." },
+    { "native": "سټاپ", "roman": "sṭāp", "en": "stop (bus, BRT)", "pos": "noun", "note": "m · pl: سټاپونه." },
+    { "native": "تګ راتګ", "roman": "tag rātág", "en": "going back and forth; the commute", "pos": "noun", "note": "m. From تګ 'going' + راتګ 'coming'." },
+    { "native": "چلول", "roman": "chalawə́l", "en": "to drive; to run, operate", "pos": "verb", "note": "Present: چلوم chalawə́m. Imperative: چلوه chalawa (keep driving), وچلوه. موټر چلول 'to drive a car'." }
+  ],
+  "phrases": [
+    { "native": "ټکسي! خالي يې؟", "roman": "ṭaksí! xālí ye?", "en": "Taxi! Are you free?" },
+    { "native": "هوايي ډګر ته څو اخلې؟", "roman": "hawāyí ḍagár ta tso áxle?", "en": "How much to the airport? (lit. how much do you take)" },
+    { "native": "ډېر دي، دوه سوه درکوم.", "roman": "ḍer di, dwa sáwa dárkawəm.", "en": "That's too much — I'll give you two hundred." },
+    { "native": "ما بازار ته ورسوه.", "roman": "mā bāzā́r ta wə́rasawa.", "en": "Take me to the bazaar." },
+    { "native": "په څراغونو کې ښي لاس ته تاو شه.", "roman": "pə tsarāġúno ke ṣi lās ta tāw sha.", "en": "Turn right at the lights." },
+    { "native": "ما همدلته کوز کړه.", "roman": "mā hamdálta kuz kṛa.", "en": "Drop me right here." },
+    { "native": "سپور شه، ځو!", "roman": "spor sha, dzu!", "en": "Get in, let's go!" },
+    { "native": "څومره وخت نيسي؟", "roman": "tsómra waxt nísi?", "en": "How long does it take?", "note": "Also څومره وخت لګي؟" },
+    { "native": "تقريباً نيم ساعت نيسي.", "roman": "taqribán nim sāʿát nísi.", "en": "It takes about half an hour." },
+    { "native": "له دې ځای نه څومره لرې دی؟", "roman": "la de dzāy na tsómra lə́re day?", "en": "How far is it from here?" },
+    { "native": "ترافيک ډېر دی.", "roman": "trāfík ḍer day.", "en": "The traffic is bad." },
+    { "native": "دا بس حياتاباد ته ځي؟", "roman": "dā bas hayātābā́d ta dzi?", "en": "Does this bus go to Hayatabad?" },
+    { "native": "په بل سټاپ کې کوز شه.", "roman": "pə bəl sṭāp ke kuz sha.", "en": "Get off at the next stop." },
+    { "native": "لږ ورو چلوه!", "roman": "ləẓ wro chalawa!", "en": "Drive a bit slower!" }
+  ],
+  "grammar": [
+    {
+      "title": "Doing vs happening: کول and کېدل pairs",
+      "body": "Many everyday verbs are a word + **کېدل** 'become' or + **کول** 'do'. With **کېدل** it is something *you* do or that happens to you (intransitive); with **کول** you do it *to someone or something* (transitive):\n\nکوز **شه** 'get out, get off' — ما دلته کوز **کړه** 'drop me here' (lit. make me down)\nسپور **شه** 'get in, get on' — ماشوم سپور **کړه** 'put the child in'\nتاو **شه** 'turn' — موټر تاو **کړه** 'turn the car round'\n\nSome pairs are single verbs in **-ېدل / -ول**: **رسېدل** 'to arrive' — **رسول** 'to get someone somewhere': ما هوايي ډګر ته **ورسوه** 'take me to the airport'. Likewise ودرېدل 'to stop' (دلته ودرېږه! 'stop here!').\n\n**Forms.** Commands are perfective: شه / کړه, or و- for the single verbs (ورسوه). In the negative, مه splits the compound and takes the imperfective: کوز **مه** شه 'don't get off', or the one-word present: مه **کوزېږه**. The present of these compounds is one word: کوزېږم 'I'm getting off', سپرېږم 'I'm getting on'.\n\n**In the past** the کېدل verbs agree with whoever moves (زه کوز **شوم** 'I got off'), while the کول verbs are ergative and agree with the person or thing moved: ډرېور **زه** کوز **کړم** 'the driver dropped me off' — کړم agrees with زه.\n\nThe trap: when the driver lets you off, it's کوز **کړه**; when you get off, it's کوز **شه** / کوز **شم**. ما کوز شه makes no sense.",
+      "examples": [
+        { "native": "ما د پل هاخوا کوز کړه.", "roman": "mā də pul hāxwā́ kuz kṛa.", "en": "Drop me on the other side of the bridge." },
+        { "native": "سپور شه، ناوخته شو!", "roman": "spor sha, nāwáxta shu!", "en": "Get in — we're late!" },
+        { "native": "په چوک کې کيڼ لاس ته تاو شه.", "roman": "pə chawk ke kiṇ lās ta tāw sha.", "en": "Turn left at the roundabout." },
+        { "native": "ما ښار ته ورسوه، مهرباني وکړه.", "roman": "mā ṣār ta wə́rasawa, mehrabāní wə́kṛa.", "en": "Take me into town, please." },
+        { "native": "مه کوزېږه، دا زموږ سټاپ نه دی!", "roman": "ma kuzéẓa, dā zmuẓ sṭāp na day!", "en": "Don't get off — this isn't our stop!" },
+        { "native": "ډرېور زه د کور مخې ته کوز کړم.", "roman": "ḍrewár zə də kor mə́xe ta kuz kṛəm.", "en": "The driver dropped me in front of the house." }
+      ]
+    },
+    {
+      "title": "It takes half an hour: وخت نيسي",
+      "body": "To say how long something takes, Pashto says the trip **takes (نيسي)** the time — نيول means 'to take, hold, catch':\n\n**څومره وخت نيسي؟** 'how long does it take?' — نيم ساعت **نيسي** 'it takes half an hour'.\n\nMany people say **لګي** 'is spent' instead, with the same meaning: څومره وخت لګي؟\n\n**Counting forms.** After a number, masculine nouns like ساعت and کيلومتر take the counting ending **-ه**: يو ساعت, دوه **ساعته**, پنځه **کيلومتره**. Feminine nouns use their normal plural: لس **دقيقې**.\n\n**In the past** نيول is transitive, so it agrees with the time taken (the object), with يې standing for 'it': دوه ساعته يې **ونيول** 'it took two hours' (m pl), لس دقيقې يې **ونيولې** 'it took ten minutes' (f pl).\n\n**Distance.** څومره لرې دی؟ 'how far is it?' — لس کيلومتره لرې دی 'it's ten kilometres away'; for walking distance people give the time: پياده پنځه دقيقې لار ده 'it's five minutes' walk'.\n\n**Fares.** 'How much to …?' is … ته **څو اخلې**؟ 'how much will you take?' (اخيستل). Your offer uses **درکوم** 'I give to you' — not ورکوم, which is 'I give to him'.",
+      "examples": [
+        { "native": "پېښور ته څومره وخت نيسي؟", "roman": "peṣawár ta tsómra waxt nísi?", "en": "How long does it take to Peshawar?" },
+        { "native": "په موټر کې شل دقيقې نيسي.", "roman": "pə moṭár ke shəl daqiqé nísi.", "en": "It takes twenty minutes by car." },
+        { "native": "پرون دوه ساعته يې ونيول!", "roman": "parún dwa sāʿáta ye wə́niwəl!", "en": "Yesterday it took two hours!" },
+        { "native": "هوايي ډګر تقريباً لس کيلومتره لرې دی.", "roman": "hawāyí ḍagár taqribán las kilométra lə́re day.", "en": "The airport is about ten kilometres away." },
+        { "native": "پياده پنځه دقيقې لار ده.", "roman": "piyā́da pindzə́ daqiqé lār da.", "en": "It's five minutes' walk." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A rickshaw to the university",
+    "setting": "Peshawar, Saddar. Farhad waves down a rickshaw driven by an older man.",
+    "lines": [
+      { "speaker": "Farhad", "native": "رکشه! خالي يې؟", "roman": "rikshá! xālí ye?", "en": "Rickshaw! Are you free?" },
+      { "speaker": "Driver", "native": "هو، چېرته ځې؟", "roman": "ho, chérta dze?", "en": "Yes, where are you going?" },
+      { "speaker": "Farhad", "native": "پوهنتون ته. څو اخلې؟", "roman": "pohantún ta. tso áxle?", "en": "The university. How much?" },
+      { "speaker": "Driver", "native": "درې سوه.", "roman": "dre sáwa.", "en": "Three hundred." },
+      { "speaker": "Farhad", "native": "درې سوه؟ ډېر دي، کاکا! دوه سوه درکوم.", "roman": "dre sáwa? ḍer di, kākā́! dwa sáwa dárkawəm.", "en": "Three hundred? That's a lot, uncle! I'll give you two hundred." },
+      { "speaker": "Driver", "native": "نه زويه، تېل ګران دي. دوه سوه پنځوس.", "roman": "na zóya, tel grān di. dwa sáwa pindzós.", "en": "No, son, fuel is expensive. Two hundred and fifty." },
+      { "speaker": "Farhad", "native": "سمه ده. څومره وخت نيسي؟", "roman": "sáma da. tsómra waxt nísi?", "en": "OK. How long does it take?" },
+      { "speaker": "Driver", "native": "نن ترافيک ډېر دی… تقريباً نيم ساعت. سپور شه!", "roman": "nən trāfík ḍer day… taqribán nim sāʿát. spor sha!", "en": "The traffic's bad today… about half an hour. Hop in!" },
+      { "speaker": "Farhad", "native": "کاکا، لږ ورو چلوه! زه لا ځوان يم!", "roman": "kākā́, ləẓ wro chalawa! zə lā dzwān yəm!", "en": "Uncle, drive a bit slower! I'm still young!" },
+      { "speaker": "Driver", "native": "هاها! مه وېرېږه. د پوهنتون کومې خوا ته؟", "roman": "hāhā́! ma weréẓa. də pohantún kúme xwā ta?", "en": "Ha ha! Don't worry. Which side of the university?" },
+      { "speaker": "Farhad", "native": "په بل چوک کې ښي لاس ته تاو شه… همدلته! ما همدلته کوز کړه.", "roman": "pə bəl chawk ke ṣi lās ta tāw sha… hamdálta! mā hamdálta kuz kṛa.", "en": "Turn right at the next roundabout… here! Drop me right here." },
+      { "speaker": "Driver", "native": "دلته نه شم ودرېدلای، پوليس ولاړ دي. لږ مخکې دې کوزوم.", "roman": "dálta na shəm wədredə́lāy, polís wəlāṛ di. ləẓ mə́xke de kuzawə́m.", "en": "I can't stop here, the police are standing there. I'll drop you a bit further on." },
+      { "speaker": "Farhad", "native": "سمه ده. دا دي ستا پيسې. مننه، کاکا!", "roman": "sáma da. dā di stā páyse. manə́na, kākā́!", "en": "OK. Here's your money. Thanks, uncle!" }
+    ]
+  },
+  "culture": "Agree the fare **before** you get in — rickshaws in Peshawar and most taxis in Kabul have no meter, and a bit of good-humoured haggling is expected (start at about two thirds of the first price). Ride apps like inDrive (where you propose your own fare) and Careem are popular in Peshawar; the **BRT** ('Zu Peshawar') runs east–west across the city with a tap card. In Kabul, the yellow-and-white Corolla taxis go anywhere, while shared cars and vans run fixed routes and leave when they're full of **سورلۍ**. Address drivers as **کاکا** (older), **ماما** or **وروره** (younger) — never just 'driver'. Give directions by landmarks: a roundabout, a mosque, a hospital, 'behind the petrol station'. Women usually sit in the back of a taxi, and on buses and the BRT there are separate women's sections — men shouldn't sit there. For long trips, intercity minibuses and shared cars leave from the **اډه**; people bargain there too.",
+  "lessons": [
+    {
+      "title": "Getting a ride and agreeing the fare",
+      "tip": { "title": "Haggling for a ride", "body": "- Agree the fare **before** you get in: … ته **څو اخلې**؟ 'how much (do you take) to …?'\n- Too much? **ډېر دي** + your offer: دوه سوه **درکوم** 'I'll give *you* 200' — not ورکوم ('to him').\n- Call an older driver **کاکا** 'uncle', a younger one **وروره** — and keep smiling.", "pattern": "… ته څو اخلې؟  ·  … درکوم" },
+      "new": ["ډرېور", "خالي", "ګاډی", "اپ", "ټکسي! خالي يې؟", "هوايي ډګر ته څو اخلې؟", "ډېر دي، دوه سوه درکوم."],
+      "sentences": [
+        { "native": "ټکسي! پوهنتون ته ځې؟", "roman": "ṭaksí! pohantún ta dze?", "en": "Taxi! Will you go to the university?" },
+        { "native": "ډرېور صاحب، بازار ته څو اخلې؟", "roman": "ḍrewár sāhíb, bāzā́r ta tso áxle?", "en": "Driver, how much to the bazaar?", "focus": "اخلې", "wrong": ["اخلم|áxləm", "واخله|wā́xla"] },
+        { "native": "پنځه سوه؟ ډېر دي! درې سوه درکوم.", "roman": "pindzə́ sáwa? ḍer di! dre sáwa dárkawəm.", "en": "Five hundred? That's a lot! I'll give you three hundred.", "focus": "درکوم", "wrong": ["ورکوم|warkawə́m", "راکوه|rā́kawa"] },
+        { "native": "ګاډی دې خالي دی؟", "roman": "gā́ḍay de xālí day?", "en": "Is your car free?" },
+        { "native": "نه، بښنه، خالي نه يم.", "roman": "na, baṣə́na, xālí na yəm.", "en": "No, sorry, I'm not free." },
+        { "native": "په اپ کې يو ګاډی راوغواړه، ارزان دی.", "roman": "pə ap ke yaw gā́ḍay rā́wəġwāṛa, arzā́n day.", "en": "Order a car on the app — it's cheaper." },
+        { "native": "ډرېور ښه سړی و، پيسې يې کمې کړې.", "roman": "ḍrewár ṣə saṛáy wə, páyse ye káme kṛe.", "en": "The driver was a nice guy — he brought the price down." },
+        { "native": "سمه ده، څلور سوه درکوم، وروستۍ خبره.", "roman": "sáma da, tsalór sáwa dárkawəm, wrustə́y xabə́ra.", "en": "OK, I'll give you four hundred — final offer.", "focus": "درکوم", "wrong": ["ورکوم|warkawə́m", "ورکوي|warkawí"] },
+        { "native": "په اپ کې کرايه څومره ښيي؟", "roman": "pə ap ke kirāyá tsómra ṣayí?", "en": "How much does the app say the fare is?" }
+      ]
+    },
+    {
+      "title": "Telling the driver where to go",
+      "tip": { "title": "کوز شه or کوز کړه?", "body": "- **شه** (کېدل) when *you* do it: کوز **شه** 'get out', تاو **شه** 'turn', سپور **شه** 'get in'.\n- **کړه** (کول) when you do it *to someone or something*: ما کوز **کړه** 'drop me', موټر تاو **کړه** 'turn the car'.\n- رسېدل 'arrive' → **رسول** 'get someone there': ما بازار ته **ورسوه**.\n- In the past, کول verbs agree with the person moved: ډرېور زه کوز **کړم**.", "pattern": "ما … کوز کړه  ·  … ته تاو شه", "grammar": 0 },
+      "new": ["رسول", "چوک", "هاخوا", "دېخوا", "همدلته", "ما بازار ته ورسوه.", "په څراغونو کې ښي لاس ته تاو شه.", "ما همدلته کوز کړه."],
+      "sentences": [
+        { "native": "ما د جومات مخې ته کوز کړه.", "roman": "mā də jumā́t mə́xe ta kuz kṛa.", "en": "Drop me in front of the mosque.", "focus": "کړه", "wrong": ["شه|sha", "شم|shəm"] },
+        { "native": "په دويم چوک کې ښي لاس ته تاو شه.", "roman": "pə dwáyam chawk ke ṣi lās ta tāw sha.", "en": "Turn right at the second roundabout.", "focus": "شه", "wrong": ["کړه|kṛa", "شو|shu"] },
+        { "native": "ما روغتون ته ورسوه، ژر!", "roman": "mā roġtún ta wə́rasawa, zhər!", "en": "Take me to the hospital — quick!", "focus": "ورسوه", "wrong": ["ورسېږه|wə́raseẓa", "رسېږم|raséẓəm"] },
+        { "native": "د سړک دېخوا کوز شم که هاخوا؟", "roman": "də saṛák dexwā́ kuz shəm ka hāxwā́?", "en": "Shall I get out on this side of the road or the other side?", "focus": "شم", "wrong": ["کړم|kṛəm", "شه|sha"] },
+        { "native": "همدلته ودرېږه، کور مې همدا دی.", "roman": "hamdálta wədréẓa, kor me hamdā́ day.", "en": "Stop right here — this is my house.", "focus": "ودرېږه", "wrong": ["ودرېږم|wədréẓəm", "ودرېدم|wədredə́m"] },
+        { "native": "موټر دلته تاو کړه او بېرته لاړ شه.", "roman": "moṭár dálta tāw kṛa aw bérta lāṛ sha.", "en": "Turn the car round here and go back.", "focus": "کړه", "wrong": ["شه|sha", "شو|shu"] },
+        { "native": "ما چوک ته نږدې کوز کړه.", "roman": "mā chawk ta nəẓdé kuz kṛa.", "en": "Drop me near the roundabout.", "focus": "کړه", "wrong": ["شه|sha", "شم|shəm"] },
+        { "native": "هاخوا لاړ شه، دېخوا لار بنده ده.", "roman": "hāxwā́ lāṛ sha, dexwā́ lār bánda da.", "en": "Go round the other side — this side is blocked." },
+        { "native": "ډرېور زه د پوهنتون مخې ته کوز کړم.", "roman": "ḍrewár zə də pohantún mə́xe ta kuz kṛəm.", "en": "The driver dropped me in front of the university.", "focus": "کړم", "wrong": ["کړ|kaṛ", "شوم|shwəm"] }
+      ]
+    },
+    {
+      "title": "Getting on and off",
+      "new": ["سپرېدل", "کوزېدل", "سيټ", "ډک", "سورلۍ", "موټرسايکل", "سپور شه، ځو!"],
+      "sentences": [
+        { "native": "ته مخکې سيټ کې کېنه.", "roman": "tə mə́xke siṭ ke kéna.", "en": "You sit in the front seat." },
+        { "native": "دا سيټ خالي دی؟", "roman": "dā siṭ xālí day?", "en": "Is this seat free?" },
+        { "native": "دا بس ډک دی، بل ته انتظار وکړو.", "roman": "dā bas ḍak day, bəl ta intizā́r wə́kṛu.", "en": "This bus is full — let's wait for the next one." },
+        { "native": "زه په بس کې سپور شوم او بيا مې پيسې ورکړې.", "roman": "zə pə bas ke spor shwəm aw biyā́ me páyse wárkṛe.", "en": "I got on the bus and then paid." },
+        { "native": "په کوم ځای کې کوزېږې؟", "roman": "pə kum dzāy ke kuzéẓe?", "en": "Where are you getting off?" },
+        { "native": "زه په بل چوک کې کوزېږم.", "roman": "zə pə bəl chawk ke kuzéẓəm.", "en": "I'm getting off at the next roundabout." },
+        { "native": "ډرېور دوه نورې سورلۍ اخلي.", "roman": "ḍrewár dwa nóre sorlə́y áxli.", "en": "The driver's taking two more passengers." },
+        { "native": "زما ورور په موټرسايکل دفتر ته ځي.", "roman": "zmā wror pə moṭarsāykə́l daftár ta dzi.", "en": "My brother goes to the office by motorbike." },
+        { "native": "مه کوزېږه، دا زموږ چوک نه دی!", "roman": "ma kuzéẓa, dā zmuẓ chawk na day!", "en": "Don't get out — this isn't our roundabout!" },
+        { "native": "ماشوم مخکې سپور کړه، بيا ته کېنه.", "roman": "māshúm mə́xke spor kṛa, biyā́ tə kéna.", "en": "Put the child in first, then you get in." }
+      ]
+    },
+    {
+      "title": "How long and how far",
+      "tip": { "title": "It takes …: وخت نيسي", "body": "- **څومره وخت نيسي؟** 'how long does it take?' — شل دقيقې **نيسي**.\n- After numbers: دوه **ساعته**، پنځه **کيلومتره** (masculine counting form) · لس **دقيقې**.\n- Past: دوه ساعته يې **ونيول** (m) · لس دقيقې يې **ونيولې** (f).\n- Distance: څومره لرې دی؟ — لس کيلومتره.", "pattern": "… ته څومره وخت نيسي؟ — … نيسي", "grammar": 1 },
+      "new": ["نيول", "تقريباً", "کيلومتر", "ترافيک", "ګڼه ګوڼه", "څومره وخت نيسي؟", "تقريباً نيم ساعت نيسي.", "له دې ځای نه څومره لرې دی؟", "ترافيک ډېر دی."],
+      "sentences": [
+        { "native": "پوهنتون ته څومره وخت نيسي؟", "roman": "pohantún ta tsómra waxt nísi?", "en": "How long does it take to the university?", "focus": "نيسي", "wrong": ["نيسم|nísəm", "ونيول|wə́niwəl"] },
+        { "native": "په موټر کې لس دقيقې نيسي، پياده نيم ساعت.", "roman": "pə moṭár ke las daqiqé nísi, piyā́da nim sāʿát.", "en": "By car it takes ten minutes, on foot half an hour.", "focus": "نيسي", "wrong": ["نيسې|níse", "نيسو|nísu"] },
+        { "native": "پرون په ترافيک کې درې ساعته يې ونيول!", "roman": "parún pə trāfík ke dre sāʿáta ye wə́niwəl!", "en": "Yesterday in the traffic it took three hours!", "focus": "ونيول", "wrong": ["نيسي|nísi", "ونيولې|wə́niwəle"] },
+        { "native": "هوايي ډګر تقريباً شل کيلومتره لرې دی.", "roman": "hawāyí ḍagár taqribán shəl kilométra lə́re day.", "en": "The airport is about twenty kilometres away.", "focus": "کيلومتره", "wrong": ["کيلومتر|kilométr", "کيلومترې|kilométre"] },
+        { "native": "ډېره ګڼه ګوڼه ده، شايد ناوخته شو.", "roman": "ḍéra gáṇa góṇa da, shāyád nāwáxta shu.", "en": "It's really crowded — we might be late." },
+        { "native": "ښار ته تقريباً پنځوس دقيقې نيسي.", "roman": "ṣār ta taqribán pindzós daqiqé nísi.", "en": "It takes about fifty minutes into town.", "focus": "نيسي", "wrong": ["نيسې|níse", "ونيسي|wə́nisi"] },
+        { "native": "لس دقيقې يې ونيولې.", "roman": "las daqiqé ye wə́niwəle.", "en": "It took ten minutes.", "focus": "ونيولې", "wrong": ["ونيول|wə́niwəl", "نيسي|nísi"] },
+        { "native": "تر کابل پورې څو کيلومتره دي؟", "roman": "tər kābúl póre tso kilométra di?", "en": "How many kilometres is it to Kabul?", "focus": "کيلومتره", "wrong": ["کيلومتر|kilométr", "کيلومترې|kilométre"] },
+        { "native": "سهار ترافيک ډېر وي.", "roman": "sahā́r trāfík ḍer wi.", "en": "The traffic is always bad in the morning." },
+        { "native": "پياده څومره وخت نيسي؟", "roman": "piyā́da tsómra waxt nísi?", "en": "How long does it take on foot?", "focus": "نيسي", "wrong": ["نيسم|nísəm", "نيسو|nísu"] }
+      ]
+    },
+    {
+      "title": "Buses, the metro and driving",
+      "new": ["ميټرو", "سټاپ", "تګ راتګ", "چلول", "دا بس حياتاباد ته ځي؟", "په بل سټاپ کې کوز شه.", "لږ ورو چلوه!"],
+      "sentences": [
+        { "native": "د ميټرو سټاپ دلته نږدې دی؟", "roman": "də meṭró sṭāp dálta nəẓdé day?", "en": "Is there a metro stop near here?" },
+        { "native": "د ميټرو ټکټ ډېر ارزان دی.", "roman": "də meṭró ṭikáṭ ḍer arzā́n day.", "en": "Metro tickets are really cheap." },
+        { "native": "کوم بس پوهنتون ته ځي؟", "roman": "kum bas pohantún ta dzi?", "en": "Which bus goes to the university?" },
+        { "native": "په دې سټاپ کې کوز شو.", "roman": "pə de sṭāp ke kuz shu.", "en": "Let's get off at this stop." },
+        { "native": "ميټرو په شپه کې هم چلېږي؟", "roman": "meṭró pə shpa ke ham chaléẓi?", "en": "Does the metro run at night too?" },
+        { "native": "هره ورځ تګ راتګ دوه ساعته نيسي.", "roman": "hára wradz tag rātág dwa sāʿáta nísi.", "en": "The commute takes two hours every day." },
+        { "native": "د دفتر تګ راتګ مې ډېر ستړی کوي.", "roman": "də daftár tag rātág me ḍer stə́ṛay kawí.", "en": "The commute to the office really wears me out." },
+        { "native": "ډرېور ډېر تېز چلوي!", "roman": "ḍrewár ḍer tez chalawí!", "en": "The driver drives so fast!" },
+        { "native": "زه موټر چلول زده کوم.", "roman": "zə moṭár chalawə́l zdə kawə́m.", "en": "I'm learning to drive." },
+        { "native": "ته موټر چلولای شې؟", "roman": "tə moṭár chalawə́lāy she?", "en": "Can you drive?" }
+      ]
+    }
+  ]
+}

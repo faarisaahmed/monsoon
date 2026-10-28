@@ -1,0 +1,190 @@
+{
+  "id": 21,
+  "title": "Making plans with friends",
+  "goal": "Ask a friend if they're free, suggest what to do and where to meet, hurry them up, say you're on your way or running late, and cancel without offending anyone.",
+  "intro": "From here on, the course is about the Pashto you'll use with friends. Part 2 starts with the most social thing there is: making plans. Is your friend free tonight? Shall we go out to eat, to the park, to a film? Where shall we meet — and why is he *still* not here?\n\nYou'll learn the 'we' subjunctive for **let's** and **shall we** (راځه چې لاړ شو! 'come on, let's go!'), the quick singular commands friends use with each other, and how Pashto says **I'm on my way**, **I'll be there in ten minutes** and **I was just about to call you**.",
+  "vocab": [
+    { "native": "نن شپه", "roman": "nən shpa", "en": "tonight", "pos": "adv", "note": "Also پرون شپه 'last night', سبا شپه 'tomorrow night'." },
+    { "native": "پروګرام", "roman": "prográm", "en": "plans, programme (what you're doing)", "pos": "noun", "note": "m. More casual than پلان: نن دې څه پروګرام دی؟ 'what are you up to today?'" },
+    { "native": "مازديګر", "roman": "māzdigár", "en": "late afternoon (about 4–6 pm; also the afternoon prayer)", "pos": "noun", "note": "m. Used without a preposition: مازديګر راشه 'come in the late afternoon'." },
+    { "native": "ملاقات", "roman": "mulāqā́t", "en": "meeting, meet-up", "pos": "noun", "note": "m. له … سره ملاقات کول 'to meet (someone)'." },
+    { "native": "خبرول", "roman": "xabarawə́l", "en": "to let know, inform", "pos": "verb", "note": "Compound of خبر + کول: خبر مې کړه 'let me know', خبر يې کړه 'tell him'." },
+    { "native": "سره", "roman": "sara", "en": "together; with (له … سره)", "pos": "adv", "note": "سره ګورو 'we see each other, we meet'; له احمد سره 'with Ahmad'." },
+    { "native": "يو ځای", "roman": "yaw dzāy", "en": "together (in one place)", "pos": "adv", "note": "يو ځای ځو 'we'll go together'." },
+    { "native": "سينما", "roman": "sinamā́", "en": "cinema", "pos": "noun", "note": "f. سينما ته ځو 'we're going to the cinema'." },
+    { "native": "پارک", "roman": "pārk", "en": "park", "pos": "noun", "note": "m." },
+    { "native": "فلم", "roman": "film", "en": "film, movie", "pos": "noun", "note": "m · pl: فلمونه. فلم کتل 'to watch a film'." },
+    { "native": "خوښه", "roman": "xwáṣa", "en": "choice, preference; liking", "pos": "noun", "note": "f. ستا خوښه 'up to you'; ستاسو خوښه (polite)." },
+    { "native": "کنه", "roman": "kəna", "en": "come on; right? isn't it? (particle)", "pos": "particle", "note": "After a command it pushes: راشه کنه! 'oh, come on!'. After a statement it asks for agreement: ته خو کور کې يې، کنه؟ 'you're at home, right?'" },
+    { "native": "بيړه", "roman": "biṛá", "en": "hurry, rush", "pos": "noun", "note": "f. بيړه کول 'to hurry'; بيړه مه کوه! 'don't rush!'; په بيړه 'in a hurry'." },
+    { "native": "پام", "roman": "pām", "en": "care, attention", "pos": "noun", "note": "m. پام کوه! 'watch out! be careful!'; پام دې وي 'take care'; ورته پام وکړه 'pay attention to it'." },
+    { "native": "ورسره", "roman": "wársara", "en": "with him / her / them", "pos": "pron", "note": "From ور + سره. Also راسره 'with me', درسره 'with you'." },
+    { "native": "روان", "roman": "rawā́n", "en": "on the way, moving, going; (of things) running smoothly", "pos": "adj", "note": "f: روانه. روان يم 'I'm on my way'." },
+    { "native": "ځنډ", "roman": "dzanḍ", "en": "delay", "pos": "noun", "note": "m. ځنډ مې وشو 'I got held up (lit. a delay happened to me)'." },
+    { "native": "سمدستي", "roman": "samdastí", "en": "right away, immediately", "pos": "adv" },
+    { "native": "تيارېدل", "roman": "tayāredə́l", "en": "to get ready", "pos": "verb", "note": "Present: تيارېږم tayāréẓəm 'I'm getting ready'. Perfective: تيار شم; imperative: تيار شه!" },
+    { "native": "لغوه", "roman": "laġwá", "en": "cancelled, called off", "pos": "adj", "note": "لغوه کول 'to cancel', لغوه کېدل 'to be cancelled'. Young people also say کينسل." },
+    { "native": "بهانه", "roman": "bahāná", "en": "excuse", "pos": "noun", "note": "f · pl: بهانې. بهانه کول 'to make excuses'." },
+    { "native": "ژمنه", "roman": "zhmána", "en": "promise", "pos": "noun", "note": "f. ژمنه کول 'to promise'." },
+    { "native": "ډله", "roman": "ḍála", "en": "group, gang (of friends)", "pos": "noun", "note": "f · pl: ډلې. د ملګرو ډله 'the group of friends'." },
+    { "native": "يو بل", "roman": "yaw bəl", "en": "each other", "pos": "pron", "note": "يو بل ته 'to each other', له يو بل سره 'with each other'." }
+  ],
+  "phrases": [
+    { "native": "نن شپه وزګار يې؟", "roman": "nən shpa wazgā́r ye?", "en": "Are you free tonight? (informal)", "note": "Polite / plural: نن شپه وزګار ياست؟" },
+    { "native": "نن شپه دې څه پروګرام دی؟", "roman": "nən shpa de tsə prográm day?", "en": "What are you up to tonight? (informal)" },
+    { "native": "خبر مې کړه.", "roman": "xabár me kṛa.", "en": "Let me know. (informal)", "note": "Polite: خبر مو کړئ." },
+    { "native": "راځه چې سينما ته لاړ شو!", "roman": "rā́dza che sinamā́ ta lāṛ shu!", "en": "Come on, let's go to the cinema!" },
+    { "native": "چېرته سره وګورو؟", "roman": "chérta sara wə́goru?", "en": "Where shall we meet?" },
+    { "native": "ستا خوښه.", "roman": "stā xwáṣa.", "en": "Up to you. (informal)" },
+    { "native": "زه هم درسره يم.", "roman": "zə ham dərsara yəm.", "en": "I'm in. Count me in. (lit. I'm with you too)" },
+    { "native": "ژر شه کنه!", "roman": "zhər sha kəna!", "en": "Come on, hurry up!" },
+    { "native": "زما انتظار وکړه!", "roman": "zmā intizā́r wə́kṛa!", "en": "Wait for me! (informal)" },
+    { "native": "زه روان يم.", "roman": "zə rawā́n yəm.", "en": "I'm on my way." },
+    { "native": "لس دقيقې کې رسېږم.", "roman": "las daqiqé ke raséẓəm.", "en": "I'll be there in ten minutes." },
+    { "native": "بښنه، لږ ځنډ مې وشو.", "roman": "baṣə́na, ləẓ dzanḍ me wə́shu.", "en": "Sorry, I got a bit held up." },
+    { "native": "پروګرام لغوه شو.", "roman": "prográm laġwá shu.", "en": "The plan's off." },
+    { "native": "بل ځل، انشاالله.", "roman": "bəl dzal, inshāllā́h.", "en": "Next time, hopefully." }
+  ],
+  "grammar": [
+    {
+      "title": "Let's and shall we: the 'we' subjunctive",
+      "body": "To suggest doing something together, use the **perfective subjunctive** for 'we' — the same form you met after بايد and چې — ending in **-و** (-u):\n\nلاړ **شو** 'let's go' · و**خورو** 'let's eat' · و**ګورو** 'let's see / let's meet' · و**ګرځو** 'let's walk around'\n\nOn its own, with a question mark, it means **'shall we …?'**: چای **وڅښو**؟ 'shall we have some tea?' · چېرته سره **وګورو**؟ 'where shall we meet?'\n\nTo turn it into an invitation, put **راځه چې** in front (to one friend), or **راځئ چې** (to several people, or politely): **راځه چې** لاړ شو! 'come on, let's go!'. راځه is the imperfective imperative of راتلل, literally 'come along'.\n\nThe **present** for 'we' is a fixed plan, not a suggestion: نن شپه سينما ته **ځو** 'we're going to the cinema tonight'. Compare سينما ته **لاړ شو**؟ 'shall we go to the cinema?'\n\nThe trap: don't use به for suggestions — سينما ته **به** لاړ شو is 'we will go to the cinema', a statement.",
+      "examples": [
+        { "native": "راځه چې ډوډۍ وخورو.", "roman": "rā́dza che ḍoḍə́y wə́xwru.", "en": "Come on, let's eat." },
+        { "native": "چای وڅښو؟", "roman": "chāy wə́tsṣu?", "en": "Shall we have some tea?" },
+        { "native": "سبا سره وګورو؟", "roman": "sabā́ sara wə́goru?", "en": "Shall we meet up tomorrow?" },
+        { "native": "راځئ چې يو ځای وګرځو.", "roman": "rā́dzəy che yaw dzāy wə́gərdzu.", "en": "Come on, everyone, let's go for a walk together." },
+        { "native": "نن شپه پارک ته ځو.", "roman": "nən shpa pārk ta dzu.", "en": "We're going to the park tonight." }
+      ]
+    },
+    {
+      "title": "Talking to friends: commands in the 'ته' form",
+      "body": "With friends you use **ته**, so commands are singular: **راشه** 'come', **ووايه** 'say', **وګوره** 'look', **لاړ شه** 'go', **کېنه** 'sit'. To a group, to an elder or to a stranger, use the plural / polite form in **-ئ**: راشئ، ووايئ، لاړ شئ، کېنئ. Switching is natural in one breath: احمده، راشه! ماما، تاسو هم راشئ!\n\n**Perfective or imperfective?** The ordinary command is perfective (with و- or a separable part like لاړ / تيار): **راشه** 'come (now)', **زما انتظار وکړه** 'wait for me'. The imperfective form, without و-, is for something ongoing or for *how* to do it: **ورو ځه** 'go slowly', **راځه** 'come along', دلته زما انتظار **کوه** 'keep waiting for me here'.\n\n**Don't.** Negative commands always use **مه** + the **imperfective**: مه **ځه** 'don't go', بيړه مه **کوه** 'don't rush', ناوخته مه **کېږه** 'don't be late'. Never مه وکړه or مه شه.\n\n**Pushing and softening.** Friends add little words: **کنه** 'come on' (راشه کنه! 'oh, come on!'), **نو** 'then' (ووايه نو! 'go on, say it!'), and **ياره**. With elders, wrap the same command in **مهرباني وکړئ** or ask: کولای شئ چې …؟",
+      "examples": [
+        { "native": "ياره، ژر راشه کنه!", "roman": "yā́ra, zhər rā́sha kəna!", "en": "Come on, man, come quick!" },
+        { "native": "ووايه نو، څه خبره ده؟", "roman": "wə́wāya no, tsə xabə́ra da?", "en": "Go on, tell me — what's up?" },
+        { "native": "ناوخته مه کېږه!", "roman": "nāwáxta ma kéẓa!", "en": "Don't be late!" },
+        { "native": "دلته زما انتظار کوه، زه همدا اوس راځم.", "roman": "dálta zmā intizā́r kawa, zə hamdā́ os rā́dzəm.", "en": "Wait for me here, I'm coming right now." },
+        { "native": "تاسو هم راشئ، مهرباني وکړئ.", "roman": "tāso ham rā́shəy, mehrabāní wə́kṛəy.", "en": "Please, you come too. (polite)" },
+        { "native": "بيړه مه کوه، ورو ځه.", "roman": "biṛá ma kawa, wro dza.", "en": "Don't rush — drive slowly." }
+      ]
+    },
+    {
+      "title": "On my way, and 'I was just about to …'",
+      "body": "**The present for right now and very soon.** Like English 'I'm coming!', Pashto uses the plain present for what is about to happen: **راځم** 'I'm coming', **رسېږم** 'I'm arriving, I'll be there', لس دقيقې کې **رسېږم** 'I'll be there in ten minutes', فلم اوس شروع **کېږي** 'the film's about to start'. Keep به for things further off or less certain.\n\n**On the way.** **روان يم** 'I'm on my way' (روان 'moving, under way'); **په لار کې يم** 'I'm on the road'; **نږدې يم** 'I'm close'; **تيارېږم** 'I'm getting ready'. When you get there, Pashto uses the past where English says 'I'm here': **ورسېدم** (lit. 'I arrived'), موږ **ورسېدو** 'we're here'.\n\n**'I was just about to …'** Pashto says 'I wanted to …': **ما غوښتل چې** درته زنګ ووهم 'I was just about to call you'. غوښتل is transitive, so the past needs the oblique **ما** (or the clitic: غوښتل **مې** چې …) — not زه. The verb after چې is in the subjunctive.",
+      "examples": [
+        { "native": "روان يم، پنځه دقيقې کې رسېږم.", "roman": "rawā́n yəm, pindzə́ daqiqé ke raséẓəm.", "en": "I'm on my way, I'll be there in five minutes." },
+        { "native": "ما غوښتل چې درته زنګ ووهم!", "roman": "mā ġuṣtə́l che dərta zang wə́wahəm!", "en": "I was just about to call you!" },
+        { "native": "يوه دقيقه، تيارېږم.", "roman": "yáwa daqiqá, tayāréẓəm.", "en": "One minute, I'm getting ready." },
+        { "native": "زه ورسېدم، ته چېرته يې؟", "roman": "zə wə́rasedəm, tə chérta ye?", "en": "I'm here — where are you?" },
+        { "native": "په لار کې يم، په ټکسي کې ناست يم.", "roman": "pə lār ke yəm, pə ṭaksí ke nāst yəm.", "en": "I'm on the road — I'm sitting in a taxi." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Karahi at Namak Mandi",
+    "setting": "Peshawar. Sahil phones his friend Idris to plan the evening — and later phones him again.",
+    "lines": [
+      { "speaker": "Sahil", "native": "هلو ياره! نن شپه وزګار يې؟", "roman": "halló yā́ra! nən shpa wazgā́r ye?", "en": "Hello, mate! Are you free tonight?" },
+      { "speaker": "Idris", "native": "هو، ولې؟ څه پروګرام دی؟", "roman": "ho, wə́le? tsə prográm day?", "en": "Yeah, why? What's the plan?" },
+      { "speaker": "Sahil", "native": "راځه چې نمک منډۍ ته لاړ شو، کړايي وخورو.", "roman": "rā́dza che namak manḍə́y ta lāṛ shu, kaṛāyí wə́xwru.", "en": "Let's go to Namak Mandi and have karahi." },
+      { "speaker": "Idris", "native": "واه، ډېر ښه! نور څوک هم راځي؟", "roman": "wāh, ḍer ṣə! nor tsok ham rā́dzi?", "en": "Wow, great! Is anyone else coming?" },
+      { "speaker": "Sahil", "native": "ټوله ډله راځي. چېرته سره وګورو؟", "roman": "ṭóla ḍála rā́dzi. chérta sara wə́goru?", "en": "The whole gang's coming. Where shall we meet?" },
+      { "speaker": "Idris", "native": "د قصه خوانۍ په څلورلارې کې؟ اووه بجې؟", "roman": "də qisa xwānə́y pə tsalorlā́re ke? owə́ báje?", "en": "At the Qissa Khwani crossroads? Seven?" },
+      { "speaker": "Sahil", "native": "سمه ده. خو ناوخته مه کېږه، ته تل ناوخته کېږې!", "roman": "sáma da. xo nāwáxta ma kéẓa, tə tal nāwáxta kéẓe!", "en": "OK. But don't be late — you're always late!" },
+      { "speaker": "Idris", "native": "نه ياره، خامخا په وخت راځم، ژمنه کوم!", "roman": "na yā́ra, xāmaxā́ pə waxt rā́dzəm, zhmána kawə́m!", "en": "No way, I'll definitely be on time, I promise!" },
+      { "speaker": "Sahil", "native": "ياره، چېرته يې؟ اووه نيمې دي، موږ ټول دلته يو!", "roman": "yā́ra, chérta ye? owə́ níme di, muẓ ṭol dálta yu!", "en": "Man, where are you? It's half past seven, we're all here!" },
+      { "speaker": "Idris", "native": "بښنه، لږ ځنډ مې وشو. روان يم، لس دقيقې کې رسېږم.", "roman": "baṣə́na, ləẓ dzanḍ me wə́shu. rawā́n yəm, las daqiqé ke raséẓəm.", "en": "Sorry, I got a bit held up. I'm on my way, I'll be there in ten minutes." },
+      { "speaker": "Sahil", "native": "ته خو لا په کور کې يې، کنه؟", "roman": "tə xo lā pə kor ke ye, kəna?", "en": "You're still at home, aren't you?" },
+      { "speaker": "Idris", "native": "نه ياره… يعنې… ما غوښتل چې درته زنګ ووهم!", "roman": "na yā́ra… yaʿné… mā ġuṣtə́l che dərta zang wə́wahəm!", "en": "No, man… I mean… I was just about to call you!" },
+      { "speaker": "Sahil", "native": "هاها، ښه بهانه ده! ژر شه کنه، ډوډۍ يخېږي!", "roman": "hāhā́, ṣa bahāná da! zhər sha kəna, ḍoḍə́y yaxéẓi!", "en": "Ha ha, nice excuse! Hurry up, the food's getting cold!" }
+    ]
+  },
+  "culture": "Plans between Pashtun friends are loose and generous. Whoever suggests going out usually pays — expect a friendly fight over the bill (more in unit 24). Times are approximate, and 'ten minutes' (لس دقيقې) is a figure of speech; nobody minds much, though teasing the friend who is always late is a sport. A bare **انشاالله** in answer to an invitation can mean 'probably not', so if you really mean yes, say **خامخا** or **حتماً**. In Peshawar people meet at Namak Mandi for karahi and tikka, in Hayatabad's parks or on University Road; in Kabul friends meet in restaurants, in Shahr-e Naw park, or drive out to Qargha and Paghman on Fridays. The weekend is **جمعه** in Afghanistan and Sunday in Pakistan. Friends plan in WhatsApp groups (**ډله**), mixing Pashto with English 'plan', 'OK', 'cancel' — and in Peshawar the Urdu-flavoured **ټيک ده** 'fine' is as common as سمه ده. Groups of friends are usually all men or all women; going out in mixed groups is rare outside big-city universities and offices.",
+  "lessons": [
+    {
+      "title": "Asking if a friend is free",
+      "new": ["نن شپه", "پروګرام", "مازديګر", "ملاقات", "خبرول", "نن شپه وزګار يې؟", "نن شپه دې څه پروګرام دی؟", "خبر مې کړه."],
+      "sentences": [
+        { "native": "سبا مازديګر وزګار يې؟", "roman": "sabā́ māzdigár wazgā́r ye?", "en": "Are you free tomorrow afternoon?" },
+        { "native": "نن شپه بوخت يم، خو سبا وزګار يم.", "roman": "nən shpa buxt yəm, xo sabā́ wazgā́r yəm.", "en": "I'm busy tonight, but I'm free tomorrow." },
+        { "native": "د جمعې پروګرام دې څه دی؟", "roman": "də jumʿé prográm de tsə day?", "en": "What are you doing on Friday?" },
+        { "native": "هېڅ پروګرام نه لرم.", "roman": "hets prográm na lárəm.", "en": "I've got no plans." },
+        { "native": "زه هره ورځ مازديګر له دفتر نه وځم.", "roman": "zə hára wradz māzdigár la daftár na wúdzəm.", "en": "I leave the office every day in the late afternoon." },
+        { "native": "نن له احمد سره ملاقات لرم.", "roman": "nən la ahmád sara mulāqā́t lárəm.", "en": "I'm meeting Ahmad today." },
+        { "native": "ملاقات څو بجې دی؟", "roman": "mulāqā́t tso báje day?", "en": "What time is the meet-up?" },
+        { "native": "که وزګار وې، خبر مې کړه.", "roman": "ka wazgā́r we, xabár me kṛa.", "en": "If you're free, let me know." },
+        { "native": "ټول ملګري خبر کړه.", "roman": "ṭol malgə́ri xabár kṛa.", "en": "Let all the friends know." },
+        { "native": "نن شپه کور کې يم، راشه!", "roman": "nən shpa kor ke yəm, rā́sha!", "en": "I'm home tonight — come over!" }
+      ]
+    },
+    {
+      "title": "Suggesting what to do",
+      "tip": { "title": "Let's … / Shall we …? — the 'we' subjunctive", "body": "- **Shall we …?** = the perfective 'we' form + ?: لاړ **شو**؟ وګور**و**؟ وخور**و**؟\n- **Let's …!** = **راځه چې** (to one friend) / **راځئ چې** (to a group) + the same form.\n- The plain present is a fixed plan: پارک ته **ځو** 'we're going to the park'.\n- No به here — به لاړ شو is 'we will go'.", "pattern": "راځه چې + … لاړ شو / وخورو / وګورو", "grammar": 0 },
+      "new": ["سره", "يو ځای", "سينما", "پارک", "فلم", "خوښه", "راځه چې سينما ته لاړ شو!", "چېرته سره وګورو؟", "ستا خوښه.", "زه هم درسره يم."],
+      "sentences": [
+        { "native": "سينما ته لاړ شو؟", "roman": "sinamā́ ta lāṛ shu?", "en": "Shall we go to the cinema?", "focus": "شو", "wrong": ["شم|shəm", "شې|she"] },
+        { "native": "راځه چې پارک ته لاړ شو.", "roman": "rā́dza che pārk ta lāṛ shu.", "en": "Come on, let's go to the park.", "focus": "شو", "wrong": ["شوم|shwəm", "شې|she"] },
+        { "native": "نن شپه يو فلم وګورو؟", "roman": "nən shpa yaw film wə́goru?", "en": "Shall we watch a film tonight?", "focus": "وګورو", "wrong": ["وګورم|wə́gorəm", "وګوره|wə́gora"] },
+        { "native": "سبا يو ځای ډوډۍ وخورو.", "roman": "sabā́ yaw dzāy ḍoḍə́y wə́xwru.", "en": "Let's have lunch together tomorrow.", "focus": "وخورو", "wrong": ["وخوري|wə́xwri", "وخوره|wə́xwra"] },
+        { "native": "راځئ چې ټول يو ځای لاړ شو.", "roman": "rā́dzəy che ṭol yaw dzāy lāṛ shu.", "en": "Come on, everyone, let's all go together.", "focus": "راځئ", "wrong": ["راځه|rā́dza", "راځم|rā́dzəm"] },
+        { "native": "د سينما مخې ته سره وګورو؟", "roman": "də sinamā́ mə́xe ta sara wə́goru?", "en": "Shall we meet in front of the cinema?", "focus": "وګورو", "wrong": ["ګورم|górəm", "وګورئ|wə́gorəy"] },
+        { "native": "په پارک کې لږ وګرځو؟", "roman": "pə pārk ke ləẓ wə́gərdzu?", "en": "Shall we walk round the park for a bit?", "focus": "وګرځو", "wrong": ["ګرځي|gə́rdzi", "وګرځه|wə́gərdza"] },
+        { "native": "ستا خوښه، فلم وګورو که پارک ته لاړ شو؟", "roman": "stā xwáṣa, film wə́goru ka pārk ta lāṛ shu?", "en": "Up to you — shall we watch a film or go to the park?" },
+        { "native": "زه هم درسره يم، کله ځو؟", "roman": "zə ham dərsara yəm, kə́la dzu?", "en": "I'm in — when are we going?" },
+        { "native": "دا فلم ډېر ښه دی، خامخا يې وګوره.", "roman": "dā film ḍer ṣə day, xāmaxā́ ye wə́gora.", "en": "This film is great, you have to see it." }
+      ]
+    },
+    {
+      "title": "Hurrying your friends along",
+      "tip": { "title": "Commands between friends", "body": "- With a friend use the **ته** form: راشه، ووايه، لاړ شه. To elders and groups: راشئ، ووايئ، لاړ شئ.\n- **Don't** = **مه** + the imperfective: بيړه مه **کوه**، ناوخته مه **کېږه** — never مه وکړه.\n- Push with **کنه** (راشه کنه! 'come on!') or **نو** (ووايه نو! 'go on, say it!').", "pattern": "راشه کنه!  ·  مه + کوه / ځه / کېږه", "grammar": 1 },
+      "new": ["کنه", "بيړه", "پام", "ورسره", "ژر شه کنه!", "زما انتظار وکړه!"],
+      "sentences": [
+        { "native": "راشه کنه، ډېر خوند به وي!", "roman": "rā́sha kəna, ḍer xwand ba wi!", "en": "Oh come on, it'll be really fun!", "focus": "راشه", "wrong": ["راځم|rā́dzəm", "راشم|rā́shəm"] },
+        { "native": "بيړه مه کوه، وخت لرو.", "roman": "biṛá ma kawa, waxt láru.", "en": "Don't rush, we've got time.", "focus": "کوه", "wrong": ["وکړه|wə́kṛa", "کوم|kawə́m"] },
+        { "native": "ياره، ما ته ووايه نو!", "roman": "yā́ra, mā ta wə́wāya no!", "en": "Come on, man, tell me!", "focus": "ووايه", "wrong": ["ووايم|wə́wāyəm", "وايې|wā́ye"] },
+        { "native": "پام کوه، ډېر تېز مه ځه!", "roman": "pām kawa, ḍer tez ma dza!", "en": "Careful — don't go so fast!", "focus": "ځه", "wrong": ["ځې|dze", "ځم|dzəm"] },
+        { "native": "ته هم ورسره لاړ شه.", "roman": "tə ham wársara lāṛ sha.", "en": "You go with them too.", "focus": "شه", "wrong": ["شو|shu", "شي|shi"] },
+        { "native": "ناوخته مه کېږه! اووه بجې دلته راشه.", "roman": "nāwáxta ma kéẓa! owə́ báje dálta rā́sha.", "en": "Don't be late! Be here at seven.", "focus": "کېږه", "wrong": ["شه|sha", "وشه|wə́sha"] },
+        { "native": "د دروازې مخې ته زما انتظار وکړه.", "roman": "də darwā́ze mə́xe ta zmā intizā́r wə́kṛa.", "en": "Wait for me in front of the door.", "focus": "وکړه", "wrong": ["وکړم|wə́kṛəm", "وکړي|wə́kṛi"] },
+        { "native": "ماما، تاسو هم راشئ!", "roman": "māmā́, tāso ham rā́shəy!", "en": "Uncle, you come too!", "focus": "راشئ", "wrong": ["راشه|rā́sha", "راشو|rā́shu"] },
+        { "native": "مه ځه، لږ نور هم کېنه.", "roman": "ma dza, ləẓ nor ham kéna.", "en": "Don't go — stay a bit longer.", "focus": "کېنه", "wrong": ["کېنم|kénəm", "کېني|kéni"] },
+        { "native": "ژر شه کنه، ټول ستا انتظار کوي!", "roman": "zhər sha kəna, ṭol stā intizā́r kawí!", "en": "Hurry up, will you — everyone's waiting for you!" }
+      ]
+    },
+    {
+      "title": "Saying you're on your way",
+      "tip": { "title": "I'm on my way: روان يم، رسېږم", "body": "- For 'right now / very soon' use the plain present: **راځم** 'I'm coming', لس دقيقې کې **رسېږم** 'I'll be there in ten minutes'.\n- **روان يم** 'I'm on my way' · **تيارېږم** 'I'm getting ready' · **ورسېدم** 'I'm here' (lit. I arrived).\n- 'I was just about to …' = **ما غوښتل چې** + subjunctive — ما, not زه, because غوښتل is transitive.", "pattern": "روان يم، … دقيقې کې رسېږم", "grammar": 2 },
+      "new": ["روان", "ځنډ", "سمدستي", "تيارېدل", "زه روان يم.", "لس دقيقې کې رسېږم.", "بښنه، لږ ځنډ مې وشو."],
+      "sentences": [
+        { "native": "سمدستي راځم!", "roman": "samdastí rā́dzəm!", "en": "Coming right away!", "focus": "راځم", "wrong": ["راځې|rā́dze", "راشه|rā́sha"] },
+        { "native": "په لار کې يم، پنځه دقيقې کې رسېږم.", "roman": "pə lār ke yəm, pindzə́ daqiqé ke raséẓəm.", "en": "I'm on the road, I'll be there in five minutes.", "focus": "رسېږم", "wrong": ["رسېدم|rasedə́m", "رسېږې|raséẓe"] },
+        { "native": "ته چېرته يې؟ موږ ورسېدو.", "roman": "tə chérta ye? muẓ wə́rasedu.", "en": "Where are you? We're here.", "focus": "ورسېدو", "wrong": ["ورسېدې|wə́rasede", "ورسېدل|wə́rasedəl"] },
+        { "native": "لږ انتظار وکړه، اوس تيارېږم.", "roman": "ləẓ intizā́r wə́kṛa, os tayāréẓəm.", "en": "Hang on a bit, I'm getting ready now.", "focus": "تيارېږم", "wrong": ["تيارېږې|tayāréẓe", "تيارېږي|tayāréẓi"] },
+        { "native": "ما غوښتل چې درته ووايم چې ناوخته کېږم.", "roman": "mā ġuṣtə́l che dərta wə́wāyəm che nāwáxta kéẓəm.", "en": "I was just about to tell you I'm running late.", "focus": "ما", "wrong": ["زه|zə", "زما|zmā"] },
+        { "native": "فلم اوس شروع کېږي، چېرته يې؟", "roman": "film os shurúʿ kéẓi, chérta ye?", "en": "The film's about to start — where are you?", "focus": "کېږي", "wrong": ["شو|shu", "شوه|shwa"] },
+        { "native": "هغه روان دی، ژر به راشي.", "roman": "haġá rawā́n day, zhər ba rā́shi.", "en": "He's on his way, he'll be here soon.", "focus": "دی", "wrong": ["يم|yəm", "يې|ye"] },
+        { "native": "موږ روان يو، ته هم راشه.", "roman": "muẓ rawā́n yu, tə ham rā́sha.", "en": "We're on our way — you come too.", "focus": "يو", "wrong": ["دي|di", "يم|yəm"] },
+        { "native": "په سړک کې ډېر موټر دي، ځنډ مې وشو.", "roman": "pə saṛák ke ḍer moṭár di, dzanḍ me wə́shu.", "en": "There are loads of cars on the road — I got held up." },
+        { "native": "سمدستي تيار شه، ملګري راغلل!", "roman": "samdastí tayā́r sha, malgə́ri rā́ġləl!", "en": "Get ready right now — the guys are here!" }
+      ]
+    },
+    {
+      "title": "Cancelling and changing plans",
+      "tip": { "title": "Saying no nicely", "body": "- Start with **بښنه غواړم** or **افسوس**.\n- Give a reason: بوخت يم، ناروغ يم، مېلمانه لرو 'we've got guests'.\n- Offer another time: **بل ځل، انشاالله** or سبا؟\n- Careful: a bare **انشاالله** often means 'probably not'. If you mean yes, say **خامخا**." },
+      "new": ["لغوه", "بهانه", "ژمنه", "ډله", "يو بل", "پروګرام لغوه شو.", "بل ځل، انشاالله."],
+      "sentences": [
+        { "native": "بښنه غواړم، نن نه شم راتلای، مېلمانه لرو.", "roman": "baṣə́na ġwā́ṛəm, nən na shəm rātlā́y, melmā́na láru.", "en": "Sorry, I can't come today — we've got guests." },
+        { "native": "د سبا ملاقات لغوه دی.", "roman": "də sabā́ mulāqā́t laġwá day.", "en": "Tomorrow's meet-up is off." },
+        { "native": "پروګرام مو لغوه کړ، ځکه چې باران و.", "roman": "prográm mo laġwá kaṛ, dzə́ka che bārā́n wə.", "en": "We called it off because it was raining." },
+        { "native": "دا خو يوه بهانه ده!", "roman": "dā xo yáwa bahāná da!", "en": "That's just an excuse!" },
+        { "native": "هره ورځ يوه نوې بهانه لرې!", "roman": "hára wradz yáwa náwe bahāná lare!", "en": "Every day you have a new excuse!" },
+        { "native": "ژمنه دې کړې وه چې راځې!", "roman": "zhmána de kṛe wa che rā́dze!", "en": "You promised you'd come!" },
+        { "native": "زما ژمنه ده، بله اوونۍ خامخا راځم.", "roman": "zmā zhmána da, bə́la owənə́y xāmaxā́ rā́dzəm.", "en": "I promise — next week I'll definitely come." },
+        { "native": "زموږ ډله هره جمعه يو ځای ډوډۍ خوري.", "roman": "zmuẓ ḍála hára jumʿá yaw dzāy ḍoḍə́y xwri.", "en": "Our gang eats together every Friday." },
+        { "native": "موږ هره ورځ يو بل ته زنګ وهو.", "roman": "muẓ hára wradz yaw bəl ta zang wahú.", "en": "We call each other every day." },
+        { "native": "سمه ده، خير دی، بل ځل.", "roman": "sáma da, xayr day, bəl dzal.", "en": "OK, never mind — next time." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "id": 32,
+  "title": "Health in depth",
+  "goal": "Describe your symptoms precisely, say how long you've had them, mention allergies and past operations, book a doctor and a test, and understand exactly how to take your medicine.",
+  "intro": "In unit 9 you learned to say 'my head hurts'. Now you'll be able to have a real conversation with a doctor or pharmacist: dizziness, nausea, itching, swelling, allergies, blood pressure, tests and injections — and, above all, **how long**: درې ورځې **کېږي** چې ټوخی لرم 'I've had a cough for three days', **له پرون راهيسې** 'since yesterday'.\n\nYou'll also learn to follow instructions exactly: **ورځ کې دوه ځله** 'twice a day', **له ډوډۍ وروسته** 'after food', **په خالي ګېډه** 'on an empty stomach' — and why a doctor says وخورئ for one dose but هره ورځ يې خورئ for a course of tablets.",
+  "vocab": [
+    { "native": "نښه", "roman": "náṣa", "en": "sign; symptom", "pos": "noun", "note": "f · pl نښې. د زکام نښې \"cold symptoms\". Peshawar: náxa." },
+    { "native": "کانګې", "roman": "kā́nge", "en": "vomiting", "pos": "noun", "note": "f pl. کانګې کول \"to vomit, throw up\"." },
+    { "native": "اسهال", "roman": "ishā́l", "en": "diarrhoea", "pos": "noun", "note": "m. In everyday speech also ګېډه مې روانه ده (lit. my stomach is running)." },
+    { "native": "خارښت", "roman": "xāráṣt", "en": "itching, an itch", "pos": "noun", "note": "m. خارښت کوي \"it itches\"." },
+    { "native": "پړسېدل", "roman": "pəṛsedə́l", "en": "to swell (up)", "pos": "verb", "note": "perfect پړسېدلی دی (m) / پړسېدلې ده (f) \"is swollen\"." },
+    { "native": "زخم", "roman": "zaxm", "en": "wound, cut, sore", "pos": "noun", "note": "m · pl زخمونه" },
+    { "native": "سا", "roman": "sā", "en": "breath", "pos": "noun", "note": "f. سا اخيستل \"to breathe\"." },
+    { "native": "اخته", "roman": "axtá", "en": "afflicted, caught (an illness)", "pos": "adj", "note": "په زکام اخته يم \"I've got a cold\"; اخته کېدل \"to come down with\"." },
+    { "native": "نوبت", "roman": "nawbát", "en": "turn (in a queue); appointment", "pos": "noun", "note": "m. زما نوبت دی؟ \"is it my turn?\"" },
+    { "native": "کلينيک", "roman": "kliník", "en": "clinic, doctor's surgery", "pos": "noun", "note": "m" },
+    { "native": "معاينه", "roman": "muʿāyiná", "en": "medical examination, check-up", "pos": "noun", "note": "f. معاينه کول \"to examine\"." },
+    { "native": "ازمايښت", "roman": "āzmāyə́ṣt", "en": "(medical) test", "pos": "noun", "note": "m. د وينې ازمايښت \"blood test\"; people also say ټيسټ." },
+    { "native": "وينه", "roman": "wína", "en": "blood", "pos": "noun", "note": "f" },
+    { "native": "فشار", "roman": "fishā́r", "en": "pressure; blood pressure", "pos": "noun", "note": "m. د وينې فشار \"blood pressure\" — often just فشار." },
+    { "native": "وزن", "roman": "wazn", "en": "weight", "pos": "noun", "note": "m" },
+    { "native": "حساسيت", "roman": "hasāsiyát", "en": "allergy", "pos": "noun", "note": "m. له … (څخه) حساسيت لرم \"I'm allergic to …\". Kabul also: الرژي." },
+    { "native": "عمليات", "roman": "amaliyā́t", "en": "operation (surgery)", "pos": "noun", "note": "m pl. عمليات کول \"to operate\", عمليات مې وشول \"I had an operation\"." },
+    { "native": "روغتيا", "roman": "roġtyā́", "en": "health", "pos": "noun", "note": "f" },
+    { "native": "عادي", "roman": "ādí", "en": "normal, ordinary", "pos": "adj" },
+    { "native": "پېچکاري", "roman": "pechkārí", "en": "injection", "pos": "noun", "note": "f. پېچکاري وهل \"to give an injection\"." },
+    { "native": "شربت", "roman": "sharbát", "en": "(cough) syrup; a sweet drink", "pos": "noun", "note": "m" },
+    { "native": "ملهم", "roman": "malhám", "en": "ointment, cream", "pos": "noun", "note": "m. ملهم لګول \"to put on cream\"." },
+    { "native": "لګول", "roman": "lagawə́l", "en": "to put on, apply; to attach; to switch on", "pos": "verb", "note": "perfective ولګوه wə́lagawa / ولګوئ (polite)." },
+    { "native": "څاڅکي", "roman": "tsā́tski", "en": "drops (eye, ear drops)", "pos": "noun", "note": "m pl (sg څاڅکی)" },
+    { "native": "خوراک", "roman": "xwarā́k", "en": "dose; food, diet", "pos": "noun", "note": "m. يو خوراک \"one dose\"." },
+    { "native": "پرهېز", "roman": "parhéz", "en": "avoiding certain foods; diet (for health)", "pos": "noun", "note": "m. له … پرهېز کول \"to avoid, stay off\"." },
+    { "native": "اغېز", "roman": "aġéz", "en": "effect", "pos": "noun", "note": "m. اغېز کول \"to work, have an effect\"." }
+  ],
+  "phrases": [
+    { "native": "څه تکليف لرئ؟", "roman": "tsə taklíf lárəy?", "en": "What seems to be the problem? (doctor, polite)" },
+    { "native": "سر مې ګرځي.", "roman": "sar me gə́rdzi.", "en": "I feel dizzy.", "note": "lit. my head is going round." },
+    { "native": "زړه مې بدېږي.", "roman": "zṛə me badéẓi.", "en": "I feel sick (nauseous).", "note": "lit. my heart is turning bad." },
+    { "native": "له کله راهيسې؟", "roman": "la kə́la rāhíse?", "en": "Since when?" },
+    { "native": "له پرون راهيسې تبه لرم.", "roman": "la parún rāhíse tabə́ lárəm.", "en": "I've had a fever since yesterday." },
+    { "native": "درې ورځې کېږي چې ټوخی لرم.", "roman": "dre wradzé kéẓi che ṭúxay lárəm.", "en": "I've had a cough for three days." },
+    { "native": "د سبا لپاره د ډاکټر وخت شته؟", "roman": "də sabā́ lapā́ra də ḍākṭár waxt shta?", "en": "Is there an appointment with the doctor tomorrow?" },
+    { "native": "زما نوبت دی؟", "roman": "zmā nawbát day?", "en": "Is it my turn?" },
+    { "native": "له پنسلين څخه حساسيت لرم.", "roman": "la pansilín tsəxa hasāsiyát lárəm.", "en": "I'm allergic to penicillin." },
+    { "native": "ورځ کې دوه ځله، له ډوډۍ وروسته.", "roman": "wradz ke dwa dzə́la, la ḍoḍə́y wrústa.", "en": "Twice a day, after meals." },
+    { "native": "په خالي ګېډه يې وخورئ.", "roman": "pə xālí géḍa ye wə́xwrəy.", "en": "Take it on an empty stomach." },
+    { "native": "له مرچو پرهېز وکړئ.", "roman": "la mərcho parhéz wə́kṛəy.", "en": "Stay off chilli." },
+    { "native": "درمل اغېز نه کوي.", "roman": "darmál aġéz na kawí.", "en": "The medicine isn't working." }
+  ],
+  "grammar": [
+    {
+      "title": "How long? 'I've had it for three days'",
+      "body": "English says 'I **have been** coughing for three days'. Pashto keeps the verb in the **present** — the cough is still going on — and uses one of two patterns:\n\n**1. [length of time] + کېږي چې + present**: درې ورځې **کېږي** چې ټوخی **لرم** 'I've had a cough for three days' (lit. it is becoming three days that I have a cough). Ask: **څو ورځې کېږي چې …؟** 'how many days have you …?'\n\n**2. له [starting point] راهيسې + present** 'since': **له پرون راهيسې** تبه لرم 'I've had a fever since yesterday'. The word after له goes into the oblique: له جمعې راهيسې 'since Friday', له سهاره راهيسې 'since this morning', له دوو اوونيو راهيسې 'for (lit. since) two weeks'. Ask: **له کله راهيسې؟** 'since when?'\n\n**Ago** is **مخکې** after the time, with a past verb: دوه ورځې **مخکې** ناروغ شوم 'I fell ill two days ago'.\n\n**A finished stretch** of time needs no word for 'for' at all: درې ورځې په روغتون کې **وم** 'I was in hospital for three days'.\n\n**The trap**: if it's still happening, don't use a past tense. درې ورځې ټوخی مې **درلود** means 'I had a cough for three days' — and it's over. For a cough you still have, say … ټوخی **لرم**.",
+      "examples": [
+        { "native": "دوه اوونۍ کېږي چې ملا مې درد کوي.", "roman": "dwa owənə́y kéẓi che mlā me dard kawí.", "en": "My back has been hurting for two weeks." },
+        { "native": "څو ورځې کېږي چې تبه لرې؟", "roman": "tso wradzé kéẓi che tabə́ lare?", "en": "How many days have you had a fever?" },
+        { "native": "له جمعې راهيسې زړه مې بدېږي.", "roman": "la jumʿé rāhíse zṛə me badéẓi.", "en": "I've been feeling sick since Friday." },
+        { "native": "يوه مياشت مخکې مې عمليات وشول.", "roman": "yáwa miyā́sht mə́xke me amaliyā́t wə́shwəl.", "en": "I had an operation a month ago." },
+        { "native": "درې ورځې په روغتون کې وم.", "roman": "dre wradzé pə roġtún ke wəm.", "en": "I was in hospital for three days." }
+      ]
+    },
+    {
+      "title": "Instructions: how often, before or after, and which aspect",
+      "body": "Doctors, pharmacists and medicine labels give instructions in the **polite imperative** (the تاسو-form); to a child or a friend the same words come in the ته-form.\n\n**How often**: ورځ کې **درې ځله** 'three times a day' · **هر اته ساعته** 'every eight hours' · **سهار او ماښام** 'morning and evening' · **يوه يوه** ګولۍ 'one tablet each time' — doubling a number means 'each'.\n\n**When**: **له ډوډۍ وروسته** 'after food' · **له ډوډۍ مخکې** 'before food' · **په خالي ګېډه** 'on an empty stomach' · **له خوب مخکې** 'before bed'. In speech you'll also hear د ډوډۍ نه وروسته.\n\n**For how long**: پنځه ورځې 'for five days' · **تر هغه چې** ګولۍ خلاصې شي 'until the tablets are finished'.\n\n**Which aspect?** For one action, the **perfective**: اوس يوه ګولۍ **وخورئ** 'take one tablet now' — and this is also the usual form on a prescription. When the doctor stresses an ongoing **routine** ('keep taking it'), you'll hear the **imperfective**: هره ورځ يې **خورئ** 'take it every day'. And 'don't' is always **مه + imperfective**: په خالي ګېډه يې **مه خورئ**.\n\nThe word يې 'it, them' (a clitic) refers back to the medicine: **يې** وخورئ 'take it'.",
+      "examples": [
+        { "native": "ورځ کې درې ځله يوه يوه ګولۍ وخورئ.", "roman": "wradz ke dre dzə́la yáwa yáwa golə́y wə́xwrəy.", "en": "Take one tablet three times a day." },
+        { "native": "دا شربت له ډوډۍ وروسته وڅښئ.", "roman": "dā sharbát la ḍoḍə́y wrústa wə́tsṣəy.", "en": "Drink this syrup after meals." },
+        { "native": "د سترګو څاڅکي هر شپږ ساعته واچوئ.", "roman": "də stə́rgo tsā́tski har shpaẓ sāʿáta wā́chawəy.", "en": "Put the eye drops in every six hours." },
+        { "native": "تر هغه چې ګولۍ خلاصې شي، هره ورځ يې خورئ.", "roman": "tər haġə́ che golə́y xlā́se shi, hára wradz ye xwrəy.", "en": "Keep taking them every day until the tablets are finished." },
+        { "native": "مرچ او غوښه مه خورئ.", "roman": "mərch aw ġwáṣa ma xwrəy.", "en": "Don't eat chilli or meat." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the doctor's",
+    "setting": "A private clinic in Peshawar. Karim has had an upset stomach since the weekend.",
+    "lines": [
+      { "speaker": "Doctor", "native": "راشئ، کېنئ. څه تکليف لرئ؟", "roman": "rā́shəy, kénəy. tsə taklíf lárəy?", "en": "Come in, sit down. What seems to be the problem?" },
+      { "speaker": "Karim", "native": "ډاکټر صاحب، ګېډه مې خوږېږي او زړه مې بدېږي.", "roman": "ḍākṭár sāhíb, géḍa me xwaẓéẓi aw zṛə me badéẓi.", "en": "Doctor, my stomach hurts and I feel sick." },
+      { "speaker": "Doctor", "native": "له کله راهيسې؟", "roman": "la kə́la rāhíse?", "en": "Since when?" },
+      { "speaker": "Karim", "native": "درې ورځې کېږي. پرون مې دوه ځله کانګې هم وکړې.", "roman": "dre wradzé kéẓi. parún me dwa dzə́la kā́nge ham wə́kṛe.", "en": "Three days now. Yesterday I was sick twice, too." },
+      { "speaker": "Doctor", "native": "تبه هم لرئ؟ له بازاره مو څه خوړلي؟", "roman": "tabə́ ham lárəy? la bāzā́ra mo tsə xwaṛə́li?", "en": "Any fever? Have you eaten anything from the bazaar?" },
+      { "speaker": "Karim", "native": "لږه تبه لرم. هو… د جمعې په ورځ مې د سړک پر غاړه پکوړې وخوړې.", "roman": "ləẓa tabə́ lárəm. ho… də jumʿé pə wradz me də saṛák pər ġā́ṛa pakóṛe wə́xwaṛe.", "en": "A slight fever. And yes… on Friday I had pakoras from a roadside stall." },
+      { "speaker": "Doctor", "native": "ښه، همدا ده. کوم شي ته حساسيت لرئ؟", "roman": "ṣə, hamdā́ da. kum shi ta hasāsiyát lárəy?", "en": "Right, there we are. Are you allergic to anything?" },
+      { "speaker": "Karim", "native": "نه، هېڅ شي ته نه.", "roman": "na, hets shi ta na.", "en": "No, nothing." },
+      { "speaker": "Doctor", "native": "دا ګولۍ ورځ کې درې ځله له ډوډۍ وروسته وخورئ، او دا شربت سهار او ماښام.", "roman": "dā golə́y wradz ke dre dzə́la la ḍoḍə́y wrústa wə́xwrəy, aw dā sharbát sahā́r aw māṣā́m.", "en": "Take these tablets three times a day after meals, and this syrup morning and evening." },
+      { "speaker": "Doctor", "native": "ډېرې اوبه وڅښئ، او درې ورځې له غوړو او مرچو پرهېز وکړئ.", "roman": "ḍére obə́ wə́tsṣəy, aw dre wradzé la ġwáṛo aw mərcho parhéz wə́kṛəy.", "en": "Drink plenty of water, and stay off oily food and chilli for three days." },
+      { "speaker": "Karim", "native": "درې ورځې پرته له کبابه؟ ډاکټر صاحب، دا خو سخته ده!", "roman": "dre wradzé pə́rta la kabā́ba? ḍākṭár sāhíb, dā xo sáxta da!", "en": "Three days without kebabs? Doctor, that's tough!" },
+      { "speaker": "Doctor", "native": "که تر درې ورځو پورې ښه نه شئ، بيا راشئ، د وينې ازمايښت به وکړو.", "roman": "ka tər dre wradzó póre ṣə na shəy, biyā́ rā́shəy, də wíne āzmāyə́ṣt ba wə́kṛu.", "en": "If you're not better in three days, come back and we'll do a blood test." }
+    ]
+  },
+  "culture": "Many people go straight to the **pharmacy** (درملتون) rather than a doctor: pharmacists listen to your symptoms, suggest medicine and in many places will even give an injection. Private clinics cluster in medical streets — in Peshawar, Dabgari Gardens is lined with doctors' signs — and you usually take a number and wait for your **نوبت**. Prescriptions tend to be long; injections and drips (سېروم) are popular, and patients often ask for them.\n\nIllness is a family affair: relatives come along to appointments and stay at the hospital bedside. **Visiting the sick** (د ناروغ پوښتنه) is a social duty — bring fruit, juice or biscuits, keep the visit short, and say **خدای دې شفا درکړي** and **ژر جوړ شې**. You'll also meet the traditional idea of 'hot' and 'cold' foods (ګرم / سوړ خواړه): grandmothers will tell you to avoid 'cold' yoghurt with a cough and eat 'hot' foods like honey and dried fruit in winter.\n\nWith a doctor, use تاسو and **ډاکټر صاحب** (to a woman doctor, ډاکټرې صاحبې is common). Patients are often addressed politely too, especially older ones. Women usually prefer a woman doctor, and it's normal to ask for one.",
+  "lessons": [
+    {
+      "title": "Describing your symptoms",
+      "tip": { "title": "Saying exactly what's wrong", "body": "- Body part + **مې** + verb, as in unit 9: لاس **مې** خارښت کوي 'my hand itches'.\n- Two idioms: **سر مې ګرځي** 'I'm dizzy', **زړه مې بدېږي** 'I feel sick'.\n- Swollen = the perfect: پښه مې **پړسېدلې ده** (f), لاس مې **پړسېدلی دی** (m).\n- To a doctor: **ډاکټر صاحب** and تاسو." },
+      "new": ["نښه", "کانګې", "اسهال", "خارښت", "پړسېدل", "زخم", "سا", "څه تکليف لرئ؟", "سر مې ګرځي.", "زړه مې بدېږي."],
+      "sentences": [
+        { "native": "ډاکټر صاحب، ښه سا نه شم اخيستلای.", "roman": "ḍākṭár sāhíb, ṣə sā na shəm axistə́lāy.", "en": "Doctor, I can't breathe properly." },
+        { "native": "چې پاڅېږم، سر مې ګرځي.", "roman": "che pātséẓəm, sar me gə́rdzi.", "en": "Whenever I stand up, I get dizzy.", "focus": "مې", "wrong": ["زه|zə", "ما|mā"] },
+        { "native": "ماشوم کانګې کوي.", "roman": "māshúm kā́nge kawí.", "en": "The baby keeps being sick.", "focus": "کوي", "wrong": ["کوم|kawə́m", "کوې|kawé"] },
+        { "native": "اسهال لري، ډېرې اوبه ورکړئ.", "roman": "ishā́l lári, ḍére obə́ wárkṛəy.", "en": "He has diarrhoea — give him plenty of water." },
+        { "native": "لاس مې خارښت کوي.", "roman": "lās me xāráṣt kawí.", "en": "My hand itches.", "focus": "مې", "wrong": ["زه|zə", "ما|mā"] },
+        { "native": "پښه مې پړسېدلې ده.", "roman": "pṣa me pəṛsedə́le da.", "en": "My foot is swollen.", "focus": "پړسېدلې", "wrong": ["پړسېدلی|pəṛsedə́lay", "پړسېدلي|pəṛsedə́li"] },
+        { "native": "زخم مې درد کوي.", "roman": "zaxm me dard kawí.", "en": "My cut hurts." },
+        { "native": "د زکام نښې لرم.", "roman": "də zukā́m náṣe lárəm.", "en": "I've got cold symptoms." },
+        { "native": "له سترګو مې اوبه ځي.", "roman": "la stə́rgo me obə́ dzi.", "en": "My eyes are watering." },
+        { "native": "د شپې مې خوب نه راځي.", "roman": "də shpe me xob na rā́dzi.", "en": "I can't sleep at night.", "focus": "راځي", "wrong": ["راځم|rā́dzəm", "راغی|rā́ġay"] }
+      ]
+    },
+    {
+      "title": "Since when?",
+      "tip": { "title": "… کېږي چې / له … راهيسې", "body": "- Still going on? Keep the verb in the **present**.\n- **[time] کېږي چې** + present: درې ورځې کېږي چې ټوخی **لرم**.\n- **له [start] راهيسې** + present: له جمعې راهيسې تبه **لرم**.\n- **Ago** = time + **مخکې** + past: دوه ورځې مخکې ناروغ **شوم**.", "pattern": "درې ورځې کېږي چې … · له … راهيسې …", "grammar": 0 },
+      "new": ["اخته", "له کله راهيسې؟", "له پرون راهيسې تبه لرم.", "درې ورځې کېږي چې ټوخی لرم."],
+      "sentences": [
+        { "native": "له کله راهيسې سر درد لرئ؟", "roman": "la kə́la rāhíse sar dard lárəy?", "en": "Since when have you had the headache?", "focus": "راهيسې", "wrong": ["پورې|póre", "مخکې|mə́xke"] },
+        { "native": "له جمعې راهيسې ټوخی لرم.", "roman": "la jumʿé rāhíse ṭúxay lárəm.", "en": "I've had a cough since Friday.", "focus": "جمعې", "wrong": ["جمعه|jumʿá"] },
+        { "native": "دوه ورځې کېږي چې اسهال لري.", "roman": "dwa wradzé kéẓi che ishā́l lári.", "en": "He's had diarrhoea for two days." },
+        { "native": "څو اوونۍ کېږي چې ملا دې درد کوي؟", "roman": "tso owənə́y kéẓi che mlā de dard kawí?", "en": "How many weeks has your back been hurting?" },
+        { "native": "يوه مياشت کېږي چې خوب مې نه راځي.", "roman": "yáwa miyā́sht kéẓi che xob me na rā́dzi.", "en": "I haven't been able to sleep for a month.", "focus": "راځي", "wrong": ["راغی|rā́ġay", "راتلو|rātlú"] },
+        { "native": "هغه له دوو اوونيو راهيسې ناروغ دی.", "roman": "haġá la dwo owəníyo rāhíse nāróġ day.", "en": "He's been ill for two weeks.", "focus": "دی", "wrong": ["و|wə", "شو|shu"] },
+        { "native": "دوه ورځې مخکې په تبه اخته شوم.", "roman": "dwa wradzé mə́xke pə tabə́ axtá shwəm.", "en": "I came down with a fever two days ago.", "focus": "مخکې", "wrong": ["راهيسې|rāhíse", "پورې|póre"] },
+        { "native": "په زکام اخته يم، نن کار ته نه ځم.", "roman": "pə zukā́m axtá yəm, nən kār ta na dzəm.", "en": "I've got a cold, I'm not going to work today." },
+        { "native": "له سهاره راهيسې مې هېڅ نه دي خوړلي.", "roman": "la sahā́ra rāhíse me hets na di xwaṛə́li.", "en": "I haven't eaten anything since this morning." },
+        { "native": "درې ورځې ناروغ وم، اوس ښه يم.", "roman": "dre wradzé nāróġ wəm, os ṣə yəm.", "en": "I was ill for three days, now I'm fine." }
+      ]
+    },
+    {
+      "title": "Appointments and tests",
+      "new": ["نوبت", "کلينيک", "معاينه", "ازمايښت", "وينه", "فشار", "وزن", "د سبا لپاره د ډاکټر وخت شته؟", "زما نوبت دی؟"],
+      "sentences": [
+        { "native": "د ډاکټر کلينيک په کوم سړک دی؟", "roman": "də ḍākṭár kliník pə kum saṛák day?", "en": "Which street is the doctor's clinic on?" },
+        { "native": "زما نوبت کله راځي؟", "roman": "zmā nawbát kə́la rā́dzi?", "en": "When's my turn?" },
+        { "native": "ستاسو نوبت دی، دننه لاړ شئ.", "roman": "stāso nawbát day, danə́na lāṛ shəy.", "en": "It's your turn, go on in." },
+        { "native": "ډاکټر زما معاينه وکړه.", "roman": "ḍākṭár zmā muʿāyiná wə́kṛa.", "en": "The doctor examined me.", "focus": "وکړه", "wrong": ["وکړ|wə́kaṛ", "وکړل|wə́kṛəl"] },
+        { "native": "د وينې ازمايښت بايد وکړئ.", "roman": "də wíne āzmāyə́ṣt bāyád wə́kṛəy.", "en": "You need to have a blood test." },
+        { "native": "ستاسو فشار لوړ دی.", "roman": "stāso fishā́r lwaṛ day.", "en": "Your blood pressure is high." },
+        { "native": "پلار مې د وينې فشار لري.", "roman": "plār me də wíne fishā́r lári.", "en": "My father has high blood pressure." },
+        { "native": "وزن مې ډېر کم شوی دی.", "roman": "wazn me ḍer kam shə́way day.", "en": "I've lost a lot of weight." },
+        { "native": "د ازمايښت نتيجه سبا راځي.", "roman": "də āzmāyə́ṣt natijá sabā́ rā́dzi.", "en": "The test result comes out tomorrow." },
+        { "native": "کلينيک تر څو بجو خلاص وي؟", "roman": "kliník tər tso bajó xlās wi?", "en": "What time is the clinic open until?" }
+      ]
+    },
+    {
+      "title": "Allergies and medical history",
+      "tip": { "title": "Telling the doctor about yourself", "body": "- Allergies: **له … (څخه) حساسيت لرم** 'I'm allergic to …'.\n- Past: **دوه کاله مخکې مې عمليات وشول** 'I had an operation two years ago'.\n- Ongoing: **فشار لرم** 'I have high blood pressure'.\n- Injections: **پېچکاري وهل** 'to give an injection'." },
+      "new": ["حساسيت", "عمليات", "روغتيا", "عادي", "پېچکاري", "له پنسلين څخه حساسيت لرم."],
+      "sentences": [
+        { "native": "له کوم درمل څخه حساسيت لرئ؟", "roman": "la kum darmál tsəxa hasāsiyát lárəy?", "en": "Are you allergic to any medicine?" },
+        { "native": "له هګيو حساسيت لرم.", "roman": "la hagə́yo hasāsiyát lárəm.", "en": "I'm allergic to eggs." },
+        { "native": "پنځه کاله مخکې مې د زړه عمليات وشول.", "roman": "pindzə kā́la mə́xke me də zṛə amaliyā́t wə́shwəl.", "en": "I had heart surgery five years ago.", "focus": "مخکې", "wrong": ["راهيسې|rāhíse", "پورې|póre"] },
+        { "native": "پېچکاري ته اړتيا شته؟", "roman": "pechkārí ta aṛtiyā́ shta?", "en": "Do I need an injection?" },
+        { "native": "نرس ماشوم ته پېچکاري ووهله.", "roman": "nars māshúm ta pechkārí wə́wahəla.", "en": "The nurse gave the child an injection.", "focus": "ووهله", "wrong": ["ووهه|wə́waha", "ووهل|wə́wahəl"] },
+        { "native": "ستاسو روغتيا څنګه ده؟", "roman": "stāso roġtyā́ tsə́nga da?", "en": "How is your health?" },
+        { "native": "د هغه روغتيا ښه نه ده.", "roman": "də haġə́ roġtyā́ ṣa na da.", "en": "His health isn't good." },
+        { "native": "فشار مو عادي دی.", "roman": "fishā́r mo ādí day.", "en": "Your blood pressure is normal." },
+        { "native": "يوه اوونۍ مخکې ستونی مې خوږېده، اوس ښه دی.", "roman": "yáwa owənə́y mə́xke stúnay me xwaẓedə́, os ṣə day.", "en": "A week ago my throat was sore, now it's fine." },
+        { "native": "يوه مياشت مخکې روغتون کې وم.", "roman": "yáwa miyā́sht mə́xke roġtún ke wəm.", "en": "I was in hospital a month ago.", "focus": "مخکې", "wrong": ["راهيسې|rāhíse", "پورې|póre"] }
+      ]
+    },
+    {
+      "title": "Taking your medicine",
+      "tip": { "title": "How and when to take it", "body": "- How often: **ورځ کې دوه ځله**, **هر اته ساعته**, **يوه يوه** ګولۍ 'one each time'.\n- When: **له ډوډۍ وروسته / مخکې**, **په خالي ګېډه**, **له خوب مخکې**.\n- One dose: perfective **وخورئ**; a routine: **هره ورځ يې خورئ**.\n- Don't: **مه خورئ** (never مه وخورئ).", "pattern": "ورځ کې دوه ځله + له ډوډۍ وروسته + وخورئ", "grammar": 1 },
+      "new": ["شربت", "ملهم", "لګول", "څاڅکي", "خوراک", "ورځ کې دوه ځله، له ډوډۍ وروسته.", "په خالي ګېډه يې وخورئ."],
+      "sentences": [
+        { "native": "دا ګولۍ سهار او ماښام يوه يوه وخورئ.", "roman": "dā golə́y sahā́r aw māṣā́m yáwa yáwa wə́xwrəy.", "en": "Take one of these tablets morning and evening.", "focus": "وخورئ", "wrong": ["وخوړل|wə́xwaṛəl", "خوړل|xwaṛə́l"] },
+        { "native": "د ماشوم شربت هر اته ساعته ورکړئ.", "roman": "də māshúm sharbát har atə́ sāʿáta wárkṛəy.", "en": "Give the child's syrup every eight hours.", "focus": "هر", "wrong": ["ټول|ṭol", "څو|tso"] },
+        { "native": "دا ملهم ورځ کې درې ځله په زخم ولګوئ.", "roman": "dā malhám wradz ke dre dzə́la pə zaxm wə́lagawəy.", "en": "Put this cream on the cut three times a day." },
+        { "native": "دوه دوه څاڅکي په غوږ کې واچوئ.", "roman": "dwa dwa tsā́tski pə ġwaẓ ke wā́chawəy.", "en": "Put two drops in the ear each time.", "focus": "واچوئ", "wrong": ["واچوم|wā́chawəm", "اچول|achawə́l"] },
+        { "native": "لومړی خوراک همدا اوس وخورئ.", "roman": "lumṛáy xwarā́k hamdā́ os wə́xwrəy.", "en": "Take the first dose right now." },
+        { "native": "تر هغه چې شربت خلاص شي، هره ورځ يې څښئ.", "roman": "tər haġə́ che sharbát xlās shi, hára wradz ye tsṣəy.", "en": "Keep taking the syrup every day until it's finished.", "focus": "څښئ", "wrong": ["وڅښل|wə́tsṣəl", "څښل|tsṣəl"] },
+        { "native": "دا ګولۍ په خالي ګېډه مه خورئ.", "roman": "dā golə́y pə xālí géḍa ma xwrəy.", "en": "Don't take these tablets on an empty stomach.", "focus": "خورئ", "wrong": ["وخورئ|wə́xwrəy", "خوړل|xwaṛə́l"] },
+        { "native": "له خوب مخکې يو خوراک شربت وڅښئ.", "roman": "la xob mə́xke yaw xwarā́k sharbát wə́tsṣəy.", "en": "Take a dose of syrup before bed." },
+        { "native": "له ډوډۍ مخکې که وروسته؟", "roman": "la ḍoḍə́y mə́xke ka wrústa?", "en": "Before or after food?" },
+        { "native": "ورځ کې څو ځله يې وخورم؟", "roman": "wradz ke tso dzə́la ye wə́xwrəm?", "en": "How many times a day should I take it?", "focus": "څو", "wrong": ["څه|tsə", "څوک|tsok"] }
+      ]
+    },
+    {
+      "title": "Getting better",
+      "tip": { "title": "Visiting someone who is ill", "body": "- Visiting the sick (**د ناروغ پوښتنه**) is a duty: go, bring fruit or juice, and keep it short.\n- Say **خدای دې شفا درکړي** and **ژر جوړ شې**.\n- Ask: **اوس څنګه يې؟ درملو اغېز وکړ؟** 'did the medicine work?' — درمل is the doer, so it's oblique: **درملو**." },
+      "new": ["پرهېز", "اغېز", "له مرچو پرهېز وکړئ.", "درمل اغېز نه کوي."],
+      "sentences": [
+        { "native": "درملو اغېز وکړ؟", "roman": "darmaló aġéz wə́kaṛ?", "en": "Did the medicine work?", "focus": "درملو", "wrong": ["درمل|darmál"] },
+        { "native": "ګولۍ اغېز نه کوي، تبه لا هم لرم.", "roman": "golə́y aġéz na kawí, tabə́ lā ham lárəm.", "en": "The tablets aren't working, I still have a fever." },
+        { "native": "ډاکټر ويلي چې له غوښې پرهېز وکړم.", "roman": "ḍākṭár wayə́li che la ġwáṣe parhéz wə́kṛəm.", "en": "The doctor's told me to stay off meat." },
+        { "native": "پرهېز کوې که نه؟", "roman": "parhéz kawé ka na?", "en": "Are you sticking to your diet or not?" },
+        { "native": "شکر، اوس ډېر ښه يم.", "roman": "shukr, os ḍer ṣə yəm.", "en": "Thank God, I'm much better now." },
+        { "native": "ژر جوړ شې، وروره! ستا لپاره مې مڼې راوړې.", "roman": "zhər joṛ she, wróra! stā lapā́ra me maṇé rā́wṛe.", "en": "Get well soon, brother! I brought you some apples.", "focus": "راوړې", "wrong": ["راوړه|rā́wṛa", "راوړم|rā́wṛəm"] },
+        { "native": "د ناروغ پوښتنې ته ځو.", "roman": "də nāróġ puṣtə́ne ta dzu.", "en": "We're going to visit someone who's ill." },
+        { "native": "که درمل اغېز ونه کړي، بيا ډاکټر ته لاړ شه.", "roman": "ka darmál aġéz wə́na kṛi, biyā́ ḍākṭár ta lāṛ sha.", "en": "If the medicine doesn't work, go back to the doctor." },
+        { "native": "تر هغه چې بشپړ روغ شې، کار ته مه ځه.", "roman": "tər haġə́ che bashpáṛ roġ she, kār ta ma dza.", "en": "Don't go to work until you're completely well." }
+      ]
+    }
+  ]
+}
