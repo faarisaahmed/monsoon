@@ -1,0 +1,182 @@
+{
+  "id": 34,
+  "title": "Phones, apps & payments",
+  "goal": "Pay by UPI, sort out a failed payment, order things online, fix the WiFi, spot a scam and talk about posts and reels — the way people in Mumbai and Pune actually do.",
+  "intro": "In Maharashtra today the vegetable seller, the auto driver and the tapri all have a QR code, and **जीपे कर** 'GPay me' is a normal sentence. Tech Marathi is mostly English words — **पेमेंट**, **ऑर्डर**, **रिस्टार्ट**, **रील** — held together by Marathi grammar.\n\nThat grammar is what this unit is about. First, how a loanword becomes a verb with **करणे** (someone does it: **मी पेमेंट केलं**) or **होणे** (it happens: **पेमेंट झालं**), and why the gender of the English word suddenly matters (**ऑर्डर केली**, but **पेमेंट केलं**). Second, real-life conditions the way people say them: **पेमेंट फेल झालं तर?** 'what if the payment fails?', **बटण दाबलं की…** 'press the button and…', and the formal **-ल्यास** you'll read in every bank message.",
+  "vocab": [
+    { "native": "यूपीआय", "roman": "yūpīāy", "en": "UPI (instant phone payment)", "pos": "noun", "note": "n · apps: जीपे, फोनपे, पेटीएम — the names are used as verbs: जीपे कर" },
+    { "native": "स्कॅन", "roman": "skæn", "en": "scan", "pos": "noun", "note": "n · स्कॅन करणे 'to scan'" },
+    { "native": "क्यूआर कोड", "roman": "kyūār koḍ", "en": "QR code", "pos": "noun", "note": "m · often just कोड" },
+    { "native": "पेमेंट", "roman": "pemeṇṭ", "en": "payment", "pos": "noun", "note": "n · पेमेंट करणे 'to pay', पेमेंट होणे 'to go through'" },
+    { "native": "ट्रान्सफर", "roman": "ṭrānsfar", "en": "transfer", "pos": "noun", "note": "m · पैसे ट्रान्सफर करणे 'to transfer money'" },
+    { "native": "कॅश", "roman": "kæsh", "en": "cash", "pos": "noun", "note": "f · Marathi रोख (Unit 12)" },
+    { "native": "फेल", "roman": "fel", "en": "failed", "pos": "adj", "note": "फेल होणे 'to fail' (a payment, an exam)" },
+    { "native": "पिन", "roman": "pin", "en": "PIN", "pos": "noun", "note": "m" },
+    { "native": "फ्रॉड", "roman": "frôḍ", "en": "fraud, scam", "pos": "noun", "note": "m · Marathi फसवणूक (f)" },
+    { "native": "लिंक", "roman": "liṅk", "en": "link", "pos": "noun", "note": "f · लिंकवर क्लिक करणे" },
+    { "native": "क्लिक", "roman": "klik", "en": "click", "pos": "noun", "note": "n · क्लिक करणे 'to click'" },
+    { "native": "डिलिव्हरी", "roman": "ḍilivhrī", "en": "delivery", "pos": "noun", "note": "f · डिलिव्हरी बॉय 'delivery rider'" },
+    { "native": "ट्रॅक", "roman": "ṭræk", "en": "tracking", "pos": "noun", "note": "n · ट्रॅक करणे 'to track'" },
+    { "native": "रिटर्न", "roman": "riṭarn", "en": "return (of an item)", "pos": "noun", "note": "m · रिटर्न करणे 'to send back'" },
+    { "native": "ऑफर", "roman": "ôfar", "en": "offer, deal, sale", "pos": "noun", "note": "f" },
+    { "native": "वायफाय", "roman": "vāyfāy", "en": "WiFi", "pos": "noun", "note": "n" },
+    { "native": "नेट", "roman": "neṭ", "en": "the internet; mobile data", "pos": "noun", "note": "n · नेट गेलं 'the net's gone', नेट संपलं '(my) data has run out'" },
+    { "native": "पासवर्ड", "roman": "pāsvarḍ", "en": "password", "pos": "noun", "note": "m" },
+    { "native": "हँग", "roman": "hæṅg", "en": "frozen, hung", "pos": "adj", "note": "हँग होणे 'to freeze' (phones, laptops)" },
+    { "native": "रिस्टार्ट", "roman": "risṭārṭ", "en": "restart", "pos": "noun", "note": "n · रिस्टार्ट करणे" },
+    { "native": "दाबणे", "roman": "dābṇe", "en": "to press", "pos": "verb", "note": "बटण दाबा 'press the button'; दाबून ठेवणे 'to hold down'" },
+    { "native": "डाउनलोड", "roman": "ḍāunloḍ", "en": "download", "pos": "noun", "note": "n · डाउनलोड करणे / होणे" },
+    { "native": "लॉग इन", "roman": "lôg in", "en": "log in", "pos": "noun", "note": "n · लॉग इन करणे" },
+    { "native": "अकाउंट", "roman": "akāuṇṭ", "en": "(online) account", "pos": "noun", "note": "n · a bank account is खातं (Unit 25)" },
+    { "native": "पोस्ट", "roman": "posṭ", "en": "post (on social media)", "pos": "noun", "note": "f · पोस्ट करणे / टाकणे" },
+    { "native": "रील", "roman": "rīl", "en": "reel, short video", "pos": "noun", "note": "f · pl रील्स" },
+    { "native": "लाईक", "roman": "lāīk", "en": "like (on a post)", "pos": "noun", "note": "m · pl लाईक्स" },
+    { "native": "फॉलो", "roman": "fôlo", "en": "follow", "pos": "noun", "note": "n · फॉलो करणे 'to follow'" },
+    { "native": "शेअर", "roman": "shear", "en": "share", "pos": "noun", "note": "n · शेअर करणे 'to share'" }
+  ],
+  "phrases": [
+    { "native": "जीपे करतो.", "roman": "jīpe karto.", "en": "I'll pay you by GPay. (man)", "note": "Any app name works: फोनपे करते (woman), पेटीएम करा." },
+    { "native": "हा कोड स्कॅन करा.", "roman": "hā koḍ skæn karā.", "en": "Scan this code." },
+    { "native": "पेमेंट झालं का?", "roman": "pemeṇṭ dzhālaṃ kā?", "en": "Has the payment gone through?" },
+    { "native": "सुटे नाहीयेत, यूपीआय चालेल का?", "roman": "suṭe nāhīyet, yūpīāy tsālel kā?", "en": "I don't have change — is UPI OK?" },
+    { "native": "पैसे कट झाले, पण पेमेंट फेल झालं.", "roman": "paise kaṭ dzhāle, paṇ pemeṇṭ fel dzhālaṃ.", "en": "The money was taken from my account, but the payment failed." },
+    { "native": "सर्व्हर डाउन आहे.", "roman": "sarvhar ḍāun āhe.", "en": "The server's down." },
+    { "native": "कोणालाही ओटीपी सांगू नका.", "roman": "koṇālāhī oṭīpī sāṅgū nakā.", "en": "Never tell anyone your OTP." },
+    { "native": "मी ऑनलाइन मागवलं.", "roman": "mī ônlāin māgavlaṃ.", "en": "I ordered it online." },
+    { "native": "ऑर्डर कधी येईल?", "roman": "ôrḍar kadhī yeīl?", "en": "When will the order arrive?" },
+    { "native": "वायफायचा पासवर्ड काय आहे?", "roman": "vāyfāytsā pāsvarḍ kāy āhe?", "en": "What's the WiFi password?" },
+    { "native": "नेट चालत नाहीये.", "roman": "neṭ tsālat nāhīye.", "en": "The internet isn't working." },
+    { "native": "फोन हँग होतोय.", "roman": "fon hæṅg hotoy.", "en": "My phone keeps freezing." },
+    { "native": "एकदा रिस्टार्ट करून बघ.", "roman": "ekdā risṭārṭ karūn bagh.", "en": "Try restarting it. (informal)" },
+    { "native": "मला इन्स्टावर फॉलो कर.", "roman": "malā insṭāvar fôlo kar.", "en": "Follow me on Insta." },
+    { "native": "ती रील बघितलीस का?", "roman": "tī rīl baghitlīs kā?", "en": "Did you see that reel?" }
+  ],
+  "grammar": [
+    {
+      "title": "English word + करणे or होणे: पेमेंट केलं, पेमेंट झालं",
+      "body": "Tech Marathi works like this: take an English word (usually a noun or a bare verb) and put a Marathi verb after it. The Marathi verb does all the grammar.\n\n**करणे — when someone does it (transitive):** डाउनलोड **कर**, कोड स्कॅन **करा**, पैसे ट्रान्सफर **करतो**, लॉग इन **करता येत नाहीये**.\n**होणे — when it happens by itself (intransitive):** ॲप डाउनलोड **होतंय** 'the app is downloading', पेमेंट **झालं** 'the payment went through', फोन हँग **झाला** 'the phone froze'. This is the same pairing as ठरवणे / ठरणे in Unit 31. Some loans only ever take होणे because nobody 'does' them: हँग, फेल, डाउन, कट.\n\nOther helpers you'll hear: **टाकणे** 'put' for posting — फोटो **टाक**, स्टोरी **टाकली**; **मारणे** in Mumbai slang — कॉल **मार** 'give me a call'; and the brand name itself as a noun: **जीपे कर**, **फोनपे करतो**. And keep the good native verbs: **मागवणे** 'order in', **दाबणे** 'press', **चालणे** 'work'.\n\n**The gender trap.** In the past tense, करणे goes into the ergative (Unit 16) and agrees with the object — so you need to know the **gender of the English word**:\n- neuter: पेमेंट, ॲप, अकाउंट, नेट, वायफाय → मी पेमेंट **केलं**\n- feminine: ऑर्डर, डिलिव्हरी, पोस्ट, रील, लिंक, कॅश, ऑफर → मी ऑर्डर **केली**\n- masculine: पासवर्ड, पिन, मेसेज, फोन, क्यूआर कोड → मी पासवर्ड **बदलला**\nWith होणे it agrees with the subject the same way: फोन हँग **झाला** (m), पेमेंट **झालं** (n), ऑर्डर **आली** (f). When there's no real object (I downloaded, I logged in), use the neuter: मी डाउनलोड **केलं**.",
+      "examples": [
+        { "native": "मी ॲप डाउनलोड केलं.", "roman": "mī æp ḍāunloḍ kelaṃ.", "en": "I've downloaded the app." },
+        { "native": "ॲप डाउनलोड होतंय, एक मिनिट थांब.", "roman": "æp ḍāunloḍ hotaṃy, ek miniṭ thāmb.", "en": "The app's downloading, hang on a minute." },
+        { "native": "तू ऑर्डर केलीस का?", "roman": "tū ôrḍar kelīs kā?", "en": "Did you place the order?" },
+        { "native": "माझा फोन परत हँग झाला.", "roman": "mādzhā fon parat hæṅg dzhālā.", "en": "My phone froze again." },
+        { "native": "तिने इन्स्टावर नवीन फोटो टाकले.", "roman": "tine insṭāvar navīn phoṭo ṭākle.", "en": "She put up new photos on Insta." }
+      ]
+    },
+    {
+      "title": "Real conditions in everyday speech: -लं तर, -लं की, -ल्यास",
+      "body": "Unit 19 taught **जर … तर …** 'if … then …'. In everyday speech Marathi usually drops **जर** and builds the condition from the **past form** of the verb — even when talking about the future:\n\n**past form + तर — 'if'**\nपेमेंट फेल **झालं तर** काय करायचं? 'what do we do if the payment fails?'. ऑर्डर आज **आली तर** बरं होईल 'it'll be great if the order comes today'. This past form doesn't mean the past, just as English 'if it fails' doesn't mean the present. With **असणे** use its future instead: नेट **नसेल तर** 'if there's no internet', वायफाय **असेल तर** 'if there's WiFi'. Negative: ओटीपी **आला नाही तर** 'if the OTP doesn't come'.\n\n**past form + की — 'whenever / as soon as'**\nFor things that always happen: हे बटण **दाबलं की** ॲप उघडतं 'press this button and the app opens', नेट **गेलं की** सगळं बंद होतं 'whenever the net goes, everything stops'.\n\n**-ल्यास — 'in case of' (formal)**\nThe -ल्या form + **स**: पेमेंट फेल **झाल्यास** 'should the payment fail', पिन तीनदा **चुकल्यास** 'if the PIN is entered wrongly three times'. This is the language of bank SMSes, app screens and instructions.\n\n**नाहीतर — 'otherwise, or else'**: लवकर ऑर्डर कर, नाहीतर ऑफर संपेल.\n\n**The trap:** don't put the future before तर (~~फेल होईल तर~~). The condition takes the past form; the **result** takes the future or a command: फेल झालं तर मी कॅश **देईन**.",
+      "examples": [
+        { "native": "पेमेंट फेल झालं तर काय करायचं?", "roman": "pemeṇṭ fel dzhālaṃ tar kāy karāytsaṃ?", "en": "What do we do if the payment fails?" },
+        { "native": "नेट नसेल तर माझा हॉटस्पॉट घे.", "roman": "neṭ nasel tar mādzhā hôṭspôṭ ghe.", "en": "If there's no internet, use my hotspot." },
+        { "native": "हे बटण दाबलं की ॲप उघडतं.", "roman": "he baṭaṇ dāblaṃ kī æp ughaḍtaṃ.", "en": "Press this button and the app opens." },
+        { "native": "पेमेंट फेल झाल्यास पैसे पाच दिवसांत परत मिळतील.", "roman": "pemeṇṭ fel dzhālyās paise pāts divasānt parat miḷtīl.", "en": "Should the payment fail, the money will be refunded within five days." },
+        { "native": "ओटीपी आला नाही तर पुन्हा पाठवा.", "roman": "oṭīpī ālā nāhī tar punhā pāṭhvā.", "en": "If the OTP doesn't come, send it again." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the corner shop",
+    "setting": "Flatmates Ishaan and Mihir are paying for groceries at a small shop in Andheri, Mumbai.",
+    "lines": [
+      { "speaker": "Shopkeeper", "native": "दोनशे चाळीस झाले.", "roman": "donshe tsāḷīs dzhāle.", "en": "That's two hundred and forty." },
+      { "speaker": "Ishaan", "native": "काका, जीपे चालेल का?", "roman": "kākā, jīpe tsālel kā?", "en": "Uncle, is GPay OK?" },
+      { "speaker": "Shopkeeper", "native": "हो, तो कोड स्कॅन करा.", "roman": "ho, to koḍ skæn karā.", "en": "Yes, scan that code." },
+      { "speaker": "Ishaan", "native": "अरे… पेमेंट फेल झालं, पण पैसे कट झाले!", "roman": "are… pemeṇṭ fel dzhālaṃ, paṇ paise kaṭ dzhāle!", "en": "Oh no… the payment failed, but the money's gone from my account!" },
+      { "speaker": "Shopkeeper", "native": "सर्व्हर डाउन असेल. काळजी करू नका, पैसे परत येतात.", "roman": "sarvhar ḍāun asel. kāḷjī karū nakā, paise parat yetāt.", "en": "The server must be down. Don't worry, the money comes back." },
+      { "speaker": "Mihir", "native": "थांब, मी फोनपे करतो. झालं?", "roman": "thāmb, mī fonpe karto. dzhālaṃ?", "en": "Hang on, I'll pay with PhonePe. Done?" },
+      { "speaker": "Shopkeeper", "native": "हो, आलं. धन्यवाद!", "roman": "ho, ālaṃ. dhanyavād!", "en": "Yes, it's come through. Thanks!" },
+      { "speaker": "Ishaan", "native": "माझा फोन पण सारखा हँग होतोय. आणि हा मेसेज बघ.", "roman": "mādzhā fon paṇ sārkhā hæṅg hotoy. āṇi hā mesej bagh.", "en": "My phone keeps freezing too. And look at this message." },
+      { "speaker": "Mihir", "native": "\"अकाउंट बंद होईल, लिंकवर क्लिक करा\"? अजिबात क्लिक करू नकोस, हा फ्रॉड आहे!", "roman": "\"akāuṇṭ band hoīl, liṅkvar klik karā\"? adzibāt klik karū nakos, hā frôḍ āhe!", "en": "\"Your account will be closed, click the link\"? Don't you dare click it, it's a scam!" },
+      { "speaker": "Ishaan", "native": "खरंच? आणि त्यांनी फोन करून ओटीपी मागितला तर?", "roman": "kharaṃts? āṇi tyānnī fon karūn oṭīpī māgitlā tar?", "en": "Really? And what if they call and ask for the OTP?" },
+      { "speaker": "Mihir", "native": "तर फोन कट करायचा. बँक कधीच ओटीपी मागत नाही.", "roman": "tar fon kaṭ karāytsā. bæṅk kadhīts oṭīpī māgat nāhī.", "en": "Then you hang up. The bank never asks for your OTP." },
+      { "speaker": "Ishaan", "native": "ओके. आणि फोनचं काय?", "roman": "ôke. āṇi fontsaṃ kāy?", "en": "OK. And what about the phone?" },
+      { "speaker": "Mihir", "native": "एकदा रिस्टार्ट करून बघ. नाहीतर नवीन घे, आज ऑनलाइन सेल आहे!", "roman": "ekdā risṭārṭ karūn bagh. nāhītar navīn ghe, ādz ônlāin sel āhe!", "en": "Try restarting it. Otherwise buy a new one — there's an online sale today!" },
+      { "speaker": "Ishaan", "native": "बघू. आधी रिचार्ज करतो, नेट संपलंय!", "roman": "baghū. ādhī richārj karto, neṭ samplaṃy!", "en": "We'll see. First I'm topping up — my data's run out!" }
+    ]
+  },
+  "culture": "UPI has changed how Maharashtra pays. The vegetable seller, the auto driver, the tapri and the temple donation box all have a QR code, and many small shops have a little speaker that announces each payment out loud. The app names are verbs: **जीपे कर**, **फोनपे करतो**, **पेटीएम करा**. Cash is still accepted almost everywhere, and **कॅश ऑन डिलिव्हरी** is popular for online orders. In Mumbai and Pune, groceries arrive in ten minutes from quick-commerce apps, and food comes from Swiggy and Zomato. People say **मागवूया** for 'let's order in'.\n\nMarathi does have official words for all this — **भ्रमणध्वनी** 'mobile phone', **संकेतस्थळ** 'website', **संगणक** 'computer' — and you'll see them in government notices and newspapers. Nobody says them out loud, though: in conversation it's फोन, वेबसाईट and लॅपटॉप, with Marathi verbs attached.\n\nMarathi has a lively life online: Marathi **रील्स**, stand-up and memes, Marathi film songs trending on Instagram, and family WhatsApp groups full of **फॉरवर्ड**s and good-morning images. Scams are common too. The classic one is a message saying your **केवायसी** (KYC) has expired or your electricity will be cut tonight, with a link or a number to call. The rule everyone repeats: **बँक कधीच ओटीपी मागत नाही** 'the bank never asks for your OTP'.",
+  "lessons": [
+    {
+      "title": "Paying by UPI",
+      "tip": { "title": "English word + करणे / होणे", "body": "- Someone does it: loan + **करणे**: स्कॅन **करा**, पैसे ट्रान्सफर **करतो**.\n- It happens: loan + **होणे**: पेमेंट **झालं**, पैसे ट्रान्सफर **झाले**.\n- In the past, केलं/झालं agrees with the English word's gender: पेमेंट (n) **केलं**, ऑर्डर (f) **केली**.\n- The app name can be the verb: **जीपे कर**.", "pattern": "loan + करणे (do it) / होणे (it happens)", "grammar": 0 },
+      "new": ["यूपीआय", "स्कॅन", "क्यूआर कोड", "पेमेंट", "ट्रान्सफर", "कॅश", "जीपे करतो.", "हा कोड स्कॅन करा.", "पेमेंट झालं का?", "सुटे नाहीयेत, यूपीआय चालेल का?"],
+      "sentences": [
+        { "native": "मी तुला पैसे ट्रान्सफर केले.", "roman": "mī tulā paise ṭrānsfar kele.", "en": "I've transferred the money to you.", "focus": "केले", "wrong": ["केला|kelā", "झाले|dzhāle"] },
+        { "native": "पैसे ट्रान्सफर झाले का?", "roman": "paise ṭrānsfar dzhāle kā?", "en": "Has the money been transferred?", "focus": "झाले", "wrong": ["केले|kele", "झालं|dzhālaṃ"] },
+        { "native": "इथे यूपीआय चालतं का?", "roman": "ithe yūpīāy tsāltaṃ kā?", "en": "Do you take UPI here?" },
+        { "native": "क्यूआर कोड स्कॅन होत नाहीये.", "roman": "kyūār koḍ skæn hot nāhīye.", "en": "The QR code isn't scanning.", "focus": "होत", "wrong": ["करत|karat", "केला|kelā"] },
+        { "native": "आज माझ्याकडे कॅश नाहीये, यूपीआय करतो.", "roman": "ādz mājhyākaḍe kæsh nāhīye, yūpīāy karto.", "en": "I don't have cash on me today, I'll pay by UPI.", "focus": "करतो", "wrong": ["होतो|hoto", "झालो|dzhālo"] },
+        { "native": "मी पेमेंट केलं, बघा.", "roman": "mī pemeṇṭ kelaṃ, baghā.", "en": "I've paid, look.", "focus": "केलं", "wrong": ["केली|kelī", "केला|kelā"] },
+        { "native": "भाजीवाले काका पण यूपीआय घेतात.", "roman": "bhādzīvāle kākā paṇ yūpīāy ghetāt.", "en": "Even the vegetable seller takes UPI." },
+        { "native": "बिल किती झालं? मी जीपे करतो.", "roman": "bil kitī dzhālaṃ? mī jīpe karto.", "en": "How much is the bill? I'll GPay. (man)" },
+        { "native": "तुझं पेमेंट अजून आलं नाही.", "roman": "tudzhaṃ pemeṇṭ adzūn ālaṃ nāhī.", "en": "Your payment hasn't come through yet.", "focus": "आलं", "wrong": ["आली|ālī", "आला|ālā"] }
+      ]
+    },
+    {
+      "title": "When a payment goes wrong",
+      "tip": { "title": "If: -लं तर, -लं की, -ल्यास", "body": "- 'If' in speech: past form + **तर**: पेमेंट फेल **झालं तर** काय? (no जर needed). With असणे: नेट **नसेल तर**.\n- 'Whenever': past form + **की**: बटण **दाबलं की** ॲप उघडतं.\n- Formal 'in case': **-ल्यास**: फेल **झाल्यास**.\n- Never फेल होईल तर — the future goes in the result.", "pattern": "झालं तर · दाबलं की · झाल्यास", "grammar": 1 },
+      "new": ["फेल", "पिन", "फ्रॉड", "लिंक", "क्लिक", "पैसे कट झाले, पण पेमेंट फेल झालं.", "सर्व्हर डाउन आहे.", "कोणालाही ओटीपी सांगू नका."],
+      "sentences": [
+        { "native": "पिन चुकला तर पेमेंट फेल होतं.", "roman": "pin tsuklā tar pemeṇṭ fel hotaṃ.", "en": "If you get the PIN wrong, the payment fails.", "focus": "चुकला", "wrong": ["चुकेल|tsukel", "चुकतो|tsukto"] },
+        { "native": "पैसे परत आले नाहीत तर बँकेत फोन कर.", "roman": "paise parat āle nāhīt tar bæṅket fon kar.", "en": "If the money doesn't come back, call the bank.", "focus": "आले", "wrong": ["येतील|yetīl", "येतात|yetāt"] },
+        { "native": "लिंकवर क्लिक केलं की ॲप उघडतं.", "roman": "liṅkvar klik kelaṃ kī æp ughaḍtaṃ.", "en": "Click the link and the app opens.", "focus": "केलं", "wrong": ["करेल|karel", "करतो|karto"] },
+        { "native": "ओटीपी कोणी मागितला तर तो फ्रॉड आहे.", "roman": "oṭīpī koṇī māgitlā tar to frôḍ āhe.", "en": "If anyone asks for your OTP, it's a scam.", "focus": "मागितला", "wrong": ["मागेल|māgel", "मागतो|māgto"] },
+        { "native": "पिन तीनदा चुकल्यास खातं ब्लॉक होईल.", "roman": "pin tīndā tsuklyās khātaṃ blôk hoīl.", "en": "If the PIN is entered wrongly three times, the account will be blocked.", "focus": "चुकल्यास", "wrong": ["चुकेल|tsukel", "चुकतो|tsukto"] },
+        { "native": "सर्व्हर डाउन असेल तर थोड्या वेळाने कर.", "roman": "sarvhar ḍāun asel tar thoḍyā veḷāne kar.", "en": "If the server's down, try again in a bit.", "focus": "असेल", "wrong": ["होईल|hoīl", "होता|hotā"] },
+        { "native": "पैसे कट झाले आणि दुकानदाराला मिळाले नाहीत, तर काय करायचं?", "roman": "paise kaṭ dzhāle āṇi dukāndārālā miḷāle nāhīt, tar kāy karāytsaṃ?", "en": "If the money's been taken but the shopkeeper hasn't got it, what do you do?", "focus": "मिळाले", "wrong": ["मिळतील|miḷtīl", "मिळतात|miḷtāt"] },
+        { "native": "हा फ्रॉड कॉल आहे, लगेच कट कर.", "roman": "hā frôḍ kôl āhe, lagets kaṭ kar.", "en": "This is a scam call, hang up right away." },
+        { "native": "ही लिंक खरी आहे का?", "roman": "hī liṅk kharī āhe kā?", "en": "Is this link genuine?" },
+        { "native": "कोणालाही पिन सांगू नका, बँकेलाही नाही.", "roman": "koṇālāhī pin sāṅgū nakā, bæṅkelāhī nāhī.", "en": "Never tell anyone your PIN — not even the bank." }
+      ]
+    },
+    {
+      "title": "Ordering online",
+      "new": ["डिलिव्हरी", "ट्रॅक", "रिटर्न", "ऑफर", "मी ऑनलाइन मागवलं.", "ऑर्डर कधी येईल?"],
+      "sentences": [
+        { "native": "आज रात्री जेवण बाहेरून मागवूया का?", "roman": "ādz rātrī jevaṇ bāherūn māgavūyā kā?", "en": "Shall we order dinner in tonight?" },
+        { "native": "मी ऑनलाइन नवीन चप्पल मागवली.", "roman": "mī ônlāin navīn tsappal māgavlī.", "en": "I ordered new sandals online." },
+        { "native": "माझी ऑर्डर अजून आली नाही.", "roman": "mājhī ôrḍar adzūn ālī nāhī.", "en": "My order still hasn't arrived." },
+        { "native": "डिलिव्हरी दहा मिनिटांत होईल, असं ॲप सांगतंय.", "roman": "ḍilivhrī dahā miniṭānt hoīl, asaṃ æp sāṅgtaṃy.", "en": "The app says delivery will be in ten minutes." },
+        { "native": "ऑर्डर ट्रॅक करून बघ, कुठपर्यंत आली?", "roman": "ôrḍar ṭræk karūn bagh, kuṭhparyant ālī?", "en": "Track the order — how far has it got?" },
+        { "native": "साईझ चुकला, रिटर्न करावं लागेल.", "roman": "sāīz tsuklā, riṭarn karāvaṃ lāgel.", "en": "It's the wrong size, I'll have to send it back." },
+        { "native": "आज मोठी ऑफर आहे, सगळं अर्ध्या किमतीत!", "roman": "ādz moṭhī ôfar āhe, sagḷaṃ ardhyā kimtīt!", "en": "There's a big sale today, everything's half price!" },
+        { "native": "डिलिव्हरीच्या वेळी कॅश देता येईल का?", "roman": "ḍilivhrīchyā veḷī kæsh detā yeīl kā?", "en": "Can I pay cash on delivery?" },
+        { "native": "आईने भाजी पण ऑनलाइन मागवायला सुरुवात केली!", "roman": "āīne bhādzī paṇ ônlāin māgavāylā suruvāt kelī!", "en": "Mum's even started ordering vegetables online!" }
+      ]
+    },
+    {
+      "title": "When the internet's down",
+      "tip": { "title": "Try it: करून बघ", "body": "- 'Try doing' = stem + **ऊन बघ**: रिस्टार्ट **करून बघ**, वायफाय बंद **करून बघ**. Polite: **करून बघा**.\n- 'It's not working': **चालत नाहीये**; it froze: **हँग झाला**.\n- 'The net's gone': **नेट गेलं**; it's back: **नेट आलं**." },
+      "new": ["वायफाय", "नेट", "पासवर्ड", "हँग", "रिस्टार्ट", "दाबणे", "वायफायचा पासवर्ड काय आहे?", "नेट चालत नाहीये.", "फोन हँग होतोय.", "एकदा रिस्टार्ट करून बघ."],
+      "sentences": [
+        { "native": "एकदा वायफाय बंद करून बघ.", "roman": "ekdā vāyfāy band karūn bagh.", "en": "Try turning the WiFi off.", "focus": "बघ", "wrong": ["बघतो|baghto", "बघितलं|baghitlaṃ"] },
+        { "native": "रिस्टार्ट करून बघितलं, तरी नेट चालत नाहीये.", "roman": "risṭārṭ karūn baghitlaṃ, tarī neṭ tsālat nāhīye.", "en": "I tried restarting, but the internet still isn't working.", "focus": "करून", "wrong": ["करतो|karto", "केलं|kelaṃ"] },
+        { "native": "वायफायचा पासवर्ड बदलला आहे.", "roman": "vāyfāytsā pāsvarḍ badallā āhe.", "en": "The WiFi password's been changed." },
+        { "native": "नेट गेलं की मला काहीच करता येत नाही.", "roman": "neṭ gelaṃ kī malā kāhīts kartā yet nāhī.", "en": "Whenever the net goes, I can't do a thing." },
+        { "native": "हे बटण थोडा वेळ दाबून ठेव.", "roman": "he baṭaṇ thoḍā veḷ dābūn ṭhev.", "en": "Hold this button down for a bit." },
+        { "native": "फोन सारखा हँग होतो, नवीन घ्यावा लागेल.", "roman": "fon sārkhā hæṅg hoto, navīn ghyāvā lāgel.", "en": "My phone keeps freezing, I'll have to get a new one." },
+        { "native": "वायफाय एकदा रिस्टार्ट करून बघा.", "roman": "vāyfāy ekdā risṭārṭ karūn baghā.", "en": "Try restarting the WiFi. (polite)", "focus": "बघा", "wrong": ["बघतो|baghto", "बघितलं|baghitlaṃ"] },
+        { "native": "आलं नेट! आता चालतंय.", "roman": "ālaṃ neṭ! ātā tsāltaṃy.", "en": "The net's back! It's working now." },
+        { "native": "ॲप उघडून बघ, पेमेंट झालं असेल.", "roman": "æp ughḍūn bagh, pemeṇṭ dzhālaṃ asel.", "en": "Open the app and check — the payment has probably gone through.", "focus": "उघडून", "wrong": ["उघड|ughaḍ", "उघडतो|ughaḍto"] },
+        { "native": "वायफायचा पासवर्ड पाठवशील का?", "roman": "vāyfāytsā pāsvarḍ pāṭhavshīl kā?", "en": "Could you send me the WiFi password?" }
+      ]
+    },
+    {
+      "title": "Apps, accounts and social media",
+      "new": ["डाउनलोड", "लॉग इन", "अकाउंट", "पोस्ट", "रील", "लाईक", "फॉलो", "शेअर", "मला इन्स्टावर फॉलो कर.", "ती रील बघितलीस का?"],
+      "sentences": [
+        { "native": "हे ॲप डाउनलोड कर, खूप भारी आहे.", "roman": "he æp ḍāunloḍ kar, khūp bhārī āhe.", "en": "Download this app, it's brilliant." },
+        { "native": "मला लॉग इन करता येत नाहीये, पासवर्ड विसरलो.", "roman": "malā lôg in kartā yet nāhīye, pāsvarḍ visarlo.", "en": "I can't log in, I've forgotten my password. (man)" },
+        { "native": "तुझं इन्स्टावर अकाउंट आहे का?", "roman": "tudzhaṃ insṭāvar akāuṇṭ āhe kā?", "en": "Are you on Insta?" },
+        { "native": "तिने कालच्या ट्रिपचे फोटो पोस्ट केले.", "roman": "tine kālchyā ṭripche phoṭo posṭ kele.", "en": "She posted the photos from yesterday's trip." },
+        { "native": "त्या रीलला दहा लाख लाईक्स आले!", "roman": "tyā rīllā dahā lākh lāīks āle!", "en": "That reel got a million likes!" },
+        { "native": "मी तुला एक रील पाठवलीय, बघ!", "roman": "mī tulā ek rīl pāṭhavlīy, bagh!", "en": "I've sent you a reel, watch it!" },
+        { "native": "ही पोस्ट सगळ्यांना शेअर कर.", "roman": "hī posṭ sagḷyānnā shear kar.", "en": "Share this post with everyone." },
+        { "native": "तो मला फॉलो करतो, पण मी त्याला नाही.", "roman": "to malā fôlo karto, paṇ mī tyālā nāhī.", "en": "He follows me, but I don't follow him." },
+        { "native": "आई फेसबुकवर सगळं फॉरवर्ड करते!", "roman": "āī fesbukvar sagḷaṃ fôrvarḍ karte!", "en": "Mum forwards everything on Facebook!" },
+        { "native": "मराठी रील्स बघून मी खूप मराठी शिकलो!", "roman": "marāṭhī rīls baghūn mī khūp marāṭhī shiklo!", "en": "I've learned loads of Marathi from watching Marathi reels! (man)" }
+      ]
+    }
+  ]
+}

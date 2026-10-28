@@ -1,0 +1,207 @@
+{
+  "id": 27,
+  "title": "People",
+  "goal": "Describe what people are like and what they look like, talk about friends, partners and family, and share (or refuse to share) a bit of gossip.",
+  "intro": "Half of all conversation is about other people: the new colleague, a friend's boyfriend, the neighbour, the mother-in-law. This unit gives you the words for personality and looks — the kind ones (हुशार, मनमिळाऊ, साधा) and the less kind ones (खडूस, चिक्कू, आळशी) — and the phrases for getting on, not getting on, and 'don't tell anyone, but…'.\n\nThe grammar is what lets you point at people in a sentence: **relative clauses** in full (**ज्याचं** लग्न ठरलंय, तो… 'the one whose wedding is fixed…'), the **participles** that spoken Marathi prefers (पुण्यात **राहणारा** मित्र 'my friend who lives in Pune', काल **भेटलेली** मुलगी 'the girl we met yesterday'), and how to say someone **looks** or **seems** a certain way (**दिसणे**, **वाटणे**, **-सारखा**).",
+  "vocab": [
+    { "native": "स्वभाव", "roman": "svabhāv", "en": "nature, temperament, personality", "pos": "noun", "note": "m · स्वभावाने 'by nature'; तिचा स्वभाव छान आहे 'she's a lovely person'" },
+    { "native": "हुशार", "roman": "hushār", "en": "clever, bright, smart", "pos": "adj", "note": "invariable" },
+    { "native": "मनमिळाऊ", "roman": "manmiḷāū", "en": "friendly, easy to get along with, sociable", "pos": "adj", "note": "invariable" },
+    { "native": "साधा", "roman": "sādhā", "en": "simple, down-to-earth, unpretentious; plain", "pos": "adj", "note": "f साधी, n साधं, pl साधे. साधा माणूस 'a down-to-earth guy'" },
+    { "native": "मेहनती", "roman": "mehnatī", "en": "hard-working", "pos": "adj", "note": "invariable · मेहनत (f) 'hard work'" },
+    { "native": "प्रामाणिक", "roman": "prāmāṇik", "en": "honest", "pos": "adj", "note": "invariable" },
+    { "native": "आळशी", "roman": "āḷshī", "en": "lazy", "pos": "adj", "note": "invariable" },
+    { "native": "चिडचिडा", "roman": "chiḍchiḍā", "en": "irritable, short-tempered", "pos": "adj", "note": "f चिडचिडी · from चिडणे 'to get annoyed'" },
+    { "native": "खडूस", "roman": "khaḍūs", "en": "grumpy, sour, cantankerous", "pos": "adj", "note": "invariable · very colloquial; also Mumbai slang for a tough, no-nonsense person" },
+    { "native": "स्वार्थी", "roman": "svārthī", "en": "selfish", "pos": "adj", "note": "invariable" },
+    { "native": "चिक्कू", "roman": "chikkū", "en": "stingy, tight-fisted (slang)", "pos": "adj", "note": "invariable · the standard word is कंजूस" },
+    { "native": "बोलका", "roman": "bolkā", "en": "talkative, chatty", "pos": "adj", "note": "f बोलकी" },
+    { "native": "लाजाळू", "roman": "lādzāḷū", "en": "shy", "pos": "adj", "note": "invariable · from लाज 'shyness, shame'" },
+    { "native": "वागणे", "roman": "vāgṇe", "en": "to behave, treat (someone)", "pos": "verb", "note": "तो माझ्याशी नीट वागत नाही 'he doesn't treat me well'; वागणूक (f) 'behaviour'" },
+    { "native": "दिसणे", "roman": "disṇe", "en": "to look, appear; to be visible (= to see)", "pos": "verb", "note": "ती छान दिसते 'she looks nice'; dative: मला दिसत नाही 'I can't see'. दिसायला 'in looks'" },
+    { "native": "सारखा", "roman": "sārkhā", "en": "like, similar to", "pos": "postp", "note": "After the oblique, agreeing like an adjective: आईसारखी, भावासारखा. Also 'again and again': सारखा फोन करतो" },
+    { "native": "बारीक", "roman": "bārīk", "en": "thin, slim; fine; (hair) short", "pos": "adj", "note": "invariable · बारीक होणे 'to lose weight'" },
+    { "native": "जाड", "roman": "dzāḍ", "en": "fat, plump; thick", "pos": "adj", "note": "invariable · जाड होणे 'to put on weight'. Aunties will say it to your face, affectionately." },
+    { "native": "चष्मा", "roman": "tsaṣmā", "en": "glasses, spectacles", "pos": "noun", "note": "m · obl चष्म्या-. त्याला चष्मा आहे 'he wears glasses'" },
+    { "native": "मिशी", "roman": "mishī", "en": "moustache", "pos": "noun", "note": "f · often pl मिश्या" },
+    { "native": "देखणा", "roman": "dekhṇā", "en": "good-looking, handsome", "pos": "adj", "note": "f देखणी · for women सुंदर is more usual" },
+    { "native": "जवळचा", "roman": "dzavaḷtsā", "en": "close (friend, relative); nearby", "pos": "adj", "note": "f जवळची, pl जवळचे" },
+    { "native": "ओळखीचा", "roman": "oḷkhītsā", "en": "someone you know, an acquaintance; familiar", "pos": "adj", "note": "f ओळखीची · माझ्या ओळखीचा एक डॉक्टर 'a doctor I know'" },
+    { "native": "गर्लफ्रेंड", "roman": "garlfreṇḍ", "en": "girlfriend", "pos": "noun", "note": "f · what everyone says; the older word is प्रेयसी" },
+    { "native": "बॉयफ्रेंड", "roman": "bôyfreṇḍ", "en": "boyfriend", "pos": "noun", "note": "m · older word प्रियकर" },
+    { "native": "सध्या", "roman": "sadhyā", "en": "currently, these days, at the moment", "pos": "adv" },
+    { "native": "सासू", "roman": "sāsū", "en": "mother-in-law", "pos": "noun", "note": "f · respectfully सासूबाई; father-in-law सासरे" },
+    { "native": "सासर", "roman": "sāsar", "en": "in-laws' home / family (of a married woman)", "pos": "noun", "note": "n · सासरी 'at the in-laws''; her own parents' home is माहेर" },
+    { "native": "नातेवाईक", "roman": "nātevāīk", "en": "relative(s)", "pos": "noun", "note": "m · same in pl. नातं (n) 'relationship'" },
+    { "native": "अफवा", "roman": "aphvā", "en": "rumour", "pos": "noun", "note": "f · अफवा पसरवणे 'to spread a rumour'" }
+  ],
+  "phrases": [
+    { "native": "ती कशी आहे?", "roman": "tī kashī āhe?", "en": "What's she like? / How is she?" },
+    { "native": "तो स्वभावाने खूप चांगला आहे.", "roman": "to svabhāvāne khūp tsāṅglā āhe.", "en": "He's a really good person at heart." },
+    { "native": "तो खूप वाईट वागला.", "roman": "to khūp vāīṭ vāglā.", "en": "He behaved really badly." },
+    { "native": "तो कसा दिसतो?", "roman": "to kasā disto?", "en": "What does he look like?" },
+    { "native": "ती तिच्या आईसारखी दिसते.", "roman": "tī tichyā āīsārkhī diste.", "en": "She looks like her mum." },
+    { "native": "तो थकलेला दिसतोय.", "roman": "to thaklelā distoy.", "en": "He looks tired." },
+    { "native": "आमचं छान पटतं.", "roman": "āmtsaṃ chhān paṭtaṃ.", "en": "We get on really well." },
+    { "native": "ती माझी खूप जवळची मैत्रीण आहे.", "roman": "tī mājhī khūp dzavaḷchī maitrīṇ āhe.", "en": "She's a very close friend of mine." },
+    { "native": "ती कोणाबरोबर आहे सध्या?", "roman": "tī koṇābarobar āhe sadhyā?", "en": "Who's she seeing these days?" },
+    { "native": "त्याचं आणि त्याच्या बाबांचं पटत नाही.", "roman": "tyātsaṃ āṇi tyāchyā bābāntsaṃ paṭat nāhī.", "en": "He and his dad don't get along." },
+    { "native": "मला वाटतं तो नाराज आहे.", "roman": "malā vāṭtaṃ to nārādz āhe.", "en": "I think he's upset." },
+    { "native": "तुला माहितेय का?", "roman": "tulā māhitey kā?", "en": "Guess what? / Have you heard?", "note": "माहितेय = माहीत आहे." },
+    { "native": "हे कोणाला सांगू नकोस.", "roman": "he koṇālā sāṅgū nakos.", "en": "Don't tell anyone. (informal)" },
+    { "native": "काहीही!", "roman": "kāhīhī!", "en": "Rubbish! / As if! / Whatever!", "note": "Lit. 'anything (at all)' — the standard reaction to a silly claim." },
+    { "native": "जो माणूस काल आला होता, तो कोण होता?", "roman": "dzo māṇūs kāl ālā hotā, to koṇ hotā?", "en": "Who was that guy who came yesterday?" }
+  ],
+  "grammar": [
+    {
+      "title": "Relative clauses in full: जो, ज्याला, ज्याचा… तो",
+      "body": "In Unit 20 you met the pairs जो… तो, जेव्हा… तेव्हा, जिथे… तिथे. In real speech the relative word has to change for **gender** and **case**, exactly like तो / ती / ते do.\n\n**Relative word (first clause)** → **matching word (second clause)**\nजो (m) · जी (f) · जे (n, and m pl) · ज्या (f pl) → तो · ती · ते · त्या\nज्याला / जिला → त्याला / तिला ('to whom')\nज्याने / जिने → त्याने / तिने ('by whom', past transitive)\nज्याचा / जिचा → त्याचा / तिचा ('whose' — agrees with the thing owned: ज्याची गाडी, ज्याचं घर)\nज्याच्याकडे · ज्याच्याशी · ज्याच्याबरोबर ('who has', 'with whom')\nWith a noun after it, the oblique is **ज्या** for everyone: **ज्या** मुलाशी, **ज्या** मुलीला, **ज्या** लोकांनी.\n\n**How to build it:** say the relative clause first, then the main clause beginning with the matching word in whatever case the main clause needs: **ज्याचं** लग्न ठरलंय, **तो** माझा भाऊ आहे · **जिला** मी फोन केला, **ती** आली नाही · जे मी सांगितलं, **ते** विसर.\n\n**The trap:** English 'who' is not कोण here. ✗ *माणूस कोण आला* → ✓ **जो** माणूस आला. And don't drop the second half: Marathi needs the तो / ती / ते.\n\nThese sentences are perfectly normal but a bit heavy; in quick conversation people often swap them for the participles in the next note.",
+      "examples": [
+        { "native": "ज्या मुलीशी तू बोलत होतास, ती कोण आहे?", "roman": "jyā mulīshī tū bolat hotās, tī koṇ āhe?", "en": "Who is the girl you were talking to? (to a man)" },
+        { "native": "ज्याच्याकडे गाडी आहे, तो आपल्याला सोडेल.", "roman": "jyāchyākaḍe gāḍī āhe, to āplyālā soḍel.", "en": "Whoever has a car can drop us." },
+        { "native": "जिचं लग्न पुढच्या महिन्यात आहे, ती माझ्या ऑफिसमध्ये काम करते.", "roman": "jitsaṃ lagna puḍhchyā mahinyāt āhe, tī mājhyā ôfismadhye kām karte.", "en": "The girl who's getting married next month works in my office." },
+        { "native": "ज्याने हे केलं, त्याला मी सोडणार नाही.", "roman": "jyāne he kelaṃ, tyālā mī soḍṇār nāhī.", "en": "Whoever did this, I'm not letting him off." },
+        { "native": "जे झालं ते विसर.", "roman": "je dzhālaṃ te visar.", "en": "Forget what happened. (informal)" }
+      ]
+    },
+    {
+      "title": "Participles: पुण्यात राहणारा मित्र, काल भेटलेली मुलगी",
+      "body": "Spoken Marathi loves to pack a whole 'who…' clause into one adjective placed **before** the noun.\n\n**-णारा** (stem + णारा) = 'who does / who will do':\nपुण्यात **राहणारा** मित्र 'my friend who lives in Pune'\nगाणं **गाणारी** मुलगी 'the girl who sings'\nबँकेत काम **करणारे** लोक 'people who work in a bank'\n\n**-लेला** (past stem + लेला) = 'who did / which was done':\nकाल **आलेला** मुलगा 'the boy who came yesterday'\nतू **आणलेली** मिठाई 'the sweets you brought'\nमी **पाहिलेला** चित्रपट 'the film I saw'\nWith a transitive verb, -लेला describes the **object** (the thing seen, brought, said), and the doer comes in front without -ने in speech: **तू** सांगितलेलं हॉटेल 'the hotel you told me about'.\n\nBoth agree like adjectives: -णारा / -णारी / -णारं / -णारे, -लेला / -लेली / -लेलं / -लेले, and take the oblique **-णाऱ्या**, **-लेल्या** before a postposition: पुण्यात राहणाऱ्या मित्राला 'to my friend who lives in Pune'.\n\nMany -लेला forms work as everyday adjectives: **थकलेला** 'tired', **रागावलेला** 'angry', **बसलेला** 'sitting', **घातलेला** 'wearing': चष्मा घातलेला मुलगा 'the guy with glasses'.\n\n**-णारा** is also how you make 'someone who…' nouns: खूप बोलणारा 'a big talker', लवकर उठणारी 'an early riser'.",
+      "examples": [
+        { "native": "चष्मा घातलेला तो मुलगा कोण आहे?", "roman": "tsaṣmā ghātlelā to mulgā koṇ āhe?", "en": "Who's that guy with the glasses?" },
+        { "native": "मुंबईत राहणारी माझी मावशी उद्या येतेय.", "roman": "mumbaīt rāhṇārī mājhī māvshī udyā yetey.", "en": "My aunt who lives in Mumbai is coming tomorrow." },
+        { "native": "काल भेटलेली मुलगी खूप हुशार होती.", "roman": "kāl bheṭlelī mulgī khūp hushār hotī.", "en": "The girl we met yesterday was really bright." },
+        { "native": "तू सांगितलेला चित्रपट मी पाहिला.", "roman": "tū sāṅgitlelā chitrapaṭ mī pāhilā.", "en": "I saw the film you told me about." },
+        { "native": "खूप बोलणारे लोक मला आवडत नाहीत.", "roman": "khūp bolṇāre lok malā āvaḍat nāhīt.", "en": "I don't like people who talk too much." }
+      ]
+    },
+    {
+      "title": "Looks and seems: दिसणे, वाटणे, -सारखा",
+      "body": "**दिसणे** 'to look (to the eye)' agrees with the person described: तो छान **दिसतो**, ती छान **दिसते**, ते थकलेले **दिसतात**. About right now, use the continuous: तू आज छान **दिसतेयस** 'you look nice today'. **दिसायला** = 'in looks': दिसायला साधी आहे 'she's plain-looking'.\n\n**वाटणे** 'to seem (as an impression)': तो चांगला **वाटतो** 'he seems nice'. With the dative it means 'I find, I think': **मला** तो खडूस **वाटला** 'he seemed grumpy to me', मला वाटतं की… 'I think that…' (Unit 14).\n\n**-सारखा** 'like': oblique noun + सारखा, agreeing with the **subject**: ती आई**सारखी** दिसते · तो भावा**सारखा** दिसतो · ते हिरो**सारखे** दिसतात.\n\n**'It looks like / it seems that…':** **असं दिसतंय की…** (from what I can see) / **असं वाटतंय की…** (I have a feeling): असं दिसतंय की ते आज येणार नाहीत. Or put the -णार form first: पाऊस येणार **असं दिसतंय**.\n\n**The trap:** English *look* is two verbs. **बघणे** is to look *at* something; **दिसणे** is to look *like* something. ✗ *तो थकलेला बघतो* → ✓ तो थकलेला **दिसतो**. And with the dative दिसणे means 'can see': **मला** काही **दिसत नाही** 'I can't see anything'.",
+      "examples": [
+        { "native": "तू आज खूप छान दिसतेयस!", "roman": "tū ādz khūp chhān disteyas!", "en": "You look great today! (to a woman)" },
+        { "native": "तो वयापेक्षा लहान दिसतो.", "roman": "to vayāpekṣā lahān disto.", "en": "He looks younger than he is." },
+        { "native": "ती खूप साधी वाटते.", "roman": "tī khūp sādhī vāṭte.", "en": "She seems really down-to-earth." },
+        { "native": "असं वाटतंय की त्यांचं भांडण झालंय.", "roman": "asaṃ vāṭtaṃy kī tyāntsaṃ bhāṇḍaṇ dzhālaṃy.", "en": "Looks like they've had a fight." },
+        { "native": "तू अगदी तुझ्या बाबांसारखा बोलतोस.", "roman": "tū agdī tujhyā bābānsārkhā boltos.", "en": "You talk just like your dad. (to a man)" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Who was that?",
+    "setting": "Priya and Ketaki over cutting chai near Dadar station, Mumbai. Priya saw someone drop Ketaki home last night.",
+    "lines": [
+      { "speaker": "Priya", "native": "अगं, तो कोण होता? काल तुला सोडायला आला होता तो?", "roman": "agaṃ, to koṇ hotā? kāl tulā soḍāylā ālā hotā to?", "en": "Hey, who was that? The guy who dropped you off yesterday?" },
+      { "speaker": "Ketaki", "native": "कोण? अगं… म्हणजे… ऑफिसमधला एक मित्र आहे.", "roman": "koṇ? agaṃ… mhaṇje… ôfismadhlā ek mitra āhe.", "en": "Who? Oh… I mean… he's a friend from the office." },
+      { "speaker": "Priya", "native": "फक्त मित्र? मग तू एवढी लाल का झालीस?", "roman": "phakta mitra? mag tū evḍhī lāl kā dzhālīs?", "en": "Just a friend? Then why have you gone so red?" },
+      { "speaker": "Ketaki", "native": "काहीही! बरं, ठीक आहे… त्याचं नाव समीर आहे.", "roman": "kāhīhī! baraṃ, ṭhīk āhe… tyātsaṃ nāv samīr āhe.", "en": "As if! OK, fine… his name's Sameer." },
+      { "speaker": "Priya", "native": "कसा आहे? सांग ना सगळं!", "roman": "kasā āhe? sāṅg nā sagḷaṃ!", "en": "What's he like? Tell me everything!" },
+      { "speaker": "Ketaki", "native": "खूप साधा आहे, मनमिळाऊ आहे, आणि खूप हसवतो.", "roman": "khūp sādhā āhe, manmiḷāū āhe, āṇi khūp hasavto.", "en": "Really down-to-earth, easy to get on with, and he makes me laugh a lot." },
+      { "speaker": "Priya", "native": "आणि दिसायला?", "roman": "āṇi disāylā?", "en": "And looks-wise?" },
+      { "speaker": "Ketaki", "native": "उंच आहे, चष्मा आहे… थोडा शाहरुखसारखा दिसतो.", "roman": "unts āhe, tsaṣmā āhe… thoḍā shāharukhsārkhā disto.", "en": "Tall, wears glasses… looks a bit like Shah Rukh." },
+      { "speaker": "Priya", "native": "हो का? मला तर तो जरा खडूस वाटला!", "roman": "ho kā? malā tar to dzarā khaḍūs vāṭlā!", "en": "Oh really? He seemed a bit grumpy to me!" },
+      { "speaker": "Ketaki", "native": "तो लाजाळू आहे गं, खडूस नाही. जे लोक त्याला ओळखतात, त्या सगळ्यांना तो आवडतो.", "roman": "to lādzāḷū āhe gaṃ, khaḍūs nāhī. je lok tyālā oḷakhtāt, tyā sagḷyānnā to āvaḍto.", "en": "He's shy, not grumpy. Everyone who knows him likes him." },
+      { "speaker": "Priya", "native": "बरं बरं. मग आम्हाला कधी भेटवणार?", "roman": "baraṃ baraṃ. mag āmhālā kadhī bheṭavṇār?", "en": "OK, OK. So when are you introducing him to us?" },
+      { "speaker": "Ketaki", "native": "आधी हे कोणाला सांगू नकोस! विशेषतः आईला!", "roman": "ādhī he koṇālā sāṅgū nakos! visheṣataḥ āīlā!", "en": "First of all, don't tell anyone! Especially Mum!" }
+    ]
+  },
+  "culture": "Marathi speakers can be startlingly direct about looks: an aunt may greet you with **किती जाड झालास!** 'you've got so fat!' or **बारीक झालीस, खात नाहीस का?** 'you've got thin, aren't you eating?' — it's concern, not an insult, and the right answer is a laugh. Comments on skin colour (गोरा / सावळा) are still common in older people's talk, but many younger people find them rude, so don't copy them. Talk about elders with the respectful plural — बाबा **आले आहेत**, सासूबाई **म्हणाल्या** — even when you're complaining about them. Regional stereotypes are a national sport: **पुणेरी** people are said to be blunt and a bit खडूस (and proud of it), Mumbaikars always in a hurry, Kolhapuris loud and warm. Young people say **गर्लफ्रेंड / बॉयफ्रेंड** freely with friends, but in front of family a partner often stays 'just a friend' until things are serious — which is why every relative asks **लग्न कधी?**. And the **सासू–सून** (mother-in-law vs daughter-in-law) relationship is the engine of half the Marathi TV serials ever made.",
+  "lessons": [
+    {
+      "title": "What someone's like",
+      "tip": { "title": "कसा आहे? — describing people", "body": "- **तो कसा आहे? / ती कशी आहे?** asks both 'how is he?' and 'what is he like?'.\n- Adjectives ending in **-आ** agree: साधा / साधी / साधे. Others don't change: हुशार, मेहनती, प्रामाणिक.\n- **स्वभाव** is masculine, so it's ति**चा** स्वभाव **कसा** आहे? even about a woman.\n- Soften criticism with **जरा** or **थोडा**: तो जरा आळशी आहे." },
+      "new": ["स्वभाव", "हुशार", "मनमिळाऊ", "साधा", "मेहनती", "प्रामाणिक", "ती कशी आहे?", "तो स्वभावाने खूप चांगला आहे."],
+      "sentences": [
+        { "native": "तुझे नवीन साहेब कसे आहेत?", "roman": "tujhe navīn sāheb kase āhet?", "en": "What's your new boss like? (informal)", "focus": "कसे", "wrong": ["कसा|kasā", "कशी|kashī"] },
+        { "native": "ती खूप हुशार आणि मेहनती आहे.", "roman": "tī khūp hushār āṇi mehnatī āhe.", "en": "She's really bright and hard-working." },
+        { "native": "त्याचा स्वभाव खूप साधा आहे.", "roman": "tyātsā svabhāv khūp sādhā āhe.", "en": "He's very down-to-earth.", "focus": "साधा", "wrong": ["साधी|sādhī", "साधं|sādhaṃ"] },
+        { "native": "माझी आजी खूप मनमिळाऊ आहे, सगळ्यांशी बोलते.", "roman": "mājhī ājī khūp manmiḷāū āhe, sagḷyānshī bolte.", "en": "My grandma's really sociable — she talks to everyone." },
+        { "native": "तो प्रामाणिक आहे, खोटं बोलणार नाही.", "roman": "to prāmāṇik āhe, khoṭaṃ bolṇār nāhī.", "en": "He's honest — he won't lie." },
+        { "native": "तुझी नवीन मैत्रीण कशी आहे?", "roman": "tujhī navīn maitrīṇ kashī āhe?", "en": "What's your new friend like? (informal)", "focus": "कशी", "wrong": ["कसा|kasā", "कसं|kasaṃ"] },
+        { "native": "माझे बाबा खूप साधे आहेत.", "roman": "mājhe bābā khūp sādhe āhet.", "en": "My dad is a very simple, unfussy man.", "focus": "साधे", "wrong": ["साधा|sādhā", "साधी|sādhī"] },
+        { "native": "तिचा स्वभाव कसा आहे?", "roman": "titsā svabhāv kasā āhe?", "en": "What's she like as a person?", "focus": "कसा", "wrong": ["कशी|kashī", "कसे|kase"] },
+        { "native": "सगळे म्हणतात तो खूप हुशार आहे.", "roman": "sagḷe mhaṇtāt to khūp hushār āhe.", "en": "Everyone says he's really clever." }
+      ]
+    },
+    {
+      "title": "The less flattering side",
+      "new": ["आळशी", "चिडचिडा", "खडूस", "स्वार्थी", "चिक्कू", "बोलका", "लाजाळू", "वागणे", "तो खूप वाईट वागला."],
+      "sentences": [
+        { "native": "तो खूप आळशी आहे, दुपारपर्यंत झोपतो.", "roman": "to khūp āḷshī āhe, dupārparyant dzhopto.", "en": "He's so lazy — he sleeps till the afternoon." },
+        { "native": "आज ती जरा चिडचिडी आहे, काय झालं?", "roman": "ādz tī dzarā chiḍchiḍī āhe, kāy dzhālaṃ?", "en": "She's a bit irritable today — what happened?", "focus": "चिडचिडी", "wrong": ["चिडचिडा|chiḍchiḍā", "चिडचिडे|chiḍchiḍe"] },
+        { "native": "आमचे शेजारी खूप खडूस आहेत.", "roman": "āmche shedzārī khūp khaḍūs āhet.", "en": "Our neighbours are really grumpy." },
+        { "native": "अरे, किती चिक्कू आहेस! एक चहा तरी दे.", "roman": "are, kitī chikkū āhes! ek tsahā tarī de.", "en": "Man, you're so stingy! At least buy me a tea." },
+        { "native": "ती खूप बोलकी आहे, आणि तिचा भाऊ खूप लाजाळू आहे.", "roman": "tī khūp bolkī āhe, āṇi titsā bhāū khūp lādzāḷū āhe.", "en": "She's really chatty, and her brother is really shy.", "focus": "बोलकी", "wrong": ["बोलका|bolkā", "बोलकं|bolkaṃ"] },
+        { "native": "तो सगळ्यांशी असा का वागतो?", "roman": "to sagḷyānshī asā kā vāgto?", "en": "Why does he behave like that with everyone?" },
+        { "native": "मला वाटलं तो स्वार्थी आहे, पण तसा नाही.", "roman": "malā vāṭlaṃ to svārthī āhe, paṇ tasā nāhī.", "en": "I thought he was selfish, but he's not like that." },
+        { "native": "काल लग्नात तो नीट वागला नाही.", "roman": "kāl lagnāt to nīṭ vāglā nāhī.", "en": "He didn't behave well at the wedding yesterday." },
+        { "native": "तू इतका लाजाळू का आहेस?", "roman": "tū itkā lādzāḷū kā āhes?", "en": "Why are you so shy? (to a man)" }
+      ]
+    },
+    {
+      "title": "What someone looks like",
+      "tip": { "title": "दिसणे, वाटणे, -सारखा — looks and seems", "body": "- **दिसणे** = look (to the eye), agreeing with the person: तो थकलेला **दिसतो**, ती छान **दिसते**; right now: **दिसतेयस**.\n- **वाटणे** = seem: ती चांगली **वाटली**.\n- **-सारखा** 'like' agrees with the subject: ती आई**सारखी** दिसते.\n- Trap: बघणे = look *at*; दिसणे = look *like*. And मला **दिसत नाही** = I can't see.", "pattern": "person + adjective / X-सारखा + दिसतो / वाटतो", "grammar": 2 },
+      "new": ["दिसणे", "सारखा", "बारीक", "जाड", "चष्मा", "मिशी", "देखणा", "तो कसा दिसतो?", "ती तिच्या आईसारखी दिसते.", "तो थकलेला दिसतोय."],
+      "sentences": [
+        { "native": "तो वयापेक्षा मोठा दिसतो.", "roman": "to vayāpekṣā moṭhā disto.", "en": "He looks older than he is.", "focus": "दिसतो", "wrong": ["दिसते|diste", "बघतो|baghto"] },
+        { "native": "तू तुझ्या भावासारखा दिसतोस.", "roman": "tū tujhyā bhāvāsārkhā distos.", "en": "You look like your brother. (to a man)", "focus": "भावासारखा", "wrong": ["भावासारखी|bhāvāsārkhī", "भाऊसारखा|bhāūsārkhā"] },
+        { "native": "त्याला चष्मा आहे आणि मिशी आहे.", "roman": "tyālā tsaṣmā āhe āṇi mishī āhe.", "en": "He wears glasses and has a moustache." },
+        { "native": "तू आज खूप थकलेली दिसतेयस.", "roman": "tū ādz khūp thaklelī disteyas.", "en": "You look really tired today. (to a woman)", "focus": "दिसतेयस", "wrong": ["दिसतोयस|distoyas", "दिसतेय|distey"] },
+        { "native": "ती पूर्वी जाड होती, आता खूप बारीक झालीय.", "roman": "tī pūrvī dzāḍ hotī, ātā khūp bārīk dzhālīy.", "en": "She used to be quite plump; now she's got really slim." },
+        { "native": "तो खूप देखणा दिसतो.", "roman": "to khūp dekhṇā disto.", "en": "He's really good-looking.", "focus": "दिसतो", "wrong": ["दिसते|diste", "दिसतं|distaṃ"] },
+        { "native": "ती मला खूप चांगली वाटली.", "roman": "tī malā khūp tsāṅglī vāṭlī.", "en": "She seemed really nice to me.", "focus": "वाटली", "wrong": ["वाटला|vāṭlā", "वाटलो|vāṭlo"] },
+        { "native": "पाऊस येणार असं दिसतंय.", "roman": "pāūs yeṇār asaṃ distaṃy.", "en": "Looks like it's going to rain.", "focus": "दिसतंय", "wrong": ["दिसतोय|distoy", "दिसतेय|distey"] },
+        { "native": "चष्मा नसला तर मला काही दिसत नाही.", "roman": "tsaṣmā naslā tar malā kāhī disat nāhī.", "en": "Without my glasses I can't see a thing.", "focus": "दिसत", "wrong": ["बघत|baghat", "दिसला|dislā"] },
+        { "native": "माझा भाऊ खूप बारीक आहे, पण खूप खातो!", "roman": "mādzhā bhāū khūp bārīk āhe, paṇ khūp khāto!", "en": "My brother is really skinny, but he eats loads!" }
+      ]
+    },
+    {
+      "title": "Friends and partners",
+      "tip": { "title": "पुण्यात राहणारा मित्र — the friend who lives in Pune", "body": "- **stem + णारा** = 'who does': पुण्यात **राहणारा** मित्र, बँकेत काम **करणारी** मुलगी.\n- **past stem + लेला** = 'who did / that was done': काल **भेटलेली** मुलगी, तू **आणलेली** मिठाई.\n- They go **before** the noun and agree like adjectives (-णारा / -णारी / -णारे, -लेला / -लेली / -लेलं).", "pattern": "… + stem-णारा / -लेला + noun", "grammar": 1 },
+      "new": ["जवळचा", "ओळखीचा", "गर्लफ्रेंड", "बॉयफ्रेंड", "सध्या", "आमचं छान पटतं.", "ती माझी खूप जवळची मैत्रीण आहे.", "ती कोणाबरोबर आहे सध्या?"],
+      "sentences": [
+        { "native": "पुण्यात राहणारा माझा एक मित्र उद्या येतोय.", "roman": "puṇyāt rāhṇārā mādzhā ek mitra udyā yetoy.", "en": "A friend of mine who lives in Pune is coming tomorrow.", "focus": "राहणारा", "wrong": ["राहणारी|rāhṇārī", "राहिला|rāhilā"] },
+        { "native": "काल भेटलेली मुलगी तुझी गर्लफ्रेंड आहे का?", "roman": "kāl bheṭlelī mulgī tujhī garlfreṇḍ āhe kā?", "en": "Is the girl we met yesterday your girlfriend?", "focus": "भेटलेली", "wrong": ["भेटलेला|bheṭlelā", "भेटणारी|bheṭṇārī"] },
+        { "native": "माझ्या ओळखीचा एक डॉक्टर आहे.", "roman": "mājhyā oḷkhītsā ek ḍôkṭar āhe.", "en": "I know a doctor. (lit. there's a doctor I know)" },
+        { "native": "बँकेत काम करणारा मुलगा तिचा बॉयफ्रेंड आहे.", "roman": "bæṅket kām karṇārā mulgā titsā bôyfreṇḍ āhe.", "en": "The guy who works at the bank is her boyfriend.", "focus": "करणारा", "wrong": ["करणारी|karṇārī", "केला|kelā"] },
+        { "native": "सध्या माझ्याबरोबर राहणारा मित्र खूप चिक्कू आहे.", "roman": "sadhyā mājhyābarobar rāhṇārā mitra khūp chikkū āhe.", "en": "The friend who's living with me at the moment is really stingy.", "focus": "राहणारा", "wrong": ["राहणारी|rāhṇārī", "राहिलेला|rāhilelā"] },
+        { "native": "तू आणलेली मिठाई मस्त होती.", "roman": "tū āṇlelī miṭhāī mast hotī.", "en": "The sweets you brought were great.", "focus": "आणलेली", "wrong": ["आणलेला|āṇlelā", "आणणारी|āṇṇārī"] },
+        { "native": "ती माझी कॉलेजपासूनची मैत्रीण आहे.", "roman": "tī mājhī kôlejpāsūnchī maitrīṇ āhe.", "en": "She's been my friend since college." },
+        { "native": "आमच्यात सगळ्यात जास्त बोलणारा तोच आहे.", "roman": "āmchyāt sagḷyāt dzāst bolṇārā tots āhe.", "en": "He's the one who talks the most out of all of us.", "focus": "बोलणारा", "wrong": ["बोलणारी|bolṇārī", "बोललेला|bollelā"] },
+        { "native": "रात्री उशिरा फोन करणारा तो मुलगा कोण आहे?", "roman": "rātrī ushirā fon karṇārā to mulgā koṇ āhe?", "en": "Who's that guy who calls you late at night?", "focus": "करणारा", "wrong": ["करणारी|karṇārī", "करणारे|karṇāre"] },
+        { "native": "तो माझा खूप जवळचा मित्र आहे.", "roman": "to mādzhā khūp dzavaḷtsā mitra āhe.", "en": "He's a really close friend of mine." }
+      ]
+    },
+    {
+      "title": "Family and in-laws",
+      "new": ["सासू", "सासर", "नातेवाईक", "त्याचं आणि त्याच्या बाबांचं पटत नाही.", "मला वाटतं तो नाराज आहे."],
+      "sentences": [
+        { "native": "तिचं आणि तिच्या सासूचं अजिबात पटत नाही.", "roman": "titsaṃ āṇi tichyā sāsūtsaṃ ajibāt paṭat nāhī.", "en": "She and her mother-in-law don't get on at all." },
+        { "native": "लग्नानंतर ती सासरी राहते.", "roman": "lagnānantar tī sāsrī rāhte.", "en": "Since the wedding she's been living with her in-laws." },
+        { "native": "सुट्टीत सगळे नातेवाईक घरी येतात.", "roman": "suṭṭīt sagḷe nātevāīk gharī yetāt.", "en": "In the holidays all the relatives come over." },
+        { "native": "माझी सासू खूप मनमिळाऊ आहे.", "roman": "mājhī sāsū khūp manmiḷāū āhe.", "en": "My mother-in-law is really easy to get along with." },
+        { "native": "मला वाटतं बाबा अजून नाराज आहेत.", "roman": "malā vāṭtaṃ bābā adzūn nārādz āhet.", "en": "I think Dad's still upset." },
+        { "native": "काही नातेवाईक नेहमी विचारतात, ‘लग्न कधी करणार?’", "roman": "kāhī nātevāīk nehmī vichārtāt, lagna kadhī karṇār?", "en": "Some relatives always ask, 'So when are you getting married?'" },
+        { "native": "माझं आणि माझ्या भावाचं लहानपणी अजिबात पटायचं नाही.", "roman": "mādzhaṃ āṇi mājhyā bhāvātsaṃ lahānpaṇī ajibāt paṭāytsaṃ nāhī.", "en": "My brother and I didn't get on at all as kids." },
+        { "native": "ती सासरी खूश आहे का?", "roman": "tī sāsrī khūsh āhe kā?", "en": "Is she happy with her in-laws?" }
+      ]
+    },
+    {
+      "title": "A bit of gossip",
+      "tip": { "title": "ज्याचं लग्न ठरलंय, तो… — the one whose…", "body": "- The relative word changes like तो/ती: **जो / जी / जे**, **ज्याला** 'to whom', **ज्याने** 'by whom', **ज्याचा** 'whose'; before a noun **ज्या**: ज्या मुलीला…\n- The second clause starts with the matching **तो / ती / ते / त्याला…**: **जिला** मी फोन केला, **ती** आली नाही.\n- Never use कोण for 'who' here.", "pattern": "ज्या… / ज्याचा… + clause, तो / ती / ते + clause", "grammar": 0 },
+      "new": ["अफवा", "तुला माहितेय का?", "हे कोणाला सांगू नकोस.", "काहीही!", "जो माणूस काल आला होता, तो कोण होता?"],
+      "sentences": [
+        { "native": "ज्या मुलाबरोबर ती फिरते, तो माझ्या ऑफिसमध्ये आहे.", "roman": "jyā mulābarobar tī phirte, to mājhyā ôfismadhye āhe.", "en": "The guy she's going around with works in my office.", "focus": "ज्या", "wrong": ["जो|dzo", "जी|jī"] },
+        { "native": "जी मुलगी काल आली होती, ती त्याची गर्लफ्रेंड आहे.", "roman": "jī mulgī kāl ālī hotī, tī tyāchī garlfreṇḍ āhe.", "en": "The girl who came yesterday is his girlfriend.", "focus": "जी", "wrong": ["जो|dzo", "जे|je"] },
+        { "native": "ज्याने ही अफवा सांगितली, तो खोटं बोलतोय.", "roman": "jyāne hī aphvā sāṅgitlī, to khoṭaṃ boltoy.", "en": "Whoever told you this rumour is lying.", "focus": "ज्याने", "wrong": ["जो|dzo", "ज्याला|jyālā"] },
+        { "native": "ज्याचं लग्न ठरलंय, तो हाच का?", "roman": "jyātsaṃ lagna ṭharlaṃy, to hāts kā?", "en": "Is this the guy who's just got engaged?", "focus": "ज्याचं", "wrong": ["ज्याला|jyālā", "ज्याने|jyāne"] },
+        { "native": "ही फक्त अफवा आहे, खरं नाही.", "roman": "hī phakta aphvā āhe, kharaṃ nāhī.", "en": "It's just a rumour, it isn't true." },
+        { "native": "ज्याला विचारलं, त्याला काहीच माहीत नाही.", "roman": "jyālā vichārlaṃ, tyālā kāhīts māhīt nāhī.", "en": "Nobody I ask knows anything. (lit. whoever I asked, he knows nothing)", "focus": "त्याला", "wrong": ["तो|to", "त्याने|tyāne"] },
+        { "native": "तुला माहितेय का, तिचं आणि तिच्या बॉयफ्रेंडचं भांडण झालं!", "roman": "tulā māhitey kā, titsaṃ āṇi tichyā bôyfreṇḍtsaṃ bhāṇḍaṇ dzhālaṃ!", "en": "Guess what — she and her boyfriend had a fight!" },
+        { "native": "काहीही! असं काही झालं नाही.", "roman": "kāhīhī! asaṃ kāhī dzhālaṃ nāhī.", "en": "Rubbish! Nothing like that happened." },
+        { "native": "जे मी तुला सांगितलं, ते कोणाला सांगू नकोस.", "roman": "je mī tulā sāṅgitlaṃ, te koṇālā sāṅgū nakos.", "en": "Don't tell anyone what I told you.", "focus": "ते", "wrong": ["तो|to", "ती|tī"] },
+        { "native": "जिथे ती राहते, तिथे माझी मावशी पण राहते.", "roman": "jithe tī rāhte, tithe mājhī māvshī paṇ rāhte.", "en": "My aunt lives in the same place as her.", "focus": "तिथे", "wrong": ["इथे|ithe", "जिथे|jithe"] }
+      ]
+    }
+  ]
+}

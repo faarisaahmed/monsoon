@@ -1,0 +1,205 @@
+{
+  "id": 32,
+  "title": "Health in depth",
+  "goal": "Describe symptoms precisely and say how long you have had them, mention allergies and conditions, follow a doctor's instructions and deal with appointments and hospitals.",
+  "intro": "Unit 9 got you as far as **माझं डोकं दुखतंय**. This unit is for when you actually have to sit in front of a doctor in Pune or Mumbai and explain: what exactly is wrong (**मला चक्कर येतेय**, **अंगात कणकण आहे**), **since when** (**दोन दिवसांपासून**), what you're allergic to, and then understand what the doctor tells you to do.\n\nThe grammar is the two things every consultation needs: saying how long something has been going on — Marathi uses the **present tense + -पासून** where English says 'I have been…' — and following instructions, including the doctor's favourite form **ही गोळी जेवणानंतर घ्यायची** 'this tablet is to be taken after food'.",
+  "vocab": [
+    { "native": "लक्षण", "roman": "lakṣaṇ", "en": "symptom", "pos": "noun", "note": "n · pl लक्षणं" },
+    { "native": "चक्कर", "roman": "tsakkar", "en": "dizziness", "pos": "noun", "note": "f · मला चक्कर येते 'I feel dizzy'; चक्कर येऊन पडणे 'to faint'" },
+    { "native": "मळमळ", "roman": "maḷmaḷ", "en": "nausea", "pos": "noun", "note": "f · also a verb: मळमळतंय 'I feel sick'" },
+    { "native": "जुलाब", "roman": "dzulāb", "en": "diarrhoea", "pos": "noun", "note": "m, usually plural: जुलाब होतायत" },
+    { "native": "अशक्तपणा", "roman": "ashaktapaṇā", "en": "weakness", "pos": "noun", "note": "m · अशक्त 'weak'" },
+    { "native": "सूज", "roman": "sūdz", "en": "swelling", "pos": "noun", "note": "f · पायाला सूज आली आहे 'my foot is swollen'" },
+    { "native": "खाज", "roman": "khādz", "en": "itch", "pos": "noun", "note": "f · खाज येते 'it itches'" },
+    { "native": "पुरळ", "roman": "puraḷ", "en": "rash, spots", "pos": "noun", "note": "n · अंगावर पुरळ आलंय 'I've got a rash'" },
+    { "native": "कधीपासून", "roman": "kadhīpāsūn", "en": "since when?, how long?", "pos": "q" },
+    { "native": "अंगदुखी", "roman": "aṅgdukhī", "en": "body ache", "pos": "noun", "note": "f · अंग 'body' + दुखी" },
+    { "native": "कणकण", "roman": "kaṇkaṇ", "en": "a feverish feeling, slight temperature", "pos": "noun", "note": "f · अंगात कणकण आहे" },
+    { "native": "ॲलर्जी", "roman": "ælarjī", "en": "allergy", "pos": "noun", "note": "f · मला X-ची ॲलर्जी आहे 'I'm allergic to X'" },
+    { "native": "बीपी", "roman": "bīpī", "en": "blood pressure", "pos": "noun", "note": "n · बीपी वाढलंय '(my) blood pressure is up'; formal रक्तदाब" },
+    { "native": "शुगर", "roman": "shugar", "en": "diabetes; blood sugar", "pos": "noun", "note": "f · त्यांना शुगर आहे 'he/she is diabetic'; formal मधुमेह" },
+    { "native": "रक्त", "roman": "rakta", "en": "blood", "pos": "noun", "note": "n" },
+    { "native": "तपासणी", "roman": "tapāsṇī", "en": "check-up, test", "pos": "noun", "note": "f · रक्ताची तपासणी 'blood test'; from तपासणे" },
+    { "native": "डोस", "roman": "ḍos", "en": "dose", "pos": "noun", "note": "m" },
+    { "native": "दोनदा", "roman": "dondā", "en": "twice", "pos": "adv", "note": "also तीनदा 'three times', चारदा; or दोन वेळा" },
+    { "native": "दर", "roman": "dar", "en": "every, per", "pos": "adj", "note": "दर सहा तासांनी 'every six hours', दर महिन्याला 'every month'" },
+    { "native": "उपाशीपोटी", "roman": "upāshīpoṭī", "en": "on an empty stomach", "pos": "adv", "note": "उपाशी 'hungry, fasting' + पोट" },
+    { "native": "मलम", "roman": "malam", "en": "ointment, cream", "pos": "noun", "note": "n · मलम लावणे 'to apply ointment'" },
+    { "native": "पथ्य", "roman": "pathya", "en": "dietary restrictions (prescribed)", "pos": "noun", "note": "n · पथ्य पाळणे 'to stick to the diet'" },
+    { "native": "पाळणे", "roman": "pāḷṇe", "en": "to follow, observe (rules, a diet); to keep (a pet)", "pos": "verb" },
+    { "native": "तेलकट", "roman": "telkaṭ", "en": "oily, greasy", "pos": "adj", "note": "तेल 'oil'" },
+    { "native": "अपॉइंटमेंट", "roman": "apôiṇṭmeṇṭ", "en": "appointment", "pos": "noun", "note": "f" },
+    { "native": "इंजेक्शन", "roman": "iñjekshan", "en": "injection", "pos": "noun", "note": "n · इंजेक्शन देणे / घेणे" },
+    { "native": "सलाईन", "roman": "salāīn", "en": "IV drip", "pos": "noun", "note": "n · सलाईन लावणे 'to put on a drip'" },
+    { "native": "ॲडमिट", "roman": "æḍmiṭ", "en": "admitted (to hospital)", "pos": "adj", "note": "ॲडमिट करणे 'to admit', ॲडमिट होणे 'to be admitted'" },
+    { "native": "ऑपरेशन", "roman": "ôpareshan", "en": "operation, surgery", "pos": "noun", "note": "n · formal शस्त्रक्रिया" },
+    { "native": "विमा", "roman": "vimā", "en": "insurance", "pos": "noun", "note": "m · आरोग्य विमा 'health insurance'; also इन्शुरन्स" }
+  ],
+  "phrases": [
+    { "native": "काय त्रास होतोय?", "roman": "kāy trās hotoy?", "en": "What seems to be the problem?", "note": "The doctor's opening question." },
+    { "native": "हे कधीपासून होतंय?", "roman": "he kadhīpāsūn hotaṃy?", "en": "Since when has this been happening?" },
+    { "native": "दोन दिवसांपासून ताप आहे.", "roman": "don divasāmpāsūn tāp āhe.", "en": "I've had a fever for two days." },
+    { "native": "अंगात कणकण आहे.", "roman": "aṅgāt kaṇkaṇ āhe.", "en": "I feel a bit feverish." },
+    { "native": "मला चक्कर येतेय.", "roman": "malā tsakkar yetey.", "en": "I feel dizzy." },
+    { "native": "मळमळतंय.", "roman": "maḷmaḷtaṃy.", "en": "I feel sick (nauseous)." },
+    { "native": "मला कशाचीही ॲलर्जी नाही.", "roman": "malā kashāchīhī ælarjī nāhī.", "en": "I'm not allergic to anything." },
+    { "native": "मला बीपीचा त्रास आहे.", "roman": "malā bīpītsā trās āhe.", "en": "I have blood pressure problems." },
+    { "native": "रक्ताची तपासणी करून घ्या.", "roman": "raktāchī tapāsṇī karūn ghyā.", "en": "Get a blood test done." },
+    { "native": "ही गोळी दिवसातून दोनदा, जेवणानंतर घ्यायची.", "roman": "hī goḷī divasātūn dondā, jevaṇānantar ghyāychī.", "en": "Take this tablet twice a day, after food." },
+    { "native": "उपाशीपोटी घ्यायची नाही.", "roman": "upāshīpoṭī ghyāychī nāhī.", "en": "Don't take it on an empty stomach." },
+    { "native": "तेलकट, तिखट खाऊ नका.", "roman": "telkaṭ, tikhaṭ khāū nakā.", "en": "Avoid oily and spicy food." },
+    { "native": "आता कसं वाटतंय?", "roman": "ātā kasaṃ vāṭtaṃy?", "en": "How are you feeling now?" },
+    { "native": "डॉक्टरांची अपॉइंटमेंट मिळेल का?", "roman": "ḍôkṭarānchī apôiṇṭmeṇṭ miḷel kā?", "en": "Can I get an appointment with the doctor?" },
+    { "native": "त्याला ॲडमिट केलंय.", "roman": "tyālā æḍmiṭ kelaṃy.", "en": "He's been admitted to hospital." }
+  ],
+  "grammar": [
+    {
+      "title": "'For' and 'since': -पासून with the present tense",
+      "body": "English says 'I **have had** a fever for two days', 'I**'ve been** coughing since Monday' — a present perfect. Marathi looks at it the other way round: the fever **is** still here, so it uses the plain **present** (or the present continuous) plus **-पासून** 'from':\n\nदोन दिवसां**पासून** मला ताप **आहे** 'I've had a fever for two days'.\nसोमवार**पासून** खोकला **येतोय** 'I've been coughing since Monday'.\n\nThe time word goes into the oblique before -पासून: दिवस → दिवसांपासून, आठवडा → आठवड्यापासून, महिना → महिन्यापासून, वर्ष → वर्षांपासून; and कालपासून, सकाळपासून, रात्रीपासून. 'For' and 'since' are the same word. Ask **कधीपासून?** 'since when?' or **किती दिवसांपासून?** 'for how many days?'.\n\n**'It's been … since'**: the **-ऊन** form of the event + the time + **झाले / झाला**: ताप **येऊन** तीन दिवस **झाले** 'it's been three days since the fever started', ऑपरेशन **होऊन** एक महिना **झाला** 'it's been a month since the operation'. Very common in speech.\n\n**'For the last …'**: **गेले** दोन दिवस मला झोप नाही 'for the last two days I haven't slept'.\n\n**'Ago'** is a finished event, so it takes the past: दोन दिवसां**पूर्वी** ताप **आला** 'the fever came two days ago'.\n\n**The trap:** don't put a situation that's still going on in the past. दोन दिवसांपासून ताप **होता** means 'I had had a fever for two days' — it's over. If you still have it, say **आहे** / **येतोय**.",
+      "examples": [
+        { "native": "तीन दिवसांपासून माझं डोकं दुखतंय.", "roman": "tīn divasāmpāsūn mādzhaṃ ḍokaṃ dukhtaṃy.", "en": "I've had a headache for three days." },
+        { "native": "काल रात्रीपासून मला जुलाब होतायत.", "roman": "kāl rātrīpāsūn malā dzulāb hotāyat.", "en": "I've had diarrhoea since last night." },
+        { "native": "आईला दहा वर्षांपासून शुगर आहे.", "roman": "āīlā dahā varṣāmpāsūn shugar āhe.", "en": "Mum has been diabetic for ten years." },
+        { "native": "ताप येऊन चार दिवस झाले.", "roman": "tāp yeūn tsār divas dzhāle.", "en": "It's been four days since the fever started." },
+        { "native": "गेले दोन आठवडे मला नीट झोप लागत नाहीये.", "roman": "gele don āṭhavḍe malā nīṭ dzhop lāgat nāhīye.", "en": "For the last two weeks I haven't been sleeping properly." },
+        { "native": "एका आठवड्यापूर्वी माझं ऑपरेशन झालं.", "roman": "ekā āṭhavḍyāpūrvī mādzhaṃ ôpareshan dzhālaṃ.", "en": "I had an operation a week ago." }
+      ]
+    },
+    {
+      "title": "Following instructions: घ्या, घ्यायची, -ऊ नका and how often",
+      "body": "Doctors and chemists give instructions in three ways, and you'll hear all three in one visit.\n\n**1. Polite command (-आ)**: ही गोळी **घ्या**, आराम **करा**, भरपूर पाणी **प्या**.\n\n**2. 'Is to be …': stem + आयचा / आयची / आयचं** — the most common way a doctor explains a prescription. It agrees with the **medicine**, not with you: ही गोळी (f) जेवणानंतर **घ्यायची** 'this tablet is to be taken after food', हे सिरप (n) रात्री **घ्यायचं**, हा डोस (m) **चुकवायचा नाही** 'this dose is not to be missed'. With no object it's neuter: पाच दिवस बाहेरचं **खायचं नाही**. (Leaflets and written prescriptions use **-आवी / -आवे**: घ्यावी.)\n\n**3. Don't: stem + ऊ + नका** (तुम्ही) / **नकोस** (तू): थंड पाणी **पिऊ नका**, गाडी **चालवू नका**.\n\n**How often and when**\n- दिवसातून **एकदा / दोनदा / तीनदा** 'once / twice / three times a day' (or एक वेळा, दोन वेळा).\n- **दर** सहा तासांनी 'every six hours', **दर** दोन दिवसांनी 'every other day'.\n- **सकाळ-संध्याकाळ** 'morning and evening', **रात्री झोपताना** 'at bedtime' (-ताना from Unit 30).\n- जेवणा**आधी** 'before food', जेवणा**नंतर** 'after food', **उपाशीपोटी** 'on an empty stomach'.\n- **पाच दिवस** 'for five days' — no word for 'for'.\n\nIndian prescriptions often write the schedule as **1-0-1** (morning – afternoon – night): that means one tablet in the morning, none in the afternoon, one at night.\n\n**The trap:** -आयचा agreement follows the thing taken: गोळी घ्याय**ची**, सिरप / इंजेक्शन घ्याय**चं**, डोस घ्याय**चा**.",
+      "examples": [
+        { "native": "ही गोळी दिवसातून तीनदा घ्या.", "roman": "hī goḷī divasātūn tīndā ghyā.", "en": "Take this tablet three times a day." },
+        { "native": "हे औषध रात्री झोपताना घ्यायचं.", "roman": "he aushadh rātrī dzhoptānā ghyāytsaṃ.", "en": "This medicine is to be taken at bedtime." },
+        { "native": "दर सहा तासांनी दोन चमचे सिरप घ्या.", "roman": "dar sahā tāsānnī don tsamche sirap ghyā.", "en": "Take two spoons of syrup every six hours." },
+        { "native": "पाच दिवस तेलकट काही खायचं नाही.", "roman": "pāts divas telkaṭ kāhī khāytsaṃ nāhī.", "en": "No oily food for five days." },
+        { "native": "थंड पाणी पिऊ नका.", "roman": "thaṇḍ pāṇī piū nakā.", "en": "Don't drink cold water." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the family doctor",
+    "setting": "Rohan has been unwell for two days and goes to Dr Gokhale's clinic in Kothrud, Pune.",
+    "lines": [
+      { "speaker": "Dr Gokhale", "native": "बसा. काय त्रास होतोय?", "roman": "basā. kāy trās hotoy?", "en": "Have a seat. What's the problem?" },
+      { "speaker": "Rohan", "native": "डॉक्टर, दोन दिवसांपासून ताप आहे आणि अंग खूप दुखतंय.", "roman": "ḍôkṭar, don divasāmpāsūn tāp āhe āṇi aṅg khūp dukhtaṃy.", "en": "Doctor, I've had a fever for two days and my whole body aches." },
+      { "speaker": "Dr Gokhale", "native": "ताप किती आहे? मोजला का?", "roman": "tāp kitī āhe? modzlā kā?", "en": "How high is it? Did you take your temperature?" },
+      { "speaker": "Rohan", "native": "काल रात्री एकशे दोन होता. आज सकाळपासून थोडा कमी आहे.", "roman": "kāl rātrī ekshe don hotā. ādz sakāḷpāsūn thoḍā kamī āhe.", "en": "Last night it was a hundred and two. Since this morning it's a bit lower." },
+      { "speaker": "Dr Gokhale", "native": "अजून काही? उलटी, जुलाब?", "roman": "adzūn kāhī? ulṭī, dzulāb?", "en": "Anything else? Vomiting, diarrhoea?" },
+      { "speaker": "Rohan", "native": "नाही, पण थोडी मळमळ आहे आणि उठल्यावर चक्कर येते.", "roman": "nāhī, paṇ thoḍī maḷmaḷ āhe āṇi uṭhlyāvar tsakkar yete.", "en": "No, but I feel a bit sick, and I get dizzy when I get up." },
+      { "speaker": "Dr Gokhale", "native": "बघू… घसा पण लाल आहे. कशाची ॲलर्जी आहे का?", "roman": "baghū… ghasā paṇ lāl āhe. kashāchī ælarjī āhe kā?", "en": "Let's see… your throat's red too. Are you allergic to anything?" },
+      { "speaker": "Rohan", "native": "नाही, कशाचीही नाही.", "roman": "nāhī, kashāchīhī nāhī.", "en": "No, nothing." },
+      { "speaker": "Dr Gokhale", "native": "व्हायरल वाटतंय. पण उद्या रक्ताची तपासणी करून घ्या, डेंग्यू नाही ना ते बघू.", "roman": "vhāyral vāṭtaṃy. paṇ udyā raktāchī tapāsṇī karūn ghyā, ḍeṅgyū nāhī nā te baghū.", "en": "It looks viral. But get a blood test done tomorrow, so we can rule out dengue." },
+      { "speaker": "Rohan", "native": "आणि औषधं?", "roman": "āṇi aushadhaṃ?", "en": "And the medicines?" },
+      { "speaker": "Dr Gokhale", "native": "ही तापाची गोळी दिवसातून तीनदा, जेवणानंतर घ्यायची. आणि ही फक्त रात्री झोपताना.", "roman": "hī tāpāchī goḷī divasātūn tīndā, jevaṇānantar ghyāychī. āṇi hī phakta rātrī dzhoptānā.", "en": "This fever tablet three times a day, after food. And this one only at bedtime." },
+      { "speaker": "Rohan", "native": "खायचं काय?", "roman": "khāytsaṃ kāy?", "en": "What should I eat?" },
+      { "speaker": "Dr Gokhale", "native": "हलकं जेवण — खिचडी, वरण-भात. तेलकट, तिखट काही नको. आणि भरपूर पाणी प्या.", "roman": "halkaṃ jevaṇ — khichḍī, varaṇ-bhāt. telkaṭ, tikhaṭ kāhī nako. āṇi bharpūr pāṇī pyā.", "en": "Light food — khichdi, dal and rice. Nothing oily or spicy. And drink plenty of water." },
+      { "speaker": "Rohan", "native": "थँक्यू डॉक्टर. किती झाले?", "roman": "thæṅkyū ḍôkṭar. kitī dzhāle?", "en": "Thank you, doctor. How much do I owe you?" }
+    ]
+  },
+  "culture": "Most Maharashtrian families have a **फॅमिली डॉक्टर** with a small **दवाखाना** (clinic) in the neighbourhood: you walk in without an appointment, wait your turn, and often the doctor hands over the medicines in small paper packets with the schedule written on them, or writes **1-0-1** on the prescription. Chemists (called **मेडिकल**, as in *जवळचं मेडिकल कुठे आहे?*) will sell many medicines over the counter and are a first stop for small problems. Doctors are spoken of in the respectful plural: **डॉक्टर आले आहेत**, **डॉक्टरांनी सांगितलं**.\n\nThe monsoon brings a season of **व्हायरल** fever, dengue and malaria, so a fever that lasts more than two or three days usually means a blood test. Expect relatives to give advice too: **हळदीचं दूध** (milk with turmeric), गरम पाण्याच्या **गुळण्या** (salt-water gargles) and a strict **पथ्य** — no curd, nothing cold, nothing fried, and **मऊ भात** or **खिचडी** until you're better.\n\nWhen someone is in hospital, visiting is expected: people take fruit, sit for a while and ask **आता कसं वाटतंय?**. Most private hospitals in Pune and Mumbai deal with health insurance directly (**कॅशलेस**), but ask the desk before you're admitted.",
+  "lessons": [
+    {
+      "title": "Describing symptoms",
+      "tip": { "title": "Saying what's wrong", "body": "- Most symptoms happen *to* you (Unit 30): **मला** चक्कर **येते**, खाज **येतेय**, जुलाब **होतायत**.\n- Something that has appeared: **आलं / आली आहे**: पुरळ **आलंय**, सूज **आली आहे**.\n- The verb agrees with the symptom: चक्कर (f) येते, अशक्तपणा (m) आलाय.\n- Some are verbs in their own right: **मळमळतंय** 'I feel sick'.", "pattern": "मला + symptom + येतेय / होतंय / आलंय" },
+      "new": ["लक्षण", "चक्कर", "मळमळ", "जुलाब", "अशक्तपणा", "सूज", "खाज", "पुरळ", "मला चक्कर येतेय.", "मळमळतंय."],
+      "sentences": [
+        { "native": "सकाळी उठल्यावर मला चक्कर येते.", "roman": "sakāḷī uṭhlyāvar malā tsakkar yete.", "en": "I feel dizzy when I get up in the morning.", "focus": "येते", "wrong": ["येतो|yeto", "येतं|yetaṃ"] },
+        { "native": "काहीही खाल्लं की मळमळतं.", "roman": "kāhīhī khāllaṃ kī maḷmaḷtaṃ.", "en": "Whenever I eat anything I feel sick." },
+        { "native": "मुलाला जुलाब होतायत.", "roman": "mulālā dzulāb hotāyat.", "en": "My son has diarrhoea.", "focus": "होतायत", "wrong": ["होतोय|hotoy", "होते|hote"] },
+        { "native": "माझ्या पायाला सूज आली आहे.", "roman": "mājhyā pāyālā sūdz ālī āhe.", "en": "My foot has swollen up.", "focus": "आली", "wrong": ["आला|ālā", "आलं|ālaṃ"] },
+        { "native": "हातावर पुरळ आलंय आणि खूप खाज येतेय.", "roman": "hātāvar puraḷ ālaṃy āṇi khūp khādz yetey.", "en": "I've got a rash on my arm and it's really itchy.", "focus": "येतेय", "wrong": ["येतोय|yetoy", "येतंय|yetaṃy"] },
+        { "native": "तापानंतर खूप अशक्तपणा आलाय.", "roman": "tāpānantar khūp ashaktapaṇā ālāy.", "en": "I've been feeling very weak since the fever.", "focus": "आलाय", "wrong": ["आलीय|ālīy", "आलंय|ālaṃy"] },
+        { "native": "ही डेंग्यूची लक्षणं आहेत का?", "roman": "hī ḍeṅgyūchī lakṣaṇaṃ āhet kā?", "en": "Are these symptoms of dengue?" },
+        { "native": "बसमध्ये मला नेहमी मळमळतं.", "roman": "basmadhye malā nehmī maḷmaḷtaṃ.", "en": "I always feel sick on buses.", "focus": "मला", "wrong": ["मी|mī", "माझं|mādzhaṃ"] },
+        { "native": "माझ्या डोळ्यांना खाज येतेय.", "roman": "mājhyā ḍoḷyānnā khādz yetey.", "en": "My eyes are itchy.", "focus": "डोळ्यांना", "wrong": ["डोळे|ḍoḷe", "डोळ्याचा|ḍoḷyātsā"] }
+      ]
+    },
+    {
+      "title": "Saying since when",
+      "tip": { "title": "-पासून: for and since", "body": "- Still going on? Use the **present** + **-पासून**: दोन दिवसां**पासून** ताप **आहे** 'I've had a fever for two days'.\n- Time word in the oblique: दिवसांपासून, आठवड्यापासून, कालपासून, सकाळपासून.\n- Ask **कधीपासून?** or **किती दिवसांपासून?**\n- Or: ताप येऊन तीन दिवस **झाले** 'it's been three days since…'. 'Ago' is **-पूर्वी** + past.", "pattern": "time-पासून + present", "grammar": 0 },
+      "new": ["कधीपासून", "अंगदुखी", "कणकण", "काय त्रास होतोय?", "हे कधीपासून होतंय?", "दोन दिवसांपासून ताप आहे.", "अंगात कणकण आहे."],
+      "sentences": [
+        { "native": "मला कालपासून खोकला आहे.", "roman": "malā kālpāsūn khoklā āhe.", "en": "I've had a cough since yesterday.", "focus": "कालपासून", "wrong": ["कालपर्यंत|kālparyant", "काल|kāl"] },
+        { "native": "तुम्हाला किती दिवसांपासून ताप आहे?", "roman": "tumhālā kitī divasāmpāsūn tāp āhe?", "en": "How many days have you had a fever?", "focus": "आहे", "wrong": ["होता|hotā", "झाला|dzhālā"] },
+        { "native": "एका आठवड्यापासून पाठ दुखतेय.", "roman": "ekā āṭhavḍyāpāsūn pāṭh dukhtey.", "en": "My back has been hurting for a week.", "focus": "आठवड्यापासून", "wrong": ["आठवड्यापूर्वी|āṭhavḍyāpūrvī", "आठवडा|āṭhavḍā"] },
+        { "native": "सकाळपासून अंगदुखी आहे आणि थोडी कणकण पण.", "roman": "sakāḷpāsūn aṅgdukhī āhe āṇi thoḍī kaṇkaṇ paṇ.", "en": "Since this morning I've had body aches, and I'm a bit feverish too.", "focus": "सकाळपासून", "wrong": ["सकाळी|sakāḷī", "सकाळपर्यंत|sakāḷparyant"] },
+        { "native": "ही खाज कधीपासून येतेय?", "roman": "hī khādz kadhīpāsūn yetey?", "en": "How long have you had this itch?", "focus": "कधीपासून", "wrong": ["कधी|kadhī", "किती|kitī"] },
+        { "native": "जुलाब होऊन तीन दिवस झाले.", "roman": "dzulāb hoūn tīn divas dzhāle.", "en": "It's been three days since the diarrhoea started.", "focus": "झाले", "wrong": ["झाला|dzhālā", "होतात|hotāt"] },
+        { "native": "दोन दिवसांपूर्वी ताप आला होता, आता बरा आहे.", "roman": "don divasāmpūrvī tāp ālā hotā, ātā barā āhe.", "en": "I had a fever two days ago, now I’m fine. (man)", "focus": "दिवसांपूर्वी", "wrong": ["दिवसांपासून|divasāmpāsūn", "दिवस|divas"] },
+        { "native": "गेले दोन दिवस मी काहीच खाल्लं नाही.", "roman": "gele don divas mī kāhīts khāllaṃ nāhī.", "en": "I haven't eaten anything for the last two days.", "focus": "गेले", "wrong": ["गेला|gelā", "पुढचे|puḍhche"] },
+        { "native": "मी पाच वर्षांपासून पुण्यात राहतोय.", "roman": "mī pāts varṣāmpāsūn puṇyāt rāhtoy.", "en": "I've been living in Pune for five years. (man)", "focus": "राहतोय", "wrong": ["राहिलो|rāhilo", "राहणार|rāhṇār"] },
+        { "native": "बोला, काय त्रास होतोय? किती दिवसांपासून?", "roman": "bolā, kāy trās hotoy? kitī divasāmpāsūn?", "en": "Tell me, what's the trouble? For how many days?" }
+      ]
+    },
+    {
+      "title": "Allergies and conditions",
+      "new": ["ॲलर्जी", "बीपी", "शुगर", "रक्त", "तपासणी", "मला कशाचीही ॲलर्जी नाही.", "मला बीपीचा त्रास आहे.", "रक्ताची तपासणी करून घ्या."],
+      "sentences": [
+        { "native": "मला पेनिसिलीनची ॲलर्जी आहे.", "roman": "malā penisilīnchī ælarjī āhe.", "en": "I'm allergic to penicillin." },
+        { "native": "तिला दुधाची ॲलर्जी आहे.", "roman": "tilā dudhāchī ælarjī āhe.", "en": "She's allergic to milk." },
+        { "native": "माझ्या वडिलांना शुगर आहे, ते गोड खात नाहीत.", "roman": "mājhyā vaḍilānnā shugar āhe, te goḍ khāt nāhīt.", "en": "My father is diabetic, he doesn't eat sweets." },
+        { "native": "आजीचं बीपी वाढलंय.", "roman": "ājītsaṃ bīpī vāḍhlaṃy.", "en": "Grandma's blood pressure has gone up." },
+        { "native": "उद्या सकाळी रक्ताची तपासणी आहे.", "roman": "udyā sakāḷī raktāchī tapāsṇī āhe.", "en": "I've got a blood test tomorrow morning." },
+        { "native": "तपासणीचा रिपोर्ट कधी मिळेल?", "roman": "tapāsṇītsā riporṭ kadhī miḷel?", "en": "When will I get the test report?" },
+        { "native": "सगळे रिपोर्ट ठीक आहेत.", "roman": "sagḷe riporṭ ṭhīk āhet.", "en": "All the reports are fine." },
+        { "native": "जखमेतून रक्त येतंय.", "roman": "dzakhmetūn rakta yetaṃy.", "en": "The wound is bleeding." },
+        { "native": "तुम्हाला कुठल्या औषधाची ॲलर्जी आहे का?", "roman": "tumhālā kuṭhlyā aushadhāchī ælarjī āhe kā?", "en": "Are you allergic to any medicine?" }
+      ]
+    },
+    {
+      "title": "Taking your medicine",
+      "tip": { "title": "Instructions: घ्या, घ्यायची, -ऊ नका", "body": "- Polite command: ही गोळी **घ्या**, आराम **करा**.\n- 'Is to be taken': stem + **आयचा / आयची / आयचं**, agreeing with the medicine: गोळी घ्याय**ची**, सिरप घ्याय**चं**.\n- Don't: stem + ऊ **नका**: थंड पाणी पिऊ **नका**.\n- How often: दिवसातून **दोनदा**, **दर** सहा तासांनी, जेवणा**नंतर**.", "pattern": "medicine + घ्यायची / घ्यायचं / घ्यायचा", "grammar": 1 },
+      "new": [
+        "डोस",
+        "दोनदा",
+        "दर",
+        "उपाशीपोटी",
+        "मलम",
+        "ही गोळी दिवसातून दोनदा, जेवणानंतर घ्यायची.",
+        "उपाशीपोटी घ्यायची नाही."
+      ],
+      "sentences": [
+        { "native": "ही गोळी सकाळी उपाशीपोटी घ्यायची.", "roman": "hī goḷī sakāḷī upāshīpoṭī ghyāychī.", "en": "This tablet is to be taken in the morning on an empty stomach.", "focus": "घ्यायची", "wrong": ["घ्यायचा|ghyāytsā", "घ्यायचं|ghyāytsaṃ"] },
+        { "native": "हे सिरप दिवसातून दोनदा घ्यायचं.", "roman": "he sirap divasātūn dondā ghyāytsaṃ.", "en": "This syrup is to be taken twice a day.", "focus": "घ्यायचं", "wrong": ["घ्यायची|ghyāychī", "घ्यायचा|ghyāytsā"] },
+        { "native": "दर आठ तासांनी एक गोळी घ्या.", "roman": "dar āṭh tāsānnī ek goḷī ghyā.", "en": "Take one tablet every eight hours.", "focus": "तासांनी", "wrong": ["तास|tās", "तासांत|tāsānt"] },
+        { "native": "एकही डोस चुकवायचा नाही.", "roman": "ekhī ḍos tsukvāytsā nāhī.", "en": "Don't miss a single dose.", "focus": "चुकवायचा", "wrong": ["चुकवायची|tsukvāychī", "चुकवायचं|tsukvāytsaṃ"] },
+        { "native": "औषध पाच दिवस घ्या, मध्येच बंद करू नका.", "roman": "aushadh pāts divas ghyā, madhyets band karū nakā.", "en": "Take the medicine for five days, don't stop halfway.", "focus": "नका", "wrong": ["नाही|nāhī", "नकोस|nakos"] },
+        { "native": "ही गोळी घेतल्यावर गाडी चालवू नका.", "roman": "hī goḷī ghetlyāvar gāḍī tsālavū nakā.", "en": "Don't drive after taking this tablet.", "focus": "चालवू", "wrong": ["चालव|tsālav", "चालवतो|tsālavto"] },
+        { "native": "हे मलम दिवसातून तीनदा लावायचं.", "roman": "he malam divasātūn tīndā lāvāytsaṃ.", "en": "Apply this ointment three times a day.", "focus": "लावायचं", "wrong": ["लावायची|lāvāychī", "लावतो|lāvto"] },
+        { "native": "जेवणाआधी की जेवणानंतर?", "roman": "jevaṇāādhī kī jevaṇānantar?", "en": "Before or after food?" },
+        { "native": "डॉक्टरांनी दिवसातून दोनदा सांगितलं आहे.", "roman": "ḍôkṭarānnī divasātūn dondā sāṅgitlaṃ āhe.", "en": "The doctor said twice a day." }
+      ]
+    },
+    {
+      "title": "Diet and getting better",
+      "new": ["पथ्य", "पाळणे", "तेलकट", "तेलकट, तिखट खाऊ नका.", "आता कसं वाटतंय?"],
+      "sentences": [
+        { "native": "डॉक्टरांनी पथ्य सांगितलं आहे.", "roman": "ḍôkṭarānnī pathya sāṅgitlaṃ āhe.", "en": "The doctor has put me on a strict diet." },
+        { "native": "पथ्य नीट पाळा, नाहीतर ताप परत येईल.", "roman": "pathya nīṭ pāḷā, nāhītar tāp parat yeīl.", "en": "Stick to the diet properly, or the fever will come back." },
+        { "native": "आठवडाभर तेलकट काही खायचं नाही.", "roman": "āṭhavḍābhar telkaṭ kāhī khāytsaṃ nāhī.", "en": "Nothing oily for a whole week." },
+        { "native": "आज वडापाव नाही, तुला पथ्य आहे!", "roman": "ādz vaḍāpāv nāhī, tulā pathya āhe!", "en": "No vada pav today, you're on a diet!" },
+        { "native": "आता कसं वाटतंय? ताप उतरला का?", "roman": "ātā kasaṃ vāṭtaṃy? tāp utarlā kā?", "en": "How are you feeling now? Has the fever come down?" },
+        { "native": "आता खूप बरं वाटतंय, धन्यवाद.", "roman": "ātā khūp baraṃ vāṭtaṃy, dhanyavād.", "en": "I'm feeling much better now, thank you." },
+        { "native": "भरपूर पाणी प्या आणि आराम करा.", "roman": "bharpūr pāṇī pyā āṇi ārām karā.", "en": "Drink plenty of water and rest." },
+        { "native": "बाहेरचं खाऊ नका, घरचं जेवण जेवा.", "roman": "bāhertsaṃ khāū nakā, ghartsaṃ jevaṇ jevā.", "en": "Don't eat out, eat home food." },
+        { "native": "मी सगळे नियम पाळतो, पण गोड सोडता येत नाही!", "roman": "mī sagḷe niyam pāḷto, paṇ goḍ soḍtā yet nāhī!", "en": "I follow all the rules, but I can't give up sweets!" }
+      ]
+    },
+    {
+      "title": "Appointments and the hospital",
+      "new": ["अपॉइंटमेंट", "इंजेक्शन", "सलाईन", "ॲडमिट", "ऑपरेशन", "विमा", "डॉक्टरांची अपॉइंटमेंट मिळेल का?", "त्याला ॲडमिट केलंय."],
+      "sentences": [
+        { "native": "उद्या संध्याकाळची अपॉइंटमेंट मिळाली.", "roman": "udyā sandhyākāḷchī apôiṇṭmeṇṭ miḷālī.", "en": "I got an appointment for tomorrow evening." },
+        { "native": "डॉक्टर किती वाजता बसतात?", "roman": "ḍôkṭar kitī vādztā bastāt?", "en": "What time does the doctor see patients?" },
+        { "native": "आजोबांना कालपासून ॲडमिट केलं आहे.", "roman": "ādzobānnā kālpāsūn æḍmiṭ kelaṃ āhe.", "en": "Grandpa has been in hospital since yesterday." },
+        { "native": "त्याला सलाईन लावलंय, आता बरा आहे.", "roman": "tyālā salāīn lāvlaṃy, ātā barā āhe.", "en": "He's on a drip, he's better now." },
+        { "native": "इंजेक्शन दुखणार नाही ना?", "roman": "iñjekshan dukhṇār nāhī nā?", "en": "The injection won't hurt, will it?" },
+        { "native": "पुढच्या आठवड्यात आईचं ऑपरेशन आहे.", "roman": "puḍhchyā āṭhavḍyāt āītsaṃ ôpareshan āhe.", "en": "Mum's having an operation next week." },
+        { "native": "तुमच्याकडे विमा आहे का?", "roman": "tumchyākaḍe vimā āhe kā?", "en": "Do you have insurance?" },
+        { "native": "विम्यामुळे हॉस्पिटलचं बिल कमी झालं.", "roman": "vimyāmuḷe hôspiṭaltsaṃ bil kamī dzhālaṃ.", "en": "Thanks to the insurance, the hospital bill came down." },
+        { "native": "हॉस्पिटलमध्ये भेटायला कधी येऊ?", "roman": "hôspiṭalmadhye bheṭāylā kadhī yeū?", "en": "When can I come and visit you in hospital?" }
+      ]
+    }
+  ]
+}

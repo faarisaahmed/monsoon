@@ -1,0 +1,183 @@
+{
+  "id": 23,
+  "title": "Around town: autos, cabs & the metro",
+  "goal": "Get an auto to go by the meter, tell a driver where to turn and stop, book a cab or a bike taxi, ask how long a trip takes and survive the Mumbai local and the metro.",
+  "intro": "Pune and Mumbai run on autos, app cabs, bike taxis, the metro and — in Mumbai — the famous **local** trains. This unit gives you the lines you need every day: **कोथरूडला येणार का?**, **मीटर टाका**, **पुढच्या सिग्नलवरून डावीकडे घ्या**, **इथेच थांबवा**, and on a packed train, **उतरणार का?**\n\nThe grammar is the grammar of getting things done: driver instructions with **घ्या, थांबवा, सोडा**, Marathi's **compound verbs** (बुक करून **टाक** 'just book it', तिकीट काढून **घे** 'get yourself a ticket', सोडून **दे** 'drop me'), and **लागणे** for how long or how much a trip takes.",
+  "vocab": [
+    { "native": "मीटर", "roman": "mīṭar", "en": "meter (in an auto or taxi)", "pos": "noun", "note": "m · मीटरने चला 'go by the meter'; मीटर टाका 'put the meter on'" },
+    { "native": "रिक्षावाला", "roman": "rikṣāvālā", "en": "auto driver", "pos": "noun", "note": "m · pl रिक्षावाले. Addressed as दादा, भाऊ, काका (Pune also मामा)." },
+    { "native": "किलोमीटर", "roman": "kilomīṭar", "en": "kilometre", "pos": "noun", "note": "m" },
+    { "native": "थांबवणे", "roman": "thāmbavṇe", "en": "to stop (a vehicle, something)", "pos": "verb", "note": "Causative of थांबणे: इथे थांबवा 'stop (the car) here'" },
+    { "native": "गल्ली", "roman": "gallī", "en": "lane, side street", "pos": "noun", "note": "f · पहिल्या गल्लीत 'in(to) the first lane'" },
+    { "native": "कोपरा", "roman": "koprā", "en": "corner", "pos": "noun", "note": "m · कोपऱ्यावर 'at the corner'" },
+    { "native": "वळण", "roman": "vaḷaṇ", "en": "turn, bend", "pos": "noun", "note": "n · वळणावर 'at the turn'" },
+    { "native": "यू-टर्न", "roman": "yū-ṭarn", "en": "U-turn", "pos": "noun", "note": "m · यू-टर्न घ्या 'take a U-turn'" },
+    { "native": "पलीकडे", "roman": "palīkaḍe", "en": "on the other side (of), across", "pos": "adv", "note": "रस्त्याच्या पलीकडे 'across the road'; this side: अलीकडे" },
+    { "native": "कॅब", "roman": "kæb", "en": "cab (booked on an app)", "pos": "noun", "note": "f · like गाडी" },
+    { "native": "ॲप", "roman": "æp", "en": "app", "pos": "noun", "note": "n · ॲपवर 'on the app'" },
+    { "native": "बुक", "roman": "buk", "en": "booked", "pos": "adj", "note": "बुक करणे 'to book'; बुक झाली 'it's booked'" },
+    { "native": "ओटीपी", "roman": "oṭīpī", "en": "OTP (the code you give a cab driver)", "pos": "noun", "note": "m" },
+    { "native": "बाईक", "roman": "bāīk", "en": "motorbike; bike taxi", "pos": "noun", "note": "f" },
+    { "native": "ड्रायव्हर", "roman": "ḍrāyvhar", "en": "driver", "pos": "noun", "note": "m · addressed as दादा / भाऊ" },
+    { "native": "टाकणे", "roman": "ṭākṇe", "en": "to put, throw; (after -ऊन) to get it done", "pos": "verb", "note": "मीटर टाका 'put the meter on'; करून टाक 'just do it'" },
+    { "native": "जवळपास", "roman": "dzavaḷpās", "en": "about, roughly; nearby", "pos": "adv", "note": "जवळपास अर्धा तास 'about half an hour'" },
+    { "native": "अंतर", "roman": "antar", "en": "distance", "pos": "noun", "note": "n · अंतर किती आहे? 'how far is it?'" },
+    { "native": "स्टॉप", "roman": "sṭôp", "en": "stop (bus or metro)", "pos": "noun", "note": "m · बस स्टॉप" },
+    { "native": "शेवटचा", "roman": "shevaṭtsā", "en": "last, final", "pos": "adj", "note": "f शेवटची, n शेवटचं · शेवटची लोकल" },
+    { "native": "पास", "roman": "pās", "en": "season ticket, pass", "pos": "noun", "note": "m · महिन्याचा पास 'monthly pass'" },
+    { "native": "लोकल", "roman": "lokal", "en": "local train (Mumbai)", "pos": "noun", "note": "f · लोकल पकडली / चुकली 'caught / missed the local'" },
+    { "native": "मेट्रो", "roman": "meṭro", "en": "metro", "pos": "noun", "note": "f · मेट्रोने 'by metro'" },
+    { "native": "लाइन", "roman": "lāin", "en": "line (metro / train line); queue", "pos": "noun", "note": "f · हार्बर लाइन, वेस्टर्न लाइन; लाइनमध्ये 'in the queue'" },
+    { "native": "गर्दी", "roman": "gardī", "en": "crowd, rush", "pos": "noun", "note": "f · खूप गर्दी आहे 'it's packed'" },
+    { "native": "डबा", "roman": "ḍabā", "en": "train compartment; lunch box", "pos": "noun", "note": "m · लेडीज डबा 'ladies' compartment'" },
+    { "native": "फास्ट", "roman": "fāsṭ", "en": "fast (train that skips stations)", "pos": "adj", "note": "The opposite is स्लो: फास्ट लोकल / स्लो लोकल" },
+    { "native": "पकडणे", "roman": "pakaḍṇe", "en": "to catch (a train, bus); to hold", "pos": "verb" }
+  ],
+  "phrases": [
+    { "native": "भाऊ, डेक्कनला चलणार का?", "roman": "bhāū, ḍekkanlā tsalṇār kā?", "en": "Will you go to Deccan? (to an auto driver, Pune)", "note": "Also: … येणार का?" },
+    { "native": "मीटर टाका.", "roman": "mīṭar ṭākā.", "en": "Put the meter on, please." },
+    { "native": "भाडं किती होईल?", "roman": "bhāḍaṃ kitī hoīl?", "en": "What will the fare be?" },
+    { "native": "खूप जास्त सांगताय!", "roman": "khūp dzāst sāṅgtāy!", "en": "That's way too much! (lit. you're asking too much)" },
+    { "native": "इथेच थांबवा.", "roman": "ithets thāmbavā.", "en": "Stop right here." },
+    { "native": "पुढच्या सिग्नलवरून डावीकडे घ्या.", "roman": "puḍhchyā signalvarūn ḍāvīkaḍe ghyā.", "en": "Turn left at the next signal." },
+    { "native": "पुढे यू-टर्न घ्या.", "roman": "puḍhe yū-ṭarn ghyā.", "en": "Take a U-turn up ahead." },
+    { "native": "मला स्टेशनला सोडा.", "roman": "malā sṭeshanlā soḍā.", "en": "Drop me at the station." },
+    { "native": "ओटीपी सांगा.", "roman": "oṭīpī sāṅgā.", "en": "Tell me the OTP, please. (what the cab driver says)" },
+    { "native": "कॅब बुक करू का?", "roman": "kæb buk karū kā?", "en": "Shall I book a cab?" },
+    { "native": "किती वेळ लागेल?", "roman": "kitī veḷ lāgel?", "en": "How long will it take?" },
+    { "native": "पुढचं स्टेशन कोणतं?", "roman": "puḍhtsaṃ sṭeshan koṇtaṃ?", "en": "What's the next station?" },
+    { "native": "ही लोकल दादरला थांबते का?", "roman": "hī lokal dādarlā thāmbte kā?", "en": "Does this local stop at Dadar?" },
+    { "native": "आत चला, आत!", "roman": "āt tsalā, āt!", "en": "Move in, move in! (in a packed bus or train)" },
+    { "native": "पुढच्या स्टेशनला उतरणार का?", "roman": "puḍhchyā sṭeshanlā utarṇār kā?", "en": "Are you getting off at the next station?", "note": "Ask the person in front of you so you can get to the door in time." }
+  ],
+  "grammar": [
+    {
+      "title": "Telling the driver, and compound verbs: करून टाक, काढून घे, सोडून दे",
+      "body": "**Directing a driver.** Use the polite **-आ** form, even to an auto driver: **घ्या** 'take (a turn)': डावीकडे घ्या, यू-टर्न घ्या, **पुढे घ्या** 'go on a bit', **बाजूला घ्या** 'pull over'; **थांबवा** 'stop (the vehicle)'; **सोडा** 'drop (me)': मला इथे सोडा. **थांबवा** is the causative of थांबणे — 'make it stop'. Plain **थांबा** also works, but it really means 'wait'.\n\n**Compound verbs.** Marathi often puts the main verb in the **-ऊन** form and adds a second, 'helper' verb that colours the action:\n\n**-ऊन टाकणे** — get it done, just do it (completely): कॅब बुक **करून टाक** 'just book a cab'; पैसे **देऊन टाक** 'just pay (and be done)'.\n**-ऊन घेणे** — do it for yourself: तिकीट **काढून घे** 'get yourself a ticket'; नीट **बघून घ्या** 'check properly (for your own good)'.\n**-ऊन देणे** — do it for someone else: मला **सोडून दे** 'drop me (do me that favour)'.\n\nOnly the helper verb changes for person and tense: करून टाकतो, करून टाकलं.\n\nThe trap: the helper verbs lose their own meaning here. **काढून घे** isn't 'take out and take', and **सोडून दे** can also mean 'give up, forget about it' — context decides.",
+      "examples": [
+        { "native": "इथे बाजूला थांबवा.", "roman": "ithe bādzūlā thāmbavā.", "en": "Pull over here." },
+        { "native": "इथून उजवीकडे घ्या.", "roman": "ithūn udzvīkaḍe ghyā.", "en": "Turn right from here." },
+        { "native": "मी कॅब बुक करून टाकते.", "roman": "mī kæb buk karūn ṭākte.", "en": "I'll just book a cab. (woman)" },
+        { "native": "आधी तिकीट काढून घे.", "roman": "ādhī tikīṭ kāḍhūn ghe.", "en": "Get yourself a ticket first." },
+        { "native": "मला मेट्रो स्टेशनला सोडून द्या.", "roman": "malā meṭro sṭeshanlā soḍūn dyā.", "en": "Please drop me at the metro station." }
+      ]
+    },
+    {
+      "title": "It takes (time, money): लागणे",
+      "body": "English 'it takes an hour' is **लागणे** in Marathi. The **time or money is the subject**, and the person, if mentioned, takes **-ला**:\n\n**मला** अर्धा तास **लागला** 'it took me half an hour' (lit. 'to me half an hour was needed').\n\nSo लागणे agrees with the time: **एक तास लागतो** (m sg), **दोन तास लागतात** (pl), **वीस मिनिटं लागतात** (n pl), **खूप वेळ लागला**. Future: **लागेल** (one thing) / **लागतील** (several): किती वेळ लागेल? · किती पैसे लागतील?\n\n**For doing something**: verb + **-आयला**: इथे **यायला** दोन तास लागले 'it took two hours to get here'.\n\n**From… to…**: X**-हून** / X**-पासून** … Y**-ला** / Y**-पर्यंत**: पुण्याहून मुंबईला. **About**: **जवळपास** or **साधारण**. **How far**: किती लांब आहे? / अंतर किती आहे?\n\nThe trap: don't translate 'take' with घेणे. *मी अर्धा तास घेतला* is wrong; say **मला अर्धा तास लागला**.",
+      "examples": [
+        { "native": "पुण्याहून मुंबईला जवळपास तीन तास लागतात.", "roman": "puṇyāhūn mumbaīlā dzavaḷpās tīn tās lāgtāt.", "en": "It takes about three hours from Pune to Mumbai." },
+        { "native": "मेट्रोने वीस मिनिटं लागतील.", "roman": "meṭrone vīs miniṭaṃ lāgtīl.", "en": "By metro it'll take twenty minutes." },
+        { "native": "मला ऑफिसला पोहोचायला एक तास लागला.", "roman": "malā ôfislā pohotsāylā ek tās lāglā.", "en": "It took me an hour to get to the office." },
+        { "native": "रिक्षाला किती पैसे लागतील?", "roman": "rikṣālā kitī paise lāgtīl?", "en": "How much will an auto cost?" },
+        { "native": "अंतर फक्त दोन किलोमीटर आहे.", "roman": "antar phakta don kilomīṭar āhe.", "en": "It's only two kilometres away." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "An auto to Kothrud",
+    "setting": "Pune, outside Pune railway station in the evening rush. Meera, a student, stops an auto.",
+    "lines": [
+      { "speaker": "Meera", "native": "काका, कोथरूडला येणार का?", "roman": "kākā, kothrūḍlā yeṇār kā?", "en": "Will you go to Kothrud?" },
+      { "speaker": "Driver", "native": "कोथरूड? तीनशे होतील.", "roman": "kothrūḍ? tīnshe hotīl.", "en": "Kothrud? That'll be three hundred." },
+      { "speaker": "Meera", "native": "तीनशे? खूप जास्त सांगताय! मीटर टाका ना.", "roman": "tīnshe? khūp dzāst sāṅgtāy! mīṭar ṭākā nā.", "en": "Three hundred? That's way too much! Put the meter on, please." },
+      { "speaker": "Driver", "native": "या वेळी ट्रॅफिक असतं, ताई. बरं, बसा, मीटरने चलतो.", "roman": "yā veḷī ṭræfik astaṃ, tāī. baraṃ, basā, mīṭarne tsalto.", "en": "There's traffic at this time, miss. OK, get in, I'll go by the meter." },
+      { "speaker": "Meera", "native": "किती वेळ लागेल?", "roman": "kitī veḷ lāgel?", "en": "How long will it take?" },
+      { "speaker": "Driver", "native": "जवळपास अर्धा तास. कर्वे रोडने जाऊ का?", "roman": "dzavaḷpās ardhā tās. karve roḍne dzāū kā?", "en": "About half an hour. Shall I go by Karve Road?" },
+      { "speaker": "Meera", "native": "हो, चालेल. काका, पुढच्या सिग्नलवरून उजवीकडे घ्या.", "roman": "ho, tsālel. kākā, puḍhchyā signalvarūn udzvīkaḍe ghyā.", "en": "Yes, fine. (later) Uncle, turn right at the next signal." },
+      { "speaker": "Driver", "native": "इथे? पण इथे नो एंट्री आहे.", "roman": "ithe? paṇ ithe no enṭrī āhe.", "en": "Here? But it's no entry here." },
+      { "speaker": "Meera", "native": "अरे हो! मग पुढे यू-टर्न घ्या आणि पहिल्या गल्लीत वळा.", "roman": "are ho! mag puḍhe yū-ṭarn ghyā āṇi pahilyā gallīt vaḷā.", "en": "Oh yes! Then take a U-turn up ahead and turn into the first lane." },
+      { "speaker": "Driver", "native": "ही गल्ली? कोणती बिल्डिंग?", "roman": "hī gallī? koṇtī bilḍiṅg?", "en": "This lane? Which building?" },
+      { "speaker": "Meera", "native": "बस, बस, इथेच थांबवा. किती झाले?", "roman": "bas, bas, ithets thāmbavā. kitī dzhāle?", "en": "That's it, stop right here. How much is it?" },
+      { "speaker": "Driver", "native": "एकशे ऐंशी.", "roman": "ekshe aiṃshī.", "en": "A hundred and eighty." },
+      { "speaker": "Meera", "native": "हे घ्या दोनशे. सुटे वीस आहेत का?", "roman": "he ghyā donshe. suṭe vīs āhet kā?", "en": "Here, two hundred. Have you got twenty change?" },
+      { "speaker": "Driver", "native": "हो, हे घ्या. सावकाश जा.", "roman": "ho, he ghyā. sāvkāsh dzā.", "en": "Yes, here you go. Take care." }
+    ]
+  },
+  "culture": "Pune auto drivers are notorious for quoting a flat price or refusing short trips, so **मीटर टाका** and **मीटरने चला** are worth practising; at night (midnight to 5 am) a higher night fare is legal. People call drivers **दादा** or **भाऊ**, and in Pune often **काका** or even **मामा**; drivers call young women **ताई** and older people **काका / मावशी**. In Mumbai, autos don't run in the south of the city — there you take the black-and-yellow **काळी-पिवळी** taxis or a cab. App cabs and bike taxis (Ola, Uber, Rapido) are everywhere; the driver will call and ask **कुठे आहात?** and then **ओटीपी सांगा**. The Mumbai **local** is its own world: know whether your train is **फास्ट** or **स्लो**, which line (वेस्टर्न, सेंट्रल, हार्बर) you're on, and that women have their own **लेडीज डबा**. Before your station, ask the person ahead **उतरणार का?** and swap places — standing at the door when you're not getting off earns you a loud **आत चला!** Pune and Mumbai both now have metro lines, which are clean, air-conditioned and much calmer.",
+  "lessons": [
+    {
+      "title": "Taking an auto",
+      "tip": { "title": "Getting an auto to go", "body": "- Ask **X-ला येणार का? / चलणार का?** 'will you go to X?' — the place takes **-ला**.\n- Insist on the meter: **मीटर टाका**, **मीटरने चला**.\n- Use the polite **-आ** form with drivers (टाका, चला, थांबवा) and call them **दादा, भाऊ** or **काका**.\n- Too much? **खूप जास्त सांगताय!**" },
+      "new": ["मीटर", "रिक्षावाला", "किलोमीटर", "भाऊ, डेक्कनला चलणार का?", "मीटर टाका.", "भाडं किती होईल?", "खूप जास्त सांगताय!"],
+      "sentences": [
+        { "native": "काका, स्टेशनला येणार का?", "roman": "kākā, sṭeshanlā yeṇār kā?", "en": "Will you go to the station?", "focus": "स्टेशनला", "wrong": ["स्टेशनमध्ये|sṭeshanmadhye", "स्टेशनचा|sṭeshantsā"] },
+        { "native": "हा रिक्षावाला मीटरने येत नाहीये.", "roman": "hā rikṣāvālā mīṭarne yet nāhīye.", "en": "This auto driver won't go by the meter." },
+        { "native": "दादा, मीटर टाका ना.", "roman": "dādā, mīṭar ṭākā nā.", "en": "Please put the meter on.", "focus": "टाका", "wrong": ["टाक|ṭāk", "टाकलं|ṭāklaṃ"] },
+        { "native": "फक्त तीन किलोमीटर आहे, दीडशे खूप जास्त आहेत.", "roman": "phakta tīn kilomīṭar āhe, dīḍshe khūp dzāst āhet.", "en": "It's only three kilometres, a hundred and fifty is far too much." },
+        { "native": "मीटरने चला, नाहीतर मी दुसरी रिक्षा घेते.", "roman": "mīṭarne tsalā, nāhītar mī dusrī rikṣā ghete.", "en": "Go by the meter, or I'll take another auto. (woman)", "focus": "चला", "wrong": ["चल|tsal", "चलतो|tsalto"] },
+        { "native": "भाऊ, कोथरूडला चलणार का?", "roman": "bhāū, kothrūḍlā tsalṇār kā?", "en": "Will you go to Kothrud?", "focus": "कोथरूडला", "wrong": ["कोथरूडमध्ये|kothrūḍmadhye", "कोथरूडचा|kothrūḍtsā"] },
+        { "native": "रात्री भाडं जास्त होतं का?", "roman": "rātrī bhāḍaṃ dzāst hotaṃ kā?", "en": "Is the fare higher at night?" },
+        { "native": "दोनशे नको, दीडशे देते.", "roman": "donshe nako, dīḍshe dete.", "en": "Not two hundred — I'll give you a hundred and fifty. (woman)" },
+        { "native": "मुंबईत रिक्षावाले मीटरनेच जातात.", "roman": "mumbaīt rikṣāvāle mīṭarnets dzātāt.", "en": "In Mumbai auto drivers always go by the meter." }
+      ]
+    },
+    {
+      "title": "Telling the driver where to go",
+      "tip": { "title": "घ्या, थांबवा, सोडा", "body": "- Turn: **डावीकडे / उजवीकडे घ्या**, **यू-टर्न घ्या**, **पुढे घ्या** 'go on a bit'.\n- Stop: **थांबवा** 'stop (the vehicle)' — the causative of थांबणे.\n- Drop: **मला इथे सोडा**.\n- 'At the signal / corner': **सिग्नलवरून**, **कोपऱ्यावर**.", "pattern": "डावीकडे घ्या · इथेच थांबवा · मला इथे सोडा", "grammar": 0 },
+      "new": ["थांबवणे", "गल्ली", "कोपरा", "वळण", "यू-टर्न", "पलीकडे", "इथेच थांबवा.", "पुढच्या सिग्नलवरून डावीकडे घ्या.", "पुढे यू-टर्न घ्या.", "मला स्टेशनला सोडा."],
+      "sentences": [
+        { "native": "पुढच्या कोपऱ्यावर थांबवा.", "roman": "puḍhchyā kopryāvar thāmbavā.", "en": "Stop at the next corner.", "focus": "थांबवा", "wrong": ["थांबवलं|thāmbavlaṃ", "थांबवतो|thāmbavto"] },
+        { "native": "दुसऱ्या गल्लीत डावीकडे घ्या.", "roman": "dusryā gallīt ḍāvīkaḍe ghyā.", "en": "Turn left into the second lane.", "focus": "घ्या", "wrong": ["घे|ghe", "घेतलं|ghetlaṃ"] },
+        { "native": "वळणावर हळू चालवा.", "roman": "vaḷṇāvar haḷū tsālavā.", "en": "Go slowly round the bend.", "focus": "चालवा", "wrong": ["चालव|tsālav", "चालवलं|tsālavlaṃ"] },
+        { "native": "मॉल रस्त्याच्या पलीकडे आहे, यू-टर्न घ्यावा लागेल.", "roman": "môl rastyāchyā palīkaḍe āhe, yū-ṭarn ghyāvā lāgel.", "en": "The mall's across the road, you'll have to take a U-turn." },
+        { "native": "मला त्या कोपऱ्यावर सोडा.", "roman": "malā tyā kopryāvar soḍā.", "en": "Drop me at that corner.", "focus": "सोडा", "wrong": ["सोड|soḍ", "सोडलं|soḍlaṃ"] },
+        { "native": "आम्हाला गेटजवळ सोडून द्या.", "roman": "āmhālā geṭdzavaḷ soḍūn dyā.", "en": "Drop us near the gate, please.", "focus": "द्या", "wrong": ["घ्या|ghyā", "टाका|ṭākā"] },
+        { "native": "इथेच थांबवा, मी चालत जाते.", "roman": "ithets thāmbavā, mī tsālat dzāte.", "en": "Stop right here, I'll walk. (woman)" },
+        { "native": "सिग्नलच्या पलीकडे थांबवा.", "roman": "signalchyā palīkaḍe thāmbavā.", "en": "Stop just past the signal.", "focus": "पलीकडे", "wrong": ["आत|āt", "खाली|khālī"] },
+        { "native": "पुढे घ्या, अजून थोडं पुढे.", "roman": "puḍhe ghyā, adzūn thoḍaṃ puḍhe.", "en": "Go on, a bit further." },
+        { "native": "मी पैसे देऊन टाकते, तू सामान घे.", "roman": "mī paise deūn ṭākte, tū sāmān ghe.", "en": "I'll just pay, you grab the bags. (woman)", "focus": "टाकते", "wrong": ["घेते|ghete", "टाकलं|ṭāklaṃ"] }
+      ]
+    },
+    {
+      "title": "Booking a cab or a bike",
+      "tip": { "title": "करून टाक, बघून घे, सोडून दे", "body": "- Add a helper verb to the **-ऊन** form: **करून टाक** 'just do it', **बघून घे** 'check it (for yourself)', **सोडून दे** 'drop me (for me)'.\n- Only the helper changes: करून टाकतो, करून टाकलं.\n- App words take **करणे**: कॅब **बुक कर**, **ओटीपी सांग**.", "pattern": "stem-ऊन + टाक / घे / दे", "grammar": 0 },
+      "new": ["कॅब", "ॲप", "बुक", "ओटीपी", "बाईक", "ड्रायव्हर", "टाकणे", "ओटीपी सांगा.", "कॅब बुक करू का?"],
+      "sentences": [
+        { "native": "कॅब बुक करून टाक, उशीर होतोय.", "roman": "kæb buk karūn ṭāk, ushīr hotoy.", "en": "Just book a cab, we're getting late.", "focus": "टाक", "wrong": ["टाकलं|ṭāklaṃ", "टाकतो|ṭākto"] },
+        { "native": "ॲपवर बाईक स्वस्त पडते.", "roman": "æpvar bāīk svasta paḍte.", "en": "A bike taxi works out cheaper on the app." },
+        { "native": "ड्रायव्हरला ओटीपी सांगितला का?", "roman": "ḍrāyvharlā oṭīpī sāṅgitlā kā?", "en": "Did you give the driver the OTP?", "focus": "ड्रायव्हरला", "wrong": ["ड्रायव्हरने|ḍrāyvharne", "ड्रायव्हरचा|ḍrāyvhartsā"] },
+        { "native": "ड्रायव्हरने कॅब कॅन्सल केली!", "roman": "ḍrāyvharne kæb kænsal kelī!", "en": "The driver cancelled the cab!" },
+        { "native": "सामान नीट बघून घ्या, काही विसरू नका.", "roman": "sāmān nīṭ baghūn ghyā, kāhī visarū nakā.", "en": "Check your things properly, don't forget anything.", "focus": "बघून", "wrong": ["बघितलं|baghitlaṃ", "बघतो|baghto"] },
+        { "native": "ड्रायव्हर म्हणतोय की तो पाच मिनिटांत पोहोचतो.", "roman": "ḍrāyvhar mhaṇtoy kī to pāts miniṭānt pohotsto.", "en": "The driver says he'll be here in five minutes." },
+        { "native": "मी बाईक बुक करते, कॅबपेक्षा लवकर पोहोचेन.", "roman": "mī bāīk buk karte, kæbpekṣā lavkar pohotsen.", "en": "I'll book a bike, I'll get there quicker than by cab. (woman)" },
+        { "native": "कॅब बुक करू का, की रिक्षा घेऊया?", "roman": "kæb buk karū kā, kī rikṣā gheūyā?", "en": "Shall I book a cab, or shall we get an auto?" },
+        { "native": "हे पैसे ठेवून घ्या, सुटे नकोत.", "roman": "he paise ṭhevūn ghyā, suṭe nakot.", "en": "Keep the money, no change needed.", "focus": "घ्या", "wrong": ["घेतलं|ghetlaṃ", "घेतो|gheto"] },
+        { "native": "मला स्टेशनपर्यंत सोडून दे ना.", "roman": "malā sṭeshanparyant soḍūn de nā.", "en": "Drop me at the station, will you? (to a friend)", "focus": "दे", "wrong": ["घे|ghe", "टाक|ṭāk"] }
+      ]
+    },
+    {
+      "title": "How long does it take?",
+      "tip": { "title": "लागणे — it takes", "body": "- The time is the subject: **एक तास लागतो**, **दहा मिनिटं लागतात**; the person takes -ला: **मला** दोन तास **लागले**.\n- Future: **लागेल** (one) / **लागतील** (several).\n- 'To do it': **-आयला**: इथे **यायला** किती वेळ लागतो?\n- Never घेणे for 'take time'.", "pattern": "(मला) + time + लागतो / लागतात / लागला", "grammar": 1 },
+      "new": ["जवळपास", "अंतर", "स्टॉप", "शेवटचा", "पास", "किती वेळ लागेल?", "पुढचं स्टेशन कोणतं?"],
+      "sentences": [
+        { "native": "बसने जवळपास एक तास लागतो.", "roman": "basne dzavaḷpās ek tās lāgto.", "en": "By bus it takes about an hour.", "focus": "लागतो", "wrong": ["लागतात|lāgtāt", "लागते|lāgte"] },
+        { "native": "चालत दहा मिनिटं लागतात.", "roman": "tsālat dahā miniṭaṃ lāgtāt.", "en": "It's a ten-minute walk.", "focus": "लागतात", "wrong": ["लागतो|lāgto", "लागतं|lāgtaṃ"] },
+        { "native": "मला इथे यायला दोन तास लागले!", "roman": "malā ithe yāylā don tās lāgle!", "en": "It took me two hours to get here!", "focus": "लागले", "wrong": ["लागला|lāglā", "लागली|lāglī"] },
+        { "native": "शेवटच्या स्टॉपपर्यंत किती वेळ लागेल?", "roman": "shevaṭchyā sṭôpparyant kitī veḷ lāgel?", "en": "How long to the last stop?" },
+        { "native": "स्टेशनपासून घरापर्यंत अंतर किती आहे?", "roman": "sṭeshanpāsūn gharāparyant antar kitī āhe?", "en": "How far is it from the station to the house?" },
+        { "native": "रिक्षाला जवळपास दोनशे रुपये लागतील.", "roman": "rikṣālā dzavaḷpās donshe rupaye lāgtīl.", "en": "An auto will cost about two hundred rupees.", "focus": "लागतील", "wrong": ["लागेल|lāgel", "लागला|lāglā"] },
+        { "native": "पुढचा स्टॉप माझा आहे.", "roman": "puḍhtsā sṭôp mādzhā āhe.", "en": "The next stop's mine." },
+        { "native": "शेवटची बस साडेदहाला आहे.", "roman": "shevaṭchī bas sāḍedahālā āhe.", "en": "The last bus is at half past ten.", "focus": "शेवटची", "wrong": ["शेवटचा|shevaṭtsā", "शेवटचं|shevaṭtsaṃ"] },
+        { "native": "बसने जायला किती वेळ लागतो?", "roman": "basne dzāylā kitī veḷ lāgto?", "en": "How long does it take by bus?" },
+        { "native": "माझ्याकडे महिन्याचा पास आहे.", "roman": "mājhyākaḍe mahinyātsā pās āhe.", "en": "I've got a monthly pass." }
+      ]
+    },
+    {
+      "title": "On the local and the metro",
+      "tip": { "title": "Catching trains: पकडणे, चुकणे, उतरणे", "body": "- **लोकल पकडली** 'I caught the local' — but **लोकल चुकली** 'I missed the local' (the train is the subject).\n- **फास्ट** trains skip stations, **स्लो** ones stop everywhere.\n- Before your stop, ask **उतरणार का?** 'getting off?'.\n- In a crush you'll hear **आत चला!** 'move in!'" },
+      "new": ["लोकल", "मेट्रो", "लाइन", "गर्दी", "डबा", "फास्ट", "पकडणे", "ही लोकल दादरला थांबते का?", "आत चला, आत!", "पुढच्या स्टेशनला उतरणार का?"],
+      "sentences": [
+        { "native": "मी आठ वाजताची फास्ट लोकल पकडली.", "roman": "mī āṭh vādztātsī fāsṭ lokal pakaḍlī.", "en": "I caught the eight o’clock fast local.", "focus": "पकडली", "wrong": ["पकडला|pakaḍlā", "पकडलं|pakaḍlaṃ"] },
+        { "native": "लोकल चुकली, पुढची पाच मिनिटांनी आहे.", "roman": "lokal tsuklī, puḍhchī pāts miniṭānnī āhe.", "en": "Missed the local — the next one is in five minutes.", "focus": "चुकली", "wrong": ["चुकला|tsuklā", "चुकलो|tsuklo"] },
+        { "native": "सकाळी लोकलमध्ये खूप गर्दी असते.", "roman": "sakāḷī lokalmadhye khūp gardī aste.", "en": "The local is packed in the mornings." },
+        { "native": "शेवटच्या डब्यात गर्दी कमी असते.", "roman": "shevaṭchyā ḍabyāt gardī kamī aste.", "en": "The last compartment is less crowded.", "focus": "डब्यात", "wrong": ["डबा|ḍabā", "डब्याला|ḍabyālā"] },
+        { "native": "मेट्रोची कोणती लाइन विमानतळाला जाते?", "roman": "meṭrotsī koṇtī lāin vimāntaḷālā dzāte?", "en": "Which metro line goes to the airport?" },
+        { "native": "ही फास्ट आहे का? ठाण्याला थांबते का?", "roman": "hī fāsṭ āhe kā? ṭhāṇyālā thāmbte kā?", "en": "Is this a fast? Does it stop at Thane?" },
+        { "native": "दादा, उतरणार का? मला पुढे उतरायचंय.", "roman": "dādā, utarṇār kā? malā puḍhe utarāytsaṃy.", "en": "Getting off? I need to get off at the next one.", "focus": "उतरणार", "wrong": ["उतरलो|utarlo", "उतरला|utarlā"] },
+        { "native": "आत चला, दारात उभं राहू नका!", "roman": "āt tsalā, dārāt ubhaṃ rāhū nakā!", "en": "Move in, don't stand in the doorway!", "focus": "चला", "wrong": ["चल|tsal", "चाललो|tsāllo"] },
+        { "native": "तू मेट्रोने ये, बसपेक्षा लवकर पोहोचशील.", "roman": "tū meṭrone ye, baspekṣā lavkar pohotsshīl.", "en": "Come by metro, you'll get here quicker than by bus." }
+      ]
+    }
+  ]
+}

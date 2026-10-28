@@ -1,0 +1,203 @@
+{
+  "id": 28,
+  "title": "Catching up",
+  "goal": "Catch up with a friend you haven't seen for a while: say what you did at the weekend, ask 'have you ever…?', tell them what's happened since you last met, and say how long ago or since when.",
+  "intro": "**किती दिवसांनी!** 'It's been ages!' — and then the questions come: **काय म्हणतोस? सध्या काय चाललंय? मध्यंतरी काय काय झालं?** This unit is about that conversation: the trip you took, the trek you finally did, the new job, the friend who's moved abroad, the baby on the way.\n\nTo tell it well you need to place things in time. Marathi has a plain past (गेलो), a **perfect** for things that still matter now (गेलोय 'I've gone / I've been'), and a **past perfect** (गेलो होतो) that Marathi uses for a finished outing where English just says 'I went'. You'll also learn the **past continuous** (मी जेवत होतो 'I was eating') for what you were in the middle of, and the time words **-पासून** 'since / for', **-पूर्वी** 'ago' and **-नी** 'after'.",
+  "vocab": [
+    { "native": "विशेष", "roman": "visheṣ", "en": "special, particular; especially", "pos": "adj", "note": "invariable · विशेष काही नाही 'nothing special'; विशेषतः 'especially'" },
+    { "native": "मध्यंतरी", "roman": "madhyantarī", "en": "in the meantime, in between, a while back", "pos": "adv", "note": "मध्यंतरी काय झालं? 'what happened in the meantime (since we last met)?'" },
+    { "native": "ओळखणे", "roman": "oḷakhṇe", "en": "to recognise; to know (a person)", "pos": "verb", "note": "मी तुला ओळखलं नाही 'I didn't recognise you'; तू त्याला ओळखतोस का? 'do you know him?'" },
+    { "native": "ट्रिप", "roman": "ṭrip", "en": "trip, outing", "pos": "noun", "note": "f · ट्रिपला जाणे 'to go on a trip'" },
+    { "native": "किल्ला", "roman": "killā", "en": "fort", "pos": "noun", "note": "m · obl किल्ल्या-: किल्ल्यावर 'up at the fort'. Maharashtra has hundreds, most built or held by Shivaji Maharaj." },
+    { "native": "धमाल", "roman": "dhamāl", "en": "great fun, a blast", "pos": "noun", "note": "f · धमाल करणे 'to have a blast'; धमाल आली 'it was a blast'" },
+    { "native": "भटकणे", "roman": "bhaṭakṇe", "en": "to wander, roam about", "pos": "verb", "note": "भटकंती (f) 'travelling around, exploring'" },
+    { "native": "समुद्रकिनारा", "roman": "samudrakinārā", "en": "beach, seashore", "pos": "noun", "note": "m · obl समुद्रकिनाऱ्या-: समुद्रकिनाऱ्यावर 'on the beach'. Often just बीच." },
+    { "native": "ट्रेक", "roman": "ṭrek", "en": "trek, hike", "pos": "noun", "note": "m · ट्रेक करणे / ट्रेकला जाणे" },
+    { "native": "पहिल्यांदा", "roman": "pahilyāndā", "en": "for the first time; first", "pos": "adv", "note": "पहिल्यांदाच 'for the very first time'; दुसऱ्यांदा 'the second time'" },
+    { "native": "एकदम", "roman": "ekdam", "en": "totally, really; suddenly", "pos": "adv", "note": "एकदम भारी 'totally awesome', एकदम बरोबर 'exactly right'" },
+    { "native": "पासून", "roman": "pāsūn", "en": "since; from; for (a period up to now)", "pos": "postp", "note": "After the oblique: सोमवारपासून, दोन वर्षांपासून, कधीपासून? 'since when?'" },
+    { "native": "दिवसभर", "roman": "divasbhar", "en": "all day (long)", "pos": "adv", "note": "-भर = 'the whole': रात्रभर 'all night', महिनाभर 'for a whole month'" },
+    { "native": "बराच", "roman": "barāts", "en": "quite a lot (of), a good while", "pos": "adj", "note": "f बरीच, n बरंच, obl बऱ्याच: बऱ्याच दिवसांनी 'after quite a while'" },
+    { "native": "कोर्स", "roman": "kors", "en": "course (of study)", "pos": "noun", "note": "m" },
+    { "native": "जॉईन", "roman": "jôīn", "en": "join(ed)", "pos": "adj", "note": "जॉईन करणे 'to join (a job, a gym, a course)' — agrees like any करणे verb: नोकरी जॉईन केली" },
+    { "native": "तेवढ्यात", "roman": "tevḍhyāt", "en": "just then, at that very moment", "pos": "adv", "note": "Also इतक्यात" },
+    { "native": "बदल", "roman": "badal", "en": "change", "pos": "noun", "note": "m · बदल होणे 'to change'; cf. बदलणे 'to change (something)'" },
+    { "native": "जिम", "roman": "jim", "en": "gym", "pos": "noun", "note": "f · जिमला जाणे, जिम जॉईन करणे" },
+    { "native": "वजन", "roman": "vadzan", "en": "weight", "pos": "noun", "note": "n · वजन वाढणे 'to put on weight', वजन कमी करणे 'to lose weight'" },
+    { "native": "खुशखबर", "roman": "khushkhabar", "en": "good news", "pos": "noun", "note": "f · एक खुशखबर आहे! 'I have some good news!'" },
+    { "native": "गरोदर", "roman": "garodar", "en": "pregnant", "pos": "adj", "note": "invariable · in conversation people also say 'good news आहे'" },
+    { "native": "बाळ", "roman": "bāḷ", "en": "baby", "pos": "noun", "note": "n · बाळ झालं '(she) had a baby'" },
+    { "native": "नापास", "roman": "nāpās", "en": "failed (an exam)", "pos": "adj", "note": "नापास होणे 'to fail'" }
+  ],
+  "phrases": [
+    { "native": "खूप दिवसांनी भेटतोयस!", "roman": "khūp divasānnī bheṭtoyas!", "en": "Long time no see! (to a man)", "note": "To a woman: भेटतेयस. Also: किती दिवसांनी!" },
+    { "native": "काय म्हणतोस?", "roman": "kāy mhaṇtos?", "en": "How's it going? / What's up? (to a man)", "note": "To a woman: काय म्हणतेस? Polite: काय म्हणताय?" },
+    { "native": "काय नवीन?", "roman": "kāy navīn?", "en": "What's new?" },
+    { "native": "विशेष काही नाही.", "roman": "visheṣ kāhī nāhī.", "en": "Nothing special." },
+    { "native": "मी तुला ओळखलंच नाही!", "roman": "mī tulā oḷakhlaṃts nāhī!", "en": "I didn't recognise you!" },
+    { "native": "सध्या काय चाललंय?", "roman": "sadhyā kāy tsāllaṃy?", "en": "What are you up to these days?" },
+    { "native": "आणि बाकी सगळं?", "roman": "āṇi bākī sagḷaṃ?", "en": "And how's everything else?" },
+    { "native": "वीकेंडला काय केलंस?", "roman": "vīkeṇḍlā kāy kelaṃs?", "en": "What did you do at the weekend? (informal)" },
+    { "native": "मी लोणावळ्याला गेलो होतो.", "roman": "mī loṇāvaḷyālā gelo hoto.", "en": "I went to Lonavala. (man)", "note": "Lit. 'I had gone' — the normal way to talk about a finished trip." },
+    { "native": "खूप धमाल केली!", "roman": "khūp dhamāl kelī!", "en": "We had a blast!" },
+    { "native": "तू कधी ट्रेकला गेलायस का?", "roman": "tū kadhī ṭreklā gelāyas kā?", "en": "Have you ever been on a trek? (to a man)", "note": "Careful form: गेला आहेस का?" },
+    { "native": "नाही, कधीच नाही.", "roman": "nāhī, kadhīts nāhī.", "en": "No, never." },
+    { "native": "मी हे पहिल्यांदाच ऐकतोय.", "roman": "mī he pahilyāndāts aiktoy.", "en": "This is the first I've heard of it. (man)" },
+    { "native": "तू पुण्यात कधीपासून आहेस?", "roman": "tū puṇyāt kadhīpāsūn āhes?", "en": "How long have you been in Pune?" },
+    { "native": "दोन वर्षांपूर्वी.", "roman": "don varṣānpūrvī.", "en": "Two years ago." }
+  ],
+  "grammar": [
+    {
+      "title": "Past, perfect and 'had': गेलो, गेलोय, गेलो होतो",
+      "body": "Marathi has three ways to talk about something that's done, and they don't line up exactly with English.\n\n**1. Plain past** (Unit 16): मी गेलो, तिने पाहिलं. The everyday past, and often what English says with 'have': मी जेवलो 'I've eaten'.\n\n**2. Present perfect** = past form + आहे, which in speech fuses into one word:\nमी आलो आहे → **आलोय** (m) · आले आहे → **आलेय** (f)\nतू आला आहेस → **आलायस** · आली आहेस → **आलीयस**\nतो **आलाय** · ती **आलीय** · ते **आलंय** · ते (pl) **आलेत**\nTransitive verbs keep the ergative agreement with the object: मी हा चित्रपट **पाहिलाय**, तिने जेवण **केलंय**.\nUse it when the result **still matters now** (तो आलाय 'he's here', माझं वजन वाढलंय 'I've put on weight') and for **experience** with **कधी** 'ever': तू कधी गोव्याला **गेलायस** का? 'have you ever been to Goa?'. 'Never' is just **कधीच** + the plain past negative: मी कधीच गोव्याला **गेलो नाही**.\n\n**3. Past perfect** = past form + **होतो / होती / होतं…**: मी गेलो **होतो**. Besides English 'had gone', Marathi uses it for a **trip or event that is over** — you went and came back: गेल्या वीकेंडला मी लोणावळ्याला **गेलो होतो**. Plain मी लोणावळ्याला गेलो sounds as if you set off and are still there.\n\n**The trap:** don't answer 'have you ever…?' with the perfect in the negative (✗ मी कधीच गेलोय नाही). Say **कधीच गेलो नाही**, or for 'not yet', **अजून गेलो नाही**.",
+      "examples": [
+        { "native": "तो आत्ताच घरी पोहोचलाय.", "roman": "to āttāts gharī pohotslāy.", "en": "He's just got home." },
+        { "native": "तू कधी वडापाव खाल्लायस का?", "roman": "tū kadhī vaḍāpāv khāllāyas kā?", "en": "Have you ever had vada pav? (to a man)" },
+        { "native": "मी तो चित्रपट दोनदा पाहिलाय.", "roman": "mī to chitrapaṭ dondā pāhilāy.", "en": "I've seen that film twice." },
+        { "native": "आम्ही गेल्या महिन्यात गोव्याला गेलो होतो.", "roman": "āmhī gelyā mahinyāt govyālā gelo hoto.", "en": "We went to Goa last month." },
+        { "native": "मी पोहोचलो तेव्हा ते निघून गेले होते.", "roman": "mī pohotslo tevhā te nighūn gele hote.", "en": "When I got there, they'd already left. (man)" }
+      ]
+    },
+    {
+      "title": "Past continuous: मी जेवत होतो — and what interrupted it",
+      "body": "For what you were **in the middle of**, use stem + **त** + the past of असणे (होतो, होते, होतास, होतीस, होता, होती, होतं, होतात, होते, होत्या):\n\nमी झोप**त होतो** (m) / झोप**त होते** (f) 'I was sleeping'\nतू काय कर**त होतास**? 'what were you doing?'\nते टीव्ही बघ**त होते** 'they were watching TV'\n\nIt always agrees with the **subject**, even with an object, and never takes -ने: **तो** जेवण करत **होता**, **ती** पुस्तक वाचत **होती**.\n\nIt sets the scene for something that happened, which comes in the plain past, often after **तेव्हा** 'then, at that point' or **आणि तेवढ्यात** 'and just then': मी अंघोळ करत होतो **तेव्हा** तुझा फोन आला.\n\n**'Was going to':** stem + **णार होतो**: मी तुला फोन **करणार होतो** 'I was going to call you'; आम्ही निघणार होतो, पण पाऊस आला. Very handy for excuses.\n\n**Don't confuse** it with **used to** (Unit 26): मी जिमला **जात होतो** 'I was going to the gym (at the time / on that day)', मी जिमला **जायचो** 'I used to go to the gym (regularly)'. In practice the -त होतो form is also used for a stretch of time in the past: तेव्हा मी पुण्यात राहत होतो 'back then I was living in Pune'.",
+      "examples": [
+        { "native": "मी अंघोळ करत होतो, म्हणून फोन उचलला नाही.", "roman": "mī aṅghoḷ karat hoto, mhaṇūn fon utsallā nāhī.", "en": "I was in the shower, so I didn't pick up. (man)" },
+        { "native": "आम्ही गप्पा मारत होतो आणि तेवढ्यात पाऊस सुरू झाला.", "roman": "āmhī gappā mārat hoto āṇi tevḍhyāt pāūs surū dzhālā.", "en": "We were chatting and just then it started to rain." },
+        { "native": "ती तेव्हा कुठे काम करत होती?", "roman": "tī tevhā kuṭhe kām karat hotī?", "en": "Where was she working back then?" },
+        { "native": "मी तुलाच फोन करणार होतो!", "roman": "mī tulāts fon karṇār hoto!", "en": "I was just about to call you! (man)" },
+        { "native": "पाऊस पडत होता, म्हणून आम्ही घरीच थांबलो.", "roman": "pāūs paḍat hotā, mhaṇūn āmhī gharīts thāmblo.", "en": "It was raining, so we stayed at home." }
+      ]
+    },
+    {
+      "title": "For, since, ago: -पासून, -पूर्वी, -नी, -भर",
+      "body": "**-पासून** 'since / for (and still going on)'. Put the time word in the oblique, and — unlike English — keep the verb in the **present**:\nमी दोन वर्षांपासून पुण्यात **राहतोय** 'I've been living in Pune for two years'\nती सोमवारपासून आजारी **आहे** 'she's been ill since Monday'\n**कधीपासून?** 'since when? how long?' · **लहानपणापासून** 'since childhood' · सकाळपासून 'since the morning'\n\n**-पूर्वी** 'ago' (colloquially also **-आधी**): दोन वर्षांपूर्वी 'two years ago', थोड्या वेळापूर्वी 'a little while ago', पाच मिनिटांपूर्वी.\n\n**-नी / -नंतर** 'after (a gap of), later': **किती दिवसांनी!** 'after so long!', दोन तासांनी 'two hours later', लग्नानंतर 'after the wedding'.\n\n**गेले / गेली + time** 'for the past…': गेले दोन महिने मी खूप बिझी आहे.\n\n**-भर** 'the whole…': दिवसभर 'all day', रात्रभर 'all night', महिनाभर 'for a whole month'.\n\nWith a number, time words take the oblique plural: वर्ष → **वर्षांपासून**, दिवस → **दिवसांनी**, महिना → **महिन्यांपूर्वी**, तास → **तासांनी**, आठवडा → **आठवड्यांपूर्वी**.\n\n**The trap:** ✗ मी दोन वर्षांपासून इथे राहिलोय. If it's still going on, it's the present: **राहतोय / राहतो**. And don't mix up **-पासून** (since, still going) with **-पूर्वी** (ago, done).",
+      "examples": [
+        { "native": "मी तीन वर्षांपासून इथे काम करतोय.", "roman": "mī tīn varṣānpāsūn ithe kām kartoy.", "en": "I've been working here for three years. (man)" },
+        { "native": "ती सोमवारपासून आजारी आहे.", "roman": "tī somvārpāsūn ādzārī āhe.", "en": "She's been ill since Monday." },
+        { "native": "आम्ही पाच वर्षांपूर्वी भेटलो.", "roman": "āmhī pāts varṣānpūrvī bheṭlo.", "en": "We met five years ago." },
+        { "native": "किती वर्षांनी भेटतोय आपण!", "roman": "kitī varṣānnī bheṭtoy āpaṇ!", "en": "It's been years since we last met!" },
+        { "native": "गेले दोन महिने मी खूप बिझी आहे.", "roman": "gele don mahine mī khūp bizī āhe.", "en": "I've been really busy for the past two months." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Is that you?",
+    "setting": "Sayali and Omkar were in college together. She's back in Pune on holiday and spots him at a café on JM Road.",
+    "lines": [
+      { "speaker": "Sayali", "native": "ओंकार? अरे, तूच ना?", "roman": "oṅkār? are, tūts nā?", "en": "Omkar? Hey, it's you, isn't it?" },
+      { "speaker": "Omkar", "native": "सायली! मी तुला ओळखलंच नाही! किती वर्षांनी!", "roman": "sāylī! mī tulā oḷakhlaṃts nāhī! kitī varṣānnī!", "en": "Sayali! I didn't recognise you! It's been years!" },
+      { "speaker": "Sayali", "native": "शेवटचं आपण कॉलेजच्या फेअरवेलला भेटलो होतो, ना?", "roman": "shevaṭtsaṃ āpaṇ kôlejchyā feyarvellā bheṭlo hoto, nā?", "en": "The last time we met was at the college farewell, right?" },
+      { "speaker": "Omkar", "native": "हो! बोल, काय म्हणतेस? सध्या काय चाललंय?", "roman": "ho! bol, kāy mhaṇtes? sadhyā kāy tsāllaṃy?", "en": "Yes! So tell me, how's it going? What are you up to these days?" },
+      { "speaker": "Sayali", "native": "मी दोन वर्षांपासून बंगलोरला आहे, एका कंपनीत. आत्ता सुट्टीवर आलेय.", "roman": "mī don varṣānpāsūn baṅglorlā āhe, ekā kampanīt. āttā suṭṭīvar āley.", "en": "I've been in Bangalore for two years, at a company. I'm here on holiday." },
+      { "speaker": "Omkar", "native": "भारी! आणि मध्यंतरी काय काय झालं? लग्न वगैरे?", "roman": "bhārī! āṇi madhyantarī kāy kāy dzhālaṃ? lagna vagaire?", "en": "Cool! And what else has happened? Married, or anything?" },
+      { "speaker": "Sayali", "native": "काहीही! अजून नाही. तुझं काय? ऐकलं की तू नोकरी सोडलीस?", "roman": "kāhīhī! adzūn nāhī. tudzhaṃ kāy? aiklaṃ kī tū nokrī soḍlīs?", "en": "As if! Not yet. What about you? I heard you quit your job?" },
+      { "speaker": "Omkar", "native": "हो, सहा महिन्यांपूर्वी. आता मी सह्याद्रीत ट्रेक्स घेऊन जातो.", "roman": "ho, sahā mahinyānpūrvī. ātā mī sahyādrīt ṭreks gheūn dzāto.", "en": "Yes, six months ago. Now I lead treks in the Sahyadris." },
+      { "speaker": "Sayali", "native": "काय सांगतोस! मी कधीच ट्रेकला गेले नाही.", "roman": "kāy sāṅgtos! mī kadhīts ṭreklā gele nāhī.", "en": "No way! I've never been on a trek." },
+      { "speaker": "Omkar", "native": "मग या रविवारी ये. आम्ही राजमाचीला जाणार आहोत.", "roman": "mag yā ravivārī ye. āmhī rādzmāchīlā dzāṇār āhot.", "en": "Then come this Sunday. We're going to Rajmachi." },
+      { "speaker": "Sayali", "native": "तेव्हा पाऊस पडत असेल ना?", "roman": "tevhā pāūs paḍat asel nā?", "en": "It'll be raining then, won't it?" },
+      { "speaker": "Omkar", "native": "हो, तीच तर मजा आहे! पावसात भिजायचं, धुक्यात भटकायचं…", "roman": "ho, tīts tar madzā āhe! pāvsāt bhidzāytsaṃ, dhukyāt bhaṭkāytsaṃ…", "en": "Yes, that's the whole fun of it! Getting soaked, wandering about in the mist…" },
+      { "speaker": "Sayali", "native": "ठीक आहे, येते! पण मी पडले तर तुझी जबाबदारी!", "roman": "ṭhīk āhe, yete! paṇ mī paḍle tar tujhī jabābdārī!", "en": "OK, I'm in! But if I fall, it's on you!" }
+    ]
+  },
+  "culture": "Friends catching up in Marathi skip 'how are you' and go straight to **काय म्हणतोस?** or **काय रे, कुठे गायब?** 'hey, where did you disappear to?'. Questions can be very direct — older relatives will ask about your job, your salary and your marriage plans within five minutes, and a vague **चाललंय** 'getting by' or **बघू** 'we'll see' is a perfectly acceptable answer. Weekend talk in Maharashtra is full of places: monsoon treks to the **Sahyadri** forts (सिंहगड, राजमाची, हरिश्चंद्रगड), quick trips to Lonavala or Mahabaleshwar, and the Konkan beaches (अलिबाग, गणपतीपुळे). **'पावसाळी ट्रेक'** is practically a Pune religion, and the forts carry a special pride because of **शिवाजी महाराज** — always with महाराज, never just 'Shivaji'. When someone shares big news, the natural reactions are **काय सांगतोस / सांगतेस!** 'you don't say!', **भारी!** and, for a pregnancy, a wedding or a new job, **अभिनंदन!** with a demand for पार्टी.",
+  "lessons": [
+    {
+      "title": "Long time no see",
+      "tip": { "title": "काय म्हणतोस? — catching up with friends", "body": "- **काय म्हणतोस / म्हणतेस?** (friend) or **काय म्हणताय?** (polite) = 'how's it going?' — literally 'what do you say?'.\n- **सध्या काय चाललंय?** 'what are you up to?', **काय नवीन?** 'what's new?'.\n- Answers: **मजेत**, **विशेष काही नाही**, **चाललंय** 'getting by'.\n- **किती दिवसांनी!** 'it's been ages!'" },
+      "new": ["खूप दिवसांनी भेटतोयस!", "काय म्हणतोस?", "काय नवीन?", "विशेष काही नाही.", "मी तुला ओळखलंच नाही!", "सध्या काय चाललंय?", "आणि बाकी सगळं?", "ओळखणे", "मध्यंतरी", "विशेष"],
+      "sentences": [
+        { "native": "काय म्हणतेस? सगळं ठीक?", "roman": "kāy mhaṇtes? sagḷaṃ ṭhīk?", "en": "How's it going? All good? (to a woman)", "focus": "म्हणतेस", "wrong": ["म्हणतोस|mhaṇtos", "म्हणतो|mhaṇto"] },
+        { "native": "काय म्हणताय काका? सगळे मजेत?", "roman": "kāy mhaṇtāy kākā? sagḷe majet?", "en": "How are things, Kaka? Everyone well?", "focus": "म्हणताय", "wrong": ["म्हणतोस|mhaṇtos", "म्हणतेस|mhaṇtes"] },
+        { "native": "आपण शेवटचं कधी भेटलो?", "roman": "āpaṇ shevaṭtsaṃ kadhī bheṭlo?", "en": "When did we last meet?", "focus": "शेवटचं", "wrong": ["शेवटचा|shevaṭtsā", "शेवटची|shevaṭchī"] },
+        { "native": "मध्यंतरी काय काय झालं?", "roman": "madhyantarī kāy kāy dzhālaṃ?", "en": "What's been happening since I last saw you?" },
+        { "native": "तू मला ओळखलंस का? मी नेहा, शाळेतली!", "roman": "tū malā oḷakhlaṃs kā? mī nehā, shāḷetlī!", "en": "Do you recognise me? I'm Neha, from school!" },
+        { "native": "विशेष काही नाही, नेहमीचंच.", "roman": "visheṣ kāhī nāhī, nehmītsaṃts.", "en": "Nothing special, the usual." },
+        { "native": "सध्या काय चाललंय ऑफिसमध्ये?", "roman": "sadhyā kāy tsāllaṃy ôfismadhye?", "en": "What's going on at work these days?" },
+        { "native": "किती दिवसांनी फोन केलास!", "roman": "kitī divasānnī fon kelās!", "en": "It's been ages since you called!" },
+        { "native": "आमची शेवटची भेट तुझ्या लग्नात झाली होती.", "roman": "āmchī shevaṭchī bheṭ tujhyā lagnāt dzhālī hotī.", "en": "The last time we met was at your wedding.", "focus": "शेवटची", "wrong": ["शेवटचा|shevaṭtsā", "शेवटचं|shevaṭtsaṃ"] }
+      ]
+    },
+    {
+      "title": "Your weekend",
+      "tip": { "title": "गेलो, गेलोय, गेलो होतो", "body": "- **Plain past** गेलो = I went.\n- **Perfect** = past + आहे, fused in speech: **आलोय**, **आलीय**, **आलेत**, **पाहिलाय** — the result matters now.\n- **Past perfect** = past + **होतो / होती**: मी लोणावळ्याला **गेलो होतो** — Marathi's normal way to talk about a finished trip (you went and came back).", "pattern": "मी गेलो · मी गेलोय · मी गेलो होतो", "grammar": 0 },
+      "new": ["वीकेंडला काय केलंस?", "मी लोणावळ्याला गेलो होतो.", "खूप धमाल केली!", "ट्रिप", "किल्ला", "धमाल", "भटकणे", "समुद्रकिनारा"],
+      "sentences": [
+        { "native": "गेल्या वीकेंडला आम्ही अलिबागला गेलो होतो.", "roman": "gelyā vīkeṇḍlā āmhī alibāglā gelo hoto.", "en": "Last weekend we went to Alibag.", "focus": "होतो", "wrong": ["होता|hotā", "आहोत|āhot"] },
+        { "native": "आम्ही समुद्रकिनाऱ्यावर खूप भटकलो.", "roman": "āmhī samudrakināryāvar khūp bhaṭaklo.", "en": "We wandered along the beach for ages." },
+        { "native": "तू त्या किल्ल्यावर कधी गेला होतास?", "roman": "tū tyā killyāvar kadhī gelā hotās?", "en": "When did you go up that fort? (to a man)", "focus": "होतास", "wrong": ["होता|hotā", "होतो|hoto"] },
+        { "native": "ती आत्ताच ट्रिपवरून परत आलीय.", "roman": "tī āttāts ṭripvarūn parat ālīy.", "en": "She's just got back from a trip.", "focus": "आलीय", "wrong": ["आलाय|ālāy", "आलंय|ālaṃy"] },
+        { "native": "मी भरपूर फोटो काढलेत, बघ.", "roman": "mī bharpūr foṭo kāḍhlet, bagh.", "en": "I've taken loads of photos, look.", "focus": "काढलेत", "wrong": ["काढलाय|kāḍhlāy", "काढलीय|kāḍhlīy"] },
+        { "native": "किल्ल्यावर पोहोचलो तेव्हा खूप धुकं होतं.", "roman": "killyāvar pohotslo tevhā khūp dhukaṃ hotaṃ.", "en": "When we reached the fort it was really misty." },
+        { "native": "मी हा किल्ला आधी पाहिलाय.", "roman": "mī hā killā ādhī pāhilāy.", "en": "I've seen this fort before.", "focus": "पाहिलाय", "wrong": ["पाहिलीय|pāhilīy", "पाहिलंय|pāhilaṃy"] },
+        { "native": "ते सगळे आलेत, फक्त तू बाकी आहेस.", "roman": "te sagḷe ālet, phakta tū bākī āhes.", "en": "They've all arrived, it's just you we're waiting for.", "focus": "आलेत", "wrong": ["आलाय|ālāy", "आल्यात|ālyāt"] },
+        { "native": "आम्ही पावसात खूप भिजलो, पण धमाल आली!", "roman": "āmhī pāvsāt khūp bhidzlo, paṇ dhamāl ālī!", "en": "We got completely soaked in the rain, but it was a blast!" }
+      ]
+    },
+    {
+      "title": "Have you ever…?",
+      "tip": { "title": "कधी … का? — have you ever…?", "body": "- **Ever** = **कधी** + the perfect: तू कधी गोव्याला **गेलायस** का? · तुम्ही कधी ट्रेक **केलाय** का?\n- **Never** = **कधीच** + the plain past negative: मी कधीच **गेलो नाही**.\n- **Not yet** = **अजून** + negative: अजून नाही पाहिला.\n- **For the first time** = **पहिल्यांदा(च)**.", "grammar": 0 },
+      "new": ["ट्रेक", "पहिल्यांदा", "एकदम", "तू कधी ट्रेकला गेलायस का?", "नाही, कधीच नाही.", "मी हे पहिल्यांदाच ऐकतोय."],
+      "sentences": [
+        { "native": "तू कधी किल्ल्यावर ट्रेक केलायस का?", "roman": "tū kadhī killyāvar ṭrek kelāyas kā?", "en": "Have you ever done a fort trek? (to a man)", "focus": "केलायस", "wrong": ["केलाय|kelāy", "करतोस|kartos"] },
+        { "native": "मी कधीच गोव्याला गेलो नाही.", "roman": "mī kadhīts govyālā gelo nāhī.", "en": "I've never been to Goa. (man)", "focus": "कधीच", "wrong": ["कधी|kadhī", "कधीतरी|kadhītarī"] },
+        { "native": "तुम्ही कधी पावसात ट्रेक केलाय का?", "roman": "tumhī kadhī pāvsāt ṭrek kelāy kā?", "en": "Have you ever done a trek in the rain?", "focus": "केलाय", "wrong": ["केलीय|kelīy", "केलंय|kelaṃy"] },
+        { "native": "मी पहिल्यांदाच इतका मोठा किल्ला पाहतोय.", "roman": "mī pahilyāndāts itkā moṭhā killā pāhtoy.", "en": "It's the first time I've seen such a big fort. (man)" },
+        { "native": "एकदम भारी होतं!", "roman": "ekdam bhārī hotaṃ!", "en": "It was totally awesome!" },
+        { "native": "तू हा चित्रपट पाहिलायस का?", "roman": "tū hā chitrapaṭ pāhilāyas kā?", "en": "Have you seen this film? (to a man)", "focus": "पाहिलायस", "wrong": ["पाहिलीयस|pāhilīyas", "पाहतोस|pāhtos"] },
+        { "native": "नाही, अजून नाही पाहिला.", "roman": "nāhī, adzūn nāhī pāhilā.", "en": "No, I haven't seen it yet.", "focus": "अजून", "wrong": ["आधीच|ādhīts", "नुकतंच|nuktaṃts"] },
+        { "native": "ती पहिल्यांदाच परदेशात गेलीय.", "roman": "tī pahilyāndāts pardeshāt gelīy.", "en": "She's gone abroad for the first time.", "focus": "गेलीय", "wrong": ["गेलाय|gelāy", "गेलंय|gelaṃy"] },
+        { "native": "त्याने कधीच स्वयंपाक केला नाही.", "roman": "tyāne kadhīts svayampāk kelā nāhī.", "en": "He's never cooked in his life.", "focus": "कधीच", "wrong": ["कधी|kadhī", "कधीतरी|kadhītarī"] }
+      ]
+    },
+    {
+      "title": "Since when?",
+      "tip": { "title": "-पासून, -पूर्वी, -नी — since, ago, after", "body": "- **-पासून** 'since / for' + **present** verb: मी दोन वर्षांपासून इथे **राहतो**.\n- **-पूर्वी** 'ago': दोन वर्षांपूर्वी. **-नी** 'after': किती दिवसांनी!\n- **-भर** 'the whole': दिवसभर, रात्रभर.\n- Time words with a number go oblique plural: वर्षां-, महिन्यां-, दिवसां-, तासां-.", "pattern": "time (obl.) + पासून / पूर्वी / नी", "grammar": 2 },
+      "new": ["पासून", "दिवसभर", "बराच", "कोर्स", "जॉईन", "तू पुण्यात कधीपासून आहेस?", "दोन वर्षांपूर्वी."],
+      "sentences": [
+        { "native": "मी तीन महिन्यांपासून एक कोर्स करतोय.", "roman": "mī tīn mahinyānpāsūn ek kors kartoy.", "en": "I've been doing a course for three months. (man)", "focus": "महिन्यांपासून", "wrong": ["महिन्यांपूर्वी|mahinyānpūrvī", "महिन्यांनी|mahinyānnī"] },
+        { "native": "तू हा कोर्स कधी जॉईन केलास?", "roman": "tū hā kors kadhī jôīn kelās?", "en": "When did you join this course? (to a man)" },
+        { "native": "मी दोन आठवड्यांपूर्वी नवीन नोकरी जॉईन केली.", "roman": "mī don āṭhavḍyānpūrvī navīn nokrī jôīn kelī.", "en": "I started a new job two weeks ago.", "focus": "आठवड्यांपूर्वी", "wrong": ["आठवड्यांपासून|āṭhavḍyānpāsūn", "आठवड्यांनी|āṭhavḍyānnī"] },
+        { "native": "मी सकाळपासून काहीच खाल्लं नाही.", "roman": "mī sakāḷpāsūn kāhīts khāllaṃ nāhī.", "en": "I haven't eaten anything since the morning.", "focus": "सकाळपासून", "wrong": ["सकाळपूर्वी|sakāḷpūrvī", "सकाळनंतर|sakāḷnantar"] },
+        { "native": "काल मी दिवसभर घरीच होतो.", "roman": "kāl mī divasbhar gharīts hoto.", "en": "I was at home all day yesterday. (man)" },
+        { "native": "बऱ्याच दिवसांनी आपण भेटतोय.", "roman": "baryāts divasānnī āpaṇ bheṭtoy.", "en": "It's been quite a while since we met.", "focus": "दिवसांनी", "wrong": ["दिवसांपासून|divasānpāsūn", "दिवसांपूर्वी|divasānpūrvī"] },
+        { "native": "ती लहानपणापासून मुंबईत राहते.", "roman": "tī lahānpaṇāpāsūn mumbaīt rāhte.", "en": "She's lived in Mumbai since she was little.", "focus": "लहानपणापासून", "wrong": ["लहानपणी|lahānpaṇī", "लहानपणानंतर|lahānpaṇānantar"] },
+        { "native": "तो बराच वेळ तुझी वाट बघत होता.", "roman": "to barāts veḷ tujhī vāṭ baghat hotā.", "en": "He was waiting for you for quite a while." },
+        { "native": "आम्ही पाच वर्षांपासून मित्र आहोत.", "roman": "āmhī pāts varṣānpāsūn mitra āhot.", "en": "We've been friends for five years.", "focus": "वर्षांपासून", "wrong": ["वर्षांपूर्वी|varṣānpūrvī", "वर्षं|varṣaṃ"] },
+        { "native": "मी अर्ध्या तासापूर्वी पोहोचलो.", "roman": "mī ardhyā tāsāpūrvī pohotslo.", "en": "I got here half an hour ago. (man)", "focus": "तासापूर्वी", "wrong": ["तासापासून|tāsāpāsūn", "तासाने|tāsāne"] }
+      ]
+    },
+    {
+      "title": "What were you doing?",
+      "tip": { "title": "मी जेवत होतो — I was eating", "body": "- **stem + त + होतो / होते / होता / होती** = was …-ing, agreeing with the **subject** (no -ने): तो जेवण करत **होता**.\n- What interrupted it comes in the plain past, often after **तेव्हा** or **आणि तेवढ्यात** 'and just then'.\n- **stem + णार होतो** = was going to: मी फोन **करणार होतो**.", "pattern": "stem-त + होतो / होते · stem-णार + होतो", "grammar": 1 },
+      "new": ["तेवढ्यात", "बदल", "जिम", "वजन"],
+      "sentences": [
+        { "native": "मी जिममध्ये व्यायाम करत होतो, म्हणून फोन उचलला नाही.", "roman": "mī jimmadhye vyāyām karat hoto, mhaṇūn fon utsallā nāhī.", "en": "I was working out at the gym, so I didn't pick up. (man)", "focus": "होतो", "wrong": ["होता|hotā", "आहे|āhe"] },
+        { "native": "मी स्टेशनवर ट्रेनची वाट बघत होतो आणि तेवढ्यात ती दिसली.", "roman": "mī sṭeshanvar ṭrenchī vāṭ baghat hoto āṇi tevḍhyāt tī dislī.", "en": "I was waiting for the train at the station and just then I spotted her. (man)", "focus": "बघत", "wrong": ["बघितलं|baghitlaṃ", "बघू|baghū"] },
+        { "native": "ट्रेनमध्ये खूप गर्दी होती.", "roman": "ṭrenmadhye khūp gardī hotī.", "en": "The train was really crowded." },
+        { "native": "तू काय करत होतीस?", "roman": "tū kāy karat hotīs?", "en": "What were you doing? (to a woman)", "focus": "होतीस", "wrong": ["होतास|hotās", "होती|hotī"] },
+        { "native": "मी तुला मेसेज करणार होतो, पण विसरलो.", "roman": "mī tulā mesej karṇār hoto, paṇ visarlo.", "en": "I was going to text you, but I forgot. (man)", "focus": "करणार", "wrong": ["केला|kelā", "करत|karat"] },
+        { "native": "तुझ्यात खूप बदल झालाय! वजन कमी केलंस का?", "roman": "tujhyāt khūp badal dzhālāy! vadzan kamī kelaṃs kā?", "en": "You've changed so much! Have you lost weight?" },
+        { "native": "मी रोज जिमला जायचो, पण आता वेळ नसतो.", "roman": "mī rodz jimlā dzāytso, paṇ ātā veḷ nasto.", "en": "I used to go to the gym every day, but now I don't have time. (man)" },
+        { "native": "आम्ही जेवत होतो आणि तेवढ्यात बाबा आले.", "roman": "āmhī jevat hoto āṇi tevḍhyāt bābā āle.", "en": "We were eating and just then Dad came in.", "focus": "जेवत", "wrong": ["जेवलो|jevlo", "जेवणार|jevṇār"] },
+        { "native": "पाऊस पडत होता आणि खूप गर्दी होती, म्हणून उशीर झाला.", "roman": "pāūs paḍat hotā āṇi khūp gardī hotī, mhaṇūn ushīr dzhālā.", "en": "It was raining and really crowded, so I got held up.", "focus": "पडत", "wrong": ["पडला|paḍlā", "पडेल|paḍel"] }
+      ]
+    },
+    {
+      "title": "Big news",
+      "new": ["खुशखबर", "गरोदर", "बाळ", "नापास"],
+      "sentences": [
+        { "native": "एक खुशखबर आहे — मला नोकरी मिळाली!", "roman": "ek khushkhabar āhe — malā nokrī miḷālī!", "en": "I've got some good news — I got the job!" },
+        { "native": "तुला माहितेय का, नेहा गरोदर आहे!", "roman": "tulā māhitey kā, nehā garodar āhe!", "en": "Guess what — Neha's pregnant!" },
+        { "native": "बाळ कधी येणार आहे?", "roman": "bāḷ kadhī yeṇār āhe?", "en": "When's the baby due?" },
+        { "native": "माझ्या बहिणीला गेल्या महिन्यात बाळ झालं.", "roman": "mājhyā bahiṇīlā gelyā mahinyāt bāḷ dzhālaṃ.", "en": "My sister had a baby last month." },
+        { "native": "मी शेवटी परीक्षेत पास झालो!", "roman": "mī shevaṭī parīkṣet pās dzhālo!", "en": "I finally passed the exam! (man)" },
+        { "native": "तो पहिल्यांदा नापास झाला, पण दुसऱ्यांदा पास झाला.", "roman": "to pahilyāndā nāpās dzhālā, paṇ dusryāndā pās dzhālā.", "en": "He failed the first time, but passed the second time." },
+        { "native": "मुलगा झाला की मुलगी?", "roman": "mulgā dzhālā kī mulgī?", "en": "Was it a boy or a girl?" },
+        { "native": "बाळ अगदी तिच्यासारखं दिसतं.", "roman": "bāḷ agdī tichyāsārkhaṃ distaṃ.", "en": "The baby looks just like her." },
+        { "native": "त्यांनी नवीन घर घेतलंय आणि पुढच्या महिन्यात तिथे राहायला जाणार आहेत.", "roman": "tyānnī navīn ghar ghetlaṃy āṇi puḍhchyā mahinyāt tithe rāhāylā dzāṇār āhet.", "en": "They've bought a new house and are moving in next month." },
+        { "native": "आमच्या ग्रुपमधला अमित नोकरी सोडून परदेशात गेलाय.", "roman": "āmchyā grupmadhlā amit nokrī soḍūn pardeshāt gelāy.", "en": "Amit from our group has quit his job and moved abroad." }
+      ]
+    }
+  ]
+}

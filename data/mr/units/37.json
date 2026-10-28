@@ -1,0 +1,202 @@
+{
+  "id": 37,
+  "title": "Sorting out problems",
+  "goal": "Complain about a wrong or damaged order, deal with customer care, report a lost or stolen phone, pass on exactly what people told you, and calmly negotiate a fair solution.",
+  "intro": "Things go wrong: the parcel has the wrong phone in it, the refund that was 'coming in three days' is ten days late, your phone vanishes on a Mumbai local, the shopkeeper sold you fake shoes. This unit gives you the Marathi to sort it out — firmly, calmly and without losing your temper.\n\nThe key skill is **reporting exactly what people said**, because every argument with customer care comes down to 'but you said…': तुम्ही म्हणाला होतात की तीन दिवसांत होईल. You'll learn to pass on statements (म्हणाले की…, … असं सांगितलं), instructions ('they told me to…': मला यायला सांगितलं) and plans that fell through ('it was supposed to…': कालच येणार होतं).",
+  "vocab": [
+    { "native": "चुकीचा", "roman": "tsukītsā", "en": "wrong, incorrect", "pos": "adj", "note": "चुकीची (f), चुकीचं (n); oblique चुकीच्या. From चूक 'mistake'." },
+    { "native": "खराब", "roman": "kharāb", "en": "damaged, faulty; bad, spoiled", "pos": "adj", "note": "Same for all genders: खराब फोन, खराब भाजी. खराब निघाला 'turned out to be faulty'." },
+    { "native": "रिफंड", "roman": "rifaṇḍ", "en": "refund", "pos": "noun", "note": "m · रिफंड मिळाला 'I got the refund'" },
+    { "native": "रिप्लेसमेंट", "roman": "riplesmeṇṭ", "en": "replacement", "pos": "noun", "note": "f · In plain Marathi: बदलून मिळेल का? 'can I get it changed?'" },
+    { "native": "वॉरंटी", "roman": "vôraṇṭī", "en": "warranty, guarantee", "pos": "noun", "note": "f · वॉरंटीत आहे 'it's under warranty'" },
+    { "native": "कस्टमर केअर", "roman": "kasṭamar kear", "en": "customer care", "pos": "noun", "note": "n · The people there: कस्टमर केअरवाले." },
+    { "native": "मॅनेजर", "roman": "mænejar", "en": "manager", "pos": "noun", "note": "m/f · Spoken about in the respectful plural: मॅनेजर मीटिंगमध्ये आहेत." },
+    { "native": "ग्राहक", "roman": "grāhak", "en": "customer, consumer", "pos": "noun", "note": "m · ग्राहक मंच 'consumer court'" },
+    { "native": "नोंदवणे", "roman": "nondavṇe", "en": "to register, record (a complaint)", "pos": "verb", "note": "तक्रार नोंदवणे 'to file a complaint'; नोंदवून घेणे 'to take down (a complaint)'" },
+    { "native": "ताबडतोब", "roman": "tābaḍtob", "en": "immediately, right away", "pos": "adv", "note": "Stronger than लगेच." },
+    { "native": "स्पष्ट", "roman": "spaṣṭa", "en": "clear, plain", "pos": "adj", "note": "स्पष्ट सांगा 'tell me plainly'; स्पष्टपणे 'clearly'" },
+    { "native": "उलट", "roman": "ulaṭ", "en": "on the contrary; instead; the other way round", "pos": "adv", "note": "उलट तेच मला ओरडले! 'instead, they shouted at me!'" },
+    { "native": "जबाबदार", "roman": "dzabābdār", "en": "responsible", "pos": "adj", "note": "X ला जबाबदार 'responsible for X'; जबाबदारी (f) 'responsibility'" },
+    { "native": "चौकी", "roman": "tsaukī", "en": "police post, small police station", "pos": "noun", "note": "f · पोलीस चौकी. A full station is पोलीस स्टेशन / ठाणे." },
+    { "native": "ब्लॉक करणे", "roman": "blôk karṇe", "en": "to block (a card, SIM, phone)", "pos": "verb" },
+    { "native": "पुरावा", "roman": "purāvā", "en": "proof, evidence", "pos": "noun", "note": "m · पुरावा म्हणून 'as proof'" },
+    { "native": "नुकसान", "roman": "nuksān", "en": "loss, damage", "pos": "noun", "note": "n · माझं नुकसान झालं 'I lost out / suffered a loss'" },
+    { "native": "शांतपणे", "roman": "shāntpaṇe", "en": "calmly", "pos": "adv", "note": "From शांत 'calm' + -पणे '-ly'." },
+    { "native": "गैरसमज", "roman": "gairsamadz", "en": "misunderstanding", "pos": "noun", "note": "m · गैरसमज झाला असेल 'there must have been a misunderstanding'" },
+    { "native": "उद्धट", "roman": "uddhaṭ", "en": "rude, insolent", "pos": "adj", "note": "उद्धटपणे बोलणे 'to speak rudely'" },
+    { "native": "ओरडणे", "roman": "oraḍṇe", "en": "to shout; to scold", "pos": "verb", "note": "X वर ओरडणे 'to shout at X'; आई ओरडली 'Mum told me off'" },
+    { "native": "तोडगा", "roman": "toḍgā", "en": "way out, solution", "pos": "noun", "note": "m · तोडगा काढणे 'to find a solution'" },
+    { "native": "तडजोड", "roman": "taḍdzoḍ", "en": "compromise", "pos": "noun", "note": "f · तडजोड करणे 'to compromise'" },
+    { "native": "फसवणे", "roman": "phasavṇe", "en": "to cheat, con, trick", "pos": "verb", "note": "मला फसवलं 'I was conned'; फसवणूक (f) 'fraud'" },
+    { "native": "बनावट", "roman": "banāvaṭ", "en": "fake, counterfeit", "pos": "adj", "note": "Casual: डुप्लिकेट." },
+    { "native": "हक्क", "roman": "hakka", "en": "right, entitlement", "pos": "noun", "note": "m · ग्राहकांचे हक्क 'consumer rights'" }
+  ],
+  "phrases": [
+    { "native": "मला चुकीचं सामान मिळालं.", "roman": "malā tsukītsaṃ sāmān miḷālaṃ.", "en": "I got the wrong item." },
+    { "native": "बॉक्स आधीच उघडलेला होता.", "roman": "bôks ādhīts ughaḍlelā hotā.", "en": "The box had already been opened." },
+    { "native": "माझे पैसे कधी परत मिळतील?", "roman": "mādzhe paise kadhī parat miḷtīl?", "en": "When will I get my money back?" },
+    { "native": "एक मिनिट होल्ड करा.", "roman": "ek miniṭ holḍ karā.", "en": "Please hold for a minute." },
+    { "native": "तुमची तक्रार नोंदवली आहे.", "roman": "tumchī takrār nondavlī āhe.", "en": "Your complaint has been registered.", "note": "Customer care will say आपली तक्रार — the very formal आपण." },
+    { "native": "मला तुमच्या मॅनेजरशी बोलायचं आहे.", "roman": "malā tumchyā mænejarshī bolāytsaṃ āhe.", "en": "I want to speak to your manager." },
+    { "native": "तुम्ही म्हणाला होतात की तीन दिवसांत होईल.", "roman": "tumhī mhaṇālā hotāt kī tīn divasānt hoīl.", "en": "You said it would be done in three days." },
+    { "native": "माझा फोन चोरीला गेला, मला तक्रार नोंदवायची आहे.", "roman": "mādzhā fon tsorīlā gelā, malā takrār nondvāychī āhe.", "en": "My phone has been stolen — I want to file a complaint." },
+    { "native": "आपण शांतपणे बोलू या.", "roman": "āpaṇ shāntpaṇe bolū yā.", "en": "Let's talk calmly." },
+    { "native": "यात माझी काही चूक नाही.", "roman": "yāt mādzhī kāhī tsūk nāhī.", "en": "This isn't my fault at all." },
+    { "native": "काहीतरी तोडगा काढू.", "roman": "kāhītarī toḍgā kāḍhū.", "en": "Let's find some way out." },
+    { "native": "त्यांनी मला फसवलं!", "roman": "tyānnī malā phasavlaṃ!", "en": "They conned me!" },
+    { "native": "हा माझा हक्क आहे.", "roman": "hā mādzhā hakka āhe.", "en": "It's my right." }
+  ],
+  "grammar": [
+    {
+      "title": "Passing on what people said: म्हणाले की…, … असं सांगितलं",
+      "body": "You met the basics in unit 20. Here is the full toolkit for 'he said / they told me / she asked'.\n\n**The verbs**: **म्हणणे** 'say' is usually intransitive in the past (तो म्हणाला, ती म्हणाली, ते म्हणाले) — though त्याने म्हटलं is also fine. **सांगणे** 'tell' and **विचारणे** 'ask' are ergative: त्यांनी **सांगितलं**, तिने **विचारलं** (neuter, agreeing with the whole reported clause). The person told takes **-ला**: मला सांगितलं.\n\n**Pattern 1 — की + the words**: ते म्हणाले **की** रिफंड उद्या येईल 'they said the refund will come tomorrow'. Marathi keeps the original tense (no 'would' for 'will'), and often the original person too: तो म्हणाला की मी येईन (lit. 'he said I will come'). If that's confusing, switch the person: तो म्हणाला की तो येईल.\n\n**Pattern 2 — the words first, then असं / म्हणून**: 'पैसे परत मिळतील' **असं** त्यांनी सांगितलं; तीन दिवसांत होईल **म्हणून** सांगितलं. This is the most natural way in speech.\n\n**Pattern 3 — casual shortcut**: just put म्हणाला after the words, no की: **येतो म्हणाला**, आला नाही! 'He said he'd come and didn't!'\n\n**Reported questions**: विचारलं की + the question, with **का** for yes/no: मॅनेजरने विचारलं की पावती आहे **का** 'the manager asked whether I had the receipt'.\n\n**Respect**: someone you call तुम्ही is reported in the plural: मॅनेजर **म्हणाले**, तुम्ही **म्हणाला होतात** 'you had said'.",
+      "examples": [
+        { "native": "तो म्हणाला की तो उद्या येईल.", "roman": "to mhaṇālā kī to udyā yeīl.", "en": "He said he'd come tomorrow." },
+        { "native": "'पैसे परत मिळतील' असं त्यांनी सांगितलं.", "roman": "'paise parat miḷtīl' asaṃ tyānnī sāṅgitlaṃ.", "en": "They said, 'You'll get the money back.'" },
+        { "native": "पाच मिनिटांत पोहोचतो म्हणाला, आणि एक तास लावला!", "roman": "pāts miniṭānt pohotsto mhaṇālā, āṇi ek tās lāvlā!", "en": "He said he'd be there in five minutes, and took an hour!" },
+        { "native": "तिने विचारलं की बिल आहे का.", "roman": "tine vichārlaṃ kī bil āhe kā.", "en": "She asked if I had the bill." },
+        { "native": "मॅनेजर म्हणाले की ही त्यांची चूक आहे.", "roman": "mænejar mhaṇāle kī hī tyānchī tsūk āhe.", "en": "The manager said it was their mistake." }
+      ]
+    },
+    {
+      "title": "Reporting instructions: 'they told me to…', 'they made me…'",
+      "body": "**Told me to** = person told + **-ला**, and the action as **-आयला** (the 'for doing' form) + **सांगितलं**: त्यांनी **मला** उद्या **यायला सांगितलं** 'they told me to come tomorrow'; डॉक्टरांनी आराम **करायला** सांगितलं.\n\n**Told me not to** — the easiest way is to quote the command and add असं सांगितलं / म्हणाले: **'जाऊ नकोस' असं** तो मला म्हणाला 'he told me not to go'; 'काळजी करू नका' असं पोलीस म्हणाले. A more formal option is **न** + -आयला: मला **न** जायला सांगितलं.\n\n**Made me / had me do** = **-आयला लावणे**: त्यांनी मला तासभर **थांबायला लावलं** 'they made me wait an hour'; तीन फॉर्म **भरायला लावले**. Because it is ergative, लावलं agrees with the object if there is one (फॉर्म pl → लावले), otherwise neuter लावलं.\n\n**Asked me to** (a request): **-आयला सांगितलं** works here too, or **विनंती केली की…** in formal speech.\n\nThe trap: don't use the infinitive in -णे here — not *मला येणे सांगितलं*; it must be **यायला**.",
+      "examples": [
+        { "native": "डॉक्टरांनी मला आराम करायला सांगितलं.", "roman": "ḍôkṭarānnī malā ārām karāylā sāṅgitlaṃ.", "en": "The doctor told me to rest." },
+        { "native": "त्यांनी मला दोन दिवसांनी परत यायला सांगितलं.", "roman": "tyānnī malā don divasānnī parat yāylā sāṅgitlaṃ.", "en": "They told me to come back in two days." },
+        { "native": "'कोणालाही पैसे देऊ नका' असं बँकेने सांगितलं.", "roman": "'koṇālāhī paise deū nakā' asaṃ bæṅkene sāṅgitlaṃ.", "en": "The bank told us not to give money to anyone." },
+        { "native": "आईने मला उशिरा बाहेर न जायला सांगितलं.", "roman": "āīne malā ushirā bāher na dzāylā sāṅgitlaṃ.", "en": "Mum told me not to go out late." },
+        { "native": "त्यांनी मला तासभर थांबायला लावलं.", "roman": "tyānnī malā tāsbhar thāmbāylā lāvlaṃ.", "en": "They made me wait for an hour." }
+      ]
+    },
+    {
+      "title": "'Was supposed to': -णार होता, -आयचं होतं, ठरलं होतं",
+      "body": "For plans and promises that didn't happen:\n\n**-णार होता / होती / होतं / होते** 'was going to, was supposed to' — the -णार form + the past of 'be', agreeing with the subject: पार्सल कालच येणार **होतं** (n), रिफंड पाच दिवसांत मिळणार **होता** (m), आम्ही भेटणार **होतो**. Negative: येणार **नव्हता** 'wasn't going to'. As a pointed question: प्लंबर येणार नव्हता का? 'Wasn't the plumber supposed to come?'\n\n**-आयचं होतं** 'had to / was to (my plan)' — dative + -आयचं + होतं: मला आज बँकेत **जायचं होतं** 'I was supposed to go to the bank today'. With a transitive verb it agrees with the object: मला बिल भरायचं होतं, मला तक्रार नोंदवायची होती.\n\n**ठरलं होतं की…** 'it had been agreed that…': असं ठरलं होतं की ते पैसे परत देतील.\n\nThese three are what you need when arguing with customer care: तुम्ही म्हणाला होतात की… · कालच येणार होतं · असं ठरलं होतं.",
+      "examples": [
+        { "native": "पार्सल कालच येणार होतं.", "roman": "pārsal kālts yeṇār hotaṃ.", "en": "The parcel was supposed to come yesterday." },
+        { "native": "आम्ही आज भेटणार होतो, पण त्याने कॅन्सल केलं.", "roman": "āmhī ādz bheṭṇār hoto, paṇ tyāne kænsal kelaṃ.", "en": "We were supposed to meet today, but he cancelled." },
+        { "native": "असं ठरलं होतं की ते पैसे परत देतील.", "roman": "asaṃ ṭharlaṃ hotaṃ kī te paise parat detīl.", "en": "It had been agreed that they'd give the money back." },
+        { "native": "मला आज बँकेत जायचं होतं, विसरलो.", "roman": "malā ādz bæṅket dzāytsaṃ hotaṃ, visarlo.", "en": "I was supposed to go to the bank today — I forgot. (man)" },
+        { "native": "प्लंबर येणार नव्हता का?", "roman": "plambar yeṇār navhtā kā?", "en": "Wasn't the plumber supposed to come?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The wrong phone",
+    "setting": "Rohit, in Andheri, Mumbai, calls an online shop's customer care: the phone he ordered never came — a different, opened one did.",
+    "lines": [
+      { "speaker": "Agent", "native": "नमस्कार, मी प्रिया बोलतेय. मी आपली काय मदत करू शकते?", "roman": "namaskār, mī priyā boltey. mī āplī kāy madat karū shakte?", "en": "Hello, this is Priya. How can I help you?" },
+      { "speaker": "Rohit", "native": "नमस्कार. मी गेल्या आठवड्यात फोन मागवला होता, पण मला चुकीचा फोन मिळाला.", "roman": "namaskār. mī gelyā āṭhavḍyāt fon māgavlā hotā, paṇ malā tsukītsā fon miḷālā.", "en": "Hello. I ordered a phone last week, but I got the wrong one." },
+      { "speaker": "Agent", "native": "माफ करा सर. आपला ऑर्डर नंबर सांगाल का?", "roman": "māph karā sar. āplā ôrḍar nambar sāṅgāl kā?", "en": "I'm sorry, sir. Could you tell me your order number?" },
+      { "speaker": "Rohit", "native": "सांगतो. आणि बॉक्ससुद्धा आधीच उघडलेला होता.", "roman": "sāṅgto. āṇi bôkssuddhā ādhīts ughaḍlelā hotā.", "en": "Sure. And the box had already been opened, too." },
+      { "speaker": "Agent", "native": "एक मिनिट होल्ड करा… सर, आपल्याला रिप्लेसमेंट मिळेल. पाच ते सात दिवस लागतील.", "roman": "ek miniṭ holḍ karā… sar, āplyālā riplesmeṇṭ miḷel. pāts te sāt divas lāgtīl.", "en": "Please hold for a minute… Sir, you'll get a replacement. It'll take five to seven days." },
+      { "speaker": "Rohit", "native": "मागच्या वेळीसुद्धा तुमच्या सहकाऱ्यांनी सांगितलं होतं की तीन दिवसांत होईल. दहा दिवस लागले!", "roman": "māgchyā veḷīsuddhā tumchyā sahakāryānnī sāṅgitlaṃ hotaṃ kī tīn divasānt hoīl. dahā divas lāgle!", "en": "Last time too your colleague said it would be done in three days. It took ten!" },
+      { "speaker": "Agent", "native": "सर, मी समजू शकते.", "roman": "sar, mī samdzū shakte.", "en": "Sir, I understand." },
+      { "speaker": "Rohit", "native": "मला रिप्लेसमेंट नको, मला पूर्ण रिफंड हवा आहे. हा माझा हक्क आहे.", "roman": "malā riplesmeṇṭ nako, malā pūrṇa rifaṇḍ havā āhe. hā mādzhā hakka āhe.", "en": "I don't want a replacement, I want a full refund. It's my right." },
+      { "speaker": "Agent", "native": "ठीक आहे सर. रिफंड पाच दिवसांत आपल्या खात्यात जमा होईल.", "roman": "ṭhīk āhe sar. rifaṇḍ pāts divasānt āplyā khātyāt dzamā hoīl.", "en": "All right, sir. The refund will be credited to your account within five days." },
+      { "speaker": "Rohit", "native": "नक्की ना? नाहीतर मला तुमच्या मॅनेजरशी बोलावं लागेल.", "roman": "nakkī nā? nāhītar malā tumchyā mænejarshī bolāvaṃ lāgel.", "en": "Definitely? Otherwise I'll have to speak to your manager." },
+      { "speaker": "Agent", "native": "नक्की सर. आपली तक्रार नोंदवली आहे. अजून काही मदत हवी आहे का?", "roman": "nakkī sar. āplī takrār nondavlī āhe. adzūn kāhī madat havī āhe kā?", "en": "Definitely, sir. Your complaint has been registered. Is there anything else I can help with?" },
+      { "speaker": "Rohit", "native": "नाही, धन्यवाद. आणि सॉरी, मी जरा चिडलो होतो.", "roman": "nāhī, dhanyavād. āṇi sôrī, mī dzarā chiḍlo hoto.", "en": "No, thank you. And sorry, I was a bit annoyed." },
+      { "speaker": "Agent", "native": "काही हरकत नाही सर. आपला दिवस छान जावो!", "roman": "kāhī harkat nāhī sar. āplā divas chhān dzāvo!", "en": "No problem at all, sir. Have a nice day!" }
+    ]
+  },
+  "culture": "Customer-care lines and banks in Maharashtra usually offer Marathi (press the number for मराठी), and the agents speak a polished, formal Marathi: **आपण** for 'you', **सर / मॅडम**, **कृपया**, **आपली तक्रार नोंदवली आहे**. You don't have to match that — polite **तुम्ही** is perfect — but being firm *and* courteous gets results; shouting usually gets you put on hold.\n\nShops are another story. Many still have the famous sign **एकदा विकलेला माल परत घेतला जाणार नाही** 'goods once sold will not be taken back', and bargaining a fix is often better than insisting on your rights: **काहीतरी तोडगा काढू** 'let's work something out' is the magic phrase. If you really are cheated, consumer courts (**ग्राहक मंच**) exist and work. For a lost or stolen phone in Mumbai or Pune, you file a complaint at the nearest **पोलीस चौकी** or online, block the SIM, and use the government CEIR portal to block the handset — and on the trains, the railway police (GRP) handle it. Losing your temper is called **चिडणे** or **डोकं फिरणे**; ending a row gracefully with **जाऊ दे** 'let it go' is very Marathi.",
+  "lessons": [
+    {
+      "title": "My order went wrong",
+      "tip": { "title": "-णार होता — was supposed to", "body": "- 'Was going to / supposed to': **-णार** + **होता / होती / होतं**: सामान कालच येणार **होतं**.\n- It agrees with the subject: रिफंड मिळणार **होता** (m), मी परत करणार **होते** (woman).\n- 'It was my plan to': मला … **-आयचं होतं**.\n- Negative: **-णार नव्हता**.", "pattern": "… -णार + होता / होती / होतं", "grammar": 2 },
+      "new": ["चुकीचा", "खराब", "रिफंड", "रिप्लेसमेंट", "वॉरंटी", "मला चुकीचं सामान मिळालं.", "बॉक्स आधीच उघडलेला होता.", "माझे पैसे कधी परत मिळतील?"],
+      "sentences": [
+        { "native": "मला चुकीच्या आकाराचा शर्ट मिळाला.", "roman": "malā tsukīchyā ākārātsā sharṭ miḷālā.", "en": "I got a shirt in the wrong size.", "focus": "चुकीच्या", "wrong": ["चुकीचा|tsukītsā", "चुकीची|tsukīchī"] },
+        { "native": "सामान कालच येणार होतं.", "roman": "sāmān kālts yeṇār hotaṃ.", "en": "The stuff was supposed to come yesterday.", "focus": "होतं", "wrong": ["होता|hotā", "होती|hotī"] },
+        { "native": "रिफंड पाच दिवसांत मिळणार होता, अजून आला नाही.", "roman": "rifaṇḍ pāts divasānt miḷṇār hotā, adzūn ālā nāhī.", "en": "The refund was supposed to come in five days — it still hasn't.", "focus": "होता", "wrong": ["होती|hotī", "होतं|hotaṃ"] },
+        { "native": "मी ती बॅग परत करणार होते, पण वेळ मिळाला नाही.", "roman": "mī tī bæg parat karṇār hote, paṇ veḷ miḷālā nāhī.", "en": "I was going to return that bag, but I didn't get time. (woman)", "focus": "होते", "wrong": ["होता|hotā", "होतं|hotaṃ"] },
+        { "native": "फोनची स्क्रीन खराब निघाली.", "roman": "fonchī skrīn kharāb nighālī.", "en": "The phone's screen turned out to be faulty." },
+        { "native": "मला रिफंड हवा आहे, रिप्लेसमेंट नको.", "roman": "malā rifaṇḍ havā āhe, riplesmeṇṭ nako.", "en": "I want a refund, not a replacement.", "focus": "हवा", "wrong": ["हवी|havī", "हवं|havaṃ"] },
+        { "native": "हा फोन वॉरंटीत आहे का?", "roman": "hā fon vôraṇṭīt āhe kā?", "en": "Is this phone under warranty?" },
+        { "native": "वॉरंटी असूनसुद्धा ते पैसे मागतायत.", "roman": "vôraṇṭī asūnsuddhā te paise māgtāyat.", "en": "Even though it's under warranty, they're asking for money." },
+        { "native": "रिप्लेसमेंट कधी येणार होती?", "roman": "riplesmeṇṭ kadhī yeṇār hotī?", "en": "When was the replacement supposed to come?", "focus": "होती", "wrong": ["होता|hotā", "होतं|hotaṃ"] },
+        { "native": "बॉक्स आधीच उघडलेला होता, आणि आत काहीच नव्हतं!", "roman": "bôks ādhīts ughaḍlelā hotā, āṇi āt kāhīts navhtaṃ!", "en": "The box had already been opened, and there was nothing inside!" }
+      ]
+    },
+    {
+      "title": "Calling customer care",
+      "tip": { "title": "On the phone with customer care", "body": "- The agent will be very formal: **आपण**, **आपली तक्रार**, **सर / मॅडम**.\n- You can stay with polite **तुम्ही**: **सांगाल का?**, **मला … बोलायचं आहे**.\n- Firm but polite: **ताबडतोब**, **मॅनेजरशी बोलायचं आहे** — no need to shout." },
+      "new": ["कस्टमर केअर", "मॅनेजर", "ग्राहक", "नोंदवणे", "ताबडतोब", "एक मिनिट होल्ड करा.", "तुमची तक्रार नोंदवली आहे.", "मला तुमच्या मॅनेजरशी बोलायचं आहे."],
+      "sentences": [
+        { "native": "कस्टमर केअरला तीन वेळा फोन लावला.", "roman": "kasṭamar kearlā tīn veḷā fon lāvlā.", "en": "I rang customer care three times." },
+        { "native": "एक मिनिट होल्ड करा, मी तपासतो.", "roman": "ek miniṭ holḍ karā, mī tapāsto.", "en": "Hold for a minute, I'll check. (man)" },
+        { "native": "आपली तक्रार नोंदवली आहे, तिचा नंबर मेसेजवर येईल.", "roman": "āplī takrār nondavlī āhe, titsā nambar mesejvar yeīl.", "en": "Your complaint has been registered; its number will come by message.", "focus": "नोंदवली", "wrong": ["नोंदवला|nondavlā", "नोंदवलं|nondavlaṃ"] },
+        { "native": "मला ताबडतोब मॅनेजरशी बोलायचं आहे.", "roman": "malā tābaḍtob mænejarshī bolāytsaṃ āhe.", "en": "I want to speak to the manager right now." },
+        { "native": "मॅनेजर आत्ता मीटिंगमध्ये आहेत.", "roman": "mænejar āttā mīṭiṅgmadhye āhet.", "en": "The manager is in a meeting right now." },
+        { "native": "मी तुमचा जुना ग्राहक आहे.", "roman": "mī tumtsā dzunā grāhak āhe.", "en": "I'm an old customer of yours." },
+        { "native": "ग्राहकांशी असं बोलतात का?", "roman": "grāhakānshī asaṃ boltāt kā?", "en": "Is that how you talk to customers?" },
+        { "native": "माझी तक्रार ताबडतोब नोंदवा.", "roman": "mādzhī takrār tābaḍtob nondvā.", "en": "Register my complaint right away, please." },
+        { "native": "कस्टमर केअरवाले म्हणाले, 'आम्ही तुम्हाला परत कॉल करू.'", "roman": "kasṭamar kearvāle mhaṇāle, 'āmhī tumhālā parat kôl karū.'", "en": "The customer care people said, 'We'll call you back.'" }
+      ]
+    },
+    {
+      "title": "What exactly did they say?",
+      "tip": { "title": "म्हणाले की… / … असं सांगितलं", "body": "- **X म्हणाला की** + the words, keeping their tense: ते म्हणाले की रिफंड उद्या **येईल**.\n- Or quote first and end with **असं सांगितलं / म्हणाला**.\n- Casual: **येतो म्हणाला**, आला नाही.\n- सांगितलं / विचारलं are ergative: **त्यांनी** सांगितलं, **तिने** विचारलं **की … का**.", "pattern": "X म्हणाला की + words  ·  words + असं सांगितलं", "grammar": 0 },
+      "new": ["स्पष्ट", "उलट", "जबाबदार", "तुम्ही म्हणाला होतात की तीन दिवसांत होईल."],
+      "sentences": [
+        { "native": "ते म्हणाले की रिफंड उद्या येईल.", "roman": "te mhaṇāle kī rifaṇḍ udyā yeīl.", "en": "They said the refund would come tomorrow.", "focus": "म्हणाले", "wrong": ["म्हणाला|mhaṇālā", "म्हणाली|mhaṇālī"] },
+        { "native": "त्यांनी सांगितलं की पैसे खात्यात येतील.", "roman": "tyānnī sāṅgitlaṃ kī paise khātyāt yetīl.", "en": "They told me the money would come into my account.", "focus": "सांगितलं", "wrong": ["सांगितला|sāṅgitlā", "सांगितली|sāṅgitlī"] },
+        { "native": "'दोन तासांत माणूस पाठवतो' असं तो म्हणाला.", "roman": "'don tāsānt māṇūs pāṭhavto' asaṃ to mhaṇālā.", "en": "He said, 'I'll send a man in two hours.'", "focus": "असं", "wrong": ["जसं|dzasaṃ", "की|kī"] },
+        { "native": "येतो म्हणाला, पण आलाच नाही.", "roman": "yeto mhaṇālā, paṇ ālāts nāhī.", "en": "He said he was coming, but he never showed up." },
+        { "native": "मॅनेजरने विचारलं की तुमच्याकडे पावती आहे का.", "roman": "mænejarne vichārlaṃ kī tumchyākaḍe pāvtī āhe kā.", "en": "The manager asked whether you had the receipt.", "focus": "विचारलं", "wrong": ["विचारला|vichārlā", "विचारली|vichārlī"] },
+        { "native": "स्पष्ट सांगा, पैसे परत मिळणार की नाही?", "roman": "spaṣṭa sāṅgā, paise parat miḷṇār kī nāhī?", "en": "Tell me plainly — am I getting the money back or not?" },
+        { "native": "त्या माणसाने स्पष्ट सांगितलं की यात कंपनी जबाबदार नाही.", "roman": "tyā māṇsāne spaṣṭa sāṅgitlaṃ kī yāt kampanī dzabābdār nāhī.", "en": "That man told me straight out that the company isn't responsible for this.", "focus": "की", "wrong": ["कारण|kāraṇ", "म्हणून|mhaṇūn"] },
+        { "native": "तुम्ही म्हणाला होतात की तीन दिवसांत होईल, आज दहा दिवस झाले.", "roman": "tumhī mhaṇālā hotāt kī tīn divasānt hoīl, ādz dahā divas dzhāle.", "en": "You said it'd be done in three days — it's been ten days today.", "focus": "होतात", "wrong": ["होता|hotā", "होतो|hoto"] },
+        { "native": "उलट ते म्हणतात की चूक माझीच आहे!", "roman": "ulaṭ te mhaṇtāt kī tsūk mādzhīts āhe!", "en": "Instead, they're saying it's my fault!" },
+        { "native": "तिने सांगितलं की ती मॅनेजरशी बोलेल.", "roman": "tine sāṅgitlaṃ kī tī mænejarshī bolel.", "en": "She said she'd talk to the manager.", "focus": "तिने", "wrong": ["ती|tī", "तिला|tilā"] }
+      ]
+    },
+    {
+      "title": "At the police post",
+      "tip": { "title": "मला यायला सांगितलं — they told me to come", "body": "- 'Told me to': **मला** + **-आयला सांगितलं**: पोलिसांनी मला उद्या **यायला** सांगितलं.\n- 'Told me not to': quote it: **'जाऊ नकोस' असं** तो म्हणाला.\n- 'Made me': **-आयला लावणे**: तीन फॉर्म **भरायला लावले**.\n- Never the -णे form here: **यायला**, not येणे.", "pattern": "X ने मला + -आयला सांगितलं", "grammar": 1 },
+      "new": ["चौकी", "ब्लॉक करणे", "पुरावा", "नुकसान", "माझा फोन चोरीला गेला, मला तक्रार नोंदवायची आहे."],
+      "sentences": [
+        { "native": "पोलिसांनी मला उद्या चौकीत यायला सांगितलं.", "roman": "polīsānnī malā udyā tsaukīt yāylā sāṅgitlaṃ.", "en": "The police told me to come to the police post tomorrow.", "focus": "यायला", "wrong": ["येतो|yeto", "येणे|yeṇe"] },
+        { "native": "त्यांनी मला सिम ताबडतोब ब्लॉक करायला सांगितलं.", "roman": "tyānnī malā sim tābaḍtob blôk karāylā sāṅgitlaṃ.", "en": "They told me to block the SIM immediately.", "focus": "करायला", "wrong": ["करतो|karto", "करणे|karṇe"] },
+        { "native": "'काळजी करू नका, फोन सापडेल' असं पोलीस म्हणाले.", "roman": "'kāḷjī karū nakā, fon sāpḍel' asaṃ polīs mhaṇāle.", "en": "The police told me not to worry, the phone would turn up." },
+        { "native": "त्यांनी मला तीन फॉर्म भरायला लावले.", "roman": "tyānnī malā tīn fôrm bharāylā lāvle.", "en": "They made me fill in three forms.", "focus": "लावले", "wrong": ["लावला|lāvlā", "लावली|lāvlī"] },
+        { "native": "'पोलिसांकडे जाऊ नकोस' असं तो मला म्हणाला.", "roman": "'polīsānkaḍe dzāū nakos' asaṃ to malā mhaṇālā.", "en": "He told me not to go to the police." },
+        { "native": "तुमच्याकडे काही पुरावा आहे का?", "roman": "tumchyākaḍe kāhī purāvā āhe kā?", "en": "Do you have any proof?" },
+        { "native": "फोनची पावती पुरावा म्हणून आणा.", "roman": "fonchī pāvtī purāvā mhaṇūn āṇā.", "en": "Bring the phone's receipt as proof." },
+        { "native": "माझं खूप नुकसान झालं.", "roman": "mādzhaṃ khūp nuksān dzhālaṃ.", "en": "I lost a lot of money over this." },
+        { "native": "चौकीत त्यांनी माझी तक्रार नोंदवून घेतली.", "roman": "tsaukīt tyānnī mādzhī takrār nondvūn ghetlī.", "en": "At the police post they took down my complaint." }
+      ]
+    },
+    {
+      "title": "Keeping calm and finding a solution",
+      "tip": { "title": "Cooling things down", "body": "- 'Let's…' = stem + **ऊ** (+ **या**): शांतपणे **बोलू**, तोडगा **काढू**.\n- Give them a way out: **गैरसमज झाला असेल** 'there must have been a misunderstanding'.\n- Firm, not rude: **ओरडू नका**; if you lost it: **सॉरी, मी उगाच ओरडलो**." },
+      "new": ["शांतपणे", "गैरसमज", "तोडगा", "तडजोड", "उद्धट", "ओरडणे", "आपण शांतपणे बोलू या.", "यात माझी काही चूक नाही.", "काहीतरी तोडगा काढू."],
+      "sentences": [
+        { "native": "ओरडू नका, आपण शांतपणे बोलू.", "roman": "oraḍū nakā, āpaṇ shāntpaṇe bolū.", "en": "Don't shout — let's talk calmly.", "focus": "बोलू", "wrong": ["बोललो|bollo", "बोलतो|bolto"] },
+        { "native": "काहीतरी गैरसमज झाला असेल.", "roman": "kāhītarī gairsamadz dzhālā asel.", "en": "There must have been some misunderstanding.", "focus": "झाला", "wrong": ["झाली|dzhālī", "झालं|dzhālaṃ"] },
+        { "native": "तो दुकानदार खूप उद्धटपणे बोलला.", "roman": "to dukāndār khūp uddhaṭpaṇe bollā.", "en": "That shopkeeper was really rude." },
+        { "native": "माझ्यावर ओरडू नका, यात माझी काही चूक नाही.", "roman": "mājhyāvar oraḍū nakā, yāt mādzhī kāhī tsūk nāhī.", "en": "Don't shout at me — this isn't my fault.", "focus": "माझ्यावर", "wrong": ["मला|malā", "माझ्याकडे|mājhyākaḍe"] },
+        { "native": "आपण तडजोड करू या: अर्धे पैसे आत्ता, अर्धे नंतर.", "roman": "āpaṇ taḍdzoḍ karū yā: ardhe paise āttā, ardhe nantar.", "en": "Let's compromise: half the money now, half later." },
+        { "native": "काहीतरी तोडगा काढू, भांडून काय मिळणार?", "roman": "kāhītarī toḍgā kāḍhū, bhāṇḍūn kāy miḷṇār?", "en": "Let's find a way out — what's the use of fighting?" },
+        { "native": "मला रिफंड नको, रिप्लेसमेंट चालेल.", "roman": "malā rifaṇḍ nako, riplesmeṇṭ tsālel.", "en": "I don't need a refund — a replacement will do." },
+        { "native": "सॉरी, मी उगाच ओरडलो.", "roman": "sôrī, mī ugāts oraḍlo.", "en": "Sorry, I shouldn't have shouted. (man)", "focus": "ओरडलो", "wrong": ["ओरडला|oraḍlā", "ओरडली|oraḍlī"] },
+        { "native": "यावर एकच तोडगा आहे: नवीन फोन.", "roman": "yāvar ekts toḍgā āhe: navīn fon.", "en": "There's only one way out of this: a new phone." }
+      ]
+    },
+    {
+      "title": "That's a con!",
+      "new": ["फसवणे", "बनावट", "हक्क", "त्यांनी मला फसवलं!", "हा माझा हक्क आहे."],
+      "sentences": [
+        { "native": "त्या दुकानदाराने मला बनावट बूट विकले.", "roman": "tyā dukāndārāne malā banāvaṭ būṭ vikle.", "en": "That shopkeeper sold me fake shoes.", "focus": "विकले", "wrong": ["विकला|viklā", "विकली|viklī"] },
+        { "native": "हा फोन बनावट निघाला.", "roman": "hā fon banāvaṭ nighālā.", "en": "This phone turned out to be fake." },
+        { "native": "कोणीतरी फोनवर बँकेचा माणूस आहे असं सांगून मला फसवलं.", "roman": "koṇītarī fonvar bæṅketsā māṇūs āhe asaṃ sāṅgūn malā phasavlaṃ.", "en": "Someone on the phone pretended to be from the bank and conned me." },
+        { "native": "पैसे परत मिळणं हा माझा हक्क आहे.", "roman": "paise parat miḷṇaṃ hā mādzhā hakka āhe.", "en": "Getting my money back is my right." },
+        { "native": "ग्राहक म्हणून मला माझे हक्क माहीत आहेत.", "roman": "grāhak mhaṇūn malā mādzhe hakka māhīt āhet.", "en": "As a customer, I know my rights." },
+        { "native": "नवीन लोकांना रिक्षावाले कधी कधी फसवतात.", "roman": "navīn lokānnā rikṣāvāle kadhī kadhī phasavtāt.", "en": "Rickshaw drivers sometimes con newcomers." },
+        { "native": "मला फसवलं असं वाटतंय.", "roman": "malā phasavlaṃ asaṃ vāṭtaṃy.", "en": "I feel like I've been conned." },
+        { "native": "तक्रार केल्याशिवाय मी इथून जाणार नाही.", "roman": "takrār kelyāshivāy mī ithūn dzāṇār nāhī.", "en": "I'm not leaving here without making a complaint." }
+      ]
+    }
+  ]
+}

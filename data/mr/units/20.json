@@ -1,102 +1,216 @@
 {
   "id": 20,
-  "title": "Telling stories & real conversation",
-  "goal": "Tell a story with natural connectors, use relative clauses (the man who…, when…, where…), report what people said, and sprinkle in fillers and idioms like a native speaker.",
-  "intro": "You've got the grammar — now it's about sounding natural. Real Marathi conversation is full of little words that glue it together: **मग** (so, then), **म्हणजे** (I mean), **बरं** (well, OK), **ना** (right?), and the hearsay particle **म्हणे** ('apparently').\n\nThis unit also covers Marathi's **correlative** relative clauses — जो… तो…, जेव्हा… तेव्हा…, जिथे… तिथे… — and how to report what someone said. And you'll learn a few much-loved म्हणी (proverbs) to surprise your Marathi friends.",
+  "title": "Real conversation",
+  "goal": "Tell a friend what happened, react while they tell you their news, say which person or thing you mean, pass on what people said and keep a chat going.",
+  "intro": "You have the grammar of Marathi; now it's about sounding like a person, not a textbook. Real conversation is held together by small words: **मग** (so, then), **म्हणजे** (I mean), **बरं** (OK, well), **ना** (right?), **यार** (man, mate) and the hearsay particle **म्हणे** ('apparently').\n\nIn this unit you'll tell a friend what happened to you, react the way Marathi speakers do (**बापरे!** **कमाल आहे!** **बिचारा!**), pick out 'the guy who…' and 'the day when…' with Marathi's paired relative words **जो… तो…**, **जेव्हा… तेव्हा…**, and pass on what someone said with **म्हणाला की…**.",
   "vocab": [
-    { "native": "एकदा", "roman": "ekdā", "en": "once, one time", "pos": "adv", "note": "Stories often start: एकदा काय झालं… 'Once, what happened was…'" },
-    { "native": "तेव्हा", "roman": "tevhā", "en": "then, at that time", "pos": "adv" },
-    { "native": "जेव्हा", "roman": "jevhā", "en": "when (relative)", "pos": "conj", "note": "जेव्हा… तेव्हा… 'when… then…'" },
-    { "native": "जो", "roman": "dzo", "en": "who, which (relative)", "pos": "pron", "note": "f जी, n जे, pl जे / ज्या; oblique ज्या-: ज्याने, ज्याला" },
-    { "native": "जिथे", "roman": "jithe", "en": "where (relative)", "pos": "conj", "note": "जिथे… तिथे… 'where… there…'" },
-    { "native": "जसं", "roman": "dzasaṃ", "en": "as, just as", "pos": "conj", "note": "जसं तुम्ही म्हणाल 'as you say'" },
-    { "native": "असं", "roman": "asaṃ", "en": "like this, so, thus", "pos": "adv", "note": "असं म्हणाला 'said this'; असं का? 'why so?'" },
-    { "native": "तसं", "roman": "tasaṃ", "en": "like that, in that way", "pos": "adv", "note": "तसं नाही 'it's not like that'" },
+    { "native": "एकदा", "roman": "ekdā", "en": "once, one time", "pos": "adv", "note": "The classic opener: एकदा काय झालं… 'so once, what happened was…'" },
+    { "native": "किस्सा", "roman": "kissā", "en": "story, something that happened (an anecdote)", "pos": "noun", "note": "m · कालचा किस्सा 'what happened yesterday'" },
+    { "native": "तेव्हा", "roman": "tevhā", "en": "then, at that point", "pos": "adv", "note": "Pairs with जेव्हा: जेव्हा… तेव्हा… " },
     { "native": "त्यामुळे", "roman": "tyāmuḷe", "en": "because of that, so", "pos": "conj" },
+    { "native": "खरं तर", "roman": "kharaṃ tar", "en": "actually, in fact", "pos": "phrase", "note": "Young people also just say ॲक्च्युअली." },
+    { "native": "गंमत", "roman": "gammat", "en": "fun; a funny thing", "pos": "noun", "note": "f · गंमत म्हणजे… 'the funny thing is…'; गंमत केली 'I was joking'" },
+    { "native": "बापरे", "roman": "bāpre", "en": "wow!; oh no!; my God!", "pos": "interj", "note": "Lit. 'oh father'. Shock, good or bad. Women also say अगं बाई!" },
+    { "native": "बिचारा", "roman": "bitsārā", "en": "poor (thing), poor guy", "pos": "adj", "note": "f बिचारी, pl बिचारे · बिचारा राहुल! " },
+    { "native": "वेडा", "roman": "veḍā", "en": "crazy, mad; idiot (friendly)", "pos": "adj", "note": "f वेडी, n वेडं, pl वेडे · तू वेडा आहेस का? 'are you crazy?' is teasing between friends" },
+    { "native": "मस्करी", "roman": "maskarī", "en": "joke, kidding", "pos": "noun", "note": "f · मस्करी करणे 'to joke, tease'; also थट्टा" },
+    { "native": "जो", "roman": "dzo", "en": "who, which (relative)", "pos": "pron", "note": "f जी, n जे, pl जे / ज्या; oblique ज्या- (ज्याला, ज्या दिवशी)" },
+    { "native": "जिथे", "roman": "jithe", "en": "where (relative)", "pos": "conj", "note": "जिथे… तिथे… 'where… there…'" },
+    { "native": "जेव्हा", "roman": "jevhā", "en": "when (relative)", "pos": "conj", "note": "जेव्हा… तेव्हा… 'when… then…'" },
+    { "native": "भांडण", "roman": "bhāṇḍaṇ", "en": "fight, argument, quarrel", "pos": "noun", "note": "n · भांडण झालं 'there was a fight'; verb भांडणे 'to fight'" },
+    { "native": "घोळ", "roman": "ghoḷ", "en": "mess, mix-up, muddle", "pos": "noun", "note": "m · घोळ झाला 'there's been a mix-up'; घोळ घालू नकोस 'don't mess it up'" },
+    { "native": "भारी", "roman": "bhārī", "en": "awesome, great (colloquial); heavy, expensive", "pos": "adj", "note": "Same for all genders. Very common with लय 'very' in Pune: लय भारी!" },
+    { "native": "म्हणे", "roman": "mhaṇe", "en": "apparently, so they say", "pos": "particle", "note": "Hearsay marker at the end of the clause." },
+    { "native": "कळणे", "roman": "kaḷṇe", "en": "to come to know, find out; to understand", "pos": "verb", "note": "Dative: मला कळलं 'I found out / I got it'; कळलं का? 'got it?'" },
+    { "native": "बद्दल", "roman": "baddal", "en": "about", "pos": "postp", "note": "Joined to the oblique: त्याच्याबद्दल 'about him', कशाबद्दल? 'about what?'" },
+    { "native": "असं", "roman": "asaṃ", "en": "like this, so, thus", "pos": "adv", "note": "असं म्हणाला 'he said (like) this'; असं का? 'why's that?'" },
+    { "native": "तसं", "roman": "tasaṃ", "en": "like that, in that way", "pos": "adv", "note": "तसं नाही 'it's not like that'" },
     { "native": "म्हणजे", "roman": "mhaṇje", "en": "that is; I mean; so (you mean)", "pos": "conj", "note": "म्हणजे काय? 'meaning what?'" },
-    { "native": "तरी", "roman": "tarī", "en": "still, even so; at least", "pos": "adv", "note": "तरीही 'nevertheless'; एक तरी 'at least one'" },
-    { "native": "खरं तर", "roman": "kharaṃ tar", "en": "actually, in fact", "pos": "phrase" },
-    { "native": "उदाहरणार्थ", "roman": "udāharaṇārtha", "en": "for example", "pos": "adv" },
-    { "native": "म्हणे", "roman": "mhaṇe", "en": "apparently, so they say", "pos": "particle", "note": "Hearsay marker at the end of a clause." },
-    { "native": "वगैरे", "roman": "vagaire", "en": "etc., and so on", "pos": "particle" },
+    { "native": "बरं", "roman": "baraṃ", "en": "OK, right, well…", "pos": "interj", "note": "बरं बरं 'OK, OK'; बरं, मग? 'right, and then?'" },
+    { "native": "ना", "roman": "nā", "en": "right?, isn't it? (tag); do… (softener)", "pos": "particle", "note": "हो ना! 'exactly!'; ऐक ना 'listen'" },
+    { "native": "अरे", "roman": "are", "en": "hey; oh (to a man, or to anyone casually)", "pos": "interj", "note": "To a woman: अगं. To someone you call तुम्ही: अहो." },
+    { "native": "अगं", "roman": "agaṃ", "en": "hey; oh (to a woman)", "pos": "interj" },
+    { "native": "यार", "roman": "yār", "en": "man, mate, dude", "pos": "interj", "note": "Between friends of any gender. काय यार! 'come on, man!'" },
     { "native": "बाकी", "roman": "bākī", "en": "the rest; otherwise; anyway", "pos": "adj", "note": "बाकी काय? 'what else is new?'" },
-    { "native": "अरे", "roman": "are", "en": "hey; oh (to a male / general)", "pos": "interj", "note": "To a woman: अगं agaṃ. Respectful: अहो." },
-    { "native": "अगं", "roman": "agaṃ", "en": "hey; oh (to a female)", "pos": "interj" },
-    { "native": "ना", "roman": "nā", "en": "right?, isn't it? (tag); please (softener)", "pos": "particle", "note": "हो ना! 'exactly!'; ये ना 'do come'" },
-    { "native": "किस्सा", "roman": "kissā", "en": "anecdote, funny story", "pos": "noun", "note": "m" },
-    { "native": "गंमत", "roman": "gammat", "en": "fun; a funny thing", "pos": "noun", "note": "f · गंमत म्हणजे… 'the funny thing is…'" },
-    { "native": "मुद्दा", "roman": "muddā", "en": "point, issue", "pos": "noun", "note": "m · मुद्द्याचं बोला 'get to the point'" },
-    { "native": "हसणे", "roman": "hasṇe", "en": "to laugh, smile", "pos": "verb" },
-    { "native": "रडणे", "roman": "raḍṇe", "en": "to cry", "pos": "verb" },
-    { "native": "कळणे", "roman": "kaḷṇe", "en": "to come to know, understand", "pos": "verb", "note": "Dative: मला कळलं 'I understood / I found out'" }
+    { "native": "वगैरे", "roman": "vagaire", "en": "and so on, and stuff", "pos": "particle" },
+    { "native": "गप्पा", "roman": "gappā", "en": "chat, chatting", "pos": "noun", "note": "f pl · गप्पा मारणे 'to chat, hang out talking' (past: गप्पा मारल्या)" },
+    { "native": "हसणे", "roman": "hasṇe", "en": "to laugh, smile", "pos": "verb" }
   ],
   "phrases": [
-    { "native": "म्हणजे काय?", "roman": "mhaṇje kāy?", "en": "Meaning what? / What do you mean?" },
+    { "native": "ऐक ना, काय झालं…", "roman": "aik nā, kāy dzhālaṃ…", "en": "Listen, so what happened was…" },
     { "native": "मग पुढे काय झालं?", "roman": "mag puḍhe kāy dzhālaṃ?", "en": "So what happened next?" },
-    { "native": "काय सांगू!", "roman": "kāy sāṅgū!", "en": "What can I say! / You won't believe it!" },
-    { "native": "खरं सांगू?", "roman": "kharaṃ sāṅgū?", "en": "Honestly? (lit. shall I tell the truth?)" },
-    { "native": "तो म्हणाला की तो येणार नाही.", "roman": "to mhaṇālā kī to yeṇār nāhī.", "en": "He said that he wouldn't come." },
+    { "native": "कमाल आहे!", "roman": "kamāl āhe!", "en": "Amazing! / Unbelievable!" },
+    { "native": "अरे देवा!", "roman": "are devā!", "en": "Oh God! / Oh no!" },
+    { "native": "मस्करी करतोयस का?", "roman": "maskarī kartoys kā?", "en": "Are you kidding? (to a man)", "note": "To a woman: मस्करी करतेयस का?" },
+    { "native": "हो ना!", "roman": "ho nā!", "en": "Exactly! / I know, right!" },
+    { "native": "तो म्हणाला की तो येणार नाही.", "roman": "to mhaṇālā kī to yeṇār nāhī.", "en": "He said he wouldn't come." },
     { "native": "ती उद्या येणार आहे म्हणे.", "roman": "tī udyā yeṇār āhe mhaṇe.", "en": "Apparently she's coming tomorrow." },
+    { "native": "म्हणजे काय?", "roman": "mhaṇje kāy?", "en": "Meaning what? / What do you mean?" },
+    { "native": "सगळं नीट सांग.", "roman": "sagḷaṃ nīṭ sāṅg.", "en": "Tell me everything properly. (informal)" },
+    { "native": "मी कुठे होतो?", "roman": "mī kuṭhe hoto?", "en": "Where was I? (man speaking)", "note": "Woman: मी कुठे होते?" },
+    { "native": "बाकी काय म्हणतोस?", "roman": "bākī kāy mhaṇtos?", "en": "So what's new with you? (to a man)", "note": "To a woman: म्हणतेस; polite: म्हणता" },
+    { "native": "खरं सांगू?", "roman": "kharaṃ sāṅgū?", "en": "Honestly? / Shall I be honest?" },
+    { "native": "काय सांगू!", "roman": "kāy sāṅgū!", "en": "Don't ask! / What can I say!" },
     { "native": "जाऊ दे.", "roman": "dzāū de.", "en": "Forget it. / Let it go." },
-    { "native": "बाकी काय म्हणतोस?", "roman": "bākī kāy mhaṇtos?", "en": "So what else is new? (to a man)" },
-    { "native": "डोकं खाऊ नकोस!", "roman": "ḍokaṃ khāū nakos!", "en": "Stop pestering me! (lit. don't eat my head)" },
-    { "native": "पोटात कावळे ओरडतायत.", "roman": "poṭāt kāvḷe oraḍtāyat.", "en": "I'm starving. (lit. crows are cawing in my stomach)" },
-    { "native": "एका हाताने टाळी वाजत नाही.", "roman": "ekā hātāne ṭāḷī vādzat nāhī.", "en": "It takes two to tango. (lit. one hand can't clap)" },
-    { "native": "नाचता येईना अंगण वाकडे.", "roman": "nātstā yeīnā aṅgaṇ vākḍe.", "en": "A bad workman blames his tools. (lit. can't dance, so the courtyard is crooked)" },
-    { "native": "हो ना!", "roman": "ho nā!", "en": "Exactly! / I know, right!" }
+    { "native": "डोकं खाऊ नकोस!", "roman": "ḍokaṃ khāū nakos!", "en": "Stop pestering me! (lit. don't eat my head)" }
   ],
   "grammar": [
     {
       "title": "Relative clauses: जो… तो…, जेव्हा… तेव्हा…",
-      "body": "Marathi builds 'the man who…' sentences with a **pair** of words: a relative word in the first clause and a matching demonstrative in the second.\n\n**जो… तो** 'the one who… he': जो माणूस आला, तो माझा मामा आहे 'The man who came is my uncle.' (f: जी… ती; n: जे… ते)\n**जे… ते** 'what… that': जे झालं ते झालं 'what's done is done'\n**जेव्हा… तेव्हा** 'when… then': जेव्हा मी पोहोचलो, तेव्हा सगळे झोपले होते\n**जिथे… तिथे** 'where… there': जिथे तू राहतोस, तिथे खूप झाडं आहेत\n**जसं… तसं** 'as… so'\n\nIn everyday speech these are often replaced by a **participle** before the noun: मी वाचलेलं पुस्तक 'the book I read', काल आलेला माणूस 'the man who came yesterday'.",
+      "body": "English says 'the man **who** came is my uncle'. Marathi uses a **pair**: a relative word (starting with ज-) in the first clause, and a matching 'that' word (starting with त-) to pick it up in the second.\n\n**जो… तो** 'the one who/which… he/that': **जो** माणूस आला, **तो** माझा मामा आहे 'The man who came is my uncle.' The relative word agrees like an adjective: **जो** (m), **जी** (f), **जे** (n), **जे / ज्या** (pl), and before a postposition or a noun it becomes **ज्या**: **ज्याला**, **ज्या दिवशी** 'the day when'.\n**जे… ते** 'what… that': जे झालं ते झालं 'what happened, happened'.\n**जेव्हा… तेव्हा** 'when… then': जेव्हा मी पोहोचलो, तेव्हा सगळे झोपले होते.\n**जिथे… तिथे** 'where… there'.\n\nThe ज- clause usually comes **first**. In everyday speech the त- word is often dropped when it's obvious, and very often people use a **participle** instead: मी काल पाहिलेला सिनेमा 'the film I saw yesterday' (पाहिलेला / पाहिलेली / पाहिलेलं agree with the noun).\n\nThe trap: don't use the question words कोण / कधी / कुठे for 'who / when / where' in these sentences — कोण माणूस आला? is a question, not a relative clause.",
       "examples": [
         { "native": "जो मुलगा तिथे उभा आहे, तो माझा भाऊ आहे.", "roman": "dzo mulgā tithe ubhā āhe, to mādzhā bhāū āhe.", "en": "The boy who is standing there is my brother." },
-        { "native": "जी साडी मी घेतली, ती खूप महाग होती.", "roman": "jī sāḍī mī ghetlī, tī khūp mahāg hotī.", "en": "The sari that I bought was very expensive." },
-        { "native": "जेव्हा मी लहान होतो, तेव्हा आम्ही गावी राहायचो.", "roman": "jevhā mī lahān hoto, tevhā āmhī gāvī rāhāytso.", "en": "When I was small, we used to live in the village." },
+        { "native": "जी साडी मी घेतली, ती खूप महाग होती.", "roman": "jī sāḍī mī ghetlī, tī khūp mahāg hotī.", "en": "The sari I bought was really expensive." },
+        { "native": "जेव्हा मी लहान होतो, तेव्हा आम्ही नाशिकला राहायचो.", "roman": "jevhā mī lahān hoto, tevhā āmhī nāshiklā rāhāytso.", "en": "When I was little, we used to live in Nashik." },
         { "native": "जिथे चांगला वडापाव मिळतो, तिथे गर्दी असते.", "roman": "jithe tsāṅglā vaḍāpāv miḷto, tithe gardī aste.", "en": "Wherever you get good vada pav, there's a crowd." },
         { "native": "मी काल पाहिलेला सिनेमा छान होता.", "roman": "mī kāl pāhilelā sinemā chhān hotā.", "en": "The film I saw yesterday was good." }
       ]
     },
     {
-      "title": "Reporting speech: म्हणाला की…, असं म्हणाला, म्हणे",
-      "body": "**With की:** X म्हणाला / म्हणाली की + what was said. Marathi often keeps the original wording (like a direct quote) without shifting tense: तो म्हणाला की मी उद्या येईन 'He said (that) he'd come tomorrow' (lit. 'I will come').\n\n**Quote + असं म्हणाला / म्हणून सांगितलं:** 'मी येईन' असं तो म्हणाला.\n\n**Questions:** X ने विचारलं की + question: तिने विचारलं की तू कधी येणार? 'She asked when you're coming.'\n\n**Hearsay:** add **म्हणे** at the end: तो आजारी आहे म्हणे 'Apparently he's ill.'\n\nNote: म्हणणे in the past is used intransitively (तो म्हणाला, ती म्हणाली) or ergatively (त्याने म्हटलं) — both are common.",
+      "title": "Passing on what someone said: म्हणाला की…, असं म्हणाला, म्हणे",
+      "body": "**With की:** X **म्हणाला / म्हणाली की** + what was said. Marathi usually keeps the speaker's own tense and often their own words, much like a quote: तो म्हणाला की मी उद्या येईन 'he said he'd come tomorrow' (lit. 'he said that I will come tomorrow'). Listeners understand from context who 'I' is.\n\n**Quote + असं म्हणाला:** “मी येईन” **असं** तो म्हणाला — 'he said, “I'll come.”' This is very common in storytelling.\n\n**Reporting a question:** X ने **विचारलं की** + the question, keeping का for yes/no: तिने विचारलं की तू जेवलास का 'she asked whether you'd eaten'.\n\n**Reporting news:** X ने **सांगितलं की…** 'X told (me) that…' — सांगणे takes the ergative (त्याने, तिने), and the verb is neuter सांगितलं.\n\n**Hearsay:** put **म्हणे** at the end of a sentence for 'apparently, I hear': तो आजारी आहे म्हणे.\n\nNote: म्हणणे has two pasts: **तो म्हणाला** (agrees with the speaker) and **त्याने म्हटलं** (ergative). Both are everyday.",
       "examples": [
         { "native": "ती म्हणाली की तिला बरं वाटत नाही.", "roman": "tī mhaṇālī kī tilā baraṃ vāṭat nāhī.", "en": "She said she isn't feeling well." },
-        { "native": "'मी उशिरा येईन' असं तो म्हणाला.", "roman": "'mī ushirā yeīn' asaṃ to mhaṇālā.", "en": "He said, 'I'll come late.'" },
+        { "native": "“मी उशिरा येईन” असं तो म्हणाला.", "roman": "“mī ushirā yeīn” asaṃ to mhaṇālā.", "en": "He said, “I'll be late.”" },
         { "native": "आईने विचारलं की तू जेवलास का.", "roman": "āīne vichārlaṃ kī tū jevlās kā.", "en": "Mum asked whether you'd eaten." },
         { "native": "त्यांनी सांगितलं की ऑफिस उद्या बंद आहे.", "roman": "tyānnī sāṅgitlaṃ kī ôfis udyā band āhe.", "en": "They said the office is closed tomorrow." },
         { "native": "उद्या बँका बंद आहेत म्हणे.", "roman": "udyā bæṅkā band āhet mhaṇe.", "en": "Apparently the banks are closed tomorrow." }
       ]
     },
     {
-      "title": "Story glue: connectors and fillers",
-      "body": "**Sequencing a story:** एकदा (once) → मग (then) → तेव्हा (at that point) → त्यानंतर (after that) → अचानक (suddenly) → शेवटी (in the end). A classic opener: **एकदा काय झालं…** 'So once, what happened was…'\n\n**Fillers you'll hear constantly:**\n**म्हणजे** — 'I mean…, like…'\n**बरं** — 'well…, OK…'; also 'got it'\n**ना** — tag 'right?': आपण उद्या भेटतोय ना?\n**अरे / अगं / अहो** — to grab attention or express surprise\n**हं** — 'mm-hmm, I'm listening'\n**काय म्हणतात ते** — 'what do you call it' (when searching for a word)\n**-च** — emphasis on any word: मीच 'I myself', आजच 'today itself'\n\n**Reactions:** बापरे! (wow / oh no!) · अरेरे! (oh dear) · खरंच? (really?) · कमाल आहे! (amazing!) · हो ना! (exactly!)",
+      "title": "Telling what happened: openers, reactions and fillers",
+      "body": "**Opening:** **ऐक ना, काय झालं…** or **एकदा काय झालं…** 'so, what happened was…'. Asking for it: **काय झालं?**, **सगळं नीट सांग**.\n\n**Moving the story on:** मग (then) → तेव्हा (at that point) → त्यामुळे (so, because of that) → अचानक (suddenly) → शेवटी (in the end). **खरं तर** 'actually' adds a twist; **गंमत म्हणजे…** 'the funny thing is…'.\n\n**Reacting as you listen** (a silent listener seems bored): **बापरे!** (wow / oh no) · **अरे देवा!** (oh God) · **खरंच?** (really?) · **कमाल आहे!** (amazing!) · **हो ना!** (exactly!) · **बिचारा / बिचारी!** (poor thing!) · **मग?** (and then?) · **हं** (mm-hm).\n\n**Fillers:** **म्हणजे** 'I mean…' · **बरं** 'OK, right…' · **ना** at the end 'right?' (उद्या भेटतोय ना?) and after a command as a softener (ऐक ना) · **यार** 'man' · **अरे / अगं / अहो** to call someone or show surprise · **बाकी** 'anyway, what else'.\n\n**-च for emphasis:** put -च on the word you stress: मीच 'I myself', आजच 'today itself', तिथेच 'right there'.",
       "examples": [
-        { "native": "एकदा काय झालं, मी बसमध्ये झोपलो.", "roman": "ekdā kāy dzhālaṃ, mī basmadhye dzhoplo.", "en": "So once, what happened was, I fell asleep on the bus." },
+        { "native": "एकदा काय झालं, मी बसमध्ये झोपलो आणि शेवटच्या स्टॉपला उठलो.", "roman": "ekdā kāy dzhālaṃ, mī basmadhye dzhoplo āṇi shevaṭchyā sṭôplā uṭhlo.", "en": "So once I fell asleep on the bus and woke up at the last stop." },
         { "native": "म्हणजे, मला तसं म्हणायचं नव्हतं.", "roman": "mhaṇje, malā tasaṃ mhaṇāytsaṃ navhtaṃ.", "en": "I mean, I didn't mean it like that." },
         { "native": "आपण उद्या भेटतोय ना?", "roman": "āpaṇ udyā bheṭtoy nā?", "en": "We're meeting tomorrow, right?" },
-        { "native": "कमाल आहे! मग पुढे?", "roman": "kamāl āhe! mag puḍhe?", "en": "Amazing! And then?" },
+        { "native": "बापरे! मग पुढे?", "roman": "bāpre! mag puḍhe?", "en": "Oh no! And then?" },
         { "native": "मीच तुला फोन करणार होतो.", "roman": "mīts tulā fon karṇār hoto.", "en": "I was just about to call you myself." }
       ]
     }
   ],
   "dialogue": {
-    "title": "The monkey of Matheran",
-    "setting": "Ketan tells his friend Manasi a story from a trip to the hill station of Matheran, near Mumbai.",
+    "title": "The interview in Hinjewadi",
+    "setting": "Pune, a tea stall near FC Road. Omkar meets his friend Sakshi the day after her job interview at an IT park in Hinjewadi.",
     "lines": [
-      { "speaker": "Ketan", "native": "तुला माथेरानचा किस्सा सांगितला का?", "roman": "tulā mātherāntsā kissā sāṅgitlā kā?", "en": "Did I tell you the Matheran story?" },
-      { "speaker": "Manasi", "native": "नाही! काय झालं?", "roman": "nāhī! kāy dzhālaṃ?", "en": "No! What happened?" },
-      { "speaker": "Ketan", "native": "एकदा आम्ही सगळे मित्र माथेरानला गेलो होतो.", "roman": "ekdā āmhī sagḷe mitra mātherānlā gelo hoto.", "en": "Once all of us friends had gone to Matheran." },
-      { "speaker": "Ketan", "native": "आम्ही जिथे बसलो होतो, तिथे खूप माकडं होती.", "roman": "āmhī jithe baslo hoto, tithe khūp mākḍaṃ hotī.", "en": "Where we were sitting, there were lots of monkeys." },
-      { "speaker": "Manasi", "native": "मग?", "roman": "mag?", "en": "And?" },
-      { "speaker": "Ketan", "native": "मग अचानक एक माकड आलं आणि राहुलचा वडापाव घेऊन पळालं!", "roman": "mag achānak ek mākaḍ ālaṃ āṇi rāhultsā vaḍāpāv gheūn paḷālaṃ!", "en": "Then suddenly a monkey came and ran off with Rahul's vada pav!" },
-      { "speaker": "Manasi", "native": "अरे देवा! मग राहुलने काय केलं?", "roman": "are devā! mag rāhulne kāy kelaṃ?", "en": "Oh God! So what did Rahul do?" },
-      { "speaker": "Ketan", "native": "तो माकडाच्या मागे पळाला, आणि त्याचा चष्मा पण पडला!", "roman": "to mākḍāchyā māge paḷālā, āṇi tyātsā tsaṣmā paṇ paḍlā!", "en": "He ran after the monkey, and his glasses fell off too!" },
-      { "speaker": "Manasi", "native": "बिचारा! शेवटी काय झालं?", "roman": "bitsārā! shevaṭī kāy dzhālaṃ?", "en": "Poor guy! What happened in the end?" },
-      { "speaker": "Ketan", "native": "शेवटी जो माणूस तिथे शेंगदाणे विकत होता, त्याने माकडाला शेंगदाणे दिले आणि चष्मा परत मिळवला.", "roman": "shevaṭī dzo māṇūs tithe sheṅgdāṇe vikat hotā, tyāne mākḍālā sheṅgdāṇe dile āṇi tsaṣmā parat miḷavlā.", "en": "In the end, the man who was selling peanuts there gave the monkey some peanuts and got the glasses back." },
-      { "speaker": "Manasi", "native": "म्हणजे वडापाव गेला, पण चष्मा वाचला!", "roman": "mhaṇje vaḍāpāv gelā, paṇ tsaṣmā vātslā!", "en": "So the vada pav was gone, but the glasses were saved!" },
-      { "speaker": "Ketan", "native": "हो ना! राहुल म्हणतो, 'मी परत कधीच माथेरानला जाणार नाही!'", "roman": "ho nā! rāhul mhaṇto, 'mī parat kadhīts mātherānlā dzāṇār nāhī!'", "en": "Exactly! Rahul says, 'I'm never going to Matheran again!'" }
+      { "speaker": "Omkar", "native": "अगं साक्षी! कालची मुलाखत कशी झाली?", "roman": "agaṃ sākṣī! kāltsī mulākhat kashī dzhālī?", "en": "Hey Sakshi! How did yesterday's interview go?" },
+      { "speaker": "Sakshi", "native": "काय सांगू! ऐक ना, काय झालं…", "roman": "kāy sāṅgū! aik nā, kāy dzhālaṃ…", "en": "Don't ask! Listen, so what happened was…" },
+      { "speaker": "Sakshi", "native": "मी वेळेवर निघाले, पण रस्त्यात खूप ट्रॅफिक होतं.", "roman": "mī veḷevar nighāle, paṇ rastyāt khūp ṭræfik hotaṃ.", "en": "I left on time, but there was loads of traffic on the way." },
+      { "speaker": "Omkar", "native": "बापरे! मग?", "roman": "bāpre! mag?", "en": "Oh no! And then?" },
+      { "speaker": "Sakshi", "native": "मी अर्धा तास उशिरा पोहोचले. तेव्हा मला वाटलं, संपलं सगळं!", "roman": "mī ardhā tās ushirā pohotsle. tevhā malā vāṭlaṃ, samplaṃ sagḷaṃ!", "en": "I got there half an hour late. At that point I thought, that's it, it's all over!" },
+      { "speaker": "Omkar", "native": "बिचारी! मग पुढे काय झालं?", "roman": "bitsārī! mag puḍhe kāy dzhālaṃ?", "en": "Poor you! So what happened next?" },
+      { "speaker": "Sakshi", "native": "गंमत म्हणजे, जो माणूस माझी मुलाखत घेणार होता, तोही ट्रॅफिकमध्ये अडकला होता!", "roman": "gammat mhaṇje, dzo māṇūs mājhī mulākhat gheṇār hotā, tohī ṭræfikmadhye aḍaklā hotā!", "en": "The funny thing is, the man who was going to interview me was stuck in traffic too!" },
+      { "speaker": "Omkar", "native": "खरंच? कमाल आहे!", "roman": "kharaṃts? kamāl āhe!", "en": "Really? Unbelievable!" },
+      { "speaker": "Sakshi", "native": "हो ना! तो आल्या आल्या म्हणाला, “सॉरी, मला उशीर झाला.”", "roman": "ho nā! to ālyā ālyā mhaṇālā, “sorī, malā ushīr dzhālā.”", "en": "I know! The moment he walked in he said, “Sorry, I’m late.”" },
+      { "speaker": "Omkar", "native": "म्हणजे तुझा उशीर कोणाला कळलाच नाही!", "roman": "mhaṇje tudzhā ushīr koṇālā kaḷlāts nāhī!", "en": "So nobody even found out you were late!" },
+      { "speaker": "Sakshi", "native": "बरोबर! मुलाखत पण छान झाली. पुढच्या आठवड्यात कळेल म्हणे.", "roman": "barobar! mulākhat paṇ chhān dzhālī. puḍhchyā āṭhavḍyāt kaḷel mhaṇe.", "en": "Exactly! And the interview went well too. Apparently I'll hear next week." },
+      { "speaker": "Omkar", "native": "भारी! मग आज चहा तुझ्याकडून!", "roman": "bhārī! mag ādz tsahā tujhyākaḍūn!", "en": "Awesome! Then today's tea is on you!" },
+      { "speaker": "Sakshi", "native": "अजून नोकरी मिळाली नाहीये, यार! बरं, ठीक आहे, मी देते.", "roman": "adzūn nokrī miḷālī nāhīye, yār! baraṃ, ṭhīk āhe, mī dete.", "en": "I haven't even got the job yet, man! OK, fine, I'll pay." }
     ]
   },
-  "culture": "Marathi has a rich store of **म्हणी** (proverbs) and **वाक्प्रचार** (idioms), and dropping one into conversation always gets a smile: **नाचता येईना अंगण वाकडे** (blaming the courtyard for bad dancing), **आपला तो बाब्या, दुसऱ्याचं ते कार्टं** (my child's a darling, yours is a brat — double standards), **दुरून डोंगर साजरे** (hills look lovely from afar — the grass is greener). Matheran, by the way, is a real car-free hill station near Mumbai, and its monkeys really will steal your snacks. Congratulations on finishing the course — आता मराठीत गप्पा मारायला सुरुवात करा!"
+  "culture": "Marathi listeners are active: a story is met with a running stream of **हं**, **मग?**, **बापरे!**, **खरंच?** and **हो ना!**, and staying silent can seem cold. Women often say **अगं बाई!** for surprise, and everyone says **अरे देवा!**. Friends address each other with **अरे** (to a man) and **अगं** (to a woman), and switch to **अहो** for anyone they call तुम्ही — an aunty, a shopkeeper, an older colleague. Spoken Marathi drops sounds all the time: **नाहीये** for नाही आहे, **काय करतोयस** for करत आहेस, and Pune and Mumbai speakers mix in English freely (**actually**, **basically**, **full टेन्शन**). Pune has a reputation for dry, sarcastic humour (the famous **पुणेरी पाट्या**, sharp signboards outside shops), so a deadpan reply is often a joke — **वेडा आहेस का?** between friends is affectionate, not rude. When a friend has been talking for a while, **बाकी काय म्हणतोस?** ('so, what else?') is the polite way to turn the conversation back to them.",
+  "lessons": [
+    {
+      "title": "Telling a friend what happened",
+      "tip": { "title": "एकदा काय झालं… मग… तेव्हा… शेवटी…", "body": "- Start with **ऐक ना, काय झालं…** or **एकदा काय झालं…** 'so, what happened was…'.\n- Move on with **मग** 'then', **तेव्हा** 'at that point', **त्यामुळे** 'so, because of that', **शेवटी** 'in the end'.\n- **खरं तर** 'actually' adds a twist; **गंमत म्हणजे…** 'the funny thing is…'.", "pattern": "एकदा काय झालं… → मग… → तेव्हा… → शेवटी…", "grammar": 2 },
+      "new": ["एकदा", "किस्सा", "ऐक ना, काय झालं…", "तेव्हा", "त्यामुळे", "खरं तर", "गंमत", "मग पुढे काय झालं?"],
+      "sentences": [
+        { "native": "तुला कालचा किस्सा सांगितला का?", "roman": "tulā kāltsā kissā sāṅgitlā kā?", "en": "Did I tell you what happened yesterday?" },
+        { "native": "एकदा काय झालं, मी बसमध्ये माझा फोन विसरलो.", "roman": "ekdā kāy dzhālaṃ, mī basmadhye mādzhā fon visarlo.", "en": "So once, what happened was, I left my phone on the bus.", "focus": "एकदा", "wrong": ["आता|ātā", "उद्या|udyā"] },
+        { "native": "ऐक ना, काय झालं, आज ऑफिसमध्ये वीज गेली.", "roman": "aik nā, kāy dzhālaṃ, ādz ôfismadhye vīdz gelī.", "en": "Listen, so what happened was, the power went at the office today." },
+        { "native": "मी स्टेशनला पोहोचलो, तेव्हा ट्रेन निघाली होती.", "roman": "mī sṭeshanlā pohotslo, tevhā ṭren nighālī hotī.", "en": "By the time I got to the station, the train had left.", "focus": "तेव्हा", "wrong": ["त्यामुळे|tyāmuḷe", "उद्या|udyā"] },
+        { "native": "पाऊस खूप होता, त्यामुळे आम्ही घरीच थांबलो.", "roman": "pāūs khūp hotā, tyāmuḷe āmhī gharīts thāmblo.", "en": "It was pouring, so we just stayed home.", "focus": "त्यामुळे", "wrong": ["तेव्हा|tevhā", "पण|paṇ"] },
+        { "native": "तो खूप थकला होता, त्यामुळे लवकर झोपला.", "roman": "to khūp thaklā hotā, tyāmuḷe lavkar dzhoplā.", "en": "He was really tired, so he went to bed early.", "focus": "त्यामुळे", "wrong": ["पण|paṇ", "किंवा|kiṃvā"] },
+        { "native": "खरं तर, मला तो सिनेमा आवडलाच नाही.", "roman": "kharaṃ tar, malā to sinemā āvaḍlāts nāhī.", "en": "Actually, I didn't like that film at all." },
+        { "native": "गंमत म्हणजे, तोही तिथेच होता!", "roman": "gammat mhaṇje, tohī tithets hotā!", "en": "The funny thing is, he was there too!" },
+        { "native": "मग पुढे काय झालं? फोन सापडला का?", "roman": "mag puḍhe kāy dzhālaṃ? fon sāpaḍlā kā?", "en": "So what happened next? Did you find the phone?" },
+        { "native": "शेवटी एका काकांनी माझा फोन मला परत दिला.", "roman": "shevaṭī ekā kākānnī mādzhā fon malā parat dilā.", "en": "In the end some uncle gave my phone back to me.", "focus": "शेवटी", "wrong": ["एकदा|ekdā", "उद्या|udyā"] }
+      ]
+    },
+    {
+      "title": "Reacting while you listen",
+      "tip": { "title": "बापरे! कमाल आहे! बिचारा!", "body": "- React all the time: **बापरे!** (wow / oh no), **अरे देवा!** (oh God), **कमाल आहे!** (amazing!), **हो ना!** (exactly!).\n- **बिचारा** 'poor thing' and **वेडा** 'crazy' agree like adjectives: बिचारा / बिचारी / बिचारे, वेडा / वेडी / वेडे.\n- **तू वेडा आहेस का?** between friends is teasing, not an insult." },
+      "new": ["बापरे", "कमाल आहे!", "अरे देवा!", "बिचारा", "वेडा", "मस्करी", "मस्करी करतोयस का?", "हो ना!"],
+      "sentences": [
+        { "native": "बापरे! तू पूर्ण भिजलास!", "roman": "bāpre! tū pūrṇa bhidzlās!", "en": "Oh no! You're soaked!" },
+        { "native": "बिचारी! तिला खूप ताप आहे का?", "roman": "bitsārī! tilā khūp tāp āhe kā?", "en": "Poor thing! Has she got a high fever?", "focus": "बिचारी", "wrong": ["बिचारा|bitsārā", "बिचारे|bitsāre"] },
+        { "native": "बिचारा राहुल, त्याचं पाकीट चोरीला गेलं.", "roman": "bitsārā rāhul, tyātsaṃ pākīṭ tsorīlā gelaṃ.", "en": "Poor Rahul, his wallet got stolen.", "focus": "बिचारा", "wrong": ["बिचारी|bitsārī", "बिचारे|bitsāre"] },
+        { "native": "तू वेडा आहेस का? रात्री तीन वाजता फोन करतोस?", "roman": "tū veḍā āhes kā? rātrī tīn vādztā fon kartos?", "en": "Are you crazy? Calling at three in the morning? (to a man)", "focus": "वेडा", "wrong": ["वेडी|veḍī", "वेडे|veḍe"] },
+        { "native": "ती वेडी आहे, पावसात फिरायला गेली!", "roman": "tī veḍī āhe, pāvsāt phirāylā gelī!", "en": "She's mad, she went out for a walk in the rain!", "focus": "वेडी", "wrong": ["वेडा|veḍā", "वेडं|veḍaṃ"] },
+        { "native": "कमाल आहे! तू एका दिवसात पूर्ण पुस्तक वाचलंस?", "roman": "kamāl āhe! tū ekā divsāt pūrṇa pustak vāchlaṃs?", "en": "Amazing! You read the whole book in one day?" },
+        { "native": "मस्करी नको, खरं सांग!", "roman": "maskarī nako, kharaṃ sāṅg!", "en": "No kidding, tell me the truth!" },
+        { "native": "हो ना! मलाही तेच वाटलं.", "roman": "ho nā! malāhī tets vāṭlaṃ.", "en": "I know, right! That's exactly what I thought too." },
+        { "native": "अरे देवा! आता काय करायचं?", "roman": "are devā! ātā kāy karāytsaṃ?", "en": "Oh God! What do we do now?" },
+        { "native": "माझे बिचारे मित्र दोन तास पावसात थांबले.", "roman": "mājhe bitsāre mitra don tās pāvsāt thāmble.", "en": "My poor friends waited two hours in the rain.", "focus": "बिचारे", "wrong": ["बिचारा|bitsārā", "बिचारी|bitsārī"] }
+      ]
+    },
+    {
+      "title": "Saying which one you mean",
+      "tip": { "title": "जो… तो… — the one who…", "body": "- Marathi uses a pair: **जो** माणूस आला, **तो** माझा मित्र आहे 'the man who came is my friend'.\n- जो agrees: **जो** (m), **जी** (f), **जे** (n / pl); before a noun in another case: **ज्या** (ज्या दिवशी 'the day when').\n- Same idea: **जेव्हा… तेव्हा** 'when…', **जिथे… तिथे** 'where…', **जे… ते** 'what…'.", "pattern": "जो + noun + …, तो + …", "grammar": 0 },
+      "new": ["जो", "जिथे", "जेव्हा", "भांडण", "घोळ", "भारी"],
+      "sentences": [
+        { "native": "जो मुलगा काल आला होता, तो माझा मित्र आहे.", "roman": "dzo mulgā kāl ālā hotā, to mādzhā mitra āhe.", "en": "The guy who came yesterday is my friend.", "focus": "जो", "wrong": ["जी|jī", "जे|je"] },
+        { "native": "जी मुलगी लाल ड्रेसमध्ये आहे, ती माझी बहीण आहे.", "roman": "jī mulgī lāl ḍresmadhye āhe, tī mājhī bahīṇ āhe.", "en": "The girl in the red dress is my sister.", "focus": "जी", "wrong": ["जो|dzo", "जे|je"] },
+        { "native": "जे झालं ते झालं, आता भांडण नको.", "roman": "je dzhālaṃ te dzhālaṃ, ātā bhāṇḍaṇ nako.", "en": "What's done is done, no more fighting now.", "focus": "जे", "wrong": ["जो|dzo", "जी|jī"] },
+        { "native": "जिथे आपण मागच्या वेळी भेटलो, तिथेच भेटू.", "roman": "jithe āpaṇ māgchyā veḷī bheṭlo, tithets bheṭū.", "en": "Let's meet where we met last time.", "focus": "जिथे", "wrong": ["जेव्हा|jevhā", "जो|dzo"] },
+        { "native": "जेव्हा मी पोहोचलो, तेव्हा सगळे जेवत होते.", "roman": "jevhā mī pohotslo, tevhā sagḷe jevat hote.", "en": "When I got there, everyone was eating.", "focus": "जेव्हा", "wrong": ["जिथे|jithe", "जो|dzo"] },
+        { "native": "ज्या दिवशी माझी परीक्षा होती, त्याच दिवशी वीज गेली.", "roman": "jyā divshī mājhī parīkṣā hotī, tyāts divshī vīdz gelī.", "en": "The very day I had my exam, the power went.", "focus": "ज्या", "wrong": ["जो|dzo", "जी|jī"] },
+        { "native": "काल आपण जो सिनेमा पाहिला, तो भारी होता!", "roman": "kāl āpaṇ dzo sinemā pāhilā, to bhārī hotā!", "en": "The film we saw yesterday was awesome!", "focus": "जो", "wrong": ["जी|jī", "जे|je"] },
+        { "native": "मी काल घेतलेला फोन भारी आहे.", "roman": "mī kāl ghetlelā fon bhārī āhe.", "en": "The phone I bought yesterday is great.", "focus": "घेतलेला", "wrong": ["घेतलेली|ghetlelī", "घेतलेलं|ghetlelaṃ"] },
+        { "native": "काल मोठा घोळ झाला, मी चुकीच्या दिवशी आलो!", "roman": "kāl moṭhā ghoḷ dzhālā, mī tsukīchyā divshī ālo!", "en": "There was a big mix-up yesterday, I came on the wrong day!" },
+        { "native": "त्यांचं भांडण का झालं?", "roman": "tyāntsaṃ bhāṇḍaṇ kā dzhālaṃ?", "en": "Why did they have a fight?" }
+      ]
+    },
+    {
+      "title": "Passing on what someone said",
+      "tip": { "title": "तो म्हणाला की… · … म्हणे", "body": "- **X म्हणाला / म्हणाली की** + their words, usually in their own tense: ती म्हणाली की ती येते.\n- Or quote and add **असं**: “मी येतो” असं तो म्हणाला.\n- Questions: **विचारलं की** … ; news: **सांगितलं की** … (त्याने / तिने + neuter verb).\n- **म्हणे** at the end = 'apparently, I hear'.", "pattern": "तो म्हणाला की … · … म्हणे", "grammar": 1 },
+      "new": ["म्हणे", "तो म्हणाला की तो येणार नाही.", "ती उद्या येणार आहे म्हणे.", "कळणे", "बद्दल", "असं", "तसं"],
+      "sentences": [
+        { "native": "ती म्हणाली की ती दहा मिनिटांत येते.", "roman": "tī mhaṇālī kī tī dahā miniṭānt yete.", "en": "She said she'll be here in ten minutes.", "focus": "म्हणाली", "wrong": ["म्हणाला|mhaṇālā", "म्हणालो|mhaṇālo"] },
+        { "native": "राहुल म्हणाला की त्याला आज ऑफिसला जायचं नाही.", "roman": "rāhul mhaṇālā kī tyālā ādz ôfislā dzāytsaṃ nāhī.", "en": "Rahul said he doesn't want to go to the office today.", "focus": "म्हणाला", "wrong": ["म्हणाली|mhaṇālī", "म्हणालास|mhaṇālās"] },
+        { "native": "आज कॉलेज बंद आहे म्हणे.", "roman": "ādz kôlej band āhe mhaṇe.", "en": "Apparently college is closed today.", "focus": "म्हणे", "wrong": ["म्हणून|mhaṇūn", "म्हणजे|mhaṇje"] },
+        { "native": "तिने विचारलं की तू कधी येणार.", "roman": "tine vichārlaṃ kī tū kadhī yeṇār.", "en": "She asked when you're coming.", "focus": "विचारलं", "wrong": ["विचारली|vichārlī", "विचारला|vichārlā"] },
+        { "native": "“मी येतोय” असं तो म्हणाला, पण आला नाही.", "roman": "“mī yetoy” asaṃ to mhaṇālā, paṇ ālā nāhī.", "en": "He said “I'm coming”, but he never came.", "focus": "असं", "wrong": ["तसं|tasaṃ", "जसं|dzasaṃ"] },
+        { "native": "त्याने सांगितलं की मीटिंग उद्या दहा वाजता आहे.", "roman": "tyāne sāṅgitlaṃ kī mīṭiṅg udyā dahā vādztā āhe.", "en": "He said the meeting's at ten tomorrow.", "focus": "सांगितलं", "wrong": ["सांगितला|sāṅgitlā", "सांगितली|sāṅgitlī"] },
+        { "native": "मला आजच कळलं की परीक्षा पुढच्या आठवड्यात आहे.", "roman": "malā ādzts kaḷlaṃ kī parīkṣā puḍhchyā āṭhavḍyāt āhe.", "en": "I only found out today that the exam is next week.", "focus": "कळलं", "wrong": ["कळला|kaḷlā", "कळली|kaḷlī"] },
+        { "native": "ते माझ्याबद्दल काय म्हणाले?", "roman": "te mājhyābaddal kāy mhaṇāle?", "en": "What did they say about me?", "focus": "माझ्याबद्दल", "wrong": ["माझ्याकडे|mājhyākaḍe", "माझ्यासाठी|mājhyāsāṭhī"] },
+        { "native": "मी तसं म्हणालोच नाही!", "roman": "mī tasaṃ mhaṇālots nāhī!", "en": "I never said that! (lit. I didn’t say it like that at all)" },
+        { "native": "तिच्याबद्दल असं बोलू नकोस.", "roman": "tichyābaddal asaṃ bolū nakos.", "en": "Don't talk about her like that." }
+      ]
+    },
+    {
+      "title": "Fillers: I mean, OK, right?",
+      "tip": { "title": "म्हणजे, बरं, ना, अरे / अगं", "body": "- **म्हणजे** 'I mean…' explains; **म्हणजे काय?** 'meaning what?'.\n- **बरं** 'OK, right…' — always this form, never बरा here.\n- **ना** at the end: 'right?' or a soft 'do…': ऐक ना.\n- Call a man **अरे**, a woman **अगं**, anyone you call तुम्ही **अहो**. **यार** 'man' works for anyone your age." },
+      "new": ["म्हणजे", "म्हणजे काय?", "बरं", "ना", "अरे", "अगं", "यार", "सगळं नीट सांग.", "मी कुठे होतो?"],
+      "sentences": [
+        { "native": "अगं, ऐक ना, मला तुला एक गोष्ट सांगायची आहे.", "roman": "agaṃ, aik nā, malā tulā ek goṣṭ sāṅgāychī āhe.", "en": "Hey, listen, I need to tell you something. (to a woman)", "focus": "अगं", "wrong": ["अरे|are", "अहो|aho"] },
+        { "native": "अरे, तू कधी आलास?", "roman": "are, tū kadhī ālās?", "en": "Hey, when did you get here? (to a man)", "focus": "अरे", "wrong": ["अगं|agaṃ", "अहो|aho"] },
+        { "native": "म्हणजे, मी येईन, पण थोडा उशीर होईल.", "roman": "mhaṇje, mī yeīn, paṇ thoḍā ushīr hoīl.", "en": "I mean, I'll come, but I'll be a bit late.", "focus": "म्हणजे", "wrong": ["म्हणे|mhaṇe", "म्हणून|mhaṇūn"] },
+        { "native": "बरं, मग आपण उद्या बोलू.", "roman": "baraṃ, mag āpaṇ udyā bolū.", "en": "OK, so let's talk tomorrow.", "focus": "बरं", "wrong": ["बरा|barā", "बरी|barī"] },
+        { "native": "तू उद्या येतोयस ना?", "roman": "tū udyā yetoys nā?", "en": "You're coming tomorrow, right?" },
+        { "native": "काय यार, किती उशीर!", "roman": "kāy yār, kitī ushīr!", "en": "Come on, man, you're so late!" },
+        { "native": "म्हणजे काय? नीट सांग ना.", "roman": "mhaṇje kāy? nīṭ sāṅg nā.", "en": "Meaning what? Tell me properly." },
+        { "native": "मी कुठे होते? हो, आठवलं!", "roman": "mī kuṭhe hote? ho, āṭhavlaṃ!", "en": "Where was I? Oh yes, I remember! (woman speaking)", "focus": "होते", "wrong": ["होता|hotā", "होती|hotī"] },
+        { "native": "अगं, तू कुठे आहेस? मी तुझी वाट बघतोय.", "roman": "agaṃ, tū kuṭhe āhes? mī tujhī vāṭ baghtoy.", "en": "Hey, where are you? I'm waiting for you. (to a woman)", "focus": "अगं", "wrong": ["अरे|are", "अहो|aho"] },
+        { "native": "अरे यार, मी पैसे विसरलो!", "roman": "are yār, mī paise visarlo!", "en": "Oh man, I forgot the money!" }
+      ]
+    },
+    {
+      "title": "So, what else is new?",
+      "tip": { "title": "Keeping the chat going", "body": "- Turn it back to them: **बाकी काय म्हणतोस?** (to a man) / **म्हणतेस?** (to a woman) 'so, what's new?'.\n- **गप्पा मारणे** 'to chat' — गप्पा is feminine plural, so the past is **मारल्या**.\n- To drop a topic: **जाऊ दे** 'forget it'. To stop someone nagging: **डोकं खाऊ नकोस!**" },
+      "new": ["बाकी", "बाकी काय म्हणतोस?", "वगैरे", "गप्पा", "हसणे", "खरं सांगू?", "काय सांगू!", "जाऊ दे.", "डोकं खाऊ नकोस!"],
+      "sentences": [
+        { "native": "बाकी काय, घरी सगळे कसे आहेत?", "roman": "bākī kāy, gharī sagḷe kase āhet?", "en": "So what else — how's everyone at home?" },
+        { "native": "बाकी सगळं ठीक आहे ना?", "roman": "bākī sagḷaṃ ṭhīk āhe nā?", "en": "Everything else is OK, right?" },
+        { "native": "आम्ही रात्री उशिरापर्यंत गप्पा मारल्या.", "roman": "āmhī rātrī ushirāparyant gappā mārlyā.", "en": "We chatted till late at night.", "focus": "मारल्या", "wrong": ["मारला|mārlā", "मारलं|mārlaṃ"] },
+        { "native": "चल, बाहेर बसून गप्पा मारू.", "roman": "tsal, bāher basūn gappā mārū.", "en": "Come on, let's sit outside and chat." },
+        { "native": "खरं सांगू? मला तो आवडत नाही.", "roman": "kharaṃ sāṅgū? malā to āvaḍat nāhī.", "en": "Honestly? I don't like him." },
+        { "native": "आम्ही इतके हसलो की पोट दुखायला लागलं!", "roman": "āmhī itke haslo kī poṭ dukhāylā lāglaṃ!", "en": "We laughed so much our stomachs hurt!", "focus": "हसलो", "wrong": ["हसला|haslā", "हसलास|haslās"] },
+        { "native": "काय सांगू! आज खूप काम होतं.", "roman": "kāy sāṅgū! ādz khūp kām hotaṃ.", "en": "Don't ask! There was so much work today." },
+        { "native": "जाऊ दे यार, काळजी करू नकोस.", "roman": "dzāū de yār, kāḷjī karū nakos.", "en": "Let it go, man, don't worry." },
+        { "native": "डोकं खाऊ नकोस, मी नंतर सांगतो.", "roman": "ḍokaṃ khāū nakos, mī nantar sāṅgto.", "en": "Stop pestering me, I'll tell you later." },
+        { "native": "आम्ही पिक्चर, जेवण वगैरे केलं.", "roman": "āmhī pikchar, jevaṇ vagaire kelaṃ.", "en": "We did a film, dinner and so on." }
+      ]
+    }
+  ]
 }

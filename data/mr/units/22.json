@@ -1,0 +1,181 @@
+{
+  "id": 22,
+  "title": "Calls, texts & voice notes",
+  "goal": "Answer and end calls naturally, cope with a bad line, say you'll call back, text and send voice notes, and say what you've just done, already done, are still doing or haven't done yet.",
+  "intro": "Half of your Marathi will happen on the phone: a quick **हां, बोल** when a friend calls, **ऐकू येतंय का?** on a bad line in the local train, **पोहोचल्यावर मेसेज कर** to someone heading home late, and a dozen WhatsApp groups that never sleep.\n\nPhone Marathi is full of English — कॉल, मेसेज, रिप्लाय, लोकेशन — glued in with Marathi verbs like **करणे** and **पाठवणे**. The grammar is how to chain actions with **-ऊन** ('do X and then Y') and **-ल्यावर** ('once X is done'), and the little time words **आत्ताच** (just), **आधीच / केव्हाच** (already), **अजून** (still, not yet).",
+  "vocab": [
+    { "native": "कॉल", "roman": "kôl", "en": "phone call", "pos": "noun", "note": "m · कॉल करणे 'to call'; कॉल आला 'a call came'" },
+    { "native": "हॅलो", "roman": "hælo", "en": "hello (on the phone)", "pos": "interj", "note": "Used only on the phone; in person say नमस्कार or just अरे / अगं." },
+    { "native": "उचलणे", "roman": "utsalṇe", "en": "to pick up (the phone); to lift", "pos": "verb", "note": "फोन उचल! 'pick up!'; past उचलला" },
+    { "native": "नंबर", "roman": "nambar", "en": "number (phone number)", "pos": "noun", "note": "m · तुझा नंबर दे 'give me your number'" },
+    { "native": "सेव्ह", "roman": "sev", "en": "saved", "pos": "adj", "note": "सेव्ह करणे 'to save (a number, a file)'" },
+    { "native": "ऐकू येणे", "roman": "aikū yeṇe", "en": "to be audible, to (be able to) hear", "pos": "verb", "note": "Dative: मला ऐकू येत नाहीये 'I can't hear'" },
+    { "native": "रेंज", "roman": "reñj", "en": "phone signal", "pos": "noun", "note": "f · रेंज नाहीये 'there's no signal'. Also नेटवर्क." },
+    { "native": "नेटवर्क", "roman": "neṭvark", "en": "network, signal", "pos": "noun", "note": "n" },
+    { "native": "कट", "roman": "kaṭ", "en": "cut (off)", "pos": "adj", "note": "कट होणे 'to drop, get cut off'; कट करणे 'to hang up, reject (a call)'" },
+    { "native": "मोठ्याने", "roman": "moṭhyāne", "en": "loudly, out loud", "pos": "adv" },
+    { "native": "मेसेज", "roman": "mesej", "en": "message, text", "pos": "noun", "note": "m · मेसेज करणे / पाठवणे 'to text'" },
+    { "native": "व्हॉट्सॲप", "roman": "vhôṭsæp", "en": "WhatsApp", "pos": "noun", "note": "m · व्हॉट्सॲप कर 'WhatsApp me'; व्हॉट्सॲपवर 'on WhatsApp'" },
+    { "native": "लोकेशन", "roman": "lokeshan", "en": "location (pin)", "pos": "noun", "note": "n · लोकेशन पाठव / शेअर कर" },
+    { "native": "मिस्ड कॉल", "roman": "misḍ kôl", "en": "missed call", "pos": "noun", "note": "m · मिस्ड कॉल दे 'give me a missed call' (= ring once so I know you're here)" },
+    { "native": "ग्रुप", "roman": "grup", "en": "group (chat)", "pos": "noun", "note": "m · ग्रुपवर 'on the group'" },
+    { "native": "व्हॉइस नोट", "roman": "vhôis noṭ", "en": "voice note", "pos": "noun", "note": "f" },
+    { "native": "रिप्लाय", "roman": "riplāy", "en": "reply", "pos": "noun", "note": "m · रिप्लाय करणे 'to reply'. Marathi: उत्तर." },
+    { "native": "फॉरवर्ड", "roman": "fôrvarḍ", "en": "forward(ed message)", "pos": "noun", "note": "फॉरवर्ड करणे 'to forward'" },
+    { "native": "ऑनलाइन", "roman": "ônlāin", "en": "online", "pos": "adj" },
+    { "native": "व्हिडिओ कॉल", "roman": "vhiḍio kôl", "en": "video call", "pos": "noun", "note": "m" },
+    { "native": "आत्ताच", "roman": "āttāts", "en": "just now, a moment ago", "pos": "adv", "note": "आत्ता 'right now' + -च" },
+    { "native": "केव्हाच", "roman": "kevhāts", "en": "ages ago, long since (already)", "pos": "adv", "note": "तो केव्हाच गेला 'he left ages ago'" },
+    { "native": "अजूनही", "roman": "adzūnhī", "en": "still, even now", "pos": "adv", "note": "अजून + ही, stronger than अजून" },
+    { "native": "बॅटरी", "roman": "bæṭrī", "en": "battery", "pos": "noun", "note": "f · बॅटरी संपली 'the battery's dead'" },
+    { "native": "चार्जर", "roman": "chārjar", "en": "charger", "pos": "noun", "note": "m · चार्जिंगला लावणे 'to put on charge'" },
+    { "native": "स्विच ऑफ", "roman": "svich ôf", "en": "switched off", "pos": "adj", "note": "फोन स्विच ऑफ आहे 'the phone's off'" }
+  ],
+  "phrases": [
+    { "native": "हॅलो, कोण बोलतंय?", "roman": "hælo, koṇ boltaṃy?", "en": "Hello, who's speaking?" },
+    { "native": "हां, बोल.", "roman": "hāṃ, bol.", "en": "Yes, go ahead. (answering a friend)", "note": "Polite: हां, बोला." },
+    { "native": "फोन का उचलला नाहीस?", "roman": "fon kā utsallā nāhīs?", "en": "Why didn't you pick up?" },
+    { "native": "चल, ठेवतो.", "roman": "tsal, ṭhevto.", "en": "OK, bye. (lit. OK, I'll put it down; man speaking)", "note": "Woman: चल, ठेवते." },
+    { "native": "तुझा फोन लागत नाहीये.", "roman": "tudzhā fon lāgat nāhīye.", "en": "I can't get through to you." },
+    { "native": "ऐकू येतंय का?", "roman": "aikū yetaṃy kā?", "en": "Can you hear me?" },
+    { "native": "आवाज येत नाहीये.", "roman": "āvādz yet nāhīye.", "en": "I can't hear you. (lit. the voice isn't coming)" },
+    { "native": "रेंज नाहीये.", "roman": "reñj nāhīye.", "en": "There's no signal." },
+    { "native": "जरा मोठ्याने बोल.", "roman": "dzarā moṭhyāne bol.", "en": "Speak up a bit." },
+    { "native": "कॉल कट झाला.", "roman": "kôl kaṭ dzhālā.", "en": "The call dropped." },
+    { "native": "मी तुला नंतर परत फोन करतो.", "roman": "mī tulā nantar parat fon karto.", "en": "I'll call you back later. (man speaking)" },
+    { "native": "पोहोचल्यावर मेसेज कर.", "roman": "pohotslyāvar mesej kar.", "en": "Text me when you get there." },
+    { "native": "व्हॉट्सॲप कर.", "roman": "vhôṭsæp kar.", "en": "WhatsApp me." },
+    { "native": "लोकेशन पाठव.", "roman": "lokeshan pāṭhav.", "en": "Send me your location." },
+    { "native": "माझी बॅटरी संपत आलीये.", "roman": "mājhī bæṭrī sampat ālīye.", "en": "My battery's about to die.", "note": "-त येणे 'to be nearly (done)': संपत आली 'is nearly finished'" }
+  ],
+  "grammar": [
+    {
+      "title": "Do X and then Y: -ऊन and -ल्यावर",
+      "body": "**-ऊन 'having done'.** Add **-ऊन** to the stem to join two actions by the same person: **कर → करून**, **बस → बसून**, **बघ → बघून**, **जेव → जेवून**, **जा → जाऊन**, **ये → येऊन**, **घे → घेऊन**, **खा → खाऊन**. Only the last verb carries tense and person:\n\nघरी **जाऊन** फोन करतो 'I'll go home and (then) call you'.\nमेसेज **वाचून** रिप्लाय कर 'read the message and reply'.\n\nIt also gives the cause: बातमी **ऐकून** आनंद झाला 'I was happy to hear the news'.\n\n**-ल्यावर 'after, once'.** Take the past form (पोहोचला, आला, झाला, संपला), drop the ending and add **-ल्यावर**: **पोहोचल्यावर** 'once (you) get there', **आल्यावर** 'when (you) come', **जेवल्यावर** 'after eating'. Here the two actions can have **different** people: तू आल्यावर आपण जेवूया 'let's eat once you get here'.\n\nThe trap: with -ऊन both actions must belong to the **same** person. For 'when **you** arrive, **I'll** call', use -ल्यावर: तू पोहोचल्यावर मी फोन करेन.",
+      "examples": [
+        { "native": "मी घरी जाऊन तुला फोन करतो.", "roman": "mī gharī dzāūn tulā fon karto.", "en": "I'll get home and call you." },
+        { "native": "मेसेज वाचून रिप्लाय कर ना!", "roman": "mesej vāchūn riplāy kar nā!", "en": "Read the message and reply, will you!" },
+        { "native": "ऑफिस सुटल्यावर कॉल करते.", "roman": "ôfis suṭlyāvar kôl karte.", "en": "I'll call after work. (woman)" },
+        { "native": "तू आल्यावर आपण जेवूया.", "roman": "tū ālyāvar āpaṇ jevūyā.", "en": "Let's eat once you get here." },
+        { "native": "व्हॉइस नोट ऐकून मी खूप हसलो.", "roman": "vhôis noṭ aikūn mī khūp haslo.", "en": "I laughed so much listening to the voice note." }
+      ]
+    },
+    {
+      "title": "Just, already, still, not yet: आत्ताच, आधीच, केव्हाच, अजून",
+      "body": "**Just:** **आत्ताच** 'just now' (also **नुकतंच** 'just, recently'): मी आत्ताच पोहोचलो 'I've just arrived'.\n\n**Already:** **आधीच** 'already, beforehand': मी आधीच सांगितलं होतं 'I'd already told you'. **केव्हाच** 'ages ago' is stronger: तो केव्हाच निघाला 'he left ages ago'.\n\n**Still:** **अजून** or **अजूनही** + present: मी अजून ऑफिसमध्येच आहे 'I'm still at the office'.\n\n**Not yet:** **अजून** + the past + **नाही**: त्याने अजून रिप्लाय केला नाही 'he hasn't replied yet'. The one-word answer is **अजून नाही**.\n\n**'Have done':** for something done that still matters now, spoken Marathi adds a contracted आहे to the past, agreeing as the past does: पाठवला आहे → **पाठवलाय** (m object: मेसेज), **पाठवलंय** (n: लोकेशन), **पाठवलीये** (f: व्हॉइस नोट). In the negative, just use the past: आला **नाही** 'hasn't come'.\n\nThe trap: **अजून** also means 'more' (अजून चहा? 'more tea?'). With a negative it is 'yet'; with a present it is 'still'.",
+      "examples": [
+        { "native": "मी आत्ताच तुला मेसेज पाठवलाय.", "roman": "mī āttāts tulā mesej pāṭhavlāy.", "en": "I've just sent you a message." },
+        { "native": "मी आधीच तिकिटं काढली आहेत.", "roman": "mī ādhīts tikiṭaṃ kāḍhlī āhet.", "en": "I've already got the tickets." },
+        { "native": "तो केव्हाच निघाला.", "roman": "to kevhāts nighālā.", "en": "He left ages ago." },
+        { "native": "ती अजूनही ऑनलाइन आहे.", "roman": "tī adzūnhī ônlāin āhe.", "en": "She's still online." },
+        { "native": "त्याने अजून रिप्लाय केला नाही.", "roman": "tyāne adzūn riplāy kelā nāhī.", "en": "He hasn't replied yet." },
+        { "native": "अजून पोहोचला नाहीस?", "roman": "adzūn pohotslā nāhīs?", "en": "You haven't got there yet? (to a man)" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Lost on the way to a birthday",
+    "setting": "Thane, near Mumbai. Nikhil has come by local train to his friend Priya's birthday dinner and can't find her building. The line is bad.",
+    "lines": [
+      { "speaker": "Priya", "native": "हॅलो? निखिल, कुठे आहेस?", "roman": "hælo? nikhil, kuṭhe āhes?", "en": "Hello? Nikhil, where are you?" },
+      { "speaker": "Nikhil", "native": "हॅलो? प्रिया? ऐकू येतंय का?", "roman": "hælo? priyā? aikū yetaṃy kā?", "en": "Hello? Priya? Can you hear me?" },
+      { "speaker": "Priya", "native": "हां, आता येतंय. बोल.", "roman": "hāṃ, ātā yetaṃy. bol.", "en": "Yes, now I can. Go on." },
+      { "speaker": "Nikhil", "native": "मी ठाणे स्टेशनला उतरलोय, पण तुझी बिल्डिंग सापडत नाहीये.", "roman": "mī ṭhāṇe sṭeshanlā utarloy, paṇ tujhī bilḍiṅg sāpaḍat nāhīye.", "en": "I've got off at Thane station, but I can't find your building." },
+      { "speaker": "Priya", "native": "अरे, मी केव्हाच लोकेशन पाठवलंय! ग्रुपवर बघ.", "roman": "are, mī kevhāts lokeshan pāṭhavlaṃy! grupvar bagh.", "en": "Hey, I sent the location ages ago! Look on the group." },
+      { "speaker": "Nikhil", "native": "ग्रुपवर दोनशे मेसेज आहेत! आणि माझी बॅटरी संपत आलीये.", "roman": "grupvar donshe mesej āhet! āṇi mājhī bæṭrī sampat ālīye.", "en": "There are two hundred messages on the group! And my battery's about to die." },
+      { "speaker": "Priya", "native": "बरं, थांब. मी तुला वेगळं पाठवते.", "roman": "baraṃ, thāmb. mī tulā vegḷaṃ pāṭhavte.", "en": "OK, wait. I'll send it to you separately." },
+      { "speaker": "Nikhil", "native": "हॅलो? हॅलो? आवाज कट होतोय…", "roman": "hælo? hælo? āvādz kaṭ hotoy…", "en": "Hello? Hello? You're breaking up…" },
+      { "speaker": "Priya", "native": "निखिल, लोकेशन पाठवलंय. स्टेशनच्या बाहेर येऊन रिक्षा घे, आणि वॉचमनला माझं नाव सांग.", "roman": "nikhil, lokeshan pāṭhavlaṃy. sṭeshanchyā bāher yeūn rikṣā ghe, āṇi vôchmanlā mādzhaṃ nāv sāṅg.", "en": "(voice note) Nikhil, I've sent the location. Come out of the station, take an auto, and tell the watchman my name." },
+      { "speaker": "Nikhil", "native": "मिळालं! दहा मिनिटांत पोहोचतो.", "roman": "miḷālaṃ! dahā miniṭānt pohotsto.", "en": "(text) Got it! I'll be there in ten minutes." },
+      { "speaker": "Priya", "native": "पोहोचल्यावर मिस्ड कॉल दे, मी खाली येते.", "roman": "pohotslyāvar misḍ kôl de, mī khālī yete.", "en": "Give me a missed call when you get here, I'll come down." },
+      { "speaker": "Nikhil", "native": "डन. आणि हॅपी बर्थडे! केक उरलाय ना?", "roman": "ḍan. āṇi hæpī barthḍe! kek urlāy nā?", "en": "Done. And happy birthday! There's still cake left, right?" },
+      { "speaker": "Priya", "native": "लवकर ये, नाहीतर संपेल!", "roman": "lavkar ye, nāhītar sampel!", "en": "Come quick, or it'll be gone!" }
+    ]
+  },
+  "culture": "On the phone, Marathi speakers answer **हॅलो** and, if they know you, go straight to **हां, बोल** 'yes, tell me' — there's no 'how are you' first. With older people or someone you call तुम्ही, say who you are: **नमस्कार काका, मी निखिल बोलतोय** 'hello uncle, it's Nikhil'. Calls end abruptly by English standards: **चल, ठेवतो** or **ठेवू?** 'shall I hang up?' and that's it. The **missed call** is a whole language — 'I'm downstairs', 'call me back', 'I've arrived' — and **मिस्ड कॉल दे** is a normal request. Every family has a WhatsApp group where relatives **forward** good-morning images and doubtful news, and voice notes are hugely popular with people who'd rather talk than type in Devanagari. Many people type Marathi in Roman letters ('kuthe ahes?', 'nighalo'), so learn to read that too. In Mumbai's local trains and tunnels, **रेंज नाहीये** is the most-said sentence of the day.",
+  "lessons": [
+    {
+      "title": "Answering and ending a call",
+      "tip": { "title": "हॅलो… हां, बोल… चल, ठेवतो", "body": "- Answer **हॅलो**; to a friend **हां, बोल** 'yes, go ahead'; to an unknown number **कोण बोलतंय?**\n- Say who you are: **मी आदित्य बोलतोय** (man) / **मी प्रिया बोलतेय** (woman).\n- End with **चल, ठेवतो / ठेवते** 'OK, I'll hang up'.\n- **फोन उचलणे** 'to pick up'; **फोन लागत नाहीये** 'I can't get through'." },
+      "new": ["कॉल", "हॅलो", "उचलणे", "नंबर", "सेव्ह", "हॅलो, कोण बोलतंय?", "हां, बोल.", "फोन का उचलला नाहीस?", "चल, ठेवतो.", "तुझा फोन लागत नाहीये."],
+      "sentences": [
+        { "native": "हॅलो, मी आदित्य बोलतोय.", "roman": "hælo, mī āditya boltoy.", "en": "Hello, it's Aditya.", "focus": "बोलतोय", "wrong": ["बोलतेय|boltey", "बोलतोस|boltos"] },
+        { "native": "मी काल तुला तीन वेळा कॉल केला.", "roman": "mī kāl tulā tīn veḷā kôl kelā.", "en": "I called you three times yesterday.", "focus": "केला", "wrong": ["केली|kelī", "झाला|dzhālā"] },
+        { "native": "सॉरी, मी फोन उचलला नाही, मीटिंगमध्ये होतो.", "roman": "sorī, mī fon utsallā nāhī, mīṭiṅgmadhye hoto.", "en": "Sorry, I didn't pick up, I was in a meeting.", "focus": "उचलला", "wrong": ["उचलली|utsallī", "उचललं|utsallaṃ"] },
+        { "native": "हा नंबर कोणाचा आहे?", "roman": "hā nambar koṇātsā āhe?", "en": "Whose number is this?" },
+        { "native": "माझा नवीन नंबर सेव्ह कर.", "roman": "mādzhā navīn nambar sev kar.", "en": "Save my new number." },
+        { "native": "चल, ठेवते, नंतर बोलू.", "roman": "tsal, ṭhevte, nantar bolū.", "en": "OK, I'll hang up, talk later. (woman)", "focus": "ठेवते", "wrong": ["ठेवतो|ṭhevto", "ठेवतोस|ṭhevtos"] },
+        { "native": "हां, बोल, काय झालं?", "roman": "hāṃ, bol, kāy dzhālaṃ?", "en": "Yes, go on, what's up?" },
+        { "native": "नंबर सेव्ह नव्हता, म्हणून मी फोन उचलला नाही.", "roman": "nambar sev navhtā, mhaṇūn mī fon utsallā nāhī.", "en": "The number wasn't saved, so I didn't pick up.", "focus": "नव्हता", "wrong": ["नव्हती|navhtī", "नव्हतं|navhtaṃ"] },
+        { "native": "फोन उचल ना! दहा वेळा कॉल केला!", "roman": "fon utsal nā! dahā veḷā kôl kelā!", "en": "Pick up, will you! I've called ten times!" },
+        { "native": "तुझा फोन सकाळपासून लागत नाहीये.", "roman": "tudzhā fon sakāḷpāsūn lāgat nāhīye.", "en": "I haven't been able to get through to you since this morning." }
+      ]
+    },
+    {
+      "title": "Can you hear me?",
+      "tip": { "title": "ऐकू येणे — can you hear?", "body": "- On the phone 'hear' is **ऐकू येणे**, with -ला: **मला ऐकू येत नाहीये** 'I can't hear'.\n- Or: **आवाज येत नाहीये** 'the voice isn't coming'.\n- **नाहीये** is spoken नाही आहे 'isn't (right now)'.\n- **कट होणे** 'to drop', **कट करणे** 'to hang up on someone'." },
+      "new": ["ऐकू येणे", "रेंज", "नेटवर्क", "कट", "मोठ्याने", "ऐकू येतंय का?", "आवाज येत नाहीये.", "रेंज नाहीये.", "जरा मोठ्याने बोल.", "कॉल कट झाला."],
+      "sentences": [
+        { "native": "मला तुझा आवाज ऐकू येत नाहीये.", "roman": "malā tudzhā āvādz aikū yet nāhīye.", "en": "I can't hear you.", "focus": "मला", "wrong": ["मी|mī", "माझा|mādzhā"] },
+        { "native": "आता ऐकू येतंय?", "roman": "ātā aikū yetaṃy?", "en": "Can you hear me now?" },
+        { "native": "इथे नेटवर्क नाहीये, मी बाहेर येतो.", "roman": "ithe neṭvark nāhīye, mī bāher yeto.", "en": "There's no network in here, I'll come outside." },
+        { "native": "लिफ्टमध्ये रेंज नसते.", "roman": "lifṭmadhye reñj naste.", "en": "There's never any signal in the lift." },
+        { "native": "तू कॉल कट का केलास?", "roman": "tū kôl kaṭ kā kelās?", "en": "Why did you hang up on me?", "focus": "केलास", "wrong": ["झाला|dzhālā", "केला|kelā"] },
+        { "native": "कॉल दोन वेळा कट झाला, रेंजच नाहीये.", "roman": "kôl don veḷā kaṭ dzhālā, reñjts nāhīye.", "en": "The call dropped twice, there's no signal at all.", "focus": "झाला", "wrong": ["केला|kelā", "झाली|dzhālī"] },
+        { "native": "जरा मोठ्याने बोल ना, इथे खूप गर्दी आहे.", "roman": "dzarā moṭhyāne bol nā, ithe khūp gardī āhe.", "en": "Speak up a bit, will you, it's really crowded here." },
+        { "native": "तुला माझं बोलणं ऐकू आलं का?", "roman": "tulā mādzhaṃ bolṇaṃ aikū ālaṃ kā?", "en": "Did you hear what I said?", "focus": "तुला", "wrong": ["तू|tū", "तुझा|tudzhā"] },
+        { "native": "आवाज तुटतोय, मी परत फोन करते.", "roman": "āvādz tuṭtoy, mī parat fon karte.", "en": "You're breaking up, I'll call you back. (woman)" }
+      ]
+    },
+    {
+      "title": "I'll get home and text you",
+      "tip": { "title": "-ऊन and -ल्यावर: do X, then Y", "body": "- **-ऊन** 'having done': **जाऊन, येऊन, बघून, करून, जेवून**. Same person does both: घरी **जाऊन** फोन करतो.\n- **-ल्यावर** 'once, after': **पोहोचल्यावर, आल्यावर, संपल्यावर**. The people can differ: तू आल्यावर आपण जेवूया.\n- Only the last verb shows tense.", "pattern": "stem-ऊन + verb · past-ल्यावर + verb", "grammar": 0 },
+      "new": ["मेसेज", "व्हॉट्सॲप", "लोकेशन", "मिस्ड कॉल", "पोहोचल्यावर मेसेज कर.", "व्हॉट्सॲप कर.", "लोकेशन पाठव.", "मी तुला नंतर परत फोन करतो."],
+      "sentences": [
+        { "native": "घरी पोहोचल्यावर मला मेसेज कर.", "roman": "gharī pohotslyāvar malā mesej kar.", "en": "Text me once you get home.", "focus": "पोहोचल्यावर", "wrong": ["पोहोचला|pohotslā", "पोहोचतो|pohotsto"] },
+        { "native": "मी जेवून तुला परत फोन करतो.", "roman": "mī jevūn tulā parat fon karto.", "en": "I'll eat and then call you back.", "focus": "जेवून", "wrong": ["जेवलो|jevlo", "जेवतो|jevto"] },
+        { "native": "स्टेशनला येऊन मिस्ड कॉल दे.", "roman": "sṭeshanlā yeūn misḍ kôl de.", "en": "Come to the station and give me a missed call.", "focus": "येऊन", "wrong": ["आला|ālā", "येतो|yeto"] },
+        { "native": "लोकेशन बघून ये, सोपं आहे.", "roman": "lokeshan baghūn ye, sopaṃ āhe.", "en": "Check the location and come, it's easy.", "focus": "बघून", "wrong": ["बघितलं|baghitlaṃ", "बघतो|baghto"] },
+        { "native": "मीटिंग संपल्यावर व्हॉट्सॲप कर.", "roman": "mīṭiṅg samplyāvar vhôṭsæp kar.", "en": "WhatsApp me after the meeting.", "focus": "संपल्यावर", "wrong": ["संपली|samplī", "संपते|sampte"] },
+        { "native": "तू निघाल्यावर मला लोकेशन पाठव.", "roman": "tū nighālyāvar malā lokeshan pāṭhav.", "en": "Send me your location once you leave.", "focus": "निघाल्यावर", "wrong": ["निघालास|nighālās", "निघतोस|nightos"] },
+        { "native": "मी अंघोळ करून तुला मेसेज करते.", "roman": "mī aṅghoḷ karūn tulā mesej karte.", "en": "I'll have a shower and text you. (woman)", "focus": "करून", "wrong": ["केली|kelī", "करते|karte"] },
+        { "native": "मला मिस्ड कॉल दे, मी तुला परत फोन करेन.", "roman": "malā misḍ kôl de, mī tulā parat fon karen.", "en": "Give me a missed call, I'll call you back." },
+        { "native": "त्याचा मेसेज वाचल्यावर मला राग आला.", "roman": "tyātsā mesej vāchlyāvar malā rāg ālā.", "en": "I got angry after reading his message.", "focus": "वाचल्यावर", "wrong": ["वाचला|vāchlā", "वाचतो|vāchto"] },
+        { "native": "ऑफिसमधून बाहेर पडून कॉल करतो.", "roman": "ôfismadhūn bāher paḍūn kôl karto.", "en": "I'll call once I'm out of the office.", "focus": "पडून", "wrong": ["पडलो|paḍlo", "पडतो|paḍto"] }
+      ]
+    },
+    {
+      "title": "Texts, groups and voice notes",
+      "tip": { "title": "English word + करणे", "body": "- Phone words come from English and take **करणे**: मेसेज **कर**, रिप्लाय **कर**, फॉरवर्ड **कर**, व्हिडिओ कॉल **कर**.\n- In the past with मी / त्याने / तिने, the verb agrees with the thing: मी मेसेज **केला** (m), आईने मेसेज फॉरवर्ड **केले** (pl).\n- 'On the group' = **ग्रुपवर**." },
+      "new": ["ग्रुप", "व्हॉइस नोट", "रिप्लाय", "फॉरवर्ड", "ऑनलाइन", "व्हिडिओ कॉल"],
+      "sentences": [
+        { "native": "ग्रुपवर फोटो पाठव ना.", "roman": "grupvar foṭo pāṭhav nā.", "en": "Send the photos on the group, will you." },
+        { "native": "तिने लगेच रिप्लाय केला.", "roman": "tine lagets riplāy kelā.", "en": "She replied straight away.", "focus": "केला", "wrong": ["केली|kelī", "केलं|kelaṃ"] },
+        { "native": "मी तुला व्हॉइस नोट पाठवलीये, ऐक.", "roman": "mī tulā vhôis noṭ pāṭhavlīye, aik.", "en": "I've sent you a voice note, have a listen." },
+        { "native": "हा मेसेज फॉरवर्ड करू नकोस, ती बातमी खोटी आहे.", "roman": "hā mesej fôrvarḍ karū nakos, tī bātmī khoṭī āhe.", "en": "Don't forward this message, that news is fake.", "focus": "हा", "wrong": ["ही|hī", "हे|he"] },
+        { "native": "तो ऑनलाइन आहे, पण रिप्लाय करत नाहीये!", "roman": "to ônlāin āhe, paṇ riplāy karat nāhīye!", "en": "He's online, but he isn't replying!" },
+        { "native": "आईने ग्रुपवर दहा मेसेज फॉरवर्ड केले.", "roman": "āīne grupvar dahā mesej fôrvarḍ kele.", "en": "Mum forwarded ten messages on the group.", "focus": "केले", "wrong": ["केला|kelā", "केली|kelī"] },
+        { "native": "रात्री व्हिडिओ कॉल करूया का?", "roman": "rātrī vhiḍio kôl karūyā kā?", "en": "Shall we do a video call tonight?" },
+        { "native": "मी तुझा मेसेज पाहिला, पण रिप्लाय करायला विसरलो.", "roman": "mī tudzhā mesej pāhilā, paṇ riplāy karāylā visarlo.", "en": "I saw your message but forgot to reply.", "focus": "पाहिला", "wrong": ["पाहिली|pāhilī", "पाहिलं|pāhilaṃ"] },
+        { "native": "आजीला व्हिडिओ कॉल केला, ती खूप खूश झाली.", "roman": "ājīlā vhiḍio kôl kelā, tī khūp khūsh dzhālī.", "en": "We video-called Grandma, she was so happy.", "focus": "केला", "wrong": ["केली|kelī", "केलं|kelaṃ"] }
+      ]
+    },
+    {
+      "title": "Already, still, not yet",
+      "tip": { "title": "आत्ताच · आधीच / केव्हाच · अजून", "body": "- **आत्ताच** 'just now': मी आत्ताच पोहोचलो.\n- **आधीच** 'already'; **केव्हाच** 'ages ago'.\n- **अजून / अजूनही** + present = 'still': मी अजून ऑफिसमध्येच आहे.\n- **अजून** + past + **नाही** = 'not yet': त्याने अजून रिप्लाय केला नाही.", "pattern": "अजून + present = still · अजून + past + नाही = not yet", "grammar": 1 },
+      "new": ["आत्ताच", "केव्हाच", "अजूनही", "बॅटरी", "चार्जर", "स्विच ऑफ", "माझी बॅटरी संपत आलीये."],
+      "sentences": [
+        { "native": "मी आत्ताच घरी पोहोचलो.", "roman": "mī āttāts gharī pohotslo.", "en": "I've just got home. (man)", "focus": "आत्ताच", "wrong": ["उद्या|udyā", "नंतर|nantar"] },
+        { "native": "तो केव्हाच झोपला, फोन स्विच ऑफ आहे.", "roman": "to kevhāts dzhoplā, fon svich ôf āhe.", "en": "He went to sleep ages ago, his phone's switched off.", "focus": "केव्हाच", "wrong": ["उद्या|udyā", "नंतर|nantar"] },
+        { "native": "मी अजूनही ऑफिसमध्येच आहे.", "roman": "mī adzūnhī ôfismadhyets āhe.", "en": "I'm still at the office.", "focus": "अजूनही", "wrong": ["आधीच|ādhīts", "केव्हाच|kevhāts"] },
+        { "native": "त्याने अजून मेसेज बघितला नाही.", "roman": "tyāne adzūn mesej baghitlā nāhī.", "en": "He hasn't seen the message yet.", "focus": "अजून", "wrong": ["आधीच|ādhīts", "केव्हाच|kevhāts"] },
+        { "native": "माझी बॅटरी संपली, चार्जर आहे का?", "roman": "mājhī bæṭrī samplī, chārjar āhe kā?", "en": "My battery's dead, have you got a charger?", "focus": "संपली", "wrong": ["संपला|samplā", "संपलं|samplaṃ"] },
+        { "native": "मी आधीच सगळ्यांना सांगितलंय.", "roman": "mī ādhīts sagḷyānnā sāṅgitlaṃy.", "en": "I've already told everyone.", "focus": "आधीच", "wrong": ["अजून|adzūn", "नंतर|nantar"] },
+        { "native": "फोन चार्जरला लावलाय, थोड्या वेळाने कॉल करतो.", "roman": "fon chārjarlā lāvlāy, thoḍyā veḷāne kôl karto.", "en": "My phone's on charge, I'll call in a bit." },
+        { "native": "तुझा फोन केव्हापासून स्विच ऑफ आहे!", "roman": "tudzhā fon kevhāpāsūn svich ôf āhe!", "en": "Your phone's been switched off for ages!" },
+        { "native": "अजून पोहोचली नाहीस?", "roman": "adzūn pohotslī nāhīs?", "en": "You haven't got there yet? (to a woman)", "focus": "अजून", "wrong": ["आधीच|ādhīts", "आत्ताच|āttāts"] },
+        { "native": "तिने आत्ताच व्हॉइस नोट पाठवली.", "roman": "tine āttāts vhôis noṭ pāṭhavlī.", "en": "She just sent a voice note.", "focus": "आत्ताच", "wrong": ["उद्या|udyā", "नंतर|nantar"] }
+      ]
+    }
+  ]
+}
