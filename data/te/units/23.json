@@ -1,0 +1,179 @@
+{
+  "id": 23,
+  "title": "Around town: autos, cabs & the metro",
+  "goal": "Haggle with an auto driver, tell a driver where to go, stop and drop you, book and ride a cab, find your way on the metro, and ask how long a trip takes.",
+  "intro": "Getting around a Telugu city is a conversation: you agree a fare with the auto driver (**ఎంత తీసుకుంటారు?**), read out the OTP to the cab driver, direct them from the back seat (**సిగ్నల్ దగ్గర లెఫ్ట్ తీసుకోండి**) and tell them exactly where to stop (**ఇక్కడే, ఇక్కడే! ఆపేయండి**).\n\nThe grammar here is the grammar of moving: **pairs of verbs** like *ఆగు* (come to a stop) and *ఆపు* (stop something), *దిగు* (get off) and *దింపు* (drop someone off), and **compound verbs** with *-ఏయ్* ('do it right now') and *-పో* ('away, off'). You'll also learn to say how long something takes with **పడుతుంది**. Drivers get **మీరు** and **-ండి**, and are usually called **అన్నా** ('brother').",
+  "vocab": [
+    { "native": "బాడుగ", "roman": "bāḍuga", "en": "fare, hire charge", "pos": "noun", "note": "ఆటో బాడుగ = auto fare · in Telangana and Hyderabad people say కిరాయి" },
+    { "native": "ఎక్స్‌ట్రా", "roman": "ekstrā", "en": "extra", "pos": "adj", "note": "ఎక్స్‌ట్రా ఇవ్వాలి = you have to pay extra" },
+    { "native": "షేర్ ఆటో", "roman": "ṣēr āṭō", "en": "share auto (shared, fixed route)", "pos": "noun" },
+    { "native": "దింపు", "roman": "dimpu", "en": "to drop (someone) off, let down", "pos": "verb", "note": "Transitive partner of దిగు (get off): నన్ను ఇక్కడ దింపండి = drop me here" },
+    { "native": "ఆపు", "roman": "āpu", "en": "to stop (something), switch off", "pos": "verb", "note": "Transitive partner of ఆగు (come to a stop): ఇక్కడ ఆపండి = stop here · ఆపేయండి = just stop" },
+    { "native": "అడ్రస్", "roman": "aḍras", "en": "address", "pos": "noun", "note": "English loan, more common in speech than చిరునామా" },
+    { "native": "గేట్", "roman": "gēṭ", "en": "gate", "pos": "noun" },
+    { "native": "దాటు", "roman": "dāṭu", "en": "to cross, go past", "pos": "verb", "note": "సిగ్నల్ దాటాక = after the signal · రోడ్డు దాటు = cross the road" },
+    { "native": "తిప్పు", "roman": "tippu", "en": "to turn (something); to take (someone) round", "pos": "verb", "note": "Transitive partner of తిరుగు: ఊరంతా తిప్పాడు = he took me all round town" },
+    { "native": "చుట్టూ", "roman": "chuṭṭū", "en": "around; the long way round", "pos": "adv" },
+    { "native": "షార్ట్‌కట్", "roman": "ṣārṭkaṭ", "en": "shortcut", "pos": "noun" },
+    { "native": "యూటర్న్", "roman": "yūṭarn", "en": "U-turn", "pos": "noun", "note": "యూటర్న్ తీసుకోండి = do a U-turn" },
+    { "native": "ఫ్లైఓవర్", "roman": "phlaiōvar", "en": "flyover", "pos": "noun" },
+    { "native": "నడుపు", "roman": "naḍupu", "en": "to drive, ride (a vehicle); to run (a business)", "pos": "verb", "note": "నెమ్మదిగా నడపండి = drive slowly · past: నడిపాను" },
+    { "native": "క్యాబ్", "roman": "kyāb", "en": "cab, taxi", "pos": "noun" },
+    { "native": "రైడ్", "roman": "raiḍ", "en": "ride (on an app)", "pos": "noun" },
+    { "native": "డ్రైవర్", "roman": "ḍraivar", "en": "driver", "pos": "noun" },
+    { "native": "ఓటీపీ", "roman": "ōṭīpī", "en": "OTP (one-time code)", "pos": "noun", "note": "Cab drivers ask for it at the start of the ride: ఓటీపీ చెప్పండి" },
+    { "native": "కిలోమీటర్", "roman": "kilōmīṭar", "en": "kilometre", "pos": "noun", "note": "plural కిలోమీటర్లు" },
+    { "native": "మెట్రో", "roman": "meṭrō", "en": "metro", "pos": "noun" },
+    { "native": "టోకెన్", "roman": "ṭōken", "en": "token (metro ticket)", "pos": "noun" },
+    { "native": "లైన్", "roman": "lain", "en": "(metro) line; queue", "pos": "noun", "note": "లైన్ మారాలి = you have to change lines · లైన్‌లో నిలబడు = stand in the queue" },
+    { "native": "స్టాప్", "roman": "sṭāp", "en": "stop (bus, metro)", "pos": "noun", "note": "తర్వాతి స్టాప్ = the next stop" },
+    { "native": "రద్దీ", "roman": "raddī", "en": "crowd, rush", "pos": "noun", "note": "చాలా రద్దీగా ఉంది = it's packed" },
+    { "native": "సీటు", "roman": "sīṭu", "en": "seat", "pos": "noun" },
+    { "native": "పట్టు", "roman": "paṭṭu", "en": "to take (time); to hold, catch", "pos": "verb", "note": "For time: non-past పడుతుంది (it takes), past పట్టింది (it took)" }
+  ],
+  "phrases": [
+    { "native": "ఎంత తీసుకుంటారు?", "roman": "enta tīsukuṇṭāru?", "en": "How much will you charge?" },
+    { "native": "మీటర్ మీద రండి.", "roman": "mīṭar mīda raṇḍi.", "en": "Go by the meter, please." },
+    { "native": "చాలా ఎక్కువ, వంద ఇస్తా.", "roman": "chālā ekkuva, vanda istā.", "en": "That's too much, I'll give you a hundred." },
+    { "native": "చిల్లర లేదు, ఫోన్‌పే చేయనా?", "roman": "chillara lēdu, phōnpē chēyanā?", "en": "I've no change, can I pay by PhonePe?", "note": "Or జీపే (Google Pay): UPI QR codes are everywhere" },
+    { "native": "నన్ను స్టేషను దగ్గర దింపండి.", "roman": "nannu sṭēṣanu daggara dimpaṇḍi.", "en": "Drop me at the station, please." },
+    { "native": "పక్కకి ఆపండి.", "roman": "pakkaki āpaṇḍi.", "en": "Pull over, please." },
+    { "native": "ఇక్కడే, ఇక్కడే!", "roman": "ikkaḍē, ikkaḍē!", "en": "Right here, right here!" },
+    { "native": "సిగ్నల్ దగ్గర లెఫ్ట్ తీసుకోండి.", "roman": "signal daggara lephṭ tīsukōṇḍi.", "en": "Take a left at the signal.", "note": "Drivers use English లెఫ్ట్ / రైట్ (raiṭ) more than ఎడమ / కుడి" },
+    { "native": "నెమ్మదిగా నడపండి, ప్లీజ్.", "roman": "nemmadigā naḍapaṇḍi, plīj.", "en": "Drive slowly, please." },
+    { "native": "క్యాబ్ బుక్ చేశా.", "roman": "kyāb buk chēshā.", "en": "I've booked a cab." },
+    { "native": "ఓటీపీ ఎంత?", "roman": "ōṭīpī enta?", "en": "What's the OTP?" },
+    { "native": "ఇంకెంత దూరం?", "roman": "iṅkenta dūram?", "en": "How much further?" },
+    { "native": "ఏ స్టేషనులో మారాలి?", "roman": "ē sṭēṣanulō mārāli?", "en": "Which station do I change at?" },
+    { "native": "ఈ టైంలో గంట పడుతుంది.", "roman": "ī ṭaimlō gaṇṭa paḍutundi.", "en": "At this time of day it'll take an hour." }
+  ],
+  "grammar": [
+    {
+      "title": "Verb pairs and compound verbs: ఆగు / ఆపు, దిగు / దింపు, -ఏయ్, -పో",
+      "body": "**Verb pairs.** Many Telugu verbs come in pairs: one for 'it happens' and one for 'someone makes it happen'.\n• **ఆగు** (come to a stop, wait) / **ఆపు** (stop something): *బస్సు ఆగింది* (the bus stopped) / *ఇక్కడ ఆపండి* (stop [the car] here)\n• **దిగు** (get off, get down) / **దింపు** (drop someone off): *నేను ఇక్కడ దిగుతా* / *నన్ను ఇక్కడ దింపండి*\n• **ఎక్కు** (get on) / **ఎక్కించు** (put on, let on board)\n• **తిరుగు** (turn, go round) / **తిప్పు** (turn something, take someone round)\nThe trap: *ఇక్కడ ఆగండి* to a driver can mean 'wait here'; *ఇక్కడ ఆపండి* is the clear 'stop here'.\n\n**Compound verbs.** Telugu adds a second verb to the *-ఇ* form to colour the meaning:\n• **-ఏయ్ / -ఏస్-** (from వేయు, 'throw'): do it **right away, completely, decisively**: *ఆపేయండి* (just stop!), *దింపేయ్* (just drop me), *తినేయ్* (eat it up), *వచ్చేస్తా* (I'll be right there). Past: *ఆపేశాడు*.\n• **-ఇపో** (from పోవు, 'go'): **away, off, it's happened**: *దిగిపో* (get off!), *వెళ్ళిపోయింది* (it's left, it's gone), *అయిపోయింది* (it's over), *మారిపోయింది* (it's changed completely).\n• **-కో** (for oneself): *తీసుకో* (take for yourself), *ఎక్కించుకో* (take a passenger on).",
+      "examples": [
+        { "native": "సిగ్నల్ తర్వాత ఆపేయండి.", "roman": "signal tarvāta āpēyaṇḍi.", "en": "Just stop after the signal." },
+        { "native": "బస్సు ఆగింది, దిగిపో!", "roman": "bassu āgindi, digipō!", "en": "The bus has stopped, get off!" },
+        { "native": "నన్ను మెట్రో స్టేషను దగ్గర దింపేయ్.", "roman": "nannu meṭrō sṭēṣanu daggara dimpēy.", "en": "Just drop me at the metro station. (to a friend)" },
+        { "native": "అయ్యో, బస్సు వెళ్ళిపోయింది!", "roman": "ayyō, bassu veḷḷipōyindi!", "en": "Oh no, the bus has gone!" },
+        { "native": "ఆటో వాడు ఊరంతా తిప్పాడు.", "roman": "āṭō vāḍu ūrantā tippāḍu.", "en": "The auto guy took me all round town." }
+      ]
+    },
+    {
+      "title": "How long it takes, how far, how much: పడుతుంది, అవుతుంది",
+      "body": "**Time taken** uses **పట్టు** ('take, hold') with the time as the subject: *అరగంట పడుతుంది* (it takes half an hour), past *గంట పట్టింది* (it took an hour). Note the forms: non-past **పడుతుంది** (paḍutundi), past **పట్టింది** (paṭṭindi). Ask: *ఎంత సేపు పడుతుంది?* The person it took goes in the dative: *నాకు గంట పట్టింది* (it took me an hour).\n\n**Cost** uses **అవు** ('become'): *ఎంత అవుతుంది?* (how much will it come to?), *వంద అవుతుంది*, past *నాలుగు వందలు అయింది* (it came to four hundred).\n\n**Distance**: *ఎంత దూరం?* (how far?), *ఐదు కిలోమీటర్లు*, *ఇంకెంత దూరం?* (how much further?).\n\n**In / within** a time is **-లో**: *పది నిమిషాల్లో*, *అరగంటలో*; **by** a time is **కల్లా** (Unit 21).\n\nThe trap: don't translate 'it takes' with తీసుకో. *గంట తీసుకుంటుంది* is heard from English speakers, but *గంట పడుతుంది* is what Telugu speakers say.",
+      "examples": [
+        { "native": "ఇక్కడి నుంచి ఎయిర్‌పోర్టుకి గంటన్నర పడుతుంది.", "roman": "ikkaḍi nunchi eyirpōrṭuki gaṇṭannara paḍutundi.", "en": "It takes an hour and a half from here to the airport." },
+        { "native": "వైజాగ్ నుంచి విజయవాడకి రైల్లో ఆరు గంటలు పడుతుంది.", "roman": "vaijāg nunchi vijayavāḍaki raillō āru gaṇṭalu paḍutundi.", "en": "It takes six hours by train from Vizag to Vijayawada." },
+        { "native": "మెట్రోలో అయితే ఇరవై నిమిషాలే పడుతుంది.", "roman": "meṭrōlō ayitē iravai nimiṣālē paḍutundi.", "en": "By metro it only takes twenty minutes." },
+        { "native": "క్యాబ్‌కి నాలుగు వందలు అయింది.", "roman": "kyābki nālugu vandalu ayindi.", "en": "The cab came to four hundred." },
+        { "native": "బీచ్ ఇక్కడి నుంచి మూడు కిలోమీటర్లు.", "roman": "bīch ikkaḍi nunchi mūḍu kilōmīṭarlu.", "en": "The beach is three kilometres from here." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "An auto to Jubilee Hills",
+    "setting": "Hyderabad, rush hour. Keerthi flags down an auto at Ameerpet.",
+    "lines": [
+      { "speaker": "Keerthi", "native": "ఆటో! జూబ్లీ హిల్స్ చెక్‌పోస్ట్ వస్తారా?", "roman": "āṭō! jūblī hils chekpōsṭ vastārā?", "en": "Auto! Will you go to Jubilee Hills Checkpost?" },
+      { "speaker": "Driver", "native": "వస్తా మేడం. రెండొందల యాభై అవుతుంది.", "roman": "vastā mēḍam. reṇḍondala yābhai avutundi.", "en": "I'll go, madam. It'll be two-fifty." },
+      { "speaker": "Keerthi", "native": "అంతా? మీటర్ మీద రండి.", "roman": "antā? mīṭar mīda raṇḍi.", "en": "That much? Go by the meter." },
+      { "speaker": "Driver", "native": "మీటర్ పని చేయట్లేదు మేడం. ఈ టైంలో ట్రాఫిక్ ఎక్కువ, పైగా తిరిగి ఖాళీగా రావాలి.", "roman": "mīṭar pani chēyaṭlēdu mēḍam. ī ṭaimlō ṭrāphik ekkuva, paigā tirigi khāḷīgā rāvāli.", "en": "The meter isn't working, madam. There's lots of traffic at this hour, and on top of that I have to come back empty." },
+      { "speaker": "Keerthi", "native": "రోజూ వెళ్తా, నూట యాభై అవుతుంది. నూట ఎనభై ఇస్తా.", "roman": "rōjū veḷtā, nūṭa yābhai avutundi. nūṭa enabhai istā.", "en": "I go every day, it comes to one-fifty. I'll give you one-eighty." },
+      { "speaker": "Driver", "native": "రెండొందలు ఇవ్వండి మేడం, ఫైనల్.", "roman": "reṇḍondalu ivvaṇḍi mēḍam, phainal.", "en": "Give me two hundred, madam, final." },
+      { "speaker": "Keerthi", "native": "సరే, పదండి. ఫ్లైఓవర్ మీద నుంచి వెళ్ళండి, తొందరగా వెళ్ళాలి.", "roman": "sarē, padaṇḍi. phlaiōvar mīda nunchi veḷḷaṇḍi, tondaragā veḷḷāli.", "en": "OK, let's go. Take the flyover, I need to get there quickly." },
+      { "speaker": "Keerthi", "native": "అన్నా, ఈ సందులోకి ఎందుకు తిప్పుతున్నారు?", "roman": "annā, ī sandulōki enduku tipputunnāru?", "en": "(Ten minutes later) Anna, why are you turning into this lane?" },
+      { "speaker": "Driver", "native": "ముందు రోడ్డు మీద పెద్ద జామ్ మేడం. ఇది షార్ట్‌కట్.", "roman": "mundu rōḍḍu mīda pedda jām mēḍam. idi ṣārṭkaṭ.", "en": "There's a big jam on the main road ahead, madam. This is a shortcut." },
+      { "speaker": "Keerthi", "native": "సరే. ఆ సిగ్నల్ దాటాక లెఫ్ట్ తీసుకోండి... ఆ, ఇక్కడే, ఇక్కడే! ఆపేయండి.", "roman": "sarē. ā signal dāṭāka lephṭ tīsukōṇḍi... ā, ikkaḍē, ikkaḍē! āpēyaṇḍi.", "en": "OK. Take a left after that signal... yes, here, right here! Stop." },
+      { "speaker": "Driver", "native": "ఇక్కడ ఆపితే పోలీసులు ఫైన్ వేస్తారు. కొంచెం ముందు దింపుతా.", "roman": "ikkaḍa āpitē pōlīsulu phain vēstāru. konchem mundu dimputā.", "en": "If I stop here the police will fine me. I'll drop you a bit further on." },
+      { "speaker": "Keerthi", "native": "సరే. చిల్లర లేదు, ఫోన్‌పే చేయనా?", "roman": "sarē. chillara lēdu, phōnpē chēyanā?", "en": "OK. I've no change, can I PhonePe you?" },
+      { "speaker": "Driver", "native": "చేయండి మేడం, స్కానర్ ఇదిగో.", "roman": "chēyaṇḍi mēḍam, skānar idigō.", "en": "Go ahead, madam, here's the QR code." }
+    ]
+  },
+  "culture": "Auto drivers in Hyderabad often refuse to use the meter, especially at rush hour or for one-way trips, so agree the fare before you get in; ride apps (Ola, Uber, and Rapido for bike taxis and autos) have made prices more predictable, and drivers will ask for the **OTP** before starting. In Vijayawada and Vizag, **share autos** run fixed routes for a few rupees and squeeze in far more passengers than seems possible. The **Hyderabad Metro** has three lines meeting at Ameerpet and MG Bus Station, with a women's coach at the front; buy a token or top up a card. Speak to drivers politely with *మీరు* and *-ండి*; call a driver *అన్నా* ('brother') or, if older, *బాబాయ్* ('uncle'), and they'll call you *సార్* or *మేడం*. Directions are given by landmarks rather than street names (*ఆ పెట్రోల్ బంకు దగ్గర*, *సిగ్నల్ దాటాక*), and almost everyone pays by UPI: *ఫోన్‌పే చేయనా?*",
+  "lessons": [
+    {
+      "title": "Haggling with an auto driver",
+      "tip": { "title": "Agree the fare first", "body": "- Use **మీరు** and **-ండి** with drivers; call them **అన్నా**.\n- Ask first: **ఎంత తీసుకుంటారు?** Then **మీటర్ మీద రండి**, or make an offer: **…ఇస్తా** 'I'll give…'.\n- Too much: **చాలా ఎక్కువ** · final price: **చివరి ధర**.", "pattern": "X కి ఎంత? · … ఇస్తా" },
+      "new": ["బాడుగ", "ఎక్స్‌ట్రా", "షేర్ ఆటో", "ఎంత తీసుకుంటారు?", "మీటర్ మీద రండి.", "చాలా ఎక్కువ, వంద ఇస్తా.", "చిల్లర లేదు, ఫోన్‌పే చేయనా?"],
+      "sentences": [
+        { "native": "బెంజ్ సర్కిల్‌కి ఎంత తీసుకుంటారు?", "roman": "benj sarkilki enta tīsukuṇṭāru?", "en": "How much to Benz Circle?", "focus": "తీసుకుంటారు", "wrong": ["తీసుకున్నారు|tīsukunnāru", "తీసుకోండి|tīsukōṇḍi"] },
+        { "native": "అన్నా, బస్టాండుకి వస్తారా?", "roman": "annā, basṭāṇḍuki vastārā?", "en": "Anna, will you go to the bus station?", "focus": "వస్తారా", "wrong": ["వచ్చారా|vachchārā", "వస్తానా|vastānā"] },
+        { "native": "ఆటో బాడుగ ఎంత?", "roman": "āṭō bāḍuga enta?", "en": "What's the auto fare?" },
+        { "native": "మీటర్ మీద రండి, ఎక్స్‌ట్రా ఇవ్వను.", "roman": "mīṭar mīda raṇḍi, ekstrā ivvanu.", "en": "Go by the meter, I won't pay extra.", "focus": "ఇవ్వను", "wrong": ["ఇచ్చా|ichchā", "ఇవ్వండి|ivvaṇḍi"] },
+        { "native": "రాత్రి అయితే ఎక్స్‌ట్రా అడుగుతారు.", "roman": "rātri ayitē ekstrā aḍugutāru.", "en": "At night they ask for extra." },
+        { "native": "చాలా ఎక్కువ, నూట యాభై ఇస్తా.", "roman": "chālā ekkuva, nūṭa yābhai istā.", "en": "That's too much, I'll give you one-fifty.", "focus": "ఇస్తా", "wrong": ["ఇచ్చా|ichchā", "ఇవ్వు|ivvu"] },
+        { "native": "షేర్ ఆటోలో పది రూపాయలే.", "roman": "ṣēr āṭōlō padi rūpāyalē.", "en": "It's only ten rupees in a share auto." },
+        { "native": "సరే, చివరి ధర చెప్పండి.", "roman": "sarē, chivari dhara cheppaṇḍi.", "en": "OK, tell me your final price.", "focus": "చెప్పండి", "wrong": ["చెప్పా|cheppā", "చెప్తా|cheptā"] },
+        { "native": "చిల్లర లేదు అన్నా, ఫోన్‌పే చేయనా?", "roman": "chillara lēdu annā, phōnpē chēyanā?", "en": "I've no change, anna, can I pay by PhonePe?", "focus": "చేయనా", "wrong": ["చేశా|chēshā", "చేయండి|chēyaṇḍi"] }
+      ]
+    },
+    {
+      "title": "Drop me here",
+      "tip": { "title": "Stop vs stop it: ఆగు / ఆపు, దిగు / దింపు", "body": "- **ఆగు** = come to a stop · **ఆపు** = stop something: బస్సు **ఆగింది** / ఇక్కడ **ఆపండి**.\n- **దిగు** = get off · **దింపు** = drop someone off: నేను **దిగుతా** / నన్ను **దింపండి**.\n- Same pattern: ఎక్కు / ఎక్కించు, తిరుగు / తిప్పు.", "pattern": "నేను దిగుతా · నన్ను దింపండి", "grammar": 0 },
+      "new": ["దింపు", "ఆపు", "అడ్రస్", "గేట్", "నన్ను స్టేషను దగ్గర దింపండి.", "పక్కకి ఆపండి.", "ఇక్కడే, ఇక్కడే!"],
+      "sentences": [
+        { "native": "నన్ను గుడి దగ్గర దింపండి.", "roman": "nannu guḍi daggara dimpaṇḍi.", "en": "Drop me at the temple, please.", "focus": "దింపండి", "wrong": ["దిగండి|digaṇḍi", "దిగుతా|digutā"] },
+        { "native": "నేను ఇక్కడే దిగుతా.", "roman": "nēnu ikkaḍē digutā.", "en": "I'll get off right here.", "focus": "దిగుతా", "wrong": ["దింపుతా|dimputā", "దింపండి|dimpaṇḍi"] },
+        { "native": "అన్నా, కొంచెం పక్కకి ఆపండి.", "roman": "annā, konchem pakkaki āpaṇḍi.", "en": "Anna, pull over a bit, please.", "focus": "ఆపండి", "wrong": ["ఆగింది|āgindi", "ఆపా|āpā"] },
+        { "native": "బస్సు ఇక్కడ ఆగుతుందా?", "roman": "bassu ikkaḍa āgutundā?", "en": "Does the bus stop here?", "focus": "ఆగుతుందా", "wrong": ["ఆపుతుందా|āputundā", "ఆపండి|āpaṇḍi"] },
+        { "native": "ఈ అడ్రస్‌కి తీసుకెళ్ళండి.", "roman": "ī aḍraski tīsukeḷḷaṇḍi.", "en": "Take me to this address, please." },
+        { "native": "పిల్లల్ని బడి దగ్గర దింపి వస్తా.", "roman": "pillalni baḍi daggara dimpi vastā.", "en": "I'll drop the kids at school and come.", "focus": "దింపి", "wrong": ["దిగి|digi", "దింపా|dimpā"] },
+        { "native": "ఇక్కడే, ఇక్కడే! ఆ గేట్ దగ్గర ఆపండి.", "roman": "ikkaḍē, ikkaḍē! ā gēṭ daggara āpaṇḍi.", "en": "Here, right here! Stop by that gate.", "focus": "ఆపండి", "wrong": ["ఆగుతుంది|āgutundi", "ఆపా|āpā"] },
+        { "native": "అడ్రస్ వాట్సాప్‌లో పంపా.", "roman": "aḍras vāṭsāplō pampā.", "en": "I've sent the address on WhatsApp." },
+        { "native": "రాత్రి నన్ను ఇంటి దగ్గర దింపుతావా?", "roman": "rātri nannu iṇṭi daggara dimputāvā?", "en": "Will you drop me home tonight? (to a friend)", "focus": "దింపుతావా", "wrong": ["దిగుతావా|digutāvā", "దింపావా|dimpāvā"] }
+      ]
+    },
+    {
+      "title": "Directions from the back seat",
+      "tip": { "title": "Do it now: -ఏయ్ · away, off: -పో", "body": "- **-ఏయ్** (from వేయు) = right away, completely: **ఆపేయండి** 'just stop', **దింపేయ్** 'just drop me'.\n- **-ఇపో** (from పోవు) = off, away, done: **దిగిపో** 'get off', **వెళ్ళిపోయింది** 'it's gone'.\n- **తిరుగు** = turn, go round · **తిప్పు** = turn something, take someone round.", "pattern": "ఆపు → ఆపేయండి · దిగు → దిగిపో", "grammar": 0 },
+      "new": ["దాటు", "తిప్పు", "చుట్టూ", "షార్ట్‌కట్", "యూటర్న్", "ఫ్లైఓవర్", "నడుపు", "సిగ్నల్ దగ్గర లెఫ్ట్ తీసుకోండి.", "నెమ్మదిగా నడపండి, ప్లీజ్."],
+      "sentences": [
+        { "native": "సిగ్నల్ దాటాక ఆపేయండి.", "roman": "signal dāṭāka āpēyaṇḍi.", "en": "Just stop after the signal.", "focus": "ఆపేయండి", "wrong": ["ఆపేశా|āpēshā", "ఆగిపోయింది|āgipōyindi"] },
+        { "native": "ఫ్లైఓవర్ ఎక్కకండి, కింద నుంచి వెళ్ళండి.", "roman": "phlaiōvar ekkakaṇḍi, kinda nunchi veḷḷaṇḍi.", "en": "Don't take the flyover, go underneath." },
+        { "native": "ఇక్కడ యూటర్న్ తీసుకోండి.", "roman": "ikkaḍa yūṭarn tīsukōṇḍi.", "en": "Do a U-turn here." },
+        { "native": "అన్నా, ఎందుకు చుట్టూ తిప్పుతున్నారు?", "roman": "annā, enduku chuṭṭū tipputunnāru?", "en": "Anna, why are you taking me the long way round?", "focus": "తిప్పుతున్నారు", "wrong": ["తిప్పాను|tippānu", "తిరిగా|tirigā"] },
+        { "native": "షార్ట్‌కట్ తెలుసు, నేను దారి చెప్తా.", "roman": "ṣārṭkaṭ telusu, nēnu dāri cheptā.", "en": "I know a shortcut, I'll show you the way." },
+        { "native": "కొంచెం నెమ్మదిగా నడపండి, పిల్లలు ఉన్నారు.", "roman": "konchem nemmadigā naḍapaṇḍi, pillalu unnāru.", "en": "Drive a bit slower, please, there are kids with us.", "focus": "నడపండి", "wrong": ["నడుపుతా|naḍuputā", "నడిపా|naḍipā"] },
+        { "native": "రోడ్డు దాటి ఎదురుగా ఆటో ఎక్కు.", "roman": "rōḍḍu dāṭi edurugā āṭō ekku.", "en": "Cross the road and get an auto on the other side.", "focus": "దాటి", "wrong": ["దాటా|dāṭā", "దాటు|dāṭu"] },
+        { "native": "రెండో సిగ్నల్ దగ్గర లెఫ్ట్, తర్వాత నేరుగా.", "roman": "reṇḍō signal daggara lephṭ, tarvāta nērugā.", "en": "Left at the second signal, then straight on." },
+        { "native": "ఇదే మన సందు, ఇక్కడ దిగిపోదాం.", "roman": "idē mana sandu, ikkaḍa digipōdām.", "en": "This is our lane, let's get out here.", "focus": "దిగిపోదాం", "wrong": ["దిగిపోయాం|digipōyām", "దింపుదాం|dimpudām"] }
+      ]
+    },
+    {
+      "title": "Booking a cab",
+      "tip": { "title": "Ride apps", "body": "- Book: **క్యాబ్ / ఆటో బుక్ చేయు** · the driver asks **ఓటీపీ చెప్పండి**.\n- Drivers call you **సార్ / మేడం**; you call them **అన్నా** and use **-ండి**.\n- The ride's cost: **ఎంత అయింది?** · distance: **ఎంత దూరం?**, **…కిలోమీటర్లు**." },
+      "new": ["క్యాబ్", "రైడ్", "డ్రైవర్", "ఓటీపీ", "కిలోమీటర్", "క్యాబ్ బుక్ చేశా.", "ఓటీపీ ఎంత?", "ఇంకెంత దూరం?"],
+      "sentences": [
+        { "native": "క్యాబ్ బుక్ చేయనా, ఆటో బుక్ చేయనా?", "roman": "kyāb buk chēyanā, āṭō buk chēyanā?", "en": "Shall I book a cab or an auto?" },
+        { "native": "డ్రైవర్ ఎక్కడ ఉన్నాడు? ఐదు నిమిషాల్లో వస్తాడట.", "roman": "ḍraivar ekkaḍa unnāḍu? aidu nimiṣāllō vastāḍaṭa.", "en": "Where's the driver? Apparently he'll be here in five minutes." },
+        { "native": "సార్, ఓటీపీ చెప్పండి.", "roman": "sār, ōṭīpī cheppaṇḍi.", "en": "Sir, tell me the OTP, please." },
+        { "native": "డ్రైవర్ రైడ్ క్యాన్సిల్ చేశాడు!", "roman": "ḍraivar raiḍ kyānsil chēshāḍu!", "en": "The driver cancelled the ride!" },
+        { "native": "ఈ రైడ్ ఎంత అయింది?", "roman": "ī raiḍ enta ayindi?", "en": "How much did this ride come to?" },
+        { "native": "క్యాబ్ బుక్ చేశా, గేట్ దగ్గర వెయిట్ చెయ్.", "roman": "kyāb buk chēshā, gēṭ daggara veyiṭ chey.", "en": "I've booked a cab, wait at the gate." },
+        { "native": "మీ లొకేషన్ షేర్ చేయండి సార్, అడ్రస్ దొరకట్లేదు.", "roman": "mī lokēṣan ṣēr chēyaṇḍi sār, aḍras dorakaṭlēdu.", "en": "Please share your location, sir, I can't find the address." },
+        { "native": "ఇంకెంత దూరం? ఇంకో రెండు కిలోమీటర్లు.", "roman": "iṅkenta dūram? iṅkō reṇḍu kilōmīṭarlu.", "en": "How much further? Another two kilometres." },
+        { "native": "మా ఆఫీసు ఇక్కడి నుంచి పది కిలోమీటర్లు.", "roman": "mā āphīsu ikkaḍi nunchi padi kilōmīṭarlu.", "en": "My office is ten kilometres from here." },
+        { "native": "సార్, మీరు అడ్రస్ తప్పు పెట్టారు.", "roman": "sār, mīru aḍras tappu peṭṭāru.", "en": "Sir, you've put in the wrong address." }
+      ]
+    },
+    {
+      "title": "On the metro",
+      "tip": { "title": "It takes: పడుతుంది / పట్టింది", "body": "- Time is the subject of **పట్టు**: గంట **పడుతుంది** 'it takes an hour' · గంట **పట్టింది** 'it took an hour'.\n- Who it took: dative: **నాకు** గంట పట్టింది.\n- In (a time): **-లో**: అరగంట**లో** · cost: **ఎంత అవుతుంది?**", "pattern": "time + పడుతుంది / పట్టింది", "grammar": 1 },
+      "new": ["మెట్రో", "టోకెన్", "లైన్", "స్టాప్", "రద్దీ", "సీటు", "పట్టు", "ఏ స్టేషనులో మారాలి?", "ఈ టైంలో గంట పడుతుంది."],
+      "sentences": [
+        { "native": "మెట్రోలో అమీర్‌పేట్‌కి ఎంత సేపు పడుతుంది?", "roman": "meṭrōlō amīrpēṭki enta sēpu paḍutundi?", "en": "How long does it take to Ameerpet by metro?", "focus": "పడుతుంది", "wrong": ["పట్టింది|paṭṭindi", "పట్టు|paṭṭu"] },
+        { "native": "ఇంటి నుంచి ఆఫీసుకి గంట పడుతుంది.", "roman": "iṇṭi nunchi āphīsuki gaṇṭa paḍutundi.", "en": "It takes an hour from home to the office.", "focus": "పడుతుంది", "wrong": ["పట్టింది|paṭṭindi", "పడ్డాను|paḍḍānu"] },
+        { "native": "నిన్న ట్రాఫిక్‌లో నాకు రెండు గంటలు పట్టింది.", "roman": "ninna ṭrāphiklō nāku reṇḍu gaṇṭalu paṭṭindi.", "en": "Yesterday it took me two hours in the traffic.", "focus": "పట్టింది", "wrong": ["పడుతుంది|paḍutundi", "పట్టు|paṭṭu"] },
+        { "native": "సాయంత్రం ఈ టైంలో హైటెక్ సిటీకి గంట పడుతుంది.", "roman": "sāyantram ī ṭaimlō haiṭek siṭīki gaṇṭa paḍutundi.", "en": "At this time in the evening it takes an hour to Hitech City.", "focus": "పడుతుంది", "wrong": ["పట్టింది|paṭṭindi", "పడ్డాను|paḍḍānu"] },
+        { "native": "మెట్రో టోకెన్‌కి ఎంత అవుతుంది?", "roman": "meṭrō ṭōkenki enta avutundi?", "en": "How much is a metro token?", "focus": "అవుతుంది", "wrong": ["అయింది|ayindi", "పడుతుంది|paḍutundi"] },
+        { "native": "క్యాబ్‌లో అయితే అరగంటలో వెళ్ళిపోవచ్చు.", "roman": "kyāblō ayitē aragaṇṭalō veḷḷipōvachchu.", "en": "By cab you can get there in half an hour.", "focus": "అరగంటలో", "wrong": ["అరగంటకి|aragaṇṭaki", "అరగంట|aragaṇṭa"] },
+        { "native": "ఒక టోకెన్ ఇవ్వండి, ఎల్బీ నగర్‌కి.", "roman": "oka ṭōken ivvaṇḍi, elbī nagarki.", "en": "One token to LB Nagar, please." },
+        { "native": "అమీర్‌పేట్‌లో లైన్ మారాలి.", "roman": "amīrpēṭlō lain mārāli.", "en": "You have to change lines at Ameerpet." },
+        { "native": "తర్వాతి స్టాప్ ఏది?", "roman": "tarvāti sṭāp ēdi?", "en": "What's the next stop?" },
+        { "native": "ఉదయం మెట్రోలో చాలా రద్దీ, సీటు దొరకదు.", "roman": "udayam meṭrōlō chālā raddī, sīṭu dorakadu.", "en": "The metro's packed in the morning, you won't get a seat." },
+        { "native": "హైటెక్ సిటీకి వెళ్ళాలంటే ఏ స్టేషనులో మారాలి?", "roman": "haiṭek siṭīki veḷḷālaṇṭē ē sṭēṣanulō mārāli?", "en": "To get to Hitech City, which station do I change at?" }
+      ]
+    }
+  ]
+}

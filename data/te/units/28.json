@@ -1,0 +1,203 @@
+{
+  "id": 28,
+  "title": "Catching up",
+  "goal": "Catch up with a friend you haven't seen in a while: say how long it's been, share your news, tell them about your weekend or a trip, ask 'have you ever…?', say what you were doing when something happened, and talk about how things have changed.",
+  "intro": "Bumping into an old friend calls for a burst of very specific language: *ఎన్నాళ్ళయింది!* (it's been ages!), *ఏంటి విశేషాలు?* (what's new?), *చాలా మారిపోయావు!* (you've changed so much!). This unit gives you all of it, plus the vocabulary of weekends, trips and life news: jobs, transfers, babies and retirements.\n\nThe grammar is about time: how Telugu covers English *have done* and *had done* with the simple past, *ever* and *never* with **ఎప్పుడైనా** and **ఎప్పుడూ**; *was doing* with the continuous (**-తున్నాను** works for the past too) and **-తుంటే** 'when I was…'; and *for, since, ago* and *it's been* (**-గా, నుంచి, కిందట, … అయింది**).",
+  "vocab": [
+    { "native": "ఎన్నాళ్ళు", "roman": "ennāḷḷu", "en": "how long, how many days", "pos": "q", "note": "ఎన్ని + నాళ్ళు (days). ఎన్నాళ్ళయింది! = it's been ages! ఎన్నాళ్ళుగా? = for how long?" },
+    { "native": "ఏడాది", "roman": "ēḍādi", "en": "year", "pos": "noun", "note": "The everyday word; సంవత్సరం is more formal. Last year: పోయిన ఏడాది." },
+    { "native": "కలుసుకో", "roman": "kalusukō", "en": "to meet (each other), get together", "pos": "verb", "note": "కలుసుకున్నాం, కలుసుకుని. Reciprocal of కలవు." },
+    { "native": "మిస్ అవు", "roman": "mis avu", "en": "to miss (someone, something)", "pos": "verb", "note": "నిన్ను మిస్ అయ్యాను = I missed you. Also: bus మిస్ అయింది = I missed the bus. Native: గుర్తొచ్చు." },
+    { "native": "విశేషం", "roman": "vishēṣam", "en": "news, something special, highlight", "pos": "noun", "note": "Usually pl. విశేషాలు: ఏంటి విశేషాలు? = what's new?" },
+    { "native": "ట్రాన్స్‌ఫర్", "roman": "ṭrānsphar", "en": "(job) transfer", "pos": "noun", "note": "నాకు ట్రాన్స్‌ఫర్ అయింది = I've been transferred." },
+    { "native": "కోర్సు", "roman": "kōrsu", "en": "course (of study)", "pos": "noun", "note": "కోర్సు చేయు = to do a course." },
+    { "native": "రిటైర్ అవు", "roman": "riṭair avu", "en": "to retire", "pos": "verb", "note": "నాన్న రిటైర్ అయ్యారు." },
+    { "native": "పుట్టు", "roman": "puṭṭu", "en": "to be born", "pos": "verb", "note": "పుట్టాడు (a boy was born), పుట్టింది (a girl was born). Non-past పుడతాడు." },
+    { "native": "జీవితం", "roman": "jīvitam", "en": "life", "pos": "noun", "note": "జీవితం ఎలా ఉంది? = how's life? Young people also just say లైఫ్." },
+    { "native": "ఈ మధ్య", "roman": "ī madhya", "en": "lately, these days, recently", "pos": "adv", "note": "With the present continuous for ongoing things: ఈ మధ్య బిజీగా ఉంటున్నాను." },
+    { "native": "ఆ మధ్య", "roman": "ā madhya", "en": "a while back, some time ago", "pos": "adv", "note": "With the past: ఆ మధ్య కలిశాం." },
+    { "native": "గడుపు", "roman": "gaḍupu", "en": "to spend (time)", "pos": "verb", "note": "గడిపాను. Time passing on its own is గడుచు: వీకెండ్ ఎలా గడిచింది?" },
+    { "native": "ట్రిప్", "roman": "ṭrip", "en": "trip", "pos": "noun", "note": "ట్రిప్ వెళ్ళు / ట్రిప్‌కి వెళ్ళు = go on a trip." },
+    { "native": "షాపింగ్", "roman": "ṣāpiṅg", "en": "shopping", "pos": "noun", "note": "షాపింగ్‌కి వెళ్ళు, షాపింగ్ చేయు." },
+    { "native": "ఎంజాయ్ చేయు", "roman": "enjāy chēyu", "en": "to enjoy, have a good time", "pos": "verb", "note": "బాగా ఎంజాయ్ చేశాం = we had a great time." },
+    { "native": "బోర్", "roman": "bōr", "en": "boring; bored", "pos": "adj", "note": "బోర్ కొట్టింది = it was boring / I got bored (lit. boredom struck)." },
+    { "native": "ఎప్పుడైనా", "roman": "eppuḍainā", "en": "ever; at any time", "pos": "adv", "note": "In questions with the past: ఎప్పుడైనా వెళ్ళావా? = have you ever been?" },
+    { "native": "ఊహించు", "roman": "ūhinchu", "en": "to imagine, expect, guess", "pos": "verb", "note": "ఊహించలేదు = I never expected (it)." },
+    { "native": "జిమ్", "roman": "jim", "en": "gym", "pos": "noun" },
+    { "native": "ఎదురుపడు", "roman": "edurupaḍu", "en": "to bump into, run into (someone)", "pos": "verb", "note": "The person you met is the subject: రవి ఎదురుపడ్డాడు = I ran into Ravi." },
+    { "native": "సర్‌ప్రైజ్", "roman": "sarpraij", "en": "surprise", "pos": "noun", "note": "ఏంటి సర్‌ప్రైజ్! = what a surprise!" },
+    { "native": "అదృష్టం", "roman": "adruṣṭam", "en": "luck", "pos": "noun", "note": "Lucky: అదృష్టవంతుడు (m), అదృష్టవంతురాలు (f). Unlucky: దురదృష్టం." },
+    { "native": "మారిపోవు", "roman": "māripōvu", "en": "to change (completely)", "pos": "verb", "note": "మారు + పోవు: చాలా మారిపోయావు! = you've changed so much!" },
+    { "native": "ఇప్పటికీ", "roman": "ippaṭikī", "en": "still, even now", "pos": "adv", "note": "Stronger than ఇంకా: ఇప్పటికీ గుర్తుంది = I still remember." }
+  ],
+  "phrases": [
+    { "native": "ఎన్నాళ్ళయింది!", "roman": "ennāḷḷayindi!", "en": "It's been ages!", "note": "ఎన్నాళ్ళు + అయింది. Very warm; add రా (to a man) or ఏ / వే (to a woman) between friends." },
+    { "native": "అంతా బాగేనా?", "roman": "antā bāgēnā?", "en": "All good?", "note": "Spoken; careful form: అంతా బాగున్నారా?" },
+    { "native": "మనం కలిసి ఎంత కాలం అయింది?", "roman": "manam kalisi enta kālam ayindi?", "en": "How long has it been since we last met?" },
+    { "native": "నిన్ను చాలా మిస్ అయ్యాను.", "roman": "ninnu chālā mis ayyānu.", "en": "I really missed you." },
+    { "native": "ఏంటి విశేషాలు?", "roman": "ēṇṭi vishēṣālu?", "en": "What's new?" },
+    { "native": "ఈ మధ్య ఏం చేస్తున్నావు?", "roman": "ī madhya ēm chēstunnāvu?", "en": "What have you been up to lately?" },
+    { "native": "వీకెండ్ ఎలా గడిచింది?", "roman": "vīkeṇḍ elā gaḍichindi?", "en": "How was your weekend?" },
+    { "native": "ఏమీ లేదు, ఇంట్లోనే ఉన్నా.", "roman": "ēmī lēdu, iṇṭlōnē unnā.", "en": "Nothing much, I just stayed home.", "note": "ఉన్నా = spoken ఉన్నాను." },
+    { "native": "బాగా ఎంజాయ్ చేశాం.", "roman": "bāgā enjāy chēshām.", "en": "We had a great time." },
+    { "native": "ఎప్పుడైనా అరకు వెళ్ళావా?", "roman": "eppuḍainā araku veḷḷāvā?", "en": "Have you ever been to Araku?", "note": "Araku valley: hills and coffee estates near Vizag." },
+    { "native": "ఎప్పుడూ వెళ్ళలేదు.", "roman": "eppuḍū veḷḷalēdu.", "en": "I've never been." },
+    { "native": "అసలు ఊహించలేదు!", "roman": "asalu ūhinchalēdu!", "en": "I'd never have guessed! / I didn't see that coming!" },
+    { "native": "చాలా మారిపోయావు!", "roman": "chālā māripōyāvu!", "en": "You've changed so much!" },
+    { "native": "ఇప్పటికీ అలాగే ఉన్నావు.", "roman": "ippaṭikī alāgē unnāvu.", "en": "You haven't changed a bit." },
+    { "native": "మళ్ళీ కలుద్దాం, టచ్‌లో ఉండు.", "roman": "maḷḷī kaluddām, ṭachlō uṇḍu.", "en": "Let's meet again. Keep in touch." }
+  ],
+  "grammar": [
+    {
+      "title": "Have done, have you ever, had already: the past does it all",
+      "body": "**No separate present perfect.** The simple past covers English *did* and *have done*: *ఉద్యోగం మారాను* = I changed jobs / I've changed jobs; *భోంచేశావా?* = did you eat? / have you eaten? Context does the rest.\n\n**Ever / never**\n• Have you ever…? **ఎప్పుడైనా** + past question: *ఎప్పుడైనా గోవా వెళ్ళావా?*\n• Never: **ఎప్పుడూ** + past negative (-లేదు): *ఎప్పుడూ వెళ్ళలేదు*\n• Once, twice: **ఒకసారి, రెండుసార్లు**\n\n**Still and not yet**: **ఇప్పటికీ** / **ఇంకా** + present (still): *ఇప్పటికీ అక్కడే పని చేస్తున్నాను*; **ఇంకా** + -లేదు (not yet): *ఇంకా పెళ్ళి కాలేదు*.\n\n**Already, completely**: the -ఏయ్ compound (Unit 23) adds 'done and dusted': *చూసేశాను* (I've already seen it), *అయిపోయింది* (it's all over).\n\n**Had already… by the time**: the non-past participle + **-సరికి** 'by the time': *మేము చేరేసరికి పార్టీ అయిపోయింది* (by the time we got there, the party was over). The main verb stays in the simple past.",
+      "examples": [
+        { "native": "ఎప్పుడైనా ఇంట్లో బిర్యానీ చేశావా?", "roman": "eppuḍainā iṇṭlō biryānī chēshāvā?", "en": "Have you ever made biryani at home?" },
+        { "native": "నేను ఎప్పుడూ విమానం ఎక్కలేదు.", "roman": "nēnu eppuḍū vimānam ekkalēdu.", "en": "I've never been on a plane." },
+        { "native": "ఆ సినిమా ఇప్పటికే రెండుసార్లు చూసేశాను.", "roman": "ā sinimā ippaṭikē reṇḍusārlu chūsēshānu.", "en": "I've already seen that film twice." },
+        { "native": "మేము చేరేసరికి పార్టీ అయిపోయింది.", "roman": "mēmu chērēsariki pārṭī ayipōyindi.", "en": "By the time we got there, the party was over." },
+        { "native": "ఇప్పటికీ అదే ఆఫీసులో పని చేస్తున్నావా?", "roman": "ippaṭikī adē āphīsulō pani chēstunnāvā?", "en": "Are you still working at the same office?" }
+      ]
+    },
+    {
+      "title": "Was doing: -తున్నాను, and 'when I was…': -తుంటే, -తున్నప్పుడు",
+      "body": "**ఉన్నాను** is both *am* and *was* (it is really the past stem of ఉండు), so the continuous **-తున్నాను** also means *was doing* whenever the time is in the past:\n*నిన్న రాత్రి పదింటికి ఏం చేస్తున్నావు?* (what were you doing at ten last night?) — *సినిమా చూస్తున్నాను* (I was watching a film).\n\n**'I was doing X when Y happened'**: put X in **-తుంటే** (spoken, very common) or **-తున్నప్పుడు** ('while…-ing') and Y in the simple past:\n*నేను వస్తుంటే వర్షం పడింది* (it rained while I was on my way) · *మెట్రోలో వెళ్తున్నప్పుడు నువ్వు కనిపించావు* (I saw you when I was on the metro).\nAdd -ఏ for 'just as': *బయలుదేరుతున్నప్పుడే* (just as I was leaving).\n\nForms: stem + **-తుంటే / -తున్నప్పుడు**: చేస్తుంటే, వెళ్తుంటే, తింటుంటే, చూస్తుంటే · చేస్తున్నప్పుడు, వెళ్తున్నప్పుడు.\n\n**Don't confuse** with 'used to' (Unit 26): *చదువుతున్నాను* = I was reading (at that moment); *చదివేవాడిని* = I used to read (regularly).",
+      "examples": [
+        { "native": "నిన్న నువ్వు ఫోన్ చేసినప్పుడు నేను బండి నడుపుతున్నాను.", "roman": "ninna nuvvu phōn chēsinappuḍu nēnu baṇḍi naḍuputunnānu.", "en": "When you called yesterday, I was riding my scooter." },
+        { "native": "మేము భోంచేస్తుంటే అతిథులు వచ్చారు.", "roman": "mēmu bhōnchēstuṇṭē atithulu vachchāru.", "en": "We were in the middle of eating when guests turned up." },
+        { "native": "నేను మెట్రోలో వెళ్తున్నప్పుడు మా పాత టీచర్ కనిపించారు.", "roman": "nēnu meṭrōlō veḷtunnappuḍu mā pāta ṭīchar kanipinchāru.", "en": "I saw my old teacher when I was on the metro." },
+        { "native": "నిన్న రాత్రి పదింటికి ఏం చేస్తున్నావు?", "roman": "ninna rātri padiṇṭiki ēm chēstunnāvu?", "en": "What were you doing at ten last night?" },
+        { "native": "అప్పుడు నేను చదువుకుంటున్నాను.", "roman": "appuḍu nēnu chaduvukuṇṭunnānu.", "en": "I was studying at the time." }
+      ]
+    },
+    {
+      "title": "For, since, ago and 'it's been': -గా, నుంచి, కిందట, … అయింది",
+      "body": "**For (up to now)**: number + time word + **-గా**, usually with the present continuous: *రెండేళ్ళుగా ఇక్కడ పని చేస్తున్నాను* (I've been working here for two years) · *చాలా రోజులుగా* (for ages) · *ఎన్నాళ్ళుగా?* (for how long?)\n\n**Since**: **నుంచి**: *జనవరి నుంచి* · *చిన్నప్పటి నుంచి* (since childhood) · *ఎప్పటి నుంచి?* (since when?)\n\n**Ago**: the time word in its **-ల** form + **కిందట** (spoken) or **క్రితం** (more formal): రోజు → *రెండు రోజుల కిందట* · నెల → *మూడు నెలల కిందట* · *ఏడాది కిందట* · *గంట క్రితం*.\n\n**It's been … since**: the event in the **-ఇ form** + the time + **అయింది**: *మనం కలిసి ఏడాది అయింది* (it's been a year since we met) · *వాళ్ళకి పెళ్ళి అయి ఐదేళ్ళు అయింది* (they've been married five years). Asking: *ఎంత కాలం అయింది?* Exclaiming: **ఎన్నాళ్ళయింది!**",
+      "examples": [
+        { "native": "రెండేళ్ళుగా బెంగళూరులో ఉంటున్నాను.", "roman": "reṇḍēḷḷugā beṅgaḷūrulō uṇṭunnānu.", "en": "I've been living in Bangalore for two years." },
+        { "native": "జనవరి నుంచి జిమ్‌కి వెళ్తున్నాను.", "roman": "janavari nunchi jimki veḷtunnānu.", "en": "I've been going to the gym since January." },
+        { "native": "మూడు నెలల కిందట ఉద్యోగం మారాను.", "roman": "mūḍu nelala kindaṭa udyōgam mārānu.", "en": "I changed jobs three months ago." },
+        { "native": "మనం కలిసి ఏడాది అయింది.", "roman": "manam kalisi ēḍādi ayindi.", "en": "It's been a year since we met." },
+        { "native": "వాళ్ళకి పెళ్ళి అయి ఐదేళ్ళు అయింది.", "roman": "vāḷḷaki peḷḷi ayi aidēḷḷu ayindi.", "en": "They've been married for five years." },
+        { "native": "ఎప్పటి నుంచి ఇక్కడ ఉన్నావు?", "roman": "eppaṭi nunchi ikkaḍa unnāvu?", "en": "Since when have you been here?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Look who it is",
+    "setting": "Sai and Nikhil, old college friends, run into each other on RK Beach in Visakhapatnam.",
+    "lines": [
+      { "speaker": "Sai", "native": "ఒరేయ్ నిఖిల్! నువ్వేనా? ఎన్నాళ్ళయింది రా!", "roman": "orēy nikhil! nuvvēnā? ennāḷḷayindi rā!", "en": "Hey, Nikhil! Is that you? It's been ages, man!" },
+      { "speaker": "Nikhil", "native": "సాయి! అసలు ఊహించలేదు! కాలేజీ అయిపోయి నాలుగేళ్ళు అయింది కదా.", "roman": "sāyi! asalu ūhinchalēdu! kālējī ayipōyi nālugēḷḷu ayindi kadā.", "en": "Sai! Didn't see that coming! It's been four years since college, hasn't it?" },
+      { "speaker": "Sai", "native": "అవును. నువ్వు చాలా మారిపోయావు, బాగా సన్నబడ్డావు!", "roman": "avunu. nuvvu chālā māripōyāvu, bāgā sannabaḍḍāvu!", "en": "Yeah. You've changed so much, you've got really slim!" },
+      { "speaker": "Nikhil", "native": "ఆరు నెలలుగా జిమ్‌కి వెళ్తున్నాను. నువ్వు మాత్రం ఇప్పటికీ అలాగే ఉన్నావు.", "roman": "āru nelalugā jimki veḷtunnānu. nuvvu mātram ippaṭikī alāgē unnāvu.", "en": "I've been going to the gym for six months. You haven't changed a bit, though." },
+      { "speaker": "Sai", "native": "హహ. ఏంటి విశేషాలు? ఇంకా హైదరాబాద్‌లోనే ఉన్నావా?", "roman": "haha. ēṇṭi vishēṣālu? iṅkā haidarābādlōnē unnāvā?", "en": "Haha. So what's new? Still in Hyderabad?" },
+      { "speaker": "Nikhil", "native": "లేదు, పోయిన నెలే వైజాగ్‌కి ట్రాన్స్‌ఫర్ అయింది. అందుకే ఇక్కడ ఉన్నా.", "roman": "lēdu, pōyina nelē vaijāgki ṭrānsphar ayindi. andukē ikkaḍa unnā.", "en": "No, I got transferred to Vizag just last month. That's why I'm here." },
+      { "speaker": "Sai", "native": "సూపర్! మరి పెళ్ళి సంగతి?", "roman": "sūpar! mari peḷḷi saṅgati?", "en": "Great! And what about marriage?" },
+      { "speaker": "Nikhil", "native": "కుదిరింది, డిసెంబర్‌లో. మరి నువ్వు?", "roman": "kudirindi, ḍisembarlō. mari nuvvu?", "en": "It's fixed, in December. And you?" },
+      { "speaker": "Sai", "native": "నాది ఆల్రెడీ అయిపోయింది, పోయిన ఏడాది. ఇప్పుడు మాకు ఒక పాప కూడా!", "roman": "nādi ālreḍī ayipōyindi, pōyina ēḍādi. ippuḍu māku oka pāpa kūḍā!", "en": "Mine's already done, last year. And now we've got a baby girl too!" },
+      { "speaker": "Nikhil", "native": "ఏంటి?! నాకు చెప్పనే లేదు!", "roman": "ēṇṭi?! nāku cheppanē lēdu!", "en": "What?! You never even told me!" },
+      { "speaker": "Sai", "native": "సారీ రా, అప్పుడు అంతా హడావిడిగా జరిగిపోయింది.", "roman": "sārī rā, appuḍu antā haḍāviḍigā jarigipōyindi.", "en": "Sorry, man, it all happened in such a rush back then." },
+      { "speaker": "Nikhil", "native": "సరే సరే. నువ్వు మా పెళ్ళికి రాకపోతే చూడు!", "roman": "sarē sarē. nuvvu mā peḷḷiki rākapōtē chūḍu!", "en": "Fine, fine. You'd better come to my wedding, or else!" },
+      { "speaker": "Sai", "native": "పక్కా వస్తా. ఈ ఆదివారం ఇంటికి రా, పాపని చూపిస్తాను.", "roman": "pakkā vastā. ī ādivāram iṇṭiki rā, pāpani chūpistānu.", "en": "I'll be there for sure. Come over this Sunday and meet the baby." }
+    ]
+  },
+  "culture": "Catching up in Telugu is direct. Within a minute an old friend or a relative may ask about your job, your salary (*జీతం ఎంత?*), whether you're married yet (*ఇంకా పెళ్ళి కాలేదా?*) and comment on your weight; it's affectionate curiosity, and a vague, smiling answer is fine. *ఇంట్లో అందరూ బాగున్నారా?* (is everyone at home well?) is expected early on. Between close male friends *ఒరేయ్* and *రా* are everywhere (*ఎన్నాళ్ళయింది రా!*); between women friends *ఏయ్*, *ఏమే* and *-ఏ / -వే*; with anyone older, stick to *మీరు* and *అండి*. Weekend talk is local: in Hyderabad it's biryani, Necklace Road, the malls and Tank Bund; in Vizag RK Beach, Kailasagiri and trips up to Araku; in Vijayawada the Kanaka Durga temple and evenings at the Prakasam Barrage. English words carry most of this talk (*ట్రిప్, షాపింగ్, ఎంజాయ్, బోర్, జిమ్, ట్రాన్స్‌ఫర్*), always with a Telugu verb attached.",
+  "lessons": [
+    {
+      "title": "Long time no see!",
+      "tip": { "title": "For, since, ago, it's been", "body": "- For (up to now): **-గా**: రెండేళ్ళు**గా**, చాలా రోజులు**గా**.\n- Since: **నుంచి**: జనవరి నుంచి, **ఎప్పటి నుంచి?**\n- Ago: **-ల + కిందట**: ఆరు నెల**ల కిందట**.\n- It's been … since: **-ఇ** form + time + **అయింది**: మనం కలిసి ఏడాది **అయింది**.", "pattern": "కలిసి + ఏడాది + అయింది", "grammar": 2 },
+      "new": ["ఎన్నాళ్ళు", "ఏడాది", "కలుసుకో", "మిస్ అవు", "ఎన్నాళ్ళయింది!", "అంతా బాగేనా?", "మనం కలిసి ఎంత కాలం అయింది?", "నిన్ను చాలా మిస్ అయ్యాను."],
+      "sentences": [
+        { "native": "మనం కలుసుకుని ఏడాది అయింది.", "roman": "manam kalusukuni ēḍādi ayindi.", "en": "It's been a year since we got together.", "focus": "అయింది", "wrong": ["అవుతుంది|avutundi", "అయ్యాను|ayyānu"] },
+        { "native": "నిన్ను చివరిసారి ఆరు నెలల కిందట చూశాను.", "roman": "ninnu chivarisāri āru nelala kindaṭa chūshānu.", "en": "I last saw you six months ago.", "focus": "కిందట", "wrong": ["నుంచి|nunchi", "వరకు|varaku"] },
+        { "native": "ఎప్పటి నుంచి వైజాగ్‌లో ఉంటున్నావు?", "roman": "eppaṭi nunchi vaijāglō uṇṭunnāvu?", "en": "Since when have you been living in Vizag?", "focus": "నుంచి", "wrong": ["కిందట|kindaṭa", "వరకు|varaku"] },
+        { "native": "రెండేళ్ళుగా ఇక్కడే ఉంటున్నాను.", "roman": "reṇḍēḷḷugā ikkaḍē uṇṭunnānu.", "en": "I've been living right here for two years.", "focus": "రెండేళ్ళుగా", "wrong": ["రెండేళ్ళకి|reṇḍēḷḷaki", "రెండేళ్ళలో|reṇḍēḷḷalō"] },
+        { "native": "ఇంట్లో అందరూ బాగున్నారా?", "roman": "iṇṭlō andarū bāgunnārā?", "en": "Is everyone at home well?" },
+        { "native": "మా గ్యాంగ్ అంతా కలుసుకుని చాలా రోజులు అయింది.", "roman": "mā gyāṅg antā kalusukuni chālā rōjulu ayindi.", "en": "It's been ages since our whole gang got together.", "focus": "అయింది", "wrong": ["అవుతుంది|avutundi", "అయ్యాను|ayyānu"] },
+        { "native": "చాలా రోజులుగా నీకు ఫోన్ చేయాలనుకుంటున్నాను.", "roman": "chālā rōjulugā nīku phōn chēyālanukuṇṭunnānu.", "en": "I've been meaning to call you for ages.", "focus": "రోజులుగా", "wrong": ["రోజుల|rōjula", "రోజులకి|rōjulaki"] },
+        { "native": "నేను కూడా నిన్ను మిస్ అయ్యాను రా.", "roman": "nēnu kūḍā ninnu mis ayyānu rā.", "en": "I missed you too, man." },
+        { "native": "రెండు వారాల కిందట నీ గురించే మాట్లాడుకున్నాం.", "roman": "reṇḍu vārāla kindaṭa nī gurinchē māṭlāḍukunnām.", "en": "We were talking about you just two weeks ago.", "focus": "కిందట", "wrong": ["నుంచి|nunchi", "వరకు|varaku"] },
+        { "native": "ఎన్నాళ్ళుగా ఈ ఉద్యోగంలో ఉన్నావు?", "roman": "ennāḷḷugā ī udyōgamlō unnāvu?", "en": "How long have you been in this job?", "focus": "ఎన్నాళ్ళుగా", "wrong": ["ఎన్నాళ్ళకి|ennāḷḷaki", "ఎన్నాళ్ళ|ennāḷḷa"] }
+      ]
+    },
+    {
+      "title": "What's new? Sharing your news",
+      "tip": { "title": "News: the simple past does it all", "body": "- The simple past is also English 'have done': ఉద్యోగం **మారాను** (I've changed jobs), బాబు **పుట్టాడు** (they've had a boy).\n- Not yet: **ఇంకా** + **-లేదు**: ఇంకా పెళ్ళి **కాలేదు**.\n- Lately: **ఈ మధ్య** + present continuous: ఈ మధ్య కోర్సు **చేస్తున్నాను**.", "grammar": 0 },
+      "new": ["విశేషం", "ట్రాన్స్‌ఫర్", "కోర్సు", "రిటైర్ అవు", "పుట్టు", "జీవితం", "ఈ మధ్య", "ఆ మధ్య", "ఏంటి విశేషాలు?", "ఈ మధ్య ఏం చేస్తున్నావు?"],
+      "sentences": [
+        { "native": "మా అక్కకి బాబు పుట్టాడు!", "roman": "mā akkaki bābu puṭṭāḍu!", "en": "My sister's had a baby boy!", "focus": "పుట్టాడు", "wrong": ["పుట్టింది|puṭṭindi", "పుడతాడు|puḍatāḍu"] },
+        { "native": "నాన్న పోయిన నెల రిటైర్ అయ్యారు.", "roman": "nānna pōyina nela riṭair ayyāru.", "en": "Dad retired last month.", "focus": "అయ్యారు", "wrong": ["అవుతారు|avutāru", "అయ్యాను|ayyānu"] },
+        { "native": "ఈ మధ్య సాయంత్రం ఒక కోర్సు చేస్తున్నాను.", "roman": "ī madhya sāyantram oka kōrsu chēstunnānu.", "en": "These days I'm doing a course in the evenings.", "focus": "చేస్తున్నాను", "wrong": ["చేశాను|chēshānu", "చేసేవాడిని|chēsēvāḍini"] },
+        { "native": "ఆ మధ్య నాకు చెన్నైకి ట్రాన్స్‌ఫర్ అయింది.", "roman": "ā madhya nāku chennaiki ṭrānsphar ayindi.", "en": "A while back I got transferred to Chennai.", "focus": "అయింది", "wrong": ["అవుతుంది|avutundi", "అయ్యాను|ayyānu"] },
+        { "native": "జీవితం ఎలా ఉంది?", "roman": "jīvitam elā undi?", "en": "How's life?" },
+        { "native": "ఇంకేం విశేషాలు? పెళ్ళి ఎప్పుడు?", "roman": "iṅkēm vishēṣālu? peḷḷi eppuḍu?", "en": "What else is new? When's the wedding?" },
+        { "native": "ఇంకా పెళ్ళి కాలేదు, ఇంట్లో చూస్తున్నారు.", "roman": "iṅkā peḷḷi kālēdu, iṇṭlō chūstunnāru.", "en": "Not married yet; my family is looking.", "focus": "కాలేదు", "wrong": ["కాదు|kādu", "అయింది|ayindi"] },
+        { "native": "కొత్త ఉద్యోగంలో చేరాను, జీతం బాగుంది.", "roman": "kotta udyōgamlō chērānu, jītam bāgundi.", "en": "I've started a new job, and the pay's good.", "focus": "చేరాను", "wrong": ["చేరుతాను|chērutānu", "చేరాడు|chērāḍu"] },
+        { "native": "నువ్వు ఇంకా అదే కంపెనీలో ఉన్నావా?", "roman": "nuvvu iṅkā adē kampenīlō unnāvā?", "en": "Are you still at the same company?", "focus": "ఉన్నావా", "wrong": ["ఉంటావా|uṇṭāvā", "ఉన్నాను|unnānu"] },
+        { "native": "రాజుకి పాప పుట్టిందట, తెలుసా?", "roman": "rājuki pāpa puṭṭindaṭa, telusā?", "en": "Raju's had a baby girl, apparently. Did you know?", "focus": "పుట్టిందట", "wrong": ["పుట్టాడట|puṭṭāḍaṭa", "పుడుతుందట|puḍutundaṭa"] }
+      ]
+    },
+    {
+      "title": "The weekend and the holidays",
+      "new": ["గడుపు", "ట్రిప్", "షాపింగ్", "ఎంజాయ్ చేయు", "బోర్", "వీకెండ్ ఎలా గడిచింది?", "ఏమీ లేదు, ఇంట్లోనే ఉన్నా.", "బాగా ఎంజాయ్ చేశాం."],
+      "sentences": [
+        { "native": "వీకెండ్ ఎలా గడిపావు?", "roman": "vīkeṇḍ elā gaḍipāvu?", "en": "How did you spend the weekend?" },
+        { "native": "శనివారం షాపింగ్‌కి వెళ్ళాం, ఆదివారం ఇంట్లోనే.", "roman": "shanivāram ṣāpiṅgki veḷḷām, ādivāram iṇṭlōnē.", "en": "On Saturday we went shopping; Sunday we just stayed in." },
+        { "native": "పోయిన వారం ఫ్రెండ్స్‌తో అరకు ట్రిప్ వెళ్ళాం.", "roman": "pōyina vāram phreṇḍstō araku ṭrip veḷḷām.", "en": "Last week I went on a trip to Araku with friends." },
+        { "native": "సినిమా ఎలా ఉంది? బోర్ కొట్టింది.", "roman": "sinimā elā undi? bōr koṭṭindi.", "en": "How was the film? Boring." },
+        { "native": "ఇంట్లో ఖాళీగా కూర్చుని బోర్ కొట్టింది.", "roman": "iṇṭlō khāḷīgā kūrchuni bōr koṭṭindi.", "en": "I got bored sitting around at home with nothing to do." },
+        { "native": "ఆదివారం మొత్తం నిద్రపోయి గడిపాను.", "roman": "ādivāram mottam nidrapōyi gaḍipānu.", "en": "I spent the whole of Sunday sleeping." },
+        { "native": "పిల్లలు బీచ్‌లో బాగా ఎంజాయ్ చేశారు.", "roman": "pillalu bīchlō bāgā enjāy chēshāru.", "en": "The kids had a great time at the beach." },
+        { "native": "ట్రిప్ ఫోటోలు పంపు!", "roman": "ṭrip phōṭōlu pampu!", "en": "Send me the trip photos!" },
+        { "native": "సెలవుల్లో ఏం చేశావు? ఊరికి వెళ్ళావా?", "roman": "selavullō ēm chēshāvu? ūriki veḷḷāvā?", "en": "What did you do in the holidays? Did you go home?" }
+      ]
+    },
+    {
+      "title": "Have you ever…?",
+      "tip": { "title": "Ever, never, already", "body": "- Have you ever…? **ఎప్పుడైనా** + past question: ఎప్పుడైనా తిన్నా**వా**?\n- Never: **ఎప్పుడూ** + past negative: ఎప్పుడూ ఎక్క**లేదు**.\n- Once, twice: **ఒకసారి**, **రెండుసార్లు**. Already: **చూసేశాను**.\n- By the time: **-ఏసరికి**: చేరేసరికి మొదలైపోయింది.", "pattern": "ఎప్పుడైనా + past + ఆ?", "grammar": 0 },
+      "new": ["ఎప్పుడైనా", "ఊహించు", "ఎప్పుడైనా అరకు వెళ్ళావా?", "ఎప్పుడూ వెళ్ళలేదు.", "అసలు ఊహించలేదు!"],
+      "sentences": [
+        { "native": "ఎప్పుడైనా హైదరాబాద్ బిర్యానీ తిన్నావా?", "roman": "eppuḍainā haidarābād biryānī tinnāvā?", "en": "Have you ever had Hyderabadi biryani?", "focus": "తిన్నావా", "wrong": ["తింటావా|tiṇṭāvā", "తిన్నాను|tinnānu"] },
+        { "native": "ఒకసారి తిన్నాను, కానీ అంత కారం ఎప్పుడూ తినలేదు.", "roman": "okasāri tinnānu, kānī anta kāram eppuḍū tinalēdu.", "en": "I had it once, but I'd never eaten anything that spicy.", "focus": "తినలేదు", "wrong": ["తినను|tinanu", "తిన్నాను|tinnānu"] },
+        { "native": "నువ్వు ఎప్పుడైనా తిరుపతి వెళ్ళావా?", "roman": "nuvvu eppuḍainā tirupati veḷḷāvā?", "en": "Have you ever been to Tirupati?", "focus": "వెళ్ళావా", "wrong": ["వెళ్తావా|veḷtāvā", "వెళ్ళాను|veḷḷānu"] },
+        { "native": "రెండుసార్లు వెళ్ళాను, ఒకసారి నడిచి కొండ ఎక్కాను.", "roman": "reṇḍusārlu veḷḷānu, okasāri naḍichi koṇḍa ekkānu.", "en": "I've been twice; once I walked all the way up the hill.", "focus": "వెళ్ళాను", "wrong": ["వెళ్తాను|veḷtānu", "వెళ్ళావు|veḷḷāvu"] },
+        { "native": "ఆ సినిమా చూశావా? ఇప్పటికే చూసేశాను.", "roman": "ā sinimā chūshāvā? ippaṭikē chūsēshānu.", "en": "Have you seen that film? I've already seen it.", "focus": "చూసేశాను", "wrong": ["చూస్తాను|chūstānu", "చూడలేదు|chūḍalēdu"] },
+        { "native": "నువ్వు ఇంత బాగా వంట చేస్తావని ఊహించలేదు!", "roman": "nuvvu inta bāgā vaṇṭa chēstāvani ūhinchalēdu!", "en": "I never imagined you could cook this well!", "focus": "ఊహించలేదు", "wrong": ["ఊహించను|ūhinchanu", "ఊహించాను|ūhinchānu"] },
+        { "native": "ఎప్పుడైనా మెట్రో ఎక్కావా?", "roman": "eppuḍainā meṭrō ekkāvā?", "en": "Have you ever taken the metro?", "focus": "ఎక్కావా", "wrong": ["ఎక్కుతావా|ekkutāvā", "ఎక్కాను|ekkānu"] },
+        { "native": "ఎప్పుడూ ఎక్కలేదు, ఎప్పుడూ బండి మీదే వెళ్తాను.", "roman": "eppuḍū ekkalēdu, eppuḍū baṇḍi mīdē veḷtānu.", "en": "Never; I always go on my scooter.", "focus": "ఎక్కలేదు", "wrong": ["ఎక్కను|ekkanu", "ఎక్కాను|ekkānu"] },
+        { "native": "మేము చేరేసరికి సినిమా మొదలైపోయింది.", "roman": "mēmu chērēsariki sinimā modalaipōyindi.", "en": "By the time we got there, the film had already started.", "focus": "చేరేసరికి", "wrong": ["చేరాక|chērāka", "చేరి|chēri"] }
+      ]
+    },
+    {
+      "title": "What were you up to?",
+      "tip": { "title": "Was doing: -తున్నాను, -తుంటే", "body": "- **ఉన్నాను** is both 'am' and 'was', so **-తున్నాను** is also 'was doing' with a past time: నిన్న సాయంత్రం ఏం చేస్తు**న్నావు**?\n- 'I was doing X when Y': X in **-తుంటే** or **-తున్నప్పుడు**, Y in the past: నేను వస్తు**ంటే** వర్షం పడింది.\n- Not to be mixed up with 'used to' **-ఏవాడిని**.", "pattern": "X + -తుంటే + Y (past)", "grammar": 1 },
+      "new": ["జిమ్", "ఎదురుపడు", "సర్‌ప్రైజ్", "అదృష్టం"],
+      "sentences": [
+        { "native": "నిన్న నువ్వు ఫోన్ చేసినప్పుడు నేను జిమ్‌కి వెళ్తున్నాను.", "roman": "ninna nuvvu phōn chēsinappuḍu nēnu jimki veḷtunnānu.", "en": "When you called yesterday, I was on my way to the gym.", "focus": "వెళ్తున్నాను", "wrong": ["వెళ్ళేవాడిని|veḷḷēvāḍini", "వెళ్తాను|veḷtānu"] },
+        { "native": "నేను మాల్‌లో తిరుగుతుంటే రవి ఎదురుపడ్డాడు.", "roman": "nēnu māllō tirugutuṇṭē ravi edurupaḍḍāḍu.", "en": "I was wandering round the mall when I bumped into Ravi.", "focus": "తిరుగుతుంటే", "wrong": ["తిరిగాను|tirigānu", "తిరుగుతాను|tirugutānu"] },
+        { "native": "నిన్న సాయంత్రం ఏం చేస్తున్నావు? ఎన్నిసార్లు ఫోన్ చేశానో!", "roman": "ninna sāyantram ēm chēstunnāvu? ennisārlu phōn chēshānō!", "en": "What were you doing yesterday evening? I called you so many times!", "focus": "చేస్తున్నావు", "wrong": ["చేసేవాడివి|chēsēvāḍivi", "చేస్తావు|chēstāvu"] },
+        { "native": "ఏమీ లేదు, నిద్రపోతున్నాను.", "roman": "ēmī lēdu, nidrapōtunnānu.", "en": "Nothing, I was asleep.", "focus": "నిద్రపోతున్నాను", "wrong": ["నిద్రపోయేవాడిని|nidrapōyēvāḍini", "నిద్రపోతాను|nidrapōtānu"] },
+        { "native": "మేము వస్తుంటే దారిలో పెద్ద వర్షం పడింది.", "roman": "mēmu vastuṇṭē dārilō pedda varṣam paḍindi.", "en": "It poured while we were on our way.", "focus": "వస్తుంటే", "wrong": ["వచ్చాం|vachchām", "వస్తాం|vastām"] },
+        { "native": "ఏంటి సర్‌ప్రైజ్! నువ్వు వస్తున్నావని నాకు తెలీదు.", "roman": "ēṇṭi sarpraij! nuvvu vastunnāvani nāku telīdu.", "en": "What a surprise! I didn't know you were coming." },
+        { "native": "అదృష్టం, నేను బయలుదేరుతున్నప్పుడే నువ్వు ఫోన్ చేశావు.", "roman": "adruṣṭam, nēnu bayaludērutunnappuḍē nuvvu phōn chēshāvu.", "en": "Lucky: you called just as I was leaving.", "focus": "బయలుదేరుతున్నప్పుడే", "wrong": ["బయలుదేరాక|bayaludērāka", "బయలుదేరి|bayaludēri"] },
+        { "native": "అమ్మ వంట చేస్తుంటే నేను పక్కనే కూర్చుని మాట్లాడుతున్నాను.", "roman": "amma vaṇṭa chēstuṇṭē nēnu pakkanē kūrchuni māṭlāḍutunnānu.", "en": "Mum was cooking and I was sitting next to her, chatting.", "focus": "చేస్తుంటే", "wrong": ["చేసింది|chēsindi", "చేస్తుంది|chēstundi"] },
+        { "native": "జిమ్‌లో ఎవరు ఎదురుపడ్డారో తెలుసా? మా పాత బాస్!", "roman": "jimlō evaru edurupaḍḍārō telusā? mā pāta bās!", "en": "Guess who I ran into at the gym? My old boss!" }
+      ]
+    },
+    {
+      "title": "How you've changed",
+      "new": ["మారిపోవు", "ఇప్పటికీ", "చాలా మారిపోయావు!", "ఇప్పటికీ అలాగే ఉన్నావు.", "మళ్ళీ కలుద్దాం, టచ్‌లో ఉండు."],
+      "sentences": [
+        { "native": "హైదరాబాద్ చాలా మారిపోయింది, గుర్తుపట్టలేకపోయాను.", "roman": "haidarābād chālā māripōyindi, gurtupaṭṭalēkapōyānu.", "en": "Hyderabad has changed so much, I couldn't recognise it." },
+        { "native": "నువ్వు బాగా సన్నబడ్డావు!", "roman": "nuvvu bāgā sannabaḍḍāvu!", "en": "You've got really slim!" },
+        { "native": "లేదు రా, ఇంకా అలాగే ఉన్నాను, నువ్వే మారిపోయావు.", "roman": "lēdu rā, iṅkā alāgē unnānu, nuvvē māripōyāvu.", "en": "No, man, I'm still the same; you're the one who's changed." },
+        { "native": "మా ఊరు ఇప్పటికీ అలాగే ఉంది, ఏమీ మారలేదు.", "roman": "mā ūru ippaṭikī alāgē undi, ēmī māralēdu.", "en": "My home town's just the same; nothing has changed." },
+        { "native": "ఇప్పుడు నేను అసలు టీ తాగట్లేదు.", "roman": "ippuḍu nēnu asalu ṭī tāgaṭlēdu.", "en": "These days I don't drink tea at all." },
+        { "native": "అప్పట్లో రోజూ బయట తినేవాళ్ళం, ఇప్పుడు ఇంట్లోనే వండుకుంటున్నాం.", "roman": "appaṭlō rōjū bayaṭa tinēvāḷḷam, ippuḍu iṇṭlōnē vaṇḍukuṇṭunnām.", "en": "Back then we ate out every day; now we cook at home." },
+        { "native": "మళ్ళీ ఎప్పుడు కలుద్దాం? వచ్చే వీకెండ్?", "roman": "maḷḷī eppuḍu kaluddām? vachchē vīkeṇḍ?", "en": "When shall we meet again? Next weekend?" },
+        { "native": "నీ నంబరు మారిందా? లేదు, ఇదే నంబరు.", "roman": "nī nambaru mārindā? lēdu, idē nambaru.", "en": "Has your number changed? No, it's the same one." }
+      ]
+    }
+  ]
+}

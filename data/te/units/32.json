@@ -1,0 +1,197 @@
+{
+  "id": 32,
+  "title": "Health in depth",
+  "goal": "Describe your symptoms precisely, say how long you've had them, give your medical history, follow a doctor's instructions and eat the way a Telugu household expects when you're ill.",
+  "intro": "In unit 9 you learned to say *నాకు జ్వరంగా ఉంది*. A doctor will want more: **ఎప్పటి నుంచి?** (since when?), where exactly, what makes it worse, and whether you have **బీపీ** or **షుగర్**. Then come the instructions: **రోజుకి రెండు పూటలా**, **తిన్న తర్వాత**, **పడుకునే ముందు**.\n\nThe grammar here is the Telugu way of saying *I've been coughing for three days* — present continuous plus **నుంచి** or **-గా** — and the before / after / how-often patterns of every prescription. You'll also meet **పత్యం**, the diet every Telugu family puts you on the moment you're unwell.",
+  "vocab": [
+    { "native": "తల తిరుగు", "roman": "tala tirugu", "en": "to feel dizzy (lit. the head turns)", "pos": "verb", "note": "నాకు తల తిరుగుతోంది 'I feel dizzy'. Also కళ్ళు తిరుగుతున్నాయి 'my eyes are spinning', i.e. I'm about to faint." },
+    { "native": "వికారం", "roman": "vikāram", "en": "nausea", "pos": "noun", "note": "నాకు వికారంగా ఉంది 'I feel sick'. Colloquially also కడుపులో తిప్పుతోంది." },
+    { "native": "దురద", "roman": "durada", "en": "itch, itching", "pos": "noun", "note": "దురదగా ఉంది 'it itches'; దురద పెడుతోంది 'it's itching'." },
+    { "native": "వాపు", "roman": "vāpu", "en": "swelling", "pos": "noun", "note": "The verb is వాచు: కాలు వాచింది 'my leg has swollen'." },
+    { "native": "మంట", "roman": "maṇṭa", "en": "burning feeling, sting", "pos": "noun", "note": "కడుపులో మంట 'acidity, heartburn'; కళ్ళు మంటగా ఉన్నాయి 'my eyes are burning'. Plural మంటలు is 'flames, fire' (unit 19)." },
+    { "native": "ఛాతీ", "roman": "chhātī", "en": "chest", "pos": "noun", "note": "ఛాతీలో నొప్పి 'chest pain' — say it clearly, doctors take it seriously." },
+    { "native": "మోకాలు", "roman": "mōkālu", "en": "knee", "pos": "noun", "note": "Plural మోకాళ్ళు (mōkāḷḷu): మోకాళ్ళ నొప్పులు 'knee pain', a classic complaint of parents." },
+    { "native": "నడుము", "roman": "naḍumu", "en": "lower back, waist", "pos": "noun", "note": "నడుము నొప్పి is the everyday 'back pain' (వీపు, unit 9, is the upper back)." },
+    { "native": "తగ్గు", "roman": "taggu", "en": "to go down, get better, decrease", "pos": "verb", "note": "జ్వరం తగ్గింది 'the fever's gone down'; ఇంకా తగ్గలేదు 'it's not better yet'. Its partner తగ్గించు (unit 12) is 'to reduce' something." },
+    { "native": "నిద్ర", "roman": "nidra", "en": "sleep", "pos": "noun", "note": "నిద్ర పట్టట్లేదు 'I can't get to sleep' (sleep won't catch); నిద్ర వస్తోంది 'I'm sleepy'. See నిద్రపో 'to fall asleep' (unit 10)." },
+    { "native": "ఆయాసం", "roman": "āyāsam", "en": "breathlessness, panting", "pos": "noun", "note": "మెట్లు ఎక్కితే ఆయాసం వస్తోంది 'I get breathless climbing stairs'." },
+    { "native": "విరేచనాలు", "roman": "virēchanālu", "en": "diarrhoea", "pos": "noun", "note": "Always plural: విరేచనాలు అవుతున్నాయి. Many people just say లూజ్ మోషన్స్ (lūj mōṣans)." },
+    { "native": "వైరల్ ఫీవర్", "roman": "vairal phīvar", "en": "viral fever", "pos": "noun", "note": "The catch-all diagnosis of every Indian monsoon: ఊళ్ళో అందరికీ వైరల్ ఫీవర్." },
+    { "native": "అపాయింట్‌మెంట్", "roman": "apāyiṇṭmeṇṭ", "en": "appointment", "pos": "noun" },
+    { "native": "క్లినిక్", "roman": "klinik", "en": "clinic", "pos": "noun", "note": "A private doctor's practice; many open only in the evening." },
+    { "native": "అలర్జీ", "roman": "alarjī", "en": "allergy", "pos": "noun", "note": "నాకు X అంటే అలర్జీ 'I'm allergic to X'." },
+    { "native": "బీపీ", "roman": "bīpī", "en": "blood pressure, hypertension", "pos": "noun", "note": "Indian English: నాకు బీపీ ఉంది means 'I have high blood pressure'. Low BP is లో బీపీ." },
+    { "native": "షుగర్", "roman": "ṣugar", "en": "diabetes (lit. sugar)", "pos": "noun", "note": "నాన్నకి షుగర్ ఉంది 'Dad is diabetic'. The formal word is మధుమేహం (madhumēham)." },
+    { "native": "చెకప్", "roman": "chekap", "en": "check-up", "pos": "noun", "note": "చెకప్ చేయించుకో 'to get a check-up' (causative, unit 25)." },
+    { "native": "మాత్ర", "roman": "mātra", "en": "tablet, pill", "pos": "noun", "note": "You 'put it on yourself': మాత్ర వేసుకో. Also టాబ్లెట్ (ṭābleṭ)." },
+    { "native": "సిరప్", "roman": "sirap", "en": "syrup, liquid medicine", "pos": "noun", "note": "You drink it: సిరప్ తాగు. దగ్గు మందు 'cough medicine'." },
+    { "native": "పూట", "roman": "pūṭa", "en": "meal-time, half of the day", "pos": "noun", "note": "రెండు పూటలా 'twice a day (morning and night)', మూడు పూటలా 'three times a day'; ఒక పూట భోజనం 'one meal'." },
+    { "native": "పరగడుపున", "roman": "paragaḍupuna", "en": "on an empty stomach", "pos": "adv", "note": "Also ఖాళీ కడుపుతో." },
+    { "native": "క్రమం తప్పకుండా", "roman": "kramam tappakuṇḍā", "en": "regularly, without missing", "pos": "adv" },
+    { "native": "టెస్ట్", "roman": "ṭesṭ", "en": "test (medical)", "pos": "noun", "note": "బ్లడ్ టెస్ట్, షుగర్ టెస్ట్ — always English. Formal: రక్త పరీక్ష." },
+    { "native": "రక్తం", "roman": "raktam", "en": "blood", "pos": "noun", "note": "రక్తం వస్తోంది 'it's bleeding'." },
+    { "native": "ఇంజెక్షన్", "roman": "injekṣan", "en": "injection", "pos": "noun", "note": "ఇంజెక్షన్ చేయు / ఇవ్వు 'give an injection'. Children say సూది (sūdi, 'needle')." },
+    { "native": "ఉపశమనం", "roman": "upashamanam", "en": "relief (from pain)", "pos": "noun", "note": "ఉపశమనంగా ఉంది 'I feel some relief'. Colloquially రిలీఫ్ వచ్చింది." },
+    { "native": "పత్యం", "roman": "pathyam", "en": "special diet when ill, food restrictions", "pos": "noun", "note": "పత్యం చేయు 'to keep to the diet'. Telugu households take it very seriously." },
+    { "native": "కాచు", "roman": "kāchu", "en": "to boil (water, milk)", "pos": "verb", "note": "కాచిన నీళ్ళు 'boiled water'." },
+    { "native": "జావ", "roman": "jāva", "en": "thin porridge, gruel", "pos": "noun", "note": "Usually రాగి జావ (finger-millet porridge) — the classic sickbed food." },
+    { "native": "పెరుగన్నం", "roman": "perugannam", "en": "curd rice", "pos": "noun", "note": "Rice mixed with curd: the end of every Telugu meal, and the safest thing to eat when ill." }
+  ],
+  "phrases": [
+    { "native": "నాకు తల తిరుగుతోంది.", "roman": "nāku tala tirugutōndi.", "en": "I feel dizzy." },
+    { "native": "ఎప్పటి నుంచి ఇలా ఉంది?", "roman": "eppaṭi nunchi ilā undi?", "en": "Since when has it been like this?" },
+    { "native": "మూడు రోజులుగా జ్వరం వస్తోంది.", "roman": "mūḍu rōjulugā jvaram vastōndi.", "en": "I've had a fever for three days." },
+    { "native": "రాత్రి నుంచి వాంతులు అవుతున్నాయి.", "roman": "rātri nunchi vāntulu avutunnāyi.", "en": "I've been vomiting since last night." },
+    { "native": "ఇప్పుడు కొంచెం తగ్గింది.", "roman": "ippuḍu konchem taggindi.", "en": "It's a bit better now." },
+    { "native": "ఇంకా తగ్గలేదు.", "roman": "iṅkā taggalēdu.", "en": "It hasn't got better yet." },
+    { "native": "డాక్టర్ గారి అపాయింట్‌మెంట్ కావాలి.", "roman": "ḍākṭar gāri apāyiṇṭmeṇṭ kāvāli.", "en": "I'd like an appointment with the doctor." },
+    { "native": "నాకు దేనికీ అలర్జీ లేదు.", "roman": "nāku dēnikī alarjī lēdu.", "en": "I'm not allergic to anything." },
+    { "native": "నాకు పాలు పడవు.", "roman": "nāku pālu paḍavu.", "en": "Milk doesn't agree with me.", "note": "పడదు / పడవు 'doesn't suit (me)': నాకు కారం పడదు 'spicy food doesn't agree with me'." },
+    { "native": "నాకు బీపీ, షుగర్ రెండూ ఉన్నాయి.", "roman": "nāku bīpī, ṣugar reṇḍū unnāyi.", "en": "I have both high blood pressure and diabetes." },
+    { "native": "ఈ మాత్రలు రోజుకి రెండు పూటలా వేసుకోండి.", "roman": "ī mātralu rōjuki reṇḍu pūṭalā vēsukōṇḍi.", "en": "Take these tablets twice a day, morning and night." },
+    { "native": "భోజనానికి ముందు వేసుకోవాలా, తర్వాతా?", "roman": "bhōjanāniki mundu vēsukōvālā, tarvātā?", "en": "Should I take it before or after food?" },
+    { "native": "రిపోర్టులు ఎప్పుడు వస్తాయి?", "roman": "ripōrṭulu eppuḍu vastāyi?", "en": "When will the reports be ready?" },
+    { "native": "ఏమైనా పత్యం ఉందా?", "roman": "ēmainā pathyam undā?", "en": "Is there anything I should or shouldn't eat?", "note": "The question every Telugu patient asks the doctor." }
+  ],
+  "grammar": [
+    {
+      "title": "'I've been … for three days': నుంచి, -గా and the present continuous",
+      "body": "English says *I have been coughing for three days* or *I've had a fever since Monday*. You met these duration words for catching up in unit 28; at the doctor's they matter most. Telugu sees the cough as **still happening**, so it uses the **present continuous** (or **ఉంది** for a state), plus the duration.\n\n**Duration — two ways:**\n**oblique + నుంచి** 'from': రెండు రోజుల **నుంచి**, వారం రోజుల **నుంచి**, నెల రోజుల **నుంచి**\n**plural + -గా**: రెండు రోజులు**గా**, మూడు నెలలు**గా**, పదేళ్ళు**గా** 'for ten years'\n**Since a point:** నిన్నటి **నుంచి** 'since yesterday', పొద్దున్నుంచి 'since this morning' (పొద్దున్న + నుంచి), సోమవారం **నుంచి**.\n\n**Questions:** **ఎప్పటి నుంచి?** 'since when?' · **ఎన్ని రోజులుగా?** 'for how many days?'\n\n**With a verb:** మూడు రోజులుగా దగ్గు **వస్తోంది**. With a state: రెండు రోజుల నుంచి **నీరసంగా ఉంది**. With a habit: ఆరు నెలలుగా మాత్రలు **వేసుకుంటున్నాను**. 'Keeps on': -తూనే ఉంది: దగ్గు **వస్తూనే ఉంది** 'the cough just keeps coming'.\n\n**In the negative**, the past negative **-లేదు** is used, as in English *haven't*: పొద్దున్నుంచి ఏమీ **తినలేదు** 'I haven't eaten anything since morning'.\n\n**Two related patterns:**\n**కిందట 'ago'** (unit 16) takes the **past**: రెండు రోజుల **కిందట** జ్వరం **వచ్చింది** 'the fever started two days ago'.\n**-ఇ + time + అయింది** 'it's been … since': జ్వరం **వచ్చి** మూడు రోజులు **అయింది** 'it's been three days since the fever came'. Very common.\n\n**The trap:** don't put a still-going-on symptom in the past: మూడు రోజుల నుంచి జ్వరం **వచ్చింది** is the classic learner mistake. Say **వస్తోంది** or **ఉంది**.",
+      "examples": [
+        { "native": "వారం రోజుల నుంచి నడుము నొప్పిగా ఉంది.", "roman": "vāram rōjula nunchi naḍumu noppigā undi.", "en": "My lower back has been hurting for a week." },
+        { "native": "ఈ దగ్గు వస్తూనే ఉంది, తగ్గట్లేదు.", "roman": "ī daggu vastūnē undi, taggaṭlēdu.", "en": "This cough just keeps coming, it isn't getting better." },
+        { "native": "పొద్దున్నుంచి ఏమీ తినలేదు.", "roman": "poddunnunchi ēmī tinalēdu.", "en": "I haven't eaten a thing since this morning." },
+        { "native": "ఆరు నెలలుగా బీపీ మాత్రలు వేసుకుంటున్నాను.", "roman": "āru nelalugā bīpī mātralu vēsukuṇṭunnānu.", "en": "I've been taking blood-pressure tablets for six months." },
+        { "native": "జ్వరం వచ్చి మూడు రోజులు అయింది.", "roman": "jvaram vachchi mūḍu rōjulu ayindi.", "en": "It's been three days since the fever started." }
+      ]
+    },
+    {
+      "title": "Doctor's instructions: how often, before, after",
+      "body": "Prescriptions in Telugu are built from a few pieces.\n\n**The command.** Doctors and pharmacists use the polite **-ండి**: వేసుకో**ండి**, తాగ**ండి**, తిన**కండి**. General advice uses **-ఆలి** 'should' and **-కూడదు** 'mustn't' (unit 9): రోజూ నడవ**ాలి**, నూనె తిన**కూడదు**.\n\n**The verb depends on the medicine:** a tablet is 'put on yourself' — మాత్ర **వేసుకో**; syrup is drunk — సిరప్ **తాగు**; cream is rubbed on — క్రీమ్ **రాసుకో**; drops are 'put' — చుక్కలు **వేసుకో**; an injection is 'done' — ఇంజెక్షన్ **చేయు**.\n\n**How often:**\nరోజుకి **ఒకసారి / రెండుసార్లు / మూడుసార్లు** 'once / twice / three times a day'\n**రెండు పూటలా** 'morning and night', **మూడు పూటలా** 'with every meal'\n**ఉదయం ఒకటి, రాత్రి ఒకటి** 'one in the morning, one at night'\nఆరు గంటలకి **ఒకసారి** 'every six hours'\n\n**Before and after an action:**\n**before** = the -ఏ participle + **ముందు**: పడుకునే **ముందు** 'before you go to bed', తినే **ముందు** 'before eating' (very common too: తిన**క** ముందు, lit. 'not having eaten'). With a noun: భోజనాని**కి ముందు**.\n**after** = the past -ఇన participle + **తర్వాత**: తిన్న **తర్వాత**, స్నానం చేసిన **తర్వాత**. With a noun: భోజనం **తర్వాత**. Shortcut: **-ఇ** + verb: భోజనం **చేసి** వేసుకోండి 'eat, then take it'.\n\n**How long:** ఐదు రోజులు **వాడండి** 'use it for five days', జ్వరం **తగ్గేదాకా** 'until the fever goes' (unit 30), మధ్యలో **ఆపకండి** 'don't stop halfway'. On an empty stomach: **పరగడుపున**.\n\n**The trap:** 'before' takes the non-past -ఏ (**తినే** ముందు), 'after' the past -ఇన (**తిన్న** తర్వాత). Mixing them up (తిన్న ముందు) is a giveaway.",
+      "examples": [
+        { "native": "ఈ సిరప్ పడుకునే ముందు ఒక స్పూన్ తాగండి.", "roman": "ī sirap paḍukunē mundu oka spūn tāgaṇḍi.", "en": "Take one spoon of this syrup before bed." },
+        { "native": "భోజనం చేసి ఈ రెండు మాత్రలు వేసుకోండి.", "roman": "bhōjanam chēsi ī reṇḍu mātralu vēsukōṇḍi.", "en": "Take these two tablets after eating." },
+        { "native": "ఈ క్రీమ్ రోజుకి రెండుసార్లు రాసుకోండి.", "roman": "ī krīm rōjuki reṇḍusārlu rāsukōṇḍi.", "en": "Put this cream on twice a day." },
+        { "native": "ఐదు రోజులు వాడండి, మధ్యలో ఆపకండి.", "roman": "aidu rōjulu vāḍaṇḍi, madhyalō āpakaṇḍi.", "en": "Use it for five days, don't stop halfway." },
+        { "native": "కొన్ని రోజులు నూనె, కారం తినకూడదు.", "roman": "konni rōjulu nūne, kāram tinakūḍadu.", "en": "No oily or spicy food for a few days." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the clinic",
+    "setting": "An evening clinic in Vijayawada. Anil has had a fever for a few days and sees Dr Padma.",
+    "lines": [
+      { "speaker": "Dr Padma", "native": "రండి, కూర్చోండి. ఏమైంది?", "roman": "raṇḍi, kūrchōṇḍi. ēmaindi?", "en": "Come in, have a seat. What's the matter?" },
+      { "speaker": "Anil", "native": "మూడు రోజులుగా జ్వరం వస్తోంది డాక్టర్. ఒళ్ళు నొప్పులు కూడా ఉన్నాయి.", "roman": "mūḍu rōjulugā jvaram vastōndi ḍākṭar. oḷḷu noppulu kūḍā unnāyi.", "en": "I've had a fever for three days, doctor. And my whole body aches." },
+      { "speaker": "Dr Padma", "native": "జ్వరం ఎంత ఉంది? చూశారా?", "roman": "jvaram enta undi? chūshārā?", "en": "How high is it? Did you take your temperature?" },
+      { "speaker": "Anil", "native": "నిన్న రాత్రి నూట రెండు ఉంది. పొద్దున్నుంచి కొంచెం తగ్గింది.", "roman": "ninna rātri nūṭa reṇḍu undi. poddunnunchi konchem taggindi.", "en": "It was 102 last night. It's come down a bit since this morning." },
+      { "speaker": "Dr Padma", "native": "దగ్గు, జలుబు? వాంతులు ఏమైనా?", "roman": "daggu, jalubu? vāntulu ēmainā?", "en": "Cough, cold? Any vomiting?" },
+      { "speaker": "Anil", "native": "దగ్గు లేదు. కానీ ఏమీ తినాలనిపించట్లేదు, కొంచెం వికారంగా ఉంది.", "roman": "daggu lēdu. kānī ēmī tinālanipinchaṭlēdu, konchem vikāraṅgā undi.", "en": "No cough. But I don't feel like eating anything, I feel a bit sick." },
+      { "speaker": "Dr Padma", "native": "ఏమైనా అలర్జీలు ఉన్నాయా? బీపీ, షుగర్?", "roman": "ēmainā alarjīlu unnāyā? bīpī, ṣugar?", "en": "Any allergies? Blood pressure, diabetes?" },
+      { "speaker": "Anil", "native": "ఏమీ లేవు డాక్టర్.", "roman": "ēmī lēvu ḍākṭar.", "en": "Nothing, doctor." },
+      { "speaker": "Dr Padma", "native": "వైరల్ ఫీవర్‌లా ఉంది, ఈ మధ్య చాలా కేసులు వస్తున్నాయి. అయినా ఒకసారి బ్లడ్ టెస్ట్ చేయిద్దాం.", "roman": "vairal phīvarlā undi, ī madhya chālā kēsulu vastunnāyi. ayinā okasāri blaḍ ṭesṭ chēyiddām.", "en": "Looks like viral fever, we're seeing lots of cases lately. Still, let's get a blood test done." },
+      { "speaker": "Anil", "native": "సరే డాక్టర్. మందులు ఎలా వేసుకోవాలి?", "roman": "sarē ḍākṭar. mandulu elā vēsukōvāli?", "en": "All right, doctor. How should I take the medicines?" },
+      { "speaker": "Dr Padma", "native": "ఈ జ్వరం మాత్ర ఆరు గంటలకి ఒకసారి, జ్వరం ఉంటేనే. ఇది రోజుకి రెండు పూటలా, తిన్న తర్వాత. నీళ్ళు బాగా తాగండి.", "roman": "ī jvaram mātra āru gaṇṭalaki okasāri, jvaram uṇṭēnē. idi rōjuki reṇḍu pūṭalā, tinna tarvāta. nīḷḷu bāgā tāgaṇḍi.", "en": "This fever tablet every six hours, only if you have a temperature. This one twice a day, after food. Drink plenty of water." },
+      { "speaker": "Anil", "native": "తినడానికి ఏమైనా పత్యం ఉందా?", "roman": "tinaḍāniki ēmainā pathyam undā?", "en": "Is there anything I should avoid eating?" },
+      { "speaker": "Dr Padma", "native": "బయటి తిండి వద్దు. ఇడ్లీ, పెరుగన్నం లాంటివి తినండి. రిపోర్టులు రాగానే నాకు చూపించండి.", "roman": "bayaṭi tiṇḍi vaddu. iḍlī, perugannam lāṇṭivi tinaṇḍi. ripōrṭulu rāgānē nāku chūpinchaṇḍi.", "en": "No outside food. Eat things like idli and curd rice. Show me the reports as soon as they come." },
+      { "speaker": "Anil", "native": "అలాగే డాక్టర్, థాంక్స్.", "roman": "alāgē ḍākṭar, thāṅks.", "en": "Will do, doctor. Thanks." }
+    ]
+  },
+  "culture": "Telugu health talk mixes English and home wisdom freely. Conditions, tests and drugs are English (*బీపీ, షుగర్, స్కాన్, బ్లడ్ టెస్ట్*), but how you feel is Telugu: **ఒంట్లో బాగాలేదు** 'I'm unwell', **ఒళ్ళు నొప్పులు** 'aching all over', **నీరసం** 'weakness'. Foods are thought of as 'heating' (**వేడి**) or 'cooling' (**చలువ**): mouth ulcers or a stomach upset are often blamed on **ఒంట్లో వేడి చేసింది** 'the body has overheated', and the cure is buttermilk, curd rice or coconut water.\n\nWhen someone is ill, the family takes over their diet: the **పత్యం**. That usually means no spice, no oil, no outside food, plenty of **కాచిన నీళ్ళు**, and **రాగి జావ**, idli or **పెరుగన్నం**. Expect relatives to ask **పత్యం చేస్తున్నావా?** and to tell you off for eating biryani with a fever.\n\nDoctors are addressed as **డాక్టర్ గారు** or simply **డాక్టర్**; many small clinics open only in the evening, and you often just turn up and wait. Pharmacies ('medical shops') will sell many medicines without a prescription and give advice too. Big corporate hospitals in Hyderabad and Visakhapatnam draw patients from all over both states, while government schemes such as **ఆరోగ్యశ్రీ** cover many families' hospital bills.",
+  "lessons": [
+    {
+      "title": "Describing your symptoms",
+      "tip": { "title": "Saying exactly what's wrong", "body": "- A feeling: **నాకు + X-గా ఉంది**: వికారంగా, దురదగా, నీరసంగా.\n- Something happening now: **-తోంది**: తల **తిరుగుతోంది**; a change that's happened: కాలు **వాచింది**.\n- Where: body part + **-లో**: ఛాతీ**లో** నొప్పి, కడుపు**లో** మంట.\n- 'My back hurts': నా నడుము నొప్పిగా ఉంది, or just నడుము నొప్పి." },
+      "new": ["తల తిరుగు", "వికారం", "దురద", "వాపు", "మంట", "ఛాతీ", "మోకాలు", "నడుము", "నాకు తల తిరుగుతోంది."],
+      "sentences": [
+        { "native": "నాకు చాలా తల తిరుగుతోంది, కూర్చోవాలి.", "roman": "nāku chālā tala tirugutōndi, kūrchōvāli.", "en": "I feel really dizzy, I need to sit down.", "focus": "తిరుగుతోంది", "wrong": ["తిరుగుతున్నాను|tirugutunnānu", "తిరుగుతున్నారు|tirugutunnāru"] },
+        { "native": "కొంచెం వికారంగా ఉంది, ఏమీ తినాలని లేదు.", "roman": "konchem vikāraṅgā undi, ēmī tinālani lēdu.", "en": "I feel a bit sick, I don't feel like eating anything.", "focus": "వికారంగా", "wrong": ["వికారంలో|vikāramlō", "వికారానికి|vikārāniki"] },
+        { "native": "చేతుల మీద దురదగా ఉంది.", "roman": "chētula mīda duradagā undi.", "en": "My arms are itchy.", "focus": "దురదగా", "wrong": ["దురదలో|duradalō", "దురదకి|duradaki"] },
+        { "native": "నా ఎడమ కాలికి వాపు వచ్చింది.", "roman": "nā eḍama kāliki vāpu vachchindi.", "en": "My left leg has swollen up.", "focus": "కాలికి", "wrong": ["కాలు|kālu", "కాలిలో|kālilō"] },
+        { "native": "కడుపులో మంటగా ఉంది.", "roman": "kaḍupulō maṇṭagā undi.", "en": "I've got a burning feeling in my stomach.", "focus": "కడుపులో", "wrong": ["కడుపు|kaḍupu", "కడుపుకి|kaḍupuki"] },
+        { "native": "ఛాతీలో కొంచెం నొప్పిగా ఉంది.", "roman": "chhātīlō konchem noppigā undi.", "en": "I have a bit of pain in my chest.", "focus": "ఛాతీలో", "wrong": ["ఛాతీ|chhātī", "ఛాతీని|chhātīni"] },
+        { "native": "మెట్లు ఎక్కితే మోకాలు నొప్పిగా ఉంటుంది.", "roman": "meṭlu ekkitē mōkālu noppigā uṇṭundi.", "en": "My knee hurts when I climb stairs." },
+        { "native": "రోజంతా కూర్చుని పని చేస్తాను, అందుకే నడుము నొప్పి.", "roman": "rōjantā kūrchuni pani chēstānu, andukē naḍumu noppi.", "en": "I sit and work all day, that's why my back hurts." },
+        { "native": "అమ్మకి మోకాళ్ళ నొప్పులు ఉన్నాయి.", "roman": "ammaki mōkāḷḷa noppulu unnāyi.", "en": "Mum has knee pain.", "focus": "అమ్మకి", "wrong": ["అమ్మ|amma", "అమ్మని|ammani"] }
+      ]
+    },
+    {
+      "title": "Since when?",
+      "tip": { "title": "For three days: నుంచి / -గా + -తోంది", "body": "- Still going on → **present continuous**: మూడు రోజులుగా జ్వరం **వస్తోంది**.\n- Duration: రోజుల **నుంచి** or రోజులు**గా**; since: నిన్నటి **నుంచి**.\n- Ask: **ఎప్పటి నుంచి?** · **ఎన్ని రోజులుగా?**\n- 'Ago' takes the past: రెండు రోజుల **కిందట** వచ్చింది.", "pattern": "time + నుంచి / -గా + verb-తోంది", "grammar": 0 },
+      "new": ["తగ్గు", "నిద్ర", "ఆయాసం", "విరేచనాలు", "వైరల్ ఫీవర్", "ఎప్పటి నుంచి ఇలా ఉంది?", "మూడు రోజులుగా జ్వరం వస్తోంది.", "రాత్రి నుంచి వాంతులు అవుతున్నాయి.", "ఇప్పుడు కొంచెం తగ్గింది.", "ఇంకా తగ్గలేదు."],
+      "sentences": [
+        { "native": "ఈ దగ్గు ఎప్పటి నుంచి ఉంది?", "roman": "ī daggu eppaṭi nunchi undi?", "en": "How long have you had this cough?", "focus": "నుంచి", "wrong": ["కిందట|kindaṭa", "వరకు|varaku"] },
+        { "native": "వారం రోజులుగా దగ్గు వస్తోంది.", "roman": "vāram rōjulugā daggu vastōndi.", "en": "I've had a cough for a week.", "focus": "వస్తోంది", "wrong": ["వచ్చింది|vachchindi", "వస్తాను|vastānu"] },
+        { "native": "నిన్నటి నుంచి విరేచనాలు అవుతున్నాయి.", "roman": "ninnaṭi nunchi virēchanālu avutunnāyi.", "en": "I've had diarrhoea since yesterday.", "focus": "అవుతున్నాయి", "wrong": ["అయ్యాయి|ayyāyi", "అవుతోంది|avutōndi"] },
+        { "native": "నాలుగు రోజులుగా సరిగ్గా నిద్ర పట్టట్లేదు.", "roman": "nālugu rōjulugā sariggā nidra paṭṭaṭlēdu.", "en": "I haven't been sleeping properly for four days.", "focus": "రోజులుగా", "wrong": ["రోజుల|rōjula", "రోజులకి|rōjulaki"] },
+        { "native": "నెల రోజుల నుంచి మెట్లు ఎక్కితే ఆయాసం వస్తోంది.", "roman": "nela rōjula nunchi meṭlu ekkitē āyāsam vastōndi.", "en": "For a month I've been getting breathless climbing stairs.", "focus": "నుంచి", "wrong": ["కిందట|kindaṭa", "దాకా|dākā"] },
+        { "native": "రెండు రోజుల కిందట జ్వరం వచ్చింది, ఇంకా తగ్గలేదు.", "roman": "reṇḍu rōjula kindaṭa jvaram vachchindi, iṅkā taggalēdu.", "en": "The fever started two days ago and it still hasn't gone down.", "focus": "కిందట", "wrong": ["నుంచి|nunchi", "వరకు|varaku"] },
+        { "native": "ఊళ్ళో అందరికీ వైరల్ ఫీవర్ వస్తోంది.", "roman": "ūḷḷō andarikī vairal phīvar vastōndi.", "en": "Everyone in town is getting viral fever." },
+        { "native": "నిన్న రాత్రి నుంచి ఏమీ తినలేదు.", "roman": "ninna rātri nunchi ēmī tinalēdu.", "en": "I haven't eaten anything since last night.", "focus": "తినలేదు", "wrong": ["తింటున్నాను|tiṇṭunnānu", "తిన్నాను|tinnānu"] },
+        { "native": "మందు వేసుకున్నాక జ్వరం కొంచెం తగ్గింది.", "roman": "mandu vēsukunnāka jvaram konchem taggindi.", "en": "The fever has come down a bit since I took the medicine." },
+        { "native": "ఎన్ని రోజులుగా తలనొప్పి వస్తోంది?", "roman": "enni rōjulugā talanoppi vastōndi?", "en": "For how many days have you been getting headaches?", "focus": "రోజులుగా", "wrong": ["రోజుల|rōjula", "రోజు|rōju"] }
+      ]
+    },
+    {
+      "title": "Your medical history",
+      "tip": { "title": "Conditions and allergies", "body": "- Conditions are things you 'have', in the dative: **నాకు బీపీ ఉంది**, నాన్నకి **షుగర్ ఉంది**.\n- Allergic to X: నాకు X **అంటే అలర్జీ**; doesn't agree with me: X **పడదు**.\n- Book: **అపాయింట్‌మెంట్ కావాలి**; call the doctor **డాక్టర్ గారు**.\n- Tests and conditions are all English words." },
+      "new": ["అపాయింట్‌మెంట్", "క్లినిక్", "అలర్జీ", "బీపీ", "షుగర్", "చెకప్", "డాక్టర్ గారి అపాయింట్‌మెంట్ కావాలి.", "నాకు దేనికీ అలర్జీ లేదు.", "నాకు పాలు పడవు.", "నాకు బీపీ, షుగర్ రెండూ ఉన్నాయి."],
+      "sentences": [
+        { "native": "డాక్టర్ గారి అపాయింట్‌మెంట్ రేపటికి దొరుకుతుందా?", "roman": "ḍākṭar gāri apāyiṇṭmeṇṭ rēpaṭiki dorukutundā?", "en": "Can I get an appointment with the doctor for tomorrow?" },
+        { "native": "క్లినిక్ సాయంత్రం ఆరింటి నుంచి ఉంటుంది.", "roman": "klinik sāyantram āriṇṭi nunchi uṇṭundi.", "en": "The clinic is open from six in the evening." },
+        { "native": "మా నాన్నగారికి బీపీ ఉంది.", "roman": "mā nānnagāriki bīpī undi.", "en": "My father has high blood pressure.", "focus": "నాన్నగారికి", "wrong": ["నాన్నగారు|nānnagāru", "నాన్నగారి|nānnagāri"] },
+        { "native": "అమ్మకి పదేళ్ళుగా షుగర్ ఉంది.", "roman": "ammaki padēḷḷugā ṣugar undi.", "en": "Mum has had diabetes for ten years.", "focus": "అమ్మకి", "wrong": ["అమ్మ|amma", "అమ్మని|ammani"] },
+        { "native": "నాకు ఈ మందు అంటే అలర్జీ.", "roman": "nāku ī mandu aṇṭē alarjī.", "en": "I'm allergic to this medicine.", "focus": "నాకు", "wrong": ["నేను|nēnu", "నా|nā"] },
+        { "native": "నాకు కారం పడదు, కడుపులో మంట వస్తుంది.", "roman": "nāku kāram paḍadu, kaḍupulō maṇṭa vastundi.", "en": "Spicy food doesn't agree with me, I get heartburn.", "focus": "పడదు", "wrong": ["పడను|paḍanu", "పడుతుంది|paḍutundi"] },
+        { "native": "సంవత్సరానికి ఒకసారి చెకప్ చేయించుకోవాలి.", "roman": "samvatsarāniki okasāri chekap chēyinchukōvāli.", "en": "You should get a check-up once a year." },
+        { "native": "మీకు ఏమైనా అలర్జీలు ఉన్నాయా?", "roman": "mīku ēmainā alarjīlu unnāyā?", "en": "Do you have any allergies?", "focus": "ఉన్నాయా", "wrong": ["ఉందా|undā", "ఉన్నారా|unnārā"] },
+        { "native": "డాక్టర్ గారు ఇంకా రాలేదు, కొంచెం వెయిట్ చేయండి.", "roman": "ḍākṭar gāru iṅkā rālēdu, konchem veyiṭ chēyaṇḍi.", "en": "The doctor isn't in yet, please wait a little.", "focus": "రాలేదు", "wrong": ["రాడు|rāḍu", "రాలేను|rālēnu"] }
+      ]
+    },
+    {
+      "title": "Following the doctor's instructions",
+      "tip": { "title": "Before, after, how often", "body": "- How often: రోజుకి **రెండుసార్లు**, **రెండు పూటలా** (morning and night).\n- Before: -ఏ + **ముందు**: పడుకునే **ముందు**; or భోజనానికి **ముందు**.\n- After: -ఇన + **తర్వాత**: తిన్న **తర్వాత**; or భోజనం **తర్వాత**.\n- Tablets are 'put on': మాత్ర **వేసుకోండి**; syrup is drunk: సిరప్ **తాగండి**.", "pattern": "పడుకునే ముందు · తిన్న తర్వాత · రోజుకి రెండుసార్లు", "grammar": 1 },
+      "new": ["మాత్ర", "సిరప్", "పూట", "పరగడుపున", "క్రమం తప్పకుండా", "ఈ మాత్రలు రోజుకి రెండు పూటలా వేసుకోండి.", "భోజనానికి ముందు వేసుకోవాలా, తర్వాతా?"],
+      "sentences": [
+        { "native": "ఈ మాత్ర పడుకునే ముందు వేసుకోండి.", "roman": "ī mātra paḍukunē mundu vēsukōṇḍi.", "en": "Take this tablet before you go to bed.", "focus": "పడుకునే", "wrong": ["పడుకున్న|paḍukunna", "పడుకుని|paḍukuni"] },
+        { "native": "ఈ రెండు మాత్రలు తిన్న తర్వాత వేసుకోండి.", "roman": "ī reṇḍu mātralu tinna tarvāta vēsukōṇḍi.", "en": "Take these two tablets after you eat.", "focus": "తిన్న", "wrong": ["తినే|tinē", "తింటూ|tiṇṭū"] },
+        { "native": "సిరప్ రోజుకి మూడుసార్లు తాగాలి.", "roman": "sirap rōjuki mūḍusārlu tāgāli.", "en": "The syrup has to be taken three times a day.", "focus": "తాగాలి", "wrong": ["వేసుకోవాలి|vēsukōvāli", "రాసుకోవాలి|rāsukōvāli"] },
+        { "native": "ఈ మాత్ర పరగడుపున వేసుకోవాలి.", "roman": "ī mātra paragaḍupuna vēsukōvāli.", "en": "This tablet must be taken on an empty stomach.", "focus": "వేసుకోవాలి", "wrong": ["తాగాలి|tāgāli", "రాసుకోవాలి|rāsukōvāli"] },
+        { "native": "ఉదయం ఒకటి, రాత్రి ఒకటి వేసుకోండి.", "roman": "udayam okaṭi, rātri okaṭi vēsukōṇḍi.", "en": "Take one in the morning and one at night." },
+        { "native": "బీపీ మాత్రలు క్రమం తప్పకుండా వేసుకోవాలి.", "roman": "bīpī mātralu kramam tappakuṇḍā vēsukōvāli.", "en": "You have to take blood-pressure tablets regularly." },
+        { "native": "జ్వరం తగ్గినా మందులు మధ్యలో ఆపకండి.", "roman": "jvaram tagginā mandulu madhyalō āpakaṇḍi.", "en": "Even if the fever goes, don't stop the medicine halfway.", "focus": "ఆపకండి", "wrong": ["ఆపండి|āpaṇḍi", "ఆపను|āpanu"] },
+        { "native": "స్నానం చేసిన తర్వాత ఈ క్రీమ్ రాసుకోండి.", "roman": "snānam chēsina tarvāta ī krīm rāsukōṇḍi.", "en": "Put this cream on after your bath.", "focus": "చేసిన", "wrong": ["చేసే|chēsē", "చేస్తూ|chēstū"] },
+        { "native": "భోజనానికి ముందు ఈ సిరప్ ఒక స్పూన్ తాగండి.", "roman": "bhōjanāniki mundu ī sirap oka spūn tāgaṇḍi.", "en": "Take one spoon of this syrup before meals.", "focus": "భోజనానికి", "wrong": ["భోజనం|bhōjanam", "భోజనంలో|bhōjanamlō"] }
+      ]
+    },
+    {
+      "title": "Tests, injections and feeling better",
+      "new": ["టెస్ట్", "రక్తం", "ఇంజెక్షన్", "ఉపశమనం", "రిపోర్టులు ఎప్పుడు వస్తాయి?"],
+      "sentences": [
+        { "native": "రేపు ఉదయం పరగడుపున బ్లడ్ టెస్ట్ చేయించుకోవాలి.", "roman": "rēpu udayam paragaḍupuna blaḍ ṭesṭ chēyinchukōvāli.", "en": "I have to get a blood test done tomorrow morning on an empty stomach." },
+        { "native": "షుగర్ టెస్ట్‌కి ముందు ఏమీ తినకూడదు.", "roman": "ṣugar ṭesṭki mundu ēmī tinakūḍadu.", "en": "You mustn't eat anything before the sugar test." },
+        { "native": "రిపోర్టులు సాయంత్రం వస్తాయి, రాగానే డాక్టర్‌కి చూపించండి.", "roman": "ripōrṭulu sāyantram vastāyi, rāgānē ḍākṭarki chūpinchaṇḍi.", "en": "The reports come in the evening; show them to the doctor as soon as they do." },
+        { "native": "నాకు ఇంజెక్షన్ అంటే భయం.", "roman": "nāku injekṣan aṇṭē bhayam.", "en": "I'm scared of injections." },
+        { "native": "ఇంజెక్షన్ చేశాక జ్వరం కొంచెం తగ్గింది.", "roman": "injekṣan chēshāka jvaram konchem taggindi.", "en": "After the injection the fever came down a bit." },
+        { "native": "ఈ మందు వేసుకున్నాక కొంచెం ఉపశమనంగా ఉంది.", "roman": "ī mandu vēsukunnāka konchem upashamanaṅgā undi.", "en": "I've felt some relief since taking this medicine." },
+        { "native": "టెస్ట్‌లో ఏ సమస్యా లేదు, హమ్మయ్య!", "roman": "ṭesṭlō ē samasyā lēdu, hammayya!", "en": "The test showed no problem, phew!" },
+        { "native": "దెబ్బ తగిలి రక్తం వస్తోంది, ఆసుపత్రికి వెళ్దాం.", "roman": "debba tagili raktam vastōndi, āsupatriki veḷdām.", "en": "It's bleeding from the cut, let's go to the hospital." }
+      ]
+    },
+    {
+      "title": "Eating right when you're ill",
+      "tip": { "title": "పత్యం: the sickbed diet", "body": "- When you're ill, a Telugu family puts you on a **పత్యం**.\n- Light food: **జావ**, **పెరుగన్నం**, ఇడ్లీ, and **కాచిన నీళ్ళు**.\n- Off the menu: కారం, నూనె, బయటి తిండి — **తినకూడదు**.\n- Foods are 'heating' (**వేడి**) or 'cooling' (**చలువ**): ఒంట్లో **వేడి చేసింది** 'my body's overheated'." },
+      "new": ["పత్యం", "కాచు", "జావ", "పెరుగన్నం", "ఏమైనా పత్యం ఉందా?"],
+      "sentences": [
+        { "native": "జ్వరంగా ఉన్నప్పుడు పెరుగన్నం తినొచ్చా?", "roman": "jvaraṅgā unnappuḍu perugannam tinochchā?", "en": "Can I eat curd rice when I've got a fever?" },
+        { "native": "అమ్మ నాకు జావ చేసి ఇచ్చింది.", "roman": "amma nāku jāva chēsi ichchindi.", "en": "Mum made me some porridge." },
+        { "native": "కాచిన నీళ్ళే తాగండి.", "roman": "kāchina nīḷḷē tāgaṇḍi.", "en": "Drink only boiled water.", "focus": "కాచిన", "wrong": ["కాచే|kāchē", "కాస్తూ|kāstū"] },
+        { "native": "నీళ్ళు బాగా కాచి తాగాలి.", "roman": "nīḷḷu bāgā kāchi tāgāli.", "en": "You should boil the water well before drinking it." },
+        { "native": "వారం రోజులు పత్యం చేయాలి అన్నారు.", "roman": "vāram rōjulu pathyam chēyāli annāru.", "en": "They said I have to stick to the diet for a week." },
+        { "native": "పత్యం అంటే కారం, నూనె, బయటి తిండి వద్దు.", "roman": "pathyam aṇṭē kāram, nūne, bayaṭi tiṇḍi vaddu.", "en": "Pathyam means no spice, no oil and no outside food." },
+        { "native": "ఒంట్లో వేడి చేసింది, పెరుగన్నం తిను.", "roman": "oṇṭlō vēḍi chēsindi, perugannam tinu.", "en": "Your body's overheated, eat some curd rice." },
+        { "native": "కోలుకునేదాకా బయట ఏమీ తినకు.", "roman": "kōlukunēdākā bayaṭa ēmī tinaku.", "en": "Don't eat anything outside until you've recovered.", "focus": "కోలుకునేదాకా", "wrong": ["కోలుకున్నాక|kōlukunnāka", "కోలుకుంటూ|kōlukuṇṭū"] }
+      ]
+    }
+  ]
+}

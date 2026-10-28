@@ -1,0 +1,211 @@
+{
+  "id": 37,
+  "title": "Sorting out problems",
+  "goal": "Deal with a wrong order, a refund, customer care, a lost phone or the police, pass on exactly what people told you, and stay calm but firm.",
+  "intro": "Things go wrong: the delivery app sends idli instead of biryani, money leaves your account twice, your phone disappears in an auto. This unit gives you the words for those calls and counters (**రీఫండ్**, **కంప్లైంట్**, **కస్టమర్ కేర్**, **వారంటీ**, **కేసు**) and the attitude: polite, patient, and firm.\n\nMost of sorting out a problem is **reporting what people said**: *they said they'd send it in two days*, *they told me to come tomorrow*, *I don't know when it'll come*. Unit 20 introduced **అని** and **-మని**; here you get them in full. Telugu quotes people's own words (*పంపిస్తామని చెప్పారు*, lit. 'they said \"we'll send\"'), turns orders into **-మని** (*రమ్మని చెప్పారు*, they told me to come) and tucks questions inside sentences with **-ఓ** (*ఎప్పుడు వస్తుందో తెలీదు*, I don't know when it'll come).",
+  "vocab": [
+    { "native": "ఆర్డర్", "roman": "ārḍar", "en": "order (online, at a restaurant)", "pos": "noun", "note": "ఆర్డర్ చేయు = to order · ఆర్డర్ కాలేదు = the order didn't go through" },
+    { "native": "రీఫండ్", "roman": "rīphaṇḍ", "en": "refund", "pos": "noun", "note": "రీఫండ్ ఇవ్వు = to refund · రీఫండ్ వచ్చింది = the refund has come" },
+    { "native": "రిటర్న్ చేయు", "roman": "riṭarn chēyu", "en": "to return (an item)", "pos": "verb", "note": "English + చేయు" },
+    { "native": "రీప్లేస్ చేయు", "roman": "rīplēs chēyu", "en": "to replace (with a new one)", "pos": "verb", "note": "in plain Telugu: కొత్తది ఇవ్వు / మార్చి ఇవ్వు" },
+    { "native": "డ్యామేజ్", "roman": "ḍyāmēj", "en": "damage; damaged", "pos": "noun", "note": "డ్యామేజ్ అయింది = it's damaged · డ్యామేజ్ అయి వచ్చింది = it arrived damaged" },
+    { "native": "కస్టమర్ కేర్", "roman": "kasṭamar kēr", "en": "customer care, helpline", "pos": "noun", "note": "కస్టమర్ కేర్‌కి ఫోన్ చేయు = to call customer care · the agent: కస్టమర్ కేర్ వాళ్ళు" },
+    { "native": "కంప్లైంట్", "roman": "kamplaiṇṭ", "en": "complaint (colloquial)", "pos": "noun", "note": "కంప్లైంట్ ఇవ్వు = to make a complaint · formal: ఫిర్యాదు (Unit 19)" },
+    { "native": "వివరాలు", "roman": "vivarālu", "en": "details", "pos": "noun", "note": "pl. of వివరం · also డీటెయిల్స్ · మీ వివరాలు = your details" },
+    { "native": "ప్రాసెస్", "roman": "prāses", "en": "process(ing)", "pos": "noun", "note": "ప్రాసెస్ అవుతోంది = it's being processed: the most-heard sentence in customer care" },
+    { "native": "కనుక్కో", "roman": "kanukkō", "en": "to find out, enquire", "pos": "verb", "note": "కనుక్కుని చెప్తాను = I'll find out and let you know" },
+    { "native": "కట్ అవు", "roman": "kaṭ avu", "en": "to be deducted (money); to get cut off (a call)", "pos": "verb", "note": "డబ్బులు కట్ అయ్యాయి = the money has been debited" },
+    { "native": "స్క్రీన్‌షాట్", "roman": "skrīnṣāṭ", "en": "screenshot", "pos": "noun", "note": "స్క్రీన్‌షాట్ తీయు = to take a screenshot" },
+    { "native": "ప్రూఫ్", "roman": "prūph", "en": "proof", "pos": "noun", "note": "ఐడీ ప్రూఫ్ = ID proof · formal: ఆధారం" },
+    { "native": "వారంటీ", "roman": "vāraṇṭī", "en": "warranty, guarantee", "pos": "noun", "note": "వారంటీలో ఉంది = it's under warranty" },
+    { "native": "సర్వీస్ సెంటర్", "roman": "sarvīs seṇṭar", "en": "service centre (for phones, appliances)", "pos": "noun" },
+    { "native": "దొంగిలించు", "roman": "doṅgilinchu", "en": "to steal", "pos": "verb", "note": "the everyday alternative is కొట్టేయు (Unit 19): ఫోన్ కొట్టేశారు" },
+    { "native": "ఆచూకీ", "roman": "āchūkī", "en": "trace, whereabouts", "pos": "noun", "note": "police and news word: ఆచూకీ దొరికింది = they've traced it / found out where it is" },
+    { "native": "కేసు", "roman": "kēsu", "en": "(police or court) case", "pos": "noun", "note": "కేసు పెట్టు = to file a case · FIR is said as ఎఫ్ఐఆర్" },
+    { "native": "తను", "roman": "tanu", "en": "he / she (himself, herself): the person already being talked about", "pos": "pron", "note": "common in reported speech: తను వస్తానని చెప్పాడు = he said he'd come · also just a neutral 'she' in speech" },
+    { "native": "మోసగాడు", "roman": "mōsagāḍu", "en": "con man, cheat, fraudster", "pos": "noun", "note": "from మోసం (Unit 34) · pl. మోసగాళ్ళు · మోసపోవు = to be conned" },
+    { "native": "అరుచు", "roman": "aruchu", "en": "to shout, yell", "pos": "verb", "note": "అరవకండి = don't shout (polite) · అరిచాడు = he shouted" },
+    { "native": "ఆవేశపడు", "roman": "āvēshapaḍu", "en": "to get worked up, lose your temper", "pos": "verb", "note": "ఆవేశం = agitation, heat of the moment · ఆవేశపడకండి = calm down (polite)" },
+    { "native": "గట్టిగా", "roman": "gaṭṭigā", "en": "firmly, hard; loudly", "pos": "adv", "note": "గట్టిగా అడుగు = to ask firmly, push · గట్టిగా మాట్లాడకు = don't talk so loud" },
+    { "native": "పరిష్కారం", "roman": "pariṣkāram", "en": "solution, resolution", "pos": "noun", "note": "పరిష్కారం చేయు = to resolve · casual: సొల్యూషన్" },
+    { "native": "పరిహారం", "roman": "parihāram", "en": "compensation", "pos": "noun", "note": "పరిహారం ఇవ్వు = to compensate · also కాంపెన్సేషన్" },
+    { "native": "హామీ", "roman": "hāmī", "en": "promise, assurance, guarantee", "pos": "noun", "note": "హామీ ఇవ్వు = to assure, give one's word" }
+  ],
+  "phrases": [
+    { "native": "నాకు తప్పు ఆర్డర్ వచ్చింది.", "roman": "nāku tappu ārḍar vachchindi.", "en": "I got the wrong order." },
+    { "native": "నాకు రీఫండ్ కావాలి.", "roman": "nāku rīphaṇḍ kāvāli.", "en": "I want a refund." },
+    { "native": "మీ ఆర్డర్ వివరాలు చెప్పండి.", "roman": "mī ārḍar vivarālu cheppaṇḍi.", "en": "Please tell me your order details." },
+    { "native": "ఒక్క నిమిషం లైన్‌లో ఉండండి.", "roman": "okka nimiṣam lainlō uṇḍaṇḍi.", "en": "Please hold the line for a minute." },
+    { "native": "మూడు రోజుల్లో ప్రాసెస్ అవుతుందని చెప్పారు.", "roman": "mūḍu rōjullō prāses avutundani cheppāru.", "en": "They said it would be processed in three days." },
+    { "native": "కనుక్కుని చెప్తాను.", "roman": "kanukkuni cheptānu.", "en": "I'll find out and let you know." },
+    { "native": "డబ్బులు కట్ అయ్యాయి, కానీ ఆర్డర్ కాలేదు.", "roman": "ḍabbulu kaṭ ayyāyi, kānī ārḍar kālēdu.", "en": "The money's been taken, but the order didn't go through." },
+    { "native": "రీఫండ్ ఎప్పుడు వస్తుందో చెప్పగలరా?", "roman": "rīphaṇḍ eppuḍu vastundō cheppagalarā?", "en": "Could you tell me when the refund will come?" },
+    { "native": "నా ఫోన్ ఎక్కడో పడిపోయింది.", "roman": "nā phōn ekkaḍō paḍipōyindi.", "en": "I've dropped my phone somewhere." },
+    { "native": "కంప్లైంట్ రాసి ఇవ్వండి.", "roman": "kamplaiṇṭ rāsi ivvaṇḍi.", "en": "Write out the complaint and hand it in. (what the police will tell you)" },
+    { "native": "ఇది మోసం!", "roman": "idi mōsam!", "en": "This is a con!" },
+    { "native": "అరవకండి, మర్యాదగా మాట్లాడండి.", "roman": "aravakaṇḍi, maryādagā māṭlāḍaṇḍi.", "en": "Don't shout; speak properly." },
+    { "native": "కొంచెం ఓపిక పట్టండి.", "roman": "konchem ōpika paṭṭaṇḍi.", "en": "Please be a little patient." },
+    { "native": "దీనికి పరిష్కారం ఏంటి?", "roman": "dīniki pariṣkāram ēṇṭi?", "en": "So what's the solution to this?" },
+    { "native": "మేనేజర్‌తో మాట్లాడొచ్చా?", "roman": "mēnējartō māṭlāḍochchā?", "en": "Can I speak to the manager?" }
+  ],
+  "grammar": [
+    {
+      "title": "Reporting what people said: అని in full",
+      "body": "Telugu reports speech by **quoting the actual words** and adding **అని** ('saying'), followed by a verb of saying or thinking: **చెప్పు** (tell), **అను** (say: అన్నాడు, అంది, అన్నారు), **అడుగు** (ask), **అనుకో** (think), **తెలుసు** (know).\n\n**No backshift, no change of person.** The quoted verb stays exactly as it was said:\n• He said: 'I'll come in ten minutes.' → *పది నిమిషాల్లో వస్తానని చెప్పాడు.* (lit. he said 'I'll come')\n• They said: 'We'll give a refund.' → *రీఫండ్ ఇస్తామని చెప్పారు.*\n• They said: 'It'll arrive in three days.' → *మూడు రోజుల్లో వస్తుందని చెప్పారు.*\n\n**Joining అని**: the final -ఉ of the verb drops and అని joins on: వస్తాను + అని → **వస్తానని** · ఇస్తాం + అని → **ఇస్తామని** (-ం becomes -మ) · లేదు → **లేదని** · ఉంది → **ఉందని** · రాదు → **రాదని** · అవుతోంది → **అవుతోందని**.\n\n**Who is 'he'?** Because the quote keeps the speaker's 'I', *వస్తానని చెప్పాడు* can only mean he said *he himself* would come. *వస్తాడని చెప్పాడు* means he said *some other man* would come. To make the subject explicit, use **తను** (he/she himself): *తను తప్పు చేయలేదని అంటున్నాడు* (he says he did nothing wrong).\n\n**The trap**: English shifts tense and person ('he said he *would* come'); if you do that in Telugu (*వస్తాడని*) you change who is coming. Report the words as they were spoken.",
+      "examples": [
+        { "native": "డెలివరీ బాయ్ పది నిమిషాల్లో వస్తానని చెప్పాడు.", "roman": "ḍelivarī bāy padi nimiṣāllō vastānani cheppāḍu.", "en": "The delivery guy said he'd be here in ten minutes." },
+        { "native": "కస్టమర్ కేర్ వాళ్ళు రీఫండ్ ఇస్తామని చెప్పారు.", "roman": "kasṭamar kēr vāḷḷu rīphaṇḍ istāmani cheppāru.", "en": "Customer care said they would give a refund." },
+        { "native": "స్టాక్ లేదని అన్నారు.", "roman": "sṭāk lēdani annāru.", "en": "They said it was out of stock." },
+        { "native": "తను తప్పు చేయలేదని అంటున్నాడు.", "roman": "tanu tappu chēyalēdani aṇṭunnāḍu.", "en": "He says he didn't do anything wrong." },
+        { "native": "ఆర్డర్ ఈరోజు వస్తుందని అనుకున్నా.", "roman": "ārḍar īrōju vastundani anukunnā.", "en": "I thought the order would come today." }
+      ]
+    },
+    {
+      "title": "Told to, told not to: -మని, -వద్దని, -ఆలని",
+      "body": "**Orders and requests** are reported with **-మని** on the verb stem, the same stem as the informal command (Unit 20 introduced it):\nరా → **రమ్మని** · ఇవ్వు → **ఇవ్వమని** · పంపు → **పంపమని** · వెళ్ళు → **వెళ్ళమని** · ఉండు → **ఉండమని** · చేయి → **చేయమని** · తెచ్చు → **తెమ్మని** · తీసుకురా → **తీసుకురమ్మని**\n*రేపు మళ్ళీ రమ్మని చెప్పారు* (they told me to come again tomorrow) · *రీఫండ్ ఇవ్వమని అడిగాను* (I asked them to give a refund).\n\n**Told not to**: verbal stem + **వద్దని** (spoken **-ఒద్దని**): రావద్దని, చెప్పొద్దని, ఇవ్వొద్దని.\n\n**Told you have to (a rule)**: the must-form **-ఆలి** + అని → **-ఆలని**: *ఆధార్ జిరాక్స్ తేవాలని చెప్పారు* (they said I have to bring an Aadhaar copy).\n\n**Questions**: quote the question and add **అని అడుగు**: *ఎక్కడ ఉన్నావని అడిగాడు* (he asked where I was, lit. 'where are you?' he asked). The question word stays; only the verb picks up అని.\n\n**The trap**: **-మని** is someone's request (*వెళ్ళమని* 'told me to go'); **-ఆలని** is a rule or obligation (*వెళ్ళాలని* 'said I must go'); **-తానని** is a promise (*వెళ్తానని* 'said he'd go'). Mixing them changes who has to do what.",
+      "examples": [
+        { "native": "వాళ్ళు రేపు మళ్ళీ రమ్మని చెప్పారు.", "roman": "vāḷḷu rēpu maḷḷī rammani cheppāru.", "en": "They told me to come back tomorrow." },
+        { "native": "బిల్లు తీసుకురమ్మని అడిగారు.", "roman": "billu tīsukurammani aḍigāru.", "en": "They asked me to bring the bill." },
+        { "native": "ఎవరికీ ఓటీపీ చెప్పొద్దని బ్యాంకు వాళ్ళు చెప్తూనే ఉంటారు.", "roman": "evarikī ōṭīpī cheppoddani byāṅku vāḷḷu cheptūnē uṇṭāru.", "en": "The bank keeps telling you never to give anyone your OTP." },
+        { "native": "ఫోటో, బిల్లు రెండూ పంపాలని చెప్పారు.", "roman": "phōṭō, billu reṇḍū pampālani cheppāru.", "en": "They said I have to send both the photo and the bill." },
+        { "native": "ఎన్ని గంటలకి వస్తావని బాస్ అడిగాడు.", "roman": "enni gaṇṭalaki vastāvani bās aḍigāḍu.", "en": "The boss asked what time I'd be in." }
+      ]
+    },
+    {
+      "title": "When, whether, apparently: -ఓ and -అంట",
+      "body": "**A question inside a sentence** ('I don't know *when it'll come*', 'find out *what time they open*') keeps its question word and ends the verb in **-ఓ**:\nఎప్పుడు వస్తుంది? → *ఎప్పుడు **వస్తుందో** తెలీదు* (I don't know when it'll come)\nఎవరు తీసుకున్నారు? → *ఎవరు **తీసుకున్నారో** చూశారా?* (did you see who took it?)\nఎందుకు వేశారు? → *ఎందుకు **వేశారో** అర్థం కాలేదు* (I don't get why they charged it)\nIt goes with **తెలీదు, చెప్పు, చూడు, కనుక్కో, అడుగు, గుర్తు లేదు, అర్థం కాలేదు**.\n\n**Whether or not**: put the yes-form and the no-form side by side, both with -ఓ: **ఉందో లేదో** (whether it's there or not) · **వస్తుందో రాదో** · **ఇస్తారో ఇవ్వరో** · *వారంటీ ఉందో లేదో చూస్తాను* (I'll check whether there's a warranty). Two alternatives work the same way: *ఆటోలో పడిందో ఆఫీసులో పడిందో* (whether it fell in the auto or at the office).\n\n**Apparently / they say**: add **-అంట** (spoken; written **-అట**) to the verb when you pass on something you only heard: *రేపు వస్తుందంట* (apparently it's coming tomorrow) · *ఇవ్వరంట* (apparently they won't give it). It's how you report customer care's promises without vouching for them.\n\n**The trap**: *ఎప్పుడు వస్తుందని తెలీదు* is not Telugu. With a question word use **-ఓ**; **అని** is for the actual words someone said (*రేపు వస్తుందని చెప్పారు*).",
+      "examples": [
+        { "native": "రీఫండ్ ఎప్పుడు వస్తుందో ఎవరూ చెప్పట్లేదు.", "roman": "rīphaṇḍ eppuḍu vastundō evarū cheppaṭlēdu.", "en": "Nobody will tell me when the refund will come." },
+        { "native": "ఫోన్ ఆటోలో పడిందో ఆఫీసులో పడిందో గుర్తు లేదు.", "roman": "phōn āṭōlō paḍindō āphīsulō paḍindō gurtu lēdu.", "en": "I can't remember whether I dropped the phone in the auto or at the office." },
+        { "native": "వారంటీ ఉందో లేదో చూసి చెప్తాను.", "roman": "vāraṇṭī undō lēdō chūsi cheptānu.", "en": "I'll check whether there's a warranty and tell you." },
+        { "native": "ఆ షాపువాడు మంచివాడంట, మార్చి ఇస్తాడంట.", "roman": "ā ṣāpuvāḍu manchivāḍaṇṭa, mārchi istāḍaṇṭa.", "en": "Apparently that shopkeeper is decent; he'll exchange it, they say." },
+        { "native": "ఇంతకీ వాళ్ళు డబ్బులు ఇస్తారో ఇవ్వరో?", "roman": "intakī vāḷḷu ḍabbulu istārō ivvarō?", "en": "So are they going to give the money back or not?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The broken mixie",
+    "setting": "Vijayawada. Ravi calls customer care about a mixer-grinder that arrived broken; afterwards his elder sister Lakshmi wants to know what they said.",
+    "lines": [
+      { "speaker": "Agent", "native": "నమస్కారం సార్, నా పేరు ప్రియ. నేను మీకు ఎలా సహాయం చేయగలను?", "roman": "namaskāram sār, nā pēru priya. nēnu mīku elā sahāyam chēyagalanu?", "en": "Good morning, sir, my name is Priya. How can I help you?" },
+      { "speaker": "Ravi", "native": "నమస్కారం అండి. నేను నిన్న ఒక మిక్సీ ఆర్డర్ చేశాను. బాక్స్ తెరిచి చూస్తే జార్ పగిలిపోయి ఉంది.", "roman": "namaskāram aṇḍi. nēnu ninna oka miksī ārḍar chēshānu. bāks terichi chūstē jār pagilipōyi undi.", "en": "Hello. I ordered a mixie yesterday. When I opened the box, the jar was broken." },
+      { "speaker": "Agent", "native": "అయ్యో, సారీ సార్. మీ ఆర్డర్ వివరాలు చెప్పగలరా?", "roman": "ayyō, sārī sār. mī ārḍar vivarālu cheppagalarā?", "en": "Oh, I'm sorry, sir. Could you give me your order details?" },
+      { "speaker": "Ravi", "native": "చెప్తాను... కానీ ఇది మూడోసారి కాల్ చేయడం. ప్రతిసారీ కనుక్కుని చెప్తామని అంటున్నారు, ఎవరూ ఫోన్ చేయట్లేదు.", "roman": "cheptānu... kānī idi mūḍōsāri kāl chēyaḍam. pratisārī kanukkuni cheptāmani aṇṭunnāru, evarū phōn chēyaṭlēdu.", "en": "I will... but this is the third time I'm calling. Every time you say you'll find out and get back to me, and nobody calls." },
+      { "speaker": "Agent", "native": "మీ ఇబ్బంది అర్థమైంది సార్. కొంచెం ఓపిక పట్టండి, నేను ఇప్పుడే చూస్తాను.", "roman": "mī ibbandi arthamaindi sār. konchem ōpika paṭṭaṇḍi, nēnu ippuḍē chūstānu.", "en": "I understand the trouble, sir. Please bear with me, I'll look right now." },
+      { "speaker": "Agent", "native": "సార్, కొత్తది పంపమంటారా, రీఫండ్ కావాలా?", "roman": "sār, kottadi pampamaṇṭārā, rīphaṇḍ kāvālā?", "en": "Sir, shall we send a new one, or would you like a refund?" },
+      { "speaker": "Ravi", "native": "రీఫండే ఇవ్వండి. అది ఎప్పుడు వస్తుందో కూడా చెప్పండి.", "roman": "rīphaṇḍē ivvaṇḍi. adi eppuḍu vastundō kūḍā cheppaṇḍi.", "en": "Just give me a refund. And tell me when it will come." },
+      { "speaker": "Agent", "native": "రేపు మా వాళ్ళు వచ్చి పాత మిక్సీ తీసుకెళ్తారు. ఆ తర్వాత ఐదు రోజుల్లో మీ అకౌంట్‌లో డబ్బులు పడతాయి.", "roman": "rēpu mā vāḷḷu vachchi pāta miksī tīsukeḷtāru. ā tarvāta aidu rōjullō mī akauṇṭlō ḍabbulu paḍatāyi.", "en": "Our people will come and collect the old mixie tomorrow. After that the money will be in your account within five days." },
+      { "speaker": "Ravi", "native": "సరే. దయచేసి కంప్లైంట్ నంబర్ మెసేజ్ చేయండి.", "roman": "sarē. dayachēsi kamplaiṇṭ nambar mesēj chēyaṇḍi.", "en": "OK. Please text me the complaint number." },
+      { "speaker": "Agent", "native": "తప్పకుండా సార్. ఇంకేమైనా సహాయం కావాలా?", "roman": "tappakuṇḍā sār. iṅkēmainā sahāyam kāvālā?", "en": "Certainly, sir. Is there anything else I can help with?" },
+      { "speaker": "Lakshmi", "native": "ఏమన్నారు? మళ్ళీ కనుక్కుని చెప్తామన్నారా?", "roman": "ēmannāru? maḷḷī kanukkuni cheptāmannārā?", "en": "What did they say? 'We'll find out and get back to you' again?" },
+      { "speaker": "Ravi", "native": "లేదు, ఈసారి రేపు వచ్చి మిక్సీ తీసుకెళ్తామని చెప్పింది. ఐదు రోజుల్లో డబ్బులు వస్తాయంట.", "roman": "lēdu, īsāri rēpu vachchi miksī tīsukeḷtāmani cheppindi. aidu rōjullō ḍabbulu vastāyaṇṭa.", "en": "No, this time she said they'd come and take the mixie tomorrow. Apparently the money will come in five days." },
+      { "speaker": "Lakshmi", "native": "వస్తాయో రావో చూద్దాం. పోయిన సారి నా చెప్పుల రీఫండ్ ఇంకా రాలేదు!", "roman": "vastāyō rāvō chūddām. pōyina sāri nā cheppula rīphaṇḍ iṅkā rālēdu!", "en": "We'll see whether it comes or not. The refund for my sandals last time still hasn't come!" },
+      { "speaker": "Ravi", "native": "అందుకే గట్టిగా అడగాలి అక్కా. మర్యాదగా, కానీ గట్టిగా!", "roman": "andukē gaṭṭigā aḍagāli akkā. maryādagā, kānī gaṭṭigā!", "en": "That's why you have to push, akka. Politely, but firmly!" }
+    ]
+  },
+  "culture": "Customer care lines in Andhra Pradesh and Telangana usually offer Telugu (*తెలుగు కోసం...* press a number), but the agent's Telugu will be full of English: *సార్*, *మేడం*, *ప్రాసెస్*, *టికెట్ రైజ్ చేశాం*. Use **మీరు** and **అండి / సార్ / మేడం** throughout, even when you're angry; it makes you sound in control, and shouting (*అరవడం*) gets you put on hold. At a shop counter, calling the staff **అన్నా** or **అక్కా** and switching to Telugu often gets you further than English. For a lost or stolen phone, you report it to the police (in Hyderabad this can be done online) and block the phone through the government's Sanchar Saathi portal; keep the bill and the IMEI. The great modern warning is about **OTP** and **UPI** scams: banks and the police repeat *ఎవరికీ ఓటీపీ చెప్పొద్దు* (never tell anyone your OTP), and *బ్యాంకు నుంచి ఫోన్ చేస్తున్నాం* from an unknown number is almost always a con. Finally, *కనుక్కుని చెప్తాను* ('I'll find out and let you know') is said with total sincerity and sometimes means nothing; get a complaint number and a date.",
+  "lessons": [
+    {
+      "title": "When an order goes wrong",
+      "new": ["ఆర్డర్", "డ్యామేజ్", "రిటర్న్ చేయు", "రీప్లేస్ చేయు", "రీఫండ్", "నాకు తప్పు ఆర్డర్ వచ్చింది.", "నాకు రీఫండ్ కావాలి."],
+      "sentences": [
+        { "native": "నేను ఆర్డర్ చేసింది నీలం రంగు, వచ్చింది ఎరుపు.", "roman": "nēnu ārḍar chēsindi nīlam raṅgu, vachchindi erupu.", "en": "What I ordered was blue; what came was red." },
+        { "native": "బిర్యానీ ఆర్డర్ చేస్తే ఇడ్లీ వచ్చింది!", "roman": "biryānī ārḍar chēstē iḍlī vachchindi!", "en": "I ordered biryani and got idli!" },
+        { "native": "చొక్కా డ్యామేజ్ అయి వచ్చింది.", "roman": "chokkā ḍyāmēj ayi vachchindi.", "en": "The shirt arrived damaged." },
+        { "native": "సైజు సరిపోలేదు, రిటర్న్ చేస్తాను.", "roman": "saiju saripōlēdu, riṭarn chēstānu.", "en": "The size didn't fit, I'll return it." },
+        { "native": "డ్యామేజ్ అయితే వాళ్ళు రీప్లేస్ చేస్తారు.", "roman": "ḍyāmēj ayitē vāḷḷu rīplēs chēstāru.", "en": "If it's damaged, they'll replace it." },
+        { "native": "రిటర్న్ చేస్తే రీఫండ్ ఎన్ని రోజుల్లో వస్తుంది?", "roman": "riṭarn chēstē rīphaṇḍ enni rōjullō vastundi?", "en": "If I return it, how many days does the refund take?" },
+        { "native": "నాకు రీప్లేస్ చేయడం వద్దు, రీఫండ్ కావాలి.", "roman": "nāku rīplēs chēyaḍam vaddu, rīphaṇḍ kāvāli.", "en": "I don't want a replacement, I want a refund." },
+        { "native": "తప్పు ఆర్డర్ వస్తే వెంటనే ఫోటో తీయండి.", "roman": "tappu ārḍar vastē veṇṭanē phōṭō tīyaṇḍi.", "en": "If you get the wrong order, take a photo straight away." },
+        { "native": "ఈ ఆర్డర్ రిటర్న్ చేయడానికి వీలు లేదంట.", "roman": "ī ārḍar riṭarn chēyaḍāniki vīlu lēdaṇṭa.", "en": "Apparently this order can't be returned." }
+      ]
+    },
+    {
+      "title": "On the phone to customer care",
+      "tip": { "title": "Reporting: … అని చెప్పారు", "body": "- Quote the actual words, then **అని** + చెప్పు / అను / అడుగు.\n- No backshift: 'I'll send' stays 'I': పంపిస్తాం + అని → **పంపిస్తామని** చెప్పారు.\n- Joins: -ాను → **-ానని**, -ాం → **-ామని**, ఉంది → **ఉందని**, లేదు → **లేదని**.\n- Trap: చేస్తా**డని** అన్నాడు = he said *someone else* would do it.", "pattern": "their words + అని + చెప్పారు / అన్నారు", "grammar": 0 },
+      "new": [
+        "కస్టమర్ కేర్",
+        "కంప్లైంట్",
+        "వివరాలు",
+        "ప్రాసెస్",
+        "కనుక్కో",
+        "మీ ఆర్డర్ వివరాలు చెప్పండి.",
+        "ఒక్క నిమిషం లైన్‌లో ఉండండి.",
+        "మూడు రోజుల్లో ప్రాసెస్ అవుతుందని చెప్పారు.",
+        "కనుక్కుని చెప్తాను."
+      ],
+      "sentences": [
+        { "native": "కస్టమర్ కేర్‌కి మూడుసార్లు ఫోన్ చేశాను.", "roman": "kasṭamar kērki mūḍusārlu phōn chēshānu.", "en": "I've called customer care three times." },
+        { "native": "రెండు రోజుల్లో పంపిస్తామని చెప్పారు.", "roman": "reṇḍu rōjullō pampistāmani cheppāru.", "en": "They said they'd send it in two days.", "focus": "పంపిస్తామని", "wrong": ["పంపిస్తాను|pampistānu", "పంపించాను|pampinchānu"] },
+        { "native": "కంప్లైంట్ తీసుకున్నామని మెసేజ్ వచ్చింది.", "roman": "kamplaiṇṭ tīsukunnāmani mesēj vachchindi.", "en": "I got a message saying they'd taken the complaint.", "focus": "తీసుకున్నామని", "wrong": ["తీసుకున్నాం|tīsukunnām", "తీసుకుంటాం|tīsukuṇṭām"] },
+        { "native": "మీ వివరాలు తప్పుగా ఉన్నాయని అంటున్నారు.", "roman": "mī vivarālu tappugā unnāyani aṇṭunnāru.", "en": "They're saying your details are wrong.", "focus": "ఉన్నాయని", "wrong": ["ఉన్నాయి|unnāyi", "ఉన్నారు|unnāru"] },
+        { "native": "రీఫండ్ ప్రాసెస్ అవుతోందని చెప్పారు, కానీ ఇంకా రాలేదు.", "roman": "rīphaṇḍ prāses avutōndani cheppāru, kānī iṅkā rālēdu.", "en": "They said the refund was being processed, but it still hasn't come.", "focus": "అవుతోందని", "wrong": ["అవుతోంది|avutōndi", "అయింది|ayindi"] },
+        { "native": "ఆయన కనుక్కుని ఫోన్ చేస్తానని అన్నారు.", "roman": "āyana kanukkuni phōn chēstānani annāru.", "en": "He said he'd find out and call me.", "focus": "చేస్తానని", "wrong": ["చేస్తాడని|chēstāḍani", "చేస్తాను|chēstānu"] },
+        { "native": "ఒక్క నిమిషం లైన్‌లో ఉండమని చెప్పి, కాల్ కట్ చేశారు!", "roman": "okka nimiṣam lainlō uṇḍamani cheppi, kāl kaṭ chēshāru!", "en": "They told me to hold for a minute, then cut the call!" },
+        { "native": "ఇది ఎప్పుడు అవుతుందని అడిగితే, కనుక్కుని చెప్తానని అంది.", "roman": "idi eppuḍu avutundani aḍigitē, kanukkuni cheptānani andi.", "en": "When I asked when it would be done, she said she'd find out and tell me.", "focus": "చెప్తానని", "wrong": ["చెప్తుందని|cheptundani", "చెప్పింది|cheppindi"] },
+        { "native": "మీ వివరాలు ఒకసారి చెప్పండి సార్.", "roman": "mī vivarālu okasāri cheppaṇḍi sār.", "en": "Could you give me your details once, sir." }
+      ]
+    },
+    {
+      "title": "Money gone, nothing back",
+      "tip": { "title": "When, whether: -ఓ; apparently: -అంట", "body": "- A question inside a sentence ends in **-ఓ**: ఎప్పుడు వస్తుంది? → ఎప్పుడు **వస్తుందో** తెలీదు.\n- Whether or not: **ఉందో లేదో**, **వస్తుందో రాదో**.\n- Passing on what you heard: **-అంట**: ఇవ్వరు → **ఇవ్వరంట** (apparently they won't).\n- Trap: with a question word use -ఓ, not అని.", "pattern": "question word … verb-ఓ + తెలీదు / చెప్పండి", "grammar": 2 },
+      "new": [
+        "కట్ అవు",
+        "స్క్రీన్‌షాట్",
+        "ప్రూఫ్",
+        "వారంటీ",
+        "సర్వీస్ సెంటర్",
+        "డబ్బులు కట్ అయ్యాయి, కానీ ఆర్డర్ కాలేదు.",
+        "రీఫండ్ ఎప్పుడు వస్తుందో చెప్పగలరా?"
+      ],
+      "sentences": [
+        { "native": "డబ్బులు రెండుసార్లు కట్ అయ్యాయి.", "roman": "ḍabbulu reṇḍusārlu kaṭ ayyāyi.", "en": "The money has been taken twice." },
+        { "native": "డబ్బులు ఎప్పుడు వెనక్కి వస్తాయో తెలీదు.", "roman": "ḍabbulu eppuḍu venakki vastāyō telīdu.", "en": "I don't know when the money will come back.", "focus": "వస్తాయో", "wrong": ["వస్తాయి|vastāyi", "వస్తాయని|vastāyani"] },
+        { "native": "డబ్బులు కట్ అయ్యాయో లేదో చూడండి.", "roman": "ḍabbulu kaṭ ayyāyō lēdō chūḍaṇḍi.", "en": "Check whether the money has been taken or not.", "focus": "అయ్యాయో", "wrong": ["అయ్యాయి|ayyāyi", "అయ్యాయని|ayyāyani"] },
+        { "native": "ప్రూఫ్ కోసం స్క్రీన్‌షాట్ తీసి పెట్టుకో.", "roman": "prūph kōsam skrīnṣāṭ tīsi peṭṭukō.", "en": "Take a screenshot and keep it as proof." },
+        { "native": "ఈ ఫోన్‌కి వారంటీ ఉందో లేదో చెప్పగలరా?", "roman": "ī phōnki vāraṇṭī undō lēdō cheppagalarā?", "en": "Could you tell me whether this phone is under warranty?", "focus": "ఉందో", "wrong": ["ఉంది|undi", "ఉందని|undani"] },
+        { "native": "వారంటీలో ఉంటే సర్వీస్ సెంటర్‌లో ఫ్రీగా బాగు చేస్తారంట.", "roman": "vāraṇṭīlō uṇṭē sarvīs seṇṭarlō phrīgā bāgu chēstāraṇṭa.", "en": "Apparently if it's under warranty they fix it free at the service centre.", "focus": "చేస్తారంట", "wrong": ["చేస్తాను|chēstānu", "చేస్తానంట|chēstānaṇṭa"] },
+        { "native": "సర్వీస్ సెంటర్ ఎన్ని గంటలకి తెరుస్తారో కనుక్కో.", "roman": "sarvīs seṇṭar enni gaṇṭalaki terustārō kanukkō.", "en": "Find out what time the service centre opens.", "focus": "తెరుస్తారో", "wrong": ["తెరుస్తారు|terustāru", "తెరిచారు|terichāru"] },
+        { "native": "ప్రూఫ్ లేకపోతే రీఫండ్ ఇవ్వరంట.", "roman": "prūph lēkapōtē rīphaṇḍ ivvaraṇṭa.", "en": "Apparently they won't refund you without proof.", "focus": "ఇవ్వరంట", "wrong": ["ఇవ్వను|ivvanu", "ఇవ్వరో|ivvarō"] },
+        { "native": "వాళ్ళు ఎక్స్‌ట్రా ఛార్జి ఎందుకు వేశారో అర్థం కాలేదు.", "roman": "vāḷḷu eksṭrā chhārji enduku vēshārō artham kālēdu.", "en": "I don't understand why they added an extra charge.", "focus": "వేశారో", "wrong": ["వేశారు|vēshāru", "వేశారని|vēshārani"] },
+        { "native": "స్క్రీన్‌షాట్ పంపాను, ఇంకా ఏమీ రిప్లై లేదు.", "roman": "skrīnṣāṭ pampānu, iṅkā ēmī riplai lēdu.", "en": "I sent the screenshot; no reply yet." }
+      ]
+    },
+    {
+      "title": "A lost phone and the police",
+      "tip": { "title": "Told to: -మని, -వద్దని, -ఆలని", "body": "- Told to: stem + **-మని**: రా → **రమ్మని**, వెళ్ళు → **వెళ్ళమని**, చేయి → **చేయమని**.\n- Told not to: **-వద్దని** (spoken **-ఒద్దని**): **చెప్పొద్దని**.\n- A rule, 'have to': **-ఆలని**: **రావాలని** చెప్పారు.\n- Asked: their question + **అని అడిగారు**.", "pattern": "stem + మని / వద్దని / ఆలని + చెప్పారు", "grammar": 1 },
+      "new": ["దొంగిలించు", "ఆచూకీ", "కేసు", "తను", "మోసగాడు", "నా ఫోన్ ఎక్కడో పడిపోయింది.", "కంప్లైంట్ రాసి ఇవ్వండి.", "ఇది మోసం!"],
+      "sentences": [
+        { "native": "ఆటోలో నా ఫోన్ ఎవరో దొంగిలించారు.", "roman": "āṭōlō nā phōn evarō doṅgilinchāru.", "en": "Someone stole my phone in the auto." },
+        { "native": "వెంటనే సిమ్ బ్లాక్ చేయమని అన్నయ్య చెప్పాడు.", "roman": "veṇṭanē sim blāk chēyamani annayya cheppāḍu.", "en": "My brother told me to block the SIM at once.", "focus": "చేయమని", "wrong": ["చేయి|chēyi", "చేస్తాను|chēstānu"] },
+        { "native": "పోలీసు స్టేషనుకి వెళ్ళమని చెప్పారు.", "roman": "pōlīsu sṭēṣanuki veḷḷamani cheppāru.", "en": "They told me to go to the police station.", "focus": "వెళ్ళమని", "wrong": ["వెళ్ళు|veḷḷu", "వెళ్తాను|veḷtānu"] },
+        { "native": "ఫోన్ ఎక్కడ, ఎప్పుడు పోయిందని పోలీసు అడిగారు.", "roman": "phōn ekkaḍa, eppuḍu pōyindani pōlīsu aḍigāru.", "en": "The police asked where and when I lost the phone.", "focus": "పోయిందని", "wrong": ["పోయింది|pōyindi", "పోతుంది|pōtundi"] },
+        { "native": "రేపు ఆధార్ జిరాక్స్ తీసుకుని రమ్మని చెప్పారు.", "roman": "rēpu ādhār jirāks tīsukuni rammani cheppāru.", "en": "They told me to come tomorrow with a copy of my Aadhaar.", "focus": "రమ్మని", "wrong": ["రా|rā", "వచ్చాను|vachchānu"] },
+        { "native": "కేసు పెట్టాలంటే స్టేషనుకి రావాలని చెప్పారు.", "roman": "kēsu peṭṭālaṇṭē sṭēṣanuki rāvālani cheppāru.", "en": "They said that to file a case I have to come to the station.", "focus": "రావాలని", "wrong": ["రా|rā", "వచ్చాను|vachchānu"] },
+        { "native": "ఎవరికీ ఓటీపీ చెప్పొద్దని ఎన్నిసార్లు చెప్పాను!", "roman": "evarikī ōṭīpī cheppoddani ennisārlu cheppānu!", "en": "How many times have I told you never to give anyone the OTP!", "focus": "చెప్పొద్దని", "wrong": ["చెప్పు|cheppu", "చెప్పాలని|cheppālani"] },
+        { "native": "బ్యాంకు నుంచి అని చెప్పి ఓటీపీ అడిగాడు, వాడు మోసగాడు.", "roman": "byāṅku nunchi ani cheppi ōṭīpī aḍigāḍu, vāḍu mōsagāḍu.", "en": "He said he was from the bank and asked for the OTP; he was a con man." },
+        { "native": "తను ఏ తప్పూ చేయలేదని అంటున్నాడు.", "roman": "tanu ē tappū chēyalēdani aṇṭunnāḍu.", "en": "He says he didn't do a thing wrong." },
+        { "native": "తను మోసపోయానని చాలా బాధపడుతోంది.", "roman": "tanu mōsapōyānani chālā bādhapaḍutōndi.", "en": "She's really upset that she got conned." },
+        { "native": "ఫోన్ ఆచూకీ దొరికితే ఫోన్ చేస్తామని పోలీసులు చెప్పారు.", "roman": "phōn āchūkī dorikitē phōn chēstāmani pōlīsulu cheppāru.", "en": "The police said they'd call if they traced the phone." }
+      ]
+    },
+    {
+      "title": "Calm but firm",
+      "tip": { "title": "Calm but firm", "body": "- Keep **మీరు** and **అండి / సార్ / మేడం** even when you're angry: it makes you sound in control.\n- Calm things down: **ఓపిక పట్టండి**, **అరవకండి**, ప్రశాంతంగా మాట్లాడదాం.\n- Push: ask **గట్టిగా** for a **పరిష్కారం**, not an apology.\n- Escalate: **మేనేజర్‌తో మాట్లాడొచ్చా?**" },
+      "new": ["అరుచు", "ఆవేశపడు", "గట్టిగా", "పరిష్కారం", "పరిహారం", "హామీ", "అరవకండి, మర్యాదగా మాట్లాడండి.", "కొంచెం ఓపిక పట్టండి.", "దీనికి పరిష్కారం ఏంటి?", "మేనేజర్‌తో మాట్లాడొచ్చా?"],
+      "sentences": [
+        { "native": "అరిస్తే పని జరగదు, ప్రశాంతంగా మాట్లాడదాం.", "roman": "aristē pani jaragadu, prashāntaṅgā māṭlāḍadām.", "en": "Shouting won't get it done; let's talk calmly." },
+        { "native": "నేను మీతో వాదించట్లేదు, సమస్య చెప్తున్నాను.", "roman": "nēnu mītō vādinchaṭlēdu, samasya cheptunnānu.", "en": "I'm not arguing with you, I'm explaining the problem." },
+        { "native": "మీరు మర్యాదగా మాట్లాడితే నేనూ మర్యాదగా మాట్లాడతాను.", "roman": "mīru maryādagā māṭlāḍitē nēnū maryādagā māṭlāḍatānu.", "en": "If you speak politely, I'll speak politely too." },
+        { "native": "ఇది మీ పొరపాటు, నా నష్టానికి పరిహారం ఇవ్వాలి.", "roman": "idi mī porapāṭu, nā naṣṭāniki parihāram ivvāli.", "en": "This is your mistake; you have to compensate me for my loss." },
+        { "native": "సారీ కాదు, నాకు పరిష్కారం కావాలి.", "roman": "sārī kādu, nāku pariṣkāram kāvāli.", "en": "I don't want a sorry, I want a solution." },
+        { "native": "గట్టిగా అడిగితే గానీ వాళ్ళు వినరు.", "roman": "gaṭṭigā aḍigitē gānī vāḷḷu vinaru.", "en": "They won't listen unless you push." },
+        { "native": "రేపటికల్లా పరిష్కారం చేస్తామని హామీ ఇస్తున్నాను.", "roman": "rēpaṭikallā pariṣkāram chēstāmani hāmī istunnānu.", "en": "I give you my word we'll sort it out by tomorrow." },
+        { "native": "హామీ ఇచ్చారు కాబట్టి ఒక రోజు ఆగుతాను.", "roman": "hāmī ichchāru kābaṭṭi oka rōju āgutānu.", "en": "Since you've given your word, I'll wait a day." },
+        { "native": "దయచేసి మీ మేనేజర్‌ని పిలవండి.", "roman": "dayachēsi mī mēnējarni pilavaṇḍi.", "en": "Please call your manager." },
+        { "native": "కొంచెం ఓపిక పట్టండి సార్, నేను చూసుకుంటాను.", "roman": "konchem ōpika paṭṭaṇḍi sār, nēnu chūsukuṇṭānu.", "en": "Please be patient a little, sir, I'll take care of it." },
+        { "native": "అనవసరంగా ఆవేశపడకు, వదిలేయ్.", "roman": "anavasaraṅgā āvēshapaḍaku, vadilēy.", "en": "Don't get worked up for nothing; let it go. (to a friend)" }
+      ]
+    }
+  ]
+}

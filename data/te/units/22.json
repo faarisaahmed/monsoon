@@ -1,0 +1,181 @@
+{
+  "id": 22,
+  "title": "Calls, texts & voice notes",
+  "goal": "Make and take calls, deal with bad signal and missed calls, say you'll call back, and manage messages, voice notes and shared locations.",
+  "intro": "Telugu phone talk is short, fast and full of English: **కాల్ చెయ్**, **కట్ అయింది**, **సిగ్నల్ లేదు**, **లొకేషన్ షేర్ చెయ్**. The English word stays as it is and a Telugu verb (usually **చేయు**, **అవు**, **పెట్టు** or **ఇవ్వు**) carries the grammar.\n\nYou'll learn how to answer the phone, say you can't hear, promise to call back, and chase a friend who isn't replying. Two pieces of grammar make this easy: chaining actions with **-ఇ** and **-ఆక** ('do X and then Y', 'after X'), and the little time words **ఇప్పుడే** (just), **ఆల్రెడీ / అప్పుడే** (already), **ఇంకా** (still, yet) and **ఇక** (any more). You'll also meet the spoken **-ట్లేదు** ending: *ఎత్తట్లేదు*, 'isn't picking up'.",
+  "vocab": [
+    { "native": "ఫోన్ చేయు", "roman": "phōn chēyu", "en": "to call, phone", "pos": "verb", "note": "The person called is in the dative: అమ్మకి ఫోన్ చేశా = I called Mum" },
+    { "native": "కాల్", "roman": "kāl", "en": "call", "pos": "noun", "note": "కాల్ చేయు = to call (as common as ఫోన్ చేయు) · plural కాల్స్" },
+    { "native": "ఫోన్ ఎత్తు", "roman": "phōn ettu", "en": "to answer the phone, pick up", "pos": "verb", "note": "Lit. 'lift the phone' · ఎత్తట్లేదు = isn't picking up" },
+    { "native": "కట్ చేయు", "roman": "kaṭ chēyu", "en": "to hang up, cut off (a call)", "pos": "verb", "note": "కట్ అయింది = it got cut off" },
+    { "native": "రింగ్ అవు", "roman": "riṅg avu", "en": "to ring", "pos": "verb", "note": "రింగ్ అవుతోంది = it's ringing" },
+    { "native": "మిస్డ్ కాల్", "roman": "misḍ kāl", "en": "missed call", "pos": "noun", "note": "మిస్డ్ కాల్ ఇవ్వు = to give a missed call (ring once on purpose, as a signal)" },
+    { "native": "సేవ్ చేయు", "roman": "sēv chēyu", "en": "to save (a number, a file)", "pos": "verb" },
+    { "native": "సిగ్నల్", "roman": "signal", "en": "signal (phone); traffic light", "pos": "noun", "note": "సిగ్నల్ లేదు = no signal · సిగ్నల్ దగ్గర = at the traffic lights" },
+    { "native": "నెట్‌వర్క్", "roman": "neṭvark", "en": "network", "pos": "noun" },
+    { "native": "స్విచ్ ఆఫ్", "roman": "svich āph", "en": "switched off", "pos": "adj", "note": "ఫోన్ స్విచ్ ఆఫ్ వస్తోంది = the phone is coming up as switched off" },
+    { "native": "ఛార్జింగ్", "roman": "chhārjiṅg", "en": "charging; battery charge", "pos": "noun", "note": "ఛార్జింగ్ లేదు = the battery's dead · ఛార్జింగ్‌లో ఉంది = it's on charge" },
+    { "native": "వినిపించు", "roman": "vinipinchu", "en": "to be heard, be audible", "pos": "verb", "note": "Like కనిపించు: the hearer is in the dative: నాకు వినిపించట్లేదు = I can't hear" },
+    { "native": "తిరిగి", "roman": "tirigi", "en": "back, again", "pos": "adv", "note": "తిరిగి ఫోన్ చేస్తా = I'll call back · తిరిగి వచ్చా = I came back" },
+    { "native": "అర్జెంట్", "roman": "arjeṇṭ", "en": "urgent", "pos": "adj", "note": "అర్జెంట్‌గా = urgently" },
+    { "native": "మెసేజ్", "roman": "mesēj", "en": "message, text", "pos": "noun", "note": "మెసేజ్ చేయు / పెట్టు = to text · plural మెసేజ్‌లు" },
+    { "native": "వాట్సాప్", "roman": "vāṭsāp", "en": "WhatsApp", "pos": "noun", "note": "Used as a verb too: వాట్సాప్ చెయ్ = send it on WhatsApp" },
+    { "native": "గ్రూప్", "roman": "grūp", "en": "group (chat)", "pos": "noun", "note": "గ్రూప్‌లో పెట్టు = to post on the group" },
+    { "native": "రిప్లై", "roman": "riplai", "en": "reply", "pos": "noun", "note": "రిప్లై ఇవ్వు = to reply · రిప్లై రాలేదు = no reply has come" },
+    { "native": "ఆల్రెడీ", "roman": "ālreḍī", "en": "already", "pos": "adv", "note": "English loan, extremely common · native: ఇప్పటికే" },
+    { "native": "అప్పుడే", "roman": "appuḍē", "en": "already (so soon!); right then", "pos": "adv", "note": "అప్పుడే వచ్చేశావా? = you're here already?" },
+    { "native": "ఇక", "roman": "ika", "en": "(with a negative) any more, no longer; now, then", "pos": "adv", "note": "ఇక చేయను = I won't do it any more · ఇక చాలు = that's enough now" },
+    { "native": "వాయిస్ నోట్", "roman": "vāyis nōṭ", "en": "voice note", "pos": "noun", "note": "వాయిస్ నోట్ పెట్టు = to send a voice note · also వాయిస్ మెసేజ్" },
+    { "native": "టైప్ చేయు", "roman": "ṭaip chēyu", "en": "to type", "pos": "verb" },
+    { "native": "లొకేషన్", "roman": "lokēṣan", "en": "location", "pos": "noun" },
+    { "native": "షేర్ చేయు", "roman": "ṣēr chēyu", "en": "to share", "pos": "verb", "note": "లొకేషన్ షేర్ చెయ్ = share your location" },
+    { "native": "చూసుకో", "roman": "chūsukō", "en": "to check, have a look (for yourself)", "pos": "verb", "note": "The -కో ending means 'for oneself': మెసేజ్ చూసుకో = check your messages" },
+    { "native": "వీడియో కాల్", "roman": "vīḍiyō kāl", "en": "video call", "pos": "noun", "note": "వీడియో కాల్ చేయు = to video-call" }
+  ],
+  "phrases": [
+    { "native": "హలో, ఎవరు మాట్లాడుతున్నారు?", "roman": "halō, evaru māṭlāḍutunnāru?", "en": "Hello, who's speaking? (polite)", "note": "A bare ఎవరు? sounds abrupt." },
+    { "native": "తర్వాత ఫోన్ చేస్తా.", "roman": "tarvāta phōn chēstā.", "en": "I'll call you later." },
+    { "native": "ఎందుకు ఫోన్ ఎత్తలేదు?", "roman": "enduku phōn ettalēdu?", "en": "Why didn't you pick up?" },
+    { "native": "ఫోన్ కలవట్లేదు.", "roman": "phōn kalavaṭlēdu.", "en": "I can't get through.", "note": "Lit. 'the phone isn't connecting' · careful form: కలవడం లేదు" },
+    { "native": "నా మాట వినిపిస్తోందా?", "roman": "nā māṭa vinipistōndā?", "en": "Can you hear me?" },
+    { "native": "సరిగ్గా వినిపించట్లేదు.", "roman": "sariggā vinipinchaṭlēdu.", "en": "I can't hear you properly.", "note": "Careful form: సరిగ్గా వినిపించడం లేదు." },
+    { "native": "సిగ్నల్ లేదు, కట్ అవుతోంది.", "roman": "signal lēdu, kaṭ avutōndi.", "en": "There's no signal, it's cutting out." },
+    { "native": "ఫోన్ స్విచ్ ఆఫ్ వస్తోంది.", "roman": "phōn svich āph vastōndi.", "en": "The phone is coming up as switched off." },
+    { "native": "కాసేపాగి తిరిగి చేస్తా.", "roman": "kāsēpāgi tirigi chēstā.", "en": "I'll call you back in a bit.", "note": "కాసేపు + ఆగి = after waiting a while" },
+    { "native": "నీకు మిస్డ్ కాల్ ఇచ్చా.", "roman": "nīku misḍ kāl ichchā.", "en": "I gave you a missed call." },
+    { "native": "ఫ్రీ అయ్యాక కాల్ చెయ్.", "roman": "phrī ayyāka kāl chey.", "en": "Call me when you're free. (informal)", "note": "Polite: ఫ్రీ అయ్యాక కాల్ చేయండి." },
+    { "native": "మెసేజ్ చూశావా?", "roman": "mesēj chūshāvā?", "en": "Did you see my message?" },
+    { "native": "ఇంకా రిప్లై రాలేదు.", "roman": "iṅkā riplai rālēdu.", "en": "No reply yet." },
+    { "native": "లొకేషన్ షేర్ చెయ్.", "roman": "lokēṣan ṣēr chey.", "en": "Share your location. (informal)" }
+  ],
+  "grammar": [
+    {
+      "title": "Do X and then Y: -ఇ, -ఆక and -అకుండా",
+      "body": "**-ఇ, 'having done'** (Unit 16) chains actions done by the **same person**; only the last verb carries tense: *భోజనం చేసి ఫోన్ చేస్తా* (I'll eat and then call). Learn the forms: చేయు → **చేసి**, వెళ్ళు → **వెళ్ళి**, రా → **వచ్చి**, చూడు → **చూసి**, ఇవ్వు → **ఇచ్చి**, తిను → **తిని**, అవు → **అయి**. With **చూడు** after it, it means 'try': *ఫోన్ చేసి చూడు* (try calling).\n\n**-ఆక, 'after'**: past stem + **-ఆక**: *వచ్చాక* (after coming), *చేశాక*, *వెళ్ళాక*, *తిన్నాక*, *అయ్యాక* (after it's over). Unlike -ఇ, the two halves can have **different subjects**: *నువ్వు వచ్చాక మాట్లాడదాం* (after you come, let's talk). The careful form is *వచ్చిన తర్వాత*.\n\n**-అకుండా, 'without'**: stem + **-అకుండా**: *చెప్పకుండా* (without saying), *చూడకుండా* (without looking).\n\nThe trap: *నువ్వు ఇంటికి చేరి నేను ఫోన్ చేస్తా* is wrong, because -ఇ needs one subject. Say *నువ్వు ఇంటికి చేరాక నేను ఫోన్ చేస్తా*.",
+      "examples": [
+        { "native": "ఇంటికి వెళ్ళి ఫోన్ చేస్తా.", "roman": "iṇṭiki veḷḷi phōn chēstā.", "en": "I'll call you once I get home." },
+        { "native": "మెసేజ్ చదివి వెంటనే రిప్లై ఇచ్చాడు.", "roman": "mesēj chadivi veṇṭanē riplai ichchāḍu.", "en": "He read the message and replied straight away." },
+        { "native": "ఆఫీసు అయ్యాక కాల్ చేస్తా.", "roman": "āphīsu ayyāka kāl chēstā.", "en": "I'll call after work." },
+        { "native": "నువ్వు వచ్చాక మాట్లాడదాం.", "roman": "nuvvu vachchāka māṭlāḍadām.", "en": "Let's talk after you get here." },
+        { "native": "చెప్పకుండా ఫోన్ కట్ చేశాడు.", "roman": "cheppakuṇḍā phōn kaṭ chēshāḍu.", "en": "He hung up without saying anything." }
+      ]
+    },
+    {
+      "title": "Just, already, still, yet, any more",
+      "body": "**Just**: **ఇప్పుడే** + past: *ఇప్పుడే చూశా* (I've just seen it).\n\n**Already**: **ఆల్రెడీ** or **ఇప్పటికే** + past, neutral: *ఆల్రెడీ పంపా* (I've already sent it). **అప్పుడే** is 'already' with surprise, 'so soon!': *అప్పుడే వచ్చేశావా?* (you're here already?). The completive **-ఏసు** (*చేసేశా*, *వచ్చేశా*) often adds the sense of 'all done'.\n\n**Still**: **ఇంకా** + a positive verb: *ఇంకా ఆఫీసులోనే ఉన్నా* (I'm still at the office).\n\n**Not yet**: **ఇంకా** + negative past **-లేదు**: *ఇంకా రాలేదు* (hasn't come yet). On its own, 'not yet' is *ఇంకా లేదు*.\n\n**Not any more**: **ఇక** + a negative: *ఇక ఫోన్ చేయను* (I won't call any more). *ఇక చాలు!* = that's enough now!\n\n**Isn't …ing (right now)**: in speech, stem + **-ట్లేదు**: *ఎత్తట్లేదు* (isn't picking up), *వినిపించట్లేదు* (I can't hear), *పని చేయట్లేదు* (isn't working). The careful form is *-డం లేదు*: *ఎత్తడం లేదు*.",
+      "examples": [
+        { "native": "ఇప్పుడే ఇంటికి వచ్చా.", "roman": "ippuḍē iṇṭiki vachchā.", "en": "I've just got home." },
+        { "native": "అప్పుడే పడుకున్నావా?", "roman": "appuḍē paḍukunnāvā?", "en": "You've gone to bed already?" },
+        { "native": "ఇంకా ఆఫీసులోనే ఉన్నా.", "roman": "iṅkā āphīsulōnē unnā.", "en": "I'm still at the office." },
+        { "native": "అతను ఇంకా రిప్లై ఇవ్వలేదు.", "roman": "atanu iṅkā riplai ivvalēdu.", "en": "He hasn't replied yet." },
+        { "native": "ఇక నేను అతనికి ఫోన్ చేయను.", "roman": "ika nēnu ataniki phōn chēyanu.", "en": "I'm not calling him any more." },
+        { "native": "రింగ్ అవుతోంది, కానీ ఎవరూ ఎత్తట్లేదు.", "roman": "riṅg avutōndi, kānī evarū ettaṭlēdu.", "en": "It's ringing, but nobody's picking up." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Bad signal",
+    "setting": "Hyderabad. Divya finally gets through to Sai, who is on the metro, about their friend Keerthi's birthday.",
+    "lines": [
+      { "speaker": "Divya", "native": "హలో? హలో, సాయి?", "roman": "halō? halō, sāyi?", "en": "Hello? Hello, Sai?" },
+      { "speaker": "Sai", "native": "ఆ, దివ్యా! నా మాట వినిపిస్తోందా?", "roman": "ā, divyā! nā māṭa vinipistōndā?", "en": "Yeah, Divya! Can you hear me?" },
+      { "speaker": "Divya", "native": "సరిగ్గా వినిపించట్లేదు. ఎక్కడున్నావు?", "roman": "sariggā vinipinchaṭlēdu. ekkaḍunnāvu?", "en": "Not properly. Where are you?" },
+      { "speaker": "Sai", "native": "మెట్రోలో ఉన్నా, సిగ్నల్ పోతోంది... ఇప్పుడు?", "roman": "meṭrōlō unnā, signal pōtōndi... ippuḍu?", "en": "I'm on the metro, the signal keeps going... now?" },
+      { "speaker": "Divya", "native": "ఇప్పుడు ఓకే. ఉదయం నుంచి నాలుగు సార్లు కాల్ చేశా, ఎందుకు ఎత్తలేదు?", "roman": "ippuḍu ōkē. udayam nunchi nālugu sārlu kāl chēshā, enduku ettalēdu?", "en": "Now it's OK. I've called four times since this morning, why didn't you pick up?" },
+      { "speaker": "Sai", "native": "సారీ, మీటింగ్‌లో ఉన్నా, ఫోన్ సైలెంట్‌లో ఉంది. ఇప్పుడే నీ మిస్డ్ కాల్స్ చూశా.", "roman": "sārī, mīṭiṅglō unnā, phōn sailenṭlō undi. ippuḍē nī misḍ kāls chūshā.", "en": "Sorry, I was in a meeting and my phone was on silent. I've only just seen your missed calls." },
+      { "speaker": "Divya", "native": "సరే, విను. ఈ సాయంత్రం కీర్తి బర్త్‌డే పార్టీ, గుర్తుందా?", "roman": "sarē, vinu. ī sāyantram kīrti barthḍē pārṭī, gurtundā?", "en": "OK, listen. It's Keerthi's birthday party this evening, remember?" },
+      { "speaker": "Sai", "native": "అయ్యో, మర్చిపోయా! ఎక్కడ?", "roman": "ayyō, marchipōyā! ekkaḍa?", "en": "Oh no, I forgot! Where?" },
+      { "speaker": "Divya", "native": "జూబ్లీ హిల్స్‌లో ఏదో కేఫ్. గ్రూప్‌లో ఆల్రెడీ లొకేషన్ షేర్ చేశా, చూసుకో.", "roman": "jūblī hilslō ēdō kēph. grūplō ālreḍī lokēṣan ṣēr chēshā, chūsukō.", "en": "Some café in Jubilee Hills. I've already shared the location on the group, check it." },
+      { "speaker": "Sai", "native": "సరే, ఆఫీసు అయ్యాక నేరుగా వచ్చేస్తా. హలో? దివ్యా?", "roman": "sarē, āphīsu ayyāka nērugā vachchēstā. halō? divyā?", "en": "OK, I'll come straight after work. Hello? Divya?" },
+      { "speaker": "Divya", "native": "హలో? ...అబ్బా, కట్ అయిపోయింది.", "roman": "halō? ...abbā, kaṭ ayipōyindi.", "en": "Hello? ...Ugh, it's cut off." },
+      { "speaker": "Sai", "native": "సిగ్నల్ పోయింది. లొకేషన్ చూశా, ఏడింటికి అక్కడ ఉంటా.", "roman": "signal pōyindi. lokēṣan chūshā, ēḍiṇṭiki akkaḍa uṇṭā.", "en": "(Voice note) Lost the signal. Saw the location, I'll be there at seven." },
+      { "speaker": "Divya", "native": "ఓకే. ఈసారి లేట్ చేస్తే నీ ఫోన్ నేనే స్విచ్ ఆఫ్ చేస్తా!", "roman": "ōkē. īsāri lēṭ chēstē nī phōn nēnē svich āph chēstā!", "en": "(Voice note) OK. If you're late this time, I'll switch your phone off myself!" }
+    ]
+  },
+  "culture": "Telugu speakers answer the phone with *హలో*, and when they know who's calling, simply *ఆ, చెప్పు* ('yeah, go on') or, to an elder, *చెప్పండి*. Opening with a blunt *ఎవరు?* is common but can sound rude from a learner, so *ఎవరు మాట్లాడుతున్నారు?* is safer. The **missed call** is a whole language: one ring can mean 'I've reached', 'call me back' or 'I'm downstairs'. Voice notes are hugely popular, especially with parents and grandparents who find typing in Telugu script slow. Among young people, chats are mostly typed in **Telugu written in English letters** ('em chestunnav?', 'vastunna ra'), sprinkled with English. Expect a family WhatsApp group full of good-morning flowers and festival greetings, and expect to be added to one.",
+  "lessons": [
+    {
+      "title": "Making and taking calls",
+      "tip": { "title": "On the phone", "body": "- Answer with **హలో**, or if you know the caller **ఆ, చెప్పు** / **చెప్పండి** 'go on'.\n- Call = **ఫోన్ చేయు** / **కాల్ చేయు**, and the person called is in the dative: **అమ్మకి** ఫోన్ చేశా.\n- Pick up = **ఫోన్ ఎత్తు** · hang up = **కట్ చేయు** · ring = **రింగ్ అవు**.", "pattern": "person + కి + ఫోన్ చేయు" },
+      "new": ["ఫోన్ చేయు", "కాల్", "ఫోన్ ఎత్తు", "కట్ చేయు", "రింగ్ అవు", "సేవ్ చేయు", "హలో, ఎవరు మాట్లాడుతున్నారు?", "తర్వాత ఫోన్ చేస్తా.", "ఎందుకు ఫోన్ ఎత్తలేదు?", "ఫోన్ కలవట్లేదు."],
+      "sentences": [
+        { "native": "అమ్మకి ఫోన్ చేశావా?", "roman": "ammaki phōn chēshāvā?", "en": "Did you call Mum?", "focus": "అమ్మకి", "wrong": ["అమ్మని|ammani", "అమ్మతో|ammatō"] },
+        { "native": "రాత్రి నాకు కాల్ చెయ్.", "roman": "rātri nāku kāl chey.", "en": "Call me tonight.", "focus": "నాకు", "wrong": ["నన్ను|nannu", "నాతో|nātō"] },
+        { "native": "ఫోన్ రింగ్ అవుతోంది, ఎత్తు!", "roman": "phōn riṅg avutōndi, ettu!", "en": "The phone's ringing, pick up!", "focus": "ఎత్తు", "wrong": ["ఎత్తా|ettā", "ఎత్తలేదు|ettalēdu"] },
+        { "native": "ఆ, చెప్పు రా, ఏంటి?", "roman": "ā, cheppu rā, ēṇṭi?", "en": "Yeah, go on, man, what is it?" },
+        { "native": "అతను నా ఫోన్ ఎత్తలేదు.", "roman": "atanu nā phōn ettalēdu.", "en": "He didn't pick up my call.", "focus": "ఎత్తలేదు", "wrong": ["ఎత్తాడు|ettāḍu", "ఎత్తు|ettu"] },
+        { "native": "కోపంతో ఫోన్ కట్ చేశాడు.", "roman": "kōpamtō phōn kaṭ chēshāḍu.", "en": "He hung up in a temper." },
+        { "native": "హలో, ఎవరు మాట్లాడుతున్నారు? మీ నంబరు సేవ్ చేయలేదు.", "roman": "halō, evaru māṭlāḍutunnāru? mī nambaru sēv chēyalēdu.", "en": "Hello, who's speaking? I haven't saved your number." },
+        { "native": "బయట ఉన్నా, తర్వాత ఫోన్ చేస్తా.", "roman": "bayaṭa unnā, tarvāta phōn chēstā.", "en": "I'm out, I'll call you later.", "focus": "చేస్తా", "wrong": ["చేశా|chēshā", "చెయ్|chey"] },
+        { "native": "ఎన్నిసార్లు చేసినా ఫోన్ కలవట్లేదు.", "roman": "ennisārlu chēsinā phōn kalavaṭlēdu.", "en": "However many times I try, I can't get through." },
+        { "native": "ఎందుకు ఫోన్ ఎత్తలేదు? బిజీగా ఉన్నావా?", "roman": "enduku phōn ettalēdu? bijīgā unnāvā?", "en": "Why didn't you pick up? Were you busy?" }
+      ]
+    },
+    {
+      "title": "Can you hear me?",
+      "tip": { "title": "Isn't …ing: -ట్లేదు", "body": "- Spoken 'isn't …ing (right now)' = stem + **-ట్లేదు**: వినిపించ**ట్లేదు**, పని చేయ**ట్లేదు**. Careful form: వినిపించడం లేదు.\n- **వినిపించు** works like కనిపించు: the hearer is in the dative: **నాకు** వినిపించట్లేదు.\n- Is it …ing? **-తోందా?**: వినిపిస్తోందా?", "pattern": "stem + ట్లేదు", "grammar": 1 },
+      "new": ["సిగ్నల్", "నెట్‌వర్క్", "వినిపించు", "స్విచ్ ఆఫ్", "ఛార్జింగ్", "నా మాట వినిపిస్తోందా?", "సరిగ్గా వినిపించట్లేదు.", "సిగ్నల్ లేదు, కట్ అవుతోంది.", "ఫోన్ స్విచ్ ఆఫ్ వస్తోంది."],
+      "sentences": [
+        { "native": "నీ మాట నాకు వినిపించట్లేదు.", "roman": "nī māṭa nāku vinipinchaṭlēdu.", "en": "I can't hear you.", "focus": "వినిపించట్లేదు", "wrong": ["వినిపిస్తోంది|vinipistōndi", "వినిపించాను|vinipinchānu"] },
+        { "native": "ఇక్కడ సిగ్నల్ సరిగ్గా లేదు.", "roman": "ikkaḍa signal sariggā lēdu.", "en": "The signal isn't good here." },
+        { "native": "నెట్‌వర్క్ పని చేయట్లేదు.", "roman": "neṭvark pani chēyaṭlēdu.", "en": "The network isn't working.", "focus": "చేయట్లేదు", "wrong": ["చేస్తోంది|chēstōndi", "చేశాను|chēshānu"] },
+        { "native": "ఇప్పుడు వినిపిస్తోందా?", "roman": "ippuḍu vinipistōndā?", "en": "Can you hear me now?", "focus": "వినిపిస్తోందా", "wrong": ["వినిపిస్తానా|vinipistānā", "వినిపించానా|vinipinchānā"] },
+        { "native": "అతని ఫోన్ స్విచ్ ఆఫ్ వస్తోంది.", "roman": "atani phōn svich āph vastōndi.", "en": "His phone's coming up as switched off." },
+        { "native": "ఛార్జింగ్ అయిపోతోంది, తర్వాత మాట్లాడదాం.", "roman": "chhārjiṅg ayipōtōndi, tarvāta māṭlāḍadām.", "en": "My battery's dying, let's talk later." },
+        { "native": "కొంచెం పెద్దగా మాట్లాడు, వినిపించట్లేదు.", "roman": "konchem peddagā māṭlāḍu, vinipinchaṭlēdu.", "en": "Speak up a bit, I can't hear.", "focus": "వినిపించట్లేదు", "wrong": ["వినిపిస్తోంది|vinipistōndi", "వినిపిస్తా|vinipistā"] },
+        { "native": "బస్సులో ఉన్నా, సిగ్నల్ పోతోంది.", "roman": "bassulō unnā, signal pōtōndi.", "en": "I'm on the bus, the signal keeps going." },
+        { "native": "నా ఫోన్ ఛార్జింగ్‌లో ఉంది.", "roman": "nā phōn chhārjiṅglō undi.", "en": "My phone's on charge." },
+        { "native": "వాళ్ళు ఫోన్ ఎత్తట్లేదు.", "roman": "vāḷḷu phōn ettaṭlēdu.", "en": "They're not picking up.", "focus": "ఎత్తట్లేదు", "wrong": ["ఎత్తుతున్నారు|ettutunnāru", "ఎత్తాను|ettānu"] }
+      ]
+    },
+    {
+      "title": "I'll call you back",
+      "tip": { "title": "And then, after, without: -ఇ, -ఆక, -అకుండా", "body": "- Same person does both: **-ఇ**: భోజనం **చేసి** ఫోన్ చేస్తా.\n- After (any subject): past stem + **-ఆక**: నువ్వు **వచ్చాక**, మీటింగ్ **అయ్యాక**.\n- Without: **-అకుండా**: **చెప్పకుండా**.\n- Try doing: **-ఇ చూడు**: ఫోన్ చేసి చూడు.", "pattern": "X + ఇ / ఆక + Y", "grammar": 0 },
+      "new": ["తిరిగి", "మిస్డ్ కాల్", "అర్జెంట్", "కాసేపాగి తిరిగి చేస్తా.", "నీకు మిస్డ్ కాల్ ఇచ్చా.", "ఫ్రీ అయ్యాక కాల్ చెయ్."],
+      "sentences": [
+        { "native": "భోజనం చేసి తిరిగి ఫోన్ చేస్తా.", "roman": "bhōjanam chēsi tirigi phōn chēstā.", "en": "I'll have lunch and then call you back.", "focus": "చేసి", "wrong": ["చేశా|chēshā", "చేస్తా|chēstā"] },
+        { "native": "మీటింగ్ అయ్యాక తిరిగి కాల్ చేస్తా.", "roman": "mīṭiṅg ayyāka tirigi kāl chēstā.", "en": "I'll call you back after the meeting.", "focus": "అయ్యాక", "wrong": ["అయింది|ayindi", "అవుతుంది|avutundi"] },
+        { "native": "నువ్వు ఇంటికి చేరాక నాకు మిస్డ్ కాల్ ఇవ్వు.", "roman": "nuvvu iṇṭiki chērāka nāku misḍ kāl ivvu.", "en": "Give me a missed call when you get home.", "focus": "చేరాక", "wrong": ["చేరి|chēri", "చేరా|chērā"] },
+        { "native": "చెప్పకుండా ఎందుకు వెళ్ళిపోయావు?", "roman": "cheppakuṇḍā enduku veḷḷipōyāvu?", "en": "Why did you leave without telling me?", "focus": "చెప్పకుండా", "wrong": ["చెప్పి|cheppi", "చెప్పాక|cheppāka"] },
+        { "native": "నీకు మిస్డ్ కాల్ ఇచ్చా, చూడలేదా?", "roman": "nīku misḍ kāl ichchā, chūḍalēdā?", "en": "I gave you a missed call, didn't you see?" },
+        { "native": "అర్జెంట్, వెంటనే తిరిగి కాల్ చెయ్.", "roman": "arjeṇṭ, veṇṭanē tirigi kāl chey.", "en": "It's urgent, call me back right away." },
+        { "native": "ఒకసారి ఫోన్ చేసి చూడు.", "roman": "okasāri phōn chēsi chūḍu.", "en": "Try calling once.", "focus": "చేసి", "wrong": ["చేశా|chēshā", "చేయకుండా|chēyakuṇḍā"] },
+        { "native": "బాస్ పిలుస్తున్నాడు, కాసేపాగి తిరిగి చేస్తా.", "roman": "bās pilustunnāḍu, kāsēpāgi tirigi chēstā.", "en": "The boss is calling me, I'll call you back in a bit." },
+        { "native": "నువ్వు ఫ్రీ అయ్యాక మాట్లాడదాం.", "roman": "nuvvu phrī ayyāka māṭlāḍadām.", "en": "Let's talk once you're free.", "focus": "అయ్యాక", "wrong": ["అయి|ayi", "అయింది|ayindi"] }
+      ]
+    },
+    {
+      "title": "Chasing a reply",
+      "tip": { "title": "Just, already, still, not yet", "body": "- Just: **ఇప్పుడే** + past · already: **ఆల్రెడీ** + past · already?! (so soon): **అప్పుడే**.\n- Still: **ఇంకా** + positive: ఇంకా ఆఫీసులోనే ఉన్నాడు.\n- Not yet: **ఇంకా** + **-లేదు**: ఇంకా రిప్లై **రాలేదు**.\n- Not any more: **ఇక** + negative: **ఇక** పెట్టను.", "pattern": "ఇంకా + …లేదు · ఇక + …ను", "grammar": 1 },
+      "new": ["మెసేజ్", "వాట్సాప్", "గ్రూప్", "రిప్లై", "ఆల్రెడీ", "అప్పుడే", "ఇక", "మెసేజ్ చూశావా?", "ఇంకా రిప్లై రాలేదు."],
+      "sentences": [
+        { "native": "ఇప్పుడే నీ మెసేజ్ చూశా, సారీ.", "roman": "ippuḍē nī mesēj chūshā, sārī.", "en": "I've only just seen your message, sorry.", "focus": "ఇప్పుడే", "wrong": ["ఇంకా|iṅkā", "ఇక|ika"] },
+        { "native": "రెండు గంటలైంది, ఇంకా రిప్లై లేదు.", "roman": "reṇḍu gaṇṭalaindi, iṅkā riplai lēdu.", "en": "It's been two hours, still no reply.", "focus": "ఇంకా", "wrong": ["ఇప్పుడే|ippuḍē", "అప్పుడే|appuḍē"] },
+        { "native": "టికెట్లు ఆల్రెడీ గ్రూప్‌లో పెట్టా.", "roman": "ṭikeṭlu ālreḍī grūplō peṭṭā.", "en": "I've already put the tickets on the group.", "focus": "ఆల్రెడీ", "wrong": ["ఇంకా|iṅkā", "ఇక|ika"] },
+        { "native": "అప్పుడే వచ్చేశావా?", "roman": "appuḍē vachchēshāvā?", "en": "You're here already?", "focus": "అప్పుడే", "wrong": ["ఇంకా|iṅkā", "ఇక|ika"] },
+        { "native": "అతను ఇంకా ఆఫీసులోనే ఉన్నాడట.", "roman": "atanu iṅkā āphīsulōnē unnāḍaṭa.", "en": "Apparently he's still at the office.", "focus": "ఇంకా", "wrong": ["ఇప్పుడే|ippuḍē", "ఆల్రెడీ|ālreḍī"] },
+        { "native": "ఇక ఆ గ్రూప్‌లో మెసేజ్ పెట్టను.", "roman": "ika ā grūplō mesēj peṭṭanu.", "en": "I'm not posting on that group any more.", "focus": "ఇక", "wrong": ["ఇప్పుడే|ippuḍē", "అప్పుడే|appuḍē"] },
+        { "native": "మెసేజ్ చూశావా? రిప్లై ఎందుకు ఇవ్వలేదు?", "roman": "mesēj chūshāvā? riplai enduku ivvalēdu?", "en": "Did you see my message? Why didn't you reply?" },
+        { "native": "మా ఇంటి వాట్సాప్ గ్రూప్‌లో రోజూ వంద మెసేజ్‌లు వస్తాయి.", "roman": "mā iṇṭi vāṭsāp grūplō rōjū vanda mesējlu vastāyi.", "en": "A hundred messages come in on our family WhatsApp group every day." },
+        { "native": "ఇంకా రిప్లై రాలేదు, ఏమైందో ఏమో.", "roman": "iṅkā riplai rālēdu, ēmaindō ēmō.", "en": "Still no reply, who knows what happened." },
+        { "native": "ఇక చాలు, ఫోన్ పక్కన పెట్టు!", "roman": "ika chālu, phōn pakkana peṭṭu!", "en": "That's enough now, put the phone down!", "focus": "ఇక", "wrong": ["ఇంకా|iṅkā", "అప్పుడే|appuḍē"] }
+      ]
+    },
+    {
+      "title": "Voice notes, locations and video calls",
+      "tip": { "title": "English word + చేయు / పెట్టు", "body": "- The English word never changes; the Telugu verb carries the grammar: **షేర్ చెయ్**, **టైప్ చేస్తున్నా**, **వీడియో కాల్ చేయనా?**\n- Post or send in a chat: **పెట్టు**: వాయిస్ నోట్ **పెడతా**, గ్రూప్‌లో **పెట్టా**.\n- Check it yourself: **చూసుకో**.", "pattern": "English word + చేయు / పెట్టు" },
+      "new": ["వాయిస్ నోట్", "టైప్ చేయు", "లొకేషన్", "షేర్ చేయు", "చూసుకో", "వీడియో కాల్", "లొకేషన్ షేర్ చెయ్."],
+      "sentences": [
+        { "native": "టైప్ చేయడం కష్టం, వాయిస్ నోట్ పెడతా.", "roman": "ṭaip chēyaḍam kaṣṭam, vāyis nōṭ peḍatā.", "en": "Typing is a pain, I'll send a voice note.", "focus": "పెడతా", "wrong": ["పెట్టా|peṭṭā", "పెట్టు|peṭṭu"] },
+        { "native": "అమ్మ ఎప్పుడూ వాయిస్ నోట్సే పంపుతుంది.", "roman": "amma eppuḍū vāyis nōṭsē pamputundi.", "en": "Mum only ever sends voice notes." },
+        { "native": "నీ లొకేషన్ షేర్ చెయ్, నేను వచ్చేస్తా.", "roman": "nī lokēṣan ṣēr chey, nēnu vachchēstā.", "en": "Share your location, I'll come to you.", "focus": "చెయ్", "wrong": ["చేశా|chēshā", "చేస్తా|chēstā"] },
+        { "native": "లొకేషన్ పంపా, చూసుకో.", "roman": "lokēṣan pampā, chūsukō.", "en": "I've sent the location, have a look.", "focus": "చూసుకో", "wrong": ["చూశా|chūshā", "చూస్తా|chūstā"] },
+        { "native": "ఫోటోలు గ్రూప్‌లో షేర్ చేస్తా.", "roman": "phōṭōlu grūplō ṣēr chēstā.", "en": "I'll share the photos on the group.", "focus": "చేస్తా", "wrong": ["చెయ్|chey", "చేయి|chēyi"] },
+        { "native": "సాయంత్రం అమ్మా నాన్నలతో వీడియో కాల్ చేస్తా.", "roman": "sāyantram ammā nānnalatō vīḍiyō kāl chēstā.", "en": "I'll video-call Mum and Dad this evening." },
+        { "native": "ఆగు, టైప్ చేస్తున్నా...", "roman": "āgu, ṭaip chēstunnā...", "en": "Hang on, I'm typing...", "focus": "చేస్తున్నా", "wrong": ["చేశా|chēshā", "చెయ్|chey"] },
+        { "native": "ఒకసారి నీ మెసేజ్‌లు చూసుకో.", "roman": "okasāri nī mesējlu chūsukō.", "en": "Check your messages." },
+        { "native": "వీడియో కాల్ చేయనా?", "roman": "vīḍiyō kāl chēyanā?", "en": "Shall I video-call?", "focus": "చేయనా", "wrong": ["చేశానా|chēshānā", "చేస్తావా|chēstāvā"] }
+      ]
+    }
+  ]
+}

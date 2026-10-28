@@ -1,0 +1,214 @@
+{
+  "id": 30,
+  "title": "Feelings & support",
+  "goal": "Notice when a friend is down and cheer them up, apologise and mean it, celebrate good news and offer condolences.",
+  "intro": "Friendships are made when something goes badly — or very well. This unit gives you what Telugu speakers actually say when a friend is stressed (**టెన్షన్ పడకు**), crying (**ఊరుకో, ఏడవకు**), hurt by you (**నేను కావాలని చేయలేదు**), grieving (**ఈ వార్త విని చాలా బాధేసింది**) or celebrating (**పార్టీ ఎప్పుడు?**).\n\nThe grammar builds on unit 14: more feelings that *happen to* you (**నాకు ఏడుపు వచ్చింది**, **భయమేసింది**, **నువ్వు గుర్తొస్తున్నావు** 'I miss you'), then the endings that tie actions together in time — **-గానే** 'as soon as', **-తూ** 'while' and **-ఏదాకా** 'until' — and finally how to own a mistake the Telugu way.",
+  "vocab": [
+    { "native": "టెన్షన్", "roman": "ṭenṣan", "en": "stress, worry (informal)", "pos": "noun", "note": "English 'tension', the everyday word: నాకు టెన్షన్‌గా ఉంది 'I'm stressed', టెన్షన్ పడకు 'don't stress'. Formal: ఒత్తిడి (ottiḍi)." },
+    { "native": "నిరాశ", "roman": "nirāsha", "en": "disappointment, dejection", "pos": "noun", "note": "నాకు నిరాశగా ఉంది 'I'm disappointed / I feel let down'. నిరాశ పడకు 'don't lose hope'." },
+    { "native": "మనసు", "roman": "manasu", "en": "heart, mind (where feelings live)", "pos": "noun", "note": "మనసు బాగాలేదు 'I'm upset'; మనసులో పెట్టుకోకు 'don't take it to heart / don't hold it against me'." },
+    { "native": "ఒంటరి", "roman": "oṇṭari", "en": "alone, lonely", "pos": "adj", "note": "నాకు ఒంటరిగా అనిపిస్తోంది 'I feel lonely'. ఒంటరిగా also just means 'on my own'." },
+    { "native": "బెంగ", "roman": "beṅga", "en": "worry; pining, homesickness", "pos": "noun", "note": "బెంగ పెట్టుకోకు 'don't fret'; ఇంటి మీద బెంగగా ఉంది 'I'm homesick'." },
+    { "native": "గుర్తొచ్చు", "roman": "gurtochchu", "en": "to come to mind; (someone) to be missed", "pos": "verb", "note": "గుర్తు + వచ్చు. The person you miss is the subject: నువ్వు గుర్తొస్తున్నావు 'I miss you' (lit. you are coming to mind), అమ్మ గుర్తొస్తోంది 'I miss Mum'." },
+    { "native": "జాలి", "roman": "jāli", "en": "pity, sympathy", "pos": "noun", "note": "నాకు అతని మీద జాలేసింది 'I felt sorry for him' (జాలి + వేసింది)." },
+    { "native": "ఏడుపు", "roman": "ēḍupu", "en": "crying, tears", "pos": "noun", "note": "నాకు ఏడుపు వచ్చింది 'I felt like crying / I started crying'. The verb is ఏడ్చు (ēḍchu): ఏడుస్తున్నావు, ఏడ్చాను, ఏడవకు 'don't cry'." },
+    { "native": "ఊరుకో", "roman": "ūrukō", "en": "to calm down, stop (crying), keep quiet", "pos": "verb", "note": "ఊరుకో, ఏడవకు 'there, there, don't cry'; ఊరుకో! also means 'oh stop it!' when someone is being silly or too hard on themselves." },
+    { "native": "ధైర్యం", "roman": "dhairyam", "en": "courage", "pos": "noun", "note": "ధైర్యంగా ఉండు 'be strong'; ధైర్యం చెప్పు 'reassure, give someone courage'." },
+    { "native": "ఓదార్చు", "roman": "ōdārchu", "en": "to comfort, console", "pos": "verb" },
+    { "native": "పట్టించుకో", "roman": "paṭṭinchukō", "en": "to pay attention to, care about, mind", "pos": "verb", "note": "పట్టించుకోకు 'ignore it, don't let it bother you'; ఎవరూ పట్టించుకోరు 'nobody cares'." },
+    { "native": "నవ్వు", "roman": "navvu", "en": "laugh, smile; to laugh", "pos": "noun", "note": "Noun and verb. నాకు నవ్వు వచ్చింది 'I couldn't help laughing'; నవ్వుతూ 'smiling'." },
+    { "native": "హత్తుకో", "roman": "hattukō", "en": "to hug", "pos": "verb", "note": "Young people often say హగ్ ఇవ్వు (hag ivvu), 'give a hug'." },
+    { "native": "ప్రశాంతంగా", "roman": "prashāntaṅgā", "en": "calmly, peacefully", "pos": "adv" },
+    { "native": "బాధపడు", "roman": "bādhapaḍu", "en": "to be upset, feel sad, grieve", "pos": "verb", "note": "బాధపడకు 'don't be upset'; చాలా బాధపడ్డాను 'I was really upset'. The feeling noun is బాధ (unit 14)." },
+    { "native": "పొరపాటు", "roman": "porapāṭu", "en": "slip, honest mistake", "pos": "noun", "note": "పొరపాటున 'by mistake'. Softer than తప్పు, which is 'wrong, fault'." },
+    { "native": "వల్ల", "roman": "valla", "en": "because of, thanks to", "pos": "postp", "note": "After the oblique / possessive: నా వల్ల 'because of me', వర్షం వల్ల 'because of the rain'. Works for good things too: నీ వల్లే 'thanks to you'." },
+    { "native": "కావాలని", "roman": "kāvālani", "en": "on purpose, deliberately", "pos": "adv", "note": "Mostly in the negative: కావాలని చేయలేదు 'I didn't do it on purpose'." },
+    { "native": "క్షమించు", "roman": "kṣaminchu", "en": "to forgive", "pos": "verb", "note": "నన్ను క్షమించు (to a friend) · నన్ను క్షమించండి (polite). Stronger than సారీ." },
+    { "native": "మధ్య", "roman": "madhya", "en": "between, among; in the middle of", "pos": "postp", "note": "మా మధ్య 'between us'; మధ్యలో 'in the middle'. After a noun or the oblique: ఇద్దరి మధ్య 'between the two'." },
+    { "native": "అలుగు", "roman": "alugu", "en": "to sulk, take offence", "pos": "verb", "note": "Past అలిగాడు / అలిగింది; అలగకు 'don't sulk'. Sulking (అలక) and coaxing someone out of it is a Telugu art form." },
+    { "native": "శుభవార్త", "roman": "shubhavārta", "en": "good news", "pos": "noun" },
+    { "native": "ప్రమోషన్", "roman": "pramōṣan", "en": "promotion", "pos": "noun", "note": "ప్రమోషన్ వచ్చింది 'I got promoted' (the promotion came to me)." },
+    { "native": "పాస్", "roman": "pās", "en": "pass (an exam, a test)", "pos": "adj", "note": "పాస్ అయ్యాను 'I passed'; the opposite is ఫెయిల్ అయ్యాను (pheyil ayyānu)." },
+    { "native": "గర్వం", "roman": "garvam", "en": "pride", "pos": "noun", "note": "గర్వంగా ఉంది 'I'm proud'. On its own గర్వం can also mean arrogance." },
+    { "native": "కంగ్రాట్స్", "roman": "kaṅgrāṭs", "en": "congrats", "pos": "interj", "note": "What friends say. Formal and written: అభినందనలు (unit 18)." },
+    { "native": "చనిపోవు", "roman": "chanipōvu", "en": "to die, pass away", "pos": "verb", "note": "For anyone you respect use the plural: చనిపోయారు. Gentler: పోయారు, or the formal కాలం చేశారు." },
+    { "native": "ఆత్మ", "roman": "ātma", "en": "soul", "pos": "noun" },
+    { "native": "శాంతి", "roman": "shānti", "en": "peace", "pos": "noun" },
+    { "native": "బ్రేకప్", "roman": "brēkap", "en": "break-up", "pos": "noun", "note": "వాళ్ళకి బ్రేకప్ అయింది 'they broke up'. Nobody uses a Telugu word for this." }
+  ],
+  "phrases": [
+    { "native": "ఏమైంది, అంతా ఓకేనా?", "roman": "ēmaindi, antā ōkēnā?", "en": "What happened, is everything OK?" },
+    { "native": "ఎందుకలా ఉన్నావు?", "roman": "endukalā unnāvu?", "en": "Why are you looking like that? / Why so down? (informal)", "note": "Polite: ఎందుకలా ఉన్నారు?" },
+    { "native": "నేనున్నాను కదా.", "roman": "nēnunnānu kadā.", "en": "I'm here for you. (lit. I'm here, aren't I?)", "note": "The classic line of reassurance between friends and family. నేను + ఉన్నాను run together." },
+    { "native": "టెన్షన్ పడకు.", "roman": "ṭenṣan paḍaku.", "en": "Don't stress. (informal)", "note": "Polite: టెన్షన్ పడకండి." },
+    { "native": "బెంగ పెట్టుకోకు.", "roman": "beṅga peṭṭukōku.", "en": "Don't worry yourself about it. (informal)" },
+    { "native": "ఊరుకో, ఏడవకు.", "roman": "ūrukō, ēḍavaku.", "en": "There, there, don't cry." },
+    { "native": "అంతా సర్దుకుంటుంది.", "roman": "antā sardukuṇṭundi.", "en": "It'll all work out.", "note": "సర్దుకో: to settle, sort itself out; also to adjust (to a situation)." },
+    { "native": "సారీ రా, నా వల్లే ఇలా జరిగింది.", "roman": "sārī rā, nā vallē ilā jarigindi.", "en": "Sorry, mate, this happened because of me.", "note": "రా is the casual 'mate / dude' tag between close friends; never use it with elders or people you don't know well." },
+    { "native": "నేను కావాలని చేయలేదు.", "roman": "nēnu kāvālani chēyalēdu.", "en": "I didn't do it on purpose." },
+    { "native": "నన్ను క్షమించు.", "roman": "nannu kṣaminchu.", "en": "Forgive me. (informal)", "note": "Polite: నన్ను క్షమించండి." },
+    { "native": "మనసులో పెట్టుకోకు.", "roman": "manasulō peṭṭukōku.", "en": "Don't take it to heart. / Don't hold it against me." },
+    { "native": "కంగ్రాట్స్! సూపర్!", "roman": "kaṅgrāṭs! sūpar!", "en": "Congrats! Brilliant!" },
+    { "native": "పార్టీ ఎప్పుడు?", "roman": "pārṭī eppuḍu?", "en": "When's the party? (= you're buying!)", "note": "The automatic reply to any good news." },
+    { "native": "నిన్ను చూస్తే గర్వంగా ఉంది.", "roman": "ninnu chūstē garvaṅgā undi.", "en": "I'm proud of you. (lit. when I look at you, I feel proud)" },
+    { "native": "ఈ వార్త విని చాలా బాధేసింది.", "roman": "ī vārta vini chālā bādhēsindi.", "en": "I'm so sorry to hear this news." },
+    { "native": "వారి ఆత్మకి శాంతి కలగాలి.", "roman": "vāri ātmaki shānti kalagāli.", "en": "May their soul rest in peace.", "note": "Said of someone who has died; వారి is the respectful plural. On WhatsApp people often just write ఓం శాంతి or RIP." }
+  ],
+  "grammar": [
+    {
+      "title": "Feelings that happen to you: వచ్చింది, -ఏసింది, గుర్తొస్తోంది",
+      "body": "In unit 14 you met **నాకు కోపం వచ్చింది** 'I got angry' and **నాకు బాధగా ఉంది** 'I'm sad'. Telugu treats most feelings as something that **happens to you**: the person who feels goes in the **dative** (నాకు, నీకు, అతనికి, ఆమెకి, మాకు), the feeling is the subject, and the verb agrees with the feeling, so it stays **-ఇంది / -తోంది**.\n\nFour verbs do most of the work:\n**ఉంది + -గా** — a state you're in: నాకు **టెన్షన్‌గా ఉంది** 'I'm stressed', ఇంటి మీద **బెంగగా ఉంది** 'I'm homesick'.\n**వచ్చు** 'come' — a feeling that wells up: నాకు **ఏడుపు వచ్చింది** 'I started crying / I felt like crying', **నవ్వు వచ్చింది** 'I couldn't help laughing', **నిద్ర వస్తోంది** 'I'm getting sleepy'.\n**వేయు** — in speech it fuses with the feeling: బాధ + వేసింది → **బాధేసింది** 'I felt bad / it hurt me', భయం → **భయమేసింది** 'I got scared', జాలి → **జాలేసింది** 'I felt sorry (for someone)'. The same verb gives ఆకలేస్తోంది 'I'm getting hungry' and చలేస్తోంది 'I'm feeling cold'.\n**అనిపించు** 'seem' — an impression: నాకు **ఒంటరిగా అనిపిస్తోంది** 'I feel lonely'.\n\n**Missing someone** works differently: the person or thing you miss is the **subject** and 'comes to mind', so the verb agrees with *them*: **నువ్వు గుర్తొస్తున్నావు** 'I miss you', **అమ్మ గుర్తొస్తోంది** 'I miss Mum', **మీరు గుర్తొస్తున్నారు** (polite). Young people also say **నిన్ను మిస్ అవుతున్నాను**.\n\nThe cause is usually a 'having seen / having heard' form (unit 16) in front: ఆ వార్త **విని** బాధేసింది 'I was sad to hear the news', నిన్ను **చూసి** ఆనందంగా ఉంది.\n\n**The trap:** never నేను బాధేశాను or నేను భయమేశాను. You are not the subject — say **నాకు** బాధేసింది, **నాకు** భయమేసింది.",
+      "examples": [
+        { "native": "ఆ సీన్ చూసి నాకు ఏడుపు వచ్చింది.", "roman": "ā sīn chūsi nāku ēḍupu vachchindi.", "en": "I cried when I saw that scene." },
+        { "native": "అతని జోక్ విని అందరికీ నవ్వు వచ్చింది.", "roman": "atani jōk vini andarikī navvu vachchindi.", "en": "Everyone burst out laughing at his joke." },
+        { "native": "చీకట్లో ఒక్కడినే ఉన్నాను, భయమేసింది.", "roman": "chīkaṭlō okkaḍinē unnānu, bhayamēsindi.", "en": "I was alone in the dark, I got scared. (a man speaking)" },
+        { "native": "పాపం, ఆ ముసలాయన్ని చూస్తే జాలేసింది.", "roman": "pāpam, ā musalāyanni chūstē jālēsindi.", "en": "I felt so sorry for that old man." },
+        { "native": "హాస్టల్లో ఉన్నప్పుడు అమ్మ చాలా గుర్తొచ్చేది.", "roman": "hāsṭallō unnappuḍu amma chālā gurtochchēdi.", "en": "When I was in the hostel, I missed Mum a lot." }
+      ]
+    },
+    {
+      "title": "As soon as, while, until: -గానే, -తూ, -ఏదాకా",
+      "body": "Three endings tie two actions together in time. None of them takes a person ending: only the **last** verb of the sentence shows who did it.\n\n**-గానే — as soon as**\nAdd **-గానే** to the 'a' stem (the one you know from -ఆలి and -అకు): రా → **రాగానే**, విను → **వినగానే**, చూడు → **చూడగానే**, చేరు → **చేరగానే**, తెలియు → **తెలియగానే**, అయిపో → **అయిపోగానే**. ఇంటికి **చేరగానే** మెసేజ్ పెట్టు 'text me as soon as you get home'. The two halves can have different subjects: నువ్వు **రాగానే** మొదలుపెడదాం 'we'll start as soon as you come'.\n\n**-తూ — while (doing)**\nThe present stem + **-ఊ**: నవ్వు → **నవ్వుతూ**, ఏడ్చు → **ఏడుస్తూ**, మాట్లాడు → **మాట్లాడుతూ**, చూడు → **చూస్తూ**, విను → **వింటూ**. Both actions belong to the **same person**: ఆమె **ఏడుస్తూ** ఫోన్ చేసింది 'she called me in tears'.\nFor two different people, use **-తున్నప్పుడు** 'while … is / was -ing': నేను వంట **చేస్తున్నప్పుడు** నువ్వు ఫోన్ చేశావు. For 'when (you do it)', there is **-ఏటప్పుడు**: **వెళ్ళేటప్పుడు** చెప్పు 'tell me when you're leaving'.\n\n**-ఏదాకా / -ఏ వరకు — until**\nThe -ఏ participle from unit 20 (వచ్చే, తగ్గే, అయ్యే) + **దాకా** (spoken) or **వరకు**: నువ్వు **వచ్చేదాకా** ఇక్కడే ఉంటాను 'I'll stay right here until you come'. With a time or place it's just the postposition: సాయంత్రం **దాకా**, ఇంటి **వరకు**. 'Until then' is **అప్పటిదాకా**.\n\n**The trap:** don't add person endings to the linked verb. నేను **రాగానే** ఫోన్ చేస్తాను — not *వస్తానుగానే*. And keep -తూ for one person doing two things at once; for two people, -తున్నప్పుడు.",
+      "examples": [
+        { "native": "క్లాస్ అయిపోగానే కాల్ చేస్తాను.", "roman": "klās ayipōgānē kāl chēstānu.", "en": "I'll call the moment class is over." },
+        { "native": "ఆ మెసేజ్ చూడగానే నాకు కంగారు వచ్చింది.", "roman": "ā mesēj chūḍagānē nāku kaṅgāru vachchindi.", "en": "The second I saw that message I panicked." },
+        { "native": "అతను నవ్వుతూ బై చెప్పాడు.", "roman": "atanu navvutū bai cheppāḍu.", "en": "He said bye with a smile." },
+        { "native": "నేను బస్సులో ఉన్నప్పుడు అమ్మ ఫోన్ చేసింది.", "roman": "nēnu bassulō unnappuḍu amma phōn chēsindi.", "en": "Mum called while I was on the bus." },
+        { "native": "నువ్వు ఓకే అయ్యేదాకా నేను ఇక్కడే ఉంటాను.", "roman": "nuvvu ōkē ayyēdākā nēnu ikkaḍē uṇṭānu.", "en": "I'm staying right here until you're okay." }
+      ]
+    },
+    {
+      "title": "Owning up: నా వల్ల, కావాలని, and things that just happen",
+      "body": "A proper apology in Telugu does three things: owns the mistake, says it wasn't deliberate, and asks to be forgiven.\n\n**Own it** with **వల్ల** 'because of' after the possessive: **నా వల్లే** లేట్ అయింది 'we're late because of me' (the **-ఏ** means 'precisely, only'). Or simply **తప్పు నాదే** 'the fault is mine'.\n\n**Not on purpose:** **కావాలని** 'deliberately' + a negative: **కావాలని చేయలేదు** 'I didn't do it on purpose', **కావాలని అనలేదు** 'I didn't mean what I said'. **పొరపాటున** 'by mistake' says the same thing from the other side.\n\n**Things that just happen.** As in English 'it fell' vs 'I dropped it', Telugu has an *it-happened* style: an intransitive verb, often with **-పోయింది / -అయిపోయింది**: నా చేతిలోంచి గ్లాసు **పడిపోయింది** 'the glass slipped out of my hand', ఫోటోలు **డిలీట్ అయిపోయాయి** 'the photos got deleted'. Compare నేను గ్లాసు **పగలగొట్టాను** 'I broke the glass' — this sounds like an action you did. Use the first to explain what happened, and own it with the second: సారీ, నేనే పగలగొట్టాను.\n\n**Saying sorry, light to heavy:**\n**సారీ / సారీ రా** — bumping into someone, being late.\n**నా తప్పే, సారీ** — owning up.\n**నన్ను క్షమించు / క్షమించండి** — when someone was really hurt.\n**క్షమాపణ కోరుతున్నాను** — formal: work emails, letters, public apologies.\n\nThe usual replies: **పర్వాలేదు**, **పోనీలే**, **సరే, వదిలేయ్** 'okay, forget it'.",
+      "examples": [
+        { "native": "నా వల్లే మనం సినిమా మిస్ అయ్యాం.", "roman": "nā vallē manam sinimā mis ayyām.", "en": "It was my fault we missed the film." },
+        { "native": "నేను కావాలని అలా అనలేదు.", "roman": "nēnu kāvālani alā analēdu.", "en": "I didn't mean to say it like that." },
+        { "native": "పొరపాటున నీ నంబర్ డిలీట్ అయిపోయింది.", "roman": "porapāṭuna nī nambar ḍilīṭ ayipōyindi.", "en": "Your number got deleted by mistake." },
+        { "native": "సారీ, నా చేతిలోంచి నీ ఫోన్ కింద పడిపోయింది.", "roman": "sārī, nā chētilōnchi nī phōn kinda paḍipōyindi.", "en": "Sorry, your phone slipped out of my hand." },
+        { "native": "తప్పు నాదే, నన్ను క్షమించండి.", "roman": "tappu nādē, nannu kṣaminchaṇḍi.", "en": "The fault is mine, please forgive me." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "After the interview",
+    "setting": "Divya meets her friend Rahul at their usual Irani café in Ameerpet, Hyderabad. He has gone quiet all week since an interview at a Hitech City company.",
+    "lines": [
+      { "speaker": "Divya", "native": "ఏంట్రా, ఏమైంది? ఫోన్ ఎత్తట్లేదు, మెసేజ్‌లకి రిప్లై లేదు.", "roman": "ēṇṭrā, ēmaindi? phōn ettaṭlēdu, mesējlaki riplai lēdu.", "en": "What's going on? You don't pick up, you don't reply to messages." },
+      { "speaker": "Rahul", "native": "ఏమీ లేదు... ఆ ఇంటర్వ్యూ రిజల్ట్ వచ్చింది. సెలెక్ట్ కాలేదు.", "roman": "ēmī lēdu... ā inṭarvyū rijalṭ vachchindi. selekṭ kālēdu.", "en": "Nothing... the result of that interview came. I didn't get selected." },
+      { "speaker": "Divya", "native": "అయ్యో, సారీ రా. నువ్వు ఎంత కష్టపడ్డావో నాకు తెలుసు.", "roman": "ayyō, sārī rā. nuvvu enta kaṣṭapaḍḍāvō nāku telusu.", "en": "Oh no, I'm sorry. I know how hard you worked." },
+      { "speaker": "Rahul", "native": "మెయిల్ చూడగానే ఏడుపు వచ్చేసింది. ఆఫీసులో అందరి ముందు!", "roman": "meyil chūḍagānē ēḍupu vachchēsindi. āphīsulō andari mundu!", "en": "I burst into tears the second I saw the mail. In the office, in front of everyone!" },
+      { "speaker": "Divya", "native": "పర్వాలేదు, అలా అవుతుంది. ముందు ఈ చాయ్ తాగు. నేనున్నాను కదా.", "roman": "parvālēdu, alā avutundi. mundu ī chāy tāgu. nēnunnānu kadā.", "en": "It's okay, that happens. First drink this chai. I'm here, aren't I?" },
+      { "speaker": "Rahul", "native": "నేను దేనికీ పనికిరాను అనిపిస్తోంది.", "roman": "nēnu dēnikī panikirānu anipistōndi.", "en": "I feel like I'm no good at anything." },
+      { "speaker": "Divya", "native": "ఊరుకో! ఒక్క ఇంటర్వ్యూకి అలా అనుకోకు. ఇంకా చాలా కంపెనీలు ఉన్నాయి.", "roman": "ūrukō! okka inṭarvyūki alā anukōku. iṅkā chālā kampenīlu unnāyi.", "en": "Oh stop it! Don't think like that over one interview. There are plenty more companies." },
+      { "speaker": "Rahul", "native": "నిజమే... సారీ, ఈ వారం నీ కాల్స్ కూడా ఎత్తలేదు. మూడ్ అస్సలు బాలేదు.", "roman": "nijamē... sārī, ī vāram nī kāls kūḍā ettalēdu. mūḍ assalu bālēdu.", "en": "True... sorry, I didn't even take your calls this week. I was in a terrible mood." },
+      { "speaker": "Divya", "native": "మనసులో పెట్టుకోలేదులే. కానీ ఇంకోసారి ఇలా మాయమైపోతే నాకు కోపం వస్తుంది, చెప్తున్నా!", "roman": "manasulō peṭṭukōlēdulē. kānī iṅkōsāri ilā māyamaipōtē nāku kōpam vastundi, cheptunnā!", "en": "I didn't take it to heart. But vanish like this again and I'll get angry, I'm telling you!" },
+      { "speaker": "Rahul", "native": "సరే, సరే. నీ వల్లే కొంచెం నవ్వు వచ్చింది.", "roman": "sarē, sarē. nī vallē konchem navvu vachchindi.", "en": "Okay, okay. Thanks to you I've actually laughed a bit." },
+      { "speaker": "Divya", "native": "అదీ! నెక్స్ట్ ఇంటర్వ్యూ వచ్చేదాకా రోజూ నాతో ప్రాక్టీస్ చెయ్యి.", "roman": "adī! nekst inṭarvyū vachchēdākā rōjū nātō prākṭīs cheyyi.", "en": "That's more like it! Until the next interview comes, practise with me every day." },
+      { "speaker": "Rahul", "native": "డీల్. సెలెక్ట్ అవ్వగానే పార్టీ నాదే!", "roman": "ḍīl. selekṭ avvagānē pārṭī nādē!", "en": "Deal. The moment I get selected, the party's on me!" }
+    ]
+  },
+  "culture": "Comfort in Telugu is practical more than wordy. A friend says **నేనున్నాను కదా** and then turns up — with chai, with food, on the bike outside your hostel. Among close friends, too many 'thank you's and formal apologies sound distant; a quick **సారీ రా** and a joke do the job. The friendly tag **రా** (mostly to guys; with girls, close friends often use **ఏమే** or just the name) is only for people your own age you're close to — with elders, switch to **మీరు** and **-ండి**: *టెన్షన్ పడకండి, అంతా సర్దుకుంటుంది*.\n\nGood news brings an instant demand: **పార్టీ ఎప్పుడు?** or **స్వీట్స్ ఎక్కడ?** Passing an exam, a new job or an engagement means you buy the sweets or the biryani. Sulking (**అలక**) is an accepted, almost affectionate part of relationships — between friends, couples and even in-laws — and someone is expected to coax the sulker round (**బతిమాలు**, to plead).\n\nWhen someone dies, people go to the family's home in person (**పరామర్శ**), sit quietly and say little: **ఈ వార్త విని చాలా బాధేసింది**, **ఏమైనా కావాలంటే చెప్పండి**. Always use the respectful plural for the person who died (**వారు, చనిపోయారు**). Hindu families observe about eleven to thirteen days of mourning ending with the **పెద్దకర్మ** ceremony, and many skip festival celebrations for that year, so don't send them festival wishes (*శుభాకాంక్షలు*) until it has passed.",
+  "lessons": [
+    {
+      "title": "Asking what's wrong",
+      "tip": { "title": "Feelings happen to you: నాకు … వచ్చింది / -ఏసింది", "body": "- The one who feels is in the dative: **నాకు** భయమేసింది, **నీకు** ఏడుపు వచ్చిందా?\n- Feeling + **వేసింది** fuses: బాధేసింది, భయమేసింది, జాలేసింది.\n- Missing someone: *they* are the subject: **నువ్వు గుర్తొస్తున్నావు** 'I miss you', **అమ్మ గుర్తొస్తోంది**.\n- Never నేను బాధేశాను.", "pattern": "నాకు + feeling + వచ్చింది / -ఏసింది", "grammar": 0 },
+      "new": ["నిరాశ", "మనసు", "టెన్షన్", "ఒంటరి", "బెంగ", "గుర్తొచ్చు", "జాలి", "ఏమైంది, అంతా ఓకేనా?", "ఎందుకలా ఉన్నావు?"],
+      "sentences": [
+        { "native": "ఏమైంది, అంతా ఓకేనా? నీ మూడ్ బాగాలేదు.", "roman": "ēmaindi, antā ōkēnā? nī mūḍ bāgālēdu.", "en": "What happened, is everything OK? You seem low." },
+        { "native": "ఏంటి, మనసు బాగాలేదా? నిరాశగా ఉన్నావు.", "roman": "ēṇṭi, manasu bāgālēdā? nirāshagā unnāvu.", "en": "What's up, are you feeling down? You look disappointed." },
+        { "native": "రేపు పరీక్ష, నాకు చాలా టెన్షన్‌గా ఉంది.", "roman": "rēpu parīkṣa, nāku chālā ṭenṣangā undi.", "en": "The exam's tomorrow, I'm really stressed.", "focus": "నాకు", "wrong": ["నేను|nēnu", "నా|nā"] },
+        { "native": "నీకు ఇంటి మీద బెంగగా ఉందా?", "roman": "nīku iṇṭi mīda beṅgagā undā?", "en": "Are you homesick? (to a friend)", "focus": "నీకు", "wrong": ["నువ్వు|nuvvu", "నీ|nī"] },
+        { "native": "అమ్మ చాలా గుర్తొస్తోంది.", "roman": "amma chālā gurtostōndi.", "en": "I really miss Mum.", "focus": "గుర్తొస్తోంది", "wrong": ["గుర్తొస్తున్నాను|gurtostunnānu", "గుర్తొస్తున్నావు|gurtostunnāvu"] },
+        { "native": "ఎందుకలా ఉన్నావు? నువ్వు చాలా గుర్తొస్తున్నావు అని చెప్పడానికే కాల్ చేశాను.", "roman": "endukalā unnāvu? nuvvu chālā gurtostunnāvu ani cheppaḍānikē kāl chēshānu.", "en": "Why do you sound like that? I only called to say I miss you loads.", "focus": "గుర్తొస్తున్నావు", "wrong": ["గుర్తొస్తోంది|gurtostōndi", "గుర్తొస్తున్నాను|gurtostunnānu"] },
+        { "native": "నాకు ఇక్కడ ఎవరూ తెలీదు, ఒంటరిగా అనిపిస్తోంది.", "roman": "nāku ikkaḍa evarū telīdu, oṇṭarigā anipistōndi.", "en": "I don't know anyone here, I feel lonely.", "focus": "అనిపిస్తోంది", "wrong": ["అనిపిస్తున్నాను|anipistunnānu", "అనుకుంటున్నాను|anukuṇṭunnānu"] },
+        { "native": "పాపం, అతన్ని చూసి నాకు జాలేసింది.", "roman": "pāpam, atanni chūsi nāku jālēsindi.", "en": "Poor guy, I felt sorry for him when I saw him.", "focus": "జాలేసింది", "wrong": ["జాలేశాను|jālēshānu", "జాలి|jāli"] },
+        { "native": "నిన్న రాత్రి ఇంట్లో ఒక్కదాన్నే ఉన్నాను, చాలా భయమేసింది.", "roman": "ninna rātri iṇṭlō okkadānnē unnānu, chālā bhayamēsindi.", "en": "I was home alone last night and got really scared. (a woman speaking)", "focus": "భయమేసింది", "wrong": ["భయమేశాను|bhayamēshānu", "భయపడింది|bhayapaḍindi"] },
+        { "native": "నీకు టెన్షన్‌గా ఉంటే నాకు ఫోన్ చెయ్యి.", "roman": "nīku ṭenṣangā uṇṭē nāku phōn cheyyi.", "en": "If you're stressed, give me a call." }
+      ]
+    },
+    {
+      "title": "Cheering a friend up",
+      "tip": { "title": "Comforting a friend", "body": "- **నేనున్నాను కదా** 'I'm here for you' is the line everyone uses.\n- 'Don't': **-కు** to a friend, **-కండి** to an elder: టెన్షన్ పడ**కు** / పడ**కండి**, ఏడవ**కు**.\n- **ఊరుకో** 'there, there / oh stop it'; **పట్టించుకోకు** 'ignore it'.\n- **ఏం కాదు** 'nothing will happen, it'll be fine'." },
+      "new": ["ఏడుపు", "ఊరుకో", "ధైర్యం", "ఓదార్చు", "పట్టించుకో", "నేనున్నాను కదా.", "టెన్షన్ పడకు.", "బెంగ పెట్టుకోకు.", "అంతా సర్దుకుంటుంది.", "ఊరుకో, ఏడవకు."],
+      "sentences": [
+        { "native": "ఊరుకో రా, ఏం కాదు.", "roman": "ūrukō rā, ēm kādu.", "en": "Calm down, mate, it'll be fine." },
+        { "native": "ఏడవకు, నేనున్నాను కదా.", "roman": "ēḍavaku, nēnunnānu kadā.", "en": "Don't cry, I'm here for you.", "focus": "ఏడవకు", "wrong": ["ఏడవండి|ēḍavaṇḍi", "ఏడుస్తాను|ēḍustānu"] },
+        { "native": "అంత టెన్షన్ పడకు, అంతా సర్దుకుంటుంది.", "roman": "anta ṭenṣan paḍaku, antā sardukuṇṭundi.", "en": "Don't stress so much, it'll all work out.", "focus": "పడకు", "wrong": ["పడు|paḍu", "పడతాను|paḍatānu"] },
+        { "native": "అత్తయ్యా, టెన్షన్ పడకండి, మేమున్నాం.", "roman": "attayyā, ṭenṣan paḍakaṇḍi, mēmunnām.", "en": "Don't worry, auntie, we're here. (to your aunt)", "focus": "పడకండి", "wrong": ["పడండి|paḍaṇḍi", "పడతారు|paḍatāru"] },
+        { "native": "వాళ్ళ మాటలు పట్టించుకోకు.", "roman": "vāḷḷa māṭalu paṭṭinchukōku.", "en": "Don't pay any attention to what they say.", "focus": "పట్టించుకోకు", "wrong": ["పట్టించుకో|paṭṭinchukō", "పట్టించుకుంటాను|paṭṭinchukuṇṭānu"] },
+        { "native": "ధైర్యంగా ఉండు, నువ్వు చేయగలవు.", "roman": "dhairyaṅgā uṇḍu, nuvvu chēyagalavu.", "en": "Be strong, you can do it.", "focus": "ధైర్యంగా", "wrong": ["ధైర్యం|dhairyam", "ధైర్యంలో|dhairyamlō"] },
+        { "native": "అమ్మ ఏడుస్తోంది, వెళ్ళి ఓదార్చు.", "roman": "amma ēḍustōndi, veḷḷi ōdārchu.", "en": "Mum's crying, go and comfort her." },
+        { "native": "నీకు ఏడుపు వస్తే ఏడ్చేయ్, పర్వాలేదు.", "roman": "nīku ēḍupu vastē ēḍchēy, parvālēdu.", "en": "If you feel like crying, just cry, it's okay.", "focus": "నీకు", "wrong": ["నువ్వు|nuvvu", "నిన్ను|ninnu"] },
+        { "native": "నువ్వు బెంగ పెట్టుకోకు, నేను మాట్లాడతాను.", "roman": "nuvvu beṅga peṭṭukōku, nēnu māṭlāḍatānu.", "en": "Don't you worry, I'll talk to them.", "focus": "పెట్టుకోకు", "wrong": ["పెట్టుకో|peṭṭukō", "పెట్టుకుంటాను|peṭṭukuṇṭānu"] },
+        { "native": "అమ్మమ్మా, ధైర్యంగా ఉండండి, పాప బాగానే ఉంది.", "roman": "ammammā, dhairyaṅgā uṇḍaṇḍi, pāpa bāgānē undi.", "en": "Be strong, Grandma, the little one is fine.", "focus": "ఉండండి", "wrong": ["ఉండు|uṇḍu", "ఉంటాను|uṇṭānu"] }
+      ]
+    },
+    {
+      "title": "As soon as, while, until",
+      "tip": { "title": "-గానే, -తూ, -ఏదాకా", "body": "- 'a' stem + **గానే** = as soon as: చేర**గానే**, విన**గానే**, చూడ**గానే**.\n- present stem + **-ఊ** = while (same person): నవ్వు**తూ**, ఏడుస్**తూ**.\n- -ఏ participle + **దాకా** = until: వచ్చే**దాకా**, తగ్గే**దాకా**.\n- No person ending on these — only the last verb shows who.", "pattern": "చేరగానే · నవ్వుతూ · వచ్చేదాకా", "grammar": 1 },
+      "new": ["బాధపడు", "నవ్వు", "హత్తుకో", "ప్రశాంతంగా"],
+      "sentences": [
+        { "native": "ఇంటికి చేరగానే మెసేజ్ పెట్టు.", "roman": "iṇṭiki chēragānē mesēj peṭṭu.", "en": "Text me as soon as you get home.", "focus": "చేరగానే", "wrong": ["చేరుతూ|chērutū", "చేరేదాకా|chērēdākā"] },
+        { "native": "ఆ వార్త వినగానే అమ్మ ఏడ్చేసింది.", "roman": "ā vārta vinagānē amma ēḍchēsindi.", "en": "The moment she heard the news, Mum burst into tears.", "focus": "వినగానే", "wrong": ["వింటూ|viṇṭū", "వినేదాకా|vinēdākā"] },
+        { "native": "నన్ను చూడగానే అక్క హత్తుకుంది.", "roman": "nannu chūḍagānē akka hattukundi.", "en": "My sister hugged me the moment she saw me.", "focus": "చూడగానే", "wrong": ["చూస్తూ|chūstū", "చూసేదాకా|chūsēdākā"] },
+        { "native": "అతను నవ్వుతూ మాట్లాడాడు, కానీ మనసు బాగాలేదు.", "roman": "atanu navvutū māṭlāḍāḍu, kānī manasu bāgālēdu.", "en": "He was smiling as he talked, but inside he was upset.", "focus": "నవ్వుతూ", "wrong": ["నవ్వగానే|navvagānē", "నవ్వేదాకా|navvēdākā"] },
+        { "native": "ఆమె ఏడుస్తూ ఫోన్ చేసింది, నేను వెంటనే వెళ్ళాను.", "roman": "āme ēḍustū phōn chēsindi, nēnu veṇṭanē veḷḷānu.", "en": "She called me in tears and I went straight over.", "focus": "ఏడుస్తూ", "wrong": ["ఏడవగానే|ēḍavagānē", "ఏడ్చేదాకా|ēḍchēdākā"] },
+        { "native": "నువ్వు వచ్చేదాకా నేను తినను.", "roman": "nuvvu vachchēdākā nēnu tinanu.", "en": "I won't eat until you come.", "focus": "వచ్చేదాకా", "wrong": ["వచ్చి|vachchi", "రాగానే|rāgānē"] },
+        { "native": "జ్వరం తగ్గేదాకా ఆఫీసుకి వెళ్ళకు.", "roman": "jvaram taggēdākā āphīsuki veḷḷaku.", "en": "Don't go to the office until your fever's down.", "focus": "తగ్గేదాకా", "wrong": ["తగ్గగానే|taggagānē", "తగ్గుతూ|taggutū"] },
+        { "native": "నేను డ్రైవ్ చేస్తున్నప్పుడు ఫోన్ చేయకు.", "roman": "nēnu ḍraiv chēstunnappuḍu phōn chēyaku.", "en": "Don't call me while I'm driving.", "focus": "చేస్తున్నప్పుడు", "wrong": ["చేయగానే|chēyagānē", "చేసేదాకా|chēsēdākā"] },
+        { "native": "రిజల్ట్ వచ్చేదాకా నాకు టెన్షన్‌గానే ఉంటుంది.", "roman": "rijalṭ vachchēdākā nāku ṭenṣangānē uṇṭundi.", "en": "I'll be on edge until the result comes out.", "focus": "వచ్చేదాకా", "wrong": ["వస్తూ|vastū", "వచ్చాక|vachchāka"] },
+        { "native": "అతని జోక్ విని నాకు నవ్వు ఆగలేదు.", "roman": "atani jōk vini nāku navvu āgalēdu.", "en": "I couldn't stop laughing at his joke." },
+        { "native": "ముందు ప్రశాంతంగా కూర్చో, తర్వాత మాట్లాడదాం.", "roman": "mundu prashāntaṅgā kūrchō, tarvāta māṭlāḍadām.", "en": "First sit down calmly, then we'll talk." },
+        { "native": "నువ్వు బాధపడుతూ ఉంటే నాకూ బాధగా ఉంటుంది.", "roman": "nuvvu bādhapaḍutū uṇṭē nākū bādhagā uṇṭundi.", "en": "When you're upset, I'm upset too.", "focus": "బాధపడుతూ", "wrong": ["బాధపడగానే|bādhapaḍagānē", "బాధపడేదాకా|bādhapaḍēdākā"] }
+      ]
+    },
+    {
+      "title": "Saying sorry and meaning it",
+      "tip": { "title": "Owning up: నా వల్లే, కావాలని", "body": "- **నా వల్లే** 'because of me', **తప్పు నాదే** 'my fault'.\n- **కావాలని** + negative: కావాలని చేయలేదు 'I didn't do it on purpose'.\n- Explain with an 'it happened' verb: గ్లాసు **పడిపోయింది**, ఫోటోలు **డిలీట్ అయిపోయాయి**.\n- Sorry, light to heavy: సారీ రా → నా తప్పే → **నన్ను క్షమించు / క్షమించండి**.", "pattern": "నా వల్లే … · కావాలని … లేదు", "grammar": 2 },
+      "new": ["పొరపాటు", "వల్ల", "కావాలని", "క్షమించు", "మధ్య", "అలుగు", "సారీ రా, నా వల్లే ఇలా జరిగింది.", "నేను కావాలని చేయలేదు.", "నన్ను క్షమించు.", "మనసులో పెట్టుకోకు."],
+      "sentences": [
+        { "native": "సారీ, నా వల్లే బస్సు మిస్ అయ్యాం.", "roman": "sārī, nā vallē bassu mis ayyām.", "en": "Sorry, we missed the bus because of me.", "focus": "వల్లే", "wrong": ["కోసమే|kōsamē", "తోనే|tōnē"] },
+        { "native": "వర్షం వల్ల ఆలస్యం అయింది, సారీ.", "roman": "varṣam valla ālasyam ayindi, sārī.", "en": "I'm late because of the rain, sorry.", "focus": "వల్ల", "wrong": ["కోసం|kōsam", "తో|tō"] },
+        { "native": "నేను కావాలని అనలేదు, నన్ను క్షమించు.", "roman": "nēnu kāvālani analēdu, nannu kṣaminchu.", "en": "I didn't mean what I said, forgive me.", "focus": "కావాలని", "wrong": ["కావాలి|kāvāli", "కావాలంటే|kāvālaṇṭē"] },
+        { "native": "పొరపాటున నీ ఫోటోలు డిలీట్ అయిపోయాయి.", "roman": "porapāṭuna nī phōṭōlu ḍilīṭ ayipōyāyi.", "en": "Your photos got deleted by mistake.", "focus": "పొరపాటున", "wrong": ["కావాలని|kāvālani", "పొరపాటు|porapāṭu"] },
+        { "native": "సారీ, నా చేతిలోంచి నీ గ్లాసు పడిపోయింది.", "roman": "sārī, nā chētilōnchi nī glāsu paḍipōyindi.", "en": "Sorry, your glass slipped out of my hand.", "focus": "పడిపోయింది", "wrong": ["పడిపోయాను|paḍipōyānu", "పడిపోయారు|paḍipōyāru"] },
+        { "native": "నా వల్లే మా మధ్య గొడవ అయింది.", "roman": "nā vallē mā madhya goḍava ayindi.", "en": "It's my fault we had a fight.", "focus": "వల్లే", "wrong": ["కోసమే|kōsamē", "లోనే|lōnē"] },
+        { "native": "అందుకే ఆమె అలిగింది, నాతో మాట్లాడట్లేదు.", "roman": "andukē āme aligindi, nātō māṭlāḍaṭlēdu.", "en": "That's why she's sulking and won't talk to me." },
+        { "native": "అలగకు రా, తప్పు నాదే.", "roman": "alagaku rā, tappu nādē.", "en": "Don't sulk, mate, it's my fault.", "focus": "నాదే", "wrong": ["నేనే|nēnē", "నాకే|nākē"] },
+        { "native": "పర్వాలేదు, నేను మనసులో పెట్టుకోలేదు.", "roman": "parvālēdu, nēnu manasulō peṭṭukōlēdu.", "en": "It's fine, I didn't take it to heart." },
+        { "native": "మీ పుట్టినరోజు మర్చిపోయాను, నన్ను క్షమించండి.", "roman": "mī puṭṭinarōju marchipōyānu, nannu kṣaminchaṇḍi.", "en": "I forgot your birthday, please forgive me.", "focus": "క్షమించండి", "wrong": ["క్షమించు|kṣaminchu", "క్షమిస్తాను|kṣamistānu"] }
+      ]
+    },
+    {
+      "title": "Celebrating good news",
+      "tip": { "title": "Congratulating someone", "body": "- Friends say **కంగ్రాట్స్!**; formal and written is **అభినందనలు**.\n- Results 'happen' with **అవు**: పాస్ **అయ్యాను**, సెలెక్ట్ **అయ్యాను**; a promotion 'comes': ప్రమోషన్ **వచ్చింది**.\n- Proud is a feeling: **గర్వంగా ఉంది**.\n- Expect the reply: **పార్టీ ఎప్పుడు?**" },
+      "new": ["శుభవార్త", "ప్రమోషన్", "పాస్", "గర్వం", "కంగ్రాట్స్", "కంగ్రాట్స్! సూపర్!", "పార్టీ ఎప్పుడు?", "నిన్ను చూస్తే గర్వంగా ఉంది."],
+      "sentences": [
+        { "native": "ఒక శుభవార్త! నాకు ప్రమోషన్ వచ్చింది!", "roman": "oka shubhavārta! nāku pramōṣan vachchindi!", "en": "Good news! I've been promoted!", "focus": "వచ్చింది", "wrong": ["వచ్చాను|vachchānu", "అయ్యాను|ayyānu"] },
+        { "native": "నేను పరీక్ష పాస్ అయ్యాను!", "roman": "nēnu parīkṣa pās ayyānu!", "en": "I passed the exam!", "focus": "అయ్యాను", "wrong": ["వచ్చాను|vachchānu", "ఉన్నాను|unnānu"] },
+        { "native": "కంగ్రాట్స్! మాకు చాలా గర్వంగా ఉంది.", "roman": "kaṅgrāṭs! māku chālā garvaṅgā undi.", "en": "Congrats! We're so proud.", "focus": "గర్వంగా", "wrong": ["గర్వం|garvam", "గర్వంలో|garvamlō"] },
+        { "native": "తమ్ముడు పాస్ అయ్యాడు, అమ్మకి చాలా ఆనందంగా ఉంది.", "roman": "tammuḍu pās ayyāḍu, ammaki chālā ānandaṅgā undi.", "en": "My little brother passed, Mum is over the moon.", "focus": "అయ్యాడు", "wrong": ["అయ్యాను|ayyānu", "అయింది|ayindi"] },
+        { "native": "ప్రమోషనా? సూపర్! మరి పార్టీ ఎప్పుడు?", "roman": "pramōṣanā? sūpar! mari pārṭī eppuḍu?", "en": "A promotion? Brilliant! So when's the party?" },
+        { "native": "నువ్వు సెలెక్ట్ అయ్యావా? కంగ్రాట్స్ రా!", "roman": "nuvvu selekṭ ayyāvā? kaṅgrāṭs rā!", "en": "You got selected? Congrats, mate!", "focus": "అయ్యావా", "wrong": ["అయ్యానా|ayyānā", "వచ్చావా|vachchāvā"] },
+        { "native": "ఈ శుభవార్త ముందు అమ్మకి చెప్పాలి.", "roman": "ī shubhavārta mundu ammaki cheppāli.", "en": "I have to tell Mum this good news first." },
+        { "native": "నిన్ను చూస్తే మాకు గర్వంగా ఉంది రా.", "roman": "ninnu chūstē māku garvaṅgā undi rā.", "en": "We're really proud of you, mate.", "focus": "మాకు", "wrong": ["మేము|mēmu", "మా|mā"] },
+        { "native": "ఆమెకి ప్రమోషన్ వచ్చిందని విని చాలా ఆనందంగా ఉంది.", "roman": "āmeki pramōṣan vachchindani vini chālā ānandaṅgā undi.", "en": "I'm so happy to hear she got promoted.", "focus": "ఆనందంగా", "wrong": ["ఆనందం|ānandam", "ఆనందంలో|ānandamlō"] }
+      ]
+    },
+    {
+      "title": "When someone is grieving",
+      "tip": { "title": "Condolences and hard news", "body": "- Speak of the dead in the respectful plural: **చనిపోయారు**, gentler **పోయారు**, **వారి** ఆత్మ.\n- Keep it short: **ఈ వార్త విని చాలా బాధేసింది**.\n- Offer help in the polite form: **ఏమైనా కావాలంటే చెప్పండి**.\n- A break-up is simply: వాళ్ళకి **బ్రేకప్ అయింది**." },
+      "new": ["చనిపోవు", "ఆత్మ", "శాంతి", "బ్రేకప్", "ఈ వార్త విని చాలా బాధేసింది.", "వారి ఆత్మకి శాంతి కలగాలి."],
+      "sentences": [
+        { "native": "నిన్న రాత్రి వాళ్ళ తాతయ్య చనిపోయారు.", "roman": "ninna rātri vāḷḷa tātayya chanipōyāru.", "en": "Their grandfather passed away last night.", "focus": "చనిపోయారు", "wrong": ["చనిపోయాడు|chanipōyāḍu", "చనిపోయింది|chanipōyindi"] },
+        { "native": "మీ నాన్నగారి సంగతి విని చాలా బాధేసింది.", "roman": "mī nānnagāri saṅgati vini chālā bādhēsindi.", "en": "I was so sorry to hear about your father.", "focus": "బాధేసింది", "wrong": ["బాధేశాను|bādhēshānu", "బాధపడ్డాను|bādhapaḍḍānu"] },
+        { "native": "ఆయన ఆత్మకి శాంతి కలగాలి.", "roman": "āyana ātmaki shānti kalagāli.", "en": "May his soul rest in peace.", "focus": "ఆత్మకి", "wrong": ["ఆత్మ|ātma", "ఆత్మలో|ātmalō"] },
+        { "native": "ఏమైనా కావాలంటే చెప్పండి, మేము ఉన్నాం.", "roman": "ēmainā kāvālaṇṭē cheppaṇḍi, mēmu unnām.", "en": "If you need anything, just tell us. We're here.", "focus": "చెప్పండి", "wrong": ["చెప్పు|cheppu", "చెప్తాను|cheptānu"] },
+        { "native": "వాళ్ళ అమ్మమ్మ పోయిన వారం చనిపోయారు.", "roman": "vāḷḷa ammamma pōyina vāram chanipōyāru.", "en": "Their grandmother passed away last week.", "focus": "చనిపోయారు", "wrong": ["చనిపోయింది|chanipōyindi", "చనిపోయాను|chanipōyānu"] },
+        { "native": "ఆ వార్త వినగానే వాళ్ళ ఇంటికి వెళ్ళాం.", "roman": "ā vārta vinagānē vāḷḷa iṇṭiki veḷḷām.", "en": "As soon as we heard the news, we went to their house." },
+        { "native": "రవికీ ప్రియకీ బ్రేకప్ అయింది.", "roman": "ravikī priyakī brēkap ayindi.", "en": "Ravi and Priya have broken up.", "focus": "అయింది", "wrong": ["అయ్యారు|ayyāru", "చేసింది|chēsindi"] },
+        { "native": "బ్రేకప్ తర్వాత అతనికి చాలా ఒంటరిగా అనిపిస్తోంది.", "roman": "brēkap tarvāta ataniki chālā oṇṭarigā anipistōndi.", "en": "Since the break-up he's been feeling really lonely." }
+      ]
+    }
+  ]
+}

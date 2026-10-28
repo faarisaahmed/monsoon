@@ -1,0 +1,212 @@
+{
+  "id": 34,
+  "title": "Phones, apps & payments",
+  "goal": "Sort out wifi and a hanging phone, pay by UPI anywhere, order online and track it, talk about posts and reels, and spot a scam.",
+  "intro": "In Hyderabad or Vizag almost everything runs through the phone: you **స్కాన్ చేస్తారు** at the tea stall, **జీపే చేస్తారు** your friend for the movie tickets, track your biryani on an app and argue about whose **స్టేటస్** is better. The words are English; the grammar is pure Telugu.\n\nThis unit shows you how the two fit together — the English word stays fixed and a Telugu verb does the work: **హ్యాంగ్ అవుతోంది** 'it keeps hanging', **రీస్టార్ట్ చెయ్** 'restart it', **స్టేటస్ పెట్టాను** 'I put up a status', **పిన్ కొట్టు** 'type the PIN'. And since tech advice is all *if this, then that*, you'll practise the conditionals that matter: **-తే**, **-ఆలంటే** 'to do X you need…', **-తే చాలు** 'all you have to do is…' and **-తేనే** 'only if'.",
+  "vocab": [
+    { "native": "వైఫై", "roman": "vaiphai", "en": "wifi", "pos": "noun", "note": "వైఫై ఆన్ చెయ్ / ఆఫ్ చెయ్ 'turn the wifi on / off'." },
+    { "native": "నెట్", "roman": "neṭ", "en": "internet, connection", "pos": "noun", "note": "నెట్ రావట్లేదు 'the internet isn't working' (lit. the net isn't coming)." },
+    { "native": "డేటా", "roman": "ḍēṭā", "en": "mobile data", "pos": "noun", "note": "డేటా అయిపోయింది 'my data's run out' — Indian plans give a daily allowance, e.g. 2 GB a day." },
+    { "native": "పాస్‌వర్డ్", "roman": "pāsvarḍ", "en": "password", "pos": "noun", "note": "You 'hit' it in: పాస్‌వర్డ్ కొట్టు." },
+    { "native": "హ్యాంగ్ అవు", "roman": "hyāṅg avu", "en": "to hang, freeze (phone, app)", "pos": "verb", "note": "Only with అవు: ఫోన్ హ్యాంగ్ అయింది." },
+    { "native": "రీస్టార్ట్ చేయు", "roman": "rīsṭārṭ chēyu", "en": "to restart", "pos": "verb", "note": "Also రీస్టార్ట్ అవు 'to restart (by itself)'." },
+    { "native": "యాప్", "roman": "yāp", "en": "app", "pos": "noun", "note": "Plural యాప్స్ or యాప్‌లు." },
+    { "native": "డౌన్‌లోడ్ చేయు", "roman": "ḍaunlōḍ chēyu", "en": "to download", "pos": "verb", "note": "డౌన్‌లోడ్ అవుతోంది 'it's downloading'." },
+    { "native": "అప్‌డేట్", "roman": "apḍēṭ", "en": "update", "pos": "noun", "note": "అప్‌డేట్ చేయు 'to update'; అప్‌డేట్ అవు 'to get updated, be updating'. Also 'news': ఏంటి అప్‌డేట్? 'what's the latest?'" },
+    { "native": "లాగిన్ అవు", "roman": "lāgin avu", "en": "to log in", "pos": "verb", "note": "Telugu treats logging in as something you 'become': లాగిన్ అయ్యాను. Log out: లాగౌట్ అవు." },
+    { "native": "కనెక్ట్ అవు", "roman": "konekṭ avu", "en": "to connect", "pos": "verb", "note": "వైఫైకి కనెక్ట్ అవ్వట్లేదు 'it won't connect to the wifi'." },
+    { "native": "స్లో", "roman": "slō", "en": "slow", "pos": "adj", "note": "నెట్ స్లోగా ఉంది 'the internet is slow'. Telugu నెమ్మదిగా (unit 10) is more for people and traffic." },
+    { "native": "లింక్", "roman": "liṅk", "en": "link", "pos": "noun", "note": "లింక్ పంపు 'send the link'; లింక్ నొక్కు 'tap the link'." },
+    { "native": "నొక్కు", "roman": "nokku", "en": "to press, tap", "pos": "verb", "note": "బటన్ నొక్కు 'press the button'; ఇక్కడ నొక్కండి 'tap here'." },
+    { "native": "యూపీఐ", "roman": "yūpīai", "en": "UPI, phone-to-phone bank payment", "pos": "noun", "note": "Most people name the app instead: జీపే (GPay), ఫోన్‌పే (PhonePe), పేటీఎం (Paytm) — and use them as verbs: జీపే చెయ్." },
+    { "native": "స్కాన్ చేయు", "roman": "skān chēyu", "en": "to scan (a QR code)", "pos": "verb", "note": "Every stall has a QR sticker: ఇక్కడ స్కాన్ చేయండి." },
+    { "native": "పేమెంట్", "roman": "pēmeṇṭ", "en": "payment", "pos": "noun", "note": "పేమెంట్ అయిందా? 'has the payment gone through?'" },
+    { "native": "ఫెయిల్ అవు", "roman": "pheyil avu", "en": "to fail", "pos": "verb", "note": "పేమెంట్ ఫెయిల్ అయింది 'the payment failed'; also for exams: ఫెయిల్ అయ్యాను." },
+    { "native": "క్యాష్", "roman": "kyāṣ", "en": "cash", "pos": "noun", "note": "క్యాష్ ఉందా? 'have you got cash?' Telugu: నగదు (nagadu), in banks and the news." },
+    { "native": "వెనక్కి", "roman": "venakki", "en": "back (returning)", "pos": "adv", "note": "డబ్బులు వెనక్కి వస్తాయి 'the money will come back (be refunded)'; వెనక్కి తిరుగు 'turn back'." },
+    { "native": "ఆన్‌లైన్", "roman": "ānlain", "en": "online", "pos": "adv", "note": "ఆన్‌లైన్‌లో కొన్నాను 'I bought it online'." },
+    { "native": "డెలివరీ", "roman": "ḍelivarī", "en": "delivery", "pos": "noun", "note": "డెలివరీ అవుతుంది 'it will be delivered'; డెలివరీ బాయ్ 'delivery guy'." },
+    { "native": "ట్రాక్ చేయు", "roman": "ṭrāk chēyu", "en": "to track", "pos": "verb" },
+    { "native": "ఆఫర్", "roman": "āphar", "en": "offer, deal, discount", "pos": "noun", "note": "ఆఫర్ ఉంది 'there's a deal on'; ఆఫర్‌లో కొన్నాను 'I got it on offer'." },
+    { "native": "పోస్ట్ చేయు", "roman": "pōsṭ chēyu", "en": "to post (online)", "pos": "verb", "note": "Just as common: పెట్టు 'put': ఫోటో పెట్టాను." },
+    { "native": "స్టేటస్", "roman": "sṭēṭas", "en": "WhatsApp status", "pos": "noun", "note": "స్టేటస్ పెట్టు 'to put up a status' — for every birthday, festival and new dress." },
+    { "native": "రీల్", "roman": "rīl", "en": "reel, short video", "pos": "noun", "note": "Usually plural: రీల్స్ చూడు, రీల్స్ చేయు." },
+    { "native": "ఫాలో అవు", "roman": "phālō avu", "en": "to follow (someone online)", "pos": "verb", "note": "నేను ఆమెని ఫాలో అవుతున్నాను 'I follow her'. ఫాలో చేయు is also heard." },
+    { "native": "బ్లాక్ చేయు", "roman": "blāk chēyu", "en": "to block", "pos": "verb", "note": "నన్ను బ్లాక్ చేశాడు 'he blocked me'; అకౌంట్ బ్లాక్ అయింది 'the account got blocked'." },
+    { "native": "హ్యాక్ అవు", "roman": "hyāk avu", "en": "to get hacked", "pos": "verb", "note": "నా అకౌంట్ హ్యాక్ అయింది. Someone did it: ఎవరో హ్యాక్ చేశారు." },
+    { "native": "స్కామ్", "roman": "skām", "en": "scam", "pos": "noun" },
+    { "native": "మోసం", "roman": "mōsam", "en": "fraud, con, cheating", "pos": "noun", "note": "మోసం చేయు 'to cheat (someone)'; మోసపోవు 'to be cheated': నేను మోసపోయాను." }
+  ],
+  "phrases": [
+    { "native": "వైఫై పాస్‌వర్డ్ ఏంటి?", "roman": "vaiphai pāsvarḍ ēṇṭi?", "en": "What's the wifi password?" },
+    { "native": "నెట్ రావట్లేదు.", "roman": "neṭ rāvaṭlēdu.", "en": "The internet's not working.", "note": "రావట్లేదు is the spoken form of రావడం లేదు." },
+    { "native": "నా ఫోన్ హ్యాంగ్ అవుతోంది.", "roman": "nā phōn hyāṅg avutōndi.", "en": "My phone keeps freezing." },
+    { "native": "ఒకసారి రీస్టార్ట్ చేసి చూడు.", "roman": "okasāri rīsṭārṭ chēsi chūḍu.", "en": "Try restarting it.", "note": "-ఇ చూడు 'do and see' = 'try doing'." },
+    { "native": "ఆ లింక్ నాకు పంపు.", "roman": "ā liṅk nāku pampu.", "en": "Send me that link." },
+    { "native": "యూపీఐ తీసుకుంటారా?", "roman": "yūpīai tīsukuṇṭārā?", "en": "Do you take UPI?", "note": "Often just: ఫోన్‌పే ఉందా? / జీపే ఉందా?" },
+    { "native": "ఇక్కడ స్కాన్ చేయండి.", "roman": "ikkaḍa skān chēyaṇḍi.", "en": "Scan here, please." },
+    { "native": "జీపే చేయనా?", "roman": "jīpē chēyanā?", "en": "Shall I GPay you?" },
+    { "native": "పేమెంట్ ఫెయిల్ అయింది, కానీ డబ్బులు కట్ అయ్యాయి.", "roman": "pēmeṇṭ pheyil ayindi, kānī ḍabbulu kaṭ ayyāyi.", "en": "The payment failed, but the money was taken from my account.", "note": "కట్ అవు 'to be deducted'. Usually it comes back on its own within a few days." },
+    { "native": "ఆర్డర్ ఎక్కడ వరకు వచ్చింది?", "roman": "ārḍar ekkaḍa varaku vachchindi?", "en": "Where's the order got to?" },
+    { "native": "క్యాష్ ఆన్ డెలివరీ ఉందా?", "roman": "kyāṣ ān ḍelivarī undā?", "en": "Can I pay cash on delivery?" },
+    { "native": "స్టేటస్ చూశావా?", "roman": "sṭēṭas chūshāvā?", "en": "Did you see my status?" },
+    { "native": "ఎవరికీ ఓటీపీ చెప్పకు.", "roman": "evarikī ōṭīpī cheppaku.", "en": "Don't tell anyone your OTP." },
+    { "native": "నా అకౌంట్ హ్యాక్ అయింది!", "roman": "nā akauṇṭ hyāk ayindi!", "en": "My account has been hacked!" }
+  ],
+  "grammar": [
+    {
+      "title": "Real conditionals in practice: -తే, -ఆలంటే, -తే చాలు, -తేనే",
+      "body": "Tech help is one long chain of *if this, do that*. You learned **-తే** 'if' in unit 19; here are the patterns you'll use daily.\n\n**1. -తే 'if / when'** on the non-past stem (వస్తే, చేస్తే, ఉంటే, అయితే), and **-కపోతే** 'if not': నెట్ **రాకపోతే** రీస్టార్ట్ చెయ్ 'if the net doesn't work, restart it'. The result can be a command, a non-past or an -ఆలి: ఈరోజు ఆర్డర్ **పెడితే** రేపు వస్తుంది. -తే also covers 'when (in future)': ఇంటికి **వెళ్తే** పంపిస్తా 'I'll send it when I'm home'.\n\n**2. -ఆలంటే 'to do X / if you want to X'.** The -ఆలి form + **అంటే**: లాగిన్ **అవ్వాలంటే** ఓటీపీ కావాలి 'to log in, you need an OTP'; డబ్బులు **పంపాలంటే** ఈ యాప్ కావాలి. This is how Telugu says 'in order to' in instructions — English learners tend to reach for కోసం, which sounds clumsy here.\n\n**3. -తే చాలు 'all you have to do is…, that's enough'**: స్కాన్ **చేస్తే చాలు** 'just scan, that's it'; ఈ బటన్ **నొక్కితే చాలు**.\n\n**4. -తేనే 'only if'** — add the emphatic **-ఏ**: వైఫై **ఉంటేనే** అప్‌డేట్ చెయ్ 'only update when you're on wifi'.\n\n**5. -ఇనా 'even if / whoever / whatever'** (unit 19): ఎవరు **అడిగినా** ఓటీపీ చెప్పకు 'whoever asks, don't share the OTP'.\n\n**The trap:** 'if' is not a separate word. The ending goes on the verb of the if-clause, and that clause comes **first**. You can start with **ఒకవేళ** 'in case', but you still need -తే: ఒకవేళ నెట్ **రాకపోతే**…, never ఒకవేళ నెట్ రాదు….",
+      "examples": [
+        { "native": "నెట్ స్లోగా ఉంటే వైఫై ఆఫ్ చేసి ఆన్ చెయ్.", "roman": "neṭ slōgā uṇṭē vaiphai āph chēsi ān chey.", "en": "If the net's slow, turn the wifi off and on again." },
+        { "native": "డబ్బులు పంపాలంటే నా నంబర్‌కి జీపే చెయ్.", "roman": "ḍabbulu pampālaṇṭē nā nambarki jīpē chey.", "en": "To send money, just GPay my number." },
+        { "native": "ఈ యాప్‌లో లాగిన్ అవ్వాలంటే ఓటీపీ కావాలి.", "roman": "ī yāplō lāgin avvālaṇṭē ōṭīpī kāvāli.", "en": "You need an OTP to log in to this app." },
+        { "native": "స్కాన్ చేసి పిన్ కొడితే చాలు.", "roman": "skān chēsi pin koḍitē chālu.", "en": "Just scan and type your PIN, that's all." },
+        { "native": "ఎవరు ఫోన్ చేసినా బ్యాంకు వివరాలు చెప్పకు.", "roman": "evaru phōn chēsinā byāṅku vivarālu cheppaku.", "en": "Whoever calls, don't give out your bank details." }
+      ]
+    },
+    {
+      "title": "English words, Telugu verbs: చేయు, అవు, పెట్టు, కొట్టు",
+      "body": "Tech vocabulary in Telugu is almost all English, but the grammar is Telugu: the English word stays **unchanged** and a Telugu verb after it carries tense, person and negation. Choosing the right verb is the whole skill.\n\n**చేయు 'do'** — *you* do it to something (transitive): డౌన్‌లోడ్ **చేయు**, అప్‌డేట్ **చేయు**, స్కాన్ **చేయు**, రీస్టార్ట్ **చేయు**, బ్లాక్ **చేయు**, పోస్ట్ **చేయు**, ట్రాక్ **చేయు**, క్యాన్సిల్ **చేయు**. App names work the same way: **జీపే చెయ్** 'GPay (me)', ఫోన్‌పే **చేశాను** 'I paid by PhonePe'.\n\n**అవు 'become'** — it *happens* (intransitive): హ్యాంగ్ **అవు**, ఫెయిల్ **అవు**, కనెక్ట్ **అవు**, హ్యాక్ **అవు**, లాగిన్ **అవు**, వైరల్ **అవు**.\n\nMany words take **both**, exactly like the doing / happening pairs in unit 31 (వాయిదా వేయు / వాయిదా పడు):\nనేను యాప్ అప్‌డేట్ **చేశాను** 'I updated the app' — యాప్ అప్‌డేట్ **అవుతోంది** 'the app is updating'\nవాళ్ళు ఆర్డర్ క్యాన్సిల్ **చేశారు** 'they cancelled the order' — ఆర్డర్ క్యాన్సిల్ **అయింది** 'the order got cancelled'\n\n**పెట్టు 'put'** — for things you put out there: స్టేటస్ **పెట్టు**, మెసేజ్ **పెట్టు**, ఆర్డర్ **పెట్టు**, ఫోటో **పెట్టు**.\n**కొట్టు 'hit'** — for keying in a code: పాస్‌వర్డ్ **కొట్టు**, పిన్ **కొట్టు**, ఓటీపీ **కొట్టు**.\n\n**Money verbs:** డబ్బులు **కట్ అయ్యాయి** 'money was deducted', డబ్బులు **పడ్డాయి** 'the money has come in' (lit. fallen), **వెనక్కి వస్తాయి** 'will be refunded'.\n\n**The trap:** if the phone did it by itself, use **అవు**: నా ఫోన్ హ్యాంగ్ **అయింది**. హ్యాంగ్ **చేశాను** would mean you made it freeze.",
+      "examples": [
+        { "native": "నిన్న రాత్రి కొత్త యాప్ డౌన్‌లోడ్ చేశాను.", "roman": "ninna rātri kotta yāp ḍaunlōḍ chēshānu.", "en": "I downloaded a new app last night." },
+        { "native": "అప్‌డేట్ అవుతోంది, ఐదు నిమిషాలు ఆగు.", "roman": "apḍēṭ avutōndi, aidu nimiṣālu āgu.", "en": "It's updating, wait five minutes." },
+        { "native": "ఫోన్‌పే చేశాను, డబ్బులు పడ్డాయా?", "roman": "phōnpē chēshānu, ḍabbulu paḍḍāyā?", "en": "I've sent it on PhonePe — has the money come through?" },
+        { "native": "వాడు నన్ను బ్లాక్ చేశాడు!", "roman": "vāḍu nannu blāk chēshāḍu!", "en": "He blocked me!" },
+        { "native": "పిన్ కొట్టండి సార్, అయిపోయింది.", "roman": "pin koṭṭaṇḍi sār, ayipōyindi.", "en": "Type your PIN, sir, and you're done." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Breakfast by the beach",
+    "setting": "A tiffin stall near RK Beach, Visakhapatnam. Sai and Bhavana have just finished breakfast; then Bhavana's grandmother calls.",
+    "lines": [
+      { "speaker": "Sai", "native": "అన్నా, రెండు ప్లేట్ ఇడ్లీ, ఒక పూరీ. ఎంత?", "roman": "annā, reṇḍu plēṭ iḍlī, oka pūrī. enta?", "en": "Two plates of idli and one puri, anna. How much?" },
+      { "speaker": "Owner", "native": "నూట ఇరవై. క్యాషా, యూపీఐనా?", "roman": "nūṭa iravai. kyāṣā, yūpīainā?", "en": "A hundred and twenty. Cash or UPI?" },
+      { "speaker": "Sai", "native": "యూపీఐ. ఇదిగో, స్కాన్ చేస్తున్నా... అరే, పేమెంట్ ఫెయిల్ అయింది!", "roman": "yūpīai. idigō, skān chēstunnā... arē, pēmeṇṭ pheyil ayindi!", "en": "UPI. Here, I'm scanning... oh no, the payment failed!" },
+      { "speaker": "Bhavana", "native": "అసలు నెట్ ఉందా? ఇక్కడ సిగ్నల్ వీక్.", "roman": "asalu neṭ undā? ikkaḍa signal vīk.", "en": "Have you even got internet? The signal's weak here." },
+      { "speaker": "Sai", "native": "డేటా ఉంది, కానీ చాలా స్లోగా ఉంది. డబ్బులు కట్ అయ్యాయేమో చూడాలి.", "roman": "ḍēṭā undi, kānī chālā slōgā undi. ḍabbulu kaṭ ayyāyēmō chūḍāli.", "en": "I've got data, but it's really slow. I need to check whether the money's been taken." },
+      { "speaker": "Bhavana", "native": "ఉండు, నేను జీపే చేస్తా. అన్నా, పడ్డాయా?", "roman": "uṇḍu, nēnu jīpē chēstā. annā, paḍḍāyā?", "en": "Hang on, I'll GPay. Anna, has it come through?" },
+      { "speaker": "Owner", "native": "పడ్డాయమ్మా.", "roman": "paḍḍāyammā.", "en": "Got it, ma'am." },
+      { "speaker": "Sai", "native": "థాంక్స్. నావి కట్ అయితే మూడు రోజుల్లో వెనక్కి వస్తాయి, ఏం కాదు.", "roman": "thāṅks. nāvi kaṭ ayitē mūḍu rōjullō venakki vastāyi, ēm kādu.", "en": "Thanks. If mine got deducted, it'll come back in three days, no problem." },
+      { "speaker": "Bhavana", "native": "హా అమ్మమ్మా... ఏంటి? బ్యాంకు నుంచి కాల్ వచ్చిందా? ఏ లింకూ నొక్కకు!", "roman": "hā ammammā... ēṇṭi? byāṅku nunchi kāl vachchindā? ē liṅkū nokkaku!", "en": "Hi Grandma... what? You got a call from the bank? Don't tap any link!" },
+      { "speaker": "Sai", "native": "ఏమైంది?", "roman": "ēmaindi?", "en": "What's happened?" },
+      { "speaker": "Bhavana", "native": "\"మీ అకౌంట్ బ్లాక్ అవుతుంది, ఓటీపీ చెప్పండి\" అని ఎవరో ఫోన్ చేశారట.", "roman": "\"mī akauṇṭ blāk avutundi, ōṭīpī cheppaṇḍi\" ani evarō phōn chēshāraṭa.", "en": "Apparently someone rang saying 'your account will be blocked, tell us the OTP'." },
+      { "speaker": "Sai", "native": "పక్కా స్కామ్! ఎవరు అడిగినా ఓటీపీ చెప్పకూడదు.", "roman": "pakkā skām! evaru aḍiginā ōṭīpī cheppakūḍadu.", "en": "Definitely a scam! You never give the OTP, whoever asks." },
+      { "speaker": "Bhavana", "native": "అమ్మమ్మా, ఫోన్ పెట్టేయ్, ఆ నంబర్ బ్లాక్ చెయ్. ఇంటికి రాగానే నేను చూస్తా.", "roman": "ammammā, phōn peṭṭēy, ā nambar blāk chey. iṇṭiki rāgānē nēnu chūstā.", "en": "Grandma, hang up and block that number. I'll look at it as soon as I'm home." },
+      { "speaker": "Sai", "native": "మా నాన్నమ్మ ఇప్పటికీ క్యాష్ మాత్రమే. ఆవిడే తెలివైనది!", "roman": "mā nānnamma ippaṭikī kyāṣ mātramē. āviḍē telivainadi!", "en": "My grandma still uses only cash. She's the smart one!" }
+    ]
+  },
+  "culture": "UPI has changed how Telugu cities pay. A QR sticker hangs on every tea stall, fruit cart and auto, and a little speaker box announces each payment out loud — in Telugu. Nobody says 'UPI payment': they say **జీపే చెయ్**, **ఫోన్‌పే ఉందా?**, **పేటీఎం చేశా**. Splitting a bill among friends means one person pays and the others **జీపే** their share. Cash still matters for older people, small villages and when *సర్వర్ డౌన్* ('the server's down') — the most common phrase at any shop counter.\n\nFood and grocery apps are everywhere in Hyderabad, and the delivery rider will call you to ask **లొకేషన్ పంపండి సార్**. Fraud is a real problem: calls and messages claiming your **KYC** needs updating, your account will be blocked, or you've won a prize. Banks never ask for an OTP — **ఎవరికీ ఓటీపీ చెప్పకు** is advice every family repeats to its elders.\n\nOnline, young Telugu speakers mostly type Telugu in **English letters** (*ela unnav? em chestunnav?*) — the Telugu keyboard is used more by older people, and voice notes are what grandparents prefer. Family WhatsApp groups run on good-morning images and festival wishes; **స్టేటస్** is where everyone posts birthdays, new clothes and films they've just watched.",
+  "lessons": [
+    {
+      "title": "When the wifi won't work",
+      "tip": { "title": "English word + చేయు or అవు", "body": "- The English word never changes; the Telugu verb takes the endings.\n- You do it → **చేయు**: రీస్టార్ట్ **చెయ్**, రీఛార్జ్ **చేశాను**.\n- It happens → **అవు**: హ్యాంగ్ **అవుతోంది**, రీస్టార్ట్ **అవుతోంది**.\n- Trap: నా ఫోన్ హ్యాంగ్ **అయింది**, not హ్యాంగ్ చేశాను.", "pattern": "English word + చేయు (I do it) / అవు (it happens)", "grammar": 1 },
+      "new": ["వైఫై", "నెట్", "డేటా", "పాస్‌వర్డ్", "హ్యాంగ్ అవు", "రీస్టార్ట్ చేయు", "వైఫై పాస్‌వర్డ్ ఏంటి?", "నెట్ రావట్లేదు.", "నా ఫోన్ హ్యాంగ్ అవుతోంది.", "ఒకసారి రీస్టార్ట్ చేసి చూడు."],
+      "sentences": [
+        { "native": "వైఫై పాస్‌వర్డ్ ఏంటి? నా డేటా అయిపోయింది.", "roman": "vaiphai pāsvarḍ ēṇṭi? nā ḍēṭā ayipōyindi.", "en": "What's the wifi password? My data's run out." },
+        { "native": "ఇంట్లో నెట్ రావట్లేదు, వైఫై రీస్టార్ట్ చేశాను.", "roman": "iṇṭlō neṭ rāvaṭlēdu, vaiphai rīsṭārṭ chēshānu.", "en": "The internet's not working at home; I've restarted the wifi.", "focus": "చేశాను", "wrong": ["అయ్యాను|ayyānu", "అయింది|ayindi"] },
+        { "native": "నా ఫోన్ మళ్ళీ హ్యాంగ్ అయింది.", "roman": "nā phōn maḷḷī hyāṅg ayindi.", "en": "My phone has frozen again.", "focus": "అయింది", "wrong": ["చేశాను|chēshānu", "చేసింది|chēsindi"] },
+        { "native": "ఒకసారి ఫోన్ రీస్టార్ట్ చెయ్యి, సరిపోతుంది.", "roman": "okasāri phōn rīsṭārṭ cheyyi, saripōtundi.", "en": "Restart the phone once, that'll sort it.", "focus": "చెయ్యి", "wrong": ["అవ్వు|avvu", "అయింది|ayindi"] },
+        { "native": "డేటా అయిపోయింది, రీఛార్జ్ చేయాలి.", "roman": "ḍēṭā ayipōyindi, rīchārj chēyāli.", "en": "My data has run out, I need to top up.", "focus": "చేయాలి", "wrong": ["అవ్వాలి|avvāli", "అయింది|ayindi"] },
+        { "native": "ఈ ఫోన్ రోజూ హ్యాంగ్ అవుతుంది, కొత్తది కొనాలి.", "roman": "ī phōn rōjū hyāṅg avutundi, kottadi konāli.", "en": "This phone freezes every day, I need a new one.", "focus": "అవుతుంది", "wrong": ["చేస్తుంది|chēstundi", "చేస్తాను|chēstānu"] },
+        { "native": "వైఫై రీస్టార్ట్ అవుతోంది, రెండు నిమిషాలు ఆగు.", "roman": "vaiphai rīsṭārṭ avutōndi, reṇḍu nimiṣālu āgu.", "en": "The wifi's restarting, give it two minutes.", "focus": "అవుతోంది", "wrong": ["చేస్తోంది|chēstōndi", "చేస్తున్నాను|chēstunnānu"] },
+        { "native": "అన్నా, వైఫై ఒకసారి రీస్టార్ట్ చేస్తారా?", "roman": "annā, vaiphai okasāri rīsṭārṭ chēstārā?", "en": "Anna, could you restart the wifi?", "focus": "చేస్తారా", "wrong": ["అవుతారా|avutārā", "అవుతుందా|avutundā"] },
+        { "native": "నెట్ రావట్లేదా? నా డేటా వాడుకో.", "roman": "neṭ rāvaṭlēdā? nā ḍēṭā vāḍukō.", "en": "Is your internet not working? Use my data." },
+        { "native": "పాస్‌వర్డ్ మర్చిపోయాను, ఇప్పుడు ఏం చేయాలి?", "roman": "pāsvarḍ marchipōyānu, ippuḍu ēm chēyāli?", "en": "I've forgotten the password, what do I do now?" }
+      ]
+    },
+    {
+      "title": "Apps, links and logging in",
+      "tip": { "title": "To do X, you need…: -ఆలంటే, -తే చాలు", "body": "- **-తే** 'if' (unit 19), **-కపోతే** 'if not': పని చేయ**కపోతే** అప్‌డేట్ చెయ్.\n- **-ఆలంటే** = 'to… / if you want to…': లాగిన్ **అవ్వాలంటే** ఓటీపీ కావాలి.\n- **-తే చాలు** = 'all you need to do is…': నొక్కి**తే చాలు**.\n- **-తేనే** = 'only if': వైఫై **ఉంటేనే**.", "pattern": "stem-ఆలి + అంటే · stem-తే + చాలు", "grammar": 0 },
+      "new": ["యాప్", "డౌన్‌లోడ్ చేయు", "అప్‌డేట్", "లాగిన్ అవు", "కనెక్ట్ అవు", "స్లో", "లింక్", "నొక్కు", "ఆ లింక్ నాకు పంపు."],
+      "sentences": [
+        { "native": "ఈ యాప్ డౌన్‌లోడ్ చేయాలంటే వైఫై కావాలి, చాలా పెద్దది.", "roman": "ī yāp ḍaunlōḍ chēyālaṇṭē vaiphai kāvāli, chālā peddadi.", "en": "You need wifi to download this app, it's huge.", "focus": "చేయాలంటే", "wrong": ["చేయాలి|chēyāli", "చేశాను|chēshānu"] },
+        { "native": "బ్యాంకు యాప్‌లో లాగిన్ అవ్వాలంటే పాస్‌వర్డ్ కావాలి.", "roman": "byāṅku yāplō lāgin avvālaṇṭē pāsvarḍ kāvāli.", "en": "You need a password to log in to the bank app.", "focus": "అవ్వాలంటే", "wrong": ["అవ్వాలి|avvāli", "అయ్యాను|ayyānu"] },
+        { "native": "యాప్ పని చేయకపోతే ఒకసారి అప్‌డేట్ చెయ్.", "roman": "yāp pani chēyakapōtē okasāri apḍēṭ chey.", "en": "If the app doesn't work, update it.", "focus": "చేయకపోతే", "wrong": ["చేస్తే|chēstē", "చేయాలంటే|chēyālaṇṭē"] },
+        { "native": "అప్‌డేట్ అవుతోంది, కొంచెం స్లోగా ఉంది.", "roman": "apḍēṭ avutōndi, konchem slōgā undi.", "en": "It's updating, it's a bit slow." },
+        { "native": "ఈ లింక్ నొక్కితే చాలు.", "roman": "ī liṅk nokkitē chālu.", "en": "Just tap this link, that's all.", "focus": "నొక్కితే", "wrong": ["నొక్కు|nokku", "నొక్కాలి|nokkāli"] },
+        { "native": "నెట్ స్లోగా ఉంటే వీడియోలు చూడకు.", "roman": "neṭ slōgā uṇṭē vīḍiyōlu chūḍaku.", "en": "If the net's slow, don't watch videos.", "focus": "ఉంటే", "wrong": ["ఉంది|undi", "ఉండి|uṇḍi"] },
+        { "native": "వైఫైకి కనెక్ట్ అయితేనే అప్‌డేట్ చెయ్.", "roman": "vaiphaiki konekṭ ayitēnē apḍēṭ chey.", "en": "Only update when you're connected to wifi.", "focus": "అయితేనే", "wrong": ["అయినా|ayinā", "అవ్వాలి|avvāli"] },
+        { "native": "పాస్‌వర్డ్ సరిగ్గా కొడితే కనెక్ట్ అవుతుంది.", "roman": "pāsvarḍ sariggā koḍitē konekṭ avutundi.", "en": "If you type the password correctly, it'll connect.", "focus": "కొడితే", "wrong": ["కొట్టు|koṭṭu", "కొట్టాను|koṭṭānu"] },
+        { "native": "కొత్త ఫోన్‌లో వాట్సాప్ డౌన్‌లోడ్ చేశావా?", "roman": "kotta phōnlō vāṭsāp ḍaunlōḍ chēshāvā?", "en": "Have you downloaded WhatsApp on the new phone?" },
+        { "native": "ఆ లింక్ నాకు పంపు, నేను కూడా చూస్తాను.", "roman": "ā liṅk nāku pampu, nēnu kūḍā chūstānu.", "en": "Send me that link, I'll have a look too." }
+      ]
+    },
+    {
+      "title": "Paying with UPI",
+      "tip": { "title": "Paying by phone", "body": "- App names are verbs: **జీపే చెయ్**, **ఫోన్‌పే చేశాను**.\n- Scan: **స్కాన్ చేయండి**; type the PIN: పిన్ **కొట్టు**.\n- Money 'falls' into an account: డబ్బులు **పడ్డాయా?** 'has it come through?'\n- Deducted: **కట్ అయ్యాయి**; refunded: **వెనక్కి వస్తాయి**." },
+      "new": [
+        "యూపీఐ",
+        "స్కాన్ చేయు",
+        "పేమెంట్",
+        "ఫెయిల్ అవు",
+        "క్యాష్",
+        "వెనక్కి",
+        "యూపీఐ తీసుకుంటారా?",
+        "ఇక్కడ స్కాన్ చేయండి.",
+        "జీపే చేయనా?",
+        "పేమెంట్ ఫెయిల్ అయింది, కానీ డబ్బులు కట్ అయ్యాయి."
+      ],
+      "sentences": [
+        { "native": "అన్నా, యూపీఐ తీసుకుంటారా? క్యాష్ లేదు.", "roman": "annā, yūpīai tīsukuṇṭārā? kyāṣ lēdu.", "en": "Anna, do you take UPI? I haven't got cash." },
+        { "native": "ఇక్కడ స్కాన్ చేసి పిన్ కొట్టండి.", "roman": "ikkaḍa skān chēsi pin koṭṭaṇḍi.", "en": "Scan here and type in your PIN.", "focus": "కొట్టండి", "wrong": ["అవ్వండి|avvaṇḍi", "చూడండి|chūḍaṇḍi"] },
+        { "native": "నీకు రెండు వందలు జీపే చేశాను, పడ్డాయా?", "roman": "nīku reṇḍu vandalu jīpē chēshānu, paḍḍāyā?", "en": "I've GPayed you two hundred, has it come through?", "focus": "పడ్డాయా", "wrong": ["పడ్డావా|paḍḍāvā", "పడ్డాను|paḍḍānu"] },
+        { "native": "పేమెంట్ ఫెయిల్ అయింది, మళ్ళీ చేస్తాను.", "roman": "pēmeṇṭ pheyil ayindi, maḷḷī chēstānu.", "en": "The payment failed, I'll do it again.", "focus": "అయింది", "wrong": ["చేసింది|chēsindi", "చేశాను|chēshānu"] },
+        { "native": "డబ్బులు కట్ అయితే మూడు రోజుల్లో వెనక్కి వస్తాయి.", "roman": "ḍabbulu kaṭ ayitē mūḍu rōjullō venakki vastāyi.", "en": "If the money's been taken, it'll come back within three days." },
+        { "native": "ఆటో డ్రైవర్ క్యాష్ మాత్రమే అడుగుతున్నాడు.", "roman": "āṭō ḍraivar kyāṣ mātramē aḍugutunnāḍu.", "en": "The auto driver is asking for cash only." },
+        { "native": "నేను కట్టేస్తా, తర్వాత నాకు జీపే చెయ్.", "roman": "nēnu kaṭṭēstā, tarvāta nāku jīpē chey.", "en": "I'll pay, GPay me later.", "focus": "చెయ్", "wrong": ["అవ్వు|avvu", "కొట్టు|koṭṭu"] },
+        { "native": "యూపీఐ పని చేయట్లేదు, క్యాష్ ఇవ్వనా?", "roman": "yūpīai pani chēyaṭlēdu, kyāṣ ivvanā?", "en": "UPI isn't working, shall I give you cash?" },
+        { "native": "ఈరోజు పేమెంట్లు అన్నీ ఫెయిల్ అవుతున్నాయి.", "roman": "īrōju pēmeṇṭlu annī pheyil avutunnāyi.", "en": "All the payments are failing today.", "focus": "అవుతున్నాయి", "wrong": ["చేస్తున్నాయి|chēstunnāyi", "అవుతోంది|avutōndi"] }
+      ]
+    },
+    {
+      "title": "Ordering online",
+      "tip": { "title": "Orders and deliveries", "body": "- Order: ఆర్డర్ **పెట్టు** or ఆర్డర్ **చేయు**.\n- Where is it?: **ఎక్కడ వరకు వచ్చింది?**; follow it: **ట్రాక్ చెయ్**.\n- If… then, all the time: ఈరోజు ఆర్డర్ **పెడితే** రేపు **వస్తుంది**.\n- Pay at the door: **క్యాష్ ఆన్ డెలివరీ**." },
+      "new": ["ఆన్‌లైన్", "డెలివరీ", "ట్రాక్ చేయు", "ఆఫర్", "ఆర్డర్ ఎక్కడ వరకు వచ్చింది?", "క్యాష్ ఆన్ డెలివరీ ఉందా?"],
+      "sentences": [
+        { "native": "ఈరోజు ఆర్డర్ పెడితే రేపు డెలివరీ అవుతుంది.", "roman": "īrōju ārḍar peḍitē rēpu ḍelivarī avutundi.", "en": "If you order today, it'll be delivered tomorrow.", "focus": "పెడితే", "wrong": ["పెట్టాను|peṭṭānu", "పెడుతూ|peḍutū"] },
+        { "native": "ఆన్‌లైన్‌లో ఈ ఫోన్ రెండు వేలు తక్కువ.", "roman": "ānlainlō ī phōn reṇḍu vēlu takkuva.", "en": "This phone is two thousand cheaper online." },
+        { "native": "బిర్యానీ ఆర్డర్ పెట్టాను, అరగంటలో వస్తుంది.", "roman": "biryānī ārḍar peṭṭānu, aragaṇṭalō vastundi.", "en": "I've ordered biryani, it'll be here in half an hour.", "focus": "పెట్టాను", "wrong": ["కొట్టాను|koṭṭānu", "అయ్యాను|ayyānu"] },
+        { "native": "యాప్‌లో ట్రాక్ చేస్తే ఆర్డర్ ఎక్కడ ఉందో తెలుస్తుంది.", "roman": "yāplō ṭrāk chēstē ārḍar ekkaḍa undō telustundi.", "en": "If you track it in the app, you'll see where the order is.", "focus": "చేస్తే", "wrong": ["చేయాలి|chēyāli", "చేశాను|chēshānu"] },
+        { "native": "ఆఫర్ ఉంటేనే కొంటాను.", "roman": "āphar uṇṭēnē koṇṭānu.", "en": "I'll only buy it if there's a deal on.", "focus": "ఉంటేనే", "wrong": ["ఉన్నా|unnā", "ఉంది|undi"] },
+        { "native": "డెలివరీ ఇంకా రాలేదు, గంట అయింది!", "roman": "ḍelivarī iṅkā rālēdu, gaṇṭa ayindi!", "en": "The delivery still hasn't come, it's been an hour!" },
+        { "native": "క్యాష్ ఆన్ డెలివరీ ఉందా, లేదా ఆన్‌లైన్‌లోనే కట్టాలా?", "roman": "kyāṣ ān ḍelivarī undā, lēdā ānlainlōnē kaṭṭālā?", "en": "Is there cash on delivery, or do I have to pay online?" },
+        { "native": "ఆర్డర్ ఎక్కడ వరకు వచ్చింది? ట్రాక్ చేసి చెప్పు.", "roman": "ārḍar ekkaḍa varaku vachchindi? ṭrāk chēsi cheppu.", "en": "Where's the order got to? Track it and tell me." },
+        { "native": "ఆర్డర్ క్యాన్సిల్ అయింది, డబ్బులు వెనక్కి వస్తాయట.", "roman": "ārḍar kyānsil ayindi, ḍabbulu venakki vastāyaṭa.", "en": "The order's been cancelled; apparently the money will be refunded.", "focus": "అయింది", "wrong": ["చేశాను|chēshānu", "చేసింది|chēsindi"] }
+      ]
+    },
+    {
+      "title": "Posts, reels and statuses",
+      "tip": { "title": "Posting and following", "body": "- Post: **పోస్ట్ చెయ్** or just **పెట్టు**: స్టేటస్ **పెట్టాను**.\n- Follow someone: **ఫాలో అవుతున్నాను**.\n- Block: **బ్లాక్ చేయు**; go viral: **వైరల్ అవు**.\n- In chats, most young people type Telugu in English letters: *ela unnav?*" },
+      "new": ["పోస్ట్ చేయు", "స్టేటస్", "రీల్", "ఫాలో అవు", "బ్లాక్ చేయు", "స్టేటస్ చూశావా?"],
+      "sentences": [
+        { "native": "నిన్న ఫంక్షన్ ఫోటోలు స్టేటస్‌లో పెట్టాను.", "roman": "ninna phaṅkṣan phōṭōlu sṭēṭaslō peṭṭānu.", "en": "I put yesterday's function photos on my status.", "focus": "పెట్టాను", "wrong": ["కొట్టాను|koṭṭānu", "అయ్యాను|ayyānu"] },
+        { "native": "నా స్టేటస్ చూశావా? రాత్రి పెట్టాను.", "roman": "nā sṭēṭas chūshāvā? rātri peṭṭānu.", "en": "Did you see my status? I put it up last night." },
+        { "native": "అమ్మ రోజూ గుడ్ మార్నింగ్ స్టేటస్ పెడుతుంది.", "roman": "amma rōjū guḍ mārniṅg sṭēṭas peḍutundi.", "en": "Mum puts up a good-morning status every day." },
+        { "native": "రాత్రంతా రీల్స్ చూస్తూనే ఉన్నాను.", "roman": "rātrantā rīls chūstūnē unnānu.", "en": "I was watching reels all night." },
+        { "native": "నువ్వు ఆ హీరోని ఫాలో అవుతున్నావా?", "roman": "nuvvu ā hīrōni phālō avutunnāvā?", "en": "Do you follow that actor?" },
+        { "native": "ఆ ఫోటో పోస్ట్ చేయకు, నేను బాగాలేను!", "roman": "ā phōṭō pōsṭ chēyaku, nēnu bāgālēnu!", "en": "Don't post that photo, I look terrible!", "focus": "చేయకు", "wrong": ["అవ్వకు|avvaku", "కొట్టకు|koṭṭaku"] },
+        { "native": "అతను నన్ను బ్లాక్ చేశాడు!", "roman": "atanu nannu blāk chēshāḍu!", "en": "He blocked me!", "focus": "చేశాడు", "wrong": ["అయ్యాడు|ayyāḍu", "అయింది|ayindi"] },
+        { "native": "నీ రీల్ బాగా వైరల్ అయింది!", "roman": "nī rīl bāgā vairal ayindi!", "en": "Your reel has really gone viral!", "focus": "అయింది", "wrong": ["చేసింది|chēsindi", "చేశాను|chēshānu"] },
+        { "native": "మా ఇంటి గ్రూప్‌లో రోజూ వంద మెసేజ్‌లు వస్తాయి.", "roman": "mā iṇṭi grūplō rōjū vanda mesējlu vastāyi.", "en": "We get a hundred messages a day in our family group." }
+      ]
+    },
+    {
+      "title": "Spotting a scam",
+      "tip": { "title": "Don't fall for it", "body": "- Banks never ask for an OTP: **ఎవరు అడిగినా** చెప్పకు ('whoever asks', -ఇనా from unit 19).\n- A strange link: **నొక్కకు**.\n- Hacked: నా అకౌంట్ **హ్యాక్ అయింది**.\n- A con is a **మోసం**; 'I was conned': నేను **మోసపోయాను**." },
+      "new": ["హ్యాక్ అవు", "మోసం", "స్కామ్", "ఎవరికీ ఓటీపీ చెప్పకు.", "నా అకౌంట్ హ్యాక్ అయింది!"],
+      "sentences": [
+        { "native": "ఎవరు అడిగినా ఓటీపీ చెప్పకూడదు.", "roman": "evaru aḍiginā ōṭīpī cheppakūḍadu.", "en": "Never give out your OTP, whoever asks.", "focus": "అడిగినా", "wrong": ["అడిగితే|aḍigitē", "అడగాలంటే|aḍagālaṇṭē"] },
+        { "native": "బ్యాంకు వాళ్ళు ఎప్పుడూ ఓటీపీ అడగరు.", "roman": "byāṅku vāḷḷu eppuḍū ōṭīpī aḍagaru.", "en": "Banks never ask for an OTP." },
+        { "native": "ఇది పక్కా స్కామ్, ఆ లింక్ నొక్కకు.", "roman": "idi pakkā skām, ā liṅk nokkaku.", "en": "This is definitely a scam, don't tap that link." },
+        { "native": "అక్క వాట్సాప్ హ్యాక్ అయింది, ఎవరైనా డబ్బులు అడిగితే ఇవ్వకండి.", "roman": "akka vāṭsāp hyāk ayindi, evarainā ḍabbulu aḍigitē ivvakaṇḍi.", "en": "My sister's WhatsApp has been hacked — if anyone asks for money, don't give it.", "focus": "అయింది", "wrong": ["చేసింది|chēsindi", "అయ్యాను|ayyānu"] },
+        { "native": "ఫ్రీ గిఫ్ట్ అని మెసేజ్ వస్తే అది మోసం.", "roman": "phrī gipht ani mesēj vastē adi mōsam.", "en": "If you get a message promising a free gift, it's a con.", "focus": "వస్తే", "wrong": ["వచ్చి|vachchi", "వస్తూ|vastū"] },
+        { "native": "పాపం, మా తాతయ్య ఒక స్కామ్‌లో యాభై వేలు పోగొట్టుకున్నారు.", "roman": "pāpam, mā tātayya oka skāmlō yābhai vēlu pōgoṭṭukunnāru.", "en": "Poor Grandpa lost fifty thousand in a scam." },
+        { "native": "పాస్‌వర్డ్ ఎవరితోనూ షేర్ చేయకు.", "roman": "pāsvarḍ evaritōnū ṣēr chēyaku.", "en": "Don't share your password with anyone." },
+        { "native": "ఎవరో ఫోన్ చేసి అకౌంట్ బ్లాక్ అవుతుంది అన్నారు, నేను నమ్మలేదు.", "roman": "evarō phōn chēsi akauṇṭ blāk avutundi annāru, nēnu nammalēdu.", "en": "Someone called saying my account would be blocked; I didn't believe them." },
+        { "native": "ఏదైనా సమస్య ఉంటే వెంటనే బ్యాంకుకి ఫోన్ చెయ్.", "roman": "ēdainā samasya uṇṭē veṇṭanē byāṅkuki phōn chey.", "en": "If anything seems wrong, call the bank right away.", "focus": "ఉంటే", "wrong": ["ఉంది|undi", "ఉండి|uṇḍi"] }
+      ]
+    }
+  ]
+}

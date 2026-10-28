@@ -1,0 +1,223 @@
+{
+  "id": 25,
+  "title": "Errands",
+  "goal": "Get everyday jobs done around town on your own: take out cash, sort out a SIM or a broken phone, fill in forms, get clothes stitched and ironed, get a haircut, buy medicine and send a parcel.",
+  "intro": "This unit is about the small jobs that fill a week: the ATM that won't give cash, the SIM that stops working, the tailor who promised the blouse by Friday, the barber, the ironing cart at the corner and the courier office.\n\nThe key grammar is the **causative**: Telugu adds **-ఇంచు** to a verb to say you *get someone else* to do it: *రిపేర్ చేశాను* (I repaired it) vs *రిపేర్ చేయించాను* (I got it repaired). Add **-కో** when the job is done on you (*కటింగ్ చేయించుకున్నాను*, I got a haircut), and use **-కల్లా** to pin down a deadline: *రేపటికల్లా* (by tomorrow).",
+  "vocab": [
+    { "native": "ఏటీఎం", "roman": "ēṭīem", "en": "ATM", "pos": "noun" },
+    { "native": "అకౌంట్", "roman": "akauṇṭ", "en": "(bank) account", "pos": "noun", "note": "English; the formal Telugu word is ఖాతా (khātā). Salary credited: జీతం పడింది." },
+    { "native": "తీయు", "roman": "tīyu", "en": "to take out, withdraw; to take (a photo, a copy)", "pos": "verb", "note": "తీస్తాను, తీశాను, తీయాలి. డబ్బులు తీయు = withdraw cash (also డ్రా చేయు)." },
+    { "native": "వేయు", "roman": "vēyu", "en": "to put (in); to deposit", "pos": "verb", "note": "వేస్తాను, వేశాను. అకౌంట్‌లో డబ్బులు వేయు = put money into an account." },
+    { "native": "సిమ్", "roman": "sim", "en": "SIM card", "pos": "noun", "note": "Also సిమ్ కార్డు." },
+    { "native": "రీఛార్జ్", "roman": "rīchhārj", "en": "(mobile) recharge, top-up", "pos": "noun", "note": "రీఛార్జ్ చేయు / చేయించు." },
+    { "native": "రిపేర్", "roman": "ripēr", "en": "repair", "pos": "noun", "note": "రిపేర్ చేయు = to repair; రిపేర్ చేయించు = to get repaired." },
+    { "native": "బాగు చేయు", "roman": "bāgu chēyu", "en": "to fix, mend", "pos": "verb", "note": "The native word; బాగు = good condition. Get it fixed: బాగు చేయించు." },
+    { "native": "స్క్రీన్", "roman": "skrīn", "en": "(phone) screen", "pos": "noun" },
+    { "native": "బ్యాటరీ", "roman": "byāṭarī", "en": "battery", "pos": "noun" },
+    { "native": "చేయించు", "roman": "chēyinchu", "en": "to get (something) done, have it done", "pos": "verb", "note": "Causative of చేయు: చేయిస్తాను (spoken చేయిస్తా), చేయించాను, చేయించాలి. For yourself: చేయించుకో." },
+    { "native": "ఆధార్", "roman": "ādhār", "en": "Aadhaar (national ID card)", "pos": "noun", "note": "Usually ఆధార్ కార్డు; you need it for a SIM, a bank account, and much else." },
+    { "native": "జిరాక్స్", "roman": "jirāks", "en": "photocopy", "pos": "noun", "note": "From the brand Xerox; జిరాక్స్ తీయించు = get a photocopy made." },
+    { "native": "ఫారం", "roman": "phāram", "en": "form (to fill in)", "pos": "noun" },
+    { "native": "నింపు", "roman": "nimpu", "en": "to fill (in)", "pos": "verb", "note": "నింపుతాను, నింపాను, నింపి." },
+    { "native": "సంతకం", "roman": "santakam", "en": "signature", "pos": "noun", "note": "To sign: సంతకం పెట్టు (or సంతకం చేయు)." },
+    { "native": "టైలర్", "roman": "ṭailar", "en": "tailor", "pos": "noun", "note": "The Telugu word is దర్జీ (darjī), but టైలర్ is what most people say." },
+    { "native": "కుట్టు", "roman": "kuṭṭu", "en": "to stitch, sew", "pos": "verb", "note": "Irregular non-past: కుడతాను (I'll stitch); past కుట్టాను. Get stitched: కుట్టించు." },
+    { "native": "కొలతలు", "roman": "kolatalu", "en": "measurements", "pos": "noun", "note": "pl. of కొలత. Take measurements: కొలతలు తీసుకో." },
+    { "native": "బ్లౌజు", "roman": "blauju", "en": "blouse (worn with a sari)", "pos": "noun", "note": "Always tailor-made to fit, so a classic tailor job." },
+    { "native": "సెలూన్", "roman": "selūn", "en": "salon, barber's shop", "pos": "noun", "note": "Also బార్బర్ షాపు; for women, బ్యూటీ పార్లర్." },
+    { "native": "కటింగ్", "roman": "kaṭiṅg", "en": "haircut", "pos": "noun", "note": "Colloquial; get a haircut: కటింగ్ చేయించుకో. Formal: జుట్టు కత్తిరించుకో." },
+    { "native": "గడ్డం", "roman": "gaḍḍam", "en": "beard; chin", "pos": "noun", "note": "A shave: గడ్డం చేయించుకో (at the barber), గడ్డం చేసుకో (yourself)." },
+    { "native": "ఇస్త్రీ", "roman": "istrī", "en": "ironing", "pos": "noun", "note": "ఇస్త్రీ చేయు = to iron. ఇస్త్రీ బండి = the ironing cart on the street corner." },
+    { "native": "లాండ్రీ", "roman": "lāṇḍrī", "en": "laundry (shop)", "pos": "noun" },
+    { "native": "మెడికల్ షాపు", "roman": "meḍikal ṣāpu", "en": "chemist's, pharmacy", "pos": "noun", "note": "Also మందుల షాపు." },
+    { "native": "చీటీ", "roman": "chīṭī", "en": "slip; (doctor's) prescription", "pos": "noun", "note": "డాక్టర్ చీటీ = prescription; also ప్రిస్క్రిప్షన్." },
+    { "native": "కొరియర్", "roman": "koriyar", "en": "courier", "pos": "noun", "note": "కొరియర్ చేయు = to courier, send by courier." },
+    { "native": "పార్సెల్", "roman": "pārsel", "en": "parcel", "pos": "noun" },
+    { "native": "రసీదు", "roman": "rasīdu", "en": "receipt", "pos": "noun" }
+  ],
+  "phrases": [
+    { "native": "ఇక్కడ దగ్గర్లో ఏటీఎం ఉందా?", "roman": "ikkaḍa daggarlō ēṭīem undā?", "en": "Is there an ATM near here?" },
+    { "native": "ఏటీఎంలో డబ్బులు రావట్లేదు.", "roman": "ēṭīemlō ḍabbulu rāvaṭlēdu.", "en": "The ATM isn't giving out any money.", "note": "రావట్లేదు is the spoken form of రావటం లేదు (isn't coming). డబ్బులు is the everyday plural of డబ్బు." },
+    { "native": "నా సిమ్ పని చేయట్లేదు.", "roman": "nā sim pani chēyaṭlēdu.", "en": "My SIM isn't working.", "note": "Careful form: పని చేయటం లేదు." },
+    { "native": "అన్నా, ఇది బాగు చేస్తారా?", "roman": "annā, idi bāgu chēstārā?", "en": "Could you fix this, anna?", "note": "అన్నా (brother!) is the friendly way to address a shopkeeper, mechanic or driver around your age or a bit older." },
+    { "native": "రిపేర్‌కి ఎంత అవుతుంది?", "roman": "ripērki enta avutundi?", "en": "How much will the repair cost?", "note": "ఎంత అవుతుంది? = how much will it come to?" },
+    { "native": "ఆధార్ జిరాక్స్ తెచ్చారా?", "roman": "ādhār jirāks techchārā?", "en": "Did you bring a copy of your Aadhaar?" },
+    { "native": "ఈ ఫారం నింపి, ఇక్కడ సంతకం పెట్టండి.", "roman": "ī phāram nimpi, ikkaḍa santakam peṭṭaṇḍi.", "en": "Fill in this form and sign here." },
+    { "native": "ఎప్పుడు రెడీ అవుతుంది?", "roman": "eppuḍu reḍī avutundi?", "en": "When will it be ready?" },
+    { "native": "సాయంత్రానికల్లా ఇస్తాను.", "roman": "sāyantrānikallā istānu.", "en": "You'll have it by this evening.", "note": "Lit. 'I'll give it by evening'; spoken ఇస్తా." },
+    { "native": "కటింగ్ చేయించుకోవాలి.", "roman": "kaṭiṅg chēyinchukōvāli.", "en": "I need to get a haircut." },
+    { "native": "జుట్టు కొంచెం తగ్గించండి, ఎక్కువ వద్దు.", "roman": "juṭṭu konchem tagginchaṇḍi, ekkuva vaddu.", "en": "Just a trim, please, not too much.", "note": "తగ్గించు (reduce) is the everyday verb for trimming hair." },
+    { "native": "ఇవి ఇస్త్రీ చేసి పెట్టండి.", "roman": "ivi istrī chēsi peṭṭaṇḍi.", "en": "Please iron these for me." },
+    { "native": "ఈ చీటీలో మందులు ఇవ్వండి.", "roman": "ī chīṭīlō mandulu ivvaṇḍi.", "en": "I'd like the medicines on this prescription, please." },
+    { "native": "ఈ పార్సెల్ బెంగళూరుకి పంపాలి.", "roman": "ī pārsel beṅgaḷūruki pampāli.", "en": "I need to send this parcel to Bangalore." },
+    { "native": "ఎన్ని రోజుల్లో చేరుతుంది?", "roman": "enni rōjullō chērutundi?", "en": "How many days will it take to get there?" },
+    { "native": "రసీదు ఇవ్వండి.", "roman": "rasīdu ivvaṇḍi.", "en": "Can I have a receipt, please?" }
+  ],
+  "grammar": [
+    {
+      "title": "Getting something done: the causative -ఇంచు",
+      "body": "English says *I fixed my phone* when you did it yourself and *I got my phone fixed* when someone else did. Telugu makes the same difference **on the verb**: add **-ఇంచు** (-inchu) to the stem and the verb means 'get / have / make someone do it'.\n\n**Building it**\nచేయు (do) → **చేయించు** · కుట్టు (stitch) → **కుట్టించు** · కట్టు (build) → **కట్టించు** · ఉతుకు (wash clothes) → **ఉతికించు** · వేయు (put in) → **వేయించు** · తీయు (take out) → **తీయించు** · మార్చు (change) → **మార్పించు**\nEnglish loanwords use చేయు, so their causative is simply **చేయించు**: రిపేర్ చేయించు (get repaired), ఇస్త్రీ చేయించు (get ironed), రీఛార్జ్ చేయించు.\n\n**Forms**: the causative conjugates like any -ించు verb (చూపించు, తగ్గించు):\nచేయిస్తాను (I'll get it done; spoken చేయిస్తా) · చేయించాను (I got it done) · చేయిస్తున్నాను (I'm getting it done) · చేయించాలి (I need to get it done) · చేయించలేదు (didn't get it done)\n\n**Who does the work** takes **-తో** (by, through) or **దగ్గర** (at): *టైలర్ దగ్గర కుట్టించాను* (I had it stitched at the tailor's). With a person, the causative can also mean *make someone do*: *బాస్ నాతో పని చేయించాడు* (the boss made me work).\n\n**The trap**: *రిపేర్ చేశాను* means you repaired it with your own hands. Use it for a shop job and people will be impressed for the wrong reason.",
+      "examples": [
+        { "native": "ఈ చొక్కా మా టైలర్ దగ్గర కుట్టించాను.", "roman": "ī chokkā mā ṭailar daggara kuṭṭinchānu.", "en": "I had this shirt made at my tailor's." },
+        { "native": "రేపు అతిథులు వస్తున్నారు, ఇల్లు శుభ్రం చేయించాలి.", "roman": "rēpu atithulu vastunnāru, illu shubhram chēyinchāli.", "en": "Guests are coming tomorrow, I need to get the house cleaned." },
+        { "native": "మేము ఊర్లో కొత్త ఇల్లు కట్టిస్తున్నాం.", "roman": "mēmu ūrlō kotta illu kaṭṭistunnām.", "en": "We're having a new house built back home." },
+        { "native": "ఆ షాపులో స్క్రీన్ మార్పించాను, బాగా చేశారు.", "roman": "ā ṣāpulō skrīn mārpinchānu, bāgā chēshāru.", "en": "I got the screen replaced at that shop; they did a good job." },
+        { "native": "మా బాస్ నాతో ఆదివారం కూడా పని చేయించాడు.", "roman": "mā bās nātō ādivāram kūḍā pani chēyinchāḍu.", "en": "My boss made me work on Sunday too." }
+      ]
+    },
+    {
+      "title": "Done on you, done for you: -ఇంచుకో and -ఇ ఇవ్వు / -ఇ పెట్టు",
+      "body": "**-కో: on yourself, for yourself.** When the job is done to *you* (a haircut, a shave, a check-up) or for your own use, add the reflexive **-కో** to the causative, just as తీయు → తీసుకో:\n*కటింగ్ చేయించుకున్నాను* (I got a haircut) · *గడ్డం చేయించుకుంటాను* (I'll get a shave) · *కళ్ళు డాక్టర్‌కి చూపించుకోవాలి* (I need to get my eyes checked) · *బ్లౌజు కుట్టించుకుంది* (she had a blouse made for herself)\nForms: past **-కున్నాను**, non-past **-కుంటాను**, must **-కోవాలి**, informal command **-కో**, polite **-కోండి**.\n\n**-ఇ ఇవ్వు / -ఇ పెట్టు: for someone else.** To ask for a job done *for you*, or to promise one, put the verb in its -ఇ form ('having done', Unit 16) and add **ఇవ్వు** (give) or **పెట్టు** (put):\n*ఇస్త్రీ చేసి పెట్టండి* (iron them for me, please) · *సాయంత్రానికి కుట్టి ఇస్తాను* (I'll have it stitched for you by evening) · *మందులు తెచ్చి పెడతావా?* (will you get me the medicine?)\nThis is how shopkeepers and tailors talk: *చేసి ఇస్తాను*, literally 'I'll do it and give it'. Note పెట్టు's non-past: **పెడతాను, పెడతారా**.",
+      "examples": [
+        { "native": "తమ్ముడు సెలూన్‌కి వెళ్ళి కటింగ్ చేయించుకున్నాడు.", "roman": "tammuḍu selūnki veḷḷi kaṭiṅg chēyinchukunnāḍu.", "en": "My little brother went to the barber's and got a haircut." },
+        { "native": "కళ్ళు ఒకసారి డాక్టర్‌కి చూపించుకోవాలి.", "roman": "kaḷḷu okasāri ḍākṭarki chūpinchukōvāli.", "en": "I should get my eyes checked by a doctor some time." },
+        { "native": "ఆమె పండుగకి కొత్త బ్లౌజు కుట్టించుకుంది.", "roman": "āme paṇḍugaki kotta blauju kuṭṭinchukundi.", "en": "She had a new blouse made for the festival." },
+        { "native": "రేపు మధ్యాహ్నానికి కుట్టి ఇస్తాను.", "roman": "rēpu madhyānnāniki kuṭṭi istānu.", "en": "I'll have it stitched for you by tomorrow afternoon." },
+        { "native": "నాకు ఒక టీ తెచ్చి పెడతావా?", "roman": "nāku oka ṭī techchi peḍatāvā?", "en": "Will you get me a tea? (informal)" }
+      ]
+    },
+    {
+      "title": "Deadlines: -కల్లా (by), అయిందా? (is it done?)",
+      "body": "**By (a time)**: you met **కల్లా** in Unit 21 after a clock time (*ఏడు గంటల కల్లా*). With day and time words, take the word in its **-కి** form ('at, for'), add **-అల్లా**, and write it as one word, **-కల్లా**:\nరేపు → రేపటికి → **రేపటికల్లా** (by tomorrow) · సాయంత్రం → సాయంత్రానికి → **సాయంత్రానికల్లా** (by evening) · శుక్రవారం → **శుక్రవారానికల్లా** (by Friday) · ఆరింటికి (at six) → **ఆరింటికల్లా** (by six) · నెలాఖరు → **నెలాఖరుకల్లా** (by the end of the month). After గంటలు both ఆరు గంటల కల్లా and ఆరు గంటలకల్లా are written.\nPlain *రేపటికి* also often means 'by tomorrow'; **-కల్లా** makes the deadline firm.\n\n**Is it done?** Use అవు (become, get done): **అయిందా?** (is it done?), plural **అయ్యాయా?** (are they done?). Answers: **అయింది** (it's done), **ఇంకా కాలేదు** (not yet), **అవుతుంది** (it will be).\n**When will it be ready?** *ఎప్పుడు రెడీ అవుతుంది?*",
+      "examples": [
+        { "native": "ఈ పని రేపటికల్లా పూర్తి కావాలి.", "roman": "ī pani rēpaṭikallā pūrti kāvāli.", "en": "This work has to be finished by tomorrow." },
+        { "native": "తొమ్మిదింటికల్లా ఆఫీసులో ఉండాలి.", "roman": "tommidiṇṭikallā āphīsulō uṇḍāli.", "en": "I have to be at the office by nine." },
+        { "native": "నెలాఖరుకల్లా అద్దె కట్టాలి.", "roman": "nelākharukallā adde kaṭṭāli.", "en": "The rent has to be paid by the end of the month." },
+        { "native": "బట్టలు అయ్యాయా? ఇంకా కాలేదు, సాయంత్రానికల్లా అవుతాయి.", "roman": "baṭṭalu ayyāyā? iṅkā kālēdu, sāyantrānikallā avutāyi.", "en": "Are the clothes done? Not yet, they'll be done by this evening." },
+        { "native": "నా ఫోన్ రెడీ అయిందా?", "roman": "nā phōn reḍī ayindā?", "en": "Is my phone ready?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A cracked screen",
+    "setting": "Kiran, a student, takes his phone to a small repair shop in Ameerpet, Hyderabad.",
+    "lines": [
+      { "speaker": "Kiran", "native": "అన్నా, నా ఫోన్ స్క్రీన్ పగిలిపోయింది. ఒకసారి చూస్తారా?", "roman": "annā, nā phōn skrīn pagilipōyindi. okasāri chūstārā?", "en": "Anna, my phone screen has cracked. Could you take a look?" },
+      { "speaker": "Raju", "native": "ఇవ్వండి... అబ్బా, బాగా పగిలింది. కింద పడిందా?", "roman": "ivvaṇḍi... abbā, bāgā pagilindi. kinda paḍindā?", "en": "Give it here... whoa, that's badly cracked. Did you drop it?" },
+      { "speaker": "Kiran", "native": "ఆటో దిగుతుంటే జేబులో నుంచి జారి పడింది.", "roman": "āṭō digutuṇṭē jēbulō nunchi jāri paḍindi.", "en": "It slipped out of my pocket as I was getting out of the auto." },
+      { "speaker": "Raju", "native": "స్క్రీన్ మార్చాలి. ఒరిజినల్ అయితే నాలుగు వేలు, లోకల్ అయితే రెండున్నర.", "roman": "skrīn mārchāli. orijinal ayitē nālugu vēlu, lōkal ayitē reṇḍunnara.", "en": "The screen needs replacing. An original one is four thousand, a local one two and a half." },
+      { "speaker": "Kiran", "native": "నాలుగు వేలా? కొంచెం తగ్గించండి అన్నా, నేను స్టూడెంట్‌ని.", "roman": "nālugu vēlā? konchem tagginchaṇḍi annā, nēnu sṭūḍeṇṭni.", "en": "Four thousand? Bring it down a bit, anna, I'm a student." },
+      { "speaker": "Raju", "native": "సరే, మూడున్నర ఇవ్వండి. అంతకంటే కుదరదు.", "roman": "sarē, mūḍunnara ivvaṇḍi. antakaṇṭē kudaradu.", "en": "OK, give me three and a half. I can't go lower than that." },
+      { "speaker": "Kiran", "native": "ఎప్పుడు రెడీ అవుతుంది? నాకు ఈరోజే కావాలి.", "roman": "eppuḍu reḍī avutundi? nāku īrōjē kāvāli.", "en": "When will it be ready? I need it today." },
+      { "speaker": "Raju", "native": "సాయంత్రం ఆరింటికల్లా చేసి ఇస్తాను. సిమ్ తీసుకోండి.", "roman": "sāyantram āriṇṭikallā chēsi istānu. sim tīsukōṇḍi.", "en": "I'll have it done for you by six this evening. Take your SIM out." },
+      { "speaker": "Kiran", "native": "అమ్మో, ఫోన్ లేకుండా ఆరు గంటలు! సరే. రసీదు ఇస్తారా?", "roman": "ammō, phōn lēkuṇḍā āru gaṇṭalu! sarē. rasīdu istārā?", "en": "Oh god, six hours without my phone! Fine. Can I have a receipt?" },
+      { "speaker": "Raju", "native": "ఇదిగోండి. ఈ రసీదు తెస్తేనే ఫోన్ ఇస్తాను, జాగ్రత్త.", "roman": "idigōṇḍi. ī rasīdu testēnē phōn istānu, jāgratta.", "en": "Here you go. I'll only hand the phone over if you bring this receipt, so look after it." },
+      { "speaker": "Kiran", "native": "అన్నా, ఆరు అయింది. ఫోన్ అయిందా?", "roman": "annā, āru ayindi. phōn ayindā?", "en": "Anna, it's six. Is the phone done?" },
+      { "speaker": "Raju", "native": "అయింది, చూడండి. కొత్త ఫోన్‌లా ఉంది కదా?", "roman": "ayindi, chūḍaṇḍi. kotta phōnlā undi kadā?", "en": "It's done, have a look. Looks like a new phone, doesn't it?" },
+      { "speaker": "Kiran", "native": "సూపర్! ఈసారి స్క్రీన్ గార్డ్ కూడా వేయించుకుంటాను.", "roman": "sūpar! īsāri skrīn gārḍ kūḍā vēyinchukuṇṭānu.", "en": "Super! This time I'll get a screen guard put on too." }
+    ]
+  },
+  "culture": "Errand language is a friendly mix of Telugu and English: nobody says *ఖాతా* for an account or *దర్జీ* for a tailor in a Hyderabad shop; it's *అకౌంట్*, *టైలర్*, *రిపేర్*, *రీఛార్జ్*, *జిరాక్స్*, each with a Telugu verb (*చేయు, చేయించు, తీయు*). Address a shopkeeper or mechanic around your age as **అన్నా** (brother), an older man as **అన్నగారు** or **బాబాయ్**, a woman as **అక్కా** or **అమ్మా**, and use **మీరు** forms with all of them; in Hyderabad you'll also hear the Urdu-flavoured *భయ్యా*. Carry a couple of Aadhaar photocopies: SIM shops, banks and offices all ask for a *జిరాక్స్*. Tailors are famous for missing their own deadlines, so people ask early and firmly (*శుక్రవారానికల్లా తప్పకుండా కావాలి*) and drop by to check (*అయిందా?*). Most streets have an *ఇస్త్రీ బండి*, an ironing cart with a charcoal iron, who charges per piece and often delivers to your door. At the chemist's, many medicines are sold over the counter, but for antibiotics and stronger drugs they will ask for the doctor's *చీటీ*.",
+  "lessons": [
+    {
+      "title": "At the bank and the ATM",
+      "new": ["ఏటీఎం", "అకౌంట్", "తీయు", "వేయు", "ఇక్కడ దగ్గర్లో ఏటీఎం ఉందా?", "ఏటీఎంలో డబ్బులు రావట్లేదు."],
+      "sentences": [
+        { "native": "నేను ఏటీఎంలో డబ్బులు తీయాలి.", "roman": "nēnu ēṭīemlō ḍabbulu tīyāli.", "en": "I need to get some cash out of the ATM." },
+        { "native": "ఈ ఏటీఎంలో డబ్బులు లేవు, ఇంకోటి చూడండి.", "roman": "ī ēṭīemlō ḍabbulu lēvu, iṅkōṭi chūḍaṇḍi.", "en": "This ATM is out of cash, try another one." },
+        { "native": "నిన్న అకౌంట్‌లో జీతం పడింది.", "roman": "ninna akauṇṭlō jītam paḍindi.", "en": "My salary came into my account yesterday." },
+        { "native": "అమ్మ అకౌంట్‌లో రెండు వేలు వేశాను.", "roman": "amma akauṇṭlō reṇḍu vēlu vēshānu.", "en": "I put two thousand into Mum's account." },
+        { "native": "ఈరోజు బ్యాంకుకి సెలవు, రేపు డబ్బులు వేస్తాను.", "roman": "īrōju byāṅkuki selavu, rēpu ḍabbulu vēstānu.", "en": "The bank's closed today; I'll deposit the money tomorrow." },
+        { "native": "నీ దగ్గర డబ్బులు ఉన్నాయా? ఏటీఎం పని చేయట్లేదు.", "roman": "nī daggara ḍabbulu unnāyā? ēṭīem pani chēyaṭlēdu.", "en": "Have you got any cash? The ATM isn't working." },
+        { "native": "మీకు ఈ బ్యాంకులో అకౌంట్ ఉందా?", "roman": "mīku ī byāṅkulō akauṇṭ undā?", "en": "Do you have an account with this bank?" },
+        { "native": "ఏటీఎంలో ఎంత తీశావు?", "roman": "ēṭīemlō enta tīshāvu?", "en": "How much did you take out at the ATM? (informal)" }
+      ]
+    },
+    {
+      "title": "Phone trouble: SIMs and repairs",
+      "tip": { "title": "Getting it done: -ఇంచు", "body": "- Add **-ఇంచు** to say you *get someone else* to do it: చేయు → **చేయించు**, వేయు → **వేయించు**, మార్చు → **మార్పించు**.\n- It conjugates like చూపించు: **చేయిస్తాను** (I'll get it done), **చేయించాను** (I got it done), **చేయించాలి** (I need to get it done).\n- Trap: ఫోన్ రిపేర్ **చేశాను** = I fixed it with my own hands.", "pattern": "ఫోన్ + రిపేర్ + చేయించాను", "grammar": 0 },
+      "new": ["సిమ్", "రీఛార్జ్", "రిపేర్", "బాగు చేయు", "స్క్రీన్", "బ్యాటరీ", "చేయించు", "నా సిమ్ పని చేయట్లేదు.", "అన్నా, ఇది బాగు చేస్తారా?", "రిపేర్‌కి ఎంత అవుతుంది?"],
+      "sentences": [
+        { "native": "నిన్న ఫోన్ రిపేర్ చేయించాను.", "roman": "ninna phōn ripēr chēyinchānu.", "en": "I got my phone repaired yesterday.", "focus": "చేయించాను", "wrong": ["చేశాను|chēshānu", "చేయిస్తాను|chēyistānu"] },
+        { "native": "నా ఫోన్ కింద పడింది, స్క్రీన్ మార్పించాలి.", "roman": "nā phōn kinda paḍindi, skrīn mārpinchāli.", "en": "I dropped my phone; I need to get the screen replaced.", "focus": "మార్పించాలి", "wrong": ["మార్పించాను|mārpinchānu", "మారాలి|mārāli"] },
+        { "native": "బ్యాటరీలో ఛార్జి ఉండట్లేదు, కొత్త బ్యాటరీ వేయించాలి.", "roman": "byāṭarīlō chhārji uṇḍaṭlēdu, kotta byāṭarī vēyinchāli.", "en": "The battery won't hold its charge; I need to get a new one put in.", "focus": "వేయించాలి", "wrong": ["వేయించాను|vēyinchānu", "వేస్తాను|vēstānu"] },
+        { "native": "ఫోన్ ఎక్కడ రిపేర్ చేయించావు?", "roman": "phōn ekkaḍa ripēr chēyinchāvu?", "en": "Where did you get your phone fixed? (informal)", "focus": "చేయించావు", "wrong": ["చేయించాను|chēyinchānu", "చేయిస్తాను|chēyistānu"] },
+        { "native": "నేను బాగు చేయలేను, షాపులో చేయిస్తాను.", "roman": "nēnu bāgu chēyalēnu, ṣāpulō chēyistānu.", "en": "I can't fix it myself; I'll get it done at a shop.", "focus": "చేయిస్తాను", "wrong": ["చేస్తాను|chēstānu", "చేయించాను|chēyinchānu"] },
+        { "native": "నాన్న పాత ఫోన్ బాగు చేయించారు.", "roman": "nānna pāta phōn bāgu chēyinchāru.", "en": "Dad got his old phone fixed.", "focus": "చేయించారు", "wrong": ["చేయించాను|chēyinchānu", "చేయిస్తారు|chēyistāru"] },
+        { "native": "ఈ నెల రీఛార్జ్ చేయించలేదు, అందుకే సిమ్ పని చేయట్లేదు.", "roman": "ī nela rīchhārj chēyinchalēdu, andukē sim pani chēyaṭlēdu.", "en": "I didn't get this month's recharge done; that's why the SIM isn't working.", "focus": "చేయించలేదు", "wrong": ["చేయించాను|chēyinchānu", "చేయించను|chēyinchanu"] },
+        { "native": "అమ్మ ఫోన్‌కి నేనే రీఛార్జ్ చేశాను.", "roman": "amma phōnki nēnē rīchhārj chēshānu.", "en": "I did Mum's recharge myself.", "focus": "చేశాను", "wrong": ["చేయించాను|chēyinchānu", "చేయిస్తాను|chēyistānu"] },
+        { "native": "స్క్రీన్ రిపేర్‌కి రెండు వేలు అవుతుంది అన్నాడు.", "roman": "skrīn ripērki reṇḍu vēlu avutundi annāḍu.", "en": "He said the screen repair would cost two thousand." },
+        { "native": "కొత్త సిమ్ ఎక్కడ దొరుకుతుంది?", "roman": "kotta sim ekkaḍa dorukutundi?", "en": "Where can I get a new SIM?" }
+      ]
+    },
+    {
+      "title": "Forms, copies and signatures",
+      "new": ["ఆధార్", "జిరాక్స్", "ఫారం", "నింపు", "సంతకం", "ఆధార్ జిరాక్స్ తెచ్చారా?", "ఈ ఫారం నింపి, ఇక్కడ సంతకం పెట్టండి."],
+      "sentences": [
+        { "native": "కొత్త సిమ్‌కి ఆధార్ కార్డు కావాలి.", "roman": "kotta simki ādhār kārḍu kāvāli.", "en": "You need your Aadhaar card for a new SIM." },
+        { "native": "దగ్గర్లో జిరాక్స్ షాపు ఉందా?", "roman": "daggarlō jirāks ṣāpu undā?", "en": "Is there a photocopy shop nearby?" },
+        { "native": "రెండు జిరాక్స్‌లు తీయించాలి.", "roman": "reṇḍu jirākslu tīyinchāli.", "en": "I need to get two photocopies made." },
+        { "native": "ఈ ఫారం ఎలా నింపాలి?", "roman": "ī phāram elā nimpāli?", "en": "How do I fill in this form?" },
+        { "native": "ఇక్కడ పేరు రాసి, కింద సంతకం పెట్టండి.", "roman": "ikkaḍa pēru rāsi, kinda santakam peṭṭaṇḍi.", "en": "Write your name here and sign at the bottom." },
+        { "native": "సంతకం ఎక్కడ పెట్టాలి?", "roman": "santakam ekkaḍa peṭṭāli?", "en": "Where do I sign?" },
+        { "native": "నేను ఆధార్ తేవడం మర్చిపోయాను.", "roman": "nēnu ādhār tēvaḍam marchipōyānu.", "en": "I forgot to bring my Aadhaar." },
+        { "native": "ఫారం నింపి నాకు ఇవ్వండి.", "roman": "phāram nimpi nāku ivvaṇḍi.", "en": "Fill in the form and give it to me." },
+        { "native": "జిరాక్స్ నా దగ్గర లేదు, ఫోన్‌లో ఉంది. చూపించనా?", "roman": "jirāks nā daggara lēdu, phōnlō undi. chūpinchanā?", "en": "I haven't got a copy on me, it's on my phone. Shall I show you?" }
+      ]
+    },
+    {
+      "title": "At the tailor's: is it ready yet?",
+      "tip": { "title": "By when: -కల్లా", "body": "- **కల్లా** 'by' (Unit 21) joins the **-కి** form of a day or time word: రేపు → రేపటికి → **రేపటికల్లా**; సాయంత్రం → **సాయంత్రానికల్లా**; ఆరింటికి → **ఆరింటికల్లా**.\n- Is it done? **అయిందా?** Not yet: **ఇంకా కాలేదు**.\n- When will it be ready? **ఎప్పుడు రెడీ అవుతుంది?**", "pattern": "రేపటికల్లా + verb", "grammar": 2 },
+      "new": ["టైలర్", "కుట్టు", "కొలతలు", "బ్లౌజు", "ఎప్పుడు రెడీ అవుతుంది?", "సాయంత్రానికల్లా ఇస్తాను."],
+      "sentences": [
+        { "native": "బ్లౌజు శుక్రవారానికల్లా కావాలి.", "roman": "blauju shukravārānikallā kāvāli.", "en": "I need the blouse by Friday.", "focus": "శుక్రవారానికల్లా", "wrong": ["శుక్రవారంలో|shukravāramlō", "శుక్రవారానికంటే|shukravārānikaṇṭē"] },
+        { "native": "రేపటికల్లా కుట్టి ఇస్తారా?", "roman": "rēpaṭikallā kuṭṭi istārā?", "en": "Can you have it stitched by tomorrow?", "focus": "రేపటికల్లా", "wrong": ["రేపటిలో|rēpaṭilō", "రేపటికంటే|rēpaṭikaṇṭē"] },
+        { "native": "పెళ్ళి ఆదివారం, శనివారానికల్లా రెడీ అవ్వాలి.", "roman": "peḷḷi ādivāram, shanivārānikallā reḍī avvāli.", "en": "The wedding's on Sunday, so it has to be ready by Saturday.", "focus": "శనివారానికల్లా", "wrong": ["శనివారంలో|shanivāramlō", "శనివారానికంటే|shanivārānikaṇṭē"] },
+        { "native": "ముందు కొలతలు తీసుకుంటాను.", "roman": "mundu kolatalu tīsukuṇṭānu.", "en": "First I'll take your measurements." },
+        { "native": "చొక్కా రెడీ అయిందా?", "roman": "chokkā reḍī ayindā?", "en": "Is the shirt ready?", "focus": "అయిందా", "wrong": ["అయింది|ayindi", "అవుతాను|avutānu"] },
+        { "native": "టైలర్ ఇంకా కుట్టలేదు, రేపు రమ్మన్నాడు.", "roman": "ṭailar iṅkā kuṭṭalēdu, rēpu rammannāḍu.", "en": "The tailor hasn't stitched it yet; he told me to come back tomorrow." },
+        { "native": "ఇంకా కాలేదా? ఎల్లుండికల్లా తప్పకుండా ఇవ్వాలి.", "roman": "iṅkā kālēdā? elluṇḍikallā tappakuṇḍā ivvāli.", "en": "Still not done? You must let me have it by the day after tomorrow.", "focus": "ఎల్లుండికల్లా", "wrong": ["ఎల్లుండిలో|elluṇḍilō", "ఎల్లుండికంటే|elluṇḍikaṇṭē"] },
+        { "native": "ఈ ప్యాంటు పొడవు కొంచెం తగ్గించండి.", "roman": "ī pyāṇṭu poḍavu konchem tagginchaṇḍi.", "en": "Please take these trousers up a little." },
+        { "native": "రాత్రి ఎనిమిదింటికల్లా ఇంట్లో ఉండాలి.", "roman": "rātri enimidiṇṭikallā iṇṭlō uṇḍāli.", "en": "I have to be home by eight tonight.", "focus": "ఎనిమిదింటికల్లా", "wrong": ["ఎనిమిదిలో|enimidilō", "ఎనిమిదింటికంటే|enimidiṇṭikaṇṭē"] },
+        { "native": "ఆరు గంటలకల్లా షాపుకి వస్తాను.", "roman": "āru gaṇṭalakallā ṣāpuki vastānu.", "en": "I'll come to the shop by six.", "focus": "గంటలకల్లా", "wrong": ["గంటలలో|gaṇṭalalō", "గంటలకంటే|gaṇṭalakaṇṭē"] }
+      ]
+    },
+    {
+      "title": "At the barber's or the salon",
+      "tip": { "title": "Done on you: -ఇంచుకో", "body": "- When the job is done **on you** or for yourself, add **-కో** to the causative: చేయించు → **చేయించుకో**.\n- కటింగ్ **చేయించుకున్నాను** (I got a haircut) · గడ్డం **చేయించుకుంటాను** (I'll get a shave) · డాక్టర్‌కి **చూపించుకో** (get yourself checked).\n- Past **-కున్నాను**, non-past **-కుంటాను**, must **-కోవాలి**.", "pattern": "కటింగ్ + చేయించుకున్నాను", "grammar": 1 },
+      "new": ["సెలూన్", "కటింగ్", "గడ్డం", "కటింగ్ చేయించుకోవాలి.", "జుట్టు కొంచెం తగ్గించండి, ఎక్కువ వద్దు."],
+      "sentences": [
+        { "native": "నిన్న కటింగ్ చేయించుకున్నాను, బాగుందా?", "roman": "ninna kaṭiṅg chēyinchukunnānu, bāgundā?", "en": "I got a haircut yesterday. Does it look OK?", "focus": "చేయించుకున్నాను", "wrong": ["చేయించుకుంటాను|chēyinchukuṇṭānu", "చేసుకున్నాను|chēsukunnānu"] },
+        { "native": "నువ్వు ఎక్కడ కటింగ్ చేయించుకుంటావు?", "roman": "nuvvu ekkaḍa kaṭiṅg chēyinchukuṇṭāvu?", "en": "Where do you get your hair cut? (informal)", "focus": "చేయించుకుంటావు", "wrong": ["చేయించుకుంటాను|chēyinchukuṇṭānu", "చేయించుకున్నారు|chēyinchukunnāru"] },
+        { "native": "గడ్డం కూడా చేయించుకుంటావా?", "roman": "gaḍḍam kūḍā chēyinchukuṇṭāvā?", "en": "Are you getting a shave too? (informal)", "focus": "చేయించుకుంటావా", "wrong": ["చేయించుకుంటాను|chēyinchukuṇṭānu", "చేయిస్తావా|chēyistāvā"] },
+        { "native": "నీ జుట్టు చాలా పొడవుగా ఉంది, కటింగ్ చేయించుకో.", "roman": "nī juṭṭu chālā poḍavugā undi, kaṭiṅg chēyinchukō.", "en": "Your hair is really long, go and get a haircut. (informal)", "focus": "చేయించుకో", "wrong": ["చేయించుకున్నాను|chēyinchukunnānu", "చేయించు|chēyinchu"] },
+        { "native": "ఆదివారం సెలూన్‌లో చాలా మంది ఉంటారు.", "roman": "ādivāram selūnlō chālā mandi uṇṭāru.", "en": "On Sundays the barber's is packed." },
+        { "native": "జ్వరం తగ్గకపోతే డాక్టర్‌కి చూపించుకో.", "roman": "jvaram taggakapōtē ḍākṭarki chūpinchukō.", "en": "If the fever doesn't come down, get yourself checked by a doctor. (informal)", "focus": "చూపించుకో", "wrong": ["చూపించు|chūpinchu", "చూపించుకున్నాను|chūpinchukunnānu"] },
+        { "native": "కటింగ్‌కి ఎంత, గడ్డానికి ఎంత?", "roman": "kaṭiṅgki enta, gaḍḍāniki enta?", "en": "How much for a haircut, and how much for a shave?" },
+        { "native": "అక్క పెళ్ళి కోసం బ్లౌజు కుట్టించుకుంది.", "roman": "akka peḷḷi kōsam blauju kuṭṭinchukundi.", "en": "My sister had a blouse made for the wedding.", "focus": "కుట్టించుకుంది", "wrong": ["కుట్టించుకున్నాను|kuṭṭinchukunnānu", "కుట్టుకుంది|kuṭṭukundi"] },
+        { "native": "నేను ఇంట్లోనే గడ్డం చేసుకుంటాను.", "roman": "nēnu iṇṭlōnē gaḍḍam chēsukuṇṭānu.", "en": "I shave at home myself.", "focus": "చేసుకుంటాను", "wrong": ["చేయించుకుంటాను|chēyinchukuṇṭānu", "చేసుకున్నారు|chēsukunnāru"] },
+        { "native": "పక్కన బాగా తగ్గించండి, ముందు కొంచెం చాలు.", "roman": "pakkana bāgā tagginchaṇḍi, mundu konchem chālu.", "en": "Take plenty off the sides, just a little at the front." }
+      ]
+    },
+    {
+      "title": "Laundry and the chemist",
+      "tip": { "title": "Do it for me: -ఇ ఇవ్వు / -ఇ పెట్టు", "body": "- Ask for a job done *for you* with the -ఇ form + **ఇవ్వు** or **పెట్టు**: ఇస్త్రీ **చేసి** పెట్టండి, మందులు **తెచ్చి** పెట్టు.\n- Shopkeepers promise the same way: **చేసి ఇస్తాను**, **కుట్టి ఇస్తాను**, **ఉతికి ఇస్తాం**.\n- పెట్టు non-past: **పెడతాను, పెడతావా?**", "pattern": "చేసి + ఇవ్వు / పెట్టు", "grammar": 1 },
+      "new": ["ఇస్త్రీ", "లాండ్రీ", "మెడికల్ షాపు", "చీటీ", "ఇవి ఇస్త్రీ చేసి పెట్టండి.", "ఈ చీటీలో మందులు ఇవ్వండి."],
+      "sentences": [
+        { "native": "ఈ చొక్కాలు ఇస్త్రీ చేసి ఇస్తారా?", "roman": "ī chokkālu istrī chēsi istārā?", "en": "Could you iron these shirts for me?", "focus": "చేసి", "wrong": ["చేశాను|chēshānu", "చేస్తే|chēstē"] },
+        { "native": "లాండ్రీ నుంచి బట్టలు తెచ్చి పెడతావా?", "roman": "lāṇḍrī nunchi baṭṭalu techchi peḍatāvā?", "en": "Could you pick up the clothes from the laundry for me? (informal)", "focus": "పెడతావా", "wrong": ["పెట్టావా|peṭṭāvā", "పెడతాను|peḍatānu"] },
+        { "native": "ఇస్త్రీ బండి అన్న బట్టలు ఇంటికి తెచ్చి ఇస్తాడు.", "roman": "istrī baṇḍi anna baṭṭalu iṇṭiki techchi istāḍu.", "en": "The ironing man brings the clothes back to your door.", "focus": "తెచ్చి", "wrong": ["తెచ్చాడు|techchāḍu", "తెస్తే|testē"] },
+        { "native": "అమ్మకి మందులు తెచ్చి ఇవ్వాలి.", "roman": "ammaki mandulu techchi ivvāli.", "en": "I have to get Mum her medicines.", "focus": "తెచ్చి", "wrong": ["తెచ్చాను|techchānu", "తెస్తే|testē"] },
+        { "native": "లాండ్రీలో బట్టలు రేపటికల్లా ఉతికి ఇస్తారు.", "roman": "lāṇḍrīlō baṭṭalu rēpaṭikallā utiki istāru.", "en": "The laundry will have the clothes washed and back by tomorrow.", "focus": "ఉతికి", "wrong": ["ఉతికారు|utikāru", "ఉతుకు|utuku"] },
+        { "native": "నువ్వు మెడికల్ షాపుకి వెళ్తే, నాకు దగ్గు మందు తెచ్చి పెట్టు.", "roman": "nuvvu meḍikal ṣāpuki veḷtē, nāku daggu mandu techchi peṭṭu.", "en": "If you're going to the chemist's, get me some cough medicine. (informal)", "focus": "పెట్టు", "wrong": ["పెట్టాను|peṭṭānu", "పెడతాను|peḍatānu"] },
+        { "native": "మెడికల్ షాపులో ఈ మందు దొరుకుతుందా?", "roman": "meḍikal ṣāpulō ī mandu dorukutundā?", "en": "Can I get this medicine at the chemist's?" },
+        { "native": "డాక్టర్ చీటీ లేకుండా ఈ మందు ఇవ్వం.", "roman": "ḍākṭar chīṭī lēkuṇḍā ī mandu ivvam.", "en": "We can't give this medicine without a prescription." },
+        { "native": "నా చీటీ ఇంట్లో మర్చిపోయాను.", "roman": "nā chīṭī iṇṭlō marchipōyānu.", "en": "I left my prescription at home." }
+      ]
+    },
+    {
+      "title": "Sending a parcel",
+      "new": ["కొరియర్", "పార్సెల్", "రసీదు", "ఈ పార్సెల్ బెంగళూరుకి పంపాలి.", "ఎన్ని రోజుల్లో చేరుతుంది?", "రసీదు ఇవ్వండి."],
+      "sentences": [
+        { "native": "ఈ పార్సెల్ విజయవాడకి కొరియర్ చేయాలి.", "roman": "ī pārsel vijayavāḍaki koriyar chēyāli.", "en": "I need to courier this parcel to Vijayawada." },
+        { "native": "లోపల ఏముంది? బట్టలు, పుస్తకాలు.", "roman": "lōpala ēmundi? baṭṭalu, pustakālu.", "en": "What's inside? Clothes and books." },
+        { "native": "రేపటికల్లా చేరుతుందా?", "roman": "rēpaṭikallā chērutundā?", "en": "Will it get there by tomorrow?" },
+        { "native": "సాధారణంగా మూడు రోజుల్లో చేరుతుంది.", "roman": "sādhāraṇaṅgā mūḍu rōjullō chērutundi.", "en": "It usually gets there in three days." },
+        { "native": "పార్సెల్ మీద చిరునామా పెద్దగా రాయండి.", "roman": "pārsel mīda chirunāmā peddagā rāyaṇḍi.", "en": "Write the address in big letters on the parcel." },
+        { "native": "పార్సెల్ ఇంకా చేరలేదు, రసీదు ఉందా?", "roman": "pārsel iṅkā chēralēdu, rasīdu undā?", "en": "The parcel hasn't arrived yet. Have you got the receipt?" },
+        { "native": "ఈ రసీదు జాగ్రత్తగా దాచుకోండి.", "roman": "ī rasīdu jāgrattagā dāchukōṇḍi.", "en": "Keep this receipt somewhere safe." },
+        { "native": "అమ్మ నాకు ఇంటి నుంచి ఒక పెట్టె కొరియర్ చేసింది.", "roman": "amma nāku iṇṭi nunchi oka peṭṭe koriyar chēsindi.", "en": "Mum couriered me a box from home." }
+      ]
+    }
+  ]
+}

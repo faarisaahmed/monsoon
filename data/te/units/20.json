@@ -1,69 +1,72 @@
 {
   "id": 20,
-  "title": "Telling stories & real conversation",
-  "goal": "Tell a simple story, report what others said, describe people and things with relative clauses, and sound natural with fillers and idioms.",
-  "intro": "Real Telugu conversation is full of little words that glue it together: *అంటే* (I mean), *మరి* (so, well), *అసలు* (actually), *కదా* (isn't it?), *ఏమో* (who knows). This final unit gives you those, plus the two structures you need for storytelling: **relative clauses** (the man *who came*) and **reported speech** (he said *that*...).\n\nTelugu stories traditionally begin with *ఒకప్పుడు...* ('once upon a time'), and the most loved trickster of all is the poet **Tenali Ramakrishna**.",
+  "title": "Real conversation",
+  "goal": "Tell a friend what happened, react while they tell you their news, pass on what people said and keep a chat going.",
+  "intro": "This last unit of Part 1 is about the thing you have been working towards: **real conversation**. You'll learn how Telugu speakers tell a friend what happened (**అసలు ఏం జరిగిందంటే...** 'so what actually happened was...'), how listeners react (**నిజంగానా?**, **బాబోయ్!**, **హమ్మయ్య!**), and the little words that keep a chat moving: **అంటే** (I mean), **మరి** (so, and what about), **కదా** (right?), **అన్నట్టు** (by the way), **ఇంతకీ** (so anyway).\n\nTwo structures let you build longer sentences: **relative clauses** (*నిన్న నేను కలిసిన అమ్మాయి*, 'the girl I met yesterday') and **reported speech** with **అని** (*వస్తా అన్నాడు*, 'he said he'd come'). You'll also start hearing the short spoken verb forms friends use: *వెళ్ళా* for *వెళ్ళాను*, *చెప్తా* for *చెప్తాను*.",
   "vocab": [
-    { "native": "కథ", "roman": "katha", "en": "story", "pos": "noun" },
-    { "native": "ఒకప్పుడు", "roman": "okappuḍu", "en": "once upon a time; in the past", "pos": "adv" },
-    { "native": "రాజు", "roman": "rāju", "en": "king", "pos": "noun" },
-    { "native": "జనం", "roman": "janam", "en": "people, the public, a crowd", "pos": "noun" },
-    { "native": "సంగతి", "roman": "saṅgati", "en": "matter, news, what's up", "pos": "noun", "note": "ఏంటి సంగతి? = what's up?" },
-    { "native": "విషయం", "roman": "viṣayam", "en": "matter, subject, thing", "pos": "noun" },
-    { "native": "సామెత", "roman": "sāmeta", "en": "proverb, saying", "pos": "noun" },
-    { "native": "తెలివి", "roman": "telivi", "en": "intelligence, cleverness", "pos": "noun", "note": "Clever: తెలివైన." },
-    { "native": "అను", "roman": "anu", "en": "to say (used in quoting)", "pos": "verb", "note": "అన్నాడు (he said), అంది (she said), అంటారు (they say)" },
-    { "native": "అంటే", "roman": "aṇṭē", "en": "that is, I mean; if one says", "pos": "conj" },
-    { "native": "మరి", "roman": "mari", "en": "well, so, and then; then what about", "pos": "particle" },
-    { "native": "అసలు", "roman": "asalu", "en": "actually, really; (with neg.) at all", "pos": "adv" },
-    { "native": "నిజానికి", "roman": "nijāniki", "en": "in fact, actually", "pos": "adv" },
-    { "native": "ఏమో", "roman": "ēmō", "en": "who knows, I'm not sure", "pos": "interj" },
-    { "native": "కదా", "roman": "kadā", "en": "isn't it?, right?, you know", "pos": "particle" },
+    { "native": "సంగతి", "roman": "saṅgati", "en": "news, matter; what's going on", "pos": "noun", "note": "ఏంటి సంగతి? = what's up? · plural సంగతులు" },
+    { "native": "విషయం", "roman": "viṣayam", "en": "matter, thing; the point", "pos": "noun", "note": "విషయం ఏంటంటే... = the thing is... · పెద్ద విషయం కాదు = it's no big deal" },
+    { "native": "కథ", "roman": "katha", "en": "story; (colloquial) saga, drama", "pos": "noun", "note": "అదో పెద్ద కథ = it's a long story" },
+    { "native": "గొడవ", "roman": "goḍava", "en": "fight, argument, row; fuss, trouble", "pos": "noun", "note": "గొడవ పడు = to fight, quarrel · గొడవ చేయు = to make a fuss" },
+    { "native": "జోక్", "roman": "jōk", "en": "joke", "pos": "noun", "note": "English loan · జోక్ చేయు = to joke, kid · జోకులు వేయు = to crack jokes" },
+    { "native": "అబద్ధం", "roman": "abaddham", "en": "lie", "pos": "noun", "note": "అబద్ధం చెప్పు = to tell a lie · అబద్ధాలు = lies" },
+    { "native": "మాట", "roman": "māṭa", "en": "word; what someone says", "pos": "noun", "note": "నా మాట విను = listen to me · మాట ఇచ్చాను = I gave my word" },
+    { "native": "అను", "roman": "anu", "en": "to say (used for quoting)", "pos": "verb", "note": "past అన్నాను (spoken అన్నా), అన్నాడు, అంది, అన్నారు · non-past అంటాను, అంటాడు, అంటుంది · didn't say: అనలేదు" },
+    { "native": "గురించి", "roman": "gurinchi", "en": "about", "pos": "postp", "note": "after the oblique form: నీ గురించి (about you), దాని గురించి (about it), సినిమా గురించి" },
+    { "native": "అంటే", "roman": "aṇṭē", "en": "I mean, that is; so you mean...", "pos": "conj", "note": "Literally 'if one says'. Also introduces an explanation: ఏం జరిగిందంటే... (what happened is...)" },
+    { "native": "మరి", "roman": "mari", "en": "so, well; and what about...?", "pos": "particle", "note": "మరి నువ్వు? = and you? · మరి ఇప్పుడు? = so now what?" },
+    { "native": "అసలు", "roman": "asalu", "en": "actually, really; (with a negative) at all", "pos": "adv", "note": "అసలు రాలేదు = didn't come at all · stronger: అస్సలు" },
+    { "native": "నిజానికి", "roman": "nijāniki", "en": "in fact, actually, to be honest", "pos": "adv" },
+    { "native": "నిజంగా", "roman": "nijaṅgā", "en": "really, truly", "pos": "adv", "note": "నిజంగా? = really? · నిజంగానా? = seriously?" },
+    { "native": "ఏమో", "roman": "ēmō", "en": "who knows, I'm not sure", "pos": "interj", "note": "After a question word + -ఓ: వస్తాడో రాడో ఏమో = who knows if he'll come or not" },
+    { "native": "కదా", "roman": "kadā", "en": "isn't it?, right?, you know", "pos": "particle", "note": "Asks for agreement or reminds: నువ్వు వస్తావు కదా? = you're coming, right?" },
+    { "native": "అన్నట్టు", "roman": "annaṭṭu", "en": "by the way", "pos": "adv", "note": "Opens a new topic you've just remembered: అన్నట్టు, రవి ఫోన్ చేశాడా?" },
+    { "native": "ఇంతకీ", "roman": "intakī", "en": "so anyway, so (getting to the point)", "pos": "adv", "note": "Brings the chat back to the main question: ఇంతకీ ఏమైంది? = so what happened in the end?" },
+    { "native": "మొత్తానికి", "roman": "mottāniki", "en": "in the end, all in all; finally (after some trouble)", "pos": "adv" },
     { "native": "మొదట", "roman": "modaṭa", "en": "first, at first", "pos": "adv" },
     { "native": "చివరికి", "roman": "chivariki", "en": "finally, in the end", "pos": "adv" },
     { "native": "ఇంతలో", "roman": "intalō", "en": "meanwhile, just then", "pos": "adv" },
-    { "native": "అప్పటి నుంచి", "roman": "appaṭi nunchi", "en": "from then on, since then", "pos": "adv" },
-    { "native": "ఉదాహరణకి", "roman": "udāharaṇaki", "en": "for example", "pos": "adv" },
     { "native": "ఏదేమైనా", "roman": "ēdēmainā", "en": "anyway, whatever the case", "pos": "adv" },
-    { "native": "అలాగైతే", "roman": "alāgaitē", "en": "in that case", "pos": "conj" },
-    { "native": "పోనీ", "roman": "pōnī", "en": "well then; never mind; how about", "pos": "interj", "note": "పోనీలే = never mind, let it go." },
+    { "native": "పోనీ", "roman": "pōnī", "en": "well then, how about...; never mind", "pos": "interj", "note": "పోనీ, రేపు? = how about tomorrow then? · పోనీలే = never mind, let it go" },
     { "native": "అబ్బా", "roman": "abbā", "en": "wow!; ugh!; ouch!", "pos": "interj" },
     { "native": "హమ్మయ్య", "roman": "hammayya", "en": "phew!, what a relief", "pos": "interj" },
-    { "native": "పారిపో", "roman": "pāripō", "en": "to run away, flee", "pos": "verb" },
-    { "native": "గెలుచు", "roman": "geluchu", "en": "to win", "pos": "verb", "note": "గెలుస్తాను, గెలిచాను" },
-    { "native": "నమ్మకం", "roman": "nammakam", "en": "belief, trust, faith", "pos": "noun" }
+    { "native": "బాబోయ్", "roman": "bābōy", "en": "oh my god!, yikes!", "pos": "interj", "note": "For shock or fear; stronger: అయ్యబాబోయ్!" },
+    { "native": "అరే", "roman": "arē", "en": "hey!, oh!", "pos": "interj", "note": "Surprise, or calling a friend's attention" },
+    { "native": "పిచ్చి", "roman": "pichchi", "en": "madness; crazy", "pos": "noun", "note": "నీకేమైనా పిచ్చా? = are you crazy? · పిచ్చోడు = crazy guy (often affectionate between friends)" }
   ],
   "phrases": [
-    { "native": "అసలు ఏం జరిగిందంటే...", "roman": "asalu ēm jarigindaṇṭē...", "en": "What actually happened was..." },
-    { "native": "ఆ తర్వాత ఏమైంది?", "roman": "ā tarvāta ēmaindi?", "en": "What happened next?" },
-    { "native": "అంతే!", "roman": "antē!", "en": "That's all! / That's it!" },
+    { "native": "ఏంటి సంగతి?", "roman": "ēṇṭi saṅgati?", "en": "What's up? (informal)", "note": "Careful form: ఏమిటి సంగతి?" },
+    { "native": "అసలు ఏం జరిగిందంటే...", "roman": "asalu ēm jarigindaṇṭē...", "en": "So what actually happened was..." },
+    { "native": "ఇదో పెద్ద కథ.", "roman": "idō pedda katha.", "en": "It's a long story." },
+    { "native": "ఆ తర్వాత ఏమైంది?", "roman": "ā tarvāta ēmaindi?", "en": "Then what happened?" },
+    { "native": "నిజంగానా?", "roman": "nijaṅgānā?", "en": "Seriously? / Really?" },
+    { "native": "జోక్ చేస్తున్నావా?", "roman": "jōk chēstunnāvā?", "en": "Are you kidding? (informal)", "note": "Polite: జోక్ చేస్తున్నారా?" },
+    { "native": "నమ్మలేకపోతున్నా!", "roman": "nammalēkapōtunnā!", "en": "I can't believe it!", "note": "Careful form: నమ్మలేకపోతున్నాను" },
+    { "native": "చెవిలో పువ్వు పెట్టకు!", "roman": "chevilō puvvu peṭṭaku!", "en": "Don't try to fool me! (lit. don't put a flower in my ear)" },
+    { "native": "అదే కదా నేను చెప్పేది!", "roman": "adē kadā nēnu cheppēdi!", "en": "That's exactly what I'm saying!" },
     { "native": "ఏమో, నాకు తెలీదు.", "roman": "ēmō, nāku telīdu.", "en": "Who knows, I've no idea." },
     { "native": "ఇంకేంటి సంగతులు?", "roman": "iṅkēṇṭi saṅgatulu?", "en": "So, what else is new?" },
-    { "native": "అదే కదా నేను చెప్పేది!", "roman": "adē kadā nēnu cheppēdi!", "en": "That's exactly what I'm saying!" },
-    { "native": "మరి ఇప్పుడు ఏం చేద్దాం?", "roman": "mari ippuḍu ēm chēddām?", "en": "So what shall we do now?" },
-    { "native": "పోనీలే, వదిలేయ్.", "roman": "pōnīlē, vadilēy.", "en": "Never mind, let it go. (informal)" },
-    { "native": "చెవిలో పువ్వు పెట్టకు!", "roman": "chevilō puvvu peṭṭaku!", "en": "Don't try to fool me! (lit. don't put a flower in my ear)" },
-    { "native": "హమ్మయ్య, అయిపోయింది!", "roman": "hammayya, ayipōyindi!", "en": "Phew, it's over!" },
-    { "native": "ఒకప్పుడు ఒక ఊళ్ళో ఒక రాజు ఉండేవాడు.", "roman": "okappuḍu oka ūḷḷō oka rāju uṇḍēvāḍu.", "en": "Once upon a time, in a certain town, there lived a king." },
-    { "native": "అందని ద్రాక్ష పుల్లన.", "roman": "andani drākṣa pullana.", "en": "Sour grapes. (lit. the grapes you can't reach are sour)" }
+    { "native": "ఎక్కడి దాకా చెప్పాను?", "roman": "ekkaḍi dākā cheppānu?", "en": "Where was I? (lit. up to where did I tell?)", "note": "దాకా is the everyday word for వరకు (up to)" },
+    { "native": "పోనీలే, వదిలేయ్.", "roman": "pōnīlē, vadilēy.", "en": "Never mind, let it go. (informal)", "note": "Polite: పోనీలెండి, వదిలేయండి." },
+    { "native": "హమ్మయ్య, అయిపోయింది!", "roman": "hammayya, ayipōyindi!", "en": "Phew, it's over!" }
   ],
   "grammar": [
     {
-      "title": "Relative clauses: the man who came",
-      "body": "Telugu has no 'who/which/that'. Instead, the verb becomes an **adjective-like participle** placed **before** the noun:\n• past **-ఇన** (-ina): *వచ్చిన అబ్బాయి* (the boy who came), *నేను చదివిన పుస్తకం* (the book I read)\n• non-past **-ఏ** (-ē): *వచ్చే బస్సు* (the bus that comes / will come), *తెలుగు మాట్లాడే వాళ్ళు* (people who speak Telugu)\n• negative **-అని** (-ani): *రాని వాళ్ళు* (those who don't come)\n\nAdd **-వాడు / -వాళ్ళు / -ది** to make 'the one who': *చేసేవాళ్ళు* (those who do), *మీరు చెప్పింది* (what you said).\n\nThe past habitual 'used to' is the non-past participle + **-వాడు / -ది / -వాళ్ళు**: *ఉండేవాడు* (he used to live), *పారిపోయేది* (it used to run away).",
+      "title": "Relative clauses: the girl I met, the bus that goes",
+      "body": "Telugu has no words for 'who / which / that'. Instead the verb turns into an **adjective-like participle** and goes **before** the noun, with everything that belongs to it in front:\n• past **-ఇన** (-ina): *వచ్చిన అబ్బాయి* (the boy who came), *నేను కలిసిన అమ్మాయి* (the girl I met), *నువ్వు చెప్పిన హోటల్* (the place you told me about)\n• non-past **-ఏ** (-ē): *వెళ్ళే బస్సు* (the bus that goes / will go), *తెలుగు మాట్లాడే ఫ్రెండ్స్* (friends who speak Telugu)\n• negative **-అని** (-ani): *రాని వాళ్ళు* (those who don't / didn't come)\n\nTo say **'the one who / the thing that'**, add **-వాడు** (man), **-ది** (woman or thing) or **-వాళ్ళు** (people) to the participle: *వచ్చినవాడు* (the guy who came), *నువ్వు అన్నది* (what you said), *నేను చెప్పేది* (what I'm saying).\n\nThe trap: English puts the clause after the noun ('the girl *I met yesterday*'); Telugu puts it before, and the clause's verb takes the participle form, not a normal ending: say *నిన్న కలిసిన అమ్మాయి*, not *అమ్మాయి నిన్న కలిశాను*.",
       "examples": [
-        { "native": "నిన్న వచ్చిన అబ్బాయి మా తమ్ముడు.", "roman": "ninna vachchina abbāyi mā tammuḍu.", "en": "The boy who came yesterday is my younger brother." },
-        { "native": "నేను చదివిన పుస్తకం చాలా బాగుంది.", "roman": "nēnu chadivina pustakam chālā bāgundi.", "en": "The book I read is very good." },
-        { "native": "హైదరాబాదు వెళ్ళే బస్సు ఇదేనా?", "roman": "haidarābādu veḷḷē bassu idēnā?", "en": "Is this the bus that goes to Hyderabad?" },
-        { "native": "తెలుగు మాట్లాడే విదేశీయులు తక్కువ.", "roman": "telugu māṭlāḍē vidēshīyulu takkuva.", "en": "Few foreigners speak Telugu. (lit. Telugu-speaking foreigners are few)" },
-        { "native": "కష్టపడి పని చేసేవాళ్ళు గెలుస్తారు.", "roman": "kaṣṭapaḍi pani chēsēvāḷḷu gelustāru.", "en": "Those who work hard succeed." }
+        { "native": "పార్టీలో మనం కలిసిన అమ్మాయి పేరు ఏంటి?", "roman": "pārṭīlō manam kalisina ammāyi pēru ēṇṭi?", "en": "What's the name of the girl we met at the party?" },
+        { "native": "నువ్వు చెప్పిన సినిమా చూశాను, సూపర్‌గా ఉంది.", "roman": "nuvvu cheppina sinimā chūshānu, sūpargā undi.", "en": "I watched the film you told me about, it was great." },
+        { "native": "కోఠీ వెళ్ళే బస్సు ఇదేనా?", "roman": "kōṭhī veḷḷē bassu idēnā?", "en": "Is this the bus that goes to Koti?" },
+        { "native": "తెలుగు మాట్లాడే ఫ్రెండ్స్ ఉంటే తొందరగా నేర్చుకుంటావు.", "roman": "telugu māṭlāḍē phreṇḍs uṇṭē tondaragā nērchukuṇṭāvu.", "en": "If you have friends who speak Telugu, you'll learn fast." },
+        { "native": "నువ్వు అన్నది నిజమే.", "roman": "nuvvu annadi nijamē.", "en": "What you said is true." }
       ]
     },
     {
-      "title": "Reported speech: అని and -మని",
-      "body": "Telugu usually keeps the speaker's **original words**, closed with **అని**, before a verb of saying: *\"రేపు వస్తాను\" అని అన్నాడు* = he said, 'I'll come tomorrow' = he said he'd come tomorrow. Questions are reported the same way with **అడుగు** (ask).\n\n**Reported commands** use **-మని** on the verb: *రమ్మని చెప్పారు* (they told [me] to come), *వెళ్ళమని అన్నారు* (they said to go).\n\n**Hearsay** ('apparently, they say') is the suffix **-అట** (-aṭa) on the verb, as in Unit 13.",
+      "title": "Reported speech: అని, -మని and -అట",
+      "body": "Telugu keeps the speaker's **own words** and closes them with **అని**, then adds a verb of saying: *ఐదు నిమిషాల్లో వస్తా అని అన్నాడు* = he said 'I'll come in five minutes' = he said he'd come in five minutes. Notice that the quoted verb stays in the first person (*వస్తా*, I'll come). Questions are reported the same way with **అడుగు** (ask): *ఎక్కడ ఉన్నావు అని అడిగింది* (she asked where you were).\n\nIn speech **అని + అను** usually fuse: *వస్తా అని అన్నాడు* → *వస్తానన్నాడు* (vastānannāḍu); after a verb in -ఆ just *వస్తా అన్నాడు*.\n\n**Reported commands** use **-మని** on the verb stem: *రమ్మని చెప్పింది* (she told [me] to come), *తీసుకోమని చెప్పారు* (they told [me] to take it). Fused: *రమ్మంది*, *వెళ్ళమన్నాడు*.\n\n**Hearsay**, 'apparently / I heard that', is **-అట** (-aṭa) on the verb: *పెళ్ళైందట* (apparently [she] got married), *రారట* (apparently they're not coming). It's the gossip ending.",
       "examples": [
-        { "native": "రేపు వస్తాను అని అన్నాడు.", "roman": "rēpu vastānu ani annāḍu.", "en": "He said he'd come tomorrow." },
+        { "native": "ఐదు నిమిషాల్లో వస్తా అన్నాడు.", "roman": "aidu nimiṣāllō vastā annāḍu.", "en": "He said he'd be here in five minutes." },
         { "native": "నువ్వు ఎక్కడ ఉన్నావు అని అమ్మ అడిగింది.", "roman": "nuvvu ekkaḍa unnāvu ani amma aḍigindi.", "en": "Mum asked where you were." },
         { "native": "నన్ను తొందరగా రమ్మని చెప్పారు.", "roman": "nannu tondaragā rammani cheppāru.", "en": "They told me to come early." },
         { "native": "ఆమెకి పెళ్ళైందట.", "roman": "āmeki peḷḷaindaṭa.", "en": "Apparently she got married." },
@@ -71,33 +74,136 @@
       ]
     },
     {
-      "title": "Fillers and proverbs",
-      "body": "Sprinkle these and you'll sound much more natural:\n**అంటే...** (I mean...) · **మరి** (so / well / and what about...) · **అసలు** (actually; *అసలు రాలేదు*, didn't come at all) · **కదా** (right?) · **ఏమో** (who knows) · **అబ్బా!** (wow / ugh) · **హమ్మయ్య!** (phew) · **పోనీలే** (never mind) · **అంతే** (that's all).\n\nTelugu is rich in proverbs (*సామెతలు*), used constantly in conversation:\n*ఆలస్యం అమృతం విషం* (delay turns nectar into poison) · *కోటి విద్యలు కూటి కొరకే* (all the world's skills are for a meal = we all work to eat) · *ఇంట గెలిచి రచ్చ గెలువు* (win at home first, then in public) · *అందని ద్రాక్ష పుల్లన* (sour grapes).",
+      "title": "Telling it and reacting: story words, fillers, reactions",
+      "body": "**Telling a story.** Start with **అసలు ఏం జరిగిందంటే...** or **విషయం ఏంటంటే...** ('the thing is...'): *-అంటే* after a question turns it into an introduction. Then string events together with **మొదట** (first), **ఆ తర్వాత** (after that), **ఇంతలో** (just then), **చివరికి** (in the end) and **మొత్తానికి** (in the end, after all that).\n\n**Spoken verb forms.** In chat with friends the final **-ను** of 'I' forms drops: *వెళ్ళాను → వెళ్ళా*, *చెప్తాను → చెప్తా*, *ఉన్నాను → ఉన్నా*. Use the full form when writing or speaking politely.\n\n**Keeping the chat going.** **అంటే** (I mean / so you mean) · **మరి** (so, and what about) · **అసలు** (actually; with a negative 'at all') · **కదా** (right?) · **అన్నట్టు** (by the way) · **ఇంతకీ** (so anyway) · **ఏదేమైనా** (anyway) · **పోనీ** (how about / never mind).\n\n**Reacting.** A Telugu listener is never silent: **ఊ** (mm), **అవునా?** (oh yeah?), **నిజంగానా?** (seriously?), **తర్వాత?** (and then?), **అబ్బా!** (wow / ugh), **బాబోయ్!** (yikes), **అయ్యో, పాపం** (oh no, poor thing), **హమ్మయ్య!** (phew).",
       "examples": [
-        { "native": "అంటే, నేను చెప్పేది ఏమిటంటే...", "roman": "aṇṭē, nēnu cheppēdi ēmiṭaṇṭē...", "en": "I mean, what I'm saying is..." },
-        { "native": "మరి మీరు?", "roman": "mari mīru?", "en": "And what about you?" },
+        { "native": "అసలు విషయం ఏంటంటే, నాకు ఉద్యోగం దొరికింది!", "roman": "asalu viṣayam ēṇṭaṇṭē, nāku udyōgam dorikindi!", "en": "The real news is, I got the job!" },
+        { "native": "మరి నువ్వు?", "roman": "mari nuvvu?", "en": "And what about you?" },
         { "native": "అతను అసలు రాలేదు.", "roman": "atanu asalu rālēdu.", "en": "He didn't come at all." },
-        { "native": "ఆలస్యం అమృతం విషం.", "roman": "ālasyam amrutam viṣam.", "en": "Delay turns nectar into poison. (Don't put it off.)" },
-        { "native": "కోటి విద్యలు కూటి కొరకే.", "roman": "kōṭi vidyalu kūṭi korakē.", "en": "All skills are for earning one's bread." }
+        { "native": "అన్నట్టు, రవి ఫోన్ చేశాడా?", "roman": "annaṭṭu, ravi phōn chēshāḍā?", "en": "By the way, did Ravi call?" },
+        { "native": "మొదట భయపడ్డా, కానీ మొత్తానికి బాగానే జరిగింది.", "roman": "modaṭa bhayapaḍḍā, kānī mottāniki bāgānē jarigindi.", "en": "I was scared at first, but all in all it went fine." }
       ]
     }
   ],
   "dialogue": {
-    "title": "Tenali Ramakrishna's cat",
-    "setting": "Ammamma (grandmother) tells her grandson Chintu a Tenali Ramakrishna story at bedtime.",
+    "title": "The interview story",
+    "setting": "Hyderabad. Kiran meets his friend Sravani for Irani chai the day after her job interview.",
     "lines": [
-      { "speaker": "Chintu", "native": "అమ్మమ్మా, ఒక కథ చెప్పవా?", "roman": "ammammā, oka katha cheppavā?", "en": "Grandma, won't you tell me a story?" },
-      { "speaker": "Ammamma", "native": "సరే విను. ఒకప్పుడు విజయనగరంలో తెనాలి రామకృష్ణుడు అనే కవి ఉండేవాడు.", "roman": "sarē vinu. okappuḍu vijayanagaramlō tenāli rāmakruṣṇuḍu anē kavi uṇḍēvāḍu.", "en": "All right, listen. Once upon a time in Vijayanagara there lived a poet called Tenali Ramakrishna." },
-      { "speaker": "Ammamma", "native": "ఒకరోజు రాజు అందరికీ ఒక పిల్లిని, ఒక ఆవుని ఇచ్చాడు. పిల్లికి రోజూ పాలు పోయండి అని చెప్పాడు.", "roman": "okarōju rāju andarikī oka pillini, oka āvuni ichchāḍu. pilliki rōjū pālu pōyaṇḍi ani cheppāḍu.", "en": "One day the king gave everyone a cat and a cow. He told them to give the cat milk every day." },
-      { "speaker": "Chintu", "native": "తర్వాత?", "roman": "tarvāta?", "en": "And then?" },
-      { "speaker": "Ammamma", "native": "రామకృష్ణుడు మొదటి రోజే పిల్లికి బాగా వేడి పాలు పెట్టాడు. పిల్లి నోరు కాలింది. అప్పటి నుంచి అది పాలు చూస్తే పారిపోయేది.", "roman": "rāmakruṣṇuḍu modaṭi rōjē pilliki bāgā vēḍi pālu peṭṭāḍu. pilli nōru kālindi. appaṭi nunchi adi pālu chūstē pāripōyēdi.", "en": "On the very first day Ramakrishna gave the cat really hot milk. The cat burnt its mouth. From then on, whenever it saw milk, it would run away." },
-      { "speaker": "Chintu", "native": "అయ్యో పాపం పిల్లి! మరి ఆవు పాలు?", "roman": "ayyō pāpam pilli! mari āvu pālu?", "en": "Oh, poor cat! And the cow's milk?" },
-      { "speaker": "Ammamma", "native": "ఆ పాలన్నీ రామకృష్ణుడే తాగాడు! చివరికి అందరి పిల్లులు లావుగా ఉన్నాయి, రామకృష్ణుడి పిల్లి మాత్రం సన్నగా ఉంది.", "roman": "ā pālannī rāmakruṣṇuḍē tāgāḍu! chivariki andari pillulu lāvugā unnāyi, rāmakruṣṇuḍi pilli mātram sannagā undi.", "en": "Ramakrishna drank all that milk himself! In the end everyone's cats were fat, but Ramakrishna's cat was thin." },
-      { "speaker": "Chintu", "native": "అప్పుడు రాజుకి కోపం వచ్చిందా?", "roman": "appuḍu rājuki kōpam vachchindā?", "en": "Did the king get angry then?" },
-      { "speaker": "Ammamma", "native": "వచ్చింది. కానీ రామకృష్ణుడు పిల్లి ముందు పాలు పెట్టాడు. పిల్లి పారిపోయింది! చూడండి మహారాజా, దీనికి పాలు ఇష్టం లేదట అన్నాడు.", "roman": "vachchindi. kānī rāmakruṣṇuḍu pilli mundu pālu peṭṭāḍu. pilli pāripōyindi! chūḍaṇḍi mahārājā, dīniki pālu iṣṭam lēdaṭa annāḍu.", "en": "He did. But Ramakrishna put milk in front of the cat, and the cat ran away! 'Look, Your Majesty, it seems it doesn't like milk,' he said." },
-      { "speaker": "Chintu", "native": "అబ్బా, చాలా తెలివైనవాడు!", "roman": "abbā, chālā telivainavāḍu!", "en": "Wow, he was so clever!" },
-      { "speaker": "Ammamma", "native": "అందుకే అతని కథలు ఇప్పటికీ అందరూ చెప్పుకుంటారు. ఇక పడుకో!", "roman": "andukē atani kathalu ippaṭikī andarū cheppukuṇṭāru. ika paḍukō!", "en": "That's why everyone still tells his stories. Now go to sleep!" }
+      { "speaker": "Kiran", "native": "ఏంటి శ్రావణి, ఏంటి సంగతి? నిన్న ఇంటర్వ్యూ ఎలా జరిగింది?", "roman": "ēṇṭi shrāvaṇi, ēṇṭi saṅgati? ninna inṭarvyū elā jarigindi?", "en": "Hey Sravani, what's up? How did yesterday's interview go?" },
+      { "speaker": "Sravani", "native": "అబ్బా, అదో పెద్ద కథ!", "roman": "abbā, adō pedda katha!", "en": "Ugh, it's a long story!" },
+      { "speaker": "Kiran", "native": "చెప్పు చెప్పు, ఏమైంది?", "roman": "cheppu cheppu, ēmaindi?", "en": "Go on, tell me, what happened?" },
+      { "speaker": "Sravani", "native": "అసలు ఏం జరిగిందంటే, ఉదయం మెట్రోలో సీటు కోసం ఒక ఆవిడతో గొడవ పడ్డా.", "roman": "asalu ēm jarigindaṇṭē, udayam meṭrōlō sīṭu kōsam oka āviḍatō goḍava paḍḍā.", "en": "So what actually happened is, in the morning I had a row with a lady on the metro over a seat." },
+      { "speaker": "Kiran", "native": "నువ్వా? గొడవా? జోక్ చేస్తున్నావా?", "roman": "nuvvā? goḍavā? jōk chēstunnāvā?", "en": "You? A row? Are you kidding?" },
+      { "speaker": "Sravani", "native": "నిజంగా! ఆవిడ నా సీటులో బ్యాగ్ పెట్టింది. తీయమని చెప్పా, తీయను అంది.", "roman": "nijaṅgā! āviḍa nā sīṭulō byāg peṭṭindi. tīyamani cheppā, tīyanu andi.", "en": "Really! She'd put her bag on my seat. I told her to move it, she said she wouldn't." },
+      { "speaker": "Kiran", "native": "అబ్బో! ఆ తర్వాత ఏమైంది?", "roman": "abbō! ā tarvāta ēmaindi?", "en": "Oh boy! Then what happened?" },
+      { "speaker": "Sravani", "native": "ఇంటర్వ్యూకి వెళ్ళా. లోపల కూర్చున్న మేడం ఎవరో తెలుసా? మెట్రోలో నేను గొడవ పడిన ఆవిడే!", "roman": "inṭarvyūki veḷḷā. lōpala kūrchunna mēḍam evarō telusā? meṭrōlō nēnu goḍava paḍina āviḍē!", "en": "I went in for the interview. Guess who the woman sitting inside was? The very lady I fought with on the metro!" },
+      { "speaker": "Kiran", "native": "బాబోయ్! చెవిలో పువ్వు పెట్టకు!", "roman": "bābōy! chevilō puvvu peṭṭaku!", "en": "Oh my god! You're pulling my leg!" },
+      { "speaker": "Sravani", "native": "ఒట్టు! మొదట నాకు చాలా భయం వేసింది. కానీ ఆవిడ నవ్వి, మీకు ధైర్యం ఎక్కువే అంది.", "roman": "oṭṭu! modaṭa nāku chālā bhayam vēsindi. kānī āviḍa navvi, mīku dhairyam ekkuvē andi.", "en": "I swear! At first I was really scared. But she laughed and said, 'You've certainly got nerve.'" },
+      { "speaker": "Kiran", "native": "ఇంతకీ ఉద్యోగం వచ్చిందా, రాలేదా?", "roman": "intakī udyōgam vachchindā, rālēdā?", "en": "So anyway, did you get the job or not?" },
+      { "speaker": "Sravani", "native": "వచ్చింది! ఆ మెట్రో ఆవిడే ఇప్పుడు నా బాస్!", "roman": "vachchindi! ā meṭrō āviḍē ippuḍu nā bās!", "en": "I got it! That metro lady is now my boss!" },
+      { "speaker": "Kiran", "native": "అరే, సూపర్! అయితే ఈరోజు ఇరానీ చాయ్ నీ ట్రీట్!", "roman": "arē, sūpar! ayitē īrōju irānī chāy nī ṭrīṭ!", "en": "Hey, awesome! Then today's Irani chai is your treat!" }
     ]
   },
-  "culture": "Tenali Ramakrishna was a 16th-century poet at the court of Krishnadevaraya of Vijayanagara, and his witty tales are told to every Telugu child. Telugu also has a proud literary tradition going back a thousand years, from Nannaya's *Mahabharata* to the poet-saint Annamayya and the composer Tyagaraja, whose Carnatic songs are in Telugu. Mastering a few proverbs and the fillers in this unit is the quickest way to make Telugu speakers smile and say *అరే, మీరు బాగా తెలుగు మాట్లాడుతున్నారే!* ('Hey, you speak Telugu really well!')."
+  "culture": "A Telugu listener keeps up a running commentary: *ఊ*, *అవునా?*, *అబ్బా!*, *తర్వాత?*. Silence while someone tells you their news can sound cold, so react out loud. With friends people drop the final *-ను* (*వెళ్ళా*, *చెప్తా*) and call each other *రా* (to a man) or *ఏ / వే* (to a woman): *చెప్పరా!*, *ఏంటే?*. Young men in Andhra and Telangana also call close friends *బావా* ('brother-in-law') or *మామా* ('uncle'), entirely affectionately. Regional colour is strong: in Telangana and much of Hyderabad you'll hear *ఏంది?* for *ఏంటి?* and *ఎట్లా* for *ఎలా*, with Hindi-Urdu words mixed in; Coastal Andhra speech is closer to the standard taught here. English words slip in everywhere (*సూపర్*, *టెన్షన్*, *సీన్*), and swearing an oath is *ఒట్టు!* ('I swear!'). Proverbs (*సామెతలు*) are still loved, but among friends you're more likely to hear a film dialogue quoted than a proverb.",
+  "lessons": [
+    {
+      "title": "Telling a friend what happened",
+      "tip": { "title": "Story words, and the spoken -ఆ", "body": "- Open with **అసలు ఏం జరిగిందంటే...** or **విషయం ఏంటంటే...** (the thing is...).\n- Then: **మొదట** first · **ఇంతలో** just then · **చివరికి** / **మొత్తానికి** in the end.\n- With friends the 'I' ending **-ను** drops: వెళ్ళాను → **వెళ్ళా**, చెప్తాను → **చెప్తా**.", "pattern": "మొదట … · ఇంతలో … · చివరికి …", "grammar": 2 },
+      "new": ["సంగతి", "విషయం", "కథ", "మొదట", "ఇంతలో", "చివరికి", "మొత్తానికి", "ఏంటి సంగతి?", "అసలు ఏం జరిగిందంటే...", "ఇదో పెద్ద కథ."],
+      "sentences": [
+        { "native": "ఏంటి సంగతి? చాలా రోజుల తర్వాత కనిపించావు!", "roman": "ēṇṭi saṅgati? chālā rōjula tarvāta kanipinchāvu!", "en": "What's up? Haven't seen you in ages!" },
+        { "native": "మొదట నేను బస్సు ఎక్కా, తర్వాత ఆటో తీసుకున్నా.", "roman": "modaṭa nēnu bassu ekkā, tarvāta āṭō tīsukunnā.", "en": "First I took the bus, then I got an auto.", "focus": "మొదట", "wrong": ["చివరికి|chivariki", "ఇంతలో|intalō"] },
+        { "native": "ఇంతలో వర్షం మొదలైంది.", "roman": "intalō varṣam modalaindi.", "en": "Just then it started to rain.", "focus": "ఇంతలో", "wrong": ["మొదట|modaṭa", "మొత్తానికి|mottāniki"] },
+        { "native": "చివరికి రాత్రి పది గంటలకి ఇంటికి చేరా.", "roman": "chivariki rātri padi gaṇṭalaki iṇṭiki chērā.", "en": "In the end I got home at ten at night.", "focus": "చివరికి", "wrong": ["మొదట|modaṭa", "ఇంతలో|intalō"] },
+        { "native": "మొత్తానికి టికెట్లు దొరికాయి!", "roman": "mottāniki ṭikeṭlu dorikāyi!", "en": "We got the tickets in the end!", "focus": "మొత్తానికి", "wrong": ["మొదట|modaṭa", "ఇంతలో|intalō"] },
+        { "native": "మొదట అతను ఒప్పుకోలేదు, చివరికి సరే అన్నాడు.", "roman": "modaṭa atanu oppukōlēdu, chivariki sarē annāḍu.", "en": "At first he said no; in the end he said OK.", "focus": "చివరికి", "wrong": ["మొదట|modaṭa", "ఇంతలో|intalō"] },
+        { "native": "అసలు ఏం జరిగిందంటే, నా ఫోన్ ఇంట్లో మర్చిపోయా.", "roman": "asalu ēm jarigindaṇṭē, nā phōn iṇṭlō marchipōyā.", "en": "What actually happened is, I left my phone at home.", "focus": "మర్చిపోయా", "wrong": ["మర్చిపోతా|marchipōtā", "మర్చిపోలేదు|marchipōlēdu"] },
+        { "native": "విషయం ఏంటంటే, రేపు నాకు సెలవు లేదు.", "roman": "viṣayam ēṇṭaṇṭē, rēpu nāku selavu lēdu.", "en": "The thing is, I don't have tomorrow off." },
+        { "native": "ఇదో పెద్ద కథ, తర్వాత చెప్తా.", "roman": "idō pedda katha, tarvāta cheptā.", "en": "It's a long story, I'll tell you later.", "focus": "చెప్తా", "wrong": ["చెప్పా|cheppā", "చెప్పలేదు|cheppalēdu"] }
+      ]
+    },
+    {
+      "title": "Reacting while you listen",
+      "tip": { "title": "React out loud", "body": "- Telugu listeners react all the time: **ఊ**, **అవునా?**, **నిజంగా?**, **తర్వాత?**\n- **అబ్బా** wow / ugh · **బాబోయ్** yikes · **అరే** hey! · **హమ్మయ్య** phew.\n- Add **-ఆ?** to any word to echo it back in surprise: ఇంత **ధరా?** 'that much?', **నువ్వా?** 'you?'" },
+      "new": ["నిజంగా", "జోక్", "అబ్బా", "బాబోయ్", "అరే", "హమ్మయ్య", "పిచ్చి", "నిజంగానా?", "జోక్ చేస్తున్నావా?"],
+      "sentences": [
+        { "native": "నిజంగా? నీకు ఉద్యోగం వచ్చిందా?", "roman": "nijaṅgā? nīku udyōgam vachchindā?", "en": "Really? You got the job?" },
+        { "native": "నేను నిజంగా చెప్తున్నా, జోక్ కాదు.", "roman": "nēnu nijaṅgā cheptunnā, jōk kādu.", "en": "I'm telling you for real, it's not a joke." },
+        { "native": "అబ్బా, ఈ ఎండ!", "roman": "abbā, ī eṇḍa!", "en": "Ugh, this heat!" },
+        { "native": "బాబోయ్, ఇంత ధరా?", "roman": "bābōy, inta dharā?", "en": "Yikes, that expensive?", "focus": "ధరా", "wrong": ["ధర|dhara", "ధరకి|dharaki"] },
+        { "native": "అరే, నువ్వు ఇక్కడ ఏం చేస్తున్నావు?", "roman": "arē, nuvvu ikkaḍa ēm chēstunnāvu?", "en": "Hey, what are you doing here?" },
+        { "native": "నీకేమైనా పిచ్చా? ఈ వర్షంలో బయటికి వెళ్తావా?", "roman": "nīkēmainā pichchā? ī varṣamlō bayaṭiki veḷtāvā?", "en": "Are you crazy? You're going out in this rain?", "focus": "పిచ్చా", "wrong": ["పిచ్చి|pichchi", "పిచ్చికి|pichchiki"] },
+        { "native": "అతను ఎప్పుడూ జోకులు వేస్తాడు.", "roman": "atanu eppuḍū jōkulu vēstāḍu.", "en": "He's always cracking jokes." },
+        { "native": "హమ్మయ్య, బస్సు దొరికింది.", "roman": "hammayya, bassu dorikindi.", "en": "Phew, we caught the bus." },
+        { "native": "నిజంగానా? రేపే పరీక్షా?", "roman": "nijaṅgānā? rēpē parīkṣā?", "en": "Seriously? The exam is tomorrow?", "focus": "పరీక్షా", "wrong": ["పరీక్ష|parīkṣa", "పరీక్షకి|parīkṣaki"] }
+      ]
+    },
+    {
+      "title": "Saying which one you mean",
+      "tip": { "title": "The girl I met: the clause comes first", "body": "- No 'who/which/that': the verb becomes a participle **before** the noun.\n- Past **-ఇన**: నేను కలి**సిన** అమ్మాయి 'the girl I met'. Non-past **-ఏ**: వెళ్**ళే** బస్సు 'the bus that goes'.\n- 'What you said': **-ది** on the participle: నువ్వు అన్**నది**, నేను చెప్**పేది**.", "pattern": "నేను కలిసిన + అమ్మాయి", "grammar": 0 },
+      "new": ["మాట", "గురించి", "అబద్ధం", "కదా", "అదే కదా నేను చెప్పేది!"],
+      "sentences": [
+        { "native": "నిన్న నేను కలిసిన అమ్మాయి నీ ఫ్రెండా?", "roman": "ninna nēnu kalisina ammāyi nī phreṇḍā?", "en": "Is the girl I met yesterday your friend?", "focus": "కలిసిన", "wrong": ["కలిశాను|kalishānu", "కలుస్తాను|kalustānu"] },
+        { "native": "నువ్వు చెప్పిన హోటల్ మూసేశారు.", "roman": "nuvvu cheppina hōṭal mūsēshāru.", "en": "The restaurant you told me about has shut down.", "focus": "చెప్పిన", "wrong": ["చెప్పావు|cheppāvu", "చెప్పు|cheppu"] },
+        { "native": "మా ఆఫీసుకి వెళ్ళే బస్సు ఇదే.", "roman": "mā āphīsuki veḷḷē bassu idē.", "en": "This is the bus that goes to my office.", "focus": "వెళ్ళే", "wrong": ["వెళ్తుంది|veḷtundi", "వెళ్ళు|veḷḷu"] },
+        { "native": "అతను చెప్పింది అబద్ధం.", "roman": "atanu cheppindi abaddham.", "en": "What he said is a lie.", "focus": "చెప్పింది", "wrong": ["చెప్పాడు|cheppāḍu", "చెప్తాడు|cheptāḍu"] },
+        { "native": "నేను చెప్పేది విను.", "roman": "nēnu cheppēdi vinu.", "en": "Listen to what I’m saying.", "focus": "చెప్పేది", "wrong": ["చెప్తాను|cheptānu", "చెప్పాను|cheppānu"] },
+        { "native": "నిన్న మనం మాట్లాడుకున్న విషయం గుర్తుందా?", "roman": "ninna manam māṭlāḍukunna viṣayam gurtundā?", "en": "Remember the thing we talked about yesterday?", "focus": "మాట్లాడుకున్న", "wrong": ["మాట్లాడుకున్నాం|māṭlāḍukunnām", "మాట్లాడు|māṭlāḍu"] },
+        { "native": "నీ గురించి అందరూ అడిగారు.", "roman": "nī gurinchi andarū aḍigāru.", "en": "Everyone asked about you." },
+        { "native": "నా మాట ఎవరూ వినరు.", "roman": "nā māṭa evarū vinaru.", "en": "Nobody listens to me." },
+        { "native": "నువ్వు రేపు వస్తావు కదా?", "roman": "nuvvu rēpu vastāvu kadā?", "en": "You're coming tomorrow, right?" },
+        { "native": "చూశావా? అదే కదా నేను చెప్పేది!", "roman": "chūshāvā? adē kadā nēnu cheppēdi!", "en": "See? That's exactly what I'm saying!" }
+      ]
+    },
+    {
+      "title": "Passing on what someone said",
+      "tip": { "title": "He said…: quote it, then అని", "body": "- Keep the speaker's own words, then **అని** + a verb of saying: వస్తా **అన్నాడు** 'he said he'd come'.\n- Told someone to do it: stem + **-మని**: రమ్**మని** చెప్పింది 'she told me to come'.\n- Apparently: **-అట** on the verb: రార**ట** 'apparently they aren't coming'.", "pattern": "… అని + అన్నాడు / అడిగింది", "grammar": 1 },
+      "new": ["అను", "నిజానికి", "ఏమో", "ఏమో, నాకు తెలీదు."],
+      "sentences": [
+        { "native": "రవి ఐదు నిమిషాల్లో వస్తా అన్నాడు.", "roman": "ravi aidu nimiṣāllō vastā annāḍu.", "en": "Ravi said he'd come in five minutes.", "focus": "అన్నాడు", "wrong": ["అంది|andi", "అన్నాను|annānu"] },
+        { "native": "అమ్మ నిన్ను భోజనానికి రమ్మని చెప్పింది.", "roman": "amma ninnu bhōjanāniki rammani cheppindi.", "en": "Mum said to tell you to come for lunch.", "focus": "రమ్మని", "wrong": ["వచ్చి|vachchi", "రండి|raṇḍi"] },
+        { "native": "డాక్టర్ నన్ను రెండు రోజులు విశ్రాంతి తీసుకోమని చెప్పారు.", "roman": "ḍākṭar nannu reṇḍu rōjulu vishrānti tīsukōmani cheppāru.", "en": "The doctor told me to rest for two days.", "focus": "తీసుకోమని", "wrong": ["తీసుకున్నాను|tīsukunnānu", "తీసుకో|tīsukō"] },
+        { "native": "ఆమె నీకు పెళ్ళైందా అని అడిగింది.", "roman": "āme nīku peḷḷaindā ani aḍigindi.", "en": "She asked if you were married.", "focus": "అని", "wrong": ["అంటే|aṇṭē", "కాబట్టి|kābaṭṭi"] },
+        { "native": "వాళ్ళు రేపు రారట.", "roman": "vāḷḷu rēpu rāraṭa.", "en": "Apparently they're not coming tomorrow.", "focus": "రారట", "wrong": ["రాలేదట|rālēdaṭa", "వచ్చారట|vachchāraṭa"] },
+        { "native": "ఈ హోటల్ బిర్యానీ చాలా బాగుంటుందట.", "roman": "ī hōṭal biryānī chālā bāguṇṭundaṭa.", "en": "Apparently the biryani here is really good.", "focus": "బాగుంటుందట" },
+        { "native": "ఏం అన్నాడు? ఏమీ అనలేదు.", "roman": "ēm annāḍu? ēmī analēdu.", "en": "What did he say? He didn't say anything.", "focus": "అనలేదు", "wrong": ["అన్నాడు|annāḍu", "అంటాడు|aṇṭāḍu"] },
+        { "native": "అతను వస్తాడో రాడో ఏమో.", "roman": "atanu vastāḍō rāḍō ēmō.", "en": "Who knows whether he'll come or not." },
+        { "native": "నిజానికి నేను ఆ సినిమా చూడలేదు.", "roman": "nijāniki nēnu ā sinimā chūḍalēdu.", "en": "Actually, I haven't seen that film." },
+        { "native": "ఎవరు చెప్పారు? ఏమో, నాకు గుర్తు లేదు.", "roman": "evaru cheppāru? ēmō, nāku gurtu lēdu.", "en": "Who said so? No idea, I don't remember." }
+      ]
+    },
+    {
+      "title": "Keeping the chat going",
+      "tip": { "title": "Little words that keep a chat moving", "body": "- **అంటే** I mean / so you mean · **మరి** so, and what about · **అసలు** actually, (not) at all.\n- **అన్నట్టు** by the way (new topic) · **ఇంతకీ** so anyway (back to the point) · **ఏదేమైనా** anyway.\n- **పోనీ** how about…? · **పోనీలే** never mind." },
+      "new": ["అంటే", "మరి", "అసలు", "అన్నట్టు", "ఇంతకీ", "ఏదేమైనా", "పోనీ", "ఇంకేంటి సంగతులు?", "పోనీలే, వదిలేయ్.", "ఎక్కడి దాకా చెప్పాను?"],
+      "sentences": [
+        { "native": "అంటే, నువ్వు రావా?", "roman": "aṇṭē, nuvvu rāvā?", "en": "So you mean you're not coming?", "focus": "అంటే", "wrong": ["అన్నట్టు|annaṭṭu", "ఇంతకీ|intakī"] },
+        { "native": "మరి నువ్వు ఏం చేశావు?", "roman": "mari nuvvu ēm chēshāvu?", "en": "So what did you do?", "focus": "మరి", "wrong": ["అసలు|asalu", "కదా|kadā"] },
+        { "native": "నేను అసలు అలా అనలేదు!", "roman": "nēnu asalu alā analēdu!", "en": "I never said that at all!", "focus": "అసలు", "wrong": ["మరి|mari", "అన్నట్టు|annaṭṭu"] },
+        { "native": "అన్నట్టు, రేపు శ్రావణి పుట్టినరోజు.", "roman": "annaṭṭu, rēpu shrāvaṇi puṭṭinarōju.", "en": "By the way, it's Sravani's birthday tomorrow.", "focus": "అన్నట్టు", "wrong": ["అంటే|aṇṭē", "మరి|mari"] },
+        { "native": "ఇంతకీ నువ్వు ఎప్పుడు వస్తున్నావు?", "roman": "intakī nuvvu eppuḍu vastunnāvu?", "en": "So anyway, when are you coming?", "focus": "ఇంతకీ", "wrong": ["అసలు|asalu", "కదా|kadā"] },
+        { "native": "ఏదేమైనా, నేను రేపు ఫోన్ చేస్తా.", "roman": "ēdēmainā, nēnu rēpu phōn chēstā.", "en": "Anyway, I'll call you tomorrow." },
+        { "native": "పోనీ, రేపు కలుద్దామా?", "roman": "pōnī, rēpu kaluddāmā?", "en": "Well, how about meeting tomorrow then?", "focus": "పోనీ", "wrong": ["అసలు|asalu", "అంటే|aṇṭē"] },
+        { "native": "పోనీలే, అది పెద్ద విషయం కాదు.", "roman": "pōnīlē, adi pedda viṣayam kādu.", "en": "Never mind, it's no big deal." },
+        { "native": "ఆ, ఇంతకీ ఎక్కడి దాకా చెప్పాను?", "roman": "ā, intakī ekkaḍi dākā cheppānu?", "en": "Right, so where was I?" },
+        { "native": "ఇంకేంటి? ఇంట్లో అందరూ బాగున్నారా?", "roman": "iṅkēṇṭi? iṇṭlō andarū bāgunnārā?", "en": "What else? Is everyone at home well?" }
+      ]
+    },
+    {
+      "title": "Did you hear? Passing on news",
+      "tip": { "title": "Gossip, Telugu style", "body": "- Pass it on with **-అట** 'apparently': పెళ్ళి కుదిరింది**ట** 'apparently the wedding's fixed'.\n- Ask for more: **ఆ తర్వాత ఏమైంది?** · **గొడవ ఎందుకు?**\n- Swear it's true: **ఒట్టు!** · Doubt it: **చెవిలో పువ్వు పెట్టకు!**" },
+      "new": ["గొడవ", "ఆ తర్వాత ఏమైంది?", "నమ్మలేకపోతున్నా!", "హమ్మయ్య, అయిపోయింది!", "చెవిలో పువ్వు పెట్టకు!"],
+      "sentences": [
+        { "native": "పక్కింటి వాళ్ళు నిన్న రాత్రి పెద్ద గొడవ పడ్డారు.", "roman": "pakkiṇṭi vāḷḷu ninna rātri pedda goḍava paḍḍāru.", "en": "The neighbours had a big row last night." },
+        { "native": "గొడవ ఎందుకు? ఏమైంది?", "roman": "goḍava enduku? ēmaindi?", "en": "What was the row about? What happened?" },
+        { "native": "ఆ తర్వాత ఏమైంది? పోలీసులు వచ్చారా?", "roman": "ā tarvāta ēmaindi? pōlīsulu vachchārā?", "en": "Then what happened? Did the police come?" },
+        { "native": "కీర్తికి పెళ్ళి కుదిరిందట!", "roman": "kīrtiki peḷḷi kudirindaṭa!", "en": "Apparently Keerthi's wedding has been fixed!", "focus": "కుదిరిందట", "wrong": ["కుదురుతుంది|kudurutundi", "కుదరదు|kudaradu"] },
+        { "native": "రవికి ఉద్యోగం వచ్చిందా? నమ్మలేకపోతున్నా!", "roman": "raviki udyōgam vachchindā? nammalēkapōtunnā!", "en": "Ravi got a job? I can't believe it!" },
+        { "native": "చెవిలో పువ్వు పెట్టకు, నాకు అంతా తెలుసు.", "roman": "chevilō puvvu peṭṭaku, nāku antā telusu.", "en": "Don't try to fool me, I know everything." },
+        { "native": "హమ్మయ్య, గొడవ అయిపోయింది.", "roman": "hammayya, goḍava ayipōyindi.", "en": "Phew, the row's over." },
+        { "native": "ఈ విషయం ఎవరికీ చెప్పకు.", "roman": "ī viṣayam evarikī cheppaku.", "en": "Don't tell anyone about this." },
+        { "native": "గొడవ పడిన వాళ్ళు ఇప్పుడు మళ్ళీ కలిసిపోయారట!", "roman": "goḍava paḍina vāḷḷu ippuḍu maḷḷī kalisipōyāraṭa!", "en": "Apparently the two who fought have made up now!", "focus": "కలిసిపోయారట", "wrong": ["కలిసిపోయాను|kalisipōyānu", "కలుస్తారు|kalustāru"] }
+      ]
+    }
+  ]
 }

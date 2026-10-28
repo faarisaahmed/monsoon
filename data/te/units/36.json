@@ -1,0 +1,212 @@
+{
+  "id": 36,
+  "title": "If only",
+  "goal": "Say what you would do if things were different, what you would have done if you had known, what you wish and regret, and talk about your dreams for life.",
+  "intro": "Friends late at night on the beach in Vizag, or over chai after an exam result, end up talking about **what if**: *what would you do with a crore?*, *if only I'd taken that job*, *I wish weekends were three days long*. This unit gives you the grammar for all of it.\n\nThe key form is one you already know: the 'used to' verb from Unit 26, *వచ్చేవాడిని*, also means **'I would (have) come'**. Put an if-clause in front and you have an unreal conditional: *టైం ఉంటే వచ్చేవాడిని* (if I had time, I'd come). Telugu has no verb 'to wish', so you say *it would be good if...*: *సెలవు ఉంటే బాగుండు* (I wish I had a day off), *ముందే తెలిసుంటే బాగుండేది* (I wish I'd known earlier). Finally you'll learn to imagine out loud: *అనుకో...* (suppose...), *అరకు వెళ్తే ఎలా ఉంటుంది?* (what if we went to Araku?).",
+  "vocab": [
+    { "native": "అవకాశం", "roman": "avakāsham", "en": "chance, opportunity", "pos": "noun", "note": "colloquially also ఛాన్స్ · అవకాశం వచ్చింది = I got the chance" },
+    { "native": "అదృష్టవంతుడు", "roman": "adruṣṭavantuḍu", "en": "lucky man / person", "pos": "noun", "note": "అదృష్టం (luck) + -వంతుడు · a woman: అదృష్టవంతురాలు · నువ్వు అదృష్టవంతుడివి = you're lucky" },
+    { "native": "వదులుకో", "roman": "vadulukō", "en": "to give up, let go of (a chance, a job, a habit)", "pos": "verb", "note": "వదులు (leave, Unit 26) + -కో · వదులుకోకు = don't let it go" },
+    { "native": "ఎంచుకో", "roman": "enchukō", "en": "to choose, pick (for yourself)", "pos": "verb", "note": "past ఎంచుకున్నాను" },
+    { "native": "లాటరీ", "roman": "lāṭarī", "en": "lottery", "pos": "noun", "note": "లాటరీ తగిలింది = (someone) won the lottery" },
+    { "native": "తగులు", "roman": "tagulu", "en": "to hit, touch; (of a lottery) to be won", "pos": "verb", "note": "dative subject: నాకు లాటరీ తగిలింది · as in దెబ్బ తగిలింది (Unit 9)" },
+    { "native": "కోటి", "roman": "kōṭi", "en": "crore (ten million)", "pos": "num", "note": "కోటి రూపాయలు = ten million rupees, the standard daydream sum" },
+    { "native": "గనక", "roman": "ganaka", "en": "(if) really, (if) only: stresses an if-clause", "pos": "particle", "note": "also గనుక · goes after the subject or key word: నువ్వు గనక వస్తే... = if you do come..." },
+    { "native": "స్థానం", "roman": "sthānam", "en": "place, position", "pos": "noun", "note": "నీ స్థానంలో = in your place, in your shoes" },
+    { "native": "హీరో", "roman": "hīrō", "en": "film hero, (male) star", "pos": "noun", "note": "heroine = హీరోయిన్ · Tollywood fans argue about their హీరో endlessly" },
+    { "native": "అనవసరంగా", "roman": "anavasaraṅgā", "en": "for nothing, needlessly", "pos": "adv", "note": "అ- (un-) + అవసరం (need, Unit 15)" },
+    { "native": "కనీసం", "roman": "kanīsam", "en": "at least", "pos": "adv", "note": "often with -అయినా: కనీసం ఫోన్ అయినా చేయాల్సింది = you could at least have called" },
+    { "native": "రిస్క్", "roman": "risk", "en": "risk", "pos": "noun", "note": "రిస్క్ తీసుకో = to take a risk · రిస్క్ ఎందుకు? = why take the risk?" },
+    { "native": "కల కను", "roman": "kala kanu", "en": "to dream", "pos": "verb", "note": "కల (dream, Unit 17) + కను · continuous: కల కంటున్నాను · పగటి కలలు = daydreams" },
+    { "native": "జన్మ", "roman": "janma", "en": "birth; a lifetime", "pos": "noun", "note": "వచ్చే జన్మలో = in the next life (jokingly: never) · ఈ జన్మకి = for this lifetime" },
+    { "native": "బిజినెస్", "roman": "bijines", "en": "business (of your own)", "pos": "noun", "note": "బిజినెస్ పెట్టు = to start a business · native: వ్యాపారం (Unit 15)" },
+    { "native": "కెరీర్", "roman": "kerīr", "en": "career", "pos": "noun" },
+    { "native": "సొంత", "roman": "sonta", "en": "own (one's own)", "pos": "adj", "note": "సొంత ఇల్లు = your own house · సొంత ఊరు = your home town" },
+    { "native": "ప్రపంచం", "roman": "prapancham", "en": "world", "pos": "noun", "note": "ప్రపంచం అంతా = the whole world" },
+    { "native": "మాస్టర్స్", "roman": "māsṭars", "en": "master's (degree)", "pos": "noun", "note": "మాస్టర్స్ చేయు = to do a master's · అమెరికాలో MS = the classic Telugu engineer's plan" },
+    { "native": "సెటిల్ అవు", "roman": "seṭil avu", "en": "to settle (down), get settled (in a job, marriage, abroad)", "pos": "verb", "note": "English + అవు · సెటిల్ అయ్యాక = once settled · also స్థిరపడు (Unit 17)" },
+    { "native": "కష్టపడు", "roman": "kaṣṭapaḍu", "en": "to work hard, struggle", "pos": "verb", "note": "కష్టం (difficulty) + పడు" },
+    { "native": "పెద్దయ్యాక", "roman": "peddayyāka", "en": "when (I) grow up / grew up", "pos": "adv", "note": "పెద్ద + అయ్యాక (after becoming) · పెద్దయ్యాక ఏం అవుతావు? = what will you be when you grow up?" },
+    { "native": "ఫారిన్", "roman": "phārin", "en": "abroad; foreign", "pos": "noun", "note": "ఫారిన్ వెళ్ళు = to go abroad · ఫారిన్ సంబంధం = a match with someone settled abroad · formal: విదేశం" },
+    { "native": "కోరిక", "roman": "kōrika", "en": "wish, desire", "pos": "noun", "note": "కోరిక తీరింది = the wish came true" },
+    { "native": "తీరు", "roman": "tīru", "en": "to be fulfilled, come true; to be settled (a debt)", "pos": "verb", "note": "కల తీరింది = the dream came true" },
+    { "native": "ఆశపడు", "roman": "āshapaḍu", "en": "to long for, hope for (eagerly)", "pos": "verb", "note": "ఆశ (hope, Unit 17) + పడు · ఆశపడకు = don't get your hopes up" },
+    { "native": "ఇప్పటికైనా", "roman": "ippaṭikainā", "en": "now at least, even now (after all this time)", "pos": "adv", "note": "ఇప్పటికి + -ఐనా (even) · ఇప్పటికైనా మారు = change, now at least" }
+  ],
+  "phrases": [
+    { "native": "నాకు లాటరీ తగిలితే...", "roman": "nāku lāṭarī tagilitē...", "en": "If I won the lottery..." },
+    { "native": "నేను నీ స్థానంలో ఉంటే...", "roman": "nēnu nī sthānamlō uṇṭē...", "en": "If I were you... (informal)", "note": "polite: నేను మీ స్థానంలో ఉంటే..." },
+    { "native": "నువ్వైతే ఏం చేసేవాడివి?", "roman": "nuvvaitē ēm chēsēvāḍivi?", "en": "What would you have done? (to a man, informal)", "note": "to a woman: చేసేదానివి? · polite: మీరైతే ఏం చేసేవారు?" },
+    { "native": "ఇలా జరుగుతుందని అనుకోలేదు.", "roman": "ilā jarugutundani anukōlēdu.", "en": "I never thought this would happen." },
+    { "native": "అదృష్టం బాగుంటే...", "roman": "adruṣṭam bāguṇṭē...", "en": "With a bit of luck... (lit. if luck is good)" },
+    { "native": "ఆ అవకాశం వదులుకోకు.", "roman": "ā avakāsham vadulukōku.", "en": "Don't let that chance go. (informal)" },
+    { "native": "ముందే తెలిసుంటే బాగుండేది.", "roman": "mundē telisuṇṭē bāguṇḍēdi.", "en": "I wish I'd known earlier.", "note": "careful: తెలిసి ఉంటే" },
+    { "native": "అయ్యో, అలా అనకుండా ఉండాల్సింది.", "roman": "ayyō, alā anakuṇḍā uṇḍālsindi.", "en": "Oh no, I shouldn't have said that." },
+    { "native": "టైం వెనక్కి వెళ్తే బాగుండు.", "roman": "ṭaim venakki veḷtē bāguṇḍu.", "en": "If only I could turn back time." },
+    { "native": "జరిగిందేదో జరిగిపోయింది.", "roman": "jarigindēdō jarigipōyindi.", "en": "What's done is done.", "note": "the standard way to comfort someone with a regret" },
+    { "native": "ఇంకా ఆలస్యం కాలేదు.", "roman": "iṅkā ālasyam kālēdu.", "en": "It's not too late." },
+    { "native": "అనుకో, నీకు కోటి రూపాయలు వచ్చాయి.", "roman": "anukō, nīku kōṭi rūpāyalu vachchāyi.", "en": "Suppose you got ten million rupees.", "note": "polite: అనుకోండి" },
+    { "native": "అలా అయితే ఎంత బాగుంటుందో!", "roman": "alā ayitē enta bāguṇṭundō!", "en": "Wouldn't that be great!" },
+    { "native": "వచ్చే జన్మలో చూద్దాం.", "roman": "vachchē janmalō chūddām.", "en": "We'll see in the next life. (joking: never going to happen)" },
+    { "native": "నా కల తీరింది!", "roman": "nā kala tīrindi!", "en": "My dream has come true!" }
+  ],
+  "grammar": [
+    {
+      "title": "If I had…, I would…: -తే + -ఏవాడిని",
+      "body": "In Unit 26 you learnt *వచ్చేవాడిని* as **'I used to come'**. The very same form means **'I would come'** and **'I would have come'**. That is how Telugu makes unreal conditionals: an if-clause, then the -ఏవాడిని form.\n\n*నాకు టైం ఉంటే వచ్చేవాడిని.* = If I had time, I'd come. / If I'd had time, I'd have come.\n\n**The if-clause**\n• Not true now: plain **-తే** (Unit 19): *డబ్బు ఉంటే* (if I had money), *నేను నీ స్థానంలో ఉంటే* (if I were you)\n• Didn't happen in the past: **-ఇ ఉంటే**, which fuses in speech: చెప్పి ఉంటే → **చెప్పుంటే** (if you had told me) · తెలిసి ఉంటే → **తెలిసుంటే** · చేసి ఉంటే → **చేసుంటే** · ఎక్కి ఉంటే → **ఎక్కుంటే**\n• Negative: **-కపోతే** (if … hadn't / weren't) or **-కుండా ఉంటే**\n\n**The result** agrees with its subject, exactly as in Unit 26:\nనేను **-ఏవాడిని** (man; spoken -ఏవాణ్ణి) / **-ఏదాన్ని** (woman) · నువ్వు **-ఏవాడివి** / **-ఏదానివి** · అతను **-ఏవాడు** · ఆమె, అది **-ఏది** · మేము, మనం **-ఏవాళ్ళం** · మీరు, వాళ్ళు **-ఏవాళ్ళు** (respectful **-ఏవారు**)\n**Wouldn't (have)**: add **కాదు**: *వెళ్ళేవాడిని కాదు* (I wouldn't have gone), *ఇలా జరిగేది కాదు* (this wouldn't have happened).\n\n**గనక** (or గనుక) after the subject or the key word stresses the 'if': *నాకు గనక లాటరీ తగిలితే...* (if I *did* win the lottery...).\n\n**The trap**: the result decides whether it is real. *డబ్బు ఉంటే కొంటాను* = if I have the money, I'll buy it (a real plan). *డబ్బు ఉంటే కొనేవాడిని* = if I had the money I'd buy it (but I don't). Don't put the plain future in an unreal sentence.",
+      "examples": [
+        { "native": "నాకు కారు ఉంటే నిన్ను పికప్ చేసేవాడిని.", "roman": "nāku kāru uṇṭē ninnu pikap chēsēvāḍini.", "en": "If I had a car, I'd pick you up. (man speaking)" },
+        { "native": "నువ్వు ముందే చెప్పుంటే నేను వచ్చేదాన్ని.", "roman": "nuvvu mundē cheppuṇṭē nēnu vachchēdānni.", "en": "If you'd told me earlier, I'd have come. (woman speaking)" },
+        { "native": "వర్షం పడకపోతే మ్యాచ్ గెలిచేవాళ్ళం.", "roman": "varṣam paḍakapōtē myāch gelichēvāḷḷam.", "en": "If it hadn't rained we'd have won the match." },
+        { "native": "నేను నీ స్థానంలో ఉంటే ఆ ఉద్యోగం వదులుకునేవాడిని కాదు.", "roman": "nēnu nī sthānamlō uṇṭē ā udyōgam vadulukunēvāḍini kādu.", "en": "If I were you, I wouldn't give up that job." },
+        { "native": "హెల్మెట్ పెట్టుకునుంటే ఇంత దెబ్బ తగిలేది కాదు.", "roman": "helmeṭ peṭṭukunuṇṭē inta debba tagilēdi kādu.", "en": "If he'd worn a helmet he wouldn't have been hurt this badly." }
+      ]
+    },
+    {
+      "title": "Wishes and regrets: -తే బాగుండు, -ఇ ఉంటే బాగుండేది",
+      "body": "Telugu has no verb 'to wish'. You say **'if X, it would be good'**, using the 'would' form of బాగుండు (be good): **బాగుండేది**, or its short, sighing form **బాగుండు**.\n\n• **I wish (now)**: -తే బాగుండు: *ఈరోజు సెలవు ఉంటే బాగుండు* (I wish today was a holiday) · *అతను వస్తే బాగుండు* (I wish he'd come)\n• **I wish I had (past)**: -ఇ ఉంటే బాగుండేది: *ముందే బుక్ చేసుంటే బాగుండేది* (I wish I'd booked earlier)\n• **I wish I hadn't**: -కుండా ఉంటే బాగుండేది: *అది తినకుండా ఉంటే బాగుండేది*\n• **Should(n't) have** (Unit 29): -ఆల్సింది / -కుండా ఉండాల్సింది: *వెళ్ళాల్సింది* (I should have gone), *అనకుండా ఉండాల్సింది* (I shouldn't have said it)\n• **How nice it would be!**: ఎంత + -ఓ: *అలా అయితే ఎంత బాగుంటుందో!*, past *... ఎంత బాగుండేదో!*\n\nRegret words that go with these: **అనవసరంగా** (for nothing), **కనీసం ... అయినా** (at least), **ఇప్పటికైనా** (now at least). The usual reply to someone's regret is *జరిగిందేదో జరిగిపోయింది* (what's done is done) or *ఇంకా ఆలస్యం కాలేదు* (it's not too late).\n\n**The trap**: *నాకు కారు కావాలి* is 'I want a car' (and expect to get one). A wish about something you can't have is *నాకు కారు ఉంటే బాగుండు*.",
+      "examples": [
+        { "native": "ఈరోజు సెలవు ఉంటే బాగుండు.", "roman": "īrōju selavu uṇṭē bāguṇḍu.", "en": "I wish today was a holiday." },
+        { "native": "ఆ ఫ్లాట్ అప్పుడే కొనుంటే బాగుండేది.", "roman": "ā phlāṭ appuḍē konuṇṭē bāguṇḍēdi.", "en": "I wish we'd bought that flat back then." },
+        { "native": "అనవసరంగా ఆ సినిమాకి వెళ్ళాం, వెళ్ళకుండా ఉండాల్సింది.", "roman": "anavasaraṅgā ā sinimāki veḷḷām, veḷḷakuṇḍā uṇḍālsindi.", "en": "We went to that film for nothing; we shouldn't have gone." },
+        { "native": "కనీసం ఒక మెసేజ్ అయినా పెట్టాల్సింది.", "roman": "kanīsam oka mesēj ayinā peṭṭālsindi.", "en": "You could at least have sent a message." },
+        { "native": "మా అమ్మ ఇక్కడ ఉంటే ఎంత బాగుండేదో!", "roman": "mā amma ikkaḍa uṇṭē enta bāguṇḍēdō!", "en": "How lovely it would be if my mum were here!" }
+      ]
+    },
+    {
+      "title": "Imagining: suppose, what if, as if",
+      "body": "**Suppose**: say the situation as if it were true, then add **అనుకో** ('think it', polite **అనుకోండి**, 'let's say' **అనుకుందాం**). It can go first or last: *అనుకో, నీకు కోటి రూపాయలు వచ్చాయి* or *నీకు కోటి రూపాయలు వచ్చాయి అనుకో*. Then ask with the plain future: *ఏం చేస్తావు?*\n\n**What if...? (an idea)**: **-తే ఎలా ఉంటుంది?** 'how would it be if...': *మనం గోవా వెళ్తే ఎలా ఉంటుంది?* This is the friendliest way to suggest a plan.\n**What if...? (a worry)**: **-తే ఎలా?** or **-తే ఏం చేయాలి?**: *ఒకవేళ ట్రైన్ మిస్ అయితే ఎలా?* **ఒకవేళ** (Unit 19) at the front makes it 'supposing, by any chance'.\n\n**As if**: the relative participle (Unit 20) + **-అట్టు**: past తెలిసిన → **తెలిసినట్టు** (as if he knew), negative తెలియని → **తెలియనట్టు** (as if he didn't know), continuous **చేస్తున్నట్టు** (as if doing). *ఏమీ జరగనట్టు* = as if nothing had happened.\n**It feels like**: -అట్టు + **ఉంది** (Unit 27 used the same -నట్టుంది for 'it seems'): *కల కంటున్నట్టు ఉంది* (it feels like I'm dreaming), *ఇంట్లో ఉన్నట్టు ఉంది* (it feels like home).\n\n**The trap**: *అనుకో* here is not 'I think' but a command, 'suppose'. And -తే ఎలా? on its own sounds worried; for a cheerful idea say -తే ఎలా ఉంటుంది?",
+      "examples": [
+        { "native": "అనుకో, రేపు నుంచి ఆఫీసు లేదు. ఏం చేస్తావు?", "roman": "anukō, rēpu nunchi āphīsu lēdu. ēm chēstāvu?", "en": "Suppose there's no office from tomorrow. What would you do?" },
+        { "native": "మనం అందరం అరకు వెళ్తే ఎలా ఉంటుంది?", "roman": "manam andaram araku veḷtē elā uṇṭundi?", "en": "What if we all went to Araku?" },
+        { "native": "ఒకవేళ ట్రైన్ మిస్ అయితే ఎలా?", "roman": "okavēḷa ṭrain mis ayitē elā?", "en": "What if we miss the train?" },
+        { "native": "అతను ఏమీ తెలియనట్టు కూర్చున్నాడు.", "roman": "atanu ēmī teliyanaṭṭu kūrchunnāḍu.", "en": "He sat there as if he knew nothing." },
+        { "native": "ఇక్కడ కూర్చుంటే గోవాలో ఉన్నట్టు ఉంది.", "roman": "ikkaḍa kūrchuṇṭē gōvālō unnaṭṭu undi.", "en": "Sitting here, it feels like being in Goa." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The offer letter",
+    "setting": "Vizag, RK Beach at night. Sai has got a place for a master's in the US and is staring at the sea; his friend Keerthi sits down next to him.",
+    "lines": [
+      { "speaker": "Keerthi", "native": "ఏంటి సాయి, సముద్రం వైపు అలా చూస్తున్నావు? ఏమైంది?", "roman": "ēṇṭi sāyi, samudram vaipu alā chūstunnāvu? ēmaindi?", "en": "What's up, Sai, staring at the sea like that? What happened?" },
+      { "speaker": "Sai", "native": "ఏం లేదు. అమెరికాలో మాస్టర్స్‌కి అడ్మిషన్ వచ్చింది.", "roman": "ēm lēdu. amerikālō māsṭarski aḍmiṣan vachchindi.", "en": "Nothing. I got admission for a master's in America." },
+      { "speaker": "Keerthi", "native": "బాబోయ్, సూపర్! మరి ఆ మొహం ఎందుకు అలా ఉంది?", "roman": "bābōy, sūpar! mari ā moham enduku alā undi?", "en": "Oh wow, super! So why the long face?" },
+      { "speaker": "Sai", "native": "డబ్బులు చాలా అవుతాయి. నాకు గనక లాటరీ తగిలితే, ఆలోచించకుండా వెళ్ళేవాడిని.", "roman": "ḍabbulu chālā avutāyi. nāku ganaka lāṭarī tagilitē, ālōchinchakuṇḍā veḷḷēvāḍini.", "en": "It'll cost a lot. If I won the lottery, I'd go without a second thought." },
+      { "speaker": "Keerthi", "native": "లాటరీ కోసం వెయిట్ చేస్తే, వచ్చే జన్మలో వెళ్తావు!", "roman": "lāṭarī kōsam veyiṭ chēstē, vachchē janmalō veḷtāvu!", "en": "If you wait for the lottery, you'll go in your next life!" },
+      { "speaker": "Sai", "native": "హహ. నువ్వు నా స్థానంలో ఉంటే ఏం చేసేదానివి?", "roman": "haha. nuvvu nā sthānamlō uṇṭē ēm chēsēdānivi?", "en": "Ha ha. What would you do in my place?" },
+      { "speaker": "Keerthi", "native": "లోన్ తీసుకుని వెళ్ళేదాన్ని. నాకు రెండేళ్ళ కిందట ఇలాంటి ఛాన్సే వచ్చింది, తెలుసా?", "roman": "lōn tīsukuni veḷḷēdānni. nāku reṇḍēḷḷa kindaṭa ilāṇṭi chhānsē vachchindi, telusā?", "en": "I'd take a loan and go. I got exactly this kind of chance two years ago, you know?" },
+      { "speaker": "Sai", "native": "నిజంగా? మరి ఎందుకు వెళ్ళలేదు?", "roman": "nijaṅgā? mari enduku veḷḷalēdu?", "en": "Really? So why didn't you go?" },
+      { "speaker": "Keerthi", "native": "భయపడ్డా. అమ్మానాన్నలని వదిలి వెళ్ళలేనని అనుకున్నా. ఇప్పుడు అనిపిస్తుంది, వెళ్ళుంటే బాగుండేదని.", "roman": "bhayapaḍḍā. ammānānnalani vadili veḷḷalēnani anukunnā. ippuḍu anipistundi, veḷḷuṇṭē bāguṇḍēdani.", "en": "I got scared. I thought I couldn't leave my parents. Now I feel I should have gone." },
+      { "speaker": "Sai", "native": "అయ్యో... సారీ కీర్తి.", "roman": "ayyō... sārī kīrti.", "en": "Oh... I'm sorry, Keerthi." },
+      { "speaker": "Keerthi", "native": "పర్వాలేదు, జరిగిందేదో జరిగిపోయింది. కానీ నువ్వు ఈ అవకాశం వదులుకోకు, సరేనా?", "roman": "parvālēdu, jarigindēdō jarigipōyindi. kānī nuvvu ī avakāsham vadulukōku, sarēnā?", "en": "It's fine, what's done is done. But don't you let this chance go, OK?" },
+      { "speaker": "Sai", "native": "సరే మేడం! అక్కడ సెటిల్ అయ్యాక నిన్ను కూడా పిలుస్తా.", "roman": "sarē mēḍam! akkaḍa seṭil ayyāka ninnu kūḍā pilustā.", "en": "Yes, ma'am! Once I'm settled there, I'll get you over too." },
+      { "speaker": "Keerthi", "native": "అలా అయితే ఎంత బాగుంటుందో! ముందు ఒక ఐస్‌క్రీం కొనివ్వు, అది చాలు.", "roman": "alā ayitē enta bāguṇṭundō! mundu oka aiskrīm konivvu, adi chālu.", "en": "Wouldn't that be great! First buy me an ice cream, that'll do." }
+    ]
+  },
+  "culture": "For a whole generation of Telugu engineers, *అమెరికాలో MS* (a master's in the US) followed by *సెటిల్ అవ్వడం* (getting settled) has been the big life plan, and Telugu is now one of the fastest-growing languages in the United States. Families talk openly about it: *అబ్బాయి అమెరికాలో సెటిల్ అయ్యాడు* is said with pride, and *ఎప్పుడు సెటిల్ అవుతావు?* (when will you settle down: job, marriage, own house) is the question every twenty-something dreads at family functions. When people talk about regrets they soften them fast: *జరిగిందేదో జరిగిపోయింది*, *అంతా మన మంచికే* (it's all for the best), or a shrug of fate, *రాసిపెట్టి ఉంటే జరుగుతుంది* (if it's written for you, it will happen). Daydreams come with a sense of humour: *వచ్చే జన్మలో* (in the next life) is the standard way to say 'never', and the lottery, a crore and becoming a film హీరో are the classic what-ifs. Between friends, *నేను నీ స్థానంలో ఉంటే...* is the normal way to give advice: blunt, but friends expect it.",
+  "lessons": [
+    {
+      "title": "What would you do if…?",
+      "tip": { "title": "Would: -తే … -ఏవాడిని", "body": "- The 'used to' form (Unit 26) also means **would**: చేసే**వాడిని** (man) / చేసే**దాన్ని** (woman) 'I'd do'.\n- The unreal 'if' is plain **-తే**: డబ్బు **ఉంటే** 'if I had money'.\n- **గనక** stresses the 'if': నాకు **గనక** లాటరీ తగిలితే…\n- Trap: కొంటాను = I will buy (a real plan); **కొనేవాడిని** = I would buy.", "pattern": "…తే + verb-ఏవాడిని / -ఏదాన్ని", "grammar": 0 },
+      "new": ["లాటరీ", "తగులు", "కోటి", "గనక", "స్థానం", "హీరో", "నాకు లాటరీ తగిలితే...", "నేను నీ స్థానంలో ఉంటే...", "నువ్వైతే ఏం చేసేవాడివి?"],
+      "sentences": [
+        { "native": "నాకు లాటరీ తగిలితే ఉద్యోగం వదిలేసేవాడిని.", "roman": "nāku lāṭarī tagilitē udyōgam vadilēsēvāḍini.", "en": "If I won the lottery I'd quit my job. (man)", "focus": "వదిలేసేవాడిని", "wrong": ["వదిలేసేవాడు|vadilēsēvāḍu", "వదిలేసేవాళ్ళు|vadilēsēvāḷḷu"] },
+        { "native": "కోటి రూపాయలు ఉంటే నువ్వు ఏం చేసేవాడివి?", "roman": "kōṭi rūpāyalu uṇṭē nuvvu ēm chēsēvāḍivi?", "en": "If you had ten million rupees, what would you do? (to a man)", "focus": "చేసేవాడివి", "wrong": ["చేసేవాడిని|chēsēvāḍini", "చేసేవాళ్ళం|chēsēvāḷḷam"] },
+        { "native": "నా దగ్గర కోటి రూపాయలు ఉంటే అమ్మకి ఇల్లు కొనిపెట్టేవాడిని.", "roman": "nā daggara kōṭi rūpāyalu uṇṭē ammaki illu konipeṭṭēvāḍini.", "en": "If I had ten million rupees I'd buy my mum a house. (man)", "focus": "కొనిపెట్టేవాడిని", "wrong": ["కొనిపెట్టేవాళ్ళు|konipeṭṭēvāḷḷu", "కొనిపెట్టేది|konipeṭṭēdi"] },
+        { "native": "డబ్బు ఉంటే కొనేవాడిని, కానీ లేదు కదా.", "roman": "ḍabbu uṇṭē konēvāḍini, kānī lēdu kadā.", "en": "If I had the money I'd buy it, but I don't, do I. (man)", "focus": "కొనేవాడిని", "wrong": ["కొంటాను|koṇṭānu", "కొన్నాను|konnānu"] },
+        { "native": "నేను నీ స్థానంలో ఉంటే ఆ ఉద్యోగం తీసుకునేదాన్ని.", "roman": "nēnu nī sthānamlō uṇṭē ā udyōgam tīsukunēdānni.", "en": "If I were you, I'd take that job. (woman)", "focus": "తీసుకునేదాన్ని", "wrong": ["తీసుకునేది|tīsukunēdi", "తీసుకునేవాళ్ళు|tīsukunēvāḷḷu"] },
+        { "native": "నేను హీరో అయితే మా ఊళ్ళో పెద్ద ఇల్లు కట్టేవాడిని.", "roman": "nēnu hīrō ayitē mā ūḷḷō pedda illu kaṭṭēvāḍini.", "en": "If I were a film star I'd build a big house in my home town. (man)", "focus": "కట్టేవాడిని", "wrong": ["కట్టేవాడు|kaṭṭēvāḍu", "కట్టేది|kaṭṭēdi"] },
+        { "native": "నాకు గనక కారు ఉంటే వీకెండ్ అంతా తిరిగేవాళ్ళం.", "roman": "nāku ganaka kāru uṇṭē vīkeṇḍ antā tirigēvāḷḷam.", "en": "If only I had a car, we'd go around all weekend.", "focus": "తిరిగేవాళ్ళం", "wrong": ["తిరిగేవాడివి|tirigēvāḍivi", "తిరిగేది|tirigēdi"] },
+        { "native": "వాళ్ళు ఇక్కడ ఉంటే మనతో వచ్చేవాళ్ళు.", "roman": "vāḷḷu ikkaḍa uṇṭē manatō vachchēvāḷḷu.", "en": "If they were here they'd come with us.", "focus": "వచ్చేవాళ్ళు", "wrong": ["వచ్చేవాడిని|vachchēvāḍini", "వచ్చేదానివి|vachchēdānivi"] },
+        { "native": "ఆ హీరోతో ఒక్క ఫోటో దొరికితే చాలు.", "roman": "ā hīrōtō okka phōṭō dorikitē chālu.", "en": "If I could just get one photo with that star, that'd be enough." }
+      ]
+    },
+    {
+      "title": "If only I'd known",
+      "tip": { "title": "Would have: -ఇ ఉంటే … -ఏవాడిని", "body": "- For the past, the 'if' is **-ఇ ఉంటే**, said as one word: చెప్పి ఉంటే → **చెప్పుంటే**, తెలిసి ఉంటే → **తెలిసుంటే**.\n- The result is the same form: **వచ్చేవాడిని** 'I would have come'.\n- Wouldn't have: add **కాదు**: జరిగేది **కాదు**.\n- Hadn't: **-కపోతే** / **-కుండా ఉంటే**.", "pattern": "…ఇ ఉంటే (…ఉంటే) + verb-ఏవాడిని", "grammar": 0 },
+      "new": ["అదృష్టవంతుడు", "అవకాశం", "వదులుకో", "ఎంచుకో", "ఇలా జరుగుతుందని అనుకోలేదు.", "అదృష్టం బాగుంటే...", "ఆ అవకాశం వదులుకోకు."],
+      "sentences": [
+        { "native": "నువ్వు ఫోన్ చేసుంటే నేను స్టేషనుకి వచ్చేవాడిని.", "roman": "nuvvu phōn chēsuṇṭē nēnu sṭēṣanuki vachchēvāḍini.", "en": "If you'd called, I'd have come to the station. (man)", "focus": "చేసుంటే", "wrong": ["చేశావు|chēshāvu", "చేస్తాను|chēstānu"] },
+        { "native": "ఆ అవకాశం వదులుకోకుండా ఉంటే ఇప్పుడు బెంగళూరులో ఉండేవాడిని.", "roman": "ā avakāsham vadulukōkuṇḍā uṇṭē ippuḍu beṅgaḷūrulō uṇḍēvāḍini.", "en": "If I hadn't given up that chance, I'd be in Bangalore now. (man)", "focus": "ఉండేవాడిని", "wrong": ["ఉంటాను|uṇṭānu", "ఉన్నాను|unnānu"] },
+        { "native": "ట్రాఫిక్ లేకపోతే టైంకి చేరేవాళ్ళం.", "roman": "ṭrāphik lēkapōtē ṭaimki chērēvāḷḷam.", "en": "If there'd been no traffic we'd have got there on time.", "focus": "చేరేవాళ్ళం", "wrong": ["చేరతాం|chēratām", "చేరాం|chērām"] },
+        { "native": "నువ్వు చెప్పుంటే ఈ గొడవ జరిగేది కాదు.", "roman": "nuvvu cheppuṇṭē ī goḍava jarigēdi kādu.", "en": "If you'd told me, this row wouldn't have happened.", "focus": "జరిగేది", "wrong": ["జరిగింది|jarigindi", "జరుగుతుంది|jarugutundi"] },
+        { "native": "నాకు తెలిసుంటే నీకు ముందే చెప్పేదాన్ని.", "roman": "nāku telisuṇṭē nīku mundē cheppēdānni.", "en": "If I'd known, I'd have told you earlier. (woman)", "focus": "చెప్పేదాన్ని", "wrong": ["చెప్పేది|cheppēdi", "చెప్తాను|cheptānu"] },
+        { "native": "వేరే కాలేజీ ఎంచుకునుంటే ఎలా ఉండేదో!", "roman": "vērē kālējī enchukunuṇṭē elā uṇḍēdō!", "en": "Who knows how it would have been if I'd picked a different college!", "focus": "ఎంచుకునుంటే", "wrong": ["ఎంచుకుంటాను|enchukuṇṭānu", "ఎంచుకున్నాను|enchukunnānu"] },
+        { "native": "బస్సు ఎక్కుంటే ఇప్పటికి ఇంట్లో ఉండేవాళ్ళం.", "roman": "bassu ekkuṇṭē ippaṭiki iṇṭlō uṇḍēvāḷḷam.", "en": "If we'd taken the bus we'd be home by now.", "focus": "ఎక్కుంటే", "wrong": ["ఎక్కాం|ekkām", "ఎక్కుతాం|ekkutām"] },
+        { "native": "అదృష్టం బాగుంటే ఈసారి టికెట్లు దొరుకుతాయి.", "roman": "adruṣṭam bāguṇṭē īsāri ṭikeṭlu dorukutāyi.", "en": "With a bit of luck we'll get tickets this time." },
+        { "native": "ఇలా జరుగుతుందని తెలిసుంటే వచ్చేవాడిని కాదు.", "roman": "ilā jarugutundani telisuṇṭē vachchēvāḍini kādu.", "en": "If I'd known this would happen, I wouldn't have come. (man)", "focus": "వచ్చేవాడిని", "wrong": ["వస్తాను|vastānu", "వచ్చాను|vachchānu"] },
+        { "native": "నువ్వు చాలా అదృష్టవంతుడివి, మొదటిసారే ఉద్యోగం వచ్చింది.", "roman": "nuvvu chālā adruṣṭavantuḍivi, modaṭisārē udyōgam vachchindi.", "en": "You're so lucky, you got the job on your first try." },
+        { "native": "ఆ అవకాశం వదులుకోకు, మళ్ళీ రాదు.", "roman": "ā avakāsham vadulukōku, maḷḷī rādu.", "en": "Don't pass up that chance, it won't come again." }
+      ]
+    },
+    {
+      "title": "I wish… and I shouldn't have…",
+      "tip": { "title": "I wish: -తే బాగుండు", "body": "- No verb 'wish': say 'if…, it'd be good': **-తే బాగుండు** (now), **-ఇ ఉంటే బాగుండేది** (past).\n- I wish I hadn't: **-కుండా ఉంటే బాగుండేది**.\n- Should(n't) have: **-ఆల్సింది** / **-కుండా ఉండాల్సింది**.\n- Trap: కారు **కావాలి** = I want a car; కారు ఉంటే **బాగుండు** = I wish I had one.", "pattern": "…తే బాగుండు · …ఇ ఉంటే బాగుండేది", "grammar": 1 },
+      "new": ["అనవసరంగా", "కనీసం", "రిస్క్", "ముందే తెలిసుంటే బాగుండేది.", "అయ్యో, అలా అనకుండా ఉండాల్సింది.", "టైం వెనక్కి వెళ్తే బాగుండు.", "జరిగిందేదో జరిగిపోయింది.", "ఇంకా ఆలస్యం కాలేదు."],
+      "sentences": [
+        { "native": "ఇంకో గంట నిద్రపోతే బాగుండు.", "roman": "iṅkō gaṇṭa nidrapōtē bāguṇḍu.", "en": "I wish I could sleep another hour.", "focus": "బాగుండు", "wrong": ["బాగుంది|bāgundi", "బాగున్నాను|bāgunnānu"] },
+        { "native": "వీకెండ్ మూడు రోజులు ఉంటే బాగుండు.", "roman": "vīkeṇḍ mūḍu rōjulu uṇṭē bāguṇḍu.", "en": "I wish weekends were three days long.", "focus": "ఉంటే", "wrong": ["ఉంది|undi", "ఉన్నాయి|unnāyi"] },
+        { "native": "ముందే బుక్ చేసుంటే బాగుండేది, ఇప్పుడు టికెట్లు లేవు.", "roman": "mundē buk chēsuṇṭē bāguṇḍēdi, ippuḍu ṭikeṭlu lēvu.", "en": "I wish we'd booked earlier; now there are no tickets.", "focus": "బాగుండేది", "wrong": ["బాగుంది|bāgundi", "బాగుంటాను|bāguṇṭānu"] },
+        { "native": "అనవసరంగా అంత ఖరీదైన ఫోన్ కొన్నాను, కొనకుండా ఉంటే బాగుండేది.", "roman": "anavasaraṅgā anta kharīdaina phōn konnānu, konakuṇḍā uṇṭē bāguṇḍēdi.", "en": "I bought such an expensive phone for nothing; I wish I hadn't.", "focus": "కొనకుండా", "wrong": ["కొని|koni", "కొంటే|koṇṭē"] },
+        { "native": "కనీసం ఒక్క ఫోన్ అయినా చేయాల్సింది కదా!", "roman": "kanīsam okka phōn ayinā chēyālsindi kadā!", "en": "You could at least have called once!", "focus": "చేయాల్సింది", "wrong": ["చేశాను|chēshānu", "చేస్తాను|chēstānu"] },
+        { "native": "పరీక్షకి ఇంకా బాగా చదవాల్సింది.", "roman": "parīkṣaki iṅkā bāgā chadavālsindi.", "en": "I should have studied harder for the exam.", "focus": "చదవాల్సింది", "wrong": ["చదువుతాను|chaduvutānu", "చదివాను|chadivānu"] },
+        { "native": "నిన్న రాత్రి అంత బిర్యానీ తినకుండా ఉండాల్సింది.", "roman": "ninna rātri anta biryānī tinakuṇḍā uṇḍālsindi.", "en": "I shouldn't have eaten so much biryani last night.", "focus": "తినకుండా", "wrong": ["తిని|tini", "తింటే|tiṇṭē"] },
+        { "native": "టైం వెనక్కి వెళ్తే మళ్ళీ కాలేజీలో చేరేవాడిని.", "roman": "ṭaim venakki veḷtē maḷḷī kālējīlō chērēvāḍini.", "en": "If time went back, I'd join college all over again. (man)" },
+        { "native": "అప్పుడు రిస్క్ తీసుకునుంటే బాగుండేది.", "roman": "appuḍu risk tīsukunuṇṭē bāguṇḍēdi.", "en": "I wish I'd taken the risk back then.", "focus": "తీసుకునుంటే", "wrong": ["తీసుకుంటాను|tīsukuṇṭānu", "తీసుకో|tīsukō"] },
+        { "native": "ఆ మాట అన్నందుకు ఇప్పటికీ బాధపడుతున్నాను.", "roman": "ā māṭa annanduku ippaṭikī bādhapaḍutunnānu.", "en": "I still feel bad about saying that." },
+        { "native": "బాధపడకు, జరిగిందేదో జరిగిపోయింది.", "roman": "bādhapaḍaku, jarigindēdō jarigipōyindi.", "en": "Don't feel bad, what's done is done." },
+        { "native": "ఇంకా ఆలస్యం కాలేదు, ఇప్పుడైనా క్షమాపణ చెప్పు.", "roman": "iṅkā ālasyam kālēdu, ippuḍainā kṣamāpaṇa cheppu.", "en": "It's not too late; go and apologise, now at least." }
+      ]
+    },
+    {
+      "title": "Imagine…",
+      "tip": { "title": "Suppose, what if, as if", "body": "- Suppose: say it, then **అనుకో** (polite **అనుకోండి**): *అనుకో, రేపు సెలవు.*\n- What if (an idea): **-తే ఎలా ఉంటుంది?** · (a worry): **-తే ఎలా?**\n- As if: participle + **-అట్టు**: ఏమీ తెలియ**నట్టు**; it feels like: **-అట్టు ఉంది**.", "pattern": "అనుకో… · …తే ఎలా ఉంటుంది? · …నట్టు", "grammar": 2 },
+      "new": ["కల కను", "జన్మ", "అనుకో, నీకు కోటి రూపాయలు వచ్చాయి.", "అలా అయితే ఎంత బాగుంటుందో!", "వచ్చే జన్మలో చూద్దాం."],
+      "sentences": [
+        { "native": "అనుకో, నీకు ఒక నెల సెలవు దొరికింది. ఎక్కడికి వెళ్తావు?", "roman": "anukō, nīku oka nela selavu dorikindi. ekkaḍiki veḷtāvu?", "en": "Suppose you got a month off. Where would you go?", "focus": "అనుకో", "wrong": ["అనుకున్నాను|anukunnānu", "అనుకోలేదు|anukōlēdu"] },
+        { "native": "ఈ వీకెండ్ అరకు వెళ్తే ఎలా ఉంటుంది?", "roman": "ī vīkeṇḍ araku veḷtē elā uṇṭundi?", "en": "What if we went to Araku this weekend?", "focus": "వెళ్తే", "wrong": ["వెళ్ళాం|veḷḷām", "వెళ్దాం|veḷdām"] },
+        { "native": "మనం ఇద్దరం కలిసి ఒక చిన్న హోటల్ పెడితే ఎలా ఉంటుంది?", "roman": "manam iddaram kalisi oka chinna hōṭal peḍitē elā uṇṭundi?", "en": "What if the two of us opened a little restaurant together?", "focus": "పెడితే", "wrong": ["పెట్టాం|peṭṭām", "పెడతాం|peḍatām"] },
+        { "native": "ఒకవేళ వర్షం పడితే ఎలా?", "roman": "okavēḷa varṣam paḍitē elā?", "en": "What if it rains?", "focus": "పడితే", "wrong": ["పడింది|paḍindi", "పడుతుంది|paḍutundi"] },
+        { "native": "అతను ఏమీ తెలియనట్టు నవ్వుతున్నాడు.", "roman": "atanu ēmī teliyanaṭṭu navvutunnāḍu.", "en": "He's smiling as if he doesn't know a thing.", "focus": "తెలియనట్టు", "wrong": ["తెలియదు|teliyadu", "తెలిసింది|telisindi"] },
+        { "native": "నేను పిలిచినా విననట్టు వెళ్ళిపోయింది.", "roman": "nēnu pilichinā vinanaṭṭu veḷḷipōyindi.", "en": "I called her, but she walked off as if she hadn't heard.", "focus": "విననట్టు", "wrong": ["వినలేదు|vinalēdu", "వింటే|viṇṭē"] },
+        { "native": "ఇది అసలు ఊహించలేదు, కల కంటున్నట్టు ఉంది!", "roman": "idi asalu ūhinchalēdu, kala kaṇṭunnaṭṭu undi!", "en": "I never imagined this; it feels like I'm dreaming!", "focus": "కంటున్నట్టు", "wrong": ["కంటున్నాను|kaṇṭunnānu", "కన్నాను|kannānu"] },
+        { "native": "పదేళ్ళ తర్వాత నువ్వు ఎక్కడ ఉంటావో ఊహించు.", "roman": "padēḷḷa tarvāta nuvvu ekkaḍa uṇṭāvō ūhinchu.", "en": "Imagine where you'll be in ten years." },
+        { "native": "అలా అయితే ఎంత బాగుంటుందో, కానీ డబ్బులు ఎక్కడివి?", "roman": "alā ayitē enta bāguṇṭundō, kānī ḍabbulu ekkaḍivi?", "en": "That would be lovely, but where's the money?" },
+        { "native": "ఈ జన్మకి ఇది చాలు!", "roman": "ī janmaki idi chālu!", "en": "That's enough for this lifetime!" }
+      ]
+    },
+    {
+      "title": "Plans for life",
+      "tip": { "title": "Life plans: -ఆలని and -ఆక", "body": "- Want to (Unit 17): **-ఆలని ఉంది**; wanted to: **-ఆలనుకున్నా**.\n- After …: **-ఆక** on the past stem (Unit 22): అయ్యాక (after becoming), కొన్నాక (after buying), **పెద్దయ్యాక** (when I grow up).\n- Together: *మాస్టర్స్ అయ్యాక సెటిల్ అవ్వాలని ఉంది.*" },
+      "new": ["బిజినెస్", "ఫారిన్", "కెరీర్", "సొంత", "ప్రపంచం", "మాస్టర్స్", "సెటిల్ అవు", "కష్టపడు", "పెద్దయ్యాక"],
+      "sentences": [
+        { "native": "పెద్దయ్యాక ఏం అవ్వాలనుకున్నావు?", "roman": "peddayyāka ēm avvālanukunnāvu?", "en": "What did you want to be when you grew up?", "focus": "అవ్వాలనుకున్నావు", "wrong": ["అవుతావు|avutāvu", "అయ్యావు|ayyāvu"] },
+        { "native": "చిన్నప్పుడు పెద్దయ్యాక డాక్టర్ అవ్వాలనుకున్నా.", "roman": "chinnappuḍu peddayyāka ḍākṭar avvālanukunnā.", "en": "As a kid I wanted to be a doctor when I grew up." },
+        { "native": "అమెరికాలో మాస్టర్స్ చేయాలని ఉంది.", "roman": "amerikālō māsṭars chēyālani undi.", "en": "I'd like to do a master's in America.", "focus": "చేయాలని", "wrong": ["చేశాను|chēshānu", "చేస్తే|chēstē"] },
+        { "native": "మాస్టర్స్ అయ్యాక అక్కడే సెటిల్ అవుతావా?", "roman": "māsṭars ayyāka akkaḍē seṭil avutāvā?", "en": "After your master's, will you settle there?", "focus": "అయ్యాక", "wrong": ["అయితే|ayitē", "అవుతుంది|avutundi"] },
+        { "native": "సొంత ఇల్లు కొన్నాక పెళ్ళి గురించి ఆలోచిస్తా.", "roman": "sonta illu konnāka peḷḷi gurinchi ālōchistā.", "en": "Once I've bought my own house, I'll think about marriage.", "focus": "కొన్నాక", "wrong": ["కొంటాను|koṇṭānu", "కొనాలి|konāli"] },
+        { "native": "రిటైర్ అయ్యాక ప్రపంచం అంతా తిరగాలని ఉంది.", "roman": "riṭair ayyāka prapancham antā tiragālani undi.", "en": "After I retire I want to travel the whole world." },
+        { "native": "జీవితంలో ఒక్కసారైనా ఫారిన్ వెళ్ళాలని ఉంది.", "roman": "jīvitamlō okkasārainā phārin veḷḷālani undi.", "en": "I want to go abroad at least once in my life." },
+        { "native": "ఉద్యోగం కాదు, సొంత బిజినెస్ పెట్టాలని ఉంది.", "roman": "udyōgam kādu, sonta bijines peṭṭālani undi.", "en": "Not a job: I want to start my own business." },
+        { "native": "కెరీర్ కోసం చాలా కష్టపడుతున్నాడు.", "roman": "kerīr kōsam chālā kaṣṭapaḍutunnāḍu.", "en": "He's working really hard for his career." },
+        { "native": "ఇప్పుడు కష్టపడితే తర్వాత హాయిగా ఉంటావు.", "roman": "ippuḍu kaṣṭapaḍitē tarvāta hāyigā uṇṭāvu.", "en": "If you work hard now, you'll have it easy later." },
+        { "native": "కెరీర్ ఒక్కటే జీవితం కాదు.", "roman": "kerīr okkaṭē jīvitam kādu.", "en": "Your career isn't your whole life." }
+      ]
+    },
+    {
+      "title": "When dreams come true",
+      "new": ["కోరిక", "తీరు", "ఆశపడు", "ఇప్పటికైనా", "నా కల తీరింది!"],
+      "sentences": [
+        { "native": "పదేళ్ళ కల, చివరికి తీరింది!", "roman": "padēḷḷa kala, chivariki tīrindi!", "en": "A ten-year dream, and it's finally come true!" },
+        { "native": "కొత్త ఉద్యోగంలో చేరాను, అమ్మానాన్నల కోరిక తీరింది.", "roman": "kotta udyōgamlō chērānu, ammānānnala kōrika tīrindi.", "en": "I've started the new job; my parents' wish has come true." },
+        { "native": "అమ్మ కోరిక ఒక్కటే, నేను సెటిల్ అవ్వాలని.", "roman": "amma kōrika okkaṭē, nēnu seṭil avvālani.", "en": "Mum has only one wish: that I settle down." },
+        { "native": "నీ కోరిక తప్పకుండా తీరుతుంది.", "roman": "nī kōrika tappakuṇḍā tīrutundi.", "en": "Your wish will come true, for sure." },
+        { "native": "నేను దేనికీ పెద్దగా ఆశపడను.", "roman": "nēnu dēnikī peddagā āshapaḍanu.", "en": "I don't get my hopes up about anything much." },
+        { "native": "అంత ఆశపడకు, తర్వాత బాధపడతావు.", "roman": "anta āshapaḍaku, tarvāta bādhapaḍatāvu.", "en": "Don't get your hopes up so much, you'll be hurt later." },
+        { "native": "ఇప్పటికైనా నీ మనసులో మాట చెప్పు.", "roman": "ippaṭikainā nī manasulō māṭa cheppu.", "en": "Say what's in your heart, now at least." },
+        { "native": "ఇప్పటికైనా లే, పది అయింది!", "roman": "ippaṭikainā lē, padi ayindi!", "en": "Get up already, it's ten o'clock!" }
+      ]
+    }
+  ]
+}
