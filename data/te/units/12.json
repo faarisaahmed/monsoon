@@ -92,5 +92,89 @@
       { "speaker": "Shopkeeper", "native": "తీసుకుంటాం మేడం.", "roman": "tīsukuṇṭām mēḍam.", "en": "We do, madam." }
     ]
   },
-  "culture": "Andhra Pradesh and Telangana are famous for handloom saris: **Pochampally** ikat, **Gadwal**, **Venkatagiri**, **Dharmavaram** silk and **Mangalagiri** cotton. Shopkeepers address customers as *సార్* and *మేడం* (or *అమ్మా*, *అన్నా*), and in markets bargaining is expected, though fixed-price shops will politely refuse. Today most small payments, even at vegetable stalls, are made by scanning a UPI QR code with a phone."
+  "culture": "Andhra Pradesh and Telangana are famous for handloom saris: **Pochampally** ikat, **Gadwal**, **Venkatagiri**, **Dharmavaram** silk and **Mangalagiri** cotton. Shopkeepers address customers as *సార్* and *మేడం* (or *అమ్మా*, *అన్నా*), and in markets bargaining is expected, though fixed-price shops will politely refuse. Today most small payments, even at vegetable stalls, are made by scanning a UPI QR code with a phone.",
+  "lessons": [
+    {
+      "title": "This one or that one?",
+      "tip": { "title": "Near ఇ-, far అ-, question ఏ-", "body": "- Before a noun: **ఈ** this · **ఆ** that · **ఏ** which: ఈ దుకాణం, ఆ సంచి.\n- On its own: **ఇది** this one · **అది** that one · **ఏది** which one; plural **ఇవి** these.\n- The same pattern runs through: ఇక్కడ / అక్కడ / ఎక్కడ, **ఇలా / అలా / ఎలా** (like this / like that / how).", "pattern": "ఈ + noun · ఇది (on its own)", "grammar": 0 },
+      "new": ["ఈ", "ఆ", "ఇవి", "ఏది", "ఇలా", "అలా", "దుకాణం", "చూపించు", "ఇవి చూపించండి."],
+      "sentences": [
+        { "native": "ఈ దుకాణం చాలా పెద్దది.", "roman": "ī dukāṇam chālā peddadi.", "en": "This shop is very big.", "focus": "ఈ", "wrong": ["ఇది|idi", "ఏ|ē"] },
+        { "native": "ఆ సంచి చూపించండి.", "roman": "ā sanchi chūpinchaṇḍi.", "en": "Show me that bag, please.", "focus": "ఆ", "wrong": ["అది|adi", "ఏ|ē"] },
+        { "native": "ఇది వద్దు, అది చూపించండి.", "roman": "idi vaddu, adi chūpinchaṇḍi.", "en": "Not this one, show me that one.", "focus": "అది", "wrong": ["ఆ|ā", "ఏది|ēdi"] },
+        { "native": "ఏది బాగుంది?", "roman": "ēdi bāgundi?", "en": "Which one is nice?", "focus": "ఏది", "wrong": ["ఏ|ē", "ఎక్కడ|ekkaḍa"] },
+        { "native": "ఇవి కొత్తవా?", "roman": "ivi kottavā?", "en": "Are these new?", "focus": "ఇవి", "wrong": ["ఈ|ī", "ఇది|idi"] },
+        { "native": "ఏ దుకాణం మంచిది?", "roman": "ē dukāṇam manchidi?", "en": "Which shop is good?", "focus": "ఏ", "wrong": ["ఏది|ēdi", "ఎవరు|evaru"] },
+        { "native": "ఇలా కాదు, అలా చేయండి.", "roman": "ilā kādu, alā chēyaṇḍi.", "en": "Not like this, do it like that.", "focus": "అలా", "wrong": ["ఆ|ā", "అది|adi"] },
+        { "native": "ఆ పెట్టె చూపిస్తారా?", "roman": "ā peṭṭe chūpistārā?", "en": "Could you show me that box?" },
+        { "native": "ఆ దుకాణం ఈరోజు సెలవు.", "roman": "ā dukāṇam īrōju selavu.", "en": "That shop is closed today." }
+      ]
+    },
+    {
+      "title": "What does it cost?",
+      "tip": { "title": "How much, and for how much", "body": "- **ఎంత?** how much? · **దీని ధర ఎంత?** what's this one's price? (ఇది → దీని before an ending).\n- The price you pay *for* takes **-కి**: **ఎంతకి** ఇస్తారు? · వంద రూపాయల**కి** ఇవ్వండి.\n- వంద 100 → **నూట** before a number (నూట యాభై 150), **వందల** in big numbers (రెండు వందల యాభై).", "pattern": "price + కి + ఇవ్వండి", "grammar": 1 },
+      "new": ["ధర", "రూపాయి", "డబ్బు", "ఖరీదు", "చౌక", "ఇంత", "అంత", "చాలా ఖరీదు!", "చివరి ధర ఎంత?"],
+      "sentences": [
+        { "native": "ఆ సంచి ధర ఎంత?", "roman": "ā sanchi dhara enta?", "en": "What's the price of that bag?", "focus": "ఎంత", "wrong": ["ఎన్ని|enni", "ఎంతమంది|entamandi"] },
+        { "native": "ఇది వంద రూపాయలు.", "roman": "idi vanda rūpāyalu.", "en": "This is a hundred rupees.", "focus": "రూపాయలు", "wrong": ["రూపాయి|rūpāyi", "రూపాయలకి|rūpāyalaki"] },
+        { "native": "యాభై రూపాయలకి ఇస్తారా?", "roman": "yābhai rūpāyalaki istārā?", "en": "Will you give it to me for fifty rupees?", "focus": "రూపాయలకి", "wrong": ["రూపాయలు|rūpāyalu", "రూపాయలో|rūpāyalō"] },
+        { "native": "ఈ సంచి ఎంతకి ఇస్తారు?", "roman": "ī sanchi entaki istāru?", "en": "How much will you sell this bag for?", "focus": "ఎంతకి", "wrong": ["ఎంత|enta", "ఎంతమంది|entamandi"] },
+        { "native": "రెండు వందలకి ఇవ్వండి.", "roman": "reṇḍu vandalaki ivvaṇḍi.", "en": "Give it to me for two hundred.", "focus": "వందలకి", "wrong": ["వందలు|vandalu", "వందలో|vandalō"] },
+        { "native": "నూట ఇరవై రూపాయలు అయింది.", "roman": "nūṭa iravai rūpāyalu ayindi.", "en": "It came to a hundred and twenty rupees.", "focus": "నూట", "wrong": ["వంద|vanda", "వందల|vandala"] },
+        { "native": "నా దగ్గర అంత డబ్బు లేదు.", "roman": "nā daggara anta ḍabbu lēdu.", "en": "I don't have that much money.", "focus": "అంత", "wrong": ["ఎంత|enta", "ఏది|ēdi"] },
+        { "native": "ఇంత ఖరీదా? వద్దు.", "roman": "inta kharīdā? vaddu.", "en": "This expensive? No, thanks." },
+        { "native": "ఇక్కడ పండ్లు చౌక.", "roman": "ikkaḍa paṇḍlu chauka.", "en": "Fruit is cheap here." },
+        { "native": "డబ్బులు ఎక్కడ ఇవ్వాలి?", "roman": "ḍabbulu ekkaḍa ivvāli?", "en": "Where do I pay?" }
+      ]
+    },
+    {
+      "title": "Buying, selling and bargaining",
+      "tip": { "title": "Buy, sell, give", "body": "- **కొను** buy → కొంటాను, నేను కొనను 'I won't buy'.\n- **అమ్ము** sell → అమ్ముతారు, అమ్ముతారా? 'do you sell…?'\n- **ఇవ్వు** give is irregular → **ఇస్తాను**, ఇవ్వను, ఇవ్వండి.\n- Bargain with a smile: **కొంచెం తగ్గించండి** 'bring it down a little'." },
+      "new": ["కొను", "అమ్ము", "ఇవ్వు", "తగ్గించు", "కొంచెం తగ్గించండి."],
+      "sentences": [
+        { "native": "నేను ఇక్కడే కూరగాయలు కొంటాను.", "roman": "nēnu ikkaḍē kūragāyalu koṇṭānu.", "en": "I buy my vegetables right here.", "focus": "కొంటాను", "wrong": ["కొనుతాను|konutānu", "కొంటారు|koṇṭāru"] },
+        { "native": "మీరు పండ్లు అమ్ముతారా?", "roman": "mīru paṇḍlu ammutārā?", "en": "Do you sell fruit?", "focus": "అమ్ముతారా", "wrong": ["అమ్ముతానా|ammutānā", "కొంటారా|koṇṭārā"] },
+        { "native": "ఆ దుకాణంలో చౌకగా అమ్ముతారు.", "roman": "ā dukāṇamlō chaukagā ammutāru.", "en": "They sell it cheaper in that shop.", "focus": "అమ్ముతారు", "wrong": ["అమ్ముతాను|ammutānu", "అమ్ముతుంది|ammutundi"] },
+        { "native": "వంద రూపాయలు తగ్గించండి.", "roman": "vanda rūpāyalu tagginchaṇḍi.", "en": "Take a hundred rupees off, please.", "focus": "తగ్గించండి", "wrong": ["తగ్గిస్తాను|taggistānu", "తగ్గించను|tagginchanu"] },
+        { "native": "నాలుగు వందలకి ఇస్తాను.", "roman": "nālugu vandalaki istānu.", "en": "I'll give it to you for four hundred.", "focus": "ఇస్తాను", "wrong": ["ఇవ్వుతాను|ivvutānu", "ఇస్తారు|istāru"] },
+        { "native": "అంతకి ఇవ్వను సార్.", "roman": "antaki ivvanu sār.", "en": "I won't sell it for that, sir.", "focus": "ఇవ్వను", "wrong": ["ఇస్తాను|istānu", "ఇవ్వడు|ivvaḍu"] },
+        { "native": "నేను ఇక్కడ ఏమీ కొనను.", "roman": "nēnu ikkaḍa ēmī konanu.", "en": "I won't buy anything here.", "focus": "కొనను", "wrong": ["కొంటాను|koṇṭānu", "కొనడు|konaḍu"] },
+        { "native": "సరే, మూడు వందలు ఇస్తాను.", "roman": "sarē, mūḍu vandalu istānu.", "en": "Okay, I'll pay three hundred.", "focus": "ఇస్తాను", "wrong": ["ఇస్తారు|istāru", "ఇవ్వండి|ivvaṇḍi"] },
+        { "native": "ఒక కిలో మామిడిపండ్లు కొందాం.", "roman": "oka kilō māmiḍipaṇḍlu kondām.", "en": "Let's buy a kilo of mangoes." }
+      ]
+    },
+    {
+      "title": "Trying clothes on",
+      "tip": { "title": "It fits me: నాకు సరిపోతుంది", "body": "- The person something fits, suits or pleases goes in the dative: **నాకు** సరిపోతుంది 'it fits me', **నీకు** సరిపోతుందా? 'does it fit you?'\n- Doesn't fit: **సరిపోదు**.\n- సరిపోవు also means 'to be enough': ఈ డబ్బు **సరిపోతుందా**?", "pattern": "నాకు / మీకు + సరిపోతుంది / సరిపోదు" },
+      "new": ["చీర", "చొక్కా", "ప్యాంటు", "బట్ట", "సైజు", "సరిపోవు", "ఇంకో", "వేసుకుని చూడొచ్చా?", "ఇది నాకు సరిపోదు.", "ఇంకో సైజు ఉందా?"],
+      "sentences": [
+        { "native": "ఈ చొక్కా నాకు సరిపోతుంది.", "roman": "ī chokkā nāku saripōtundi.", "en": "This shirt fits me.", "focus": "సరిపోతుంది", "wrong": ["సరిపోతాను|saripōtānu", "సరిపోతాయి|saripōtāyi"] },
+        { "native": "ఆ ప్యాంటు నాకు సరిపోదు.", "roman": "ā pyāṇṭu nāku saripōdu.", "en": "Those trousers don't fit me.", "focus": "సరిపోదు", "wrong": ["సరిపోను|saripōnu", "సరిపోడు|saripōḍu"] },
+        { "native": "ఈ ప్యాంటు నీకు సరిపోతుందా?", "roman": "ī pyāṇṭu nīku saripōtundā?", "en": "Do these trousers fit you? (to a friend)", "focus": "నీకు", "wrong": ["నువ్వు|nuvvu", "నీ|nī"] },
+        { "native": "ఈ చీర అమ్మకి బాగుంటుంది.", "roman": "ī chīra ammaki bāguṇṭundi.", "en": "This sari will look nice on Mum.", "focus": "అమ్మకి", "wrong": ["అమ్మ|amma", "అమ్మని|ammani"] },
+        { "native": "ఈ సైజు నాకు చిన్నది.", "roman": "ī saiju nāku chinnadi.", "en": "This size is too small for me.", "focus": "నాకు", "wrong": ["నేను|nēnu", "నా|nā"] },
+        { "native": "ఈ చీర నాకు చాలా నచ్చింది.", "roman": "ī chīra nāku chālā nachchindi.", "en": "I really like this sari.", "focus": "నాకు", "wrong": ["నేను|nēnu", "నా|nā"] },
+        { "native": "ఈ డబ్బు సరిపోతుందా?", "roman": "ī ḍabbu saripōtundā?", "en": "Is this money enough?", "focus": "సరిపోతుందా", "wrong": ["సరిపోతానా|saripōtānā", "సరిపోతారా|saripōtārā"] },
+        { "native": "పెద్ద సైజు ఉందా?", "roman": "pedda saiju undā?", "en": "Is there a bigger size?" },
+        { "native": "ఇంకో చొక్కా చూపించండి.", "roman": "iṅkō chokkā chūpinchaṇḍi.", "en": "Show me another shirt, please." },
+        { "native": "ఈ బట్ట చాలా మంచిది.", "roman": "ī baṭṭa chālā manchidi.", "en": "This fabric is very good." }
+      ]
+    },
+    {
+      "title": "I'll take it: paying",
+      "tip": { "title": "Take: తీసుకో", "body": "- **తీసుకో** 'take' → తీసుకుంటాను 'I'll take', తీసుకుంటారా? 'do you take…?'\n- Negative: **తీసుకోను** 'I won't take', **తీసుకోము** 'we don't take'.\n- Polite command: **తీసుకోండి** 'take it, please'. Let's take: **తీసుకుందాం**.", "pattern": "ఇది తీసుకుంటాను · కార్డు తీసుకుంటారా?" },
+      "new": ["తీసుకో", "వేరే", "చిల్లర", "కార్డు", "అద్దె", "వేరే రంగు ఉందా?", "కార్డు తీసుకుంటారా?", "చిల్లర లేదు.", "సరే, ఇది తీసుకుంటాను.", "ఇంకేమైనా కావాలా?"],
+      "sentences": [
+        { "native": "ఇది తీసుకోండి.", "roman": "idi tīsukōṇḍi.", "en": "Take this, please.", "focus": "తీసుకోండి", "wrong": ["తీసుకుంటాను|tīsukuṇṭānu", "తీసుకోను|tīsukōnu"] },
+        { "native": "మీరు కార్డు తీసుకోరా?", "roman": "mīru kārḍu tīsukōrā?", "en": "Don't you take cards?", "focus": "తీసుకోరా", "wrong": ["తీసుకోను|tīsukōnu", "తీసుకోండి|tīsukōṇḍi"] },
+        { "native": "కార్డు తీసుకోము, డబ్బులు ఇవ్వండి.", "roman": "kārḍu tīsukōmu, ḍabbulu ivvaṇḍi.", "en": "We don't take cards, please pay cash.", "focus": "తీసుకోము", "wrong": ["తీసుకుంటాము|tīsukuṇṭāmu", "తీసుకోను|tīsukōnu"] },
+        { "native": "వేరే సైజు తీసుకుంటాను.", "roman": "vērē saiju tīsukuṇṭānu.", "en": "I'll take a different size.", "focus": "తీసుకుంటాను", "wrong": ["తీసుకుంటారు|tīsukuṇṭāru", "తీసుకోను|tīsukōnu"] },
+        { "native": "నేను ఈ రెండు చీరలు తీసుకుంటాను.", "roman": "nēnu ī reṇḍu chīralu tīsukuṇṭānu.", "en": "I'll take these two saris.", "focus": "తీసుకుంటాను", "wrong": ["తీసుకుంటుంది|tīsukuṇṭundi", "తీసుకోండి|tīsukōṇḍi"] },
+        { "native": "కారు అద్దెకి తీసుకుందాం.", "roman": "kāru addeki tīsukundām.", "en": "Let's hire a car.", "focus": "తీసుకుందాం", "wrong": ["తీసుకుంటాడు|tīsukuṇṭāḍu", "తీసుకోను|tīsukōnu"] },
+        { "native": "మీ దగ్గర చిల్లర ఉందా?", "roman": "mī daggara chillara undā?", "en": "Do you have change?" },
+        { "native": "ఇంటి అద్దె ఎంత?", "roman": "iṇṭi adde enta?", "en": "How much is the rent for the house?" },
+        { "native": "ఇంకేమీ వద్దు, బిల్లు ఇవ్వండి.", "roman": "iṅkēmī vaddu, billu ivvaṇḍi.", "en": "Nothing else, the bill please." }
+      ]
+    }
+  ]
 }

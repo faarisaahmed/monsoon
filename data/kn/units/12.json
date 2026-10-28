@@ -84,5 +84,83 @@
       { "speaker": "Sam", "native": "ಆಯ್ತು. ಯುಪಿಐ ಮಾಡ್ತೀನಿ.", "roman": "āytu. yupiai māḍtīni.", "en": "Done. I'll pay by UPI." }
     ]
   },
-  "culture": "ಅಯ್ಯೋ *ayyō* is the all-purpose Kannada exclamation of surprise, sympathy or dismay. In markets, prices are usually quoted in hundreds: ಏಳು ನೂರು 'seven hundred' (written as one word, ಏಳುನೂರು, in standard spelling), and ಸಾವಿರದ ಇನ್ನೂರು 'thousand-two-hundred' for 1200. Digital payment by UPI (scanning a QR code) is now universal, even at tiny tea stalls and vegetable carts."
+  "culture": "ಅಯ್ಯೋ *ayyō* is the all-purpose Kannada exclamation of surprise, sympathy or dismay. In markets, prices are usually quoted in hundreds: ಏಳು ನೂರು 'seven hundred' (written as one word, ಏಳುನೂರು, in standard spelling), and ಸಾವಿರದ ಇನ್ನೂರು 'thousand-two-hundred' for 1200. Digital payment by UPI (scanning a QR code) is now universal, even at tiny tea stalls and vegetable carts.",
+  "lessons": [
+    {
+      "title": "How much is it?",
+      "tip": { "title": "Asking the price", "body": "- Ask with **ಎಷ್ಟು**: ಇದು ಎಷ್ಟು? 'how much is this?', ಎಷ್ಟಾಯ್ತು? 'what does it come to?'\n- The price something goes **for** takes **-ಗೆ / -ಕ್ಕೆ**: ನೂರು ರೂಪಾಯಿ**ಗೆ** 'for 100 rupees', ಕಿಲೋ**ಗೆ** 'per kilo', ಒಂದ**ಕ್ಕೆ** 'each'.\n- Paying is ಕೊಡು 'give': ಎಷ್ಟು ಕೊಡಬೇಕು? 'how much do I pay?'", "pattern": "price + ಗೆ: ಕಿಲೋಗೆ ಐವತ್ತು", "grammar": 1 },
+      "new": ["ದುಡ್ಡು", "ರೂಪಾಯಿ", "ಬೆಲೆ", "ಕೊಡು", "ಚಿಲ್ಲರೆ", "ಇದರ ಬೆಲೆ ಎಷ್ಟು?", "ಎಷ್ಟಾಯ್ತು?", "ಚಿಲ್ಲರೆ ಇಲ್ಲ"],
+      "sentences": [
+        { "native": "ಸಕ್ಕರೆ ಕಿಲೋಗೆ ಎಷ್ಟು?", "roman": "sakkare kilōge eṣṭu?", "en": "How much is sugar per kilo?", "focus": "ಕಿಲೋಗೆ", "wrong": ["ಕಿಲೋದಲ್ಲಿ|kilōdalli", "ಕಿಲೋದಿಂದ|kilōdinda"] },
+        { "native": "ನೂರು ರೂಪಾಯಿಗೆ ಎರಡು ಕಿಲೋ ಕೊಡ್ತೀರಾ?", "roman": "nūru rūpāyige eraḍu kilō koḍtīrā?", "en": "Will you give me two kilos for a hundred rupees?", "focus": "ರೂಪಾಯಿಗೆ", "wrong": ["ರೂಪಾಯಿಯಲ್ಲಿ|rūpāyiyalli", "ರೂಪಾಯಿಯಿಂದ|rūpāyiyinda"] },
+        { "native": "ಹಣ್ಣು ಒಂದಕ್ಕೆ ಹತ್ತು ರೂಪಾಯಿ.", "roman": "haṇṇu ondakke hattu rūpāyi.", "en": "The fruit is ten rupees each.", "focus": "ಒಂದಕ್ಕೆ", "wrong": ["ಒಂದರಲ್ಲಿ|ondaralli", "ಒಂದರಿಂದ|ondarinda"] },
+        { "native": "ನಾನು ನಿಮಗೆ ಎಷ್ಟು ಕೊಡಬೇಕು?", "roman": "nānu nimage eṣṭu koḍabēku?", "en": "How much do I owe you?", "focus": "ಎಷ್ಟು", "wrong": ["ಎಲ್ಲಿ|elli", "ಯಾರು|yāru"] },
+        { "native": "ನನ್ನ ಹತ್ತಿರ ದುಡ್ಡು ಇಲ್ಲ.", "roman": "nanna hattira duḍḍu illa.", "en": "I don't have any money on me." },
+        { "native": "ಐನೂರು ರೂಪಾಯಿಗೆ ಚಿಲ್ಲರೆ ಇದೆಯಾ?", "roman": "ainūru rūpāyige chillare ideyā?", "en": "Do you have change for five hundred rupees?", "focus": "ರೂಪಾಯಿಗೆ", "wrong": ["ರೂಪಾಯಿಯಲ್ಲಿ|rūpāyiyalli", "ರೂಪಾಯಿಯಿಂದ|rūpāyiyinda"] },
+        { "native": "ಹಾಲಿನ ಬೆಲೆ ಜಾಸ್ತಿ ಆಗಿದೆ.", "roman": "hālina bele jāsti āgide.", "en": "The price of milk has gone up." },
+        { "native": "ಈ ಚೀಲ ಇನ್ನೂರು ರೂಪಾಯಿಗೆ ಕೊಡ್ತೀರಾ?", "roman": "ī chīla innūru rūpāyige koḍtīrā?", "en": "Will you give me this bag for two hundred rupees?", "focus": "ರೂಪಾಯಿಗೆ", "wrong": ["ರೂಪಾಯಿಯಲ್ಲಿ|rūpāyiyalli", "ರೂಪಾಯಿಯಿಂದ|rūpāyiyinda"] },
+        { "native": "ಎರಡು ಕಿಲೋಗೆ ಎಂಬತ್ತು ರೂಪಾಯಿ ಆಯ್ತು.", "roman": "eraḍu kilōge embattu rūpāyi āytu.", "en": "That's eighty rupees for two kilos.", "focus": "ಕಿಲೋಗೆ", "wrong": ["ಕಿಲೋದಲ್ಲಿ|kilōdalli", "ಕಿಲೋದಿಂದ|kilōdinda"] }
+      ]
+    },
+    {
+      "title": "This one or that one?",
+      "tip": { "title": "ಈ / ಆ and ಇದು / ಅದು", "body": "- Before a noun: **ಈ** 'this', **ಆ** 'that' (they never change): ಈ ಅಂಗಿ, ಆ ಚೀಲ.\n- On their own: **ಇದು / ಅದು** 'this one / that one', plural **ಇವು / ಅವು**.\n- They take endings: ಇದ**ನ್ನು** 'this (object)', ಇದ**ರ** 'of this'.\n- Add **-ಏ** for 'the very same': **ಇದೇ**, ಅದೇ.", "pattern": "ಈ ಅಂಗಿ  ·  ಇದು ಬೇಡ  ·  ಇದೇ ಬೇಕು", "grammar": 0 },
+      "new": ["ಈ", "ಆ", "ಇವು", "ಅವು", "ಇದೇ", "ತೋರಿಸು", "ಅಂಗಿ", "ಆ ನೀಲಿ ಅಂಗಿ ತೋರಿಸಿ", "ಇದು ಬೇಡ, ಅದು ಕೊಡಿ"],
+      "sentences": [
+        { "native": "ಈ ಅಂಗಿ ಎಷ್ಟು?", "roman": "ī aṅgi eṣṭu?", "en": "How much is this shirt?", "focus": "ಈ", "wrong": ["ಇದು|idu", "ಇವು|ivu"] },
+        { "native": "ಆ ಕೆಂಪು ಚೀಲ ತೋರಿಸ್ತೀರಾ?", "roman": "ā kempu chīla tōristīrā?", "en": "Could you show me that red bag?", "focus": "ಆ", "wrong": ["ಅದು|adu", "ಅವು|avu"] },
+        { "native": "ಇದು ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ.", "roman": "idu tumbā chennāgide.", "en": "This one is really nice.", "focus": "ಇದು", "wrong": ["ಈ|ī", "ಇವು|ivu"] },
+        { "native": "ಇವು ಎಷ್ಟು?", "roman": "ivu eṣṭu?", "en": "How much are these?", "focus": "ಇವು", "wrong": ["ಈ|ī", "ಇವನು|ivanu"] },
+        { "native": "ಅವು ನನಗೆ ಬೇಡ.", "roman": "avu nanage bēḍa.", "en": "I don't want those.", "focus": "ಅವು", "wrong": ["ಆ|ā", "ಅವನು|avanu"] },
+        { "native": "ಇದೇ ಬಣ್ಣದಲ್ಲಿ ದೊಡ್ಡದು ಇದೆಯಾ?", "roman": "idē baṇṇadalli doḍḍadu ideyā?", "en": "Do you have a bigger one in this same colour?", "focus": "ಇದೇ", "wrong": ["ಇದು|idu", "ಇವು|ivu"] },
+        { "native": "ಇದನ್ನು ತೋರಿಸಿ.", "roman": "idannu tōrisi.", "en": "Show me this one, please.", "focus": "ಇದನ್ನು", "wrong": ["ಇದಕ್ಕೆ|idakke", "ಇದರ|idara"] },
+        { "native": "ನನಗೆ ಅದೇ ಅಂಗಿ ಬೇಕು.", "roman": "nanage adē aṅgi bēku.", "en": "I want that same shirt.", "focus": "ಅದೇ", "wrong": ["ಅದು|adu", "ಅವು|avu"] },
+        { "native": "ಇವು ನಿಮ್ಮ ಚೀಲಗಳಾ?", "roman": "ivu nimma chīlagaḷā?", "en": "Are these your bags?" }
+      ]
+    },
+    {
+      "title": "Clothes and sizes",
+      "tip": { "title": "Buying is \"taking\": ತಗೊಳ್ಳು", "body": "- In everyday speech you **take** what you buy: **ತಗೊಳ್ಳು** (short for ತೆಗೆದುಕೊಳ್ಳು).\n- ತಗೊಳ್ತೀನಿ 'I'll take it', ತಗೊಳ್ತೀರ? 'will you take?', ತಗೊಳ್ಳಿ 'take (polite)', ತಗೊಳ್ಳಲ್ಲ 'I won't take it', ತಗೊಳ್ಳೋಣ 'let's get it'.\n- **ಕೊಳ್ಳು** 'buy' is more formal; size is ಅಳತೆ, usually just ಸೈಜ್.", "pattern": "ಇದನ್ನ ತಗೊಳ್ತೀನಿ" },
+      "new": ["ಸೀರೆ", "ಪ್ಯಾಂಟ್", "ಚಪ್ಪಲಿ", "ಅಳತೆ", "ಕೊಳ್ಳು", "ತೆಗೆದುಕೊಳ್ಳು", "ಇದಕ್ಕಿಂತ ದೊಡ್ಡ ಸೈಜ್ ಇದೆಯಾ?", "ಇದನ್ನೇ ತಗೊಳ್ತೀನಿ"],
+      "sentences": [
+        { "native": "ನಾನು ಅಮ್ಮನಿಗೆ ಒಂದು ಸೀರೆ ತಗೊಳ್ತೀನಿ.", "roman": "nānu ammanige ondu sīre tagoḷtīni.", "en": "I'm going to buy a sari for Mum.", "focus": "ತಗೊಳ್ತೀನಿ", "wrong": ["ತಗೊಳ್ತಾರೆ|tagoḷtāre", "ತಗೊಳ್ಳಿ|tagoḷḷi"] },
+        { "native": "ಈ ಪ್ಯಾಂಟ್ ತಗೊಳ್ಳಿ, ಚೆನ್ನಾಗಿದೆ.", "roman": "ī pyāṇṭ tagoḷḷi, chennāgide.", "en": "Take these trousers, they look good.", "focus": "ತಗೊಳ್ಳಿ", "wrong": ["ತಗೊಳ್ತೀನಿ|tagoḷtīni", "ತಗೊಳ್ಳಲ್ಲ|tagoḷḷalla"] },
+        { "native": "ನೀವು ಯಾವ ಸೀರೆ ತಗೊಳ್ತೀರ?", "roman": "nīvu yāva sīre tagoḷtīra?", "en": "Which sari will you take?", "focus": "ತಗೊಳ್ತೀರ", "wrong": ["ತಗೊಳ್ತೀನಿ|tagoḷtīni", "ತಗೊಳ್ತಾನೆ|tagoḷtāne"] },
+        { "native": "ಈ ಚಪ್ಪಲಿ ನನ್ನ ಅಳತೆ ಅಲ್ಲ.", "roman": "ī chappali nanna aḷate alla.", "en": "These sandals aren't my size." },
+        { "native": "ನಿಮ್ಮ ಅಳತೆ ಏನು?", "roman": "nimma aḷate ēnu?", "en": "What's your size?" },
+        { "native": "ಇದು ತುಂಬಾ ಚಿಕ್ಕದು, ನಾನು ತಗೊಳ್ಳಲ್ಲ.", "roman": "idu tumbā chikkadu, nānu tagoḷḷalla.", "en": "This is too small, I won't take it.", "focus": "ತಗೊಳ್ಳಲ್ಲ", "wrong": ["ತಗೊಳ್ತೀನಿ|tagoḷtīni", "ತಗೊಳ್ಳಿ|tagoḷḷi"] },
+        { "native": "ಕಪ್ಪು ಚಪ್ಪಲಿ ತಗೊಳ್ಳೋಣ.", "roman": "kappu chappali tagoḷḷōṇa.", "en": "Let's get the black sandals.", "focus": "ತಗೊಳ್ಳೋಣ", "wrong": ["ತಗೊಳ್ಳಲ್ಲ|tagoḷḷalla", "ತಗೊಳ್ತಾರೆ|tagoḷtāre"] },
+        { "native": "ಅವರು ಹೊಸ ಕಾರು ಕೊಳ್ಳುತ್ತಾರೆ.", "roman": "avaru hosa kāru koḷḷuttāre.", "en": "They're going to buy a new car.", "focus": "ಕೊಳ್ಳುತ್ತಾರೆ", "wrong": ["ಕೊಳ್ಳುತ್ತೇನೆ|koḷḷuttēne", "ಕೊಳ್ಳುವುದಿಲ್ಲ|koḷḷuvudilla"] },
+        { "native": "ದಯವಿಟ್ಟು ಇದನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ.", "roman": "dayaviṭṭu idannu tegedukoḷḷi.", "en": "Please take this.", "focus": "ತೆಗೆದುಕೊಳ್ಳಿ", "wrong": ["ತೆಗೆದುಕೊಳ್ಳುತ್ತೇನೆ|tegedukoḷḷuttēne", "ತೆಗೆದುಕೊಳ್ಳಬೇಡಿ|tegedukoḷḷabēḍi"] }
+      ]
+    },
+    {
+      "title": "Bargaining",
+      "new": ["ದುಬಾರಿ", "ಅಗ್ಗ", "ಚೌಕಾಸಿ", "ರಿಯಾಯಿತಿ", "ಉಚಿತ", "ತುಂಬಾ ದುಬಾರಿ!", "ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡ್ಕೊಳ್ಳಿ", "ಕೊನೆಯ ಬೆಲೆ ಎಷ್ಟು?"],
+      "sentences": [
+        { "native": "ಈ ಅಂಗಡಿಯಲ್ಲಿ ಎಲ್ಲಾ ತುಂಬಾ ದುಬಾರಿ.", "roman": "ī aṅgaḍiyalli ellā tumbā dubāri.", "en": "Everything in this shop is very expensive." },
+        { "native": "ಮಾರುಕಟ್ಟೆಯಲ್ಲಿ ತರಕಾರಿ ಅಗ್ಗ.", "roman": "mārukaṭṭeyalli tarakāri agga.", "en": "Vegetables are cheap at the market." },
+        { "native": "ಇಲ್ಲಿ ಚೌಕಾಸಿ ಮಾಡಬೇಕು.", "roman": "illi chaukāsi māḍabēku.", "en": "You have to bargain here." },
+        { "native": "ಈ ಸೀರೆಗೆ ರಿಯಾಯಿತಿ ಇದೆಯಾ?", "roman": "ī sīrege riyāyiti ideyā?", "en": "Is there a discount on this sari?" },
+        { "native": "ಇದರ ಜೊತೆ ಒಂದು ಚೀಲ ಉಚಿತ.", "roman": "idara jote ondu chīla uchita.", "en": "You get a free bag with this." },
+        { "native": "ನಾನೂರು ಕೊಡ್ತೀನಿ, ಆಗುತ್ತಾ?", "roman": "nānūru koḍtīni, āguttā?", "en": "I'll give four hundred, is that OK?" },
+        { "native": "ಇಲ್ಲ ಸಾರ್, ಅಷ್ಟಕ್ಕೆ ಆಗಲ್ಲ.", "roman": "illa sār, aṣṭakke āgalla.", "en": "No sir, not for that much." },
+        { "native": "ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ, ಎರಡು ತಗೊಳ್ತೀನಿ.", "roman": "svalpa kaḍime māḍi, eraḍu tagoḷtīni.", "en": "Bring it down a bit and I'll take two." },
+        { "native": "ಆ ಅಂಗಡಿಯಲ್ಲಿ ಇದು ಅಗ್ಗ ಇದೆ.", "roman": "ā aṅgaḍiyalli idu agga ide.", "en": "It's cheap in that shop." }
+      ]
+    },
+    {
+      "title": "Paying and shopping for the house",
+      "new": ["ಹಣ", "ಮಾರು", "ಸಾಮಾನು", "ಕಾರ್ಡ್ ತಗೊಳ್ತೀರಾ?", "ಯುಪಿಐ ಮಾಡ್ಲಾ?"],
+      "sentences": [
+        { "native": "ಹಣ ಎಲ್ಲಿ ಕೊಡಬೇಕು?", "roman": "haṇa elli koḍabēku?", "en": "Where do I pay?" },
+        { "native": "ಈ ಅಂಗಡಿಯಲ್ಲಿ ಏನು ಮಾರ್ತಾರೆ?", "roman": "ī aṅgaḍiyalli ēnu mārtāre?", "en": "What do they sell in this shop?" },
+        { "native": "ಅವರು ಹಣ್ಣು, ತರಕಾರಿ ಮಾರ್ತಾರೆ.", "roman": "avaru haṇṇu, tarakāri mārtāre.", "en": "They sell fruit and vegetables." },
+        { "native": "ನೀವು ಈ ಕಾರು ಮಾರ್ತೀರಾ?", "roman": "nīvu ī kāru mārtīrā?", "en": "Are you selling this car?" },
+        { "native": "ಮನೆಗೆ ಸಾಮಾನು ತಗೊಳ್ಳಬೇಕು.", "roman": "manege sāmānu tagoḷḷabēku.", "en": "I need to buy groceries for home." },
+        { "native": "ಎಲ್ಲಾ ಸಾಮಾನು ಈ ಚೀಲದಲ್ಲಿ ಹಾಕಿ.", "roman": "ellā sāmānu ī chīladalli hāki.", "en": "Put all the things in this bag, please." },
+        { "native": "ನನ್ನ ಹತ್ತಿರ ಕಾರ್ಡ್ ಇಲ್ಲ, ಯುಪಿಐ ಮಾಡ್ತೀನಿ.", "roman": "nanna hattira kārḍ illa, yupiai māḍtīni.", "en": "I don't have a card, I'll pay by UPI." }
+      ]
+    }
+  ]
 }

@@ -83,5 +83,101 @@
       { "speaker": "Olivia", "native": "ಎಲ್ಲಾ ಅಲ್ಲ, ಆದ್ರೆ ಜಾಸ್ತಿ ಅರ್ಥ ಆಯ್ತು. ನನಗೆ ತುಂಬಾ ಖುಷಿ!", "roman": "ellā alla, ādre jāsti artha āytu. nanage tumbā khuṣi!", "en": "Not everything, but most of it. I'm so happy!" }
     ]
   },
-  "culture": "ಪಾಪ *pāpa* (literally 'sin') is used constantly to express sympathy: 'poor thing!'. ಅಯ್ಯೋ ಪಾಪ is the full version. Kannada cinema (Sandalwood) has a passionate following; recent hits have reached audiences across India. Note that Kannadigas often express disagreement softly and indirectly: ನೋಡೋಣ 'let's see' or ಸ್ವಲ್ಪ ಕಷ್ಟ 'a bit difficult' can mean 'no'."
+  "culture": "ಪಾಪ *pāpa* (literally 'sin') is used constantly to express sympathy: 'poor thing!'. ಅಯ್ಯೋ ಪಾಪ is the full version. Kannada cinema (Sandalwood) has a passionate following; recent hits have reached audiences across India. Note that Kannadigas often express disagreement softly and indirectly: ನೋಡೋಣ 'let's see' or ಸ್ವಲ್ಪ ಕಷ್ಟ 'a bit difficult' can mean 'no'.",
+  "lessons": [
+    {
+      "title": "Happy, sad, angry",
+      "tip": { "title": "Feelings happen \"to\" you", "body": "- The person who feels takes **-ಗೆ**: **ನನಗೆ** ಖುಷಿ ಆಯ್ತು 'I was happy', **ಅವನಿಗೆ** ಕೋಪ ಬಂತು 'he got angry'.\n- The feeling **happens** (ಆಗು) or **comes** (ಬರು): ಬೇಜಾರಾಯ್ತು, ಕೋಪ ಬಂತು, or just **is**: ನನಗೆ ಖುಷಿ ಇದೆ.\n- Never ನಾನು ಖುಷಿ: the feeler is always in the -ಗೆ form.", "pattern": "ನನಗೆ + ಖುಷಿ + ಆಯ್ತು", "grammar": 0 },
+      "new": ["ಖುಷಿ", "ಸಂತೋಷ", "ಬೇಜಾರು", "ಕೋಪ", "ದುಃಖ", "ನನಗೆ ತುಂಬಾ ಖುಷಿ ಆಯ್ತು", "ಬೇಜಾರು ಮಾಡ್ಕೋಬೇಡಿ", "ಅವನಿಗೆ ಕೋಪ ಬಂತು", "ಅಯ್ಯೋ ಪಾಪ!"],
+      "sentences": [
+        { "native": "ಅವಳಿಗೆ ತುಂಬಾ ಖುಷಿ ಆಯ್ತು.", "roman": "avaḷige tumbā khuṣi āytu.", "en": "She was so happy.", "focus": "ಅವಳಿಗೆ", "wrong": ["ಅವಳು|avaḷu", "ಅವಳ|avaḷa"] },
+        { "native": "ನನಗೆ ಸ್ವಲ್ಪ ಬೇಜಾರಾಗಿದೆ.", "roman": "nanage svalpa bējārāgide.", "en": "I'm feeling a bit low.", "focus": "ನನಗೆ", "wrong": ["ನಾನು|nānu", "ನನ್ನ|nanna"] },
+        { "native": "ಅಪ್ಪನಿಗೆ ಕೋಪ ಬಂದಿದೆ.", "roman": "appanige kōpa bandide.", "en": "Dad is angry.", "focus": "ಅಪ್ಪನಿಗೆ", "wrong": ["ಅಪ್ಪ|appa", "ಅಪ್ಪನ|appana"] },
+        { "native": "ನಿಮಗೆ ಕೋಪ ಬಂತಾ?", "roman": "nimage kōpa bantā?", "en": "Are you angry with me?", "focus": "ನಿಮಗೆ", "wrong": ["ನೀವು|nīvu", "ನಿಮ್ಮ|nimma"] },
+        { "native": "ನಿಮ್ಮ ಮನೆಗೆ ಬಂದು ತುಂಬಾ ಸಂತೋಷ ಆಯ್ತು.", "roman": "nimma manege bandu tumbā santōṣa āytu.", "en": "It was a real pleasure coming to your home.", "focus": "ಆಯ್ತು", "wrong": ["ಇದ್ದೀನಿ|iddīni", "ಆದೆ|āde"] },
+        { "native": "ಅಜ್ಜಿಗೆ ತುಂಬಾ ದುಃಖ ಆಯ್ತು.", "roman": "ajjige tumbā duḥkha āytu.", "en": "Grandma was very sad.", "focus": "ಅಜ್ಜಿಗೆ", "wrong": ["ಅಜ್ಜಿ|ajji", "ಅಜ್ಜಿಯ|ajjiya"] },
+        { "native": "ರಜೆ ಇದೆ, ಮಕ್ಕಳಿಗೆ ತುಂಬಾ ಖುಷಿ.", "roman": "raje ide, makkaḷige tumbā khuṣi.", "en": "It's a holiday, the children are thrilled.", "focus": "ಮಕ್ಕಳಿಗೆ", "wrong": ["ಮಕ್ಕಳು|makkaḷu", "ಮಕ್ಕಳ|makkaḷa"] },
+        { "native": "ಬೇಜಾರು ಮಾಡ್ಕೋಬೇಡ, ಪರವಾಗಿಲ್ಲ.", "roman": "bējāru māḍkōbēḍa, paravāgilla.", "en": "Don't feel bad, it's okay. (informal)" },
+        { "native": "ಅವನಿಗೆ ಜ್ವರ ಇದೆಯಾ? ಅಯ್ಯೋ ಪಾಪ!", "roman": "avanige jvara ideyā? ayyō pāpa!", "en": "He has a fever? Oh, poor thing!" }
+      ]
+    },
+    {
+      "title": "Scared, worried, surprised",
+      "tip": { "title": "What you fear or love: ಅಂದ್ರೆ", "body": "- Put **ಅಂದ್ರೆ** (lit. 'if you say') after the thing: ನನಗೆ ನಾಯಿ **ಅಂದ್ರೆ** ಭಯ 'I'm scared of dogs'.\n- Same for love and liking: ನನಗೆ ಕಾಫಿ ಅಂದ್ರೆ ತುಂಬಾ ಇಷ್ಟ 'I love coffee'.\n- The feeler still takes -ಗೆ: ಮಗು**ವಿಗೆ**, ಅಮ್ಮ**ನಿಗೆ**.", "pattern": "ನನಗೆ + thing + ಅಂದ್ರೆ + ಭಯ", "grammar": 0 },
+      "new": ["ಭಯ", "ಚಿಂತೆ", "ಆಶ್ಚರ್ಯ", "ಪ್ರೀತಿ", "ನಾಚಿಕೆ", "ಚಿಂತೆ ಮಾಡಬೇಡಿ", "ನನಗೆ ನಾಯಿ ಅಂದ್ರೆ ಭಯ"],
+      "sentences": [
+        { "native": "ಮಗುವಿಗೆ ಗುಡುಗು ಅಂದ್ರೆ ಭಯ.", "roman": "maguvige guḍugu andre bhaya.", "en": "The baby is scared of thunder.", "focus": "ಅಂದ್ರೆ", "wrong": ["ಅಂತ|anta", "ಆಗಿ|āgi"] },
+        { "native": "ನನಗೆ ಆಸ್ಪತ್ರೆ ಅಂದ್ರೆ ಭಯ.", "roman": "nanage āspatre andre bhaya.", "en": "I'm scared of hospitals.", "focus": "ಅಂದ್ರೆ", "wrong": ["ಅಂತ|anta", "ಆಗಿ|āgi"] },
+        { "native": "ಅಮ್ಮನಿಗೆ ಮಕ್ಕಳು ಅಂದ್ರೆ ತುಂಬಾ ಪ್ರೀತಿ.", "roman": "ammanige makkaḷu andre tumbā prīti.", "en": "Mum adores the children.", "focus": "ಅಂದ್ರೆ", "wrong": ["ಅಂತ|anta", "ಆಗಿ|āgi"] },
+        { "native": "ನನಗೆ ಕಾಫಿ ಅಂದ್ರೆ ತುಂಬಾ ಇಷ್ಟ.", "roman": "nanage kāphi andre tumbā iṣṭa.", "en": "I love coffee.", "focus": "ಅಂದ್ರೆ", "wrong": ["ಅಂತ|anta", "ಆಗಿ|āgi"] },
+        { "native": "ಅಮ್ಮನಿಗೆ ತುಂಬಾ ಚಿಂತೆ ಆಗ್ತಿದೆ.", "roman": "ammanige tumbā chinte āgtide.", "en": "Mum is really worried.", "focus": "ಅಮ್ಮನಿಗೆ", "wrong": ["ಅಮ್ಮ|amma", "ಅಮ್ಮನ|ammana"] },
+        { "native": "ಚಿಂತೆ ಮಾಡಬೇಡ, ನಾನು ಇದ್ದೀನಿ.", "roman": "chinte māḍabēḍa, nānu iddīni.", "en": "Don't worry, I'm here. (informal)" },
+        { "native": "ನನಗೆ ತುಂಬಾ ಆಶ್ಚರ್ಯ ಆಯ್ತು.", "roman": "nanage tumbā āshcharya āytu.", "en": "I was really surprised.", "focus": "ನನಗೆ", "wrong": ["ನಾನು|nānu", "ನನ್ನ|nanna"] },
+        { "native": "ಮಗುವಿಗೆ ನಾಚಿಕೆ, ಮಾತಾಡಲ್ಲ.", "roman": "maguvige nāchike, mātāḍalla.", "en": "The child is shy and won't talk." },
+        { "native": "ನಾನು ನಿನ್ನನ್ನು ಪ್ರೀತಿಸ್ತೀನಿ.", "roman": "nānu ninnannu prītistīni.", "en": "I love you." }
+      ]
+    },
+    {
+      "title": "What do you think?",
+      "tip": { "title": "\"I think that…\" with ಅಂತ", "body": "- Say the thought as a full sentence, then **ಅಂತ**, then the thinking verb: ಅವನು ಬರ್ತಾನೆ **ಅಂತ** ಅನ್ಸುತ್ತೆ 'I think he'll come'.\n- … ಅಂತ ಗೊತ್ತು 'I know that …', … ಅಂತ ಯೋಚಿಸ್ತಿದ್ದೀನಿ 'I'm thinking of …', … ಅಂತ ಹೇಳ್ತಾರೆ 'they say that …'.\n- 'I know' is **ನನಗೆ ಗೊತ್ತು**, 'I don't know' ನನಗೆ ಗೊತ್ತಿಲ್ಲ.", "pattern": "sentence + ಅಂತ + ಅನ್ಸುತ್ತೆ", "grammar": 0 },
+      "new": ["ಯೋಚಿಸು", "ಅಭಿಪ್ರಾಯ", "ಗೊತ್ತು", "ಅಂತ", "ಬಹುಶಃ", "ನಿಮ್ಮ ಅಭಿಪ್ರಾಯ ಏನು?", "ನನಗೆ ಅನ್ಸುತ್ತೆ ಅದು ಸರಿ ಅಂತ", "ನನಗೆ ಗೊತ್ತಿಲ್ಲ"],
+      "sentences": [
+        { "native": "ಅವನು ಬರ್ತಾನೆ ಅಂತ ಅನ್ಸುತ್ತೆ.", "roman": "avanu bartāne anta ansutte.", "en": "I think he'll come.", "focus": "ಅಂತ", "wrong": ["ಅಂದ್ರೆ|andre", "ಆದ್ರೆ|ādre"] },
+        { "native": "ಇದು ಸರಿ ಅಲ್ಲ ಅಂತ ನನಗೆ ಗೊತ್ತು.", "roman": "idu sari alla anta nanage gottu.", "en": "I know this isn't right.", "focus": "ಅಂತ", "wrong": ["ಅಂದ್ರೆ|andre", "ಆದ್ರೆ|ādre"] },
+        { "native": "ಅವರು ಎಲ್ಲಿದ್ದಾರೆ ಅಂತ ನಿಮಗೆ ಗೊತ್ತಾ?", "roman": "avaru elliddāre anta nimage gottā?", "en": "Do you know where they are?", "focus": "ಅಂತ", "wrong": ["ಅಂದ್ರೆ|andre", "ಆದ್ರೆ|ādre"] },
+        { "native": "ನಾನು ಮೈಸೂರಿಗೆ ಹೋಗಬೇಕು ಅಂತ ಯೋಚಿಸ್ತಿದ್ದೀನಿ.", "roman": "nānu maisūrige hōgabēku anta yōchistiddīni.", "en": "I'm thinking of going to Mysuru.", "focus": "ಯೋಚಿಸ್ತಿದ್ದೀನಿ", "wrong": ["ಯೋಚಿಸ್ತಿದ್ದಾರೆ|yōchistiddāre", "ಯೋಚಿಸಿ|yōchisi"] },
+        { "native": "ಈ ಹೋಟೆಲ್ ಚೆನ್ನಾಗಿದೆ ಅಂತ ಎಲ್ಲಾ ಹೇಳ್ತಾರೆ.", "roman": "ī hōṭel chennāgide anta ellā hēḷtāre.", "en": "Everyone says this restaurant is good.", "focus": "ಅಂತ", "wrong": ["ಅಂದ್ರೆ|andre", "ಆದ್ರೆ|ādre"] },
+        { "native": "ಈ ಬಸ್ಸು ಜಯನಗರಕ್ಕೆ ಹೋಗಲ್ಲ ಅಂತ ಅನ್ಸುತ್ತೆ.", "roman": "ī bassu jayanagarakke hōgalla anta ansutte.", "en": "I don't think this bus goes to Jayanagar.", "focus": "ಅಂತ", "wrong": ["ಅಂದ್ರೆ|andre", "ಆದ್ರೆ|ādre"] },
+        { "native": "ಬಹುಶಃ ನಾಳೆ ಮಳೆ ಬರುತ್ತೆ.", "roman": "bahushaḥ nāḷe maḷe barutte.", "en": "It'll probably rain tomorrow." },
+        { "native": "ಸ್ವಲ್ಪ ಯೋಚಿಸಿ ಹೇಳಿ.", "roman": "svalpa yōchisi hēḷi.", "en": "Think it over and tell me." },
+        { "native": "ಬಹುಶಃ ಅವನಿಗೆ ಗೊತ್ತಿಲ್ಲ.", "roman": "bahushaḥ avanige gottilla.", "en": "He probably doesn't know." }
+      ]
+    },
+    {
+      "title": "True or false?",
+      "new": ["ನಿಜ", "ಸುಳ್ಳು", "ತಪ್ಪು", "ಒಪ್ಪು", "ಮೆಚ್ಚು", "ನೀವು ಹೇಳೋದು ನಿಜ"],
+      "sentences": [
+        { "native": "ಅದು ನಿಜ ಅಲ್ಲ.", "roman": "adu nija alla.", "en": "That's not true." },
+        { "native": "ಅವನು ಸುಳ್ಳು ಹೇಳ್ತಾನೆ.", "roman": "avanu suḷḷu hēḷtāne.", "en": "He tells lies." },
+        { "native": "ಅವನು ಹೇಳೋದು ಸುಳ್ಳು.", "roman": "avanu hēḷōdu suḷḷu.", "en": "What he's saying is a lie." },
+        { "native": "ನಿಜ ಹೇಳಿ, ಏನಾಯ್ತು?", "roman": "nija hēḷi, ēnāytu?", "en": "Tell me the truth, what happened?" },
+        { "native": "ತಪ್ಪಾಯ್ತು, ಕ್ಷಮಿಸಿ.", "roman": "tappāytu, kṣamisi.", "en": "My mistake, sorry." },
+        { "native": "ಇದರಲ್ಲಿ ಒಂದು ತಪ್ಪು ಇದೆ.", "roman": "idaralli ondu tappu ide.", "en": "There's a mistake in this." },
+        { "native": "ನೀವು ಒಪ್ಪುತ್ತೀರಾ?", "roman": "nīvu opputtīrā?", "en": "Do you agree?" },
+        { "native": "ಹೌದು, ನೀವು ಹೇಳೋದು ಸರಿ.", "roman": "haudu, nīvu hēḷōdu sari.", "en": "Yes, you're right." },
+        { "native": "ನಾನು ನಿಮ್ಮ ಕೆಲಸ ಮೆಚ್ಚುತ್ತೀನಿ.", "roman": "nānu nimma kelasa mechchuttīni.", "en": "I admire your work." }
+      ]
+    },
+    {
+      "title": "And, or, but",
+      "tip": { "title": "Joining words", "body": "- **And**: ಮತ್ತು in writing; in speech add **-ಊ** to each: ಅಮ್ಮ**ನೂ** ಅಪ್ಪ**ನೂ** 'Mum and Dad'.\n- **Or**: ಅಥವಾ, or **-ಓ … -ಓ**: ಬಸ್ಸ**ಲ್ಲೋ** ಆಟೋದ**ಲ್ಲೋ**; in questions **-ಆ … -ಆ**: ಇಡ್ಲಿ**ನಾ** ದೋಸೆ**ನಾ**?\n- **But**: **ಆದರೆ** (spoken ಆದ್ರೆ) starts the second part.", "pattern": "A, ಆದ್ರೆ B  ·  Aನೂ Bನೂ", "grammar": 1 },
+      "new": ["ಮತ್ತು", "ಅಥವಾ", "ಆದರೆ", "ನಾನು ಒಪ್ಪಲ್ಲ"],
+      "sentences": [
+        { "native": "ಅಮ್ಮನೂ ಅಪ್ಪನೂ ಮನೇಲಿ ಇದ್ದಾರೆ.", "roman": "ammanū appanū manēli iddāre.", "en": "Mum and Dad are both at home.", "focus": "ಅಪ್ಪನೂ", "wrong": ["ಅಪ್ಪನ|appana", "ಅಪ್ಪನಿಗೆ|appanige"] },
+        { "native": "ನಿಮಗೆ ಇಡ್ಲಿನಾ ದೋಸೆನಾ?", "roman": "nimage iḍlinā dōsenā?", "en": "Idli or dosa for you?", "focus": "ದೋಸೆನಾ", "wrong": ["ದೋಸೆನೂ|dōsenū", "ದೋಸೆಗೆ|dōsege"] },
+        { "native": "ಇದು ಚೆನ್ನಾಗಿದೆ, ಆದರೆ ತುಂಬಾ ದುಬಾರಿ.", "roman": "idu chennāgide, ādare tumbā dubāri.", "en": "It's nice, but very expensive.", "focus": "ಆದರೆ", "wrong": ["ಮತ್ತು|mattu", "ಅಥವಾ|athavā"] },
+        { "native": "ನಾನು ಬರ್ತೀನಿ, ಆದ್ರೆ ಸ್ವಲ್ಪ ತಡ ಆಗುತ್ತೆ.", "roman": "nānu bartīni, ādre svalpa taḍa āgutte.", "en": "I'll come, but I'll be a bit late.", "focus": "ಆದ್ರೆ", "wrong": ["ಮತ್ತು|mattu", "ಅಥವಾ|athavā"] },
+        { "native": "ಸೋಮವಾರ ಅಥವಾ ಮಂಗಳವಾರ ಬನ್ನಿ.", "roman": "sōmavāra athavā maṅgaḷavāra banni.", "en": "Come on Monday or Tuesday.", "focus": "ಅಥವಾ", "wrong": ["ಆದರೆ|ādare", "ಅಂತ|anta"] },
+        { "native": "ಬಸ್ಸಲ್ಲೋ ಆಟೋದಲ್ಲೋ ಹೋಗೋಣ.", "roman": "bassallō āṭōdallō hōgōṇa.", "en": "Let's go by bus or by auto.", "focus": "ಆಟೋದಲ್ಲೋ", "wrong": ["ಆಟೋದಲ್ಲಿ|āṭōdalli", "ಆಟೋದಲ್ಲೂ|āṭōdallū"] },
+        { "native": "ನನಗೆ ಕನ್ನಡ ಮತ್ತು ಇಂಗ್ಲಿಷ್ ಬರುತ್ತೆ.", "roman": "nanage kannaḍa mattu iṅgliṣ barutte.", "en": "I speak Kannada and English.", "focus": "ಮತ್ತು", "wrong": ["ಆದರೆ|ādare", "ಅಥವಾ|athavā"] },
+        { "native": "ನಾನು ಒಪ್ಪಲ್ಲ, ಆದ್ರೆ ಪರವಾಗಿಲ್ಲ.", "roman": "nānu oppalla, ādre paravāgilla.", "en": "I don't agree, but never mind.", "focus": "ಆದ್ರೆ", "wrong": ["ಮತ್ತು|mattu", "ಅಥವಾ|athavā"] },
+        { "native": "ಮನೆಗೆ ಹೋಗಿ ಸ್ವಲ್ಪ ವಿಶ್ರಾಂತಿ ತಗೊಳ್ಳಿ.", "roman": "manege hōgi svalpa vishrānti tagoḷḷi.", "en": "Go home and get some rest." }
+      ]
+    },
+    {
+      "title": "Why? Because…",
+      "tip": { "title": "Because and so", "body": "- **Why?** = **ಯಾಕೆ**: ನೀವು ಯಾಕೆ ಬರಲ್ಲ?\n- **Because** = **ಯಾಕೆಂದರೆ** (spoken ಯಾಕಂದ್ರೆ) before the reason: ಬರಲ್ಲ, ಯಾಕಂದ್ರೆ ಜ್ವರ ಇದೆ.\n- More Kannada-like: reason first, then **ಅದಕ್ಕೆ** 'so, that's why': ಜ್ವರ ಇದೆ, ಅದಕ್ಕೆ ಬರಲ್ಲ.", "pattern": "reason, ಅದಕ್ಕೆ + result", "grammar": 1 },
+      "new": ["ಯಾಕೆ", "ಯಾಕೆಂದರೆ", "ಅದಕ್ಕೆ", "ಯಾಕೆ? ಏನಾಯ್ತು?"],
+      "sentences": [
+        { "native": "ನೀವು ಯಾಕೆ ಬರಲ್ಲ?", "roman": "nīvu yāke baralla?", "en": "Why aren't you coming?", "focus": "ಯಾಕೆ", "wrong": ["ಯಾರು|yāru", "ಅದಕ್ಕೆ|adakke"] },
+        { "native": "ಇವತ್ತು ಬರಲ್ಲ, ಯಾಕಂದ್ರೆ ನನಗೆ ಜ್ವರ ಇದೆ.", "roman": "ivattu baralla, yākandre nanage jvara ide.", "en": "I won't come today, because I have a fever.", "focus": "ಯಾಕಂದ್ರೆ", "wrong": ["ಅದಕ್ಕೆ|adakke", "ಆದ್ರೆ|ādre"] },
+        { "native": "ಮಳೆ ಬರ್ತಿದೆ, ಅದಕ್ಕೆ ಆಟೋದಲ್ಲಿ ಹೋಗ್ತೀನಿ.", "roman": "maḷe bartide, adakke āṭōdalli hōgtīni.", "en": "It's raining, so I'm taking an auto.", "focus": "ಅದಕ್ಕೆ", "wrong": ["ಯಾಕಂದ್ರೆ|yākandre", "ಆದ್ರೆ|ādre"] },
+        { "native": "ಯಾಕೆ ಇಷ್ಟು ತಡ?", "roman": "yāke iṣṭu taḍa?", "en": "Why so late?", "focus": "ಯಾಕೆ", "wrong": ["ಯಾರು|yāru", "ಎಲ್ಲಿ|elli"] },
+        { "native": "ಯಾಕಂದ್ರೆ ರಸ್ತೆಯಲ್ಲಿ ತುಂಬಾ ಕಾರುಗಳು ಇವೆ.", "roman": "yākandre rasteyalli tumbā kārugaḷu ive.", "en": "Because there are so many cars on the road.", "focus": "ಯಾಕಂದ್ರೆ", "wrong": ["ಅದಕ್ಕೆ|adakke", "ಆದ್ರೆ|ādre"] },
+        { "native": "ಅವನಿಗೆ ಯಾಕೆ ಕೋಪ ಬಂತು?", "roman": "avanige yāke kōpa bantu?", "en": "Why did he get angry?", "focus": "ಯಾಕೆ", "wrong": ["ಯಾರು|yāru", "ಅದಕ್ಕೆ|adakke"] },
+        { "native": "ನಾನು ಕನ್ನಡ ಕಲೀತಿದ್ದೀನಿ, ಯಾಕೆಂದರೆ ನನ್ನ ಹೆಂಡತಿ ಮೈಸೂರಿನವರು.", "roman": "nānu kannaḍa kalītiddīni, yākendare nanna heṇḍati maisūrinavaru.", "en": "I'm learning Kannada because my wife is from Mysuru.", "focus": "ಯಾಕೆಂದರೆ", "wrong": ["ಅದಕ್ಕೆ|adakke", "ಆದರೆ|ādare"] },
+        { "native": "ಅವಳಿಗೆ ಖಾರ ಇಷ್ಟ ಇಲ್ಲ, ಅದಕ್ಕೆ ಇಡ್ಲಿ ತಿಂತಾಳೆ.", "roman": "avaḷige khāra iṣṭa illa, adakke iḍli tintāḷe.", "en": "She doesn't like spicy food, so she eats idli.", "focus": "ಅದಕ್ಕೆ", "wrong": ["ಯಾಕಂದ್ರೆ|yākandre", "ಆದ್ರೆ|ādre"] }
+      ]
+    }
+  ]
 }

@@ -85,5 +85,101 @@
       { "speaker": "Karthik", "native": "கண்டிப்பா மேடம். ரொம்ப நன்றி!", "roman": "kaṇḍippā mēḍam. romba nandri!", "en": "Definitely, madam. Thank you very much!" }
     ]
   },
-  "culture": "Education is highly valued in Tamil Nadu, and board exam results in '10th' and '12th standard' are big family events. Teachers are addressed as சார் or மிஸ் / டீச்சர், and students stand when a teacher enters. Office culture mixes Tamil and English freely — 'meeting', 'leave', 'report', 'boss' are all used in Tamil sentences."
+  "culture": "Education is highly valued in Tamil Nadu, and board exam results in '10th' and '12th standard' are big family events. Teachers are addressed as சார் or மிஸ் / டீச்சர், and students stand when a teacher enters. Office culture mixes Tamil and English freely — 'meeting', 'leave', 'report', 'boss' are all used in Tamil sentences.",
+  "lessons": [
+    {
+      "title": "What do you do?",
+      "tip": { "title": "Talking about your job", "body": "- 'I'm a teacher' needs no verb: **நான் ஒரு டீச்சர்**.\n- 'I work (as…)': **வேலை பாக்கிறேன்**: **இன்ஜினியரா** வேலை பாக்கிறேன் 'I work as an engineer'.\n- Most job titles are said in English: டீச்சர், இன்ஜினியர், டிரைவர்; lawyer is **வக்கீல்**.\n- Ask politely: **நீங்க என்ன வேலை பாக்கிறீங்க?**" },
+      "new": ["ஆசிரியர்", "பொறியாளர்", "வழக்கறிஞர்", "போலீஸ்", "ஓட்டுநர்", "விவசாயி", "தொழில்", "நீங்க என்ன வேலை பாக்கிறீங்க?"],
+      "sentences": [
+        { "native": "நான் ஒரு டீச்சர்.", "roman": "nān oru ṭīcchar.", "en": "I'm a teacher." },
+        { "native": "நீங்க ஆசிரியரா?", "roman": "nīnga āsiriyarā?", "en": "Are you a teacher?" },
+        { "native": "அம்மா ஸ்கூல்ல டீச்சரா இருக்காங்க.", "roman": "ammā skūlla ṭīccharā irukkānga.", "en": "Mum is a teacher at a school." },
+        { "native": "என் அண்ணன் இன்ஜினியரா வேலை பாக்கிறாரு.", "roman": "en aṇṇan injiniyarā vēlai pākkirāru.", "en": "My elder brother works as an engineer." },
+        { "native": "அவங்க அப்பா வக்கீல்.", "roman": "avanga appā vakkīl.", "en": "Her father is a lawyer." },
+        { "native": "எங்க தாத்தா ஒரு விவசாயி.", "roman": "enga tāttā oru vivasāyi.", "en": "Our grandfather is a farmer." },
+        { "native": "அவரு போலீஸ்ல வேலை பாக்கிறாரு.", "roman": "avaru pōlīsla vēlai pākkirāru.", "en": "He works in the police." },
+        { "native": "எங்க டிரைவர் இன்னைக்கு வரல.", "roman": "enga ḍraivar innaikku varala.", "en": "Our driver didn't come today." },
+        { "native": "உங்க அப்பா என்ன தொழில் பண்றாரு?", "roman": "unga appā enna toḻil paṇrāru?", "en": "What does your father do for a living?" }
+      ]
+    },
+    {
+      "title": "At the office",
+      "tip": { "title": "Have to: -ணும்", "body": "- Add **-ணும்** to the verb's infinitive for 'must, have to': போ → **போகணும்**, வா → **வரணும்**, முடி → **முடிக்கணும்**.\n- It never changes for the person: நான் / நீங்க / அவங்க **போகணும்**.\n- With **எனக்கு** it means 'I want to': எனக்குப் போகணும்.", "pattern": "verb + ணும் (போகணும், வரணும், பாக்கணும்)", "grammar": 1 },
+      "new": [
+        "அலுவலகம்",
+        "நிறுவனம்",
+        "முதலாளி",
+        "ஊழியர்",
+        "கூட்டம்",
+        "சம்பளம்",
+        "வியாபாரம்",
+        "நான் ஒரு ஐடி கம்பெனியில வேலை பாக்கிறேன்.",
+        "மீட்டிங் எத்தன மணிக்கு?",
+        "நான் சீக்கிரம் போகணும்."
+      ],
+      "sentences": [
+        { "native": "நாளைக்கு சீக்கிரம் ஆஃபீஸுக்குப் போகணும்.", "roman": "nāḷaikku sīkkiram āfīsukkup pōgaṇum.", "en": "I have to go to the office early tomorrow.", "focus": "போகணும்", "wrong": ["போகும்|pōgum", "போனேன்|pōnēn"] },
+        { "native": "இன்னைக்கு முதலாளியைப் பாக்கணும்.", "roman": "innaikku mudalāḷiyaip pākkaṇum.", "en": "I need to see the boss today.", "focus": "பாக்கணும்", "wrong": ["பாக்கிறேன்|pākkirēn", "பாத்தேன்|pāttēn"] },
+        { "native": "எல்லா ஊழியரும் மீட்டிங்குக்கு வரணும்.", "roman": "ellā ūḻiyarum mīṭṭingukku varaṇum.", "en": "All the staff have to come to the meeting.", "focus": "வரணும்", "wrong": ["வர்றேன்|varrēn", "வந்தேன்|vandēn"] },
+        { "native": "இந்த ரிப்போர்ட்டை இன்னைக்கே முடிக்கணும்.", "roman": "inda rippōrṭṭai innaikkē muḍikkaṇum.", "en": "I have to finish this report today.", "focus": "முடிக்கணும்", "wrong": ["முடிச்சேன்|muḍicchēn", "முடியும்|muḍiyum"] },
+        { "native": "எத்தன மணிக்கு ஆஃபீஸ்ல இருக்கணும்?", "roman": "ettana maṇikku āfīsla irukkaṇum?", "en": "What time do I have to be at the office?", "focus": "இருக்கணும்", "wrong": ["இருக்கேன்|irukkēn", "இருந்தேன்|irundēn"] },
+        { "native": "மீட்டிங்குக்கு அப்புறம் உங்களுக்குக் கால் பண்ணணும்.", "roman": "mīṭṭingukku appuram ungaḷukkuk kāl paṇṇaṇum.", "en": "I need to call you after the meeting.", "focus": "பண்ணணும்", "wrong": ["பண்றேன்|paṇrēn", "பண்ணினேன்|paṇṇinēn"] },
+        { "native": "இன்னைக்கு ஆஃபீஸ்ல நிறைய வேலை செய்யணும்.", "roman": "innaikku āfīsla niraiya vēlai seyyaṇum.", "en": "I have a lot of work to do at the office today.", "focus": "செய்யணும்", "wrong": ["செய்யுறேன்|seyyurēn", "செஞ்சேன்|senjēn"] },
+        { "native": "இந்த மாசம் சம்பளம் இன்னும் வரல.", "roman": "inda māsam sambaḷam innum varala.", "en": "This month's salary hasn't come in yet." },
+        { "native": "அவரு வியாபாரம் பண்றாரு.", "roman": "avaru viyābāram paṇrāru.", "en": "He's in business." },
+        { "native": "பஸ்ல ரொம்பக் கூட்டம்.", "roman": "basla rombak kūṭṭam.", "en": "The bus is really crowded." }
+      ]
+    },
+    {
+      "title": "School and college",
+      "tip": { "title": "Don't have to, mustn't", "body": "- 'Don't have to' is infinitive + **வேணாம்**: வர **வேணாம்** 'no need to come'.\n- 'Mustn't' is infinitive + **-க்கூடாது**: பேச**க்கூடாது** 'you mustn't talk'.\n- 'Have to' is still **-ணும்**: படிக்**கணும்**.\n- Don't mix them up: வேணாம் is relaxed, கூடாது is a rule.", "pattern": "verb-அ + வேணாம்  ·  verb-அ + க்கூடாது", "grammar": 1 },
+      "new": ["மாணவர்", "பள்ளிக்கூடம்", "கல்லூரி", "பல்கலைக்கழகம்", "வகுப்பு", "தேர்வு", "பாடம்", "நான் காலேஜ்ல படிக்கிறேன்.", "நாளைக்கு வர வேணாம்."],
+      "sentences": [
+        { "native": "எக்ஸாமுக்கு மூணு பாடம் படிக்கணும்.", "roman": "eksāmukku mūṇu pāḍam paḍikkaṇum.", "en": "I have to study three subjects for the exam.", "focus": "படிக்கணும்", "wrong": ["படிக்கிறேன்|paḍikkirēn", "படிச்சேன்|paḍicchēn"] },
+        { "native": "தம்பி, டிவி பாக்காதே, படிக்கணும்.", "roman": "tambi, ṭīvi pākkādē, paḍikkaṇum.", "en": "Don't watch TV, kiddo, you have to study.", "focus": "படிக்கணும்", "wrong": ["படிக்கிறான்|paḍikkirān", "படிச்சான்|paḍicchān"] },
+        { "native": "கிளாஸ்ல சத்தம் போடக்கூடாது.", "roman": "klāsla sattam pōḍakkūḍādu.", "en": "You mustn't make noise in class.", "focus": "போடக்கூடாது", "wrong": ["போடுங்க|pōḍunga", "போடணும்|pōḍaṇum"] },
+        { "native": "பரீட்சையில ஃபோன் பாக்கக்கூடாது.", "roman": "parīṭchaiyila fōn pākkakkūḍādu.", "en": "No looking at phones in the exam.", "focus": "பாக்கக்கூடாது", "wrong": ["பாக்கணும்|pākkaṇum", "பாருங்க|pārunga"] },
+        { "native": "சனிக்கிழமை கிளாஸுக்கு வர வேணாம்.", "roman": "sanikkiḻamai klāsukku vara vēṇām.", "en": "You don't have to come to class on Saturday.", "focus": "வேணாம்", "wrong": ["வேணும்|vēṇum", "இல்ல|illa"] },
+        { "native": "இன்னைக்குப் படிக்க வேணாம், லீவு!", "roman": "innaikkup paḍikka vēṇām, līvu!", "en": "No need to study today, it's a holiday!", "focus": "வேணாம்", "wrong": ["வேணும்|vēṇum", "இல்ல|illa"] },
+        { "native": "எல்லா மாணவரும் ஒன்பது மணிக்கு ஸ்கூல்ல இருக்கணும்.", "roman": "ellā māṇavarum onbadu maṇikku skūlla irukkaṇum.", "en": "All students must be at school by nine.", "focus": "இருக்கணும்", "wrong": ["இருக்காங்க|irukkānga", "இருந்தாங்க|irundānga"] },
+        { "native": "என் தம்பி பத்தாவது வகுப்புல படிக்கிறான்.", "roman": "en tambi pattāvadu vaguppula paḍikkirān.", "en": "My younger brother is in tenth grade." },
+        { "native": "அக்கா யுனிவர்சிட்டியில படிக்கிறாங்க.", "roman": "akkā yunivarsiṭṭiyila paḍikkirānga.", "en": "My elder sister is at university." },
+        { "native": "உங்களுக்கு எந்தப் பாடம் பிடிக்கும்?", "roman": "ungaḷukku endap pāḍam piḍikkum?", "en": "Which subject do you like?" }
+      ]
+    },
+    {
+      "title": "What can you do?",
+      "tip": { "title": "Can: என்னால … முடியும் · know how: எனக்கு … தெரியும்", "body": "- Being able: **என்னால** + infinitive + **முடியும்**: என்னால வர **முடியும்** 'I can come'; can't = **முடியாது**, couldn't = **முடியல**.\n- Knowing how (a skill): **எனக்கு** + infinitive + **தெரியும்**: எனக்கு ஓட்டத் **தெரியும்** 'I can drive'.\n- Note the person: **-ஆல** with முடியும் (என்னால, உங்களால), **-க்கு** with தெரியும்.", "pattern": "என்னால + verb-அ + முடியும்  ·  எனக்கு + verb-அ + தெரியும்", "grammar": 0 },
+      "new": ["முடியும்", "கணினி", "கற்றுக்கொள்", "சொல்லிக்கொடு", "என்னால நாளைக்கு வர முடியாது.", "உங்களுக்கு கார் ஓட்டத் தெரியுமா?", "எனக்கு நீச்சல் தெரியாது.", "எனக்குத் தமிழ் கத்துக்கணும்."],
+      "sentences": [
+        { "native": "உங்களால இந்த வேலையை செய்ய முடியுமா?", "roman": "ungaḷāla inda vēlaiyai seyya muḍiyumā?", "en": "Can you do this job?", "focus": "முடியுமா", "wrong": ["முடியாது|muḍiyādu", "முடிச்சீங்களா|muḍicchīngaḷā"] },
+        { "native": "என்னால அவ்வளவு தூரம் நடக்க முடியாது.", "roman": "ennāla avvaḷavu tūram naḍakka muḍiyādu.", "en": "I can't walk that far.", "focus": "என்னால", "wrong": ["நான்|nān", "எனக்கு|enakku"] },
+        { "native": "பை ரொம்பக் கனமா இருக்கு, என்னால தூக்க முடியல.", "roman": "pai rombak ganamā irukku, ennāla tūkka muḍiyala.", "en": "The bag is too heavy, I couldn't lift it.", "focus": "முடியல", "wrong": ["முடியும்|muḍiyum", "தெரியல|teriyala"] },
+        { "native": "உங்களால கம்ப்யூட்டரை சரி பண்ண முடியுமா?", "roman": "ungaḷāla kampyūṭṭarai sari paṇṇa muḍiyumā?", "en": "Can you fix the computer?", "focus": "உங்களால", "wrong": ["நீங்க|nīnga", "உங்களுக்கு|ungaḷukku"] },
+        { "native": "எனக்கு கம்ப்யூட்டர் நல்லா தெரியும்.", "roman": "enakku kampyūṭṭar nallā teriyum.", "en": "I know computers well.", "focus": "தெரியும்", "wrong": ["முடியும்|muḍiyum", "இருக்கு|irukku"] },
+        { "native": "அம்மாவுக்கு இங்கிலீஷ் பேசத் தெரியாது.", "roman": "ammāvukku inglīsh pēsat teriyādu.", "en": "Mum can't speak English.", "focus": "தெரியாது", "wrong": ["முடியாது|muḍiyādu", "இல்ல|illa"] },
+        { "native": "எனக்கு வண்டி ஓட்டத் தெரியும்.", "roman": "enakku vaṇḍi ōṭṭat teriyum.", "en": "I can ride a scooter.", "focus": "தெரியும்", "wrong": ["முடியும்|muḍiyum", "வேணும்|vēṇum"] },
+        { "native": "நான் இப்போ தமிழ் கத்துக்கிறேன்.", "roman": "nān ippō tamiḻ kattukkirēn.", "en": "I'm learning Tamil now." },
+        { "native": "எனக்குத் தமிழ் சொல்லிக்குடுப்பீங்களா?", "roman": "enakkut tamiḻ sollikkuḍuppīngaḷā?", "en": "Will you teach me Tamil?" },
+        { "native": "அப்பா எனக்கு நீச்சல் சொல்லிக்குடுத்தாரு.", "roman": "appā enakku nīcchal sollikkuḍuttāru.", "en": "Dad taught me to swim." }
+      ]
+    },
+    {
+      "title": "Asking for leave",
+      "tip": { "title": "May I? -லாமா", "body": "- Verb + **-லாமா?** asks permission: **போலாமா?** 'may I go?', **உக்காரலாமா?** 'may I sit?'.\n- The answer drops the -ஆ: **போலாம்** 'you may go'.\n- Leave from work is **லீவு**: லீவு **எடுக்கலாமா?** 'can I take leave?'.\n- Add சார் / மேடம் to make it polite at work.", "pattern": "verb + லாமா?  →  verb + லாம்", "grammar": 0 },
+      "new": ["விடுமுறை", "சரியாக", "இன்னைக்கு எனக்கு லீவு வேணும்.", "நான் உள்ள வரலாமா?"],
+      "sentences": [
+        { "native": "மேடம், நான் இப்போ போலாமா?", "roman": "mēḍam, nān ippō pōlāmā?", "en": "Madam, may I go now?", "focus": "போலாமா", "wrong": ["போகணுமா|pōgaṇumā", "போனீங்களா|pōnīngaḷā"] },
+        { "native": "நாளைக்கு லீவு எடுக்கலாமா?", "roman": "nāḷaikku līvu eḍukkalāmā?", "en": "Can I take leave tomorrow?", "focus": "எடுக்கலாமா", "wrong": ["எடுத்தீங்களா|eḍuttīngaḷā", "எடுக்கணும்|eḍukkaṇum"] },
+        { "native": "சரி, நீங்க போலாம்.", "roman": "sari, nīnga pōlām.", "en": "All right, you may go.", "focus": "போலாம்", "wrong": ["போகாதீங்க|pōgādīnga", "போனேன்|pōnēn"] },
+        { "native": "இங்க உக்காரலாமா?", "roman": "inga ukkāralāmā?", "en": "May I sit here?", "focus": "உக்காரலாமா", "wrong": ["உக்காருங்க|ukkārunga", "உக்காந்தேன்|ukkāndēn"] },
+        { "native": "சார், ஒண்ணு கேக்கலாமா?", "roman": "sār, oṇṇu kēkkalāmā?", "en": "Sir, may I ask something?", "focus": "கேக்கலாமா", "wrong": ["கேட்டேன்|kēṭṭēn", "கேக்கணும்|kēkkaṇum"] },
+        { "native": "இன்னைக்கு வீட்டுலேருந்து வேலை பாக்கலாமா?", "roman": "innaikku vīṭṭulērundu vēlai pākkalāmā?", "en": "Can I work from home today?", "focus": "பாக்கலாமா", "wrong": ["பாக்கணும்|pākkaṇum", "பாத்தேன்|pāttēn"] },
+        { "native": "உடம்பு சரியில்ல, இன்னைக்கு வர முடியாது.", "roman": "uḍambu sariyilla, innaikku vara muḍiyādu.", "en": "I'm not well, I can't come in today." },
+        { "native": "மீட்டிங் சரியா பத்து மணிக்கு.", "roman": "mīṭṭing sariyā pattu maṇikku.", "en": "The meeting is at ten sharp." },
+        { "native": "பொங்கல் விடுமுறைக்கு ஊருக்குப் போறேன்.", "roman": "pongal viḍumuraikku ūrukkup pōrēn.", "en": "I'm going to my home town for the Pongal holidays." }
+      ]
+    }
+  ]
 }

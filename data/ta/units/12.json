@@ -87,5 +87,88 @@
       { "speaker": "Seller", "native": "பண்ணுங்க சார். நன்றி, மறுபடியும் வாங்க!", "roman": "paṇṇunga sār. nandri, marubaḍiyum vānga!", "en": "Go ahead, sir. Thanks, come again!" }
     ]
   },
-  "culture": "Bargaining is expected at street stalls and markets but not in fixed-price shops, supermarkets or malls. Stay friendly and smiling — it's a social game, not a fight. Digital payments (UPI apps like GPay and PhonePe) are now used everywhere, even at tiny tea stalls. Tamil Nadu is famous for Kanchipuram silk saris (காஞ்சிப் பட்டு), the most prized wedding saris."
+  "culture": "Bargaining is expected at street stalls and markets but not in fixed-price shops, supermarkets or malls. Stay friendly and smiling — it's a social game, not a fight. Digital payments (UPI apps like GPay and PhonePe) are now used everywhere, even at tiny tea stalls. Tamil Nadu is famous for Kanchipuram silk saris (காஞ்சிப் பட்டு), the most prized wedding saris.",
+  "lessons": [
+    {
+      "title": "How much is it?",
+      "tip": { "title": "Prices and rupees", "body": "- Ask the price with **என்ன விலை?** 'what price?' or **எவ்வளவு?** 'how much?'.\n- Rupees: written ரூபாய், said **ரூபா**: நூறு ரூபா.\n- 'Per kilo' needs no extra word: **கிலோ** அம்பது ரூபா 'fifty rupees a kilo'.\n- **காசு** is the everyday word for money; **பணம்** is a little more formal.", "pattern": "thing + என்ன விலை?  ·  கிலோ + price + ரூபா" },
+      "new": ["பணம்", "காசு", "விலை", "ரூபாய்", "சில்லறை", "கிலோ", "இது என்ன விலை?", "சில்லறை இல்ல."],
+      "sentences": [
+        { "native": "அரிசி கிலோ என்ன விலை?", "roman": "arisi kilō enna vilai?", "en": "How much is rice a kilo?" },
+        { "native": "கிலோ அம்பது ரூபா.", "roman": "kilō ambadu rūbā.", "en": "Fifty rupees a kilo." },
+        { "native": "அரை கிலோ குடுங்க.", "roman": "arai kilō kuḍunga.", "en": "Half a kilo, please." },
+        { "native": "பால் என்ன விலை?", "roman": "pāl enna vilai?", "en": "How much is the milk?" },
+        { "native": "மொத்தம் எவ்வளவு ரூபா?", "roman": "mottam evvaḷavu rūbā?", "en": "How many rupees altogether?" },
+        { "native": "இப்போ கையில காசு இல்ல.", "roman": "ippō kaiyila kāsu illa.", "en": "I don't have any money on me right now." },
+        { "native": "நூறு ரூபாக்கு சில்லறை இருக்கா?", "roman": "nūru rūbākku sillarai irukkā?", "en": "Do you have change for a hundred rupees?" },
+        { "native": "சில்லறை இல்லையா? பரவால்ல.", "roman": "sillarai illaiyā? paravālla.", "en": "No change? Never mind." },
+        { "native": "பணம் அப்புறம் குடுக்கிறேன்.", "roman": "paṇam appuram kuḍukkirēn.", "en": "I'll give you the money later." }
+      ]
+    },
+    {
+      "title": "This one or that one?",
+      "tip": { "title": "இ- here, அ- there, எ- which?", "body": "- Before a noun: **இந்த** 'this', **அந்த** 'that', **எந்த** 'which': அந்த சட்டை.\n- On their own: **இது** 'this one', **அது** 'that one', **எது** 'which one?'.\n- The same vowels run through the language: இங்க / அங்க / எங்க, இவ்வளவு / அவ்வளவு / எவ்வளவு.\n- Don't put இது before a noun: it's **இந்த** சட்டை.", "pattern": "இந்த / அந்த / எந்த + noun  ·  இது / அது / எது alone", "grammar": 0 },
+      "new": ["இந்த", "அந்த", "எந்த", "வேறு", "சட்டை", "புடவை", "வேற கலர் இருக்கா?"],
+      "sentences": [
+        { "native": "இந்த சட்டை என்ன விலை?", "roman": "inda saṭṭai enna vilai?", "en": "How much is this shirt?", "focus": "இந்த", "wrong": ["இது|idu", "இங்க|inga"] },
+        { "native": "அந்த நீல புடவை எவ்வளவு?", "roman": "anda nīla puḍavai evvaḷavu?", "en": "How much is that blue sari?", "focus": "அந்த", "wrong": ["அது|adu", "அங்க|anga"] },
+        { "native": "இது வேணாம், அது குடுங்க.", "roman": "idu vēṇām, adu kuḍunga.", "en": "Not this one, give me that one.", "focus": "அது", "wrong": ["அந்த|anda", "அங்க|anga"] },
+        { "native": "உங்களுக்கு எந்த கலர் பிடிக்கும்?", "roman": "ungaḷukku enda kalar piḍikkum?", "en": "Which colour do you like?", "focus": "எந்த", "wrong": ["எது|edu", "இந்த|inda"] },
+        { "native": "எது நல்லா இருக்கு?", "roman": "edu nallā irukku?", "en": "Which one looks good?", "focus": "எது", "wrong": ["எந்த|enda", "எங்க|enga"] },
+        { "native": "அந்தக் கடையில நல்ல புடவை இருக்கு.", "roman": "andak kaḍaiyila nalla puḍavai irukku.", "en": "That shop has good saris.", "focus": "அந்தக்", "wrong": ["அது|adu", "அங்க|anga"] },
+        { "native": "இங்க வாங்க, இந்தப் பக்கம் பாருங்க.", "roman": "inga vānga, indap pakkam pārunga.", "en": "Come here, look over this side.", "focus": "இந்தப்", "wrong": ["இது|idu", "இங்க|inga"] },
+        { "native": "இவ்வளவு போதுமா?", "roman": "ivvaḷavu pōdumā?", "en": "Is this much enough?", "focus": "இவ்வளவு", "wrong": ["இது|idu", "இந்த|inda"] },
+        { "native": "வேற சட்டை காட்டுங்க.", "roman": "vēra saṭṭai kāṭṭunga.", "en": "Show me a different shirt, please." }
+      ]
+    },
+    {
+      "title": "Clothes and sizes",
+      "tip": { "title": "The thing you mean: -ஐ", "body": "- A **specific** thing you act on takes **-ஐ**: அந்த சட்டை → அந்த சட்டை**யை**க் காட்டுங்க 'show me that shirt'.\n- 'A shirt, any shirt' takes nothing: ஒரு சட்டை வாங்கணும்.\n- இது → **இதை**, அது → **அதை**; நான் → **என்னை**.\n- In fast speech -ஐ often sounds like -அ: சட்டைய.", "pattern": "இந்த / அந்த + noun-ஐ + verb", "grammar": 1 },
+      "new": ["துணி", "வேட்டி", "பேண்ட்", "செருப்பு", "அளவு", "வாங்கு", "இதுல பெரிய சைஸ் இருக்கா?", "போட்டுப் பாக்கலாமா?", "அந்த சட்டையைக் காட்டுங்க."],
+      "sentences": [
+        { "native": "அந்த வேட்டியைக் காட்டுங்க.", "roman": "anda vēṭṭiyaik kāṭṭunga.", "en": "Show me that veshti, please.", "focus": "வேட்டியைக்", "wrong": ["வேட்டி|vēṭṭi", "வேட்டிக்கு|vēṭṭikku"] },
+        { "native": "இந்த செருப்பைப் போட்டுப் பாக்கலாமா?", "roman": "inda seruppaip pōṭṭup pākkalāmā?", "en": "Can I try on these sandals?", "focus": "செருப்பைப்", "wrong": ["செருப்புக்கு|seruppukku", "செருப்புல|seruppula"] },
+        { "native": "அந்த சட்டையைப் போட்டுப் பாருங்க.", "roman": "anda saṭṭaiyaip pōṭṭup pārunga.", "en": "Try that shirt on.", "focus": "சட்டையைப்", "wrong": ["சட்டை|saṭṭai", "சட்டைக்கு|saṭṭaikku"] },
+        { "native": "இந்த துணியைப் பாருங்க, ரொம்ப நல்லா இருக்கு.", "roman": "inda tuṇiyaip pārunga, romba nallā irukku.", "en": "Look at this cloth, it's really good.", "focus": "துணியைப்", "wrong": ["துணி|tuṇi", "துணிக்கு|tuṇikku"] },
+        { "native": "அந்த கருப்பு செருப்பைக் குடுங்க.", "roman": "anda karuppu seruppaik kuḍunga.", "en": "Give me those black sandals, please.", "focus": "செருப்பைக்", "wrong": ["செருப்பு|seruppu", "செருப்புக்கு|seruppukku"] },
+        { "native": "இந்த புடவையை அம்மாவுக்கு வாங்கலாம்.", "roman": "inda puḍavaiyai ammāvukku vāngalām.", "en": "We could buy this sari for Mum.", "focus": "புடவையை", "wrong": ["புடவை|puḍavai", "புடவைக்கு|puḍavaikku"] },
+        { "native": "அதை இங்க வைங்க.", "roman": "adai inga vainga.", "en": "Put that here, please.", "focus": "அதை", "wrong": ["அது|adu", "அந்த|anda"] },
+        { "native": "நான் ஒரு பேண்ட் வாங்கணும்.", "roman": "nān oru pēṇṭ vāngaṇum.", "en": "I need to buy a pair of trousers." },
+        { "native": "எனக்கு என் அளவு தெரியல.", "roman": "enakku en aḷavu teriyala.", "en": "I don't know my size." },
+        { "native": "இந்த சைஸ் ரொம்ப சின்னதா இருக்கு.", "roman": "inda sais romba sinnadā irukku.", "en": "This size is too small." }
+      ]
+    },
+    {
+      "title": "Bargaining",
+      "tip": { "title": "How to haggle", "body": "- At markets and small shops bargaining is normal; in big stores and malls prices are fixed.\n- Start with **ரொம்ப விலை அதிகம்** 'that's too expensive', then **கொஞ்சம் குறைங்க** 'bring it down a bit'.\n- Ask for the bottom line: **கடைசியா என்ன விலை?**\n- Agree with **இதையே எடுத்துக்கிறேன்**: the **-ஏ** means 'this very one'." },
+      "new": ["மலிவு", "குறை", "பேரம்", "தள்ளுபடி", "கடைக்காரர்", "ரொம்ப விலை அதிகம்.", "கொஞ்சம் குறைச்சுக்கோங்க.", "கடைசியா என்ன விலை?", "இதையே எடுத்துக்கிறேன்."],
+      "sentences": [
+        { "native": "கொஞ்சம் குறைங்க அண்ணா.", "roman": "konjam kurainga aṇṇā.", "en": "Bring it down a bit, brother." },
+        { "native": "தள்ளுபடி இருக்கா?", "roman": "taḷḷubaḍi irukkā?", "en": "Is there a discount?" },
+        { "native": "இந்தக் கடையில எல்லாம் மலிவா இருக்கு.", "roman": "indak kaḍaiyila ellām malivā irukku.", "en": "Everything is cheap in this shop." },
+        { "native": "இங்க பேரம் பேசலாமா?", "roman": "inga pēram pēsalāmā?", "en": "Can you bargain here?" },
+        { "native": "முன்னூறு ரூபாக்கு குடுப்பீங்களா?", "roman": "munnūru rūbākku kuḍuppīngaḷā?", "en": "Will you give it to me for three hundred rupees?" },
+        { "native": "இதுதான் கடைசி விலை.", "roman": "idudān kaḍaisi vilai.", "en": "This is the final price." },
+        { "native": "கடைக்காரர் விலையைக் குறைச்சாரு.", "roman": "kaḍaikkārar vilaiyaik kuraicchāru.", "en": "The shopkeeper brought the price down." },
+        { "native": "அந்த சிவப்பு சட்டையையே குடுங்க.", "roman": "anda sivappu saṭṭaiyaiyē kuḍunga.", "en": "Give me that same red shirt." },
+        { "native": "சரி, நானூறு ரூபா. எடுத்துக்கிறேன்.", "roman": "sari, nānūru rūbā. eḍuttukkirēn.", "en": "OK, four hundred rupees. I'll take it." }
+      ]
+    },
+    {
+      "title": "Paying",
+      "tip": { "title": "Can I…? with -லாமா", "body": "- Verb + **-லாமா?** asks 'can I / may I / shall we?': **பண்ணலாமா?**, **போட்டுப் பாக்கலாமா?**\n- Most shops take phone payments: **ஜிபே பண்ணலாமா?** 'can I pay by GPay?'.\n- Cards: **கார்டு எடுப்பீங்களா?** 'do you take cards?'.\n- Ask for a receipt with **பில் குடுங்க** or **ரசீது குடுங்க**.", "pattern": "verb-லாமா?" },
+      "new": ["வில்", "கொடு", "ரசீது", "கணக்கு", "கார்டு எடுப்பீங்களா?", "ஜிபே பண்ணலாமா?"],
+      "sentences": [
+        { "native": "கணக்கு எவ்வளவு ஆச்சு?", "roman": "kaṇakku evvaḷavu ācchu?", "en": "What does the bill come to?" },
+        { "native": "கார்டுல பண்ணலாமா?", "roman": "kārḍula paṇṇalāmā?", "en": "Can I pay by card?" },
+        { "native": "இங்க ஜிபே இருக்கா?", "roman": "inga jipē irukkā?", "en": "Do you take GPay here?" },
+        { "native": "ரசீது குடுங்க.", "roman": "rasīdu kuḍunga.", "en": "A receipt, please." },
+        { "native": "நான் ஐநூறு ரூபா குடுத்தேன்.", "roman": "nān ainūru rūbā kuḍuttēn.", "en": "I gave you five hundred rupees." },
+        { "native": "சில்லறையை அப்புறம் குடுங்க.", "roman": "sillaraiyai appuram kuḍunga.", "en": "Give me the change later." },
+        { "native": "இந்தக் கடையில காய்கறி விக்கிறாங்களா?", "roman": "indak kaḍaiyila kāykari vikkirāngaḷā?", "en": "Do they sell vegetables in this shop?" },
+        { "native": "அவரு பழைய புத்தகம் விக்கிறாரு.", "roman": "avaru paḻaiya puttagam vikkirāru.", "en": "He sells old books." },
+        { "native": "காசு இல்ல, ஜிபே பண்றேன்.", "roman": "kāsu illa, jipē paṇrēn.", "en": "I don't have cash, I'll pay by GPay." }
+      ]
+    }
+  ]
 }

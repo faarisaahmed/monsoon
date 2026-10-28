@@ -87,5 +87,102 @@
       { "speaker": "Driver", "native": "சரி மேடம். இதோ வந்தாச்சு.", "roman": "sari mēḍam. idō vandācchu.", "en": "OK, madam. Here we are." }
     ]
   },
-  "culture": "Auto-rickshaw fares are usually negotiated before you get in; ride-hailing apps have made this easier in cities. Calling the driver அண்ணா 'elder brother' is friendly and normal. Directions are typically given with landmarks rather than street names: 'turn left at the temple', 'next to the bank'. Many Chennai roads have both an official name and an older popular name."
+  "culture": "Auto-rickshaw fares are usually negotiated before you get in; ride-hailing apps have made this easier in cities. Calling the driver அண்ணா 'elder brother' is friendly and normal. Directions are typically given with landmarks rather than street names: 'turn left at the temple', 'next to the bank'. Many Chennai roads have both an official name and an older popular name.",
+  "lessons": [
+    {
+      "title": "Asking and giving directions",
+      "tip": { "title": "Polite commands: add -ங்க", "body": "- The bare verb is a command to a child or close friend: **போ** 'go', **திரும்பு** 'turn'.\n- For everyone else add **-ங்க**: **போங்க**, **திரும்புங்க**, **சொல்லுங்க**.\n- 'Don't' is **-ஆதீங்க**: **போகாதீங்க** 'don't go', **திரும்பாதீங்க** 'don't turn'.\n- Directions go before the verb: இடது பக்கம் திரும்புங்க 'turn left'.", "pattern": "direction + verb-ங்க  ·  verb-ஆதீங்க = don't", "grammar": 0 },
+      "new": ["வழி", "இடது", "வலது", "நேராக", "திரும்பு", "பக்கம்", "மூலை", "பாலம்", "நேரா போயி, இடது பக்கம் திரும்புங்க.", "வழி தவறிட்டேன்."],
+      "sentences": [
+        { "native": "நேரா போங்க.", "roman": "nērā pōnga.", "en": "Go straight on.", "focus": "போங்க", "wrong": ["போறேன்|pōrēn", "போகாதீங்க|pōgādīnga"] },
+        { "native": "மூலையில வலது பக்கம் திரும்புங்க.", "roman": "mūlaiyila valadu pakkam tirumbunga.", "en": "Turn right at the corner.", "focus": "திரும்புங்க", "wrong": ["திரும்புறேன்|tirumburēn", "திரும்பாதீங்க|tirumbādīnga"] },
+        { "native": "பாலத்துக்கு அப்புறம் இடது பக்கம் திரும்புங்க.", "roman": "pālattukku appuram iḍadu pakkam tirumbunga.", "en": "After the bridge, turn left.", "focus": "திரும்புங்க", "wrong": ["திரும்பினேன்|tirumbinēn", "திரும்பாதீங்க|tirumbādīnga"] },
+        { "native": "அங்க திரும்பாதீங்க, நேரா போங்க.", "roman": "anga tirumbādīnga, nērā pōnga.", "en": "Don't turn there, go straight on.", "focus": "திரும்பாதீங்க", "wrong": ["திரும்புங்க|tirumbunga", "திரும்புறேன்|tirumburēn"] },
+        { "native": "தம்பி, இடது பக்கம் திரும்பு.", "roman": "tambi, iḍadu pakkam tirumbu.", "en": "Turn left, kiddo.", "focus": "திரும்பு", "wrong": ["திரும்புறேன்|tirumburēn", "திரும்பினேன்|tirumbinēn"] },
+        { "native": "பாலம் மேல போகாதீங்க.", "roman": "pālam mēla pōgādīnga.", "en": "Don't go over the bridge.", "focus": "போகாதீங்க", "wrong": ["போங்க|pōnga", "போறேன்|pōrēn"] },
+        { "native": "இடது பக்கமா, வலது பக்கமா?", "roman": "iḍadu pakkamā, valadu pakkamā?", "en": "Left or right?" },
+        { "native": "எனக்கு வழி தெரியாது.", "roman": "enakku vaḻi teriyādu.", "en": "I don't know the way." },
+        { "native": "சார், நான் வழி தவறிட்டேன்.", "roman": "sār, nān vaḻi tavariṭṭēn.", "en": "Sir, I've lost my way." }
+      ]
+    },
+    {
+      "title": "Places in town",
+      "tip": { "title": "Town words people really say", "body": "- Signs use the written words; in speech most places have an English name: வங்கி → **பேங்க்**, சாலை → **ரோடு**, சந்தை → **மார்க்கெட்**.\n- **ஹோட்டல்** means any place to eat, not a hotel to sleep in. Written உணவகம்.\n- Big roads keep சாலை in their names: **அண்ணா சாலை**.\n- 'Is it far?' **தூரமா?** · 'It's close' **பக்கம்தான்**.", "pattern": "place + எங்க இருக்கு?  ·  ரொம்ப தூரமா?" },
+      "new": [
+        "கோவில்",
+        "கடை",
+        "சந்தை",
+        "வங்கி",
+        "உணவகம்",
+        "தெரு",
+        "சாலை",
+        "தூரம்",
+        "ரொம்ப தூரமா?",
+        "இல்ல, பக்கம்தான். அஞ்சு நிமிஷம் நடந்தா போதும்."
+      ],
+      "sentences": [
+        { "native": "பக்கத்துல ஒரு பேங்க் இருக்கா?", "roman": "pakkattula oru bēnk irukkā?", "en": "Is there a bank nearby?" },
+        { "native": "இந்தியன் வங்கி எங்க இருக்கு?", "roman": "indiyan vangi enga irukku?", "en": "Where is Indian Bank?" },
+        { "native": "பேங்க் பாலத்துக்கு அந்தப் பக்கம் இருக்கு.", "roman": "bēnk pālattukku andap pakkam irukku.", "en": "The bank is on the other side of the bridge." },
+        { "native": "இந்த ரோடுல நல்ல ஹோட்டல் இருக்கு.", "roman": "inda rōḍula nalla hōṭṭal irukku.", "en": "There's a good place to eat on this road." },
+        { "native": "அந்த உணவகம் கோவில் பக்கத்துல இருக்கு.", "roman": "anda uṇavagam kōvil pakkattula irukku.", "en": "That restaurant is next to the temple." },
+        { "native": "கோவில் இந்தத் தெருவுலதான் இருக்கு.", "roman": "kōvil indat teruvuladān irukku.", "en": "The temple is right on this street." },
+        { "native": "கடை மூலையில இருக்கு.", "roman": "kaḍai mūlaiyila irukku.", "en": "The shop is on the corner." },
+        { "native": "அந்தக் கடை அண்ணா சாலையில இருக்கு.", "roman": "andak kaḍai aṇṇā sālaiyila irukku.", "en": "That shop is on Anna Salai." },
+        { "native": "மார்க்கெட் ரொம்ப தூரமா?", "roman": "mārkkeṭ romba tūramā?", "en": "Is the market very far?" },
+        { "native": "சந்தை ரொம்ப தூரம் இல்ல, பக்கம்தான்.", "roman": "sandai romba tūram illa, pakkamdān.", "en": "The market isn't far, it's close." },
+        { "native": "பத்து நிமிஷம் நடந்தா போதும்.", "roman": "pattu nimisham naḍandā pōdum.", "en": "It's just a ten-minute walk." }
+      ]
+    },
+    {
+      "title": "By bus, by train, by car",
+      "tip": { "title": "'To' is -க்கு, 'by' is -ல", "body": "- Where you're going takes **-க்கு**: சென்னை**க்கு**, வீட்டு**க்கு**, கடை**க்கு**. Before ப the k doubles in writing: கடைக்குப் போறேன்.\n- The vehicle takes **-ல**: பஸ்**ல** 'by bus', ட்ரெயின்**ல** 'by train', கார்**ல** 'by car'.\n- Don't mix them up: -ல is also 'in, at', never 'to'.", "pattern": "place-க்கு + vehicle-ல + போறேன்", "grammar": 1 },
+      "new": ["பேருந்து", "ரயில்", "கார்", "வண்டி", "டிக்கெட்", "பஸ் ஸ்டாண்ட் எங்க இருக்கு?", "மதுரைக்கு ஒரு டிக்கெட் குடுங்க."],
+      "sentences": [
+        { "native": "நான் பஸ்ல போறேன்.", "roman": "nān basla pōrēn.", "en": "I'm going by bus.", "focus": "பஸ்ல", "wrong": ["பஸ்ஸுக்கு|bassukku", "பஸ்|bas"] },
+        { "native": "நாளைக்கு ட்ரெயின்ல சென்னைக்குப் போறோம்.", "roman": "nāḷaikku ṭreyinla Chennaikkup pōrōm.", "en": "Tomorrow we're going to Chennai by train.", "focus": "சென்னைக்குப்", "wrong": ["சென்னையில|Chennaiyila", "சென்னை|Chennai"] },
+        { "native": "அப்பா கார்ல ஆஃபீஸுக்குப் போறாரு.", "roman": "appā kārla āfīsukkup pōrāru.", "en": "Dad goes to the office by car.", "focus": "கார்ல", "wrong": ["காருக்கு|kārukku", "கார்|kār"] },
+        { "native": "ட்ரெயின்ல போலாமா?", "roman": "ṭreyinla pōlāmā?", "en": "Shall we go by train?", "focus": "ட்ரெயின்ல", "wrong": ["ட்ரெயினுக்கு|ṭreyinukku", "ட்ரெயின்|ṭreyin"] },
+        { "native": "நீங்க எப்படி வீட்டுக்குப் போவீங்க?", "roman": "nīnga eppaḍi vīṭṭukkup pōvīnga?", "en": "How will you get home?", "focus": "வீட்டுக்குப்", "wrong": ["வீட்டுல|vīṭṭula", "வீடு|vīḍu"] },
+        { "native": "என் வண்டியில போலாம்.", "roman": "en vaṇḍiyila pōlām.", "en": "We can go on my scooter.", "focus": "வண்டியில", "wrong": ["வண்டிக்கு|vaṇḍikku", "வண்டி|vaṇḍi"] },
+        { "native": "கடைக்குப் போயிட்டு வர்றேன்.", "roman": "kaḍaikkup pōyiṭṭu varrēn.", "en": "I'll pop to the shop and come back.", "focus": "கடைக்குப்", "wrong": ["கடையில|kaḍaiyila", "கடை|kaḍai"] },
+        { "native": "பஸ் ஸ்டாண்டுக்கு எப்படிப் போகணும்?", "roman": "bas sṭāṇḍukku eppaḍip pōgaṇum?", "en": "How do I get to the bus stand?", "focus": "ஸ்டாண்டுக்கு", "wrong": ["ஸ்டாண்டுல|sṭāṇḍula", "ஸ்டாண்ட்|sṭāṇḍ"] },
+        { "native": "ரெண்டு டிக்கெட் குடுங்க.", "roman": "reṇḍu ṭikkeṭ kuḍunga.", "en": "Two tickets, please." },
+        { "native": "ரயில் டிக்கெட் எவ்வளவு?", "roman": "rayil ṭikkeṭ evvaḷavu?", "en": "How much is a train ticket?" }
+      ]
+    },
+    {
+      "title": "Which stop do I get off at?",
+      "tip": { "title": "From, as far as, via", "body": "- **-லேருந்து** = from: ஸ்டேஷன்**லேருந்து** 'from the station'.\n- **வரைக்கும்** = up to, as far as: பாலம் **வரைக்கும்**.\n- **வழியா** = via, through: கோவில் **வழியா**.\n- Getting on is **ஏறு**, getting off **இறங்கு**; the stop takes -ல: இந்த ஸ்டாப்**ல** இறங்குங்க.", "pattern": "X-லேருந்து … Y வரைக்கும் · Z வழியா", "grammar": 1 },
+      "new": ["நிறுத்தம்", "நிலையம்", "விமான நிலையம்", "ஏறு", "இறங்கு", "இந்த பஸ் மெரினா பீச் போகுமா?", "எந்த ஸ்டாப்ல இறங்கணும்?", "இந்த வழியா போனா கோவில் வருமா?"],
+      "sentences": [
+        { "native": "நான் ஸ்டேஷன்லேருந்து வர்றேன்.", "roman": "nān sṭēshanlērundu varrēn.", "en": "I'm coming from the station.", "focus": "ஸ்டேஷன்லேருந்து", "wrong": ["ஸ்டேஷனுக்கு|sṭēshanukku", "ஸ்டேஷன்ல|sṭēshanla"] },
+        { "native": "ஏர்போர்ட்லேருந்து வீடு எவ்வளவு தூரம்?", "roman": "ērpōrṭlērundu vīḍu evvaḷavu tūram?", "en": "How far is home from the airport?", "focus": "ஏர்போர்ட்லேருந்து", "wrong": ["ஏர்போர்ட்டுக்கு|ērpōrṭukku", "ஏர்போர்ட்ல|ērpōrṭla"] },
+        { "native": "ஏர்போர்ட்டுக்கு எந்த பஸ் போகும்?", "roman": "ērpōrṭukku enda bas pōgum?", "en": "Which bus goes to the airport?", "focus": "ஏர்போர்ட்டுக்கு", "wrong": ["ஏர்போர்ட்லேருந்து|ērpōrṭlērundu", "ஏர்போர்ட்ல|ērpōrṭla"] },
+        { "native": "இந்த ஸ்டாப்ல இறங்குங்க.", "roman": "inda sṭāpla irangunga.", "en": "Get off at this stop.", "focus": "ஸ்டாப்ல", "wrong": ["ஸ்டாப்புக்கு|sṭāppukku", "ஸ்டாப்லேருந்து|sṭāplērundu"] },
+        { "native": "பாலம் வரைக்கும் நடந்து போங்க.", "roman": "pālam varaikkum naḍandu pōnga.", "en": "Walk as far as the bridge.", "focus": "வரைக்கும்", "wrong": ["வழியா|vaḻiyā", "மேல|mēla"] },
+        { "native": "இந்த பஸ் சென்ட்ரல் வரைக்கும் போகுமா?", "roman": "inda bas senṭral varaikkum pōgumā?", "en": "Does this bus go as far as Central?", "focus": "வரைக்கும்", "wrong": ["வழியா|vaḻiyā", "மேல|mēla"] },
+        { "native": "இந்த பஸ் பாலம் வழியா போகும்.", "roman": "inda bas pālam vaḻiyā pōgum.", "en": "This bus goes via the bridge.", "focus": "வழியா", "wrong": ["வரைக்கும்|varaikkum", "மேல|mēla"] },
+        { "native": "கோவில் வழியா போனா தூரம் கம்மி.", "roman": "kōvil vaḻiyā pōnā tūram kammi.", "en": "It's shorter if you go via the temple.", "focus": "வழியா", "wrong": ["வரைக்கும்|varaikkum", "உள்ள|uḷḷa"] },
+        { "native": "சீக்கிரம் ஏறுங்க, பஸ் கிளம்புது!", "roman": "sīkkiram ērunga, bas kiḷambudu!", "en": "Get on quickly, the bus is leaving!" },
+        { "native": "முன்னாடி ஏறுங்க, பின்னாடி இறங்குங்க.", "roman": "munnāḍi ērunga, pinnāḍi irangunga.", "en": "Get on at the front, get off at the back." }
+      ]
+    },
+    {
+      "title": "Taking an auto",
+      "tip": { "title": "Talking to the driver", "body": "- Call the driver **அண்ணா** 'brother': friendly and polite.\n- Fix the price before you get in: **ஸ்டேஷனுக்கு எவ்வளவு?** or ask for the meter: **மீட்டர் போடுங்க**.\n- To stop: **இங்க நிறுத்துங்க**; not here: **இங்க நிறுத்தாதீங்க**.\n- Will you go? **வருவீங்களா?** (drivers think of it as 'coming' with you)." },
+      "new": ["ஆட்டோ", "நிறுத்து", "சென்ட்ரல் ஸ்டேஷனுக்கு எவ்வளவு?", "மீட்டர் போடுங்க.", "இங்க நிறுத்துங்க."],
+      "sentences": [
+        { "native": "அண்ணா, ஸ்டேஷனுக்கு வருவீங்களா?", "roman": "aṇṇā, sṭēshanukku varuvīngaḷā?", "en": "Brother, will you go to the station?" },
+        { "native": "ஏர்போர்ட்டுக்கு எவ்வளவு ஆகும்?", "roman": "ērpōrṭukku evvaḷavu āgum?", "en": "How much will it be to the airport?" },
+        { "native": "இருநூறு ரூபாவா? ரொம்ப ஜாஸ்தி அண்ணா.", "roman": "irunūru rūbāvā? romba jāsti aṇṇā.", "en": "Two hundred rupees? That's too much, brother." },
+        { "native": "மீட்டர் போட்டீங்களா?", "roman": "mīṭṭar pōṭṭīngaḷā?", "en": "Did you put the meter on?" },
+        { "native": "பக்கத்துல ஆட்டோ ஸ்டாண்ட் இருக்கா?", "roman": "pakkattula āṭṭō sṭāṇḍ irukkā?", "en": "Is there an auto stand nearby?" },
+        { "native": "ஆட்டோல ஏறுங்க, நான் வழி சொல்றேன்.", "roman": "āṭṭōla ērunga, nān vaḻi solrēn.", "en": "Get in the auto, I'll show you the way.", "focus": "ஏறுங்க", "wrong": ["இறங்குங்க|irangunga", "ஏறாதீங்க|ērādīnga"] },
+        { "native": "கோவில் முன்னாடி நிறுத்துங்க.", "roman": "kōvil munnāḍi niruttunga.", "en": "Stop in front of the temple, please.", "focus": "நிறுத்துங்க", "wrong": ["நிறுத்தாதீங்க|niruttādīnga", "நிறுத்தினேன்|niruttinēn"] },
+        { "native": "இங்க நிறுத்தாதீங்க, கொஞ்சம் முன்னாடி.", "roman": "inga niruttādīnga, konjam munnāḍi.", "en": "Don't stop here, a bit further on.", "focus": "நிறுத்தாதீங்க", "wrong": ["நிறுத்துங்க|niruttunga", "நிறுத்தினேன்|niruttinēn"] },
+        { "native": "நான் இங்க இறங்குறேன்.", "roman": "nān inga irangurēn.", "en": "I'll get off here." }
+      ]
+    }
+  ]
 }
