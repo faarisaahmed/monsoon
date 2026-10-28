@@ -116,6 +116,26 @@ def run_mms(items, model_id):
             print(f'  {n}/{len(items)}')
 
 
+def shrink(paths):
+    """Re-encode new clips as 32 kb/s mono MP3: clear for speech, and it keeps the whole site
+    (tens of thousands of clips) well inside GitHub Pages' size limit."""
+    from concurrent.futures import ThreadPoolExecutor
+
+    def one(path):
+        if not os.path.exists(path) or os.path.getsize(path) < 500:
+            return
+        tmp = path + '.src.mp3'
+        os.replace(path, tmp)
+        r = subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', tmp, '-ac', '1', '-b:a', '32k', path])
+        if r.returncode == 0:
+            os.remove(tmp)
+        else:
+            os.replace(tmp, path)
+
+    with ThreadPoolExecutor(8) as ex:
+        list(ex.map(one, paths))
+
+
 def main():
     texts = json.load(open(sys.argv[1]))
     only = sys.argv[2:]
@@ -138,6 +158,7 @@ def main():
                 run_google(todo, voice)
             else:
                 run_mms(todo, voice)
+            shrink([p for _, p in todo])
         # drop files for text that no longer exists, then write the index
         for f in os.listdir(d):
             if f.endswith('.mp3') and f[:-4] not in want:

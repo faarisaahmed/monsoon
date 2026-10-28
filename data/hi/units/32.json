@@ -1,0 +1,193 @@
+{
+  "id": 32,
+  "title": "Health in depth",
+  "goal": "Describe symptoms precisely and say how long you have had them, give your medical history, book an appointment and follow a doctor’s or pharmacist’s instructions.",
+  "intro": "Unit 9 got you through 'I have a headache'. This unit is for the real visit: telling the doctor exactly where it hurts and **since when** (**मुझे तीन दिन से बुख़ार है**), answering questions about sugar, BP and allergies, and understanding instructions like **यह दवा दिन में दो बार लेनी है, ख़ाली पेट मत लीजिए**.\n\nIndian clinics run on a mix of Hindi and English medical words — *infection, BP, sugar, X-ray, injection* — wrapped in Hindi grammar. You'll learn both, plus the two grammar points every doctor's visit needs: **duration** ('I have been … for') and **instructions**.",
+  "vocab": [
+    { "native": "लक्षण", "roman": "lakṣaṇ", "en": "symptom", "pos": "noun", "note": "m · pl लक्षण · doctors and the news use it; in conversation people often just say सिम्टम्स." },
+    { "native": "सूजन", "roman": "sūjan", "en": "swelling", "pos": "noun", "note": "f · पैर में सूजन है \"my foot is swollen\"." },
+    { "native": "खुजली", "roman": "khujlī", "en": "itching, an itch", "pos": "noun", "note": "f · मुझे खुजली हो रही है \"I'm itching\"." },
+    { "native": "कमज़ोरी", "roman": "kamzorī", "en": "weakness", "pos": "noun", "note": "f · from कमज़ोर \"weak\" · बुख़ार के बाद बहुत कमज़ोरी है." },
+    { "native": "थकान", "roman": "thakān", "en": "tiredness, fatigue", "pos": "noun", "note": "f · compare थका \"tired\" (unit 14)." },
+    { "native": "साँस", "roman": "sāṃs", "en": "breath", "pos": "noun", "note": "f · साँस लेना \"to breathe\" · लंबी साँस लीजिए \"take a deep breath\"." },
+    { "native": "नींद", "roman": "nīṃd", "en": "sleep", "pos": "noun", "note": "f · used with आना: मुझे नींद नहीं आती \"I can't sleep\", नींद आ रही है \"I'm sleepy\"." },
+    { "native": "पसीना", "roman": "pasīnā", "en": "sweat", "pos": "noun", "note": "m · पसीना आना \"to sweat\": मुझे बहुत पसीना आ रहा है." },
+    { "native": "छाती", "roman": "chhātī", "en": "chest", "pos": "noun", "note": "f · छाती में दर्द \"chest pain\". Also सीना sīnā (m)." },
+    { "native": "घुटना", "roman": "ghuṭnā", "en": "knee", "pos": "noun", "note": "m · pl घुटने · घुटने में दर्द." },
+    { "native": "कमर", "roman": "kamar", "en": "lower back; waist", "pos": "noun", "note": "f · कमर दर्द \"lower-back pain\" (पीठ, unit 9, is the upper back)." },
+    { "native": "कंधा", "roman": "kandhā", "en": "shoulder", "pos": "noun", "note": "m · pl कंधे." },
+    { "native": "गर्दन", "roman": "gardan", "en": "neck", "pos": "noun", "note": "f · गर्दन अकड़ गई \"I've got a stiff neck\"." },
+    { "native": "मोच", "roman": "moch", "en": "sprain", "pos": "noun", "note": "f · मोच आना \"to get a sprain\": पैर में मोच आ गई." },
+    { "native": "इन्फ़ेक्शन", "roman": "infekshan", "en": "infection", "pos": "noun", "note": "m · गले में इन्फ़ेक्शन \"throat infection\". Formal: संक्रमण." },
+    { "native": "बीपी", "roman": "bīpī", "en": "blood pressure, BP", "pos": "noun", "note": "m · मुझे बीपी है \"I have high blood pressure\". बीपी हाई / लो है." },
+    { "native": "शुगर", "roman": "shugar", "en": "diabetes (colloquial); blood sugar", "pos": "noun", "note": "f · मुझे शुगर है \"I'm diabetic\". Formal: मधुमेह, डायबिटीज़." },
+    { "native": "जाँच", "roman": "jāṃch", "en": "test, check-up, examination", "pos": "noun", "note": "f · ख़ून की जाँच \"blood test\". People also say टेस्ट." },
+    { "native": "ख़ून", "roman": "xūn", "en": "blood", "pos": "noun", "note": "m · often pronounced khūn · formal: रक्त." },
+    { "native": "अपॉइंटमेंट", "roman": "apoinṭmenṭ", "en": "appointment", "pos": "noun", "note": "m · डॉक्टर का अपॉइंटमेंट लेना \"to book a doctor's appointment\"." },
+    { "native": "क्लिनिक", "roman": "klinik", "en": "clinic, doctor's surgery", "pos": "noun", "note": "m · the local doctor's practice; many are open in the evening." },
+    { "native": "मरीज़", "roman": "marīz", "en": "patient", "pos": "noun", "note": "m/f · pl मरीज़ · शुगर का मरीज़ \"a diabetic\"." },
+    { "native": "सिरप", "roman": "sirap", "en": "syrup (medicine)", "pos": "noun", "note": "m · खाँसी का सिरप \"cough syrup\" · measured in चम्मच (spoonfuls) or ml." },
+    { "native": "ख़ुराक", "roman": "xurāk", "en": "dose; diet", "pos": "noun", "note": "f · एक ख़ुराक \"one dose\" · in speech people mostly say डोज़." },
+    { "native": "परहेज़", "roman": "parhez", "en": "dietary restriction, avoiding (food)", "pos": "noun", "note": "m · X से परहेज़ करना \"to avoid X\" · \"any परहेज़?\" is a standard question to the doctor." },
+    { "native": "तला", "roman": "talā", "en": "fried", "pos": "adj", "note": "तली, तले · usually तला हुआ: तला हुआ खाना \"fried food\"." },
+    { "native": "सुधार", "roman": "sudhār", "en": "improvement", "pos": "noun", "note": "m · कुछ सुधार हुआ? \"any improvement?\"" },
+    { "native": "इंजेक्शन", "roman": "injekshan", "en": "injection", "pos": "noun", "note": "m · इंजेक्शन लगाना \"to give an injection\". A vaccine is टीका ṭīkā (m) or vaccine." },
+    { "native": "बेहोश", "roman": "behosh", "en": "unconscious, fainted", "pos": "adj", "note": "invariable · बेहोश हो जाना \"to faint\"." }
+  ],
+  "phrases": [
+    { "native": "मुझे तीन दिन से बुख़ार है।", "roman": "mujhe tīn din se buxār hai.", "en": "I've had a fever for three days." },
+    { "native": "यह कब से हो रहा है?", "roman": "yah kab se ho rahā hai?", "en": "How long has this been happening?" },
+    { "native": "साँस लेने में तकलीफ़ हो रही है।", "roman": "sāṃs lene meṃ taklīf ho rahī hai.", "en": "I'm having trouble breathing." },
+    { "native": "रात को नींद नहीं आती।", "roman": "rāt ko nīṃd nahīṃ ātī.", "en": "I can't sleep at night." },
+    { "native": "पहले से थोड़ा बेहतर है।", "roman": "pahle se thoṛā behtar hai.", "en": "It's a bit better than before." },
+    { "native": "मुझे शुगर है।", "roman": "mujhe shugar hai.", "en": "I'm diabetic." },
+    { "native": "मुझे किसी दवा से एलर्जी नहीं है।", "roman": "mujhe kisī davā se elarjī nahīṃ hai.", "en": "I'm not allergic to any medicine." },
+    { "native": "क्या मुझे डॉक्टर का अपॉइंटमेंट मिल सकता है?", "roman": "kyā mujhe ḍokṭar kā apoinṭmenṭ mil saktā hai?", "en": "Could I get a doctor's appointment?" },
+    { "native": "यह दवा दिन में दो बार लेनी है।", "roman": "yah davā din meṃ do bār lenī hai.", "en": "This medicine is to be taken twice a day." },
+    { "native": "ख़ाली पेट मत लीजिए।", "roman": "xālī peṭ mat lījiye.", "en": "Don't take it on an empty stomach." },
+    { "native": "पाँच दिन का कोर्स पूरा कीजिए।", "roman": "pāṃch din kā kors pūrā kījiye.", "en": "Finish the five-day course." },
+    { "native": "क्या इसके कोई साइड इफ़ेक्ट हैं?", "roman": "kyā iske koī sāiḍ ifekṭ haiṃ?", "en": "Does it have any side effects?" },
+    { "native": "घबराने की कोई बात नहीं है।", "roman": "ghabrāne kī koī bāt nahīṃ hai.", "en": "There's nothing to worry about." },
+    { "native": "अब कैसी तबीयत है?", "roman": "ab kaisī tabīyat hai?", "en": "How are you feeling now?" }
+  ],
+  "grammar": [
+    {
+      "title": "'I've been … for': duration with से",
+      "body": "English needs a special tense ('I **have been** coughing **for** two days'). Hindi just uses the **present** — simple or continuous — plus **से** 'since/from' on the length of time:\n\nमुझे **दो दिन से** खाँसी **है** — 'I have had a cough for two days' (lit. 'to me since two days cough is')\nमैं **एक हफ़्ते से** यह दवा **ले रहा हूँ** — 'I have been taking this medicine for a week'\nवह **कल से** कुछ नहीं **खा रही** — 'she hasn't eaten anything since yesterday'\n\nThe question is **कब से?** 'since when / how long?': दर्द **कब से** है?\n\n**से covers both 'for' and 'since':** दो दिन **से** 'for two days', सोमवार **से** 'since Monday', बचपन **से** 'since childhood'.\n\nFor something that **had** been going on in the past, put the same sentence in the past: मुझे तीन दिन से बुख़ार **था**, फिर मैं डॉक्टर के पास गया.\n\nAnother very common way: **(X को) … हो गए** 'it has been …': बुख़ार को **तीन दिन हो गए** 'the fever has been going for three days', दवा लेते हुए **एक हफ़्ता हो गया** 'it's been a week of taking the medicine'.\n\n**The trap:** don't use the past tense as English does. *मुझे तीन दिन से बुख़ार था* means the fever is **over**. If you still have it, say **है**. And don't translate 'for' as के लिए here — दो दिन के लिए means 'for two days (in the future)': दो दिन **के लिए** आराम कीजिए 'rest for two days'.",
+      "examples": [
+        { "native": "मुझे कल रात से उल्टी हो रही है।", "roman": "mujhe kal rāt se ulṭī ho rahī hai.", "en": "I've been throwing up since last night." },
+        { "native": "मैं दो साल से बीपी की दवा ले रहा हूँ।", "roman": "maiṃ do sāl se bīpī kī davā le rahā hūṃ.", "en": "I've been taking blood-pressure medicine for two years." },
+        { "native": "दर्द कब से है?", "roman": "dard kab se hai?", "en": "How long have you had the pain?" },
+        { "native": "खाँसी को दस दिन हो गए, फिर भी ठीक नहीं हुई।", "roman": "khāṃsī ko das din ho gaye, phir bhī ṭhīk nahīṃ huī.", "en": "It's been ten days and the cough still hasn't gone." },
+        { "native": "मुझे एक हफ़्ते से बुख़ार था, अब ठीक हूँ।", "roman": "mujhe ek hafte se buxār thā, ab ṭhīk hūṃ.", "en": "I had had a fever for a week; now I am fine." }
+      ]
+    },
+    {
+      "title": "Following instructions: 'to be taken twice a day'",
+      "body": "Doctors and pharmacists give instructions in three ways.\n\n**1. Polite imperative** (unit 11): **लीजिए, खाइए, कीजिए**, and in the negative **मत लीजिए**. Doctors often use the extra-polite **-इएगा**: दवा बीच में मत छोड़िएगा 'please don't stop the medicine halfway'.\n\n**2. Infinitive + है — 'it is to be done'.** Very common for instructions and schedules: यह दवा दिन में दो बार **लेनी है**. The infinitive **agrees with the thing**: दवा (f) → लेनी है, सिरप (m) → लेना है, गोलियाँ (f pl) → लेनी हैं. In the negative: ठंडा पानी **नहीं पीना है**.\n\n**3. When: -ने से पहले / के बाद.** Use the oblique infinitive (-ने) with **से पहले** 'before' and **के बाद** 'after': **सोने से पहले** 'before sleeping', **खाने के बाद** 'after meals', **नहाने के बाद** 'after bathing'. And the classic: **ख़ाली पेट** 'on an empty stomach'.\n\nHow often: **दिन में दो बार** 'twice a day', **हर छह घंटे** 'every six hours', **सुबह-शाम** 'morning and evening', **ज़रूरत हो तो** 'if needed'. 'Keep doing' is **-ते रहिए**: पानी पीते रहिए 'keep drinking water'.\n\n**The trap:** *पहले* takes **से** but *बाद* takes **के**: खाने **से** पहले, खाने **के** बाद. And keep the agreement in pattern 2 — यह गोली लेना है sounds wrong to a Hindi ear; say **लेनी है**.",
+      "examples": [
+        { "native": "यह सिरप रात को सोने से पहले लेना है।", "roman": "yah sirap rāt ko sone se pahle lenā hai.", "en": "This syrup is to be taken at night before bed." },
+        { "native": "ये गोलियाँ खाने के बाद लेनी हैं।", "roman": "ye goliyāṃ khāne ke bād lenī haiṃ.", "en": "These tablets are to be taken after meals." },
+        { "native": "दवा बीच में मत छोड़िएगा।", "roman": "davā bīch meṃ mat chhoṛiyegā.", "en": "Please don't stop the medicine halfway." },
+        { "native": "दो दिन तक तला हुआ नहीं खाना है।", "roman": "do din tak talā huā nahīṃ khānā hai.", "en": "No fried food for two days." },
+        { "native": "पानी ख़ूब पीते रहिए।", "roman": "pānī xūb pīte rahiye.", "en": "Keep drinking plenty of water." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the clinic in Lucknow",
+    "setting": "Aman has had a fever for days and finally goes to Dr Verma, the neighbourhood doctor in Lucknow.",
+    "lines": [
+      { "speaker": "Dr Verma", "native": "आइए, बैठिए। बताइए, क्या तकलीफ़ है?", "roman": "āiye, baiṭhiye. batāiye, kyā taklīf hai?", "en": "Come in, sit down. So, what's the trouble?" },
+      { "speaker": "Aman", "native": "डॉक्टर साहब, मुझे चार दिन से बुख़ार है और पूरे शरीर में दर्द है।", "roman": "ḍokṭar sāhab, mujhe chār din se buxār hai aur pūre sharīr meṃ dard hai.", "en": "Doctor, I've had a fever for four days and I ache all over." },
+      { "speaker": "Dr Verma", "native": "बुख़ार कितना है? आपने नापा?", "roman": "buxār kitnā hai? āpne nāpā?", "en": "How high is it? Did you take your temperature?" },
+      { "speaker": "Aman", "native": "कल रात एक सौ दो था। और खाँसी भी है, साँस लेने में थोड़ी तकलीफ़ होती है।", "roman": "kal rāt ek sau do thā. aur khāṃsī bhī hai, sāṃs lene meṃ thoṛī taklīf hotī hai.", "en": "It was a hundred and two last night. And I've got a cough, it's a bit hard to breathe." },
+      { "speaker": "Dr Verma", "native": "खाँसी कब से है? सूखी है या बलग़म आता है?", "roman": "khāṃsī kab se hai? sūkhī hai yā balġam ātā hai?", "en": "How long have you had the cough? Is it dry, or is there phlegm?" },
+      { "speaker": "Aman", "native": "दो-तीन दिन से। सूखी है। इसकी वजह से रात को नींद भी नहीं आती।", "roman": "do-tīn din se. sūkhī hai. iskī vajah se rāt ko nīṃd bhī nahīṃ ātī.", "en": "Two or three days. It's dry. I can't even sleep at night because of it." },
+      { "speaker": "Dr Verma", "native": "किसी दवा से एलर्जी? शुगर, बीपी?", "roman": "kisī davā se elarjī? shugar, bīpī?", "en": "Any allergies to medicines? Diabetes, blood pressure?" },
+      { "speaker": "Aman", "native": "नहीं, कुछ नहीं। बस, मैंने अपने आप दो दिन क्रोसिन ली थी।", "roman": "nahīṃ, kuchh nahīṃ. bas, maiṃne apne āp do din krosin lī thī.", "en": "No, nothing. I just took Crocin for two days on my own." },
+      { "speaker": "Dr Verma", "native": "सब यही करते हैं! लगता है वायरल है, फिर भी ख़ून की जाँच करवा लीजिए।", "roman": "sab yahī karte haiṃ! lagtā hai vāyral hai, phir bhī xūn kī jāṃch karvā lījiye.", "en": "Everyone does that! It looks viral, but get a blood test done anyway." },
+      { "speaker": "Dr Verma", "native": "बुख़ार के लिए यह गोली दिन में तीन बार लेनी है, खाने के बाद। और यह सिरप रात को सोने से पहले।", "roman": "buxār ke liye yah golī din meṃ tīn bār lenī hai, khāne ke bād. aur yah sirap rāt ko sone se pahle.", "en": "For the fever, take this tablet three times a day after meals. And this syrup at night before bed." },
+      { "speaker": "Aman", "native": "और खाने में कोई परहेज़?", "roman": "aur khāne meṃ koī parhez?", "en": "And anything I should avoid eating?" },
+      { "speaker": "Dr Verma", "native": "तला हुआ और ठंडा मत खाइए। पानी ख़ूब पीजिए और दो दिन पूरा आराम कीजिए।", "roman": "talā huā aur ṭhanḍā mat khāiye. pānī xūb pījiye aur do din pūrā ārām kījiye.", "en": "No fried or cold food. Drink plenty of water and rest completely for two days." },
+      { "speaker": "Aman", "native": "पर डॉक्टर साहब, कल ऑफ़िस में ज़रूरी मीटिंग है…", "roman": "par ḍokṭar sāhab, kal ofis meṃ zarūrī mīṭiṅg hai…", "en": "But doctor, I've got an important meeting at the office tomorrow…" },
+      { "speaker": "Dr Verma", "native": "जब तक बुख़ार नहीं उतरता, मीटिंग घर से कीजिए!", "roman": "jab tak buxār nahīṃ utartā, mīṭiṅg ghar se kījiye!", "en": "Until the fever comes down, you can have your meeting from home!" }
+    ]
+  },
+  "culture": "For everyday illness most people in north India go to the neighbourhood **क्लिनिक**, often open in the evenings, where you address the doctor as **डॉक्टर साहब** (or **डॉक्टर साहिबा**/मैडम for a woman). Big hospitals have an OPD where you first get a **पर्ची** at the registration counter. Booking apps such as Practo are common in cities. Temperature is talked about in **Fahrenheit** — 'सौ' (100) is a mild fever, 'एक सौ दो' (102) is worrying.\n\nMedicines are usually called by **brand name** — Crocin, Dolo, Combiflam, Digene — and chemists will sell many of them without a prescription, so people often self-medicate first (doctors joke about it). Ask the chemist **इसे कैसे लेना है?** and they'll explain the dose. 'Diabetes' is simply **शुगर** and high blood pressure **बीपी**: **उन्हें शुगर है** is said without any embarrassment.\n\nEvery family also has its **घरेलू नुस्ख़े** (home remedies): **हल्दी वाला दूध** (turmeric milk) for a cold or an injury, **अदरक-तुलसी की चाय** or **काढ़ा** for a cough, and plenty of advice from aunties. When you're ill, expect visitors and food; and when someone else is, ask **अब कैसी तबीयत है?** and wish them **जल्दी ठीक हो जाइए**.",
+  "lessons": [
+    {
+      "title": "Describing exactly how you feel",
+      "tip": { "title": "Symptoms happen to you", "body": "- As in unit 9, the patient takes **को**: **मुझे** खुजली हो रही है, **मुझे** पसीना आ रहा है.\n- Where it is takes **में**: पैर **में** सूजन है, छाती **में** दर्द है.\n- 'Trouble doing X' is **X-ने में तकलीफ़**: साँस लेने में तकलीफ़.\n- The verb agrees with the symptom: खुजली हो रही **है** (f), पसीना आ रहा **है** (m)." },
+      "new": ["सूजन", "खुजली", "कमज़ोरी", "थकान", "पसीना", "साँस", "नींद", "साँस लेने में तकलीफ़ हो रही है।", "रात को नींद नहीं आती।"],
+      "sentences": [
+        { "native": "मुझे पूरे शरीर में खुजली हो रही है।", "roman": "mujhe pūre sharīr meṃ khujlī ho rahī hai.", "en": "I'm itching all over.", "focus": "रही", "wrong": ["रहा|rahā", "रहे|rahe"] },
+        { "native": "मेरे पैर में सूजन है।", "roman": "mere pair meṃ sūjan hai.", "en": "My foot is swollen.", "focus": "में", "wrong": ["पर|par", "को|ko"] },
+        { "native": "बुख़ार के बाद बहुत कमज़ोरी है।", "roman": "buxār ke bād bahut kamzorī hai.", "en": "I've felt really weak since the fever." },
+        { "native": "मुझे रात को बहुत पसीना आता है।", "roman": "mujhe rāt ko bahut pasīnā ātā hai.", "en": "I sweat a lot at night.", "focus": "आता", "wrong": ["आती|ātī", "आते|āte"] },
+        { "native": "सीढ़ियाँ चढ़ते हुए साँस लेने में तकलीफ़ होती है।", "roman": "sīṛhiyāṃ chaṛhte hue sāṃs lene meṃ taklīf hotī hai.", "en": "I get breathless going up stairs.", "focus": "में", "wrong": ["से|se", "को|ko"] },
+        { "native": "मुझे नींद नहीं आ रही।", "roman": "mujhe nīṃd nahīṃ ā rahī.", "en": "I can't get to sleep.", "focus": "मुझे", "wrong": ["मैं|maiṃ", "मैंने|maiṃne"] },
+        { "native": "रात को नींद नहीं आती, इसलिए दिन भर थकान रहती है।", "roman": "rāt ko nīṃd nahīṃ ātī, isliye din bhar thakān rahtī hai.", "en": "I can't sleep at night, so I'm tired all day." },
+        { "native": "डॉक्टर साहब, साँस लेने में तकलीफ़ हो रही है।", "roman": "ḍokṭar sāhab, sāṃs lene meṃ taklīf ho rahī hai.", "en": "Doctor, I'm having trouble breathing.", "focus": "लेने", "wrong": ["लेना|lenā", "लेते|lete"] },
+        { "native": "उसे अचानक बहुत पसीना आने लगा।", "roman": "use achānak bahut pasīnā āne lagā.", "en": "He suddenly started sweating heavily." },
+        { "native": "लंबी साँस लीजिए।", "roman": "lambī sāṃs lījiye.", "en": "Take a deep breath.", "focus": "लंबी", "wrong": ["लंबा|lambā", "लंबे|lambe"] }
+      ]
+    },
+    {
+      "title": "Saying where and since when",
+      "tip": { "title": "दो दिन से — for two days", "body": "- Hindi uses the **present** + **से** where English says 'have been … for': मुझे दो दिन **से** बुख़ार **है**.\n- से means both 'for' and 'since': तीन दिन से, सोमवार से.\n- Ask **कब से?** 'how long?'.\n- The trap: बुख़ार **था** means it's over. Still ill? Say **है**.", "pattern": "मुझे + time + से + problem + है", "grammar": 0 },
+      "new": ["छाती", "घुटना", "कमर", "कंधा", "गर्दन", "मोच", "मुझे तीन दिन से बुख़ार है।", "यह कब से हो रहा है?", "पहले से थोड़ा बेहतर है।"],
+      "sentences": [
+        { "native": "मेरे घुटने में एक हफ़्ते से दर्द है।", "roman": "mere ghuṭne meṃ ek hafte se dard hai.", "en": "My knee has been hurting for a week.", "focus": "से", "wrong": ["को|ko", "तक|tak"] },
+        { "native": "मुझे कल रात से छाती में दर्द हो रहा है।", "roman": "mujhe kal rāt se chhātī meṃ dard ho rahā hai.", "en": "I've had chest pain since last night.", "focus": "से", "wrong": ["तक|tak", "को|ko"] },
+        { "native": "कमर का दर्द कब से है?", "roman": "kamar kā dard kab se hai?", "en": "How long have you had the back pain?", "focus": "कब", "wrong": ["कहाँ|kahāṃ", "कैसे|kaise"] },
+        { "native": "मैं दो महीने से यह दवा ले रहा हूँ।", "roman": "maiṃ do mahīne se yah davā le rahā hūṃ.", "en": "I've been taking this medicine for two months.", "focus": "रहा", "wrong": ["रही|rahī", "रहे|rahe"] },
+        { "native": "खेलते हुए पैर में मोच आ गई।", "roman": "khelte hue pair meṃ moch ā gaī.", "en": "I sprained my foot while playing.", "focus": "गई", "wrong": ["गया|gayā", "गए|gaye"] },
+        { "native": "सोमवार से मेरी गर्दन और कंधे में दर्द है।", "roman": "somvār se merī gardan aur kandhe meṃ dard hai.", "en": "My neck and shoulder have been hurting since Monday.", "focus": "से", "wrong": ["तक|tak", "को|ko"] },
+        { "native": "यह कब से हो रहा है? आपने पहले क्यों नहीं बताया?", "roman": "yah kab se ho rahā hai? āpne pahle kyoṃ nahīṃ batāyā?", "en": "How long has this been going on? Why didn't you say before?" },
+        { "native": "मुझे तीन दिन से बुख़ार है, पर आज पहले से थोड़ा बेहतर है।", "roman": "mujhe tīn din se buxār hai, par āj pahle se thoṛā behtar hai.", "en": "I've had a fever for three days, but today it's a bit better.", "focus": "है", "wrong": ["था|thā", "थी|thī"] },
+        { "native": "वह कल से कुछ नहीं खा रही।", "roman": "vah kal se kuchh nahīṃ khā rahī.", "en": "She hasn't eaten anything since yesterday." },
+        { "native": "दर्द को दस दिन हो गए।", "roman": "dard ko das din ho gaye.", "en": "It's been ten days of this pain.", "focus": "गए", "wrong": ["गई|gaī", "गईं|gaīṃ"] }
+      ]
+    },
+    {
+      "title": "Your medical history",
+      "tip": { "title": "Sugar, BP and allergies", "body": "- Conditions use **मुझे … है**: मुझे **शुगर** है 'I'm diabetic', मुझे **बीपी** है 'I have high blood pressure'.\n- Allergies: मुझे **X से** एलर्जी है.\n- Tests: **X की जाँच** — ख़ून की जाँच, शुगर की जाँच.\n- English medical words keep a Hindi gender: शुगर (f), बीपी, इन्फ़ेक्शन (m)." },
+      "new": ["लक्षण", "शुगर", "बीपी", "इन्फ़ेक्शन", "जाँच", "ख़ून", "मुझे शुगर है।", "मुझे किसी दवा से एलर्जी नहीं है।"],
+      "sentences": [
+        { "native": "मुझे शुगर है, इसलिए मैं मीठा नहीं खाता।", "roman": "mujhe shugar hai, isliye maiṃ mīṭhā nahīṃ khātā.", "en": "I'm diabetic, so I don't eat sweets.", "focus": "मुझे", "wrong": ["मैं|maiṃ", "मेरा|merā"] },
+        { "native": "मेरे पापा को बीपी है।", "roman": "mere pāpā ko bīpī hai.", "en": "My dad has high blood pressure.", "focus": "को", "wrong": ["का|kā", "से|se"] },
+        { "native": "मुझे किसी दवा से एलर्जी नहीं है, पर मूँगफली से है।", "roman": "mujhe kisī davā se elarjī nahīṃ hai, par mūṃgphalī se hai.", "en": "I'm not allergic to any medicine, but I am to peanuts.", "focus": "से", "wrong": ["को|ko", "में|meṃ"] },
+        { "native": "डॉक्टर ने ख़ून की जाँच के लिए कहा है।", "roman": "ḍokṭar ne xūn kī jāṃch ke liye kahā hai.", "en": "The doctor has asked for a blood test.", "focus": "की", "wrong": ["का|kā", "के|ke"] },
+        { "native": "गले में इन्फ़ेक्शन है, इसलिए खाँसी नहीं जा रही।", "roman": "gale meṃ infekshan hai, isliye khāṃsī nahīṃ jā rahī.", "en": "There's an infection in the throat, so the cough isn't going away." },
+        { "native": "आपके और क्या लक्षण हैं?", "roman": "āpke aur kyā lakṣaṇ haiṃ?", "en": "What other symptoms do you have?", "focus": "हैं", "wrong": ["है|hai", "हो|ho"] },
+        { "native": "मैं पाँच साल से शुगर की दवा ले रही हूँ।", "roman": "maiṃ pāṃch sāl se shugar kī davā le rahī hūṃ.", "en": "I've been taking diabetes medicine for five years.", "focus": "से", "wrong": ["को|ko", "तक|tak"] },
+        { "native": "जाँच की रिपोर्ट कब तक आएगी?", "roman": "jāṃch kī riporṭ kab tak āegī?", "en": "When will the test report come?", "focus": "आएगी", "wrong": ["आएगा|āegā", "आएँगे|āeṃge"] },
+        { "native": "क्या आपका बीपी कभी लो हुआ है?", "roman": "kyā āpkā bīpī kabhī lo huā hai?", "en": "Has your blood pressure ever been low?" }
+      ]
+    },
+    {
+      "title": "Following the doctor’s instructions",
+      "tip": { "title": "लेनी है — to be taken", "body": "- Instructions: infinitive + **है**, and it agrees with the medicine: दवा (f) **लेनी है**, सिरप (m) **लेना है**.\n- Before/after: **सोने से पहले**, **खाने के बाद** — पहले takes से, बाद takes के.\n- Don'ts: **मत खाइए**, or **नहीं खाना है**.\n- 'Keep doing': पानी पीते **रहिए**.", "pattern": "दवा + लेनी है  ·  खाने के बाद  ·  सोने से पहले", "grammar": 1 },
+      "new": ["ख़ुराक", "परहेज़", "तला", "सिरप", "इंजेक्शन", "यह दवा दिन में दो बार लेनी है।", "ख़ाली पेट मत लीजिए।", "पाँच दिन का कोर्स पूरा कीजिए।"],
+      "sentences": [
+        { "native": "यह गोली दिन में दो बार लेनी है, सुबह और रात।", "roman": "yah golī din meṃ do bār lenī hai, subah aur rāt.", "en": "Take this tablet twice a day, morning and night.", "focus": "लेनी", "wrong": ["लेना|lenā", "लेने|lene"] },
+        { "native": "यह सिरप सोने से पहले लेना है।", "roman": "yah sirap sone se pahle lenā hai.", "en": "This syrup is to be taken before bed.", "focus": "से", "wrong": ["के|ke", "को|ko"] },
+        { "native": "ये गोलियाँ नाश्ते के बाद लीजिए।", "roman": "ye goliyāṃ nāshte ke bād lījiye.", "en": "Take these tablets after breakfast.", "focus": "के", "wrong": ["से|se", "की|kī"] },
+        { "native": "यह दवा ख़ाली पेट मत लीजिए, पेट ख़राब हो जाएगा।", "roman": "yah davā xālī peṭ mat lījiye, peṭ xarāb ho jāegā.", "en": "Don't take this medicine on an empty stomach, it'll upset your stomach." },
+        { "native": "एक हफ़्ते तक तला हुआ नहीं खाना है।", "roman": "ek hafte tak talā huā nahīṃ khānā hai.", "en": "No fried food for a week.", "focus": "खाना", "wrong": ["खानी|khānī", "खाने|khāne"] },
+        { "native": "डॉक्टर साहब, खाने में कोई परहेज़?", "roman": "ḍokṭar sāhab, khāne meṃ koī parhez?", "en": "Doctor, is there anything I should avoid eating?" },
+        { "native": "आज की ख़ुराक ले ली?", "roman": "āj kī xurāk le lī?", "en": "Have you taken today's dose?", "focus": "ली", "wrong": ["लिया|liyā", "लिए|liye"] },
+        { "native": "पर्ची दिखाइए, मैं दवाइयाँ दे देता हूँ।", "roman": "parchī dikhāiye, maiṃ davāiyāṃ de detā hūṃ.", "en": "Show me the prescription and I'll give you the medicines." },
+        { "native": "बीच में दवा मत छोड़िए, पाँच दिन का कोर्स पूरा कीजिए।", "roman": "bīch meṃ davā mat chhoṛiye, pāṃch din kā kors pūrā kījiye.", "en": "Don't stop the medicine halfway — finish the five-day course.", "focus": "छोड़िए", "wrong": ["छोड़ो|chhoṛo", "छोड़ना|chhoṛnā"] },
+        { "native": "क्या इंजेक्शन लगाना ज़रूरी है?", "roman": "kyā injekshan lagānā zarūrī hai?", "en": "Is the injection really necessary?" },
+        { "native": "पानी ख़ूब पीते रहिए।", "roman": "pānī xūb pīte rahiye.", "en": "Keep drinking lots of water.", "focus": "रहिए", "wrong": ["रहो|raho", "रहा|rahā"] }
+      ]
+    },
+    {
+      "title": "At the clinic and the chemist",
+      "new": [
+        "अपॉइंटमेंट",
+        "क्लिनिक",
+        "मरीज़",
+        "बेहोश",
+        "सुधार",
+        "क्या मुझे डॉक्टर का अपॉइंटमेंट मिल सकता है?",
+        "क्या इसके कोई साइड इफ़ेक्ट हैं?",
+        "घबराने की कोई बात नहीं है।",
+        "अब कैसी तबीयत है?"
+      ],
+      "sentences": [
+        { "native": "क्या मुझे आज शाम का अपॉइंटमेंट मिल सकता है?", "roman": "kyā mujhe āj shām kā apoinṭmenṭ mil saktā hai?", "en": "Could I get an appointment for this evening?", "focus": "सकता", "wrong": ["सकती|saktī", "सकते|sakte"] },
+        { "native": "क्लिनिक शाम को छह बजे खुलता है।", "roman": "klinik shām ko chhah baje khultā hai.", "en": "The clinic opens at six in the evening.", "focus": "खुलता", "wrong": ["खुलती|khultī", "खोलता|kholtā"] },
+        { "native": "आज बहुत मरीज़ हैं, आपको एक घंटा रुकना पड़ेगा।", "roman": "āj bahut marīz haiṃ, āpko ek ghanṭā ruknā paṛegā.", "en": "There are a lot of patients today, you'll have to wait an hour.", "focus": "आपको", "wrong": ["आप|āp", "आपने|āpne"] },
+        { "native": "वह बस में अचानक बेहोश हो गया।", "roman": "vah bas meṃ achānak behosh ho gayā.", "en": "He suddenly fainted on the bus.", "focus": "गया", "wrong": ["गई|gaī", "गए|gaye"] },
+        { "native": "क्या इसके कोई साइड इफ़ेक्ट हैं? मुझे नींद तो नहीं आएगी?", "roman": "kyā iske koī sāiḍ ifekṭ haiṃ? mujhe nīṃd to nahīṃ āegī?", "en": "Does it have any side effects? It won't make me sleepy, will it?" },
+        { "native": "घबराने की कोई बात नहीं है, बस थोड़ा आराम कीजिए।", "roman": "ghabrāne kī koī bāt nahīṃ hai, bas thoṛā ārām kījiye.", "en": "There's nothing to worry about, just get some rest." },
+        { "native": "दवा लेते ही काफ़ी सुधार हुआ।", "roman": "davā lete hī kāfī sudhār huā.", "en": "It got a lot better as soon as I took the medicine.", "focus": "हुआ", "wrong": ["हुई|huī", "हुए|hue"] },
+        { "native": "अब कैसी तबीयत है? कुछ सुधार हुआ?", "roman": "ab kaisī tabīyat hai? kuchh sudhār huā?", "en": "How are you feeling now? Any better?", "focus": "कैसी", "wrong": ["कैसा|kaisā", "कैसे|kaise"] },
+        { "native": "भैया, इसे कैसे लेना है?", "roman": "bhaiyā, ise kaise lenā hai?", "en": "How should I take this? (to the chemist)" }
+      ]
+    }
+  ]
+}

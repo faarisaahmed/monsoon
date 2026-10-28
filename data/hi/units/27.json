@@ -1,0 +1,201 @@
+{
+  "id": 27,
+  "title": "People",
+  "goal": "Describe what people are like and what they look like, point someone out ('the one who…'), talk about friends, partners and in-laws, and share (or stop) a bit of gossip.",
+  "intro": "Half of all conversation is about other people: the new flatmate, a friend's boyfriend, the sister-in-law who doesn't get on with anyone. In this unit you'll learn the words for what someone is **like** (funny, shy, stuck-up, hard-working) and what they **look** like, the family words Indians actually use (भाभी, जीजा जी, सास), and the English that's normal for modern relationships.\n\nThe grammar is about describing: full **relative clauses** — *the guy **who** wears glasses, the girl **whose** engagement it is, the friend **I** live **with*** — and the verbs **लगना** and **दिखना** for 'seems' and 'looks'. You'll also learn the little trap that turns 'she seems nice' into 'I fancy her'.\n\nIn relaxed talk about people, this unit uses **वो** *vo*, the spoken form of both वह and वे.",
+  "vocab": [
+    { "native": "इंसान", "roman": "insān", "en": "person, human being", "pos": "noun", "note": "m · used for men and women: वो बहुत अच्छा इंसान है / अच्छी इंसान है" },
+    { "native": "स्वभाव", "roman": "svabhāv", "en": "nature, temperament", "pos": "noun", "note": "m · शांत स्वभाव का 'calm by nature'" },
+    { "native": "मज़ाकिया", "roman": "mazākiyā", "en": "funny, jokey (of a person)", "pos": "adj", "note": "Does not change: मज़ाकिया लड़की, मज़ाकिया लोग" },
+    { "native": "शांत", "roman": "shānt", "en": "calm, quiet", "pos": "adj" },
+    { "native": "शर्मीला", "roman": "sharmīlā", "en": "shy", "pos": "adj", "note": "f शर्मीली, pl शर्मीले" },
+    { "native": "बातूनी", "roman": "bātūnī", "en": "chatty, talks a lot", "pos": "adj" },
+    { "native": "मेहनती", "roman": "mehnatī", "en": "hard-working", "pos": "adj" },
+    { "native": "आलसी", "roman": "ālsī", "en": "lazy", "pos": "adj" },
+    { "native": "समझदार", "roman": "samajhdār", "en": "sensible, mature, understanding", "pos": "adj" },
+    { "native": "होशियार", "roman": "hoshiyār", "en": "clever, bright; smart, sharp", "pos": "adj" },
+    { "native": "घमंडी", "roman": "ghamaṇḍī", "en": "arrogant, stuck-up", "pos": "adj" },
+    { "native": "मतलबी", "roman": "matlabī", "en": "selfish, only out for themselves", "pos": "adj", "note": "from मतलब 'purpose, self-interest'" },
+    { "native": "अजीब", "roman": "ajīb", "en": "strange, weird", "pos": "adj", "note": "अजीब-सा 'a bit weird'" },
+    { "native": "स्मार्ट", "roman": "smārṭ", "en": "good-looking, well-dressed; smart", "pos": "adj", "note": "In Indian English and Hindi, स्मार्ट mostly means 'sharp-looking'." },
+    { "native": "चश्मा", "roman": "chashmā", "en": "glasses", "pos": "noun", "note": "m · चश्मा पहनना 'to wear glasses', चश्मे वाला 'the one with glasses'" },
+    { "native": "कद", "roman": "kad", "en": "height", "pos": "noun", "note": "m · कद में छोटा/लंबा 'short/tall'" },
+    { "native": "जिस", "roman": "jis", "en": "which, whom (form of जो before a postposition)", "pos": "pron", "note": "जिससे, जिसके साथ, जिसका 'whose', जिसने, जिसे; plural जिन, जिनका, जिन्होंने" },
+    { "native": "दोस्ती", "roman": "dostī", "en": "friendship", "pos": "noun", "note": "f · दोस्ती करना 'to make friends'" },
+    { "native": "रिश्तेदार", "roman": "rishtedār", "en": "relative, relation", "pos": "noun", "note": "m/f" },
+    { "native": "बॉयफ़्रेंड", "roman": "boyfrenḍ", "en": "boyfriend", "pos": "noun", "note": "m" },
+    { "native": "गर्लफ़्रेंड", "roman": "garlfrenḍ", "en": "girlfriend", "pos": "noun", "note": "f" },
+    { "native": "रिश्ता", "roman": "rishtā", "en": "relationship; (marriage) match, proposal", "pos": "noun", "note": "m · रिश्ता आया है 'a proposal has come'" },
+    { "native": "सगाई", "roman": "sagāī", "en": "engagement", "pos": "noun", "note": "f · सगाई हो गई 'got engaged'" },
+    { "native": "भाभी", "roman": "bhābhī", "en": "sister-in-law (brother's wife)", "pos": "noun", "note": "f · also any friend's wife, as a form of address" },
+    { "native": "जीजा", "roman": "jījā", "en": "brother-in-law (sister's husband)", "pos": "noun", "note": "m · almost always जीजा जी" },
+    { "native": "सास", "roman": "sās", "en": "mother-in-law", "pos": "noun", "note": "f · ससुर 'father-in-law', ससुराल 'in-laws' home'" },
+    { "native": "झगड़ा", "roman": "jhagṛā", "en": "fight, quarrel, row", "pos": "noun", "note": "m · झगड़ा होना 'to have a fight'" },
+    { "native": "चुग़ली", "roman": "chuġlī", "en": "gossip, talking behind someone's back", "pos": "noun", "note": "f · X की चुग़ली करना" },
+    { "native": "अफ़वाह", "roman": "afvāh", "en": "rumour", "pos": "noun", "note": "f" }
+  ],
+  "phrases": [
+    { "native": "वो कैसा इंसान है?", "roman": "vo kaisā insān hai?", "en": "What's he like (as a person)?", "note": "About a woman: वो कैसी है?" },
+    { "native": "वो दिल का बहुत अच्छा है।", "roman": "vo dil kā bahut achchhā hai.", "en": "He's got a really good heart.", "note": "About a woman: दिल की बहुत अच्छी है." },
+    { "native": "दिखने में कैसी है?", "roman": "dikhne meṃ kaisī hai?", "en": "What does she look like?" },
+    { "native": "वो बिल्कुल अपनी माँ जैसी दिखती है।", "roman": "vo bilkul apnī māṃ jaisī dikhtī hai.", "en": "She looks just like her mum." },
+    { "native": "वो थोड़ा अजीब-सा है।", "roman": "vo thoṛā ajīb-sā hai.", "en": "He's a bit weird." },
+    { "native": "मुझे उस पर भरोसा नहीं है।", "roman": "mujhe us par bharosā nahīṃ hai.", "en": "I don't trust him / her." },
+    { "native": "तुम्हें वो अच्छी लगती है ना?", "roman": "tumheṃ vo achchhī lagtī hai nā?", "en": "You like her, don't you?" },
+    { "native": "हम बचपन के दोस्त हैं।", "roman": "ham bachpan ke dost haiṃ.", "en": "We're childhood friends." },
+    { "native": "वो किसी को डेट कर रहा है?", "roman": "vo kisī ko ḍeṭ kar rahā hai?", "en": "Is he seeing someone?" },
+    { "native": "वो सिंगल है।", "roman": "vo siṅgal hai.", "en": "He's / she's single." },
+    { "native": "उनकी आपस में नहीं बनती।", "roman": "unkī āpas meṃ nahīṃ bantī.", "en": "They don't get on.", "note": "lit. 'between them it doesn't get made'. X की Y से नहीं बनती 'X doesn't get on with Y'." },
+    { "native": "सुना है…", "roman": "sunā hai…", "en": "I've heard… / Apparently…" },
+    { "native": "किसी को बताना मत!", "roman": "kisī ko batānā mat!", "en": "Don't tell anyone!" },
+    { "native": "छोड़ो, हमें क्या!", "roman": "chhoṛo, hameṃ kyā!", "en": "Forget it, it's none of our business!" }
+  ],
+  "grammar": [
+    {
+      "title": "Relative clauses in full: जो, जिसका, जिसने, जिसके साथ…",
+      "body": "Unit 20 introduced the Hindi way of saying 'the one who…': a **j-word** in one clause and a matching **v-word** in the other. **जो** लड़का चश्मा पहनता है, **वो** मेरा भाई है 'The boy who wears glasses is my brother' (lit. 'which boy wears glasses, he is my brother').\n\nTo describe people precisely you need all the forms of **जो**. They work exactly like the forms of वो (उस, उसका, उसने, उसे):\n\n**जो** — who / which (subject): **जो** लड़की लाल कुर्ते में है…\n**जिस** + postposition — **जिससे** 'from/with whom', **जिसके साथ** 'with whom', **जिस** दुकान में 'in which shop'\n**जिसका / जिसकी / जिसके** — whose: **जिसकी** सगाई है 'the one whose engagement it is'\n**जिसने** — who (with ने, past of transitive verbs): **जिसने** यह कहा 'whoever said this'\n**जिसे / जिसको** — whom, to whom\nPlural: **जिन** (+ postposition), **जिनका**, **जिन्होंने**, **जिन्हें**\n\nThe j-word also goes **before a noun**, like 'which': **जिस** लड़के से मैं मिली… 'the boy I met…'.\n\n**Order:** most often the j-clause comes first and the main clause starts with **वो**. You can also put it after the noun, English-style, between commas: वो दोस्त, **जिसके साथ** मैं रहता हूँ, बहुत आलसी है. Or at the end: मेरा एक रिश्तेदार है **जो** पुलिस में है.\n\n**Shortcut with वाला:** for a quick label Hindi often skips the clause: **चश्मे वाला** लड़का 'the boy with the glasses', **लाल कुर्ते वाली** 'the one in the red kurta', **ऊपर वाले** 'the people upstairs'.\n\n**The traps:** don't use कौन or क्या for 'who/which' inside a sentence (they only ask questions), and remember that जो changes before a postposition: never जो से, always **जिससे**.",
+      "examples": [
+        { "native": "जो लड़का चश्मा पहनता है, वो मेरा भाई है।", "roman": "jo laṛkā chashmā pahantā hai, vo merā bhāī hai.", "en": "The boy who wears glasses is my brother." },
+        { "native": "जिस लड़की से तुम कल मिले थे, वो मेरी कज़िन है।", "roman": "jis laṛkī se tum kal mile the, vo merī kazin hai.", "en": "The girl you met yesterday is my cousin." },
+        { "native": "जिसकी सगाई है, वो कहाँ है?", "roman": "jiskī sagāī hai, vo kahāṃ hai?", "en": "Where's the girl who's getting engaged?" },
+        { "native": "जिन्होंने यह अफ़वाह फैलाई, उन्हें शर्म आनी चाहिए।", "roman": "jinhoṃne yah afvāh phailāī, unheṃ sharm ānī chāhiye.", "en": "Whoever spread this rumour should be ashamed of themselves." },
+        { "native": "वो चश्मे वाला लड़का कौन है?", "roman": "vo chashme vālā laṛkā kaun hai?", "en": "Who's that guy with the glasses?" }
+      ]
+    },
+    {
+      "title": "Seems and looks: लगना, दिखना, जैसा, -सा",
+      "body": "**लगना** 'to seem' describes the impression someone makes. The adjective agrees with the person:\n\nवो थका हुआ **लग रहा है** — he looks tired (right now)\nवो बहुत अच्छी **लगती है** — she seems really nice (in general)\nतुम आज स्मार्ट **लग रहे हो** — you look sharp today\n\n**The big trap:** add **मुझे** and the meaning changes to *liking*: **मुझे** वो अच्छी लगती है = **I like her** (often: I fancy her). Without मुझे it's just an opinion; with it, it's a feeling. So तुम्हें वो अच्छा लगता है ना? is a friend teasing you about a crush.\n\n**दिखना** 'to look, appear' is about **appearance**. **दिखने में** means 'looks-wise': **दिखने में** स्मार्ट है, पर बहुत घमंडी है 'he's good-looking, but really stuck-up'.\n\n**Looks like someone:** X **जैसा / जैसी / जैसे** दिखना or लगना, with जैसा agreeing with the person described: वो अपनी माँ **जैसी** दिखती है, तुम अपने पापा **जैसे** लगते हो.\n\n**लगता है (कि)…** at the start of a sentence means 'it seems / looks like': **लगता है** उनका झगड़ा हुआ है 'looks like they've had a fight'.\n\n**-सा** after an adjective means '-ish, a bit': **अजीब-सा** 'weirdish', **पागल-सा** 'a bit crazy'. It agrees like an -आ adjective: अजीब-**सा** लड़का, अजीब-**सी** लड़की, अजीब-**से** लोग.",
+      "examples": [
+        { "native": "वो आज बहुत परेशान लग रही है।", "roman": "vo āj bahut pareshān lag rahī hai.", "en": "She looks really stressed today." },
+        { "native": "दिखने में वो बहुत स्मार्ट है।", "roman": "dikhne meṃ vo bahut smārṭ hai.", "en": "He's really good-looking." },
+        { "native": "तुम बिल्कुल अपने पापा जैसे दिखते हो।", "roman": "tum bilkul apne pāpā jaise dikhte ho.", "en": "You look exactly like your dad." },
+        { "native": "मुझे वो लड़की बहुत अच्छी लगती है।", "roman": "mujhe vo laṛkī bahut achchhī lagtī hai.", "en": "I really like that girl." },
+        { "native": "लगता है उनका झगड़ा हुआ है।", "roman": "lagtā hai unkā jhagṛā huā hai.", "en": "Looks like they've had a fight." },
+        { "native": "उसकी गर्लफ़्रेंड थोड़ी अजीब-सी है।", "roman": "uskī garlfrenḍ thoṛī ajīb-sī hai.", "en": "His girlfriend's a bit odd." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Did you see the photos?",
+    "setting": "Aditi and Neha, friends from college, are eating chaat in Lucknow and catching up on news about their friend Sneha.",
+    "lines": [
+      { "speaker": "Aditi", "native": "अरे, तुमने स्नेहा की सगाई की फ़ोटो देखीं?", "roman": "are, tumne Snehā kī sagāī kī foṭo dekhīṃ?", "en": "Hey, did you see the photos of Sneha's engagement?" },
+      { "speaker": "Neha", "native": "हाँ! लड़का कौन है? दिखने में तो बहुत स्मार्ट है।", "roman": "hāṃ! laṛkā kaun hai? dikhne meṃ to bahut smārṭ hai.", "en": "Yes! Who's the guy? He's very good-looking." },
+      { "speaker": "Aditi", "native": "वही, जो उसके ऑफ़िस में काम करता है। चश्मे वाला, लंबा-सा।", "roman": "vahī, jo uske ofis meṃ kām kartā hai. chashme vālā, lambā-sā.", "en": "The one who works in her office. Glasses, tallish." },
+      { "speaker": "Neha", "native": "अच्छा, वो! जिसके साथ वो रोज़ लंच पर जाती थी?", "roman": "achchhā, vo! jiske sāth vo roz lañch par jātī thī?", "en": "Oh, him! The one she used to go to lunch with every day?" },
+      { "speaker": "Aditi", "native": "हाँ, वही! सुना है, दोनों दो साल से साथ थे, पर किसी को बताया नहीं।", "roman": "hāṃ, vahī! sunā hai, donoṃ do sāl se sāth the, par kisī ko batāyā nahīṃ.", "en": "Yes, him! Apparently they'd been together for two years and didn't tell anyone." },
+      { "speaker": "Neha", "native": "क्या बात है! वैसे इंसान कैसा है?", "roman": "kyā bāt hai! vaise insān kaisā hai?", "en": "Wow! So what's he like as a person?" },
+      { "speaker": "Aditi", "native": "बहुत अच्छा है। थोड़ा शर्मीला है, पर दिल का बहुत अच्छा।", "roman": "bahut achchhā hai. thoṛā sharmīlā hai, par dil kā bahut achchhā.", "en": "Really nice. A bit shy, but a really good guy." },
+      { "speaker": "Neha", "native": "और स्नेहा के घरवाले? उसकी मम्मी तो बहुत सख़्त हैं।", "roman": "aur Snehā ke gharvāle? uskī mammī to bahut saxt haiṃ.", "en": "And Sneha's family? Her mum's really strict." },
+      { "speaker": "Aditi", "native": "पहले मना कर रहे थे, पर अब लगता है सब ख़ुश हैं। आंटी तो उसे \"बेटा, बेटा\" बुलाती हैं!", "roman": "pahle manā kar rahe the, par ab lagtā hai sab xush haiṃ. āṇṭī to use \"beṭā, beṭā\" bulātī haiṃ!", "en": "They were saying no at first, but now everyone seems happy. Aunty calls him \"son\" all the time!" },
+      { "speaker": "Neha", "native": "हा हा! और उसका भाई? उसकी तो किसी से नहीं बनती।", "roman": "hā hā! aur uskā bhāī? uskī to kisī se nahīṃ bantī.", "en": "Ha ha! And her brother? He doesn't get on with anyone." },
+      { "speaker": "Aditi", "native": "उसकी बात छोड़ो। वैसे… तुम्हारा क्या चल रहा है? वो जिम वाला लड़का?", "roman": "uskī bāt chhoṛo. vaise… tumhārā kyā chal rahā hai? vo jim vālā laṛkā?", "en": "Forget him. Anyway… what's going on with you? That guy from the gym?" },
+      { "speaker": "Neha", "native": "कौन? कोई नहीं! चलो, गोलगप्पे खाते हैं।", "roman": "kaun? koī nahīṃ! chalo, golgappe khāte haiṃ.", "en": "Who? Nobody! Come on, let's have some golgappas." },
+      { "speaker": "Aditi", "native": "अरे, शर्मा क्यों रही हो? बताओ ना!", "roman": "are, sharmā kyoṃ rahī ho? batāo nā!", "en": "Oh, why are you going red? Tell me!" }
+    ]
+  },
+  "culture": "Indian families have a word for every relative, and people use those words instead of names: your brother's wife is **भाभी**, your sister's husband **जीजा जी**, an older cousin is **भैया** or **दीदी**; a friend's wife is often called भाभी too. Elders are spoken about with the respectful plural even when they aren't there (उसकी मम्मी बहुत सख़्त **हैं**). Comments on looks are much more direct than in English: an aunty may tell you **तुम मोटे हो गए हो** 'you've put on weight' as a sign of affection, not an insult. Comments on skin colour (**गोरा** 'fair', **साँवला** 'dusky') are still common in older talk and matrimonial ads, but many young people find them offensive, so leave them out. **रिश्ता** covers both a relationship and a marriage proposal; you'll hear **लव मैरिज** and **अरेंज्ड मैरिज** in Hindi just like that. And gossip is a national sport, especially at weddings: if you don't want to join in, **छोड़ो, हमें क्या!** gets you out politely.",
+  "lessons": [
+    {
+      "title": "Saying what someone is like",
+      "tip": { "title": "Describing someone", "body": "- Adjectives in **-आ** agree: शर्मीला लड़का · शर्मीली लड़की · शर्मीले लोग.\n- Most others never change: **मेहनती, आलसी, बातूनी, शांत** — and **मज़ाकिया**, even though it ends in -आ.\n- **दिल का अच्छा** 'good-hearted'; for a woman **दिल की अच्छी**. Same with स्वभाव: शांत स्वभाव **का / की**.\n- 'What's he like?' = **वो कैसा इंसान है?**" },
+      "new": ["इंसान", "स्वभाव", "मज़ाकिया", "शांत", "शर्मीला", "बातूनी", "मेहनती", "आलसी", "वो कैसा इंसान है?", "वो दिल का बहुत अच्छा है।"],
+      "sentences": [
+        { "native": "मेरा भाई बहुत शर्मीला है, पर मेरी बहन बिल्कुल शर्मीली नहीं है।", "roman": "merā bhāī bahut sharmīlā hai, par merī bahan bilkul sharmīlī nahīṃ hai.", "en": "My brother is really shy, but my sister isn't shy at all.", "focus": "शर्मीली", "wrong": ["शर्मीला|sharmīlā", "शर्मीले|sharmīle"] },
+        { "native": "तुम्हारा नया दोस्त कैसा है?", "roman": "tumhārā nayā dost kaisā hai?", "en": "What's your new friend like?", "focus": "कैसा", "wrong": ["कैसी|kaisī", "कैसे|kaise"] },
+        { "native": "वो बहुत शांत स्वभाव का है।", "roman": "vo bahut shānt svabhāv kā hai.", "en": "He's very calm by nature.", "focus": "का", "wrong": ["की|kī", "के|ke"] },
+        { "native": "मेरी दीदी बहुत बातूनी है, फ़ोन पर घंटों बात करती है।", "roman": "merī dīdī bahut bātūnī hai, fon par ghaṇṭoṃ bāt kartī hai.", "en": "My sister is really chatty, she talks on the phone for hours." },
+        { "native": "मेरे पापा बहुत मेहनती हैं।", "roman": "mere pāpā bahut mehnatī haiṃ.", "en": "My dad is very hard-working." },
+        { "native": "मैं थोड़ा आलसी हूँ, रविवार को दोपहर तक सोता हूँ।", "roman": "maiṃ thoṛā ālsī hūṃ, ravivār ko dopahar tak sotā hūṃ.", "en": "I'm a bit lazy, I sleep till noon on Sundays. (man)" },
+        { "native": "मेरी बहन भी बहुत मज़ाकिया है।", "roman": "merī bahan bhī bahut mazākiyā hai.", "en": "My sister is really funny too." },
+        { "native": "वो दिल की बहुत अच्छी है।", "roman": "vo dil kī bahut achchhī hai.", "en": "She's got a heart of gold.", "focus": "की", "wrong": ["का|kā", "के|ke"] },
+        { "native": "तुम्हारा नया टीचर कैसा इंसान है?", "roman": "tumhārā nayā ṭīchar kaisā insān hai?", "en": "What's your new teacher like?" },
+        { "native": "हमारे दादा जी बहुत शांत इंसान थे।", "roman": "hamāre dādā jī bahut shānt insān the.", "en": "Our grandfather was a very calm person." }
+      ]
+    },
+    {
+      "title": "The good and the not-so-good",
+      "tip": { "title": "Softening: थोड़ा and -सा", "body": "- Hindi softens criticism with **थोड़ा** 'a bit' and **-सा** '-ish': वो **थोड़ा** घमंडी है · वो **अजीब-सा** है.\n- Both agree like -आ adjectives: थोड़ी अजीब-**सी** लड़की, थोड़े अजीब-**से** लोग.\n- 'Not at all': **ज़रा भी नहीं** / **बिल्कुल नहीं**." },
+      "new": ["समझदार", "होशियार", "घमंडी", "मतलबी", "अजीब", "वो थोड़ा अजीब-सा है।", "मुझे उस पर भरोसा नहीं है।"],
+      "sentences": [
+        { "native": "वो थोड़ा घमंडी है, किसी से बात नहीं करता।", "roman": "vo thoṛā ghamaṇḍī hai, kisī se bāt nahīṃ kartā.", "en": "He's a bit stuck-up, he doesn't talk to anyone.", "focus": "थोड़ा", "wrong": ["थोड़ी|thoṛī", "थोड़े|thoṛe"] },
+        { "native": "उसकी बहन थोड़ी अजीब-सी है।", "roman": "uskī bahan thoṛī ajīb-sī hai.", "en": "His sister is a bit odd.", "focus": "अजीब-सी", "wrong": ["अजीब-सा|ajīb-sā", "अजीब-से|ajīb-se"] },
+        { "native": "वो लोग थोड़े अजीब-से हैं।", "roman": "vo log thoṛe ajīb-se haiṃ.", "en": "Those people are a bit weird.", "focus": "अजीब-से", "wrong": ["अजीब-सा|ajīb-sā", "अजीब-सी|ajīb-sī"] },
+        { "native": "रवि बहुत होशियार है, पर ज़रा भी घमंडी नहीं है।", "roman": "Ravi bahut hoshiyār hai, par zarā bhī ghamaṇḍī nahīṃ hai.", "en": "Ravi is really bright, but he's not stuck-up at all.", "focus": "ज़रा", "wrong": ["थोड़ा|thoṛā", "बहुत|bahut"] },
+        { "native": "मुझे उस पर भरोसा नहीं है, वो बहुत मतलबी है।", "roman": "mujhe us par bharosā nahīṃ hai, vo bahut matlabī hai.", "en": "I don't trust him, he's really selfish." },
+        { "native": "वो अपनी उम्र से ज़्यादा समझदार है।", "roman": "vo apnī umr se zyādā samajhdār hai.", "en": "She's mature for her age." },
+        { "native": "वो मतलबी नहीं है, बस थोड़ा शर्मीला है।", "roman": "vo matlabī nahīṃ hai, bas thoṛā sharmīlā hai.", "en": "He's not selfish, he's just a bit shy.", "focus": "थोड़ा", "wrong": ["थोड़ी|thoṛī", "थोड़े|thoṛe"] },
+        { "native": "तुम्हारा दोस्त थोड़ा पागल-सा है, पर मज़ेदार है।", "roman": "tumhārā dost thoṛā pāgal-sā hai, par mazedār hai.", "en": "Your friend's a bit crazy, but he's fun.", "focus": "पागल-सा", "wrong": ["पागल-सी|pāgal-sī", "पागल-से|pāgal-se"] },
+        { "native": "होशियार तो है, पर थोड़ा आलसी है।", "roman": "hoshiyār to hai, par thoṛā ālsī hai.", "en": "He's clever all right, but a bit lazy." }
+      ]
+    },
+    {
+      "title": "Looks and first impressions",
+      "tip": { "title": "लगना and दिखना — seems, looks", "body": "- **लगना** = seem: वो थका हुआ **लग रहा है**, वो अच्छी **लगती है** 'she seems nice'.\n- Trap: **मुझे** वो अच्छी लगती है = **I like her**!\n- **दिखना**, **दिखने में** = looks, appearance: दिखने में स्मार्ट है.\n- Looks like someone: माँ **जैसी** दिखती है (जैसा agrees).\n- **लगता है…** = 'it looks like…'.", "pattern": "वो + adjective + लगता / दिखता है · X जैसा", "grammar": 1 },
+      "new": ["स्मार्ट", "चश्मा", "कद", "दिखने में कैसी है?", "वो बिल्कुल अपनी माँ जैसी दिखती है।", "तुम्हें वो अच्छी लगती है ना?"],
+      "sentences": [
+        { "native": "तुम आज बहुत स्मार्ट लग रहे हो!", "roman": "tum āj bahut smārṭ lag rahe ho!", "en": "You look really sharp today!", "focus": "लग", "wrong": ["लगा|lagā", "लगी|lagī"] },
+        { "native": "वो थका हुआ लग रहा है, सब ठीक है?", "roman": "vo thakā huā lag rahā hai, sab ṭhīk hai?", "en": "He looks tired, is everything OK?", "focus": "थका", "wrong": ["थकी|thakī", "थके|thake"] },
+        { "native": "दिखने में वो बिल्कुल अपने पापा जैसा है।", "roman": "dikhne meṃ vo bilkul apne pāpā jaisā hai.", "en": "He's the spitting image of his dad.", "focus": "जैसा", "wrong": ["जैसी|jaisī", "जैसे|jaise"] },
+        { "native": "वो कद में छोटी है, चश्मा पहनती है और बाल लंबे हैं।", "roman": "vo kad meṃ chhoṭī hai, chashmā pahantī hai aur bāl lambe haiṃ.", "en": "She's short, wears glasses and has long hair." },
+        { "native": "मुझे वो लड़का अच्छा लगता है।", "roman": "mujhe vo laṛkā achchhā lagtā hai.", "en": "I like that boy.", "focus": "मुझे", "wrong": ["मैं|maiṃ", "मेरा|merā"] },
+        { "native": "सच बताओ, तुम्हें वो अच्छी लगती है ना?", "roman": "sach batāo, tumheṃ vo achchhī lagtī hai nā?", "en": "Be honest, you like her, don't you?", "focus": "लगती", "wrong": ["लगता|lagtā", "दिखती|dikhtī"] },
+        { "native": "वो पहली बार में घमंडी लगती है, पर है नहीं।", "roman": "vo pahlī bār meṃ ghamaṇḍī lagtī hai, par hai nahīṃ.", "en": "She seems stuck-up at first, but she isn't.", "focus": "लगती", "wrong": ["लगता|lagtā", "लगी|lagī"] },
+        { "native": "चश्मे में तुम बिल्कुल अपने दादा जी जैसे लगते हो!", "roman": "chashme meṃ tum bilkul apne dādā jī jaise lagte ho!", "en": "In those glasses you look just like your grandad!", "focus": "जैसे", "wrong": ["जैसा|jaisā", "जैसी|jaisī"] },
+        { "native": "वो कैसा दिखता है? लंबा है?", "roman": "vo kaisā dikhtā hai? lambā hai?", "en": "What does he look like? Is he tall?", "focus": "दिखता", "wrong": ["दिखती|dikhtī", "दिखते|dikhte"] },
+        { "native": "लगता है वो आज बहुत ग़ुस्से में है।", "roman": "lagtā hai vo āj bahut ġusse meṃ hai.", "en": "Looks like he's really angry today.", "focus": "लगता", "wrong": ["लगती|lagtī", "लगा|lagā"] }
+      ]
+    },
+    {
+      "title": "Pointing people out: the one who…",
+      "tip": { "title": "जो, जिसका, जिसने — the one who…", "body": "- Pair **जो** … **वो**: **जो** लड़की लाल कुर्ते में है, **वो** मेरी बहन है.\n- जो changes like वो: **जिस** + postposition (जिससे, जिसके साथ), **जिसका** 'whose', **जिसने** (with ने), **जिसे** 'whom'. Plural: **जिन**, जिनका, जिन्होंने.\n- Shortcut: **वाला**: चश्मे **वाला** लड़का 'the guy with glasses'.", "pattern": "जो / जिस… + clause, वो + rest", "grammar": 0 },
+      "new": ["जिस", "दोस्ती", "रिश्तेदार", "हम बचपन के दोस्त हैं।"],
+      "sentences": [
+        { "native": "जो लड़की लाल कुर्ते में है, वो मेरी बहन है।", "roman": "jo laṛkī lāl kurte meṃ hai, vo merī bahan hai.", "en": "The girl in the red kurta is my sister.", "focus": "जो", "wrong": ["जिस|jis", "जिसे|jise"] },
+        { "native": "जिस लड़के से मैं कल मिली थी, वो बहुत मज़ाकिया था।", "roman": "jis laṛke se maiṃ kal milī thī, vo bahut mazākiyā thā.", "en": "The guy I met yesterday was really funny. (woman speaking)", "focus": "जिस", "wrong": ["जो|jo", "जिसका|jiskā"] },
+        { "native": "जिसका बर्थडे है, वो कहाँ है?", "roman": "jiskā barthḍe hai, vo kahāṃ hai?", "en": "Where's the birthday boy?", "focus": "जिसका", "wrong": ["जो|jo", "जिसने|jisne"] },
+        { "native": "जिसने यह कहा, वो झूठ बोल रहा है।", "roman": "jisne yah kahā, vo jhūṭh bol rahā hai.", "en": "Whoever said that is lying.", "focus": "जिसने", "wrong": ["जो|jo", "जिसको|jisko"] },
+        { "native": "वो दोस्त, जिसके साथ मैं रहता हूँ, बहुत आलसी है।", "roman": "vo dost, jiske sāth maiṃ rahtā hūṃ, bahut ālsī hai.", "en": "The friend I live with is really lazy. (man speaking)", "focus": "जिसके", "wrong": ["जिसका|jiskā", "जो|jo"] },
+        { "native": "हम बचपन के दोस्त हैं, हमारी दोस्ती बहुत पुरानी है।", "roman": "ham bachpan ke dost haiṃ, hamārī dostī bahut purānī hai.", "en": "We're childhood friends, we go back a long way." },
+        { "native": "जिन रिश्तेदारों को मैं जानता भी नहीं, वो भी शादी में आए।", "roman": "jin rishtedāroṃ ko maiṃ jāntā bhī nahīṃ, vo bhī shādī meṃ āye.", "en": "Even relatives I don't know came to the wedding.", "focus": "जिन", "wrong": ["जो|jo", "जिस|jis"] },
+        { "native": "वो चश्मे वाली लड़की कौन है?", "roman": "vo chashme vālī laṛkī kaun hai?", "en": "Who's that girl with the glasses?", "focus": "वाली", "wrong": ["वाला|vālā", "वाले|vāle"] },
+        { "native": "मेरा एक रिश्तेदार है जो पुलिस में है।", "roman": "merā ek rishtedār hai jo pulis meṃ hai.", "en": "I've got a relative who's in the police.", "focus": "जो", "wrong": ["जिस|jis", "जिसका|jiskā"] },
+        { "native": "जहाँ हम पहली बार मिले थे, वो कैफ़े अब बंद हो गया।", "roman": "jahāṃ ham pahlī bār mile the, vo kaife ab band ho gayā.", "en": "The café where we first met has closed down now.", "focus": "जहाँ", "wrong": ["जो|jo", "जब|jab"] }
+      ]
+    },
+    {
+      "title": "Partners and in-laws",
+      "tip": { "title": "A word for every relative", "body": "- **भाभी** brother's wife · **जीजा जी** sister's husband · **सास** mother-in-law.\n- Use them instead of names: 'भाभी, चाय?' — never the first name of an older in-law.\n- Modern relationships are in English: **बॉयफ़्रेंड, गर्लफ़्रेंड, डेट करना, सिंगल**.\n- Getting on: **X की Y से (नहीं) बनती** 'X does(n't) get on with Y'." },
+      "new": ["बॉयफ़्रेंड", "गर्लफ़्रेंड", "रिश्ता", "सगाई", "भाभी", "जीजा", "सास", "वो किसी को डेट कर रहा है?", "वो सिंगल है।", "उनकी आपस में नहीं बनती।"],
+      "sentences": [
+        { "native": "उसका बॉयफ़्रेंड बहुत समझदार है।", "roman": "uskā boyfrenḍ bahut samajhdār hai.", "en": "Her boyfriend's really understanding." },
+        { "native": "तुम्हारी गर्लफ़्रेंड कहाँ की है?", "roman": "tumhārī garlfrenḍ kahāṃ kī hai?", "en": "Where's your girlfriend from?", "focus": "की", "wrong": ["का|kā", "के|ke"] },
+        { "native": "मेरी भाभी और मम्मी की आपस में बहुत अच्छी बनती है।", "roman": "merī bhābhī aur mammī kī āpas meṃ bahut achchhī bantī hai.", "en": "My sister-in-law and my mum get on really well.", "focus": "बनती", "wrong": ["बनता|bantā", "बनाती|banātī"] },
+        { "native": "जीजा जी बहुत मज़ाकिया हैं।", "roman": "jījā jī bahut mazākiyā haiṃ.", "en": "My brother-in-law is really funny." },
+        { "native": "दीदी की सगाई अगले महीने है।", "roman": "dīdī kī sagāī agle mahīne hai.", "en": "My sister's engagement is next month." },
+        { "native": "घरवाले उसके लिए रिश्ता ढूँढ रहे हैं।", "roman": "gharvāle uske liye rishtā ḍhūṃḍh rahe haiṃ.", "en": "His family are looking for a match for him." },
+        { "native": "नहीं, वो किसी को डेट नहीं कर रहा, अभी सिंगल है।", "roman": "nahīṃ, vo kisī ko ḍeṭ nahīṃ kar rahā, abhī siṅgal hai.", "en": "No, he's not seeing anyone, he's single at the moment." },
+        { "native": "उसकी सास बहुत अच्छी हैं, बिल्कुल माँ जैसी।", "roman": "uskī sās bahut achchhī haiṃ, bilkul māṃ jaisī.", "en": "Her mother-in-law is lovely, just like a mother." },
+        { "native": "उनका रिश्ता दो साल पुराना है।", "roman": "unkā rishtā do sāl purānā hai.", "en": "They've been together for two years." },
+        { "native": "भाई और जीजा जी की आपस में नहीं बनती।", "roman": "bhāī aur jījā jī kī āpas meṃ nahīṃ bantī.", "en": "My brother and my brother-in-law don't get on.", "focus": "बनती", "wrong": ["बनता|bantā", "बनाती|banātī"] }
+      ]
+    },
+    {
+      "title": "A bit of gossip",
+      "tip": { "title": "Passing on what you've heard", "body": "- **सुना है (कि)…** 'I've heard / apparently': सुना है उनकी सगाई हो गई.\n- **लोग कहते हैं** 'people say' · **लगता है** 'it looks like'.\n- Swearing someone to secrecy: **किसी को बताना मत!**\n- Getting out of it: **छोड़ो, हमें क्या!** 'none of our business!'" },
+      "new": ["झगड़ा", "चुग़ली", "अफ़वाह", "सुना है…", "किसी को बताना मत!", "छोड़ो, हमें क्या!"],
+      "sentences": [
+        { "native": "सुना है, उनका कल बहुत बड़ा झगड़ा हुआ।", "roman": "sunā hai, unkā kal bahut baṛā jhagṛā huā.", "en": "Apparently they had a massive row yesterday.", "focus": "सुना", "wrong": ["सुनी|sunī", "सुने|sune"] },
+        { "native": "सुना है कि प्रिया की सगाई हो गई!", "roman": "sunā hai ki Priyā kī sagāī ho gaī!", "en": "I've heard Priya's got engaged!", "focus": "गई", "wrong": ["गया|gayā", "गए|gaye"] },
+        { "native": "सच है या बस अफ़वाह है?", "roman": "sach hai yā bas afvāh hai?", "en": "Is it true or just a rumour?" },
+        { "native": "लोग कहते हैं कि वो बहुत घमंडी है, पर मुझे ऐसा नहीं लगता।", "roman": "log kahte haiṃ ki vo bahut ghamaṇḍī hai, par mujhe aisā nahīṃ lagtā.", "en": "People say she's really stuck-up, but I don't think so.", "focus": "कहते", "wrong": ["कहता|kahtā", "कहा|kahā"] },
+        { "native": "यार, पीठ पीछे चुग़ली मत करो।", "roman": "yār, pīṭh pīchhe chuġlī mat karo.", "en": "Come on, don't talk about people behind their backs." },
+        { "native": "मैं तुम्हें एक बात बताऊँ? पर किसी को बताना मत!", "roman": "maiṃ tumheṃ ek bāt batāūṃ? par kisī ko batānā mat!", "en": "Shall I tell you something? But don't tell anyone!", "focus": "बताऊँ", "wrong": ["बताओ|batāo", "बताता|batātā"] },
+        { "native": "लगता है उन दोनों में कुछ चल रहा है।", "roman": "lagtā hai un donoṃ meṃ kuchh chal rahā hai.", "en": "Looks like something's going on between those two.", "focus": "लगता", "wrong": ["लगती|lagtī", "लगा|lagā"] },
+        { "native": "छोड़ो, हमें क्या! उनकी ज़िंदगी है।", "roman": "chhoṛo, hameṃ kyā! unkī zindagī hai.", "en": "Forget it, it's none of our business! It's their life." },
+        { "native": "यह बात तुम्हें किसने बताई?", "roman": "yah bāt tumheṃ kisne batāī?", "en": "Who told you that?", "focus": "बताई", "wrong": ["बताया|batāyā", "बताए|batāye"] },
+        { "native": "वो सबकी चुग़ली करती है, उस पर भरोसा मत करना।", "roman": "vo sabkī chuġlī kartī hai, us par bharosā mat karnā.", "en": "She gossips about everyone, don't trust her." }
+      ]
+    }
+  ]
+}

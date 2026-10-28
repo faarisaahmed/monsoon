@@ -1,0 +1,197 @@
+{
+  "id": 39,
+  "title": "Sounding natural",
+  "goal": "React like a local, use tag questions and emphasis particles, make echo words, ask people to repeat or explain, get round words you don't know, and mix in English the way people do.",
+  "intro": "You can now say almost anything — this unit is about saying it the way people actually do. Real Hindi conversation is full of small words that textbooks skip: **ना** at the end of a sentence, **ही** and **तो** for emphasis, reactions like **हाय!**, **उफ़!**, **सच्ची?**, and echo words like **चाय-वाय** 'tea or something'.\n\nYou'll also learn the survival skills of a confident learner: stopping someone politely (**एक मिनट, क्या कहा?**), describing a word you've forgotten (**वो क्या कहते हैं…**) and mixing in English the way urban speakers do — *actually, basically, seriously*.",
+  "vocab": [
+    { "native": "वाह", "roman": "vāh", "en": "wow!, bravo!", "pos": "interj", "note": "Admiration or delight. अरे वाह! Sarcastic: वाह, बहुत अच्छे! 'oh, well done'." },
+    { "native": "हाय", "roman": "hāy", "en": "oh no!, oh!", "pos": "interj", "note": "Sympathy or dismay: हाय, बेचारा! Also हाय राम! (older speakers). Not the English 'hi'." },
+    { "native": "उफ़", "roman": "uf", "en": "ugh!, phew!", "pos": "interj", "note": "Annoyance, heat, tiredness: उफ़, कितनी गर्मी है!" },
+    { "native": "छी", "roman": "chhī", "en": "yuck!, ew!", "pos": "interj", "note": "Disgust. Also छी-छी." },
+    { "native": "धत्", "roman": "dhat", "en": "damn!, oh, come off it!", "pos": "interj", "note": "Mild annoyance (धत्, बस छूट गई!) or shy brushing-off of a compliment." },
+    { "native": "कमाल", "roman": "kamāl", "en": "wonder, something amazing", "pos": "noun", "note": "m · कमाल है! 'amazing!' · कमाल कर दिया! 'you were brilliant!' · कमाल का 'amazing'." },
+    { "native": "ग़ज़ब", "roman": "ġazab", "en": "amazing; outrageous", "pos": "adj", "note": "Does not change. ग़ज़ब का खाना 'incredible food', ग़ज़ब की गर्मी 'unbelievable heat'. Often said gazab." },
+    { "native": "ना", "roman": "nā", "en": "right?; come on (tag and softener)", "pos": "particle", "note": "At the end of a sentence: …है ना? 'isn't it?' After a command it coaxes: बताओ ना! 'come on, tell me!' Also written न." },
+    { "native": "सच्ची", "roman": "sachchī", "en": "really?, seriously?; honestly", "pos": "interj", "note": "Very common among young people, especially in Delhi. Same as सच में?" },
+    { "native": "हम्म", "roman": "hmm", "en": "hmm", "pos": "interj", "note": "Thinking, or a neutral 'I'm listening'." },
+    { "native": "क़सम", "roman": "qasam", "en": "oath, swear", "pos": "noun", "note": "f · क़सम से! 'I swear!' · क़सम खाना 'to swear'. Often said kasam." },
+    { "native": "ही", "roman": "hī", "en": "only; exactly; very (emphasis)", "pos": "particle", "note": "Comes right after the word it stresses. Merges with some words: यही, वही, यहीं, अभी, तभी. See grammar." },
+    { "native": "भला", "roman": "bhalā", "en": "well, (why) on earth (rhetorical)", "pos": "particle", "note": "Makes a question rhetorical: भला मैं क्यों जाऊँ? 'why on earth would I go?' (As an adjective it also means 'good', in old-fashioned speech.)" },
+    { "native": "एकदम", "roman": "ekdam", "en": "totally, completely; exactly; suddenly", "pos": "adv", "note": "एकदम सही 'exactly right', एकदम मस्त 'totally great'." },
+    { "native": "मस्त", "roman": "mast", "en": "great, cool, awesome", "pos": "adj", "note": "Does not change. Informal: खाना मस्त था 'the food was great'." },
+    { "native": "बंदा", "roman": "bandā", "en": "guy, person (slang)", "pos": "noun", "note": "m · f बंदी. Informal: बंदा अच्छा है 'he's a good guy'." },
+    { "native": "ऐसे ही", "roman": "aise hī", "en": "just like that, for no reason; just the same", "pos": "adv", "note": "कुछ नहीं, ऐसे ही 'nothing, no reason'." },
+    { "native": "थोड़ा-बहुत", "roman": "thoṛā-bahut", "en": "a bit, some, a fair bit", "pos": "adv", "note": "Modest: मैं थोड़ा-बहुत बोल लेता हूँ 'I can speak a bit'." },
+    { "native": "तरह", "roman": "tarah", "en": "way, kind, sort", "pos": "noun", "note": "f · एक तरह का 'a kind of', किस तरह 'how, in what way', हर तरह के 'all kinds of', X की तरह 'like X'." },
+    { "native": "टोकना", "roman": "ṭoknā", "en": "to interrupt, to cut in; to pull someone up", "pos": "verb" },
+    { "native": "लहजा", "roman": "lahjā", "en": "accent, tone", "pos": "noun", "note": "m · obl. लहजे." },
+    { "native": "एक्चुअली", "roman": "ekchualī", "en": "actually", "pos": "adv", "note": "Hinglish. Hindi: दरअसल." },
+    { "native": "बेसिकली", "roman": "besikalī", "en": "basically", "pos": "adv", "note": "Hinglish. Hindi: असल में, मतलब." },
+    { "native": "सीरियसली", "roman": "sīriyaslī", "en": "seriously", "pos": "adv", "note": "Hinglish. Hindi: सच में." },
+    { "native": "मिलाना", "roman": "milānā", "en": "to mix; to introduce (people); to dial", "pos": "verb", "note": "हाथ मिलाना 'to shake hands'." },
+    { "native": "बोलचाल", "roman": "bolchāl", "en": "everyday speech, conversation", "pos": "noun", "note": "f · बोलचाल की हिंदी 'colloquial Hindi'." }
+  ],
+  "phrases": [
+    { "native": "अरे बाप रे!", "roman": "are bāp re!", "en": "Oh my God! / Good grief!", "note": "Lit. 'oh father!'. Shock or alarm." },
+    { "native": "कमाल है!", "roman": "kamāl hai!", "en": "Amazing! / That's incredible!" },
+    { "native": "है ना?", "roman": "hai nā?", "en": "Isn't it? / Right?" },
+    { "native": "सही में?", "roman": "sahī meṃ?", "en": "For real?" },
+    { "native": "क़सम से!", "roman": "qasam se!", "en": "I swear!" },
+    { "native": "कुछ नहीं, ऐसे ही।", "roman": "kuchh nahīṃ, aise hī.", "en": "Nothing, no reason." },
+    { "native": "चाय-वाय पियोगे?", "roman": "chāy-vāy piyoge?", "en": "Fancy some tea or something?" },
+    { "native": "यह एक तरह की मिठाई है।", "roman": "yah ek tarah kī miṭhāī hai.", "en": "It's a kind of sweet." },
+    { "native": "एक मिनट, क्या कहा?", "roman": "ek minaṭ, kyā kahā?", "en": "Hang on, what did you say?" },
+    { "native": "फिर से बोलना?", "roman": "phir se bolnā?", "en": "Say that again? (informal)", "note": "Polite: फिर से बोलिएगा?" },
+    { "native": "समझ में नहीं आया।", "roman": "samajh meṃ nahīṃ āyā.", "en": "I didn't get it.", "note": "Lit. 'it didn't come into understanding'." },
+    { "native": "वो क्या कहते हैं…", "roman": "vo kyā kahte haiṃ…", "en": "What's it called… / what's the word…" },
+    { "native": "बीच में टोकने के लिए सॉरी।", "roman": "bīch meṃ ṭokne ke liye sorī.", "en": "Sorry to interrupt." }
+  ],
+  "grammar": [
+    {
+      "title": "Tag questions: है ना?, ना, नहीं?",
+      "body": "English has dozens of tags (*isn't it? aren't you? didn't she?*). Hindi has essentially **one**: **ना** (also written **न**) at the end of the sentence.\n\n**Checking / seeking agreement** — statement + **ना?** or **है ना?**:\nआज बहुत गर्मी है, **है ना?** 'it's really hot today, isn't it?'\nतुम कल आओगे **ना?** 'you'll come tomorrow, won't you?'\nमज़ा आया **ना?** 'that was fun, wasn't it?'\n**है ना** works after almost any sentence, whatever its own verb; plain **ना** attaches straight to the verb.\n\n**Coaxing / softening a request** — imperative + **ना**:\nबताओ **ना!** 'come on, tell me!' · चलो **ना** 'oh come on, let's go' · बैठिए **ना** 'please, do sit'\nThis makes a request warmer and more insistent, not ruder.\n\n**Other tags** you'll hear: **ठीक है?** 'OK?', **सही?** 'right?', and **…, नहीं?** 'or not?' (तुम भी चलोगे, **नहीं?**).\n\n**Intonation** does the work: a rising **ना?** asks; a falling, drawn-out **ना…** pleads.\n\nThe trap: **ना** at the end is a tag, **नहीं** before the verb is negation. तुम आओगे **ना**? 'you'll come, right?' vs तुम **नहीं** आओगे? 'you won't come?'",
+      "examples": [
+        { "native": "खाना अच्छा था, है ना?", "roman": "khānā achchhā thā, hai nā?", "en": "The food was good, wasn't it?" },
+        { "native": "तुम मेरी मदद करोगे ना?", "roman": "tum merī madad karoge nā?", "en": "You'll help me, won't you?" },
+        { "native": "प्लीज़, एक बार और सुनाओ ना!", "roman": "plīz, ek bār aur sunāo nā!", "en": "Oh please, play it once more!" },
+        { "native": "तुम्हें याद है ना, हम पहली बार कहाँ मिले थे?", "roman": "tumheṃ yād hai nā, ham pahlī bār kahāṃ mile the?", "en": "You remember where we first met, right?" },
+        { "native": "कल छुट्टी है, सही?", "roman": "kal chhuṭṭī hai, sahī?", "en": "Tomorrow's a holiday, right?" }
+      ]
+    },
+    {
+      "title": "Emphasis: ही, तो, भी, भला",
+      "body": "Hindi stresses a word by putting a small **particle right after it**. Moving the particle changes the meaning.\n\n**ही — only / exactly / the very**\nमैं **ही** गया था 'only I went / it was me who went' · मैं गया **ही** नहीं 'I didn't go at all'\nकल **ही** 'just yesterday / tomorrow itself' · आज **ही** 'today itself'\nही fuses with some words: यह + ही = **यही** 'this very', वह + ही = **वही** 'that very, the same', यहाँ + ही = **यहीं** 'right here', अब + ही = **अभी** 'right now', तब + ही = **तभी** 'just then', उस + ही = **उसी**.\n\n**तो — as for / at least / contrast**\nमैं **तो** जा रहा हूँ 'well, *I'm* going (whatever you do)' · तुम **तो** कमाल हो! 'you really are amazing!'\nAfter a command, तो makes it gentle: देखो **तो** 'just have a look'.\n\n**भी — also / even**\nएक **भी** नहीं 'not even one' · कभी **भी** 'any time at all' · कुछ **भी** 'anything at all'\n\n**भला — rhetorical 'why on earth'**\n**भला** मैं क्यों जाऊँ? 'why on earth would I go?' It goes at the start of the question.\n\nThe trap: ही means 'only, exactly', **not** 'also' — मैं **ही** आया (only I came) vs मैं **भी** आया (I came too).",
+      "examples": [
+        { "native": "मैंने तुम्हें अभी-अभी यही बताया था!", "roman": "maiṃne tumheṃ abhī-abhī yahī batāyā thā!", "en": "That is exactly what I just told you!" },
+        { "native": "वह आज ही वापस आया है।", "roman": "vah āj hī vāpas āyā hai.", "en": "He only got back today." },
+        { "native": "मुझे तो यह फ़िल्म बहुत अच्छी लगी।", "roman": "mujhe to yah film bahut achchhī lagī.", "en": "Well, I really liked this film (even if you didn't)." },
+        { "native": "घर में दूध भी नहीं है।", "roman": "ghar meṃ dūdh bhī nahīṃ hai.", "en": "There isn't even any milk at home." },
+        { "native": "भला ऐसा कौन करता है?", "roman": "bhalā aisā kaun kartā hai?", "en": "Who on earth does something like that?" }
+      ]
+    },
+    {
+      "title": "Echo words and doubled words: चाय-वाय, धीरे-धीरे",
+      "body": "**Echo words** are one of the most typical features of spoken Hindi (and of most South Asian languages). Repeat a word, replacing its first sound with **व** (or adding व before a vowel): the echo means '**… and that sort of thing**', '… or something':\n\nचाय → **चाय-वाय** 'tea or something' · खाना → **खाना-वाना** 'food and stuff' · पैसे → **पैसे-वैसे** 'money and all that' · डॉक्टर → **डॉक्टर-वॉक्टर**\nIf the word already starts with व, people use another sound: वकील → **वकील-शकील**.\n\nThe echo is friendly and casual (चाय-वाय पियोगे?), or **dismissive** with a negative: मुझे डॉक्टर-वॉक्टर की ज़रूरत नहीं 'I don't need any doctor or whatever'.\n\n**Doubled words** do different jobs:\n**Distributive / 'all the…'** — **कौन-कौन** आ रहा है? 'who all is coming?' · **क्या-क्या** लाना है? 'what all do we need?'\n**Gradual / repeated** — **धीरे-धीरे** 'slowly, little by little' · **कभी-कभी** 'sometimes' · **बार-बार** 'again and again'\n**Variety** — **अलग-अलग** 'various, different' · **बड़े-बड़े** 'big ones'\n\nPairs of related words also go together: **थोड़ा-बहुत** 'a bit', **आस-पास** 'around', **घूमना-फिरना** 'going around'.\n\nThe trap: don't echo in formal situations (an interview, an email to your boss) — it sounds chatty.",
+      "examples": [
+        { "native": "चलो, कुछ खाना-वाना खा लेते हैं।", "roman": "chalo, kuchh khānā-vānā khā lete haiṃ.", "en": "Come on, let's grab some food or something." },
+        { "native": "पैसे-वैसे की चिंता मत करो।", "roman": "paise-vaise kī chintā mat karo.", "en": "Don't worry about money and all that." },
+        { "native": "पार्टी में कौन-कौन आ रहा है?", "roman": "pārṭī meṃ kaun-kaun ā rahā hai?", "en": "Who all is coming to the party?" },
+        { "native": "धीरे-धीरे सब समझ में आ जाएगा।", "roman": "dhīre-dhīre sab samajh meṃ ā jāyegā.", "en": "Little by little, you'll understand it all." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Golgappe talk",
+    "setting": "Emma has lived in Delhi for a year. She meets her friend Rohit at a café in Hauz Khas.",
+    "lines": [
+      { "speaker": "Rohit", "native": "अरे एमा! तुम्हारी हिंदी तो एकदम मस्त हो गई है!", "roman": "are Emā! tumhārī hindī to ekdam mast ho gaī hai!", "en": "Hey Emma! Your Hindi has got really good!" },
+      { "speaker": "Emma", "native": "सच्ची? थैंक यू! बस थोड़ा-बहुत बोल लेती हूँ।", "roman": "sachchī? thaiṅk yū! bas thoṛā-bahut bol letī hūṃ.", "en": "Really? Thank you! I just speak a bit." },
+      { "speaker": "Rohit", "native": "थोड़ा-बहुत? तुम तो दिल्ली वालों की तरह बोलती हो!", "roman": "thoṛā-bahut? tum to Dillī vāloṃ kī tarah boltī ho!", "en": "A bit? You talk like a Delhiite!" },
+      { "speaker": "Emma", "native": "हा हा, बेसिकली दोस्तों से सीखती हूँ। अच्छा सुनो, कल मैंने वो… वो क्या कहते हैं… गोल-गोल, अंदर पानी वाली चीज़…", "roman": "hā hā, besikalī dostoṃ se sīkhtī hūṃ. achchhā suno, kal maiṃne vo… vo kyā kahte haiṃ… gol-gol, andar pānī vālī chīz…", "en": "Ha ha, basically I learn from friends. Oh listen, yesterday I had that… what's it called… the round things with water inside…" },
+      { "speaker": "Rohit", "native": "गोलगप्पे? पानीपूरी?", "roman": "golgappe? pānīpūrī?", "en": "Golgappe? Pani puri?" },
+      { "speaker": "Emma", "native": "हाँ, वही! और क़सम से, इतने तीखे थे कि आँखों से पानी आ गया।", "roman": "hāṃ, vahī! aur qasam se, itne tīkhe the ki āṃkhoṃ se pānī ā gayā.", "en": "Yes, those! And I swear, they were so spicy my eyes were streaming." },
+      { "speaker": "Rohit", "native": "हाय! फिर?", "roman": "hāy! phir?", "en": "Oh no! Then what?" },
+      { "speaker": "Emma", "native": "फिर क्या, दस और खाए! पर रुको, तीखा और मसालेदार एक ही चीज़ है ना?", "roman": "phir kyā, das aur khāye! par ruko, tīkhā aur masāledār ek hī chīz hai nā?", "en": "Then what — I ate ten more! But wait, 'tikha' and 'masaledar' are the same thing, right?" },
+      { "speaker": "Rohit", "native": "नहीं-नहीं। तीखा मतलब मिर्च वाला। मसालेदार मतलब बहुत सारे मसाले।", "roman": "nahīṃ-nahīṃ. tīkhā matlab mirch vālā. masāledār matlab bahut sāre masāle.", "en": "No, no. 'Tikha' means hot, with chilli. 'Masaledar' means lots of spices." },
+      { "speaker": "Emma", "native": "एक मिनट, फिर से बोलना? आख़िरी वाली बात समझ में नहीं आई।", "roman": "ek minaṭ, phir se bolnā? āxirī vālī bāt samajh meṃ nahīṃ āī.", "en": "Hang on, say that again? I didn't get the last bit." },
+      { "speaker": "Rohit", "native": "मतलब, खाने में मसाले बहुत हों, तो भी ज़रूरी नहीं कि वो तीखा हो। समझी?", "roman": "matlab, khāne meṃ masāle bahut hoṃ, to bhī zarūrī nahīṃ ki vo tīkhā ho. samjhī?", "en": "I mean, food can have lots of spices and still not be hot. Got it?" },
+      { "speaker": "Emma", "native": "हम्म… समझ गई। चलो, आज मैं तुम्हें गोलगप्पे खिलाती हूँ — पैसे-वैसे की बात मत करना!", "roman": "hmm… samajh gaī. chalo, āj maiṃ tumheṃ golgappe khilātī hūṃ — paise-vaise kī bāt mat karnā!", "en": "Hmm… got it. Come on, today the golgappe are on me — don't even talk about money!" },
+      { "speaker": "Rohit", "native": "वाह! यह हुई ना बात!", "roman": "vāh! yah huī nā bāt!", "en": "Wow! Now you're talking!" }
+    ]
+  },
+  "culture": "Urban Hindi is happily mixed with English — **Hinglish** — and a learner who says *actually*, *seriously* or *basically* in the middle of a Hindi sentence sounds more natural, not less. The grammar stays Hindi: *plan* **कैंसल कर दिया**, *bore* **हो गया**, *meeting* **में हूँ**. Formal Hindi (news, official letters) avoids this, but at a chai stall nobody speaks like the news.\n\nThe tone of a few small words carries a lot. **अच्छा** can mean 'OK', 'I see', 'really?' or 'oh, is that so' depending on how you say it; **हाँ जी** and **जी** on the phone show respect; **ना** makes a request warm. Slang varies by city: Delhi has **सच्ची**, **भाई**, **पका मत** 'don't bore me'; Mumbai has **झकास** 'awesome', **बिंदास** 'carefree', **भिड़ू** 'mate'. People are delighted when a foreigner speaks Hindi, and nobody minds you asking **X मतलब?** or **फिर से बोलना?** — it's how everyone keeps a conversation going.",
+  "lessons": [
+    {
+      "title": "Reacting like a local",
+      "tip": { "title": "Reactions", "body": "- **वाह!** delight · **हाय!** sympathy ('oh no!') · **उफ़!** annoyance, heat · **छी!** disgust · **धत्!** 'damn!'\n- **कमाल है!** / **ग़ज़ब!** — amazing (or outrageous).\n- **अरे बाप रे!** — oh my God!\n- Tone matters: the same word can be warm, shocked or sarcastic." },
+      "new": ["वाह", "हाय", "उफ़", "छी", "धत्", "कमाल", "ग़ज़ब", "अरे बाप रे!", "कमाल है!"],
+      "sentences": [
+        { "native": "वाह, क्या खाना बना है!", "roman": "vāh, kyā khānā banā hai!", "en": "Wow, what a meal!" },
+        { "native": "हाय, बेचारा! फिर क्या हुआ?", "roman": "hāy, bechārā! phir kyā huā?", "en": "Oh no, poor guy! Then what happened?" },
+        { "native": "उफ़, यह ट्रैफ़िक कब ख़त्म होगा!", "roman": "uf, yah ṭraifik kab xatm hogā!", "en": "Ugh, when will this traffic end!" },
+        { "native": "छी, यह दूध ख़राब हो गया है।", "roman": "chhī, yah dūdh xarāb ho gayā hai.", "en": "Yuck, this milk has gone off." },
+        { "native": "धत्, मेरी बस छूट गई!", "roman": "dhat, merī bas chhūṭ gaī!", "en": "Damn, I missed my bus!" },
+        { "native": "कमाल कर दिया तुमने!", "roman": "kamāl kar diyā tumne!", "en": "You were brilliant!" },
+        { "native": "आज ग़ज़ब की गर्मी है।", "roman": "āj ġazab kī garmī hai.", "en": "It's unbelievably hot today." },
+        { "native": "वाह, यह तो ग़ज़ब हो गया!", "roman": "vāh, yah to ġazab ho gayā!", "en": "Wow, that's incredible!" }
+      ]
+    },
+    {
+      "title": "Right? Isn't it?",
+      "tip": { "title": "है ना? — the one Hindi tag", "body": "- Statement + **है ना?** or **ना?** = isn't it? / won't you? / didn't she?: तुम कल आओगे **ना?**\n- After a command, **ना** coaxes: बताओ **ना!** 'come on, tell me!'\n- Don't mix it up with **नहीं** before the verb, which negates.", "pattern": "… + ना?  ·  … , है ना?", "grammar": 0 },
+      "new": ["ना", "सच्ची", "हम्म", "क़सम", "है ना?", "सही में?", "क़सम से!"],
+      "sentences": [
+        { "native": "आज बहुत गर्मी है, है ना?", "roman": "āj bahut garmī hai, hai nā?", "en": "It's really hot today, isn't it?", "focus": "ना", "wrong": ["ही|hī", "भी|bhī"] },
+        { "native": "तुम कल आओगे ना?", "roman": "tum kal āoge nā?", "en": "You'll come tomorrow, won't you?", "focus": "ना", "wrong": ["ही|hī", "भी|bhī"] },
+        { "native": "बताओ ना, क्या हुआ?", "roman": "batāo nā, kyā huā?", "en": "Come on, tell me, what happened?", "focus": "ना", "wrong": ["ही|hī", "भी|bhī"] },
+        { "native": "मज़ा आया ना?", "roman": "mazā āyā nā?", "en": "That was fun, wasn't it?", "focus": "ना", "wrong": ["ही|hī", "तो|to"] },
+        { "native": "यह वाला ज़्यादा अच्छा है ना?", "roman": "yah vālā zyādā achchhā hai nā?", "en": "This one's better, isn't it?", "focus": "ना", "wrong": ["ही|hī", "भी|bhī"] },
+        { "native": "चलो ना, बस दस मिनट के लिए।", "roman": "chalo nā, bas das minaṭ ke liye.", "en": "Oh come on, just for ten minutes.", "focus": "ना", "wrong": ["ही|hī", "भी|bhī"] },
+        { "native": "सच्ची? तुमने उससे बात की?", "roman": "sachchī? tumne usse bāt kī?", "en": "Seriously? You talked to him?" },
+        { "native": "क़सम से, मैंने कुछ नहीं किया!", "roman": "qasam se, maiṃne kuchh nahīṃ kiyā!", "en": "I swear, I didn't do anything!" },
+        { "native": "हम्म, मुझे ऐसा नहीं लगता।", "roman": "hmm, mujhe aisā nahīṃ lagtā.", "en": "Hmm, I don't think so." }
+      ]
+    },
+    {
+      "title": "Adding emphasis",
+      "tip": { "title": "ही, तो, भी — after the word they stress", "body": "- **ही** = only / exactly: मैं तो कल **ही** आया 'I only came yesterday'. यह + ही = **यही**, वह + ही = **वही**.\n- **तो** = as for / really: तुम **तो** कमाल हो!\n- **भी** = also / even: एक **भी** नहीं 'not even one'.\n- **भला** starts a rhetorical question: **भला** मैं क्यों जाऊँ?", "pattern": "word + ही / तो / भी", "grammar": 1 },
+      "new": ["ही", "भला", "एकदम", "मस्त", "बंदा", "ऐसे ही", "कुछ नहीं, ऐसे ही।"],
+      "sentences": [
+        { "native": "मैं तो कल ही आया हूँ।", "roman": "maiṃ to kal hī āyā hūṃ.", "en": "I only got here yesterday.", "focus": "ही", "wrong": ["भी|bhī", "तो|to"] },
+        { "native": "बस, यही चाहिए था!", "roman": "bas, yahī chāhiye thā!", "en": "That is exactly what I needed!", "focus": "यही", "wrong": ["यह|yah", "यहाँ|yahāṃ"] },
+        { "native": "मुझे तो पता ही नहीं था।", "roman": "mujhe to patā hī nahīṃ thā.", "en": "I had no idea at all.", "focus": "ही", "wrong": ["भी|bhī", "तो|to"] },
+        { "native": "भला मैं झूठ क्यों बोलूँ?", "roman": "bhalā maiṃ jhūṭh kyoṃ bolūṃ?", "en": "Why on earth would I lie?", "focus": "भला", "wrong": ["ही|hī", "भी|bhī"] },
+        { "native": "एक भी टिकट नहीं बचा।", "roman": "ek bhī ṭikaṭ nahīṃ bachā.", "en": "There isn't a single ticket left.", "focus": "भी", "wrong": ["ही|hī", "तो|to"] },
+        { "native": "तुम तो कमाल हो यार!", "roman": "tum to kamāl ho yār!", "en": "You're amazing, mate!", "focus": "तो", "wrong": ["ही|hī", "भी|bhī"] },
+        { "native": "खाना एकदम मस्त था!", "roman": "khānā ekdam mast thā!", "en": "The food was totally awesome!" },
+        { "native": "बंदा अच्छा है, पर बहुत बोलता है।", "roman": "bandā achchhā hai, par bahut boltā hai.", "en": "He's a nice guy, but he talks a lot." },
+        { "native": "मैंने ऐसे ही फ़ोन किया था, कोई ख़ास बात नहीं।", "roman": "maiṃne aise hī fon kiyā thā, koī xās bāt nahīṃ.", "en": "I just called for no reason, nothing special." }
+      ]
+    },
+    {
+      "title": "Tea or something: echo words",
+      "tip": { "title": "चाय-वाय — echo words", "body": "- Repeat a word with **व** in place of its first sound: **चाय-वाय** 'tea or something', **पैसे-वैसे** 'money and all that'.\n- Friendly and casual, or dismissive with a negative.\n- Doubled words: **कौन-कौन** 'who all', **क्या-क्या** 'what all', **धीरे-धीरे** 'little by little'.", "pattern": "X + व-X", "grammar": 2 },
+      "new": ["थोड़ा-बहुत", "तरह", "चाय-वाय पियोगे?", "यह एक तरह की मिठाई है।"],
+      "sentences": [
+        { "native": "चलो, कहीं बाहर खाना-वाना खाते हैं।", "roman": "chalo, kahīṃ bāhar khānā-vānā khāte haiṃ.", "en": "Come on, let's go out and get some food or something." },
+        { "native": "मुझे डॉक्टर-वॉक्टर की ज़रूरत नहीं, बस आराम चाहिए।", "roman": "mujhe ḍokṭar-vokṭar kī zarūrat nahīṃ, bas ārām chāhiye.", "en": "I don't need a doctor or anything, I just need rest." },
+        { "native": "बाज़ार से क्या-क्या लाना है?", "roman": "bāzār se kyā-kyā lānā hai?", "en": "What all do we need from the market?" },
+        { "native": "शादी में कौन-कौन आया था?", "roman": "shādī meṃ kaun-kaun āyā thā?", "en": "Who all came to the wedding?" },
+        { "native": "पैसे-वैसे बाद में देख लेंगे।", "roman": "paise-vaise bād meṃ dekh leṃge.", "en": "We'll sort out the money and all that later." },
+        { "native": "मैं थोड़ा-बहुत पंजाबी भी समझ लेता हूँ।", "roman": "maiṃ thoṛā-bahut panjābī bhī samajh letā hūṃ.", "en": "I can understand a bit of Punjabi too." },
+        { "native": "हर तरह के लोग आए थे।", "roman": "har tarah ke log āye the.", "en": "All kinds of people came." },
+        { "native": "कभी-कभी मुझे भी ऐसा लगता है।", "roman": "kabhī-kabhī mujhe bhī aisā lagtā hai.", "en": "Sometimes I feel that way too." }
+      ]
+    },
+    {
+      "title": "Didn't catch that",
+      "tip": { "title": "Keeping the conversation going", "body": "- Didn't catch it: **एक मिनट, क्या कहा?** · **फिर से बोलना?** · **समझ में नहीं आया**.\n- Forgot the word? Describe it: **वो क्या कहते हैं…**, **एक तरह की …**, **ऐसी …-सी चीज़**.\n- What does it mean? **X मतलब?** or **X का मतलब क्या होता है?**" },
+      "new": ["टोकना", "लहजा", "एक मिनट, क्या कहा?", "फिर से बोलना?", "समझ में नहीं आया।", "वो क्या कहते हैं…", "बीच में टोकने के लिए सॉरी।"],
+      "sentences": [
+        { "native": "सॉरी, समझ में नहीं आया, थोड़ा धीरे बोलोगे?", "roman": "sorī, samajh meṃ nahīṃ āyā, thoṛā dhīre bologe?", "en": "Sorry, I didn't get that, could you speak a bit slower?" },
+        { "native": "एक मिनट, तकल्लुफ़ मतलब क्या?", "roman": "ek minaṭ, takalluf matlab kyā?", "en": "Hang on, what does 'takalluf' mean?" },
+        { "native": "वो क्या कहते हैं… हाँ, रसीद! रसीद चाहिए।", "roman": "vo kyā kahte haiṃ… hāṃ, rasīd! rasīd chāhiye.", "en": "What's the word… yes, receipt! I need a receipt." },
+        { "native": "मुझे इसका हिंदी नाम नहीं पता, बस ऐसी गोल-सी चीज़ है।", "roman": "mujhe iskā hindī nām nahīṃ patā, bas aisī gol-sī chīz hai.", "en": "I don't know what it's called in Hindi, it's this sort of roundish thing." },
+        { "native": "मुझे मत टोको, पहले पूरी बात सुनो।", "roman": "mujhe mat ṭoko, pahle pūrī bāt suno.", "en": "Don't interrupt me, hear me out first." },
+        { "native": "उसका लहजा बिल्कुल दिल्ली वालों जैसा है।", "roman": "uskā lahjā bilkul Dillī vāloṃ jaisā hai.", "en": "Her accent is just like a Delhiite's." },
+        { "native": "तुम्हारा लहजा तो बिल्कुल यहीं का लगता है!", "roman": "tumhārā lahjā to bilkul yahīṃ kā lagtā hai!", "en": "Your accent sounds totally local!" },
+        { "native": "बीच में टोकना अच्छी बात नहीं है।", "roman": "bīch meṃ ṭoknā achchhī bāt nahīṃ hai.", "en": "It's not nice to interrupt." }
+      ]
+    },
+    {
+      "title": "Mixing in English",
+      "tip": { "title": "Hinglish the way people speak it", "body": "- Urban Hindi mixes in English freely: **एक्चुअली, बेसिकली, सीरियसली**.\n- English words keep Hindi grammar: मीटिंग **में**, बोर **हो गया**, प्लान कैंसल **कर दिया**.\n- English verbs come in with **करना / होना**: मिस **करना**, कॉल **करना**.\n- In formal Hindi (news, letters) people mix much less." },
+      "new": ["एक्चुअली", "बेसिकली", "सीरियसली", "मिलाना", "बोलचाल"],
+      "sentences": [
+        { "native": "एक्चुअली, मैं आज नहीं आ पाऊँगा।", "roman": "ekchualī, maiṃ āj nahīṃ ā pāūṃgā.", "en": "Actually, I won't be able to come today." },
+        { "native": "सीरियसली? तुमने फिर से प्लान कैंसल कर दिया?", "roman": "sīriyaslī? tumne phir se plān kainsal kar diyā?", "en": "Seriously? You cancelled the plan again?" },
+        { "native": "बेसिकली, हमें कल तक सब ख़त्म करना है।", "roman": "besikalī, hameṃ kal tak sab xatm karnā hai.", "en": "Basically, we have to finish everything by tomorrow." },
+        { "native": "हम लोग बोलचाल में बहुत अंग्रेज़ी मिलाते हैं।", "roman": "ham log bolchāl meṃ bahut aṅgrezī milāte haiṃ.", "en": "We mix a lot of English into everyday speech." },
+        { "native": "बोलचाल की हिंदी किताबों वाली हिंदी से अलग है।", "roman": "bolchāl kī hindī kitāboṃ vālī hindī se alag hai.", "en": "Spoken Hindi is different from textbook Hindi." },
+        { "native": "सीरियसली यार, मैं तुम्हें बहुत मिस कर रहा हूँ।", "roman": "sīriyaslī yār, maiṃ tumheṃ bahut mis kar rahā hūṃ.", "en": "Seriously, mate, I really miss you." },
+        { "native": "चाय में चीनी मत मिलाना।", "roman": "chāy meṃ chīnī mat milānā.", "en": "Don't put sugar in the tea." },
+        { "native": "मैं बोर हो रहा हूँ, बेसिकली करने को कुछ नहीं है।", "roman": "maiṃ bor ho rahā hūṃ, besikalī karne ko kuchh nahīṃ hai.", "en": "I'm bored, there's basically nothing to do." }
+      ]
+    }
+  ]
+}

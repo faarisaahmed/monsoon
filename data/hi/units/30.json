@@ -1,0 +1,215 @@
+{
+  "id": 30,
+  "title": "Feelings & support",
+  "goal": "Notice when a friend is down and comfort them, say sorry and mean it, congratulate someone properly and offer condolences.",
+  "intro": "Friendships are made in the moments when something goes wrong — or very right. This unit gives you what people really say when a friend is stressed (**टेंशन मत ले, यार**), hurt (**इसे दिल पर मत लो**), grieving (**यह सुनकर बहुत दुख हुआ**) or celebrating (**मुझे तुम पर गर्व है!**).\n\nOn the grammar side you'll see how Hindi lets feelings *happen to* you (**मुझे हँसी आ गई** 'I burst out laughing'), how to say *as soon as, while* and *until*, and the very Hindi way of owning up to a mistake without sounding like you planned it: **मुझसे ग़लती हो गई**.",
+  "vocab": [
+    { "native": "टेंशन", "roman": "ṭenshan", "en": "stress, worry (informal)", "pos": "noun", "note": "f · English 'tension', the everyday word for stress: मुझे टेंशन हो रही है 'I'm stressed', टेंशन मत लो 'don't stress'. Formal: तनाव tanāv (m)." },
+    { "native": "फ़िक्र", "roman": "fikr", "en": "worry, concern", "pos": "noun", "note": "f · फ़िक्र मत करो \"don't worry\" — a little warmer than चिंता. Youth slang: \"फ़िक्र नॉट\" (fikr not)." },
+    { "native": "दुख", "roman": "dukh", "en": "sadness, grief, pain", "pos": "noun", "note": "m · मुझे दुख हुआ \"I was saddened\". दुखी dukhī \"sad\" (adj)." },
+    { "native": "अफ़सोस", "roman": "afsos", "en": "regret; sorrow", "pos": "noun", "note": "m · मुझे अफ़सोस है \"I regret it / I'm sorry (about it)\". Also used in condolences." },
+    { "native": "हँसी", "roman": "haṃsī", "en": "laughter, a laugh", "pos": "noun", "note": "f · मुझे हँसी आ गई \"I burst out laughing / I couldn't help laughing\"." },
+    { "native": "जलन", "roman": "jalan", "en": "jealousy; a burning feeling", "pos": "noun", "note": "f · मुझे जलन हो रही है \"I'm jealous\" — often said jokingly to a friend with good news." },
+    { "native": "नर्वस", "roman": "narvas", "en": "nervous", "pos": "adj", "note": "invariable · English loan, very common: मैं नर्वस हूँ." },
+    { "native": "घबराना", "roman": "ghabrānā", "en": "to panic, get nervous, be flustered", "pos": "verb", "note": "घबराओ मत \"don't panic\" · मैं घबरा गया \"I panicked\"." },
+    { "native": "हिम्मत", "roman": "himmat", "en": "courage, nerve", "pos": "noun", "note": "f · हिम्मत मत हारो \"don't lose heart\" · हिम्मत रखो \"be brave\"." },
+    { "native": "हौसला", "roman": "hauslā", "en": "spirit, morale, encouragement", "pos": "noun", "note": "m · हौसला रखो \"keep your chin up\" · हौसला बढ़ाना \"to encourage\"." },
+    { "native": "चिल", "roman": "chil", "en": "chill, relax (slang)", "pos": "adj", "note": "English 'chill', used by young people: चिल कर/करो 'chill out', सब चिल है 'it's all fine'. Too casual for elders." },
+    { "native": "संभालना", "roman": "sambhālnā", "en": "to handle, take care of; to hold together", "pos": "verb", "note": "ख़ुद को संभालो \"pull yourself together\" · मैं संभाल लूँगा \"I'll handle it\". Also spelled सँभालना." },
+    { "native": "सुकून", "roman": "sukūn", "en": "peace of mind, relief, calm", "pos": "noun", "note": "m · सुकून मिला \"I felt at peace / relieved\". Also राहत rāhat (f) \"relief\"." },
+    { "native": "गले लगाना", "roman": "gale lagānā", "en": "to hug", "pos": "verb", "note": "X को गले लगाना \"to hug X\" (lit. to attach to the neck). गले मिलना \"to embrace (each other)\", e.g. at Eid." },
+    { "native": "ग़लती", "roman": "ġaltī", "en": "mistake", "pos": "noun", "note": "f · often pronounced galtī · मुझसे ग़लती हो गई \"I made a mistake\" · ग़लती से \"by mistake\"." },
+    { "native": "माफ़", "roman": "māf", "en": "forgiven, pardoned", "pos": "adj", "note": "माफ़ करना \"to forgive\": मुझे माफ़ कर दो \"forgive me\" · माफ़ किया \"(you're) forgiven\". Compare माफ़ी \"apology\" (unit 1)." },
+    { "native": "जान-बूझकर", "roman": "jān-būjhkar", "en": "on purpose, deliberately", "pos": "adv", "note": "मैंने जान-बूझकर नहीं किया \"I didn't do it on purpose\". The opposite: ग़लती से \"by mistake\"." },
+    { "native": "दिल दुखाना", "roman": "dil dukhānā", "en": "to hurt someone's feelings", "pos": "verb", "note": "X का दिल दुखाना \"to hurt X\" (lit. to pain X's heart). मेरा दिल दुखा \"I was hurt\"." },
+    { "native": "डाँटना", "roman": "ḍāṃṭnā", "en": "to scold, tell off", "pos": "verb", "note": "takes ने in the past: माँ ने मुझे डाँटा \"Mum told me off\". डाँट ḍāṃṭ (f) \"a telling-off\"." },
+    { "native": "रूठना", "roman": "rūṭhnā", "en": "to sulk, be in a huff (with someone)", "pos": "verb", "note": "X से रूठना · वह मुझसे रूठी हुई है \"she's sulking with me\". Usually between people who are close." },
+    { "native": "मनाना", "roman": "manānā", "en": "to win over, coax back; to celebrate", "pos": "verb", "note": "उसे मनाना पड़ेगा \"I'll have to make up with her / talk her round\". Also त्योहार मनाना \"to celebrate a festival\"." },
+    { "native": "पछताना", "roman": "pachhtānā", "en": "to regret, be sorry later", "pos": "verb", "note": "बाद में पछताओगे \"you'll regret it later\"." },
+    { "native": "ख़ुशख़बरी", "roman": "xushxabarī", "en": "good news", "pos": "noun", "note": "f · एक ख़ुशख़बरी है! \"I've got some good news!\" Often pronounced khushkhabrī." },
+    { "native": "प्रमोशन", "roman": "pramoshan", "en": "promotion (at work)", "pos": "noun", "note": "m · मेरा प्रमोशन हो गया \"I got promoted\". Formal: पदोन्नति." },
+    { "native": "गर्व", "roman": "garv", "en": "pride", "pos": "noun", "note": "m · मुझे तुम पर गर्व है \"I'm proud of you\" — note पर. Many people also say प्राउड: आई एम प्राउड ऑफ़ यू." },
+    { "native": "ब्रेकअप", "roman": "brekap", "en": "break-up", "pos": "noun", "note": "m · उसका ब्रेकअप हो गया \"they broke up\". Everyone uses the English word." },
+    { "native": "गुज़र जाना", "roman": "guzar jānā", "en": "to pass away", "pos": "verb", "note": "the gentle, respectful way to say someone died; use the plural for respect: दादा जी गुज़र गए. Blunter: मर जाना \"to die\"." },
+    { "native": "आत्मा", "roman": "ātmā", "en": "soul", "pos": "noun", "note": "f · in the Hindu condolence formula भगवान उनकी आत्मा को शांति दे." },
+    { "native": "शांति", "roman": "shānti", "en": "peace", "pos": "noun", "note": "f · ॐ शांति \"om shanti\" is a common message on hearing of a death." }
+  ],
+  "phrases": [
+    { "native": "क्या हुआ, सब ठीक तो है?", "roman": "kyā huā, sab ṭhīk to hai?", "en": "What happened — is everything OK?", "note": "तो here softens and adds concern: \"everything is OK, isn't it?\"" },
+    { "native": "मैं हूँ ना।", "roman": "maiṃ hūṃ nā.", "en": "I'm here for you. (lit. I'm here, aren't I?)", "note": "The classic line of reassurance between friends and family." },
+    { "native": "टेंशन मत ले, यार।", "roman": "ṭenshan mat le, yār.", "en": "Don't stress, mate. (very informal)", "note": "तू form; with तुम: टेंशन मत लो." },
+    { "native": "इसे दिल पर मत लो।", "roman": "ise dil par mat lo.", "en": "Don't take it to heart.", "note": "Fast speech: दिल पे मत लो (dil pe)." },
+    { "native": "हिम्मत मत हारो।", "roman": "himmat mat hāro.", "en": "Don't lose heart. / Don't give up." },
+    { "native": "मुझे बहुत बुरा लगा।", "roman": "mujhe bahut burā lagā.", "en": "I felt really bad. / That really hurt me." },
+    { "native": "मुझसे ग़लती हो गई।", "roman": "mujhse ġaltī ho gaī.", "en": "I made a mistake. / It was my fault." },
+    { "native": "प्लीज़ मुझे माफ़ कर दो।", "roman": "plīz mujhe māf kar do.", "en": "Please forgive me. (to a friend)", "note": "Polite: मुझे माफ़ कर दीजिए." },
+    { "native": "मेरा वो मतलब नहीं था।", "roman": "merā vo matlab nahīṃ thā.", "en": "I didn't mean it like that.", "note": "वो vo is the everyday spoken form of वह; written Hindi prefers वह." },
+    { "native": "कोई बात नहीं, होता है।", "roman": "koī bāt nahīṃ, hotā hai.", "en": "No worries, it happens.", "note": "The easy-going reply to an apology between friends." },
+    { "native": "अरे वाह, बहुत-बहुत बधाई!", "roman": "are vāh, bahut-bahut badhāī!", "en": "Oh wow, congratulations!" },
+    { "native": "मुझे तुम पर गर्व है।", "roman": "mujhe tum par garv hai.", "en": "I'm proud of you." },
+    { "native": "यह सुनकर बहुत दुख हुआ।", "roman": "yah sunkar bahut dukh huā.", "en": "I'm so sorry to hear that. (lit. hearing this, much sorrow happened)" },
+    { "native": "भगवान उनकी आत्मा को शांति दे।", "roman": "bhagvān unkī ātmā ko shānti de.", "en": "May God grant his/her soul peace.", "note": "Hindu condolence. Muslims say अल्लाह मग़फ़िरत करे (allāh maġfirat kare) \"may God forgive him/her\"." },
+    { "native": "कोई बात हो तो बताना।", "roman": "koī bāt ho to batānā.", "en": "If anything comes up, let me know." },
+    { "native": "अपना ध्यान रखना।", "roman": "apnā dhyān rakhnā.", "en": "Take care of yourself. (informal)", "note": "Polite: अपना ध्यान रखिए / रखिएगा." }
+  ],
+  "grammar": [
+    {
+      "title": "Feelings that happen to you: मुझे दुख हुआ, मुझे हँसी आ गई",
+      "body": "In unit 14 you met **मुझे ग़ुस्सा आता है** 'I get angry'. Hindi treats many feelings not as something *you* do but as something that **happens to you**. The person who feels takes **को** (मुझे, तुम्हें, उसे, उन्हें), the feeling is the grammatical subject, and the verb agrees with the **feeling**, not with you.\n\nThree verbs do most of the work:\n\n**आना** 'come' — a feeling that wells up: **हँसी** आना 'to laugh', **रोना** आना 'to feel like crying', **ग़ुस्सा** आना 'to get angry', **X की याद** आना 'to miss X', **नींद** आना 'to feel sleepy'.\n**लगना** 'strike, seem' — an impression: **बुरा** लगना 'to feel hurt / bad', **अच्छा** लगना 'to like, feel nice', **डर** लगना 'to be scared', **अजीब** लगना 'to feel weird'.\n**होना** 'happen' — an emotion that occurs: **दुख** होना 'to feel sad', **अफ़सोस** होना 'to regret', **ख़ुशी** होना 'to be glad', **जलन** होना 'to be jealous', **टेंशन** होना 'to feel stressed'.\n\nFor a feeling that comes **suddenly**, add जाना: मुझे हँसी **आ गई** 'I burst out laughing', मुझे रोना **आ गया** 'I started crying'. For one that is going on right now, use the continuous: मुझे घर की याद **आ रही है** 'I'm missing home'.\n\nThe cause takes **से** or comes as a 'hearing / seeing' phrase: उसकी बात **से** मुझे बुरा लगा 'what he said hurt me', यह **सुनकर** दुख हुआ 'I was sad to hear this'.\n\n**The trap:** never मैं बुरा लगा or मैं दुख हुआ. And watch the agreement — it follows the feeling's gender: मुझे दुख हुआ (दुख m), मुझे ख़ुशी हुई (ख़ुशी f), मुझे हँसी आई (f), मुझे ग़ुस्सा आया (m).",
+      "examples": [
+        { "native": "उसकी बात से मुझे बहुत बुरा लगा।", "roman": "uskī bāt se mujhe bahut burā lagā.", "en": "What he said really hurt me." },
+        { "native": "फ़िल्म देखकर मुझे रोना आ गया।", "roman": "film dekhkar mujhe ronā ā gayā.", "en": "The film made me cry." },
+        { "native": "क्या तुम्हें घर की याद आती है?", "roman": "kyā tumheṃ ghar kī yād ātī hai?", "en": "Do you miss home?" },
+        { "native": "उसे अपनी ग़लती पर अफ़सोस है।", "roman": "use apnī ġaltī par afsos hai.", "en": "He regrets his mistake." },
+        { "native": "तुम्हारी ख़ुशख़बरी सुनकर हमें बहुत ख़ुशी हुई।", "roman": "tumhārī xushxabarī sunkar hameṃ bahut xushī huī.", "en": "We were so happy to hear your good news." }
+      ]
+    },
+    {
+      "title": "'As soon as', 'while' and 'until': -ते ही, -ते हुए, जब तक",
+      "body": "Three compact patterns let you link two actions in time, and they all start from the **-ते** form of the verb (stem + ते: करते, सुनते, देखते, पहुँचते).\n\n**-ते ही — as soon as**\nverb-ते + **ही**: घर **पहुँचते ही** फ़ोन करना 'call as soon as you get home'. यह सुनते ही मैं घबरा गया 'as soon as I heard it I panicked'. This is the short, everyday version of जैसे ही … वैसे ही (unit 20).\n\n**-ते हुए — while (doing)**\nverb-ते + **हुए**: गाड़ी **चलाते हुए** फ़ोन मत देखो 'don't look at your phone while driving'. Both actions belong to the same person. Doubling the verb (**-ते-ते**) means 'while … (for a while), in the middle of': बात **करते-करते** वह रो पड़ी 'she started crying in the middle of talking'.\n\n**जब तक — as long as / until**\n**जब तक** … (**तब तक**) … 'as long as … (till then) …': जब तक मैं यहाँ हूँ, तुम्हें कोई टेंशन नहीं 'as long as I'm here, you've nothing to worry about'.\n**The trap:** to say *until*, Hindi uses a **negative** in the जब तक clause — literally 'as long as X hasn't happened': जब तक तुम माफ़ी **नहीं** माँगोगे, मैं बात नहीं करूँगी 'until you apologise, I won't talk to you'. Leave out that नहीं and the sentence means the opposite.\n\nWith a time or a place, 'until' is simply the postposition **तक**: शाम **तक**, घर **तक**.",
+      "examples": [
+        { "native": "घर पहुँचते ही मुझे फ़ोन कर देना।", "roman": "ghar pahuṃchte hī mujhe fon kar denā.", "en": "Give me a call as soon as you get home." },
+        { "native": "मुझे देखते ही वह हँसने लगी।", "roman": "mujhe dekhte hī vah haṃsne lagī.", "en": "The moment she saw me, she started laughing." },
+        { "native": "रोते हुए उसने सारी बात बताई।", "roman": "rote hue usne sārī bāt batāī.", "en": "Crying, she told me the whole story." },
+        { "native": "हँसते-हँसते मेरे पेट में दर्द हो गया।", "roman": "haṃste-haṃste mere peṭ meṃ dard ho gayā.", "en": "I laughed so much my stomach hurt." },
+        { "native": "जब तक तुम ठीक नहीं हो जाते, मैं यहीं हूँ।", "roman": "jab tak tum ṭhīk nahīṃ ho jāte, maiṃ yahīṃ hūṃ.", "en": "I'm staying right here until you're better." },
+        { "native": "मैं शाम तक तुम्हारे साथ रहूँगी।", "roman": "maiṃ shām tak tumhāre sāth rahūṃgī.", "en": "I'll stay with you until the evening." }
+      ]
+    },
+    {
+      "title": "Owning a mistake: मुझसे ग़लती हो गई",
+      "body": "Hindi has two ways to say 'I made a mistake', and the difference is about intention.\n\n**मैंने ग़लती की** — the ने past of करना: *I made a mistake*. Plain and factual.\n**मुझसे ग़लती हो गई** — literally 'a mistake happened **from me**'. The doer takes **से**, the verb is होना/जाना, and the whole sentence says *I did it, but I didn't mean to*. This is the form people use when they apologise.\n\nThe same **मुझसे + intransitive verb** pattern covers any accident: **मुझसे** गिलास टूट गया 'I (accidentally) broke the glass' — compare मैंने गिलास तोड़ा 'I broke the glass' (sounds deliberate). In the negative it means *I can't bring myself to / I just can't*: **मुझसे नहीं होगा** 'I can't do it', **मुझसे** खाया नहीं जा रहा 'I can't eat (I'm too upset)'.\n\nA ladder of apologies, light to heavy:\n**सॉरी / सॉरी यार** — bumping into someone, being late.\n**मुझसे ग़लती हो गई** — owning up.\n**मुझे माफ़ कर दो / कर दीजिए** — asking forgiveness for something that hurt.\n**मैं माफ़ी चाहता/चाहती हूँ** — formal; work, elders, letters.\n\nAdd **मैंने जान-बूझकर नहीं किया** 'I didn't do it on purpose' or **मेरा वो मतलब नहीं था** 'I didn't mean it like that'. The usual replies: **कोई बात नहीं**, **चलो, छोड़ो** 'forget it', **माफ़ किया** 'forgiven'.",
+      "examples": [
+        { "native": "सॉरी, मुझसे तुम्हारी कॉफ़ी गिर गई।", "roman": "sorī, mujhse tumhārī kofī gir gaī.", "en": "Sorry, I knocked over your coffee." },
+        { "native": "मैंने बहुत बड़ी ग़लती की।", "roman": "maiṃne bahut baṛī ġaltī kī.", "en": "I made a big mistake." },
+        { "native": "मुझसे यह काम नहीं होगा।", "roman": "mujhse yah kām nahīṃ hogā.", "en": "I can't do this job." },
+        { "native": "ग़लती से मैंने उसका मैसेज डिलीट कर दिया।", "roman": "ġaltī se maiṃne uskā maisej ḍilīṭ kar diyā.", "en": "I deleted her message by mistake." },
+        { "native": "मैं आपसे माफ़ी चाहती हूँ।", "roman": "maiṃ āpse māfī chāhtī hūṃ.", "en": "I apologise to you. (woman, formal)" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A bad day at the chai stall",
+    "setting": "Kabir finds his friend Ananya sitting quietly at their usual chai stall in Lajpat Nagar, Delhi, after a job she wanted fell through.",
+    "lines": [
+      { "speaker": "Kabir", "native": "अरे अनन्या, क्या हुआ? सब ठीक तो है?", "roman": "are Ananyā, kyā huā? sab ṭhīk to hai?", "en": "Hey Ananya, what happened? Is everything OK?" },
+      { "speaker": "Ananya", "native": "कुछ नहीं… बस, उस कंपनी से ईमेल आया। उन्होंने मुझे नहीं लिया।", "roman": "kuchh nahīṃ… bas, us kampanī se īmel āyā. unhoṃne mujhe nahīṃ liyā.", "en": "Nothing… it's just, the email came from that company. They didn't take me." },
+      { "speaker": "Kabir", "native": "ओह, यह सुनकर बहुत बुरा लगा। तुमने इतनी मेहनत की थी।", "roman": "oh, yah sunkar bahut burā lagā. tumne itnī mehnat kī thī.", "en": "Oh, I'm so sorry to hear that. You worked so hard." },
+      { "speaker": "Ananya", "native": "ईमेल पढ़ते ही मुझे रोना आ गया, यार। ऑफ़िस में सबके सामने!", "roman": "īmel paṛhte hī mujhe ronā ā gayā, yār. ofis meṃ sabke sāmne!", "en": "I burst into tears the second I read it. In the office, in front of everyone!" },
+      { "speaker": "Kabir", "native": "बेचारी… इसे दिल पर मत लो। उनका नुक़सान है।", "roman": "bechārī… ise dil par mat lo. unkā nuqsān hai.", "en": "Poor thing… don't take it to heart. It's their loss." },
+      { "speaker": "Ananya", "native": "और कल रात तुमने मेरा फ़ोन भी नहीं उठाया।", "roman": "aur kal rāt tumne merā fon bhī nahīṃ uṭhāyā.", "en": "And last night you didn't even pick up my call." },
+      { "speaker": "Kabir", "native": "सॉरी, सॉरी! मुझसे ग़लती हो गई। फ़ोन साइलेंट पर था, जान-बूझकर नहीं किया।", "roman": "sorī, sorī! mujhse ġaltī ho gaī. fon sāilenṭ par thā, jān-būjhkar nahīṃ kiyā.", "en": "Sorry, sorry! My fault. The phone was on silent, I didn't do it on purpose." },
+      { "speaker": "Ananya", "native": "हम्म… ठीक है, माफ़ किया। पर आज के समोसे तुम खिलाओगे।", "roman": "hmm… ṭhīk hai, māf kiyā. par āj ke samose tum khilāoge.", "en": "Hmm… fine, forgiven. But today's samosas are on you." },
+      { "speaker": "Kabir", "native": "पक्का! और सुनो, जब तक तुम्हें अच्छी नौकरी नहीं मिलती, मैं रोज़ तुम्हारा सीवी चेक करूँगा।", "roman": "pakkā! aur suno, jab tak tumheṃ achchhī naukrī nahīṃ miltī, maiṃ roz tumhārā sīvī chek karūṃgā.", "en": "Deal! And listen, until you get a good job, I'll check your CV every day." },
+      { "speaker": "Ananya", "native": "रोज़? तुम तो अपने ईमेल भी नहीं पढ़ते!", "roman": "roz? tum to apne īmel bhī nahīṃ paṛhte!", "en": "Every day? You don't even read your own emails!" },
+      { "speaker": "Kabir", "native": "देखा? हँसी आ गई ना! हिम्मत मत हारो, अगली कंपनी तुम्हारी है।", "roman": "dekhā? haṃsī ā gaī nā! himmat mat hāro, aglī kampanī tumhārī hai.", "en": "See? You laughed! Don't lose heart — the next company's yours." },
+      { "speaker": "Ananya", "native": "थैंक यू, कबीर। सच में, तुमसे बात करके बहुत सुकून मिला।", "roman": "thaiṅk yū, Kabīr. sach meṃ, tumse bāt karke bahut sukūn milā.", "en": "Thank you, Kabir. Honestly, talking to you has made me feel so much better." },
+      { "speaker": "Kabir", "native": "मैं हूँ ना। चलो भैया, दो चाय और दो समोसे!", "roman": "maiṃ hūṃ nā. chalo bhaiyā, do chāy aur do samose!", "en": "I'm here for you. Right — bhaiya, two teas and two samosas!" }
+    ]
+  },
+  "culture": "Comfort in Hindi is practical and physical more than wordy. Friends say **मैं हूँ ना** and then *do* something: order chai, turn up at the door, sit with you. Between close friends too many 'thank you's and 'sorry's sound distant — the famous film line **दोस्ती का एक उसूल है मैडम: नो सॉरी, नो थैंक यू** ('friendship has one rule: no sorry, no thank you') is quoted all the time. With elders and at work, apologise more formally (**माफ़ कीजिए**, **मैं माफ़ी चाहता हूँ**).\n\nGood news brings an immediate demand: **पार्टी कब दे रहे हो?** or **ट्रीट चाहिए!** — getting promoted, engaged or passing an exam means you buy the sweets. Saying **मुझे जलन हो रही है** to a friend with good news is a joke and a compliment.\n\nWhen someone dies, people visit the family's home (no flowers or gifts), sit quietly, and say **बहुत दुख हुआ** or simply hold hands. Use the respectful plural for the person who died (**वे गुज़र गए**). On WhatsApp you'll see **ॐ शांति** or *RIP* from Hindus and **इन्ना लिल्लाहि व इन्ना इलैहि राजिऊन** from Muslims. Hindu families observe about thirteen days of mourning (the **तेरहवीं** marks the end), so avoid celebrations with them in that time.",
+  "lessons": [
+    {
+      "title": "Asking what’s wrong",
+      "tip": { "title": "मुझे दुख हुआ — feelings happen to you", "body": "- The person who feels takes **को**: मुझे, तुम्हें, उसे.\n- The feeling is the subject: **हँसी आना** 'laugh', **बुरा लगना** 'feel hurt', **दुख होना** 'feel sad', **जलन होना** 'be jealous'.\n- The verb agrees with the **feeling**: मुझे दुख **हुआ** (m), मुझे हँसी **आई** (f).\n- Never मैं बुरा लगा.", "pattern": "मुझे + feeling + आना / लगना / होना", "grammar": 0 },
+      "new": ["दुख", "अफ़सोस", "हँसी", "जलन", "टेंशन", "नर्वस", "क्या हुआ, सब ठीक तो है?", "मुझे बहुत बुरा लगा।", "यह सुनकर बहुत दुख हुआ।"],
+      "sentences": [
+        { "native": "क्या हुआ, सब ठीक तो है? तुम कुछ परेशान लग रहे हो।", "roman": "kyā huā, sab ṭhīk to hai? tum kuchh pareshān lag rahe ho.", "en": "What happened, is everything OK? You look a bit worried." },
+        { "native": "उसकी बात से मुझे बहुत दुख हुआ।", "roman": "uskī bāt se mujhe bahut dukh huā.", "en": "What she said made me really sad.", "focus": "हुआ", "wrong": ["हुई|huī", "हुए|hue"] },
+        { "native": "सॉरी, मुझे हँसी आ गई!", "roman": "sorī, mujhe haṃsī ā gaī!", "en": "Sorry, I couldn't help laughing!", "focus": "गई", "wrong": ["गया|gayā", "गए|gaye"] },
+        { "native": "क्या तुम्हें बुरा लगा?", "roman": "kyā tumheṃ burā lagā?", "en": "Were you hurt? / Did that upset you?", "focus": "तुम्हें", "wrong": ["तुम|tum", "तुमने|tumne"] },
+        { "native": "मुझे थोड़ी जलन हो रही है!", "roman": "mujhe thoṛī jalan ho rahī hai!", "en": "I'm a little bit jealous!", "focus": "रही", "wrong": ["रहा|rahā", "रहे|rahe"] },
+        { "native": "कल मेरी परीक्षा है, मुझे बहुत टेंशन हो रही है।", "roman": "kal merī parīkṣā hai, mujhe bahut ṭenshan ho rahī hai.", "en": "My exam is tomorrow, I'm really stressed.", "focus": "मुझे", "wrong": ["मैं|maiṃ", "मेरा|merā"] },
+        { "native": "उसे घर की याद आ रही है।", "roman": "use ghar kī yād ā rahī hai.", "en": "She's missing home.", "focus": "रही", "wrong": ["रहा|rahā", "रहे|rahe"] },
+        { "native": "तुम्हें किस बात का अफ़सोस है?", "roman": "tumheṃ kis bāt kā afsos hai?", "en": "What are you sorry about?", "focus": "तुम्हें", "wrong": ["तुम|tum", "तुम्हारा|tumhārā"] },
+        { "native": "मैं थोड़ा नर्वस हूँ, पर ठीक हूँ।", "roman": "maiṃ thoṛā narvas hūṃ, par ṭhīk hūṃ.", "en": "I'm a bit nervous, but I'm OK." },
+        { "native": "जब उसने ऐसा कहा, मुझे बहुत बुरा लगा।", "roman": "jab usne aisā kahā, mujhe bahut burā lagā.", "en": "When he said that, it really hurt.", "focus": "लगा", "wrong": ["लगी|lagī", "लगे|lage"] },
+        { "native": "अरे, यह सुनकर बहुत दुख हुआ। अब वह कैसी है?", "roman": "are, yah sunkar bahut dukh huā. ab vah kaisī hai?", "en": "Oh, I'm so sorry to hear that. How is she now?" }
+      ]
+    },
+    {
+      "title": "Cheering a friend up",
+      "tip": { "title": "Comforting a friend", "body": "- **मत** + command = 'don't': फ़िक्र **मत** करो, घबराओ **मत**.\n- Match the 'you': तू → bare stem (टेंशन मत **ले**), तुम → **-ओ** (मत **लो**), आप → **-इए** (मत **लीजिए**).\n- **ना** at the end adds warmth: **मैं हूँ ना** 'I'm here for you'.\n- **बेचारा / बेचारी** 'poor thing' agrees with the person." },
+      "new": ["फ़िक्र", "हिम्मत", "हौसला", "चिल", "मैं हूँ ना।", "टेंशन मत ले, यार।", "इसे दिल पर मत लो।", "हिम्मत मत हारो।"],
+      "sentences": [
+        { "native": "फ़िक्र मत करो, मैं हूँ ना।", "roman": "fikr mat karo, maiṃ hūṃ nā.", "en": "Don't worry, I'm here for you.", "focus": "मत", "wrong": ["नहीं|nahīṃ"] },
+        { "native": "बेचारा राहुल, उसका फ़ोन फिर से खो गया।", "roman": "bechārā Rāhul, uskā fon phir se kho gayā.", "en": "Poor Rahul, he's lost his phone again.", "focus": "बेचारा", "wrong": ["बेचारी|bechārī", "बेचारे|bechāre"] },
+        { "native": "बेचारी पूरी रात सोई नहीं।", "roman": "bechārī pūrī rāt soī nahīṃ.", "en": "The poor thing didn't sleep all night.", "focus": "बेचारी", "wrong": ["बेचारा|bechārā", "बेचारे|bechāre"] },
+        { "native": "हौसला रखो, अगली बार ज़रूर होगा।", "roman": "hauslā rakho, aglī bār zarūr hogā.", "en": "Chin up, it'll definitely happen next time." },
+        { "native": "चिल कर, यार, इतनी टेंशन मत ले।", "roman": "chil kar, yār, itnī ṭenshan mat le.", "en": "Chill, mate, don't stress so much.", "focus": "ले", "wrong": ["लो|lo", "लीजिए|lījiye"] },
+        { "native": "तू चिंता मत कर, सब ठीक हो जाएगा।", "roman": "tū chintā mat kar, sab ṭhīk ho jāegā.", "en": "Don't you worry, it'll all be fine.", "focus": "कर", "wrong": ["करो|karo", "कीजिए|kījiye"] },
+        { "native": "हिम्मत मत हारो, तुम यह कर सकते हो।", "roman": "himmat mat hāro, tum yah kar sakte ho.", "en": "Don't give up, you can do this.", "focus": "हारो", "wrong": ["हार|hār", "हारिए|hāriye"] },
+        { "native": "इसे दिल पर मत लो, वह सबसे ऐसे ही बात करता है।", "roman": "ise dil par mat lo, vah sabse aise hī bāt kartā hai.", "en": "Don't take it to heart, he talks to everyone like that." },
+        { "native": "आप फ़िक्र मत कीजिए, हम आपके साथ हैं।", "roman": "āp fikr mat kījiye, ham āpke sāth haiṃ.", "en": "Please don't worry, we're with you.", "focus": "कीजिए", "wrong": ["करो|karo", "कर|kar"] },
+        { "native": "टेंशन मत ले, यार, मैं हूँ ना।", "roman": "ṭenshan mat le, yār, maiṃ hūṃ nā.", "en": "Don't stress, mate, I've got you." }
+      ]
+    },
+    {
+      "title": "Saying sorry and meaning it",
+      "tip": { "title": "मुझसे ग़लती हो गई — it was my fault", "body": "- **मुझसे** + होना/जाना = I did it, but not on purpose: मुझसे ग़लती **हो गई**, मुझसे गिलास **टूट गया**.\n- **मैंने** ग़लती की is plainer and sounds more deliberate.\n- In the negative it means 'I just can't': **मुझसे** नहीं होगा.\n- Apologise: **मुझे माफ़ कर दो**; reply: **कोई बात नहीं, होता है** or **माफ़ किया**.", "pattern": "मुझसे + thing + हो गया / टूट गया", "grammar": 2 },
+      "new": ["ग़लती", "माफ़", "जान-बूझकर", "दिल दुखाना", "डाँटना", "रूठना", "मनाना", "मुझसे ग़लती हो गई।", "प्लीज़ मुझे माफ़ कर दो।", "मेरा वो मतलब नहीं था।", "कोई बात नहीं, होता है।"],
+      "sentences": [
+        { "native": "सॉरी यार, मुझसे बहुत बड़ी ग़लती हो गई।", "roman": "sorī yār, mujhse bahut baṛī ġaltī ho gaī.", "en": "Sorry mate, I really messed up.", "focus": "मुझसे", "wrong": ["मैंने|maiṃne", "मुझे|mujhe"] },
+        { "native": "मुझसे तुम्हारा गिलास टूट गया।", "roman": "mujhse tumhārā gilās ṭūṭ gayā.", "en": "I accidentally broke your glass.", "focus": "मुझसे", "wrong": ["मैंने|maiṃne", "मुझे|mujhe"] },
+        { "native": "मैंने जान-बूझकर नहीं किया, सच में।", "roman": "maiṃne jān-būjhkar nahīṃ kiyā, sach meṃ.", "en": "I didn't do it on purpose, honestly.", "focus": "मैंने", "wrong": ["मुझसे|mujhse", "मैं|maiṃ"] },
+        { "native": "मेरा इरादा तुम्हारा दिल दुखाने का नहीं था।", "roman": "merā irādā tumhārā dil dukhāne kā nahīṃ thā.", "en": "I never meant to hurt you.", "focus": "का", "wrong": ["की|kī", "के|ke"] },
+        { "native": "प्लीज़ मुझे माफ़ कर दो, आगे से ऐसा नहीं होगा।", "roman": "plīz mujhe māf kar do, āge se aisā nahīṃ hogā.", "en": "Please forgive me, it won't happen again.", "focus": "मुझे", "wrong": ["मैं|maiṃ", "मुझसे|mujhse"] },
+        { "native": "मुझसे यह नहीं होगा, यार।", "roman": "mujhse yah nahīṃ hogā, yār.", "en": "I can't do this, mate.", "focus": "मुझसे", "wrong": ["मैं|maiṃ", "मुझे|mujhe"] },
+        { "native": "वह मुझसे रूठी हुई है, उसे मनाना पड़ेगा।", "roman": "vah mujhse rūṭhī huī hai, use manānā paṛegā.", "en": "She's sulking with me, I'll have to win her round.", "focus": "मुझसे", "wrong": ["मुझे|mujhe", "मेरा|merā"] },
+        { "native": "कल माँ ने मुझे बहुत डाँटा।", "roman": "kal māṃ ne mujhe bahut ḍāṃṭā.", "en": "Mum really told me off yesterday.", "focus": "डाँटा", "wrong": ["डाँटी|ḍāṃṭī", "डाँटीं|ḍāṃṭīṃ"] },
+        { "native": "मेरा वो मतलब नहीं था, तुम्हें बुरा लगा तो सॉरी।", "roman": "merā vo matlab nahīṃ thā, tumheṃ burā lagā to sorī.", "en": "I didn't mean it like that — sorry if it hurt you." },
+        { "native": "कोई बात नहीं, होता है। चलो, माफ़ किया।", "roman": "koī bāt nahīṃ, hotā hai. chalo, māf kiyā.", "en": "No worries, it happens. Fine, you're forgiven." }
+      ]
+    },
+    {
+      "title": "As soon as, while, until",
+      "tip": { "title": "-ते ही, -ते हुए, जब तक", "body": "- verb-ते **ही** = as soon as: घर पहुँचते **ही** फ़ोन करना.\n- verb-ते **हुए** = while: गाड़ी चलाते **हुए**.\n- **जब तक** + **नहीं** = until: जब तक तुम ठीक **नहीं** होते… 'until you're better…'.\n- With a time, 'until' is just **तक**: शाम **तक**.", "pattern": "सुनते ही · चलाते हुए · जब तक … नहीं", "grammar": 1 },
+      "new": ["घबराना", "संभालना", "गले लगाना", "सुकून", "पछताना", "कोई बात हो तो बताना।", "अपना ध्यान रखना।"],
+      "sentences": [
+        { "native": "घर पहुँचते ही मुझे फ़ोन करना।", "roman": "ghar pahuṃchte hī mujhe fon karnā.", "en": "Call me as soon as you get home.", "focus": "पहुँचते", "wrong": ["पहुँचकर|pahuṃchkar", "पहुँचा|pahuṃchā"] },
+        { "native": "ख़बर सुनते ही उसे रोना आ गया।", "roman": "xabar sunte hī use ronā ā gayā.", "en": "As soon as she heard the news, she burst into tears.", "focus": "सुनते", "wrong": ["सुनकर|sunkar", "सुना|sunā"] },
+        { "native": "पुलिस को देखते ही मैं घबरा गया।", "roman": "pulis ko dekhte hī maiṃ ghabrā gayā.", "en": "The moment I saw the police, I panicked.", "focus": "ही", "wrong": ["हुए|hue", "तक|tak"] },
+        { "native": "गाड़ी चलाते हुए फ़ोन मत देखो।", "roman": "gāṛī chalāte hue fon mat dekho.", "en": "Don't look at your phone while you're driving.", "focus": "हुए", "wrong": ["ही|hī", "तक|tak"] },
+        { "native": "रोते हुए उसने मुझे सब कुछ बताया।", "roman": "rote hue usne mujhe sab kuchh batāyā.", "en": "In tears, she told me everything.", "focus": "रोते", "wrong": ["रोता|rotā", "रोकर|rokar"] },
+        { "native": "जब तक तुम ठीक नहीं होते, मैं यहीं हूँ।", "roman": "jab tak tum ṭhīk nahīṃ hote, maiṃ yahīṃ hūṃ.", "en": "I'm right here until you're better.", "focus": "तक", "wrong": ["ही|hī", "तो|to"] },
+        { "native": "जब तक वह माफ़ी नहीं माँगता, मैं उससे बात नहीं करूँगी।", "roman": "jab tak vah māfī nahīṃ māṃgtā, maiṃ usse bāt nahīṃ karūṃgī.", "en": "I won't talk to him until he apologises.", "focus": "तक", "wrong": ["ही|hī", "हुए|hue"] },
+        { "native": "घबराओ मत, ख़ुद को संभालो।", "roman": "ghabrāo mat, xud ko sambhālo.", "en": "Don't panic, pull yourself together." },
+        { "native": "उसने मुझे गले लगाया और कहा, सब ठीक हो जाएगा।", "roman": "usne mujhe gale lagāyā aur kahā, sab ṭhīk ho jāegā.", "en": "She hugged me and said everything would be fine." },
+        { "native": "तुमसे बात करते ही दिल को सुकून मिला।", "roman": "tumse bāt karte hī dil ko sukūn milā.", "en": "The moment I talked to you, I felt calmer.", "focus": "करते", "wrong": ["करके|karke", "किया|kiyā"] },
+        { "native": "बाद में पछताओगे, अभी उससे बात कर लो।", "roman": "bād meṃ pachhtāoge, abhī usse bāt kar lo.", "en": "You'll regret it later — talk to her now." },
+        { "native": "कोई बात हो तो बताना, और अपना ध्यान रखना।", "roman": "koī bāt ho to batānā, aur apnā dhyān rakhnā.", "en": "If anything comes up, tell me — and take care of yourself." }
+      ]
+    },
+    {
+      "title": "Celebrating good news",
+      "tip": { "title": "Congratulating someone", "body": "- **बधाई हो!** or **बहुत-बहुत बधाई!** works for anything; **मुबारक हो!** is just as common, especially in Urdu-leaning speech.\n- Say what it's for with **की**: प्रमोशन **की** बधाई.\n- 'Proud of you' is **मुझे तुम पर गर्व है** — with **पर**, not से.\n- Expect the reply to be a treat: पार्टी कब दे रहे हो?" },
+      "new": ["ख़ुशख़बरी", "प्रमोशन", "गर्व", "अरे वाह, बहुत-बहुत बधाई!", "मुझे तुम पर गर्व है।"],
+      "sentences": [
+        { "native": "एक ख़ुशख़बरी है, मेरा प्रमोशन हो गया!", "roman": "ek xushxabarī hai, merā pramoshan ho gayā!", "en": "I've got good news — I got promoted!", "focus": "गया", "wrong": ["गई|gaī", "गए|gaye"] },
+        { "native": "अरे वाह, बहुत-बहुत बधाई! पार्टी कब दे रहे हो?", "roman": "are vāh, bahut-bahut badhāī! pārṭī kab de rahe ho?", "en": "Oh wow, congratulations! So when's the party?" },
+        { "native": "प्रमोशन की बहुत-बहुत बधाई!", "roman": "pramoshan kī bahut-bahut badhāī!", "en": "Congratulations on the promotion!", "focus": "की", "wrong": ["का|kā", "को|ko"] },
+        { "native": "यह ख़बर सुनते ही मुझे बहुत ख़ुशी हुई।", "roman": "yah xabar sunte hī mujhe bahut xushī huī.", "en": "I was so happy the moment I heard the news.", "focus": "हुई", "wrong": ["हुआ|huā", "हुए|hue"] },
+        { "native": "तुम्हारे परिवार को तुम पर बहुत गर्व होगा।", "roman": "tumhāre parivār ko tum par bahut garv hogā.", "en": "Your family must be so proud of you.", "focus": "पर", "wrong": ["से|se", "को|ko"] },
+        { "native": "मुझे तुम पर गर्व है, तुमने बहुत मेहनत की।", "roman": "mujhe tum par garv hai, tumne bahut mehnat kī.", "en": "I'm proud of you, you worked really hard.", "focus": "मुझे", "wrong": ["मैं|maiṃ", "मैंने|maiṃne"] },
+        { "native": "इतनी बड़ी ख़ुशख़बरी और तुमने मुझे बताया भी नहीं?", "roman": "itnī baṛī xushxabarī aur tumne mujhe batāyā bhī nahīṃ?", "en": "Such big news and you didn't even tell me?" },
+        { "native": "सच में? क्या बात है! मुझे थोड़ी जलन हो रही है।", "roman": "sach meṃ? kyā bāt hai! mujhe thoṛī jalan ho rahī hai.", "en": "Really? Amazing! I'm a little jealous." }
+      ]
+    },
+    {
+      "title": "When someone is grieving",
+      "tip": { "title": "Condolences and hard news", "body": "- Speak of someone who has died with respect: **गुज़र गए** (plural), **उनकी** आत्मा.\n- Short is best: **बहुत दुख हुआ**, **भगवान उनकी आत्मा को शांति दे**.\n- Offer help in the polite form: **किसी चीज़ की ज़रूरत हो तो बताइए**.\n- For a break-up, friends just say: उसका **ब्रेकअप हो गया**." },
+      "new": ["गुज़र जाना", "आत्मा", "शांति", "ब्रेकअप", "भगवान उनकी आत्मा को शांति दे।"],
+      "sentences": [
+        { "native": "उनके दादा जी कल रात गुज़र गए।", "roman": "unke dādā jī kal rāt guzar gaye.", "en": "His grandfather passed away last night.", "focus": "गए", "wrong": ["गया|gayā", "गई|gaī"] },
+        { "native": "मुझे अभी पता चला, बहुत अफ़सोस हुआ।", "roman": "mujhe abhī patā chalā, bahut afsos huā.", "en": "I've only just heard — I'm so sorry.", "focus": "हुआ", "wrong": ["हुई|huī", "हुए|hue"] },
+        { "native": "बहुत दुख की बात है। भगवान उनकी आत्मा को शांति दे।", "roman": "bahut dukh kī bāt hai. bhagvān unkī ātmā ko shānti de.", "en": "It is very sad. May God grant him peace.", "focus": "उनकी", "wrong": ["उसकी|uskī", "उनका|unkā"] },
+        { "native": "किसी चीज़ की ज़रूरत हो तो बताइए।", "roman": "kisī chīz kī zarūrat ho to batāiye.", "en": "If you need anything at all, please tell me.", "focus": "बताइए", "wrong": ["बताओ|batāo", "बता|batā"] },
+        { "native": "उसका ब्रेकअप हो गया, इसलिए वह बहुत उदास है।", "roman": "uskā brekap ho gayā, isliye vah bahut udās hai.", "en": "He's broken up with his girlfriend, so he's really down.", "focus": "गया", "wrong": ["गई|gaī", "गए|gaye"] },
+        { "native": "ब्रेकअप के बाद वह किसी से बात नहीं कर रही।", "roman": "brekap ke bād vah kisī se bāt nahīṃ kar rahī.", "en": "Since the break-up she isn't talking to anyone." },
+        { "native": "आज रात मैं तुम्हारे पास रुकूँ?", "roman": "āj rāt maiṃ tumhāre pās rukūṃ?", "en": "Shall I stay with you tonight?", "focus": "रुकूँ", "wrong": ["रुकता|ruktā", "रुको|ruko"] },
+        { "native": "उसे अभी अकेला मत छोड़ो।", "roman": "use abhī akelā mat chhoṛo.", "en": "Don't leave her on her own right now." },
+        { "native": "जब तक तुम्हें शांति नहीं मिलती, मैं यहीं हूँ।", "roman": "jab tak tumheṃ shānti nahīṃ miltī, maiṃ yahīṃ hūṃ.", "en": "I'm staying here until you feel calmer.", "focus": "तक", "wrong": ["ही|hī", "हुए|hue"] }
+      ]
+    }
+  ]
+}
