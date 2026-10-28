@@ -1,0 +1,199 @@
+{
+  "id": 23,
+  "title": "Around town: autos, cabs & the metro",
+  "goal": "Get a driver to take you, agree the fare, direct a cab through the lanes, say \"stop here, drop me off\", ride the metro and ask how long it takes.",
+  "intro": "Getting around a Bengali city is a skill of its own: the yellow taxi that refuses to go your way, the shared auto that only runs one route, the Dhaka CNG whose fare you agree on the pavement, the app cab whose driver cancels, and the metro at rush hour.\n\nIn unit 11 you learned left, right and 'stop here'. Now you'll talk to drivers the way locals do. The key grammar is **compound verbs**: an -এ form plus a helper verb that adds direction or 'for me': **নামিয়ে দিন** 'drop me off', **ঢুকে যান** 'turn in', **উঠে পড়** 'hop in', **ঘুরিয়ে নিন** 'turn round'. And you'll learn to ask **কতক্ষণ লাগবে?** 'how long will it take?' with the verb **লাগা**.\n\nWith drivers, use **আপনি** and a friendly title: **দাদা** in Kolkata, **মামা** or **ভাই** in Dhaka.",
+  "vocab": [
+    { "native": "অটো", "roman": "oṭo", "en": "auto-rickshaw", "pos": "noun", "note": "In Kolkata autos are shared and run fixed routes (রুট) for a fixed fare." },
+    { "native": "সিএনজি", "roman": "sienji", "en": "CNG (green auto-rickshaw in Bangladesh)", "pos": "noun", "note": "Named after its fuel. Fares are agreed before you get in." },
+    { "native": "ড্রাইভার", "roman": "ḍraibhar", "en": "driver", "pos": "noun", "note": "Address him as দাদা (Kolkata) or মামা / ভাই (Dhaka) rather than ড্রাইভার." },
+    { "native": "রিকশাওয়ালা", "roman": "rikshawala", "en": "rickshaw driver", "pos": "noun", "note": "Talk to him as মামা (Dhaka) or দাদা (Kolkata). -ওয়ালা \"the … person\": অটোওয়ালা, চাওয়ালা." },
+    { "native": "মিটার", "roman": "miṭar", "en": "(taxi) meter", "pos": "noun", "note": "মিটারে যাবেন? \"Will you go by the meter?\"" },
+    { "native": "এক্সট্রা", "roman": "ekstra", "en": "extra (money)", "pos": "adj", "note": "কুড়ি টাকা এক্সট্রা \"twenty extra\"." },
+    { "native": "ক্যাশ", "roman": "kæsh", "en": "cash", "pos": "noun", "note": "ক্যাশ দেব \"I'll pay cash\". Also নগদ (nôgod)." },
+    { "native": "রাইড", "roman": "raiḍ", "en": "(app) ride", "pos": "noun", "note": "Uber everywhere; Ola in Kolkata; Pathao in Dhaka, often a bike ride." },
+    { "native": "বুক করা", "roman": "buk kôra", "en": "to book", "pos": "verb", "note": "উবার বুক করা, টিকিট বুক করা." },
+    { "native": "সিগন্যাল", "roman": "signæl", "en": "traffic lights, signal", "pos": "noun", "note": "Directions are given by signals: দ্বিতীয় সিগন্যাল থেকে ডানদিকে." },
+    { "native": "ফ্লাইওভার", "roman": "phlaiobhar", "en": "flyover", "pos": "noun", "note": "ফ্লাইওভারের ওপর দিয়ে \"over the flyover\", নিচ দিয়ে \"underneath\"." },
+    { "native": "গলি", "roman": "goli", "en": "lane, alley, side street", "pos": "noun", "note": "গলির মুখে \"at the mouth of the lane\", where most rides end." },
+    { "native": "ঢোকা", "roman": "ḍhoka", "en": "to enter, go in; to turn in", "pos": "verb", "note": "গলিতে ঢুকে যান \"turn into the lane\"." },
+    { "native": "ঘোরানো", "roman": "ghorano", "en": "to turn (something) round", "pos": "verb", "note": "Causative of ঘোরা \"to turn\". গাড়িটা ঘুরিয়ে নিন \"turn the car round\"." },
+    { "native": "শর্টকাট", "roman": "shôrṭkaṭ", "en": "shortcut", "pos": "noun", "note": "শর্টকাট দিয়ে \"by the shortcut\"." },
+    { "native": "এদিকে", "roman": "edike", "en": "this way, over here", "pos": "adv", "note": "From এ + দিকে. কোনদিকে? \"which way?\"" },
+    { "native": "ওদিকে", "roman": "odike", "en": "that way, over there", "pos": "adv" },
+    { "native": "থামানো", "roman": "thamano", "en": "to stop (a vehicle)", "pos": "verb", "note": "Causative of থামা \"to stop (oneself)\". থামান! \"Stop (the car)!\"" },
+    { "native": "নামিয়ে দেওয়া", "roman": "namiye dewa", "en": "to drop (someone) off", "pos": "verb", "note": "From নামানো \"to let down\". আমাকে এখানে নামিয়ে দিন \"drop me here\"." },
+    { "native": "উঠে পড়া", "roman": "uṭhe pôṛa", "en": "to hop in, jump on; to get up (suddenly)", "pos": "verb", "note": "উঠে পড়! (তুই) · উঠে পড়ুন! (আপনি)" },
+    { "native": "স্টপ", "roman": "sṭôp", "en": "(bus) stop", "pos": "noun", "note": "বাস স্টপ; পরের স্টপে \"at the next stop\"." },
+    { "native": "টোকেন", "roman": "ṭoken", "en": "(metro) token", "pos": "noun", "note": "Kolkata Metro uses tokens and smart cards; Dhaka's metro rail uses cards." },
+    { "native": "ভিড়", "roman": "bhiṛ", "en": "crowd; crowded", "pos": "noun", "note": "খুব ভিড় \"very crowded\"; ভিড়ের মধ্যে \"in the crowd\"." },
+    { "native": "উল্টো", "roman": "ulṭo", "en": "opposite, the other way; upside down", "pos": "adj", "note": "উল্টো দিকে \"on the other side, the wrong way\"." },
+    { "native": "পার হওয়া", "roman": "par hôwa", "en": "to cross (a road, a river)", "pos": "verb", "note": "রাস্তা পার হওয়া \"to cross the road\"." },
+    { "native": "কতক্ষণ", "roman": "kôtokkhon", "en": "how long (time)", "pos": "q", "note": "কতক্ষণ লাগবে? \"how long will it take?\" For distance: কত দূর." },
+    { "native": "ঘণ্টাখানেক", "roman": "ghônṭakhanek", "en": "about an hour", "pos": "adv", "note": "-খানেক \"about\": মিনিট দশেক \"ten minutes or so\"." }
+  ],
+  "phrases": [
+    { "native": "দাদা, মিটারে যাবেন?", "roman": "dada, miṭare jaben?", "en": "Will you go by the meter? (to a Kolkata taxi driver)" },
+    { "native": "ভাই, গুলশান কত নেবেন?", "roman": "bhai, gulshan kôto neben?", "en": "How much to Gulshan? (to a Dhaka CNG driver)", "note": "In Bangladesh you'll also hear কত নিবেন? (nibæn)." },
+    { "native": "অটো কোথা থেকে ছাড়ে?", "roman": "oṭo kotha theke chhaṛe?", "en": "Where do the autos leave from?" },
+    { "native": "এত না, দুশো দেব।", "roman": "æto na, dusho debo.", "en": "Not that much, I'll give two hundred." },
+    { "native": "একটা উবার বুক করছি।", "roman": "ækṭa ubar buk korchhi.", "en": "I'm booking an Uber." },
+    { "native": "ড্রাইভার ক্যানসেল করে দিল!", "roman": "ḍraibhar kænsel kore dilo!", "en": "The driver cancelled!" },
+    { "native": "সামনের সিগন্যাল থেকে বাঁদিকে নিন।", "roman": "shamner signæl theke baṃdike nin.", "en": "Turn left at the next lights.", "note": "নিন \"take\": ডানদিকে নিন \"take a right\"." },
+    { "native": "গলির মুখে নামিয়ে দিন।", "roman": "golir mukhe namiye din.", "en": "Drop me at the end of the lane." },
+    { "native": "এখানেই রাখুন।", "roman": "ekhanei rakhun.", "en": "Stop right here.", "note": "Lit. \"keep (the car) right here\". Bangladesh: এখানে রাখেন. Kolkata also দাঁড় করান." },
+    { "native": "উঠে পড়, উঠে পড়!", "roman": "uṭhe pôṛ, uṭhe pôṛ!", "en": "Hop in, quick! (to a friend)" },
+    { "native": "একটু তাড়াতাড়ি চালান, প্লিজ।", "roman": "ekṭu taṛataṛi chalan, pliz.", "en": "Please drive a bit faster." },
+    { "native": "মেট্রোতে খুব ভিড়।", "roman": "meṭrote khub bhiṛ.", "en": "The metro is packed." },
+    { "native": "উল্টো দিকের প্ল্যাটফর্মে যান।", "roman": "ulṭo diker plæṭphôrme jan.", "en": "Go to the platform on the other side." },
+    { "native": "কতক্ষণ লাগবে?", "roman": "kôtokkhon lagbe?", "en": "How long will it take?" },
+    { "native": "জ্যাম না থাকলে কুড়ি মিনিট।", "roman": "jæm na thakle kuṛi miniṭ.", "en": "Twenty minutes if there's no traffic." }
+  ],
+  "grammar": [
+    {
+      "title": "Compound verbs: drop me, turn in, hop on",
+      "body": "Bengali often uses **two verbs** for one action: the main verb in its **-এ form** (unit 22) + a **helper verb** that has lost its own meaning and adds a shade of direction, completion or 'for whom'. You can't always translate the helper, but leaving it out sounds bare or unfinished.\n\n**যাওয়া** 'go' – movement away, change, done: **চলে যান** 'go on (ahead)', **নেমে যা** 'get off', **ঢুকে যান** 'turn in', **পৌঁছে যাব** 'I'll get there', **আটকে গেছি** 'I've got stuck'.\n**দেওয়া** 'give' – done for or towards someone else: **নামিয়ে দিন** 'drop me off', **চালিয়ে দিন** 'turn it on (for me)', **বলে দে** 'tell (them)'.\n**নেওয়া** 'take' – done for yourself, or 'go ahead and…': **ঘুরিয়ে নিন** 'turn (the car) round', **কিনে নিই** 'I'll just buy it', **খেয়ে নে** 'go ahead and eat'.\n**পড়া** 'fall' – sudden or decisive: **উঠে পড়** 'hop on', **বসে পড়ুন** 'sit down', **ঘুমিয়ে পড়েছি** 'I fell asleep'.\n**ফেলা** 'throw' – completely, often by accident: **হারিয়ে ফেলেছি** 'I've lost it', **খেয়ে ফেলেছি** 'I ate it all'.\n\nThe ending goes on the helper: নামিয়ে **দিন** / **দাও** / **দে**.\n\n**Trap:** in the **negative**, the helper usually disappears: 'don't turn in' is **ঢুকবেন না**, not *ঢুকে যাবেন না*; 'I haven't arrived yet' is **এখনও পৌঁছাইনি**, not *পৌঁছে যাইনি*.",
+      "examples": [
+        { "native": "আমাকে স্টেশনে নামিয়ে দিন।", "roman": "amake sṭeshone namiye din.", "en": "Drop me at the station, please." },
+        { "native": "সোজা চলে যান, তারপর বাঁদিকে।", "roman": "shoja chole jan, tarpôr baṃdike.", "en": "Go straight on, then left." },
+        { "native": "তাড়াতাড়ি উঠে পড়ুন!", "roman": "taṛataṛi uṭhe poṛun!", "en": "Quick, hop in!" },
+        { "native": "আমি টিকিটটা হারিয়ে ফেলেছি।", "roman": "ami ṭikiṭṭa hariye phelechhi.", "en": "I've lost my ticket." },
+        { "native": "ভুল করে উল্টো দিকের ট্রেনে উঠে গেছি।", "roman": "bhul kore ulṭo diker ṭrene uṭhe gechhi.", "en": "I've got on the train going the wrong way by mistake." }
+      ]
+    },
+    {
+      "title": "How long does it take? লাগা",
+      "body": "Time and money are **'needed'** in Bengali: the verb **লাগা** (which you know from ভালো লাগা and খিদে লাগা) has the time as its subject.\n\n**কতক্ষণ লাগবে?** 'How long will it take?' – **আধ ঘণ্টা লাগবে** 'half an hour'.\n**কত লাগবে?** 'How much will it cost?' – **দুশো টাকা লাগবে**.\n\n**The person** it takes goes in the possessive **-র / -এর**: **আমার** এক ঘণ্টা **লাগে** 'it takes me an hour'.\n**The action** goes in the **-তে** form: অফিস **যেতে** এক ঘণ্টা লাগে 'it takes an hour to get to the office'; **রেডি হতে** পাঁচ মিনিট লাগবে.\n\n**Tense** is on লাগা: **লাগে** (usually), **লাগবে** (will), **লাগল** (took), **লাগছে** (is taking).\n\nIn quick answers people drop the verb: **হেঁটে দশ মিনিট** 'ten minutes on foot', **ঘণ্টাখানেক** 'about an hour'. Add **-খানেক** or put the number after the noun for 'about': **মিনিট দশেক** 'ten minutes or so'.\n\n**Trap:** not *আমি এক ঘণ্টা লাগি*. The time is what 'is needed', so the person can never be the subject.",
+      "examples": [
+        { "native": "নিউ মার্কেট যেতে কতক্ষণ লাগে?", "roman": "niu markeṭ jete kôtokkhon lage?", "en": "How long does it take to get to New Market?" },
+        { "native": "ট্যাক্সিতে আধ ঘণ্টা লাগবে।", "roman": "ṭæksite adh ghônṭa lagbe.", "en": "It'll take half an hour by taxi." },
+        { "native": "কাজটা শেষ করতে আমার দুদিন লাগল।", "roman": "kajṭa shesh korte amar dudin laglo.", "en": "It took me two days to finish the job." },
+        { "native": "এখান থেকে হেঁটে পাঁচ মিনিট।", "roman": "ekhan theke heṃṭe paṃch miniṭ.", "en": "It's five minutes' walk from here." },
+        { "native": "ভাড়া কত লাগবে?", "roman": "bhaṛa kôto lagbe?", "en": "How much will the fare be?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Taxi, app, metro, auto",
+    "setting": "Kolkata, a weekday evening on Park Street. Rohan is trying to get his friend Sam, who is learning Bengali, to a party in Jadavpur.",
+    "lines": [
+      { "speaker": "Rohan", "native": "দাদা, যাদবপুর যাবেন?", "roman": "dada, jadobpur jaben?", "en": "Will you go to Jadavpur?" },
+      { "speaker": "Driver", "native": "না, ওদিকে যাব না।", "roman": "na, odike jabo na.", "en": "No, I'm not going that way." },
+      { "speaker": "Rohan", "native": "ধুর! এই নিয়ে তিনটে ট্যাক্সি না বলল। দাঁড়া, উবার বুক করছি।", "roman": "dhur! ei niye tinṭe ṭæksi na bollo. daṃṛa, ubar buk korchhi.", "en": "Ugh! That's the third taxi to say no. Hang on, I'll book an Uber." },
+      { "speaker": "Sam", "native": "কতক্ষণ লাগবে?", "roman": "kôtokkhon lagbe?", "en": "How long will it take?" },
+      { "speaker": "Rohan", "native": "দেখাচ্ছে আট মিনিটে আসবে… আরে, ড্রাইভার ক্যানসেল করে দিল!", "roman": "dækhachchhe aṭ miniṭe ashbe… are, ḍraibhar kænsel kore dilo!", "en": "It says eight minutes… oh no, the driver's cancelled!" },
+      { "speaker": "Sam", "native": "চল, মেট্রোতে যাই। ভিড় হলেও তাড়াতাড়ি পৌঁছে যাব।", "roman": "chôl, meṭrote jai. bhiṛ holeo taṛataṛi pouṃchhe jabo.", "en": "Let's take the metro. Even if it's crowded we'll get there quicker." },
+      { "speaker": "Rohan", "native": "ঠিক বলেছিস। মেট্রোতে কুড়ি মিনিট, তারপর স্টেশন থেকে অটো নিয়ে নেব।", "roman": "ṭhik bolechhish. meṭrote kuṛi miniṭ, tarpôr sṭeshon theke oṭo niye nebo.", "en": "Good point. Twenty minutes on the metro, then we'll grab an auto from the station." },
+      { "speaker": "Rohan", "native": "দাদা, এটা যাদবপুর থানা যাবে?", "roman": "dada, æṭa jadobpur thana jabe?", "en": "(At the auto stand) Does this one go to Jadavpur police station?" },
+      { "speaker": "Auto driver", "native": "হ্যাঁ, উঠে পড়ুন, পেছনে জায়গা আছে।", "roman": "hæṃ, uṭhe poṛun, pechhone jayga achhe.", "en": "Yes, hop in, there's room in the back." },
+      { "speaker": "Sam", "native": "ভাড়া কত, দাদা?", "roman": "bhaṛa kôto, dada?", "en": "How much is it?" },
+      { "speaker": "Auto driver", "native": "পনেরো টাকা।", "roman": "pônero ṭaka.", "en": "Fifteen rupees." },
+      { "speaker": "Rohan", "native": "দাদা, সামনের মোড়ে গলির মুখে নামিয়ে দেবেন।", "roman": "dada, shamner moṛe golir mukhe namiye deben.", "en": "Drop us at the end of the lane at the next crossing, please." },
+      { "speaker": "Auto driver", "native": "ঠিক আছে… নামুন, এসে গেছি।", "roman": "ṭhik achhe… namun, eshe gechhi.", "en": "OK… out you get, we're here." },
+      { "speaker": "Sam", "native": "বাহ, ট্যাক্সির চেয়ে অটোই ভালো!", "roman": "bah, ṭæksir cheye oṭoi bhalo!", "en": "Wow, the auto beats the taxi!" }
+    ]
+  },
+  "culture": "**Kolkata:** yellow Ambassador taxis are famous for refusing fares (**যাব না**), so ask **মিটারে যাবেন?** before getting in, or use Uber or Ola. Shared autos run fixed routes for a fixed fare; you squeeze in, pay the driver, and say **দাদা, বাঁদিকে রাখবেন** when you want to get off. The Kolkata Metro (India's first, 1984) is fast and cheap; buses have conductors who shout the stops. Call drivers **দাদা** and use আপনি.\n\n**Dhaka:** there are no shared autos; you take a rickshaw (**মামা, যাবেন?**), a green CNG, an app bike (Pathao, Uber Moto) or the new metro rail. Meters are rarely used, so **always agree the fare first** (**কত নেবেন?** … **এত না, …দেব**). Drivers are **মামা** or **ভাই**; bus helpers call the driver **ওস্তাদ**. Bangladeshi speakers often use the -এন form as a polite command: **রাখেন, যান, নামেন** for **রাখুন, যান, নামুন**.\n\nEverywhere, haggling is good-humoured. Start at about two thirds of the asking price, smile, and be ready to walk to the next driver. Small notes and change (**খুচরো**, BD **ভাংতি**) make every ride easier.",
+  "lessons": [
+    {
+      "title": "Getting a driver to take you",
+      "tip": { "title": "Asking a driver", "body": "- Name the place + **যাবেন?**: **হাওড়া যাবেন?** \"will you go to Howrah?\" Drivers can and do say no.\n- Ask the price first: **কত নেবেন?** In a Kolkata taxi: **মিটারে যাবেন?**\n- Call the driver **দাদা** (Kolkata) or **মামা / ভাই** (Dhaka), and use আপনি." },
+      "new": ["অটো", "সিএনজি", "ড্রাইভার", "রিকশাওয়ালা", "মিটার", "দাদা, মিটারে যাবেন?", "ভাই, গুলশান কত নেবেন?", "অটো কোথা থেকে ছাড়ে?"],
+      "sentences": [
+        { "native": "দাদা, শিয়ালদা যাবেন?", "roman": "dada, shiyalda jaben?", "en": "Will you go to Sealdah?", "focus": "যাবেন", "wrong": ["যাব|jabo", "গেলেন|gelen"] },
+        { "native": "মিটারে না, দেড়শো টাকা লাগবে।", "roman": "miṭare na, deṛsho ṭaka lagbe.", "en": "Not by the meter, it'll be a hundred and fifty." },
+        { "native": "মামা, মোহাম্মদপুর কত নেবেন?", "roman": "mama, mohammodpur kôto neben?", "en": "How much to Mohammadpur?", "focus": "নেবেন", "wrong": ["নেব|nebo", "নিলেন|nilen"] },
+        { "native": "সিএনজি ড্রাইভাররা মিটারে যেতে চায় না।", "roman": "sienji ḍraibharra miṭare jete chay na.", "en": "CNG drivers don't want to go by the meter." },
+        { "native": "অটোটা কি গড়িয়াহাট যাবে?", "roman": "oṭoṭa ki goṛiahaṭ jabe?", "en": "Does this auto go to Gariahat?", "focus": "যাবে", "wrong": ["যাবেন|jaben", "যাব|jabo"] },
+        { "native": "গড়িয়াহাটের অটো কোথা থেকে ছাড়ে?", "roman": "goṛiahaṭer oṭo kotha theke chhaṛe?", "en": "Where do the Gariahat autos leave from?" },
+        { "native": "রিকশাওয়ালা বলল পঞ্চাশ টাকার কমে যাবে না।", "roman": "rikshawala bollo pônchash ṭakar kome jabe na.", "en": "The rickshaw driver said he won't go for less than fifty." },
+        { "native": "দাদা, আমার জন্য একটু অপেক্ষা করবেন? এক্ষুনি আসছি।", "roman": "dada, amar jonno ekṭu ôpekkha korben? ekkhuni ashchhi.", "en": "Could you wait for me a moment? I'll be right back.", "focus": "করবেন", "wrong": ["করব|korbo", "করলেন|korlen"] },
+        { "native": "মামা, যাবেন? সোজা ধানমন্ডি।", "roman": "mama, jaben? shoja dhanmonḍi.", "en": "Will you go? Straight to Dhanmondi." },
+        { "native": "ট্যাক্সি পাচ্ছি না, চল অটোতে যাই।", "roman": "ṭæksi pachchhi na, chôl oṭote jai.", "en": "I can't get a taxi, let's take an auto." }
+      ]
+    },
+    {
+      "title": "Haggling and app rides",
+      "tip": { "title": "Agreeing the fare", "body": "- Agree the fare **before** you get in.\n- Counter-offer with **… দেব** \"I'll give …\": **একশো দেব**. Push back with **এত না** \"not that much\".\n- Drivers ask **এক্সট্রা** for rain, night or traffic. Apps fix the price, but you can still pay **ক্যাশ**." },
+      "new": ["এক্সট্রা", "ক্যাশ", "রাইড", "বুক করা", "এত না, দুশো দেব।", "একটা উবার বুক করছি।", "ড্রাইভার ক্যানসেল করে দিল!"],
+      "sentences": [
+        { "native": "দুশো? এত না, দেড়শো দেব।", "roman": "dusho? æto na, deṛsho debo.", "en": "Two hundred? Not that much, I'll give a hundred and fifty.", "focus": "দেব", "wrong": ["দিলাম|dilam", "দেবেন|deben"] },
+        { "native": "বৃষ্টি হচ্ছে, তাই কুড়ি টাকা এক্সট্রা।", "roman": "brishṭi hochchhe, tai kuṛi ṭaka ekstra.", "en": "It's raining, so it's twenty extra." },
+        { "native": "এক্সট্রা দেব না, মিটারে যা উঠবে তাই দেব।", "roman": "ekstra debo na, miṭare ja uṭhbe tai debo.", "en": "I'm not paying extra, I'll pay what the meter says." },
+        { "native": "উবারে ভাড়া কম, একটা রাইড বুক করি?", "roman": "ubare bhaṛa kôm, ækṭa raiḍ buk kori?", "en": "It's cheaper on Uber, shall I book a ride?" },
+        { "native": "ক্যাশ দেব, নাকি কার্ডে?", "roman": "kæsh debo, naki karḍe?", "en": "Shall I pay cash, or by card?" },
+        { "native": "ড্রাইভার আবার ক্যানসেল করে দিল, আবার বুক করছি।", "roman": "ḍraibhar abar kænsel kore dilo, abar buk korchhi.", "en": "The driver's cancelled again, I'm booking again." },
+        { "native": "রাইডটা কত টাকা দেখাচ্ছে?", "roman": "raiḍṭa kôto ṭaka dækhachchhe?", "en": "How much is the ride showing?" },
+        { "native": "ঠিক আছে, একশো কুড়ি, চলুন।", "roman": "ṭhik achhe, æksho kuṛi, cholun.", "en": "OK, a hundred and twenty, let's go." },
+        { "native": "আগে দাম ঠিক করে নিন, তারপর উঠবেন।", "roman": "age dam ṭhik kore nin, tarpôr uṭhben.", "en": "Settle the price first, then get in." },
+        { "native": "আমি বাড়ির জন্য একটা রাইড বুক করে দিচ্ছি।", "roman": "ami baṛir jonno ækṭa raiḍ buk kore dichchhi.", "en": "I'll book you a ride home." }
+      ]
+    },
+    {
+      "title": "Directing the driver",
+      "tip": { "title": "Go on, turn in, turn round: -এ + helper", "body": "- Many directions are an **-এ form + helper verb**: **চলে যান** \"go on\", **ঢুকে যান** \"turn in\", **ঘুরিয়ে নিন** \"turn round\".\n- **যাওয়া** = movement or change · **দেওয়া** = for someone else · **নেওয়া** = for yourself · **পড়া** = suddenly.\n- In the negative the helper drops: **ঢুকবেন না** \"don't turn in\".", "pattern": "সোজা + চলে যান  ·  গলিতে + ঢুকে যান", "grammar": 0 },
+      "new": ["সিগন্যাল", "ফ্লাইওভার", "গলি", "ঢোকা", "ঘোরানো", "শর্টকাট", "এদিকে", "ওদিকে", "সামনের সিগন্যাল থেকে বাঁদিকে নিন।"],
+      "sentences": [
+        { "native": "ফ্লাইওভারের ওপর দিয়ে সোজা চলে যান।", "roman": "phlaiobharer opor diye shoja chole jan.", "en": "Go straight over the flyover.", "focus": "যান", "wrong": ["দিন|din", "নিন|nin"] },
+        { "native": "দ্বিতীয় গলিতে ঢুকে যান।", "roman": "ditio golite ḍhuke jan.", "en": "Turn into the second lane.", "focus": "ঢুকে", "wrong": ["ঢোকে|ḍhoke", "ঢুকুন|ḍhukun"] },
+        { "native": "ভুল রাস্তা, গাড়িটা ঘুরিয়ে নিন।", "roman": "bhul rasta, gaṛiṭa ghuriye nin.", "en": "Wrong road, turn the car round.", "focus": "নিন", "wrong": ["যান|jan", "পড়ুন|poṛun"] },
+        { "native": "সিগন্যালের পরে ডানদিকে ঘুরে যাবেন।", "roman": "signæler pôre ḍandike ghure jaben.", "en": "Turn right after the lights.", "focus": "ঘুরে", "wrong": ["ঘোরে|ghore", "ঘুরল|ghurlo"] },
+        { "native": "এদিকে না, ওদিকে!", "roman": "edike na, odike!", "en": "Not this way, that way!", "focus": "ওদিকে", "wrong": ["এদিকে|edike", "কোনদিকে|kondike"] },
+        { "native": "শর্টকাট দিয়ে নিয়ে চলুন, বড় রাস্তায় জ্যাম।", "roman": "shôrṭkaṭ diye niye cholun, bôṛo rastay jæm.", "en": "Take the shortcut, the main road's jammed.", "focus": "নিয়ে", "wrong": ["নিন|nin", "নেন|næn"] },
+        { "native": "সিগন্যালে গাড়িটা আটকে গেল।", "roman": "signæle gaṛiṭa aṭke gælo.", "en": "The car got stuck at the lights.", "focus": "গেল", "wrong": ["দিল|dilo", "নিল|nilo"] },
+        { "native": "ওদিকে ঘোরাবেন না, সোজা চলুন।", "roman": "odike ghoraben na, shoja cholun.", "en": "Don't turn that way, go straight on.", "focus": "ঘোরাবেন", "wrong": ["ঘুরিয়ে|ghuriye", "ঘোরালেন|ghoralen"] },
+        { "native": "এই গলিতে গাড়ি ঢোকে না।", "roman": "ei golite gaṛi ḍhoke na.", "en": "Cars can't get into this lane." },
+        { "native": "এদিকে কোনো শর্টকাট আছে?", "roman": "edike kono shôrṭkaṭ achhe?", "en": "Is there a shortcut this way?" }
+      ]
+    },
+    {
+      "title": "Stop here, drop me off",
+      "tip": { "title": "Stop, drop me, hop in", "body": "- **নামিয়ে দিন** \"drop me off\" (নামানো \"let down\" + দেওয়া \"for me\").\n- \"Stop here\": **এখানে রাখুন** or **থামান** (Kolkata also **দাঁড় করান**; Dhaka **রাখেন**).\n- Getting in fast: **উঠে পড়**; getting off: **নেমে যা**.\n- \"Faster / slower\": **তাড়াতাড়ি / আস্তে চালান**.", "pattern": "এখানে + নামিয়ে দিন  ·  উঠে + পড়", "grammar": 0 },
+      "new": ["থামানো", "নামিয়ে দেওয়া", "উঠে পড়া", "স্টপ", "গলির মুখে নামিয়ে দিন।", "এখানেই রাখুন।", "উঠে পড়, উঠে পড়!", "একটু তাড়াতাড়ি চালান, প্লিজ।"],
+      "sentences": [
+        { "native": "মেট্রো স্টেশনের সামনে নামিয়ে দিন।", "roman": "meṭro sṭeshoner shamne namiye din.", "en": "Drop me in front of the metro station.", "focus": "দিন", "wrong": ["নিন|nin", "যান|jan"] },
+        { "native": "পরের স্টপে নেমে যা।", "roman": "pôrer sṭôpe neme ja.", "en": "Get off at the next stop.", "focus": "নেমে", "wrong": ["নামে|name", "নামল|namlo"] },
+        { "native": "বাস চলে যাচ্ছে, উঠে পড়!", "roman": "bas chole jachchhe, uṭhe pôṛ!", "en": "The bus is leaving, jump on!", "focus": "পড়", "wrong": ["পড়ি|poṛi", "পড়ল|poṛlo"] },
+        { "native": "দাদা, একটু থামান, আমার বন্ধু উঠবে।", "roman": "dada, ekṭu thaman, amar bondhu uṭhbe.", "en": "Stop for a sec, my friend is getting in.", "focus": "থামান", "wrong": ["থামি|thami", "থামল|thamlo"] },
+        { "native": "আমাকে বাড়ির সামনে নামিয়ে দিয়ে তুই চলে যা।", "roman": "amake baṛir shamne namiye diye tui chole ja.", "en": "Drop me in front of my house, then you head off.", "focus": "দিয়ে", "wrong": ["দিস|dish", "দিলি|dili"] },
+        { "native": "এখানে রাখবেন না, সামনে পুলিশ আছে।", "roman": "ekhane rakhben na, shamne pulish achhe.", "en": "Don't stop here, there's police ahead.", "focus": "রাখবেন", "wrong": ["রেখে|rekhe", "রাখলেন|rakhlen"] },
+        { "native": "গাড়িটা হঠাৎ থেমে গেল।", "roman": "gaṛiṭa hôṭhat theme gælo.", "en": "The car suddenly stopped.", "focus": "গেল", "wrong": ["দিল|dilo", "নিল|nilo"] },
+        { "native": "আস্তে চালান, প্লিজ, আমার তাড়া নেই।", "roman": "aste chalan, pliz, amar taṛa nei.", "en": "Drive slowly, please, I'm in no hurry." },
+        { "native": "বাস স্টপে দশ মিনিট দাঁড়িয়ে আছি।", "roman": "bas sṭôpe dôsh miniṭ daṃṛiye achhi.", "en": "I've been standing at the bus stop for ten minutes." },
+        { "native": "ব্যস, এখানেই রাখুন, আমি নেমে যাচ্ছি।", "roman": "bæs, ekhanei rakhun, ami neme jachchhi.", "en": "That's it, stop right here, I'll get out." }
+      ]
+    },
+    {
+      "title": "On the metro",
+      "new": ["টোকেন", "ভিড়", "উল্টো", "পার হওয়া", "মেট্রোতে খুব ভিড়।", "উল্টো দিকের প্ল্যাটফর্মে যান।"],
+      "sentences": [
+        { "native": "একটা টোকেন দিন, দমদম।", "roman": "ækṭa ṭoken din, dômdôm.", "en": "One token, to Dum Dum." },
+        { "native": "অফিসের সময় মেট্রোতে পা রাখার জায়গা নেই।", "roman": "ophisher shômoy meṭrote pa rakhar jayga nei.", "en": "At rush hour there's no room to put your foot down on the metro." },
+        { "native": "রাস্তা পার হয়ে উল্টো দিকের বাস ধর।", "roman": "rasta par hoye ulṭo diker bas dhôr.", "en": "Cross the road and get the bus on the other side.", "focus": "হয়ে", "wrong": ["হলো|holo", "হবে|hobe"] },
+        { "native": "সাবধানে রাস্তা পার হও, গাড়ি আসছে।", "roman": "shabdhane rasta par hôo, gaṛi ashchhe.", "en": "Cross carefully, a car is coming." },
+        { "native": "ভিড়ে আমার ফোনটা পড়ে গেল।", "roman": "bhiṛe amar phonṭa poṛe gælo.", "en": "My phone fell in the crowd.", "focus": "গেল", "wrong": ["দিল|dilo", "নিল|nilo"] },
+        { "native": "তুই উল্টো দিকের ট্রেনে উঠেছিস!", "roman": "tui ulṭo diker ṭrene uṭhechhish!", "en": "You've got on the train going the wrong way!" },
+        { "native": "এত ভিড়, পরের মেট্রোটা ধরি?", "roman": "æto bhiṛ, pôrer meṭroṭa dhori?", "en": "It's so packed, shall we get the next one?", "focus": "ধরি", "wrong": ["ধর|dhôr", "ধরলাম|dhorlam"] },
+        { "native": "টোকেনটা হারিয়ে ফেলেছি!", "roman": "ṭokenṭa hariye phelechhi!", "en": "I've lost my token!", "focus": "ফেলেছি", "wrong": ["দিয়েছি|diyechhi", "নিয়েছি|niyechhi"] },
+        { "native": "ভিড় কম থাকলে বসার জায়গা পাবি।", "roman": "bhiṛ kôm thakle bôshar jayga pabi.", "en": "If it's not crowded you'll get a seat." }
+      ]
+    },
+    {
+      "title": "How long does it take?",
+      "tip": { "title": "It takes: লাগা", "body": "- Time \"is needed\": **কতক্ষণ লাগবে?** – **আধ ঘণ্টা লাগবে**.\n- The person goes in **-র**: **আমার** এক ঘণ্টা লাগে \"it takes me an hour\".\n- The action is the **-তে** form: হেঁটে **যেতে** দশ মিনিট লাগে.\n- **লাগে** usually · **লাগবে** will · **লাগল** took.", "pattern": "(আমার) + যেতে + এক ঘণ্টা + লাগে", "grammar": 1 },
+      "new": ["কতক্ষণ", "ঘণ্টাখানেক", "কতক্ষণ লাগবে?", "জ্যাম না থাকলে কুড়ি মিনিট।"],
+      "sentences": [
+        { "native": "বিমানবন্দর যেতে কতক্ষণ লাগবে?", "roman": "bimanbôndor jete kôtokkhon lagbe?", "en": "How long will it take to get to the airport?", "focus": "লাগবে", "wrong": ["লাগল|laglo", "লেগেছে|legechhe"] },
+        { "native": "আমার অফিস যেতে রোজ এক ঘণ্টা লাগে।", "roman": "amar ophish jete roj æk ghônṭa lage.", "en": "It takes me an hour to get to work every day.", "focus": "লাগে", "wrong": ["লাগল|laglo", "লেগেছিল|legechhilo"] },
+        { "native": "কাল জ্যামে দু ঘণ্টা লাগল।", "roman": "kal jæme du ghônṭa laglo.", "en": "Yesterday it took two hours in the traffic.", "focus": "লাগল", "wrong": ["লাগে|lage", "লাগবে|lagbe"] },
+        { "native": "হেঁটে গেলে দশ মিনিট লাগবে।", "roman": "heṃṭe gele dôsh miniṭ lagbe.", "en": "If you walk it'll take ten minutes.", "focus": "লাগবে", "wrong": ["লাগল|laglo", "লেগেছিল|legechhilo"] },
+        { "native": "মেট্রোতে কতক্ষণ লাগে?", "roman": "meṭrote kôtokkhon lage?", "en": "How long does it take on the metro?", "focus": "কতক্ষণ", "wrong": ["কখন|kôkhon", "কোথায়|kothay"] },
+        { "native": "আমার রেডি হতে পাঁচ মিনিট লাগবে।", "roman": "amar reḍi hote paṃch miniṭ lagbe.", "en": "I'll need five minutes to get ready.", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "পৌঁছতে কতক্ষণ লাগল?", "roman": "pouṃchhte kôtokkhon laglo?", "en": "How long did it take you to get there?", "focus": "পৌঁছতে", "wrong": ["পৌঁছে|pouṃchhe", "পৌঁছলে|pouṃchhle"] },
+        { "native": "ঘণ্টাখানেক লাগবে, তুই খেয়ে নে।", "roman": "ghônṭakhanek lagbe, tui kheye ne.", "en": "It'll take about an hour, go ahead and eat." },
+        { "native": "বৃষ্টি হলে আরও বেশি সময় লাগবে।", "roman": "brishṭi hole aro beshi shômoy lagbe.", "en": "If it rains it'll take even longer." },
+        { "native": "জ্যাম না থাকলে কুড়ি মিনিট, নাহলে ঘণ্টাখানেক।", "roman": "jæm na thakle kuṛi miniṭ, nahole ghônṭakhanek.", "en": "Twenty minutes if there's no traffic, otherwise about an hour." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "id": 27,
+  "title": "People",
+  "goal": "Say what people are like, inside and out, point someone out in a crowd, talk about friends, partners and in-laws, and swap a bit of gossip.",
+  "intro": "Half of all conversation is about other people: the new boss, your friend's boyfriend, the cousin who looks exactly like her mother, the uncle who never pays. Bengali has a rich, very direct vocabulary for this: people will happily tell you you look tired (**তোমাকে ক্লান্ত লাগছে**) or that someone is **কিপটে** 'stingy'.\n\nThe grammar here is what lets you pick people out and pin them down: full **relative clauses** with **যে, যাকে, যার, যারা** ('the guy *whose* sister…', 'the girl *you* saw'), the short and very colloquial **-আ participle** (**চশমা পরা ছেলেটা** 'the boy in glasses'), and the ways to say **looks / seems / like**: **দেখতে**, **লাগছে**, **মনে হচ্ছে**, **মতো**.",
+  "vocab": [
+    { "native": "স্বভাব", "roman": "shôbhab", "en": "nature, temperament, character", "pos": "noun", "note": "ওর স্বভাবটা খুব ভালো \"she has a lovely nature\"." },
+    { "native": "মিশুকে", "roman": "mishuke", "en": "sociable, outgoing", "pos": "adj", "note": "From মেশা \"to mix (with people)\"." },
+    { "native": "চুপচাপ", "roman": "chupchap", "en": "quiet, reserved", "pos": "adj", "note": "From চুপ \"silent\": চুপ করো \"be quiet\"." },
+    { "native": "হাসিখুশি", "roman": "hashikhushi", "en": "cheerful, always smiling", "pos": "adj" },
+    { "native": "রাগী", "roman": "ragi", "en": "short-tempered, hot-headed", "pos": "adj", "note": "From রাগ \"anger\". Also মাথা গরম (unit 20)." },
+    { "native": "ভদ্র", "roman": "bhôdro", "en": "polite, well-mannered, decent", "pos": "adj", "note": "ভদ্রলোক \"gentleman\", ভদ্রমহিলা \"lady\"." },
+    { "native": "চেনা", "roman": "chena", "en": "to know (a person or place); familiar", "pos": "verb", "note": "চিনি, চেনো, চেনে; past চিনলাম. Facts are জানা: আমি ওকে চিনি \"I know him\", আমি জানি \"I know (that)\"." },
+    { "native": "পরিচয়", "roman": "porichoy", "en": "acquaintance; introduction; identity", "pos": "noun", "note": "পরিচয় করিয়ে দেওয়া \"to introduce\"; আমাদের পরিচয় কলেজে \"we met at college\"." },
+    { "native": "প্রেম", "roman": "prem", "en": "love (romantic)", "pos": "noun", "note": "প্রেম করা \"to be going out with, to date\"; প্রেমে পড়া \"to fall in love\"." },
+    { "native": "বয়ফ্রেন্ড", "roman": "bôyphrenḍ", "en": "boyfriend", "pos": "noun", "note": "The English words are what everyone uses; প্রেমিক / প্রেমিকা are for songs and novels." },
+    { "native": "গার্লফ্রেন্ড", "roman": "garlphrenḍ", "en": "girlfriend", "pos": "noun" },
+    { "native": "চশমা", "roman": "chôshma", "en": "glasses, spectacles", "pos": "noun", "note": "চশমা পরা \"to wear glasses\"." },
+    { "native": "কোঁকড়া", "roman": "koṃkṛa", "en": "curly", "pos": "adj", "note": "কোঁকড়া চুল \"curly hair\"; straight hair is সোজা চুল." },
+    { "native": "হ্যান্ডসাম", "roman": "hænḍsam", "en": "handsome, good-looking (man)", "pos": "adj", "note": "For a woman: সুন্দর, or the English সুইট / কিউট." },
+    { "native": "মতো", "roman": "môto", "en": "like, similar to", "pos": "postp", "note": "After -এর: মায়ের মতো \"like her mother\", আমার মতো \"like me\". Also spelled মত." },
+    { "native": "বাজে", "roman": "baje", "en": "bad, awful, rubbish", "pos": "adj", "note": "Colloquial: বাজে লোক \"a bad lot\", বাজে কথা \"nonsense, nasty talk\"." },
+    { "native": "বোকা", "roman": "boka", "en": "silly, stupid, naive", "pos": "adj", "note": "বোকার মতো \"like an idiot\". Gentle among friends, rude to strangers." },
+    { "native": "কিপটে", "roman": "kipṭe", "en": "stingy, tight-fisted", "pos": "adj", "note": "Colloquial; the careful word is কৃপণ (kripon)." },
+    { "native": "অলস", "roman": "ôlosh", "en": "lazy", "pos": "adj", "note": "In West Bengal also কুঁড়ে (kuṃṛe)." },
+    { "native": "বুদ্ধি", "roman": "buddhi", "en": "intelligence, sense, an idea", "pos": "noun", "note": "ওর বুদ্ধি আছে \"he's smart\"; বুদ্ধিমান \"clever\"; একটা বুদ্ধি দাও \"give me an idea\"." },
+    { "native": "সৎ", "roman": "shôt", "en": "honest", "pos": "adj" },
+    { "native": "মেজাজ", "roman": "mejaj", "en": "mood, temper", "pos": "noun", "note": "মেজাজ খারাপ \"in a bad mood\"; মেজাজ ভালো \"in a good mood\". বদমেজাজি \"bad-tempered\"." },
+    { "native": "মিথ্যে", "roman": "mitthe", "en": "lie; false", "pos": "noun", "note": "মিথ্যে বলা \"to lie\". Written also মিথ্যা (mittha)." },
+    { "native": "সম্পর্ক", "roman": "shômporko", "en": "relationship, connection", "pos": "noun", "note": "X-এর সম্পর্কে \"about X\"." },
+    { "native": "বউ", "roman": "bou", "en": "wife (everyday)", "pos": "noun", "note": "স্ত্রী (unit 3) is the formal word. Also \"bride\"." },
+    { "native": "বর", "roman": "bôr", "en": "husband (everyday); bridegroom", "pos": "noun", "note": "স্বামী (unit 3) is the formal word. In Bangladesh জামাই is also used for \"husband\" in speech." },
+    { "native": "শ্বশুরবাড়ি", "roman": "shoshurbaṛi", "en": "in-laws' home; in-laws", "pos": "noun", "note": "শ্বশুর \"father-in-law\"." },
+    { "native": "শ্বশুর", "roman": "shoshur", "en": "father-in-law", "pos": "noun" },
+    { "native": "শাশুড়ি", "roman": "shashuṛi", "en": "mother-in-law", "pos": "noun" },
+    { "native": "গসিপ", "roman": "gôsip", "en": "gossip", "pos": "noun", "note": "গসিপ করা \"to gossip\". A more Bengali phrase is পরনিন্দা-পরচর্চা \"talking about others behind their backs\"." }
+  ],
+  "phrases": [
+    { "native": "ও কেমন মানুষ?", "roman": "o kæmon manush?", "en": "What's he like (as a person)?" },
+    { "native": "ও খুব ভালো মনের মানুষ।", "roman": "o khub bhalo moner manush.", "en": "She's a really kind-hearted person.", "note": "Lit. \"a person of a good mind\"." },
+    { "native": "ওর সঙ্গে আমার পরিচয় করিয়ে দাও।", "roman": "or shôṅge amar porichoy koriye dao.", "en": "Introduce me to him." },
+    { "native": "তোমার কি বয়ফ্রেন্ড আছে?", "roman": "tomar ki bôyphrenḍ achhe?", "en": "Do you have a boyfriend?" },
+    { "native": "ও কারও সঙ্গে প্রেম করছে।", "roman": "o karo shôṅge prem korchhe.", "en": "She's seeing someone." },
+    { "native": "ও দেখতে কেমন?", "roman": "o dekhte kæmon?", "en": "What does he look like?" },
+    { "native": "ও দেখতে একদম ওর মায়ের মতো।", "roman": "o dekhte ækdôm or mayer môto.", "en": "She looks just like her mother." },
+    { "native": "তোমাকে খুব ক্লান্ত লাগছে।", "roman": "tomake khub klanto lagchhe.", "en": "You look really tired." },
+    { "native": "দেখে মনে হয় খুব রাগী।", "roman": "dekhe mone hôy khub ragi.", "en": "He looks like he has a temper." },
+    { "native": "ও আমার কাছে বোনের মতো।", "roman": "o amar kachhe boner môto.", "en": "She's like a sister to me." },
+    { "native": "ওদের মধ্যে ঝগড়া হয়েছে।", "roman": "oder moddhe jhôgṛa hoyechhe.", "en": "They've had a fight." },
+    { "native": "ওদের মধ্যে কিছু চলছে নাকি?", "roman": "oder moddhe kichhu cholchhe naki?", "en": "Is something going on between them?" },
+    { "native": "কাউকে বোলো না কিন্তু!", "roman": "kauke bolo na kintu!", "en": "Don't tell anyone, OK?", "note": "To a তুই friend: কাউকে বলিস না কিন্তু!" },
+    { "native": "ছাড়ো তো, ওর কথা বাদ দাও।", "roman": "chhaṛo to, or kôtha bad dao.", "en": "Forget it, never mind him." }
+  ],
+  "grammar": [
+    {
+      "title": "Who, whom, whose: relative clauses in full",
+      "body": "Unit 20 introduced the pair **যে … সে** 'the one who … he/she'. To talk about people you need the whole set, because **যে** changes its form like any pronoun, depending on its role in *its own* clause:\n\n**যে** 'who' (subject): **যে** ছেলেটা কাল এসেছিল 'the boy who came yesterday'\n**যাকে** 'whom' (object): **যাকে** তুমি কাল দেখলে 'the one you saw yesterday'\n**যার** 'whose, of whom': **যার** বোন ডাক্তার 'the one whose sister is a doctor'; with postpositions: **যার সঙ্গে** 'with whom', **যার কাছে**, **যার জন্য**\n**যারা / যাদের** 'who / whom, whose' (plural)\n**যেটা / যেগুলো** 'the one(s) which' (things); **যা** 'what'\nRespectful forms: **যিনি, যাঁকে, যাঁর** (correlative **তিনি, তাঁকে, তাঁর**).\n\n**How to build it:** the যে-clause comes **first** and keeps its noun with a classifier; the main clause then picks the person up again with **সে / ও / তাকে / তার**, or **এই / ওই … টা**:\n**যার সঙ্গে** কাল দেখা হলো, **সে** আমার বস. 'The man I met yesterday is my boss.'\n**যে** মেয়েটা গান গাইছিল, **তাকে** চেনো? 'Do you know the girl who was singing?'\n\nEach half takes the case *its own* verb needs: in the second example যে is the subject of গাইছিল, but তাকে is the object of চেনো.\n\nIn speech you'll also hear the English-like order, with the যে-clause after the noun: **ওই মেয়েটা, যে কাল এসেছিল**, ও আমার বোন. It's fine, but the যে-first order sounds more natural.\n\n**The trap:** English 'the guy I like' has no 'who' at all; Bengali always needs the যে-word: *আমি পছন্দ করি ছেলেটা* is wrong. Say **যাকে** আমি পছন্দ করি, **সে**….",
+      "examples": [
+        { "native": "যে ছেলেটা চশমা পরে আছে, ও আমার ভাই।", "roman": "je chheleṭa chôshma pore achhe, o amar bhai.", "en": "The boy who's wearing glasses is my brother." },
+        { "native": "যার সঙ্গে কাল দেখা হলো, সে আমার পুরনো বন্ধু।", "roman": "jar shôṅge kal dækha holo, she amar purono bondhu.", "en": "The person I met yesterday is an old friend." },
+        { "native": "যাকে তুমি পছন্দ করো, তাকে বলে দাও!", "roman": "jake tumi pôchhondo kôro, take bole dao!", "en": "Just tell the person you like!" },
+        { "native": "যে কাল এসেছিল, তাকে আমি চিনি না।", "roman": "je kal eshechhilo, take ami chini na.", "en": "I don't know the guy who came yesterday." },
+        { "native": "যেটা বললাম, কাউকে বোলো না।", "roman": "jeṭa bollam, kauke bolo na.", "en": "Don't tell anyone what I told you." }
+      ]
+    },
+    {
+      "title": "The short way: চশমা পরা ছেলেটা (-আ participle and -ওয়ালা)",
+      "body": "Full যে-clauses are long. In everyday speech Bengalis often squeeze the clause into a **participle in -আ** placed **before** the noun, like English 'the glasses-wearing boy':\n\nযে ছেলেটা চশমা পরে আছে → **চশমা পরা** ছেলেটা 'the boy in glasses'\nযে জামাটা কাল কিনলাম → কাল **কেনা** জামাটা 'the shirt I bought yesterday'\nযে লোকটাকে আমি চিনি → আমার **চেনা** একজন 'someone I know'\n\nThe participle has the same shape as the verbal noun: করা, দেখা, পরা, কেনা, লেখা, ভাঙা, বানানো. It **never** takes a person ending. If you need to say who did it, put the doer in the possessive: **আমার দেখা** সবচেয়ে ভালো ছবি 'the best film I've (ever) seen', **মায়ের বানানো** মিষ্টি 'sweets Mum made', **তোমার লেখা** চিঠি 'the letter you wrote'.\n\n**-ওয়ালা** 'the one with / of' (masc. and fem. alike in speech) is the other quick way to pick someone out: **দাড়িওয়ালা** লোকটা 'the bearded man', **চশমাওয়ালা** ছেলেটা. It also makes job words: চাওয়ালা 'tea-seller', ফুচকাওয়ালা.\n\nA possessive noun works too: **কোঁকড়া চুলের** মেয়েটা 'the girl with curly hair', **লাল শাড়ির** মহিলা.\n\n**The trap:** don't use a finite verb here: *চশমা পরছে ছেলেটা* is wrong. Either the full clause (যে ছেলেটা চশমা পরে আছে) or the participle (চশমা পরা ছেলেটা).",
+      "examples": [
+        { "native": "লাল শাড়ি পরা মেয়েটা কে?", "roman": "lal shaṛi pôra meyeṭa ke?", "en": "Who's the girl in the red sari?" },
+        { "native": "ও আমার অনেক দিনের চেনা।", "roman": "o amar ônek diner chena.", "en": "I've known him for years." },
+        { "native": "কাল কেনা জামাটা ছোট হয়েছে।", "roman": "kal kena jamaṭa chhoṭo hoyechhe.", "en": "The shirt I bought yesterday is too small." },
+        { "native": "এটা আমার দেখা সবচেয়ে বাজে ছবি।", "roman": "æṭa amar dækha shôbcheye baje chhobi.", "en": "This is the worst film I've ever seen." },
+        { "native": "দাড়িওয়ালা লোকটা আমাদের নতুন বস।", "roman": "daṛiwala lokṭa amader notun bôs.", "en": "The man with the beard is our new boss." }
+      ]
+    },
+    {
+      "title": "Looks, seems, like: দেখতে, লাগছে, মনে হচ্ছে, মতো",
+      "body": "English 'look' does several jobs; Bengali splits them up.\n\n**What someone looks like (always): দেখতে** + adjective: ও **দেখতে** খুব সুন্দর 'she's very good-looking'; ও **দেখতে** কেমন? 'what does he look like?'\n\n**How someone looks right now: -কে + adjective + লাগছে**: তোমাকে আজ দারুণ **লাগছে** 'you look great today', ওকে ক্লান্ত **লাগছে** 'he looks tired'. It's the same impersonal লাগা as আমার ভালো লাগে: literally 'you strike (me) as great'. The person looked at takes **-কে**.\n\n**Seems: মনে হচ্ছে / মনে হয়** (unit 14). Say what it's based on with the -এ form: **দেখে মনে হচ্ছে** 'from the look of it', **শুনে মনে হলো** 'it sounded like'. ওকে **দেখে মনে হয়** খুব রাগী 'he looks like he has a temper'.\n\n**Like: -এর মতো**: মায়ের **মতো**, আমার **মতো**, বোকার **মতো** 'like an idiot'. With দেখতে: দেখতে ওর বাবার **মতো** 'he looks like his dad'.\n\n**As if: যেন**: ও এমনভাবে কথা বলে **যেন** সব জানে 'she talks as if she knows everything'.\n\n**The trap:** 'you look tired' is never *তুমি ক্লান্ত দেখছ* (that means 'you are seeing tired'!). Say **তোমাকে** ক্লান্ত **লাগছে**.",
+      "examples": [
+        { "native": "তোমাকে আজ খুব সুন্দর লাগছে!", "roman": "tomake aj khub shundor lagchhe!", "en": "You look lovely today!" },
+        { "native": "ও দেখতে ঠিক ওর বাবার মতো।", "roman": "o dekhte ṭhik or babar môto.", "en": "He looks exactly like his dad." },
+        { "native": "দেখে মনে হচ্ছে ওর মন খারাপ।", "roman": "dekhe mone hochchhe or mon kharap.", "en": "She looks upset." },
+        { "native": "শুনে মনে হলো ও খুব রেগে আছে।", "roman": "shune mone holo o khub rege achhe.", "en": "He sounded really angry." },
+        { "native": "ও এমনভাবে কথা বলে যেন সব জানে।", "roman": "o æmonbhabe kôtha bole jæno shôb jane.", "en": "She talks as if she knows everything." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Who's that?",
+    "setting": "Sohini and Mitali, college friends, are at their friend Tinni's birthday party in a café in Salt Lake, Kolkata. They use তুই with each other.",
+    "lines": [
+      { "speaker": "Sohini", "native": "এই, ওই নীল শার্ট পরা ছেলেটা কে রে?", "roman": "ei, oi nil sharṭ pôra chheleṭa ke re?", "en": "Hey, who's the guy in the blue shirt?" },
+      { "speaker": "Mitali", "native": "ওটা? ঋজু, তিন্নির নতুন বয়ফ্রেন্ড।", "roman": "oṭa? riju, tinnir notun bôyphrenḍ.", "en": "Him? That's Riju, Tinni's new boyfriend." },
+      { "speaker": "Sohini", "native": "সত্যি? দেখে তো খুব ভদ্র মনে হচ্ছে।", "roman": "shotti? dekhe to khub bhôdro mone hochchhe.", "en": "Really? He looks very decent." },
+      { "speaker": "Mitali", "native": "ভদ্র, কিন্তু একটু চুপচাপ। আর শুনেছি খুব কিপটে!", "roman": "bhôdro, kintu ekṭu chupchap. ar shunechhi khub kipṭe!", "en": "Decent, but a bit quiet. And I hear he's really stingy!" },
+      { "speaker": "Sohini", "native": "কে বলল?", "roman": "ke bollo?", "en": "Who said?" },
+      { "speaker": "Mitali", "native": "তিন্নি নিজেই। প্রথম ডেটে নাকি বিলটা অর্ধেক-অর্ধেক করেছিল।", "roman": "tinni nijei. prôthom ḍeṭe naki bilṭa ôrdhek-ôrdhek korechhilo.", "en": "Tinni herself. Apparently on their first date he split the bill half and half." },
+      { "speaker": "Sohini", "native": "তাতে কী? সেটা তো ভালো! যারা সব বিল দেয়, তারাই পরে ঝামেলা করে।", "roman": "tate ki? sheṭa to bhalo! jara shôb bil dey, tarai pôre jhamela kore.", "en": "So what? That's good! The ones who pay for everything are the ones who cause trouble later." },
+      { "speaker": "Mitali", "native": "হা হা, তুই একদম তিন্নির মতো কথা বলছিস।", "roman": "ha ha, tui ækdôm tinnir môto kôtha bolchhish.", "en": "Ha ha, you sound just like Tinni." },
+      { "speaker": "Sohini", "native": "আচ্ছা শোন, তিন্নির মা ওকে চেনে?", "roman": "achchha shon, tinnir ma oke chene?", "en": "OK, listen, does Tinni's mum know him?" },
+      { "speaker": "Mitali", "native": "না রে! কাউকে বলিস না কিন্তু, ওর বাড়িতে এখনও কেউ জানে না।", "roman": "na re! kauke bolish na kintu, or baṛite ækhono keu jane na.", "en": "No way! Don't tell anyone, nobody at her home knows yet." },
+      { "speaker": "Sohini", "native": "আমি? আমি কাউকে কিছু বলি না, জানিস তো।", "roman": "ami? ami kauke kichhu boli na, janish to.", "en": "Me? I never tell anyone anything, you know that." },
+      { "speaker": "Mitali", "native": "হ্যাঁ, সেই জন্যই তো পুরো কলেজ সব জানে!", "roman": "hæṃ, shei jonnoi to puro kolej shôb jane!", "en": "Yeah, that's exactly why the whole college knows everything!" },
+      { "speaker": "Sohini", "native": "চুপ! ও এদিকেই আসছে… হাই ঋজু! আমি সোহিনী, তিন্নির সবচেয়ে পুরনো বন্ধু।", "roman": "chup! o edikei ashchhe… hai riju! ami shohini, tinnir shôbcheye purono bondhu.", "en": "Shh! He's coming this way… Hi Riju! I'm Sohini, Tinni's oldest friend." }
+    ]
+  },
+  "culture": "Bengalis talk about people very directly, especially within the family: an aunt may greet you with **কী মোটা হয়ে গেছিস!** 'you've got fat!' or **এত রোগা হয়ে গেছ কেন?** and mean it as affection, not insult. Comments on skin colour (**ফর্সা** 'fair', **কালো** 'dark') are sadly still common, especially around marriage; many young people now push back against them, and you are better off not joining in. Dating (**প্রেম করা**) is ordinary among young people in Kolkata and Dhaka, but it is often kept from parents until it's serious; people distinguish a **লাভ ম্যারেজ** from an arranged one (**দেখাশোনা করে বিয়ে**, or **অ্যারেঞ্জড ম্যারেজ**). After marriage many women move in with their in-laws (**শ্বশুরবাড়ি**), and the bride's relationship with her **শাশুড়ি** is the stuff of a thousand TV serials. Gossip is a national pastime, usually done in an **আড্ডা**; the polite fiction is always **আমি গসিপ করি না, শুধু বলছি…** 'I don't gossip, I'm just saying…'. When describing someone to their face, **ভালো মনের মানুষ** 'good-hearted' is the highest praise.",
+  "lessons": [
+    {
+      "title": "Saying what someone's like",
+      "new": ["স্বভাব", "মিশুকে", "চুপচাপ", "হাসিখুশি", "রাগী", "ভদ্র", "ও কেমন মানুষ?", "ও খুব ভালো মনের মানুষ।"],
+      "sentences": [
+        { "native": "তোমার নতুন বস কেমন মানুষ?", "roman": "tomar notun bôs kæmon manush?", "en": "What's your new boss like?" },
+        { "native": "খুব ভদ্র, কিন্তু একটু চুপচাপ।", "roman": "khub bhôdro, kintu ekṭu chupchap.", "en": "Very polite, but a bit quiet." },
+        { "native": "ও খুব মিশুকে, সবার সঙ্গে কথা বলে।", "roman": "o khub mishuke, shôbar shôṅge kôtha bole.", "en": "She's very outgoing, she talks to everyone." },
+        { "native": "আমার বোন সবসময় হাসিখুশি থাকে।", "roman": "amar bon shôbshômoy hashikhushi thake.", "en": "My sister is always cheerful." },
+        { "native": "ওর স্বভাবটা একটু রাগী।", "roman": "or shôbhabṭa ekṭu ragi.", "en": "He has a bit of a temper." },
+        { "native": "বাবা রাগী, কিন্তু মনটা খুব ভালো।", "roman": "baba ragi, kintu monṭa khub bhalo.", "en": "Dad's short-tempered, but he has a good heart." },
+        { "native": "ও খুব ভালো মনের মানুষ, সবাইকে সাহায্য করে।", "roman": "o khub bhalo moner manush, shôbaike shahajjo kore.", "en": "He's a really kind person, he helps everyone." },
+        { "native": "আমি একটু চুপচাপ, বেশি কথা বলি না।", "roman": "ami ekṭu chupchap, beshi kôtha boli na.", "en": "I'm a bit quiet, I don't talk much." },
+        { "native": "ছোটবেলায় ও খুব চুপচাপ ছিল, এখন খুব মিশুকে।", "roman": "chhoṭobælay o khub chupchap chhilo, ækhon khub mishuke.", "en": "She was very quiet as a child; now she's really outgoing." }
+      ]
+    },
+    {
+      "title": "The one who…, the one whose…",
+      "tip": { "title": "যে, যাকে, যার, যারা", "body": "- **যে** changes like a pronoun: **যে** 'who', **যাকে** 'whom', **যার** 'whose' (**যার সঙ্গে** 'with whom'), **যারা / যাদের** (plural).\n- The যে-clause comes **first**; the main clause picks it up with **সে / ও / তাকে / তার**.\n- Each half takes the case its *own* verb needs: যে এসেছিল, **তাকে** চিনি না.", "pattern": "যে / যাকে / যার … , সে / তাকে / তার …", "grammar": 0 },
+      "new": ["চেনা", "পরিচয়", "প্রেম", "বয়ফ্রেন্ড", "গার্লফ্রেন্ড", "ওর সঙ্গে আমার পরিচয় করিয়ে দাও।", "তোমার কি বয়ফ্রেন্ড আছে?", "ও কারও সঙ্গে প্রেম করছে।"],
+      "sentences": [
+        { "native": "যে ছেলেটার সঙ্গে ও প্রেম করছে, তাকে আমি চিনি।", "roman": "je chheleṭar shôṅge o prem korchhe, take ami chini.", "en": "I know the guy she's going out with.", "focus": "তাকে", "wrong": ["সে|she", "তার|tar"] },
+        { "native": "যার কথা বলছিলাম, এই সেই মেয়ে।", "roman": "jar kôtha bolchhilam, ei shei meye.", "en": "This is the girl I was telling you about.", "focus": "যার", "wrong": ["যে|je", "যাকে|jake"] },
+        { "native": "যাকে তুমি কাল দেখলে, ও আমার বয়ফ্রেন্ড।", "roman": "jake tumi kal dekhle, o amar bôyphrenḍ.", "en": "The guy you saw yesterday is my boyfriend.", "focus": "যাকে", "wrong": ["যে|je", "যার|jar"] },
+        { "native": "যারা পার্টিতে আসছে, তাদের সবাইকে চেনো?", "roman": "jara parṭite ashchhe, tader shôbaike cheno?", "en": "Do you know everyone who's coming to the party?", "focus": "যারা", "wrong": ["যাদের|jader", "যাকে|jake"] },
+        { "native": "যার সঙ্গে ওর বিয়ে হচ্ছে, সে আমার কলেজের বন্ধু।", "roman": "jar shôṅge or biye hochchhe, she amar kolejer bondhu.", "en": "The man she's marrying is a friend from college.", "focus": "যার", "wrong": ["যে|je", "যাকে|jake"] },
+        { "native": "যাদের সঙ্গে আমি থাকি, তারা সবাই খুব মিশুকে।", "roman": "jader shôṅge ami thaki, tara shôbai khub mishuke.", "en": "The people I live with are all very sociable.", "focus": "যাদের", "wrong": ["যারা|jara", "যার|jar"] },
+        { "native": "যে আমাকে প্রথম বাংলা শিখিয়েছিল, তার সঙ্গে আজও যোগাযোগ আছে।", "roman": "je amake prôthom baṅla shikhiyechhilo, tar shôṅge ajo jogajog achhe.", "en": "I'm still in touch with the person who first taught me Bengali.", "focus": "তার", "wrong": ["সে|she", "তাকে|take"] },
+        { "native": "ওর সঙ্গে আমার পরিচয় করিয়ে দেবে?", "roman": "or shôṅge amar porichoy koriye debe?", "en": "Will you introduce me to her?" },
+        { "native": "ওর গার্লফ্রেন্ডকে তুমি চেনো?", "roman": "or garlphrenḍke tumi cheno?", "en": "Do you know his girlfriend?" },
+        { "native": "আমাদের পরিচয় একটা বিয়েতে।", "roman": "amader porichoy ækṭa biyete.", "en": "We met at a wedding." }
+      ]
+    },
+    {
+      "title": "Pointing someone out",
+      "tip": { "title": "চশমা পরা ছেলেটা: the short way", "body": "- Squeeze 'the one who…' into an **-আ** form before the noun: চশমা **পরা** ছেলেটা 'the boy in glasses'.\n- The doer goes in **-র**: আমার **চেনা** দোকান 'a shop I know', তোমার **লেখা** চিঠি.\n- **-ওয়ালা** 'with': দাড়ি**ওয়ালা** লোকটা 'the man with the beard'.\n- No person endings: never *পরছে ছেলেটা*.", "pattern": "চশমা পরা + ছেলেটা  ·  দাড়িওয়ালা + লোকটা", "grammar": 1 },
+      "new": ["চশমা", "কোঁকড়া", "হ্যান্ডসাম", "ও দেখতে কেমন?"],
+      "sentences": [
+        { "native": "চশমা পরা ছেলেটা কে?", "roman": "chôshma pôra chheleṭa ke?", "en": "Who's the boy in glasses?", "focus": "পরা", "wrong": ["পরে|pore", "পরছে|pôrchhe"] },
+        { "native": "কালো জামা পরা লোকটা অনেকক্ষণ দাঁড়িয়ে আছে।", "roman": "kalo jama pôra lokṭa ônekkhôn daṃṛiye achhe.", "en": "The man in the black shirt has been standing there for ages.", "focus": "পরা", "wrong": ["পরে|pore", "পরো|pôro"] },
+        { "native": "দাড়িওয়ালা হ্যান্ডসাম লোকটা কে?", "roman": "daṛiwala hænḍsam lokṭa ke?", "en": "Who's the handsome guy with the beard?", "focus": "দাড়িওয়ালা", "wrong": ["দাড়ির|daṛir", "দাড়ি|daṛi"] },
+        { "native": "এটা আমার চেনা দোকান, দাম কম নেবে।", "roman": "æṭa amar chena dokan, dam kôm nebe.", "en": "It's a shop I know, they'll charge less.", "focus": "চেনা", "wrong": ["চিনি|chini", "চেনে|chene"] },
+        { "native": "মায়ের বানানো মিষ্টি সবচেয়ে ভালো।", "roman": "mayer banano mishṭi shôbcheye bhalo.", "en": "Mum's homemade sweets are the best.", "focus": "বানানো", "wrong": ["বানায়|banay", "বানিয়ে|baniye"] },
+        { "native": "আমার দেখা সবচেয়ে হ্যান্ডসাম লোক আমার দাদু!", "roman": "amar dækha shôbcheye hænḍsam lok amar dadu!", "en": "The most handsome man I've ever seen is my grandpa!", "focus": "দেখা", "wrong": ["দেখি|dekhi", "দেখে|dekhe"] },
+        { "native": "গতকাল কেনা চশমাটা ভেঙে গেছে।", "roman": "gôtokal kena chôshmaṭa bheṅe gechhe.", "en": "The glasses I bought yesterday have broken.", "focus": "কেনা", "wrong": ["কিনি|kini", "কিনে|kine"] },
+        { "native": "তোমার লেখা চিঠিটা এখনও রেখে দিয়েছি।", "roman": "tomar lekha chiṭhiṭa ækhono rekhe diyechhi.", "en": "I've still kept the letter you wrote.", "focus": "লেখা", "wrong": ["লেখো|lekho", "লিখে|likhe"] },
+        { "native": "কোঁকড়া চুলের মেয়েটা আমার বোনের বন্ধু।", "roman": "koṃkṛa chuler meyeṭa amar boner bondhu.", "en": "The girl with curly hair is my sister's friend." },
+        { "native": "ও দেখতে কেমন? — লম্বা, চশমা পরে, চুল কোঁকড়া।", "roman": "o dekhte kæmon? — lômba, chôshma pore, chul koṃkṛa.", "en": "What does he look like? — Tall, wears glasses, curly hair." },
+        { "native": "ও চশমা ছাড়া কিছু দেখতে পায় না।", "roman": "o chôshma chhaṛa kichhu dekhte pay na.", "en": "She can't see a thing without her glasses." }
+      ]
+    },
+    {
+      "title": "You look great! Looks and seems",
+      "tip": { "title": "দেখতে, লাগছে, মনে হচ্ছে, মতো", "body": "- Looks (always): **দেখতে** + adjective: ও **দেখতে** সুন্দর.\n- Looks (right now): person**-কে** + adjective + **লাগছে**: তোমাকে দারুণ **লাগছে**!\n- Seems: (**দেখে / শুনে**) **মনে হচ্ছে**.\n- Like: **-এর মতো**: মায়ের **মতো**.\n- Never *তুমি ক্লান্ত দেখছ*.", "pattern": "X-কে + adj + লাগছে  ·  X-এর মতো", "grammar": 2 },
+      "new": ["মতো", "বাজে", "বোকা", "ও দেখতে একদম ওর মায়ের মতো।", "তোমাকে খুব ক্লান্ত লাগছে।", "দেখে মনে হয় খুব রাগী।", "ও আমার কাছে বোনের মতো।"],
+      "sentences": [
+        { "native": "তোমাকে আজ দারুণ লাগছে!", "roman": "tomake aj darun lagchhe!", "en": "You look amazing today!", "focus": "লাগছে", "wrong": ["দেখছে|dekhchhe", "দেখতে|dekhte"] },
+        { "native": "শাড়িতে তোমাকে খুব সুন্দর লাগছে।", "roman": "shaṛite tomake khub shundor lagchhe.", "en": "You look lovely in a sari.", "focus": "তোমাকে", "wrong": ["তুমি|tumi", "তোমার|tomar"] },
+        { "native": "ও দেখতে ওর বাবার মতো, কিন্তু স্বভাবটা মায়ের মতো।", "roman": "o dekhte or babar môto, kintu shôbhabṭa mayer môto.", "en": "He looks like his dad, but he's got his mum's nature.", "focus": "মতো", "wrong": ["চেয়ে|cheye", "সঙ্গে|shôṅge"] },
+        { "native": "আমার মতো বোকা কেউ নেই!", "roman": "amar môto boka keu nei!", "en": "There's nobody as silly as me!", "focus": "মতো", "wrong": ["সঙ্গে|shôṅge", "জন্য|jonno"] },
+        { "native": "ওকে দেখে মনে হচ্ছে খুব রেগে আছে।", "roman": "oke dekhe mone hochchhe khub rege achhe.", "en": "From the look of him, he is really angry.", "focus": "দেখে", "wrong": ["দেখতে|dekhte", "দেখছি|dekhchhi"] },
+        { "native": "ছবিটা খুব বাজে এসেছে, আমাকে বুড়ো লাগছে!", "roman": "chhobiṭa khub baje eshechhe, amake buṛo lagchhe!", "en": "The photo's come out awful, I look old!", "focus": "লাগছে", "wrong": ["দেখছে|dekhchhe", "হচ্ছে|hochchhe"] },
+        { "native": "শুনে মনে হলো ও খুশি না।", "roman": "shune mone holo o khushi na.", "en": "She didn't sound happy.", "focus": "শুনে", "wrong": ["শুনতে|shunte", "শোনো|shono"] },
+        { "native": "ছেলেটা দেখতে দারুণ, কিন্তু খুব বাজে কথা বলে।", "roman": "chheleṭa dekhte darun, kintu khub baje kôtha bole.", "en": "He looks great, but he talks a lot of rubbish.", "focus": "দেখতে", "wrong": ["দেখে|dekhe", "লাগছে|lagchhe"] },
+        { "native": "তোমাকে খুব ক্লান্ত লাগছে, রাতে ঘুম হয়নি?", "roman": "tomake khub klanto lagchhe, rate ghum hoyni?", "en": "You look really tired, didn't you sleep last night?", "focus": "লাগছে", "wrong": ["দেখছে|dekhchhe", "দেখতে|dekhte"] },
+        { "native": "ও আমার কাছে বোনের মতো, ওর জন্য সব করতে পারি।", "roman": "o amar kachhe boner môto, or jonno shôb korte pari.", "en": "She's like a sister to me, I'd do anything for her.", "focus": "মতো", "wrong": ["চেয়ে|cheye", "জন্য|jonno"] }
+      ]
+    },
+    {
+      "title": "Good points and bad points",
+      "new": ["কিপটে", "অলস", "বুদ্ধি", "সৎ", "মেজাজ", "মিথ্যে"],
+      "sentences": [
+        { "native": "ও এত কিপটে, কখনও কাউকে কিছু খাওয়ায় না!", "roman": "o æto kipṭe, kôkhono kauke kichhu khaway na!", "en": "He's so stingy, he never treats anyone to anything!" },
+        { "native": "আমার ভাইটা খুব অলস, ছুটির দিনে সারাদিন ঘুমোয়।", "roman": "amar bhaiṭa khub ôlosh, chhuṭir dine sharadin ghumoy.", "en": "My brother is really lazy, he sleeps all day on holidays." },
+        { "native": "ওর বুদ্ধি আছে, কিন্তু একদম পড়াশোনা করে না।", "roman": "or buddhi achhe, kintu ækdôm pôṛashona kore na.", "en": "He's bright, but he doesn't study at all." },
+        { "native": "বোকার মতো কথা বোলো না!", "roman": "bokar môto kôtha bolo na!", "en": "Don't talk like an idiot!" },
+        { "native": "মানুষটা খুব সৎ, টাকা নিয়ে কোনো ঝামেলা নেই।", "roman": "manushṭa khub shôt, ṭaka niye kono jhamela nei.", "en": "He's very honest, there's never any trouble about money." },
+        { "native": "যেখানে ও যায়, সেখানেই ঝামেলা হয়!", "roman": "jekhane o jay, shekhanei jhamela hôy!", "en": "Wherever he goes, there's trouble!" },
+        { "native": "যারা কিপটে, তাদের সঙ্গে বাইরে খেতে যেতে ভালো লাগে না।", "roman": "jara kipṭe, tader shôṅge baire khete jete bhalo lage na.", "en": "I don't like eating out with stingy people." },
+        { "native": "ওর মেজাজটা আজ খুব খারাপ, এখন কিছু বোলো না।", "roman": "or mejajṭa aj khub kharap, ækhon kichhu bolo na.", "en": "He's in a really foul mood today, don't say anything now." },
+        { "native": "যে মানুষ মিথ্যে বলে, তাকে আমি বিশ্বাস করি না।", "roman": "je manush mitthe bole, take ami bishshash kori na.", "en": "I don't trust people who lie." },
+        { "native": "ও বোকা না, শুধু একটু অলস।", "roman": "o boka na, shudhu ekṭu ôlosh.", "en": "He's not stupid, just a bit lazy." },
+        { "native": "বুদ্ধি থাকলে এই ঝামেলায় পড়তে না।", "roman": "buddhi thakle ei jhamelay poṛte na.", "en": "If you had any sense, you wouldn't have got into this mess." }
+      ]
+    },
+    {
+      "title": "Partners and in-laws",
+      "tip": { "title": "বউ, বর: the everyday words", "body": "- Friends say **বউ** 'wife' and **বর** 'husband'; **স্ত্রী / স্বামী** are for forms and formal talk.\n- In-laws: **শ্বশুর** 'father-in-law', **শাশুড়ি** 'mother-in-law', **শ্বশুরবাড়ি** 'the in-laws' (home)'.\n- A fight 'happens': X-এর সঙ্গে **ঝগড়া হওয়া**." },
+      "new": ["সম্পর্ক", "বউ", "বর", "শ্বশুর", "শ্বশুরবাড়ি", "শাশুড়ি", "ওদের মধ্যে ঝগড়া হয়েছে।"],
+      "sentences": [
+        { "native": "ওদের সম্পর্কটা খুব ভালো।", "roman": "oder shômporkoṭa khub bhalo.", "en": "They have a really good relationship." },
+        { "native": "আমার বউ বাঙালি, তাই বাংলা শিখছি।", "roman": "amar bou baṅali, tai baṅla shikhchhi.", "en": "My wife's Bengali, that's why I'm learning Bengali." },
+        { "native": "দিদির বর খুব মজার মানুষ।", "roman": "didir bôr khub môjar manush.", "en": "My sister's husband is a really fun guy." },
+        { "native": "বিয়ের পরে ও শ্বশুরবাড়িতে থাকে।", "roman": "biyer pôre o shoshurbaṛite thake.", "en": "Since the wedding she has lived with her in-laws." },
+        { "native": "শাশুড়ির সঙ্গে ওর প্রায়ই ঝগড়া হয়।", "roman": "shashuṛir shôṅge or praii jhôgṛa hôy.", "en": "She often fights with her mother-in-law." },
+        { "native": "ওদের মধ্যে আবার ঝগড়া হয়েছে, দুদিন কথা বন্ধ।", "roman": "oder moddhe abar jhôgṛa hoyechhe, dudin kôtha bôndho.", "en": "They've had another fight; they haven't spoken for two days." },
+        { "native": "যে বর রান্না করে, তাকে সবাই ভালোবাসে!", "roman": "je bôr ranna kore, take shôbai bhalobashe!", "en": "Everyone loves a husband who cooks!" },
+        { "native": "ঝগড়া কোরো না, বসে কথা বলো।", "roman": "jhôgṛa koro na, boshe kôtha bôlo.", "en": "Don't fight, sit down and talk." },
+        { "native": "আমার শ্বশুর খুব হাসিখুশি মানুষ।", "roman": "amar shoshur khub hashikhushi manush.", "en": "My father-in-law is a very cheerful man." },
+        { "native": "ওর শ্বশুরবাড়ি চট্টগ্রামে।", "roman": "or shoshurbaṛi chôṭṭograme.", "en": "His in-laws are in Chittagong." }
+      ]
+    },
+    {
+      "title": "A bit of gossip",
+      "new": ["গসিপ", "ওদের মধ্যে কিছু চলছে নাকি?", "কাউকে বোলো না কিন্তু!", "ছাড়ো তো, ওর কথা বাদ দাও।"],
+      "sentences": [
+        { "native": "শুনলাম, তন্ময় নাকি বিয়ে করছে?", "roman": "shunlam, tônmoy naki biye korchhe?", "en": "I heard Tanmoy is getting married, is that true?" },
+        { "native": "ওদের মধ্যে কিছু চলছে নাকি? দুজনকে প্রায়ই একসঙ্গে দেখি।", "roman": "oder moddhe kichhu cholchhe naki? dujonke praii ækshôṅge dekhi.", "en": "Is something going on between them? I often see the two of them together." },
+        { "native": "আমি গসিপ করি না, শুধু যা শুনেছি তাই বলছি!", "roman": "ami gôsip kori na, shudhu ja shunechhi tai bolchhi!", "en": "I don't gossip, I'm just telling you what I've heard!" },
+        { "native": "কাউকে বোলো না কিন্তু, ওর চাকরি চলে গেছে।", "roman": "kauke bolo na kintu, or chakri chole gechhe.", "en": "Don't tell anyone, but he's lost his job." },
+        { "native": "কে বলল তোমাকে?", "roman": "ke bollo tomake?", "en": "Who told you?" },
+        { "native": "ছাড়ো তো, ওর কথা বাদ দাও, অন্য কথা বলো।", "roman": "chhaṛo to, or kôtha bad dao, onno kôtha bôlo.", "en": "Forget it, never mind him, let's talk about something else." },
+        { "native": "অফিসের সবচেয়ে বড় গসিপ এখন বসের নতুন গার্লফ্রেন্ড।", "roman": "ophisher shôbcheye bôṛo gôsip ækhon bôser notun garlphrenḍ.", "en": "The biggest gossip at the office right now is the boss's new girlfriend." },
+        { "native": "যা শুনেছ, সব সত্যি না।", "roman": "ja shunechho, shôb shotti na.", "en": "Not everything you've heard is true." },
+        { "native": "ও নাকি আমার সম্পর্কে বাজে কথা বলছে?", "roman": "o naki amar shômporke baje kôtha bolchhe?", "en": "Is it true she's been saying nasty things about me?" }
+      ]
+    }
+  ]
+}

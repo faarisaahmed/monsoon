@@ -1,0 +1,206 @@
+{
+  "id": 39,
+  "title": "Sounding natural",
+  "goal": "React like a native speaker, check and soften with tag questions, add emphasis with particles, use echo words and doubled words, ask people to repeat or explain, and get round words you don't know.",
+  "intro": "You can have perfect grammar and still sound like a textbook. What makes Bengali sound *Bengali* is the small stuff: **উফ**, **বাপ রে!**, **তাই না?**, a **রে** at the end of a question to a friend, **চা-টা** for 'tea or something', **গরম গরম** for 'nice and hot', and the English words everyone mixes in. Unit 20 introduced the basic particles (তো, -ই, -ও, না) and fillers (মানে, আসলে, যাই হোক); this unit takes them further.\n\nThree grammar points: **tag questions** (তাই না?, না?, নাকি?, তাই তো?), **emphatic and addressing particles** (-ই, -ও with negatives, রে, গো, the affectionate তুই **না**…!, আবার), and **echo words and doubling** (বই-টই, কে কে, আস্তে আস্তে, ঝমঝম). You'll also learn what to say when you don't understand, and how to describe a thing when the word escapes you.",
+  "vocab": [
+    { "native": "উফ", "roman": "uph", "en": "ugh!, phew!, ouch!", "pos": "interj", "note": "Annoyance, tiredness, heat, pain or relief. Also উফফ." },
+    { "native": "বাপ রে", "roman": "bap re", "en": "wow!, gosh!, good grief!", "pos": "interj", "note": "Lit. \"oh father\". Big surprise: price, size, crowd. Doubled for more: বাপ রে বাপ!" },
+    { "native": "সিরিয়াসলি", "roman": "siriasli", "en": "seriously?, really?", "pos": "interj", "note": "English, used by young people everywhere. Bengali: সত্যি?" },
+    { "native": "ধ্যাত", "roman": "dhyæt", "en": "damn!, oh come on!, get away!", "pos": "interj", "note": "Mild frustration or dismissal (West Bengal especially). Similar to ধুর." },
+    { "native": "তাই না", "roman": "tai na", "en": "isn't it?, don't you?, right? (tag question)", "pos": "phrase", "note": "Works after any statement, positive or negative." },
+    { "native": "হুঁ", "roman": "huṃ", "en": "mm-hmm, yes (I'm listening)", "pos": "interj", "note": "Informal yes; also just shows you're following." },
+    { "native": "উঁহু", "roman": "uṃhu", "en": "nope, uh-uh", "pos": "interj", "note": "Informal no." },
+    { "native": "এমনি", "roman": "æmni", "en": "just like that, for no reason", "pos": "adv", "note": "এমনি জিজ্ঞেস করলাম \"I was just asking\". এমনি এমনি = for no particular reason." },
+    { "native": "রে", "roman": "re", "en": "hey (particle addressing a friend, with তুই)", "pos": "particle", "note": "কী রে? \"what's up?\"; হ্যাঁ রে, … \"hey, tell me…\". Only with people you call তুই." },
+    { "native": "গো", "roman": "go", "en": "(warm particle addressing family, elders, a spouse)", "pos": "particle", "note": "Mostly West Bengal: কী গো? \"what is it, dear?\"; মা গো! \"oh mother!\" (shock)." },
+    { "native": "মোটেও", "roman": "moṭeo", "en": "(not) at all", "pos": "adv", "note": "With a negative: মোটেও না \"not at all\", মোটেও ভালো না \"not good at all\"." },
+    { "native": "টুকটাক", "roman": "ṭukṭak", "en": "bits and bobs, a little of this and that", "pos": "adv", "note": "টুকটাক কেনাকাটা \"some odds-and-ends shopping\"; টুকটাক বাংলা বলি." },
+    { "native": "জামাকাপড়", "roman": "jamakapoṛ", "en": "clothes", "pos": "noun", "note": "A fixed pair (জামা + কাপড়)." },
+    { "native": "চা-টা", "roman": "cha-ṭa", "en": "tea or something, tea and snacks", "pos": "phrase", "note": "An echo word: চা + টা. Offers sound warmer: চা-টা খাবেন?" },
+    { "native": "গরম গরম", "roman": "gôrom gôrom", "en": "nice and hot, freshly made", "pos": "adj", "note": "Doubling an adjective intensifies it: গরম গরম সিঙ্গারা." },
+    { "native": "আস্তে আস্তে", "roman": "aste aste", "en": "slowly; gradually", "pos": "adv", "note": "আস্তে আস্তে শিখে যাবে \"you'll pick it up gradually\"." },
+    { "native": "ঝমঝম", "roman": "jhômjhôm", "en": "(raining) heavily, pouring", "pos": "adv", "note": "ঝমঝম করে বৃষ্টি পড়ছে \"it's pouring\". A sound word." },
+    { "native": "ঝকঝকে", "roman": "jhôkjhôke", "en": "sparkling, spotless", "pos": "adj", "note": "ঝকঝকে পরিষ্কার \"spotlessly clean\"." },
+    { "native": "আরেকবার", "roman": "arekbar", "en": "once more, one more time", "pos": "adv" },
+    { "native": "বানান", "roman": "banan", "en": "spelling", "pos": "noun", "note": "বানান করা = to spell." },
+    { "native": "শব্দ", "roman": "shôbdo", "en": "word; sound", "pos": "noun" },
+    { "native": "উচ্চারণ", "roman": "uchcharon", "en": "pronunciation", "pos": "noun" },
+    { "native": "অর্থ", "roman": "ôrtho", "en": "meaning", "pos": "noun", "note": "More formal than মানে: এর অর্থ কী?" },
+    { "native": "জিনিস", "roman": "jinish", "en": "thing", "pos": "noun", "note": "জিনিসটা = the thing. Indispensable when you don't know the word." },
+    { "native": "যেন", "roman": "jæno", "en": "(what was it…?; as if)", "pos": "particle", "note": "Trying to remember: কী যেন নাম? \"what's it called again?\"; as if: যেন কিছুই হয়নি \"as if nothing had happened\"." },
+    { "native": "মেশানো", "roman": "meshano", "en": "to mix", "pos": "verb", "note": "ইংরেজি মিশিয়ে বলা = to mix in English." }
+  ],
+  "phrases": [
+    { "native": "বাপ রে বাপ!", "roman": "bap re bap!", "en": "Good grief! / Wow!" },
+    { "native": "কী আর করা!", "roman": "ki ar kôra!", "en": "What can you do! / Oh well." },
+    { "native": "এমনি এমনি।", "roman": "æmni æmni.", "en": "Just because. / For no reason." },
+    { "native": "মোটেও না!", "roman": "moṭeo na!", "en": "Not at all! / No way!" },
+    { "native": "তুই না, সত্যি!", "roman": "tui na, shotti!", "en": "Honestly, you…! (affectionate exasperation)" },
+    { "native": "ঠিক বুঝলাম না।", "roman": "ṭhik bujhlam na.", "en": "I didn't quite get that." },
+    { "native": "আরেকবার বলবে?", "roman": "arekbar bolbe?", "en": "Could you say that again? (তুমি)", "note": "Polite: আরেকবার বলবেন?" },
+    { "native": "এই শব্দটার মানে কী?", "roman": "ei shôbdoṭar mane ki?", "en": "What does this word mean?" },
+    { "native": "বানানটা কী?", "roman": "bananṭa ki?", "en": "How do you spell it?" },
+    { "native": "একটু আস্তে আস্তে বলবে?", "roman": "ekṭu aste aste bolbe?", "en": "Could you speak a bit more slowly? (তুমি)" },
+    { "native": "এটাকে বাংলায় কী বলে?", "roman": "æṭake baṅlay ki bôle?", "en": "What do you call this in Bengali?" },
+    { "native": "কী যেন নাম…", "roman": "ki jæno nam…", "en": "What's it called again…" },
+    { "native": "ওই যে জিনিসটা, যেটা দিয়ে চুল শুকায়!", "roman": "oi je jinishṭa, jeṭa diye chul shukay!", "en": "You know, that thing you dry your hair with!" },
+    { "native": "আমি বাংলা-ইংরেজি মিশিয়ে বলি।", "roman": "ami baṅla-iṅreji mishiye boli.", "en": "I mix Bengali and English." },
+    { "native": "সে আর বলতে!", "roman": "she ar bolte!", "en": "Need you ask! / Of course!" }
+  ],
+  "grammar": [
+    {
+      "title": "Tag questions: তাই না?, না?, নাকি?, তাই তো?",
+      "body": "English tag questions change with the verb ('isn't it?', 'don't you?', 'won't she?'). Bengali tags **never change**; you just pick the one with the right attitude and add it after the statement:\n\n- **…, তাই না?** 'isn't it? / don't you? / right?' – the all-purpose tag, after positive *or* negative statements: সিনেমাটা ভালো, **তাই না**?; তুমি আসবে না, **তাই না**?\n- **…, না?** – shorter, friendlier, very common: সুন্দর, **না**?\n- **…, তাই তো?** 'that's right, isn't it?' – checking something you assume: কাল ছুটি, **তাই তো**?\n- **…, নাকি?** 'or what? / or is it…?' – suspicion or a real alternative: অসুস্থ **নাকি**? 'are you ill or something?'; চা খাবে, **নাকি** কফি? 'tea, or coffee?'\n- **…, হ্যাঁ? / বুঝলে? / ঠিক আছে?** – after instructions: 'OK? got it?': সাতটার মধ্যে চলে এসো, **ঠিক আছে**?\n- **কী বলো?** 'what do you say?' – inviting agreement with a suggestion.\n\n**Answering**: informal yes is **হুঁ** or হ্যাঁ, informal no is **উঁহু** or না. With a negative question, the clearest answer repeats the verb: খাওনি, তাই না? – **খাইনি** (no, I haven't) / **খেয়েছি** (yes I have).\n\nIntonation matters: the tag rises like a question; the statement before it is said normally.",
+      "examples": [
+        { "native": "আজ খুব গরম, তাই না?", "roman": "aj khub gôrom, tai na?", "en": "It's really hot today, isn't it?" },
+        { "native": "তুই কাল আসছিস, তাই তো?", "roman": "tui kal ashchhish, tai to?", "en": "You're coming tomorrow, right?" },
+        { "native": "কী ব্যাপার, রাগ করেছ নাকি?", "roman": "ki bæpar, rag korechho naki?", "en": "What's up, are you angry or something?" },
+        { "native": "বাসে যাবি, নাকি রিকশা নেব?", "roman": "base jabi, naki riksha nebo?", "en": "Shall we go by bus, or shall I get a rickshaw?" },
+        { "native": "চলো, একটু হেঁটে আসি, কী বলো?", "roman": "chôlo, ekṭu heṃṭe ashi, ki bôlo?", "en": "Let's go for a little walk, what do you say?" }
+      ]
+    },
+    {
+      "title": "Emphasis and address: -ই, -ও, রে, গো, তুই না…!, আবার",
+      "body": "Unit 20 introduced তো, -ই and -ও. Here they are in fuller use, with a few more.\n\n**-ই 'exactly, the very, only'** sticks to almost any word: আমি**ই** 'I myself', ওটা**ই** 'that very one', এখন**ই** 'right now', তখন**ই** 'right then', আজ**ই** 'this very day'. On a future verb it means 'definitely': যাব**ই**. In negatives with question words it means 'at all': কিছু**ই** না 'nothing at all', কেউ**ই** আসেনি 'not a single person came'.\n\n**-ও 'even' with negatives**: একটু**ও** ভালো না 'not even slightly good', একবার**ও** ফোন করেনি 'didn't call even once'. **মোটেও** 'at all' is the strongest: **মোটেও** না!\n\n**Addressing particles** come at the end of the phrase, after the question or the name:\n\n- **রে** – to a friend you call তুই: কী **রে**? 'what's up?', হ্যাঁ **রে**, কাল কী হলো? 'hey, what happened yesterday?'\n- **গো** – warm, to family, elders or a spouse (West Bengal): কী **গো**, খাবে না? 'what's wrong, dear, won't you eat?'\n\n**না after a word** (not at the end) marks a topic with feeling: affectionate exasperation – তুই **না**, সত্যি! 'honestly, you…!' – or 'you know, I…': আমার **না** খুব ঘুম পাচ্ছে 'I'm, like, so sleepy'. Young speakers use this constantly.\n\n**আবার** 'again' also means 'on top of that / of all things': এখন **আবার** বৃষ্টি! 'and now rain, of all things!'; ও **আবার** কে? 'and who on earth is *he*?'",
+      "examples": [
+        { "native": "আমিই তোকে ফোন করব, চিন্তা করিস না।", "roman": "amii toke phon korbo, chinta korish na.", "en": "I'll call you myself, don't worry." },
+        { "native": "পার্টিতে কেউই আসেনি!", "roman": "parṭite keui asheni!", "en": "Not a single person came to the party!" },
+        { "native": "সিনেমাটা একটুও ভালো লাগেনি।", "roman": "sinemaṭa ekṭuo bhalo lageni.", "en": "I didn't like the film one bit." },
+        { "native": "কী রে, এত দেরি কেন?", "roman": "ki re, æto deri kæno?", "en": "Hey, what took you so long?" },
+        { "native": "আমার না, আজ কোথাও যেতে ইচ্ছে করছে না।", "roman": "amar na, aj kothao jete ichchhe korchhe na.", "en": "I just, like, don't feel like going anywhere today." }
+      ]
+    },
+    {
+      "title": "Echo words and doubled words: চা-টা, কে কে, আস্তে আস্তে, ঝমঝম",
+      "body": "Bengali loves repeating sounds. Four patterns are worth knowing.\n\n**1. Echo words with ট-**: repeat a noun with its first consonant replaced by **ট** (or with **ট** added in front of an initial vowel). It means 'X and that sort of thing, X or something', and makes offers and complaints sound casual:\n\n- চা → **চা-টা** খাবে? 'will you have some tea or something?'\n- বই → **বই-টই** 'books and stuff'; কাজ → **কাজ-টাজ** 'work and so on'; আলু → **আলু-টালু**\n- কাজ-টাজ নেই নাকি? 'got no work or anything?'\n\n**2. Fixed pairs**: two related words make a general word: **জামাকাপড়** 'clothes', জিনিসপত্র 'stuff', টাকাপয়সা 'money', খাওয়াদাওয়া 'eating, meals', কাগজপত্র 'papers'.\n\n**3. Full doubling**:\n\n- question words → a list is expected: **কে কে** আসছে? 'who (all) is coming?', **কী কী** লাগবে?\n- adjectives → intensity or 'lots of': **গরম গরম** 'nice and hot', **ছোট ছোট** 'lots of little'\n- adverbs → gradually / repeatedly: **আস্তে আস্তে** 'slowly, gradually', মাঝে মাঝে 'sometimes'\n- verbs in -তে → 'while …-ing': হাসতে হাসতে 'laughing all the while'\n\n**4. Sound words** describe a sound or a look: **ঝমঝম** (pouring rain), টপটপ (dripping), **ঝকঝকে** (sparkling), চুপচাপ (quiet), **টুকটাক** (bits and bobs). They usually take **করে** when they describe how something happens: ঝমঝম **করে** বৃষ্টি পড়ছে.",
+      "examples": [
+        { "native": "বিকেলে চা-টা খেয়ে বেরোব।", "roman": "bikele cha-ṭa kheye berobo.", "en": "We'll head out after some tea and snacks this afternoon." },
+        { "native": "আজ কাজ-টাজ নেই, শুধু ঘুম।", "roman": "aj kaj-ṭaj nei, shudhu ghum.", "en": "No work or anything today, just sleep." },
+        { "native": "পার্টিতে কে কে আসছে?", "roman": "parṭite ke ke ashchhe?", "en": "Who's coming to the party?" },
+        { "native": "ঝমঝম করে বৃষ্টি পড়ছে, ছাতা নিয়ে যা।", "roman": "jhômjhôm kore brishṭi poṛchhe, chhata niye ja.", "en": "It's pouring, take an umbrella. (তুই)" },
+        { "native": "মা ঘরটা একদম ঝকঝকে করে রেখেছে।", "roman": "ma ghôrṭa ækdôm jhôkjhôke kore rekhechhe.", "en": "Mum has got the room spotless." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Tea, and a charger",
+    "setting": "Dhaka. Tom, who has been learning Bengali for a year, meets his friend Mitu at a tea stall near Dhaka University. They use তুই.",
+    "lines": [
+      { "speaker": "Mitu", "native": "কী রে টম, চা-টা খাবি?", "roman": "ki re ṭôm, cha-ṭa khabi?", "en": "Hey Tom, fancy some tea or something?" },
+      { "speaker": "Tom", "native": "হুঁ, খাব। আচ্ছা, \"চা-টা\" মানে কী? শুধু চা না?", "roman": "huṃ, khabo. achchha, \"cha-ṭa\" mane ki? shudhu cha na?", "en": "Mm, yes. Hang on, what does \"cha-ṭa\" mean? Isn't it just tea?" },
+      { "speaker": "Mitu", "native": "হা হা! মানে চা, বিস্কুট, এই সব টুকটাক। আমরা এরকম বলি: বই-টই, কাজ-টাজ।", "roman": "ha ha! mane cha, biskuṭ, ei shôb ṭukṭak. amra ærôkom boli: boi-ṭoi, kaj-ṭaj.", "en": "Ha ha! It means tea, biscuits, bits and pieces. We say it like that: books-and-stuff, work-and-stuff." },
+      { "speaker": "Tom", "native": "বাপ রে! বাংলা তো দিন দিন কঠিন হচ্ছে।", "roman": "bap re! baṅla to din din koṭhin hochchhe.", "en": "Good grief! Bengali keeps getting harder." },
+      { "speaker": "Mitu", "native": "মোটেও না! তুই তো এখন বেশ ভালো বলিস, তাই না?", "roman": "moṭeo na! tui to ækhon besh bhalo bolish, tai na?", "en": "Not at all! You speak pretty well now, don't you?" },
+      { "speaker": "Tom", "native": "ধ্যাত! কাল দোকানে একটা জিনিস চাইলাম, কিন্তু নামটা মনে পড়ল না। ওই যে, যেটা দিয়ে ফোন চার্জ দেয়…", "roman": "dhyæt! kal dokane ækṭa jinish chailam, kintu namṭa mone pôṛlo na. oi je, jeṭa diye phon charj dey…", "en": "Nah! Yesterday I asked for something in a shop and couldn't remember the word. You know, the thing you charge your phone with…" },
+      { "speaker": "Mitu", "native": "চার্জার? ওটা তো ইংরেজিতেই বলে!", "roman": "charjar? oṭa to iṅrejitei bôle!", "en": "A charger? We just say that in English!" },
+      { "speaker": "Tom", "native": "সিরিয়াসলি? আমি দশ মিনিট ধরে হাত দিয়ে বোঝাচ্ছিলাম!", "roman": "siriasli? ami dôsh miniṭ dhore hat diye bojhachchhilam!", "en": "Seriously? I spent ten minutes explaining with my hands!" },
+      { "speaker": "Mitu", "native": "তুই না, সত্যি! শোন, না জানলে ইংরেজি মিশিয়ে বলবি। সবাই তাই করে।", "roman": "tui na, shotti! shon, na janle iṅreji mishiye bolbi. shôbai tai kôre.", "en": "Honestly, you! Listen, if you don't know a word, mix in English. Everyone does." },
+      { "speaker": "Tom", "native": "আচ্ছা। আর তোরা এত তাড়াতাড়ি বলিস কেন? একটু আস্তে আস্তে বলবি?", "roman": "achchha. ar tora æto taṛataṛi bolish kæno? ekṭu aste aste bolbi?", "en": "OK. And why do you lot talk so fast? Could you speak a bit slower?" },
+      { "speaker": "Mitu", "native": "ঠি-ক আ-ছে! এবার খুশি?", "roman": "ṭhi-k a-chhe! ebar khushi?", "en": "O-K! Happy now?" },
+      { "speaker": "Tom", "native": "উফ, তুইও না!", "roman": "uph, tuio na!", "en": "Ugh, you too!" },
+      { "speaker": "Mitu", "native": "আরে, গরম গরম সিঙ্গারা এসেছে। খাবি নাকি?", "roman": "are, gôrom gôrom shiṅgara eshechhe. khabi naki?", "en": "Oh, hot singaras have arrived. Want one, or what?" },
+      { "speaker": "Tom", "native": "সে আর বলতে!", "roman": "she ar bolte!", "en": "Need you ask!" }
+    ]
+  },
+  "culture": "**Mixing in English is normal.** Educated speakers in Dhaka and Kolkata mix English words into Bengali all the time (বিজি, প্ল্যান, সিরিয়াসলি, অ্যাকচুয়ালি, সো), and many everyday things simply have English names: charger, fan, bus, ticket, phone. Some people tease it as 'Banglish', and in formal writing or on TV news it's avoided, but in conversation a learner who mixes in English sounds natural rather than lazy. In Bangladesh pure Bengali carries extra weight because of the Language Movement (21 February), so a few people may gently 'correct' you: take it as interest.\n\n**Address and attitude.** Particles like **রে** and **গো** tell the listener exactly what the relationship is: রে for তুই-friends, গো for warmth within the family (a West Bengal wife may call to her husband ওগো, শুনছ?). Echo words (চা-টা) make offers sound relaxed rather than formal, and doubled sound words (ঝমঝম, ঝকঝকে) are everywhere in speech and song. When you don't understand, **একটু আস্তে আস্তে বলবেন?** and **এটাকে বাংলায় কী বলে?** will almost always get a smile and a slower, clearer answer.",
+  "lessons": [
+    {
+      "title": "Reacting like a native",
+      "tip": { "title": "Quick reactions", "body": "- Surprise: **বাপ রে!**, **সিরিয়াসলি?**, বলিস কী! (unit 20).\n- Annoyed, tired, too hot: **উফ!**\n- Dismissive or frustrated: **ধ্যাত!**, ধুর!\n- Resigned: **কী আর করা!** 'oh well'.\n- Reactions are said with feeling; the same word can be cross or playful depending on tone." },
+      "new": ["উফ", "বাপ রে", "সিরিয়াসলি", "ধ্যাত", "বাপ রে বাপ!", "কী আর করা!"],
+      "sentences": [
+        { "native": "উফ, কী গরম আজকে!", "roman": "uph, ki gôrom ajke!", "en": "Ugh, it's so hot today!" },
+        { "native": "বাপ রে, এত দাম!", "roman": "bap re, æto dam!", "en": "Good grief, that's expensive!" },
+        { "native": "সিরিয়াসলি? তুই চাকরি ছেড়ে দিয়েছিস?", "roman": "siriasli? tui chakri chheṛe diyechhish?", "en": "Seriously? You've quit your job?" },
+        { "native": "ধ্যাত, আবার ট্রেনটা মিস করলাম।", "roman": "dhyæt, abar ṭrenṭa mis korlam.", "en": "Damn, I missed the train again." },
+        { "native": "বাস নেই? কী আর করা, হেঁটেই যাই।", "roman": "bas nei? ki ar kôra, heṃṭei jai.", "en": "No bus? Oh well, let's just walk." },
+        { "native": "উফ, কী শান্তি! অবশেষে বাড়ি পৌঁছালাম।", "roman": "uph, ki shanti! ôbosheshe baṛi pouṃchhalam.", "en": "Phew, what a relief! Home at last." },
+        { "native": "বাপ রে বাপ, কী ভিড়!", "roman": "bap re bap, ki bhiṛ!", "en": "Good grief, what a crowd!" },
+        { "native": "ধ্যাত, বাদ দে তো ওসব কথা।", "roman": "dhyæt, bad de to oshob kôtha.", "en": "Oh come on, forget all that." }
+      ]
+    },
+    {
+      "title": "Isn't it? Checking and softening",
+      "tip": { "title": "Tags: তাই না?, না?, নাকি?", "body": "- **তাই না?** fits after any statement: ভালো, **তাই না**? / আসবে না, **তাই না**?\n- **না?** is short and friendly; **তাই তো?** checks an assumption.\n- **নাকি?** = 'or what? / or…?': অসুস্থ **নাকি**?; চা, **নাকি** কফি?\n- Answer **হুঁ** (yes) / **উঁহু** (no), or just repeat the verb.", "pattern": "statement + তাই না? / না? / নাকি?", "grammar": 0 },
+      "new": ["তাই না", "হুঁ", "উঁহু", "এমনি", "এমনি এমনি।"],
+      "sentences": [
+        { "native": "খাবারটা দারুণ, তাই না?", "roman": "khabarṭa darun, tai na?", "en": "The food's great, isn't it?", "focus": "তাই", "wrong": ["তো|to", "কি|ki"] },
+        { "native": "তুমি কাল আসবে না, তাই না?", "roman": "tumi kal ashbe na, tai na?", "en": "You're not coming tomorrow, are you?", "focus": "না", "wrong": ["নেই|nei", "নয়|nôy"] },
+        { "native": "কাল তো ছুটি, তাই তো?", "roman": "kal to chhuṭi, tai to?", "en": "Tomorrow's a holiday, right?", "focus": "তো", "wrong": ["কি|ki", "যে|je"] },
+        { "native": "চুপচাপ কেন? মন খারাপ নাকি?", "roman": "chupchap kæno? mon kharap naki?", "en": "Why so quiet? Feeling down or something?", "focus": "নাকি", "wrong": ["তাই|tai", "কেন|kæno"] },
+        { "native": "চা খাবে, নাকি কফি?", "roman": "cha khabe, naki kôphi?", "en": "Will you have tea, or coffee?", "focus": "নাকি", "wrong": ["আর|ar", "তো|to"] },
+        { "native": "শহরটা সুন্দর, না?", "roman": "shôhorṭa shundor, na?", "en": "Lovely city, isn't it?" },
+        { "native": "খেয়েছ? – উঁহু, এখনও খাইনি।", "roman": "kheyechho? – uṃhu, ækhono khaini.", "en": "Have you eaten? – Nope, not yet." },
+        { "native": "আসছিস তো? – হুঁ, আসছি।", "roman": "ashchhish to? – huṃ, ashchhi.", "en": "You're coming, right? – Mm, I'm coming." },
+        { "native": "কেন জিজ্ঞেস করছ? – এমনি।", "roman": "kæno jiggesh korchho? – æmni.", "en": "Why are you asking? – No reason." },
+        { "native": "কাল সাতটার মধ্যে চলে এসো, ঠিক আছে?", "roman": "kal shatṭar moddhe chole esho, ṭhik achhe?", "en": "Be here by seven tomorrow, OK?" }
+      ]
+    },
+    {
+      "title": "Adding emphasis",
+      "tip": { "title": "-ই, -ও, রে, গো, তুই না…!", "body": "- **-ই** = exactly / the very: আমি**ই**, এখন**ই**; 'at all' in negatives: কিছু**ই** না.\n- **-ও** with a negative = 'not even': একটু**ও** না. Strongest: **মোটেও** না.\n- **রে** to a তুই-friend: কী **রে**?  **গো** to family: কী **গো**?\n- **তুই না, সত্যি!** = 'honestly, you…!'", "grammar": 1 },
+      "new": ["রে", "গো", "মোটেও", "মোটেও না!", "তুই না, সত্যি!"],
+      "sentences": [
+        { "native": "আমিই কাল টিকিটগুলো কেটে রাখব।", "roman": "amii kal ṭikiṭgulo keṭe rakhbo.", "en": "I'll book the tickets myself tomorrow.", "focus": "আমিই", "wrong": ["আমিও|amio", "আমার|amar"] },
+        { "native": "এখনই বেরোতে হবে, দেরি হয়ে গেছে।", "roman": "ækhoni berote hobe, deri hoye gechhe.", "en": "We have to leave right now, we're late.", "focus": "এখনই", "wrong": ["এখনও|ækhono", "এখন|ækhon"] },
+        { "native": "ও কিছুই খায়নি, সারাদিন।", "roman": "o kichhui khayni, sharadin.", "en": "He hasn't eaten anything at all, all day.", "focus": "কিছুই", "wrong": ["কিছুও|kichhuo", "কিছু|kichhu"] },
+        { "native": "আমি একটুও ক্লান্ত না।", "roman": "ami ekṭuo klanto na.", "en": "I'm not the least bit tired.", "focus": "একটুও", "wrong": ["একটুই|ekṭui", "একটু|ekṭu"] },
+        { "native": "সিনেমাটা মোটেও বোরিং না।", "roman": "sinemaṭa moṭeo boriṅ na.", "en": "The film isn't boring at all.", "focus": "মোটেও", "wrong": ["খুব|khub", "আরও|aro"] },
+        { "native": "কী রে, ফোন ধরছিস না কেন?", "roman": "ki re, phon dhorchhish na kæno?", "en": "Hey, why aren't you picking up?", "focus": "রে", "wrong": ["গো|go", "তো|to"] },
+        { "native": "কী গো, এত দেরি হলো কেন?", "roman": "ki go, æto deri holo kæno?", "en": "What happened, dear? Why so late?", "focus": "গো", "wrong": ["রে|re", "তো|to"] },
+        { "native": "তুই না, আবার ভুলে গেছিস!", "roman": "tui na, abar bhule gechhish!", "en": "Honestly, you've forgotten again!" },
+        { "native": "এখন আবার কারেন্ট চলে গেল!", "roman": "ækhon abar karenṭ chole gælo!", "en": "And now the power has gone, of all things!" },
+        { "native": "হ্যাঁ রে, কাল পার্টিতে কে কে এসেছিল?", "roman": "hæṃ re, kal parṭite ke ke eshechhilo?", "en": "Hey, so who was at the party yesterday?" }
+      ]
+    },
+    {
+      "title": "Tea and stuff: echo words",
+      "tip": { "title": "চা-টা, কে কে, গরম গরম", "body": "- **Echo**: swap the first sound for **ট**: চা → **চা-টা**, বই → বই-টই = 'X and stuff'.\n- **Doubled question word** = a list: **কে কে**, **কী কী**.\n- **Doubled adjective / adverb** = intensity or gradualness: **গরম গরম**, **আস্তে আস্তে**.\n- **Sound words** + করে: **ঝমঝম** করে বৃষ্টি.", "pattern": "X + ট-X  ·  word + word", "grammar": 2 },
+      "new": ["চা-টা", "টুকটাক", "জামাকাপড়", "গরম গরম", "আস্তে আস্তে", "ঝমঝম", "ঝকঝকে"],
+      "sentences": [
+        { "native": "আসুন, বসুন, চা-টা খান।", "roman": "ashun, boshun, cha-ṭa khan.", "en": "Come in, sit down, have some tea.", "focus": "চা-টা", "wrong": ["চায়ে|chaye", "চায়ের|chayer"] },
+        { "native": "ব্যাগে বই-টই সব নিয়েছিস?", "roman": "bæge boi-ṭoi shôb niyechhish?", "en": "Have you packed your books and stuff?", "focus": "বই-টই", "wrong": ["বইয়ে|boiye", "বইয়ের|boiyer"] },
+        { "native": "পার্টিতে কে কে আসবে?", "roman": "parṭite ke ke ashbe?", "en": "Who's coming to the party?", "focus": "কে", "wrong": ["কেন|kæno", "কখন|kôkhon"] },
+        { "native": "বাজার থেকে কী কী আনতে হবে?", "roman": "bajar theke ki ki ante hobe?", "en": "What all do we need to get from the market?" },
+        { "native": "গরম গরম ভাত আর ডাল, আর কী চাই!", "roman": "gôrom gôrom bhat ar ḍal, ar ki chai!", "en": "Piping hot rice and dal, what more could you want!" },
+        { "native": "আস্তে আস্তে সব ঠিক হয়ে যাবে।", "roman": "aste aste shôb ṭhik hoye jabe.", "en": "Bit by bit, everything will be fine." },
+        { "native": "বাইরে ঝমঝম করে বৃষ্টি পড়ছে।", "roman": "baire jhômjhôm kore brishṭi poṛchhe.", "en": "It's pouring outside.", "focus": "করে", "wrong": ["করো|kôro", "করছে|korchhe"] },
+        { "native": "নতুন ফ্ল্যাটটা একদম ঝকঝকে।", "roman": "notun phlæṭṭa ækdôm jhôkjhôke.", "en": "The new flat is spotless." },
+        { "native": "জামাকাপড় গুছিয়ে রেখেছিস?", "roman": "jamakapoṛ guchhiye rekhechhish?", "en": "Have you packed your clothes?" },
+        { "native": "আজ একটু টুকটাক কেনাকাটা করব।", "roman": "aj ekṭu ṭukṭak kenakaṭa korbo.", "en": "I'll do a bit of odds-and-ends shopping today." }
+      ]
+    },
+    {
+      "title": "When you don't understand",
+      "tip": { "title": "Asking to repeat or explain", "body": "- Missed it: **ঠিক বুঝলাম না** / **আরেকবার বলবে(ন)?**\n- Too fast: **একটু আস্তে আস্তে বলবে(ন)?**\n- A word: **… মানে কী?** (or **অর্থ**), **বানানটা কী?**\n- Use -বেন with strangers and elders, -বে with friends you call তুমি, -বি with তুই." },
+      "new": ["আরেকবার", "বানান", "শব্দ", "উচ্চারণ", "অর্থ", "ঠিক বুঝলাম না।", "আরেকবার বলবে?", "এই শব্দটার মানে কী?", "বানানটা কী?", "একটু আস্তে আস্তে বলবে?"],
+      "sentences": [
+        { "native": "দুঃখিত, ঠিক বুঝলাম না, আরেকবার বলবেন?", "roman": "dukkhito, ṭhik bujhlam na, arekbar bolben?", "en": "Sorry, I didn't quite get that, could you say it again?", "focus": "বলবেন", "wrong": ["বলব|bolbo", "বলেন|bôlen"] },
+        { "native": "এই শব্দটার অর্থ কী?", "roman": "ei shôbdoṭar ôrtho ki?", "en": "What does this word mean?" },
+        { "native": "আপনার নামের বানানটা বলবেন?", "roman": "apnar namer bananṭa bolben?", "en": "Could you spell your name for me?" },
+        { "native": "এই শব্দটার উচ্চারণ খুব কঠিন।", "roman": "ei shôbdoṭar uchcharon khub koṭhin.", "en": "This word is very hard to pronounce." },
+        { "native": "আমার উচ্চারণ ঠিক আছে?", "roman": "amar uchcharon ṭhik achhe?", "en": "Is my pronunciation OK?" },
+        { "native": "আরেকবার বল তো, আস্তে আস্তে।", "roman": "arekbar bôl to, aste aste.", "en": "Say it again, slowly. (তুই)" },
+        { "native": "\"ঝকঝকে\" মানে কী? – মানে খুব পরিষ্কার।", "roman": "\"jhôkjhôke\" mane ki? – mane khub porishkar.", "en": "What does \"jhôkjhôke\" mean? – It means really clean." },
+        { "native": "এই শব্দটার দুটো অর্থ আছে।", "roman": "ei shôbdoṭar duṭo ôrtho achhe.", "en": "This word has two meanings." },
+        { "native": "ইংরেজিতে বললে বুঝতে পারব।", "roman": "iṅrejite bolle bujhte parbo.", "en": "If you say it in English I'll understand." }
+      ]
+    },
+    {
+      "title": "When you can't find the word",
+      "tip": { "title": "Getting round a missing word", "body": "- Ask: **এটাকে বাংলায় কী বলে?**\n- Stall: **কী যেন নাম…**, **ইয়ে…**\n- Describe it: **ওই যে জিনিসটা, যেটা দিয়ে …** 'that thing you … with'.\n- Or just use the English word: people mix in English all the time (**মিশিয়ে বলা**)." },
+      "new": ["জিনিস", "যেন", "মেশানো", "এটাকে বাংলায় কী বলে?", "কী যেন নাম…", "ওই যে জিনিসটা, যেটা দিয়ে চুল শুকায়!", "আমি বাংলা-ইংরেজি মিশিয়ে বলি।", "সে আর বলতে!"],
+      "sentences": [
+        { "native": "ওই জিনিসটাকে বাংলায় কী বলে?", "roman": "oi jinishṭake baṅlay ki bôle?", "en": "What do you call that thing in Bengali?" },
+        { "native": "ওর নামটা কী যেন? মনে পড়ছে না।", "roman": "or namṭa ki jæno? mone poṛchhe na.", "en": "What's her name again? I can't remember." },
+        { "native": "ওই যে জিনিসটা, যেটা দিয়ে ফোন চার্জ দেয়।", "roman": "oi je jinishṭa, jeṭa diye phon charj dey.", "en": "You know, that thing you charge your phone with." },
+        { "native": "ও এমন করে কথা বলল যেন কিছুই হয়নি।", "roman": "o æmon kore kôtha bollo jæno kichhui hoyni.", "en": "He talked as if nothing had happened." },
+        { "native": "না জানলে ইংরেজি মিশিয়ে বলো, সমস্যা নেই।", "roman": "na janle iṅreji mishiye bôlo, shômoshsha nei.", "en": "If you don't know, mix in English, no problem." },
+        { "native": "আমরা সবাই একটু ইংরেজি মিশিয়ে কথা বলি।", "roman": "amra shôbai ekṭu iṅreji mishiye kôtha boli.", "en": "We all mix in a bit of English when we talk." },
+        { "native": "ইয়ে, মানে, ওই জিনিসটা কোথায় রাখলাম যেন?", "roman": "iye, mane, oi jinishṭa kothay rakhlam jæno?", "en": "Er, I mean, where did I put that thing again?" },
+        { "native": "গরম গরম চা খাবি? – সে আর বলতে!", "roman": "gôrom gôrom cha khabi? – she ar bolte!", "en": "Want some hot tea? – Need you ask!" }
+      ]
+    }
+  ]
+}

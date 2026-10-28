@@ -1,0 +1,213 @@
+{
+  "id": 32,
+  "title": "Health in depth",
+  "goal": "Describe symptoms precisely, say how long they have lasted, explain a condition or allergy, follow a prescription and book a doctor.",
+  "intro": "In unit 9 you could say **আমার জ্বর হয়েছে**. Now you'll tell a doctor exactly what is going on: **চার দিন ধরে জ্বর আসছে**, **উঠলেই মাথা ঘোরে**, **গা ম্যাজম্যাজ করছে**, and understand what you're told: **একটা করে, দিনে দুবার, খাওয়ার পরে**.\n\nYou'll learn how Bengali says 'for three days' and 'since last night', the vivid sound-words Bengalis use for aches and tingles, how to talk about injuries, diabetes and blood pressure, and how seeing a doctor actually works in Kolkata and Dhaka, from the evening **চেম্বার** to the Dhaka **সিরিয়াল**.",
+  "vocab": [
+    { "native": "লক্ষণ", "roman": "lôkkhon", "en": "symptom; sign", "pos": "noun", "note": "আর কোনো লক্ষণ আছে? \"any other symptoms?\"" },
+    { "native": "মাথা ঘোরা", "roman": "matha ghora", "en": "dizziness; to feel dizzy", "pos": "verb", "note": "Lit. \"head turning\": আমার মাথা ঘুরছে \"I feel dizzy\"." },
+    { "native": "শ্বাসকষ্ট", "roman": "shashkôshṭo", "en": "difficulty breathing, breathlessness", "pos": "noun", "note": "From শ্বাস \"breath\" + কষ্ট. Asthma is হাঁপানি haṃpani." },
+    { "native": "গা ব্যথা", "roman": "ga bætha", "en": "body ache", "pos": "noun", "note": "গা is the everyday word for \"body\" in health talk: গা গরম \"feverish\", গায়ে \"on the body, all over\"." },
+    { "native": "জ্বালা", "roman": "jala", "en": "burning, stinging (sensation)", "pos": "noun", "note": "জ্বালা করা: চোখ জ্বালা করছে \"my eyes are stinging\", বুক জ্বালা \"heartburn\". জ্ব is said j." },
+    { "native": "চুলকানি", "roman": "chulkani", "en": "itch, itching; rash", "pos": "noun", "note": "The verb is চুলকানো \"to itch, scratch\"." },
+    { "native": "ধরে", "roman": "dhore", "en": "for (a length of time)", "pos": "postp", "note": "তিন দিন ধরে \"for three days\". Lit. \"holding\". For a starting point use থেকে \"since\"." },
+    { "native": "বাড়া", "roman": "baṛa", "en": "to go up, increase; to get worse", "pos": "verb", "note": "জ্বর বাড়ছে \"the fever's going up\". Transitive: বাড়ানো (unit 31)." },
+    { "native": "কমা", "roman": "kôma", "en": "to go down, decrease; to ease", "pos": "verb", "note": "ব্যথা কমেছে \"the pain has eased\". Transitive: কমানো (unit 12). কম \"less\" (unit 4)." },
+    { "native": "ফোলা", "roman": "phola", "en": "to swell; swollen; swelling", "pos": "verb", "note": "Past: ফুলে গেছে \"it's swollen up\"." },
+    { "native": "মচকানো", "roman": "mochkano", "en": "to sprain, twist", "pos": "verb", "note": "পা মচকে গেছে \"I've sprained my ankle\"." },
+    { "native": "কেটে যাওয়া", "roman": "keṭe jawa", "en": "to get cut", "pos": "verb", "note": "হাত কেটে গেছে \"I've cut my hand\". From কাটা \"to cut\"." },
+    { "native": "পোড়া", "roman": "poṛa", "en": "to burn, get burnt; a burn", "pos": "verb", "note": "হাত পুড়ে গেছে \"I burnt my hand\" · পোড়া জায়গা \"the burn\"." },
+    { "native": "রক্ত", "roman": "rôkto", "en": "blood", "pos": "noun", "note": "রক্ত পড়ছে \"it's bleeding\" · রক্ত পরীক্ষা \"blood test\"." },
+    { "native": "সারা", "roman": "shara", "en": "to heal, get better", "pos": "verb", "note": "সেরে যাবে \"it'll heal\" · সেরে উঠুন \"get well soon\". Don't confuse with সারা \"whole\" or সারানো \"to repair\" (unit 25)." },
+    { "native": "সুগার", "roman": "sugar", "en": "diabetes (colloquial); blood sugar", "pos": "noun", "note": "Everyone says ওনার সুগার আছে \"he has diabetes\". Medical: ডায়াবেটিস." },
+    { "native": "প্রেশার", "roman": "preshar", "en": "blood pressure (colloquial)", "pos": "noun", "note": "প্রেশার বেড়েছে / কমে গেছে \"BP has gone up / dropped\". Formal: রক্তচাপ." },
+    { "native": "অ্যালার্জি", "roman": "ælarji", "en": "allergy", "pos": "noun", "note": "X-এ অ্যালার্জি: ডিমে অ্যালার্জি \"allergic to eggs\"." },
+    { "native": "নিয়মিত", "roman": "niyomito", "en": "regularly; regular", "pos": "adv", "note": "নিয়মিত ওষুধ খাওয়া \"to take medicine regularly\". From নিয়ম \"rule\"." },
+    { "native": "ইনজেকশন", "roman": "injekshon", "en": "injection", "pos": "noun", "note": "ইনজেকশন দেওয়া \"to give an injection\". Also টিকা \"vaccine\"." },
+    { "native": "ভর্তি", "roman": "bhôrti", "en": "admitted (to hospital); full", "pos": "adj", "note": "হাসপাতালে ভর্তি করা / হওয়া \"to admit / be admitted\". Also \"enrolled\" (school)." },
+    { "native": "ট্যাবলেট", "roman": "ṭæbleṭ", "en": "tablet, pill", "pos": "noun", "note": "Also বড়ি bôṛi (older). একটা করে ট্যাবলেট \"one tablet each time\"." },
+    { "native": "সিরাপ", "roman": "sirap", "en": "(cough) syrup, liquid medicine", "pos": "noun" },
+    { "native": "চামচ", "roman": "chamoch", "en": "spoon; spoonful", "pos": "noun", "note": "দুই চামচ করে \"two spoonfuls each time\". Also চামুচ in Bangladesh." },
+    { "native": "ডোজ", "roman": "ḍoj", "en": "dose", "pos": "noun" },
+    { "native": "খালি পেটে", "roman": "khali peṭe", "en": "on an empty stomach", "pos": "adv", "note": "The opposite is ভরা পেটে \"on a full stomach\" or খাওয়ার পরে \"after food\"." },
+    { "native": "টেস্ট", "roman": "ṭesṭ", "en": "(medical) test", "pos": "noun", "note": "টেস্ট করানো \"to get a test done\" (causative, unit 25). Also পরীক্ষা." },
+    { "native": "অ্যাপয়েন্টমেন্ট", "roman": "æpoyenṭmenṭ", "en": "appointment", "pos": "noun", "note": "The usual word in Kolkata. In Dhaka people say সিরিয়াল." },
+    { "native": "সিরিয়াল", "roman": "sirial", "en": "a place in the doctor's queue; appointment (Bangladesh)", "pos": "noun", "note": "সিরিয়াল দেওয়া \"to book a slot\" (usually by phone) · সিরিয়াল নম্বর \"queue number\"." },
+    { "native": "চেম্বার", "roman": "chembar", "en": "doctor's private consulting room", "pos": "noun", "note": "Many hospital doctors also see private patients in a চেম্বার in the evening. ডাক্তার চেম্বারে বসেন \"the doctor sees patients at his chamber\"." }
+  ],
+  "phrases": [
+    { "native": "আমার মাথা ঘুরছে।", "roman": "amar matha ghurchhe.", "en": "I feel dizzy." },
+    { "native": "আমার শ্বাস নিতে কষ্ট হচ্ছে।", "roman": "amar shash nite kôshṭo hochchhe.", "en": "I'm finding it hard to breathe." },
+    { "native": "কবে থেকে এরকম হচ্ছে?", "roman": "kôbe theke ærôkom hochchhe?", "en": "Since when has this been happening?" },
+    { "native": "তিন দিন ধরে জ্বর আসছে।", "roman": "tin din dhore jôr ashchhe.", "en": "I've had a fever for three days.", "note": "A fever \"comes\": জ্বর আসা. Also জ্বর হয়েছে." },
+    { "native": "কাল রাত থেকে পেটে ব্যথা করছে।", "roman": "kal rat theke peṭe bætha korchhe.", "en": "I've had a stomach ache since last night." },
+    { "native": "আগের চেয়ে একটু ভালো।", "roman": "ager cheye ekṭu bhalo.", "en": "A bit better than before." },
+    { "native": "আমার সুগার আছে।", "roman": "amar sugar achhe.", "en": "I'm diabetic." },
+    { "native": "কোনো ওষুধ খাচ্ছেন?", "roman": "kono oshudh khachchhen?", "en": "Are you taking any medication?", "note": "Medicine is \"eaten\" in Bengali: ওষুধ খাওয়া." },
+    { "native": "দিনে দুবার, খাওয়ার পরে।", "roman": "dine dubar, khawar pôre.", "en": "Twice a day, after food." },
+    { "native": "এই ওষুধে ঘুম পায়?", "roman": "ei oshudhe ghum pay?", "en": "Does this medicine make you drowsy?" },
+    { "native": "কোর্সটা পুরো শেষ করবেন।", "roman": "korsṭa puro shesh korben.", "en": "Finish the whole course." },
+    { "native": "ডাক্তারের অ্যাপয়েন্টমেন্ট নিতে চাই।", "roman": "ḍaktarer æpoyenṭmenṭ nite chai.", "en": "I'd like to book an appointment with the doctor." },
+    { "native": "ডাক্তার কখন বসেন?", "roman": "ḍaktar kôkhon bôshen?", "en": "When does the doctor see patients? (lit. when does the doctor sit?)" },
+    { "native": "ভয়ের কিছু নেই।", "roman": "bhôyer kichhu nei.", "en": "There's nothing to be afraid of." }
+  ],
+  "grammar": [
+    {
+      "title": "'For three days', 'since last night': ধরে and থেকে",
+      "body": "English says *I've been coughing for three days*, with the present perfect. Bengali simply uses the **present** (usually the present continuous) + **ধরে** 'for' after the length of time:\n\n**তিন দিন ধরে** কাশি **হচ্ছে** 'I've had a cough for three days' (lit. 'holding three days, cough is happening')\nআমি দুই বছর **ধরে** বাংলা **শিখছি** 'I've been learning Bengali for two years'\n\nFor a **starting point** ('since'), use **থেকে** after the point in time: **কাল রাত থেকে** জ্বর 'a fever since last night', **সোমবার থেকে**, **ছোটবেলা থেকে**.\n\nThe questions: **কত দিন ধরে?** 'for how long?' and **কবে থেকে?** 'since when?'. For hours: **কতক্ষণ ধরে?**; 'for ages' is **অনেকক্ষণ ধরে** or **অনেক দিন ধরে**.\n\nSomething that **hasn't** happened for a while: keep the continuous with না (তিন দিন ধরে ঘুম **হচ্ছে না**) or use the perfect negative (তিন দিন কিছু **খাইনি** 'I haven't eaten anything for three days').\n\nA period that is **over** takes the plain past and doesn't need ধরে: দুই বছর ঢাকায় **ছিলাম** 'I lived in Dhaka for two years'. 'Ago' is **আগে** (unit 7): জ্বরটা তিন দিন **আগে** শুরু হয়েছে.\n\nTo say how it's changing, use **বাড়া** 'go up, get worse' and **কমা** 'go down, ease': জ্বর **বাড়ছে**, ব্যথাটা **কমেছে**.\n\n**The trap:** ধরে goes with a **length** of time, থেকে with a **point** in time: তিন দিন **ধরে**, কাল **থেকে**; never ~~কাল ধরে~~. And don't use the past for something still going on: ~~তিন দিন ধরে জ্বর হলো~~ → তিন দিন ধরে জ্বর **হচ্ছে**.",
+      "examples": [
+        { "native": "আমি দুই বছর ধরে বাংলা শিখছি।", "roman": "ami dui bôchhor dhore baṅla shikhchhi.", "en": "I've been learning Bengali for two years." },
+        { "native": "ছোটবেলা থেকে আমার হাঁপানি আছে।", "roman": "chhoṭobæla theke amar haṃpani achhe.", "en": "I've had asthma since I was a child." },
+        { "native": "তিন দিন ধরে কিছু খেতে পারছি না।", "roman": "tin din dhore kichhu khete parchhi na.", "en": "I haven't been able to eat anything for three days." },
+        { "native": "জ্বরটা তিন দিন আগে শুরু হয়েছে।", "roman": "jôrṭa tin din age shuru hoyechhe.", "en": "The fever started three days ago." },
+        { "native": "অনেকক্ষণ ধরে অপেক্ষা করছি, ডাক্তার কখন আসবেন?", "roman": "ônekkhôn dhore ôpekkha korchhi, ḍaktar kôkhon ashben?", "en": "I've been waiting for ages, when's the doctor coming?" }
+      ]
+    },
+    {
+      "title": "Following instructions: একটা করে, দিনে দুবার, খাওয়ার আগে",
+      "body": "Doctors, pharmacists and the back of the packet give instructions in the polite **future** (unit 18): খা**বেন** 'take it', লাগা**বেন** 'apply it', খাবেন **না** 'don't take it'. To a child or a friend you'll hear খা**বে** or খে**য়ো**; to a তুই, খা**বি**.\n\n**The verbs:** medicine is *eaten*, **ওষুধ খাওয়া**, even syrup and pills. Cream is put on: মলম **লাগানো**. Drops are given: ড্রপ **দেওয়া**. An injection is given: ইনজেকশন **দেওয়া**.\n\n**How often:** **দিনে দুবার** 'twice a day', **দিনে তিনবার**, **আট ঘণ্টা পর পর** 'every eight hours', **রোজ রাতে** 'every night'.\n\n**How much each time:** number + **করে**: **একটা করে** ট্যাবলেট 'one tablet each time', **দুই চামচ করে** 'two spoonfuls each time'. This distributive করে is easy to miss; without it, 'একটা ট্যাবলেট দিনে দুবার' sounds odd.\n\n**When:** verbal noun + **-র আগে / পরে**: খাওয়া**র আগে** 'before food', খাওয়া**র পরে** 'after food', ঘুমানো**র আগে** 'before bed'; **খালি পেটে** 'on an empty stomach'.\n\n**How long:** **পাঁচ দিন** খাবেন or **পাঁচ দিন ধরে** খাবেন; **কোর্স শেষ করবেন** 'finish the course'.\n\n**The trap:** don't translate English 'take' with নেওয়া: ~~ওষুধ নিন~~ sounds like 'pick up the medicine'. Say ওষুধ **খান** / **খাবেন**.",
+      "examples": [
+        { "native": "রোজ রাতে ঘুমানোর আগে একটা করে খাবেন।", "roman": "roj rate ghumanor age ækṭa kore khaben.", "en": "Take one every night before bed." },
+        { "native": "মলমটা দিনে দুবার লাগাবেন।", "roman": "molomṭa dine dubar lagaben.", "en": "Put the ointment on twice a day." },
+        { "native": "আট ঘণ্টা পর পর দুই চামচ করে সিরাপ।", "roman": "aṭ ghônṭa pôr pôr dui chamoch kore sirap.", "en": "Two spoonfuls of syrup every eight hours." },
+        { "native": "চোখে দুই ফোঁটা করে ড্রপ দেবেন।", "roman": "chokhe dui phoṃṭa kore ḍrop deben.", "en": "Put two drops in the eye each time." },
+        { "native": "খাওয়ার আধ ঘণ্টা আগে খাবেন।", "roman": "khawar adh ghônṭa age khaben.", "en": "Take it half an hour before meals." }
+      ]
+    },
+    {
+      "title": "Describing symptoms: sound-words + করা",
+      "body": "You already know **X-এ ব্যথা করছে** 'X hurts' (unit 9): the body part takes -এ/-তে/-য় and the verb is **করা**. Bengali describes *how* something feels with **doubled sound-words** (ধ্বন্যাত্মক শব্দ) + **করা**, and doctors understand them better than any textbook term:\n\n**ঝিমঝিম** করা — woozy, light-headed (মাথা)\n**ম্যাজম্যাজ** করা — heavy, achy, coming-down-with-something (গা)\n**ধড়ফড়** করা — heart racing, palpitations (বুক)\n**খুশখুশ** করা — tickly (গলা)\n**টনটন** করা — throbbing, tender (দাঁত, a boil, a sore foot)\n**চিনচিন** করা — a thin, nagging pain that comes and goes\n**কুটকুট** করা — prickly itch (wool, a rash)\n**জ্বালা** করা — burning, stinging (চোখ; বুক জ্বালা 'heartburn')\n\nA few use **ধরা** 'catch' instead: **মাথা ধরা** 'a (tension) headache', **ঝিঁঝিঁ ধরা** 'pins and needles'.\n\nAdd how often with **মাঝে মাঝে** 'now and then', and when with **-লেই** 'whenever, as soon as' (conditional -লে + ই): উঠ**লেই** মাথা ঘোরে 'whenever I stand up I get dizzy', খে**লেই** বমি পাচ্ছে 'whenever I eat I feel sick'. **কেমন যেন** 'kind of, somehow' softens a vague feeling: গলাটা কেমন যেন করছে.\n\n**The trap:** the body part is the subject, so the verb is third person: আমার মাথা ঝিমঝিম **করছে**, never ~~আমি ঝিমঝিম করছি~~.",
+      "examples": [
+        { "native": "বুকটা ধড়ফড় করছে।", "roman": "bukṭa dhôṛphôṛ korchhe.", "en": "My heart's racing." },
+        { "native": "গলাটা খুশখুশ করছে।", "roman": "gôlaṭa khushkhush korchhe.", "en": "My throat feels tickly." },
+        { "native": "গা ম্যাজম্যাজ করছে, মনে হয় জ্বর আসবে।", "roman": "ga mæjmæj korchhe, mone hôy jôr ashbe.", "en": "I feel achy all over, I think I'm getting a fever." },
+        { "native": "খাওয়ার পরে বুকে জ্বালা করে।", "roman": "khawar pôre buke jala kore.", "en": "I get heartburn after eating." },
+        { "native": "পায়ে ঝিঁঝিঁ ধরেছে।", "roman": "paye jhiṃjhiṃ dhorechhe.", "en": "I've got pins and needles in my foot." },
+        { "native": "রোদে মাথা ঝিমঝিম করছে।", "roman": "rode matha jhimjhim korchhe.", "en": "The sun is making my head swim." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the chamber",
+    "setting": "A doctor's evening chamber in Mirpur, Dhaka, during dengue season. Tanvir booked a সিরিয়াল by phone and has been waiting an hour.",
+    "lines": [
+      { "speaker": "Assistant", "native": "সিরিয়াল নম্বর বারো! তানভীর হাসান?", "roman": "sirial nômbor baro! tanbhir hashan?", "en": "Number twelve! Tanvir Hasan?" },
+      { "speaker": "Doctor", "native": "বসুন। বলুন, কী সমস্যা?", "roman": "boshun. bolun, ki shômoshsha?", "en": "Have a seat. Tell me, what's the problem?" },
+      { "speaker": "Tanvir", "native": "চার দিন ধরে জ্বর আসছে, ডাক্তার সাহেব। সঙ্গে খুব গা ব্যথা।", "roman": "char din dhore jôr ashchhe, ḍaktar shaheb. shôṅge khub ga bætha.", "en": "I've had a fever for four days, doctor. And a lot of body ache." },
+      { "speaker": "Doctor", "native": "জ্বর কত পর্যন্ত উঠছে? আর কোনো লক্ষণ?", "roman": "jôr kôto pôrjonto uṭhchhe? ar kono lôkkhon?", "en": "How high is the fever going? Any other symptoms?" },
+      { "speaker": "Tanvir", "native": "একশো তিন পর্যন্ত উঠেছিল। কাল থেকে উঠলেই মাথা ঘোরে, কিছু খেতে ইচ্ছে করে না।", "roman": "æksho tin pôrjonto uṭhechhilo. kal theke uṭhlei matha ghore, kichhu khete ichchhe kore na.", "en": "It went up to a hundred and three. Since yesterday I get dizzy whenever I stand up, and I don't feel like eating anything." },
+      { "speaker": "Doctor", "native": "হুম। এখন ডেঙ্গুর সময়। আজকেই একটা রক্ত পরীক্ষা করিয়ে নিন।", "roman": "hum. ækhon ḍeṅgur shômoy. ajkei ækṭa rôkto porikkha koriye nin.", "en": "Hmm. It's dengue season. Get a blood test done today." },
+      { "speaker": "Tanvir", "native": "ডেঙ্গু? ভয়ের কিছু আছে?", "roman": "ḍeṅgu? bhôyer kichhu achhe?", "en": "Dengue? Is it something to worry about?" },
+      { "speaker": "Doctor", "native": "আগে রিপোর্টটা দেখি। এখন শুধু প্যারাসিটামল, দিনে তিনবার, একটা করে। ব্যথার অন্য কোনো ওষুধ খাবেন না।", "roman": "age riporṭṭa dekhi. ækhon shudhu pærasiṭamol, dine tinbar, ækṭa kore. bæthar onno kono oshudh khaben na.", "en": "Let's see the report first. For now just paracetamol, three times a day, one at a time. Don't take any other painkiller." },
+      { "speaker": "Tanvir", "native": "আমার গ্যাস্ট্রিকের সমস্যা আছে। খালি পেটে খেলে অসুবিধা হবে?", "roman": "amar gæsṭriker shômoshsha achhe. khali peṭe khele ôshubidha hobe?", "en": "I have acidity problems. Will it be a problem on an empty stomach?" },
+      { "speaker": "Doctor", "native": "খালি পেটে খাবেন না, খাওয়ার পরে খাবেন। আর প্রচুর পানি, স্যালাইন আর ডাবের পানি।", "roman": "khali peṭe khaben na, khawar pôre khaben. ar prochur pani, sælain ar ḍaber pani.", "en": "Not on an empty stomach, take it after food. And lots of water, oral saline and coconut water." },
+      { "speaker": "Tanvir", "native": "আবার কবে আসব?", "roman": "abar kôbe ashbo?", "en": "When should I come back?" },
+      { "speaker": "Doctor", "native": "রিপোর্ট পেয়েই চলে আসবেন। জ্বর না কমা পর্যন্ত পুরো বিশ্রাম।", "roman": "riporṭ peyei chole ashben. jôr na kôma pôrjonto puro bishram.", "en": "Come as soon as you get the report. Complete rest until the fever comes down." },
+      { "speaker": "Tanvir", "native": "ঠিক আছে। অনেক ধন্যবাদ, ডাক্তার সাহেব।", "roman": "ṭhik achhe. ônek dhonnobad, ḍaktar shaheb.", "en": "All right. Thank you very much, doctor." }
+    ]
+  },
+  "culture": "Seeing a doctor in Bengal is often less formal than in the West. Many specialists work in a hospital by day and sit in a private **চেম্বার** in the evening, often attached to a pharmacy or diagnostic centre. In **Dhaka** you phone to **সিরিয়াল দেওয়া** (get a queue number) and then wait, sometimes for hours; in **Kolkata** you book an **অ্যাপয়েন্টমেন্ট** or simply turn up. Address the doctor as **ডাক্তারবাবু** in West Bengal and **ডাক্তার সাহেব** (or **ডাক্তার আপা** for a woman) in Bangladesh; **স্যার / ম্যাডাম** works everywhere.\n\nPharmacists (**ওষুধের দোকান**, **ফার্মেসি**) will often sell common medicines without a prescription and suggest something for minor complaints, but antibiotics should come from a doctor. Tests are something you *get done*: **টেস্ট করানো**, and then you **রিপোর্ট দেখানো** (show the report) to the doctor.\n\nSome words you'll hear constantly: **গ্যাস্ট্রিক** or **গ্যাস** (acidity, indigestion, a national complaint in Bangladesh), **সুগার** (diabetes), **প্রেশার** (blood pressure), **ঠান্ডা লেগেছে** (I've caught a chill). Every monsoon brings **ডেঙ্গু** (dengue): the advice is rest, fluids (**ডাবের জল / পানি**, **ORS / স্যালাইন**) and only paracetamol for the fever. Remember the water split: **জল** in West Bengal, **পানি** in Bangladesh.",
+  "lessons": [
+    {
+      "title": "Saying exactly what's wrong",
+      "tip": { "title": "Sound-words + করা", "body": "- The body part + a doubled sound-word + **করা**: মাথা **ঝিমঝিম** করছে, গা **ম্যাজম্যাজ** করছে, গলা **খুশখুশ** করছে, চোখ **জ্বালা** করছে.\n- The verb is third person: never ~~আমি ঝিমঝিম করছি~~.\n- **-লেই** = whenever: উঠ**লেই** মাথা ঘোরে.", "pattern": "body part + ঝিমঝিম / জ্বালা + করছে", "grammar": 2 },
+      "new": ["লক্ষণ", "মাথা ঘোরা", "শ্বাসকষ্ট", "গা ব্যথা", "জ্বালা", "চুলকানি", "আমার মাথা ঘুরছে।", "আমার শ্বাস নিতে কষ্ট হচ্ছে।"],
+      "sentences": [
+        { "native": "চোখ দুটো খুব জ্বালা করছে।", "roman": "chokh duṭo khub jala korchhe.", "en": "My eyes are really stinging.", "focus": "করছে", "wrong": ["করছি|korchhi", "হচ্ছি|hochchhi"] },
+        { "native": "সকাল থেকে মাথাটা ঝিমঝিম করছে।", "roman": "shôkal theke mathaṭa jhimjhim korchhe.", "en": "My head's been feeling woozy since this morning.", "focus": "করছে", "wrong": ["করছি|korchhi", "করছেন|korchhen"] },
+        { "native": "সারা গায়ে চুলকানি হচ্ছে।", "roman": "shara gaye chulkani hochchhe.", "en": "I'm itchy all over.", "focus": "গায়ে", "wrong": ["গা|ga", "গায়ের|gayer"] },
+        { "native": "সিঁড়ি উঠলে আমার শ্বাসকষ্ট হয়।", "roman": "shiṃṛi uṭhle amar shashkôshṭo hôy.", "en": "I get out of breath when I climb the stairs.", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "গা ব্যথার সঙ্গে একটু মাথা ব্যথাও আছে।", "roman": "ga bæthar shôṅge ekṭu matha bæthao achhe.", "en": "Along with the body ache I've got a bit of a headache too." },
+        { "native": "কাল থেকে গলাটা খুশখুশ করছে, সঙ্গে কাশি।", "roman": "kal theke gôlaṭa khushkhush korchhe, shôṅge kashi.", "en": "My throat's been tickly since yesterday, and I've got a cough.", "focus": "করছে", "wrong": ["করছি|korchhi", "হচ্ছি|hochchhi"] },
+        { "native": "আর কোনো লক্ষণ আছে?", "roman": "ar kono lôkkhon achhe?", "en": "Any other symptoms?" },
+        { "native": "বিছানা থেকে উঠলেই মাথা ঘোরে।", "roman": "bichhana theke uṭhlei matha ghore.", "en": "Whenever I get out of bed I feel dizzy.", "focus": "উঠলেই", "wrong": ["উঠি|uṭhi", "উঠব|uṭhbo"] },
+        { "native": "সারা দিন গা ম্যাজম্যাজ করছে।", "roman": "shara din ga mæjmæj korchhe.", "en": "I've felt heavy and achy all day." }
+      ]
+    },
+    {
+      "title": "Since when? For how long?",
+      "tip": { "title": "ধরে (for) and থেকে (since)", "body": "- A length of time + **ধরে** + present: তিন দিন **ধরে** কাশি হচ্ছে 'I've had a cough for three days'.\n- A point in time + **থেকে**: কাল রাত **থেকে** 'since last night'.\n- Ask: **কত দিন ধরে?** · **কবে থেকে?**\n- Getting worse / better: **বাড়ছে** / **কমছে**.", "pattern": "তিন দিন + ধরে  ·  কাল রাত + থেকে", "grammar": 0 },
+      "new": ["ধরে", "বাড়া", "কমা", "কবে থেকে এরকম হচ্ছে?", "তিন দিন ধরে জ্বর আসছে।", "কাল রাত থেকে পেটে ব্যথা করছে।", "আগের চেয়ে একটু ভালো।"],
+      "sentences": [
+        { "native": "দুই দিন ধরে আমার কাশি হচ্ছে।", "roman": "dui din dhore amar kashi hochchhe.", "en": "I've had a cough for two days.", "focus": "ধরে", "wrong": ["আগে|age", "পরে|pôre"] },
+        { "native": "কাল রাত থেকে ঘুম হচ্ছে না।", "roman": "kal rat theke ghum hochchhe na.", "en": "I haven't been able to sleep since last night.", "focus": "থেকে", "wrong": ["ধরে|dhore", "আগে|age"] },
+        { "native": "কত দিন ধরে এই ব্যথাটা?", "roman": "kôto din dhore ei bæthaṭa?", "en": "How long have you had this pain?", "focus": "ধরে", "wrong": ["আগে|age", "পরে|pôre"] },
+        { "native": "আমি এক সপ্তাহ ধরে এই ওষুধটা খাচ্ছি।", "roman": "ami æk shôptaho dhore ei oshudhṭa khachchhi.", "en": "I've been taking this medicine for a week.", "focus": "খাচ্ছি", "wrong": ["খেলাম|khelam", "খাব|khabo"] },
+        { "native": "জ্বরটা কি বাড়ছে না কমছে?", "roman": "jôrṭa ki baṛchhe na komchhe?", "en": "Is the fever going up or down?" },
+        { "native": "সোমবার থেকে ব্যথাটা একটু কমেছে।", "roman": "shombar theke bæthaṭa ekṭu komechhe.", "en": "The pain's eased a bit since Monday.", "focus": "থেকে", "wrong": ["ধরে|dhore", "পরে|pôre"] },
+        { "native": "রাতে কাশিটা বাড়ে।", "roman": "rate kashiṭa baṛe.", "en": "The cough gets worse at night." },
+        { "native": "সকাল থেকে বমি বমি লাগছে।", "roman": "shôkal theke bomi bomi lagchhe.", "en": "I've been feeling sick since this morning." },
+        { "native": "আজ আগের চেয়ে অনেক ভালো লাগছে।", "roman": "aj ager cheye ônek bhalo lagchhe.", "en": "I feel a lot better than before today." },
+        { "native": "দুই সপ্তাহ ধরে আমি ঠিক করে ঘুমাতে পারছি না।", "roman": "dui shôptaho dhore ami ṭhik kore ghumate parchhi na.", "en": "I haven't been able to sleep properly for two weeks.", "focus": "পারছি", "wrong": ["পারলাম|parlam", "পারব|parbo"] }
+      ]
+    },
+    {
+      "title": "Cuts, burns and sprains",
+      "tip": { "title": "Injuries just happen: -ে গেছে", "body": "- Injuries use the participle + **গেছে**, with the body part as subject: পা **মচকে গেছে**, হাত **কেটে গেছে**, **পুড়ে গেছে**, **ফুলে গেছে**.\n- How it happened: **-তে গিয়ে** 'while (trying to)': রান্না করতে গিয়ে.\n- Healing: **সেরে যাবে** 'it'll heal'." },
+      "new": ["ফোলা", "মচকানো", "কেটে যাওয়া", "পোড়া", "রক্ত", "সারা"],
+      "sentences": [
+        { "native": "সিঁড়িতে পড়ে গিয়ে পা মচকে গেছে।", "roman": "shiṃṛite pôṛe giye pa mochke gechhe.", "en": "I fell on the stairs and sprained my ankle.", "focus": "গেছে", "wrong": ["গেছি|gechhi", "গেলাম|gelam"] },
+        { "native": "হাতটা খুব ফুলে গেছে।", "roman": "hatṭa khub phule gechhe.", "en": "My hand's really swollen.", "focus": "ফুলে", "wrong": ["ফোলা|phola", "ফুলছে|phulchhe"] },
+        { "native": "রান্না করতে গিয়ে হাতটা পুড়ে গেছে।", "roman": "ranna korte giye hatṭa puṛe gechhe.", "en": "I burnt my hand while cooking.", "focus": "পুড়ে", "wrong": ["পোড়া|poṛa", "পুড়ছে|puṛchhe"] },
+        { "native": "ভাঙা গ্লাসে পা কেটে গেছে, রক্ত পড়ছে।", "roman": "bhaṅa glashe pa keṭe gechhe, rôkto poṛchhe.", "en": "I've cut my foot on a broken glass, it's bleeding.", "focus": "কেটে", "wrong": ["কাটা|kaṭa", "কাটছে|kaṭchhe"] },
+        { "native": "কাটা জায়গাটা আগে জল দিয়ে ধুয়ে নাও।", "roman": "kaṭa jaygaṭa age jôl diye dhuye nao.", "en": "Wash the cut with water first." },
+        { "native": "চিন্তা কোরো না, দুই-তিন দিনে সেরে যাবে।", "roman": "chinta koro na, dui-tin dine shere jabe.", "en": "Don't worry, it'll heal in two or three days.", "focus": "সেরে", "wrong": ["সারা|shara", "সারবে|sharbe"] },
+        { "native": "পোড়া জায়গায় বরফ দিন।", "roman": "poṛa jaygay bôroph din.", "en": "Put ice on the burn." },
+        { "native": "খেলতে গিয়ে ওর হাত ভেঙে গেছে।", "roman": "khelte giye or hat bheṅe gechhe.", "en": "He broke his arm playing." },
+        { "native": "রক্ত বন্ধ হচ্ছে না, হাসপাতালে চলো।", "roman": "rôkto bôndho hochchhe na, hashpatale chôlo.", "en": "The bleeding won't stop, let's go to hospital." },
+        { "native": "ফোলাটা না কমা পর্যন্ত পায়ে চাপ দেবেন না।", "roman": "pholaṭa na kôma pôrjonto paye chap deben na.", "en": "Don't put weight on the foot until the swelling goes down." }
+      ]
+    },
+    {
+      "title": "Conditions and allergies",
+      "tip": { "title": "Long-term conditions", "body": "- A condition you live with: **আমার X আছে**: সুগার আছে, প্রেশার আছে, হাঁপানি আছে.\n- Allergies: **X-এ অ্যালার্জি আছে**: ডিমে অ্যালার্জি.\n- Medicine is *eaten*: ওষুধ **খাওয়া**. Injections are *given*: ইনজেকশন **দেওয়া**.\n- Talking about an elder, use **-েন**: বাবা মিষ্টি খান না." },
+      "new": ["সুগার", "প্রেশার", "অ্যালার্জি", "নিয়মিত", "ইনজেকশন", "ভর্তি", "আমার সুগার আছে।", "কোনো ওষুধ খাচ্ছেন?"],
+      "sentences": [
+        { "native": "বাবার সুগার আছে, তাই উনি মিষ্টি খান না।", "roman": "babar sugar achhe, tai uni mishṭi khan na.", "en": "Dad's diabetic, so he doesn't eat sweets.", "focus": "খান", "wrong": ["খায়|khay", "খাও|khao"] },
+        { "native": "মায়ের প্রেশার হঠাৎ বেড়ে গেছে।", "roman": "mayer preshar hôṭhat beṛe gechhe.", "en": "Mum's blood pressure has suddenly shot up.", "focus": "বেড়ে", "wrong": ["বাড়া|baṛa", "বাড়ছে|baṛchhe"] },
+        { "native": "আমার ডিমে অ্যালার্জি আছে।", "roman": "amar ḍime ælarji achhe.", "en": "I'm allergic to eggs.", "focus": "ডিমে", "wrong": ["ডিম|ḍim", "ডিমের|ḍimer"] },
+        { "native": "আপনার কি কোনো ওষুধে অ্যালার্জি আছে?", "roman": "apnar ki kono oshudhe ælarji achhe?", "en": "Are you allergic to any medicines?", "focus": "ওষুধে", "wrong": ["ওষুধ|oshudh", "ওষুধের|oshudher"] },
+        { "native": "আপনি কি কোনো ওষুধ নিয়মিত খান?", "roman": "apni ki kono oshudh niyomito khan?", "en": "Do you take any medicine regularly?", "focus": "খান", "wrong": ["খাও|khao", "খায়|khay"] },
+        { "native": "দাদুকে হাসপাতালে ভর্তি করতে হয়েছে।", "roman": "daduke hashpatale bhôrti korte hoyechhe.", "en": "Grandpa had to be admitted to hospital." },
+        { "native": "নার্স একটা ইনজেকশন দিয়ে গেল।", "roman": "nars ækṭa injekshon diye gælo.", "en": "The nurse came by and gave me an injection." },
+        { "native": "প্রেশারের ওষুধ রোজ খেতে হয়।", "roman": "presharer oshudh roj khete hôy.", "en": "Blood pressure medicine has to be taken every day." },
+        { "native": "ওনার সুগার অনেক কমে গেছে, এখন ভালো আছেন।", "roman": "onar sugar ônek kome gechhe, ækhon bhalo achhen.", "en": "His sugar has come right down, he's fine now.", "focus": "আছেন", "wrong": ["আছি|achhi", "আছিস|achhish"] },
+        { "native": "কত দিন ভর্তি থাকতে হবে?", "roman": "kôto din bhôrti thakte hobe?", "en": "How long will (he) have to stay in hospital?" }
+      ]
+    },
+    {
+      "title": "Taking your medicine",
+      "tip": { "title": "Instructions: একটা করে, দিনে দুবার", "body": "- Instructions use the polite future: **খাবেন**, **খাবেন না**.\n- Each time: number + **করে**: **একটা করে** ট্যাবলেট, **দুই চামচ করে**.\n- How often: **দিনে দুবার**; when: খাওয়া**র আগে / পরে**, **খালি পেটে**.\n- 'Take medicine' is ওষুধ **খাওয়া**, not নেওয়া.", "pattern": "একটা করে + দিনে দুবার + খাওয়ার পরে + খাবেন", "grammar": 1 },
+      "new": ["ট্যাবলেট", "সিরাপ", "চামচ", "ডোজ", "খালি পেটে", "দিনে দুবার, খাওয়ার পরে।", "এই ওষুধে ঘুম পায়?", "কোর্সটা পুরো শেষ করবেন।"],
+      "sentences": [
+        { "native": "সকালে আর রাতে একটা করে ট্যাবলেট খাবেন।", "roman": "shôkale ar rate ækṭa kore ṭæbleṭ khaben.", "en": "Take one tablet in the morning and one at night.", "focus": "করে", "wrong": ["করা|kôra", "করো|kôro"] },
+        { "native": "এই ওষুধটা খালি পেটে খাবেন।", "roman": "ei oshudhṭa khali peṭe khaben.", "en": "Take this medicine on an empty stomach.", "focus": "খাবেন", "wrong": ["খেলেন|khelen", "খাচ্ছেন|khachchhen"] },
+        { "native": "সিরাপটা দুই চামচ করে খাবে, দিনে তিনবার।", "roman": "sirapṭa dui chamoch kore khabe, dine tinbar.", "en": "Take two spoonfuls of the syrup, three times a day. (to a child)", "focus": "করে", "wrong": ["করা|kôra", "করবে|korbe"] },
+        { "native": "ওষুধ খাওয়ার আগে কিছু খেয়ে নাও।", "roman": "oshudh khawar age kichhu kheye nao.", "en": "Eat something before you take the medicine.", "focus": "খাওয়ার", "wrong": ["খেয়ে|kheye", "খাবে|khabe"] },
+        { "native": "একটা ডোজ বাদ পড়ে গেলে কী করব?", "roman": "ækṭa ḍoj bad pôṛe gele ki korbo?", "en": "What should I do if I miss a dose?", "focus": "গেলে", "wrong": ["যায়|jay", "গেল|gælo"] },
+        { "native": "জ্বর কমে গেলেও কোর্সটা শেষ করবেন।", "roman": "jôr kome geleo korsṭa shesh korben.", "en": "Finish the course even if the fever goes down." },
+        { "native": "ওষুধটা খেয়ে গাড়ি চালাবেন না।", "roman": "oshudhṭa kheye gaṛi chalaben na.", "en": "Don't drive after taking this medicine.", "focus": "চালাবেন", "wrong": ["চালাব|chalabo", "চালালেন|chalalen"] },
+        { "native": "ঠান্ডা জল খাবেন না, গরম জল খাবেন।", "roman": "ṭhanḍa jôl khaben na, gôrom jôl khaben.", "en": "Don't drink cold water, drink it warm." },
+        { "native": "দিনে কতবার খেতে হবে?", "roman": "dine kôtobar khete hobe?", "en": "How many times a day do I take it?" },
+        { "native": "পাঁচ দিন খাবেন, তারপর আবার দেখাবেন।", "roman": "paṃch din khaben, tarpôr abar dækhaben.", "en": "Take it for five days, then come back and see me." }
+      ]
+    },
+    {
+      "title": "Booking and seeing a doctor",
+      "tip": { "title": "How doctor visits work", "body": "- Kolkata: book an **অ্যাপয়েন্টমেন্ট**. Dhaka: **সিরিয়াল দেওয়া**, usually by phone.\n- Doctors 'sit' (**বসেন**) in a **চেম্বার**, often in the evening.\n- 'To see a doctor' is **ডাক্তার দেখানো** (lit. show to a doctor); tests are got done: **টেস্ট করানো**.\n- Call the doctor **ডাক্তারবাবু** (WB) or **ডাক্তার সাহেব** (BD)." },
+      "new": ["টেস্ট", "অ্যাপয়েন্টমেন্ট", "সিরিয়াল", "চেম্বার", "ডাক্তারের অ্যাপয়েন্টমেন্ট নিতে চাই।", "ডাক্তার কখন বসেন?", "ভয়ের কিছু নেই।"],
+      "sentences": [
+        { "native": "আজ সন্ধ্যায় ডাক্তার চেম্বারে বসবেন?", "roman": "aj shondhay ḍaktar chembare bôshben?", "en": "Is the doctor seeing patients at the chamber this evening?", "focus": "বসবেন", "wrong": ["বসব|boshbo", "বসবি|boshbi"] },
+        { "native": "আমি কাল সকালের জন্য একটা সিরিয়াল দিতে চাই।", "roman": "ami kal shôkaler jonno ækṭa sirial dite chai.", "en": "I'd like to book a slot for tomorrow morning." },
+        { "native": "ডাক্তার দুটো টেস্ট করাতে বলেছেন।", "roman": "ḍaktar duṭo ṭesṭ korate bolechhen.", "en": "The doctor has told me to get two tests done.", "focus": "করাতে", "wrong": ["করতে|korte", "করে|kore"] },
+        { "native": "রক্ত পরীক্ষার রিপোর্ট কবে পাওয়া যাবে?", "roman": "rôkto porikkhar riporṭ kôbe pawa jabe?", "en": "When will the blood test report be ready?" },
+        { "native": "রিপোর্টগুলো ডাক্তারকে দেখাতে হবে।", "roman": "riporṭgulo ḍaktarke dækhate hobe.", "en": "I have to show the reports to the doctor." },
+        { "native": "অ্যাপয়েন্টমেন্ট ছাড়া ডাক্তার দেখানো যাবে?", "roman": "æpoyenṭmenṭ chhaṛa ḍaktar dækhano jabe?", "en": "Can I see the doctor without an appointment?", "focus": "দেখানো", "wrong": ["দেখা|dækha", "দেখে|dekhe"] },
+        { "native": "ডাক্তার বললেন ভয়ের কিছু নেই।", "roman": "ḍaktar bollen bhôyer kichhu nei.", "en": "The doctor said there's nothing to worry about." },
+        { "native": "টেস্টের আগে খালি পেটে আসবেন।", "roman": "ṭesṭer age khali peṭe ashben.", "en": "Come on an empty stomach for the test." },
+        { "native": "চেম্বারে খুব ভিড়, এক ঘণ্টা ধরে বসে আছি।", "roman": "chembare khub bhiṛ, æk ghônṭa dhore boshe achhi.", "en": "The chamber's packed, I've been sitting here for an hour." },
+        { "native": "আমার সিরিয়াল নম্বর পনেরো।", "roman": "amar sirial nômbor pônero.", "en": "My queue number is fifteen." }
+      ]
+    }
+  ]
+}

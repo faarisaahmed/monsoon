@@ -1,0 +1,208 @@
+{
+  "id": 26,
+  "title": "At someone's home",
+  "goal": "Visit a friend's family and be a good guest: greet the parents, accept and refuse food the way people expect, ask what's OK, help out, stay the night and leave politely; and talk about how things used to be.",
+  "intro": "Being invited home is the heart of Bengali social life, in Dhaka and Kolkata alike. A visit has its own script: you arrive with sweets, you take your shoes off, the host insists that you eat, you refuse, they insist again, and when you finally leave you say **আসি** 'I'll come (again)' rather than 'I'm going'.\n\nThis unit gives you that script: how to offer and refuse without offending (**নাও না!** 'go on, have some!', **জোর কোরো না** 'don't insist'), how to ask 'should I…?' and 'is it OK if…?' (**জুতো খুলব?**, **সোফায় শুলে চলবে?**), the words for chores and for staying over, and the **habitual past** (**আসতাম** 'I used to come') for reminiscing with your friend's family about the old days.",
+  "vocab": [
+    { "native": "বাসা", "roman": "basha", "en": "home, flat (where you live)", "pos": "noun", "note": "Bangladesh: বাসা is where you live now, বাড়ি is the family home (দেশের বাড়ি \"home village\"). In West Bengal people say বাড়ি for both, or ফ্ল্যাট." },
+    { "native": "নিজের", "roman": "nijer", "en": "own; (one)self's", "pos": "pron", "note": "নিজের বাড়ি \"your own home\"; নিজে \"(by) oneself\"." },
+    { "native": "চটি", "roman": "chôṭi", "en": "slippers, flip-flops", "pos": "noun", "note": "West Bengal; in Bangladesh স্যান্ডেল (sænḍel). Indoor slippers are often offered at the door." },
+    { "native": "সোফা", "roman": "sopha", "en": "sofa", "pos": "noun" },
+    { "native": "কাকিমা", "roman": "kakima", "en": "auntie (a friend's mother; WB)", "pos": "noun", "note": "Wife of কাকা; in West Bengal any friend's mother is কাকিমা or মাসিমা, and the father কাকু (kaku) or মেসোমশাই." },
+    { "native": "আন্টি", "roman": "anṭi", "en": "auntie (a friend's mother)", "pos": "noun", "note": "Usual in Bangladesh and in cities everywhere; the father is আঙ্কেল (aṅkel). More traditional in Bangladesh: খালাম্মা (khalamma), চাচি (chachi)." },
+    { "native": "ভদ্রতা", "roman": "bhôdrota", "en": "politeness, formality", "pos": "noun", "note": "এত ভদ্রতা করতে হবে না \"no need to be so formal\". From ভদ্র (bhôdro) \"polite, decent\"." },
+    { "native": "জোর করা", "roman": "jor kôra", "en": "to insist; to force", "pos": "verb", "note": "জোর করে \"forcibly; insistently\"." },
+    { "native": "খাওয়াদাওয়া", "roman": "khawadawa", "en": "eating, meals, food (in general)", "pos": "noun", "note": "Paired word: খাওয়াদাওয়া করে যাও \"eat before you go\"." },
+    { "native": "থেকে যাওয়া", "roman": "theke jawa", "en": "to stay on, stay over", "pos": "verb", "note": "থেকে যাও \"stay (the night)!\"" },
+    { "native": "শোয়া", "roman": "shoa", "en": "to lie down; to go to bed", "pos": "verb", "note": "শুই, শোও, শোয়; past শুলাম; -লে form শুলে; future শোব. শুয়ে পড়ো \"lie down, go to bed\"." },
+    { "native": "বাড়তি", "roman": "baṛti", "en": "extra, spare", "pos": "adj", "note": "একটা বাড়তি বালিশ \"a spare pillow\"; বাড়তি টাকা \"extra money\"." },
+    { "native": "বালিশ", "roman": "balish", "en": "pillow", "pos": "noun" },
+    { "native": "চাদর", "roman": "chador", "en": "sheet; light blanket, shawl", "pos": "noun" },
+    { "native": "মশারি", "roman": "moshari", "en": "mosquito net", "pos": "noun", "note": "মশারি টাঙানো (ṭaṅano) \"to put up the net\". মশা (môsha) is \"mosquito\"." },
+    { "native": "অসুবিধা", "roman": "ôshubidha", "en": "inconvenience, problem, trouble", "pos": "noun", "note": "কোনো অসুবিধা নেই \"no problem at all\". Also written অসুবিধে (oshubidhe) in West Bengal." },
+    { "native": "কাজের লোক", "roman": "kajer lok", "en": "domestic help", "pos": "noun", "note": "Polite in practice is to use the person's name or a family term: in West Bengal মাসি or দিদি, in Bangladesh খালা or বুয়া." },
+    { "native": "ঝাঁট দেওয়া", "roman": "jhaṃṭ dewa", "en": "to sweep", "pos": "verb", "note": "West Bengal; in Bangladesh ঝাড়ু দেওয়া (jhaṛu dewa). ঝাঁটা \"broom\"." },
+    { "native": "মোছা", "roman": "mochha", "en": "to wipe; to mop", "pos": "verb", "note": "মুছি, মোছে; -এ form মুছে. ঘর মোছা \"to mop the floor\"." },
+    { "native": "বাসন", "roman": "bashon", "en": "dishes, pots and pans", "pos": "noun", "note": "বাসন মাজা \"to wash up\" (lit. scrub dishes). In Bangladesh also থালাবাসন ধোয়া." },
+    { "native": "কাচা", "roman": "kacha", "en": "to wash (clothes)", "pos": "verb", "note": "Only for clothes and cloth: কাপড় কাচা. Mainly West Bengal; Bangladesh says কাপড় ধোয়া." },
+    { "native": "নিয়ম", "roman": "niyom", "en": "rule", "pos": "noun", "note": "বাড়ির নিয়ম \"house rules\"; নিয়ম নেই \"it's not allowed\"." },
+    { "native": "অভ্যাস", "roman": "obbhash", "en": "habit", "pos": "noun", "note": "আমার অভ্যাস নেই \"I'm not used to it\". Colloquially অভ্যেস (obbhesh)." },
+    { "native": "আজকাল", "roman": "ajkal", "en": "these days, nowadays", "pos": "adv" },
+    { "native": "প্রায়ই", "roman": "praii", "en": "often", "pos": "adv" },
+    { "native": "অনেকক্ষণ", "roman": "ônekkhôn", "en": "for a long time (hours)", "pos": "adv", "note": "From অনেক + ক্ষণ \"moment\". For days or years use অনেকদিন (ônekdin)." },
+    { "native": "যত্ন", "roman": "jotno", "en": "care", "pos": "noun", "note": "যত্ন করা \"to look after\"; নিজের যত্ন নিয়ো \"take care of yourself\"." }
+  ],
+  "phrases": [
+    { "native": "আরে, এসো এসো! কতদিন পরে!", "roman": "are, esho esho! kôtodin pôre!", "en": "Hey, come in, come in! It's been ages!", "note": "To someone you call তুমি; to an older guest: আসুন, আসুন!" },
+    { "native": "জুতো খুলব?", "roman": "juto khulbo?", "en": "Should I take my shoes off?" },
+    { "native": "নিজের বাড়ি মনে করো।", "roman": "nijer baṛi mone kôro.", "en": "Make yourself at home. (informal)", "note": "In Bangladesh: নিজের বাসা মনে করো." },
+    { "native": "কী খাবে, চা না কফি?", "roman": "ki khabe, cha na kôphi?", "en": "What'll you have, tea or coffee? (informal)" },
+    { "native": "শুধু এক কাপ চা, আর কিছু না।", "roman": "shudhu æk kap cha, ar kichhu na.", "en": "Just a cup of tea, nothing else." },
+    { "native": "এইমাত্র খেয়ে এলাম।", "roman": "eimatro kheye elam.", "en": "I've just eaten (before coming).", "note": "The classic polite excuse. It may or may not be true." },
+    { "native": "এত ভদ্রতা করতে হবে না।", "roman": "æto bhôdrota korte hobe na.", "en": "No need to be so formal." },
+    { "native": "জোর কোরো না, সত্যিই আর পারব না।", "roman": "jor koro na, shottii ar parbo na.", "en": "Don't insist, I really can't eat any more." },
+    { "native": "আজ রাতটা থেকে যাও।", "roman": "aj ratṭa theke jao.", "en": "Stay the night." },
+    { "native": "কোনো অসুবিধা হবে না তো?", "roman": "kono ôshubidha hobe na to?", "en": "It won't be any trouble, will it?" },
+    { "native": "আমি কিছু করব?", "roman": "ami kichhu korbo?", "en": "Can I help with anything? (lit. shall I do something?)" },
+    { "native": "আজ তাহলে উঠি।", "roman": "aj tahole uṭhi.", "en": "I'll make a move, then.", "note": "Lit. \"I'll get up then\". Leaving a visit: আসি \"I'll come (again)\" rather than যাই \"I'm going\"." },
+    { "native": "আবার আসবে কিন্তু!", "roman": "abar ashbe kintu!", "en": "You must come again!", "note": "কিন্তু at the end of a sentence means \"mind you, I mean it\"." },
+    { "native": "পৌঁছে একটা ফোন কোরো।", "roman": "pouṃchhe ækṭa phon koro.", "en": "Give me a call when you get home." }
+  ],
+  "grammar": [
+    {
+      "title": "'Used to': the habitual past -তাম",
+      "body": "You met this form in unit 19 for 'would' in unreal conditions. Its everyday job is talking about **past habits**: what you used to do, what someone would always do.\n\nAdd **-ত-** + the past endings to the stem:\nআমি **করতাম** *kortam* 'I used to do'\nতুই **করতিস** *kortish*\nতুমি **করতে** *korte*\nআপনি / উনি **করতেন** *korten*\nসে / ও **করত** *korto*\n\nThe stem is the same as for the infinitive, so the irregular verbs follow it: যাওয়া → **যেতাম**, খাওয়া → **খেতাম**, দেওয়া → **দিতাম**, নেওয়া → **নিতাম**, হওয়া → **হতাম**, আসা → **আসতাম**, থাকা → **থাকতাম**.\n\nTime words that go with it: **ছোটবেলায়** 'as a child', **আগে** 'before', **তখন** 'back then', **প্রায়ই** 'often', **প্রতি বছর** 'every year', **রোজ** 'every day'.\n\n**Not any more**: put the present after **এখন আর … না**: আগে খেতাম, **এখন আর খাই না** 'I used to, I don't any more'. The negative 'never used to' is **-তাম না**: আমি মাছ খেতাম না.\n\n**Habit or one-off?** Habits take -তাম; a single event in the past takes the simple past (unit 16): ছোটবেলায় রোজ মামাবাড়ি **যেতাম** 'as a kid I'd go to my uncle's every day', but গত বছর একবার **গেলাম** 'I went once last year'.\n\n**The trap:** the তুমি form **করতে** looks exactly like the infinitive (করতে পারি 'I can do'). তুমি আগে চা **খেতে** না? 'didn't you use to drink tea?' The subject tells you which it is.",
+      "examples": [
+        { "native": "ছোটবেলায় আমরা প্রতি গরমের ছুটিতে মামাবাড়ি যেতাম।", "roman": "chhoṭobælay amra proti gôromer chhuṭite mamabaṛi jetam.", "en": "As kids we'd go to our mum's family home every summer holiday." },
+        { "native": "আগে আমি খুব চা খেতাম, এখন আর খাই না।", "roman": "age ami khub cha khetam, ækhon ar khai na.", "en": "I used to drink a lot of tea; I don't any more." },
+        { "native": "তুমি আগে ঢাকায় থাকতে না?", "roman": "tumi age ḍhakay thakte na?", "en": "Didn't you use to live in Dhaka?" },
+        { "native": "দাদু রোজ সকালে আমাকে স্কুলে নিয়ে যেতেন।", "roman": "dadu roj shôkale amake skule niye jeten.", "en": "Grandpa used to take me to school every morning." },
+        { "native": "ও তখন একদম কথা বলত না।", "roman": "o tôkhon ækdôm kôtha bolto na.", "en": "Back then he never used to say a word." }
+      ]
+    },
+    {
+      "title": "Offering, insisting and saying no",
+      "body": "Bengali hospitality is a little dance: the host offers, the guest declines, the host insists, and only then does the guest accept (or decline firmly). Saying yes at once can seem greedy; refusing only once is not taken seriously.\n\n**Offering** (host): a question in the future: কী **খাবে**? চা **খাবেন**? Or an imperative softened with a following **না**: **নাও না**! 'go on, have some!', **বসুন না** 'do sit down'. Doubling insists: **নিন, নিন**! **খাও, খাও**!\n\n**This না is not 'no'.** After the *ordinary* imperative it coaxes: **বসো না**! 'do sit!'. 'Don't' uses the *future* imperative (unit 18) + না: **বোসো না** 'don't sit', **কোরো না** 'don't do', **খেয়ো না** 'don't eat'. With আপনি, 'don't' is the future: **বসবেন না**.\nSo: খাও না! 'go on, eat!' vs খেয়ো না 'don't eat it'.\n\n**Declining** (guest): **না না, থাক** (unit 18); **আর না** 'no more'; **শুধু** এক কাপ চা 'just a cup of tea'; **এইমাত্র খেয়ে এলাম** 'I've just eaten'; **জোর কোরো না** 'don't insist'; পেট ভরে গেছে (unit 5).\n\n**Accepting** (the second or third time): আচ্ছা, **একটু** দিন 'OK, just a little'.\n\nThe English word **ফর্মালিটি** is common too: ফর্মালিটি করতে হবে না 'don't stand on ceremony'.",
+      "examples": [
+        { "native": "আরেকটা মিষ্টি নাও না!", "roman": "arekṭa mishṭi nao na!", "en": "Go on, have another sweet!" },
+        { "native": "না না, আর না, সত্যি পেট ভরে গেছে।", "roman": "na na, ar na, shotti peṭ bhore gechhe.", "en": "No, no more, I'm honestly full." },
+        { "native": "আপনি বসুন না, আমি চা নিয়ে আসছি।", "roman": "apni boshun na, ami cha niye ashchhi.", "en": "Do sit down, I'll bring the tea." },
+        { "native": "ঝালটা বেশি, বাচ্চাকে দিয়ো না।", "roman": "jhalṭa beshi, bachchake diyo na.", "en": "It's very spicy, don't give any to the little one." },
+        { "native": "আচ্ছা, তাহলে অল্প করে দিন।", "roman": "achchha, tahole ôlpo kore din.", "en": "All right then, just give me a little." }
+      ]
+    },
+    {
+      "title": "'Should I…?' and 'Is it OK if…?'",
+      "body": "**Shall I / should I…?** Ask in the **future** with আমি: জুতো **খুলব**? 'should I take my shoes off?', আমি কিছু **করব**? 'shall I do something?', পাখাটা **চালিয়ে দেব**? 'shall I turn on the fan?'. Adding **কি** makes it a little more careful: আমি **কি** এখানে বসব?\n\nFor advice ('ought I to…?') use **উচিত** (unit 9): আমার কি কিছু নিয়ে যাওয়া **উচিত**? 'should I take something?'\n\n**Is it OK if…?** Use the **-লে** form (unit 19) + **চলবে?** 'will it do?' or **অসুবিধা হবে?** 'will it be a problem?':\nমেঝেতে **শুলে চলবে**? 'is it OK if I sleep on the floor?'\nএকটু দেরি করে **ফিরলে অসুবিধা হবে**? 'is it a problem if I come back a bit late?'\nThe negative 'if it's not a problem' is **অসুবিধা না হলে** (like আপত্তি না থাকলে, unit 18).\n\n**Answers:** হ্যাঁ, **নিশ্চয়ই** / **অবশ্যই**; **কোনো অসুবিধা নেই**; or a gentle no: **না, থাক**, **দরকার নেই** 'no need'.\n\n**The trap:** a future question with **আপনি / তুমি** is a *request* (করবেন? 'will you?'), but with **আমি** it's an *offer* or a request for permission (করব? 'shall I?'). Don't say *আপনি জুতো খুলবেন?* when you mean 'should I take my shoes off?': that asks the host to take off theirs.",
+      "examples": [
+        { "native": "জুতোটা এখানে খুলব?", "roman": "jutoṭa ekhane khulbo?", "en": "Shall I take my shoes off here?" },
+        { "native": "বাসনগুলো আমি মেজে দেব?", "roman": "bashongulo ami meje debo?", "en": "Shall I do the dishes?" },
+        { "native": "মেঝেতে শুলে চলবে?", "roman": "mejhete shule cholbe?", "en": "Is it OK if I sleep on the floor?" },
+        { "native": "রাতে একটু দেরি করে ফিরলে অসুবিধা হবে?", "roman": "rate ekṭu deri kore phirle ôshubidha hobe?", "en": "Will it be a problem if I'm back a bit late tonight?" },
+        { "native": "আমার কি কিছু নিয়ে যাওয়া উচিত?", "roman": "amar ki kichhu niye jawa uchit?", "en": "Should I take something with me?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Back at an old friend's",
+    "setting": "Arif drops in on his school friend Nabil's family in Dhanmondi, Dhaka, for the first time in years. He uses আপনি and 'আন্টি' with Nabil's mother; she calls him তুমি, like one of her own.",
+    "lines": [
+      { "speaker": "Aunty", "native": "আরে, আরিফ! এসো এসো, কতদিন পরে!", "roman": "are, arif! esho esho, kôtodin pôre!", "en": "Arif! Come in, come in, it's been ages!" },
+      { "speaker": "Arif", "native": "আসসালামু আলাইকুম, আন্টি। জুতো এখানে খুলব?", "roman": "assalamu alaikum, anṭi. juto ekhane khulbo?", "en": "Assalamu alaikum, Auntie. Shall I take my shoes off here?" },
+      { "speaker": "Aunty", "native": "হ্যাঁ, ওখানে রাখো। বসো, বসো। নিজের বাসা মনে করো।", "roman": "hæṃ, okhane rakho. bôsho, bôsho. nijer basha mone kôro.", "en": "Yes, leave them there. Sit, sit. Make yourself at home." },
+      { "speaker": "Arif", "native": "এই নিন, আপনার জন্য একটু মিষ্টি এনেছি।", "roman": "ei nin, apnar jonno ekṭu mishṭi enechhi.", "en": "Here, I've brought you some sweets." },
+      { "speaker": "Aunty", "native": "এসব আনার কী দরকার ছিল! কী খাবে, চা না কফি?", "roman": "æshob anar ki dôrkar chhilo! ki khabe, cha na kôphi?", "en": "You shouldn't have! What'll you have, tea or coffee?" },
+      { "speaker": "Arif", "native": "শুধু এক কাপ চা, আন্টি। এইমাত্র খেয়ে এলাম।", "roman": "shudhu æk kap cha, anṭi. eimatro kheye elam.", "en": "Just a cup of tea, Auntie. I've just eaten." },
+      { "speaker": "Nabil", "native": "মা, ও এভাবেই বলে। ছোটবেলায় তোমার রান্না খেতে প্রতি শুক্রবার আসত!", "roman": "ma, o ebhabei bole. chhoṭobælay tomar ranna khete proti shukrobar ashto!", "en": "Mum, he always says that. When we were kids he came every Friday to eat your cooking!" },
+      { "speaker": "Aunty", "native": "সে তো জানি। আজ রাতে বিরিয়ানি হচ্ছে, তুমি থেকে যাও।", "roman": "she to jani. aj rate biriyani hochchhe, tumi theke jao.", "en": "Don't I know it. I'm making biryani tonight, you're staying." },
+      { "speaker": "Arif", "native": "আন্টি, কোনো অসুবিধা হবে না তো?", "roman": "anṭi, kono ôshubidha hobe na to?", "en": "Auntie, it won't be any trouble, will it?" },
+      { "speaker": "Aunty", "native": "কীসের অসুবিধা! নাবিলের ঘরে একটা বাড়তি বালিশ আর চাদর আছে।", "roman": "kisher ôshubidha! nabiler ghôre ækṭa baṛti balish ar chador achhe.", "en": "What trouble! There's a spare pillow and sheet in Nabil's room." },
+      { "speaker": "Nabil", "native": "তবে একটা নিয়ম আছে: সকালে দশটার আগে কেউ আমাকে ডাকবে না।", "roman": "tobe ækṭa niyom achhe: shôkale dôshṭar age keu amake ḍakbe na.", "en": "There's one rule, though: nobody wakes me before ten in the morning." },
+      { "speaker": "Aunty", "native": "ওর কথা শুনো না। আটটায় নাস্তা, না উঠলে কিছু পাবে না!", "roman": "or kôtha shuno na. aṭṭay nasta, na uṭhle kichhu pabe na!", "en": "Don't listen to him. Breakfast is at eight; if you're not up, you get nothing!" }
+    ]
+  },
+  "culture": "Never arrive empty-handed: a box of **মিষ্টি** from a good sweet shop, or fruit, is the standard gift, and the host will protest (**এসব আনার কী দরকার ছিল!**) and then take it. Take your shoes off at the door. Your friend's parents are **কাকিমা / কাকু** or **মাসিমা / মেসোমশাই** in West Bengal and **আন্টি / আঙ্কেল** (or **খালাম্মা**, **চাচি**) in Bangladesh; use **আপনি** with them even if they call you **তুমি**. In many Hindu homes in West Bengal younger people touch elders' feet (**প্রণাম**); in Bangladesh a **সালাম** is the greeting. The host will press food on you: refuse once or twice, accept a little, and leave a small amount on your plate when you're truly full (a clean plate gets refilled). Eat with your right hand. Offering to help (**আমি কিছু করব?**) is polite, and will usually be refused for a first visit. Treat the domestic help respectfully and by name or family term (**মাসি**, **দিদি**, **খালা**). If you stay over, expect a **মশারি** in many homes and an early start. When you leave, say **আসি** 'I'll come (again)', not **যাই** 'I'm going', which sounds like a final farewell, and the host will say **আবার এসো** and ask you to call when you get home.",
+  "lessons": [
+    {
+      "title": "Arriving at a friend's place",
+      "tip": { "title": "Shall I…? Ask in the future", "body": "- To ask 'shall I / should I…?', use the **future** with আমি: জুতো **খুলব**? 'should I take my shoes off?'\n- 'Shall I do it for you?' = -এ form + **দেব**: পাখাটা চালিয়ে **দেব**?\n- **The trap**: with আপনি the future is a request: খুলবেন? asks *them* to do it.", "pattern": "(আমি) + … + verb-ব?", "grammar": 2 },
+      "new": ["বাসা", "নিজের", "চটি", "সোফা", "কাকিমা", "আন্টি", "আরে, এসো এসো! কতদিন পরে!", "জুতো খুলব?", "নিজের বাড়ি মনে করো।"],
+      "sentences": [
+        { "native": "আরে, এসো এসো! মা, দেখো কে এসেছে!", "roman": "are, esho esho! ma, dækho ke eshechhe!", "en": "Hey, come in! Mum, look who's here!" },
+        { "native": "কাকিমা, জুতোটা কোথায় রাখব?", "roman": "kakima, jutoṭa kothay rakhbo?", "en": "Auntie, where should I put my shoes?", "focus": "রাখব", "wrong": ["রাখবেন|rakhben", "রাখো|rakho"] },
+        { "native": "জুতো কি বাইরে খুলব?", "roman": "juto ki baire khulbo?", "en": "Should I take my shoes off outside?", "focus": "খুলব", "wrong": ["খুলবেন|khulben", "খোলো|kholo"] },
+        { "native": "এই চটিটা পরে নাও।", "roman": "ei chôṭiṭa pore nao.", "en": "Put these slippers on." },
+        { "native": "আন্টি, চটি পরব?", "roman": "anṭi, chôṭi porbo?", "en": "Auntie, should I put slippers on?", "focus": "পরব", "wrong": ["পরবেন|porben", "পরো|pôro"] },
+        { "native": "এখানে সোফায় বসব?", "roman": "ekhane sophay boshbo?", "en": "Shall I sit here on the sofa?", "focus": "বসব", "wrong": ["বসবেন|boshben", "বসো|bôsho"] },
+        { "native": "মাকে একটা ফোন করে দেব?", "roman": "make ækṭa phon kore debo?", "en": "Shall I give Mum a call?", "focus": "দেব", "wrong": ["দেবেন|deben", "দাও|dao"] },
+        { "native": "পাখাটা চালিয়ে দেব?", "roman": "pakhaṭa chaliye debo?", "en": "Shall I turn the fan on?", "focus": "দেব", "wrong": ["দেবেন|deben", "দিন|din"] },
+        { "native": "কাকিমা, আমি এখানে বসলে চলবে?", "roman": "kakima, ami ekhane boshle cholbe?", "en": "Auntie, is it all right if I sit here?", "focus": "বসলে", "wrong": ["বসব|boshbo", "বসতে|boshte"] },
+        { "native": "নিজের বাসা মনে করো, লজ্জা কোরো না।", "roman": "nijer basha mone kôro, lôjja koro na.", "en": "Make yourself at home, don't be shy." }
+      ]
+    },
+    {
+      "title": "Offering food and saying no nicely",
+      "tip": { "title": "নাও না! vs খেয়ো না", "body": "- Hosts offer with the future (কী **খাবে**?) or a coaxing imperative + **না**: **নাও না**! 'go on, have some!'\n- 'Don't' is the *future* imperative + না: জোর **কোরো না**, **খেয়ো না**.\n- Decline with **থাক, আর না, শুধু…**; accept with **একটু দিন**.\n- Expect to say no at least twice.", "pattern": "খাও না! (go on)  ·  খেয়ো না (don't)", "grammar": 1 },
+      "new": ["ভদ্রতা", "জোর করা", "খাওয়াদাওয়া", "কী খাবে, চা না কফি?", "শুধু এক কাপ চা, আর কিছু না।", "এইমাত্র খেয়ে এলাম।", "এত ভদ্রতা করতে হবে না।", "জোর কোরো না, সত্যিই আর পারব না।"],
+      "sentences": [
+        { "native": "চা খাবে, না কফি?", "roman": "cha khabe, na kôphi?", "en": "Tea or coffee?", "focus": "খাবে", "wrong": ["খাব|khabo", "খেলে|khele"] },
+        { "native": "আরেকটা মিষ্টি খাও না!", "roman": "arekṭa mishṭi khao na!", "en": "Go on, have another sweet!", "focus": "খাও", "wrong": ["খেয়ো|kheyo", "খাব|khabo"] },
+        { "native": "এত জোর কোরো না, আমি সত্যিই খেয়ে এসেছি।", "roman": "æto jor koro na, ami shottii kheye eshechhi.", "en": "Don't insist so much, I really have eaten.", "focus": "কোরো", "wrong": ["করি|kori", "করলাম|korlam"] },
+        { "native": "আন্টি, আপনিও বসুন না!", "roman": "anṭi, apnio boshun na!", "en": "Auntie, do sit down too!", "focus": "বসুন", "wrong": ["বসবেন|boshben", "বসি|boshi"] },
+        { "native": "শুধু এক কাপ চা দাও, আর কিছু লাগবে না।", "roman": "shudhu æk kap cha dao, ar kichhu lagbe na.", "en": "Just give me a cup of tea, I don't need anything else.", "focus": "শুধু", "wrong": ["আরও|aro", "অনেক|ônek"] },
+        { "native": "এইমাত্র খেয়ে এলাম, এখন আর কিছু খাব না।", "roman": "eimatro kheye elam, ækhon ar kichhu khabo na.", "en": "I've just eaten, I won't have anything else now." },
+        { "native": "আমাদের সঙ্গে এত ভদ্রতা করতে হবে না।", "roman": "amader shôṅge æto bhôdrota korte hobe na.", "en": "You don't need to be so formal with us." },
+        { "native": "খাওয়াদাওয়া করে যাও না!", "roman": "khawadawa kore jao na!", "en": "Do stay and eat before you go!", "focus": "যাও", "wrong": ["যেয়ো|jeyo", "যাব|jabo"] },
+        { "native": "মা সবসময় অতিথিদের জোর করে খাওয়ান।", "roman": "ma shôbshômoy otithider jor kore khawan.", "en": "Mum always makes guests eat more than they want." },
+        { "native": "আচ্ছা, তাহলে একটু দিন।", "roman": "achchha, tahole ekṭu din.", "en": "All right then, just a little.", "focus": "একটু", "wrong": ["অনেক|ônek", "সব|shôb"] }
+      ]
+    },
+    {
+      "title": "Staying the night",
+      "tip": { "title": "Is it OK if…? -লে চলবে?", "body": "- To ask 'is it OK if I…?', use the **-লে** form + **চলবে?** or **অসুবিধা হবে?**: সোফায় **শুলে চলবে**?\n- 'If it's no trouble' = **অসুবিধা না হলে**.\n- Answer: **কোনো অসুবিধা নেই** / **নিশ্চয়ই**.\n- শোয়া 'go to bed' is short: শুই, শুলে, শুয়ে, শোব.", "pattern": "verb-লে + চলবে? / অসুবিধা হবে?", "grammar": 2 },
+      "new": ["থেকে যাওয়া", "শোয়া", "বাড়তি", "বালিশ", "চাদর", "মশারি", "অসুবিধা", "আজ রাতটা থেকে যাও।", "কোনো অসুবিধা হবে না তো?"],
+      "sentences": [
+        { "native": "আমি সোফায় শুলে চলবে?", "roman": "ami sophay shule cholbe?", "en": "Is it OK if I sleep on the sofa?", "focus": "শুলে", "wrong": ["শোব|shobo", "শুতে|shute"] },
+        { "native": "মশারি ছাড়া শুলে সারারাত ঘুম হবে না।", "roman": "moshari chhaṛa shule shararat ghum hobe na.", "en": "If you sleep without a net you won't sleep a wink.", "focus": "শুলে", "wrong": ["শোব|shobo", "শুয়ে|shuye"] },
+        { "native": "আজ রাতটা আমাদের এখানে থেকে যাও, এত রাতে যেতে হবে না।", "roman": "aj ratṭa amader ekhane theke jao, æto rate jete hobe na.", "en": "Stay here with us tonight, there's no need to go so late." },
+        { "native": "থেকে গেলে মা খুব খুশি হবে।", "roman": "theke gele ma khub khushi hobe.", "en": "Mum will be really happy if you stay.", "focus": "গেলে", "wrong": ["যাব|jabo", "যেতে|jete"] },
+        { "native": "একটা বাড়তি বালিশ পেলে ভালো হয়।", "roman": "ækṭa baṛti balish pele bhalo hôy.", "en": "A spare pillow would be nice.", "focus": "পেলে", "wrong": ["পাব|pabo", "পেয়ে|peye"] },
+        { "native": "রাতে ঠান্ডা লাগলে চাদরটা নিয়ো।", "roman": "rate ṭhanḍa lagle chadorṭa niyo.", "en": "If you get cold at night, take the sheet.", "focus": "লাগলে", "wrong": ["লাগবে|lagbe", "লাগে|lage"] },
+        { "native": "কাল সকালে একটু দেরিতে উঠলে অসুবিধা হবে?", "roman": "kal shôkale ekṭu derite uṭhle ôshubidha hobe?", "en": "Will it be a problem if I get up a bit late tomorrow?", "focus": "উঠলে", "wrong": ["উঠব|uṭhbo", "উঠে|uṭhe"] },
+        { "native": "তোমার অসুবিধা না হলে আজ থেকে যাই?", "roman": "tomar ôshubidha na hole aj theke jai?", "en": "If it's no trouble for you, shall I stay tonight?", "focus": "হলে", "wrong": ["হবে|hobe", "হয়|hôy"] },
+        { "native": "কোনো অসুবিধা হলে আমাকে ডেকো।", "roman": "kono ôshubidha hole amake ḍeko.", "en": "If there are any problems, call me.", "focus": "হলে", "wrong": ["হবে|hobe", "হয়|hôy"] },
+        { "native": "আমরা সাধারণত বারোটায় শুই।", "roman": "amra shadharonoto baroṭay shui.", "en": "We usually go to bed at twelve." }
+      ]
+    },
+    {
+      "title": "Helping out with the chores",
+      "tip": { "title": "Each chore has its verb", "body": "- ঘর **ঝাঁট দেওয়া** 'sweep', ঘর **মোছা** 'mop', বাসন **মাজা** 'wash up', কাপড় **কাচা** 'wash clothes'.\n- Offer with the future: **মেজে দিই?** / **মুছে দেব?** 'shall I…?'\n- Bangladesh says **ঝাড়ু দেওয়া** and কাপড় **ধোয়া**." },
+      "new": ["কাজের লোক", "ঝাঁট দেওয়া", "মোছা", "বাসন", "কাচা", "নিয়ম", "আমি কিছু করব?"],
+      "sentences": [
+        { "native": "আমি কিছু করব? বাসনগুলো মেজে দিই?", "roman": "ami kichhu korbo? bashongulo meje dii?", "en": "Can I help? Shall I wash the dishes?" },
+        { "native": "না না, তুমি অতিথি, তুমি বসো।", "roman": "na na, tumi otithi, tumi bôsho.", "en": "No, no, you're a guest, you sit down." },
+        { "native": "আমাদের বাড়ির নিয়ম: যে রান্না করে, সে বাসন মাজে না।", "roman": "amader baṛir niyom: je ranna kore, she bashon maje na.", "en": "Our house rule: whoever cooks doesn't do the dishes." },
+        { "native": "কাজের লোক আজ আসেনি, তাই সব কাজ আমাদের।", "roman": "kajer lok aj asheni, tai shôb kaj amader.", "en": "The help didn't come today, so all the work's ours." },
+        { "native": "তুমি ঝাঁট দাও, আমি ঘর মুছে দিচ্ছি।", "roman": "tumi jhaṃṭ dao, ami ghôr muchhe dichchhi.", "en": "You sweep, I'll mop the floor." },
+        { "native": "কাপড়গুলো কে কাচবে?", "roman": "kapoṛgulo ke kachbe?", "en": "Who's going to wash the clothes?" },
+        { "native": "আজকাল কেউ হাতে কাপড় কাচে না।", "roman": "ajkal keu hate kapoṛ kache na.", "en": "Nobody washes clothes by hand these days." },
+        { "native": "টেবিলটা একটু মুছে দাও তো।", "roman": "ṭebilṭa ekṭu muchhe dao to.", "en": "Give the table a wipe, will you?" },
+        { "native": "আমাদের বাসায় জুতো পরে ভেতরে আসার নিয়ম নেই।", "roman": "amader bashay juto pore bhetore ashar niyom nei.", "en": "In our home you don't wear shoes inside." },
+        { "native": "রোজ সকালে ঘর ঝাঁট দেওয়া আমার কাজ।", "roman": "roj shôkale ghôr jhaṃṭ dewa amar kaj.", "en": "Sweeping the floor every morning is my job." }
+      ]
+    },
+    {
+      "title": "Remembering the old days",
+      "tip": { "title": "আসতাম: I used to come", "body": "- **Stem + -ত- + ending** = 'used to / would' for past habits: আমি **করতাম**, তুমি **করতে**, আপনি **করতেন**, সে **করত**.\n- Irregular verbs follow the infinitive: যেতাম, খেতাম, দিতাম.\n- 'Not any more' = **এখন আর … না**: এখন আর খাই না.\n- A one-off event keeps the simple past: গত রবিবার গেলাম.", "pattern": "আগে / ছোটবেলায় + stem-তাম", "grammar": 0 },
+      "new": ["অভ্যাস", "আজকাল", "প্রায়ই", "অনেকক্ষণ"],
+      "sentences": [
+        { "native": "ছোটবেলায় আমি প্রায়ই এই বাড়িতে আসতাম।", "roman": "chhoṭobælay ami praii ei baṛite ashtam.", "en": "As a kid I used to come to this house a lot.", "focus": "আসতাম", "wrong": ["এলাম|elam", "আসছি|ashchhi"] },
+        { "native": "কাকিমা আমাদের খুব যত্ন করে খাওয়াতেন।", "roman": "kakima amader khub jotno kore khawaten.", "en": "Auntie used to feed us so lovingly.", "focus": "খাওয়াতেন", "wrong": ["খাওয়ালেন|khawalen", "খাওয়ান|khawan"] },
+        { "native": "আগে আমরা রোজ অনেকক্ষণ গল্প করতাম।", "roman": "age amra roj ônekkhôn gôlpo kortam.", "en": "We used to chat for ages every day.", "focus": "করতাম", "wrong": ["করলাম|korlam", "করি|kori"] },
+        { "native": "আজকাল আর সময় পাই না।", "roman": "ajkal ar shômoy pai na.", "en": "I don't get the time any more these days.", "focus": "পাই", "wrong": ["পেতাম|petam", "পেলাম|pelam"] },
+        { "native": "তুমি আগে চা খেতে না?", "roman": "tumi age cha khete na?", "en": "Didn't you use to drink tea?", "focus": "খেতে", "wrong": ["খাও|khao", "খেলে|khele"] },
+        { "native": "হ্যাঁ, কিন্তু এখন আর খাই না।", "roman": "hæṃ, kintu ækhon ar khai na.", "en": "Yes, but I don't any more.", "focus": "আর", "wrong": ["আরও|aro", "এখনও|ækhono"] },
+        { "native": "দাদু প্রতিদিন সকালে বাজারে যেতেন।", "roman": "dadu protidin shôkale bajare jeten.", "en": "Grandpa used to go to the market every morning.", "focus": "যেতেন", "wrong": ["গেলেন|gelen", "যান|jan"] },
+        { "native": "গত রবিবার অনেকক্ষণ অপেক্ষা করলাম, কিন্তু ও এল না।", "roman": "gôto robibar ônekkhôn ôpekkha korlam, kintu o elo na.", "en": "Last Sunday I waited for ages, but she didn't come.", "focus": "করলাম", "wrong": ["করতাম|kortam", "করি|kori"] },
+        { "native": "দাদুর রোজ বিকেলে হাঁটার অভ্যাস ছিল।", "roman": "dadur roj bikele haṃṭar obbhash chhilo.", "en": "Grandpa was in the habit of walking every afternoon." },
+        { "native": "আমার এত তাড়াতাড়ি ওঠার অভ্যাস নেই।", "roman": "amar æto taṛataṛi oṭhar obbhash nei.", "en": "I'm not used to getting up this early." }
+      ]
+    },
+    {
+      "title": "Saying thank you and goodbye",
+      "new": ["যত্ন", "আজ তাহলে উঠি।", "আবার আসবে কিন্তু!", "পৌঁছে একটা ফোন কোরো।"],
+      "sentences": [
+        { "native": "অনেক রাত হলো, আজ তাহলে উঠি।", "roman": "ônek rat holo, aj tahole uṭhi.", "en": "It's late, I'll make a move then." },
+        { "native": "এখনই উঠবে? আরেকটু বসো না!", "roman": "ækhoni uṭhbe? arekṭu bôsho na!", "en": "Leaving already? Stay a bit longer!" },
+        { "native": "আমার একটু তাড়া আছে, কাল সকালে অফিস।", "roman": "amar ekṭu taṛa achhe, kal shôkale ophish.", "en": "I'm in a bit of a hurry, I've got work in the morning." },
+        { "native": "খাওয়াদাওয়া খুব ভালো হলো, আন্টি।", "roman": "khawadawa khub bhalo holo, anṭi.", "en": "That was a lovely meal, Auntie." },
+        { "native": "আপনারা এত যত্ন করলেন, অনেক ধন্যবাদ।", "roman": "apnara æto jotno korlen, ônek dhonnobad.", "en": "You looked after me so well, thank you so much." },
+        { "native": "আবার আসবে কিন্তু, এবার মাকেও নিয়ে এসো।", "roman": "abar ashbe kintu, ebar makeo niye esho.", "en": "Do come again, and bring your mum next time." },
+        { "native": "পৌঁছে ফোন কোরো, নাহলে মা চিন্তা করবে।", "roman": "pouṃchhe phon koro, nahole ma chinta korbe.", "en": "Call when you get home, or Mum will worry." },
+        { "native": "নিজের যত্ন নিয়ো।", "roman": "nijer jotno niyo.", "en": "Take care of yourself." },
+        { "native": "আসি, আন্টি। ভালো থাকবেন।", "roman": "ashi, anṭi. bhalo thakben.", "en": "Bye, Auntie. Take care." },
+        { "native": "সাবধানে যেয়ো, অনেক রাত হয়েছে।", "roman": "shabdhane jeyo, ônek rat hoyechhe.", "en": "Get home safely, it's very late." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": 30,
+  "title": "Feelings & support",
+  "goal": "Notice when a friend is down and comfort them, say sorry and mean it, celebrate good news and offer condolences.",
+  "intro": "Friendships are made when something goes wrong, or very right. This unit gives you what people in Dhaka and Kolkata really say when a friend is stressed (**টেনশন নিস না**), hurt (**আমি ওভাবে বলতে চাইনি**), sulking (**অভিমান**), grieving (**খবরটা শুনে খুব খারাপ লাগল**) or celebrating (**পার্টি কবে দিচ্ছ?**).\n\nOn the grammar side you'll see how Bengali lets feelings *happen to* you (**আমার কান্না পাচ্ছে** 'I feel like crying'), how to say *as soon as, while* and *until* with a single ending, and the very Bengali way of owning up: **আমার ভুল হয়ে গেছে**, 'a mistake happened to me'.",
+  "vocab": [
+    { "native": "টেনশন", "roman": "ṭenshon", "en": "stress, worry (informal)", "pos": "noun", "note": "English 'tension', the everyday word on both sides of the border: আমার টেনশন হচ্ছে 'I'm stressed', টেনশন নিও না 'don't stress'." },
+    { "native": "দুশ্চিন্তা", "roman": "dushchinta", "en": "anxiety, worry", "pos": "noun", "note": "A heavier, more serious word than চিন্তা (unit 14). দুশ্চিন্তা কোরো না \"don't worry yourself\"." },
+    { "native": "কান্না", "roman": "kanna", "en": "crying, tears", "pos": "noun", "note": "আমার কান্না পাচ্ছে \"I feel like crying\". The verb is কাঁদা (unit 20)." },
+    { "native": "হাসি", "roman": "hashi", "en": "laughter; a smile", "pos": "noun", "note": "আমার হাসি পাচ্ছে \"I want to laugh\" · হাসি পেয়ে গেল \"I couldn't help laughing\". The verb is হাসা (unit 20)." },
+    { "native": "খারাপ লাগা", "roman": "kharap laga", "en": "to feel bad; to be hurt (by)", "pos": "verb", "note": "The feeler is আমার: আমার খারাপ লাগছে. ওর কথায় খারাপ লেগেছে \"what he said hurt me\"." },
+    { "native": "কষ্ট পাওয়া", "roman": "kôshṭo pawa", "en": "to be hurt, suffer", "pos": "verb", "note": "Unlike most feelings it takes আমি: আমি খুব কষ্ট পেয়েছি \"I was really hurt\". With হওয়া it's আমার: আমার কষ্ট হচ্ছে \"it's painful for me\"." },
+    { "native": "বকা", "roman": "bôka", "en": "to scold, tell off", "pos": "verb", "note": "মা আমাকে বকেছে \"Mum told me off\". Also বকা দেওয়া; বকুনি \"a telling-off\". Bangladeshi slang: ঝাড়ি দেওয়া." },
+    { "native": "বেচারা", "roman": "bechara", "en": "poor thing!, poor (guy)", "pos": "adj", "note": "Also বেচারি for a woman, though বেচারা is used for anyone." },
+    { "native": "সাহস", "roman": "shahosh", "en": "courage", "pos": "noun", "note": "সাহস রাখো \"be brave, keep your chin up\" · সাহস হারিও না \"don't lose heart\"." },
+    { "native": "ভেঙে পড়া", "roman": "bheṅe pôṛa", "en": "to break down, fall apart (emotionally)", "pos": "verb", "note": "Lit. \"to break and fall\". ভেঙে পোড়ো না \"don't let it break you\"." },
+    { "native": "পাশে থাকা", "roman": "pashe thaka", "en": "to stand by, be there for (someone)", "pos": "verb", "note": "আমি তোমার পাশে আছি \"I'm here for you\". Uses পাশে \"beside\" from unit 6." },
+    { "native": "সামলানো", "roman": "shamlano", "en": "to handle, cope with, manage", "pos": "verb", "note": "আমি সামলে নেব \"I'll handle it\" · নিজেকে সামলাও \"pull yourself together\"." },
+    { "native": "শান্ত", "roman": "shanto", "en": "calm, quiet", "pos": "adj", "note": "শান্ত হও \"calm down\" (tumi), শান্ত হ (tui), শান্ত হোন (apni)." },
+    { "native": "দোষ", "roman": "dosh", "en": "fault, blame", "pos": "noun", "note": "দোষটা আমার \"it's my fault\" · আমাকে দোষ দিও না \"don't blame me\"." },
+    { "native": "ইচ্ছে করে", "roman": "ichchhe kore", "en": "on purpose, deliberately", "pos": "adv", "note": "From ইচ্ছা/ইচ্ছে \"wish\" (unit 17). The opposite is ভুল করে \"by mistake\"." },
+    { "native": "সরি", "roman": "sôri", "en": "sorry (informal)", "pos": "interj", "note": "English sorry, what friends really say. দুঃখিত (unit 1) is polite and a bit formal." },
+    { "native": "অভিমান", "roman": "obhiman", "en": "hurt pride, sulking (with someone close)", "pos": "noun", "note": "A very Bengali feeling: quiet, wounded silence towards someone you love, who is expected to notice and win you round. ও আমার ওপর অভিমান করেছে \"she's sulking with me\"." },
+    { "native": "রাগ ভাঙানো", "roman": "rag bhaṅano", "en": "to talk someone out of their anger, make up with", "pos": "verb", "note": "Lit. \"to break the anger\". Also অভিমান ভাঙানো." },
+    { "native": "যতক্ষণ", "roman": "jôtokkhon", "en": "as long as; (with না) until", "pos": "conj", "note": "Pairs with ততক্ষণ tôtokkhon \"for that long\"." },
+    { "native": "সঙ্গে সঙ্গে", "roman": "shôṅge shôṅge", "en": "immediately, straight away", "pos": "adv", "note": "After a verbal noun + -র it means \"as soon as\": খবর পাওয়ার সঙ্গে সঙ্গে. Bangladesh also: সাথে সাথে." },
+    { "native": "ব্রেকআপ", "roman": "brekap", "en": "break-up", "pos": "noun", "note": "ওদের ব্রেকআপ হয়ে গেছে \"they broke up\". Everyone uses the English word." },
+    { "native": "সুখবর", "roman": "shukhôbor", "en": "good news", "pos": "noun", "note": "একটা সুখবর আছে! \"I've got some good news!\"" },
+    { "native": "প্রোমোশন", "roman": "promoshon", "en": "promotion (at work)", "pos": "noun", "note": "আমার প্রোমোশন হয়েছে \"I got promoted\" (lit. my promotion happened). Formal: পদোন্নতি." },
+    { "native": "গর্ব", "roman": "gôrbo", "en": "pride", "pos": "noun", "note": "তোমাকে নিয়ে আমার গর্ব হচ্ছে \"I'm proud of you\". Adjective: গর্বিত \"proud\" (a bit formal)." },
+    { "native": "অভিনন্দন", "roman": "obhinondon", "en": "congratulations", "pos": "interj", "note": "অনেক অভিনন্দন! Friends often just say কংগ্রাচুলেশনস or কংগ্রাটস." },
+    { "native": "মারা যাওয়া", "roman": "mara jawa", "en": "to die, pass away", "pos": "verb", "note": "Use the respectful -েন ending for an elder: দাদু মারা গেছেন. Softer: উনি আর নেই \"he is no more\". Bangladeshi Muslims also say ইন্তেকাল করেছেন." },
+    { "native": "শোক", "roman": "shok", "en": "grief, mourning", "pos": "noun", "note": "শোকের বাড়ি \"a house in mourning\"." },
+    { "native": "সমবেদনা", "roman": "shômbedona", "en": "sympathy, condolence", "pos": "noun", "note": "Formal but the standard word in condolence messages: আমার আন্তরিক সমবেদনা." },
+    { "native": "আত্মা", "roman": "atta", "en": "soul", "pos": "noun", "note": "In the condolence formula ওনার আত্মার শান্তি কামনা করি. Pronounced atta: ত্ম sounds like a double t." },
+    { "native": "শান্তি", "roman": "shanti", "en": "peace", "pos": "noun", "note": "Also \"relief\": এবার শান্তি! \"Finally, some peace!\"" }
+  ],
+  "phrases": [
+    { "native": "কী হয়েছে, সব ঠিক আছে তো?", "roman": "ki hoyechhe, shôb ṭhik achhe to?", "en": "What's happened, is everything OK?", "note": "তো at the end means \"…right?\", hoping the answer is yes." },
+    { "native": "আমি আছি তো।", "roman": "ami achhi to.", "en": "I'm here for you. (lit. I'm here, aren't I?)" },
+    { "native": "টেনশন নিও না।", "roman": "ṭenshon nio na.", "en": "Don't stress. (informal)", "note": "To a তুই friend: টেনশন নিস না. To someone you call আপনি: টেনশন নেবেন না." },
+    { "native": "সব ঠিক হয়ে যাবে।", "roman": "shôb ṭhik hoye jabe.", "en": "Everything will be fine." },
+    { "native": "এত ভেবো না।", "roman": "æto bhebo na.", "en": "Don't overthink it. / Don't worry so much." },
+    { "native": "আমার ভুল হয়ে গেছে।", "roman": "amar bhul hoye gechhe.", "en": "I made a mistake. (lit. a mistake happened to me)" },
+    { "native": "আমি ইচ্ছে করে করিনি।", "roman": "ami ichchhe kore korini.", "en": "I didn't do it on purpose." },
+    { "native": "আমাকে মাফ করে দাও।", "roman": "amake maf kore dao.", "en": "Please forgive me. (to a friend)", "note": "Polite: আমাকে মাফ করে দিন. Formal: আমি ক্ষমা চাইছি." },
+    { "native": "আমি ওভাবে বলতে চাইনি।", "roman": "ami obhabe bolte chaini.", "en": "I didn't mean it like that." },
+    { "native": "আরে, ঠিক আছে, ব্যাপার না।", "roman": "are, ṭhik achhe, bæpar na.", "en": "Hey, it's fine, no big deal.", "note": "The usual reply to সরি. Also কোনো ব্যাপার না." },
+    { "native": "তোমাকে নিয়ে আমার খুব গর্ব হচ্ছে।", "roman": "tomake niye amar khub gôrbo hochchhe.", "en": "I'm so proud of you." },
+    { "native": "পার্টি কবে দিচ্ছ?", "roman": "parṭi kôbe dichchho?", "en": "When are you throwing the party? (= you owe us a treat)" },
+    { "native": "খবরটা শুনে খুব খারাপ লাগল।", "roman": "khôborṭa shune khub kharap laglo.", "en": "I was so sorry to hear the news." },
+    { "native": "ওনার আত্মার শান্তি কামনা করি।", "roman": "onar attar shanti kamona kori.", "en": "May his/her soul rest in peace. (lit. I wish peace for his/her soul)", "note": "Hindu and neutral. Muslims say আল্লাহ ওনাকে জান্নাত নসিব করুন (see the culture note). ওনার is also spelled ওঁর." },
+    { "native": "কিছু দরকার হলে বোলো।", "roman": "kichhu dôrkar hole bolo.", "en": "If you need anything, tell me.", "note": "Polite: কিছু দরকার হলে বলবেন." },
+    { "native": "নিজের খেয়াল রেখো।", "roman": "nijer kheyal rekho.", "en": "Take care of yourself. (informal)", "note": "Polite: নিজের খেয়াল রাখবেন." }
+  ],
+  "grammar": [
+    {
+      "title": "Feelings that happen to you: আমার কান্না পাচ্ছে, আমার খারাপ লাগছে",
+      "body": "In unit 9 you said **আমার মাথা ব্যথা করছে** and in unit 14 **আমার ভয় লাগছে**. Bengali treats most feelings not as something *you* do but as something that **happens to you**. The person who feels goes in the **possessive** (আমার, তোমার, ওর, ওনার), the feeling is the subject, and the verb is always in the **third person** (-ে, -ছে, -ল), whoever feels it.\n\nThree verbs do most of the work:\n\n**হওয়া** 'happen': রাগ হওয়া 'get angry', টেনশন হওয়া 'feel stressed', দুশ্চিন্তা হওয়া 'feel anxious', কষ্ট হওয়া 'find it painful', গর্ব হওয়া 'feel proud', দুঃখ হওয়া 'feel sad'.\n**লাগা** 'strike, seem': খারাপ লাগা 'feel bad / be hurt', ভালো লাগা 'like, feel good', ভয় লাগা 'feel scared', একা লাগা 'feel lonely'.\n**পাওয়া** 'get' for urges that rise in you: কান্না পাওয়া 'feel like crying', হাসি পাওয়া 'want to laugh', খিদে / ঘুম পাওয়া (unit 5, 9).\n\nAnd one more for missing someone: **মনে পড়া** 'fall into the mind': তোমার কথা খুব মনে পড়ছে 'I really miss you'.\n\nFor a feeling that comes **suddenly**, add যাওয়া: আমার হাসি **পেয়ে গেল** 'I burst out laughing'. For one going on right now, use the continuous: আমার খারাপ **লাগছে**.\n\nThe cause takes **-এ / -তে** or comes as a 'hearing / seeing' participle: ওর কথা**য়** খারাপ লেগেছে 'what he said hurt me', খবরটা **শুনে** খারাপ লাগল 'I was sad to hear the news'. 'For someone' is **-র জন্য**: ওর জন্য খারাপ লাগছে 'I feel bad for him'.\n\n**The trap:** never আমি কান্না পাচ্ছি or আমি খারাপ লাগছি. **But** a few feeling verbs are ordinary verbs with **আমি**: **ভয় পাওয়া** 'be scared', **কষ্ট পাওয়া** 'be hurt', **লজ্জা পাওয়া** 'be embarrassed', **রাগ করা** 'be cross (with someone)': আমি ভয় পেয়েছি, আমি কষ্ট পেয়েছি, ও আমার ওপর রাগ করেছে. The difference: পাওয়া with an *urge* (কান্না, হাসি, খিদে) → আমার; পাওয়া with fear, hurt, shame → আমি.",
+      "examples": [
+        { "native": "আমার খুব রাগ হচ্ছে।", "roman": "amar khub rag hochchhe.", "en": "I'm getting really angry." },
+        { "native": "তোমার কথা খুব মনে পড়ছে।", "roman": "tomar kôtha khub mone poṛchhe.", "en": "I really miss you." },
+        { "native": "বাচ্চাটার কথা শুনে আমার হাসি পেয়ে গেল।", "roman": "bachchaṭar kôtha shune amar hashi peye gælo.", "en": "Hearing what the kid said, I couldn't help laughing." },
+        { "native": "ওর জন্য আমার কষ্ট হয়।", "roman": "or jonno amar kôshṭo hôy.", "en": "I feel for him. (lit. pain happens to me for him)" },
+        { "native": "ও খুব ভয় পেয়েছে।", "roman": "o khub bhôy peyechhe.", "en": "She's really scared. (ভয় পাওয়া takes ও, not ওর)" }
+      ]
+    },
+    {
+      "title": "'As soon as', 'while' and 'until': -েই, -র সময়, না … পর্যন্ত",
+      "body": "Bengali links two actions in time with endings rather than separate words. All of them build on two forms you know: the **conjunctive participle** (করে, খেয়ে, শুনে, পৌঁছে, ফিরে: 'having done') and the **verbal noun** (করা, খাওয়া, আসা, পৌঁছানো: 'doing').\n\n**As soon as: participle + -ই**\nশুনে → **শুনেই** 'as soon as (I) heard', পৌঁছে → **পৌঁছেই**, ফিরে → **ফিরেই**: বাড়ি পৌঁছেই ফোন কোরো 'call as soon as you get home'. A longer, more deliberate version is verbal noun + **-র সঙ্গে সঙ্গে**: খবর পাওয়ার সঙ্গে সঙ্গে 'the moment (he) got the news'.\n\n**While: verbal noun + -র সময়**\nখাওয়া**র সময়** 'while eating', অফিস যাওয়া**র সময়** 'on the way to the office'. For something that goes on and on until something else happens, double the infinitive: কথা **বলতে বলতে** ও কেঁদে ফেলল 'as she was talking she broke down'.\n\n**Until: না + verbal noun + পর্যন্ত**\nতুমি **না আসা পর্যন্ত** আমি অপেক্ষা করব 'I'll wait until you come' (lit. 'up to your not-coming'). The longer form is **যতক্ষণ না** … **ততক্ষণ** …: যতক্ষণ না ও ফোন করছে, ততক্ষণ টেনশন থাকবে 'until she calls, I'll be worried'. Without না, **যতক্ষণ** means 'as long as': যতক্ষণ আমি আছি, চিন্তা নেই.\n\nWith a time or place, 'until' is simply **পর্যন্ত** (unit 11): সন্ধ্যা পর্যন্ত.\n\n**The trap:** in 'until' clauses the **না is required** and the verb is a **verbal noun**, never a finite verb: ~~তুমি আসবে পর্যন্ত~~ → তুমি **না আসা** পর্যন্ত. The না does not make it negative in English.",
+      "examples": [
+        { "native": "খবরটা পেয়েই ও আমাকে ফোন করল।", "roman": "khôborṭa peyei o amake phon korlo.", "en": "As soon as she got the news, she called me." },
+        { "native": "বাসে যাওয়ার সময় আমি গান শুনি।", "roman": "base jawar shômoy ami gan shuni.", "en": "I listen to music on the bus. (lit. at the time of going by bus)" },
+        { "native": "হাঁটতে হাঁটতে আমরা অনেক গল্প করলাম।", "roman": "haṃṭte haṃṭte amra ônek gôlpo korlam.", "en": "We chatted a lot as we walked." },
+        { "native": "তুমি না বলা পর্যন্ত আমি কাউকে বলব না।", "roman": "tumi na bôla pôrjonto ami kauke bolbo na.", "en": "I won't tell anyone until you say so." },
+        { "native": "যতক্ষণ না ও ফোন করছে, ততক্ষণ আমার টেনশন যাবে না।", "roman": "jôtokkhon na o phon korchhe, tôtokkhon amar ṭenshon jabe na.", "en": "Until she calls, I won't stop worrying." }
+      ]
+    },
+    {
+      "title": "Owning up: আমার ভুল হয়ে গেছে, and accidents with যাওয়া / ফেলা",
+      "body": "There are two ways to say 'I made a mistake', and the difference is about intention.\n\n**আমি ভুল করেছি** 'I made a mistake': plain and factual, I did it.\n**আমার ভুল হয়ে গেছে** 'a mistake happened to me': I did it, but I didn't mean to. This is the form people use when they apologise. The same pattern works for lateness: আমার দেরি হয়ে গেল 'I ended up late'.\n\nAccidents use compound verbs:\n**-ে যাওয়া** when something just happens, with the *thing* as subject: ফোনটা হাত থেকে **পড়ে গেল** 'the phone fell out of my hand', চাবিটা **হারিয়ে গেছে** 'the key has got lost'.\n**-ে ফেলা** when *you* did it and it's done, often regrettably: আমি চাবিটা **হারিয়ে ফেলেছি** 'I've (gone and) lost the key', কথাটা **বলে ফেলেছি** 'I let it slip', ও **কেঁদে ফেলল** 'she burst into tears'.\n\nA ladder of apologies, light to heavy:\n**সরি / সরি রে** — bumping into someone, being late (friends).\n**আমার ভুল হয়ে গেছে** — owning up.\n**আমাকে মাফ করে দাও / দিন** — asking forgiveness for something that hurt.\n**আমি দুঃখিত** / **আমি ক্ষমা চাইছি** — polite and formal; work, elders, messages.\n\nAdd **আমি ইচ্ছে করে করিনি** 'I didn't do it on purpose' or **আমি ওভাবে বলতে চাইনি** 'I didn't mean it like that'. Usual replies: **ব্যাপার না**, **ঠিক আছে, বাদ দাও** 'forget it', **হয়েছে, আর সরি বলতে হবে না** 'that's enough sorries'.",
+      "examples": [
+        { "native": "আমি ভুল করেছি।", "roman": "ami bhul korechhi.", "en": "I made a mistake. (plain fact)" },
+        { "native": "সরি, আমার একটু দেরি হয়ে গেল।", "roman": "sôri, amar ekṭu deri hoye gælo.", "en": "Sorry, I ended up a bit late." },
+        { "native": "আমি কথাটা বলে ফেলেছি।", "roman": "ami kôthaṭa bole phelechhi.", "en": "I let it slip." },
+        { "native": "ফোনটা হাত থেকে পড়ে গেল।", "roman": "phonṭa hat theke pôṛe gælo.", "en": "The phone slipped out of my hand." },
+        { "native": "আমি ক্ষমা চাইছি।", "roman": "ami khôma chaichhi.", "en": "I apologise. (formal)" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Sorry, and some news",
+    "setting": "Dhanmondi, Dhaka. Arnab said something sharp to his friend Riya yesterday; he finds her at their usual tea stall. Close friends, so they use তুই.",
+    "lines": [
+      { "speaker": "Arnab", "native": "কী রে, মুখটা এমন কেন? সব ঠিক আছে তো?", "roman": "ki re, mukhṭa æmon kæno? shôb ṭhik achhe to?", "en": "Hey, why the face? Everything OK?" },
+      { "speaker": "Riya", "native": "কিছু না… আসলে কাল তোর কথায় খুব খারাপ লেগেছিল।", "roman": "kichhu na… ashole kal tor kôthay khub kharap legechhilo.", "en": "Nothing… actually, what you said yesterday really hurt." },
+      { "speaker": "Arnab", "native": "জানি। সরি রে, আমি ওভাবে বলতে চাইনি। মাথাটা গরম ছিল।", "roman": "jani. sôri re, ami obhabe bolte chaini. mathaṭa gôrom chhilo.", "en": "I know. Sorry, I didn't mean it like that. I was in a foul mood." },
+      { "speaker": "Riya", "native": "ঠিক আছে, বাদ দে। আসলে আমার নিজেরই অনেক টেনশন চলছে।", "roman": "ṭhik achhe, bad de. ashole amar nijeri ônek ṭenshon cholchhe.", "en": "It's fine, forget it. Actually I've got a lot of stress going on myself." },
+      { "speaker": "Arnab", "native": "কীসের টেনশন? বল না।", "roman": "kisher ṭenshon? bôl na.", "en": "Stress about what? Go on, tell me." },
+      { "speaker": "Riya", "native": "আজ অফিসে প্রোমোশনের খবর দেবে। সকাল থেকে কিছু খেতে পারছি না।", "roman": "aj ophishe promoshoner khôbor debe. shôkal theke kichhu khete parchhi na.", "en": "They're announcing promotions at work today. I haven't been able to eat a thing since this morning." },
+      { "speaker": "Arnab", "native": "আরে, এত ভাবিস না। খবর না আসা পর্যন্ত চল এক কাপ চা খাই।", "roman": "are, æto bhabish na. khôbor na asha pôrjonto chôl æk kap cha khai.", "en": "Hey, don't overthink it. Until the news comes, let's have a cup of tea." },
+      { "speaker": "Riya", "native": "এক মিনিট… মেইল এসেছে!", "roman": "æk miniṭ… meil eshechhe!", "en": "One minute… an email's come!" },
+      { "speaker": "Arnab", "native": "কী লিখেছে? তাড়াতাড়ি বল!", "roman": "ki likhechhe? taṛataṛi bôl!", "en": "What does it say? Quick, tell me!" },
+      { "speaker": "Riya", "native": "আমার প্রোমোশন হয়েছে! বিশ্বাস হচ্ছে না!", "roman": "amar promoshon hoyechhe! bishshash hochchhe na!", "en": "I got the promotion! I can't believe it!" },
+      { "speaker": "Arnab", "native": "দারুণ! অনেক অভিনন্দন! তোকে নিয়ে সত্যিই গর্ব হচ্ছে।", "roman": "darun! ônek obhinondon! toke niye shottii gôrbo hochchhe.", "en": "Brilliant! Congratulations! I'm really proud of you." },
+      { "speaker": "Riya", "native": "খবরটা পেয়েই খিদে পেয়ে গেল। চল, আজ আমি খাওয়াব!", "roman": "khôborṭa peyei khide peye gælo. chôl, aj ami khawabo!", "en": "The moment I got the news I got hungry. Come on, today's my treat!" },
+      { "speaker": "Arnab", "native": "তাহলে কাচ্চি বিরিয়ানি! আর কালকের জন্য আবার সরি।", "roman": "tahole kachchi biriyani! ar kalker jonno abar sôri.", "en": "Then kacchi biryani! And sorry again about yesterday." },
+      { "speaker": "Riya", "native": "হয়েছে, আর সরি বলতে হবে না!", "roman": "hoyechhe, ar sôri bolte hobe na!", "en": "Enough, no more sorries!" }
+    ]
+  },
+  "culture": "Comfort in Bengali is practical more than wordy. A friend says **চিন্তা করিস না, আমি আছি** and then *does* something: orders tea, turns up at the door, sits with you. Between close friends, too many thank-yous and sorries sound distant; **বন্ধুকে আবার থ্যাংকস কীসের?** 'why thank a friend?' is a common tease. With elders and at work, apologise properly (**আমি দুঃখিত**, **মাফ করবেন**).\n\n**অভিমান** is a feeling Bengalis say other languages lack: the silent, hurt withdrawal you show only to someone close (a partner, a parent, a best friend), who is expected to notice and coax you out of it (**অভিমান ভাঙানো**). It is not quite anger and not quite sulking; songs and films are full of it.\n\nGood news means **মিষ্টি**: after exam results, a new job, an engagement or a promotion you bring a box of sweets to the office or the neighbours, and friends will demand **খাওয়াতে হবে!** or **পার্টি কবে?** Young people on both sides of the border mix in English freely: **টেনশন**, **সরি**, **কংগ্রাটস**, **চিল কর**.\n\nWhen someone dies, people visit the family, sit quietly and say little: **খবরটা শুনে খুব খারাপ লাগল** or simply hold a hand. Speak of the dead with the respectful **-েন** forms (**উনি মারা গেছেন**, **উনি খুব ভালো মানুষ ছিলেন**). Muslims, especially in Bangladesh, say **ইন্না লিল্লাহি ওয়া ইন্না ইলাইহি রাজিউন** on hearing the news and **আল্লাহ ওনাকে জান্নাত নসিব করুন** 'may God grant him paradise'; the funeral prayer (**জানাজা**) is held the same day, and prayers are held again on the fourth or fortieth day (**কুলখানি**, **চল্লিশা**). Hindu families, more common in West Bengal, wear white, eat simple vegetarian food and end the mourning period with the **শ্রাদ্ধ** ceremony (after about 11 days for Brahmins, a month for many others); the usual message is **ওনার আত্মার শান্তি কামনা করি**. Don't invite a family in mourning to celebrations during that time.",
+  "lessons": [
+    {
+      "title": "Asking what's wrong",
+      "tip": { "title": "Feelings happen to you: আমার + feeling + verb", "body": "- The person who feels takes **আমার / তোমার / ওর**; the feeling is the subject: **আমার** টেনশন হচ্ছে, **আমার** কান্না পাচ্ছে, **আমার** খারাপ লাগছে.\n- The verb stays third person: never ~~আমি কান্না পাচ্ছি~~.\n- But **ভয় পাওয়া**, **কষ্ট পাওয়া** take **আমি**: আমি কষ্ট পেয়েছি.", "pattern": "আমার + টেনশন / কান্না / খারাপ + হচ্ছে / পাচ্ছে / লাগছে", "grammar": 0 },
+      "new": ["টেনশন", "দুশ্চিন্তা", "কান্না", "হাসি", "খারাপ লাগা", "কষ্ট পাওয়া", "বকা", "বেচারা", "কী হয়েছে, সব ঠিক আছে তো?"],
+      "sentences": [
+        { "native": "আমার খুব টেনশন হচ্ছে।", "roman": "amar khub ṭenshon hochchhe.", "en": "I'm really stressed.", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "তোমার কি টেনশন হচ্ছে?", "roman": "tomar ki ṭenshon hochchhe?", "en": "Are you stressed?", "focus": "তোমার", "wrong": ["তুমি|tumi", "তোমাকে|tomake"] },
+        { "native": "পরীক্ষার আগে আমার খুব দুশ্চিন্তা হয়।", "roman": "porikkhar age amar khub dushchinta hôy.", "en": "I get really anxious before exams.", "focus": "হয়", "wrong": ["হই|hoi", "করি|kori"] },
+        { "native": "জানি না কেন, আমার কান্না পাচ্ছে।", "roman": "jani na kæno, amar kanna pachchhe.", "en": "I don't know why, I feel like crying.", "focus": "পাচ্ছে", "wrong": ["পাচ্ছি|pachchhi", "করছি|korchhi"] },
+        { "native": "ওর কথায় আমার খুব খারাপ লেগেছে।", "roman": "or kôthay amar khub kharap legechhe.", "en": "What he said really hurt me.", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "আমি খুব কষ্ট পেয়েছি।", "roman": "ami khub kôshṭo peyechhi.", "en": "I was really hurt.", "focus": "আমি", "wrong": ["আমার|amar", "আমাকে|amake"] },
+        { "native": "বেচারা! ওর জন্য আমার খুব খারাপ লাগছে।", "roman": "bechara! or jonno amar khub kharap lagchhe.", "en": "Poor thing! I feel so bad for him.", "focus": "লাগছে", "wrong": ["লাগছি|lagchhi", "করছি|korchhi"] },
+        { "native": "মা বকেছে, তাই ওর মন খারাপ।", "roman": "ma bokechhe, tai or mon kharap.", "en": "Mum told her off, so she's upset.", "focus": "ওর", "wrong": ["ও|o", "ওকে|oke"] },
+        { "native": "ওর কথা শুনে আমার হাসি পেয়ে গেল।", "roman": "or kôtha shune amar hashi peye gælo.", "en": "Hearing what he said, I couldn't help laughing.", "focus": "গেল", "wrong": ["গেলাম|gelam", "গেছি|gechhi"] },
+        { "native": "কী হয়েছে তোমার? মুখটা এমন কেন?", "roman": "ki hoyechhe tomar? mukhṭa æmon kæno?", "en": "What's wrong with you? Why the long face?" }
+      ]
+    },
+    {
+      "title": "Cheering a friend up",
+      "tip": { "title": "'Don't…' for each kind of 'you'", "body": "- **তুমি**: future imperative + না: ভেবো না, কোরো না, নিও না, পোড়ো না.\n- **তুই**: -িস না: ভাবিস না, করিস না, নিস না.\n- **আপনি**: -বেন না: ভাববেন না, করবেন না, নেবেন না.\n- Close with comfort: **আমি আছি তো**, **সব ঠিক হয়ে যাবে**." },
+      "new": ["সাহস", "ভেঙে পড়া", "পাশে থাকা", "সামলানো", "শান্ত", "ব্রেকআপ", "আমি আছি তো।", "টেনশন নিও না।", "সব ঠিক হয়ে যাবে।", "এত ভেবো না।"],
+      "sentences": [
+        { "native": "তুই এত ভাবিস না।", "roman": "tui æto bhabish na.", "en": "Don't think about it so much.", "focus": "ভাবিস", "wrong": ["ভেবো|bhebo", "ভাববেন|bhabben"] },
+        { "native": "আপনি চিন্তা করবেন না, আমরা আছি।", "roman": "apni chinta korben na, amra achhi.", "en": "Don't worry, we're here.", "focus": "করবেন", "wrong": ["কোরো|koro", "করিস|korish"] },
+        { "native": "আপনি টেনশন নেবেন না।", "roman": "apni ṭenshon neben na.", "en": "Please don't stress.", "focus": "নেবেন", "wrong": ["নিও|nio", "নিস|nish"] },
+        { "native": "তুমি ভেঙে পোড়ো না, আমি তোমার পাশে আছি।", "roman": "tumi bheṅe poṛo na, ami tomar pashe achhi.", "en": "Don't let it break you, I'm here for you.", "focus": "পোড়ো", "wrong": ["পড়িস|poṛish", "পড়বেন|poṛben"] },
+        { "native": "ব্রেকআপের পরে ও একদম ভেঙে পড়েছে।", "roman": "brekaper pôre o ækdôm bheṅe poṛechhe.", "en": "Since the break-up he's completely fallen apart." },
+        { "native": "সাহস রাখো, তুমি পারবে।", "roman": "shahosh rakho, tumi parbe.", "en": "Chin up, you can do it.", "focus": "রাখো", "wrong": ["রাখুন|rakhun", "রাখ|rakh"] },
+        { "native": "চিন্তা করিস না, আমি সামলে নেব।", "roman": "chinta korish na, ami shamle nebo.", "en": "Don't worry, I'll handle it." },
+        { "native": "তুই আগে শান্ত হ, তারপর কথা বলব।", "roman": "tui age shanto hô, tarpôr kôtha bolbo.", "en": "Calm down first, then we'll talk.", "focus": "হ", "wrong": ["হও|hôo", "হোন|hon"] },
+        { "native": "তুমি এত ভেবো না, চলো একটু হাঁটি।", "roman": "tumi æto bhebo na, chôlo ekṭu haṃṭi.", "en": "Stop worrying so much, let's go for a little walk.", "focus": "ভেবো", "wrong": ["ভাবিস|bhabish", "ভাববেন|bhabben"] },
+        { "native": "আমি সবসময় তোমার পাশে থাকব।", "roman": "ami shôbshômoy tomar pashe thakbo.", "en": "I'll always be there for you." }
+      ]
+    },
+    {
+      "title": "Saying sorry and meaning it",
+      "tip": { "title": "আমার ভুল হয়ে গেছে vs আমি ভুল করেছি", "body": "- **আমার** ভুল **হয়ে গেছে** = I did it, but not on purpose. Use it to apologise.\n- **আমি** ভুল **করেছি** is plainer.\n- Accidents: the thing + **-ে গেছে** (চাবিটা হারিয়ে গেছে), or you + **-ে ফেলেছি** (আমি চাবিটা হারিয়ে ফেলেছি).\n- Friends: **সরি**; polite: **আমি দুঃখিত**.", "pattern": "আমার + ভুল / দেরি + হয়ে গেছে  ·  আমি + … + -ে ফেলেছি", "grammar": 2 },
+      "new": ["দোষ", "ইচ্ছে করে", "সরি", "অভিমান", "রাগ ভাঙানো", "আমার ভুল হয়ে গেছে।", "আমি ইচ্ছে করে করিনি।", "আমাকে মাফ করে দাও।", "আমি ওভাবে বলতে চাইনি।", "আরে, ঠিক আছে, ব্যাপার না।"],
+      "sentences": [
+        { "native": "সরি, আমার ভুল হয়ে গেছে, দোষটা আমার।", "roman": "sôri, amar bhul hoye gechhe, doshṭa amar.", "en": "Sorry, my mistake, it's my fault.", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "আমি চাবিটা হারিয়ে ফেলেছি।", "roman": "ami chabiṭa hariye phelechhi.", "en": "I've lost the key.", "focus": "ফেলেছি", "wrong": ["গেছি|gechhi", "গেছে|gechhe"] },
+        { "native": "আমি ভুল করে তোমার চা খেয়ে ফেলেছি!", "roman": "ami bhul kore tomar cha kheye phelechhi!", "en": "Oops, I drank your tea by mistake!", "focus": "ফেলেছি", "wrong": ["ফেলেছে|phelechhe", "ফেলেছ|phelechho"] },
+        { "native": "আমি ইচ্ছে করে দেরি করিনি।", "roman": "ami ichchhe kore deri korini.", "en": "I wasn't late on purpose." },
+        { "native": "দোষটা আমার, ওকে বোকো না।", "roman": "doshṭa amar, oke boko na.", "en": "It's my fault, don't tell him off." },
+        { "native": "প্লিজ, আমার ওপর রাগ কোরো না।", "roman": "pliz, amar opor rag koro na.", "en": "Please don't be cross with me." },
+        { "native": "ও আমার ওপর অভিমান করেছে, ফোন ধরছে না।", "roman": "o amar opor obhiman korechhe, phon dhorchhe na.", "en": "She's sulking with me, she won't pick up." },
+        { "native": "ওর রাগ ভাঙাতে কী করব?", "roman": "or rag bhaṅate ki korbo?", "en": "What can I do to make her stop being angry?" },
+        { "native": "আমি সত্যিই দুঃখিত, এমন আর হবে না।", "roman": "ami shottii dukkhito, æmon ar hobe na.", "en": "I'm truly sorry, it won't happen again. (polite)" },
+        { "native": "ঠিক আছে, এবারের মতো মাফ করলাম।", "roman": "ṭhik achhe, ebarer môto maf korlam.", "en": "Fine, you're forgiven this time." }
+      ]
+    },
+    {
+      "title": "As soon as, while, until",
+      "tip": { "title": "-েই, -র সময়, না … পর্যন্ত", "body": "- **As soon as**: participle + **-ই**: শুনে → **শুনেই**, ফিরে → **ফিরেই**.\n- **While**: verbal noun + **-র সময়**: খাওয়া**র সময়**.\n- **Until**: **না** + verbal noun + **পর্যন্ত**: তুমি **না আসা** পর্যন্ত. The না is required!\n- **যতক্ষণ** = as long as.", "pattern": "শুনেই · খাওয়ার সময় · না আসা পর্যন্ত", "grammar": 1 },
+      "new": ["যতক্ষণ", "সঙ্গে সঙ্গে", "কিছু দরকার হলে বোলো।", "নিজের খেয়াল রেখো।"],
+      "sentences": [
+        { "native": "বাড়ি ফিরেই আমাকে ফোন কোরো।", "roman": "baṛi phirei amake phon koro.", "en": "Call me as soon as you get home.", "focus": "ফিরেই", "wrong": ["ফিরি|phiri", "ফিরব|phirbo"] },
+        { "native": "খবরটা শুনেই আমি ওর বাড়ি গেলাম।", "roman": "khôborṭa shunei ami or baṛi gelam.", "en": "As soon as I heard the news I went to her place.", "focus": "শুনেই", "wrong": ["শুনি|shuni", "শুনব|shunbo"] },
+        { "native": "তুমি না আসা পর্যন্ত আমি এখানে আছি।", "roman": "tumi na asha pôrjonto ami ekhane achhi.", "en": "I'll be here until you come.", "focus": "আসা", "wrong": ["আসবে|ashbe", "আসো|asho"] },
+        { "native": "যতক্ষণ আমি আছি, তোমার কোনো চিন্তা নেই।", "roman": "jôtokkhon ami achhi, tomar kono chinta nei.", "en": "As long as I'm here, you've nothing to worry about.", "focus": "যতক্ষণ", "wrong": ["কখন|kôkhon", "কেন|kæno"] },
+        { "native": "খাওয়ার সময় ফোন দেখো না।", "roman": "khawar shômoy phon dækho na.", "en": "Don't look at your phone while you eat.", "focus": "খাওয়ার", "wrong": ["খাওয়া|khawa", "খেয়ে|kheye"] },
+        { "native": "কথা বলতে বলতে ও কেঁদে ফেলল।", "roman": "kôtha bolte bolte o keṃde phello.", "en": "She broke down in tears while she was talking." },
+        { "native": "খবর পাওয়ার সঙ্গে সঙ্গে ও হাসপাতালে চলে গেল।", "roman": "khôbor pawar shôṅge shôṅge o hashpatale chole gælo.", "en": "The moment he got the news, he rushed to the hospital.", "focus": "পাওয়ার", "wrong": ["পেয়ে|peye", "পায়|pay"] },
+        { "native": "তুমি ঠিক না হওয়া পর্যন্ত বিশ্রাম নাও।", "roman": "tumi ṭhik na hôwa pôrjonto bishram nao.", "en": "Rest until you're better.", "focus": "হওয়া", "wrong": ["হবে|hobe", "হও|hôo"] },
+        { "native": "কিছু দরকার হলে বোলো, আমি সঙ্গে সঙ্গে আসব।", "roman": "kichhu dôrkar hole bolo, ami shôṅge shôṅge ashbo.", "en": "If you need anything just say, I'll come straight away." },
+        { "native": "নিজের খেয়াল রেখো, আর পৌঁছেই জানিও।", "roman": "nijer kheyal rekho, ar pouṃchhei janio.", "en": "Look after yourself, and let me know as soon as you arrive.", "focus": "পৌঁছেই", "wrong": ["পৌঁছাই|pouṃchhai", "পৌঁছাব|pouṃchhabo"] }
+      ]
+    },
+    {
+      "title": "Celebrating good news",
+      "tip": { "title": "Congratulating someone", "body": "- **অনেক অভিনন্দন!** works for anything; friends also say **কংগ্রাটস!**\n- Say what it's for with **-র জন্য**: প্রোমোশনের জন্য অভিনন্দন.\n- Proud of you: **তোমাকে নিয়ে** আমার গর্ব হচ্ছে (with **নিয়ে**, and আমার).\n- Expect the reply to be sweets: **মিষ্টি খাওয়াও!**, **পার্টি কবে?**" },
+      "new": ["সুখবর", "প্রোমোশন", "গর্ব", "অভিনন্দন", "তোমাকে নিয়ে আমার খুব গর্ব হচ্ছে।", "পার্টি কবে দিচ্ছ?"],
+      "sentences": [
+        { "native": "একটা সুখবর আছে!", "roman": "ækṭa shukhôbor achhe!", "en": "I've got some good news!" },
+        { "native": "আমার প্রোমোশন হয়েছে!", "roman": "amar promoshon hoyechhe!", "en": "I got promoted!", "focus": "হয়েছে", "wrong": ["করেছে|korechhe", "পেয়েছি|peyechhi"] },
+        { "native": "প্রোমোশনের জন্য অনেক অভিনন্দন!", "roman": "promoshoner jonno ônek obhinondon!", "en": "Congratulations on the promotion!", "focus": "জন্য", "wrong": ["দিয়ে|diye", "থেকে|theke"] },
+        { "native": "ওকে নিয়ে আমাদের সবার গর্ব হয়।", "roman": "oke niye amader shôbar gôrbo hôy.", "en": "We're all proud of her.", "focus": "আমাদের", "wrong": ["আমরা|amra", "আমাদেরকে|amaderke"] },
+        { "native": "পরীক্ষায় পাশ করেছ? দারুণ!", "roman": "porikkhay pash korechho? darun!", "en": "You passed the exam? Brilliant!" },
+        { "native": "তোমার বাবা নিশ্চয়ই খুব খুশি হয়েছেন।", "roman": "tomar baba nishchoi khub khushi hoyechhen.", "en": "Your dad must be really pleased." },
+        { "native": "সুখবর তো, এবার মিষ্টি খাওয়াও!", "roman": "shukhôbor to, ebar mishṭi khawao!", "en": "That's good news, so now treat us to some sweets!" },
+        { "native": "প্রোমোশন হলো, পার্টি কোথায়?", "roman": "promoshon holo, parṭi kothay?", "en": "You got promoted, so where's the party?" },
+        { "native": "শুনে খুব ভালো লাগল, অভিনন্দন!", "roman": "shune khub bhalo laglo, obhinondon!", "en": "So glad to hear it, congratulations!" },
+        { "native": "তোমার বিয়ে ঠিক হয়েছে? কী সুখবর!", "roman": "tomar biye ṭhik hoyechhe? ki shukhôbor!", "en": "Your wedding's been fixed? What wonderful news!" }
+      ]
+    },
+    {
+      "title": "When someone is grieving",
+      "tip": { "title": "Speaking about a death", "body": "- Use the respectful **-েন** ending for the person who died: উনি মারা **গেছেন**, ভালো মানুষ **ছিলেন**; and **ওনার / ওঁর**.\n- Keep it short: **খবরটা শুনে খুব খারাপ লাগল**.\n- Offer help in the আপনি form: কিছু দরকার হলে **জানাবেন**.\n- 'May … find peace': **শান্তি পাক** (-ক is 'let/may', like হোক)." },
+      "new": ["মারা যাওয়া", "শোক", "সমবেদনা", "আত্মা", "শান্তি", "খবরটা শুনে খুব খারাপ লাগল।", "ওনার আত্মার শান্তি কামনা করি।"],
+      "sentences": [
+        { "native": "ওর দাদু কাল রাতে মারা গেছেন।", "roman": "or dadu kal rate mara gechhen.", "en": "His grandfather passed away last night.", "focus": "গেছেন", "wrong": ["গেছি|gechhi", "গেলাম|gelam"] },
+        { "native": "উনি খুব ভালো মানুষ ছিলেন।", "roman": "uni khub bhalo manush chhilen.", "en": "He was a really good person.", "focus": "ছিলেন", "wrong": ["ছিলাম|chhilam", "আছেন|achhen"] },
+        { "native": "আপনাদের পরিবারকে আমার সমবেদনা জানাই।", "roman": "apnader poribarke amar shômbedona janai.", "en": "My condolences to your family." },
+        { "native": "ওদের বাড়িতে এখন শোক চলছে।", "roman": "oder baṛite ækhon shok cholchhe.", "en": "Their family is in mourning right now." },
+        { "native": "আপনার কিছু দরকার হলে আমাকে জানাবেন।", "roman": "apnar kichhu dôrkar hole amake janaben.", "en": "If you need anything, please let me know.", "focus": "জানাবেন", "wrong": ["জানিও|janio", "জানাস|janash"] },
+        { "native": "ওনার আত্মা শান্তি পাক।", "roman": "onar atta shanti pak.", "en": "May his soul find peace.", "focus": "পাক", "wrong": ["পায়|pay", "পাবে|pabe"] },
+        { "native": "এই সময়ে ওকে একা থাকতে দিও না।", "roman": "ei shômoye oke æka thakte dio na.", "en": "At a time like this, don't leave her on her own." },
+        { "native": "ওর মা মারা যাওয়ার পরে আমি ওর পাশে ছিলাম।", "roman": "or ma mara jawar pôre ami or pashe chhilam.", "en": "I stayed by her side after her mother died." },
+        { "native": "শোকের বাড়িতে বেশি কথা বলতে নেই।", "roman": "shoker baṛite beshi kôtha bolte nei.", "en": "You shouldn't talk much in a house in mourning." }
+      ]
+    }
+  ]
+}

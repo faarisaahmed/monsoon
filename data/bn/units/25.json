@@ -1,0 +1,225 @@
+{
+  "id": 25,
+  "title": "Errands",
+  "goal": "Get everyday jobs done on your own: take out cash, open an account, buy medicine, get your phone fixed, your clothes stitched and ironed, your hair cut and a parcel sent.",
+  "intro": "Living somewhere means errands: the ATM that has run out of cash, the SIM that stops working, the cracked screen, the panjabi at the tailor's, the shirts at the ironing stall, the parcel for your mum. In Dhaka and Kolkata most of these jobs are done for you at small neighbourhood shops, and the key verb is the **causative**: not করা 'do' but **করানো** 'get it done'.\n\nYou'll also learn to hand something in (**সারাতে দিয়েছি** 'I've put it in for repair'), to ask the question every errand ends with, **কবে রেডি হবে?** 'when will it be ready?', and to find out what you need with **লাগবে**.",
+  "vocab": [
+    { "native": "ব্যাংক", "roman": "bæṅk", "en": "bank", "pos": "noun", "note": "ব্যাংকে \"at the bank\". Often spelled ব্যাঙ্ক in West Bengal." },
+    { "native": "অ্যাকাউন্ট", "roman": "ækaunṭ", "en": "(bank) account", "pos": "noun", "note": "অ্যাকাউন্ট খোলা \"to open an account\". Bank forms in Bangladesh may say হিসাব (hishab)." },
+    { "native": "ফর্ম", "roman": "phôrm", "en": "form (to fill in)", "pos": "noun" },
+    { "native": "পূরণ করা", "roman": "purôn kôra", "en": "to fill in (a form)", "pos": "verb", "note": "Careful word; in speech most people say ফিল-আপ করা (phil-ap kôra)." },
+    { "native": "সই", "roman": "shôi", "en": "signature", "pos": "noun", "note": "সই করা \"to sign\". Formal: স্বাক্ষর (shakkhor)." },
+    { "native": "কাগজপত্র", "roman": "kagojpotro", "en": "documents, paperwork", "pos": "noun", "note": "From কাগজ \"paper\". Also heard: ডকুমেন্ট (ḍôkumenṭ)." },
+    { "native": "লাইন", "roman": "lain", "en": "queue, line", "pos": "noun", "note": "লাইনে দাঁড়ানো \"to queue\"; লাইন দেওয়া \"to join the queue\" (WB)." },
+    { "native": "এটিএম", "roman": "eṭiem", "en": "ATM, cash machine", "pos": "noun", "note": "In Bangladesh often এটিএম বুথ (buth)." },
+    { "native": "তোলা", "roman": "tola", "en": "to lift; to take out (money); to take (a photo)", "pos": "verb", "note": "টাকা তোলা \"to withdraw money\", ছবি তোলা \"to take a photo\". আমি তুলি, সে তোলে; past তুললাম." },
+    { "native": "জমা দেওয়া", "roman": "jôma dewa", "en": "to pay in, deposit; to hand in", "pos": "verb", "note": "টাকা জমা দেওয়া \"to pay money in\"; ফর্ম জমা দেওয়া \"to hand in a form\"." },
+    { "native": "ফার্মেসি", "roman": "pharmesi", "en": "pharmacy, chemist's", "pos": "noun", "note": "The usual word in Bangladesh; in West Bengal people more often say ওষুধের দোকান (oshudher dokan)." },
+    { "native": "প্রেসক্রিপশন", "roman": "preskripshon", "en": "prescription", "pos": "noun", "note": "Pharmacists will ask for it for antibiotics and strong painkillers." },
+    { "native": "ছাড়া", "roman": "chhaṛa", "en": "without; except", "pos": "postp", "note": "Goes after the noun: চিনি ছাড়া \"without sugar\", তুমি ছাড়া সবাই \"everyone except you\"." },
+    { "native": "সিম", "roman": "sim", "en": "SIM card", "pos": "noun", "note": "Also সিম কার্ড. You need ID to buy one." },
+    { "native": "রিচার্জ", "roman": "richarj", "en": "(phone) top-up, recharge", "pos": "noun", "note": "রিচার্জ করা \"to top up\". In Bangladesh also ফ্লেক্সিলোড (phleksilod), or just ফ্লেক্সি." },
+    { "native": "স্ক্রিন", "roman": "skrin", "en": "screen", "pos": "noun" },
+    { "native": "ভাঙা", "roman": "bhaṅa", "en": "to break; broken", "pos": "verb", "note": "ভেঙে গেছে \"it's broken\" (it happened); ভেঙে ফেলেছি \"I've broken it\" (I did it). Past ভাঙলাম (bhaṅlam)." },
+    { "native": "সারানো", "roman": "sharano", "en": "to repair, fix", "pos": "verb", "note": "Mostly West Bengal; in Bangladesh ঠিক করা or মেরামত করা (meramot kôra) are more usual. সারাই, সারালাম, সারিয়েছি." },
+    { "native": "দর্জি", "roman": "dôrji", "en": "tailor", "pos": "noun", "note": "Older people in West Bengal may say মাস্টার (masṭar) to the tailor." },
+    { "native": "সেলাই", "roman": "shelai", "en": "stitching, sewing", "pos": "noun", "note": "সেলাই করা \"to sew\"; সেলাই করানো \"to have something stitched\"." },
+    { "native": "করানো", "roman": "korano", "en": "to get (something) done; to make (someone) do", "pos": "verb", "note": "Causative of করা: করাই, করাচ্ছি, করালাম, করিয়েছি, করাব. See the grammar notes." },
+    { "native": "মধ্যে", "roman": "moddhe", "en": "within; by (a time); among", "pos": "postp", "note": "After -এর: সাতটার মধ্যে \"by seven\", এক সপ্তাহের মধ্যে \"within a week\"." },
+    { "native": "সেলুন", "roman": "selun", "en": "barber's, men's hair salon", "pos": "noun", "note": "Bengali speakers of all ages say সেলুন for the neighbourhood barber; the barber himself is নাপিত (napit)." },
+    { "native": "পার্লার", "roman": "parlar", "en": "beauty parlour (women's salon)", "pos": "noun" },
+    { "native": "চুল", "roman": "chul", "en": "hair (on the head)", "pos": "noun", "note": "Body hair is লোম (lom)." },
+    { "native": "দাড়ি", "roman": "daṛi", "en": "beard", "pos": "noun", "note": "দাড়ি কামানো \"to shave\", দাড়ি রাখা \"to grow a beard\". Don't confuse it with দাঁড়ি (daṃṛi), the full stop \"।\"." },
+    { "native": "কাটানো", "roman": "kaṭano", "en": "to get (hair) cut; to spend (time)", "pos": "verb", "note": "চুল কাটানো \"to get a haircut\"; ছুটি কাটানো \"to spend a holiday\". কাটাই, কাটালাম, কাটিয়েছি." },
+    { "native": "লন্ড্রি", "roman": "lonḍri", "en": "laundry (shop)", "pos": "noun", "note": "For washing, ironing and dry-cleaning. In some neighbourhoods a ধোপা (dhopa, washerman) still collects clothes from the house." },
+    { "native": "ইস্ত্রি", "roman": "istri", "en": "ironing; an iron", "pos": "noun", "note": "ইস্ত্রি করা \"to iron\". Often said ইস্তিরি (istiri)." },
+    { "native": "কুরিয়ার", "roman": "kuriyar", "en": "courier (service)", "pos": "noun" },
+    { "native": "পার্সেল", "roman": "parsel", "en": "parcel", "pos": "noun" },
+    { "native": "রসিদ", "roman": "roshid", "en": "receipt", "pos": "noun", "note": "Shops in West Bengal also say ক্যাশ মেমো (kæsh memo); a laundry or tailor gives you a স্লিপ (slip)." }
+  ],
+  "phrases": [
+    { "native": "আমি একটা অ্যাকাউন্ট খুলতে চাই।", "roman": "ami ækṭa ækaunṭ khulte chai.", "en": "I'd like to open an account." },
+    { "native": "কোথায় সই করব?", "roman": "kothay shôi korbo?", "en": "Where do I sign?" },
+    { "native": "এটিএমে টাকা নেই।", "roman": "eṭieme ṭaka nei.", "en": "The ATM has run out of cash." },
+    { "native": "এটা কি লাইন?", "roman": "æṭa ki lain?", "en": "Is this the queue?" },
+    { "native": "এই ওষুধটা প্রেসক্রিপশন ছাড়া পাওয়া যাবে?", "roman": "ei oshudhṭa preskripshon chhaṛa pawa jabe?", "en": "Can I get this medicine without a prescription?" },
+    { "native": "একটা নতুন সিম লাগবে।", "roman": "ækṭa notun sim lagbe.", "en": "I need a new SIM." },
+    { "native": "ফোনের স্ক্রিনটা ভেঙে গেছে।", "roman": "phoner skrinṭa bheṅe gechhe.", "en": "My phone screen has cracked." },
+    { "native": "সারাতে কত লাগবে?", "roman": "sharate kôto lagbe?", "en": "How much will it cost to fix?" },
+    { "native": "কবে রেডি হবে?", "roman": "kôbe reḍi hobe?", "en": "When will it be ready?", "note": "For the same day: কখন রেডি হবে? \"what time…?\"" },
+    { "native": "চুল কাটাব।", "roman": "chul kaṭabo.", "en": "I'd like a haircut.", "note": "Lit. \"I will get my hair cut\". What you say as you walk into the সেলুন." },
+    { "native": "পাশ থেকে একটু ছোট করে দিন।", "roman": "pash theke ekṭu chhoṭo kore din.", "en": "Take a bit off the sides, please." },
+    { "native": "জামাগুলো ইস্ত্রি করে দেবেন।", "roman": "jamagulo istri kore deben.", "en": "Please iron these shirts.", "note": "The future -বেন as a gentle request (unit 18)." },
+    { "native": "এই পার্সেলটা চট্টগ্রামে পাঠাতে চাই।", "roman": "ei parselṭa chôṭṭograme paṭhate chai.", "en": "I want to send this parcel to Chittagong." },
+    { "native": "রসিদটা দেবেন?", "roman": "roshidṭa deben?", "en": "Could I have the receipt?" }
+  ],
+  "grammar": [
+    {
+      "title": "Getting something done: causative verbs in -আনো",
+      "body": "English says *I got my hair cut* or *I had my phone fixed*. Bengali has a verb form for this, the **causative**: add **-আ-** to the stem and you get a verb in **-আনো** that means 'have someone do it' or 'make someone do it'.\n\nকরা 'do' → **করানো** 'get done'\nকাটা 'cut' → **কাটানো** 'get cut'\nদেখা 'see' → **দেখানো** 'show' (ডাক্তার দেখানো 'see a doctor', lit. 'show (yourself) to a doctor')\nশেখা 'learn' → **শেখানো** 'teach'\nখাওয়া 'eat' → **খাওয়ানো** 'feed'\nজানা 'know' → **জানানো** 'let know' (unit 18)\n\nThey conjugate like any -আনো verb (চালানো, পাঠানো):\npresent **করাই, করাও, করান, করায়** (*korai, korao, koran, koray*)\ncontinuous **করাচ্ছি**, past **করালাম, করাল**, perfect **করিয়েছি, করিয়েছে**, future **করাব**, infinitive **করাতে**, -এ form **করিয়ে**.\nNote the stem vowel changes to **-ই-** in the perfect and -এ form: কাটিয়েছি, দেখিয়েছি.\n\n**Who does the work** takes **-কে দিয়ে** 'by means of': দর্জি**কে দিয়ে** পাঞ্জাবিটা সেলাই করিয়েছি 'I had the tailor stitch the panjabi.' Usually you leave the person out, or just name the place: সেলুনে চুল কাটালাম.\n\nEnglish verbs go through **করা → করানো** too: চেক করানো 'get checked', সার্ভিসিং করানো 'get serviced'. For repairs, **সারানো** (West Bengal) and **ঠিক করানো** (everywhere) both work.\n\n**The trap:** চুল **কেটেছি** literally says *you* did the cutting. In relaxed speech people do say চুল কাটলাম after a haircut and everyone understands, but **কাটিয়েছি** is exact. With most other verbs the difference really matters: মা রান্না **করেছে** 'Mum cooked', মা রান্না **করিয়েছে** 'Mum had someone cook'.",
+      "examples": [
+        { "native": "কাল চুল কাটিয়েছি, বোঝা যাচ্ছে?", "roman": "kal chul kaṭiyechhi, bojha jachchhe?", "en": "I got a haircut yesterday, can you tell?" },
+        { "native": "দর্জিকে দিয়ে প্যান্টটা ছোট করিয়ে নিলাম।", "roman": "dôrjike diye pænṭṭa chhoṭo koriye nilam.", "en": "I got the tailor to shorten the trousers." },
+        { "native": "জ্বর কমছে না, ডাক্তার দেখিয়েছ?", "roman": "jôr komchhe na, ḍaktar dekhiyechho?", "en": "The fever isn't going down. Have you seen a doctor?" },
+        { "native": "উনি বাচ্চাদের গান শেখান।", "roman": "uni bachchader gan shekhan.", "en": "She teaches children to sing." },
+        { "native": "বাচ্চাকে খাওয়ানো খুব কঠিন!", "roman": "bachchake khawano khub koṭhin!", "en": "Getting a child to eat is really hard!" }
+      ]
+    },
+    {
+      "title": "Handing in and picking up: -তে দেওয়া, হয়ে যাবে, নিতে আসা",
+      "body": "Most errands have two halves: you leave something, then come back for it.\n\n**Leaving it: infinitive (-তে) + দেওয়া** 'give for doing'. The infinitive names the job:\nফোনটা **সারাতে দিয়েছি** 'I've put my phone in for repair'\nজামাটা **বানাতে দিয়েছি** 'I've had a shirt made (it's at the tailor's)'\nকাপড়গুলো **ইস্ত্রি করতে দিয়েছি** 'I've given the clothes for ironing'\nWith a place, just use -এ / -তে: লন্ড্রি**তে দিয়েছি** 'I've put them in at the laundry'.\n\nDon't mix this up with the **-এ form + দেওয়া** of unit 18, which asks someone to do it for you: **সারিয়ে দিন** 'please fix it', ইস্ত্রি **করে দেবেন** 'would you iron it'. (With a person, -তে দেওয়া can also mean 'let': আমাকে যেতে দাও 'let me go'.)\n\n**Is it ready?** The job itself 'gets done' with **হওয়া**, very often + **যাওয়া** for 'all done': কবে **হবে**? or কবে **রেডি হবে**? 'when will it be ready?', কাল **হয়ে যাবে** 'it'll be done tomorrow', **হয়ে গেছে**? 'is it done?'. 'By' a time is **-এর মধ্যে**: শনিবারের মধ্যে 'by Saturday'.\n\n**Collecting it: নিতে আসা** 'come to take': কখন **নিতে আসব**? 'when shall I come and collect it?' The shop will promise **পেয়ে যাবেন** 'you'll have it'.",
+      "examples": [
+        { "native": "ফোনটা সারাতে দিয়েছি, কাল পাব।", "roman": "phonṭa sharate diyechhi, kal pabo.", "en": "My phone's in for repair, I'll get it back tomorrow." },
+        { "native": "কাপড়গুলো লন্ড্রিতে দিয়ে এসেছি।", "roman": "kapoṛgulo lonḍrite diye eshechhi.", "en": "I've dropped the clothes off at the laundry." },
+        { "native": "পাঞ্জাবিটা পুজোর আগে হয়ে যাবে তো?", "roman": "panjabiṭa pujor age hoye jabe to?", "en": "The panjabi will be ready before the Puja, right?" },
+        { "native": "সন্ধ্যার মধ্যে পেয়ে যাবেন।", "roman": "shondhar moddhe peye jaben.", "en": "You'll have it by this evening." },
+        { "native": "কখন নিতে আসব?", "roman": "kôkhon nite ashbo?", "en": "What time shall I come and pick it up?" }
+      ]
+    },
+    {
+      "title": "What you need and what it costs: লাগবে",
+      "body": "**লাগা** (unit 5: 'to feel') also means **'to be needed'** and **'to cost'**. Used this way it is impersonal: the thing needed is the subject, and the verb is always third person (**লাগে, লাগবে, লাগল**). The person who needs it, if you mention them, takes **-র / -এর**:\n\nআমার একটা ফর্ম **লাগবে** 'I need a form'\nকী কী **লাগবে**? 'What (all) will I need?' (doubling a question word asks for a list)\nছবি **লাগে** 'a photo is needed' (present: a general rule)\nসারাতে কত **লাগবে**? 'How much will it cost to fix?' (infinitive + কত লাগবে)\nআর কিছু **লাগবে**? 'Anything else?' (what every shopkeeper asks)\nNegative: **লাগবে না** 'not needed'. With -লে: কিছু **লাগলে** বলো 'if you need anything, say'.\n\nCompare **দরকার** (unit 15): আমার একটা ফর্ম দরকার means the same but sounds a little more careful; **চাই** 'I want' has আমি as its subject.\n\n**The trap:** don't give লাগা a personal ending for 'I': *আমি একটা ফর্ম লাগব* is wrong. The 'I' goes into **আমার**, and the verb stays **লাগবে**.",
+      "examples": [
+        { "native": "কী কী কাগজপত্র লাগবে?", "roman": "ki ki kagojpotro lagbe?", "en": "Which documents do I need?" },
+        { "native": "অ্যাকাউন্ট খুলতে দুটো ছবি লাগে।", "roman": "ækaunṭ khulte duṭo chhobi lage.", "en": "You need two photos to open an account." },
+        { "native": "স্ক্রিন বদলাতে কত টাকা লাগবে?", "roman": "skrin bôdlate kôto ṭaka lagbe?", "en": "How much will it cost to change the screen?" },
+        { "native": "আর কিছু লাগবে?", "roman": "ar kichhu lagbe?", "en": "Anything else? (shopkeeper)" },
+        { "native": "কিছু লাগলে আমাকে বলো।", "roman": "kichhu lagle amake bôlo.", "en": "If you need anything, tell me." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A smashed screen",
+    "setting": "Riya has cracked her phone screen. She and her friend Tanmoy take it to a repair shop in Gariahat market, Kolkata. The two friends use তুই with each other and আপনি with the shopkeeper.",
+    "lines": [
+      { "speaker": "Riya", "native": "দাদা, ফোনটা একটু দেখবেন? স্ক্রিনটা ভেঙে গেছে।", "roman": "dada, phonṭa ekṭu dekhben? skrinṭa bheṅe gechhe.", "en": "Could you have a look at my phone? The screen's cracked." },
+      { "speaker": "Shopkeeper", "native": "দেখি… ইশ, পুরো ভেঙেছে! কী করে হলো?", "roman": "dekhi… ish, puro bheṅechhe! ki kore holo?", "en": "Let's see… ouch, it's completely smashed! How did that happen?" },
+      { "speaker": "Tanmoy", "native": "রিকশা থেকে নামার সময় সেলফি তুলছিল।", "roman": "riksha theke namar shômoy selphi tulchhilo.", "en": "She was taking a selfie while getting off a rickshaw." },
+      { "speaker": "Riya", "native": "তুই চুপ কর! দাদা, সারাতে কত লাগবে?", "roman": "tui chup kôr! dada, sharate kôto lagbe?", "en": "You shut up! How much will it cost to fix?" },
+      { "speaker": "Shopkeeper", "native": "অরিজিনাল স্ক্রিন হলে সাড়ে তিন হাজার, লোকাল হলে বারোশো।", "roman": "orijinal skrin hole shaṛe tin hajar, lokal hole barosho.", "en": "An original screen is three and a half thousand; a local one, twelve hundred." },
+      { "speaker": "Riya", "native": "বাবা! আচ্ছা, অরিজিনালটাই লাগিয়ে দিন। কবে রেডি হবে?", "roman": "baba! achchha, orijinalṭai lagiye din. kôbe reḍi hobe?", "en": "Wow! OK, put in the original. When will it be ready?" },
+      { "speaker": "Shopkeeper", "native": "রেখে যান, কাল বিকেলের মধ্যে হয়ে যাবে।", "roman": "rekhe jan, kal bikeler moddhe hoye jabe.", "en": "Leave it with me, it'll be done by tomorrow afternoon." },
+      { "speaker": "Riya", "native": "কাল! ফোন ছাড়া আমি একদিনও থাকতে পারব না।", "roman": "kal! phon chhaṛa ami ækdino thakte parbo na.", "en": "Tomorrow! I can't last a single day without my phone." },
+      { "speaker": "Tanmoy", "native": "একদিন থেকে দেখ, ভালো লাগবে।", "roman": "ækdin theke dækh, bhalo lagbe.", "en": "Try it for a day. You'll like it." },
+      { "speaker": "Shopkeeper", "native": "আচ্ছা আচ্ছা, আজ সন্ধ্যা সাতটার মধ্যে করে দিচ্ছি। এই নিন রসিদ।", "roman": "achchha achchha, aj shondha shatṭar moddhe kore dichchhi. ei nin roshid.", "en": "All right, all right, I'll have it done by seven this evening. Here's your receipt." },
+      { "speaker": "Riya", "native": "থ্যাংক ইউ, দাদা! তন্ময়, চল, ততক্ষণে আমি চুলটা কাটিয়ে আসি।", "roman": "thæṅk iu, dada! tônmoy, chôl, tôtokkhone ami chulṭa kaṭiye ashi.", "en": "Thank you! Tanmoy, come on, I'll get my hair cut in the meantime." },
+      { "speaker": "Tanmoy", "native": "আবার পার্লার? ঠিক আছে, আমি লন্ড্রি থেকে জামাগুলো নিয়ে আসি। সাতটায় এখানেই দেখা হবে।", "roman": "abar parlar? ṭhik achhe, ami lonḍri theke jamagulo niye ashi. shatṭay ekhanei dækha hobe.", "en": "The parlour again? Fine, I'll go and pick up my shirts from the laundry. See you back here at seven." }
+    ]
+  },
+  "culture": "Errands in Bengal run on neighbourhood relationships: the phone shop that does top-ups, SIMs and repairs, the **দর্জি** who keeps your measurements in a notebook, the ironing man (**ইস্ত্রিওয়ালা**) with his heavy iron at a table on the pavement, the **সেলুন** whose haircut ends with a free head massage. Call shopkeepers **দাদা** / **দিদি** in West Bengal and **ভাই** / **আপা** in Bangladesh (young Dhaka men also say a jokey **মামা**), and use **আপনি**; with someone your age you see every week you can drift to **তুমি**. Services are rarely bargained over, but always ask **কবে রেডি হবে?**, and treat 'কাল সকালেই পেয়ে যাবেন' ('you'll have it first thing tomorrow') as 'probably the day after'. Before Eid and Durga Puja tailors stop taking orders weeks in advance, so go early. Buying a SIM needs ID: a passport and visa if you're a foreigner. Money moves by phone: **বিকাশ** (bKash) and **নগদ** (Nagad) in Bangladesh, UPI in India, where you just say **স্ক্যান করে দিচ্ছি** 'I'll scan and pay'. Inside Bangladesh, parcels go by private couriers such as Sundarban or SA Paribahan, which you collect from their office; in India, Speed Post or a courier company delivers to the door.",
+  "lessons": [
+    {
+      "title": "Opening a bank account",
+      "tip": { "title": "লাগবে: what do I need?", "body": "- **লাগবে** (*lagbe*) 'will be needed' is the errand word: কী কী **লাগবে**? 'what all do I need?'\n- The thing needed is the subject; 'I' goes into **আমার**: আমার একটা ফর্ম **লাগবে**.\n- It never takes আমি-endings: not *লাগব*.\n- **লাগে** for a general rule: ছবি লাগে 'a photo is needed'.", "pattern": "(আমার) + thing + লাগবে", "grammar": 2 },
+      "new": ["ব্যাংক", "অ্যাকাউন্ট", "ফর্ম", "পূরণ করা", "সই", "কাগজপত্র", "আমি একটা অ্যাকাউন্ট খুলতে চাই।", "কোথায় সই করব?"],
+      "sentences": [
+        { "native": "আমি এই ব্যাংকে একটা অ্যাকাউন্ট খুলতে চাই।", "roman": "ami ei bæṅke ækṭa ækaunṭ khulte chai.", "en": "I'd like to open an account at this bank." },
+        { "native": "অ্যাকাউন্ট খুলতে কী কী লাগবে?", "roman": "ækaunṭ khulte ki ki lagbe?", "en": "What do I need to open an account?", "focus": "লাগবে", "wrong": ["লাগব|lagbo", "লাগলাম|laglam"] },
+        { "native": "ছবি আর পাসপোর্টের কপি লাগবে।", "roman": "chhobi ar pasporṭer kôpi lagbe.", "en": "You'll need photos and a copy of your passport.", "focus": "লাগবে", "wrong": ["লাগবেন|lagben", "লাগব|lagbo"] },
+        { "native": "আমার একটা ফর্ম লাগবে।", "roman": "amar ækṭa phôrm lagbe.", "en": "I need a form.", "focus": "আমার", "wrong": ["আমি|ami", "আমরা|amra"] },
+        { "native": "ফর্মটা পূরণ করে এখানে সই করুন।", "roman": "phôrmṭa purôn kore ekhane shôi korun.", "en": "Fill in the form and sign here." },
+        { "native": "এই ফর্মে দুটো সই লাগবে।", "roman": "ei phôrme duṭo shôi lagbe.", "en": "This form needs two signatures.", "focus": "লাগবে", "wrong": ["লাগব|lagbo", "লাগবেন|lagben"] },
+        { "native": "আর কোনো কাগজপত্র লাগবে?", "roman": "ar kono kagojpotro lagbe?", "en": "Do you need any other documents?", "focus": "লাগবে", "wrong": ["লাগি|lagi", "লাগো|lago"] },
+        { "native": "না, আর কিছু লাগবে না।", "roman": "na, ar kichhu lagbe na.", "en": "No, nothing else is needed.", "focus": "লাগবে", "wrong": ["লাগব|lagbo", "লাগেন|lagen"] },
+        { "native": "ব্যাংকে সাধারণত পাসপোর্ট লাগে।", "roman": "bæṅke shadharonoto pasporṭ lage.", "en": "Banks usually ask for your passport.", "focus": "লাগে", "wrong": ["লাগি|lagi", "লাগেন|lagen"] },
+        { "native": "কোথায় সই করব, এখানে না ওখানে?", "roman": "kothay shôi korbo, ekhane na okhane?", "en": "Where do I sign, here or there?" }
+      ]
+    },
+    {
+      "title": "Cash, queues and the pharmacy",
+      "tip": { "title": "Can I…? Is there…? পাওয়া যাবে, ছাড়া", "body": "- **Verbal noun + যাবে?** asks 'can it be done?': টাকা **তোলা যাবে**? 'can I take out money?'\n- **পাওয়া যাবে?** 'can one get it?' is how you ask whether a shop has something: এটিএম **পাওয়া যাবে**?\n- Negative: **যাবে না** 'it can't be done'.\n- **ছাড়া** 'without' goes *after* the noun: প্রেসক্রিপশন **ছাড়া**.", "pattern": "thing + পাওয়া যাবে?  ·  noun + ছাড়া" },
+      "new": [
+        "লাইন",
+        "এটিএম",
+        "তোলা",
+        "জমা দেওয়া",
+        "ফার্মেসি",
+        "প্রেসক্রিপশন",
+        "ছাড়া",
+        "এটিএমে টাকা নেই।",
+        "এটা কি লাইন?",
+        "এই ওষুধটা প্রেসক্রিপশন ছাড়া পাওয়া যাবে?"
+      ],
+      "sentences": [
+        { "native": "স্টেশনে এটিএম পাওয়া যাবে?", "roman": "sṭeshone eṭiem pawa jabe?", "en": "Is there an ATM at the station?", "focus": "পাওয়া", "wrong": ["পাই|pai", "পেলাম|pelam"] },
+        { "native": "এই এটিএমে টাকা নেই, পাশেরটা থেকে তুলতে হবে।", "roman": "ei eṭieme ṭaka nei, pasherṭa theke tulte hobe.", "en": "This ATM's out of cash, we'll have to take it out at the one next door." },
+        { "native": "কার্ড ছাড়া টাকা তোলা যাবে?", "roman": "karḍ chhaṛa ṭaka tola jabe?", "en": "Can I take out money without a card?", "focus": "ছাড়া", "wrong": ["দিয়ে|diye", "থেকে|theke"] },
+        { "native": "শনিবার কি টাকা জমা দেওয়া যাবে?", "roman": "shonibar ki ṭaka jôma dewa jabe?", "en": "Can I pay money in on Saturday?", "focus": "যাবে", "wrong": ["যাব|jabo", "যাবেন|jaben"] },
+        { "native": "দাদা, এটা কি টাকা জমা দেওয়ার লাইন?", "roman": "dada, æṭa ki ṭaka jôma dewar lain?", "en": "Excuse me, is this the queue for paying in?" },
+        { "native": "কাছে কোনো ফার্মেসি পাওয়া যাবে?", "roman": "kachhe kono pharmesi pawa jabe?", "en": "Is there a pharmacy nearby?", "focus": "পাওয়া", "wrong": ["পেয়ে|peye", "পাই|pai"] },
+        { "native": "প্রেসক্রিপশন ছাড়া এই ওষুধ দেওয়া যাবে না।", "roman": "preskripshon chhaṛa ei oshudh dewa jabe na.", "en": "We can't give you this medicine without a prescription.", "focus": "ছাড়া", "wrong": ["দিয়ে|diye", "থেকে|theke"] },
+        { "native": "ফার্মেসিতে জ্বরের ওষুধ পাওয়া যাবে।", "roman": "pharmesite jôrer oshudh pawa jabe.", "en": "You'll get fever medicine at the pharmacy.", "focus": "যাবে", "wrong": ["যাব|jabo", "যাবেন|jaben"] },
+        { "native": "পাসপোর্ট ছাড়া অ্যাকাউন্ট খোলা যাবে না।", "roman": "pasporṭ chhaṛa ækaunṭ khola jabe na.", "en": "You can't open an account without a passport.", "focus": "খোলা", "wrong": ["খুলি|khuli", "খুলব|khulbo"] },
+        { "native": "আমি লাইনে আছি, তুমি ফর্মটা পূরণ করো।", "roman": "ami laine achhi, tumi phôrmṭa purôn kôro.", "en": "I'm in the queue, you fill in the form." }
+      ]
+    },
+    {
+      "title": "Phone trouble: SIMs and repairs",
+      "tip": { "title": "সারাতে দিয়েছি: handing something in", "body": "- To leave something for a job, use the **-তে** form + **দেওয়া**: ফোনটা **সারাতে দিয়েছি** 'my phone's in for repair'.\n- Not the same as **সারিয়ে দিন** 'please fix it for me' (unit 18).\n- The job itself 'gets done' with **হয়ে যাওয়া**: কাল **হয়ে যাবে**; **হয়ে গেছে**? 'is it done?'\n- To collect it: **নিতে আসা**.", "pattern": "thing + verb-তে + দিয়েছি  ·  কাল হয়ে যাবে", "grammar": 1 },
+      "new": ["সিম", "রিচার্জ", "স্ক্রিন", "ভাঙা", "সারানো", "একটা নতুন সিম লাগবে।", "ফোনের স্ক্রিনটা ভেঙে গেছে।", "সারাতে কত লাগবে?"],
+      "sentences": [
+        { "native": "আমার ফোনটা সারাতে দিয়েছি।", "roman": "amar phonṭa sharate diyechhi.", "en": "My phone's in for repair.", "focus": "সারাতে", "wrong": ["সারিয়ে|shariye", "সারাব|sharabo"] },
+        { "native": "আমার ফোনটা পড়ে গিয়ে স্ক্রিনটা ভেঙে গেছে।", "roman": "amar phonṭa pôṛe giye skrinṭa bheṅe gechhe.", "en": "My phone fell and the screen cracked." },
+        { "native": "দাদা, স্ক্রিন সারাতে কত লাগবে?", "roman": "dada, skrin sharate kôto lagbe?", "en": "How much does it cost to fix a screen?" },
+        { "native": "দাদা, স্ক্রিনটা কি আজ হয়ে যাবে?", "roman": "dada, skrinṭa ki aj hoye jabe?", "en": "Will the screen be done today?", "focus": "হয়ে", "wrong": ["হতে|hote", "করে|kore"] },
+        { "native": "ফোনটা রেখে যান, কাল হয়ে যাবে।", "roman": "phonṭa rekhe jan, kal hoye jabe.", "en": "Leave the phone with us, it'll be done tomorrow.", "focus": "হয়ে", "wrong": ["করে|kore", "হতে|hote"] },
+        { "native": "কাল ফোনটা সারাতে দিলাম, এখনও পাইনি।", "roman": "kal phonṭa sharate dilam, ækhono paini.", "en": "I put my phone in for repair yesterday and still haven't got it back.", "focus": "সারাতে", "wrong": ["সারিয়ে|shariye", "সারাই|sharai"] },
+        { "native": "কবে নিতে আসব?", "roman": "kôbe nite ashbo?", "en": "When should I come and collect it?", "focus": "নিতে", "wrong": ["নিয়ে|niye", "নেব|nebo"] },
+        { "native": "একটা নতুন সিম লাগবে, এটা কাজ করছে না।", "roman": "ækṭa notun sim lagbe, æṭa kaj korchhe na.", "en": "I need a new SIM, this one isn't working." },
+        { "native": "রিচার্জটা হয়ে গেছে?", "roman": "richarjṭa hoye gechhe?", "en": "Has the top-up gone through?", "focus": "হয়ে", "wrong": ["করে|kore", "হতে|hote"] },
+        { "native": "ভাঙা ফোনটা আমার ভাইকে সারাতে দিয়েছি।", "roman": "bhaṅa phonṭa amar bhaike sharate diyechhi.", "en": "I've given the broken phone to my brother to fix.", "focus": "সারাতে", "wrong": ["সারিয়ে|shariye", "সারাব|sharabo"] }
+      ]
+    },
+    {
+      "title": "At the tailor's",
+      "tip": { "title": "করানো: getting it done", "body": "- Add **-আনো** to a verb for 'get it done by someone': করা → **করানো**, কাটা → **কাটানো**.\n- Forms: করাই, করাচ্ছি, করালাম, **করিয়েছি**, করাব, করাতে.\n- The person who does the work takes **-কে দিয়ে**: দর্জিকে দিয়ে সেলাই করিয়েছি.\n- **The trap**: সেলাই **করেছি** means *you* did the sewing.", "pattern": "(X-কে দিয়ে) + thing + করানো", "grammar": 0 },
+      "new": ["দর্জি", "সেলাই", "করানো", "মধ্যে", "কবে রেডি হবে?"],
+      "sentences": [
+        { "native": "পাঞ্জাবিটা কোথা থেকে সেলাই করিয়েছ?", "roman": "panjabiṭa kotha theke shelai koriyechho?", "en": "Where did you get your panjabi stitched?", "focus": "করিয়েছ", "wrong": ["করেছ|korechho", "করাও|korao"] },
+        { "native": "আমাদের দর্জিকে দিয়ে করিয়েছি।", "roman": "amader dôrjike diye koriyechhi.", "en": "I had our tailor do it.", "focus": "দিয়ে", "wrong": ["থেকে|theke", "জন্য|jonno"] },
+        { "native": "আমি সেলাই করতে পারি না, তাই দর্জিকে দিয়ে করাই।", "roman": "ami shelai korte pari na, tai dôrjike diye korai.", "en": "I can't sew, so I get the tailor to do it.", "focus": "করাই", "wrong": ["করি|kori", "করো|kôro"] },
+        { "native": "প্যান্টটা একটু ছোট করাতে হবে।", "roman": "pænṭṭa ekṭu chhoṭo korate hobe.", "en": "I need to get the trousers shortened a bit.", "focus": "করাতে", "wrong": ["করাই|korai", "করালাম|koralam"] },
+        { "native": "মা আমাকে দিয়ে সব কাজ করান!", "roman": "ma amake diye shôb kaj koran!", "en": "Mum makes me do all the work!", "focus": "করান", "wrong": ["করেন|kôren", "করি|kori"] },
+        { "native": "বাড়িটা নতুন করে রং করাচ্ছি।", "roman": "baṛiṭa notun kore rôṅ korachchhi.", "en": "We're having the house repainted.", "focus": "করাচ্ছি", "wrong": ["করছি|korchhi", "করাই|korai"] },
+        { "native": "এখন কেউ জামা সেলাই করায় না, সবাই কেনে।", "roman": "ækhon keu jama shelai koray na, shôbai kene.", "en": "Nobody has clothes made these days, everyone buys them.", "focus": "করায়", "wrong": ["করাই|korai", "করাও|korao"] },
+        { "native": "ঈদের আগে একটা নতুন জামা বানাতে দিয়েছি।", "roman": "ider age ækṭa notun jama banate diyechhi.", "en": "I've ordered a new outfit from the tailor for Eid." },
+        { "native": "জামাটা কবে রেডি হবে?", "roman": "jamaṭa kôbe reḍi hobe?", "en": "When will the outfit be ready?" },
+        { "native": "শুক্রবারের মধ্যে রেডি হয়ে যাবে।", "roman": "shukrobarer moddhe reḍi hoye jabe.", "en": "It'll be ready by Friday." }
+      ]
+    },
+    {
+      "title": "At the barber's or the parlour",
+      "tip": { "title": "চুল কাটাব: getting a haircut", "body": "- At the barber's you don't cut, you **get it cut**: চুল **কাটাব** 'I'd like a haircut', গতকাল চুল **কাটালাম**.\n- People also loosely say চুল কাটলাম; both are heard, but **কাটিয়েছি** is exact.\n- Tell the barber what to do with **-এ + দিন**: ছোট করে দিন 'make it shorter'.", "pattern": "চুল + কাটাব / কাটালাম / কাটাতে হবে", "grammar": 0 },
+      "new": ["সেলুন", "পার্লার", "চুল", "দাড়ি", "কাটানো", "চুল কাটাব।", "পাশ থেকে একটু ছোট করে দিন।"],
+      "sentences": [
+        { "native": "গতকাল চুল কাটালাম, কেমন লাগছে?", "roman": "gôtokal chul kaṭalam, kæmon lagchhe?", "en": "I got a haircut yesterday, how does it look?", "focus": "কাটালাম", "wrong": ["কাটাব|kaṭabo", "কাটাচ্ছি|kaṭachchhi"] },
+        { "native": "তুমি চুল কোথায় কাটাও?", "roman": "tumi chul kothay kaṭao?", "en": "Where do you get your hair cut?", "focus": "কাটাও", "wrong": ["কাটাই|kaṭai", "কাটায়|kaṭay"] },
+        { "native": "বাড়ির কাছের সেলুনে কাটাই।", "roman": "baṛir kachher selune kaṭai.", "en": "At the barber's near my house.", "focus": "কাটাই", "wrong": ["কাটাও|kaṭao", "কাটে|kaṭe"] },
+        { "native": "চুলটা খুব বড় হয়ে গেছে, কাটাতে হবে।", "roman": "chulṭa khub bôṛo hoye gechhe, kaṭate hobe.", "en": "My hair's got really long, I need a haircut.", "focus": "কাটাতে", "wrong": ["কাটিয়ে|kaṭiye", "কাটাই|kaṭai"] },
+        { "native": "দিদি পার্লারে চুল কাটাতে গেছে।", "roman": "didi parlare chul kaṭate gechhe.", "en": "My sister has gone to the parlour for a haircut.", "focus": "কাটাতে", "wrong": ["কাটিয়ে|kaṭiye", "কাটায়|kaṭay"] },
+        { "native": "দাদা, চুল কাটাব, কত নেবেন?", "roman": "dada, chul kaṭabo, kôto neben?", "en": "I'd like a haircut, how much do you charge?", "focus": "কাটাব", "wrong": ["কাটাবেন|kaṭaben", "কাটালাম|kaṭalam"] },
+        { "native": "বাচ্চার চুল কাটাতে হবে, ও খুব কাঁদে।", "roman": "bachchar chul kaṭate hobe, o khub kaṃde.", "en": "We need to get the little one a haircut, and he cries a lot.", "focus": "কাটাতে", "wrong": ["কাটিয়ে|kaṭiye", "কাটাই|kaṭai"] },
+        { "native": "দাড়িটা একটু ছোট করে দিন।", "roman": "daṛiṭa ekṭu chhoṭo kore din.", "en": "Trim my beard a little, please." },
+        { "native": "ওপরে বেশি কাটবেন না।", "roman": "opore beshi kaṭben na.", "en": "Don't take too much off the top." },
+        { "native": "পাশ থেকে একটু ছোট করে দিন, পেছনে আরেকটু।", "roman": "pash theke ekṭu chhoṭo kore din, pechhone arekṭu.", "en": "Take a bit off the sides, and a little more at the back." }
+      ]
+    },
+    {
+      "title": "Laundry and sending a parcel",
+      "new": ["লন্ড্রি", "ইস্ত্রি", "কুরিয়ার", "পার্সেল", "রসিদ", "জামাগুলো ইস্ত্রি করে দেবেন।", "এই পার্সেলটা চট্টগ্রামে পাঠাতে চাই।", "রসিদটা দেবেন?"],
+      "sentences": [
+        { "native": "জামাগুলো লন্ড্রিতে দিয়েছি, পরশু পাব।", "roman": "jamagulo lonḍrite diyechhi, porshu pabo.", "en": "I've taken the shirts to the laundry, I'll get them the day after tomorrow." },
+        { "native": "দাদা, এই দুটো জামা ইস্ত্রি করে দেবেন?", "roman": "dada, ei duṭo jama istri kore deben?", "en": "Could you iron these two shirts?" },
+        { "native": "শাড়িটা লন্ড্রিতে দিতে হবে।", "roman": "shaṛiṭa lonḍrite dite hobe.", "en": "The sari needs to go to the laundry." },
+        { "native": "ইস্ত্রি করা জামাগুলো কোথায় রেখেছ?", "roman": "istri kôra jamagulo kothay rekhechho?", "en": "Where did you put the ironed shirts?" },
+        { "native": "রসিদটা হারাবেন না, ওটা ছাড়া কাপড় দেওয়া যাবে না।", "roman": "roshidṭa haraben na, oṭa chhaṛa kapoṛ dewa jabe na.", "en": "Don't lose the receipt, we can't give the clothes back without it." },
+        { "native": "এই পার্সেলটা কুরিয়ারে পাঠাতে হবে।", "roman": "ei parselṭa kuriyare paṭhate hobe.", "en": "I need to send this parcel by courier." },
+        { "native": "কুরিয়ারে পাঠাতে কত লাগবে?", "roman": "kuriyare paṭhate kôto lagbe?", "en": "How much does it cost to send by courier?" },
+        { "native": "পার্সেলটা ঢাকায় কবে পৌঁছাবে?", "roman": "parselṭa ḍhakay kôbe pouṃchhabe?", "en": "When will the parcel reach Dhaka?" },
+        { "native": "কাল বিকেলের মধ্যে পৌঁছে যাবে।", "roman": "kal bikeler moddhe pouṃchhe jabe.", "en": "It'll get there by tomorrow afternoon." },
+        { "native": "ভেতরে কী আছে? — কাপড় আর কিছু মিষ্টি।", "roman": "bhetore ki achhe? — kapoṛ ar kichhu mishṭi.", "en": "What's inside? — Clothes and some sweets." },
+        { "native": "পার্সেলটা মাকে পাঠাচ্ছি, পরশু মায়ের জন্মদিন।", "roman": "parselṭa make paṭhachchhi, porshu mayer jônmodin.", "en": "I'm sending the parcel to Mum, it's her birthday the day after tomorrow." }
+      ]
+    }
+  ]
+}

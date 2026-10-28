@@ -1,0 +1,207 @@
+{
+  "id": 37,
+  "title": "Sorting out problems",
+  "goal": "Return a wrong or broken order, get a refund, deal with customer service and the police, keep your cool while negotiating, and report exactly who said what.",
+  "intro": "Sooner or later something goes wrong: the parcel has the wrong size, the glass arrives in pieces, the refund never comes, your phone slips out of your pocket in a rickshaw. This unit gets you through it: explaining the problem, asking for an exchange or your money back, escalating to a manager, filing a report at the থানা, and staying calm (and polite) enough to win.\n\nThe grammar is **reported speech** in full, because half of sorting out a problem is telling someone else what you were told. Bengali keeps the speaker's **original tense** (ও বলল ও কাল আসবে 'he said he would come tomorrow'), reports orders with the **infinitive + বলা** (আমাকে অপেক্ষা করতে বলল 'they told me to wait') and questions with **কি না** 'whether' (জিজ্ঞেস করল আমি রসিদটা এনেছি কি না 'she asked whether I'd brought the receipt').",
+  "vocab": [
+    { "native": "অর্ডার", "roman": "ôrḍar", "en": "order (online or in a restaurant)", "pos": "noun", "note": "অর্ডার করা = to order; অর্ডার নম্বর = order number." },
+    { "native": "প্যাকেট", "roman": "pækeṭ", "en": "packet, parcel, package", "pos": "noun" },
+    { "native": "বদলে দেওয়া", "roman": "bôdle dewa", "en": "to exchange, replace (for someone)", "pos": "verb", "note": "From বদলানো \"change\". The customer asks বদলে দেবেন?; the shop says বদলে দিচ্ছি." },
+    { "native": "রিফান্ড", "roman": "riphanḍ", "en": "refund", "pos": "noun", "note": "Everyday Bengali also says টাকা ফেরত \"money back\"." },
+    { "native": "ক্ষতি", "roman": "khôti", "en": "damage, loss, harm", "pos": "noun", "note": "ক্ষতি হওয়া = to suffer a loss: আমার অনেক টাকার ক্ষতি হয়েছে." },
+    { "native": "গ্যারান্টি", "roman": "gæranṭi", "en": "guarantee, warranty", "pos": "noun", "note": "Also ওয়ারেন্টি. গ্যারান্টি আছে? = is there a warranty?" },
+    { "native": "কাস্টমার কেয়ার", "roman": "kasṭomar keyar", "en": "customer service", "pos": "noun", "note": "Also হেল্পলাইন. Formal: গ্রাহক সেবা (grahok sheba)." },
+    { "native": "কথা দেওয়া", "roman": "kôtha dewa", "en": "to promise, give your word", "pos": "verb", "note": "কথা রাখা = keep your word." },
+    { "native": "দাবি", "roman": "dabi", "en": "demand, claim", "pos": "noun", "note": "দাবি করা = to demand." },
+    { "native": "বারণ করা", "roman": "baron kôra", "en": "to tell (someone) not to", "pos": "verb", "note": "With the infinitive: যেতে বারণ করল \"told me not to go\". Bangladesh: মানা করা / না করা." },
+    { "native": "ধৈর্য", "roman": "dhoirjo", "en": "patience", "pos": "noun", "note": "ধৈর্য ধরা = to be patient: একটু ধৈর্য ধরুন." },
+    { "native": "মাথা ঠান্ডা রাখা", "roman": "matha ṭhanḍa rakha", "en": "to keep calm (lit. keep the head cool)", "pos": "verb", "note": "Opposite: মাথা গরম করা \"lose your temper\"." },
+    { "native": "জানতে চাওয়া", "roman": "jante chawa", "en": "to ask, want to know", "pos": "verb", "note": "Softer than জিজ্ঞেস করা: উনি জানতে চাইলেন… \"she wanted to know…\"" },
+    { "native": "কি না", "roman": "ki na", "en": "whether (or not)", "pos": "particle", "note": "Goes at the end of a reported yes/no question: আসবে কি না জানি না." },
+    { "native": "প্রমাণ", "roman": "prôman", "en": "proof, evidence", "pos": "noun" },
+    { "native": "চেক করা", "roman": "chek kôra", "en": "to check", "pos": "verb", "note": "চেক করে দেখা = check and see. More formal: যাচাই করা." },
+    { "native": "জিডি", "roman": "jiḍi", "en": "police report for a lost item (General Diary, Bangladesh)", "pos": "noun", "note": "জিডি করা = to file a report; can now be done online. West Bengal: (মিসিং) ডায়েরি করা." },
+    { "native": "খুঁজে পাওয়া", "roman": "khuṃje pawa", "en": "to find", "pos": "verb", "note": "খোঁজা = to look for: খুঁজছি, পাচ্ছি না \"I'm looking but can't find it\"." },
+    { "native": "ব্যবস্থা", "roman": "bæbostha", "en": "arrangement; action, measures", "pos": "noun", "note": "ব্যবস্থা নেওয়া = to take action; ব্যবস্থা করা = to arrange." },
+    { "native": "চেঁচানো", "roman": "cheṃchano", "en": "to shout", "pos": "verb", "note": "চেঁচাবেন না = don't shout. Bangladesh also চিল্লানো (colloquial)." },
+    { "native": "ভদ্রভাবে", "roman": "bhôdrobhabe", "en": "politely", "pos": "adv", "note": "From ভদ্র \"polite, decent\"." },
+    { "native": "সমাধান", "roman": "shômadhan", "en": "solution", "pos": "noun" },
+    { "native": "ঠকানো", "roman": "ṭhôkano", "en": "to cheat, con", "pos": "verb", "note": "ঠকা = to be cheated: আমি ঠকেছি \"I got ripped off\"." },
+    { "native": "ক্ষতিপূরণ", "roman": "khôtipuron", "en": "compensation", "pos": "noun" }
+  ],
+  "phrases": [
+    { "native": "আমি এটা অর্ডার করিনি।", "roman": "ami æṭa ôrḍar korini.", "en": "I didn't order this." },
+    { "native": "এটা বদলে দেওয়া যাবে?", "roman": "æṭa bôdle dewa jabe?", "en": "Can this be exchanged?" },
+    { "native": "আমার পুরো টাকা ফেরত চাই।", "roman": "amar puro ṭaka pherot chai.", "en": "I want a full refund." },
+    { "native": "প্যাকেটটা খোলাই ছিল।", "roman": "pækeṭṭa kholai chhilo.", "en": "The packet was already open." },
+    { "native": "ওরা বলল দুই দিনের মধ্যে টাকা ফেরত দেবে।", "roman": "ora bollo dui diner moddhe ṭaka pherot debe.", "en": "They said they'd refund the money within two days." },
+    { "native": "আপনি তো বলেছিলেন আজ হয়ে যাবে!", "roman": "apni to bolechhilen aj hoye jabe!", "en": "But you said it would be done today!" },
+    { "native": "আমাকে অপেক্ষা করতে বলল।", "roman": "amake ôpekkha korte bollo.", "en": "They told me to wait." },
+    { "native": "আপনার ম্যানেজারের সঙ্গে কথা বলতে চাই।", "roman": "apnar mænejarer shôṅge kôtha bolte chai.", "en": "I'd like to speak to your manager." },
+    { "native": "আমার ফোনটা কোথাও পড়ে গেছে।", "roman": "amar phonṭa kothao pôṛe gechhe.", "en": "I've dropped my phone somewhere." },
+    { "native": "একটা জিডি করতে চাই।", "roman": "ækṭa jiḍi korte chai.", "en": "I'd like to file a report. (Bangladesh)", "note": "West Bengal: একটা ডায়েরি করতে চাই." },
+    { "native": "এটা কার দায়িত্ব?", "roman": "æṭa kar dayitto?", "en": "Whose responsibility is this?" },
+    { "native": "আমি ঝামেলা চাই না, শুধু সমাধান চাই।", "roman": "ami jhamela chai na, shudhu shômadhan chai.", "en": "I don't want trouble, I just want it sorted out." },
+    { "native": "একটু শান্ত হয়ে কথা বলি।", "roman": "ekṭu shanto hoye kôtha boli.", "en": "Let's talk about this calmly." },
+    { "native": "আমাকে ঠকানো হয়েছে।", "roman": "amake ṭhôkano hoyechhe.", "en": "I've been cheated." }
+  ],
+  "grammar": [
+    {
+      "title": "Reporting what people said: tense stays, pronouns change",
+      "body": "Unit 20 introduced **বলল (যে)…** 'said (that)…'. Here's the full system, which is simpler than English.\n\n**1. Keep the original tense.** English shifts back ('I *will* come' → he said he *would* come). Bengali doesn't: you keep the tense the speaker used.\n\n- He said: 'আমি কাল আসব' → ও বলল (যে) ও কাল **আসবে** 'he said he would come tomorrow'\n- She said: 'আমি ব্যস্ত' → ও বলল ও **ব্যস্ত** 'she said she was busy'\n\n**2. Change the person**, as in English: 'I' becomes ও / উনি, 'you' becomes আমি, and the **verb ending follows**: দোকানদার বলল জুতোটা বদলে **দেবে** (not দেব, which would mean *I* will).\n\n**3. Three word orders**, all common:\n\n- ও বলল **যে** ও আসবে (যে is optional)\n- ও আসবে **বলল** (verb of saying at the end – very natural in speech)\n- with **বলে** 'saying' before another verb: ও আসবে **বলে** কথা দিয়েছিল 'he promised he'd come'\n\n**4. Which verb?** বলল 'said', **বলেছে** 'has said' (for fresh news: ওরা বলেছে কাল দেবে), **বলেছিল** 'had said' (often for a promise that was broken: আপনি তো বলেছিলেন…!), **জানাল** 'informed', **কথা দিল** 'promised'.\n\n**5. Hearsay: নাকি.** To pass on something you heard without vouching for it, put **নাকি** after the subject: ওরা **নাকি** শুধু কার্ডে রিফান্ড দেয় 'apparently they only refund to card'.",
+      "examples": [
+        { "native": "ডেলিভারির ছেলেটা বলল ও পাঁচটার মধ্যে আসবে।", "roman": "ḍelibharir chheleṭa bollo o paṃchṭar moddhe ashbe.", "en": "The delivery guy said he'd come by five." },
+        { "native": "উনি বললেন উনি খুব দুঃখিত, আর এরকম হবে না।", "roman": "uni bollen uni khub dukkhito, ar ærôkom hobe na.", "en": "She said she was very sorry and it wouldn't happen again." },
+        { "native": "ওরা কাল টাকা দেবে বলেছে, দেখা যাক।", "roman": "ora kal ṭaka debe bolechhe, dækha jak.", "en": "They've said they'll pay tomorrow; let's see." },
+        { "native": "দোকানটা নাকি রবিবার বন্ধ থাকে।", "roman": "dokanṭa naki robibar bôndho thake.", "en": "Apparently the shop is closed on Sundays." },
+        { "native": "তুমি তো বলেছিলে তোমার কাছে রসিদ আছে!", "roman": "tumi to bolechhile tomar kachhe roshid achhe!", "en": "But you said you had the receipt!" }
+      ]
+    },
+    {
+      "title": "Reporting orders and requests: 'told me to…' = -তে বলা",
+      "body": "To report an instruction, request or advice, put the action in the **infinitive (-তে)** and follow it with **বলা**. The person told takes **-কে**:\n\n- 'Wait!' → আমাকে অপেক্ষা **করতে বলল** 'they told me to wait'\n- 'Please fill in this form.' → উনি আমাকে ফর্মটা পূরণ **করতে বললেন**\n- Passing on a message: ওকে বলো আমাকে ফোন **করতে** 'tell him to call me'\n\n**Telling someone not to**: use **বারণ করা** (West Bengal and formal) or **মানা করা / না করা** (Bangladesh) with the same infinitive: ডাক্তার আমাকে ঝাল খেতে **বারণ করেছেন** 'the doctor has told me not to eat spicy food'. (You can also say খেতে **না বলেছেন**, but বারণ / মানা is more usual.)\n\n**'I've been told to…'** without naming who: **আমাকে … -তে বলা হয়েছে**: আমাকে কাল আবার আসতে বলা হয়েছে.\n\n**The trap**: don't use the future or the imperative for the reported action: ✗ আমাকে অপেক্ষা করবে বলল (that means 'he said *he* would wait for me'). The infinitive is what marks it as an instruction.",
+      "examples": [
+        { "native": "পুলিশ আমাকে কাল সকালে থানায় আসতে বলল।", "roman": "pulish amake kal shôkale thanay ashte bollo.", "en": "The police told me to come to the station tomorrow morning." },
+        { "native": "মা আমাকে রাতে একা বেরোতে বারণ করে।", "roman": "ma amake rate æka berote baron kôre.", "en": "Mum tells me not to go out alone at night." },
+        { "native": "দারোয়ান আমাদের ভেতরে যেতে মানা করল।", "roman": "daroyan amader bhetore jete mana korlo.", "en": "The guard told us not to go in. (Bangladesh)" },
+        { "native": "ম্যানেজারকে একবার আসতে বলুন, প্লিজ।", "roman": "mænejarke ækbar ashte bolun, pliz.", "en": "Please ask the manager to come over." },
+        { "native": "আমাকে ধৈর্য ধরতে বলবেন না!", "roman": "amake dhoirjo dhorte bolben na!", "en": "Don't tell me to be patient!" }
+      ]
+    },
+    {
+      "title": "Reporting questions: জিজ্ঞেস করল … কি না",
+      "body": "**Question-word questions** (who, what, when…) are reported just like statements: keep the question word and the tense, change the person, and use **জিজ্ঞেস করা** 'ask' or the softer **জানতে চাওয়া** 'want to know':\n\n- 'আপনার অর্ডার নম্বর কত?' → উনি জিজ্ঞেস করলেন আমার অর্ডার নম্বর **কত**\n- 'প্যাকেটটা কবে এসেছে?' → ওরা জানতে চাইল প্যাকেটটা **কবে** এসেছে\n\n**Yes/no questions** need a word for 'whether': add **কি না** after the verb at the end of the clause:\n\n- 'রসিদ এনেছেন?' → ও জিজ্ঞেস করল আমি রসিদ **এনেছি কি না** 'she asked whether I'd brought the receipt'\n\nNote how the verb follows the new subject: এনেছেন (you) → এনেছি (I).\n\n**কি না** also works after জানি না, দেখো, বলতে পারব না…: ও আসবে **কি না** জানি না 'I don't know whether he'll come'; দেখো তো দোকান খোলা **কি না** 'see if the shop is open'.\n\n**Either/or**: offer two choices with **হয় … নয় …** 'either … or …': হয় বদলে দিন, নয় টাকা ফেরত দিন.",
+      "examples": [
+        { "native": "ও জিজ্ঞেস করল আমি কোথায় থাকি।", "roman": "o jiggesh korlo ami kothay thaki.", "en": "He asked where I live." },
+        { "native": "উনি জানতে চাইলেন ফোনটা কোথায় হারিয়েছে।", "roman": "uni jante chailen phonṭa kothay hariyechhe.", "en": "She wanted to know where the phone was lost." },
+        { "native": "ওরা জিজ্ঞেস করল প্যাকেটটা খোলার ভিডিও আছে কি না।", "roman": "ora jiggesh korlo pækeṭṭa kholar bhiḍio achhe ki na.", "en": "They asked whether I had a video of opening the parcel." },
+        { "native": "জানি না ওরা টাকা ফেরত দেবে কি না।", "roman": "jani na ora ṭaka pherot debe ki na.", "en": "I don't know whether they'll give the money back." },
+        { "native": "একটু দেখুন তো আমার নামে কোনো প্যাকেট এসেছে কি না।", "roman": "ekṭu dekhun to amar name kono pækeṭ eshechhe ki na.", "en": "Could you check whether a parcel has come in my name?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The wrong parcel",
+    "setting": "Dhaka. Tania meets her friend Rafi at a café in Dhanmondi, still fuming about an online order. They use তুই.",
+    "lines": [
+      { "speaker": "Rafi", "native": "কী হলো? মুখ এমন কেন?", "roman": "ki holo? mukh æmon kæno?", "en": "What's up? Why the face?" },
+      { "speaker": "Tania", "native": "আর বলিস না! অনলাইনে একটা হেডফোন অর্ডার করেছিলাম, ওরা একটা ভাঙা স্পিকার পাঠিয়েছে।", "roman": "ar bolish na! ônlaine ækṭa heḍphon ôrḍar korechhilam, ora ækṭa bhaṅa spikar paṭhiyechhe.", "en": "Don't even ask! I ordered headphones online and they sent a broken speaker." },
+      { "speaker": "Rafi", "native": "কাস্টমার কেয়ারে ফোন করিসনি?", "roman": "kasṭomar keyare phon korishni?", "en": "Didn't you call customer service?" },
+      { "speaker": "Tania", "native": "করেছিলাম তো! প্রথমে একজন আমাকে আধ ঘণ্টা পরে আবার ফোন করতে বলল।", "roman": "korechhilam to! prôthome ækjon amake adh ghônṭa pôre abar phon korte bollo.", "en": "Of course I did! First someone told me to call back in half an hour." },
+      { "speaker": "Rafi", "native": "তারপর?", "roman": "tarpôr?", "en": "And then?" },
+      { "speaker": "Tania", "native": "আবার করলাম। এবার আরেকজন জিজ্ঞেস করল প্যাকেট খোলার সময় আমি ভিডিও করেছি কি না।", "roman": "abar korlam. ebar arekjon jiggesh korlo pækeṭ kholar shômoy ami bhiḍio korechhi ki na.", "en": "I called again. This time someone else asked whether I'd filmed myself opening the parcel." },
+      { "speaker": "Rafi", "native": "ভিডিও? কেন?", "roman": "bhiḍio? kæno?", "en": "A video? Why?" },
+      { "speaker": "Tania", "native": "ওরা নাকি প্রমাণ ছাড়া রিফান্ড দেয় না। আমি বললাম আমার কাছে ছবি আর স্ক্রিনশট আছে।", "roman": "ora naki prôman chhaṛa riphanḍ dey na. ami bollam amar kachhe chhobi ar skrinshôṭ achhe.", "en": "Apparently they don't refund without proof. I said I had photos and screenshots." },
+      { "speaker": "Rafi", "native": "ভালো করেছিস। তারপর কী বলল?", "roman": "bhalo korechhish. tarpôr ki bollo?", "en": "Good for you. What did they say then?" },
+      { "speaker": "Tania", "native": "বলল ম্যানেজার চব্বিশ ঘণ্টার মধ্যে জানাবে। আর উল্টো আমাকেই মাথা ঠান্ডা রাখতে বলল!", "roman": "bollo mænejar chobbish ghônṭar moddhe janabe. ar ulṭo amakei matha ṭhanḍa rakhte bollo!", "en": "They said the manager would get back to me within 24 hours. And on top of that they told ME to keep calm!" },
+      { "speaker": "Rafi", "native": "হা হা! চেঁচাসনি তো?", "roman": "ha ha! cheṃchashni to?", "en": "Ha ha! You didn't shout, did you?" },
+      { "speaker": "Tania", "native": "একটু… কিন্তু শেষে ভদ্রভাবেই বললাম, হয় বদলে দিন, নয় পুরো টাকা ফেরত দিন।", "roman": "ekṭu… kintu sheshe bhôdrobhabei bollam, hôy bôdle din, nôy puro ṭaka pherot din.", "en": "A bit… but in the end I said, politely: either exchange it, or give me a full refund." },
+      { "speaker": "Rafi", "native": "ঠিক আছে। কাল না জানালে আমাকে বলিস, আমার এক বন্ধু ওখানে কাজ করে।", "roman": "ṭhik achhe. kal na janale amake bolish, amar æk bondhu okhane kaj kôre.", "en": "OK. If they don't get back to you tomorrow, tell me – a friend of mine works there." },
+      { "speaker": "Tania", "native": "সত্যি? আগে বলিসনি কেন!", "roman": "shotti? age bolishni kæno!", "en": "Seriously? Why didn't you say so before!" }
+    ]
+  },
+  "culture": "**Polite but firm wins.** Shouting (চেঁচানো) usually makes staff dig in; what works in both Bengals is a calm, respectful tone (ভাই / আপু in Bangladesh, দাদা / দিদি in West Bengal, or স্যার / ম্যাডাম on the phone), a clear demand (**হয় … নয় …**), and asking for the ম্যানেজার if nothing moves. Phrases like **আমি ঝামেলা চাই না** signal that you are reasonable; **কথা দিয়েছিলেন** reminds them of a promise.\n\n**Online orders.** In Bangladesh many people pay **ক্যাশ অন ডেলিভারি** and open the parcel in front of the delivery person, or film the unboxing, because sellers often ask for proof before a refund. Complaints that get nowhere often end up on the shop's Facebook page, and Bangladesh has a consumer-rights directorate (ভোক্তা অধিকার) that people do use.\n\n**Lost phone.** In Bangladesh you file a **জিডি** (General Diary) at the local থানা or online; in West Bengal a lost-item report is a **ডায়েরি** (missing diary), also possible online. You'll need the IMEI number from the phone's box, so keep it. Police and officials expect **আপনি** and a calm account of what happened; reporting what others told you (ও বলল…, আমাকে … বলল) is exactly what you'll be doing.",
+  "lessons": [
+    {
+      "title": "Saying what went wrong with an order",
+      "tip": { "title": "Wrong, broken, missing", "body": "- Wrong item / size: **ভুল** + noun, or ভুল **এসেছে** 'came wrong'.\n- Missing: দুটো **কম এসেছে** 'two short'.\n- Broken on arrival: **ভাঙা ছিল**.\n- What you want: **বদলে দেওয়া** (exchange) or **টাকা ফেরত / রিফান্ড**." },
+      "new": ["অর্ডার", "প্যাকেট", "বদলে দেওয়া", "রিফান্ড", "ক্ষতি", "গ্যারান্টি", "আমি এটা অর্ডার করিনি।", "এটা বদলে দেওয়া যাবে?", "আমার পুরো টাকা ফেরত চাই।", "প্যাকেটটা খোলাই ছিল।"],
+      "sentences": [
+        { "native": "আমি নীল জামা অর্ডার করেছিলাম, এটা লাল।", "roman": "ami nil jama ôrḍar korechhilam, æṭa lal.", "en": "I ordered a blue shirt, this one is red.", "focus": "করেছিলাম", "wrong": ["করব|korbo", "করছি|korchhi"] },
+        { "native": "জুতোর মাপটা ভুল এসেছে।", "roman": "jutor mapṭa bhul eshechhe.", "en": "The shoes came in the wrong size.", "focus": "ভুল", "wrong": ["ঠিক|ṭhik", "ভালো|bhalo"] },
+        { "native": "প্যাকেটের ভেতরে গ্লাসটা ভাঙা ছিল।", "roman": "pækeṭer bhetore glashṭa bhaṅa chhilo.", "en": "The glass inside the packet was broken.", "focus": "ভাঙা", "wrong": ["ভাঙে|bhaṅe", "ভাঙব|bhaṅbo"] },
+        { "native": "অর্ডারে দুটো বই কম এসেছে।", "roman": "ôrḍare duṭo boi kôm eshechhe.", "en": "The order came two books short.", "focus": "কম", "wrong": ["বেশ|besh", "খুব|khub"] },
+        { "native": "এটা বদলে দিতে পারবেন?", "roman": "æṭa bôdle dite parben?", "en": "Could you exchange this?", "focus": "দিতে", "wrong": ["দেবে|debe", "দিয়ে|diye"] },
+        { "native": "বদলে না দিলে রিফান্ড চাই।", "roman": "bôdle na dile riphanḍ chai.", "en": "If you won't exchange it, I want a refund." },
+        { "native": "রিফান্ড কত দিনে পাব?", "roman": "riphanḍ kôto dine pabo?", "en": "How many days until I get the refund?" },
+        { "native": "ভুলটা আপনাদের, ক্ষতিটা আমার।", "roman": "bhulṭa apnader, khôtiṭa amar.", "en": "The mistake is yours, the loss is mine." },
+        { "native": "ফোনটার এক বছরের গ্যারান্টি আছে।", "roman": "phonṭar æk bôchhorer gæranṭi achhe.", "en": "The phone has a one-year warranty." },
+        { "native": "গ্যারান্টি থাকলে সারাতে টাকা লাগবে না।", "roman": "gæranṭi thakle sharate ṭaka lagbe na.", "en": "If it's under warranty, the repair won't cost anything." }
+      ]
+    },
+    {
+      "title": "Passing on what they told you",
+      "tip": { "title": "He said he would… : the tense stays", "body": "- Keep the speaker's tense: 'I'll come' → ও বলল ও **আসবে**.\n- Change the person and the verb ending: shop said 'I'll exchange it' → দোকানদার বলল বদলে **দেবে** (not দেব).\n- Natural order: ও কাল আসবে **বলল**.\n- Heard it, not sure: **নাকি**.", "pattern": "X বলল (যে) + original sentence with new pronouns", "grammar": 0 },
+      "new": ["কাস্টমার কেয়ার", "কথা দেওয়া", "দাবি", "ওরা বলল দুই দিনের মধ্যে টাকা ফেরত দেবে।", "আপনি তো বলেছিলেন আজ হয়ে যাবে!"],
+      "sentences": [
+        { "native": "দোকানদার বলল যে জুতোটা বদলে দেবে।", "roman": "dokandar bollo je jutoṭa bôdle debe.", "en": "The shopkeeper said he'd exchange the shoes.", "focus": "দেবে", "wrong": ["দেব|debo", "দিই|dii"] },
+        { "native": "কাস্টমার কেয়ার বলল ওরা আমাকে কাল ফোন করবে।", "roman": "kasṭomar keyar bollo ora amake kal phon korbe.", "en": "Customer service said they'd call me tomorrow.", "focus": "করবে", "wrong": ["করব|korbo", "করবি|korbi"] },
+        { "native": "ও বলল ও খুব ব্যস্ত, পরে ফোন করবে।", "roman": "o bollo o khub bæsto, pôre phon korbe.", "en": "She said she was really busy and would call later.", "focus": "করবে", "wrong": ["করব|korbo", "করবেন|korben"] },
+        { "native": "আমি বললাম যে আমি পুরো টাকা ফেরত চাই।", "roman": "ami bollam je ami puro ṭaka pherot chai.", "en": "I said that I wanted a full refund.", "focus": "চাই", "wrong": ["চায়|chay", "চান|chan"] },
+        { "native": "ওরা কাল আসবে বলেছে, দেখা যাক।", "roman": "ora kal ashbe bolechhe, dækha jak.", "en": "They've said they'll come tomorrow; we'll see.", "focus": "বলেছে", "wrong": ["বলেছি|bolechhi", "বলছি|bolchhi"] },
+        { "native": "ওরা নাকি শুধু কার্ডে রিফান্ড দেয়।", "roman": "ora naki shudhu karḍe riphanḍ dey.", "en": "Apparently they only refund to your card.", "focus": "নাকি", "wrong": ["কি|ki", "তো|to"] },
+        { "native": "ও কথা দিয়েছিল যে আজ টাকা দিয়ে দেবে।", "roman": "o kôtha diyechhilo je aj ṭaka diye debe.", "en": "He'd promised he would pay today.", "focus": "দেবে", "wrong": ["দেব|debo", "দিলাম|dilam"] },
+        { "native": "আপনারা বলেছিলেন এক সপ্তাহের মধ্যে রিফান্ড হবে।", "roman": "apnara bolechhilen æk shôptaher moddhe riphanḍ hobe.", "en": "You said the refund would come through within a week.", "focus": "বলেছিলেন", "wrong": ["বলেছিলাম|bolechhilam", "বলবেন|bolben"] },
+        { "native": "আমার দাবি একটাই: হয় বদলে দিন, নয় টাকা ফেরত দিন।", "roman": "amar dabi ækṭai: hôy bôdle din, nôy ṭaka pherot din.", "en": "I want just one thing: either exchange it or refund me." },
+        { "native": "কাস্টমার কেয়ারে ফোন করলে কেউ ধরে না।", "roman": "kasṭomar keyare phon korle keu dhôre na.", "en": "When you call customer service, nobody picks up." }
+      ]
+    },
+    {
+      "title": "They told me to wait",
+      "tip": { "title": "Told me to… : -তে + বলা", "body": "- Instruction → infinitive **-তে** + **বলা**: আমাকে অপেক্ষা **করতে বলল**.\n- The person told takes **-কে**: ও**কে** বলো আমাকে ফোন করতে.\n- Told not to: **-তে বারণ করা** (Bangladesh: **মানা করা**).\n- Not the future: ✗ অপেক্ষা করবে বলল = 'he said *he'd* wait'.", "pattern": "(X-কে) + verb-তে + বলা / বারণ করা", "grammar": 1 },
+      "new": ["বারণ করা", "ধৈর্য", "মাথা ঠান্ডা রাখা", "আমাকে অপেক্ষা করতে বলল।", "আপনার ম্যানেজারের সঙ্গে কথা বলতে চাই।"],
+      "sentences": [
+        { "native": "আমাকে আধ ঘণ্টা পরে আবার ফোন করতে বলল।", "roman": "amake adh ghônṭa pôre abar phon korte bollo.", "en": "They told me to call again in half an hour.", "focus": "করতে", "wrong": ["করবে|korbe", "করে|kore"] },
+        { "native": "ম্যানেজার আমাকে একটা ফর্ম পূরণ করতে বললেন।", "roman": "mænejar amake ækṭa phôrm purôn korte bollen.", "en": "The manager asked me to fill in a form.", "focus": "করতে", "wrong": ["করব|korbo", "করলাম|korlam"] },
+        { "native": "ডাক্তার ওকে ঝাল খেতে বারণ করেছেন।", "roman": "ḍaktar oke jhal khete baron korechhen.", "en": "The doctor has told him not to eat spicy food.", "focus": "খেতে", "wrong": ["খাবে|khabe", "খেয়ে|kheye"] },
+        { "native": "ওরা আমাকে ধৈর্য ধরতে বলল!", "roman": "ora amake dhoirjo dhorte bollo!", "en": "They told me to be patient!", "focus": "ধরতে", "wrong": ["ধরবে|dhorbe", "ধরে|dhore"] },
+        { "native": "আমাকে মাথা ঠান্ডা রাখতে বলবেন না!", "roman": "amake matha ṭhanḍa rakhte bolben na!", "en": "Don't tell me to keep calm!", "focus": "রাখতে", "wrong": ["রাখবেন|rakhben", "রাখুন|rakhun"] },
+        { "native": "ওকে বলো আমাকে একবার ফোন করতে।", "roman": "oke bôlo amake ækbar phon korte.", "en": "Tell him to give me a call.", "focus": "ওকে", "wrong": ["ওর|or", "ও|o"] },
+        { "native": "দারোয়ান আমাদের গাড়ি রাখতে বারণ করল।", "roman": "daroyan amader gaṛi rakhte baron korlo.", "en": "The guard told us not to park here.", "focus": "রাখতে", "wrong": ["রাখবে|rakhbe", "রাখো|rakho"] },
+        { "native": "আমাকে বলা হয়েছে কাল আবার আসতে।", "roman": "amake bôla hoyechhe kal abar ashte.", "en": "I've been told to come again tomorrow.", "focus": "আসতে", "wrong": ["আসব|ashbo", "আসুন|ashun"] },
+        { "native": "মাথা ঠান্ডা রাখো, চেঁচিয়ে কিছু হবে না।", "roman": "matha ṭhanḍa rakho, cheṃchiye kichhu hobe na.", "en": "Keep calm, shouting won't get you anywhere." },
+        { "native": "একটু ধৈর্য ধরুন, আমি দেখছি।", "roman": "ekṭu dhoirjo dhorun, ami dekhchhi.", "en": "Please be patient a moment, I'm looking into it." }
+      ]
+    },
+    {
+      "title": "They asked whether…",
+      "tip": { "title": "Asked whether… : কি না", "body": "- Question-word questions: keep the word: জিজ্ঞেস করল আমি **কোথায়** থাকি.\n- Yes/no → add **কি না** at the end: জিজ্ঞেস করল আমি রসিদ এনেছি **কি না**.\n- The verb follows the new subject: এনেছেন (you) → এনে**ছি** (I).\n- Softer than জিজ্ঞেস করা: **জানতে চাওয়া**.", "pattern": "জিজ্ঞেস করল + … + verb + কি না", "grammar": 2 },
+      "new": ["জানতে চাওয়া", "কি না", "প্রমাণ", "চেক করা"],
+      "sentences": [
+        { "native": "ও জিজ্ঞেস করল আমি রসিদটা এনেছি কি না।", "roman": "o jiggesh korlo ami roshidṭa enechhi ki na.", "en": "She asked whether I'd brought the receipt.", "focus": "এনেছি", "wrong": ["এনেছ|enechho", "এনেছে|enechhe"] },
+        { "native": "ওরা জানতে চাইল প্যাকেটটা কবে এসেছে।", "roman": "ora jante chailo pækeṭṭa kôbe eshechhe.", "en": "They wanted to know when the parcel arrived.", "focus": "চাইল", "wrong": ["চাই|chai", "চাইলাম|chailam"] },
+        { "native": "আমি জানতে চাই আমার টাকা কবে ফেরত পাব।", "roman": "ami jante chai amar ṭaka kôbe pherot pabo.", "en": "I'd like to know when I'll get my money back.", "focus": "পাব", "wrong": ["পাবে|pabe", "পান|pan"] },
+        { "native": "জানি না ও আজ আসবে কি না।", "roman": "jani na o aj ashbe ki na.", "en": "I don't know whether he'll come today.", "focus": "কি", "wrong": ["কোন|kon", "কত|kôto"] },
+        { "native": "উনি জিজ্ঞেস করলেন আমার কাছে কোনো প্রমাণ আছে কি না।", "roman": "uni jiggesh korlen amar kachhe kono prôman achhe ki na.", "en": "He asked whether I had any proof.", "focus": "আছে", "wrong": ["আছি|achhi", "আছেন|achhen"] },
+        { "native": "ওদের জিজ্ঞেস করো দোকানটা কটা পর্যন্ত খোলা থাকে।", "roman": "oder jiggesh kôro dokanṭa kôṭa pôrjonto khola thake.", "en": "Ask them until what time the shop stays open.", "focus": "জিজ্ঞেস", "wrong": ["বারণ|baron", "দাবি|dabi"] },
+        { "native": "একটু চেক করে দেখুন তো আমার অর্ডারটা পাঠানো হয়েছে কি না।", "roman": "ekṭu chek kore dekhun to amar ôrḍarṭa paṭhano hoyechhe ki na.", "en": "Could you check whether my order has been sent?", "focus": "না", "wrong": ["নেই|nei", "নয়|nôy"] },
+        { "native": "প্রমাণ ছাড়া ওরা কিছু করবে না।", "roman": "prôman chhaṛa ora kichhu korbe na.", "en": "They won't do anything without proof." },
+        { "native": "এটা কেমন নিয়ম? খোলা প্যাকেট ফেরত হয় না?", "roman": "æṭa kæmon niyom? khola pækeṭ pherot hôy na?", "en": "What kind of rule is that? You can't return an opened packet?" },
+        { "native": "দুঃখিত, এটা আমাদের নিয়ম।", "roman": "dukkhito, æṭa amader niyom.", "en": "Sorry, it's our policy." }
+      ]
+    },
+    {
+      "title": "A lost phone and the police",
+      "tip": { "title": "Reporting a loss", "body": "- Lost by accident: ফোনটা **পড়ে গেছে / হারিয়ে গেছে**. Stolen: **চুরি হয়ে গেছে**.\n- Report it: **জিডি করা** (Bangladesh), **ডায়েরি করা** (West Bengal).\n- Find: **খুঁজে পাওয়া**; look for: **খোঁজা**.\n- Use **আপনি** with the police and tell it in order: তারপর…, তখন…" },
+      "new": ["জিডি", "খুঁজে পাওয়া", "ব্যবস্থা", "আমার ফোনটা কোথাও পড়ে গেছে।", "একটা জিডি করতে চাই।", "এটা কার দায়িত্ব?"],
+      "sentences": [
+        { "native": "রিকশায় ফোনটা পড়ে গেছে মনে হয়।", "roman": "rikshay phonṭa pôṛe gechhe mone hôy.", "en": "I think the phone fell out in the rickshaw." },
+        { "native": "থানায় গিয়ে একটা জিডি করতে হবে।", "roman": "thanay giye ækṭa jiḍi korte hobe.", "en": "We'll have to go to the police station and file a report." },
+        { "native": "পুলিশ বলল ফোনটা খুঁজে পেলে জানাবে।", "roman": "pulish bollo phonṭa khuṃje pele janabe.", "en": "The police said they'd let me know if they found the phone.", "focus": "জানাবে", "wrong": ["জানাব|janabo", "জানাতাম|janatam"] },
+        { "native": "পুলিশ আমাকে ফোনের বক্সটা আনতে বলল।", "roman": "pulish amake phoner bôksṭa ante bollo.", "en": "The police told me to bring the phone box.", "focus": "আনতে", "wrong": ["আনবে|anbe", "এনে|ene"] },
+        { "native": "কেউ খুঁজে পেলে এই নম্বরে ফোন করবেন, প্লিজ।", "roman": "keu khuṃje pele ei nômbore phon korben, pliz.", "en": "If anyone finds it, please call this number." },
+        { "native": "বিশ্বাস করুন, আমি মিথ্যে বলছি না।", "roman": "bishshash korun, ami mitthe bolchhi na.", "en": "Believe me, I'm not lying." },
+        { "native": "ওরা বলল ওরা ব্যবস্থা নেবে।", "roman": "ora bollo ora bæbostha nebe.", "en": "They said they'd take action.", "focus": "নেবে", "wrong": ["নেব|nebo", "নিলাম|nilam"] },
+        { "native": "উনি জিজ্ঞেস করলেন ফোনটা কখন শেষবার দেখেছি।", "roman": "uni jiggesh korlen phonṭa kôkhon sheshbar dekhechhi.", "en": "He asked when I last saw the phone.", "focus": "দেখেছি", "wrong": ["দেখেছেন|dekhechhen", "দেখেছ|dekhechho"] },
+        { "native": "ভাগ্যিস একজন ফোনটা খুঁজে পেয়ে ফেরত দিয়েছে!", "roman": "bhaggish ækjon phonṭa khuṃje peye pherot diyechhe!", "en": "Thank goodness someone found the phone and gave it back!" }
+      ]
+    },
+    {
+      "title": "Staying calm and getting it sorted",
+      "tip": { "title": "Firm but polite", "body": "- Don't shout: **চেঁচাবেন না**, be firm: **আমার দাবি…**\n- Offer a way out: **হয় … নয় …** 'either … or …'.\n- Remind them: আপনি তো **কথা দিয়েছিলেন**!\n- Signal goodwill: **আমি ঝামেলা চাই না**, **ভদ্রভাবে** বলছি." },
+      "new": ["চেঁচানো", "ভদ্রভাবে", "সমাধান", "ঠকানো", "ক্ষতিপূরণ", "আমি ঝামেলা চাই না, শুধু সমাধান চাই।", "একটু শান্ত হয়ে কথা বলি।", "আমাকে ঠকানো হয়েছে।"],
+      "sentences": [
+        { "native": "চেঁচাবেন না, ভদ্রভাবে কথা বলুন।", "roman": "cheṃchaben na, bhôdrobhabe kôtha bolun.", "en": "Don't shout, speak politely." },
+        { "native": "আমি ঝামেলা করতে আসিনি।", "roman": "ami jhamela korte ashini.", "en": "I haven't come to make trouble." },
+        { "native": "চলুন, একটা সমাধান খুঁজি।", "roman": "cholun, ækṭa shômadhan khuṃji.", "en": "Come on, let's find a solution." },
+        { "native": "দোকানদার আমাকে ঠকিয়েছে।", "roman": "dokandar amake ṭhôkiyechhe.", "en": "The shopkeeper has ripped me off." },
+        { "native": "আমার ক্ষতিপূরণ কে দেবে?", "roman": "amar khôtipuron ke debe?", "en": "Who is going to compensate me?" },
+        { "native": "ম্যানেজার বললেন অর্ধেক টাকা ফেরত দেবেন।", "roman": "mænejar bollen ôrdhek ṭaka pherot deben.", "en": "The manager said he'd refund half the money.", "focus": "দেবেন", "wrong": ["দেব|debo", "দিলাম|dilam"] },
+        { "native": "ভুল ওদের, উল্টো আমাকেই দোষ দিচ্ছে!", "roman": "bhul oder, ulṭo amakei dosh dichchhe!", "en": "It's their mistake, and they're blaming me instead!" },
+        { "native": "আমি এখনও ভদ্রভাবে কথা বলছি।", "roman": "ami ækhono bhôdrobhabe kôtha bolchhi.", "en": "I'm still speaking politely." },
+        { "native": "ও বলল ও আর কখনও চেঁচাবে না।", "roman": "o bollo o ar kôkhono cheṃchabe na.", "en": "He said he'd never shout again.", "focus": "চেঁচাবে", "wrong": ["চেঁচাব|cheṃchabo", "চেঁচালাম|cheṃchalam"] },
+        { "native": "যাক, ঝামেলাটা শেষ হলো।", "roman": "jak, jhamelaṭa shesh holo.", "en": "Well, that's that sorted." }
+      ]
+    }
+  ]
+}

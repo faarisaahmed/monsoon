@@ -1,0 +1,187 @@
+{
+  "id": 34,
+  "title": "Phones, apps & payments",
+  "goal": "Sort out a slow connection or a frozen phone, log in safely, pay by bKash or UPI, order online and talk about social media.",
+  "intro": "Nobody in Dhaka or Kolkata says 'electronic payment': they say **বিকাশ করে দাও** or **জিপে করে দিচ্ছি**. Tech talk in Bengali is English words with Bengali grammar wrapped round them: **অ্যাপটা ডাউনলোড করো**, **পেমেন্ট হয়নি**, **ভিডিওটা ভাইরাল হয়ে গেছে**.\n\nThis unit teaches you how to turn any English word into a Bengali verb with **করা**, **হওয়া** or **দেওয়া** (and how to choose), and how to use the conditional forms **-লে**, **-লেই** and **-লেও** for the situations phones throw at you: *if the OTP doesn't come*, *as soon as you log in*, *even with the right password*.",
+  "vocab": [
+    { "native": "নেট", "roman": "neṭ", "en": "internet, data connection (colloquial)", "pos": "noun", "note": "নেট আসছে না \"the internet isn't working\" (lit. isn't coming) · নেট নেই \"no internet\"." },
+    { "native": "অ্যাপ", "roman": "æp", "en": "app", "pos": "noun" },
+    { "native": "হ্যাং করা", "roman": "hæṅ kôra", "en": "(of a phone, app) to freeze, hang", "pos": "verb", "note": "Intransitive despite করা: ফোনটা হ্যাং করছে \"my phone keeps freezing\". Also হ্যাং হয়ে যাওয়া \"to suddenly freeze\"." },
+    { "native": "লোড হওয়া", "roman": "loḍ hôwa", "en": "to load", "pos": "verb", "note": "পেজটা লোড হচ্ছে না \"the page won't load\"." },
+    { "native": "স্লো", "roman": "slo", "en": "slow (internet, phone)", "pos": "adj", "note": "For tech, স্লো beats the Bengali ধীর. নেট খুব স্লো \"the internet is really slow\"." },
+    { "native": "আপডেট করা", "roman": "apḍeṭ kôra", "en": "to update", "pos": "verb", "note": "ফোনটা আপডেট করো \"update your phone\" · আপডেট হচ্ছে \"it's updating\"." },
+    { "native": "ডাউনলোড করা", "roman": "ḍaunloḍ kôra", "en": "to download", "pos": "verb", "note": "Intransitive: ডাউনলোড হওয়া \"to be downloading / downloaded\"." },
+    { "native": "পাসওয়ার্ড", "roman": "pasoarḍ", "en": "password", "pos": "noun", "note": "পাসওয়ার্ড দেওয়া \"to enter a password\"." },
+    { "native": "ওটিপি", "roman": "oṭipi", "en": "OTP, one-time code", "pos": "noun", "note": "Banks and apps send one by SMS. Never share it: most phone scams in both countries end with \"ওটিপিটা বলুন\"." },
+    { "native": "লগইন করা", "roman": "lôgin kôra", "en": "to log in", "pos": "verb", "note": "Also লগ ইন. লগআউট করা \"to log out\"." },
+    { "native": "হ্যাক", "roman": "hæk", "en": "hacked; a hack", "pos": "adj", "note": "অ্যাকাউন্ট হ্যাক হয়ে গেছে \"my account's been hacked\"." },
+    { "native": "লিংক", "roman": "liṅk", "en": "link", "pos": "noun", "note": "লিংকটা পাঠাও \"send the link\". Also spelled লিঙ্ক." },
+    { "native": "পেমেন্ট", "roman": "pemenṭ", "en": "payment", "pos": "noun", "note": "পেমেন্ট করা \"to pay\" · পেমেন্ট হওয়া \"(a payment) to go through\"." },
+    { "native": "বিকাশ", "roman": "bikash", "en": "bKash (Bangladesh's main mobile-money app)", "pos": "noun", "note": "Used as a verb: বিকাশ করা \"to send money by bKash\". Rivals: নগদ, রকেট." },
+    { "native": "ইউপিআই", "roman": "iupiai", "en": "UPI (India's instant phone payments)", "pos": "noun", "note": "ইউপিআই করা \"to pay by UPI\". People also name the app: জিপে / ফোনপে করে দিচ্ছি." },
+    { "native": "কিউআর কোড", "roman": "kiuar koḍ", "en": "QR code", "pos": "noun", "note": "Even tea stalls and rickshaw-vans have one now." },
+    { "native": "স্ক্যান করা", "roman": "skæn kôra", "en": "to scan", "pos": "verb" },
+    { "native": "ব্যালান্স", "roman": "bælæns", "en": "(account, phone) balance", "pos": "noun", "note": "ব্যালান্স শেষ \"no balance left\"." },
+    { "native": "অনলাইন", "roman": "ônlain", "en": "online", "pos": "adj", "note": "অনলাইনে কেনা \"to buy online\"." },
+    { "native": "ডেলিভারি", "roman": "ḍelibhari", "en": "delivery", "pos": "noun", "note": "ডেলিভারির লোক / রাইডার \"delivery person\"." },
+    { "native": "ট্র্যাক করা", "roman": "ṭræk kôra", "en": "to track (an order, a ride)", "pos": "verb" },
+    { "native": "ডিসকাউন্ট", "roman": "ḍiskaunṭ", "en": "discount", "pos": "noun", "note": "Also অফ: বিশ পার্সেন্ট অফ \"20% off\"." },
+    { "native": "ফেসবুক", "roman": "phesbuk", "en": "Facebook", "pos": "noun", "note": "Still the main social network in Bangladesh, where many small shops sell through Facebook pages." },
+    { "native": "পোস্ট", "roman": "posṭ", "en": "(social media) post", "pos": "noun", "note": "পোস্ট দেওয়া \"to post (something)\". Also পোস্ট করা." },
+    { "native": "লাইক", "roman": "laik", "en": "like (on social media)", "pos": "noun", "note": "লাইক দেওয়া \"to like\"." },
+    { "native": "কমেন্ট", "roman": "kômenṭ", "en": "comment", "pos": "noun", "note": "কমেন্ট করা / দেওয়া \"to comment\"." },
+    { "native": "শেয়ার করা", "roman": "sheyar kôra", "en": "to share", "pos": "verb" },
+    { "native": "ফলো করা", "roman": "phôlo kôra", "en": "to follow (on social media)", "pos": "verb" },
+    { "native": "রিল", "roman": "ril", "en": "reel, short video", "pos": "noun" },
+    { "native": "ভাইরাল", "roman": "bhairal", "en": "viral", "pos": "adj", "note": "ভাইরাল হওয়া \"to go viral\"." }
+  ],
+  "phrases": [
+    { "native": "নেট আসছে না।", "roman": "neṭ ashchhe na.", "en": "The internet's not working." },
+    { "native": "ফোনটা খুব হ্যাং করছে।", "roman": "phonṭa khub hæṅ korchhe.", "en": "My phone keeps freezing." },
+    { "native": "ওয়াই-ফাইয়ের পাসওয়ার্ড কী?", "roman": "wai-phaiyer pasoarḍ ki?", "en": "What's the Wi-Fi password?" },
+    { "native": "অ্যাপটা ডাউনলোড করে নাও।", "roman": "æpṭa ḍaunloḍ kore nao.", "en": "Download the app." },
+    { "native": "ওটিপি কাউকে বলবেন না।", "roman": "oṭipi kauke bolben na.", "en": "Never tell anyone your OTP." },
+    { "native": "আমার অ্যাকাউন্ট হ্যাক হয়ে গেছে।", "roman": "amar ækaunṭ hæk hoye gechhe.", "en": "My account's been hacked." },
+    { "native": "বিকাশ করে দিচ্ছি।", "roman": "bikash kore dichchhi.", "en": "I'll send it by bKash. (Bangladesh)" },
+    { "native": "ইউপিআই করে দিই?", "roman": "iupiai kore dii?", "en": "Shall I pay you by UPI? (India)" },
+    { "native": "কিউআর কোডটা স্ক্যান করুন।", "roman": "kiuar koḍṭa skæn korun.", "en": "Scan the QR code." },
+    { "native": "পেমেন্ট হয়নি, আবার চেষ্টা করছি।", "roman": "pemenṭ hoyni, abar cheshṭa korchhi.", "en": "The payment didn't go through, I'm trying again." },
+    { "native": "ডেলিভারি কখন আসবে?", "roman": "ḍelibhari kôkhon ashbe?", "en": "When's the delivery coming?" },
+    { "native": "ক্যাশ অন ডেলিভারি আছে?", "roman": "kæsh on ḍelibhari achhe?", "en": "Can I pay cash on delivery?" },
+    { "native": "টাকা কেটে নিয়েছে, কিন্তু অর্ডার হয়নি।", "roman": "ṭaka keṭe niyechhe, kintu ôrḍar hoyni.", "en": "The money's been taken, but the order didn't go through." },
+    { "native": "লিংকটা পাঠিয়ে দে।", "roman": "liṅkṭa paṭhiye de.", "en": "Send me the link. (to a তুই friend)" },
+    { "native": "ফেসবুকে পোস্ট দিয়েছি, দেখেছিস?", "roman": "phesbuke posṭ diyechhi, dekhechhish?", "en": "I've posted on Facebook, have you seen it?" },
+    { "native": "ভিডিওটা ভাইরাল হয়ে গেছে!", "roman": "bhiḍioṭa bhairal hoye gechhe!", "en": "The video's gone viral!" }
+  ],
+  "grammar": [
+    {
+      "title": "English words, Bengali grammar: loanword + করা / হওয়া / দেওয়া",
+      "body": "Tech talk in Bengali is mostly English nouns with a Bengali verb doing the grammar. The English word never changes; tense, person and negation all go on the Bengali verb.\n\n**করা** when someone *does* it: আমি অ্যাপটা ডাউনলোড **করেছি**, ফোনটা আপডেট **করো**, কোডটা স্ক্যান **করুন**, তুই আমাকে ফলো **করিস**?\n**হওয়া** when it *happens* by itself, often like a passive: অ্যাপটা ডাউনলোড **হচ্ছে** 'is downloading', পেমেন্ট **হয়নি** 'didn't go through', অ্যাকাউন্ট হ্যাক **হয়ে গেছে**, ভিডিওটা ভাইরাল **হয়েছে**, পেজটা লোড **হচ্ছে না**.\n**দেওয়া** for things you 'give' or put out: লাইক **দেওয়া**, পোস্ট **দেওয়া**, স্টার **দেওয়া**. Some take either: কমেন্ট **করা / দেওয়া**.\n\nAdd the helper verbs you already know: ডাউনলোড **করে নাও** (for yourself), শেয়ার **করে দাও** (for someone, or 'go ahead and…'), হ্যাং **হয়ে গেল** (suddenly).\n\nThis is how new verbs keep entering the language (স্ক্রল করা, ব্লক করা, মিউট করা), so English verb + করা will almost always be understood. A few tech expressions are purely Bengali: নেট **আসছে না** 'the internet isn't working', টাকা **কেটে নেওয়া** 'to deduct money', ফোন **বাজছে** 'the phone's ringing'.\n\n**The trap:** choose by asking 'did someone do it, or did it happen?'. আমি পেমেন্ট **করেছি** 'I've paid' but পেমেন্ট **হয়েছে** 'the payment has gone through'; ও পেমেন্ট **করেনি** means 'he didn't pay', which may be unfair to him if the app failed! Phones are the odd one out: ফোনটা হ্যাং **করছে** and হ্যাং **হয়ে গেছে** are both used for 'freezing'.",
+      "examples": [
+        { "native": "আমি অ্যাপটা ডাউনলোড করেছি।", "roman": "ami æpṭa ḍaunloḍ korechhi.", "en": "I've downloaded the app." },
+        { "native": "অ্যাপটা ডাউনলোড হচ্ছে।", "roman": "æpṭa ḍaunloḍ hochchhe.", "en": "The app is downloading." },
+        { "native": "পেমেন্টটা এখনও হয়নি।", "roman": "pemenṭṭa ækhono hoyni.", "en": "The payment still hasn't gone through." },
+        { "native": "ওর ছবিতে একটা লাইক দিয়ে দাও।", "roman": "or chhobite ækṭa laik diye dao.", "en": "Give her photo a like." },
+        { "native": "ফোনটা হঠাৎ হ্যাং হয়ে গেল।", "roman": "phonṭa hôṭhat hæṅ hoye gælo.", "en": "The phone suddenly froze." }
+      ]
+    },
+    {
+      "title": "Real conditionals in practice: -লে, -লেই, -লেও",
+      "body": "You met **যদি** and the **-লে** form in unit 19. In everyday tech, shopping and money talk they come in four flavours. All the -লে forms are made from the verb stem and have **no person ending**: করলে, দিলে, হলে, গেলে, এলে (আসা), পেলে (পাওয়া), থাকলে.\n\n**-লে** 'if, when': ওটিপি না **এলে** আবার চেষ্টা করুন 'if the OTP doesn't come, try again'. With **না** in front it means 'unless, if … not'.\n\n**-লেই** 'as soon as, the moment, every time' (-লে + emphatic ই): লগইন কর**লেই** ওটিপি আসবে 'as soon as you log in, an OTP will come'; ফেসবুক খুল**লেই** সময় চলে যায় 'the moment I open Facebook, time disappears'.\n\n**-লেও** 'even if, even though' (-লে + ও 'also'): ঠিক পাসওয়ার্ড দি**লেও** খুলছে না 'even with the right password it won't open'; দাম বেশি **হলেও** কিনব 'I'll buy it even if it's expensive'.\n\n**যদি** + present + (**তাহলে**) + future or command, when you want the condition to stand out: **যদি** টাকা না **আসে**, **তাহলে** আমাকে জানাবেন.\n\n'What if…?' is **-লে কী হবে?**: নেট না থাকলে কী হবে?\n\n**The trap:** after **যদি**, use the **present**, never the future: ~~যদি নেট আসবে~~ → যদি নেট **আসে**. And -ই / -ও attach to the -লে form, not to anything else: কর**লেই**, কর**লেও**.",
+      "examples": [
+        { "native": "নেট না থাকলে কী হবে?", "roman": "neṭ na thakle ki hobe?", "en": "What if there's no internet?" },
+        { "native": "দাম বেশি হলেও আমি এটাই কিনব।", "roman": "dam beshi holeo ami æṭai kinbo.", "en": "Even if it's pricey, this is the one I'm buying." },
+        { "native": "পেমেন্ট হলেই অর্ডারটা কনফার্ম হবে।", "roman": "pemenṭ holei ôrḍarṭa kônpharm hobe.", "en": "As soon as the payment goes through, the order will be confirmed." },
+        { "native": "যদি টাকা না আসে, তাহলে আমাকে জানাবেন।", "roman": "jodi ṭaka na ashe, tahole amake janaben.", "en": "If the money doesn't arrive, let me know." },
+        { "native": "কোডটা স্ক্যান করলে মেনু দেখা যাবে।", "roman": "koḍṭa skæn korle menu dækha jabe.", "en": "If you scan the code, you'll see the menu." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Ordering in",
+    "setting": "A shared flat in Mohammadpur, Dhaka, on a rainy evening. Flatmates Tanha and Nabil decide to order food. They use তুই.",
+    "lines": [
+      { "speaker": "Tanha", "native": "খিদে পেয়েছে। ফুডপান্ডায় কিছু অর্ডার করি?", "roman": "khide peyechhe. phuḍpanḍay kichhu ôrḍar kori?", "en": "I'm hungry. Shall we order something on Foodpanda?" },
+      { "speaker": "Nabil", "native": "কর। কিন্তু নেট আসছে না, অ্যাপটা লোডই হচ্ছে না।", "roman": "kôr. kintu neṭ ashchhe na, æpṭa loḍi hochchhe na.", "en": "Go on. But the internet's down, the app won't even load." },
+      { "speaker": "Tanha", "native": "রাউটারটা একবার বন্ধ করে আবার অন কর।", "roman": "rauṭarṭa ækbar bôndho kore abar ôn kôr.", "en": "Turn the router off and on again." },
+      { "speaker": "Nabil", "native": "হ্যাঁ, এবার চলছে। কাচ্চি না বার্গার?", "roman": "hæṃ, ebar cholchhe. kachchi na bargar?", "en": "Yes, it's working now. Kacchi or burgers?" },
+      { "speaker": "Tanha", "native": "কাচ্চি! আর দেখ, কোনো ডিসকাউন্ট আছে নাকি।", "roman": "kachchi! ar dækh, kono ḍiskaunṭ achhe naki.", "en": "Kacchi! And look whether there are any discounts." },
+      { "speaker": "Nabil", "native": "কুপন দিলে বিশ পার্সেন্ট অফ। পেমেন্ট কীভাবে করব, ক্যাশ অন ডেলিভারি?", "roman": "kupon dile bish parsenṭ ôph. pemenṭ kibhabe korbo, kæsh on ḍelibhari?", "en": "With a coupon it's twenty percent off. How shall we pay, cash on delivery?" },
+      { "speaker": "Tanha", "native": "না, বিকাশ করে দে। আমার কাছে ক্যাশ নেই।", "roman": "na, bikash kore de. amar kachhe kæsh nei.", "en": "No, pay by bKash. I haven't got any cash." },
+      { "speaker": "Nabil", "native": "দিচ্ছি… দাঁড়া, ওটিপি আসেনি। আরে, এসেছে! পেমেন্ট হয়ে গেছে।", "roman": "dichchhi… daṃṛa, oṭipi asheni. are, eshechhe! pemenṭ hoye gechhe.", "en": "Doing it… hang on, the OTP hasn't come. Oh, here it is! Payment's gone through." },
+      { "speaker": "Tanha", "native": "কতক্ষণ লাগবে, দেখাচ্ছে?", "roman": "kôtokkhon lagbe, dækhachchhe?", "en": "Does it say how long it'll take?" },
+      { "speaker": "Nabil", "native": "চল্লিশ মিনিট। রাইডারকে ট্র্যাক করা যাচ্ছে, এই যে, ম্যাপে।", "roman": "chollish miniṭ. raiḍarke ṭræk kôra jachchhe, ei je, mæpe.", "en": "Forty minutes. You can track the rider, look, on the map." },
+      { "speaker": "Tanha", "native": "বৃষ্টিতে আরও দেরি হলেও আমি অপেক্ষা করব। তোর ফোন বাজছে!", "roman": "brishṭite aro deri holeo ami ôpekkha korbo. tor phon bajchhe!", "en": "Even if the rain makes it later, I'll wait. Your phone's ringing!" },
+      { "speaker": "Nabil", "native": "হ্যালো? হ্যাঁ ভাই, গেটের সামনে দাঁড়ান, আসছি।", "roman": "hælo? hæṃ bhai, geṭer shamne daṃṛan, ashchhi.", "en": "Hello? Yes, brother, wait at the gate, I'm coming." },
+      { "speaker": "Tanha", "native": "খাবারটা ভালো হলে পাঁচ স্টার দিয়ে দিস!", "roman": "khabarṭa bhalo hole paṃch sṭar diye dish!", "en": "If the food's good, give it five stars!" }
+    ]
+  },
+  "culture": "**Paying.** Bangladesh runs on mobile money: **বিকাশ** above all, then **নগদ** and **রকেট**. You can send money to any phone number, pay at shops by **কিউআর কোড** or number, and cash out at an agent in almost any corner shop (for a fee, the **ক্যাশ আউট চার্জ**). 'বিকাশ নম্বর দাও' ('give me your bKash number') is how friends settle up. In West Bengal and the rest of India it's **ইউপিআই** through GPay, PhonePe or Paytm: free, instant, and accepted by every fuchka seller with a QR code. Cash still matters for rickshaws and markets in both.\n\n**Shopping and food.** Dhaka orders on **Foodpanda**, **Pathao Food** and **Daraz**, and a huge amount of selling happens on Facebook pages, where the standard line is **ইনবক্স করুন** 'DM us for the price'. Kolkata uses **Swiggy**, **Zomato**, **Blinkit**, **Amazon** and **Flipkart**. **ক্যাশ অন ডেলিভারি** is still very common, because people trust it more.\n\n**Scams.** In both countries scam calls pretend to be from bKash, a bank or a courier and ask for your **ওটিপি** or PIN. No real company ever asks for it: **ওটিপি কাউকে বলবেন না**.\n\n**Typing.** Young people often write Bengali in Latin letters, **Banglish** (*ki koros?*, *ami ashchi*), mixed with English. Bengali keyboards like **Avro** and **Ridmik** (Bangladesh) and Gboard's Bengali layout are common too, and voice notes are everywhere.",
+  "lessons": [
+    {
+      "title": "When tech goes wrong",
+      "tip": { "title": "English word + করা or হওয়া", "body": "- **করা** when someone does it: আপডেট **করো**, ডাউনলোড **করেছি**.\n- **হওয়া** when it happens by itself: আপডেট **হচ্ছে**, লোড **হচ্ছে না**, স্লো **হয়ে গেছে**.\n- The English word never changes; tense and person go on করা / হওয়া.\n- নেট **আসছে না** = the internet's down.", "pattern": "English word + করা (you do it) / হওয়া (it happens)", "grammar": 0 },
+      "new": ["নেট", "অ্যাপ", "হ্যাং করা", "লোড হওয়া", "স্লো", "আপডেট করা", "নেট আসছে না।", "ফোনটা খুব হ্যাং করছে।"],
+      "sentences": [
+        { "native": "ফোনটা আপডেট করো, তাহলে হয়তো ঠিক হবে।", "roman": "phonṭa apḍeṭ kôro, tahole hôyto ṭhik hobe.", "en": "Update your phone, then maybe it'll be OK.", "focus": "করো", "wrong": ["হও|hôo", "হচ্ছে|hochchhe"] },
+        { "native": "আমার ফোনটা এখন আপডেট হচ্ছে।", "roman": "amar phonṭa ækhon apḍeṭ hochchhe.", "en": "My phone's updating right now.", "focus": "হচ্ছে", "wrong": ["করছি|korchhi", "করছ|korchho"] },
+        { "native": "অ্যাপটা লোড হচ্ছে না।", "roman": "æpṭa loḍ hochchhe na.", "en": "The app won't load.", "focus": "হচ্ছে", "wrong": ["হচ্ছি|hochchhi", "হচ্ছেন|hochchhen"] },
+        { "native": "নেট খুব স্লো, ভিডিও চলছে না।", "roman": "neṭ khub slo, bhiḍio cholchhe na.", "en": "The internet's really slow, videos won't play." },
+        { "native": "পুরনো ফোনটা খুব হ্যাং করে।", "roman": "purono phonṭa khub hæṅ kore.", "en": "The old phone freezes a lot." },
+        { "native": "তুমি অ্যাপটা আপডেট করেছ?", "roman": "tumi æpṭa apḍeṭ korechho?", "en": "Have you updated the app?", "focus": "করেছ", "wrong": ["হয়েছ|hoyechho", "হয়েছে|hoyechhe"] },
+        { "native": "নতুন আপডেটের পরে ফোনটা স্লো হয়ে গেছে।", "roman": "notun apḍeṭer pôre phonṭa slo hoye gechhe.", "en": "The phone's got slow since the new update.", "focus": "হয়ে", "wrong": ["করে|kore", "করা|kôra"] },
+        { "native": "নেট আসছে না, রাউটারটা একবার বন্ধ করে দেখো।", "roman": "neṭ ashchhe na, rauṭarṭa ækbar bôndho kore dækho.", "en": "The internet's down, try switching the router off." },
+        { "native": "এখানে নেট পাওয়া যায় না।", "roman": "ekhane neṭ pawa jay na.", "en": "You can't get internet here." },
+        { "native": "অ্যাপটা হ্যাং করলে একবার বন্ধ করে আবার খোলো।", "roman": "æpṭa hæṅ korle ækbar bôndho kore abar kholo.", "en": "If the app freezes, close it and open it again." }
+      ]
+    },
+    {
+      "title": "Logging in safely",
+      "tip": { "title": "-লে, -লেই, -লেও", "body": "- **-লে** = if: ওটিপি না **এলে** আবার চেষ্টা করুন.\n- **-লেই** = as soon as: লগইন কর**লেই** ওটিপি আসবে.\n- **-লেও** = even if: পাসওয়ার্ড দি**লেও** খুলছে না.\n- After **যদি** use the present, not the future: যদি নেট **আসে**.", "pattern": "করলে · করলেই · করলেও", "grammar": 1 },
+      "new": ["ডাউনলোড করা", "পাসওয়ার্ড", "ওটিপি", "লগইন করা", "হ্যাক", "লিংক", "ওয়াই-ফাইয়ের পাসওয়ার্ড কী?", "অ্যাপটা ডাউনলোড করে নাও।", "ওটিপি কাউকে বলবেন না।", "আমার অ্যাকাউন্ট হ্যাক হয়ে গেছে।"],
+      "sentences": [
+        { "native": "ওটিপি না এলে আবার চেষ্টা করুন।", "roman": "oṭipi na ele abar cheshṭa korun.", "en": "If the OTP doesn't come, try again.", "focus": "এলে", "wrong": ["আসবে|ashbe", "আসে|ashe"] },
+        { "native": "লগইন করলেই একটা ওটিপি আসবে।", "roman": "lôgin korlei ækṭa oṭipi ashbe.", "en": "As soon as you log in, you'll get an OTP.", "focus": "করলেই", "wrong": ["করি|kori", "করব|korbo"] },
+        { "native": "ঠিক পাসওয়ার্ড দিলেও লগইন হচ্ছে না।", "roman": "ṭhik pasoarḍ dileo lôgin hochchhe na.", "en": "Even with the right password it won't log in.", "focus": "দিলেও", "wrong": ["দিলাম|dilam", "দেব|debo"] },
+        { "native": "যদি পাসওয়ার্ড ভুলে যাও, আমাকে বোলো।", "roman": "jodi pasoarḍ bhule jao, amake bolo.", "en": "If you forget the password, tell me.", "focus": "যাও", "wrong": ["যাবে|jabe", "যাব|jabo"] },
+        { "native": "অ্যাপটা ডাউনলোড করলে কাজটা সহজ হবে।", "roman": "æpṭa ḍaunloḍ korle kajṭa shôhoj hobe.", "en": "If you download the app, it'll be easier.", "focus": "করলে", "wrong": ["করব|korbo", "করো|kôro"] },
+        { "native": "কেউ লিংক পাঠালে সঙ্গে সঙ্গে খুলবেন না।", "roman": "keu liṅk paṭhale shôṅge shôṅge khulben na.", "en": "If someone sends you a link, don't open it straight away.", "focus": "পাঠালে", "wrong": ["পাঠায়|paṭhay", "পাঠাবে|paṭhabe"] },
+        { "native": "অ্যাকাউন্ট হ্যাক হলে কী করব?", "roman": "ækaunṭ hæk hole ki korbo?", "en": "What do I do if my account gets hacked?", "focus": "হলে", "wrong": ["হয়|hôy", "হবে|hobe"] },
+        { "native": "পাসওয়ার্ডটা কাউকে বোলো না।", "roman": "pasoarḍṭa kauke bolo na.", "en": "Don't tell anyone the password." },
+        { "native": "ওয়াই-ফাই থাকলে ডাউনলোড করে নিও, নাহলে অনেক ডেটা যাবে।", "roman": "wai-phai thakle ḍaunloḍ kore nio, nahole ônek ḍeṭa jabe.", "en": "Download it when you're on Wi-Fi, otherwise it'll eat your data.", "focus": "থাকলে", "wrong": ["থাকে|thake", "থাকবে|thakbe"] },
+        { "native": "লিংকটা গ্রুপে দিয়ে দিচ্ছি।", "roman": "liṅkṭa grupe diye dichchhi.", "en": "I'll put the link in the group." }
+      ]
+    },
+    {
+      "title": "Paying by phone",
+      "tip": { "title": "bKash and UPI", "body": "- Bangladesh: **বিকাশ** works like a verb: বিকাশ **করে দাও** 'send it by bKash'. Rivals: নগদ, রকেট.\n- India: **ইউপিআই** (GPay, PhonePe): ইউপিআই / জিপে **করে দিচ্ছি**.\n- Shops show a **কিউআর কোড** to **স্ক্যান** করা.\n- Check the name before you pay: পেমেন্ট করার আগে নামটা দেখে নিন." },
+      "new": ["পেমেন্ট", "বিকাশ", "ইউপিআই", "কিউআর কোড", "স্ক্যান করা", "ব্যালান্স", "বিকাশ করে দিচ্ছি।", "ইউপিআই করে দিই?", "কিউআর কোডটা স্ক্যান করুন।", "পেমেন্ট হয়নি, আবার চেষ্টা করছি।"],
+      "sentences": [
+        { "native": "টাকাটা বিকাশ করে দাও, ক্যাশ নেই।", "roman": "ṭakaṭa bikash kore dao, kæsh nei.", "en": "Send the money by bKash, I've no cash." },
+        { "native": "দোকানে কিউআর কোড আছে, স্ক্যান করে পেমেন্ট করুন।", "roman": "dokane kiuar koḍ achhe, skæn kore pemenṭ korun.", "en": "There's a QR code in the shop, scan it and pay." },
+        { "native": "পেমেন্ট হয়ে গেছে, স্ক্রিনশট পাঠাচ্ছি।", "roman": "pemenṭ hoye gechhe, skrinshôṭ paṭhachchhi.", "en": "The payment's gone through, I'm sending a screenshot.", "focus": "হয়ে", "wrong": ["করে|kore", "করা|kôra"] },
+        { "native": "আমি তোমাকে ইউপিআই করে দিয়েছি, টাকাটা পেয়েছ?", "roman": "ami tomake iupiai kore diyechhi, ṭakaṭa peyechho?", "en": "I've sent it to you by UPI, did you get the money?", "focus": "দিয়েছি", "wrong": ["দিয়েছে|diyechhe", "হয়েছি|hoyechhi"] },
+        { "native": "ব্যালান্সে টাকা নেই, পরে দিচ্ছি।", "roman": "bælænse ṭaka nei, pôre dichchhi.", "en": "There's no money in my balance, I'll pay you later." },
+        { "native": "কত পাঠাতে হবে?", "roman": "kôto paṭhate hobe?", "en": "How much do I need to send?" },
+        { "native": "ভুল নম্বরে টাকা চলে গেছে!", "roman": "bhul nômbore ṭaka chole gechhe!", "en": "The money's gone to the wrong number!" },
+        { "native": "পেমেন্ট করার আগে নামটা দেখে নিন।", "roman": "pemenṭ kôrar age namṭa dekhe nin.", "en": "Check the name before you pay." },
+        { "native": "চায়ের দোকানেও এখন কিউআর কোড!", "roman": "chayer dokaneo ækhon kiuar koḍ!", "en": "Even tea stalls have QR codes now!" },
+        { "native": "স্ক্যান করলেই পেমেন্ট হয়ে যাবে।", "roman": "skæn korlei pemenṭ hoye jabe.", "en": "Just scan it and the payment goes through." }
+      ]
+    },
+    {
+      "title": "Ordering online",
+      "tip": { "title": "Shopping and food apps", "body": "- Bangladesh: Foodpanda, Pathao, Daraz, and Facebook shops (**ইনবক্স করুন** 'DM us').\n- West Bengal: Swiggy, Zomato, Amazon, Flipkart.\n- Prefer to pay at the door? **ক্যাশ অন ডেলিভারি আছে?**\n- Order, track and cancel all take **করা**; the delivery 'happens': ডেলিভারি **হবে**." },
+      "new": ["অনলাইন", "ডেলিভারি", "ট্র্যাক করা", "ডিসকাউন্ট", "ডেলিভারি কখন আসবে?", "ক্যাশ অন ডেলিভারি আছে?", "টাকা কেটে নিয়েছে, কিন্তু অর্ডার হয়নি।"],
+      "sentences": [
+        { "native": "আমি এখন সব কিছু অনলাইনে কিনি।", "roman": "ami ækhon shôb kichhu ônlaine kini.", "en": "I buy everything online now." },
+        { "native": "ডেলিভারি চার্জ কত?", "roman": "ḍelibhari charj kôto?", "en": "What's the delivery charge?" },
+        { "native": "অর্ডারটা কোথায় আছে, ট্র্যাক করা যায়?", "roman": "ôrḍarṭa kothay achhe, ṭræk kôra jay?", "en": "Can you track where the order is?" },
+        { "native": "আজ অনলাইনে অর্ডার করলে চল্লিশ পার্সেন্ট ডিসকাউন্ট!", "roman": "aj ônlaine ôrḍar korle chollish parsenṭ ḍiskaunṭ!", "en": "Order online today and get forty percent off!", "focus": "করলে", "wrong": ["করি|kori", "করব|korbo"] },
+        { "native": "ডেলিভারির লোক নিচে দাঁড়িয়ে আছে।", "roman": "ḍelibharir lok niche daṃṛiye achhe.", "en": "The delivery guy is waiting downstairs." },
+        { "native": "দোকানে গেলে আরও সস্তা পাবে।", "roman": "dokane gele aro shôsta pabe.", "en": "You'll get it cheaper if you go to the shop.", "focus": "গেলে", "wrong": ["যাও|jao", "যাবে|jabe"] },
+        { "native": "জামাটা পছন্দ না হলে ফেরত দেওয়া যাবে?", "roman": "jamaṭa pôchhondo na hole pherot dewa jabe?", "en": "Can I send the top back if I don't like it?", "focus": "হলে", "wrong": ["হয়|hôy", "হবে|hobe"] },
+        { "native": "দুই দিনের মধ্যে ডেলিভারি হয়ে যাবে।", "roman": "dui diner moddhe ḍelibhari hoye jabe.", "en": "It'll be delivered within two days." },
+        { "native": "ডিসকাউন্ট আছে বলে অনেক কিছু কিনে ফেলেছি!", "roman": "ḍiskaunṭ achhe bole ônek kichhu kine phelechhi!", "en": "There was a discount, so I went and bought loads!" },
+        { "native": "অ্যাপে দেখাচ্ছে রাইডার পাঁচ মিনিট দূরে।", "roman": "æpe dækhachchhe raiḍar paṃch miniṭ dure.", "en": "The app says the rider is five minutes away." }
+      ]
+    },
+    {
+      "title": "Social media",
+      "tip": { "title": "Posting, liking, sharing", "body": "- **দেওয়া** for what you put out: পোস্ট **দেওয়া**, লাইক **দেওয়া**.\n- **করা** for actions: কমেন্ট **করা**, শেয়ার **করা**, ফলো **করা**.\n- **হওয়া** for what happens: ভাইরাল **হওয়া**.\n- Friends often type Bengali in Latin letters (Banglish): *ki korchis?*" },
+      "new": ["ফেসবুক", "পোস্ট", "লাইক", "কমেন্ট", "শেয়ার করা", "ফলো করা", "রিল", "ভাইরাল", "ফেসবুকে পোস্ট দিয়েছি, দেখেছিস?", "ভিডিওটা ভাইরাল হয়ে গেছে!", "লিংকটা পাঠিয়ে দে।"],
+      "sentences": [
+        { "native": "আমার পোস্টে কেউ লাইক দিচ্ছে না!", "roman": "amar posṭe keu laik dichchhe na!", "en": "Nobody's liking my post!", "focus": "দিচ্ছে", "wrong": ["দিচ্ছি|dichchhi", "দিচ্ছিস|dichchhish"] },
+        { "native": "ছবিটা ফেসবুকে দিস না, প্লিজ।", "roman": "chhobiṭa phesbuke dish na, pliz.", "en": "Please don't put that photo on Facebook." },
+        { "native": "তুই আমাকে ফলো করিস?", "roman": "tui amake phôlo korish?", "en": "Do you follow me?", "focus": "করিস", "wrong": ["করো|kôro", "করেন|kôren"] },
+        { "native": "ওর রিলটা অনেক লোক দেখেছে, একদম ভাইরাল!", "roman": "or rilṭa ônek lok dekhechhe, ækdôm bhairal!", "en": "Loads of people have watched her reel, it's totally viral!" },
+        { "native": "পোস্টটা শেয়ার করে দাও।", "roman": "posṭṭa sheyar kore dao.", "en": "Share the post.", "focus": "করে", "wrong": ["হয়ে|hoye", "হয়|hôy"] },
+        { "native": "কমেন্টগুলো পড়ে খুব হাসি পেল।", "roman": "kômenṭgulo pôṛe khub hashi pelo.", "en": "The comments made me laugh so much." },
+        { "native": "এরকম পোস্ট শেয়ার করার আগে একটু ভাবো।", "roman": "ærôkom posṭ sheyar kôrar age ekṭu bhabo.", "en": "Think a bit before sharing a post like that." },
+        { "native": "ভিডিওটা ভাইরাল হলে কী হবে, ভাবো তো!", "roman": "bhiḍioṭa bhairal hole ki hobe, bhabo to!", "en": "Just imagine if the video goes viral!", "focus": "হলে", "wrong": ["হয়|hôy", "হবে|hobe"] },
+        { "native": "তোর কমেন্টটা দেখে মা খুব খুশি হয়েছে।", "roman": "tor kômenṭṭa dekhe ma khub khushi hoyechhe.", "en": "Mum was really pleased to see your comment." },
+        { "native": "ফেসবুক খুললেই সময় চলে যায়।", "roman": "phesbuk khullei shômoy chole jay.", "en": "The moment I open Facebook, time just disappears." }
+      ]
+    }
+  ]
+}
