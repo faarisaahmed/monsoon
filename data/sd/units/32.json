@@ -1,0 +1,182 @@
+{
+  "id": 32,
+  "title": "Health in depth",
+  "goal": "Describe your symptoms precisely and say how long you've had them, mention allergies and conditions, book an appointment and follow a doctor's instructions.",
+  "intro": "In unit 9 you learned to say **منهنجو مٿو ڏکي ٿو**. Now you'll tell a doctor exactly what's wrong — **مون کي چڪر ٿا اچن**, **سور اچي وڃي ٿو**, **مون کي پينسلين کان الرجي آهي** — and, crucially, **for how long**: Sindhi says *I have had a fever for three days* with a simple present and **کان**: **مون کي ٽن ڏينهن کان بخار آهي**.\n\nYou'll also learn the instruction forms that doctors and pharmacists use — **ڏينهن ۾ ٻه ڀيرا، ماني کان پوءِ کائجو** — and the words you need for clinics, tests and hospital visits. Expect a lot of English in a Sindhi doctor's mouth: **ٽيسٽ**, **شوگر**, **بي پي**, **چيڪ اپ**.",
+  "vocab": [
+    { "native": "چڪر", "roman": "chakaru", "en": "dizziness; a round, a turn", "pos": "noun", "note": "m · usually plural: مون کي چڪر ٿا اچن 'I feel dizzy' (lit. rounds are coming to me). Also چڪر لڳائڻ 'to pop round'." },
+    { "native": "الٽي", "roman": "ulṭī", "en": "vomiting, being sick", "pos": "noun", "note": "f · الٽي آئي 'threw up' · الٽي پئي اچي 'I feel sick'. Medical: قي qai." },
+    { "native": "دست", "roman": "dasta", "en": "diarrhoea", "pos": "noun", "note": "m pl · هن کي دست لڳا آهن 'he has diarrhoea'." },
+    { "native": "سوڄ", "roman": "sūʄa", "en": "swelling", "pos": "noun", "note": "f · پير ۾ سوڄ آهي 'my foot is swollen'. Implosive ʄ." },
+    { "native": "خارش", "roman": "xārisha", "en": "itching; a rash", "pos": "noun", "note": "f · مون کي خارش آهي 'I'm itchy'." },
+    { "native": "ڪمزوري", "roman": "kamzorī", "en": "weakness", "pos": "noun", "note": "f · from ڪمزور 'weak'." },
+    { "native": "ٿڪاوٽ", "roman": "thakāvaṭa", "en": "tiredness, fatigue", "pos": "noun", "note": "f · from ٿڪل 'tired' (unit 14)." },
+    { "native": "ساهه", "roman": "sāhu", "en": "breath", "pos": "noun", "note": "m · ساهه کڻڻ 'to breathe' (lit. lift breath) · ساهه کڻڻ ۾ تڪليف 'difficulty breathing'." },
+    { "native": "ڪڏهن کان", "roman": "kaɗahiṃ khāṃ", "en": "since when, how long", "pos": "q", "note": "ڪڏهن کان آهي؟ 'how long have you had it?' — answer with time + کان: ڪالهه کان، ٻن ڏينهن کان." },
+    { "native": "وڌڻ", "roman": "vadhaṇu", "en": "to increase, go up, get worse", "pos": "verb", "note": "بخار وڌي ويو 'the fever went up'. Transitive: وڌائڻ 'to increase, extend'." },
+    { "native": "گهٽجڻ", "roman": "ghaṭjaṇu", "en": "to decrease, go down, ease", "pos": "verb", "note": "سور گهٽجي ويو 'the pain has eased'. From گهٽ 'less' (unit 4)." },
+    { "native": "فرق", "roman": "farqu", "en": "difference; improvement", "pos": "noun", "note": "m · ڪو فرق پيو؟ 'any better?' (lit. did any difference fall?) — the standard question to a patient." },
+    { "native": "الرجي", "roman": "alarjī", "en": "allergy", "pos": "noun", "note": "f · مون کي X کان الرجي آهي 'I'm allergic to X'." },
+    { "native": "بي پي", "roman": "bī pī", "en": "blood pressure (BP)", "pos": "noun", "note": "m · what everyone says; formally بلڊ پريشر. بي پي وڌي ويو 'blood pressure went up'." },
+    { "native": "شوگر", "roman": "shūgaru", "en": "diabetes (lit. sugar)", "pos": "noun", "note": "f · هن کي شوگر آهي 'she's diabetic'. Very common in Sindh." },
+    { "native": "رت", "roman": "ratu", "en": "blood", "pos": "noun", "note": "m · رت جو ٽيسٽ 'blood test'. Oblique رت rata." },
+    { "native": "ٽيسٽ", "roman": "ṭesṭu", "en": "(medical) test", "pos": "noun", "note": "m · ٽيسٽ ڪرائڻ 'to have a test done' (causative, unit 25)." },
+    { "native": "ايڪسري", "roman": "eksre", "en": "X-ray", "pos": "noun", "note": "m · ايڪسري ڪرائڻ 'to have an X-ray'." },
+    { "native": "خوراڪ", "roman": "xurāka", "en": "dose; diet, food", "pos": "noun", "note": "f · اڌ خوراڪ 'half a dose'." },
+    { "native": "پرهيز", "roman": "parhezu", "en": "avoiding (certain foods), a restricted diet", "pos": "noun", "note": "m · X کان پرهيز ڪرڻ 'to avoid X, cut out X'." },
+    { "native": "خالي پيٽ", "roman": "xālī peṭa", "en": "on an empty stomach", "pos": "adv", "note": "خالي 'empty' + پيٽ 'stomach'." },
+    { "native": "احتياط", "roman": "ehtiyāta", "en": "caution, care", "pos": "noun", "note": "f · احتياط ڪجو 'be careful, take care'." },
+    { "native": "اپائنٽمينٽ", "roman": "apāinṭmenṭa", "en": "appointment", "pos": "noun", "note": "f · many people simply say ٽائيم: ڊاڪٽر کان ٽائيم وٺڻ." },
+    { "native": "ڪلينڪ", "roman": "kalīnika", "en": "clinic, doctor's surgery", "pos": "noun", "note": "f · most doctors in Sindh have an evening ڪلينڪ." },
+    { "native": "ايمرجنسي", "roman": "emarjansī", "en": "emergency (department), A&E", "pos": "noun", "note": "f · oblique ايمرجنسيءَ: ايمرجنسيءَ ۾ هلو 'let's go to A&E'." },
+    { "native": "چيڪ اپ", "roman": "chek apu", "en": "check-up", "pos": "noun", "note": "m · چيڪ اپ ڪرائڻ 'to have a check-up'." },
+    { "native": "داخل ٿيڻ", "roman": "dāxilu thiyaṇu", "en": "to be admitted (to hospital); to enter", "pos": "verb", "note": "Passive: داخل ڪيو ويو 'was admitted'. اسپتال ۾ داخل آهي 'is in hospital'." }
+  ],
+  "phrases": [
+    { "native": "توهان کي ڇا تڪليف آهي؟", "roman": "tavhāṃ khe chhā takalīfa āhe?", "en": "What seems to be the problem? (doctor to patient)" },
+    { "native": "اهو سور ڪڏهن کان آهي؟", "roman": "uho sūru kaɗahiṃ khāṃ āhe?", "en": "How long have you had this pain?" },
+    { "native": "مون کي ٽن ڏينهن کان بخار آهي.", "roman": "moṃ khe ṭin ɗīṃhan khāṃ buxāru āhe.", "en": "I've had a fever for three days." },
+    { "native": "سور اچي وڃي ٿو.", "roman": "sūru achī vañe tho.", "en": "The pain comes and goes." },
+    { "native": "رات جو سور وڌي ٿو وڃي.", "roman": "rāti jo sūru vadhī tho vañe.", "en": "The pain gets worse at night." },
+    { "native": "مون کي چڪر ٿا اچن.", "roman": "moṃ khe chakara thā achan.", "en": "I feel dizzy." },
+    { "native": "مون کي پينسلين کان الرجي آهي.", "roman": "moṃ khe pensilin khāṃ alarjī āhe.", "en": "I'm allergic to penicillin." },
+    { "native": "ڪو فرق پيو؟", "roman": "ko farqu peyo?", "en": "Any better? (lit. has there been any difference?)" },
+    { "native": "رت جو ٽيسٽ ڪرايو.", "roman": "rata jo ṭesṭu karāyo.", "en": "Get a blood test done." },
+    { "native": "ڏينهن ۾ ٻه ڀيرا، ماني کان پوءِ.", "roman": "ɗīṃha meṃ ɓa bherā, mānī khāṃ poi.", "en": "Twice a day, after food." },
+    { "native": "هي گوري خالي پيٽ کائجو.", "roman": "hī gorī xālī peṭa khāijo.", "en": "Take this tablet on an empty stomach." },
+    { "native": "ٿڌو پاڻي نه پيئجو.", "roman": "thadho pāṇī na pījo.", "en": "Don't drink cold water." },
+    { "native": "احتياط ڪجو!", "roman": "ehtiyāta kajo!", "en": "Take care! / Be careful!" },
+    { "native": "ڊاڪٽر صاحب سان اپائنٽمينٽ ملي سگهي ٿي؟", "roman": "ḍākṭar sāhib sāṃ apāinṭmenṭa milī saghe thī?", "en": "Can I get an appointment with the doctor?" },
+    { "native": "هن کي اسپتال ۾ داخل ڪيو ويو آهي.", "roman": "hun khe ispatāla meṃ dāxilu kayo vayo āhe.", "en": "He's been admitted to hospital." }
+  ],
+  "grammar": [
+    {
+      "title": "How long: 'I've had it for three days' — time + کان + present",
+      "body": "English needs the present perfect for this: *I **have had** a fever for three days*, *I **have been living** here for two years*. Sindhi simply uses the **present**, and marks the starting point with **کان** 'from':\n\n**مون کي ٽن ڏينهن کان بخار آهي** — 'to me, from three days, fever is'\n**مان ٻن سالن کان ڪراچيءَ ۾ رهان ٿو** — I've been living in Karachi for two years\n**هوءَ صبح کان سمهي پئي آهي** — she's been asleep since the morning\n\nSo **کان** covers both English *for* and *since*: ٻن ڏينهن کان 'for two days', سومر کان 'since Monday', ڪالهه کان 'since yesterday', صبح کان 'since this morning'.\n\nA number + time word before کان goes into the **oblique**: ٻه ڏينهن → **ٻن ڏينهن** کان, ٽي سال → **ٽن سالن** کان, هڪ هفتو → **هڪ هفتي** کان, هڪ مهينو → **هڪ مهيني** کان.\n\n**Asking:** **ڪڏهن کان؟** 'since when?' · **ڪيترن ڏينهن کان؟** 'for how many days?'\n**'It's been …':** ٽي ڏينهن **ٿي ويا آهن** 'it's been three days'.\n\n**The trap:** for a period that is **over**, don't use کان — just the time in the plain form and a past verb: مان **ٽي ڏينهن** اسپتال ۾ رهيس 'I was in hospital for three days' (and now I'm out). With کان and a present verb, it is **still going on**. And remember **اڳ** (unit 16) is 'ago': ٽي ڏينهن **اڳ** 'three days ago'.",
+      "examples": [
+        { "native": "مون کي ٻن ڏينهن کان مٿي ۾ سور آهي.", "roman": "moṃ khe ɓin ɗīṃhan khāṃ mathe meṃ sūru āhe.", "en": "I've had a headache for two days." },
+        { "native": "هن کي هڪ هفتي کان کنگهه آهي.", "roman": "hun khe hika hafte khāṃ khaṅgha āhe.", "en": "He's had a cough for a week." },
+        { "native": "مون صبح کان ڪجهه به نه کاڌو آهي.", "roman": "moṃ subuh khāṃ kujhu bi na khādho āhe.", "en": "I haven't eaten anything since this morning." },
+        { "native": "توهان کي ڪيترن ڏينهن کان دست آهن؟", "roman": "tavhāṃ khe ketiran ɗīṃhan khāṃ dasta āhin?", "en": "How many days have you had diarrhoea?" },
+        { "native": "ٽي ڏينهن ٿي ويا آهن، بخار نٿو لهي.", "roman": "ṭe ɗīṃha thī vayā āhin, buxāru natho lahe.", "en": "It's been three days and the fever won't go down." },
+        { "native": "مان ٽي ڏينهن اسپتال ۾ رهيس.", "roman": "māṃ ṭe ɗīṃha ispatāla meṃ rahyus.", "en": "I was in hospital for three days. (man; it's over)" }
+      ]
+    },
+    {
+      "title": "Following instructions: کائجو، نه پيئجو، ماني کان پوءِ",
+      "body": "Doctors and pharmacists give instructions in the gentle **-jo** form you met in unit 18. It is polite, and it means 'from now on, (please) do …' — exactly right for a course of treatment:\n\n**کائجو** 'take (lit. eat)' · **پيئجو** 'drink' · **لڳائجو** 'apply (cream)' · **ڪجو** 'do' · **اچجو** 'come' · **ڏجو** 'give'\nNegative: **نه کائجو**، **نه پيئجو**، **نه ڇڏجو** 'don't stop'.\n\n**Medicine is eaten.** Tablets and even syrups are **کائڻ** (or پيئڻ for liquids): دوا کائجو. You'll also hear دوا وٺڻ, but کائڻ is the everyday verb.\n\n**When:** **ڏينهن ۾ ٻه ڀيرا** 'twice a day' · **صبح شام** 'morning and evening' · **ماني کان اڳ / پوءِ** 'before / after food' · **خالي پيٽ** 'on an empty stomach' · **سمهڻ کان اڳ** 'before bed' · **پنج ڏينهن تائين** 'for five days' (a course of treatment uses تائين).\n**What to avoid:** X **کان پرهيز ڪجو** 'cut out X'.\n\nOn labels and leaflets you'll see the impersonal **-ij-** form from unit 31: **ماني کان اڳ کائجي** 'to be taken before food', **ٻارن کان پري رکجي** 'keep away from children'.\n\nFor advice, use گهرجي (unit 9): توهان کي آرام ڪرڻ گهرجي. For a firm instruction: توهان کي … ڪرڻو پوندو.",
+      "examples": [
+        { "native": "هي گوري ڏينهن ۾ ٽي ڀيرا ماني کان پوءِ کائجو.", "roman": "hī gorī ɗīṃha meṃ ṭe bherā mānī khāṃ poi khāijo.", "en": "Take this tablet three times a day after food." },
+        { "native": "شربت صبح شام پيئجو.", "roman": "sharbatu subuh shāma pījo.", "en": "Drink the syrup morning and evening." },
+        { "native": "پنج ڏينهن تائين دوا کائجو.", "roman": "panja ɗīṃha tāīṃ davā khāijo.", "en": "Take the medicine for five days." },
+        { "native": "تيل ۽ مرچ کان پرهيز ڪجو.", "roman": "tela ai marcha khāṃ parhezu kajo.", "en": "Avoid oily and spicy food." },
+        { "native": "ماني کان اڳ کائجي.", "roman": "mānī khāṃ aɠu khāje.", "en": "To be taken before food. (on a label)" },
+        { "native": "ٽن ڏينهن کان پوءِ وري اچجو.", "roman": "ṭin ɗīṃhan khāṃ poi varī achijo.", "en": "Come back after three days." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the evening clinic",
+    "setting": "Rafiq, who works in a bank in Sukkur, goes to Dr Shazia's evening clinic near Military Road with a fever.",
+    "lines": [
+      { "speaker": "Receptionist", "native": "جي، اپائنٽمينٽ آهي؟", "roman": "jī, apāinṭmenṭa āhe?", "en": "Yes — do you have an appointment?" },
+      { "speaker": "Rafiq", "native": "نه ادي، پر ڏاڍو بيمار آهيان. اڄ ڊاڪٽر صاحبه ملي سگهندي؟", "roman": "na adī, para ɗāḍho bīmāru āhiyāṃ. aʄu ḍākṭar sāhiba milī saghandī?", "en": "No, but I'm really unwell. Can I see the doctor today?" },
+      { "speaker": "Receptionist", "native": "ويهو، ٽيون نمبر توهان جو آهي.", "roman": "veho, ṭiyoṃ nambaru tavhāṃ jo āhe.", "en": "Have a seat, you're third in line." },
+      { "speaker": "Dr Shazia", "native": "اچو، ويهو. ٻڌايو، ڇا تڪليف آهي؟", "roman": "acho, veho. ɓudhāyo, chhā takalīfa āhe?", "en": "Come in, sit down. Tell me, what's the trouble?" },
+      { "speaker": "Rafiq", "native": "ڊاڪٽر صاحبه، ٽن ڏينهن کان بخار آهي، ۽ کنگهه به.", "roman": "ḍākṭar sāhiba, ṭin ɗīṃhan khāṃ buxāru āhe, ai khaṅgha bi.", "en": "Doctor, I've had a fever for three days, and a cough too." },
+      { "speaker": "Dr Shazia", "native": "بخار ڪيترو آهي؟ رات جو وڌي ٿو؟", "roman": "buxāru ketiro āhe? rāti jo vadhe tho?", "en": "How high is it? Does it go up at night?" },
+      { "speaker": "Rafiq", "native": "ها، رات جو هڪ سؤ ٻه تائين ٿو وڃي. ۽ ڪالهه کان چڪر به ٿا اچن.", "roman": "hā, rāti jo hiku sau ɓa tāīṃ tho vañe. ai kālha khāṃ chakara bi thā achan.", "en": "Yes, at night it goes up to 102. And since yesterday I've been feeling dizzy too." },
+      { "speaker": "Dr Shazia", "native": "ڪا الرجي آهي؟", "roman": "kā alarjī āhe?", "en": "Any allergies?" },
+      { "speaker": "Rafiq", "native": "نه، ڪا به نه. پر شوگر آهي، ٻن سالن کان.", "roman": "na, kā bi na. para shūgaru āhe, ɓin sālan khāṃ.", "en": "No, none. But I'm diabetic — for two years now." },
+      { "speaker": "Dr Shazia", "native": "چڱو. رت جو ٽيسٽ ڪرايو. هي گوري ڏينهن ۾ ٻه ڀيرا، ماني کان پوءِ کائجو.", "roman": "chaṅgo. rata jo ṭesṭu karāyo. hī gorī ɗīṃha meṃ ɓa bherā, mānī khāṃ poi khāijo.", "en": "OK. Get a blood test done. Take this tablet twice a day, after food." },
+      { "speaker": "Rafiq", "native": "صبح جو ته مون کي نيرن جو ٽائيم ئي نٿو ملي…", "roman": "subuh jo ta moṃ khe nerana jo ṭāimu ī natho mile…", "en": "In the mornings I don't even get time for breakfast…" },
+      { "speaker": "Dr Shazia", "native": "ته پوءِ ٽائيم ڪڍو! خالي پيٽ هرگز نه. ۽ ٿڌو پاڻي نه پيئجو.", "roman": "ta poi ṭāimu kaḍho! xālī peṭa hargiz na. ai thadho pāṇī na pījo.", "en": "Then make time! Never on an empty stomach. And don't drink cold water." },
+      { "speaker": "Rafiq", "native": "جي. ٽيسٽ کان پوءِ وري اچان؟", "roman": "jī. ṭesṭa khāṃ poi varī achāṃ?", "en": "Yes, doctor. Shall I come back after the test?" },
+      { "speaker": "Dr Shazia", "native": "ها، ٻن ڏينهن کان پوءِ اچجو. ۽ آرام ڪجو — بئنڪ نه!", "roman": "hā, ɓin ɗīṃhan khāṃ poi achijo. ai ārāmu kajo — bainka na!", "en": "Yes, come back in two days. And rest — no going to the bank!" }
+    ]
+  },
+  "culture": "Most people in Sindh see a doctor at a private evening **ڪلينڪ**: you turn up, give your name and wait your turn (**نمبر**). Doctors are **ڊاڪٽر صاحب** / **ڊاڪٽر صاحبه**, and they switch freely into English for medical words — **بي پي**, **شوگر**, **انفيڪشن**, **رپورٽ** — so don't be afraid to use the English term. Big public hospitals include the Civil Hospitals in Karachi and Hyderabad, LUMHS at Jamshoro and Chandka in Larkana; private ones like the Aga Khan University Hospital in Karachi are expensive.\n\nPharmacies (**ميڊيڪل اسٽور**) will often sell medicine without a prescription and give advice on the spot, and many patients expect a **ڊرپ** (drip) or an injection for a quick recovery. Home wisdom matters too: foods are 'hot' or 'cold' in nature, so with a cough you'll be told to avoid cold water, rice and yoghurt.\n\nVisiting someone who is ill (**بيمار پرسي**) is a social duty: you go to the house or the hospital, take fruit or juice, sit a while and say **الله شفا ڏئي** 'may God heal you'. Ask **هاڻي طبيعت ڪيئن آهي؟** and **ڪو فرق پيو؟** — and expect to be offered tea even in the hospital corridor.",
+  "lessons": [
+    {
+      "title": "Describing your symptoms",
+      "tip": { "title": "Saying exactly what's wrong", "body": "- Most symptoms use **کي + آهي**: مون کي **خارش** آهي.\n- Some 'come' to you: مون کي **چڪر ٿا اچن** (pl), **الٽي پئي اچي**.\n- A place in the body + **۾**: پير **۾** سوڄ آهي.\n- 'Comes and goes' = **اچي وڃي ٿو**." },
+      "new": ["چڪر", "الٽي", "دست", "سوڄ", "خارش", "ڪمزوري", "ٿڪاوٽ", "ساهه", "مون کي چڪر ٿا اچن.", "سور اچي وڃي ٿو."],
+      "sentences": [
+        { "native": "مون کي سڄي رات خارش هئي.", "roman": "moṃ khe saʄī rāti xārisha huī.", "en": "I was itchy all night." },
+        { "native": "اٿڻ سان ئي مون کي چڪر ٿا اچن.", "roman": "uthaṇa sāṃ ī moṃ khe chakara thā achan.", "en": "As soon as I stand up I feel dizzy.", "focus": "ٿا", "wrong": ["ٿو|tho", "ٿي|thī"] },
+        { "native": "ٻار کي الٽي آئي.", "roman": "ɓāra khe ulṭī āī.", "en": "The child threw up.", "focus": "آئي", "wrong": ["آيو|āyo", "آيا|āyā"] },
+        { "native": "منهنجي پير ۾ سوڄ آهي.", "roman": "munhinje pera meṃ sūʄa āhe.", "en": "My foot is swollen.", "focus": "۾", "wrong": ["تي|te", "کي|khe"] },
+        { "native": "مون کي ڏاڍي ڪمزوري آهي.", "roman": "moṃ khe ɗāḍhī kamzorī āhe.", "en": "I feel really weak.", "focus": "ڏاڍي", "wrong": ["ڏاڍو|ɗāḍho", "ڏاڍا|ɗāḍhā"] },
+        { "native": "هن کي دست لڳا آهن.", "roman": "hun khe dasta laɠā āhin.", "en": "He's got diarrhoea.", "focus": "لڳا", "wrong": ["لڳو|laɠo", "لڳي|laɠī"] },
+        { "native": "مون کي ساهه کڻڻ ۾ تڪليف آهي.", "roman": "moṃ khe sāhu khaṇaṇa meṃ takalīfa āhe.", "en": "I'm having trouble breathing." },
+        { "native": "سور اچي وڃي ٿو، پر رات جو وڌيڪ آهي.", "roman": "sūru achī vañe tho, para rāti jo vadhīku āhe.", "en": "The pain comes and goes, but it's worse at night." },
+        { "native": "گرميءَ ۾ ٿڪاوٽ گهڻي ٿيندي آهي.", "roman": "garmīa meṃ thakāvaṭa ghaṇī thīndī āhe.", "en": "You get very tired in the heat.", "focus": "ٿيندي", "wrong": ["ٿيندو|thīndo", "ٿيندا|thīndā"] },
+        { "native": "مون کي چڪر ٿا اچن، مان ٿورو ويهان ٿو.", "roman": "moṃ khe chakara thā achan, māṃ thoro vehāṃ tho.", "en": "I feel dizzy, I'll sit down a minute. (man)", "focus": "اچن", "wrong": ["اچي|ache", "اچان|achāṃ"] }
+      ]
+    },
+    {
+      "title": "Since when? How long?",
+      "tip": { "title": "ٽن ڏينهن کان — for three days", "body": "- Sindhi uses the **present** + time + **کان**: مون کي ٽن ڏينهن **کان** بخار **آهي** 'I've had a fever for three days'.\n- کان = both 'for' and 'since': ڪالهه کان، سومر کان.\n- Number + time goes oblique: **ٻن ڏينهن** کان، **هڪ هفتي** کان.\n- Finished period: no کان — مان ٽي ڏينهن اسپتال ۾ رهيس.", "pattern": "time (oblique) + کان + present", "grammar": 0 },
+      "new": ["ڪڏهن کان", "وڌڻ", "گهٽجڻ", "فرق", "اهو سور ڪڏهن کان آهي؟", "مون کي ٽن ڏينهن کان بخار آهي.", "رات جو سور وڌي ٿو وڃي.", "ڪو فرق پيو؟"],
+      "sentences": [
+        { "native": "اهو سور ڪڏهن کان آهي؟ ڪالهه کان؟", "roman": "uho sūru kaɗahiṃ khāṃ āhe? kālha khāṃ?", "en": "How long have you had this pain? Since yesterday?" },
+        { "native": "مون کي ٽن ڏينهن کان بخار آهي، ۽ لهي ئي نٿو.", "roman": "moṃ khe ṭin ɗīṃhan khāṃ buxāru āhe, ai lahe ī natho.", "en": "I've had a fever for three days and it just won't go down.", "focus": "کان", "wrong": ["تائين|tāīṃ", "۾|meṃ"] },
+        { "native": "هن کي هڪ مهيني کان کنگهه آهي.", "roman": "hun khe hika mahīne khāṃ khaṅgha āhe.", "en": "She's had a cough for a month.", "focus": "مهيني", "wrong": ["مهينو|mahīno", "مهينا|mahīnā"] },
+        { "native": "توهان ڪيترن ڏينهن کان بيمار آهيو؟", "roman": "tavhāṃ ketiran ɗīṃhan khāṃ bīmāru āhyo?", "en": "How many days have you been ill?", "focus": "ڪيترن", "wrong": ["ڪيترا|ketirā", "ڪيترو|ketiro"] },
+        { "native": "مان ٻن سالن کان سنڌي سکي رهيو آهيان.", "roman": "māṃ ɓin sālan khāṃ sindhī sikhī rahyo āhiyāṃ.", "en": "I've been learning Sindhi for two years. (man)", "focus": "سالن", "wrong": ["سال|sāla", "سالي|sāle"] },
+        { "native": "رات جو سور وڌي ٿو وڃي، ڏينهن جو گهٽجي ٿو وڃي.", "roman": "rāti jo sūru vadhī tho vañe, ɗīṃha jo ghaṭjī tho vañe.", "en": "The pain gets worse at night and eases during the day." },
+        { "native": "ڪو فرق پيو؟ ها، بخار گهٽجي ويو آهي.", "roman": "ko farqu peyo? hā, buxāru ghaṭjī vayo āhe.", "en": "Any better? Yes, the fever has come down.", "focus": "ويو", "wrong": ["وئي|vaī", "ويا|vayā"] },
+        { "native": "سومر کان مان آفيس نه ويو آهيان.", "roman": "sūmara khāṃ māṃ āfīsa na vayo āhiyāṃ.", "en": "I haven't been to the office since Monday. (man)", "focus": "کان", "wrong": ["تائين|tāīṃ", "تي|te"] },
+        { "native": "ٽي ڏينهن ٿي ويا آهن، ڪو فرق نه پيو.", "roman": "ṭe ɗīṃha thī vayā āhin, ko farqu na peyo.", "en": "It's been three days and there's no improvement.", "focus": "ويا", "wrong": ["ويو|vayo", "وئي|vaī"] },
+        { "native": "مان ٻه هفتا اسپتال ۾ رهيس.", "roman": "māṃ ɓa haftā ispatāla meṃ rahyus.", "en": "I was in hospital for two weeks. (man; it's over)", "focus": "هفتا", "wrong": ["هفتن|haftan", "هفتي|hafte"] }
+      ]
+    },
+    {
+      "title": "Allergies, conditions and tests",
+      "new": ["الرجي", "بي پي", "شوگر", "رت", "ٽيسٽ", "ايڪسري", "مون کي پينسلين کان الرجي آهي.", "رت جو ٽيسٽ ڪرايو."],
+      "sentences": [
+        { "native": "ڇا توهان کي ڪنهن دوا کان الرجي آهي؟", "roman": "chhā tavhāṃ khe kanhin davā khāṃ alarjī āhe?", "en": "Are you allergic to any medicine?", "focus": "کان", "wrong": ["سان|sāṃ", "تي|te"] },
+        { "native": "مون کي پينسلين کان الرجي آهي. ڊاڪٽر کي ٻڌائجو.", "roman": "moṃ khe pensilin khāṃ alarjī āhe. ḍākṭara khe ɓudhāijo.", "en": "I'm allergic to penicillin. Please tell the doctor." },
+        { "native": "بابا کي بي پي ۽ شوگر آهي.", "roman": "bābā khe bī pī ai shūgaru āhe.", "en": "Dad has blood pressure and diabetes." },
+        { "native": "منهنجو بي پي وڌي ويو آهي.", "roman": "munhinjo bī pī vadhī vayo āhe.", "en": "My blood pressure has gone up.", "focus": "منهنجو", "wrong": ["منهنجي|munhinjī", "منهنجا|munhinjā"] },
+        { "native": "رت جو ٽيسٽ ڪرايو، پوءِ رپورٽ کڻي اچجو.", "roman": "rata jo ṭesṭu karāyo, poi riporṭa khaṇī achijo.", "en": "Get a blood test, then bring the report.", "focus": "اچجو", "wrong": ["اچ|achu", "اچان|achāṃ"] },
+        { "native": "ايڪسري ۾ ڪجهه به نه آيو.", "roman": "eksre meṃ kujhu bi na āyo.", "en": "Nothing showed up on the X-ray." },
+        { "native": "ٽيسٽ جي رپورٽ ڪڏهن ملندي؟", "roman": "ṭesṭa jī riporṭa kaɗahiṃ milandī?", "en": "When will the test report be ready?", "focus": "ملندي", "wrong": ["ملندو|milando", "ملندا|milandā"] },
+        { "native": "شوگر ۾ مٺو نه کائڻ گهرجي.", "roman": "shūgara meṃ miṭho na khāiṇu ghurje.", "en": "If you're diabetic you shouldn't eat sweet things." },
+        { "native": "ٽيسٽ لاءِ ٿورو رت ڏيڻو پوندو.", "roman": "ṭesṭa lāi thoro ratu ɗiyaṇo pavando.", "en": "You'll have to give a little blood for the test.", "focus": "ڏيڻو", "wrong": ["ڏيڻي|ɗiyaṇī", "ڏيڻا|ɗiyaṇā"] }
+      ]
+    },
+    {
+      "title": "Following the doctor's orders",
+      "tip": { "title": "Doctor's instructions: کائجو، نه پيئجو", "body": "- Instructions use the gentle **-jo** form: **کائجو** 'take', **پيئجو** 'drink', **ڪجو** 'do', **اچجو** 'come back'.\n- Negative: **نه** before it: ٿڌو پاڻي **نه پيئجو**.\n- Medicine is 'eaten': دوا **کائجو**.\n- When: ڏينهن ۾ ٻه ڀيرا · ماني کان پوءِ · خالي پيٽ · سمهڻ کان اڳ.", "pattern": "when + what + کائجو / پيئجو", "grammar": 1 },
+      "new": ["خوراڪ", "پرهيز", "خالي پيٽ", "احتياط", "ڏينهن ۾ ٻه ڀيرا، ماني کان پوءِ.", "هي گوري خالي پيٽ کائجو.", "ٿڌو پاڻي نه پيئجو.", "احتياط ڪجو!"],
+      "sentences": [
+        { "native": "هي دوا ڏينهن ۾ ٻه ڀيرا، ماني کان پوءِ کائجو.", "roman": "hī davā ɗīṃha meṃ ɓa bherā, mānī khāṃ poi khāijo.", "en": "Take this medicine twice a day, after food.", "focus": "کائجو", "wrong": ["کائڻ|khāiṇu", "کاڌو|khādho"] },
+        { "native": "هي گوري خالي پيٽ کائجو، صبح جو سوير.", "roman": "hī gorī xālī peṭa khāijo, subuh jo sver.", "en": "Take this tablet on an empty stomach, first thing in the morning.", "focus": "کائجو", "wrong": ["کائي|khāe", "کائيندو|khāīndo"] },
+        { "native": "ٿڌو پاڻي نه پيئجو، ۽ آرام ڪجو.", "roman": "thadho pāṇī na pījo, ai ārāmu kajo.", "en": "Don't drink cold water, and get some rest.", "focus": "پيئجو", "wrong": ["پيئڻ|pīaṇu", "پيتو|pīto"] },
+        { "native": "ٻار کي اڌ خوراڪ ڏجو.", "roman": "ɓāra khe adhu xurāka ɗijo.", "en": "Give the child half a dose.", "focus": "ڏجو", "wrong": ["ڏيڻ|ɗiyaṇu", "ڏنو|ɗino"] },
+        { "native": "کنڊ ۽ لوڻ کان پرهيز ڪجو.", "roman": "khanḍa ai lūṇa khāṃ parhezu kajo.", "en": "Cut out sugar and salt.", "focus": "کان", "wrong": ["سان|sāṃ", "۾|meṃ"] },
+        { "native": "دوا پوري کائجو، اڌ ۾ نه ڇڏجو.", "roman": "davā pūrī khāijo, adha meṃ na chhaɗijo.", "en": "Finish the whole course; don't stop halfway.", "focus": "ڇڏجو", "wrong": ["ڇڏيو|chhaɗyo", "ڇڏ|chhaɗu"] },
+        { "native": "سمهڻ کان اڳ هي شربت پيئجو.", "roman": "sumhaṇa khāṃ aɠu hī sharbatu pījo.", "en": "Drink this syrup before bed.", "focus": "اڳ", "wrong": ["پوءِ|poi", "پري|pare"] },
+        { "native": "احتياط ڪجو! ٻاهر ڏاڍي گرمي آهي.", "roman": "ehtiyāta kajo! ɓāhari ɗāḍhī garmī āhe.", "en": "Take care! It's really hot outside." },
+        { "native": "ڊاڪٽر چيو ته ٽن ڏينهن کان پوءِ وري اچجو.", "roman": "ḍākṭara chayo ta ṭin ɗīṃhan khāṃ poi varī achijo.", "en": "The doctor said to come back after three days.", "focus": "اچجو", "wrong": ["اچ|achu", "آيو|āyo"] },
+        { "native": "توهان کي گهڻو پاڻي پيئڻ گهرجي.", "roman": "tavhāṃ khe ghaṇo pāṇī pīaṇu ghurje.", "en": "You should drink plenty of water." }
+      ]
+    },
+    {
+      "title": "Clinics, appointments and hospital",
+      "new": ["اپائنٽمينٽ", "ڪلينڪ", "ايمرجنسي", "چيڪ اپ", "داخل ٿيڻ", "توهان کي ڇا تڪليف آهي؟", "ڊاڪٽر صاحب سان اپائنٽمينٽ ملي سگهي ٿي؟", "هن کي اسپتال ۾ داخل ڪيو ويو آهي."],
+      "sentences": [
+        { "native": "ڊاڪٽر صاحب سان اپائنٽمينٽ ملي سگهي ٿي؟ سڀاڻي شام جو؟", "roman": "ḍākṭar sāhib sāṃ apāinṭmenṭa milī saghe thī? subhāṇe shāma jo?", "en": "Can I get an appointment with the doctor? Tomorrow evening?" },
+        { "native": "ڪلينڪ شام جو ڇهين وڳي کان ڏهين وڳي تائين آهي.", "roman": "kalīnika shāma jo chhahīṃ vaɠe khāṃ ɗahīṃ vaɠe tāīṃ āhe.", "en": "The clinic is open from six to ten in the evening.", "focus": "تائين", "wrong": ["۾|meṃ", "تي|te"] },
+        { "native": "سال ۾ هڪ ڀيرو چيڪ اپ ڪرائڻ گهرجي.", "roman": "sāla meṃ hiku bhero chek apu karāiṇu ghurje.", "en": "You should have a check-up once a year." },
+        { "native": "جلدي ڪريو، ايمرجنسيءَ ۾ هلو!", "roman": "jaldī karyo, emarjansīa meṃ halo!", "en": "Quick, let's get to A&E!" },
+        { "native": "هن کي اسپتال ۾ داخل ڪيو ويو آهي. هاڻي ٺيڪ آهي.", "roman": "hun khe ispatāla meṃ dāxilu kayo vayo āhe. hāṇe ṭhīku āhe.", "en": "He's been admitted to hospital. He's OK now.", "focus": "ڪيو", "wrong": ["ڪئي|kaī", "ڪيا|kayā"] },
+        { "native": "منهنجي ناني ٻن ڏينهن کان اسپتال ۾ داخل آهي.", "roman": "munhinjī nānī ɓin ɗīṃhan khāṃ ispatāla meṃ dāxilu āhe.", "en": "My grandmother has been in hospital for two days.", "focus": "کان", "wrong": ["تائين|tāīṃ", "۾|meṃ"] },
+        { "native": "توهان کي ڇا تڪليف آهي؟ مٿي ۾ سور آهي؟", "roman": "tavhāṃ khe chhā takalīfa āhe? mathe meṃ sūru āhe?", "en": "What's the problem? Have you got a headache?" },
+        { "native": "ڪلينڪ ۾ ڏاڍا ماڻهو هئا.", "roman": "kalīnika meṃ ɗāḍhā māṇhū huā.", "en": "The clinic was packed.", "focus": "هئا", "wrong": ["هو|ho", "هئي|huī"] },
+        { "native": "اسين هن کي ڏسڻ لاءِ اسپتال وياسين.", "roman": "asīṃ hun khe ɗisaṇa lāi ispatāla vayāsīṃ.", "en": "We went to the hospital to see him.", "focus": "وياسين", "wrong": ["ويس|viyus", "ويا|vayā"] }
+      ]
+    }
+  ]
+}

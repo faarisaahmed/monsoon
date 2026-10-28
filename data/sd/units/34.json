@@ -1,0 +1,172 @@
+{
+  "id": 34,
+  "title": "Phones, apps & payments",
+  "goal": "Sort out a phone or app that won't work, pay and send money by phone, shop online, and talk about posts, likes and follows — the way people in Sindh actually do.",
+  "intro": "Phone Sindhi is half English, and that's fine: **ايپ اپڊيٽ ڪر**, **ڪوڊ اسڪين ڪريو**, **پوسٽ وائرل ٿي وئي**. The trick is the Sindhi verb that comes after the English word — **ڪرڻ** when *you* do it, **ٿيڻ** when it just *happens* — and that verb carries all the grammar.\n\nYou'll also practise **real conditionals** the way people use them with technology: **جيڪڏهن ڪوڊ نه آيو ته …** 'if the code doesn't come …', often shortened to just **… ته …**. And you'll learn to pay the Pakistani way — by JazzCash, Easypaisa and QR code — with a screenshot as proof.",
+  "vocab": [
+    { "native": "هينگ ٿيڻ", "roman": "haingu thiyaṇu", "en": "to freeze, hang (phone, app)", "pos": "verb", "note": "فون هينگ ٿي ويو 'the phone froze'." },
+    { "native": "اپڊيٽ", "roman": "apḍeṭa", "en": "update", "pos": "noun", "note": "f · اپڊيٽ ڪرڻ 'to update (something)' · اپڊيٽ ٿيڻ 'to update, get updated'." },
+    { "native": "ڊائونلوڊ ڪرڻ", "roman": "ḍāunloḍu karaṇu", "en": "to download", "pos": "verb", "note": "Intransitive: ڊائونلوڊ ٿيڻ 'to be downloading / downloaded'." },
+    { "native": "کولڻ", "roman": "kholaṇu", "en": "to open; to switch on", "pos": "verb", "note": "ايپ کولڻ 'to open an app' · اڪائونٽ کولڻ 'to open an account'. Intransitive: کلڻ khulaṇu 'to open' (ايپ نٿي کلي 'the app won't open')." },
+    { "native": "دٻائڻ", "roman": "daɓāiṇu", "en": "to press", "pos": "verb", "note": "بٽڻ دٻايو 'press the button'." },
+    { "native": "بٽڻ", "roman": "baṭaṇu", "en": "button", "pos": "noun", "note": "m · نيرو بٽڻ 'the blue button'." },
+    { "native": "سيٽنگ", "roman": "seṭinga", "en": "settings", "pos": "noun", "note": "f · سيٽنگ ۾ وڃو 'go into settings'. Also plural سيٽنگز." },
+    { "native": "هيڪ ٿيڻ", "roman": "heku thiyaṇu", "en": "to get hacked", "pos": "verb", "note": "اڪائونٽ هيڪ ٿي ويو 'the account got hacked'." },
+    { "native": "اڪائونٽ", "roman": "akāunṭu", "en": "account (app, social media, bank)", "pos": "noun", "note": "m · oblique اڪائونٽ akāunṭa. For a bank account people also say کاتو." },
+    { "native": "ڪوڊ", "roman": "koḍu", "en": "code (QR code, one-time code)", "pos": "noun", "note": "m · ڪوڊ اسڪين ڪرڻ 'to scan a QR code' · ڪوڊ آيو؟ 'did the code come?'" },
+    { "native": "لنڪ", "roman": "linku", "en": "link", "pos": "noun", "note": "m · لنڪ موڪلڻ 'to send a link'." },
+    { "native": "پيمينٽ", "roman": "pemenṭa", "en": "payment", "pos": "noun", "note": "f · پيمينٽ ڪرڻ 'to pay' · پيمينٽ ٿي وئي 'the payment went through'. Formal: ادائيگي." },
+    { "native": "ٽرانسفر ڪرڻ", "roman": "ṭrānsfaru karaṇu", "en": "to transfer (money)", "pos": "verb", "note": "Intransitive: ٽرانسفر ٿيڻ 'to go through'." },
+    { "native": "اسڪين ڪرڻ", "roman": "iskainu karaṇu", "en": "to scan", "pos": "verb", "note": "ڪوڊ اسڪين ڪريو 'scan the code'." },
+    { "native": "بيلنس", "roman": "bailansu", "en": "balance (in an account or wallet)", "pos": "noun", "note": "m · بيلنس ناهي 'there's no balance'." },
+    { "native": "اسڪرين شاٽ", "roman": "skrīn shāṭu", "en": "screenshot", "pos": "noun", "note": "m · the standard proof of payment: اسڪرين شاٽ موڪليو." },
+    { "native": "سوشل ميڊيا", "roman": "soshal meḍiyā", "en": "social media", "pos": "noun", "note": "سوشل ميڊيا تي 'on social media'." },
+    { "native": "پوسٽ", "roman": "posṭa", "en": "post", "pos": "noun", "note": "f · pl پوسٽون posṭūṃ · پوسٽ ڪرڻ 'to post'." },
+    { "native": "فوٽو", "roman": "foṭo", "en": "photo", "pos": "noun", "note": "m · فوٽو ڪڍڻ 'to take a photo'. Native Sindhi: تصوير tasvīra (f)." },
+    { "native": "شيئر ڪرڻ", "roman": "shearu karaṇu", "en": "to share", "pos": "verb", "note": "X سان شيئر ڪرڻ 'to share with X'." },
+    { "native": "فالو ڪرڻ", "roman": "fālo karaṇu", "en": "to follow (on social media)", "pos": "verb", "note": "X کي فالو ڪرڻ — the person followed takes کي." },
+    { "native": "لائيڪ", "roman": "lāiku", "en": "a like", "pos": "noun", "note": "m · پنج هزار لائيڪ 'five thousand likes' · لائيڪ ڪرڻ 'to like'." },
+    { "native": "ڪمينٽ", "roman": "kamenṭu", "en": "comment", "pos": "noun", "note": "m · ڪمينٽ ۾ لکو 'write it in the comments'." },
+    { "native": "وائرل", "roman": "vāiral", "en": "viral", "pos": "adj", "note": "invariable · وائرل ٿيڻ 'to go viral'." },
+    { "native": "شاپنگ", "roman": "shāpinga", "en": "shopping", "pos": "noun", "note": "f · آن لائين شاپنگ 'online shopping'." },
+    { "native": "سيل", "roman": "sela", "en": "sale (discount)", "pos": "noun", "note": "f · سيل لڳي آهي 'there's a sale on'." },
+    { "native": "آفر", "roman": "āfara", "en": "offer, deal", "pos": "noun", "note": "f · هيءَ آفر رڳو اڄ تائين آهي 'this offer is only till today'." }
+  ],
+  "phrases": [
+    { "native": "منهنجو فون هينگ ٿي ويو آهي.", "roman": "munhinjo fon haingu thī vayo āhe.", "en": "My phone has frozen." },
+    { "native": "ايپ اپڊيٽ ڪر، پوءِ هلندي.", "roman": "aip apḍeṭa karu, poi halandī.", "en": "Update the app, then it'll work. (informal)", "note": "ايپ is feminine, so هلندي." },
+    { "native": "منهنجو اڪائونٽ هيڪ ٿي ويو آهي!", "roman": "munhinjo akāunṭu heku thī vayo āhe!", "en": "My account's been hacked!" },
+    { "native": "جيڪڏهن ڪوڊ نه آيو ته وري ڪوشش ڪجو.", "roman": "jekaɗahiṃ koḍu na āyo ta varī koshisha kajo.", "en": "If the code doesn't come, try again." },
+    { "native": "مون کي لنڪ موڪل.", "roman": "moṃ khe linku mokilu.", "en": "Send me the link. (informal)", "note": "Polite: مون کي لنڪ موڪليو." },
+    { "native": "پئسا جاز ڪيش ڪري ڇڏيان؟", "roman": "paisā jāz kaish karī chhaɗyāṃ?", "en": "Shall I just JazzCash you the money?", "note": "Brand names work as verbs with ڪرڻ: ايزي پيسا ڪرڻ too." },
+    { "native": "ڪوڊ اسڪين ڪريو.", "roman": "koḍu iskainu karyo.", "en": "Scan the code." },
+    { "native": "پئسا ٽرانسفر ٿي ويا.", "roman": "paisā ṭrānsfaru thī vayā.", "en": "The money has gone through." },
+    { "native": "پئسا اڃا نه پهتا.", "roman": "paisā añā na pahutā.", "en": "The money hasn't arrived yet." },
+    { "native": "هي فوٽو ڪنهن سان شيئر نه ڪر!", "roman": "hī foṭo kanhin sāṃ shearu na karu!", "en": "Don't share this photo with anyone! (informal)" },
+    { "native": "مون کي انسٽاگرام تي فالو ڪر.", "roman": "moṃ khe insṭāgrām te fālo karu.", "en": "Follow me on Instagram. (informal)" },
+    { "native": "تنهنجي پوسٽ وائرل ٿي وئي آهي!", "roman": "tunhinjī posṭa vāiral thī vaī āhe!", "en": "Your post has gone viral!" },
+    { "native": "ڊراز تي سيل لڳي آهي!", "roman": "ḍarāz te sela laɠī āhe!", "en": "There's a sale on Daraz!" }
+  ],
+  "grammar": [
+    {
+      "title": "Real conditionals in practice: جيڪڏهن … ته …, and just … ته …",
+      "body": "Unit 19 introduced **جيڪڏهن … ته …** 'if … then …'. With phones and payments you'll use it constantly, so here is how it really works in speech.\n\n**1. The if-clause often uses the past for the future.** Where English says *if the code **doesn't come***, Sindhi often says 'if the code **didn't come**': جيڪڏهن ڪوڊ نه **آيو** ته … · جيڪڏهن پئسا نه **پهتا** ته … This past form looks backwards but means 'if (at that point) it hasn't happened'.\n\n**2. Present for things true right now:** جيڪڏهن نيٽ **نٿو هلي** ته … 'if the internet isn't working (now)'. **Subjunctive** for open possibilities and offers: جيڪڏهن توهان **چاهيو** ته … 'if you like …', جيڪڏهن فون هينگ **ٿئي** ته … 'if the phone (ever) freezes'.\n\n**3. Drop جيڪڏهن.** In quick speech the **ته** in the middle is enough to mark a condition: پئسا نه پهتا **ته** ٻڌاءِ 'let me know if the money doesn't arrive'. Don't drop ته, though — it is the real signal.\n\n**4. The then-clause** is an instruction (imperative or -jo form), a future, or a general present: … ته وري ڪوشش ڪجو · … ته رعايت ملندي · … ته مهانگو ٿو ملي.\n\n**Even if** = جيڪڏهن … **ته به**: جيڪڏهن سيل آهي **ته به** نه وٺندس 'even if there's a sale, I won't buy it'. **Otherwise** = **نه ته** (unit 19): جلدي پيمينٽ ڪريو، نه ته آفر ختم ٿي ويندي.",
+      "examples": [
+        { "native": "جيڪڏهن نيٽ نٿو هلي ته وائي فائي بند ڪري ڏس.", "roman": "jekaɗahiṃ neṭ natho hale ta vāī fāī bandu karī ɗisu.", "en": "If the internet isn't working, try switching the wifi off." },
+        { "native": "جيڪڏهن هاڻي پيمينٽ ڪئي ته ڏهه سيڪڙو رعايت ملندي.", "roman": "jekaɗahiṃ hāṇe pemenṭa kaī ta ɗaha sekiṛo riʿāyata milandī.", "en": "If you pay now, you get ten percent off." },
+        { "native": "پئسا نه پهتا ته ٻڌاءِ.", "roman": "paisā na pahutā ta ɓudhāi.", "en": "Let me know if the money doesn't arrive. (no جيڪڏهن)" },
+        { "native": "جيڪڏهن فون هينگ ٿئي ته بند ڪري وري کوليو.", "roman": "jekaɗahiṃ fon haingu thie ta bandu karī varī kholyo.", "en": "If the phone freezes, switch it off and on again." },
+        { "native": "جيڪڏهن سيل آهي ته به مان نه وٺندس.", "roman": "jekaɗahiṃ sela āhe ta bi māṃ na vaṭhandus.", "en": "Even if there's a sale, I'm not buying it. (man)" }
+      ]
+    },
+    {
+      "title": "English words + ڪرڻ / ٿيڻ",
+      "body": "Tech English comes into Sindhi as a **noun + a Sindhi verb**, and the Sindhi verb carries all the grammar — tense, person, gender.\n\n**+ ڪرڻ** when someone does it to something (transitive): **ڊائونلوڊ ڪرڻ**، **شيئر ڪرڻ**، **فالو ڪرڻ**، **اسڪين ڪرڻ**، **اپڊيٽ ڪرڻ**، **ٽرانسفر ڪرڻ**، **پوسٽ ڪرڻ**.\n**+ ٿيڻ** when it just happens (intransitive): **ڊائونلوڊ ٿيڻ**، **اپڊيٽ ٿيڻ**، **ٽرانسفر ٿيڻ**، **هينگ ٿيڻ**، **هيڪ ٿيڻ**، **وائرل ٿيڻ**.\nIt is the same pair you know from Sindhi words: شروع ڪرڻ / شروع ٿيڻ (unit 16), ختم ڪرڻ / ختم ٿيڻ.\n\n**In the past**, the normal rules apply (unit 16):\n• with **ڪرڻ**, the doer is oblique (مون، تو، هن) and ڪيو / ڪئي / ڪيا agrees with the **object**: مون فوٽو شيئر **ڪيو** (فوٽو m) · مون پوسٽ شيئر **ڪئي** (پوسٽ f) · مون پئسا ٽرانسفر **ڪيا** (pl).\n• with **ٿيڻ**, the verb agrees with the **subject**: فون هينگ **ٿي ويو** (m) · ايپ اپڊيٽ **ٿي وئي** (f) · پئسا ٽرانسفر **ٿي ويا** (pl).\n\n**Gender of English words**: each gets one, and you learn it with the word. Many are masculine (فوٽو، لنڪ، ڪوڊ، اڪائونٽ، بٽڻ، لائيڪ، ڪمينٽ), but quite a few are feminine — ايپ، پوسٽ، پيمينٽ، اپڊيٽ، سيل، آفر، شاپنگ.\n\nAnd don't forget the plain Sindhi verbs that go with phones: **کولڻ** 'open', **بند ڪرڻ** 'close, switch off', **دٻائڻ** 'press', **هلڻ** 'work, run' (نيٽ نٿو هلي), **موڪلڻ** 'send'.",
+      "examples": [
+        { "native": "مون تنهنجي پوسٽ شيئر ڪئي.", "roman": "moṃ tunhinjī posṭa shearu kaī.", "en": "I shared your post. (پوسٽ f → ڪئي)" },
+        { "native": "هن مون کي فالو ڪيو.", "roman": "hun moṃ khe fālo kayo.", "en": "She followed me." },
+        { "native": "ايپ اپڊيٽ ٿي وئي.", "roman": "aip apḍeṭa thī vaī.", "en": "The app has updated. (ايپ f → ٿي وئي)" },
+        { "native": "فائل ڊائونلوڊ ٿي رهي آهي.", "roman": "fāila ḍāunloḍu thī rahī āhe.", "en": "The file is downloading." },
+        { "native": "هيءَ ايپ کوليو ۽ ڳاڙهو بٽڻ دٻايو.", "roman": "hīa aip kholyo ai ɠāṛho baṭaṇu daɓāyo.", "en": "Open this app and press the red button." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The Daraz sale",
+    "setting": "Sassui and Hamid, students at Sindh University in Jamshoro, are sitting in the canteen between classes.",
+    "lines": [
+      { "speaker": "Sassui", "native": "حامد، ڊراز تي سيل لڳي آهي! هيڊفون اڌ قيمت تي!", "roman": "hāmid, ḍarāz te sela laɠī āhe! heḍfon adha qīmata te!", "en": "Hamid, there's a sale on Daraz! Headphones at half price!" },
+      { "speaker": "Hamid", "native": "واقعي؟ لنڪ موڪل.", "roman": "vāqaʿī? linku mokilu.", "en": "Really? Send me the link." },
+      { "speaker": "Sassui", "native": "موڪليم، واٽس ايپ ڏس.", "roman": "mokilyum, vāṭs aip ɗisu.", "en": "Sent it — check WhatsApp." },
+      { "speaker": "Hamid", "native": "کلي ئي نٿي! منهنجو فون وري هينگ ٿي ويو.", "roman": "khule ī nathī! munhinjo fon varī haingu thī vayo.", "en": "It won't even open! My phone's frozen again." },
+      { "speaker": "Sassui", "native": "ايپ اپڊيٽ ڪر، يار. ٽي مهينا ٿي ويا آهن!", "roman": "aip apḍeṭa karu, yār. ṭe mahīnā thī vayā āhin!", "en": "Update the app, mate. It's been three months!" },
+      { "speaker": "Hamid", "native": "ٺيڪ آهي، ٿي وئي. واهه، سستا آهن! پر رڳو آن لائين پيمينٽ آهي.", "roman": "ṭhīku āhe, thī vaī. vāh, sastā āhin! para raɠo ān lāin pemenṭa āhe.", "en": "OK, done. Wow, they're cheap! But it's online payment only." },
+      { "speaker": "Sassui", "native": "ڪا ڳالهه ناهي، مان جاز ڪيش تان ڪري ٿي ڇڏيان. تون مون کي پوءِ پئسا ڏجانءِ.", "roman": "kā ɠālhi nāhe, māṃ jāz kaish tāṃ karī thī chhaɗyāṃ. tūṃ moṃ khe poi paisā ɗijāṃi.", "en": "No problem, I'll pay with my JazzCash. You can give me the money later." },
+      { "speaker": "Hamid", "native": "پڪ؟ جيڪڏهن پئسا ڪٽجي ويا ۽ شيءِ نه آئي ته؟", "roman": "paka? jekaɗahiṃ paisā kaṭjī vayā ai shayi na āī ta?", "en": "Sure? What if the money gets taken and the thing never comes?" },
+      { "speaker": "Sassui", "native": "نه آئي ته شڪايت ڪنداسين، ٻيو ڇا! بس، پيمينٽ ٿي وئي.", "roman": "na āī ta shikāyata kandāsīṃ, ɓiyo chhā! bas, pemenṭa thī vaī.", "en": "If it doesn't, we'll complain — what else! There, the payment's gone through." },
+      { "speaker": "Hamid", "native": "مهرباني! ۽ ٻڌ، ڪالهه واري ويڊيو تو ڏٺي؟", "roman": "meharbānī! ai ɓudhu, kālha vārī viḍiyo to ɗiṭhī?", "en": "Thanks! And listen — did you see yesterday's video?" },
+      { "speaker": "Sassui", "native": "ڪهڙي؟ تنهنجي ۽ ٻلي واري؟", "roman": "kahiṛī? tunhinjī ai ɓilī vārī?", "en": "Which one? The one with you and the cat?" },
+      { "speaker": "Hamid", "native": "ها! ٽڪ ٽاڪ تي وائرل ٿي وئي آهي — ويهه هزار لائيڪ!", "roman": "hā! ṭik ṭāk te vāiral thī vaī āhe — vīha hazāra lāika!", "en": "Yes! It's gone viral on TikTok — twenty thousand likes!" },
+      { "speaker": "Sassui", "native": "ڇا ڳالهه آهي! ته پوءِ هيڊفون جا پئسا اڄ ئي ڏيندين، اسٽار صاحب!", "roman": "chhā ɠālhi āhe! ta poi heḍfon jā paisā aʄu ī ɗīndeṃ, isṭār sāhib!", "en": "Wow! Then you'll pay me for the headphones today, Mr Star!" }
+    ]
+  },
+  "culture": "In Pakistan the phone wallet is king. **JazzCash** and **Easypaisa** are everywhere — even in small towns in Sindh — for sending money home, paying bills, splitting a meal or paying a rickshaw, and their names work as verbs: **پئسا جاز ڪيش ڪر**. Shops increasingly show a QR code for **Raast** bank transfers, but cash is still common, and online shops like Daraz usually offer cash on delivery. After any transfer, people send a **اسڪرين شاٽ** as proof — asking for one isn't rude.\n\nWhatsApp is the backbone of social life (family groups, voice notes, forwarded 'good morning' images), Facebook is huge with older users, and TikTok and YouTube are full of Sindhi comedy, music and news. Many young people write Sindhi on their phones in the **Roman alphabet** ('kithe aahin?') rather than in Sindhi script, though Sindhi keyboards are easy to install.\n\nTech talk mixes languages freely — **ايپ اپڊيٽ ڪر**, **نيٽ نٿو هلي**, **اڪائونٽ هيڪ ٿي ويو** — and nobody expects you to use a 'pure' Sindhi word for 'download'. Do watch out for scam calls and messages asking for your **ڪوڊ**: banks and wallets never ask for it.",
+  "lessons": [
+    {
+      "title": "When your phone won't work",
+      "tip": { "title": "English word + ڪرڻ or ٿيڻ", "body": "- **ڪرڻ** when you do it: ايپ اپڊيٽ **ڪر**، ڊائونلوڊ **ڪريو**.\n- **ٿيڻ** when it just happens: فون هينگ **ٿي ويو**، ايپ اپڊيٽ **ٿي وئي**.\n- Past with ڪرڻ: ڪيو / ڪئي agrees with the **object**: مون ايپ ڊائونلوڊ **ڪئي** (ايپ f).", "pattern": "English noun + ڪرڻ / ٿيڻ", "grammar": 1 },
+      "new": ["هينگ ٿيڻ", "اپڊيٽ", "ڊائونلوڊ ڪرڻ", "کولڻ", "دٻائڻ", "بٽڻ", "سيٽنگ", "منهنجو فون هينگ ٿي ويو آهي.", "ايپ اپڊيٽ ڪر، پوءِ هلندي."],
+      "sentences": [
+        { "native": "منهنجو فون هينگ ٿي ويو آهي، ڪجهه به نٿو کلي.", "roman": "munhinjo fon haingu thī vayo āhe, kujhu bi natho khule.", "en": "My phone's frozen; nothing will open.", "focus": "ويو", "wrong": ["وئي|vaī", "ويا|vayā"] },
+        { "native": "ايپ اپڊيٽ ڪر، پوءِ هلندي، يار.", "roman": "aip apḍeṭa karu, poi halandī, yār.", "en": "Update the app, then it'll work, mate.", "focus": "ڪر", "wrong": ["ٿيءُ|thīu", "ٿي|thī"] },
+        { "native": "ايپ اپڊيٽ ٿي وئي، هاڻي ٺيڪ پئي هلي.", "roman": "aip apḍeṭa thī vaī, hāṇe ṭhīku paī hale.", "en": "The app's updated; it's working fine now.", "focus": "ٿي", "wrong": ["ڪئي|kaī", "ڪر|karu"] },
+        { "native": "سيٽنگ ۾ وڃ ۽ نيٽ بند ڪري کول.", "roman": "seṭinga meṃ vañu ai neṭ bandu karī kholu.", "en": "Go into settings and switch your data off and on again.", "focus": "کول", "wrong": ["کولي|khole", "کولڻ|kholaṇu"] },
+        { "native": "هي ايپ ڪيئن کولجي؟", "roman": "hī aip kīeṃ kholije?", "en": "How do you open this app?" },
+        { "native": "نيرو بٽڻ دٻايو.", "roman": "nīro baṭaṇu daɓāyo.", "en": "Press the blue button." },
+        { "native": "مون غلطيءَ سان غلط بٽڻ دٻايو!", "roman": "moṃ ġalatīa sāṃ ġalatu baṭaṇu daɓāyo!", "en": "I pressed the wrong button by mistake!", "focus": "دٻايو", "wrong": ["دٻائي|daɓāī", "دٻايا|daɓāyā"] },
+        { "native": "اپڊيٽ ڊائونلوڊ ٿي رهي آهي، ٿورو ترس.", "roman": "apḍeṭa ḍāunloḍu thī rahī āhe, thoro tarsu.", "en": "The update's downloading, hang on a bit.", "focus": "رهي", "wrong": ["رهيو|rahyo", "رهيا|rahyā"] },
+        { "native": "ڪالهه مون نئين ايپ ڊائونلوڊ ڪئي.", "roman": "kālha moṃ naīṃ aip ḍāunloḍu kaī.", "en": "I downloaded a new app yesterday.", "focus": "ڪئي", "wrong": ["ڪيو|kayo", "ٿي|thī"] },
+        { "native": "فون بند ڪري وري کول، پوءِ ڏس.", "roman": "fon bandu karī varī kholu, poi ɗisu.", "en": "Switch the phone off and on again, then see." }
+      ]
+    },
+    {
+      "title": "If it goes wrong: codes, links and hacks",
+      "tip": { "title": "If … then: جيڪڏهن … ته", "body": "- The if-clause often uses the **past** for the future: جيڪڏهن ڪوڊ نه **آيو** ته … 'if the code doesn't come'.\n- **ته** starts the then-part, and in speech it's enough on its own: پئسا نه پهتا **ته** ٻڌاءِ.\n- Then-part: an instruction or a future.", "pattern": "(جيڪڏهن) + past / present + ته + instruction", "grammar": 0 },
+      "new": ["هيڪ ٿيڻ", "اڪائونٽ", "ڪوڊ", "لنڪ", "منهنجو اڪائونٽ هيڪ ٿي ويو آهي!", "جيڪڏهن ڪوڊ نه آيو ته وري ڪوشش ڪجو.", "مون کي لنڪ موڪل."],
+      "sentences": [
+        { "native": "جيڪڏهن ڪوڊ نه آيو ته وري ڪوشش ڪجو، سائين.", "roman": "jekaɗahiṃ koḍu na āyo ta varī koshisha kajo, sāīṃ.", "en": "If the code doesn't come, try again, sir.", "focus": "آيو", "wrong": ["آيس|āyus", "آيا|āyā"] },
+        { "native": "منهنجو اڪائونٽ هيڪ ٿي ويو آهي! هاڻي ڇا ڪريان؟", "roman": "munhinjo akāunṭu heku thī vayo āhe! hāṇe chhā karyāṃ?", "en": "My account's been hacked! What do I do now?", "focus": "ٿي", "wrong": ["ڪيو|kayo", "ڪري|kare"] },
+        { "native": "اڪائونٽ هيڪ ٿيو ته پاسورڊ مٽائي ڇڏ.", "roman": "akāunṭu heku thiyo ta pāsvarḍ maṭāī chhaɗu.", "en": "If your account gets hacked, change your password straight away.", "focus": "ته", "wrong": ["۽|ai", "پر|para"] },
+        { "native": "مون کي لنڪ موڪل، مان ڏسان ٿو.", "roman": "moṃ khe linku mokilu, māṃ ɗisāṃ tho.", "en": "Send me the link, I'll have a look. (man)", "focus": "موڪل", "wrong": ["موڪلي|mokile", "موڪليم|mokilyum"] },
+        { "native": "جيڪڏهن ڪو لنڪ عجيب لڳي ته نه کوليو.", "roman": "jekaɗahiṃ ko linku ʿajību laɠe ta na kholyo.", "en": "If a link looks weird, don't open it.", "focus": "لڳي", "wrong": ["لڳن|laɠan", "لڳان|laɠāṃ"] },
+        { "native": "ڪوڊ ڪنهن کي به نه ٻڌائجو.", "roman": "koḍu kanhin khe bi na ɓudhāijo.", "en": "Never tell anyone the code." },
+        { "native": "نيٽ نه هليو ته ڪوڊ ڪيئن ايندو؟", "roman": "neṭ na halyo ta koḍu kīeṃ endo?", "en": "If the internet doesn't work, how will the code come?", "focus": "ته", "wrong": ["۽|ai", "پر|para"] },
+        { "native": "جيڪڏهن توهان چاهيو ته مان اڪائونٽ کولي ڏيان.", "roman": "jekaɗahiṃ tavhāṃ chāhyo ta māṃ akāunṭu kholī ɗiyāṃ.", "en": "If you like, I'll set up the account for you.", "focus": "چاهيو", "wrong": ["چاهيان|chāhyāṃ", "چاهي|chāhe"] }
+      ]
+    },
+    {
+      "title": "Paying by phone",
+      "tip": { "title": "JazzCash, Easypaisa and screenshots", "body": "- Brand names become verbs: پئسا **جاز ڪيش ڪرڻ** / **ايزي پيسا ڪرڻ**.\n- You transfer: **ٽرانسفر ڪرڻ**; it goes through: **ٽرانسفر ٿيڻ**.\n- 'Not yet' = **اڃا نه**: پئسا اڃا نه پهتا.\n- Ask for an **اسڪرين شاٽ** as proof — that's normal." },
+      "new": ["پيمينٽ", "ٽرانسفر ڪرڻ", "اسڪين ڪرڻ", "بيلنس", "اسڪرين شاٽ", "پئسا جاز ڪيش ڪري ڇڏيان؟", "ڪوڊ اسڪين ڪريو.", "پئسا ٽرانسفر ٿي ويا.", "پئسا اڃا نه پهتا."],
+      "sentences": [
+        { "native": "ادا، پئسا جاز ڪيش ڪري ڇڏيان؟", "roman": "adā, paisā jāz kaish karī chhaɗyāṃ?", "en": "Bhai, shall I just JazzCash you the money?" },
+        { "native": "ڪوڊ اسڪين ڪريو، پيمينٽ ٿي ويندي.", "roman": "koḍu iskainu karyo, pemenṭa thī vendī.", "en": "Scan the code and the payment will go through.", "focus": "ويندي", "wrong": ["ويندو|vendo", "ويندا|vendā"] },
+        { "native": "پئسا ٽرانسفر ٿي ويا، اسڪرين شاٽ موڪليان؟", "roman": "paisā ṭrānsfaru thī vayā, skrīn shāṭu mokilyāṃ?", "en": "The money's gone through — shall I send a screenshot?", "focus": "ويا", "wrong": ["ويو|vayo", "وئي|vaī"] },
+        { "native": "پئسا اڃا نه پهتا. ڪهڙي نمبر تي موڪليا؟", "roman": "paisā añā na pahutā. kahiṛe nambara te mokilyā?", "en": "The money hasn't arrived yet. Which number did you send it to?", "focus": "پهتا", "wrong": ["پهتو|pahuto", "پهتي|pahutī"] },
+        { "native": "منهنجي اڪائونٽ ۾ بيلنس ناهي.", "roman": "munhinje akāunṭa meṃ bailansu nāhe.", "en": "There's no balance in my account.", "focus": "منهنجي", "wrong": ["منهنجو|munhinjo", "منهنجا|munhinjā"] },
+        { "native": "دڪاندار کي پيمينٽ ڪئي؟", "roman": "dukāndāra khe pemenṭa kaī?", "en": "Did you pay the shopkeeper?", "focus": "ڪئي", "wrong": ["ڪيو|kayo", "ڪيا|kayā"] },
+        { "native": "مون امان کي ڏهه هزار ٽرانسفر ڪيا.", "roman": "moṃ amāṃ khe ɗaha hazāra ṭrānsfaru kayā.", "en": "I transferred ten thousand to Mum.", "focus": "ڪيا", "wrong": ["ڪيو|kayo", "ڪئي|kaī"] },
+        { "native": "هتي ڪارڊ هلي ٿو يا رڳو نقد؟", "roman": "hite kārḍu hale tho yā raɠo naqdu?", "en": "Do you take cards here, or only cash?" },
+        { "native": "پيمينٽ جو اسڪرين شاٽ ضرور موڪلجو.", "roman": "pemenṭa jo skrīn shāṭu zarūr mokilijo.", "en": "Be sure to send a screenshot of the payment." }
+      ]
+    },
+    {
+      "title": "Posting, sharing and following",
+      "new": ["سوشل ميڊيا", "پوسٽ", "فوٽو", "شيئر ڪرڻ", "فالو ڪرڻ", "هي فوٽو ڪنهن سان شيئر نه ڪر!", "مون کي انسٽاگرام تي فالو ڪر."],
+      "sentences": [
+        { "native": "هي فوٽو ڪنهن سان شيئر نه ڪر! مان ڏاڍو خراب پيو لڳان.", "roman": "hī foṭo kanhin sāṃ shearu na karu! māṃ ɗāḍho xarābu peyo laɠāṃ.", "en": "Don't share this photo with anyone! I look awful. (man)" },
+        { "native": "تو منهنجي پوسٽ شيئر ڪئي؟ مهرباني!", "roman": "to munhinjī posṭa shearu kaī? meharbānī!", "en": "You shared my post? Thanks!", "focus": "ڪئي", "wrong": ["ڪيو|kayo", "ڪيا|kayā"] },
+        { "native": "هن سوشل ميڊيا تي اسان جو فوٽو پوسٽ ڪيو.", "roman": "hun soshal meḍiyā te asāṃ jo foṭo posṭa kayo.", "en": "She posted our photo on social media.", "focus": "ڪيو", "wrong": ["ڪئي|kaī", "ڪيا|kayā"] },
+        { "native": "مون کي انسٽاگرام تي فالو ڪر، يار.", "roman": "moṃ khe insṭāgrām te fālo karu, yār.", "en": "Follow me on Instagram, mate.", "focus": "ڪر", "wrong": ["ٿيءُ|thīu", "ڪري|kare"] },
+        { "native": "مان توهان کي فيسبوڪ تي فالو ڪريان ٿو.", "roman": "māṃ tavhāṃ khe fesbuk te fālo karyāṃ tho.", "en": "I follow you on Facebook. (man)", "focus": "ڪريان", "wrong": ["ڪري|kare", "ڪرين|kareṃ"] },
+        { "native": "اڄڪلهه سڀ سوشل ميڊيا تي آهن.", "roman": "aʄkalha sabhu soshal meḍiyā te āhin.", "en": "Everyone's on social media these days." },
+        { "native": "هن جون پوسٽون ڏاڍيون مزيدار هونديون آهن.", "roman": "hun jūṃ posṭūṃ ɗāḍhyūṃ mazedāra hundyūṃ āhin.", "en": "Her posts are always really fun.", "focus": "هونديون", "wrong": ["هوندا|hundā", "هوندو|hundo"] },
+        { "native": "فوٽو موڪل، مان پوسٽ ڪندس.", "roman": "foṭo mokilu, māṃ posṭa kandus.", "en": "Send the photo, I'll post it. (man)", "focus": "ڪندس", "wrong": ["ٿيندس|thīndus", "ڪندو|kando"] }
+      ]
+    },
+    {
+      "title": "Likes, sales and shopping online",
+      "new": ["لائيڪ", "ڪمينٽ", "وائرل", "شاپنگ", "سيل", "آفر", "تنهنجي پوسٽ وائرل ٿي وئي آهي!", "ڊراز تي سيل لڳي آهي!"],
+      "sentences": [
+        { "native": "ڊراز تي سيل لڳي آهي! سڀ ڪجهه اڌ قيمت تي.", "roman": "ḍarāz te sela laɠī āhe! sabhu kujhu adha qīmata te.", "en": "There's a sale on Daraz! Everything's half price." },
+        { "native": "تنهنجي پوسٽ وائرل ٿي وئي آهي! پنج هزار لائيڪ!", "roman": "tunhinjī posṭa vāiral thī vaī āhe! panja hazāra lāika!", "en": "Your post has gone viral! Five thousand likes!", "focus": "وئي", "wrong": ["ويو|vayo", "ويا|vayā"] },
+        { "native": "ڪمينٽ ۾ لک ته ڪٿان ورتو.", "roman": "kamenṭa meṃ likhu ta kithāṃ varto.", "en": "Write in the comments where you bought it." },
+        { "native": "منهنجي ويڊيو تي ڪو لائيڪ ئي نه آيو.", "roman": "munhinjī viḍiyo te ko lāiku ī na āyo.", "en": "My video didn't get a single like.", "focus": "آيو", "wrong": ["آئي|āī", "آيا|āyā"] },
+        { "native": "جيڪڏهن سيل ختم ٿي وئي ته پوءِ مهانگو ملندو.", "roman": "jekaɗahiṃ sela xatmu thī vaī ta poi mahāngo milando.", "en": "If the sale ends, it'll cost more.", "focus": "وئي", "wrong": ["ويو|vayo", "ويا|vayā"] },
+        { "native": "اها آفر رڳو اڄ تائين آهي.", "roman": "uhā āfara raɠo aʄu tāīṃ āhe.", "en": "That offer's only on till today.", "focus": "اها", "wrong": ["اهو|uho", "اهي|uhe"] },
+        { "native": "مان آن لائين شاپنگ گهٽ ڪندي آهيان.", "roman": "māṃ ān lāin shāpinga ghaṭu kandī āhiyāṃ.", "en": "I don't shop online much. (woman)", "focus": "ڪندي", "wrong": ["ڪندو|kando", "ڪندا|kandā"] },
+        { "native": "هن جا ڪمينٽ پڙهي مون کي کل اچي وئي.", "roman": "hun jā kamenṭa paṛhī moṃ khe khila achī vaī.", "en": "Reading his comments, I burst out laughing." }
+      ]
+    }
+  ]
+}

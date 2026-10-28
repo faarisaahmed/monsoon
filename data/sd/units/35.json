@@ -1,0 +1,215 @@
+{
+  "id": 35,
+  "title": "Home & neighbourhood",
+  "goal": "Rent a flat, deal with the landlord, report something broken, get it fixed, sort out bills and power cuts, and get on with the neighbours.",
+  "intro": "Whether you rent a flat in Karachi's Gulshan-e-Iqbal, a portion of a house in Hyderabad's Qasimabad or a room in Sukkur, daily life at home in Sindh runs on a few conversations: with the **مالڪ** (landlord) about rent and repairs, with the plumber and electrician, with the **چوڪيدار** (watchman), and with the neighbours about noise, parking and rubbish. Add load-shedding and water tankers, and you have the vocabulary of every Sindhi household WhatsApp group.\n\nThe grammar is about **getting results**: complaining politely but firmly ('the tap has been leaking **for** three days'), asking someone to do something **for you** (ٺيڪ **ڪري ڏيو**), and the causative **ڪرائڻ** — getting something done by someone else (نل ٺيڪ **ڪرايو** 'I got the tap fixed').",
+  "vocab": [
+    { "native": "فليٽ", "roman": "flaiṭu", "en": "flat, apartment", "pos": "noun", "note": "m. A house or part of a house is گهر or پورشن (portion)." },
+    { "native": "مالڪ", "roman": "māliku", "en": "owner; landlord", "pos": "noun", "note": "m. Formal: مالڪ مڪان. To his face, an older landlord is usually سائين or حاجي صاحب." },
+    { "native": "ڪرائيدار", "roman": "kirāyedāru", "en": "tenant", "pos": "noun", "note": "m. From ڪرايو (rent) + -دار." },
+    { "native": "ايڊوانس", "roman": "eḍvānsu", "en": "deposit, advance (rent paid up front)", "pos": "noun", "note": "m. English loan; usually two or three months of rent." },
+    { "native": "معاهدو", "roman": "muʿāhido", "en": "agreement, contract", "pos": "noun", "note": "m. Many people just say ايگريمينٽ (agreement)." },
+    { "native": "عمارت", "roman": "ʿimārata", "en": "building", "pos": "noun", "note": "f." },
+    { "native": "لفٽ", "roman": "lifṭa", "en": "lift, elevator", "pos": "noun", "note": "f." },
+    { "native": "خالي", "roman": "xālī", "en": "empty; vacant, free", "pos": "adj", "note": "Invariable. ڪرائي تي خالي = available to rent." },
+    { "native": "بجلي", "roman": "bijlī", "en": "electricity, power", "pos": "noun", "note": "f. Oblique بجليءَ: بجليءَ جو بل. Colloquially also بتي or لائيٽ." },
+    { "native": "گيس", "roman": "gesa", "en": "gas (for cooking and heating)", "pos": "noun", "note": "f." },
+    { "native": "بل", "roman": "bilu", "en": "bill", "pos": "noun", "note": "m. pl. بل. A bill \"comes\" (بل آيو) and you \"fill\" it (بل ڀرڻ = pay a bill)." },
+    { "native": "لوڊشيڊنگ", "roman": "loḍsheḍinga", "en": "load-shedding, scheduled power cut", "pos": "noun", "note": "f. English loan used by everyone in Pakistan." },
+    { "native": "ٽينڪر", "roman": "ṭainkaru", "en": "water tanker", "pos": "noun", "note": "m. In much of Karachi, water comes by tanker when the line is dry." },
+    { "native": "ٽانڪي", "roman": "ṭānkī", "en": "water tank (on the roof or underground)", "pos": "noun", "note": "f. Oblique ٽانڪيءَ: ٽانڪيءَ ۾." },
+    { "native": "ڀرڻ", "roman": "bharaṇu", "en": "to fill; to pay (a bill, rent, a fee)", "pos": "verb", "note": "Past ڀريو bharyo: مون بل ڀريو \"I paid the bill\"." },
+    { "native": "گيزر", "roman": "gīzaru", "en": "geyser, gas water heater", "pos": "noun", "note": "m. In winter, the most complained-about machine in the house." },
+    { "native": "نل", "roman": "nalu", "en": "tap; water pipe", "pos": "noun", "note": "m." },
+    { "native": "ليڪ ٿيڻ", "roman": "līk thiyaṇu", "en": "to leak", "pos": "verb", "note": "English \"leak\" + ٿيڻ. نل ليڪ پيو ٿئي = the tap is leaking." },
+    { "native": "خرچ", "roman": "xarchu", "en": "cost, expense; spending", "pos": "noun", "note": "m. خرچ ڪير ڏيندو؟ = who will pay for it?" },
+    { "native": "پلمبر", "roman": "plambaru", "en": "plumber", "pos": "noun", "note": "m." },
+    { "native": "اليڪٽريشن", "roman": "elekṭrīshanu", "en": "electrician", "pos": "noun", "note": "m. Colloquially بجلي وارو \"the electricity guy\"." },
+    { "native": "شور", "roman": "shoru", "en": "noise, racket", "pos": "noun", "note": "m. شور ڪرڻ = to make noise." },
+    { "native": "آواز", "roman": "āvāzu", "en": "sound; voice; volume", "pos": "noun", "note": "m. آواز گهٽ ڪرڻ = to turn down." },
+    { "native": "پاڙو", "roman": "pāṛo", "en": "neighbourhood, area (mohalla)", "pos": "noun", "note": "m. Oblique پاڙي: پاڙي ۾ = in the neighbourhood." },
+    { "native": "چوڪيدار", "roman": "chaukīdāru", "en": "watchman, building guard", "pos": "noun", "note": "m." },
+    { "native": "ڪچرو", "roman": "kachiro", "en": "rubbish, trash", "pos": "noun", "note": "m. ڪچري وارو = the rubbish collector." },
+    { "native": "پارڪنگ", "roman": "pārkinga", "en": "parking (space)", "pos": "noun", "note": "f." },
+    { "native": "تنگ ڪرڻ", "roman": "tangu karaṇu", "en": "to bother, pester, annoy", "pos": "verb", "note": "The person bothered takes کي: اسان کي تنگ نه ڪريو." },
+    { "native": "مٿي", "roman": "mathe", "en": "up; upstairs", "pos": "adv", "note": "مٿي وارا = the people upstairs. Opposite: هيٺ (downstairs)." },
+    { "native": "شفٽ ٿيڻ", "roman": "shifṭ thiyaṇu", "en": "to move (house)", "pos": "verb", "note": "English \"shift\" + ٿيڻ — the everyday word for moving house." },
+    { "native": "واپس", "roman": "vāpasi", "en": "back (returning something)", "pos": "adv", "note": "واپس ڪرڻ = to give back; واپس اچڻ = to come back." },
+    { "native": "پيٽي", "roman": "peṭī", "en": "box, trunk; packing box", "pos": "noun", "note": "f. Oblique پيٽيءَ." }
+  ],
+  "phrases": [
+    { "native": "ڪو فليٽ ڪرائي تي خالي آهي؟", "roman": "ko flaiṭu kirāye te xālī āhe?", "en": "Is there a flat available to rent?", "note": "ڪرائي تي = on rent (oblique of ڪرايو + تي)." },
+    { "native": "ڪرايو ڪيترو آهي، ۽ ايڊوانس ڪيترو؟", "roman": "kirāyo ketiro āhe, ai eḍvānsu ketiro?", "en": "How much is the rent, and how much is the deposit?" },
+    { "native": "بجليءَ جو بل ڪيترو آيو؟", "roman": "bijlīa jo bilu ketiro āyo?", "en": "How much was the electricity bill? (lit. how much did it come)" },
+    { "native": "بجلي هلي وئي!", "roman": "bijlī halī vaī!", "en": "The power's gone!", "note": "Also لائيٽ هلي وئي. When it comes back: بجلي اچي وئي!" },
+    { "native": "نل ٽن ڏينهن کان ليڪ پيو ٿئي.", "roman": "nalu ṭin ɗīṃhan khāṃ līk peyo thie.", "en": "The tap has been leaking for three days." },
+    { "native": "گيزر ڪم نٿو ڪري.", "roman": "gīzaru kamu natho kare.", "en": "The geyser isn't working.", "note": "ڪم ڪرڻ = to work (of machines); also نٿو هلي." },
+    { "native": "مهرباني ڪري جلدي ٺيڪ ڪري ڏيو.", "roman": "meharbānī kare jaldī ṭhīku kare ɗiyo.", "en": "Please fix it (for me) soon." },
+    { "native": "مون کي نل ٺيڪ ڪرائڻو آهي.", "roman": "moṃ khe nalu ṭhīku karāiṇo āhe.", "en": "I need to get the tap fixed." },
+    { "native": "ڪنهن سٺي پلمبر جو نمبر آهي؟", "roman": "kanhin suṭhe plambara jo nambaru āhe?", "en": "Have you got a good plumber's number?" },
+    { "native": "ٿورو آواز گهٽ ڪجو.", "roman": "thoro āvāzu ghaṭu kajo.", "en": "Could you turn it down a bit? (gentle)" },
+    { "native": "توهان جي گاڏي منهنجي در جي اڳيان بيٺي آهي.", "roman": "tavhāṃ jī gāɗī munhinje dara jī aɠiyāṃ bīṭhī āhe.", "en": "Your car is parked in front of my gate." },
+    { "native": "ڪچرو ڪير کڻي ٿو؟", "roman": "kachiro ker khaṇe tho?", "en": "Who collects the rubbish?" },
+    { "native": "اسين ايندڙ مهيني شفٽ ٿي رهيا آهيون.", "roman": "asīṃ endaṛa mahīne shifṭ thī rahyā āhyūṃ.", "en": "We're moving next month." },
+    { "native": "السلام عليڪم، اسين نوان پاڙيسري آهيون.", "roman": "assalāmu ʿalaikum, asīṃ navāṃ pāṛesirī āhyūṃ.", "en": "Hello, we're the new neighbours." }
+  ],
+  "grammar": [
+    {
+      "title": "Complaints that get results: … کان (for / since) and ڪري ڏيو (do it for me)",
+      "body": "**How long has it been going on?** English says 'the tap **has been** leaking **for** three days'. Sindhi uses the plain **present** (or the پيو continuous) with **کان** 'from' after the time — literally 'from three days the tap is leaking':\n\nٽن ڏينهن کان نل ليڪ پيو ٿئي — for three days\nڪالهه کان لفٽ بند آهي — since yesterday\nهڪ هفتي کان گيس ڪونهي — for a week\nڪيترن ڏينهن کان؟ — for how many days?\n\nThe time word goes into the **oblique** before کان: ڏينهن → ٽن ڏينهن (ṭin ɗīṃhan), هفتو → هفتي, مهينو → مهيني. Don't use the past tense here — 'it leaked for three days' would mean it has stopped.\n\n**Do it for me: verb + ڏيڻ.** Put the verb in its 'having done' form (ڪري, کولي, ٻڌائي…) and add **ڏيو** (polite) or **ڏي** (to a friend). It adds 'for me / for us' and sounds like a real request rather than an order: ٺيڪ ڪري ڏيو 'please fix it', در کولي ڏيو 'open the door for me', نمبر ٻڌائي ڏيو 'tell me the number'.\n\n**Firm but polite**: start soft (معاف ڪجو، سائين…), state the problem with کان, then say what must happen with infinitive + **گهرجي** 'should, must': اهو اڄ ئي ٺيڪ ٿيڻ گهرجي 'it needs to be fixed today'. Raising your voice is a last resort — in Sindh, a polite but persistent complaint (and a phone call every day) works better.",
+      "examples": [
+        { "native": "ٻن ڏينهن کان پاڻي ڪونهي.", "roman": "ɓin ɗīṃhan khāṃ pāṇī konhe.", "en": "There's been no water for two days." },
+        { "native": "ڪالهه کان لفٽ بند آهي.", "roman": "kālha khāṃ lifṭa bandu āhe.", "en": "The lift's been out of order since yesterday." },
+        { "native": "دري ٽٽي پئي آهي، ٺيڪ ڪري ڏيو.", "roman": "darī ṭuṭī paī āhe, ṭhīku kare ɗiyo.", "en": "The window is broken — please fix it." },
+        { "native": "چوڪيدار کي چئو ته در کولي ڏئي.", "roman": "chaukīdāra khe chao ta daru kholī ɗie.", "en": "Tell the watchman to open the gate for us." },
+        { "native": "معاف ڪجو سائين، پر اهو اڄ ئي ٺيڪ ٿيڻ گهرجي.", "roman": "māf kajo sāīṃ, para uho aʄu ī ṭhīku thiyaṇu ghurje.", "en": "Sorry, sir, but it needs to be fixed today." }
+      ]
+    },
+    {
+      "title": "Causatives revisited: what you need to get done",
+      "body": "You met causatives in unit 25. Around the house, one does most of the work. When **you** do something, use ڪرڻ; when you **get someone else** to do it, use the causative **ڪرائڻ** (karāiṇu) 'to have done':\n\nمون نل ٺيڪ ڪيو — I fixed the tap (myself)\nمون نل ٺيڪ ڪرايو — I got the tap fixed\n\nIt works with every ڪرڻ expression: ٺيڪ ڪرائڻ 'get fixed', صاف ڪرائڻ 'get cleaned', مرمت ڪرائڻ 'get repaired', رنگ ڪرائڻ 'get painted'. The person who does the work takes **کان** 'by': پلمبر **کان** نل ٺيڪ ڪرايو 'I got the plumber to fix the tap'.\n\n**Forms** (it's a regular verb with a vowel stem, like ڳالهائڻ):\nPresent: ڪرايان ٿو karāyāṃ tho, ڪرائي ٿو karāe tho\nPast (ergative — agrees with the object): مون پکو ٺيڪ **ڪرايو** (m), مون دري ٺيڪ **ڪرائي** (f)\nFuture: ڪرائيندس karāīndus, ڪرائيندو karāīndo, ڪرائينداسين karāīndāsīṃ\nNeed to: مون کي ٺيڪ **ڪرائڻو** آهي (m object) / ٽانڪي صاف **ڪرائڻي** آهي (f object); ڪرائڻو پوندو 'will have to get done'\nRequests: ڪرايو karāyo, gentle ڪرائجو karāijo\n\n**The trap**: written Sindhi doesn't show short vowels, so ڪرايو can be **karāyo** 'got done' or **kirāyo** 'rent'. Context always decides — ڪرايو ڪيترو آهي؟ is obviously about rent!\n\nMany other verbs have causatives in -āiṇu / -rāiṇu (you've met گهرائڻ 'to send for, order', from گهرڻ), but ڪرائڻ alone covers most of what you need around the house.",
+      "examples": [
+        { "native": "مون پلمبر کان نل ٺيڪ ڪرايو.", "roman": "moṃ plambara khāṃ nalu ṭhīku karāyo.", "en": "I got the plumber to fix the tap." },
+        { "native": "اسان سڄو فليٽ رنگ ڪرايو.", "roman": "asāṃ saʄo flaiṭu rangu karāyo.", "en": "We had the whole flat painted." },
+        { "native": "مالڪ چيو ته هو پاڻ مرمت ڪرائيندو.", "roman": "mālika chayo ta hū pāṇa maramata karāīndo.", "en": "The landlord said he'd get the repairs done himself." },
+        { "native": "مون کي پکو ٺيڪ ڪرائڻو آهي.", "roman": "moṃ khe pakho ṭhīku karāiṇo āhe.", "en": "I need to get the fan fixed." },
+        { "native": "ٽانڪي ڪڏهن صاف ڪرائيندؤ؟", "roman": "ṭānkī kaɗahiṃ sāfu karāīndau?", "en": "When will you get the tank cleaned?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Calling the landlord",
+    "setting": "Sana rents a flat in Qasimabad, Hyderabad. She phones her landlord, Haji Rasheed, an older man, about a leak.",
+    "lines": [
+      { "speaker": "Sana", "native": "السلام عليڪم حاجي صاحب. مان ثنا، فليٽ نمبر ٽي.", "roman": "assalāmu ʿalaikum hājī sāhib. māṃ sanā, flaiṭ nambaru ṭe.", "en": "Hello, Haji sahib. This is Sana, flat number three." },
+      { "speaker": "Haji Rasheed", "native": "وعليڪم السلام. ها ثنا، خير ته آهي؟", "roman": "vaʿalaikum assalām. hā sanā, xairu ta āhe?", "en": "Hello. Yes, Sana, is everything all right?" },
+      { "speaker": "Sana", "native": "سائين، ٽن ڏينهن کان ٽانڪي ليڪ پئي ٿئي. ڀت به خراب ٿي رهي آهي.", "roman": "sāīṃ, ṭin ɗīṃhan khāṃ ṭānkī līk paī thie. bhiti bi xarābu thī rahī āhe.", "en": "Sir, the water tank has been leaking for three days. The wall's getting damaged too." },
+      { "speaker": "Haji Rasheed", "native": "اوهه! توهان مون کي پهريان ڇو نه ٻڌايو؟", "roman": "oh! tavhāṃ moṃ khe pahiryāṃ chho na ɓudhāyo?", "en": "Oh! Why didn't you tell me before?" },
+      { "speaker": "Sana", "native": "ٻڌايو هو سائين — مون سومر تي فون ڪيو هو!", "roman": "ɓudhāyo ho sāīṃ — moṃ sūmara te fon kayo ho!", "en": "I did tell you, sir — I phoned on Monday!" },
+      { "speaker": "Haji Rasheed", "native": "ها ها، ياد آيو. معاف ڪجو. سڀاڻي صبح جو پلمبر موڪليندس، هو ٺيڪ ڪري ڇڏيندو.", "roman": "hā hā, yāda āyo. māf kajo. subhāṇe subuh jo plambaru moklīndus, hū ṭhīku kare chhaɗīndo.", "en": "Yes, yes, I remember now. Sorry. I'll send a plumber tomorrow morning; he'll sort it out." },
+      { "speaker": "Sana", "native": "مهرباني. ۽ سائين، لفٽ به هڪ هفتي کان بند آهي.", "roman": "meharbānī. ai sāīṃ, lifṭa bi hika hafte khāṃ bandu āhe.", "en": "Thanks. And sir, the lift's been out for a week too." },
+      { "speaker": "Haji Rasheed", "native": "لفٽ جي مرمت سڀني فليٽن جي پئسن سان ٿيندي. پاڙيسرين سان ڳالهائي ڏسو.", "roman": "lifṭa jī maramata sabhinī flaiṭan jī paisan sāṃ thīndī. pāṛesiryan sāṃ ɠālhāe ɗiso.", "en": "The lift gets repaired with money from all the flats. Try talking to the neighbours." },
+      { "speaker": "Sana", "native": "ٺيڪ آهي. ۽ هن مهيني جو ڪرايو جمعي تي موڪليندس.", "roman": "ṭhīku āhe. ai hin mahīne jo kirāyo jumʿe te moklīndīs.", "en": "OK. And I'll send this month's rent on Friday." },
+      { "speaker": "Haji Rasheed", "native": "مهرباني. ٻيو سڀ خير؟ پاڙيسري تنگ ته نٿا ڪن؟", "roman": "meharbānī. ɓiyo sabhu xairu? pāṛesirī tangu ta nathā kan?", "en": "Thank you. Everything else OK? The neighbours aren't bothering you?" },
+      { "speaker": "Sana", "native": "ٻيو ته سڀ ٺيڪ آهي. بس مٿي وارا رات جو دير تائين شور ڪن ٿا!", "roman": "ɓiyo ta sabhu ṭhīku āhe. basi mathe vārā rāti jo dera tāīṃ shoru kan thā!", "en": "Everything else is fine. Just the people upstairs make a racket till late at night!" },
+      { "speaker": "Haji Rasheed", "native": "اهي شاگرد آهن. مان هنن سان ڳالهائيندس. خدا حافظ!", "roman": "uhe shāgirda āhin. māṃ hunan sāṃ ɠālhāīndus. xudā hāfiz!", "en": "They're students. I'll talk to them. Goodbye!" }
+    ]
+  },
+  "culture": "Renting in Sindh usually goes through a **property dealer** or **estate agent** (ايسٽيٽ ايجنٽ), who takes a month's rent as commission. Expect to pay two or three months' **ايڊوانس** and to sign an eleven-month **معاهدو** (agreement) on stamp paper. Landlords are often older men you address as **سائين**, **حاجي صاحب** or **چاچا**, and many repairs are negotiated, not automatic — a friendly but persistent phone call works better than an angry one.\n\nUtilities are part of daily conversation: in Karachi the power company is K-Electric (people just say **KE**), in Hyderabad HESCO and in Sukkur SEPCO; summer **لوڊشيڊنگ** means many homes have a UPS or a generator. In much of Karachi, water arrives by **ٽينڪر**, and 'the tanker didn't come' is a real reason to be late.\n\nNeighbours matter. New arrivals are often sent a plate of food, and you return the plate full — never empty. Call older neighbours **چاچا** / **ماسي** and those your age **ادا** / **ادي**. A building's **چوڪيدار** knows everything, and a small tip at Eid keeps the gate opening fast.",
+  "lessons": [
+    {
+      "title": "Finding a flat to rent",
+      "tip": { "title": "ڪرائي تي — for rent", "body": "- **ڪرايو** (rent) becomes **ڪرائي** before تي: ڪرائي تي 'for rent', ڪرائي تي ڏيڻ 'to let out'.\n- Ask about the **ايڊوانس** (deposit) and the **معاهدو** (agreement) before you agree.\n- عمارت and لفٽ are feminine: لفٽ بند **هوندي** آهي." },
+      "new": ["فليٽ", "مالڪ", "ڪرائيدار", "ايڊوانس", "معاهدو", "عمارت", "لفٽ", "خالي", "ڪو فليٽ ڪرائي تي خالي آهي؟", "ڪرايو ڪيترو آهي، ۽ ايڊوانس ڪيترو؟"],
+      "sentences": [
+        { "native": "هن عمارت ۾ ڪو فليٽ خالي آهي؟", "roman": "hin ʿimārata meṃ ko flaiṭu xālī āhe?", "en": "Is there a vacant flat in this building?" },
+        { "native": "هي فليٽ ڪرائي تي ڏيو ٿا؟", "roman": "hī flaiṭu kirāye te ɗiyo thā?", "en": "Are you renting this flat out?", "focus": "ڪرائي", "wrong": ["ڪرايو|kirāyo", "ڪرايا|kirāyā"] },
+        { "native": "فليٽ ننڍو آهي، پر صاف آهي.", "roman": "flaiṭu nanḍho āhe, para sāfu āhe.", "en": "The flat is small, but it's clean.", "focus": "ننڍو", "wrong": ["ننڍي|nanḍhī", "ننڍا|nanḍhā"] },
+        { "native": "ڪرايو پندرهن هزار آهي.", "roman": "kirāyo pandrahaṃ hazāra āhe.", "en": "The rent is fifteen thousand." },
+        { "native": "مالڪ کي ٽن مهينن جو ايڊوانس گهرجي.", "roman": "mālika khe ṭin mahīnan jo eḍvānsu ghurje.", "en": "The landlord wants three months' deposit.", "focus": "جو", "wrong": ["جي|jī", "جا|jā"] },
+        { "native": "عمارت ۾ لفٽ آهي؟", "roman": "ʿimārata meṃ lifṭa āhe?", "en": "Is there a lift in the building?" },
+        { "native": "ها، پر لفٽ اڪثر بند هوندي آهي.", "roman": "hā, para lifṭa akasaru bandu hundī āhe.", "en": "Yes, but the lift is often out of order.", "focus": "هوندي", "wrong": ["هوندو|hundo", "هوندا|hundā"] },
+        { "native": "معاهدو يارهن مهينن جو آهي.", "roman": "muʿāhido yārahaṃ mahīnan jo āhe.", "en": "The agreement is for eleven months.", "focus": "جو", "wrong": ["جي|jī", "جا|jā"] },
+        { "native": "اسين هن فليٽ جا ڪرائيدار آهيون.", "roman": "asīṃ hin flaiṭa jā kirāyedāra āhyūṃ.", "en": "We're the tenants of this flat.", "focus": "جا", "wrong": ["جو|jo", "جي|jī"] },
+        { "native": "مالڪ ڏاڍو سٺو ماڻهو آهي.", "roman": "māliku ɗāḍho suṭho māṇhū āhe.", "en": "The landlord is a really nice man." }
+      ]
+    },
+    {
+      "title": "Bills, power cuts and water",
+      "tip": { "title": "A bill \"comes\", and you \"fill\" it", "body": "- بل **آيو** = the bill came (in): بل ڪيترو آيو؟ 'how much was the bill?'\n- بل **ڀرڻ** = to pay a bill; past: مون بل **ڀريو**.\n- بجلي and گيس are feminine: بجلي **هلي وئي**، بجلي **ايندي**.\n- Before ۾ or جو, -ī nouns add ءَ: **بجليءَ** جو بل، **ٽانڪيءَ** ۾." },
+      "new": ["بجلي", "گيس", "بل", "لوڊشيڊنگ", "ٽينڪر", "ٽانڪي", "ڀرڻ", "بجليءَ جو بل ڪيترو آيو؟", "بجلي هلي وئي!"],
+      "sentences": [
+        { "native": "هن مهيني گيس جو بل گهڻو آيو آهي.", "roman": "hin mahīne gesa jo bilu ghaṇo āyo āhe.", "en": "The gas bill is really high this month.", "focus": "آيو", "wrong": ["آئي|āī", "آيا|āyā"] },
+        { "native": "بل ڪڏهن تائين ڀرڻو آهي؟", "roman": "bilu kaɗahiṃ tāīṃ bharaṇo āhe?", "en": "By when does the bill have to be paid?", "focus": "ڀرڻو", "wrong": ["ڀرڻي|bharaṇī", "ڀريو|bharyo"] },
+        { "native": "مون ڪالهه بجليءَ جو بل ڀريو.", "roman": "moṃ kālha bijlīa jo bilu bharyo.", "en": "I paid the electricity bill yesterday.", "focus": "ڀريو", "wrong": ["ڀري|bharī", "ڀريا|bharyā"] },
+        { "native": "اڄ ٻه ڪلاڪ لوڊشيڊنگ آهي.", "roman": "aʄu ɓa kalāka loḍsheḍinga āhe.", "en": "There's a two-hour power cut today." },
+        { "native": "بجلي ٻارهين وڳي ايندي.", "roman": "bijlī ɓārahīṃ vaɠe endī.", "en": "The power will be back at twelve.", "focus": "ايندي", "wrong": ["ايندو|endo", "ايندا|endā"] },
+        { "native": "ٽانڪيءَ ۾ پاڻي ڪونهي، ٽينڪر گهرايو.", "roman": "ṭānkīa meṃ pāṇī konhe, ṭainkaru ghurāyo.", "en": "There's no water in the tank — order a tanker.", "focus": "ٽانڪيءَ", "wrong": ["ٽانڪي|ṭānkī"] },
+        { "native": "ٽينڪر اڃا نه آيو آهي.", "roman": "ṭainkaru añā na āyo āhe.", "en": "The tanker still hasn't come.", "focus": "آيو", "wrong": ["آئي|āī", "آيا|āyā"] },
+        { "native": "گيس صبح جو هوندي آهي، شام جو نه.", "roman": "gesa subuh jo hundī āhe, shāma jo na.", "en": "There's gas in the morning, but not in the evening.", "focus": "هوندي", "wrong": ["هوندو|hundo", "هوندا|hundā"] },
+        { "native": "لوڊشيڊنگ ۾ پکو به نٿو هلي.", "roman": "loḍsheḍinga meṃ pakho bi natho hale.", "en": "During load-shedding even the fan doesn't work." },
+        { "native": "ادا، توهان گيس جو بل ڀريو؟", "roman": "adā, tavhāṃ gesa jo bilu bharyo?", "en": "Did you pay the gas bill?", "focus": "ڀريو", "wrong": ["ڀري|bharī", "ڀريا|bharyā"] }
+      ]
+    },
+    {
+      "title": "Something's broken",
+      "tip": { "title": "For three days: … کان", "body": "- 'It has been leaking **for** three days' = present + **کان**: ٽن ڏينهن **کان** ليڪ پيو ٿئي.\n- The time word goes oblique: هفتو → هڪ هفتي کان، مهينو → مهيني کان.\n- 'Do it for me' = ڪري / کولي + **ڏيو**: ٺيڪ ڪري ڏيو.", "pattern": "time (oblique) + کان + present · verb-ī + ڏيو", "grammar": 0 },
+      "new": ["نل", "ليڪ ٿيڻ", "گيزر", "گيزر ڪم نٿو ڪري.", "نل ٽن ڏينهن کان ليڪ پيو ٿئي.", "مهرباني ڪري جلدي ٺيڪ ڪري ڏيو."],
+      "sentences": [
+        { "native": "ڪالهه کان نل ليڪ پيو ٿئي.", "roman": "kālha khāṃ nalu līk peyo thie.", "en": "The tap has been leaking since yesterday.", "focus": "کان", "wrong": ["تائين|tāīṃ", "۾|meṃ"] },
+        { "native": "ٻن ڏينهن کان گيس ڪونهي.", "roman": "ɓin ɗīṃhan khāṃ gesa konhe.", "en": "There's been no gas for two days.", "focus": "کان", "wrong": ["تائين|tāīṃ", "۾|meṃ"] },
+        { "native": "لفٽ هڪ هفتي کان خراب آهي.", "roman": "lifṭa hika hafte khāṃ xarābu āhe.", "en": "The lift has been broken for a week.", "focus": "هفتي", "wrong": ["هفتو|hafto", "هفتا|haftā"] },
+        { "native": "دري ٽٽي پئي آهي، ٺيڪ ڪري ڏيو.", "roman": "darī ṭuṭī paī āhe, ṭhīku kare ɗiyo.", "en": "The window has broken — please fix it.", "focus": "ٽٽي", "wrong": ["ٽٽو|ṭuṭo", "ٽٽا|ṭuṭā"] },
+        { "native": "پکو ٽٽي ويو.", "roman": "pakho ṭuṭī vayo.", "en": "The fan has broken.", "focus": "ويو", "wrong": ["وئي|vaī", "ويا|vayā"] },
+        { "native": "گيزر ٽن ڏينهن کان خراب آهي، پاڻي ٿڌو آهي.", "roman": "gīzaru ṭin ɗīṃhan khāṃ xarābu āhe, pāṇī thadho āhe.", "en": "The geyser's been broken for three days — the water's cold.", "focus": "کان", "wrong": ["تائين|tāīṃ", "۾|meṃ"] },
+        { "native": "مالڪ کي ٻڌايو ته ٽانڪي ليڪ پئي ٿئي.", "roman": "mālika khe ɓudhāyo ta ṭānkī līk paī thie.", "en": "Tell the landlord the tank is leaking.", "focus": "پئي", "wrong": ["پيو|peyo", "پيا|pyā"] },
+        { "native": "مرمت ڪڏهن ٿيندي؟", "roman": "maramata kaɗahiṃ thīndī?", "en": "When will the repair be done?", "focus": "ٿيندي", "wrong": ["ٿيندو|thīndo", "ٿيندا|thīndā"] },
+        { "native": "در کولي ڏيو، مان ٻاهر آهيان.", "roman": "daru kholī ɗiyo, māṃ ɓāhari āhiyāṃ.", "en": "Open the door for me, I'm outside.", "focus": "ڏيو", "wrong": ["ڏنو|ɗino", "ڏيندو|ɗīndo"] },
+        { "native": "هڪ مهيني کان مرمت جو انتظار پيا ڪريون.", "roman": "hika mahīne khāṃ maramata jo intizāru pyā karyūṃ.", "en": "We've been waiting a month for the repair.", "focus": "مهيني", "wrong": ["مهينو|mahīno", "مهينا|mahīnā"] },
+        { "native": "نل اڄ ئي ٺيڪ ٿيڻ گهرجي.", "roman": "nalu aʄu ī ṭhīku thiyaṇu ghurje.", "en": "The tap needs to be fixed today." }
+      ]
+    },
+    {
+      "title": "Getting it fixed",
+      "tip": { "title": "ڪرائڻ — get it done", "body": "- ڪرڻ = do it yourself; **ڪرائڻ** = get someone to do it: نل ٺيڪ **ڪرايو** 'I got the tap fixed'.\n- The worker takes **کان**: پلمبر **کان**.\n- Past agrees with the thing: پکو **ڪرايو**، دري **ڪرائي**.\n- Need to: ٺيڪ **ڪرائڻو** آهي (m) / **ڪرائڻي** (f).", "pattern": "(worker) کان + thing + ٺيڪ / صاف + ڪرائڻ", "grammar": 1 },
+      "new": ["پلمبر", "اليڪٽريشن", "خرچ", "مون کي نل ٺيڪ ڪرائڻو آهي.", "ڪنهن سٺي پلمبر جو نمبر آهي؟"],
+      "sentences": [
+        { "native": "مون اليڪٽريشن کان پکو ٺيڪ ڪرايو.", "roman": "moṃ elekṭrīshana khāṃ pakho ṭhīku karāyo.", "en": "I got the electrician to fix the fan.", "focus": "ڪرايو", "wrong": ["ڪيو|kayo", "ڪرائي|karāī"] },
+        { "native": "مون دري ٺيڪ ڪرائي.", "roman": "moṃ darī ṭhīku karāī.", "en": "I got the window fixed.", "focus": "ڪرائي", "wrong": ["ڪرايو|karāyo", "ڪرايا|karāyā"] },
+        { "native": "اسان رڌڻو رنگ ڪرايو.", "roman": "asāṃ radhaṇo rangu karāyo.", "en": "We had the kitchen painted.", "focus": "ڪرايو", "wrong": ["ڪرائي|karāī", "ڪرايا|karāyā"] },
+        { "native": "پلمبر کان نل ٺيڪ ڪرايو؟", "roman": "plambara khāṃ nalu ṭhīku karāyo?", "en": "Did you get the plumber to fix the tap?", "focus": "کان", "wrong": ["کي|khe", "سان|sāṃ"] },
+        { "native": "توهان کي ٽانڪي صاف ڪرائڻي پوندي.", "roman": "tavhāṃ khe ṭānkī sāfu karāiṇī pavandī.", "en": "You'll have to get the tank cleaned.", "focus": "ڪرائڻي", "wrong": ["ڪرائڻو|karāiṇo", "ڪرائڻا|karāiṇā"] },
+        { "native": "اسان کي هر سال ٽانڪي صاف ڪرائڻي پوي ٿي.", "roman": "asāṃ khe har sāla ṭānkī sāfu karāiṇī pave thī.", "en": "We have to get the tank cleaned every year.", "focus": "ڪرائڻي", "wrong": ["ڪرائڻو|karāiṇo", "ڪرائڻا|karāiṇā"] },
+        { "native": "مالڪ چوي ٿو ته پاڻ ٺيڪ ڪرائيندو.", "roman": "māliku chave tho ta pāṇa ṭhīku karāīndo.", "en": "The landlord says he'll get it fixed himself.", "focus": "ڪرائيندو", "wrong": ["ڪرائيندي|karāīndī", "ڪرائيندس|karāīndus"] },
+        { "native": "پلمبر سڀاڻي ڏهين وڳي ايندو.", "roman": "plambaru subhāṇe ɗahīṃ vaɠe endo.", "en": "The plumber's coming tomorrow at ten." },
+        { "native": "مرمت جو خرچ ڪير ڏيندو؟", "roman": "maramata jo xarchu ker ɗīndo?", "en": "Who will pay for the repairs?", "focus": "ڏيندو", "wrong": ["ڏيندي|ɗīndī", "ڏنو|ɗino"] },
+        { "native": "اليڪٽريشن ڪيترا پئسا ورتا؟", "roman": "elekṭrīshana ketirā paisā vartā?", "en": "How much did the electrician charge?", "focus": "ورتا", "wrong": ["ورتو|varto", "ورتي|vartī"] },
+        { "native": "مان سومر تي در جي مرمت ڪرائيندس.", "roman": "māṃ sūmara te dara jī maramata karāīndus.", "en": "I'll get the door repaired on Monday. (man)", "focus": "ڪرائيندس", "wrong": ["ڪرائيندو|karāīndo", "ڪرائينداسين|karāīndāsīṃ"] }
+      ]
+    },
+    {
+      "title": "Getting on with the neighbours",
+      "tip": { "title": "Complaining to a neighbour, nicely", "body": "- Open softly: **ادا / ادي، معاف ڪجو…**\n- Ask with the gentle **-jo** form and **ٿورو**: ٿورو آواز گهٽ **ڪجو**.\n- مٿي وارا = the people upstairs; ڪچري وارو = the rubbish man.\n- To say they bother you: اسان **کي** تنگ ڪن ٿا." },
+      "new": [
+        "پاڙو",
+        "شور",
+        "آواز",
+        "چوڪيدار",
+        "ڪچرو",
+        "پارڪنگ",
+        "تنگ ڪرڻ",
+        "ٿورو آواز گهٽ ڪجو.",
+        "توهان جي گاڏي منهنجي در جي اڳيان بيٺي آهي.",
+        "ڪچرو ڪير کڻي ٿو؟"
+      ],
+      "sentences": [
+        { "native": "اسان جو پاڙو ڏاڍو سٺو آهي.", "roman": "asāṃ jo pāṛo ɗāḍho suṭho āhe.", "en": "Our neighbourhood is really nice.", "focus": "سٺو", "wrong": ["سٺي|suṭhī", "سٺا|suṭhā"] },
+        { "native": "ادا، معاف ڪجو، ٻار ڏاڍو شور پيا ڪن.", "roman": "adā, māf kajo, ɓāra ɗāḍho shoru pyā kan.", "en": "Excuse me, brother — the kids are making a lot of noise.", "focus": "پيا", "wrong": ["پيو|peyo", "پئي|paī"] },
+        { "native": "ادي، ٽي وي جو آواز ٿورو گهٽ ڪجو.", "roman": "adī, ṭī vī jo āvāzu thoro ghaṭu kajo.", "en": "Sister, could you turn the TV down a little?", "focus": "ڪجو", "wrong": ["ڪيو|kayo", "ڪندو|kando"] },
+        { "native": "چوڪيدار رات جو در بند ڪري ٿو.", "roman": "chaukīdāru rāti jo daru bandu kare tho.", "en": "The watchman locks the gate at night." },
+        { "native": "چوڪيدار کي چئو ته ڪچرو کڻي وڃي.", "roman": "chaukīdāra khe chao ta kachiro khaṇī vañe.", "en": "Ask the watchman to take the rubbish away.", "focus": "کي", "wrong": ["کان|khāṃ", "سان|sāṃ"] },
+        { "native": "ڪچرو گهٽيءَ ۾ نه رکو.", "roman": "kachiro ghiṭīa meṃ na rakho.", "en": "Please don't leave rubbish in the street." },
+        { "native": "هتي پارڪنگ جي جاءِ ڪونهي.", "roman": "hite pārkinga jī jāi konhe.", "en": "There's no parking space here." },
+        { "native": "توهان جي ڪار منهنجي پارڪنگ ۾ آهي.", "roman": "tavhāṃ jī kāra munhinjī pārkinga meṃ āhe.", "en": "Your car is in my parking space.", "focus": "منهنجي", "wrong": ["منهنجو|munhinjo", "منهنجا|munhinjā"] },
+        { "native": "هو پاڙيسري اسان کي ڏاڍو تنگ ڪن ٿا.", "roman": "hū pāṛesirī asāṃ khe ɗāḍho tangu kan thā.", "en": "Those neighbours really bother us.", "focus": "کي", "wrong": ["کان|khāṃ", "جو|jo"] },
+        { "native": "معاف ڪجو، توهان کي تنگ ڪيو.", "roman": "māf kajo, tavhāṃ khe tangu kayo.", "en": "Sorry to bother you." }
+      ]
+    },
+    {
+      "title": "Moving in, moving out",
+      "new": ["شفٽ ٿيڻ", "مٿي", "پيٽي", "واپس", "اسين ايندڙ مهيني شفٽ ٿي رهيا آهيون.", "السلام عليڪم، اسين نوان پاڙيسري آهيون."],
+      "sentences": [
+        { "native": "اسين گلشن ۾ شفٽ ٿي رهيا آهيون.", "roman": "asīṃ gulshan meṃ shifṭ thī rahyā āhyūṃ.", "en": "We're moving to Gulshan.", "focus": "رهيا", "wrong": ["رهيو|rahyo", "رهي|rahī"] },
+        { "native": "توهان ڪڏهن شفٽ ٿيا؟", "roman": "tavhāṃ kaɗahiṃ shifṭ thiyā?", "en": "When did you move in?", "focus": "ٿيا", "wrong": ["ٿيو|thiyo", "ٿي|thī"] },
+        { "native": "اسين گذريل هفتي شفٽ ٿياسين.", "roman": "asīṃ guzriyala hafte shifṭ thiyāsīṃ.", "en": "We moved last week.", "focus": "ٿياسين", "wrong": ["ٿيس|thiyus", "ٿيندا|thīndā"] },
+        { "native": "سامان هن پيٽيءَ ۾ رکو.", "roman": "sāmānu hin peṭīa meṃ rakho.", "en": "Put the things in this box." },
+        { "native": "مٿي واري فليٽ ۾ ڪير رهي ٿو؟", "roman": "mathe vāre flaiṭa meṃ ker rahe tho?", "en": "Who lives in the flat upstairs?", "focus": "واري", "wrong": ["وارو|vāro", "وارا|vārā"] },
+        { "native": "پيٽيون ڳريون آهن، مٿي کڻي هلو.", "roman": "peṭyūṃ ɠaryūṃ āhin, mathe khaṇī halo.", "en": "The boxes are heavy — carry them upstairs." },
+        { "native": "ڪا تڪليف هجي ته ٻڌائجو.", "roman": "kā takalīfa huje ta ɓudhāijo.", "en": "If you need anything, do let us know." },
+        { "native": "شفٽ ٿيڻ ۾ ٻه ڏينهن لڳندا.", "roman": "shifṭ thiyaṇa meṃ ɓa ɗīṃha laɠandā.", "en": "Moving will take two days." },
+        { "native": "نوان پاڙيسري ڪير آهن؟", "roman": "navāṃ pāṛesirī ker āhin?", "en": "Who are the new neighbours?", "focus": "نوان", "wrong": ["نئون|naoṃ", "نئين|naīṃ"] },
+        { "native": "مالڪ اڃا ايڊوانس واپس نه ڪيو آهي.", "roman": "mālika añā eḍvānsu vāpasi na kayo āhe.", "en": "The landlord still hasn't given back the deposit." }
+      ]
+    }
+  ]
+}

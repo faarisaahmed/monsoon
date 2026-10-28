@@ -1,90 +1,211 @@
 {
   "id": 20,
-  "title": "Telling stories & real conversation",
-  "goal": "Tell a story, link events naturally, use relative clauses and reported speech, and sound natural with fillers and common expressions.",
-  "intro": "Sindhis are great storytellers — from grandmothers' tales to the epic love stories that Shah Abdul Latif turned into poetry. In this final unit you'll learn the glue of real conversation: story connectors (**هڪ ڀيري** 'once', **اوچتو** 'suddenly', **آخرڪار** 'in the end'), Sindhi's paired **relative clauses** (**جيڪو … سو** 'the one who … he'), **reported speech** with **ته**, and the fillers and expressions that make speech sound alive.\n\nYou'll also hear the pronoun endings from Unit 16 everywhere in stories: **چيائين** 'he/she said', **ڏٺائين** 'he/she saw'.",
+  "title": "Real conversation",
+  "goal": "Tell a friend what happened, pass on what people said, react like a Sindhi and keep a chat going.",
+  "intro": "Half of real conversation is telling each other what happened — and reacting to it. In this unit you learn to tell a friend a story from your own day with the right linking words (**پهريان** 'first', **پوءِ** 'then', **اوچتو** 'suddenly', **آخرڪار** 'in the end'), to say what people said with **ته** (**چيائين ته رستي ۾ آهيان** 'he said he's on his way'), and to describe people and places with Sindhi's paired **relative clauses** (**جيڪو … سو** 'the one who … he').\n\nYou'll also pick up the small words that keep a chat alive: **سچي؟** 'really?', **ويچارو!** 'poor guy!', **ڀلا** 'so…', **يعني** 'you mean…', **چرچو ٿو ڪرين؟** 'are you kidding?' — and the great Sindhi pastime, the **ڪچهري**: sitting together for hours just talking.",
   "vocab": [
-    { "native": "ڪهاڻي", "roman": "kahāṇī", "en": "story", "pos": "noun", "note": "f." },
-    { "native": "قصو", "roman": "qiso", "en": "tale, story; affair", "pos": "noun", "note": "m. ڇا قصو آهي؟ = what's the story / what's going on?" },
-    { "native": "ڳالهه", "roman": "ɠālhi", "en": "talk; matter, thing; something said", "pos": "noun", "note": "f · pl ڳالهيون ɠālhyūṃ. ڳالهه ٻولهه = conversation." },
-    { "native": "هڪ ڀيري", "roman": "hika bhere", "en": "once (upon a time)", "pos": "adv" },
-    { "native": "آخرڪار", "roman": "āxirkāra", "en": "finally, in the end", "pos": "adv" },
-    { "native": "جڏهن", "roman": "jaɗahiṃ", "en": "when (relative)", "pos": "conj", "note": "Paired with تڏهن or ته: جڏهن … تڏهن …" },
-    { "native": "تڏهن", "roman": "taɗahiṃ", "en": "then, at that time", "pos": "adv" },
-    { "native": "جيڪو", "roman": "jeko", "en": "who, which (relative)", "pos": "pron", "note": "Agrees: جيڪا (f), جيڪي (pl). Paired with سو / اهو." },
-    { "native": "سو", "roman": "so", "en": "that one, he (correlative); so", "pos": "pron", "note": "f سا sā, pl سي se. Also 'so, therefore' at the start of a sentence." },
-    { "native": "جتي", "roman": "jite", "en": "where (relative)", "pos": "adv", "note": "Paired with اتي: جتي … اتي … Same spelling as جتي jutī 'shoe' (Unit 12)." },
-    { "native": "جيئن", "roman": "jīeṃ", "en": "as, like, the way that", "pos": "conj", "note": "جيئن توهان چئو = as you say / as you wish." },
-    { "native": "يعني", "roman": "yaʿnī", "en": "that is, I mean", "pos": "particle" },
-    { "native": "ڀلا", "roman": "bhalā", "en": "well…, so…; come on", "pos": "particle", "note": "Starts questions softly: ڀلا، ڇا ٿيو؟ 'So, what happened?'" },
-    { "native": "واقعي", "roman": "vāqaʿī", "en": "really, truly", "pos": "adv", "note": "واقعي؟ = really?" },
-    { "native": "سچ پچ", "roman": "sach pach", "en": "honestly, for real", "pos": "adv" },
+    { "native": "ڳالهه", "roman": "ɠālhi", "en": "thing (that happened), matter; talk", "pos": "noun", "note": "f · pl ڳالهيون ɠālhyūṃ. ڇا ڳالهه آهي؟ = what's up? / what's the matter?; ڳالهه ڪرڻ = to talk." },
+    { "native": "قصو", "roman": "qiso", "en": "story; the whole business, what happened", "pos": "noun", "note": "m. ڇا قصو آهي؟ = what's going on?; وڏو قصو آهي = it's a long story." },
+    { "native": "آخرڪار", "roman": "āxirkāra", "en": "in the end, finally", "pos": "adv" },
+    { "native": "انهيءَ ڪري", "roman": "inhīa kare", "en": "that's why, so", "pos": "conj", "note": "Also said انڪري inkare. Comes at the start of the result: بس نه آئي، انهيءَ ڪري دير ٿي." },
+    { "native": "کلڻ", "roman": "khilaṇu", "en": "to laugh", "pos": "verb", "note": "کل khila (f) = a laugh: مون کي کل اچي وئي = I burst out laughing." },
+    { "native": "روئڻ", "roman": "roaṇu", "en": "to cry", "pos": "verb", "note": "روئڻ لڳي = she started crying." },
+    { "native": "سچي", "roman": "sachī", "en": "really?; honestly, truly", "pos": "interj", "note": "The everyday Sindhi 'really?' among friends: سچي؟ Also as an oath: سچي ٿو چوان = I'm telling the truth." },
+    { "native": "واقعي", "roman": "vāqaʿī", "en": "really, truly", "pos": "adv", "note": "A little more neutral than سچي؛ fine with anyone: واقعي؟" },
+    { "native": "واهه", "roman": "vāh", "en": "wow!, great!", "pos": "interj", "note": "Praise and delight: واهه! ڇا ڳالهه آهي! Also sarcastic: واهه، ڏاڍو سٺو! = oh great." },
+    { "native": "ڪمال", "roman": "kamālu", "en": "something amazing; perfection", "pos": "noun", "note": "m. ڪمال آهي! = amazing!; ڪمال جو ماڻهو = an amazing person." },
+    { "native": "عجيب", "roman": "ʿajību", "en": "strange, weird", "pos": "adj", "note": "Does not change for gender: عجيب ماڻهو، عجيب ڳالهه." },
+    { "native": "ويچارو", "roman": "vichāro", "en": "poor (thing), unlucky", "pos": "adj", "note": "f ويچاري vichārī, pl ويچارا vichārā. Said alone as a reaction: ويچارو! = poor guy!" },
+    { "native": "افسوس", "roman": "afsosu", "en": "regret, sorrow; sorry (to hear it)", "pos": "noun", "note": "m. ڏاڍو افسوس ٿيو = I'm so sorry to hear that." },
+    { "native": "جيڪو", "roman": "jeko", "en": "who, which, whatever (relative)", "pos": "pron", "note": "f جيڪا jekā, pl جيڪي jeke; oblique جنهن janhin (pl جن jin). Paired with سو / اهو in the next clause." },
+    { "native": "سو", "roman": "so", "en": "he, that one (answering جيڪو); so", "pos": "pron", "note": "f سا sā, pl سي se. At the start of a sentence it also means 'so': سو، مان هليو ويس." },
+    { "native": "جڏهن", "roman": "jaɗahiṃ", "en": "when (not a question)", "pos": "conj", "note": "Paired with تڏهن or ته: جڏهن … تڏهن … The question 'when?' is ڪڏهن." },
+    { "native": "تڏهن", "roman": "taɗahiṃ", "en": "then, at that time", "pos": "adv", "note": "تڏهن ته! = that explains it! / no wonder!" },
+    { "native": "جيئن", "roman": "jīeṃ", "en": "as, the way that", "pos": "conj", "note": "جيئن تون چوين = whatever you say (informal)." },
+    { "native": "سڃاڻڻ", "roman": "sañāṇaṇu", "en": "to recognise; to know (a person)", "pos": "verb", "note": "Past سڃاتو sañāto: مون کيس ڪونه سڃاتو = I didn't recognise him." },
+    { "native": "خبر پوڻ", "roman": "xabara pavaṇu", "en": "to find out, come to know", "pos": "verb", "note": "Dative + خبر پئي (خبر is f): مون کي خبر پئي = I found out. توکي ڪيئن خبر پئي؟ = how did you find out?" },
+    { "native": "هرو ڀرو", "roman": "haro bharo", "en": "for no reason, needlessly", "pos": "adv", "note": "Very Sindhi. هرو ڀرو پريشان نه ٿيو = don't worry for nothing." },
+    { "native": "قسم", "roman": "qasamu", "en": "oath, swear", "pos": "noun", "note": "m. قسم سان! = I swear! Also خدا جو قسم." },
+    { "native": "يعني", "roman": "yaʿnī", "en": "that is; so you mean…", "pos": "particle" },
+    { "native": "مطلب", "roman": "matlabu", "en": "meaning; I mean…", "pos": "noun", "note": "m. منهنجو مطلب آهي ته … = what I mean is …; alone at the start: مطلب، … = I mean, …" },
     { "native": "اصل ۾", "roman": "asula meṃ", "en": "actually, in fact", "pos": "adv" },
-    { "native": "مطلب", "roman": "matlabu", "en": "meaning; I mean", "pos": "noun", "note": "m. منهنجو مطلب آهي ته … = what I mean is …" },
-    { "native": "پهاڪو", "roman": "pahāko", "en": "proverb, saying", "pos": "noun", "note": "m." },
-    { "native": "شاعر", "roman": "shāʿiru", "en": "poet", "pos": "noun", "note": "m." },
-    { "native": "بيت", "roman": "betu", "en": "verse, couplet (of Sindhi poetry)", "pos": "noun", "note": "m. Shah Latif's poetry is made of بيت and وايون (vāyūṃ, sung refrains)." },
-    { "native": "بادشاهه", "roman": "bādshāhu", "en": "king", "pos": "noun", "note": "m." },
-    { "native": "عاشق", "roman": "ʿāshiqu", "en": "lover", "pos": "noun", "note": "m." },
-    { "native": "ٻيڙي", "roman": "ɓeṛī", "en": "boat", "pos": "noun", "note": "f." },
-    { "native": "ڪنارو", "roman": "kināro", "en": "bank, shore, edge", "pos": "noun", "note": "m." },
-    { "native": "روئڻ", "roman": "roaṇu", "en": "to cry, weep", "pos": "verb" },
-    { "native": "کلڻ", "roman": "khilaṇu", "en": "to laugh", "pos": "verb" }
+    { "native": "ڀلا", "roman": "bhalā", "en": "so…, well…; come on", "pos": "particle", "note": "Opens a question softly: ڀلا، ڇا ٿيو؟ = so, what happened?" },
+    { "native": "سچ پچ", "roman": "sach pach", "en": "honestly, for real", "pos": "adv" },
+    { "native": "يار", "roman": "yār", "en": "mate, man (informal)", "pos": "noun", "note": "m. Between friends of either sex: ڇڏ يار! Not to elders or strangers — use ادا / ادي / سائين." },
+    { "native": "ڪچهري", "roman": "kachahrī", "en": "a long, relaxed chat; get-together for talking", "pos": "noun", "note": "f. ڪچهري ڪرڻ = to sit and chat. A Sindhi institution: friends, tea and talk late into the night." },
+    { "native": "چرچو", "roman": "charcho", "en": "joke, kidding", "pos": "noun", "note": "m · pl چرچا charchā. چرچو ڪرڻ = to joke, kid. Also مذاق mazāq." }
   ],
   "phrases": [
     { "native": "ڀلا، پوءِ ڇا ٿيو؟", "roman": "bhalā, poi chhā thiyo?", "en": "So, then what happened?" },
+    { "native": "توکي خبر آهي ڇا ٿيو؟", "roman": "tokhe xabara āhe chhā thiyo?", "en": "Do you know what happened? (informal)", "note": "Polite: توهان کي خبر آهي …؟" },
+    { "native": "سڄو قصو ٻڌاءِ!", "roman": "saʄo qiso ɓudhāi!", "en": "Tell me the whole story! (informal)", "note": "Polite: سڄو قصو ٻڌايو." },
     { "native": "واقعي؟ يقين نٿو اچي!", "roman": "vāqaʿī? yaqīnu natho ache!", "en": "Really? I can't believe it!" },
-    { "native": "اصل ۾ ڳالهه هيءَ آهي ته…", "roman": "asula meṃ ɠālhi hīa āhe ta…", "en": "Actually, the thing is…" },
-    { "native": "منهنجو مطلب آهي ته…", "roman": "munhinjo matlabu āhe ta…", "en": "What I mean is…" },
-    { "native": "هن چيو ته هو سڀاڻي ايندو.", "roman": "hun chayo ta hū subhāṇe endo.", "en": "He said he'd come tomorrow." },
+    { "native": "ڏاڍو افسوس ٿيو.", "roman": "ɗāḍho afsosu thiyo.", "en": "I'm so sorry to hear that." },
+    { "native": "واهه، ڪمال آهي!", "roman": "vāh, kamālu āhe!", "en": "Wow, that's amazing!" },
     { "native": "جيڪو ماڻهو ڪالهه آيو هو، سو منهنجو چاچو آهي.", "roman": "jeko māṇhū kālha āyo ho, so munhinjo chācho āhe.", "en": "The man who came yesterday is my uncle." },
-    { "native": "جتي توهان چئو، اتي ملنداسين.", "roman": "jite tavhāṃ chao, ute milandāsīṃ.", "en": "We'll meet wherever you say." },
-    { "native": "جيئن توهان جي مرضي.", "roman": "jīeṃ tavhāṃ jī marzī.", "en": "As you wish." },
-    { "native": "اکين تي!", "roman": "akhyuni te!", "en": "With pleasure! (lit. on my eyes)" },
-    { "native": "ڳالهه ختم!", "roman": "ɠālhi xatmu!", "en": "End of story! / That's that!" },
-    { "native": "ٻڌ نه، هڪ مزيدار ڳالهه ٻڌايان.", "roman": "ɓudhu na, hika mazedāra ɠālhi ɓudhāyāṃ.", "en": "Listen, let me tell you something funny." },
-    { "native": "سچ پچ، مون کي کل اچي وئي.", "roman": "sach pach, moṃ khe khila achī vaī.", "en": "Honestly, I burst out laughing." }
+    { "native": "چيائين ته رستي ۾ آهيان.", "roman": "chayāīṃ ta raste meṃ āhiyāṃ.", "en": "He said he's on his way.", "note": "Lit. he said: I am on the way. The words are passed on as they were said." },
+    { "native": "قسم سان!", "roman": "qasama sāṃ!", "en": "I swear! / Honestly!" },
+    { "native": "منهنجو مطلب آهي ته…", "roman": "munhinjo matlabu āhe ta…", "en": "What I mean is…" },
+    { "native": "اصل ۾ ڳالهه هيءَ آهي ته…", "roman": "asula meṃ ɠālhi hīa āhe ta…", "en": "Actually, the thing is…" },
+    { "native": "ٻڌ نه، هڪ مزيدار ڳالهه ٻڌايان.", "roman": "ɓudhu na, hika mazedāra ɠālhi ɓudhāyāṃ.", "en": "Listen, let me tell you something funny. (informal)" },
+    { "native": "چرچو ٿو ڪرين؟", "roman": "charcho tho kareṃ?", "en": "Are you kidding? (informal)" },
+    { "native": "ڇڏ يار، ڪا ڳالهه ناهي.", "roman": "chhaɗu yār, kā ɠālhi nāhe.", "en": "Forget it, man, it's nothing. (informal)" },
+    { "native": "سچ پچ، مون کي کل اچي وئي.", "roman": "sach pach, moṃ khe khila achī vaī.", "en": "Honestly, I burst out laughing." },
+    { "native": "ڳالهه ختم!", "roman": "ɠālhi xatmu!", "en": "End of story! / That's that!" }
   ],
   "grammar": [
     {
       "title": "Relative clauses: جيڪو … سو, جتي … اتي, جڏهن … تڏهن",
-      "body": "Sindhi builds 'who / where / when' sentences in **pairs**: a **j-word** in the first clause and a matching **s- or t-word** (or a demonstrative) in the second:\n\n**جيڪو … سو / اهو** — the one who … he: جيڪو محنت ڪري ٿو، سو ڪامياب ٿئي ٿو 'whoever works hard succeeds'\n**جيڪا … سا** (f), **جيڪي … سي** (pl)\n**جتي … اتي** — where … there\n**جڏهن … تڏهن / ته** — when … then\n**جيئن … تيئن** — as … so\n**جيترو … اوترو** — as much … so much\n\nThe j-word agrees with the noun it refers to and takes the oblique before a postposition (جنهن 'whom, which (obl.)', جن 'whom (pl. obl.)'): جنهن ڪتاب جي مون ڳالهه ڪئي هئي … 'the book I talked about …'.\n\nStory **connectors**: هڪ ڀيري 'once', پهريان 'first', پوءِ 'then', اوچتو 'suddenly', انهيءَ ڪري 'because of that', آخرڪار 'finally'.",
+      "body": "English puts 'who / where / when' inside the sentence: 'the man **who came yesterday** is my uncle'. Sindhi instead says it in **two halves**: first a clause with a **j-word**, then a clause that starts with a matching word pointing back to it:\n\n**جيڪو … سو** — (the one) who … he: **جيڪو** ماڻهو ڪالهه آيو هو، **سو** منهنجو چاچو آهي.\n**جيڪا … سا** (f) · **جيڪي … سي** (pl). In speech the second word is often **اهو / اها / اهي** instead of سو / سا / سي.\n**جتي … اتي** — where … there\n**جڏهن … تڏهن** (or **ته**) — when … then\n**جيئن … تيئن** — as … so\n\n**Agreement:** the j-word agrees with the noun it describes: **جيڪا** ڇوڪري (f), **جيڪي** ماڻهو (pl).\n\n**Before a postposition** the j-word takes its oblique form, **جنهن** (pl **جن**): **جنهن** فلم جي مون ڳالهه ڪئي هئي 'the film (that) I talked about'; **جنهن** سان تون ڳالهائي رهيو هئين 'the one you were talking to'.\n\n**Whatever / whoever:** جيڪو ٿيو، سو ٿيو 'what's done is done'; جيڪو وڻي، سو وٺو 'take whatever you like'.\n\n**Trap:** don't use the question words ڪير / ڪٿي / ڪڏهن here — 'when I was little' is **جڏهن** مان ننڍو هوس, never ڪڏهن.",
       "examples": [
         { "native": "جيڪو ماڻهو دروازي تي آهي، سو ڪير آهي؟", "roman": "jeko māṇhū darvāze te āhe, so ker āhe?", "en": "Who's the man at the door? (lit. the man who is at the door, who is he?)" },
         { "native": "جيڪا ڇوڪري ڳائي پئي، سا منهنجي ڀيڻ آهي.", "roman": "jekā chhokirī ɠāe paī, sā munhinjī bheṇa āhe.", "en": "The girl who's singing is my sister." },
-        { "native": "جتي سنڌو درياهه آهي، اتي زندگي آهي.", "roman": "jite sindhu daryāhu āhe, ute zindagī āhe.", "en": "Where the Indus is, there is life." },
+        { "native": "جتي ڪالهه ماني کاڌي هئي، اتي ئي هلون؟", "roman": "jite kālha mānī khādhī huī, ute ī halūṃ?", "en": "Shall we go to the same place we ate yesterday?" },
         { "native": "جڏهن مان ننڍو هوس، تڏهن ڳوٺ ۾ رهندو هوس.", "roman": "jaɗahiṃ māṃ nanḍho hos, taɗahiṃ ɠoṭha meṃ rahando hos.", "en": "When I was little, I used to live in the village. (man)" },
-        { "native": "جنهن ڪتاب جي مون ڳالهه ڪئي، اهو هي آهي.", "roman": "janhin kitāba jī moṃ ɠālhi kaī, uho hī āhe.", "en": "This is the book I talked about." }
+        { "native": "جنهن فلم جي مون ڳالهه ڪئي هئي، اها هيءَ آهي.", "roman": "janhin filma jī moṃ ɠālhi kaī huī, uhā hīa āhe.", "en": "This is the film I told you about." },
+        { "native": "خير، جيڪو ٿيو، سو ٿيو.", "roman": "xairu, jeko thiyo, so thiyo.", "en": "Oh well, what's done is done." }
       ]
     },
     {
-      "title": "Reported speech with ته, and conversation glue",
-      "body": "Sindhi reports speech by repeating the speaker's words **as they were said**, after **ته** (ta) 'that': **هن چيو ته مان ٿڪل آهيان** — literally 'he said that I am tired' = he said he was tired. Pronouns may shift to fit the new speaker (as in English), but tenses usually stay as originally spoken.\n\nQuestions are reported the same way: هن پڇيو ته توهان ڪڏهن ايندا؟ 'she asked when you would come'. In stories you'll constantly hear **چيائين ته …** 'he/she said …' and **پڇيائين ته …** 'he/she asked …'.\n\n**Conversation glue** — fillers and reactions:\nڀلا bhalā — well…, so… · يعني yaʿnī — I mean · ها ته hā ta — so anyway · ٻڌ نه / ٻڌو نه — listen… · واقعي؟ — really? · سچ پچ — honestly · ڇا ڳالهه آهي! — what a thing! / wow · خير — anyway, never mind.\n\n**Idioms**: اکين تي 'gladly (lit. on my eyes)' · دل ٽٽڻ 'to be heartbroken (lit. heart breaks)' · ڪن ڏيڻ 'to listen closely (lit. give ear)' · هٿ ونڊائڻ 'to lend a hand'.",
+      "title": "Passing on what people said: ته",
+      "body": "To report what someone said, Sindhi puts **ته** (ta, 'that') after the speech verb and then repeats the words **as they were said** — like quoting without quotation marks:\n\nهن چيو **ته** مان ٿڪل آهيان — lit. 'he said that I am tired' = he said he was tired.\n**چيائين ته** رستي ۾ آهيان — he said he's on his way.\n\nSo the pronoun and the verb stay as the speaker used them: if your friend said 'I'll come', you report هن چيو ته **مان ايندس**. (You may also shift them as in English — هن چيو ته هو ايندو — but the 'as said' version is the most natural.)\n\n**Questions:** پڇيو ته … + the question as asked: امان پڇيو ته **توهان ماني کاڌي؟** 'Mum asked if you'd eaten'.\n**Orders and requests** keep the command form: امان چيو ته **جلدي گهر اچ** 'Mum said to come home early'.\n\n**Useful verbs:** چوڻ (chayo 'said') · پڇڻ 'ask' · ٻڌائڻ 'tell' · خبر پوڻ 'find out': مون کي خبر پئي ته … 'I found out that …'. With the endings from Unit 16: **چيائين** 'he/she said', **چيم** 'I said'.\n\n**Trap:** don't leave out ته — هن چيو مان ايندس sounds broken. And 'told **me**' needs کي: هن **مون کي** ٻڌايو ته …",
       "examples": [
         { "native": "هن چيو ته مان ٿڪل آهيان.", "roman": "hun chayo ta māṃ thakalu āhiyāṃ.", "en": "He said he was tired. (lit. said: I am tired)" },
         { "native": "امان پڇيو ته توهان ماني کاڌي؟", "roman": "amāṃ puchhyo ta tavhāṃ mānī khādhī?", "en": "Mum asked whether you'd eaten. (lit. asked: did you eat?)" },
         { "native": "چيائين ته سڀاڻي ضرور ايندس.", "roman": "chayāīṃ ta subhāṇe zarūr endus.", "en": "He said he'd definitely come tomorrow." },
+        { "native": "مون کيس چيو ته دير نه ڪر.", "roman": "moṃ khesi chayo ta dera na karu.", "en": "I told him not to be late. (lit. I said to him: don't be late)" },
+        { "native": "هن مون کي ٻڌايو ته امتحان ملتوي ٿي ويو آهي.", "roman": "hun moṃ khe ɓudhāyo ta imtihānu multavī thī vayo āhe.", "en": "She told me the exam has been postponed." }
+      ]
+    },
+    {
+      "title": "Telling it: first, then, suddenly — and \"started to\"",
+      "body": "**Putting events in order:**\nپهريان pahiryāṃ — first · پوءِ poi — then · اوچتو ochito — suddenly · ان وقت / تڏهن — at that moment · انهيءَ ڪري inhīa kare — so, that's why · آخرڪار āxirkāra — in the end.\n\n**Started to …:** oblique infinitive (-ṇa) + **لڳڻ**, which agrees with the subject like any intransitive past: هو **کلڻ لڳو** 'he started laughing', هوءَ **روئڻ لڳي** 'she started crying', اسين **کلڻ لڳاسين** 'we started laughing', مينهن **وسڻ لڳو** 'it started raining'.\n\n**Keeping the chat going** (fillers): ڀلا 'so…' · يعني 'you mean…' · مطلب 'I mean' · اصل ۾ 'actually' · ٻڌ نه 'listen…' · خير 'anyway'.\n**Reacting:** سچي؟ / واقعي؟ 'really?' · واهه! 'wow!' · ڪمال آهي! 'amazing!' · ويچارو! (f ويچاري!) 'poor thing!' · ڏاڍو افسوس ٿيو 'so sorry' · قسم سان! 'I swear!' · چرچو ٿو ڪرين؟ 'are you kidding?' · تڏهن ته! 'that explains it!'\n\nWith friends use **تون** and its short commands (ٻڌ، ٻڌاءِ، ڇڏ); with elders the same fillers work with **توهان**: ٻڌو نه، ٻڌايو.",
+      "examples": [
+        { "native": "پهريان بس خراب ٿي، پوءِ مينهن به وسڻ لڳو.", "roman": "pahiryāṃ basa xarābu thī, poi mīṃhu bi vasaṇa laɠo.", "en": "First the bus broke down, then it started raining too." },
+        { "native": "هوءَ اوچتو کلڻ لڳي.", "roman": "hūa ochito khilaṇa laɠī.", "en": "She suddenly started laughing." },
+        { "native": "ٽرين دير سان آئي، انهيءَ ڪري مان دير سان پهتس.", "roman": "ṭreni dera sāṃ āī, inhīa kare māṃ dera sāṃ pahutus.", "en": "The train was late, that's why I got here late. (man)" },
         { "native": "خير، ڳالهه ڪجهه به ناهي.", "roman": "xairu, ɠālhi kujhu bi nāhe.", "en": "Anyway, it's nothing." },
         { "native": "ٻڌو نه، مون کي هڪ ڳالهه ياد آئي.", "roman": "ɓudho na, moṃ khe hika ɠālhi yāda āī.", "en": "Listen, I just remembered something." }
       ]
     }
   ],
   "dialogue": {
-    "title": "The story of Sassui and Punhun",
-    "setting": "On a winter night in the courtyard, Grandmother (Nani) tells young Zubair a famous Sindhi love story.",
+    "title": "You will not believe who I sat next to",
+    "setting": "Sanam bumps into her friend Ayaz at a tea stall in Qasimabad, Hyderabad. He was supposed to be back from Karachi the night before.",
     "lines": [
-      { "speaker": "Zubair", "native": "ناني، ڪا ڪهاڻي ٻڌايو نه!", "roman": "nānī, kā kahāṇī ɓudhāyo na!", "en": "Nani, tell me a story, please!" },
-      { "speaker": "Nani", "native": "ٻڌ. هڪ ڀيري ڀنڀور شهر ۾ سسئي نالي هڪ سهڻي ڇوڪري رهندي هئي.", "roman": "ɓudhu. hika bhere bhanbhora shahara meṃ sasuī nāle hika sohaṇī chhokirī rahandī huī.", "en": "Listen. Once, in the city of Bhambhore, there lived a beautiful girl named Sassui." },
-      { "speaker": "Nani", "native": "ڪيچ مڪران کان پنهون نالي هڪ شهزادو آيو. جڏهن سسئي کيس ڏٺو، تڏهن ٻنهي کي پيار ٿي ويو.", "roman": "kecha makrāna khāṃ panhūṃ nāle hiku shahzādo āyo. jaɗahiṃ sasuī khesi ɗiṭho, taɗahiṃ ɓinhī khe pyāru thī vayo.", "en": "From Kech Makran came a prince named Punhun. When Sassui saw him, the two fell in love." },
-      { "speaker": "Zubair", "native": "پوءِ ڇا ٿيو؟", "roman": "poi chhā thiyo?", "en": "Then what happened?" },
-      { "speaker": "Nani", "native": "پنهون جا ڀائر ناراض هئا. هڪ رات هنن پنهون کي بيهوش ڪيو ۽ اٺن تي کڻي ويا.", "roman": "panhūṃ jā bhāura nārāzu huā. hika rāti hunan panhūṃ khe behoshu kayo ai uṭhan te khaṇī vayā.", "en": "Punhun's brothers were angry. One night they drugged Punhun and carried him off on camels." },
-      { "speaker": "Nani", "native": "صبح جو سسئي اٿي ته پنهون ڪونه هو. هن جي دل ٽٽي پئي.", "roman": "subuh jo sasuī uthī ta panhūṃ kona ho. hun jī dila ṭuṭī paī.", "en": "In the morning Sassui woke up and Punhun was gone. Her heart broke." },
-      { "speaker": "Nani", "native": "هوءَ اڪيلي رڻ ۽ جبلن ۾ پنهون کي ڳولڻ نڪتي. چيائين ته پنهون کان سواءِ نه موٽنديس.", "roman": "hūa akelī raṇa ai jabalan meṃ panhūṃ khe ɠolaṇa niktī. chayāīṃ ta panhūṃ khāṃ savāi na moṭandīs.", "en": "She set out alone across the desert and mountains to find Punhun. She said she would not return without him." },
-      { "speaker": "Zubair", "native": "۽ آخرڪار هن کي پنهون مليو؟", "roman": "ai āxirkāra hun khe panhūṃ milyo?", "en": "And in the end, did she find Punhun?" },
-      { "speaker": "Nani", "native": "چون ٿا ته جتي سسئي ڪري پئي، اتي ئي ٻنهي جو ميلاپ ٿيو — دنيا ۾ نه، پر روح ۾.", "roman": "chavan thā ta jite sasuī kirī paī, ute ī ɓinhī jo melāpu thiyo — dunyā meṃ na, para rūha meṃ.", "en": "They say that where Sassui fell, there the two were united — not in this world, but in spirit." },
-      { "speaker": "Nani", "native": "شاهه لطيف جو پيغام آهي ته سچو عاشق ڪڏهن به نٿو ٿڪجي.", "roman": "shāh latīf jo paiġāmu āhe ta sacho ʿāshiqu kaɗahiṃ bi natho thakije.", "en": "Shah Latif's message is that a true lover never tires." },
-      { "speaker": "Zubair", "native": "ڏاڍي اداس ڪهاڻي آهي، پر سهڻي آهي. مهرباني، ناني!", "roman": "ɗāḍhī udāsu kahāṇī āhe, para sohaṇī āhe. meharbānī, nānī!", "en": "It's a very sad story, but beautiful. Thank you, Nani!" }
+      { "speaker": "Sanam", "native": "اياز! ڪالهه ڪٿي هئين؟ تو فون به نه کنيو!", "roman": "ayāz! kālha kithe huyeṃ? to fon bi na khanyo!", "en": "Ayaz! Where were you yesterday? You didn't even pick up!" },
+      { "speaker": "Ayaz", "native": "ڇڏ يار، وڏو قصو آهي.", "roman": "chhaɗu yār, vaɗo qiso āhe.", "en": "Don't ask, it's a long story." },
+      { "speaker": "Sanam", "native": "ڀلا، ٻڌاءِ نه، ڇا ٿيو؟", "roman": "bhalā, ɓudhāi na, chhā thiyo?", "en": "So go on, tell me, what happened?" },
+      { "speaker": "Ayaz", "native": "مان ڪراچيءَ کان بس ۾ اچي رهيو هوس. جامشوري کان اڳ بس خراب ٿي پئي.", "roman": "māṃ karāchīa khāṃ basa meṃ achī rahyo hos. jāmshore khāṃ aɠu basa xarābu thī paī.", "en": "I was coming back from Karachi on the bus. Just before Jamshoro the bus broke down." },
+      { "speaker": "Sanam", "native": "سچي؟ پوءِ؟", "roman": "sachī? poi?", "en": "Really? Then?" },
+      { "speaker": "Ayaz", "native": "ٻه ڪلاڪ رستي تي ويٺا رهياسين. منهنجو فون به بند ٿي ويو.", "roman": "ɓa kalāka raste te veṭhā rahyāsīṃ. munhinjo fon bi bandu thī vayo.", "en": "We sat at the roadside for two hours. And my phone died." },
+      { "speaker": "Sanam", "native": "ويچارو! تڏهن ته تنهنجو فون بند هو.", "roman": "vichāro! taɗahiṃ ta tunhinjo fon bandu ho.", "en": "Poor you! So that's why your phone was off." },
+      { "speaker": "Ayaz", "native": "پر ٻڌ نه — جيڪو ماڻهو منهنجي ڀرسان ويٺو هو، سو اسان جو اسڪول وارو استاد هو!", "roman": "para ɓudhu na — jeko māṇhū munhinjī bharsāṃ veṭho ho, so asāṃ jo iskūla vāro ustādu ho!", "en": "But listen — the man sitting next to me was our old schoolteacher!" },
+      { "speaker": "Sanam", "native": "قسم سان؟ هن توکي سڃاتو؟", "roman": "qasama sāṃ? hun tokhe sañāto?", "en": "No way! Did he recognise you?" },
+      { "speaker": "Ayaz", "native": "ها! چيائين ته تون اڃا به دير سان ٿو اچين!", "roman": "hā! chayāīṃ ta tūṃ añā bi dera sāṃ tho acheṃ!", "en": "Yes! He said, \"You're still late for everything!\"" },
+      { "speaker": "Sanam", "native": "هاهاها! واهه، ڪمال آهي! پوءِ گهر ڪڏهن پهتين؟", "roman": "hāhāhā! vāh, kamālu āhe! poi ghara kaɗahiṃ pahuteṃ?", "en": "Hahaha! That's brilliant! So when did you get home?" },
+      { "speaker": "Ayaz", "native": "آخرڪار ٻي بس آئي، ۽ رات جو ٻارهين وڳي پهتس. خير، ڳالهه ختم!", "roman": "āxirkāra ɓī basa āī, ai rāti jo ɓārahīṃ vaɠe pahutus. xairu, ɠālhi xatmu!", "en": "Finally another bus came, and I got home at midnight. Anyway, end of story!" }
     ]
   },
-  "culture": "**Sassui and Punhun** is one of the great romances that Shah Abdul Latif wove into his *Risalo* as images of the soul's search for God; Sassui's lonely journey through the mountains is sung in the chapters 'Sur Sassui Abri', 'Sur Maazuri', 'Sur Desi', 'Sur Kohiyari' and 'Sur Husaini'. The ruins of **Bhambhore**, near Karachi, are linked to the legend. Other tales you'll hear in Sindh: **Umar–Marvi** (the village girl who refused a king's palace out of loyalty to her people in Thar), **Sohni–Mahiwal** (who swam the river on a clay pot), and **Moomal–Rano**. Knowing these stories — and a line or two of Latif — opens hearts everywhere in Sindh. *Mubārak!* You've finished the course."
+  "culture": "Sindhis love to talk, and the **ڪچهري** — friends or relatives sitting together for hours over tea, swapping news and stories — is the heart of social life. In villages it happens in the **اوطاق** (otāq), the men's guest room; in Hyderabad and Karachi it happens at tea stalls, on rooftops, in hostel rooms and in endless WhatsApp voice notes. A good story is told with lots of **پوءِ** and **ٻڌ نه**, and the listener's job is to keep it going: **سچي؟**, **پوءِ؟**, **ويچارو!**, **واهه!**.\n\nAmong friends people use **تون** and **يار**, and often mix in Urdu and English (**سيريئسلي؟**, **ٽينشن نه وٺ**), especially in Karachi. With older people you switch to **توهان**, **ادا / ادي** or **سائين**, and keep the fillers polite: **ٻڌو نه**, **جي، واقعي؟** Calling an elder **يار** would be rude.\n\nSindhi sounds a little different from place to place: **Vicholi**, spoken around Hyderabad, is the basis of the standard; upper Sindh (Sukkur, Larkana) speaks **Siroli**, lower Sindh (Thatta, Badin) **Lari**, and Thar its own dialect close to Marwari — but everyone understands **سچي؟** and **ڳالهه ختم!**",
+  "lessons": [
+    {
+      "title": "Telling a friend what happened",
+      "tip": { "title": "First, then, suddenly… started to: لڳڻ", "body": "- Order events with **پهريان** 'first', **پوءِ** 'then', **اوچتو** 'suddenly', **انهيءَ ڪري** 'so', **آخرڪار** 'in the end'.\n- 'Started to …' = verb-ṇa + **لڳڻ**, agreeing with the subject: هو کلڻ **لڳو** · هوءَ روئڻ **لڳي** · اسين کلڻ **لڳاسين**.", "pattern": "verb-ṇa + لڳو / لڳي / لڳا", "grammar": 2 },
+      "new": ["ڳالهه", "قصو", "آخرڪار", "انهيءَ ڪري", "کلڻ", "روئڻ", "ڀلا، پوءِ ڇا ٿيو؟", "توکي خبر آهي ڇا ٿيو؟", "سڄو قصو ٻڌاءِ!"],
+      "sentences": [
+        { "native": "ڪالهه آفيس ۾ هڪ مزيدار ڳالهه ٿي.", "roman": "kālha āfīsa meṃ hika mazedāra ɠālhi thī.", "en": "Something funny happened at the office yesterday." },
+        { "native": "پهريان بس دير سان آئي، پوءِ مينهن وسڻ لڳو.", "roman": "pahiryāṃ basa dera sāṃ āī, poi mīṃhu vasaṇa laɠo.", "en": "First the bus was late, then it started raining.", "focus": "لڳو", "wrong": ["لڳي|laɠī", "لڳا|laɠā"] },
+        { "native": "اوچتو بتي هلي وئي ۽ سڀ کلڻ لڳا.", "roman": "ochito batī halī vaī ai sabhu khilaṇa laɠā.", "en": "Suddenly the power went and everyone started laughing.", "focus": "لڳا", "wrong": ["لڳو|laɠo", "لڳي|laɠī"] },
+        { "native": "ٻار روئڻ لڳو، انهيءَ ڪري اسين جلدي گهر موٽياسين.", "roman": "ɓāru roaṇa laɠo, inhīa kare asīṃ jaldī ghara moṭyāsīṃ.", "en": "The baby started crying, so we went home early.", "focus": "روئڻ", "wrong": ["روئي|roe", "روئندو|roando"] },
+        { "native": "هوءَ فون تي روئڻ لڳي.", "roman": "hūa fon te roaṇa laɠī.", "en": "She started crying on the phone.", "focus": "لڳي", "wrong": ["لڳو|laɠo", "لڳاسين|laɠāsīṃ"] },
+        { "native": "اسين سڀ کلڻ لڳاسين.", "roman": "asīṃ sabhu khilaṇa laɠāsīṃ.", "en": "We all started laughing.", "focus": "لڳاسين", "wrong": ["لڳو|laɠo", "لڳي|laɠī"] },
+        { "native": "آخرڪار رات جو ٻارهين وڳي گهر پهتاسين.", "roman": "āxirkāra rāti jo ɓārahīṃ vaɠe ghara pahutāsīṃ.", "en": "In the end we got home at midnight.", "focus": "آخرڪار", "wrong": ["پهريان|pahiryāṃ", "اوچتو|ochito"] },
+        { "native": "پهريان مون کي ڪاوڙ آئي، پوءِ کل اچي وئي.", "roman": "pahiryāṃ moṃ khe kāvaṛi āī, poi khila achī vaī.", "en": "First I got angry, then I burst out laughing.", "focus": "پوءِ", "wrong": ["آخرڪار|āxirkāra", "اوچتو|ochito"] },
+        { "native": "انهيءَ ڪري مون توکي فون نه ڪيو.", "roman": "inhīa kare moṃ tokhe fon na kayo.", "en": "That's why I didn't call you." },
+        { "native": "هي ڇا قصو آهي؟", "roman": "hī chhā qiso āhe?", "en": "What's going on here?" }
+      ]
+    },
+    {
+      "title": "Reacting to news",
+      "tip": { "title": "Really? Wow! Poor thing!", "body": "- **سچي؟** is the friendly 'really?'; **واقعي؟** works with anyone.\n- **واهه!** / **ڪمال آهي!** for good news; **ڏاڍو افسوس ٿيو** for bad news.\n- **ويچارو!** agrees with the person: ويچارو (a man) · **ويچاري** (a woman) · **ويچارا** (people)." },
+      "new": ["سچي", "واقعي", "واهه", "ڪمال", "عجيب", "ويچارو", "افسوس", "واقعي؟ يقين نٿو اچي!", "ڏاڍو افسوس ٿيو.", "واهه، ڪمال آهي!"],
+      "sentences": [
+        { "native": "سچي؟ هو دبئي هليو ويو؟", "roman": "sachī? hū dubaī halyo vayo?", "en": "Really? He's gone off to Dubai?" },
+        { "native": "واقعي؟ تو ڪالهه هن کي ڏٺو؟", "roman": "vāqaʿī? to kālha hun khe ɗiṭho?", "en": "Really? You saw him yesterday?" },
+        { "native": "واهه! توکي نوڪري ملي وئي؟", "roman": "vāh! tokhe nokirī milī vaī?", "en": "Wow! You got the job?" },
+        { "native": "ڪمال جو ماڻهو آهي!", "roman": "kamāla jo māṇhū āhe!", "en": "He's an amazing guy!" },
+        { "native": "اها ته عجيب ڳالهه آهي!", "roman": "uhā ta ʿajību ɠālhi āhe!", "en": "Now that's weird!" },
+        { "native": "ويچاري! هن جو فون چوري ٿي ويو.", "roman": "vichārī! hun jo fon chorī thī vayo.", "en": "Poor girl! Her phone got stolen.", "focus": "ويچاري", "wrong": ["ويچارو|vichāro", "ويچارا|vichārā"] },
+        { "native": "ويچارو سڄي رات سمهي نه سگهيو.", "roman": "vichāro saʄī rāti sumhī na saghyo.", "en": "Poor guy, he couldn't sleep all night.", "focus": "ويچارو", "wrong": ["ويچاري|vichārī", "ويچارا|vichārā"] },
+        { "native": "ويچارا ٻار ٻه ڪلاڪ بس ۾ ويٺا رهيا.", "roman": "vichārā ɓāra ɓa kalāka basa meṃ veṭhā rahyā.", "en": "The poor kids sat in the bus for two hours.", "focus": "ويچارا", "wrong": ["ويچارو|vichāro", "ويچاري|vichārī"] },
+        { "native": "مون کي ڏاڍو افسوس آهي.", "roman": "moṃ khe ɗāḍho afsosu āhe.", "en": "I'm really sorry." },
+        { "native": "واقعي؟ مون کي ته خبر ئي نه هئي!", "roman": "vāqaʿī? moṃ khe ta xabara ī na huī!", "en": "Really? I had no idea!" }
+      ]
+    },
+    {
+      "title": "The one who…, the place where…",
+      "tip": { "title": "جيڪو … سو — the one who … he", "body": "- Say it in two halves: **جيڪو** ماڻهو آيو، **سو** منهنجو دوست آهي.\n- Both words agree: جيڪو … سو (m) · **جيڪا … سا** (f) · **جيڪي … سي** (pl).\n- Same idea: **جتي … اتي** 'where … there', **جڏهن … تڏهن** 'when … then'.\n- Never the question words ڪير / ڪڏهن here.", "pattern": "جيڪو + clause، سو + rest", "grammar": 0 },
+      "new": ["جيڪو", "سو", "جڏهن", "تڏهن", "جيئن", "سڃاڻڻ", "جيڪو ماڻهو ڪالهه آيو هو، سو منهنجو چاچو آهي."],
+      "sentences": [
+        { "native": "جيڪو ڇوڪرو بس ۾ مليو هو، سو ڪير هو؟", "roman": "jeko chhokiro basa meṃ milyo ho, so ker ho?", "en": "Who was that boy we met on the bus?", "focus": "جيڪو", "wrong": ["جيڪا|jekā", "جيڪي|jeke"] },
+        { "native": "جيڪا ڇوڪري توهان سان ڳالهائي رهي هئي، سا منهنجي دوست آهي.", "roman": "jekā chhokirī tavhāṃ sāṃ ɠālhāe rahī huī, sā munhinjī dosta āhe.", "en": "The girl who was talking to you is my friend.", "focus": "سا", "wrong": ["سو|so", "سي|se"] },
+        { "native": "جيڪي ماڻهو دير سان آيا، سي ٻاهر ويٺا آهن.", "roman": "jeke māṇhū dera sāṃ āyā, se ɓāhari veṭhā āhin.", "en": "The people who came late are sitting outside.", "focus": "سي", "wrong": ["سو|so", "سا|sā"] },
+        { "native": "جڏهن پهچين، تڏهن فون ڪر.", "roman": "jaɗahiṃ pahucheṃ, taɗahiṃ fon karu.", "en": "Call me when you get there. (informal)", "focus": "جڏهن", "wrong": ["ڪڏهن|kaɗahiṃ", "جيڪو|jeko"] },
+        { "native": "جيڪو توهان کي وڻي، سو وٺو.", "roman": "jeko tavhāṃ khe vaṇe, so vaṭho.", "en": "Take whatever you like.", "focus": "سو", "wrong": ["سا|sā", "سي|se"] },
+        { "native": "جتي ڪالهه وياسين، اتي ٻيهر هلون؟", "roman": "jite kālha vayāsīṃ, ute ɓiyahar halūṃ?", "en": "Shall we go back to where we went yesterday?", "focus": "اتي", "wrong": ["جتي|jite", "ڪٿي|kithe"] },
+        { "native": "جيئن تون چوين.", "roman": "jīeṃ tūṃ chaveṃ.", "en": "Whatever you say. (informal)" },
+        { "native": "مون کيس ڪونه سڃاتو، ڏاڍو ٿلهو ٿي ويو آهي!", "roman": "moṃ khesi kona sañāto, ɗāḍho thulho thī vayo āhe!", "en": "I didn't recognise him, he's put on so much weight!" },
+        { "native": "توهان مون کي سڃاتو؟", "roman": "tavhāṃ moṃ khe sañāto?", "en": "Do you recognise me? (polite)" }
+      ]
+    },
+    {
+      "title": "Passing on what people said",
+      "tip": { "title": "He said that…: چيو ته + the words as said", "body": "- Report speech with **ته** and the speaker's own words: هن چيو **ته** مان پهچان ٿو 'he said he's arriving'.\n- Questions and orders stay as they were: امان چيو ته جلدي گهر **اچ**.\n- Found out: مون کي خبر **پئي** ته … (خبر is f).", "pattern": "هن چيو ته + exact words", "grammar": 1 },
+      "new": ["خبر پوڻ", "هرو ڀرو", "قسم", "چيائين ته رستي ۾ آهيان.", "قسم سان!"],
+      "sentences": [
+        { "native": "هن چيو ته مان پنجن منٽن ۾ پهچان ٿو.", "roman": "hun chayo ta māṃ panjan minaṭan meṃ pahuchāṃ tho.", "en": "He said he'd be there in five minutes.", "focus": "ته", "wrong": ["کي|khe", "پر|para"] },
+        { "native": "امان چيو ته جلدي گهر اچ.", "roman": "amāṃ chayo ta jaldī ghara achu.", "en": "Mum said to come home early.", "focus": "اچ", "wrong": ["ايندس|endus", "آيو|āyo"] },
+        { "native": "هوءَ پڇي رهي هئي ته تون ڪڏهن ايندين.", "roman": "hūa puchhī rahī huī ta tūṃ kaɗahiṃ endeṃ.", "en": "She was asking when you'd come.", "focus": "ايندين", "wrong": ["ايندس|endus", "ايندو|endo"] },
+        { "native": "مون کي ڪالهه خبر پئي ته هن جي شادي آهي.", "roman": "moṃ khe kālha xabara paī ta hun jī shādī āhe.", "en": "I found out yesterday that he's getting married.", "focus": "پئي", "wrong": ["پيو|peyo", "پيا|pyā"] },
+        { "native": "توکي ڪيئن خبر پئي؟", "roman": "tokhe kīeṃ xabara paī?", "en": "How did you find out?", "focus": "پئي", "wrong": ["پيو|peyo", "پوندو|pavando"] },
+        { "native": "قسم سان، هن پاڻ چيو ته مان نه ايندس.", "roman": "qasama sāṃ, hun pāṇa chayo ta māṃ na endus.", "en": "I swear, he said himself he wouldn't come.", "focus": "ايندس", "wrong": ["ايندو|endo", "ايندين|endeṃ"] },
+        { "native": "مون چيو ته هرو ڀرو پريشان نه ٿيو.", "roman": "moṃ chayo ta haro bharo pareshānu na thiyo.", "en": "I said don't worry for nothing.", "focus": "ته", "wrong": ["۽|ai", "پر|para"] },
+        { "native": "چيائين ته ٽڪيٽون مون وٽ آهن.", "roman": "chayāīṃ ta ṭikeṭūṃ moṃ vaṭi āhin.", "en": "He said he's got the tickets." },
+        { "native": "هرو ڀرو ڪوڙ نه ڳالهاءِ.", "roman": "haro bharo kūṛu na ɠālhāi.", "en": "Don't lie for no reason. (informal)" }
+      ]
+    },
+    {
+      "title": "Keeping the chat going",
+      "tip": { "title": "So…, I mean…, actually…", "body": "- **ڀلا** opens a question softly; **يعني** checks you understood: يعني تون نه ايندين؟\n- **مطلب** / **منهنجو مطلب آهي ته** 'I mean'; **اصل ۾** 'actually'.\n- **يار** and **ٻڌ نه** are for friends; with elders say **ٻڌو نه** and **جي**." },
+      "new": ["يعني", "مطلب", "اصل ۾", "ڀلا", "سچ پچ", "يار", "ڪچهري", "منهنجو مطلب آهي ته…", "اصل ۾ ڳالهه هيءَ آهي ته…", "ٻڌ نه، هڪ مزيدار ڳالهه ٻڌايان."],
+      "sentences": [
+        { "native": "يار، اڄ رات ڪچهري ڪريون؟", "roman": "yār, aʄu rāti kachahrī karyūṃ?", "en": "Shall we get together for a chat tonight, man?" },
+        { "native": "يعني تون نه ايندين؟", "roman": "yaʿnī tūṃ na endeṃ?", "en": "So you mean you're not coming?" },
+        { "native": "منهنجو مطلب هو ته اڄ نه، سڀاڻي.", "roman": "munhinjo matlabu ho ta aʄu na, subhāṇe.", "en": "What I meant was not today — tomorrow." },
+        { "native": "اصل ۾ مون کي وقت ئي ڪونه هو.", "roman": "asula meṃ moṃ khe vaqtu ī kona ho.", "en": "Actually, I just didn't have time." },
+        { "native": "سچ پچ، تنهنجي ڳالهه صحيح آهي.", "roman": "sach pach, tunhinjī ɠālhi sahī āhe.", "en": "Honestly, you've got a point." },
+        { "native": "ٻڌ نه يار، اڄ ڇا ڪيو؟", "roman": "ɓudhu na yār, aʄu chhā kayo?", "en": "So, man, what did you get up to today?" },
+        { "native": "ڪچهريءَ ۾ ٽي ڪلاڪ گذري ويا.", "roman": "kachahrīa meṃ ṭī kalāka guzrī vayā.", "en": "Three hours flew by chatting." },
+        { "native": "اسان جي ڪچهري رات جو دير تائين هلي.", "roman": "asāṃ jī kachahrī rāti jo dera tāīṃ halī.", "en": "Our chat went on late into the night." },
+        { "native": "ڀلا، يعني سڀ ٺيڪ آهي؟", "roman": "bhalā, yaʿnī sabhu ṭhīku āhe?", "en": "So everything's fine, then?" },
+        { "native": "مطلب، مون کي پڪ ناهي.", "roman": "matlabu, moṃ khe paka nāhe.", "en": "I mean, I'm not sure." }
+      ]
+    },
+    {
+      "title": "Joking around",
+      "tip": { "title": "Kidding: چرچو ڪرڻ", "body": "- **چرچو ڪرڻ** = to joke: مان چرچو پيو ڪريان 'I'm only kidding'.\n- **ڇڏ يار** 'forget it, man' — only with friends.\n- **ڳالهه ختم!** closes a story or an argument." },
+      "new": ["چرچو", "چرچو ٿو ڪرين؟", "ڇڏ يار، ڪا ڳالهه ناهي.", "سچ پچ، مون کي کل اچي وئي.", "ڳالهه ختم!"],
+      "sentences": [
+        { "native": "مان چرچو پيو ڪريان، يار!", "roman": "māṃ charcho peyo karyāṃ, yār!", "en": "I'm just kidding, man!" },
+        { "native": "چرچا نه ڪر، سچ ٻڌاءِ.", "roman": "charchā na karu, sachu ɓudhāi.", "en": "Stop joking, tell me the truth. (informal)" },
+        { "native": "هو هر ڳالهه تي چرچا ڪندو آهي.", "roman": "hū har ɠālhi te charchā kando āhe.", "en": "He jokes about everything." },
+        { "native": "ڇڏ يار، هاڻي ڪجهه ٻيو ڳالهايون.", "roman": "chhaɗu yār, hāṇe kujhu ɓiyo ɠālhāyūṃ.", "en": "Forget it, man, let's talk about something else." },
+        { "native": "ٺيڪ آهي، ڳالهه ختم. هاڻي ماني کائون؟", "roman": "ṭhīku āhe, ɠālhi xatmu. hāṇe mānī khāūṃ?", "en": "OK, that's that. Shall we eat now?" },
+        { "native": "ڇا ڳالهه آهي، اڄ ڏاڍو خوش آهين!", "roman": "chhā ɠālhi āhe, aʄu ɗāḍho xushu āhīṃ!", "en": "What's up — you're very happy today!" },
+        { "native": "سچ پچ، مون کي ڪجهه به ياد ناهي.", "roman": "sach pach, moṃ khe kujhu bi yāda nāhe.", "en": "Honestly, I don't remember a thing." },
+        { "native": "سڀ ٻار کلڻ لڳا.", "roman": "sabhu ɓāra khilaṇa laɠā.", "en": "All the kids started laughing." }
+      ]
+    }
+  ]
 }
