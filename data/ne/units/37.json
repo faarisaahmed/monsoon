@@ -1,0 +1,178 @@
+{
+  "id": 37,
+  "title": "Sorting out problems",
+  "goal": "Return or exchange something, complain about a wrong order or a botched repair, report what people told you, keep a dispute calm, and report a scam or a lost phone to the police.",
+  "intro": "The phone comes back from repair worse than before. The jacket you ordered online arrives in the wrong size. The taxi driver charged you double. This unit is about **sorting it out** — firmly, calmly and in Nepali.\n\nThe key skill is **reporting what people said**, because every complaint is built on it: 'you *said* it would be ready yesterday', 'they *told me* to bring the receipt', 'he *asked* whether I had proof'. Nepali does this by **quoting the actual words** and adding **भन्यो / भन्नुभयो**, with **भनेर** for questions and **-न भन्नु** for 'told me to…'. You'll also learn how to stay calm and close a deal: **कुरा मिल्यो** 'agreed'.",
+  "vocab": [
+    { "native": "पसले", "roman": "pasale", "en": "shopkeeper", "pos": "noun", "note": "Addressed as दाइ, भाइ, दिदी, साहुजी." },
+    { "native": "ग्राहक", "roman": "grāhak", "en": "customer", "pos": "noun" },
+    { "native": "रसिद", "roman": "rasid", "en": "receipt", "pos": "noun", "note": "In shops also just बिल." },
+    { "native": "म्यानेजर", "roman": "myānejar", "en": "manager", "pos": "noun" },
+    { "native": "सेवा", "roman": "sewā", "en": "service", "pos": "noun", "note": "ग्राहक सेवा \"customer service\"." },
+    { "native": "ढिलाइ", "roman": "ḍhilāi", "en": "delay", "pos": "noun", "note": "From ढिलो \"late\". ढिलाइ भएकोमा माफ गर्नुहोस् \"sorry for the delay\"." },
+    { "native": "बेवास्ता", "roman": "bewāstā", "en": "neglect, ignoring", "pos": "noun", "note": "बेवास्ता गर्नु \"to ignore, brush off\"." },
+    { "native": "टुट्नु", "roman": "ṭuṭnu", "en": "to break, snap (intransitive)", "pos": "verb", "note": "For things that snap or come apart: टुट्यो \"it broke\". Glass cracking is फुट्नु." },
+    { "native": "बिगार्नु", "roman": "bigārnu", "en": "to damage, ruin, spoil (transitive)", "pos": "verb", "note": "Partner of बिग्रनु \"to break down\": फोन बिग्रियो \"the phone broke\" vs उसले फोन बिगार्‍यो \"he broke the phone\"." },
+    { "native": "जिम्मेवार", "roman": "jimmewār", "en": "responsible", "pos": "adj", "note": "जिम्मा \"responsibility, charge\": मेरो जिम्मा \"leave it to me\"." },
+    { "native": "प्रमाण", "roman": "pramān", "en": "proof, evidence", "pos": "noun" },
+    { "native": "कराउनु", "roman": "karāunu", "en": "to shout, yell", "pos": "verb", "note": "नकराउनुहोस् \"don't shout\". Also \"to call out (of animals)\"." },
+    { "native": "माफी", "roman": "māphi", "en": "apology, forgiveness", "pos": "noun", "note": "माफी माग्नु \"to apologise\". Compare माफ गर्नुहोस् \"sorry / excuse me\"." },
+    { "native": "माग्नु", "roman": "māgnu", "en": "to ask for, demand", "pos": "verb", "note": "पैसा माग्नु \"to ask for money\"; for asking a question use सोध्नु." },
+    { "native": "धैर्य", "roman": "dhairya", "en": "patience", "pos": "noun", "note": "धैर्य गर्नुहोस् \"please be patient\"." },
+    { "native": "समाधान", "roman": "samādhān", "en": "solution", "pos": "noun", "note": "Slightly formal but used everywhere: समस्याको समाधान." },
+    { "native": "ठग्नु", "roman": "ṭhagnu", "en": "to cheat, con, rip off", "pos": "verb", "note": "मलाई ठग्यो \"he ripped me off\"; मलाई ठगियो \"I got ripped off\". ठग \"con man\"; ठगी \"a scam\"." },
+    { "native": "झुटो", "roman": "jhuṭo", "en": "false; a lie", "pos": "adj", "note": "झुटो बोल्नु \"to lie\". In speech also झूट." },
+    { "native": "उजुरी", "roman": "ujuri", "en": "(formal) complaint, police report", "pos": "noun", "note": "उजुरी दिनु / उजुरी दर्ता गर्नु \"to file a complaint\"." },
+    { "native": "दर्ता", "roman": "dartā", "en": "registration, filing", "pos": "noun", "note": "दर्ता गर्नु \"to register, file\"." },
+    { "native": "चौकी", "roman": "chauki", "en": "post (police post)", "pos": "noun", "note": "प्रहरी चौकी \"police post\"; a larger station is प्रहरी वृत्त or प्रहरी कार्यालय." },
+    { "native": "सीसीटीभी", "roman": "sisiṭibhi", "en": "CCTV", "pos": "noun" },
+    { "native": "खोज्नु", "roman": "khojnu", "en": "to look for, search", "pos": "verb", "note": "Also \"to try to\": भन्न खोजेको \"what I'm trying to say\"." }
+  ],
+  "phrases": [
+    { "native": "मैले यो अर्डर गरेको होइन।", "roman": "maile yo arḍar gareko hoina.", "en": "This isn't what I ordered." },
+    { "native": "पैसा फिर्ता पाइन्छ?", "roman": "paisā phirtā pāinchha?", "en": "Can I get a refund?" },
+    { "native": "यो साट्न मिल्छ?", "roman": "yo sāṭna milchha?", "en": "Can I exchange this?" },
+    { "native": "रसिद ल्याउनुभएको छ?", "roman": "rasid lyāunubhaeko chha?", "en": "Have you brought the receipt?" },
+    { "native": "म्यानेजरसँग कुरा गर्न पाऊँ?", "roman": "myānejarsaṃga kurā garna pāuṃ?", "en": "Could I speak to the manager?" },
+    { "native": "तपाईंले भोलि हुन्छ भन्नुभएको थियो।", "roman": "tapāiṃle bholi hunchha bhannubhaeko thiyo.", "en": "You said it would be done tomorrow." },
+    { "native": "यो त पहिल्यै बिग्रेको रहेछ।", "roman": "yo ta pahilyai bigreko rahechha.", "en": "It turns out this was already broken." },
+    { "native": "यो मेरो गल्ती होइन।", "roman": "yo mero galti hoina.", "en": "This isn't my fault." },
+    { "native": "कराउनु पर्दैन, कुरा गरेर मिलाऔँ।", "roman": "karāunu pardaina, kurā garera milāauṃ.", "en": "There's no need to shout — let's talk and sort it out." },
+    { "native": "अब के गर्ने त?", "roman": "aba ke garne ta?", "en": "So what do we do now?" },
+    { "native": "ठीक छ, कुरा मिल्यो।", "roman": "ṭhik chha, kurā milyo.", "en": "OK, it's a deal.", "note": "Literally \"the talk has matched\"." },
+    { "native": "मलाई ठगियो।", "roman": "malāi ṭhagiyo.", "en": "I've been ripped off." },
+    { "native": "उजुरी दर्ता गर्नु छ।", "roman": "ujuri dartā garnu chha.", "en": "I need to file a report." },
+    { "native": "मेरो फोन ट्याक्सीमा छुट्यो।", "roman": "mero phon ṭyāksimā chhuṭyo.", "en": "I left my phone in the taxi." }
+  ],
+  "grammar": [
+    {
+      "title": "Reporting what people said and asked",
+      "body": "English changes the words when reporting ('He said he *would* come'). Nepali usually **keeps the speaker's actual words** — same person, same tense — and adds a verb of saying after them. There are no quotation marks in speech; the भन्यो at the end tells you it was a quote.\n\nपसलेले \"**भोलि बन्छ**\" **भन्यो** — 'The shopkeeper said it would be ready tomorrow' (lit. said, 'it'll be ready tomorrow').\nउनीहरूले \"**फेरि फोन गर्छौँ**\" **भने** — 'They said they'd call back' (lit. 'we'll call').\n\nNotice that **गर्छौँ** 'we will' stays as the speakers said it. The pronouns, too, are the original speaker's: उसले **म** आउँछु भन्यो = 'he said **he**'d come'.\n\n**The verb of saying** agrees with the speaker: (म) भनेँ, (ऊ) **भन्यो**, (उनी/उनीहरू) **भने**, (उनी, she) भनिन्, (तपाईं/उहाँ) **भन्नुभयो**. For complaints, the pluperfect is gold: तपाईंले भोलि हुन्छ **भन्नुभएको थियो** 'you had said it would be done tomorrow'.\n\n**Questions** are reported with **भनेर** + सोध्नु 'ask': मैले के भएको **भनेर सोधेँ** 'I asked what had happened'. For yes/no questions add **कि** (… or not): साट्न मिल्छ **कि** मिल्दैन **भनेर** सोधेँ 'I asked whether I could exchange it'.\n\n**भनेर** also links what someone thinks, writes or hears: पैसा फिर्ता हुँदैन **भनेर** लेखेको छ 'it says (is written) there are no refunds'. Before a noun use **भन्ने**: पैसा फिर्ता हुँदैन **भन्ने** नियम 'the rule that there are no refunds'.\n\n**रे** passes on a message second-hand: म्यानेजर अहिले मिटिङमा हुनुहुन्छ **रे** 'the manager's in a meeting, they say'. And when you didn't catch something: **के रे?** 'what did they say?'",
+      "examples": [
+        { "native": "पसलेले एक हप्तामा बन्छ भन्यो।", "roman": "pasalele ek haptāmā banchha bhanyo.", "en": "The shopkeeper said it would be ready in a week." },
+        { "native": "उनीहरूले पैसा फिर्ता हुँदैन भने।", "roman": "uniharule paisā phirtā hundaina bhane.", "en": "They said there was no refund." },
+        { "native": "मैले रसिद कहाँ छ भनेर सोधेँ।", "roman": "maile rasid kahāṃ chha bhanera sodheṃ.", "en": "I asked where the receipt was." },
+        { "native": "पैसा तीन दिनमा फिर्ता आउँछ भन्ने सुनेको थिएँ।", "roman": "paisā tin dinmā phirtā āunchha bhanne suneko thieṃ.", "en": "I had heard that the money would come back in three days." },
+        { "native": "म्यानेजर आज आउनुहुन्न रे।", "roman": "myānejar āja āunuhunna re.", "en": "Apparently the manager isn't coming in today." }
+      ]
+    },
+    {
+      "title": "Told me to…, asked me to…: -न भन्नु",
+      "body": "To report an **instruction or request** ('he told me to wait', 'they asked me to bring the receipt'), put the verb in its **-न** form and follow it with **भन्नु**. The person who was told takes **-लाई**:\n\nपसलेले **मलाई** भोलि **आउन भन्यो** — 'The shopkeeper told me to come tomorrow.'\nउनीहरूले मलाई रसिद **ल्याउन भने** — 'They told me to bring the receipt.'\n\n**Told not to**: add न- to the -न form: उहाँले मलाई चिन्ता **नगर्न** भन्नुभयो 'he told me not to worry'.\n\n**Asked as a favour**: use the 'for me' form -इदिनु: उसले मलाई फोन **गरिदिन भन्यो** 'he asked me to call (for him)'. More formally, **-न अनुरोध गर्नु** 'to request to': मैले पैसा फिर्ता गर्न **अनुरोध गरेँ**.\n\n**Watch the difference** between three very similar sentences:\n- उसले भोलि **आउन** भन्यो — he told (someone) **to come** tomorrow (an instruction)\n- उसले भोलि **आउने** भन्यो — he said **he would come** tomorrow (his plan)\n- उसले \"भोलि **आउनुहोस्**\" भन्यो — he said, 'Come tomorrow' (the exact quote; also very common)\n\nThe -ने version is extremely useful in complaints: उनीहरूले आज **पठाउने** भनेका थिए 'they said they'd send it today'.\n\nThe causative from unit 35, **-न लगाउनु** 'to make / get someone to do', is the stronger cousin: कम्पनीलाई **बनाउन लगाउनुहोस्** 'make the company fix it'.",
+      "examples": [
+        { "native": "प्रहरीले मलाई भोलि फेरि आउन भन्यो।", "roman": "praharile malāi bholi pheri āuna bhanyo.", "en": "The police told me to come again tomorrow." },
+        { "native": "उहाँले मलाई कसैलाई पैसा नदिन भन्नुभयो।", "roman": "uhāṃle malāi kasailāi paisā nadina bhannubhayo.", "en": "He told me not to give money to anyone." },
+        { "native": "साथीले मलाई उसको झोला खोजिदिन भन्यो।", "roman": "sāthile malāi usko jholā khojidina bhanyo.", "en": "My friend asked me to look for his bag for him." },
+        { "native": "कम्पनीले आज फोन गर्ने भनेको थियो।", "roman": "kampanile āja phon garne bhaneko thiyo.", "en": "The company said they would call today." },
+        { "native": "मैले म्यानेजरलाई सीसीटीभी हेर्न अनुरोध गरेँ।", "roman": "maile myānejarlāi sisiṭibhi herna anurodh gareṃ.", "en": "I asked the manager to check the CCTV." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The repair that went wrong",
+    "setting": "Sujan left his phone at a repair shop in Putalisadak, Kathmandu, to have the screen replaced. He's back to collect it.",
+    "lines": [
+      { "speaker": "Sujan", "native": "दाइ, नमस्ते। मैले अस्ति यहाँ फोन बनाउन दिएको थिएँ।", "roman": "dāi, namaste. maile asti yahāṃ phon banāuna dieko thieṃ.", "en": "Hello. I left my phone here for repair the day before yesterday." },
+      { "speaker": "Shopkeeper", "native": "अँ, सम्झेँ। स्क्रिन फेरेको हो नि?", "roman": "aṃ, samjheṃ. skrin phereko ho ni?", "en": "Yes, I remember. The new screen, right?" },
+      { "speaker": "Sujan", "native": "हो। तपाईंले हिजो बेलुकासम्म बन्छ भन्नुभएको थियो, तर फोन गर्दा उठाउनुभएन।", "roman": "ho. tapāiṃle hijo belukāsamma banchha bhannubhaeko thiyo, tara phon gardā uṭhāunubhaena.", "en": "Yes. You said it'd be ready by yesterday evening, but you didn't pick up when I called." },
+      { "speaker": "Shopkeeper", "native": "सरी भाइ, हिजो एकदम बिजी भयो। ल, फोन तयार छ।", "roman": "sari bhāi, hijo ekdam biji bhayo. la, phon tayār chha.", "en": "Sorry, mate, yesterday was crazy. Here you go, it's ready." },
+      { "speaker": "Sujan", "native": "ला, स्क्रिन त बायाँपट्टि चलेकै छैन! अनि छेउमा यो दाग के हो?", "roman": "lā, skrin ta bāyāṃpaṭṭi chalekai chhaina! ani chheumā yo dāg ke ho?", "en": "Hang on — the left side of the screen doesn't work at all! And what's this mark on the edge?" },
+      { "speaker": "Shopkeeper", "native": "त्यो दाग त पहिल्यै थियो होला।", "roman": "tyo dāg ta pahilyai thiyo holā.", "en": "That mark must have been there before." },
+      { "speaker": "Sujan", "native": "थिएन दाइ। मैले दिनुअघि फोटो खिचेको छु, हेर्नुहोस्।", "roman": "thiena dāi. maile dinuaghi phoṭo khicheko chhu, hernuhos.", "en": "It wasn't. I took a photo before I handed it over — look." },
+      { "speaker": "Shopkeeper", "native": "ओहो… हाम्रो भाइले खोल्दा भएछ जस्तो छ।", "roman": "oho… hāmro bhāile kholdā bhaechha jasto chha.", "en": "Oh… looks like it happened when our boy opened it up." },
+      { "speaker": "Sujan", "native": "त्यही त। अब यसको जिम्मेवार को?", "roman": "tyahi ta. aba yasko jimmewār ko?", "en": "Exactly. So who's responsible for this?" },
+      { "speaker": "Shopkeeper", "native": "ठीक छ, नकराउनुस्। म फेरि स्क्रिन फेरिदिन्छु, पैसा लाग्दैन।", "roman": "ṭhik chha, nakarāunus. ma pheri skrin pheridinchhu, paisā lāgdaina.", "en": "OK, OK, don't shout. I'll replace the screen again — no charge." },
+      { "speaker": "Sujan", "native": "मैले कहाँ कराएँ र? भनेको मात्र। कहिले बन्छ त?", "roman": "maile kahāṃ karāeṃ ra? bhaneko mātra. kahile banchha ta?", "en": "I'm not shouting! I'm just saying. So when will it be ready?" },
+      { "speaker": "Shopkeeper", "native": "भोलि दिउँसो दुई बजे। यस पटक पक्का।", "roman": "bholi diuṃso dui baje. yas paṭak pakkā.", "en": "Tomorrow at two. Definitely, this time." },
+      { "speaker": "Sujan", "native": "हिजो पनि पक्का भन्नुभएको थियो नि! ठीक छ, कुरा मिल्यो। रसिदमा लेखिदिनुहोस्।", "roman": "hijo pani pakkā bhannubhaeko thiyo ni! ṭhik chha, kurā milyo. rasidmā lekhidinuhos.", "en": "You said 'definitely' yesterday too! OK, deal. Write it on the receipt, please." }
+    ]
+  },
+  "culture": "In Nepal, **calm wins**. Raising your voice makes everyone lose face, and the other side will dig in; staying friendly but persistent — calling the shopkeeper **दाइ** or **भाइ**, repeating what was promised (**तपाईंले … भन्नुभएको थियो**) and proposing a fix — usually gets results. Phrases like **कुरा गरेर मिलाऔँ** 'let's talk it out' and **बीचको बाटो निकालौँ** 'let's find a middle way' are the language of a deal, sealed with **कुरा मिल्यो**.\n\nRefunds are rare in small shops; receipts often say **बिक्री भएको सामान फिर्ता हुने छैन** 'goods sold will not be taken back'. Exchanges (**साट्न मिल्छ?**) are much easier to get, especially if you come back quickly with the receipt. Online shopping platforms and ride apps like Pathao and inDrive have in-app complaints and lost-item reports, and a polite message in Nepali gets a faster reply than a furious one in English. Many shops respond to the threat of a bad Facebook review.\n\nFor theft, scams or a lost phone, go to the nearest **प्रहरी चौकी** to file an **उजुरी** — you'll need the police report to replace a SIM card, a passport or for insurance. The Tourist Police (११४४) in Kathmandu and Pokhara speak English. Officers will expect **तपाईं** and patience; a cup of tea may be offered while the paperwork is written out by hand.",
+  "lessons": [
+    {
+      "title": "Wrong item, wrong size",
+      "tip": { "title": "Refund or exchange?", "body": "- 'Refund' = पैसा **फिर्ता**; 'return it' = **फिर्ता गर्नु**; 'exchange' = **साट्नु**.\n- Ask what's possible with **मिल्छ?** — साट्न मिल्छ? · and what's allowed with **पाइन्छ?** — पैसा फिर्ता पाइन्छ?\n- 'Not what I ordered': मैले यो अर्डर गरेको **होइन**.\n- Keep it friendly: दाइ / दिदी, and तपाईं." },
+      "new": ["पसले", "ग्राहक", "रसिद", "मैले यो अर्डर गरेको होइन।", "पैसा फिर्ता पाइन्छ?", "यो साट्न मिल्छ?", "रसिद ल्याउनुभएको छ?"],
+      "sentences": [
+        { "native": "दाइ, मैले रातो अर्डर गरेको थिएँ, यो त नीलो आयो।", "roman": "dāi, maile rāto arḍar gareko thieṃ, yo ta nilo āyo.", "en": "I ordered a red one, but this came in blue." },
+        { "native": "यो जुत्ता अलि सानो भयो, ठूलोसँग साट्न मिल्छ?", "roman": "yo juttā ali sāno bhayo, ṭhulosaṃga sāṭna milchha?", "en": "These shoes are a bit small — can I exchange them for a bigger pair?", "focus": "साट्न", "wrong": ["साटेँ|sāṭeṃ", "साट्छु|sāṭchhu"] },
+        { "native": "रसिद छैन भने पैसा फिर्ता हुँदैन।", "roman": "rasid chhaina bhane paisā phirtā hundaina.", "en": "If you don't have the receipt, there's no refund." },
+        { "native": "एक पटक किनेको सामान फिर्ता हुँदैन।", "roman": "ek paṭak kineko sāmān phirtā hundaina.", "en": "Once you've bought it, it can't be returned." },
+        { "native": "पसलेले पैसा फिर्ता दिन मानेन।", "roman": "pasalele paisā phirtā dina mānena.", "en": "The shopkeeper refused to give the money back.", "focus": "पसलेले", "wrong": ["पसले|pasale", "पसलेलाई|pasalelāi"] },
+        { "native": "यो खाना त चिसो आयो, अर्को ल्याइदिनुहोस् न।", "roman": "yo khānā ta chiso āyo, arko lyāidinuhos na.", "en": "This food has come cold — could you bring another one?" },
+        { "native": "मसँग रसिद छ, हेर्नुहोस्।", "roman": "masaṃga rasid chha, hernuhos.", "en": "I've got the receipt — have a look." },
+        { "native": "पैसा फिर्ता पाइँदैन भने साट्न त मिल्छ नि?", "roman": "paisā phirtā pāiṃdaina bhane sāṭna ta milchha ni?", "en": "If I can't get a refund, I can at least exchange it, right?", "focus": "मिल्छ", "wrong": ["मिल्यो|milyo", "मिलाउँछ|milāunchha"] },
+        { "native": "म यहाँको पुरानो ग्राहक हुँ नि, दाइ।", "roman": "ma yahāṃko purāno grāhak huṃ ni, dāi.", "en": "I'm a regular customer here, you know." }
+      ]
+    },
+    {
+      "title": "But you said…",
+      "tip": { "title": "Reporting: … भन्नुभएको थियो", "grammar": 0, "body": "- Keep the **actual words**, then add the saying verb: पसलेले \"भोलि बन्छ\" **भन्यो**.\n- Saying verb agrees with the speaker: ऊ **भन्यो**, उनीहरू **भने**, तपाईं **भन्नुभयो**.\n- 'You had said…': तपाईंले … **भन्नुभएको थियो**.\n- Questions: … **भनेर** सोधेँ; yes/no with **कि**.", "pattern": "[their words] + भन्यो / भनेर सोध्यो" },
+      "new": ["म्यानेजर", "सेवा", "ढिलाइ", "बेवास्ता", "म्यानेजरसँग कुरा गर्न पाऊँ?", "तपाईंले भोलि हुन्छ भन्नुभएको थियो।"],
+      "sentences": [
+        { "native": "तपाईंहरूले दुई दिनमा पठाउँछौँ भन्नुभएको थियो।", "roman": "tapāiṃharule dui dinmā paṭhāunchhauṃ bhannubhaeko thiyo.", "en": "You said you'd send it within two days.", "focus": "भन्नुभएको", "wrong": ["भन्छ|bhanchha", "भन्नुहोस्|bhannuhos"] },
+        { "native": "पसलेले भोलि बन्छ भन्यो।", "roman": "pasalele bholi banchha bhanyo.", "en": "The shopkeeper said it'd be ready tomorrow.", "focus": "भन्यो", "wrong": ["भनेँ|bhaneṃ", "भन्छु|bhanchhu"] },
+        { "native": "उहाँले म्यानेजर अहिले छैन भन्नुभयो।", "roman": "uhāṃle myānejar ahile chhaina bhannubhayo.", "en": "She said the manager isn't in right now.", "focus": "भन्नुभयो", "wrong": ["भन्यो|bhanyo", "भनेँ|bhaneṃ"] },
+        { "native": "उनीहरूले फेरि फोन गर्छौँ भने, तर गरेनन्।", "roman": "uniharule pheri phon garchhauṃ bhane, tara garenan.", "en": "They said they'd call back, but they didn't.", "focus": "भने", "wrong": ["भन्यो|bhanyo", "भनेँ|bhaneṃ"] },
+        { "native": "मैले उनीहरूलाई के भएको भनेर सोधेँ।", "roman": "maile uniharulāi ke bhaeko bhanera sodheṃ.", "en": "I asked them what had happened.", "focus": "भनेर", "wrong": ["भने|bhane", "भन्यो|bhanyo"] },
+        { "native": "मैले साट्न मिल्छ कि मिल्दैन भनेर सोधेँ।", "roman": "maile sāṭna milchha ki mildaina bhanera sodheṃ.", "en": "I asked whether I could exchange it or not.", "focus": "कि", "wrong": ["र|ra", "त|ta"] },
+        { "native": "म्यानेजर अहिले मिटिङमा हुनुहुन्छ रे।", "roman": "myānejar ahile miṭiṅmā hunuhunchha re.", "en": "Apparently the manager's in a meeting." },
+        { "native": "म्यानेजरसँग कुरा गर्न पाऊँ? उहाँले नै भोलि मिल्छ भन्नुभएको थियो।", "roman": "myānejarsaṃga kurā garna pāuṃ? uhāṃle nai bholi milchha bhannubhaeko thiyo.", "en": "Could I speak to the manager? He's the one who said tomorrow would be fine.", "focus": "भन्नुभएको", "wrong": ["भन्नुहुन्छ|bhannuhunchha", "भन्ने|bhanne"] },
+        { "native": "ढिलाइ भएकोमा माफ गर्नुहोस्।", "roman": "ḍhilāi bhaekomā māph garnuhos.", "en": "Sorry for the delay." },
+        { "native": "तपाईंहरूको सेवा एकदम ढिलो छ, मैले तीन पटक फोन गरिसकेँ।", "roman": "tapāiṃharuko sewā ekdam ḍhilo chha, maile tin paṭak phon garisakeṃ.", "en": "Your service is really slow — I've already called three times." },
+        { "native": "मेरो कुरा किन बेवास्ता गर्नुभएको?", "roman": "mero kurā kina bewāstā garnubhaeko?", "en": "Why are you ignoring what I say?" }
+      ]
+    },
+    {
+      "title": "Broken and damaged",
+      "tip": { "title": "Told me to…: -न भन्नु", "grammar": 1, "body": "- Instruction: verb in **-न** + **भन्नु**; the person told takes **-लाई**: मलाई भोलि **आउन** भन्यो.\n- Not to: **नगर्न** भन्यो.\n- Don't mix up: आउ**न** भन्यो 'told me to come' · आउ**ने** भन्यो 'said he'd come'.\n- Make them do it: कम्पनीलाई बनाउन **लगाउनुहोस्**.", "pattern": "[person]-लाई + verb-न + भन्यो" },
+      "new": ["टुट्नु", "बिगार्नु", "जिम्मेवार", "प्रमाण", "यो त पहिल्यै बिग्रेको रहेछ।", "यो मेरो गल्ती होइन।"],
+      "sentences": [
+        { "native": "पसलेले मलाई भोलि आउन भन्यो।", "roman": "pasalele malāi bholi āuna bhanyo.", "en": "The shopkeeper told me to come tomorrow.", "focus": "आउन", "wrong": ["आउँछु|āunchhu", "आएँ|āeṃ"] },
+        { "native": "उनीहरूले मलाई रसिद ल्याउन भने।", "roman": "uniharule malāi rasid lyāuna bhane.", "en": "They told me to bring the receipt.", "focus": "ल्याउन", "wrong": ["ल्याएँ|lyāeṃ", "ल्यायो|lyāyo"] },
+        { "native": "उहाँले मलाई चिन्ता नगर्न भन्नुभयो।", "roman": "uhāṃle malāi chintā nagarna bhannubhayo.", "en": "He told me not to worry.", "focus": "नगर्न", "wrong": ["नगरेँ|nagareṃ", "गर्न|garna"] },
+        { "native": "उनीहरूले प्रमाण देखाउन भने।", "roman": "uniharule pramān dekhāuna bhane.", "en": "They told me to show proof.", "focus": "देखाउन", "wrong": ["देखाएँ|dekhāeṃ", "देखायो|dekhāyo"] },
+        { "native": "मैले उसलाई फोन फेरि जाँच गर्न भनेँ।", "roman": "maile usalāi phon pheri jāṃch garna bhaneṃ.", "en": "I told him to check the phone again.", "focus": "उसलाई", "wrong": ["उसले|usle", "उसको|usko"] },
+        { "native": "मैले उनीहरूलाई पैसा फिर्ता गर्न अनुरोध गरेँ।", "roman": "maile uniharulāi paisā phirtā garna anurodh gareṃ.", "en": "I asked them to refund the money.", "focus": "गर्न", "wrong": ["गरेँ|gareṃ", "गर्छन्|garchhan"] },
+        { "native": "वारेन्टीमा छ भने कम्पनीलाई बनाउन लगाउनुहोस्।", "roman": "wārenṭimā chha bhane kampanilāi banāuna lagāunuhos.", "en": "If it's under warranty, make the company fix it.", "focus": "बनाउन", "wrong": ["बनायो|banāyo", "बनाउँछ|banāunchha"] },
+        { "native": "यो कुर्सी टुट्यो, किनेको एक हप्ता पनि भएको छैन।", "roman": "yo kursi ṭuṭyo, kineko ek haptā pani bhaeko chhaina.", "en": "This chair has broken, and I bought it less than a week ago." },
+        { "native": "यो कसले बिगार्‍यो?", "roman": "yo kasle bigāryo?", "en": "Who broke this?" },
+        { "native": "तपाईंहरूले नै बिगार्नुभएको हो, जिम्मेवार तपाईंहरू नै हुनुहुन्छ।", "roman": "tapāiṃharule nai bigārnubhaeko ho, jimmewār tapāiṃharu nai hunuhunchha.", "en": "You're the ones who damaged it, so you're responsible." },
+        { "native": "प्रमाणको लागि मैले फोटो खिचेको छु।", "roman": "pramānko lāgi maile phoṭo khicheko chhu.", "en": "I've taken a photo as proof." }
+      ]
+    },
+    {
+      "title": "Keeping it calm",
+      "tip": { "title": "Calm wins", "body": "- Shouting (**कराउनु**) makes everyone lose face. Say: **कराउनु पर्दैन, कुरा गरेर मिलाऔँ**.\n- Ask for patience: **धैर्य गर्नुहोस्**. Apologise: **माफी माग्नु** (म माफी माग्छु).\n- Propose a fix with **भने**: आधा पैसा फिर्ता दिनुहुन्छ **भने**…\n- Close it: **कुरा मिल्यो**." },
+      "new": ["कराउनु", "माफी", "माग्नु", "धैर्य", "समाधान", "कराउनु पर्दैन, कुरा गरेर मिलाऔँ।", "अब के गर्ने त?", "ठीक छ, कुरा मिल्यो।"],
+      "sentences": [
+        { "native": "कराएर केही हुँदैन, शान्त भएर कुरा गरौँ।", "roman": "karāera kehi hundaina, sānta bhaera kurā garauṃ.", "en": "Shouting won't help — let's calm down and talk." },
+        { "native": "दाइ, नकराउनुस् न, कुरा त गरौँ।", "roman": "dāi, nakarāunus na, kurā ta garauṃ.", "en": "Please don't shout — let's at least talk." },
+        { "native": "उसले मसँग माफी माग्यो।", "roman": "usle masaṃga māphi māgyo.", "en": "He apologised to me.", "focus": "मसँग", "wrong": ["मलाई|malāi", "मैले|maile"] },
+        { "native": "हाम्रो गल्ती भयो, हामी माफी माग्छौँ।", "roman": "hāmro galti bhayo, hāmi māphi māgchhauṃ.", "en": "It was our mistake; we apologise." },
+        { "native": "एकछिन धैर्य गर्नुहोस्, म म्यानेजरलाई बोलाउँछु।", "roman": "ekchhin dhairya garnuhos, ma myānejarlāi bolāunchhu.", "en": "Please be patient a moment, I'll call the manager." },
+        { "native": "माफी मागेर मात्र हुँदैन, समाधान चाहियो।", "roman": "māphi māgera mātra hundaina, samādhān chāhiyo.", "en": "Just apologising isn't enough — I need a solution." },
+        { "native": "यसको समाधान के हो त?", "roman": "yasko samādhān ke ho ta?", "en": "So what's the solution?" },
+        { "native": "आधा पैसा फिर्ता दिनुहुन्छ भने कुरा मिल्यो।", "roman": "ādhā paisā phirtā dinuhunchha bhane kurā milyo.", "en": "If you give me half the money back, it's a deal." },
+        { "native": "अब के गर्ने त, तपाईं नै भन्नुहोस्।", "roman": "aba ke garne ta, tapāiṃ nai bhannuhos.", "en": "So what do we do now? You tell me." }
+      ]
+    },
+    {
+      "title": "Scams, lost phones and the police",
+      "tip": { "title": "It happened to me: -इयो", "body": "- Nepali often reports bad luck without saying who did it, with **-इयो**: मलाई **ठगियो** 'I got ripped off', फोन **भेटियो** 'the phone was found', भेटिएन 'wasn't found'.\n- Who did it: **-ले** + active verb: ड्राइभरले मलाई **ठग्यो**.\n- At the police: **उजुरी दर्ता गर्नु छ** 'I need to file a report'.\n- What the police said: … **भन्नुभयो** / **भने**." },
+      "new": ["ठग्नु", "झुटो", "उजुरी", "दर्ता", "चौकी", "सीसीटीभी", "खोज्नु", "मलाई ठगियो।", "उजुरी दर्ता गर्नु छ।", "मेरो फोन ट्याक्सीमा छुट्यो।"],
+      "sentences": [
+        { "native": "ड्राइभरले मलाई ठग्यो, हजार रुपैयाँ लियो।", "roman": "ḍrāibharle malāi ṭhagyo, hajār rupaiyāṃ liyo.", "en": "The driver ripped me off — he took a thousand rupees.", "focus": "ठग्यो", "wrong": ["ठगियो|ṭhagiyo", "ठग्छ|ṭhagchha"] },
+        { "native": "अनलाइनमा पैसा तिरेँ, तर सामान आएन, मलाई ठगियो।", "roman": "anlāinmā paisā tireṃ, tara sāmān āena, malāi ṭhagiyo.", "en": "I paid online but nothing came — I've been scammed.", "focus": "ठगियो", "wrong": ["ठग्यो|ṭhagyo", "ठगेँ|ṭhageṃ"] },
+        { "native": "उसले मसँग झुटो बोल्यो।", "roman": "usle masaṃga jhuṭo bolyo.", "en": "He lied to me." },
+        { "native": "यो झुटो कुरा हो, मैले त्यसो भनेकै छैन।", "roman": "yo jhuṭo kurā ho, maile tyaso bhanekai chhaina.", "en": "That's a lie — I never said that." },
+        { "native": "नजिकको प्रहरी चौकी कहाँ छ?", "roman": "najikko prahari chauki kahāṃ chha?", "en": "Where's the nearest police post?" },
+        { "native": "फोन हराएको उजुरी दर्ता गर्नु छ।", "roman": "phon harāeko ujuri dartā garnu chha.", "en": "I need to report a lost phone." },
+        { "native": "प्रहरीले सीसीटीभी हेर्छौँ भने।", "roman": "praharile sisiṭibhi herchhauṃ bhane.", "en": "The police said they'd check the CCTV.", "focus": "भने", "wrong": ["भन्यो|bhanyo", "भनेँ|bhaneṃ"] },
+        { "native": "मैले फोन सबैतिर खोजेँ, तर भेटिएन।", "roman": "maile phon sabaitira khojeṃ, tara bheṭiena.", "en": "I looked for the phone everywhere, but it hasn't turned up.", "focus": "भेटिएन", "wrong": ["भेटेँ|bheṭeṃ", "भेट्यो|bheṭyo"] },
+        { "native": "मेरो झोला पठाओमा छुट्यो, ड्राइभरलाई सम्पर्क गर्न मिल्छ?", "roman": "mero jholā Paṭhāomā chhuṭyo, ḍrāibharlāi samparka garna milchha?", "en": "I left my bag on a Pathao ride — can I contact the driver?" },
+        { "native": "प्रहरीले मलाई भोलि चौकी आउन भन्नुभयो।", "roman": "praharile malāi bholi chauki āuna bhannubhayo.", "en": "The police told me to come to the station tomorrow.", "focus": "आउन", "wrong": ["आउने|āune", "आएँ|āeṃ"] }
+      ]
+    }
+  ]
+}

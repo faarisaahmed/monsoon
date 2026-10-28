@@ -1,0 +1,189 @@
+{
+  "id": 22,
+  "title": "Calls, texts & voice notes",
+  "goal": "Answer and make calls, cope with a bad line, apologise for a missed call, message and voice-note friends, share your location, and say what you have just, already, or still not done.",
+  "intro": "Nepalis live on their phones: calls to family, voice messages to friends, group chats for everything. This unit gives you the phone Nepali you'll need every day — **हेलो, को बोल्नुभएको?**, **मेरो आवाज सुनिन्छ?**, **तिम्रो मिस कल देखेँ**, **लोकेसन पठाइदेऊ न** — and the English words (कल, म्यासेज, ब्याट्री, नेट) with the Nepali verbs that go with them.\n\nThe grammar is about sequence and timing: 'do X and then Y' (**-एर**, **-एपछि**, **-नुअघि**, **नगरी**) and 'just / already / still / not yet' (**भर्खरै**, **-इसक्नु**, **अझै**, **अहिलेसम्म**, **बाँकी**). You'll also meet the short spoken forms people use in chat: **के गर्दै?**, **कहाँ गएको?**, **भन्नुस् न**.",
+  "vocab": [
+    { "native": "कल", "roman": "kal", "en": "call (phone)", "pos": "noun", "note": "m · कल गर्नु \"to call\". फोन गर्नु means the same." },
+    { "native": "आवाज", "roman": "āwāj", "en": "voice; sound", "pos": "noun", "note": "f · आवाज आएन \"no sound came through\"." },
+    { "native": "सुनिनु", "roman": "suninu", "en": "to be heard, be audible", "pos": "verb", "note": "Passive of सुन्नु: सुनिन्छ \"can be heard\", सुनिँदैन \"can't be heard\"." },
+    { "native": "उठाउनु", "roman": "uṭhāunu", "en": "to pick up (the phone); to lift; to wake (someone)", "pos": "verb", "note": "फोन उठाउनु \"to answer the phone\". Past: उठाएँ, उठायो." },
+    { "native": "राख्नु", "roman": "rākhnu", "en": "to put, keep; (फोन राख्नु) to hang up", "pos": "verb", "note": "फोन राख्छु है \"I'll hang up now\" — the normal way to end a call." },
+    { "native": "मिस कल", "roman": "mis kal", "en": "missed call", "pos": "noun", "note": "m · मिस कल दिनु \"to give (someone) a missed call\" — often on purpose, meaning \"call me back\"." },
+    { "native": "म्यासेज", "roman": "myāsej", "en": "message, text", "pos": "noun", "note": "m · म्यासेज गर्नु \"to text\"; म्यासेज पठाउनु \"to send a message\". Also spelled मेसेज." },
+    { "native": "जवाफ", "roman": "jawāph", "en": "reply, answer", "pos": "noun", "note": "m · जवाफ दिनु \"to answer\"." },
+    { "native": "रिप्लाई", "roman": "riplāi", "en": "reply (to a message)", "pos": "noun", "note": "m · रिप्लाई गर्नु. Young people use this more than जवाफ for texts." },
+    { "native": "अनलाइन", "roman": "anlāin", "en": "online", "pos": "adj" },
+    { "native": "अहिलेसम्म", "roman": "ahilesamma", "en": "so far, until now; (with negative) not yet", "pos": "adv", "note": "अहिलेसम्म आएको छैन \"hasn't come yet\"." },
+    { "native": "बाँकी", "roman": "bāṃki", "en": "remaining, left (over); still to do", "pos": "adj", "note": "-न बाँकी छ \"is still to be done\": खान बाँकी छ \"(I) haven't eaten yet\"." },
+    { "native": "भ्वाइस म्यासेज", "roman": "bhwāis myāsej", "en": "voice message", "pos": "noun", "note": "m · Often just भ्वाइस." },
+    { "native": "भिडियो कल", "roman": "bhiḍiyo kal", "en": "video call", "pos": "noun", "note": "m · The lifeline to family working abroad." },
+    { "native": "ग्रुप", "roman": "grup", "en": "group (chat)", "pos": "noun", "note": "m · ग्रुपमा थप्नु \"to add to the group\"." },
+    { "native": "म्यासेन्जर", "roman": "myāsenjar", "en": "Messenger (app)", "pos": "noun", "note": "Messenger and Viber are the most used chat apps in Nepal." },
+    { "native": "टाइप", "roman": "ṭāip", "en": "typing", "pos": "noun", "note": "टाइप गर्नु \"to type\"." },
+    { "native": "सम्पर्क", "roman": "samparka", "en": "contact, touch", "pos": "noun", "note": "m · सम्पर्कमा रहनु \"to stay in touch\"." },
+    { "native": "नेट", "roman": "neṭ", "en": "internet, mobile data", "pos": "noun", "note": "m · नेट छैन \"no internet\"; नेट चलेन \"the internet isn't working\"." },
+    { "native": "ब्याट्री", "roman": "byāṭri", "en": "battery", "pos": "noun", "note": "f" },
+    { "native": "चार्ज", "roman": "chārj", "en": "charge (battery)", "pos": "noun", "note": "m · चार्ज गर्नु \"to charge\"; चार्जमा राख्नु \"to put on charge\"." },
+    { "native": "लोकेसन", "roman": "lokesan", "en": "location (pin)", "pos": "noun", "note": "m · लोकेसन पठाउनु \"to send a location\". Directions in Nepal often = \"send me the location\"." },
+    { "native": "सकिनु", "roman": "sakinu", "en": "to run out, be used up, be finished", "pos": "verb", "note": "ब्याट्री सकियो \"the battery's dead\"; काम सकियो \"work's done\"." },
+    { "native": "अफ", "roman": "aph", "en": "(switched) off", "pos": "adj", "note": "फोन अफ छ \"the phone's off\"; अफ गर्नु \"to switch off\". Opposite: अन." },
+    { "native": "सेभ", "roman": "sebh", "en": "saved", "pos": "adj", "note": "नम्बर सेभ गर्नु \"to save a number\"." },
+    { "native": "स्पिकर", "roman": "spikar", "en": "speaker(phone)", "pos": "noun", "note": "m · स्पिकरमा राख्नु \"to put on speaker\"." }
+  ],
+  "phrases": [
+    { "native": "हेलो, को बोल्नुभएको?", "roman": "helo, ko bolnubhaeko?", "en": "Hello, who's speaking? (polite)" },
+    { "native": "हजुर, भन्नुस् न।", "roman": "hajur, bhannus na.", "en": "Yes, go ahead. (polite)", "note": "भन्नुस् is the spoken short form of भन्नुहोस्." },
+    { "native": "मेरो आवाज सुनिन्छ?", "roman": "mero āwāj suninchha?", "en": "Can you hear me?" },
+    { "native": "आवाज राम्रोसँग सुनिँदैन।", "roman": "āwāj rāmrosaṃga suniṃdaina.", "en": "I can't hear you properly." },
+    { "native": "अलि ठूलो बोल न।", "roman": "ali ṭhulo bola na.", "en": "Speak up a bit. (informal)" },
+    { "native": "तिम्रो मिस कल देखेँ।", "roman": "timro mis kal dekheṃ.", "en": "I saw your missed call." },
+    { "native": "फोन किन नउठाएको?", "roman": "phon kina nauṭhāeko?", "en": "Why didn't you pick up?" },
+    { "native": "रिप्लाई त गर न!", "roman": "riplāi ta gara na!", "en": "At least reply!" },
+    { "native": "म्यासेज गर्छु।", "roman": "myāsej garchhu.", "en": "I'll text you." },
+    { "native": "अनलाइन आऊ न।", "roman": "anlāin āu na.", "en": "Come online." },
+    { "native": "मेरो ब्याट्री सकिन लाग्यो।", "roman": "mero byāṭri sakina lāgyo.", "en": "My battery's about to die." },
+    { "native": "लोकेसन पठाइदेऊ न।", "roman": "lokesan paṭhāideu na.", "en": "Send me the location, will you?" },
+    { "native": "मेरो नेट चलेन।", "roman": "mero neṭ chalena.", "en": "My internet isn't working." },
+    { "native": "म पछि कल गर्छु है।", "roman": "ma pachhi kal garchhu hai.", "en": "I'll call you back later, OK?" },
+    { "native": "फोन राख्छु है।", "roman": "phon rākhchhu hai.", "en": "I'll hang up now, OK? (= bye)" }
+  ],
+  "grammar": [
+    {
+      "title": "Do X and then Y: -एर, -एपछि, -नुअघि, नगरी",
+      "body": "You met **-एर** in unit 20: म घर **पुगेर** म्यासेज गर्छु 'I'll get home and (then) text you'. Here is the full family of 'sequence' forms:\n\n**-एर** 'having done → and then'. Normally the **same person** does both actions. It can also give a **reason**: नेट **नभएर** पठाउन सकिनँ 'I couldn't send it because there was no internet'. With **पनि** it means 'even though / despite': म्यासेज **हेरेर पनि** रिप्लाई गरेन 'he saw the message but still didn't reply'.\n\n**-एपछि** 'after (doing)'. Use it when the two actions have **different** subjects, or to stress the order: तिमी **पुगेपछि** मलाई कल गर 'call me after you get there'. Vowel stems: आएपछि, खाएपछि; जानु → **गएपछि**, हुनु → **भएपछि**.\n\n**-नुअघि** 'before (doing)': the dictionary form + अघि: **निस्कनुअघि** 'before leaving', **सुत्नुअघि** 'before going to sleep'.\n\n**नगरी** 'without doing': न- + stem + **-ई**: **नभनी** 'without saying', **नखाई** 'without eating', **नसोधी** 'without asking'. Speech often adds -कन: नभनीकन.\n\nThe trap: don't use -एर when the doers differ — say तिमी **आएपछि** हामी खान्छौँ 'we'll eat after you come', not तिमी आएर हामी खान्छौँ.",
+      "examples": [
+        { "native": "म घर पुगेर तिमीलाई म्यासेज गर्छु।", "roman": "ma ghar pugera timilāi myāsej garchhu.", "en": "I'll text you when I get home." },
+        { "native": "तिमी पुगेपछि मलाई कल गर है।", "roman": "timi pugepachhi malāi kal gara hai.", "en": "Call me after you get there, OK?" },
+        { "native": "उसले म्यासेज हेरेर पनि रिप्लाई गरेन।", "roman": "usle myāsej herera pani riplāi garena.", "en": "He saw the message but still didn't reply." },
+        { "native": "सुत्नुअघि मलाई फोन गर।", "roman": "sutnuaghi malāi phon gara.", "en": "Ring me before you go to sleep." },
+        { "native": "नभनी किन गयौ?", "roman": "nabhani kina gayau?", "en": "Why did you leave without saying anything?" }
+      ]
+    },
+    {
+      "title": "Just, already, still, not yet",
+      "body": "Four little tools for timing:\n\n**भर्खर / भर्खरै** 'just (now)' with the simple past: म **भर्खरै** उठेँ 'I've only just woken up', उसले **भर्खर** म्यासेज पठायो 'he just sent a message'.\n\n**-इसक्नु** 'already' (unit 17): stem + **-इ** + सक्नु: मैले **पठाइसकेँ** 'I've already sent it', ऊ **गइसक्यो** 'he's already gone'. As a question it means 'yet?': **पढिसक्यौ?** 'have you read it yet?'.\n\n**अझै** 'still' with a positive verb, 'still not / not yet' with a negative: ऊ **अझै** अनलाइन छ 'he's still online', बस **अझै** आएन 'the bus still hasn't come'. **अहिलेसम्म** 'up to now' + the negative perfect **-एको छैन** is the clearest 'not yet': **अहिलेसम्म** रिप्लाई **गरेको छैन** 'hasn't replied yet'.\n\n**-न बाँकी छ** 'is still to be done' — very natural Nepali for 'I haven't … yet': मेरो खाना खान **बाँकी छ** 'I haven't eaten yet', दुईवटा कल गर्न **बाँकी छ** 'two calls still to make'.\n\nA quick answer to 'have you done it?': **गरिसकेँ** 'done already', **अझै छैन** 'not yet', **भर्खरै गरेँ** 'just did'.",
+      "examples": [
+        { "native": "म भर्खरै उठेँ।", "roman": "ma bharkharai uṭheṃ.", "en": "I've only just woken up." },
+        { "native": "मैले म्यासेज पठाइसकेँ।", "roman": "maile myāsej paṭhāisakeṃ.", "en": "I've already sent the message." },
+        { "native": "ऊ अझै अनलाइन छ।", "roman": "u ajhai anlāin chha.", "en": "He's still online." },
+        { "native": "उसले अहिलेसम्म रिप्लाई गरेको छैन।", "roman": "usle ahilesamma riplāi gareko chhaina.", "en": "He hasn't replied yet." },
+        { "native": "मेरो अझै दुईवटा कल गर्न बाँकी छ।", "roman": "mero ajhai duiwaṭā kal garna bāṃki chha.", "en": "I've still got two calls to make." }
+      ]
+    },
+    {
+      "title": "Short spoken forms: -नुस्, -एको?, -दै?",
+      "body": "Phone calls and chats use clipped forms that you'll hear far more than the textbook ones:\n\n**-नुस्** is the everyday spoken version of the polite command **-नुहोस्**: **भन्नुस्** 'go ahead, say it', **बस्नुस्** 'have a seat', **पर्खनुस्** 'please wait'. It's still polite (तपाईं level) — just relaxed. Writing usually keeps the full -नुहोस्.\n\n**-एको?** as a whole question, with छ/हो dropped, asks about something done: **कहाँ गएको?** 'where did you go / where have you been?', **किन नउठाएको?** 'why didn't you pick up?', **को बोल्नुभएको?** 'who's speaking?' (polite). It works for any person, so it's handy.\n\n**-दै?** alone asks what someone's doing right now: **के गर्दै?** 'what are you up to?' (= के गर्दै छौ?). Typical opening of a chat.\n\nOn the phone you also say **म [name] बोलेको** 'this is [name] speaking', and answer elders and strangers with **हजुर** 'yes?'. In chats young people type Nepali in Roman letters — *k xa?* (के छ?), *huss* (हस्), *ma aaudai xu* — where **x** stands for छ.",
+      "examples": [
+        { "native": "के गर्दै?", "roman": "ke gardai?", "en": "What are you up to?" },
+        { "native": "कहाँ गएको?", "roman": "kahāṃ gaeko?", "en": "Where did you go?" },
+        { "native": "हिजो किन कल नगरेको?", "roman": "hijo kina kal nagareko?", "en": "Why didn't you call yesterday?" },
+        { "native": "एकछिन पर्खनुस् है।", "roman": "ekchhin parkhanus hai.", "en": "Hold on a moment, please." },
+        { "native": "फेरि भन्नुस् त।", "roman": "pheri bhannus ta.", "en": "Could you say that again?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A bad line to Pokhara",
+    "setting": "Sabin is on a tourist bus to Pokhara. His friend Priya finally gets through to him.",
+    "lines": [
+      { "speaker": "Priya", "native": "हेलो? हेलो, सबिन?", "roman": "helo? helo, Sabin?", "en": "Hello? Hello, Sabin?" },
+      { "speaker": "Sabin", "native": "हेलो प्रिया! मेरो आवाज सुनिन्छ?", "roman": "helo Priyā! mero āwāj suninchha?", "en": "Hi Priya! Can you hear me?" },
+      { "speaker": "Priya", "native": "अलिअलि सुनिन्छ। कहाँ छौ? हिजो किन फोन नउठाएको?", "roman": "aliali suninchha. kahāṃ chhau? hijo kina phon nauṭhāeko?", "en": "Sort of. Where are you? Why didn't you pick up yesterday?" },
+      { "speaker": "Sabin", "native": "सरी, फोन अफ थियो। अहिले बसमा पोखरा जाँदै छु।", "roman": "sari, phon aph thiyo. ahile basmā Pokharā jāṃdai chhu.", "en": "Sorry, my phone was off. I'm on the bus to Pokhara right now." },
+      { "speaker": "Priya", "native": "के भन्यौ? राम्रोसँग सुनिँदैन।", "roman": "ke bhanyau? rāmrosaṃga suniṃdaina.", "en": "What did you say? I can't hear you properly." },
+      { "speaker": "Sabin", "native": "बसमा! मुग्लिनतिर नेटवर्क राम्रो छैन।", "roman": "basmā! Muglintira neṭwark rāmro chhaina.", "en": "On the bus! The signal's bad around Mugling." },
+      { "speaker": "Priya", "native": "ठीक छ। पोखरा पुगेपछि म्यासेज गर न।", "roman": "ṭhik chha. Pokharā pugepachhi myāsej gara na.", "en": "OK. Text me once you get to Pokhara." },
+      { "speaker": "Sabin", "native": "हुन्छ। अनि सुन, तिम्रो दिदीको नम्बर म्यासेन्जरमा पठाइदेऊ न। मैले सेभ गरेको छैन।", "roman": "hunchha. ani suna, timro didiko nambar myāsenjarmā paṭhāideu na. maile sebh gareko chhaina.", "en": "Will do. And listen, send me your sister's number on Messenger, will you? I haven't saved it." },
+      { "speaker": "Priya", "native": "भर्खरै पठाएँ। हेर त।", "roman": "bharkharai paṭhāeṃ. hera ta.", "en": "Just sent it. Have a look." },
+      { "speaker": "Sabin", "native": "अँ, आयो, थ्याङ्क्यु! ल, मेरो ब्याट्री सकिन लाग्यो।", "roman": "aṃ, āyo, thyāṅkyu! la, mero byāṭri sakina lāgyo.", "en": "Yep, got it, thanks! Right, my battery's about to die." },
+      { "speaker": "Priya", "native": "फेरि? तिम्रो फोनमा कहिल्यै चार्ज हुँदैन!", "roman": "pheri? timro phonmā kahilyai chārj huṃdaina!", "en": "Again? Your phone is never charged!" },
+      { "speaker": "Sabin", "native": "हाहा, पुगेर चार्ज गर्छु। भ्वाइस म्यासेज पठाउँछु है। फोन राख्छु!", "roman": "hāhā, pugera chārj garchhu. bhwāis myāsej paṭhāuṃchhu hai. phon rākhchhu!", "en": "Haha, I'll charge it when I get there. I'll send you a voice message. Bye for now!" },
+      { "speaker": "Priya", "native": "ल ल, राम्रोसँग जाऊ है!", "roman": "la la, rāmrosaṃga jāu hai!", "en": "OK, OK — safe trip!" }
+    ]
+  },
+  "culture": "Nepalis answer the phone with **हेलो** — and, to an older or unknown caller, **हजुर?** Calls usually start with **के छ?** or **खाना खानुभयो?** ('have you eaten?') before getting to the point, and end with **फोन राख्छु है** rather than a formal goodbye. With older relatives, call rather than text. Among friends, voice messages on **Messenger** and **Viber** are hugely popular (typing Devanagari on a phone is slow), and when people do type they mostly use Roman letters: *k xa?*, *thik xa*, *aaudai xu* — the **x** is छ. A deliberate **मिस कल** used to mean 'call me back' when credit was short, and older people still do it. Millions of Nepalis work in the Gulf, Malaysia and Korea, so the evening **भिडियो कल** home is part of family life, and a bad line ('**आवाज आएन!**') is something everyone knows. With colleagues and elders use **तपाईं** and the relaxed polite **-नुस्** (भन्नुस्, पर्खनुस्); with friends, तिमी.",
+  "lessons": [
+    {
+      "title": "Hello? Can you hear me?",
+      "tip": { "title": "On the phone: -नुस् and -एको?", "body": "- **-नुस्** is spoken **-नुहोस्**: **भन्नुस्** 'go ahead', **पर्खनुस्** 'please wait' — still polite.\n- Say who you are with **बोलेको**: म सबिन **बोलेको**.\n- A bare **-एको?** asks about something done: कहाँ **गएको**? 'where did you go?'\n- Answer elders with **हजुर?**", "pattern": "म + name + बोलेको  ·  भन्नुस्  ·  कहाँ गएको?", "grammar": 2 },
+      "new": ["कल", "आवाज", "सुनिनु", "उठाउनु", "राख्नु", "हेलो, को बोल्नुभएको?", "हजुर, भन्नुस् न।", "मेरो आवाज सुनिन्छ?", "आवाज राम्रोसँग सुनिँदैन।", "अलि ठूलो बोल न।"],
+      "sentences": [
+        { "native": "हजुर, म सबिन बोलेको।", "roman": "hajur, ma Sabin boleko.", "en": "Yes, it's Sabin speaking.", "focus": "बोलेको", "wrong": ["बोल्छ|bolchha", "बोल्यो|bolyo"] },
+        { "native": "अहिले सुनिन्छ?", "roman": "ahile suninchha?", "en": "Can you hear me now?", "focus": "सुनिन्छ", "wrong": ["सुन्छ|sunchha", "सुनेँ|suneṃ"] },
+        { "native": "तिम्रो आवाज सुनिँदैन, फेरि कल गर।", "roman": "timro āwāj suniṃdaina, pheri kal gara.", "en": "I can't hear you — call again.", "focus": "सुनिँदैन", "wrong": ["सुन्दैन|sundaina", "सुनिन्छ|suninchha"] },
+        { "native": "एकछिन पर्खनुस् है, म बाहिर जान्छु।", "roman": "ekchhin parkhanus hai, ma bāhira jānchhu.", "en": "Hang on a moment, I'll step outside.", "focus": "पर्खनुस्", "wrong": ["पर्ख्यो|parkhyo", "पर्खन्छ|parkhanchha"] },
+        { "native": "हजुर, भन्नुस् त, के भयो?", "roman": "hajur, bhannus ta, ke bhayo?", "en": "Yes, go on — what happened?", "focus": "भन्नुस्", "wrong": ["भन्यो|bhanyo", "भन्छु|bhanchhu"] },
+        { "native": "बिस्तारै भन्नुस् न, बुझिनँ।", "roman": "bistārai bhannus na, bujhinaṃ.", "en": "Please say it slowly, I didn't catch it.", "focus": "भन्नुस्", "wrong": ["भन्यो|bhanyo", "भन्छु|bhanchhu"] },
+        { "native": "कसलाई खोज्नुभएको?", "roman": "kaslāi khojnubhaeko?", "en": "Who did you want to speak to? (polite)", "focus": "खोज्नुभएको", "wrong": ["खोज्यो|khojyo", "खोज्छु|khojchhu"] },
+        { "native": "कहाँ गएको? फोन पनि उठाएनौ।", "roman": "kahāṃ gaeko? phon pani uṭhāenau.", "en": "Where did you go? You didn't even pick up.", "focus": "गएको", "wrong": ["जाने|jāne", "जान्छ|jānchha"] },
+        { "native": "फोन उठाऊ न, आमाको कल हो।", "roman": "phon uṭhāu na, āmāko kal ho.", "en": "Pick up, it's Mum calling.", "focus": "उठाऊ", "wrong": ["उठायो|uṭhāyo", "उठाउँछु|uṭhāuṃchhu"] },
+        { "native": "म फोन राख्छु, पछि कुरा गरौँला।", "roman": "ma phon rākhchhu, pachhi kurā garauṃlā.", "en": "I'll hang up — let's talk later." }
+      ]
+    },
+    {
+      "title": "Missed calls and late replies",
+      "tip": { "title": "Just, already, still, not yet", "body": "- **भर्खरै** + past = 'just': भर्खरै देखेँ.\n- **-इसक्नु** = 'already': पठा**इसकेँ**; as a question 'yet?': पढ**िसक्यौ**?\n- **अझै** = 'still'; with a negative 'not yet': अझै पढेको छैन.\n- **-न बाँकी छ** = 'still to do': खान **बाँकी छ**.", "pattern": "भर्खरै … · …इसकेँ · अझै … छैन · …न बाँकी छ", "grammar": 1 },
+      "new": ["मिस कल", "म्यासेज", "जवाफ", "रिप्लाई", "अनलाइन", "अहिलेसम्म", "बाँकी", "तिम्रो मिस कल देखेँ।", "फोन किन नउठाएको?", "रिप्लाई त गर न!"],
+      "sentences": [
+        { "native": "मैले भर्खरै तिम्रो म्यासेज देखेँ।", "roman": "maile bharkharai timro myāsej dekheṃ.", "en": "I've only just seen your message.", "focus": "भर्खरै", "wrong": ["अझै|ajhai", "अहिलेसम्म|ahilesamma"] },
+        { "native": "उसले अहिलेसम्म जवाफ दिएको छैन।", "roman": "usle ahilesamma jawāph dieko chhaina.", "en": "He hasn't answered yet.", "focus": "अहिलेसम्म", "wrong": ["भर्खरै|bharkharai", "पहिले|pahile"] },
+        { "native": "दिदी अझै अनलाइन हुनुहुन्छ।", "roman": "didi ajhai anlāin hunuhunchha.", "en": "My sister is still online.", "focus": "अझै", "wrong": ["भर्खरै|bharkharai", "पहिले|pahile"] },
+        { "native": "मैले तिमीलाई तीनवटा मिस कल दिइसकेँ!", "roman": "maile timilāi tinwaṭā mis kal diisakeṃ!", "en": "I've already given you three missed calls!", "focus": "दिइसकेँ", "wrong": ["दिन्छु|dinchhu", "दिइसक्यो|diisakyo"] },
+        { "native": "म्यासेज पढिसक्यौ?", "roman": "myāsej paḍhisakyau?", "en": "Have you read the message yet?", "focus": "पढिसक्यौ", "wrong": ["पढ्छौ|paḍhchhau", "पढिसकेँ|paḍhisakeṃ"] },
+        { "native": "अझै पढेको छैन, पछि हेर्छु।", "roman": "ajhai paḍheko chhaina, pachhi herchhu.", "en": "Haven't read it yet, I'll look later.", "focus": "अझै", "wrong": ["भर्खरै|bharkharai", "पहिले|pahile"] },
+        { "native": "मेरो अझै खाना खान बाँकी छ।", "roman": "mero ajhai khānā khāna bāṃki chha.", "en": "I still haven't eaten.", "focus": "बाँकी", "wrong": ["सकियो|sakiyo", "भर्खरै|bharkharai"] },
+        { "native": "सरी, म भर्खर उठेँ।", "roman": "sari, ma bharkhar uṭheṃ.", "en": "Sorry, I've just woken up.", "focus": "भर्खर", "wrong": ["अझै|ajhai", "बाँकी|bāṃki"] },
+        { "native": "किन रिप्लाई नगरेको? म कुरिरहेको थिएँ।", "roman": "kina riplāi nagareko? ma kuriraheko thieṃ.", "en": "Why didn't you reply? I was waiting." },
+        { "native": "जवाफ दिन बिर्सेँ, सरी।", "roman": "jawāph dina birseṃ, sari.", "en": "I forgot to reply, sorry." }
+      ]
+    },
+    {
+      "title": "Voice notes, video calls and groups",
+      "tip": { "title": "English noun + गर्नु", "body": "- Most phone words are English nouns + **गर्नु**: कल **गर्नु**, म्यासेज **गर्नु**, टाइप **गर्नु**, सेभ **गर्नु**, रिप्लाई **गर्नु**.\n- 'Send' is **पठाउनु**: भ्वाइस म्यासेज **पठाउनु**.\n- A missed call is *given*: मिस कल **दिनु**." },
+      "new": ["भ्वाइस म्यासेज", "भिडियो कल", "ग्रुप", "म्यासेन्जर", "टाइप", "सम्पर्क", "म्यासेज गर्छु।", "अनलाइन आऊ न।"],
+      "sentences": [
+        { "native": "टाइप गर्ने समय छैन, भ्वाइस म्यासेज पठाउँछु।", "roman": "ṭāip garne samaya chhaina, bhwāis myāsej paṭhāuṃchhu.", "en": "No time to type — I'll send a voice message." },
+        { "native": "आज बेलुका भिडियो कल गरौँ न।", "roman": "āja belukā bhiḍiyo kal garauṃ na.", "en": "Let's video call this evening.", "focus": "गरौँ", "wrong": ["पठाऔँ|paṭhāauṃ", "दिऔँ|diauṃ"] },
+        { "native": "म तिमीलाई ग्रुपमा थप्छु।", "roman": "ma timilāi grupmā thapchhu.", "en": "I'll add you to the group." },
+        { "native": "ग्रुपमा सबैलाई म्यासेज गर।", "roman": "grupmā sabailāi myāsej gara.", "en": "Message everyone in the group.", "focus": "गर", "wrong": ["दे|de", "गर्छ|garchha"] },
+        { "native": "म्यासेन्जरमा भ्वाइस म्यासेज पठाइदेऊ।", "roman": "myāsenjarmā bhwāis myāsej paṭhāideu.", "en": "Send me a voice message on Messenger.", "focus": "पठाइदेऊ", "wrong": ["पठाउँछ|paṭhāuṃchha", "पठायो|paṭhāyo"] },
+        { "native": "विदेशमा भएका साथीहरूसँग म भिडियो कलमा कुरा गर्छु।", "roman": "bidesmā bhaekā sāthiharusaṃga ma bhiḍiyo kalmā kurā garchhu.", "en": "I talk to my friends abroad on video calls." },
+        { "native": "उसँग मेरो सम्पर्क छैन।", "roman": "usaṃga mero samparka chhaina.", "en": "I'm not in touch with him." },
+        { "native": "सम्पर्कमा रहौँला है!", "roman": "samparkamā rahauṃlā hai!", "en": "Let's stay in touch!" },
+        { "native": "मैले मिस कल दिएँ, उसले कल गर्छ।", "roman": "maile mis kal dieṃ, usle kal garchha.", "en": "I gave him a missed call — he'll ring back.", "focus": "दिएँ", "wrong": ["दियो|diyo", "दिन्छ|dinchha"] }
+      ]
+    },
+    {
+      "title": "Battery, internet and location",
+      "tip": { "title": "Before, after, without", "body": "- **-एर** = 'and then' (same person) or 'because': नेट **नभएर** पठाउन सकिनँ.\n- **-एपछि** = 'after': घर **पुगेपछि** चार्ज गर्छु.\n- **-नुअघि** = 'before': **निस्कनुअघि** फोन गर.\n- **न- … -ई** = 'without': मलाई **नभनी** 'without telling me'.", "pattern": "verb-एर · verb-एपछि · verb-नुअघि · न-verb-ई", "grammar": 0 },
+      "new": ["नेट", "ब्याट्री", "चार्ज", "लोकेसन", "सकिनु", "अफ", "मेरो ब्याट्री सकिन लाग्यो।", "लोकेसन पठाइदेऊ न।", "मेरो नेट चलेन।"],
+      "sentences": [
+        { "native": "घर पुगेपछि फोन चार्ज गर्छु।", "roman": "ghar pugepachhi phon chārj garchhu.", "en": "I'll charge my phone after I get home.", "focus": "पुगेपछि", "wrong": ["पुग्छु|pugchhu", "पुग्यो|pugyo"] },
+        { "native": "निस्कनुअघि मलाई लोकेसन पठाऊ।", "roman": "niskanuaghi malāi lokesan paṭhāu.", "en": "Send me the location before you leave.", "focus": "निस्कनुअघि", "wrong": ["निस्केपछि|niskepachhi", "निस्क्यो|niskyo"] },
+        { "native": "ब्याट्री सकिएर फोन अफ भयो।", "roman": "byāṭri sakiera phon aph bhayo.", "en": "The battery died and the phone switched off.", "focus": "सकिएर", "wrong": ["सकियो|sakiyo", "सकिन्छ|sakinchha"] },
+        { "native": "नेट नभएर म्यासेज पठाउन सकिनँ।", "roman": "neṭ nabhaera myāsej paṭhāuna sakinaṃ.", "en": "I couldn't send the message because there was no internet.", "focus": "नभएर", "wrong": ["नभयो|nabhayo", "भएन|bhaena"] },
+        { "native": "लोकेसन हेरेर आइपुग्छु।", "roman": "lokesan herera āipugchhu.", "en": "I'll follow the location and find my way.", "focus": "हेरेर", "wrong": ["हेर्छु|herchhu", "हेर्दै|herdai"] },
+        { "native": "मलाई नभनी फोन किन अफ गरेको?", "roman": "malāi nabhani phon kina aph gareko?", "en": "Why did you switch your phone off without telling me?", "focus": "नभनी", "wrong": ["नभन|nabhana", "भनेर|bhanera"] },
+        { "native": "नेट आएपछि लोकेसन पठाउँछु।", "roman": "neṭ āepachhi lokesan paṭhāuṃchhu.", "en": "I'll send the location once the internet's back.", "focus": "आएपछि", "wrong": ["आउँछ|āuṃchha", "आयो|āyo"] },
+        { "native": "मेरो फोनको ब्याट्री सधैँ छिटो सकिन्छ।", "roman": "mero phonko byāṭri sadhaiṃ chhiṭo sakinchha.", "en": "My phone battery always runs out fast." },
+        { "native": "चार्ज गर्न बिर्सेँ, फोन अफ भइसक्यो।", "roman": "chārj garna birseṃ, phon aph bhaisakyo.", "en": "I forgot to charge it — my phone's already dead." }
+      ]
+    },
+    {
+      "title": "Calling back and saying bye",
+      "new": ["सेभ", "स्पिकर", "म पछि कल गर्छु है।", "फोन राख्छु है।"],
+      "sentences": [
+        { "native": "नम्बर सेभ गरेर म्यासेज गर्छु।", "roman": "nambar sebh garera myāsej garchhu.", "en": "I'll save your number and text you.", "focus": "गरेर", "wrong": ["गर्दा|gardā", "गर्‍यो|garyo"] },
+        { "native": "तिम्रो नम्बर मसँग सेभ थिएन।", "roman": "timro nambar masaṃga sebh thiena.", "en": "I didn't have your number saved." },
+        { "native": "म मिटिङमा छु, एकछिनपछि कल गर्छु।", "roman": "ma miṭiṅmā chhu, ekchhinpachhi kal garchhu.", "en": "I'm in a meeting — I'll call you back in a bit." },
+        { "native": "फोन स्पिकरमा राख न, सबैलाई सुनिन्छ।", "roman": "phon spikarmā rākha na, sabailāi suninchha.", "en": "Put the phone on speaker so everyone can hear.", "focus": "राख", "wrong": ["राख्यो|rākhyo", "राख्छ|rākhchha"] },
+        { "native": "म्यासेज देखेर अहिल्यै फोन गर है।", "roman": "myāsej dekhera ahilyai phon gara hai.", "en": "Ring me as soon as you see the message, OK?", "focus": "देखेर", "wrong": ["देख्दा|dekhdā", "देख्यो|dekhyo"] },
+        { "native": "ल, फोन राख्छु, भोलि भेटौँ।", "roman": "la, phon rākhchhu, bholi bheṭauṃ.", "en": "Right, I'll hang up — see you tomorrow." },
+        { "native": "अहिले बिजी छु, पछि कल गर्छु।", "roman": "ahile biji chhu, pachhi kal garchhu.", "en": "I'm busy right now, I'll call back later." },
+        { "native": "हजुरआमालाई भिडियो कल गरौँ?", "roman": "hajurāmālāi bhiḍiyo kal garauṃ?", "en": "Shall we video call Grandma?" },
+        { "native": "तपाईंको नम्बर सेभ गरूँ?", "roman": "tapāiṃko nambar sebh garuṃ?", "en": "Shall I save your number?", "focus": "गरूँ", "wrong": ["गरौँ|garauṃ", "गर्‍यो|garyo"] }
+      ]
+    }
+  ]
+}

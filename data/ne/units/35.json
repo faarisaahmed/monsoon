@@ -1,0 +1,196 @@
+{
+  "id": 35,
+  "title": "Home & neighbourhood",
+  "goal": "Rent a room or flat in Kathmandu, ask about water and power, report what is broken and get the landlord to have it fixed, pay the bills, and deal politely with neighbours and noise.",
+  "intro": "Sooner or later you'll live in a **डेरा** — rented rooms, usually in a house where the landlord (**घरबेटी**) lives downstairs. That means talking about rent, the water supply, gas cylinders, power cuts, leaking taps and the neighbours' dog.\n\nThis unit gives you two tools. First, **complaining politely but firmly**: naming the problem, saying how long it has been going on (धारा बिग्रेको तीन दिन **भयो** 'the tap has been broken for three days'), and softening your request so the landlord stays on your side. Second, the **causative** — not doing a job yourself but **getting it done**: मर्मत **गराउनु** 'to get it repaired', मिस्त्रीलाई **बनाउन लगाउनु** 'to get the repairman to fix it'.",
+  "vocab": [
+    { "native": "डेरा", "roman": "ḍerā", "en": "rented room(s), lodgings", "pos": "noun", "note": "डेरा गरेर बस्नु / डेरामा बस्नु \"to live in rented rooms\"; डेरा सर्नु \"to move house\". A renter is a डेरावाल (ḍerāwāl)." },
+    { "native": "घरबेटी", "roman": "gharbeṭi", "en": "landlord, landlady", "pos": "noun", "note": "Also घरधनी (gharadhani). Addressed as दाइ, दिदी, or अंकल/आन्टी — never by the word घरबेटी." },
+    { "native": "घरभाडा", "roman": "gharbhāḍā", "en": "rent", "pos": "noun", "note": "Often just भाडा. भाडा तिर्नु / बुझाउनु \"to pay the rent\"." },
+    { "native": "फ्ल्याट", "roman": "phlyāṭ", "en": "flat, apartment", "pos": "noun", "note": "A whole floor with its own kitchen. Rooms without one are just कोठा." },
+    { "native": "एडभान्स", "roman": "eḍbhāns", "en": "advance (rent paid ahead), deposit", "pos": "noun", "note": "Formal Nepali: धरौटी (dharauṭi) \"deposit\"." },
+    { "native": "सम्झौता", "roman": "samjhautā", "en": "agreement, contract", "pos": "noun", "note": "Also \"compromise\": सम्झौता गर्नु." },
+    { "native": "बिजुली", "roman": "bijuli", "en": "electricity", "pos": "noun", "note": "In speech the power is often just बत्ती: बत्ती गयो \"the power went\"." },
+    { "native": "खानेपानी", "roman": "khānepāni", "en": "drinking water; the water supply", "pos": "noun", "note": "The water board is खानेपानी too. Drinking water is usually bought in 20-litre जार." },
+    { "native": "जार", "roman": "jār", "en": "(20-litre) water jar", "pos": "noun", "note": "जारको पानी \"jar water\", delivered to the door." },
+    { "native": "धारा", "roman": "dhārā", "en": "tap; public water spout", "pos": "noun", "note": "Also the old stone spouts (ढुङ्गेधारा) of the Kathmandu valley." },
+    { "native": "ट्याङ्की", "roman": "ṭyāṅki", "en": "water tank", "pos": "noun", "note": "The black plastic tank on every roof." },
+    { "native": "ट्याङ्कर", "roman": "ṭyāṅkar", "en": "water tanker (truck)", "pos": "noun", "note": "When the piped water fails, you pay for a ट्याङ्कर to fill the roof tank." },
+    { "native": "ग्यास", "roman": "gyās", "en": "cooking gas (cylinder)", "pos": "noun", "note": "ग्यास सकियो \"the gas has run out\"; ग्यास भराउनु \"to get the cylinder refilled\"." },
+    { "native": "बिल", "roman": "bil", "en": "bill", "pos": "noun", "note": "बत्तीको बिल, पानीको बिल, इन्टरनेटको बिल." },
+    { "native": "मिटर", "roman": "miṭar", "en": "meter (electricity, water)", "pos": "noun", "note": "Tenants often pay by their own sub-meter: मिटरअनुसार \"according to the meter\"." },
+    { "native": "छत", "roman": "chhat", "en": "flat roof, roof terrace", "pos": "noun", "note": "Where washing is dried and tanks stand. A sloping roof is छाना." },
+    { "native": "भित्ता", "roman": "bhittā", "en": "wall (of a room or house)", "pos": "noun", "note": "A boundary wall round a compound is पर्खाल (parkhāl)." },
+    { "native": "छिमेकी", "roman": "chhimeki", "en": "neighbour", "pos": "noun", "note": "छिमेक \"neighbourhood\"; छिमेकी देश \"neighbouring country\"." },
+    { "native": "टोल", "roman": "ṭol", "en": "neighbourhood, local area (of a town)", "pos": "noun", "note": "Old Kathmandu is a patchwork of टोल, each with its own name, shrine and festivals." },
+    { "native": "गुनासो", "roman": "gunāso", "en": "complaint, grumble", "pos": "noun", "note": "गुनासो गर्नु \"to complain\". A formal written complaint is उजुरी." },
+    { "native": "मिस्त्री", "roman": "mistri", "en": "repairman, mechanic, builder", "pos": "noun", "note": "Specify the trade: पानीको मिस्त्री / प्लम्बर (plumber), बिजुलीको मिस्त्री (electrician)." },
+    { "native": "चुहिनु", "roman": "chuhinu", "en": "to leak, drip", "pos": "verb", "note": "धारा चुहियो \"the tap leaked\"; छानाबाट पानी चुहिन्छ \"the roof leaks\"." },
+    { "native": "बुझाउनु", "roman": "bujhāunu", "en": "to pay (rent, a bill), hand over; to explain", "pos": "verb", "note": "Causative of बुझ्नु \"to understand / receive\". भाडा बुझाएँ \"I paid the rent\"." },
+    { "native": "मिलाउनु", "roman": "milāunu", "en": "to sort out, fix, arrange", "pos": "verb", "note": "One of the most useful verbs in Nepali: मिलाइदिनुहोस् \"please sort it out\"." },
+    { "native": "फेर्नु", "roman": "phernu", "en": "to change, replace", "pos": "verb", "note": "बल्ब फेर्नु \"to change a bulb\"; लुगा फेर्नु \"to change clothes\"." },
+    { "native": "भुक्नु", "roman": "bhuknu", "en": "to bark", "pos": "verb", "note": "कुकुर रातभरि भुक्छ \"the dog barks all night\"." },
+    { "native": "बन्नु", "roman": "bannu", "en": "to be made; to get fixed", "pos": "verb", "note": "अझै बनेको छैन \"it still hasn't been fixed\". Its partner बनाउनु means \"to make, to fix\"." }
+  ],
+  "phrases": [
+    { "native": "यहाँ कोठा भाडामा पाइन्छ?", "roman": "yahāṃ koṭhā bhāḍāmā pāinchha?", "en": "Are there rooms to rent around here?", "note": "Look for handwritten कोठा भाडामा पाइन्छ signs taped to walls and poles." },
+    { "native": "महिनाको कति हो?", "roman": "mahināko kati ho?", "en": "How much is it a month?" },
+    { "native": "पानी कस्तो आउँछ?", "roman": "pāni kasto āunchha?", "en": "What's the water supply like?", "note": "The first question every Kathmandu tenant asks." },
+    { "native": "धारामा पानी आएन।", "roman": "dhārāmā pāni āena.", "en": "There's no water in the tap." },
+    { "native": "बत्ती गएको छ।", "roman": "batti gaeko chha.", "en": "The power is out." },
+    { "native": "ग्यास सकियो।", "roman": "gyās sakiyo.", "en": "The gas has run out." },
+    { "native": "बाथरुमको धारा चुहिरहेको छ।", "roman": "bāthrumko dhārā chuhiraheko chha.", "en": "The bathroom tap is leaking." },
+    { "native": "मिस्त्री कहिले आउँछ?", "roman": "mistri kahile āunchha?", "en": "When is the repairman coming?" },
+    { "native": "छिट्टै मिलाइदिनुहोस् न।", "roman": "chhiṭṭai milāidinuhos na.", "en": "Please sort it out soon.", "note": "Polite but clear. To a friend: छिट्टै मिलाइदेऊ न।" },
+    { "native": "तीन दिन भइसक्यो!", "roman": "tin din bhaisakyo!", "en": "It's been three days already!" },
+    { "native": "आवाज अलि कम गरिदिनुहुन्छ कि?", "roman": "āwāj ali kam garidinuhunchha ki?", "en": "Could you keep the noise down a bit?", "note": "The कि at the end makes it a gentle \"would you mind…?\"." },
+    { "native": "भाडा कहिले बुझाउने?", "roman": "bhāḍā kahile bujhāune?", "en": "When should I pay the rent?" },
+    { "native": "फोहोर गाडी कहिले आउँछ?", "roman": "phohor gāḍi kahile āunchha?", "en": "When does the rubbish truck come?" },
+    { "native": "हामी अर्को महिना डेरा सर्दै छौँ।", "roman": "hāmi arko mahinā ḍerā sardai chhauṃ.", "en": "We're moving out next month." }
+  ],
+  "grammar": [
+    {
+      "title": "Complaining politely but firmly",
+      "body": "A good complaint in Nepali has three parts: **what is wrong**, **how long it has been going on**, and **a soft but clear request**. Shouting gets you nowhere; calm persistence does.\n\n**1. Say what's wrong.** Use the simple past or the -एको छ perfect, which you already know: पानी **आएन** 'the water didn't come', बत्ती **गएको छ** 'the power is out', ग्यास **सकियो** 'the gas has run out', धारा **बिग्रियो** 'the tap broke'. For something still going on use -इरहेको छ: धारा **चुहिरहेको छ** 'the tap is leaking'. For something that keeps happening use **-इरहन्छ** 'keeps on…': बत्ती **गइरहन्छ** 'the power keeps going off'.\n\n**2. Say how long — the '-एको … भयो' pattern.** Nepali says 'it has become three days since X happened':\n\n- धारा **बिग्रेको** तीन दिन **भयो** — 'The tap has been broken for three days.'\n- पानी **नआएको** एक हप्ता **भयो** — 'There's been no water for a week' (lit. 'it has become a week of the water not coming').\n- मैले **भनेको** दुई हप्ता **भइसक्यो** — 'It's been two weeks since I told you.'\n\nThe verb takes **-एको** (negative **न-…-एको**), then the length of time, then **भयो** (or the sharper **भइसक्यो** 'already'). **अझै** + negative perfect is the other key word: अझै **बनेको छैन** 'it still hasn't been fixed'.\n\n**3. Ask softly.** Use the 'for me' form -इदिनु from unit 18 and add a softener:\n\n- मिलाइदिनुहोस् **न** — 'please sort it out' (न makes it friendly, not pushy)\n- मिलाइदिनुहुन्छ **कि**? — 'would you mind sorting it out?'\n- मिलाइदिनुभए **राम्रो हुन्थ्यो** — 'it would be great if you could sort it out' (the most diplomatic)\n\nTo get firmer without being rude, keep the polite verb but add facts and time: मैले दुई पटक भनिसकेँ, **तर** अझै बनेको छैन। **आज** मिलाइदिनुहोस् न। Getting firmer never means dropping from तपाईं to तिमी — that would sound like picking a fight.",
+      "examples": [
+        { "native": "धारा बिग्रेको एक हप्ता भयो।", "roman": "dhārā bigreko ek haptā bhayo.", "en": "The tap has been broken for a week." },
+        { "native": "पानी नआएको तीन दिन भयो।", "roman": "pāni naāeko tin din bhayo.", "en": "There's been no water for three days." },
+        { "native": "मैले दुई पटक भनिसकेँ, तर अझै बनेको छैन।", "roman": "maile dui paṭak bhanisakeṃ, tara ajhai baneko chhaina.", "en": "I've told you twice already, but it still hasn't been fixed." },
+        { "native": "मिस्त्री पठाइदिनुभए राम्रो हुन्थ्यो।", "roman": "mistri paṭhāidinubhae rāmro hunthyo.", "en": "It would be great if you could send a repairman." },
+        { "native": "राति बाह्र बजेसम्म आवाज आइरहन्छ।", "roman": "rāti bāhra bajesamma āwāj āirahanchha.", "en": "The noise goes on until midnight." }
+      ]
+    },
+    {
+      "title": "Causatives revisited: getting something done",
+      "body": "When you don't fix something yourself but **get it done**, Nepali uses a **causative**. There are two ways.\n\n**1. The -आउनु causative.** Many verbs have a partner ending in **-आउनु** that means 'make/have someone do it'. You already know several: देख्नु 'see' → **देखाउनु** 'show', बुझ्नु 'understand' → **बुझाउनु** 'explain; hand over', पढ्नु 'study' → **पढाउनु** 'teach'. The one you need most is **गर्नु → गराउनु** 'have done', used with a noun of action:\n\n- मर्मत **गर्नु** 'to repair' → मर्मत **गराउनु** 'to get repaired'\n- सफा **गर्नु** 'to clean' → सफा **गराउनु** 'to get cleaned'\n- जाँच **गर्नु** 'to check' → जाँच **गराउनु** 'to get checked'\n\nIt conjugates like any verb: गराएँ 'I had it done', गराउनुभयो 'you/he (polite) had it done', गराउनुपर्छ 'it needs to be done'.\n\n**2. -न लगाउनु 'make / get someone to do'.** Put the main verb in its **-न** form and add **लगाउनु**. The person who does the work takes **-लाई**:\n\n- **मिस्त्रीलाई** धारा **फेर्न लगाउनुहोस्** — 'Get the repairman to replace the tap.'\n- घरबेटीले **मलाई** एडभान्स **तिर्न लगाउनुभयो** — 'The landlord made me pay an advance.'\n\n**The trap.** To your landlord, **मर्मत गरिदिनुहोस्** asks *him* to repair it himself, which can sound odd; **मर्मत गराइदिनुहोस्** 'please get it repaired (for me)' is what you mean. Both causatives combine happily with the 'for me' -इदिनु: गराइदिनुहोस्, फेर्न लगाइदिनुहोस्.\n\n'I need to get X done' is simply **X गराउनुपर्छ**: मलाई ट्याङ्की सफा गराउनुपर्छ।",
+      "examples": [
+        { "native": "घरबेटीले धारा मर्मत गराउनुभयो।", "roman": "gharbeṭile dhārā marmat garāunubhayo.", "en": "The landlord got the tap repaired." },
+        { "native": "मिस्त्रीलाई ढोका मिलाउन लगाउनुहोस् न।", "roman": "mistrilāi ḍhokā milāuna lagāunuhos na.", "en": "Please get the repairman to fix the door." },
+        { "native": "मैले कोठा सफा गराएँ।", "roman": "maile koṭhā saphā garāeṃ.", "en": "I had the room cleaned." },
+        { "native": "ट्याङ्की सफा गराउनुपर्छ।", "roman": "ṭyāṅki saphā garāunuparchha.", "en": "The tank needs to be cleaned." },
+        { "native": "उहाँले मलाई दुई महिनाको एडभान्स तिर्न लगाउनुभयो।", "roman": "uhāṃle malāi dui mahināko eḍbhāns tirna lagāunubhayo.", "en": "She made me pay two months' advance." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "No water, again",
+    "setting": "Anu rents the top floor of a house in Baneshwor, Kathmandu. She goes downstairs to see her landlady, Sharmila aunty.",
+    "lines": [
+      { "speaker": "Anu", "native": "आन्टी, नमस्ते। एकछिन कुरा गर्न मिल्छ?", "roman": "ānṭi, namaste. ekchhin kurā garna milchha?", "en": "Hello, aunty. Have you got a minute?" },
+      { "speaker": "Sharmila", "native": "आऊ आऊ, बस। के भयो? अनुहार त उदास छ नि।", "roman": "āu āu, basa. ke bhayo? anuhār ta udās chha ni.", "en": "Come in, sit down. What's up? You look miserable." },
+      { "speaker": "Anu", "native": "माथि पानी नआएको तीन दिन भयो, आन्टी। ट्याङ्की खाली छ।", "roman": "māthi pāni naāeko tin din bhayo, ānṭi. ṭyāṅki khāli chha.", "en": "There's been no water upstairs for three days, aunty. The tank's empty." },
+      { "speaker": "Sharmila", "native": "ओहो, मेलम्चीको पानी यो हप्ता आएकै छैन। के गर्ने?", "roman": "oho, Melamchiko pāni yo haptā āekai chhaina. ke garne?", "en": "Oh dear, the Melamchi water hasn't come at all this week. What can you do?" },
+      { "speaker": "Anu", "native": "एउटा ट्याङ्कर मगाइदिनुभए राम्रो हुन्थ्यो। नुहाउनै पाइएन!", "roman": "euṭā ṭyāṅkar magāidinubhae rāmro hunthyo. nuhāunai pāiena!", "en": "It'd be great if you could order a tanker. I haven't even been able to shower!" },
+      { "speaker": "Sharmila", "native": "हुन्छ, म आजै ट्याङ्कर मगाउँछु। अरू केही?", "roman": "hunchha, ma ājai ṭyāṅkar magāunchhu. aru kehi?", "en": "OK, I'll order a tanker today. Anything else?" },
+      { "speaker": "Anu", "native": "अनि बाथरुमको धारा पनि चुहिरहेको छ। मैले अघिल्लो हप्ता पनि भनेको थिएँ।", "roman": "ani bāthrumko dhārā pani chuhiraheko chha. maile aghillo haptā pani bhaneko thieṃ.", "en": "And the bathroom tap is leaking too. I told you last week as well." },
+      { "speaker": "Sharmila", "native": "हो र? मैले त बिर्सेछु। भोलि मिस्त्रीलाई बोलाएर फेर्न लगाउँछु।", "roman": "ho ra? maile ta birsechhu. bholi mistrilāi bolāera pherna lagāunchhu.", "en": "Really? I must have forgotten. Tomorrow I'll call the plumber and get him to replace it." },
+      { "speaker": "Anu", "native": "धन्यवाद आन्टी। अनि यो महिनाको भाडा, खल्तीबाट पठाऊँ कि नगद दिऊँ?", "roman": "dhanyabād ānṭi. ani yo mahināko bhāḍā, Khaltibāṭa paṭhāuṃ ki nagad diuṃ?", "en": "Thanks, aunty. And this month's rent — shall I send it by Khalti or give you cash?" },
+      { "speaker": "Sharmila", "native": "खल्तीमै पठाऊ। बत्तीको बिल चाहिँ मिटर हेरेर पछि भनुँला।", "roman": "Khaltimai paṭhāu. battiko bil chāhiṃ miṭar herera pachhi bhanuṃlā.", "en": "Send it on Khalti. As for the electricity bill, I'll check the meter and tell you later." },
+      { "speaker": "Sharmila", "native": "तर एउटा कुरा: हिजो राति तिम्रा साथीहरूको आवाज अलि धेरै आयो है।", "roman": "tara euṭā kurā: hijo rāti timrā sāthiharuko āwāj ali dherai āyo hai.", "en": "But one thing: last night your friends were a bit loud, you know." },
+      { "speaker": "Anu", "native": "सरी आन्टी! अर्को पटकदेखि दस बजेपछि चुपचाप।", "roman": "sari ānṭi! arko paṭakdekhi das bajepachhi chupchāp.", "en": "Sorry, aunty! From next time, total silence after ten." },
+      { "speaker": "Sharmila", "native": "हाहा, ठीक छ। पानी आएपछि म बोलाउँछु।", "roman": "hāhā, ṭhik chha. pāni āepachhi ma bolāunchhu.", "en": "Haha, all right. I'll give you a shout when the water comes." }
+    ]
+  },
+  "culture": "Most young people in Kathmandu who aren't living with family live in a **डेरा** — a couple of rooms in a family house, with the **घरबेटी** downstairs. That makes the landlord half neighbour, half aunt: they will ask where you were last night, send up a plate of food at Dashain, and have opinions about your guests. Call them **आन्टी/अंकल** or **दाइ/दिदी** and use **तपाईं** (a landlady may well call you **तिमी**, as Sharmila does — that's affection, not rudeness). Many houses have rules: the gate is locked at night, no loud music late, and sometimes no cooking meat on certain days.\n\n**Water** is the big issue. Piped water from the खानेपानी board (and the Melamchi project) arrives only on certain days, sometimes at 4 a.m., and is pumped up to the **ट्याङ्की** on the roof. When it fails, people buy a **ट्याङ्कर** of water, and drinking water comes in 20-litre **जार**. So ask **पानी कस्तो आउँछ?** before you sign anything. Cooking is on **LPG cylinders** — keep a spare, because ग्यास सकियो always happens mid-meal.\n\nRent is usually paid monthly, now often through **eSewa or Khalti** (Nepal's payment wallets), with one or two months' **एडभान्स**. Electricity is often split by sub-**मिटर**. When something breaks, tenants report it to the landlord, who calls the मिस्त्री. Complaints work best when they are calm, specific and repeated — and a neighbour's complaint is usually passed on through the landlord rather than face to face.",
+  "lessons": [
+    {
+      "title": "Finding a place to rent",
+      "tip": { "title": "Renting in Kathmandu", "body": "- You rent a **डेरा** (rooms) or a **फ्ल्याट** from a **घरबेटी**; 'to live in rented rooms' is **डेरा गरेर बस्नु**.\n- Ask the price: **महिनाको कति हो?** · and the advance: एडभान्स **कति महिनाको**?\n- 'How much a month' = **महिनाको**, 'how many months' advance' = **कति महिनाको** — the -को does the work.\n- Use **तपाईं** with the landlord, even if they're young." },
+      "new": ["डेरा", "घरबेटी", "घरभाडा", "फ्ल्याट", "एडभान्स", "सम्झौता", "यहाँ कोठा भाडामा पाइन्छ?", "महिनाको कति हो?", "पानी कस्तो आउँछ?"],
+      "sentences": [
+        { "native": "म काठमाडौंमा डेरा गरेर बस्छु।", "roman": "ma Kāṭhmāḍauṃmā ḍerā garera baschhu.", "en": "I live in rented rooms in Kathmandu." },
+        { "native": "दाइ, यहाँ कोठा भाडामा पाइन्छ?", "roman": "dāi, yahāṃ koṭhā bhāḍāmā pāinchha?", "en": "Excuse me, are there rooms to rent here?" },
+        { "native": "दुईवटा कोठा र भान्सा चाहियो।", "roman": "duiwaṭā koṭhā ra bhānsā chāhiyo.", "en": "I need two rooms and a kitchen." },
+        { "native": "यो फ्ल्याटको घरभाडा महिनाको कति हो?", "roman": "yo phlyāṭko gharbhāḍā mahināko kati ho?", "en": "How much is the rent on this flat a month?", "focus": "महिनाको", "wrong": ["महिनामा|mahināmā", "महिना|mahinā"] },
+        { "native": "एडभान्स कति महिनाको दिनुपर्छ?", "roman": "eḍbhāns kati mahināko dinuparchha?", "en": "How many months' advance do I have to pay?", "focus": "महिनाको", "wrong": ["महिनामा|mahināmā", "महिनाले|mahināle"] },
+        { "native": "घरबेटी तल बस्नुहुन्छ, हामी माथि।", "roman": "gharbeṭi tala basnuhunchha, hāmi māthi.", "en": "The landlord lives downstairs, we live upstairs.", "focus": "बस्नुहुन्छ", "wrong": ["बस्छ|baschha", "बस्छौ|baschhau"] },
+        { "native": "सम्झौता एक वर्षको हुन्छ।", "roman": "samjhautā ek barsako hunchha.", "en": "The agreement is for one year.", "focus": "वर्षको", "wrong": ["वर्षमा|barsamā", "वर्ष|barsa"] },
+        { "native": "यहाँ पानी कस्तो आउँछ, दिनहुँ आउँछ?", "roman": "yahāṃ pāni kasto āunchha, dinahuṃ āunchha?", "en": "What's the water like here — does it come every day?" },
+        { "native": "पानी हप्तामा दुई पटक मात्र आउँछ।", "roman": "pāni haptāmā dui paṭak mātra āunchha.", "en": "The water only comes twice a week." },
+        { "native": "घरभाडा अलि महँगो भयो, अलि घटाउनुहुन्छ कि?", "roman": "gharbhāḍā ali mahaṃgo bhayo, ali ghaṭāunuhunchha ki?", "en": "The rent's a bit too high — could you bring it down a little?" }
+      ]
+    },
+    {
+      "title": "Water, power and gas",
+      "tip": { "title": "It's been three days! -एको … भयो", "grammar": 0, "body": "- Say what's wrong in the past: पानी **आएन**, बत्ती **गएको छ**, ग्यास **सकियो**.\n- Say how long: verb in **-एको** + time + **भयो**: बत्ती **गएको** दुई घण्टा भयो 'the power has been off for two hours'.\n- Negative: **न-** in front: पानी **नआएको** तीन दिन भयो 'no water for three days'.\n- Sharper: **भइसक्यो** 'already'.", "pattern": "verb-एको + time + भयो" },
+      "new": ["बिजुली", "खानेपानी", "जार", "धारा", "ट्याङ्की", "ग्यास", "धारामा पानी आएन।", "बत्ती गएको छ।", "ग्यास सकियो।", "तीन दिन भइसक्यो!"],
+      "sentences": [
+        { "native": "आज बिहानदेखि धारामा पानी आएन।", "roman": "āja bihānadekhi dhārāmā pāni āena.", "en": "There's been no water in the tap since this morning.", "focus": "आएन", "wrong": ["आयो|āyo", "आउँदैन|āundaina"] },
+        { "native": "बत्ती गएको दुई घण्टा भयो।", "roman": "batti gaeko dui ghanṭā bhayo.", "en": "The power has been out for two hours.", "focus": "गएको", "wrong": ["गयो|gayo", "जाने|jāne"] },
+        { "native": "ट्याङ्कीमा पानी नआएको तीन दिन भयो।", "roman": "ṭyāṅkimā pāni naāeko tin din bhayo.", "en": "No water has come into the tank for three days.", "focus": "नआएको", "wrong": ["आएको|āeko", "नआए|naāe"] },
+        { "native": "ग्यास सकिएको दुई दिन भइसक्यो!", "roman": "gyās sakieko dui din bhaisakyo!", "en": "The gas ran out two days ago already!", "focus": "भइसक्यो", "wrong": ["हुन्छ|hunchha", "भएको|bhaeko"] },
+        { "native": "बिजुली गएको एक घण्टा भयो, कहिले आउँछ?", "roman": "bijuli gaeko ek ghanṭā bhayo, kahile āunchha?", "en": "The electricity's been off for an hour — when's it coming back?", "focus": "भयो", "wrong": ["हुन्छ|hunchha", "छ|chha"] },
+        { "native": "खानेपानी चाहिँ जार किनेर पिउँछौँ।", "roman": "khānepāni chāhiṃ jār kinera piunchhauṃ.", "en": "For drinking water, we buy jars." },
+        { "native": "ग्यास सकियो, अब खाना कसरी पकाउने?", "roman": "gyās sakiyo, aba khānā kasari pakāune?", "en": "The gas has run out — how are we going to cook now?" },
+        { "native": "जारको पानी पनि सकिएछ।", "roman": "jārko pāni pani sakiechha.", "en": "Oh, the jar water has run out too." },
+        { "native": "धाराको पानी नपिउनुहोस् है।", "roman": "dhārāko pāni napiunuhos hai.", "en": "Don't drink the tap water, OK?" },
+        { "native": "तीन दिन भइसक्यो, ट्याङ्की अझै खाली छ।", "roman": "tin din bhaisakyo, ṭyāṅki ajhai khāli chha.", "en": "It's been three days already and the tank is still empty." }
+      ]
+    },
+    {
+      "title": "Saying what's broken",
+      "tip": { "title": "Polite but firm", "grammar": 0, "body": "- Still going on: **-इरहेको छ** — धारा **चुहिरहेको छ**. Keeps happening: **-इरहन्छ**.\n- 'Still not': **अझै** + **-एको छैन** — अझै **बनेको छैन**.\n- Ask softly: मिलाइदिनुहोस् **न** · मिलाइदिनुहुन्छ **कि**? · मिलाइदिनुभए **राम्रो हुन्थ्यो**.\n- Firmer = more facts and time, never तिमी." },
+      "new": ["चुहिनु", "मिस्त्री", "मिलाउनु", "बन्नु", "बाथरुमको धारा चुहिरहेको छ।", "मिस्त्री कहिले आउँछ?", "छिट्टै मिलाइदिनुहोस् न।"],
+      "sentences": [
+        { "native": "भान्साको धारा पनि चुहिरहेको छ।", "roman": "bhānsāko dhārā pani chuhiraheko chha.", "en": "The kitchen tap is leaking too.", "focus": "चुहिरहेको", "wrong": ["चुहियो|chuhiyo", "चुहिने|chuhine"] },
+        { "native": "पानी पर्दा छानाबाट पानी चुहिन्छ।", "roman": "pāni pardā chhānābāṭa pāni chuhinchha.", "en": "When it rains, water leaks through the roof." },
+        { "native": "मैले दुई पटक भनेँ, तर अझै बनेको छैन।", "roman": "maile dui paṭak bhaneṃ, tara ajhai baneko chhaina.", "en": "I've said it twice, but it still hasn't been fixed.", "focus": "बनेको", "wrong": ["बन्यो|banyo", "बनाउने|banāune"] },
+        { "native": "बत्ती गइरहन्छ, के भएको होला?", "roman": "batti gairahanchha, ke bhaeko holā?", "en": "The power keeps going off — I wonder what the problem is.", "focus": "गइरहन्छ", "wrong": ["गइरहेको|gairaheko", "जान्छु|jānchhu"] },
+        { "native": "आज मिस्त्री पठाइदिनुहुन्छ कि?", "roman": "āja mistri paṭhāidinuhunchha ki?", "en": "Would you mind sending the repairman today?", "focus": "पठाइदिनुहुन्छ", "wrong": ["पठाउँछु|paṭhāunchhu", "पठायो|paṭhāyo"] },
+        { "native": "ढोका बन्द हुँदैन, मिलाइदिनुभए राम्रो हुन्थ्यो।", "roman": "ḍhokā banda hundaina, milāidinubhae rāmro hunthyo.", "en": "The door won't shut; it'd be great if you could fix it.", "focus": "हुन्थ्यो", "wrong": ["हुन्छ|hunchha", "भयो|bhayo"] },
+        { "native": "दाइ, यो झ्याल मिलाइदिनुहोस् न।", "roman": "dāi, yo jhyāl milāidinuhos na.", "en": "Could you fix this window for me, please?", "focus": "मिलाइदिनुहोस्", "wrong": ["मिलाउँछु|milāunchhu", "मिलायो|milāyo"] },
+        { "native": "मिस्त्री भोलि बिहान आउँछ रे।", "roman": "mistri bholi bihāna āunchha re.", "en": "Apparently the repairman is coming tomorrow morning." },
+        { "native": "धारा चुहिएको एक हप्ता भयो, छिट्टै मिलाइदिनुहोस् न।", "roman": "dhārā chuhieko ek haptā bhayo, chhiṭṭai milāidinuhos na.", "en": "The tap's been leaking for a week — please sort it out soon." }
+      ]
+    },
+    {
+      "title": "Getting the landlord to fix it",
+      "tip": { "title": "Get it done: गराउनु, -न लगाउनु", "grammar": 1, "body": "- **गर्नु → गराउनु** 'have done': मर्मत **गराउनु** 'get repaired', सफा **गराउनु** 'get cleaned'.\n- **-न लगाउनु** 'get someone to do': मिस्त्री**लाई** धारा **फेर्न लगाउनु**. The worker takes **-लाई**.\n- To the landlord: मर्मत **गराइदिनुहोस्** 'get it repaired for me' — not मर्मत गरिदिनुहोस्, which asks him to do it himself." },
+      "new": ["फेर्नु", "छत", "भित्ता", "ट्याङ्कर"],
+      "sentences": [
+        { "native": "यो धारा मर्मत गराइदिनुहोस् न।", "roman": "yo dhārā marmat garāidinuhos na.", "en": "Please get this tap repaired.", "focus": "गराइदिनुहोस्", "wrong": ["गरिदिनुहोस्|garidinuhos", "गराएँ|garāeṃ"] },
+        { "native": "घरबेटीले ढोका मर्मत गराउनुभयो।", "roman": "gharbeṭile ḍhokā marmat garāunubhayo.", "en": "The landlord got the door repaired.", "focus": "गराउनुभयो", "wrong": ["गराएँ|garāeṃ", "गर्नुभयो|garnubhayo"] },
+        { "native": "मिस्त्रीलाई पुरानो धारा फेर्न लगाउनुहोस्।", "roman": "mistrilāi purāno dhārā pherna lagāunuhos.", "en": "Get the repairman to replace the old tap.", "focus": "मिस्त्रीलाई", "wrong": ["मिस्त्रीले|mistrile", "मिस्त्री|mistri"] },
+        { "native": "मैले बिजुलीको मिस्त्रीलाई बत्ती हेर्न लगाएँ।", "roman": "maile bijuliko mistrilāi batti herna lagāeṃ.", "en": "I got the electrician to look at the lights.", "focus": "लगाएँ", "wrong": ["लगायो|lagāyo", "लगाउनुहोस्|lagāunuhos"] },
+        { "native": "भोलि मिस्त्रीलाई ढोका मिलाउन लगाउँछु।", "roman": "bholi mistrilāi ḍhokā milāuna lagāunchhu.", "en": "Tomorrow I'll get the repairman to fix the door.", "focus": "मिलाउन", "wrong": ["मिलाएँ|milāeṃ", "मिलाउनु|milāunu"] },
+        { "native": "छतको ट्याङ्की सफा गराउनुपर्छ।", "roman": "chhatko ṭyāṅki saphā garāunuparchha.", "en": "The tank on the roof needs to be cleaned.", "focus": "गराउनुपर्छ", "wrong": ["गराएँ|garāeṃ", "गराउँदै|garāundai"] },
+        { "native": "यो महिना मैले कोठा सफा गराएँ।", "roman": "yo mahinā maile koṭhā saphā garāeṃ.", "en": "This month I had the room cleaned.", "focus": "गराएँ", "wrong": ["गराउनुभयो|garāunubhayo", "गरायो|garāyo"] },
+        { "native": "मर्मत गराउन कति लाग्छ?", "roman": "marmat garāuna kati lāgchha?", "en": "How much will it cost to get it repaired?", "focus": "गराउन", "wrong": ["गराएँ|garāeṃ", "गराउनु|garāunu"] },
+        { "native": "छतमा लुगा सुकाउन पाइन्छ?", "roman": "chhatmā lugā sukāuna pāinchha?", "en": "Am I allowed to dry clothes on the roof?" },
+        { "native": "यो भित्ता फोहोर भयो, सफा गराउनुपर्छ।", "roman": "yo bhittā phohor bhayo, saphā garāunuparchha.", "en": "This wall has got dirty; it needs to be cleaned.", "focus": "गराउनुपर्छ", "wrong": ["गराएँ|garāeṃ", "गराउनुभयो|garāunubhayo"] },
+        { "native": "पानी आएन भने ट्याङ्करको पानी किन्नुपर्छ।", "roman": "pāni āena bhane ṭyāṅkarko pāni kinnuparchha.", "en": "If the water doesn't come, we have to buy tanker water." },
+        { "native": "बेलुका छतबाट हिमाल देखिन्छ।", "roman": "belukā chhatbāṭa himāl dekhinchha.", "en": "In the evening you can see the mountains from the roof." }
+      ]
+    },
+    {
+      "title": "Bills and the building",
+      "new": ["बिल", "मिटर", "बुझाउनु", "भाडा कहिले बुझाउने?", "फोहोर गाडी कहिले आउँछ?"],
+      "sentences": [
+        { "native": "यो महिनाको बिल कति आयो?", "roman": "yo mahināko bil kati āyo?", "en": "How much was this month's bill?" },
+        { "native": "बत्तीको बिल मिटर हेरेर तिर्ने हो।", "roman": "battiko bil miṭar herera tirne ho.", "en": "The electricity bill is paid according to the meter." },
+        { "native": "भाडा महिनाको पहिलो हप्ता बुझाउनुपर्छ।", "roman": "bhāḍā mahināko pahilo haptā bujhāunuparchha.", "en": "The rent has to be paid in the first week of the month." },
+        { "native": "मैले हिजै भाडा बुझाएँ नि।", "roman": "maile hijai bhāḍā bujhāeṃ ni.", "en": "But I paid the rent yesterday." },
+        { "native": "यो बिल कसले तिर्ने, तपाईं कि म?", "roman": "yo bil kasle tirne, tapāiṃ ki ma?", "en": "Who pays this bill, you or me?" },
+        { "native": "फोहोर गाडी हप्तामा दुई पटक आउँछ।", "roman": "phohor gāḍi haptāmā dui paṭak āunchha.", "en": "The rubbish truck comes twice a week." },
+        { "native": "फोहोर गाडी आउँदा बाहिर फोहोर लैजानुहोस्।", "roman": "phohor gāḍi āundā bāhira phohor laijānuhos.", "en": "When the rubbish truck comes, take the rubbish out." },
+        { "native": "पानीको बिल पनि भाडामै पर्छ?", "roman": "pāniko bil pani bhāḍāmai parchha?", "en": "Is the water bill included in the rent too?" }
+      ]
+    },
+    {
+      "title": "Neighbours and moving",
+      "tip": { "title": "Keeping the peace with neighbours", "body": "- Start soft: आवाज **अलि** कम गरिदिनुहुन्छ **कि**? — the अलि and कि do the softening.\n- Add facts: राति बाह्र बजेसम्म, **हरेक** दिन.\n- Neighbours are दाइ, दिदी, आन्टी — and a complaint often goes **through the landlord**: घरबेटीलाई गुनासो गर्नु.\n- Moving out: **डेरा सर्नु**." },
+      "new": ["छिमेकी", "टोल", "गुनासो", "भुक्नु", "आवाज अलि कम गरिदिनुहुन्छ कि?", "हामी अर्को महिना डेरा सर्दै छौँ।"],
+      "sentences": [
+        { "native": "हाम्रो टोल शान्त छ, छिमेकी पनि राम्रा छन्।", "roman": "hāmro ṭol sānta chha, chhimeki pani rāmrā chhan.", "en": "Our neighbourhood is quiet, and the neighbours are nice too." },
+        { "native": "दिदी, आवाज अलि कम गरिदिनुहुन्छ कि? बच्चा सुत्दै छ।", "roman": "didi, āwāj ali kam garidinuhunchha ki? bachchā sutdai chha.", "en": "Could you keep the noise down a bit? The baby's asleep.", "focus": "गरिदिनुहुन्छ", "wrong": ["गर्छु|garchhu", "गर्‍यो|garyo"] },
+        { "native": "छिमेकीको कुकुर राति धेरै भुक्छ।", "roman": "chhimekiko kukur rāti dherai bhukchha.", "en": "The neighbours' dog barks a lot at night.", "focus": "भुक्छ", "wrong": ["भुक्यो|bhukyo", "भुक्छन्|bhukchhan"] },
+        { "native": "कुकुर भुकेको आवाजले म सुत्न सकिनँ।", "roman": "kukur bhukeko āwājle ma sutna sakinaṃ.", "en": "I couldn't sleep because of the dog barking." },
+        { "native": "हरेक राति एघार बजेसम्म आवाज आइरहन्छ।", "roman": "harek rāti eghāra bajesamma āwāj āirahanchha.", "en": "Every night the noise goes on until eleven.", "focus": "आइरहन्छ", "wrong": ["आयो|āyo", "आउने|āune"] },
+        { "native": "मैले घरबेटीलाई गुनासो गरेँ।", "roman": "maile gharbeṭilāi gunāso gareṃ.", "en": "I complained to the landlord.", "focus": "घरबेटीलाई", "wrong": ["घरबेटीले|gharbeṭile", "घरबेटीको|gharbeṭiko"] },
+        { "native": "यो टोलमा सबै जना सबैलाई चिन्छन्।", "roman": "yo ṭolmā sabai janā sabailāi chinchhan.", "en": "In this neighbourhood everyone knows everyone." },
+        { "native": "हामी अर्को महिना पाटनतिर डेरा सर्दै छौँ।", "roman": "hāmi arko mahinā Pāṭantira ḍerā sardai chhauṃ.", "en": "We're moving to a place near Patan next month." },
+        { "native": "डेरा सर्नुअघि घरबेटीलाई एक महिना पहिले भन्नुपर्छ।", "roman": "ḍerā sarnuaghi gharbeṭilāi ek mahinā pahile bhannuparchha.", "en": "Before moving out you have to tell the landlord a month ahead." }
+      ]
+    }
+  ]
+}

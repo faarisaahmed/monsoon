@@ -1,105 +1,217 @@
 {
   "id": 20,
-  "title": "Telling stories & real conversation",
-  "goal": "Tell a story with natural connectors, describe people and things with relative clauses, report what others said, and use everyday fillers and proverbs.",
-  "intro": "Nepalis love a good **गफ** (chat) over tea, and a good story. In this final unit you'll learn the tools that make Nepali sound fluent: the linking form **-एर** ('having done'), **-दा** ('while/when'), the 'surprise' ending **रहेछ** ('it turned out…'), the hearsay particle **रे** ('apparently'), relative clauses built from participles (हिजो आएको मान्छे 'the man who came yesterday'), and reported speech with **भनेर**.\n\nYou'll also pick up the fillers and proverbs that pepper everyday conversation. बधाई छ — you've reached the end of the course!",
+  "title": "Real conversation",
+  "goal": "Tell a friend what happened, react to their news, pass on what someone said, describe \"the guy who…\" and \"the place where…\", and keep a chat going with the little words Nepalis really use.",
+  "intro": "Nepalis love a good **गफ** (chat) — over tea, on the bus, on the phone. This unit gives you the tools to hold up your end of one: telling a friend what happened with **-एर** ('…and then') and **-दा** ('while / when'), the 'turns out!' ending **रहेछ**, the gossip particle **रे** ('apparently'), passing on what someone said with **भन्यो** and **भनेर**, and relative clauses built from participles (हिजो आएको केटा 'the guy who came yesterday').\n\nJust as important are the reactions and fillers that keep a conversation alive: **साँच्चै?**, **हो र?**, **बाबै!**, **बिचरा**, **खै**, **नि**, **है**, **यार**. Use them with friends and you will sound far more natural than any textbook sentence.",
   "vocab": [
-    { "native": "कथा", "roman": "kathā", "en": "story", "pos": "noun", "note": "कथा सुनाउनु 'to tell a story'." },
-    { "native": "गफ", "roman": "gaph", "en": "chat, chit-chat; tall tale", "pos": "noun", "note": "गफ गर्नु 'to chat'. गफ नदे! 'don't talk nonsense!'" },
-    { "native": "एक दिन", "roman": "ek din", "en": "one day, once", "pos": "adv" },
-    { "native": "सुरुमा", "roman": "surumā", "en": "at first, in the beginning", "pos": "adv" },
-    { "native": "अन्तमा", "roman": "antamā", "en": "in the end, finally", "pos": "adv" },
-    { "native": "जब", "roman": "jaba", "en": "when (relative)", "pos": "conj", "note": "जब … तब 'when … then'." },
+    { "native": "साथी", "roman": "sāthi", "en": "friend", "pos": "noun", "note": "m/f · pl साथीहरू. The everyday word; मित्र is formal. Close friends also call each other दाइ, भाइ, बहिनी, or just यार." },
+    { "native": "गफ", "roman": "gaph", "en": "chat, chit-chat; tall talk", "pos": "noun", "note": "गफ गर्नु / गफ मार्नु \"to chat\". गफ नदे! \"stop talking rubbish!\"" },
+    { "native": "अरे", "roman": "are", "en": "hey!; oh!", "pos": "interj", "note": "Gets a friend's attention or shows mild surprise. Informal." },
+    { "native": "ओहो", "roman": "oho", "en": "oh!, oh no!, wow!", "pos": "interj", "note": "Surprise, sympathy or realising something." },
+    { "native": "साँच्चै", "roman": "sāṃchchai", "en": "really, truly", "pos": "adv", "note": "साँच्चै? \"really?\" · साँच्चै भनेको \"I'm serious\"." },
+    { "native": "बिचरा", "roman": "bicharā", "en": "poor thing, poor guy", "pos": "interj", "note": "f बिचरी. Sympathy: बिचरा, ऊ बिरामी छ." },
+    { "native": "बाबै", "roman": "bābai", "en": "wow!, oh my!", "pos": "interj", "note": "Colloquial; surprise or shock, good or bad: बाबै, कति महँगो!" },
+    { "native": "सुनाउनु", "roman": "sunāunu", "en": "to tell (news, a story); to let hear", "pos": "verb", "note": "सुनाऊ न \"go on, tell me\". Also गीत सुनाउनु \"to sing a song (for someone)\"." },
+    { "native": "बताउनु", "roman": "batāunu", "en": "to tell, let know, inform", "pos": "verb", "note": "मलाई बताऊ \"let me know\". Past: बतायो, बताएँ." },
+    { "native": "रहेछ", "roman": "rahechha", "en": "(it) turns out, oh — it is…!", "pos": "verb", "note": "The \"surprise\" form of छ/हो. Negative: रहेनछ. Past verbs use -एछ: परेछ, गएछ." },
+    { "native": "वास्तवमा", "roman": "bāstabmā", "en": "actually, in fact", "pos": "adv", "note": "Young people often just say *actually*." },
+    { "native": "लौ", "roman": "lau", "en": "well then!, go on!, oh dear!", "pos": "interj", "note": "Very Nepali. लौ न \"come on!\"; लौ, हुन्छ \"alright then\"; लौ! \"oh no!\"" },
+    { "native": "रे", "roman": "re", "en": "(hearsay) apparently, they say", "pos": "particle", "note": "Goes at the end: ऊ आउँछ रे \"apparently he's coming\". के रे? \"what did they say?\"" },
+    { "native": "कि", "roman": "ki", "en": "or; whether", "pos": "conj", "note": "आउँछौ कि आउँदैनौ? \"are you coming or not?\"" },
+    { "native": "हल्ला", "roman": "hallā", "en": "rumour; noise, commotion", "pos": "noun", "note": "… भन्ने हल्ला छ \"there's a rumour that…\"; हल्ला नगर \"don't make noise\"." },
+    { "native": "पत्याउनु", "roman": "patyāunu", "en": "to believe (someone / something)", "pos": "verb", "note": "मैले पत्याइनँ \"I didn't believe it\"; नपत्याऊ \"don't believe it\"." },
+    { "native": "जुन", "roman": "jun", "en": "which, whichever (relative)", "pos": "pron", "note": "जुन … त्यो \"the one which…\"." },
+    { "native": "जो", "roman": "jo", "en": "who, whoever (relative)", "pos": "pron", "note": "With ले: जसले; possessive: जसको. Answered by ऊ / उसले." },
+    { "native": "जहाँ", "roman": "jahāṃ", "en": "where, wherever (relative)", "pos": "adv", "note": "Answered by त्यहाँ \"there\"." },
+    { "native": "जस्तो", "roman": "jasto", "en": "like, as; such as", "pos": "postp", "note": "Joins the word before it: तिमीजस्तो \"like you\". जस्तो लाग्छ \"it seems\"." },
+    { "native": "जति", "roman": "jati", "en": "as much as; about (approx.)", "pos": "adv", "note": "जति … त्यति \"as much … as\"; दस जना जति \"about ten people\"." },
+    { "native": "जब", "roman": "jaba", "en": "when (relative)", "pos": "conj", "note": "जब … तब \"when … then\". In speech -दा is more common." },
     { "native": "तब", "roman": "taba", "en": "then (at that time)", "pos": "adv" },
-    { "native": "जुन", "roman": "jun", "en": "which, that (relative)", "pos": "pron", "note": "जुन … त्यो 'the one which…'." },
-    { "native": "जो", "roman": "jo", "en": "who (relative)", "pos": "pron", "note": "Agent form: जसले; possessive: जसको." },
-    { "native": "जहाँ", "roman": "jahāṃ", "en": "where (relative)", "pos": "adv" },
-    { "native": "जस्तो", "roman": "jasto", "en": "like, as; such as", "pos": "postp", "note": "तपाईंजस्तो 'like you'; जस्तो लाग्छ 'it seems'." },
-    { "native": "जति", "roman": "jati", "en": "as much as; about (approx.)", "pos": "adv", "note": "जति … उति 'the more … the more'; दस जति 'about ten'." },
-    { "native": "रे", "roman": "re", "en": "(hearsay) apparently, they say", "pos": "particle", "note": "ऊ आउँछ रे 'apparently he's coming'. के रे? 'what did they say?'" },
-    { "native": "रहेछ", "roman": "rahechha", "en": "(it) turns out, (I see) it is", "pos": "verb", "note": "Marks a discovery: यो त मिठो रहेछ! 'oh, this is tasty!'" },
-    { "native": "कि", "roman": "ki", "en": "that; or; whether", "pos": "conj" },
-    { "native": "खै", "roman": "khai", "en": "dunno; well…; where is it?", "pos": "interj", "note": "खै, थाहा छैन 'dunno'. खै मेरो चाबी? 'now where's my key?'" },
-    { "native": "नि", "roman": "ni", "en": "(particle) you know; what about…?; of course", "pos": "particle", "note": "हो नि 'of course'; तपाईं नि? 'and you?'" },
-    { "native": "है", "roman": "hai", "en": "(particle) OK?, right?, eh", "pos": "particle", "note": "Softens and seeks agreement: जाऊँ है 'I'll go, OK?'" },
-    { "native": "यार", "roman": "yār", "en": "mate, dude (casual)", "pos": "interj", "note": "Among friends only." },
-    { "native": "अरे", "roman": "are", "en": "hey!; oh!", "pos": "interj" },
-    { "native": "ओहो", "roman": "oho", "en": "oh! wow! oh no!", "pos": "interj" },
-    { "native": "मतलब", "roman": "matlab", "en": "meaning; I mean…", "pos": "noun", "note": "मतलब के हो? 'what does it mean?'" },
-    { "native": "साँच्चै", "roman": "sāṃchchai", "en": "really, truly", "pos": "adv", "note": "साँच्चै? 'really?'" },
-    { "native": "वास्तवमा", "roman": "bāstabmā", "en": "actually, in fact", "pos": "adv" },
-    { "native": "जे होस्", "roman": "je hos", "en": "anyway, whatever", "pos": "phrase", "note": "Lit. 'whatever may be'." },
-    { "native": "बिचरा", "roman": "bicharā", "en": "poor thing", "pos": "interj", "note": "f बिचरी." },
-    { "native": "हल्ला", "roman": "hallā", "en": "rumour; noise, commotion", "pos": "noun" },
-    { "native": "उखान", "roman": "ukhān", "en": "proverb", "pos": "noun", "note": "उखान टुक्का 'proverbs and sayings'." },
-    { "native": "सुनाउनु", "roman": "sunāunu", "en": "to tell, recount; to let hear", "pos": "verb", "note": "कथा सुनाउनु, गीत सुनाउनु." }
+    { "native": "खै", "roman": "khai", "en": "dunno; well…; now where is…?", "pos": "interj", "note": "खै, थाहा छैन \"dunno\". खै मेरो चाबी? \"now where's my key?\"" },
+    { "native": "नि", "roman": "ni", "en": "(particle) what about…?; you know; of course", "pos": "particle", "note": "तिमी नि? \"and you?\"; हो नि \"exactly\"; आउँछु नि \"I'll come, of course\"." },
+    { "native": "है", "roman": "hai", "en": "(particle) OK?, right?", "pos": "particle", "note": "Softens a request or goodbye and asks for agreement: भोलि भेटौँ है." },
+    { "native": "यार", "roman": "yār", "en": "man, mate, dude", "pos": "interj", "note": "Friends only, any gender. Never with elders or strangers." },
+    { "native": "मतलब", "roman": "matlab", "en": "meaning; I mean…", "pos": "noun", "note": "मतलब के हो? \"what does it mean?\" As a filler: मतलब… \"I mean…\"." },
+    { "native": "जे होस्", "roman": "je hos", "en": "anyway, whatever", "pos": "phrase", "note": "Lit. \"whatever may be\". Closes a topic: जे होस्, अब जाऔँ." },
+    { "native": "मजाक", "roman": "majāk", "en": "joke, kidding", "pos": "noun", "note": "मजाक गर्नु \"to joke, tease\". Also ठट्टा." },
+    { "native": "झगडा", "roman": "jhagaḍā", "en": "quarrel, fight", "pos": "noun", "note": "झगडा गर्नु \"to fight\"; झगडा भयो \"they had a fight\"." },
+    { "native": "झुट", "roman": "jhuṭ", "en": "lie", "pos": "noun", "note": "झुट बोल्नु \"to lie\". झुट नबोल! \"don't lie!\"" }
   ],
   "phrases": [
-    { "native": "खै, थाहा छैन।", "roman": "khai, thāhā chhaina.", "en": "Dunno." },
-    { "native": "के रे?", "roman": "ke re?", "en": "What did they say? / What was that?" },
-    { "native": "ऊ त डाक्टर पो रहेछ!", "roman": "u ta ḍākṭar po rahechha!", "en": "Oh, so he's actually a doctor!" },
-    { "native": "जे होस्, अब जाऔँ।", "roman": "je hos, aba jāauṃ.", "en": "Anyway, let's go now." },
-    { "native": "मतलब, म भन्न खोजेको…", "roman": "matlab, ma bhanna khojeko…", "en": "I mean, what I'm trying to say is…" },
-    { "native": "हो नि!", "roman": "ho ni!", "en": "Exactly! / Of course!" },
     { "native": "साँच्चै?", "roman": "sāṃchchai?", "en": "Really?" },
-    { "native": "अरे यार!", "roman": "are yār!", "en": "Oh, come on, man!" },
-    { "native": "नाच्न नजान्ने आँगन टेढो।", "roman": "nāchna najānne āṃgan ṭeḍho.", "en": "A bad dancer blames the crooked courtyard.", "note": "Proverb: a bad workman blames his tools." },
-    { "native": "एक हातले ताली बज्दैन।", "roman": "ek hātle tāli bajdaina.", "en": "You can't clap with one hand.", "note": "It takes two (to quarrel / to cooperate)." },
-    { "native": "जस्तो देश, उस्तै भेष।", "roman": "jasto des, ustai bhes.", "en": "As the country, so the dress.", "note": "When in Rome, do as the Romans do." },
-    { "native": "हात्ती आयो, हात्ती आयो, फुस्सा!", "roman": "hātti āyo, hātti āyo, phussā!", "en": "'The elephant's coming!' … pfft!", "note": "Much hype, no result." },
-    { "native": "अक्कल ठूलो कि भैंसी ठूलो?", "roman": "akkal ṭhulo ki bhaiṃsi ṭhulo?", "en": "Which is bigger, brains or the buffalo?", "note": "Wisdom beats size/age." }
+    { "native": "हो र?", "roman": "ho ra?", "en": "Is that so? / Oh yeah?", "note": "Mild surprise; keeps the other person talking." },
+    { "native": "अनि के भयो?", "roman": "ani ke bhayo?", "en": "And then what happened?" },
+    { "native": "लौ, सुनाऊ न!", "roman": "lau, sunāu na!", "en": "Go on, tell me! (informal)" },
+    { "native": "पछि सुनाउँछु।", "roman": "pachhi sunāuṃchhu.", "en": "I'll tell you later." },
+    { "native": "ऊ त डाक्टर पो रहेछ!", "roman": "u ta ḍākṭar po rahechha!", "en": "Oh, so he's actually a doctor!", "note": "पो + रहेछ: the classic \"punchline\" of a Nepali story." },
+    { "native": "मलाई किन नभनेको?", "roman": "malāi kina nabhaneko?", "en": "Why didn't you tell me?", "note": "Colloquial -एको question; careful form: किन भनेनौ?" },
+    { "native": "के रे?", "roman": "ke re?", "en": "What did they say? / What was that?" },
+    { "native": "पत्याउनै सकिनँ!", "roman": "patyāunai sakinaṃ!", "en": "I couldn't believe it!" },
+    { "native": "कुरा के हो भने…", "roman": "kurā ke ho bhane…", "en": "The thing is…" },
+    { "native": "खै, थाहा छैन।", "roman": "khai, thāhā chhaina.", "en": "Dunno." },
+    { "native": "हो नि!", "roman": "ho ni!", "en": "Exactly! / Of course!" },
+    { "native": "मतलब, म भन्न खोजेको…", "roman": "matlab, ma bhanna khojeko…", "en": "I mean, what I'm trying to say is…" },
+    { "native": "जे होस्, अब जाऔँ।", "roman": "je hos, aba jāauṃ.", "en": "Anyway, let's go now." },
+    { "native": "मजाक गरेको नि!", "roman": "majāk gareko ni!", "en": "Just kidding!" },
+    { "native": "अरे यार!", "roman": "are yār!", "en": "Oh, come on, man!" }
   ],
   "grammar": [
     {
-      "title": "Storytelling tools: -एर, -दा, रहेछ",
-      "body": "**-एर** 'having done, and then' links actions in sequence without needing 'and': घर **गएर** खाना खाएँ 'I went home and ate'. Vowel stems: खाएर, आएर; irregular: गएर (जानु), भएर (हुनु). It also expresses manner: हिँडेर 'on foot', बसेर 'sitting'.\n\n**-दा** 'while / when (doing)': बाटोमा **हिँड्दा** 'while walking along the road', सानो **हुँदा** 'when (I was) small', घर **पुग्दा** 'by the time I got home'. Vowel stems: खाँदा, जाँदा.\n\n**रहेछ / -एछ** — the **mirative**, Nepali's 'surprise' form. It marks something you've just discovered or realised: यो त मिठो **रहेछ**! 'Oh, this is tasty!' (I didn't expect it). In the past: राति पानी **परेछ** 'it rained last night (I see from the puddles)'; ऊ त गइसकेको **रहेछ** 'turns out he had already left'. It's the punchline form of Nepali storytelling.\n\nConnectors: पहिले/सुरुमा 'first', अनि/त्यसपछि 'then', अचानक 'suddenly', तर 'but', बल्ल 'finally', अन्तमा 'in the end'.",
+      "title": "Telling what happened: -एर, -दा, रहेछ",
+      "body": "**-एर** 'having done → and then' links actions in order without needing 'and': घर **गएर** खाना खाएँ 'I went home and ate'. Consonant stems add -एर (गरेर, भेटेर, चढेर); vowel stems: खाएर, आएर, बताएर; irregular: **गएर** (जानु), **भएर** (हुनु), **लिएर**, **दिएर**. It also gives the manner: **हिँडेर** 'on foot', **बसेर** 'sitting down'.\n\n**-दा** 'while / when (doing)': बस **चढ्दा** 'as I was getting on the bus', सानो **हुँदा** 'when I was small', घर **पुग्दा** 'by the time I got home'. Vowel stems add a nasal: **खाँदा**, **जाँदा**, **आउँदा**. Whoever the subject is, -दा never changes.\n\n**रहेछ / -एछ** is Nepali's 'surprise' form (the *mirative*). It marks something you have just found out or realised — the speaker didn't know before: यो त मिठो **रहेछ**! 'Oh, this is tasty!' For past events the verb itself takes **-एछ**: राति पानी **परेछ** 'it rained last night (I see the puddles)', ऊ त **गएछ** 'oh, he's gone'. Negative: **रहेनछ** 'turns out it isn't'. With **पो** it becomes the punchline of a story: ऊ त डाक्टर **पो रहेछ**! 'turns out he was a doctor!'\n\nThe trap: don't use रहेछ for things you already knew. 'This is my house' is यो मेरो घर **हो**, never रहेछ.",
       "examples": [
-        { "native": "म बिहान उठेर चिया खान्छु।", "roman": "ma bihāna uṭhera chiyā khānchhu.", "en": "I get up in the morning and have tea." },
-        { "native": "म सानो हुँदा गाउँमा बस्थेँ।", "roman": "ma sāno huṃdā gāuṃmā bastheṃ.", "en": "When I was small I used to live in the village." },
-        { "native": "बजार जाँदा मैले पुरानो साथी भेटेँ।", "roman": "bajār jāṃdā maile purāno sāthi bheṭeṃ.", "en": "On my way to the market I met an old friend." },
-        { "native": "ओहो, आज त बिदा पो रहेछ!", "roman": "oho, āja ta bidā po rahechha!", "en": "Oh, it turns out today's a holiday!" },
-        { "native": "ढोका खोलेर हेर्दा कोही थिएन।", "roman": "ḍhokā kholera herdā kohi thiena.", "en": "When I opened the door and looked, there was nobody." }
+        { "native": "म घर गएर नुहाएँ।", "roman": "ma ghar gaera nuhāeṃ.", "en": "I went home and had a shower." },
+        { "native": "बसमा आउँदा मैले तिम्रो दाइलाई देखेँ।", "roman": "basmā āuṃdā maile timro dāilāi dekheṃ.", "en": "I saw your brother on the bus on my way here." },
+        { "native": "यो ठाउँ त राम्रो पो रहेछ!", "roman": "yo ṭhāuṃ ta rāmro po rahechha!", "en": "Oh, this place is actually nice!" },
+        { "native": "ऊ त हिजै गइसकेको रहेछ।", "roman": "u ta hijai gaisakeko rahechha.", "en": "Turns out he'd already left yesterday." },
+        { "native": "ढोका खोलेर हेर्दा कोही थिएन।", "roman": "ḍhokā kholera herdā kohi thiena.", "en": "When I opened the door and looked, nobody was there." }
       ]
     },
     {
       "title": "Relative clauses: participles and जुन/जो",
-      "body": "Nepali usually makes relative clauses with **participles placed before the noun** — no 'who/which' needed:\n\n**-एको** (completed): हिजो **आएको** मान्छे 'the man who came yesterday', मैले **किनेको** किताब 'the book (that) I bought'.\n**-ने** (habitual/future): नेपाली **बोल्ने** मान्छे 'people who speak Nepali', भोलि **जाने** बस 'the bus that leaves tomorrow', **बस्ने** ठाउँ 'a place to stay'.\n\nThere is also a **correlative** pattern with जो/जुन/जहाँ/जब answered by ऊ/त्यो/त्यहाँ/तब, common in careful speech and writing:\n**जुन** किताब मैले किनेँ, **त्यो** राम्रो छ 'The book (which) I bought is good.'\n**जहाँ** इच्छा, **त्यहाँ** उपाय 'Where there's a will, there's a way.'\n**जसले** मेहनत गर्छ, **उसले** फल पाउँछ 'Whoever works hard gets the reward.'",
+      "body": "Nepali has no everyday word for 'who / which / that' joining clauses. Instead it puts a **participle before the noun**, like English 'the recently-arrived guy':\n\n**-एको** (done, past): हिजो **आएको** केटा 'the guy who came yesterday', मैले **किनेको** मोबाइल 'the phone (that) I bought', तिमीले **भनेको** ठाउँ 'the place you mentioned'.\n**-ने** (habitual or future): अङ्ग्रेजी **बोल्ने** मान्छे 'someone who speaks English', भोलि **जाने** बस 'the bus that goes tomorrow', **बस्ने** ठाउँ 'a place to stay'.\n\nThe whole clause comes first, and the subject of the clause takes **ले** if its verb is transitive and past: **मैले** किनेको, **तिमीले** भनेको.\n\nThere is also a **correlative** pattern — a ज- word answered by a matching त-/उ- word. It's natural for 'whoever / wherever / whichever':\n**जो** पहिले पुग्छ, **उसले** … 'whoever gets there first…'\n**जहाँ** तिमी भन्छौ, **त्यहाँ** भेटौँ 'let's meet wherever you say'\n**जुन** बस पहिले आउँछ, **त्यो** चढौँ 'let's take whichever bus comes first'\n**जति** चाहिन्छ, **त्यति** लेऊ 'take as much as you need'.",
       "examples": [
-        { "native": "त्यो रातो ज्याकेट लगाएको केटी मेरी बहिनी हो।", "roman": "tyo rāto jyākeṭ lagāeko keṭi meri bahini ho.", "en": "That girl wearing the red jacket is my sister." },
+        { "native": "हिजो पार्टीमा भेटेको केटा मेरो साथीको भाइ रहेछ।", "roman": "hijo pārṭimā bheṭeko keṭā mero sāthiko bhāi rahechha.", "en": "The guy I met at the party yesterday turned out to be my friend's brother." },
         { "native": "तपाईंले पकाएको खाना एकदम मिठो छ।", "roman": "tapāiṃle pakāeko khānā ekdam miṭho chha.", "en": "The food you cooked is really tasty." },
-        { "native": "यहाँ अङ्ग्रेजी बोल्ने कोही हुनुहुन्छ?", "roman": "yahāṃ aṅgreji bolne kohi hunuhunchha?", "en": "Is there anyone here who speaks English?" },
-        { "native": "म बसेको होटल नजिकै छ।", "roman": "ma baseko hoṭal najikai chha.", "en": "The hotel where I'm staying is nearby." },
-        { "native": "जहाँ इच्छा, त्यहाँ उपाय।", "roman": "jahāṃ ichchhā, tyahāṃ upāya.", "en": "Where there's a will, there's a way." }
+        { "native": "म बस्ने कोठा अलि सानो छ।", "roman": "ma basne koṭhā ali sāno chha.", "en": "The room I live in is a bit small." },
+        { "native": "जो पहिले आउँछ, उसले टिकट किन्छ।", "roman": "jo pahile āuṃchha, usle ṭikaṭ kinchha.", "en": "Whoever comes first buys the tickets." },
+        { "native": "जहाँ तिमी भन्छौ, त्यहाँ भेटौँ।", "roman": "jahāṃ timi bhanchhau, tyahāṃ bheṭauṃ.", "en": "Let's meet wherever you say." }
       ]
     },
     {
-      "title": "Reporting speech: भन्यो, भनेर, रे",
-      "body": "Nepali reports speech **directly**, keeping the original words (and their person), followed by **भन्यो/भनिन्/भन्नुभयो** 'said':\nउसले \"म भोलि आउँछु\" **भन्यो** — 'He said he would come tomorrow' (lit. He said, \"I'll come tomorrow\").\n\n**भनेर** (lit. 'having said') works like English 'that' after verbs of thinking, knowing, hearing and asking: ऊ आउँछ **भनेर** मलाई थाहा थियो 'I knew that he would come'. It also means 'so that / intending to': तपाईंलाई भेट्छु **भनेर** आएँ 'I came (in order) to see you'.\n\n**रे** at the end of a sentence marks **hearsay** — 'apparently, they say, he says': भोलि बन्द छ **रे** 'apparently there's a strike tomorrow'. **के रे?** 'what did they say?'\n\nYes/no reported questions use **कि** 'whether': ऊ आउँछ **कि** आउँदैन, थाहा छैन 'I don't know whether he's coming or not'.",
+      "title": "Passing on what people said: भन्यो, भनेर, रे",
+      "body": "Nepali reports speech **directly**: it repeats the speaker's actual words (keeping their 'I' and 'you') and then adds the verb **भन्नु** 'say' — **भन्यो** (he said), **भनी** / **भनिन्** (she said), **भन्नुभयो** (polite), **भने** (they said):\nउसले \"म ढिलो आउँछु\" **भन्यो** — 'He said he'd be late' (lit. he said \"I'll come late\").\n\n**भनेर** (lit. 'having said') works like English 'that' after verbs of knowing, hearing, asking and thinking: ऊ आउँदैन **भनेर** मलाई थाहा थियो 'I knew he wouldn't come'; \"कहाँ छौ?\" **भनेर** सोध्यो 'he asked where I was'. Before a noun use **भन्ने**: ऊ विदेश जाँदै छ **भन्ने** हल्ला 'the rumour that he's going abroad'.\n\n**रे** at the end of a sentence marks **hearsay** — 'apparently, they say, I heard': भोलि बन्द छ **रे** 'apparently there's a strike tomorrow'. It's the gossip particle, and **के रे?** 'what did they say?' is a very common question.\n\nFor 'whether', give both options joined by **कि**: ऊ आउँछ **कि** आउँदैन, थाहा छैन 'I don't know whether he's coming or not'.",
       "examples": [
         { "native": "आमाले \"छिटो घर आऊ\" भन्नुभयो।", "roman": "āmāle \"chhiṭo ghar āu\" bhannubhayo.", "en": "Mum told me to come home quickly." },
-        { "native": "उनले मलाई \"तिमी कहाँ बस्छौ?\" भनेर सोधिन्।", "roman": "unle malāi \"timi kahāṃ baschhau?\" bhanera sodhin.", "en": "She asked me where I live." },
+        { "native": "उसले \"म आउँदिनँ\" भन्यो।", "roman": "usle \"ma āuṃdinaṃ\" bhanyo.", "en": "He said he wasn't coming." },
         { "native": "ऊ बिरामी छ भनेर मैले सुनेँ।", "roman": "u birāmi chha bhanera maile suneṃ.", "en": "I heard that he's ill." },
-        { "native": "भोलि पानी पर्छ रे।", "roman": "bholi pāni parchha re.", "en": "Apparently it'll rain tomorrow." },
-        { "native": "बस आउँछ कि आउँदैन, कसैलाई थाहा छैन।", "roman": "bas āuṃchha ki āuṃdaina, kasailāi thāhā chhaina.", "en": "Nobody knows whether the bus is coming or not." }
+        { "native": "आज बेलुका पार्टी छ रे।", "roman": "āja belukā pārṭi chha re.", "en": "Apparently there's a party this evening." },
+        { "native": "ऊ आउँछ कि आउँदैन, थाहा छैन।", "roman": "u āuṃchha ki āuṃdaina, thāhā chhaina.", "en": "I don't know whether he's coming or not." }
       ]
     }
   ],
   "dialogue": {
-    "title": "The yeti of Lobuche",
-    "setting": "Around the stove in a teahouse, Pemba tells Tom a story from his early days as a trekking guide.",
+    "title": "The lost phone",
+    "setting": "Anisha finds her friend Sujan looking glum at a tea shop in Kathmandu and gets the whole story out of him.",
     "lines": [
-      { "speaker": "Pemba", "native": "एउटा कथा सुनाऊँ?", "roman": "euṭā kathā sunāuṃ?", "en": "Shall I tell you a story?" },
-      { "speaker": "Tom", "native": "सुनाउनुहोस् न!", "roman": "sunāunuhos na!", "en": "Go on, tell me!" },
-      { "speaker": "Pemba", "native": "दस वर्ष अघि, म पहिलो पटक गाइड भएर एभरेस्टतिर गएको थिएँ।", "roman": "das barsa aghi, ma pahilo paṭak gāiḍ bhaera Ebhresṭtira gaeko thieṃ.", "en": "Ten years ago I went to the Everest region for the first time as a guide." },
-      { "speaker": "Tom", "native": "अनि?", "roman": "ani?", "en": "And then?" },
-      { "speaker": "Pemba", "native": "एक रात हामी लोबुचेमा बसेका थियौँ। अचानक बाहिर ठूलो आवाज आयो।", "roman": "ek rāt hāmi Lobuchemā baseka thiyauṃ. achānak bāhira ṭhulo āwāj āyo.", "en": "One night we were staying at Lobuche. Suddenly there was a loud noise outside." },
-      { "speaker": "Pemba", "native": "सबै पाहुनाहरू \"यती आयो! यती आयो!\" भनेर कराउन थाले।", "roman": "sabai pāhunāharu \"yeti āyo! yeti āyo!\" bhanera karāuna thāle.", "en": "All the guests started shouting, \"The yeti's here! The yeti's here!\"" },
-      { "speaker": "Tom", "native": "साँच्चै? अनि के भयो?", "roman": "sāṃchchai? ani ke bhayo?", "en": "Really? So what happened?" },
-      { "speaker": "Pemba", "native": "म टर्च लिएर बाहिर गएँ। हेर्दा त…", "roman": "ma ṭarch liera bāhira gaeṃ. herdā ta…", "en": "I took a torch and went outside. And when I looked…" },
-      { "speaker": "Pemba", "native": "भान्साबाट आलु चोरेर खाँदै गरेको एउटा याक पो रहेछ!", "roman": "bhānsābāṭa ālu chorera khāṃdai gareko euṭā yāk po rahechha!", "en": "…it turned out to be a yak that had stolen potatoes from the kitchen and was eating them!" },
-      { "speaker": "Tom", "native": "हाहा! हात्ती आयो, हात्ती आयो, फुस्सा!", "roman": "hāhā! hātti āyo, hātti āyo, phussā!", "en": "Haha! All that fuss for nothing!" },
-      { "speaker": "Pemba", "native": "हो नि! त्यसैदेखि साथीहरूले मलाई \"यती गाइड\" भन्छन्।", "roman": "ho ni! tyasaidekhi sāthiharule malāi \"yeti gāiḍ\" bhanchhan.", "en": "Exactly! Ever since then my friends have called me the 'Yeti Guide'." }
+      { "speaker": "Anisha", "native": "ए सुजन, के भयो? किन उदास देखिन्छौ?", "roman": "e Sujan, ke bhayo? kina udās dekhinchhau?", "en": "Hey Sujan, what happened? Why do you look so down?" },
+      { "speaker": "Sujan", "native": "के भनूँ यार, हिजो मेरो मोबाइल हरायो।", "roman": "ke bhanuṃ yār, hijo mero mobāil harāyo.", "en": "What can I say, mate — I lost my phone yesterday." },
+      { "speaker": "Anisha", "native": "साँच्चै? कहाँ?", "roman": "sāṃchchai? kahāṃ?", "en": "Really? Where?" },
+      { "speaker": "Sujan", "native": "रत्नपार्कबाट माइक्रो चढेँ। ओर्लेर हेर्दा त मोबाइल नै थिएन!", "roman": "Ratnapārkbāṭa māikro chaḍheṃ. orlera herdā ta mobāil nai thiena!", "en": "I got a micro from Ratnapark. When I got off and looked, the phone just wasn't there!" },
+      { "speaker": "Anisha", "native": "ओहो, बिचरा! अनि के भयो?", "roman": "oho, bicharā! ani ke bhayo?", "en": "Oh no, poor you! And then what happened?" },
+      { "speaker": "Sujan", "native": "बेलुका साथीको फोनबाट मेरो नम्बरमा फोन गरेँ। एउटा केटा बोल्यो।", "roman": "belukā sāthiko phonbāṭa mero nambarmā phon gareṃ. euṭā keṭā bolyo.", "en": "In the evening I rang my number from a friend's phone. Some guy answered." },
+      { "speaker": "Anisha", "native": "हो र? उसले के भन्यो?", "roman": "ho ra? usle ke bhanyo?", "en": "Oh yeah? What did he say?" },
+      { "speaker": "Sujan", "native": "\"तपाईंको फोन मसँग छ, भोलि लिन आउनुहोस्\" भन्यो।", "roman": "\"tapāiṃko phon masaṃga chha, bholi lina āunuhos\" bhanyo.", "en": "He said, \"I've got your phone, come and get it tomorrow.\"" },
+      { "speaker": "Anisha", "native": "कस्तो राम्रो मान्छे रहेछ!", "roman": "kasto rāmro mānchhe rahechha!", "en": "What a nice guy he turned out to be!" },
+      { "speaker": "Sujan", "native": "पर्ख न, सुन त! आज बिहान भेट्न जाँदा, ऊ त मेरो स्कुलको पुरानो साथी पो रहेछ!", "roman": "parkha na, suna ta! āja bihāna bheṭna jāṃdā, u ta mero skulko purāno sāthi po rahechha!", "en": "Wait, listen! When I went to meet him this morning, it turned out he was my old school friend!" },
+      { "speaker": "Anisha", "native": "बाबै! पत्याउनै सकिनँ!", "roman": "bābai! patyāunai sakinaṃ!", "en": "No way! I can't believe it!" },
+      { "speaker": "Sujan", "native": "मजाक होइन, साँच्चै! अनि हामीले दुई घण्टा गफ गर्‍यौँ।", "roman": "majāk hoina, sāṃchchai! ani hāmile dui ghanṭā gaph garyauṃ.", "en": "I'm not joking, really! And we chatted for two hours." },
+      { "speaker": "Anisha", "native": "जे होस्, मोबाइल त फेरि पायौ नि। अब यो चियाको पैसा तिमीले तिर्ने!", "roman": "je hos, mobāil ta pheri pāyau ni. aba yo chiyāko paisā timile tirne!", "en": "Anyway, you got your phone back. So you're paying for this tea!" },
+      { "speaker": "Sujan", "native": "लौ, हुन्छ हुन्छ!", "roman": "lau, hunchha hunchha!", "en": "Alright, alright!" }
     ]
   },
-  "culture": "Conversation in Nepal is a social art. **गफ** over tea can last for hours, and stories are told with dramatic pauses, the punchline marked by **पो रहेछ!** Proverbs (**उखान टुक्का**) are used constantly, even by young people, and quoting one at the right moment wins instant approval. In the hills you may hear **दोहोरी**, a sung, improvised back-and-forth where a man and a woman trade witty verses. Young urban Nepalis mix in a lot of English ('*actually*, म *busy* छु यार'), but older people and villagers will be most delighted when you speak plain Nepali — and they will tell everyone about the विदेशी who spoke it. शुभकामना!"
+  "culture": "A Nepali chat is full of **back-channel** noises: the listener keeps up a stream of **अँ**, **हो र?**, **अनि?**, **साँच्चै?** and **बाबै!** — staying silent can sound like you're not interested. Stories build up with **-एर … -दा …** and land on **पो रहेछ!**, and gossip travels with **रे** ('apparently…'). Among friends of your own age, **तिमी** is normal from the start, and young men who are close often switch to **तँ** (के छ तँलाई?) — friendly between mates, rude with anyone else, so as a learner just recognise it. **यार** and English fillers (*actually, seriously?, same, OK fine*) are everywhere in Kathmandu speech. Don't thank or apologise too formally among friends: a quick **सरी यार** fixes most things, while माफ गर्नुहोस् would sound oddly distant. And with older people, switch back to **तपाईं** and leave out यार.",
+  "lessons": [
+    {
+      "title": "Reacting to news",
+      "tip": { "title": "React like a Nepali", "body": "- Surprise: **साँच्चै?** 'really?', **हो र?** 'is that so?', **बाबै!** 'wow!'.\n- Bad news: **ओहो!** 'oh no!', **बिचरा** 'poor thing'.\n- Keep them talking: **अनि के भयो?** 'and then what?'\n- **अरे** 'hey!' grabs a friend's attention." },
+      "new": ["साथी", "गफ", "अरे", "ओहो", "साँच्चै", "बिचरा", "बाबै", "साँच्चै?", "हो र?", "अनि के भयो?"],
+      "sentences": [
+        { "native": "अरे साथी, धेरै दिनपछि भेट भयो!", "roman": "are sāthi, dherai dinpachhi bheṭ bhayo!", "en": "Hey mate, it's been ages!" },
+        { "native": "आऊ, चिया खाँदै गफ गरौँ।", "roman": "āu, chiyā khāṃdai gaph garauṃ.", "en": "Come on, let's chat over tea." },
+        { "native": "ओहो, तिम्रो मोबाइल हरायो?", "roman": "oho, timro mobāil harāyo?", "en": "Oh no, you lost your phone?" },
+        { "native": "साँच्चै? मलाई त थाहा थिएन।", "roman": "sāṃchchai? malāi ta thāhā thiena.", "en": "Really? I had no idea." },
+        { "native": "बिचरा, ऊ अहिले अस्पतालमा छ।", "roman": "bicharā, u ahile aspatālmā chha.", "en": "Poor guy, he's in hospital now.", "focus": "बिचरा", "wrong": ["बाबै|bābai", "अरे|are"] },
+        { "native": "बाबै, कति महँगो!", "roman": "bābai, kati mahaṃgo!", "en": "Wow, so expensive!", "focus": "बाबै", "wrong": ["बिचरा|bicharā", "साथी|sāthi"] },
+        { "native": "हो र? उसले मलाई केही भनेन।", "roman": "ho ra? usle malāi kehi bhanena.", "en": "Is that so? He didn't tell me anything." },
+        { "native": "अनि के भयो? प्रहरी आयो?", "roman": "ani ke bhayo? prahari āyo?", "en": "And then what happened? Did the police come?" },
+        { "native": "हामी शनिबार साथीहरूसँग गफ गर्छौँ।", "roman": "hāmi sanibār sāthiharusaṃga gaph garchhauṃ.", "en": "On Saturdays we hang out and chat with friends." },
+        { "native": "अरे, तिमी पनि यहाँ?", "roman": "are, timi pani yahāṃ?", "en": "Hey, you're here too?" }
+      ]
+    },
+    {
+      "title": "Telling a friend what happened",
+      "tip": { "title": "-एर, -दा and रहेछ", "body": "- **-एर** links actions: घर **गएर** फोन गर्छु 'I'll go home and call'.\n- **-दा** = 'while / when': बस **चढ्दा** 'as I was getting on the bus'.\n- **रहेछ** = 'it turns out!' — something you've just found out: मिठो **रहेछ**! Not for things you already knew.", "pattern": "verb-एर …  ·  verb-दा …  ·  … रहेछ!", "grammar": 0 },
+      "new": ["सुनाउनु", "बताउनु", "रहेछ", "वास्तवमा", "लौ", "लौ, सुनाऊ न!", "पछि सुनाउँछु।", "ऊ त डाक्टर पो रहेछ!", "मलाई किन नभनेको?"],
+      "sentences": [
+        { "native": "म घर गएर तिमीलाई फोन गर्छु।", "roman": "ma ghar gaera timilāi phon garchhu.", "en": "I'll go home and then call you.", "focus": "गएर", "wrong": ["जाँदा|jāṃdā", "गयो|gayo"] },
+        { "native": "अफिसबाट आउँदा मैले बाटोमा दाइलाई भेटेँ।", "roman": "aphisbāṭa āuṃdā maile bāṭomā dāilāi bheṭeṃ.", "en": "On my way back from the office I ran into my brother.", "focus": "आउँदा", "wrong": ["आउँछु|āuṃchhu", "आयो|āyo"] },
+        { "native": "यो मःम त साह्रै मिठो रहेछ!", "roman": "yo momo ta sāhrai miṭho rahechha!", "en": "Wow, this momo is really tasty!", "focus": "रहेछ", "wrong": ["रहन्छ|rahanchha", "रहेको|raheko"] },
+        { "native": "खाना खाएर हामी ठमेलतिर घुम्न गयौँ।", "roman": "khānā khāera hāmi Ṭhameltira ghumna gayauṃ.", "en": "After eating we went for a wander round Thamel.", "focus": "खाएर", "wrong": ["खाँदा|khāṃdā", "खायो|khāyo"] },
+        { "native": "बस चढ्दा मेरो मोबाइल खस्यो।", "roman": "bas chaḍhdā mero mobāil khasyo.", "en": "My phone fell as I was getting on the bus.", "focus": "चढ्दा", "wrong": ["चढ्छ|chaḍhchha", "चढ्यो|chaḍhyo"] },
+        { "native": "वास्तवमा ऊ त मेरो दाइको साथी पो रहेछ।", "roman": "bāstabmā u ta mero dāiko sāthi po rahechha.", "en": "Actually, it turns out he's my brother's friend.", "focus": "रहेछ", "wrong": ["रहन्छ|rahanchha", "रहेको|raheko"] },
+        { "native": "ओहो, पसल त बन्द रहेछ!", "roman": "oho, pasal ta banda rahechha!", "en": "Oh, the shop's closed!", "focus": "रहेछ", "wrong": ["रहन्छ|rahanchha", "रहेको|raheko"] },
+        { "native": "लौ, हिजो के भयो, सबै सुनाऊ।", "roman": "lau, hijo ke bhayo, sabai sunāu.", "en": "Go on then, tell me everything that happened yesterday." },
+        { "native": "यो कुरा आमालाई नबताऊ है।", "roman": "yo kurā āmālāi nabatāu hai.", "en": "Don't tell Mum about this, OK?" },
+        { "native": "म भेटेर सबै कुरा बताउँछु।", "roman": "ma bheṭera sabai kurā batāuṃchhu.", "en": "I'll tell you everything when I see you.", "focus": "भेटेर", "wrong": ["भेट्छु|bheṭchhu", "भेट्यो|bheṭyo"] }
+      ]
+    },
+    {
+      "title": "Passing on the gossip",
+      "tip": { "title": "He said…, apparently…", "body": "- Quote the **actual words**, then add **भन्यो** (he said) or **भन्नुभयो** (polite): उसले \"म आउँछु\" भन्यो.\n- **भनेर** = 'that' after know, hear, ask: ऊ आउँछ **भनेर** थाहा थियो.\n- **रे** at the end = 'apparently': बन्द छ **रे**.\n- Whether: आउँछ **कि** आउँदैन.", "pattern": "\"words\" + भन्यो  ·  … भनेर सुनेँ  ·  … रे", "grammar": 2 },
+      "new": ["रे", "कि", "हल्ला", "पत्याउनु", "के रे?", "पत्याउनै सकिनँ!"],
+      "sentences": [
+        { "native": "भोलि बन्द छ रे।", "roman": "bholi banda chha re.", "en": "Apparently there's a strike tomorrow.", "focus": "रे", "wrong": ["भनेर|bhanera", "कि|ki"] },
+        { "native": "मेरो साथीको बिहे पक्का भयो रे!", "roman": "mero sāthiko bihe pakkā bhayo re!", "en": "Apparently my friend's wedding is fixed!", "focus": "रे", "wrong": ["भनेर|bhanera", "कि|ki"] },
+        { "native": "उसले \"म ढिलो आउँछु\" भन्यो।", "roman": "usle \"ma ḍhilo āuṃchhu\" bhanyo.", "en": "He said he'd be late.", "focus": "भन्यो", "wrong": ["भनेँ|bhaneṃ", "भन्छु|bhanchhu"] },
+        { "native": "आमाले \"खाना खाएर जाऊ\" भन्नुभयो।", "roman": "āmāle \"khānā khāera jāu\" bhannubhayo.", "en": "Mum told me to eat before I go.", "focus": "भन्नुभयो", "wrong": ["भनेँ|bhaneṃ", "भन्नुहोस्|bhannuhos"] },
+        { "native": "ऊ आउँदैन भनेर मलाई थाहा थियो।", "roman": "u āuṃdaina bhanera malāi thāhā thiyo.", "en": "I knew he wouldn't come.", "focus": "भनेर", "wrong": ["भन्यो|bhanyo", "रे|re"] },
+        { "native": "उसले \"तिमी कहाँ छौ?\" भनेर सोध्यो।", "roman": "usle \"timi kahāṃ chhau?\" bhanera sodhyo.", "en": "He asked where I was.", "focus": "भनेर", "wrong": ["भन्यो|bhanyo", "रे|re"] },
+        { "native": "ऊ आउँछ कि आउँदैन, सोध त।", "roman": "u āuṃchha ki āuṃdaina, sodha ta.", "en": "Ask whether he's coming or not.", "focus": "कि", "wrong": ["रे|re", "भनेर|bhanera"] },
+        { "native": "ऊ विदेश जाँदै छ भन्ने हल्ला छ।", "roman": "u bides jāṃdai chha bhanne hallā chha.", "en": "There's a rumour he's going abroad.", "focus": "भन्ने", "wrong": ["भन्यो|bhanyo", "रे|re"] },
+        { "native": "हल्ला मात्र हो, नपत्याऊ।", "roman": "hallā mātra ho, napatyāu.", "en": "It's only a rumour, don't believe it." },
+        { "native": "के रे? फेरि भन त।", "roman": "ke re? pheri bhana ta.", "en": "What did they say? Say it again." },
+        { "native": "मैले उसको कुरा पत्याइनँ।", "roman": "maile usko kurā patyāinaṃ.", "en": "I didn't believe what he said." }
+      ]
+    },
+    {
+      "title": "The guy who…, the place where…",
+      "tip": { "title": "Relative clauses", "body": "- Put a participle **before the noun**: हिजो **आएको** केटा 'the guy who came yesterday', अङ्ग्रेजी **बोल्ने** मान्छे 'someone who speaks English'.\n- **-एको** = done / past, **-ने** = habitual / future.\n- For 'whoever, wherever, whichever' pair a ज- word with a त-/उ- word: **जहाँ** … **त्यहाँ**, **जो** … **उसले**.", "pattern": "verb-एको / verb-ने + noun", "grammar": 1 },
+      "new": ["जुन", "जो", "जहाँ", "जस्तो", "जति", "जब", "तब", "कुरा के हो भने…"],
+      "sentences": [
+        { "native": "हिजो तिमीसँग आएको केटा को हो?", "roman": "hijo timisaṃga āeko keṭā ko ho?", "en": "Who was the guy who came with you yesterday?", "focus": "आएको", "wrong": ["आउने|āune", "आयो|āyo"] },
+        { "native": "तिमीले भनेको ठाउँ त राम्रो रहेछ।", "roman": "timile bhaneko ṭhāuṃ ta rāmro rahechha.", "en": "The place you told me about turned out to be nice.", "focus": "भनेको", "wrong": ["भन्यो|bhanyo", "भन्छ|bhanchha"] },
+        { "native": "मलाई अङ्ग्रेजी बुझ्ने साथी चाहियो।", "roman": "malāi aṅgreji bujhne sāthi chāhiyo.", "en": "I need a friend who understands English.", "focus": "बुझ्ने", "wrong": ["बुझ्छ|bujhchha", "बुझेँ|bujheṃ"] },
+        { "native": "जुन बस पहिले आउँछ, त्यसमा चढौँ।", "roman": "jun bas pahile āuṃchha, tyasmā chaḍhauṃ.", "en": "Let's get on whichever bus comes first.", "focus": "जुन", "wrong": ["जो|jo", "जहाँ|jahāṃ"] },
+        { "native": "जो पहिले पुग्छ, उसले सबैलाई फोन गर्छ।", "roman": "jo pahile pugchha, usle sabailāi phon garchha.", "en": "Whoever gets there first rings everyone.", "focus": "जो", "wrong": ["जुन|jun", "जब|jaba"] },
+        { "native": "जहाँ शान्त छ, त्यहाँ बसौँ।", "roman": "jahāṃ sānta chha, tyahāṃ basauṃ.", "en": "Let's sit wherever it's quiet.", "focus": "जहाँ", "wrong": ["जब|jaba", "जो|jo"] },
+        { "native": "जब तिमी आउँछौ, तब हामी खाना खान्छौँ।", "roman": "jaba timi āuṃchhau, taba hāmi khānā khānchhauṃ.", "en": "We'll eat when you get here.", "focus": "जब", "wrong": ["जहाँ|jahāṃ", "जो|jo"] },
+        { "native": "जति चाहिन्छ, त्यति लेऊ।", "roman": "jati chāhinchha, tyati leu.", "en": "Take as much as you need.", "focus": "जति", "wrong": ["जब|jaba", "जुन|jun"] },
+        { "native": "तिमीजस्तो साथी कोही छैन।", "roman": "timijasto sāthi kohi chhaina.", "en": "There's no friend like you." },
+        { "native": "कुरा के हो भने, म आज आउन सक्दिनँ।", "roman": "kurā ke ho bhane, ma āja āuna sakdinaṃ.", "en": "The thing is, I can't come today." }
+      ]
+    },
+    {
+      "title": "Keeping the chat going",
+      "tip": { "title": "Little words that make it natural", "body": "- **नि** 'what about…?, you know': तिमी **नि**? · हो **नि**!\n- **है** 'OK?, right?' softens: भोलि भेटौँ **है**.\n- **खै** 'dunno; now where's…?': **खै**, थाहा छैन.\n- **यार** 'man, mate' — friends only.\n- **मतलब** 'I mean…', **जे होस्** 'anyway'." },
+      "new": ["खै", "नि", "है", "यार", "मतलब", "जे होस्", "खै, थाहा छैन।", "हो नि!", "मतलब, म भन्न खोजेको…", "जे होस्, अब जाऔँ।"],
+      "sentences": [
+        { "native": "खै, म पनि बुझिनँ।", "roman": "khai, ma pani bujhinaṃ.", "en": "Dunno, I didn't get it either.", "focus": "खै", "wrong": ["नि|ni", "है|hai"] },
+        { "native": "खै मेरो चाबी?", "roman": "khai mero chābi?", "en": "Now where are my keys?", "focus": "खै", "wrong": ["है|hai", "यार|yār"] },
+        { "native": "म त ठीक छु, तिमी नि?", "roman": "ma ta ṭhik chhu, timi ni?", "en": "I'm fine, what about you?", "focus": "नि", "wrong": ["है|hai", "खै|khai"] },
+        { "native": "भोलि भेटौँ है।", "roman": "bholi bheṭauṃ hai.", "en": "See you tomorrow, OK?", "focus": "है", "wrong": ["खै|khai", "रे|re"] },
+        { "native": "म त गएँ है, भोलि भेटौँला।", "roman": "ma ta gaeṃ hai, bholi bheṭauṃlā.", "en": "I'm off then, see you tomorrow.", "focus": "है", "wrong": ["खै|khai", "रे|re"] },
+        { "native": "के गर्ने यार, काम धेरै छ।", "roman": "ke garne yār, kām dherai chha.", "en": "What can you do, man, there's loads of work." },
+        { "native": "मतलब, तिमी आउँदैनौ?", "roman": "matlab, timi āuṃdainau?", "en": "You mean you're not coming?" },
+        { "native": "जे होस्, भोलि कुरा गरौँला।", "roman": "je hos, bholi kurā garauṃlā.", "en": "Anyway, we'll talk tomorrow." },
+        { "native": "हो नि, मलाई पनि त्यस्तै लाग्छ।", "roman": "ho ni, malāi pani tyastai lāgchha.", "en": "Exactly, I think so too.", "focus": "नि", "wrong": ["खै|khai", "रे|re"] },
+        { "native": "चिया खाएर जाऊ न, यार।", "roman": "chiyā khāera jāu na, yār.", "en": "Have some tea before you go, mate." }
+      ]
+    },
+    {
+      "title": "Teasing, fighting, making up",
+      "tip": { "title": "Banter between friends", "body": "- **मजाक गरेको नि!** 'just kidding!' rescues any tease.\n- **झुट नबोल!** 'don't lie!' and **अरे यार!** 'oh come on!' are normal banter.\n- After a **झगडा**, a quick **सरी यार** is enough between friends — माफ गर्नुहोस् would sound oddly formal." },
+      "new": ["मजाक", "झगडा", "झुट", "मजाक गरेको नि!", "अरे यार!"],
+      "sentences": [
+        { "native": "झुट नबोल, यार!", "roman": "jhuṭ nabola, yār!", "en": "Don't lie, man!" },
+        { "native": "ऊ त मजाक गर्दै थियो।", "roman": "u ta majāk gardai thiyo.", "en": "He was only joking." },
+        { "native": "हिजो उनीहरूको ठूलो झगडा भयो रे।", "roman": "hijo uniharuko ṭhulo jhagaḍā bhayo re.", "en": "Apparently they had a big fight yesterday.", "focus": "रे", "wrong": ["भनेर|bhanera", "कि|ki"] },
+        { "native": "किन झगडा गरेको?", "roman": "kina jhagaḍā gareko?", "en": "Why did you two fight?" },
+        { "native": "उसले भनेको कुरा त झुट रहेछ।", "roman": "usle bhaneko kurā ta jhuṭ rahechha.", "en": "What he said turned out to be a lie.", "focus": "भनेको", "wrong": ["भन्यो|bhanyo", "भन्छ|bhanchha"] },
+        { "native": "अरे यार, रिस नगर न!", "roman": "are yār, ris nagara na!", "en": "Oh come on, don't be angry!" },
+        { "native": "झगडा भए पनि हामी अझै साथी हौँ।", "roman": "jhagaḍā bhae pani hāmi ajhai sāthi hauṃ.", "en": "Even though we fought, we're still friends." },
+        { "native": "मैले \"सरी\" भनेँ, अनि सबै ठीक भयो।", "roman": "maile \"sari\" bhaneṃ, ani sabai ṭhik bhayo.", "en": "I said sorry, and everything was fine.", "focus": "भनेँ", "wrong": ["भन्यो|bhanyo", "भनेर|bhanera"] }
+      ]
+    }
+  ]
 }

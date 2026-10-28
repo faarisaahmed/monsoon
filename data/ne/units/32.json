@@ -1,0 +1,199 @@
+{
+  "id": 32,
+  "title": "Health in depth",
+  "goal": "Describe symptoms precisely, say how long they've lasted, mention allergies and conditions, get through a hospital visit and follow a pharmacist's instructions.",
+  "intro": "Unit 9 got you to the doctor; this unit gets you through the appointment. You'll describe symptoms precisely — what **burns** (पोल्छ), **itches** (चिलाउँछ) or **has swollen** (सुन्नियो), whether you're dizzy or throwing up — say **how long** it has been going on (**तीन दिनदेखि…**), mention allergies and conditions, and understand the doctor's and the pharmacist's instructions: **दिनको दुई पटक, खाना खाएपछि**.\n\nNepali health talk is full of English: **प्रेसर**, **सुगर**, **ग्यास्ट्रिक**, **एक्सरे**, **रिपोर्ट**. The grammar that holds it together is **-देखि** with the present tense for 'I have been … for', and the fixed patterns of medical instructions.",
+  "vocab": [
+    { "native": "लक्षण", "roman": "lakchhan", "en": "symptom", "pos": "noun" },
+    { "native": "दुखाइ", "roman": "dukhāi", "en": "pain, ache", "pos": "noun", "note": "From दुख्नु 'to hurt'. दुखाइ कहाँ छ? 'where is the pain?'" },
+    { "native": "पोल्नु", "roman": "polnu", "en": "to burn, sting", "pos": "verb", "note": "पेट पोल्छ 'I have heartburn'; पिसाब गर्दा पोल्छ 'it stings when I pee'." },
+    { "native": "चिलाउनु", "roman": "chilāunu", "en": "to itch", "pos": "verb", "note": "The itchy part is the subject: हात चिलाउँछ 'my hand itches'." },
+    { "native": "सुन्निनु", "roman": "sunninu", "en": "to swell", "pos": "verb", "note": "खुट्टा सुन्नियो 'my foot has swollen'." },
+    { "native": "रिँगटा", "roman": "riṃgaṭā", "en": "dizziness", "pos": "noun", "note": "मलाई रिँगटा लाग्छ 'I feel dizzy'." },
+    { "native": "बान्ता", "roman": "bāntā", "en": "vomiting", "pos": "noun", "note": "बान्ता हुनु / गर्नु 'to vomit'. Compare वाकवाकी 'nausea' (unit 9)." },
+    { "native": "ग्यास्ट्रिक", "roman": "gyāsṭrik", "en": "gastritis; any burning stomach trouble", "pos": "noun", "note": "What Nepalis call almost any stomach complaint: ग्यास्ट्रिक भयो." },
+    { "native": "निद्रा", "roman": "nidrā", "en": "sleep, sleepiness", "pos": "noun", "note": "निद्रा लाग्यो 'I'm sleepy'; निद्रा लाग्दैन 'I can't sleep'." },
+    { "native": "लगातार", "roman": "lagātār", "en": "continuously, non-stop", "pos": "adv" },
+    { "native": "बीचबीचमा", "roman": "bichbichmā", "en": "on and off, every now and then", "pos": "adv" },
+    { "native": "घट्नु", "roman": "ghaṭnu", "en": "to go down, decrease", "pos": "verb", "note": "ज्वरो घट्यो 'the fever has come down'. Compare घटाउनु 'to reduce' (unit 12)." },
+    { "native": "बढ्नु", "roman": "baḍhnu", "en": "to go up, increase; to grow", "pos": "verb", "note": "प्रेसर बढ्यो 'my blood pressure went up'." },
+    { "native": "एलर्जी", "roman": "elarji", "en": "allergy", "pos": "noun", "note": "X-को एलर्जी छ 'I'm allergic to X'." },
+    { "native": "प्रेसर", "roman": "presar", "en": "blood pressure", "pos": "noun", "note": "प्रेसर हाई / लो छ 'high / low blood pressure'. Formal: रक्तचाप." },
+    { "native": "सुगर", "roman": "sugar", "en": "diabetes (colloquial)", "pos": "noun", "note": "Lit. 'sugar': बुबालाई सुगर छ 'Dad has diabetes'. Formal: मधुमेह." },
+    { "native": "छाला", "roman": "chhālā", "en": "skin", "pos": "noun" },
+    { "native": "धुलो", "roman": "dhulo", "en": "dust", "pos": "noun", "note": "A real problem in Kathmandu; many people wear masks outdoors." },
+    { "native": "देखाउनु", "roman": "dekhāunu", "en": "to show; (with डाक्टरलाई) to see a doctor", "pos": "verb", "note": "डाक्टरलाई देखाउनु 'to see a doctor' (lit. show it to the doctor). Don't confuse with देख्नु 'to see'." },
+    { "native": "अपोइन्टमेन्ट", "roman": "apoinṭmenṭ", "en": "appointment", "pos": "noun", "note": "अपोइन्टमेन्ट लिनु 'to make an appointment'." },
+    { "native": "ओपीडी", "roman": "opiḍi", "en": "outpatient department (OPD)", "pos": "noun", "note": "In hospitals you buy an ओपीडी टिकट first: टिकट काट्नु." },
+    { "native": "बिमा", "roman": "bimā", "en": "insurance", "pos": "noun", "note": "स्वास्थ्य बिमा 'health insurance'. Also spelt बीमा." },
+    { "native": "रगत", "roman": "ragat", "en": "blood", "pos": "noun", "note": "रगत जाँच 'blood test'." },
+    { "native": "पिसाब", "roman": "pisāb", "en": "urine", "pos": "noun", "note": "पिसाब गर्नु 'to pee'." },
+    { "native": "एक्सरे", "roman": "eksre", "en": "X-ray", "pos": "noun", "note": "एक्सरे गर्नु 'to have an X-ray'." },
+    { "native": "सुई", "roman": "sui", "en": "injection; needle", "pos": "noun", "note": "सुई लगाउनु 'to give / have an injection'." },
+    { "native": "भर्ना हुनु", "roman": "bharnā hunu", "en": "to be admitted (to hospital, to a school)", "pos": "verb" },
+    { "native": "मेडिकल", "roman": "meḍikal", "en": "pharmacy, chemist", "pos": "noun", "note": "Nepalis call a pharmacy मेडिकल (or औषधि पसल, फार्मेसी)." },
+    { "native": "मलम", "roman": "malam", "en": "ointment, cream", "pos": "noun", "note": "मलम लगाउनु 'to put on ointment'." },
+    { "native": "सिरप", "roman": "sirap", "en": "syrup, liquid medicine", "pos": "noun" }
+  ],
+  "phrases": [
+    { "native": "मलाई रिँगटा लाग्छ।", "roman": "malāi riṃgaṭā lāgchha.", "en": "I feel dizzy." },
+    { "native": "जे खायो, बान्ता हुन्छ।", "roman": "je khāyo, bāntā hunchha.", "en": "Whatever I eat, I throw up." },
+    { "native": "कहिलेदेखि यस्तो भइरहेको छ?", "roman": "kahiledekhi yasto bhairaheko chha?", "en": "How long has this been going on?" },
+    { "native": "तीन दिनदेखि ज्वरो आइरहेको छ।", "roman": "tin dindekhi jwaro āiraheko chha.", "en": "I've had a fever for three days." },
+    { "native": "राति निद्रा लाग्दैन।", "roman": "rāti nidrā lāgdaina.", "en": "I can't sleep at night." },
+    { "native": "मलाई कुनै औषधिको एलर्जी छैन।", "roman": "malāi kunai ausadhiko elarji chhaina.", "en": "I'm not allergic to any medicine." },
+    { "native": "मेरो प्रेसर हाई छ।", "roman": "mero presar hāi chha.", "en": "I have high blood pressure." },
+    { "native": "अहिले अलि सन्चो भयो।", "roman": "ahile ali sancho bhayo.", "en": "I'm feeling a bit better now." },
+    { "native": "डाक्टरलाई देखाउनुपर्छ।", "roman": "ḍākṭarlāi dekhāunuparchha.", "en": "You should see a doctor." },
+    { "native": "अपोइन्टमेन्ट लिनुपर्छ?", "roman": "apoinṭmenṭ linuparchha?", "en": "Do I need an appointment?" },
+    { "native": "ओपीडी टिकट कहाँ काटिन्छ?", "roman": "opiḍi ṭikaṭ kahāṃ kāṭinchha?", "en": "Where do I get an OPD ticket?" },
+    { "native": "यो औषधि खाना खाएपछि खानुहोस्।", "roman": "yo ausadhi khānā khāepachhi khānuhos.", "en": "Take this medicine after food." },
+    { "native": "खाली पेटमा नखानुहोस्।", "roman": "khāli peṭmā nakhānuhos.", "en": "Don't take it on an empty stomach." },
+    { "native": "कुनै साइड इफेक्ट छ?", "roman": "kunai sāiḍ iphekṭ chha?", "en": "Are there any side effects?" },
+    { "native": "कति पटक खाने?", "roman": "kati paṭak khāne?", "en": "How many times (a day) should I take it?" }
+  ],
+  "grammar": [
+    {
+      "title": "'I have been … for three days': -देखि + present",
+      "body": "English says 'I **have been** coughing **for** three days'. Nepali says 'three days-**from** a cough is striking (me)': **तीन दिनदेखि खोकी लागिरहेको छ**. Two things change.\n\n**1. 'For' and 'since' are both -देखि.** Add it to the length of time or to the starting point: **दुई हप्तादेखि** 'for two weeks', **हिजोदेखि** 'since yesterday', **बिहानदेखि** 'since this morning', **कहिलेदेखि?** 'since when? / for how long?'. Don't use **-को लागि** here — that is 'for' a period still ahead: तीन दिनको लागि औषधि 'medicine for three days'. And a course of treatment that runs *up to* a point uses **-सम्म**: पाँच दिनसम्म खानुहोस् 'take it for five days'.\n\n**2. The verb is present, not past.** Use the continuous **-इरहेको छ** (or -दै छ) for something still going on: खोकी **लागिरहेको छ**, ज्वरो **आइरहेको छ**, पेट **दुखिरहेको छ**. For a state or a recurring symptom the simple present also works: हिजोदेखि टाउको **दुख्छ**. In the negative, use the perfect: दुई दिनदेखि निद्रा **लागेको छैन** 'I haven't slept for two days'.\n\n**Another way: '…-एको X भयो'** — 'it has been X since…': ज्वरो **आएको** तीन दिन **भयो** 'it's been three days since the fever started'. This is the natural answer to **कति दिन भयो?** 'how long has it been?'. No -देखि in this pattern.\n\n**Getting better or worse**: **-दै गएको छ** 'keeps …-ing': खोकी **बढ्दै गएको छ** 'the cough is getting worse'; ज्वरो **घट्दै छ** 'the fever is coming down'.",
+      "examples": [
+        { "native": "तीन दिनदेखि खोकी लागिरहेको छ।", "roman": "tin dindekhi khoki lāgiraheko chha.", "en": "I've had a cough for three days." },
+        { "native": "बिहानदेखि पेट दुखिरहेको छ।", "roman": "bihānadekhi peṭ dukhiraheko chha.", "en": "My stomach has been hurting since this morning." },
+        { "native": "दुई दिनदेखि मलाई निद्रा लागेको छैन।", "roman": "dui dindekhi malāi nidrā lāgeko chhaina.", "en": "I haven't been able to sleep for two days." },
+        { "native": "ज्वरो आएको कति दिन भयो?", "roman": "jwaro āeko kati din bhayo?", "en": "How long have you had the fever?" },
+        { "native": "खोकी बढ्दै गएको छ।", "roman": "khoki baḍhdai gaeko chha.", "en": "The cough keeps getting worse." },
+        { "native": "औषधि खान सुरु गरेको एक हप्ता भयो।", "roman": "ausadhi khāna suru gareko ek haptā bhayo.", "en": "I started the medicine a week ago." }
+      ]
+    },
+    {
+      "title": "Following instructions",
+      "body": "Doctors, pharmacists and medicine packets give instructions in a few fixed patterns.\n\n**Do / don't: -नुहोस् / न-…-नुहोस्** (unit 11): दिनको दुई पटक **खानुहोस्**, चिसो पानी **नखानुहोस्**. On labels and prescriptions you'll see the bare infinitive in **-नु** used as a command: **दिनको तीन पटक खानु** 'to be taken three times a day'. Medicine is 'eaten' in Nepali, even syrup: औषधि **खानु**; ointment is 'applied': मलम **लगाउनु**.\n\n**Must / mustn't**: **-नुपर्छ** 'you must', **-नुहुँदैन** 'you mustn't, it's not OK': आराम **गर्नुपर्छ**, रक्सी **खानुहुँदैन** 'no alcohol'. To ask: **-नुपर्छ?** 'do I have to?' and **-न हुन्छ?** 'is it OK to?': पानी पिउ**न हुन्छ**?\n\n**When**: **खाना खाएपछि** 'after food' (-एपछि 'after doing'); **खाना खानुअघि** or **खानुभन्दा पहिले** 'before food' (-नुअघि 'before doing'); **खाली पेटमा** 'on an empty stomach'; **सुत्ने बेलामा** 'at bedtime'; **बिहान–बेलुका** 'morning and evening'.\n\n**How often, how long**: **दिनको दुई पटक** 'twice a day', **हरेक आठ घण्टामा** 'every eight hours', **पाँच दिनसम्म** 'for five days', **सन्चो नभएसम्म** 'until you're better' (unit 30).\n\n**Don't forget**: **-न नबिर्सनुहोस्**: औषधि **खान नबिर्सनुहोस्** 'don't forget to take your medicine'.\n\nTo check you've understood, repeat it back with the **-ने** form ('should I…?'): दिनको कति पटक **खाने**? खाना खाएपछि **खाने**, हो?",
+      "examples": [
+        { "native": "सुत्ने बेलामा एक चम्चा सिरप खानुहोस्।", "roman": "sutne belāmā ek chamchā sirap khānuhos.", "en": "Take a spoonful of syrup at bedtime." },
+        { "native": "यो औषधि पाँच दिनसम्म खानुपर्छ।", "roman": "yo ausadhi pāṃch dinsamma khānuparchha.", "en": "You have to take this medicine for five days." },
+        { "native": "औषधि खाँदा रक्सी खानुहुँदैन।", "roman": "ausadhi khāṃdā raksi khānuhuṃdaina.", "en": "You mustn't drink alcohol while taking the medicine." },
+        { "native": "दिनको तीन पटक मलम लगाउनु।", "roman": "dinko tin paṭak malam lagāunu.", "en": "Apply the ointment three times a day. (label)" },
+        { "native": "खाना खाएपछि खाने, हो?", "roman": "khānā khāepachhi khāne, ho?", "en": "After food, right?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the clinic",
+    "setting": "Ravi has had a fever and stomach trouble since coming back from a wedding in Chitwan. He goes to a clinic near Mahendrapul, Pokhara.",
+    "lines": [
+      { "speaker": "Doctor", "native": "बस्नुहोस्। के समस्या छ?", "roman": "basnuhos. ke samasyā chha?", "en": "Have a seat. What's the problem?" },
+      { "speaker": "Ravi", "native": "डाक्टरसाब, तीन दिनदेखि ज्वरो आइरहेको छ, अनि पेट पनि दुखिरहेको छ।", "roman": "ḍākṭarsāb, tin dindekhi jwaro āiraheko chha, ani peṭ pani dukhiraheko chha.", "en": "Doctor, I've had a fever for three days, and my stomach hurts too." },
+      { "speaker": "Doctor", "native": "बान्ता पनि भयो?", "roman": "bāntā pani bhayo?", "en": "Any vomiting?" },
+      { "speaker": "Ravi", "native": "हिजो दुई पटक भयो। केही खान मन लाग्दैन।", "roman": "hijo dui paṭak bhayo. kehi khāna man lāgdaina.", "en": "Twice yesterday. I don't feel like eating anything." },
+      { "speaker": "Doctor", "native": "बाहिर केही खानुभएको थियो?", "roman": "bāhira kehi khānubhaeko thiyo?", "en": "Had you eaten anything out?" },
+      { "speaker": "Ravi", "native": "चितवनमा एउटा बिहेमा गएको थिएँ… त्यहाँ धेरै खाएँ, हाहा।", "roman": "Chitwanmā euṭā bihemā gaeko thieṃ… tyahāṃ dherai khāeṃ, hāhā.", "en": "I went to a wedding in Chitwan… I ate a lot there, haha." },
+      { "speaker": "Doctor", "native": "बिहेको खानाले धेरैलाई यस्तै हुन्छ। कुनै औषधिको एलर्जी छ?", "roman": "biheko khānāle dherailāi yastai hunchha. kunai ausadhiko elarji chha?", "en": "Wedding food does this to a lot of people. Are you allergic to any medicine?" },
+      { "speaker": "Ravi", "native": "छैन।", "roman": "chhaina.", "en": "No." },
+      { "speaker": "Doctor", "native": "ल, रगत र दिसा जाँच गरौँ। अनि यो औषधि दिनको तीन पटक खाना खाएपछि खानुहोस्।", "roman": "la, ragat ra disā jāṃch garauṃ. ani yo ausadhi dinko tin paṭak khānā khāepachhi khānuhos.", "en": "Right, let's do a blood and stool test. And take this medicine three times a day after food." },
+      { "speaker": "Ravi", "native": "कति दिनसम्म खाने?", "roman": "kati dinsamma khāne?", "en": "For how many days?" },
+      { "speaker": "Doctor", "native": "पाँच दिनसम्म। सन्चो भए पनि बीचमा नछोड्नुहोस्। अनि धेरै पानी पिउनुहोस्।", "roman": "pāṃch dinsamma. sancho bhae pani bichmā nachhoḍnuhos. ani dherai pāni piunuhos.", "en": "Five days. Don't stop halfway even if you feel better. And drink plenty of water." },
+      { "speaker": "Ravi", "native": "ज्वरो घटेन भने?", "roman": "jwaro ghaṭena bhane?", "en": "And if the fever doesn't come down?" },
+      { "speaker": "Doctor", "native": "दुई दिनमा ज्वरो नघटे फेरि देखाउन आउनुहोस्।", "roman": "dui dinmā jwaro naghaṭe pheri dekhāuna āunuhos.", "en": "If it hasn't come down in two days, come back and see me." },
+      { "speaker": "Ravi", "native": "हुन्छ, धन्यवाद डाक्टरसाब। अब बिहेमा कम खान्छु!", "roman": "hunchha, dhanyabād ḍākṭarsāb. aba bihemā kam khānchhu!", "en": "OK, thank you, doctor. I'll eat less at weddings from now on!" }
+    ]
+  },
+  "culture": "For anything minor, most Nepalis go straight to the **मेडिकल** (pharmacy) on the corner, describe their symptoms and walk out with tablets; pharmacists dispense a lot without a prescription and often know their regulars. For a doctor, people say **डाक्टरलाई देखाउनु** 'to show (it) to the doctor'. Doctors are addressed as **डाक्टरसाब** or simply **डाक्टर**.\n\nIn big government hospitals (Bir, Teaching Hospital in Maharajgunj, Western Regional in Pokhara) you start by buying an **ओपीडी टिकट** early in the morning, then queue for your **पालो**. Private hospitals and clinics take appointments by phone. A patient admitted to hospital is never left alone: a family member, the **कुरुवा**, stays day and night to fetch medicine, food and test results. The government health insurance scheme (**स्वास्थ्य बिमा**) covers many families for basic care.\n\nYou'll hear **ग्यास्ट्रिक** for almost any stomach complaint, **प्रेसर** and **सुगर** for blood pressure and diabetes, and **जीवनजल** for oral rehydration salts — the first thing anyone gives you for diarrhoea. Relatives will also recommend home remedies: hot water, **बेसार** (turmeric) in milk, and avoiding 'cold' foods like curd when you have a cough.",
+  "lessons": [
+    {
+      "title": "Saying exactly what hurts",
+      "tip": { "title": "Symptoms: what burns, itches or swells", "body": "- The body part is the subject: **टाउको दुख्यो**, **घाँटी पोल्छ** 'my throat burns', **हात सुन्नियो**, **छाला चिलाउँछ**.\n- So the verb agrees with the body part: हात चिलाउँ**छ**, not चिलाउँछु.\n- Sensations that 'strike' you take **मलाई**: मलाई **रिँगटा लाग्छ**, मलाई **बान्ता हुन्छ**.", "pattern": "मेरो + body part + दुख्छ / पोल्छ  ·  मलाई + रिँगटा लाग्छ" },
+      "new": ["लक्षण", "दुखाइ", "पोल्नु", "चिलाउनु", "सुन्निनु", "रिँगटा", "बान्ता", "ग्यास्ट्रिक", "मलाई रिँगटा लाग्छ।", "जे खायो, बान्ता हुन्छ।"],
+      "sentences": [
+        { "native": "मेरो घाँटी पोलिरहेको छ।", "roman": "mero ghāṃṭi poliraheko chha.", "en": "My throat is burning.", "focus": "मेरो", "wrong": ["मलाई|malāi", "मैले|maile"] },
+        { "native": "मेरो हात धेरै चिलाउँछ।", "roman": "mero hāt dherai chilāuṃchha.", "en": "My hand itches a lot.", "focus": "चिलाउँछ", "wrong": ["चिलाउँछु|chilāuṃchhu", "चिलाउँछौ|chilāuṃchhau"] },
+        { "native": "खुट्टा किन सुन्नियो?", "roman": "khuṭṭā kina sunniyo?", "en": "Why has my foot swollen?", "focus": "सुन्नियो", "wrong": ["सुन्निएँ|sunnieṃ", "सुन्निनु|sunninu"] },
+        { "native": "उठ्दा मलाई रिँगटा लाग्यो।", "roman": "uṭhdā malāi riṃgaṭā lāgyo.", "en": "I felt dizzy when I stood up.", "focus": "मलाई", "wrong": ["मेरो|mero", "म|ma"] },
+        { "native": "उसलाई राति दुई पटक बान्ता भयो।", "roman": "uslāi rāti dui paṭak bāntā bhayo.", "en": "She threw up twice in the night.", "focus": "उसलाई", "wrong": ["ऊ|u", "उसको|usko"] },
+        { "native": "मलाई ग्यास्ट्रिक भयो, पेट पोल्छ।", "roman": "malāi gyāsṭrik bhayo, peṭ polchha.", "en": "My gastritis is playing up — my stomach burns.", "focus": "पोल्छ", "wrong": ["पोल्छु|polchhu", "पोलेँ|poleṃ"] },
+        { "native": "मेरो आँखा सुन्निएको छ।", "roman": "mero āṃkhā sunnieko chha.", "en": "My eye is swollen.", "focus": "मेरो", "wrong": ["मलाई|malāi", "मैले|maile"] },
+        { "native": "दुखाइ कहाँ छ, देखाउनुहोस् त।", "roman": "dukhāi kahāṃ chha, dekhāunuhos ta.", "en": "Show me where the pain is." },
+        { "native": "अरू कस्तो लक्षण छ?", "roman": "aru kasto lakchhan chha?", "en": "What other symptoms do you have?" }
+      ]
+    },
+    {
+      "title": "How long has this been going on?",
+      "tip": { "title": "'For three days': -देखि + present", "body": "- 'For' and 'since' are both **-देखि**: तीन दिन**देखि**, हिजो**देखि**, **कहिलेदेखि?**\n- Keep the verb in the **present**: खोकी लागि**रहेको छ** 'I've been coughing'.\n- Negative: दुई दिनदेखि निद्रा **लागेको छैन**.\n- Not **-को लागि** — that's 'for' a time still ahead.", "pattern": "time + देखि + verb-इरहेको छ", "grammar": 0 },
+      "new": ["निद्रा", "लगातार", "बीचबीचमा", "घट्नु", "बढ्नु", "कहिलेदेखि यस्तो भइरहेको छ?", "तीन दिनदेखि ज्वरो आइरहेको छ।", "राति निद्रा लाग्दैन।"],
+      "sentences": [
+        { "native": "दुई हप्तादेखि खोकी लागिरहेको छ।", "roman": "dui haptādekhi khoki lāgiraheko chha.", "en": "I've had a cough for two weeks.", "focus": "हप्तादेखि", "wrong": ["हप्ताको|haptāko", "हप्तामा|haptāmā"] },
+        { "native": "हिजोदेखि लगातार टाउको दुखिरहेको छ।", "roman": "hijodekhi lagātār ṭāuko dukhiraheko chha.", "en": "I've had a headache non-stop since yesterday.", "focus": "दुखिरहेको", "wrong": ["दुख्यो|dukhyo", "दुख्नु|dukhnu"] },
+        { "native": "कहिलेदेखि थकाइ लागिरहेको छ?", "roman": "kahiledekhi thakāi lāgiraheko chha?", "en": "How long have you been feeling tired?", "focus": "कहिलेदेखि", "wrong": ["कहिले|kahile", "कतिको|katiko"] },
+        { "native": "एक हप्तादेखि राति निद्रा लागेको छैन।", "roman": "ek haptādekhi rāti nidrā lāgeko chhaina.", "en": "I haven't slept properly for a week.", "focus": "लागेको", "wrong": ["लाग्यो|lāgyo", "लाग्नु|lāgnu"] },
+        { "native": "बिहानदेखि दुखाइ बढ्दै छ।", "roman": "bihānadekhi dukhāi baḍhdai chha.", "en": "The pain's been getting worse since this morning.", "focus": "बिहानदेखि", "wrong": ["बिहान|bihāna", "बिहानको|bihānako"] },
+        { "native": "तीन दिनदेखि केही खान मन लागेको छैन।", "roman": "tin dindekhi kehi khāna man lāgeko chhaina.", "en": "I haven't felt like eating anything for three days.", "focus": "दिनदेखि", "wrong": ["दिनको|dinko", "दिनमा|dinmā"] },
+        { "native": "एक महिनादेखि लगातार काम गरिरहेको छु।", "roman": "ek mahinādekhi lagātār kām gariraheko chhu.", "en": "I've been working non-stop for a month.", "focus": "गरिरहेको", "wrong": ["गरेँ|gareṃ", "गर्नु|garnu"] },
+        { "native": "ज्वरो बीचबीचमा आउँछ, अनि घट्छ।", "roman": "jwaro bichbichmā āuṃchha, ani ghaṭchha.", "en": "The fever comes and goes." },
+        { "native": "औषधि खाएपछि ज्वरो घट्यो।", "roman": "ausadhi khāepachhi jwaro ghaṭyo.", "en": "The fever came down after I took the medicine." }
+      ]
+    },
+    {
+      "title": "Allergies and conditions",
+      "tip": { "title": "'It's been X since…': -एको … भयो", "body": "- 'It's been three days since the fever started': ज्वरो **आएको** तीन दिन **भयो**.\n- Ask: **कति दिन भयो?** 'how long has it been?'\n- Verb-**एको** + time + **भयो** — and no -देखि in this pattern.", "pattern": "verb-एको + time + भयो", "grammar": 0 },
+      "new": ["एलर्जी", "प्रेसर", "सुगर", "छाला", "धुलो", "मलाई कुनै औषधिको एलर्जी छैन।", "मेरो प्रेसर हाई छ।", "अहिले अलि सन्चो भयो।"],
+      "sentences": [
+        { "native": "बुबालाई सुगर भएको पाँच वर्ष भयो।", "roman": "bubālāi sugar bhaeko pāṃch barsa bhayo.", "en": "Dad has had diabetes for five years.", "focus": "भएको", "wrong": ["भयो|bhayo", "हुने|hune"] },
+        { "native": "प्रेसरको औषधि खान सुरु गरेको कति समय भयो?", "roman": "presarko ausadhi khāna suru gareko kati samaya bhayo?", "en": "How long have you been on blood-pressure medicine?", "focus": "गरेको", "wrong": ["गर्‍यो|garyo", "गर्ने|garne"] },
+        { "native": "छाला सुन्निएको दुई दिन भयो।", "roman": "chhālā sunnieko dui din bhayo.", "en": "My skin has been swollen for two days.", "focus": "सुन्निएको", "wrong": ["सुन्नियो|sunniyo", "सुन्निने|sunnine"] },
+        { "native": "यो एलर्जी भएको कति दिन भयो?", "roman": "yo elarji bhaeko kati din bhayo?", "en": "How long have you had this allergy?", "focus": "भएको", "wrong": ["भयो|bhayo", "हुँदा|huṃdā"] },
+        { "native": "अस्पताल गएको एक हप्ता भयो, अब सन्चो छ।", "roman": "aspatāl gaeko ek haptā bhayo, aba sancho chha.", "en": "It's been a week since I went to hospital, and I'm fine now.", "focus": "गएको", "wrong": ["गयो|gayo", "जाने|jāne"] },
+        { "native": "औषधि खाएको दुई दिन भयो, तर अझै सन्चो भएन।", "roman": "ausadhi khāeko dui din bhayo, tara ajhai sancho bhaena.", "en": "I've been on the medicine for two days but I'm still not better.", "focus": "खाएको", "wrong": ["खायो|khāyo", "खाने|khāne"] },
+        { "native": "मलाई धुलोको एलर्जी छ, काठमाडौंमा गाह्रो हुन्छ।", "roman": "malāi dhuloko elarji chha, Kāṭhmāḍauṃmā gāhro hunchha.", "en": "I'm allergic to dust, so Kathmandu is hard for me." },
+        { "native": "मेरो प्रेसर अलि बढेको छ रे।", "roman": "mero presar ali baḍheko chha re.", "en": "Apparently my blood pressure has gone up a bit." },
+        { "native": "हजुरआमालाई प्रेसर पनि छ, सुगर पनि।", "roman": "hajurāmālāi presar pani chha, sugar pani.", "en": "Grandma has both high blood pressure and diabetes." }
+      ]
+    },
+    {
+      "title": "Seeing a doctor",
+      "tip": { "title": "डाक्टरलाई देखाउनु", "body": "- 'To see a doctor' is **डाक्टरलाई देखाउनु** — lit. 'to show (it) to the doctor'. Don't mix up **देखाउनु** 'show' and **देख्नु** 'see'.\n- In hospitals, first buy an **ओपीडी टिकट** (टिकट **काट्नु**), then wait for your **पालो** 'turn'.\n- Ask what's needed with **-नुपर्छ?**", "pattern": "डाक्टरलाई देखाउनु" },
+      "new": ["देखाउनु", "अपोइन्टमेन्ट", "ओपीडी", "बिमा", "डाक्टरलाई देखाउनुपर्छ।", "अपोइन्टमेन्ट लिनुपर्छ?", "ओपीडी टिकट कहाँ काटिन्छ?"],
+      "sentences": [
+        { "native": "आज बेलुका डाक्टरलाई देखाउन जान्छु।", "roman": "āja belukā ḍākṭarlāi dekhāuna jānchhu.", "en": "I'm going to see the doctor this evening.", "focus": "डाक्टरलाई", "wrong": ["डाक्टरले|ḍākṭarle", "डाक्टरको|ḍākṭarko"] },
+        { "native": "यो चोट डाक्टरलाई देखाऊ न।", "roman": "yo choṭ ḍākṭarlāi dekhāu na.", "en": "Get a doctor to look at that injury, would you.", "focus": "देखाऊ", "wrong": ["देख|dekha", "देख्छौ|dekhchhau"] },
+        { "native": "पहिले डाक्टरलाई देखाउनुहोस्, अनि मात्र औषधि खानुहोस्।", "roman": "pahile ḍākṭarlāi dekhāunuhos, ani mātra ausadhi khānuhos.", "en": "See a doctor first, and only then take medicine.", "focus": "देखाउनुहोस्", "wrong": ["देख्नुहोस्|dekhnuhos", "देखाउँछु|dekhāuṃchhu"] },
+        { "native": "रिपोर्ट आएपछि फेरि देखाउन आउनुहोस्।", "roman": "riporṭ āepachhi pheri dekhāuna āunuhos.", "en": "Come back and show me once the report is ready.", "focus": "देखाउन", "wrong": ["देख्न|dekhna", "देखाउनु|dekhāunu"] },
+        { "native": "बिहान छ बजे ओपीडी टिकट काट्न लाइन बस्नुपर्छ।", "roman": "bihāna chha baje opiḍi ṭikaṭ kāṭna lāin basnuparchha.", "en": "You have to queue at six in the morning for an OPD ticket." },
+        { "native": "डाक्टरसँग भोलिको अपोइन्टमेन्ट लिएँ।", "roman": "ḍākṭarsaṃga bholiko apoinṭmenṭ lieṃ.", "en": "I've made an appointment with the doctor for tomorrow." },
+        { "native": "मेरो पालो कहिले आउँछ?", "roman": "mero pālo kahile āuṃchha?", "en": "When will it be my turn?" },
+        { "native": "तपाईंको बिमा छ?", "roman": "tapāiṃko bimā chha?", "en": "Do you have insurance?" },
+        { "native": "बिमा भए अस्पतालको बिल कम हुन्छ।", "roman": "bimā bhae aspatālko bil kam hunchha.", "en": "If you're insured, the hospital bill is lower." }
+      ]
+    },
+    {
+      "title": "Tests and the hospital",
+      "tip": { "title": "Must and mustn't", "body": "- **-नुपर्छ** 'you must': रगत जाँच **गर्नुपर्छ**.\n- **-नुहुँदैन** 'you mustn't': केही **खानुहुँदैन**.\n- Asking: **-नुपर्छ?** 'do I have to?' · **-न हुन्छ?** 'is it OK to?': पानी पिउ**न हुन्छ**?", "pattern": "verb-नुपर्छ  ·  verb-नुहुँदैन  ·  verb-न हुन्छ?", "grammar": 1 },
+      "new": ["रगत", "पिसाब", "एक्सरे", "सुई", "भर्ना हुनु"],
+      "sentences": [
+        { "native": "भोलि बिहान रगत जाँच गर्नुपर्छ।", "roman": "bholi bihāna ragat jāṃch garnuparchha.", "en": "You need to have a blood test tomorrow morning.", "focus": "गर्नुपर्छ", "wrong": ["गर्नुहुँदैन|garnuhuṃdaina", "गर्‍यो|garyo"] },
+        { "native": "रगत दिनुअघि केही खानुहुँदैन।", "roman": "ragat dinuaghi kehi khānuhuṃdaina.", "en": "You mustn't eat anything before giving blood.", "focus": "खानुहुँदैन", "wrong": ["खानुपर्छ|khānuparchha", "खान्छु|khānchhu"] },
+        { "native": "पिसाब र रगत जाँच गर्नुपर्छ।", "roman": "pisāb ra ragat jāṃch garnuparchha.", "en": "You need a urine and a blood test.", "focus": "गर्नुपर्छ", "wrong": ["गर्नुहुँदैन|garnuhuṃdaina", "गर्नुभयो|garnubhayo"] },
+        { "native": "खुट्टाको एक्सरे गर्नुपर्छ?", "roman": "khuṭṭāko eksre garnuparchha?", "en": "Do I need an X-ray of my foot?", "focus": "गर्नुपर्छ", "wrong": ["गर्नुहुँदैन|garnuhuṃdaina", "गर्छौ|garchhau"] },
+        { "native": "एक्सरे गर्नुअघि पानी पिउन हुन्छ?", "roman": "eksre garnuaghi pāni piuna hunchha?", "en": "Is it OK to drink water before the X-ray?", "focus": "पिउन", "wrong": ["पिउनु|piunu", "पिउने|piune"] },
+        { "native": "भर्ना भएपछि घरबाट कसैले साथमा बस्नुपर्छ।", "roman": "bharnā bhaepachhi gharbāṭa kasaile sāthmā basnuparchha.", "en": "Once a patient is admitted, someone from the family has to stay with them.", "focus": "बस्नुपर्छ", "wrong": ["बस्नुहुँदैन|basnuhuṃdaina", "बस्छु|baschhu"] },
+        { "native": "मलाई सुई लगाउन डर लाग्छ!", "roman": "malāi sui lagāuna ḍar lāgchha!", "en": "I'm scared of injections!" },
+        { "native": "हजुरबुबा अस्पतालमा भर्ना हुनुभयो।", "roman": "hajurbubā aspatālmā bharnā hunubhayo.", "en": "Grandfather has been admitted to hospital." },
+        { "native": "सुई लगाएको ठाउँ अलि सुन्नियो।", "roman": "sui lagāeko ṭhāuṃ ali sunniyo.", "en": "The spot where I had the injection has swollen a bit." }
+      ]
+    },
+    {
+      "title": "At the pharmacy",
+      "tip": { "title": "Medicine instructions", "body": "- When: **खाना खाएपछि** 'after food', **खाना खानुअघि** 'before food', **खाली पेटमा**, **सुत्ने बेलामा**.\n- How often: **दिनको दुई पटक**, **हरेक आठ घण्टामा**; how long: **पाँच दिनसम्म**.\n- Labels use the bare **-नु** as a command: दिनको तीन पटक **खानु**.\n- Check back with **-ने?**: कति पटक **खाने**?", "pattern": "दिनको X पटक + खाना खाएपछि + खानुहोस्", "grammar": 1 },
+      "new": ["मेडिकल", "मलम", "सिरप", "यो औषधि खाना खाएपछि खानुहोस्।", "खाली पेटमा नखानुहोस्।", "कुनै साइड इफेक्ट छ?", "कति पटक खाने?"],
+      "sentences": [
+        { "native": "यो चक्की दिनको दुई पटक खानुहोस्।", "roman": "yo chakki dinko dui paṭak khānuhos.", "en": "Take this tablet twice a day.", "focus": "दिनको", "wrong": ["दिनदेखि|dindekhi", "दिनसम्म|dinsamma"] },
+        { "native": "खाना खानुअघि सिरप खानुहोस्।", "roman": "khānā khānuaghi sirap khānuhos.", "en": "Take the syrup before food.", "focus": "खानुअघि", "wrong": ["खाएपछि|khāepachhi", "खाँदा|khāṃdā"] },
+        { "native": "यो मलम सुत्ने बेलामा लगाउनुहोस्।", "roman": "yo malam sutne belāmā lagāunuhos.", "en": "Put this ointment on at bedtime.", "focus": "बेलामा", "wrong": ["बेलादेखि|belādekhi", "बेलासम्म|belāsamma"] },
+        { "native": "हरेक आठ घण्टामा एउटा चक्की खानु।", "roman": "harek āṭh ghanṭāmā euṭā chakki khānu.", "en": "Take one tablet every eight hours. (label)", "focus": "घण्टामा", "wrong": ["घण्टादेखि|ghanṭādekhi", "घण्टाको|ghanṭāko"] },
+        { "native": "यो सिरप पाँच दिनसम्म खानुहोस्।", "roman": "yo sirap pāṃch dinsamma khānuhos.", "en": "Take this syrup for five days.", "focus": "दिनसम्म", "wrong": ["दिनदेखि|dindekhi", "दिनको|dinko"] },
+        { "native": "दाइ, यो सिरप खाना खाएपछि खाने, हो?", "roman": "dāi, yo sirap khānā khāepachhi khāne, ho?", "en": "Dai, I take this syrup after food, right?", "focus": "खाने", "wrong": ["खान्छ|khānchha", "खायो|khāyo"] },
+        { "native": "यो औषधि खाँदा निद्रा लाग्छ, गाडी नचलाउनुहोस्।", "roman": "yo ausadhi khāṃdā nidrā lāgchha, gāḍi nachalāunuhos.", "en": "This medicine makes you drowsy — don't drive.", "focus": "नचलाउनुहोस्", "wrong": ["चलाउनुहोस्|chalāunuhos", "नचलाउँछु|nachalāuṃchhu"] },
+        { "native": "मेडिकलमा गएर ग्यास्ट्रिकको औषधि ल्याएँ।", "roman": "meḍikalmā gaera gyāsṭrikko ausadhi lyāeṃ.", "en": "I went to the pharmacy and got something for my gastritis." },
+        { "native": "खाली पेटमा खाँदा पेट पोल्छ।", "roman": "khāli peṭmā khāṃdā peṭ polchha.", "en": "If you take it on an empty stomach, your stomach burns." }
+      ]
+    }
+  ]
+}
