@@ -1,0 +1,184 @@
+{
+  "id": 22,
+  "title": "Calls, texts & voice notes",
+  "goal": "Make and take calls, deal with a bad line, call back, send messages, voice notes and your location, and say what you've just done, already done or still haven't done.",
+  "intro": "Half of real-life Gujarati happens on the phone: family calls, the friends' WhatsApp group, voice notes from your aunt that last ten minutes. This unit gives you the phone Gujarati people actually use — mostly English nouns (**કૉલ**, **મેસેજ**, **નેટવર્ક**, **લોકેશન**) held together by Gujarati verbs (**ઉપાડવું**, **સંભળાવું**, **કપાવું**, **મોકલવું**).\n\nTwo pieces of grammar make your sentences flow: the **-ઈને** form for 'do X and then Y' (**ઘરે પહોંચીને ફોન કરું** 'I'll call when I get home'), and the little time words **હમણાં જ** 'just', **પહેલેથી** 'already', **હજી** 'still / yet' and **ક્યારનો** 'for ages'.",
+  "vocab": [
+    { "native": "કૉલ", "roman": "kol", "en": "call", "pos": "noun", "note": "m · કૉલ કરવો 'to call' · in speech ફોન કરવો is just as common" },
+    { "native": "મિસ્ડ કૉલ", "roman": "misḍ kol", "en": "missed call", "pos": "noun", "note": "m · મિસ્ડ કૉલ આપવો / મારવો 'to give a missed call' (ring once on purpose as a signal)" },
+    { "native": "વીડિયો કૉલ", "roman": "vīḍiyo kol", "en": "video call", "pos": "noun", "note": "m · X-ને વીડિયો કૉલ કરવો" },
+    { "native": "ઉપાડવું", "roman": "upāḍvuṃ", "en": "to pick up (the phone); to lift", "pos": "verb", "note": "ફોન ઉપાડ! 'pick up!' · 'to hang up' is ફોન મૂકવો" },
+    { "native": "રિંગ", "roman": "riṅg", "en": "ring", "pos": "noun", "note": "f · રિંગ જાય છે 'it's ringing'" },
+    { "native": "અવાજ", "roman": "avāj", "en": "voice; sound, noise", "pos": "noun", "note": "m · બહુ અવાજ છે 'it's very noisy'" },
+    { "native": "સંભળાવું", "roman": "sambhaḷāvuṃ", "en": "to be heard, be audible", "pos": "verb", "note": "The thing heard is the subject; the listener takes -ને: મને સંભળાય છે 'I can hear' · past સંભળાયું" },
+    { "native": "મોટેથી", "roman": "moṭethī", "en": "loudly, out loud", "pos": "adv", "note": "મોટેથી બોલ 'speak up' · 'quietly' is ધીમેથી" },
+    { "native": "નેટવર્ક", "roman": "neṭvark", "en": "signal, network", "pos": "noun", "note": "n · નેટવર્ક નથી 'no signal' · નેટવર્ક આવે છે 'there's signal'" },
+    { "native": "કપાવું", "roman": "kapāvuṃ", "en": "to get cut off; to break up (a call)", "pos": "verb", "note": "ફોન કપાઈ ગયો 'the call dropped' · from કાપવું 'to cut'" },
+    { "native": "ચાર્જ", "roman": "chārj", "en": "charge (battery)", "pos": "noun", "note": "m · ફોન ચાર્જ કરવો 'to charge the phone' · ચાર્જમાં મૂકવો 'to put on charge'" },
+    { "native": "બૅટરી", "roman": "beṭrī", "en": "battery", "pos": "noun", "note": "f · બૅટરી પૂરી થઈ ગઈ 'the battery's dead'" },
+    { "native": "ચાલુ", "roman": "chālu", "en": "on, working, running", "pos": "adj", "note": "does not change · ચાલુ કરવું 'to switch on' · ચાલુ રાખવું 'to keep on'" },
+    { "native": "બંધ", "roman": "bandh", "en": "off, closed, shut", "pos": "adj", "note": "does not change · બંધ કરવું 'to switch off, to close' · બંધ થવું 'to stop, to go off'" },
+    { "native": "મેસેજ", "roman": "mesej", "en": "message, text", "pos": "noun", "note": "m · X-ને મેસેજ કરવો 'to text X'" },
+    { "native": "વૉઇસ નોટ", "roman": "vois noṭ", "en": "voice note, voice message", "pos": "noun", "note": "f · વૉઇસ નોટ મોકલવી" },
+    { "native": "જવાબ", "roman": "javāb", "en": "answer, reply", "pos": "noun", "note": "m · જવાબ આપવો 'to reply' · મેસેજનો જવાબ 'a reply to the message'" },
+    { "native": "ઑનલાઇન", "roman": "onlāin", "en": "online", "pos": "adj", "note": "does not change" },
+    { "native": "ડિલીટ", "roman": "ḍilīṭ", "en": "deleted", "pos": "adj", "note": "ડિલીટ કરવું 'to delete' · ડિલીટ થવું 'to get deleted'" },
+    { "native": "હમણાં જ", "roman": "hamṇāṃ j", "en": "just (now), a moment ago", "pos": "adv", "note": "with the past: હમણાં જ આવ્યો 'just arrived'" },
+    { "native": "પહેલેથી", "roman": "pahelethī", "en": "already, beforehand", "pos": "adv", "note": "મેં પહેલેથી કહ્યું હતું 'I already told you'" },
+    { "native": "હજી", "roman": "hajī", "en": "still; (not) yet", "pos": "adv", "note": "also હજુ · હજી … નથી + perfect = 'not yet' · હજી સુધી 'so far, till now'" },
+    { "native": "ક્યારનું", "roman": "kyārnuṃ", "en": "for ages, (since) a long time ago", "pos": "adv", "note": "agrees with the subject: હું ક્યારનો (m) / ક્યારની (f) વાટ જોઉં છું 'I've been waiting for ages'" },
+    { "native": "ગ્રુપ", "roman": "grup", "en": "group (chat)", "pos": "noun", "note": "n · ફૅમિલી ગ્રુપ, કૉલેજનું ગ્રુપ" },
+    { "native": "સ્ટેટસ", "roman": "sṭeṭas", "en": "status (on WhatsApp)", "pos": "noun", "note": "n · સ્ટેટસ પર મૂકવું 'to put on your status'" },
+    { "native": "લોકેશન", "roman": "lokeshan", "en": "location (pin)", "pos": "noun", "note": "લોકેશન મોકલવું / શેર કરવું 'to send / share location'" }
+  ],
+  "phrases": [
+    { "native": "હેલો, કોણ બોલે છે?", "roman": "helo, koṇ bole chhe?", "en": "Hello, who's this?", "note": "polite: કોણ બોલો છો?" },
+    { "native": "તેં ફોન કેમ ના ઉપાડ્યો?", "roman": "teṃ fon kem nā upāḍyo?", "en": "Why didn't you pick up? (informal)" },
+    { "native": "મેં તને મિસ્ડ કૉલ આપ્યો હતો.", "roman": "meṃ tane misḍ kol āpyo hato.", "en": "I gave you a missed call." },
+    { "native": "મારો અવાજ સંભળાય છે?", "roman": "māro avāj sambhaḷāy chhe?", "en": "Can you hear me?" },
+    { "native": "તારો અવાજ કપાય છે.", "roman": "tāro avāj kapāy chhe.", "en": "You're breaking up. (informal)" },
+    { "native": "જરા મોટેથી બોલ.", "roman": "jarā moṭethī bol.", "en": "Speak up a bit. (informal)", "note": "polite: મોટેથી બોલો." },
+    { "native": "અહીં નેટવર્ક નથી.", "roman": "ahīṃ neṭvark nathī.", "en": "There's no signal here." },
+    { "native": "હું તને પછી ફોન કરું.", "roman": "huṃ tane pachhī fon karuṃ.", "en": "Let me call you back later." },
+    { "native": "મારા ફોનમાં ચાર્જ નથી.", "roman": "mārā fonmāṃ chārj nathī.", "en": "My phone's out of charge." },
+    { "native": "એનો ફોન સ્વિચ ઑફ આવે છે.", "roman": "eno fon svich of āve chhe.", "en": "His / her phone is switched off." },
+    { "native": "ફોન મૂકું?", "roman": "fon mūkuṃ?", "en": "Shall I hang up? / OK, I'll let you go.", "note": "The start of a long Gujarati goodbye: ચાલ, મૂકું… હા, આવજે…" },
+    { "native": "મેસેજ જોયો?", "roman": "mesej joyo?", "en": "Did you see my message?" },
+    { "native": "વૉઇસ નોટ મોકલું?", "roman": "vois noṭ mokluṃ?", "en": "Shall I send a voice note?" },
+    { "native": "લોકેશન મોકલ ને.", "roman": "lokeshan mokal ne.", "en": "Send me your location, will you? (informal)" },
+    { "native": "હજી સુધી જવાબ નથી આવ્યો.", "roman": "hajī sudhī javāb nathī āvyo.", "en": "There's been no reply yet." }
+  ],
+  "grammar": [
+    {
+      "title": "Do X and then Y: the -ઈને form",
+      "body": "To join two actions done by the same person, Gujarati doesn't say 'and': it puts the first verb in the **-ઈને** form ('having done') and the second as the main verb.\n\n**Forms**: stem + **-ઈને**: કર → **કરીને**, જો → **જોઈને**, આવ → **આવીને**, પહોંચ → **પહોંચીને**, સાંભળ → **સાંભળીને**. Irregular: જવું → **જઈને**, લેવું → **લઈને**, દેવું → **દઈને**, થવું → **થઈને**.\n\n**Meanings**:\n'and then': **જમીને નીકળીએ** 'let's eat and then leave'\n'when / after': **ઘરે પહોંચીને ફોન કરજે** 'call when you get home'\n'how': **હસીને** 'with a smile', **રિક્ષા કરીને આવ્યો** 'came by rickshaw'\n'even though' (with પણ): **જોઈને પણ** જવાબ ના આપ્યો 'saw it and still didn't reply'\n\n**Without doing**: the **-યા વગર** form: **જમ્યા વગર** 'without eating', **કહ્યા વગર** 'without telling'.\n\nThe tense, the person and the ergative all belong to the **last** verb only: મેં મેસેજ **વાંચીને** જવાબ **આપ્યો** 'I read the message and replied'. The trap: don't add અને between the two verbs; the -ઈને already means 'and then'.",
+      "examples": [
+        { "native": "ઑફિસથી આવીને તને ફોન કરું છું.", "roman": "ofisthī āvīne tane fon karuṃ chhuṃ.", "en": "I'll call you when I get back from the office." },
+        { "native": "એણે મેસેજ જોઈને પણ જવાબ ના આપ્યો.", "roman": "eṇe mesej joīne paṇ javāb nā āpyo.", "en": "He saw the message and still didn't reply." },
+        { "native": "જમીને નીકળીએ?", "roman": "jamīne nīkaḷīe?", "en": "Shall we eat and then leave?" },
+        { "native": "એની વૉઇસ નોટ સાંભળીને બધા હસ્યા.", "roman": "enī vois noṭ sāṃbhaḷīne badhā hasyā.", "en": "Everyone laughed when they heard her voice note." },
+        { "native": "એ કહ્યા વગર જતો રહ્યો.", "roman": "e kahyā vagar jato rahyo.", "en": "He left without saying anything." }
+      ]
+    },
+    {
+      "title": "Just, already, still, not yet: હમણાં જ, પહેલેથી, હજી, ક્યારનો",
+      "body": "**હમણાં જ** 'just (now)' + past: **મેં હમણાં જ મેસેજ કર્યો** 'I just texted'. (હમણાં alone means 'now / soon'; the **જ** makes it 'just'.)\n\n**પહેલેથી** 'already, beforehand', usually with a compound verb: **મેં પહેલેથી ટિકિટ લઈ લીધી છે** 'I've already bought the tickets'. Often the compound verb alone is enough to mean 'already': **એ નીકળી ગયો** 'he's (already) left'.\n\n**હજી** 'still' with any tense: **હજી ઑફિસમાં છું** 'I'm still at the office'.\n**હજી … નથી** + the perfect = **'not yet'**: **એ હજી નથી આવ્યો** (or **હજી આવ્યો નથી**) 'he hasn't come yet'. **હજી સુધી** 'so far, till now'.\n\n**ક્યારનો / ક્યારની / ક્યારનું** 'for ages', agreeing with the subject:\n+ present = 'have been doing for ages': **હું ક્યારની ફોન કરું છું!** 'I've been calling for ages!' (woman)\n+ past = 'long ago': **એ ક્યારનો નીકળી ગયો** 'he left ages ago'.\n\nThe trap: 'not yet' needs the **perfect with નથી** (નથી આવ્યો). **એ ના આવ્યો** is a plain past — 'he didn't come' — and sounds final. Also, Gujarati uses the **present**, not a perfect, for 'have been doing': ક્યારનો રાહ **જોઉં છું**.",
+      "examples": [
+        { "native": "મેં હમણાં જ તને મેસેજ કર્યો.", "roman": "meṃ hamṇāṃ j tane mesej karyo.", "en": "I just texted you." },
+        { "native": "એણે પહેલેથી ટેબલ બુક કરી દીધું હતું.", "roman": "eṇe pahelethī ṭebal buk karī dīdhuṃ hatuṃ.", "en": "He'd already booked a table." },
+        { "native": "રાજ હજી ઑફિસમાં છે.", "roman": "rāj hajī ofismāṃ chhe.", "en": "Raj is still at the office." },
+        { "native": "મેં હજી એનો મેસેજ જોયો નથી.", "roman": "meṃ hajī eno mesej joyo nathī.", "en": "I haven't seen his message yet." },
+        { "native": "હું ક્યારનો તારી વાટ જોઉં છું!", "roman": "huṃ kyārno tārī vāṭ jouṃ chhuṃ!", "en": "I've been waiting for you for ages! (man)" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A call from the train",
+    "setting": "Mehul in Ahmedabad finally gets through to his friend Ankit, who is on the train from Vadodara.",
+    "lines": [
+      { "speaker": "Mehul", "native": "હેલો? અંકિત? હું ક્યારનો ફોન કરું છું, તું ઉપાડતો કેમ નથી?", "roman": "helo? aṅkit? huṃ kyārno fon karuṃ chhuṃ, tuṃ upāḍto kem nathī?", "en": "Hello? Ankit? I've been calling for ages, why don't you pick up?" },
+      { "speaker": "Ankit", "native": "સૉરી યાર, ટ્રેનમાં છું. ટ્રેન હમણાં જ વડોદરાથી નીકળી.", "roman": "sorī yār, ṭrenmāṃ chhuṃ. ṭren hamṇāṃ j vaḍodarāthī nīkaḷī.", "en": "Sorry, man, I'm on the train. It just left Vadodara." },
+      { "speaker": "Mehul", "native": "સારું. તો ક્યારે પહોંચીશ?", "roman": "sāruṃ. to kyāre pahoṃchīsh?", "en": "OK. So when will you get here?" },
+      { "speaker": "Ankit", "native": "લગભગ… બે… કલાક…", "roman": "lagbhag… be… kalāk…", "en": "About… two… hours…" },
+      { "speaker": "Mehul", "native": "હેલો? તારો અવાજ કપાય છે. જરા મોટેથી બોલ!", "roman": "helo? tāro avāj kapāy chhe. jarā moṭethī bol!", "en": "Hello? You're breaking up. Speak up a bit!" },
+      { "speaker": "Ankit", "native": "મારો અવાજ સંભળાય છે? અહીં નેટવર્ક નથી!", "roman": "māro avāj sambhaḷāy chhe? ahīṃ neṭvark nathī!", "en": "Can you hear me? There's no signal here!" },
+      { "speaker": "Mehul", "native": "હા, હવે બરાબર સંભળાય છે. સાંભળ, સ્ટેશન પર ઊતરીને મને ફોન કરજે, હું લેવા આવીશ.", "roman": "hā, have barābar sambhaḷāy chhe. sāṃbhaḷ, sṭeshan par ūtarīne mane fon karje, huṃ levā āvīsh.", "en": "Yes, I can hear you fine now. Listen, call me when you get off at the station, I'll come and get you." },
+      { "speaker": "Ankit", "native": "ના ના, તું લોકેશન મોકલ, હું રિક્ષા કરીને આવી જઈશ.", "roman": "nā nā, tuṃ lokeshan mokal, huṃ rikṣā karīne āvī jaīsh.", "en": "No, no, send me your location, I'll take a rickshaw." },
+      { "speaker": "Mehul", "native": "પાક્કું? ઠીક છે, હમણાં જ મોકલું છું.", "roman": "pākkuṃ? ṭhīk chhe, hamṇāṃ j mokluṃ chhuṃ.", "en": "Sure? OK, I'll send it right now." },
+      { "speaker": "Ankit", "native": "અને મારી બૅટરી પણ પૂરી થવાની છે…", "roman": "ane mārī beṭrī paṇ pūrī thavānī chhe…", "en": "And my battery's about to die too…" },
+      { "speaker": "Mehul", "native": "હદ થઈ ગઈ! તો ફોન મૂક, અને પહોંચીને વૉઇસ નોટ મોકલજે.", "roman": "had thaī gaī! to fon mūk, ane pahoṃchīne vois noṭ mokalje.", "en": "Unbelievable! Then hang up, and send a voice note when you arrive." },
+      { "speaker": "Ankit", "native": "હા, ચાલ, ફોન મૂકું. આવજે!", "roman": "hā, chāl, fon mūkuṃ. āvje!", "en": "Yes, OK, I'll hang up. Bye!" }
+    ]
+  },
+  "culture": "Gujaratis answer the phone with **હેલો** (or **જય શ્રી કૃષ્ણ** with elders and in many traditional families), and older relatives may open with **કોણ?** before you've said a word. Calls to family are frequent and long, and ending one is a ritual: **ચાલ, મૂકું?** … **હા, ચાલ** … **આવજે** … **ધ્યાન રાખજે** … **હા, આવજે** — hanging up after the first goodbye can seem abrupt. WhatsApp runs everything: the **ફૅમિલી ગ્રુપ** with its good-morning images and forwarded jokes, the friends' group where plans are made, and the voice notes that elders prefer to typing in Gujarati script (many younger people type Gujarati in English letters: *kem chho? kyare male che?*). A **મિસ્ડ કૉલ** given on purpose is still a signal ('I'm downstairs', 'call me back'). Leaving a message on 'seen' (**બ્લૂ ટિક**) without replying is noticed and commented on. Calling after about 10 pm, unless it's urgent or very close family, is considered late. For relatives in the US, UK, Canada and East Africa, the weekend **વીડિયો કૉલ** is how the diaspora keeps the language alive for its children.",
+  "lessons": [
+    {
+      "title": "Making and taking calls",
+      "tip": { "title": "Calling someone", "body": "- **X-ને ફોન કરવો** 'to call X' — the person takes **-ને**: મમ્મી**ને** ફોન કર.\n- In the past it is ergative and agrees with **ફોન / કૉલ** (m): મેં ફોન **કર્યો**, તેં ફોન કેમ ના **ઉપાડ્યો**?\n- **ઉપાડવો** 'pick up', **મૂકવો** 'hang up'.", "pattern": "X-ને ફોન કરવો · મેં ફોન કર્યો" },
+      "new": ["કૉલ", "મિસ્ડ કૉલ", "વીડિયો કૉલ", "ઉપાડવું", "રિંગ", "હેલો, કોણ બોલે છે?", "તેં ફોન કેમ ના ઉપાડ્યો?", "મેં તને મિસ્ડ કૉલ આપ્યો હતો."],
+      "sentences": [
+        { "native": "મેં તને ત્રણ વાર ફોન કર્યો!", "roman": "meṃ tane traṇ vār fon karyo!", "en": "I called you three times!", "focus": "કર્યો", "wrong": ["કરી|karī", "કર્યું|karyuṃ"] },
+        { "native": "રિંગ જાય છે, પણ કોઈ ઉપાડતું નથી.", "roman": "riṅg jāy chhe, paṇ koī upāḍtuṃ nathī.", "en": "It's ringing, but nobody's picking up." },
+        { "native": "મમ્મીને વીડિયો કૉલ કર ને.", "roman": "mammīne vīḍiyo kol kar ne.", "en": "Go on, video call Mum.", "focus": "મમ્મીને", "wrong": ["મમ્મી|mammī", "મમ્મીનો|mammīno"] },
+        { "native": "તેં ફોન કેમ ના ઉપાડ્યો? હું ચિંતામાં હતી.", "roman": "teṃ fon kem nā upāḍyo? huṃ chintāmāṃ hatī.", "en": "Why didn't you pick up? I was worried. (woman)", "focus": "તેં", "wrong": ["તું|tuṃ", "તને|tane"] },
+        { "native": "મેં તને મિસ્ડ કૉલ આપ્યો હતો, જોયો?", "roman": "meṃ tane misḍ kol āpyo hato, joyo?", "en": "I gave you a missed call, did you see it?", "focus": "આપ્યો", "wrong": ["આપી|āpī", "આપ્યું|āpyuṃ"] },
+        { "native": "હેલો, કોણ બોલે છે? અવાજ નથી આવતો.", "roman": "helo, koṇ bole chhe? avāj nathī āvto.", "en": "Hello, who's this? I can't hear anything." },
+        { "native": "ઉપાડ ને, યાર!", "roman": "upāḍ ne, yār!", "en": "Pick up, man!", "focus": "ઉપાડ", "wrong": ["ઉપાડે|upāḍe", "ઉપાડ્યો|upāḍyo"] },
+        { "native": "દાદીને રોજ સાંજે વીડિયો કૉલ કરું છું.", "roman": "dādīne roj sāṃje vīḍiyo kol karuṃ chhuṃ.", "en": "I video call Grandma every evening.", "focus": "દાદીને", "wrong": ["દાદી|dādī", "દાદીની|dādīnī"] },
+        { "native": "હું મીટિંગમાં હતો, એટલે ફોન ના ઉપાડ્યો.", "roman": "huṃ mīṭiṅgmāṃ hato, eṭle fon nā upāḍyo.", "en": "I was in a meeting, so I didn't pick up. (man)", "focus": "ઉપાડ્યો", "wrong": ["ઉપાડી|upāḍī", "ઉપાડ્યું|upāḍyuṃ"] },
+        { "native": "એણે મને કાલે રાત્રે કૉલ કર્યો હતો.", "roman": "eṇe mane kāle rātre kol karyo hato.", "en": "She called me last night.", "focus": "એણે", "wrong": ["એ|e", "એને|ene"] }
+      ]
+    },
+    {
+      "title": "Can you hear me?",
+      "tip": { "title": "સંભળાય છે? — is it audible?", "body": "- Gujarati says 'is it heard?': the sound is the subject, the listener takes **-ને**: **મને** સંભળાય છે 'I can hear'.\n- Negative: **નથી સંભળાતો / સંભળાતી / સંભળાતું**, agreeing with the thing heard: અવાજ (m) → **સંભળાતો**.\n- Past: **સંભળાયું?** 'did you hear?'", "pattern": "મને + X + સંભળાય છે / નથી સંભળાતો" },
+      "new": ["અવાજ", "સંભળાવું", "મોટેથી", "નેટવર્ક", "કપાવું", "મારો અવાજ સંભળાય છે?", "તારો અવાજ કપાય છે.", "જરા મોટેથી બોલ.", "અહીં નેટવર્ક નથી."],
+      "sentences": [
+        { "native": "મને તારો અવાજ નથી સંભળાતો.", "roman": "mane tāro avāj nathī sambhaḷāto.", "en": "I can't hear you.", "focus": "સંભળાતો", "wrong": ["સંભળાતી|sambhaḷātī", "સંભળાતું|sambhaḷātuṃ"] },
+        { "native": "મારો અવાજ સંભળાય છે? હેલો?", "roman": "māro avāj sambhaḷāy chhe? helo?", "en": "Can you hear me? Hello?" },
+        { "native": "હવે મને બરાબર સંભળાય છે.", "roman": "have mane barābar sambhaḷāy chhe.", "en": "I can hear you fine now.", "focus": "મને", "wrong": ["હું|huṃ", "મારું|māruṃ"] },
+        { "native": "ટ્રેનમાં કંઈ સંભળાતું નથી.", "roman": "ṭrenmāṃ kaṃī sambhaḷātuṃ nathī.", "en": "I can't hear a thing on the train.", "focus": "સંભળાતું", "wrong": ["સંભળાતો|sambhaḷāto", "સંભળાતી|sambhaḷātī"] },
+        { "native": "તને મારી વાત સંભળાઈ?", "roman": "tane mārī vāt sambhaḷāī?", "en": "Did you hear what I said?", "focus": "સંભળાઈ", "wrong": ["સંભળાયો|sambhaḷāyo", "સંભળાયું|sambhaḷāyuṃ"] },
+        { "native": "દાદીને ઓછું સંભળાય છે, મોટેથી બોલજે.", "roman": "dādīne ochhuṃ sambhaḷāy chhe, moṭethī bolje.", "en": "Grandma's hard of hearing, speak up.", "focus": "દાદીને", "wrong": ["દાદી|dādī", "દાદીનું|dādīnuṃ"] },
+        { "native": "તારો અવાજ કપાય છે, હું બહાર આવું છું.", "roman": "tāro avāj kapāy chhe, huṃ bahār āvuṃ chhuṃ.", "en": "You're breaking up, I'll step outside." },
+        { "native": "અહીં નેટવર્ક નથી, ફોન ફરી કપાઈ ગયો.", "roman": "ahīṃ neṭvark nathī, fon farī kapāī gayo.", "en": "There's no signal here, the call dropped again.", "focus": "ગયો", "wrong": ["ગઈ|gaī", "ગયું|gayuṃ"] },
+        { "native": "જરા મોટેથી બોલ, અહીં બહુ અવાજ છે.", "roman": "jarā moṭethī bol, ahīṃ bahu avāj chhe.", "en": "Speak up a bit, it's really noisy here." },
+        { "native": "ઉપર આવ, ત્યાં નેટવર્ક સારું આવે છે.", "roman": "upar āv, tyāṃ neṭvark sāruṃ āve chhe.", "en": "Come upstairs, the signal's good there.", "focus": "સારું", "wrong": ["સારો|sāro", "સારી|sārī"] },
+        { "native": "મોટેથી ના બોલ, બાળક સૂતું છે.", "roman": "moṭethī nā bol, bāḷak sūtuṃ chhe.", "en": "Don't talk loudly, the baby's asleep." }
+      ]
+    },
+    {
+      "title": "I'll call you back",
+      "tip": { "title": "Do X and then Y: -ઈને", "body": "- The first action takes **-ઈને** 'having done': **પહોંચીને** ફોન કરજે 'call when you get there'.\n- Irregular: જવું → **જઈને**, લેવું → **લઈને**.\n- No **અને** between them, and the tense goes on the last verb only.\n- 'Without doing' is **-યા વગર**: **જમ્યા વગર** 'without eating'.", "pattern": "stem + -ઈને + main verb", "grammar": 0 },
+      "new": ["ચાર્જ", "બૅટરી", "ચાલુ", "બંધ", "હું તને પછી ફોન કરું.", "મારા ફોનમાં ચાર્જ નથી.", "એનો ફોન સ્વિચ ઑફ આવે છે.", "ફોન મૂકું?"],
+      "sentences": [
+        { "native": "હું ઘરે પહોંચીને તને ફોન કરું.", "roman": "huṃ ghare pahoṃchīne tane fon karuṃ.", "en": "I'll call you once I get home.", "focus": "પહોંચીને", "wrong": ["પહોંચ્યો|pahoṃchyo", "પહોંચે|pahoṃche"] },
+        { "native": "ફોન ચાર્જ કરીને નીકળજે.", "roman": "fon chārj karīne nīkaḷje.", "en": "Charge your phone before you leave.", "focus": "કરીને", "wrong": ["કરે|kare", "કર્યો|karyo"] },
+        { "native": "મીટિંગ પૂરી કરીને તને ફોન કરું છું.", "roman": "mīṭiṅg pūrī karīne tane fon karuṃ chhuṃ.", "en": "I'll call you when I've finished the meeting.", "focus": "કરીને", "wrong": ["કરી|karī", "કરશે|karshe"] },
+        { "native": "ફોન ચાલુ રાખજે, હું નીચે જઈને જોઉં છું.", "roman": "fon chālu rākhje, huṃ nīche jaīne jouṃ chhuṃ.", "en": "Keep your phone on, I'll go down and have a look.", "focus": "જઈને", "wrong": ["જાય|jāy", "ગયો|gayo"] },
+        { "native": "ફોન બંધ કરીને સૂઈ જા.", "roman": "fon bandh karīne sūī jā.", "en": "Switch off your phone and go to sleep.", "focus": "કરીને", "wrong": ["કરે|kare", "કરતો|karto"] },
+        { "native": "ઘરે જઈને ફોન ચાર્જમાં મૂકી દે.", "roman": "ghare jaīne fon chārjmāṃ mūkī de.", "en": "Put your phone on charge when you get home.", "focus": "જઈને", "wrong": ["જા|jā", "ગઈ|gaī"] },
+        { "native": "એ મને મળ્યા વગર જતો રહ્યો.", "roman": "e mane maḷyā vagar jato rahyo.", "en": "He left without seeing me.", "focus": "મળ્યા", "wrong": ["મળીને|maḷīne", "મળે|maḷe"] },
+        { "native": "મારી બૅટરી પૂરી થઈ ગઈ, ફોન બંધ થઈ જશે.", "roman": "mārī beṭrī pūrī thaī gaī, fon bandh thaī jashe.", "en": "My battery's dead, the phone's going to switch off.", "focus": "ગઈ", "wrong": ["ગયો|gayo", "ગયું|gayuṃ"] },
+        { "native": "એનો ફોન સ્વિચ ઑફ આવે છે, કદાચ ચાર્જ નહીં હોય.", "roman": "eno fon svich of āve chhe, kadāch chārj nahīṃ hoy.", "en": "His phone's switched off, maybe it's out of charge." },
+        { "native": "હું તને પછી ફોન કરું, અત્યારે મીટિંગમાં છું.", "roman": "huṃ tane pachhī fon karuṃ, atyāre mīṭiṅgmāṃ chhuṃ.", "en": "Let me call you back, I'm in a meeting right now." },
+        { "native": "ચાલ, ફોન મૂકું? મમ્મી બોલાવે છે.", "roman": "chāl, fon mūkuṃ? mammī bolāve chhe.", "en": "OK, I'll let you go? Mum's calling me." }
+      ]
+    },
+    {
+      "title": "Texts and voice notes",
+      "tip": { "title": "Just and already", "body": "- **હમણાં જ** + past = 'just': મેં **હમણાં જ** મેસેજ કર્યો.\n- **પહેલેથી** = 'already, beforehand', usually with a compound verb: પહેલેથી **કહી દીધું** છે.\n- A compound verb alone often means 'already': એ **નીકળી ગયો**.\n- **મારાથી** ડિલીટ થઈ ગયું = 'I deleted it by accident' (lit. 'it got deleted by me').", "pattern": "હમણાં જ + past · પહેલેથી + -ઈ લીધું / દીધું", "grammar": 1 },
+      "new": ["મેસેજ", "વૉઇસ નોટ", "જવાબ", "ઑનલાઇન", "ડિલીટ", "હમણાં જ", "પહેલેથી", "મેસેજ જોયો?", "વૉઇસ નોટ મોકલું?"],
+      "sentences": [
+        { "native": "મેં હમણાં જ મેસેજ કર્યો, જો.", "roman": "meṃ hamṇāṃ j mesej karyo, jo.", "en": "I just sent you a message, look.", "focus": "કર્યો", "wrong": ["કરી|karī", "કર્યું|karyuṃ"] },
+        { "native": "મેસેજ જોયો? જવાબ કેમ નથી આપતો?", "roman": "mesej joyo? javāb kem nathī āpto?", "en": "Did you see my message? Why aren't you replying? (to a man)" },
+        { "native": "એ હમણાં જ ઑનલાઇન હતી, પણ જવાબ ના આપ્યો.", "roman": "e hamṇāṃ j onlāin hatī, paṇ javāb nā āpyo.", "en": "She was online just now, but she didn't reply.", "focus": "હતી", "wrong": ["હતો|hato", "હતું|hatuṃ"] },
+        { "native": "વૉઇસ નોટ મોકલું? લખવાનો ટાઇમ નથી.", "roman": "vois noṭ mokluṃ? lakhvāno ṭāim nathī.", "en": "Shall I send a voice note? I don't have time to type." },
+        { "native": "મમ્મીએ દસ મિનિટની વૉઇસ નોટ મોકલી!", "roman": "mammīe das miniṭnī vois noṭ moklī!", "en": "Mum sent a ten-minute voice note!", "focus": "મોકલી", "wrong": ["મોકલ્યો|moklyo", "મોકલ્યું|moklyuṃ"] },
+        { "native": "મેં પહેલેથી બધાને કહી દીધું છે.", "roman": "meṃ pahelethī badhāne kahī dīdhuṃ chhe.", "en": "I've already told everyone.", "focus": "પહેલેથી", "wrong": ["હજી|hajī", "પછીથી|pachhīthī"] },
+        { "native": "ટિકિટ? મેં પહેલેથી બુક કરી લીધી છે.", "roman": "ṭikiṭ? meṃ pahelethī buk karī līdhī chhe.", "en": "Tickets? I've already booked them.", "focus": "લીધી", "wrong": ["લીધો|līdho", "લીધું|līdhuṃ"] },
+        { "native": "મારાથી મેસેજ ડિલીટ થઈ ગયો.", "roman": "mārāthī mesej ḍilīṭ thaī gayo.", "en": "I deleted the message by accident.", "focus": "ગયો", "wrong": ["ગઈ|gaī", "ગયું|gayuṃ"] },
+        { "native": "તું પહેલેથી પહોંચી ગઈ?", "roman": "tuṃ pahelethī pahoṃchī gaī?", "en": "You're there already? (to a woman)", "focus": "ગઈ", "wrong": ["ગયો|gayo", "ગયું|gayuṃ"] },
+        { "native": "હું હમણાં જ ઊઠ્યો, પછી જવાબ આપું.", "roman": "huṃ hamṇāṃ j ūṭhyo, pachhī javāb āpuṃ.", "en": "I just woke up, I'll reply later. (man)", "focus": "ઊઠ્યો", "wrong": ["ઊઠું|ūṭhuṃ", "ઊઠીશ|ūṭhīsh"] }
+      ]
+    },
+    {
+      "title": "Still waiting",
+      "tip": { "title": "Still, not yet, for ages", "body": "- **હજી** 'still': એ **હજી** ઑફિસમાં છે.\n- **હજી … નથી** + perfect = 'not yet': **હજી નથી આવ્યો**. (એ ના આવ્યો = 'he didn't come'.)\n- **ક્યારનો / ક્યારની** 'for ages' + present: હું **ક્યારની** ફોન કરું છું (woman). With the past: 'ages ago'.", "pattern": "હજી + નથી + -યો / -યું  ·  ક્યારનો + present", "grammar": 1 },
+      "new": ["હજી", "ક્યારનું", "ગ્રુપ", "સ્ટેટસ", "લોકેશન", "લોકેશન મોકલ ને.", "હજી સુધી જવાબ નથી આવ્યો."],
+      "sentences": [
+        { "native": "એ હજી રસ્તામાં છે.", "roman": "e hajī rastāmāṃ chhe.", "en": "He's still on the way." },
+        { "native": "મેં હજી ગ્રુપના મેસેજ વાંચ્યા નથી.", "roman": "meṃ hajī grupnā mesej vāṃchyā nathī.", "en": "I haven't read the group messages yet.", "focus": "વાંચ્યા", "wrong": ["વાંચ્યો|vāṃchyo", "વાંચી|vāṃchī"] },
+        { "native": "હજી સુધી જવાબ નથી આવ્યો, ચિંતા થાય છે.", "roman": "hajī sudhī javāb nathī āvyo, chintā thāy chhe.", "en": "Still no reply, I'm getting worried.", "focus": "આવ્યો", "wrong": ["આવી|āvī", "આવ્યું|āvyuṃ"] },
+        { "native": "હું ક્યારની તને ફોન કરું છું!", "roman": "huṃ kyārnī tane fon karuṃ chhuṃ!", "en": "I've been calling you for ages! (woman)", "focus": "ક્યારની", "wrong": ["ક્યારનો|kyārno", "ક્યારનું|kyārnuṃ"] },
+        { "native": "એ તો ક્યારનો નીકળી ગયો.", "roman": "e to kyārno nīkaḷī gayo.", "en": "Oh, he left ages ago.", "focus": "ક્યારનો", "wrong": ["ક્યારની|kyārnī", "ક્યારે|kyāre"] },
+        { "native": "તેં મારું સ્ટેટસ હજી નથી જોયું?", "roman": "teṃ māruṃ sṭeṭas hajī nathī joyuṃ?", "en": "You still haven't seen my status?", "focus": "જોયું", "wrong": ["જોયો|joyo", "જોઈ|joī"] },
+        { "native": "બાળકો હજી સૂતાં છે.", "roman": "bāḷko hajī sūtāṃ chhe.", "en": "The kids are still asleep.", "focus": "સૂતાં", "wrong": ["સૂતો|sūto", "સૂતી|sūtī"] },
+        { "native": "તું હજી તૈયાર નથી થઈ?", "roman": "tuṃ hajī taiyār nathī thaī?", "en": "You're still not ready? (to a woman)", "focus": "થઈ", "wrong": ["થયો|thayo", "થયું|thayuṃ"] },
+        { "native": "લોકેશન મોકલ ને, હું રસ્તો ભૂલી ગયો છું.", "roman": "lokeshan mokal ne, huṃ rasto bhūlī gayo chhuṃ.", "en": "Send me your location, will you, I've lost my way." },
+        { "native": "ગ્રુપમાં બધાને કહી દે કે હું લેટ છું.", "roman": "grupmāṃ badhāne kahī de ke huṃ leṭ chhuṃ.", "en": "Tell everyone in the group I'm late." },
+        { "native": "રાજ હજી ઑનલાઇન નથી આવ્યો.", "roman": "rāj hajī onlāin nathī āvyo.", "en": "Raj hasn't come online yet.", "focus": "આવ્યો", "wrong": ["આવી|āvī", "આવ્યું|āvyuṃ"] }
+      ]
+    }
+  ]
+}

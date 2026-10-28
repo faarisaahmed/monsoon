@@ -1,0 +1,208 @@
+{
+  "id": 39,
+  "title": "Sounding natural",
+  "goal": "React like a local, use tag questions and emphasis particles, make echo words, ask people to repeat or explain, get round words you don't know, and mix in English the way people do.",
+  "intro": "You can now say almost anything in correct Gujarati. This unit is about saying it the way Gujaratis do: the little noises (**હાશ!**, **બાપ રે!**, **અરેરે!**), the tags that turn a statement into a friendly question (**મસ્ત છે, નહીં?**, **તું આવે છે ને?**), the particles **જ**, **તો**, **ય** and **વળી** that carry so much of the meaning, and echo words like **ચા-બા** 'tea or something'.\n\nYou'll also practise the survival skills of a learner: asking people to repeat or slow down, asking what a word means, describing a thing whose name you've forgotten, and mixing in English — because every Gujarati you meet does.",
+  "vocab": [
+    { "native": "વાહ", "roman": "vāh", "en": "wow! well done!", "pos": "interj", "note": "વાહ, શું વાત છે! 'wow, how about that!'" },
+    { "native": "ઓહો", "roman": "oho", "en": "oho! (surprise, often teasing)", "pos": "interj" },
+    { "native": "અરેરે", "roman": "arere", "en": "oh no! what a shame!", "pos": "interj", "note": "sympathy for bad news" },
+    { "native": "છી", "roman": "chhī", "en": "yuck! ew!", "pos": "interj" },
+    { "native": "હાશ", "roman": "hāsh", "en": "phew! (relief)", "pos": "interj", "note": "a very Gujarati sigh: હાશ, પહોંચી ગયા!" },
+    { "native": "બાપ રે", "roman": "bāp re", "en": "oh my God! good grief! (shock)", "pos": "interj", "note": "stronger: બાપ રે બાપ!" },
+    { "native": "ભાઈસાબ", "roman": "bhāīsāb", "en": "oh, for heaven's sake! (exasperation)", "pos": "interj", "note": "lit. 'brother sir'; also a polite way to address a man you don't know" },
+    { "native": "સાચ્ચે", "roman": "sāchche", "en": "really? seriously?; honestly", "pos": "adv", "note": "from સાચું 'true'" },
+    { "native": "ખરું", "roman": "kharuṃ", "en": "right?, isn't it? (tag); true", "pos": "adj", "note": "as a tag it never changes: સરસ છે, ખરું? · ખરું ને? 'right, isn't it?'" },
+    { "native": "સમ", "roman": "sam", "en": "oath, swear", "pos": "noun", "note": "m · તારા સમ! 'I swear (on you)!' · ભગવાનના સમ 'I swear to God'" },
+    { "native": "સિરિયસલી", "roman": "siriyaslī", "en": "seriously", "pos": "adv", "note": "સિરિયસલી? 'seriously?' — as common as in English" },
+    { "native": "વળી", "roman": "vaḷī", "en": "now (annoyed); and what's more", "pos": "particle", "note": "આ વળી શું? 'what's this now?'" },
+    { "native": "ય", "roman": "y", "en": "too, even (casual form of પણ)", "pos": "particle", "note": "joined in speech to the word before: હું ય 'me too', એ ય 'him too'" },
+    { "native": "એમ જ", "roman": "em j", "en": "just like that, for no reason", "pos": "adv" },
+    { "native": "ચા-બા", "roman": "chā-bā", "en": "tea or something, tea and stuff", "pos": "noun", "note": "an echo word: the second half repeats the first with બ" },
+    { "native": "ફટાફટ", "roman": "faṭāfaṭ", "en": "quickly, in a flash", "pos": "adv" },
+    { "native": "થોડુંઘણું", "roman": "thoḍuṃghaṇuṃ", "en": "a bit, a fair amount", "pos": "adv", "note": "lit. 'a little-a lot': ગુજરાતી થોડુંઘણું આવડે છે 'I know a bit of Gujarati'" },
+    { "native": "સમજાવું", "roman": "samjāvuṃ", "en": "to be understood, to make sense (to someone)", "pos": "verb", "note": "with -ને: મને સમજાયું 'I got it' · સમજાયું? 'got it?' · don't confuse with સમજાવવું 'to explain'" },
+    { "native": "ઉચ્ચાર", "roman": "uchchār", "en": "pronunciation", "pos": "noun", "note": "m" },
+    { "native": "લહેકો", "roman": "laheko", "en": "accent, lilt (of a region)", "pos": "noun", "note": "m · સુરતી લહેકો, કાઠિયાવાડી લહેકો" },
+    { "native": "અટકવું", "roman": "aṭakvuṃ", "en": "to stop, pause; to get stuck", "pos": "verb", "note": "અટકી અટકીને બોલવું 'to speak haltingly'" },
+    { "native": "શબ્દ", "roman": "shabd", "en": "word", "pos": "noun", "note": "m · pl: શબ્દો" },
+    { "native": "અર્થ", "roman": "arth", "en": "meaning", "pos": "noun", "note": "m · એનો અર્થ શું થાય? 'what does it mean?' · in speech also મતલબ" },
+    { "native": "ઍક્ચ્યુઅલી", "roman": "ekchyuālī", "en": "actually", "pos": "adv", "note": "heard in every second sentence of young urban Gujaratis" },
+    { "native": "ગુજલિશ", "roman": "gujlish", "en": "Gujlish: Gujarati mixed with English", "pos": "noun", "note": "f" },
+    { "native": "મિક્સ", "roman": "miks", "en": "mixed", "pos": "adj", "note": "મિક્સ કરવું 'to mix'" },
+    { "native": "ટોકવું", "roman": "ṭokvuṃ", "en": "to pull (someone) up, correct; to interrupt", "pos": "verb", "note": "ભૂલ થાય તો ટોકજે 'correct me if I get it wrong'" }
+  ],
+  "phrases": [
+    { "native": "હા ને, યાર!", "roman": "hā ne, yār!", "en": "Yeah, totally! / Tell me about it! (informal)" },
+    { "native": "તારા સમ!", "roman": "tārā sam!", "en": "I swear! (informal, lit. on you)" },
+    { "native": "કંઈ નહીં, એમ જ.", "roman": "kaṃī nahīṃ, em j.", "en": "Nothing, no reason." },
+    { "native": "ચા-બા પીશો?", "roman": "chā-bā pīsho?", "en": "Will you have some tea or something? (polite)", "note": "to a friend: ચા-બા પીશે?" },
+    { "native": "એક મિનિટ, શું કહ્યું?", "roman": "ek miniṭ, shuṃ kahyuṃ?", "en": "Hang on, what did you say?" },
+    { "native": "ફરીથી બોલ ને?", "roman": "farīthī bol ne?", "en": "Say that again? (informal)", "note": "polite: ફરીથી કહેશો?" },
+    { "native": "જરા ધીમે બોલશો?", "roman": "jarā dhīme bolsho?", "en": "Could you speak a bit more slowly? (polite)" },
+    { "native": "મને સમજાયું નહીં.", "roman": "mane samjāyuṃ nahīṃ.", "en": "I didn't get it." },
+    { "native": "વચ્ચે બોલું છું, માફ કરજો.", "roman": "vachche boluṃ chhuṃ, māf karjo.", "en": "Sorry to interrupt." },
+    { "native": "આને ગુજરાતીમાં શું કહેવાય?", "roman": "āne gujarātīmāṃ shuṃ kahevāy?", "en": "What do you call this in Gujarati?" },
+    { "native": "શું કહેવાય… પેલું…", "roman": "shuṃ kahevāy… peluṃ…", "en": "What's it called… that thing…" },
+    { "native": "એનો અર્થ શું થાય?", "roman": "eno arth shuṃ thāy?", "en": "What does that mean?" },
+    { "native": "એક જાતની મીઠાઈ છે.", "roman": "ek jātnī mīṭhāī chhe.", "en": "It's a kind of sweet.", "note": "જાત (f) 'kind, type': એક જાતનો નાસ્તો (m), એક જાતનું ફળ (n)" }
+  ],
+  "grammar": [
+    {
+      "title": "Tag questions: ને?, નહીં?, ખરું?, કે શું?",
+      "body": "Gujarati turns a statement into a friendly 'isn't it? / right?' question with a small word at the end and a rising voice.\n\n**ને?** — the everyday tag, expecting 'yes': **તું આવે છે ને?** 'you're coming, aren't you?', **ખબર છે ને?** 'you know, right?'\n**નહીં?** — after a positive opinion, inviting agreement: **મસ્ત છે, નહીં?** 'it's great, isn't it?'\n**ખરું? / ખરું ને?** — 'right? / am I right?': **આ રસ્તો સાચો છે, ખરું ને?** It never changes for gender.\n**કે શું?** — 'or what?', teasing or impatient: **સૂઈ ગયો કે શું?** 'have you fallen asleep or what?'\n**હં?** — after a request or instruction, 'OK?': **મોડું નહીં કરતો, હં?**\n\n**Answering**: **હા ને!** 'yes, of course! / tell me about it!' agrees warmly; **ના રે!** 'oh no, not at all!' denies softly.\n\nThe trap: a final **ને** is not **ના** 'no'. **તું આવે છે ને?** expects *yes*. And after a command **ને** coaxes rather than asks: **બેસો ને** 'do sit down'.",
+      "examples": [
+        { "native": "ગરમી બહુ છે, નહીં?", "roman": "garmī bahu chhe, nahīṃ?", "en": "It's really hot, isn't it?" },
+        { "native": "તમે ગુજરાતી સમજો છો ને?", "roman": "tame gujarātī samjo chho ne?", "en": "You understand Gujarati, right?" },
+        { "native": "આજે રવિવાર છે, ખરું ને?", "roman": "āje ravivār chhe, kharuṃ ne?", "en": "Today's Sunday, isn't it?" },
+        { "native": "તું પાગલ થઈ ગયો કે શું?", "roman": "tuṃ pāgal thaī gayo ke shuṃ?", "en": "Have you gone mad or what?" },
+        { "native": "પહોંચીને ફોન કરજે, હં?", "roman": "pahoṃchīne fon karje, haṃ?", "en": "Call when you get there, OK?" }
+      ]
+    },
+    {
+      "title": "Emphasis: જ, તો, ય, વળી, થોડું",
+      "body": "Gujarati puts emphasis on a word by adding a small particle **right after it**. Moving the particle moves the meaning.\n\n**જ** 'exactly, only, the very': **આજે જ** 'today itself', **એ જ** 'the same one', **મેં જ કહ્યું** '*I'm* the one who said it'. Compare **હું જ જઈશ** 'I'll be the one to go' and **હું આજે જ જઈશ** 'I'll go today itself'.\n\n**તો** 'as for, at least' (contrast): **મને તો ગમ્યું** 'well, *I* liked it'. It also softens a command (**જો તો!** 'just look!') and opens a reply (**તો?** 'so?').\n\n**ય** (casual **પણ**) 'too, even': **હું ય આવું છું** 'I'm coming too'.\n\n**વળી** 'now, on top of that' — annoyed or surprised: **આ વળી કોણ છે?** 'and who's this now?', **આજે વળી શું થયું?** 'what's happened now?'\n\n**થોડું** in a question means 'hardly': **એમ થોડું ચાલે?** 'that's hardly OK, is it?' = 'that won't do'.\n\nThe trap: these particles come **after** the word they stress, never before: ~~જ આજે~~.",
+      "examples": [
+        { "native": "મેં તો પહેલાં જ કહ્યું હતું!", "roman": "meṃ to pahelāṃ j kahyuṃ hatuṃ!", "en": "I said so right at the start!" },
+        { "native": "એ જ દુકાનમાં ગયા, જ્યાં ગયા વર્ષે ગયા હતા.", "roman": "e j dukānmāṃ gayā, jyāṃ gayā varṣe gayā hatā.", "en": "We went to the same shop we went to last year." },
+        { "native": "મને ય ખબર નહોતી.", "roman": "mane y khabar nahotī.", "en": "I didn't know either." },
+        { "native": "આ વળી નવું શું છે?", "roman": "ā vaḷī navuṃ shuṃ chhe?", "en": "What's this new thing now?" },
+        { "native": "રોજ મોડા આવો, એમ થોડું ચાલે?", "roman": "roj moḍā āvo, em thoḍuṃ chāle?", "en": "Coming late every day — that won't do, will it?" }
+      ]
+    },
+    {
+      "title": "Echo words and doubled words: ચા-બા, ધીમે ધીમે",
+      "body": "**Echo words** make a word vaguer and friendlier: 'X or something, X and stuff'. Repeat the word with its first consonant replaced by **બ**: **ચા-બા** 'tea or something', **નાસ્તો-બાસ્તો** 'a snack or whatever', **પાણી-બાણી** 'water or anything'. If the word already starts with બ, use **વ**: **બિસ્કિટ-વિસ્કિટ**. Echo words are warm and casual — perfect for offering things to guests and friends, odd in a job interview.\n\n**Doubled words** have several jobs:\n- gradually / intensity: **ધીમે ધીમે** 'slowly, bit by bit', **ગરમ ગરમ** 'piping hot', **ફટાફટ** 'in a flash'\n- 'which all, who all' (expecting a list): **ક્યાં ક્યાં ગયા?** 'where all did you go?', **કોણ કોણ આવ્યું?** 'who all came?', **શું શું ખાધું?** 'what all did you eat?'\n- ongoing action: **-તાં -તાં** 'while …-ing': **વાત કરતાં કરતાં** 'while chatting'; **-ઈ -ઈને** 'repeatedly': **અટકી અટકીને** 'haltingly'\n\nThe trap: in **ક્યાં ક્યાં / કોણ કોણ** the verb agrees as if with a group: **કોણ કોણ આવ્યું હતું?** (neuter for a mixed group).",
+      "examples": [
+        { "native": "નાસ્તો-બાસ્તો કર્યો કે નહીં?", "roman": "nāsto-bāsto karyo ke nahīṃ?", "en": "Have you had a bite to eat or anything?" },
+        { "native": "ધીમે ધીમે બધું ઠીક થઈ જશે.", "roman": "dhīme dhīme badhuṃ ṭhīk thaī jashe.", "en": "Bit by bit everything will be fine." },
+        { "native": "લગ્નમાં શું શું ખાધું?", "roman": "lagnamāṃ shuṃ shuṃ khādhuṃ?", "en": "What all did you eat at the wedding?" },
+        { "native": "ચાલતાં ચાલતાં વાત કરીએ.", "roman": "chāltāṃ chāltāṃ vāt karīe.", "en": "Let's talk as we walk." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The cousin from Leicester",
+    "setting": "Neel, a British Gujarati from Leicester, is visiting Ahmedabad. His cousin's friend Tejal meets him at the family's home.",
+    "lines": [
+      { "speaker": "Tejal", "native": "ઓહો! આ જ લેસ્ટરવાળો કઝિન ને?", "roman": "oho! ā j lesṭarvāḷo kazin ne?", "en": "Oho! So this is the cousin from Leicester, right?" },
+      { "speaker": "Neel", "native": "હા, હું નીલ. મને ગુજરાતી થોડુંઘણું આવડે છે.", "roman": "hā, huṃ nīl. mane gujarātī thoḍuṃghaṇuṃ āvaḍe chhe.", "en": "Yes, I'm Neel. I know a bit of Gujarati." },
+      { "speaker": "Tejal", "native": "વાહ! તો ચા-બા પીશો? કે કોલ્ડ ડ્રિંક?", "roman": "vāh! to chā-bā pīsho? ke kolḍ ḍriṅk?", "en": "Wow! So will you have tea or something? Or a cold drink?" },
+      { "speaker": "Neel", "native": "સૉરી, ફરીથી બોલશો? \"ચા-બા\" એટલે?", "roman": "sorī, farīthī bolsho? \"chā-bā\" eṭle?", "en": "Sorry, could you say that again? What does \"chā-bā\" mean?" },
+      { "speaker": "Tejal", "native": "હા હા! એટલે ચા કે એવું કંઈ. અમે એવું જ બોલીએ, ખબર છે ને?", "roman": "hā hā! eṭle chā ke evuṃ kaṃī. ame evuṃ j bolīe, khabar chhe ne?", "en": "Ha ha! It means tea or something like that. That's just how we talk, you know?" },
+      { "speaker": "Neel", "native": "ઓકે, સમજાયું. ચા-બા, પાણી-બાણી… મસ્ત છે, નહીં?", "roman": "oke, samjāyuṃ. chā-bā, pāṇī-bāṇī… mast chhe, nahīṃ?", "en": "OK, got it. Chā-bā, pāṇī-bāṇī… that's great, isn't it?" },
+      { "speaker": "Tejal", "native": "સાચ્ચે, તારો ઉચ્ચાર એકદમ સરસ છે! બિલકુલ લેસ્ટરવાળો નથી લાગતો.", "roman": "sāchche, tāro uchchār ekdam saras chhe! bilkul lesṭarvāḷo nathī lāgto.", "en": "Honestly, your pronunciation is really good! You don't sound like you're from Leicester at all." },
+      { "speaker": "Neel", "native": "તારા સમ? ઘરે તો બધા મને ટોકે છે.", "roman": "tārā sam? ghare to badhā mane ṭoke chhe.", "en": "Swear? At home everyone corrects me." },
+      { "speaker": "Tejal", "native": "ઘરે બધા ગુજલિશ જ બોલે છે ને? \"બેટા, ફ્રિજમાંથી મિલ્ક લઈ આવ\", એવું?", "roman": "ghare badhā gujlish j bole chhe ne? \"beṭā, frijmāṃthī milk laī āv\", evuṃ?", "en": "Everyone at home speaks Gujlish, right? \"Beta, bring the milk from the fridge\", like that?" },
+      { "speaker": "Neel", "native": "હા ને, યાર! એકદમ એવું જ!", "roman": "hā ne, yār! ekdam evuṃ j!", "en": "Yeah, totally! Exactly like that!" },
+      { "speaker": "Tejal", "native": "તો અહીં પણ એવું જ. ઍક્ચ્યુઅલી, અમે તો વધારે મિક્સ કરીએ છીએ!", "roman": "to ahīṃ paṇ evuṃ j. ekchyuālī, ame to vadhāre miks karīe chhīe!", "en": "Well, it's the same here. Actually, we mix even more!" },
+      { "speaker": "Neel", "native": "હાશ! તો મારું ગુજરાતી પાસ?", "roman": "hāsh! to māruṃ gujarātī pās?", "en": "Phew! So my Gujarati passes?" },
+      { "speaker": "Tejal", "native": "પાસ, પાસ! હવે ચા-બા પીવી છે કે નહીં?", "roman": "pās, pās! have chā-bā pīvī chhe ke nahīṃ?", "en": "It passes! Now do you want tea or not?" }
+    ]
+  },
+  "culture": "Sounding natural in Gujarati is mostly about the small words. Listeners react constantly (**હં**, **હા ને!**, **બાપ રે!**), requests end with **ને** or **હં**, and **જ** and **તો** do the work English does with stress and tone of voice. Regional accents are a favourite topic: the **સુરતી** way of speaking is famously blunt and colourful (Suratis are teased for their swearing and loved for their food), and **કાઠિયાવાડી** from Saurashtra says **હાલો** for ચાલો 'let's go' and **મા** for 'don't' (**જા મા** 'don't go'). Nobody minds a learner's accent; people will happily **ટોકે** (correct) you if you ask. English is everywhere: urban Gujaratis say **ઍક્ચ્યુઅલી**, **સિરિયસલી**, **ટેન્શન**, **ઍડજસ્ટ કરવું** without thinking, and in Leicester, Wembley or New Jersey family Gujarati is full of fridge, milk and parking. If you forget a word, say it in English or describe it (**એક જાતની…**) — that is exactly what native speakers do.",
+  "lessons": [
+    {
+      "title": "Reacting like a local",
+      "tip": { "title": "React out loud", "body": "- Good news: **વાહ!** · teasing surprise: **ઓહો!** · bad news: **અરેરે!** · gross: **છી!**\n- Relief: **હાશ!** · shock: **બાપ રે!** · exasperation: **ભાઈસાબ!**\n- **સાચ્ચે?** 'seriously?' · agree warmly: **હા ને, યાર!**" },
+      "new": ["વાહ", "ઓહો", "અરેરે", "છી", "હાશ", "બાપ રે", "ભાઈસાબ", "સાચ્ચે", "હા ને, યાર!"],
+      "sentences": [
+        { "native": "વાહ! તેં જાતે બનાવ્યું?", "roman": "vāh! teṃ jāte banāvyuṃ?", "en": "Wow! You made it yourself?" },
+        { "native": "ઓહો! નવો ફોન? કોણે આપ્યો?", "roman": "oho! navo fon? koṇe āpyo?", "en": "Oho! A new phone? Who gave you that?", "focus": "આપ્યો", "wrong": ["આપી|āpī", "આપ્યું|āpyuṃ"] },
+        { "native": "અરેરે! બિચારાની ટ્રેન જતી રહી.", "roman": "arere! bichārānī ṭren jatī rahī.", "en": "Oh no! The poor guy missed his train.", "focus": "રહી", "wrong": ["રહ્યો|rahyo", "રહ્યું|rahyuṃ"] },
+        { "native": "છી! આ દૂધ બગડી ગયું છે.", "roman": "chhī! ā dūdh bagḍī gayuṃ chhe.", "en": "Yuck! This milk has gone off.", "focus": "ગયું", "wrong": ["ગયો|gayo", "ગઈ|gaī"] },
+        { "native": "હાશ! છેવટે ઘરે પહોંચ્યા.", "roman": "hāsh! chhevaṭe ghare pahoṃchyā.", "en": "Phew! Home at last." },
+        { "native": "બાપ રે! આટલી ભીડ?", "roman": "bāp re! āṭlī bhīḍ?", "en": "Good grief! Such a crowd?", "focus": "આટલી", "wrong": ["આટલો|āṭlo", "આટલું|āṭluṃ"] },
+        { "native": "ભાઈસાબ! ફરી લાઇટ ગઈ.", "roman": "bhāīsāb! farī lāiṭ gaī.", "en": "Oh, for heaven's sake! The power's gone again." },
+        { "native": "સાચ્ચે? તું ખરેખર કેનેડા જાય છે?", "roman": "sāchche? tuṃ kharekhar kenaḍā jāy chhe?", "en": "Seriously? You're really going to Canada?" },
+        { "native": "હા ને, યાર! આ વખતે ગરબા જોરદાર હતા.", "roman": "hā ne, yār! ā vakhate garbā jordār hatā.", "en": "Yeah, totally! The garba was amazing this time.", "focus": "હતા", "wrong": ["હતો|hato", "હતી|hatī"] },
+        { "native": "વાહ, શું વાત છે!", "roman": "vāh, shuṃ vāt chhe!", "en": "Wow, how about that!" }
+      ]
+    },
+    {
+      "title": "Right? Isn't it?",
+      "tip": { "title": "Tags: ને?, નહીં?, ખરું?", "body": "- **ને?** expects yes: તું આવે છે **ને**?\n- **નહીં?** after an opinion: મસ્ત છે, **નહીં**?\n- **ખરું (ને)?** 'right?' — never changes.\n- **કે શું?** 'or what?' · **હં?** 'OK?' after a request.\n- Answer **હા ને!** or **ના રે!**", "pattern": "statement + ને? / નહીં? / ખરું?", "grammar": 0 },
+      "new": ["ખરું", "સમ", "સિરિયસલી", "તારા સમ!"],
+      "sentences": [
+        { "native": "ફિલ્મ મસ્ત હતી, નહીં?", "roman": "film mast hatī, nahīṃ?", "en": "The film was great, wasn't it?", "focus": "નહીં", "wrong": ["નથી|nathī", "કે|ke"] },
+        { "native": "તું પણ આવે છે ને?", "roman": "tuṃ paṇ āve chhe ne?", "en": "You're coming too, aren't you?", "focus": "ને", "wrong": ["નહીં|nahīṃ", "નથી|nathī"] },
+        { "native": "આ રસ્તો સાચો છે, ખરું ને?", "roman": "ā rasto sācho chhe, kharuṃ ne?", "en": "This is the right road, isn't it?", "focus": "ખરું", "wrong": ["ખરો|kharo", "ખરી|kharī"] },
+        { "native": "તારા સમ, મેં કોઈને નથી કહ્યું!", "roman": "tārā sam, meṃ koīne nathī kahyuṃ!", "en": "I swear, I haven't told anyone!" },
+        { "native": "સિરિયસલી? તેં એને હા પાડી?", "roman": "siriyaslī? teṃ ene hā pāḍī?", "en": "Seriously? You said yes to him?" },
+        { "native": "તું સૂઈ ગયો કે શું? જવાબ આપ!", "roman": "tuṃ sūī gayo ke shuṃ? javāb āp!", "en": "Have you fallen asleep or what? Answer me!", "focus": "શું", "wrong": ["ને|ne", "નહીં|nahīṃ"] },
+        { "native": "ચા પીશો ને? ના ના, પીવી જ પડશે!", "roman": "chā pīsho ne? nā nā, pīvī j paḍshe!", "en": "You'll have tea, won't you? No no, you have to!", "focus": "ને", "wrong": ["નહીં|nahīṃ", "નથી|nathī"] },
+        { "native": "ના રે, એવું કંઈ નથી.", "roman": "nā re, evuṃ kaṃī nathī.", "en": "Oh no, it's nothing like that." },
+        { "native": "મોડું નહીં કરતો, હં?", "roman": "moḍuṃ nahīṃ karto, haṃ?", "en": "Don't be late, OK? (to a man)" },
+        { "native": "એ સરસ ગાય છે, ખરું?", "roman": "e saras gāy chhe, kharuṃ?", "en": "She sings well, doesn't she?", "focus": "ખરું", "wrong": ["ખરો|kharo", "ખરી|kharī"] }
+      ]
+    },
+    {
+      "title": "Adding emphasis",
+      "tip": { "title": "જ, તો, ય, વળી", "body": "- The particle goes **right after** the word it stresses.\n- **જ** 'exactly, the very': આજે **જ**, **મેં જ** કહ્યું.\n- **તો** 'as for': મને **તો** ગમ્યું. **ય** 'too': હું **ય**.\n- **વળી** 'now' (annoyed): આ **વળી** કોણ છે?\n- **થોડું** in a question = 'hardly': એમ **થોડું** ચાલે?", "grammar": 1 },
+      "new": ["વળી", "ય", "એમ જ", "કંઈ નહીં, એમ જ."],
+      "sentences": [
+        { "native": "હું આજે જ જઈશ, કાલે નહીં.", "roman": "huṃ āje j jaīsh, kāle nahīṃ.", "en": "I'll go today itself, not tomorrow.", "focus": "જ", "wrong": ["તો|to", "પણ|paṇ"] },
+        { "native": "મેં જ તને કહ્યું હતું!", "roman": "meṃ j tane kahyuṃ hatuṃ!", "en": "I'm the one who told you!", "focus": "જ", "wrong": ["તો|to", "પણ|paṇ"] },
+        { "native": "મને તો ફિલ્મ ગમી, તને?", "roman": "mane to film gamī, tane?", "en": "Well, I liked the film. Did you?", "focus": "તો", "wrong": ["જ|j", "પણ|paṇ"] },
+        { "native": "હું ય આવું છું, મારી રાહ જોજો.", "roman": "huṃ y āvuṃ chhuṃ, mārī rāh jojo.", "en": "I'm coming too, wait for me.", "focus": "ય", "wrong": ["જ|j", "તો|to"] },
+        { "native": "આ વળી કોણ છે?", "roman": "ā vaḷī koṇ chhe?", "en": "And who's this now?" },
+        { "native": "કેમ ફોન કર્યો? કંઈ નહીં, એમ જ.", "roman": "kem fon karyo? kaṃī nahīṃ, em j.", "en": "Why did you call? Nothing, no reason." },
+        { "native": "એમ થોડું ચાલે? પૈસા તો આપવા જ પડશે.", "roman": "em thoḍuṃ chāle? paisā to āpvā j paḍshe.", "en": "That won't do, will it? You'll have to pay.", "focus": "થોડું", "wrong": ["બહુ|bahu", "જરા|jarā"] },
+        { "native": "એ તો હંમેશાં મોડો જ આવે છે.", "roman": "e to hammeshāṃ moḍo j āve chhe.", "en": "Him? He's always late.", "focus": "જ", "wrong": ["ય|y", "વળી|vaḷī"] },
+        { "native": "આજે વળી શું થયું?", "roman": "āje vaḷī shuṃ thayuṃ?", "en": "What's happened now?", "focus": "વળી", "wrong": ["જ|j", "ય|y"] },
+        { "native": "અરે, આ તો મારો જ ફોન છે!", "roman": "are, ā to māro j fon chhe!", "en": "Hey, this is my phone!", "focus": "જ", "wrong": ["ય|y", "પણ|paṇ"] }
+      ]
+    },
+    {
+      "title": "Tea or something: echo words",
+      "tip": { "title": "ચા-બા and ધીમે ધીમે", "body": "- Echo word = the word + a copy starting with **બ**: **ચા-બા** 'tea or something', **નાસ્તો-બાસ્તો**. Casual and friendly.\n- Doubling: **ધીમે ધીમે** 'bit by bit', **ગરમ ગરમ** 'piping hot'.\n- 'Who all, where all': **કોણ કોણ**, **ક્યાં ક્યાં**.\n- 'While …-ing': **કરતાં કરતાં**.", "grammar": 2 },
+      "new": ["ચા-બા", "ફટાફટ", "થોડુંઘણું", "ચા-બા પીશો?"],
+      "sentences": [
+        { "native": "ચા-બા પીશો? બેસો ને.", "roman": "chā-bā pīsho? beso ne.", "en": "Will you have tea or something? Do sit down." },
+        { "native": "ચાલ, નાસ્તો-બાસ્તો કરીએ.", "roman": "chāl, nāsto-bāsto karīe.", "en": "Come on, let's grab a bite or something.", "focus": "નાસ્તો-બાસ્તો", "wrong": ["નાસ્તો-નાસ્તો|nāsto-nāsto"] },
+        { "native": "ધીમે ધીમે ગુજરાતી આવડી જશે.", "roman": "dhīme dhīme gujarātī āvḍī jashe.", "en": "Bit by bit you'll pick up Gujarati." },
+        { "native": "મને ગુજરાતી થોડુંઘણું આવડે છે.", "roman": "mane gujarātī thoḍuṃghaṇuṃ āvaḍe chhe.", "en": "I know a bit of Gujarati." },
+        { "native": "ફટાફટ તૈયાર થા, રિક્ષા આવી ગઈ!", "roman": "faṭāfaṭ taiyār thā, rikṣā āvī gaī!", "en": "Get ready, quick, the rickshaw's here!" },
+        { "native": "ગરમ ગરમ ભજિયાં ખાવાં છે?", "roman": "garam garam bhajiyāṃ khāvāṃ chhe?", "en": "Want some piping hot bhajiyas?", "focus": "ખાવાં", "wrong": ["ખાવું|khāvuṃ", "ખાવો|khāvo"] },
+        { "native": "ગોવામાં ક્યાં ક્યાં ગયા?", "roman": "govāmāṃ kyāṃ kyāṃ gayā?", "en": "Where all did you go in Goa?" },
+        { "native": "પાર્ટીમાં કોણ કોણ આવ્યું હતું?", "roman": "pārṭīmāṃ koṇ koṇ āvyuṃ hatuṃ?", "en": "Who all came to the party?", "focus": "આવ્યું", "wrong": ["આવ્યો|āvyo", "આવી|āvī"] },
+        { "native": "વાતો કરતાં કરતાં ખબર જ ના પડી કે બાર વાગી ગયા.", "roman": "vāto kartāṃ kartāṃ khabar j nā paḍī ke bār vāgī gayā.", "en": "We were so busy chatting we didn't notice it had got to twelve." },
+        { "native": "પાણી-બાણી જોઈએ છે?", "roman": "pāṇī-bāṇī joīe chhe?", "en": "Do you need water or anything?" }
+      ]
+    },
+    {
+      "title": "Didn't catch that",
+      "tip": { "title": "Asking again", "body": "- Stop someone: **એક મિનિટ, શું કહ્યું?**\n- Again: **ફરીથી બોલ ને?** (friend) · **ફરીથી કહેશો?** (polite) · Slower: **જરા ધીમે બોલશો?**\n- **સમજાવું** 'to be understood' works like ગમવું: **મને** સમજાયું / સમજાયું નહીં.\n- Don't mix it up with **સમજાવવું** 'to explain': ફરીથી **સમજાવશો**?" },
+      "new": ["સમજાવું", "ઉચ્ચાર", "લહેકો", "અટકવું", "એક મિનિટ, શું કહ્યું?", "ફરીથી બોલ ને?", "જરા ધીમે બોલશો?", "મને સમજાયું નહીં.", "વચ્ચે બોલું છું, માફ કરજો."],
+      "sentences": [
+        { "native": "એક મિનિટ, શું કહ્યું? ફરીથી બોલ ને?", "roman": "ek miniṭ, shuṃ kahyuṃ? farīthī bol ne?", "en": "Hang on, what did you say? Say it again?" },
+        { "native": "સૉરી, જરા ધીમે બોલશો? હું હજી શીખું છું.", "roman": "sorī, jarā dhīme bolsho? huṃ hajī shīkhuṃ chhuṃ.", "en": "Sorry, could you speak a bit more slowly? I'm still learning." },
+        { "native": "મને સમજાયું નહીં, ફરીથી સમજાવશો?", "roman": "mane samjāyuṃ nahīṃ, farīthī samjāvsho?", "en": "I didn't get it, could you explain again?", "focus": "સમજાયું", "wrong": ["સમજ્યું|samjyuṃ", "સમજાવ્યું|samjāvyuṃ"] },
+        { "native": "સમજાયું? હા, બરાબર સમજાયું.", "roman": "samjāyuṃ? hā, barābar samjāyuṃ.", "en": "Got it? Yes, got it perfectly." },
+        { "native": "એનો સુરતી લહેકો છે, એટલે થોડું અઘરું પડે છે.", "roman": "eno suratī laheko chhe, eṭle thoḍuṃ aghruṃ paḍe chhe.", "en": "He's got a Surati accent, so it's a bit hard." },
+        { "native": "તારો ઉચ્ચાર એકદમ સરસ છે!", "roman": "tāro uchchār ekdam saras chhe!", "en": "Your pronunciation is really good!", "focus": "તારો", "wrong": ["તારી|tārī", "તારું|tāruṃ"] },
+        { "native": "હું હજી અટકી અટકીને બોલું છું.", "roman": "huṃ hajī aṭkī aṭkīne boluṃ chhuṃ.", "en": "I still speak haltingly." },
+        { "native": "વચ્ચે બોલું છું, માફ કરજો, પણ ટ્રેન કેટલા વાગ્યે છે?", "roman": "vachche boluṃ chhuṃ, māf karjo, paṇ ṭren keṭlā vāgye chhe?", "en": "Sorry to interrupt, but what time is the train?" },
+        { "native": "એ લોકો એટલું ફટાફટ બોલે છે કે કંઈ સમજાતું નથી.", "roman": "e loko eṭluṃ faṭāfaṭ bole chhe ke kaṃī samjātuṃ nathī.", "en": "They talk so fast I can't understand a thing.", "focus": "સમજાતું", "wrong": ["સમજાતો|samjāto", "સમજાતી|samjātī"] },
+        { "native": "અટકીશ નહીં, બોલતો રહે!", "roman": "aṭkīsh nahīṃ, bolto rahe!", "en": "Don't stop, keep talking! (to a man)" }
+      ]
+    },
+    {
+      "title": "When you don't know the word",
+      "tip": { "title": "Getting round a missing word", "body": "- Ask: **આને ગુજરાતીમાં શું કહેવાય?** · Stall: **શું કહેવાય… પેલું…**\n- Describe it: **એક જાતની મીઠાઈ છે** 'it's a kind of sweet' (**જાતનો / જાતની / જાતનું** agrees).\n- Or just use English with **કરવું / થવું** — everyone does: **મિક્સ કરવું**, **ટેન્શન થવું**." },
+      "new": ["શબ્દ", "અર્થ", "ઍક્ચ્યુઅલી", "ગુજલિશ", "મિક્સ", "ટોકવું", "આને ગુજરાતીમાં શું કહેવાય?", "શું કહેવાય… પેલું…", "એનો અર્થ શું થાય?", "એક જાતની મીઠાઈ છે."],
+      "sentences": [
+        { "native": "આને ગુજરાતીમાં શું કહેવાય? મને શબ્દ યાદ નથી.", "roman": "āne gujarātīmāṃ shuṃ kahevāy? mane shabd yād nathī.", "en": "What do you call this in Gujarati? I can't remember the word." },
+        { "native": "શું કહેવાય… પેલું… જેમાં ચા બનાવીએ!", "roman": "shuṃ kahevāy… peluṃ… jemāṃ chā banāvīe!", "en": "What's it called… that thing… you make tea in!" },
+        { "native": "\"જલસો\", એનો અર્થ શું થાય?", "roman": "\"jalso\", eno arth shuṃ thāy?", "en": "\"Jalso\" — what does that mean?" },
+        { "native": "આ એક જાતની મીઠાઈ છે, દૂધમાંથી બને છે.", "roman": "ā ek jātnī mīṭhāī chhe, dūdhmāṃthī bane chhe.", "en": "It's a kind of sweet, it's made from milk.", "focus": "જાતની", "wrong": ["જાતનો|jātno", "જાતનું|jātnuṃ"] },
+        { "native": "ઢોકળાં એક જાતનો નાસ્તો છે.", "roman": "ḍhokḷāṃ ek jātno nāsto chhe.", "en": "Dhokla is a kind of snack.", "focus": "જાતનો", "wrong": ["જાતની|jātnī", "જાતનું|jātnuṃ"] },
+        { "native": "ઍક્ચ્યુઅલી, મને ખબર નહોતી કે આજે રજા છે.", "roman": "ekchyuālī, mane khabar nahotī ke āje rajā chhe.", "en": "Actually, I didn't know today was a holiday." },
+        { "native": "અમે ઘરે ગુજલિશ જ બોલીએ છીએ.", "roman": "ame ghare gujlish j bolīe chhīe.", "en": "At home we just speak Gujlish." },
+        { "native": "આ શબ્દનો અર્થ મને સમજાવ ને.", "roman": "ā shabdno arth mane samjāv ne.", "en": "Go on, explain to me what this word means.", "focus": "શબ્દનો", "wrong": ["શબ્દની|shabdnī", "શબ્દનું|shabdnuṃ"] },
+        { "native": "મારી ભૂલ થાય તો ટોકજે, હં!", "roman": "mārī bhūl thāy to ṭokje, haṃ!", "en": "If I make a mistake, correct me, OK?" },
+        { "native": "એ ગુજરાતીમાં ઘણા અંગ્રેજી શબ્દો મિક્સ કરે છે.", "roman": "e gujarātīmāṃ ghaṇā aṅgrejī shabdo miks kare chhe.", "en": "He mixes lots of English words into his Gujarati.", "focus": "શબ્દો", "wrong": ["શબ્દ|shabd", "શબ્દની|shabdnī"] }
+      ]
+    }
+  ]
+}

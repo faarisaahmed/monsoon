@@ -1,0 +1,183 @@
+{
+  "id": 23,
+  "title": "Around town: rickshaws, cabs & the metro",
+  "goal": "Get a rickshaw and agree the fare, direct the driver turn by turn, book a cab, ride the metro and the bus, and ask how long it takes.",
+  "intro": "In unit 11 you learnt to ask the way. Now you're the one in the back of the rickshaw telling the driver where to go — and in Gujarat that means landmarks (**સર્કલ**, **ચાર રસ્તા**, **સિગ્નલ**, 'the petrol pump'), a bit of friendly haggling, and a lot of **ઊભી રાખો**, **ઉતારી દો**, **ડાબે લઈ લો**.\n\nThose are **compound verbs**: a main verb plus a helper like **દેવું**, **લેવું** or **જવું**, and they're what makes Gujarati instructions sound natural. You'll also learn how to say how long a journey takes with **લાગવું**: **કેટલી વાર લાગશે?** 'how long will it take?'",
+  "vocab": [
+    { "native": "રિક્ષાવાળો", "roman": "rikṣāvāḷo", "en": "rickshaw driver", "pos": "noun", "note": "m · pl: રિક્ષાવાળા · address him as ભાઈ, or કાકા if he's older" },
+    { "native": "મીટર", "roman": "mīṭar", "en": "meter (in a rickshaw or taxi)", "pos": "noun", "note": "m · મીટરથી 'by the meter'" },
+    { "native": "ઊભું રાખવું", "roman": "ūbhuṃ rākhvuṃ", "en": "to stop (a vehicle), to pull over", "pos": "verb", "note": "ઊભું agrees with the vehicle: રિક્ષા / ગાડી / બસ ઊભી રાખો (f), સ્કૂટર ઊભું રાખો (n)" },
+    { "native": "ઉતારવું", "roman": "utārvuṃ", "en": "to drop off, let (someone) out; to take down", "pos": "verb", "note": "મને અહીં ઉતારી દો 'drop me here' · compare ઊતરવું 'to get off' (you do it)" },
+    { "native": "મૂકી જવું", "roman": "mūkī javuṃ", "en": "to drop (someone) off, give a lift", "pos": "verb", "note": "X-ને Y મૂકી જવું 'to drop X at Y' · 'to pick up' is લેવા આવવું" },
+    { "native": "સિગ્નલ", "roman": "signal", "en": "traffic light", "pos": "noun", "note": "n · સિગ્નલથી ડાબે 'left at the lights'" },
+    { "native": "સર્કલ", "roman": "sarkal", "en": "roundabout, circle (as a landmark)", "pos": "noun", "note": "n · Ahmedabad navigates by them: ઇસ્કોન સર્કલ, પંચવટી સર્કલ" },
+    { "native": "વળાંક", "roman": "vaḷāṃk", "en": "turning, bend", "pos": "noun", "note": "m · પહેલા વળાંકે 'at the first turning'" },
+    { "native": "બાજુ", "roman": "bāju", "en": "side", "pos": "noun", "note": "f · ડાબી બાજુ 'on the left', જમણી બાજુ 'on the right', સામેની બાજુ 'the other side'" },
+    { "native": "સ્કૂટર", "roman": "skūṭar", "en": "scooter, moped", "pos": "noun", "note": "n · how half of Gujarat gets around" },
+    { "native": "ચલાવવું", "roman": "chalāvvuṃ", "en": "to drive, ride (a vehicle); to run", "pos": "verb", "note": "ગાડી / સ્કૂટર ચલાવવું · ધીમે ચલાવો 'drive slowly'" },
+    { "native": "અંતર", "roman": "antar", "en": "distance", "pos": "noun", "note": "n · કેટલું અંતર છે? 'how far is it?'" },
+    { "native": "હાઈવે", "roman": "hāīve", "en": "highway, main road", "pos": "noun", "note": "m · Ahmedabad's S.G. Highway is a landmark in itself" },
+    { "native": "શૉર્ટકટ", "roman": "shorṭkaṭ", "en": "shortcut", "pos": "noun", "note": "m · શૉર્ટકટ લેવો 'to take a shortcut'" },
+    { "native": "ખાડો", "roman": "khāḍo", "en": "pothole; pit", "pos": "noun", "note": "m · pl: ખાડા · a monsoon talking point" },
+    { "native": "કૅબ", "roman": "keb", "en": "cab, ride (booked on an app)", "pos": "noun", "note": "f · કૅબ બુક કરવી" },
+    { "native": "ટૅક્સી", "roman": "ṭeksī", "en": "taxi", "pos": "noun", "note": "f" },
+    { "native": "ઍપ", "roman": "ep", "en": "app", "pos": "noun", "note": "ઍપ પરથી 'on / from the app'" },
+    { "native": "ડ્રાઇવર", "roman": "ḍrāivar", "en": "driver", "pos": "noun", "note": "m · ergative ડ્રાઇવરે" },
+    { "native": "એરપોર્ટ", "roman": "erporṭ", "en": "airport", "pos": "noun", "note": "n" },
+    { "native": "મેટ્રો", "roman": "meṭro", "en": "metro", "pos": "noun", "note": "f · Ahmedabad's metro opened in 2022" },
+    { "native": "ટોકન", "roman": "ṭokan", "en": "token (metro ticket)", "pos": "noun", "note": "n" },
+    { "native": "લાઇન", "roman": "lāin", "en": "queue, line", "pos": "noun", "note": "f · લાઇનમાં ઊભા રહેવું 'to queue'" },
+    { "native": "સ્ટૉપ", "roman": "sṭop", "en": "stop (bus, metro)", "pos": "noun", "note": "n · આવતા સ્ટૉપ પર 'at the next stop'" },
+    { "native": "ચડવું", "roman": "chaḍvuṃ", "en": "to get on, board; to climb", "pos": "verb", "note": "X-માં ચડવું 'to get on X' · also spelled ચઢવું" },
+    { "native": "બદલવું", "roman": "badalvuṃ", "en": "to change", "pos": "verb", "note": "ટ્રેન / બસ બદલવી 'to change trains / buses'" }
+  ],
+  "phrases": [
+    { "native": "ક્યાં જવું છે?", "roman": "kyāṃ javuṃ chhe?", "en": "Where to? (lit. 'where is it to go?')", "note": "What every driver asks you." },
+    { "native": "મીટર ચાલુ કરો.", "roman": "mīṭar chālu karo.", "en": "Please turn on the meter." },
+    { "native": "કેટલા લેશો?", "roman": "keṭlā lesho?", "en": "How much will you charge?" },
+    { "native": "બહુ વધારે છે, સો રૂપિયા આપીશ.", "roman": "bahu vadhāre chhe, so rūpiyā āpīsh.", "en": "That's too much, I'll give you a hundred." },
+    { "native": "છુટ્ટા નથી, ઑનલાઇન આપું?", "roman": "chhuṭṭā nathī, onlāin āpuṃ?", "en": "I don't have change, shall I pay online?" },
+    { "native": "સિગ્નલથી ડાબે લઈ લો.", "roman": "signalthī ḍābe laī lo.", "en": "Take a left at the lights." },
+    { "native": "બસ, અહીં ઊભી રાખો.", "roman": "bas, ahīṃ ūbhī rākho.", "en": "This is fine, stop here. (rickshaw, car)" },
+    { "native": "મને સર્કલ પાસે ઉતારી દો.", "roman": "mane sarkal pāse utārī do.", "en": "Drop me near the circle." },
+    { "native": "કેટલી વાર લાગશે?", "roman": "keṭlī vār lāgshe?", "en": "How long will it take?" },
+    { "native": "જરા ધીમે ચલાવો!", "roman": "jarā dhīme chalāvo!", "en": "Drive a bit slower, please!" },
+    { "native": "કૅબ બુક કરી દઉં?", "roman": "keb buk karī dauṃ?", "en": "Shall I book a cab?" },
+    { "native": "ઓટીપી બોલો.", "roman": "oṭīpī bolo.", "en": "Tell me the OTP. (what the cab driver says)", "note": "The ride app gives you a code; the driver needs it to start the trip." },
+    { "native": "આ મેટ્રો થલતેજ જાય છે?", "roman": "ā meṭro thaltej jāy chhe?", "en": "Does this metro go to Thaltej?" },
+    { "native": "આગળનું સ્ટેશન કયું છે?", "roman": "āgaḷnuṃ sṭeshan kayuṃ chhe?", "en": "What's the next station?" }
+  ],
+  "grammar": [
+    {
+      "title": "Compound verbs: ઊભી રાખો, ઉતારી દો, બેસી જાઓ",
+      "body": "A **compound verb** is a main verb in its **-ઈ** form plus a helper verb that carries the tense and person. The helper loses its own meaning and adds a flavour:\n\n**દેવું** 'give' → done outward, for someone else, completely: **ઉતારી દો** 'drop me off', **કહી દે** 'just tell (them)', **કૅન્સલ કરી દીધું** 'cancelled it'.\n**લેવું** 'take' → done for yourself, towards you: **લઈ લો** 'take it', **ડાબે લઈ લો** 'take a left', **બુક કરી લીધી** 'booked it (for us)'.\n**જવું** 'go' → a change of state or position, completed: **ઊતરી જાઓ** 'get off', **બેસી જાઓ** 'hop in', **પહોંચી ગયા** 'we're there'.\n\nIn requests compound verbs sound natural and decisive, not rude, and they combine with every politeness level: **ઉતારી દે** (friend), **ઉતારી દો** (driver), **ઉતારી દેજો** (later / softer), **ઉતારી દેશો?** (very polite).\n\n**ઊભું રાખવું** 'to stop (a vehicle)' agrees with the vehicle: રિક્ષા **ઊભી** રાખો, સ્કૂટર **ઊભું** રાખો.\n\nThe trap: negatives normally use the **simple** verb, not the compound: **અહીં ના ઉતારશો** 'don't drop me here', not ~~ઉતારી ના દેશો~~.",
+      "examples": [
+        { "native": "ભાઈ, પેટ્રોલ પંપ પાસે ઊભી રાખજો.", "roman": "bhāī, peṭrol pamp pāse ūbhī rākhjo.", "en": "Bhai, please stop by the petrol pump." },
+        { "native": "મને મેટ્રો સ્ટેશને ઉતારી દેજો.", "roman": "mane meṭro sṭeshane utārī dejo.", "en": "Please drop me at the metro station." },
+        { "native": "બેસી જાઓ, ચાલો.", "roman": "besī jāo, chālo.", "en": "Hop in, let's go." },
+        { "native": "આગળથી જમણે લઈ લેજો.", "roman": "āgaḷthī jamṇe laī lejo.", "en": "Take a right up ahead." },
+        { "native": "મારે આવતા સ્ટૉપ પર ઊતરી જવું છે.", "roman": "māre āvtā sṭop par ūtarī javuṃ chhe.", "en": "I want to get off at the next stop." }
+      ]
+    },
+    {
+      "title": "How long it takes: લાગવું",
+      "body": "'It takes (time)' is **લાગવું** — the same verb as 'to seem' and 'to feel'. The **time is the subject**; the person, if mentioned, takes **-ને**:\n\n**વીસ મિનિટ લાગે છે** 'it takes twenty minutes'\n**મને અડધો કલાક લાગશે** 'it'll take me half an hour'\n**કેટલી વાર લાગશે?** / **કેટલો ટાઇમ લાગશે?** 'how long will it take?'\n\nIn the past it **agrees with the time**: એક કલાક **લાગ્યો** (m), વીસ મિનિટ **લાગી** (f), બે કલાક **લાગ્યા** (pl).\n\n**Doing what**: put the verb in the **-તાં** form: **ઑફિસ પહોંચતાં** 'in getting to the office', **ચાલતાં** 'on foot (walking)': **ચાલતાં દસ મિનિટ થાય** 'it's ten minutes' walk' (**થવું** works too for rough estimates).\n\n**Distance** is **કેટલું દૂર?** or **કેટલું અંતર છે?** 'how far?'\n\nThe trap: don't use લેવું 'take' as in English: ~~વીસ મિનિટ લે છે~~ is wrong; time **લાગે છે**.",
+      "examples": [
+        { "native": "અહીંથી એરપોર્ટ કેટલો ટાઇમ લાગશે?", "roman": "ahīṃthī erporṭ keṭlo ṭāim lāgshe?", "en": "How long will it take from here to the airport?" },
+        { "native": "મેટ્રોમાં વીસ મિનિટ લાગે છે.", "roman": "meṭromāṃ vīs miniṭ lāge chhe.", "en": "It takes twenty minutes by metro." },
+        { "native": "ટ્રાફિક હતો એટલે એક કલાક લાગ્યો.", "roman": "ṭrāfik hato eṭle ek kalāk lāgyo.", "en": "There was traffic, so it took an hour." },
+        { "native": "ત્યાં પહોંચતાં કેટલી વાર લાગે?", "roman": "tyāṃ pahoṃchtāṃ keṭlī vār lāge?", "en": "How long does it take to get there?" },
+        { "native": "સ્ટેશનથી ચાલતાં દસ મિનિટ થાય.", "roman": "sṭeshanthī chāltāṃ das miniṭ thāy.", "en": "It's about ten minutes' walk from the station." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "From the station to Navrangpura",
+    "setting": "Riya, visiting from London, takes a rickshaw from Kalupur station in Ahmedabad to her aunt's place.",
+    "lines": [
+      { "speaker": "Riya", "native": "ભાઈ, નવરંગપુરા આવશો?", "roman": "bhāī, navraṅgpurā āvsho?", "en": "Bhai, will you go to Navrangpura?" },
+      { "speaker": "Driver", "native": "હા, બેસી જાઓ. નવરંગપુરામાં ક્યાં?", "roman": "hā, besī jāo. navraṅgpurāmāṃ kyāṃ?", "en": "Yes, hop in. Where in Navrangpura?" },
+      { "speaker": "Riya", "native": "સ્ટેડિયમ સર્કલ પાસે. મીટર ચાલુ કરો ને.", "roman": "sṭeḍiyam sarkal pāse. mīṭar chālu karo ne.", "en": "Near Stadium Circle. Put the meter on, please." },
+      { "speaker": "Driver", "native": "મીટર બગડેલું છે, બેન. દોઢસો થશે.", "roman": "mīṭar bagḍeluṃ chhe, ben. doḍhso thashe.", "en": "The meter's broken, ma'am. It'll be a hundred and fifty." },
+      { "speaker": "Riya", "native": "દોઢસો? બહુ વધારે છે, સો રૂપિયા આપીશ.", "roman": "doḍhso? bahu vadhāre chhe, so rūpiyā āpīsh.", "en": "A hundred and fifty? That's too much, I'll give you a hundred." },
+      { "speaker": "Driver", "native": "એકસો વીસ, બસ. ચાલો.", "roman": "ekso vīs, bas. chālo.", "en": "One-twenty, final. Come on." },
+      { "speaker": "Riya", "native": "ઠીક છે. કેટલી વાર લાગશે?", "roman": "ṭhīk chhe. keṭlī vār lāgshe?", "en": "OK. How long will it take?" },
+      { "speaker": "Driver", "native": "આ ટાઇમે ટ્રાફિક હોય… વીસ-પચીસ મિનિટ.", "roman": "ā ṭāime ṭrāfik hoy… vīs-pachīs miniṭ.", "en": "There's traffic at this time… twenty, twenty-five minutes." },
+      { "speaker": "Riya", "native": "ભાઈ, જરા ધીમે ચલાવો! રસ્તામાં બહુ ખાડા છે.", "roman": "bhāī, jarā dhīme chalāvo! rastāmāṃ bahu khāḍā chhe.", "en": "Bhai, drive a bit slower, please! There are loads of potholes." },
+      { "speaker": "Driver", "native": "ચિંતા ના કરો, બેન. શૉર્ટકટ લઉં છું.", "roman": "chintā nā karo, ben. shorṭkaṭ lauṃ chhuṃ.", "en": "Don't worry, ma'am. I'm taking a shortcut." },
+      { "speaker": "Riya", "native": "આગળ સિગ્નલથી ડાબે લઈ લેજો… બસ, અહીં ઊભી રાખો. મને અહીં જ ઉતારી દો.", "roman": "āgaḷ signalthī ḍābe laī lejo… bas, ahīṃ ūbhī rākho. mane ahīṃ j utārī do.", "en": "Take a left at the lights up ahead… OK, stop here. Drop me right here." },
+      { "speaker": "Driver", "native": "એકસો વીસ.", "roman": "ekso vīs.", "en": "One-twenty." },
+      { "speaker": "Riya", "native": "છુટ્ટા નથી, ઑનલાઇન આપું?", "roman": "chhuṭṭā nathī, onlāin āpuṃ?", "en": "I don't have change, shall I pay online?" },
+      { "speaker": "Driver", "native": "હા, આપો. આ કોડ સ્કૅન કરો.", "roman": "hā, āpo. ā koḍ sken karo.", "en": "Yes, go ahead. Scan this code." }
+    ]
+  },
+  "culture": "In Gujarat the auto-rickshaw is simply **રિક્ષા**, and its driver is **ભાઈ** (or **કાકા** if older); he'll call you **બેન** or **ભાઈ** / **સાહેબ**. Meters exist, but outside the big stations many drivers quote a price, so agree it **before** you get in — friendly, not angry, haggling is normal. Ahmedabad also has **શટલ રિક્ષા**, shared rickshaws that run fixed routes for a few rupees a seat. Directions are given by landmarks rather than street names: the **સર્કલ**, the **ચાર રસ્તા**, the petrol pump, a temple, a well-known sweet shop. Getting around Ahmedabad there's also the BRTS (**જનમાર્ગ**) and AMTS buses and, since 2022, the metro; between cities people take the **એસ.ટી.** (state transport) bus or a train, and on the S.G. Highway everyone seems to be on an Activa. Ride apps (Uber, Ola, Rapido bike taxis) are everywhere in the cities; the driver will phone to ask **ક્યાં છો?** and then **ઓટીપી બોલો**. Payment is increasingly by UPI — **ઑનલાઇન આપું?** — though it's still wise to carry small notes.",
+  "lessons": [
+    {
+      "title": "Getting a rickshaw",
+      "tip": { "title": "Agree the fare first", "body": "- Ask with the polite future: **X આવશો?** 'will you go to X?' · **કેટલા લેશો?** 'how much?'\n- Counter with your own future: **સો આપીશ** 'I'll give a hundred'.\n- Call the driver **ભાઈ** or **કાકા**, keep it friendly, and agree the price before you get in.", "pattern": "X આવશો? · કેટલા લેશો? · … આપીશ" },
+      "new": ["રિક્ષાવાળો", "મીટર", "ક્યાં જવું છે?", "મીટર ચાલુ કરો.", "કેટલા લેશો?", "બહુ વધારે છે, સો રૂપિયા આપીશ.", "છુટ્ટા નથી, ઑનલાઇન આપું?"],
+      "sentences": [
+        { "native": "ભાઈ, કાલુપુર સ્ટેશન આવશો?", "roman": "bhāī, kālupur sṭeshan āvsho?", "en": "Bhai, will you go to Kalupur station?", "focus": "આવશો", "wrong": ["આવીશ|āvīsh", "આવશે|āvshe"] },
+        { "native": "ક્યાં જવું છે, બેન?", "roman": "kyāṃ javuṃ chhe, ben?", "en": "Where to, ma'am?" },
+        { "native": "મીટર ચાલુ કરો, પ્લીઝ.", "roman": "mīṭar chālu karo, plīz.", "en": "Please put the meter on.", "focus": "કરો", "wrong": ["કરું|karuṃ", "કરે|kare"] },
+        { "native": "સ્ટેશન સુધી કેટલા લેશો?", "roman": "sṭeshan sudhī keṭlā lesho?", "en": "How much to the station?", "focus": "લેશો", "wrong": ["લઈશ|laīsh", "લેશે|leshe"] },
+        { "native": "દોઢસો? બહુ વધારે છે, સો રૂપિયા આપીશ.", "roman": "doḍhso? bahu vadhāre chhe, so rūpiyā āpīsh.", "en": "A hundred and fifty? That's too much, I'll give you a hundred.", "focus": "આપીશ", "wrong": ["આપશો|āpsho", "આપશે|āpshe"] },
+        { "native": "કાકા, મીટરથી ચલાવશો?", "roman": "kākā, mīṭarthī chalāvsho?", "en": "Uncle, will you go by the meter?", "focus": "ચલાવશો", "wrong": ["ચલાવીશ|chalāvīsh", "ચલાવશે|chalāvshe"] },
+        { "native": "રિક્ષાવાળો મીટરથી જવાની ના પાડે છે.", "roman": "rikṣāvāḷo mīṭarthī javānī nā pāḍe chhe.", "en": "The rickshaw driver won't go by the meter." },
+        { "native": "છુટ્ટા નથી, ઑનલાઇન આપું?", "roman": "chhuṭṭā nathī, onlāin āpuṃ?", "en": "I don't have change, shall I pay online?", "focus": "આપું", "wrong": ["આપ્યું|āpyuṃ", "આપશે|āpshe"] },
+        { "native": "રાત્રે રિક્ષાનું ભાડું વધારે થાય છે.", "roman": "rātre rikṣānuṃ bhāḍuṃ vadhāre thāy chhe.", "en": "Rickshaw fares are higher at night." },
+        { "native": "ભાઈ, વસ્ત્રાપુર આવશો? કેટલા લેશો?", "roman": "bhāī, vastrāpur āvsho? keṭlā lesho?", "en": "Bhai, will you go to Vastrapur? How much?", "focus": "લેશો", "wrong": ["લેશે|leshe", "લીધા|līdhā"] }
+      ]
+    },
+    {
+      "title": "Telling the driver where to go",
+      "tip": { "title": "Compound verbs: ઉતારી દો, લઈ લો", "body": "- Main verb in **-ઈ** + a helper: **ઉતારી દો** 'drop me', **ડાબે લઈ લો** 'take a left', **ઊતરી જાઓ** 'get off'.\n- **દેવું** = for someone else, **લેવું** = for yourself, **જવું** = a change completed.\n- **ઊભું રાખવું** agrees with the vehicle: રિક્ષા **ઊભી** રાખો.\n- Negatives use the simple verb: અહીં **ના ઉતારશો**.", "pattern": "stem-ઈ + દો / લો / જાઓ", "grammar": 0 },
+      "new": ["ઊભું રાખવું", "ઉતારવું", "મૂકી જવું", "સિગ્નલ", "સર્કલ", "વળાંક", "બાજુ", "સ્કૂટર", "સિગ્નલથી ડાબે લઈ લો.", "બસ, અહીં ઊભી રાખો.", "મને સર્કલ પાસે ઉતારી દો."],
+      "sentences": [
+        { "native": "બસ, અહીં ઊભી રાખો, આવી ગયું.", "roman": "bas, ahīṃ ūbhī rākho, āvī gayuṃ.", "en": "Stop here, this is it.", "focus": "ઊભી", "wrong": ["ઊભો|ūbho", "ઊભું|ūbhuṃ"] },
+        { "native": "સ્કૂટર ગલીમાં ઊભું રાખ.", "roman": "skūṭar galīmāṃ ūbhuṃ rākh.", "en": "Park the scooter in the lane.", "focus": "ઊભું", "wrong": ["ઊભી|ūbhī", "ઊભો|ūbho"] },
+        { "native": "મને ઇસ્કોન સર્કલ પાસે ઉતારી દેજો.", "roman": "mane iskon sarkal pāse utārī dejo.", "en": "Please drop me near ISKCON Circle.", "focus": "દેજો", "wrong": ["દીધો|dīdho", "દેશે|deshe"] },
+        { "native": "સિગ્નલથી ડાબે લઈ લો, પછી સીધા.", "roman": "signalthī ḍābe laī lo, pachhī sīdhā.", "en": "Take a left at the lights, then straight on.", "focus": "લો", "wrong": ["લીધું|līdhuṃ", "લેશે|leshe"] },
+        { "native": "બીજા વળાંકે જમણી બાજુ લઈ લેજો.", "roman": "bījā vaḷāṃke jamṇī bāju laī lejo.", "en": "Take a right at the second turning.", "focus": "લેજો", "wrong": ["લીધો|līdho", "લેશે|leshe"] },
+        { "native": "પપ્પા, મને સ્ટેશન મૂકી જશો?", "roman": "pappā, mane sṭeshan mūkī jasho?", "en": "Dad, will you drop me at the station?", "focus": "જશો", "wrong": ["જઈશ|jaīsh", "ગયા|gayā"] },
+        { "native": "ચિંતા ના કર, હું તને ઘરે મૂકી જઈશ.", "roman": "chintā nā kar, huṃ tane ghare mūkī jaīsh.", "en": "Don't worry, I'll drop you home.", "focus": "જઈશ", "wrong": ["જશો|jasho", "જશે|jashe"] },
+        { "native": "ડાબી બાજુ મંદિર છે, ત્યાં જ ઉતારી દો.", "roman": "ḍābī bāju mandir chhe, tyāṃ j utārī do.", "en": "There's a temple on the left, drop me right there.", "focus": "દો", "wrong": ["દીધું|dīdhuṃ", "દેશે|deshe"] },
+        { "native": "સર્કલથી પહેલા વળાંકે ડાબે વળજો.", "roman": "sarkalthī pahelā vaḷāṃke ḍābe vaḷjo.", "en": "Turn left at the first turning after the circle." },
+        { "native": "અરે, આગળ ના જશો, અહીં જ ઊભી રાખો!", "roman": "are, āgaḷ nā jasho, ahīṃ j ūbhī rākho!", "en": "Hey, don't go on, stop right here!", "focus": "ઊભી", "wrong": ["ઊભું|ūbhuṃ", "ઊભો|ūbho"] }
+      ]
+    },
+    {
+      "title": "How long will it take?",
+      "tip": { "title": "It takes: લાગવું", "body": "- Time 'is felt': **વીસ મિનિટ લાગે છે** 'it takes twenty minutes'; **કેટલી વાર લાગશે?**\n- In the past it agrees with the time: એક કલાક **લાગ્યો** (m), વીસ મિનિટ **લાગી** (f).\n- 'To do it': the **-તાં** form: **પહોંચતાં**, **ચાલતાં**.\n- Not ~~લે છે~~ as in English 'takes'.", "pattern": "(મને) + time + લાગે છે / લાગશે / લાગ્યો", "grammar": 1 },
+      "new": ["અંતર", "હાઈવે", "શૉર્ટકટ", "ખાડો", "ચલાવવું", "કેટલી વાર લાગશે?", "જરા ધીમે ચલાવો!"],
+      "sentences": [
+        { "native": "અહીંથી ગાંધીનગર કેટલી વાર લાગશે?", "roman": "ahīṃthī gāṃdhīnagar keṭlī vār lāgshe?", "en": "How long will it take from here to Gandhinagar?", "focus": "લાગશે", "wrong": ["લાગ્યો|lāgyo", "લાગું|lāguṃ"] },
+        { "native": "હાઈવે પરથી અડધો કલાક લાગે છે.", "roman": "hāīve parthī aḍdho kalāk lāge chhe.", "en": "It takes half an hour on the highway.", "focus": "લાગે", "wrong": ["લાગું|lāguṃ", "લાગો|lāgo"] },
+        { "native": "ગઈકાલે ટ્રાફિકમાં એક કલાક લાગ્યો.", "roman": "gaīkāle ṭrāfikmāṃ ek kalāk lāgyo.", "en": "Yesterday it took an hour in the traffic.", "focus": "લાગ્યો", "wrong": ["લાગી|lāgī", "લાગ્યા|lāgyā"] },
+        { "native": "આજે તો ફક્ત વીસ મિનિટ લાગી.", "roman": "āje to fakt vīs miniṭ lāgī.", "en": "Today it only took twenty minutes.", "focus": "લાગી", "wrong": ["લાગ્યો|lāgyo", "લાગ્યું|lāgyuṃ"] },
+        { "native": "મને ઑફિસ પહોંચતાં પોણો કલાક લાગે છે.", "roman": "mane ofis pahoṃchtāṃ poṇo kalāk lāge chhe.", "en": "It takes me forty-five minutes to get to the office.", "focus": "પહોંચતાં", "wrong": ["પહોંચ્યો|pahoṃchyo", "પહોંચે|pahoṃche"] },
+        { "native": "શૉર્ટકટથી ઓછો ટાઇમ લાગશે.", "roman": "shorṭkaṭthī ochho ṭāim lāgshe.", "en": "It'll take less time with the shortcut.", "focus": "ઓછો", "wrong": ["ઓછી|ochhī", "ઓછું|ochhuṃ"] },
+        { "native": "અમદાવાદ અને વડોદરા વચ્ચે કેટલું અંતર છે?", "roman": "amdāvād ane vaḍodarā vachche keṭluṃ antar chhe?", "en": "How far is it between Ahmedabad and Vadodara?", "focus": "કેટલું", "wrong": ["કેટલો|keṭlo", "કેટલી|keṭlī"] },
+        { "native": "રસ્તામાં બહુ ખાડા છે, જરા ધીમે ચલાવો!", "roman": "rastāmāṃ bahu khāḍā chhe, jarā dhīme chalāvo!", "en": "There are loads of potholes, drive a bit slower!" },
+        { "native": "એ સ્કૂટર બહુ ઝડપથી ચલાવે છે.", "roman": "e skūṭar bahu jhaḍapthī chalāve chhe.", "en": "He rides his scooter really fast." },
+        { "native": "ચાલતાં કેટલી વાર લાગે?", "roman": "chāltāṃ keṭlī vār lāge?", "en": "How long does it take on foot?", "focus": "ચાલતાં", "wrong": ["ચાલ્યા|chālyā", "ચાલે|chāle"] }
+      ]
+    },
+    {
+      "title": "Cabs and ride apps",
+      "tip": { "title": "English word + કરવું, often as a compound", "body": "- Apps are all English nouns + **કરવું**: કૅબ **બુક કરવી**, રાઇડ **કૅન્સલ કરવી**.\n- Compounds make it sound done and dusted: **બુક કરી દઉં?** 'shall I book it?', **બુક કરી લીધી** 'I've booked it'.\n- In the past the verb agrees with the object: કૅબ (f) → કરી **લીધી**.", "pattern": "… બુક / કૅન્સલ + કરી દો / કરી લીધી", "grammar": 0 },
+      "new": ["કૅબ", "ટૅક્સી", "ઍપ", "ડ્રાઇવર", "એરપોર્ટ", "કૅબ બુક કરી દઉં?", "ઓટીપી બોલો."],
+      "sentences": [
+        { "native": "કૅબ બુક કરી દઉં? પાંચ મિનિટમાં આવશે.", "roman": "keb buk karī dauṃ? pāṃch miniṭmāṃ āvshe.", "en": "Shall I book a cab? It'll come in five minutes.", "focus": "દઉં", "wrong": ["દીધી|dīdhī", "દેશે|deshe"] },
+        { "native": "મેં ઍપ પરથી કૅબ બુક કરી લીધી.", "roman": "meṃ ep parthī keb buk karī līdhī.", "en": "I've booked a cab on the app.", "focus": "લીધી", "wrong": ["લીધો|līdho", "લીધું|līdhuṃ"] },
+        { "native": "ડ્રાઇવરે કૅન્સલ કરી દીધું!", "roman": "ḍrāivare kensal karī dīdhuṃ!", "en": "The driver cancelled!", "focus": "ડ્રાઇવરે", "wrong": ["ડ્રાઇવર|ḍrāivar", "ડ્રાઇવરને|ḍrāivarne"] },
+        { "native": "ઓટીપી બોલો, બેન.", "roman": "oṭīpī bolo, ben.", "en": "Tell me the OTP, ma'am." },
+        { "native": "ભાઈ, તમે ક્યાં છો? હું મૉલની બહાર ઊભી છું.", "roman": "bhāī, tame kyāṃ chho? huṃ molnī bahār ūbhī chhuṃ.", "en": "Bhai, where are you? I'm standing outside the mall. (woman)" },
+        { "native": "એરપોર્ટ માટે ટૅક્સી કરી લઈએ.", "roman": "erporṭ māṭe ṭeksī karī laīe.", "en": "Let's just take a taxi to the airport.", "focus": "લઈએ", "wrong": ["લીધી|līdhī", "લેશે|leshe"] },
+        { "native": "સામાન પાછળ મૂકી દો.", "roman": "sāmān pāchhaḷ mūkī do.", "en": "Put the luggage in the back.", "focus": "દો", "wrong": ["દીધો|dīdho", "દેશે|deshe"] },
+        { "native": "ઍપમાં ભાડું બહુ વધારે બતાવે છે.", "roman": "epmāṃ bhāḍuṃ bahu vadhāre batāve chhe.", "en": "The app is showing a really high fare." },
+        { "native": "ડ્રાઇવર ખોટા રસ્તે જાય છે.", "roman": "ḍrāivar khoṭā raste jāy chhe.", "en": "The driver is going the wrong way." },
+        { "native": "એરપોર્ટ પહોંચીને મને મેસેજ કરી દેજે.", "roman": "erporṭ pahoṃchīne mane mesej karī deje.", "en": "Text me when you get to the airport.", "focus": "દેજે", "wrong": ["દીધો|dīdho", "દેશે|deshe"] },
+        { "native": "ચાલો, બેસી જાઓ, મોડું થાય છે.", "roman": "chālo, besī jāo, moḍuṃ thāy chhe.", "en": "Come on, get in, it's getting late.", "focus": "જાઓ", "wrong": ["ગયા|gayā", "જશે|jashe"] }
+      ]
+    },
+    {
+      "title": "On the metro and the bus",
+      "tip": { "title": "Getting on, off and changing", "body": "- **X-માં ચડવું** 'get on X' · **Y પર / Y-એ ઊતરવું** 'get off at Y' · **બદલવું** 'change'.\n- Compounds again: **ચડી જા!** 'get on!', **ઊતરી જજો** 'get off (there)'.\n- 'Where do I get off?' is just the infinitive: **ક્યાં ઊતરવું?**\n- 'Have to change' agrees with the vehicle: મેટ્રો **બદલવી** પડશે (f).", "pattern": "X-માં ચડો · Y પર ઊતરી જાઓ" },
+      "new": ["મેટ્રો", "ટોકન", "લાઇન", "સ્ટૉપ", "ચડવું", "બદલવું", "આ મેટ્રો થલતેજ જાય છે?", "આગળનું સ્ટેશન કયું છે?"],
+      "sentences": [
+        { "native": "ટોકન ક્યાંથી મળશે?", "roman": "ṭokan kyāṃthī maḷshe?", "en": "Where can I get a token?" },
+        { "native": "લાઇનમાં ઊભા રહો, પ્લીઝ.", "roman": "lāinmāṃ ūbhā raho, plīz.", "en": "Please stand in the queue." },
+        { "native": "જલદી ચડી જા, બારણાં બંધ થાય છે!", "roman": "jaldī chaḍī jā, bārṇāṃ bandh thāy chhe!", "en": "Get on quick, the doors are closing!", "focus": "ચડી", "wrong": ["ચડ્યો|chaḍyo", "ચડે|chaḍe"] },
+        { "native": "આગળનું સ્ટેશન કયું છે? મારે ત્યાં ઊતરવું છે.", "roman": "āgaḷnuṃ sṭeshan kayuṃ chhe? māre tyāṃ ūtarvuṃ chhe.", "en": "What's the next station? I need to get off there.", "focus": "ઊતરવું", "wrong": ["ઊતરે|ūtare", "ઊતર્યો|ūtaryo"] },
+        { "native": "કાંકરિયા માટે ક્યાં ઊતરવું?", "roman": "kāṃkariyā māṭe kyāṃ ūtarvuṃ?", "en": "Where do I get off for Kankaria?", "focus": "ઊતરવું", "wrong": ["ઊતરું|ūtaruṃ", "ઊતર્યા|ūtaryā"] },
+        { "native": "અહીં મેટ્રો બદલવી પડશે?", "roman": "ahīṃ meṭro badalvī paḍshe?", "en": "Do we have to change here?", "focus": "બદલવી", "wrong": ["બદલવો|badalvo", "બદલવું|badalvuṃ"] },
+        { "native": "બસ બદલવાની જરૂર નથી, એ સીધી જાય છે.", "roman": "bas badalvānī jarūr nathī, e sīdhī jāy chhe.", "en": "No need to change buses, it goes straight there.", "focus": "સીધી", "wrong": ["સીધો|sīdho", "સીધું|sīdhuṃ"] },
+        { "native": "આવતા સ્ટૉપ પર ઊતરી જજો.", "roman": "āvtā sṭop par ūtarī jajo.", "en": "Get off at the next stop.", "focus": "જજો", "wrong": ["ગયા|gayā", "જશે|jashe"] },
+        { "native": "મેટ્રોમાં બહુ ભીડ છે, બેસવાની જગ્યા નથી.", "roman": "meṭromāṃ bahu bhīḍ chhe, besvānī jagyā nathī.", "en": "The metro is packed, there's nowhere to sit." },
+        { "native": "મેટ્રોમાં ચડતાં પહેલાં ટોકન લઈ લો.", "roman": "meṭromāṃ chaḍtāṃ pahelāṃ ṭokan laī lo.", "en": "Get a token before you board the metro.", "focus": "લો", "wrong": ["લીધું|līdhuṃ", "લેશે|leshe"] }
+      ]
+    }
+  ]
+}

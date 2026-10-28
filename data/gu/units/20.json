@@ -1,103 +1,216 @@
 {
   "id": 20,
-  "title": "Telling stories & real conversation",
-  "goal": "Tell a story with connectors, use relative clauses and reported speech, and understand the fillers and idioms of real Gujarati conversation.",
-  "intro": "Real conversation is full of little words — **અરે**, **એટલે**, **ને**, **બસ**, **હેં?** — and of sentences that link events: **પછી**, **ત્યારે**, **છેવટે**. This final unit brings everything together: **relative clauses** with **જે … તે** and **જ્યારે … ત્યારે**, reporting what people said with **કે**, and a handful of idioms and proverbs Gujaratis use every day.",
+  "title": "Real conversation",
+  "goal": "Tell a friend what happened, react while they tell you their news, pass on what people said and keep a chat going.",
+  "intro": "This last unit of Part 1 is about the thing you've been working towards: **real conversation**. You'll learn how Gujaratis tell a friend what happened (**ખબર છે, શું થયું?** 'you know what happened?'), how listeners react (**હેં? ખરેખર?**, **હોય નહીં!**, **ગજબ કહેવાય!**), and the little words that keep a chat moving (**આમ તો**, **ખેર**, **ને**, **યાર**).\n\nTwo structures let you build longer sentences: **relative clauses** (જે છોકરી કાલે આવી હતી, એ… 'the girl who came yesterday…') and **reported speech** (એણે કહ્યું કે… 'he said that…').",
   "vocab": [
-    { "native": "વાર્તા", "roman": "vārtā", "en": "story", "pos": "noun", "note": "f · વાર્તા કહેવી 'to tell a story'" },
-    { "native": "વાત", "roman": "vāt", "en": "talk, matter, thing (said)", "pos": "noun", "note": "f · વાત કરવી 'to talk'" },
-    { "native": "એક વખત", "roman": "ek vakhat", "en": "once; once upon a time", "pos": "adv" },
-    { "native": "જે", "roman": "je", "en": "who, which, that (relative)", "pos": "pron", "note": "paired with તે / એ" },
-    { "native": "જ્યારે", "roman": "jyāre", "en": "when (relative)", "pos": "conj", "note": "paired with ત્યારે" },
-    { "native": "ત્યારે", "roman": "tyāre", "en": "then, at that time", "pos": "adv" },
-    { "native": "જ્યાં", "roman": "jyāṃ", "en": "where (relative)", "pos": "conj", "note": "paired with ત્યાં" },
-    { "native": "જેવું", "roman": "jevuṃ", "en": "like, as (relative)", "pos": "adj", "note": "જેવું … તેવું 'as … so'" },
-    { "native": "જો કે", "roman": "jo ke", "en": "although", "pos": "conj" },
-    { "native": "તેમ છતાં", "roman": "tem chhatāṃ", "en": "even so, nevertheless", "pos": "conj" },
+    { "native": "વાત", "roman": "vāt", "en": "talk, chat; thing (said), matter", "pos": "noun", "note": "f · વાત કરવી 'to talk' · આખી વાત 'the whole story'" },
+    { "native": "કિસ્સો", "roman": "kisso", "en": "incident, something that happened, anecdote", "pos": "noun", "note": "m · pl: કિસ્સા · the word for a real-life story: એક મજાનો કિસ્સો 'a funny thing that happened'" },
+    { "native": "આખું", "roman": "ākhuṃ", "en": "whole, entire", "pos": "adj", "note": "agrees: આખો દિવસ (m), આખી રાત (f), આખું અઠવાડિયું (n)" },
+    { "native": "ઝઘડો", "roman": "jhaghḍo", "en": "fight, quarrel, argument", "pos": "noun", "note": "m · X સાથે ઝઘડો થવો 'to have a fight with X' · the verb is ઝઘડવું" },
     { "native": "છેવટે", "roman": "chhevaṭe", "en": "finally, in the end", "pos": "adv" },
-    { "native": "લગભગ", "roman": "lagbhag", "en": "almost; about", "pos": "adv" },
-    { "native": "હજી", "roman": "hajī", "en": "still; yet", "pos": "adv", "note": "હજી નહીં 'not yet'" },
-    { "native": "ખરેખર", "roman": "kharekhar", "en": "really, truly", "pos": "adv" },
-    { "native": "વિશે", "roman": "vishe", "en": "about, concerning", "pos": "postp", "note": "X વિશે / X ના વિશે" },
-    { "native": "પોતાનું", "roman": "potānuṃ", "en": "one's own", "pos": "pron", "note": "agrees: પોતાનો, પોતાની" },
-    { "native": "એમ", "roman": "em", "en": "so, thus, like that", "pos": "adv", "note": "એમ? 'really?'; એમ કહ્યું 'said so'" },
-    { "native": "એટલે કે", "roman": "eṭle ke", "en": "that is to say, I mean", "pos": "conj" },
-    { "native": "મતલબ", "roman": "matlab", "en": "meaning; I mean", "pos": "noun", "note": "m · એનો મતલબ શું? 'what does that mean?'" },
-    { "native": "અરે", "roman": "are", "en": "hey; oh! (surprise)", "pos": "interj" },
-    { "native": "હેં", "roman": "heṃ", "en": "huh? what? really?", "pos": "interj" },
-    { "native": "ને", "roman": "ne", "en": "right? isn't it? (tag); do… (softener)", "pos": "particle" },
-    { "native": "યાર", "roman": "yār", "en": "mate, dude (casual)", "pos": "interj" },
-    { "native": "કહેવત", "roman": "kahevat", "en": "proverb, saying", "pos": "noun", "note": "f" },
-    { "native": "રૂઢિપ્રયોગ", "roman": "rūḍhiprayog", "en": "idiom", "pos": "noun", "note": "m" },
-    { "native": "હસવું", "roman": "hasvuṃ", "en": "to laugh", "pos": "verb" },
-    { "native": "વળી", "roman": "vaḷī", "en": "moreover; what's more", "pos": "adv" },
-    { "native": "બાકી", "roman": "bākī", "en": "remaining; otherwise", "pos": "adj", "note": "બાકી બધું બરાબર? 'otherwise all fine?'" }
+    { "native": "લગભગ", "roman": "lagbhag", "en": "about, roughly; almost", "pos": "adv" },
+    { "native": "ખરેખર", "roman": "kharekhar", "en": "really, truly", "pos": "adv", "note": "ખરેખર? 'really?' on its own" },
+    { "native": "હેં", "roman": "heṃ", "en": "huh? what? (surprise)", "pos": "interj", "note": "Said with rising pitch. Fine with friends; with elders say જી? or શું કહ્યું?" },
+    { "native": "અરે", "roman": "are", "en": "hey; oh! (surprise, sympathy)", "pos": "interj", "note": "અરે વાહ! 'oh wow!' · અરે રે! 'oh dear!'" },
+    { "native": "બિચારો", "roman": "bichāro", "en": "poor (thing) — sympathy, not money", "pos": "adj", "note": "agrees: બિચારી (f), બિચારું (n), બિચારા (pl) · બિચારો રાજ! 'poor Raj!'" },
+    { "native": "જે", "roman": "je", "en": "who, which, that (relative)", "pos": "pron", "note": "answered by એ / તે · forms: જેને 'to whom', જેનું 'whose', જેણે (with past transitive verbs)" },
+    { "native": "જ્યારે", "roman": "jyāre", "en": "when (relative, not a question)", "pos": "conj", "note": "answered by ત્યારે · the question 'when?' is ક્યારે" },
+    { "native": "ત્યારે", "roman": "tyāre", "en": "then, at that time", "pos": "adv", "note": "ત્યારથી 'since then'" },
+    { "native": "જ્યાં", "roman": "jyāṃ", "en": "where (relative, not a question)", "pos": "conj", "note": "answered by ત્યાં" },
+    { "native": "જેવું", "roman": "jevuṃ", "en": "like, the way (relative)", "pos": "adj", "note": "agrees like an adjective (જેવો, જેવી); answered by એવું / તેવું" },
+    { "native": "જોરદાર", "roman": "jordār", "en": "awesome, terrific; strong", "pos": "adj", "note": "does not change for gender: જોરદાર મૅચ, જોરદાર ગરબા · on its own: જોરદાર! 'awesome!'" },
+    { "native": "જૂઠું", "roman": "jūṭhuṃ", "en": "lie; false", "pos": "noun", "note": "n · જૂઠું બોલવું 'to tell a lie' (એ જૂઠું બોલ્યો 'he lied')" },
+    { "native": "વિશે", "roman": "vishe", "en": "about, concerning", "pos": "postp", "note": "after the -ા form of possessives: મારા વિશે 'about me', તારા વિશે 'about you'" },
+    { "native": "એમ", "roman": "em", "en": "so, like that; (closes a quote)", "pos": "adv", "note": "એમ? 'is that so?' · એ આવશે એમ કહેતો હતો 'he was saying he'd come'" },
+    { "native": "મતલબ", "roman": "matlab", "en": "meaning; I mean, so", "pos": "noun", "note": "m · એનો મતલબ શું? 'what does that mean?' · in speech often just મતલબ… 'I mean…'" },
+    { "native": "એટલે કે", "roman": "eṭle ke", "en": "that is, in other words; so you mean", "pos": "conj" },
+    { "native": "ને", "roman": "ne", "en": "right? isn't it? (tag); go on… (softener)", "pos": "particle", "note": "At the end of a sentence: તું આવીશ ને? 'you'll come, won't you?' · after a command it coaxes: કહે ને! 'go on, tell me!'" },
+    { "native": "યાર", "roman": "yār", "en": "mate, man, buddy", "pos": "interj", "note": "Informal, among friends of any gender. Never to elders or strangers. In Ahmedabad you'll also hear બકા 'buddy'." },
+    { "native": "આમ તો", "roman": "ām to", "en": "actually; generally speaking", "pos": "adv", "note": "Sets up a 'but': આમ તો હું નહોતો જવાનો, પણ… 'actually I wasn't going to go, but…'" },
+    { "native": "ખેર", "roman": "kher", "en": "anyway", "pos": "interj", "note": "Moves the chat on: ખેર, જવા દે 'anyway, forget it'" },
+    { "native": "જો કે", "roman": "jo ke", "en": "although; mind you", "pos": "conj", "note": "often followed by પણ in speech" },
+    { "native": "વચ્ચે", "roman": "vachche", "en": "in between, in the middle", "pos": "postp", "note": "વચ્ચે બોલવું 'to interrupt' · X અને Y વચ્ચે 'between X and Y'" },
+    { "native": "બાકી", "roman": "bākī", "en": "remaining; otherwise, apart from that", "pos": "adj", "note": "At the start of a question it changes the subject: બાકી, શું ચાલે છે? 'so, what else is going on?'" },
+    { "native": "હસવું", "roman": "hasvuṃ", "en": "to laugh", "pos": "verb", "note": "મને હસવું આવ્યું 'I couldn't help laughing' (lit. 'laughing came to me') · કોઈના પર હસવું 'to laugh at someone'" },
+    { "native": "ગાંડો", "roman": "gāṃḍo", "en": "crazy, mad", "pos": "adj", "note": "agrees: ગાંડી (f), ગાંડું (n), ગાંડા (pl) · between friends it is affectionate teasing; to strangers it is rude" },
+    { "native": "મજાક", "roman": "majāk", "en": "joke, kidding", "pos": "noun", "note": "f · મજાક કરવી 'to joke, to kid'" }
   ],
   "phrases": [
-    { "native": "એક વખત એવું થયું કે…", "roman": "ek vakhat evuṃ thayuṃ ke…", "en": "Once, it so happened that…" },
+    { "native": "ખબર છે, શું થયું?", "roman": "khabar chhe, shuṃ thayuṃ?", "en": "You know what happened?" },
     { "native": "પછી શું થયું?", "roman": "pachhī shuṃ thayuṃ?", "en": "Then what happened?" },
-    { "native": "હેં? ખરેખર?", "roman": "heṃ? kharekhar?", "en": "What? Really?" },
-    { "native": "એણે કહ્યું કે એ કાલે આવશે.", "roman": "eṇe kahyuṃ ke e kāle āvshe.", "en": "He said he'd come tomorrow." },
-    { "native": "મને ખબર નહોતી.", "roman": "mane khabar nahotī.", "en": "I didn't know." },
-    { "native": "મોઢામાં પાણી આવી ગયું!", "roman": "moḍhāmāṃ pāṇī āvī gayuṃ!", "en": "My mouth is watering!" },
-    { "native": "મારા તો બાર વાગી ગયા!", "roman": "mārā to bār vāgī gayā!", "en": "I'm done for! (lit. 'my twelve o'clock has struck')" },
-    { "native": "મારું માથું ના ખા, યાર.", "roman": "māruṃ māthuṃ nā khā, yār.", "en": "Stop pestering me, mate. (lit. 'don't eat my head')" },
-    { "native": "દૂરથી ડુંગર રળિયામણા.", "roman": "dūrthī ḍuṅgar raḷiyāmaṇā.", "en": "Hills look lovely from afar. (the grass is greener…)" },
-    { "native": "જેવું વાવો તેવું લણો.", "roman": "jevuṃ vāvo tevuṃ laṇo.", "en": "As you sow, so you reap." },
+    { "native": "આખી વાત કહે ને!", "roman": "ākhī vāt kahe ne!", "en": "Go on, tell me everything! (informal)" },
     { "native": "વાત એમ છે કે…", "roman": "vāt em chhe ke…", "en": "The thing is…" },
-    { "native": "બાકી બધું બરાબર?", "roman": "bākī badhuṃ barābar?", "en": "And everything else OK?" }
+    { "native": "હેં? ખરેખર?", "roman": "heṃ? kharekhar?", "en": "What? Really?" },
+    { "native": "તું મજાક કરે છે?", "roman": "tuṃ majāk kare chhe?", "en": "Are you kidding? (informal)" },
+    { "native": "હોય નહીં!", "roman": "hoy nahīṃ!", "en": "No way! (lit. 'it can't be')" },
+    { "native": "ગજબ કહેવાય!", "roman": "gajab kahevāy!", "en": "Amazing! / Unbelievable!" },
+    { "native": "હદ થઈ ગઈ!", "roman": "had thaī gaī!", "en": "That's too much! / This is the limit!" },
+    { "native": "મને વિશ્વાસ નથી થતો!", "roman": "mane vishvās nathī thato!", "en": "I can't believe it!" },
+    { "native": "હા તો, હું ક્યાં હતો?", "roman": "hā to, huṃ kyāṃ hato?", "en": "So, where was I? (man speaking)", "note": "A woman says હું ક્યાં હતી?" },
+    { "native": "બીજું શું ચાલે છે?", "roman": "bījuṃ shuṃ chāle chhe?", "en": "What else is going on? / What's new?" },
+    { "native": "બાકી બધું બરાબર?", "roman": "bākī badhuṃ barābar?", "en": "And everything else OK?" },
+    { "native": "જવા દે, યાર.", "roman": "javā de, yār.", "en": "Forget it, man. / Let it go. (informal)", "note": "polite: જવા દો." },
+    { "native": "ચાલશે!", "roman": "chālshe!", "en": "That's fine! / It'll do!", "note": "Literally 'it will go'. One of the most Gujarati words there is." },
+    { "native": "મજા આવી ગઈ!", "roman": "majā āvī gaī!", "en": "That was so much fun!" }
   ],
   "grammar": [
     {
-      "title": "Relative clauses: જે … તે, જ્યારે … ત્યારે, જ્યાં … ત્યાં",
-      "body": "Gujarati builds relative clauses with a **pair of words**: a **j-word** introduces the relative clause, and a matching **t-word** (or e-word) picks it up in the main clause.\n\n**જે … તે / એ** 'the one who … , he/she/it': **જે છોકરો ત્યાં ઊભો છે, તે મારો ભાઈ છે** 'The boy who is standing there is my brother' (lit. 'which boy is standing there, he is my brother').\n**જ્યારે … ત્યારે** 'when … then': **જ્યારે હું નાનો હતો, ત્યારે ગામમાં રહેતો** 'When I was small, I lived in the village'.\n**જ્યાં … ત્યાં** 'where … there': **જ્યાં ગુજરાતી, ત્યાં ગુજરાત** 'Wherever there's a Gujarati, there is Gujarat'.\n**જેવું … તેવું** 'as … so'.\n\nThe j-word takes case endings like any pronoun: **જેને** 'to whom', **જેનું** 'whose', **જેણે** 'who (ergative)'.",
+      "title": "Relative clauses: જે … એ, જ્યારે … ત્યારે, જ્યાં … ત્યાં",
+      "body": "English tucks a 'who/which' clause inside the sentence (*the girl **who came yesterday** is my friend*). Gujarati usually uses a **pair** of words: a **j-word** opens the relative clause, and a matching **e-/t-word** picks it up in the main clause:\n\n**જે** છોકરી કાલે આવી હતી, **એ** મારી બહેનપણી છે — literally 'which girl came yesterday, she is my friend'.\n\nThe pairs:\n**જે … એ / તે** who, which … he, she, it\n**જ્યારે … ત્યારે** when … then\n**જ્યાં … ત્યાં** where … there\n**જેવું … એવું / તેવું** the way … like that (agrees: જેવો, જેવી)\n\n**જે** takes endings like any pronoun: **જેને** 'to whom', **જેનું** 'whose', **જેણે** (doer with a past transitive verb): **જેણે** આ કર્યું… 'whoever did this…'. The relative clause usually comes **first**. In casual speech the second word is often dropped, or the clause is tucked in after the noun as in English.\n\nThe trap: **શું, કોણ, ક્યારે, ક્યાં** are only for questions. 'The man **who** came' is never ~~કોણ આવ્યો~~; it is **જે** માણસ આવ્યો.",
       "examples": [
-        { "native": "જે છોકરી ગાય છે, તે મારી બહેન છે.", "roman": "je chhokrī gāy chhe, te mārī bahen chhe.", "en": "The girl who is singing is my sister." },
-        { "native": "જે ચોપડી તમે આપી હતી, એ મેં વાંચી.", "roman": "je chopḍī tame āpī hatī, e meṃ vāṃchī.", "en": "I read the book you gave me." },
-        { "native": "જ્યારે વરસાદ આવ્યો, ત્યારે અમે બહાર હતાં.", "roman": "jyāre varsād āvyo, tyāre ame bahār hatāṃ.", "en": "When the rain came, we were outside." },
-        { "native": "જ્યાં તમે કહો, ત્યાં મળીએ.", "roman": "jyāṃ tame kaho, tyāṃ maḷīe.", "en": "Let's meet wherever you say." },
-        { "native": "જેણે આ કર્યું, એને ઇનામ મળશે.", "roman": "jeṇe ā karyuṃ, ene inām maḷshe.", "en": "Whoever did this will get a prize." }
+        { "native": "જે છોકરો કાલે પાર્ટીમાં આવ્યો હતો, એ મારો મિત્ર છે.", "roman": "je chhokro kāle pārṭīmāṃ āvyo hato, e māro mitra chhe.", "en": "The boy who came to the party yesterday is my friend." },
+        { "native": "જે ફિલ્મની તેં વાત કરી હતી, એ મેં જોઈ.", "roman": "je filmnī teṃ vāt karī hatī, e meṃ joī.", "en": "I watched the film you were talking about." },
+        { "native": "જ્યારે હું પહોંચ્યો, ત્યારે બધા જમતા હતા.", "roman": "jyāre huṃ pahoṃchyo, tyāre badhā jamtā hatā.", "en": "When I arrived, everyone was eating. (man speaking)" },
+        { "native": "જ્યાં તું કહે, ત્યાં મળીશું.", "roman": "jyāṃ tuṃ kahe, tyāṃ maḷīshuṃ.", "en": "We'll meet wherever you say." },
+        { "native": "જેને ખબર હોય, એ મને કહે.", "roman": "jene khabar hoy, e mane kahe.", "en": "Whoever knows, tell me." }
       ]
     },
     {
-      "title": "Reported speech with કે",
-      "body": "Reported speech uses **કે** 'that' after verbs like **કહેવું** 'say', **પૂછવું** 'ask', **લાગવું** 'think'. Gujarati often keeps the **original words** (like direct speech) after કે, so pronouns may stay as the speaker said them:\n\n**એણે કહ્યું કે હું કાલે આવીશ** — literally 'he said that I will come tomorrow' = 'He said he would come tomorrow'. Context makes it clear. You can also shift the pronoun: **એણે કહ્યું કે એ કાલે આવશે**.\n\nQuestions are reported with **કે** + the question: **એણે પૂછ્યું કે તમે ક્યાં રહો છો** 'he asked where you live'. Yes/no questions add **કે નહીં** 'or not': **પૂછો કે એ આવશે કે નહીં** 'ask whether he'll come or not'.\n\nIn casual speech the quote is often closed with **એમ** or **એવું**: **એ આવશે એમ કહેતો હતો** 'he was saying he'd come'.",
+      "title": "Passing on what someone said: એણે કહ્યું કે…",
+      "body": "After **કહ્યું કે** 'said that', **પૂછ્યું કે** 'asked', **લાગે છે કે** 'it seems that', Gujarati keeps the **original tense** and often the original words:\n\nRaj: 'હું મોડો આવીશ.' → **રાજે કહ્યું કે એ મોડો આવશે** 'Raj said he'd be late' (the future stays future). In casual speech people even keep the હું: **રાજે કહ્યું કે હું મોડો આવીશ** — context makes it clear.\n\n**Questions**: keep the question word: **એણે પૂછ્યું કે તું ક્યાં છે** 'she asked where you are'. For yes/no questions add **કે નહીં** 'or not': **પૂછ ને કે એ આવશે કે નહીં** 'ask whether he's coming'.\n\n**Gossip form**: **કહેતો હતો / કહેતી હતી કે…** 'he / she was saying that…' is the usual way to pass news on. The quote can also come first, closed with **એમ**: **એ નહીં આવે, એમ કહેતી હતી** 'she was saying she won't come'.\n\nThe trap: **કહ્યું** is ergative, so the speaker takes **-એ / -ણે** (રાજે, એણે, મમ્મીએ) and the verb stays **કહ્યું** whoever spoke. The -તો form is not ergative and agrees with the speaker: રાજ **કહેતો** હતો, નિધિ **કહેતી** હતી.",
       "examples": [
-        { "native": "મમ્મીએ કહ્યું કે જમવાનું તૈયાર છે.", "roman": "mammīe kahyuṃ ke jamvānuṃ taiyār chhe.", "en": "Mum said that the food is ready." },
-        { "native": "રાજે કહ્યું કે હું મોડો આવીશ.", "roman": "Rāje kahyuṃ ke huṃ moḍo āvīsh.", "en": "Raj said (that) he'd be late." },
-        { "native": "એણે પૂછ્યું કે તમારું નામ શું છે.", "roman": "eṇe pūchhyuṃ ke tamāruṃ nām shuṃ chhe.", "en": "She asked what your name is." },
-        { "native": "એને પૂછો કે એ આવશે કે નહીં.", "roman": "ene pūchho ke e āvshe ke nahīṃ.", "en": "Ask him whether he's coming or not." },
-        { "native": "એ ના પાડતો હતો એમ મેં સાંભળ્યું.", "roman": "e nā pāḍto hato em meṃ sāṃbhaḷyuṃ.", "en": "I heard that he was refusing." }
+        { "native": "મમ્મીએ કહ્યું કે જમવાનું તૈયાર છે.", "roman": "mammīe kahyuṃ ke jamvānuṃ taiyār chhe.", "en": "Mum said the food is ready." },
+        { "native": "રાજે કહ્યું કે હું મોડો આવીશ.", "roman": "rāje kahyuṃ ke huṃ moḍo āvīsh.", "en": "Raj said he'd be late." },
+        { "native": "એણે પૂછ્યું કે તું ક્યાં છે.", "roman": "eṇe pūchhyuṃ ke tuṃ kyāṃ chhe.", "en": "She asked where you are." },
+        { "native": "એ કહેતી હતી કે એને નવી નોકરી મળી ગઈ.", "roman": "e kahetī hatī ke ene navī nokrī maḷī gaī.", "en": "She was saying she's got a new job." },
+        { "native": "એ નહીં આવે, એમ કહેતો હતો.", "roman": "e nahīṃ āve, em kaheto hato.", "en": "He was saying he won't come." }
       ]
     },
     {
-      "title": "Storytelling connectors and fillers",
-      "body": "To move a story along: **એક વખત** 'once', **પહેલાં** 'first', **પછી** 'then', **ત્યારે** 'at that moment', **અચાનક** 'suddenly', **જો કે** 'although', **તેમ છતાં** 'even so', **છેવટે** 'in the end'.\n\nTo sound natural in conversation: **અરે!** (surprise), **હેં?** (what?), **એમ?** (really?), **હા ને** (yes, right), **ને?** (isn't it?), **એટલે** (so, I mean), **બસ** (that's it), **ચાલો** (OK then), **જો ને** (look, you see), **ખબર છે?** (you know what?).\n\nThe 'conjunctive participle' **-ઈને** ('having done') links actions smoothly: **જમીને** 'after eating', **ઘરે જઈને** 'having gone home'.",
+      "title": "Telling what happened: story words, reactions and fillers",
+      "body": "**Telling it**: open with **ખબર છે, શું થયું?** or **વાત એમ છે કે…** 'the thing is…', then **પહેલાં** 'first' → **પછી** 'then' → **અચાનક** 'suddenly' → **છેવટે** 'in the end'. Tell it in the simple past (ગયો, થયું, કહ્યું) with the **-તો હતો** form for the background (હું ઘરે જતો હતો 'I was going home').\n\n**Listening**: Gujarati listeners react all the time; silence sounds bored. **હં** / **હા** 'mm-hm' · **પછી?** 'and then?' · **હેં? ખરેખર?** 'what? really?' · **હોય નહીં!** 'no way!' · **ગજબ કહેવાય!** 'amazing!' · **અરે રે!** 'oh dear!' · **બિચારો!** 'poor guy!' · **હદ થઈ ગઈ!** 'that's too much!'\n\n**Fillers**: **મતલબ** / **એટલે કે** 'I mean / so' · **આમ તો** 'actually' · **હા તો** 'so, anyway' (back to the story) · **ખેર** 'anyway' (moving on) · **બાકી** 'apart from that' (new topic) · **…ને?** 'right?'\n\nThe trap: **ને** at the end is not 'no'. **તું આવીશ ને?** means 'you'll come, won't you?', and **કહે ને!** means 'go on, tell me!'",
       "examples": [
-        { "native": "પહેલાં અમે જમ્યાં, પછી ફિલ્મ જોવા ગયાં.", "roman": "pahelāṃ ame jamyāṃ, pachhī film jovā gayāṃ.", "en": "First we ate, then we went to see a film." },
-        { "native": "અચાનક લાઇટ ગઈ, અને બધાં હસવા લાગ્યાં.", "roman": "achānak lāiṭ gaī, ane badhāṃ hasvā lāgyāṃ.", "en": "Suddenly the power went off, and everyone started laughing." },
-        { "native": "જો કે બહુ ભીડ હતી, તેમ છતાં મજા આવી.", "roman": "jo ke bahu bhīḍ hatī, tem chhatāṃ majā āvī.", "en": "Although it was very crowded, it was still fun." },
-        { "native": "છેવટે એ ઘરે પહોંચી ગયો.", "roman": "chhevaṭe e ghare pahoṃchī gayo.", "en": "In the end he got home." },
-        { "native": "ઘરે જઈને ફોન કરજે.", "roman": "ghare jaīne fon karje.", "en": "Call me when you get home. (intimate)" }
+        { "native": "પહેલાં અમે જમ્યા, પછી ફિલ્મ જોવા ગયા.", "roman": "pahelāṃ ame jamyā, pachhī film jovā gayā.", "en": "First we ate, then we went to see a film." },
+        { "native": "હું ઘરે જતો હતો, ત્યારે અચાનક વરસાદ આવ્યો.", "roman": "huṃ ghare jato hato, tyāre achānak varsād āvyo.", "en": "I was on my way home when suddenly it started raining." },
+        { "native": "જો કે બહુ ભીડ હતી, પણ મજા આવી.", "roman": "jo ke bahu bhīḍ hatī, paṇ majā āvī.", "en": "Although it was very crowded, it was fun." },
+        { "native": "હેં? છેવટે એણે હા પાડી?", "roman": "heṃ? chhevaṭe eṇe hā pāḍī?", "en": "What? She finally said yes?" },
+        { "native": "ખેર, એ વાત જવા દે. બાકી શું ચાલે છે?", "roman": "kher, e vāt javā de. bākī shuṃ chāle chhe?", "en": "Anyway, forget that. What else is going on?" }
       ]
     }
   ],
   "dialogue": {
-    "title": "The kite-festival story",
-    "setting": "Over tea, Hiral tells her friend Maya what happened to her uncle on Uttarayan.",
+    "title": "The interview",
+    "setting": "Evening, at a tea stall near Law Garden in Ahmedabad. Kunal tells his friend Nidhi about his day.",
     "lines": [
-      { "speaker": "Hiral", "native": "ખબર છે? ઉત્તરાયણમાં મારા કાકા સાથે શું થયું?", "roman": "khabar chhe? uttarāyaṇmāṃ mārā kākā sāthe shuṃ thayuṃ?", "en": "You know what happened to my uncle on Uttarayan?" },
-      { "speaker": "Maya", "native": "ના, શું થયું? કહે ને!", "roman": "nā, shuṃ thayuṃ? kahe ne!", "en": "No, what happened? Tell me!" },
-      { "speaker": "Hiral", "native": "એ સવારથી ધાબા પર પતંગ ચગાવતા હતા. બધાના પતંગ કાપ્યા!", "roman": "e savārthī dhābā par pataṅg chagāvtā hatā. badhānā pataṅg kāpyā!", "en": "He'd been flying kites on the roof since morning. He cut everyone's kites!" },
-      { "speaker": "Maya", "native": "વાહ! પછી?", "roman": "vāh! pachhī?", "en": "Wow! Then?" },
-      { "speaker": "Hiral", "native": "પછી જે પતંગ સૌથી મોટો હતો, એ પકડવા એ પાછળ ગયા…", "roman": "pachhī je pataṅg sauthī moṭo hato, e pakaḍvā e pāchhaḷ gayā…", "en": "Then he went backwards to catch the biggest kite…" },
-      { "speaker": "Maya", "native": "અરે! ધાબા પરથી પડ્યા તો નહીં ને?", "roman": "are! dhābā parthī paḍyā to nahīṃ ne?", "en": "Oh no! He didn't fall off the roof, did he?" },
-      { "speaker": "Hiral", "native": "ના, ના. પણ એ પાણીની ટાંકીમાં પડી ગયા!", "roman": "nā, nā. paṇ e pāṇīnī ṭāṃkīmāṃ paḍī gayā!", "en": "No, no. But he fell into the water tank!" },
-      { "speaker": "Maya", "native": "હેં? ખરેખર? હા હા હા!", "roman": "heṃ? kharekhar? hā hā hā!", "en": "What? Really? Ha ha ha!" },
-      { "speaker": "Hiral", "native": "હા. અને બહાર આવીને કહ્યું કે પતંગ તો મેં પકડી જ લીધો!", "roman": "hā. ane bahār āvīne kahyuṃ ke pataṅg to meṃ pakḍī j līdho!", "en": "Yes. And when he got out, he said, 'But I did catch the kite!'" },
-      { "speaker": "Maya", "native": "જેવો શોખ, તેવું પરિણામ!", "roman": "jevo shokh, tevuṃ pariṇām!", "en": "Such a passion, such a result!" },
-      { "speaker": "Hiral", "native": "બસ, ત્યારથી બધા એમને 'ટાંકી કાકા' કહે છે.", "roman": "bas, tyārthī badhā emne 'ṭāṃkī kākā' kahe chhe.", "en": "Since then everyone calls him 'Tank Uncle'." }
+      { "speaker": "Kunal", "native": "અરે નિધિ! ખબર છે, આજે શું થયું?", "roman": "are nidhi! khabar chhe, āje shuṃ thayuṃ?", "en": "Hey Nidhi! You know what happened today?" },
+      { "speaker": "Nidhi", "native": "ના, શું થયું? આખી વાત કહે ને!", "roman": "nā, shuṃ thayuṃ? ākhī vāt kahe ne!", "en": "No, what? Go on, tell me everything!" },
+      { "speaker": "Kunal", "native": "સવારે હું ઇન્ટરવ્યૂ માટે જતો હતો, ત્યારે પાર્કિંગમાં એક ભાઈ સાથે ઝઘડો થઈ ગયો.", "roman": "savāre huṃ inṭarvyū māṭe jato hato, tyāre pārkiṅgmāṃ ek bhāī sāthe jhaghḍo thaī gayo.", "en": "This morning I was going to my interview, and I got into a fight with some guy in the car park." },
+      { "speaker": "Nidhi", "native": "ઝઘડો? કેમ?", "roman": "jhaghḍo? kem?", "en": "A fight? Why?" },
+      { "speaker": "Kunal", "native": "એણે મારી જગ્યા પર એનું સ્કૂટર મૂકી દીધું. મેં કહ્યું કે આ મારી જગ્યા છે…", "roman": "eṇe mārī jagyā par enuṃ skūṭar mūkī dīdhuṃ. meṃ kahyuṃ ke ā mārī jagyā chhe…", "en": "He parked his scooter in my spot. I told him this was my spot…" },
+      { "speaker": "Nidhi", "native": "હં, પછી?", "roman": "haṃ, pachhī?", "en": "Mm-hm, and then?" },
+      { "speaker": "Kunal", "native": "પછી હું ઉપર ગયો, અને જે માણસ ઇન્ટરવ્યૂ લેતો હતો…", "roman": "pachhī huṃ upar gayo, ane je māṇas inṭarvyū leto hato…", "en": "Then I went upstairs, and the man who was doing the interview…" },
+      { "speaker": "Nidhi", "native": "હેં! એ જ ભાઈ? તું મજાક કરે છે!", "roman": "heṃ! e j bhāī? tuṃ majāk kare chhe!", "en": "What! The same guy? You're kidding!" },
+      { "speaker": "Kunal", "native": "ના, ખરેખર! એણે મને જોઈને હસીને કહ્યું, \"બેસો, આ ખુરશી તો તમારી જ છે.\"", "roman": "nā, kharekhar! eṇe mane joīne hasīne kahyuṃ, \"beso, ā khurshī to tamārī j chhe.\"", "en": "No, really! He saw me, smiled and said, \"Have a seat, this chair at least is yours.\"" },
+      { "speaker": "Nidhi", "native": "હા હા! ગજબ કહેવાય! બિચારો તું! તો નોકરી મળી કે નહીં?", "roman": "hā hā! gajab kahevāy! bichāro tuṃ! to nokrī maḷī ke nahīṃ?", "en": "Ha ha! Unbelievable! Poor you! So did you get the job or not?" },
+      { "speaker": "Kunal", "native": "ખબર નથી. એ કહેતા હતા કે અઠવાડિયામાં ફોન કરીશું.", "roman": "khabar nathī. e kahetā hatā ke aṭhvāḍiyāmāṃ fon karīshuṃ.", "en": "Don't know. He was saying they'd call within a week." },
+      { "speaker": "Nidhi", "native": "ચાલ, જે થયું એ સારું થયું. હવે ચા પી, ઠંડી થાય છે!", "roman": "chāl, je thayuṃ e sāruṃ thayuṃ. have chā pī, ṭhaṇḍī thāy chhe!", "en": "Come on, whatever happened, happened for the best. Now drink your tea, it's getting cold!" }
     ]
   },
-  "culture": "Gujarati humour is gentle and self-mocking, and stories are told with lots of **પછી? પછી?** ('and then?') from the listener. Proverbs (**કહેવતો**) are used constantly; a few favourites: **દૂરથી ડુંગર રળિયામણા** 'hills look beautiful from far away', and **ઝાઝા હાથ રળિયામણા** 'many hands make it beautiful'. Congratulations on finishing the course — **અભિનંદન!**"
+  "culture": "In a Gujarati conversation the listener works almost as hard as the speaker: **હં**, **હા**, **પછી? પછી?**, **હેં!**, **હોય નહીં!** Staying silent can sound cold, and jumping in with a reaction is not rude, it shows you're listening. Among friends **યાર** is everywhere, for men and women alike, and in Ahmedabad young people call each other **બકા** ('buddy') or **ભાઈ** / **બેન** whatever their actual relation; teasing (**તું ગાંડો છે કે શું?** 'are you crazy or what?') is a sign of closeness. Switch back to **તમે**, **જી** and no યાર with elders, your friend's parents and anyone you've just met. Urban Gujaratis mix English freely ('Gujlish'): *હું literally shock થઈ ગયો*, *ટેન્શન ના લે* 'don't stress' — perfectly normal. And two very Gujarati reactions: **ચાલશે!** 'it's fine, it'll do' for small disasters, and **મજા આવી ગઈ!** for anything good. From here, Part 2 takes you into real life: making plans, calls, getting around town, eating out and much more.",
+  "lessons": [
+    {
+      "title": "Telling a friend what happened",
+      "tip": { "title": "Telling it: પહેલાં → પછી → અચાનક → છેવટે", "body": "- Open with **ખબર છે, શું થયું?** or **વાત એમ છે કે…**\n- Move it along: **પહેલાં** 'first' → **પછી** 'then' → **અચાનક** 'suddenly' → **છેવટે** 'in the end'.\n- Events in the simple past (ગયો, થયું); the background with **-તો હતો**: હું ઘરે **જતો હતો** 'I was going home'.", "pattern": "પહેલાં … , પછી … , છેવટે …", "grammar": 2 },
+      "new": ["ખબર છે, શું થયું?", "પછી શું થયું?", "આખી વાત કહે ને!", "વાત એમ છે કે…", "કિસ્સો", "વાત", "આખું", "ઝઘડો", "છેવટે", "લગભગ"],
+      "sentences": [
+        { "native": "ખબર છે, શું થયું? મારો ફોન પાણીમાં પડી ગયો!", "roman": "khabar chhe, shuṃ thayuṃ? māro fon pāṇīmāṃ paḍī gayo!", "en": "You know what happened? My phone fell in the water!" },
+        { "native": "પહેલાં બસ ના આવી, પછી વરસાદ પડ્યો.", "roman": "pahelāṃ bas nā āvī, pachhī varsād paḍyo.", "en": "First the bus didn't come, then it rained.", "focus": "પછી", "wrong": ["એટલે|eṭle", "છેવટે|chhevaṭe"] },
+        { "native": "હું ઑફિસથી આવતો હતો અને અચાનક લાઇટ ગઈ.", "roman": "huṃ ofisthī āvto hato ane achānak lāiṭ gaī.", "en": "I was coming back from the office and suddenly the power went.", "focus": "આવતો", "wrong": ["આવ્યો|āvyo", "આવીશ|āvīsh"] },
+        { "native": "છેવટે અમે લગભગ દસ વાગ્યે ઘરે પહોંચ્યા.", "roman": "chhevaṭe ame lagbhag das vāgye ghare pahoṃchyā.", "en": "In the end we got home at about ten.", "focus": "છેવટે", "wrong": ["હંમેશાં|hammeshāṃ", "ક્યારેય|kyārey"] },
+        { "native": "અમે લગભગ બે કલાક રાહ જોઈ, પછી ઘરે ગયા.", "roman": "ame lagbhag be kalāk rāh joī, pachhī ghare gayā.", "en": "We waited about two hours, then went home.", "focus": "પછી", "wrong": ["પહેલાં|pahelāṃ", "કારણ|kāraṇ"] },
+        { "native": "રસ્તામાં એક રિક્ષાવાળા સાથે મારો ઝઘડો થઈ ગયો.", "roman": "rastāmāṃ ek rikṣāvāḷā sāthe māro jhaghḍo thaī gayo.", "en": "I got into a fight with a rickshaw driver on the way.", "focus": "થઈ", "wrong": ["થયો|thayo", "થતો|thato"] },
+        { "native": "આખો દિવસ વરસાદ પડ્યો.", "roman": "ākho divas varsād paḍyo.", "en": "It rained all day.", "focus": "આખો", "wrong": ["આખી|ākhī", "આખું|ākhuṃ"] },
+        { "native": "વાત એમ છે કે મેં એને કંઈ કહ્યું જ નહોતું.", "roman": "vāt em chhe ke meṃ ene kaṃī kahyuṃ j nahotuṃ.", "en": "The thing is, I hadn't told him anything at all." },
+        { "native": "પછી શું થયું? છેવટે એણે સૉરી કહ્યું?", "roman": "pachhī shuṃ thayuṃ? chhevaṭe eṇe sorī kahyuṃ?", "en": "Then what happened? Did he say sorry in the end?", "focus": "છેવટે", "wrong": ["ક્યારેય|kyārey", "કદી|kadī"] },
+        { "native": "એક મજાનો કિસ્સો સાંભળ. આખી વાત કહું?", "roman": "ek majāno kisso sāṃbhaḷ. ākhī vāt kahuṃ?", "en": "Listen to this funny thing that happened. Shall I tell you the whole story?" },
+        { "native": "આખી વાત કહે ને! પહેલાં શું થયું?", "roman": "ākhī vāt kahe ne! pahelāṃ shuṃ thayuṃ?", "en": "Go on, tell me everything! What happened first?", "focus": "પહેલાં", "wrong": ["છેવટે|chhevaṭe", "પછી|pachhī"] }
+      ]
+    },
+    {
+      "title": "Reacting while you listen",
+      "tip": { "title": "React, react, react", "body": "- Gujarati listeners keep reacting: **હં**, **પછી?**, **હેં? ખરેખર?** Silence sounds bored.\n- Good news: **ગજબ કહેવાય!** · Can't be true: **હોય નહીં!** · Too much: **હદ થઈ ગઈ!**\n- Sympathy: **અરે રે!** and **બિચારો** — it agrees: બિચારો રાજ, **બિચારી** નિધિ." },
+      "new": ["હેં? ખરેખર?", "તું મજાક કરે છે?", "ગજબ કહેવાય!", "હદ થઈ ગઈ!", "હોય નહીં!", "મને વિશ્વાસ નથી થતો!", "હેં", "અરે", "ખરેખર", "બિચારો"],
+      "sentences": [
+        { "native": "હેં? ખરેખર તને નોકરી મળી ગઈ?", "roman": "heṃ? kharekhar tane nokrī maḷī gaī?", "en": "What? You really got the job?" },
+        { "native": "ગજબ કહેવાય! એ પણ ગુજરાતી બોલે છે?", "roman": "gajab kahevāy! e paṇ gujarātī bole chhe?", "en": "Amazing! He speaks Gujarati too?" },
+        { "native": "બિચારી નિધિ! એનું પાકીટ ચોરાઈ ગયું.", "roman": "bichārī nidhi! enuṃ pākīṭ chorāī gayuṃ.", "en": "Poor Nidhi! Her wallet got stolen.", "focus": "બિચારી", "wrong": ["બિચારો|bichāro", "બિચારું|bichāruṃ"] },
+        { "native": "બિચારો રાજ આખી રાત સૂતો નહીં.", "roman": "bichāro rāj ākhī rāt sūto nahīṃ.", "en": "Poor Raj didn't sleep all night.", "focus": "બિચારો", "wrong": ["બિચારી|bichārī", "બિચારું|bichāruṃ"] },
+        { "native": "હદ થઈ ગઈ! ફરી તારો ફોન ખોવાઈ ગયો?", "roman": "had thaī gaī! farī tāro fon khovāī gayo?", "en": "This is too much! You lost your phone again?" },
+        { "native": "અરે! મને વિશ્વાસ નથી થતો, તેં જાતે રાંધ્યું?", "roman": "are! mane vishvās nathī thato, teṃ jāte rāṃdhyuṃ?", "en": "Oh! I can't believe it, you cooked by yourself?" },
+        { "native": "તું મજાક કરે છે? આ સાડી દસ હજારની?", "roman": "tuṃ majāk kare chhe? ā sāḍī das hajārnī?", "en": "Are you kidding? This sari cost ten thousand?" },
+        { "native": "હું મજાક નથી કરતી, આ સાચું છે!", "roman": "huṃ majāk nathī kartī, ā sāchuṃ chhe!", "en": "I'm not kidding, it's true! (woman speaking)", "focus": "કરતી", "wrong": ["કરતો|karto", "કરતું|kartuṃ"] },
+        { "native": "હોય નહીં! તું અને રાજ એક જ શાળામાં ભણ્યા?", "roman": "hoy nahīṃ! tuṃ ane rāj ek j shāḷāmāṃ bhaṇyā?", "en": "No way! You and Raj went to the same school?" },
+        { "native": "ખરેખર? મને તો ખબર જ નહોતી!", "roman": "kharekhar? mane to khabar j nahotī!", "en": "Really? I had no idea!" },
+        { "native": "અરે રે! બિચારાં બાળકો વરસાદમાં ભીનાં થઈ ગયાં.", "roman": "are re! bichārāṃ bāḷko varsādmāṃ bhīnāṃ thaī gayāṃ.", "en": "Oh dear! The poor kids got soaked in the rain.", "focus": "બિચારાં", "wrong": ["બિચારો|bichāro", "બિચારી|bichārī"] }
+      ]
+    },
+    {
+      "title": "Saying which one you mean",
+      "tip": { "title": "જે … એ — the one who…", "body": "- Gujarati uses a pair: **જે** … **એ**: **જે** મિત્ર આવ્યો, **એ** … 'the friend who came…'.\n- Same for **જ્યારે … ત્યારે** 'when', **જ્યાં … ત્યાં** 'where', **જેવું … એવું** 'the way…'.\n- The relative clause usually comes **first**.\n- Not **કોણ / શું / ક્યારે** — those are only for questions.", "pattern": "જે … , એ …  ·  જ્યારે … , ત્યારે …", "grammar": 0 },
+      "new": ["જે", "જ્યારે", "ત્યારે", "જ્યાં", "જેવું", "જોરદાર"],
+      "sentences": [
+        { "native": "જે મિત્ર સુરતથી આવ્યો છે, એ આજે અમારે ઘરે જમશે.", "roman": "je mitra suratthī āvyo chhe, e āje amāre ghare jamshe.", "en": "The friend who's come from Surat is eating at our place today.", "focus": "જે", "wrong": ["કોણ|koṇ", "શું|shuṃ"] },
+        { "native": "જે ફિલ્મ તેં જોઈ, એ કેવી હતી?", "roman": "je film teṃ joī, e kevī hatī?", "en": "How was the film you saw?", "focus": "જે", "wrong": ["કયું|kayuṃ", "શું|shuṃ"] },
+        { "native": "ચાર રસ્તા પર જે દુકાન છે, ત્યાંથી દૂધ લઈ આવ.", "roman": "chār rastā par je dukān chhe, tyāṃthī dūdh laī āv.", "en": "Get milk from the shop at the crossroads.", "focus": "જે", "wrong": ["કોણ|koṇ", "જ્યારે|jyāre"] },
+        { "native": "જે ગમે, એ લઈ લે.", "roman": "je game, e laī le.", "en": "Take whatever you like.", "focus": "જે", "wrong": ["શું|shuṃ", "કયું|kayuṃ"] },
+        { "native": "જ્યારે તું અમદાવાદ આવે, ત્યારે મને ફોન કરજે.", "roman": "jyāre tuṃ amdāvād āve, tyāre mane fon karje.", "en": "When you come to Ahmedabad, give me a call.", "focus": "ત્યારે", "wrong": ["ત્યાં|tyāṃ", "જ્યાં|jyāṃ"] },
+        { "native": "જ્યારે હું નાની હતી, ત્યારે અમે વડોદરામાં રહેતાં.", "roman": "jyāre huṃ nānī hatī, tyāre ame vaḍodarāmāṃ rahetāṃ.", "en": "When I was little, we lived in Vadodara. (woman speaking)", "focus": "જ્યારે", "wrong": ["જ્યાં|jyāṃ", "ક્યારે|kyāre"] },
+        { "native": "જ્યાં સારી ચા મળે, ત્યાં જઈએ.", "roman": "jyāṃ sārī chā maḷe, tyāṃ jaīe.", "en": "Let's go wherever we can get good tea.", "focus": "જ્યાં", "wrong": ["જ્યારે|jyāre", "ક્યાં|kyāṃ"] },
+        { "native": "જેવી ચા મમ્મી બનાવે છે, એવી કોઈ નથી બનાવતું.", "roman": "jevī chā mammī banāve chhe, evī koī nathī banāvtuṃ.", "en": "Nobody makes tea the way Mum does.", "focus": "જેવી", "wrong": ["જેવો|jevo", "જેવું|jevuṃ"] },
+        { "native": "જોરદાર! જે ફોન તેં લીધો, એ બહુ સરસ છે.", "roman": "jordār! je fon teṃ līdho, e bahu saras chhe.", "en": "Awesome! The phone you bought is really nice.", "focus": "લીધો", "wrong": ["લીધી|līdhī", "લીધું|līdhuṃ"] },
+        { "native": "કાલની મૅચ જોરદાર હતી!", "roman": "kālnī mech jordār hatī!", "en": "Yesterday's match was awesome!" }
+      ]
+    },
+    {
+      "title": "Passing on what someone said",
+      "tip": { "title": "એણે કહ્યું કે… — keep the tense", "body": "- **કહ્યું કે / પૂછ્યું કે** + what was said, in its **original tense**: રાજે કહ્યું કે એ મોડો **આવશે**.\n- **કહ્યું** is ergative: રાજ**ે**, એ**ણે**, મમ્મી**એ** કહ્યું — the verb never changes.\n- Gossip form: **કહેતો હતો / કહેતી હતી કે…** agrees with the speaker.\n- Yes/no questions: **… કે નહીં** 'whether'.", "pattern": "X-એ કહ્યું કે …  ·  X કહેતો / કહેતી હતો કે …", "grammar": 1 },
+      "new": ["જૂઠું", "વિશે", "એમ", "મતલબ", "એટલે કે"],
+      "sentences": [
+        { "native": "એણે કહ્યું કે એ રસ્તામાં છે.", "roman": "eṇe kahyuṃ ke e rastāmāṃ chhe.", "en": "He said he's on his way.", "focus": "કે", "wrong": ["તો|to", "પણ|paṇ"] },
+        { "native": "મમ્મી પૂછતી હતી કે તું ક્યારે આવશે.", "roman": "mammī pūchhtī hatī ke tuṃ kyāre āvshe.", "en": "Mum was asking when you're coming.", "focus": "પૂછતી", "wrong": ["પૂછતો|pūchhto", "પૂછતું|pūchhtuṃ"] },
+        { "native": "રાજ કહેતો હતો કે કાલે રજા છે.", "roman": "rāj kaheto hato ke kāle rajā chhe.", "en": "Raj was saying that tomorrow's a holiday.", "focus": "કહેતો", "wrong": ["કહેતી|kahetī", "કહેતું|kahetuṃ"] },
+        { "native": "મેં એને પૂછ્યું કે ટ્રેન કેટલા વાગ્યે છે.", "roman": "meṃ ene pūchhyuṃ ke ṭren keṭlā vāgye chhe.", "en": "I asked him what time the train is.", "focus": "પૂછ્યું", "wrong": ["પૂછ્યો|pūchhyo", "પૂછી|pūchhī"] },
+        { "native": "નિધિને પૂછ ને કે એ જમવા આવશે કે નહીં.", "roman": "nidhine pūchh ne ke e jamvā āvshe ke nahīṃ.", "en": "Go on, ask Nidhi whether she's coming for dinner or not." },
+        { "native": "એ જૂઠું બોલ્યો કે એ બીમાર છે.", "roman": "e jūṭhuṃ bolyo ke e bīmār chhe.", "en": "He lied that he was ill.", "focus": "બોલ્યો", "wrong": ["બોલી|bolī", "બોલ્યું|bolyuṃ"] },
+        { "native": "એ લોકો તારા વિશે વાત કરતા હતા.", "roman": "e loko tārā vishe vāt kartā hatā.", "en": "They were talking about you.", "focus": "તારા", "wrong": ["તારો|tāro", "તને|tane"] },
+        { "native": "એ કાલે નહીં આવે, એમ કહેતી હતી.", "roman": "e kāle nahīṃ āve, em kahetī hatī.", "en": "She was saying she won't come tomorrow.", "focus": "કહેતી", "wrong": ["કહેતો|kaheto", "કહ્યું|kahyuṃ"] },
+        { "native": "મતલબ, તું નથી આવતો?", "roman": "matlab, tuṃ nathī āvto?", "en": "I mean, you're not coming? (to a man)" },
+        { "native": "એટલે કે આપણે કાલે નહીં મળીએ?", "roman": "eṭle ke āpaṇe kāle nahīṃ maḷīe?", "en": "So you mean we won't meet tomorrow?" }
+      ]
+    },
+    {
+      "title": "Keeping the chat going",
+      "tip": { "title": "Little words that keep it moving", "body": "- **આમ તો** 'actually' sets up a 'but'. **ખેર** 'anyway' moves on. **બાકી** 'apart from that' opens a new topic.\n- **ને?** at the end = 'right?': તું આવીશ **ને**? After a command it coaxes: કહે **ને**!\n- **યાર** with friends only — never with elders.\n- **વચ્ચે ના બોલ** 'don't interrupt'.", "grammar": 2 },
+      "new": ["ને", "યાર", "આમ તો", "ખેર", "જો કે", "વચ્ચે", "બાકી", "બીજું શું ચાલે છે?", "બાકી બધું બરાબર?", "હા તો, હું ક્યાં હતો?"],
+      "sentences": [
+        { "native": "તું કાલે આવીશ ને?", "roman": "tuṃ kāle āvīsh ne?", "en": "You'll come tomorrow, won't you?" },
+        { "native": "બાકી બધું બરાબર? ઘરે બધા કેમ છે?", "roman": "bākī badhuṃ barābar? ghare badhā kem chhe?", "en": "Everything else OK? How is everyone at home?" },
+        { "native": "આમ તો હું નહોતો જવાનો, પણ મિત્રોએ આગ્રહ કર્યો.", "roman": "ām to huṃ nahoto javāno, paṇ mitroe āgrah karyo.", "en": "Actually I wasn't going to go, but my friends insisted.", "focus": "પણ", "wrong": ["એટલે|eṭle", "કે|ke"] },
+        { "native": "ખેર, બીજી વાત કરીએ.", "roman": "kher, bījī vāt karīe.", "en": "Anyway, let's talk about something else." },
+        { "native": "જો કે ભીડ બહુ હતી, પણ મજા આવી.", "roman": "jo ke bhīḍ bahu hatī, paṇ majā āvī.", "en": "Although it was really crowded, it was fun.", "focus": "પણ", "wrong": ["એટલે|eṭle", "કારણ|kāraṇ"] },
+        { "native": "વચ્ચે ના બોલ, યાર! પહેલાં આખી વાત સાંભળ.", "roman": "vachche nā bol, yār! pahelāṃ ākhī vāt sāṃbhaḷ.", "en": "Don't interrupt, man! Listen to the whole thing first." },
+        { "native": "હા તો, હું ક્યાં હતો? અરે હા, પછી એ ગુસ્સે થઈ ગયો.", "roman": "hā to, huṃ kyāṃ hato? are hā, pachhī e gusse thaī gayo.", "en": "So, where was I? Oh yes, then he got angry." },
+        { "native": "બીજું શું ચાલે છે, યાર?", "roman": "bījuṃ shuṃ chāle chhe, yār?", "en": "What else is going on, man?" },
+        { "native": "બાકી, નોકરી કેવી ચાલે છે?", "roman": "bākī, nokrī kevī chāle chhe?", "en": "Apart from that, how's the job going?", "focus": "કેવી", "wrong": ["કેવો|kevo", "કેવું|kevuṃ"] },
+        { "native": "આમ તો ગુજરાતી સહેલી છે ને?", "roman": "ām to gujarātī sahelī chhe ne?", "en": "Gujarati is actually easy, isn't it?", "focus": "સહેલી", "wrong": ["સહેલો|sahelo", "સહેલું|saheluṃ"] }
+      ]
+    },
+    {
+      "title": "Laughing it off",
+      "tip": { "title": "Teasing and laughing", "body": "- **મને હસવું આવ્યું** 'I couldn't help laughing' works like મને ભૂખ લાગી: the laugh 'comes to' you.\n- **ગાંડો** agrees: તું **ગાંડો** છે? (man), **ગાંડી** (woman). Friends only!\n- Shrug off a small disaster: **ચાલશે!** **જવા દે, યાર.**" },
+      "new": ["હસવું", "ગાંડો", "મજાક", "મજા આવી ગઈ!", "ચાલશે!", "જવા દે, યાર."],
+      "sentences": [
+        { "native": "એની વાત સાંભળીને મને બહુ હસવું આવ્યું.", "roman": "enī vāt sāṃbhaḷīne mane bahu hasvuṃ āvyuṃ.", "en": "I laughed so much when I heard what he said.", "focus": "આવ્યું", "wrong": ["આવ્યો|āvyo", "આવી|āvī"] },
+        { "native": "તું ગાંડો છે કે શું?", "roman": "tuṃ gāṃḍo chhe ke shuṃ?", "en": "Are you crazy or what? (to a man)", "focus": "ગાંડો", "wrong": ["ગાંડી|gāṃḍī", "ગાંડું|gāṃḍuṃ"] },
+        { "native": "એ ગાંડી છે, રાત્રે બે વાગ્યે ચા પીવા ગઈ!", "roman": "e gāṃḍī chhe, rātre be vāgye chā pīvā gaī!", "en": "She's crazy, she went out for tea at two in the morning!", "focus": "ગાંડી", "wrong": ["ગાંડો|gāṃḍo", "ગાંડું|gāṃḍuṃ"] },
+        { "native": "જવા દે, યાર, એ તો મજાક હતી.", "roman": "javā de, yār, e to majāk hatī.", "en": "Forget it, man, it was only a joke.", "focus": "હતી", "wrong": ["હતો|hato", "હતું|hatuṃ"] },
+        { "native": "આખી રાત બધા બહુ હસ્યા.", "roman": "ākhī rāt badhā bahu hasyā.", "en": "Everyone laughed a lot all night.", "focus": "હસ્યા", "wrong": ["હસ્યો|hasyo", "હસી|hasī"] },
+        { "native": "ગરબા જોરદાર હતા, મજા આવી ગઈ!", "roman": "garbā jordār hatā, majā āvī gaī!", "en": "The garba was awesome, it was so much fun!" },
+        { "native": "મોડું થયું? ચાલશે, કોઈ વાંધો નહીં.", "roman": "moḍuṃ thayuṃ? chālshe, koī vāṃdho nahīṃ.", "en": "You're late? That's fine, no problem." },
+        { "native": "મારા પર ના હસ, યાર!", "roman": "mārā par nā has, yār!", "en": "Don't laugh at me, man!", "focus": "હસ", "wrong": ["હસો|haso", "હસે|hase"] },
+        { "native": "એ મજાક કરતો હતો, ગુસ્સે ના થા.", "roman": "e majāk karto hato, gusse nā thā.", "en": "He was only joking, don't get angry.", "focus": "કરતો", "wrong": ["કરતી|kartī", "કરી|karī"] }
+      ]
+    }
+  ]
 }

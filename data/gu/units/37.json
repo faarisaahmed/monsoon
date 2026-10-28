@@ -1,0 +1,216 @@
+{
+  "id": 37,
+  "title": "Sorting out problems",
+  "goal": "Complain about a wrong or broken order, deal with customer care, report a stolen phone, pass on exactly what people told you, and negotiate a fair solution calmly.",
+  "intro": "Things go wrong: the parcel comes broken, the refund never arrives, your phone disappears on a crowded bus. This unit gives you the Gujarati to fix it — on the phone with customer care, at the shop counter and at the police station — without losing your temper.\n\nThe key skill is **reporting exactly what people said**: **તમે કહ્યું હતું કે ત્રણ દિવસમાં થઈ જશે** 'you said it would be done in three days', **એમણે મને કાલે આવવાનું કહ્યું** 'they told me to come tomorrow', and **પાર્સલ ગઈકાલે આવવાનું હતું** 'the parcel was supposed to come yesterday'.",
+  "vocab": [
+    { "native": "મંગાવવું", "roman": "maṅgāvvuṃ", "en": "to order, have (something) sent or brought", "pos": "verb", "note": "ઑનલાઇન મંગાવવું 'to order online' · ખાવાનું મંગાવીએ? 'shall we order food?'" },
+    { "native": "ડિલિવરી", "roman": "ḍilivarī", "en": "delivery", "pos": "noun", "note": "f · ડિલિવરીવાળો / ડિલિવરી બૉય 'the delivery guy'" },
+    { "native": "પૅકેટ", "roman": "peket", "en": "packet, package", "pos": "noun", "note": "n" },
+    { "native": "ખુલ્લું", "roman": "khulluṃ", "en": "open", "pos": "adj", "note": "agrees: ખુલ્લો (m), ખુલ્લી (f), ખુલ્લું (n) · the opposite is બંધ" },
+    { "native": "તૂટેલું", "roman": "tūṭeluṃ", "en": "broken (smashed, cracked)", "pos": "adj", "note": "from તૂટવું · agrees: તૂટેલો, તૂટેલી, તૂટેલાં · for a machine that has stopped working say બગડેલું" },
+    { "native": "વસ્તુ", "roman": "vastu", "en": "thing, item", "pos": "noun", "note": "f · pl: વસ્તુઓ" },
+    { "native": "કસ્ટમર કેર", "roman": "kasṭamar ker", "en": "customer care, customer service", "pos": "noun", "note": "f · કસ્ટમર કેરમાં ફોન કરવો 'to call customer care'" },
+    { "native": "રિફંડ", "roman": "rifanḍ", "en": "refund", "pos": "noun", "note": "n · in everyday speech also just પૈસા પાછા" },
+    { "native": "પૉલિસી", "roman": "polisī", "en": "policy (of a company)", "pos": "noun", "note": "f" },
+    { "native": "નોંધાવવું", "roman": "noṃdhāvvuṃ", "en": "to register, to lodge (a complaint, a report)", "pos": "verb", "note": "ફરિયાદ નોંધાવવી 'to file a complaint' · passive: ફરિયાદ નોંધાઈ ગઈ 'the complaint has been registered'" },
+    { "native": "માગવું", "roman": "māgvuṃ", "en": "to ask for, to demand", "pos": "verb", "note": "મેં રિફંડ માગ્યું 'I asked for a refund' · also spelled માંગવું" },
+    { "native": "જણાવવું", "roman": "jaṇāvvuṃ", "en": "to let (someone) know, to inform", "pos": "verb", "note": "a little more formal than કહેવું; companies and officials use it: જણાવશો? 'could you tell me?'" },
+    { "native": "વાયદો", "roman": "vāydo", "en": "promise (often one that isn't kept)", "pos": "noun", "note": "m · pl: વાયદા · વાયદો કરવો 'to promise'" },
+    { "native": "મૅનેજર", "roman": "menejar", "en": "manager", "pos": "noun", "note": "m/f" },
+    { "native": "ચોરાવું", "roman": "chorāvuṃ", "en": "to be stolen", "pos": "verb", "note": "with જવું: મારો ફોન ચોરાઈ ગયો 'my phone got stolen'" },
+    { "native": "બ્લૉક", "roman": "blok", "en": "blocked", "pos": "adj", "note": "બ્લૉક કરવું 'to block' · બ્લૉક કરાવવું 'to get (a card, SIM) blocked'" },
+    { "native": "પુરાવો", "roman": "purāvo", "en": "proof, evidence", "pos": "noun", "note": "m · pl: પુરાવા" },
+    { "native": "ધક્કો", "roman": "dhakko", "en": "push; a wasted trip", "pos": "noun", "note": "m · ધક્કો થવો / ધક્કા ખાવા 'to make (useless) trips back and forth' — a very Gujarati complaint about offices" },
+    { "native": "બૂમ", "roman": "būm", "en": "shout, yell", "pos": "noun", "note": "f · બૂમ પાડવી / બૂમો પાડવી 'to shout'" },
+    { "native": "તોછડું", "roman": "tochhḍuṃ", "en": "rude, curt", "pos": "adj", "note": "agrees: તોછડો (m), તોછડી (f)" },
+    { "native": "ગેરસમજ", "roman": "gersamaj", "en": "misunderstanding", "pos": "noun", "note": "f · ગેરસમજ થવી 'there to be a misunderstanding'" },
+    { "native": "ઉકેલ", "roman": "ukel", "en": "solution", "pos": "noun", "note": "m · ઉકેલ લાવવો / કાઢવો 'to find a solution'" },
+    { "native": "બેદરકારી", "roman": "bedarkārī", "en": "carelessness, negligence", "pos": "noun", "note": "f" },
+    { "native": "જવાબદાર", "roman": "javābdār", "en": "responsible (for something bad)", "pos": "adj", "note": "does not change · X માટે જવાબદાર 'responsible for X'" },
+    { "native": "સમજાવવું", "roman": "samjāvvuṃ", "en": "to explain; to talk (someone) round", "pos": "verb", "note": "from સમજવું · મેં એને સમજાવ્યો 'I talked him round'" },
+    { "native": "છેતરવું", "roman": "chhetarvuṃ", "en": "to cheat, to con", "pos": "verb", "note": "એણે મને છેતર્યો 'he conned me' (man speaking) · passive: હું છેતરાઈ ગઈ 'I got conned' (woman) · noun: છેતરપિંડી" },
+    { "native": "નકલી", "roman": "naklī", "en": "fake, counterfeit", "pos": "adj", "note": "does not change · the opposite is અસલી" },
+    { "native": "ગૅરંટી", "roman": "geranṭī", "en": "guarantee, warranty", "pos": "noun", "note": "f · ગૅરંટીમાં છે 'it's under guarantee'" },
+    { "native": "રકમ", "roman": "rakam", "en": "amount (of money), sum", "pos": "noun", "note": "f" }
+  ],
+  "phrases": [
+    { "native": "મને ખોટી વસ્તુ મળી છે.", "roman": "mane khoṭī vastu maḷī chhe.", "en": "I've received the wrong item." },
+    { "native": "પૅકેટ પહેલેથી ખુલ્લું હતું.", "roman": "peket pahelethī khulluṃ hatuṃ.", "en": "The packet was already open." },
+    { "native": "હું તમને હોલ્ડ પર રાખું છું.", "roman": "huṃ tamne hold par rākhuṃ chhuṃ.", "en": "I'm putting you on hold. (customer care)" },
+    { "native": "તમારી ફરિયાદ નોંધાઈ ગઈ છે.", "roman": "tamārī fariyād noṃdhāī gaī chhe.", "en": "Your complaint has been registered." },
+    { "native": "મારા પૈસા ક્યારે પાછા મળશે?", "roman": "mārā paisā kyāre pāchhā maḷshe?", "en": "When will I get my money back?" },
+    { "native": "તમે કહ્યું હતું કે ત્રણ દિવસમાં થઈ જશે.", "roman": "tame kahyuṃ hatuṃ ke traṇ divasmāṃ thaī jashe.", "en": "You said it would be done in three days." },
+    { "native": "મારે તમારા મૅનેજર સાથે વાત કરવી છે.", "roman": "māre tamārā menejar sāthe vāt karvī chhe.", "en": "I need to speak to your manager." },
+    { "native": "મારો ફોન ચોરાઈ ગયો છે, ફરિયાદ નોંધાવવી છે.", "roman": "māro fon chorāī gayo chhe, fariyād noṃdhāvvī chhe.", "en": "My phone has been stolen, I want to report it." },
+    { "native": "ખોટો ધક્કો થયો.", "roman": "khoṭo dhakko thayo.", "en": "That was a wasted trip." },
+    { "native": "શાંતિથી વાત કરીએ.", "roman": "shāntithī vāt karīe.", "en": "Let's talk about this calmly." },
+    { "native": "એમાં મારો કોઈ વાંક નથી.", "roman": "emāṃ māro koī vāṃk nathī.", "en": "It's not my fault (at all).", "note": "વાંક (m) 'fault, blame' · કોનો વાંક છે? 'whose fault is it?'" },
+    { "native": "કોઈ વચલો રસ્તો કાઢીએ.", "roman": "koī vachlo rasto kāḍhīe.", "en": "Let's find a middle way." },
+    { "native": "આ તો છેતરપિંડી છે!", "roman": "ā to chhetarpiṇḍī chhe!", "en": "This is a con! / This is fraud!" }
+  ],
+  "grammar": [
+    {
+      "title": "Reporting what people said: કહ્યું કે, જણાવ્યું કે, પૂછ્યું કે",
+      "body": "Unit 20 introduced **એણે કહ્યું કે…**. When you're sorting out a problem you need to report precisely, so here is the full system.\n\n**Keep the original tense.** Whatever was said keeps its tense after **કે**: 'It will come tomorrow' → **એમણે કહ્યું કે કાલે આવી જશે** 'they said it would come tomorrow'. English shifts 'will' to 'would'; Gujarati doesn't.\n\n**Promises made earlier** use **કહ્યું હતું** 'had said': **તમે કહ્યું હતું કે ત્રણ દિવસમાં થઈ જશે** 'you said (back then) it would be done in three days'. This is the sentence you'll use most with customer care.\n\n**Who said it** takes the ergative (**મેં, તેં, એણે, એમણે, દુકાનદારે, પોલીસે**) and the verb stays **કહ્યું** / **પૂછ્યું** / **જણાવ્યું**. **Who was told** takes **-ને**: **એમણે મને કહ્યું**.\n\n**Which verb**: **કહેવું** 'say, tell'; **જણાવવું** 'inform, let know' (offices and companies: **અમે તમને જણાવીશું** 'we'll let you know'); **પૂછવું** 'ask'. The trap for Hindi speakers: Gujarati **બતાવવું** means 'show', not 'tell' — 'tell me' is **મને કહો**.\n\n**Questions**: keep the question word (**મેં પૂછ્યું કે મારો ઑર્ડર ક્યાં છે**); for yes/no add **કે નહીં** 'whether': **એણે પૂછ્યું કે બિલ છે કે નહીં**.\n\n**Gossip / ongoing**: **કહેતા હતા કે…** 'they were saying that…' agrees with the speaker (કહેતો, કહેતી, કહેતા).",
+      "examples": [
+        { "native": "ડિલિવરીવાળાએ કહ્યું કે પૅકેટ ગેટ પર મૂકી દીધું છે.", "roman": "ḍilivarīvāḷāe kahyuṃ ke peket geṭ par mūkī dīdhuṃ chhe.", "en": "The delivery guy said he had left the packet at the gate." },
+        { "native": "એમણે મને જણાવ્યું કે રિફંડ પાંચ દિવસમાં આવી જશે.", "roman": "emṇe mane jaṇāvyuṃ ke rifanḍ pāṃch divasmāṃ āvī jashe.", "en": "They informed me that the refund would come within five days." },
+        { "native": "મેં પૂછ્યું કે મારા પૈસા ક્યાં ગયા.", "roman": "meṃ pūchhyuṃ ke mārā paisā kyāṃ gayā.", "en": "I asked where my money had gone." },
+        { "native": "એણે પૂછ્યું કે ફોનનું બૉક્સ છે કે નહીં.", "roman": "eṇe pūchhyuṃ ke fonnuṃ boks chhe ke nahīṃ.", "en": "She asked whether I had the phone's box." },
+        { "native": "તમે તો કહ્યું હતું કે કાલે આવી જશે!", "roman": "tame to kahyuṃ hatuṃ ke kāle āvī jashe!", "en": "But you said it would come tomorrow!" }
+      ]
+    },
+    {
+      "title": "Reporting requests: 'they told me to…', 'not to…'",
+      "body": "To pass on an instruction there are two everyday ways.\n\n**1. Quote the command** after **કે**, in the form it was given: **એમણે કહ્યું કે કાલે આવજો** 'they said: come tomorrow' = 'they told me to come tomorrow'.\n\n**2. Use -વાનું + કહેવું**: **એમણે મને કાલે આવવાનું કહ્યું** 'they told me to come tomorrow'. A shorter variant is **-વા કહેવું**: **મને રાહ જોવા કહ્યું** 'they told me to wait'. The person told takes **-ને**.\n\n**Not to**: put **ન** before the -વાનું form: **એમણે મને ફોન ન કરવાનું કહ્યું** 'they told me not to call'. 'Refused to' is **-વાની ના પાડી**: **દુકાનદારે પૈસા પાછા આપવાની ના પાડી** 'the shopkeeper refused to give the money back' (here -વાની is feminine, agreeing with **ના**).\n\n**Asking for something**: **માગવું** 'to ask for'. It's transitive, so in the past it agrees with the thing: **મેં રિફંડ માગ્યું** (n), **એમણે પુરાવો માગ્યો** (m), **મેં રસીદ માગી** (f).\n\nThe trap: don't use **પૂછવું** for requests. **પૂછવું** is asking a *question*; asking someone *to do* something is **કહેવું**, asking *for* something is **માગવું**.",
+      "examples": [
+        { "native": "પોલીસે મને બે ફોટા લઈ આવવાનું કહ્યું.", "roman": "polīse mane be foṭā laī āvvānuṃ kahyuṃ.", "en": "The police told me to bring two photos." },
+        { "native": "એમણે કહ્યું કે ઍપમાં ફરિયાદ કરો.", "roman": "emṇe kahyuṃ ke epmāṃ fariyād karo.", "en": "They told me to complain in the app." },
+        { "native": "બેંકે કાર્ડ તરત બ્લૉક કરવા કહ્યું.", "roman": "beṅke kārḍ tarat blok karvā kahyuṃ.", "en": "The bank told me to block the card straight away." },
+        { "native": "મૅનેજરે બીજું પૅકેટ આપવાની ના પાડી.", "roman": "menejare bījuṃ peket āpvānī nā pāḍī.", "en": "The manager refused to give another packet." },
+        { "native": "મેં દુકાનદાર પાસે બિલ માગ્યું.", "roman": "meṃ dukāndār pāse bil māgyuṃ.", "en": "I asked the shopkeeper for the bill." }
+      ]
+    },
+    {
+      "title": "'Was supposed to': -વાનું હતું",
+      "body": "Unit 13 taught **-વાનું છે** 'is going to'. Put it in the past with **હતું** and it means 'was going to' or 'was supposed to' — perfect for things that didn't happen as promised.\n\nIt agrees with the **subject** like an adjective:\n**પાર્સલ** (n) **આવવાનું હતું** 'the parcel was supposed to come'\n**ડિલિવરી** (f) **થવાની હતી** 'the delivery was supposed to happen'\n**મિસ્ત્રી** (m) **આવવાનો હતો** 'the repairman was supposed to come'\n**હું આવવાનો / આવવાની હતી** 'I was going to come' (man / woman)\n\nWith **મારે** it means 'I was supposed to / had to (and didn't)': **મારે આજે બેંક જવાનું હતું** 'I was supposed to go to the bank today' — the -વાનું stays neuter, or agrees with an object: **મારે ફરિયાદ નોંધાવવાની હતી**.\n\n**About to**: add **જ**: **હું તમને ફોન કરવાનો જ હતો!** 'I was just about to call you!' — the classic reply when someone calls to ask where you are.\n\nThe trap: **આવવાનું હતું** (was supposed to come) is not **આવ્યું હતું** (had come).",
+      "examples": [
+        { "native": "પાર્સલ ગઈકાલે આવવાનું હતું, પણ હજી નથી આવ્યું.", "roman": "pārsal gaīkāle āvvānuṃ hatuṃ, paṇ hajī nathī āvyuṃ.", "en": "The parcel was supposed to come yesterday, but it still hasn't." },
+        { "native": "મિસ્ત્રી સવારે દસ વાગ્યે આવવાનો હતો.", "roman": "mistrī savāre das vāgye āvvāno hato.", "en": "The repairman was supposed to come at ten in the morning." },
+        { "native": "મારે આજે બેંક જવાનું હતું, પણ આખો દિવસ ફોન પર ગયો.", "roman": "māre āje beṅk javānuṃ hatuṃ, paṇ ākho divas fon par gayo.", "en": "I was supposed to go to the bank today, but the whole day went on the phone." },
+        { "native": "અમે નીકળવાના જ હતા, ત્યાં વરસાદ આવ્યો.", "roman": "ame nīkaḷvānā j hatā, tyāṃ varsād āvyo.", "en": "We were just about to leave when it started raining." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The broken mixer",
+    "setting": "Pooja, in Surat, calls the customer care line of a shopping app about a mixer-grinder that arrived broken.",
+    "lines": [
+      { "speaker": "Agent", "native": "નમસ્તે, હું નેહા બોલું છું. આપની શું મદદ કરી શકું?", "roman": "namaste, huṃ nehā boluṃ chhuṃ. āpnī shuṃ madad karī shakuṃ?", "en": "Hello, this is Neha speaking. How can I help you?" },
+      { "speaker": "Pooja", "native": "નમસ્તે. મેં મિક્સર મંગાવ્યું હતું, એ તૂટેલું આવ્યું છે.", "roman": "namaste. meṃ miksar maṅgāvyuṃ hatuṃ, e tūṭeluṃ āvyuṃ chhe.", "en": "Hello. I ordered a mixer, and it has arrived broken." },
+      { "speaker": "Agent", "native": "માફ કરજો, મૅડમ. આપનો ઑર્ડર નંબર જણાવશો?", "roman": "māf karjo, meḍam. āpno orḍar nambar jaṇāvsho?", "en": "I'm sorry, ma'am. Could you tell me your order number?" },
+      { "speaker": "Pooja", "native": "હા, પણ મેં ગઈકાલે પણ ફોન કર્યો હતો. તમારા એક ભાઈએ કહ્યું હતું કે આજે કોઈ લેવા આવશે.", "roman": "hā, paṇ meṃ gaīkāle paṇ fon karyo hato. tamārā ek bhāīe kahyuṃ hatuṃ ke āje koī levā āvshe.", "en": "Yes, but I called yesterday too. One of your colleagues said someone would come to collect it today." },
+      { "speaker": "Agent", "native": "એક મિનિટ, હું આપને હોલ્ડ પર રાખું છું…", "roman": "ek miniṭ, huṃ āpne hold par rākhuṃ chhuṃ…", "en": "One minute, I'm putting you on hold…" },
+      { "speaker": "Pooja", "native": "ફરી હોલ્ડ! દસ મિનિટથી આ જ ગીત સાંભળું છું.", "roman": "farī hold! das miniṭthī ā j gīt sāṃbhaḷuṃ chhuṃ.", "en": "On hold again! I've been listening to the same song for ten minutes." },
+      { "speaker": "Agent", "native": "મૅડમ, સિસ્ટમમાં લખ્યું છે કે પિકઅપ કાલે થવાનું હતું, પણ ડિલિવરીવાળાએ કૅન્સલ કર્યું.", "roman": "meḍam, sisṭammāṃ lakhyuṃ chhe ke pikap kāle thavānuṃ hatuṃ, paṇ ḍilivarīvāḷāe kensal karyuṃ.", "en": "Ma'am, the system says the pickup was supposed to happen yesterday, but the delivery person cancelled it." },
+      { "speaker": "Pooja", "native": "એમાં મારો શું વાંક? મને નવું મિક્સર નથી જોઈતું, મને રિફંડ જોઈએ છે.", "roman": "emāṃ māro shuṃ vāṃk? mane navuṃ miksar nathī joītuṃ, mane rifanḍ joīe chhe.", "en": "How is that my fault? I don't want a new mixer, I want a refund." },
+      { "speaker": "Agent", "native": "સમજી શકું છું. પૉલિસી પ્રમાણે ફોટા મોકલવા પડશે.", "roman": "samjī shakuṃ chhuṃ. polisī pramāṇe foṭā mokalvā paḍshe.", "en": "I understand. According to the policy, you will have to send photos." },
+      { "speaker": "Pooja", "native": "ગઈકાલે જ મોકલી દીધા! તમારા ભાઈએ જ મને ફોટા મોકલવાનું કહ્યું હતું.", "roman": "gaīkāle j moklī dīdhā! tamārā bhāīe j mane foṭā mokalvānuṃ kahyuṃ hatuṃ.", "en": "I sent them yesterday! Your colleague is the one who told me to send photos." },
+      { "speaker": "Agent", "native": "હા, દેખાય છે. ઠીક છે, મૅડમ, રિફંડ શરૂ કરી દીધું છે. પાંચથી સાત દિવસમાં ખાતામાં આવી જશે.", "roman": "hā, dekhāy chhe. ṭhīk chhe, meḍam, rifanḍ sharū karī dīdhuṃ chhe. pāṃchthī sāt divasmāṃ khātāmāṃ āvī jashe.", "en": "Yes, I can see them. All right, ma'am, I've started the refund. It'll reach your account in five to seven days." },
+      { "speaker": "Pooja", "native": "આભાર. અને પેલું તૂટેલું મિક્સર?", "roman": "ābhār. ane peluṃ tūṭeluṃ miksar?", "en": "Thank you. And that broken mixer?" },
+      { "speaker": "Agent", "native": "એ… એ તો આપની પાસે જ રાખો, મૅડમ.", "roman": "e… e to āpnī pāse j rākho, meḍam.", "en": "That… you can just keep that, ma'am." }
+    ]
+  },
+  "culture": "Customer care lines in Gujarat usually answer in Hindi or English; ask **ગુજરાતીમાં વાત થઈ શકે?** and you'll sometimes get a Gujarati speaker, otherwise people switch to Hindi without fuss. Agents use very polite Gujarati (**આપ**, **જણાવશો?**, **સર / મૅડમ**); you can answer with an ordinary polite **તમે**. What works is calm persistence: quote what you were told (**તમે કહ્યું હતું કે…**), ask for a complaint number, and escalate with **મારે મૅનેજર સાથે વાત કરવી છે** rather than shouting — **બૂમો પાડવી** makes people dig in. At a local shop, Gujarati bargaining instincts help: offer **કોઈ વચલો રસ્તો** like an exchange or part refund. For a lost or stolen phone you'll need a police report (an FIR, or an online complaint on the Gujarat Police site) to get a new SIM; go with a friend, call the officer **સાહેબ**, and expect a few **ધક્કા**. And the warning every Gujarati family WhatsApp group repeats: no bank or company ever asks for your **ઓટીપી** on the phone — **આ તો છેતરપિંડી છે!**",
+  "lessons": [
+    {
+      "title": "My order went wrong",
+      "tip": { "title": "-વાનું હતું — was supposed to", "body": "- **-વાનું હતું** = 'was supposed to / was going to'.\n- It agrees with the subject: ઑર્ડર **આવવાનો હતો** (m), ડિલિવરી **થવાની હતી** (f), પાર્સલ **આવવાનું હતું** (n).\n- With **જ**: હું ફોન કરવાનો **જ** હતો 'I was just about to call'.\n- Not the same as **આવ્યું હતું** 'had come'.", "pattern": "subject + -વાનો / -વાની / -વાનું + હતો / હતી / હતું", "grammar": 2 },
+      "new": ["મંગાવવું", "ડિલિવરી", "પૅકેટ", "ખુલ્લું", "તૂટેલું", "વસ્તુ", "મને ખોટી વસ્તુ મળી છે.", "પૅકેટ પહેલેથી ખુલ્લું હતું."],
+      "sentences": [
+        { "native": "મારો ઑર્ડર ગઈકાલે આવવાનો હતો, પણ હજી નથી આવ્યો.", "roman": "māro orḍar gaīkāle āvvāno hato, paṇ hajī nathī āvyo.", "en": "My order was supposed to come yesterday, but it still hasn't.", "focus": "આવવાનો", "wrong": ["આવવાની|āvvānī", "આવવાનું|āvvānuṃ"] },
+        { "native": "ડિલિવરી સોમવારે થવાની હતી.", "roman": "ḍilivarī somvāre thavānī hatī.", "en": "The delivery was supposed to be on Monday.", "focus": "થવાની", "wrong": ["થવાનો|thavāno", "થવાનું|thavānuṃ"] },
+        { "native": "મને ખોટી વસ્તુ મળી છે, આ મારો ઑર્ડર નથી.", "roman": "mane khoṭī vastu maḷī chhe, ā māro orḍar nathī.", "en": "I've received the wrong item, this isn't my order." },
+        { "native": "મેં કાળો શર્ટ મંગાવ્યો હતો, અને આ ભૂરો આવ્યો.", "roman": "meṃ kāḷo sharṭ maṅgāvyo hato, ane ā bhūro āvyo.", "en": "I ordered a black shirt and this blue one came.", "focus": "મંગાવ્યો", "wrong": ["મંગાવી|maṅgāvī", "મંગાવ્યું|maṅgāvyuṃ"] },
+        { "native": "પૅકેટ પહેલેથી ખુલ્લું હતું, અને અંદર ફોન નહોતો.", "roman": "peket pahelethī khulluṃ hatuṃ, ane andar fon nahoto.", "en": "The packet was already open, and there was no phone inside.", "focus": "ખુલ્લું", "wrong": ["ખુલ્લો|khullo", "ખુલ્લી|khullī"] },
+        { "native": "બધાં વાસણ તૂટેલાં આવ્યાં.", "roman": "badhāṃ vāsaṇ tūṭelāṃ āvyāṃ.", "en": "All the dishes arrived broken.", "focus": "તૂટેલાં", "wrong": ["તૂટેલો|tūṭelo", "તૂટેલી|tūṭelī"] },
+        { "native": "ડિલિવરીવાળો ભાઈ બપોરે આવવાનો હતો, પણ આવ્યો જ નહીં.", "roman": "ḍilivarīvāḷo bhāī bapore āvvāno hato, paṇ āvyo j nahīṃ.", "en": "The delivery guy was supposed to come in the afternoon, but he never showed up.", "focus": "આવવાનો", "wrong": ["આવવાની|āvvānī", "આવ્યો|āvyo"] },
+        { "native": "હું તમને ફોન કરવાનો જ હતો!", "roman": "huṃ tamne fon karvāno j hato!", "en": "I was just about to call you! (man speaking)", "focus": "કરવાનો", "wrong": ["કરવાનું|karvānuṃ", "કર્યો|karyo"] },
+        { "native": "તૂટેલી સ્ક્રીનવાળો ફોન કોણ લે?", "roman": "tūṭelī skrīnvāḷo fon koṇ le?", "en": "Who would take a phone with a broken screen?", "focus": "તૂટેલી", "wrong": ["તૂટેલો|tūṭelo", "તૂટેલું|tūṭeluṃ"] },
+        { "native": "હું ઑર્ડર કૅન્સલ કરવાની હતી, પણ ભૂલી ગઈ.", "roman": "huṃ orḍar kensal karvānī hatī, paṇ bhūlī gaī.", "en": "I was going to cancel the order, but I forgot. (woman speaking)", "focus": "કરવાની", "wrong": ["કરવાનો|karvāno", "કરી|karī"] }
+      ]
+    },
+    {
+      "title": "Calling customer care",
+      "tip": { "title": "On the phone with customer care", "body": "- Agents use formal Gujarati: **આપ**, **સર / મૅડમ**, **જણાવશો?** You can answer with a normal polite **તમે**.\n- Say what you want: **મને રિફંડ જોઈએ છે** · **મેં રિફંડ માગ્યું**.\n- Listen for the passive: ફરિયાદ **નોંધાઈ ગઈ છે** 'has been registered' (Unit 31)." },
+      "new": ["કસ્ટમર કેર", "રિફંડ", "પૉલિસી", "નોંધાવવું", "માગવું", "હું તમને હોલ્ડ પર રાખું છું.", "તમારી ફરિયાદ નોંધાઈ ગઈ છે.", "મારા પૈસા ક્યારે પાછા મળશે?"],
+      "sentences": [
+        { "native": "મેં કસ્ટમર કેરમાં ત્રણ વાર ફોન કર્યો.", "roman": "meṃ kasṭamar kermāṃ traṇ vār fon karyo.", "en": "I called customer care three times.", "focus": "કર્યો", "wrong": ["કરી|karī", "કર્યું|karyuṃ"] },
+        { "native": "હું તમને હોલ્ડ પર રાખું છું, એક મિનિટ.", "roman": "huṃ tamne hold par rākhuṃ chhuṃ, ek miniṭ.", "en": "I'm putting you on hold, one minute." },
+        { "native": "મને રિફંડ જોઈએ છે, બીજી વસ્તુ નહીં.", "roman": "mane rifanḍ joīe chhe, bījī vastu nahīṃ.", "en": "I want a refund, not another item.", "focus": "મને", "wrong": ["મેં|meṃ", "હું|huṃ"] },
+        { "native": "મેં રિફંડ માગ્યું, પણ એમણે ના પાડી.", "roman": "meṃ rifanḍ māgyuṃ, paṇ emṇe nā pāḍī.", "en": "I asked for a refund, but they said no.", "focus": "માગ્યું", "wrong": ["માગ્યો|māgyo", "માગી|māgī"] },
+        { "native": "સર, કંપનીની પૉલિસી છે, હું કંઈ ના કરી શકું.", "roman": "sar, kampanīnī polisī chhe, huṃ kaṃī nā karī shakuṃ.", "en": "Sir, it's company policy, I can't do anything." },
+        { "native": "તમારી ફરિયાદ નોંધાઈ ગઈ છે, નંબર મેસેજમાં આવશે.", "roman": "tamārī fariyād noṃdhāī gaī chhe, nambar mesejmāṃ āvshe.", "en": "Your complaint has been registered, you'll get the number by message.", "focus": "નોંધાઈ", "wrong": ["નોંધાવી|noṃdhāvī", "નોંધાયો|noṃdhāyo"] },
+        { "native": "મેં ઍપમાં ફરિયાદ નોંધાવી, પણ કોઈ જવાબ નથી.", "roman": "meṃ epmāṃ fariyād noṃdhāvī, paṇ koī javāb nathī.", "en": "I filed a complaint in the app, but there's no reply.", "focus": "નોંધાવી", "wrong": ["નોંધાવ્યો|noṃdhāvyo", "નોંધાવ્યું|noṃdhāvyuṃ"] },
+        { "native": "મારા પૈસા ક્યારે પાછા મળશે? ખાતામાંથી કપાઈ ગયા છે.", "roman": "mārā paisā kyāre pāchhā maḷshe? khātāmāṃthī kapāī gayā chhe.", "en": "When will I get my money back? It's already been taken from my account.", "focus": "પાછા", "wrong": ["પાછો|pāchho", "પાછી|pāchhī"] },
+        { "native": "રિફંડ સાત દિવસમાં તમારા ખાતામાં આવી જશે.", "roman": "rifanḍ sāt divasmāṃ tamārā khātāmāṃ āvī jashe.", "en": "The refund will reach your account within seven days." },
+        { "native": "આવી પૉલિસી ક્યાં લખી છે? મને બતાવો.", "roman": "āvī polisī kyāṃ lakhī chhe? mane batāvo.", "en": "Where is this policy written? Show me.", "focus": "લખી", "wrong": ["લખ્યો|lakhyo", "લખ્યું|lakhyuṃ"] }
+      ]
+    },
+    {
+      "title": "What exactly did they say?",
+      "tip": { "title": "કહ્યું હતું કે… — what you were told", "body": "- After **કહ્યું કે / જણાવ્યું કે / પૂછ્યું કે** keep the original tense: … કે કાલે **આવી જશે**.\n- An earlier promise: **તમે કહ્યું હતું કે** ત્રણ દિવસમાં થઈ જશે.\n- Yes/no questions: **… કે નહીં** 'whether'.\n- Gujarati **બતાવવું** = show; 'tell' is **કહેવું**.", "pattern": "X-એ (મને) કહ્યું (હતું) કે + original words", "grammar": 0 },
+      "new": ["જણાવવું", "વાયદો", "મૅનેજર", "તમે કહ્યું હતું કે ત્રણ દિવસમાં થઈ જશે.", "મારે તમારા મૅનેજર સાથે વાત કરવી છે."],
+      "sentences": [
+        { "native": "તમે કહ્યું હતું કે ત્રણ દિવસમાં થઈ જશે. આજે દસ દિવસ થયા!", "roman": "tame kahyuṃ hatuṃ ke traṇ divasmāṃ thaī jashe. āje das divas thayā!", "en": "You said it would be done in three days. It's been ten days!", "focus": "હતું", "wrong": ["હતો|hato", "હતી|hatī"] },
+        { "native": "એમણે મને જણાવ્યું કે ફોન રિપેર થઈ ગયો છે.", "roman": "emṇe mane jaṇāvyuṃ ke fon riper thaī gayo chhe.", "en": "They let me know that the phone has been repaired.", "focus": "જણાવ્યું", "wrong": ["જણાવ્યો|jaṇāvyo", "જણાવી|jaṇāvī"] },
+        { "native": "દુકાનદારે કહ્યું કે બિલ વગર કંઈ નહીં થાય.", "roman": "dukāndāre kahyuṃ ke bil vagar kaṃī nahīṃ thāy.", "en": "The shopkeeper said nothing can be done without the bill.", "focus": "દુકાનદારે", "wrong": ["દુકાનદાર|dukāndār", "દુકાનદારને|dukāndārne"] },
+        { "native": "મેં પૂછ્યું કે મારો ઑર્ડર ક્યાં છે, પણ કોઈને ખબર નથી.", "roman": "meṃ pūchhyuṃ ke māro orḍar kyāṃ chhe, paṇ koīne khabar nathī.", "en": "I asked where my order is, but nobody knows.", "focus": "પૂછ્યું", "wrong": ["પૂછી|pūchhī", "પૂછ્યો|pūchhyo"] },
+        { "native": "એમણે વાયદો કર્યો હતો કે સોમવાર સુધીમાં પૈસા આવી જશે.", "roman": "emṇe vāydo karyo hato ke somvār sudhīmāṃ paisā āvī jashe.", "en": "They had promised the money would come by Monday.", "focus": "કર્યો", "wrong": ["કરી|karī", "કર્યું|karyuṃ"] },
+        { "native": "મારે તમારા મૅનેજર સાથે વાત કરવી છે, હમણાં જ.", "roman": "māre tamārā menejar sāthe vāt karvī chhe, hamṇāṃ j.", "en": "I need to speak to your manager, right now.", "focus": "કરવી", "wrong": ["કરવું|karvuṃ", "કરવો|karvo"] },
+        { "native": "મૅનેજરે પૂછ્યું કે બિલ છે કે નહીં.", "roman": "menejare pūchhyuṃ ke bil chhe ke nahīṃ.", "en": "The manager asked whether I had the bill.", "focus": "નહીં", "wrong": ["નથી|nathī", "હા|hā"] },
+        { "native": "એ કહેતા હતા કે આજે મૅનેજર રજા પર છે.", "roman": "e kahetā hatā ke āje menejar rajā par chhe.", "en": "He was saying the manager's on leave today.", "focus": "કહેતા", "wrong": ["કહેતી|kahetī", "કહ્યું|kahyuṃ"] },
+        { "native": "વાયદા તો બધા કરે છે, પણ કામ કોઈ નથી કરતું.", "roman": "vāydā to badhā kare chhe, paṇ kām koī nathī kartuṃ.", "en": "Everyone makes promises, but nobody does the work." },
+        { "native": "તમે જણાવશો કે મારો ઑર્ડર ક્યારે આવશે?", "roman": "tame jaṇāvsho ke māro orḍar kyāre āvshe?", "en": "Could you let me know when my order will arrive?", "focus": "જણાવશો", "wrong": ["જણાવીશ|jaṇāvīsh", "જણાવ્યું|jaṇāvyuṃ"] }
+      ]
+    },
+    {
+      "title": "A stolen phone and the police",
+      "tip": { "title": "They told me to…", "body": "- Quote the command: એમણે કહ્યું કે **કાલે આવજો**.\n- Or **-વાનું કહ્યું**: એમણે મને કાલે **આવવાનું** કહ્યું. Shorter: **આવવા** કહ્યું.\n- Not to: **ન** + -વાનું. Refused to: **-વાની ના પાડી**.\n- Asking *for* something is **માગવું**, not પૂછવું.", "pattern": "X-એ મને + -વાનું / -વા + કહ્યું", "grammar": 1 },
+      "new": [
+        "ચોરાવું",
+        "બ્લૉક",
+        "પુરાવો",
+        "ધક્કો",
+        "મારો ફોન ચોરાઈ ગયો છે, ફરિયાદ નોંધાવવી છે.",
+        "ખોટો ધક્કો થયો."
+      ],
+      "sentences": [
+        { "native": "સાહેબ, મારો ફોન ચોરાઈ ગયો છે, ફરિયાદ નોંધાવવી છે.", "roman": "sāheb, māro fon chorāī gayo chhe, fariyād noṃdhāvvī chhe.", "en": "Sir, my phone has been stolen, I want to report it." },
+        { "native": "પોલીસે મને કાલે પાછા આવવાનું કહ્યું.", "roman": "polīse mane kāle pāchhā āvvānuṃ kahyuṃ.", "en": "The police told me to come back tomorrow.", "focus": "આવવાનું", "wrong": ["આવ્યું|āvyuṃ", "આવશે|āvshe"] },
+        { "native": "એમણે કહ્યું કે ફોનનું બિલ લઈ આવો.", "roman": "emṇe kahyuṃ ke fonnuṃ bil laī āvo.", "en": "They told me to bring the phone's bill.", "focus": "આવો", "wrong": ["આવ્યો|āvyo", "આવશે|āvshe"] },
+        { "native": "બેંકવાળાએ મને કાર્ડ તરત બ્લૉક કરવાનું કહ્યું.", "roman": "beṅkvāḷāe mane kārḍ tarat blok karvānuṃ kahyuṃ.", "en": "The bank told me to block the card right away.", "focus": "કરવાનું", "wrong": ["કર્યું|karyuṃ", "કરશે|karshe"] },
+        { "native": "સૌથી પહેલાં સિમ બ્લૉક કરાવી દે.", "roman": "sauthī pahelāṃ sim blok karāvī de.", "en": "First of all, get the SIM blocked." },
+        { "native": "એમણે પુરાવો માગ્યો, પણ મારી પાસે બિલ નહોતું.", "roman": "emṇe purāvo māgyo, paṇ mārī pāse bil nahotuṃ.", "en": "They asked for proof, but I didn't have the bill.", "focus": "માગ્યો", "wrong": ["માગી|māgī", "માગ્યું|māgyuṃ"] },
+        { "native": "પોલીસવાળાએ મને ફોન ન કરવાનું કહ્યું, \"અમે જ ફોન કરીશું.\"", "roman": "polīsvāḷāe mane fon na karvānuṃ kahyuṃ, \"ame j fon karīshuṃ.\"", "en": "The policeman told me not to call — \"we'll call you.\"", "focus": "ન", "wrong": ["નથી|nathī", "નહોતું|nahotuṃ"] },
+        { "native": "દુકાનદારે પૈસા પાછા આપવાની ના પાડી.", "roman": "dukāndāre paisā pāchhā āpvānī nā pāḍī.", "en": "The shopkeeper refused to give the money back.", "focus": "આપવાની", "wrong": ["આપવાનું|āpvānuṃ", "આપવાનો|āpvāno"] },
+        { "native": "ત્રણ વાર પોલીસ સ્ટેશન ગયો, ખોટો ધક્કો થયો.", "roman": "traṇ vār polīs sṭeshan gayo, khoṭo dhakko thayo.", "en": "I went to the police station three times, all wasted trips." },
+        { "native": "એમણે મને સોમવારે આવવા કહ્યું, પણ સોમવારે સાહેબ જ નહોતા.", "roman": "emṇe mane somvāre āvvā kahyuṃ, paṇ somvāre sāheb j nahotā.", "en": "They told me to come on Monday, but on Monday the officer himself wasn't there.", "focus": "આવવા", "wrong": ["આવ્યા|āvyā", "આવશે|āvshe"] }
+      ]
+    },
+    {
+      "title": "Keeping calm and finding a solution",
+      "tip": { "title": "Cool heads win", "body": "- Calm it down: **બૂમો ના પાડો**, **શાંતિથી વાત કરીએ**.\n- Not your fault: **એમાં મારો કોઈ વાંક નથી**; someone else's: **X-ની બેદરકારી છે**.\n- Offer a deal: **કોઈ વચલો રસ્તો કાઢીએ** (કાઢવું 'take out, find').\n- Explain: **હું સમજાવું** 'let me explain'." },
+      "new": ["બૂમ", "તોછડું", "ગેરસમજ", "ઉકેલ", "બેદરકારી", "જવાબદાર", "સમજાવવું", "શાંતિથી વાત કરીએ.", "એમાં મારો કોઈ વાંક નથી.", "કોઈ વચલો રસ્તો કાઢીએ."],
+      "sentences": [
+        { "native": "ભાઈ, બૂમો ના પાડો, શાંતિથી વાત કરીએ.", "roman": "bhāī, būmo nā pāḍo, shāntithī vāt karīe.", "en": "Bhai, don't shout, let's talk calmly." },
+        { "native": "પેલો માણસ બહુ તોછડો હતો.", "roman": "pelo māṇas bahu tochhḍo hato.", "en": "That man was really rude.", "focus": "તોછડો", "wrong": ["તોછડી|tochhḍī", "તોછડું|tochhḍuṃ"] },
+        { "native": "કદાચ કોઈ ગેરસમજ થઈ છે, હું સમજાવું.", "roman": "kadāch koī gersamaj thaī chhe, huṃ samjāvuṃ.", "en": "Maybe there's been a misunderstanding, let me explain.", "focus": "થઈ", "wrong": ["થયો|thayo", "થયું|thayuṃ"] },
+        { "native": "એમાં મારો કોઈ વાંક નથી, ડિલિવરીવાળાની બેદરકારી છે.", "roman": "emāṃ māro koī vāṃk nathī, ḍilivarīvāḷānī bedarkārī chhe.", "en": "It's not my fault, it's the delivery guy's carelessness.", "focus": "ડિલિવરીવાળાની", "wrong": ["ડિલિવરીવાળાનો|ḍilivarīvāḷāno", "ડિલિવરીવાળાનું|ḍilivarīvāḷānuṃ"] },
+        { "native": "આ નુકસાન માટે કોણ જવાબદાર છે?", "roman": "ā nuksān māṭe koṇ javābdār chhe?", "en": "Who is responsible for this damage?" },
+        { "native": "કોઈ વચલો રસ્તો કાઢીએ: અડધા પૈસા પાછા આપો.", "roman": "koī vachlo rasto kāḍhīe: aḍdhā paisā pāchhā āpo.", "en": "Let's find a middle way: give me half the money back." },
+        { "native": "આનો ઉકેલ શું છે, એ કહો.", "roman": "āno ukel shuṃ chhe, e kaho.", "en": "Just tell me what the solution is." },
+        { "native": "મેં એમને આખી વાત સમજાવી.", "roman": "meṃ emne ākhī vāt samjāvī.", "en": "I explained the whole thing to them.", "focus": "સમજાવી", "wrong": ["સમજાવ્યો|samjāvyo", "સમજાવ્યું|samjāvyuṃ"] },
+        { "native": "ગુસ્સો કરવાથી ઉકેલ નહીં આવે.", "roman": "gusso karvāthī ukel nahīṃ āve.", "en": "Getting angry won't solve anything." },
+        { "native": "તમારી બેદરકારીથી મારું નુકસાન થયું.", "roman": "tamārī bedarkārīthī māruṃ nuksān thayuṃ.", "en": "Your carelessness has cost me. (lit. my loss happened)", "focus": "મારું", "wrong": ["મારો|māro", "મારી|mārī"] }
+      ]
+    },
+    {
+      "title": "That's a con!",
+      "tip": { "title": "Cheated", "body": "- **છેતરવું** 'to cheat': the past agrees with the person cheated: એણે મને **છેતર્યો** (man) / **છેતરી** (woman).\n- 'Got conned' uses the passive: હું **છેતરાઈ ગયો / ગઈ**.\n- **નકલી** 'fake' never changes. Shout it out: **આ તો છેતરપિંડી છે!**" },
+      "new": ["છેતરવું", "નકલી", "ગૅરંટી", "રકમ", "આ તો છેતરપિંડી છે!"],
+      "sentences": [
+        { "native": "એણે મને છેતર્યો! નકલી ફોન વેચ્યો.", "roman": "eṇe mane chhetaryo! naklī fon vechyo.", "en": "He conned me! He sold me a fake phone. (man speaking)", "focus": "છેતર્યો", "wrong": ["છેતરી|chhetarī", "છેતર્યું|chhetaryuṃ"] },
+        { "native": "આ તો છેતરપિંડી છે! પૅકેટ ખાલી હતું!", "roman": "ā to chhetarpiṇḍī chhe! peket khālī hatuṃ!", "en": "This is a con! The packet was empty!" },
+        { "native": "દુકાનદારે કહ્યું હતું કે એક વર્ષની ગૅરંટી છે.", "roman": "dukāndāre kahyuṃ hatuṃ ke ek varṣnī geranṭī chhe.", "en": "The shopkeeper said there was a one-year guarantee.", "focus": "વર્ષની", "wrong": ["વર્ષનો|varṣno", "વર્ષનું|varṣnuṃ"] },
+        { "native": "ગૅરંટીમાં છે, તો પૈસા કેમ માગો છો?", "roman": "geranṭīmāṃ chhe, to paisā kem māgo chho?", "en": "It's under guarantee, so why are you asking for money?", "focus": "માગો", "wrong": ["માગે|māge", "માગું|māguṃ"] },
+        { "native": "હું છેતરાઈ ગઈ, આ બૂટ નકલી છે.", "roman": "huṃ chhetarāī gaī, ā būṭ naklī chhe.", "en": "I got conned, these shoes are fake. (woman speaking)" },
+        { "native": "એમણે કહ્યું કે ઓટીપી આપો, તો રિફંડ આવી જશે.", "roman": "emṇe kahyuṃ ke oṭīpī āpo, to rifanḍ āvī jashe.", "en": "They said give them the OTP and the refund would come through.", "focus": "આપો", "wrong": ["આપ્યો|āpyo", "આપશે|āpshe"] },
+        { "native": "બેંક ક્યારેય ફોન પર ઓટીપી નથી માગતી.", "roman": "beṅk kyārey fon par oṭīpī nathī māgtī.", "en": "A bank never asks for an OTP over the phone.", "focus": "માગતી", "wrong": ["માગતો|māgto", "માગ્યો|māgyo"] },
+        { "native": "રકમ ખાતામાંથી કપાઈ ગઈ, પણ ઑર્ડર નથી આવ્યો.", "roman": "rakam khātāmāṃthī kapāī gaī, paṇ orḍar nathī āvyo.", "en": "The amount's been taken from my account, but the order hasn't come.", "focus": "ગઈ", "wrong": ["ગયો|gayo", "ગયું|gayuṃ"] },
+        { "native": "આટલી મોટી રકમ કોઈને ઑનલાઇન ના મોકલાય.", "roman": "āṭlī moṭī rakam koīne onlāin nā moklāy.", "en": "You shouldn't send such a big amount to anyone online.", "focus": "મોટી", "wrong": ["મોટો|moṭo", "મોટું|moṭuṃ"] }
+      ]
+    }
+  ]
+}

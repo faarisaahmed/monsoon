@@ -1,0 +1,181 @@
+{
+  "id": 34,
+  "title": "Phones, apps & payments",
+  "goal": "Sort out the wi-fi, use apps and accounts safely, order online and track it, pay by UPI (and deal with a failed payment), and talk about posts, reels and stories.",
+  "intro": "Tech talk in Gujarati is English words on a Gujarati frame: **નેટ નથી ચાલતું**, **ફોન હૅંગ થઈ ગયો**, **સ્કૅન કરીને પેમેન્ટ કરી દો**, **એની નવી રીલ જોઈ?** Learn the frame and you can plug in any English word you need.\n\nThat frame is the first grammar point: English word + **કરવું** when someone does it (**મેં ઍપ ડાઉનલોડ કરી**) and + **થવું** when it happens by itself (**ઍપ ડાઉનલોડ થાય છે**, **પેમેન્ટ થઈ ગયું**). The second is the if-sentence as people really use it, with **જો** dropped and **તો** kept: **ઓટીપી ના આવે તો…**, **લૉગ ઇન કરવું હોય તો…**, **નહીં તો…**",
+  "vocab": [
+    { "native": "ઇન્ટરનેટ", "roman": "inṭarneṭ", "en": "internet", "pos": "noun", "note": "n · usually just નેટ: નેટ નથી ચાલતું \"the internet isn't working\"" },
+    { "native": "વાઇફાઇ", "roman": "vāifāi", "en": "wi-fi", "pos": "noun", "note": "n" },
+    { "native": "ડેટા", "roman": "ḍeṭā", "en": "mobile data", "pos": "noun", "note": "m · ડેટા પૂરો થઈ ગયો \"my data has run out\"" },
+    { "native": "પાસવર્ડ", "roman": "pāsvarḍ", "en": "password", "pos": "noun", "note": "m · પાસવર્ડ નાખવો \"to enter the password\"" },
+    { "native": "સ્લો", "roman": "slo", "en": "slow (of a device or connection)", "pos": "adj", "note": "never changes · Gujarati ધીમું is also fine: નેટ બહુ ધીમું છે" },
+    { "native": "હૅંગ થવું", "roman": "heṅg thavuṃ", "en": "to freeze, hang (of a device)", "pos": "verb", "note": "ફોન હૅંગ થઈ ગયો \"my phone froze\"" },
+    { "native": "ડાઉનલોડ", "roman": "ḍāunloḍ", "en": "download", "pos": "noun", "note": "ડાઉનલોડ કરવું \"to download\" · ડાઉનલોડ થવું \"to be downloading / downloaded\"" },
+    { "native": "અપડેટ", "roman": "apḍeṭ", "en": "update", "pos": "noun", "note": "n · અપડેટ આવ્યું \"an update came\" · અપડેટ કરવું \"to update\"" },
+    { "native": "ઇન્સ્ટોલ", "roman": "insṭol", "en": "install", "pos": "noun", "note": "ઇન્સ્ટોલ કરવું / થવું" },
+    { "native": "એકાઉન્ટ", "roman": "ekāunṭ", "en": "account (online or bank)", "pos": "noun", "note": "n · a bank account is also ખાતું" },
+    { "native": "લૉગ ઇન", "roman": "log in", "en": "log in", "pos": "noun", "note": "લૉગ ઇન કરવું \"to log in\" · લૉગ ઇન થવું \"to get logged in\"" },
+    { "native": "ઓટીપી", "roman": "oṭīpī", "en": "OTP, one-time password", "pos": "noun", "note": "m · ઓટીપી આવ્યો \"the OTP came\"" },
+    { "native": "પિન", "roman": "pin", "en": "PIN (for UPI, cards)", "pos": "noun", "note": "m" },
+    { "native": "ફ્રોડ", "roman": "froḍ", "en": "fraud, scam; scammer", "pos": "noun", "note": "m · ફ્રોડ થયો \"I got scammed\" · ફ્રોડવાળા \"scammers\"" },
+    { "native": "લિંક", "roman": "liṅk", "en": "link", "pos": "noun", "note": "f · લિંક મોકલવી \"to send a link\"" },
+    { "native": "ટ્રેક કરવું", "roman": "ṭrek karvuṃ", "en": "to track (an order)", "pos": "verb" },
+    { "native": "યુપીઆઈ", "roman": "yupīāī", "en": "UPI (instant bank payment by phone)", "pos": "noun", "note": "n · people also name the app: GPay કરું? ફોનપે કરી દઉં?" },
+    { "native": "પેમેન્ટ", "roman": "pemenṭ", "en": "payment", "pos": "noun", "note": "n · પેમેન્ટ કરવું \"to pay\" · પેમેન્ટ થવું \"to go through\"" },
+    { "native": "સ્કૅન", "roman": "sken", "en": "scan", "pos": "noun", "note": "સ્કૅન કરવું \"to scan\" · સ્કૅન થવું \"to get scanned\"" },
+    { "native": "ક્યુઆર કોડ", "roman": "kyuār koḍ", "en": "QR code", "pos": "noun", "note": "m" },
+    { "native": "સ્ક્રીનશૉટ", "roman": "skrīnshoṭ", "en": "screenshot", "pos": "noun", "note": "m · સ્ક્રીનશૉટ લેવો" },
+    { "native": "પોસ્ટ", "roman": "posṭ", "en": "post (on social media)", "pos": "noun", "note": "f · પોસ્ટ કરવું \"to post\"" },
+    { "native": "સ્ટોરી", "roman": "sṭorī", "en": "story (on Instagram / WhatsApp)", "pos": "noun", "note": "f · સ્ટોરીમાં મૂકવું \"to put on your story\"" },
+    { "native": "રીલ", "roman": "rīl", "en": "reel (short video)", "pos": "noun", "note": "f · રીલ બનાવવી \"to make a reel\"" },
+    { "native": "લાઇક", "roman": "lāik", "en": "like (on social media)", "pos": "noun", "note": "લાઇક કરવું \"to like\"" },
+    { "native": "કમેન્ટ", "roman": "kamenṭ", "en": "comment", "pos": "noun", "note": "f · X પર કમેન્ટ કરવી" },
+    { "native": "ફૉલો કરવું", "roman": "folo karvuṃ", "en": "to follow (on social media)", "pos": "verb" },
+    { "native": "શેર કરવું", "roman": "sher karvuṃ", "en": "to share", "pos": "verb" }
+  ],
+  "phrases": [
+    { "native": "વાઇફાઇનો પાસવર્ડ શું છે?", "roman": "vāifāino pāsvarḍ shuṃ chhe?", "en": "What's the wi-fi password?" },
+    { "native": "નેટ નથી ચાલતું.", "roman": "neṭ nathī chāltuṃ.", "en": "The internet isn't working." },
+    { "native": "મારો ફોન હૅંગ થઈ ગયો.", "roman": "māro fon heṅg thaī gayo.", "en": "My phone has frozen." },
+    { "native": "ઓટીપી કોઈને આપતા નહીં.", "roman": "oṭīpī koīne āptā nahīṃ.", "en": "Never give anyone your OTP. (polite)", "note": "what every bank message says: ઓટીપી કોઈને આપશો નહીં" },
+    { "native": "મને લિંક મોકલ.", "roman": "mane liṅk mokal.", "en": "Send me the link. (informal)" },
+    { "native": "ઑનલાઇન ઑર્ડર કરી દઈએ.", "roman": "onlāin orḍar karī daīe.", "en": "Let's just order it online." },
+    { "native": "ઑર્ડર ક્યાં પહોંચ્યો?", "roman": "orḍar kyāṃ pahoṃchyo?", "en": "Where's the order got to?" },
+    { "native": "હું યુપીઆઈથી પેમેન્ટ કરું છું.", "roman": "huṃ yupīāīthī pemenṭ karuṃ chhuṃ.", "en": "I'll pay by UPI." },
+    { "native": "સ્કૅન કરીને પેમેન્ટ કરી દો.", "roman": "sken karīne pemenṭ karī do.", "en": "Scan (the QR code) and pay." },
+    { "native": "પેમેન્ટ થયું?", "roman": "pemenṭ thayuṃ?", "en": "Did the payment go through?" },
+    { "native": "પૈસા કપાઈ ગયા, પણ પેમેન્ટ ફેલ થયું.", "roman": "paisā kapāī gayā, paṇ pemenṭ fel thayuṃ.", "en": "The money was taken, but the payment failed." },
+    { "native": "સ્ક્રીનશૉટ મોકલ ને.", "roman": "skrīnshoṭ mokal ne.", "en": "Send me a screenshot. (informal)" },
+    { "native": "એની નવી રીલ જોઈ?", "roman": "enī navī rīl joī?", "en": "Have you seen her new reel?" },
+    { "native": "મને ફૉલો કર ને!", "roman": "mane folo kar ne!", "en": "Follow me! (informal)" }
+  ],
+  "grammar": [
+    {
+      "title": "If-sentences in real life: (જો) … તો …",
+      "body": "Unit 19 introduced **જો … તો** 'if … then'. In everyday speech it gets shorter and more varied:\n\n**જો is often dropped; તો stays.** **ઓટીપી ના આવે તો** બે મિનિટ રાહ જો 'if the OTP doesn't come, wait two minutes'. The **તો** is what tells the listener it was an 'if'.\n\n**Which verb form after 'if'?**\n- the **'may' form** (subjunctive) for general or possible cases — the most common: **નેટ ના ચાલે તો**…, **કોઈ પિન માગે તો**…\n- the **future** for a specific future event: **એ આજે પૈસા નહીં મોકલે તો** હું ફોન કરીશ.\n- **-યું હોય તો** 'if it has…' for something that may already have happened: **પૈસા કપાઈ ગયા હોય તો** ચિંતા ના કર 'if the money's been taken, don't worry'.\n\n**'If you want to…'** is **-વું હોય તો** (with the person in -ને or -એ form): **લૉગ ઇન કરવું હોય તો** ઓટીપી જોઈએ, **તારે ઑર્ડર કરવું હોય તો** આ લિંક પરથી કર.\n\n**'Otherwise'** is **નહીં તો**: ફોન અપડેટ કરી લે, **નહીં તો** ઍપ નહીં ચાલે.\n\nThe trap: don't drop the **તો** when you drop the જો — **ઓટીપી ના આવે, રાહ જો** sounds like two separate sentences. And 'if you want' is **હોય**, not છે: ~~કરવું છે તો~~.",
+      "examples": [
+        { "native": "જો નેટ ના ચાલે, તો રાઉટર બંધ કરીને ફરી ચાલુ કર.", "roman": "jo neṭ nā chāle, to rāuṭar bandh karīne farī chālu kar.", "en": "If the internet isn't working, switch the router off and on again." },
+        { "native": "પૈસા કપાઈ ગયા હોય તો ચિંતા ના કર, બે દિવસમાં પાછા આવી જશે.", "roman": "paisā kapāī gayā hoy to chintā nā kar, be divasmāṃ pāchhā āvī jashe.", "en": "If the money's been taken, don't worry, it'll come back within two days." },
+        { "native": "તારે ઑર્ડર કરવું હોય તો આ ઍપમાંથી કર.", "roman": "tāre orḍar karvuṃ hoy to ā epmāṃthī kar.", "en": "If you want to order, do it through this app." },
+        { "native": "એ આજે પૈસા નહીં મોકલે તો હું ફોન કરીશ.", "roman": "e āje paisā nahīṃ mokle to huṃ fon karīsh.", "en": "If he doesn't send the money today, I'll call him." },
+        { "native": "અજાણી લિંક ખોલતો નહીં, નહીં તો ફ્રોડ થઈ શકે.", "roman": "ajāṇī liṅk kholto nahīṃ, nahīṃ to froḍ thaī shake.", "en": "Don't open unknown links, or you could get scammed." }
+      ]
+    },
+    {
+      "title": "English word + Gujarati verb: ડાઉનલોડ કરવું or ડાઉનલોડ થવું?",
+      "body": "Almost every tech word comes straight from English, and Gujarati turns it into a verb with **કરવું** or **થવું**. Which one depends on **who is doing it**.\n\n**કરવું — a person does it**: ઍપ ડાઉનલોડ **કર** 'download the app', પાસવર્ડ ચેન્જ **કરજે**, હું પેમેન્ટ **કરું છું**. In the past it's ergative (Unit 16): the doer takes **-એ** (મેં, તેં, એણે) and **કર્યું** agrees with the thing: મેં ઍપ ડાઉનલોડ **કરી** (ઍપ f), મેં ફોટો પોસ્ટ **કર્યો** (m), મેં પેમેન્ટ **કર્યું** (n).\n\n**થવું — it happens (or gets done)**: ઍપ ડાઉનલોડ **થાય છે** 'the app is downloading', પેમેન્ટ **થઈ ગયું** 'the payment went through', ફોન હૅંગ **થઈ ગયો** 'the phone froze', પૈસા જમા **થયા** 'the money was credited'. No ergative here: the thing is the subject and the verb agrees with it.\n\nA few other Gujarati verbs do the tech work: **ચાલવું** 'to work, run' (**નેટ નથી ચાલતું**), **નાખવું** 'to put in, type in' (**પાસવર્ડ નાખ**, **પિન નાખો**), **આવવું** for whatever arrives (**ઓટીપી આવ્યો**, **અપડેટ આવ્યું**), **જવું** for whatever goes out (**મેસેજ ગયો?**), **મૂકવું** 'to put up' (**સ્ટોરીમાં મૂક**).\n\nThe trap: 'it's downloading' is ડાઉનલોડ **થાય છે**, not ~~ડાઉનલોડ કરે છે~~ — that would need someone doing the downloading. Ask yourself: a person → **કરવું**; the thing by itself → **થવું**.",
+      "examples": [
+        { "native": "મેં નવી ઍપ ડાઉનલોડ કરી, પણ ખૂલતી જ નથી.", "roman": "meṃ navī ep ḍāunloḍ karī, paṇ khūltī j nathī.", "en": "I downloaded the new app, but it just won't open." },
+        { "native": "વીડિયો ડાઉનલોડ થાય છે, બે મિનિટ.", "roman": "vīḍiyo ḍāunloḍ thāy chhe, be miniṭ.", "en": "The video's downloading, give it two minutes." },
+        { "native": "પાસવર્ડ નાખ્યો, તો પણ લૉગ ઇન નથી થતું.", "roman": "pāsvarḍ nākhyo, to paṇ log in nathī thatuṃ.", "en": "I put in the password, but it still won't log in." },
+        { "native": "પૈસા તમારા એકાઉન્ટમાં જમા થઈ ગયા.", "roman": "paisā tamārā ekāunṭmāṃ jamā thaī gayā.", "en": "The money has gone into your account." },
+        { "native": "એણે આપણો ફોટો સ્ટોરીમાં મૂક્યો.", "roman": "eṇe āpṇo foṭo sṭorīmāṃ mūkyo.", "en": "She put our photo on her story." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Pizza and a failed payment",
+    "setting": "A shared flat near MS University, Vadodara. The wi-fi has died in the middle of Tanvi's online class; her flatmate Parth is on the sofa.",
+    "lines": [
+      { "speaker": "Tanvi", "native": "પાર્થ, નેટ નથી ચાલતું! મારો ઑનલાઇન ક્લાસ ચાલુ છે.", "roman": "pārth, neṭ nathī chāltuṃ! māro onlāin klās chālu chhe.", "en": "Parth, the internet isn't working! My online class is on." },
+      { "speaker": "Parth", "native": "રાઉટર બંધ કરીને ચાલુ કર. તો પણ ના ચાલે, તો મારું હૉટસ્પૉટ લઈ લે.", "roman": "rāuṭar bandh karīne chālu kar. to paṇ nā chāle, to māruṃ hoṭspoṭ laī le.", "en": "Turn the router off and on. If it still doesn't work, use my hotspot." },
+      { "speaker": "Tanvi", "native": "હૉટસ્પૉટનો પાસવર્ડ શું છે?", "roman": "hoṭspoṭno pāsvarḍ shuṃ chhe?", "en": "What's the hotspot password?" },
+      { "speaker": "Parth", "native": "એ જ, મારું નામ અને જન્મતારીખ. અને પ્લીઝ, વીડિયો બંધ રાખજે, નહીં તો મારો ડેટા પૂરો થઈ જશે.", "roman": "e j, māruṃ nām ane janmtārīkh. ane plīz, vīḍiyo bandh rākhje, nahīṃ to māro ḍeṭā pūro thaī jashe.", "en": "Same as always, my name and birthday. And please keep your video off, or my data will run out." },
+      { "speaker": "Tanvi", "native": "ઓહો, બહુ સેફ પાસવર્ડ!", "roman": "oho, bahu sef pāsvarḍ!", "en": "Wow, what a secure password!" },
+      { "speaker": "Parth", "native": "ચૂપ! ક્લાસ પછી જમવાનું ઑનલાઇન ઑર્ડર કરી દઈએ?", "roman": "chūp! klās pachhī jamvānuṃ onlāin orḍar karī daīe?", "en": "Shut up! Shall we order food online after your class?" },
+      { "speaker": "Tanvi", "native": "હા, પિઝા! તું ઑર્ડર કર, હું તને યુપીઆઈથી પૈસા મોકલું છું.", "roman": "hā, pizā! tuṃ orḍar kar, huṃ tane yupīāīthī paisā mokaluṃ chhuṃ.", "en": "Yes, pizza! You order, I'll send you the money by UPI." },
+      { "speaker": "Parth", "native": "અરે યાર! પૈસા કપાઈ ગયા, પણ પેમેન્ટ ફેલ થયું!", "roman": "are yār! paisā kapāī gayā, paṇ pemenṭ fel thayuṃ!", "en": "Oh no! The money was taken, but the payment failed!" },
+      { "speaker": "Tanvi", "native": "ટેન્શન ના લે, પૈસા પાછા આવી જશે. સ્ક્રીનશૉટ લઈ લે અને ફરી ટ્રાય કર.", "roman": "ṭenshan nā le, paisā pāchhā āvī jashe. skrīnshoṭ laī le ane farī ṭrāy kar.", "en": "Don't stress, the money will come back. Take a screenshot and try again." },
+      { "speaker": "Parth", "native": "હવે થઈ ગયું! ઍપમાં લખ્યું છે, પચીસ મિનિટમાં આવશે.", "roman": "have thaī gayuṃ! epmāṃ lakhyuṃ chhe, pachīs miniṭmāṃ āvshe.", "en": "It's gone through now! The app says it'll be here in twenty-five minutes." },
+      { "speaker": "Tanvi", "native": "મસ્ત. ત્યાં સુધી… તેં નિધિની નવી રીલ જોઈ?", "roman": "mast. tyāṃ sudhī… teṃ nidhinī navī rīl joī?", "en": "Great. Meanwhile… have you seen Nidhi's new reel?" },
+      { "speaker": "Parth", "native": "ગરબાવાળી? હા, બધા શેર કરે છે!", "roman": "garbāvāḷī? hā, badhā sher kare chhe!", "en": "The garba one? Yes, everyone's sharing it!" },
+      { "speaker": "Tanvi", "native": "મેં કમેન્ટ પણ કરી, અને મારી સ્ટોરીમાં પણ મૂકી.", "roman": "meṃ kamenṭ paṇ karī, ane mārī sṭorīmāṃ paṇ mūkī.", "en": "I commented on it too, and put it on my story." }
+    ]
+  },
+  "culture": "Gujarat pays by phone. Pani-puri carts, vegetable sellers, rickshaw drivers and temple donation boxes all have a **ક્યુઆર કોડ** taped up, and the shopkeeper's line is **સ્કૅન કરી દો**. People often name the app instead of saying UPI — **GPay કરું?**, **ફોનપે કરી દઉં?** — and many shops have a little speaker that reads out each payment as it arrives. Failed payments are common and the money nearly always comes back within a few days, so the normal reaction is **સ્ક્રીનશૉટ લઈ લે** rather than panic. Scams are common too: fake 'KYC update' messages, 'your electricity will be cut' texts, callers pretending to be from the bank. Banks repeat **ઓટીપી કોઈને આપશો નહીં** in every message, and you'll hear it from every parent. Food and grocery apps are everywhere in Ahmedabad, Surat, Vadodara and Rajkot. Most young Gujaratis type Gujarati in English letters on WhatsApp ('kem cho', 'aavje') and switch to the Gujarati keyboard only for elders or for special occasions. Every family has a WhatsApp group where elders post good-morning images and forwards, and Instagram is full of Gujarati comedy reels and garba videos. For the diaspora, video calls to grandparents in Gujarat and money-transfer apps for sending money home are part of normal life.",
+  "lessons": [
+    {
+      "title": "When the internet is down",
+      "tip": { "title": "English word + કરવું or થવું", "body": "- A person does it → **કરવું**: મેં ઍપ ડાઉનલોડ **કરી**, પેમેન્ટ **કર્યું**.\n- It happens by itself → **થવું**: ફોન હૅંગ **થઈ ગયો**, ડેટા પૂરો **થઈ ગયો**.\n- 'It works' = **ચાલે છે**; 'type in' = **નાખવું**: પાસવર્ડ **નાખ**.\n- 'It's downloading' = ડાઉનલોડ **થાય છે**, not ~~કરે છે~~.", "pattern": "English word + કરવું (you) / થવું (it)", "grammar": 1 },
+      "new": ["ઇન્ટરનેટ", "વાઇફાઇ", "ડેટા", "પાસવર્ડ", "સ્લો", "હૅંગ થવું", "વાઇફાઇનો પાસવર્ડ શું છે?", "નેટ નથી ચાલતું.", "મારો ફોન હૅંગ થઈ ગયો."],
+      "sentences": [
+        { "native": "વાઇફાઇનો પાસવર્ડ શું છે? મારો ડેટા પૂરો થઈ ગયો.", "roman": "vāifāino pāsvarḍ shuṃ chhe? māro ḍeṭā pūro thaī gayo.", "en": "What's the wi-fi password? My data has run out.", "focus": "પૂરો", "wrong": ["પૂરી|pūrī", "પૂરું|pūruṃ"] },
+        { "native": "નેટ નથી ચાલતું, તારું ચાલે છે?", "roman": "neṭ nathī chāltuṃ, tāruṃ chāle chhe?", "en": "The internet isn't working; is yours?", "focus": "ચાલે", "wrong": ["કરે|kare", "થાય|thāy"] },
+        { "native": "મારો ફોન હૅંગ થઈ ગયો, કંઈ નથી થતું!", "roman": "māro fon heṅg thaī gayo, kaṃī nathī thatuṃ!", "en": "My phone's frozen, nothing's happening!", "focus": "ગયો", "wrong": ["ગઈ|gaī", "કર્યો|karyo"] },
+        { "native": "ઇન્ટરનેટ બહુ સ્લો છે, વીડિયો નથી ચાલતો.", "roman": "inṭarneṭ bahu slo chhe, vīḍiyo nathī chālto.", "en": "The internet's really slow; the video won't play." },
+        { "native": "ફોન રોજ હૅંગ થાય છે, નવો લેવો પડશે.", "roman": "fon roj heṅg thāy chhe, navo levo paḍshe.", "en": "My phone freezes every day; I'll have to get a new one.", "focus": "થાય", "wrong": ["કરે|kare", "કરું|karuṃ"] },
+        { "native": "પાસવર્ડ નાખ્યો, પણ વાઇફાઇ નથી ચાલતું.", "roman": "pāsvarḍ nākhyo, paṇ vāifāi nathī chāltuṃ.", "en": "I entered the password, but the wi-fi isn't working.", "focus": "નાખ્યો", "wrong": ["નાખી|nākhī", "નાખ્યું|nākhyuṃ"] },
+        { "native": "તારો ડેટા ચાલુ કર ને, પ્લીઝ.", "roman": "tāro ḍeṭā chālu kar ne, plīz.", "en": "Turn your data on, please." },
+        { "native": "મેં પાસવર્ડ બદલ્યો, અને હવે મને યાદ નથી!", "roman": "meṃ pāsvarḍ badalyo, ane have mane yād nathī!", "en": "I changed the password and now I can't remember it!", "focus": "બદલ્યો", "wrong": ["બદલી|badlī", "બદલ્યું|badalyuṃ"] },
+        { "native": "ઇન્ટરનેટ વગર તો કંઈ કામ જ નથી થતું.", "roman": "inṭarneṭ vagar to kaṃī kām j nathī thatuṃ.", "en": "Nothing gets done without the internet.", "focus": "થતું", "wrong": ["કરતું|kartuṃ", "કરતો|karto"] },
+        { "native": "સ્લો નેટમાં ફોટો નથી જતો.", "roman": "slo neṭmāṃ foṭo nathī jato.", "en": "Photos won't send when the internet is slow." }
+      ]
+    },
+    {
+      "title": "Apps, accounts and staying safe",
+      "tip": { "title": "If: (જો) … તો …", "body": "- **જો** often drops, **તો** stays: ઓટીપી **ના આવે તો** રાહ જો.\n- 'If you want to…' = **-વું હોય તો**: લૉગ ઇન **કરવું હોય તો**…\n- 'If it has…' = **-યું હોય તો**: પૈસા કપાઈ ગયા **હોય તો**…\n- 'Otherwise' = **નહીં તો**.", "pattern": "(જો) + subjunctive + તો …", "grammar": 0 },
+      "new": ["ડાઉનલોડ", "અપડેટ", "ઇન્સ્ટોલ", "એકાઉન્ટ", "લૉગ ઇન", "ઓટીપી", "પિન", "ફ્રોડ", "ઓટીપી કોઈને આપતા નહીં."],
+      "sentences": [
+        { "native": "આ ઍપ ડાઉનલોડ કરવી હોય તો હું મદદ કરું.", "roman": "ā ep ḍāunloḍ karvī hoy to huṃ madad karuṃ.", "en": "If you want to download this app, I'll help.", "focus": "હોય", "wrong": ["છે|chhe", "હતી|hatī"] },
+        { "native": "ઍપ ખૂલતી નથી? તો અપડેટ કરી જો.", "roman": "ep khūltī nathī? to apḍeṭ karī jo.", "en": "The app won't open? Then try updating it." },
+        { "native": "જો ઍપ ના ચાલે, તો ફરીથી ઇન્સ્ટોલ કરી જો.", "roman": "jo ep nā chāle, to farīthī insṭol karī jo.", "en": "If the app doesn't work, try installing it again.", "focus": "ચાલે", "wrong": ["ચાલી|chālī", "ચાલતી|chāltī"] },
+        { "native": "લૉગ ઇન કરવું હોય તો ઓટીપી નાખવો પડશે.", "roman": "log in karvuṃ hoy to oṭīpī nākhvo paḍshe.", "en": "If you want to log in, you'll have to enter the OTP.", "focus": "હોય", "wrong": ["છે|chhe", "હતું|hatuṃ"] },
+        { "native": "ઓટીપી ના આવે તો બે મિનિટ રાહ જો.", "roman": "oṭīpī nā āve to be miniṭ rāh jo.", "en": "If the OTP doesn't come, wait two minutes.", "focus": "આવે", "wrong": ["આવ્યો|āvyo", "આવતો|āvto"] },
+        { "native": "ઓટીપી કોઈને આપતા નહીં, બેંકવાળા પણ ક્યારેય નથી માગતા.", "roman": "oṭīpī koīne āptā nahīṃ, beṅkvāḷā paṇ kyārey nathī māgtā.", "en": "Never give anyone your OTP; even the bank never asks for it." },
+        { "native": "કોઈ તમારો પિન માગે તો સમજી લો કે ફ્રોડ છે.", "roman": "koī tamāro pin māge to samjī lo ke froḍ chhe.", "en": "If anyone asks for your PIN, you can be sure it's a scam.", "focus": "માગે", "wrong": ["માગ્યો|māgyo", "માગતો|māgto"] },
+        { "native": "એકાઉન્ટ બનાવવું હોય તો ઈમેલ જોઈએ.", "roman": "ekāunṭ banāvvuṃ hoy to īmel joīe.", "en": "If you want to make an account, you need an email address.", "focus": "હોય", "wrong": ["છે|chhe", "હતું|hatuṃ"] },
+        { "native": "ફોન અપડેટ કરી લે, નહીં તો નવી ઍપ નહીં ચાલે.", "roman": "fon apḍeṭ karī le, nahīṃ to navī ep nahīṃ chāle.", "en": "Update your phone, otherwise the new app won't work." },
+        { "native": "મારા એકાઉન્ટમાં કોઈએ લૉગ ઇન કર્યું! હવે શું કરું?", "roman": "mārā ekāunṭmāṃ koīe log in karyuṃ! have shuṃ karuṃ?", "en": "Someone has logged into my account! What do I do now?" },
+        { "native": "ફ્રોડવાળા બેંકના સાહેબ બનીને ફોન કરે છે.", "roman": "froḍvāḷā beṅknā sāheb banīne fon kare chhe.", "en": "Scammers call pretending to be from the bank." }
+      ]
+    },
+    {
+      "title": "Ordering online",
+      "tip": { "title": "Let's just order it", "body": "- 'Let's just…': **-ઈ દઈએ** — **ઑનલાઇન ઑર્ડર કરી દઈએ**.\n- Tracking: **ઑર્ડર ટ્રેક કર**, **ઑર્ડર ક્યાં પહોંચ્યો?**\n- 'You can …' (impersonal): **-ઈ શકાય છે** — ટ્રેક કરી **શકાય** છે." },
+      "new": ["લિંક", "ટ્રેક કરવું", "મને લિંક મોકલ.", "ઑનલાઇન ઑર્ડર કરી દઈએ.", "ઑર્ડર ક્યાં પહોંચ્યો?"],
+      "sentences": [
+        { "native": "મને લિંક મોકલ, હું પણ ઑર્ડર કરું.", "roman": "mane liṅk mokal, huṃ paṇ orḍar karuṃ.", "en": "Send me the link, I'll order one too." },
+        { "native": "બહાર બહુ ગરમી છે, ઑનલાઇન ઑર્ડર કરી દઈએ.", "roman": "bahār bahu garmī chhe, onlāin orḍar karī daīe.", "en": "It's too hot outside; let's just order online." },
+        { "native": "ઑર્ડર ક્યાં પહોંચ્યો? ટ્રેક કર ને.", "roman": "orḍar kyāṃ pahoṃchyo? ṭrek kar ne.", "en": "Where's the order got to? Track it." },
+        { "native": "ઍપમાં ઑર્ડર ટ્રેક કરી શકાય છે, જો.", "roman": "epmāṃ orḍar ṭrek karī shakāy chhe, jo.", "en": "You can track the order in the app, look." },
+        { "native": "પાર્સલ કાલે આવશે, એવું ઍપમાં લખ્યું છે.", "roman": "pārsal kāle āvshe, evuṃ epmāṃ lakhyuṃ chhe.", "en": "The app says the parcel is coming tomorrow." },
+        { "native": "જો પાર્સલ આજે ના આવે, તો હું ફોન કરીશ.", "roman": "jo pārsal āje nā āve, to huṃ fon karīsh.", "en": "If the parcel doesn't come today, I'll call.", "focus": "આવે", "wrong": ["આવ્યું|āvyuṃ", "આવતું|āvtuṃ"] },
+        { "native": "આ લિંક ફ્રોડ લાગે છે, ડિલીટ કરી દે.", "roman": "ā liṅk froḍ lāge chhe, ḍilīṭ karī de.", "en": "This link looks like a scam; delete it." },
+        { "native": "ગ્રુપમાં લિંક મોકલી દે, બધા જોઈ લેશે.", "roman": "grupmāṃ liṅk mokalī de, badhā joī leshe.", "en": "Send the link to the group; everyone will see it." }
+      ]
+    },
+    {
+      "title": "Paying by UPI",
+      "tip": { "title": "પેમેન્ટ કરવું or પેમેન્ટ થવું", "body": "- You pay: **પેમેન્ટ કરું છું**. It goes through: **પેમેન્ટ થયું?**, **પેમેન્ટ થઈ ગયું**.\n- The shopkeeper's line: **સ્કૅન કરીને પેમેન્ટ કરી દો**.\n- Failed? **પૈસા કપાઈ ગયા, પણ પેમેન્ટ ફેલ થયું** → take a **સ્ક્રીનશૉટ**; it usually comes back.", "grammar": 1 },
+      "new": ["યુપીઆઈ", "પેમેન્ટ", "સ્કૅન", "ક્યુઆર કોડ", "સ્ક્રીનશૉટ", "હું યુપીઆઈથી પેમેન્ટ કરું છું.", "સ્કૅન કરીને પેમેન્ટ કરી દો.", "પેમેન્ટ થયું?", "પૈસા કપાઈ ગયા, પણ પેમેન્ટ ફેલ થયું.", "સ્ક્રીનશૉટ મોકલ ને."],
+      "sentences": [
+        { "native": "ભાઈ, યુપીઆઈ ચાલશે?", "roman": "bhāī, yupīāī chālshe?", "en": "Do you take UPI?" },
+        { "native": "હું યુપીઆઈથી પેમેન્ટ કરું છું, ક્યુઆર કોડ ક્યાં છે?", "roman": "huṃ yupīāīthī pemenṭ karuṃ chhuṃ, kyuār koḍ kyāṃ chhe?", "en": "I'll pay by UPI; where's the QR code?", "focus": "કરું", "wrong": ["થાય|thāy", "કર્યું|karyuṃ"] },
+        { "native": "સ્કૅન કરીને પેમેન્ટ કરી દો, સાહેબ.", "roman": "sken karīne pemenṭ karī do, sāheb.", "en": "Just scan and pay, sir." },
+        { "native": "પેમેન્ટ થયું? મારા ફોનમાં હજી કંઈ નથી આવ્યું.", "roman": "pemenṭ thayuṃ? mārā fonmāṃ hajī kaṃī nathī āvyuṃ.", "en": "Did the payment go through? Nothing has come up on my phone yet.", "focus": "થયું", "wrong": ["કર્યું|karyuṃ", "કર્યો|karyo"] },
+        { "native": "પૈસા કપાઈ ગયા, પણ પેમેન્ટ ફેલ થયું. હવે?", "roman": "paisā kapāī gayā, paṇ pemenṭ fel thayuṃ. have?", "en": "The money was taken, but the payment failed. Now what?", "focus": "થયું", "wrong": ["કર્યું|karyuṃ", "કરી|karī"] },
+        { "native": "સ્ક્રીનશૉટ મોકલ ને, હું બેંકમાં બતાવીશ.", "roman": "skrīnshoṭ mokal ne, huṃ beṅkmāṃ batāvīsh.", "en": "Send me a screenshot; I'll show it at the bank." },
+        { "native": "મેં તને પાંચસો રૂપિયા મોકલ્યા, મળ્યા?", "roman": "meṃ tane pāṃchso rūpiyā mokalyā, maḷyā?", "en": "I sent you five hundred rupees; did you get it?", "focus": "મોકલ્યા", "wrong": ["મોકલી|mokalī", "મોકલ્યું|mokalyuṃ"] },
+        { "native": "ક્યુઆર કોડ સ્કૅન નથી થતો, ફરી કરું.", "roman": "kyuār koḍ sken nathī thato, farī karuṃ.", "en": "The QR code won't scan; I'll try again.", "focus": "થતો", "wrong": ["કરતો|karto", "થતી|thatī"] },
+        { "native": "છુટ્ટા નથી, યુપીઆઈ કરું?", "roman": "chhuṭṭā nathī, yupīāī karuṃ?", "en": "I haven't got change; can I pay by UPI?" },
+        { "native": "પેમેન્ટ થઈ ગયું, આ રહ્યો સ્ક્રીનશૉટ.", "roman": "pemenṭ thaī gayuṃ, ā rahyo skrīnshoṭ.", "en": "The payment's gone through, here's the screenshot.", "focus": "ગયું", "wrong": ["ગયો|gayo", "ગઈ|gaī"] }
+      ]
+    },
+    {
+      "title": "Posts, reels and stories",
+      "tip": { "title": "Social media verbs", "body": "- **પોસ્ટ કરવું**, **શેર કરવું**, **લાઇક કરવું**, **કમેન્ટ કરવી**, **ફૉલો કરવું**; **સ્ટોરીમાં મૂકવું** 'put on your story'.\n- The past agrees with the thing: મેં ફોટો પોસ્ટ **કર્યો**, મેં રીલ શેર **કરી**.\n- **…ને!** makes a request friendly: **મને ફૉલો કર ને!**" },
+      "new": ["પોસ્ટ", "સ્ટોરી", "રીલ", "લાઇક", "કમેન્ટ", "ફૉલો કરવું", "શેર કરવું", "એની નવી રીલ જોઈ?", "મને ફૉલો કર ને!"],
+      "sentences": [
+        { "native": "એની નવી રીલ જોઈ? બહુ મજાની છે!", "roman": "enī navī rīl joī? bahu majānī chhe!", "en": "Have you seen her new reel? It's so funny!" },
+        { "native": "મને ફૉલો કર ને, હું પણ તને ફૉલો કરીશ.", "roman": "mane folo kar ne, huṃ paṇ tane folo karīsh.", "en": "Follow me, and I'll follow you back." },
+        { "native": "મેં ગરબાનો ફોટો પોસ્ટ કર્યો, તેં જોયો?", "roman": "meṃ garbāno foṭo posṭ karyo, teṃ joyo?", "en": "I posted a garba photo; did you see it?", "focus": "કર્યો", "wrong": ["કરી|karī", "કર્યું|karyuṃ"] },
+        { "native": "આ પોસ્ટ શેર કર ને, બધાને ખબર પડે.", "roman": "ā posṭ sher kar ne, badhāne khabar paḍe.", "en": "Share this post so everyone knows." },
+        { "native": "મારી સ્ટોરીમાં તારો ફોટો મૂક્યો છે.", "roman": "mārī sṭorīmāṃ tāro foṭo mūkyo chhe.", "en": "I've put your photo on my story." },
+        { "native": "મમ્મી મારી બધી પોસ્ટ પર કમેન્ટ કરે છે!", "roman": "mammī mārī badhī posṭ par kamenṭ kare chhe!", "en": "Mum comments on all my posts!" },
+        { "native": "એણે મારી રીલ લાઇક કરી, પણ કમેન્ટ ના કરી.", "roman": "eṇe mārī rīl lāik karī, paṇ kamenṭ nā karī.", "en": "She liked my reel but didn't comment." },
+        { "native": "આ રીલ ગ્રુપમાં શેર કરી દઉં?", "roman": "ā rīl grupmāṃ sher karī daūṃ?", "en": "Shall I share this reel in the group?" },
+        { "native": "દિવાળીના ફોટા સ્ટોરીમાં મૂક ને!", "roman": "divāḷīnā foṭā sṭorīmāṃ mūk ne!", "en": "Put the Diwali photos on your story!" }
+      ]
+    }
+  ]
+}
