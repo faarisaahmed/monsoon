@@ -35,6 +35,7 @@ function textsFor(code) {
     for (const v of [...(u.vocab || []), ...(u.phrases || [])]) add(v.native);
     for (const g of u.grammar || []) for (const e of g.examples || []) add(e.native);
     for (const l of u.dialogue?.lines || []) add(l.native);
+    for (const ls of u.lessons || []) for (const x of ls.sentences || []) add(x.native);
   }
   return [...out];
 }

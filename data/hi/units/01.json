@@ -92,5 +92,81 @@
       { "speaker": "Ravi", "native": "ज़रूर। नमस्ते!", "roman": "zarūr. namaste!", "en": "Sure. Bye!" }
     ]
   },
-  "culture": "**नमस्ते** with palms pressed together and a slight nod is safe with everyone. You'll also hear greetings tied to community and region: **अस्सलाम अलैकुम** *assalām alaikum* among Muslims (reply **वालेकुम अस्सलाम**), **सत श्री अकाल** *sat shrī akāl* among Sikhs, and **राम-राम** or **जय श्री कृष्ण** in villages and among older Hindus. Touching an elder's feet is a sign of deep respect in families. Among close family and friends, saying 'thank you' too often can sound distant — warmth is shown by actions instead. Young urban speakers mix English freely: *hi, bye, sorry, thank you, OK* are all perfectly normal Hindi today."
+  "culture": "**नमस्ते** with palms pressed together and a slight nod is safe with everyone. You'll also hear greetings tied to community and region: **अस्सलाम अलैकुम** *assalām alaikum* among Muslims (reply **वालेकुम अस्सलाम**), **सत श्री अकाल** *sat shrī akāl* among Sikhs, and **राम-राम** or **जय श्री कृष्ण** in villages and among older Hindus. Touching an elder's feet is a sign of deep respect in families. Among close family and friends, saying 'thank you' too often can sound distant — warmth is shown by actions instead. Young urban speakers mix English freely: *hi, bye, sorry, thank you, OK* are all perfectly normal Hindi today.",
+  "lessons": [
+    {
+      "title": "Hello, how are you?",
+      "tip": { "title": "The verb goes last", "body": "- Hindi puts the verb at the **end**: मैं ठीक हूँ is literally 'I fine am'.\n- **हूँ** = am (with मैं), **हैं** = are (with आप).\n- Question words like **कैसे** 'how' sit just before the verb: आप कैसे हैं?", "pattern": "मैं + ठीक + हूँ  ·  आप + कैसे + हैं?", "grammar": 0 },
+      "new": ["नमस्ते", "मैं", "आप", "ठीक", "कैसे", "धन्यवाद", "नमस्ते!", "आप कैसे हैं?", "आप कैसी हैं?", "मैं ठीक हूँ, धन्यवाद।"],
+      "sentences": [
+        { "native": "मैं ठीक हूँ।", "roman": "maiṃ ṭhīk hūṃ.", "en": "I'm fine.", "focus": "हूँ", "wrong": ["हैं|haiṃ", "है|hai"] },
+        { "native": "आप ठीक हैं?", "roman": "āp ṭhīk haiṃ?", "en": "Are you OK?", "focus": "हैं", "wrong": ["हूँ|hūṃ", "है|hai"] },
+        { "native": "नमस्ते, आप कैसे हैं?", "roman": "namaste, āp kaise haiṃ?", "en": "Hello, how are you? (to a man)", "focus": "कैसे", "wrong": ["कैसी|kaisī", "कैसा|kaisā"] },
+        { "native": "नमस्ते, आप कैसी हैं?", "roman": "namaste, āp kaisī haiṃ?", "en": "Hello, how are you? (to a woman)", "focus": "कैसी", "wrong": ["कैसे|kaise", "कैसा|kaisā"] },
+        { "native": "मैं ठीक हूँ, आप कैसे हैं?", "roman": "maiṃ ṭhīk hūṃ, āp kaise haiṃ?", "en": "I'm fine, how are you?", "focus": "हैं", "wrong": ["हूँ|hūṃ", "है|hai"] },
+        { "native": "धन्यवाद, मैं ठीक हूँ।", "roman": "dhanyavād, maiṃ ṭhīk hūṃ.", "en": "Thank you, I'm fine.", "focus": "हूँ", "wrong": ["हैं|haiṃ", "है|hai"] }
+      ]
+    },
+    {
+      "title": "Yes, no, and you too",
+      "tip": { "title": "Yes/no questions with क्या", "body": "- Put **क्या** at the front and a statement becomes a yes/no question: आप ठीक हैं → **क्या** आप ठीक हैं?\n- **नहीं** 'not' goes right before the verb: मैं ठीक **नहीं** हूँ.\n- **भी** 'too' comes *after* the word it belongs to: मैं **भी** 'me too'.\n- Add **जी** for politeness: जी हाँ, जी नहीं.", "pattern": "क्या + statement?  ·  … नहीं + verb", "grammar": 0 },
+      "new": ["हाँ", "नहीं", "जी", "क्या", "भी", "और", "और आप?", "जी हाँ। / जी नहीं।"],
+      "sentences": [
+        { "native": "क्या आप ठीक हैं?", "roman": "kyā āp ṭhīk haiṃ?", "en": "Are you OK?", "focus": "क्या", "wrong": ["कैसे|kaise", "भी|bhī"] },
+        { "native": "जी हाँ, मैं ठीक हूँ।", "roman": "jī hāṃ, maiṃ ṭhīk hūṃ.", "en": "Yes, I'm fine. (polite)", "focus": "हाँ" },
+        { "native": "मैं ठीक नहीं हूँ।", "roman": "maiṃ ṭhīk nahīṃ hūṃ.", "en": "I'm not well.", "focus": "नहीं", "wrong": ["भी|bhī", "क्या|kyā"] },
+        { "native": "मैं भी ठीक हूँ।", "roman": "maiṃ bhī ṭhīk hūṃ.", "en": "I'm fine too.", "focus": "भी", "wrong": ["और|aur", "नहीं|nahīṃ"] },
+        { "native": "मैं ठीक हूँ, और आप?", "roman": "maiṃ ṭhīk hūṃ, aur āp?", "en": "I'm fine, and you?", "focus": "और" },
+        { "native": "क्या आप भी ठीक हैं?", "roman": "kyā āp bhī ṭhīk haiṃ?", "en": "Are you fine too?", "focus": "भी", "wrong": ["और|aur", "नहीं|nahīṃ"] },
+        { "native": "हाँ, मैं भी ठीक हूँ।", "roman": "hāṃ, maiṃ bhī ṭhīk hūṃ.", "en": "Yes, I'm fine too.", "focus": "भी", "wrong": ["और|aur", "नहीं|nahīṃ"] },
+        { "native": "जी नहीं, मैं ठीक नहीं हूँ।", "roman": "jī nahīṃ, maiṃ ṭhīk nahīṃ hūṃ.", "en": "No, I'm not well. (polite)" }
+      ]
+    },
+    {
+      "title": "With friends: तुम and तू",
+      "tip": { "title": "Three ways to say \"you\"", "body": "- **आप** (respectful) → verb **हैं**: strangers, elders, shopkeepers. When unsure, use आप.\n- **तुम** (friendly) → verb **हो**: friends your age, younger people.\n- **तू** (very close) → verb **है**: best friends only. As a learner, you mostly hear it.\n- कैसे changes too: कैसा (one man, with तू), कैसी (a woman), कैसे (आप/तुम, a man).", "pattern": "आप … हैं  ·  तुम … हो  ·  तू … है", "grammar": 1 },
+      "new": ["तुम", "तू", "हाल", "सब", "अच्छा", "दोस्त", "कैसे हो?", "क्या हाल है?", "सब ठीक है।"],
+      "sentences": [
+        { "native": "तुम कैसे हो?", "roman": "tum kaise ho?", "en": "How are you? (to a male friend)", "focus": "हो", "wrong": ["हैं|haiṃ", "हूँ|hūṃ"] },
+        { "native": "तुम कैसी हो?", "roman": "tum kaisī ho?", "en": "How are you? (to a female friend)", "focus": "कैसी", "wrong": ["कैसे|kaise", "कैसा|kaisā"] },
+        { "native": "तू कैसा है?", "roman": "tū kaisā hai?", "en": "How are you? (to a close male friend)", "focus": "है", "wrong": ["हो|ho", "हैं|haiṃ"] },
+        { "native": "क्या तुम ठीक हो?", "roman": "kyā tum ṭhīk ho?", "en": "Are you OK? (to a friend)", "focus": "हो", "wrong": ["हैं|haiṃ", "हूँ|hūṃ"] },
+        { "native": "क्या हाल है, दोस्त?", "roman": "kyā hāl hai, dost?", "en": "How's it going, friend?" },
+        { "native": "सब ठीक है, और तुम?", "roman": "sab ṭhīk hai, aur tum?", "en": "All good, and you?", "focus": "तुम", "wrong": ["आप|āp", "तू|tū"] },
+        { "native": "मैं भी अच्छा हूँ।", "roman": "maiṃ bhī achchhā hūṃ.", "en": "I'm good too. (man speaking)", "focus": "हूँ", "wrong": ["हैं|haiṃ", "है|hai"] },
+        { "native": "अच्छा, सब ठीक है?", "roman": "achchhā, sab ṭhīk hai?", "en": "OK, is everything fine?", "focus": "है", "wrong": ["हो|ho", "हैं|haiṃ"] },
+        { "native": "आप कैसे हैं, और तुम कैसे हो?", "roman": "āp kaise haiṃ, aur tum kaise ho?", "en": "How are you (sir), and how are you (friend)?", "focus": "हो", "wrong": ["हैं|haiṃ", "हूँ|hūṃ"] }
+      ]
+    },
+    {
+      "title": "Thanks, sorry, no problem",
+      "tip": { "title": "Politeness without \"please\"", "body": "- **कृपया** 'please' is mostly for signs and announcements. In speech, politeness comes from **जी** and polite verb forms like **कीजिए**.\n- **शुक्रिया** is the everyday 'thanks'; **धन्यवाद** is more formal. Many people simply say *thank you*.\n- **माफ़ कीजिए** = 'excuse me / I'm sorry'. Casual: **सॉरी**. The reply: **कोई बात नहीं** 'no problem'." },
+      "new": ["शुक्रिया", "कृपया", "माफ़ी", "सॉरी", "बहुत", "ज़रूर", "माफ़ कीजिए।", "कोई बात नहीं।", "बहुत-बहुत शुक्रिया!"],
+      "sentences": [
+        { "native": "बहुत शुक्रिया!", "roman": "bahut shukriyā!", "en": "Thanks a lot!", "focus": "बहुत" },
+        { "native": "माफ़ कीजिए, क्या आप ठीक हैं?", "roman": "māf kījie, kyā āp ṭhīk haiṃ?", "en": "Excuse me, are you OK?", "focus": "कीजिए" },
+        { "native": "कोई बात नहीं, सब ठीक है।", "roman": "koī bāt nahīṃ, sab ṭhīk hai.", "en": "No problem, everything's fine." },
+        { "native": "सॉरी, मैं ठीक नहीं हूँ।", "roman": "sorī, maiṃ ṭhīk nahīṃ hūṃ.", "en": "Sorry, I'm not feeling well." },
+        { "native": "जी, ज़रूर।", "roman": "jī, zarūr.", "en": "Yes, of course.", "focus": "ज़रूर" },
+        { "native": "हाँ, ज़रूर! शुक्रिया।", "roman": "hāṃ, zarūr! shukriyā.", "en": "Yes, sure! Thanks." },
+        { "native": "बहुत अच्छा, धन्यवाद।", "roman": "bahut achchhā, dhanyavād.", "en": "Very good, thank you.", "focus": "बहुत" },
+        { "native": "माफ़ी चाहता हूँ।", "roman": "māfī chāhtā hūṃ.", "en": "I apologise. (formal, man speaking)", "focus": "माफ़ी" }
+      ]
+    },
+    {
+      "title": "Nice to meet you, see you again",
+      "tip": { "title": "Hellos and goodbyes", "body": "- **नमस्ते** works for both hello and goodbye, any time of day. **नमस्कार** is a little more formal.\n- To part: **फिर मिलेंगे** 'see you again', or just *bye* (**बाय**). **अलविदा** is dramatic, like 'farewell'.\n- **आपसे मिलकर ख़ुशी हुई** = 'nice to meet you' (lit. having met you, happiness happened)." },
+      "new": ["नमस्कार", "स्वागत", "मिलना", "ख़ुशी", "फिर", "अरे", "अलविदा", "बाय", "आपसे मिलकर ख़ुशी हुई।", "फिर मिलेंगे।"],
+      "sentences": [
+        { "native": "आपका स्वागत है!", "roman": "āpkā svāgat hai!", "en": "Welcome!", "focus": "स्वागत" },
+        { "native": "आपसे मिलकर बहुत ख़ुशी हुई।", "roman": "āpse milkar bahut xushī huī.", "en": "Very nice to meet you.", "focus": "ख़ुशी" },
+        { "native": "ठीक है, फिर मिलेंगे!", "roman": "ṭhīk hai, phir mileṃge!", "en": "OK, see you again!", "focus": "फिर" },
+        { "native": "अरे, नमस्ते! आप कैसे हैं?", "roman": "are, namaste! āp kaise haiṃ?", "en": "Oh, hello! How are you?", "focus": "अरे" },
+        { "native": "बाय, फिर मिलेंगे!", "roman": "bāy, phir mileṃge!", "en": "Bye, see you!", "focus": "फिर" },
+        { "native": "नमस्कार, आपका स्वागत है।", "roman": "namaskār, āpkā svāgat hai.", "en": "Good day, and welcome.", "focus": "स्वागत" },
+        { "native": "अच्छा, नमस्ते जी!", "roman": "achchhā, namaste jī!", "en": "OK, goodbye!", "focus": "जी" },
+        { "native": "ज़रूर, फिर मिलेंगे।", "roman": "zarūr, phir mileṃge.", "en": "Definitely, see you again." }
+      ]
+    }
+  ]
 }

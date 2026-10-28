@@ -1,7 +1,7 @@
 // The practice-session engine: renders one question at a time and reports results.
 
-import { h, fill, add, clear, shuffle, sample, normRoman, englishMatches, similarity, toast } from './ui.js';
-import { ctx, nt, rm, audioBtn, play, ICONS, writingPad } from './components.js';
+import { h, fill, add, clear, md, shuffle, sample, normRoman, englishMatches, similarity, toast } from './ui.js';
+import { ctx, nt, rm, audioBtn, play, ICONS, writingPad, exampleRow } from './components.js';
 import { canSpeak, canRecognize, recognize, canRecord, record as recordAudio, stop, pauseFor, listeningOn, speakingOn } from './audio.js';
 import * as store from './store.js';
 import { cloze, tokens, wordRomans, romanWords } from './sentences.js';
@@ -113,6 +113,8 @@ export const Q = {
   speak: (item) => ({ type: 'speak', item }),
   flash: (item, front) => ({ type: 'flash', item, front }),
   intro: (item) => ({ type: 'intro', item }),
+  // a lesson's rule, shown before you use it: { title, body, pattern }, two examples, the full notes
+  tip: (tip, examples, notes) => ({ type: 'tip', tip, examples, notes }),
   pair: (pair) => {
     const which = Math.random() < 0.5 ? 'a' : 'b';
     return { type: 'pair', pair, which, item: pair[which] };
@@ -623,6 +625,33 @@ export function runSession(root, opts) {
     });
   }
 
+  function renderTip(q) {
+    const t = q.tip;
+    const card = h(
+      'div.tip-card',
+      h('div.tip-label', q.notes ? 'New rule' : 'Tip'),
+      h('h2', t.title),
+      md(t.body),
+      t.pattern ? h('div.tip-pattern', { dir: 'auto' }, t.pattern) : null,
+      q.examples.length
+        ? h(
+            'div.examples',
+            q.examples.map((s) => h('div.ex', audioBtn(s.native, { size: 'sm' }), h('div', h('div', marked(s), ' ', rm(s.roman)), h('div.small', s.en)))),
+          )
+        : null,
+      q.notes ? h('details.tip-notes', h('summary', 'Full notes on this'), md(q.notes.body), h('div.examples', q.notes.examples.map(exampleRow))) : null,
+    );
+    const go = h('button.btn.primary.block', { style: { marginTop: '16px' }, onclick: () => (record(q, true), next()) }, 'Got it ', h('kbd', 'enter'));
+    add(body, card, go);
+    setTimeout(() => go.focus({ preventScroll: true }), 30);
+    setKeys((e) => {
+      if (e.key === 'Enter' && document.activeElement !== go && document.activeElement?.tagName !== 'SUMMARY') {
+        e.preventDefault();
+        go.click();
+      }
+    });
+  }
+
   function renderLetterIntro(q) {
     const l = q.item;
     const speakable = l.char.replace(/◌/g, '');
@@ -723,7 +752,7 @@ export function runSession(root, opts) {
     header();
     clear(body);
     const q = qs[i];
-    ({ mc: renderMC, letter: renderLetter, letterIntro: renderLetterIntro, type: renderType, build: renderBuild, cloze: renderCloze, speak: renderSpeak, flash: renderFlash, intro: renderIntro, pair: renderPair, write: renderWrite, number: renderNumber })[q.type](q);
+    ({ tip: renderTip, mc: renderMC, letter: renderLetter, letterIntro: renderLetterIntro, type: renderType, build: renderBuild, cloze: renderCloze, speak: renderSpeak, flash: renderFlash, intro: renderIntro, pair: renderPair, write: renderWrite, number: renderNumber })[q.type](q);
     const quiet = (label, kind, msg) =>
       body.appendChild(
         h('div.center.quiet', h('button.link-btn.small', { type: 'button', onclick: () => (stop(), pauseFor(kind), toast(msg), readapt()) }, label)),
@@ -736,7 +765,7 @@ export function runSession(root, opts) {
     setKeys(null);
     i = qs.length;
     header();
-    const graded = results.filter((r) => r.q.type !== 'intro' && r.q.type !== 'letterIntro');
+    const graded = results.filter((r) => r.q.type !== 'intro' && r.q.type !== 'letterIntro' && r.q.type !== 'tip');
     const right = graded.filter((r) => r.correct).length;
     const missed = distinctBy(
       graded.filter((r) => !r.correct && r.q.item),
@@ -778,7 +807,7 @@ export function runSession(root, opts) {
         'div.row',
         { style: { justifyContent: 'center', marginTop: '20px' } },
         missed.length && opts.retry ? h('button.btn', { onclick: () => opts.retry(missed) }, 'Practise the missed ones') : null,
-        h('button.btn.primary', { onclick: () => opts.onExit?.() }, opts.doneLabel || 'Done'),
+        h('button.btn.primary', { onclick: () => (opts.onContinue || opts.onExit)?.() }, opts.doneLabel || 'Done'),
       ),
     );
     opts.onDone?.({ right, total: graded.length, pct, missed });
@@ -873,6 +902,47 @@ export function sentenceQuestion(it, kind, pool, lex) {
   if ((kind === 'build' || kind === 'listenBuild') && len > 9) return Q.cloze(it, lex) || Q.meaning(it, pool);
   if (kind === 'typeRoman' && (it.roman || '').length > 34) return sentenceQuestion(it, 'build', pool, lex);
   return Q[kind](it, pool);
+}
+
+// A lesson on the course path: the rule first (a quick tip), then the new words in threes, each
+// group checked and then used straight away in a sentence, then the rest of the lesson's sentences.
+export function lessonQuestions(lesson, { pool, sentencePool, lex }) {
+  const qs = [];
+  const sents = lesson.sentences;
+  if (lesson.tip) qs.push(Q.tip(lesson.tip, [...sents.filter((s) => s.focus), ...sents.filter((s) => !s.focus)].slice(0, 2), lesson.notes));
+  const used = new Set();
+  const uses = (s, it) => {
+    const t = tokens(s.native);
+    const w = tokens(it.native);
+    return w.length > 0 && w.every((x) => t.includes(x));
+  };
+  for (let i = 0; i < lesson.items.length; i += 3) {
+    const group = lesson.items.slice(i, i + 3);
+    group.forEach((it) => qs.push(Q.intro(it)));
+    shuffle(group).forEach((it, j) => qs.push(it.kind === 'phrase' && tokens(it.native).length > 1 ? Q.build(it, pool) : j % 2 ? Q.recall(it, pool) : Q.meaning(it, pool)));
+    for (const it of group) {
+      const s = sents.find((x) => !used.has(x) && uses(x, it));
+      if (!s) continue;
+      used.add(s);
+      qs.push(sentenceQuestion(s, s.focus ? 'cloze' : 'build', sentencePool, lex));
+    }
+  }
+  const kinds = ['cloze', 'build', 'meaning', 'listenBuild', 'cloze', 'typeRoman', 'build'];
+  sents.filter((s) => !used.has(s)).forEach((s, i) => qs.push(sentenceQuestion(s, kinds[i % kinds.length], sentencePool, lex)));
+  return qs;
+}
+
+// A sentence with the word its rule is about highlighted.
+export function marked(s) {
+  const at = s.focus ? wordAt(s.native, s.focus) : -1;
+  if (at < 0) return nt(s.native);
+  return nt([s.native.slice(0, at), h('mark', s.focus), s.native.slice(at + s.focus.length)]);
+}
+// where a whole word starts in a sentence (not inside a longer word), or -1
+function wordAt(text, word) {
+  const edge = (c) => !c || /[\s?.!,।॥۔؟،:;"“”‘’()…–—]/.test(c);
+  for (let i = text.indexOf(word); i >= 0; i = text.indexOf(word, i + 1)) if (edge(text[i - 1]) && edge(text[i + word.length])) return i;
+  return -1;
 }
 
 // A sentence drill: a short session of sentence questions. Sentences you get right on the first

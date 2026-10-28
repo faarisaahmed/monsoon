@@ -42,13 +42,19 @@ export async function practiceHub({ code, L }) {
     'div',
     { 'data-title': 'Practice' },
     crumbs([L.name, `#/l/${code}`], ['Practice']),
-    h('h1', 'Practice'),
+    h('h1', 'Extra practice'),
     h(
       'p.muted',
       { style: { maxWidth: '64ch' } },
       learned.length
-        ? `Exercises draw on the ${learned.length} words and phrases you have learned so far, and the grammar sentences from those units. Choose a unit below to focus on one topic instead.`
-        : 'You have not learned any words yet, so exercises will use Unit 1. Learn words in the Course to fill your practice pool.',
+        ? `New things are taught in the course lessons. These exercises are for going over what you have learned: the ${learned.length} words and phrases so far, and the sentences from those units. Choose a unit below to focus on one topic.`
+        : 'New things are taught in the course lessons — start there. These exercises are for going over what you have learned; until then they use Unit 1.',
+    ),
+    h(
+      'div.card.next-card',
+      { style: { margin: '14px 0 0' } },
+      h('div', h('h3', { style: { margin: '0 0 2px' } }, 'Conversation'), h('div.small.muted', 'Role-play the course dialogues, or answer questions in your own words.')),
+      h('a.btn.accent', { href: `#/l/${code}/talk` }, 'Open'),
     ),
     voice
       ? null
@@ -238,7 +244,7 @@ export async function learnView({ code, L, params }) {
   const fresh = items.filter((i) => !store.card(code, i.key) || store.card(code, i.key).unseen);
   const per = store.settings().newPerSession;
   const root = h('div');
-  const back = () => go(`/l/${code}/u/${n}?t=${part}`);
+  const back = () => go(`/l/${code}/u/${n}?to=notes`);
   const voice = listeningOn(L.tts);
 
   let questions;
@@ -279,7 +285,7 @@ export async function learnView({ code, L, params }) {
   return h(
     'div',
     { 'data-title': `Learn · Unit ${n}` },
-    crumbs([L.name, `#/l/${code}`], [`Unit ${n}`, `#/l/${code}/u/${n}?t=${part}`], [fresh.length ? `Learn ${part}` : `Practise ${part}`]),
+    crumbs([L.name, `#/l/${code}`], [`Unit ${n}`, `#/l/${code}/u/${n}`], [fresh.length ? `Learn ${part}` : `Practise ${part}`]),
     fresh.length ? h('p.small.muted.center', `${batch.length} new ${part} · ${fresh.length - batch.length} more after this`) : h('p.small.muted.center', `You have learned all the ${part} in this unit — here is a practice round.`),
     root,
   );

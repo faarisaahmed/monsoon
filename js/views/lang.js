@@ -1,19 +1,17 @@
-import { h, fill, add, md, clear, fmtMinutes, normRoman, toast, sample } from '../ui.js';
+import { h, fill, add, md, clear, fmtMinutes, normRoman, toast, sample, go } from '../ui.js';
 import * as store from '../store.js';
 import * as data from '../data.js';
-import { nt, rm, audioBtn, itemRow, exampleRow, writingPad, ctx } from '../components.js';
+import { nt, rm, audioBtn, itemRow, exampleRow, writingPad, ctx, ICONS } from '../components.js';
 import { speak, canSpeak, stop } from '../audio.js';
-import { runSession, Q, mixedQuestions, sentenceQuestions, sentenceDrill, formsRow } from '../session.js';
+import { runSession, Q, mixedQuestions, sentenceQuestions, lessonQuestions, formsRow } from '../session.js';
 import { joinForms, rightJoiners, teachable } from '../letters.js';
 import { weekChart, crumbs } from './shared.js';
+import * as path from '../path.js';
 
+// Units 1–20 are the foundations; from 21 on, the course is about real life and fluency.
 const PARTS = [
-  ['words', 'Words'],
-  ['phrases', 'Phrases'],
-  ['grammar', 'Grammar'],
-  ['sentences', 'Sentences'],
-  ['dialogue', 'Dialogue'],
-  ['check', 'Check'],
+  { from: 1, title: 'Part 1 · Foundations', desc: 'The core of the language: greetings to telling a story, each unit taught as short lessons built around full sentences.' },
+  { from: 21, title: 'Part 2 · Real life & fluency', desc: 'Talking with friends, getting around town, sorting things out and sounding natural.' },
 ];
 
 // ---------- language overview ----------
@@ -22,13 +20,13 @@ export async function langHome({ code, L }) {
   const st = store.cardStats(code);
   const letters = data.scriptLetters(c);
   const seenLetters = store.hasLang(code) ? letters.filter((l) => store.lang(code).letters[l.char]).length : 0;
-  const soundsSeen = store.hasLang(code) ? c.pronunciation.filter((p) => store.lang(code).sounds[p.id]).length : 0;
-  const started = store.hasLang(code) && (st.total > 0 || seenLetters > 0);
+  const started = store.hasLang(code) && (st.total > 0 || seenLetters > 0 || Object.keys(store.lang(code).units).length > 0);
 
-  const next = suggestNext(code, c, units, { st, seenLetters, letters });
+  const next = suggestNext(code, units, { st, started });
   const goal = store.settings().dailyGoal;
   const todayMin = Math.round(store.timeToday() / 60);
   const weekSec = store.timeByDay(7, code).reduce((s, d) => s + d.seconds, 0);
+  const unitsDone = units.filter((u) => store.unitState(code, u.id).check).length;
 
   return h(
     'div',
@@ -45,18 +43,17 @@ export async function langHome({ code, L }) {
     started
       ? h(
           'div.stat-row',
+          stat(`${unitsDone}/${units.length}`, 'units finished'),
           stat(st.words, 'words learned'),
-          st.sentences ? stat(st.sentences, 'sentences practised') : null,
-          stat(st.mastered, 'known well'),
+          st.sentences ? stat(st.sentences, 'sentences') : null,
           stat(st.due, 'due for review'),
-          stat(`${seenLetters}/${letters.length}`, 'letters practised'),
           stat(fmtMinutes(weekSec), 'this week'),
         )
       : null,
     h(
       'div.card.next-card',
       { style: { marginTop: started ? 0 : '18px' } },
-      h('div', h('div.small.muted', started ? 'Suggested next step' : 'Start wherever you like'), h('h3', { style: { margin: '2px 0' } }, next.title), h('div.small.muted', next.why)),
+      h('div', h('div.small.muted', started ? 'Up next' : 'Start here'), h('h3', { style: { margin: '2px 0' } }, next.title), h('div.small.muted', next.why)),
       h('div.row', next.alt ? h('a.btn', { href: next.alt.href }, next.alt.cta) : null, h('a.btn.accent', { href: next.href }, next.cta)),
     ),
     started && goal
@@ -68,50 +65,53 @@ export async function langHome({ code, L }) {
           h('p.tiny.faint', { style: { marginTop: '4px' } }, encouragement(st, todayMin, goal)),
         )
       : null,
-    h('details.about', { style: { marginTop: '22px' }, open: !started }, h('summary', `About ${c.name}`), md(c.intro), h('h3', 'Reading the romanization'), md(c.romanizationNote)),
-    h(
-      'section.section',
-      h('div.section-head', h('h2', 'Alongside the course'), h('span.small.muted', 'Dip in whenever you like')),
-      h(
-        'div.grid.wide',
-        h(
-          'a.card',
-          { href: `#/l/${code}/script` },
-          h('div.row.between', h('h3', 'The script'), h('span.nt', { style: { fontSize: '1.5rem' } }, letters.slice(0, 3).map((l) => l.char).join(' '))),
-          h('p.small.muted', `${letters.length} letters, signs and conjuncts with audio, stroke hints and a writing pad.`),
-          h('div.bar.good', h('i', { style: { width: `${(seenLetters / letters.length) * 100}%` } })),
-        ),
-        h(
-          'a.card',
-          { href: `#/l/${code}/sounds` },
-          h('h3', 'Pronunciation'),
-          h('p.small.muted', `${c.pronunciation.length} lessons on the sounds that matter — minimal pairs, ear training and speaking.`),
-          h('div.bar.good', h('i', { style: { width: `${(soundsSeen / c.pronunciation.length) * 100}%` } })),
-        ),
-        h('a.card', { href: `#/l/${code}/grammar` }, h('h3', 'Grammar & sentence structure'), h('p.small.muted', `All ${units.reduce((s, u) => s + u.grammar.length, 0)} grammar points, grouped by what they do — word order, cases, tenses, linking clauses — each with sentence practice.`)),
-      ),
-    ),
     h(
       'section.section#units',
-      h('div.section-head', h('h2', 'Course'), h('span.small.muted', '20 units · ' + units.reduce((s, u) => s + u.vocab.length, 0) + ' words · ' + units.reduce((s, u) => s + u.phrases.length, 0) + ' phrases')),
+      h('div.section-head', h('h2', 'Course'), h('span.small.muted', `${units.length} units · ${units.reduce((s, u) => s + u.vocab.length, 0)} words`)),
+      h('p.small.muted', { style: { margin: '-4px 0 14px', maxWidth: '66ch' } }, 'Work through the units in order. Each lesson starts with a quick tip on anything new, teaches a few words, then has you use them in full sentences. What you learn comes back in your reviews.'),
+      PARTS.map((part, pi) => {
+        const list = units.filter((u) => u.id >= part.from && (!PARTS[pi + 1] || u.id < PARTS[pi + 1].from));
+        if (!list.length) return null;
+        return h(
+          'div.part',
+          units.length > 20 ? h('div.part-head', h('h3', part.title), h('span.small.muted', part.desc)) : null,
+          h('div.unit-list', list.map((u) => unitRow(code, u))),
+        );
+      }),
+    ),
+    h(
+      'section.section',
+      h('div.section-head', h('h2', 'Extra practice'), h('span.small.muted', 'For reviewing and going deeper')),
       h(
-        'div.unit-list',
-        units.map((u) => {
-          const us = store.unitState(code, u.id);
-          const n = PARTS.filter(([k]) => us[k]).length;
-          return h(
-            'a.unit-row' + (us.check ? '.done' : n ? '.started' : ''),
-            { href: `#/l/${code}/u/${u.id}` },
-            h('span.unit-num', us.check ? '✓' : u.id),
-            h('div', h('div.t', u.title), h('div.g', u.goal)),
-            h('div.parts', { title: PARTS.map(([k, l]) => `${l}: ${us[k] ? 'done' : '—'}`).join('\n') }, PARTS.map(([k]) => h('i' + (us[k] ? '.on' : '')))),
-          );
-        }),
+        'div.extra-grid',
+        extra(`#/l/${code}/review`, 'refresh', 'Review', st.due ? `${st.due} due now` : 'Spaced repetition of everything you have learned'),
+        extra(`#/l/${code}/practice`, 'puzzle', 'Practice', 'Flashcards, listening, typing, speaking, sentence workouts'),
+        extra(`#/l/${code}/talk`, 'chat', 'Conversation', 'Role-play the dialogues, answer in your own words'),
+        extra(`#/l/${code}/grammar`, 'book', 'Grammar notes', 'Every rule in one handbook, with practice'),
+        extra(`#/l/${code}/script`, 'letters', 'Script', `${letters.length} letters, ${seenLetters} practised`),
+        extra(`#/l/${code}/sounds`, 'ear', 'Pronunciation', `${c.pronunciation.length} lessons on the hard sounds`),
       ),
     ),
+    h('details.about', { style: { marginTop: '22px' }, open: !started }, h('summary', `About ${c.name}`), md(c.intro), h('h3', 'Reading the romanization'), md(c.romanizationNote)),
     started ? h('section.section', h('div.card', h('div.row.between', h('strong', `${c.name} — last 14 days`), h('span.small.muted', `${fmtMinutes(store.totalTime(code))} in total`)), weekChart(store.timeByDay(14, code)))) : null,
   );
 }
+
+const extra = (href, ico, title, desc) => h('a.card.extra', { href }, h('span.ico', { html: ICONS[ico] }), h('div', h('strong', title), h('div.tiny.muted', desc)));
+
+function unitRow(code, u) {
+  const lessons = data.unitLessons(code, u);
+  const p = path.unitProgress(code, u, lessons);
+  const open = path.unitOpen(code, u.id);
+  return h(
+    'a.unit-row' + (p.complete ? '.done' : p.done ? '.started' : open ? '' : '.locked'),
+    { href: `#/l/${code}/u/${u.id}` },
+    h('span.unit-num', p.complete ? '✓' : open ? u.id : h('span', { html: LOCK })),
+    h('div', h('div.t', u.title), h('div.g', u.goal)),
+    h('div.unit-prog', { title: `${p.done} of ${p.total} steps done` }, p.done && !p.complete ? h('span.tiny.muted', `${p.done}/${p.total}`) : null, h('div.bar.good.mini', h('i', { style: { width: `${(p.done / p.total) * 100}%` } }))),
+  );
+}
+const LOCK = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
 
 const stat = (b, s) => h('div.stat', h('b', b), h('span', s));
 
@@ -122,228 +122,254 @@ function encouragement(st, todayMin, goal) {
   return 'No pressure — pick up wherever you like.';
 }
 
-function milestone(words) {
-  if (words >= 500) return 'You know the full core vocabulary of this course.';
-  if (words >= 300) return 'Enough words to follow everyday conversations on familiar topics.';
-  if (words >= 150) return 'Enough to handle shopping, directions, food and small talk.';
-  if (words >= 50) return 'Enough for greetings, introductions and simple questions.';
-  return '';
-}
-
-function suggestNext(code, c, units, { st, seenLetters, letters }) {
-  if (!store.hasLang(code) || (st.total === 0 && seenLetters === 0)) {
+function suggestNext(code, units, { st, started }) {
+  const at = path.nextInCourse(code, units);
+  const review = st.due ? { href: `#/l/${code}/review`, cta: `Review ${st.due}` } : null;
+  if (!started) {
+    const l = data.unitLessons(code, units[0])[0];
     return {
-      title: 'Unit 1: ' + units[0].title,
-      why: `Everything comes with romanization, so you can start speaking now and pick up the ${ctx.lang.script} script whenever you like — or learn to read first. Nothing is locked.`,
-      href: `#/l/${code}/u/1/learn/words`,
-      cta: 'Start Unit 1',
-      alt: { href: `#/l/${code}/script`, cta: 'Learn the script' },
+      title: `Unit 1 · Lesson 1: ${l.title}`,
+      why: `Each lesson teaches a few words and one idea, then has you use them in full sentences straight away. Everything comes with romanization, so you can start speaking before you read the ${ctx.lang.script} script.`,
+      href: path.stepHref(code, 1, 'l1'),
+      cta: 'Start',
+      alt: { href: `#/l/${code}/script`, cta: 'Learn the script first' },
     };
   }
-  if (st.due >= 15) return { title: `Review ${st.due} items`, why: 'These are right on the edge of being forgotten — a short review locks them in.', href: `#/l/${code}/review`, cta: 'Review now' };
-  // only people who chose to start with the script are pointed back to it
-  if (st.total === 0 && seenLetters < letters.length * 0.6) {
-    return { title: 'Keep going with the script', why: `${seenLetters} of ${letters.length} letters practised. Or start Unit 1 whenever you like — the script is never required.`, href: `#/l/${code}/practice/letters`, cta: 'Practise letters', alt: { href: `#/l/${code}/u/1/learn/words`, cta: 'Start Unit 1' } };
-  }
-  for (const u of units) {
-    const us = store.unitState(code, u.id);
-    if (us.check) continue;
-    const part = PARTS.find(([k]) => !us[k]);
-    const m = milestone(st.words);
+  // a long review queue comes first: new lessons on top of it would only make it longer
+  if (st.due >= 25) return { title: `Review ${st.due} items`, why: 'These are right on the edge of being forgotten. Clear them first, then carry on with the course.', href: `#/l/${code}/review`, cta: 'Review now', alt: at?.step ? { href: path.stepHref(code, at.u.id, at.step), cta: 'Skip to the course' } : null };
+  if (at && at.step) {
+    const l = at.step.startsWith('l') ? at.lessons[+at.step.slice(1) - 1] : null;
     return {
-      title: `Unit ${u.id}: ${u.title} — ${part[1].toLowerCase()}`,
-      why: (m ? m + ' ' : '') + u.goal,
-      href: part[0] === 'words' || part[0] === 'phrases' ? `#/l/${code}/u/${u.id}/learn/${part[0]}` : `#/l/${code}/u/${u.id}?t=${part[0]}`,
-      cta: part[0] === 'check' ? 'Take the check' : part[0] === 'words' || part[0] === 'phrases' ? 'Learn' : part[0] === 'sentences' ? 'Practise' : 'Open',
+      title: `Unit ${at.u.id} · ${path.stepLabel(at.step, at.lessons, at.u)}`,
+      why: l?.tip ? `New: ${l.tip.title}.` : at.step === 'talk' ? 'Hear the words of this unit in a real conversation, then practise its lines.' : at.step === 'check' ? 'Pass with 70% to finish the unit and open the next one.' : at.u.goal,
+      href: path.stepHref(code, at.u.id, at.step),
+      cta: at.step === 'check' ? 'Take the check' : 'Start',
+      alt: review,
     };
   }
-  if (st.due) return { title: `Review ${st.due} items`, why: 'You have finished every unit. Keep your words and sentences fresh.', href: `#/l/${code}/review`, cta: 'Review', alt: { href: `#/l/${code}/practice/grammar`, cta: 'Sentence workout' } };
-  return {
-    title: 'Sentence workout',
-    why: 'You have finished the course. Keep the grammar automatic: full sentences from all 20 units, filling gaps, building and translating. Then answer questions in your own words.',
-    href: `#/l/${code}/practice/grammar`,
-    cta: 'Start a workout',
-    alt: { href: `#/l/${code}/talk`, cta: 'Conversation' },
-  };
+  if (at && !at.step) return { title: `Unit ${at.u.id}: take the check`, why: 'Every step is done — pass the check to finish the unit.', href: path.stepHref(code, at.u.id, 'check'), cta: 'Take the check', alt: review };
+  const locked = units.find((u) => !store.unitState(code, u.id).check);
+  if (locked) return { title: `Unit ${locked.id - 1}: take the check`, why: `Unit ${locked.id} opens once you pass the Unit ${locked.id - 1} check.`, href: path.stepHref(code, locked.id - 1, 'check'), cta: 'Take the check', alt: review };
+  if (st.due) return { title: `Review ${st.due} items`, why: 'You have finished every unit. Keep your words and sentences fresh.', href: `#/l/${code}/review`, cta: 'Review', alt: { href: `#/l/${code}/talk`, cta: 'Conversation' } };
+  return { title: 'Conversation practice', why: 'You have finished the course. Keep talking: role-play the dialogues and answer questions in your own words.', href: `#/l/${code}/talk`, cta: 'Start', alt: { href: `#/l/${code}/practice/grammar`, cta: 'Sentence workout' } };
 }
 
-// ---------- unit ----------
+// ---------- unit: the path through it ----------
+async function loadUnit(code, L, n) {
+  if (!(n >= 1 && n <= L.units)) return null;
+  const [units, lex] = await Promise.all([data.allUnits(code), data.lexicon(code)]);
+  const u = units[n - 1];
+  return { units, lex, u, lessons: data.unitLessons(code, u), sentencePool: units.flatMap((x) => data.unitSentenceItems(x)), pool: units.flatMap((x) => data.unitItems(code, x)) };
+}
+
 export async function unitView({ code, L, params, query }) {
   const n = parseInt(params[1], 10);
-  if (!(n >= 1 && n <= L.units)) return notFound(code, 'That unit does not exist.');
-  const [c, u] = await Promise.all([data.course(code), data.unit(code, n)]);
-  const tab = query.get('t') || 'words';
-  const [units, lex] = await Promise.all([data.allUnits(code), data.lexicon(code)]);
-  const sentences = data.unitSentenceItems(u);
-  const sentencePool = units.flatMap((x) => data.unitSentenceItems(x));
-  const pane = h('div');
-  const tabsEl = h('div.tabs');
-  const us = () => store.unitState(code, n);
+  // links from before the path: the old tabs
+  const t = query.get('t');
+  if (t === 'check' || t === 'dialogue') return go(`/l/${code}/u/${n}/${t === 'check' ? 'check' : 'talk'}`), null;
+  const d = await loadUnit(code, L, n);
+  if (!d) return notFound(code, 'That unit does not exist.');
+  const { u, lessons } = d;
+  const open = path.unitOpen(code, n);
+  const nextStep = path.nextStepIn(code, u, lessons);
+  const all = path.steps(lessons);
 
-  // A sentence session in the pane. Sentences you get right join your review deck.
-  function drill(list, title, mark, count) {
-    stop();
-    const back = mark === 'sentences' ? 'sentences' : 'grammar';
-    clear(pane);
-    if (title) add(pane, h('p.small.muted.center', title));
-    const host = h('div');
-    add(pane, host);
-    sentenceDrill(host, {
-      code,
-      list,
-      pool: sentencePool,
-      lex,
-      n: count,
-      onExit: () => show(back),
-      onDone: ({ pct }) => {
-        if (mark === 'sentences' && pct >= 70) {
-          store.markUnit(code, n, 'sentences');
-          renderTabs('sentences');
-        }
-      },
-    });
-  }
+  const step = (s, i) => {
+    const done = path.stepDone(code, n, s);
+    const can = open && path.stepOpen(code, u, lessons, s);
+    const isNext = open && s === nextStep;
+    const l = s.startsWith('l') ? lessons[+s.slice(1) - 1] : null;
+    const title = l ? l.title : s === 'talk' ? 'Conversation' : 'Unit check';
+    const sub = l
+      ? [l.tip ? h('span.tip-chip', l.notes ? 'New rule: ' : 'Tip: ', l.tip.title) : null, h('span.tiny.muted', `${l.items.length} new · ${l.sentences.length} sentences`)]
+      : s === 'talk'
+        ? h('span.small.muted', `${u.dialogue.title} — listen, then practise its lines`)
+        : h('span.small.muted', store.unitState(code, n).check ? 'Passed. Retake it any time.' : 'Pass with 70% to finish the unit. Already know this? Take it now to skip ahead.');
+    const inner = [h('span.step-num', done ? '✓' : can ? (l ? l.n : s === 'talk' ? h('span', { html: ICONS.chat }) : h('span', { html: ICONS.check })) : h('span', { html: LOCK })), h('div.step-body', h('div.t', title), h('div.step-sub', sub))];
+    return can ? h('a.path-step' + (done ? '.done' : '') + (isNext ? '.next' : ''), { href: path.stepHref(code, n, s) }, inner) : h('div.path-step.locked', { title: 'Finish the step before this one first' }, inner);
+  };
 
-  function renderTabs(active) {
-    fill(tabsEl, 
-      PARTS.map(([k, label]) =>
-        h(
-          'button' + (k === active ? '.on' : ''),
-          {
-            onclick: () => {
-              history.replaceState(null, '', `#/l/${code}/u/${n}?t=${k}`);
-              show(k);
-            },
-          },
-          label,
-          us()[k] ? h('span.tick', '✓') : null,
-        ),
-      ),
-    );
-  }
-
-  function show(k) {
-    stop();
-    renderTabs(k);
-    clear(pane);
-    const items = data.unitItems(code, u);
-    if (k === 'words' || k === 'phrases') {
-      const list = k === 'words' ? items.filter((i) => i.kind === 'word') : items.filter((i) => i.kind === 'phrase');
-      const known = list.filter((i) => store.card(code, i.key)).length;
-      add(pane, 
-        k === 'words' ? md(u.intro) : null,
-        h(
-          'div.row.between',
-          { style: { margin: '6px 0 14px' } },
-          h('span.small.muted', `${list.length} ${k} · ${known} in your review deck`),
-          h(
-            'div.row',
-            list.length - known > 0
-              ? h('a.btn.primary', { href: `#/l/${code}/u/${n}/learn/${k}` }, known ? `Learn the next ${Math.min(store.settings().newPerSession, list.length - known)}` : `Learn these ${k}`)
-              : h('a.btn', { href: `#/l/${code}/u/${n}/learn/${k}` }, 'Practise again'),
-          ),
-        ),
-        h('div.items', list.map((it) => itemRow(it, { phrase: k === 'phrases' }))),
-      );
-    } else if (k === 'grammar') {
-      store.markUnit(code, n, 'grammar');
-      renderTabs(k);
-      add(pane, 
-        u.grammar.map((g, gi) => {
-          const own = sentences.filter((x) => x.grammar === gi);
-          return h(
-            'div.grammar',
-            h('h2', g.title),
-            md(g.body),
-            h('div.examples', g.examples.map(exampleRow)),
-            own.length ? h('div.row', { style: { marginTop: '12px' } }, h('button.btn.small', { onclick: () => drill(own, g.title, 'grammar') }, 'Practise this'), h('span.tiny.faint', `${own.length} sentences: fill the gap, build, translate`)) : null,
-          );
-        }),
-        u.culture ? h('div.callout', h('strong', 'Culture & usage. '), md(u.culture)) : null,
-        h(
-          'div.card.next-card',
-          { style: { marginTop: '20px' } },
-          h('div', h('h3', { style: { margin: '0 0 2px' } }, 'Now use it in sentences'), h('div.small.muted', 'Knowing the rule is half of it. The Sentences step drills every pattern in this unit until it comes without thinking.')),
-          h('button.btn.primary', { onclick: () => (history.replaceState(null, '', `#/l/${code}/u/${n}?t=sentences`), show('sentences')) }, 'Practise sentences'),
-        ),
-      );
-    } else if (k === 'sentences') {
-      const earlier = sentencePool.filter((x) => x.unit < n);
-      const fromGrammar = sentences.filter((x) => x.grammar != null);
-      add(
-        pane,
-        h(
-          'div.card',
-          { style: { maxWidth: '640px' } },
-          h('h2', 'Sentences'),
-          h('p.muted', `Full sentences built on this unit's grammar and dialogue: fill the gap with the right form, put the words in order, understand what you hear, and translate. Score 70% or more to tick off this step. Sentences you miss come back in your reviews.`),
-          h('p.small.muted', 'To work on one grammar point at a time, use ', h('button.linkish', { onclick: () => (history.replaceState(null, '', `#/l/${code}/u/${n}?t=grammar`), show('grammar')) }, 'Practise this'), ' under each point in the Grammar step, or the ', h('a', { href: `#/l/${code}/grammar` }, 'Grammar handbook'), '.'),
-          us().sentences ? h('p.small', { style: { color: 'var(--good)' } }, '✓ Done. Practise again any time, mixed with earlier units.') : null,
-          h(
-            'div.row',
-            h('button.btn.primary', { onclick: () => drill(sentences, null, 'sentences', 12) }, 'Start sentence practice'),
-            earlier.length ? h('button.btn', { onclick: () => drill([...sample(sentences, 8), ...sample(earlier, 6)], null, null, 14) }, 'Mix with earlier units') : null,
-          ),
-        ),
-        fromGrammar.length ? null : h('p.small.muted', 'This unit has no grammar examples yet.'),
-      );
-    } else if (k === 'dialogue') {
-      store.markUnit(code, n, 'dialogue');
-      renderTabs(k);
-      add(pane, dialogueBlock(u.dialogue));
-    } else if (k === 'check') {
-      const pool = items;
-      const start = () => {
-        const words = items.filter((i) => i.kind === 'word');
-        const phrases = items.filter((i) => i.kind === 'phrase');
-        const qs = [
-          ...mixedQuestions(words, pool, { n: 6, kinds: ['meaning', 'recall', 'listen', 'typeRoman'] }),
-          ...mixedQuestions(phrases, pool, { n: 3, kinds: ['build', 'meaning', 'listen'] }),
-          ...sentenceQuestions(sentences, sentencePool, lex, { n: 5, kinds: ['cloze', 'build', 'cloze', 'listenBuild', 'cloze'] }),
-        ];
-        runSession(pane, {
-          code,
-          questions: qs,
-          onExit: () => show('check'),
-          retry: (missed) => runSession(pane, { code, questions: mixedQuestions(missed, pool, { n: missed.length }), onExit: () => show('check') }),
-          onDone: ({ pct }) => {
-            if (pct >= 70) {
-              store.markUnit(code, n, 'check');
-              renderTabs('check');
-            }
-          },
-          doneLabel: 'Back to unit',
-        });
-      };
-      add(pane, 
-        h(
-          'div.card',
-          { style: { maxWidth: '560px' } },
-          h('h2', 'Unit check'),
-          h('p.muted', `14 mixed questions on this unit's words, phrases and grammar in full sentences. Score 70% or more to mark Unit ${n} complete — and whatever you miss goes into your review queue.`),
-          us().check ? h('p.small', { style: { color: 'var(--good)' } }, '✓ You have completed this unit. You can retake the check any time.') : null,
-          h('button.btn.primary', { onclick: start }, 'Start the check'),
-        ),
-      );
-    }
-  }
-  show(tab);
+  const notes = h(
+    'section.section#notes',
+    h('div.section-head', h('h2', 'Unit notes'), h('span.small.muted', 'Everything in this unit, to look back on')),
+    md(u.intro),
+    h(
+      'details.about',
+      h('summary', `Grammar (${u.grammar.length})`),
+      u.grammar.map((g, gi) => h('div.grammar', h('h3', g.title), md(g.body), h('div.examples', g.examples.map(exampleRow)), h('a.small', { href: `#/l/${code}/grammar/${n}-${gi + 1}` }, 'Practise this rule →'))),
+    ),
+    h('details.about', h('summary', `Words (${u.vocab.length})`), h('div.items', data.unitItems(code, u).filter((i) => i.kind === 'word').map((it) => itemRow(it)))),
+    h('details.about', h('summary', `Phrases (${u.phrases.length})`), h('div.items', data.unitItems(code, u).filter((i) => i.kind === 'phrase').map((it) => itemRow(it, { phrase: true })))),
+    u.culture ? h('div.callout', { style: { marginTop: '14px' } }, h('strong', 'Culture & usage. '), md(u.culture)) : null,
+  );
 
   return h(
     'div',
     { 'data-title': `Unit ${n}: ${u.title}` },
     crumbs([L.name, `#/l/${code}`], ['Course', `#/l/${code}?to=units`], [`Unit ${n}`]),
-    h('h1', u.title),
+    h('div.small.muted', `Unit ${n} of ${L.units}`),
+    h('h1', { style: { marginTop: '2px' } }, u.title),
     h('p.muted', u.goal),
-    tabsEl,
-    pane,
+    open
+      ? nextStep
+        ? h('div.row', { style: { margin: '6px 0 4px' } }, h('a.btn.primary', { href: path.stepHref(code, n, nextStep) }, all.indexOf(nextStep) === 0 ? 'Start the unit' : 'Continue: ' + path.stepLabel(nextStep, lessons, u)))
+        : h('p.small', { style: { color: 'var(--good)' } }, '✓ Unit complete. Every lesson stays open for practice.')
+      : h(
+          'div.callout',
+          { style: { margin: '10px 0' } },
+          h('strong', 'This unit builds on Unit ' + (n - 1) + '. '),
+          `Finish it first — or, if you already know it, pass its check to open this one.`,
+          h('div.row', { style: { marginTop: '10px' } }, h('a.btn.small', { href: `#/l/${code}/u/${n - 1}` }, `Go to Unit ${n - 1}`), h('a.btn.small.primary', { href: path.stepHref(code, n - 1, 'check') }, `Unit ${n - 1} check`)),
+        ),
+    h('div.path', all.map(step)),
+    notes,
     h('hr'),
     h(
       'div.row.between',
       n > 1 ? h('a.btn.ghost', { href: `#/l/${code}/u/${n - 1}` }, '← Unit ' + (n - 1)) : h('span'),
-      n < 20 ? h('a.btn.ghost', { href: `#/l/${code}/u/${n + 1}` }, 'Unit ' + (n + 1) + ' →') : h('span'),
+      n < L.units ? h('a.btn.ghost', { href: `#/l/${code}/u/${n + 1}` }, 'Unit ' + (n + 1) + ' →') : h('span'),
     ),
   );
+}
+
+// After a step: on to the next one in the unit, or back to the course when the unit is done.
+function afterStep(code, d, n) {
+  const s = path.nextStepIn(code, d.u, d.lessons);
+  if (s) return { href: path.stepHref(code, n, s), label: 'Next: ' + (s === 'talk' ? 'Conversation' : s === 'check' ? 'Unit check' : `Lesson ${s.slice(1)}`) };
+  return n < ctx.lang.units ? { href: `#/l/${code}/u/${n + 1}`, label: `On to Unit ${n + 1}` } : { href: `#/l/${code}`, label: 'Back to the course' };
+}
+
+// Cards for what a lesson taught: right first time → a first short interval; missed → due now.
+function saveLearned(code, list, missed) {
+  for (const it of list) {
+    const c = store.ensureCard(code, it.key, { kind: it.kind, unit: it.unit });
+    delete c.unseen;
+    if (!c.reps && !missed.some((m) => m.native === it.native)) store.review(code, it.key, 2);
+  }
+}
+
+export async function lessonView({ code, L, params }) {
+  const n = parseInt(params[1], 10);
+  const d = await loadUnit(code, L, n);
+  if (!d) return notFound(code, 'That unit does not exist.');
+  const k = parseInt(params[2], 10);
+  const lesson = d.lessons[k - 1];
+  if (!lesson) return notFound(code, 'That lesson does not exist.');
+  const root = h('div');
+  const back = () => go(`/l/${code}/u/${n}`);
+  runSession(root, {
+    code,
+    learn: true,
+    requeue: true,
+    questions: lessonQuestions(lesson, d),
+    onExit: back,
+    onContinue: () => (location.hash = afterStep(code, d, n).href),
+    doneLabel: 'Continue',
+    onDone: ({ missed }) => {
+      saveLearned(code, [...lesson.items, ...lesson.sentences], missed);
+      store.markUnit(code, n, 'l' + k);
+      const btn = root.querySelector('.session .btn.primary:last-child');
+      if (btn) btn.textContent = afterStep(code, d, n).label;
+    },
+  });
+  return h(
+    'div',
+    { 'data-title': `${lesson.title} · Unit ${n}` },
+    crumbs([L.name, `#/l/${code}`], [`Unit ${n}`, `#/l/${code}/u/${n}`], [`Lesson ${k} of ${d.lessons.length}`]),
+    h('p.small.muted.center', { style: { margin: '0 0 4px' } }, lesson.title),
+    root,
+  );
+}
+
+export async function unitTalkView({ code, L, params }) {
+  const n = parseInt(params[1], 10);
+  const d = await loadUnit(code, L, n);
+  if (!d) return notFound(code, 'That unit does not exist.');
+  const { u } = d;
+  const lines = data.unitSentenceItems(u).filter((s) => s.lesson == null && s.grammar == null);
+  const area = h('div');
+  const practise = () => {
+    stop();
+    runSession(area, {
+      code,
+      learn: true,
+      requeue: true,
+      questions: sentenceQuestions(lines, d.sentencePool, d.lex, { n: Math.min(8, lines.length), kinds: ['listenBuild', 'meaning', 'build', 'cloze', 'typeRoman'] }),
+      onExit: () => clear(area),
+      onContinue: () => (location.hash = afterStep(code, d, n).href),
+      doneLabel: 'Continue',
+      onDone: ({ missed }) => {
+        saveLearned(code, lines, missed);
+        store.markUnit(code, n, 'talk');
+      },
+    });
+    area.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+  return h(
+    'div',
+    { 'data-title': `Conversation · Unit ${n}` },
+    crumbs([L.name, `#/l/${code}`], [`Unit ${n}`, `#/l/${code}/u/${n}`], ['Conversation']),
+    h('p.small.muted', 'Listen to the whole conversation first — you know nearly every word in it now. Then hide the English, read it again, and practise the lines.'),
+    dialogueBlock(u.dialogue),
+    h(
+      'div.card.next-card',
+      { style: { marginTop: '20px' } },
+      h('div', h('h3', { style: { margin: '0 0 2px' } }, 'Practise the lines'), h('div.small.muted', 'Hear them and build them, understand them, and say them in your own words.')),
+      h('div.row', h('a.btn', { href: `#/l/${code}/talk/${n}` }, 'Role-play it'), h('button.btn.primary', { onclick: practise }, path.stepDone(code, n, 'talk') ? 'Practise again' : 'Practise')),
+    ),
+    area,
+  );
+}
+
+export async function unitCheckView({ code, L, params }) {
+  const n = parseInt(params[1], 10);
+  const d = await loadUnit(code, L, n);
+  if (!d) return notFound(code, 'That unit does not exist.');
+  const { u, lex } = d;
+  const items = data.unitItems(code, u);
+  const sentences = data.unitSentenceItems(u);
+  const ownLessons = sentences.filter((s) => s.lesson != null);
+  const pane = h('div');
+  const intro = () =>
+    fill(
+      pane,
+      h(
+        'div.card',
+        { style: { maxWidth: '560px' } },
+        h('h2', `Unit ${n} check`),
+        h('p.muted', `15 questions on this unit, mostly full sentences. Score 70% or more to finish Unit ${n}${n < L.units ? ` and open Unit ${n + 1}` : ''}. Whatever you miss goes into your reviews.`),
+        store.unitState(code, n).check ? h('p.small', { style: { color: 'var(--good)' } }, '✓ Passed. You can retake it any time.') : null,
+        h('button.btn.primary', { onclick: start }, 'Start the check'),
+      ),
+    );
+  function start() {
+    const words = items.filter((i) => i.kind === 'word');
+    const phrases = items.filter((i) => i.kind === 'phrase');
+    const qs = [
+      ...mixedQuestions(words, d.pool, { n: 4, kinds: ['meaning', 'recall', 'listen', 'typeRoman'] }),
+      ...mixedQuestions(phrases, d.pool, { n: 2, kinds: ['build', 'listen'] }),
+      ...sentenceQuestions(ownLessons.length >= 9 ? ownLessons : sentences, d.sentencePool, lex, { n: 9, kinds: ['cloze', 'build', 'meaning', 'cloze', 'listenBuild', 'typeRoman'] }),
+    ];
+    runSession(pane, {
+      code,
+      questions: qs,
+      onExit: intro,
+      onContinue: () => (location.hash = store.unitState(code, n).check && n < L.units ? `#/l/${code}/u/${n + 1}` : `#/l/${code}/u/${n}`),
+      retry: (missed) => runSession(pane, { code, questions: mixedQuestions(missed, d.pool, { n: missed.length }), onExit: intro }),
+      onDone: ({ pct }) => {
+        if (pct >= 70) store.markUnit(code, n, 'check');
+        const btn = pane.querySelector('.session .btn.primary:last-child');
+        if (btn) btn.textContent = pct >= 70 ? (n < L.units ? `On to Unit ${n + 1}` : 'Done') : 'Back to the unit';
+        if (pct < 70) {
+          const p = pane.querySelector('.session .center p');
+          if (p) p.textContent = `You need 70% to pass. Go over the lessons you found hard, then try again — the questions change each time.`;
+        }
+      },
+      doneLabel: 'Continue',
+    });
+  }
+  intro();
+  return h('div', { 'data-title': `Check · Unit ${n}` }, crumbs([L.name, `#/l/${code}`], [`Unit ${n}`, `#/l/${code}/u/${n}`], ['Check']), pane);
 }
 
 // ---------- dialogue reader ----------
@@ -672,9 +698,10 @@ export async function referenceView({ code, L }) {
     h('h1', 'Reference'),
     h(
       'div.grid',
+      h('a.card', { href: `#/l/${code}/grammar` }, h('h3', 'Grammar notes'), h('p.small.muted', 'Every rule in the course in one handbook, grouped by topic, each with sentence practice.')),
       h('a.card', { href: `#/l/${code}/glossary` }, h('h3', 'Glossary'), h('p.small.muted', 'Search every word and phrase in the course, in English, romanization or script.')),
       h('a.card', { href: `#/l/${code}/numbers` }, h('h3', 'Numbers'), h('p.small.muted', '0–100 and the big ones, with audio.')),
-      h('a.card', { href: `#/l/${code}/reading` }, h('h3', 'Reading room'), h('p.small.muted', 'All 20 dialogues in one place, to read, listen to and shadow.')),
+      h('a.card', { href: `#/l/${code}/reading` }, h('h3', 'Reading room'), h('p.small.muted', 'All the dialogues in one place, to read, listen to and shadow.')),
     ),
     h('section.section', h('h2', 'Romanization in this course'), md(c.romanizationNote)),
   );

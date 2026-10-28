@@ -86,7 +86,7 @@ export async function talkView({ code, L }) {
   return h(
     'div',
     { 'data-title': 'Conversation' },
-    crumbs([L.name, `#/l/${code}`], ['Conversation']),
+    crumbs([L.name, `#/l/${code}`], ['Practice', `#/l/${code}/practice`], ['Conversation']),
     h('h1', 'Conversation'),
     h('p.muted', { style: { maxWidth: '64ch' } }, 'Practise actually talking: take a part in a dialogue, or answer a question in your own words. Type in romanization or the script, whichever you like.'),
     h(
@@ -320,7 +320,7 @@ export async function roleplayView({ code, L, params, query }) {
   return h(
     'div',
     { 'data-title': 'Role-play' },
-    crumbs([L.name, `#/l/${code}`], ['Conversation', `#/l/${code}/talk`], [`Unit ${n}`]),
+    crumbs([L.name, `#/l/${code}`], ['Practice', `#/l/${code}/practice`], ['Conversation', `#/l/${code}/talk`], [`Unit ${n}`]),
     h('h1', d.title || u.title),
     d.setting ? h('p.muted.small', { style: { maxWidth: '64ch' } }, d.setting) : null,
     h('p.small', `You are `, h('strong', me), other ? ` talking with ${other}.` : '.', ' When it is your turn you see what to say in English.'),

@@ -52,18 +52,18 @@ export async function grammarHub({ code, L }) {
   return h(
     'div',
     { 'data-title': 'Grammar' },
-    crumbs([L.name, `#/l/${code}`], ['Grammar']),
+    crumbs([L.name, `#/l/${code}`], ['Reference', `#/l/${code}/reference`], ['Grammar']),
     h('h1', 'Grammar & sentence structure'),
     h(
       'p.muted',
       { style: { maxWidth: '66ch' } },
-      `All ${all.length} grammar points from the course in one place, grouped by what they do. Each one is taught in its unit, but you can open any of them here, read it, and practise it in full sentences.`,
+      `All ${all.length} grammar points from the course in one place, grouped by what they do. The course teaches each one in a lesson, with a quick tip first. Come here to read the full notes again or to practise a rule on its own.`,
     ),
     h(
       'div.card.next-card',
       { style: { marginTop: '16px' } },
       h('div', h('h3', { style: { margin: '0 0 2px' } }, 'Sentence workout'), h('div.small.muted', 'Full sentences from the units you have reached: fill the gap with the right form, put the words in order, translate.')),
-      h('div.row', h('a.btn', { href: `#/l/${code}/u/1?t=grammar` }, 'Start at Unit 1'), h('a.btn.accent', { href: `#/l/${code}/practice/grammar` }, 'Start a workout')),
+      h('div.row', h('a.btn.accent', { href: `#/l/${code}/practice/grammar` }, 'Start a workout')),
     ),
     readCount ? h('p.small.muted', `${readCount} of ${all.length} read in the course · ✓ marks the ones you have read`) : null,
     first
@@ -137,7 +137,7 @@ export async function grammarPoint({ code, L, params }) {
   return h(
     'div',
     { 'data-title': p.g.title },
-    crumbs([L.name, `#/l/${code}`], ['Grammar', `#/l/${code}/grammar`], [t.title, `#/l/${code}/grammar?to=t-${t.id}`]),
+    crumbs([L.name, `#/l/${code}`], ['Reference', `#/l/${code}/reference`], ['Grammar', `#/l/${code}/grammar`], [t.title, `#/l/${code}/grammar?to=t-${t.id}`]),
     h('div.small.muted', `Unit ${p.u.id}: ${p.u.title}`),
     h('h1', { style: { marginTop: '4px' } }, p.g.title),
     h('div.grammar', md(p.g.body), h('div.examples', p.g.examples.map(exampleRow))),
@@ -145,7 +145,7 @@ export async function grammarPoint({ code, L, params }) {
       'div.card.next-card',
       { style: { marginTop: '20px' } },
       h('div', h('h3', { style: { margin: '0 0 2px' } }, 'Practise it in sentences'), h('div.small.muted', own.length ? `${own.length} sentences use this point: fill the gap, build, hear and translate. The ones you get right join your reviews.` : 'Practise with sentences from this unit.')),
-      h('div.row', h('a.btn', { href: `#/l/${code}/u/${p.u.id}?t=grammar` }, 'See it in the unit'), h('button.btn.primary', { onclick: practise }, 'Practise')),
+      h('div.row', h('a.btn', { href: `#/l/${code}/u/${p.u.id}?to=notes` }, 'See it in the unit'), h('button.btn.primary', { onclick: practise }, 'Practise')),
     ),
     area,
     related.length

@@ -593,3 +593,59 @@ button.linkish { background: none; border: 0; padding: 0; font: inherit; color: 
 .forms-example { display: grid; justify-items: center; text-decoration: none; color: inherit; }
 .nt-inline .nt { font-size: 1.4rem; }
 .letter-intro .big-glyph { font-size: 4rem; }
+
+/* ---------- the course path ---------- */
+.part + .part { margin-top: 26px; }
+.part-head { display: flex; flex-direction: column; gap: 2px; margin: 0 0 10px; }
+.part-head h3 { margin: 0; font-size: 1.05rem; }
+.unit-row.locked { opacity: 0.6; }
+.unit-row.locked .unit-num { color: var(--faint); }
+.unit-prog { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; min-width: 56px; }
+.bar.mini { width: 56px; height: 4px; }
+
+.path { display: grid; gap: 0; margin: 18px 0 8px; max-width: 640px; position: relative; }
+.path-step {
+  display: grid; grid-template-columns: 40px 1fr; gap: 14px; align-items: center; text-decoration: none; color: inherit;
+  padding: 10px 12px; border-radius: 12px; position: relative;
+}
+/* the thread joining one step to the next */
+.path-step:not(:last-child)::after {
+  content: ''; position: absolute; left: 31px; top: 48px; bottom: -8px; width: 2px; background: var(--line);
+}
+.path-step.done:not(:last-child)::after { background: color-mix(in srgb, var(--good) 45%, var(--line)); }
+a.path-step:hover { background: var(--surface-2); }
+.step-num {
+  width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; font-weight: 650; position: relative; z-index: 1;
+  background: var(--surface); border: 2px solid var(--line); color: var(--muted);
+}
+.step-num svg { width: 18px; height: 18px; }
+.path-step.done .step-num { background: var(--good-soft); border-color: transparent; color: var(--good); }
+.path-step.next .step-num { background: var(--accent); border-color: var(--accent); color: var(--on-accent); box-shadow: 0 0 0 5px var(--accent-soft); }
+.path-step.next { background: color-mix(in srgb, var(--accent-soft) 55%, transparent); }
+.path-step.locked { opacity: 0.55; cursor: default; }
+.path-step .t { font-weight: 600; }
+.step-sub { display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; margin-top: 2px; }
+.tip-chip { font-size: 0.8rem; background: var(--accent-soft); color: var(--accent); border-radius: 99px; padding: 1px 9px; }
+
+.extra-grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.card.extra { display: flex !important; gap: 12px; align-items: center; padding: 12px 14px; }
+.card.extra .ico { flex: none; width: 32px; height: 32px; border-radius: 9px; background: var(--surface-2); color: var(--muted); display: grid; place-items: center; }
+.card.extra .ico svg { width: 17px; height: 17px; }
+
+/* ---------- a lesson's tip ---------- */
+.tip-card {
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--line)); border-radius: 18px; padding: 22px 22px 18px;
+  background: linear-gradient(160deg, var(--accent-soft), var(--surface) 60%);
+}
+.tip-card h2 { margin: 2px 0 10px; }
+.tip-card ul { padding-left: 1.2em; margin: 0 0 10px; }
+.tip-card li { margin-bottom: 6px; line-height: 1.55; }
+.tip-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); font-weight: 650; }
+.tip-pattern {
+  font-family: var(--nf), var(--ui); font-size: 1.15rem; background: var(--surface); border: 1px dashed color-mix(in srgb, var(--accent) 50%, var(--line));
+  border-radius: 10px; padding: 8px 12px; margin: 6px 0 4px; display: inline-block; max-width: 100%;
+}
+.tip-notes { margin-top: 14px; }
+.tip-notes summary { cursor: pointer; color: var(--muted); font-size: 0.92rem; }
+.tip-notes[open] summary { margin-bottom: 8px; }
+mark { background: color-mix(in srgb, var(--sun) 28%, transparent); color: inherit; border-radius: 4px; padding: 0 2px; }

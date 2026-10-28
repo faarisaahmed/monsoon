@@ -51,9 +51,47 @@ export function unitItems(code, u) {
   return items;
 }
 
-// Full sentences from a unit's grammar examples and dialogue, each with the forms its grammar point teaches.
+// Full sentences from a unit's lessons, grammar examples and dialogue, each with the forms its grammar point teaches.
 export function unitSentenceItems(u) {
   return unitSentences(u).map((s) => ({ ...s, forms: s.grammar != null ? grammarForms(u.grammar[s.grammar]) : null }));
+}
+
+// The guided path through a unit: lessons that each teach a few words (and maybe one rule, with a
+// quick tip) and then use them in sentences. Units written before lessons existed get a simple path
+// built from their grammar points.
+export function unitLessons(code, u) {
+  const byNative = new Map(unitItems(code, u).map((i) => [i.native, i]));
+  const sentences = unitSentenceItems(u);
+  const byText = new Map(sentences.map((s) => [s.native, s]));
+  const authored = !!u.lessons?.length;
+  return (authored ? u.lessons : autoLessons(u)).map((ls, i) => ({
+    n: i + 1,
+    title: ls.title,
+    tip: ls.tip || null,
+    notes: ls.tip?.grammar != null ? u.grammar[ls.tip.grammar] : null,
+    items: (ls.new || []).map((n) => byNative.get(n)).filter(Boolean),
+    sentences: (ls.sentences || []).map((s) => byText.get(s.native)).filter(Boolean),
+    authored,
+  }));
+}
+
+function autoLessons(u) {
+  const G = u.grammar || [];
+  const n = Math.max(3, G.length + 1);
+  const split = (arr) => Array.from({ length: n }, (_, i) => arr.slice(Math.round((i * arr.length) / n), Math.round(((i + 1) * arr.length) / n)));
+  const V = split((u.vocab || []).map((v) => v.native));
+  const P = split((u.phrases || []).map((p) => p.native));
+  const examples = G.flatMap((g) => g.examples);
+  return Array.from({ length: n }, (_, i) => {
+    const g = G[i];
+    const first = g ? g.body.split(/\n{2,}/)[0] : '';
+    return {
+      title: g ? g.title : i === n - 1 ? 'Putting it together' : `Words and phrases ${i + 1}`,
+      tip: g ? { title: g.title, body: first.length > 420 ? first.slice(0, 417).trimEnd() + '…' : first, grammar: i } : null,
+      new: [...V[i], ...P[i]],
+      sentences: g ? g.examples : examples,
+    };
+  });
 }
 
 // Every word form in a language's course, for the wrong choices in fill-the-gap questions.

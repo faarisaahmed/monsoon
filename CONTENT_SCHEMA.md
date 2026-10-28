@@ -6,7 +6,8 @@ Every language lives in `data/<code>/`. All files are UTF-8 JSON (no comments, n
 data/<code>/course.json      meta + script + pronunciation + numbers
 data/<code>/units/01.json    unit 1
 ...
-data/<code>/units/20.json    unit 20
+data/<code>/units/20.json    unit 20 (end of Part 1: foundations)
+data/<code>/units/21.json    … to 40.json: Part 2, real life and fluency
 ```
 
 Run `node scripts/validate.js <code>` after writing. It must print `OK`.
@@ -124,7 +125,7 @@ possible (real words!) and a `drill` of 4–10 items.
 
 ## units/NN.json
 
-Every language uses the same 20-unit curriculum (so learners can compare), adapted naturally:
+Every language uses the same curriculum (so learners can compare), adapted naturally:
 
 ```json
 {
@@ -150,9 +151,49 @@ Every language uses the same 20-unit curriculum (so learners can compare), adapt
     "setting": "One line of context.",
     "lines": [ { "speaker": "Ravi", "native": "...", "roman": "...", "en": "..." } ]
   },
-  "culture": "Optional short paragraph: etiquette, regional variation, register."
+  "culture": "Optional short paragraph: etiquette, regional variation, register.",
+  "lessons": [ "… see below" ]
 }
 ```
+
+### lessons: the guided path through a unit
+
+The course is taught through `lessons`, not the raw lists above. A lesson teaches a handful of the
+unit's words and phrases and (usually) **one rule**, and then spends most of its time on **full
+sentences** that use them. The app runs each lesson as: tip card (if any) → new words, each followed
+straight away by a sentence that uses it → the rest of the sentences (fill the gap, build, listen,
+translate). After the lessons come the dialogue and the unit check.
+
+```json
+"lessons": [
+  {
+    "title": "Saying what you need",
+    "tip": {
+      "title": "मुझे … चाहिए — I need / I'd like",
+      "body": "- 2–4 short bullet lines (each starting with '- ', separated by \n), **bold** allowed.\n- The rule in plain English, the forms you need, and the one trap.",
+      "pattern": "मुझे + thing + चाहिए",
+      "grammar": 0
+    },
+    "new": ["पानी", "चाय", "चाहिए", "मुझे एक चाय चाहिए।"],
+    "sentences": [
+      { "native": "मुझे पानी चाहिए।", "roman": "mujhe pānī chāhie.", "en": "I need water.", "focus": "मुझे", "wrong": ["मैं|maiṃ", "मेरा|merā"] }
+    ]
+  }
+]
+```
+
+- **4–7 lessons per unit.** Lesson titles say what you'll be able to *do* ("Ordering a drink", "Saying where you're from"), not the grammar term.
+- **`tip`** (optional, but every grammar point of the unit must be tipped in some lesson, normally in the lesson where it is first used): a *quick* rule summary shown before the lesson starts — the full explanation stays in `grammar[]`, linked by the `grammar` index. Keep `body` under ~450 characters. `pattern` is an optional one-line formula. A tip can also be a usage note rather than grammar (how to say thank you, when to use the polite form) — then leave out `grammar`. A lesson that only applies earlier rules needs no tip.
+- **`new`**: the items this lesson introduces, copied **exactly** from this unit's `vocab[].native` or `phrases[].native`. Every vocab word and every phrase of the unit is in exactly one lesson's `new`. 4–10 per lesson, ordered so a lesson's words can make sentences together.
+- **`sentences`**: **6–12 per lesson.** This is the heart of the course, so write them with care:
+  - Things a person would really say in that situation, in the standard modern spoken language (statements, questions, negatives, answers, requests). No textbook filler ("The pen is on the table" only if you would actually say it).
+  - Use **only** words from this lesson's `new`, earlier lessons, earlier units and basic grammar words already taught (inflected forms of known words are fine). Run `node scripts/validate.js <code> --words` to list words not met before, and fix or justify each one.
+  - When the lesson has a tip, at least two thirds of the sentences must use that rule; the rest recycle earlier material.
+  - Every word of `new` appears in at least one sentence.
+  - `roman` word-for-word with `native` (same number of space-separated words), so learners who don't read the script can build the sentence from romanized tiles.
+  - **`focus`** (on rule sentences): the one word, exactly as it appears in `native` without punctuation, that the rule is about — the verb form, the postposition, the ending. It becomes the gap in fill-the-gap.
+  - **`wrong`** (with `focus`): 2–3 *plausible but wrong* forms as `"native|roman"` — the forms a learner would confuse it with (है / हैं / हूँ; को / से / में; the masculine for the feminine). Each must be clearly wrong in that sentence.
+  - No sentence repeated across the unit's lessons; avoid copying the grammar examples or dialogue lines word for word (they are practised separately).
 
 `pos` values: `noun verb adj adv pron postp prep conj interj num phrase particle q` (q = question word).
 For nouns in gendered languages put gender in `note` like `"m"` / `"f"` (or `"m · pl: ..."`).
@@ -186,6 +227,41 @@ in `note` give anything irregular.
 18. Politeness, requests & invitations — honorifics, asking favours, offering, refusing. Grammar: polite imperatives, subjunctive/optative, "could you".
 19. Travel, problems & emergencies — hotel, train, lost, help, police, hospital. Grammar: conditionals ("if… then").
 20. Telling stories & real conversation — connectors, fillers, relative clauses, common idioms, reported speech basics.
+
+### Part 2 — real life and fluency (units 21–40)
+
+Units 1–20 are the foundations. Units 21–40 are for people who want to **talk with friends, get
+around town on their own and become fluent**: colloquial, practical, high-frequency, with the
+informal register friends really use (and when to switch to polite). No fairy tales, kings or
+proverb collections: everything should be something the learner will say or hear this month.
+Each unit has the same shape as units 1–20 (vocab 22–32, phrases 10–16, grammar 2–3, a 10–14 line
+dialogue between friends or in a real service situation, culture notes on how people actually
+talk) plus `lessons`. Grammar here goes deeper than Part 1 and builds on it.
+
+21. Making plans with friends — free tonight?, let's…, where shall we meet, I'm on my way, running late, cancelling. Grammar: let's / shall we; informal commands with friends; "be about to" / "on the way".
+22. Calls, texts & voice notes — calling, missed calls, can you hear me?, call you back, messaging, sharing location. Grammar: "do X and then Y" (conjunctive participle); "just" / "already" / "still" / "yet".
+23. Around town: autos, cabs & the metro — fares and haggling, "take me to…", "stop here", turn at the signal, how far / how long, ride apps, tickets. Grammar: compound verbs (stop!, get down, drop me); "it takes (time)".
+24. Eating out with friends — street food, cafés, ordering for a group, too spicy / not enough, splitting the bill, "my treat". Grammar: too / enough / a little; "I feel like (eating)…".
+25. Errands — bank & ATM, pharmacy, SIM card & phone repair, tailor, barber/salon, laundry, courier. Grammar: causatives — getting something done (get it fixed, get a haircut).
+26. At someone's home — visiting, being a good guest and host, offers and polite refusals, house rules, chores, staying over. Grammar: "used to"; offering and declining politely; "should I…?".
+27. People — what someone is like (personality, looks), friends and partners, family dynamics, a bit of gossip. Grammar: relative clauses in full; "seems / looks like".
+28. Catching up — what you did at the weekend, what's new, "have you ever…?", news since you last met. Grammar: past vs present perfect; past continuous; "for / since / ago".
+29. Opinions & discussions — agreeing and disagreeing politely, "it depends", "to be honest", arguing a point, current topics, cricket/football. Grammar: "maybe / might" (probability); "I don't think…"; "should have…".
+30. Feelings & support — cheering someone up, worries, comforting, saying sorry properly, congratulations, condolences. Grammar: "while / as soon as / until" clauses; feelings that "happen to" you.
+31. Work & colleagues — small talk at work, meetings, deadlines, asking for leave, messages to your boss, interviews. Grammar: formal register in full; passive / impersonal ("it was decided").
+32. Health in depth — describing symptoms precisely, since when, allergies, following instructions ("twice a day after food"), pharmacy, appointments. Grammar: "have been …-ing for" (duration); instructions.
+33. Weddings, festivals & occasions — invitations, wishes and blessings, gifts, what to say and do at weddings, the big festivals of this language's region, birthdays. Grammar: wishes and blessings (optative); "be sure to…".
+34. Phones, apps & payments — online orders and delivery, the local payment apps, the internet is down, social media, tech words borrowed from English and the verbs that go with them. Grammar: real conditionals in practice; English loanword + "do/become" verbs.
+35. Home & neighbourhood — renting, the landlord, something's broken, bills, neighbours, noise, moving. Grammar: requests and complaints; causatives revisited ("I need to get… fixed").
+36. If only — hypotheticals, wishes, regrets, dreams and plans for life. Grammar: unreal conditionals ("if I had…, I would…", "if I had known…"); "I wish…".
+37. Sorting out problems — wrong order, refunds, customer service, a lost phone, the police, negotiating calmly. Grammar: reported speech in full ("he told me to…", "they said that…").
+38. Films, music, sport & free time — recommending, reviewing, talking about matches and players, favourite songs, hobbies. Grammar: comparisons in depth, superlatives, "the more… the more…".
+39. Sounding natural — fillers, reactions ("really?", "no way!", "seriously?"), softeners, tag questions, emphasis particles, echo words, asking someone to repeat or slow down, explaining a word you don't know, mixing in English the way people do. Grammar: tag questions; emphatic particles; echo words.
+40. Real conversations — long, natural chats that combine everything: catching up with an old friend, a family dinner, an argument about where to go, planning a trip together. Grammar: linking long sentences; switching register mid-conversation.
+
+Unit 20 ("Telling stories & real conversation") keeps its grammar (relative clauses, reported speech,
+storytelling words) but its vocabulary, phrases and dialogue are about **real conversation** —
+telling a friend what happened, reacting, keeping a chat going — not fairy tales or proverbs.
 
 ## Quality bar
 - Use the **standard modern spoken** language that a learner will actually hear; note common colloquial

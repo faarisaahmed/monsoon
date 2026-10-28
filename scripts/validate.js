@@ -125,7 +125,10 @@ function validateLang(code) {
   }
   // units
   const seen = new Map();
-  for (let u = 1; u <= 20; u++) {
+  const unitFiles = fs.existsSync(path.join(dir, 'units')) ? fs.readdirSync(path.join(dir, 'units')).filter((f) => /^\d+\.json$/.test(f)) : [];
+  const count = Math.max(20, unitFiles.length);
+  const known = new Set(); // every word form met so far, for --words
+  for (let u = 1; u <= count; u++) {
     const uf = path.join(dir, 'units', String(u).padStart(2, '0') + '.json');
     if (!fs.existsSync(uf)) {
       err(uf, 'missing');
@@ -155,10 +158,77 @@ function validateLang(code) {
       range(uf, d.dialogue.lines, 6, 14, 'dialogue.lines');
       d.dialogue.lines.forEach((l, i) => checkItem(uf, code, l, `dialogue.lines[${i}]`));
     }
+    checkLessons(uf, code, d, known);
   }
 }
 
-let codes = process.argv.slice(2);
+// The guided path: lessons that each teach a few words (and maybe one rule) and then use them in sentences.
+const toks = (s) => (s || '').replace(/[?.!,।॥۔؟،:;"“”‘’()[\]…–—]/g, ' ').split(/\s+/).filter(Boolean);
+const romanToks = (s) => (s || '').replace(/[?.!,:;"“”()…–—]/g, ' ').split(/\s+/).filter(Boolean);
+function checkLessons(uf, code, d, known) {
+  const unitText = [...(d.vocab || []), ...(d.phrases || []), ...(d.grammar || []).flatMap((g) => g.examples || []), ...(d.dialogue?.lines || [])];
+  if (!Array.isArray(d.lessons)) {
+    warn(uf, 'no lessons yet');
+    unitText.forEach((x) => toks(x.native).forEach((t) => known.add(t)));
+    return;
+  }
+  range(uf, d.lessons, 3, 8, 'lessons');
+  const items = new Map([...(d.vocab || []), ...(d.phrases || [])].map((x) => [x.native, x]));
+  const taught = new Map();
+  const tipped = new Set();
+  // words of this unit's own lists count as known from the start; sentences may only add inflections
+  const unitWords = new Set(unitText.flatMap((x) => toks(x.native)));
+  d.lessons.forEach((ls, li) => {
+    const w = `lessons[${li}]`;
+    if (!ls.title) err(uf, `${w}: title missing`);
+    if (ls.tip) {
+      if (!ls.tip.title || !ls.tip.body) err(uf, `${w}.tip: title/body missing`);
+      if (ls.tip.body && ls.tip.body.length > 700) warn(uf, `${w}.tip: body is ${ls.tip.body.length} chars — keep a tip short (the full notes are in grammar)`);
+      if (ls.tip.grammar != null) {
+        if (!d.grammar?.[ls.tip.grammar]) err(uf, `${w}.tip.grammar ${ls.tip.grammar} is not a grammar index`);
+        tipped.add(ls.tip.grammar);
+      }
+    }
+    if (!Array.isArray(ls.new)) err(uf, `${w}: new must be an array`);
+    (ls.new || []).forEach((n) => {
+      if (!items.has(n)) err(uf, `${w}.new: "${n}" is not a vocab word or phrase of this unit (must match "native" exactly)`);
+      else if (taught.has(n)) err(uf, `${w}.new: "${n}" is already taught in lesson ${taught.get(n) + 1}`);
+      else taught.set(n, li);
+    });
+    if ((ls.new || []).length > 12) warn(uf, `${w}: ${ls.new.length} new items — aim for 4–10`);
+    range(uf, ls.sentences, 5, 14, `${w}.sentences`);
+    (ls.sentences || []).forEach((s, si) => {
+      const sw = `${w}.sentences[${si}]`;
+      checkItem(uf, code, s, sw);
+      const t = toks(s.native);
+      if (t.length < 2) err(uf, `${sw}: a sentence needs at least two words`);
+      if (s.focus != null && !t.includes(s.focus)) err(uf, `${sw}: focus "${s.focus}" is not one of its words ${JSON.stringify(t)}`);
+      if (s.wrong != null) {
+        if (s.focus == null) err(uf, `${sw}: "wrong" needs a "focus"`);
+        if (!Array.isArray(s.wrong) || s.wrong.length < 1 || s.wrong.length > 4) err(uf, `${sw}: "wrong" must list 1–4 forms`);
+        else
+          s.wrong.forEach((x, xi) => {
+            const [n, r, extra] = String(x).split('|');
+            if (!n || !r || extra != null) return err(uf, `${sw}.wrong[${xi}]: write it as "native|roman", got ${JSON.stringify(x)}`);
+            checkNative(uf, code, n, `${sw}.wrong[${xi}]`);
+            if (n.trim() === s.focus) err(uf, `${sw}.wrong[${xi}]: same as the right answer`);
+          });
+      }
+      if (s.roman && romanToks(s.roman).length !== t.length) warn(uf, `${sw}: ${t.length} native words but ${romanToks(s.roman).length} romanized words — keep them word for word where possible`);
+      if (WORDS) {
+        const unknown = t.filter((x) => !known.has(x) && !unitWords.has(x));
+        if (unknown.length) console.log(`words ${uf} ${sw}: not met before: ${unknown.join(' ')}`);
+      }
+    });
+    (ls.sentences || []).forEach((s) => toks(s.native).forEach((x) => known.add(x)));
+  });
+  for (const n of items.keys()) if (!taught.has(n)) warn(uf, `"${n}" is not taught in any lesson's "new"`);
+  (d.grammar || []).forEach((g, gi) => !tipped.has(gi) && warn(uf, `grammar[${gi}] "${g.title}" has no lesson tip`));
+  unitText.forEach((x) => toks(x.native).forEach((t) => known.add(t)));
+}
+const WORDS = process.argv.includes('--words');
+
+let codes = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 if (!codes.length) {
   codes = fs.readdirSync(ROOT).filter((f) => fs.existsSync(path.join(ROOT, f, 'course.json')));
 }

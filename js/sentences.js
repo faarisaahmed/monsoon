@@ -1,4 +1,5 @@
-// Full sentences for grammar and structure practice: each unit's grammar examples and dialogue lines.
+// Full sentences for grammar and structure practice: each unit's lesson sentences, grammar examples
+// and dialogue lines.
 // "Fill the gap" questions blank out the word a grammar point is about (an ending, a postposition,
 // a verb form) and offer other forms of that same word from the course as the wrong choices.
 
@@ -26,6 +27,12 @@ export function unitSentences(u) {
     const en = notes.reduce((t, n) => t.replace(n, ''), s.en || '').trim();
     out.push({ native: s.native, roman: s.roman, en, note: notes.map((n) => n.trim().slice(1, -1)).join('; ') || undefined, kind: 'sentence', unit: u.id, key: `s:${s.native}`, ...extra });
   };
+  // lesson sentences first: they name the word their rule is about, and its wrong forms
+  (u.lessons || []).forEach((ls, li) =>
+    (ls.sentences || []).forEach((s) =>
+      push(s, { lesson: li, grammar: ls.tip?.grammar ?? null, topic: ls.tip?.title || ls.title, focus: s.focus, wrong: s.wrong }),
+    ),
+  );
   (u.grammar || []).forEach((g, gi) => g.examples.forEach((e) => push(e, { grammar: gi, topic: g.title })));
   (u.dialogue?.lines || []).forEach((l) => push(l, { topic: u.dialogue.title }));
   return out;
@@ -117,8 +124,30 @@ export function cloze(item, { forms, lex, rnd = Math.random }) {
   const W = forms?.words || [];
   const E = forms?.endings || [];
   const candidates = [];
+  // the word the sentence's rule is about, with the forms a learner would confuse it with
+  const f = toks.indexOf(item.focus);
+  if (f >= 0 && item.wrong?.length) {
+    const answer = { native: item.focus, roman: aligned ? romans[f].toLowerCase() : lex.get(item.focus) || null };
+    const wrong = item.wrong.map((w) => {
+      const [native, roman] = w.split('|');
+      return { native: native.trim(), roman: roman?.trim() || lex.get(native.trim()) || null };
+    });
+    const opts = [answer, ...wrong].sort(() => rnd() - 0.5);
+    return {
+      type: 'cloze',
+      item,
+      gap: f,
+      before: toks.slice(0, f).join(' '),
+      after: toks.slice(f + 1).join(' '),
+      romanBefore: aligned ? romans.slice(0, f).join(' ') : null,
+      romanAfter: aligned ? romans.slice(f + 1).join(' ') : null,
+      options: opts,
+      answer: opts.indexOf(answer),
+    };
+  }
+  if (f >= 0) candidates.push({ i: f, rank: -1, pool: W });
   toks.forEach((t, i) => {
-    if (!once(t) || !NATIVE.test(t)) return;
+    if (i === f || !once(t) || !NATIVE.test(t)) return;
     if (W.includes(t)) candidates.push({ i, rank: 0, pool: W });
     else if (E.some((e) => t.endsWith(e) && chars(t).length > chars(e).length)) candidates.push({ i, rank: 1 });
   });

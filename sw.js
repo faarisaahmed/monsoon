@@ -1,7 +1,7 @@
 // Service worker: makes Monsoon work offline. Generated from sw.template.js by scripts/build.js.
-const VERSION = '8bf5e3e2d1';
+const VERSION = 'cb617c8c60';
 const CACHE = 'monsoon-' + VERSION;
-const PRECACHE = ["./","index.html","css/style.css","manifest.webmanifest","assets/icon.svg","data/languages.json","js/app.js","js/audio.js","js/cloud.js","js/components.js","js/data.js","js/letters.js","js/rain.js","js/sentences.js","js/session.js","js/store.js","js/ui.js","js/views/account.js","js/views/grammar.js","js/views/home.js","js/views/lang.js","js/views/practice.js","js/views/shared.js","js/views/talk.js","js/views/themes.js"];
+const PRECACHE = ["./","index.html","css/style.css","manifest.webmanifest","assets/icon.svg","data/languages.json","js/app.js","js/audio.js","js/cloud.js","js/components.js","js/data.js","js/letters.js","js/path.js","js/rain.js","js/sentences.js","js/session.js","js/store.js","js/ui.js","js/views/account.js","js/views/grammar.js","js/views/home.js","js/views/lang.js","js/views/practice.js","js/views/shared.js","js/views/talk.js","js/views/themes.js"];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(PRECACHE)).then(() => self.skipWaiting()));
