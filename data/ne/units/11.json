@@ -92,5 +92,91 @@
       { "speaker": "Tom", "native": "ल, यो लिनुहोस्। धन्यवाद दाइ!", "roman": "la, yo linuhos. dhanyabād dāi!", "en": "Here you go. Thanks!" }
     ]
   },
-  "culture": "Directions in Nepal are given by **landmarks**, not street names: 'past the chok, near the temple, opposite the bank'. If you ask three people you may get three answers — ask again near your destination. Taxis officially have meters but fares are usually agreed in advance; ride apps are popular in Kathmandu. Microbuses and buses have a conductor (खलासी/कन्डक्टर) who shouts the route and collects fares — say **ओर्लने!** or **रोक्नुस्!** when you want to get off. On trekking trails you'll learn the joke **'नेपाली फ्ल्याट'**: 'Nepali flat' means a little bit up, a little bit down — all day long."
+  "culture": "Directions in Nepal are given by **landmarks**, not street names: 'past the chok, near the temple, opposite the bank'. If you ask three people you may get three answers — ask again near your destination. Taxis officially have meters but fares are usually agreed in advance; ride apps are popular in Kathmandu. Microbuses and buses have a conductor (खलासी/कन्डक्टर) who shouts the route and collects fares — say **ओर्लने!** or **रोक्नुस्!** when you want to get off. On trekking trails you'll learn the joke **'नेपाली फ्ल्याट'**: 'Nepali flat' means a little bit up, a little bit down — all day long.",
+  "lessons": [
+    {
+      "title": "Asking where places are",
+      "tip": { "title": "कता पर्छ? — which way is it?", "body": "- To ask where a place is, Nepalis say **कता पर्छ?** 'which way does it lie?' (from पर्नु 'to fall, lie').\n- Answer with **यता** 'this way', **उता** 'that way', or a landmark + **पर्छ**: बैंक मन्दिरको छेउमा पर्छ.\n- Stop a stranger with **माफ गर्नुहोस्** 'excuse me'.", "pattern": "place + कता पर्छ?  →  यता / उता पर्छ" },
+      "new": ["बाटो", "कता", "यता", "उता", "ठाउँ", "बैंक", "मन्दिर", "बसपार्क", "माफ गर्नुहोस्, बसपार्क कता पर्छ?"],
+      "sentences": [
+        { "native": "माफ गर्नुहोस्, बैंक कता पर्छ?", "roman": "māph garnuhos, baiṅk katā parchha?", "en": "Excuse me, which way is the bank?", "focus": "पर्छ", "wrong": ["पर्छु|parchhu", "पर्नुहोस्|parnuhos"] },
+        { "native": "मन्दिर यता पर्छ।", "roman": "mandir yatā parchha.", "en": "The temple is this way.", "focus": "पर्छ", "wrong": ["पर्छु|parchhu", "पर्नुहोस्|parnuhos"] },
+        { "native": "बसपार्क उता पर्छ, धेरै टाढा छैन।", "roman": "baspārk utā parchha, dherai ṭāḍhā chhaina.", "en": "The bus station is that way, it's not very far.", "focus": "पर्छ", "wrong": ["पर्छु|parchhu", "पर्नुहोस्|parnuhos"] },
+        { "native": "बैंक मन्दिरको छेउमा पर्छ।", "roman": "baiṅk mandirko chheumā parchha.", "en": "The bank is beside the temple.", "focus": "पर्छ", "wrong": ["पर्छु|parchhu", "पर्नुहोस्|parnuhos"] },
+        { "native": "यो ठाउँ कता पर्छ?", "roman": "yo ṭhāuṃ katā parchha?", "en": "Which way is this place? (showing an address)", "focus": "कता", "wrong": ["को|ko", "कति|kati"] },
+        { "native": "त्यो ठाउँ यहाँबाट टाढा पर्छ?", "roman": "tyo ṭhāuṃ yahāṃbāṭa ṭāḍhā parchha?", "en": "Is that place far from here?", "focus": "पर्छ", "wrong": ["पर्छु|parchhu", "पर्नुहोस्|parnuhos"] },
+        { "native": "होइन, नजिकै पर्छ।", "roman": "hoina, najikai parchha.", "en": "No, it's close by.", "focus": "पर्छ", "wrong": ["पर्छु|parchhu", "पर्नुहोस्|parnuhos"] },
+        { "native": "बसपार्क जाने बाटो यो हो?", "roman": "baspārk jāne bāṭo yo ho?", "en": "Is this the way to the bus station?" },
+        { "native": "मलाई बाटो थाहा छैन।", "roman": "malāi bāṭo thāhā chhaina.", "en": "I don't know the way." }
+      ]
+    },
+    {
+      "title": "Go straight, then turn right",
+      "tip": { "title": "Telling someone what to do", "body": "- Polite (तपाईं): stem + **-नुहोस्**: जा**नुहोस्** 'please go', मोडि**नुहोस्** 'please turn'. In quick speech it shrinks to **-नुस्**.\n- Friendly (तिमी): stem + **-अ** (पर्ख, बस) or **-ऊ** after a vowel (जाऊ, आऊ).\n- 'Don't': put **न-** in front: **न**जानुहोस्, **न**जाऊ.", "pattern": "जा + नुहोस् → जानुहोस्  ·  तिमी: जाऊ  ·  नजानुहोस्", "grammar": 0 },
+      "new": ["दायाँ", "बायाँ", "सिधा", "मोड", "मोडिनु", "चोक", "पुल", "सिधा जानुहोस्, अनि दायाँ मोडिनुहोस्।", "चोकबाट बायाँ जानुहोस्।"],
+      "sentences": [
+        { "native": "सिधा जानुहोस्।", "roman": "sidhā jānuhos.", "en": "Go straight on. (polite)", "focus": "जानुहोस्", "wrong": ["जाऊ|jāu", "जानु|jānu"] },
+        { "native": "चोकमा दायाँ मोडिनुहोस्।", "roman": "chokmā dāyāṃ moḍinuhos.", "en": "Turn right at the junction. (polite)", "focus": "मोडिनुहोस्", "wrong": ["मोडिनु|moḍinu", "मोडिन्छ|moḍinchha"] },
+        { "native": "अर्को मोडमा बायाँ मोडिनुहोस्।", "roman": "arko moḍmā bāyāṃ moḍinuhos.", "en": "Turn left at the next bend. (polite)", "focus": "मोडिनुहोस्", "wrong": ["मोडिनु|moḍinu", "मोडिन्छ|moḍinchha"] },
+        { "native": "पुलबाट नजानुहोस्, बाटो राम्रो छैन।", "roman": "pulbāṭa najānuhos, bāṭo rāmro chhaina.", "en": "Don't go over the bridge, the road isn't good. (polite)", "focus": "नजानुहोस्", "wrong": ["जानुहोस्|jānuhos", "नजाऊ|najāu"] },
+        { "native": "मलाई बाटो देखाउनुहोस् न।", "roman": "malāi bāṭo dekhāunuhos na.", "en": "Please show me the way.", "focus": "देखाउनुहोस्", "wrong": ["देखाउँछु|dekhāuṃchhu", "देखाउनु|dekhāunu"] },
+        { "native": "चोकमा मलाई पर्खनुहोस्।", "roman": "chokmā malāi parkhanuhos.", "en": "Wait for me at the junction. (polite)", "focus": "पर्खनुहोस्", "wrong": ["पर्ख|parkha", "पर्खनु|parkhanu"] },
+        { "native": "तिमी चोकमा पर्ख, म आउँदै छु।", "roman": "timi chokmā parkha, ma āuṃdai chhu.", "en": "Wait at the junction, I'm on my way. (to a friend)", "focus": "पर्ख", "wrong": ["पर्खनुहोस्|parkhanuhos", "पर्खनु|parkhanu"] },
+        { "native": "उता नजाऊ, यता आऊ।", "roman": "utā najāu, yatā āu.", "en": "Don't go that way, come this way. (to a friend)", "focus": "नजाऊ", "wrong": ["नजानुहोस्|najānuhos", "जाऊ|jāu"] },
+        { "native": "मन्दिर पुलको छेउमा पर्छ।", "roman": "mandir pulko chheumā parchha.", "en": "The temple is next to the bridge." },
+        { "native": "बायाँ होइन, दायाँ!", "roman": "bāyāṃ hoina, dāyāṃ!", "en": "Not left, right!" }
+      ]
+    },
+    {
+      "title": "Taking the bus",
+      "tip": { "title": "From, towards, as far as", "body": "- **-मा** with vehicles: बस**मा** 'on the bus'.\n- **-बाट** 'from': घर**बाट** 'from home'. **-तिर** 'towards': ठमेल**तिर**. **-सम्म** 'as far as': पोखरा**सम्म**.\n- With जानु the destination needs no ending: म ठमेल जान्छु 'I'm going to Thamel'.", "pattern": "घरबाट … चोकसम्म … बसमा", "grammar": 1 },
+      "new": ["बस", "माइक्रो", "चढ्नु", "ओर्लनु", "तिर", "सम्म", "ठमेल जाने बस कुन हो?", "म यहाँ ओर्लन्छु।"],
+      "sentences": [
+        { "native": "यो बस पोखरासम्म जान्छ?", "roman": "yo bas Pokharāsamma jānchha?", "en": "Does this bus go all the way to Pokhara?", "focus": "पोखरासम्म", "wrong": ["पोखराबाट|Pokharābāṭa", "पोखराको|Pokharāko"] },
+        { "native": "म बसमा जान्छु।", "roman": "ma basmā jānchhu.", "en": "I'll go by bus.", "focus": "बसमा", "wrong": ["बसको|basko", "बसलाई|baslāi"] },
+        { "native": "माइक्रोमा चढ्नुहोस्, यो ठमेलतिर जान्छ।", "roman": "māikromā chaḍhnuhos, yo Ṭhameltira jānchha.", "en": "Get on the microbus, it goes towards Thamel.", "focus": "ठमेलतिर", "wrong": ["ठमेलबाट|Ṭhamelbāṭa", "ठमेलको|Ṭhamelko"] },
+        { "native": "बसपार्कबाट पोखराको बस चढ्नुहोस्।", "roman": "baspārkbāṭa Pokharāko bas chaḍhnuhos.", "en": "Take the Pokhara bus from the bus station.", "focus": "बसपार्कबाट", "wrong": ["बसपार्कसम्म|baspārksamma", "बसपार्कको|baspārkko"] },
+        { "native": "म चोकमा ओर्लन्छु।", "roman": "ma chokmā orlanchhu.", "en": "I'll get off at the junction.", "focus": "चोकमा", "wrong": ["चोकलाई|choklāi", "चोकको|chokko"] },
+        { "native": "यो माइक्रो बसपार्कसम्म जान्छ।", "roman": "yo māikro baspārksamma jānchha.", "en": "This microbus goes as far as the bus station.", "focus": "बसपार्कसम्म", "wrong": ["बसपार्कलाई|baspārklāi", "बसपार्कको|baspārkko"] },
+        { "native": "मन्दिरतिर जाने बस कुन हो?", "roman": "mandirtira jāne bas kun ho?", "en": "Which bus goes towards the temple?", "focus": "मन्दिरतिर", "wrong": ["मन्दिरलाई|mandirlāi", "मन्दिरको|mandirko"] },
+        { "native": "म घरबाट बसमा अफिस जान्छु।", "roman": "ma gharbāṭa basmā aphis jānchhu.", "en": "I go from home to the office by bus.", "focus": "घरबाट", "wrong": ["घरसम्म|gharsamma", "घरको|gharko"] },
+        { "native": "बस धेरै ढिलो छ, म हिँडेर जान्छु।", "roman": "bas dherai ḍhilo chha, ma hiṃḍera jānchhu.", "en": "The bus is very slow, I'll walk." },
+        { "native": "दाइ, म बैंकको अगाडि ओर्लन्छु।", "roman": "dāi, ma baiṅkko agāḍi orlanchhu.", "en": "I'll get off in front of the bank. (to the conductor)" }
+      ]
+    },
+    {
+      "title": "Taking a taxi",
+      "tip": { "title": "Talking to drivers", "body": "- Call a driver or conductor **दाइ** 'big brother' (**भाइ** if he's clearly younger).\n- Ask 'will you go to…?' with the polite verb: बौद्ध **जानुहुन्छ**?\n- Soften a request with **न** after it: बिस्तारै जानुहोस् **न** 'do go slowly'.\n- Agree the fare before you get in." },
+      "new": ["ट्याक्सी", "एयरपोर्ट", "भाडा", "लैजानु", "रोक्नु", "पुग्नु", "दाइ, बौद्ध जानुहुन्छ?", "भाडा कति लाग्छ?", "मिटरमा जानुहोस् न।", "यहीँ रोक्नुहोस्।", "मलाई यो ठाउँमा लैजानुहोस्।"],
+      "sentences": [
+        { "native": "दाइ, एयरपोर्ट जानुहुन्छ?", "roman": "dāi, eyarporṭ jānuhunchha?", "en": "Will you go to the airport? (to a taxi driver)", "focus": "जानुहुन्छ", "wrong": ["जान्छु|jānchhu", "जानुहोस्|jānuhos"] },
+        { "native": "मलाई बसपार्क लैजानुहोस्।", "roman": "malāi baspārk laijānuhos.", "en": "Please take me to the bus station.", "focus": "लैजानुहोस्", "wrong": ["लैजान्छु|laijānchhu", "लैजानु|laijānu"] },
+        { "native": "एयरपोर्टसम्म भाडा कति लाग्छ?", "roman": "eyarporṭsamma bhāḍā kati lāgchha?", "en": "How much is the fare to the airport?" },
+        { "native": "भाडा धेरै भयो, दाइ।", "roman": "bhāḍā dherai bhayo, dāi.", "en": "That fare's too much." },
+        { "native": "बैंकको अगाडि रोक्नुहोस् न।", "roman": "baiṅkko agāḍi roknuhos na.", "en": "Stop in front of the bank, please.", "focus": "रोक्नुहोस्", "wrong": ["रोक्छु|rokchhu", "रोक्नु|roknu"] },
+        { "native": "यहाँ नरोक्नुहोस्, अलि अगाडि रोक्नुहोस्।", "roman": "yahāṃ naroknuhos, ali agāḍi roknuhos.", "en": "Don't stop here, stop a bit further on.", "focus": "नरोक्नुहोस्", "wrong": ["रोक्नुहोस्|roknuhos", "रोक्दिनँ|rokdinaṃ"] },
+        { "native": "बिस्तारै जानुहोस् न, दाइ।", "roman": "bistārai jānuhos na, dāi.", "en": "Please go slowly.", "focus": "जानुहोस्", "wrong": ["जान्छु|jānchhu", "जानु|jānu"] },
+        { "native": "झ्याल खोल्नुहोस् न, दाइ।", "roman": "jhyāl kholnuhos na, dāi.", "en": "Could you open the window, please?", "focus": "खोल्नुहोस्", "wrong": ["खोल्छु|kholchhu", "खोल्नु|kholnu"] },
+        { "native": "मलाई ट्याक्सी चाहियो।", "roman": "malāi ṭyāksi chāhiyo.", "en": "I need a taxi." },
+        { "native": "दस मिनेटमा पुग्छौँ।", "roman": "das mineṭmā pugchhauṃ.", "en": "We'll be there in ten minutes." },
+        { "native": "दाइ, ट्याक्सी खाली छ?", "roman": "dāi, ṭyāksi khāli chha?", "en": "Is your taxi free?", "focus": "छ", "wrong": ["हो|ho", "छु|chhu"] }
+      ]
+    },
+    {
+      "title": "How long does it take?",
+      "tip": { "title": "कति समय लाग्छ? — how long?", "body": "- **लाग्नु** also means 'to take' (time or money): कति समय **लाग्छ**? 'how long does it take?'\n- Answer with the time + **लाग्छ**: दस मिनेट लाग्छ. Add **जति** for 'about'.\n- 'It doesn't take long': धेरै समय **लाग्दैन**.\n- **हिँडेर** = on foot, **ट्याक्सीमा** = by taxi.", "pattern": "place + सम्म + कति समय लाग्छ?" },
+      "new": ["नक्सा", "उकालो", "ओरालो", "हिँडेर कति समय लाग्छ?", "दस मिनेट जति लाग्छ।", "नक्सामा देखाउनुहोस् त।"],
+      "sentences": [
+        { "native": "बसपार्कसम्म कति समय लाग्छ?", "roman": "baspārksamma kati samaya lāgchha?", "en": "How long does it take to the bus station?", "focus": "लाग्छ", "wrong": ["लाग्छु|lāgchhu", "लाग्नुहोस्|lāgnuhos"] },
+        { "native": "हिँडेर आधा घण्टा लाग्छ।", "roman": "hiṃḍera ādhā ghanṭā lāgchha.", "en": "It takes half an hour on foot.", "focus": "लाग्छ", "wrong": ["लाग्छु|lāgchhu", "लाग्नुहोस्|lāgnuhos"] },
+        { "native": "ट्याक्सीमा पाँच मिनेट जति लाग्छ।", "roman": "ṭyāksimā pāṃch mineṭ jati lāgchha.", "en": "About five minutes by taxi.", "focus": "लाग्छ", "wrong": ["लाग्छु|lāgchhu", "लाग्नुहोस्|lāgnuhos"] },
+        { "native": "उकालो छ, एक घण्टा जति लाग्छ।", "roman": "ukālo chha, ek ghanṭā jati lāgchha.", "en": "It's uphill, it takes about an hour.", "focus": "लाग्छ", "wrong": ["लाग्छु|lāgchhu", "लाग्नुहोस्|lāgnuhos"] },
+        { "native": "एयरपोर्टसम्म ट्याक्सीमा कति समय लाग्छ?", "roman": "eyarporṭsamma ṭyāksimā kati samaya lāgchha?", "en": "How long does it take to the airport by taxi?", "focus": "लाग्छ", "wrong": ["लाग्छु|lāgchhu", "लाग्नुहोस्|lāgnuhos"] },
+        { "native": "धेरै समय लाग्दैन।", "roman": "dherai samaya lāgdaina.", "en": "It doesn't take long.", "focus": "लाग्दैन", "wrong": ["लाग्छ|lāgchha", "लाग्दिनँ|lāgdinaṃ"] },
+        { "native": "अब ओरालो छ, सजिलो छ।", "roman": "aba orālo chha, sajilo chha.", "en": "Now it's downhill, it's easy." },
+        { "native": "नक्सामा मन्दिर कहाँ छ?", "roman": "naksāmā mandir kahāṃ chha?", "en": "Where is the temple on the map?" },
+        { "native": "मसँग नक्सा छैन।", "roman": "masaṃga naksā chhaina.", "en": "I don't have a map." }
+      ]
+    }
+  ]
 }

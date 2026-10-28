@@ -87,5 +87,92 @@
       { "speaker": "Ben", "native": "হ্যাঁ, এখানেই রাখেন। এই নিন পঞ্চাশ টাকা।", "roman": "hæṃ, ekhanei rakhen. ei nin pônchash ṭaka.", "en": "Yes, stop right here. Here's fifty taka." }
     ]
   },
-  "culture": "In Dhaka, rickshaw-pullers and bus conductors are addressed as **মামা** ('uncle'); in Kolkata, **দাদা**. Always agree the fare before getting in. Dhaka speech often uses **-এন** instead of standard **-উন** for polite commands (চলেন, ওঠেন, রাখেন instead of চলুন, উঠুন, রাখুন); you'll hear it everywhere, but the standard form is always correct. Kolkata's metro (1984) was India's first."
+  "culture": "In Dhaka, rickshaw-pullers and bus conductors are addressed as **মামা** ('uncle'); in Kolkata, **দাদা**. Always agree the fare before getting in. Dhaka speech often uses **-এন** instead of standard **-উন** for polite commands (চলেন, ওঠেন, রাখেন instead of চলুন, উঠুন, রাখুন); you'll hear it everywhere, but the standard form is always correct. Kolkata's metro (1984) was India's first.",
+  "lessons": [
+    {
+      "title": "Finding places nearby",
+      "tip": { "title": "Where is…? Is there a … nearby?", "body": "- **X-টা কোথায়?** 'where is the X?': বাজারটা কোথায়?\n- **কাছাকাছি কোনো X আছে?** 'is there an X nearby?' The answer: আছে / নেই.\n- 'How far?' is **কত দূর?**, and 'from here' is **এখান থেকে** (not এখানে থেকে).", "pattern": "X-টা + কোথায়?  ·  কাছাকাছি + কোনো + X + আছে?" },
+      "new": ["রাস্তা", "দোকান", "বাজার", "মসজিদ", "মন্দির", "স্কুল", "স্টেশন", "কাছাকাছি", "দূর", "এখান থেকে কত দূর?"],
+      "sentences": [
+        { "native": "বাজারটা কোথায়?", "roman": "bajarṭa kothay?", "en": "Where is the market?", "focus": "কোথায়", "wrong": ["কখন|kôkhon", "কেন|kæno"] },
+        { "native": "কাছাকাছি কোনো দোকান আছে?", "roman": "kachhakachhi kono dokan achhe?", "en": "Is there a shop nearby?", "focus": "কাছাকাছি", "wrong": ["বাইরে|baire", "ওপরে|opore"] },
+        { "native": "কাছাকাছি কোনো মন্দির আছে?", "roman": "kachhakachhi kono mondir achhe?", "en": "Is there a temple nearby?", "focus": "কোনো", "wrong": ["সব|shôb", "কিছু|kichhu"] },
+        { "native": "মসজিদটা কি এখান থেকে দূর?", "roman": "moshjidṭa ki ekhan theke dur?", "en": "Is the mosque far from here?", "focus": "দূর", "wrong": ["কাছে|kachhe", "কত|kôto"] },
+        { "native": "না, খুব কাছে।", "roman": "na, khub kachhe.", "en": "No, it's very close." },
+        { "native": "মন্দিরটা কত দূর?", "roman": "mondirṭa kôto dur?", "en": "How far is the temple?", "focus": "কত", "wrong": ["কটা|kôṭa", "কেমন|kæmon"] },
+        { "native": "স্কুলটা এই রাস্তায়।", "roman": "skulṭa ei rastay.", "en": "The school is on this street.", "focus": "রাস্তায়", "wrong": ["রাস্তার|rastar", "রাস্তাকে|rastake"] },
+        { "native": "স্টেশন এখান থেকে বেশি দূর না।", "roman": "sṭeshon ekhan theke beshi dur na.", "en": "The station isn't too far from here.", "focus": "এখান", "wrong": ["এখানে|ekhane", "এখন|ækhon"] },
+        { "native": "বাজারের পাশে একটা মসজিদ আছে।", "roman": "bajarer pashe ækṭa moshjid achhe.", "en": "There's a mosque next to the market." },
+        { "native": "এখানে কাছাকাছি ভালো দোকান নেই।", "roman": "ekhane kachhakachhi bhalo dokan nei.", "en": "There are no good shops nearby.", "focus": "নেই", "wrong": ["না|na", "নই|noi"] }
+      ]
+    },
+    {
+      "title": "Turn left, go straight",
+      "tip": { "title": "Polite commands: -উন / -ন", "body": "- To a stranger, use the **আপনি** command: stem + **-উন**: ঘুরুন, বলুন, থামুন; after a vowel just **-ন**: যান, দিন.\n- To a friend (**তুমি**) add **-ো**: ঘোরো, যাও, বলো.\n- 'Don't' is **না** after the verb, and the polite one uses the future form: ঘুরবেন না.", "pattern": "সোজা + যান  ·  বাঁদিকে + ঘুরুন", "grammar": 0 },
+      "new": ["সোজা", "ডানদিকে", "বাঁদিকে", "মোড়", "ঘোরা", "সোজা যান, তারপর ডানদিকে ঘুরুন।", "ঠিকানা", "এই ঠিকানাটা কোথায় বলতে পারেন?", "আমি রাস্তা হারিয়ে ফেলেছি।"],
+      "sentences": [
+        { "native": "মোড়ে বাঁদিকে ঘুরুন।", "roman": "moṛe baṃdike ghurun.", "en": "Turn left at the corner.", "focus": "ঘুরুন", "wrong": ["ঘোরো|ghoro", "ঘুরি|ghuri"] },
+        { "native": "এই রাস্তায় সোজা যান।", "roman": "ei rastay shoja jan.", "en": "Go straight along this road.", "focus": "যান", "wrong": ["যাও|jao", "যাই|jai"] },
+        { "native": "দ্বিতীয় মোড়ে ডানদিকে ঘুরুন।", "roman": "ditio moṛe ḍandike ghurun.", "en": "Turn right at the second junction.", "focus": "ঘুরুন", "wrong": ["ঘুরব|ghurbo", "ঘোরে|ghore"] },
+        { "native": "সোজা যাও, তারপর বাঁদিকে ঘোরো।", "roman": "shoja jao, tarpôr baṃdike ghoro.", "en": "Go straight, then turn left. (to a friend)", "focus": "ঘোরো", "wrong": ["ঘুরুন|ghurun", "ঘুরি|ghuri"] },
+        { "native": "মোড়ে ঘুরবেন না, সোজা যান।", "roman": "moṛe ghurben na, shoja jan.", "en": "Don't turn at the corner, go straight on.", "focus": "ঘুরবেন", "wrong": ["ঘুরুন|ghurun", "ঘোরো|ghoro"] },
+        { "native": "ঠিকানাটা আবার বলুন।", "roman": "ṭhikanaṭa abar bolun.", "en": "Please say the address again.", "focus": "বলুন", "wrong": ["বলো|bôlo", "বলি|boli"] },
+        { "native": "আমার ঠিকানাটা লিখুন।", "roman": "amar ṭhikanaṭa likhun.", "en": "Please write down my address.", "focus": "লিখুন", "wrong": ["লেখো|lekho", "লিখি|likhi"] },
+        { "native": "আমরা রাস্তা হারিয়ে ফেলেছি।", "roman": "amra rasta hariye phelechhi.", "en": "We've lost our way." },
+        { "native": "বাঁদিকে না, ডানদিকে।", "roman": "baṃdike na, ḍandike.", "en": "Not left, right." },
+        { "native": "বাজারটা মোড়ের ডানদিকে।", "roman": "bajarṭa moṛer ḍandike.", "en": "The market is on the right at the junction." }
+      ]
+    },
+    {
+      "title": "From here to there",
+      "tip": { "title": "থেকে, পর্যন্ত, দিকে, দিয়ে", "body": "- **থেকে** 'from': স্টেশন থেকে; 'from here' is **এখান থেকে**.\n- **পর্যন্ত** 'as far as, until': মোড় পর্যন্ত, পাঁচটা পর্যন্ত.\n- **দিকে** 'towards' takes **-এর** before it: স্টেশনের দিকে; 'which way?' is **কোন দিকে?**\n- **দিয়ে** 'through, along': এই রাস্তা দিয়ে. All of them come *after* the noun.", "pattern": "X + থেকে / পর্যন্ত / দিয়ে  ·  X-এর + দিকে", "grammar": 1 },
+      "new": ["পর্যন্ত", "দিকে", "দিয়ে", "পৌঁছানো", "স্টেশনটা কোন দিকে?", "হেঁটে যাওয়া যায়?"],
+      "sentences": [
+        { "native": "বাজারটা কোন দিকে?", "roman": "bajarṭa kon dike?", "en": "Which way is the market?", "focus": "দিকে", "wrong": ["দিয়ে|diye", "থেকে|theke"] },
+        { "native": "মোড় পর্যন্ত সোজা যান।", "roman": "moṛ pôrjonto shoja jan.", "en": "Go straight as far as the corner.", "focus": "পর্যন্ত", "wrong": ["দিয়ে|diye", "থেকে|theke"] },
+        { "native": "এই রাস্তা দিয়ে যান।", "roman": "ei rasta diye jan.", "en": "Go along this road.", "focus": "দিয়ে", "wrong": ["দিকে|dike", "পর্যন্ত|pôrjonto"] },
+        { "native": "মন্দিরের দিকে হাঁটুন।", "roman": "mondirer dike haṃṭun.", "en": "Walk towards the temple.", "focus": "দিকে", "wrong": ["দিয়ে|diye", "পর্যন্ত|pôrjonto"] },
+        { "native": "মসজিদটা স্টেশনের দিকে।", "roman": "moshjidṭa sṭeshoner dike.", "en": "The mosque is towards the station.", "focus": "স্টেশনের", "wrong": ["স্টেশনে|sṭeshone", "স্টেশন|sṭeshon"] },
+        { "native": "এখান থেকে স্টেশন পর্যন্ত কত দূর?", "roman": "ekhan theke sṭeshon pôrjonto kôto dur?", "en": "How far is it from here to the station?", "focus": "থেকে", "wrong": ["পর্যন্ত|pôrjonto", "দিয়ে|diye"] },
+        { "native": "স্কুল থেকে বাজার পর্যন্ত হেঁটে যাওয়া যায়।", "roman": "skul theke bajar pôrjonto heṃṭe jawa jay.", "en": "You can walk from the school to the market.", "focus": "পর্যন্ত", "wrong": ["দিকে|dike", "দিয়ে|diye"] },
+        { "native": "আমি পাঁচটা পর্যন্ত এখানে আছি।", "roman": "ami paṃchṭa pôrjonto ekhane achhi.", "en": "I'm here until five.", "focus": "পর্যন্ত", "wrong": ["থেকে|theke", "দিকে|dike"] },
+        { "native": "আমরা কখন পৌঁছাব?", "roman": "amra kôkhon pouṃchhabo?", "en": "When will we get there?" },
+        { "native": "হেঁটে যাওয়া যায়, খুব দূর না।", "roman": "heṃṭe jawa jay, khub dur na.", "en": "You can walk, it's not very far." }
+      ]
+    },
+    {
+      "title": "Taking a rickshaw or taxi",
+      "tip": { "title": "Talking to drivers", "body": "- Call a rickshaw or taxi driver **মামা** in Dhaka, **দাদা** in Kolkata.\n- Ask *before* you get in: **… যাবেন?** 'will you go to …?', then **ভাড়া কত?**\n- In Dhaka you'll hear থামেন, চলেন for **থামুন, চলুন**: understand it, but the -উন form is always right." },
+      "new": ["রিকশা", "ট্যাক্সি", "গাড়ি", "ভাড়া", "থামা", "মামা, নিউমার্কেট যাবেন?", "ভাড়া কত?", "এখানে থামুন।", "একটু আস্তে চালান।"],
+      "sentences": [
+        { "native": "দাদা, স্টেশন যাবেন?", "roman": "dada, sṭeshon jaben?", "en": "Will you go to the station? (to a driver, Kolkata)", "focus": "যাবেন", "wrong": ["যাব|jabo", "যাবে|jabe"] },
+        { "native": "মামা, বাজার যাবেন?", "roman": "mama, bajar jaben?", "en": "Will you go to the market? (to a driver, Dhaka)", "focus": "যাবেন", "wrong": ["যান|jan", "যাবি|jabi"] },
+        { "native": "রিকশা ভাড়া কত?", "roman": "riksha bhaṛa kôto?", "en": "How much is the rickshaw fare?" },
+        { "native": "ট্যাক্সিতে ভাড়া অনেক বেশি।", "roman": "ṭæksite bhaṛa ônek beshi.", "en": "The fare is a lot more by taxi." },
+        { "native": "মোড়ে থামুন।", "roman": "moṛe thamun.", "en": "Stop at the corner, please.", "focus": "থামুন", "wrong": ["থামো|thamo", "থামি|thami"] },
+        { "native": "এখানে না, একটু সামনে থামুন।", "roman": "ekhane na, ekṭu shamne thamun.", "en": "Not here, stop a little further on.", "focus": "থামুন", "wrong": ["থামব|thambo", "থাম|tham"] },
+        { "native": "একটু তাড়াতাড়ি চালান।", "roman": "ekṭu taṛataṛi chalan.", "en": "Please drive a bit faster.", "focus": "চালান", "wrong": ["চালাও|chalao", "চালাই|chalai"] },
+        { "native": "দাদা, গাড়িটা আস্তে চালান।", "roman": "dada, gaṛiṭa aste chalan.", "en": "Please drive the car slowly.", "focus": "চালান", "wrong": ["চালাই|chalai", "চালাবে|chalabe"] },
+        { "native": "ঠিক আছে, চল্লিশ টাকা দেব।", "roman": "ṭhik achhe, chollish ṭaka debo.", "en": "All right, I'll give forty taka." },
+        { "native": "রিকশা নেই, চলুন হেঁটে যাই।", "roman": "riksha nei, cholun heṃṭe jai.", "en": "There are no rickshaws, let's walk." }
+      ]
+    },
+    {
+      "title": "Bus, train and metro",
+      "tip": { "title": "By bus, by train: -এ", "body": "- 'By' a vehicle is the **-এ** ending: বাসে, ট্রেনে; after a vowel **-তে**: মেট্রোতে. You can add **করে**: বাসে করে.\n- 'On foot' is **হেঁটে**.\n- Ask where a bus goes with the future: এই বাসটা কি হাওড়া **যাবে**? 'I'll get off' is **নামব**.", "pattern": "বাসে / ট্রেনে / মেট্রোতে + যাই", "grammar": 1 },
+      "new": ["বাস", "ট্রেন", "মেট্রো", "বিমানবন্দর", "টিকিট", "নামা", "এই বাসটা কি হাওড়া যাবে?", "আমি পরের স্টপে নামব।"],
+      "sentences": [
+        { "native": "আমি মেট্রোতে অফিস যাই।", "roman": "ami meṭrote ophish jai.", "en": "I go to the office by metro.", "focus": "মেট্রোতে", "wrong": ["মেট্রো|meṭro", "মেট্রোর|meṭror"] },
+        { "native": "আমরা ট্রেনে যাব।", "roman": "amra ṭrene jabo.", "en": "We'll go by train.", "focus": "ট্রেনে", "wrong": ["ট্রেন|ṭren", "ট্রেনের|ṭrener"] },
+        { "native": "আমি বাসে করে স্কুলে যাই।", "roman": "ami base kore skule jai.", "en": "I go to school by bus.", "focus": "বাসে", "wrong": ["বাস|bas", "বাসের|baser"] },
+        { "native": "এই ট্রেনটা কি বিমানবন্দর যাবে?", "roman": "ei ṭrenṭa ki bimanbôndor jabe?", "en": "Does this train go to the airport?", "focus": "যাবে", "wrong": ["যাব|jabo", "যাবেন|jaben"] },
+        { "native": "বিমানবন্দর পর্যন্ত মেট্রো আছে?", "roman": "bimanbôndor pôrjonto meṭro achhe?", "en": "Is there a metro to the airport?", "focus": "পর্যন্ত", "wrong": ["দিয়ে|diye", "থেকে|theke"] },
+        { "native": "আপনি কোথায় নামবেন?", "roman": "apni kothay namben?", "en": "Where will you get off?", "focus": "নামবেন", "wrong": ["নামব|nambo", "নামবে|nambe"] },
+        { "native": "আমি স্টেশনে নামব।", "roman": "ami sṭeshone nambo.", "en": "I'll get off at the station.", "focus": "নামব", "wrong": ["নামবেন|namben", "নামবে|nambe"] },
+        { "native": "দুটো টিকিট দিন।", "roman": "duṭo ṭikiṭ din.", "en": "Two tickets, please." },
+        { "native": "টিকিট কোথায় পাওয়া যায়?", "roman": "ṭikiṭ kothay pawa jay?", "en": "Where can I get a ticket?" },
+        { "native": "বাসটা কখন আসবে?", "roman": "basṭa kôkhon ashbe?", "en": "When will the bus come?" }
+      ]
+    }
+  ]
 }

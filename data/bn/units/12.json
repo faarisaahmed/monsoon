@@ -87,5 +87,90 @@
       { "speaker": "Shopkeeper", "native": "এই যে, এটা পরে দেখেন।", "roman": "ei je, æṭa pore dækhen.", "en": "Here, try this one on." }
     ]
   },
-  "culture": "Shopping peaks before the big festivals: **Durga Puja** in West Bengal and **Eid** in Bangladesh, when everyone buys new clothes. Men wear the পাঞ্জাবি (kurta) on festive days and the লুঙ্গি at home; women wear the শাড়ি or সালোয়ার কামিজ. Prices in markets usually start 30–50% high. A shopkeeper may offer you tea while you browse: accepting is polite and doesn't oblige you to buy."
+  "culture": "Shopping peaks before the big festivals: **Durga Puja** in West Bengal and **Eid** in Bangladesh, when everyone buys new clothes. Men wear the পাঞ্জাবি (kurta) on festive days and the লুঙ্গি at home; women wear the শাড়ি or সালোয়ার কামিজ. Prices in markets usually start 30–50% high. A shopkeeper may offer you tea while you browse: accepting is polite and doesn't oblige you to buy.",
+  "lessons": [
+    {
+      "title": "This one or that one?",
+      "tip": { "title": "এই / ওই + noun-টা · এটা / ওটা", "body": "- Before a noun: **এই** 'this', **ওই** 'that (over there)', and the noun takes **-টা**: এই জামাটা.\n- On their own, 'this one / that one' is **এটা / ওটা**; **সেটা** is 'that one we mentioned'.\n- Plural: **এগুলো** these, **ওগুলো** those.\n- Don't mix them: 'this shirt' is এই জামাটা, never এটা জামাটা.", "pattern": "এই + জামাটা  ·  এটা / ওটা", "grammar": 0 },
+      "new": ["এই", "ওই", "এটা", "ওটা", "সেটা", "এগুলো", "ওগুলো", "জামা", "শাড়ি", "শুধু দেখছি, ধন্যবাদ।"],
+      "sentences": [
+        { "native": "এই জামাটা খুব সুন্দর।", "roman": "ei jamaṭa khub shundor.", "en": "This shirt is really nice.", "focus": "এই", "wrong": ["এটা|æṭa", "ওটা|oṭa"] },
+        { "native": "ওই লাল শাড়িটা একটু দেখান।", "roman": "oi lal shaṛiṭa ekṭu dækhan.", "en": "Please show me that red sari.", "focus": "ওই", "wrong": ["ওটা|oṭa", "সেটা|sheṭa"] },
+        { "native": "এটা না, ওটা।", "roman": "æṭa na, oṭa.", "en": "Not this one, that one.", "focus": "ওটা", "wrong": ["ওই|oi", "এই|ei"] },
+        { "native": "এটা আমার, ওটা তোমার।", "roman": "æṭa amar, oṭa tomar.", "en": "This one's mine, that one's yours.", "focus": "এটা", "wrong": ["এই|ei", "ওই|oi"] },
+        { "native": "এগুলো কি নতুন?", "roman": "egulo ki notun?", "en": "Are these new?", "focus": "এগুলো", "wrong": ["এই|ei", "এখানে|ekhane"] },
+        { "native": "ওগুলো আমার জামা।", "roman": "ogulo amar jama.", "en": "Those are my shirts.", "focus": "ওগুলো", "wrong": ["ওই|oi", "ওখানে|okhane"] },
+        { "native": "নীল জামাটা? সেটা নেই।", "roman": "nil jamaṭa? sheṭa nei.", "en": "The blue shirt? We don't have that one.", "focus": "সেটা", "wrong": ["সেই|shei", "এই|ei"] },
+        { "native": "এই শাড়িটা আমার মায়ের জন্য।", "roman": "ei shaṛiṭa amar mayer jonno.", "en": "This sari is for my mother.", "focus": "এই", "wrong": ["এটা|æṭa", "এগুলো|egulo"] },
+        { "native": "ওই দোকানে ভালো জামা আছে।", "roman": "oi dokane bhalo jama achhe.", "en": "That shop has good shirts.", "focus": "ওই", "wrong": ["ওটা|oṭa", "ওগুলো|ogulo"] },
+        { "native": "আমি শুধু দেখছি।", "roman": "ami shudhu dekhchhi.", "en": "I'm just looking." }
+      ]
+    },
+    {
+      "title": "Asking the price",
+      "tip": { "title": "কত? and কত করে?", "body": "- **কত?** asks the amount: দাম **কত**? 'what's the price?'\n- **কত করে?** asks the rate, per piece or per kilo: ডিম কত করে? Answer: দশ টাকা **করে** 'ten each'.\n- 'This one's price' is **এটার** দাম: এটা / ওটা take **-র** like any noun.", "pattern": "X-এর দাম + কত?  ·  X + কত করে?", "grammar": 1 },
+      "new": ["দাম", "টাকা", "পয়সা", "দামি", "সস্তা", "এটার দাম কত?", "এত দাম কেন?", "শেষ দাম কত?"],
+      "sentences": [
+        { "native": "ওটার দাম কত?", "roman": "oṭar dam kôto?", "en": "How much is that one?", "focus": "ওটার", "wrong": ["ওটা|oṭa", "ওই|oi"] },
+        { "native": "এই শাড়িটার দাম কত?", "roman": "ei shaṛiṭar dam kôto?", "en": "How much is this sari?", "focus": "শাড়িটার", "wrong": ["শাড়িটা|shaṛiṭa", "শাড়িটাতে|shaṛiṭate"] },
+        { "native": "ডিম কত করে?", "roman": "ḍim kôto kore?", "en": "How much are the eggs each?", "focus": "করে", "wrong": ["দিয়ে|diye", "থেকে|theke"] },
+        { "native": "দশ টাকা করে।", "roman": "dôsh ṭaka kore.", "en": "Ten taka each.", "focus": "করে", "wrong": ["দিয়ে|diye", "পর্যন্ত|pôrjonto"] },
+        { "native": "আলু কত করে কেজি?", "roman": "alu kôto kore keji?", "en": "How much is a kilo of potatoes?", "focus": "কত", "wrong": ["কটা|kôṭa", "কেমন|kæmon"] },
+        { "native": "এটার চেয়ে সস্তা কিছু আছে?", "roman": "æṭar cheye shôsta kichhu achhe?", "en": "Is there anything cheaper than this?", "focus": "এটার", "wrong": ["এটা|æṭa", "এই|ei"] },
+        { "native": "মাছের দাম আজ খুব বেশি।", "roman": "machher dam aj khub beshi.", "en": "Fish is very expensive today.", "focus": "মাছের", "wrong": ["মাছে|machhe", "মাছ|machh"] },
+        { "native": "এটা খুব দামি।", "roman": "æṭa khub dami.", "en": "This is very expensive." },
+        { "native": "এত দামি কেন?", "roman": "æto dami kæno?", "en": "Why is it so expensive?" },
+        { "native": "দশ টাকা পঞ্চাশ পয়সা।", "roman": "dôsh ṭaka pônchash pôysha.", "en": "Ten taka fifty paisa." }
+      ]
+    },
+    {
+      "title": "Bargaining",
+      "tip": { "title": "How to bargain", "body": "- Market prices start high: ask **শেষ দাম কত?** and offer less with **… দেব** 'I'll give …'.\n- Ask for less: **একটু কমান**. 'I'll take it' is **নেব**.\n- Give and take have short polite commands: **দিন** 'give', **নিন** 'take, here you are'.\n- Call the shopkeeper **ভাই** or **দাদা**; a friendly smile works better than a hard face." },
+      "new": ["দোকানদার", "দরদাম", "কমানো", "একটু কমান।", "কেনা", "দেওয়া", "নেওয়া", "ঠিক আছে, এটা নেব।"],
+      "sentences": [
+        { "native": "ভাই, আর একটু কমান।", "roman": "bhai, ar ekṭu kôman.", "en": "Come on, lower it a little more.", "focus": "কমান", "wrong": ["কমাও|kômao", "কমাই|kômai"] },
+        { "native": "তিনশো দেব।", "roman": "tinsho debo.", "en": "I'll give three hundred.", "focus": "দেব", "wrong": ["দিন|din", "দেবেন|deben"] },
+        { "native": "শেষ দাম চারশো।", "roman": "shesh dam charsho.", "en": "Final price, four hundred." },
+        { "native": "ঠিক আছে, তিনশো পঞ্চাশ দিন।", "roman": "ṭhik achhe, tinsho pônchash din.", "en": "All right, give me three hundred and fifty.", "focus": "দিন", "wrong": ["দেব|debo", "দেয়|dæy"] },
+        { "native": "এত দামে আমি কিনব না।", "roman": "æto dame ami kinbo na.", "en": "I won't buy it at that price.", "focus": "কিনব", "wrong": ["কিনুন|kinun", "কেনেন|kenen"] },
+        { "native": "আমি দুটো নেব।", "roman": "ami duṭo nebo.", "en": "I'll take two.", "focus": "নেব", "wrong": ["নিন|nin", "নেয়|næy"] },
+        { "native": "আপনি কী কিনবেন?", "roman": "apni ki kinben?", "en": "What would you like to buy?", "focus": "কিনবেন", "wrong": ["কিনব|kinbo", "কিনুন|kinun"] },
+        { "native": "নিন, এটা আপনার জন্য।", "roman": "nin, æṭa apnar jonno.", "en": "Here, this is for you.", "focus": "নিন", "wrong": ["নেব|nebo", "নেয়|næy"] },
+        { "native": "দোকানদার দাম কমাচ্ছে না।", "roman": "dokandar dam kômachchhe na.", "en": "The shopkeeper won't lower the price." },
+        { "native": "বাজারে সবাই দরদাম করে।", "roman": "bajare shôbai dôrdam kore.", "en": "Everyone bargains at the market." }
+      ]
+    },
+    {
+      "title": "Trying on clothes",
+      "new": ["কাপড়", "প্যান্ট", "জুতো", "পাঞ্জাবি", "লুঙ্গি", "মাপ", "এর চেয়ে বড় মাপ আছে?", "অন্য রঙে আছে?", "একবার পরে দেখতে পারি?"],
+      "sentences": [
+        { "native": "এই পাঞ্জাবিটা কি অন্য রঙে আছে?", "roman": "ei panjabiṭa ki onno rôṅe achhe?", "en": "Do you have this kurta in another colour?" },
+        { "native": "আমার মাপ মিডিয়াম।", "roman": "amar map miḍiyam.", "en": "My size is medium." },
+        { "native": "এই প্যান্টটা একটু ছোট।", "roman": "ei pænṭṭa ekṭu chhoṭo.", "en": "These trousers are a bit small." },
+        { "native": "এর চেয়ে ছোট মাপ আছে?", "roman": "er cheye chhoṭo map achhe?", "en": "Do you have a smaller size?", "focus": "চেয়ে", "wrong": ["থেকে|theke", "দিয়ে|diye"] },
+        { "native": "জুতোগুলো পরে দেখতে পারি?", "roman": "jutogulo pore dekhte pari?", "en": "Can I try the shoes on?" },
+        { "native": "লুঙ্গি কোথায় পাওয়া যায়?", "roman": "luṅgi kothay pawa jay?", "en": "Where can I get a lungi?" },
+        { "native": "বাড়িতে আমি লুঙ্গি পরি।", "roman": "baṛite ami luṅgi pori.", "en": "At home I wear a lungi." },
+        { "native": "আমি নতুন কাপড় কিনব।", "roman": "ami notun kapoṛ kinbo.", "en": "I'll buy some new clothes." },
+        { "native": "এই কাপড়টা খুব ভালো।", "roman": "ei kapoṛṭa khub bhalo.", "en": "This fabric is very good." },
+        { "native": "সাদা পাঞ্জাবিটা আমার খুব ভালো লাগে।", "roman": "shada panjabiṭa amar khub bhalo lage.", "en": "I really like the white kurta." }
+      ]
+    },
+    {
+      "title": "Paying and getting change",
+      "tip": { "title": "Can I…? Will … do?", "body": "- 'Can one…?' in a shop: **verb-noun + যাবে?**: কার্ডে দেওয়া **যাবে**?\n- 'Will … do?' is **…দিলে হবে?**: পাঁচশো দিলে **হবে**?\n- 'Give back' is **ফেরত দেওয়া**; 'change' (coins, small notes) is **খুচরো**.", "pattern": "X + দিলে + হবে?", "grammar": 1 },
+      "new": ["খুচরো", "ফেরত", "বিক্রি করা", "কার্ডে দেওয়া যাবে?", "খুচরো নেই।", "সবগুলো মিলিয়ে কত হলো?"],
+      "sentences": [
+        { "native": "একশো দিলে হবে?", "roman": "æksho dile hobe?", "en": "Will a hundred do?", "focus": "হবে", "wrong": ["হয়|hoy", "হলো|holo"] },
+        { "native": "তিনশো দিলে হবে না?", "roman": "tinsho dile hobe na?", "en": "Won't three hundred do?", "focus": "দিলে", "wrong": ["দিন|din", "দেব|debo"] },
+        { "native": "পাঁচশো টাকার খুচরো হবে?", "roman": "paṃchsho ṭakar khuchro hobe?", "en": "Do you have change for five hundred?", "focus": "হবে", "wrong": ["হলো|holo", "হয়|hoy"] },
+        { "native": "ভাই, কুড়ি টাকা ফেরত দেবেন।", "roman": "bhai, kuṛi ṭaka pherot deben.", "en": "You owe me twenty taka back.", "focus": "ফেরত", "wrong": ["খুচরো|khuchro", "দাম|dam"] },
+        { "native": "এখানে কার্ডে দেওয়া যায় না।", "roman": "ekhane karḍe dewa jay na.", "en": "You can't pay by card here.", "focus": "যায়", "wrong": ["যান|jan", "যাই|jai"] },
+        { "native": "আপনারা কি পাঞ্জাবি বিক্রি করেন?", "roman": "apnara ki panjabi bikri kôren?", "en": "Do you sell kurtas?", "focus": "করেন", "wrong": ["করি|kori", "করো|kôro"] },
+        { "native": "ও পুরনো জামা বিক্রি করে।", "roman": "o purono jama bikri kore.", "en": "He sells old clothes.", "focus": "করে", "wrong": ["করেন|kôren", "করি|kori"] },
+        { "native": "আমার কাছে খুচরো নেই।", "roman": "amar kachhe khuchro nei.", "en": "I don't have any change on me." },
+        { "native": "দুটো মিলিয়ে কত হলো?", "roman": "duṭo miliye kôto holo?", "en": "How much for the two together?" }
+      ]
+    }
+  ]
 }

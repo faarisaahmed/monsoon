@@ -101,5 +101,109 @@
       { "speaker": "Tom", "native": "पक्कै पनि!", "roman": "pakkai pani!", "en": "Definitely!" }
     ]
   },
-  "culture": "Nepali conversation tends to avoid a blunt 'no' or open disagreement, especially with elders and guests. A vague **हेरौँ** 'let's see', **सायद** or **होला** often means 'probably not', and **हुन्छ** can sometimes be a polite way to end the discussion rather than a firm promise. Strong emotions — particularly anger — are kept out of public view; someone who loses their temper loses face. **माया** is a wide, warm word: it covers love for a partner, affection for children, fondness for a place, and pity — मलाई उसको माया लाग्यो can mean 'I felt sorry for him'."
+  "culture": "Nepali conversation tends to avoid a blunt 'no' or open disagreement, especially with elders and guests. A vague **हेरौँ** 'let's see', **सायद** or **होला** often means 'probably not', and **हुन्छ** can sometimes be a polite way to end the discussion rather than a firm promise. Strong emotions — particularly anger — are kept out of public view; someone who loses their temper loses face. **माया** is a wide, warm word: it covers love for a partner, affection for children, fondness for a place, and pity — मलाई उसको माया लाग्यो can mean 'I felt sorry for him'.",
+  "lessons": [
+    {
+      "title": "Happy, sad and tired",
+      "tip": { "title": "Feelings that strike you", "body": "- Most feelings use **मलाई** + feeling + **लाग्यो**: मलाई खुसी **लाग्यो** 'I'm glad', मलाई दुःख **लाग्यो** 'I'm sad / sorry to hear it'.\n- Some are adjectives with छ: म खुसी **छु**, उहाँ दुःखी **हुनुहुन्छ**.\n- Tired is a verb: म **थाकेँ** 'I'm tired' (lit. I got tired).", "pattern": "मलाई + feeling + लाग्यो  ·  म + खुसी + छु", "grammar": 0 },
+      "new": ["खुसी", "दुःखी", "उदास", "थाक्नु", "मलाई धेरै खुसी लाग्यो।", "म थाकेँ।", "मलाई दुःख लाग्यो।"],
+      "sentences": [
+        { "native": "यो सुनेर मलाई खुसी लाग्यो।", "roman": "yo sunera malāi khusi lāgyo.", "en": "I'm glad to hear that.", "focus": "मलाई", "wrong": ["म|ma", "मेरो|mero"] },
+        { "native": "म आज खुसी छु।", "roman": "ma āja khusi chhu.", "en": "I'm happy today.", "focus": "छु", "wrong": ["छ|chha", "छौ|chhau"] },
+        { "native": "उहाँ अलि दुःखी हुनुहुन्छ।", "roman": "uhāṃ ali dukhi hunuhunchha.", "en": "She's a bit sad. (respectful)", "focus": "हुनुहुन्छ", "wrong": ["छ|chha", "छु|chhu"] },
+        { "native": "आज म अलि उदास छु।", "roman": "āja ma ali udās chhu.", "en": "I'm feeling a bit down today.", "focus": "छु", "wrong": ["छ|chha", "छौ|chhau"] },
+        { "native": "तपाईं थाक्नुभयो?", "roman": "tapāiṃ thāknubhayo?", "en": "Are you tired? (polite)", "focus": "थाक्नुभयो", "wrong": ["थाकेँ|thākeṃ", "थाक्यो|thākyo"] },
+        { "native": "हिँडेर म धेरै थाकेँ।", "roman": "hiṃḍera ma dherai thākeṃ.", "en": "I'm really tired from walking.", "focus": "थाकेँ", "wrong": ["थाक्यो|thākyo", "थाक्नुभयो|thāknubhayo"] },
+        { "native": "उसलाई दुःख लाग्यो।", "roman": "uslāi dukha lāgyo.", "en": "He's upset.", "focus": "उसलाई", "wrong": ["ऊ|u", "उसको|usko"] },
+        { "native": "तिमी उदास छौ?", "roman": "timi udās chhau?", "en": "Are you feeling down? (to a friend)", "focus": "छौ", "wrong": ["छ|chha", "छु|chhu"] },
+        { "native": "तपाईंको कुरा सुनेर मलाई दुःख लाग्यो।", "roman": "tapāiṃko kurā sunera malāi dukha lāgyo.", "en": "I'm sorry to hear your news.", "focus": "मलाई", "wrong": ["म|ma", "मेरो|mero"] },
+        { "native": "हामी सबै खुसी छौँ।", "roman": "hāmi sabai khusi chhauṃ.", "en": "We're all happy." }
+      ]
+    },
+    {
+      "title": "Scared, angry, fed up",
+      "tip": { "title": "लाग्छ or लाग्यो?", "body": "- **लाग्यो** (past) for a feeling that has just come over you: मलाई अचम्म **लाग्यो** 'I'm amazed'.\n- **लाग्छ** (present) for how you generally feel: मलाई कुकुरसँग डर **लाग्छ** 'I'm afraid of dogs'.\n- Anger **rises**: रिस **उठ्यो** 'I got angry'.\n- 'Don't worry': चिन्ता **नगर्नुहोस्** (polite), चिन्ता **नगर** (friend)." },
+      "new": ["रिस", "डर", "दिक्क", "झर्को", "चिन्ता", "लाज", "अचम्म", "मलाई कुकुरसँग डर लाग्छ।", "चिन्ता नगर, सबै ठीक हुन्छ।"],
+      "sentences": [
+        { "native": "मलाई भुइँचालोसँग डर लाग्छ।", "roman": "malāi bhuiṃchālosaṃga ḍar lāgchha.", "en": "I'm scared of earthquakes.", "focus": "लाग्छ", "wrong": ["लाग्छु|lāgchhu", "लाग्दै|lāgdai"] },
+        { "native": "मलाई अचम्म लाग्यो!", "roman": "malāi achamma lāgyo!", "en": "I'm amazed!", "focus": "लाग्यो", "wrong": ["लाग्छु|lāgchhu", "लाग्नु|lāgnu"] },
+        { "native": "मलाई लाज लाग्यो।", "roman": "malāi lāj lāgyo.", "en": "I'm embarrassed.", "focus": "लाग्यो", "wrong": ["लाग्छु|lāgchhu", "लाग्नु|lāgnu"] },
+        { "native": "बुबालाई रिस उठ्यो।", "roman": "bubālāi ris uṭhyo.", "en": "Dad got angry.", "focus": "उठ्यो", "wrong": ["उठ्छु|uṭhchhu", "उठ्नुहोस्|uṭhnuhos"] },
+        { "native": "मलाई धेरै दिक्क लाग्यो।", "roman": "malāi dherai dikka lāgyo.", "en": "I'm so fed up.", "focus": "लाग्यो", "wrong": ["लाग्छु|lāgchhu", "लाग्नु|lāgnu"] },
+        { "native": "यो ट्राफिक देखेर झर्को लाग्छ।", "roman": "yo ṭrāphik dekhera jharko lāgchha.", "en": "This traffic gets on my nerves.", "focus": "लाग्छ", "wrong": ["लाग्छु|lāgchhu", "लाग्दै|lāgdai"] },
+        { "native": "मलाई तपाईंको चिन्ता लाग्छ।", "roman": "malāi tapāiṃko chintā lāgchha.", "en": "I worry about you.", "focus": "लाग्छ", "wrong": ["लाग्छु|lāgchhu", "लाग्दै|lāgdai"] },
+        { "native": "चिन्ता नगर्नुहोस्, म ठीक छु।", "roman": "chintā nagarnuhos, ma ṭhik chhu.", "en": "Don't worry, I'm fine. (polite)", "focus": "नगर्नुहोस्", "wrong": ["गर्नुहोस्|garnuhos", "नगर|nagara"] },
+        { "native": "तिमीलाई डर लाग्यो?", "roman": "timilāi ḍar lāgyo?", "en": "Were you scared? (to a friend)", "focus": "तिमीलाई", "wrong": ["तिमी|timi", "तिम्रो|timro"] }
+      ]
+    },
+    {
+      "title": "Fun and favourites",
+      "tip": { "title": "कस्तो लाग्यो? — how was it?", "body": "- **कस्तो लाग्यो?** asks how someone found something they've just done: खाना कस्तो लाग्यो? 'how was the food?'\n- Answer with an adjective + लाग्यो: **रमाइलो लाग्यो** 'it was fun', राम्रो लाग्यो.\n- **आनन्द आयो** 'I really enjoyed it' uses आउनु 'come'.\n- **मनपर्ने** = favourite: मेरो मनपर्ने खाना.", "pattern": "thing + कस्तो लाग्यो?  →  रमाइलो लाग्यो" },
+      "new": ["माया", "मन", "रमाइलो", "आनन्द", "मनपर्ने", "तपाईंलाई कस्तो लाग्यो?", "कस्तो रमाइलो!", "म तिमीलाई माया गर्छु।"],
+      "sentences": [
+        { "native": "नेपाल तपाईंलाई कस्तो लाग्यो?", "roman": "Nepāl tapāiṃlāi kasto lāgyo?", "en": "How did you find Nepal?", "focus": "कस्तो", "wrong": ["कति|kati", "कहाँ|kahāṃ"] },
+        { "native": "धेरै रमाइलो लाग्यो!", "roman": "dherai ramāilo lāgyo!", "en": "It was great fun!", "focus": "लाग्यो", "wrong": ["लाग्छु|lāgchhu", "लाग्नुहोस्|lāgnuhos"] },
+        { "native": "खाना कस्तो लाग्यो?", "roman": "khānā kasto lāgyo?", "en": "How was the food?", "focus": "कस्तो", "wrong": ["कति|kati", "कहाँ|kahāṃ"] },
+        { "native": "हिजोको फिल्म कस्तो लाग्यो?", "roman": "hijoko philm kasto lāgyo?", "en": "How did you like yesterday's film?", "focus": "कस्तो", "wrong": ["कति|kati", "कहाँ|kahāṃ"] },
+        { "native": "पोखरामा धेरै आनन्द आयो।", "roman": "Pokharāmā dherai ānanda āyo.", "en": "We had a wonderful time in Pokhara.", "focus": "आयो", "wrong": ["आउँछु|āuṃchhu", "आउनुहोस्|āunuhos"] },
+        { "native": "मलाई आमाको माया लाग्छ।", "roman": "malāi āmāko māyā lāgchha.", "en": "I miss my mum. (lit. love for mum strikes me)", "focus": "लाग्छ", "wrong": ["लाग्छु|lāgchhu", "लाग्नुहोस्|lāgnuhos"] },
+        { "native": "म मेरो परिवारलाई धेरै माया गर्छु।", "roman": "ma mero pariwārlāi dherai māyā garchhu.", "en": "I love my family very much.", "focus": "परिवारलाई", "wrong": ["परिवार|pariwār", "परिवारको|pariwārko"] },
+        { "native": "तपाईंको मनपर्ने खाना के हो?", "roman": "tapāiṃko manparne khānā ke ho?", "en": "What's your favourite food?" },
+        { "native": "मेरो मनपर्ने ऋतु शरद हो।", "roman": "mero manparne ritu sarad ho.", "en": "My favourite season is autumn." },
+        { "native": "आज मेरो मन खुसी छ।", "roman": "āja mero man khusi chha.", "en": "My heart is happy today." }
+      ]
+    },
+    {
+      "title": "What do you think?",
+      "tip": { "title": "मलाई लाग्छ — I think", "body": "- 'I think…' is **मलाई लाग्छ, …** 'it strikes me, …'.\n- Ask **तपाईंलाई कस्तो लाग्छ?** 'what do you think?'\n- **मेरो विचारमा** 'in my opinion'. **… जस्तो लाग्छ** 'it seems …'.\n- Not sure? **सायद** 'maybe'. Sure? **पक्कै पनि!**", "pattern": "मलाई लाग्छ, + your opinion", "grammar": 1 },
+      "new": ["सोच्नु", "विचार", "थाहा", "सायद", "पक्कै", "मलाई लाग्छ, यो राम्रो विचार हो।", "मलाई थाहा छैन।", "सायद।", "पक्कै पनि!"],
+      "sentences": [
+        { "native": "मलाई लाग्छ, आज पानी पर्दैन।", "roman": "malāi lāgchha, āja pāni pardaina.", "en": "I don't think it'll rain today. (lit. I think it won't rain)", "focus": "लाग्छ", "wrong": ["लाग्छु|lāgchhu", "लाग्नुहोस्|lāgnuhos"] },
+        { "native": "तपाईंलाई कस्तो लाग्छ?", "roman": "tapāiṃlāi kasto lāgchha?", "en": "What do you think?", "focus": "तपाईंलाई", "wrong": ["तपाईं|tapāiṃ", "तपाईंको|tapāiṃko"] },
+        { "native": "मेरो विचारमा, यो ठाउँ राम्रो छ।", "roman": "mero bichārmā, yo ṭhāuṃ rāmro chha.", "en": "In my opinion, this place is nice.", "focus": "विचारमा", "wrong": ["विचारको|bichārko", "विचारलाई|bichārlāi"] },
+        { "native": "मलाई लाग्छ, उहाँ नेपाली हुनुहुन्छ।", "roman": "malāi lāgchha, uhāṃ nepāli hunuhunchha.", "en": "I think he is Nepali.", "focus": "लाग्छ", "wrong": ["लाग्छु|lāgchhu", "लाग्नुहोस्|lāgnuhos"] },
+        { "native": "यो बाटो ठीक जस्तो लाग्छ।", "roman": "yo bāṭo ṭhik jasto lāgchha.", "en": "This road seems right.", "focus": "जस्तो", "wrong": ["जति|jati", "कस्तो|kasto"] },
+        { "native": "मलाई लाग्छ, यो राम्रो होइन।", "roman": "malāi lāgchha, yo rāmro hoina.", "en": "I don't think this is good.", "focus": "लाग्छ", "wrong": ["लाग्छु|lāgchhu", "लाग्नुहोस्|lāgnuhos"] },
+        { "native": "तपाईंलाई थाहा छ, बैंक कहाँ छ?", "roman": "tapāiṃlāi thāhā chha, baiṅk kahāṃ chha?", "en": "Do you know where the bank is?", "focus": "तपाईंलाई", "wrong": ["तपाईं|tapāiṃ", "तपाईंको|tapāiṃko"] },
+        { "native": "म सोचेर भन्छु, है?", "roman": "ma sochera bhanchhu, hai?", "en": "I'll think about it and let you know, OK?" },
+        { "native": "के सोच्दै हुनुहुन्छ?", "roman": "ke sochdai hunuhunchha?", "en": "What are you thinking about?" },
+        { "native": "सायद भोलि आउँछु।", "roman": "sāyad bholi āuṃchhu.", "en": "Maybe I'll come tomorrow." },
+        { "native": "पक्कै पनि आउनुहोस्!", "roman": "pakkai pani āunuhos!", "en": "Do come, definitely!" }
+      ]
+    },
+    {
+      "title": "Agreeing and disagreeing",
+      "tip": { "title": "Agreeing politely", "body": "- **म सहमत छु** 'I agree'; with someone: तपाईं**सँग** सहमत छु.\n- **म सहमत छैनँ** 'I don't agree' — soften it with **अलि** 'a bit'.\n- Respectful: उहाँ सहमत **हुनुहुन्छ** / **हुनुहुन्न**.\n- **सही** 'right', **गलत** 'wrong'. **मान्नु** 'to accept, agree to'." },
+      "new": ["मान्नु", "सहमत", "सही", "गलत", "तपाईंले ठीक भन्नुभयो।", "म सहमत छैनँ।"],
+      "sentences": [
+        { "native": "म तपाईंसँग सहमत छु।", "roman": "ma tapāiṃsaṃga sahamat chhu.", "en": "I agree with you.", "focus": "छु", "wrong": ["छ|chha", "हुँ|huṃ"] },
+        { "native": "हामी सहमत छौँ।", "roman": "hāmi sahamat chhauṃ.", "en": "We agree.", "focus": "छौँ", "wrong": ["छ|chha", "छु|chhu"] },
+        { "native": "माफ गर्नुहोस्, म यसमा सहमत छैनँ।", "roman": "māph garnuhos, ma yasmā sahamat chhainaṃ.", "en": "Sorry, I don't agree with this.", "focus": "छैनँ", "wrong": ["छैन|chhaina", "होइनँ|hoinaṃ"] },
+        { "native": "हजुरबुबा सहमत हुनुहुन्न।", "roman": "hajurbubā sahamat hunuhunna.", "en": "Grandfather doesn't agree.", "focus": "हुनुहुन्न", "wrong": ["छैनँ|chhainaṃ", "छैन|chhaina"] },
+        { "native": "ठीक छ, म मान्छु।", "roman": "ṭhik chha, ma mānchhu.", "en": "OK, I accept that.", "focus": "मान्छु", "wrong": ["मान्छ|mānchha", "मान्नुहोस्|mānnuhos"] },
+        { "native": "बुबा मान्नुहुन्न।", "roman": "bubā mānnuhunna.", "en": "Dad won't agree to it.", "focus": "मान्नुहुन्न", "wrong": ["मान्दिनँ|māndinaṃ", "मान्नुहोस्|mānnuhos"] },
+        { "native": "तिमी सहमत छौ?", "roman": "timi sahamat chhau?", "en": "Do you agree? (to a friend)", "focus": "छौ", "wrong": ["छौँ|chhauṃ", "छु|chhu"] },
+        { "native": "तपाईंको कुरा सही हो।", "roman": "tapāiṃko kurā sahi ho.", "en": "What you say is right." },
+        { "native": "यो नम्बर गलत हो।", "roman": "yo nambar galat ho.", "en": "This number is wrong." },
+        { "native": "तिमीले सही भन्यौ।", "roman": "timile sahi bhanyau.", "en": "You're right. (to a friend)" }
+      ]
+    },
+    {
+      "title": "Because, so, but",
+      "tip": { "title": "किनभने, त्यसैले, तर", "body": "- **किन?** 'why?' → **किनभने** 'because' starts the reason: म आउँदिनँ, **किनभने** म थाकेको छु.\n- **त्यसैले** 'so' starts the result: म थाकेको छु, **त्यसैले** आउँदिनँ.\n- **तर** 'but' joins two contrasting ideas.", "pattern": "A, किनभने B  ·  B, त्यसैले A  ·  A, तर B", "grammar": 2 },
+      "new": ["किन", "किनभने", "त्यसैले", "तर"],
+      "sentences": [
+        { "native": "तपाईं किन उदास हुनुहुन्छ?", "roman": "tapāiṃ kina udās hunuhunchha?", "en": "Why are you sad?", "focus": "किन", "wrong": ["कति|kati", "कसरी|kasari"] },
+        { "native": "म आज आउँदिनँ, किनभने म थाकेको छु।", "roman": "ma āja āuṃdinaṃ, kinabhane ma thākeko chhu.", "en": "I'm not coming today because I'm tired.", "focus": "किनभने", "wrong": ["त्यसैले|tyasaile", "तर|tara"] },
+        { "native": "म थाकेको छु, त्यसैले आज आउँदिनँ।", "roman": "ma thākeko chhu, tyasaile āja āuṃdinaṃ.", "en": "I'm tired, so I'm not coming today.", "focus": "त्यसैले", "wrong": ["किनभने|kinabhane", "तर|tara"] },
+        { "native": "खाना मिठो थियो, तर अलि पिरो थियो।", "roman": "khānā miṭho thiyo, tara ali piro thiyo.", "en": "The food was tasty, but a bit spicy.", "focus": "तर", "wrong": ["किनभने|kinabhane", "त्यसैले|tyasaile"] },
+        { "native": "पानी पर्दै छ, त्यसैले छाता लैजानुहोस्।", "roman": "pāni pardai chha, tyasaile chhātā laijānuhos.", "en": "It's raining, so take an umbrella.", "focus": "त्यसैले", "wrong": ["किनभने|kinabhane", "तर|tara"] },
+        { "native": "मलाई नेपाली मन पर्छ, किनभने यो राम्रो भाषा हो।", "roman": "malāi nepāli man parchha, kinabhane yo rāmro bhāsā ho.", "en": "I like Nepali because it's a beautiful language.", "focus": "किनभने", "wrong": ["त्यसैले|tyasaile", "तर|tara"] },
+        { "native": "म जान्छु, तर अलि ढिलो पुग्छु।", "roman": "ma jānchhu, tara ali ḍhilo pugchhu.", "en": "I'll go, but I'll get there a bit late.", "focus": "तर", "wrong": ["किनभने|kinabhane", "त्यसैले|tyasaile"] },
+        { "native": "तिमीलाई किन रिस उठ्यो?", "roman": "timilāi kina ris uṭhyo?", "en": "Why did you get angry? (to a friend)", "focus": "किन", "wrong": ["कति|kati", "कसरी|kasari"] },
+        { "native": "बाहिर जाडो छ, तर घाम लागेको छ।", "roman": "bāhira jāḍo chha, tara ghām lāgeko chha.", "en": "It's cold outside, but the sun's out.", "focus": "तर", "wrong": ["किनभने|kinabhane", "त्यसैले|tyasaile"] },
+        { "native": "मसँग पैसा छैन, त्यसैले हिँडेर जान्छु।", "roman": "masaṃga paisā chhaina, tyasaile hiṃḍera jānchhu.", "en": "I don't have any money, so I'll walk.", "focus": "त्यसैले", "wrong": ["किनभने|kinabhane", "तर|tara"] }
+      ]
+    }
+  ]
 }

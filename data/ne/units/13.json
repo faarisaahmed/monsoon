@@ -89,5 +89,91 @@
       { "speaker": "Pemba", "native": "तातो चिया खानुहोस्, अनि हिँडौँ।", "roman": "tāto chiyā khānuhos, ani hiṃḍauṃ.", "en": "Have some hot tea, and then let's go." }
     ]
   },
-  "culture": "Nepal is traditionally divided into three belts: **हिमाल** (the high mountains), **पहाड** (the hills, where Kathmandu and Pokhara lie) and **तराई** (the hot southern plains bordering India). The **monsoon** (बर्खा, June–September) brings rice-planting — celebrated on असार १५ with mud, rice and curd — but also landslides and leeches on the trails. Autumn (Asoj–Kattik) has clear mountain views and the biggest festivals, Dashain and Tihar. The 2015 earthquake (वि.सं. २०७२ बैशाख १२) is a shared memory: if you feel a tremor, people shout **भुइँचालो!** and run to open ground."
+  "culture": "Nepal is traditionally divided into three belts: **हिमाल** (the high mountains), **पहाड** (the hills, where Kathmandu and Pokhara lie) and **तराई** (the hot southern plains bordering India). The **monsoon** (बर्खा, June–September) brings rice-planting — celebrated on असार १५ with mud, rice and curd — but also landslides and leeches on the trails. Autumn (Asoj–Kattik) has clear mountain views and the biggest festivals, Dashain and Tihar. The 2015 earthquake (वि.सं. २०७२ बैशाख १२) is a shared memory: if you feel a tremor, people shout **भुइँचालो!** and run to open ground.",
+  "lessons": [
+    {
+      "title": "What's the weather like?",
+      "tip": { "title": "Rain falls, the sun strikes", "body": "- Nepali weather has a real subject: rain **falls** (पानी **पर्छ**), the sun **strikes** (घाम **लाग्छ**), clouds **strike** (बादल **लाग्छ**), the wind **moves** (हावा **चल्छ**).\n- Now: पानी **पर्दै छ** 'it's raining'. State: घाम **लागेको छ** 'the sun's out'.\n- No 'it' as in English.", "pattern": "पानी पर्छ · घाम लाग्छ · हावा चल्छ", "grammar": 0 },
+      "new": ["मौसम", "घाम", "पानी पर्नु", "हावा", "बादल", "आज मौसम कस्तो छ?", "आज घाम लागेको छ।", "पानी पर्दै छ।"],
+      "sentences": [
+        { "native": "हेर्नुहोस्, पानी पर्दै छ।", "roman": "hernuhos, pāni pardai chha.", "en": "Look, it's raining.", "focus": "पर्दै", "wrong": ["लाग्दै|lāgdai", "चल्दै|chaldai"] },
+        { "native": "आज घाम लाग्यो।", "roman": "āja ghām lāgyo.", "en": "The sun's come out today.", "focus": "लाग्यो", "wrong": ["पर्‍यो|paryo", "चल्यो|chalyo"] },
+        { "native": "आज धेरै हावा चल्दै छ।", "roman": "āja dherai hāwā chaldai chha.", "en": "It's very windy today.", "focus": "चल्दै", "wrong": ["पर्दै|pardai", "लाग्दै|lāgdai"] },
+        { "native": "बिहानदेखि बादल लागेको छ।", "roman": "bihānadekhi bādal lāgeko chha.", "en": "It's been cloudy since the morning.", "focus": "लागेको", "wrong": ["परेको|pareko", "चलेको|chaleko"] },
+        { "native": "हिजो धेरै पानी पर्‍यो।", "roman": "hijo dherai pāni paryo.", "en": "It rained a lot yesterday.", "focus": "पर्‍यो", "wrong": ["लाग्यो|lāgyo", "चल्यो|chalyo"] },
+        { "native": "यहाँ दिउँसो धेरै हावा चल्छ।", "roman": "yahāṃ diuṃso dherai hāwā chalchha.", "en": "It gets very windy here in the afternoon.", "focus": "चल्छ", "wrong": ["पर्छ|parchha", "लाग्छ|lāgchha"] },
+        { "native": "अहिले पानी परेको छैन।", "roman": "ahile pāni pareko chhaina.", "en": "It isn't raining now.", "focus": "परेको", "wrong": ["लागेको|lāgeko", "चलेको|chaleko"] },
+        { "native": "यहाँको मौसम कस्तो छ?", "roman": "yahāṃko mausam kasto chha?", "en": "What's the weather like here?" },
+        { "native": "आज मौसम राम्रो छ।", "roman": "āja mausam rāmro chha.", "en": "The weather is nice today." }
+      ]
+    },
+    {
+      "title": "I'm cold, I'm hot",
+      "tip": { "title": "मलाई जाडो भयो — I feel cold", "body": "- How **you** feel the weather uses **मलाई**, like hunger: **मलाई** जाडो भयो 'I'm cold', **मलाई** गर्मी भयो 'I'm hot'.\n- Others: तपाईं**लाई**, उस**लाई**, भाइ**लाई**.\n- The weather itself uses छ: आज जाडो **छ** 'it's cold today'.\n- **चिसो / तातो** are for things you touch: चिसो पानी, तातो चिया.", "pattern": "मलाई + जाडो / गर्मी + भयो" },
+      "new": ["जाडो", "गर्मी", "चिसो", "तातो", "छाता", "आज साह्रै जाडो छ!", "मलाई गर्मी भयो।", "छाता लैजानुहोस्!"],
+      "sentences": [
+        { "native": "मलाई धेरै जाडो भयो।", "roman": "malāi dherai jāḍo bhayo.", "en": "I'm really cold.", "focus": "मलाई", "wrong": ["म|ma", "मेरो|mero"] },
+        { "native": "तपाईंलाई गर्मी भयो?", "roman": "tapāiṃlāi garmi bhayo?", "en": "Are you hot?", "focus": "तपाईंलाई", "wrong": ["तपाईं|tapāiṃ", "तपाईंको|tapāiṃko"] },
+        { "native": "मलाई गर्मी भयो, चिसो पानी दिनुहोस् न।", "roman": "malāi garmi bhayo, chiso pāni dinuhos na.", "en": "I'm hot, could I have some cold water?", "focus": "मलाई", "wrong": ["म|ma", "मेरो|mero"] },
+        { "native": "उसलाई जाडो भयो।", "roman": "uslāi jāḍo bhayo.", "en": "He's cold.", "focus": "उसलाई", "wrong": ["ऊ|u", "उसको|usko"] },
+        { "native": "भाइलाई जाडो भयो।", "roman": "bhāilāi jāḍo bhayo.", "en": "My little brother is cold.", "focus": "भाइलाई", "wrong": ["भाइ|bhāi", "भाइको|bhāiko"] },
+        { "native": "तिमीलाई जाडो भएन?", "roman": "timilāi jāḍo bhaena?", "en": "Aren't you cold? (to a friend)", "focus": "तिमीलाई", "wrong": ["तिमी|timi", "तिम्रो|timro"] },
+        { "native": "आज जाडो छ, ज्याकेट लगाउनुहोस्।", "roman": "āja jāḍo chha, jyākeṭ lagāunuhos.", "en": "It's cold today, put on a jacket." },
+        { "native": "चिया तातो छ, बिस्तारै पिउनुहोस्।", "roman": "chiyā tāto chha, bistārai piunuhos.", "en": "The tea is hot, drink it slowly." },
+        { "native": "मेरो खुट्टा चिसो भयो।", "roman": "mero khuṭṭā chiso bhayo.", "en": "My feet are cold." },
+        { "native": "पानी पर्दै छ, छाता लैजाऊ।", "roman": "pāni pardai chha, chhātā laijāu.", "en": "It's raining, take an umbrella. (to a friend)" }
+      ]
+    },
+    {
+      "title": "Mountains, rivers and forests",
+      "tip": { "title": "देखिन्छ — it can be seen", "body": "- **देखिनु** means 'to be seen, be visible': हिमाल **देखिन्छ** 'the mountains are visible / you can see the mountains'.\n- The thing seen is the subject; no 'I' or 'you' is needed.\n- Negative: **देखिँदैन** 'can't be seen'. From somewhere: यहाँ**बाट** देखिन्छ.", "pattern": "place + बाट + thing + देखिन्छ" },
+      "new": ["हिमाल", "पहाड", "तराई", "खोला", "नदी", "ताल", "रूख", "जङ्गल", "आकाश", "देखिनु", "आज हिमाल देखिन्छ।"],
+      "sentences": [
+        { "native": "यहाँबाट हिमाल देखिन्छ?", "roman": "yahāṃbāṭa himāl dekhinchha?", "en": "Can you see the mountains from here?", "focus": "देखिन्छ", "wrong": ["देख्छ|dekhchha", "देखाउँछ|dekhāuṃchha"] },
+        { "native": "झ्यालबाट ताल देखिन्छ।", "roman": "jhyālbāṭa tāl dekhinchha.", "en": "You can see the lake from the window.", "focus": "देखिन्छ", "wrong": ["देख्छ|dekhchha", "देखाउँछ|dekhāuṃchha"] },
+        { "native": "आज आकाश सफा छ, हिमाल राम्रो देखिन्छ।", "roman": "āja ākās saphā chha, himāl rāmro dekhinchha.", "en": "The sky is clear today, the mountains look great.", "focus": "देखिन्छ", "wrong": ["देख्छ|dekhchha", "देखाउँछ|dekhāuṃchha"] },
+        { "native": "मेरो घरबाट पहाड देखिन्छ।", "roman": "mero gharbāṭa pahāḍ dekhinchha.", "en": "You can see the hills from my house.", "focus": "देखिन्छ", "wrong": ["देख्छ|dekhchha", "देखाउँछ|dekhāuṃchha"] },
+        { "native": "तालको छेउमा ठूलो रूख देखिन्छ।", "roman": "tālko chheumā ṭhulo rukh dekhinchha.", "en": "You can see a big tree beside the lake.", "focus": "देखिन्छ", "wrong": ["देख्छ|dekhchha", "देखाउँछ|dekhāuṃchha"] },
+        { "native": "ती रूखहरूको पछाडि खोला देखिन्छ।", "roman": "ti rukhharuko pachhāḍi kholā dekhinchha.", "en": "You can see a stream behind those trees.", "focus": "देखिन्छ", "wrong": ["देख्छ|dekhchha", "देखाउँछ|dekhāuṃchha"] },
+        { "native": "यहाँबाट नदी देखिँदैन।", "roman": "yahāṃbāṭa nadi dekhiṃdaina.", "en": "You can't see the river from here.", "focus": "देखिँदैन", "wrong": ["देखिन्छ|dekhinchha", "देख्दैन|dekhdaina"] },
+        { "native": "तराईमा जङ्गल धेरै छ।", "roman": "tarāimā jaṅgal dherai chha.", "en": "There's a lot of forest in the Terai." },
+        { "native": "खोलाको पानी धेरै चिसो छ।", "roman": "kholāko pāni dherai chiso chha.", "en": "The river water is very cold." },
+        { "native": "यो नदी भारततिर जान्छ।", "roman": "yo nadi Bhārattira jānchha.", "en": "This river flows towards India." }
+      ]
+    },
+    {
+      "title": "The seasons",
+      "tip": { "title": "What usually happens: हुन्छ", "body": "- For what is **generally** true, use **हुन्छ**: हिउँदमा जाडो **हुन्छ** 'it's cold in winter'.\n- **छ** is for right now: आज जाडो **छ** 'it's cold today'.\n- Seasons take **-मा** 'in': बर्खा**मा** 'in the monsoon', शरद**मा** 'in autumn'.", "pattern": "season + मा + … हुन्छ" },
+      "new": ["ऋतु", "बर्खा", "हिउँद", "वसन्त", "शरद", "हिउँ", "राति हिउँ परेछ।", "बर्खामा बाटो बिग्रन्छ।", "नेपाल घुम्न कुन ऋतु राम्रो?", "शरदमा आकाश सफा हुन्छ।"],
+      "sentences": [
+        { "native": "हिउँदमा धेरै जाडो हुन्छ।", "roman": "hiuṃdmā dherai jāḍo hunchha.", "en": "It's very cold in winter.", "focus": "हुन्छ", "wrong": ["हुँ|huṃ", "हुनुहुन्छ|hunuhunchha"] },
+        { "native": "बर्खामा धेरै पानी पर्छ।", "roman": "barkhāmā dherai pāni parchha.", "en": "It rains a lot in the monsoon.", "focus": "बर्खामा", "wrong": ["बर्खाको|barkhāko", "बर्खालाई|barkhālāi"] },
+        { "native": "वसन्तमा मौसम राम्रो हुन्छ।", "roman": "basantamā mausam rāmro hunchha.", "en": "The weather is nice in spring.", "focus": "हुन्छ", "wrong": ["हुँ|huṃ", "हुनुहुन्छ|hunuhunchha"] },
+        { "native": "शरदमा दसैं हुन्छ।", "roman": "saradmā Dasaiṃ hunchha.", "en": "Dashain is in the autumn.", "focus": "शरदमा", "wrong": ["शरदको|saradko", "शरदलाई|saradlāi"] },
+        { "native": "हिमालमा हिउँ पर्छ।", "roman": "himālmā hiuṃ parchha.", "en": "It snows in the mountains.", "focus": "पर्छ", "wrong": ["लाग्छ|lāgchha", "चल्छ|chalchha"] },
+        { "native": "बर्खामा पहाडमा जानु गाह्रो हुन्छ।", "roman": "barkhāmā pahāḍmā jānu gāhro hunchha.", "en": "It's hard to travel in the hills in the monsoon.", "focus": "हुन्छ", "wrong": ["हुँ|huṃ", "हुनुहुन्छ|hunuhunchha"] },
+        { "native": "हिउँदमा पनि दिउँसो घाम लाग्छ।", "roman": "hiuṃdmā pani diuṃso ghām lāgchha.", "en": "Even in winter the sun shines in the afternoon.", "focus": "हिउँदमा", "wrong": ["हिउँदको|hiuṃdko", "हिउँदलाई|hiuṃdlāi"] },
+        { "native": "तपाईंलाई कुन ऋतु मन पर्छ?", "roman": "tapāiṃlāi kun ritu man parchha?", "en": "Which season do you like?" },
+        { "native": "मलाई शरद सबैभन्दा मन पर्छ।", "roman": "malāi sarad sabaibhandā man parchha.", "en": "I like autumn best." },
+        { "native": "आज हिउँ पर्दै छ!", "roman": "āja hiuṃ pardai chha!", "en": "It's snowing today!" }
+      ]
+    },
+    {
+      "title": "It's going to rain",
+      "tip": { "title": "Guessing what's coming", "body": "- **-ला**: a guess about the future: पानी पर्**ला** 'it'll probably rain', जाडो हो**ला** 'it'll probably be cold'.\n- **-ने जस्तो छ** 'it looks like': हिउँ पर्**ने** जस्तो छ.\n- **-न सक्छ** 'could': पानी पर्**न सक्छ**.\n- **-न लाग्यो** 'is starting to': हावा चल्**न** लाग्यो.", "pattern": "पर्ला · पर्ने जस्तो छ · पर्न सक्छ", "grammar": 1 },
+      "new": ["चट्याङ", "भुइँचालो", "पहिरो", "बाढी", "पानी पर्ने जस्तो छ।"],
+      "sentences": [
+        { "native": "भोलि पानी पर्ला।", "roman": "bholi pāni parlā.", "en": "It'll probably rain tomorrow.", "focus": "पर्ला", "wrong": ["पर्‍यो|paryo", "परेको|pareko"] },
+        { "native": "बेलुका हिउँ पर्ने जस्तो छ।", "roman": "belukā hiuṃ parne jasto chha.", "en": "It looks like it'll snow this evening.", "focus": "पर्ने", "wrong": ["पर्छ|parchha", "पर्‍यो|paryo"] },
+        { "native": "आज चट्याङ पर्ला, बाहिर नजानुहोस्।", "roman": "āja chaṭyāṅ parlā, bāhira najānuhos.", "en": "There may be lightning today, don't go out.", "focus": "पर्ला", "wrong": ["पर्‍यो|paryo", "परेको|pareko"] },
+        { "native": "बर्खामा बाढी आउन सक्छ।", "roman": "barkhāmā bāḍhi āuna sakchha.", "en": "There can be floods in the monsoon.", "focus": "सक्छ", "wrong": ["सक्छु|sakchhu", "सक्नुहोस्|saknuhos"] },
+        { "native": "आकाश कालो छ, पानी पर्न सक्छ।", "roman": "ākās kālo chha, pāni parna sakchha.", "en": "The sky is dark, it could rain.", "focus": "सक्छ", "wrong": ["सक्छु|sakchhu", "सक्नुहोस्|saknuhos"] },
+        { "native": "हावा चल्न लाग्यो, घर जाऔँ।", "roman": "hāwā chalna lāgyo, ghar jāauṃ.", "en": "The wind's picking up, let's go home.", "focus": "चल्न", "wrong": ["चल्छ|chalchha", "चल्दै|chaldai"] },
+        { "native": "आज घाम लाग्ला?", "roman": "āja ghām lāglā?", "en": "Do you think the sun will come out today?", "focus": "लाग्ला", "wrong": ["लाग्यो|lāgyo", "लागेको|lāgeko"] },
+        { "native": "भोलि जाडो होला।", "roman": "bholi jāḍo holā.", "en": "It'll probably be cold tomorrow.", "focus": "होला", "wrong": ["भयो|bhayo", "हुँदै|huṃdai"] },
+        { "native": "यो बाटोमा पहिरो गएको छ।", "roman": "yo bāṭomā pahiro gaeko chha.", "en": "There's been a landslide on this road." },
+        { "native": "नेपालमा कहिलेकाहीँ भुइँचालो आउँछ।", "roman": "Nepālmā kahilekāhiṃ bhuiṃchālo āuṃchha.", "en": "Nepal sometimes has earthquakes." }
+      ]
+    }
+  ]
 }

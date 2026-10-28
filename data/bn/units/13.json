@@ -85,5 +85,90 @@
       { "speaker": "Sophie", "native": "চলো, বৃষ্টি থামলে চা খেতে যাই।", "roman": "chôlo, brishṭi thamle cha khete jai.", "en": "Let's go for tea when the rain stops." }
     ]
   },
-  "culture": "The monsoon (বর্ষা) is the most celebrated season in Bengali poetry and song: Tagore wrote over a hundred rain songs. A rainy day calls for খিচুড়ি (rice-and-lentil porridge) and fried ইলিশ. Bangladesh is a delta of hundreds of rivers, and floods and cyclones are a real part of life; weather warnings use signal numbers (e.g. ১০ নম্বর মহাবিপদ সংকেত 'danger signal no. 10')."
+  "culture": "The monsoon (বর্ষা) is the most celebrated season in Bengali poetry and song: Tagore wrote over a hundred rain songs. A rainy day calls for খিচুড়ি (rice-and-lentil porridge) and fried ইলিশ. Bangladesh is a delta of hundreds of rivers, and floods and cyclones are a real part of life; weather warnings use signal numbers (e.g. ১০ নম্বর মহাবিপদ সংকেত 'danger signal no. 10').",
+  "lessons": [
+    {
+      "title": "What's the weather like?",
+      "tip": { "title": "The weather has its own verb", "body": "- No dummy 'it': the weather word is the subject, with its own verb.\n- বৃষ্টি **হচ্ছে / পড়ছে** 'it's raining', রোদ **উঠেছে** 'the sun's out', হাওয়া **দিচ্ছে** 'it's windy', মেঘ **করেছে** 'it's clouded over'.\n- Learn each pair as one chunk: you can't say রোদ দিচ্ছে or হাওয়া উঠেছে.", "pattern": "বৃষ্টি + হচ্ছে  ·  রোদ + উঠেছে  ·  হাওয়া + দিচ্ছে", "grammar": 0 },
+      "new": ["আবহাওয়া", "বৃষ্টি", "রোদ", "হাওয়া", "মেঘ", "আকাশ", "আজ আবহাওয়া কেমন?", "বৃষ্টি হচ্ছে।", "আকাশ মেঘলা।", "কী সুন্দর হাওয়া দিচ্ছে!"],
+      "sentences": [
+        { "native": "বাইরে বৃষ্টি পড়ছে।", "roman": "baire brishṭi poṛchhe.", "en": "It's raining outside.", "focus": "পড়ছে", "wrong": ["পড়ি|poṛi", "দিচ্ছে|dichchhe"] },
+        { "native": "অনেক দিন পরে রোদ উঠেছে।", "roman": "ônek din pôre rod uṭhechhe.", "en": "The sun's out after many days.", "focus": "উঠেছে", "wrong": ["দিচ্ছে|dichchhe", "করছে|korchhe"] },
+        { "native": "আজ খুব হাওয়া দিচ্ছে।", "roman": "aj khub hawa dichchhe.", "en": "It's very windy today.", "focus": "দিচ্ছে", "wrong": ["উঠছে|uṭhchhe", "পড়ছে|poṛchhe"] },
+        { "native": "দেখো, আকাশে মেঘ করেছে।", "roman": "dækho, akashe megh korechhe.", "en": "Look, it's clouded over.", "focus": "করেছে", "wrong": ["দিয়েছে|diyechhe", "উঠেছে|uṭhechhe"] },
+        { "native": "গতকাল খুব বৃষ্টি হয়েছে।", "roman": "gôtokal khub brishṭi hoyechhe.", "en": "It rained a lot yesterday.", "focus": "হয়েছে", "wrong": ["দিয়েছে|diyechhe", "উঠেছে|uṭhechhe"] },
+        { "native": "বৃষ্টি হচ্ছে না, শুধু মেঘ।", "roman": "brishṭi hochchhe na, shudhu megh.", "en": "It's not raining, it's just cloudy.", "focus": "হচ্ছে", "wrong": ["দিচ্ছে|dichchhe", "উঠছে|uṭhchhe"] },
+        { "native": "এখানে রোজ বিকেলে বৃষ্টি হয়।", "roman": "ekhane roj bikele brishṭi hôy.", "en": "Here it rains every afternoon.", "focus": "হয়", "wrong": ["দেয়|dæy", "ওঠে|oṭhe"] },
+        { "native": "ঢাকায় আবহাওয়া কেমন?", "roman": "ḍhakay abhawa kæmon?", "en": "What's the weather like in Dhaka?" },
+        { "native": "আজ আবহাওয়াটা খুব ভালো।", "roman": "aj abhawaṭa khub bhalo.", "en": "The weather's lovely today." },
+        { "native": "কী সুন্দর রোদ!", "roman": "ki shundor rod!", "en": "What lovely sunshine!" }
+      ]
+    },
+    {
+      "title": "Feeling hot, feeling cold",
+      "tip": { "title": "আমার শীত করছে: I feel cold", "body": "- How *you* feel takes **আমার**, not আমি: **আমার** শীত করছে / লাগছে 'I feel cold', **আমার** গরম লাগছে 'I feel hot'.\n- The weather itself 'falls': শীত **পড়েছে** 'it's turned cold', গরম **পড়েছে** 'it's hot these days'.\n- Got wet: **ভিজে গেছি**; wet **ভেজা**, dry **শুকনো**.", "pattern": "আমার + শীত / গরম + লাগছে", "grammar": 0 },
+      "new": ["শীত", "কুয়াশা", "বরফ", "ভেজা", "শুকনো", "আজ খুব গরম পড়েছে।", "আমার শীত করছে।", "বাইরে খুব কুয়াশা।", "আমি পুরো ভিজে গেছি।"],
+      "sentences": [
+        { "native": "তোমার কি শীত করছে?", "roman": "tomar ki shit korchhe?", "en": "Are you cold?", "focus": "তোমার", "wrong": ["তুমি|tumi", "তোমাকে|tomake"] },
+        { "native": "আমার খুব গরম লাগছে।", "roman": "amar khub gôrom lagchhe.", "en": "I'm feeling really hot.", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "আমার শীত লাগছে না।", "roman": "amar shit lagchhe na.", "en": "I'm not cold.", "focus": "আমার", "wrong": ["আমি|ami", "আমরা|amra"] },
+        { "native": "এবার খুব শীত পড়েছে।", "roman": "ebar khub shit poṛechhe.", "en": "It's turned really cold this year.", "focus": "পড়েছে", "wrong": ["দিয়েছে|diyechhe", "উঠেছে|uṭhechhe"] },
+        { "native": "দুপুরে খুব গরম পড়ে।", "roman": "dupure khub gôrom pôṛe.", "en": "It gets very hot at midday.", "focus": "পড়ে", "wrong": ["দেয়|dæy", "ওঠে|oṭhe"] },
+        { "native": "আমাদের দেশে বরফ পড়ে না।", "roman": "amader deshe bôroph pôṛe na.", "en": "It doesn't snow in our country.", "focus": "পড়ে", "wrong": ["দেয়|dæy", "করে|kore"] },
+        { "native": "বৃষ্টিতে আমার জামা ভিজে গেছে।", "roman": "brishṭite amar jama bhije gechhe.", "en": "My shirt got wet in the rain.", "focus": "বৃষ্টিতে", "wrong": ["বৃষ্টি|brishṭi", "বৃষ্টির|brishṭir"] },
+        { "native": "সকালে খুব কুয়াশা ছিল।", "roman": "shôkale khub kuasha chhilo.", "en": "It was very foggy this morning." },
+        { "native": "জামাটা ভেজা, একটা শুকনো জামা দাও।", "roman": "jamaṭa bheja, ækṭa shukno jama dao.", "en": "This shirt's wet, give me a dry one." },
+        { "native": "জলে একটু বরফ দেবেন?", "roman": "jôle ekṭu bôroph deben?", "en": "Could you put a little ice in the water?" }
+      ]
+    },
+    {
+      "title": "It looks like rain",
+      "tip": { "title": "'It's going to…', 'it might…'", "body": "- To predict, use the future: **হবে** 'will happen', **আসবে** 'will come', **থামবে** 'will stop'.\n- **মনে হচ্ছে** + future = 'it looks like…': মনে হচ্ছে ঝড় **আসবে**.\n- **-তে পারে** = 'might': বৃষ্টি **হতে পারে** 'it might rain'.", "pattern": "মনে হচ্ছে + … + হবে  ·  … + হতে পারে", "grammar": 1 },
+      "new": ["ঝড়", "সূর্য", "চাঁদ", "মনে হচ্ছে বৃষ্টি আসবে।", "ছাতা নিয়ে যাও।"],
+      "sentences": [
+        { "native": "মনে হচ্ছে বিকেলে ঝড় আসবে।", "roman": "mone hochchhe bikele jhôṛ ashbe.", "en": "It looks like a storm's coming this afternoon.", "focus": "আসবে", "wrong": ["আসি|ashi", "আসুন|ashun"] },
+        { "native": "কাল বৃষ্টি হতে পারে।", "roman": "kal brishṭi hote pare.", "en": "It might rain tomorrow.", "focus": "পারে", "wrong": ["পারি|pari", "পারেন|paren"] },
+        { "native": "বৃষ্টি কি থামবে?", "roman": "brishṭi ki thambe?", "en": "Will the rain stop?", "focus": "থামবে", "wrong": ["থামুন|thamun", "থামব|thambo"] },
+        { "native": "আকাশ পরিষ্কার, আজ বৃষ্টি হবে না।", "roman": "akash porishkar, aj brishṭi hobe na.", "en": "The sky's clear, it won't rain today.", "focus": "হবে", "wrong": ["হব|hobo", "হন|hôn"] },
+        { "native": "ছাতা নাও, বৃষ্টি আসতে পারে।", "roman": "chhata nao, brishṭi ashte pare.", "en": "Take an umbrella, it might rain.", "focus": "পারে", "wrong": ["পারি|pari", "পারো|paro"] },
+        { "native": "মনে হচ্ছে রোদ উঠবে।", "roman": "mone hochchhe rod uṭhbe.", "en": "It looks like the sun will come out.", "focus": "উঠবে", "wrong": ["উঠি|uṭhi", "উঠুন|uṭhun"] },
+        { "native": "কাল থেকে গরম কমবে।", "roman": "kal theke gôrom kombe.", "en": "It will get cooler from tomorrow.", "focus": "কমবে", "wrong": ["কমান|kôman", "কমি|komi"] },
+        { "native": "আজ সূর্য দেখা যাচ্ছে না।", "roman": "aj shurjo dækha jachchhe na.", "en": "You can't see the sun today." },
+        { "native": "আজ চাঁদটা কী সুন্দর!", "roman": "aj chaṃdṭa ki shundor!", "en": "How lovely the moon is tonight!" },
+        { "native": "আকাশে মেঘ নেই, ছাতা লাগবে না।", "roman": "akashe megh nei, chhata lagbe na.", "en": "There are no clouds, you won't need an umbrella." }
+      ]
+    },
+    {
+      "title": "The six seasons",
+      "tip": { "title": "Six seasons, and \"in\" a season", "body": "- Bengal counts **six** ঋতু: গ্রীষ্ম (গরমকাল), বর্ষা, শরৎ, হেমন্ত, শীত, বসন্ত.\n- 'In' a season takes **-এ / -য়** or **-কালে**: **বর্ষায়**, **শীতে**, **বসন্তে**, **গরমকালে**.\n- 'Which season do you like?' is an experiencer sentence: **তোমার** কোন ঋতু ভালো লাগে?" },
+      "new": ["ঋতু", "গরমকাল", "বর্ষা", "শরৎ", "হেমন্ত", "বসন্ত", "তোমার কোন ঋতু সবচেয়ে ভালো লাগে?", "এবার শীত দেরিতে পড়েছে।"],
+      "sentences": [
+        { "native": "বর্ষায় আমি বাইরে বেশি যাই না।", "roman": "bôrshay ami baire beshi jai na.", "en": "In the monsoon I don't go out much.", "focus": "বর্ষায়", "wrong": ["বর্ষা|bôrsha", "বর্ষার|bôrshar"] },
+        { "native": "আমার শরৎ সবচেয়ে ভালো লাগে।", "roman": "amar shôrot shôbcheye bhalo lage.", "en": "I like early autumn best.", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "শীতে কলকাতা খুব সুন্দর।", "roman": "shite kolkata khub shundor.", "en": "Kolkata is lovely in winter.", "focus": "শীতে", "wrong": ["শীত|shit", "শীতের|shiter"] },
+        { "native": "বসন্তে আবহাওয়া খুব ভালো থাকে।", "roman": "bôshonte abhawa khub bhalo thake.", "en": "In spring the weather is really pleasant.", "focus": "বসন্তে", "wrong": ["বসন্ত|bôshonto", "বসন্তের|bôshonter"] },
+        { "native": "গরমকালে আমরা দুপুরে বাইরে যাই না।", "roman": "gôromkale amra dupure baire jai na.", "en": "In summer we don't go out at midday.", "focus": "গরমকালে", "wrong": ["গরমকাল|gôromkal", "গরমকালের|gôromkaler"] },
+        { "native": "হেমন্তে সকালে একটু কুয়াশা থাকে।", "roman": "hemonte shôkale ekṭu kuasha thake.", "en": "In late autumn there's a little fog in the mornings.", "focus": "হেমন্তে", "wrong": ["হেমন্ত|hemonto", "হেমন্তের|hemonter"] },
+        { "native": "তোমার কি বর্ষা ভালো লাগে?", "roman": "tomar ki bôrsha bhalo lage?", "en": "Do you like the monsoon?", "focus": "তোমার", "wrong": ["তুমি|tumi", "তোমাকে|tomake"] },
+        { "native": "বাংলায় ছটা ঋতু।", "roman": "baṅlay chhôṭa ritu.", "en": "Bengal has six seasons." },
+        { "native": "এবার বর্ষা দেরিতে এসেছে।", "roman": "ebar bôrsha derite eshechhe.", "en": "The monsoon came late this year." }
+      ]
+    },
+    {
+      "title": "Rivers, hills and villages",
+      "new": ["প্রকৃতি", "গাছ", "ফুল", "নদী", "সমুদ্র", "পাহাড়", "গ্রাম", "মাটি"],
+      "sentences": [
+        { "native": "আমাদের গ্রামে একটা বড় নদী আছে।", "roman": "amader grame ækṭa bôṛo nodi achhe.", "en": "There's a big river in our village.", "focus": "গ্রামে", "wrong": ["গ্রাম|gram", "গ্রামের|gramer"] },
+        { "native": "আমার পাহাড়ের চেয়ে সমুদ্র বেশি ভালো লাগে।", "roman": "amar pahaṛer cheye shomudro beshi bhalo lage.", "en": "I like the sea more than the hills.", "focus": "পাহাড়ের", "wrong": ["পাহাড়ে|pahaṛe", "পাহাড়|pahaṛ"] },
+        { "native": "পাহাড়ে এখন খুব ঠান্ডা।", "roman": "pahaṛe ækhon khub ṭhanḍa.", "en": "It's very cold in the hills now.", "focus": "পাহাড়ে", "wrong": ["পাহাড়|pahaṛ", "পাহাড়ের|pahaṛer"] },
+        { "native": "এই গাছের ফুলগুলো খুব সুন্দর।", "roman": "ei gachher phulgulo khub shundor.", "en": "This tree's flowers are lovely." },
+        { "native": "বর্ষায় মাটি ভেজা থাকে।", "roman": "bôrshay maṭi bheja thake.", "en": "The ground stays wet in the monsoon." },
+        { "native": "শহরে গাছ খুব কম।", "roman": "shôhore gachh khub kôm.", "en": "There are very few trees in the city." },
+        { "native": "আমার প্রকৃতি খুব ভালো লাগে।", "roman": "amar prokriti khub bhalo lage.", "en": "I love nature." },
+        { "native": "ছুটিতে আমরা গ্রামে যাব।", "roman": "chhuṭite amra grame jabo.", "en": "We'll go to the village for the holidays.", "focus": "গ্রামে", "wrong": ["গ্রাম|gram", "গ্রামের|gramer"] },
+        { "native": "নদীটা এখান থেকে কাছে।", "roman": "nodiṭa ekhan theke kachhe.", "en": "The river is close to here." },
+        { "native": "সমুদ্রে এখন নামবেন না, ঝড় আসছে।", "roman": "shomudre ækhon namben na, jhôṛ ashchhe.", "en": "Don't go into the sea now, a storm's coming.", "focus": "সমুদ্রে", "wrong": ["সমুদ্র|shomudro", "সমুদ্রের|shomudrer"] }
+      ]
+    }
+  ]
 }

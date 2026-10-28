@@ -84,5 +84,85 @@
       { "speaker": "Receptionist", "native": "तुमची खोली तिसऱ्या मजल्यावर आहे. ही घ्या किल्ली.", "roman": "tumchī kholī tisryā madzlyāvar āhe. hī ghyā killī.", "en": "Your room is on the third floor. Here's the key." }
     ]
   },
-  "culture": "India's single emergency number is **112**; ambulance **108**, police **100**, fire **101**. In a crowd, shouting **'वाचवा!'** or **'चोर! चोर!'** will bring help fast. Mumbai's local trains have separate ladies' compartments (लेडीज डबा) and a general-public reputation for helping strangers. Railway staff and police in Maharashtra will usually speak Marathi and Hindi; making the effort in Marathi is often met with extra warmth."
+  "culture": "India's single emergency number is **112**; ambulance **108**, police **100**, fire **101**. In a crowd, shouting **'वाचवा!'** or **'चोर! चोर!'** will bring help fast. Mumbai's local trains have separate ladies' compartments (लेडीज डबा) and a general-public reputation for helping strangers. Railway staff and police in Maharashtra will usually speak Marathi and Hindi; making the effort in Marathi is often met with extra warmth.",
+  "lessons": [
+    {
+      "title": "At the hotel",
+      "new": ["हॉटेल", "पासपोर्ट", "सामान", "पाकीट", "तपासणे", "माझ्या खोलीत एसी चालत नाही."],
+      "sentences": [
+        { "native": "हॉटेल स्टेशनपासून किती लांब आहे?", "roman": "hôṭel sṭeshanpāsūn kitī lāmb āhe?", "en": "How far is the hotel from the station?" },
+        { "native": "माझं सामान खूप जड आहे.", "roman": "mādzhaṃ sāmān khūp dzaḍ āhe.", "en": "My luggage is really heavy." },
+        { "native": "तुमचा पासपोर्ट दाखवा.", "roman": "tumtsā pāsporṭ dākhvā.", "en": "Show me your passport, please." },
+        { "native": "सामान इथे ठेवू का?", "roman": "sāmān ithe ṭhevū kā?", "en": "Shall I leave the luggage here?" },
+        { "native": "माझं पाकीट कुठे आहे?", "roman": "mādzhaṃ pākīṭ kuṭhe āhe?", "en": "Where's my wallet?" },
+        { "native": "विमानतळावर त्यांनी सगळं सामान तपासलं.", "roman": "vimāntaḷāvar tyānnī sagḷaṃ sāmān tapāslaṃ.", "en": "At the airport they checked all the luggage." },
+        { "native": "खोलीत पाणी येत नाही.", "roman": "kholīt pāṇī yet nāhī.", "en": "There's no water in the room." },
+        { "native": "आधी बिल तपासा.", "roman": "ādhī bil tapāsā.", "en": "Check the bill first." },
+        { "native": "या हॉटेलमध्ये खोली मिळेल का?", "roman": "yā hôṭelmadhye kholī miḷel kā?", "en": "Can we get a room in this hotel?" }
+      ]
+    },
+    {
+      "title": "Missed trains and breakdowns",
+      "new": ["प्लॅटफॉर्म", "चुकणे", "रद्द", "बिघडणे", "माझी ट्रेन चुकली.", "माझी फ्लाइट रद्द झाली.", "मी रस्ता चुकलो.", "आमची गाडी बिघडली.", "लगेच", "नाहीतर"],
+      "sentences": [
+        { "native": "पुण्याची गाडी कितव्या प्लॅटफॉर्मवर येते?", "roman": "puṇyāchī gāḍī kitvyā plæṭfôrmvar yete?", "en": "Which platform does the Pune train come in on?" },
+        { "native": "लवकर चल, नाहीतर बस चुकेल.", "roman": "lavkar tsal, nāhītar bas tsukel.", "en": "Hurry up, or we'll miss the bus." },
+        { "native": "आज सगळ्या गाड्या रद्द झाल्या.", "roman": "ādz sagḷyā gāḍyā radda dzhālyā.", "en": "All the trains were cancelled today." },
+        { "native": "रस्त्यात आमची रिक्षा बिघडली.", "roman": "rastyāt āmchī rikṣā bighaḍlī.", "en": "Our rickshaw broke down on the way." },
+        { "native": "ती रस्ता चुकली.", "roman": "tī rastā tsuklī.", "en": "She lost her way." },
+        { "native": "मीटिंग रद्द झाली, मी लगेच घरी आलो.", "roman": "mīṭiṅg radda dzhālī, mī lagets gharī ālo.", "en": "The meeting was cancelled, so I came straight home. (man)" },
+        { "native": "लगेच डॉक्टरकडे जा.", "roman": "lagets ḍôkṭarkaḍe dzā.", "en": "Go to the doctor right away." },
+        { "native": "गाडी तिसऱ्या प्लॅटफॉर्मवर आहे.", "roman": "gāḍī tisryā plæṭfôrmvar āhe.", "en": "The train is on platform three." },
+        { "native": "छत्री घे, नाहीतर भिजशील.", "roman": "chhatrī ghe, nāhītar bhidzshīl.", "en": "Take an umbrella, or you'll get soaked." }
+      ]
+    },
+    {
+      "title": "If something goes wrong",
+      "tip": { "title": "If… then: जर… तर…", "body": "- **जर** + condition, **तर** + result. The 'if' part uses the **past** form, even about the future: जर ट्रेन **चुकली** तर… 'if we miss the train…'.\n- **जर** is often dropped; **तर** is enough: उशीर झाला तर फोन कर.\n- **नाहीतर** 'otherwise': लवकर निघ, नाहीतर ट्रेन चुकेल.", "pattern": "(जर) + past form + तर + result", "grammar": 0 },
+      "new": ["जर", "तर", "तक्रार", "मला तक्रार नोंदवायची आहे.", "धोका", "सुरक्षित"],
+      "sentences": [
+        { "native": "जर ट्रेन चुकली तर बसने जाऊ.", "roman": "dzar ṭren tsuklī tar basne dzāū.", "en": "If we miss the train, we'll go by bus.", "focus": "चुकली", "wrong": ["चुकेल|tsukel", "चुकते|tsukte"] },
+        { "native": "उशीर झाला तर मला फोन कर.", "roman": "ushīr dzhālā tar malā fon kar.", "en": "If you're running late, call me.", "focus": "झाला", "wrong": ["होईल|hoīl", "होतो|hoto"] },
+        { "native": "जर काही धोका असेल तर लगेच बाहेर या.", "roman": "dzar kāhī dhokā asel tar lagets bāher yā.", "en": "If there's any danger, come out right away.", "focus": "तर", "wrong": ["नाहीतर|nāhītar", "म्हणून|mhaṇūn"] },
+        { "native": "इथे रात्री फिरणं सुरक्षित आहे का?", "roman": "ithe rātrī phirṇaṃ surakṣit āhe kā?", "en": "Is it safe to walk around here at night?" },
+        { "native": "खोली स्वच्छ नसली तर तक्रार करा.", "roman": "kholī svachchha naslī tar takrār karā.", "en": "If the room isn't clean, make a complaint.", "focus": "तर", "wrong": ["नाहीतर|nāhītar", "कारण|kāraṇ"] },
+        { "native": "मी हॉटेलकडे तक्रार केली.", "roman": "mī hôṭelkaḍe takrār kelī.", "en": "I complained to the hotel." },
+        { "native": "पैसे मिळाले नाहीत तर काय करायचं?", "roman": "paise miḷāle nāhīt tar kāy karāytsaṃ?", "en": "What do we do if we don't get the money?", "focus": "मिळाले", "wrong": ["मिळेल|miḷel", "मिळतात|miḷtāt"] },
+        { "native": "तुम्ही इथे सुरक्षित आहात, काळजी करू नका.", "roman": "tumhī ithe surakṣit āhāt, kāḷjī karū nakā.", "en": "You're safe here, don't worry." },
+        { "native": "जर तुला बरं वाटलं नाही तर मला सांग.", "roman": "dzar tulā baraṃ vāṭlaṃ nāhī tar malā sāṅg.", "en": "If you don't feel well, tell me.", "focus": "वाटलं", "wrong": ["वाटेल|vāṭel", "वाटला|vāṭlā"] },
+        { "native": "सामान हरवलं तर तक्रार करा.", "roman": "sāmān haravlaṃ tar takrār karā.", "en": "If your luggage gets lost, make a complaint.", "focus": "हरवलं", "wrong": ["हरवेल|haravel", "हरवली|haravlī"] }
+      ]
+    },
+    {
+      "title": "Emergencies",
+      "new": ["वाचवा!", "मला मदत हवी आहे!", "पोलीस", "पोलिसांना बोलवा!", "रुग्णालय", "रुग्णवाहिका", "ॲम्ब्युलन्स बोलवा!", "जवळचं हॉस्पिटल कुठे आहे?", "अपघात", "जखमी"],
+      "sentences": [
+        { "native": "इथे अपघात झाला आहे, लवकर या!", "roman": "ithe apaghāt dzhālā āhe, lavkar yā!", "en": "There's been an accident here, come quickly!" },
+        { "native": "एक माणूस जखमी आहे.", "roman": "ek māṇūs dzakhmī āhe.", "en": "A man is injured." },
+        { "native": "रुग्णवाहिका लगेच बोलवा.", "roman": "rugṇavāhikā lagets bolvā.", "en": "Call an ambulance right away." },
+        { "native": "आई रुग्णालयात आहे.", "roman": "āī rugṇālayāt āhe.", "en": "Mum is in hospital." },
+        { "native": "पोलीस स्टेशन कुठे आहे?", "roman": "polīs sṭeshan kuṭhe āhe?", "en": "Where's the police station?" },
+        { "native": "अपघातात तो जखमी झाला.", "roman": "apaghātāt to dzakhmī dzhālā.", "en": "He was injured in the accident." },
+        { "native": "मला लगेच डॉक्टर हवा आहे.", "roman": "malā lagets ḍôkṭar havā āhe.", "en": "I need a doctor right away." },
+        { "native": "पोलिसांनी सगळ्यांना मदत केली.", "roman": "polisānnī sagḷyānnā madat kelī.", "en": "The police helped everyone." },
+        { "native": "मदत करा, माझा मुलगा हरवला!", "roman": "madat karā, mādzhā mulgā haravlā!", "en": "Help, my son is lost!" }
+      ]
+    },
+    {
+      "title": "Theft, fire and if only",
+      "tip": { "title": "If only: …असतं तर", "body": "- For what didn't happen: past form + **असता / असती / असतं** = 'would have': मी **आलो असतो** 'I would have come'.\n- Both halves use it: मला **माहीत असतं** तर मी **आलो असतो** 'if I'd known, I'd have come'.\n- Negative: **नसता / नसती / नसतं**: ट्रेन चुकली **नसती**.", "pattern": "… असतं तर … असतं", "grammar": 1 },
+      "new": ["चोर", "चोरी", "माझं पाकीट चोरीला गेलं.", "आग", "आग लागली! बाहेर पळा!", "दूतावास"],
+      "sentences": [
+        { "native": "माझा फोन चोरीला गेला.", "roman": "mādzhā fon tsorīlā gelā.", "en": "My phone has been stolen." },
+        { "native": "मी बॅग जवळ ठेवली असती तर चोरी झाली नसती.", "roman": "mī bæg dzavaḷ ṭhevlī astī tar tsorī dzhālī nastī.", "en": "If I'd kept my bag close, it wouldn't have been stolen.", "focus": "नसती", "wrong": ["नसता|nastā", "नसतं|nastaṃ"] },
+        { "native": "मला माहीत असतं तर मी तुला फोन केला असता.", "roman": "malā māhīt astaṃ tar mī tulā fon kelā astā.", "en": "If I'd known, I'd have called you.", "focus": "असता", "wrong": ["असती|astī", "असतं|astaṃ"] },
+        { "native": "स्वयंपाकघरात आग लागली!", "roman": "svayampākgharāt āg lāglī!", "en": "There's a fire in the kitchen!" },
+        { "native": "पोलीस लवकर आले असते तर चोर सापडला असता.", "roman": "polīs lavkar āle aste tar tsor sāpaḍlā astā.", "en": "If the police had come sooner, they would have caught the thief.", "focus": "असता", "wrong": ["असती|astī", "असते|aste"] },
+        { "native": "पासपोर्ट हरवला तर दूतावासात जा.", "roman": "pāsporṭ haravlā tar dūtāvāsāt dzā.", "en": "If you lose your passport, go to the embassy." },
+        { "native": "पाकीट हरवलं नसतं तर आम्ही टॅक्सी घेतली असती.", "roman": "pākīṭ haravlaṃ nastaṃ tar āmhī ṭæksī ghetlī astī.", "en": "If the wallet hadn't been lost, we'd have taken a taxi.", "focus": "असती", "wrong": ["असता|astā", "असतं|astaṃ"] },
+        { "native": "छत्री घेतली असती तर भिजलो नसतो.", "roman": "chhatrī ghetlī astī tar bhidzlo nasto.", "en": "If I'd taken an umbrella, I wouldn't have got soaked. (man)", "focus": "नसतो", "wrong": ["नसता|nastā", "नसती|nastī"] },
+        { "native": "तू आला असतास तर बरं झालं असतं.", "roman": "tū ālā astās tar baraṃ dzhālaṃ astaṃ.", "en": "It would have been nice if you had come.", "focus": "असतास", "wrong": ["असता|astā", "असतो|asto"] }
+      ]
+    }
+  ]
 }

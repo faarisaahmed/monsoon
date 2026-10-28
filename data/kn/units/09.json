@@ -89,5 +89,96 @@
       { "speaker": "Doctor", "native": "ಬೇಗ ಹುಷಾರಾಗಿ!", "roman": "bēga huṣārāgi!", "en": "Get well soon!" }
     ]
   },
-  "culture": "Home remedies are popular: ಕಷಾಯ (a hot decoction of pepper, ginger, coriander and tulsi) for colds, and ಅರಿಶಿನ (turmeric) in hot milk. Elders will advise avoiding 'cold' foods like curd and bananas during a cough. Pharmacies (ಮೆಡಿಕಲ್ ಶಾಪ್) are everywhere, and pharmacists often give advice for minor ailments."
+  "culture": "Home remedies are popular: ಕಷಾಯ (a hot decoction of pepper, ginger, coriander and tulsi) for colds, and ಅರಿಶಿನ (turmeric) in hot milk. Elders will advise avoiding 'cold' foods like curd and bananas during a cough. Pharmacies (ಮೆಡಿಕಲ್ ಶಾಪ್) are everywhere, and pharmacists often give advice for minor ailments.",
+  "lessons": [
+    {
+      "title": "Saying where it hurts",
+      "tip": { "title": "It hurts: ನೋಯ್ತಿದೆ / ನೋವು ಇದೆ", "body": "- Aches happen *to* you. The body part is the subject + **ನೋಯ್ತಿದೆ** 'is hurting': ನನ್ನ ಹಲ್ಲು ನೋಯ್ತಿದೆ 'my tooth hurts'.\n- Or use the noun **ನೋವು** 'pain' + **ಇದೆ**, with the person in **-ಗೆ**: ನನಗೆ ತಲೆನೋವು ಇದೆ 'I have a headache'.\n- Ask: ಎಲ್ಲಿ ನೋವು? 'where does it hurt?'", "pattern": "ನನ್ನ + body part + ನೋಯ್ತಿದೆ · ನನಗೆ + ___ ನೋವು + ಇದೆ", "grammar": 0 },
+      "new": ["ತಲೆ", "ಕಣ್ಣು", "ಕಿವಿ", "ಹಲ್ಲು", "ಗಂಟಲು", "ನೋವು", "ನೋಯು", "ಎಲ್ಲಿ ನೋವು?", "ಹೊಟ್ಟೆ ನೋಯ್ತಿದೆ", "ನನಗೆ ತಲೆನೋವು ಇದೆ"],
+      "sentences": [
+        { "native": "ನನ್ನ ಹಲ್ಲು ನೋಯ್ತಿದೆ.", "roman": "nanna hallu nōytide.", "en": "My tooth hurts.", "focus": "ನೋಯ್ತಿದೆ", "wrong": ["ನೋವು|nōvu", "ನೋಯ್ತೀನಿ|nōytīni"] },
+        { "native": "ನನಗೆ ಗಂಟಲು ನೋವು ಇದೆ.", "roman": "nanage gaṇṭalu nōvu ide.", "en": "I have a sore throat.", "focus": "ನನಗೆ", "wrong": ["ನಾನು|nānu"] },
+        { "native": "ತಲೆ ನೋಯ್ತಿದೆಯಾ?", "roman": "tale nōytideyā?", "en": "Does your head hurt?", "focus": "ನೋಯ್ತಿದೆಯಾ", "wrong": ["ನೋವು|nōvu", "ನೋಯು|nōyu"] },
+        { "native": "ಮಗುವಿನ ಕಿವಿ ನೋಯ್ತಿದೆ.", "roman": "maguvina kivi nōytide.", "en": "The baby's ear hurts.", "focus": "ನೋಯ್ತಿದೆ", "wrong": ["ನೋಯ್ತೀನಿ|nōytīni", "ನೋವು|nōvu"] },
+        { "native": "ನನ್ನ ಕಣ್ಣು ತುಂಬಾ ನೋಯ್ತಿದೆ.", "roman": "nanna kaṇṇu tumbā nōytide.", "en": "My eyes really hurt.", "focus": "ನೋಯ್ತಿದೆ", "wrong": ["ನೋವು|nōvu", "ನೋಯು|nōyu"] },
+        { "native": "ಅಮ್ಮನಿಗೆ ತಲೆನೋವು ಇದೆ.", "roman": "ammanige talenōvu ide.", "en": "Mum has a headache.", "focus": "ಅಮ್ಮನಿಗೆ", "wrong": ["ಅಮ್ಮ|amma", "ಅಮ್ಮನ|ammana"] },
+        { "native": "ಡಾಕ್ಟರ್, ಇಲ್ಲಿ ನೋವು ಇದೆ.", "roman": "ḍākṭar, illi nōvu ide.", "en": "Doctor, it hurts here.", "focus": "ನೋವು", "wrong": ["ನೋಯು|nōyu", "ನೋಯ್ತಿದೆ|nōytide"] },
+        { "native": "ಈಗ ತಲೆನೋವು ಇಲ್ಲ.", "roman": "īga talenōvu illa.", "en": "My headache has gone now." }
+      ]
+    },
+    {
+      "title": "Arms, legs and back",
+      "new": ["ಕೈ", "ಕಾಲು", "ಬೆರಳು", "ಹೊಟ್ಟೆ", "ಬೆನ್ನು", "ಎದೆ", "ಗಾಯ", "ಏನಾಯ್ತು?"],
+      "sentences": [
+        { "native": "ಏನಾಯ್ತು? ಕಾಲು ನೋಯ್ತಿದೆಯಾ?", "roman": "ēnāytu? kālu nōytideyā?", "en": "What happened? Does your leg hurt?" },
+        { "native": "ಅಪ್ಪನಿಗೆ ಬೆನ್ನು ನೋವು ಇದೆ.", "roman": "appanige bennu nōvu ide.", "en": "Dad has back pain.", "focus": "ಅಪ್ಪನಿಗೆ", "wrong": ["ಅಪ್ಪ|appa", "ಅಪ್ಪನ|appana"] },
+        { "native": "ಬೆರಳಿಗೆ ಗಾಯ ಆಯ್ತು.", "roman": "beraḷige gāya āytu.", "en": "I hurt my finger.", "focus": "ಬೆರಳಿಗೆ", "wrong": ["ಬೆರಳು|beraḷu", "ಬೆರಳಿನ|beraḷina"] },
+        { "native": "ಅವನ ಕಾಲಿಗೆ ಗಾಯ ಆಯ್ತು.", "roman": "avana kālige gāya āytu.", "en": "He hurt his leg.", "focus": "ಕಾಲಿಗೆ", "wrong": ["ಕಾಲು|kālu", "ಕಾಲಿನ|kālina"] },
+        { "native": "ಎದೆ ನೋವು ಇದೆಯಾ?", "roman": "ede nōvu ideyā?", "en": "Do you have chest pain?" },
+        { "native": "ಹೊಟ್ಟೆ ಸರಿ ಇಲ್ಲ.", "roman": "hoṭṭe sari illa.", "en": "My stomach is upset." },
+        { "native": "ಕೈಯಲ್ಲಿ ಏನು ಇದೆ?", "roman": "kaiyalli ēnu ide?", "en": "What's in your hand?", "focus": "ಕೈಯಲ್ಲಿ", "wrong": ["ಕೈಗೆ|kaige", "ಕೈ|kai"] },
+        { "native": "ಎರಡು ದಿನದಿಂದ ಕಾಲು ನೋಯ್ತಿದೆ.", "roman": "eraḍu dinadinda kālu nōytide.", "en": "My leg's been hurting for two days." }
+      ]
+    },
+    {
+      "title": "Faces and hair",
+      "new": ["ದೇಹ", "ಮೂಗು", "ಬಾಯಿ", "ಮುಖ", "ಕೂದಲು"],
+      "sentences": [
+        { "native": "ಮಗುವಿನ ಕಣ್ಣು ತುಂಬಾ ದೊಡ್ಡದು.", "roman": "maguvina kaṇṇu tumbā doḍḍadu.", "en": "The baby's eyes are so big.", "focus": "ಮಗುವಿನ", "wrong": ["ಮಗುವಿಗೆ|maguvige", "ಮಗು|magu"] },
+        { "native": "ಅವಳ ಕೂದಲು ತುಂಬಾ ಉದ್ದ.", "roman": "avaḷa kūdalu tumbā udda.", "en": "Her hair is very long.", "focus": "ಅವಳ", "wrong": ["ಅವಳು|avaḷu", "ಅವಳಿಗೆ|avaḷige"] },
+        { "native": "ಅಜ್ಜನ ಕೂದಲು ಬಿಳಿ.", "roman": "ajjana kūdalu biḷi.", "en": "Grandpa's hair is white.", "focus": "ಅಜ್ಜನ", "wrong": ["ಅಜ್ಜ|ajja", "ಅಜ್ಜನಿಗೆ|ajjanige"] },
+        { "native": "ಮಗು, ಬಾಯಿ ತೆಗಿ.", "roman": "magu, bāyi tegi.", "en": "Open your mouth, little one." },
+        { "native": "ಅವನ ಮೂಗು ಕೆಂಪು ಆಗಿದೆ.", "roman": "avana mūgu kempu āgide.", "en": "His nose has gone red." },
+        { "native": "ಅವಳ ಮುಖ ತುಂಬಾ ಚಂದ.", "roman": "avaḷa mukha tumbā chanda.", "en": "She has a lovely face." },
+        { "native": "ದೇಹಕ್ಕೆ ನೀರು ಬೇಕು.", "roman": "dēhakke nīru bēku.", "en": "Your body needs water.", "focus": "ದೇಹಕ್ಕೆ", "wrong": ["ದೇಹ|dēha", "ದೇಹದ|dēhada"] }
+      ]
+    },
+    {
+      "title": "Feeling ill",
+      "tip": { "title": "Illness comes to you", "body": "- Illnesses 'come' or 'happen' to you, so the person takes **-ಗೆ**: ನನಗೆ ಜ್ವರ **ಬಂದಿದೆ** 'I've got a fever', ನನಗೆ ನೆಗಡಿ **ಆಗಿದೆ** 'I've caught a cold', ಅಜ್ಜಿಗೆ ಕೆಮ್ಮು **ಇದೆ** 'Grandma has a cough'.\n- **ಹುಷಾರು** = well: ಹುಷಾರಿಲ್ಲ 'unwell', ಹುಷಾರಾಗಿದ್ದೀನಿ 'I'm better', ಬೇಗ ಹುಷಾರಾಗಿ 'get well soon'. On its own, ಹುಷಾರು! = 'careful!'", "pattern": "person-ಗೆ + ಜ್ವರ + ಬಂದಿದೆ / ಇದೆ" },
+      "new": ["ಜ್ವರ", "ನೆಗಡಿ", "ಕೆಮ್ಮು", "ಹುಷಾರು", "ಸುಸ್ತು", "ನನಗೆ ಹುಷಾರಿಲ್ಲ", "ನನಗೆ ಜ್ವರ ಬಂದಿದೆ", "ನನಗೆ ತುಂಬಾ ಸುಸ್ತಾಗಿದೆ", "ಬೇಗ ಹುಷಾರಾಗಿ!"],
+      "sentences": [
+        { "native": "ಅವಳಿಗೆ ಜ್ವರ ಬಂದಿದೆ.", "roman": "avaḷige jvara bandide.", "en": "She's got a fever.", "focus": "ಅವಳಿಗೆ", "wrong": ["ಅವಳು|avaḷu", "ಅವಳ|avaḷa"] },
+        { "native": "ನನಗೆ ನೆಗಡಿ ಆಗಿದೆ.", "roman": "nanage negaḍi āgide.", "en": "I've caught a cold.", "focus": "ನನಗೆ", "wrong": ["ನಾನು|nānu", "ನನ್ನ|nanna"] },
+        { "native": "ಅಜ್ಜಿಗೆ ಕೆಮ್ಮು ಇದೆ.", "roman": "ajjige kemmu ide.", "en": "Grandma has a cough.", "focus": "ಅಜ್ಜಿಗೆ", "wrong": ["ಅಜ್ಜಿ|ajji", "ಅಜ್ಜಿಯ|ajjiya"] },
+        { "native": "ಇವತ್ತು ಅವನಿಗೆ ಹುಷಾರಿಲ್ಲ.", "roman": "ivattu avanige huṣārilla.", "en": "He's not well today.", "focus": "ಅವನಿಗೆ", "wrong": ["ಅವನು|avanu", "ಅವನ|avana"] },
+        { "native": "ಈಗ ಹುಷಾರಾಗಿದ್ದೀರಾ?", "roman": "īga huṣārāgiddīrā?", "en": "Are you feeling better now?", "focus": "ಹುಷಾರಾಗಿದ್ದೀರಾ", "wrong": ["ಹುಷಾರಾಗಿದ್ದೀನಿ|huṣārāgiddīni", "ಹುಷಾರಿಲ್ಲ|huṣārilla"] },
+        { "native": "ಹೌದು, ಈಗ ಪರವಾಗಿಲ್ಲ.", "roman": "haudu, īga paravāgilla.", "en": "Yes, I'm all right now." },
+        { "native": "ಸುಸ್ತಾಗಿದೆ, ಮನೇಲಿ ಇರ್ತೀನಿ.", "roman": "sustāgide, manēli irtīni.", "en": "I'm tired; I'll stay at home." },
+        { "native": "ನೆಗಡಿ, ಕೆಮ್ಮು, ಜ್ವರ ಎಲ್ಲಾ ಇದೆ.", "roman": "negaḍi, kemmu, jvara ellā ide.", "en": "I've got a cold, a cough, a fever, the lot.", "focus": "ಇದೆ", "wrong": ["ಇದ್ದೀನಿ|iddīni", "ಇದ್ದಾರೆ|iddāre"] },
+        { "native": "ಹುಷಾರು, ಮಗು!", "roman": "huṣāru, magu!", "en": "Careful, little one!" }
+      ]
+    },
+    {
+      "title": "You should see a doctor",
+      "tip": { "title": "Must, should: -ಬೇಕು", "body": "- Add **-ಅಬೇಕು** to a verb for 'must, should, need to': ಹೋಗು → **ಹೋಗಬೇಕು**, ನೋಡು → ನೋಡಬೇಕು, ಕುಡಿ → ಕುಡಿಯಬೇಕು.\n- It's the same for everyone: ನಾನು / ನೀವು / ಅವರು ಹೋಗಬೇಕು. Ask with -ā: ಬರಬೇಕಾ?\n- 'Needn't' is **-ಅಬೇಕಾಗಿಲ್ಲ** (ಬರಬೇಕಾಗಿಲ್ಲ); 'mustn't' is **-ಅಬಾರದು** (ತಿನ್ನಬಾರದು).", "pattern": "verb + ಅಬೇಕು: ಹೋಗಬೇಕು", "grammar": 1 },
+      "new": ["ವೈದ್ಯ", "ಆಸ್ಪತ್ರೆ", "ಆರೋಗ್ಯ", "ಹತ್ತಿರ ಆಸ್ಪತ್ರೆ ಎಲ್ಲಿದೆ?", "ಡಾಕ್ಟರನ್ನ ನೋಡಬೇಕು"],
+      "sentences": [
+        { "native": "ನೀವು ಆಸ್ಪತ್ರೆಗೆ ಹೋಗಬೇಕು.", "roman": "nīvu āspatrege hōgabēku.", "en": "You should go to the hospital.", "focus": "ಹೋಗಬೇಕು", "wrong": ["ಹೋಗು|hōgu", "ಹೋಗ್ತೀನಿ|hōgtīni"] },
+        { "native": "ಅಮ್ಮ ಡಾಕ್ಟರನ್ನ ನೋಡಬೇಕು.", "roman": "amma ḍākṭaranna nōḍabēku.", "en": "Mum needs to see a doctor.", "focus": "ನೋಡಬೇಕು", "wrong": ["ನೋಡಿ|nōḍi", "ನೋಡು|nōḍu"] },
+        { "native": "ಬಿಸಿ ನೀರು ಕುಡಿಯಬೇಕು.", "roman": "bisi nīru kuḍiyabēku.", "en": "You should drink hot water.", "focus": "ಕುಡಿಯಬೇಕು", "wrong": ["ಕುಡಿ|kuḍi", "ಕುಡೀತೀನಿ|kuḍītīni"] },
+        { "native": "ನಾನು ಈಗ ಮನೆಗೆ ಹೋಗಬೇಕು.", "roman": "nānu īga manege hōgabēku.", "en": "I have to go home now.", "focus": "ಹೋಗಬೇಕು", "wrong": ["ಹೋಗು|hōgu", "ಹೋಗಿ|hōgi"] },
+        { "native": "ನಾಳೆ ಆಸ್ಪತ್ರೆಗೆ ಬರಬೇಕಾ?", "roman": "nāḷe āspatrege barabēkā?", "en": "Do I have to come to the hospital tomorrow?", "focus": "ಬರಬೇಕಾ", "wrong": ["ಬನ್ನಿ|banni", "ಬರ್ತೀರಾ|bartīrā"] },
+        { "native": "ಇಲ್ಲ, ಬರಬೇಕಾಗಿಲ್ಲ.", "roman": "illa, barabēkāgilla.", "en": "No, you needn't come.", "focus": "ಬರಬೇಕಾಗಿಲ್ಲ", "wrong": ["ಬರಬೇಕು|barabēku", "ಬರಲ್ಲ|baralla"] },
+        { "native": "ಆರೋಗ್ಯ ಹೇಗಿದೆ?", "roman": "ārōgya hēgide?", "en": "How's your health?" },
+        { "native": "ವೈದ್ಯರು ಎಲ್ಲಿ ಇದ್ದಾರೆ?", "roman": "vaidyaru elli iddāre?", "en": "Where is the doctor?" },
+        { "native": "ಹತ್ತಿರ ಆಸ್ಪತ್ರೆ ಇದೆಯಾ?", "roman": "hattira āspatre ideyā?", "en": "Is there a hospital nearby?" }
+      ]
+    },
+    {
+      "title": "Doctor's orders",
+      "tip": { "title": "Take this, don't do that", "body": "- **ತಗೊಳ್ಳಿ** 'please take' (ತಗೋ to a friend): ಮಾತ್ರೆ ತಗೊಳ್ಳಿ, ವಿಶ್ರಾಂತಿ ತಗೊಳ್ಳಿ 'get some rest'.\n- 'Don't …' = verb + **-ಅಬೇಡಿ** (polite) / **-ಅಬೇಡ** (to a friend or child): ತಿನ್ನಬೇಡಿ 'don't eat', ಹೋಗಬೇಡ 'don't go'.\n- **-ಅಬಾರದು** 'mustn't' states a rule: ಕಾಫಿ ಕುಡಿಯಬಾರದು.", "pattern": "verb + ಅಬೇಡಿ: ಹೋಗಬೇಡಿ" },
+      "new": ["ಔಷಧಿ", "ಮಾತ್ರೆ", "ವಿಶ್ರಾಂತಿ", "ದಿನಕ್ಕೆ ಮೂರು ಸಲ ಮಾತ್ರೆ ತಗೊಳ್ಳಿ", "ಚೆನ್ನಾಗಿ ವಿಶ್ರಾಂತಿ ತಗೊಳ್ಳಿ"],
+      "sentences": [
+        { "native": "ಈ ಔಷಧಿ ರಾತ್ರಿ ತಗೊಳ್ಳಿ.", "roman": "ī auṣadhi rātri tagoḷḷi.", "en": "Take this medicine at night.", "focus": "ತಗೊಳ್ಳಿ", "wrong": ["ತಗೊಳ್ಳಬೇಡಿ|tagoḷḷabēḍi"] },
+        { "native": "ದಿನಕ್ಕೆ ಎರಡು ಮಾತ್ರೆ ತಗೊಳ್ಳಿ.", "roman": "dinakke eraḍu mātre tagoḷḷi.", "en": "Take two tablets a day.", "focus": "ದಿನಕ್ಕೆ", "wrong": ["ದಿನ|dina", "ದಿನದ|dinada"] },
+        { "native": "ಖಾರ ತಿನ್ನಬೇಡಿ.", "roman": "khāra tinnabēḍi.", "en": "Don't eat spicy food.", "focus": "ತಿನ್ನಬೇಡಿ", "wrong": ["ತಿನ್ನಿ|tinni", "ತಿನ್ನಬೇಕು|tinnabēku"] },
+        { "native": "ಇವತ್ತು ಆಫೀಸಿಗೆ ಹೋಗಬೇಡಿ, ವಿಶ್ರಾಂತಿ ತಗೊಳ್ಳಿ.", "roman": "ivattu āphīsige hōgabēḍi, vishrānti tagoḷḷi.", "en": "Don't go to the office today; get some rest.", "focus": "ಹೋಗಬೇಡಿ", "wrong": ["ಹೋಗಿ|hōgi", "ಹೋಗಬೇಕು|hōgabēku"] },
+        { "native": "ಮಗು, ಹೊರಗೆ ಹೋಗಬೇಡ.", "roman": "magu, horage hōgabēḍa.", "en": "Don't go outside, kiddo.", "focus": "ಹೋಗಬೇಡ", "wrong": ["ಹೋಗು|hōgu", "ಹೋಗಬೇಕು|hōgabēku"] },
+        { "native": "ಕಾಫಿ ಕುಡಿಯಬಾರದು, ಬಿಸಿ ನೀರು ಕುಡೀರಿ.", "roman": "kāphi kuḍiyabāradu, bisi nīru kuḍīri.", "en": "You mustn't drink coffee; drink hot water.", "focus": "ಕುಡಿಯಬಾರದು", "wrong": ["ಕುಡಿಯಬೇಕು|kuḍiyabēku", "ಕುಡೀರಿ|kuḍīri"] },
+        { "native": "ಔಷಧಿ ಅಂಗಡಿ ಎಲ್ಲಿದೆ?", "roman": "auṣadhi aṅgaḍi ellide?", "en": "Where's the pharmacy?" },
+        { "native": "ಎರಡು ದಿನ ವಿಶ್ರಾಂತಿ ಬೇಕು.", "roman": "eraḍu dina vishrānti bēku.", "en": "You need two days of rest." }
+      ]
+    }
+  ]
 }

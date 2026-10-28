@@ -86,5 +86,99 @@
       { "speaker": "Officer", "native": "চিন্তা করবেন না। ভিড়ের জায়গায় এরকম হয়। পরের বার সাবধানে থাকবেন।", "roman": "chinta korben na. bhiṛer jaygay ærôkom hôy. pôrer bar shabdhane thakben.", "en": "Don't worry. This happens in crowded places. Be careful next time." }
     ]
   },
-  "culture": "Emergency numbers: **999** in Bangladesh (police, fire, ambulance), **112** in India (100 police, 102/108 ambulance). In both countries, crowds gather quickly around an accident and people are generally quick to help. Many foreigners register with their embassy or high commission in Dhaka or Kolkata. In Bangladesh 'হোটেল' on a sign often means a simple eatery; for a place to sleep look for 'আবাসিক হোটেল' (residential hotel) or 'গেস্ট হাউস'."
+  "culture": "Emergency numbers: **999** in Bangladesh (police, fire, ambulance), **112** in India (100 police, 102/108 ambulance). In both countries, crowds gather quickly around an accident and people are generally quick to help. Many foreigners register with their embassy or high commission in Dhaka or Kolkata. In Bangladesh 'হোটেল' on a sign often means a simple eatery; for a place to sleep look for 'আবাসিক হোটেল' (residential hotel) or 'গেস্ট হাউস'.",
+  "lessons": [
+    {
+      "title": "At the hotel",
+      "tip": { "title": "Hotel problems", "body": "- Something missing in the room? Use **নেই**: গরম জল নেই, আলো নেই.\n- Not working: **চলছে না**: পাখা চলছে না.\n- 'Room number' is **কামরা নম্বর** (or রুম নম্বর).\n- In Bangladesh a হোটেল can be a cheap eatery; for a bed look for আবাসিক হোটেল." },
+      "new": [
+        "হোটেল",
+        "কামরা",
+        "নম্বর",
+        "চার্জ",
+        "আমার নামে একটা রুম বুক করা আছে।",
+        "ঘরে গরম জল নেই।",
+        "আমার ফোনে চার্জ নেই, একটু ফোন করতে পারি?"
+      ],
+      "sentences": [
+        { "native": "আপনার কামরা নম্বর কত?", "roman": "apnar kamra nômbor kôto?", "en": "What's your room number?", "focus": "কত", "wrong": ["কেমন|kæmon", "কোথায়|kothay"] },
+        { "native": "আমার কামরায় পাখা চলছে না।", "roman": "amar kamray pakha cholchhe na.", "en": "The fan in my room isn't working.", "focus": "কামরায়", "wrong": ["কামরা|kamra", "কামরার|kamrar"] },
+        { "native": "বাথরুমে আলো নেই।", "roman": "bathrume alo nei.", "en": "There's no light in the bathroom.", "focus": "নেই", "wrong": ["না|na", "নই|noi"] },
+        { "native": "হোটেলটা স্টেশনের কাছে।", "roman": "hoṭelṭa sṭeshoner kachhe.", "en": "The hotel is near the station.", "focus": "স্টেশনের", "wrong": ["স্টেশনে|sṭeshone", "স্টেশন|sṭeshon"] },
+        { "native": "আমি দুই রাত থাকব।", "roman": "ami dui rat thakbo.", "en": "I'll stay two nights.", "focus": "থাকব", "wrong": ["থাকবে|thakbe", "থাকবেন|thakben"] },
+        { "native": "ফোনটা এখানে চার্জ দিতে পারি?", "roman": "phonṭa ekhane charj dite pari?", "en": "Can I charge my phone here?" },
+        { "native": "আপনার ফোন নম্বরটা দেবেন?", "roman": "apnar phon nômborṭa deben?", "en": "Could I have your phone number?" },
+        { "native": "জলখাবার কটা থেকে?", "roman": "jôlkhabar kôṭa theke?", "en": "From what time is breakfast?" },
+        { "native": "কামরাটা খুব ছোট, আর একটা বড় কামরা আছে?", "roman": "kamraṭa khub chhoṭo, ar ækṭa bôṛo kamra achhe?", "en": "The room's very small, is there a bigger one?" },
+        { "native": "ঘরটা পরিষ্কার না।", "roman": "ghôrṭa porishkar na.", "en": "The room isn't clean." }
+      ]
+    },
+    {
+      "title": "Delays and wrong trains",
+      "tip": { "title": "If: যদি … তাহলে, or -লে", "body": "- **যদি** + present tense, then **তাহলে** + result: **যদি** দেরি **হয়**, **তাহলে** অপেক্ষা করব.\n- In speech the **-লে** form is even more common, with no যদি: বাস না **পেলে** ট্যাক্সি নেব.\n- -লে is the same for every person: হলে, পেলে, গেলে, থাকলে, বললে.", "pattern": "যদি + … + হয়, তাহলে …  ·  … + হলে, …", "grammar": 0 },
+      "new": ["পাসপোর্ট", "ভিসা", "মালপত্র", "প্ল্যাটফর্ম", "বাতিল", "ভুল", "যদি", "তাহলে", "ট্রেনটা কত দেরিতে চলছে?", "আমি ভুল বাসে উঠেছি।"],
+      "sentences": [
+        { "native": "যদি ট্রেন দেরিতে আসে, তাহলে আমাকে ফোন কোরো।", "roman": "jodi ṭren derite ashe, tahole amake phon koro.", "en": "If the train's late, give me a call.", "focus": "আসে", "wrong": ["আসব|ashbo", "আসুন|ashun"] },
+        { "native": "বাস না পেলে ট্যাক্সি নেব।", "roman": "bas na pele ṭæksi nebo.", "en": "If I can't get a bus, I'll take a taxi.", "focus": "পেলে", "wrong": ["পাই|pai", "পেলাম|pelam"] },
+        { "native": "যদি ভিসা না পাই, তাহলে যেতে পারব না।", "roman": "jodi bhisa na pai, tahole jete parbo na.", "en": "If I don't get a visa, I won't be able to go.", "focus": "পাই", "wrong": ["পেলাম|pelam", "পান|pan"] },
+        { "native": "আজ বাস বাতিল হলে কাল যাব।", "roman": "aj bas batil hole kal jabo.", "en": "If today's bus is cancelled, I'll go tomorrow.", "focus": "হলে", "wrong": ["হয়|hôy", "হলো|holo"] },
+        { "native": "মালপত্র বেশি হলে একটা ট্যাক্সি নিন।", "roman": "malpotro beshi hole ækṭa ṭæksi nin.", "en": "If you have a lot of luggage, take a taxi.", "focus": "হলে", "wrong": ["হয়|hôy", "হবে|hobe"] },
+        { "native": "আমি ভুল বললে বলবেন।", "roman": "ami bhul bolle bolben.", "en": "If I say something wrong, please tell me.", "focus": "বললে", "wrong": ["বলি|boli", "বললাম|bollam"] },
+        { "native": "যদি দেরি হয়, তাহলে আমি অপেক্ষা করব।", "roman": "jodi deri hôy, tahole ami ôpekkha korbo.", "en": "If there's a delay, I'll wait.", "focus": "তাহলে", "wrong": ["নাহলে|nahole", "কারণ|karon"] },
+        { "native": "কোন প্ল্যাটফর্ম থেকে ট্রেন ছাড়বে?", "roman": "kon plæṭphôrm theke ṭren chhaṛbe?", "en": "Which platform does the train leave from?" },
+        { "native": "দাদা, এটা কি ভুল প্ল্যাটফর্ম?", "roman": "dada, æṭa ki bhul plæṭphôrm?", "en": "Excuse me, is this the wrong platform?" },
+        { "native": "পাসপোর্টটা সবসময় সঙ্গে রাখবেন।", "roman": "pasporṭṭa shôbshômoy shôṅge rakhben.", "en": "Always keep your passport with you." }
+      ]
+    },
+    {
+      "title": "Lost and stolen",
+      "tip": { "title": "If only…: -তাম", "body": "- For things that didn't happen, use **-তাম** forms in both halves: **যদি** জানতাম, তোমাকে **বলতাম** 'if I'd known, I'd have told you'.\n- Forms: আমি করতাম, তুমি করতে, আপনি করতেন, সে করত.\n- The **-লে** form works here too: আমি **হলে** … করতাম 'if I were you, I'd…'.\n- **যদি** alone is a wish: ইশ, যদি … থাকত! 'if only…!'", "pattern": "যদি + জানতাম, + বলতাম", "grammar": 1 },
+      "new": ["মানিব্যাগ", "চোর", "চুরি", "থানা", "অভিযোগ", "দূতাবাস", "আমার মানিব্যাগ চুরি হয়ে গেছে।", "আমি হারিয়ে গেছি।"],
+      "sentences": [
+        { "native": "আমার পাসপোর্ট চুরি হয়ে গেছে।", "roman": "amar pasporṭ churi hoye gechhe.", "en": "My passport has been stolen.", "focus": "গেছে", "wrong": ["গেছি|gechhi", "গেলাম|gelam"] },
+        { "native": "আমাকে থানায় অভিযোগ করতে হবে।", "roman": "amake thanay obhijog korte hobe.", "en": "I have to report it at the police station.", "focus": "থানায়", "wrong": ["থানা|thana", "থানার|thanar"] },
+        { "native": "যদি জানতাম, ওই রাস্তায় যেতাম না।", "roman": "jodi jantam, oi rastay jetam na.", "en": "If I'd known, I wouldn't have gone down that street.", "focus": "যেতাম", "wrong": ["যাব|jabo", "যাই|jai"] },
+        { "native": "মানিব্যাগটা ব্যাগে রাখলে চুরি হত না।", "roman": "manibægṭa bæge rakhle churi hôto na.", "en": "If I'd kept the wallet in my bag, it wouldn't have been stolen.", "focus": "হত", "wrong": ["হবে|hobe", "হয়|hôy"] },
+        { "native": "যদি চোরটাকে দেখতাম, চিনতে পারতাম।", "roman": "jodi chorṭake dekhtam, chinte partam.", "en": "If I'd seen the thief, I'd have recognised him.", "focus": "পারতাম", "wrong": ["পারব|parbo", "পারি|pari"] },
+        { "native": "তুমি থাকলে আমি হারিয়ে যেতাম না।", "roman": "tumi thakle ami hariye jetam na.", "en": "If you'd been there, I wouldn't have got lost.", "focus": "যেতাম", "wrong": ["যাব|jabo", "যাই|jai"] },
+        { "native": "আমি হলে দূতাবাসে ফোন করতাম।", "roman": "ami hole dutabashe phon kortam.", "en": "If I were you, I'd call the embassy.", "focus": "করতাম", "wrong": ["করব|korbo", "করি|kori"] },
+        { "native": "ইশ, যদি ফোনে চার্জ থাকত!", "roman": "ish, jodi phone charj thakto!", "en": "If only my phone had some charge!", "focus": "থাকত", "wrong": ["থাকে|thake", "থাকবে|thakbe"] },
+        { "native": "আমি হারিয়ে গেছি, এটা কোন রাস্তা?", "roman": "ami hariye gechhi, æṭa kon rasta?", "en": "I'm lost, what street is this?" }
+      ]
+    },
+    {
+      "title": "Help! Emergencies",
+      "tip": { "title": "In an emergency", "body": "- Shout **বাঁচাও!** 'help!' and ask anyone: **কেউ সাহায্য করুন!**\n- Commands to strangers use the polite **-উন** form: পুলিশ **ডাকুন**, অ্যাম্বুলেন্স **ডাকুন**.\n- **আগুন!** 'fire!' Emergency numbers: 999 in Bangladesh, 112 in India." },
+      "new": ["বাঁচাও", "আগুন", "অ্যাম্বুলেন্স", "পুলিশ ডাকা", "বাঁচাও! কেউ সাহায্য করুন!", "পুলিশ ডাকুন!", "একটা অ্যাম্বুলেন্স ডাকুন, তাড়াতাড়ি!", "সবচেয়ে কাছের হাসপাতালটা কোথায়?"],
+      "sentences": [
+        { "native": "তাড়াতাড়ি পুলিশ ডাকুন!", "roman": "taṛataṛi pulish ḍakun!", "en": "Call the police, quickly!", "focus": "ডাকুন", "wrong": ["ডাকি|ḍaki", "ডাকব|ḍakbo"] },
+        { "native": "আমি কি পুলিশ ডাকব?", "roman": "ami ki pulish ḍakbo?", "en": "Shall I call the police?", "focus": "ডাকব", "wrong": ["ডাকুন|ḍakun", "ডাকেন|ḍaken"] },
+        { "native": "আগুন! সবাই বাইরে যান!", "roman": "agun! shôbai baire jan!", "en": "Fire! Everybody out!", "focus": "যান", "wrong": ["যাই|jai", "যাব|jabo"] },
+        { "native": "রান্নাঘরে আগুন লেগেছে!", "roman": "rannaghôre agun legechhe!", "en": "There's a fire in the kitchen!" },
+        { "native": "বাঁচাও! চোর!", "roman": "baṃchao! chor!", "en": "Help! Thief!" },
+        { "native": "অ্যাম্বুলেন্স আসছে, চিন্তা করবেন না।", "roman": "æmbulens ashchhe, chinta korben na.", "en": "The ambulance is coming, don't worry.", "focus": "করবেন", "wrong": ["করব|korbo", "করলাম|korlam"] },
+        { "native": "অ্যাম্বুলেন্সের নম্বর কত?", "roman": "æmbulenser nômbor kôto?", "en": "What's the number for an ambulance?" },
+        { "native": "ওনাকে তাড়াতাড়ি হাসপাতালে নিয়ে যান।", "roman": "onake taṛataṛi hashpatale niye jan.", "en": "Get him to hospital quickly.", "focus": "হাসপাতালে", "wrong": ["হাসপাতাল|hashpatal", "হাসপাতালের|hashpataler"] },
+        { "native": "ওনাকে একটু জল দিন।", "roman": "onake ekṭu jôl din.", "en": "Give him some water.", "focus": "দিন", "wrong": ["দেব|debo", "দিলাম|dilam"] },
+        { "native": "সবচেয়ে কাছের থানাটা কোথায়?", "roman": "shôbcheye kachher thanaṭa kothay?", "en": "Where's the nearest police station?", "focus": "কাছের", "wrong": ["কাছে|kachhe", "কাছাকাছি|kachhakachhi"] }
+      ]
+    },
+    {
+      "title": "Staying safe",
+      "tip": { "title": "Or else: নাহলে", "body": "- **নাহলে** 'otherwise, or else' joins a warning to what could happen: ছাতা নাও, **নাহলে** ভিজে যাবে.\n- The second half is in the future.\n- **সাবধান!** 'watch out!' · **সাবধানে** 'carefully' · **নিরাপদ** 'safe'.", "pattern": "do this, + নাহলে + future", "grammar": 0 },
+      "new": ["বিপদ", "জরুরি", "দুর্ঘটনা", "নিরাপদ", "সাবধান", "নাহলে", "সাবধান! গাড়ি আসছে!"],
+      "sentences": [
+        { "native": "তাড়াতাড়ি চলো, নাহলে বাস ছেড়ে দেবে।", "roman": "taṛataṛi chôlo, nahole bas chheṛe debe.", "en": "Hurry up, or the bus will leave.", "focus": "নাহলে", "wrong": ["তাহলে|tahole", "যদি|jodi"] },
+        { "native": "সাবধানে রাস্তা পার হও, নাহলে দুর্ঘটনা হবে।", "roman": "shabdhane rasta par hôo, nahole durghôṭona hobe.", "en": "Cross the road carefully, or you'll have an accident.", "focus": "নাহলে", "wrong": ["তাহলে|tahole", "তাই|tai"] },
+        { "native": "ছাতা নাও, নাহলে ভিজে যাবে।", "roman": "chhata nao, nahole bhije jabe.", "en": "Take an umbrella, or you'll get soaked.", "focus": "যাবে", "wrong": ["যাব|jabo", "গেলাম|gelam"] },
+        { "native": "পাসপোর্টটা ভালো করে রাখো, নাহলে হারিয়ে যাবে।", "roman": "pasporṭṭa bhalo kore rakho, nahole hariye jabe.", "en": "Keep your passport somewhere safe, or it'll get lost.", "focus": "নাহলে", "wrong": ["তাহলে|tahole", "কারণ|karon"] },
+        { "native": "এই রাস্তাটা রাতে নিরাপদ না।", "roman": "ei rastaṭa rate nirapod na.", "en": "This street isn't safe at night.", "focus": "রাতে", "wrong": ["রাত|rat", "রাতের|rater"] },
+        { "native": "এখানে কি একা হাঁটা নিরাপদ?", "roman": "ekhane ki æka haṃṭa nirapod?", "en": "Is it safe to walk alone here?" },
+        { "native": "আমরা বিপদে পড়েছি, সাহায্য করুন!", "roman": "amra bipode poṛechhi, shahajjo korun!", "en": "We're in trouble, please help!", "focus": "বিপদে", "wrong": ["বিপদ|bipod", "বিপদের|bipoder"] },
+        { "native": "সাবধানে যাবেন, পৌঁছে ফোন করবেন।", "roman": "shabdhane jaben, pouṃchhe phon korben.", "en": "Travel safely, and call when you get there.", "focus": "সাবধানে", "wrong": ["সাবধান|shabdhan", "নিরাপদ|nirapod"] },
+        { "native": "আমার একটা জরুরি ফোন করতে হবে।", "roman": "amar ækṭa joruri phon korte hobe.", "en": "I need to make an urgent call." },
+        { "native": "রাস্তায় একটা দুর্ঘটনা হয়েছে।", "roman": "rastay ækṭa durghôṭona hoyechhe.", "en": "There's been an accident on the road." }
+      ]
+    }
+  ]
 }

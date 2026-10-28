@@ -86,5 +86,84 @@
       { "speaker": "Ravi", "native": "ಇಲ್ಲ, ಇಲ್ಲ, ಸರಿಯಾದ ಸಮಯಕ್ಕೆ ಬರ್ತೀನಿ.", "roman": "illa, illa, sariyāda samayakke bartīni.", "en": "No, no, I'll come on time." }
     ]
   },
-  "culture": "Karnataka has a few uniquely Kannada dates: **ಯುಗಾದಿ** (Ugadi, New Year, March/April), when people eat ಬೇವು-ಬೆಲ್ಲ (neem and jaggery, the bitter and sweet of life), and **ಕನ್ನಡ ರಾಜ್ಯೋತ್ಸವ** on 1 November, celebrating the formation of the Kannada-speaking state in 1956 with red-and-yellow flags everywhere. The ten-day ದಸರಾ festival in Mysuru (Sept/Oct) is the state festival. 'Indian Standard Time' is famously flexible: ಐದು ನಿಮಿಷ 'five minutes' can mean considerably more."
+  "culture": "Karnataka has a few uniquely Kannada dates: **ಯುಗಾದಿ** (Ugadi, New Year, March/April), when people eat ಬೇವು-ಬೆಲ್ಲ (neem and jaggery, the bitter and sweet of life), and **ಕನ್ನಡ ರಾಜ್ಯೋತ್ಸವ** on 1 November, celebrating the formation of the Kannada-speaking state in 1956 with red-and-yellow flags everywhere. The ten-day ದಸರಾ festival in Mysuru (Sept/Oct) is the state festival. 'Indian Standard Time' is famously flexible: ಐದು ನಿಮಿಷ 'five minutes' can mean considerably more.",
+  "lessons": [
+    {
+      "title": "Asking the time",
+      "tip": { "title": "Telling the time", "body": "- **ಎಷ್ಟು ಗಂಟೆ?** 'what time?' → number + **ಗಂಟೆ**: ಆರು ಗಂಟೆ.\n- Half past uses **-ಊವರೆ**: ನಾಲ್ಕೂವರೆ 4:30. Quarter past: ಏಳು ಕಾಲು 7:15. Quarter to: ಎಂಟ**ಕ್ಕೆ** ಕಾಲು ಕಡಿಮೆ 7:45.\n- 'At' a time adds **-ಗೆ**: ಹತ್ತು ಗಂಟೆ**ಗೆ** 'at ten', ಏಳೂವರೆಗೆ 'at 7:30'.", "pattern": "ಈಗ + ಆರು ಗಂಟೆ · ಹತ್ತು ಗಂಟೆ + ಗೆ", "grammar": 0 },
+      "new": ["ಸಮಯ", "ಗಂಟೆ", "ನಿಮಿಷ", "ಈಗ", "ಈಗ ಎಷ್ಟು ಗಂಟೆ?", "ಈಗ ಮೂರೂವರೆ ಗಂಟೆ", "ಐದು ನಿಮಿಷ ಕಾಯಿರಿ"],
+      "sentences": [
+        { "native": "ಈಗ ಆರು ಗಂಟೆ.", "roman": "īga āru gaṇṭe.", "en": "It's six o'clock now.", "focus": "ಗಂಟೆ", "wrong": ["ಗಂಟೆಗೆ|gaṇṭege", "ನಿಮಿಷ|nimiṣa"] },
+        { "native": "ಈಗ ನಾಲ್ಕೂವರೆ.", "roman": "īga nālkūvare.", "en": "It's half past four.", "focus": "ನಾಲ್ಕೂವರೆ", "wrong": ["ನಾಲ್ಕು|nālku", "ನಾಲ್ಕನೇ|nālkanē"] },
+        { "native": "ಈಗ ಏಳು ಕಾಲು.", "roman": "īga ēḷu kālu.", "en": "It's quarter past seven." },
+        { "native": "ಎಂಟಕ್ಕೆ ಕಾಲು ಕಡಿಮೆ.", "roman": "eṇṭakke kālu kaḍime.", "en": "It's quarter to eight.", "focus": "ಎಂಟಕ್ಕೆ", "wrong": ["ಎಂಟು|eṇṭu", "ಎಂಟನೇ|eṇṭanē"] },
+        { "native": "ಕ್ಲಾಸ್ ಹತ್ತು ಗಂಟೆಗೆ.", "roman": "klās hattu gaṇṭege.", "en": "The class is at ten.", "focus": "ಗಂಟೆಗೆ", "wrong": ["ಗಂಟೆ|gaṇṭe", "ಗಂಟೆಯಲ್ಲಿ|gaṇṭeyalli"] },
+        { "native": "ಹತ್ತು ನಿಮಿಷ ಕಾಯಿರಿ, ಬರ್ತೀನಿ.", "roman": "hattu nimiṣa kāyiri, bartīni.", "en": "Wait ten minutes, I'm coming.", "focus": "ನಿಮಿಷ", "wrong": ["ಗಂಟೆಗೆ|gaṇṭege", "ನಿಮಿಷಕ್ಕೆ|nimiṣakke"] },
+        { "native": "ನಿಮಗೆ ಸಮಯ ಇದೆಯಾ?", "roman": "nimage samaya ideyā?", "en": "Do you have time?" },
+        { "native": "ಒಂದೂವರೆ ಗಂಟೆ ಆಗುತ್ತೆ.", "roman": "ondūvare gaṇṭe āgutte.", "en": "It'll take an hour and a half.", "focus": "ಒಂದೂವರೆ", "wrong": ["ಒಂದನೇ|ondanē", "ಅರ್ಧ|ardha"] },
+        { "native": "ಸಿನಿಮಾ ಎಷ್ಟು ಗಂಟೆಗೆ?", "roman": "sinimā eṣṭu gaṇṭege?", "en": "What time is the film?", "focus": "ಗಂಟೆಗೆ", "wrong": ["ಗಂಟೆ|gaṇṭe", "ನಿಮಿಷ|nimiṣa"] }
+      ]
+    },
+    {
+      "title": "Morning, afternoon and night",
+      "tip": { "title": "In the morning, at night", "body": "- Parts of the day (and days) need **no ending** for 'in / at / on': **ಸಂಜೆ** ಫೋನ್ ಮಾಡಿ 'call in the evening'.\n- Put them before the time: ಬೆಳಿಗ್ಗೆ ಏಳು ಗಂಟೆ '7 a.m.', ಸಂಜೆ ಆರು ಗಂಟೆ '6 p.m.', ರಾತ್ರಿ ಹತ್ತು ಗಂಟೆ '10 p.m.'.\n- **ಬೇಗ** early, quickly · **ತಡ** late: ತಡ ಆಯ್ತು 'I'm late'.", "pattern": "ಸಂಜೆ + ಆರು ಗಂಟೆಗೆ (no ending on ಸಂಜೆ)", "grammar": 1 },
+      "new": ["ಬೆಳಿಗ್ಗೆ", "ಮಧ್ಯಾಹ್ನ", "ಸಂಜೆ", "ರಾತ್ರಿ", "ಬೇಗ", "ತಡ", "ತಡ ಆಯ್ತು, ಕ್ಷಮಿಸಿ"],
+      "sentences": [
+        { "native": "ಅಪ್ಪ ಬೆಳಿಗ್ಗೆ ಐದು ಗಂಟೆಗೆ ಏಳ್ತಾರೆ.", "roman": "appa beḷigge aidu gaṇṭege ēḷtāre.", "en": "Dad gets up at 5 a.m.", "focus": "ಬೆಳಿಗ್ಗೆ", "wrong": ["ಬೆಳಿಗ್ಗೆಗೆ|beḷiggege", "ಬೆಳಿಗ್ಗೆಯ|beḷiggeya"] },
+        { "native": "ಸಂಜೆ ಫೋನ್ ಮಾಡಿ.", "roman": "sañje phōn māḍi.", "en": "Call me in the evening.", "focus": "ಸಂಜೆ", "wrong": ["ಸಂಜೆಗೆ|sañjege", "ಸಂಜೆಯ|sañjeya"] },
+        { "native": "ರಾತ್ರಿ ಹತ್ತು ಗಂಟೆಗೆ ಊಟ ಮಾಡ್ತೀವಿ.", "roman": "rātri hattu gaṇṭege ūṭa māḍtīvi.", "en": "We have dinner at ten at night.", "focus": "ಗಂಟೆಗೆ", "wrong": ["ಗಂಟೆ|gaṇṭe", "ಗಂಟೆಯ|gaṇṭeya"] },
+        { "native": "ಮಧ್ಯಾಹ್ನ ಮನೇಲಿ ಯಾರೂ ಇಲ್ಲ.", "roman": "madhyāhna manēli yārū illa.", "en": "There's nobody home in the afternoon.", "focus": "ಮಧ್ಯಾಹ್ನ", "wrong": ["ಮಧ್ಯಾಹ್ನಕ್ಕೆ|madhyāhnakke", "ಮಧ್ಯಾಹ್ನದ|madhyāhnada"] },
+        { "native": "ಬೇಗ ಬನ್ನಿ!", "roman": "bēga banni!", "en": "Come quickly!", "focus": "ಬೇಗ", "wrong": ["ತಡ|taḍa"] },
+        { "native": "ಸಾರಿ, ಸ್ವಲ್ಪ ತಡ ಆಯ್ತು.", "roman": "sāri, svalpa taḍa āytu.", "en": "Sorry, I'm a bit late.", "focus": "ತಡ", "wrong": ["ಬೇಗ|bēga"] },
+        { "native": "ರಾತ್ರಿ ಕಾಫಿ ಬೇಡ.", "roman": "rātri kāphi bēḍa.", "en": "No coffee at night for me." },
+        { "native": "ಸಂಜೆ ಆರು ಗಂಟೆಗೆ ಸಿಗೋಣ.", "roman": "sañje āru gaṇṭege sigōṇa.", "en": "Let's meet at six in the evening.", "focus": "ಗಂಟೆಗೆ", "wrong": ["ಗಂಟೆ|gaṇṭe", "ಗಂಟೆಯ|gaṇṭeya"] }
+      ]
+    },
+    {
+      "title": "Days of the week",
+      "tip": { "title": "Monday to Sunday", "body": "- Every day ends in **-ವಾರ**: ಸೋಮ, ಮಂಗಳ, ಬುಧ, ಗುರು, ಶುಕ್ರ, ಶನಿ, ಭಾನು.\n- Like parts of the day they need no 'on': **ಸೋಮವಾರ** ಬನ್ನಿ 'come on Monday'.\n- **ಈ ವಾರ** this week · **ಮುಂದಿನ ವಾರ** next week · **ಪ್ರತಿ** ಭಾನುವಾರ every Sunday.\n- 'What day is it?' = ಇವತ್ತು ಯಾವ ವಾರ?", "pattern": "ಸೋಮವಾರ + ಬನ್ನಿ" },
+      "new": ["ಇವತ್ತು", "ವಾರ", "ಸೋಮವಾರ", "ಮಂಗಳವಾರ", "ಬುಧವಾರ", "ಗುರುವಾರ", "ಶುಕ್ರವಾರ", "ಶನಿವಾರ", "ಭಾನುವಾರ", "ಇವತ್ತು ಯಾವ ವಾರ?", "ಇವತ್ತು ಶುಕ್ರವಾರ"],
+      "sentences": [
+        { "native": "ಸೋಮವಾರ ಆಫೀಸಿಗೆ ಬನ್ನಿ.", "roman": "sōmavāra āphīsige banni.", "en": "Come to the office on Monday.", "focus": "ಸೋಮವಾರ", "wrong": ["ಸೋಮವಾರದಲ್ಲಿ|sōmavāradalli", "ಸೋಮವಾರದ|sōmavārada"] },
+        { "native": "ಮಂಗಳವಾರ ನನಗೆ ಕ್ಲಾಸ್ ಇದೆ.", "roman": "maṅgaḷavāra nanage klās ide.", "en": "I have a class on Tuesday.", "focus": "ಮಂಗಳವಾರ", "wrong": ["ಮಂಗಳವಾರದಲ್ಲಿ|maṅgaḷavāradalli", "ಮಂಗಳವಾರದ|maṅgaḷavārada"] },
+        { "native": "ಬುಧವಾರ ಸಂಜೆ ಸಿಗೋಣ.", "roman": "budhavāra sañje sigōṇa.", "en": "Let's meet on Wednesday evening.", "focus": "ಬುಧವಾರ", "wrong": ["ಬುಧವಾರದಲ್ಲಿ|budhavāradalli", "ಬುಧವಾರದ|budhavārada"] },
+        { "native": "ಗುರುವಾರ ನಾನು ಮೈಸೂರಿಗೆ ಹೋಗ್ತೀನಿ.", "roman": "guruvāra nānu maisūrige hōgtīni.", "en": "I'm going to Mysuru on Thursday.", "focus": "ಗುರುವಾರ", "wrong": ["ಗುರುವಾರದಲ್ಲಿ|guruvāradalli", "ಗುರುವಾರದ|guruvārada"] },
+        { "native": "ಇವತ್ತು ಶನಿವಾರ ಅಲ್ವಾ?", "roman": "ivattu shanivāra alvā?", "en": "Today's Saturday, isn't it?" },
+        { "native": "ಇಲ್ಲ, ಶನಿವಾರ ಅಲ್ಲ, ಶುಕ್ರವಾರ.", "roman": "illa, shanivāra alla, shukravāra.", "en": "No, it's not Saturday, it's Friday.", "focus": "ಅಲ್ಲ", "wrong": ["ಇಲ್ಲ|illa"] },
+        { "native": "ಪ್ರತಿ ಭಾನುವಾರ ಅಜ್ಜಿ ಮನೆಗೆ ಹೋಗ್ತೀವಿ.", "roman": "prati bhānuvāra ajji manege hōgtīvi.", "en": "Every Sunday we go to Grandma's." },
+        { "native": "ಈ ವಾರ ಸಮಯ ಇಲ್ಲ, ಮುಂದಿನ ವಾರ ಸಿಗೋಣ.", "roman": "ī vāra samaya illa, mundina vāra sigōṇa.", "en": "No time this week; let's meet next week.", "focus": "ಮುಂದಿನ", "wrong": ["ಮುಂದೆ|munde", "ಹಿಂದೆ|hinde"] }
+      ]
+    },
+    {
+      "title": "Today, tomorrow, the day after",
+      "tip": { "title": "'I'll do' = 'I do'", "body": "- The same verb form means 'I do' and 'I will do': ನಾಳೆ **ಬರ್ತೀನಿ** 'I'll come tomorrow', ಆಮೇಲೆ ಫೋನ್ **ಮಾಡ್ತೀನಿ** 'I'll call later'.\n- The ending shows who: ಬರ್ತೀನಿ I · ಬರ್ತೀರ you · ಬರ್ತಾನೆ he · ಬರ್ತಾಳೆ she · ಬರ್ತೀವಿ we · ಬರ್ತಾರೆ they.\n- **-ಓಣ** = 'let's': ಸಿಗೋಣ 'let's meet', ಮಾತಾಡೋಣ 'let's talk'.", "pattern": "ನಾಳೆ + ಬರ್ತೀನಿ · ಆಮೇಲೆ + ಮಾತಾಡೋಣ" },
+      "new": ["ದಿನ", "ನಾಳೆ", "ನಿನ್ನೆ", "ಮೊನ್ನೆ", "ನಾಡಿದ್ದು", "ಆಮೇಲೆ", "ರಜೆ", "ನಾಳೆ ಬೆಳಿಗ್ಗೆ ಹತ್ತು ಗಂಟೆಗೆ ಸಿಗೋಣ", "ಆಮೇಲೆ ಫೋನ್ ಮಾಡ್ತೀನಿ", "ಭಾನುವಾರ ರಜೆ"],
+      "sentences": [
+        { "native": "ನಾಳೆ ಬೆಳಿಗ್ಗೆ ಬರ್ತೀನಿ.", "roman": "nāḷe beḷigge bartīni.", "en": "I'll come tomorrow morning.", "focus": "ಬರ್ತೀನಿ", "wrong": ["ಬರ್ತೀರ|bartīra", "ಬನ್ನಿ|banni"] },
+        { "native": "ನೀವು ನಾಳೆ ಬರ್ತೀರಾ?", "roman": "nīvu nāḷe bartīrā?", "en": "Will you come tomorrow?", "focus": "ಬರ್ತೀರಾ", "wrong": ["ಬರ್ತೀನಿ|bartīni", "ಬರ್ತಾನೆ|bartāne"] },
+        { "native": "ಅವನು ನಾಡಿದ್ದು ಬರ್ತಾನೆ.", "roman": "avanu nāḍiddu bartāne.", "en": "He's coming the day after tomorrow.", "focus": "ಬರ್ತಾನೆ", "wrong": ["ಬರ್ತಾಳೆ|bartāḷe", "ಬರ್ತೀನಿ|bartīni"] },
+        { "native": "ಮಕ್ಕಳು ನಾಳೆ ಬರ್ತಾರೆ.", "roman": "makkaḷu nāḷe bartāre.", "en": "The kids are coming tomorrow.", "focus": "ಬರ್ತಾರೆ", "wrong": ["ಬರ್ತಾನೆ|bartāne", "ಬರ್ತೀನಿ|bartīni"] },
+        { "native": "ನಾಳೆ ಸಂಜೆ ಫೋನ್ ಮಾಡ್ತೀನಿ.", "roman": "nāḷe sañje phōn māḍtīni.", "en": "I'll call tomorrow evening.", "focus": "ಮಾಡ್ತೀನಿ", "wrong": ["ಮಾಡಿ|māḍi", "ಮಾಡ್ತೀರ|māḍtīra"] },
+        { "native": "ನಾವು ಎರಡು ದಿನ ಮೈಸೂರಿನಲ್ಲಿ ಇರ್ತೀವಿ.", "roman": "nāvu eraḍu dina maisūrinalli irtīvi.", "en": "We'll be in Mysuru for two days.", "focus": "ಇರ್ತೀವಿ", "wrong": ["ಇರ್ತೀನಿ|irtīni", "ಇರ್ತಾರೆ|irtāre"] },
+        { "native": "ಆಮೇಲೆ ಮಾತಾಡೋಣ.", "roman": "āmēle mātāḍōṇa.", "en": "Let's talk later.", "focus": "ಮಾತಾಡೋಣ", "wrong": ["ಮಾತಾಡ್ತಾನೆ|mātāḍtāne", "ಮಾತಾಡು|mātāḍu"] },
+        { "native": "ನಾಳೆ ನನಗೆ ರಜೆ.", "roman": "nāḷe nanage raje.", "en": "I've got tomorrow off." },
+        { "native": "ನಿನ್ನೆ ತಡ ಆಯ್ತು.", "roman": "ninne taḍa āytu.", "en": "I was late yesterday." },
+        { "native": "ಮೊನ್ನೆ ಅವರ ಮದುವೆ ಆಯ್ತು.", "roman": "monne avara maduve āytu.", "en": "They got married the other day." }
+      ]
+    },
+    {
+      "title": "Months, dates and birthdays",
+      "new": ["ತಿಂಗಳು", "ಯಾವಾಗ", "ಇವತ್ತು ಎಷ್ಟನೇ ತಾರೀಖು?", "ನಿಮ್ಮ ಹುಟ್ಟುಹಬ್ಬ ಯಾವಾಗ?", "ಮೇ ತಿಂಗಳಲ್ಲಿ"],
+      "sentences": [
+        { "native": "ನನ್ನ ಹುಟ್ಟುಹಬ್ಬ ಜನವರಿಯಲ್ಲಿ.", "roman": "nanna huṭṭuhabba janavariyalli.", "en": "My birthday is in January.", "focus": "ಜನವರಿಯಲ್ಲಿ", "wrong": ["ಜನವರಿ|janavari", "ಜನವರಿಯ|janavariya"] },
+        { "native": "ನಿಮ್ಮ ಅಮ್ಮನ ಹುಟ್ಟುಹಬ್ಬ ಯಾವಾಗ?", "roman": "nimma ammana huṭṭuhabba yāvāga?", "en": "When is your mum's birthday?" },
+        { "native": "ಇವತ್ತು ಹತ್ತನೇ ತಾರೀಖು.", "roman": "ivattu hattanē tārīkhu.", "en": "Today's the tenth." },
+        { "native": "ನೀವು ಯಾವಾಗ ಬರ್ತೀರ?", "roman": "nīvu yāvāga bartīra?", "en": "When are you coming?", "focus": "ಯಾವಾಗ", "wrong": ["ಎಷ್ಟು|eṣṭu", "ಯಾವ|yāva"] },
+        { "native": "ಏಪ್ರಿಲ್, ಮೇ ತಿಂಗಳಲ್ಲಿ ಮಕ್ಕಳಿಗೆ ರಜೆ.", "roman": "ēpril, mē tiṅgaḷalli makkaḷige raje.", "en": "Children have holidays in April and May.", "focus": "ತಿಂಗಳಲ್ಲಿ", "wrong": ["ತಿಂಗಳು|tiṅgaḷu", "ತಿಂಗಳ|tiṅgaḷa"] },
+        { "native": "ಮುಂದಿನ ತಿಂಗಳು ಮದುವೆ.", "roman": "mundina tiṅgaḷu maduve.", "en": "The wedding's next month." },
+        { "native": "ಒಂದು ತಿಂಗಳು ರಜೆ ಇದೆ.", "roman": "ondu tiṅgaḷu raje ide.", "en": "I've got a month off." },
+        { "native": "ರಜೆ ಯಾವಾಗ?", "roman": "raje yāvāga?", "en": "When's the holiday?" }
+      ]
+    }
+  ]
 }

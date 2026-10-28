@@ -85,5 +85,112 @@
       { "speaker": "Sarah", "native": "ضرور. خدا حافظ!", "roman": "zarūr. xudā hāfiz!", "en": "Certainly. Goodbye!" }
     ]
   },
-  "culture": "Sindh's great pilgrimage sites welcome travellers of every faith: the shrine of **Lal Shahbaz Qalandar** at Sehwan, famous for its ecstatic evening *dhamāl* drumming and dancing; **Bhit Shah**, resting place of Shah Abdul Latif; the **Makli necropolis** near Thatta, one of the largest funerary sites in the world; and **Sadhu Bela**, a Hindu temple complex on an island in the Indus at Sukkur. Sindhi people are famously helpful to strangers — if you're lost, ask at a shop, a mosque or a tea stall, and someone will usually take you there personally."
+  "culture": "Sindh's great pilgrimage sites welcome travellers of every faith: the shrine of **Lal Shahbaz Qalandar** at Sehwan, famous for its ecstatic evening *dhamāl* drumming and dancing; **Bhit Shah**, resting place of Shah Abdul Latif; the **Makli necropolis** near Thatta, one of the largest funerary sites in the world; and **Sadhu Bela**, a Hindu temple complex on an island in the Indus at Sukkur. Sindhi people are famously helpful to strangers — if you're lost, ask at a shop, a mosque or a tea stall, and someone will usually take you there personally.",
+  "lessons": [
+    {
+      "title": "Checking into a hotel",
+      "new": ["هوٽل", "ڪرايو", "کليل", "بند", "سامان", "ڪو ڪمرو خالي آهي؟", "هڪ رات جو ڪرايو ڪيترو آهي؟"],
+      "sentences": [
+        { "native": "هي هوٽل سستو آهي؟", "roman": "hī hoṭalu sasto āhe?", "en": "Is this hotel cheap?", "focus": "سستو", "wrong": ["سستي|sastī", "سستا|sastā"] },
+        { "native": "ڪرايو ڏاڍو مهانگو آهي.", "roman": "kirāyo ɗāḍho mahāngo āhe.", "en": "The rate is very expensive.", "focus": "مهانگو", "wrong": ["مهانگي|mahāngī", "مهانگا|mahāngā"] },
+        { "native": "هوٽل اسٽيشن کان ويجهو آهي؟", "roman": "hoṭalu isṭeshana khāṃ vejho āhe?", "en": "Is the hotel near the station?", "focus": "ويجهو", "wrong": ["ويجهي|vejhī", "ويجها|vejhā"] },
+        { "native": "ڪمرو صاف ناهي.", "roman": "kamiro sāfu nāhe.", "en": "The room isn't clean." },
+        { "native": "سامان هتي رکجو.", "roman": "sāmānu hite rakhijo.", "en": "Please leave the luggage here." },
+        { "native": "منهنجو سامان ڪمري ۾ کڻي اچو.", "roman": "munhinjo sāmānu kamire meṃ khaṇī acho.", "en": "Please bring my luggage to the room." },
+        { "native": "بازار ڪيتري وڳي تائين کليل آهي؟", "roman": "bāzāru ketire vaɠe tāīṃ khulyalu āhe?", "en": "Until what time is the bazaar open?", "focus": "تائين", "wrong": ["کان|khāṃ", "تان|tāṃ"] },
+        { "native": "معاف ڪجو، دڪان بند آهي.", "roman": "māf kajo, dukānu bandu āhe.", "en": "Sorry, the shop is closed." },
+        { "native": "بئنڪ آچر تي بند هوندي آهي.", "roman": "bainka āchara te bandu hundī āhe.", "en": "The bank is closed on Sundays.", "focus": "هوندي", "wrong": ["هوندو|hundo", "هوندا|hundā"] },
+        { "native": "دري کليل آهي، بند ڪجو.", "roman": "darī khulyalu āhe, bandu kajo.", "en": "The window's open — please close it." }
+      ]
+    },
+    {
+      "title": "Tickets, trains and papers",
+      "tip": { "title": "Ticket for, train from", "body": "- A ticket *for* a place = **لاءِ**: سکر **لاءِ** ٽڪيٽ.\n- Leaving *from* a platform = **تان** (off, from on top of): ٻئي پليٽ فارم **تان**.\n- One ٽڪيٽ, two **ٽڪيٽون**." },
+      "new": [
+        "ٽڪيٽ",
+        "پليٽ فارم",
+        "ويزا",
+        "سفارتخانو",
+        "سکر لاءِ ٻه ٽڪيٽون ڏيو.",
+        "ٽرين ڪهڙي پليٽ فارم تان ويندي؟",
+        "مون کي پنهنجي سفارتخاني سان ڳالهائڻو آهي."
+      ],
+      "sentences": [
+        { "native": "حيدرآباد لاءِ هڪ ٽڪيٽ ڏيو.", "roman": "haidarābād lāi hika ṭikeṭa ɗiyo.", "en": "One ticket to Hyderabad, please.", "focus": "لاءِ", "wrong": ["تان|tāṃ", "۾|meṃ"] },
+        { "native": "ٽڪيٽ ڪيترن جي آهي؟", "roman": "ṭikeṭa ketiran jī āhe?", "en": "How much is the ticket?", "focus": "جي", "wrong": ["جو|jo", "جا|jā"] },
+        { "native": "ٽرين ٻئي پليٽ فارم تان ويندي.", "roman": "ṭreni ɓie pleṭ fārma tāṃ vendī.", "en": "The train leaves from platform two.", "focus": "تان", "wrong": ["لاءِ|lāi", "جو|jo"] },
+        { "native": "مون وٽ ٽڪيٽ ناهي.", "roman": "moṃ vaṭi ṭikeṭa nāhe.", "en": "I haven't got a ticket." },
+        { "native": "پاڪستان لاءِ ويزا گهرجي؟", "roman": "pākistāna lāi vīzā ghurje?", "en": "Do you need a visa for Pakistan?", "focus": "لاءِ", "wrong": ["تان|tāṃ", "۾|meṃ"] },
+        { "native": "سفارتخانو ڪٿي آهي؟", "roman": "sifāratxāno kithe āhe?", "en": "Where is the embassy?" },
+        { "native": "سفارتخانو سومر کان جمعي تائين کليل آهي.", "roman": "sifāratxāno sūmara khāṃ jumʿe tāīṃ khulyalu āhe.", "en": "The embassy is open Monday to Friday.", "focus": "کان", "wrong": ["تان|tāṃ", "لاءِ|lāi"] },
+        { "native": "منهنجي ويزا ختم ٿي وئي آهي.", "roman": "munhinjī vīzā xatmu thī vaī āhe.", "en": "My visa has expired." },
+        { "native": "مون کي ٽي ٽڪيٽون گهرجن.", "roman": "moṃ khe ṭe ṭikeṭūṃ ghurjan.", "en": "I need three tickets.", "focus": "گهرجن", "wrong": ["گهرجي|ghurje"] }
+      ]
+    },
+    {
+      "title": "If…, then…",
+      "tip": { "title": "جيڪڏهن … ته …", "body": "- **جيڪڏهن** 'if' starts the first half, **ته** 'then' starts the second — keep the ته.\n- The if-half can be present, the verb without ٿو, or even past: جيڪڏهن وقت **مليو** ته … 'if we get time…'.\n- The then-half is usually future or a request.\n- **نه ته** = otherwise: جلدي ڪريو، **نه ته** …", "pattern": "جيڪڏهن + … + ته + future / request", "grammar": 0 },
+      "new": ["جيڪڏهن", "نه ته", "محفوظ", "خطرو", "ڀلجڻ", "هتي محفوظ آهي؟", "مان رستو ڀلجي ويو آهيان."],
+      "sentences": [
+        { "native": "جيڪڏهن توهان رستو ڀلجي وڃو ته مون کي فون ڪجو.", "roman": "jekaɗahiṃ tavhāṃ rasto bhulijī vaño ta moṃ khe fon kajo.", "en": "If you lose your way, give me a call.", "focus": "ته", "wrong": ["۽|ai", "پر|para"] },
+        { "native": "جيڪڏهن هتي خطرو آهي ته اسين ٻئي هوٽل ۾ هلون.", "roman": "jekaɗahiṃ hite xatiro āhe ta asīṃ ɓie hoṭala meṃ halūṃ.", "en": "If it's dangerous here, let's go to another hotel.", "focus": "جيڪڏهن", "wrong": ["ڇاڪاڻ|chhākāṇa", "جيتوڻيڪ|jetoṇīka"] },
+        { "native": "جيڪڏهن بس نه آئي ته ٽيڪسي وٺنداسين.", "roman": "jekaɗahiṃ basa na āī ta ṭaiksī vaṭhandāsīṃ.", "en": "If the bus doesn't come, we'll take a taxi.", "focus": "وٺنداسين", "wrong": ["وٺندس|vaṭhandus", "وٺندو|vaṭhando"] },
+        { "native": "جيڪڏهن توهان کي بک لڳي ته ماني کائو.", "roman": "jekaɗahiṃ tavhāṃ khe bukha laɠe ta mānī khāo.", "en": "If you get hungry, have something to eat.", "focus": "ته", "wrong": ["۽|ai", "پر|para"] },
+        { "native": "جيڪڏهن وقت مليو ته ڀٽ شاهه وينداسين.", "roman": "jekaɗahiṃ vaqtu milyo ta bhiṭ shāh vendāsīṃ.", "en": "If we get time, we'll go to Bhit Shah.", "focus": "ته", "wrong": ["۽|ai", "پر|para"] },
+        { "native": "جلدي ڪريو، نه ته دير ٿي ويندي.", "roman": "jaldī karyo, na ta dera thī vendī.", "en": "Hurry up, or we'll be late." },
+        { "native": "رات جو ٻاهر نه وڃو، خطرو آهي.", "roman": "rāti jo ɓāhari na vaño, xatiro āhe.", "en": "Don't go out at night, it's dangerous." },
+        { "native": "اسين هتي محفوظ آهيون.", "roman": "asīṃ hite mahfūzu āhyūṃ.", "en": "We're safe here." },
+        { "native": "هوءَ رستو ڀلجي وئي آهي.", "roman": "hūa rasto bhulijī vaī āhe.", "en": "She's lost her way.", "focus": "وئي", "wrong": ["ويو|vayo", "ويا|vayā"] }
+      ]
+    },
+    {
+      "title": "Lost and stolen",
+      "tip": { "title": "It got lost, it was stolen", "body": "- Things *get* lost or stolen — the verb agrees with the thing: فون **گم ٿي ويو**، ڪنجي **گم ٿي وئي**، پئسا **چوري ٿي ويا**.\n- Add **آهي** for 'has been': چوري ٿي ويو **آهي**.\n- **پوليس** is feminine: پوليس اچي **رهي** آهي." },
+      "new": ["گم", "چور", "چوري", "پوليس", "منهنجو سامان گم ٿي ويو آهي.", "منهنجو پرس چوري ٿي ويو!"],
+      "sentences": [
+        { "native": "منهنجي ٽڪيٽ گم ٿي وئي آهي.", "roman": "munhinjī ṭikeṭa gumu thī vaī āhe.", "en": "I've lost my ticket.", "focus": "وئي", "wrong": ["ويو|vayo", "ويا|vayā"] },
+        { "native": "منهنجو فون چوري ٿي ويو آهي.", "roman": "munhinjo fon chorī thī vayo āhe.", "en": "My phone has been stolen.", "focus": "ويو", "wrong": ["وئي|vaī", "ويا|vayā"] },
+        { "native": "منهنجا پئسا چوري ٿي ويا.", "roman": "munhinjā paisā chorī thī vayā.", "en": "My money was stolen.", "focus": "ويا", "wrong": ["ويو|vayo", "وئي|vaī"] },
+        { "native": "چور ڪيڏانهن ويو؟", "roman": "choru keɗāṃhaṃ vayo?", "en": "Which way did the thief go?", "focus": "ويو", "wrong": ["وئي|vaī", "ويا|vayā"] },
+        { "native": "پوليس اچي رهي آهي.", "roman": "pulīsa achī rahī āhe.", "en": "The police are coming.", "focus": "رهي", "wrong": ["رهيو|rahyo", "رهيا|rahyā"] },
+        { "native": "بس ۾ هڪ چوري ٿي.", "roman": "basa meṃ hika chorī thī.", "en": "There was a theft on the bus.", "focus": "ٿي", "wrong": ["ٿيو|thiyo", "ٿيا|thiyā"] },
+        { "native": "ٻار گم ٿي ويو آهي!", "roman": "ɓāru gumu thī vayo āhe!", "en": "A child has gone missing!", "focus": "ويو", "wrong": ["وئي|vaī", "ويا|vayā"] },
+        { "native": "منهنجي اجرڪ چوري ٿي وئي!", "roman": "munhinjī ajraka chorī thī vaī!", "en": "My ajrak has been stolen!", "focus": "وئي", "wrong": ["ويو|vayo", "ويا|vayā"] },
+        { "native": "پوليس کي ٻڌايو.", "roman": "pulīsa khe ɓudhāyo.", "en": "Tell the police." }
+      ]
+    },
+    {
+      "title": "Emergencies",
+      "tip": { "title": "Getting help fast", "body": "- Shout **بچايو!** 'help!' and **مدد ڪريو!**\n- Call someone = … **کي سڏيو**; send for an ambulance = ايمبولينس **گهرايو**.\n- Numbers: **15** police, **1122** rescue and ambulance, **115** Edhi." },
+      "new": ["حادثو", "زخمي", "ايمبولينس", "باهه", "بچايو", "بچايو! مدد ڪريو!", "پوليس کي سڏيو!", "جلدي ايمبولينس گهرايو، هو زخمي آهي.", "ويجهي اسپتال ڪٿي آهي؟"],
+      "sentences": [
+        { "native": "حادثو ٿيو آهي!", "roman": "hādiso thiyo āhe!", "en": "There's been an accident!", "focus": "ٿيو", "wrong": ["ٿي|thī", "ٿيا|thiyā"] },
+        { "native": "باهه لڳي آهي! ٻاهر نڪرو!", "roman": "bāhi laɠī āhe! ɓāhari nikiro!", "en": "There's a fire! Get out!", "focus": "لڳي", "wrong": ["لڳو|laɠo", "لڳا|laɠā"] },
+        { "native": "ڪو زخمي آهي؟", "roman": "ko zaxmī āhe?", "en": "Is anyone hurt?" },
+        { "native": "ٻه ماڻهو زخمي آهن.", "roman": "ɓa māṇhū zaxmī āhin.", "en": "Two people are injured.", "focus": "آهن", "wrong": ["آهي|āhe", "آهيون|āhyūṃ"] },
+        { "native": "ايمبولينس جلدي ايندي.", "roman": "embulensa jaldī endī.", "en": "The ambulance will be here soon.", "focus": "ايندي", "wrong": ["ايندو|endo", "ايندا|endā"] },
+        { "native": "هن کي اسپتال وٺي هلو.", "roman": "hun khe ispatāla vaṭhī halo.", "en": "Take him to the hospital." },
+        { "native": "ڊاڪٽر کي سڏيو!", "roman": "ḍākṭara khe saɗyo!", "en": "Call a doctor!", "focus": "سڏيو", "wrong": ["سڏڻ|saɗaṇu", "سڏي|saɗe"] },
+        { "native": "حادثي ۾ ڪو زخمي نه ٿيو.", "roman": "hādise meṃ ko zaxmī na thiyo.", "en": "No one was hurt in the accident.", "focus": "حادثي", "wrong": ["حادثو|hādiso", "حادثا|hādisā"] },
+        { "native": "پريشان نه ٿيو، توهان محفوظ آهيو.", "roman": "pareshānu na thiyo, tavhāṃ mahfūzu āhyo.", "en": "Don't worry, you're safe." },
+        { "native": "بچايو! هتي باهه آهي!", "roman": "bachāyo! hite bāhi āhe!", "en": "Help! There's a fire here!" }
+      ]
+    },
+    {
+      "title": "If only I had known",
+      "tip": { "title": "جيڪر … ها — things that didn't happen", "body": "- For imagined or missed chances use **جيڪر** 'if' and put **ها** after the verb in **both** halves.\n- The verbs take the 'may I' form: هجي، اچان، ڪري.\n- جيڪر مون کي خبر **هجي ها** ته مان **اچان ها** = if I'd known, I'd have come.", "pattern": "جيڪر + verb + ها، ته + verb + ها", "grammar": 1 },
+      "new": ["ڳولڻ", "شڪايت", "ٿاڻو", "پاسپورٽ"],
+      "sentences": [
+        { "native": "جيڪر مون کي خبر هجي ها ته مان توهان کي ٻڌايان ها.", "roman": "jekar moṃ khe xabara huje hā ta māṃ tavhāṃ khe ɓudhāyāṃ hā.", "en": "If I'd known, I would have told you.", "focus": "هجي", "wrong": ["آهي|āhe", "هو|ho"] },
+        { "native": "جيڪر پاسپورٽ هوٽل ۾ هجي ها ته گم نه ٿئي ها.", "roman": "jekar pāsporṭu hoṭala meṃ huje hā ta gumu na thie hā.", "en": "If the passport had been in the hotel, it wouldn't have got lost.", "focus": "ٿئي", "wrong": ["ٿيندو|thīndo", "ٿيو|thiyo"] },
+        { "native": "جيڪر مون وٽ وقت هجي ها ته مان به اچان ها.", "roman": "jekar moṃ vaṭi vaqtu huje hā ta māṃ bi achāṃ hā.", "en": "If I'd had time, I'd have come too.", "focus": "اچان", "wrong": ["ايندس|endus", "آيس|āyus"] },
+        { "native": "جيڪر اسين جلدي نڪرون ها ته ٽرين ملي وڃي ها.", "roman": "jekar asīṃ jaldī nikirūṃ hā ta ṭreni milī vañe hā.", "en": "If we'd left early, we'd have caught the train.", "focus": "نڪرون", "wrong": ["نڪتاسين|niktāsīṃ", "نڪرنداسين|nikirandāsīṃ"] },
+        { "native": "جيڪر هو هتي هجي ها ته اسان جي مدد ڪري ها.", "roman": "jekar hū hite huje hā ta asāṃ jī madada kare hā.", "en": "If he were here, he would help us.", "focus": "هجي", "wrong": ["آهي|āhe", "هو|ho"] },
+        { "native": "جيڪر توهان ٿاڻي تي شڪايت ڪريو ها ته پوليس ڳولي ها.", "roman": "jekar tavhāṃ thāṇe te shikāyata karyo hā ta pulīsa ɠole hā.", "en": "If you'd reported it at the police station, the police would have looked for it." },
+        { "native": "اسان سڄو ڏينهن پاسپورٽ ڳوليو.", "roman": "asāṃ saʄo ɗīṃhu pāsporṭu ɠolyo.", "en": "We looked for the passport all day.", "focus": "ڳوليو", "wrong": ["ڳولي|ɠolī", "ڳوليا|ɠolyā"] },
+        { "native": "مان پنهنجي ڪنجي پيو ڳوليان.", "roman": "māṃ panhinjī kunjī peyo ɠolyāṃ.", "en": "I'm looking for my key. (man)" },
+        { "native": "ٿاڻي تي شڪايت ڪريو.", "roman": "thāṇe te shikāyata karyo.", "en": "Make a complaint at the police station." }
+      ]
+    }
+  ]
 }

@@ -87,5 +87,92 @@
       { "speaker": "Shopkeeper", "native": "ٺيڪ آهي سائين. مبارڪ هجي! وري اچجو.", "roman": "ṭhīku āhe sāīṃ. mubārak huje! varī achijo.", "en": "Alright sir. Congratulations (on your purchase)! Do come again." }
     ]
   },
-  "culture": "Hyderabad's **Shahi Bazaar** is one of the longest bazaars in South Asia, running from the old fort through the heart of the city, and the city is famous across Pakistan for its glass **bangles** (چوڙيون). Sindhi crafts include ajrak printing, **ralli** (رلي) patchwork quilts, mirror-work embroidery (ڀرت), lacquered woodwork from Hala, and Thari handloom. Bargaining is normal in markets and with rickshaws, but not in malls, pharmacies or fixed-price shops."
+  "culture": "Hyderabad's **Shahi Bazaar** is one of the longest bazaars in South Asia, running from the old fort through the heart of the city, and the city is famous across Pakistan for its glass **bangles** (چوڙيون). Sindhi crafts include ajrak printing, **ralli** (رلي) patchwork quilts, mirror-work embroidery (ڀرت), lacquered woodwork from Hala, and Thari handloom. Bargaining is normal in markets and with rickshaws, but not in malls, pharmacies or fixed-price shops.",
+  "lessons": [
+    {
+      "title": "How much is it?",
+      "tip": { "title": "ڪيترن جو؟ — of how many (rupees)?", "body": "- Ask a price with **ڪيترن جو / جي / جا** — it agrees with the thing: انب ڪيترن **جو**؟ چانهه ڪيترن **جي**؟ انب (pl) ڪيترن **جا**؟\n- In the answer the rupees go oblique: ٻه سؤ **رپين** جو.\n- At the till: ڪيترا پئسا ٿيا؟ 'how much does it come to?'", "pattern": "thing + ڪيترن جو / جي / جا آهي؟", "grammar": 1 },
+      "new": ["قيمت", "پئسا", "رپيو", "نقد", "هي ڪيترن جو آهي؟", "هن جي قيمت ڪيتري آهي؟", "ٻارهن سؤ رپيا.", "ڪارڊ هلندو؟"],
+      "sentences": [
+        { "native": "هي انب ڪيترن جا آهن؟", "roman": "hī anba ketiran jā āhin?", "en": "How much are these mangoes?", "focus": "جا", "wrong": ["جو|jo", "جي|jī"] },
+        { "native": "چانهه ڪيترن جي آهي؟", "roman": "chānhi ketiran jī āhe?", "en": "How much is the tea?", "focus": "جي", "wrong": ["جو|jo", "جا|jā"] },
+        { "native": "هڪ ڪلو ڪيترن جو آهي؟", "roman": "hiku kilo ketiran jo āhe?", "en": "How much for a kilo?", "focus": "جو", "wrong": ["جا|jā", "جي|jī"] },
+        { "native": "هڪ ڪلو ٻه سؤ رپين جو آهي.", "roman": "hiku kilo ɓa sau rupayan jo āhe.", "en": "A kilo is two hundred rupees.", "focus": "رپين", "wrong": ["رپيا|rupayā", "رپيو|rupayo"] },
+        { "native": "هي چانهه ويهن رپين جي آهي.", "roman": "hī chānhi vīhan rupayan jī āhe.", "en": "This tea is twenty rupees.", "focus": "جي", "wrong": ["جو|jo", "جا|jā"] },
+        { "native": "ادا، ڪيترا پئسا ٿيا؟", "roman": "adā, ketirā paisā thiyā?", "en": "Brother, how much does it come to?", "focus": "ڪيترا", "wrong": ["ڪيترو|ketiro", "ڪيتري|ketirī"] },
+        { "native": "انب جي قيمت ڪيتري آهي؟", "roman": "anba jī qīmata ketirī āhe?", "en": "What's the price of the mangoes?", "focus": "ڪيتري", "wrong": ["ڪيترو|ketiro", "ڪيترا|ketirā"] },
+        { "native": "مون وٽ نقد ناهي.", "roman": "moṃ vaṭi naqdu nāhe.", "en": "I don't have cash." },
+        { "native": "نقد يا ڪارڊ؟", "roman": "naqdu yā kārḍu?", "en": "Cash or card?" },
+        { "native": "مون کي سؤ رپيا گهرجن.", "roman": "moṃ khe sau rupayā ghurjan.", "en": "I need a hundred rupees." }
+      ]
+    },
+    {
+      "title": "Cheap, dear and a good price",
+      "tip": { "title": "Bargaining with a smile", "body": "- **سستو** cheap and **مهانگو** expensive agree with the thing: مهانگو (m), **مهانگي** (f), **مهانگا** (pl).\n- Ask for a better price: ٿورو گهٽ ڪريو · آخري قيمت ڇا آهي؟ · ڪا رعايت آهي؟\n- Keep it friendly — ادا and سائين help.", "pattern": "thing + مهانگو / مهانگي / مهانگا + آهي" },
+      "new": ["سستو", "مهانگو", "رعايت", "دڪاندار", "اهو تمام مهانگو آهي!", "ٿورو گهٽ ڪريو، ادا.", "آخري قيمت ڇا آهي؟"],
+      "sentences": [
+        { "native": "ٽيڪسي مهانگي آهي، رڪشا سستو آهي.", "roman": "ṭaiksī mahāngī āhe, rikshā sasto āhe.", "en": "A taxi is expensive, a rickshaw is cheap.", "focus": "مهانگي", "wrong": ["مهانگو|mahāngo", "مهانگا|mahāngā"] },
+        { "native": "انب ڏاڍا مهانگا آهن.", "roman": "anba ɗāḍhā mahāngā āhin.", "en": "The mangoes are very expensive.", "focus": "مهانگا", "wrong": ["مهانگو|mahāngo", "مهانگي|mahāngī"] },
+        { "native": "هي دڪان سستو آهي.", "roman": "hī dukānu sasto āhe.", "en": "This shop is cheap.", "focus": "سستو", "wrong": ["سستي|sastī", "سستا|sastā"] },
+        { "native": "بازار ۾ ماني سستي آهي.", "roman": "bāzāra meṃ mānī sastī āhe.", "en": "Food is cheap in the bazaar.", "focus": "سستي", "wrong": ["سستو|sasto", "سستا|sastā"] },
+        { "native": "ادا، ڪا رعايت آهي؟", "roman": "adā, kā riʿāyata āhe?", "en": "Brother, is there any discount?" },
+        { "native": "دڪاندار رعايت نٿو ڏئي.", "roman": "dukāndāru riʿāyata natho ɗie.", "en": "The shopkeeper won't give a discount.", "focus": "نٿو", "wrong": ["نٿي|nathī", "نٿا|nathā"] },
+        { "native": "دڪاندار سٺو ماڻهو آهي.", "roman": "dukāndāru suṭho māṇhū āhe.", "en": "The shopkeeper is a nice man." },
+        { "native": "ٽي سؤ ٺيڪ آهي؟", "roman": "ṭe sau ṭhīku āhe?", "en": "Is three hundred OK?" },
+        { "native": "گاڏي ڏاڍي مهانگي آهي.", "roman": "gāɗī ɗāḍhī mahāngī āhe.", "en": "The car is very expensive.", "focus": "مهانگي", "wrong": ["مهانگو|mahāngo", "مهانگا|mahāngā"] },
+        { "native": "ڪراچيءَ ۾ ڪپڙا سستا آهن؟", "roman": "karāchīa meṃ kapiṛā sastā āhin?", "en": "Are clothes cheap in Karachi?", "focus": "سستا", "wrong": ["سستو|sasto", "سستي|sastī"] }
+      ]
+    },
+    {
+      "title": "This one, that one",
+      "tip": { "title": "هي · هو · اهو — this, that, it", "body": "- **هي** 'this' (written **هيءُ** m, **هيءَ** f) · **هو / هوءَ** 'that over there' · **اهو / اها / اهي** 'that, it' (something just mentioned).\n- Before a postposition they change: هي → **هن**, اهو → **ان**: هن اجرڪ جي قيمت · ان دڪان ۾.\n- They go before the noun like adjectives: **هيءَ** ٽوپي، **اهو** دڪان.", "pattern": "هيءُ / هيءَ / اهو / اها / اهي + noun", "grammar": 0 },
+      "new": ["هيءُ", "هيءَ", "اهو", "اها", "اهي", "ٽوپي", "اجرڪ", "وٺڻ", "چڱو، مان هيءَ وٺان ٿو."],
+      "sentences": [
+        { "native": "هيءَ ٽوپي سهڻي آهي.", "roman": "hīa ṭopī sohaṇī āhe.", "en": "This cap is lovely.", "focus": "هيءَ", "wrong": ["هيءُ|hīu", "اهو|uho"] },
+        { "native": "هيءُ انب مٺو آهي.", "roman": "hīu anbu miṭho āhe.", "en": "This mango is sweet.", "focus": "هيءُ", "wrong": ["هيءَ|hīa", "اها|uhā"] },
+        { "native": "اها اجرڪ ڪيترن جي آهي؟", "roman": "uhā ajraka ketiran jī āhe?", "en": "How much is that ajrak?", "focus": "اها", "wrong": ["اهو|uho", "اهي|uhe"] },
+        { "native": "اهو دڪان سستو آهي.", "roman": "uho dukānu sasto āhe.", "en": "That shop is cheap.", "focus": "اهو", "wrong": ["اها|uhā", "اهي|uhe"] },
+        { "native": "اهي ٽوپيون سنڌي آهن.", "roman": "uhe ṭopyūṃ sindhī āhin.", "en": "Those caps are Sindhi.", "focus": "اهي", "wrong": ["اهو|uho", "اها|uhā"] },
+        { "native": "هن اجرڪ جي قيمت ڪيتري آهي؟", "roman": "hin ajraka jī qīmata ketirī āhe?", "en": "What's the price of this ajrak?", "focus": "هن", "wrong": ["هي|hī", "هيءَ|hīa"] },
+        { "native": "ان دڪان ۾ اجرڪ سستي آهي.", "roman": "un dukāna meṃ ajraka sastī āhe.", "en": "Ajraks are cheap in that shop.", "focus": "ان", "wrong": ["اهو|uho", "اها|uhā"] },
+        { "native": "مان هيءَ ٽوپي وٺان ٿي.", "roman": "māṃ hīa ṭopī vaṭhāṃ thī.", "en": "I'll take this cap. (woman)", "focus": "وٺان", "wrong": ["وٺي|vaṭhe", "وٺو|vaṭho"] },
+        { "native": "اهي ماڻهو ڪير آهن؟", "roman": "uhe māṇhū ker āhin?", "en": "Who are those people?", "focus": "اهي", "wrong": ["اهو|uho", "اها|uhā"] },
+        { "native": "اجرڪ وٺو، سائين، ڏاڍي سهڻي آهي.", "roman": "ajraka vaṭho, sāīṃ, ɗāḍhī sohaṇī āhe.", "en": "Take an ajrak, sir, it's really beautiful." }
+      ]
+    },
+    {
+      "title": "Clothes: the blue one, please",
+      "tip": { "title": "وارو — the … one", "body": "- **وارو** after a word means 'the … one': هي **وارو** 'this one', اهو **وارو** 'that one'.\n- It agrees with the thing: وارو (m), **واري** (f), وارا (m pl), **واريون** (f pl).\n- Colours go oblique before it: ڳاڙهي **واري** ٽوپي 'the red cap'.\n- 'Show me' = مون کي … **ڏيکاريو**.", "pattern": "colour / هي / اهو + وارو · واري" },
+      "new": ["وارو", "قميص", "شلوار", "ڪپڙو", "جتي", "چوڙي", "ڏيکارڻ", "مون کي هوءَ نيري قميص ڏيکاريو.", "هي وارو نه، اهو وارو."],
+      "sentences": [
+        { "native": "هيءَ قميص نه، اها واري.", "roman": "hīa qamīsa na, uhā vārī.", "en": "Not this shirt — that one.", "focus": "واري", "wrong": ["وارو|vāro", "وارا|vārā"] },
+        { "native": "مون کي ڳاڙهي واري ٽوپي گهرجي.", "roman": "moṃ khe ɠāṛhī vārī ṭopī ghurje.", "en": "I want the red cap.", "focus": "واري", "wrong": ["وارو|vāro", "وارا|vārā"] },
+        { "native": "نيري شلوار ڏيکاريو.", "roman": "nīrī shalvāra ɗekhāryo.", "en": "Show me the blue shalwar.", "focus": "ڏيکاريو", "wrong": ["ڏيکارڻ|ɗekhāraṇu", "ڏيکاري|ɗekhāre"] },
+        { "native": "ڪاري واريون جتيون ڏيکاريو.", "roman": "kārī vāryūṃ jutyūṃ ɗekhāryo.", "en": "Show me the black shoes.", "focus": "واريون", "wrong": ["وارو|vāro", "واري|vārī"] },
+        { "native": "هي وارو ڪپڙو سستو آهي.", "roman": "hī vāro kapiṛo sasto āhe.", "en": "This cloth here is cheap.", "focus": "وارو", "wrong": ["واري|vārī", "وارا|vārā"] },
+        { "native": "ننڍي واري جتي ڏيکاريو.", "roman": "nanḍhī vārī jutī ɗekhāryo.", "en": "Show me the smaller shoe.", "focus": "واري", "wrong": ["وارو|vāro", "وارا|vārā"] },
+        { "native": "هي ڪپڙو ڏاڍو سٺو آهي.", "roman": "hī kapiṛo ɗāḍho suṭho āhe.", "en": "This cloth is really good." },
+        { "native": "هوءَ چوڙي ڏاڍي سهڻي آهي.", "roman": "hūa chūṛī ɗāḍhī sohaṇī āhe.", "en": "That bangle over there is very pretty." },
+        { "native": "چوڙيون ڏيکاريو، ادا.", "roman": "chūṛyūṃ ɗekhāryo, adā.", "en": "Show me the bangles, brother.", "focus": "ڏيکاريو", "wrong": ["ڏيکارڻ|ɗekhāraṇu", "ڏيکاري|ɗekhāre"] },
+        { "native": "اڇي قميص ۽ ڪاري شلوار سهڻي آهي.", "roman": "achhī qamīsa ai kārī shalvāra sohaṇī āhe.", "en": "A white shirt and black shalwar look nice." }
+      ]
+    },
+    {
+      "title": "Paying and taking it home",
+      "tip": { "title": "Buy, give, sell", "body": "- In everyday speech 'buy' is **وٺڻ** 'take'; **خريد ڪرڻ** is a little more formal.\n- 'Give me' = مون کي … **ڏيو**; the shopkeeper asks **ٻيو ڪجهه**؟ 'anything else?'\n- 'Sell' = **وڪڻڻ**: هو چوڙيون **وڪڻي ٿو**." },
+      "new": ["خريد ڪرڻ", "ڏيڻ", "وڪڻڻ", "ٿيلهو", "سائيز", "ٻيو ڪجهه", "ڪا وڏي سائيز آهي؟", "ٿيلهو ملندو؟"],
+      "sentences": [
+        { "native": "مون کي ٻه ٿيلها ڏيو.", "roman": "moṃ khe ɓa thelhā ɗiyo.", "en": "Give me two bags, please.", "focus": "ڏيو", "wrong": ["ڏيڻ|ɗiyaṇu", "ڏئي|ɗie"] },
+        { "native": "هي دڪاندار چوڙيون وڪڻي ٿو.", "roman": "hī dukāndāru chūṛyūṃ vikiṇe tho.", "en": "This shopkeeper sells bangles.", "focus": "وڪڻي", "wrong": ["وڪڻن|vikiṇan", "وڪڻو|vikiṇo"] },
+        { "native": "اسين بازار مان ڪپڙا خريد ڪريون ٿا.", "roman": "asīṃ bāzāra māṃ kapiṛā xarīdu karyūṃ thā.", "en": "We buy clothes from the bazaar.", "focus": "ڪريون", "wrong": ["ڪريان|karyāṃ", "ڪريو|karyo"] },
+        { "native": "ٻيو ڪجهه گهرجي؟", "roman": "ɓiyo kujhu ghurje?", "en": "Do you need anything else?" },
+        { "native": "نه، ٻيو ڪجهه نه، مهرباني.", "roman": "na, ɓiyo kujhu na, meharbānī.", "en": "No, nothing else, thanks." },
+        { "native": "هيءَ قميص منهنجي سائيز ناهي.", "roman": "hīa qamīsa munhinjī sāiza nāhe.", "en": "This shirt isn't my size.", "focus": "منهنجي", "wrong": ["منهنجو|munhinjo", "منهنجا|munhinjā"] },
+        { "native": "مان هتان هميشه ڪپڙا وٺان ٿي.", "roman": "māṃ hitāṃ hamesha kapiṛā vaṭhāṃ thī.", "en": "I always buy my clothes here. (woman)", "focus": "وٺان", "wrong": ["وٺي|vaṭhe", "وٺو|vaṭho"] },
+        { "native": "تون اجرڪ ڪٿان وٺين ٿو؟", "roman": "tūṃ ajraka kithāṃ vaṭheṃ tho?", "en": "Where do you buy your ajraks? (to a man)", "focus": "وٺين", "wrong": ["وٺان|vaṭhāṃ", "وٺن|vaṭhan"] },
+        { "native": "ادا، هڪ وڏو ٿيلهو ڏيو.", "roman": "adā, hiku vaɗo thelho ɗiyo.", "en": "Brother, give me a big bag.", "focus": "ڏيو", "wrong": ["ڏيڻ|ɗiyaṇu", "ڏئي|ɗie"] },
+        { "native": "هو پنهنجي گاڏي وڪڻي ٿو.", "roman": "hū panhinjī gāɗī vikiṇe tho.", "en": "He's selling his car.", "focus": "وڪڻي", "wrong": ["وڪڻن|vikiṇan", "وڪڻو|vikiṇo"] }
+      ]
+    }
+  ]
 }

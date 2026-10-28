@@ -89,5 +89,88 @@
       { "speaker": "Shopkeeper", "native": "हो, चालेल. हा कोड स्कॅन करा.", "roman": "ho, tsālel. hā koḍ skæn karā.", "en": "Yes, sure. Scan this code." }
     ]
   },
-  "culture": "Bargaining is normal at street stalls, markets and many small clothes shops, but not in supermarkets, malls, chemists or fixed-price ('fixed rate') stores. Keep it good-humoured; a smile and 'जरा कमी करा ना, काका' goes a long way. Mobile UPI payments are everywhere — even the vegetable vendor has a QR code. The **पैठणी** sari from Paithan, with its peacock-patterned border, is Maharashtra's most prized textile."
+  "culture": "Bargaining is normal at street stalls, markets and many small clothes shops, but not in supermarkets, malls, chemists or fixed-price ('fixed rate') stores. Keep it good-humoured; a smile and 'जरा कमी करा ना, काका' goes a long way. Mobile UPI payments are everywhere — even the vegetable vendor has a QR code. The **पैठणी** sari from Paithan, with its peacock-patterned border, is Maharashtra's most prized textile.",
+  "lessons": [
+    {
+      "title": "This one, that one",
+      "tip": { "title": "हा, ही, हे — this; तो, ती, ते — that", "body": "- 'This' agrees with the noun: **हा** शर्ट (m), **ही** साडी (f), **हे** बूट (m pl) / हे पुस्तक (n).\n- 'That' works the same way: **तो**, **ती**, **ते**.\n- Before an ending they become **या** / **त्या**: या दुकानात, त्या साडीची किंमत.\n- Alone they mean 'this one / that one': हा नको, तो दाखवा.", "pattern": "हा / ही / हे + noun · या / त्या + noun-ending", "grammar": 0 },
+      "new": ["हा", "ही", "हे", "शर्ट", "साडी", "पँट", "बूट", "दाखवणे", "मला ती निळी साडी दाखवा."],
+      "sentences": [
+        { "native": "हा शर्ट मस्त आहे.", "roman": "hā sharṭ mast āhe.", "en": "This shirt is great.", "focus": "हा", "wrong": ["ही|hī", "हे|he"] },
+        { "native": "ही पँट खूप लांब आहे.", "roman": "hī pæṇṭ khūp lāmb āhe.", "en": "These trousers are too long.", "focus": "ही", "wrong": ["हा|hā", "हे|he"] },
+        { "native": "हे बूट नवीन आहेत का?", "roman": "he būṭ navīn āhet kā?", "en": "Are these shoes new?", "focus": "हे", "wrong": ["हा|hā", "ही|hī"] },
+        { "native": "तो शर्ट दाखवा.", "roman": "to sharṭ dākhvā.", "en": "Show me that shirt.", "focus": "तो", "wrong": ["ती|tī", "ते|te"] },
+        { "native": "ती साडी किती सुंदर आहे!", "roman": "tī sāḍī kitī sundar āhe!", "en": "That sari is so beautiful!", "focus": "ती", "wrong": ["तो|to", "ते|te"] },
+        { "native": "हा नको, दुसरा दाखवा.", "roman": "hā nako, dusrā dākhvā.", "en": "Not this one, show me another one.", "focus": "हा", "wrong": ["ही|hī", "हे|he"] },
+        { "native": "त्या दुकानात चांगल्या साड्या आहेत.", "roman": "tyā dukānāt tsāṅglyā sāḍyā āhet.", "en": "That shop has good saris.", "focus": "त्या", "wrong": ["तो|to", "ते|te"] },
+        { "native": "या पँटचा रंग छान आहे.", "roman": "yā pæṇṭtsā raṅg chhān āhe.", "en": "The colour of these trousers is nice.", "focus": "या", "wrong": ["ही|hī", "हा|hā"] },
+        { "native": "मला काळे बूट दाखवा.", "roman": "malā kāḷe būṭ dākhvā.", "en": "Show me some black shoes." }
+      ]
+    },
+    {
+      "title": "How much is it?",
+      "tip": { "title": "कितीला? — for how much?", "body": "- Ask the price with **कितीला?** or **किती रुपयांचा / ची / चं?**, agreeing with the item: शर्ट … रुपयांचा, साडी … रुपयांची.\n- 'For 200 rupees' = दोनशे **रुपयांना**; a rate is just price + unit: साठ रुपये किलो.\n- For the total: **किती झाले?**", "pattern": "हे कितीला? · शंभर रुपयांना", "grammar": 1 },
+      "new": ["पैसे", "रुपया", "किंमत", "महाग", "स्वस्त", "हे कितीला आहे?", "ही साडी किती रुपयांची आहे?", "खूप महाग आहे!"],
+      "sentences": [
+        { "native": "हा शर्ट कितीला आहे?", "roman": "hā sharṭ kitīlā āhe?", "en": "How much is this shirt?", "focus": "कितीला", "wrong": ["कितवा|kitvā", "कधी|kadhī"] },
+        { "native": "ही पँट आठशे रुपयांची आहे.", "roman": "hī pæṇṭ āṭhshe rupayānchī āhe.", "en": "These trousers are eight hundred rupees.", "focus": "रुपयांची", "wrong": ["रुपयांचा|rupayāntsā", "रुपयांचं|rupayāntsaṃ"] },
+        { "native": "या बुटांची किंमत किती आहे?", "roman": "yā buṭānchī kimmat kitī āhe?", "en": "What do these shoes cost?", "focus": "बुटांची", "wrong": ["बुटांचा|buṭāntsā", "बुटांचं|buṭāntsaṃ"] },
+        { "native": "हे बूट स्वस्त आहेत.", "roman": "he būṭ svasta āhet.", "en": "These shoes are cheap." },
+        { "native": "मी ही साडी दोन हजार रुपयांना घेतली.", "roman": "mī hī sāḍī don hadzār rupayānnā ghetlī.", "en": "I bought this sari for two thousand rupees.", "focus": "रुपयांना", "wrong": ["रुपयांची|rupayānchī", "रुपये|rupaye"] },
+        { "native": "टोमॅटो साठ रुपये किलो आहेत.", "roman": "ṭomæṭo sāṭh rupaye kilo āhet.", "en": "Tomatoes are sixty rupees a kilo.", "focus": "रुपये", "wrong": ["रुपयांना|rupayānnā", "रुपया|rupayā"] },
+        { "native": "माझ्याकडे जास्त पैसे नाहीत.", "roman": "mājhyākaḍe dzāst paise nāhīt.", "en": "I don't have much money on me." },
+        { "native": "शंभर रुपयांना सहा आंबे.", "roman": "shambhar rupayānnā sahā āmbe.", "en": "Six mangoes for a hundred rupees.", "focus": "रुपयांना", "wrong": ["रुपयांची|rupayānchī", "रुपये|rupaye"] },
+        { "native": "इथे सगळं महाग आहे, बाजारात स्वस्त आहे.", "roman": "ithe sagḷaṃ mahāg āhe, bādzārāt svasta āhe.", "en": "Everything's expensive here; it's cheap at the market." },
+        { "native": "एकूण किती पैसे झाले?", "roman": "ekūṇ kitī paise dzhāle?", "en": "How much does it come to altogether?", "focus": "झाले", "wrong": ["झाला|dzhālā", "झाली|dzhālī"] }
+      ]
+    },
+    {
+      "title": "Bargaining at the market",
+      "tip": { "title": "Haggling, nicely", "body": "- Bargaining is normal at markets and stalls, not in shops with fixed prices.\n- Start with **खूप महाग आहे!**, then **जरा कमी करा ना** 'bring it down a bit'.\n- **शेवटचं किती?** asks for the final price. **ना** at the end keeps it friendly." },
+      "new": ["जरा", "सवलत", "दुकानदार", "विकणे", "विकत घेणे", "जरा कमी करा ना.", "शेवटचं किती?", "मी हा घेतो."],
+      "sentences": [
+        { "native": "दादा, चारशे घ्या ना.", "roman": "dādā, tsārshe ghyā nā.", "en": "Come on, take four hundred.", "focus": "घ्या", "wrong": ["घेतो|gheto", "घेणे|gheṇe"] },
+        { "native": "हा दुकानदार खूप महाग विकतो.", "roman": "hā dukāndār khūp mahāg vikto.", "en": "This shopkeeper sells at very high prices.", "focus": "विकतो", "wrong": ["विकते|vikte", "विकतात|viktāt"] },
+        { "native": "काही सवलत आहे का?", "roman": "kāhī savlat āhe kā?", "en": "Is there any discount?" },
+        { "native": "शेवटचं तीनशे, बस.", "roman": "shevaṭtsaṃ tīnshe, bas.", "en": "Three hundred, final offer." },
+        { "native": "मला हा शर्ट विकत घ्यायचा आहे.", "roman": "malā hā sharṭ vikat ghyāytsā āhe.", "en": "I want to buy this shirt.", "focus": "घ्यायचा", "wrong": ["घ्यायची|ghyāychī", "घ्यायचं|ghyāytsaṃ"] },
+        { "native": "मी ही साडी घेते.", "roman": "mī hī sāḍī ghete.", "en": "I'll take this sari. (woman)", "focus": "घेते", "wrong": ["घेतो|gheto", "घेता|ghetā"] },
+        { "native": "जरा दुसरा रंग दाखवा.", "roman": "dzarā dusrā raṅg dākhvā.", "en": "Could you show me another colour?" },
+        { "native": "इथे सवलत नाही, ताई.", "roman": "ithe savlat nāhī, tāī.", "en": "No discounts here, madam." },
+        { "native": "मी हे बूट विकत घेतले.", "roman": "mī he būṭ vikat ghetle.", "en": "I bought these shoes.", "focus": "घेतले", "wrong": ["घेतला|ghetlā", "घेतली|ghetlī"] }
+      ]
+    },
+    {
+      "title": "Sizes, colours and exchanges",
+      "new": ["आकार", "चप्पल", "बदलणे", "एवढा", "दुसरा रंग आहे का?", "याचा मोठा साईझ आहे का?", "फक्त बघतोय."],
+      "sentences": [
+        { "native": "या चपला खूप लहान आहेत.", "roman": "yā tsaplā khūp lahān āhet.", "en": "These sandals are too small." },
+        { "native": "हा आकार मला लहान आहे.", "roman": "hā ākār malā lahān āhe.", "en": "This size is too small for me." },
+        { "native": "मला ही चप्पल बदलून हवी आहे.", "roman": "malā hī tsappal badlūn havī āhe.", "en": "I'd like to exchange these sandals." },
+        { "native": "एवढी मोठी पँट नको.", "roman": "evḍhī moṭhī pæṇṭ nako.", "en": "I don't want such big trousers." },
+        { "native": "एवढे पैसे नाहीत माझ्याकडे.", "roman": "evḍhe paise nāhīt mājhyākaḍe.", "en": "I don't have that much money on me." },
+        { "native": "नाही, फक्त बघतेय.", "roman": "nāhī, phakta baghtey.", "en": "No, just looking. (woman)" },
+        { "native": "हीच साडी लाल रंगात आहे का?", "roman": "hīts sāḍī lāl raṅgāt āhe kā?", "en": "Do you have this same sari in red?" },
+        { "native": "चप्पल बदलायची आहे.", "roman": "tsappal badlāychī āhe.", "en": "I need to exchange these sandals." },
+        { "native": "एवढा मोठा साईझ नको, जरा लहान दाखवा.", "roman": "evḍhā moṭhā sāīz nako, dzarā lahān dākhvā.", "en": "Not such a big size, show me a smaller one." }
+      ]
+    },
+    {
+      "title": "Paying and change",
+      "tip": { "title": "Paying: द्या, घ्या, चालेल का?", "body": "- **द्या** 'give' and **घ्या** 'take' are the polite forms of देणे and घेणे; to a friend: **दे**, **घे**.\n- **… चालेल का?** asks whether something is OK: कार्ड चालेल का?\n- No change? **सुटे पैसे नाहीत.**", "pattern": "पावती द्या · कार्ड चालेल का?" },
+      "new": ["देणे", "घेणे", "सुटे पैसे", "पावती", "रोख", "कार्ड चालेल का?", "सुटे पैसे नाहीत.", "पावती द्या."],
+      "sentences": [
+        { "native": "हे पैसे घ्या.", "roman": "he paise ghyā.", "en": "Here's the money.", "focus": "घ्या", "wrong": ["घेतो|gheto", "घेणे|gheṇe"] },
+        { "native": "पाचशेचे सुटे आहेत का?", "roman": "pātssheche suṭe āhet kā?", "en": "Do you have change for five hundred?" },
+        { "native": "मला शंभर रुपये परत द्या.", "roman": "malā shambhar rupaye parat dyā.", "en": "Give me a hundred rupees back, please.", "focus": "द्या", "wrong": ["देतो|deto", "देणे|deṇe"] },
+        { "native": "रोख देऊ का?", "roman": "rokh deū kā?", "en": "Shall I pay cash?", "focus": "देऊ", "wrong": ["दिला|dilā", "देणे|deṇe"] },
+        { "native": "कार्ड नाही, फक्त रोख चालेल.", "roman": "kārḍ nāhī, phakta rokh tsālel.", "en": "No cards, only cash.", "focus": "चालेल", "wrong": ["चालणे|tsālṇe", "चाल|tsāl"] },
+        { "native": "पावती दे ना.", "roman": "pāvtī de nā.", "en": "Give me the receipt, will you? (informal)", "focus": "दे", "wrong": ["देतो|deto", "देणे|deṇe"] },
+        { "native": "मी तुम्हाला पाचशे दिले.", "roman": "mī tumhālā pātsshe dile.", "en": "I gave you five hundred.", "focus": "दिले", "wrong": ["दिला|dilā", "दिली|dilī"] },
+        { "native": "माझ्याकडे सुटे पैसे आहेत, थांबा.", "roman": "mājhyākaḍe suṭe paise āhet, thāmbā.", "en": "I have change, wait." },
+        { "native": "मी फोनने पैसे देतो.", "roman": "mī fonne paise deto.", "en": "I'll pay by phone. (man)" },
+        { "native": "चहा घे ना.", "roman": "tsahā ghe nā.", "en": "Have some tea. (informal)", "focus": "घे", "wrong": ["घेतो|gheto", "घेणे|gheṇe"] }
+      ]
+    }
+  ]
 }

@@ -90,5 +90,97 @@
       { "speaker": "Tom", "native": "ನಿಮ್ಮ ಕುಟುಂಬ ತುಂಬಾ ದೊಡ್ಡದು!", "roman": "nimma kuṭumba tumbā doḍḍadu!", "en": "Your family is really big!" }
     ]
   },
-  "culture": "Kinship words are used constantly with non-relatives: ಅಣ್ಣ for a man a bit older than you, ಅಕ್ಕ for a woman, ಅಂಕಲ್/ಆಂಟಿ (from English) for people of your parents' age, and ಅಜ್ಜ/ಅಜ್ಜಿ for the elderly. Siblings are usually called by kin term, not by name: a younger sibling calls an elder brother ಅಣ್ಣ, never just 'Ravi'. Traditionally, in many Kannada communities, marriage between a girl and her ಮಾವ (mother's brother) or a cross-cousin was common, which is why ಮಾವ means both 'mother's brother' and 'father-in-law'."
+  "culture": "Kinship words are used constantly with non-relatives: ಅಣ್ಣ for a man a bit older than you, ಅಕ್ಕ for a woman, ಅಂಕಲ್/ಆಂಟಿ (from English) for people of your parents' age, and ಅಜ್ಜ/ಅಜ್ಜಿ for the elderly. Siblings are usually called by kin term, not by name: a younger sibling calls an elder brother ಅಣ್ಣ, never just 'Ravi'. Traditionally, in many Kannada communities, marriage between a girl and her ಮಾವ (mother's brother) or a cross-cousin was common, which is why ಮಾವ means both 'mother's brother' and 'father-in-law'.",
+  "lessons": [
+    {
+      "title": "Introducing your parents",
+      "tip": { "title": "Whose? ನನ್ನ, ನಿಮ್ಮ and -ಅ 'of'", "body": "- **ನನ್ನ** my · **ನಿಮ್ಮ** your · **ನಮ್ಮ** our (often used for 'my' family) · **ಅವನ / ಅವಳ / ಅವರ** his / her / their.\n- For a noun add **-ಅ**: with ನ after people ending in -ಅ (ಅಮ್ಮ**ನ** ಹೆಸರು 'mum's name'), with ಯ after -ಇ/-ಎ (ಅಜ್ಜಿ**ಯ** ಮನೆ).\n- The owner always comes first: ನನ್ನ ಅಪ್ಪನ ಹೆಸರು 'my dad's name'.", "pattern": "owner + -ಅ + thing: ಅಮ್ಮನ ಹೆಸರು", "grammar": 0 },
+      "new": ["ಅಮ್ಮ", "ಅಪ್ಪ", "ತಾಯಿ", "ತಂದೆ", "ನನ್ನ", "ನಿಮ್ಮ", "ನಮ್ಮ", "ಕುಟುಂಬ", "ಇವರು ನನ್ನ ಅಮ್ಮ"],
+      "sentences": [
+        { "native": "ಇವರು ನನ್ನ ಅಪ್ಪ.", "roman": "ivaru nanna appa.", "en": "This is my dad.", "focus": "ನನ್ನ", "wrong": ["ನಾನು|nānu", "ನನಗೆ|nanage"] },
+        { "native": "ನಿಮ್ಮ ಅಮ್ಮನ ಹೆಸರು ಏನು?", "roman": "nimma ammana hesaru ēnu?", "en": "What's your mum's name?", "focus": "ಅಮ್ಮನ", "wrong": ["ಅಮ್ಮ|amma", "ಅಮ್ಮನಿಗೆ|ammanige"] },
+        { "native": "ನನ್ನ ಅಪ್ಪನ ಹೆಸರು ರವಿ.", "roman": "nanna appana hesaru ravi.", "en": "My dad's name is Ravi.", "focus": "ಅಪ್ಪನ", "wrong": ["ಅಪ್ಪ|appa", "ಅಪ್ಪನಿಗೆ|appanige"] },
+        { "native": "ನಮ್ಮ ಕುಟುಂಬ ಮೈಸೂರಿನಲ್ಲಿ ಇದೆ.", "roman": "namma kuṭumba maisūrinalli ide.", "en": "My family lives in Mysuru.", "focus": "ನಮ್ಮ", "wrong": ["ನಾವು|nāvu", "ನಮಗೆ|namage"] },
+        { "native": "ನಿಮ್ಮ ತಂದೆ-ತಾಯಿ ಎಲ್ಲಿ ಇದ್ದಾರೆ?", "roman": "nimma tande-tāyi elli iddāre?", "en": "Where do your parents live?", "focus": "ನಿಮ್ಮ", "wrong": ["ನೀವು|nīvu", "ನಿಮಗೆ|nimage"] },
+        { "native": "ಅವರ ತಂದೆ ಬೆಂಗಳೂರಿನಲ್ಲಿ ಇದ್ದಾರೆ.", "roman": "avara tande beṅgaḷūrinalli iddāre.", "en": "His father lives in Bengaluru.", "focus": "ಅವರ", "wrong": ["ಅವರು|avaru", "ಅವರಿಗೆ|avarige"] },
+        { "native": "ಅವಳ ತಾಯಿ ಡಾಕ್ಟರ್.", "roman": "avaḷa tāyi ḍākṭar.", "en": "Her mother is a doctor.", "focus": "ಅವಳ", "wrong": ["ಅವಳು|avaḷu", "ಅವಳಿಗೆ|avaḷige"] },
+        { "native": "ಅಮ್ಮ ಮನೇಲಿ ಇಲ್ಲ.", "roman": "amma manēli illa.", "en": "Mum isn't at home." }
+      ]
+    },
+    {
+      "title": "Brothers and sisters",
+      "tip": { "title": "I have: 'to me … is'", "body": "- 'I have a brother' is 'to me a brother is': **ನನಗೆ** ಒಬ್ಬ ತಮ್ಮ **ಇದ್ದಾನೆ**.\n- The verb agrees with what you have: ತಮ್ಮ ಇದ್ದಾನೆ, ತಂಗಿ ಇದ್ದಾಳೆ, elders (with respect) ಇದ್ದಾರೆ. Don't have one: **ಇಲ್ಲ**.\n- Counting people: **ಒಬ್ಬ** (m) / **ಒಬ್ಬಳು** (f) 'one', **ಇಬ್ಬರು** 'two'.", "pattern": "ನನಗೆ + ಒಬ್ಬ ತಮ್ಮ + ಇದ್ದಾನೆ", "grammar": 1 },
+      "new": ["ಅಣ್ಣ", "ಅಕ್ಕ", "ತಮ್ಮ", "ತಂಗಿ", "ಒಬ್ಬ", "ಇವನು ನನ್ನ ತಮ್ಮ", "ನನಗೆ ಒಬ್ಬ ಅಣ್ಣ, ಒಬ್ಬಳು ತಂಗಿ ಇದ್ದಾರೆ", "ಅವರು ನಿಮ್ಮ ಅಕ್ಕನಾ?"],
+      "sentences": [
+        { "native": "ನನಗೆ ಒಬ್ಬ ತಮ್ಮ ಇದ್ದಾನೆ.", "roman": "nanage obba tamma iddāne.", "en": "I have a younger brother.", "focus": "ಇದ್ದಾನೆ", "wrong": ["ಇದ್ದಾಳೆ|iddāḷe", "ಇದೆ|ide"] },
+        { "native": "ನನಗೆ ಒಬ್ಬಳು ಅಕ್ಕ ಇದ್ದಾರೆ.", "roman": "nanage obbaḷu akka iddāre.", "en": "I have an elder sister.", "focus": "ಒಬ್ಬಳು", "wrong": ["ಒಬ್ಬ|obba", "ಇಬ್ಬರು|ibbaru"] },
+        { "native": "ನಿಮಗೆ ತಂಗಿ ಇದ್ದಾಳಾ?", "roman": "nimage taṅgi iddāḷā?", "en": "Do you have a younger sister?", "focus": "ನಿಮಗೆ", "wrong": ["ನೀವು|nīvu", "ನಿಮ್ಮ|nimma"] },
+        { "native": "ಇಲ್ಲ, ನನಗೆ ತಂಗಿ ಇಲ್ಲ.", "roman": "illa, nanage taṅgi illa.", "en": "No, I don't have a younger sister.", "focus": "ಇಲ್ಲ", "wrong": ["ಅಲ್ಲ|alla", "ಇದ್ದಾಳೆ|iddāḷe"] },
+        { "native": "ನನಗೆ ಇಬ್ಬರು ಅಣ್ಣಂದಿರು ಇದ್ದಾರೆ.", "roman": "nanage ibbaru aṇṇandiru iddāre.", "en": "I have two elder brothers.", "focus": "ಇಬ್ಬರು", "wrong": ["ಒಬ್ಬ|obba", "ಒಬ್ಬಳು|obbaḷu"] },
+        { "native": "ನನ್ನ ಅಕ್ಕ ಬೆಂಗಳೂರಿನಲ್ಲಿ ಇದ್ದಾರೆ.", "roman": "nanna akka beṅgaḷūrinalli iddāre.", "en": "My elder sister lives in Bengaluru." },
+        { "native": "ಅವಳು ನನ್ನ ತಂಗಿ.", "roman": "avaḷu nanna taṅgi.", "en": "She's my younger sister." },
+        { "native": "ನಿಮ್ಮ ತಮ್ಮನ ಹೆಸರು ಏನು?", "roman": "nimma tammana hesaru ēnu?", "en": "What's your younger brother's name?", "focus": "ತಮ್ಮನ", "wrong": ["ತಮ್ಮ|tamma", "ತಮ್ಮನಿಗೆ|tammanige"] }
+      ]
+    },
+    {
+      "title": "Talking about your children",
+      "new": ["ಮಗ", "ಮಗಳು", "ಮಗು", "ಮಕ್ಕಳು", "ನಿಮಗೆ ಎಷ್ಟು ಮಕ್ಕಳು?", "ಇಬ್ಬರು ಮಕ್ಕಳು, ಒಬ್ಬ ಮಗ, ಒಬ್ಬಳು ಮಗಳು"],
+      "sentences": [
+        { "native": "ನಿಮಗೆ ಮಕ್ಕಳು ಇದ್ದಾರಾ?", "roman": "nimage makkaḷu iddārā?", "en": "Do you have children?" },
+        { "native": "ಹೌದು, ಒಬ್ಬ ಮಗ ಇದ್ದಾನೆ.", "roman": "haudu, obba maga iddāne.", "en": "Yes, I have a son." },
+        { "native": "ನನಗೆ ಒಬ್ಬಳು ಮಗಳು ಇದ್ದಾಳೆ.", "roman": "nanage obbaḷu magaḷu iddāḷe.", "en": "I have a daughter.", "focus": "ಇದ್ದಾಳೆ", "wrong": ["ಇದ್ದಾನೆ|iddāne", "ಇದೆ|ide"] },
+        { "native": "ನಿಮ್ಮ ಮಗನ ಹೆಸರು ಏನು?", "roman": "nimma magana hesaru ēnu?", "en": "What's your son's name?", "focus": "ಮಗನ", "wrong": ["ಮಗ|maga", "ಮಗನಿಗೆ|maganige"] },
+        { "native": "ನನ್ನ ಮಗಳು ವಿದ್ಯಾರ್ಥಿ.", "roman": "nanna magaḷu vidyārthi.", "en": "My daughter is a student." },
+        { "native": "ಮಗು ಎಲ್ಲಿ ಇದೆ?", "roman": "magu elli ide?", "en": "Where is the baby?" },
+        { "native": "ನಮಗೆ ಇಬ್ಬರು ಮಕ್ಕಳು.", "roman": "namage ibbaru makkaḷu.", "en": "We have two children." },
+        { "native": "ಮಕ್ಕಳು ಮನೇಲಿ ಇದ್ದಾರೆ.", "roman": "makkaḷu manēli iddāre.", "en": "The kids are at home.", "focus": "ಇದ್ದಾರೆ", "wrong": ["ಇದ್ದಾನೆ|iddāne", "ಇದ್ದೀನಿ|iddīni"] }
+      ]
+    },
+    {
+      "title": "Married? Grandparents?",
+      "tip": { "title": "Married? \"Has the wedding happened?\"", "body": "- 'Are you married?' is 'to you, has the wedding happened?': ನಿಮಗೆ ಮದುವೆ **ಆಗಿದೆಯಾ**?\n- Yes: ಮದುವೆ **ಆಗಿದೆ**. Not yet: ಇನ್ನೂ **ಆಗಿಲ್ಲ**.\n- The person takes **-ಗೆ**, as with 'I have': ನನಗೆ, ಅವಳಿಗೆ, ತಮ್ಮನಿಗೆ, ಅಜ್ಜನಿಗೆ.", "pattern": "person-ಗೆ + ಮದುವೆ + ಆಗಿದೆ / ಆಗಿಲ್ಲ" },
+      "new": ["ಮದುವೆ", "ಗಂಡ", "ಹೆಂಡತಿ", "ಅಜ್ಜ", "ಅಜ್ಜಿ", "ನಿಮಗೆ ಮದುವೆ ಆಗಿದೆಯಾ?", "ಇಲ್ಲ, ಇನ್ನೂ ಆಗಿಲ್ಲ", "ಇದು ನಮ್ಮ ಅಜ್ಜಿಯ ಮನೆ"],
+      "sentences": [
+        { "native": "ಹೌದು, ಮದುವೆ ಆಗಿದೆ.", "roman": "haudu, maduve āgide.", "en": "Yes, I'm married.", "focus": "ಆಗಿದೆ", "wrong": ["ಆಗಿಲ್ಲ|āgilla", "ಆಗಿದೆಯಾ|āgideyā"] },
+        { "native": "ಅವಳಿಗೆ ಇನ್ನೂ ಮದುವೆ ಆಗಿಲ್ಲ.", "roman": "avaḷige innū maduve āgilla.", "en": "She isn't married yet.", "focus": "ಆಗಿಲ್ಲ", "wrong": ["ಆಗಿದೆ|āgide", "ಆಯ್ತು|āytu"] },
+        { "native": "ನಿಮ್ಮ ತಮ್ಮನಿಗೆ ಮದುವೆ ಆಗಿದೆಯಾ?", "roman": "nimma tammanige maduve āgideyā?", "en": "Is your younger brother married?", "focus": "ತಮ್ಮನಿಗೆ", "wrong": ["ತಮ್ಮ|tamma", "ತಮ್ಮನ|tammana"] },
+        { "native": "ಇವರು ನನ್ನ ಹೆಂಡತಿ.", "roman": "ivaru nanna heṇḍati.", "en": "This is my wife." },
+        { "native": "ನನ್ನ ಗಂಡ ಮನೇಲಿ ಇಲ್ಲ.", "roman": "nanna gaṇḍa manēli illa.", "en": "My husband isn't at home." },
+        { "native": "ಅಜ್ಜ ಅಜ್ಜಿ ಊರಿನಲ್ಲಿ ಇದ್ದಾರೆ.", "roman": "ajja ajji ūrinalli iddāre.", "en": "Grandpa and grandma live in our hometown.", "focus": "ಇದ್ದಾರೆ", "wrong": ["ಇದ್ದಾನೆ|iddāne", "ಇದೆ|ide"] },
+        { "native": "ಅಜ್ಜಿಯ ಹೆಸರು ಏನು?", "roman": "ajjiya hesaru ēnu?", "en": "What's grandma's name?", "focus": "ಅಜ್ಜಿಯ", "wrong": ["ಅಜ್ಜಿ|ajji", "ಅಜ್ಜಿಗೆ|ajjige"] },
+        { "native": "ನನ್ನ ಅಜ್ಜನಿಗೆ ಇಂಗ್ಲಿಷ್ ಬರಲ್ಲ.", "roman": "nanna ajjanige iṅgliṣ baralla.", "en": "My grandpa doesn't know English.", "focus": "ಅಜ್ಜನಿಗೆ", "wrong": ["ಅಜ್ಜ|ajja", "ಅಜ್ಜನ|ajjana"] }
+      ]
+    },
+    {
+      "title": "Uncles, aunts and a full house",
+      "new": ["ಮಾವ", "ಅತ್ತೆ", "ಚಿಕ್ಕಪ್ಪ", "ದೊಡ್ಡಪ್ಪ", "ಜನ", "ನಿಮ್ಮ ಮನೇಲಿ ಎಷ್ಟು ಜನ ಇದ್ದೀರ?", "ನಮ್ಮ ಮನೇಲಿ ನಾಲ್ಕು ಜನ"],
+      "sentences": [
+        { "native": "ನನ್ನ ಚಿಕ್ಕಪ್ಪ ಮೈಸೂರಿನಲ್ಲಿ ಇದ್ದಾರೆ.", "roman": "nanna chikkappa maisūrinalli iddāre.", "en": "My uncle (dad's younger brother) lives in Mysuru." },
+        { "native": "ದೊಡ್ಡಪ್ಪನ ಮಗ ಲಂಡನ್ನಲ್ಲಿ ಇದ್ದಾನೆ.", "roman": "doḍḍappana maga laṇḍannalli iddāne.", "en": "My uncle's son lives in London.", "focus": "ದೊಡ್ಡಪ್ಪನ", "wrong": ["ದೊಡ್ಡಪ್ಪ|doḍḍappa", "ದೊಡ್ಡಪ್ಪನಿಗೆ|doḍḍappanige"] },
+        { "native": "ಅತ್ತೆ ಮನೇಲಿ ಇದ್ದಾರೆ.", "roman": "atte manēli iddāre.", "en": "Auntie is at home." },
+        { "native": "ಮಾವ, ಒಳಗೆ ಬನ್ನಿ.", "roman": "māva, oḷage banni.", "en": "Uncle, come in." },
+        { "native": "ನಿಮ್ಮ ಊರಿನಲ್ಲಿ ಎಷ್ಟು ಜನ ಇದ್ದಾರೆ?", "roman": "nimma ūrinalli eṣṭu jana iddāre?", "en": "How many people live in your town?" },
+        { "native": "ನಮ್ಮ ಮನೇಲಿ ತುಂಬಾ ಜನ ಇದ್ದಾರೆ.", "roman": "namma manēli tumbā jana iddāre.", "en": "There are lots of people in our house." },
+        { "native": "ಇಲ್ಲಿ ತುಂಬಾ ಜನ ಇದ್ದಾರೆ.", "roman": "illi tumbā jana iddāre.", "en": "There are a lot of people here.", "focus": "ಇದ್ದಾರೆ", "wrong": ["ಇದ್ದಾನೆ|iddāne", "ಇದ್ದೀನಿ|iddīni"] },
+        { "native": "ನಿಮ್ಮ ಚಿಕ್ಕಪ್ಪನ ಹೆಸರು ಏನು?", "roman": "nimma chikkappana hesaru ēnu?", "en": "What's your uncle's name?", "focus": "ಚಿಕ್ಕಪ್ಪನ", "wrong": ["ಚಿಕ್ಕಪ್ಪ|chikkappa", "ಚಿಕ್ಕಪ್ಪನಿಗೆ|chikkappanige"] },
+        { "native": "ಅವರು ನನ್ನ ದೊಡ್ಡಪ್ಪ ಅಲ್ಲ, ಚಿಕ್ಕಪ್ಪ.", "roman": "avaru nanna doḍḍappa alla, chikkappa.", "en": "He isn't my older uncle, he's my younger uncle." }
+      ]
+    },
+    {
+      "title": "Boys, girls and friends",
+      "tip": { "title": "One and many", "body": "- People add **-ರು**: ಹುಡುಗ → ಹುಡುಗ**ರು**, ಹುಡುಗಿ → ಹುಡುಗಿ**ಯರು**, ಸ್ನೇಹಿತ → ಸ್ನೇಹಿತ**ರು**, ಗಂಡಸು → ಗಂಡಸರು.\n- Things add **-ಗಳು**: ಮನೆ → ಮನೆಗಳು. The odd one out: ಮಗು → **ಮಕ್ಕಳು**.\n- A friend who is a woman is **ಸ್ನೇಹಿತೆ**.", "pattern": "ಹುಡುಗ → ಹುಡುಗರು · ಮನೆ → ಮನೆಗಳು" },
+      "new": ["ಗಂಡಸು", "ಹೆಂಗಸು", "ಹುಡುಗ", "ಹುಡುಗಿ", "ಸ್ನೇಹಿತ", "ಅವನು ನನ್ನ ಸ್ನೇಹಿತ"],
+      "sentences": [
+        { "native": "ಅವರು ನನ್ನ ಸ್ನೇಹಿತರು.", "roman": "avaru nanna snēhitaru.", "en": "They're my friends.", "focus": "ಸ್ನೇಹಿತರು", "wrong": ["ಸ್ನೇಹಿತ|snēhita", "ಸ್ನೇಹಿತೆ|snēhite"] },
+        { "native": "ಈ ಹುಡುಗಿ ಯಾರು?", "roman": "ī huḍugi yāru?", "en": "Who is this girl?" },
+        { "native": "ಹುಡುಗರು ಎಲ್ಲಿ ಇದ್ದಾರೆ?", "roman": "huḍugaru elli iddāre?", "en": "Where are the boys?", "focus": "ಹುಡುಗರು", "wrong": ["ಹುಡುಗ|huḍuga", "ಹುಡುಗನ|huḍugana"] },
+        { "native": "ನನಗೆ ತುಂಬಾ ಸ್ನೇಹಿತರು ಇದ್ದಾರೆ.", "roman": "nanage tumbā snēhitaru iddāre.", "en": "I have lots of friends.", "focus": "ಸ್ನೇಹಿತರು", "wrong": ["ಸ್ನೇಹಿತ|snēhita", "ಸ್ನೇಹಿತನ|snēhitana"] },
+        { "native": "ಅವಳು ನನ್ನ ಸ್ನೇಹಿತೆ.", "roman": "avaḷu nanna snēhite.", "en": "She's my friend.", "focus": "ಸ್ನೇಹಿತೆ", "wrong": ["ಸ್ನೇಹಿತ|snēhita", "ಸ್ನೇಹಿತರು|snēhitaru"] },
+        { "native": "ಇಲ್ಲಿ ಗಂಡಸರು, ಅಲ್ಲಿ ಹೆಂಗಸರು.", "roman": "illi gaṇḍasaru, alli heṅgasaru.", "en": "Men here, women over there.", "focus": "ಗಂಡಸರು", "wrong": ["ಗಂಡಸು|gaṇḍasu", "ಗಂಡಸಿನ|gaṇḍasina"] },
+        { "native": "ನಿಮ್ಮ ಸ್ನೇಹಿತನ ಹೆಸರು ಏನು?", "roman": "nimma snēhitana hesaru ēnu?", "en": "What's your friend's name?", "focus": "ಸ್ನೇಹಿತನ", "wrong": ["ಸ್ನೇಹಿತ|snēhita", "ಸ್ನೇಹಿತನಿಗೆ|snēhitanige"] },
+        { "native": "ಮಕ್ಕಳು ಎಲ್ಲಿ ಇದ್ದಾರೆ?", "roman": "makkaḷu elli iddāre?", "en": "Where are the children?" },
+        { "native": "ಅವನು ಒಳ್ಳೆಯ ಹುಡುಗ.", "roman": "avanu oḷḷeya huḍuga.", "en": "He's a good lad." }
+      ]
+    }
+  ]
 }

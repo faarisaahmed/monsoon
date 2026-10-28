@@ -88,5 +88,87 @@
       { "speaker": "Kunal", "native": "त्यांनी फक्त म्हटलं, 'हॅपी बर्थडे!' सगळ्यांनी सरप्राईज पार्टी ठेवली होती!", "roman": "tyānnī phakta mhaṭlaṃ, 'hæpī barthḍe!' sagḷyānnī sarprāīz pārṭī ṭhevlī hotī!", "en": "He just said, 'Happy birthday!' Everyone had arranged a surprise party!" }
     ]
   },
-  "culture": "Notice how Kunal refers to his boss with the plural साहेबांनी and त्यांनी — respect for seniors survives even in a story about them. And Marathi speakers love a dramatic 'बापरे!' ('oh my father!'), 'अरेरे!' ('oh dear!') or 'अगं बाई!' (women, 'oh my!') when listening to a story — responding like this is part of being a good listener."
+  "culture": "Notice how Kunal refers to his boss with the plural साहेबांनी and त्यांनी — respect for seniors survives even in a story about them. And Marathi speakers love a dramatic 'बापरे!' ('oh my father!'), 'अरेरे!' ('oh dear!') or 'अगं बाई!' (women, 'oh my!') when listening to a story — responding like this is part of being a good listener.",
+  "lessons": [
+    {
+      "title": "Where did you go?",
+      "tip": { "title": "Went, came, was: गेलो, आली, होता", "body": "- Past of verbs like go, come, sit: stem + **ल** + ending, agreeing with the subject: मी **गेलो** (m) / **गेले** (f), तू **गेलास / गेलीस**, तो **गेला**, ती **गेली**, आम्ही **गेलो**, तुम्ही **गेलात**.\n- Irregular: जाणे → **गेला**, येणे → **आला**, होणे → **झाला**.\n- 'Was': मी **होतो / होते**, तू **होतास**, तो **होता**, ती **होती**.", "pattern": "मी गेलो / गेले · तो गेला · ती गेली", "grammar": 0 },
+      "new": ["होणे", "काय झालं?", "काल मी मुंबईला गेलो.", "मी तिथे होतो.", "गेल्या", "मागचा", "अचानक", "शेवटी"],
+      "sentences": [
+        { "native": "गेल्या आठवड्यात मी पुण्याला गेलो.", "roman": "gelyā āṭhavḍyāt mī puṇyālā gelo.", "en": "Last week I went to Pune. (man)", "focus": "गेलो", "wrong": ["गेला|gelā", "गेली|gelī"] },
+        { "native": "ती काल रात्री उशिरा आली.", "roman": "tī kāl rātrī ushirā ālī.", "en": "She came home late last night.", "focus": "आली", "wrong": ["आला|ālā", "आलो|ālo"] },
+        { "native": "तू कधी पोहोचलास?", "roman": "tū kadhī pohotslās?", "en": "When did you arrive? (to a man)", "focus": "पोहोचलास", "wrong": ["पोहोचला|pohotslā", "पोहोचलो|pohotslo"] },
+        { "native": "आम्ही मागच्या वर्षी गोव्याला गेलो.", "roman": "āmhī māgchyā varṣī govyālā gelo.", "en": "We went to Goa last year.", "focus": "गेलो", "wrong": ["गेला|gelā", "गेलात|gelāt"] },
+        { "native": "काल तू कुठे होतास?", "roman": "kāl tū kuṭhe hotās?", "en": "Where were you yesterday? (to a man)", "focus": "होतास", "wrong": ["होता|hotā", "होतो|hoto"] },
+        { "native": "अचानक पाऊस आला.", "roman": "achānak pāūs ālā.", "en": "Suddenly it started to rain.", "focus": "आला", "wrong": ["आली|ālī", "आलं|ālaṃ"] },
+        { "native": "शेवटी बस आली!", "roman": "shevaṭī bas ālī!", "en": "Finally the bus came!", "focus": "आली", "wrong": ["आला|ālā", "आलं|ālaṃ"] },
+        { "native": "ती काल आजारी होती.", "roman": "tī kāl ādzārī hotī.", "en": "She was ill yesterday.", "focus": "होती", "wrong": ["होता|hotā", "होतं|hotaṃ"] },
+        { "native": "मागच्या वेळी काय झालं?", "roman": "māgchyā veḷī kāy dzhālaṃ?", "en": "What happened last time?" },
+        { "native": "तुम्ही कधी आलात?", "roman": "tumhī kadhī ālāt?", "en": "When did you get here?", "focus": "आलात", "wrong": ["आला|ālā", "आलो|ālo"] }
+      ]
+    },
+    {
+      "title": "Who said what",
+      "tip": { "title": "तिने चहा केला — the past agrees with the object", "body": "- With verbs that take an object (eat, see, do, send), the past agrees with the **object**: मी आंबा **खाल्ला** (m), मी पोळी **खाल्ली** (f), मी पुस्तक **वाचलं** (n).\n- He/she/they add **-ने / -नी**: **त्याने**, **तिने**, **त्यांनी**, **आईने**. मी, तू, आम्ही, तुम्ही don't (but तू adds -स: तू केला**स**).\n- Irregular: केला, दिला, घेतला, पाहिला, सांगितलं.", "pattern": "तिने + object + verb (agrees with object)", "grammar": 1 },
+      "new": ["तुम्ही जेवलात का?", "हो, मी जेवले.", "तिने मला फोन केला.", "पाहणे", "सांगणे", "म्हणणे", "विचारणे", "पाठवणे"],
+      "sentences": [
+        { "native": "त्याने मला काहीच सांगितलं नाही.", "roman": "tyāne malā kāhīts sāṅgitlaṃ nāhī.", "en": "He didn't tell me anything.", "focus": "त्याने", "wrong": ["तो|to", "त्याला|tyālā"] },
+        { "native": "आईने मला पैसे पाठवले.", "roman": "āīne malā paise pāṭhavle.", "en": "Mum sent me some money.", "focus": "पाठवले", "wrong": ["पाठवला|pāṭhavlā", "पाठवली|pāṭhavlī"] },
+        { "native": "मी तो चित्रपट पाहिला.", "roman": "mī to chitrapaṭ pāhilā.", "en": "I've seen that film.", "focus": "पाहिला", "wrong": ["पाहिली|pāhilī", "पाहिलो|pāhilo"] },
+        { "native": "तू काय म्हणालास?", "roman": "tū kāy mhaṇālās?", "en": "What did you say? (to a man)" },
+        { "native": "मी त्याला पत्ता विचारला.", "roman": "mī tyālā pattā vichārlā.", "en": "I asked him the address.", "focus": "विचारला", "wrong": ["विचारली|vichārlī", "विचारलं|vichārlaṃ"] },
+        { "native": "बाबांनी आज स्वयंपाक केला.", "roman": "bābānnī ādz svayampāk kelā.", "en": "Dad cooked today.", "focus": "बाबांनी", "wrong": ["बाबा|bābā", "बाबांना|bābānnā"] },
+        { "native": "तू नाश्ता केलास का?", "roman": "tū nāshtā kelās kā?", "en": "Have you had breakfast?", "focus": "केलास", "wrong": ["केला|kelā", "केली|kelī"] },
+        { "native": "मुलांनी सगळे आंबे खाल्ले.", "roman": "mulānnī sagḷe āmbe khālle.", "en": "The kids ate all the mangoes.", "focus": "खाल्ले", "wrong": ["खाल्ला|khāllā", "खाल्ली|khāllī"] },
+        { "native": "आम्ही काल रात्री उशिरा जेवलो.", "roman": "āmhī kāl rātrī ushirā jevlo.", "en": "We had dinner late last night." },
+        { "native": "तिने तुला काय विचारलं?", "roman": "tine tulā kāy vichārlaṃ?", "en": "What did she ask you?", "focus": "तिने", "wrong": ["ती|tī", "तिला|tilā"] }
+      ]
+    },
+    {
+      "title": "Lost and found",
+      "tip": { "title": "मला सापडलं — I found it", "body": "- 'Find' and 'get' work like 'like': the thing is the subject and you take -ला: **मला** किल्ली **सापडली** 'I found the key', **मला** नोकरी **मिळाली** 'I got a job'.\n- 'Remember' too: **मला आठवत नाही** 'I don't remember'.\n- But 'lose' and 'forget' are ordinary: मी फोन **हरवला**, मी **विसरलो**.", "pattern": "मला + thing + सापडली / मिळाली" },
+      "new": ["हरवणे", "सापडणे", "मिळणे", "आठवणे", "विसरणे", "मी माझा फोन हरवला.", "मला किल्ली सापडली!", "मी विसरलो!", "मला आठवत नाही."],
+      "sentences": [
+        { "native": "माझी किल्ली हरवली.", "roman": "mājhī killī haravlī.", "en": "I've lost my key.", "focus": "हरवली", "wrong": ["हरवला|haravlā", "हरवलं|haravlaṃ"] },
+        { "native": "तुला तुझा फोन सापडला का?", "roman": "tulā tudzhā fon sāpaḍlā kā?", "en": "Did you find your phone?", "focus": "सापडला", "wrong": ["सापडली|sāpaḍlī", "सापडलो|sāpaḍlo"] },
+        { "native": "मला नवीन नोकरी मिळाली!", "roman": "malā navīn nokrī miḷālī!", "en": "I got a new job!", "focus": "मिळाली", "wrong": ["मिळाला|miḷālā", "मिळालं|miḷālaṃ"] },
+        { "native": "तिला तिकीट मिळालं नाही.", "roman": "tilā tikīṭ miḷālaṃ nāhī.", "en": "She didn't get a ticket.", "focus": "तिला", "wrong": ["ती|tī", "तिने|tine"] },
+        { "native": "मी पैसे आणायला विसरलो.", "roman": "mī paise āṇāylā visarlo.", "en": "I forgot to bring money. (man)", "focus": "विसरलो", "wrong": ["विसरला|visarlā", "विसरलास|visarlās"] },
+        { "native": "तुला माझं नाव आठवतं का?", "roman": "tulā mādzhaṃ nāv āṭhavtaṃ kā?", "en": "Do you remember my name?", "focus": "तुला", "wrong": ["तू|tū", "तुझा|tudzhā"] },
+        { "native": "मुलगा बाजारात हरवला.", "roman": "mulgā bādzārāt haravlā.", "en": "The boy got lost in the market." },
+        { "native": "मला त्याचं नाव आठवत नाही.", "roman": "malā tyātsaṃ nāv āṭhavat nāhī.", "en": "I can't remember his name.", "focus": "मला", "wrong": ["मी|mī", "माझा|mādzhā"] },
+        { "native": "ती छत्री विसरली.", "roman": "tī chhatrī visarlī.", "en": "She forgot her umbrella.", "focus": "विसरली", "wrong": ["विसरला|visarlā", "विसरलं|visarlaṃ"] }
+      ]
+    },
+    {
+      "title": "News and stories",
+      "new": ["गोष्ट", "बातमी", "ऐकणे", "तुम्ही ही बातमी ऐकलीत का?", "घडणे", "नुकतंच", "आधीच", "अजून", "अजून नाही."],
+      "sentences": [
+        { "native": "मी नुकतंच ही बातमी ऐकली.", "roman": "mī nuktaṃts hī bātmī aiklī.", "en": "I just heard this news." },
+        { "native": "काल रात्री काय घडलं?", "roman": "kāl rātrī kāy ghaḍlaṃ?", "en": "What happened last night?" },
+        { "native": "आजीने मला एक गोष्ट सांगितली.", "roman": "ājīne malā ek goṣṭ sāṅgitlī.", "en": "Grandma told me a story." },
+        { "native": "तो अजून आला नाही.", "roman": "to adzūn ālā nāhī.", "en": "He hasn't come yet." },
+        { "native": "मी आधीच तिकीट घेतलं.", "roman": "mī ādhīts tikīṭ ghetlaṃ.", "en": "I've already bought the ticket." },
+        { "native": "ऐक, मी तुला एक गोष्ट सांगतो.", "roman": "aik, mī tulā ek goṣṭ sāṅgto.", "en": "Listen, let me tell you something. (man)" },
+        { "native": "तू आज बातम्या पाहिल्यास का?", "roman": "tū ādz bātmyā pāhilyās kā?", "en": "Did you watch the news today?" },
+        { "native": "आम्ही आधीच जेवलो.", "roman": "āmhī ādhīts jevlo.", "en": "We've already eaten." },
+        { "native": "ही गोष्ट खरी आहे का?", "roman": "hī goṣṭ kharī āhe kā?", "en": "Is this true?" }
+      ]
+    },
+    {
+      "title": "Open, closed, run out",
+      "new": ["उघडणे", "बंद", "सुरू", "संपणे", "तुटणे"],
+      "sentences": [
+        { "native": "दुकान अजून बंद आहे.", "roman": "dukān adzūn band āhe.", "en": "The shop is still closed." },
+        { "native": "दुकान किती वाजता उघडतं?", "roman": "dukān kitī vādztā ughaḍtaṃ?", "en": "What time does the shop open?" },
+        { "native": "साखर संपली, आणायला हवी.", "roman": "sākhar samplī, āṇāylā havī.", "en": "We're out of sugar, we need to get some." },
+        { "native": "माझा फोन पडला आणि तुटला.", "roman": "mādzhā fon paḍlā āṇi tuṭlā.", "en": "My phone fell and broke." },
+        { "native": "पंखा सुरू कर ना.", "roman": "paṅkhā surū kar nā.", "en": "Turn the fan on, will you?" },
+        { "native": "दार कोणी उघडलं?", "roman": "dār koṇī ughaḍlaṃ?", "en": "Who opened the door?" },
+        { "native": "मीटिंग कधी संपली?", "roman": "mīṭiṅg kadhī samplī?", "en": "When did the meeting finish?" },
+        { "native": "खिडकी बंद कर, बाहेर पाऊस पडतोय.", "roman": "khiḍkī band kar, bāher pāūs paḍtoy.", "en": "Shut the window, it's raining outside." },
+        { "native": "दुकान सुरू आहे का?", "roman": "dukān surū āhe kā?", "en": "Is the shop open?" }
+      ]
+    }
+  ]
 }

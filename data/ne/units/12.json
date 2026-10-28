@@ -93,5 +93,93 @@
       { "speaker": "Sarah", "native": "ल ठीक छ, लिन्छु।", "roman": "la ṭhik chha, linchhu.", "en": "OK, fine, I'll take it." }
     ]
   },
-  "culture": "Bargaining is expected in bazaars, at street stalls and with taxi drivers, but not in supermarkets, pharmacies or shops marked **मूल्य निश्चित** (fixed price). Keep it friendly and smiling — a final 'लास्ट?' and a laugh usually works better than walking away. The first sale of the day is called **बोहनी**; shopkeepers believe it sets the day's luck, so they may give a good price — and they may touch the first banknote to their forehead. Nepal's currency is the Nepali rupee (NPR); Indian rupees are widely accepted in the Terai, though large Indian notes may be refused."
+  "culture": "Bargaining is expected in bazaars, at street stalls and with taxi drivers, but not in supermarkets, pharmacies or shops marked **मूल्य निश्चित** (fixed price). Keep it friendly and smiling — a final 'लास्ट?' and a laugh usually works better than walking away. The first sale of the day is called **बोहनी**; shopkeepers believe it sets the day's luck, so they may give a good price — and they may touch the first banknote to their forehead. Nepal's currency is the Nepali rupee (NPR); Indian rupees are widely accepted in the Terai, though large Indian notes may be refused.",
+  "lessons": [
+    {
+      "title": "Asking the price",
+      "tip": { "title": "कति हो? कति पर्छ? — how much?", "body": "- **कति हो?** 'how much is it?' is the everyday question.\n- **कति पर्छ?** 'how much does it cost?' (lit. 'how much falls?'); the answer uses पर्छ too: तीन सय रुपैयाँ **पर्छ**.\n- **जम्मा** = altogether: जम्मा कति पर्छ?", "pattern": "thing + कति पर्छ?  →  … रुपैयाँ पर्छ" },
+      "new": ["पसल", "बजार", "किन्नु", "पैसा", "रुपैयाँ", "मूल्य", "अरू", "यसको कति पर्छ?", "दुईवटा लिन्छु।", "अरू केही चाहियो?"],
+      "sentences": [
+        { "native": "यो झोला कति हो?", "roman": "yo jholā kati ho?", "en": "How much is this bag?", "focus": "कति", "wrong": ["कहाँ|kahāṃ", "कुन|kun"] },
+        { "native": "एक किलो चिनी कति पर्छ?", "roman": "ek kilo chini kati parchha?", "en": "How much is a kilo of sugar?", "focus": "पर्छ", "wrong": ["पर्छु|parchhu", "पर्नुहोस्|parnuhos"] },
+        { "native": "तीन सय रुपैयाँ पर्छ।", "roman": "tin saya rupaiyāṃ parchha.", "en": "It's three hundred rupees.", "focus": "पर्छ", "wrong": ["पर्छु|parchhu", "पर्नुहोस्|parnuhos"] },
+        { "native": "म बजारमा तरकारी किन्छु।", "roman": "ma bajārmā tarkāri kinchhu.", "en": "I buy vegetables at the market.", "focus": "किन्छु", "wrong": ["किन्छ|kinchha", "किन्नुहोस्|kinnuhos"] },
+        { "native": "यो पसलमा दूध छ?", "roman": "yo pasalmā dudh chha?", "en": "Is there any milk in this shop?" },
+        { "native": "सबैको जम्मा कति पर्छ?", "roman": "sabaiko jammā kati parchha?", "en": "How much is it for everything altogether?", "focus": "पर्छ", "wrong": ["पर्छु|parchhu", "पर्नुहोस्|parnuhos"] },
+        { "native": "यसको मूल्य कति हो?", "roman": "yasko mulya kati ho?", "en": "What's the price of this?", "focus": "कति", "wrong": ["कहाँ|kahāṃ", "कुन|kun"] },
+        { "native": "म तीनवटा लिन्छु।", "roman": "ma tinwaṭā linchhu.", "en": "I'll take three." },
+        { "native": "कति पैसा भयो, दाइ?", "roman": "kati paisā bhayo, dāi?", "en": "How much does that come to?" },
+        { "native": "अरू केही चाहिँदैन, धन्यवाद।", "roman": "aru kehi chāhiṃdaina, dhanyabād.", "en": "I don't need anything else, thanks." }
+      ]
+    },
+    {
+      "title": "This one or that one?",
+      "tip": { "title": "यो → यस-, त्यो → त्यस-", "body": "- **यो** 'this', **त्यो** 'that'; plural **यी** 'these', **ती** 'those'.\n- Before an ending they become **यस-** / **त्यस-**: **यसको** 'of this', **त्यसमा** 'in that' (never योको).\n- **यस्तो** 'like this', **त्यस्तो** 'like that'.\n- **यो चाहिँ** = 'this one' (as opposed to the others).", "pattern": "यो → यसको · यसमा  ·  त्यो → त्यसको", "grammar": 0 },
+      "new": ["यी", "ती", "चाहिँ", "यस्तो", "त्यस्तो", "अर्को", "बेच्नु", "यो चाहिँ कति हो?", "अर्को रङमा छ?", "यस्तै, तर अलि ठूलो छ?"],
+      "sentences": [
+        { "native": "यसको रङ राम्रो छ।", "roman": "yasko raṅ rāmro chha.", "en": "The colour of this one is nice.", "focus": "यसको", "wrong": ["योको|yoko", "यहाँ|yahāṃ"] },
+        { "native": "त्यसको कति पर्छ?", "roman": "tyasko kati parchha?", "en": "How much is that one?", "focus": "त्यसको", "wrong": ["त्योको|tyoko", "त्यहाँ|tyahāṃ"] },
+        { "native": "मलाई त्यस्तो झोला चाहियो।", "roman": "malāi tyasto jholā chāhiyo.", "en": "I want a bag like that.", "focus": "त्यस्तो", "wrong": ["त्यसको|tyasko", "त्यहाँ|tyahāṃ"] },
+        { "native": "यस्तो रङ मलाई मन पर्दैन।", "roman": "yasto raṅ malāi man pardaina.", "en": "I don't like this kind of colour.", "focus": "यस्तो", "wrong": ["यसको|yasko", "यहाँ|yahāṃ"] },
+        { "native": "यी राम्रा छन्, ती चाहिँ पुराना छन्।", "roman": "yi rāmrā chhan, ti chāhiṃ purānā chhan.", "en": "These are nice, but those ones are old.", "focus": "ती", "wrong": ["त्यो|tyo", "त्यसको|tyasko"] },
+        { "native": "यो चाहिँ मलाई मन पर्‍यो।", "roman": "yo chāhiṃ malāi man paryo.", "en": "I like this one." },
+        { "native": "यो पसलमा चिया बेच्छन्?", "roman": "yo pasalmā chiyā bechchhan?", "en": "Do they sell tea in this shop?" },
+        { "native": "अर्को पसलमा यस्तो छ?", "roman": "arko pasalmā yasto chha?", "en": "Does the other shop have one like this?", "focus": "यस्तो", "wrong": ["यसको|yasko", "यहाँ|yahāṃ"] },
+        { "native": "यसमा चिनी छ?", "roman": "yasmā chini chha?", "en": "Is there sugar in this?", "focus": "यसमा", "wrong": ["योमा|yomā", "यहाँ|yahāṃ"] },
+        { "native": "यो राम्रो कि त्यो?", "roman": "yo rāmro ki tyo?", "en": "Is this one better or that one?" }
+      ]
+    },
+    {
+      "title": "Trying on clothes",
+      "tip": { "title": "Shall I…? and 'it's too big'", "body": "- Add **-ऊँ** to a verb stem to ask 'shall I…?': हेर**ूँ**? 'shall I look?', लगाएर हेर**ूँ**? 'can I try it on?'\n- An adjective + **भयो** says how something turned out on you: ठूलो **भयो** 'it's too big', ठिक्क **भयो** 'it fits perfectly'.", "pattern": "adjective + भयो  ·  हेरूँ?" },
+      "new": ["लुगा", "कमिज", "सारी", "कुर्था", "ज्याकेट", "साइज", "ठिक्क", "लगाएर हेरूँ?", "ठिक्क भयो।"],
+      "sentences": [
+        { "native": "यो ज्याकेट लगाएर हेरूँ?", "roman": "yo jyākeṭ lagāera heruṃ?", "en": "Can I try this jacket on?", "focus": "हेरूँ", "wrong": ["हेर्छु|herchhu", "हेर्नुहोस्|hernuhos"] },
+        { "native": "यो कमिज अलि सानो भयो।", "roman": "yo kamij ali sāno bhayo.", "en": "This shirt is a bit too small.", "focus": "भयो", "wrong": ["हो|ho", "छु|chhu"] },
+        { "native": "यो कुर्था ठिक्क भयो।", "roman": "yo kurthā ṭhikka bhayo.", "en": "This kurta fits perfectly.", "focus": "भयो", "wrong": ["हो|ho", "छु|chhu"] },
+        { "native": "यो ज्याकेट लामो भयो।", "roman": "yo jyākeṭ lāmo bhayo.", "en": "This jacket is too long.", "focus": "भयो", "wrong": ["हो|ho", "छु|chhu"] },
+        { "native": "यो नीलो कमिज हेरूँ?", "roman": "yo nilo kamij heruṃ?", "en": "Can I have a look at this blue shirt?", "focus": "हेरूँ", "wrong": ["हेर्छु|herchhu", "हेर्नुहोस्|hernuhos"] },
+        { "native": "यो कमिज ठिक्क भयो?", "roman": "yo kamij ṭhikka bhayo?", "en": "Does this shirt fit?", "focus": "भयो", "wrong": ["हो|ho", "छु|chhu"] },
+        { "native": "यो सारी मलाई कस्तो भयो?", "roman": "yo sāri malāi kasto bhayo?", "en": "How does this sari look on me?", "focus": "भयो", "wrong": ["हो|ho", "छु|chhu"] },
+        { "native": "तपाईंको साइज कति हो?", "roman": "tapāiṃko sāij kati ho?", "en": "What's your size?" },
+        { "native": "यो सारी धेरै राम्रो छ, कति पर्छ?", "roman": "yo sāri dherai rāmro chha, kati parchha?", "en": "This sari is lovely, how much is it?" },
+        { "native": "मलाई अलि ठूलो साइज चाहियो।", "roman": "malāi ali ṭhulo sāij chāhiyo.", "en": "I need a slightly bigger size." },
+        { "native": "म नयाँ लुगा किन्न बजार जान्छु।", "roman": "ma nayāṃ lugā kinna bajār jānchhu.", "en": "I'm going to the market to buy new clothes." }
+      ]
+    },
+    {
+      "title": "Bargaining",
+      "tip": { "title": "Bargaining with a smile", "body": "- **महँगो भयो** 'that's expensive' and **अलि घटाउनुहोस् न** 'come down a bit' open the bargaining.\n- Make an offer with **-मा** 'for': पाँच सय**मा** दिनुहुन्छ? 'will you give it for 500?'\n- **लास्ट कति?** asks for the final price. Keep it friendly." },
+      "new": ["महँगो", "सस्तो", "भाउ", "घटाउनु", "छुट", "धेरै महँगो भयो।", "अलि घटाउनुहोस् न।", "लास्ट कति?"],
+      "sentences": [
+        { "native": "दाइ, यो त धेरै महँगो भयो!", "roman": "dāi, yo ta dherai mahaṃgo bhayo!", "en": "That's way too expensive!" },
+        { "native": "पाँच सयमा दिनुहुन्छ?", "roman": "pāṃch sayamā dinuhunchha?", "en": "Will you give it to me for five hundred?", "focus": "सयमा", "wrong": ["सयको|sayako", "सयबाट|sayabāṭa"] },
+        { "native": "सात सयमा ठीक छ?", "roman": "sāt sayamā ṭhik chha?", "en": "Is seven hundred OK?", "focus": "सयमा", "wrong": ["सयको|sayako", "सयबाट|sayabāṭa"] },
+        { "native": "हजारमा दुईवटा दिनुहुन्छ?", "roman": "hajārmā duiwaṭā dinuhunchha?", "en": "Will you give me two for a thousand?", "focus": "हजारमा", "wrong": ["हजारको|hajārko", "हजारबाट|hajārbāṭa"] },
+        { "native": "चार सयमा दिन्छु, लास्ट।", "roman": "chār sayamā dinchhu, lāsṭa.", "en": "I'll give it to you for four hundred, final offer.", "focus": "सयमा", "wrong": ["सयको|sayako", "सयबाट|sayabāṭa"] },
+        { "native": "ठीक छ, छ सयमा लिन्छु।", "roman": "ṭhik chha, chha sayamā linchhu.", "en": "OK, I'll take it for six hundred.", "focus": "सयमा", "wrong": ["सयको|sayako", "सयबाट|sayabāṭa"] },
+        { "native": "सय रुपैयाँ घटाउनुहोस्।", "roman": "saya rupaiyāṃ ghaṭāunuhos.", "en": "Take a hundred rupees off.", "focus": "घटाउनुहोस्", "wrong": ["घटाउँछु|ghaṭāuṃchhu", "घटाउनु|ghaṭāunu"] },
+        { "native": "दुईवटा किन्छु, अलि छुट दिनुहोस् न।", "roman": "duiwaṭā kinchhu, ali chhuṭ dinuhos na.", "en": "I'll buy two, give me a little discount.", "focus": "दिनुहोस्", "wrong": ["दिन्छु|dinchhu", "दिनु|dinu"] },
+        { "native": "यसको भाउ कति हो?", "roman": "yasko bhāu kati ho?", "en": "What's your price for this?" },
+        { "native": "योभन्दा सस्तो हुँदैन, दिदी।", "roman": "yobhandā sasto huṃdaina, didi.", "en": "It can't go any cheaper than this." },
+        { "native": "छुट छ?", "roman": "chhuṭ chha?", "en": "Is there a discount?" }
+      ]
+    },
+    {
+      "title": "Paying",
+      "tip": { "title": "'I have' with सँग", "body": "- For things you have on you, say 'with me … is': **मसँग** पैसा छ 'I have money'.\n- सँग sticks to the person: तपाईं**सँग**, उहाँ**सँग**, हामी**सँग**.\n- Not मलाई or मेरो here: मसँग खुद्रा **छैन** 'I don't have change'.", "pattern": "मसँग + thing + छ / छैन", "grammar": 1 },
+      "new": ["सँग", "नगद", "खुद्रा", "थैली", "मसँग खुद्रा छैन।", "कार्ड चल्छ?"],
+      "sentences": [
+        { "native": "मसँग नगद छ।", "roman": "masaṃga nagad chha.", "en": "I have cash.", "focus": "मसँग", "wrong": ["मलाई|malāi", "मेरो|mero"] },
+        { "native": "तपाईंसँग पाँच सयको खुद्रा छ?", "roman": "tapāiṃsaṃga pāṃch sayako khudrā chha?", "en": "Do you have change for five hundred?", "focus": "तपाईंसँग", "wrong": ["तपाईंलाई|tapāiṃlāi", "तपाईंको|tapāiṃko"] },
+        { "native": "मसँग धेरै पैसा छैन।", "roman": "masaṃga dherai paisā chhaina.", "en": "I don't have much money.", "focus": "मसँग", "wrong": ["मलाई|malāi", "मेरो|mero"] },
+        { "native": "उहाँसँग कार्ड छ।", "roman": "uhāṃsaṃga kārḍ chha.", "en": "He has a card.", "focus": "उहाँसँग", "wrong": ["उहाँलाई|uhāṃlāi", "उहाँको|uhāṃko"] },
+        { "native": "तपाईंसँग थैली छ?", "roman": "tapāiṃsaṃga thaili chha?", "en": "Do you have a bag?", "focus": "तपाईंसँग", "wrong": ["तपाईंलाई|tapāiṃlāi", "तपाईंको|tapāiṃko"] },
+        { "native": "थैली चाहिँदैन, मसँग झोला छ।", "roman": "thaili chāhiṃdaina, masaṃga jholā chha.", "en": "I don't need a bag, I've got one.", "focus": "मसँग", "wrong": ["मलाई|malāi", "मेरो|mero"] },
+        { "native": "हामीसँग खुद्रा छैन, दाइ।", "roman": "hāmisaṃga khudrā chhaina, dāi.", "en": "We don't have change.", "focus": "हामीसँग", "wrong": ["हामीलाई|hāmilāi", "हाम्रो|hāmro"] },
+        { "native": "यहाँ कार्ड चल्दैन, नगद मात्र।", "roman": "yahāṃ kārḍ chaldaina, nagad mātra.", "en": "Cards don't work here, cash only." },
+        { "native": "नगद दिऊँ कि कार्ड?", "roman": "nagad diuṃ ki kārḍ?", "en": "Shall I pay cash or card?" }
+      ]
+    }
+  ]
 }

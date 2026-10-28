@@ -86,5 +86,92 @@
       { "speaker": "Mr Sen", "native": "ঠিক আছে। আমরা আপনাকে জানাব।", "roman": "ṭhik achhe. amra apnake janabo.", "en": "All right. We'll let you know." }
     ]
   },
-  "culture": "Teachers are deeply respected; students stand when a teacher enters, and in West Bengal touching a teacher's feet (প্রণাম) on special days is common among Hindus. In offices, seniors are addressed as স্যার / ম্যাডাম or with -দা / -দি (e.g. সেনদা) in Kolkata, and ভাই / আপা in Dhaka. Board exams (মাধ্যমিক / SSC, উচ্চমাধ্যমিক / HSC) are major family events, and results make the newspapers."
+  "culture": "Teachers are deeply respected; students stand when a teacher enters, and in West Bengal touching a teacher's feet (প্রণাম) on special days is common among Hindus. In offices, seniors are addressed as স্যার / ম্যাডাম or with -দা / -দি (e.g. সেনদা) in Kolkata, and ভাই / আপা in Dhaka. Board exams (মাধ্যমিক / SSC, উচ্চমাধ্যমিক / HSC) are major family events, and results make the newspapers.",
+  "lessons": [
+    {
+      "title": "Saying what you do",
+      "tip": { "title": "What do you do?", "body": "- Ask **আপনি কী করেন?** Answer with just the job: আমি **শিক্ষক** 'I'm a teacher' (no 'a', no 'am').\n- Or use a verb: **চাকরি করি** 'I have a job', **ব্যবসা করি** 'I run a business', **পড়াই** 'I teach'.\n- 'At / for a company' takes **-তে / -এ**: **কোম্পানিতে**, **স্কুলে**." },
+      "new": ["চাকরি", "কোম্পানি", "শিক্ষক", "ইঞ্জিনিয়ার", "উকিল", "ব্যবসা", "আপনি কী করেন?", "আমি একটা আইটি কোম্পানিতে চাকরি করি।", "আমি স্কুলে পড়াই।"],
+      "sentences": [
+        { "native": "আমি ইঞ্জিনিয়ার।", "roman": "ami injiniyar.", "en": "I'm an engineer." },
+        { "native": "আমার বাবা উকিল।", "roman": "amar baba ukil.", "en": "My father is a lawyer." },
+        { "native": "আমার মা একটা কোম্পানিতে চাকরি করেন।", "roman": "amar ma ækṭa kompanite chakri kôren.", "en": "My mother works for a company.", "focus": "কোম্পানিতে", "wrong": ["কোম্পানি|kompani", "কোম্পানির|kompanir"] },
+        { "native": "ও একটা বড় কোম্পানির ইঞ্জিনিয়ার।", "roman": "o ækṭa bôṛo kompanir injiniyar.", "en": "He's an engineer at a big company.", "focus": "কোম্পানির", "wrong": ["কোম্পানিতে|kompanite", "কোম্পানি|kompani"] },
+        { "native": "আমার ছোট ভাই ব্যবসা করে।", "roman": "amar chhoṭo bhai bæbsha kore.", "en": "My younger brother runs a business.", "focus": "করে", "wrong": ["করি|kori", "করো|kôro"] },
+        { "native": "তুমি কোথায় চাকরি করো?", "roman": "tumi kothay chakri kôro?", "en": "Where do you work?", "focus": "করো", "wrong": ["করি|kori", "করেন|kôren"] },
+        { "native": "আপনি কি শিক্ষক?", "roman": "apni ki shikkhok?", "en": "Are you a teacher?" },
+        { "native": "না, আমি শিক্ষক নই, আমি উকিল।", "roman": "na, ami shikkhok noi, ami ukil.", "en": "No, I'm not a teacher, I'm a lawyer.", "focus": "নই", "wrong": ["নন|nôn", "নয়|nôy"] },
+        { "native": "উনি স্কুলে পড়ান।", "roman": "uni skule pôṛan.", "en": "She teaches at a school.", "focus": "পড়ান", "wrong": ["পড়াই|pôṛai", "পড়াও|pôṛao"] },
+        { "native": "আমার এখন কোনো চাকরি নেই।", "roman": "amar ækhon kono chakri nei.", "en": "I don't have a job right now." }
+      ]
+    },
+    {
+      "title": "At the office",
+      "tip": { "title": "আমাকে … যেতে হবে: I have to", "body": "- 'Have to' puts the person in the **-কে** form, then the **-তে** infinitive + **হবে**: **আমাকে** যেতে **হবে** 'I have to go'.\n- Every day: **হয়**: আমাকে রোজ অফিস যেতে হয়. Past: **হয়েছিল**.\n- 'Don't have to': **হবে না**: তোমাকে আসতে হবে না.", "pattern": "আমাকে + যেতে + হবে", "grammar": 1 },
+      "new": ["অফিস", "মিটিং", "বস", "সহকর্মী", "বেতন", "ছুটি", "আমাকে এখন অফিস যেতে হবে।", "আজ আমার ছুটি।"],
+      "sentences": [
+        { "native": "আজ বিকেলে আমাকে একটা মিটিংয়ে যেতে হবে।", "roman": "aj bikele amake ækṭa miṭiṅe jete hobe.", "en": "I have to go to a meeting this afternoon.", "focus": "আমাকে", "wrong": ["আমি|ami", "আমরা|amra"] },
+        { "native": "আমাকে রোজ দশটায় অফিস পৌঁছাতে হয়।", "roman": "amake roj dôshṭay ophish pouṃchhate hôy.", "en": "I have to get to the office by ten every day.", "focus": "হয়", "wrong": ["হই|hoi", "হন|hôn"] },
+        { "native": "তোমাকে কাল আসতে হবে না।", "roman": "tomake kal ashte hobe na.", "en": "You don't have to come tomorrow.", "focus": "তোমাকে", "wrong": ["তুমি|tumi", "তোমরা|tomra"] },
+        { "native": "আজ ছুটি নেই, আমাকে অফিস যেতে হবে।", "roman": "aj chhuṭi nei, amake ophish jete hobe.", "en": "No day off today, I have to go to the office.", "focus": "হবে", "wrong": ["হব|hobo", "হন|hôn"] },
+        { "native": "ওকে শনিবারেও কাজ করতে হয়।", "roman": "oke shonibareo kaj korte hôy.", "en": "She has to work on Saturdays too.", "focus": "ওকে", "wrong": ["ও|o", "ওরা|ora"] },
+        { "native": "আমাকে কি কাল মিটিংয়ে থাকতে হবে?", "roman": "amake ki kal miṭiṅe thakte hobe?", "en": "Do I have to be at the meeting tomorrow?", "focus": "থাকতে", "wrong": ["থাকি|thaki", "থাকব|thakbo"] },
+        { "native": "আপনাকে আর কিছু করতে হবে না।", "roman": "apnake ar kichhu korte hobe na.", "en": "You don't need to do anything else.", "focus": "আপনাকে", "wrong": ["আপনি|apni", "আপনারা|apnara"] },
+        { "native": "আমার বস খুব ভালো মানুষ।", "roman": "amar bôs khub bhalo manush.", "en": "My boss is a really nice person." },
+        { "native": "আমার সহকর্মীরা খুব ভালো।", "roman": "amar shôhokormira khub bhalo.", "en": "My colleagues are great." },
+        { "native": "এ মাসের বেতন কবে পাব?", "roman": "e masher beton kôbe pabo?", "en": "When will I get this month's salary?" }
+      ]
+    },
+    {
+      "title": "What you can do",
+      "tip": { "title": "-তে পারি: I can", "body": "- 'Can' is the **-তে** infinitive + **পারা**: বলতে **পারি** 'I can speak'. Forms: পারি, পারো, পারেন, পারে.\n- 'Can't': **পারি না**; 'will be able to': **পারব**.\n- 'Know how to' a skill: **জানা**: আমি রান্না করতে জানি.\n- 'May I…?' works the same way: বসতে পারি?", "pattern": "বলতে / করতে + পারি", "grammar": 0 },
+      "new": ["পারা", "জানা", "শেখানো", "পুলিশ", "নার্স", "কৃষক", "আপনি কি ইংরেজি বলতে পারেন?", "আমি গাড়ি চালাতে পারি না।"],
+      "sentences": [
+        { "native": "আমি বাংলা লিখতে পারি না।", "roman": "ami baṅla likhte pari na.", "en": "I can't write Bengali.", "focus": "পারি", "wrong": ["পারে|pare", "পারেন|paren"] },
+        { "native": "তুমি কি রান্না করতে পারো?", "roman": "tumi ki ranna korte paro?", "en": "Can you cook?", "focus": "পারো", "wrong": ["পারি|pari", "পারেন|paren"] },
+        { "native": "আমি আজ মিটিংয়ে যেতে পারব না।", "roman": "ami aj miṭiṅe jete parbo na.", "en": "I won't be able to go to the meeting today.", "focus": "পারব", "wrong": ["পারবে|parbe", "পারবেন|parben"] },
+        { "native": "পুলিশ আপনাকে সাহায্য করতে পারবে।", "roman": "pulish apnake shahajjo korte parbe.", "en": "The police will be able to help you.", "focus": "পারবে", "wrong": ["পারব|parbo", "পারি|pari"] },
+        { "native": "নার্স কি এখন আসতে পারবেন?", "roman": "nars ki ækhon ashte parben?", "en": "Can the nurse come now?", "focus": "আসতে", "wrong": ["আসি|ashi", "আসবে|ashbe"] },
+        { "native": "আমার দাদু কৃষক, উনি পড়তে জানেন না।", "roman": "amar dadu krishok, uni poṛte janen na.", "en": "My grandfather is a farmer, he can't read.", "focus": "জানেন", "wrong": ["জানি|jani", "জানো|jano"] },
+        { "native": "আপনি কি গাড়ি চালাতে জানেন?", "roman": "apni ki gaṛi chalate janen?", "en": "Do you know how to drive?", "focus": "চালাতে", "wrong": ["চালান|chalan", "চালাই|chalai"] },
+        { "native": "উনি বাচ্চাদের ইংরেজি শেখান।", "roman": "uni bachchader iṅreji shekhan.", "en": "She teaches children English.", "focus": "শেখান", "wrong": ["শেখাই|shekhai", "শেখাও|shekhao"] },
+        { "native": "তুমি আমাকে বাংলা শেখাবে?", "roman": "tumi amake baṅla shekhabe?", "en": "Will you teach me Bengali?", "focus": "শেখাবে", "wrong": ["শেখাব|shekhabo", "শেখাবেন|shekhaben"] },
+        { "native": "এখানে বসতে পারি?", "roman": "ekhane boshte pari?", "en": "May I sit here?", "focus": "বসতে", "wrong": ["বসি|boshi", "বসুন|boshun"] }
+      ]
+    },
+    {
+      "title": "Students and studies",
+      "tip": { "title": "Studying: নিয়ে পড়া", "body": "- 'Study a subject' is **X নিয়ে পড়া**: আমি ইতিহাস নিয়ে পড়ছি.\n- 'Be at college / university' is just **পড়া** + the place in **-এ**: কলেজে পড়ি, বিশ্ববিদ্যালয়ে পড়ি.\n- **পড়া** read, study · **পড়ানো** teach (a class) · **শেখানো** teach (a skill)." },
+      "new": ["ক্লাস", "কলেজ", "বিশ্ববিদ্যালয়", "পড়াশোনা", "বিষয়", "অঙ্ক", "তুমি কী নিয়ে পড়ছ?", "আমি ইতিহাস নিয়ে পড়ছি।"],
+      "sentences": [
+        { "native": "আমি কলেজে পড়ি।", "roman": "ami koleje poṛi.", "en": "I'm at college.", "focus": "কলেজে", "wrong": ["কলেজ|kolej", "কলেজের|kolejer"] },
+        { "native": "তুমি কোন কলেজে পড়ো?", "roman": "tumi kon koleje pôṛo?", "en": "Which college do you go to?", "focus": "পড়ো", "wrong": ["পড়ি|poṛi", "পড়েন|poṛen"] },
+        { "native": "আমার বোন বিশ্ববিদ্যালয়ে অঙ্ক নিয়ে পড়ছে।", "roman": "amar bon bishshobiddaloye ôṅko niye poṛchhe.", "en": "My sister is studying maths at university.", "focus": "নিয়ে", "wrong": ["দিয়ে|diye", "থেকে|theke"] },
+        { "native": "আমি ইতিহাস নিয়ে পড়তে চাই।", "roman": "ami itihash niye poṛte chai.", "en": "I want to study history.", "focus": "নিয়ে", "wrong": ["দিয়ে|diye", "থেকে|theke"] },
+        { "native": "আমি এখন বিশ্ববিদ্যালয়ে পড়ি না, চাকরি করি।", "roman": "ami ækhon bishshobiddaloye poṛi na, chakri kori.", "en": "I'm not at university any more, I work.", "focus": "বিশ্ববিদ্যালয়ে", "wrong": ["বিশ্ববিদ্যালয়|bishshobiddalôy", "বিশ্ববিদ্যালয়ের|bishshobiddaloyer"] },
+        { "native": "তোমার কোন বিষয়টা সবচেয়ে ভালো লাগে?", "roman": "tomar kon bishoyṭa shôbcheye bhalo lage?", "en": "Which subject do you like best?" },
+        { "native": "আমার অঙ্ক একদম ভালো লাগে না।", "roman": "amar ôṅko ækdôm bhalo lage na.", "en": "I don't like maths at all." },
+        { "native": "আজ ক্লাস কটা পর্যন্ত?", "roman": "aj klas kôṭa pôrjonto?", "en": "Until what time is class today?" },
+        { "native": "পড়াশোনা কেমন চলছে?", "roman": "pôṛashona kæmon cholchhe?", "en": "How are your studies going?" },
+        { "native": "ওনার ক্লাস খুব মজার।", "roman": "onar klas khub môjar.", "en": "Her classes are great fun." }
+      ]
+    },
+    {
+      "title": "Exams, questions and needs",
+      "tip": { "title": "দরকার: need", "body": "- 'Need' is **দরকার** with the person in **-র**: **আমার** একটা বই দরকার 'I need a book'.\n- 'Don't need': **দরকার নেই**: আমার কিছু দরকার নেই.\n- 'Need to do' uses the verbal noun: আমার পড়াশোনা **করা** দরকার 'I need to study'.", "pattern": "আমার + X + দরকার", "grammar": 1 },
+      "new": ["পরীক্ষা", "প্রশ্ন", "উত্তর", "দরকার", "কাল আমার পরীক্ষা।", "আমার একটু সাহায্য দরকার।", "স্যার, একটা প্রশ্ন করতে পারি?"],
+      "sentences": [
+        { "native": "আমার একটা নতুন বই দরকার।", "roman": "amar ækṭa notun boi dôrkar.", "en": "I need a new book.", "focus": "আমার", "wrong": ["আমি|ami", "আমাকে|amake"] },
+        { "native": "তোমার কি কিছু দরকার?", "roman": "tomar ki kichhu dôrkar?", "en": "Do you need anything?", "focus": "তোমার", "wrong": ["তুমি|tumi", "তোমাকে|tomake"] },
+        { "native": "না, আমার কিছু দরকার নেই।", "roman": "na, amar kichhu dôrkar nei.", "en": "No, I don't need anything.", "focus": "নেই", "wrong": ["নই|noi", "নও|nôo"] },
+        { "native": "আপনার কি ডাক্তার দরকার?", "roman": "apnar ki ḍaktar dôrkar?", "en": "Do you need a doctor?", "focus": "আপনার", "wrong": ["আপনি|apni", "আপনাকে|apnake"] },
+        { "native": "পরীক্ষার আগে আমার পড়াশোনা করা দরকার।", "roman": "porikkhar age amar pôṛashona kôra dôrkar.", "en": "I need to study before the exam.", "focus": "করা", "wrong": ["করি|kori", "করব|korbo"] },
+        { "native": "পরীক্ষার জন্য আমাকে অনেক পড়তে হবে।", "roman": "porikkhar jonno amake ônek poṛte hobe.", "en": "I have to study a lot for the exam.", "focus": "পড়তে", "wrong": ["পড়ি|poṛi", "পড়ব|poṛbo"] },
+        { "native": "আমি এই প্রশ্নের উত্তর জানি না।", "roman": "ami ei proshner uttor jani na.", "en": "I don't know the answer to this question.", "focus": "প্রশ্নের", "wrong": ["প্রশ্নে|proshne", "প্রশ্ন|proshno"] },
+        { "native": "প্রশ্নটা খুব কঠিন।", "roman": "proshnoṭa khub koṭhin.", "en": "The question is very hard." },
+        { "native": "উত্তরটা কী?", "roman": "uttorṭa ki?", "en": "What's the answer?" },
+        { "native": "পরীক্ষা কেমন হলো?", "roman": "porikkha kæmon holo?", "en": "How did the exam go?" }
+      ]
+    }
+  ]
 }
