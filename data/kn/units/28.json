@@ -1,0 +1,186 @@
+{
+  "id": 28,
+  "title": "Catching up",
+  "goal": "Catch up with a friend: say what you did at the weekend, ask 'have you ever…?', share your news, and say how long ago something happened or how long it's been going on.",
+  "intro": "You bump into an old friend at a darshini: ಏನು ಅಪರೂಪ! 'long time no see!'. Then come the questions: what have you been up to, still at the same company, how was the trip, have you ever been to Coorg? This unit is about that conversation.\n\nThe grammar is the past in all its shades. **ಮಾಡಿದೆ** 'I did' vs **ಮಾಡಿದ್ದೀನಿ** 'I have done' (and ಯಾವತ್ತೂ ಮಾಡಿಲ್ಲ 'I've never done it'); **ಮಾಡ್ತಿದ್ದೆ** 'I was doing' with ...ಆಗ 'when'; and time spans: ಎರಡು ವರ್ಷದ **ಹಿಂದೆ** 'two years ago', ಎರಡು ವರ್ಷ**ದಿಂದ** 'for two years', ಸಿಕ್ಕಿ ಎರಡು ವರ್ಷ **ಆಯ್ತು** 'it's been two years since we met'.",
+  "vocab": [
+    { "native": "ಅಪರೂಪ", "roman": "aparūpa", "en": "rare; a rare sight", "pos": "adj", "note": "ಏನು ಅಪರೂಪ! = long time no see!" },
+    { "native": "ವಿಶೇಷ", "roman": "vishēṣa", "en": "special; news, something new; occasion", "pos": "adj", "note": "ಏನು ವಿಶೇಷ? = what's new? / what's the occasion?" },
+    { "native": "ಟಚ್", "roman": "ṭach", "en": "touch, contact", "pos": "noun", "note": "ಟಚ್‌ನಲ್ಲಿ ಇರು = stay in touch" },
+    { "native": "ವೀಕೆಂಡ್", "roman": "vīkeṇḍ", "en": "weekend", "pos": "noun", "note": "more Kannada: ವಾರದ ಕೊನೆ" },
+    { "native": "ಮಜಾ", "roman": "majā", "en": "fun, enjoyment", "pos": "noun", "note": "ಮಜಾ ಮಾಡು = have fun; ಮಜಾ ಇತ್ತು = it was fun" },
+    { "native": "ಟ್ರಿಪ್", "roman": "ṭrip", "en": "trip, outing", "pos": "noun", "note": "ಟ್ರಿಪ್ ಹೋಗು = go on a trip" },
+    { "native": "ಟ್ರೆಕ್ಕಿಂಗ್", "roman": "ṭrekkiṅg", "en": "trekking, hiking", "pos": "noun" },
+    { "native": "ಕಳೆ", "roman": "kaḷe", "en": "to spend, pass (time)", "pos": "verb", "note": "past ಕಳೆದೆ; also 'to lose' in ಕಳೆದು ಹೋಗು" },
+    { "native": "ಹೋದ", "roman": "hōda", "en": "last, previous (spoken)", "pos": "adj", "note": "lit. 'which went': ಹೋದ ವಾರ = last week, ಹೋದ ಸಲ = last time; more formal: ಕಳೆದ" },
+    { "native": "ಸಿಕ್ಕಾಪಟ್ಟೆ", "roman": "sikkāpaṭṭe", "en": "like crazy, loads, tons (slang)", "pos": "adv", "note": "ಸಿಕ್ಕಾಪಟ್ಟೆ ಕೆಲಸ = tons of work" },
+    { "native": "ಯಾವತ್ತಾದ್ರೂ", "roman": "yāvattādrū", "en": "ever, at any time (in questions); sometime", "pos": "adv", "note": "written ಯಾವತ್ತಾದರೂ" },
+    { "native": "ಯಾವತ್ತೂ", "roman": "yāvattū", "en": "never (with a negative verb); always", "pos": "adv", "note": "ಯಾವತ್ತೂ ಹೋಗಿಲ್ಲ = I've never been" },
+    { "native": "ಈಜು", "roman": "īju", "en": "to swim; swimming", "pos": "verb", "note": "ಈಜೋಕೆ ಬರುತ್ತೆ = can swim" },
+    { "native": "ಡ್ರೈವಿಂಗ್", "roman": "ḍraiviṅg", "en": "driving", "pos": "noun", "note": "ಡ್ರೈವಿಂಗ್ ಕಲಿ = learn to drive" },
+    { "native": "ಬದಲಾವಣೆ", "roman": "badalāvaṇe", "en": "change", "pos": "noun", "note": "ಬದಲಾಗು = to change (intr.)" },
+    { "native": "ನಿಶ್ಚಿತಾರ್ಥ", "roman": "nishchitārtha", "en": "engagement (to be married)", "pos": "noun", "note": "spoken also ಎಂಗೇಜ್‌ಮೆಂಟ್" },
+    { "native": "ಗರ್ಭಿಣಿ", "roman": "garbhiṇi", "en": "pregnant", "pos": "adj", "note": "casual also ಪ್ರೆಗ್ನೆಂಟ್" },
+    { "native": "ಸ್ವಂತ", "roman": "svanta", "en": "own (one's own)", "pos": "adj", "note": "ಸ್ವಂತ ಮನೆ = one's own house" },
+    { "native": "ತೂಕ", "roman": "tūka", "en": "weight", "pos": "noun", "note": "ತೂಕ ಕಡಿಮೆ ಆಗು = lose weight" },
+    { "native": "ಸುಮಾರು", "roman": "sumāru", "en": "about, roughly; so-so", "pos": "adv", "note": "ಸುಮಾರು ಹತ್ತು ವರ್ಷ = about ten years; ಸುಮಾರಾಗಿದೆ = it's so-so" },
+    { "native": "ಆಗಿನಿಂದ", "roman": "āgininda", "en": "since then", "pos": "adv" },
+    { "native": "ಜಿಮ್", "roman": "jim", "en": "gym", "pos": "noun" },
+    { "native": "ಸಿಗರೇಟ್", "roman": "sigarēṭ", "en": "cigarette", "pos": "noun", "note": "ಸಿಗರೇಟ್ ಸೇದು = smoke" },
+    { "native": "ಗುಟ್ಟು", "roman": "guṭṭu", "en": "secret", "pos": "noun", "note": "ಗುಟ್ಟಾಗಿ ಇಡು = keep (it) secret" }
+  ],
+  "phrases": [
+    { "native": "ಏನು ಅಪರೂಪ!", "roman": "ēnu aparūpa!", "en": "Long time no see! (lit. what a rarity!)" },
+    { "native": "ಎಲ್ಲಿ ಕಾಣೆಯಾಗಿದ್ದೆ?", "roman": "elli kāṇeyāgidde?", "en": "Where have you been? (lit. where had you vanished; informal)", "note": "polite: ಎಲ್ಲಿ ಕಾಣೆಯಾಗಿದ್ರಿ?" },
+    { "native": "ನಿನ್ನನ್ನ ನೋಡಿ ಎಷ್ಟು ದಿನ ಆಯ್ತು!", "roman": "ninnanna nōḍi eṣṭu dina āytu!", "en": "It's been ages since I saw you! (informal)" },
+    { "native": "ಏನು ವಿಶೇಷ?", "roman": "ēnu vishēṣa?", "en": "What's new? / What's the occasion?" },
+    { "native": "ನಿನ್ನ ಗುರುತೇ ಸಿಗಲಿಲ್ಲ!", "roman": "ninna gurutē sigalilla!", "en": "I didn't even recognise you!" },
+    { "native": "ಟಚ್‌ನಲ್ಲಿ ಇರು, ಆಯ್ತಾ?", "roman": "ṭachnalli iru, āytā?", "en": "Stay in touch, OK? (informal)" },
+    { "native": "ವೀಕೆಂಡ್ ಹೇಗಿತ್ತು?", "roman": "vīkeṇḍ hēgittu?", "en": "How was the weekend?" },
+    { "native": "ಸಕ್ಕತ್ ಮಜಾ ಮಾಡಿದ್ವಿ", "roman": "sakkat majā māḍidvi", "en": "We had a blast." },
+    { "native": "ಏನೂ ವಿಶೇಷ ಇಲ್ಲ, ಮನೇಲೇ ಇದ್ದೆ", "roman": "ēnū vishēṣa illa, manēlē idde", "en": "Nothing special, I just stayed at home." },
+    { "native": "ನೀನು ಯಾವತ್ತಾದ್ರೂ ಕೊಡಗಿಗೆ ಹೋಗಿದ್ದೀಯಾ?", "roman": "nīnu yāvattādrū koḍagige hōgiddīyā?", "en": "Have you ever been to Coorg? (informal)", "note": "ಕೊಡಗು = Coorg/Kodagu" },
+    { "native": "ಇಲ್ಲ, ಯಾವತ್ತೂ ಹೋಗಿಲ್ಲ", "roman": "illa, yāvattū hōgilla", "en": "No, I've never been." },
+    { "native": "ನೀನು ಸಣ್ಣ ಆಗಿದ್ದೀಯ!", "roman": "nīnu saṇṇa āgiddīya!", "en": "You've lost weight! (informal)", "note": "the opposite, ದಪ್ಪ ಆಗಿದ್ದೀಯ 'you've put on weight', is ordinary small talk too" },
+    { "native": "ನಾನು ಈಗ ಬೇರೆ ಕಂಪನಿಗೆ ಸೇರಿದ್ದೀನಿ", "roman": "nānu īga bēre kampanige sēriddīni", "en": "I've joined a different company now." },
+    { "native": "ಎರಡು ತಿಂಗಳ ಹಿಂದೆ ಕೆಲಸ ಬಿಟ್ಟೆ", "roman": "eraḍu tiṅgaḷa hinde kelasa biṭṭe", "en": "I quit my job two months ago." },
+    { "native": "ಆರು ತಿಂಗಳಿಂದ ಜಿಮ್‌ಗೆ ಹೋಗ್ತಿದ್ದೀನಿ", "roman": "āru tiṅgaḷinda jimge hōgtiddīni", "en": "I've been going to the gym for six months." }
+  ],
+  "grammar": [
+    {
+      "title": "'Did' or 'have done': simple past vs present perfect",
+      "body": "You know both forms from unit 16; catching up is where you have to choose between them.\n\n**Present perfect** = past participle + present of ಇರು. The participle is the -ಇ / -ಉ form you use to chain verbs (ಮಾಡಿ, ಹೋಗಿ, ನೋಡಿ, ಬಂದು, ತಿಂದು, ಕೊಟ್ಟು):\nನಾನು ಮಾಡಿದ್ದೀನಿ – I have done  (written ಮಾಡಿದ್ದೇನೆ)\nನೀನು ಮಾಡಿದ್ದೀಯ – you (inf.) have done\nಅವನು ಮಾಡಿದ್ದಾನೆ / ಅವಳು ಮಾಡಿದ್ದಾಳೆ – he / she has done\nಅದು ಆಗಿದೆ – it has happened\nನಾವು ಮಾಡಿದ್ದೀವಿ / ನೀವು ಮಾಡಿದ್ದೀರ / ಅವರು ಮಾಡಿದ್ದಾರೆ\n-ಉ participles: ಬಂದು + ಇದ್ದೀನಿ → ಬಂದಿದ್ದೀನಿ, ತಿಂದಿದ್ದೀನಿ.\n**Negative**: participle + ಇಲ್ಲ for every person: ಮಾಡಿಲ್ಲ, ಹೋಗಿಲ್ಲ, ಬಂದಿಲ್ಲ 'haven't done / gone / come'.\n\n**Use the perfect for**:\n• **experience**, 'ever' and 'never': ಯಾವತ್ತಾದ್ರೂ ಹೋಗಿದ್ದೀಯಾ? 'have you ever been?' – ಯಾವತ್ತೂ ಹೋಗಿಲ್ಲ 'I've never been'\n• **a result that's still true**: ಅವನು ಬಂದಿದ್ದಾನೆ 'he has come (he's here)', ಅವಳು ಮದುವೆ ಆಗಿದ್ದಾಳೆ 'she's married'\n• **news**: ನಾನು ಕೆಲಸ ಬಿಟ್ಟಿದ್ದೀನಿ 'I've quit my job', ಬೇರೆ ಕಂಪನಿಗೆ ಸೇರಿದ್ದೀನಿ 'I've joined another company'\n\n**Use the simple past** for a finished event, especially with a time word: ನಿನ್ನೆ, ಕಳೆದ ವಾರ, ಎರಡು ವರ್ಷದ ಹಿಂದೆ: ಕಳೆದ ವರ್ಷ ಹಂಪಿ ನೋಡಿದೆ 'I saw Hampi last year'. Compare ಅವನು ಬಂದ 'he came (and may have left)' with ಅವನು ಬಂದಿದ್ದಾನೆ 'he's come (and he's here)'.\n\n**Trips: ಹೋಗಿದ್ದೆ.** For a trip you've come back from, Kannadigas use participle + *past* of ಇರು: ವೀಕೆಂಡ್ ಕೊಡಗಿಗೆ ಹೋಗಿದ್ದೆ 'I went to Coorg at the weekend' (and I'm back). This is the normal way to answer 'what did you do?'.",
+      "examples": [
+        { "native": "ಮೈಸೂರು ದಸರಾ ನೋಡಿದ್ದೀನಿ, ಆದ್ರೆ ಹಂಪಿ ಉತ್ಸವ ನೋಡಿಲ್ಲ", "roman": "maisūru dasarā nōḍiddīni, ādre hampi utsava nōḍilla", "en": "I've seen the Mysuru Dasara, but not the Hampi festival." },
+        { "native": "ಕಳೆದ ವರ್ಷ ಹಂಪಿಗೆ ಹೋದೆ", "roman": "kaḷeda varṣa hampige hōde", "en": "I went to Hampi last year." },
+        { "native": "ಅವನು ಬಂದಿದ್ದಾನೆ, ಒಳಗೆ ಇದ್ದಾನೆ", "roman": "avanu bandiddāne, oḷage iddāne", "en": "He's come, he's inside." },
+        { "native": "ನೀವು ಯಾವತ್ತಾದ್ರೂ ನೀರ್ದೋಸೆ ತಿಂದಿದ್ದೀರಾ?", "roman": "nīvu yāvattādrū nīrdōse tindiddīrā?", "en": "Have you ever had neer dosa? (polite)" },
+        { "native": "ವೀಕೆಂಡ್ ಚಿಕ್ಕಮಗಳೂರಿಗೆ ಹೋಗಿದ್ವಿ", "roman": "vīkeṇḍ chikkamagaḷūrige hōgidvi", "en": "We went to Chikkamagaluru at the weekend." }
+      ]
+    },
+    {
+      "title": "'Was doing': the past continuous with -ಆಗ 'when'",
+      "body": "To say what was going on at a moment in the past, use the same -ತ್ತಿದ್ದ- form as 'used to' (unit 26): ಮಾಡ್ತಿದ್ದೆ 'I was doing', ಮಾಡ್ತಿದ್ದ 'he was doing', ಮಾಡ್ತಿದ್ಳು 'she was doing', ಬರ್ತಿತ್ತು 'it was coming', ಮಾಡ್ತಿದ್ವಿ 'we were doing', ಮಾಡ್ತಿದ್ರು 'they were doing'. The context (a single moment, not ದಿನಾ or ಆಗಾಗ) makes it 'was doing'.\n\n**The moment** is usually a **when-clause**: past relative participle + **ಆಗ** (unit 19): ಬಂದಾಗ 'when (someone) came', ಫೋನ್ ಮಾಡಿದಾಗ 'when (someone) called', ತಲುಪಿದಾಗ 'when (we) arrived'. For 'while', put -ಆಗ on the continuous: ಮಾಡ್ತಿದ್ದಾಗ 'while (I) was doing', ಹೋಗ್ತಿದ್ದಾಗ 'while (we) were going'.\nನೀನು ಫೋನ್ ಮಾಡಿದಾಗ ನಾನು ಡ್ರೈವ್ ಮಾಡ್ತಿದ್ದೆ 'I was driving when you called'.\n\n**States are different.** For being asleep, sitting, standing, wearing, Kannada uses the **participle + past of ಇರು** ('had lain down', 'had sat'):\nಮಲಗಿದ್ದೆ 'I was asleep' (ಮಲಗ್ತಿದ್ದೆ would mean 'I was going to bed' or 'I used to sleep')\nಕೂತಿದ್ದೆ 'I was sitting'  ·  ನಿಂತಿದ್ದೆ 'I was standing'  ·  ಕೆಂಪು ಅಂಗಿ ಹಾಕಿದ್ದೆ 'I was wearing a red shirt'\nAnd for simply being somewhere: ಇದ್ದೆ 'I was': ಮನೇಲೇ ಇದ್ದೆ 'I was at home'.",
+      "examples": [
+        { "native": "ನೀನು ಫೋನ್ ಮಾಡಿದಾಗ ನಾನು ಡ್ರೈವ್ ಮಾಡ್ತಿದ್ದೆ", "roman": "nīnu phōn māḍidāga nānu ḍraiv māḍtidde", "en": "I was driving when you called." },
+        { "native": "ನಾವು ಹೊರಗೆ ಬಂದಾಗ ಜೋರಾಗಿ ಮಳೆ ಬರ್ತಿತ್ತು", "roman": "nāvu horage bandāga jōrāgi maḷe bartittu", "en": "It was pouring when we came out." },
+        { "native": "ಅವರು ಬಂದಾಗ ನಾವು ಊಟ ಮಾಡ್ತಿದ್ವಿ", "roman": "avaru bandāga nāvu ūṭa māḍtidvi", "en": "We were having dinner when they arrived." },
+        { "native": "ರಾತ್ರಿ ಹನ್ನೆರಡು ಗಂಟೆಗೆ ನಾನು ಮಲಗಿದ್ದೆ", "roman": "rātri hanneraḍu gaṇṭege nānu malagidde", "en": "I was asleep at midnight." },
+        { "native": "ಅವರು ಏನು ಮಾತಾಡ್ತಿದ್ರು?", "roman": "avaru ēnu mātāḍtidru?", "en": "What were they talking about?" }
+      ]
+    },
+    {
+      "title": "Ago, for and since: ಹಿಂದೆ, -ಇಂದ and '… ಆಯ್ತು'",
+      "body": "**Ago**: time + **-ಅ / -ದ** ('of') + **ಹಿಂದೆ** 'behind', with the simple past:\nಎರಡು ದಿನದ ಹಿಂದೆ 'two days ago'  ·  ಒಂದು ವಾರದ ಹಿಂದೆ 'a week ago'  ·  ಮೂರು ತಿಂಗಳ ಹಿಂದೆ 'three months ago'  ·  ಐದು ನಿಮಿಷದ ಹಿಂದೆ 'five minutes ago'  ·  ತುಂಬಾ ವರ್ಷದ ಹಿಂದೆ 'years ago'\n\n**For / since, still going on**: time or starting point + **-ಇಂದ** 'from', and the verb in the **present** (or present continuous), because it's still true:\nಎರಡು ವರ್ಷದಿಂದ ಬೆಂಗಳೂರಲ್ಲಿ ಇದ್ದೀನಿ 'I've been in Bengaluru for two years'\nಆರು ತಿಂಗಳಿಂದ ಕನ್ನಡ ಕಲೀತಿದ್ದೀನಿ 'I've been learning Kannada for six months'\nಬೆಳಿಗ್ಗೆಯಿಂದ, ಜನವರಿಯಿಂದ, ಆಗಿನಿಂದ 'since this morning / January / then'\nWith a negative use the perfect negative: ಮೂರು ದಿನದಿಂದ ಮಳೆ ಬಂದಿಲ್ಲ 'it hasn't rained for three days'.\n\n**'It's been X (since…)'**: past participle + time + **ಆಯ್ತು** 'became'. This is the natural catch-up line:\nನಾವು ಸಿಕ್ಕಿ ಎಷ್ಟು ದಿನ ಆಯ್ತು! 'how long it's been since we met!'\nಊಟ ಮಾಡಿ ಎರಡು ಗಂಟೆ ಆಯ್ತು 'it's been two hours since I ate'\nಮದುವೆ ಆಗಿ ಐದು ವರ್ಷ ಆಯ್ತು 'they've been married five years'\nAsk with ಎಷ್ಟು: ಬೆಂಗಳೂರಿಗೆ ಬಂದು ಎಷ್ಟು ವರ್ಷ ಆಯ್ತು? 'how many years since you came to Bengaluru?'\n\n**For, finished**: just the time, no ending: ಎರಡು ವಾರ ಗೋವಾದಲ್ಲಿ ಇದ್ದೆ 'I was in Goa for two weeks'.\n\n**The trap**: English says 'I *have been* living here for two years', but Kannada uses the plain present: ಎರಡು ವರ್ಷದಿಂದ ಇಲ್ಲಿ **ಇದ್ದೀನಿ**. The perfect would sound as if the stay were over.",
+      "examples": [
+        { "native": "ಎರಡು ವರ್ಷದ ಹಿಂದೆ ಬೆಂಗಳೂರಿಗೆ ಬಂದೆ", "roman": "eraḍu varṣada hinde beṅgaḷūrige bande", "en": "I came to Bengaluru two years ago." },
+        { "native": "ಎರಡು ವರ್ಷದಿಂದ ಬೆಂಗಳೂರಲ್ಲಿ ಇದ್ದೀನಿ", "roman": "eraḍu varṣadinda beṅgaḷūralli iddīni", "en": "I've been in Bengaluru for two years." },
+        { "native": "ಬೆಳಿಗ್ಗೆಯಿಂದ ಏನೂ ತಿಂದಿಲ್ಲ", "roman": "beḷiggeyinda ēnū tindilla", "en": "I haven't eaten anything since this morning." },
+        { "native": "ನಾವು ಸಿಕ್ಕಿ ಸುಮಾರು ಒಂದು ವರ್ಷ ಆಯ್ತು", "roman": "nāvu sikki sumāru ondu varṣa āytu", "en": "It's been about a year since we met." },
+        { "native": "ಆಗಿನಿಂದ ಅವನು ನನ್ನ ಜೊತೆ ಮಾತಾಡಿಲ್ಲ", "roman": "āgininda avanu nanna jote mātāḍilla", "en": "He hasn't spoken to me since then." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Long time no see",
+    "setting": "Rahul runs into his old college friend Akshay at a darshini in Malleshwaram, Bengaluru, after more than a year.",
+    "lines": [
+      { "speaker": "Rahul", "native": "ಏಯ್ ಅಕ್ಷಯ್! ಏನು ಅಪರೂಪ! ಎಲ್ಲಿ ಕಾಣೆಯಾಗಿದ್ದೆ?", "roman": "ēy akṣay! ēnu aparūpa! elli kāṇeyāgidde?", "en": "Hey, Akshay! Long time no see! Where have you been hiding?" },
+      { "speaker": "Akshay", "native": "ರಾಹುಲ್! ನಿನ್ನ ಗುರುತೇ ಸಿಗಲಿಲ್ಲ! ಗಡ್ಡ ಬಿಟ್ಟಿದ್ದೀಯ, ಸಣ್ಣ ಆಗಿದ್ದೀಯ!", "roman": "rāhul! ninna gurutē sigalilla! gaḍḍa biṭṭiddīya, saṇṇa āgiddīya!", "en": "Rahul! I didn't even recognise you! You've grown a beard, you've lost weight!" },
+      { "speaker": "Rahul", "native": "ಹೂಂ, ಆರು ತಿಂಗಳಿಂದ ಜಿಮ್‌ಗೆ ಹೋಗ್ತಿದ್ದೀನಿ. ನಾವು ಸಿಕ್ಕಿ ಎಷ್ಟು ಆಯ್ತು? ಒಂದು ವರ್ಷ?", "roman": "hūṃ, āru tiṅgaḷinda jimge hōgtiddīni. nāvu sikki eṣṭu āytu? ondu varṣa?", "en": "Yeah, I've been going to the gym for six months. How long has it been since we met? A year?" },
+      { "speaker": "Akshay", "native": "ಅದಕ್ಕಿಂತ ಜಾಸ್ತಿ! ಕೊನೆ ಸಲ ಸಿಕ್ಕಿದ್ದು ಸಂಜಯ್ ಮದುವೇಲಿ.", "roman": "adakkinta jāsti! kone sala sikkiddu sañjay maduvēli.", "en": "More than that! The last time we met was at Sanjay's wedding." },
+      { "speaker": "Rahul", "native": "ಹೌದಲ್ವಾ! ಮತ್ತೆ, ಏನು ವಿಶೇಷ? ಇನ್ನೂ ಅದೇ ಕಂಪನೀನಾ?", "roman": "haudalvā! matte, ēnu vishēṣa? innū adē kampanīnā?", "en": "That's right! So, what's new? Still at the same company?" },
+      { "speaker": "Akshay", "native": "ಇಲ್ಲ, ಮೂರು ತಿಂಗಳ ಹಿಂದೆ ಕೆಲಸ ಬಿಟ್ಟೆ. ಈಗ ನನ್ನ ಸ್ವಂತ ಸ್ಟಾರ್ಟಪ್.", "roman": "illa, mūru tiṅgaḷa hinde kelasa biṭṭe. īga nanna svanta sṭārṭap.", "en": "No, I quit three months ago. Now I've got my own startup." },
+      { "speaker": "Rahul", "native": "ಸೂಪರ್ ಮಗಾ! ಮತ್ತೆ ಮನೇಲಿ? ಮದುವೆ ಪ್ಲಾನ್ ಏನಾದ್ರೂ?", "roman": "sūpar magā! matte manēli? maduve plān ēnādrū?", "en": "Super, dude! And at home? Any wedding plans?" },
+      { "speaker": "Akshay", "native": "ಹ್ಹ ಹ್ಹ, ಅದೇ ನ್ಯೂಸ್! ಹೋದ ತಿಂಗಳು ನಿಶ್ಚಿತಾರ್ಥ ಆಯ್ತು. ಡಿಸೆಂಬರ್‌ನಲ್ಲಿ ಮದುವೆ.", "roman": "hha hha, adē nyūs! hōda tiṅgaḷu nishchitārtha āytu. ḍisembarnalli maduve.", "en": "Ha ha, that's the news! I got engaged last month. The wedding's in December." },
+      { "speaker": "Rahul", "native": "ಏನು?! ಯಾರಿಗೂ ಹೇಳೇ ಇಲ್ಲ! ಹುಡುಗಿ ಯಾರು?", "roman": "ēnu?! yārigū hēḷē illa! huḍugi yāru?", "en": "What?! You didn't tell anyone! Who's the girl?" },
+      { "speaker": "Akshay", "native": "ಮಂಗಳೂರಿನವಳು. ನಾವು ಎರಡು ವರ್ಷದಿಂದ ಲವ್ ಮಾಡ್ತಿದ್ದೀವಿ.", "roman": "maṅgaḷūrinavaḷu. nāvu eraḍu varṣadinda lav māḍtiddīvi.", "en": "She's from Mangaluru. We've been together for two years." },
+      { "speaker": "Rahul", "native": "ಅಯ್ಯೋ, ಎರಡು ವರ್ಷದಿಂದ ಗುಟ್ಟಾಗಿ ಇಟ್ಟಿದ್ದೀಯ! ನೀನು ಸಿಕ್ಕಾಪಟ್ಟೆ ಬದಲಾಗಿದ್ದೀಯ ಕಣೋ.", "roman": "ayyō, eraḍu varṣadinda guṭṭāgi iṭṭiddīya! nīnu sikkāpaṭṭe badalāgiddīya kaṇō.", "en": "Wow, you've kept it secret for two years! You've changed like crazy, man." },
+      { "speaker": "Akshay", "native": "ನೀನು ಮಾತ್ರ ಅದೇ ತರ ಇದ್ದೀಯ. ಬಾ, ಕಾಫಿ ಕುಡೀತಾ ಎಲ್ಲಾ ಹೇಳ್ತೀನಿ.", "roman": "nīnu mātra adē tara iddīya. bā, kāphi kuḍītā ellā hēḷtīni.", "en": "And you're exactly the same. Come on, I'll tell you everything over coffee." },
+      { "speaker": "Rahul", "native": "ಸರಿ, ಆದ್ರೆ ಈ ಸಲ ಟಚ್‌ನಲ್ಲಿ ಇರು, ಆಯ್ತಾ? ಮತ್ತೆ ಕಾಣೆ ಆಗಬೇಡ!", "roman": "sari, ādre ī sala ṭachnalli iru, āytā? matte kāṇe āgabēḍa!", "en": "OK, but stay in touch this time, OK? Don't vanish again!" }
+    ]
+  },
+  "culture": "The classic Kannada catch-up opener is **ಏನು ಅಪರೂಪ!** 'what a rarity!', often followed by ಊಟ ಆಯ್ತಾ? or ಏನು ವಿಶೇಷ?. Expect personal remarks: ಸಣ್ಣ ಆಗಿದ್ದೀಯ 'you've got thin', ದಪ್ಪ ಆಗಿದ್ದೀಯ 'you've put on weight', ಕೂದಲು ಕಡಿಮೆ ಆಗಿದೆ 'your hair's thinning'. Among friends and relatives these are ordinary observations, not insults; a laugh is the right answer. Elders will also ask about salary, marriage and children. You can deflect with ನೋಡೋಣ 'we'll see' or ಇನ್ನೂ ಟೈಮ್ ಇದೆ 'there's still time'.\n\nBengaluru weekends: sunrise at **Nandi Hills**, coffee-estate homestays in **Coorg (ಕೊಡಗು)** and **Chikkamagaluru**, treks up Kumara Parvatha or Skandagiri, brunch in Indiranagar, or a family trip to Mysuru. People from Mangaluru and Udupi head to the beach and come back raving about the fish. Between young men you'll hear **ಮಗಾ** 'dude' and the Bengaluru particle **ಕಣೋ** (to a woman **ಕಣೇ**), which adds warm emphasis: ಬದಲಾಗಿದ್ದೀಯ ಕಣೋ 'you've really changed, man'. Use it only with close friends.",
+  "lessons": [
+    {
+      "title": "Long time no see!",
+      "tip": { "title": "Catching up: ಏನು ಅಪರೂಪ!", "body": "- Greet an old friend with **ಏನು ಅಪರೂಪ!** 'what a rare sight!' or ಎಲ್ಲಿ ಕಾಣೆಯಾಗಿದ್ದೆ? 'where did you vanish to?'\n- 'It's been ages': participle + time + **ಆಯ್ತು**: ನಿನ್ನನ್ನ ನೋಡಿ ಎಷ್ಟು ದಿನ ಆಯ್ತು!\n- Ask for news with **ಏನು ವಿಶೇಷ?** 'what's new?'", "pattern": "participle + time + ಆಯ್ತು", "grammar": 2 },
+      "new": ["ಅಪರೂಪ", "ವಿಶೇಷ", "ಟಚ್", "ಏನು ಅಪರೂಪ!", "ಎಲ್ಲಿ ಕಾಣೆಯಾಗಿದ್ದೆ?", "ನಿನ್ನನ್ನ ನೋಡಿ ಎಷ್ಟು ದಿನ ಆಯ್ತು!", "ಏನು ವಿಶೇಷ?", "ನಿನ್ನ ಗುರುತೇ ಸಿಗಲಿಲ್ಲ!", "ಟಚ್‌ನಲ್ಲಿ ಇರು, ಆಯ್ತಾ?"],
+      "sentences": [
+        { "native": "ಏನು ಅಪರೂಪ! ಬನ್ನಿ, ಕೂತ್ಕೊಳ್ಳಿ.", "roman": "ēnu aparūpa! banni, kūtkoḷḷi.", "en": "Long time no see! Come in, sit down. (polite)" },
+        { "native": "ನಾವು ಸಿಕ್ಕಿ ಎಷ್ಟು ವರ್ಷ ಆಯ್ತು!", "roman": "nāvu sikki eṣṭu varṣa āytu!", "en": "How many years it's been since we met!", "focus": "ಆಯ್ತು", "wrong": ["ಆಗುತ್ತೆ|āgutte", "ಇದೆ|ide"] },
+        { "native": "ಅವನನ್ನ ನೋಡಿ ತುಂಬಾ ದಿನ ಆಯ್ತು.", "roman": "avananna nōḍi tumbā dina āytu.", "en": "I haven't seen him in ages.", "focus": "ನೋಡಿ", "wrong": ["ನೋಡ್ತೀನಿ|nōḍtīni", "ನೋಡು|nōḍu"] },
+        { "native": "ಅಮ್ಮನಿಗೆ ಫೋನ್ ಮಾಡಿ ಒಂದು ವಾರ ಆಯ್ತು.", "roman": "ammanige phōn māḍi ondu vāra āytu.", "en": "It's been a week since I called Mum.", "focus": "ಮಾಡಿ", "wrong": ["ಮಾಡ್ತೀನಿ|māḍtīni", "ಮಾಡು|māḍu"] },
+        { "native": "ನಾವು ಕಾಲೇಜಲ್ಲಿ ಸಿಕ್ಕಿ ಹತ್ತು ವರ್ಷ ಆಯ್ತು.", "roman": "nāvu kālējalli sikki hattu varṣa āytu.", "en": "It's been ten years since we met at college.", "focus": "ಸಿಕ್ಕಿ", "wrong": ["ಸಿಕ್ತು|siktu", "ಸಿಗ್ತೀವಿ|sigtīvi"] },
+        { "native": "ಏನು ವಿಶೇಷ? ಹೊಸ ಅಂಗಿ, ಹೊಸ ಕಟಿಂಗ್!", "roman": "ēnu vishēṣa? hosa aṅgi, hosa kaṭiṅg!", "en": "What's the occasion? New shirt, new haircut!" },
+        { "native": "ಎಲ್ಲಿ ಕಾಣೆಯಾಗಿದ್ರಿ? ಫೋನೂ ಮಾಡಲಿಲ್ಲ!", "roman": "elli kāṇeyāgidri? phōnū māḍalilla!", "en": "Where did you disappear to? You didn't even call! (polite)" },
+        { "native": "ಈಗ ಅವಳು ತುಂಬಾ ಅಪರೂಪ.", "roman": "īga avaḷu tumbā aparūpa.", "en": "She's a rare sight these days." },
+        { "native": "ಟಚ್‌ನಲ್ಲಿ ಇರಿ, ಮುಂದಿನ ಸಲ ಊರಿಗೆ ಬಂದಾಗ ಫೋನ್ ಮಾಡಿ.", "roman": "ṭachnalli iri, mundina sala ūrige bandāga phōn māḍi.", "en": "Stay in touch, and call me next time you're in town. (polite)" }
+      ]
+    },
+    {
+      "title": "How was your weekend?",
+      "tip": { "title": "Was doing: ಮಾಡ್ತಿದ್ದೆ … -ಆಗ", "body": "- Something going on at a past moment: verb + **-ತಿದ್ದ-** + ending: ಟ್ರೆಕ್ಕಿಂಗ್ ಮಾಡ್**ತಿದ್ವಿ** 'we were trekking'.\n- Set the moment with **-ಆಗ** 'when': ಮಳೆ ಬಂದಾಗ; 'while' = ಮಾಡ್ತಿದ್ದಾಗ.\n- States use participle + ಇದ್ದೆ: **ಮಲಗಿದ್ದೆ** 'I was asleep', ಕೂತಿದ್ದೆ 'I was sitting'.", "pattern": "[___ -ಆಗ] + verb-ತಿದ್ದೆ", "grammar": 1 },
+      "new": ["ವೀಕೆಂಡ್", "ಮಜಾ", "ಟ್ರಿಪ್", "ಟ್ರೆಕ್ಕಿಂಗ್", "ಕಳೆ", "ಹೋದ", "ಸಿಕ್ಕಾಪಟ್ಟೆ", "ವೀಕೆಂಡ್ ಹೇಗಿತ್ತು?", "ಸಕ್ಕತ್ ಮಜಾ ಮಾಡಿದ್ವಿ", "ಏನೂ ವಿಶೇಷ ಇಲ್ಲ, ಮನೇಲೇ ಇದ್ದೆ"],
+      "sentences": [
+        { "native": "ಹೋದ ವಾರ ನಾವು ಟ್ರಿಪ್‌ಗೆ ಹೋಗ್ತಿದ್ದಾಗ ಕಾರು ಕೆಟ್ಟು ಹೋಯ್ತು.", "roman": "hōda vāra nāvu ṭripge hōgtiddāga kāru keṭṭu hōytu.", "en": "Last week the car broke down while we were going on a trip.", "focus": "ಹೋಗ್ತಿದ್ದಾಗ", "wrong": ["ಹೋಗ್ತೀವಿ|hōgtīvi", "ಹೋಗೋಣ|hōgōṇa"] },
+        { "native": "ನಾವು ಟ್ರೆಕ್ಕಿಂಗ್ ಮಾಡ್ತಿದ್ದಾಗ ಜೋರಾಗಿ ಮಳೆ ಬಂತು.", "roman": "nāvu ṭrekkiṅg māḍtiddāga jōrāgi maḷe bantu.", "en": "It started pouring while we were trekking.", "focus": "ಮಾಡ್ತಿದ್ದಾಗ", "wrong": ["ಮಾಡ್ತೀವಿ|māḍtīvi", "ಮಾಡೋಣ|māḍōṇa"] },
+        { "native": "ನೀನು ಫೋನ್ ಮಾಡಿದಾಗ ನಾನು ಮಲಗಿದ್ದೆ, ಸಾರಿ!", "roman": "nīnu phōn māḍidāga nānu malagidde, sāri!", "en": "I was asleep when you called, sorry!", "focus": "ಮಲಗಿದ್ದೆ", "wrong": ["ಮಲಗ್ತೀನಿ|malagtīni", "ಮಲಗು|malagu"] },
+        { "native": "ನೀನು ಬಂದಾಗ ನಾವು ನಿನ್ನ ಬಗ್ಗೆನೇ ಮಾತಾಡ್ತಿದ್ವಿ!", "roman": "nīnu bandāga nāvu ninna baggenē mātāḍtidvi!", "en": "We were talking about you when you walked in!", "focus": "ಮಾತಾಡ್ತಿದ್ವಿ", "wrong": ["ಮಾತಾಡ್ತೀವಿ|mātāḍtīvi", "ಮಾತಾಡಿ|mātāḍi"] },
+        { "native": "ನಾವು ನಂದಿ ಬೆಟ್ಟ ತಲುಪಿದಾಗ ಎಲ್ಲಾ ಕಡೆ ಮೋಡ ಇತ್ತು.", "roman": "nāvu nandi beṭṭa talupidāga ellā kaḍe mōḍa ittu.", "en": "When we got to Nandi Hills there were clouds everywhere.", "focus": "ತಲುಪಿದಾಗ", "wrong": ["ತಲುಪ್ತೀವಿ|taluptīvi", "ತಲುಪಿ|talupi"] },
+        { "native": "ಅವನು ಕರೆದಾಗ ನಾನು ಅಡುಗೆ ಮಾಡ್ತಿದ್ದೆ.", "roman": "avanu karedāga nānu aḍuge māḍtidde.", "en": "I was cooking when he called.", "focus": "ಮಾಡ್ತಿದ್ದೆ", "wrong": ["ಮಾಡ್ತೀನಿ|māḍtīni", "ಮಾಡಿದ್ದೀನಿ|māḍiddīni"] },
+        { "native": "ಆ ಹೊತ್ತಿಗೆ ಎಲ್ಲರೂ ಏನು ಮಾಡ್ತಿದ್ರು?", "roman": "ā hottige ellarū ēnu māḍtidru?", "en": "What was everyone doing at that time?", "focus": "ಮಾಡ್ತಿದ್ರು", "wrong": ["ಮಾಡ್ತಾರೆ|māḍtāre", "ಮಾಡಿ|māḍi"] },
+        { "native": "ಸಿಕ್ಕಾಪಟ್ಟೆ ಮಜಾ ಮಾಡಿದ್ವಿ, ಆದ್ರೆ ಸಿಕ್ಕಾಪಟ್ಟೆ ಸುಸ್ತು!", "roman": "sikkāpaṭṭe majā māḍidvi, ādre sikkāpaṭṭe sustu!", "en": "We had loads of fun, but I'm totally wiped out!" },
+        { "native": "ಭಾನುವಾರ ಅಮ್ಮನ ಜೊತೆ ಸಮಯ ಕಳೆದೆ.", "roman": "bhānuvāra ammana jote samaya kaḷede.", "en": "I spent Sunday with Mum." },
+        { "native": "ವೀಕೆಂಡ್ ಹೇಗಿತ್ತು? ಟ್ರಿಪ್ ಚೆನ್ನಾಗಿತ್ತಾ?", "roman": "vīkeṇḍ hēgittu? ṭrip chennāgittā?", "en": "How was the weekend? Was the trip good?" }
+      ]
+    },
+    {
+      "title": "Have you ever…?",
+      "tip": { "title": "Have you ever…? -ಇದ್ದೀಯಾ", "body": "- Experience = past participle + **ಇದ್ದೀನಿ**: ನೋಡಿದ್ದೀನಿ 'I've seen', ಹೋಗಿದ್ದೀಯಾ? 'have you been?'\n- 'Ever' = **ಯಾವತ್ತಾದ್ರೂ**; 'never' = **ಯಾವತ್ತೂ** + participle + **ಇಲ್ಲ**: ಯಾವತ್ತೂ ಹೋಗಿಲ್ಲ.\n- With a time word (ನಿನ್ನೆ, ಕಳೆದ ವರ್ಷ) use the simple past: ಕಳೆದ ವರ್ಷ ಹೋದೆ.", "pattern": "ಯಾವತ್ತಾದ್ರೂ + participle + ಇದ್ದೀಯಾ?  ·  ಯಾವತ್ತೂ + participle + ಇಲ್ಲ", "grammar": 0 },
+      "new": ["ಯಾವತ್ತಾದ್ರೂ", "ಯಾವತ್ತೂ", "ಈಜು", "ಡ್ರೈವಿಂಗ್", "ನೀನು ಯಾವತ್ತಾದ್ರೂ ಕೊಡಗಿಗೆ ಹೋಗಿದ್ದೀಯಾ?", "ಇಲ್ಲ, ಯಾವತ್ತೂ ಹೋಗಿಲ್ಲ"],
+      "sentences": [
+        { "native": "ನೀನು ಯಾವತ್ತಾದ್ರೂ ಮೈಸೂರು ದಸರಾ ನೋಡಿದ್ದೀಯಾ?", "roman": "nīnu yāvattādrū maisūru dasarā nōḍiddīyā?", "en": "Have you ever seen the Mysuru Dasara? (informal)", "focus": "ನೋಡಿದ್ದೀಯಾ", "wrong": ["ನೋಡ್ತೀಯಾ|nōḍtīyā", "ನೋಡಿದ್ರು|nōḍidru"] },
+        { "native": "ಇಲ್ಲ, ಯಾವತ್ತೂ ನೋಡಿಲ್ಲ, ಈ ಸಲ ಹೋಗಬೇಕು.", "roman": "illa, yāvattū nōḍilla, ī sala hōgabēku.", "en": "No, never. I must go this time.", "focus": "ನೋಡಿಲ್ಲ", "wrong": ["ನೋಡಲ್ಲ|nōḍalla", "ನೋಡಿದೆ|nōḍide"] },
+        { "native": "ನನಗೆ ಈಜೋಕೆ ಬರಲ್ಲ, ಯಾವತ್ತೂ ಕಲಿತಿಲ್ಲ.", "roman": "nanage ījōke baralla, yāvattū kalitilla.", "en": "I can't swim. I've never learnt.", "focus": "ಕಲಿತಿಲ್ಲ", "wrong": ["ಕಲೀತೀನಿ|kalītīni", "ಕಲಿತೆ|kalite"] },
+        { "native": "ನೀವು ಯಾವತ್ತಾದ್ರೂ ಬೆಂಗಳೂರಲ್ಲಿ ಡ್ರೈವಿಂಗ್ ಮಾಡಿದ್ದೀರಾ?", "roman": "nīvu yāvattādrū beṅgaḷūralli ḍraiviṅg māḍiddīrā?", "en": "Have you ever driven in Bengaluru? (polite)", "focus": "ಮಾಡಿದ್ದೀರಾ", "wrong": ["ಮಾಡ್ತೀರಾ|māḍtīrā", "ಮಾಡಿದ್ದೀನಿ|māḍiddīni"] },
+        { "native": "ಹೌದು, ಒಂದು ಸಲ ಮಾಡಿದ್ದೀನಿ, ಮತ್ತೆ ಯಾವತ್ತೂ ಇಲ್ಲ!", "roman": "haudu, ondu sala māḍiddīni, matte yāvattū illa!", "en": "Yes, I've done it once. Never again!", "focus": "ಮಾಡಿದ್ದೀನಿ", "wrong": ["ಮಾಡ್ತೀನಿ|māḍtīni", "ಮಾಡಿದ್ದೀರಾ|māḍiddīrā"] },
+        { "native": "ಕಳೆದ ವರ್ಷ ಗೋವಾದಲ್ಲಿ ಸಮುದ್ರದಲ್ಲಿ ಈಜಿದೆ.", "roman": "kaḷeda varṣa gōvādalli samudradalli ījide.", "en": "Last year I swam in the sea in Goa.", "focus": "ಈಜಿದೆ", "wrong": ["ಈಜಿದ್ದೀನಿ|ījiddīni", "ಈಜ್ತೀನಿ|ījtīni"] },
+        { "native": "ಅವನು ಯಾವತ್ತೂ ವಿಮಾನ ಹತ್ತಿಲ್ಲ.", "roman": "avanu yāvattū vimāna hattilla.", "en": "He's never been on a plane.", "focus": "ಹತ್ತಿಲ್ಲ", "wrong": ["ಹತ್ತಲ್ಲ|hattalla", "ಹತ್ತಿದ|hattida"] },
+        { "native": "ಡ್ರೈವಿಂಗ್ ಕಲೀತಿದ್ದೀನಿ, ಆದ್ರೆ ಇನ್ನೂ ಒಬ್ಬನೇ ಕಾರು ಓಡಿಸಿಲ್ಲ.", "roman": "ḍraiviṅg kalītiddīni, ādre innū obbanē kāru ōḍisilla.", "en": "I'm learning to drive, but I haven't driven the car on my own yet.", "focus": "ಓಡಿಸಿಲ್ಲ", "wrong": ["ಓಡಿಸಲ್ಲ|ōḍisalla", "ಓಡಿಸಿದೆ|ōḍiside"] }
+      ]
+    },
+    {
+      "title": "Sharing your news",
+      "new": ["ಬದಲಾವಣೆ", "ಗುಟ್ಟು", "ನಿಶ್ಚಿತಾರ್ಥ", "ಗರ್ಭಿಣಿ", "ಸ್ವಂತ", "ತೂಕ", "ನೀನು ಸಣ್ಣ ಆಗಿದ್ದೀಯ!", "ನಾನು ಈಗ ಬೇರೆ ಕಂಪನಿಗೆ ಸೇರಿದ್ದೀನಿ"],
+      "sentences": [
+        { "native": "ಅಕ್ಕನಿಗೆ ಹೋದ ತಿಂಗಳು ನಿಶ್ಚಿತಾರ್ಥ ಆಯ್ತು.", "roman": "akkanige hōda tiṅgaḷu nishchitārtha āytu.", "en": "My sister got engaged last month." },
+        { "native": "ಇದು ಇನ್ನೂ ಗುಟ್ಟು, ಯಾರಿಗೂ ಹೇಳಬೇಡ.", "roman": "idu innū guṭṭu, yārigū hēḷabēḍa.", "en": "It's still a secret, don't tell anyone." },
+        { "native": "ನನ್ನ ಅತ್ತಿಗೆ ಗರ್ಭಿಣಿ, ಇನ್ನು ಮೂರು ತಿಂಗಳಲ್ಲಿ ಮಗು ಬರುತ್ತೆ.", "roman": "nanna attige garbhiṇi, innu mūru tiṅgaḷalli magu barutte.", "en": "My sister-in-law is pregnant. The baby's due in three months." },
+        { "native": "ಅವನು ಈಗಾಗಲೇ ಸ್ವಂತ ಮನೆ ತಗೊಂಡಿದ್ದಾನೆ!", "roman": "avanu īgāgalē svanta mane tagoṇḍiddāne!", "en": "He's already bought his own house!", "focus": "ತಗೊಂಡಿದ್ದಾನೆ", "wrong": ["ತಗೊಳ್ತಾನೆ|tagoḷtāne", "ತಗೊಂಡಿದ್ದೀನಿ|tagoṇḍiddīni"] },
+        { "native": "ಎಷ್ಟು ತೂಕ ಕಡಿಮೆ ಆಯ್ತು? ಹೇಗೆ?", "roman": "eṣṭu tūka kaḍime āytu? hēge?", "en": "How much weight have you lost? How?" },
+        { "native": "ಬೆಂಗಳೂರಲ್ಲಿ ತುಂಬಾ ಬದಲಾವಣೆ ಆಗಿದೆ, ಗುರುತೇ ಸಿಗಲ್ಲ.", "roman": "beṅgaḷūralli tumbā badalāvaṇe āgide, gurutē sigalla.", "en": "Bengaluru has changed so much, you won't recognise it." },
+        { "native": "ಅವಳು ಹೊಸ ಕೆಲಸಕ್ಕೆ ಸೇರಿದ್ದಾಳೆ, ಸಂಬಳ ಜಾಸ್ತಿ.", "roman": "avaḷu hosa kelasakke sēriddāḷe, sambaḷa jāsti.", "en": "She's started a new job. The pay's better.", "focus": "ಸೇರಿದ್ದಾಳೆ", "wrong": ["ಸೇರ್ತಾಳೆ|sērtāḷe", "ಸೇರಿದ್ದಾನೆ|sēriddāne"] },
+        { "native": "ನಾನು ಸ್ವಲ್ಪ ದಪ್ಪ ಆಗಿದ್ದೀನಿ ಅಲ್ವಾ?", "roman": "nānu svalpa dappa āgiddīni alvā?", "en": "I've put on a bit of weight, haven't I?", "focus": "ಆಗಿದ್ದೀನಿ", "wrong": ["ಆಗ್ತೀನಿ|āgtīni", "ಆಗಿದ್ದೀಯ|āgiddīya"] },
+        { "native": "ಅವರು ಸ್ವಂತ ವ್ಯಾಪಾರ ಶುರು ಮಾಡಿದ್ದಾರೆ.", "roman": "avaru svanta vyāpāra shuru māḍiddāre.", "en": "They've started their own business.", "focus": "ಮಾಡಿದ್ದಾರೆ", "wrong": ["ಮಾಡ್ತಾರೆ|māḍtāre", "ಮಾಡಿದ್ದೀವಿ|māḍiddīvi"] },
+        { "native": "ಮಗು ಈಗಾಗಲೇ ಶಾಲೆಗೆ ಹೋಗ್ತಿದೆಯಾ? ಎಷ್ಟು ಬೇಗ ದೊಡ್ಡದು ಆಯ್ತು!", "roman": "magu īgāgalē shālege hōgtideyā? eṣṭu bēga doḍḍadu āytu!", "en": "Is the little one already going to school? They've grown up so fast!" }
+      ]
+    },
+    {
+      "title": "How long ago, how long for",
+      "tip": { "title": "Ago, for, since: ಹಿಂದೆ, -ಇಂದ", "body": "- **Ago**: time-ದ + **ಹಿಂದೆ** + past: ಎರಡು ವರ್ಷದ ಹಿಂದೆ ಬಂದೆ.\n- **For / since** (still true): time + **-ಇಂದ** + present: ಎರಡು ವರ್ಷದಿಂದ ಇಲ್ಲಿ **ಇದ್ದೀನಿ** 'I've been here for two years' (not the perfect!).\n- **It's been…**: participle + time + ಆಯ್ತು: ಬಂದು ಎರಡು ವರ್ಷ ಆಯ್ತು.", "pattern": "___ದ ಹಿಂದೆ + past  ·  ___ದಿಂದ + present", "grammar": 2 },
+      "new": ["ಸುಮಾರು", "ಆಗಿನಿಂದ", "ಜಿಮ್", "ಸಿಗರೇಟ್", "ಎರಡು ತಿಂಗಳ ಹಿಂದೆ ಕೆಲಸ ಬಿಟ್ಟೆ", "ಆರು ತಿಂಗಳಿಂದ ಜಿಮ್‌ಗೆ ಹೋಗ್ತಿದ್ದೀನಿ"],
+      "sentences": [
+        { "native": "ಅಪ್ಪ ಹತ್ತು ವರ್ಷದ ಹಿಂದೆ ಸಿಗರೇಟ್ ನಿಲ್ಲಿಸಿದ್ರು.", "roman": "appa hattu varṣada hinde sigarēṭ nillisidru.", "en": "Dad gave up cigarettes ten years ago.", "focus": "ಹಿಂದೆ", "wrong": ["ವರೆಗೆ|varege", "ಮುಂದೆ|munde"] },
+        { "native": "ಆಗಿನಿಂದ ಅವರ ಆರೋಗ್ಯ ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ.", "roman": "āgininda avara ārōgya tumbā chennāgide.", "en": "Since then his health has been really good.", "focus": "ಆಗಿನಿಂದ", "wrong": ["ಆಗ|āga", "ಮುಂಚೆ|muñche"] },
+        { "native": "ಆರು ತಿಂಗಳಿಂದ ಕನ್ನಡ ಕಲೀತಿದ್ದೀನಿ.", "roman": "āru tiṅgaḷinda kannaḍa kalītiddīni.", "en": "I've been learning Kannada for six months.", "focus": "ತಿಂಗಳಿಂದ", "wrong": ["ತಿಂಗಳ|tiṅgaḷa", "ತಿಂಗಳಲ್ಲಿ|tiṅgaḷalli"] },
+        { "native": "ಅಣ್ಣ ಹೊಸ ವರ್ಷದಿಂದ ಜಿಮ್‌ಗೆ ಹೋಗ್ತಿದ್ದಾನೆ, ಆದ್ರೆ ತೂಕ ಕಡಿಮೆ ಆಗಿಲ್ಲ!", "roman": "aṇṇa hosa varṣadinda jimge hōgtiddāne, ādre tūka kaḍime āgilla!", "en": "My brother has been going to the gym since New Year, but he hasn't lost any weight!", "focus": "ವರ್ಷದಿಂದ", "wrong": ["ವರ್ಷದ|varṣada", "ವರ್ಷಕ್ಕೆ|varṣakke"] },
+        { "native": "ನಾವು ಸುಮಾರು ಹತ್ತು ವರ್ಷದಿಂದ ಸ್ನೇಹಿತರು.", "roman": "nāvu sumāru hattu varṣadinda snēhitaru.", "en": "We've been friends for about ten years.", "focus": "ವರ್ಷದಿಂದ", "wrong": ["ವರ್ಷದ|varṣada", "ವರ್ಷಕ್ಕೆ|varṣakke"] },
+        { "native": "ಅವರು ಬೆಂಗಳೂರಿಗೆ ಬಂದು ಸುಮಾರು ಇಪ್ಪತ್ತು ವರ್ಷ ಆಯ್ತು.", "roman": "avaru beṅgaḷūrige bandu sumāru ippattu varṣa āytu.", "en": "It's been about twenty years since they came to Bengaluru.", "focus": "ಬಂದು", "wrong": ["ಬರ್ತಾರೆ|bartāre", "ಬಂದರು|bandaru"] },
+        { "native": "ಬೆಳಿಗ್ಗೆಯಿಂದ ಮಳೆ ಬರ್ತಿದೆ.", "roman": "beḷiggeyinda maḷe bartide.", "en": "It's been raining since this morning.", "focus": "ಬೆಳಿಗ್ಗೆಯಿಂದ", "wrong": ["ಬೆಳಿಗ್ಗೆ|beḷigge", "ಬೆಳಿಗ್ಗೆವರೆಗೆ|beḷiggevarege"] },
+        { "native": "ಎರಡು ವಾರದಿಂದ ಅವನು ಸಿಕ್ಕಿಲ್ಲ.", "roman": "eraḍu vāradinda avanu sikkilla.", "en": "I haven't seen him for two weeks.", "focus": "ಸಿಕ್ಕಿಲ್ಲ", "wrong": ["ಸಿಗಲ್ಲ|sigalla", "ಸಿಕ್ತು|siktu"] },
+        { "native": "ಮೂರು ತಿಂಗಳ ಹಿಂದೆ ಕೆಲಸ ಬಿಟ್ಟು ಸ್ವಂತ ಕಂಪನಿ ಶುರು ಮಾಡಿದೆ.", "roman": "mūru tiṅgaḷa hinde kelasa biṭṭu svanta kampani shuru māḍide.", "en": "Three months ago I quit my job and started my own company.", "focus": "ಹಿಂದೆ", "wrong": ["ಮುಂದೆ|munde", "ವರೆಗೆ|varege"] }
+      ]
+    }
+  ]
+}

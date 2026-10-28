@@ -1,0 +1,219 @@
+{
+  "id": 36,
+  "title": "If only",
+  "goal": "Say what you would do if things were different, what you would have done if you'd known, what you should (not) have done, what you wish, and what you dream of doing with your life.",
+  "intro": "Late-night conversations with friends drift to the big questions: what if you'd taken that job, what you'd do with a crore, where you'll be in ten years. This unit gives you the grammar of things that **aren't true**.\n\nThe key is one verb form you already know as 'used to': **-ತಿದ್ದೆ**. In an imaginary sentence it means 'would' or 'would have': ದುಡ್ಡು ಇದ್ದಿದ್ರೆ ಪ್ರಪಂಚ ಸುತ್ತಾಡ್ತಿದ್ದೆ 'if I had money, I'd travel the world'. Add **-ಬೇಕಿತ್ತು** 'should have', **-ಬಾರದಿತ್ತು** 'shouldn't have', and **...ಇದ್ದಿದ್ರೆ ಚೆನ್ನಾಗಿರ್ತಿತ್ತು** 'I wish...', and you can talk about regrets, near misses and dreams like a native.",
+  "vocab": [
+    { "native": "ಒಂದು ವೇಳೆ", "roman": "ondu vēḷe", "en": "suppose, what if, in case", "pos": "conj", "note": "Put it at the start of an 'if' sentence to make it hypothetical: ಒಂದು ವೇಳೆ ಮಳೆ ಬಂದ್ರೆ... 'suppose it rains...'." },
+    { "native": "ಶ್ರೀಮಂತ", "roman": "shrīmanta", "en": "rich (person)", "pos": "adj", "note": "ಶ್ರೀಮಂತರು 'rich people'. Spoken also ದುಡ್ಡಿರೋರು 'people with money'." },
+    { "native": "ಲಾಟರಿ", "roman": "lāṭari", "en": "lottery", "pos": "noun", "note": "ಲಾಟರಿ ಹೊಡಿ 'to win the lottery' (lit. hit). Lotteries are banned in Karnataka, so it's pure fantasy talk." },
+    { "native": "ಅಕಸ್ಮಾತ್", "roman": "akasmāt", "en": "by any chance, if by chance; suddenly", "pos": "adv", "note": "With 'if' it means 'just in case': ಅಕಸ್ಮಾತ್ ಮಳೆ ಬಂದ್ರೆ... 'if by any chance it rains...'. ಅಕಸ್ಮಾತ್ತಾಗಿ 'by accident'." },
+    { "native": "ಪ್ರಪಂಚ", "roman": "prapañcha", "en": "world", "pos": "noun", "note": "Also ಜಗತ್ತು jagattu (more formal)." },
+    { "native": "ಛೇ", "roman": "chē", "en": "damn, oh no, what a pity (regret, annoyance)", "pos": "interj", "note": "The sound of kicking yourself: ಛೇ, ಮರೆತು ಹೋಯ್ತು! 'damn, I forgot!'" },
+    { "native": "ಪಶ್ಚಾತ್ತಾಪ", "roman": "pashchāttāpa", "en": "regret, remorse", "pos": "noun", "note": "Rather serious. Casually people say ಬೇಜಾರಾಗುತ್ತೆ 'it makes me sad' or ರಿಗ್ರೆಟ್ ಇದೆ." },
+    { "native": "ಇಷ್ಟೊತ್ತಿಗೆ", "roman": "iṣṭottige", "en": "by now, by this time", "pos": "adv", "note": "From ಇಷ್ಟು ಹೊತ್ತಿಗೆ. Loves the unreal past: ಇಷ್ಟೊತ್ತಿಗೆ ತಲುಪ್ತಿದ್ವಿ 'we'd have arrived by now'." },
+    { "native": "ಸ್ವಲ್ಪದರಲ್ಲಿ", "roman": "svalpadaralli", "en": "narrowly, by a whisker, almost", "pos": "adv", "note": "Lit. 'in a little'. ಸ್ವಲ್ಪದರಲ್ಲಿ ತಪ್ಪಿ ಹೋಯ್ತು 'missed it by a whisker'." },
+    { "native": "ಬಚಾವ್", "roman": "bachāv", "en": "saved, safe (after a close call)", "pos": "adj", "note": "ಬಚಾವ್ ಆಗು 'to have a lucky escape'. Informal; from Hindi/Urdu bachāo." },
+    { "native": "ಅದೃಷ್ಟ", "roman": "adruṣṭa", "en": "luck, fortune", "pos": "noun", "note": "ಅದೃಷ್ಟ ಚೆನ್ನಾಗಿದೆ '(he) is lucky'; ಅದೃಷ್ಟವಂತ 'a lucky person'. Bad luck: ದುರದೃಷ್ಟ." },
+    { "native": "ಹಣೆಬರಹ", "roman": "haṇebaraha", "en": "fate, destiny (lit. forehead-writing)", "pos": "noun", "note": "Said with a shrug: ಎಲ್ಲಾ ಹಣೆಬರಹ 'it's all fate'. Also sarcastic: ನನ್ನ ಹಣೆಬರಹ! 'just my luck!'" },
+    { "native": "ಬದಲು", "roman": "badalu", "en": "instead (of)", "pos": "postp", "note": "After a noun in the genitive: ಕಾಫಿ ಬದಲು / ಕೆಲಸದ ಬದಲು. After a verb: -ಓದರ ಬದಲು 'instead of doing'. Also ಬದಲಿಗೆ." },
+    { "native": "ಆಪ್ಷನ್", "roman": "āpṣan", "en": "option, choice (spoken)", "pos": "noun", "note": "The everyday word; formal ಆಯ್ಕೆ. ಬೇರೆ ಆಪ್ಷನ್ ಇಲ್ಲ 'there's no other option'." },
+    { "native": "ಆರಿಸು", "roman": "ārisu", "en": "to choose, pick, select", "pos": "verb", "note": "Also ಆಯ್ಕೆ ಮಾಡು. Spoken: ಆರಿಸ್ತೀನಿ, ಆರಿಸ್ದೆ." },
+    { "native": "ಚಾನ್ಸ್", "roman": "chāns", "en": "chance, opportunity (spoken)", "pos": "noun", "note": "The everyday word for ಅವಕಾಶ: ಒಂದು ಚಾನ್ಸ್ ಕೊಡು 'give me a chance'; ಚಾನ್ಸೇ ಇಲ್ಲ 'no chance!'" },
+    { "native": "ನಮ್ಮೂರು", "roman": "nammūru", "en": "my / our home town, native place", "pos": "noun", "note": "From ನಮ್ಮ ಊರು. Said with affection; ನಿಮ್ಮೂರು ಯಾವುದು? 'where are you from originally?'. Dative ನಮ್ಮೂರಿಗೆ." },
+    { "native": "ಬಿಸಿನೆಸ್", "roman": "bisines", "en": "business (your own company or shop)", "pos": "noun", "note": "The everyday word; ವ್ಯಾಪಾರ is trade, buying and selling." },
+    { "native": "ಸೆಟಲ್", "roman": "seṭal", "en": "settled (in life, in a place)", "pos": "adj", "note": "ಸೆಟಲ್ ಆಗು 'to settle down', which to most parents means a steady job, marriage and a house." },
+    { "native": "ಹಳ್ಳಿ", "roman": "haḷḷi", "en": "village", "pos": "noun", "note": "ಹಳ್ಳಿ ಜೀವನ 'village life'. ನಮ್ಮೂರು 'my home town / village' is warmer." },
+    { "native": "ತೋಟ", "roman": "tōṭa", "en": "plantation, estate; garden, orchard", "pos": "noun", "note": "ಕಾಫಿ ತೋಟ 'coffee estate', ತೆಂಗಿನ ತೋಟ 'coconut grove', ಅಡಿಕೆ ತೋಟ 'areca plantation'." },
+    { "native": "ರಿಟೈರ್", "roman": "riṭair", "en": "retired", "pos": "adj", "note": "ರಿಟೈರ್ ಆಗು 'to retire'. Formal: ನಿವೃತ್ತಿ nivrutti 'retirement'." },
+    { "native": "ಸಂಪಾದಿಸು", "roman": "sampādisu", "en": "to earn", "pos": "verb", "note": "ದುಡ್ಡು ಸಂಪಾದಿಸು 'earn money'. Also ದುಡಿ 'to toil, earn a living'." },
+    { "native": "ಸಾಲ", "roman": "sāla", "en": "loan, debt", "pos": "noun", "note": "ಸಾಲ ತಗೊಳ್ಳು 'take a loan', ಸಾಲ ತೀರಿಸು 'pay off a loan'. Don't confuse with ಸಾಲು 'queue, row'." },
+    { "native": "ಬಡವ", "roman": "baḍava", "en": "poor (person)", "pos": "noun", "note": "Plural ಬಡವರು. ಬಡತನ 'poverty'. ಪಾಪ, ಬಡವ 'poor chap' is also affectionate." },
+    { "native": "ಯಶಸ್ಸು", "roman": "yashassu", "en": "success", "pos": "noun", "note": "ಯಶಸ್ವಿ 'successful'. Casually people say ಸಕ್ಸಸ್." },
+    { "native": "ತೀರಿಸು", "roman": "tīrisu", "en": "to pay off, clear (a debt); to settle", "pos": "verb", "note": "ಸಾಲ ತೀರಿಸು 'pay off a loan'. Spoken ತೀರಿಸ್ತೀನಿ, ತೀರಿಸ್ಬೇಕು." },
+    { "native": "ಊಹಿಸು", "roman": "ūhisu", "en": "to imagine; to guess", "pos": "verb", "note": "ಊಹಿಸು! 'imagine!' / ಊಹಿಸಿಕೊ 'picture it'. ಊಹೆ 'a guess'." }
+  ],
+  "phrases": [
+    { "native": "ನಾನು ನೀನಾಗಿದ್ರೆ, ಆ ಕೆಲಸ ಬಿಡ್ತಿದ್ದೆ", "roman": "nānu nīnāgidre, ā kelasa biḍtidde", "en": "If I were you, I'd quit that job. (informal)", "note": "Polite: ನಾನು ನಿಮ್ಮ ಜಾಗದಲ್ಲಿ ಇದ್ದಿದ್ರೆ..." },
+    { "native": "ಮುಂಚೆನೇ ಗೊತ್ತಿದ್ರೆ ಬರ್ತಿರಲಿಲ್ಲ", "roman": "muñchenē gottidre bartiralilla", "en": "If I'd known before, I wouldn't have come." },
+    { "native": "ಒಂದು ಕೋಟಿ ಸಿಕ್ಕಿದ್ರೆ ಏನು ಮಾಡ್ತೀಯ?", "roman": "ondu kōṭi sikkidre ēnu māḍtīya?", "en": "What would you do if you got a crore? (informal)" },
+    { "native": "ಛೇ, ನಾನೂ ಬರಬೇಕಿತ್ತು", "roman": "chē, nānū barabēkittu", "en": "Damn, I should have come too." },
+    { "native": "ಹಾಗೆ ಮಾಡಬಾರದಿತ್ತು", "roman": "hāge māḍabāradittu", "en": "I shouldn't have done that. / You shouldn't have done that." },
+    { "native": "ಇನ್ನೂ ಸ್ವಲ್ಪ ಸಮಯ ಇದ್ದಿದ್ರೆ ಚೆನ್ನಾಗಿರ್ತಿತ್ತು", "roman": "innū svalpa samaya iddidre chennāgirtittu", "en": "I wish there'd been a bit more time." },
+    { "native": "ಹಾಗಾಗಿದ್ರೆ ಎಷ್ಟು ಚೆನ್ನಾಗಿರ್ತಿತ್ತು!", "roman": "hāgāgidre eṣṭu chennāgirtittu!", "en": "If only! How great that would have been!" },
+    { "native": "ಸ್ವಲ್ಪದರಲ್ಲಿ ಬಚಾವ್ ಆದೆ", "roman": "svalpadaralli bachāv āde", "en": "I had a narrow escape." },
+    { "native": "ಆಗಿದ್ದು ಆಗಿ ಹೋಯ್ತು, ಬಿಡು", "roman": "āgiddu āgi hōytu, biḍu", "en": "What's done is done, let it go. (informal)", "note": "Polite: ಬಿಡಿ." },
+    { "native": "ಎಲ್ಲಾ ಅದೃಷ್ಟ", "roman": "ellā adruṣṭa", "en": "It's all luck." },
+    { "native": "ನಿನ್ನ ಕನಸು ಏನು?", "roman": "ninna kanasu ēnu?", "en": "What's your dream? (informal)" },
+    { "native": "ಒಂದಲ್ಲ ಒಂದು ದಿನ ನನ್ನ ಸ್ವಂತ ಬಿಸಿನೆಸ್ ಶುರು ಮಾಡ್ತೀನಿ", "roman": "ondalla ondu dina nanna svanta bisines shuru māḍtīni", "en": "One day or another, I'll start my own business." },
+    { "native": "ಮುಂದೆ ಏನು ಮಾಡಬೇಕು ಅಂತ ಇದ್ದೀಯ?", "roman": "munde ēnu māḍabēku anta iddīya?", "en": "What are you planning to do next? (informal)" },
+    { "native": "ಯಾರಿಗೆ ಗೊತ್ತು?", "roman": "yārige gottu?", "en": "Who knows?" }
+  ],
+  "grammar": [
+    {
+      "title": "Unreal 'if': ಇದ್ದಿದ್ರೆ ... -ತಿದ್ದೆ ('if I had…, I would…')",
+      "body": "Unit 19 gave you the ordinary 'if' (-ಅರೆ): ಮಳೆ ಬಂದರೆ ಬರಲ್ಲ 'if it rains I won't come'. For things that are **not true**, an imaginary present or a past that didn't happen, Kannada changes the **result** verb, and usually the 'if' verb too.\n\n**The result, 'would': the -ತಿದ್ದ- form.** It's the same form as 'was doing / used to do' (unit 16): stem + -ತ್ತಿದ್ದ- + ending. Spoken:\nನಾನು ಮಾಡ್ತಿದ್ದೆ 'I would (have) do(ne)'\nನೀನು ಮಾಡ್ತಿದ್ದೆ 'you would'\nಅವನು ಮಾಡ್ತಿದ್ದ / ಅವಳು ಮಾಡ್ತಿದ್ಳು\nನಾವು ಮಾಡ್ತಿದ್ವಿ / ನೀವು ಮಾಡ್ತಿದ್ರಿ / ಅವರು ಮಾಡ್ತಿದ್ರು\nಅದು ಆಗ್ತಿತ್ತು, ಇರ್ತಿತ್ತು\nThe negative is the same for everyone: **-ತಿರಲಿಲ್ಲ**: ಮಾಡ್ತಿರಲಿಲ್ಲ 'would not (have)'. (Written: ಮಾಡುತ್ತಿದ್ದೆ, ಮಾಡುತ್ತಿರಲಿಲ್ಲ.)\n\n**The 'if': past participle + ಇದ್ದರೆ.** ಬಂದು + ಇದ್ದರೆ = ಬಂದಿದ್ದರೆ (spoken **ಬಂದಿದ್ರೆ**) 'if (you) had come'; ಹೋಗಿದ್ರೆ 'if (I) had gone'; ಇರು gives **ಇದ್ದಿದ್ರೆ** 'if there were / had been', 'if I had (it)'; ಆಗು gives ಆಗಿದ್ರೆ. In fast speech ಮಾಡಿದ್ದರೆ and ಮಾಡಿದರೆ both come out as ಮಾಡಿದ್ರೆ, so many people say ಮಾಡಿದ್ದಿದ್ರೆ to be clear; either way it's the **-ತಿದ್ದೆ result** that tells the listener the whole thing is imaginary. Negative 'if not': ಬರದಿದ್ರೆ 'if (he) hadn't come', ಇಲ್ಲದಿದ್ರೆ 'if there weren't'.\n\n**One form for 'would' and 'would have'.** Kannada doesn't separate imaginary-now from imaginary-past; context and time words do:\nದುಡ್ಡು ಇದ್ದಿದ್ರೆ ಕಾರು ತಗೊಳ್ತಿದ್ದೆ 'if I had money I'd buy a car' (or 'I'd have bought one')\nನಿನ್ನೆ ಬಂದಿದ್ರೆ ಅವನು ಸಿಗ್ತಿದ್ದ 'if you'd come yesterday you'd have met him'\n\n**If I were you**: ನಾನು ನೀನಾಗಿದ್ರೆ (lit. 'if I had become you'); politely ನಾನು ನಿಮ್ಮ ಜಾಗದಲ್ಲಿ ಇದ್ದಿದ್ರೆ 'if I were in your place'.\n\n**Imaginary future** ('what would you do if you won a crore?') normally keeps the ordinary 'if' + future, because it *could* still happen: ಒಂದು ಕೋಟಿ ಸಿಕ್ಕಿದ್ರೆ ಏನು ಮಾಡ್ತೀಯ? Start with **ಒಂದು ವೇಳೆ** 'suppose' to make it clearly a what-if.",
+      "examples": [
+        { "native": "ನನ್ನ ಹತ್ರ ಕಾರು ಇದ್ದಿದ್ರೆ ನಿನ್ನನ್ನ ಡ್ರಾಪ್ ಮಾಡ್ತಿದ್ದೆ.", "roman": "nanna hatra kāru iddidre ninnanna ḍrāp māḍtidde.", "en": "If I had a car, I'd drop you home." },
+        { "native": "ಆಟೋ ಸಿಕ್ಕಿದ್ದಿದ್ರೆ ಬೇಗ ಬರ್ತಿದ್ದೆ.", "roman": "āṭō sikkiddidre bēga bartidde.", "en": "If I'd got an auto, I'd have come sooner." },
+        { "native": "ಅವಳು ಒಂದು ಮಾತು ಹೇಳಿದ್ದಿದ್ರೆ ನಾನು ಬರ್ತಿದ್ದೆ.", "roman": "avaḷu ondu mātu hēḷiddidre nānu bartidde.", "en": "If she'd said just one word, I'd have come." },
+        { "native": "ಮಳೆ ಬರದಿದ್ರೆ ಮ್ಯಾಚ್ ಗೆಲ್ತಿದ್ವಿ.", "roman": "maḷe baradidre myāch geltidvi.", "en": "If it hadn't rained, we'd have won the match." },
+        { "native": "ನಾನು ನೀನಾಗಿದ್ರೆ ಅವನಿಗೆ ಫೋನ್ ಮಾಡ್ತಿರಲಿಲ್ಲ.", "roman": "nānu nīnāgidre avanige phōn māḍtiralilla.", "en": "If I were you, I wouldn't call him." }
+      ]
+    },
+    {
+      "title": "Regrets: 'if I'd known', 'should have', 'shouldn't have'",
+      "body": "Regret uses the same machinery, pointed at the past.\n\n**If I had known**: ಗೊತ್ತಿದ್ದರೆ, spoken **ಗೊತ್ತಿದ್ರೆ** (or ಗೊತ್ತಾಗಿದ್ರೆ 'if I'd found out'), + -ತಿದ್ದೆ / -ತಿರಲಿಲ್ಲ: ಮುಂಚೆನೇ ಗೊತ್ತಿದ್ರೆ ಬರ್ತಿರಲಿಲ್ಲ 'had I known earlier, I wouldn't have come'. Remember ಗೊತ್ತು takes the dative: ನನಗೆ ಗೊತ್ತಿದ್ರೆ.\n\n**Should have / shouldn't have**: infinitive + **-ಬೇಕಿತ್ತು** 'ought to have', + **-ಬಾರದಿತ್ತು** 'ought not to have'. They are the past of ಬೇಕು and ಬಾರದು (unit 9; you used them for opinions in unit 29) and never change for person:\nನಾನು ಹೋಗಬೇಕಿತ್ತು 'I should have gone'\nನೀನು ಹೇಳಬೇಕಿತ್ತು 'you should have told me'\nಅಷ್ಟು ತಿನ್ನಬಾರದಿತ್ತು 'I shouldn't have eaten so much'\n-ಬೇಕಿತ್ತು also means 'I wanted / needed to' (ಒಂದು ವಿಷಯ ಹೇಳಬೇಕಿತ್ತು, unit 35); context decides.\n\n**Near misses**: ಸ್ವಲ್ಪದರಲ್ಲಿ 'by a whisker' goes with a plain past for what did happen (ಸ್ವಲ್ಪದರಲ್ಲಿ ಬಸ್ಸು ತಪ್ಪಿ ಹೋಯ್ತು 'I missed the bus by a whisker'), and with the unreal **-ತಿತ್ತು** for what *almost* happened: ಸ್ವಲ್ಪದರಲ್ಲಿ ವಿಮಾನ ತಪ್ಪಿ ಹೋಗ್ತಿತ್ತು 'I very nearly missed the flight'.\n\n**Letting go**: a Kannada speaker closes a regret with ಆಗಿದ್ದು ಆಗಿ ಹೋಯ್ತು 'what's happened has happened', ಬಿಡು 'leave it', or a shrug at fate: ಎಲ್ಲಾ ಹಣೆಬರಹ 'it's all destiny'.",
+      "examples": [
+        { "native": "ಛೇ, ಛತ್ರಿ ತರಬೇಕಿತ್ತು.", "roman": "chē, chatri tarabēkittu.", "en": "Damn, I should have brought an umbrella." },
+        { "native": "ನೀನು ಮುಂಚೆನೇ ಹೇಳಬೇಕಿತ್ತು.", "roman": "nīnu muñchenē hēḷabēkittu.", "en": "You should have told me earlier." },
+        { "native": "ಅವನಿಗೆ ದುಡ್ಡು ಕೊಡಬಾರದಿತ್ತು.", "roman": "avanige duḍḍu koḍabāradittu.", "en": "I shouldn't have lent him money." },
+        { "native": "ರಜೆ ಇದೆ ಅಂತ ಗೊತ್ತಿದ್ರೆ ಊರಿಗೆ ಹೋಗ್ತಿದ್ದೆ.", "roman": "raje ide anta gottidre ūrige hōgtidde.", "en": "If I'd known there was a holiday, I'd have gone home." },
+        { "native": "ಸ್ವಲ್ಪದರಲ್ಲಿ ವಿಮಾನ ತಪ್ಪಿ ಹೋಗ್ತಿತ್ತು.", "roman": "svalpadaralli vimāna tappi hōgtittu.", "en": "I very nearly missed the flight." }
+      ]
+    },
+    {
+      "title": "Wishes and dreams: 'I wish…', 'if only…', and life plans",
+      "body": "English 'I wish' has no single Kannada verb. Instead you say what **would have been nice**.\n\n**I wish (it were / had been)** = unreal 'if' + **ಚೆನ್ನಾಗಿರ್ತಿತ್ತು** 'it would be / have been nice': ಇನ್ನೂ ಒಂದು ದಿನ ರಜೆ ಇದ್ದಿದ್ರೆ ಚೆನ್ನಾಗಿರ್ತಿತ್ತು 'I wish we had one more day off'; ನೀನೂ ಬಂದಿದ್ರೆ ಚೆನ್ನಾಗಿರ್ತಿತ್ತು 'I wish you'd come too'. For a big sigh: **ಎಷ್ಟು ಚೆನ್ನಾಗಿರ್ತಿತ್ತು!** 'how lovely it would have been!'\n\n**If only** (something still possible) = ordinary 'if' + **ಸಾಕು** 'that's enough': ಈ ಸಲ ಪಾಸ್ ಆದ್ರೆ ಸಾಕು 'if I just pass this time, that's all I want'.\n\n**Wishes for the future** use ಆಸೆ and ಕನಸು (unit 17): spoken -ಓ participle + ಆಸೆ ಇದೆ: ಪ್ರಪಂಚ ಸುತ್ತಾಡೋ ಆಸೆ ಇದೆ 'I'd love to travel the world'; verbal noun -ಓದು + ನನ್ನ ಕನಸು: ತೋಟ ತಗೊಳ್ಳೋದು ನನ್ನ ಕನಸು 'my dream is to buy an estate'; or ನನ್ನ ಕನಸು ಏನಂದ್ರೆ... 'my dream is...'.\n\n**Instead of**: noun (genitive) + **ಬದಲು**: ಕೆಲಸದ ಬದಲು 'instead of the job', ಬೆಂಗಳೂರಿನ ಬದಲು 'instead of Bengaluru'; with a verb, -ಓದರ ಬದಲು: ಕಾಯೋದರ ಬದಲು 'instead of waiting'. **Someday**: ಒಂದಲ್ಲ ಒಂದು ದಿನ 'one day or another'.\n\nWishes *for someone else* are blessings with -ಲಿ (unit 18): ನಿನ್ನ ಕನಸು ನಿಜ ಆಗಲಿ 'may your dream come true'.",
+      "examples": [
+        { "native": "ನಾನು ಮೈಸೂರಲ್ಲೇ ಇದ್ದಿದ್ರೆ ಚೆನ್ನಾಗಿರ್ತಿತ್ತು.", "roman": "nānu maisūrallē iddidre chennāgirtittu.", "en": "I wish I'd stayed in Mysuru." },
+        { "native": "ಈ ಸಲ ಪ್ರಮೋಷನ್ ಸಿಕ್ಕಿದ್ರೆ ಸಾಕು.", "roman": "ī sala pramōṣan sikkidre sāku.", "en": "If I just get the promotion this time, that's all I ask." },
+        { "native": "ನನಗೆ ಒಂದು ಸಲ ಕಾಶ್ಮೀರ ನೋಡೋ ಆಸೆ ಇದೆ.", "roman": "nanage ondu sala kāshmīra nōḍō āse ide.", "en": "I'd love to see Kashmir one day." },
+        { "native": "ಆಫೀಸ್ ಕೆಲಸದ ಬದಲು ಸ್ವಂತ ಬಿಸಿನೆಸ್ ಮಾಡೋದು ಅವನ ಕನಸು.", "roman": "āphīs kelasada badalu svanta bisines māḍōdu avana kanasu.", "en": "His dream is to run his own business instead of an office job." },
+        { "native": "ನಿನ್ನ ಕನಸು ಬೇಗ ನಿಜ ಆಗಲಿ!", "roman": "ninna kanasu bēga nija āgali!", "en": "May your dream come true soon!" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the beach after work",
+    "setting": "Shwetha and Karthik, old college friends, sit on the sand at Tannirbhavi beach in Mangaluru with a plate of goli baje.",
+    "lines": [
+      { "native": "ಏನೋ ಕಾರ್ತಿಕ್, ಯಾಕೆ ಇಷ್ಟು ಸುಮ್ಮನೆ ಕೂತಿದ್ದೀಯ?", "roman": "ēnō kārtik, yāke iṣṭu summane kūtiddīya?", "en": "Hey Karthik, why are you sitting so quietly?" },
+      { "native": "ಏನಿಲ್ಲ. ಎಂಜಿನಿಯರಿಂಗ್ ಬದಲು ಫೋಟೋಗ್ರಫಿ ಓದಿದ್ದಿದ್ರೆ ಈಗ ಎಲ್ಲಿರ್ತಿದ್ದೆ ಅಂತ ಯೋಚನೆ ಮಾಡ್ತಿದ್ದೆ.", "roman": "ēnilla. eñjiniyariṅg badalu phōṭōgraphi ōdiddidre īga ellirtidde anta yōchane māḍtidde.", "en": "Nothing. I was wondering where I'd be now if I'd studied photography instead of engineering." },
+      { "native": "ಅಯ್ಯೋ, ಮತ್ತೆ ಅದೇ ಕತೆನಾ?", "roman": "ayyō, matte adē katenā?", "en": "Oh no, not that story again?" },
+      { "native": "ನಿಜವಾಗಲೂ! ಅಪ್ಪ ಒಪ್ಪಿದ್ದಿದ್ರೆ ನಾನು ಇವತ್ತು ನ್ಯಾಷನಲ್ ಜಿಯೋಗ್ರಫಿಕ್‌ಗೆ ಫೋಟೋ ತೆಗೀತಿದ್ದೆ.", "roman": "nijavāgalū! appa oppiddidre nānu ivattu nyāṣanal jiyōgraphikge phōṭō tegītidde.", "en": "Seriously! If Dad had agreed, I'd be shooting for National Geographic today." },
+      { "native": "ಹೂಂ, ಮತ್ತೆ ತಿಂಗಳ ಕೊನೆಗೆ ನನ್ನ ಹತ್ರ ದುಡ್ಡು ಕೇಳ್ತಿದ್ದೆ.", "roman": "hūṃ, matte tiṅgaḷa konege nanna hatra duḍḍu kēḷtidde.", "en": "Mm-hm, and you'd be borrowing money from me at the end of every month." },
+      { "native": "ತಮಾಷೆ ಮಾಡ್ಬೇಡ. ನಿನಗೆ ಏನೂ ಪಶ್ಚಾತ್ತಾಪ ಇಲ್ವಾ?", "roman": "tamāṣe māḍbēḍa. ninage ēnū pashchāttāpa ilvā?", "en": "Don't joke. Don't you have any regrets?" },
+      { "native": "ಒಂದೇ ಒಂದು. ಆ ಬೆಂಗಳೂರು ಕೆಲಸ ಒಪ್ಪಿಕೊಂಡಿದ್ರೆ ಇಷ್ಟೊತ್ತಿಗೆ ಮ್ಯಾನೇಜರ್ ಆಗ್ತಿದ್ದೆ.", "roman": "ondē ondu. ā beṅgaḷūru kelasa oppikoṇḍidre iṣṭottige myānējar āgtidde.", "en": "Just one. If I'd taken that Bengaluru job, I'd be a manager by now." },
+      { "native": "ಮತ್ತೆ ಯಾಕೆ ಬಿಟ್ಟೆ?", "roman": "matte yāke biṭṭe?", "en": "So why did you turn it down?" },
+      { "native": "ಅಮ್ಮನಿಗೆ ಹುಷಾರಿರಲಿಲ್ಲ. ಆದ್ರೂ ಮಂಗಳೂರು ಬಿಟ್ಟು ಹೋಗಿದ್ರೆ ಈ ಸಮುದ್ರ, ಈ ಗೋಳಿಬಜೆ ಎಲ್ಲಾ ಸಿಗ್ತಿರಲಿಲ್ಲ.", "roman": "ammanige huṣāriralilla. ādrū maṅgaḷūru biṭṭu hōgidre ī samudra, ī gōḷibaje ellā sigtiralilla.", "en": "Mum wasn't well. Anyway, if I'd left Mangaluru I wouldn't have all this, the sea, the goli baje." },
+      { "native": "ಅದೂ ನಿಜ. ಒಂದು ವೇಳೆ ನಾಳೆ ಲಾಟರಿ ಹೊಡೆದ್ರೆ ಏನು ಮಾಡ್ತೀಯ?", "roman": "adū nija. ondu vēḷe nāḷe lāṭari hoḍedre ēnu māḍtīya?", "en": "That's true. Suppose you won the lottery tomorrow, what would you do?" },
+      { "native": "ಕೊಡಗಿನಲ್ಲಿ ಒಂದು ಕಾಫಿ ತೋಟ ತಗೊಂಡು ಅಲ್ಲೇ ಸೆಟಲ್ ಆಗ್ತೀನಿ. ನೀನು?", "roman": "koḍaginalli ondu kāphi tōṭa tagoṇḍu allē seṭal āgtīni. nīnu?", "en": "I'd buy a coffee estate in Kodagu and settle down there. You?" },
+      { "native": "ನಾನು ಕ್ಯಾಮೆರಾ ತಗೊಂಡು ಪ್ರಪಂಚ ಸುತ್ತಾಡ್ತೀನಿ. ನಿನ್ನ ತೋಟಕ್ಕೂ ಬರ್ತೀನಿ, ಫ್ರೀ ಫೋಟೋಶೂಟ್!", "roman": "nānu kyāmerā tagoṇḍu prapañcha suttāḍtīni. ninna tōṭakkū bartīni, phrī phōṭōshūṭ!", "en": "I'd take a camera and travel the world. I'll come to your estate too, free photoshoot!" },
+      { "native": "ಆಯ್ತು. ಆದ್ರೆ ಮೊದಲು ಈ ಬಜೆ ದುಡ್ಡು ನೀನು ಕೊಡು.", "roman": "āytu. ādre modalu ī baje duḍḍu nīnu koḍu.", "en": "Deal. But first, you pay for the baje." }
+    ]
+  },
+  "culture": "Kannadigas talk about the future with a light hedge: ದೇವರು ಕೊಟ್ರೆ 'if God gives' or ದೇವರ ದಯೆ ಇದ್ರೆ 'God willing' before a big plan, and they shrug off disappointment with ಹಣೆಬರಹ 'fate' or ಆಗಿದ್ದು ಆಗಿ ಹೋಯ್ತು. Boasting about your dreams sounds odd; saying them as a joke (ಲಾಟರಿ ಹೊಡೆದ್ರೆ...) is normal. Lotteries have been banned in Karnataka since 2007, so the lottery is pure fantasy talk.\n\nA lot of 'what if' talk among people in their twenties and thirties is about the path their parents chose: engineering or medicine instead of art, music or sport. 'Settling down' (**ಸೆಟಲ್ ಆಗು**) to most parents means a steady job, a marriage and a house of your own (ಸ್ವಂತ ಮನೆ). The classic Karnataka escape dream is a coffee estate in Kodagu or Chikkamagaluru, or going back to ನಮ್ಮೂರು, the home town. With friends you use ನೀನು and tease freely; with an elder, ask about their regrets gently, if at all.",
+  "lessons": [
+    {
+      "title": "Saying what you would do",
+      "tip": { "title": "Would: -ತಿದ್ದೆ · if: ಇದ್ದಿದ್ರೆ", "body": "- 'Would' = the 'used to' form: ಮಾಡ್**ತಿದ್ದೆ** (I/you), ಮಾಡ್ತಿದ್ದ (he), ಮಾಡ್ತಿದ್ವಿ (we), ಮಾಡ್ತಿದ್ರು (they). Negative: **ಮಾಡ್ತಿರಲಿಲ್ಲ**.\n- Unreal 'if' = participle + **ಇದ್ರೆ**: ಬಂದಿದ್ರೆ, ಹೋಗಿದ್ರೆ; ಇರು → **ಇದ್ದಿದ್ರೆ** 'if I had / there were'.\n- If I were you: **ನಾನು ನೀನಾಗಿದ್ರೆ**.\n- Imaginary future keeps the normal if: ಒಂದು ವೇಳೆ ... ಸಿಕ್ಕಿದ್ರೆ ಏನು ಮಾಡ್ತೀಯ?", "pattern": "ದುಡ್ಡು ಇದ್ದಿದ್ರೆ + verb-ತಿದ್ದೆ", "grammar": 0 },
+      "new": ["ಒಂದು ವೇಳೆ", "ಶ್ರೀಮಂತ", "ಲಾಟರಿ", "ಅಕಸ್ಮಾತ್", "ಪ್ರಪಂಚ", "ಒಂದು ಕೋಟಿ ಸಿಕ್ಕಿದ್ರೆ ಏನು ಮಾಡ್ತೀಯ?", "ನಾನು ನೀನಾಗಿದ್ರೆ, ಆ ಕೆಲಸ ಬಿಡ್ತಿದ್ದೆ"],
+      "sentences": [
+        { "native": "ನಾನು ಶ್ರೀಮಂತನಾಗಿದ್ರೆ ಕೆಲಸಕ್ಕೆ ಹೋಗ್ತಿರಲಿಲ್ಲ.", "roman": "nānu shrīmantanāgidre kelasakke hōgtiralilla.", "en": "If I were rich, I wouldn't go to work.", "focus": "ಹೋಗ್ತಿರಲಿಲ್ಲ", "wrong": ["ಹೋಗಲಿಲ್ಲ|hōgalilla", "ಹೋಗ್ತೀನಿ|hōgtīni"] },
+        { "native": "ದುಡ್ಡು ಇದ್ದಿದ್ರೆ ಪ್ರಪಂಚ ಎಲ್ಲಾ ಸುತ್ತಾಡ್ತಿದ್ದೆ.", "roman": "duḍḍu iddidre prapañcha ellā suttāḍtidde.", "en": "If I had the money, I'd travel all over the world.", "focus": "ಸುತ್ತಾಡ್ತಿದ್ದೆ", "wrong": ["ಸುತ್ತಾಡಿದೆ|suttāḍide", "ಸುತ್ತಾಡ್ತೀನಿ|suttāḍtīni"] },
+        { "native": "ನಮ್ಮ ಹತ್ರ ಕಾರು ಇದ್ದಿದ್ರೆ ಈ ಭಾನುವಾರ ಕೊಡಗಿಗೆ ಹೋಗ್ತಿದ್ವಿ.", "roman": "namma hatra kāru iddidre ī bhānuvāra koḍagige hōgtidvi.", "en": "If we had a car, we'd go to Kodagu this Sunday.", "focus": "ಇದ್ದಿದ್ರೆ", "wrong": ["ಇದೆ|ide", "ಇತ್ತು|ittu"] },
+        { "native": "ನಾನು ನೀನಾಗಿದ್ರೆ ಅವಳಿಗೆ ಇವತ್ತೇ ಹೇಳ್ತಿದ್ದೆ.", "roman": "nānu nīnāgidre avaḷige ivattē hēḷtidde.", "en": "If I were you, I'd tell her today.", "focus": "ಹೇಳ್ತಿದ್ದೆ", "wrong": ["ಹೇಳಿದೆ|hēḷide", "ಹೇಳ್ತೀಯ|hēḷtīya"] },
+        { "native": "ಅವನ ಹತ್ರ ದುಡ್ಡು ಇದ್ದಿದ್ರೆ ಅವನೂ ಬರ್ತಿದ್ದ.", "roman": "avana hatra duḍḍu iddidre avanū bartidda.", "en": "If he had the money, he'd come too.", "focus": "ಬರ್ತಿದ್ದ", "wrong": ["ಬರ್ತಿದ್ದೆ|bartidde", "ಬಂದ|banda"] },
+        { "native": "ಬೆಂಗಳೂರಲ್ಲಿ ಟ್ರಾಫಿಕ್ ಇಲ್ಲದಿದ್ರೆ ಎಲ್ಲರೂ ಖುಷಿಯಾಗಿರ್ತಿದ್ರು.", "roman": "beṅgaḷūralli ṭrāphik illadidre ellarū khuṣiyāgirtidru.", "en": "If there were no traffic in Bengaluru, everyone would be happy.", "focus": "ಖುಷಿಯಾಗಿರ್ತಿದ್ರು", "wrong": ["ಖುಷಿಯಾಗಿದ್ದಾರೆ|khuṣiyāgiddāre", "ಖುಷಿಯಾಗಿದ್ರು|khuṣiyāgidru"] },
+        { "native": "ಒಂದು ವೇಳೆ ಲಾಟರಿ ಹೊಡೆದ್ರೆ ಅಪ್ಪ ಅಮ್ಮನಿಗೆ ಒಂದು ಮನೆ ತಗೊಳ್ತೀನಿ.", "roman": "ondu vēḷe lāṭari hoḍedre appa ammanige ondu mane tagoḷtīni.", "en": "Suppose I win the lottery, I'll buy Mum and Dad a house.", "focus": "ಹೊಡೆದ್ರೆ", "wrong": ["ಹೊಡೆದೆ|hoḍede", "ಹೊಡೀತೀನಿ|hoḍītīni"] },
+        { "native": "ಒಂದು ಕೋಟಿ ಸಿಕ್ಕಿದ್ರೆ ನೀನು ಕೆಲಸ ಬಿಡ್ತೀಯಾ?", "roman": "ondu kōṭi sikkidre nīnu kelasa biḍtīyā?", "en": "If you got a crore, would you quit your job?" },
+        { "native": "ಅಕಸ್ಮಾತ್ ಅವನು ಬರದಿದ್ರೆ ಏನು ಮಾಡೋದು?", "roman": "akasmāt avanu baradidre ēnu māḍōdu?", "en": "What if he doesn't come? What do we do then?" }
+      ]
+    },
+    {
+      "title": "If only I had known",
+      "tip": { "title": "Should have: -ಬೇಕಿತ್ತು · shouldn't have: -ಬಾರದಿತ್ತು", "body": "- **-ಬೇಕಿತ್ತು** 'should have': ಹೋಗಬೇಕಿತ್ತು, ಹೇಳಬೇಕಿತ್ತು. **-ಬಾರದಿತ್ತು** 'shouldn't have': ಮಾಡಬಾರದಿತ್ತು. Same for every person.\n- If I'd known: **ಗೊತ್ತಿದ್ರೆ** + -ತಿದ್ದೆ / -ತಿರಲಿಲ್ಲ: ಗೊತ್ತಿದ್ರೆ ಬರ್ತಿರಲಿಲ್ಲ.\n- By now: **ಇಷ್ಟೊತ್ತಿಗೆ** + -ತಿದ್ವಿ 'we'd have … by now'.", "pattern": "infinitive + ಬೇಕಿತ್ತು / ಬಾರದಿತ್ತು", "grammar": 1 },
+      "new": ["ಛೇ", "ಪಶ್ಚಾತ್ತಾಪ", "ಇಷ್ಟೊತ್ತಿಗೆ", "ಮುಂಚೆನೇ ಗೊತ್ತಿದ್ರೆ ಬರ್ತಿರಲಿಲ್ಲ", "ಛೇ, ನಾನೂ ಬರಬೇಕಿತ್ತು", "ಹಾಗೆ ಮಾಡಬಾರದಿತ್ತು"],
+      "sentences": [
+        { "native": "ಛೇ, ಬೇಗ ಹೊರಡಬೇಕಿತ್ತು.", "roman": "chē, bēga horaḍabēkittu.", "en": "Damn, we should have left early.", "focus": "ಹೊರಡಬೇಕಿತ್ತು", "wrong": ["ಹೊರಡಬೇಕು|horaḍabēku", "ಹೊರಟೆ|horaṭe"] },
+        { "native": "ಬೇಗ ಹೊರಟಿದ್ರೆ ಇಷ್ಟೊತ್ತಿಗೆ ಮೈಸೂರು ತಲುಪ್ತಿದ್ವಿ.", "roman": "bēga horaṭidre iṣṭottige maisūru taluptidvi.", "en": "If we'd left early, we'd be in Mysuru by now.", "focus": "ತಲುಪ್ತಿದ್ವಿ", "wrong": ["ತಲುಪಿದ್ವಿ|talupidvi", "ತಲುಪ್ತೀವಿ|taluptīvi"] },
+        { "native": "ಅವನು ಮದುವೆ ಆಗ್ತಿದ್ದಾನೆ ಅಂತ ಗೊತ್ತಿದ್ರೆ ಉಡುಗೊರೆ ತರ್ತಿದ್ದೆ.", "roman": "avanu maduve āgtiddāne anta gottidre uḍugore tartidde.", "en": "If I'd known he was getting married, I'd have brought a present.", "focus": "ಗೊತ್ತಿದ್ರೆ", "wrong": ["ಗೊತ್ತಿತ್ತು|gottittu", "ಗೊತ್ತಿಲ್ಲ|gottilla"] },
+        { "native": "ನಾನು ಅವಳ ಹತ್ರ ಹಾಗೆ ಮಾತಾಡಬಾರದಿತ್ತು.", "roman": "nānu avaḷa hatra hāge mātāḍabāradittu.", "en": "I shouldn't have talked to her like that.", "focus": "ಮಾತಾಡಬಾರದಿತ್ತು", "wrong": ["ಮಾತಾಡಬಾರದು|mātāḍabāradu", "ಮಾತಾಡಬೇಕಿತ್ತು|mātāḍabēkittu"] },
+        { "native": "ಛೇ, ಆ ಸೀರೆ ಆಗಲೇ ತಗೊಳ್ಳಬೇಕಿತ್ತು, ಈಗ ಯಾರೋ ತಗೊಂಡು ಹೋಗಿದ್ದಾರೆ.", "roman": "chē, ā sīre āgalē tagoḷḷabēkittu, īga yārō tagoṇḍu hōgiddāre.", "en": "Damn, I should have bought that sari right then, now someone's taken it.", "focus": "ತಗೊಳ್ಳಬೇಕಿತ್ತು", "wrong": ["ತಗೊಳ್ಳಬೇಕು|tagoḷḷabēku", "ತಗೊಂಡೆ|tagoṇḍe"] },
+        { "native": "ರೈಲು ತಡ ಅಂತ ಗೊತ್ತಿದ್ರೆ ಇಷ್ಟು ಬೇಗ ಬರ್ತಿರಲಿಲ್ಲ.", "roman": "railu taḍa anta gottidre iṣṭu bēga bartiralilla.", "en": "If I'd known the train was late, I wouldn't have come so early.", "focus": "ಬರ್ತಿರಲಿಲ್ಲ", "wrong": ["ಬರಲಿಲ್ಲ|baralilla", "ಬರಲ್ಲ|baralla"] },
+        { "native": "ಅಮ್ಮನ ಮಾತು ಕೇಳಬೇಕಿತ್ತು.", "roman": "ammana mātu kēḷabēkittu.", "en": "I should have listened to Mum.", "focus": "ಕೇಳಬೇಕಿತ್ತು", "wrong": ["ಕೇಳಬಾರದಿತ್ತು|kēḷabāradittu", "ಕೇಳ್ತೀನಿ|kēḷtīni"] },
+        { "native": "ನಿನಗೆ ಯಾವುದಾದ್ರೂ ಪಶ್ಚಾತ್ತಾಪ ಇದೆಯಾ?", "roman": "ninage yāvudādrū pashchāttāpa ideyā?", "en": "Do you have any regrets?" },
+        { "native": "ಆ ಕೆಲಸ ಬಿಟ್ಟಿದ್ದಕ್ಕೆ ನನಗೆ ಪಶ್ಚಾತ್ತಾಪ ಇಲ್ಲ.", "roman": "ā kelasa biṭṭiddakke nanage pashchāttāpa illa.", "en": "I don't regret leaving that job." }
+      ]
+    },
+    {
+      "title": "Close calls, luck and letting go",
+      "new": ["ಸ್ವಲ್ಪದರಲ್ಲಿ", "ಬಚಾವ್", "ಅದೃಷ್ಟ", "ಹಣೆಬರಹ", "ಸ್ವಲ್ಪದರಲ್ಲಿ ಬಚಾವ್ ಆದೆ", "ಆಗಿದ್ದು ಆಗಿ ಹೋಯ್ತು, ಬಿಡು", "ಎಲ್ಲಾ ಅದೃಷ್ಟ"],
+      "sentences": [
+        { "native": "ಸ್ವಲ್ಪದರಲ್ಲಿ ಬಸ್ಸು ತಪ್ಪಿ ಹೋಯ್ತು.", "roman": "svalpadaralli bassu tappi hōytu.", "en": "I missed the bus by a whisker." },
+        { "native": "ಅಪಘಾತದಲ್ಲಿ ಅವನು ಸ್ವಲ್ಪದರಲ್ಲಿ ಬಚಾವ್ ಆದ.", "roman": "apaghātadalli avanu svalpadaralli bachāv āda.", "en": "He had a narrow escape in the accident." },
+        { "native": "ಅವನ ಅದೃಷ್ಟ ಚೆನ್ನಾಗಿತ್ತು.", "roman": "avana adruṣṭa chennāgittu.", "en": "He was lucky." },
+        { "native": "ಸ್ವಲ್ಪ ತಡ ಆಗಿದ್ರೆ ವಿಮಾನ ಹೋಗಿಬಿಡ್ತಿತ್ತು.", "roman": "svalpa taḍa āgidre vimāna hōgibiḍtittu.", "en": "If we'd been a bit later, the plane would have gone.", "focus": "ಹೋಗಿಬಿಡ್ತಿತ್ತು", "wrong": ["ಹೋಗಿಬಿಡ್ತು|hōgibiḍtu", "ಹೋಗುತ್ತೆ|hōgutte"] },
+        { "native": "ಅವಳು ಫೋನ್ ಮಾಡದಿದ್ರೆ ನಾನು ಮರೆತು ಬಿಡ್ತಿದ್ದೆ.", "roman": "avaḷu phōn māḍadidre nānu maretu biḍtidde.", "en": "If she hadn't called, I'd have completely forgotten.", "focus": "ಬಿಡ್ತಿದ್ದೆ", "wrong": ["ಬಿಟ್ಟೆ|biṭṭe", "ಬಿಡ್ತೀನಿ|biḍtīni"] },
+        { "native": "ಆಗಿದ್ದು ಆಗಿ ಹೋಯ್ತು, ಇನ್ನು ಅದರ ಬಗ್ಗೆ ಯೋಚನೆ ಮಾಡ್ಬೇಡ.", "roman": "āgiddu āgi hōytu, innu adara bagge yōchane māḍbēḍa.", "en": "What's done is done, don't think about it any more." },
+        { "native": "ಎಲ್ಲಾ ನಮ್ಮ ಹಣೆಬರಹ, ಏನು ಮಾಡೋಕೆ ಆಗುತ್ತೆ?", "roman": "ellā namma haṇebaraha, ēnu māḍōke āgutte?", "en": "It's all fate, what can you do?" },
+        { "native": "ನನ್ನ ಅದೃಷ್ಟ ಸರಿ ಇಲ್ಲ, ಯಾವಾಗಲೂ ಹೀಗೇ ಆಗುತ್ತೆ.", "roman": "nanna adruṣṭa sari illa, yāvāgalū hīgē āgutte.", "en": "My luck is bad, it always happens like this." },
+        { "native": "ಎಲ್ಲಾ ಅದೃಷ್ಟ ಅಂತ ಹೇಳಬೇಡ, ನೀನು ತುಂಬಾ ಕಷ್ಟಪಟ್ಟಿದ್ದೀಯ.", "roman": "ellā adruṣṭa anta hēḷabēḍa, nīnu tumbā kaṣṭapaṭṭiddīya.", "en": "Don't say it's all luck, you worked really hard." }
+      ]
+    },
+    {
+      "title": "Wishing things were different",
+      "tip": { "title": "I wish: …ಇದ್ರೆ ಚೆನ್ನಾಗಿರ್ತಿತ್ತು", "body": "- 'I wish' = unreal if + **ಚೆನ್ನಾಗಿರ್ತಿತ್ತು** 'it would've been nice': ನೀನೂ ಬಂದಿದ್ರೆ ಚೆನ್ನಾಗಿರ್ತಿತ್ತು.\n- Big sigh: **ಎಷ್ಟು ಚೆನ್ನಾಗಿರ್ತಿತ್ತು!**\n- 'If only' (still possible) = normal if + **ಸಾಕು**: ಪಾಸ್ ಆದ್ರೆ ಸಾಕು.\n- Instead of: genitive + **ಬದಲು**: ಬೆಂಗಳೂರಿನ ಬದಲು.", "pattern": "… ಇದ್ದಿದ್ರೆ / ಬಂದಿದ್ರೆ + ಚೆನ್ನಾಗಿರ್ತಿತ್ತು", "grammar": 2 },
+      "new": [
+        "ಬದಲು",
+        "ಆಪ್ಷನ್",
+        "ಆರಿಸು",
+        "ಚಾನ್ಸ್",
+        "ಇನ್ನೂ ಸ್ವಲ್ಪ ಸಮಯ ಇದ್ದಿದ್ರೆ ಚೆನ್ನಾಗಿರ್ತಿತ್ತು",
+        "ಹಾಗಾಗಿದ್ರೆ ಎಷ್ಟು ಚೆನ್ನಾಗಿರ್ತಿತ್ತು!"
+      ],
+      "sentences": [
+        { "native": "ನೀನೂ ನಮ್ಮ ಜೊತೆ ಬಂದಿದ್ರೆ ಚೆನ್ನಾಗಿರ್ತಿತ್ತು.", "roman": "nīnū namma jote bandidre chennāgirtittu.", "en": "I wish you'd come with us.", "focus": "ಚೆನ್ನಾಗಿರ್ತಿತ್ತು", "wrong": ["ಚೆನ್ನಾಗಿದೆ|chennāgide", "ಚೆನ್ನಾಗಿತ್ತು|chennāgittu"] },
+        { "native": "ಬೆಂಗಳೂರಿನ ಬದಲು ಮೈಸೂರಲ್ಲಿ ಕೆಲಸ ಸಿಕ್ಕಿದ್ರೆ ಚೆನ್ನಾಗಿರ್ತಿತ್ತು.", "roman": "beṅgaḷūrina badalu maisūralli kelasa sikkidre chennāgirtittu.", "en": "I wish I'd got a job in Mysuru instead of Bengaluru.", "focus": "ಬದಲು", "wrong": ["ಜೊತೆ|jote", "ಹತ್ರ|hatra"] },
+        { "native": "ಹೀಗೆ ಮಳೆ ಬರದಿದ್ರೆ ಎಷ್ಟು ಚೆನ್ನಾಗಿರ್ತಿತ್ತು!", "roman": "hīge maḷe baradidre eṣṭu chennāgirtittu!", "en": "If only it weren't raining like this!", "focus": "ಬರದಿದ್ರೆ", "wrong": ["ಬರಲ್ಲ|baralla", "ಬರ್ತಿದೆ|bartide"] },
+        { "native": "ಈ ಸಲ ಪರೀಕ್ಷೆಯಲ್ಲಿ ಪಾಸ್ ಆದ್ರೆ ಸಾಕು.", "roman": "ī sala parīkṣeyalli pās ādre sāku.", "en": "If I just pass the exam this time, that's all I want.", "focus": "ಸಾಕು", "wrong": ["ಬೇಡ|bēḍa", "ಇಲ್ಲ|illa"] },
+        { "native": "ನನಗೆ ಇನ್ನೊಂದು ಚಾನ್ಸ್ ಸಿಕ್ಕಿದ್ರೆ ಸಾಕು.", "roman": "nanage innondu chāns sikkidre sāku.", "en": "If I just get one more chance, that's enough." },
+        { "native": "ನನಗೆ ಆಯ್ಕೆ ಇದ್ದಿದ್ರೆ ಬೆಂಗಳೂರು ಬಿಡ್ತಿರಲಿಲ್ಲ.", "roman": "nanage āyke iddidre beṅgaḷūru biḍtiralilla.", "en": "If I'd had a choice, I wouldn't have left Bengaluru.", "focus": "ಬಿಡ್ತಿರಲಿಲ್ಲ", "wrong": ["ಬಿಡಲಿಲ್ಲ|biḍalilla", "ಬಿಡಲ್ಲ|biḍalla"] },
+        { "native": "ಅಪ್ಪ ಇನ್ನೂ ಇದ್ದಿದ್ರೆ ಎಷ್ಟು ಖುಷಿ ಪಡ್ತಿದ್ರು.", "roman": "appa innū iddidre eṣṭu khuṣi paḍtidru.", "en": "If Dad were still here, how happy he would be." },
+        { "native": "ಎರಡು ಆಪ್ಷನ್ ಇದೆ, ಯಾವುದನ್ನ ಆರಿಸಲಿ?", "roman": "eraḍu āpṣan ide, yāvudanna ārisali?", "en": "There are two options, which one should I pick?" },
+        { "native": "ನೀನು ಅವನನ್ನ ಆರಿಸಿದ್ದು ಸರಿ.", "roman": "nīnu avananna ārisiddu sari.", "en": "You were right to choose him." }
+      ]
+    },
+    {
+      "title": "Dreams for the future",
+      "new": [
+        "ನಮ್ಮೂರು",
+        "ಬಿಸಿನೆಸ್",
+        "ಸೆಟಲ್",
+        "ಹಳ್ಳಿ",
+        "ತೋಟ",
+        "ರಿಟೈರ್",
+        "ನಿನ್ನ ಕನಸು ಏನು?",
+        "ಒಂದಲ್ಲ ಒಂದು ದಿನ ನನ್ನ ಸ್ವಂತ ಬಿಸಿನೆಸ್ ಶುರು ಮಾಡ್ತೀನಿ",
+        "ಮುಂದೆ ಏನು ಮಾಡಬೇಕು ಅಂತ ಇದ್ದೀಯ?"
+      ],
+      "sentences": [
+        { "native": "ನನಗೆ ಸ್ವಂತ ಮನೆ ಕಟ್ಟೋ ಆಸೆ ಇದೆ.", "roman": "nanage svanta mane kaṭṭō āse ide.", "en": "I'd love to build a house of my own." },
+        { "native": "ಅವನು ಕೆಲಸ ಬಿಟ್ಟು ಸ್ವಂತ ಬಿಸಿನೆಸ್ ಶುರು ಮಾಡಿದ.", "roman": "avanu kelasa biṭṭu svanta bisines shuru māḍida.", "en": "He quit his job and started his own business." },
+        { "native": "ಮದುವೆ ಆಗಿ ಸೆಟಲ್ ಆಗು ಅಂತ ಅಮ್ಮ ಹೇಳ್ತಾ ಇರ್ತಾರೆ.", "roman": "maduve āgi seṭal āgu anta amma hēḷtā irtāre.", "en": "Mum keeps telling me to get married and settle down." },
+        { "native": "ರಿಟೈರ್ ಆದ್ಮೇಲೆ ಅಪ್ಪ ನಮ್ಮೂರಿಗೆ ವಾಪಸ್ ಹೋಗ್ತಾರಂತೆ.", "roman": "riṭair ādmēle appa nammūrige vāpas hōgtārante.", "en": "Apparently Dad's going back to our home town after he retires." },
+        { "native": "ಚಿಕ್ಕಮಗಳೂರಲ್ಲಿ ಒಂದು ಕಾಫಿ ತೋಟ ತಗೊಳ್ಳೋದು ನನ್ನ ಕನಸು.", "roman": "chikkamagaḷūralli ondu kāphi tōṭa tagoḷḷōdu nanna kanasu.", "en": "My dream is to buy a coffee estate in Chikkamagaluru." },
+        { "native": "ಐದು ವರ್ಷದಲ್ಲಿ ಎಲ್ಲಿ ಸೆಟಲ್ ಆಗ್ಬೇಕು ಅಂತ ಇದ್ದೀಯ?", "roman": "aidu varṣadalli elli seṭal āgbēku anta iddīya?", "en": "Where are you planning to settle in five years?" },
+        { "native": "ಹಳ್ಳಿಯಲ್ಲಿ ದುಡ್ಡು ಕಡಿಮೆ, ಆದ್ರೆ ನೆಮ್ಮದಿ ಜಾಸ್ತಿ.", "roman": "haḷḷiyalli duḍḍu kaḍime, ādre nemmadi jāsti.", "en": "In the village there is less money but more peace of mind." },
+        { "native": "ನನ್ನ ಕನಸು ಏನಂದ್ರೆ, ಒಂದು ಚಿಕ್ಕ ಹೋಟೆಲ್ ಶುರು ಮಾಡೋದು.", "roman": "nanna kanasu ēnandre, ondu chikka hōṭel shuru māḍōdu.", "en": "My dream is to open a little eatery." },
+        { "native": "ನಿನ್ನ ತೋಟಕ್ಕೆ ನಾವೂ ಬರ್ತೀವಿ!", "roman": "ninna tōṭakke nāvū bartīvi!", "en": "We'll come to your estate too!" }
+      ]
+    },
+    {
+      "title": "Money and big decisions",
+      "new": ["ಸಂಪಾದಿಸು", "ಸಾಲ", "ಬಡವ", "ಯಶಸ್ಸು", "ತೀರಿಸು", "ಊಹಿಸು", "ಯಾರಿಗೆ ಗೊತ್ತು?"],
+      "sentences": [
+        { "native": "ಬೆಂಗಳೂರಲ್ಲಿ ಎಷ್ಟು ಸಂಪಾದಿಸಿದ್ರೂ ಸಾಕಾಗಲ್ಲ.", "roman": "beṅgaḷūralli eṣṭu sampādisidrū sākāgalla.", "en": "However much you earn in Bengaluru, it's never enough." },
+        { "native": "ಮನೆಗೆ ಬ್ಯಾಂಕಿಂದ ಸಾಲ ತಗೊಂಡ್ವಿ, ಇನ್ನೂ ಹತ್ತು ವರ್ಷ ತೀರಿಸಬೇಕು.", "roman": "manege byāṅkinda sāla tagoṇḍvi, innū hattu varṣa tīrisabēku.", "en": "We took a bank loan for the house, we've got ten more years to pay it off." },
+        { "native": "ಸಾಲ ಇಲ್ಲದಿದ್ರೆ ನಾನು ಇವತ್ತೇ ಕೆಲಸ ಬಿಡ್ತಿದ್ದೆ.", "roman": "sāla illadidre nānu ivattē kelasa biḍtidde.", "en": "If I didn't have a loan, I'd quit my job today.", "focus": "ಬಿಡ್ತಿದ್ದೆ", "wrong": ["ಬಿಟ್ಟೆ|biṭṭe", "ಬಿಡ್ತೀನಿ|biḍtīni"] },
+        { "native": "ಅವರು ಬಡವರಾಗಿದ್ರೂ ತುಂಬಾ ಖುಷಿಯಾಗಿದ್ದಾರೆ.", "roman": "avaru baḍavarāgidrū tumbā khuṣiyāgiddāre.", "en": "They're poor, but they're very happy." },
+        { "native": "ಇದು ತುಂಬಾ ದೊಡ್ಡ ನಿರ್ಧಾರ, ಸ್ವಲ್ಪ ಯೋಚನೆ ಮಾಡಿ ಹೇಳ್ತೀನಿ.", "roman": "idu tumbā doḍḍa nirdhāra, svalpa yōchane māḍi hēḷtīni.", "en": "It's a really big decision, I'll think it over and let you know." },
+        { "native": "ಯಶಸ್ಸು ಒಂದೇ ದಿನದಲ್ಲಿ ಬರಲ್ಲ.", "roman": "yashassu ondē dinadalli baralla.", "en": "Success doesn't come overnight." },
+        { "native": "ಹತ್ತು ವರ್ಷದ ನಂತರ ನಾವು ಎಲ್ಲಿರ್ತೀವಿ ಅಂತ ಊಹಿಸು!", "roman": "hattu varṣada nantara nāvu ellirtīvi anta ūhisu!", "en": "Imagine where we'll be in ten years!" },
+        { "native": "ನಾಳೆ ಏನಾಗುತ್ತೆ ಅಂತ ಯಾರಿಗೆ ಗೊತ್ತು?", "roman": "nāḷe ēnāgutte anta yārige gottu?", "en": "Who knows what'll happen tomorrow?" },
+        { "native": "ಆ ನಿರ್ಧಾರ ತಗೊಳ್ಳದಿದ್ರೆ ಇವತ್ತು ನಾನು ಇಲ್ಲಿ ಇರ್ತಿರಲಿಲ್ಲ.", "roman": "ā nirdhāra tagoḷḷadidre ivattu nānu illi irtiralilla.", "en": "If I hadn't made that decision, I wouldn't be here today.", "focus": "ಇರ್ತಿರಲಿಲ್ಲ", "wrong": ["ಇರಲಿಲ್ಲ|iralilla", "ಇಲ್ಲ|illa"] }
+      ]
+    }
+  ]
+}

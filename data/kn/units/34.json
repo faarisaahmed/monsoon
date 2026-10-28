@@ -1,0 +1,174 @@
+{
+  "id": 34,
+  "title": "Phones, apps & payments",
+  "goal": "Sort out a slow phone or a dead connection, use apps and OTPs, order online, pay and split money by UPI, and talk about posts and reels, using English tech words the way Kannada speakers do.",
+  "intro": "Bengaluru runs on apps: food and groceries arrive in ten minutes, autos are booked on the phone, and even the man selling coconuts has a QR code. The vocabulary for all this is English (ಆಪ್, ಡೌನ್‌ಲೋಡ್, ಪೇಮೆಂಟ್, ಒಟಿಪಿ), but the grammar that holds it together is pure Kannada.\n\nThe key is choosing the right Kannada verb after the English word: **ಮಾಡು** when someone does it (ಅಪ್‌ಡೇಟ್ ಮಾಡು 'update it') and **ಆಗು** when it just happens (ಫೋನ್ ಹ್ಯಾಂಗ್ ಆಯ್ತು 'the phone froze'). The second grammar point puts the conditional to work: 'if it doesn't open, restart it', 'only if you enter the OTP', 'in case the net goes', 'check whether it's come or not'.",
+  "vocab": [
+    { "native": "ಮೊಬೈಲ್", "roman": "mobail", "en": "mobile phone", "pos": "noun", "note": "Also just ಫೋನ್." },
+    { "native": "ಲ್ಯಾಪ್‌ಟಾಪ್", "roman": "lyāpṭāp", "en": "laptop", "pos": "noun" },
+    { "native": "ಇಂಟರ್ನೆಟ್", "roman": "iṇṭarneṭ", "en": "internet", "pos": "noun", "note": "In speech mostly ನೆಟ್: ನೆಟ್ ಬರ್ತಿಲ್ಲ 'the net isn't working'. The Kannada word ಅಂತರ್ಜಾಲ is only for writing." },
+    { "native": "ವೈಫೈ", "roman": "vaiphai", "en": "wifi", "pos": "noun", "note": "Said 'vaifai'." },
+    { "native": "ಡೇಟಾ", "roman": "ḍēṭā", "en": "mobile data", "pos": "noun", "note": "ಡೇಟಾ ಮುಗಿದು ಹೋಯ್ತು 'my data has run out'." },
+    { "native": "ಸ್ಲೋ", "roman": "slō", "en": "slow", "pos": "adj", "note": "ಸ್ಲೋ ಆಗಿದೆ 'it has got slow'. Native word: ನಿಧಾನ." },
+    { "native": "ಹ್ಯಾಂಗ್", "roman": "hyāṅg", "en": "hang, freeze (of a device)", "pos": "verb", "note": "Only with ಆಗು: ಫೋನ್ ಹ್ಯಾಂಗ್ ಆಗ್ತಿದೆ 'the phone keeps freezing'." },
+    { "native": "ಆಪ್", "roman": "āp", "en": "app", "pos": "noun", "note": "Also spelt ಆ್ಯಪ್." },
+    { "native": "ಡೌನ್‌ಲೋಡ್", "roman": "ḍaunlōḍ", "en": "download", "pos": "verb", "note": "ಡೌನ್‌ಲೋಡ್ ಮಾಡು 'to download (it)', ಡೌನ್‌ಲೋಡ್ ಆಗು 'to get downloaded'." },
+    { "native": "ಅಪ್‌ಡೇಟ್", "roman": "apḍēṭ", "en": "update", "pos": "verb", "note": "ಅಪ್‌ಡೇಟ್ ಮಾಡು / ಆಗು." },
+    { "native": "ಓಪನ್", "roman": "ōpan", "en": "open (an app, a file)", "pos": "verb", "note": "ಓಪನ್ ಮಾಡು 'to open it', ಓಪನ್ ಆಗು 'to open, to load'." },
+    { "native": "ಪಾಸ್‌ವರ್ಡ್", "roman": "pāsvarḍ", "en": "password", "pos": "noun", "note": "ಪಾಸ್‌ವರ್ಡ್ ಹಾಕು 'to enter the password'." },
+    { "native": "ಲಾಗಿನ್", "roman": "lāgin", "en": "log in", "pos": "verb", "note": "ಲಾಗಿನ್ ಆಗು 'to log in' (you 'become logged in')." },
+    { "native": "ಒತ್ತು", "roman": "ottu", "en": "to press", "pos": "verb", "note": "ಇಲ್ಲಿ ಒತ್ತಿ 'press here'." },
+    { "native": "ಒಟಿಪಿ", "roman": "oṭipi", "en": "OTP (one-time password)", "pos": "noun", "note": "ಒಟಿಪಿ ಬಂತಾ? 'did the OTP come?'" },
+    { "native": "ಆನ್‌ಲೈನ್", "roman": "ānlain", "en": "online", "pos": "adv", "note": "ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ 'online'; ಆನ್‌ಲೈನ್ ಆರ್ಡರ್ ಮಾಡು 'order online'." },
+    { "native": "ಡೆಲಿವರಿ", "roman": "ḍelivari", "en": "delivery", "pos": "noun" },
+    { "native": "ಆಫರ್", "roman": "āphar", "en": "offer, discount deal", "pos": "noun", "note": "ಐವತ್ತು ಪರ್ಸೆಂಟ್ ಆಫ್ '50% off'." },
+    { "native": "ಕ್ಯಾಶ್", "roman": "kyāsh", "en": "cash", "pos": "noun", "note": "Kannada: ನಗದು (on forms)." },
+    { "native": "ಪೇಮೆಂಟ್", "roman": "pēmeṇṭ", "en": "payment", "pos": "noun", "note": "ಪೇಮೆಂಟ್ ಆಯ್ತು 'the payment went through'; ಪೇ ಮಾಡು 'to pay'." },
+    { "native": "ಸ್ಕ್ಯಾನ್", "roman": "skyān", "en": "scan (a QR code)", "pos": "verb", "note": "ಸ್ಕ್ಯಾನ್ ಮಾಡು. 'Scan and pay' is the normal way to pay almost anywhere." },
+    { "native": "ಟ್ರಾನ್ಸ್‌ಫರ್", "roman": "ṭrānsphar", "en": "transfer (money)", "pos": "verb", "note": "ಟ್ರಾನ್ಸ್‌ಫರ್ ಮಾಡು; or just ಕಳಿಸು 'send'." },
+    { "native": "ಪೋಸ್ಟ್", "roman": "pōsṭ", "en": "post (on social media)", "pos": "noun", "note": "ಪೋಸ್ಟ್ ಮಾಡು / ಹಾಕು 'to post'." },
+    { "native": "ಲೈಕ್", "roman": "laik", "en": "like (on social media)", "pos": "noun", "note": "ಲೈಕ್ ಮಾಡು 'to like'; ಲೈಕ್ ಬಂತು 'got likes'." },
+    { "native": "ಫಾಲೋ", "roman": "phālō", "en": "follow (on social media)", "pos": "verb", "note": "ಫಾಲೋ ಮಾಡು. Followers: ಫಾಲೋವರ್ಸ್." },
+    { "native": "ರೀಲ್ಸ್", "roman": "rīls", "en": "reels (short videos)", "pos": "noun", "note": "One reel: ರೀಲ್." },
+    { "native": "ಫೋಟೋ", "roman": "phōṭō", "en": "photo", "pos": "noun", "note": "Plural in speech: ಫೋಟೋಸ್ or ಫೋಟೋಗಳು." }
+  ],
+  "phrases": [
+    { "native": "ನೆಟ್ ಬರ್ತಿಲ್ಲ", "roman": "neṭ bartilla", "en": "The internet isn't working. (lit. the net isn't coming)" },
+    { "native": "ಫೋನ್ ಹ್ಯಾಂಗ್ ಆಗ್ತಿದೆ", "roman": "phōn hyāṅg āgtide", "en": "My phone keeps freezing." },
+    { "native": "ಒಂದು ಸಲ ರೀಸ್ಟಾರ್ಟ್ ಮಾಡಿ ನೋಡು", "roman": "ondu sala rīsṭārṭ māḍi nōḍu", "en": "Try restarting it. (informal)", "note": "-ಇ ನೋಡು 'do it and see' = 'try doing'." },
+    { "native": "ಒಟಿಪಿ ಯಾರಿಗೂ ಹೇಳಬೇಡ", "roman": "oṭipi yārigū hēḷabēḍa", "en": "Don't tell anyone the OTP.", "note": "Banks and the police repeat this endlessly: OTP scams are common." },
+    { "native": "ಆನ್‌ಲೈನ್ ಆರ್ಡರ್ ಮಾಡೋಣ್ವಾ?", "roman": "ānlain ārḍar māḍōṇvā?", "en": "Shall we order online?" },
+    { "native": "ಡೆಲಿವರಿ ಎಷ್ಟೊತ್ತಿಗೆ ಬರುತ್ತೆ?", "roman": "ḍelivari eṣṭottige barutte?", "en": "What time will the delivery come?", "note": "ಎಷ್ಟೊತ್ತಿಗೆ = ಎಷ್ಟು ಹೊತ್ತಿಗೆ 'at what time'." },
+    { "native": "ಸ್ಕ್ಯಾನ್ ಮಾಡ್ಲಾ?", "roman": "skyān māḍlā?", "en": "Shall I scan (and pay)?" },
+    { "native": "ಪೇಮೆಂಟ್ ಆಯ್ತಾ?", "roman": "pēmeṇṭ āytā?", "en": "Has the payment gone through?" },
+    { "native": "ದುಡ್ಡು ಕಟ್ ಆಗಿದೆ, ಆದ್ರೆ ಪೇಮೆಂಟ್ ಆಗಿಲ್ಲ", "roman": "duḍḍu kaṭ āgide, ādre pēmeṇṭ āgilla", "en": "The money's been debited, but the payment hasn't gone through." },
+    { "native": "ಕ್ಯಾಶ್ ಇಲ್ಲ, ಯುಪಿಐ ಆಗುತ್ತಾ?", "roman": "kyāsh illa, yupiai āguttā?", "en": "I don't have cash, is UPI OK?" },
+    { "native": "ನನಗೆ ಐನೂರು ರೂಪಾಯಿ ಕಳಿಸು", "roman": "nanage ainūru rūpāyi kaḷisu", "en": "Send me 500 rupees. (informal)" },
+    { "native": "ಇನ್‌ಸ್ಟಾದಲ್ಲಿ ಫಾಲೋ ಮಾಡು", "roman": "insṭādalli phālō māḍu", "en": "Follow me on Insta." },
+    { "native": "ಆ ರೀಲ್ ನೋಡಿದ್ಯಾ?", "roman": "ā rīl nōḍidyā?", "en": "Did you see that reel?" }
+  ],
+  "grammar": [
+    {
+      "title": "English words with ಮಾಡು and ಆಗು (and ಬರು, ಹೋಗು, ಹಾಕು)",
+      "body": "Almost all tech vocabulary in spoken Kannada is English. The English word stays exactly as it is, it never takes endings, and the Kannada verb after it carries tense, person and negation. Which verb you choose matters.\n\n**ಮಾಡು 'do': someone does it to something.**\nಡೌನ್‌ಲೋಡ್ ಮಾಡು 'download', ಅಪ್‌ಡೇಟ್ ಮಾಡು 'update', ರೀಸ್ಟಾರ್ಟ್ ಮಾಡು 'restart', ಸ್ಕ್ಯಾನ್ ಮಾಡು 'scan', ಆರ್ಡರ್ ಮಾಡು 'order', ಟ್ರಾನ್ಸ್‌ಫರ್ ಮಾಡು 'transfer', ಪೋಸ್ಟ್ ಮಾಡು 'post', ಲೈಕ್ ಮಾಡು 'like', ಫಾಲೋ ಮಾಡು 'follow', ಓಪನ್ ಮಾಡು 'open'.\nನಾನು ಆಪ್ ಅಪ್‌ಡೇಟ್ ಮಾಡಿದೆ 'I updated the app'.\n\n**ಆಗು 'become, happen': it happens by itself, or with English adjectives.**\nಹ್ಯಾಂಗ್ ಆಗು 'freeze', ಓಪನ್ ಆಗು 'open, load', ಡೌನ್‌ಲೋಡ್ ಆಗು 'get downloaded', ಪೇಮೆಂಟ್ ಆಗು 'go through', ಫೇಲ್ ಆಗು 'fail', ಕಟ್ ಆಗು 'get cut off / debited', ಲಾಗಿನ್ ಆಗು 'log in'; ಸ್ಲೋ ಆಗು 'get slow', ಆಫ್ ಆಗು 'go off', ಫುಲ್ ಆಗು 'get full'.\nಆಪ್ ಅಪ್‌ಡೇಟ್ ಆಯ್ತು 'the app got updated'.\n\nSo many words come in pairs, just like ಮುಗಿಸು / ಮುಗಿ in unit 31: ನಾನು ಓಪನ್ ಮಾಡಿದೆ, ಆದ್ರೆ ಓಪನ್ ಆಗಲಿಲ್ಲ 'I opened it, but it didn't open'.\n\n**Other everyday verbs:**\nಹಾಕು 'put': ಪಾಸ್‌ವರ್ಡ್ ಹಾಕು 'enter the password', ಒಟಿಪಿ ಹಾಕು, ಪೋಸ್ಟ್ ಹಾಕು, ಆರ್ಡರ್ ಹಾಕು\nಬರು 'come': ನೆಟ್ ಬರ್ತಿಲ್ಲ 'the net isn't working', ಒಟಿಪಿ ಬಂತಾ? 'did the OTP come?', ನೂರು ಲೈಕ್ ಬಂತು\nಹೋಗು 'go': ನೆಟ್ ಹೋಯ್ತು 'the net's gone', ಡೇಟಾ ಮುಗಿದು ಹೋಯ್ತು 'the data's run out'\nಮಾಡಿಸು 'get it done' (unit 25): ಫೋನ್ ರಿಪೇರಿ ಮಾಡಿಸು\n\n**The trap:** don't use ಮಾಡು for things that happen on their own: ಫೋನ್ ಹ್ಯಾಂಗ್ ಮಾಡ್ತು is wrong; the phone 'becomes hung': ಫೋನ್ ಹ್ಯಾಂಗ್ ಆಯ್ತು. And keep the English word bare: ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದೆ, never 'ಡೌನ್‌ಲೋಡೆಡ್'.",
+      "examples": [
+        { "native": "ನಾನು ಓಪನ್ ಮಾಡಿದೆ, ಆದ್ರೆ ಓಪನ್ ಆಗಲಿಲ್ಲ", "roman": "nānu ōpan māḍide, ādre ōpan āgalilla", "en": "I opened it, but it wouldn't open." },
+        { "native": "ಫೋಟೋಸ್ ಎಲ್ಲಾ ಡೌನ್‌ಲೋಡ್ ಆಯ್ತಾ?", "roman": "phōṭōs ellā ḍaunlōḍ āytā?", "en": "Have all the photos downloaded?" },
+        { "native": "ಫೋನ್ ಮೆಮೊರಿ ಫುಲ್ ಆಗಿದೆ", "roman": "phōn memori phul āgide", "en": "The phone's memory is full." },
+        { "native": "ಪಾಸ್‌ವರ್ಡ್ ಹಾಕಿ ಲಾಗಿನ್ ಆಗಿ", "roman": "pāsvarḍ hāki lāgin āgi", "en": "Enter the password and log in." },
+        { "native": "ನಿನ್ನೆಯಿಂದ ನೆಟ್ ಸರಿಯಾಗಿ ಬರ್ತಿಲ್ಲ", "roman": "ninneyinda neṭ sariyāgi bartilla", "en": "The net hasn't been working properly since yesterday." }
+      ]
+    },
+    {
+      "title": "Real conditionals in practice: if, if not, only if, in case, whether",
+      "body": "Unit 19 taught the conditional -ಅರೆ (spoken -್ರೆ). With phones, apps and payments you'll use it all the time, in a few extra shapes.\n\n**If / if not.** Past stem + **-ದ್ರೆ** (careful -ದರೆ): ಓಪನ್ ಆದ್ರೆ 'if it opens', ಅಪ್‌ಡೇಟ್ ಮಾಡಿದ್ರೆ 'if you update', ನೆಟ್ ಬಂದ್ರೆ 'if the net comes back'. Negative: infinitive + **-ದಿದ್ರೆ** (careful -ದಿದ್ದರೆ): ಆಗದಿದ್ರೆ 'if it doesn't work', ಬರದಿದ್ರೆ 'if it doesn't come', ಮಾಡದಿದ್ರೆ 'if you don't'. A common spoken alternative is the negative verb + **-ಆಂದ್ರೆ** (from ಅಂದರೆ): ಸಿಗಲಿಲ್ಲಾಂದ್ರೆ 'if you can't get it', and on its own **ಇಲ್ಲಾಂದ್ರೆ** 'otherwise, or else'.\n\nThe 'then' part is usually a command, a suggestion or a future: ಓಪನ್ ಆಗದಿದ್ರೆ ರೀಸ್ಟಾರ್ಟ್ ಮಾಡು 'if it won't open, restart it'; ಆಫರ್ ಇದ್ರೆ ಅಲ್ಲೇ ಆರ್ಡರ್ ಮಾಡೋಣ 'if there's an offer, let's order there'.\n\n**Only if**: -ದ್ರೆ + **ಮಾತ್ರ**: ಒಟಿಪಿ ಹಾಕಿದ್ರೆ ಮಾತ್ರ ಲಾಗಿನ್ ಆಗುತ್ತೆ 'it only logs in if you enter the OTP'.\n\n**Even if / even after**: -ದ್ರೂ (unit 19): ರೀಸ್ಟಾರ್ಟ್ ಮಾಡಿದ್ರೂ ಸರಿ ಆಗಲಿಲ್ಲ 'even after restarting, it wasn't fixed'.\n\n**In case**: -ದ್ರೆ + **ಅಂತ** (lit. 'thinking: if…'): ನೆಟ್ ಹೋದ್ರೆ ಅಂತ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿಟ್ಕೊಂಡೆ 'I downloaded it in case the net goes'.\n\n**Whether … or not**: put **-ಓ** on the verb and add **ಇಲ್ವೋ**: ಬಂತೋ ಇಲ್ವೋ 'whether it's come or not', ಇದೆಯೋ ಇಲ್ವೋ 'whether there is or not', ಆಗುತ್ತೋ ಇಲ್ವೋ 'whether it will or not', ಫ್ರೀನೋ ಇಲ್ವೋ 'whether it's free or not'. Follow it with a verb of knowing or checking: ಡೆಲಿವರಿ ಬಂತೋ ಇಲ್ವೋ ನೋಡು 'check whether the delivery has come'.\n\n**If vs when.** For something that will certainly happen, use -ದಾಗ 'when', not -ದ್ರೆ: ಡೆಲಿವರಿ ಬಂದಾಗ ಫೋನ್ ಮಾಡು 'call me when the delivery arrives'. ಡೆಲಿವರಿ ಬಂದ್ರೆ sounds as if you doubt it will.",
+      "examples": [
+        { "native": "ನೆಟ್ ಬರದಿದ್ರೆ ರೂಟರ್ ಆಫ್ ಮಾಡಿ ಆನ್ ಮಾಡು", "roman": "neṭ baradidre rūṭar āph māḍi ān māḍu", "en": "If the net doesn't come back, switch the router off and on." },
+        { "native": "ಆಫರ್ ಇದ್ರೆ ಮಾತ್ರ ಆರ್ಡರ್ ಮಾಡ್ತೀನಿ", "roman": "āphar idre mātra ārḍar māḍtīni", "en": "I'll only order if there's an offer." },
+        { "native": "ಪಾಸ್‌ವರ್ಡ್ ಸರಿ ಇದೆಯೋ ಇಲ್ವೋ ನೋಡು", "roman": "pāsvarḍ sari ideyō ilvō nōḍu", "en": "Check whether the password is right." },
+        { "native": "ನೆಟ್ ಹೋದ್ರೆ ಅಂತ ಸಿನಿಮಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿಟ್ಕೊಂಡೆ", "roman": "neṭ hōdre anta sinimā ḍaunlōḍ māḍiṭkoṇḍe", "en": "I downloaded the film in case the net goes." },
+        { "native": "ಬೇಗ ಪೇ ಮಾಡು, ಇಲ್ಲಾಂದ್ರೆ ಆರ್ಡರ್ ಕ್ಯಾನ್ಸಲ್ ಆಗುತ್ತೆ", "roman": "bēga pē māḍu, illāndre ārḍar kyānsal āgutte", "en": "Pay quickly, or the order will get cancelled." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Sunday night in Koramangala",
+    "setting": "Flatmates Deepa and Nikhil are at home in Koramangala. The wifi has died and they're hungry.",
+    "lines": [
+      { "speaker": "Deepa", "native": "ನಿಖಿಲ್, ವೈಫೈಗೆ ಏನಾಯ್ತು? ನೆಟ್ ಬರ್ತಾನೇ ಇಲ್ಲ.", "roman": "nikhil, vaiphaige ēnāytu? neṭ bartānē illa.", "en": "Nikhil, what's up with the wifi? The net's not working at all." },
+      { "speaker": "Nikhil", "native": "ಬಿಲ್ ಕಟ್ಟಿಲ್ಲ ಅನ್ಸುತ್ತೆ... ಇರು, ಆಪ್‌ನಲ್ಲಿ ನೋಡ್ತೀನಿ.", "roman": "bil kaṭṭilla ansutte... iru, āpnalli nōḍtīni.", "en": "I think we didn't pay the bill... wait, I'll check on the app." },
+      { "speaker": "Deepa", "native": "ಬೇಗ ನೋಡು, ನನ್ನ ಡೇಟಾ ಕೂಡ ಮುಗಿದು ಹೋಗಿದೆ.", "roman": "bēga nōḍu, nanna ḍēṭā kūḍa mugidu hōgide.", "en": "Hurry up, my data's run out too." },
+      { "speaker": "Nikhil", "native": "ಹೌದು, ಬಿಲ್ ಬಾಕಿ ಇದೆ. ಈಗ ಪೇ ಮಾಡ್ತೀನಿ... ಅಯ್ಯೋ, ಪೇಮೆಂಟ್ ಫೇಲ್ ಆಯ್ತು!", "roman": "haudu, bil bāki ide. īga pē māḍtīni... ayyō, pēmeṇṭ phēl āytu!", "en": "Yep, the bill's pending. I'll pay now... oh no, the payment failed!" },
+      { "speaker": "Deepa", "native": "ದುಡ್ಡು ಕಟ್ ಆಯ್ತಾ?", "roman": "duḍḍu kaṭ āytā?", "en": "Did the money get debited?" },
+      { "speaker": "Nikhil", "native": "ಹೂಂ, ಕಟ್ ಆಗಿದೆ, ಆದ್ರೆ ಪೇಮೆಂಟ್ ಆಗಿಲ್ಲ ಅಂತ ತೋರಿಸ್ತಿದೆ.", "roman": "hūṃ, kaṭ āgide, ādre pēmeṇṭ āgilla anta tōristide.", "en": "Yeah, it's been debited, but it says the payment didn't go through." },
+      { "speaker": "Deepa", "native": "ಟೆನ್ಶನ್ ಬೇಡ, ಸಾಮಾನ್ಯವಾಗಿ ಒಂದು ದಿನದಲ್ಲಿ ವಾಪಸ್ ಬರುತ್ತೆ. ಬೇರೆ ಆಪ್‌ನಿಂದ ಮಾಡು.", "roman": "ṭenshan bēḍa, sāmānyavāgi ondu dinadalli vāpas barutte. bēre āpninda māḍu.", "en": "Don't stress, it usually comes back within a day. Pay from another app." },
+      { "speaker": "Nikhil", "native": "ಸರಿ... ಆಯ್ತು! ನೆಟ್ ಬಂತು. ಈಗ ಊಟ ಆರ್ಡರ್ ಮಾಡೋಣ್ವಾ?", "roman": "sari... āytu! neṭ bantu. īga ūṭa ārḍar māḍōṇvā?", "en": "OK... done! The net's back. Now shall we order food?" },
+      { "speaker": "Deepa", "native": "ಹೂಂ, ಬಿರಿಯಾನಿ. ಆ ಆಪ್‌ನಲ್ಲಿ ಆಫರ್ ಇದ್ರೆ ಅಲ್ಲೇ ಮಾಡು.", "roman": "hūṃ, biriyāni. ā āpnalli āphar idre allē māḍu.", "en": "Yes, biryani. If there's an offer on that app, order from there." },
+      { "speaker": "Nikhil", "native": "ಐವತ್ತು ಪರ್ಸೆಂಟ್ ಆಫ್ ಇದೆ! ಆರ್ಡರ್ ಮಾಡಿದೆ. ಡೆಲಿವರಿ ಇಪ್ಪತ್ತು ನಿಮಿಷದಲ್ಲಿ.", "roman": "aivattu parseṇṭ āph ide! ārḍar māḍide. ḍelivari ippattu nimiṣadalli.", "en": "There's fifty percent off! Ordered. Delivery in twenty minutes." },
+      { "speaker": "Deepa", "native": "ಸೂಪರ್. ನನ್ನದು ಎಷ್ಟಾಯ್ತು? ಯುಪಿಐ ಮಾಡ್ತೀನಿ.", "roman": "sūpar. nannadu eṣṭāytu? yupiai māḍtīni.", "en": "Super. How much is my share? I'll UPI you." },
+      { "speaker": "Nikhil", "native": "ನೂರೈವತ್ತು. ಆಮೇಲೆ ಕಳಿಸು. ಮೊದಲು ವೈಫೈ ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸ್ತೀನಿ, ಪಕ್ಕದ ಮನೆಯವರು ಕದ್ದು ಯೂಸ್ ಮಾಡ್ತಿದ್ದಾರೆ ಅನ್ಸುತ್ತೆ!", "roman": "nūraivattu. āmēle kaḷisu. modalu vaiphai pāsvarḍ badalāyistīni, pakkada maneyavaru kaddu yūs māḍtiddāre ansutte!", "en": "A hundred and fifty. Send it later. First I'm changing the wifi password, I think the neighbours are secretly using it!" }
+    ]
+  },
+  "culture": "India pays by **UPI**, and Bengaluru more than anywhere: PhonePe, Google Pay and Paytm QR codes hang in every shop, auto and vegetable cart, and a small speaker announces each payment, often in Kannada with the formal passive from unit 31: '… ರೂಪಾಯಿ ಸ್ವೀಕರಿಸಲಾಗಿದೆ' '… rupees received'. People say ಸ್ಕ್ಯಾನ್ ಮಾಡಿ, ಜಿಪೇ ಮಾಡ್ತೀನಿ, ಫೋನ್‌ಪೇ ಇದೆಯಾ? Friends split bills on the spot (ನನ್ನದು ಎಷ್ಟು?) and a 'payment pending, money debited' scare is a shared national experience.\n\nFood comes from Swiggy and Zomato, groceries from ten-minute apps, and autos from Namma Yatri, an app built in Bengaluru. **Never share an OTP**: calls pretending to be from your bank or a delivery company are common, and ಒಟಿಪಿ ಯಾರಿಗೂ ಹೇಳಬೇಡಿ is printed everywhere.\n\nPurist Kannada tech words exist (ಅಂತರ್ಜಾಲ 'internet', ಮಿಂಚಂಚೆ 'email', ಗಣಕಯಂತ್ರ 'computer') but almost nobody says them; using them in conversation sounds like a newsreader. Many young people type Kannada in English letters on WhatsApp ('oota aytha?'), and family groups are full of ಶುಭೋದಯ good-morning images.",
+  "lessons": [
+    {
+      "title": "When the internet's down",
+      "tip": { "title": "English word + ಮಾಡು or ಆಗು", "body": "- The English word never changes; the Kannada verb carries the tense.\n- **ಮಾಡು** when someone does it: ನಾನು ರೀಸ್ಟಾರ್ಟ್ **ಮಾಡಿದೆ**.\n- **ಆಗು** when it just happens: ಫೋನ್ ಹ್ಯಾಂಗ್ **ಆಯ್ತು**, ನೆಟ್ ಸ್ಲೋ **ಆಗಿದೆ**.\n- Some use ಬರು / ಹೋಗು: ನೆಟ್ **ಬರ್ತಿಲ್ಲ**, ನೆಟ್ **ಹೋಯ್ತು**.", "pattern": "English word + ಮಾಡು (you do it) / ಆಗು (it happens)", "grammar": 0 },
+      "new": ["ಮೊಬೈಲ್", "ಲ್ಯಾಪ್‌ಟಾಪ್", "ಇಂಟರ್ನೆಟ್", "ವೈಫೈ", "ಡೇಟಾ", "ಸ್ಲೋ", "ಹ್ಯಾಂಗ್", "ನೆಟ್ ಬರ್ತಿಲ್ಲ", "ಫೋನ್ ಹ್ಯಾಂಗ್ ಆಗ್ತಿದೆ"],
+      "sentences": [
+        { "native": "ನನ್ನ ಮೊಬೈಲ್ ತುಂಬಾ ಸ್ಲೋ ಆಗಿದೆ.", "roman": "nanna mobail tumbā slō āgide.", "en": "My phone has got really slow.", "focus": "ಆಗಿದೆ", "wrong": ["ಮಾಡಿದೆ|māḍide", "ಇದ್ದೀನಿ|iddīni"] },
+        { "native": "ವೈಫೈ ಕೆಲಸ ಮಾಡ್ತಿಲ್ಲ.", "roman": "vaiphai kelasa māḍtilla.", "en": "The wifi isn't working." },
+        { "native": "ನನ್ನ ಡೇಟಾ ಮುಗಿದು ಹೋಯ್ತು.", "roman": "nanna ḍēṭā mugidu hōytu.", "en": "My data's run out." },
+        { "native": "ಲ್ಯಾಪ್‌ಟಾಪ್ ಮತ್ತೆ ಹ್ಯಾಂಗ್ ಆಯ್ತು!", "roman": "lyāpṭāp matte hyāṅg āytu!", "en": "The laptop's frozen again!", "focus": "ಆಯ್ತು", "wrong": ["ಮಾಡಿತು|māḍitu", "ಮಾಡಿದೆ|māḍide"] },
+        { "native": "ಮಳೆ ಬಂದ್ರೆ ಇಲ್ಲಿ ನೆಟ್ ಹೋಗುತ್ತೆ.", "roman": "maḷe bandre illi neṭ hōgutte.", "en": "Whenever it rains, the net goes here.", "focus": "ಹೋಗುತ್ತೆ", "wrong": ["ಮಾಡುತ್ತೆ|māḍutte", "ಹೋಗ್ತೀನಿ|hōgtīni"] },
+        { "native": "ಇಂಟರ್ನೆಟ್ ಇಲ್ಲದೆ ಏನೂ ಕೆಲಸ ಆಗಲ್ಲ.", "roman": "iṇṭarneṭ illade ēnū kelasa āgalla.", "en": "Nothing gets done without the internet." },
+        { "native": "ಅವನು ಫೋನ್ ರೀಸ್ಟಾರ್ಟ್ ಮಾಡಿದ, ಈಗ ಸರಿ ಆಯ್ತು.", "roman": "avanu phōn rīsṭārṭ māḍida, īga sari āytu.", "en": "He restarted the phone, and now it's fine.", "focus": "ಮಾಡಿದ", "wrong": ["ಆದ|āda", "ಆಯ್ತು|āytu"] },
+        { "native": "ನೆಟ್ ಸ್ಲೋ ಇದೆ, ವಿಡಿಯೋ ಬರ್ತಾನೇ ಇಲ್ಲ.", "roman": "neṭ slō ide, viḍiyō bartānē illa.", "en": "The net's slow, the video won't load at all.", "focus": "ಬರ್ತಾನೇ", "wrong": ["ಮಾಡ್ತಾನೇ|māḍtānē", "ಹೋಗ್ತಾನೇ|hōgtānē"] },
+        { "native": "ವೈಫೈ ಪಾಸ್‌ವರ್ಡ್ ಬದಲಾಯಿಸಿದ್ರಾ?", "roman": "vaiphai pāsvarḍ badalāyisidrā?", "en": "Did you change the wifi password?" },
+        { "native": "ನಿನ್ನ ಮೊಬೈಲ್ ಡೇಟಾ ಆಫ್ ಆಗಿದೆ ನೋಡು.", "roman": "ninna mobail ḍēṭā āph āgide nōḍu.", "en": "Look, your mobile data is off.", "focus": "ಆಗಿದೆ", "wrong": ["ಮಾಡು|māḍu", "ಆಗು|āgu"] }
+      ]
+    },
+    {
+      "title": "Apps, passwords and OTPs",
+      "tip": { "title": "If it doesn't work: -ದ್ರೆ, -ದಿದ್ರೆ", "body": "- **If**: past stem + **-ದ್ರೆ**: ಓಪನ್ ಆದ್ರೆ, ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ್ರೆ.\n- **If not**: infinitive + **-ದಿದ್ರೆ**: ಆಗದಿದ್ರೆ, ಬರದಿದ್ರೆ. 'Otherwise' = **ಇಲ್ಲಾಂದ್ರೆ**.\n- **Only if**: -ದ್ರೆ **ಮಾತ್ರ**. **Even if**: **-ದ್ರೂ**.\n- The 'then' part is a command or a future: ಓಪನ್ ಆಗದಿದ್ರೆ ಅಪ್‌ಡೇಟ್ ಮಾಡು.", "pattern": "… ಆಗದಿದ್ರೆ + command", "grammar": 1 },
+      "new": ["ಆಪ್", "ಡೌನ್‌ಲೋಡ್", "ಅಪ್‌ಡೇಟ್", "ಓಪನ್", "ಪಾಸ್‌ವರ್ಡ್", "ಲಾಗಿನ್", "ಒತ್ತು", "ಒಟಿಪಿ", "ಒಂದು ಸಲ ರೀಸ್ಟಾರ್ಟ್ ಮಾಡಿ ನೋಡು", "ಒಟಿಪಿ ಯಾರಿಗೂ ಹೇಳಬೇಡ"],
+      "sentences": [
+        { "native": "ಆಪ್ ಓಪನ್ ಆಗದಿದ್ರೆ ಅಪ್‌ಡೇಟ್ ಮಾಡು.", "roman": "āp ōpan āgadidre apḍēṭ māḍu.", "en": "If the app won't open, update it.", "focus": "ಆಗದಿದ್ರೆ", "wrong": ["ಆದ್ರೆ|ādre", "ಆಗಲ್ಲ|āgalla"] },
+        { "native": "ಈ ಆಪ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ್ರೆ ಮೊದಲ ಆರ್ಡರ್ ಫ್ರೀ.", "roman": "ī āp ḍaunlōḍ māḍidre modala ārḍar phrī.", "en": "If you download this app, your first order is free.", "focus": "ಮಾಡಿದ್ರೆ", "wrong": ["ಮಾಡಿದೆ|māḍide", "ಮಾಡು|māḍu"] },
+        { "native": "ಪಾಸ್‌ವರ್ಡ್ ಮರೆತು ಹೋದ್ರೆ ಏನು ಮಾಡೋದು?", "roman": "pāsvarḍ maretu hōdre ēnu māḍōdu?", "en": "What do I do if I forget the password?", "focus": "ಹೋದ್ರೆ", "wrong": ["ಹೋಯ್ತು|hōytu", "ಹೋಗಿ|hōgi"] },
+        { "native": "ಒಟಿಪಿ ಹಾಕಿದ್ರೆ ಮಾತ್ರ ಲಾಗಿನ್ ಆಗುತ್ತೆ.", "roman": "oṭipi hākidre mātra lāgin āgutte.", "en": "It only logs you in if you enter the OTP.", "focus": "ಹಾಕಿದ್ರೆ", "wrong": ["ಹಾಕಿದೆ|hākide", "ಹಾಕು|hāku"] },
+        { "native": "ಒಟಿಪಿ ಇನ್ನೂ ಬಂದಿಲ್ಲ.", "roman": "oṭipi innū bandilla.", "en": "The OTP hasn't come yet." },
+        { "native": "ಇಲ್ಲಿ ಒತ್ತು, ಆಮೇಲೆ ಪಾಸ್‌ವರ್ಡ್ ಹಾಕು.", "roman": "illi ottu, āmēle pāsvarḍ hāku.", "en": "Press here, then enter the password." },
+        { "native": "ಅಪ್‌ಡೇಟ್ ಮಾಡದಿದ್ರೆ ಆಪ್ ಕೆಲಸ ಮಾಡಲ್ಲ.", "roman": "apḍēṭ māḍadidre āp kelasa māḍalla.", "en": "If you don't update, the app won't work.", "focus": "ಮಾಡದಿದ್ರೆ", "wrong": ["ಮಾಡಿದ್ರೆ|māḍidre", "ಮಾಡಲ್ಲ|māḍalla"] },
+        { "native": "ಲಾಗಿನ್ ಆಗೋಕೆ ಆಗ್ತಿಲ್ಲ, ಏನು ಸಮಸ್ಯೆ?", "roman": "lāgin āgōke āgtilla, ēnu samasye?", "en": "I can't log in, what's the problem?" },
+        { "native": "ರೀಸ್ಟಾರ್ಟ್ ಮಾಡಿದ್ರೂ ಸರಿ ಆಗಲಿಲ್ಲ.", "roman": "rīsṭārṭ māḍidrū sari āgalilla.", "en": "Even after restarting, it didn't get fixed.", "focus": "ಮಾಡಿದ್ರೂ", "wrong": ["ಮಾಡಿದ್ರೆ|māḍidre", "ಮಾಡಿದೆ|māḍide"] },
+        { "native": "ಒಟಿಪಿ ಬರದಿದ್ರೆ ಇನ್ನೊಂದು ಸಲ ಕೇಳು.", "roman": "oṭipi baradidre innondu sala kēḷu.", "en": "If the OTP doesn't come, request it again.", "focus": "ಬರದಿದ್ರೆ", "wrong": ["ಬಂದ್ರೆ|bandre", "ಬರಲ್ಲ|baralla"] }
+      ]
+    },
+    {
+      "title": "Ordering online",
+      "tip": { "title": "Whether or not, in case", "body": "- **Whether or not**: verb + **-ಓ** … **ಇಲ್ವೋ**: ಆರ್ಡರ್ ಬಂತೋ ಇಲ್ವೋ ನೋಡು 'check whether the order has come'.\n- **In case**: -ದ್ರೆ + **ಅಂತ**: ಲೇಟ್ ಆದ್ರೆ ಅಂತ 'in case it gets late'.\n- For what will surely happen, say **-ದಾಗ** 'when', not -ದ್ರೆ: ಡೆಲಿವರಿ ಬಂದಾಗ.", "pattern": "ಬಂತೋ ಇಲ್ವೋ  ·  … ಆದ್ರೆ ಅಂತ", "grammar": 1 },
+      "new": ["ಆನ್‌ಲೈನ್", "ಡೆಲಿವರಿ", "ಆಫರ್", "ಆನ್‌ಲೈನ್ ಆರ್ಡರ್ ಮಾಡೋಣ್ವಾ?", "ಡೆಲಿವರಿ ಎಷ್ಟೊತ್ತಿಗೆ ಬರುತ್ತೆ?"],
+      "sentences": [
+        { "native": "ಆರ್ಡರ್ ಬಂತೋ ಇಲ್ವೋ ನೋಡು.", "roman": "ārḍar bantō ilvō nōḍu.", "en": "Check whether the order has arrived.", "focus": "ಬಂತೋ", "wrong": ["ಬಂತು|bantu", "ಬಂದ್ರೆ|bandre"] },
+        { "native": "ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಇದಕ್ಕೆ ಒಳ್ಳೆ ಆಫರ್ ಇದೆ.", "roman": "ānlainnalli idakke oḷḷe āphar ide.", "en": "There's a good offer on this online." },
+        { "native": "ಡೆಲಿವರಿ ಬಂದಾಗ ನಾನು ಮನೇಲಿ ಇರಲ್ಲ, ಬಾಗಿಲ ಹತ್ರ ಇಡೋಕೆ ಹೇಳು.", "roman": "ḍelivari bandāga nānu manēli iralla, bāgila hatra iḍōke hēḷu.", "en": "I won't be home when the delivery comes, tell them to leave it by the door.", "focus": "ಬಂದಾಗ", "wrong": ["ಬಂದ್ರೆ|bandre", "ಬಂತು|bantu"] },
+        { "native": "ಆಫರ್ ಮುಗಿಯೋಕೆ ಮುಂಚೆ ಆರ್ಡರ್ ಮಾಡು.", "roman": "āphar mugiyōke muñche ārḍar māḍu.", "en": "Order before the offer ends." },
+        { "native": "ಆನ್‌ಲೈನ್ ಸಿಗಲಿಲ್ಲಾಂದ್ರೆ ಅಂಗಡಿಗೆ ಹೋಗೋಣ.", "roman": "ānlain sigalillāndre aṅgaḍige hōgōṇa.", "en": "If we can't get it online, let's go to the shop.", "focus": "ಸಿಗಲಿಲ್ಲಾಂದ್ರೆ", "wrong": ["ಸಿಗಲಿಲ್ಲ|sigalilla", "ಸಿಕ್ಕಿದ್ರೆ|sikkidre"] },
+        { "native": "ಸಂಜೆ ಲೇಟ್ ಆದ್ರೆ ಅಂತ ಈಗಲೇ ಊಟ ಆರ್ಡರ್ ಮಾಡಿದೆ.", "roman": "sañje lēṭ ādre anta īgalē ūṭa ārḍar māḍide.", "en": "I've ordered dinner now in case it gets late this evening.", "focus": "ಅಂತ", "wrong": ["ಆಗ|āga", "ಮೇಲೆ|mēle"] },
+        { "native": "ಡೆಲಿವರಿ ಎಷ್ಟೊತ್ತಿಗೆ ಬರುತ್ತೆ ಅಂತ ಆಪ್‌ನಲ್ಲಿ ನೋಡು.", "roman": "ḍelivari eṣṭottige barutte anta āpnalli nōḍu.", "en": "Check on the app what time the delivery will come." },
+        { "native": "ಬಟ್ಟೆ ಸರಿ ಆಗುತ್ತೋ ಇಲ್ವೋ ಗೊತ್ತಿಲ್ಲ.", "roman": "baṭṭe sari āguttō ilvō gottilla.", "en": "I don't know whether the clothes will fit.", "focus": "ಆಗುತ್ತೋ", "wrong": ["ಆಗುತ್ತೆ|āgutte", "ಆದ್ರೆ|ādre"] },
+        { "native": "ಡೆಲಿವರಿ ಫ್ರೀನೋ ಇಲ್ವೋ ಕೇಳು.", "roman": "ḍelivari phrīnō ilvō kēḷu.", "en": "Ask whether delivery is free or not.", "focus": "ಫ್ರೀನೋ", "wrong": ["ಫ್ರೀ|phrī", "ಫ್ರೀನಾ|phrīnā"] }
+      ]
+    },
+    {
+      "title": "Paying and splitting the bill",
+      "new": ["ಕ್ಯಾಶ್", "ಪೇಮೆಂಟ್", "ಸ್ಕ್ಯಾನ್", "ಟ್ರಾನ್ಸ್‌ಫರ್", "ಸ್ಕ್ಯಾನ್ ಮಾಡ್ಲಾ?", "ಪೇಮೆಂಟ್ ಆಯ್ತಾ?", "ದುಡ್ಡು ಕಟ್ ಆಗಿದೆ, ಆದ್ರೆ ಪೇಮೆಂಟ್ ಆಗಿಲ್ಲ", "ಕ್ಯಾಶ್ ಇಲ್ಲ, ಯುಪಿಐ ಆಗುತ್ತಾ?", "ನನಗೆ ಐನೂರು ರೂಪಾಯಿ ಕಳಿಸು"],
+      "sentences": [
+        { "native": "ಅಣ್ಣ, ಸ್ಕ್ಯಾನ್ ಮಾಡ್ಲಾ, ಕ್ಯಾಶ್ ಬೇಕಾ?", "roman": "aṇṇa, skyān māḍlā, kyāsh bēkā?", "en": "Anna, shall I scan, or do you want cash?" },
+        { "native": "ಪೇಮೆಂಟ್ ಫೇಲ್ ಆಯ್ತು, ಇನ್ನೊಂದು ಸಲ ಮಾಡ್ತೀನಿ.", "roman": "pēmeṇṭ phēl āytu, innondu sala māḍtīni.", "en": "The payment failed, I'll try again.", "focus": "ಆಯ್ತು", "wrong": ["ಮಾಡಿದೆ|māḍide", "ಮಾಡು|māḍu"] },
+        { "native": "ದುಡ್ಡು ಬಂತಾ? ನೋಡಿ ಹೇಳಿ.", "roman": "duḍḍu bantā? nōḍi hēḷi.", "en": "Has the money come through? Please check and tell me." },
+        { "native": "ಹತ್ತು ನಿಮಿಷದಲ್ಲಿ ದುಡ್ಡು ವಾಪಸ್ ಬರುತ್ತೆ.", "roman": "hattu nimiṣadalli duḍḍu vāpas barutte.", "en": "The money will come back within ten minutes." },
+        { "native": "ನಿನ್ನದು ಮುನ್ನೂರು ರೂಪಾಯಿ ಆಯ್ತು, ನನಗೆ ಟ್ರಾನ್ಸ್‌ಫರ್ ಮಾಡು.", "roman": "ninnadu munnūru rūpāyi āytu, nanage ṭrānsphar māḍu.", "en": "Your share comes to three hundred, transfer it to me." },
+        { "native": "ಟ್ರಾನ್ಸ್‌ಫರ್ ಆದ ತಕ್ಷಣ ಮೆಸೇಜ್ ಬರುತ್ತೆ.", "roman": "ṭrānsphar āda takṣaṇa mesēj barutte.", "en": "You'll get a message as soon as the transfer goes through." },
+        { "native": "ಇಲ್ಲಿ ಕ್ಯಾಶ್ ಮಾತ್ರ, ಯುಪಿಐ ಇಲ್ಲ.", "roman": "illi kyāsh mātra, yupiai illa.", "en": "Cash only here, no UPI." },
+        { "native": "ಸ್ಕ್ಯಾನ್ ಮಾಡಿದೆ, ಆದ್ರೆ ಪೇಮೆಂಟ್ ಆಗ್ತಿಲ್ಲ.", "roman": "skyān māḍide, ādre pēmeṇṭ āgtilla.", "en": "I scanned it, but the payment isn't going through.", "focus": "ಆಗ್ತಿಲ್ಲ", "wrong": ["ಮಾಡ್ತಿಲ್ಲ|māḍtilla", "ಮಾಡಿದೆ|māḍide"] },
+        { "native": "ಅಮ್ಮನಿಗೆ ಐದು ಸಾವಿರ ಕಳಿಸಿದೆ.", "roman": "ammanige aidu sāvira kaḷiside.", "en": "I sent Mum five thousand." }
+      ]
+    },
+    {
+      "title": "Posts, likes and reels",
+      "new": ["ಪೋಸ್ಟ್", "ಲೈಕ್", "ಫಾಲೋ", "ರೀಲ್ಸ್", "ಫೋಟೋ", "ಇನ್‌ಸ್ಟಾದಲ್ಲಿ ಫಾಲೋ ಮಾಡು", "ಆ ರೀಲ್ ನೋಡಿದ್ಯಾ?"],
+      "sentences": [
+        { "native": "ನಿನ್ನೆ ಹಂಪಿ ಫೋಟೋ ಪೋಸ್ಟ್ ಮಾಡಿದೆ.", "roman": "ninne hampi phōṭō pōsṭ māḍide.", "en": "Yesterday I posted the Hampi photos." },
+        { "native": "ನನ್ನ ಪೋಸ್ಟ್‌ಗೆ ನೂರು ಲೈಕ್ ಬಂತು!", "roman": "nanna pōsṭge nūru laik bantu!", "en": "My post got a hundred likes!", "focus": "ಬಂತು", "wrong": ["ಮಾಡಿದೆ|māḍide", "ಬಂದೆ|bande"] },
+        { "native": "ಅವನು ನನ್ನನ್ನ ಫಾಲೋ ಮಾಡ್ತಿಲ್ಲ.", "roman": "avanu nannanna phālō māḍtilla.", "en": "He doesn't follow me." },
+        { "native": "ದಿನಾ ರಾತ್ರಿ ಒಂದು ಗಂಟೆ ರೀಲ್ಸ್ ನೋಡ್ತೀನಿ.", "roman": "dinā rātri ondu gaṇṭe rīls nōḍtīni.", "en": "Every night I watch reels for an hour." },
+        { "native": "ಆ ರೀಲ್ ನೋಡಿ ತುಂಬಾ ನಗು ಬಂತು.", "roman": "ā rīl nōḍi tumbā nagu bantu.", "en": "That reel made me laugh so much." },
+        { "native": "ಈ ಫೋಟೋ ಪೋಸ್ಟ್ ಮಾಡಬೇಡ, ನಾನು ಚೆನ್ನಾಗಿ ಕಾಣ್ತಿಲ್ಲ!", "roman": "ī phōṭō pōsṭ māḍabēḍa, nānu chennāgi kāṇtilla!", "en": "Don't post this photo, I don't look good in it!" },
+        { "native": "ಇನ್‌ಸ್ಟಾದಲ್ಲಿ ಅವಳಿಗೆ ಹತ್ತು ಸಾವಿರ ಫಾಲೋವರ್ಸ್ ಇದ್ದಾರೆ.", "roman": "insṭādalli avaḷige hattu sāvira phālōvars iddāre.", "en": "She has ten thousand followers on Insta." },
+        { "native": "ನನ್ನ ರೀಲ್ ಲೈಕ್ ಮಾಡು ಮಗಾ!", "roman": "nanna rīl laik māḍu magā!", "en": "Like my reel, man!" }
+      ]
+    }
+  ]
+}

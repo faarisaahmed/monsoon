@@ -1,0 +1,235 @@
+{
+  "id": 35,
+  "title": "Home & neighbourhood",
+  "goal": "Rent a flat in Bengaluru, deal with the owner about the deposit, rent and bills, report what is broken, get it fixed, and complain to neighbours without starting a war.",
+  "intro": "Renting in Bengaluru has its own vocabulary, and most of it is English said the Kannada way: the **ಓನರ್**, the **ಅಡ್ವಾನ್ಸ್** (deposit), the **ಅಗ್ರಿಮೆಂಟ್**, the **ಮೇಂಟೆನೆನ್ಸ್**. What holds it together is Kannada grammar: *what* is broken, *since when*, and *who is going to get it fixed*.\n\nThis unit gives you three tools. First, how to say what's wrong (ಕೆಟ್ಟು ಹೋಗಿದೆ 'it's broken', ಮೂರು ದಿನದಿಂದ ಸೋರ್ತಿದೆ 'it's been leaking for three days'). Second, how to ask and complain politely but firmly. Third, the **causative** ಮಾಡಿಸು 'get it done', the verb every tenant needs: ಯಾವಾಗ ಸರಿ ಮಾಡಿಸ್ತೀರಾ? 'When will you get it fixed?'",
+  "vocab": [
+    { "native": "ಓನರ್", "roman": "ōnar", "en": "owner, landlord (spoken)", "pos": "noun", "note": "Formal ಮಾಲೀಕ mālīka / ಮನೆ ಮಾಲೀಕ. Tenants usually address the owner as ಅಂಕಲ್ / ಆಂಟಿ, or ಸಾರ್ / ಮೇಡಂ." },
+    { "native": "ಬ್ರೋಕರ್", "roman": "brōkar", "en": "broker, rental agent", "pos": "noun", "note": "Usually charges one month's rent as commission." },
+    { "native": "ಅಡ್ವಾನ್ಸ್", "roman": "aḍvāns", "en": "security deposit (lit. advance)", "pos": "noun", "note": "Bengaluru deposits are famously large: traditionally ten months' rent, now often three to six. Refunded when you leave, minus painting and repairs." },
+    { "native": "ಅಗ್ರಿಮೆಂಟ್", "roman": "agrimeṇṭ", "en": "rental agreement, contract", "pos": "noun", "note": "Formal ಒಪ್ಪಂದ oppanda or ಕರಾರು karāru. Usually for 11 months, on stamp paper." },
+    { "native": "ಅಪಾರ್ಟ್‌ಮೆಂಟ್", "roman": "apārṭmeṇṭ", "en": "apartment block, complex", "pos": "noun", "note": "Means the whole building. Your own flat is just ಮನೆ (or ಫ್ಲ್ಯಾಟ್)." },
+    { "native": "ಮೇಂಟೆನೆನ್ಸ್", "roman": "mēṇṭenens", "en": "maintenance charge (monthly fee in an apartment)", "pos": "noun", "note": "Paid to the residents' association for the watchman, lift, water and cleaning." },
+    { "native": "ಖಾಲಿ", "roman": "khāli", "en": "empty, vacant, free", "pos": "adj", "note": "ಖಾಲಿ ಇದೆ 'it's vacant'; ಮನೆ ಖಾಲಿ ಮಾಡು 'to vacate the house, move out'." },
+    { "native": "ನಲ್ಲಿ", "roman": "nalli", "en": "tap, faucet", "pos": "noun", "note": "Also the English ಟ್ಯಾಪ್. Don't confuse with the ending -ನಲ್ಲಿ 'in'." },
+    { "native": "ಸೋರು", "roman": "sōru", "en": "to leak, drip", "pos": "verb", "note": "Spoken continuous ಸೋರ್ತಿದೆ 'is leaking'. A leak is ಸೋರಿಕೆ." },
+    { "native": "ಫ್ಯಾನ್", "roman": "phyān", "en": "ceiling fan", "pos": "noun", "note": "Said 'fyān'. Switch it on: ಫ್ಯಾನ್ ಹಾಕು; off: ಫ್ಯಾನ್ ಆಫ್ ಮಾಡು." },
+    { "native": "ಕರೆಂಟ್", "roman": "kareṇṭ", "en": "electricity, power", "pos": "noun", "note": "ಕರೆಂಟ್ ಹೋಯ್ತು 'the power went', ಕರೆಂಟ್ ಬಂತು 'it's back'. Formal ವಿದ್ಯುತ್ vidyut." },
+    { "native": "ಗೀಸರ್", "roman": "gīsar", "en": "geyser, electric water heater", "pos": "noun", "note": "Every Bengaluru bathroom has one. ಗೀಸರ್ ಹಾಕು 'switch on the geyser'; wait ten minutes before your bath." },
+    { "native": "ಗಾಜು", "roman": "gāju", "en": "glass (the material)", "pos": "noun", "note": "ಗಾಜಿನ ಲೋಟ 'a glass tumbler', ಕಿಟಕಿ ಗಾಜು 'window pane'." },
+    { "native": "ಸರಿ ಮಾಡು", "roman": "sari māḍu", "en": "to fix, repair, put right", "pos": "verb", "note": "Lit. 'make right'. Same meaning as ರಿಪೇರಿ ಮಾಡು. Causative: ಸರಿ ಮಾಡಿಸು 'get it fixed'." },
+    { "native": "ಪ್ಲಂಬರ್", "roman": "plambar", "en": "plumber", "pos": "noun" },
+    { "native": "ಎಲೆಕ್ಟ್ರಿಷಿಯನ್", "roman": "elekṭrishiyan", "en": "electrician", "pos": "noun" },
+    { "native": "ಹಾಕಿಸು", "roman": "hākisu", "en": "to get (something) put in, fitted, installed", "pos": "verb", "note": "Causative of ಹಾಕು 'put'. ಹೊಸ ಬೀಗ ಹಾಕಿಸು 'get a new lock fitted', ಫ್ಯಾನ್ ಹಾಕಿಸು 'get a fan installed'." },
+    { "native": "ಲಿಫ್ಟ್", "roman": "lifṭ", "en": "lift, elevator", "pos": "noun", "note": "ಲಿಫ್ಟ್ ಕೆಟ್ಟು ಹೋಗಿದೆ 'the lift is out of order'. During power cuts it runs on the building's generator, if at all." },
+    { "native": "ಕೆಲಸದವರು", "roman": "kelasadavaru", "en": "domestic help, maid (respectful)", "pos": "noun", "note": "Lit. 'the work people'. ಕೆಲಸದವಳು (f) is common but blunter; many families call her ಅಕ್ಕ or by name." },
+    { "native": "ಕಟ್ಟು", "roman": "kaṭṭu", "en": "to pay (rent, a bill, a fee); to tie; to build", "pos": "verb", "note": "Past ಕಟ್ಟಿದ-. ಬಾಡಿಗೆ ಕಟ್ಟು 'pay the rent', ಬಿಲ್ ಕಟ್ಟು 'pay a bill'. Paying a shopkeeper is just ಕೊಡು." },
+    { "native": "ಬಿಲ್", "roman": "bil", "en": "bill", "pos": "noun", "note": "ಕರೆಂಟ್ ಬಿಲ್ (from BESCOM), ನೀರಿನ ಬಿಲ್ (from BWSSB)." },
+    { "native": "ಬಾಕಿ", "roman": "bāki", "en": "outstanding, still due; the rest, remaining", "pos": "noun", "note": "ಬಾಡಿಗೆ ಬಾಕಿ ಇದೆ 'the rent is still due'; ಬಾಕಿ ಕೆಲಸ 'the remaining work'." },
+    { "native": "ಟ್ಯಾಂಕರ್", "roman": "ṭyāṅkar", "en": "water tanker (truck)", "pos": "noun", "note": "Ordered when piped Cauvery water or the borewell runs short, especially in summer." },
+    { "native": "ನೆರೆಹೊರೆ", "roman": "nerehore", "en": "neighbourhood; the neighbours", "pos": "noun", "note": "In everyday talk: ಪಕ್ಕದ ಮನೆಯವರು 'the people next door', ಮೇಲಿನ ಮನೆಯವರು 'the people upstairs'." },
+    { "native": "ಸದ್ದು", "roman": "saddu", "en": "sound, noise (a single noise)", "pos": "noun", "note": "ಸದ್ದು ಮಾಡಬೇಡ 'don't make a sound'. ಗಲಾಟೆ is noise made by people; ಸದ್ದು is any sound, a drip, a bang, a drill. For music and TV volume everyone says ಸೌಂಡ್." },
+    { "native": "ಜೋರಾಗಿ", "roman": "jōrāgi", "en": "loudly; hard, forcefully", "pos": "adv", "note": "From ಜೋರು 'force, loudness'. ಮಳೆ ಜೋರಾಗಿ ಬರ್ತಿದೆ 'it's raining hard'." },
+    { "native": "ಸಹಿಸು", "roman": "sahisu", "en": "to tolerate, put up with, bear", "pos": "verb", "note": "Mostly in the negative: ಸಹಿಸೋಕೆ ಆಗಲ್ಲ 'I can't stand it'." },
+    { "native": "ವಾಚ್‌ಮನ್", "roman": "vāchman", "en": "watchman, building security guard", "pos": "noun", "note": "Also ಸೆಕ್ಯುರಿಟಿ. Usually addressed as ಅಣ್ಣ." },
+    { "native": "ಸೆಕ್ರೆಟರಿ", "roman": "sekreṭari", "en": "secretary (of the apartment residents' association)", "pos": "noun", "note": "The person who collects maintenance and hears complaints. Formal ಕಾರ್ಯದರ್ಶಿ." },
+    { "native": "ಸೊಳ್ಳೆ", "roman": "soḷḷe", "en": "mosquito", "pos": "noun" },
+    { "native": "ಶಿಫ್ಟ್", "roman": "shifṭ", "en": "moving (house)", "pos": "noun", "note": "ಮನೆ ಶಿಫ್ಟ್ ಮಾಡು 'to move house / move your things'; ಶಿಫ್ಟ್ ಆಗು 'to move (yourself)'." },
+    { "native": "ಗೃಹಪ್ರವೇಶ", "roman": "gruhapravēsha", "en": "housewarming ceremony (lit. entering the house)", "pos": "noun", "note": "A puja and a meal when you move into a new house you own; friends bring a gift." }
+  ],
+  "phrases": [
+    { "native": "ಮನೆ ಬಾಡಿಗೆಗೆ ಇದೆಯಾ?", "roman": "mane bāḍigege ideyā?", "en": "Is the house for rent?", "note": "Look for the board ಮನೆ ಬಾಡಿಗೆಗೆ ಇದೆ / TO-LET on the gate." },
+    { "native": "ಅಡ್ವಾನ್ಸ್ ಎಷ್ಟು ಕೊಡಬೇಕು?", "roman": "aḍvāns eṣṭu koḍabēku?", "en": "How much deposit do I have to pay?" },
+    { "native": "ಮೇಂಟೆನೆನ್ಸ್ ಬಾಡಿಗೆಯಲ್ಲೇ ಸೇರಿದೆಯಾ?", "roman": "mēṇṭenens bāḍigeyallē sērideyā?", "en": "Is maintenance included in the rent?" },
+    { "native": "ಬಾತ್‌ರೂಮಲ್ಲಿ ನಲ್ಲಿ ಸೋರ್ತಿದೆ", "roman": "bātrūmalli nalli sōrtide", "en": "The tap in the bathroom is leaking." },
+    { "native": "ಕರೆಂಟ್ ಹೋಗಿದೆ", "roman": "kareṇṭ hōgide", "en": "The power's out." },
+    { "native": "ಫ್ಯಾನ್ ಕೆಲಸ ಮಾಡ್ತಿಲ್ಲ", "roman": "phyān kelasa māḍtilla", "en": "The fan isn't working." },
+    { "native": "ಒಬ್ಬ ಪ್ಲಂಬರ್‌ನ ಕಳಿಸ್ತೀರಾ?", "roman": "obba plambarna kaḷistīrā?", "en": "Could you send a plumber? (polite)" },
+    { "native": "ಬೇಜಾರು ಮಾಡ್ಕೋಬೇಡಿ, ಒಂದು ವಿಷಯ ಹೇಳಬೇಕಿತ್ತು", "roman": "bējāru māḍkōbēḍi, ondu viṣaya hēḷabēkittu", "en": "Please don't mind, there's something I needed to tell you.", "note": "The standard soft opening for a complaint. Careful form: ಬೇಜಾರು ಮಾಡ್ಕೊಳ್ಳಬೇಡಿ." },
+    { "native": "ಯಾವಾಗ ಸರಿ ಮಾಡಿಸ್ತೀರಾ?", "roman": "yāvāga sari māḍistīrā?", "en": "When will you get it fixed? (polite)" },
+    { "native": "ಈ ತಿಂಗಳ ಬಾಡಿಗೆ ಕಟ್ಟಿದ್ದೀನಿ", "roman": "ī tiṅgaḷa bāḍige kaṭṭiddīni", "en": "I've paid this month's rent." },
+    { "native": "ಸ್ವಲ್ಪ ಸೌಂಡ್ ಕಡಿಮೆ ಮಾಡ್ತೀರಾ?", "roman": "svalpa sauṇḍ kaḍime māḍtīrā?", "en": "Could you turn the sound down a bit? (polite)", "note": "ಸೌಂಡ್ 'sound, volume' is what everyone says for music or TV." },
+    { "native": "ಎಷ್ಟು ಸಲ ಹೇಳೋದು?", "roman": "eṣṭu sala hēḷōdu?", "en": "How many times do I have to say it?", "note": "Exasperated. Careful form: ಎಷ್ಟು ಸಲ ಹೇಳುವುದು?" },
+    { "native": "ನಾವು ಮುಂದಿನ ತಿಂಗಳು ಮನೆ ಖಾಲಿ ಮಾಡ್ತೀವಿ", "roman": "nāvu mundina tiṅgaḷu mane khāli māḍtīvi", "en": "We're moving out next month." },
+    { "native": "ಅಡ್ವಾನ್ಸ್ ವಾಪಸ್ ಯಾವಾಗ ಕೊಡ್ತೀರಾ?", "roman": "aḍvāns vāpas yāvāga koḍtīrā?", "en": "When will you return the deposit?" }
+  ],
+  "grammar": [
+    {
+      "title": "Saying what's wrong: -ಇ ಹೋಗಿದೆ, the continuous, and -ಇಂದ 'for / since'",
+      "body": "Three patterns cover almost every complaint about a house.\n\n**1. Something broke: past participle + ಹೋಗು.** Kannada adds ಹೋಗು 'go' to a verb of breaking or spoiling, the way English says 'it's gone off' or 'it's gone missing'. The present perfect **ಹೋಗಿದೆ** says it *is* broken now; the past **ಹೋಯ್ತು** tells the moment it happened:\nಕೆಡು → ಕೆಟ್ಟು ಹೋಗಿದೆ 'has broken down' (machines, food)\nಒಡೆ → ಒಡೆದು ಹೋಗಿದೆ 'has cracked / smashed' (glass, pipes)\nಮುರಿ → ಮುರಿದು ಹೋಗಿದೆ 'has snapped' (a chair leg, a handle)\nಕಳೆ → ಕಳೆದು ಹೋಯ್ತು 'got lost'\nWithout ಹೋಗು the sentence has a doer and sounds deliberate: ಅವನು ಗಾಜು ಒಡೆದ 'he broke the glass'.\n\n**2. A fault that keeps going: the continuous.** ಸೋರ್ತಿದೆ 'is leaking', ಕೆಲಸ ಮಾಡ್ತಿಲ್ಲ 'isn't working', ನೀರು ಬರ್ತಿಲ್ಲ 'no water is coming'. Power and water *go* and *come*: ಕರೆಂಟ್ ಹೋಗಿದೆ 'the power's out', ಕರೆಂಟ್ ಬಂತು 'the power's back'.\n\n**3. How long: -ಇಂದ.** The 'from' ending on a time word means 'since' or 'for (up to now)': ನಿನ್ನೆಯಿಂದ 'since yesterday', ಬೆಳಿಗ್ಗೆಯಿಂದ 'since morning', ಮೂರು ದಿನದಿಂದ 'for three days', ಒಂದು ವಾರದಿಂದ 'for a week'. Where English switches to 'has been leaking', Kannada keeps the plain continuous: ಮೂರು ದಿನದಿಂದ ಸೋರ್ತಿದೆ 'it's been leaking for three days'.\n\nThe trap is the dative: ಮೂರು ದಿನಕ್ಕೆ means 'for three days' in the sense of a planned period (a room for three days), not 'for the last three days'.",
+      "examples": [
+        { "native": "ಗೀಸರ್ ಕೆಟ್ಟು ಹೋಗಿದೆ, ಬಿಸಿ ನೀರು ಇಲ್ಲ.", "roman": "gīsar keṭṭu hōgide, bisi nīru illa.", "en": "The geyser's broken, there's no hot water." },
+        { "native": "ಕುರ್ಚಿಯ ಕಾಲು ಮುರಿದು ಹೋಗಿದೆ.", "roman": "kurchiya kālu muridu hōgide.", "en": "The leg of the chair has snapped." },
+        { "native": "ಬೆಳಿಗ್ಗೆಯಿಂದ ನೀರು ಬರ್ತಿಲ್ಲ.", "roman": "beḷiggeyinda nīru bartilla.", "en": "There's been no water since this morning." },
+        { "native": "ಕರೆಂಟ್ ಬಂತಾ?", "roman": "kareṇṭ bantā?", "en": "Is the power back?" },
+        { "native": "ಎರಡು ವಾರದಿಂದ ಲಿಫ್ಟ್ ಕೆಲಸ ಮಾಡ್ತಿಲ್ಲ.", "roman": "eraḍu vāradinda lifṭ kelasa māḍtilla.", "en": "The lift hasn't been working for two weeks." }
+      ]
+    },
+    {
+      "title": "Requests and complaints: softening and insisting",
+      "body": "With an owner, a neighbour or the apartment secretary you want to be firm without being rude. Kannada does it with a handful of forms, from softest to firmest.\n\n**Softest, 'would it be possible?'**: infinitive (spoken **-ಓಕೆ**, written -ಅಲು) + **ಆಗುತ್ತಾ?**: ಇವತ್ತು ಬರೋಕೆ ಆಗುತ್ತಾ? 'would you be able to come today?' (written ಬರಲು ಆಗುತ್ತದೆಯೇ?). The answer 'can't' is ಆಗಲ್ಲ: ಇವತ್ತು ಆಗಲ್ಲ, ನಾಳೆ ಬರ್ತೀನಿ.\n\n**Polite, 'will you?'**: ಸ್ವಲ್ಪ + the future as a question in **-ತೀರಾ?**: ಸ್ವಲ್ಪ ನೋಡ್ತೀರಾ? 'could you have a look?'. ಸ್ವಲ್ಪ 'a little' takes the edge off any request, like English 'just'.\n\n**Opening gently, -ಬೇಕಿತ್ತು**: the past of ಬೇಕು means 'I needed / I was meaning to': ಒಂದು ವಿಷಯ ಹೇಳಬೇಕಿತ್ತು 'there's something I wanted to tell you', ನಿಮ್ಮ ಹತ್ರ ಮಾತಾಡಬೇಕಿತ್ತು 'I wanted a word with you'. Put ಬೇಜಾರು ಮಾಡ್ಕೋಬೇಡಿ 'please don't mind' in front and the complaint lands softly.\n\n**Asking someone to stop**: a plain ಮಾಡಬೇಡಿ 'please don't' is fine, but between neighbours it's gentler to say what *would be good*: negative 'if' (-ಅದಿದ್ರೆ) + **ಒಳ್ಳೇದು**: ಹಾಕದಿದ್ರೆ ಒಳ್ಳೇದು 'it'd be good if you didn't put it on'.\n\n**Insisting**: the emphatic **-ಏ** pins down a time: **ಇವತ್ತೇ** 'today itself', **ಈಗಲೇ** 'right now', ಈ ವಾರದಲ್ಲೇ 'this week, no later'. ಎಷ್ಟು ಸಲ ಹೇಳೋದು? 'how many times do I have to say it?' and ಮೂರು ಸಲ ಹೇಳಿದ್ದೀನಿ 'I've told you three times' show your patience has run out. Stay with **ನೀವು** even when annoyed: dropping to ನೀನು with an adult you don't know is an insult and turns a complaint into a fight.",
+      "examples": [
+        { "native": "ಸ್ವಲ್ಪ ಬೇಗ ಸರಿ ಮಾಡಿಸೋಕೆ ಆಗುತ್ತಾ?", "roman": "svalpa bēga sari māḍisōke āguttā?", "en": "Would it be possible to get it fixed a bit sooner?" },
+        { "native": "ಮೇಡಂ, ನಿಮ್ಮ ಹತ್ರ ಸ್ವಲ್ಪ ಮಾತಾಡಬೇಕಿತ್ತು.", "roman": "mēḍam, nimma hatra svalpa mātāḍabēkittu.", "en": "Madam, I wanted a quick word with you." },
+        { "native": "ನಿಮ್ಮ ಕಾರು ನಮ್ಮ ಗೇಟ್ ಮುಂದೆ ನಿಲ್ಲಿಸಬೇಡಿ.", "roman": "nimma kāru namma gēṭ munde nillisabēḍi.", "en": "Please don't park your car in front of our gate." },
+        { "native": "ರಾತ್ರಿ ಹತ್ತರ ನಂತರ ಮ್ಯೂಸಿಕ್ ಹಾಕದಿದ್ರೆ ಒಳ್ಳೇದು.", "roman": "rātri hattara nantara myūsik hākadidre oḷḷēdu.", "en": "It'd be good if you didn't play music after ten at night." },
+        { "native": "ಮೂರು ಸಲ ಹೇಳಿದ್ದೀನಿ, ಇವತ್ತೇ ಬರಬೇಕು.", "roman": "mūru sala hēḷiddīni, ivattē barabēku.", "en": "I've told you three times, he has to come today." }
+      ]
+    },
+    {
+      "title": "Causatives revisited: getting it done, and by whom",
+      "body": "A causative verb means 'have / get / make someone do it'. You met it in unit 25 for errands; at home it's the verb that decides who actually turns up with the spanner. You build it by adding **-ಇಸು** to the verb stem:\nಮಾಡು → **ಮಾಡಿಸು** 'get (something) done'\nಹಾಕು → **ಹಾಕಿಸು** 'get (something) put in, installed'\nತರು → **ತರಿಸು** 'have (something) brought, order in'\nಕರೆ → **ಕರೆಸು** 'send for, call (someone) in'\nತೊಳೆ → **ತೊಳೆಸು** 'get (something) washed'\nಬರೆ → **ಬರೆಸು** 'get (something) written'\nನಿಲ್ಲು → **ನಿಲ್ಲಿಸು** 'stop (something), park'\n\nThe result is an ordinary verb in -ಉ, so every tense works: ಮಾಡಿಸ್ತೀನಿ 'I'll get it done', ಮಾಡಿಸಿದೆ 'I got it done', ಮಾಡಿಸಿದ್ದಾರೆ 'they've had it done', ಮಾಡಿಸಿಲ್ಲ 'hasn't had it done', ಮಾಡಿಸ್ಬೇಕು 'need to get it done', ಮಾಡಿಸೋಕೆ ಆಗುತ್ತಾ? 'can you get it done?'.\n\n**The person who does the work** takes **ಕೈಲಿ** (written ಕೈಯಲ್ಲಿ, 'in the hand of'): ಪ್ಲಂಬರ್ ಕೈಲಿ ಮಾಡಿಸಿ 'get the plumber to do it'. Someone you *send for* takes the object ending: ಎಲೆಕ್ಟ್ರಿಷಿಯನ್‌ನ ಕರೆಸಿ 'call in the electrician'.\n\n**For yourself or for someone else**: add ಕೊಳ್ಳು when it's for your own benefit (ಮಾಡಿಸ್ಕೊಂಡೆ 'I got it done (for myself)') and ಕೊಡು when it's a favour to someone (ಮಾಡಿಸ್ಕೊಡಿ 'please get it done for me', the tenant's favourite request).\n\n**The trap**: the plain verb means you do it with your own hands. ನಲ್ಲಿ ಸರಿ ಮಾಡ್ತೀನಿ 'I'll fix the tap (myself)' vs ನಲ್ಲಿ ಸರಿ ಮಾಡಿಸ್ತೀನಿ 'I'll get the tap fixed'. An owner who says the first is promising to turn up with his own spanner.",
+      "examples": [
+        { "native": "ಬಾಗಿಲಿಗೆ ಹೊಸ ಬೀಗ ಹಾಕಿಸ್ಕೊಡಿ.", "roman": "bāgilige hosa bīga hākiskoḍi.", "en": "Please get a new lock put on the door for me." },
+        { "native": "ಓನರ್ ಮನೆಗೆ ಪೇಂಟ್ ಮಾಡಿಸಿದ್ದಾರೆ.", "roman": "ōnar manege pēṇṭ māḍisiddāre.", "en": "The owner has had the house painted." },
+        { "native": "ಇವತ್ತು ಅಡುಗೆ ಬೇಡ, ಊಟ ತರಿಸೋಣ.", "roman": "ivattu aḍuge bēḍa, ūṭa tarisōṇa.", "en": "No cooking today, let's order food in." },
+        { "native": "ಅಮ್ಮ ಕೆಲಸದವರ ಕೈಲಿ ಮನೆ ಕ್ಲೀನ್ ಮಾಡಿಸ್ತಾರೆ.", "roman": "amma kelasadavara kaili mane klīn māḍistāre.", "en": "Mum gets the help to clean the house." },
+        { "native": "ನಲ್ಲಿ ಇನ್ನೂ ಸರಿ ಮಾಡಿಸಿಲ್ವಾ?", "roman": "nalli innū sari māḍisilvā?", "en": "You still haven't got the tap fixed?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Calling the owner",
+    "setting": "Ananya rents a flat in HSR Layout. The bathroom tap has been dripping for a week, so she calls the owner, Murthy uncle, who lives in Jayanagar.",
+    "lines": [
+      { "native": "ಹಲೋ, ಮೂರ್ತಿ ಅಂಕಲ್? ನಾನು ಅನನ್ಯ, ಮೂರನೇ ಮಹಡಿ.", "roman": "halō, mūrti aṅkal? nānu ananya, mūranē mahaḍi.", "en": "Hello, Murthy uncle? It's Ananya, third floor." },
+      { "native": "ಹಾಂ, ಹೇಳಮ್ಮ. ಏನು ಸಮಾಚಾರ?", "roman": "hāṃ, hēḷamma. ēnu samāchāra?", "en": "Yes, tell me, dear. What's up?" },
+      { "native": "ಬೇಜಾರು ಮಾಡ್ಕೋಬೇಡಿ ಅಂಕಲ್, ಬಾತ್‌ರೂಮಲ್ಲಿ ನಲ್ಲಿ ಒಂದು ವಾರದಿಂದ ಸೋರ್ತಿದೆ.", "roman": "bējāru māḍkōbēḍi aṅkal, bātrūmalli nalli ondu vāradinda sōrtide.", "en": "Sorry to bother you, uncle, the bathroom tap has been leaking for a week." },
+      { "native": "ಅಯ್ಯೋ, ಹೌದಾ? ಹೋದ ತಿಂಗಳು ತಾನೇ ಸರಿ ಮಾಡಿಸಿದ್ದೆ.", "roman": "ayyō, haudā? hōda tiṅgaḷu tānē sari māḍisidde.", "en": "Oh no, really? I only got it fixed last month." },
+      { "native": "ಹೌದು, ಆದ್ರೆ ಮತ್ತೆ ಶುರುವಾಗಿದೆ. ರಾತ್ರಿ ಎಲ್ಲಾ ಟಪ್ ಟಪ್ ಅಂತ ಸದ್ದು, ನಿದ್ದೆನೇ ಬರಲ್ಲ.", "roman": "haudu, ādre matte shuruvāgide. rātri ellā ṭap ṭap anta saddu, niddenē baralla.", "en": "Yes, but it's started again. Drip, drip all night, I can't sleep at all." },
+      { "native": "ಸರಿ ಸರಿ. ನಮ್ಮ ಪ್ಲಂಬರ್ ಕೈಲಿ ನಾಳೆ ಬೆಳಿಗ್ಗೆ ಮಾಡಿಸ್ತೀನಿ.", "roman": "sari sari. namma plambar kaili nāḷe beḷigge māḍistīni.", "en": "OK, OK. I'll get our plumber to do it tomorrow morning." },
+      { "native": "ನಾಳೆ ನಾನು ಆಫೀಸಲ್ಲಿ ಇರ್ತೀನಿ... ಇವತ್ತು ಸಂಜೆನೇ ಕಳಿಸೋಕೆ ಆಗುತ್ತಾ?", "roman": "nāḷe nānu āphīsalli irtīni... ivattu sañjenē kaḷisōke āguttā?", "en": "Tomorrow I'll be at the office... would it be possible to send him this evening?" },
+      { "native": "ನೋಡ್ತೀನಿ, ಅವನಿಗೆ ಫೋನ್ ಮಾಡಿ ಹೇಳ್ತೀನಿ. ಇನ್ನೊಂದು ವಿಷಯ, ಈ ತಿಂಗಳ ಮೇಂಟೆನೆನ್ಸ್ ಕಟ್ಟಿದ್ಯಾ?", "roman": "nōḍtīni, avanige phōn māḍi hēḷtīni. innondu viṣaya, ī tiṅgaḷa mēṇṭenens kaṭṭidyā?", "en": "I'll see, I'll call him and tell him. One more thing, have you paid this month's maintenance?" },
+      { "native": "ಕಟ್ಟಿದ್ದೀನಿ ಅಂಕಲ್, ಸೆಕ್ರೆಟರಿಗೆ ಕೊಟ್ಟೆ. ಆಮೇಲೆ... ಪಕ್ಕದ ಮನೆಯವರು ರಾತ್ರಿ ಹನ್ನೆರಡರವರೆಗೂ ಜೋರಾಗಿ ಮ್ಯೂಸಿಕ್ ಹಾಕ್ತಾರೆ.", "roman": "kaṭṭiddīni aṅkal, sekreṭarige koṭṭe. āmēle... pakkada maneyavaru rātri hanneraḍaravaregū jōrāgi myūsik hāktāre.", "en": "I've paid it, uncle, I gave it to the secretary. And also... the people next door play loud music till midnight." },
+      { "native": "ಹೌದಾ? ಅವರು ಹೊಸಬರು. ಒಂದು ಸಲ ಸೌಂಡ್ ಕಡಿಮೆ ಮಾಡಿ ಅಂತ ಹೇಳು, ಕೇಳ್ತಾರೆ.", "roman": "haudā? avaru hosabaru. ondu sala sauṇḍ kaḍime māḍi anta hēḷu, kēḷtāre.", "en": "Really? They're new. Just ask them once to turn it down, they'll listen." },
+      { "native": "ಎರಡು ಸಲ ಹೇಳಿದ್ದೀನಿ ಅಂಕಲ್! ಏನೂ ಪ್ರಯೋಜನ ಇಲ್ಲ.", "roman": "eraḍu sala hēḷiddīni aṅkal! ēnū prayōjana illa.", "en": "I've told them twice, uncle! It's no use." },
+      { "native": "ಸರಿ, ಹಾಗಾದ್ರೆ ನಾನೇ ಮಾತಾಡ್ತೀನಿ. ನೀನು ಚಿಂತೆ ಮಾಡ್ಬೇಡ.", "roman": "sari, hāgādre nānē mātāḍtīni. nīnu chinte māḍbēḍa.", "en": "Fine, then I'll talk to them myself. Don't you worry." },
+      { "native": "ತುಂಬಾ ಥ್ಯಾಂಕ್ಸ್ ಅಂಕಲ್. ಪ್ಲಂಬರ್ ಬರೋ ಮುಂಚೆ ಒಂದು ಮೆಸೇಜ್ ಹಾಕಿ.", "roman": "tumbā thyāṅks aṅkal. plambar barō muñche ondu mesēj hāki.", "en": "Thanks a lot, uncle. Drop me a message before the plumber comes." }
+    ]
+  },
+  "culture": "Renting in Bengaluru runs on a few unwritten rules. The **ಅಡ್ವಾನ್ಸ್** is big (traditionally ten months' rent, now more often three to six), the **ಅಗ್ರಿಮೆಂಟ್** is for eleven months on stamp paper, and when you leave the owner usually keeps a month's rent or so for painting. Some owners still ask whether you're vegetarian or 'family' (not bachelors), and many live upstairs or next door, so the relationship is personal: tenants call them **ಅಂಕಲ್ / ಆಂಟಿ**, and they often reply in the informal ನೀನು with -ಅಮ್ಮ or -ಪ್ಪ (ಹೇಳಮ್ಮ, ಬಾರಪ್ಪ), which is affectionate, not rude. You still answer with ನೀವು.\n\nComplaints start soft (ಬೇಜಾರು ಮಾಡ್ಕೋಬೇಡಿ..., ಒಂದು ವಿಷಯ ಹೇಳಬೇಕಿತ್ತು) and escalate slowly; going straight to the residents' association or raising your voice makes you 'that tenant'. Daily life has its own vocabulary: the BBMP **ಕಸದ ಗಾಡಿ** comes early and wants wet and dry waste separated, the **ಕರೆಂಟ್ ಬಿಲ್** comes from BESCOM, and in April and May whole apartment blocks depend on the **ಟ್ಯಾಂಕರ್**. When people buy a home they hold a **ಗೃಹಪ್ರವೇಶ**: a morning puja, a big banana-leaf lunch, and an invitation it's rude to skip.",
+  "lessons": [
+    {
+      "title": "Finding a place to rent",
+      "new": ["ಓನರ್", "ಬ್ರೋಕರ್", "ಅಡ್ವಾನ್ಸ್", "ಅಗ್ರಿಮೆಂಟ್", "ಅಪಾರ್ಟ್‌ಮೆಂಟ್", "ಮೇಂಟೆನೆನ್ಸ್", "ಖಾಲಿ", "ಮನೆ ಬಾಡಿಗೆಗೆ ಇದೆಯಾ?", "ಅಡ್ವಾನ್ಸ್ ಎಷ್ಟು ಕೊಡಬೇಕು?", "ಮೇಂಟೆನೆನ್ಸ್ ಬಾಡಿಗೆಯಲ್ಲೇ ಸೇರಿದೆಯಾ?"],
+      "sentences": [
+        { "native": "ಈ ಅಪಾರ್ಟ್‌ಮೆಂಟ್‌ನಲ್ಲಿ ಎರಡು ಮನೆ ಖಾಲಿ ಇವೆ.", "roman": "ī apārṭmeṇṭnalli eraḍu mane khāli ive.", "en": "Two flats in this building are vacant." },
+        { "native": "ಓನರ್ ಮೇಲಿನ ಮಹಡಿಯಲ್ಲೇ ಇರ್ತಾರೆ.", "roman": "ōnar mēlina mahaḍiyallē irtāre.", "en": "The owner lives right on the floor above." },
+        { "native": "ಬ್ರೋಕರ್‌ಗೆ ಒಂದು ತಿಂಗಳ ಬಾಡಿಗೆ ಕೊಡಬೇಕಂತೆ.", "roman": "brōkarge ondu tiṅgaḷa bāḍige koḍabēkante.", "en": "Apparently we have to give the broker one month's rent." },
+        { "native": "ಬಾಡಿಗೆ ಹದಿನೆಂಟು ಸಾವಿರ, ಅಡ್ವಾನ್ಸ್ ಒಂದು ಲಕ್ಷ.", "roman": "bāḍige hadineṇṭu sāvira, aḍvāns ondu lakṣa.", "en": "The rent is eighteen thousand, the deposit one lakh." },
+        { "native": "ಹತ್ತು ತಿಂಗಳ ಅಡ್ವಾನ್ಸ್ ತುಂಬಾ ಜಾಸ್ತಿ ಆಯ್ತು.", "roman": "hattu tiṅgaḷa aḍvāns tumbā jāsti āytu.", "en": "Ten months' deposit is way too much." },
+        { "native": "ಅಗ್ರಿಮೆಂಟ್ ಹನ್ನೊಂದು ತಿಂಗಳಿಗೆ ಮಾತ್ರ.", "roman": "agrimeṇṭ hannondu tiṅgaḷige mātra.", "en": "The agreement is only for eleven months." },
+        { "native": "ಮೇಂಟೆನೆನ್ಸ್ ಬೇರೆ ಕೊಡಬೇಕಾ?", "roman": "mēṇṭenens bēre koḍabēkā?", "en": "Do I have to pay maintenance separately?" },
+        { "native": "ಮನೆ ನೋಡೋಕೆ ಯಾವಾಗ ಬರಲಿ?", "roman": "mane nōḍōke yāvāga barali?", "en": "When should I come to see the flat?" },
+        { "native": "ಓನರ್ ಹತ್ರ ಮಾತಾಡಿ ಹೇಳ್ತೀನಿ.", "roman": "ōnar hatra mātāḍi hēḷtīni.", "en": "I'll talk to the owner and let you know." }
+      ]
+    },
+    {
+      "title": "Saying what's broken",
+      "tip": { "title": "Broken: ಕೆಟ್ಟು ಹೋಗಿದೆ · since: -ಇಂದ", "body": "- Broke: past participle + **ಹೋಗಿದೆ**: **ಕೆಟ್ಟು** ಹೋಗಿದೆ 'has broken down', **ಒಡೆದು** ಹೋಗಿದೆ 'is cracked'.\n- Still going on: the continuous: **ಸೋರ್ತಿದೆ** 'is leaking', ಕೆಲಸ **ಮಾಡ್ತಿಲ್ಲ** 'isn't working'.\n- How long: time word + **-ಇಂದ**: ನಿನ್ನೆ**ಯಿಂದ**, ಮೂರು ದಿನ**ದಿಂದ** 'for three days'. Not -ಗೆ.", "pattern": "ಮೂರು ದಿನದಿಂದ + ಸೋರ್ತಿದೆ", "grammar": 0 },
+      "new": ["ನಲ್ಲಿ", "ಸೋರು", "ಫ್ಯಾನ್", "ಕರೆಂಟ್", "ಗೀಸರ್", "ಗಾಜು", "ಬಾತ್‌ರೂಮಲ್ಲಿ ನಲ್ಲಿ ಸೋರ್ತಿದೆ", "ಕರೆಂಟ್ ಹೋಗಿದೆ", "ಫ್ಯಾನ್ ಕೆಲಸ ಮಾಡ್ತಿಲ್ಲ"],
+      "sentences": [
+        { "native": "ಅಡುಗೆಮನೆಯ ನಲ್ಲಿ ಎರಡು ದಿನದಿಂದ ಸೋರ್ತಿದೆ.", "roman": "aḍugemaneya nalli eraḍu dinadinda sōrtide.", "en": "The kitchen tap has been leaking for two days.", "focus": "ಸೋರ್ತಿದೆ", "wrong": ["ಸೋರಿತು|sōritu", "ಸೋರಲ್ಲ|sōralla"] },
+        { "native": "ಫ್ಯಾನ್ ಕೆಟ್ಟು ಹೋಗಿದೆ.", "roman": "phyān keṭṭu hōgide.", "en": "The fan's broken down.", "focus": "ಕೆಟ್ಟು", "wrong": ["ಕೆಟ್ಟ|keṭṭa", "ಕೆಡು|keḍu"] },
+        { "native": "ಕಿಟಕಿ ಗಾಜು ಒಡೆದು ಹೋಗಿದೆ.", "roman": "kiṭaki gāju oḍedu hōgide.", "en": "The window pane is cracked.", "focus": "ಒಡೆದು", "wrong": ["ಒಡೆದ|oḍeda", "ಒಡೆ|oḍe"] },
+        { "native": "ನಿನ್ನೆ ರಾತ್ರಿಯಿಂದ ಕರೆಂಟ್ ಇಲ್ಲ.", "roman": "ninne rātriyinda kareṇṭ illa.", "en": "No power since last night.", "focus": "ರಾತ್ರಿಯಿಂದ", "wrong": ["ರಾತ್ರಿಗೆ|rātrige", "ರಾತ್ರಿಯಲ್ಲಿ|rātriyalli"] },
+        { "native": "ಒಂದು ವಾರದಿಂದ ನೀರು ಸರಿಯಾಗಿ ಬರ್ತಿಲ್ಲ.", "roman": "ondu vāradinda nīru sariyāgi bartilla.", "en": "The water hasn't been coming properly for a week.", "focus": "ವಾರದಿಂದ", "wrong": ["ವಾರಕ್ಕೆ|vārakke", "ವಾರದ|vārada"] },
+        { "native": "ಮಗು ಆಡುವಾಗ ಗಾಜಿನ ಲೋಟ ಒಡೆದು ಹೋಯ್ತು.", "roman": "magu āḍuvāga gājina lōṭa oḍedu hōytu.", "en": "The glass tumbler broke while the kid was playing.", "focus": "ಹೋಯ್ತು", "wrong": ["ಹೋಗು|hōgu", "ಹೋದ|hōda"] },
+        { "native": "ಫ್ಯಾನ್ ಕೆಲಸ ಮಾಡ್ತಿಲ್ಲ, ತುಂಬಾ ಸೆಕೆ ಆಗ್ತಿದೆ.", "roman": "phyān kelasa māḍtilla, tumbā seke āgtide.", "en": "The fan isn't working and it's really stuffy." },
+        { "native": "ಬೆಡ್‌ರೂಮಿನ ಫ್ಯಾನ್ ಸರಿಯಾಗಿ ತಿರುಗ್ತಿಲ್ಲ.", "roman": "beḍrūmina phyān sariyāgi tirugtilla.", "en": "The bedroom fan isn't turning properly.", "focus": "ತಿರುಗ್ತಿಲ್ಲ", "wrong": ["ತಿರುಗು|tirugu", "ತಿರುಗಿದ|tirugida"] },
+        { "native": "ಗೀಸರ್ ಹಾಕಿ ಅರ್ಧ ಗಂಟೆ ಆಯ್ತು, ಇನ್ನೂ ಬಿಸಿ ನೀರು ಬಂದಿಲ್ಲ.", "roman": "gīsar hāki ardha gaṇṭe āytu, innū bisi nīru bandilla.", "en": "The geyser's been on for half an hour and there's still no hot water.", "focus": "ಬಂದಿಲ್ಲ", "wrong": ["ಬರಲ್ಲ|baralla", "ಬಂತು|bantu"] },
+        { "native": "ಕರೆಂಟ್ ಯಾವಾಗ ಬರುತ್ತೆ?", "roman": "kareṇṭ yāvāga barutte?", "en": "When will the power come back?" },
+        { "native": "ಬಾತ್‌ರೂಮಲ್ಲಿ ನಲ್ಲಿ ಸೋರಿ ಎಲ್ಲಾ ಒದ್ದೆ ಆಗಿದೆ.", "roman": "bātrūmalli nalli sōri ellā odde āgide.", "en": "The tap in the bathroom leaked and everything's wet." }
+      ]
+    },
+    {
+      "title": "Asking the owner politely",
+      "tip": { "title": "Softening and insisting", "body": "- Polite: **ಸ್ವಲ್ಪ** + verb + **-ತೀರಾ?**: ಸ್ವಲ್ಪ ನೋಡ್ತೀರಾ? 'could you take a look?'\n- Softer: **-ಓಕೆ ಆಗುತ್ತಾ?**: ಇವತ್ತು ಬರೋಕೆ ಆಗುತ್ತಾ? 'would it be possible to come today?'\n- Opening gently: **-ಬೇಕಿತ್ತು** 'I wanted to': ಒಂದು ವಿಷಯ ಹೇಳಬೇಕಿತ್ತು.\n- Insisting: **-ಏ**: ಇವತ್ತೇ 'today itself', ಈಗಲೇ 'right now'. Keep ನೀವು even when annoyed.", "pattern": "ಸ್ವಲ್ಪ + verb-ತೀರಾ? / verb-ಓಕೆ ಆಗುತ್ತಾ?", "grammar": 1 },
+      "new": [
+        "ಸರಿ ಮಾಡು",
+        "ಪ್ಲಂಬರ್",
+        "ಎಲೆಕ್ಟ್ರಿಷಿಯನ್",
+        "ಒಬ್ಬ ಪ್ಲಂಬರ್‌ನ ಕಳಿಸ್ತೀರಾ?",
+        "ಬೇಜಾರು ಮಾಡ್ಕೋಬೇಡಿ, ಒಂದು ವಿಷಯ ಹೇಳಬೇಕಿತ್ತು"
+      ],
+      "sentences": [
+        { "native": "ಸ್ವಲ್ಪ ಬಂದು ನೋಡ್ತೀರಾ ಸಾರ್?", "roman": "svalpa bandu nōḍtīrā sār?", "en": "Could you come and take a look, sir?", "focus": "ನೋಡ್ತೀರಾ", "wrong": ["ನೋಡಿದ್ರಾ|nōḍidrā", "ನೋಡ್ತೀನಿ|nōḍtīni"] },
+        { "native": "ಇವತ್ತೇ ಪ್ಲಂಬರ್‌ನ ಕಳಿಸೋಕೆ ಆಗುತ್ತಾ?", "roman": "ivattē plambarna kaḷisōke āguttā?", "en": "Would it be possible to send the plumber today itself?", "focus": "ಕಳಿಸೋಕೆ", "wrong": ["ಕಳಿಸಿ|kaḷisi", "ಕಳಿಸ್ತೀನಿ|kaḷistīni"] },
+        { "native": "ಸಾರ್, ಒಂದು ವಿಷಯ ಕೇಳಬೇಕಿತ್ತು.", "roman": "sār, ondu viṣaya kēḷabēkittu.", "en": "Sir, there was something I wanted to ask.", "focus": "ಕೇಳಬೇಕಿತ್ತು", "wrong": ["ಕೇಳಬೇಡಿ|kēḷabēḍi", "ಕೇಳ್ತಾರೆ|kēḷtāre"] },
+        { "native": "ದಯವಿಟ್ಟು ಈ ವಾರದಲ್ಲೇ ಸರಿ ಮಾಡಿ.", "roman": "dayaviṭṭu ī vāradallē sari māḍi.", "en": "Please fix it this week itself.", "focus": "ವಾರದಲ್ಲೇ", "wrong": ["ವಾರದಿಂದ|vāradinda", "ವಾರಕ್ಕೆ|vārakke"] },
+        { "native": "ಫ್ಯಾನ್ ಸರಿ ಮಾಡೋಕೆ ಎಲೆಕ್ಟ್ರಿಷಿಯನ್ ಬೇಕು.", "roman": "phyān sari māḍōke elekṭrishiyan bēku.", "en": "We need an electrician to fix the fan." },
+        { "native": "ನಿಮಗೆ ಸಮಯ ಇಲ್ಲ ಅಂದ್ರೆ ನಾನೇ ಎಲೆಕ್ಟ್ರಿಷಿಯನ್‌ನ ಕರೀಲಾ?", "roman": "nimage samaya illa andre nānē elekṭrishiyanna karīlā?", "en": "If you don't have time, shall I call an electrician myself?", "focus": "ಕರೀಲಾ", "wrong": ["ಕರೆದೆ|karede", "ಕರೀರಿ|karīri"] },
+        { "native": "ಬೇಜಾರು ಮಾಡ್ಕೋಬೇಡಿ, ಈ ತಿಂಗಳು ಬಾಡಿಗೆ ಎರಡು ದಿನ ತಡ ಆಗುತ್ತೆ.", "roman": "bējāru māḍkōbēḍi, ī tiṅgaḷu bāḍige eraḍu dina taḍa āgutte.", "en": "Please don't mind, the rent will be two days late this month.", "focus": "ಮಾಡ್ಕೋಬೇಡಿ", "wrong": ["ಮಾಡ್ಕೊಳ್ಳಿ|māḍkoḷḷi", "ಮಾಡಿದ್ರಿ|māḍidri"] },
+        { "native": "ಪ್ಲಂಬರ್ ನಂಬರ್ ಇದ್ರೆ ಕೊಡ್ತೀರಾ?", "roman": "plambar nambar idre koḍtīrā?", "en": "If you've got a plumber's number, could you give it to me?", "focus": "ಕೊಡ್ತೀರಾ", "wrong": ["ಕೊಟ್ರಿ|koṭri", "ಕೊಡ್ತೀನಿ|koḍtīni"] },
+        { "native": "ಈಗಲೇ ಬರೋಕೆ ಆಗಲ್ಲ, ಸಂಜೆ ಬರ್ತೀನಿ.", "roman": "īgalē barōke āgalla, sañje bartīni.", "en": "I can't come right now, I'll come in the evening.", "focus": "ಆಗಲ್ಲ", "wrong": ["ಆಗುತ್ತಾ|āguttā", "ಆಯ್ತು|āytu"] },
+        { "native": "ಎಷ್ಟು ಹೇಳಿದ್ರೂ ಯಾರೂ ಬಂದಿಲ್ಲ.", "roman": "eṣṭu hēḷidrū yārū bandilla.", "en": "No matter how often I say it, nobody's come." }
+      ]
+    },
+    {
+      "title": "Getting things fixed",
+      "tip": { "title": "Get it done: ಮಾಡಿಸು", "body": "- Causative = stem + **-ಇಸು**: ಮಾಡು → **ಮಾಡಿಸು**, ಹಾಕು → **ಹಾಕಿಸು**, ತೊಳೆ → **ತೊಳೆಸು**, ಬರೆ → **ಬರೆಸು**.\n- Normal tenses: **ಮಾಡಿಸ್ತೀನಿ** 'I'll get it done', **ಮಾಡಿಸಿದ್ರಾ?** 'did you get it done?', **ಮಾಡಿಸಿಲ್ಲ** 'hasn't'.\n- The worker takes **ಕೈಲಿ**: ಪ್ಲಂಬರ್ ಕೈಲಿ ಮಾಡಿಸಿ.\n- Trap: ಮಾಡ್ತೀನಿ = I'll do it myself.", "pattern": "worker + ಕೈಲಿ + ಸರಿ ಮಾಡಿಸು", "grammar": 2 },
+      "new": ["ಹಾಕಿಸು", "ಲಿಫ್ಟ್", "ಕೆಲಸದವರು", "ಯಾವಾಗ ಸರಿ ಮಾಡಿಸ್ತೀರಾ?"],
+      "sentences": [
+        { "native": "ನಾಳೆ ಪ್ಲಂಬರ್ ಕೈಲಿ ನಲ್ಲಿ ಸರಿ ಮಾಡಿಸ್ತೀನಿ.", "roman": "nāḷe plambar kaili nalli sari māḍistīni.", "en": "I'll get the plumber to fix the tap tomorrow.", "focus": "ಮಾಡಿಸ್ತೀನಿ", "wrong": ["ಮಾಡ್ತೀನಿ|māḍtīni", "ಮಾಡಿದೆ|māḍide"] },
+        { "native": "ಫ್ಯಾನ್ ರಿಪೇರಿ ಮಾಡಿಸಿದ್ರಾ?", "roman": "phyān ripēri māḍisidrā?", "en": "Did you get the fan repaired?", "focus": "ಮಾಡಿಸಿದ್ರಾ", "wrong": ["ಮಾಡಿಸ್ತೀನಿ|māḍistīni", "ಮಾಡಿಸು|māḍisu"] },
+        { "native": "ಬೀಗ ಕೆಟ್ಟು ಹೋಗಿದೆ, ಹೊಸ ಬೀಗ ಹಾಕಿಸಿ.", "roman": "bīga keṭṭu hōgide, hosa bīga hākisi.", "en": "The lock is broken, please get a new one put in.", "focus": "ಹಾಕಿಸಿ", "wrong": ["ಹಾಕಿದೆ|hākide", "ಹಾಕ್ತೀನಿ|hāktīni"] },
+        { "native": "ಓನರ್ ಇನ್ನೂ ಫ್ಯಾನ್ ಸರಿ ಮಾಡಿಸಿಲ್ಲ.", "roman": "ōnar innū phyān sari māḍisilla.", "en": "The owner still hasn't got the fan fixed.", "focus": "ಮಾಡಿಸಿಲ್ಲ", "wrong": ["ಮಾಡಿಸಿದ್ರು|māḍisidru", "ಮಾಡಿಸ್ತಾರೆ|māḍistāre"] },
+        { "native": "ಅಗ್ರಿಮೆಂಟ್ ನಿಮ್ಮ ವಕೀಲರ ಕೈಲಿ ಬರೆಸಿ.", "roman": "agrimeṇṭ nimma vakīlara kaili baresi.", "en": "Get your lawyer to draw up the agreement.", "focus": "ಬರೆಸಿ", "wrong": ["ಬರೆಯಿರಿ|bareyiri", "ಬರೆದೆ|barede"] },
+        { "native": "ಪಾತ್ರೆ ಕೆಲಸದವರ ಕೈಲಿ ತೊಳೆಸ್ತೀವಿ.", "roman": "pātre kelasadavara kaili toḷestīvi.", "en": "We get the help to wash the dishes.", "focus": "ತೊಳೆಸ್ತೀವಿ", "wrong": ["ತೊಳೀತೀವಿ|toḷītīvi", "ತೊಳೆದ್ವಿ|toḷedvi"] },
+        { "native": "ನಾಳೆ ಎಲೆಕ್ಟ್ರಿಷಿಯನ್‌ನ ಕರೆಸಿ ಹೊಸ ಫ್ಯಾನ್ ಹಾಕಿಸ್ತೀನಿ.", "roman": "nāḷe elekṭrishiyanna karesi hosa phyān hākistīni.", "en": "Tomorrow I'll call in an electrician and get a new fan put in." },
+        { "native": "ಯಾವಾಗ ಸರಿ ಮಾಡಿಸ್ತೀರಾ ಅಂತ ಓನರ್‌ಗೆ ಕೇಳು.", "roman": "yāvāga sari māḍistīrā anta ōnarge kēḷu.", "en": "Ask the owner when he's going to get it fixed." },
+        { "native": "ಲಿಫ್ಟ್ ಕೆಟ್ಟು ಹೋಗಿದೆ, ಯಾರೂ ರಿಪೇರಿ ಮಾಡಿಸಿಲ್ಲ.", "roman": "lifṭ keṭṭu hōgide, yārū ripēri māḍisilla.", "en": "The lift is broken and nobody's had it repaired.", "focus": "ಮಾಡಿಸಿಲ್ಲ", "wrong": ["ಮಾಡಿಸ್ತಾರೆ|māḍistāre", "ಮಾಡಿಸು|māḍisu"] },
+        { "native": "ಕೆಲಸದವರು ಇವತ್ತು ಬಂದಿಲ್ಲ.", "roman": "kelasadavaru ivattu bandilla.", "en": "The help hasn't come today." },
+        { "native": "ಬೀಗದ ಕೀಲಿ ಎಲ್ಲೋ ಕಳೆದು ಹೋಯ್ತು.", "roman": "bīgada kīli ellō kaḷedu hōytu.", "en": "The key to the lock got lost somewhere." }
+      ]
+    },
+    {
+      "title": "Rent, bills and water",
+      "new": ["ಕಟ್ಟು", "ಬಿಲ್", "ಬಾಕಿ", "ಟ್ಯಾಂಕರ್", "ಈ ತಿಂಗಳ ಬಾಡಿಗೆ ಕಟ್ಟಿದ್ದೀನಿ"],
+      "sentences": [
+        { "native": "ಕರೆಂಟ್ ಬಿಲ್ ಯಾರು ಕಟ್ಟಬೇಕು?", "roman": "kareṇṭ bil yāru kaṭṭabēku?", "en": "Who has to pay the electricity bill?" },
+        { "native": "ಬಾಡಿಗೆ ತಿಂಗಳ ಮೊದಲ ವಾರದಲ್ಲೇ ಕಟ್ಟಿ.", "roman": "bāḍige tiṅgaḷa modala vāradallē kaṭṭi.", "en": "Pay the rent in the first week of the month." },
+        { "native": "ಹೋದ ತಿಂಗಳ ಬಾಡಿಗೆ ಇನ್ನೂ ಬಾಕಿ ಇದೆ.", "roman": "hōda tiṅgaḷa bāḍige innū bāki ide.", "en": "Last month's rent is still due." },
+        { "native": "ನೀರಿನ ಬಿಲ್ ಎಷ್ಟು ಬಂತು?", "roman": "nīrina bil eṣṭu bantu?", "en": "How much did the water bill come to?" },
+        { "native": "ಬೇಸಿಗೆಯಲ್ಲಿ ವಾರಕ್ಕೆ ಎರಡು ಟ್ಯಾಂಕರ್ ನೀರು ತರಿಸ್ತೀವಿ.", "roman": "bēsigeyalli vārakke eraḍu ṭyāṅkar nīru taristīvi.", "en": "In summer we get two tankers of water brought in every week." },
+        { "native": "ಟ್ಯಾಂಕರ್ ನೀರಿಗೆ ಯಾರು ದುಡ್ಡು ಕೊಡ್ತಾರೆ?", "roman": "ṭyāṅkar nīrige yāru duḍḍu koḍtāre?", "en": "Who pays for the tanker water?" },
+        { "native": "ಮೇಂಟೆನೆನ್ಸ್ ಮೂರು ತಿಂಗಳಿಂದ ಬಾಕಿ ಇದೆ ಅಂತ ಓನರ್ ಹೇಳಿದ್ರು.", "roman": "mēṇṭenens mūru tiṅgaḷinda bāki ide anta ōnar hēḷidru.", "en": "The owner said the maintenance has been unpaid for three months." },
+        { "native": "ಬಿಲ್ ಕಟ್ಟದಿದ್ರೆ ಕರೆಂಟ್ ನಿಲ್ಲಿಸ್ತಾರೆ.", "roman": "bil kaṭṭadidre kareṇṭ nillistāre.", "en": "If you don't pay the bill, they cut off the power." },
+        { "native": "ಈ ತಿಂಗಳ ಬಾಡಿಗೆ ಕಟ್ಟಿದ್ದೀನಿ, ಬಾಕಿ ಏನೂ ಇಲ್ಲ.", "roman": "ī tiṅgaḷa bāḍige kaṭṭiddīni, bāki ēnū illa.", "en": "I've paid this month's rent, nothing's outstanding." }
+      ]
+    },
+    {
+      "title": "Neighbours and noise",
+      "new": ["ನೆರೆಹೊರೆ", "ಸದ್ದು", "ಜೋರಾಗಿ", "ಸಹಿಸು", "ವಾಚ್‌ಮನ್", "ಸೆಕ್ರೆಟರಿ", "ಸೊಳ್ಳೆ", "ಸ್ವಲ್ಪ ಸೌಂಡ್ ಕಡಿಮೆ ಮಾಡ್ತೀರಾ?", "ಎಷ್ಟು ಸಲ ಹೇಳೋದು?"],
+      "sentences": [
+        { "native": "ಪಕ್ಕದ ಮನೆಯವರು ತುಂಬಾ ಗಲಾಟೆ ಮಾಡ್ತಾರೆ.", "roman": "pakkada maneyavaru tumbā galāṭe māḍtāre.", "en": "The people next door make a lot of noise." },
+        { "native": "ಮೇಲಿನ ಮನೆಯವರು ರಾತ್ರಿ ಎಲ್ಲಾ ಜೋರಾಗಿ ಟಿವಿ ಹಾಕ್ತಾರೆ.", "roman": "mēlina maneyavaru rātri ellā jōrāgi ṭivi hāktāre.", "en": "The people upstairs have the TV on loud all night." },
+        { "native": "ಸ್ವಲ್ಪ ಗಲಾಟೆ ಕಡಿಮೆ ಮಾಡ್ತೀರಾ? ಮಗು ಮಲಗಿದೆ.", "roman": "svalpa galāṭe kaḍime māḍtīrā? magu malagide.", "en": "Could you keep the noise down a bit? The baby's asleep.", "focus": "ಮಾಡ್ತೀರಾ", "wrong": ["ಮಾಡ್ತೀನಿ|māḍtīni", "ಮಾಡಿದ್ರಿ|māḍidri"] },
+        { "native": "ಈ ಗಲಾಟೆ ಇನ್ನು ಸಹಿಸೋಕೆ ಆಗಲ್ಲ.", "roman": "ī galāṭe innu sahisōke āgalla.", "en": "I can't put up with this noise any more." },
+        { "native": "ನಮ್ಮ ನೆರೆಹೊರೆ ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ, ಎಲ್ಲರೂ ಸಹಾಯ ಮಾಡ್ತಾರೆ.", "roman": "namma nerehore tumbā chennāgide, ellarū sahāya māḍtāre.", "en": "Our neighbourhood is really nice, everyone helps out." },
+        { "native": "ರಾತ್ರಿ ಎಲ್ಲಾ ಮೇಲಿನ ಮನೆಯಿಂದ ಏನೋ ಸದ್ದು ಬರ್ತಿತ್ತು.", "roman": "rātri ellā mēlina maneyinda ēnō saddu bartittu.", "en": "All night there was some noise coming from the flat upstairs." },
+        { "native": "ದಯವಿಟ್ಟು ಕಸ ರಸ್ತೆಯಲ್ಲಿ ಹಾಕಬೇಡಿ.", "roman": "dayaviṭṭu kasa rasteyalli hākabēḍi.", "en": "Please don't throw rubbish on the street.", "focus": "ಹಾಕಬೇಡಿ", "wrong": ["ಹಾಕಿ|hāki", "ಹಾಕ್ತೀರಾ|hāktīrā"] },
+        { "native": "ಸಂಜೆ ಆದ್ರೆ ಸೊಳ್ಳೆ ತುಂಬಾ ಜಾಸ್ತಿ, ಕಿಟಕಿ ಹಾಕಿ.", "roman": "sañje ādre soḷḷe tumbā jāsti, kiṭaki hāki.", "en": "Once evening comes there are loads of mosquitoes, shut the windows." },
+        { "native": "ವಾಚ್‌ಮನ್ ರಾತ್ರಿ ಹತ್ತು ಗಂಟೆಗೆ ಗೇಟ್ ಹಾಕ್ತಾನೆ.", "roman": "vāchman rātri hattu gaṇṭege gēṭ hāktāne.", "en": "The watchman shuts the gate at ten at night." },
+        { "native": "ಎಷ್ಟು ಸಲ ಹೇಳೋದು, ಇಲ್ಲಿ ಕಾರು ನಿಲ್ಲಿಸಬೇಡಿ ಅಂತ?", "roman": "eṣṭu sala hēḷōdu, illi kāru nillisabēḍi anta?", "en": "How many times do I have to tell you not to park here?" },
+        { "native": "ಇನ್ನೊಂದು ಸಲ ಹೀಗಾದ್ರೆ ಸೆಕ್ರೆಟರಿಗೆ ದೂರು ಕೊಡ್ತೀನಿ.", "roman": "innondu sala hīgādre sekreṭarige dūru koḍtīni.", "en": "If this happens again, I'll complain to the secretary." },
+        { "native": "ವಾಚ್‌ಮನ್‌ಗೆ ಹೇಳಿದ್ರೆ ಅವನು ಅವರಿಗೆ ಹೇಳ್ತಾನೆ.", "roman": "vāchmange hēḷidre avanu avarige hēḷtāne.", "en": "If you tell the watchman, he'll tell them." }
+      ]
+    },
+    {
+      "title": "Moving out, moving in",
+      "new": ["ಶಿಫ್ಟ್", "ಗೃಹಪ್ರವೇಶ", "ನಾವು ಮುಂದಿನ ತಿಂಗಳು ಮನೆ ಖಾಲಿ ಮಾಡ್ತೀವಿ", "ಅಡ್ವಾನ್ಸ್ ವಾಪಸ್ ಯಾವಾಗ ಕೊಡ್ತೀರಾ?"],
+      "sentences": [
+        { "native": "ನಾವು ಇಂದಿರಾನಗರಕ್ಕೆ ಶಿಫ್ಟ್ ಆಗ್ತಿದ್ದೀವಿ.", "roman": "nāvu indirānagarakke shifṭ āgtiddīvi.", "en": "We're moving to Indiranagar." },
+        { "native": "ಸಾಮಾನು ಶಿಫ್ಟ್ ಮಾಡೋಕೆ ಎರಡು ದಿನ ಬೇಕು.", "roman": "sāmānu shifṭ māḍōke eraḍu dina bēku.", "en": "It'll take two days to move all our stuff." },
+        { "native": "ಮನೆ ಖಾಲಿ ಮಾಡೋಕೆ ಒಂದು ತಿಂಗಳು ಮುಂಚೆ ಓನರ್‌ಗೆ ಹೇಳಬೇಕು.", "roman": "mane khāli māḍōke ondu tiṅgaḷu muñche ōnarge hēḷabēku.", "en": "You have to tell the owner a month before you move out." },
+        { "native": "ಓನರ್ ಅಡ್ವಾನ್ಸ್‌ನಲ್ಲಿ ಹತ್ತು ಸಾವಿರ ಕಡಿಮೆ ಕೊಟ್ರು.", "roman": "ōnar aḍvānsnalli hattu sāvira kaḍime koṭru.", "en": "The owner gave back ten thousand less from the deposit." },
+        { "native": "ಅಡ್ವಾನ್ಸ್ ವಾಪಸ್ ಕೊಡೋಕೆ ಇನ್ನೂ ಎಷ್ಟು ದಿನ ಬೇಕು?", "roman": "aḍvāns vāpas koḍōke innū eṣṭu dina bēku?", "en": "How many more days do you need to return the deposit?" },
+        { "native": "ಮನೆ ಖಾಲಿ ಮಾಡಿದ ಮೇಲೆ ಕೀಲಿ ವಾಚ್‌ಮನ್ ಹತ್ರ ಕೊಡ್ತೀನಿ.", "roman": "mane khāli māḍida mēle kīli vāchman hatra koḍtīni.", "en": "After we move out I'll leave the keys with the watchman." },
+        { "native": "ಹೊಸ ಮನೆಯ ಗೃಹಪ್ರವೇಶ ಮುಂದಿನ ಭಾನುವಾರ, ಖಂಡಿತ ಬನ್ನಿ.", "roman": "hosa maneya gruhapravēsha mundina bhānuvāra, khaṇḍita banni.", "en": "The housewarming for the new house is next Sunday, you must come." },
+        { "native": "ಗೃಹಪ್ರವೇಶಕ್ಕೆ ಏನು ಉಡುಗೊರೆ ತಗೊಂಡು ಹೋಗೋಣ?", "roman": "gruhapravēshakke ēnu uḍugore tagoṇḍu hōgōṇa?", "en": "What gift shall we take to the housewarming?" },
+        { "native": "ಹೊಸ ಮನೆ ಹೇಗಿದೆ? ಇಷ್ಟ ಆಯ್ತಾ?", "roman": "hosa mane hēgide? iṣṭa āytā?", "en": "How is the new place? Do you like it?" }
+      ]
+    }
+  ]
+}

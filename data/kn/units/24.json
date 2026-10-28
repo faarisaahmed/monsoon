@@ -1,0 +1,193 @@
+{
+  "id": 24,
+  "title": "Eating out with friends",
+  "goal": "Suggest somewhere to eat, order for a group, say it's too spicy or not salty enough, say what you feel like eating, and sort out who pays.",
+  "intro": "Karnataka eats out a lot, and cheaply. Bengaluru gave India the **darshini**: a stand-up, self-service place where you pay at the counter, collect your idli-vada and filter coffee, and eat at a tall table in ten minutes. There are also chaat stalls, biryani joints, cafés, Mysuru's soft dosas and Mangaluru's fish curries and neer dosa.\n\nThis unit gives you what you'll say with friends and to the man at the counter: **ಏನಾದ್ರೂ ತಿನ್ನೋಣ್ವಾ?** 'shall we eat something?', **ಎರಡು ಪ್ಲೇಟ್ ಇಡ್ಲಿ** 'two plates of idli', **ಖಾರ ಕಮ್ಮಿ ಹಾಕಿ** 'go easy on the spice', **ಸಾಕು, ಹೊಟ್ಟೆ ತುಂಬಿತು** 'enough, I'm full', and the all-important **ಇವತ್ತು ನನ್ನ ಟ್ರೀಟ್** 'today's on me'.\n\nThe grammar: **too / enough / a little** (ತುಂಬಾ, ಜಾಸ್ತಿ, ಕಮ್ಮಿ, ಸಾಕು), **'I feel like…'** and **'I'm hungry'** with the dative (ನನಗೆ ಹಸಿವಾಗ್ತಿದೆ), and ordering for a group with doubled numbers (ಒಂದೊಂದು 'one each').",
+  "vocab": [
+    { "native": "ಹಸಿವು", "roman": "hasivu", "en": "hunger", "pos": "noun", "note": "ನನಗೆ ಹಸಿವಾಗ್ತಿದೆ 'I'm getting hungry'; ತುಂಬಾ ಹಸಿವಾಗಿದೆ 'I'm starving'." },
+    { "native": "ಬಾಯಾರಿಕೆ", "roman": "bāyārike", "en": "thirst", "pos": "noun", "note": "ನನಗೆ ಬಾಯಾರಿಕೆ ಆಗ್ತಿದೆ 'I'm thirsty' (lit. thirst is happening to me)." },
+    { "native": "ದರ್ಶಿನಿ", "roman": "darshini", "en": "darshini (quick self-service eatery)", "pos": "noun", "note": "Pay at the counter, collect, eat standing. Breakfast and coffee all day." },
+    { "native": "ಕೆಫೆ", "roman": "kephe", "en": "café", "pos": "noun" },
+    { "native": "ಬಿರಿಯಾನಿ", "roman": "biriyāni", "en": "biryani", "pos": "noun", "note": "Bengaluru is famous for ದೊನ್ನೆ ಬಿರಿಯಾನಿ, served in a leaf cup." },
+    { "native": "ಐಸ್ ಕ್ರೀಮ್", "roman": "ais krīm", "en": "ice cream", "pos": "noun" },
+    { "native": "ಮೆನು", "roman": "menu", "en": "menu", "pos": "noun" },
+    { "native": "ಆರ್ಡರ್", "roman": "ārḍar", "en": "order", "pos": "noun", "note": "ಆರ್ಡರ್ ಮಾಡು 'to order'. In speech also just ಹೇಳು: ಇನ್ನೊಂದು ಹೇಳೋಣ 'let's order another'." },
+    { "native": "ಪ್ಲೇಟ್", "roman": "plēṭ", "en": "plate, portion", "pos": "noun", "note": "For ordering: ಎರಡು ಪ್ಲೇಟ್ ಇಡ್ಲಿ 'two plates of idli'. The plate you eat from is ತಟ್ಟೆ." },
+    { "native": "ಬೈಟು", "roman": "baiṭu", "en": "'by-two': one drink split between two", "pos": "noun", "note": "From English 'by two'. ಒಂದು ಬೈಟು ಕಾಫಿ = one coffee poured into two cups." },
+    { "native": "ಮಸಾಲೆ ದೋಸೆ", "roman": "masāle dōse", "en": "masala dosa", "pos": "noun", "note": "Mysuru-style has red chutney spread inside; Bengaluru's crisp ಬೆಣ್ಣೆ ದೋಸೆ is made with butter." },
+    { "native": "ವಡೆ", "roman": "vaḍe", "en": "vada (savoury lentil doughnut)", "pos": "noun", "note": "ಇಡ್ಲಿ ವಡೆ is the classic breakfast pair." },
+    { "native": "ಚಟ್ನಿ", "roman": "chaṭni", "en": "chutney", "pos": "noun" },
+    { "native": "ತುಪ್ಪ", "roman": "tuppa", "en": "ghee", "pos": "noun", "note": "ತುಪ್ಪದ ದೋಸೆ 'ghee dosa'." },
+    { "native": "ಸಪ್ಪೆ", "roman": "sappe", "en": "bland, tasteless", "pos": "adj" },
+    { "native": "ಹುಳಿ", "roman": "huḷi", "en": "sour", "pos": "adj", "note": "Also a noun: tamarind (sourness) and a sour lentil curry." },
+    { "native": "ಕಮ್ಮಿ", "roman": "kammi", "en": "less, too little, not enough", "pos": "adj", "note": "Spoken form of ಕಡಿಮೆ. ಉಪ್ಪು ಕಮ್ಮಿ ಇದೆ 'it needs more salt'." },
+    { "native": "ತೀರಾ", "roman": "tīrā", "en": "far too, extremely", "pos": "adv", "note": "Stronger than ತುಂಬಾ, usually for something bad: ತೀರಾ ದುಬಾರಿ 'far too expensive'." },
+    { "native": "ಎಣ್ಣೆ", "roman": "eṇṇe", "en": "oil", "pos": "noun" },
+    { "native": "ಟೇಬಲ್", "roman": "ṭēbal", "en": "table (in a restaurant)", "pos": "noun", "note": "At home the word is ಮೇಜು." },
+    { "native": "ಚಾಟ್", "roman": "chāṭ", "en": "chaat, street snacks", "pos": "noun" },
+    { "native": "ಪಾನಿಪುರಿ", "roman": "pānipuri", "en": "pani puri", "pos": "noun", "note": "Also called ಗೋಲ್ಗಪ್ಪ by North Indians; in Karnataka it's ಪಾನಿಪುರಿ." },
+    { "native": "ಮೀನು", "roman": "mīnu", "en": "fish", "pos": "noun", "note": "ಮೀನು ಊಟ 'fish meal (thali)'. Coastal favourites: ಅಂಜಲ್ 'kingfish', ಬಂಗುಡೆ 'mackerel'." },
+    { "native": "ಒಂದೊಂದು", "roman": "ondondu", "en": "one each", "pos": "num", "note": "Doubled numbers mean 'each': ಎರಡೆರಡು 'two each'. For people: ಒಬ್ಬೊಬ್ಬರು 'each person'." },
+    { "native": "ಟ್ರೀಟ್", "roman": "ṭrīṭ", "en": "treat (paying for others)", "pos": "noun", "note": "ಇವತ್ತು ನನ್ನ ಟ್ರೀಟ್ 'today's my treat'; ಟ್ರೀಟ್ ಕೊಡು / ಕೊಡಿಸು 'to treat (people)'." },
+    { "native": "ಕೊಡಿಸು", "roman": "koḍisu", "en": "to get (something) for someone, buy for, treat", "pos": "verb", "note": "Causative of ಕೊಡು: ನಾನು ಕೊಡಿಸ್ತೀನಿ 'I'll pay (for you)', ಅಪ್ಪ ಐಸ್ ಕ್ರೀಮ್ ಕೊಡಿಸಿದ್ರು 'Dad bought us ice cream'." },
+    { "native": "ಹಂಚಿಕೊಳ್ಳು", "roman": "hañchikoḷḷu", "en": "to share; to split", "pos": "verb", "note": "ಬಿಲ್ ಹಂಚಿಕೊಳ್ಳೋಣ 'let's split the bill'." },
+    { "native": "ತುಂಬು", "roman": "tumbu", "en": "to fill; to become full", "pos": "verb", "note": "ಹೊಟ್ಟೆ ತುಂಬಿತು 'I'm full' (lit. the stomach filled)." }
+  ],
+  "phrases": [
+    { "native": "ಏನಾದ್ರೂ ತಿನ್ನೋಣ್ವಾ? ತುಂಬಾ ಹಸಿವಾಗ್ತಿದೆ", "roman": "ēnādrū tinnōṇvā? tumbā hasivāgtide", "en": "Shall we eat something? I'm really hungry." },
+    { "native": "ಬಾಯಲ್ಲಿ ನೀರು ಬರ್ತಿದೆ!", "roman": "bāyalli nīru bartide!", "en": "My mouth is watering!" },
+    { "native": "ಇಲ್ಲಿ ಮಸಾಲೆ ದೋಸೆ ಸೂಪರ್ ಆಗಿರುತ್ತೆ", "roman": "illi masāle dōse sūpar āgirutte", "en": "The masala dosa here is always great." },
+    { "native": "ಒಂದು ಬೈಟು ಕಾಫಿ ಕೊಡಿ", "roman": "ondu baiṭu kāphi koḍi", "en": "One coffee split in two, please." },
+    { "native": "ಮೆನು ಕೊಡಿ", "roman": "menu koḍi", "en": "Can we have the menu, please?" },
+    { "native": "ನಾಲ್ಕು ಜನಕ್ಕೆ ಟೇಬಲ್ ಇದೆಯಾ?", "roman": "nālku janakke ṭēbal ideyā?", "en": "Is there a table for four?" },
+    { "native": "ನೀನು ಏನು ತಗೊಳ್ತೀಯ?", "roman": "nīnu ēnu tagoḷtīya?", "en": "What are you having? (informal)", "note": "Polite: ನೀವು ಏನು ತಗೊಳ್ತೀರ?" },
+    { "native": "ಖಾರ ಕಮ್ಮಿ ಹಾಕಿ", "roman": "khāra kammi hāki", "en": "Go easy on the spice, please. (lit. put in less spice)" },
+    { "native": "ತುಂಬಾ ಖಾರ ಆಯ್ತು!", "roman": "tumbā khāra āytu!", "en": "It's way too spicy!" },
+    { "native": "ಉಪ್ಪು ಸ್ವಲ್ಪ ಕಮ್ಮಿ ಇದೆ", "roman": "uppu svalpa kammi ide", "en": "It needs a bit more salt. (lit. the salt is a bit less)" },
+    { "native": "ಇವತ್ತು ನನ್ನ ಟ್ರೀಟ್", "roman": "ivattu nanna ṭrīṭ", "en": "Today's my treat." },
+    { "native": "ಬಿಲ್ ಹಂಚಿಕೊಳ್ಳೋಣ", "roman": "bil hañchikoḷḷōṇa", "en": "Let's split the bill." },
+    { "native": "ಎರಡು ಇಡ್ಲಿ ತಗೊಂಡು ಹೋಗೋಕೆ", "roman": "eraḍu iḍli tagoṇḍu hōgōke", "en": "Two idlis to take away.", "note": "Lit. 'for taking away'. Many places also say ಪಾರ್ಸಲ್." },
+    { "native": "ಊಟ ಹೇಗಿತ್ತು?", "roman": "ūṭa hēgittu?", "en": "How was the food?" }
+  ],
+  "grammar": [
+    {
+      "title": "Too, enough, a little: ತುಂಬಾ, ಜಾಸ್ತಿ, ಕಮ್ಮಿ, ಸಾಕು",
+      "body": "**Very or too.** ತುಂಬಾ means both 'very' and 'too': ತುಂಬಾ ಖಾರ is 'very spicy' or 'too spicy', and context decides. To make 'too much' unmistakable, say **ಜಾಸ್ತಿ** with **ಆಗು** ('become'): ಖಾರ ಜಾಸ್ತಿ ಆಯ್ತು 'it's too spicy' (lit. the spice became too much), ಉಪ್ಪು ಜಾಸ್ತಿ ಆಗಿದೆ 'there's too much salt'. **ತೀರಾ** 'far too, extremely' is stronger and usually critical: ತೀರಾ ಸಪ್ಪೆ 'totally bland', ತೀರಾ ದುಬಾರಿ 'far too expensive'.\n\n**Too little.** **ಕಮ್ಮಿ** (careful ಕಡಿಮೆ): ಉಪ್ಪು ಕಮ್ಮಿ ಇದೆ / ಆಯ್ತು 'not enough salt', ಚಟ್ನಿ ಕಮ್ಮಿ ಇದೆ 'there's not much chutney'.\n\n**Enough.** **ಸಾಕು** 'that's enough, I'm fine', the polite way to stop someone serving you: ಸಾಕು, ಸಾಕು! **ಸಾಕಾಗಲ್ಲ** 'won't be enough': ಒಂದು ಪ್ಲೇಟ್ ಸಾಕಾಗಲ್ಲ; **ಸಾಕಾಗ್ತಿಲ್ಲ** 'it isn't enough'. ನನಗೆ ಸಾಕಾಯ್ತು 'I've had enough' (also 'I'm fed up').\n\n**A little (more / less).** **ಸ್ವಲ್ಪ** 'a little', **ಇನ್ನೂ ಸ್ವಲ್ಪ** 'a bit more', **ಸ್ವಲ್ಪ ಕಮ್ಮಿ** 'a bit less': ಖಾರ ಸ್ವಲ್ಪ ಕಮ್ಮಿ ಮಾಡಿ 'make it a little less spicy'.\n\n**Not at all.** **ಸ್ವಲ್ಪನೂ** (careful ಸ್ವಲ್ಪವೂ) + negative: ಸ್ವಲ್ಪನೂ ಖಾರ ಇಲ್ಲ 'not spicy at all'.\n\n**Tastes.** Add to ಖಾರ, ಸಿಹಿ, ಉಪ್ಪು (unit 5): ಹುಳಿ 'sour', ಸಪ್ಪೆ 'bland', ಕಹಿ 'bitter'. Say ಖಾರ ಇದೆ 'it's spicy', ಸಿಹಿ ಇದೆ 'it's sweet'.\n\n**The trap.** Before a noun, ಜಾಸ್ತಿ just means 'more': ಜಾಸ್ತಿ ಚಟ್ನಿ ಕೊಡಿ 'give (us) more chutney'. It's only 'too much' as a comment on something: ಚಟ್ನಿ ಜಾಸ್ತಿ ಆಯ್ತು.",
+      "examples": [
+        { "native": "ಈ ಸಾಂಬಾರ್ ತುಂಬಾ ಖಾರ ಇದೆ", "roman": "ī sāmbār tumbā khāra ide", "en": "This sambar is very spicy." },
+        { "native": "ಉಪ್ಪು ಸ್ವಲ್ಪ ಜಾಸ್ತಿ ಆಗಿದೆ", "roman": "uppu svalpa jāsti āgide", "en": "There's a bit too much salt." },
+        { "native": "ಒಂದು ಪ್ಲೇಟ್ ಸಾಕಾಗಲ್ಲ, ಇನ್ನೊಂದು ಹೇಳೋಣ", "roman": "ondu plēṭ sākāgalla, innondu hēḷōṇa", "en": "One plate won't be enough, let's order another." },
+        { "native": "ಸಾಕು ಆಂಟಿ, ಹೊಟ್ಟೆ ತುಂಬಿತು", "roman": "sāku āṇṭi, hoṭṭe tumbitu", "en": "That's enough, aunty, I'm full." },
+        { "native": "ಖಾರ ಸ್ವಲ್ಪ ಕಮ್ಮಿ ಮಾಡಿ", "roman": "khāra svalpa kammi māḍi", "en": "Make it a little less spicy, please." }
+      ]
+    },
+    {
+      "title": "'I feel like…' and 'I'm hungry': feelings that happen to you",
+      "body": "**I feel like (eating) X.** Kannada uses the dative-subject pattern you know from ಬೇಕು (unit 5) and ಅನ್ನಿಸು (unit 13):\nನನಗೆ ಬಿರಿಯಾನಿ ತಿನ್ನಬೇಕು ಅನ್ನಿಸ್ತಿದೆ 'I feel like eating biryani' (lit. to me it seems 'I must eat biryani')\nನನಗೆ ಐಸ್ ಕ್ರೀಮ್ ತಿನ್ನೋಕೆ ಮನಸ್ಸಾಗ್ತಿದೆ 'I'm in the mood for ice cream' (lit. to me a mind is forming for eating it)\nShorter and very common: ನನಗೆ ಏನಾದ್ರೂ ಸಿಹಿ ಬೇಕು 'I want something sweet'.\n\n**Don't feel like it**: -ಓಕೆ + **ಮನಸ್ಸಿಲ್ಲ** (unit 17): ಇವತ್ತು ಹೊರಗೆ ತಿನ್ನೋಕೆ ಮನಸ್ಸಿಲ್ಲ.\n\n**Hungry, thirsty, full.** These *happen* to you, so they are dative + ಆಗು:\nನನಗೆ ಹಸಿವಾಗ್ತಿದೆ 'I'm getting hungry'; ತುಂಬಾ ಹಸಿವಾಗಿದೆ 'I'm starving'\nನನಗೆ ಬಾಯಾರಿಕೆ ಆಗ್ತಿದೆ 'I'm thirsty'\nಹೊಟ್ಟೆ ತುಂಬಿತು 'I'm full' (lit. the stomach filled)\nThe trap: never ನಾನು ಹಸಿವು ✗ for 'I am hungry'. The person is ನನಗೆ, ನಿನಗೆ, ಅವಳಿಗೆ...\n\n**Asking a friend**: ನಿನಗೆ ಏನು ತಿನ್ನಬೇಕು ಅನ್ನಿಸ್ತಿದೆ? 'what do you feel like eating?', ಹಸಿವಾಗ್ತಿದೆಯಾ? 'are you hungry?'. **Treating someone**: ಕೊಡಿಸು 'get it for (someone)' is the causative of ಕೊಡು: ನಾನು ಕೊಡಿಸ್ತೀನಿ 'I'll get this'.",
+      "examples": [
+        { "native": "ನನಗೆ ಮಸಾಲೆ ದೋಸೆ ತಿನ್ನಬೇಕು ಅನ್ನಿಸ್ತಿದೆ", "roman": "nanage masāle dōse tinnabēku annistide", "en": "I feel like having a masala dosa." },
+        { "native": "ಈ ಮಳೆಗೆ ಬಿಸಿ ಬಿಸಿ ಬಜ್ಜಿ ತಿನ್ನೋಕೆ ಮನಸ್ಸಾಗ್ತಿದೆ", "roman": "ī maḷege bisi bisi bajji tinnōke manassāgtide", "en": "In this rain I feel like piping-hot bajjis." },
+        { "native": "ತುಂಬಾ ಹಸಿವಾಗಿದೆ, ಬೇಗ ಆರ್ಡರ್ ಮಾಡೋಣ", "roman": "tumbā hasivāgide, bēga ārḍar māḍōṇa", "en": "I'm starving, let's order quickly." },
+        { "native": "ನಿನಗೆ ಬಾಯಾರಿಕೆ ಆಗ್ತಿದೆಯಾ?", "roman": "ninage bāyārike āgtideyā?", "en": "Are you thirsty?" },
+        { "native": "ಇವತ್ತು ಏನೂ ತಿನ್ನೋಕೆ ಮನಸ್ಸಿಲ್ಲ", "roman": "ivattu ēnū tinnōke manassilla", "en": "I don't feel like eating anything today." }
+      ]
+    },
+    {
+      "title": "Ordering for a group: ಪ್ಲೇಟ್, ಒಂದೊಂದು, ಎಲ್ಲರಿಗೂ",
+      "body": "**Quantities.** Number + **ಪ್ಲೇಟ್** + dish: ಎರಡು ಪ್ಲೇಟ್ ಇಡ್ಲಿ 'two plates of idli', ಮೂರು ಪ್ಲೇಟ್ ವಡೆ. Dosas and drinks are counted directly: ಎರಡು ಮಸಾಲೆ ದೋಸೆ, ನಾಲ್ಕು ಕಾಫಿ. A **ಬೈಟು** is one coffee or tea poured into two cups: ಒಂದು ಬೈಟು ಕಾಫಿ.\n\n**Each.** Double the number: **ಒಂದೊಂದು** 'one each', **ಎರಡೆರಡು** 'two each': ಎಲ್ಲರಿಗೂ ಒಂದೊಂದು ಕಾಫಿ 'a coffee each for everyone'. For people use **ಒಬ್ಬೊಬ್ಬರಿಗೆ** 'to each person': ಒಬ್ಬೊಬ್ಬರಿಗೆ ಇನ್ನೂರು 'two hundred each'.\n\n**For whom.** The dative: ಎಲ್ಲರಿಗೂ 'for everyone', ನನಗೆ ಒಂದು ಟೀ 'a tea for me', ಅವಳಿಗೆ ಸಕ್ಕರೆ ಇಲ್ಲದೆ 'hers without sugar'.\n\n**Ordering.** In a darshini you order and pay at the counter, then collect at the window. At a table, call the waiter **ಅಣ್ಣ** and say what you want + **ಕೊಡಿ**. 'To order' is ಆರ್ಡರ್ ಮಾಡು or simply **ಹೇಳು**: ಇನ್ನೊಂದು ಪ್ಲೇಟ್ ಹೇಳೋಣ 'let's order another plate'. Polite requests to staff use -ಇ forms: ಹಾಕಿ 'put (in)', ಕೊಡಿ 'give', ತನ್ನಿ 'bring'.\n\n**Paying.** ಇವತ್ತು ನನ್ನ ಟ್ರೀಟ್ / ನಾನು ಕೊಡಿಸ್ತೀನಿ 'it's on me'; ಬಿಲ್ ಹಂಚಿಕೊಳ್ಳೋಣ 'let's split the bill'; ಬಿಲ್ ಕೊಡಿ 'the bill, please'.",
+      "examples": [
+        { "native": "ಎಲ್ಲರಿಗೂ ಒಂದೊಂದು ಕಾಫಿ ಕೊಡಿ", "roman": "ellarigū ondondu kāphi koḍi", "en": "A coffee each for everyone, please." },
+        { "native": "ಎರಡು ಪ್ಲೇಟ್ ಇಡ್ಲಿ ವಡೆ, ಒಂದು ಬೈಟು ಕಾಫಿ", "roman": "eraḍu plēṭ iḍli vaḍe, ondu baiṭu kāphi", "en": "Two plates of idli-vada, one coffee split in two." },
+        { "native": "ಒಬ್ಬೊಬ್ಬರಿಗೆ ಮುನ್ನೂರು ಆಯ್ತು", "roman": "obbobbarige munnūru āytu", "en": "It came to three hundred each." },
+        { "native": "ಮಕ್ಕಳಿಗೆ ಎರಡೆರಡು ಲಡ್ಡು ಕೊಡಿ", "roman": "makkaḷige eraḍeraḍu laḍḍu koḍi", "en": "Give the children two laddus each." },
+        { "native": "ಇವತ್ತು ನಾನು ಕೊಡಿಸ್ತೀನಿ, ಮುಂದಿನ ಸಲ ನೀನು", "roman": "ivattu nānu koḍistīni, mundina sala nīnu", "en": "Today's on me, next time it's you." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Lunch in Mangaluru",
+    "setting": "Shreya, Karthik and Rohan are on a weekend trip to Mangaluru and stop for lunch at a busy coastal restaurant.",
+    "lines": [
+      { "speaker": "Karthik", "native": "ಅಯ್ಯೋ, ತುಂಬಾ ಹಸಿವಾಗ್ತಿದೆ! ಮೊದಲು ಏನಾದ್ರೂ ಆರ್ಡರ್ ಮಾಡೋಣ.", "roman": "ayyō, tumbā hasivāgtide! modalu ēnādrū ārḍar māḍōṇa.", "en": "Oh man, I'm so hungry! Let's order something first." },
+      { "speaker": "Shreya", "native": "ಮಂಗಳೂರಿಗೆ ಬಂದು ಮೀನು ತಿನ್ನದೆ ಹೋಗೋಕಾಗಲ್ಲ! ಮೀನು ಊಟ ಹೇಳೋಣ್ವಾ?", "roman": "maṅgaḷūrige bandu mīnu tinnade hōgōkāgalla! mīnu ūṭa hēḷōṇvā?", "en": "You can't come to Mangaluru and leave without eating fish! Shall we order fish meals?" },
+      { "speaker": "Rohan", "native": "ನಾನು ಸಸ್ಯಾಹಾರಿ ಕಣೋ. ನನಗೆ ನೀರ್ ದೋಸೆ ತಿನ್ನಬೇಕು ಅನ್ನಿಸ್ತಿದೆ.", "roman": "nānu sasyāhāri kaṇō. nanage nīr dōse tinnabēku annistide.", "en": "I'm vegetarian, man. I feel like neer dosa." },
+      { "speaker": "Shreya", "native": "ಸರಿ. ಅಣ್ಣ, ಎರಡು ಮೀನು ಊಟ, ಒಂದು ಪ್ಲೇಟ್ ನೀರ್ ದೋಸೆ ಕೊಡಿ. ಖಾರ ಸ್ವಲ್ಪ ಕಮ್ಮಿ ಹಾಕಿ.", "roman": "sari. aṇṇa, eraḍu mīnu ūṭa, ondu plēṭ nīr dōse koḍi. khāra svalpa kammi hāki.", "en": "OK. Anna, two fish meals and one plate of neer dosa, please. And go a bit easy on the spice." },
+      { "speaker": "Waiter", "native": "ಮೀನು ಫ್ರೈ ಬೇಕಾ ಮೇಡಂ? ಇವತ್ತು ಅಂಜಲ್ ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ.", "roman": "mīnu phrai bēkā mēḍam? ivattu añjal tumbā chennāgide.", "en": "Would you like some fried fish, madam? The kingfish is really good today." },
+      { "speaker": "Karthik", "native": "ಹೌದಾ? ಹಾಗಾದ್ರೆ ಒಂದು ಪ್ಲೇಟ್ ಅಂಜಲ್ ಫ್ರೈ. ನಾವಿಬ್ಬರು ಹಂಚಿಕೊಳ್ತೀವಿ.", "roman": "haudā? hāgādre ondu plēṭ añjal phrai. nāvibbaru hañchikoḷtīvi.", "en": "Really? Then one plate of kingfish fry. The two of us will share it." },
+      { "speaker": "Rohan", "native": "ಅಬ್ಬಾ! ಈ ಚಟ್ನಿ ತೀರಾ ಖಾರ! ನೀರು, ನೀರು!", "roman": "abbā! ī chaṭni tīrā khāra! nīru, nīru!", "en": "Whoa! This chutney is far too spicy! Water, water!" },
+      { "speaker": "Shreya", "native": "ಹಹ! ಖಾರ ಕಮ್ಮಿ ಅಂತ ಹೇಳಿದ್ವಿ ಅಲ್ವಾ? ಮಂಗಳೂರಿನ ಕಮ್ಮಿ ಹೀಗೇ!", "roman": "haha! khāra kammi anta hēḷidvi alvā? maṅgaḷūrina kammi hīgē!", "en": "Haha! We did say 'less spicy', didn't we? This is Mangaluru's idea of less!" },
+      { "speaker": "Karthik", "native": "ಮೀನು ಸೂಪರ್ ಆಗಿದೆ. ಸಾಕು, ನನ್ನ ಹೊಟ್ಟೆ ತುಂಬಿತು.", "roman": "mīnu sūpar āgide. sāku, nanna hoṭṭe tumbitu.", "en": "The fish is fantastic. That's it, I'm full." },
+      { "speaker": "Shreya", "native": "ಏನು, ಐಸ್ ಕ್ರೀಮ್ ಬೇಡ್ವಾ? ಗಡ್ಬಡ್ ತಿನ್ನದೆ ಮಂಗಳೂರು ಟ್ರಿಪ್ ಮುಗಿಯಲ್ಲ!", "roman": "ēnu, ais krīm bēḍvā? gaḍbaḍ tinnade maṅgaḷūru ṭrip mugiyalla!", "en": "What, no ice cream? A Mangaluru trip isn't over without a gadbad!" },
+      { "speaker": "Rohan", "native": "ಐಸ್ ಕ್ರೀಮ್ ಅಂದ್ರೆ ಯಾವಾಗಲೂ ಜಾಗ ಇರುತ್ತೆ!", "roman": "ais krīm andre yāvāgalū jāga irutte!", "en": "There's always room for ice cream!" },
+      { "speaker": "Karthik", "native": "ಅಣ್ಣ, ಬಿಲ್ ಕೊಡಿ. ಇವತ್ತು ನನ್ನ ಟ್ರೀಟ್, ಯಾರೂ ಜಗಳ ಆಡಬೇಡಿ!", "roman": "aṇṇa, bil koḍi. ivattu nanna ṭrīṭ, yārū jagaḷa āḍabēḍi!", "en": "Anna, the bill, please. Today's my treat, nobody argue!" },
+      { "speaker": "Shreya", "native": "ಸರಿ ಸರಿ. ಹಾಗಾದ್ರೆ ಐಸ್ ಕ್ರೀಮ್ ನಾನು ಕೊಡಿಸ್ತೀನಿ!", "roman": "sari sari. hāgādre ais krīm nānu koḍistīni!", "en": "Fine, fine. Then the ice cream's on me!" }
+    ]
+  },
+  "culture": "The **darshini** is Bengaluru's great invention: quick, cheap, vegetarian, open from dawn, where office workers and students stand at tall tables over **idli-vada** and **filter coffee** served in a steel tumbler and bowl (ಲೋಟ and ದವರ). Ordering a **ಬೈಟು** coffee to share is completely normal, even thrifty-chic. Old Bengaluru institutions are famous for their dosas (the crisp, butter-soaked ಬೆಣ್ಣೆ ದೋಸೆ of Basavanagudi and Malleshwaram), VV Puram's food street comes alive in the evening, and **donne biryani** is a city obsession. Mysuru has its soft Mylari dosa and Mysore Pak; the coast has fish curry with rice, kori rotti, neer dosa, ghee roast and the layered **gadbad** ice cream.\n\nWith friends, the fight over the bill is part of the meal: someone grabs it and says **ನಾನು ಕೊಡಿಸ್ತೀನಿ!**, another insists, and the loser says **ಮುಂದಿನ ಸಲ ನಾನು** 'next time it's me'. Young people often just split it on their phones. If you've got good news (a job, a birthday), friends will demand **ಟ್ರೀಟ್ ಕೊಡಿಸು!**\n\nWaiters are called **ಅಣ್ಣ** (or ಸಾರ್ in smarter places); use polite **-ಇ** forms with them (ಕೊಡಿ, ಹಾಕಿ, ತನ್ನಿ). Most people eat South Indian food with the right hand, and nobody minds if you ask for a spoon: **ಒಂದು ಚಮಚ ಕೊಡಿ**.",
+  "lessons": [
+    {
+      "title": "Hungry? Let's eat",
+      "tip": { "title": "I feel like… / I'm hungry", "body": "- **I feel like eating X** = ನನಗೆ X **ತಿನ್ನಬೇಕು ಅನ್ನಿಸ್ತಿದೆ**, or X **ತಿನ್ನೋಕೆ ಮನಸ್ಸಾಗ್ತಿದೆ**.\n- Hunger and thirst *happen* to you: **ನನಗೆ ಹಸಿವಾಗ್ತಿದೆ**, **ಬಾಯಾರಿಕೆ ಆಗ್ತಿದೆ**.\n- Not ನಾನು ಹಸಿವು: the person is always in the **dative** (ನನಗೆ, ನಿನಗೆ, ಮಕ್ಕಳಿಗೆ).", "pattern": "ನನಗೆ + ತಿನ್ನಬೇಕು + ಅನ್ನಿಸ್ತಿದೆ", "grammar": 1 },
+      "new": ["ಹಸಿವು", "ಬಾಯಾರಿಕೆ", "ದರ್ಶಿನಿ", "ಕೆಫೆ", "ಬಿರಿಯಾನಿ", "ಐಸ್ ಕ್ರೀಮ್", "ಏನಾದ್ರೂ ತಿನ್ನೋಣ್ವಾ? ತುಂಬಾ ಹಸಿವಾಗ್ತಿದೆ", "ಬಾಯಲ್ಲಿ ನೀರು ಬರ್ತಿದೆ!"],
+      "sentences": [
+        { "native": "ನನಗೆ ಬಿರಿಯಾನಿ ತಿನ್ನಬೇಕು ಅನ್ನಿಸ್ತಿದೆ.", "roman": "nanage biriyāni tinnabēku annistide.", "en": "I feel like eating biryani.", "focus": "ನನಗೆ", "wrong": ["ನಾನು|nānu", "ನನ್ನ|nanna"] },
+        { "native": "ನಿನಗೆ ಹಸಿವಾಗ್ತಿದೆಯಾ? ದರ್ಶಿನಿಗೆ ಹೋಗೋಣ.", "roman": "ninage hasivāgtideyā? darshinige hōgōṇa.", "en": "Are you hungry? Let's go to a darshini.", "focus": "ನಿನಗೆ", "wrong": ["ನೀನು|nīnu", "ನಿನ್ನ|ninna"] },
+        { "native": "ಈ ಸೆಕೆಗೆ ತುಂಬಾ ಬಾಯಾರಿಕೆ ಆಗ್ತಿದೆ.", "roman": "ī sekege tumbā bāyārike āgtide.", "en": "I'm so thirsty in this heat.", "focus": "ಆಗ್ತಿದೆ", "wrong": ["ಇದ್ದೀನಿ|iddīni", "ಮಾಡ್ತಿದೆ|māḍtide"] },
+        { "native": "ಮಕ್ಕಳಿಗೆ ಐಸ್ ಕ್ರೀಮ್ ತಿನ್ನೋಕೆ ಮನಸ್ಸಾಗ್ತಿದೆ.", "roman": "makkaḷige ais krīm tinnōke manassāgtide.", "en": "The kids are in the mood for ice cream.", "focus": "ಮಕ್ಕಳಿಗೆ", "wrong": ["ಮಕ್ಕಳು|makkaḷu", "ಮಕ್ಕಳ|makkaḷa"] },
+        { "native": "ಇವತ್ತು ಹೊರಗೆ ತಿನ್ನೋಕೆ ಮನಸ್ಸಿಲ್ಲ, ಮನೆಯಲ್ಲೇ ಮಾಡೋಣ.", "roman": "ivattu horage tinnōke manassilla, maneyallē māḍōṇa.", "en": "I don't feel like eating out today, let's cook at home.", "focus": "ಮನಸ್ಸಿಲ್ಲ", "wrong": ["ಮನಸ್ಸಾಗ್ತಿದೆ|manassāgtide", "ಮನಸ್ಸು|manassu"] },
+        { "native": "ಏನಾದ್ರೂ ತಿನ್ನೋಣ್ವಾ? ನನಗೆ ತುಂಬಾ ಹಸಿವಾಗ್ತಿದೆ.", "roman": "ēnādrū tinnōṇvā? nanage tumbā hasivāgtide.", "en": "Shall we eat something? I'm really hungry.", "focus": "ಹಸಿವಾಗ್ತಿದೆ", "wrong": ["ಹಸಿವು|hasivu", "ಬಾಯಾರಿಕೆ|bāyārike"] },
+        { "native": "ನಿನಗೆ ಏನು ತಿನ್ನಬೇಕು ಅನ್ನಿಸ್ತಿದೆ?", "roman": "ninage ēnu tinnabēku annistide?", "en": "What do you feel like eating?", "focus": "ಅನ್ನಿಸ್ತಿದೆ", "wrong": ["ಅಂತೀಯ|antīya", "ಅನ್ನು|annu"] },
+        { "native": "ಆ ಹೊಸ ಕೆಫೆಗೆ ಹೋಗೋಣ್ವಾ? ಕಾಫಿ ಚೆನ್ನಾಗಿದೆಯಂತೆ.", "roman": "ā hosa kephege hōgōṇvā? kāphi chennāgideyante.", "en": "Shall we try that new café? Apparently the coffee's good." },
+        { "native": "ಅಯ್ಯೋ, ಬಾಯಲ್ಲಿ ನೀರು ಬರ್ತಿದೆ! ಬೇಗ ಹೋಗೋಣ.", "roman": "ayyō, bāyalli nīru bartide! bēga hōgōṇa.", "en": "Oh man, my mouth is watering! Let's go quickly." },
+        { "native": "ದರ್ಶಿನಿಯಲ್ಲಿ ಜನ ನಿಂತ್ಕೊಂಡೇ ತಿಂತಾರೆ.", "roman": "darshiniyalli jana nintkoṇḍē tintāre.", "en": "At a darshini people eat standing up." }
+      ]
+    },
+    {
+      "title": "At the darshini",
+      "tip": { "title": "Ordering: number + ಪ್ಲೇಟ್ + dish", "body": "- **ಎರಡು ಪ್ಲೇಟ್ ಇಡ್ಲಿ**; dosas and drinks counted directly: **ಮೂರು ಕಾಫಿ**.\n- A **ಬೈಟು** coffee is one coffee shared between two cups.\n- 'To order' = **ಆರ್ಡರ್ ಮಾಡು**, or just **ಹೇಳು**: ಇನ್ನೊಂದು ಹೇಳೋಣ.\n- To staff, polite -ಇ forms: **ಕೊಡಿ, ಹಾಕಿ**.", "pattern": "ಎರಡು + ಪ್ಲೇಟ್ + ಇಡ್ಲಿ", "grammar": 2 },
+      "new": ["ಮೆನು", "ಆರ್ಡರ್", "ಪ್ಲೇಟ್", "ಬೈಟು", "ಮಸಾಲೆ ದೋಸೆ", "ವಡೆ", "ಚಟ್ನಿ", "ತುಪ್ಪ", "ಇಲ್ಲಿ ಮಸಾಲೆ ದೋಸೆ ಸೂಪರ್ ಆಗಿರುತ್ತೆ", "ಒಂದು ಬೈಟು ಕಾಫಿ ಕೊಡಿ"],
+      "sentences": [
+        { "native": "ಮೂರು ಪ್ಲೇಟ್ ವಡೆ ಕೊಡಿ, ಚಟ್ನಿ ಜಾಸ್ತಿ.", "roman": "mūru plēṭ vaḍe koḍi, chaṭni jāsti.", "en": "Three plates of vada, please, with extra chutney.", "focus": "ಪ್ಲೇಟ್", "wrong": ["ತಟ್ಟೆ|taṭṭe", "ಲೋಟ|lōṭa"] },
+        { "native": "ಒಂದು ಮಸಾಲೆ ದೋಸೆ, ತುಪ್ಪ ಹಾಕಿ.", "roman": "ondu masāle dōse, tuppa hāki.", "en": "One masala dosa, with ghee, please.", "focus": "ಹಾಕಿ", "wrong": ["ಹಾಕು|hāku", "ಹಾಕಿದೆ|hākide"] },
+        { "native": "ಮೆನು ನೋಡಿ ಹೇಳ್ತೀವಿ.", "roman": "menu nōḍi hēḷtīvi.", "en": "We'll look at the menu and tell you.", "focus": "ಹೇಳ್ತೀವಿ", "wrong": ["ಹೇಳಿದ್ವಿ|hēḷidvi", "ಹೇಳ್ತೀನಿ|hēḷtīni"] },
+        { "native": "ಇನ್ನೊಂದು ಪ್ಲೇಟ್ ಹೇಳೋಣ್ವಾ?", "roman": "innondu plēṭ hēḷōṇvā?", "en": "Shall we order another plate?", "focus": "ಹೇಳೋಣ್ವಾ", "wrong": ["ಹೇಳಿದ್ವಾ|hēḷidvā", "ಹೇಳ್ತೀಯಾ|hēḷtīyā"] },
+        { "native": "ಎರಡು ಕಾಫಿ, ಒಂದು ಸಕ್ಕರೆ ಇಲ್ಲದೆ.", "roman": "eraḍu kāphi, ondu sakkare illade.", "en": "Two coffees, one without sugar.", "focus": "ಇಲ್ಲದೆ", "wrong": ["ಇಲ್ಲ|illa", "ಇದ್ದು|iddu"] },
+        { "native": "ಕಾಫಿ ಬೈಟು ಮಾಡೋಣ್ವಾ? ನನಗೆ ಅರ್ಧ ಸಾಕು.", "roman": "kāphi baiṭu māḍōṇvā? nanage ardha sāku.", "en": "Shall we split a coffee? Half is enough for me.", "focus": "ಸಾಕು", "wrong": ["ಬೇಡ|bēḍa", "ಇಷ್ಟ|iṣṭa"] },
+        { "native": "ನಾವು ಆಗಲೇ ಆರ್ಡರ್ ಮಾಡಿದ್ದೀವಿ, ಇನ್ನೂ ಬಂದಿಲ್ಲ.", "roman": "nāvu āgalē ārḍar māḍiddīvi, innū bandilla.", "en": "We've already ordered, it hasn't come yet.", "focus": "ಬಂದಿಲ್ಲ", "wrong": ["ಬರಲಿಲ್ಲ|baralilla", "ಬರಲ್ಲ|baralla"] },
+        { "native": "ಇಲ್ಲಿ ಮಸಾಲೆ ದೋಸೆ ಸೂಪರ್ ಆಗಿರುತ್ತೆ, ಒಂದು ಸಲ ತಿಂದು ನೋಡು.", "roman": "illi masāle dōse sūpar āgirutte, ondu sala tindu nōḍu.", "en": "The masala dosa here is great, give it a try." },
+        { "native": "ವಡೆ ಬಿಸಿ ಇದೆಯಾ?", "roman": "vaḍe bisi ideyā?", "en": "Are the vadas hot?" },
+        { "native": "ಈ ಚಟ್ನಿ ತುಂಬಾ ರುಚಿಯಾಗಿದೆ.", "roman": "ī chaṭni tumbā ruchiyāgide.", "en": "This chutney is really tasty." }
+      ]
+    },
+    {
+      "title": "Too spicy, not enough salt",
+      "tip": { "title": "Too much, too little, enough", "body": "- **ತುಂಬಾ** = very *or* too: ತುಂಬಾ ಖಾರ.\n- Definitely too much: **ಜಾಸ್ತಿ ಆಯ್ತು / ಆಗಿದೆ**; **ತೀರಾ** = far too.\n- Too little: **ಕಮ್ಮಿ** (ಕಡಿಮೆ): ಉಪ್ಪು ಕಮ್ಮಿ ಇದೆ.\n- Enough: **ಸಾಕು**; not enough: **ಸಾಕಾಗಲ್ಲ**.\n- Before a noun, ಜಾಸ್ತಿ just means 'more': ಜಾಸ್ತಿ ಚಟ್ನಿ ಕೊಡಿ.", "pattern": "ಉಪ್ಪು + ಜಾಸ್ತಿ / ಕಮ್ಮಿ + ಆಗಿದೆ", "grammar": 0 },
+      "new": ["ಸಪ್ಪೆ", "ಹುಳಿ", "ಕಮ್ಮಿ", "ತೀರಾ", "ಎಣ್ಣೆ", "ಖಾರ ಕಮ್ಮಿ ಹಾಕಿ", "ತುಂಬಾ ಖಾರ ಆಯ್ತು!", "ಉಪ್ಪು ಸ್ವಲ್ಪ ಕಮ್ಮಿ ಇದೆ"],
+      "sentences": [
+        { "native": "ಸಾರಲ್ಲಿ ಉಪ್ಪು ಜಾಸ್ತಿ ಆಗಿದೆ.", "roman": "sāralli uppu jāsti āgide.", "en": "There's too much salt in the saaru.", "focus": "ಜಾಸ್ತಿ", "wrong": ["ಕಮ್ಮಿ|kammi", "ಸಾಕು|sāku"] },
+        { "native": "ಈ ದೋಸೆ ತೀರಾ ಸಪ್ಪೆ, ಸ್ವಲ್ಪನೂ ರುಚಿ ಇಲ್ಲ.", "roman": "ī dōse tīrā sappe, svalpanū ruchi illa.", "en": "This dosa is totally bland, no taste at all.", "focus": "ಸಪ್ಪೆ", "wrong": ["ಖಾರ|khāra", "ಹುಳಿ|huḷi"] },
+        { "native": "ಮೊಸರು ಸ್ವಲ್ಪ ಹುಳಿ ಆಗಿದೆ.", "roman": "mosaru svalpa huḷi āgide.", "en": "The curd has gone a bit sour.", "focus": "ಹುಳಿ", "wrong": ["ಸಿಹಿ|sihi", "ಸಪ್ಪೆ|sappe"] },
+        { "native": "ಖಾರ ಕಮ್ಮಿ ಹಾಕಿ, ಮಕ್ಕಳು ತಿಂತಾರೆ.", "roman": "khāra kammi hāki, makkaḷu tintāre.", "en": "Go easy on the spice, the kids will be eating.", "focus": "ಕಮ್ಮಿ", "wrong": ["ಜಾಸ್ತಿ|jāsti", "ತುಂಬಾ|tumbā"] },
+        { "native": "ತುಂಬಾ ಖಾರ ಆಯ್ತು! ಸ್ವಲ್ಪ ನೀರು ಕೊಡಿ.", "roman": "tumbā khāra āytu! svalpa nīru koḍi.", "en": "It's way too spicy! Some water, please.", "focus": "ಆಯ್ತು", "wrong": ["ಮಾಡಿದೆ|māḍide", "ಕೊಟ್ಟೆ|koṭṭe"] },
+        { "native": "ಎಣ್ಣೆ ತುಂಬಾ ಜಾಸ್ತಿ ಇದೆ, ನಾನು ತಿನ್ನಲ್ಲ.", "roman": "eṇṇe tumbā jāsti ide, nānu tinnalla.", "en": "There's far too much oil, I'm not eating it.", "focus": "ಜಾಸ್ತಿ", "wrong": ["ಕಮ್ಮಿ|kammi", "ಸಾಕು|sāku"] },
+        { "native": "ನಾಲ್ಕು ಜನಕ್ಕೆ ಎರಡು ಪ್ಲೇಟ್ ಸಾಕಾಗಲ್ಲ.", "roman": "nālku janakke eraḍu plēṭ sākāgalla.", "en": "Two plates won't be enough for four people.", "focus": "ಸಾಕಾಗಲ್ಲ", "wrong": ["ಸಾಕು|sāku", "ಜಾಸ್ತಿ|jāsti"] },
+        { "native": "ಜಾಸ್ತಿ ಚಟ್ನಿ ಕೊಡಿ, ಸಾಕಾಗ್ತಿಲ್ಲ.", "roman": "jāsti chaṭni koḍi, sākāgtilla.", "en": "Give us more chutney, it isn't enough.", "focus": "ಜಾಸ್ತಿ", "wrong": ["ಕಮ್ಮಿ|kammi", "ತೀರಾ|tīrā"] },
+        { "native": "ಉಪ್ಪು ಸ್ವಲ್ಪ ಕಮ್ಮಿ ಇದೆ, ಆದರೆ ಪರವಾಗಿಲ್ಲ.", "roman": "uppu svalpa kammi ide, ādare paravāgilla.", "en": "It could use a bit more salt, but it's fine." },
+        { "native": "ಇಲ್ಲಿ ಊಟ ತೀರಾ ದುಬಾರಿ.", "roman": "illi ūṭa tīrā dubāri.", "en": "The food here is far too expensive.", "focus": "ತೀರಾ", "wrong": ["ಸ್ವಲ್ಪ|svalpa", "ಕಮ್ಮಿ|kammi"] }
+      ]
+    },
+    {
+      "title": "Ordering for everyone",
+      "tip": { "title": "One each: ಒಂದೊಂದು", "body": "- Double a number for 'each': **ಒಂದೊಂದು** 'one each', **ಎರಡೆರಡು** 'two each'.\n- Per person: **ಒಬ್ಬೊಬ್ಬರಿಗೆ**.\n- 'For whom' = dative: **ಎಲ್ಲರಿಗೂ** 'for everyone', **ನನಗೆ** ಒಂದು ಟೀ.\n- Ask a friend: **ನೀನು ಏನು ತಗೊಳ್ತೀಯ?** 'what are you having?'", "pattern": "ಎಲ್ಲರಿಗೂ + ಒಂದೊಂದು + ಕಾಫಿ", "grammar": 2 },
+      "new": ["ಟೇಬಲ್", "ಚಾಟ್", "ಪಾನಿಪುರಿ", "ಮೀನು", "ಒಂದೊಂದು", "ಮೆನು ಕೊಡಿ", "ನಾಲ್ಕು ಜನಕ್ಕೆ ಟೇಬಲ್ ಇದೆಯಾ?", "ನೀನು ಏನು ತಗೊಳ್ತೀಯ?"],
+      "sentences": [
+        { "native": "ಎಲ್ಲರಿಗೂ ಒಂದೊಂದು ಪ್ಲೇಟ್ ಪಾನಿಪುರಿ.", "roman": "ellarigū ondondu plēṭ pānipuri.", "en": "A plate of pani puri each for everyone.", "focus": "ಒಂದೊಂದು", "wrong": ["ಒಂದು|ondu", "ಒಬ್ಬೊಬ್ಬ|obbobba"] },
+        { "native": "ನನಗೆ ಒಂದು ಮಸಾಲೆ ದೋಸೆ, ಅವಳಿಗೆ ಎರಡು ಇಡ್ಲಿ.", "roman": "nanage ondu masāle dōse, avaḷige eraḍu iḍli.", "en": "A masala dosa for me, two idlis for her.", "focus": "ಅವಳಿಗೆ", "wrong": ["ಅವಳು|avaḷu", "ಅವಳ|avaḷa"] },
+        { "native": "ಮಕ್ಕಳಿಗೆ ಒಂದೊಂದು ಐಸ್ ಕ್ರೀಮ್ ತಗೊಳ್ಳೋಣ.", "roman": "makkaḷige ondondu ais krīm tagoḷḷōṇa.", "en": "Let's get the kids an ice cream each.", "focus": "ಒಂದೊಂದು", "wrong": ["ಒಂದು|ondu", "ಎರಡು|eraḍu"] },
+        { "native": "ಒಬ್ಬೊಬ್ಬರಿಗೆ ಎರಡೆರಡು ವಡೆ ಸಾಕು.", "roman": "obbobbarige eraḍeraḍu vaḍe sāku.", "en": "Two vadas each is enough.", "focus": "ಎರಡೆರಡು", "wrong": ["ಎರಡು|eraḍu", "ಒಂದೊಂದು|ondondu"] },
+        { "native": "ನೀನು ಏನು ತಗೊಳ್ತೀಯ? ಚಾಟ್ ಅಥವಾ ದೋಸೆ?", "roman": "nīnu ēnu tagoḷtīya? chāṭ athavā dōse?", "en": "What are you having? Chaat or dosa?", "focus": "ತಗೊಳ್ತೀಯ", "wrong": ["ತಗೊಳ್ತೀನಿ|tagoḷtīni", "ತಗೊಂಡೆ|tagoṇḍe"] },
+        { "native": "ನಾಲ್ಕು ಜನಕ್ಕೆ ಟೇಬಲ್ ಇದೆಯಾ? ಹೊರಗೆ ಕಾಯ್ತೀವಿ.", "roman": "nālku janakke ṭēbal ideyā? horage kāytīvi.", "en": "Is there a table for four? We'll wait outside.", "focus": "ಜನಕ್ಕೆ", "wrong": ["ಜನ|jana", "ಜನದಲ್ಲಿ|janadalli"] },
+        { "native": "ಮೆನು ಕೊಡಿ, ಮೀನು ಏನಿದೆ?", "roman": "menu koḍi, mīnu ēnide?", "en": "Can we have the menu? What fish is there?" },
+        { "native": "ಮಂಗಳೂರಿಗೆ ಹೋದ್ರೆ ಮೀನು ಊಟ ತಿನ್ನಲೇಬೇಕು!", "roman": "maṅgaḷūrige hōdre mīnu ūṭa tinnalēbēku!", "en": "If you go to Mangaluru, you absolutely have to have a fish meal!" },
+        { "native": "ಸಂಜೆ ಚಾಟ್ ತಿನ್ನೋಕೆ ವಿವಿ ಪುರಂಗೆ ಹೋಗೋಣ.", "roman": "sañje chāṭ tinnōke vivi puraṅge hōgōṇa.", "en": "Let's go to VV Puram for chaat this evening." }
+      ]
+    },
+    {
+      "title": "My treat! Paying the bill",
+      "tip": { "title": "Who pays?", "body": "- **ಇವತ್ತು ನನ್ನ ಟ್ರೀಟ್** or **ನಾನು ಕೊಡಿಸ್ತೀನಿ** 'it's on me'. ಕೊಡಿಸು = 'get something for someone (and pay)'.\n- Splitting: **ಬಿಲ್ ಹಂಚಿಕೊಳ್ಳೋಣ**; per person: **ಒಬ್ಬೊಬ್ಬರಿಗೆ ಎಷ್ಟಾಯ್ತು?**\n- Friends fight to pay: insist once or twice, then **ಮುಂದಿನ ಸಲ ನಾನು!**\n- Finished: **ಸಾಕು, ಹೊಟ್ಟೆ ತುಂಬಿತು**." },
+      "new": ["ಟ್ರೀಟ್", "ಕೊಡಿಸು", "ಹಂಚಿಕೊಳ್ಳು", "ತುಂಬು", "ಇವತ್ತು ನನ್ನ ಟ್ರೀಟ್", "ಬಿಲ್ ಹಂಚಿಕೊಳ್ಳೋಣ", "ಎರಡು ಇಡ್ಲಿ ತಗೊಂಡು ಹೋಗೋಕೆ", "ಊಟ ಹೇಗಿತ್ತು?"],
+      "sentences": [
+        { "native": "ಇವತ್ತು ನನ್ನ ಟ್ರೀಟ್, ಯಾರೂ ದುಡ್ಡು ಕೊಡಬೇಡಿ.", "roman": "ivattu nanna ṭrīṭ, yārū duḍḍu koḍabēḍi.", "en": "Today's my treat, nobody pay." },
+        { "native": "ನಿನಗೆ ಕೆಲಸ ಸಿಕ್ತು, ಟ್ರೀಟ್ ಕೊಡಿಸು!", "roman": "ninage kelasa siktu, ṭrīṭ koḍisu!", "en": "You got a job, treat us!", "focus": "ಕೊಡಿಸು", "wrong": ["ಕೊಡಿಸಿದೆ|koḍiside", "ಕೊಡಿಸ್ತೀನಿ|koḍistīni"] },
+        { "native": "ಬೇಡ ಬೇಡ, ನಾನು ಕೊಡಿಸ್ತೀನಿ.", "roman": "bēḍa bēḍa, nānu koḍistīni.", "en": "No, no, I'll get this.", "focus": "ಕೊಡಿಸ್ತೀನಿ", "wrong": ["ಕೊಡಿಸಿದೆ|koḍiside", "ಕೊಡಿಸು|koḍisu"] },
+        { "native": "ಅಪ್ಪ ನಮಗೆ ಬಿರಿಯಾನಿ ಕೊಡಿಸಿದ್ರು.", "roman": "appa namage biriyāni koḍisidru.", "en": "Dad treated us to biryani.", "focus": "ಕೊಡಿಸಿದ್ರು", "wrong": ["ಕೊಡಿಸ್ತೀನಿ|koḍistīni", "ಕೊಡಿಸು|koḍisu"] },
+        { "native": "ಬಿಲ್ ಹಂಚಿಕೊಳ್ಳೋಣ, ಒಬ್ಬೊಬ್ಬರಿಗೆ ಇನ್ನೂರೈವತ್ತು.", "roman": "bil hañchikoḷḷōṇa, obbobbarige innūraivattu.", "en": "Let's split the bill, two hundred and fifty each.", "focus": "ಹಂಚಿಕೊಳ್ಳೋಣ", "wrong": ["ಹಂಚಿಕೊಂಡ್ವಿ|hañchikoṇḍvi", "ಹಂಚಿಕೊಳ್ಳಿ|hañchikoḷḷi"] },
+        { "native": "ಸಾಕು, ಹೊಟ್ಟೆ ತುಂಬಿತು, ಇನ್ನು ಬೇಡ.", "roman": "sāku, hoṭṭe tumbitu, innu bēḍa.", "en": "That's enough, I'm full, no more.", "focus": "ತುಂಬಿತು", "wrong": ["ತುಂಬುತ್ತೆ|tumbutte", "ತುಂಬು|tumbu"] },
+        { "native": "ಬಿಲ್ ಕೊಡಿ, ಅಣ್ಣ. ಒಬ್ಬೊಬ್ಬರಿಗೆ ಎಷ್ಟಾಯ್ತು?", "roman": "bil koḍi, aṇṇa. obbobbarige eṣṭāytu?", "en": "The bill, please, anna. How much is it each?" },
+        { "native": "ಎರಡು ಇಡ್ಲಿ ತಗೊಂಡು ಹೋಗೋಕೆ, ಚಟ್ನಿ ಜಾಸ್ತಿ ಹಾಕಿ.", "roman": "eraḍu iḍli tagoṇḍu hōgōke, chaṭni jāsti hāki.", "en": "Two idlis to take away, with extra chutney." },
+        { "native": "ಊಟ ಹೇಗಿತ್ತು? ಮತ್ತೆ ಬರೋಣ್ವಾ?", "roman": "ūṭa hēgittu? matte barōṇvā?", "en": "How was the food? Shall we come again?" },
+        { "native": "ಮುಂದಿನ ಸಲ ನಾನೇ ಕೊಡಿಸೋದು, ಆಯ್ತಾ?", "roman": "mundina sala nānē koḍisōdu, āytā?", "en": "Next time it's on me, OK?" }
+      ]
+    }
+  ]
+}

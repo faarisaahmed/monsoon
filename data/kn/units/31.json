@@ -1,0 +1,195 @@
+{
+  "id": 31,
+  "title": "Work & colleagues",
+  "goal": "Chat with colleagues, talk about projects and deadlines, ask your boss for leave, write a polite work email, read office notices and get through a job interview in Kannada.",
+  "intro": "Work in Bengaluru happens in two Kannadas at once. At the coffee machine colleagues say ಏನ್ ಮಚಾ, ಬ್ಯುಸಿನಾ? and mix in English for every work word: ಮೇಲ್, ಡೆಡ್‌ಲೈನ್, ಪ್ರಾಜೆಕ್ಟ್. In front of the boss, in an interview, in an email to HR or at a government office, the same people switch to full, careful forms: ಮಾಡುತ್ತೇನೆ instead of ಮಾಡ್ತೀನಿ, ತಿಳಿಸಿ instead of ಹೇಳಿ.\n\nThis unit teaches both, and when to switch. The second grammar point is how Kannada says 'it was decided' or 'the meeting has been postponed' without naming who did it: casually with ಆಗು, formally with the **-ಲಾಗಿದೆ** passive you will see on every office notice.",
+  "vocab": [
+    { "native": "ಬಾಸ್", "roman": "bās", "en": "boss", "pos": "noun", "note": "Always with plural respect forms: ಬಾಸ್ ಬಂದಿದ್ದಾರೆ 'the boss has come'." },
+    { "native": "ಟೀಮ್", "roman": "ṭīm", "en": "team", "pos": "noun", "note": "ಟೀಮ್ ಲೀಡ್ 'team lead'." },
+    { "native": "ಕಂಪನಿ", "roman": "kampani", "en": "company", "pos": "noun", "note": "Spoken locative ಕಂಪನೀಲಿ 'at the company'." },
+    { "native": "ಬ್ಯುಸಿ", "roman": "byusi", "en": "busy", "pos": "adj", "note": "ಬ್ಯುಸಿ ಇದ್ದೀನಿ / ಬ್ಯುಸಿ ಆಗಿದ್ದೀನಿ 'I'm busy'." },
+    { "native": "ಪ್ರಾಜೆಕ್ಟ್", "roman": "prājekṭ", "en": "project", "pos": "noun" },
+    { "native": "ಕ್ಲೈಂಟ್", "roman": "klaiṇṭ", "en": "client", "pos": "noun", "note": "Plural respect: ಕ್ಲೈಂಟ್ ಹೇಳಿದ್ದಾರೆ." },
+    { "native": "ಡೆಡ್‌ಲೈನ್", "roman": "ḍeḍlain", "en": "deadline", "pos": "noun" },
+    { "native": "ಮುಗಿಸು", "roman": "mugisu", "en": "to finish (something)", "pos": "verb", "note": "Transitive partner of ಮುಗಿ 'to get finished': ನಾನು ಕೆಲಸ ಮುಗಿಸಿದೆ 'I finished the work' / ಕೆಲಸ ಮುಗೀತು 'the work is done'." },
+    { "native": "ಜವಾಬ್ದಾರಿ", "roman": "javābdāri", "en": "responsibility", "pos": "noun" },
+    { "native": "ಮೇಲ್", "roman": "mēl", "en": "email", "pos": "noun", "note": "Also ಇಮೇಲ್. ಮೇಲ್ ಕಳಿಸು / ಮೇಲ್ ಮಾಡು 'to email'." },
+    { "native": "ತಿಳಿಸು", "roman": "tiḷisu", "en": "to inform, let (someone) know", "pos": "verb", "note": "The polite/formal word for 'tell': ದಯವಿಟ್ಟು ತಿಳಿಸಿ 'please let me know'." },
+    { "native": "ಮಾಹಿತಿ", "roman": "māhiti", "en": "information", "pos": "noun" },
+    { "native": "ಸಂಪರ್ಕಿಸು", "roman": "samparkisu", "en": "to contact (formal)", "pos": "verb", "note": "In speech people say ಫೋನ್ ಮಾಡಿ or ಮೇಲ್ ಮಾಡಿ." },
+    { "native": "ಸಹಕಾರ", "roman": "sahakāra", "en": "cooperation, support", "pos": "noun" },
+    { "native": "ಲೀವ್", "roman": "līv", "en": "leave (time off work)", "pos": "noun", "note": "ಲೀವ್ ತಗೊ 'to take leave'. The Kannada word ರಜೆ (unit 7) is used too, especially for holidays." },
+    { "native": "ಅರ್ಜಿ", "roman": "arji", "en": "application (form or letter)", "pos": "noun", "note": "ಅರ್ಜಿ ಹಾಕು 'to apply'." },
+    { "native": "ಅನುಮತಿ", "roman": "anumati", "en": "permission", "pos": "noun" },
+    { "native": "ಕಾರಣ", "roman": "kāraṇa", "en": "reason", "pos": "noun", "note": "ಯಾವ ಕಾರಣಕ್ಕೆ? 'for what reason?'" },
+    { "native": "ಮಾನ್ಯರೇ", "roman": "mānyarē", "en": "Dear Sir / Madam (opening a formal letter)", "pos": "interj", "note": "Letters end with ಇಂತಿ ತಮ್ಮ ವಿಶ್ವಾಸಿ 'Yours faithfully' and your name." },
+    { "native": "ನೀಡು", "roman": "nīḍu", "en": "to give (formal)", "pos": "verb", "note": "Formal/written for ಕೊಡು." },
+    { "native": "ಒಪ್ಪಿಗೆ", "roman": "oppige", "en": "approval, consent", "pos": "noun", "note": "From ಒಪ್ಪು 'to agree'. ಒಪ್ಪಿಗೆ ಕೊಡು 'to approve'." },
+    { "native": "ಅಪ್ರೂವ್", "roman": "aprūv", "en": "approve", "pos": "verb", "note": "English loan: ಅಪ್ರೂವ್ ಮಾಡು 'to approve', ಅಪ್ರೂವ್ ಆಗು 'to get approved'." },
+    { "native": "ನಿರ್ಧಾರ", "roman": "nirdhāra", "en": "decision", "pos": "noun", "note": "ನಿರ್ಧಾರ ಮಾಡು 'to decide'; verb ನಿರ್ಧರಿಸು (unit 17)." },
+    { "native": "ಸೂಚನೆ", "roman": "sūchane", "en": "notice; instruction", "pos": "noun" },
+    { "native": "ಇಂಟರ್ವ್ಯೂ", "roman": "iṇṭarvyū", "en": "interview", "pos": "noun", "note": "Formal: ಸಂದರ್ಶನ." },
+    { "native": "ಹುದ್ದೆ", "roman": "hudde", "en": "post, position (job)", "pos": "noun" },
+    { "native": "ಅನುಭವ", "roman": "anubhava", "en": "experience", "pos": "noun", "note": "Work experience: ಐದು ವರ್ಷದ ಅನುಭವ 'five years' experience'. Also 'an experience' in life." },
+    { "native": "ಆಯ್ಕೆ", "roman": "āyke", "en": "selection, choice", "pos": "noun", "note": "ಆಯ್ಕೆ ಮಾಡು 'to choose', ಆಯ್ಕೆ ಆಗು 'to be selected'." }
+  ],
+  "phrases": [
+    { "native": "ಏನ್ ಮಚಾ, ಬ್ಯುಸಿನಾ?", "roman": "ēn machā, byusinā?", "en": "Hey mate, busy?", "note": "ಮಚಾ (also ಮಚ್ಚಾ, ಮಗಾ) is Bengaluru slang between guys of the same age. Never with seniors." },
+    { "native": "ಕಾಫಿ ಬ್ರೇಕ್ ಹೋಗೋಣ್ವಾ?", "roman": "kāphi brēk hōgōṇvā?", "en": "Shall we take a coffee break?" },
+    { "native": "ಬಾಸ್ ಮೂಡ್ ಹೇಗಿದೆ ಇವತ್ತು?", "roman": "bās mūḍ hēgide ivattu?", "en": "How's the boss's mood today?" },
+    { "native": "ಇವತ್ತು ತುಂಬಾ ಕೆಲಸ ಇದೆ", "roman": "ivattu tumbā kelasa ide", "en": "I've got loads of work today." },
+    { "native": "ಡೆಡ್‌ಲೈನ್ ಯಾವಾಗ?", "roman": "ḍeḍlain yāvāga?", "en": "When's the deadline?" },
+    { "native": "ಇವತ್ತು ಸಂಜೆ ಒಳಗೆ ಮುಗಿಸ್ತೀನಿ", "roman": "ivattu sañje oḷage mugistīni", "en": "I'll finish it by this evening.", "note": "ಒಳಗೆ 'inside' after a time means 'by, within'. Formal: ಮುಗಿಸುತ್ತೇನೆ." },
+    { "native": "ಮೀಟಿಂಗ್ ಎಷ್ಟು ಗಂಟೆಗೆ?", "roman": "mīṭiṅg eṣṭu gaṇṭege?", "en": "What time's the meeting?" },
+    { "native": "ದಯವಿಟ್ಟು ತಿಳಿಸಿ", "roman": "dayaviṭṭu tiḷisi", "en": "Please let me know. (formal)" },
+    { "native": "ತಡವಾಗಿದ್ದಕ್ಕೆ ಕ್ಷಮೆ ಇರಲಿ", "roman": "taḍavāgiddakke kṣame irali", "en": "Apologies for the delay. (formal)" },
+    { "native": "ನಿಮ್ಮ ಸಹಕಾರಕ್ಕೆ ಧನ್ಯವಾದಗಳು", "roman": "nimma sahakārakke dhanyavādagaḷu", "en": "Thank you for your cooperation. (formal)", "note": "A standard closing line in emails and notices." },
+    { "native": "ನಾಳೆ ಒಂದು ದಿನ ಲೀವ್ ಬೇಕು ಸಾರ್", "roman": "nāḷe ondu dina līv bēku sār", "en": "Sir, I need a day's leave tomorrow." },
+    { "native": "ನಾಳೆ ವರ್ಕ್ ಫ್ರಮ್ ಹೋಮ್ ಮಾಡ್ತೀನಿ", "roman": "nāḷe vark phram hōm māḍtīni", "en": "I'll work from home tomorrow.", "note": "Often shortened to ಡಬ್ಲ್ಯುಎಫ್‌ಹೆಚ್ (WFH) in messages." },
+    { "native": "ಸಭೆಯನ್ನು ಮುಂದೂಡಲಾಗಿದೆ", "roman": "sabheyannu mundūḍalāgide", "en": "The meeting has been postponed. (formal notice)" },
+    { "native": "ನಿಮ್ಮ ಬಗ್ಗೆ ಸ್ವಲ್ಪ ಹೇಳಿ", "roman": "nimma bagge svalpa hēḷi", "en": "Tell me a little about yourself. (interview)" }
+  ],
+  "grammar": [
+    {
+      "title": "Formal Kannada: full verb forms, ತಾವು, and the request ladder",
+      "body": "Kannada has a big gap between how you talk to a colleague at the coffee machine and how you write to HR or speak in a formal meeting. Spoken Bengaluru Kannada shortens verbs; formal Kannada (letters, emails, interviews, government offices, speeches, the news) uses the **full written forms**.\n\n**Verb endings, spoken → formal:**\nನಾನು ಮಾಡ್ತೀನಿ → ಮಾಡುತ್ತೇನೆ 'I do / will do'\nನೀವು ಮಾಡ್ತೀರ → ಮಾಡುತ್ತೀರಿ\nಅವರು ಮಾಡ್ತಾರೆ → ಮಾಡುತ್ತಾರೆ\nನಾವು ಮಾಡ್ತೀವಿ → ಮಾಡುತ್ತೇವೆ\nನಾನು ಇದ್ದೀನಿ → ಇದ್ದೇನೆ; ಕಳಿಸಿದ್ದೀನಿ → ಕಳಿಸಿದ್ದೇನೆ 'I have sent'\nಮಾಡಿದ್ರು → ಮಾಡಿದರು; ಆಯ್ತು → ಆಯಿತು; ಮಾಡ್ಬೇಕು → ಮಾಡಬೇಕು\nThe pattern: spoken **-ಈನಿ / -ಈವಿ** become **-ಏನೆ / -ಏವೆ**, and the swallowed vowels come back.\n\n**Respect words.** Talk *about* any senior with the plural: ಬಾಸ್ ಬಂದಿದ್ದಾರೆ, ರಾವ್ ಸಾರ್ ಹೇಳಿದ್ರು. Put **ಅವರು** after a name (ರಮೇಶ್ ಅವರು; calling someone: ರಮೇಶ್ ಅವರೇ!) or use ಸಾರ್ / ಮೇಡಂ. In writing, the most respectful 'you' is **ತಾವು** (ತಮ್ಮ 'your', ತಮಗೆ 'to you'): ತಮಗೆ ಸಮಯ ಇದ್ದರೆ 'if you have time'.\n\n**The request ladder**, from casual to formal:\nಕೊಡು (friend) → ಕೊಡಿ (polite) → ಕೊಡ್ತೀರಾ? 'will you give?' (softer) → ಕೊಡಬಹುದಾ? 'could you / may I have?' → ದಯವಿಟ್ಟು ಕೊಡಿ (formal) → ನೀಡಬೇಕಾಗಿ ವಿನಂತಿ 'I request that you grant' (letters only).\nFormal Kannada also swaps some everyday words: **ನೀಡು** for ಕೊಡು 'give', **ತಿಳಿಸು** 'inform' for ಹೇಳು, **ಸಂಪರ್ಕಿಸು** 'contact' for ಫೋನ್ ಮಾಡು.\n\n**A formal letter or email**: ಮಾನ್ಯರೇ, 'Dear Sir/Madam,' … ತಮ್ಮಲ್ಲಿ ವಿನಂತಿ 'I request you…' … ನಿಮ್ಮ ಸಹಕಾರಕ್ಕೆ ಧನ್ಯವಾದಗಳು … ಇಂತಿ ತಮ್ಮ ವಿಶ್ವಾಸಿ 'Yours faithfully'.\n\n**In real Bengaluru offices** people mix: full forms and ಸಾರ್ for respect, English for work nouns: ಸಾರ್, ಮೇಲ್ ಕಳಿಸಿದ್ದೇನೆ, ಚೆಕ್ ಮಾಡಿ. Over-formal Kannada with a friend sounds sarcastic, so switch back down at the coffee machine.",
+      "examples": [
+        { "native": "ನಾನು ಈ ಕೆಲಸವನ್ನು ನಾಳೆ ಮುಗಿಸುತ್ತೇನೆ", "roman": "nānu ī kelasavannu nāḷe mugisuttēne", "en": "I will finish this work tomorrow." },
+        { "native": "ತಮಗೆ ಸಮಯ ಇದ್ದಾಗ ದಯವಿಟ್ಟು ಕರೆ ಮಾಡಿ", "roman": "tamage samaya iddāga dayaviṭṭu kare māḍi", "en": "Please call when you have time." },
+        { "native": "ರಾವ್ ಸಾರ್ ಮೀಟಿಂಗಲ್ಲಿ ಇದ್ದಾರೆ", "roman": "rāv sār mīṭiṅgalli iddāre", "en": "Mr Rao is in a meeting." },
+        { "native": "ಮಾನ್ಯರೇ, ಈ ವಿಷಯದ ಬಗ್ಗೆ ತಮ್ಮ ಅಭಿಪ್ರಾಯ ತಿಳಿಸಿ", "roman": "mānyarē, ī viṣayada bagge tamma abhiprāya tiḷisi", "en": "Dear Sir/Madam, please let me know your opinion on this matter." },
+        { "native": "ಸಾರ್, ಆ ಫೈಲ್ ಕಳಿಸ್ತೀರಾ?", "roman": "sār, ā phail kaḷistīrā?", "en": "Sir, could you send me that file?" }
+      ]
+    },
+    {
+      "title": "'It was decided': passive and impersonal sentences",
+      "body": "Spoken Kannada rarely uses a true passive. To say what 'was done' without naming who did it, it has three tools, from casual to formal.\n\n**1. ಆಗು instead of ಮಾಡು.** Many actions are a noun or an English word + ಮಾಡು 'do'. Swap ಮಾಡು for **ಆಗು** 'happen' and the doer disappears:\nಮ್ಯಾನೇಜರ್ ಲೀವ್ ಅಪ್ರೂವ್ ಮಾಡಿದ್ರು 'the manager approved the leave' → ಲೀವ್ ಅಪ್ರೂವ್ ಆಯ್ತು 'the leave got approved'\nನಿರ್ಧಾರ ಮಾಡಿದ್ರು 'they decided' → ನಿರ್ಧಾರ ಆಯ್ತು 'it was decided'\nಆಯ್ಕೆ ಮಾಡಿದ್ರು 'they selected (me)' → ಆಯ್ಕೆ ಆದೆ 'I got selected'\nPairs of plain verbs work the same way: ಮುಗಿಸು 'finish (something)' / ಮುಗಿ 'get finished'; ಬದಲಾಯಿಸು 'change (something)' / ಬದಲಾಗು 'change, get changed'. The trap: if the sentence has a doer, it must be ಮಾಡು: ಮ್ಯಾನೇಜರ್ ಅಪ್ರೂವ್ ಮಾಡಿಲ್ಲ, not ಆಗಿಲ್ಲ.\n\n**2. Just leave out the subject.** A 'they' verb with no subject means 'I was told / people say': ಮೀಟಿಂಗ್ ಇಲ್ಲ ಅಂತ ಹೇಳಿದ್ರು 'I was told there's no meeting'. Add ಅಂತೆ for office gossip: ಸಂಬಳ ಜಾಸ್ತಿ ಮಾಡ್ತಾರಂತೆ 'apparently salaries are going up'.\n\n**3. The formal passive: infinitive + ಲಾಗು.** Notices, official emails, the news and announcements use the infinitive (ಮಾಡ, ತಿಳಿಸ, ಮುಂದೂಡ, ನಿರ್ಧರಿಸ) + forms of ಆಗು:\nಮಾಡಲಾಯಿತು 'was done'\nಮಾಡಲಾಗಿದೆ 'has been done'\nಮಾಡಲಾಗುವುದು 'will be done'\nಮಾಡಲಾಗುತ್ತಿದೆ 'is being done'\nThe object keeps its -ಅನ್ನು (ಸಭೆಯನ್ನು ಮುಂದೂಡಲಾಗಿದೆ 'the meeting has been postponed') and the verb agrees with nothing: ನಿರ್ಧರಿಸಲಾಯಿತು 'it was decided', ಎಲ್ಲರಿಗೂ ತಿಳಿಸಲಾಗಿದೆ 'everyone has been informed'. A doer, if named, takes ಇಂದ or ಕಡೆಯಿಂದ: ಕ್ಲೈಂಟ್ ಕಡೆಯಿಂದ 'from the client's side'.\n\nDon't say -ಲಾಗಿದೆ to friends (you'll sound like a news reader), but you will read it on every notice board, bank SMS and office email.",
+      "examples": [
+        { "native": "ಕೆಲಸ ಮುಗೀತು, ಈಗ ಮನೆಗೆ ಹೋಗೋಣ", "roman": "kelasa mugītu, īga manege hōgōṇa", "en": "The work's done, let's go home now." },
+        { "native": "ನಾಳೆ ಕಚೇರಿಗೆ ರಜೆ ಘೋಷಿಸಲಾಗಿದೆ", "roman": "nāḷe kachērige raje ghōṣisalāgide", "en": "A holiday has been declared for the office tomorrow." },
+        { "native": "ಹೊಸ ನಿಯಮದ ಬಗ್ಗೆ ಎಲ್ಲರಿಗೂ ತಿಳಿಸಲಾಗುವುದು", "roman": "hosa niyamada bagge ellarigū tiḷisalāguvudu", "en": "Everyone will be informed about the new rule." },
+        { "native": "ಪ್ರಾಜೆಕ್ಟ್‌ಗೆ ಹೊಸ ಮ್ಯಾನೇಜರ್ ಆಯ್ಕೆ ಆಗಿದ್ದಾರೆ", "roman": "prājekṭge hosa myānējar āyke āgiddāre", "en": "A new manager has been chosen for the project." },
+        { "native": "ಸಂಬಳ ಜಾಸ್ತಿ ಮಾಡ್ತಾರಂತೆ!", "roman": "sambaḷa jāsti māḍtārante!", "en": "Apparently they're raising salaries!" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Monday morning in Whitefield",
+    "setting": "Priya gets to her office in Whitefield after a weekend away. Her colleague Suresh has news, and then there's a meeting with their manager, Mr Rao.",
+    "lines": [
+      { "speaker": "Suresh", "native": "ಗುಡ್ ಮಾರ್ನಿಂಗ್ ಪ್ರಿಯಾ! ವೀಕೆಂಡ್ ಹೇಗಿತ್ತು?", "roman": "guḍ mārniṅg priyā! vīkeṇḍ hēgittu?", "en": "Morning, Priya! How was the weekend?" },
+      { "speaker": "Priya", "native": "ಸೂಪರ್ ಆಗಿತ್ತು, ಮೈಸೂರಿಗೆ ಹೋಗಿದ್ದೆ. ಏನ್ ಸುದ್ದಿ ಇಲ್ಲಿ?", "roman": "sūpar āgittu, maisūrige hōgidde. ēn suddi illi?", "en": "Great, I went to Mysuru. What's new here?" },
+      { "speaker": "Suresh", "native": "ದೊಡ್ಡ ಸುದ್ದಿ! ಕ್ಲೈಂಟ್ ಡೆಡ್‌ಲೈನ್ ಶುಕ್ರವಾರಕ್ಕೆ ಮುಂದೆ ತಂದಿದ್ದಾರೆ.", "roman": "doḍḍa suddi! klaiṇṭ ḍeḍlain shukravārakke munde tandiddāre.", "en": "Big news! The client has brought the deadline forward to Friday." },
+      { "speaker": "Priya", "native": "ಏನು?! ಇನ್ನೂ ಅರ್ಧ ಕೆಲಸ ಬಾಕಿ ಇದೆ.", "roman": "ēnu?! innū ardha kelasa bāki ide.", "en": "What?! Half the work is still left." },
+      { "speaker": "Suresh", "native": "ಅದಕ್ಕೇ ಹತ್ತು ಗಂಟೆಗೆ ಮೀಟಿಂಗ್ ಇಟ್ಟಿದ್ದಾರೆ. ರಾವ್ ಸಾರ್ ಮೂಡ್ ಸರಿ ಇಲ್ಲ, ಹುಷಾರು!", "roman": "adakkē hattu gaṇṭege mīṭiṅg iṭṭiddāre. rāv sār mūḍ sari illa, huṣāru!", "en": "That's why there's a meeting at ten. Rao sir's in a bad mood, careful!" },
+      { "speaker": "Mr Rao", "native": "ನಮಸ್ಕಾರ. ಕ್ಲೈಂಟ್ ಕಡೆಯಿಂದ ಡೆಡ್‌ಲೈನ್ ಬದಲಾಯಿಸಲಾಗಿದೆ. ಶುಕ್ರವಾರದೊಳಗೆ ಮೊದಲ ಭಾಗ ಕೊಡಬೇಕು.", "roman": "namaskāra. klaiṇṭ kaḍeyinda ḍeḍlain badalāyisalāgide. shukravāradoḷage modala bhāga koḍabēku.", "en": "Good morning. The deadline has been changed by the client. We have to deliver the first part by Friday." },
+      { "speaker": "Priya", "native": "ಸಾರ್, ನನ್ನ ಭಾಗ ಗುರುವಾರ ಸಂಜೆ ಒಳಗೆ ಮುಗಿಸುತ್ತೇನೆ. ಆದರೆ ಟೆಸ್ಟಿಂಗ್‌ಗೆ ಇನ್ನೊಬ್ಬರು ಬೇಕು.", "roman": "sār, nanna bhāga guruvāra sañje oḷage mugisuttēne. ādare ṭesṭiṅge innobbaru bēku.", "en": "Sir, I'll finish my part by Thursday evening. But we need one more person for testing." },
+      { "speaker": "Mr Rao", "native": "ಸರಿ, ಸುರೇಶ್ ನಿಮ್ಮ ಜೊತೆ ಕೆಲಸ ಮಾಡ್ತಾರೆ. ಇನ್ನೇನಾದ್ರೂ ಸಮಸ್ಯೆ ಇದ್ರೆ ನನಗೆ ತಿಳಿಸಿ.", "roman": "sari, surēsh nimma jote kelasa māḍtāre. innēnādrū samasye idre nanage tiḷisi.", "en": "All right, Suresh will work with you. If there's any other problem, let me know." },
+      { "speaker": "Priya", "native": "ಒಂದು ವಿಷಯ ಸಾರ್... ಶುಕ್ರವಾರ ಲೀವ್ ತಗೋಬೇಕು ಅಂತ ಇದ್ದೆ. ನನ್ನ ತಂಗಿಯ ನಿಶ್ಚಿತಾರ್ಥ.", "roman": "ondu viṣaya sār... shukravāra līv tagōbēku anta idde. nanna taṅgiya nishchitārtha.", "en": "One thing, sir... I was planning to take Friday off. It's my sister's engagement." },
+      { "speaker": "Mr Rao", "native": "ಓಹ್, ಪರವಾಗಿಲ್ಲ. ಗುರುವಾರದೊಳಗೆ ಕೆಲಸ ಮುಗಿದ್ರೆ ಲೀವ್ ತಗೊಳ್ಳಿ. ಅರ್ಜಿ ಹಾಕಿ, ಅಪ್ರೂವ್ ಮಾಡ್ತೀನಿ.", "roman": "ōh, paravāgilla. guruvāradoḷage kelasa mugidre līv tagoḷḷi. arji hāki, aprūv māḍtīni.", "en": "Oh, no problem. If the work is done by Thursday, take the day. Put in an application and I'll approve it." },
+      { "speaker": "Priya", "native": "ತುಂಬಾ ಧನ್ಯವಾದ ಸಾರ್.", "roman": "tumbā dhanyavāda sār.", "en": "Thank you very much, sir." },
+      { "speaker": "Suresh", "native": "ನೋಡಿದ್ಯಾ? ಮೂಡ್ ಸರಿ ಇಲ್ಲ ಅಂದ್ರೂ ಲೀವ್ ಕೊಟ್ರು! ಪಾರ್ಟಿ ಕೊಡಬೇಕು ನೀನು.", "roman": "nōḍidyā? mūḍ sari illa andrū līv koṭru! pārṭi koḍabēku nīnu.", "en": "See? Bad mood and all, he still gave you the day off! You owe us a party." }
+    ]
+  },
+  "culture": "Bengaluru's offices, especially in tech, run on a mix of English, Kannada, Hindi, Tamil and Telugu, and many colleagues won't be Kannadigas. English is the default for work itself, so a colleague who hears you use Kannada will usually be delighted, and Kannada small talk (ಊಟ ಆಯ್ತಾ?, ಏನ್ ಮಚಾ?) builds friendships fast.\n\nHierarchy shows in language even when an office looks casual. Seniors are ಸಾರ್ / ಮೇಡಂ or name + ಅವರು, and are always referred to in the plural (ಬಾಸ್ ಹೇಳಿದ್ದಾರೆ). Startups use first names, but the plural verb stays. Slang like ಮಚಾ, ಮಗಾ and ಗುರು is for friends and peers your own age, mostly between men.\n\nGovernment offices, banks and anything official in Karnataka work in formal Kannada: notices use the -ಲಾಗಿದೆ passive, letters begin with ಮಾನ್ಯರೇ and end with ಇಂತಿ ತಮ್ಮ ವಿಶ್ವಾಸಿ. Asking for leave usually comes with a reason (family function, a parent unwell, a trip home to your ಊರು), and good news at work (a promotion, a new job, an appraisal) is expected to be celebrated with a treat for the team.",
+  "lessons": [
+    {
+      "title": "Chatting with colleagues",
+      "tip": { "title": "Colleagues: friendly but careful", "body": "- Peers your age: **ನೀನು** forms and slang like **ಮಚಾ** / **ಗುರು** 'mate'.\n- Seniors and anyone older: **ನೀವು** forms, ಸಾರ್ / ಮೇಡಂ, or name + **ಅವರು**.\n- Talking *about* a senior: always plural: ಬಾಸ್ **ಬಂದಿದ್ದಾರೆ**, not ಬಂದಿದ್ದಾನೆ.", "pattern": "ನೀನು … -ಈಯ  ·  ನೀವು … -ಈರಾ  ·  ಬಾಸ್ … -ಆರೆ", "grammar": 0 },
+      "new": ["ಬಾಸ್", "ಟೀಮ್", "ಕಂಪನಿ", "ಬ್ಯುಸಿ", "ಏನ್ ಮಚಾ, ಬ್ಯುಸಿನಾ?", "ಕಾಫಿ ಬ್ರೇಕ್ ಹೋಗೋಣ್ವಾ?", "ಬಾಸ್ ಮೂಡ್ ಹೇಗಿದೆ ಇವತ್ತು?", "ಇವತ್ತು ತುಂಬಾ ಕೆಲಸ ಇದೆ"],
+      "sentences": [
+        { "native": "ಏನ್ ಗುರು, ಇವತ್ತು ಬೇಗ ಬಂದಿದ್ದೀಯ?", "roman": "ēn guru, ivattu bēga bandiddīya?", "en": "Hey mate, you're in early today?", "focus": "ಬಂದಿದ್ದೀಯ", "wrong": ["ಬಂದಿದ್ದೀರ|bandiddīra", "ಬಂದಿದ್ದಾರೆ|bandiddāre"] },
+        { "native": "ಬಾಸ್ ಇನ್ನೂ ಬಂದಿಲ್ಲ, ಆರಾಮಾಗಿ ಕಾಫಿ ಕುಡಿ.", "roman": "bās innū bandilla, ārāmāgi kāphi kuḍi.", "en": "The boss isn't in yet, relax and drink your coffee." },
+        { "native": "ಬಾಸ್ ಇವತ್ತು ಮೀಟಿಂಗಲ್ಲಿ ಇದ್ದಾರೆ.", "roman": "bās ivattu mīṭiṅgalli iddāre.", "en": "The boss is in meetings today.", "focus": "ಇದ್ದಾರೆ", "wrong": ["ಇದ್ದಾನೆ|iddāne", "ಇದ್ದೀನಿ|iddīni"] },
+        { "native": "ನಮ್ಮ ಟೀಮಲ್ಲಿ ಹತ್ತು ಜನ ಇದ್ದೀವಿ.", "roman": "namma ṭīmalli hattu jana iddīvi.", "en": "There are ten of us in our team." },
+        { "native": "ನೀನು ಯಾವ ಕಂಪನೀಲಿ ಕೆಲಸ ಮಾಡ್ತೀಯ?", "roman": "nīnu yāva kampanīli kelasa māḍtīya?", "en": "Which company do you work at? (informal)", "focus": "ಮಾಡ್ತೀಯ", "wrong": ["ಮಾಡ್ತೀನಿ|māḍtīni", "ಮಾಡ್ತಾನೆ|māḍtāne"] },
+        { "native": "ರಮೇಶ್ ಅವರೇ, ಒಂದು ನಿಮಿಷ ಸಿಗ್ತೀರಾ?", "roman": "ramēsh avarē, ondu nimiṣa sigtīrā?", "en": "Ramesh, do you have a minute? (polite)", "focus": "ಸಿಗ್ತೀರಾ", "wrong": ["ಸಿಗ್ತೀಯ|sigtīya", "ಸಿಗ್ತಾನೆ|sigtāne"] },
+        { "native": "ಇಲ್ಲ ಮಚಾ, ಇವತ್ತು ತುಂಬಾ ಬ್ಯುಸಿ.", "roman": "illa machā, ivattu tumbā byusi.", "en": "No mate, really busy today." },
+        { "native": "ಊಟಕ್ಕೆ ಬರ್ತೀಯ ಮಚಾ?", "roman": "ūṭakke bartīya machā?", "en": "Coming for lunch, mate?", "focus": "ಬರ್ತೀಯ", "wrong": ["ಬರ್ತೀರ|bartīra", "ಬರ್ತಾರೆ|bartāre"] },
+        { "native": "ಮೇಡಂ, ನೀವು ಕಾಫಿ ಕುಡೀತೀರಾ?", "roman": "mēḍam, nīvu kāphi kuḍītīrā?", "en": "Ma'am, would you like a coffee?", "focus": "ಕುಡೀತೀರಾ", "wrong": ["ಕುಡೀತೀಯ|kuḍītīya", "ಕುಡೀತಾರೆ|kuḍītāre"] },
+        { "native": "ಬಾಸ್ ಮೂಡ್ ಇವತ್ತು ಸರಿ ಇಲ್ಲ, ಹುಷಾರು!", "roman": "bās mūḍ ivattu sari illa, huṣāru!", "en": "The boss is in a bad mood today, watch out!" }
+      ]
+    },
+    {
+      "title": "Projects and deadlines",
+      "tip": { "title": "By when? time + ಒಳಗೆ", "body": "- **By** a time = time + **ಒಳಗೆ** 'inside, within': ಸಂಜೆ **ಒಳಗೆ** 'by evening'.\n- It fuses after -ದ: ಶುಕ್ರವಾರ**ದೊಳಗೆ** 'by Friday', ಎರಡು ದಿನ**ದೊಳಗೆ** 'within two days'.\n- **ಮುಗಿ** = it gets finished, **ಮುಗಿಸು** = you finish it: ಕೆಲಸ ಮುಗೀತು / ನಾನು ಕೆಲಸ ಮುಗಿಸಿದೆ.", "pattern": "time + ಒಳಗೆ + ಮುಗಿಸು" },
+      "new": ["ಪ್ರಾಜೆಕ್ಟ್", "ಕ್ಲೈಂಟ್", "ಡೆಡ್‌ಲೈನ್", "ಮುಗಿಸು", "ಜವಾಬ್ದಾರಿ", "ಡೆಡ್‌ಲೈನ್ ಯಾವಾಗ?", "ಇವತ್ತು ಸಂಜೆ ಒಳಗೆ ಮುಗಿಸ್ತೀನಿ", "ಮೀಟಿಂಗ್ ಎಷ್ಟು ಗಂಟೆಗೆ?"],
+      "sentences": [
+        { "native": "ಈ ಪ್ರಾಜೆಕ್ಟ್ ಶುಕ್ರವಾರದೊಳಗೆ ಮುಗಿಸಬೇಕು.", "roman": "ī prājekṭ shukravāradoḷage mugisabēku.", "en": "This project has to be finished by Friday.", "focus": "ಶುಕ್ರವಾರದೊಳಗೆ", "wrong": ["ಶುಕ್ರವಾರದಿಂದ|shukravāradinda", "ಶುಕ್ರವಾರದ|shukravārada"] },
+        { "native": "ಕ್ಲೈಂಟ್ ಡೆಡ್‌ಲೈನ್ ಬದಲಾಯಿಸಿದ್ದಾರೆ.", "roman": "klaiṇṭ ḍeḍlain badalāyisiddāre.", "en": "The client has changed the deadline." },
+        { "native": "ಎರಡು ದಿನದೊಳಗೆ ಮುಗಿಸಿ ಕಳಿಸ್ತೀನಿ.", "roman": "eraḍu dinadoḷage mugisi kaḷistīni.", "en": "I'll finish it and send it within two days.", "focus": "ದಿನದೊಳಗೆ", "wrong": ["ದಿನದಿಂದ|dinadinda", "ದಿನಕ್ಕೆ|dinakke"] },
+        { "native": "ಕೆಲಸ ಇನ್ನೂ ಮುಗಿದಿಲ್ಲ, ಇನ್ನೊಂದು ಗಂಟೆ ಬೇಕು.", "roman": "kelasa innū mugidilla, innondu gaṇṭe bēku.", "en": "The work isn't done yet, I need another hour.", "focus": "ಮುಗಿದಿಲ್ಲ", "wrong": ["ಮುಗಿಸಿಲ್ಲ|mugisilla", "ಮುಗೀತು|mugītu"] },
+        { "native": "ನಾನು ನನ್ನ ಕೆಲಸ ಮುಗಿಸಿದೆ, ನೀನು?", "roman": "nānu nanna kelasa mugiside, nīnu?", "en": "I've finished my bit, what about you?", "focus": "ಮುಗಿಸಿದೆ", "wrong": ["ಮುಗೀತು|mugītu", "ಮುಗಿದೆ|mugide"] },
+        { "native": "ಈ ಕ್ಲೈಂಟ್ ನಿನ್ನ ಜವಾಬ್ದಾರಿ.", "roman": "ī klaiṇṭ ninna javābdāri.", "en": "This client is your responsibility." },
+        { "native": "ಮೀಟಿಂಗ್ ಹನ್ನೊಂದು ಗಂಟೆಗೆ, ಹತ್ತೂವರೆ ಒಳಗೆ ರೆಡಿ ಆಗಿರಿ.", "roman": "mīṭiṅg hannondu gaṇṭege, hattūvare oḷage reḍi āgiri.", "en": "The meeting's at eleven, be ready by half past ten.", "focus": "ಒಳಗೆ", "wrong": ["ಹೊರಗೆ|horage", "ಮೇಲೆ|mēle"] },
+        { "native": "ಡೆಡ್‌ಲೈನ್ ನಾಳೆನಾ? ಅಯ್ಯೋ, ಇವತ್ತು ರಾತ್ರಿ ಕೂತು ಮುಗಿಸಬೇಕು.", "roman": "ḍeḍlain nāḷenā? ayyō, ivattu rātri kūtu mugisabēku.", "en": "The deadline's tomorrow? Oh no, I'll have to sit up tonight and finish it.", "focus": "ಮುಗಿಸಬೇಕು", "wrong": ["ಮುಗಿಯಬೇಕು|mugiyabēku", "ಮುಗೀತು|mugītu"] },
+        { "native": "ಸಂಜೆ ಒಳಗೆ ಮುಗಿಯುತ್ತಾ?", "roman": "sañje oḷage mugiyuttā?", "en": "Will it be done by this evening?", "focus": "ಒಳಗೆ", "wrong": ["ಹೊರಗೆ|horage", "ತನಕ|tanaka"] }
+      ]
+    },
+    {
+      "title": "Writing to your boss",
+      "tip": { "title": "Formal Kannada: full forms", "body": "- In emails, interviews and formal meetings, use the full forms: ಮಾಡ್ತೀನಿ → **ಮಾಡುತ್ತೇನೆ**, ಇದ್ದೀನಿ → **ಇದ್ದೇನೆ**, ಕಳಿಸಿದ್ದೀನಿ → **ಕಳಿಸಿದ್ದೇನೆ**.\n- Requests: **ದಯವಿಟ್ಟು** + the -ಇ form: ದಯವಿಟ್ಟು ತಿಳಿಸಿ.\n- The most respectful written 'you': **ತಾವು**, ತಮ್ಮ, **ತಮಗೆ**.", "pattern": "ಮಾಡ್ತೀನಿ → ಮಾಡುತ್ತೇನೆ  ·  ನಿಮಗೆ → ತಮಗೆ", "grammar": 0 },
+      "new": ["ಮೇಲ್", "ತಿಳಿಸು", "ಮಾಹಿತಿ", "ಸಂಪರ್ಕಿಸು", "ಸಹಕಾರ", "ದಯವಿಟ್ಟು ತಿಳಿಸಿ", "ತಡವಾಗಿದ್ದಕ್ಕೆ ಕ್ಷಮೆ ಇರಲಿ", "ನಿಮ್ಮ ಸಹಕಾರಕ್ಕೆ ಧನ್ಯವಾದಗಳು"],
+      "sentences": [
+        { "native": "ಸಾರ್, ನಾನು ಆ ಮೇಲ್ ಕಳಿಸಿದ್ದೇನೆ.", "roman": "sār, nānu ā mēl kaḷisiddēne.", "en": "Sir, I have sent that email.", "focus": "ಕಳಿಸಿದ್ದೇನೆ", "wrong": ["ಕಳಿಸಿದ್ದಾರೆ|kaḷisiddāre", "ಕಳಿಸಿದ್ದೀರಿ|kaḷisiddīri"] },
+        { "native": "ಮೇಲ್ ನೋಡಿ ದಯವಿಟ್ಟು ತಿಳಿಸಿ.", "roman": "mēl nōḍi dayaviṭṭu tiḷisi.", "en": "Please look at the email and let me know.", "focus": "ತಿಳಿಸಿ", "wrong": ["ತಿಳಿಸು|tiḷisu", "ತಿಳಿಸಿದೆ|tiḷiside"] },
+        { "native": "ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗೆ ನನ್ನನ್ನು ಸಂಪರ್ಕಿಸಿ.", "roman": "hechchina māhitige nannannu samparkisi.", "en": "For more information, please contact me.", "focus": "ಸಂಪರ್ಕಿಸಿ", "wrong": ["ಸಂಪರ್ಕಿಸು|samparkisu", "ಸಂಪರ್ಕಿಸಿದೆ|samparkiside"] },
+        { "native": "ನಾಳೆ ಬೆಳಿಗ್ಗೆ ಹತ್ತು ಗಂಟೆಗೆ ಬರುತ್ತೇನೆ.", "roman": "nāḷe beḷigge hattu gaṇṭege baruttēne.", "en": "I will come at ten tomorrow morning.", "focus": "ಬರುತ್ತೇನೆ", "wrong": ["ಬರುತ್ತಾರೆ|baruttāre", "ಬರುತ್ತೀರಿ|baruttīri"] },
+        { "native": "ತಮಗೆ ಸಮಯ ಇದ್ದರೆ ನಾಳೆ ಭೇಟಿ ಮಾಡಬಹುದಾ?", "roman": "tamage samaya iddare nāḷe bhēṭi māḍabahudā?", "en": "If you have time, may I meet you tomorrow?", "focus": "ತಮಗೆ", "wrong": ["ನಿನಗೆ|ninage", "ನನಗೆ|nanage"] },
+        { "native": "ಮಾಹಿತಿ ಸಿಕ್ಕಿದ ತಕ್ಷಣ ತಿಳಿಸುತ್ತೇನೆ.", "roman": "māhiti sikkida takṣaṇa tiḷisuttēne.", "en": "I'll let you know as soon as I have the information.", "focus": "ತಿಳಿಸುತ್ತೇನೆ", "wrong": ["ತಿಳಿಸ್ತೀಯ|tiḷistīya", "ತಿಳಿಸುತ್ತಾರೆ|tiḷisuttāre"] },
+        { "native": "ನಿಮ್ಮ ಸಹಕಾರ ಇಲ್ಲದೆ ಇದು ಸಾಧ್ಯ ಆಗ್ತಿರಲಿಲ್ಲ.", "roman": "nimma sahakāra illade idu sādhya āgtiralilla.", "en": "This wouldn't have been possible without your support." },
+        { "native": "ಸಾರಿ ಸಾರ್, ಮೇಲ್ ಕಳಿಸೋಕೆ ಮರೆತು ಹೋಯ್ತು.", "roman": "sāri sār, mēl kaḷisōke maretu hōytu.", "en": "Sorry sir, I forgot to send the email." },
+        { "native": "ಉತ್ತರ ತಡವಾಗಿದ್ದಕ್ಕೆ ಕ್ಷಮೆ ಇರಲಿ.", "roman": "uttara taḍavāgiddakke kṣame irali.", "en": "Apologies for the late reply.", "focus": "ಇರಲಿ", "wrong": ["ಇದೆ|ide", "ಇತ್ತು|ittu"] }
+      ]
+    },
+    {
+      "title": "Asking for leave",
+      "tip": { "title": "Asking, from casual to formal", "body": "- ಕೊಡು (friend) → **ಕೊಡಿ** (polite) → **ಕೊಡ್ತೀರಾ?** (softer) → **ಕೊಡಬಹುದಾ?** 'could you / may I'.\n- 'May I…?' = verb + **-ಬಹುದಾ?**: ಲೀವ್ ತಗೋ**ಬಹುದಾ**?\n- In a letter: **ಮಾನ್ಯರೇ,** … ರಜೆ **ನೀಡಬೇಕಾಗಿ ವಿನಂತಿ** 'I request that you grant leave'.", "pattern": "ಕೊಡಿ → ಕೊಡ್ತೀರಾ? → ಕೊಡಬಹುದಾ?", "grammar": 0 },
+      "new": ["ಲೀವ್", "ಅರ್ಜಿ", "ಅನುಮತಿ", "ಕಾರಣ", "ಮಾನ್ಯರೇ", "ನೀಡು", "ಒಪ್ಪಿಗೆ", "ನಾಳೆ ಒಂದು ದಿನ ಲೀವ್ ಬೇಕು ಸಾರ್", "ನಾಳೆ ವರ್ಕ್ ಫ್ರಮ್ ಹೋಮ್ ಮಾಡ್ತೀನಿ"],
+      "sentences": [
+        { "native": "ಸಾರ್, ಶುಕ್ರವಾರ ಲೀವ್ ತಗೋಬಹುದಾ?", "roman": "sār, shukravāra līv tagōbahudā?", "en": "Sir, can I take Friday off?", "focus": "ತಗೋಬಹುದಾ", "wrong": ["ತಗೋತೀನಿ|tagōtīni", "ತಗೋ|tagō"] },
+        { "native": "ಯಾವ ಕಾರಣಕ್ಕೆ ಲೀವ್ ಬೇಕು?", "roman": "yāva kāraṇakke līv bēku?", "en": "What do you need leave for?" },
+        { "native": "ಅಮ್ಮನಿಗೆ ಹುಷಾರಿಲ್ಲ, ಎರಡು ದಿನ ಲೀವ್ ಕೊಡ್ತೀರಾ?", "roman": "ammanige huṣārilla, eraḍu dina līv koḍtīrā?", "en": "My mother's not well, could you give me two days' leave?", "focus": "ಕೊಡ್ತೀರಾ", "wrong": ["ಕೊಡ್ತೀಯ|koḍtīya", "ಕೊಟ್ರಾ|koṭrā"] },
+        { "native": "ಲೀವ್‌ಗೆ ಅರ್ಜಿ ಹಾಕಿ, ನಾನು ಒಪ್ಪಿಗೆ ಕೊಡ್ತೀನಿ.", "roman": "līvge arji hāki, nānu oppige koḍtīni.", "en": "Apply for leave and I'll approve it.", "focus": "ಹಾಕಿ", "wrong": ["ಹಾಕು|hāku", "ಹಾಕಿದೆ|hākide"] },
+        { "native": "ಮಾನ್ಯರೇ, ನನಗೆ ಎರಡು ದಿನ ರಜೆ ನೀಡಬೇಕಾಗಿ ವಿನಂತಿ.", "roman": "mānyarē, nanage eraḍu dina raje nīḍabēkāgi vinanti.", "en": "Dear Sir/Madam, I request two days' leave.", "focus": "ನೀಡಬೇಕಾಗಿ", "wrong": ["ನೀಡ್ತೀನಿ|nīḍtīni", "ನೀಡಿದೆ|nīḍide"] },
+        { "native": "ಮ್ಯಾನೇಜರ್ ಅನುಮತಿ ಇಲ್ಲದೆ ಲೀವ್ ತಗೋಬೇಡಿ.", "roman": "myānējar anumati illade līv tagōbēḍi.", "en": "Don't take leave without your manager's permission.", "focus": "ತಗೋಬೇಡಿ", "wrong": ["ತಗೋಬೇಡ|tagōbēḍa", "ತಗೊಳ್ಳಿ|tagoḷḷi"] },
+        { "native": "ನಾಳೆ ಸ್ವಲ್ಪ ಬೇಗ ಹೊರಡಬಹುದಾ ಸಾರ್?", "roman": "nāḷe svalpa bēga horaḍabahudā sār?", "en": "Could I leave a bit early tomorrow, sir?", "focus": "ಹೊರಡಬಹುದಾ", "wrong": ["ಹೊರಡ್ತೀನಿ|horaḍtīni", "ಹೊರಡು|horaḍu"] },
+        { "native": "ನಾಳೆ ವರ್ಕ್ ಫ್ರಮ್ ಹೋಮ್, ಏನಾದ್ರೂ ಬೇಕಾದ್ರೆ ಫೋನ್ ಮಾಡಿ.", "roman": "nāḷe vark phram hōm, ēnādrū bēkādre phōn māḍi.", "en": "I'm working from home tomorrow, call me if you need anything.", "focus": "ಮಾಡಿ", "wrong": ["ಮಾಡು|māḍu", "ಮಾಡ್ತೀನಿ|māḍtīni"] },
+        { "native": "ಕಾರಣ ಹೇಳದೆ ಲೀವ್ ತಗೊಂಡ್ರೆ ಬಾಸ್‌ಗೆ ಕೋಪ ಬರುತ್ತೆ.", "roman": "kāraṇa hēḷade līv tagoṇḍre bāsge kōpa barutte.", "en": "If you take leave without giving a reason, the boss gets angry." },
+        { "native": "ಲೀವ್‌ಗೆ ಒಪ್ಪಿಗೆ ಸಿಕ್ತಾ?", "roman": "līvge oppige siktā?", "en": "Did your leave get approved?" }
+      ]
+    },
+    {
+      "title": "Reading notices: what was decided",
+      "tip": { "title": "It was done: ಆಗು and -ಲಾಗಿದೆ", "body": "- Everyday: swap **ಮಾಡು** for **ಆಗು** and the doer disappears: ಅಪ್ರೂವ್ ಮಾಡಿದ್ರು 'they approved' → ಅಪ್ರೂವ್ **ಆಯ್ತು** 'it got approved'.\n- Notices and emails: infinitive + **-ಲಾಗಿದೆ** 'has been', **-ಲಾಯಿತು** 'was', **-ಲಾಗುವುದು** 'will be'.\n- Or leave out 'they': ಹೇಳಿದ್ರು 'I was told'.", "pattern": "ಮುಂದೂಡ + ಲಾಗಿದೆ  ·  ಅಪ್ರೂವ್ + ಆಯ್ತು", "grammar": 1 },
+      "new": ["ಅಪ್ರೂವ್", "ನಿರ್ಧಾರ", "ಸೂಚನೆ", "ಸಭೆಯನ್ನು ಮುಂದೂಡಲಾಗಿದೆ"],
+      "sentences": [
+        { "native": "ನನ್ನ ಲೀವ್ ಅಪ್ರೂವ್ ಆಯ್ತು!", "roman": "nanna līv aprūv āytu!", "en": "My leave got approved!", "focus": "ಆಯ್ತು", "wrong": ["ಮಾಡಿದೆ|māḍide", "ಮಾಡಿದ್ರು|māḍidru"] },
+        { "native": "ಮ್ಯಾನೇಜರ್ ಇನ್ನೂ ಅಪ್ರೂವ್ ಮಾಡಿಲ್ಲ.", "roman": "myānējar innū aprūv māḍilla.", "en": "The manager hasn't approved it yet.", "focus": "ಮಾಡಿಲ್ಲ", "wrong": ["ಆಗಿಲ್ಲ|āgilla", "ಆಯ್ತು|āytu"] },
+        { "native": "ಮೀಟಿಂಗ್ ಸೋಮವಾರಕ್ಕೆ ಮುಂದೂಡಲಾಗಿದೆ.", "roman": "mīṭiṅg sōmavārakke mundūḍalāgide.", "en": "The meeting has been postponed to Monday.", "focus": "ಮುಂದೂಡಲಾಗಿದೆ", "wrong": ["ಮುಂದೂಡ್ತೀನಿ|mundūḍtīni", "ಮುಂದೂಡು|mundūḍu"] },
+        { "native": "ಹೊಸ ಆಫೀಸಿಗೆ ಹೋಗೋ ನಿರ್ಧಾರ ಆಗಿದೆ.", "roman": "hosa āphīsige hōgō nirdhāra āgide.", "en": "It's been decided that we're moving to the new office.", "focus": "ಆಗಿದೆ", "wrong": ["ಮಾಡಿದೆ|māḍide", "ಆಗ್ತೀನಿ|āgtīni"] },
+        { "native": "ಮುಂದಿನ ತಿಂಗಳಿಂದ ಎಲ್ಲರೂ ವಾರಕ್ಕೆ ಮೂರು ದಿನ ಆಫೀಸಿಗೆ ಬರಬೇಕು ಅಂತ ನಿರ್ಧರಿಸಲಾಯಿತು.", "roman": "mundina tiṅgaḷinda ellarū vārakke mūru dina āphīsige barabēku anta nirdharisalāyitu.", "en": "It was decided that from next month everyone must come to the office three days a week.", "focus": "ನಿರ್ಧರಿಸಲಾಯಿತು", "wrong": ["ನಿರ್ಧರಿಸಿದೆ|nirdhariside", "ನಿರ್ಧರಿಸು|nirdharisu"] },
+        { "native": "ಎಲ್ಲರಿಗೂ ಸೂಚನೆ ಕಳಿಸಲಾಗಿದೆ.", "roman": "ellarigū sūchane kaḷisalāgide.", "en": "A notice has been sent to everyone.", "focus": "ಕಳಿಸಲಾಗಿದೆ", "wrong": ["ಕಳಿಸ್ತೀನಿ|kaḷistīni", "ಕಳಿಸು|kaḷisu"] },
+        { "native": "ಮೀಟಿಂಗ್ ಇಲ್ಲ ಅಂತೆ, ಈಗ ಹೇಳಿದ್ರು.", "roman": "mīṭiṅg illa ante, īga hēḷidru.", "en": "Apparently there's no meeting, I was just told.", "focus": "ಹೇಳಿದ್ರು", "wrong": ["ಹೇಳಿದೆ|hēḷide", "ಹೇಳು|hēḷu"] },
+        { "native": "ಸೂಚನೆ ಬರೋ ತನಕ ಕಾಯಿರಿ.", "roman": "sūchane barō tanaka kāyiri.", "en": "Wait until instructions come through." },
+        { "native": "ನಿರ್ಧಾರ ನಿಮಗೆ ಬಿಟ್ಟಿದ್ದು.", "roman": "nirdhāra nimage biṭṭiddu.", "en": "The decision is up to you." },
+        { "native": "ಕೆಲಸ ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ ಮುಗಿಸಲಾಗುವುದು.", "roman": "kelasa samayakke sariyāgi mugisalāguvudu.", "en": "The work will be completed on time.", "focus": "ಮುಗಿಸಲಾಗುವುದು", "wrong": ["ಮುಗಿಸಲಾಯಿತು|mugisalāyitu", "ಮುಗಿಸು|mugisu"] }
+      ]
+    },
+    {
+      "title": "A job interview",
+      "new": ["ಇಂಟರ್ವ್ಯೂ", "ಹುದ್ದೆ", "ಅನುಭವ", "ಆಯ್ಕೆ", "ನಿಮ್ಮ ಬಗ್ಗೆ ಸ್ವಲ್ಪ ಹೇಳಿ"],
+      "sentences": [
+        { "native": "ನಾಳೆ ನನಗೆ ಇಂಟರ್ವ್ಯೂ ಇದೆ, ಟೆನ್ಶನ್ ಆಗ್ತಿದೆ.", "roman": "nāḷe nanage iṇṭarvyū ide, ṭenshan āgtide.", "en": "I've got an interview tomorrow, I'm nervous." },
+        { "native": "ಯಾವ ಹುದ್ದೆಗೆ ಅರ್ಜಿ ಹಾಕಿದ್ದೀರ?", "roman": "yāva huddege arji hākiddīra?", "en": "Which position have you applied for?" },
+        { "native": "ನನಗೆ ಐದು ವರ್ಷದ ಅನುಭವ ಇದೆ.", "roman": "nanage aidu varṣada anubhava ide.", "en": "I have five years' experience." },
+        { "native": "ನೀವು ಈ ಕಂಪನಿ ಯಾಕೆ ಸೇರಬೇಕು ಅಂತ ಇದ್ದೀರ?", "roman": "nīvu ī kampani yāke sērabēku anta iddīra?", "en": "Why do you want to join this company?" },
+        { "native": "ನಿಮ್ಮ ಕೊನೆಯ ಕಂಪನಿ ಯಾಕೆ ಬಿಟ್ರಿ?", "roman": "nimma koneya kampani yāke biṭri?", "en": "Why did you leave your last company?" },
+        { "native": "ನೀವು ಆಯ್ಕೆ ಆಗಿದ್ದೀರ, ಅಭಿನಂದನೆಗಳು!", "roman": "nīvu āyke āgiddīra, abhinandanegaḷu!", "en": "You've been selected, congratulations!", "focus": "ಆಗಿದ್ದೀರ", "wrong": ["ಮಾಡಿದ್ದೀರ|māḍiddīra", "ಆಗಿದ್ದೀನಿ|āgiddīni"] },
+        { "native": "ಆಯ್ಕೆ ಆದ್ರೆ ಒಂದು ವಾರದೊಳಗೆ ಮೇಲ್ ಬರುತ್ತೆ.", "roman": "āyke ādre ondu vāradoḷage mēl barutte.", "en": "If you're selected, you'll get an email within a week." },
+        { "native": "ನಿಮಗೆ ಎಷ್ಟು ಸಂಬಳ ಬೇಕು?", "roman": "nimage eṣṭu sambaḷa bēku?", "en": "What salary are you expecting?" },
+        { "native": "ಇಂಟರ್ವ್ಯೂ ಹೇಗಾಯ್ತು? ಚೆನ್ನಾಗಾಯ್ತು, ನೋಡೋಣ.", "roman": "iṇṭarvyū hēgāytu? chennāgāytu, nōḍōṇa.", "en": "How did the interview go? It went well, let's see." }
+      ]
+    }
+  ]
+}

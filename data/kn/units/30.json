@@ -1,0 +1,198 @@
+{
+  "id": 30,
+  "title": "Feelings & support",
+  "goal": "Ask a friend what's wrong, comfort and encourage them, apologise properly, congratulate and offer condolences, and link events with 'while', 'as soon as', 'after' and 'until'.",
+  "intro": "Being a real friend in Kannada means knowing what to say when things go wrong, and when they go right: asking ಏನಾಯ್ತು? and actually listening, saying ಟೆನ್ಶನ್ ತಗೋಬೇಡ, saying sorry like you mean it, and demanding a ಪಾರ್ಟಿ when someone gets a promotion.\n\nTwo pieces of grammar carry this unit. First, most feelings in Kannada **happen to you**: ನನಗೆ ಬೇಜಾರಾಯ್ತು 'sadness happened to me', ಅವಳಿಗೆ ಅಳು ಬಂತು 'crying came to her'. Second, time clauses: **-ತಾ** 'while', **ತಕ್ಷಣ** 'as soon as', **ಮೇಲೆ** 'after' and **ತನಕ** 'until', which let you say 'call me as soon as you get home' and 'I'll stay until you feel better'.",
+  "vocab": [
+    { "native": "ಮೂಡ್", "roman": "mūḍ", "en": "mood", "pos": "noun", "note": "ಮೂಡ್ ಸರಿ ಇಲ್ಲ 'not in a good mood'; ಮೂಡ್ ಆಫ್ ಆಗಿದೆ 'feeling upset'." },
+    { "native": "ಟೆನ್ಶನ್", "roman": "ṭenshan", "en": "stress, worry, tension", "pos": "noun", "note": "The everyday word. ಟೆನ್ಶನ್ ಆಗು 'to feel stressed' (it happens to you), ಟೆನ್ಶನ್ ತಗೊ 'to stress yourself'." },
+    { "native": "ಒತ್ತಡ", "roman": "ottaḍa", "en": "pressure, stress", "pos": "noun", "note": "The Kannada word, common in news and at work: ಕೆಲಸದ ಒತ್ತಡ 'work pressure'." },
+    { "native": "ಹೆದರು", "roman": "hedaru", "en": "to be afraid, get scared", "pos": "verb", "note": "Normal subject: ನಾನು ಹೆದರಿದೆ 'I got scared'. ಹೆದರಬೇಡ 'don't be scared'. Noun: ಹೆದರಿಕೆ." },
+    { "native": "ಒಂಟಿ", "roman": "oṇṭi", "en": "alone, lonely", "pos": "adj", "note": "ಒಂಟಿಯಾಗಿ 'alone'; ಒಂಟಿ ಅನ್ನಿಸ್ತಿದೆ 'I feel lonely'." },
+    { "native": "ಯೋಚನೆ", "roman": "yōchane", "en": "thought; worry", "pos": "noun", "note": "ಯೋಚನೆ ಮಾಡು 'to think, to worry'. More everyday than the verb ಯೋಚಿಸು (unit 14)." },
+    { "native": "ಧೈರ್ಯ", "roman": "dhairya", "en": "courage", "pos": "noun", "note": "ಧೈರ್ಯ ತಗೊ 'take heart'; ಧೈರ್ಯ ಹೇಳು 'to encourage, comfort'; ಧೈರ್ಯವಾಗಿ 'bravely, confidently'." },
+    { "native": "ಸಮಾಧಾನ", "roman": "samādhāna", "en": "calm; comfort, relief", "pos": "noun", "note": "ಸಮಾಧಾನ ಆಯ್ತು 'I felt better / relieved'; ಸಮಾಧಾನ ಮಾಡು 'to console'; ಸಮಾಧಾನವಾಗಿರು 'stay calm'." },
+    { "native": "ಜೊತೆ", "roman": "jote", "en": "with; together", "pos": "postp", "note": "After the possessive: ನನ್ನ ಜೊತೆ 'with me', ಅಮ್ಮನ ಜೊತೆ 'with Mum'. Also ಜೊತೆಗೆ." },
+    { "native": "ಹಚ್ಚಿಕೊಳ್ಳು", "roman": "hachchikoḷḷu", "en": "to take to heart (lit. to apply to oneself)", "pos": "verb", "note": "Spoken ಹಚ್ಕೊ-: ಮನಸ್ಸಿಗೆ ಹಚ್ಕೋಬೇಡ 'don't take it to heart'." },
+    { "native": "ತನಕ", "roman": "tanaka", "en": "until, up to", "pos": "postp", "note": "Spoken; the written word is ವರೆಗೆ. After the -ಓ form of a verb: ಬರೋ ತನಕ 'until (someone) comes'." },
+    { "native": "ನೆಮ್ಮದಿ", "roman": "nemmadi", "en": "peace of mind", "pos": "noun", "note": "ನೆಮ್ಮದಿ ಆಯ್ತು 'I felt at ease'; ನೆಮ್ಮದಿ ಇಲ್ಲ 'I can't rest easy'." },
+    { "native": "ಕಣ್ಣೀರು", "roman": "kaṇṇīru", "en": "tears", "pos": "noun", "note": "ಕಣ್ಣು 'eye' + ನೀರು 'water'. ಕಣ್ಣೀರು ಬಂತು 'tears came'." },
+    { "native": "ಕಾಳಜಿ", "roman": "kāḷaji", "en": "care, concern", "pos": "noun", "note": "ಕಾಳಜಿ ಮಾಡು 'to look out for'; ಹುಷಾರು, ನಿನ್ನ ಕಾಳಜಿ ತಗೊ 'take care of yourself'." },
+    { "native": "ತಕ್ಷಣ", "roman": "takṣaṇa", "en": "immediately; as soon as", "pos": "adv", "note": "After a past form it means 'as soon as': ಬಂದ ತಕ್ಷಣ 'as soon as (you) come'. Also ತಕ್ಷಣ ಬಾ 'come at once'." },
+    { "native": "ರಿಸಲ್ಟ್", "roman": "risalṭ", "en": "result (of an exam)", "pos": "noun", "note": "Formal: ಫಲಿತಾಂಶ (in newspapers)." },
+    { "native": "ಪಾಸ್", "roman": "pās", "en": "pass (an exam)", "pos": "noun", "note": "ಪಾಸ್ ಆಗು 'to pass'." },
+    { "native": "ಫೇಲ್", "roman": "phēl", "en": "fail", "pos": "noun", "note": "ಫೇಲ್ ಆಗು 'to fail'. Said 'fēl'." },
+    { "native": "ಹೆಮ್ಮೆ", "roman": "hemme", "en": "pride", "pos": "noun", "note": "Positive pride: ನಿನ್ನ ಬಗ್ಗೆ ಹೆಮ್ಮೆ ಆಗುತ್ತೆ 'I'm proud of you'. Arrogance is ಅಹಂಕಾರ." },
+    { "native": "ಪ್ರಮೋಷನ್", "roman": "pramōṣan", "en": "promotion", "pos": "noun", "note": "ಪ್ರಮೋಷನ್ ಸಿಗು 'to get a promotion' (it 'is found' by you)." },
+    { "native": "ಕಂಗ್ರಾಟ್ಸ್", "roman": "kaṅgrāṭs", "en": "congrats", "pos": "interj", "note": "With friends. Polite and in writing: ಅಭಿನಂದನೆಗಳು (unit 18)." },
+    { "native": "ನೋಯಿಸು", "roman": "nōyisu", "en": "to hurt (someone)", "pos": "verb", "note": "Causative of ನೋಯು 'to ache'. ಮನಸ್ಸು ನೋಯಿಸು 'to hurt someone's feelings'." },
+    { "native": "ಬೇಕಂತ", "roman": "bēkanta", "en": "on purpose", "pos": "adv", "note": "Lit. 'saying (I) want it'. ಬೇಕಂತಲೇ 'deliberately' is stronger. Written ಬೇಕೆಂದು." },
+    { "native": "ಜಗಳ", "roman": "jagaḷa", "en": "quarrel, fight", "pos": "noun", "note": "ಜಗಳ ಆಡು 'to quarrel'; ಜಗಳ ಆಯ್ತು 'we had a fight'." },
+    { "native": "ಸಾವು", "roman": "sāvu", "en": "death", "pos": "noun", "note": "From ಸಾಯು 'to die', which is blunt about people; say ತೀರಿಕೊಳ್ಳು." },
+    { "native": "ತೀರಿಕೊಳ್ಳು", "roman": "tīrikoḷḷu", "en": "to pass away", "pos": "verb", "note": "The respectful verb. Spoken past: ತೀರಿಕೊಂಡ್ರು / ತೀರ್ಕೊಂಡ್ರು 'passed away'." },
+    { "native": "ಆತ್ಮ", "roman": "ātma", "en": "soul", "pos": "noun" },
+    { "native": "ಶಾಂತಿ", "roman": "shānti", "en": "peace", "pos": "noun", "note": "Also a common girl's name." }
+  ],
+  "phrases": [
+    { "native": "ಏನಾಯ್ತು? ಯಾಕೆ ಡಲ್ ಆಗಿದ್ದೀಯ?", "roman": "ēnāytu? yāke ḍal āgiddīya?", "en": "What happened? Why are you looking so down? (informal)", "note": "ಡಲ್ from English 'dull'. Polite: ಯಾಕೆ ಡಲ್ ಆಗಿದ್ದೀರ?" },
+    { "native": "ಟೆನ್ಶನ್ ತಗೋಬೇಡ", "roman": "ṭenshan tagōbēḍa", "en": "Don't stress. (informal)", "note": "Polite: ಟೆನ್ಶನ್ ತಗೋಬೇಡಿ." },
+    { "native": "ಎಲ್ಲಾ ಸರಿ ಹೋಗುತ್ತೆ", "roman": "ellā sari hōgutte", "en": "It'll all be fine. / Everything will sort itself out." },
+    { "native": "ನಾನಿದ್ದೀನಿ, ಯೋಚನೆ ಮಾಡಬೇಡ", "roman": "nāniddīni, yōchane māḍabēḍa", "en": "I'm here for you, don't worry. (informal)", "note": "ನಾನಿದ್ದೀನಿ = ನಾನು ಇದ್ದೀನಿ 'I am (here)'." },
+    { "native": "ಮನಸ್ಸಿಗೆ ಹಚ್ಕೋಬೇಡ", "roman": "manassige hachkōbēḍa", "en": "Don't take it to heart. (informal)" },
+    { "native": "ಧೈರ್ಯವಾಗಿರು", "roman": "dhairyavāgiru", "en": "Be strong. / Stay brave. (informal)", "note": "Polite: ಧೈರ್ಯವಾಗಿರಿ." },
+    { "native": "ಏನಾದ್ರೂ ಬೇಕಾದ್ರೆ ಹೇಳು", "roman": "ēnādrū bēkādre hēḷu", "en": "If you need anything, tell me. (informal)", "note": "Polite: … ಹೇಳಿ." },
+    { "native": "ನನ್ನಿಂದ ತಪ್ಪಾಯ್ತು, ಕ್ಷಮಿಸು", "roman": "nanninda tappāytu, kṣamisu", "en": "It was my fault, forgive me. (informal)", "note": "Lit. 'a mistake happened from me'. Polite: ಕ್ಷಮಿಸಿ." },
+    { "native": "ಬೇಕಂತ ಮಾಡಿಲ್ಲ", "roman": "bēkanta māḍilla", "en": "I didn't do it on purpose." },
+    { "native": "ನಿನ್ನ ತುಂಬಾ ನೆನಪಾಗ್ತಿದೆ", "roman": "ninna tumbā nenapāgtide", "en": "I really miss you. (informal)", "note": "Lit. 'your memory is happening a lot (to me)'. Young people also say ತುಂಬಾ ಮಿಸ್ ಮಾಡ್ತಿದ್ದೀನಿ." },
+    { "native": "ಕಂಗ್ರಾಟ್ಸ್! ಪಾರ್ಟಿ ಯಾವಾಗ?", "roman": "kaṅgrāṭs! pārṭi yāvāga?", "en": "Congrats! When's the party?", "note": "Good news means you owe your friends a treat." },
+    { "native": "ನಿನ್ನ ಬಗ್ಗೆ ಹೆಮ್ಮೆ ಆಗುತ್ತೆ", "roman": "ninna bagge hemme āgutte", "en": "I'm proud of you. (informal)", "note": "Lit. 'pride happens about you'. Polite: ನಿಮ್ಮ ಬಗ್ಗೆ …" },
+    { "native": "ಕೇಳಿ ತುಂಬಾ ಬೇಜಾರಾಯ್ತು", "roman": "kēḷi tumbā bējārāytu", "en": "I'm so sorry to hear that.", "note": "The standard thing to say on hearing bad news, from a breakup to a death." },
+    { "native": "ಅವರ ಆತ್ಮಕ್ಕೆ ಶಾಂತಿ ಸಿಗಲಿ", "roman": "avara ātmakke shānti sigali", "en": "May their soul rest in peace.", "note": "-ಲಿ is the 'may it…' ending (unit 18). Often written as a message or status." }
+  ],
+  "grammar": [
+    {
+      "title": "While, as soon as, after, until: -ತಾ, ತಕ್ಷಣ, ಮೇಲೆ, ತನಕ",
+      "body": "English puts a linking word ('while', 'as soon as', 'until') at the *start* of a clause. Kannada changes the **verb of the first clause** and puts the linking word *after* it. The time clause always comes first, and its verb never takes a person ending: the same form works for I, you, she or they.\n\n**While doing (same person): -ಉತ್ತಾ, spoken -ತಾ.** Take the present stem: ಮಾಡು → ಮಾಡುತ್ತಾ / **ಮಾಡ್ತಾ**, ಹೋಗು → **ಹೋಗ್ತಾ**, ಬರು → **ಬರ್ತಾ**, ಕುಡಿ → ಕುಡಿಯುತ್ತಾ / **ಕುಡೀತಾ**, ನೋಡು → **ನೋಡ್ತಾ**. ಕಾಫಿ ಕುಡೀತಾ ಮಾತಾಡೋಣ 'let's talk over coffee'. Doubled, it means 'as it went on': ಮಾತಾಡ್ತಾ ಮಾತಾಡ್ತಾ 'as we talked and talked'. With **-ಏ + ಇರು** it means 'keep on doing': ಅಳ್ತಾನೇ ಇದ್ದಾಳೆ 'she just keeps crying'.\n\n**While / when (different people, or a background situation)**: use the -ಆಗ form from unit 19: ನಾನು ಅಡುಗೆ ಮಾಡ್ತಿದ್ದಾಗ ಅವಳು ಫೋನ್ ಮಾಡಿದ್ಳು 'she called while I was cooking'.\n\n**As soon as: past relative form + ತಕ್ಷಣ.** The past relative form is the past stem + -ಅ, with no ending for the person: ಬಂದ, ಹೋದ, ಮಾಡಿದ, ಕೇಳಿದ, ಆದ, ಗೊತ್ತಾದ, ಮುಗಿದ. ಮನೆಗೆ ಬಂದ ತಕ್ಷಣ ಫೋನ್ ಮಾಡು 'call as soon as you get home'. (ಬಂದ ಕೂಡಲೇ means the same and is a little more formal.)\n\n**After: past relative form + ಮೇಲೆ**, run together in speech: ಬಂದ ಮೇಲೆ → **ಬಂದ್ಮೇಲೆ**, ಆದ ಮೇಲೆ → **ಆದ್ಮೇಲೆ**. ಊಟ ಆದ್ಮೇಲೆ 'after lunch'. It also means 'since' for a state that began then: ಅವನಿಗೆ ಪ್ರಮೋಷನ್ ಸಿಕ್ಕಿದ ಮೇಲೆ 'since he got the promotion'. **Before** is the -ಓಕೆ form + ಮುಂಚೆ: ಹೋಗೋಕೆ ಮುಂಚೆ 'before going'.\n\n**Until: -ಓ form + ತನಕ** (written: -ಉವ + ವರೆಗೆ). The -ಓ form is the spoken future relative form you know from ಬರೋ, ಹೋಗೋ: ಬರು → **ಬರೋ ತನಕ** / ಬರುವವರೆಗೆ, ಆಗು → **ಆಗೋ ತನಕ**, ಮುಗಿ → **ಮುಗಿಯೋ ತನಕ**, ಸಿಗು → **ಸಿಗೋ ತನಕ**.\n\n**The trap:** English often thinks of 'until' negatively ('I can't relax until he calls' = 'as long as he hasn't called'). Kannada keeps the verb **positive**: ಅವನು ಫೋನ್ ಮಾಡೋ ತನಕ ನೆಮ್ಮದಿ ಇಲ್ಲ, never ಮಾಡದ ತನಕ.",
+      "examples": [
+        { "native": "ನಡೀತಾ ಮಾತಾಡೋಣ, ಬಾ", "roman": "naḍītā mātāḍōṇa, bā", "en": "Come on, let's talk as we walk." },
+        { "native": "ವಿಷಯ ಗೊತ್ತಾದ ತಕ್ಷಣ ಓಡಿ ಬಂದೆ", "roman": "viṣaya gottāda takṣaṇa ōḍi bande", "en": "I came running as soon as I found out." },
+        { "native": "ಆಫೀಸ್ ಮುಗಿದ್ಮೇಲೆ ನಿನ್ನ ಮನೆಗೆ ಬರ್ತೀನಿ", "roman": "āphīs mugidmēle ninna manege bartīni", "en": "I'll come to your place after work." },
+        { "native": "ಎಲ್ಲಾ ಸರಿ ಆಗೋ ತನಕ ನಮ್ಮ ಮನೇಲೇ ಇರು", "roman": "ellā sari āgō tanaka namma manēlē iru", "en": "Stay at our place until everything's sorted out." },
+        { "native": "ನಾನು ಅಡುಗೆ ಮಾಡ್ತಿದ್ದಾಗ ಅವಳು ಫೋನ್ ಮಾಡಿದ್ಳು", "roman": "nānu aḍuge māḍtiddāga avaḷu phōn māḍidḷu", "en": "She called while I was cooking." }
+      ]
+    },
+    {
+      "title": "Feelings that happen to you: ನನಗೆ ಬೇಜಾರಾಯ್ತು, ಅಳು ಬಂತು",
+      "body": "In English you *are* sad or you *get* angry. In Kannada most feelings **happen to** you: the person who feels takes the dative **-ಗೆ** (ನನಗೆ, ನಿನಗೆ, ಅವನಿಗೆ, ಅವಳಿಗೆ, ಅವರಿಗೆ, ನಮಗೆ) and the feeling itself is the subject of **ಆಗು** 'to happen' or **ಬರು** 'to come'. So the verb is always the 'it' form (ಆಯ್ತು, ಆಗ್ತಿದೆ, ಬಂತು), never the 'I' or 'she' form. You met this with illness in unit 9 (ನನಗೆ ಜ್ವರ ಬಂದಿದೆ) and with ಖುಷಿ ಆಯ್ತು in unit 14; here is the full picture.\n\n**With ಆಗು** (states that come over you): ಬೇಜಾರು 'sadness, upset', ಖುಷಿ, ಭಯ, ಟೆನ್ಶನ್, ಆಶ್ಚರ್ಯ, ನಾಚಿಕೆ 'embarrassment', ಸಮಾಧಾನ 'relief', ನೆಮ್ಮದಿ, ಹೆಮ್ಮೆ, ನೆನಪು 'memory'. Tenses: ಆಗ್ತಿದೆ 'is happening (now)', ಆಯ್ತು 'happened', ಆಗುತ್ತೆ 'happens (usually)', ಆಗ್ತಿತ್ತು 'was happening'. Often written as one word: ಬೇಜಾರಾಯ್ತು, ನೆನಪಾಗ್ತಿದೆ.\n\n**With ಬರು** (things that well up from inside): ಕೋಪ 'anger', ಅಳು 'crying', ನಗು 'laughter', ನಿದ್ದೆ 'sleep', ಕಣ್ಣೀರು 'tears'. ಅವಳಿಗೆ ಅಳು ಬಂತು 'she started crying', ನನಗೆ ನಗು ಬಂತು 'I couldn't help laughing', ನಿದ್ದೆ ಬರ್ತಿಲ್ಲ 'I can't sleep'.\n\n**Missing someone** works the same way: (ನನಗೆ) ನಿನ್ನ ನೆನಪಾಗ್ತಿದೆ 'I miss you', lit. 'your memory is happening to me'. Young people also say ಮಿಸ್ ಮಾಡ್ತಿದ್ದೀನಿ.\n\n**Doing it to yourself.** When a feeling is something you *let* yourself do, especially when telling someone not to, use **ಮಾಡ್ಕೊ** or **ತಗೊ** with a normal subject: ಬೇಜಾರು ಮಾಡ್ಕೋಬೇಡ 'don't be upset', ಟೆನ್ಶನ್ ತಗೋಬೇಡ 'don't stress', ಕೋಪ ಮಾಡ್ಕೊಂಡಿದ್ದಾಳೆ 'she's sulking / cross with us'. And some feelings are ordinary verbs: ನಾನು ಹೆದರಿದೆ 'I got scared', ಅವನು ಅತ್ತ 'he cried'.\n\n**The trap:** ನಾನು ಭಯ or ನಾನು ಕೋಪ ಬಂದೆ are wrong; say ನನಗೆ ಭಯ ಆಯ್ತು, ನನಗೆ ಕೋಪ ಬಂತು. (You will hear ನಾನು ಬೇಜಾರಾಗಿದ್ದೀನಿ 'I'm feeling low' in speech, but the dative pattern is never wrong.)",
+      "examples": [
+        { "native": "ನನಗೆ ತುಂಬಾ ಬೇಜಾರಾಗ್ತಿದೆ", "roman": "nanage tumbā bējārāgtide", "en": "I'm feeling really low." },
+        { "native": "ಸಿನಿಮಾ ನೋಡ್ತಾ ಅವಳಿಗೆ ಅಳು ಬಂತು", "roman": "sinimā nōḍtā avaḷige aḷu bantu", "en": "She cried watching the film." },
+        { "native": "ರಿಸಲ್ಟ್ ನೋಡಿದ ಮೇಲೆ ನೆಮ್ಮದಿ ಆಯ್ತು", "roman": "risalṭ nōḍida mēle nemmadi āytu", "en": "I felt relieved after seeing the result." },
+        { "native": "ಊರಿನ ನೆನಪಾಗ್ತಿದೆ", "roman": "ūrina nenapāgtide", "en": "I'm missing home." },
+        { "native": "ಎಲ್ಲರ ಮುಂದೆ ಬಿದ್ದೆ, ತುಂಬಾ ನಾಚಿಕೆ ಆಯ್ತು", "roman": "ellara munde bidde, tumbā nāchike āytu", "en": "I fell over in front of everyone, so embarrassing." },
+        { "native": "ಕೋಪ ಮಾಡ್ಕೋಬೇಡ, ತಮಾಷೆಗೆ ಹೇಳಿದೆ", "roman": "kōpa māḍkōbēḍa, tamāṣege hēḷide", "en": "Don't be cross, I was only joking." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Over coffee in Jayanagar",
+    "setting": "Karthik has gone quiet for a week. Ananya drags him to a darshini in Jayanagar 4th Block to find out why.",
+    "lines": [
+      { "speaker": "Ananya", "native": "ಏನಾಯ್ತು ಕಾರ್ತಿಕ್? ಫೋನ್ ಮಾಡಿದ್ರೆ ಎತ್ತಲ್ಲ, ಮುಖ ನೋಡಿದ್ರೆ ಡಲ್ ಆಗಿದ್ದೀಯ.", "roman": "ēnāytu kārtik? phōn māḍidre ettalla, mukha nōḍidre ḍal āgiddīya.", "en": "What's going on, Karthik? You don't pick up when I call, and you look so down." },
+      { "speaker": "Karthik", "native": "ಏನ್ ಹೇಳ್ಲಿ... ಕೆಲಸ ಹೋಯ್ತು. ಕಂಪನೀಲಿ ಐವತ್ತು ಜನನ್ನ ತೆಗೆದು ಹಾಕಿದ್ರು.", "roman": "ēn hēḷli... kelasa hōytu. kampanīli aivattu jananna tegedu hākidru.", "en": "What can I say... I lost my job. The company let fifty people go." },
+      { "speaker": "Ananya", "native": "ಅಯ್ಯೋ! ಯಾವಾಗ? ನನಗೆ ಮೊದಲೇ ಯಾಕೆ ಹೇಳಲಿಲ್ಲ?", "roman": "ayyō! yāvāga? nanage modalē yāke hēḷalilla?", "en": "Oh no! When? Why didn't you tell me before?" },
+      { "speaker": "Karthik", "native": "ಸೋಮವಾರ. ಮೀಟಿಂಗ್ ಮುಗಿದ ತಕ್ಷಣ ಕರೆದು ಹೇಳಿದ್ರು. ನಾಚಿಕೆ ಆಯ್ತು, ಯಾರಿಗೂ ಹೇಳಲಿಲ್ಲ.", "roman": "sōmavāra. mīṭiṅg mugida takṣaṇa karedu hēḷidru. nāchike āytu, yārigū hēḷalilla.", "en": "Monday. They called me in and told me right after the meeting. I felt embarrassed, so I didn't tell anyone." },
+      { "speaker": "Ananya", "native": "ಇದರಲ್ಲಿ ನಾಚಿಕೆ ಏನಿದೆ? ನಿನ್ನ ತಪ್ಪಲ್ಲ. ಮನಸ್ಸಿಗೆ ಹಚ್ಕೋಬೇಡ.", "roman": "idaralli nāchike ēnide? ninna tappalla. manassige hachkōbēḍa.", "en": "What's embarrassing about it? It's not your fault. Don't take it to heart." },
+      { "speaker": "Karthik", "native": "ಗೊತ್ತು, ಆದ್ರೂ ಟೆನ್ಶನ್ ಆಗುತ್ತೆ. ಮನೆ ಬಾಡಿಗೆ, ಲೋನ್... ರಾತ್ರಿ ನಿದ್ದೆನೇ ಬರ್ತಿಲ್ಲ.", "roman": "gottu, ādrū ṭenshan āgutte. mane bāḍige, lōn... rātri niddenē bartilla.", "en": "I know, but I still get stressed. Rent, the loan... I can't sleep at night." },
+      { "speaker": "Ananya", "native": "ನೋಡು, ನಿನ್ನಂಥ ಡೆವಲಪರ್‌ಗೆ ಕೆಲಸ ಸಿಗೋದು ಕಷ್ಟ ಅಲ್ಲ. ಹೊಸ ಕೆಲಸ ಸಿಗೋ ತನಕ ನಾನಿದ್ದೀನಿ.", "roman": "nōḍu, ninnantha ḍevalaparge kelasa sigōdu kaṣṭa alla. hosa kelasa sigō tanaka nāniddīni.", "en": "Look, it's not hard for a developer like you to find work. Until you find something new, I'm here." },
+      { "speaker": "Karthik", "native": "ನಿಜವಾಗ್ಲೂ? ಏನು ಮಾಡೋದು ಈಗ?", "roman": "nijavāglū? ēnu māḍōdu īga?", "en": "Really? So what do I do now?" },
+      { "speaker": "Ananya", "native": "ನಮ್ಮ ಆಫೀಸಲ್ಲಿ ಎರಡು ಓಪನಿಂಗ್ ಇದೆ. ಮನೆಗೆ ಹೋದ ತಕ್ಷಣ ನಿನ್ನ ರೆಸ್ಯೂಮ್ ಕಳಿಸು, ನಾನು ಮ್ಯಾನೇಜರ್‌ಗೆ ಕೊಡ್ತೀನಿ.", "roman": "namma āphīsalli eraḍu ōpaniṅg ide. manege hōda takṣaṇa ninna resyūm kaḷisu, nānu myānējarge koḍtīni.", "en": "There are two openings at my office. Send me your CV as soon as you get home, and I'll pass it to my manager." },
+      { "speaker": "Karthik", "native": "ಥ್ಯಾಂಕ್ಸ್ ಕಣೇ. ನಿನ್ ಜೊತೆ ಮಾತಾಡಿದ ಮೇಲೆ ಮನಸ್ಸು ಸ್ವಲ್ಪ ಹಗುರ ಆಯ್ತು.", "roman": "thyāṅks kaṇē. nin jote mātāḍida mēle manassu svalpa hagura āytu.", "en": "Thanks, really. I feel a bit lighter after talking to you." },
+      { "speaker": "Ananya", "native": "ಅದಕ್ಕೇ ಅಲ್ವಾ ಫ್ರೆಂಡ್ಸ್ ಇರೋದು? ಈಗ ಕಾಫಿ ಕುಡಿ, ತಣ್ಣಗಾಗೋಕೆ ಮುಂಚೆ.", "roman": "adakkē alvā phreṇḍs irōdu? īga kāphi kuḍi, taṇṇagāgōke muñche.", "en": "Isn't that what friends are for? Now drink your coffee before it goes cold." },
+      { "speaker": "Karthik", "native": "ಸರಿ, ಮೇಡಂ!", "roman": "sari, mēḍam!", "en": "Yes, ma'am!" }
+    ]
+  },
+  "culture": "Friends in Bengaluru comfort each other in a very Kannada way: by feeding you (ಊಟ ಆಯ್ತಾ? is often the first question), by dragging you out for coffee, and with the little address words **ಕಣೋ** (to a guy) and **ಕಣೇ** (to a girl), which soften anything: ಥ್ಯಾಂಕ್ಸ್ ಕಣೇ, ಟೆನ್ಶನ್ ತಗೋಬೇಡ ಕಣೋ. They are warm and only for people you're close to; never use them with elders or strangers.\n\nSaying sorry: ಸಾರಿ is for small things. For something that really hurt, say ನನ್ನಿಂದ ತಪ್ಪಾಯ್ತು 'it was my mistake', and to an elder use ಕ್ಷಮಿಸಿ; some people will touch an elder's feet to make up after a real wrong. Good news means a treat: if you pass an exam, get a job or a promotion, friends will immediately ask ಪಾರ್ಟಿ ಯಾವಾಗ? and family will hand out sweets.\n\nWhen someone dies, people visit the family's home in the first days without being invited, sit quietly, say little more than ಕೇಳಿ ತುಂಬಾ ಬೇಜಾರಾಯ್ತು and offer help. Don't bring gifts or sweets, and avoid bright colours. Messages and WhatsApp statuses say ಅವರ ಆತ್ಮಕ್ಕೆ ಶಾಂತಿ ಸಿಗಲಿ or simply 'RIP' / ಓಂ ಶಾಂತಿ.",
+  "lessons": [
+    {
+      "title": "Asking what's wrong",
+      "tip": { "title": "Feelings happen to you", "body": "- The person feeling takes **-ಗೆ** (ನನಗೆ, ಅವನಿಗೆ) and the feeling is the subject: ನನಗೆ ಟೆನ್ಶನ್ **ಆಗ್ತಿದೆ** 'I'm stressed'.\n- **ಆಗು** for states: ಬೇಜಾರು, ಖುಷಿ, ಭಯ, ಟೆನ್ಶನ್. **ಬರು** for what wells up: ಕೋಪ, ಅಳು, ನಗು, ನಿದ್ದೆ.\n- The verb is the 'it' form: ಅವಳಿಗೆ ಕೋಪ **ಬಂತು**, not ಬಂದಳು.", "pattern": "ನನಗೆ + feeling + ಆಗ್ತಿದೆ / ಆಯ್ತು / ಬಂತು", "grammar": 1 },
+      "new": ["ಮೂಡ್", "ಟೆನ್ಶನ್", "ಒತ್ತಡ", "ಹೆದರು", "ಒಂಟಿ", "ಏನಾಯ್ತು? ಯಾಕೆ ಡಲ್ ಆಗಿದ್ದೀಯ?"],
+      "sentences": [
+        { "native": "ನನಗೆ ತುಂಬಾ ಟೆನ್ಶನ್ ಆಗ್ತಿದೆ.", "roman": "nanage tumbā ṭenshan āgtide.", "en": "I'm really stressed.", "focus": "ನನಗೆ", "wrong": ["ನಾನು|nānu", "ನನ್ನ|nanna"] },
+        { "native": "ಇವತ್ತು ನನ್ನ ಮೂಡ್ ಸರಿ ಇಲ್ಲ.", "roman": "ivattu nanna mūḍ sari illa.", "en": "I'm not in a good mood today." },
+        { "native": "ಅವಳಿಗೆ ಯಾಕೆ ಕೋಪ ಬಂತು?", "roman": "avaḷige yāke kōpa bantu?", "en": "Why did she get angry?", "focus": "ಬಂತು", "wrong": ["ಬಂದಳು|bandaḷu", "ಬಂದೆ|bande"] },
+        { "native": "ಕೆಲಸದಲ್ಲಿ ತುಂಬಾ ಒತ್ತಡ ಇದೆ.", "roman": "kelasadalli tumbā ottaḍa ide.", "en": "There's a lot of pressure at work." },
+        { "native": "ನನಗೆ ಒಂಟಿಯಾಗಿ ಇರೋಕೆ ಭಯ ಆಗುತ್ತೆ.", "roman": "nanage oṇṭiyāgi irōke bhaya āgutte.", "en": "I get scared being on my own.", "focus": "ನನಗೆ", "wrong": ["ನಾನು|nānu", "ನನ್ನನ್ನು|nannannu"] },
+        { "native": "ಹೆದರಬೇಡ, ಏನೂ ಆಗಲ್ಲ.", "roman": "hedarabēḍa, ēnū āgalla.", "en": "Don't be scared, nothing's going to happen." },
+        { "native": "ಅವನಿಗೆ ಟೆನ್ಶನ್ ಆಗಿ ನಿದ್ದೆ ಬರ್ತಿಲ್ಲ.", "roman": "avanige ṭenshan āgi nidde bartilla.", "en": "He's so stressed he can't sleep.", "focus": "ಅವನಿಗೆ", "wrong": ["ಅವನು|avanu", "ಅವನ|avana"] },
+        { "native": "ಮನೇಲಿ ಒಬ್ಬಳೇ ಇದ್ದೀನಿ, ತುಂಬಾ ಒಂಟಿ ಅನ್ನಿಸ್ತಿದೆ.", "roman": "manēli obbaḷē iddīni, tumbā oṇṭi annistide.", "en": "I'm home on my own, I feel really lonely. (woman speaking)" },
+        { "native": "ಏನಾಯ್ತು? ಆಫೀಸಲ್ಲಿ ಏನಾದ್ರೂ ಸಮಸ್ಯೆನಾ?", "roman": "ēnāytu? āphīsalli ēnādrū samasyenā?", "en": "What happened? Some problem at the office?" },
+        { "native": "ಅವನ ಮಾತು ಕೇಳಿ ನನಗೆ ನಗು ಬಂತು.", "roman": "avana mātu kēḷi nanage nagu bantu.", "en": "I couldn't help laughing at what he said.", "focus": "ಬಂತು", "wrong": ["ಬಂದೆ|bande", "ಬಂದ|banda"] }
+      ]
+    },
+    {
+      "title": "Cheering a friend up",
+      "tip": { "title": "Talking to a friend: do, don't, be", "body": "- With friends use the **ನೀನು** command, the bare stem: **ಹೇಳು**, **ಬಾ**, **ತಗೋ**.\n- **Don't** = infinitive + **-ಬೇಡ**: ಅಳ**ಬೇಡ**, ಟೆನ್ಶನ್ ತಗೋ**ಬೇಡ**. To someone you'd call ನೀವು: **-ಬೇಡಿ**.\n- **Be …** = -ಆಗಿ + **ಇರು**: ಧೈರ್ಯವಾಗಿ**ರು** 'be strong', ಸಮಾಧಾನವಾಗಿರು 'stay calm'.", "pattern": "stem + ಬೇಡ  ·  ಧೈರ್ಯವಾಗಿ + ಇರು" },
+      "new": ["ಧೈರ್ಯ", "ಸಮಾಧಾನ", "ಜೊತೆ", "ಯೋಚನೆ", "ಹಚ್ಚಿಕೊಳ್ಳು", "ಟೆನ್ಶನ್ ತಗೋಬೇಡ", "ಎಲ್ಲಾ ಸರಿ ಹೋಗುತ್ತೆ", "ನಾನಿದ್ದೀನಿ, ಯೋಚನೆ ಮಾಡಬೇಡ", "ಮನಸ್ಸಿಗೆ ಹಚ್ಕೋಬೇಡ", "ಧೈರ್ಯವಾಗಿರು"],
+      "sentences": [
+        { "native": "ಅಳಬೇಡ, ನಾನು ನಿನ್ನ ಜೊತೆ ಇದ್ದೀನಿ.", "roman": "aḷabēḍa, nānu ninna jote iddīni.", "en": "Don't cry, I'm with you.", "focus": "ಅಳಬೇಡ", "wrong": ["ಅಳು|aḷu", "ಅಳ್ತೀಯ|aḷtīya"] },
+        { "native": "ಜಾಸ್ತಿ ಯೋಚನೆ ಮಾಡಬೇಡ, ಮಲಗು.", "roman": "jāsti yōchane māḍabēḍa, malagu.", "en": "Don't overthink it, go to sleep.", "focus": "ಮಾಡಬೇಡ", "wrong": ["ಮಾಡು|māḍu", "ಮಾಡ್ತೀಯ|māḍtīya"] },
+        { "native": "ಧೈರ್ಯ ತಗೋ, ನೀನು ಮಾಡ್ತೀಯ.", "roman": "dhairya tagō, nīnu māḍtīya.", "en": "Take heart, you'll manage it.", "focus": "ತಗೋ", "wrong": ["ತಗೊಂಡೆ|tagoṇḍe", "ತಗೋತೀನಿ|tagōtīni"] },
+        { "native": "ಅವನ ಮಾತು ಮನಸ್ಸಿಗೆ ಹಚ್ಕೋಬೇಡ.", "roman": "avana mātu manassige hachkōbēḍa.", "en": "Don't take what he said to heart.", "focus": "ಹಚ್ಕೋಬೇಡ", "wrong": ["ಹಚ್ಕೊಂಡೆ|hachkoṇḍe", "ಹಚ್ಕೋತೀನಿ|hachkōtīni"] },
+        { "native": "ಸ್ವಲ್ಪ ಸಮಾಧಾನವಾಗಿರು, ನೀರು ತರ್ತೀನಿ.", "roman": "svalpa samādhānavāgiru, nīru tartīni.", "en": "Calm down a bit, I'll get you some water.", "focus": "ಸಮಾಧಾನವಾಗಿರು", "wrong": ["ಸಮಾಧಾನವಾಗಿದ್ದೀನಿ|samādhānavāgiddīni", "ಸಮಾಧಾನ|samādhāna"] },
+        { "native": "ಎಲ್ಲಾ ಸರಿ ಹೋಗುತ್ತೆ, ಟೆನ್ಶನ್ ತಗೋಬೇಡಿ.", "roman": "ellā sari hōgutte, ṭenshan tagōbēḍi.", "en": "It'll all be fine, please don't worry. (polite)", "focus": "ತಗೋಬೇಡಿ", "wrong": ["ತಗೊಳ್ಳಿ|tagoḷḷi", "ತಗೊಂಡ್ರಿ|tagoṇḍri"] },
+        { "native": "ಅಮ್ಮನ ಜೊತೆ ಮಾತಾಡಿದ ಮೇಲೆ ಸಮಾಧಾನ ಆಯ್ತು.", "roman": "ammana jote mātāḍida mēle samādhāna āytu.", "en": "I felt better after talking to Mum." },
+        { "native": "ಈ ಸಲ ಆಗಲಿಲ್ಲ, ಪರವಾಗಿಲ್ಲ. ಮುಂದಿನ ಸಲ ನೋಡೋಣ.", "roman": "ī sala āgalilla, paravāgilla. mundina sala nōḍōṇa.", "en": "It didn't work out this time, never mind. We'll see next time." },
+        { "native": "ಒಬ್ಬನೇ ಕೂರಬೇಡ, ನಮ್ಮ ಜೊತೆ ಬಾ.", "roman": "obbanē kūrabēḍa, namma jote bā.", "en": "Don't sit on your own, come with us.", "focus": "ಬಾ", "wrong": ["ಬರು|baru", "ಬಂದೆ|bande"] },
+        { "native": "ಏನೂ ಆಗಲ್ಲ, ಧೈರ್ಯವಾಗಿರಿ.", "roman": "ēnū āgalla, dhairyavāgiri.", "en": "Nothing will happen, stay strong. (polite)", "focus": "ಧೈರ್ಯವಾಗಿರಿ", "wrong": ["ಧೈರ್ಯವಾಗಿದ್ದೀನಿ|dhairyavāgiddīni", "ಧೈರ್ಯ|dhairya"] }
+      ]
+    },
+    {
+      "title": "Being there: while and until",
+      "tip": { "title": "While -ತಾ, until ತನಕ", "body": "- **While doing** (same person): stem + **-ತಾ** (written -ಉತ್ತಾ): ಮಾಡ್**ತಾ**, ಹೋಗ್**ತಾ**, ಕುಡೀ**ತಾ**.\n- **Until**: the -ಓ form + **ತನಕ**: ನೀನು ಬರೋ **ತನಕ** 'until you come'. Written: ಬರುವವರೆಗೆ.\n- Trap: no 'not' with until: ಅವನು ಫೋನ್ ಮಾಡೋ ತನಕ, never ಮಾಡದ ತನಕ.", "pattern": "ಕುಡೀತಾ ಮಾತಾಡೋಣ  ·  ಬರೋ ತನಕ", "grammar": 0 },
+      "new": ["ತನಕ", "ನೆಮ್ಮದಿ", "ಕಣ್ಣೀರು", "ಕಾಳಜಿ", "ಏನಾದ್ರೂ ಬೇಕಾದ್ರೆ ಹೇಳು"],
+      "sentences": [
+        { "native": "ನೀನು ಹುಷಾರಾಗೋ ತನಕ ನಾನು ಇಲ್ಲೇ ಇರ್ತೀನಿ.", "roman": "nīnu huṣārāgō tanaka nānu illē irtīni.", "en": "I'll stay right here until you're better.", "focus": "ಹುಷಾರಾಗೋ", "wrong": ["ಹುಷಾರಾಗಿ|huṣārāgi", "ಹುಷಾರಾದೆ|huṣārāde"] },
+        { "native": "ಅವನು ಫೋನ್ ಮಾಡೋ ತನಕ ನನಗೆ ನೆಮ್ಮದಿ ಇಲ್ಲ.", "roman": "avanu phōn māḍō tanaka nanage nemmadi illa.", "en": "I can't rest easy until he calls.", "focus": "ತನಕ", "wrong": ["ಮೇಲೆ|mēle", "ಆಗ|āga"] },
+        { "native": "ಕಾಫಿ ಕುಡೀತಾ ಮಾತಾಡೋಣ, ಬಾ.", "roman": "kāphi kuḍītā mātāḍōṇa, bā.", "en": "Come, let's talk over coffee.", "focus": "ಕುಡೀತಾ", "wrong": ["ಕುಡಿದು|kuḍidu", "ಕುಡೀತೀನಿ|kuḍītīni"] },
+        { "native": "ಅವಳು ಮಾತಾಡ್ತಾ ಮಾತಾಡ್ತಾ ಅಳೋಕೆ ಶುರು ಮಾಡಿದ್ಳು.", "roman": "avaḷu mātāḍtā mātāḍtā aḷōke shuru māḍidḷu.", "en": "As she talked, she started to cry." },
+        { "native": "ಅವನ ಕಣ್ಣಲ್ಲಿ ಕಣ್ಣೀರು ಬಂತು.", "roman": "avana kaṇṇalli kaṇṇīru bantu.", "en": "Tears came to his eyes.", "focus": "ಬಂತು", "wrong": ["ಬಂದ|banda", "ಬಂದೆ|bande"] },
+        { "native": "ಏನಾದ್ರೂ ಬೇಕಾದ್ರೆ ರಾತ್ರಿ ಎಷ್ಟು ಗಂಟೆ ಆದ್ರೂ ಫೋನ್ ಮಾಡು.", "roman": "ēnādrū bēkādre rātri eṣṭu gaṇṭe ādrū phōn māḍu.", "en": "If you need anything, call me, however late at night it is." },
+        { "native": "ನಿನ್ನ ಕಾಳಜಿಗೆ ಥ್ಯಾಂಕ್ಸ್.", "roman": "ninna kāḷajige thyāṅks.", "en": "Thanks for caring." },
+        { "native": "ಮನೆಗೆ ಹೋಗ್ತಾ ಅವನಿಗೆ ಒಂದು ಫೋನ್ ಮಾಡು.", "roman": "manege hōgtā avanige ondu phōn māḍu.", "en": "Give him a call on your way home.", "focus": "ಹೋಗ್ತಾ", "wrong": ["ಹೋಗು|hōgu", "ಹೋಗ್ತೀನಿ|hōgtīni"] },
+        { "native": "ಅಮ್ಮ ಬರೋ ತನಕ ಮಗು ಅಳ್ತಾನೇ ಇತ್ತು.", "roman": "amma barō tanaka magu aḷtānē ittu.", "en": "The baby kept crying until Mum came.", "focus": "ಬರೋ", "wrong": ["ಬಂದ|banda", "ಬರ್ತಾ|bartā"] },
+        { "native": "ಊಟ ಮಾಡ್ತಾ ಫೋನ್ ನೋಡಬೇಡ.", "roman": "ūṭa māḍtā phōn nōḍabēḍa.", "en": "Don't look at your phone while you eat.", "focus": "ಮಾಡ್ತಾ", "wrong": ["ಮಾಡು|māḍu", "ಮಾಡ್ತೀನಿ|māḍtīni"] }
+      ]
+    },
+    {
+      "title": "Good news: congratulations",
+      "tip": { "title": "As soon as ತಕ್ಷಣ, after ಮೇಲೆ", "body": "- **As soon as** = past form + **ತಕ್ಷಣ**: ಬಂದ **ತಕ್ಷಣ**, ಗೊತ್ತಾದ ತಕ್ಷಣ.\n- **After / since** = past form + **ಮೇಲೆ** (spoken ಬಂದ್ಮೇಲೆ, ಆದ್ಮೇಲೆ).\n- The past form is just ಬಂದ, ಮಾಡಿದ, ಆದ, ಮುಗಿದ: no ending for the person, whoever does it.", "pattern": "ರಿಸಲ್ಟ್ ಬಂದ + ತಕ್ಷಣ  ·  ಕೆಲಸ ಮುಗಿದ + ಮೇಲೆ", "grammar": 0 },
+      "new": ["ತಕ್ಷಣ", "ರಿಸಲ್ಟ್", "ಪಾಸ್", "ಫೇಲ್", "ಹೆಮ್ಮೆ", "ಪ್ರಮೋಷನ್", "ಕಂಗ್ರಾಟ್ಸ್", "ಕಂಗ್ರಾಟ್ಸ್! ಪಾರ್ಟಿ ಯಾವಾಗ?", "ನಿನ್ನ ಬಗ್ಗೆ ಹೆಮ್ಮೆ ಆಗುತ್ತೆ"],
+      "sentences": [
+        { "native": "ರಿಸಲ್ಟ್ ಬಂದ ತಕ್ಷಣ ನನಗೆ ಫೋನ್ ಮಾಡು.", "roman": "risalṭ banda takṣaṇa nanage phōn māḍu.", "en": "Call me as soon as the result comes out.", "focus": "ಬಂದ", "wrong": ["ಬಂತು|bantu", "ಬರ್ತಾ|bartā"] },
+        { "native": "ಸುದ್ದಿ ಕೇಳಿದ ತಕ್ಷಣ ಅಮ್ಮನಿಗೆ ಹೇಳಿದೆ.", "roman": "suddi kēḷida takṣaṇa ammanige hēḷide.", "en": "As soon as I heard the news, I told Mum.", "focus": "ತಕ್ಷಣ", "wrong": ["ತನಕ|tanaka", "ಮುಂಚೆ|muñche"] },
+        { "native": "ಪ್ರಮೋಷನ್ ಸಿಕ್ತಾ? ಕಂಗ್ರಾಟ್ಸ್!", "roman": "pramōṣan siktā? kaṅgrāṭs!", "en": "You got the promotion? Congrats!" },
+        { "native": "ಕೆಲಸ ಮುಗಿದ ಮೇಲೆ ಸಿಗೋಣ.", "roman": "kelasa mugida mēle sigōṇa.", "en": "Let's meet after work.", "focus": "ಮುಗಿದ", "wrong": ["ಮುಗೀತು|mugītu", "ಮುಗಿಸು|mugisu"] },
+        { "native": "ನಿನ್ನ ರಿಸಲ್ಟ್ ನೋಡಿ ನಮಗೆಲ್ಲಾ ಹೆಮ್ಮೆ ಆಯ್ತು.", "roman": "ninna risalṭ nōḍi namagellā hemme āytu.", "en": "We were all so proud when we saw your result.", "focus": "ಆಯ್ತು", "wrong": ["ಬಂತು|bantu", "ಇದ್ದೀವಿ|iddīvi"] },
+        { "native": "ಪಾಸ್ ಆದ ತಕ್ಷಣ ಪಾರ್ಟಿ ಕೊಡ್ತೀನಿ.", "roman": "pās āda takṣaṇa pārṭi koḍtīni.", "en": "I'll throw a party as soon as I pass.", "focus": "ಆದ", "wrong": ["ಆಯ್ತು|āytu", "ಆಗಿ|āgi"] },
+        { "native": "ಒಂದು ಸಲ ಫೇಲ್ ಆದ್ರೆ ಏನಾಯ್ತು? ಮತ್ತೆ ಬರೆ.", "roman": "ondu sala phēl ādre ēnāytu? matte bare.", "en": "So what if you failed once? Take it again." },
+        { "native": "ಗೊತ್ತಾದ ತಕ್ಷಣ ಹೇಳ್ತೀನಿ.", "roman": "gottāda takṣaṇa hēḷtīni.", "en": "I'll tell you as soon as I know.", "focus": "ಗೊತ್ತಾದ", "wrong": ["ಗೊತ್ತಾಯ್ತು|gottāytu", "ಗೊತ್ತಿಲ್ಲ|gottilla"] },
+        { "native": "ಪ್ರಮೋಷನ್ ಸಿಕ್ಕಿದ ಮೇಲೆ ಅವನು ಸಿಗೋದೇ ಇಲ್ಲ.", "roman": "pramōṣan sikkida mēle avanu sigōdē illa.", "en": "Since he got his promotion, we never get to see him.", "focus": "ಮೇಲೆ", "wrong": ["ತನಕ|tanaka", "ಮುಂಚೆ|muñche"] }
+      ]
+    },
+    {
+      "title": "Saying sorry properly",
+      "tip": { "title": "Sorry that sounds sincere", "body": "- **ಸಾರಿ** is for small things. For something real: **ನನ್ನಿಂದ ತಪ್ಪಾಯ್ತು** 'it was my mistake'.\n- 'Forgive me': **ಕ್ಷಮಿಸು** to a friend, **ಕ್ಷಮಿಸಿ** to anyone you call ನೀವು.\n- 'Not on purpose': **ಬೇಕಂತ** + negative past: ಬೇಕಂತ ಮಾಡಿಲ್ಲ.\n- Accepting: ಪರವಾಗಿಲ್ಲ, ಬಿಡು 'it's fine, forget it'." },
+      "new": ["ನೋಯಿಸು", "ಬೇಕಂತ", "ಜಗಳ", "ನನ್ನಿಂದ ತಪ್ಪಾಯ್ತು, ಕ್ಷಮಿಸು", "ಬೇಕಂತ ಮಾಡಿಲ್ಲ", "ನಿನ್ನ ತುಂಬಾ ನೆನಪಾಗ್ತಿದೆ"],
+      "sentences": [
+        { "native": "ನಿನ್ನೆ ಕೋಪದಲ್ಲಿ ಹಾಗೆ ಹೇಳಿದೆ, ಸಾರಿ.", "roman": "ninne kōpadalli hāge hēḷide, sāri.", "en": "I only said that yesterday because I was angry, sorry." },
+        { "native": "ನಾನು ಬೇಕಂತ ತಡ ಮಾಡಿಲ್ಲ.", "roman": "nānu bēkanta taḍa māḍilla.", "en": "I wasn't late on purpose.", "focus": "ಬೇಕಂತ", "wrong": ["ಬೇಕು|bēku", "ಬೇಡ|bēḍa"] },
+        { "native": "ನಿನ್ನ ಮನಸ್ಸು ನೋಯಿಸಿದ್ರೆ ಕ್ಷಮಿಸು.", "roman": "ninna manassu nōyisidre kṣamisu.", "en": "Forgive me if I hurt you.", "focus": "ಕ್ಷಮಿಸು", "wrong": ["ಕ್ಷಮಿಸಿದೆ|kṣamiside", "ಕ್ಷಮೆ|kṣame"] },
+        { "native": "ಸಾರ್, ನನ್ನಿಂದ ತಪ್ಪಾಯ್ತು, ಕ್ಷಮಿಸಿ.", "roman": "sār, nanninda tappāytu, kṣamisi.", "en": "Sir, it was my mistake, I'm sorry.", "focus": "ಕ್ಷಮಿಸಿ", "wrong": ["ಕ್ಷಮಿಸು|kṣamisu", "ಕ್ಷಮಿಸಿದೆ|kṣamiside"] },
+        { "native": "ಪರವಾಗಿಲ್ಲ ಬಿಡು, ನಾನು ಆಗಲೇ ಮರೆತು ಬಿಟ್ಟೆ.", "roman": "paravāgilla biḍu, nānu āgalē maretu biṭṭe.", "en": "It's fine, forget it, I've already forgotten about it." },
+        { "native": "ನಮ್ಮಿಬ್ಬರ ಮಧ್ಯ ಜಗಳ ಆಯ್ತು.", "roman": "nammibbara madhya jagaḷa āytu.", "en": "The two of us had a fight." },
+        { "native": "ಜಗಳ ಸಾಕು, ಬಾ ಕಾಫಿಗೆ ಹೋಗೋಣ.", "roman": "jagaḷa sāku, bā kāphige hōgōṇa.", "en": "Enough fighting, come on, let's go for a coffee." },
+        { "native": "ಅವನು ಬೇಕಂತ ನಿನ್ನ ನೋಯಿಸಿಲ್ಲ.", "roman": "avanu bēkanta ninna nōyisilla.", "en": "He didn't hurt you on purpose.", "focus": "ನೋಯಿಸಿಲ್ಲ", "wrong": ["ನೋಯಿಸಲ್ಲ|nōyisalla", "ನೋಯಿಸು|nōyisu"] },
+        { "native": "ಬೆಂಗಳೂರು ಬಿಟ್ಟ ಮೇಲೆ ನಿಮ್ಮೆಲ್ಲರ ನೆನಪಾಗ್ತಿದೆ.", "roman": "beṅgaḷūru biṭṭa mēle nimmellara nenapāgtide.", "en": "Since leaving Bengaluru I've been missing you all." },
+        { "native": "ಸಾರಿ, ಮತ್ತೆ ಹೀಗೆ ಮಾಡಲ್ಲ.", "roman": "sāri, matte hīge māḍalla.", "en": "Sorry, I won't do it again." }
+      ]
+    },
+    {
+      "title": "When someone has died",
+      "tip": { "title": "Condolences: short and plain", "body": "- Say little: **ಕೇಳಿ ತುಂಬಾ ಬೇಜಾರಾಯ್ತು** 'I was so sorry to hear it'.\n- For the person who died use respectful plural forms: ಅವರು **ತೀರಿಕೊಂಡ್ರು**, not ಸತ್ತ.\n- Use **ನೀವು** with the family, even a friend's parents: ಏನಾದ್ರೂ ಬೇಕಾದ್ರೆ ಹೇಳಿ.\n- **ಅವರ ಆತ್ಮಕ್ಕೆ ಶಾಂತಿ ಸಿಗಲಿ** 'may their soul rest in peace'." },
+      "new": ["ಸಾವು", "ತೀರಿಕೊಳ್ಳು", "ಆತ್ಮ", "ಶಾಂತಿ", "ಕೇಳಿ ತುಂಬಾ ಬೇಜಾರಾಯ್ತು", "ಅವರ ಆತ್ಮಕ್ಕೆ ಶಾಂತಿ ಸಿಗಲಿ"],
+      "sentences": [
+        { "native": "ಅವನ ಅಜ್ಜಿ ನಿನ್ನೆ ರಾತ್ರಿ ತೀರಿಕೊಂಡ್ರು.", "roman": "avana ajji ninne rātri tīrikoṇḍru.", "en": "His grandmother passed away last night.", "focus": "ತೀರಿಕೊಂಡ್ರು", "wrong": ["ತೀರಿಕೊಂಡಳು|tīrikoṇḍaḷu", "ತೀರಿಕೊಳ್ತಾರೆ|tīrikoḷtāre"] },
+        { "native": "ಸುದ್ದಿ ಕೇಳಿ ತುಂಬಾ ಬೇಜಾರಾಯ್ತು. ಹೇಗಿದ್ದೀರ?", "roman": "suddi kēḷi tumbā bējārāytu. hēgiddīra?", "en": "I was so sorry to hear the news. How are you holding up?" },
+        { "native": "ದೇವರು ಅವರ ಆತ್ಮಕ್ಕೆ ಶಾಂತಿ ಕೊಡಲಿ.", "roman": "dēvaru avara ātmakke shānti koḍali.", "en": "May God give their soul peace.", "focus": "ಕೊಡಲಿ", "wrong": ["ಕೊಡು|koḍu", "ಕೊಟ್ರು|koṭru"] },
+        { "native": "ಅಪ್ಪನ ಸಾವಿನ ನಂತರ ಅಮ್ಮ ಒಂಟಿ ಆಗಿದ್ದಾರೆ.", "roman": "appana sāvina nantara amma oṇṭi āgiddāre.", "en": "Since Dad died, Mum has been lonely." },
+        { "native": "ಮನೆಯವರಿಗೆ ಧೈರ್ಯ ಹೇಳೋಕೆ ಹೋಗಿದ್ದೆ.", "roman": "maneyavarige dhairya hēḷōke hōgidde.", "en": "I'd gone to comfort the family." },
+        { "native": "ಏನಾದ್ರೂ ಸಹಾಯ ಬೇಕಾದ್ರೆ ಹೇಳಿ, ಸಂಕೋಚ ಮಾಡ್ಕೋಬೇಡಿ.", "roman": "ēnādrū sahāya bēkādre hēḷi, saṅkōcha māḍkōbēḍi.", "en": "If you need any help, just say, don't hesitate. (polite)", "focus": "ಹೇಳಿ", "wrong": ["ಹೇಳು|hēḷu", "ಹೇಳಿದೆ|hēḷide"] },
+        { "native": "ಸಾವಿನ ಸುದ್ದಿ ಕೇಳಿ ನನಗೆ ಅಳು ಬಂತು.", "roman": "sāvina suddi kēḷi nanage aḷu bantu.", "en": "I cried when I heard he had died.", "focus": "ಬಂತು", "wrong": ["ಬಂದೆ|bande", "ಬಂದ|banda"] },
+        { "native": "ಅವನಿಗೆ ಸ್ವಲ್ಪ ಸಮಯ ಕೊಡು.", "roman": "avanige svalpa samaya koḍu.", "en": "Give him a bit of time." },
+        { "native": "ನಾಳೆ ಬೆಳಿಗ್ಗೆ ಅವರ ಮನೆಗೆ ಹೋಗೋಣ.", "roman": "nāḷe beḷigge avara manege hōgōṇa.", "en": "Let's go to their house tomorrow morning." }
+      ]
+    }
+  ]
+}

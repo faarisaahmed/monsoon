@@ -1,0 +1,185 @@
+{
+  "id": 38,
+  "title": "Films, music, sport & free time",
+  "goal": "Recommend and review films, series and songs, talk about matches, players and teams, describe your hobbies, and compare things like a real fan: better, not as good as, the best ever, the more the better.",
+  "intro": "Half of all conversation between friends is about what you watched, what you're listening to and who won last night. Bengaluru talks about Kannada cinema (Sandalwood), Tamil, Telugu, Hindi and Malayalam films, web series, RCB and the IPL, and weekend treks.\n\nThe grammar is **comparison**, because reviewing is comparing: ಅದಕ್ಕಿಂತ ಎಷ್ಟೋ ಚೆನ್ನಾಗಿದೆ 'far better than that one', ಮೊದಲ ಭಾಗದಷ್ಟು ಚೆನ್ನಾಗಿಲ್ಲ 'not as good as the first part', ಇದೇ ಬೆಸ್ಟ್ 'this is the best', and the elegant Kannada pair ಎಷ್ಟು … ಅಷ್ಟು 'the more … the more'. Lots of the vocabulary is English, said the Kannada way; the grammar around it is pure Kannada.",
+  "vocab": [
+    { "native": "ಸಿನಿಮಾ", "roman": "sinimā", "en": "film, movie; cinema", "pos": "noun", "note": "Formal ಚಲನಚಿತ್ರ / ಚಿತ್ರ (in reviews and on posters). The Kannada film industry is nicknamed Sandalwood, ಚಂದನವನ." },
+    { "native": "ಥಿಯೇಟರ್", "roman": "thiyēṭar", "en": "cinema hall, theatre", "pos": "noun", "note": "Also ಟಾಕೀಸ್ for the old single-screen halls." },
+    { "native": "ರಿಲೀಸ್", "roman": "rilīs", "en": "release", "pos": "noun", "note": "ರಿಲೀಸ್ ಆಗು 'to be released'. Big films release on Fridays." },
+    { "native": "ಸೀರೀಸ್", "roman": "sīrīs", "en": "(web) series, show", "pos": "noun", "note": "ಸೀರೀಸ್ ನೋಡು 'watch a series'; an episode is ಎಪಿಸೋಡ್." },
+    { "native": "ಹಿಟ್", "roman": "hiṭ", "en": "hit (a success)", "pos": "noun", "note": "ಹಿಟ್ ಆಗು 'to be a hit'; the opposite is ಫ್ಲಾಪ್." },
+    { "native": "ಹೀರೋ", "roman": "hīrō", "en": "hero, lead actor; a star", "pos": "noun", "note": "Lead actress: ಹೀರೋಯಿನ್. Formal: ನಟ 'actor', ನಟಿ 'actress'." },
+    { "native": "ನಟನೆ", "roman": "naṭane", "en": "acting, performance", "pos": "noun", "note": "ಅವನ ನಟನೆ ಸೂಪರ್ 'his acting is great'. Also ಅಭಿನಯ (formal)." },
+    { "native": "ಡೈರೆಕ್ಟರ್", "roman": "ḍairekṭar", "en": "director", "pos": "noun", "note": "Formal ನಿರ್ದೇಶಕ." },
+    { "native": "ಕ್ಲೈಮ್ಯಾಕ್ಸ್", "roman": "klaimyāks", "en": "climax, ending (of a film)", "pos": "noun" },
+    { "native": "ಎಷ್ಟೋ", "roman": "eṣṭō", "en": "far, much (more); so many", "pos": "adv", "note": "Before a comparison: ಎಷ್ಟೋ ಚೆನ್ನಾಗಿದೆ 'far better'. On its own: ಎಷ್ಟೋ ಜನ 'so many people'." },
+    { "native": "ಹೋಲಿಸು", "roman": "hōlisu", "en": "to compare", "pos": "verb", "note": "ಹೋಲಿಸಬೇಡ 'don't compare'. ಹೋಲಿಕೆ 'comparison'." },
+    { "native": "ಹಾಡು", "roman": "hāḍu", "en": "song; to sing", "pos": "noun", "note": "As a verb: ಹಾಡ್ತಾಳೆ 'she sings'. A singer is ಹಾಡುಗಾರ or simply ಸಿಂಗರ್." },
+    { "native": "ಸಂಗೀತ", "roman": "saṅgīta", "en": "music", "pos": "noun", "note": "Classical: ಕರ್ನಾಟಕ ಸಂಗೀತ (Carnatic) and ಹಿಂದೂಸ್ತಾನಿ, both strong in Karnataka. Young people also just say ಮ್ಯೂಸಿಕ್." },
+    { "native": "ಕನ್ಸರ್ಟ್", "roman": "kansarṭ", "en": "concert, gig", "pos": "noun", "note": "Formal ಸಂಗೀತ ಕಾರ್ಯಕ್ರಮ 'music programme'." },
+    { "native": "ಬೆಸ್ಟ್", "roman": "besṭ", "en": "best", "pos": "adj", "note": "ಇದೇ ಬೆಸ್ಟ್ 'this is the best'. Hugely common in speech." },
+    { "native": "ವೇಸ್ಟ್", "roman": "vēsṭ", "en": "waste; useless, rubbish", "pos": "adj", "note": "ಟೈಮ್ ವೇಸ್ಟ್ 'a waste of time', ದುಡ್ಡು ವೇಸ್ಟ್ 'a waste of money'. ಸುಮ್ಮನೆ ವೇಸ್ಟ್ 'totally pointless'." },
+    { "native": "ಅತ್ಯಂತ", "roman": "atyanta", "en": "most, extremely (formal)", "pos": "adv", "note": "In news, reviews and speeches: ಅತ್ಯಂತ ಜನಪ್ರಿಯ 'most popular'. In chat, use ಎಲ್ಲಕ್ಕಿಂತ." },
+    { "native": "ಓವರ್", "roman": "ōvar", "en": "over (cricket)", "pos": "noun", "note": "Six balls. ಕೊನೆ ಓವರ್ 'the last over'." },
+    { "native": "ಕ್ರಿಕೆಟ್", "roman": "krikeṭ", "en": "cricket", "pos": "noun", "note": "Runs ರನ್, overs ಓವರ್, wickets ವಿಕೆಟ್: the English words are used as they are." },
+    { "native": "ಸ್ಕೋರ್", "roman": "skōr", "en": "score", "pos": "noun", "note": "ಸ್ಕೋರ್ ಎಷ್ಟು? 'what's the score?'" },
+    { "native": "ರನ್", "roman": "ran", "en": "run (cricket)", "pos": "noun", "note": "ಇನ್ನೂ ಎಷ್ಟು ರನ್ ಬೇಕು? 'how many more runs do they need?'" },
+    { "native": "ವಿಕೆಟ್", "roman": "vikeṭ", "en": "wicket", "pos": "noun", "note": "ವಿಕೆಟ್ ಹೋಯ್ತು 'a wicket fell' (lit. went); ವಿಕೆಟ್ ತಗೊಂಡ 'he took a wicket'." },
+    { "native": "ಸ್ಟೇಡಿಯಂ", "roman": "sṭēḍiyam", "en": "stadium", "pos": "noun", "note": "Bengaluru's cricket ground is the M. Chinnaswamy Stadium, just ಚಿನ್ನಸ್ವಾಮಿ to fans." },
+    { "native": "ಹವ್ಯಾಸ", "roman": "havyāsa", "en": "hobby, pastime", "pos": "noun", "note": "Casually also ಹಾಬಿ." },
+    { "native": "ಪ್ರಾಕ್ಟೀಸ್", "roman": "prākṭīs", "en": "practice", "pos": "noun", "note": "ಪ್ರಾಕ್ಟೀಸ್ ಮಾಡು 'to practise'. The Kannada ಅಭ್ಯಾಸ means both practice and habit." },
+    { "native": "ಡ್ಯಾನ್ಸ್", "roman": "ḍyāns", "en": "dance, dancing", "pos": "noun", "note": "ಡ್ಯಾನ್ಸ್ ಮಾಡು 'to dance'. Kannada ನೃತ್ಯ is used for classical dance like Bharatanatyam." },
+    { "native": "ಅಭಿಮಾನಿ", "roman": "abhimāni", "en": "fan, admirer", "pos": "noun", "note": "Plural ಅಭಿಮಾನಿಗಳು. Kannada film stars address their fans as ಅಭಿಮಾನಿ ದೇವರುಗಳು 'my fan-gods', a phrase of Dr Rajkumar's." }
+  ],
+  "phrases": [
+    { "native": "ಯಾವುದಾದ್ರೂ ಒಳ್ಳೆ ಸಿನಿಮಾ ಹೇಳು", "roman": "yāvudādrū oḷḷe sinimā hēḷu", "en": "Recommend me a good film. (informal)" },
+    { "native": "ಖಂಡಿತ ನೋಡು, ಮಿಸ್ ಮಾಡ್ಬೇಡ", "roman": "khaṇḍita nōḍu, mis māḍbēḍa", "en": "You must watch it, don't miss it. (informal)" },
+    { "native": "ಸ್ಪಾಯ್ಲರ್ ಕೊಡಬೇಡ!", "roman": "spāylar koḍabēḍa!", "en": "No spoilers! (informal)" },
+    { "native": "ಮೊದಲ ಭಾಗದಷ್ಟು ಚೆನ್ನಾಗಿಲ್ಲ", "roman": "modala bhāgadaṣṭu chennāgilla", "en": "It's not as good as the first part." },
+    { "native": "ಟೈಮ್ ವೇಸ್ಟ್", "roman": "ṭaim vēsṭ", "en": "A waste of time." },
+    { "native": "ನಿನ್ನ ಫೇವರಿಟ್ ಹಾಡು ಯಾವುದು?", "roman": "ninna phēvariṭ hāḍu yāvudu?", "en": "What's your favourite song? (informal)" },
+    { "native": "ಸ್ಕೋರ್ ಎಷ್ಟು?", "roman": "skōr eṣṭu?", "en": "What's the score?" },
+    { "native": "ಯಾರು ಗೆದ್ರು?", "roman": "yāru gedru?", "en": "Who won?" },
+    { "native": "ಕೊನೆ ಓವರ್‌ವರೆಗೂ ಟೆನ್ಶನ್ ಇತ್ತು", "roman": "kone ōvarvaregū ṭenshan ittu", "en": "It was tense right up to the last over." },
+    { "native": "ಫ್ರೀ ಟೈಮ್‌ನಲ್ಲಿ ಏನು ಮಾಡ್ತೀಯ?", "roman": "phrī ṭaimnalli ēnu māḍtīya?", "en": "What do you do in your free time? (informal)" },
+    { "native": "ನನಗೆ ಟ್ರೆಕ್ಕಿಂಗ್ ಹುಚ್ಚು", "roman": "nanage ṭrekkiṅg huchchu", "en": "I'm crazy about trekking." },
+    { "native": "ಎಷ್ಟು ಕೇಳಿದ್ರೂ ಬೋರ್ ಆಗಲ್ಲ", "roman": "eṣṭu kēḷidrū bōr āgalla", "en": "However many times I listen, I never get bored of it." }
+  ],
+  "grammar": [
+    {
+      "title": "Comparing in depth: far better, a bit less, as good as, not as good as",
+      "body": "Unit 8 gave you 'than': the **dative + ಇಂತ**: ಅದಕ್ಕೆ → **ಅದಕ್ಕಿಂತ** 'than that', ಅವನಿಗೆ → **ಅವನಿಗಿಂತ** 'than him', ನನಗೆ → ನನಗಿಂತ 'than me', ಬೆಂಗಳೂರಿಗೆ → ಬೆಂಗಳೂರಿಗಿಂತ, ಸಿನಿಮಾಗೆ → ಸಿನಿಮಾಗಿಂತ. In speech the sentence usually ends in ಇದೆ / ಆಗಿದೆ: ಈ ಸಿನಿಮಾ ಅದಕ್ಕಿಂತ ಚೆನ್ನಾಗಿದೆ 'this film is better than that one'. There's no separate word for 'better': it's 'than that, good'.\n\n**How much more**: put the amount before the adjective:\nಎಷ್ಟೋ / ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ 'far / much better'\nಸ್ವಲ್ಪ ಜಾಸ್ತಿ / ಸ್ವಲ್ಪ ಕಡಿಮೆ 'a bit more / a bit less'\nಇನ್ನೂ ಚೆನ್ನಾಗಿದೆ 'even better'\n'Worse' is ಕೆಟ್ಟದಾಗಿದೆ or, more often, just ಚೆನ್ನಾಗಿಲ್ಲ.\n\n**As … as**: noun + **-ಅಷ್ಟು** 'that much of': ಅವನಷ್ಟು 'as much as him'. Add **-ಏ** for 'just as': ಅಣ್ಣನಷ್ಟೇ ಎತ್ತರ 'just as tall as her brother'.\n**Not as … as**: -ಅಷ್ಟು + a negative: ಮೊದಲ ಭಾಗದಷ್ಟು ಚೆನ್ನಾಗಿಲ್ಲ 'not as good as the first part'. This is the polite way to criticise: it praises the first one while knocking the second.\n\n**Like**: ತರ / ಹಾಗೆ (unit 27): ಕೊಹ್ಲಿ ತರ ಆಡ್ತಾನೆ 'he plays like Kohli'.\n\n**Preferring**: dative subject + X**-ಗಿಂತ** + Y + **ಇಷ್ಟ**: ನನಗೆ ಕ್ರಿಕೆಟ್‌ಗಿಂತ ಫುಟ್‌ಬಾಲ್ ಇಷ್ಟ 'I prefer football to cricket'.",
+      "examples": [
+        { "native": "ಬೆಂಗಳೂರಿಗಿಂತ ಮೈಸೂರಲ್ಲಿ ಟಿಕೆಟ್ ಅಗ್ಗ.", "roman": "beṅgaḷūriginta maisūralli ṭikeṭ agga.", "en": "Tickets are cheaper in Mysuru than in Bengaluru." },
+        { "native": "ಅವನು ನನಗಿಂತ ಎಷ್ಟೋ ಚೆನ್ನಾಗಿ ಆಡ್ತಾನೆ.", "roman": "avanu nanaginta eṣṭō chennāgi āḍtāne.", "en": "He plays far better than me." },
+        { "native": "ಈ ಸಲದ ಹಾಡುಗಳು ಕಳೆದ ಸಿನಿಮಾದಷ್ಟು ಚೆನ್ನಾಗಿಲ್ಲ.", "roman": "ī salada hāḍugaḷu kaḷeda sinimādaṣṭu chennāgilla.", "en": "This time the songs aren't as good as in the last film." },
+        { "native": "ಅವಳು ಅಣ್ಣನಷ್ಟೇ ಎತ್ತರ.", "roman": "avaḷu aṇṇanaṣṭē ettara.", "en": "She's just as tall as her brother." },
+        { "native": "ಅವನು ಕೊಹ್ಲಿ ತರ ಬ್ಯಾಟ್ ಮಾಡ್ತಾನೆ.", "roman": "avanu kohli tara byāṭ māḍtāne.", "en": "He bats like Kohli." }
+      ]
+    },
+    {
+      "title": "Superlatives: the best, the worst, 'the best I've ever seen'",
+      "body": "**The most …** = **ಎಲ್ಲಕ್ಕಿಂತ** (than everything) for things, **ಎಲ್ಲರಿಗಿಂತ** (than everyone) for people, + adjective or adverb: ಎಲ್ಲಕ್ಕಿಂತ ಚೆನ್ನಾಗಿರೋ ಹಾಡು 'the best song'; ಎಲ್ಲರಿಗಿಂತ ಚೆನ್ನಾಗಿ ಆಡ್ತಾನೆ 'he plays best of all'.\n\n**Within a group**: plural + **-ಗಳಲ್ಲಿ** 'among': ಈ ವರ್ಷದ ಸಿನಿಮಾಗಳಲ್ಲಿ ಇದೇ ಬೆಸ್ಟ್ 'of this year's films, this is the best'. The emphatic **-ಏ** (ಇದೇ 'this very one', ಅವನೇ 'he himself') is what makes it a superlative claim.\n\n**ಬೆಸ್ಟ್ and ವೇಸ್ಟ್**: in speech, English *best* and *waste* do a lot of work: ಇದೇ ಬೆಸ್ಟ್ 'this is the best', ಟೈಮ್ ವೇಸ್ಟ್ 'waste of time'.\n\n**The best I've ever …**: relative clause (unit 20) + plural + -ಗಳಲ್ಲಿ: ನಾನು ನೋಡಿದ ಸಿನಿಮಾಗಳಲ್ಲಿ ಇದೇ ಬೆಸ್ಟ್ 'it's the best film I've ever seen'. Or with ಇಲ್ಲಿವರೆಗೆ 'until now': ಇಲ್ಲಿವರೆಗೆ ನೋಡಿದ್ರಲ್ಲಿ ಇದೇ ಬೆಸ್ಟ್ 'the best I've seen so far'.\n\n**One of the …**: -ಗಳಲ್ಲಿ ಒಂದು: ಒಳ್ಳೆ ಸಿನಿಮಾಗಳಲ್ಲಿ ಒಂದು 'one of the good films' (ಒಬ್ಬ for a man, ಒಬ್ಬಳು for a woman: ಒಳ್ಳೆ ಆಟಗಾರರಲ್ಲಿ ಒಬ್ಬ).\n\n**Formal**: **ಅತ್ಯಂತ** + adjective, for news and reviews: ಅತ್ಯಂತ ಜನಪ್ರಿಯ ನಟ 'the most popular actor'.",
+      "examples": [
+        { "native": "ಈ ವರ್ಷದ ಸಿನಿಮಾಗಳಲ್ಲಿ ಇದೇ ಬೆಸ್ಟ್.", "roman": "ī varṣada sinimāgaḷalli idē besṭ.", "en": "This is the best film of the year." },
+        { "native": "ಟೀಮ್‌ನಲ್ಲಿ ಎಲ್ಲರಿಗಿಂತ ಜೋರಾಗಿ ಓಡೋದು ಅವನೇ.", "roman": "ṭīmnalli ellariginta jōrāgi ōḍōdu avanē.", "en": "He's the fastest runner in the team." },
+        { "native": "ನಾನು ನೋಡಿದ ಸಿನಿಮಾಗಳಲ್ಲಿ ಇದೇ ಎಲ್ಲಕ್ಕಿಂತ ಕೆಟ್ಟದ್ದು.", "roman": "nānu nōḍida sinimāgaḷalli idē ellakkinta keṭṭaddu.", "en": "It's the worst film I've ever seen." },
+        { "native": "ಅದು ಕನ್ನಡದ ಒಳ್ಳೆ ಸಿನಿಮಾಗಳಲ್ಲಿ ಒಂದು.", "roman": "adu kannaḍada oḷḷe sinimāgaḷalli ondu.", "en": "It's one of the good Kannada films." },
+        { "native": "ಮೈಸೂರು ದಸರಾ ಕರ್ನಾಟಕದ ಅತ್ಯಂತ ದೊಡ್ಡ ಹಬ್ಬ.", "roman": "maisūru dasarā karnāṭakada atyanta doḍḍa habba.", "en": "Mysuru Dasara is Karnataka's biggest festival." }
+      ]
+    },
+    {
+      "title": "'The more…, the more…': ಎಷ್ಟು … -ಓ, ಅಷ್ಟು …",
+      "body": "Kannada pairs **ಎಷ್ಟು** 'how much' with **ಅಷ್ಟು** 'that much'. The verb of the first half takes **-ಓ** (the same -ಓ as in 'I don't know where', unit 37):\nಎಷ್ಟು ಕೇಳ್ತೀನೋ ಅಷ್ಟು ಇಷ್ಟ ಆಗುತ್ತೆ 'the more I listen, the more I like it'\nಎಷ್ಟು ಪ್ರಾಕ್ಟೀಸ್ ಮಾಡ್ತೀಯೋ ಅಷ್ಟು ಚೆನ್ನಾಗಿ ಆಡ್ತೀಯ 'the more you practise, the better you play'\nThe person ending stays: ಮಾಡ್ತೀನೋ (I), ಮಾಡ್ತೀಯೋ (you), ಮಾಡ್ತಾನೋ (he), ಆಗುತ್ತೋ (it).\n\n**With 'if' instead of -ಓ** it means 'the …-er, the better': ಎಷ್ಟು ಬೇಗ ಬಂದ್ರೆ ಅಷ್ಟು ಒಳ್ಳೇದು 'the sooner you come, the better'; ಎಷ್ಟು ಜಾಸ್ತಿ ಜನ ಇದ್ರೆ ಅಷ್ಟು ಮಜಾ 'the more people, the more fun'.\n\n**Gradually, as it goes on**: repeat the -ತಾ form: **ಹೋಗ್ತಾ ಹೋಗ್ತಾ** 'as it went on': ಸಿನಿಮಾ ಹೋಗ್ತಾ ಹೋಗ್ತಾ ಬೋರ್ ಆಯ್ತು 'the film got boring as it went on'. Or -ತಾ + ಹೋದ ಹಾಗೆ 'as (you) keep …-ing': ನೋಡ್ತಾ ಹೋದ ಹಾಗೆ ಇಷ್ಟ ಆಗುತ್ತೆ.\n\n**More and more**: double the word: ಜಾಸ್ತಿ ಜಾಸ್ತಿ ಜನ 'more and more people'.\n\nDon't confuse it with **ಎಷ್ಟು … -ಅರೂ** 'however much' (unit 19): ಎಷ್ಟು ಕೇಳಿದ್ರೂ ಬೋರ್ ಆಗಲ್ಲ 'however much I listen, I don't get bored'.",
+      "examples": [
+        { "native": "ಎಷ್ಟು ಪ್ರಾಕ್ಟೀಸ್ ಮಾಡ್ತೀಯೋ ಅಷ್ಟು ಚೆನ್ನಾಗಿ ಆಡ್ತೀಯ.", "roman": "eṣṭu prākṭīs māḍtīyō aṣṭu chennāgi āḍtīya.", "en": "The more you practise, the better you play." },
+        { "native": "ಎಷ್ಟು ಬೇಗ ಬಂದ್ರೆ ಅಷ್ಟು ಒಳ್ಳೇದು.", "roman": "eṣṭu bēga bandre aṣṭu oḷḷēdu.", "en": "The sooner you come, the better." },
+        { "native": "ಸೀರೀಸ್ ನೋಡ್ತಾ ಹೋದ ಹಾಗೆ ಇಷ್ಟ ಆಗುತ್ತೆ.", "roman": "sīrīs nōḍtā hōda hāge iṣṭa āgutte.", "en": "You'll like the series more as you keep watching." },
+        { "native": "ದಿನಾ ಜಾಸ್ತಿ ಜಾಸ್ತಿ ಜನ ಕನ್ನಡ ಸಿನಿಮಾ ನೋಡ್ತಿದ್ದಾರೆ.", "roman": "dinā jāsti jāsti jana kannaḍa sinimā nōḍtiddāre.", "en": "More and more people are watching Kannada films every day." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "A film review and the RCB match",
+    "setting": "Sandeep and Meghana grab a filter coffee at a darshini in Malleshwaram on match day.",
+    "lines": [
+      { "native": "ನಿನ್ನೆ ಆ ಹೊಸ ಸಿನಿಮಾ ನೋಡಿದ್ಯಾ?", "roman": "ninne ā hosa sinimā nōḍidyā?", "en": "Did you see that new film yesterday?" },
+      { "native": "ನೋಡ್ದೆ. ಏನೂ ಸ್ಪಾಯ್ಲರ್ ಕೊಡಲ್ಲ, ಆದ್ರೆ ಕಾಂತಾರದಷ್ಟು ಚೆನ್ನಾಗಿಲ್ಲ.", "roman": "nōḍde. ēnū spāylar koḍalla, ādre kāntāradaṣṭu chennāgilla.", "en": "I did. I won't give any spoilers, but it's not as good as Kantara." },
+      { "native": "ಹೌದಾ? ಎಲ್ಲರೂ ಈ ವರ್ಷದ ಬೆಸ್ಟ್ ಅಂತಿದ್ದಾರೆ.", "roman": "haudā? ellarū ī varṣada besṭ antiddāre.", "en": "Really? Everyone's calling it the best of the year." },
+      { "native": "ಮೊದಲ ಅರ್ಧ ಸೂಪರ್. ಹೋಗ್ತಾ ಹೋಗ್ತಾ ಬೋರ್ ಆಯ್ತು. ಕ್ಲೈಮ್ಯಾಕ್ಸ್ ಅಂತೂ ತುಂಬಾ ಉದ್ದ.", "roman": "modala ardha sūpar. hōgtā hōgtā bōr āytu. klaimyāks antū tumbā udda.", "en": "The first half is great. It got boring as it went on. And the climax is way too long." },
+      { "native": "ಆದ್ರೆ ಹೀರೋ ನಟನೆ?", "roman": "ādre hīrō naṭane?", "en": "But the hero's acting?" },
+      { "native": "ಅದು ಮಾತ್ರ ಎಲ್ಲಕ್ಕಿಂತ ಚೆನ್ನಾಗಿದೆ. ಹಾಡುಗಳು ಕೂಡ ಸಕ್ಕತ್.", "roman": "adu mātra ellakkinta chennāgide. hāḍugaḷu kūḍa sakkat.", "en": "That's the best thing in it. The songs are brilliant too." },
+      { "native": "ಸರಿ, ಹಾಗಾದ್ರೆ ಶನಿವಾರ ಥಿಯೇಟರ್‌ನಲ್ಲಿ ನೋಡ್ತೀನಿ. ಇವತ್ತು ಮ್ಯಾಚ್ ನೋಡ್ತೀಯಾ?", "roman": "sari, hāgādre shanivāra thiyēṭarnalli nōḍtīni. ivattu myāch nōḍtīyā?", "en": "OK, then I'll see it in the theatre on Saturday. Are you watching the match today?" },
+      { "native": "ಆರ್‌ಸಿಬಿ ಮ್ಯಾಚ್ ಮಿಸ್ ಮಾಡ್ತೀನಾ? ಚಿನ್ನಸ್ವಾಮಿ ಟಿಕೆಟ್ ಸಿಗಲಿಲ್ಲ, ಅಷ್ಟೇ.", "roman": "ārsibi myāch mis māḍtīnā? chinnasvāmi ṭikeṭ sigalilla, aṣṭē.", "en": "Would I ever miss an RCB match? I just couldn't get tickets for Chinnaswamy, that's all." },
+      { "native": "ನಮ್ಮನೆಗೆ ಬಾ, ದೊಡ್ಡ ಟಿವಿಯಲ್ಲಿ ನೋಡೋಣ. ಎಷ್ಟು ಜನ ಇರ್ತಾರೋ ಅಷ್ಟು ಮಜಾ!", "roman": "nammanege bā, doḍḍa ṭiviyalli nōḍōṇa. eṣṭu jana irtārō aṣṭu majā!", "en": "Come to mine, let's watch on the big TV. The more people, the more fun!" },
+      { "native": "ಪಕ್ಕಾ. ಆದ್ರೆ ಸೋತ್ರೆ ನಾನು ಯಾರ ಹತ್ರಾನೂ ಮಾತಾಡಲ್ಲ, ಮೊದಲೇ ಹೇಳ್ತಿದ್ದೀನಿ.", "roman": "pakkā. ādre sōtre nānu yāra hatrānū mātāḍalla, modalē hēḷtiddīni.", "en": "Done. But if they lose, I'm not talking to anyone, I'm warning you now." },
+      { "native": "ಸೋಲೋ ಮಾತೇ ಇಲ್ಲ! ಈ ಸಲ ಕಪ್ ನಮ್ದೇ!", "roman": "sōlō mātē illa! ī sala kap namdē!", "en": "There's no question of losing! This time the cup is ours!" },
+      { "native": "ಅದನ್ನ ಪ್ರತಿ ವರ್ಷ ಹೇಳ್ತೀಯ, ಮಗಾ!", "roman": "adanna prati varṣa hēḷtīya, magā!", "en": "You say that every year, mate!" }
+    ]
+  },
+  "culture": "Kannada cinema (**Sandalwood**) has a huge emotional pull. Dr Rajkumar ('Annavru') is still the reference point for everything, and the death of his son Puneeth Rajkumar ('Appu') in 2021 brought Bengaluru to a standstill; you'll see Appu's face on autos and shop walls everywhere. Recent hits like *KGF* and *Kantara* took Kannada films across India. First-day-first-show, giant cut-outs and fans pouring milk on them are part of the culture. Bengaluru audiences are also happily multilingual and watch Tamil, Telugu, Hindi and Malayalam films, usually discussing them in a mix of Kannada and English.\n\nCricket comes first in sport. RCB fans chanted **ಈ ಸಲ ಕಪ್ ನಮ್ದೇ** for seventeen years before the team finally won the IPL in 2025, and the line is still used as a joke about any long-awaited success. Kabaddi, football (Bengaluru FC) and weekend treks and cycling around the city are popular too. Among friends the review style is blunt and funny (ಟೈಮ್ ವೇಸ್ಟ್, ಸಕ್ಕತ್ತಾಗಿದೆ), and guys call each other **ಮಗಾ** or **ಗುರು**. With elders, praise a film or a singer more formally: ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ, ಅದ್ಭುತ.",
+  "lessons": [
+    {
+      "title": "Recommending something to watch",
+      "new": ["ಸಿನಿಮಾ", "ಥಿಯೇಟರ್", "ರಿಲೀಸ್", "ಸೀರೀಸ್", "ಹಿಟ್", "ಯಾವುದಾದ್ರೂ ಒಳ್ಳೆ ಸಿನಿಮಾ ಹೇಳು", "ಖಂಡಿತ ನೋಡು, ಮಿಸ್ ಮಾಡ್ಬೇಡ", "ಸ್ಪಾಯ್ಲರ್ ಕೊಡಬೇಡ!"],
+      "sentences": [
+        { "native": "ಈ ಶುಕ್ರವಾರ ಯಾವ ಸಿನಿಮಾ ರಿಲೀಸ್ ಆಗ್ತಿದೆ?", "roman": "ī shukravāra yāva sinimā rilīs āgtide?", "en": "Which film is releasing this Friday?" },
+        { "native": "ಥಿಯೇಟರ್‌ನಲ್ಲೇ ನೋಡೋಣ, ಫೋನಲ್ಲಿ ಚೆನ್ನಾಗಿರಲ್ಲ.", "roman": "thiyēṭarnallē nōḍōṇa, phōnalli chennāgiralla.", "en": "Let's watch it in the theatre, it won't be the same on a phone." },
+        { "native": "ಆ ಸೀರೀಸ್ ಒಂದೇ ದಿನದಲ್ಲಿ ಮುಗಿಸಿದೆ.", "roman": "ā sīrīs ondē dinadalli mugiside.", "en": "I finished that series in one day." },
+        { "native": "ಆ ಸಿನಿಮಾ ದೊಡ್ಡ ಹಿಟ್ ಆಯ್ತು.", "roman": "ā sinimā doḍḍa hiṭ āytu.", "en": "That film was a big hit." },
+        { "native": "ಯಾವುದಾದ್ರೂ ಒಳ್ಳೆ ಕನ್ನಡ ಸೀರೀಸ್ ಇದ್ರೆ ಹೇಳು.", "roman": "yāvudādrū oḷḷe kannaḍa sīrīs idre hēḷu.", "en": "If there's a good Kannada series, let me know." },
+        { "native": "ಸ್ಪಾಯ್ಲರ್ ಕೊಡಬೇಡ, ನಾನು ಇನ್ನೂ ನೋಡಿಲ್ಲ!", "roman": "spāylar koḍabēḍa, nānu innū nōḍilla!", "en": "No spoilers, I haven't seen it yet!" },
+        { "native": "ಖಂಡಿತ ನೋಡು, ನಿನಗೆ ಇಷ್ಟ ಆಗುತ್ತೆ.", "roman": "khaṇḍita nōḍu, ninage iṣṭa āgutte.", "en": "Definitely watch it, you'll like it." },
+        { "native": "ಸಂಜೆ ಶೋಗೆ ಎರಡು ಟಿಕೆಟ್ ತಗೊಳ್ಳಲಾ?", "roman": "sañje shōge eraḍu ṭikeṭ tagoḷḷalā?", "en": "Shall I get two tickets for the evening show?" },
+        { "native": "ಮೊದಲ ದಿನ ಮೊದಲ ಶೋ ನೋಡೋದು ನಮ್ಮ ಅಭ್ಯಾಸ.", "roman": "modala dina modala shō nōḍōdu namma abhyāsa.", "en": "Watching the first-day first show is a habit of ours." }
+      ]
+    },
+    {
+      "title": "Better or worse?",
+      "tip": { "title": "Than: -ಕ್ಕಿಂತ / -ಗಿಂತ · as … as: -ಅಷ್ಟು", "body": "- 'Than' = dative + **ಇಂತ**: ಅದ**ಕ್ಕಿಂತ**, ಅವನಿ**ಗಿಂತ**, ಸಿನಿಮಾ**ಗಿಂತ**. Far better: **ಎಷ್ಟೋ** ಚೆನ್ನಾಗಿದೆ.\n- As … as: **-ಅಷ್ಟು**; just as: **-ಅಷ್ಟೇ**: ಮೊದಲನೇದರಷ್ಟೇ ಚೆನ್ನಾಗಿದೆ.\n- Not as good as: -ಅಷ್ಟು + **ಚೆನ್ನಾಗಿಲ್ಲ**.\n- Prefer: ನನಗೆ X-ಗಿಂತ Y ಇಷ್ಟ.", "pattern": "X + ಅದಕ್ಕಿಂತ / ಅದರಷ್ಟು + ಚೆನ್ನಾಗಿದೆ", "grammar": 0 },
+      "new": ["ಹೀರೋ", "ನಟನೆ", "ಡೈರೆಕ್ಟರ್", "ಕ್ಲೈಮ್ಯಾಕ್ಸ್", "ಎಷ್ಟೋ", "ಹೋಲಿಸು", "ಮೊದಲ ಭಾಗದಷ್ಟು ಚೆನ್ನಾಗಿಲ್ಲ"],
+      "sentences": [
+        { "native": "ಈ ಸಿನಿಮಾ ಅದಕ್ಕಿಂತ ಎಷ್ಟೋ ಚೆನ್ನಾಗಿದೆ.", "roman": "ī sinimā adakkinta eṣṭō chennāgide.", "en": "This film is far better than that one.", "focus": "ಅದಕ್ಕಿಂತ", "wrong": ["ಅದಕ್ಕೆ|adakke", "ಅದರಲ್ಲಿ|adaralli"] },
+        { "native": "ಹೀರೋಗಿಂತ ಹೀರೋಯಿನ್ ನಟನೆ ಚೆನ್ನಾಗಿದೆ.", "roman": "hīrōginta hīrōyin naṭane chennāgide.", "en": "The heroine's acting is better than the hero's.", "focus": "ಹೀರೋಗಿಂತ", "wrong": ["ಹೀರೋಗೆ|hīrōge", "ಹೀರೋದು|hīrōdu"] },
+        { "native": "ಡೈರೆಕ್ಟರ್ ಹಳೆ ಸಿನಿಮಾದಷ್ಟು ಇದು ಚೆನ್ನಾಗಿಲ್ಲ.", "roman": "ḍairekṭar haḷe sinimādaṣṭu idu chennāgilla.", "en": "This isn't as good as the director's old film.", "focus": "ಸಿನಿಮಾದಷ್ಟು", "wrong": ["ಸಿನಿಮಾದಲ್ಲಿ|sinimādalli", "ಸಿನಿಮಾಗೆ|sinimāge"] },
+        { "native": "ಎರಡನೇ ಭಾಗ ಕೂಡ ಮೊದಲನೇದರಷ್ಟೇ ಚೆನ್ನಾಗಿದೆ.", "roman": "eraḍanē bhāga kūḍa modalanēdaraṣṭē chennāgide.", "en": "The second part is just as good as the first.", "focus": "ಮೊದಲನೇದರಷ್ಟೇ", "wrong": ["ಮೊದಲನೇದಕ್ಕೆ|modalanēdakke", "ಮೊದಲನೇದು|modalanēdu"] },
+        { "native": "ನನಗೆ ಸಿನಿಮಾಗಿಂತ ಸೀರೀಸ್ ಇಷ್ಟ.", "roman": "nanage sinimāginta sīrīs iṣṭa.", "en": "I prefer series to films.", "focus": "ಸಿನಿಮಾಗಿಂತ", "wrong": ["ಸಿನಿಮಾಗೆ|sinimāge", "ಸಿನಿಮಾ|sinimā"] },
+        { "native": "ಕ್ಲೈಮ್ಯಾಕ್ಸ್ ಸ್ವಲ್ಪ ಉದ್ದ ಜಾಸ್ತಿ ಆಯ್ತು.", "roman": "klaimyāks svalpa udda jāsti āytu.", "en": "The climax was a bit too long." },
+        { "native": "ಅವನ ನಟನೆ ಈ ಸಲ ಇನ್ನೂ ಚೆನ್ನಾಗಿದೆ.", "roman": "avana naṭane ī sala innū chennāgide.", "en": "His acting is even better this time.", "focus": "ಇನ್ನೂ", "wrong": ["ಇನ್ನು|innu", "ಇನ್ನೊಂದು|innondu"] },
+        { "native": "ಎರಡು ಸಿನಿಮಾನ ಹೋಲಿಸೋಕೆ ಆಗಲ್ಲ, ಎರಡೂ ಬೇರೆ ಬೇರೆ.", "roman": "eraḍu sinimāna hōlisōke āgalla, eraḍū bēre bēre.", "en": "You can't compare the two films, they're completely different." },
+        { "native": "ಹೀರೋ ಚೆನ್ನಾಗಿದ್ದಾನೆ, ಆದ್ರೆ ಕತೆನೇ ಇಲ್ಲ.", "roman": "hīrō chennāgiddāne, ādre katenē illa.", "en": "The hero's good, but there's no story at all." }
+      ]
+    },
+    {
+      "title": "The best and the worst",
+      "tip": { "title": "The best: ಎಲ್ಲಕ್ಕಿಂತ, -ಗಳಲ್ಲಿ ಇದೇ ಬೆಸ್ಟ್", "body": "- Most: **ಎಲ್ಲಕ್ಕಿಂತ** (things) / **ಎಲ್ಲರಿಗಿಂತ** (people) + adjective.\n- Among: plural + **-ಗಳಲ್ಲಿ**: ಹಾಡು**ಗಳಲ್ಲಿ** ಇದೇ ಬೆಸ್ಟ್.\n- Best ever: ನಾನು ಕೇಳಿದ ಹಾಡುಗಳಲ್ಲಿ ಇದೇ ಬೆಸ್ಟ್. One of: -ಗಳಲ್ಲಿ **ಒಂದು**.\n- Formal: **ಅತ್ಯಂತ** + adjective.", "pattern": "ಎಲ್ಲಕ್ಕಿಂತ + adj / …ಗಳಲ್ಲಿ ಇದೇ ಬೆಸ್ಟ್", "grammar": 1 },
+      "new": ["ಹಾಡು", "ಸಂಗೀತ", "ಕನ್ಸರ್ಟ್", "ಬೆಸ್ಟ್", "ವೇಸ್ಟ್", "ಅತ್ಯಂತ", "ನಿನ್ನ ಫೇವರಿಟ್ ಹಾಡು ಯಾವುದು?", "ಟೈಮ್ ವೇಸ್ಟ್"],
+      "sentences": [
+        { "native": "ಈ ಸಿನಿಮಾದಲ್ಲಿ ಎಲ್ಲಕ್ಕಿಂತ ಚೆನ್ನಾಗಿರೋ ಹಾಡು ಇದೇ.", "roman": "ī sinimādalli ellakkinta chennāgirō hāḍu idē.", "en": "This is the best song in the film.", "focus": "ಎಲ್ಲಕ್ಕಿಂತ", "wrong": ["ಎಲ್ಲಾ|ellā", "ಎಲ್ಲರಿಗೆ|ellarige"] },
+        { "native": "ನಾನು ಕೇಳಿದ ಹಾಡುಗಳಲ್ಲಿ ಇದೇ ಬೆಸ್ಟ್.", "roman": "nānu kēḷida hāḍugaḷalli idē besṭ.", "en": "It's the best song I've ever heard.", "focus": "ಹಾಡುಗಳಲ್ಲಿ", "wrong": ["ಹಾಡುಗಳಿಗೆ|hāḍugaḷige", "ಹಾಡು|hāḍu"] },
+        { "native": "ಅವಳು ನಮ್ಮ ಕಾಲೇಜಿನಲ್ಲಿ ಎಲ್ಲರಿಗಿಂತ ಚೆನ್ನಾಗಿ ಹಾಡ್ತಾಳೆ.", "roman": "avaḷu namma kālējinalli ellariginta chennāgi hāḍtāḷe.", "en": "She sings the best in our college.", "focus": "ಎಲ್ಲರಿಗಿಂತ", "wrong": ["ಎಲ್ಲಕ್ಕಿಂತ|ellakkinta", "ಎಲ್ಲರೂ|ellarū"] },
+        { "native": "ನಿನ್ನೆಯ ಕನ್ಸರ್ಟ್ ಇಲ್ಲಿವರೆಗೆ ನೋಡಿದ್ರಲ್ಲಿ ಬೆಸ್ಟ್.", "roman": "ninneya kansarṭ illivarege nōḍidralli besṭ.", "en": "Yesterday's concert was the best I've been to so far.", "focus": "ನೋಡಿದ್ರಲ್ಲಿ", "wrong": ["ನೋಡಿದ್ರೆ|nōḍidre", "ನೋಡಿದೆ|nōḍide"] },
+        { "native": "ಕನ್ನಡ ಹಾಡುಗಳಲ್ಲಿ ಯಾವುದು ನಿನಗೆ ಎಲ್ಲಕ್ಕಿಂತ ಇಷ್ಟ?", "roman": "kannaḍa hāḍugaḷalli yāvudu ninage ellakkinta iṣṭa?", "en": "Which Kannada song do you like most?", "focus": "ಹಾಡುಗಳಲ್ಲಿ", "wrong": ["ಹಾಡುಗಳಿಂದ|hāḍugaḷinda", "ಹಾಡಿಗೆ|hāḍige"] },
+        { "native": "ಅದು ಒಳ್ಳೆ ಹಾಡುಗಳಲ್ಲಿ ಒಂದು, ಆದ್ರೆ ಬೆಸ್ಟ್ ಅಲ್ಲ.", "roman": "adu oḷḷe hāḍugaḷalli ondu, ādre besṭ alla.", "en": "It's one of the good songs, but it's not the best." },
+        { "native": "ರಾಜ್‌ಕುಮಾರ್ ಕನ್ನಡದ ಅತ್ಯಂತ ಜನಪ್ರಿಯ ನಟ.", "roman": "rājkumār kannaḍada atyanta janapriya naṭa.", "en": "Rajkumar is the most popular actor in Kannada cinema." },
+        { "native": "ಆ ಸೀರೀಸ್ ಟೈಮ್ ವೇಸ್ಟ್, ನೋಡಬೇಡ.", "roman": "ā sīrīs ṭaim vēsṭ, nōḍabēḍa.", "en": "That series is a waste of time, don't watch it." },
+        { "native": "ನನಗೆ ಸಂಗೀತ ಅಂದ್ರೆ ತುಂಬಾ ಇಷ್ಟ, ದಿನಾ ಕೇಳ್ತೀನಿ.", "roman": "nanage saṅgīta andre tumbā iṣṭa, dinā kēḷtīni.", "en": "I love music, I listen every day." }
+      ]
+    },
+    {
+      "title": "Watching the match",
+      "new": ["ಕ್ರಿಕೆಟ್", "ಸ್ಕೋರ್", "ಓವರ್", "ರನ್", "ವಿಕೆಟ್", "ಸ್ಟೇಡಿಯಂ", "ಸ್ಕೋರ್ ಎಷ್ಟು?", "ಯಾರು ಗೆದ್ರು?", "ಕೊನೆ ಓವರ್‌ವರೆಗೂ ಟೆನ್ಶನ್ ಇತ್ತು"],
+      "sentences": [
+        { "native": "ಇವತ್ತು ಆರ್‌ಸಿಬಿ ಮ್ಯಾಚ್ ಇದೆ, ಎಲ್ಲರೂ ನಮ್ಮನೆಗೆ ಬನ್ನಿ.", "roman": "ivattu ārsibi myāch ide, ellarū nammanege banni.", "en": "There's an RCB match today, everyone come over to mine." },
+        { "native": "ಕೊನೆ ಓವರ್‌ನಲ್ಲಿ ಹದಿನೈದು ರನ್ ಬೇಕಿತ್ತು.", "roman": "kone ōvarnalli hadinaidu ran bēkittu.", "en": "They needed fifteen runs in the last over." },
+        { "native": "ನಾವು ಕೊನೆ ಬಾಲ್‌ನಲ್ಲಿ ಗೆದ್ವಿ!", "roman": "nāvu kone bālnalli gedvi!", "en": "We won off the last ball!" },
+        { "native": "ಸೋತ್ರೂ ಪರವಾಗಿಲ್ಲ, ಕಳೆದ ಮ್ಯಾಚ್‌ಗಿಂತ ಚೆನ್ನಾಗಿ ಆಡಿದ್ರು.", "roman": "sōtrū paravāgilla, kaḷeda myāchginta chennāgi āḍidru.", "en": "Never mind that they lost, they played better than in the last match.", "focus": "ಮ್ಯಾಚ್‌ಗಿಂತ", "wrong": ["ಮ್ಯಾಚ್‌ಗೆ|myāchge", "ಮ್ಯಾಚ್‌ನಲ್ಲಿ|myāchnalli"] },
+        { "native": "ಅವನು ಟೀಮ್‌ನಲ್ಲಿ ಎಲ್ಲರಿಗಿಂತ ಒಳ್ಳೆ ಆಟಗಾರ.", "roman": "avanu ṭīmnalli ellariginta oḷḷe āṭagāra.", "en": "He's the best player in the team." },
+        { "native": "ನನಗೆ ಕ್ರಿಕೆಟ್‌ಗಿಂತ ಫುಟ್‌ಬಾಲ್ ಇಷ್ಟ.", "roman": "nanage krikeṭginta phuṭbāl iṣṭa.", "en": "I prefer football to cricket." },
+        { "native": "ಯಾರು ಗೆದ್ರು? ನಾನು ಆಫೀಸಲ್ಲಿ ಇದ್ದೆ, ನೋಡೋಕೆ ಆಗಲಿಲ್ಲ.", "roman": "yāru gedru? nānu āphīsalli idde, nōḍōke āgalilla.", "en": "Who won? I was at the office, I couldn't watch." },
+        { "native": "ಆ ಆಟಗಾರ ಇದ್ದಿದ್ರೆ ನಾವು ಸೋಲ್ತಿರಲಿಲ್ಲ.", "roman": "ā āṭagāra iddidre nāvu sōltiralilla.", "en": "If that player had been there, we wouldn't have lost." },
+        { "native": "ಮೂರು ವಿಕೆಟ್ ಹೋಯ್ತು, ಈಗ ಟೆನ್ಶನ್ ಶುರು.", "roman": "mūru vikeṭ hōytu, īga ṭenshan shuru.", "en": "Three wickets down, now the tension starts." },
+        { "native": "ಚಿನ್ನಸ್ವಾಮಿ ಸ್ಟೇಡಿಯಂನಲ್ಲಿ ಮ್ಯಾಚ್ ನೋಡೋ ಮಜಾನೇ ಬೇರೆ.", "roman": "chinnasvāmi sṭēḍiyamnalli myāch nōḍō majānē bēre.", "en": "Watching a match at Chinnaswamy Stadium is something else." },
+        { "native": "ಸ್ಕೋರ್ ಎಷ್ಟು? ನಾವು ಗೆಲ್ತೀವಾ?", "roman": "skōr eṣṭu? nāvu geltīvā?", "en": "What's the score? Are we going to win?" }
+      ]
+    },
+    {
+      "title": "Hobbies, fans and the more the better",
+      "tip": { "title": "The more…, the more…: ಎಷ್ಟು … -ಓ, ಅಷ್ಟು …", "body": "- **ಎಷ್ಟು** + verb-**ಓ**, **ಅಷ್ಟು** + …: ಎಷ್ಟು ಕೇಳ್ತೀನೋ ಅಷ್ಟು ಇಷ್ಟ ಆಗುತ್ತೆ 'the more I listen, the more I like it'.\n- With 'if': ಎಷ್ಟು ಬೇಗ **ಬಂದ್ರೆ** ಅಷ್ಟು ಒಳ್ಳೇದು 'the sooner the better'.\n- Gradually: **ಹೋಗ್ತಾ ಹೋಗ್ತಾ** 'as it goes on'.\n- Not to confuse: ಎಷ್ಟು … **-ಅರೂ** = 'however much'.", "pattern": "ಎಷ್ಟು + verb-ಓ, ಅಷ್ಟು + …", "grammar": 2 },
+      "new": ["ಹವ್ಯಾಸ", "ಪ್ರಾಕ್ಟೀಸ್", "ಡ್ಯಾನ್ಸ್", "ಅಭಿಮಾನಿ", "ಫ್ರೀ ಟೈಮ್‌ನಲ್ಲಿ ಏನು ಮಾಡ್ತೀಯ?", "ನನಗೆ ಟ್ರೆಕ್ಕಿಂಗ್ ಹುಚ್ಚು", "ಎಷ್ಟು ಕೇಳಿದ್ರೂ ಬೋರ್ ಆಗಲ್ಲ"],
+      "sentences": [
+        { "native": "ಎಷ್ಟು ಜಿಮ್‌ಗೆ ಹೋಗ್ತೀಯೋ ಅಷ್ಟು ಆರೋಗ್ಯ ಚೆನ್ನಾಗಿರುತ್ತೆ.", "roman": "eṣṭu jimge hōgtīyō aṣṭu ārōgya chennāgirutte.", "en": "The more you go to the gym, the healthier you'll be.", "focus": "ಹೋಗ್ತೀಯೋ", "wrong": ["ಹೋಗ್ತೀಯ|hōgtīya", "ಹೋಗ್ತೀಯಾ|hōgtīyā"] },
+        { "native": "ಈ ಹಾಡು ಎಷ್ಟು ಕೇಳ್ತೀನೋ ಅಷ್ಟು ಇಷ್ಟ ಆಗುತ್ತೆ.", "roman": "ī hāḍu eṣṭu kēḷtīnō aṣṭu iṣṭa āgutte.", "en": "The more I listen to this song, the more I like it.", "focus": "ಕೇಳ್ತೀನೋ", "wrong": ["ಕೇಳ್ತೀನಿ|kēḷtīni", "ಕೇಳಿದೆ|kēḷide"] },
+        { "native": "ಎಷ್ಟು ಬೇಗ ಹೊರಟ್ರೆ ಅಷ್ಟು ಒಳ್ಳೇದು, ಬೆಟ್ಟದ ಮೇಲೆ ಬಿಸಿಲು ಜಾಸ್ತಿ.", "roman": "eṣṭu bēga horaṭre aṣṭu oḷḷēdu, beṭṭada mēle bisilu jāsti.", "en": "The earlier we set off the better, it gets hot on top of the hill.", "focus": "ಅಷ್ಟು", "wrong": ["ಎಷ್ಟು|eṣṭu", "ಇಷ್ಟು|iṣṭu"] },
+        { "native": "ಎಷ್ಟು ಹವ್ಯಾಸ ಇದ್ರೆ ಅಷ್ಟು ಒಳ್ಳೇದು, ಬೋರ್ ಆಗಲ್ಲ.", "roman": "eṣṭu havyāsa idre aṣṭu oḷḷēdu, bōr āgalla.", "en": "The more hobbies you have the better, you never get bored.", "focus": "ಇದ್ರೆ", "wrong": ["ಇದೆ|ide", "ಇತ್ತು|ittu"] },
+        { "native": "ನನ್ನ ತಂಗಿ ಎಷ್ಟು ಡ್ಯಾನ್ಸ್ ಪ್ರಾಕ್ಟೀಸ್ ಮಾಡ್ತಾಳೋ ಅಷ್ಟು ಖುಷಿಯಾಗಿರ್ತಾಳೆ.", "roman": "nanna taṅgi eṣṭu ḍyāns prākṭīs māḍtāḷō aṣṭu khuṣiyāgirtāḷe.", "en": "The more my sister practises her dancing, the happier she is.", "focus": "ಮಾಡ್ತಾಳೋ", "wrong": ["ಮಾಡ್ತಾಳೆ|māḍtāḷe", "ಮಾಡ್ತಾಳಾ|māḍtāḷā"] },
+        { "native": "ಟ್ರೆಕ್ಕಿಂಗ್ ಹೋಗ್ತಾ ಹೋಗ್ತಾ ಅಭ್ಯಾಸ ಆಗುತ್ತೆ.", "roman": "ṭrekkiṅg hōgtā hōgtā abhyāsa āgutte.", "en": "You get used to trekking as you keep going." },
+        { "native": "ಮೇಲೆ ಹೋಗ್ತಾ ಹೋಗ್ತಾ ಚಳಿ ಜಾಸ್ತಿ ಆಗುತ್ತೆ.", "roman": "mēle hōgtā hōgtā chaḷi jāsti āgutte.", "en": "The higher you go, the colder it gets." },
+        { "native": "ಅವನಿಗೆ ಕ್ರಿಕೆಟ್ ಹುಚ್ಚು, ಎಷ್ಟು ಮ್ಯಾಚ್ ಇದ್ರೂ ನೋಡ್ತಾನೆ.", "roman": "avanige krikeṭ huchchu, eṣṭu myāch idrū nōḍtāne.", "en": "He's crazy about cricket; however many matches there are, he watches them all." },
+        { "native": "ನಾನು ಅಪ್ಪು ಅಭಿಮಾನಿ, ಅವರ ಎಲ್ಲಾ ಸಿನಿಮಾ ನೋಡಿದ್ದೀನಿ.", "roman": "nānu appu abhimāni, avara ellā sinimā nōḍiddīni.", "en": "I'm an Appu fan, I've seen all his films." },
+        { "native": "ಈ ಸಲ ಕಪ್ ನಮ್ದೇ ಅಂತ ಅಭಿಮಾನಿಗಳು ಕೂಗ್ತಿದ್ದಾರೆ.", "roman": "ī sala kap namdē anta abhimānigaḷu kūgtiddāre.", "en": "The fans are chanting 'this time the cup is ours'." }
+      ]
+    }
+  ]
+}

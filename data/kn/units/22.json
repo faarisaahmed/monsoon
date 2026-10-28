@@ -1,0 +1,178 @@
+{
+  "id": 22,
+  "title": "Calls, texts & voice notes",
+  "goal": "Make and take calls, deal with bad signal and missed calls, text, send voice notes and your location, and say 'just', 'already', 'still' and 'not yet'.",
+  "intro": "Kannadigas call much more than they text: calls are cheap, and a two-minute call settles what would take twenty messages. When they do message, it's WhatsApp, often a **voice note**, and often in Kannada typed in English letters (*oota aytha?* 'have you eaten?').\n\nThis unit gives you the phone Kannada you'll use every day: **ಕೇಳಿಸ್ತಿದೆಯಾ?** 'can you hear me?', **ಸಿಗ್ನಲ್ ಇಲ್ಲ**, **ಆಮೇಲೆ ಕಾಲ್ ಮಾಡ್ತೀನಿ** 'I'll call you back', **ಲೊಕೇಶನ್ ಕಳಿಸು** 'send me the location'. Almost every phone word is English + **ಮಾಡು** (ಕಾಲ್ ಮಾಡು, ಮೆಸೇಜ್ ಮಾಡು, ರಿಪ್ಲೈ ಮಾಡು).\n\nThe grammar is two things that make your Kannada flow: the **past participle** that chains actions ('I'll get home *and* call you', 'save my number *and* give me a missed call'), and the little time words **ಈಗಷ್ಟೇ** 'just', **ಆಗಲೇ** 'already', **ಇನ್ನೂ** 'still' and **ಇನ್ನೂ … ಇಲ್ಲ** 'not yet'.",
+  "vocab": [
+    { "native": "ಕಾಲ್", "roman": "kāl", "en": "(phone) call", "pos": "noun", "note": "ಕಾಲ್ ಮಾಡು 'to call' (= ಫೋನ್ ಮಾಡು); ಕಾಲ್ ಬಂತು 'a call came'." },
+    { "native": "ಎತ್ತು", "roman": "ettu", "en": "to pick up (the phone); to lift, raise", "pos": "verb", "note": "ಫೋನ್ ಎತ್ತು 'answer the phone'. Past ಎತ್ತಿದೆ. (ಎತ್ತು is also 'ox'.)" },
+    { "native": "ಕೇಳಿಸು", "roman": "kēḷisu", "en": "to be audible, be heard", "pos": "verb", "note": "The hearer is in the dative: ನಿನಗೆ ಕೇಳಿಸ್ತಿದೆಯಾ? 'can you hear (me)?' (lit. is it audible to you?)." },
+    { "native": "ಧ್ವನಿ", "roman": "dhvani", "en": "voice; sound", "pos": "noun", "note": "In chat often ವಾಯ್ಸ್ vāys." },
+    { "native": "ಸಿಗ್ನಲ್", "roman": "signal", "en": "(phone) signal; traffic signal", "pos": "noun", "note": "ಸಿಗ್ನಲ್ ಇಲ್ಲ 'no signal'. Also the traffic light (unit 23)." },
+    { "native": "ಸರಿಯಾಗಿ", "roman": "sariyāgi", "en": "properly, clearly; correctly", "pos": "adv", "note": "From ಸರಿ 'right'." },
+    { "native": "ಮಿಸ್ಡ್ ಕಾಲ್", "roman": "misḍ kāl", "en": "missed call", "pos": "noun", "note": "ಮಿಸ್ಡ್ ಕಾಲ್ ಕೊಡು 'give (someone) a missed call', a common signal: 'I've arrived', 'call me back'." },
+    { "native": "ವಿಡಿಯೋ ಕಾಲ್", "roman": "viḍiyō kāl", "en": "video call", "pos": "noun" },
+    { "native": "ಕಟ್", "roman": "kaṭ", "en": "cut; cut off", "pos": "verb", "note": "ಕಾಲ್ ಕಟ್ ಮಾಡು 'hang up (on purpose)'; ಕಾಲ್ ಕಟ್ ಆಯ್ತು 'the call dropped'." },
+    { "native": "ಸ್ವಿಚ್ ಆಫ್", "roman": "svich āph", "en": "switched off", "pos": "adj", "note": "ಫೋನ್ ಸ್ವಿಚ್ ಆಫ್ ಆಗಿದೆ 'the phone is off'; ಸ್ವಿಚ್ ಆಫ್ ಮಾಡು 'switch off'." },
+    { "native": "ಚಾರ್ಜ್", "roman": "chārj", "en": "charge (battery)", "pos": "noun", "note": "ಚಾರ್ಜ್ ಇಲ್ಲ 'no charge'; ಚಾರ್ಜಿಗೆ ಹಾಕು 'put on charge'." },
+    { "native": "ಮೆಸೇಜ್", "roman": "mesēj", "en": "message, text", "pos": "noun", "note": "ಮೆಸೇಜ್ ಮಾಡು 'to text'; ಮೆಸೇಜ್ ಬಂತು 'a message came'." },
+    { "native": "ವಾಟ್ಸಾಪ್", "roman": "vāṭsāp", "en": "WhatsApp", "pos": "noun", "note": "Also a verb with ಮಾಡು: ವಾಟ್ಸಾಪ್ ಮಾಡು 'send on WhatsApp'." },
+    { "native": "ವಾಯ್ಸ್ ನೋಟ್", "roman": "vāys nōṭ", "en": "voice note", "pos": "noun" },
+    { "native": "ಗ್ರೂಪ್", "roman": "grūp", "en": "(chat) group", "pos": "noun", "note": "Locative ಗ್ರೂಪಲ್ಲಿ 'in the group'." },
+    { "native": "ಹಾಕು", "roman": "hāku", "en": "to put; to post (in a chat)", "pos": "verb", "note": "ಗ್ರೂಪಲ್ಲಿ ಹಾಕು 'post it in the group', ಚಾರ್ಜಿಗೆ ಹಾಕು 'put on charge'. Past ಹಾಕಿದೆ." },
+    { "native": "ಟೈಪ್", "roman": "ṭaip", "en": "type", "pos": "verb", "note": "ಟೈಪ್ ಮಾಡು 'to type'." },
+    { "native": "ರಿಪ್ಲೈ", "roman": "riplai", "en": "reply", "pos": "noun", "note": "ರಿಪ್ಲೈ ಮಾಡು 'to reply'. Kannada: ಉತ್ತರ ಕೊಡು." },
+    { "native": "ಸೀನ್", "roman": "sīn", "en": "seen (read, on WhatsApp)", "pos": "adj", "note": "ಸೀನ್ ಮಾಡು 'to read (and ignore)'; ಸೀನ್ ಆಗಿದೆ 'it's been read'." },
+    { "native": "ಈಗಷ್ಟೇ", "roman": "īgaṣṭē", "en": "just now, a moment ago", "pos": "adv", "note": "= ಈಗ ತಾನೇ īga tānē. With the past: ಈಗಷ್ಟೇ ಬಂದೆ 'I've just arrived'." },
+    { "native": "ಈಗಾಗಲೇ", "roman": "īgāgalē", "en": "already (by now)", "pos": "adv", "note": "A little more emphatic than ಆಗಲೇ." },
+    { "native": "ಲೊಕೇಶನ್", "roman": "lokēshan", "en": "location (shared on a map)", "pos": "noun", "note": "ಲೊಕೇಶನ್ ಕಳಿಸು / ಶೇರ್ ಮಾಡು 'share your location'." },
+    { "native": "ನಂಬರ್", "roman": "nambar", "en": "(phone) number", "pos": "noun" },
+    { "native": "ಸೇವ್", "roman": "sēv", "en": "save", "pos": "verb", "note": "ಸೇವ್ ಮಾಡು 'to save'; ನಂಬರ್ ಸೇವ್ ಮಾಡ್ಕೋ 'save the number (for yourself)'." }
+  ],
+  "phrases": [
+    { "native": "ಹಲೋ, ಯಾರು ಮಾತಾಡ್ತಿರೋದು?", "roman": "halō, yāru mātāḍtirōdu?", "en": "Hello, who's speaking?" },
+    { "native": "ಕೇಳಿಸ್ತಿದೆಯಾ?", "roman": "kēḷistideyā?", "en": "Can you hear me?", "note": "Answer: ಕೇಳಿಸ್ತಿದೆ 'I can hear you' / ಕೇಳಿಸ್ತಿಲ್ಲ 'I can't hear'." },
+    { "native": "ಸರಿಯಾಗಿ ಕೇಳಿಸ್ತಿಲ್ಲ, ಸಿಗ್ನಲ್ ಇಲ್ಲ", "roman": "sariyāgi kēḷistilla, signal illa", "en": "I can't hear you properly, there's no signal." },
+    { "native": "ಸ್ವಲ್ಪ ಜೋರಾಗಿ ಮಾತಾಡಿ", "roman": "svalpa jōrāgi mātāḍi", "en": "Please speak a bit louder. (polite)", "note": "To a friend: ಸ್ವಲ್ಪ ಜೋರಾಗಿ ಮಾತಾಡು." },
+    { "native": "ಆಮೇಲೆ ಕಾಲ್ ಮಾಡ್ತೀನಿ", "roman": "āmēle kāl māḍtīni", "en": "I'll call you back later." },
+    { "native": "ಮೀಟಿಂಗಲ್ಲಿದ್ದೀನಿ", "roman": "mīṭiṅgalliddīni", "en": "I'm in a meeting." },
+    { "native": "ನಿನ್ನ ಮಿಸ್ಡ್ ಕಾಲ್ ನೋಡಿದೆ", "roman": "ninna misḍ kāl nōḍide", "en": "I saw your missed call." },
+    { "native": "ಫೋನ್ ಯಾಕೆ ಎತ್ತಲಿಲ್ಲ?", "roman": "phōn yāke ettalilla?", "en": "Why didn't you pick up?" },
+    { "native": "ನನ್ನ ಫೋನಲ್ಲಿ ಚಾರ್ಜ್ ಇಲ್ಲ", "roman": "nanna phōnalli chārj illa", "en": "My phone's out of charge." },
+    { "native": "ವಾಟ್ಸಾಪ್ ಮಾಡು", "roman": "vāṭsāp māḍu", "en": "WhatsApp me. / Send it on WhatsApp. (informal)" },
+    { "native": "ಲೊಕೇಶನ್ ಕಳಿಸು", "roman": "lokēshan kaḷisu", "en": "Send me the location. (informal)", "note": "Polite: ಲೊಕೇಶನ್ ಕಳಿಸಿ." },
+    { "native": "ವಾಯ್ಸ್ ನೋಟ್ ಕಳಿಸ್ತೀನಿ", "roman": "vāys nōṭ kaḷistīni", "en": "I'll send a voice note." },
+    { "native": "ಮೆಸೇಜ್ ನೋಡಿ ರಿಪ್ಲೈ ಮಾಡು", "roman": "mesēj nōḍi riplai māḍu", "en": "Check the message and reply." },
+    { "native": "ಕಾಲ್ ಕಟ್ ಆಯ್ತು", "roman": "kāl kaṭ āytu", "en": "The call got cut off." },
+    { "native": "ಸೀನ್ ಮಾಡಿ ರಿಪ್ಲೈ ಮಾಡಿಲ್ಲ!", "roman": "sīn māḍi riplai māḍilla!", "en": "They've read it and not replied!" }
+  ],
+  "grammar": [
+    {
+      "title": "Do X and then Y: the past participle (ಮಾಡಿ, ಬಂದು, ಹೋಗಿ)",
+      "body": "English joins actions with 'and'. Kannada puts every verb except the last into the **past participle** (the 'having done' form), and only the **last verb** shows tense and person:\nಮನೆಗೆ ಹೋಗಿ ಕಾಲ್ ಮಾಡ್ತೀನಿ 'I'll go home and call' (future)\nಮನೆಗೆ ಹೋಗಿ ಕಾಲ್ ಮಾಡಿದೆ 'I went home and called' (past)\nಎದ್ದು, ಸ್ನಾನ ಮಾಡಿ, ತಿಂಡಿ ತಿಂದು, ಹೊರಟೆ 'I got up, showered, had breakfast and left'\n\n**Forming it.** Verbs in -ಉ → **-ಇ**: ಮಾಡು → ಮಾಡಿ, ನೋಡು → ನೋಡಿ, ಹೇಳು → ಹೇಳಿ, ಕಳಿಸು → ಕಳಿಸಿ. Verbs in -ಇ/-ಎ → **-ದು**: ಕುಡಿ → ಕುಡಿದು, ಬರೆ → ಬರೆದು. Irregular verbs use their past stem: ಬರು → **ಬಂದು**, ಹೋಗು → **ಹೋಗಿ**, ಆಗು → **ಆಗಿ**, ತಿನ್ನು → **ತಿಂದು**, ಕೊಡು → **ಕೊಟ್ಟು**, ಬಿಡು → **ಬಿಟ್ಟು**, ಏಳು → **ಎದ್ದು**, ಹೊರಡು → **ಹೊರಟು**, ತಗೊಳ್ಳು → **ತಗೊಂಡು**. You already know some as fixed phrases: ತಗೊಂಡು ಬಾ 'bring' (take and come), ಕರ್ಕೊಂಡು ಹೋಗು 'take (someone) along', ಹೋಗಿ ಬನ್ನಿ 'goodbye' (go and come back).\n\nNormally the whole chain has **one subject**. For different subjects use 'after' instead.\n\n**After doing** = past relative participle + **ಮೇಲೆ** (or ನಂತರ): ತಲುಪಿದ ಮೇಲೆ 'after (you) arrive', ಊಟ ಆದ ಮೇಲೆ 'after lunch', ನಾನು ಮನೆಗೆ ಬಂದ ಮೇಲೆ ಅವನು ಕಾಲ್ ಮಾಡಿದ 'he called after I got home'. Spoken: ತಲುಪಿದ್ಮೇಲೆ.\n**Before doing** = -ಓಕೆ + **ಮುಂಚೆ**: ಹೊರಡೋಕೆ ಮುಂಚೆ 'before leaving'.\n**Without doing** = infinitive stem + **-ಅದೆ**: ಹೇಳದೆ 'without telling', ನೋಡದೆ 'without looking', ಕೇಳದೆ 'without asking'.",
+      "examples": [
+        { "native": "ಆಫೀಸಿಂದ ಬಂದು ಕಾಲ್ ಮಾಡ್ತೀನಿ", "roman": "āphīsinda bandu kāl māḍtīni", "en": "I'll call when I'm back from the office." },
+        { "native": "ವಾಯ್ಸ್ ನೋಟ್ ಕೇಳಿ ಹೇಳು", "roman": "vāys nōṭ kēḷi hēḷu", "en": "Listen to the voice note and tell me." },
+        { "native": "ಪರೀಕ್ಷೆ ಮುಗಿದ ಮೇಲೆ ಸಿಗೋಣ", "roman": "parīkṣe mugida mēle sigōṇa", "en": "Let's meet after the exams are over." },
+        { "native": "ಅವಳು ಯಾರಿಗೂ ಹೇಳದೆ ಹೊರಟು ಹೋದ್ಳು", "roman": "avaḷu yārigū hēḷade horaṭu hōdḷu", "en": "She left without telling anyone." },
+        { "native": "ಲೊಕೇಶನ್ ನೋಡಿ ಬನ್ನಿ", "roman": "lokēshan nōḍi banni", "en": "Check the location and come. (polite)" }
+      ]
+    },
+    {
+      "title": "Just, already, still, not yet",
+      "body": "**Just (a moment ago)**: **ಈಗಷ್ಟೇ** or **ಈಗ ತಾನೇ** + simple past: ಈಗಷ್ಟೇ ಎದ್ದೆ 'I've just got up', ಈಗ ತಾನೇ ಬಂದ್ರು 'they've just arrived'. (ಅಷ್ಟೇ on its own is 'only, that's all': ಎರಡೇ ನಿಮಿಷ 'just two minutes', ಅಷ್ಟೇ! 'that's it!')\n\n**Already**: **ಆಗಲೇ** (spoken ಆಗ್ಲೇ) or **ಈಗಾಗಲೇ** + past or present perfect: ಆಗಲೇ ಹೋದ್ರು 'they've already gone', ಈಗಾಗಲೇ ಹೇಳಿದ್ದೀನಿ 'I've already told you'. With surprise it means 'so soon?': ಆಗಲೇ ಹೊರಟ್ಯಾ? 'leaving already?', ಆಗಲೇ ಹತ್ತು ಗಂಟೆ! 'it's ten already!'\n\n**Still**: **ಇನ್ನೂ** + a present, continuous or state: ಇನ್ನೂ ಆಫೀಸಲ್ಲಿದ್ದೀನಿ 'I'm still at the office', ಇನ್ನೂ ಮಲಗಿದ್ದಾನೆ 'he's still asleep'.\n\n**Not yet**: **ಇನ್ನೂ** + the **perfect negative** (past participle + ಇಲ್ಲ): ಇನ್ನೂ ಬಂದಿಲ್ಲ 'hasn't come yet', ಇನ್ನೂ ಊಟ ಮಾಡಿಲ್ಲ 'haven't eaten yet', ಇನ್ನೂ ರಿಪ್ಲೈ ಮಾಡಿಲ್ಲ 'hasn't replied yet'. ಇನ್ನೂ ಇಲ್ಲ alone = 'not yet'.\n\n**The trap**: the past negative (-ಅಲಿಲ್ಲ) closes the door: ಅವನು ಬರಲಿಲ್ಲ 'he didn't come' (it's over). The perfect negative (-ಇಲ್ಲ) leaves it open: ಅವನು ಇನ್ನೂ ಬಂದಿಲ್ಲ 'he hasn't come yet'. And the plain negative ಬರಲ್ಲ means 'won't come'.\n\n**Asking 'yet?'**: use the perfect or ಆಯ್ತಾ: ಊಟ ಆಯ್ತಾ? 'have you eaten (yet)?', ಮೆಸೇಜ್ ನೋಡಿದ್ಯಾ? 'did you see the message?'\n\n**Again**: ಮತ್ತೆ, or ಇನ್ನೊಂದು ಸಲ 'one more time'.",
+      "examples": [
+        { "native": "ಈಗಷ್ಟೇ ನಿನ್ನ ಮೆಸೇಜ್ ನೋಡಿದೆ", "roman": "īgaṣṭē ninna mesēj nōḍide", "en": "I just saw your message." },
+        { "native": "ನಾನು ಆಗಲೇ ಲೊಕೇಶನ್ ಕಳಿಸಿದ್ದೀನಿ", "roman": "nānu āgalē lokēshan kaḷisiddīni", "en": "I've already sent the location." },
+        { "native": "ಅವನು ಇನ್ನೂ ರಿಪ್ಲೈ ಮಾಡಿಲ್ಲ", "roman": "avanu innū riplai māḍilla", "en": "He hasn't replied yet." },
+        { "native": "ಇನ್ನೂ ಆಫೀಸಲ್ಲೇ ಇದ್ದೀಯಾ?", "roman": "innū āphīsallē iddīyā?", "en": "Are you still at the office?" },
+        { "native": "ಆಗಲೇ ಹೊರಟ್ಯಾ?", "roman": "āgalē horaṭyā?", "en": "Leaving already?" }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Where are you?",
+    "setting": "Rahul is coming to Mysuru by train, and his friend Deepa is picking him up at the station.",
+    "lines": [
+      { "speaker": "Deepa", "native": "ಹಲೋ? ರಾಹುಲ್? ಕೇಳಿಸ್ತಿದೆಯಾ?", "roman": "halō? rāhul? kēḷistideyā?", "en": "Hello? Rahul? Can you hear me?" },
+      { "speaker": "Rahul", "native": "ಹಲೋ ದೀಪಾ! ಹೂಂ, ಈಗ ಕೇಳಿಸ್ತಿದೆ. ಸಾರಿ, ನಿನ್ನ ಮಿಸ್ಡ್ ಕಾಲ್ ಈಗಷ್ಟೇ ನೋಡಿದೆ.", "roman": "halō dīpā! hūṃ, īga kēḷistide. sāri, ninna misḍ kāl īgaṣṭē nōḍide.", "en": "Hello Deepa! Yes, I can hear you now. Sorry, I've only just seen your missed call." },
+      { "speaker": "Deepa", "native": "ಮೂರು ಸಲ ಕಾಲ್ ಮಾಡಿದೆ! ಫೋನ್ ಯಾಕೆ ಎತ್ತಲಿಲ್ಲ?", "roman": "mūru sala kāl māḍide! phōn yāke ettalilla?", "en": "I called three times! Why didn't you pick up?" },
+      { "speaker": "Rahul", "native": "ರೈಲಲ್ಲಿ ಸಿಗ್ನಲ್ ಇರಲಿಲ್ಲ. ಮಂಡ್ಯ ದಾಟಿದ ಮೇಲೆ ಸಿಕ್ತು.", "roman": "railalli signal iralilla. maṇḍya dāṭida mēle siktu.", "en": "There was no signal on the train. I only got it after Mandya." },
+      { "speaker": "Deepa", "native": "ಸರಿ. ಮೈಸೂರು ಸ್ಟೇಷನ್ ತಲುಪಿದ್ಯಾ?", "roman": "sari. maisūru sṭēshan talupidyā?", "en": "OK. Have you reached Mysuru station?" },
+      { "speaker": "Rahul", "native": "ಇನ್ನೂ ಇಲ್ಲ, ಇನ್ನೇನು ತಲುಪ್ತೀನಿ. ನೀನು ಎಲ್ಲಿದ್ದೀಯ?", "roman": "innū illa, innēnu taluptīni. nīnu elliddīya?", "en": "Not yet, I'll be there any minute. Where are you?" },
+      { "speaker": "Deepa", "native": "ನಾನು ಸ್ಟೇಷನ್ ಹೊರಗೆ ಕಾಯ್ತಿದ್ದೀನಿ. ಇಲ್ಲಿ ತುಂಬಾ ಗಲಾಟೆ... ಹಲೋ? ಹಲೋ?", "roman": "nānu sṭēshan horage kāytiddīni. illi tumbā galāṭe... halō? halō?", "en": "I'm waiting outside the station. It's really noisy here... Hello? Hello?" },
+      { "speaker": "Rahul", "native": "ಹಲೋ? ನಿನ್ನ ಧ್ವನಿ ಕಟ್ ಆಗ್ತಿದೆ. ಸ್ವಲ್ಪ ಜೋರಾಗಿ ಮಾತಾಡು!", "roman": "halō? ninna dhvani kaṭ āgtide. svalpa jōrāgi mātāḍu!", "en": "Hello? Your voice keeps cutting out. Speak a bit louder!" },
+      { "speaker": "Deepa", "native": "ಬಿಡು, ಕಾಲ್ ಕಟ್ ಮಾಡ್ತೀನಿ. ವಾಟ್ಸಾಪಲ್ಲಿ ಲೊಕೇಶನ್ ಕಳಿಸ್ತೀನಿ, ನೋಡಿ ಬಾ.", "roman": "biḍu, kāl kaṭ māḍtīni. vāṭsāpalli lokēshan kaḷistīni, nōḍi bā.", "en": "Forget it, I'll hang up. I'll send you the location on WhatsApp, check it and come." },
+      { "speaker": "Rahul", "native": "ಓಕೆ. ಅಂದಹಾಗೆ, ನನ್ನ ಫೋನಲ್ಲಿ ಬರೀ ಹತ್ತು ಪರ್ಸೆಂಟ್ ಚಾರ್ಜ್ ಇದೆ!", "roman": "ōke. andahāge, nanna phōnalli barī hattu parseṇṭ chārj ide!", "en": "OK. By the way, my phone's only got ten percent charge!" },
+      { "speaker": "Deepa", "native": "ಅಯ್ಯೋ! ಹಾಗಾದ್ರೆ ಸ್ಟೇಷನ್ ಗೇಟ್ ಹತ್ರ ಇರು, ಎಲ್ಲೂ ಹೋಗಬೇಡ.", "roman": "ayyō! hāgādre sṭēshan gēṭ hatra iru, ellū hōgabēḍa.", "en": "Oh no! Then stay at the station gate, don't go anywhere." },
+      { "speaker": "Rahul", "native": "ದೀಪಾ, ಗೇಟ್ ಹತ್ರ ಬಂದೆ. ನೀಲಿ ಅಂಗಿ ಹಾಕ್ಕೊಂಡಿದ್ದೀನಿ. ನಾನು ಕಾಣ್ತಿದ್ದೀನಾ?", "roman": "dīpā, gēṭ hatra bande. nīli aṅgi hākkoṇḍiddīni. nānu kāṇtiddīnā?", "en": "(a voice note, five minutes later) Deepa, I'm at the gate. I'm wearing a blue shirt. Can you see me?" },
+      { "speaker": "Deepa", "native": "ಹೂಂ, ಕಾಣ್ತಿದ್ದೀಯ! ಬಲಕ್ಕೆ ನೋಡು, ನಾನು ಕೈ ಎತ್ತಿದ್ದೀನಿ!", "roman": "hūṃ, kāṇtiddīya! balakke nōḍu, nānu kai ettiddīni!", "en": "Yes, I can see you! Look to your right, I've got my hand up!" }
+    ]
+  },
+  "culture": "Phone manners in Karnataka are warmer and looser than in the West. Friends and family answer with **ಹಲೋ** or, if they know who's calling, **ಹಾ, ಹೇಳು / ಹೇಳಿ** 'yes, tell me'. People call without texting first, and many conversations open with **ಊಟ ಆಯ್ತಾ?** 'have you eaten?' before getting to the point. **ಆಮೇಲೆ ಕಾಲ್ ಮಾಡ್ತೀನಿ** is sincere from a friend and a polite brush-off from a salesman.\n\nThe **missed call** is a language of its own: 'give me a missed call when you reach' (ತಲುಪಿದ ಮೇಲೆ ಮಿಸ್ಡ್ ಕಾಲ್ ಕೊಡು) means 'let me know you're safe' at no cost. **Voice notes** are everywhere, especially with parents and grandparents who'd rather talk than type, and family WhatsApp groups run on good-morning flowers and forwarded news.\n\nMost young people type Kannada in English letters (*barthini* 'I'm coming', *sigona* 'let's meet', *en maadtidya?* 'what are you up to?'), or use voice typing in Kannada script. Use **ನೀನು** forms in messages to friends and **ನೀವು** to anyone older; a message to an older relative often ends with **ಸರಿನಾ?** or **ಆಯ್ತಾ?** to sound gentle rather than bossy.",
+  "lessons": [
+    {
+      "title": "On the phone",
+      "tip": { "title": "Can you hear me? ಕೇಳಿಸ್ತಿದೆಯಾ?", "body": "- 'Can you hear me?' is literally 'is it audible to you?': **(ನಿನಗೆ) ಕೇಳಿಸ್ತಿದೆಯಾ?** The hearer goes in the **dative**, like ನನಗೆ ಗೊತ್ತು.\n- Answer **ಕೇಳಿಸ್ತಿದೆ** 'I can hear' or **ಕೇಳಿಸ್ತಿಲ್ಲ** 'I can't hear'.\n- Answer an unknown number with **ಹಲೋ, ಯಾರು ಮಾತಾಡ್ತಿರೋದು?**", "pattern": "ನಿನಗೆ + ಕೇಳಿಸ್ತಿದೆಯಾ?" },
+      "new": ["ಕಾಲ್", "ಎತ್ತು", "ಕೇಳಿಸು", "ಧ್ವನಿ", "ಸಿಗ್ನಲ್", "ಸರಿಯಾಗಿ", "ಹಲೋ, ಯಾರು ಮಾತಾಡ್ತಿರೋದು?", "ಕೇಳಿಸ್ತಿದೆಯಾ?", "ಸರಿಯಾಗಿ ಕೇಳಿಸ್ತಿಲ್ಲ, ಸಿಗ್ನಲ್ ಇಲ್ಲ", "ಸ್ವಲ್ಪ ಜೋರಾಗಿ ಮಾತಾಡಿ"],
+      "sentences": [
+        { "native": "ನಿನಗೆ ನನ್ನ ಧ್ವನಿ ಕೇಳಿಸ್ತಿದೆಯಾ?", "roman": "ninage nanna dhvani kēḷistideyā?", "en": "Can you hear my voice?", "focus": "ನಿನಗೆ", "wrong": ["ನೀನು|nīnu", "ನಿನ್ನ|ninna"] },
+        { "native": "ಈಗ ಕೇಳಿಸ್ತಿದೆ, ಹೇಳು.", "roman": "īga kēḷistide, hēḷu.", "en": "I can hear you now, go ahead.", "focus": "ಕೇಳಿಸ್ತಿದೆ", "wrong": ["ಕೇಳ್ತೀನಿ|kēḷtīni", "ಕೇಳಿದೆ|kēḷide"] },
+        { "native": "ಅವರಿಗೆ ಏನೂ ಕೇಳಿಸ್ತಿಲ್ವಂತೆ.", "roman": "avarige ēnū kēḷistilvante.", "en": "Apparently they can't hear anything.", "focus": "ಅವರಿಗೆ", "wrong": ["ಅವರು|avaru", "ಅವರ|avara"] },
+        { "native": "ಹಲೋ, ಯಾರು ಮಾತಾಡ್ತಿರೋದು? ಸರಿಯಾಗಿ ಕೇಳಿಸ್ತಿಲ್ಲ.", "roman": "halō, yāru mātāḍtirōdu? sariyāgi kēḷistilla.", "en": "Hello, who's speaking? I can't hear properly.", "focus": "ಕೇಳಿಸ್ತಿಲ್ಲ", "wrong": ["ಕೇಳಿಸ್ತಿದೆ|kēḷistide", "ಕೇಳಲ್ಲ|kēḷalla"] },
+        { "native": "ಇಲ್ಲಿ ಸಿಗ್ನಲ್ ಸರಿಯಾಗಿ ಇಲ್ಲ, ನಿನಗೆ ಕೇಳಿಸ್ತಿದೆಯಾ?", "roman": "illi signal sariyāgi illa, ninage kēḷistideyā?", "en": "The signal's bad here, can you hear me?", "focus": "ಕೇಳಿಸ್ತಿದೆಯಾ", "wrong": ["ಕೇಳ್ತೀಯಾ|kēḷtīyā", "ಕೇಳಿದ್ಯಾ|kēḷidyā"] },
+        { "native": "ಅವನು ಫೋನ್ ಎತ್ತುತ್ತಿಲ್ಲ.", "roman": "avanu phōn ettuttilla.", "en": "He isn't picking up the phone.", "focus": "ಎತ್ತುತ್ತಿಲ್ಲ", "wrong": ["ಎತ್ತಿದ|ettida", "ಎತ್ತು|ettu"] },
+        { "native": "ಅಮ್ಮ ಕಾಲ್ ಮಾಡ್ತಿದ್ದಾರೆ, ಫೋನ್ ಎತ್ತು!", "roman": "amma kāl māḍtiddāre, phōn ettu!", "en": "Mum's calling, pick up!", "focus": "ಎತ್ತು", "wrong": ["ಎತ್ತಿದೆ|ettide", "ಎತ್ತಲ್ಲ|ettalla"] },
+        { "native": "ಮೆಟ್ರೋದಲ್ಲಿ ಸಿಗ್ನಲ್ ಸಿಗಲ್ಲ.", "roman": "meṭrōdalli signal sigalla.", "en": "You don't get signal in the metro." },
+        { "native": "ಸ್ವಲ್ಪ ಜೋರಾಗಿ ಮಾತಾಡಿ ಸಾರ್, ಇಲ್ಲಿ ತುಂಬಾ ಗಲಾಟೆ.", "roman": "svalpa jōrāgi mātāḍi sār, illi tumbā galāṭe.", "en": "Please speak a bit louder, sir, it's very noisy here." },
+        { "native": "ನಿನ್ನ ಕಾಲ್ ಬಂದಾಗ ನಾನು ಸ್ನಾನ ಮಾಡ್ತಿದ್ದೆ.", "roman": "ninna kāl bandāga nānu snāna māḍtidde.", "en": "I was in the shower when your call came." }
+      ]
+    },
+    {
+      "title": "Missed calls and calling back",
+      "tip": { "title": "Do X and then Y: ಹೋಗಿ, ಬಂದು, ಮಾಡಿ", "body": "- Every verb but the last goes into the **past participle**; the last verb carries the tense: ಮನೆಗೆ **ಹೋಗಿ** ಕಾಲ್ ಮಾಡ್ತೀನಿ 'I'll get home and call'.\n- -ಉ verbs → **-ಇ** (ಮಾಡಿ, ನೋಡಿ); -ಇ/-ಎ verbs → **-ದು** (ಕುಡಿದು).\n- Irregular: **ಬಂದು, ಹೋಗಿ, ತಿಂದು, ಕೊಟ್ಟು, ಎದ್ದು, ತಗೊಂಡು**.\n- 'Without' = **-ಅದೆ**: ಹೇಳದೆ.", "pattern": "ಹೋಗಿ + ಕಾಲ್ ಮಾಡ್ತೀನಿ", "grammar": 0 },
+      "new": ["ಮಿಸ್ಡ್ ಕಾಲ್", "ವಿಡಿಯೋ ಕಾಲ್", "ಕಟ್", "ಸ್ವಿಚ್ ಆಫ್", "ಚಾರ್ಜ್", "ಆಮೇಲೆ ಕಾಲ್ ಮಾಡ್ತೀನಿ", "ಮೀಟಿಂಗಲ್ಲಿದ್ದೀನಿ", "ನಿನ್ನ ಮಿಸ್ಡ್ ಕಾಲ್ ನೋಡಿದೆ", "ಫೋನ್ ಯಾಕೆ ಎತ್ತಲಿಲ್ಲ?", "ನನ್ನ ಫೋನಲ್ಲಿ ಚಾರ್ಜ್ ಇಲ್ಲ"],
+      "sentences": [
+        { "native": "ಮನೆ ತಲುಪಿ ಕಾಲ್ ಮಾಡು.", "roman": "mane talupi kāl māḍu.", "en": "Call me once you get home.", "focus": "ತಲುಪಿ", "wrong": ["ತಲುಪಿದೆ|talupide", "ತಲುಪು|talupu"] },
+        { "native": "ಮೀಟಿಂಗಲ್ಲಿದ್ದೀನಿ, ಹೊರಗೆ ಬಂದು ಕಾಲ್ ಮಾಡ್ತೀನಿ.", "roman": "mīṭiṅgalliddīni, horage bandu kāl māḍtīni.", "en": "I'm in a meeting, I'll step out and call you.", "focus": "ಬಂದು", "wrong": ["ಬಂದೆ|bande", "ಬರು|baru"] },
+        { "native": "ಎದ್ದು ನೋಡಿದ್ರೆ ಹತ್ತು ಮಿಸ್ಡ್ ಕಾಲ್!", "roman": "eddu nōḍidre hattu misḍ kāl!", "en": "I woke up and there were ten missed calls!", "focus": "ಎದ್ದು", "wrong": ["ಎದ್ದೆ|edde", "ಏಳು|ēḷu"] },
+        { "native": "ಅವನು ಏನೂ ಹೇಳದೆ ಕಾಲ್ ಕಟ್ ಮಾಡಿದ.", "roman": "avanu ēnū hēḷade kāl kaṭ māḍida.", "en": "He hung up without saying anything.", "focus": "ಹೇಳದೆ", "wrong": ["ಹೇಳಿ|hēḷi", "ಹೇಳಲ್ಲ|hēḷalla"] },
+        { "native": "ನನ್ನ ಫೋನಲ್ಲಿ ಚಾರ್ಜ್ ಇಲ್ಲ, ಮನೆಗೆ ಹೋಗಿ ಕಾಲ್ ಮಾಡ್ತೀನಿ.", "roman": "nanna phōnalli chārj illa, manege hōgi kāl māḍtīni.", "en": "My phone's out of charge, I'll get home and call you.", "focus": "ಹೋಗಿ", "wrong": ["ಹೋದೆ|hōde", "ಹೋಗು|hōgu"] },
+        { "native": "ಸಂಜೆ ಎಲ್ಲರೂ ಸೇರಿ ಅಜ್ಜಿಗೆ ವಿಡಿಯೋ ಕಾಲ್ ಮಾಡೋಣ.", "roman": "sañje ellarū sēri ajjige viḍiyō kāl māḍōṇa.", "en": "This evening let's all get together and video-call Grandma.", "focus": "ಸೇರಿ", "wrong": ["ಸೇರ್ತೀವಿ|sērtīvi", "ಸೇರು|sēru"] },
+        { "native": "ಊಟ ಮಾಡಿದ ಮೇಲೆ ಕಾಲ್ ಮಾಡ್ತೀನಿ, ಆಯ್ತಾ?", "roman": "ūṭa māḍida mēle kāl māḍtīni, āytā?", "en": "I'll call you after I've eaten, OK?", "focus": "ಮಾಡಿದ", "wrong": ["ಮಾಡಿ|māḍi", "ಮಾಡೋ|māḍō"] },
+        { "native": "ನಿನ್ನ ಮಿಸ್ಡ್ ಕಾಲ್ ನೋಡಿದೆ, ಏನು ವಿಷಯ?", "roman": "ninna misḍ kāl nōḍide, ēnu viṣaya?", "en": "I saw your missed call, what's up?" },
+        { "native": "ಫೋನ್ ಯಾಕೆ ಎತ್ತಲಿಲ್ಲ? ಸ್ವಿಚ್ ಆಫ್ ಆಗಿತ್ತಾ?", "roman": "phōn yāke ettalilla? svich āph āgittā?", "en": "Why didn't you pick up? Was it switched off?" },
+        { "native": "ಆಮೇಲೆ ಕಾಲ್ ಮಾಡ್ತೀನಿ, ಈಗ ಬಸ್ಸಲ್ಲಿದ್ದೀನಿ.", "roman": "āmēle kāl māḍtīni, īga bassalliddīni.", "en": "I'll call you back later, I'm on the bus now." }
+      ]
+    },
+    {
+      "title": "Texts, WhatsApp and voice notes",
+      "tip": { "title": "English word + ಮಾಡು or ಆಗು", "body": "- Most phone words are English + **ಮಾಡು** 'do': **ಕಾಲ್ ಮಾಡು, ಮೆಸೇಜ್ ಮಾಡು, ಟೈಪ್ ಮಾಡು, ಸೇವ್ ಮಾಡು**.\n- When it *happens* by itself, use **ಆಗು**: **ಕಾಲ್ ಕಟ್ ಆಯ್ತು** 'the call dropped', **ಸ್ವಿಚ್ ಆಫ್ ಆಗಿದೆ** 'it's off'.\n- Sending is **ಕಳಿಸು**; posting in a group is **ಹಾಕು**.", "pattern": "ಮೆಸೇಜ್ + ಮಾಡು  ·  ಕಟ್ + ಆಯ್ತು" },
+      "new": ["ಮೆಸೇಜ್", "ವಾಟ್ಸಾಪ್", "ವಾಯ್ಸ್ ನೋಟ್", "ಗ್ರೂಪ್", "ಹಾಕು", "ಟೈಪ್", "ವಾಟ್ಸಾಪ್ ಮಾಡು", "ವಾಯ್ಸ್ ನೋಟ್ ಕಳಿಸ್ತೀನಿ", "ಕಾಲ್ ಕಟ್ ಆಯ್ತು"],
+      "sentences": [
+        { "native": "ಫೋಟೋ ಗ್ರೂಪಲ್ಲಿ ಹಾಕು.", "roman": "phōṭō grūpalli hāku.", "en": "Post the photos in the group.", "focus": "ಹಾಕು", "wrong": ["ಹಾಕಿದೆ|hākide", "ಹಾಕ್ತೀನಿ|hāktīni"] },
+        { "native": "ಕಾಲ್ ಮಾಡಬೇಡ, ಮೆಸೇಜ್ ಮಾಡು.", "roman": "kāl māḍabēḍa, mesēj māḍu.", "en": "Don't call, text me.", "focus": "ಮಾಡು", "wrong": ["ಆಗು|āgu", "ಕೊಡು|koḍu"] },
+        { "native": "ಅವಳು ಟೈಪ್ ಮಾಡ್ತಿದ್ದಾಳೆ...", "roman": "avaḷu ṭaip māḍtiddāḷe...", "en": "She's typing...", "focus": "ಮಾಡ್ತಿದ್ದಾಳೆ", "wrong": ["ಆಗ್ತಿದ್ದಾಳೆ|āgtiddāḷe", "ಮಾಡ್ತಿದ್ದೀನಿ|māḍtiddīni"] },
+        { "native": "ಕಾಲ್ ಕಟ್ ಆಯ್ತು, ಮತ್ತೆ ಮಾಡ್ತೀನಿ.", "roman": "kāl kaṭ āytu, matte māḍtīni.", "en": "The call got cut off, I'll call again.", "focus": "ಆಯ್ತು", "wrong": ["ಮಾಡಿದೆ|māḍide", "ಹಾಕಿದೆ|hākide"] },
+        { "native": "ವಿಳಾಸ ವಾಟ್ಸಾಪ್ ಮಾಡು.", "roman": "viḷāsa vāṭsāp māḍu.", "en": "WhatsApp me the address.", "focus": "ಮಾಡು", "wrong": ["ಆಗು|āgu", "ಹಾಕು|hāku"] },
+        { "native": "ಟೈಪ್ ಮಾಡೋಕೆ ಸಮಯ ಇಲ್ಲ, ವಾಯ್ಸ್ ನೋಟ್ ಕಳಿಸ್ತೀನಿ.", "roman": "ṭaip māḍōke samaya illa, vāys nōṭ kaḷistīni.", "en": "No time to type, I'll send a voice note.", "focus": "ಕಳಿಸ್ತೀನಿ", "wrong": ["ಕಳಿಸಿದೆ|kaḷiside", "ಕಳಿಸು|kaḷisu"] },
+        { "native": "ಅವನ ವಾಯ್ಸ್ ನೋಟ್ ಐದು ನಿಮಿಷ ಇದೆ!", "roman": "avana vāys nōṭ aidu nimiṣa ide!", "en": "His voice note is five minutes long!" },
+        { "native": "ಆ ಗ್ರೂಪಲ್ಲಿ ಪ್ರತಿದಿನ ನೂರು ಮೆಸೇಜ್ ಬರುತ್ತೆ!", "roman": "ā grūpalli pratidina nūru mesēj barutte!", "en": "A hundred messages come in that group every day!" },
+        { "native": "ಅಮ್ಮನಿಗೆ ವಾಟ್ಸಾಪ್ ಮಾಡೋಕೆ ಬರಲ್ಲ.", "roman": "ammanige vāṭsāp māḍōke baralla.", "en": "Mum doesn't know how to use WhatsApp." }
+      ]
+    },
+    {
+      "title": "Just, already, still, not yet",
+      "tip": { "title": "ಈಗಷ್ಟೇ, ಆಗಲೇ, ಇನ್ನೂ", "body": "- **Just**: **ಈಗಷ್ಟೇ** + past: ಈಗಷ್ಟೇ ಬಂದೆ.\n- **Already**: **ಆಗಲೇ / ಈಗಾಗಲೇ** + past or perfect: ಆಗಲೇ ಕಳಿಸಿದ್ದೀನಿ.\n- **Still**: **ಇನ್ನೂ** + present: ಇನ್ನೂ ಮಲಗಿದ್ದಾನೆ.\n- **Not yet**: **ಇನ್ನೂ** + perfect negative: ಇನ್ನೂ **ಬಂದಿಲ್ಲ**. Not ಬರಲಿಲ್ಲ, which means 'didn't come' (it's over).", "pattern": "ಇನ್ನೂ + ಬಂದಿಲ್ಲ", "grammar": 1 },
+      "new": ["ರಿಪ್ಲೈ", "ಸೀನ್", "ಈಗಷ್ಟೇ", "ಈಗಾಗಲೇ", "ಮೆಸೇಜ್ ನೋಡಿ ರಿಪ್ಲೈ ಮಾಡು", "ಸೀನ್ ಮಾಡಿ ರಿಪ್ಲೈ ಮಾಡಿಲ್ಲ!"],
+      "sentences": [
+        { "native": "ಈಗಷ್ಟೇ ಆಫೀಸಿಂದ ಬಂದೆ.", "roman": "īgaṣṭē āphīsinda bande.", "en": "I've just got back from the office.", "focus": "ಈಗಷ್ಟೇ", "wrong": ["ಇನ್ನೂ|innū", "ಇನ್ನೇನು|innēnu"] },
+        { "native": "ಅವಳು ಇನ್ನೂ ರಿಪ್ಲೈ ಮಾಡಿಲ್ಲ.", "roman": "avaḷu innū riplai māḍilla.", "en": "She hasn't replied yet.", "focus": "ಮಾಡಿಲ್ಲ", "wrong": ["ಮಾಡಲಿಲ್ಲ|māḍalilla", "ಮಾಡಲ್ಲ|māḍalla"] },
+        { "native": "ನಾನು ಈಗಾಗಲೇ ಮೂರು ಸಲ ಕಾಲ್ ಮಾಡಿದ್ದೀನಿ!", "roman": "nānu īgāgalē mūru sala kāl māḍiddīni!", "en": "I've already called three times!", "focus": "ಈಗಾಗಲೇ", "wrong": ["ಇನ್ನೂ|innū", "ಇನ್ನೇನು|innēnu"] },
+        { "native": "ಇನ್ನೂ ಆಫೀಸಲ್ಲೇ ಇದ್ದೀನಿ, ತುಂಬಾ ಕೆಲಸ.", "roman": "innū āphīsallē iddīni, tumbā kelasa.", "en": "I'm still at the office, loads of work.", "focus": "ಇನ್ನೂ", "wrong": ["ಆಗಲೇ|āgalē", "ಈಗಷ್ಟೇ|īgaṣṭē"] },
+        { "native": "ನನ್ನ ಮೆಸೇಜ್ ಇನ್ನೂ ಸೀನ್ ಆಗಿಲ್ಲ.", "roman": "nanna mesēj innū sīn āgilla.", "en": "My message hasn't been read yet.", "focus": "ಆಗಿಲ್ಲ", "wrong": ["ಆಗಲಿಲ್ಲ|āgalilla", "ಆಯ್ತು|āytu"] },
+        { "native": "ಆಗಲೇ ಹತ್ತು ಗಂಟೆ ಆಯ್ತಾ?", "roman": "āgalē hattu gaṇṭe āytā?", "en": "Is it ten already?", "focus": "ಆಗಲೇ", "wrong": ["ಇನ್ನೂ|innū", "ಇನ್ನೇನು|innēnu"] },
+        { "native": "ಅವನು ಇನ್ನೂ ಮಲಗಿದ್ದಾನೆ, ಎದ್ದಿಲ್ಲ.", "roman": "avanu innū malagiddāne, eddilla.", "en": "He's still asleep, he hasn't got up.", "focus": "ಎದ್ದಿಲ್ಲ", "wrong": ["ಏಳಲಿಲ್ಲ|ēḷalilla", "ಏಳಲ್ಲ|ēḷalla"] },
+        { "native": "ಈಗಷ್ಟೇ ನಿನ್ನ ವಾಯ್ಸ್ ನೋಟ್ ಕೇಳಿದೆ, ನಗು ಬಂತು!", "roman": "īgaṣṭē ninna vāys nōṭ kēḷide, nagu bantu!", "en": "I just listened to your voice note, it made me laugh!", "focus": "ಈಗಷ್ಟೇ", "wrong": ["ಇನ್ನೂ|innū", "ಆಮೇಲೆ|āmēle"] },
+        { "native": "ಮೆಸೇಜ್ ನೋಡಿ ರಿಪ್ಲೈ ಮಾಡು, ಅರ್ಜೆಂಟ್.", "roman": "mesēj nōḍi riplai māḍu, arjeṇṭ.", "en": "Check the message and reply, it's urgent." },
+        { "native": "ಸೀನ್ ಮಾಡಿ ರಿಪ್ಲೈ ಮಾಡಿಲ್ಲ! ಅವಳಿಗೆ ಕೋಪ ಬಂದಿದೆಯಾ?", "roman": "sīn māḍi riplai māḍilla! avaḷige kōpa bandideyā?", "en": "She's read it and not replied! Is she angry?" }
+      ]
+    },
+    {
+      "title": "Numbers and locations",
+      "tip": { "title": "After, before, without", "body": "- **After doing** = past relative participle (ತಲುಪಿದ) + **ಮೇಲೆ**: ತಲುಪಿದ ಮೇಲೆ 'after you arrive'.\n- **Before doing** = **-ಓಕೆ ಮುಂಚೆ**: ಹೊರಡೋಕೆ ಮುಂಚೆ 'before leaving'.\n- **Without doing** = **-ಅದೆ**: ಹೇಳದೆ 'without telling', ನೋಡದೆ 'without looking'.", "pattern": "ತಲುಪಿದ + ಮೇಲೆ  ·  ಹೊರಡೋಕೆ + ಮುಂಚೆ", "grammar": 0 },
+      "new": ["ಲೊಕೇಶನ್", "ನಂಬರ್", "ಸೇವ್", "ಲೊಕೇಶನ್ ಕಳಿಸು"],
+      "sentences": [
+        { "native": "ತಲುಪಿದ ಮೇಲೆ ಮೆಸೇಜ್ ಮಾಡು.", "roman": "talupida mēle mesēj māḍu.", "en": "Text me after you arrive.", "focus": "ತಲುಪಿದ", "wrong": ["ತಲುಪಿ|talupi", "ತಲುಪೋ|talupō"] },
+        { "native": "ಹೊರಡೋಕೆ ಮುಂಚೆ ಲೊಕೇಶನ್ ಕಳಿಸು.", "roman": "horaḍōke muñche lokēshan kaḷisu.", "en": "Send me the location before you leave.", "focus": "ಮುಂಚೆ", "wrong": ["ಮೇಲೆ|mēle", "ನಂತರ|nantara"] },
+        { "native": "ಲೊಕೇಶನ್ ನೋಡದೆ ಬಂದ್ರೆ ದಾರಿ ತಪ್ಪುತ್ತೆ.", "roman": "lokēshan nōḍade bandre dāri tapputte.", "en": "If you come without checking the location, you'll get lost.", "focus": "ನೋಡದೆ", "wrong": ["ನೋಡಿ|nōḍi", "ನೋಡಿದ|nōḍida"] },
+        { "native": "ನನ್ನ ನಂಬರ್ ಸೇವ್ ಮಾಡಿ ಮಿಸ್ಡ್ ಕಾಲ್ ಕೊಡು.", "roman": "nanna nambar sēv māḍi misḍ kāl koḍu.", "en": "Save my number and give me a missed call.", "focus": "ಮಾಡಿ", "wrong": ["ಮಾಡು|māḍu", "ಮಾಡಿದೆ|māḍide"] },
+        { "native": "ಅವನು ಯಾರಿಗೂ ಹೇಳದೆ ನಂಬರ್ ಬದಲಾಯಿಸಿದ.", "roman": "avanu yārigū hēḷade nambar badalāyisida.", "en": "He changed his number without telling anyone.", "focus": "ಹೇಳದೆ", "wrong": ["ಹೇಳಿ|hēḷi", "ಹೇಳಿದ|hēḷida"] },
+        { "native": "ಕೆಲಸ ಮುಗಿದ ಮೇಲೆ ಲೊಕೇಶನ್ ಕಳಿಸ್ತೀನಿ.", "roman": "kelasa mugida mēle lokēshan kaḷistīni.", "en": "I'll send you the location after work.", "focus": "ಮುಗಿದ", "wrong": ["ಮುಗಿದು|mugidu", "ಮುಗಿಯೋ|mugiyō"] },
+        { "native": "ನಿನ್ನ ಹೊಸ ನಂಬರ್ ಕಳಿಸು, ಸೇವ್ ಮಾಡ್ಕೋತೀನಿ.", "roman": "ninna hosa nambar kaḷisu, sēv māḍkōtīni.", "en": "Send me your new number, I'll save it." },
+        { "native": "ಲೊಕೇಶನ್ ಕಳಿಸು, ಆಟೋದವರಿಗೆ ತೋರಿಸ್ತೀನಿ.", "roman": "lokēshan kaḷisu, āṭōdavarige tōristīni.", "en": "Send me the location, I'll show it to the auto driver." },
+        { "native": "ಇದು ಯಾರ ನಂಬರ್? ಸೇವ್ ಆಗಿಲ್ಲ.", "roman": "idu yāra nambar? sēv āgilla.", "en": "Whose number is this? It isn't saved." }
+      ]
+    }
+  ]
+}

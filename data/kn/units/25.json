@@ -1,0 +1,197 @@
+{
+  "id": 25,
+  "title": "Errands",
+  "goal": "Get things done around town: the bank and ATM, forms and photocopies, a phone repair, the tailor, the barber, the pharmacy, the laundry and the courier.",
+  "intro": "This unit is about the everyday jobs that fill a Saturday: drawing cash, getting a screen fixed, dropping clothes for ironing, getting a haircut, sending a parcel. In Bengaluru almost all of this happens in a mix of Kannada and English: the nouns are often English (ಅಕೌಂಟ್, ಫಾರ್ಮ್, ರೀಚಾರ್ಜ್, ಜೆರಾಕ್ಸ್) and the Kannada is in the verbs and endings around them.\n\nThe key grammar is the **causative**: the difference between doing something yourself (ಮಾಡಿದೆ 'I did it') and getting someone else to do it (ಮಾಡಿಸಿದೆ 'I got it done'). Add ಕೊಳ್ಳು and it's done *for you*: ಕಟಿಂಗ್ ಮಾಡಿಸ್ಕೊಂಡೆ 'I got a haircut'. With these two you can describe almost any errand.",
+  "vocab": [
+    { "native": "ಮಾಡಿಸು", "roman": "māḍisu", "en": "to get (something) done, have (something) made", "pos": "verb", "note": "causative of ಮಾಡು; spoken ಮಾಡಿಸ್ತೀನಿ, ಮಾಡಿಸಿದೆ" },
+    { "native": "ಬ್ಯಾಂಕ್", "roman": "byāṅk", "en": "bank", "pos": "noun", "note": "spoken locative ಬ್ಯಾಂಕಲ್ಲಿ" },
+    { "native": "ಅಕೌಂಟ್", "roman": "akauṇṭ", "en": "(bank) account", "pos": "noun", "note": "formal / written: ಖಾತೆ" },
+    { "native": "ಎಟಿಎಂ", "roman": "eṭiem", "en": "ATM, cash machine", "pos": "noun" },
+    { "native": "ತೆಗೆ", "roman": "tege", "en": "to take out, withdraw; to remove; to open (a door, window); to take (a photo)", "pos": "verb", "note": "past ತೆಗೆದೆ; ದುಡ್ಡು ತೆಗೆ = withdraw cash" },
+    { "native": "ಜಮಾ", "roman": "jamā", "en": "deposit (of money)", "pos": "noun", "note": "ಜಮಾ ಮಾಡು = to deposit" },
+    { "native": "ಸಾಲು", "roman": "sālu", "en": "queue, line; row", "pos": "noun", "note": "ಸಾಲಲ್ಲಿ ನಿಲ್ಲು = to stand in the queue" },
+    { "native": "ಫಾರ್ಮ್", "roman": "phārm", "en": "form (to fill in)", "pos": "noun", "note": "pronounced fārm" },
+    { "native": "ತುಂಬಿಸು", "roman": "tumbisu", "en": "to fill (in); to fill up", "pos": "verb", "note": "causative of ತುಂಬು 'become full'; ಫಾರ್ಮ್ ತುಂಬಿಸು = fill in a form" },
+    { "native": "ಸಹಿ", "roman": "sahi", "en": "signature", "pos": "noun", "note": "ಸಹಿ ಹಾಕು / ಸಹಿ ಮಾಡು = to sign" },
+    { "native": "ಜೆರಾಕ್ಸ್", "roman": "jerāks", "en": "photocopy (from \"Xerox\")", "pos": "noun", "note": "ಜೆರಾಕ್ಸ್ ಅಂಗಡಿ = photocopy shop; ಜೆರಾಕ್ಸ್ ಮಾಡಿಸು = get copies made" },
+    { "native": "ರಸೀದಿ", "roman": "rasīdi", "en": "receipt", "pos": "noun", "note": "also just ಬಿಲ್" },
+    { "native": "ಸಿಮ್", "roman": "sim", "en": "SIM card", "pos": "noun" },
+    { "native": "ರೀಚಾರ್ಜ್", "roman": "rīchārj", "en": "(mobile) recharge, top-up", "pos": "noun", "note": "ರೀಚಾರ್ಜ್ ಮಾಡು = to recharge" },
+    { "native": "ಸ್ಕ್ರೀನ್", "roman": "skrīn", "en": "screen", "pos": "noun" },
+    { "native": "ಒಡೆ", "roman": "oḍe", "en": "to break, crack (glass, screen, a coconut)", "pos": "verb", "note": "ಒಡೆದು ಹೋಗು = get broken; ಒಡೆದು ಹಾಕು = break (it)" },
+    { "native": "ರೆಡಿ", "roman": "reḍi", "en": "ready", "pos": "adj", "note": "ರೆಡಿ ಆಗು = get ready, be ready; ರೆಡಿ ಇದೆ = it's ready" },
+    { "native": "ಟೈಲರ್", "roman": "ṭailar", "en": "tailor", "pos": "noun", "note": "formal: ದರ್ಜಿ" },
+    { "native": "ಹೊಲಿ", "roman": "holi", "en": "to stitch, sew", "pos": "verb", "note": "spoken ಹೊಲೀತೀನಿ 'I stitch'" },
+    { "native": "ಹೊಲಿಸು", "roman": "holisu", "en": "to get (clothes) stitched", "pos": "verb", "note": "causative of ಹೊಲಿ" },
+    { "native": "ಕತ್ತರಿಸು", "roman": "kattarisu", "en": "to cut", "pos": "verb" },
+    { "native": "ಕಟಿಂಗ್", "roman": "kaṭiṅg", "en": "haircut (spoken)", "pos": "noun", "note": "ಕಟಿಂಗ್ ಮಾಡಿಸ್ಕೊಳ್ಳು = to get a haircut; also ಹೇರ್‌ಕಟ್" },
+    { "native": "ಗಡ್ಡ", "roman": "gaḍḍa", "en": "beard", "pos": "noun" },
+    { "native": "ಸಲೂನ್", "roman": "salūn", "en": "salon, barber's", "pos": "noun", "note": "spoken locative ಸಲೂನಲ್ಲಿ; older word: ಕ್ಷೌರದ ಅಂಗಡಿ" },
+    { "native": "ಮೆಡಿಕಲ್ ಶಾಪ್", "roman": "meḍikal shāp", "en": "pharmacy, chemist's", "pos": "noun", "note": "often just ಮೆಡಿಕಲ್ / ಮೆಡಿಕಲ್ಸ್" },
+    { "native": "ಚೀಟಿ", "roman": "chīṭi", "en": "slip, chit; (doctor's) prescription; ticket", "pos": "noun", "note": "ಡಾಕ್ಟರ್ ಚೀಟಿ = prescription" },
+    { "native": "ಲಾಂಡ್ರಿ", "roman": "lāṇḍri", "en": "laundry, dry cleaner's", "pos": "noun" },
+    { "native": "ಒಗೆ", "roman": "oge", "en": "to wash (clothes)", "pos": "verb", "note": "only for clothes; for dishes, hands etc. use ತೊಳೆ" },
+    { "native": "ಡ್ರೈ ಕ್ಲೀನ್", "roman": "ḍrai klīn", "en": "dry cleaning", "pos": "noun", "note": "ಡ್ರೈ ಕ್ಲೀನ್ ಮಾಡಿಸು = to get (something) dry-cleaned" },
+    { "native": "ಇಸ್ತ್ರಿ", "roman": "istri", "en": "ironing (of clothes)", "pos": "noun", "note": "ಇಸ್ತ್ರಿ ಮಾಡು = to iron; also ಐರನ್" },
+    { "native": "ಕೊರಿಯರ್", "roman": "koriyar", "en": "courier (company, parcel or delivery person)", "pos": "noun" },
+    { "native": "ಪಾರ್ಸಲ್", "roman": "pārsal", "en": "parcel, package; takeaway (food)", "pos": "noun" }
+  ],
+  "phrases": [
+    { "native": "ಒಂದು ಅಕೌಂಟ್ ಓಪನ್ ಮಾಡಬೇಕಿತ್ತು", "roman": "ondu akauṇṭ ōpan māḍabēkittu", "en": "I wanted to open an account. (polite way to state your business)", "note": "lit. 'an account was needed to be opened'" },
+    { "native": "ಈ ಎಟಿಎಂ ಕೆಲಸ ಮಾಡ್ತಿಲ್ಲ", "roman": "ī eṭiem kelasa māḍtilla", "en": "This ATM isn't working." },
+    { "native": "ಎಷ್ಟು ಹೊತ್ತು ಕಾಯಬೇಕು?", "roman": "eṣṭu hottu kāyabēku?", "en": "How long do I have to wait?" },
+    { "native": "ಈ ಫಾರ್ಮ್ ಎಲ್ಲಿ ಕೊಡಬೇಕು?", "roman": "ī phārm elli koḍabēku?", "en": "Where do I hand in this form?" },
+    { "native": "ಇಲ್ಲಿ ಸಹಿ ಹಾಕಿ", "roman": "illi sahi hāki", "en": "Sign here, please." },
+    { "native": "ಹೊಸ ಸಿಮ್ ಬೇಕು, ಆಧಾರ್ ಜೆರಾಕ್ಸ್ ಸಾಕಾ?", "roman": "hosa sim bēku, ādhār jerāks sākā?", "en": "I need a new SIM. Is a copy of my Aadhaar enough?", "note": "Aadhaar = the national ID card" },
+    { "native": "ನನ್ನ ಫೋನ್ ಸ್ಕ್ರೀನ್ ಒಡೆದು ಹೋಗಿದೆ", "roman": "nanna phōn skrīn oḍedu hōgide", "en": "My phone screen has cracked." },
+    { "native": "ಇದನ್ನ ರಿಪೇರಿ ಮಾಡಿಸಬೇಕು", "roman": "idanna ripēri māḍisabēku", "en": "I need to get this repaired.", "note": "ಇದನ್ನ is spoken for ಇದನ್ನು" },
+    { "native": "ಯಾವಾಗ ರೆಡಿ ಆಗುತ್ತೆ?", "roman": "yāvāga reḍi āgutte?", "en": "When will it be ready?" },
+    { "native": "ಸಂಜೆ ಬಂದು ತಗೊಂಡು ಹೋಗಿ", "roman": "sañje bandu tagoṇḍu hōgi", "en": "Come and collect it in the evening.", "note": "lit. come, take, go" },
+    { "native": "ಈ ಪ್ಯಾಂಟ್ ಉದ್ದ ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ", "roman": "ī pyāṇṭ udda svalpa kaḍime māḍi", "en": "Please shorten these trousers a little." },
+    { "native": "ಸ್ವಲ್ಪ ಶಾರ್ಟ್ ಮಾಡಿ", "roman": "svalpa shārṭ māḍi", "en": "Make it a bit short, please. (at the barber)" },
+    { "native": "ಸೈಡಲ್ಲಿ ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ", "roman": "saiḍalli svalpa kaḍime māḍi", "en": "Take a little off the sides, please." },
+    { "native": "ಈ ಚೀಟಿಯಲ್ಲಿರೋ ಔಷಧಿ ಕೊಡಿ", "roman": "ī chīṭiyallirō auṣadhi koḍi", "en": "Please give me the medicines on this prescription.", "note": "ಇರೋ is spoken for ಇರುವ 'which are'" },
+    { "native": "ಐದು ಅಂಗಿ ಇಸ್ತ್ರಿಗೆ ಕೊಡಬೇಕು", "roman": "aidu aṅgi istrige koḍabēku", "en": "I need to give five shirts for ironing." },
+    { "native": "ಈ ಪಾರ್ಸಲ್ ಚೆನ್ನೈಗೆ ಕಳಿಸಬೇಕು", "roman": "ī pārsal chennaige kaḷisabēku", "en": "I need to send this parcel to Chennai." }
+  ],
+  "grammar": [
+    {
+      "title": "Getting it done: the causative -ಇಸು",
+      "body": "English says 'I **got** my phone repaired' or 'I **had** a suit made' when someone else does the work. Kannada builds this into the verb: add **-ಇಸು** to the root and the verb means 'make / get / have someone do it'.\n\nಮಾಡು 'do' → **ಮಾಡಿಸು** 'get done'\nಹೊಲಿ 'stitch' → **ಹೊಲಿಸು** 'get stitched'\nಹಾಕು 'put' → **ಹಾಕಿಸು** 'get (something) put in / fitted'\nಓದು 'read, study' → **ಓದಿಸು** 'make (someone) read; put (a child) through school'\nತಿನ್ನು 'eat' → **ತಿನ್ನಿಸು** 'feed (someone)'\nಕಲಿ 'learn' → **ಕಲಿಸು** 'teach' (you already know this one)\nತುಂಬು 'become full' → **ತುಂಬಿಸು** 'fill'\n\nThe new verb is an ordinary **-ಇಸು verb**, conjugated exactly like ತೋರಿಸು 'show': ಮಾಡಿಸ್ತೀನಿ 'I'll get it done' (written ಮಾಡಿಸುತ್ತೇನೆ), ಮಾಡಿಸಿದೆ 'I got it done', ಮಾಡಿಸಬೇಕು 'I need to get it done', ಮಾಡಿಸಿ 'get it done (polite)', ಮಾಡಿಸಲ್ಲ 'won't get it done'.\n\n**English word + ಮಾಡಿಸು** is how most errands are said: ರಿಪೇರಿ ಮಾಡಿಸು 'get repaired', ಚೇಂಜ್ ಮಾಡಿಸು 'get changed', ಚೆಕ್ ಮಾಡಿಸು 'get checked', ಪೇಂಟ್ ಮಾಡಿಸು 'get painted', ಇಸ್ತ್ರಿ ಮಾಡಿಸು 'get ironed', ಜೆರಾಕ್ಸ್ ಮಾಡಿಸು 'get photocopied'.\n\n**Who does the work?** Put the worker in **ಹತ್ರ** (spoken ಹತ್ತಿರ, 'near, with') or **ಕೈಲಿ** (spoken ಕೈಯಲ್ಲಿ, 'in the hands of'): ಟೈಲರ್ ಹತ್ರ ಹೊಲಿಸಿದೆ 'I had it stitched by the tailor', ಅವನು ತಮ್ಮನ ಕೈಲಿ ಕೆಲಸ ಮಾಡಿಸ್ತಾನೆ 'he gets his little brother to do the work'.\n\n**The trap:** ನಾನು ಫೋನ್ ರಿಪೇರಿ ಮಾಡಿದೆ means *I* opened it and fixed it. If a shop did it, say **ಮಾಡಿಸಿದೆ**. Getting this wrong is a classic learner mistake, and Kannadigas will ask you, impressed, where you learned to fix phones.",
+      "examples": [
+        { "native": "ನಾಳೆ ಫೋನ್ ರಿಪೇರಿ ಮಾಡಿಸ್ತೀನಿ", "roman": "nāḷe phōn ripēri māḍistīni", "en": "I'll get the phone repaired tomorrow." },
+        { "native": "ಈ ಸೀರೆ ಬ್ಲೌಸ್ ಎಲ್ಲಿ ಹೊಲಿಸಿದ್ರಿ?", "roman": "ī sīre blaus elli holisidri?", "en": "Where did you get this sari blouse stitched? (polite)" },
+        { "native": "ಹಬ್ಬಕ್ಕೆ ಮುಂಚೆ ಮನೆ ಪೇಂಟ್ ಮಾಡಿಸಬೇಕು", "roman": "habbakke muñche mane pēṇṭ māḍisabēku", "en": "We need to get the house painted before the festival." },
+        { "native": "ಅಮ್ಮ ಮಗುವಿಗೆ ಊಟ ತಿನ್ನಿಸ್ತಿದ್ದಾರೆ", "roman": "amma maguvige ūṭa tinnistiddāre", "en": "Mum is feeding the baby." },
+        { "native": "ಅಪ್ಪ ನನ್ನನ್ನ ಇಂಜಿನಿಯರಿಂಗ್ ಓದಿಸಿದರು", "roman": "appa nannanna iñjiniyariṅg ōdisidaru", "en": "Dad put me through engineering." }
+      ]
+    },
+    {
+      "title": "For yourself: -ಕೊಳ್ಳು with the causative (ಮಾಡಿಸ್ಕೊಳ್ಳು)",
+      "body": "When the job is done **to your own body or for your own benefit**, Kannada adds **ಕೊಳ್ಳು** after the participle, the same reflexive ಕೊಳ್ಳು you know from ಹಾಕಿಕೊಳ್ಳು 'put on (yourself)' and ತೆಗೆದುಕೊಳ್ಳು 'take (for yourself)'.\n\nಮಾಡಿಸಿ + ಕೊಳ್ಳು → **ಮಾಡಿಸಿಕೊಳ್ಳು**, in speech squeezed to **ಮಾಡಿಸ್ಕೊಳ್ಳು**:\nಮಾಡಿಸ್ಕೊಳ್ತೀನಿ – I'll get it done (for me)  (written ಮಾಡಿಸಿಕೊಳ್ಳುತ್ತೇನೆ)\nಮಾಡಿಸ್ಕೊಂಡೆ – I got it done  (written ಮಾಡಿಸಿಕೊಂಡೆ)\nಮಾಡಿಸ್ಕೊಂಡ / ಮಾಡಿಸ್ಕೊಂಡಳು / ಮಾಡಿಸ್ಕೊಂಡ್ರು – he / she / they got it done\nಮಾಡಿಸ್ಕೊಳ್ಳಿ – get it done (polite)  ·  ಮಾಡಿಸ್ಕೋ – (informal)\nಮಾಡಿಸ್ಕೊಳ್ಳಬೇಕು – I need to get it done\n\nThis is the natural way to talk about a **haircut, shave, eye test, blood test, make-up, new glasses**: ಕಟಿಂಗ್ ಮಾಡಿಸ್ಕೊಂಡೆ 'I got a haircut'. Without ಕೊಳ್ಳು (ಕಟಿಂಗ್ ಮಾಡಿಸಿದೆ) it sounds as if you took someone else, a child perhaps, for a haircut.\n\nThe same ಕೊಳ್ಳು turns up on ordinary verbs whenever you keep or do something for yourself: **ಇಟ್ಕೊಳ್ಳಿ** 'keep it (with you)' (ಇಟ್ಟು + ಕೊಳ್ಳಿ), ಬರ್ಕೊಳ್ಳಿ 'write it down (for yourself)'. Shopkeepers say ರಸೀದಿ ಇಟ್ಕೊಳ್ಳಿ 'keep the receipt' all day long.",
+      "examples": [
+        { "native": "ನಿನ್ನೆ ಕಟಿಂಗ್ ಮಾಡಿಸ್ಕೊಂಡೆ", "roman": "ninne kaṭiṅg māḍiskoṇḍe", "en": "I got a haircut yesterday." },
+        { "native": "ಡಾಕ್ಟರ್ ಬ್ಲಡ್ ಟೆಸ್ಟ್ ಮಾಡಿಸ್ಕೊಳ್ಳಿ ಅಂದ್ರು", "roman": "ḍākṭar blaḍ ṭesṭ māḍiskoḷḷi andru", "en": "The doctor told me to get a blood test done." },
+        { "native": "ಹೊಸ ಕನ್ನಡಕ ಮಾಡಿಸ್ಕೊಳ್ಳಬೇಕು", "roman": "hosa kannaḍaka māḍiskoḷḷabēku", "en": "I need to get new glasses made." },
+        { "native": "ಗಡ್ಡ ಟ್ರಿಮ್ ಮಾಡಿಸ್ಕೋ, ಸಂಜೆ ಪಾರ್ಟಿ ಇದೆ", "roman": "gaḍḍa ṭrim māḍiskō, sañje pārṭi ide", "en": "Get your beard trimmed, there's a party this evening. (informal)" },
+        { "native": "ರಸೀದಿ ಇಟ್ಕೊಳ್ಳಿ, ಬಟ್ಟೆ ತಗೊಳ್ಳುವಾಗ ತೋರಿಸಿ", "roman": "rasīdi iṭkoḷḷi, baṭṭe tagoḷḷuvāga tōrisi", "en": "Keep the receipt and show it when you collect the clothes." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the phone shop",
+    "setting": "Nikhil takes his phone to a small repair shop in Jayanagar 4th Block.",
+    "lines": [
+      { "speaker": "Nikhil", "native": "ಅಣ್ಣ, ಈ ಫೋನ್ ಸ್ಕ್ರೀನ್ ಒಡೆದು ಹೋಗಿದೆ. ಚೇಂಜ್ ಮಾಡಿಸಬೇಕಿತ್ತು.", "roman": "aṇṇa, ī phōn skrīn oḍedu hōgide. chēñj māḍisabēkittu.", "en": "Anna, this phone's screen has cracked. I wanted to get it changed." },
+      { "speaker": "Shop", "native": "ಹೇಗಾಯ್ತು? ಕೆಳಗೆ ಬಿತ್ತಾ?", "roman": "hēgāytu? keḷage bittā?", "en": "How did that happen? Did it fall?" },
+      { "speaker": "Nikhil", "native": "ಹೂಂ, ಮೆಟ್ರೋದಲ್ಲಿ ಕೈಯಿಂದ ಬಿತ್ತು.", "roman": "hūṃ, meṭrōdalli kaiyinda bittu.", "en": "Yeah, it slipped out of my hand on the metro." },
+      { "speaker": "Shop", "native": "ಒರಿಜಿನಲ್ ಸ್ಕ್ರೀನ್ ಆದ್ರೆ ಎಂಟು ಸಾವಿರ, ಲೋಕಲ್ ಆದ್ರೆ ಮೂರೂವರೆ.", "roman": "orijinal skrīn ādre eṇṭu sāvira, lōkal ādre mūrūvare.", "en": "An original screen is eight thousand; a local one is three and a half." },
+      { "speaker": "Nikhil", "native": "ಎಂಟು ಸಾವಿರಾನಾ? ಅಷ್ಟಕ್ಕೆ ಹೊಸ ಫೋನೇ ತಗೋಬಹುದು!", "roman": "eṇṭu sāvirānā? aṣṭakke hosa phōnē tagōbahudu!", "en": "Eight thousand?! For that I could buy a new phone!" },
+      { "speaker": "Shop", "native": "ಹಾಗಲ್ಲ ಸಾರ್. ಲೋಕಲ್ ಹಾಕಿಸಿದ್ರೆ ಟಚ್ ಸ್ವಲ್ಪ ಸ್ಲೋ ಆಗುತ್ತೆ, ಅಷ್ಟೇ.", "roman": "hāgalla sār. lōkal hākisidre ṭach svalpa slō āgutte, aṣṭē.", "en": "It's not like that, sir. If you have a local one put in, the touch gets a bit slow, that's all." },
+      { "speaker": "Nikhil", "native": "ಸರಿ, ಒರಿಜಿನಲ್ಲೇ ಹಾಕಿ. ಯಾವಾಗ ರೆಡಿ ಆಗುತ್ತೆ?", "roman": "sari, orijinallē hāki. yāvāga reḍi āgutte?", "en": "Fine, put in an original. When will it be ready?" },
+      { "speaker": "Shop", "native": "ಸಂಜೆ ಆರು ಗಂಟೆಗೆ ಬನ್ನಿ. ಸಿಮ್ ತೆಗೆದು ಇಟ್ಕೊಳ್ಳಿ.", "roman": "sañje āru gaṇṭege banni. sim tegedu iṭkoḷḷi.", "en": "Come at six this evening. Take the SIM out and keep it with you." },
+      { "speaker": "Nikhil", "native": "ಓಕೆ. ಅಂದಹಾಗೆ, ಇಲ್ಲಿ ಹತ್ರ ಒಳ್ಳೆ ಸಲೂನ್ ಇದೆಯಾ? ಕಟಿಂಗ್ ಮಾಡಿಸ್ಕೊಳ್ಳಬೇಕು.", "roman": "ōke. andahāge, illi hatra oḷḷe salūn ideyā? kaṭiṅg māḍiskoḷḷabēku.", "en": "OK. By the way, is there a good salon near here? I need a haircut." },
+      { "speaker": "Shop", "native": "ಪಕ್ಕದಲ್ಲೇ ಇದೆ, ಮಂಜು ಸಲೂನ್. ನನ್ನ ಹೆಸರು ಹೇಳಿ, ಐವತ್ತು ರೂಪಾಯಿ ಕಡಿಮೆ ಮಾಡ್ತಾನೆ.", "roman": "pakkadallē ide, mañju salūn. nanna hesaru hēḷi, aivattu rūpāyi kaḍime māḍtāne.", "en": "It's right next door, Manju Salon. Mention my name and he'll take fifty rupees off." },
+      { "speaker": "Nikhil", "native": "ಸೂಪರ್! ಹಾಗೇ ಲಾಂಡ್ರಿಗೂ ಬಟ್ಟೆ ಕೊಟ್ಟು ಬರ್ತೀನಿ.", "roman": "sūpar! hāgē lāṇḍrigū baṭṭe koṭṭu bartīni.", "en": "Super! I'll drop my clothes at the laundry on the way too." },
+      { "speaker": "Shop", "native": "ಒಂದೇ ದಿನದಲ್ಲಿ ಎಲ್ಲಾ ಕೆಲಸ ಮುಗಿಸ್ತೀರಾ ಸಾರ್! ರಸೀದಿ ತಗೊಳ್ಳಿ, ಮರೀಬೇಡಿ.", "roman": "ondē dinadalli ellā kelasa mugistīrā sār! rasīdi tagoḷḷi, marībēḍi.", "en": "You're finishing all your errands in one day, sir! Take your receipt, don't forget it." }
+    ]
+  },
+  "culture": "Small shopkeepers, mechanics, tailors and auto drivers are addressed as **ಅಣ್ಣ** 'elder brother' or **ಅಕ್ಕ** 'elder sister', even by people older than them; it is friendly and respectful at once. In a bank or government office switch to **ಸಾರ್ / ಮೇಡಂ** and the polite ನೀವು forms, and open with a soft ...ಬೇಕಿತ್ತು ('I was wanting to...') rather than a bare ಬೇಕು.\n\nBengaluru errands run on English nouns with Kannada verbs: ಅಕೌಂಟ್ ಓಪನ್ ಮಾಡು, ಫಾರ್ಮ್ ತುಂಬಿಸು, ರೀಚಾರ್ಜ್ ಮಾಡು, ಜೆರಾಕ್ಸ್ ತೆಗೆ. Everyone says **ಜೆರಾಕ್ಸ್** for a photocopy, and every office will ask for 'two xerox copies' of your Aadhaar or passport, so carry spares. Phone repairs cluster on SP Road and in every neighbourhood market; haggling is normal there and at the tailor's, but not at the bank, the pharmacy or a fixed-price salon.\n\nIroning is often done by an **ಇಸ್ತ್ರಿ** man with a charcoal iron at a pushcart on the street corner, who charges per piece and knows everyone on the road. Barbers are famous talkers: a haircut comes with cricket, politics and local gossip. In Mysuru you will hear more pure Kannada; in Mangaluru the shopkeeper may switch to Tulu, Konkani or Beary with other customers but will speak Kannada with you.",
+  "lessons": [
+    {
+      "title": "At the bank and the ATM",
+      "tip": { "title": "Opening politely: …ಬೇಕಿತ್ತು", "body": "- At a counter, state your business with **-ಬೇಕಿತ್ತು** (lit. 'was needed'): ಅಕೌಂಟ್ ಓಪನ್ **ಮಾಡಬೇಕಿತ್ತು** 'I wanted to open an account'.\n- It is softer than ಮಾಡಬೇಕು 'I must'. It's the same form as 'should have' (unit 15); context tells you which.\n- Use ಸಾರ್ / ಮೇಡಂ in a bank, ಅಣ್ಣ / ಅಕ್ಕ at a small shop.", "pattern": "infinitive + ಬೇಕಿತ್ತು" },
+      "new": ["ಬ್ಯಾಂಕ್", "ಅಕೌಂಟ್", "ಎಟಿಎಂ", "ತೆಗೆ", "ಜಮಾ", "ಸಾಲು", "ಒಂದು ಅಕೌಂಟ್ ಓಪನ್ ಮಾಡಬೇಕಿತ್ತು", "ಈ ಎಟಿಎಂ ಕೆಲಸ ಮಾಡ್ತಿಲ್ಲ", "ಎಷ್ಟು ಹೊತ್ತು ಕಾಯಬೇಕು?"],
+      "sentences": [
+        { "native": "ನಮಸ್ಕಾರ ಮೇಡಂ, ಸ್ವಲ್ಪ ದುಡ್ಡು ಜಮಾ ಮಾಡಬೇಕಿತ್ತು.", "roman": "namaskāra mēḍam, svalpa duḍḍu jamā māḍabēkittu.", "en": "Hello madam, I wanted to deposit some money.", "focus": "ಮಾಡಬೇಕಿತ್ತು", "wrong": ["ಮಾಡಬೇಡಿ|māḍabēḍi", "ಮಾಡಿದೆ|māḍide"] },
+        { "native": "ಎಟಿಎಂನಿಂದ ಐದು ಸಾವಿರ ತೆಗೆಯಬೇಕಿತ್ತು.", "roman": "eṭiemninda aidu sāvira tegeyabēkittu.", "en": "I wanted to take out five thousand from the ATM.", "focus": "ತೆಗೆಯಬೇಕಿತ್ತು", "wrong": ["ತೆಗೆಯಬೇಡ|tegeyabēḍa", "ತೆಗೆದೆ|tegede"] },
+        { "native": "ನನ್ನ ಅಮ್ಮನಿಗೆ ಒಂದು ಅಕೌಂಟ್ ಓಪನ್ ಮಾಡಬೇಕಿತ್ತು.", "roman": "nanna ammanige ondu akauṇṭ ōpan māḍabēkittu.", "en": "I wanted to open an account for my mother.", "focus": "ಮಾಡಬೇಕಿತ್ತು", "wrong": ["ಮಾಡ್ತಿಲ್ಲ|māḍtilla", "ಮಾಡಿದ್ರು|māḍidru"] },
+        { "native": "ಮ್ಯಾನೇಜರ್ ಹತ್ರ ಮಾತಾಡಬೇಕಿತ್ತು.", "roman": "myānējar hatra mātāḍabēkittu.", "en": "I wanted to speak to the manager.", "focus": "ಮಾತಾಡಬೇಕಿತ್ತು", "wrong": ["ಮಾತಾಡಿದೆ|mātāḍide", "ಮಾತಾಡಬೇಡಿ|mātāḍabēḍi"] },
+        { "native": "ಎಟಿಎಂ ಕಾರ್ಡ್ ಬದಲಾಯಿಸಬೇಕಿತ್ತು.", "roman": "eṭiem kārḍ badalāyisabēkittu.", "en": "I wanted to replace my ATM card.", "focus": "ಬದಲಾಯಿಸಬೇಕಿತ್ತು", "wrong": ["ಬದಲಾಯಿಸಬೇಡ|badalāyisabēḍa", "ಬದಲಾಯಿಸಿದ್ರು|badalāyisidru"] },
+        { "native": "ಸಾರ್, ಈ ಅಕೌಂಟಿಗೆ ಹಣ ಹಾಕಬೇಕಿತ್ತು.", "roman": "sār, ī akauṇṭige haṇa hākabēkittu.", "en": "Sir, I wanted to put some money into this account.", "focus": "ಹಾಕಬೇಕಿತ್ತು", "wrong": ["ಹಾಕಲ್ಲ|hākalla", "ಹಾಕಿದ್ರು|hākidru"] },
+        { "native": "ಸಾಲು ತುಂಬಾ ಉದ್ದ ಇದೆ, ಎಷ್ಟು ಹೊತ್ತು ಕಾಯಬೇಕು?", "roman": "sālu tumbā udda ide, eṣṭu hottu kāyabēku?", "en": "The queue is really long. How long do I have to wait?" },
+        { "native": "ಈ ಎಟಿಎಂ ಕೆಲಸ ಮಾಡ್ತಿಲ್ಲ, ಹತ್ರ ಇನ್ನೊಂದು ಇದೆಯಾ?", "roman": "ī eṭiem kelasa māḍtilla, hatra innondu ideyā?", "en": "This ATM isn't working. Is there another one nearby?" },
+        { "native": "ಶನಿವಾರ ಬ್ಯಾಂಕ್ ಓಪನ್ ಇರುತ್ತಾ?", "roman": "shanivāra byāṅk ōpan iruttā?", "en": "Is the bank open on Saturday?" },
+        { "native": "ಸಾಲಲ್ಲಿ ಬನ್ನಿ ಸಾರ್!", "roman": "sālalli banni sār!", "en": "Please join the queue, sir!" }
+      ]
+    },
+    {
+      "title": "Getting your phone fixed",
+      "tip": { "title": "Getting it done: -ಇಸು", "body": "- Add **-ಇಸು** to a verb and it means 'get someone to do it': ಮಾಡು 'do' → **ಮಾಡಿಸು** 'get done', ಹಾಕು 'put' → ಹಾಕಿಸು 'get put in'.\n- It conjugates like ತೋರಿಸು: ಮಾಡಿಸ್ತೀನಿ, ಮಾಡಿಸಿದೆ, ಮಾಡಿಸಬೇಕು, ಮಾಡಿಸಿ.\n- Trap: ರಿಪೇರಿ ಮಾಡಿದೆ = I fixed it myself; ರಿಪೇರಿ **ಮಾಡಿಸಿದೆ** = I had it fixed.", "pattern": "ರಿಪೇರಿ / ಚೇಂಜ್ / ಚೆಕ್ + ಮಾಡಿಸು", "grammar": 0 },
+      "new": ["ಮಾಡಿಸು", "ಸ್ಕ್ರೀನ್", "ಒಡೆ", "ರೆಡಿ", "ಸಿಮ್", "ರೀಚಾರ್ಜ್", "ನನ್ನ ಫೋನ್ ಸ್ಕ್ರೀನ್ ಒಡೆದು ಹೋಗಿದೆ", "ಇದನ್ನ ರಿಪೇರಿ ಮಾಡಿಸಬೇಕು", "ಯಾವಾಗ ರೆಡಿ ಆಗುತ್ತೆ?"],
+      "sentences": [
+        { "native": "ನಿನ್ನೆ ಫೋನ್ ಸ್ಕ್ರೀನ್ ಚೇಂಜ್ ಮಾಡಿಸಿದೆ.", "roman": "ninne phōn skrīn chēñj māḍiside.", "en": "I got my phone screen changed yesterday.", "focus": "ಮಾಡಿಸಿದೆ", "wrong": ["ಮಾಡಿದೆ|māḍide", "ಮಾಡಿಸ್ತೀನಿ|māḍistīni"] },
+        { "native": "ಸ್ಕ್ರೀನ್ ಒಡೆದು ಹೋಯ್ತು, ಎಲ್ಲಿ ಮಾಡಿಸಬಹುದು?", "roman": "skrīn oḍedu hōytu, elli māḍisabahudu?", "en": "The screen cracked. Where can I get it done?", "focus": "ಮಾಡಿಸಬಹುದು", "wrong": ["ಮಾಡಬಹುದು|māḍabahudu", "ಮಾಡಿಸಿದೆ|māḍiside"] },
+        { "native": "ಅಪ್ಪನ ಫೋನ್ ಕೆಟ್ಟು ಹೋಗಿದೆ, ನಾಳೆ ರಿಪೇರಿ ಮಾಡಿಸ್ತೀನಿ.", "roman": "appana phōn keṭṭu hōgide, nāḷe ripēri māḍistīni.", "en": "Dad's phone has stopped working. I'll get it repaired tomorrow.", "focus": "ಮಾಡಿಸ್ತೀನಿ", "wrong": ["ಮಾಡಿಸಿದೆ|māḍiside", "ಮಾಡಿಸ್ತಾರೆ|māḍistāre"] },
+        { "native": "ಈ ಸ್ಕ್ರೀನ್ ಎಲ್ಲಿ ಹಾಕಿಸಿದ್ರಿ?", "roman": "ī skrīn elli hākisidri?", "en": "Where did you get this screen put in? (polite)", "focus": "ಹಾಕಿಸಿದ್ರಿ", "wrong": ["ಹಾಕಿದ್ರಿ|hākidri", "ಹಾಕಿಸ್ತೀನಿ|hākistīni"] },
+        { "native": "ಸಿಮ್ ಕೆಲಸ ಮಾಡ್ತಿಲ್ಲ, ಅಂಗಡಿಯಲ್ಲಿ ಸರಿ ಮಾಡಿಸಿ.", "roman": "sim kelasa māḍtilla, aṅgaḍiyalli sari māḍisi.", "en": "The SIM isn't working. Get it sorted out at the shop.", "focus": "ಮಾಡಿಸಿ", "wrong": ["ಮಾಡಿಸಿದೆ|māḍiside", "ಮಾಡಿಸಲ್ಲ|māḍisalla"] },
+        { "native": "ಅವನು ಯಾವಾಗಲೂ ತಮ್ಮನ ಕೈಲಿ ಕೆಲಸ ಮಾಡಿಸ್ತಾನೆ.", "roman": "avanu yāvāgalū tammana kaili kelasa māḍistāne.", "en": "He always gets his little brother to do his work.", "focus": "ಮಾಡಿಸ್ತಾನೆ", "wrong": ["ಮಾಡ್ತಾನೆ|māḍtāne", "ಮಾಡಿಸ್ತೀನಿ|māḍistīni"] },
+        { "native": "ಮಗಳು ಸ್ಕ್ರೀನ್ ಒಡೆದು ಹಾಕಿದಳು!", "roman": "magaḷu skrīn oḍedu hākidaḷu!", "en": "My daughter broke the screen!" },
+        { "native": "ನಿಮ್ಮ ಫೋನ್ ರೆಡಿ ಇದೆ, ಬಂದು ತಗೊಳ್ಳಿ.", "roman": "nimma phōn reḍi ide, bandu tagoḷḷi.", "en": "Your phone is ready, come and pick it up." },
+        { "native": "ನನ್ನ ರೀಚಾರ್ಜ್ ಮುಗಿದು ಹೋಯ್ತು, ನೂರು ರೂಪಾಯಿ ರೀಚಾರ್ಜ್ ಮಾಡಿ.", "roman": "nanna rīchārj mugidu hōytu, nūru rūpāyi rīchārj māḍi.", "en": "My recharge has run out. Do a hundred-rupee recharge, please." }
+      ]
+    },
+    {
+      "title": "Forms, signatures and photocopies",
+      "new": ["ಫಾರ್ಮ್", "ತುಂಬಿಸು", "ಸಹಿ", "ಜೆರಾಕ್ಸ್", "ರಸೀದಿ", "ಈ ಫಾರ್ಮ್ ಎಲ್ಲಿ ಕೊಡಬೇಕು?", "ಇಲ್ಲಿ ಸಹಿ ಹಾಕಿ", "ಹೊಸ ಸಿಮ್ ಬೇಕು, ಆಧಾರ್ ಜೆರಾಕ್ಸ್ ಸಾಕಾ?"],
+      "sentences": [
+        { "native": "ಮೊದಲು ಈ ಫಾರ್ಮ್ ತುಂಬಿಸಿ, ಆಮೇಲೆ ಸಾಲಲ್ಲಿ ನಿಲ್ಲಿ.", "roman": "modalu ī phārm tumbisi, āmēle sālalli nilli.", "en": "First fill in this form, then stand in the queue." },
+        { "native": "ಫಾರ್ಮ್‌ನಲ್ಲಿ ಎರಡು ಕಡೆ ಸಹಿ ಹಾಕಿ.", "roman": "phārmnalli eraḍu kaḍe sahi hāki.", "en": "Sign in two places on the form." },
+        { "native": "ಪಾಸ್‌ಪೋರ್ಟ್ ಜೆರಾಕ್ಸ್ ಎರಡು ತಗೊಂಡು ಬನ್ನಿ.", "roman": "pāspōrṭ jerāks eraḍu tagoṇḍu banni.", "en": "Bring two photocopies of your passport." },
+        { "native": "ಇಲ್ಲಿ ಹತ್ರ ಜೆರಾಕ್ಸ್ ಅಂಗಡಿ ಎಲ್ಲಿದೆ?", "roman": "illi hatra jerāks aṅgaḍi ellide?", "en": "Where's a photocopy shop near here?" },
+        { "native": "ಎಲ್ಲೆಲ್ಲಿ ಸಹಿ ಹಾಕಬೇಕು?", "roman": "ellelli sahi hākabēku?", "en": "Where all do I have to sign?" },
+        { "native": "ಫಾರ್ಮ್ ತಪ್ಪಾಗಿ ತುಂಬಿಸಿದೆ, ಇನ್ನೊಂದು ಕೊಡ್ತೀರಾ?", "roman": "phārm tappāgi tumbiside, innondu koḍtīrā?", "en": "I filled in the form wrong. Could you give me another one?" },
+        { "native": "ಸಿಮ್‌ಗೆ ಏನೇನು ಬೇಕು?", "roman": "simge ēnēnu bēku?", "en": "What all do I need for a SIM?" },
+        { "native": "ರಸೀದಿ ಬೇಕಾ, ಸಾರ್?", "roman": "rasīdi bēkā, sār?", "en": "Do you want a receipt, sir?" },
+        { "native": "ರಸೀದಿ ಕಳೆದು ಹೋದ್ರೆ ಏನು ಮಾಡೋದು?", "roman": "rasīdi kaḷedu hōdre ēnu māḍōdu?", "en": "What do I do if I lose the receipt?" }
+      ]
+    },
+    {
+      "title": "At the tailor's",
+      "tip": { "title": "Who does the work: ಹತ್ರ / ಕೈಲಿ", "body": "- With an -ಇಸು verb, the person who does the work takes **ಹತ್ರ** (ಹತ್ತಿರ) or **ಕೈಲಿ** (ಕೈಯಲ್ಲಿ): ಟೈಲರ್ ಹತ್ರ ಹೊಲಿಸಿದೆ 'I had it stitched by the tailor'.\n- Many everyday verbs are causatives: ಹೊಲಿ → **ಹೊಲಿಸು**, ಓದು → ಓದಿಸು, ಕಲಿ → ಕಲಿಸು 'teach'.\n- ಹೊಲಿದೆ = I stitched it; **ಹೊಲಿಸಿದೆ** = I had it stitched.", "pattern": "person + ಹತ್ರ / ಕೈಲಿ + verb-ಇಸು", "grammar": 0 },
+      "new": ["ಟೈಲರ್", "ಹೊಲಿ", "ಹೊಲಿಸು", "ಕತ್ತರಿಸು", "ಈ ಪ್ಯಾಂಟ್ ಉದ್ದ ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ", "ಸಂಜೆ ಬಂದು ತಗೊಂಡು ಹೋಗಿ"],
+      "sentences": [
+        { "native": "ಈ ಅಂಗಿ ಯಾವ ಟೈಲರ್ ಹತ್ರ ಹೊಲಿಸಿದೆ?", "roman": "ī aṅgi yāva ṭailar hatra holiside?", "en": "Which tailor did you get this shirt stitched at? (informal)", "focus": "ಹೊಲಿಸಿದೆ", "wrong": ["ಹೊಲಿದೆ|holide", "ಹೊಲಿಸ್ತೀನಿ|holistīni"] },
+        { "native": "ಅಕ್ಕನ ಮದುವೆಗೆ ಒಂದು ಹೊಸ ಅಂಗಿ ಹೊಲಿಸಬೇಕು.", "roman": "akkana maduvege ondu hosa aṅgi holisabēku.", "en": "I need to get a new shirt stitched for my sister's wedding.", "focus": "ಹೊಲಿಸಬೇಕು", "wrong": ["ಹೊಲಿಸಿದೆ|holiside", "ಹೊಲಿಸಬೇಡ|holisabēḍa"] },
+        { "native": "ನನ್ನ ಅಜ್ಜಿ ಎಲ್ಲಾ ಬಟ್ಟೆ ಮನೇಲೇ ಹೊಲೀತಿದ್ರು.", "roman": "nanna ajji ellā baṭṭe manēlē holītidru.", "en": "My grandmother used to stitch all her clothes at home herself.", "focus": "ಹೊಲೀತಿದ್ರು", "wrong": ["ಹೊಲಿಸ್ತಿದ್ರು|holistidru", "ಹೊಲೀತೀನಿ|holītīni"] },
+        { "native": "ಈ ಪ್ಯಾಂಟ್ ತುಂಬಾ ಉದ್ದ ಇದೆ, ಟೈಲರ್ ಕೈಲಿ ಸರಿ ಮಾಡಿಸ್ತೀನಿ.", "roman": "ī pyāṇṭ tumbā udda ide, ṭailar kaili sari māḍistīni.", "en": "These trousers are too long. I'll get the tailor to fix them.", "focus": "ಮಾಡಿಸ್ತೀನಿ", "wrong": ["ಮಾಡ್ತೀನಿ|māḍtīni", "ಮಾಡಿಸಿದೆ|māḍiside"] },
+        { "native": "ಮೇಷ್ಟ್ರು ನಮ್ಮ ಕೈಲಿ ಎಲ್ಲಾ ಪಾಠ ಓದಿಸ್ತಿದ್ರು.", "roman": "mēṣṭru namma kaili ellā pāṭha ōdistidru.", "en": "Our teacher used to make us read out every lesson.", "focus": "ಓದಿಸ್ತಿದ್ರು", "wrong": ["ಓದ್ತಿದ್ರು|ōdtidru", "ಓದಿಸ್ತೀನಿ|ōdistīni"] },
+        { "native": "ಅಮ್ಮ ನನಗೆ ಕನ್ನಡ ಕಲಿಸಿದರು.", "roman": "amma nanage kannaḍa kalisidaru.", "en": "Mum taught me Kannada.", "focus": "ಕಲಿಸಿದರು", "wrong": ["ಕಲಿತರು|kalitaru", "ಕಲಿಸ್ತೀನಿ|kalistīni"] },
+        { "native": "ಬಟ್ಟೆ ಕತ್ತರಿಸೋಕೆ ಮುಂಚೆ ಇನ್ನೊಂದು ಸಲ ಅಳತೆ ನೋಡಿ.", "roman": "baṭṭe kattarisōke muñche innondu sala aḷate nōḍi.", "en": "Check the measurements once more before you cut the cloth." },
+        { "native": "ಎಷ್ಟು ದಿನದಲ್ಲಿ ಹೊಲಿದು ಕೊಡ್ತೀರಾ?", "roman": "eṣṭu dinadalli holidu koḍtīrā?", "en": "How many days will it take you to stitch it?" },
+        { "native": "ನಾಳೆ ಸಂಜೆ ಬಂದು ಬಟ್ಟೆ ತಗೊಂಡು ಹೋಗ್ತೀನಿ.", "roman": "nāḷe sañje bandu baṭṭe tagoṇḍu hōgtīni.", "en": "I'll come and collect the clothes tomorrow evening." }
+      ]
+    },
+    {
+      "title": "Barber, salon and pharmacy",
+      "tip": { "title": "For yourself: ಮಾಡಿಸ್ಕೊಳ್ಳು", "body": "- When it's done **to you or for you**, add ಕೊಳ್ಳು: ಕಟಿಂಗ್ **ಮಾಡಿಸ್ಕೊಂಡೆ** 'I got a haircut' (written ಮಾಡಿಸಿಕೊಂಡೆ).\n- ಮಾಡಿಸ್ಕೊಳ್ತೀನಿ 'I'll get it done', ಮಾಡಿಸ್ಕೊಳ್ಳಿ 'get it done (pol.)', ಮಾಡಿಸ್ಕೋ (inf.).\n- It's the ಕೊಳ್ಳು of ಹಾಕಿಕೊಳ್ಳು: also **ಇಟ್ಕೊಳ್ಳಿ** 'keep it (with you)'.", "pattern": "ಮಾಡಿಸಿ + ಕೊಳ್ಳು → ಮಾಡಿಸ್ಕೊಳ್ಳು", "grammar": 1 },
+      "new": ["ಕಟಿಂಗ್", "ಗಡ್ಡ", "ಸಲೂನ್", "ಮೆಡಿಕಲ್ ಶಾಪ್", "ಚೀಟಿ", "ಸ್ವಲ್ಪ ಶಾರ್ಟ್ ಮಾಡಿ", "ಸೈಡಲ್ಲಿ ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ", "ಈ ಚೀಟಿಯಲ್ಲಿರೋ ಔಷಧಿ ಕೊಡಿ"],
+      "sentences": [
+        { "native": "ಶನಿವಾರ ಸಲೂನಲ್ಲಿ ಕಟಿಂಗ್ ಮಾಡಿಸ್ಕೊಂಡೆ.", "roman": "shanivāra salūnalli kaṭiṅg māḍiskoṇḍe.", "en": "I got a haircut at the salon on Saturday.", "focus": "ಮಾಡಿಸ್ಕೊಂಡೆ", "wrong": ["ಮಾಡಿಸ್ಕೊಳ್ಳಿ|māḍiskoḷḷi", "ಮಾಡಿಸ್ಕೊಂಡಳು|māḍiskoṇḍaḷu"] },
+        { "native": "ಹೊಸ ಕಟಿಂಗ್ ಚೆನ್ನಾಗಿದೆ! ಎಲ್ಲಿ ಮಾಡಿಸ್ಕೊಂಡೆ?", "roman": "hosa kaṭiṅg chennāgide! elli māḍiskoṇḍe?", "en": "Nice new haircut! Where did you get it done? (informal)", "focus": "ಮಾಡಿಸ್ಕೊಂಡೆ", "wrong": ["ಮಾಡಿಸ್ಕೊಳ್ಳಿ|māḍiskoḷḷi", "ಮಾಡಿಸ್ತೀನಿ|māḍistīni"] },
+        { "native": "ನಿನ್ನ ಕೂದಲು ತುಂಬಾ ಉದ್ದ ಆಗಿದೆ, ಕಟಿಂಗ್ ಮಾಡಿಸ್ಕೋ!", "roman": "ninna kūdalu tumbā udda āgide, kaṭiṅg māḍiskō!", "en": "Your hair has got really long. Go and get a haircut! (informal)", "focus": "ಮಾಡಿಸ್ಕೋ", "wrong": ["ಮಾಡಿಸ್ಕೊಂಡೆ|māḍiskoṇḍe", "ಮಾಡಿಸ್ಕೊಳ್ತೀನಿ|māḍiskoḷtīni"] },
+        { "native": "ಜ್ವರ ಇದ್ರೆ ಮೊದಲು ಟೆಸ್ಟ್ ಮಾಡಿಸ್ಕೊಳ್ಳಿ.", "roman": "jvara idre modalu ṭesṭ māḍiskoḷḷi.", "en": "If you have a fever, get yourself tested first.", "focus": "ಮಾಡಿಸ್ಕೊಳ್ಳಿ", "wrong": ["ಮಾಡಿಸ್ಕೊಂಡೆ|māḍiskoṇḍe", "ಮಾಡಿಸ್ತಾರೆ|māḍistāre"] },
+        { "native": "ಚೀಟಿ ಇಟ್ಕೊಳ್ಳಿ, ಮುಂದಿನ ಸಲ ಬೇಕಾಗುತ್ತೆ.", "roman": "chīṭi iṭkoḷḷi, mundina sala bēkāgutte.", "en": "Keep the prescription, you'll need it next time.", "focus": "ಇಟ್ಕೊಳ್ಳಿ", "wrong": ["ಇಡಿ|iḍi", "ಇಟ್ಟೆ|iṭṭe"] },
+        { "native": "ಮದುವೆಗೆ ಮುಂಚೆ ಅಕ್ಕ ಸಲೂನಲ್ಲಿ ಕಟಿಂಗ್ ಮಾಡಿಸ್ಕೊಂಡಳು.", "roman": "maduvege muñche akka salūnalli kaṭiṅg māḍiskoṇḍaḷu.", "en": "Before the wedding my sister got her hair done at the salon.", "focus": "ಮಾಡಿಸ್ಕೊಂಡಳು", "wrong": ["ಮಾಡಿಸ್ಕೊಂಡ|māḍiskoṇḍa", "ಮಾಡಿಸ್ಕೊಂಡೆ|māḍiskoṇḍe"] },
+        { "native": "ಗಡ್ಡ ಸ್ವಲ್ಪ ಟ್ರಿಮ್ ಮಾಡಿ, ತುಂಬಾ ಶಾರ್ಟ್ ಬೇಡ.", "roman": "gaḍḍa svalpa ṭrim māḍi, tumbā shārṭ bēḍa.", "en": "Trim the beard a little, but not too short." },
+        { "native": "ಡಾಕ್ಟರ್ ಚೀಟಿ ತೋರಿಸಿ, ಆಮೇಲೆ ಮಾತ್ರೆ ಕೊಡ್ತೀನಿ.", "roman": "ḍākṭar chīṭi tōrisi, āmēle mātre koḍtīni.", "en": "Show me the doctor's prescription, then I'll give you the tablets." },
+        { "native": "ಮೆಡಿಕಲ್ ಶಾಪ್ ರಾತ್ರಿ ಹತ್ತು ಗಂಟೆಯವರೆಗೆ ಓಪನ್ ಇರುತ್ತೆ.", "roman": "meḍikal shāp rātri hattu gaṇṭeyavarege ōpan irutte.", "en": "The pharmacy is open till ten at night." }
+      ]
+    },
+    {
+      "title": "Laundry and couriers",
+      "new": ["ಲಾಂಡ್ರಿ", "ಒಗೆ", "ಡ್ರೈ ಕ್ಲೀನ್", "ಇಸ್ತ್ರಿ", "ಕೊರಿಯರ್", "ಪಾರ್ಸಲ್", "ಐದು ಅಂಗಿ ಇಸ್ತ್ರಿಗೆ ಕೊಡಬೇಕು", "ಈ ಪಾರ್ಸಲ್ ಚೆನ್ನೈಗೆ ಕಳಿಸಬೇಕು"],
+      "sentences": [
+        { "native": "ಈ ಬಟ್ಟೆ ಎಲ್ಲಾ ಲಾಂಡ್ರಿಗೆ ಕೊಡಬೇಕು.", "roman": "ī baṭṭe ellā lāṇḍrige koḍabēku.", "en": "All these clothes need to go to the laundry." },
+        { "native": "ನಾವು ಬಟ್ಟೆ ಮನೇಲೇ ಒಗೀತೀವಿ, ಇಸ್ತ್ರಿ ಮಾತ್ರ ಹೊರಗೆ ಮಾಡಿಸ್ತೀವಿ.", "roman": "nāvu baṭṭe manēlē ogītīvi, istri mātra horage māḍistīvi.", "en": "We wash our clothes at home and only get the ironing done outside.", "focus": "ಮಾಡಿಸ್ತೀವಿ", "wrong": ["ಮಾಡ್ತೀವಿ|māḍtīvi", "ಮಾಡಿಸಿದೆ|māḍiside"] },
+        { "native": "ಇಸ್ತ್ರಿ ಅಂಗಡಿಯವನು ಒಂದು ಅಂಗಿಗೆ ಹದಿನೈದು ರೂಪಾಯಿ ತಗೋತಾನೆ.", "roman": "istri aṅgaḍiyavanu ondu aṅgige hadinaidu rūpāyi tagōtāne.", "en": "The ironing man charges fifteen rupees a shirt." },
+        { "native": "ಈ ಸೀರೆ ಡ್ರೈ ಕ್ಲೀನ್ ಮಾಡಿಸಬೇಕು.", "roman": "ī sīre ḍrai klīn māḍisabēku.", "en": "I need to get this sari dry-cleaned.", "focus": "ಮಾಡಿಸಬೇಕು", "wrong": ["ಮಾಡಬೇಕು|māḍabēku", "ಮಾಡಿಸಿದ್ರು|māḍisidru"] },
+        { "native": "ಲಾಂಡ್ರಿಯಲ್ಲಿ ನನ್ನ ಬಿಳಿ ಅಂಗಿ ಗುಲಾಬಿ ಆಗಿ ಹೋಯ್ತು!", "roman": "lāṇḍriyalli nanna biḷi aṅgi gulābi āgi hōytu!", "en": "My white shirt turned pink at the laundry!" },
+        { "native": "ಕೊರಿಯರ್ ಇವತ್ತು ಬರುತ್ತೆ ಅಂತ ಫೋನ್ ಬಂತು.", "roman": "koriyar ivattu barutte anta phōn bantu.", "en": "I got a call saying the courier is coming today." },
+        { "native": "ನಾನು ಮನೇಲಿ ಇರಲ್ಲ, ಪಾರ್ಸಲ್ ಪಕ್ಕದ ಮನೇಲಿ ಕೊಡಿ.", "roman": "nānu manēli iralla, pārsal pakkada manēli koḍi.", "en": "I won't be home. Please leave the parcel next door." },
+        { "native": "ಅಮ್ಮನಿಗೆ ಮೈಸೂರಿಗೆ ಕೊರಿಯರ್ ಕಳಿಸಿದೆ.", "roman": "ammanige maisūrige koriyar kaḷiside.", "en": "I sent Mum a courier in Mysuru." }
+      ]
+    }
+  ]
+}

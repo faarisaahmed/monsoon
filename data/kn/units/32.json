@@ -1,0 +1,192 @@
+{
+  "id": 32,
+  "title": "Health in depth",
+  "goal": "Describe symptoms precisely and say how long you've had them, mention allergies and conditions, book an appointment and tests, and understand and follow a doctor's instructions.",
+  "intro": "Unit 9 got you as far as 'I have a fever'. This unit gets you through a real visit to a Bengaluru clinic: explaining exactly what's wrong and since when, answering the doctor's questions about allergies, BP and sugar, getting a blood test done, and understanding instructions like 'twice a day after food for five days'.\n\nThe key grammar is how Kannada says 'I **have had** it **for** three days': no special tense, just the present with **-ಇಂದ** 'from': ಮೂರು ದಿನದಿಂದ ಜ್ವರ ಇದೆ. The second point is the language of instructions: how often, when and how long.",
+  "vocab": [
+    { "native": "ಲಕ್ಷಣ", "roman": "lakṣaṇa", "en": "symptom; sign", "pos": "noun" },
+    { "native": "ತಲೆಸುತ್ತು", "roman": "talesuttu", "en": "dizziness", "pos": "noun", "note": "Lit. 'head-spinning'. ತಲೆ ಸುತ್ತುತ್ತಿದೆ 'I feel dizzy', ತಲೆಸುತ್ತು ಬಂತು 'I felt dizzy'." },
+    { "native": "ವಾಂತಿ", "roman": "vānti", "en": "vomiting", "pos": "noun", "note": "ವಾಂತಿ ಆಗು / ವಾಂತಿ ಬರು 'to vomit, feel like vomiting'." },
+    { "native": "ಭೇದಿ", "roman": "bhēdi", "en": "diarrhoea", "pos": "noun", "note": "Many people say ಲೂಸ್ ಮೋಶನ್ (from Indian English 'loose motions')." },
+    { "native": "ಉಸಿರು", "roman": "usiru", "en": "breath", "pos": "noun", "note": "ಉಸಿರಾಡು 'to breathe'; ಉಸಿರು ಕಟ್ಟುತ್ತೆ 'I get breathless'." },
+    { "native": "ಸೊಂಟ", "roman": "soṇṭa", "en": "lower back; waist", "pos": "noun", "note": "ಸೊಂಟ ನೋವು 'lower back pain'." },
+    { "native": "ಮಂಡಿ", "roman": "maṇḍi", "en": "knee", "pos": "noun" },
+    { "native": "ಕುತ್ತಿಗೆ", "roman": "kuttige", "en": "neck", "pos": "noun" },
+    { "native": "ಉಳುಕು", "roman": "uḷuku", "en": "to sprain; a sprain", "pos": "verb", "note": "ಕಾಲು ಉಳುಕಿತು 'I sprained my foot' (spoken ಉಳುಕ್ತು). The body part is the subject." },
+    { "native": "ಊತ", "roman": "ūta", "en": "swelling", "pos": "noun", "note": "Verb: ಊದಿಕೊಳ್ಳು 'to swell up'." },
+    { "native": "ಉರಿ", "roman": "uri", "en": "burning (sensation)", "pos": "noun", "note": "ಕಣ್ಣು ಉರಿ 'burning eyes'; ಎದೆ ಉರಿ 'heartburn'." },
+    { "native": "ತುರಿಕೆ", "roman": "turike", "en": "itching, itch", "pos": "noun" },
+    { "native": "ಅಲರ್ಜಿ", "roman": "alarji", "en": "allergy", "pos": "noun", "note": "ನನಗೆ X ಅಲರ್ಜಿ ಇದೆ / X ಅಂದ್ರೆ ಅಲರ್ಜಿ 'I'm allergic to X'." },
+    { "native": "ಧೂಳು", "roman": "dhūḷu", "en": "dust", "pos": "noun", "note": "Dust allergy is very common in Bengaluru." },
+    { "native": "ಬಿಪಿ", "roman": "bipi", "en": "blood pressure (BP)", "pos": "noun", "note": "Everyone says ಬಿಪಿ. 'High BP' = ಬಿಪಿ ಜಾಸ್ತಿ; 'I have BP' = ನನಗೆ ಬಿಪಿ ಇದೆ (means high BP)." },
+    { "native": "ಶುಗರ್", "roman": "shugar", "en": "diabetes (lit. sugar)", "pos": "noun", "note": "ನನಗೆ ಶುಗರ್ ಇದೆ 'I'm diabetic'. Formal: ಸಕ್ಕರೆ ಕಾಯಿಲೆ, ಮಧುಮೇಹ." },
+    { "native": "ಇನ್ಫೆಕ್ಷನ್", "roman": "inphekṣan", "en": "infection", "pos": "noun", "note": "Formal: ಸೋಂಕು." },
+    { "native": "ಕ್ಲಿನಿಕ್", "roman": "klinik", "en": "clinic, doctor's surgery", "pos": "noun" },
+    { "native": "ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್", "roman": "apāyiṇṭmeṇṭ", "en": "appointment", "pos": "noun" },
+    { "native": "ಟೆಸ್ಟ್", "roman": "ṭesṭ", "en": "test (medical)", "pos": "noun", "note": "ಟೆಸ್ಟ್ ಮಾಡಿಸು 'to get a test done'." },
+    { "native": "ರಕ್ತ", "roman": "rakta", "en": "blood", "pos": "noun", "note": "ರಕ್ತ ಪರೀಕ್ಷೆ / ಬ್ಲಡ್ ಟೆಸ್ಟ್ 'blood test'." },
+    { "native": "ರಿಪೋರ್ಟ್", "roman": "ripōrṭ", "en": "(test) report, results", "pos": "noun" },
+    { "native": "ಸಿರಪ್", "roman": "sirap", "en": "syrup (cough syrup etc.)", "pos": "noun" },
+    { "native": "ನುಂಗು", "roman": "nuṅgu", "en": "to swallow", "pos": "verb" },
+    { "native": "ತಪ್ಪಿಸು", "roman": "tappisu", "en": "to miss, skip, avoid", "pos": "verb", "note": "ಮಾತ್ರೆ ತಪ್ಪಿಸಬೇಡಿ 'don't skip a tablet'; ತಪ್ಪಿಸದೆ 'without missing'." },
+    { "native": "ಪಥ್ಯ", "roman": "pathya", "en": "special diet (while ill)", "pos": "noun", "note": "ಪಥ್ಯ ಮಾಡು 'to keep to a diet': usually no spicy, oily or sour food." },
+    { "native": "ಹಚ್ಚು", "roman": "hachchu", "en": "to apply (cream, oil)", "pos": "verb", "note": "Polite command: ಹಚ್ಚಿ." },
+    { "native": "ಕ್ರೀಮ್", "roman": "krīm", "en": "cream, ointment", "pos": "noun" },
+    { "native": "ಇಂಜೆಕ್ಷನ್", "roman": "iñjekṣan", "en": "injection", "pos": "noun", "note": "ಇಂಜೆಕ್ಷನ್ ಕೊಡು 'to give an injection'." }
+  ],
+  "phrases": [
+    { "native": "ಮೂರು ದಿನದಿಂದ ಜ್ವರ ಇದೆ", "roman": "mūru dinadinda jvara ide", "en": "I've had a fever for three days." },
+    { "native": "ಯಾವಾಗಿಂದ ಹೀಗಾಗ್ತಿದೆ?", "roman": "yāvāginda hīgāgtide?", "en": "Since when has this been happening?", "note": "Careful form: ಯಾವಾಗಿನಿಂದ ಹೀಗಾಗುತ್ತಿದೆ?" },
+    { "native": "ತಲೆ ಸುತ್ತುತ್ತಿದೆ", "roman": "tale suttuttide", "en": "I feel dizzy. (lit. the head is spinning)" },
+    { "native": "ರಾತ್ರಿ ಇಡೀ ನಿದ್ದೆ ಬರಲಿಲ್ಲ", "roman": "rātri iḍī nidde baralilla", "en": "I couldn't sleep all night." },
+    { "native": "ನನಗೆ ಪೆನ್ಸಿಲಿನ್ ಅಲರ್ಜಿ ಇದೆ", "roman": "nanage pensilin alarji ide", "en": "I'm allergic to penicillin." },
+    { "native": "ನನಗೆ ಬಿಪಿ ಶುಗರ್ ಏನೂ ಇಲ್ಲ", "roman": "nanage bipi shugar ēnū illa", "en": "I don't have BP, diabetes or anything.", "note": "The doctor's routine question is ಬಿಪಿ, ಶುಗರ್ ಏನಾದ್ರೂ ಇದೆಯಾ?" },
+    { "native": "ಇದು ಸೀರಿಯಸ್ಸಾ?", "roman": "idu sīriyassā?", "en": "Is it serious?" },
+    { "native": "ಡಾಕ್ಟರ್ ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್ ಸಿಗುತ್ತಾ?", "roman": "ḍākṭar apāyiṇṭmeṇṭ siguttā?", "en": "Can I get an appointment with the doctor?" },
+    { "native": "ರಿಪೋರ್ಟ್ ಯಾವಾಗ ಬರುತ್ತೆ?", "roman": "ripōrṭ yāvāga barutte?", "en": "When will the report be ready?" },
+    { "native": "ಮತ್ತೆ ಯಾವಾಗ ಬರಬೇಕು?", "roman": "matte yāvāga barabēku?", "en": "When should I come back?" },
+    { "native": "ದಿನಕ್ಕೆ ಎರಡು ಸಲ, ಊಟ ಆದ್ಮೇಲೆ", "roman": "dinakke eraḍu sala, ūṭa ādmēle", "en": "Twice a day, after food." },
+    { "native": "ಖಾಲಿ ಹೊಟ್ಟೆಯಲ್ಲಿ ತಗೋಬೇಡಿ", "roman": "khāli hoṭṭeyalli tagōbēḍi", "en": "Don't take it on an empty stomach." },
+    { "native": "ಐದು ದಿನ ಕೋರ್ಸ್ ಮುಗಿಸಿ", "roman": "aidu dina kōrs mugisi", "en": "Finish the five-day course." },
+    { "native": "ಈಗ ಸ್ವಲ್ಪ ಪರವಾಗಿಲ್ಲ", "roman": "īga svalpa paravāgilla", "en": "It's a bit better now.", "note": "ಪರವಾಗಿಲ್ಲ 'not bad, OK' is the usual answer when you're recovering." }
+  ],
+  "grammar": [
+    {
+      "title": "'I've had it for three days': -ಇಂದ with the present",
+      "body": "English uses a special tense for something that started in the past and is still going on: 'I **have had** a fever **for** three days', 'I**'ve been** coughing **since** Monday'. Kannada is simpler: it uses the **ordinary present** (ಇದೆ, or the continuous -ತಿದೆ) plus the time word with **-ಇಂದ** 'from'.\n\nಮೂರು ದಿನದಿಂದ ಜ್ವರ ಇದೆ 'I've had a fever for three days' (lit. 'from three days, there is fever')\nಸೋಮವಾರದಿಂದ ಕೆಮ್ಮು ಬರ್ತಿದೆ 'I've been coughing since Monday'\nಒಂದು ವಾರದಿಂದ ಈ ಮಾತ್ರೆ ತಗೋತಿದ್ದೀನಿ 'I've been taking this tablet for a week'\n\n**One ending for 'for' and 'since'.** With a length of time (ಮೂರು ದಿನ, ಒಂದು ವಾರ, ಎರಡು ತಿಂಗಳು) it means 'for'; with a point in time (ನಿನ್ನೆ, ಸೋಮವಾರ, ಬೆಳಿಗ್ಗೆ) it means 'since'. Forms: ದಿನ → ದಿನದಿಂದ, ವಾರ → ವಾರದಿಂದ, ತಿಂಗಳು → ತಿಂಗಳಿಂದ, ನಿನ್ನೆ → ನಿನ್ನೆಯಿಂದ, ಬೆಳಿಗ್ಗೆ → ಬೆಳಿಗ್ಗೆಯಿಂದ, ರಾತ್ರಿ → ರಾತ್ರಿಯಿಂದ, ಅವತ್ತು 'that day' → ಅವತ್ತಿಂದ. 'For ages' is ತುಂಬಾ ದಿನದಿಂದ.\n\n**Asking**: ಎಷ್ಟು ದಿನದಿಂದ? 'for how many days?', ಯಾವಾಗಿಂದ? 'since when?' (careful form ಯಾವಾಗಿನಿಂದ).\n\n**Ago** is different: time + -ದ + **ಹಿಂದೆ** 'behind', with a **past** verb, because it points to one moment: ಎರಡು ದಿನದ ಹಿಂದೆ ಬಿದ್ದೆ 'I fell two days ago'. A doctor will often want both: ಎರಡು ದಿನದ ಹಿಂದೆ ಶುರುವಾಯ್ತು, ಅವತ್ತಿಂದ ನೋಯ್ತಿದೆ 'it started two days ago and it's been hurting since'.\n\n**The traps:** with -ಇಂದ, a past verb means the thing has **stopped**: ಮೂರು ದಿನದಿಂದ ಜ್ವರ ಇತ್ತು 'I'd had a fever for three days (it's gone now)'. If it's still going on, keep the present. And for instructions about the future ('take it for five days') use the bare time with **no** -ಇಂದ: ಐದು ದಿನ ತಗೊಳ್ಳಿ.",
+      "examples": [
+        { "native": "ಸೋಮವಾರದಿಂದ ಕೆಮ್ಮು ಬರ್ತಿದೆ", "roman": "sōmavāradinda kemmu bartide", "en": "I've been coughing since Monday." },
+        { "native": "ತುಂಬಾ ದಿನದಿಂದ ಸೊಂಟ ನೋಯ್ತಿದೆ", "roman": "tumbā dinadinda soṇṭa nōytide", "en": "My lower back has been hurting for ages." },
+        { "native": "ಎರಡು ತಿಂಗಳಿಂದ ಬಿಪಿ ಮಾತ್ರೆ ತಗೋತಿದ್ದೀನಿ", "roman": "eraḍu tiṅgaḷinda bipi mātre tagōtiddīni", "en": "I've been on BP tablets for two months." },
+        { "native": "ಯಾವಾಗಿಂದ ಈ ತುರಿಕೆ ಇದೆ?", "roman": "yāvāginda ī turike ide?", "en": "Since when have you had this itch?" },
+        { "native": "ಮೂರು ದಿನದ ಹಿಂದೆ ಶುರುವಾಯ್ತು", "roman": "mūru dinada hinde shuruvāytu", "en": "It started three days ago." }
+      ]
+    },
+    {
+      "title": "Instructions: how often, when, how long",
+      "body": "A doctor's or pharmacist's instructions use the **polite command** (unit 11): stem + **-ಇ** / **-ಇರಿ**: ತಗೊಳ್ಳಿ 'take', ಕುಡೀರಿ (ಕುಡಿ + ಇರಿ) 'drink', ಹಚ್ಚಿ 'apply', ನುಂಗಿ 'swallow', ಮಲಗಿ 'lie down', ಬನ್ನಿ 'come'. 'Don't' is infinitive + **-ಬೇಡಿ**: ತಿನ್ನಬೇಡಿ, ತಪ್ಪಿಸಬೇಡಿ. The stronger 'must not' is -ಬಾರದು (unit 9): ಮದ್ಯ ಕುಡೀಬಾರದು 'no alcohol'.\n\n**How often**\nದಿನಕ್ಕೆ ಒಂದು ಸಲ / ಎರಡು ಸಲ / ಮೂರು ಸಲ 'once / twice / three times a day'\nಬೆಳಿಗ್ಗೆ ಒಂದು, ರಾತ್ರಿ ಒಂದು 'one in the morning, one at night'\nಮೂರು ಹೊತ್ತು 'with all three meals' (ಹೊತ್ತು = a mealtime)\nಎಂಟು ಗಂಟೆಗೊಮ್ಮೆ 'every eight hours' (-ಗೆ + ಒಮ್ಮೆ 'once')\nಬೇಕಾದಾಗ 'when needed'\n\n**When**\nಊಟಕ್ಕೆ ಮುಂಚೆ 'before food'; ಊಟ ಆದ್ಮೇಲೆ / ಊಟದ ನಂತರ 'after food'\nಖಾಲಿ ಹೊಟ್ಟೆಯಲ್ಲಿ 'on an empty stomach'\nಮಲಗೋಕೆ ಮುಂಚೆ 'before bed'\n\n**How long**: the bare time with no ending: ಐದು ದಿನ ತಗೊಳ್ಳಿ 'take it for five days', ಒಂದು ವಾರ ಪಥ್ಯ ಮಾಡಿ 'keep to a diet for a week'. (Compare -ಇಂದ, which looks back from now: ಐದು ದಿನದಿಂದ ತಗೋತಿದ್ದೀನಿ.)\n\n**Linking steps** with the -ಇ form: ಕ್ರೀಮ್ ಹಚ್ಚಿ ಮಲಗಿ 'put the cream on and lie down'. **Conditions** with -ಅರೆ (unit 19): ಜ್ವರ ಕಡಿಮೆ ಆಗದಿದ್ರೆ ಮತ್ತೆ ಬನ್ನಿ 'if the fever doesn't come down, come back'; ನೋವಿದ್ರೆ ಮಾತ್ರ 'only if there's pain'.\n\n**Passing instructions on**: quote them with ಅಂತ (unit 20), with an informal command inside the quote: ಡಾಕ್ಟರ್ ಊಟ ಆದ್ಮೇಲೆ ತಗೋ ಅಂತ ಹೇಳಿದ್ರು 'the doctor said to take it after food'.",
+      "examples": [
+        { "native": "ಈ ಮಾತ್ರೆ ಬೆಳಿಗ್ಗೆ ಒಂದು, ರಾತ್ರಿ ಒಂದು ತಗೊಳ್ಳಿ", "roman": "ī mātre beḷigge ondu, rātri ondu tagoḷḷi", "en": "Take one of these in the morning and one at night." },
+        { "native": "ನೋವಿದ್ರೆ ಮಾತ್ರ ಈ ಮಾತ್ರೆ ತಗೊಳ್ಳಿ", "roman": "nōvidre mātra ī mātre tagoḷḷi", "en": "Take this tablet only if there's pain." },
+        { "native": "ದಿನಾ ಎರಡು ಲೀಟರ್ ನೀರು ಕುಡೀರಿ", "roman": "dinā eraḍu līṭar nīru kuḍīri", "en": "Drink two litres of water every day." },
+        { "native": "ಔಷಧಿ ತಗೊಳ್ಳೋವಾಗ ಮದ್ಯ ಕುಡೀಬಾರದು", "roman": "auṣadhi tagoḷḷōvāga madya kuḍībāradu", "en": "You mustn't drink alcohol while you're on the medicine." },
+        { "native": "ಕ್ರೀಮ್ ಹಚ್ಚಿ ಹತ್ತು ನಿಮಿಷ ಬಿಡಿ", "roman": "krīm hachchi hattu nimiṣa biḍi", "en": "Apply the cream and leave it for ten minutes." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "At the clinic in Malleshwaram",
+    "setting": "Tom has been ill since the weekend. He sees Dr Shetty at a neighbourhood clinic in Malleshwaram.",
+    "lines": [
+      { "speaker": "Dr Shetty", "native": "ಬನ್ನಿ, ಕೂತ್ಕೊಳ್ಳಿ. ಏನು ಸಮಸ್ಯೆ?", "roman": "banni, kūtkoḷḷi. ēnu samasye?", "en": "Come in, have a seat. What's the problem?" },
+      { "speaker": "Tom", "native": "ಡಾಕ್ಟರೇ, ಮೂರು ದಿನದಿಂದ ಜ್ವರ ಇದೆ, ಮೈಕೈ ನೋವು ಕೂಡ.", "roman": "ḍākṭarē, mūru dinadinda jvara ide, maikai nōvu kūḍa.", "en": "Doctor, I've had a fever for three days, and body aches too." },
+      { "speaker": "Dr Shetty", "native": "ಜ್ವರ ಎಷ್ಟಿದೆ? ಚೆಕ್ ಮಾಡಿದ್ರಾ?", "roman": "jvara eṣṭide? chek māḍidrā?", "en": "How high is the fever? Did you check?" },
+      { "speaker": "Tom", "native": "ನಿನ್ನೆ ರಾತ್ರಿ ನೂರೆರಡು ಇತ್ತು. ಬೆಳಿಗ್ಗೆಯಿಂದ ಸ್ವಲ್ಪ ವಾಂತಿ ಕೂಡ ಆಗ್ತಿದೆ.", "roman": "ninne rātri nūreraḍu ittu. beḷiggeyinda svalpa vānti kūḍa āgtide.", "en": "It was 102 last night. And I've been throwing up a bit since this morning." },
+      { "speaker": "Dr Shetty", "native": "ಹೊರಗೆ ಏನಾದ್ರೂ ತಿಂದ್ರಾ?", "roman": "horage ēnādrū tindrā?", "en": "Did you eat anything outside?" },
+      { "speaker": "Tom", "native": "ಶನಿವಾರ ಫ್ರೆಂಡ್ಸ್ ಜೊತೆ ಪಾನಿಪುರಿ ತಿಂದೆ... ಅವತ್ತಿಂದಲೇ ಶುರು ಆಯ್ತು ಅನ್ಸುತ್ತೆ.", "roman": "shanivāra phreṇḍs jote pānipuri tinde... avattindalē shuru āytu ansutte.", "en": "I had pani puri with friends on Saturday... I think it started that very day." },
+      { "speaker": "Dr Shetty", "native": "ಹಾಗೇ ಅನ್ಸುತ್ತೆ. ಏನಾದ್ರೂ ಅಲರ್ಜಿ ಇದೆಯಾ? ಬಿಪಿ, ಶುಗರ್?", "roman": "hāgē ansutte. ēnādrū alarji ideyā? bipi, shugar?", "en": "Looks like it. Any allergies? BP, diabetes?" },
+      { "speaker": "Tom", "native": "ಇಲ್ಲ, ಏನೂ ಇಲ್ಲ. ಇದು ಸೀರಿಯಸ್ಸಾ?", "roman": "illa, ēnū illa. idu sīriyassā?", "en": "No, nothing. Is it serious?" },
+      { "speaker": "Dr Shetty", "native": "ಇಲ್ಲ, ಹೊಟ್ಟೆ ಇನ್ಫೆಕ್ಷನ್ ಅಷ್ಟೇ. ಈ ಮಾತ್ರೆ ದಿನಕ್ಕೆ ಎರಡು ಸಲ, ಊಟ ಆದ್ಮೇಲೆ, ಐದು ದಿನ ತಗೊಳ್ಳಿ.", "roman": "illa, hoṭṭe inphekṣan aṣṭē. ī mātre dinakke eraḍu sala, ūṭa ādmēle, aidu dina tagoḷḷi.", "en": "No, just a stomach infection. Take this tablet twice a day, after food, for five days." },
+      { "speaker": "Dr Shetty", "native": "ಜ್ವರ ಬಂದಾಗ ಮಾತ್ರ ಈ ಪ್ಯಾರಾಸಿಟಮಾಲ್. ಎರಡು ದಿನ ಮೊಸರನ್ನ, ಗಂಜಿ ಮಾತ್ರ. ಹೊರಗಡೆ ಏನೂ ತಿನ್ನಬೇಡಿ!", "roman": "jvara bandāga mātra ī pyārāsiṭamāl. eraḍu dina mosaranna, gañji mātra. horagaḍe ēnū tinnabēḍi!", "en": "And this paracetamol only when the fever comes. Only curd rice and kanji for two days. Don't eat anything outside!" },
+      { "speaker": "Tom", "native": "ಸರಿ ಡಾಕ್ಟರೇ. ಜ್ವರ ಕಡಿಮೆ ಆಗದಿದ್ರೆ?", "roman": "sari ḍākṭarē. jvara kaḍime āgadidre?", "en": "OK, doctor. And if the fever doesn't come down?" },
+      { "speaker": "Dr Shetty", "native": "ಮೂರು ದಿನ ಆದ್ರೂ ಕಡಿಮೆ ಆಗದಿದ್ರೆ ರಕ್ತ ಪರೀಕ್ಷೆ ಮಾಡಿಸಿ, ರಿಪೋರ್ಟ್ ತಗೊಂಡು ಬನ್ನಿ. ಡೆಂಗ್ಯೂ ಸೀಸನ್ ಅಲ್ವಾ.", "roman": "mūru dina ādrū kaḍime āgadidre rakta parīkṣe māḍisi, ripōrṭ tagoṇḍu banni. ḍeṅgyū sīsan alvā.", "en": "If it hasn't come down in three days, get a blood test and bring me the report. It's dengue season, after all." }
+    ]
+  },
+  "culture": "Most people in Bengaluru first go to a neighbourhood clinic or the family doctor, often without an appointment: you take a token and wait. Doctors are addressed as ಡಾಕ್ಟರೇ or ಡಾಕ್ಟ್ರೇ, or ಸಾರ್ / ಮೇಡಂ. Temperatures are given in Fahrenheit (ನೂರು 'a hundred' is a fever, ನೂರೆರಡು is a high one), and English medical words are completely normal: ಬಿಪಿ, ಶುಗರ್, ಇನ್ಫೆಕ್ಷನ್, ಸ್ಕ್ಯಾನ್, ಟೆಸ್ಟ್.\n\nEveryone has advice when you're ill. Expect to be told to drink ಬಿಸಿ ನೀರು 'hot water', to take ಕಷಾಯ (a home-made herbal decoction with pepper, ginger and tulsi), and to eat only ಮೊಸರನ್ನ (curd rice) or ಗಂಜಿ (rice gruel) until you're better; spicy and sour foods are avoided as part of ಪಥ್ಯ. During the monsoon, a fever with body aches immediately raises the question of dengue, and doctors will send you for a blood test after a few days.\n\nWhen a friend is ill, call or visit: ಈಗ ಹೇಗಿದ್ದೀಯ? ಡಾಕ್ಟರ ಹತ್ರ ಹೋಗಿದ್ಯಾ? and the cheerful ಬೇಗ ಹುಷಾರಾಗು! 'get well soon'.",
+  "lessons": [
+    {
+      "title": "Describing symptoms: since when?",
+      "tip": { "title": "For / since: -ಇಂದ + present", "body": "- Still going on? Time + **-ಇಂದ** + a **present** verb: ಮೂರು ದಿನ**ದಿಂದ** ಜ್ವರ **ಇದೆ** 'I've had a fever for three days'.\n- The same -ಇಂದ means 'since': ನಿನ್ನೆ**ಯಿಂದ** 'since yesterday'.\n- Ask **ಎಷ್ಟು ದಿನದಿಂದ?** or **ಯಾವಾಗಿಂದ?**\n- Trap: a past verb (ಇತ್ತು) would mean it's over.", "pattern": "time + ಇಂದ + ಇದೆ / -ತಿದೆ", "grammar": 0 },
+      "new": ["ಲಕ್ಷಣ", "ತಲೆಸುತ್ತು", "ವಾಂತಿ", "ಭೇದಿ", "ಉಸಿರು", "ಮೂರು ದಿನದಿಂದ ಜ್ವರ ಇದೆ", "ಯಾವಾಗಿಂದ ಹೀಗಾಗ್ತಿದೆ?", "ತಲೆ ಸುತ್ತುತ್ತಿದೆ"],
+      "sentences": [
+        { "native": "ಎರಡು ದಿನದಿಂದ ವಾಂತಿ ಆಗ್ತಿದೆ.", "roman": "eraḍu dinadinda vānti āgtide.", "en": "I've been vomiting for two days.", "focus": "ದಿನದಿಂದ", "wrong": ["ದಿನದ|dinada", "ದಿನಕ್ಕೆ|dinakke"] },
+        { "native": "ನಿನ್ನೆಯಿಂದ ಭೇದಿ ಆಗ್ತಿದೆ.", "roman": "ninneyinda bhēdi āgtide.", "en": "I've had diarrhoea since yesterday.", "focus": "ನಿನ್ನೆಯಿಂದ", "wrong": ["ನಿನ್ನೆ|ninne", "ನಿನ್ನೆಗೆ|ninnege"] },
+        { "native": "ಎಷ್ಟು ದಿನದಿಂದ ಕೆಮ್ಮು ಇದೆ?", "roman": "eṣṭu dinadinda kemmu ide?", "en": "How long have you had the cough?", "focus": "ಇದೆ", "wrong": ["ಇತ್ತು|ittu", "ಇರುತ್ತೆ|irutte"] },
+        { "native": "ಬೆಳಿಗ್ಗೆಯಿಂದ ತಲೆಸುತ್ತು ಬರ್ತಿದೆ.", "roman": "beḷiggeyinda talesuttu bartide.", "en": "I've been feeling dizzy since this morning.", "focus": "ಬೆಳಿಗ್ಗೆಯಿಂದ", "wrong": ["ಬೆಳಿಗ್ಗೆ|beḷigge", "ಬೆಳಿಗ್ಗೆವರೆಗೆ|beḷiggevarege"] },
+        { "native": "ನಿನ್ನೆ ರಾತ್ರಿಯಿಂದ ಉಸಿರಾಡೋಕೆ ಕಷ್ಟ ಆಗ್ತಿದೆ.", "roman": "ninne rātriyinda usirāḍōke kaṣṭa āgtide.", "en": "Since last night I've been finding it hard to breathe.", "focus": "ಆಗ್ತಿದೆ", "wrong": ["ಆಯ್ತು|āytu", "ಆಗಿತ್ತು|āgittu"] },
+        { "native": "ಒಂದು ವಾರದಿಂದ ಊಟ ಸೇರ್ತಿಲ್ಲ.", "roman": "ondu vāradinda ūṭa sērtilla.", "en": "I haven't had any appetite for a week.", "focus": "ವಾರದಿಂದ", "wrong": ["ವಾರದ|vārada", "ವಾರಕ್ಕೆ|vārakke"] },
+        { "native": "ಜ್ವರ ಬಿಟ್ಟು ಬೇರೆ ಏನಾದ್ರೂ ಲಕ್ಷಣ ಇದೆಯಾ?", "roman": "jvara biṭṭu bēre ēnādrū lakṣaṇa ideyā?", "en": "Any other symptoms apart from the fever?" },
+        { "native": "ಕಳೆದ ತಿಂಗಳಿಂದ ತುಂಬಾ ಸುಸ್ತಾಗ್ತಿದೆ.", "roman": "kaḷeda tiṅgaḷinda tumbā sustāgtide.", "en": "I've been feeling very tired since last month.", "focus": "ಸುಸ್ತಾಗ್ತಿದೆ", "wrong": ["ಸುಸ್ತಾಗಿತ್ತು|sustāgittu", "ಸುಸ್ತಾಯ್ತು|sustāytu"] },
+        { "native": "ವಾಂತಿ ನಿಂತಿದೆ, ಆದ್ರೆ ತಲೆ ಸುತ್ತುತ್ತಿದೆ.", "roman": "vānti nintide, ādre tale suttuttide.", "en": "The vomiting has stopped, but I feel dizzy." }
+      ]
+    },
+    {
+      "title": "Aches, sprains and itches",
+      "tip": { "title": "Ago ಹಿಂದೆ vs for ಇಂದ", "body": "- **Ago** = time + -ದ + **ಹಿಂದೆ** with a **past** verb: ಎರಡು ದಿನದ **ಹಿಂದೆ** ಬಿದ್ದೆ 'I fell two days ago'.\n- **For / since** = time + **-ಇಂದ** with a **present** verb: ಎರಡು ದಿನದಿಂದ ನೋಯ್ತಿದೆ 'it's been hurting for two days'.\n- A story to a doctor often needs both.", "pattern": "ವಾರದ ಹಿಂದೆ + past  ·  ವಾರದಿಂದ + present", "grammar": 0 },
+      "new": ["ಸೊಂಟ", "ಮಂಡಿ", "ಕುತ್ತಿಗೆ", "ಉಳುಕು", "ಊತ", "ಉರಿ", "ತುರಿಕೆ", "ರಾತ್ರಿ ಇಡೀ ನಿದ್ದೆ ಬರಲಿಲ್ಲ"],
+      "sentences": [
+        { "native": "ಎರಡು ದಿನದ ಹಿಂದೆ ಕ್ರಿಕೆಟ್ ಆಡ್ತಿದ್ದಾಗ ಕಾಲು ಉಳುಕಿತು.", "roman": "eraḍu dinada hinde krikeṭ āḍtiddāga kālu uḷukitu.", "en": "Two days ago I sprained my foot playing cricket.", "focus": "ಹಿಂದೆ", "wrong": ["ಮುಂದೆ|munde", "ಮೇಲೆ|mēle"] },
+        { "native": "ಅವತ್ತಿಂದ ಮಂಡಿಯಲ್ಲಿ ಊತ ಇದೆ.", "roman": "avattinda maṇḍiyalli ūta ide.", "en": "There's been swelling in my knee since that day.", "focus": "ಇದೆ", "wrong": ["ಇತ್ತು|ittu", "ಆಯ್ತು|āytu"] },
+        { "native": "ಒಂದು ವಾರದಿಂದ ಸೊಂಟ ನೋವು ಇದೆ.", "roman": "ondu vāradinda soṇṭa nōvu ide.", "en": "I've had lower back pain for a week.", "focus": "ವಾರದಿಂದ", "wrong": ["ವಾರದ|vārada", "ವಾರ|vāra"] },
+        { "native": "ಕುತ್ತಿಗೆ ಉಳುಕಿದೆ, ತಿರುಗಿಸೋಕೆ ಆಗ್ತಿಲ್ಲ.", "roman": "kuttige uḷukide, tirugisōke āgtilla.", "en": "I've cricked my neck, I can't turn it." },
+        { "native": "ನಾಲ್ಕು ದಿನದಿಂದ ಕೈಯಲ್ಲಿ ತುರಿಕೆ ಇದೆ.", "roman": "nālku dinadinda kaiyalli turike ide.", "en": "My hand has been itching for four days.", "focus": "ದಿನದಿಂದ", "wrong": ["ದಿನದ|dinada", "ದಿನಕ್ಕೆ|dinakke"] },
+        { "native": "ಎರಡು ವಾರದ ಹಿಂದೆ ಶುರು ಆಯ್ತು, ಇನ್ನೂ ಕಡಿಮೆ ಆಗಿಲ್ಲ.", "roman": "eraḍu vārada hinde shuru āytu, innū kaḍime āgilla.", "en": "It started two weeks ago and it still hasn't got better.", "focus": "ಹಿಂದೆ", "wrong": ["ಮುಂದೆ|munde", "ಒಳಗೆ|oḷage"] },
+        { "native": "ಊಟ ಆದ್ಮೇಲೆ ಎದೆಯಲ್ಲಿ ಉರಿ ಆಗುತ್ತೆ.", "roman": "ūṭa ādmēle edeyalli uri āgutte.", "en": "I get heartburn after eating." },
+        { "native": "ಎಷ್ಟು ದಿನದ ಹಿಂದೆ ಬಿದ್ರಿ?", "roman": "eṣṭu dinada hinde bidri?", "en": "How many days ago did you fall?", "focus": "ಬಿದ್ರಿ", "wrong": ["ಬೀಳ್ತೀರ|bīḷtīra", "ಬೀಳ್ತಿದ್ದೀರ|bīḷtiddīra"] },
+        { "native": "ರಾತ್ರಿ ಇಡೀ ನಿದ್ದೆ ಬರಲಿಲ್ಲ, ಸೊಂಟ ತುಂಬಾ ನೋಯ್ತಿತ್ತು.", "roman": "rātri iḍī nidde baralilla, soṇṭa tumbā nōytittu.", "en": "I couldn't sleep all night, my back was hurting so much." }
+      ]
+    },
+    {
+      "title": "Allergies and conditions",
+      "tip": { "title": "Saying what you have: ನನಗೆ … ಇದೆ", "body": "- Conditions are 'there' for you: **ನನಗೆ** ಅಲರ್ಜಿ **ಇದೆ**, ಅಪ್ಪನಿಗೆ ಶುಗರ್ ಇದೆ.\n- Allergic to X: ನನಗೆ X ಅಲರ್ಜಿ ಇದೆ, or X **ಅಂದ್ರೆ** ಅಲರ್ಜಿ 'X means allergy for me'.\n- 'Not … or anything': … **ಏನೂ ಇಲ್ಲ**: ಬಿಪಿ ಶುಗರ್ ಏನೂ ಇಲ್ಲ.", "pattern": "ನನಗೆ + X + ಅಲರ್ಜಿ ಇದೆ" },
+      "new": ["ಅಲರ್ಜಿ", "ಧೂಳು", "ಬಿಪಿ", "ಶುಗರ್", "ಇನ್ಫೆಕ್ಷನ್", "ನನಗೆ ಪೆನ್ಸಿಲಿನ್ ಅಲರ್ಜಿ ಇದೆ", "ನನಗೆ ಬಿಪಿ ಶುಗರ್ ಏನೂ ಇಲ್ಲ", "ಇದು ಸೀರಿಯಸ್ಸಾ?"],
+      "sentences": [
+        { "native": "ನನಗೆ ಹಾಲು ಅಲರ್ಜಿ ಇದೆ.", "roman": "nanage hālu alarji ide.", "en": "I'm allergic to milk.", "focus": "ನನಗೆ", "wrong": ["ನಾನು|nānu", "ನನ್ನ|nanna"] },
+        { "native": "ನಿಮಗೆ ಯಾವುದಾದ್ರೂ ಔಷಧಿ ಅಲರ್ಜಿ ಇದೆಯಾ?", "roman": "nimage yāvudādrū auṣadhi alarji ideyā?", "en": "Are you allergic to any medicine?", "focus": "ಇದೆಯಾ", "wrong": ["ಇದ್ದೀರಾ|iddīrā", "ಇದ್ದೀನಿ|iddīni"] },
+        { "native": "ಅಪ್ಪನಿಗೆ ಬಿಪಿ ಮತ್ತು ಶುಗರ್ ಎರಡೂ ಇದೆ.", "roman": "appanige bipi mattu shugar eraḍū ide.", "en": "Dad has both BP and diabetes.", "focus": "ಅಪ್ಪನಿಗೆ", "wrong": ["ಅಪ್ಪ|appa", "ಅಪ್ಪನ|appana"] },
+        { "native": "ಶುಗರ್ ಇದ್ರೆ ಸಿಹಿ ಕಡಿಮೆ ತಿನ್ನಿ.", "roman": "shugar idre sihi kaḍime tinni.", "en": "If you're diabetic, eat less sweet stuff." },
+        { "native": "ಗಂಟಲಲ್ಲಿ ಇನ್ಫೆಕ್ಷನ್ ಆಗಿದೆ.", "roman": "gaṇṭalalli inphekṣan āgide.", "en": "There's an infection in your throat." },
+        { "native": "ನನಗೆ ಧೂಳು ಅಂದ್ರೆ ಅಲರ್ಜಿ.", "roman": "nanage dhūḷu andre alarji.", "en": "I'm allergic to dust.", "focus": "ಅಂದ್ರೆ", "wrong": ["ಅಂತ|anta", "ಆದ್ರೆ|ādre"] },
+        { "native": "ಇದು ಸೀರಿಯಸ್ ಏನೂ ಅಲ್ಲ, ಹೆದರಬೇಡಿ.", "roman": "idu sīriyas ēnū alla, hedarabēḍi.", "en": "It's nothing serious, don't be scared." },
+        { "native": "ನಿಮಗೆ ಬೇರೆ ಏನಾದ್ರೂ ಆರೋಗ್ಯ ಸಮಸ್ಯೆ ಇದೆಯಾ?", "roman": "nimage bēre ēnādrū ārōgya samasye ideyā?", "en": "Do you have any other health problems?", "focus": "ನಿಮಗೆ", "wrong": ["ನೀವು|nīvu", "ನಿಮ್ಮ|nimma"] },
+        { "native": "ಇನ್ಫೆಕ್ಷನ್ ಇದ್ರೆ ಜ್ವರ ಬರುತ್ತೆ.", "roman": "inphekṣan idre jvara barutte.", "en": "If there's an infection, you get a fever." }
+      ]
+    },
+    {
+      "title": "Appointments and tests",
+      "new": ["ಕ್ಲಿನಿಕ್", "ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್", "ಟೆಸ್ಟ್", "ರಕ್ತ", "ರಿಪೋರ್ಟ್", "ಡಾಕ್ಟರ್ ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್ ಸಿಗುತ್ತಾ?", "ರಿಪೋರ್ಟ್ ಯಾವಾಗ ಬರುತ್ತೆ?", "ಮತ್ತೆ ಯಾವಾಗ ಬರಬೇಕು?"],
+      "sentences": [
+        { "native": "ಹತ್ತಿರ ಒಳ್ಳೆ ಕ್ಲಿನಿಕ್ ಯಾವುದಿದೆ?", "roman": "hattira oḷḷe klinik yāvudide?", "en": "Is there a good clinic nearby?" },
+        { "native": "ಸಂಜೆ ಆರು ಗಂಟೆಗೆ ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್ ಇದೆ.", "roman": "sañje āru gaṇṭege apāyiṇṭmeṇṭ ide.", "en": "I have an appointment at six this evening." },
+        { "native": "ಡಾಕ್ಟರ್ ಎಷ್ಟು ಗಂಟೆಗೆ ಸಿಗ್ತಾರೆ?", "roman": "ḍākṭar eṣṭu gaṇṭege sigtāre?", "en": "What time is the doctor available?" },
+        { "native": "ಖಾಲಿ ಹೊಟ್ಟೆಯಲ್ಲಿ ರಕ್ತ ಪರೀಕ್ಷೆ ಮಾಡಬೇಕು.", "roman": "khāli hoṭṭeyalli rakta parīkṣe māḍabēku.", "en": "The blood test has to be done on an empty stomach." },
+        { "native": "ರಕ್ತ ಟೆಸ್ಟ್ ಮತ್ತು ಶುಗರ್ ಟೆಸ್ಟ್ ಮಾಡಿಸಿ.", "roman": "rakta ṭesṭ mattu shugar ṭesṭ māḍisi.", "en": "Get a blood test and a sugar test done." },
+        { "native": "ರಿಪೋರ್ಟ್ ನಾಳೆ ಸಂಜೆ ಸಿಗುತ್ತೆ.", "roman": "ripōrṭ nāḷe sañje sigutte.", "en": "You'll get the report tomorrow evening." },
+        { "native": "ರಿಪೋರ್ಟಲ್ಲಿ ಏನೂ ಸಮಸ್ಯೆ ಇಲ್ಲ.", "roman": "ripōrṭalli ēnū samasye illa.", "en": "There's nothing wrong in the report." },
+        { "native": "ಒಂದು ವಾರ ಬಿಟ್ಟು ಮತ್ತೆ ಬನ್ನಿ.", "roman": "ondu vāra biṭṭu matte banni.", "en": "Come back after a week." },
+        { "native": "ಭಾನುವಾರ ಕ್ಲಿನಿಕ್ ರಜೆ.", "roman": "bhānuvāra klinik raje.", "en": "The clinic is closed on Sundays." }
+      ]
+    },
+    {
+      "title": "Following the doctor's instructions",
+      "tip": { "title": "How often, when, how long", "body": "- Polite commands: **ತಗೊಳ್ಳಿ**, ಕುಡೀರಿ, ನುಂಗಿ; don't: **-ಬೇಡಿ**.\n- How often: ದಿನಕ್ಕೆ **ಎರಡು ಸಲ**, ಎಂಟು ಗಂಟೆ**ಗೊಮ್ಮೆ** 'every eight hours'.\n- When: ಊಟಕ್ಕೆ **ಮುಂಚೆ**, ಊಟ **ಆದ್ಮೇಲೆ**, ಮಲಗೋಕೆ ಮುಂಚೆ.\n- How long: the bare time, **no -ಇಂದ**: ಐದು **ದಿನ** ತಗೊಳ್ಳಿ.", "pattern": "ದಿನಕ್ಕೆ ಎರಡು ಸಲ + ಊಟ ಆದ್ಮೇಲೆ + ತಗೊಳ್ಳಿ", "grammar": 1 },
+      "new": ["ಸಿರಪ್", "ನುಂಗು", "ತಪ್ಪಿಸು", "ಪಥ್ಯ", "ದಿನಕ್ಕೆ ಎರಡು ಸಲ, ಊಟ ಆದ್ಮೇಲೆ", "ಖಾಲಿ ಹೊಟ್ಟೆಯಲ್ಲಿ ತಗೋಬೇಡಿ", "ಐದು ದಿನ ಕೋರ್ಸ್ ಮುಗಿಸಿ"],
+      "sentences": [
+        { "native": "ಈ ಮಾತ್ರೆ ಎಂಟು ಗಂಟೆಗೊಮ್ಮೆ ತಗೊಳ್ಳಿ.", "roman": "ī mātre eṇṭu gaṇṭegomme tagoḷḷi.", "en": "Take this tablet every eight hours.", "focus": "ಗಂಟೆಗೊಮ್ಮೆ", "wrong": ["ಗಂಟೆಗೆ|gaṇṭege", "ಗಂಟೆಯಿಂದ|gaṇṭeyinda"] },
+        { "native": "ಸಿರಪ್ ಊಟಕ್ಕೆ ಮುಂಚೆ ಕುಡೀರಿ.", "roman": "sirap ūṭakke muñche kuḍīri.", "en": "Have the syrup before meals.", "focus": "ಮುಂಚೆ", "wrong": ["ಮೇಲೆ|mēle", "ಒಳಗೆ|oḷage"] },
+        { "native": "ಮಾತ್ರೆ ಊಟ ಆದ್ಮೇಲೆ, ಬಿಸಿ ನೀರಲ್ಲಿ ನುಂಗಿ.", "roman": "mātre ūṭa ādmēle, bisi nīralli nuṅgi.", "en": "Swallow the tablet after food, with warm water.", "focus": "ನುಂಗಿ", "wrong": ["ನುಂಗು|nuṅgu", "ನುಂಗಿದೆ|nuṅgide"] },
+        { "native": "ಐದು ದಿನ ತಪ್ಪಿಸದೆ ತಗೊಳ್ಳಿ.", "roman": "aidu dina tappisade tagoḷḷi.", "en": "Take it for five days without missing a dose.", "focus": "ದಿನ", "wrong": ["ದಿನದಿಂದ|dinadinda", "ದಿನಕ್ಕೆ|dinakke"] },
+        { "native": "ಮಾತ್ರೆ ತಪ್ಪಿಸಿದ್ರೆ ಏನು ಮಾಡ್ಲಿ?", "roman": "mātre tappisidre ēnu māḍli?", "en": "What should I do if I miss a tablet?" },
+        { "native": "ಒಂದು ವಾರ ಖಾರ, ಸಿಹಿ ತಿನ್ನಬೇಡಿ, ಪಥ್ಯ ಮಾಡಿ.", "roman": "ondu vāra khāra, sihi tinnabēḍi, pathya māḍi.", "en": "No spicy or sweet food for a week, keep to a light diet.", "focus": "ತಿನ್ನಬೇಡಿ", "wrong": ["ತಿನ್ನಿ|tinni", "ತಿಂದೆ|tinde"] },
+        { "native": "ಮಲಗೋಕೆ ಮುಂಚೆ ಒಂದು ಚಮಚ ಸಿರಪ್ ಕುಡೀರಿ.", "roman": "malagōke muñche ondu chamacha sirap kuḍīri.", "en": "Have a spoonful of syrup before bed.", "focus": "ಮಲಗೋಕೆ", "wrong": ["ಮಲಗಿ|malagi", "ಮಲಗ್ತೀನಿ|malagtīni"] },
+        { "native": "ಡಾಕ್ಟರ್ ಊಟ ಆದ್ಮೇಲೆ ತಗೋ ಅಂತ ಹೇಳಿದ್ರು.", "roman": "ḍākṭar ūṭa ādmēle tagō anta hēḷidru.", "en": "The doctor said to take it after food." },
+        { "native": "ಮಗುವಿಗೆ ಮಾತ್ರೆ ನುಂಗೋಕೆ ಆಗಲ್ಲ, ಸಿರಪ್ ಕೊಡಿ.", "roman": "maguvige mātre nuṅgōke āgalla, sirap koḍi.", "en": "The child can't swallow tablets, please give us a syrup." },
+        { "native": "ಜ್ವರ ಕಡಿಮೆ ಆಗದಿದ್ರೆ ಎರಡು ದಿನ ಬಿಟ್ಟು ಬನ್ನಿ.", "roman": "jvara kaḍime āgadidre eraḍu dina biṭṭu banni.", "en": "If the fever doesn't come down, come back in two days.", "focus": "ಬನ್ನಿ", "wrong": ["ಬಂದೆ|bande", "ಬರ್ತೀನಿ|bartīni"] }
+      ]
+    },
+    {
+      "title": "Creams, injections and getting better",
+      "new": ["ಹಚ್ಚು", "ಕ್ರೀಮ್", "ಇಂಜೆಕ್ಷನ್", "ಈಗ ಸ್ವಲ್ಪ ಪರವಾಗಿಲ್ಲ"],
+      "sentences": [
+        { "native": "ಈ ಕ್ರೀಮ್ ದಿನಕ್ಕೆ ಎರಡು ಸಲ ಹಚ್ಚಿ.", "roman": "ī krīm dinakke eraḍu sala hachchi.", "en": "Apply this cream twice a day.", "focus": "ಹಚ್ಚಿ", "wrong": ["ಹಚ್ಚು|hachchu", "ಹಚ್ಚಿದೆ|hachchide"] },
+        { "native": "ಕ್ರೀಮ್ ಹಚ್ಚಿದ ಮೇಲೆ ತುರಿಕೆ ಕಡಿಮೆ ಆಯ್ತು.", "roman": "krīm hachchida mēle turike kaḍime āytu.", "en": "The itching eased after I put the cream on." },
+        { "native": "ಇಂಜೆಕ್ಷನ್ ಅಂದ್ರೆ ನನಗೆ ಭಯ.", "roman": "iñjekṣan andre nanage bhaya.", "en": "I'm scared of injections." },
+        { "native": "ಒಂದು ಇಂಜೆಕ್ಷನ್ ಕೊಡ್ತೀನಿ, ನೋವಾಗಲ್ಲ.", "roman": "ondu iñjekṣan koḍtīni, nōvāgalla.", "en": "I'll give you an injection, it won't hurt." },
+        { "native": "ಈಗ ಹೇಗಿದೆ? ಸ್ವಲ್ಪ ಪರವಾಗಿಲ್ಲ, ಜ್ವರ ಕಡಿಮೆ ಆಗಿದೆ.", "roman": "īga hēgide? svalpa paravāgilla, jvara kaḍime āgide.", "en": "How is it now? A bit better, the fever has come down." },
+        { "native": "ಮಂಡಿಗೆ ಈ ಕ್ರೀಮ್ ಹಚ್ಚಿ, ಮಲಗಿ ವಿಶ್ರಾಂತಿ ತಗೊಳ್ಳಿ.", "roman": "maṇḍige ī krīm hachchi, malagi vishrānti tagoḷḷi.", "en": "Rub this cream on your knee, then lie down and rest.", "focus": "ಹಚ್ಚಿ", "wrong": ["ಹಚ್ಚು|hachchu", "ಹಚ್ಚಿದೆ|hachchide"] },
+        { "native": "ಮೂರು ದಿನದಿಂದ ಮಾತ್ರೆ ತಗೋತಿದ್ದೀನಿ, ಆದ್ರೂ ಕೆಮ್ಮು ಕಡಿಮೆ ಆಗಿಲ್ಲ.", "roman": "mūru dinadinda mātre tagōtiddīni, ādrū kemmu kaḍime āgilla.", "en": "I've been taking the tablets for three days but the cough hasn't eased." },
+        { "native": "ಬೇಗ ಹುಷಾರಾಗು, ನಾಳೆ ಫೋನ್ ಮಾಡ್ತೀನಿ.", "roman": "bēga huṣārāgu, nāḷe phōn māḍtīni.", "en": "Get well soon, I'll call you tomorrow. (informal)" }
+      ]
+    }
+  ]
+}

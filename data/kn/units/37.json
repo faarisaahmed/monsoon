@@ -1,0 +1,203 @@
+{
+  "id": 37,
+  "title": "Sorting out problems",
+  "goal": "Return a wrong or damaged order, ask for a refund or exchange, deal with customer care and the police, stay calm while you push for a solution, and report exactly who said what.",
+  "intro": "Sooner or later something goes wrong: the delivery is the wrong size, the mixer arrives cracked, your phone disappears on the bus. Sorting it out takes two skills. The first is talking to the shop, the call centre or the police **firmly but calmly**: in Karnataka, the person who stays polite usually gets further than the one who shouts.\n\nThe second is **reporting** what people told you, because half of every problem is passing on messages: 'they said they'd send it tomorrow', 'they told me to wait', 'they asked whether I had the bill', 'I don't know whether it'll come'. Kannada does all of this with the quotation word **ಅಂತ**, keeping the speaker's own words, plus one small ending, **-ಓ**, for 'whether' and 'where'.",
+  "vocab": [
+    { "native": "ರೀಫಂಡ್", "roman": "rīphaṇḍ", "en": "refund", "pos": "noun", "note": "ರೀಫಂಡ್ ಕೊಡು 'to give a refund'; ರೀಫಂಡ್ ಆಗುತ್ತೆ 'the refund will go through'." },
+    { "native": "ಹಾಳು", "roman": "hāḷu", "en": "spoilt, damaged, ruined", "pos": "adj", "note": "ಹಾಳಾಗು 'to get spoilt / damaged': ಹಾಳಾಗಿ ಬಂದಿದೆ 'it arrived damaged'. ಹಾಳು ಮಾಡು 'to ruin'." },
+    { "native": "ಎಕ್ಸ್‌ಚೇಂಜ್", "roman": "ekschēñj", "en": "exchange (for another item)", "pos": "noun", "note": "ಎಕ್ಸ್‌ಚೇಂಜ್ ಮಾಡು 'to exchange'. In Kannada: ಬದಲಾಯಿಸು." },
+    { "native": "ಸೈಜ್", "roman": "saij", "en": "size (clothes, shoes)", "pos": "noun", "note": "ಸೈಜ್ ಸರಿ ಇಲ್ಲ 'it's the wrong size'. More formal: ಅಳತೆ." },
+    { "native": "ಸ್ಟಾಕ್", "roman": "sṭāk", "en": "stock (in a shop)", "pos": "noun", "note": "ಸ್ಟಾಕ್ ಇದೆ / ಇಲ್ಲ 'in / out of stock'." },
+    { "native": "ಕಸ್ಟಮರ್ ಕೇರ್", "roman": "kasṭamar kēr", "en": "customer care, helpline", "pos": "noun", "note": "The staff are ಕಸ್ಟಮರ್ ಕೇರ್‌ನವರು 'the customer-care people'." },
+    { "native": "ಕಂಪ್ಲೇಂಟ್", "roman": "kamplēṇṭ", "en": "complaint (spoken)", "pos": "noun", "note": "ಕಂಪ್ಲೇಂಟ್ ಕೊಡು / ಹಾಕು 'to make a complaint'. Formal: ದೂರು." },
+    { "native": "ವಿವರ", "roman": "vivara", "en": "details", "pos": "noun", "note": "ವಿವರವಾಗಿ 'in detail'. Spoken also ಡೀಟೇಲ್ಸ್." },
+    { "native": "ವಿಚಾರಿಸು", "roman": "vichārisu", "en": "to enquire, ask about, look into", "pos": "verb", "note": "ವಿಚಾರಿಸ್ತೀವಿ 'we'll look into it'. Also polite 'to ask after someone': ಅಮ್ಮನ ಆರೋಗ್ಯ ವಿಚಾರಿಸಿದ್ರು." },
+    { "native": "ಭರವಸೆ", "roman": "bharavase", "en": "assurance, promise; hope", "pos": "noun", "note": "ಭರವಸೆ ಕೊಡು 'to promise, assure'." },
+    { "native": "ಪ್ರೂಫ್", "roman": "prūph", "en": "proof (receipt, photo, ID)", "pos": "noun", "note": "ಐಡಿ ಪ್ರೂಫ್, ಅಡ್ರೆಸ್ ಪ್ರೂಫ್. Formal: ಪುರಾವೆ, ಸಾಕ್ಷಿ." },
+    { "native": "ಮತ್ತೊಮ್ಮೆ", "roman": "mattomme", "en": "once more, again", "pos": "adv", "note": "Same as ಇನ್ನೊಂದು ಸಲ. ಮತ್ತೊಮ್ಮೆ ಹೇಳಿ 'please say it again'." },
+    { "native": "ಖಾತ್ರಿ", "roman": "khātri", "en": "sure, certain; certainty", "pos": "noun", "note": "ನಿಮಗೆ ಖಾತ್ರಿ ಇದೆಯಾ? 'are you sure?'; ಖಾತ್ರಿ ಮಾಡ್ಕೊಳ್ಳಿ 'make sure'." },
+    { "native": "ಒಪ್ಪಿಕೊಳ್ಳು", "roman": "oppikoḷḷu", "en": "to admit, accept; to agree to", "pos": "verb", "note": "ತಪ್ಪು ಒಪ್ಪಿಕೊಳ್ಳು 'admit a mistake'. Spoken past ಒಪ್ಪಿಕೊಂಡ್ರು." },
+    { "native": "ವಾರಂಟಿ", "roman": "vāraṇṭi", "en": "warranty", "pos": "noun", "note": "ವಾರಂಟಿಯಲ್ಲಿ ಬರುತ್ತೆ 'it's covered by the warranty'. Also ಗ್ಯಾರಂಟಿ." },
+    { "native": "ಕದಿ", "roman": "kadi", "en": "to steal", "pos": "verb", "note": "Past stem ಕದ್ದ-: ಕದ್ದ 'he stole', ಕದ್ರು 'they stole'. ಕದ್ದಿಲ್ಲ 'hasn't stolen'." },
+    { "native": "ಪರ್ಸ್", "roman": "pars", "en": "wallet, purse", "pos": "noun" },
+    { "native": "ಬ್ಲಾಕ್", "roman": "blāk", "en": "blocked (a card, a SIM, a number)", "pos": "adj", "note": "ಬ್ಲಾಕ್ ಮಾಡು 'to block', ಬ್ಲಾಕ್ ಮಾಡಿಸು 'to get (it) blocked'." },
+    { "native": "ಎಫ್‌ಐಆರ್", "roman": "ephaiār", "en": "FIR, police report", "pos": "noun", "note": "First Information Report. ಎಫ್‌ಐಆರ್ ಹಾಕು 'to register an FIR'. For a lost phone you may just get a lost-item report." },
+    { "native": "ಠಾಣೆ", "roman": "ṭhāṇe", "en": "police station", "pos": "noun", "note": "ಪೊಲೀಸ್ ಠಾಣೆ; in speech often ಪೊಲೀಸ್ ಸ್ಟೇಷನ್." },
+    { "native": "ಶಾಂತವಾಗಿ", "roman": "shāntavāgi", "en": "calmly", "pos": "adv", "note": "ಶಾಂತವಾಗಿರಿ 'please stay calm'." },
+    { "native": "ಕೂಗು", "roman": "kūgu", "en": "to shout, yell, call out", "pos": "verb", "note": "ಕೂಗಬೇಡಿ 'don't shout'. ಕೂಗಾಡು 'to shout and carry on'." },
+    { "native": "ಕೇಳಿಸಿಕೊಳ್ಳು", "roman": "kēḷisikoḷḷu", "en": "to listen (properly), hear out", "pos": "verb", "note": "Spoken ಕೇಳಿಸ್ಕೊಳ್ಳಿ 'please listen'. ಕೇಳು alone can mean 'ask'; this one is only 'listen'." },
+    { "native": "ಸೀನಿಯರ್", "roman": "sīniyar", "en": "senior, supervisor", "pos": "noun", "note": "The person you ask for when the first person can't help." },
+    { "native": "ಫ್ರಾಡ್", "roman": "phrāḍ", "en": "fraud, scam; a fraudster", "pos": "noun", "note": "Everyday word for online and phone scams. Kannada: ವಂಚನೆ (formal), ಮೋಸ." },
+    { "native": "ನಷ್ಟ", "roman": "naṣṭa", "en": "loss (of money)", "pos": "noun", "note": "ನನಗೆ ಸಾವಿರ ರೂಪಾಯಿ ನಷ್ಟ ಆಯ್ತು 'I lost a thousand rupees'. Opposite: ಲಾಭ 'profit'." },
+    { "native": "ಪರಿಹಾರ", "roman": "parihāra", "en": "solution, remedy; compensation", "pos": "noun", "note": "ಇದಕ್ಕೆ ಏನು ಪರಿಹಾರ? 'what's the solution to this?'" }
+  ],
+  "phrases": [
+    { "native": "ನಾನು ಆರ್ಡರ್ ಮಾಡಿದ್ದು ಇದಲ್ಲ", "roman": "nānu ārḍar māḍiddu idalla", "en": "This isn't what I ordered." },
+    { "native": "ಬಾಕ್ಸ್ ಒಡೆದು ಬಂದಿದೆ", "roman": "bāks oḍedu bandide", "en": "The box arrived broken." },
+    { "native": "ನನಗೆ ರೀಫಂಡ್ ಬೇಕು", "roman": "nanage rīphaṇḍ bēku", "en": "I want a refund." },
+    { "native": "ಇದನ್ನ ಎಕ್ಸ್‌ಚೇಂಜ್ ಮಾಡ್ಕೊಡ್ತೀರಾ?", "roman": "idanna ekschēñj māḍkoḍtīrā?", "en": "Could you exchange this for me? (polite)" },
+    { "native": "ಇದು ಸರಿ ಅಲ್ಲ ಸಾರ್", "roman": "idu sari alla sār", "en": "This isn't right, sir." },
+    { "native": "ಅವರು ಏನಂದ್ರು?", "roman": "avaru ēnandru?", "en": "What did they say?", "note": "ಏನಂದ್ರು = ಏನು ಅಂತ ಹೇಳಿದ್ರು." },
+    { "native": "ಎರಡು ದಿನದಲ್ಲಿ ಸರಿ ಮಾಡ್ತೀವಿ ಅಂತ ಹೇಳಿದ್ರು", "roman": "eraḍu dinadalli sari māḍtīvi anta hēḷidru", "en": "They said they'd sort it out within two days." },
+    { "native": "ಕಾಯಿರಿ ಅಂತ ಹೇಳಿದ್ರು", "roman": "kāyiri anta hēḷidru", "en": "They told me to wait." },
+    { "native": "ಬಿಲ್ ಇದೆಯಾ ಅಂತ ಕೇಳಿದ್ರು", "roman": "bil ideyā anta kēḷidru", "en": "They asked whether I had the bill." },
+    { "native": "ಸಿಗುತ್ತೋ ಇಲ್ವೋ ಗೊತ್ತಿಲ್ಲ", "roman": "siguttō ilvō gottilla", "en": "I don't know whether it'll turn up or not." },
+    { "native": "ನನ್ನ ಫೋನ್ ಕಳೆದು ಹೋಗಿದೆ", "roman": "nanna phōn kaḷedu hōgide", "en": "I've lost my phone." },
+    { "native": "ದಯವಿಟ್ಟು ಶಾಂತವಾಗಿ ಮಾತಾಡಿ", "roman": "dayaviṭṭu shāntavāgi mātāḍi", "en": "Please, let's talk calmly." },
+    { "native": "ನಿಮ್ಮ ಸೀನಿಯರ್ ಹತ್ರ ಮಾತಾಡಬೇಕು", "roman": "nimma sīniyar hatra mātāḍabēku", "en": "I need to speak to your senior." },
+    { "native": "ಮೊದಲು ನಾನು ಹೇಳೋದು ಕೇಳಿಸ್ಕೊಳ್ಳಿ", "roman": "modalu nānu hēḷōdu kēḷiskoḷḷi", "en": "First, please hear what I have to say." }
+  ],
+  "grammar": [
+    {
+      "title": "Reporting what people said: ಅಂತ, ಅಂದ, and whose 'I' is it?",
+      "body": "Unit 20 introduced the idea: Kannada reports speech by repeating the words and adding **ಅಂತ** (written ಎಂದು) + a verb of saying. Here is the whole system.\n\n**Statements: the verb stays as the speaker said it.** English shifts tense and person ('he said *he would* come'); Kannada normally keeps the original verb, so the **person ending** tells you who 'I' was:\nನಾಳೆ ಬರ್ತೀನಿ ಅಂತ ಹೇಳಿದ 'he said he'd come tomorrow' (lit. 'I'll come tomorrow,' he said)\nನಾಳೆ ಬರ್ತಾನೆ ಅಂತ ಹೇಳಿದ 'he said *he* (someone else) would come tomorrow'\nಎರಡು ದಿನದಲ್ಲಿ ಸರಿ ಮಾಡ್ತೀವಿ ಅಂತ ಹೇಳಿದ್ರು 'they said they'd fix it within two days'\nWords pointing at the listener *do* shift to your point of view: they told you 'we'll call you', so you report ನನಗೆ ಫೋನ್ ಮಾಡ್ತೀವಿ ಅಂತ ಹೇಳಿದ್ರು; you pass it on to your flatmate as ನಿನಗೆ ಫೋನ್ ಮಾಡ್ತೀವಿ ಅಂತ ಹೇಳಿದ್ರು.\n\n**Short forms.** ಅಂತ ಹೇಳು usually shrinks to the verb **ಅನ್ನು** 'say': ಅಂದ 'he said', ಅಂದ್ಳು 'she said', ಅಂದ್ರು 'they said', ಏನಂದ್ರು? 'what did they say?'. ಅಂತ also fuses with a word ending in a vowel: ಬರ್ತೀನಂತ ಹೇಳಿದ, ಆಗಲ್ಲಂತ ಅಂದ್ರು.\n\n**Report vs hearsay.** ...ಅಂತ ಹೇಳಿದ್ರು 'they said' names the speaker; a bare **-ಅಂತೆ** at the end means 'apparently, so I hear', with no source: ನಾಳೆ ಬರುತ್ತಂತೆ 'apparently it's coming tomorrow'. As a question, -ಅಂತಾ? asks what someone heard: ಕೊಡ್ತಾರಂತಾ? 'are they giving it, did they say?'\n\n**What they said was...**: ಅವರು ಹೇಳಿದ್ದು ಏನಂದ್ರೆ... 'what they said was...', and **ಹೇಳಿದ ಹಾಗೆ** 'as (someone) said': ನೀವು ಹೇಳಿದ ಹಾಗೆ 'as you said'.",
+      "examples": [
+        { "native": "ಅವನು ಐದು ನಿಮಿಷದಲ್ಲಿ ಬರ್ತೀನಿ ಅಂತ ಹೇಳಿದ.", "roman": "avanu aidu nimiṣadalli bartīni anta hēḷida.", "en": "He said he'd be here in five minutes." },
+        { "native": "ಅವರು ನಾಳೆ ನಿಮಗೆ ಫೋನ್ ಮಾಡ್ತೀವಿ ಅಂದ್ರು.", "roman": "avaru nāḷe nimage phōn māḍtīvi andru.", "en": "They said they'd call you tomorrow." },
+        { "native": "ಮ್ಯಾನೇಜರ್ ಏನಂದ್ರು? ರೀಫಂಡ್ ಕೊಡ್ತೀವಿ ಅಂದ್ರಾ?", "roman": "myānējar ēnandru? rīphaṇḍ koḍtīvi andrā?", "en": "What did the manager say? Did he say they'd give a refund?" },
+        { "native": "ಪಾರ್ಸಲ್ ದಾರಿಯಲ್ಲಿ ಇದೆಯಂತೆ.", "roman": "pārsal dāriyalli ideyante.", "en": "Apparently the parcel is on its way." },
+        { "native": "ನೀವು ಹೇಳಿದ ಹಾಗೆ ಬಿಲ್ ತಂದಿದ್ದೀನಿ.", "roman": "nīvu hēḷida hāge bil tandiddīni.", "en": "I've brought the bill, as you said." }
+      ]
+    },
+    {
+      "title": "Reporting orders and requests: 'told me to…', 'not to…'",
+      "body": "To report a command, quote the **imperative itself** + ಅಂತ + ಹೇಳು 'tell' (or ಕೇಳು 'ask for'):\nಕಾಯಿರಿ ಅಂತ ಹೇಳಿದ್ರು 'they told me to wait' (they said 'please wait')\nನಾಳೆ ಬಾ ಅಂತ ಹೇಳಿದ 'he told me to come tomorrow' (he said 'come tomorrow!', informal)\nಬಿಲ್ ತೋರಿಸಿ ಅಂತ ಕೇಳಿದ್ರು 'they asked me to show the bill'\nThe quoted imperative keeps the speaker's register, ಬಾ or ಬನ್ನಿ, so your report also shows how polite they were.\n\n**Not to**: quote the 'don't' form: ಚಿಂತೆ ಮಾಡಬೇಡಿ ಅಂತ ಹೇಳಿದ್ರು 'they told me not to worry'.\n\n**Infinitive style**: a shorter, more neutral alternative is the spoken infinitive **-ಓಕೆ** + ಹೇಳು, with the person told in the dative: ನನಗೆ ಕಾಯೋಕೆ ಹೇಳಿದ್ರು 'they told me to wait', ಅವನಿಗೆ ಬರೋಕೆ ಹೇಳು 'tell him to come'. (Written: ಕಾಯಲು ಹೇಳಿದರು.)\n\n**Passing a message on**: imperative + ಅಂತ ಹೇಳು: ಅವನಿಗೆ ನನಗೆ ಫೋನ್ ಮಾಡು ಅಂತ ಹೇಳು 'tell him to call me'. To say 'let *him* do it', use the -ಲಿ form (unit 18): ಅವನೇ ಬಂದು ಸರಿ ಮಾಡಲಿ ಅಂತ ಹೇಳಿ 'tell him to come and fix it himself'.\n\n**Promises and suggestions** are quoted the same way: ಮಾತಾಡೋಣ ಅಂತ ಹೇಳಿದ್ರು 'they suggested we talk', ಸರಿ ಮಾಡ್ತೀನಿ ಅಂತ ಭರವಸೆ ಕೊಟ್ರು 'he promised to fix it'.",
+      "examples": [
+        { "native": "ಮೂರು ದಿನ ಕಾಯಿರಿ ಅಂತ ಕಸ್ಟಮರ್ ಕೇರ್‌ನವರು ಹೇಳಿದ್ರು.", "roman": "mūru dina kāyiri anta kasṭamar kērnavaru hēḷidru.", "en": "Customer care told me to wait three days." },
+        { "native": "ಓನರ್ ನನಗೆ ಸಂಜೆ ಬರೋಕೆ ಹೇಳಿದ್ರು.", "roman": "ōnar nanage sañje barōke hēḷidru.", "en": "The owner told me to come in the evening." },
+        { "native": "ಪೊಲೀಸರು ಚಿಂತೆ ಮಾಡಬೇಡಿ ಅಂತ ಹೇಳಿದ್ರು.", "roman": "polīsaru chinte māḍabēḍi anta hēḷidru.", "en": "The police told me not to worry." },
+        { "native": "ಅವನಿಗೆ ನಾಳೆ ಬೇಗ ಬಾ ಅಂತ ಹೇಳು.", "roman": "avanige nāḷe bēga bā anta hēḷu.", "en": "Tell him to come early tomorrow." },
+        { "native": "ಅವರೇ ಬಂದು ತಗೊಂಡು ಹೋಗಲಿ ಅಂತ ಹೇಳಿ.", "roman": "avarē bandu tagoṇḍu hōgali anta hēḷi.", "en": "Tell them to come and collect it themselves." }
+      ]
+    },
+    {
+      "title": "Reporting questions: 'asked whether…', and 'I don't know where…' with -ಓ",
+      "body": "**Questions keep their question shape** + ಅಂತ + ಕೇಳು 'ask':\nyes/no: ಬಿಲ್ ಇದೆಯಾ ಅಂತ ಕೇಳಿದ್ರು 'they asked whether I had the bill' (they asked 'is there a bill?')\nquestion word: ಎಲ್ಲಿ ಕಳೆದುಕೊಂಡ್ರಿ ಅಂತ ಕೇಳಿದ್ರು 'they asked where I'd lost it'\nಯಾವಾಗ ಬರುತ್ತೆ ಅಂತ ಕೇಳು 'ask when it'll come'\n\n**Hidden questions take -ಓ.** When a question sits inside another sentence, after ಗೊತ್ತಿಲ್ಲ 'I don't know', ನೆನಪಿಲ್ಲ 'I don't remember', ನೋಡು 'see', ಹೇಳು 'tell me', the inner verb ends in **-ಓ** (not -ಆ):\nಎಲ್ಲಿದೆಯೋ ಗೊತ್ತಿಲ್ಲ 'I don't know where it is'\nಯಾರು ಕದ್ರೋ ಗೊತ್ತಿಲ್ಲ 'I don't know who stole it'\nಎಷ್ಟು ಆಗುತ್ತೋ ಹೇಳಿ 'tell me how much it'll come to'\n\n**Whether or not** = verb + -ಓ + **ಇಲ್ವೋ** (written ಇಲ್ಲವೋ): ಬರ್ತಾನೋ ಇಲ್ವೋ ಗೊತ್ತಿಲ್ಲ 'I don't know whether he'll come or not', ರೀಫಂಡ್ ಸಿಗುತ್ತೋ ಇಲ್ವೋ ನೋಡೋಣ 'let's see whether we get the refund or not'.\n\n**The trap**: with **ಅಂತ ಕೇಳು** keep the -ಆ question (ಇದೆಯಾ ಅಂತ ಕೇಳಿದ್ರು 'they asked if there was'); with **ಗೊತ್ತಿಲ್ಲ, ನೋಡೋಣ, ನೆನಪಿಲ್ಲ** use -ಓ (ಇದೆಯೋ ಗೊತ್ತಿಲ್ಲ 'I don't know if there is'). The -ಓ is what makes it sound native.",
+      "examples": [
+        { "native": "ನಿಮ್ಮ ಹತ್ರ ಆರ್ಡರ್ ನಂಬರ್ ಇದೆಯಾ ಅಂತ ಕೇಳಿದ್ರು.", "roman": "nimma hatra ārḍar nambar ideyā anta kēḷidru.", "en": "They asked if you had the order number." },
+        { "native": "ಫೋನ್ ಎಲ್ಲಿ ಬಿಟ್ಟೆ ಅಂತ ಅಮ್ಮ ಕೇಳಿದ್ರು.", "roman": "phōn elli biṭṭe anta amma kēḷidru.", "en": "Mum asked where I had left my phone." },
+        { "native": "ಪಾರ್ಸಲ್ ಯಾವಾಗ ಬರುತ್ತೋ ಗೊತ್ತಿಲ್ಲ.", "roman": "pārsal yāvāga baruttō gottilla.", "en": "I don't know when the parcel will come." },
+        { "native": "ಅಂಗಡಿಯವನು ಎಕ್ಸ್‌ಚೇಂಜ್ ಮಾಡ್ತಾನೋ ಇಲ್ವೋ ನೋಡೋಣ.", "roman": "aṅgaḍiyavanu ekschēñj māḍtānō ilvō nōḍōṇa.", "en": "Let's see whether the shopkeeper will exchange it or not." },
+        { "native": "ಯಾರು ಕದ್ರೋ ಗೊತ್ತಿಲ್ಲ.", "roman": "yāru kadrō gottilla.", "en": "I don't know who stole it." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "The broken mixer",
+    "setting": "Rohit's new mixer-grinder arrived cracked. He calls customer care from his flat in Basavanagudi, while his flatmate Anil listens.",
+    "lines": [
+      { "native": "ನಮಸ್ಕಾರ, ನಾನು ಪ್ರಿಯಾ. ಹೇಳಿ ಸಾರ್, ಏನು ಸಹಾಯ ಮಾಡಲಿ?", "roman": "namaskāra, nānu priyā. hēḷi sār, ēnu sahāya māḍali?", "en": "Hello, this is Priya. Tell me, sir, how can I help?" },
+      { "native": "ನಮಸ್ಕಾರ. ನಾನು ಮಿಕ್ಸಿ ಆರ್ಡರ್ ಮಾಡಿದ್ದೆ. ಬಾಕ್ಸ್ ಒಡೆದು ಬಂದಿದೆ, ಜಾರ್ ಕೂಡ ಹಾಳಾಗಿದೆ.", "roman": "namaskāra. nānu miksi ārḍar māḍidde. bāks oḍedu bandide, jār kūḍa hāḷāgide.", "en": "Hello. I'd ordered a mixer. The box came broken and the jar's damaged too." },
+      { "native": "ಕ್ಷಮಿಸಿ ಸಾರ್. ನಿಮ್ಮ ಆರ್ಡರ್ ನಂಬರ್ ಹೇಳ್ತೀರಾ?", "roman": "kṣamisi sār. nimma ārḍar nambar hēḷtīrā?", "en": "I'm sorry, sir. Could you tell me your order number?" },
+      { "native": "ಹೇಳಿದೆನಲ್ಲ, ಮೂರನೇ ಸಲ ಹೇಳ್ತಿದ್ದೀನಿ! ಎಂಟು ಆರು ಏಳು ಎರಡು.", "roman": "hēḷidenalla, mūranē sala hēḷtiddīni! eṇṭu āru ēḷu eraḍu.", "en": "I already told you, this is the third time! Eight six seven two." },
+      { "native": "ಸಾರ್, ದಯವಿಟ್ಟು ಶಾಂತವಾಗಿ ಮಾತಾಡಿ, ನಾನು ಸಹಾಯ ಮಾಡ್ತೀನಿ. ಫೋಟೋ ಪ್ರೂಫ್ ಇದೆಯಾ?", "roman": "sār, dayaviṭṭu shāntavāgi mātāḍi, nānu sahāya māḍtīni. phōṭō prūph ideyā?", "en": "Sir, please stay calm, I'll help you. Do you have photo proof?" },
+      { "native": "ಇದೆ. ನನಗೆ ಎಕ್ಸ್‌ಚೇಂಜ್ ಬೇಡ, ರೀಫಂಡ್ ಬೇಕು.", "roman": "ide. nanage ekschēñj bēḍa, rīphaṇḍ bēku.", "en": "Yes. I don't want an exchange, I want a refund." },
+      { "native": "ಸರಿ ಸಾರ್. ಫೋಟೋ ಮೇಲ್ ಮಾಡಿ. ಎರಡು ದಿನದಲ್ಲಿ ಪಿಕಪ್, ಆಮೇಲೆ ಐದು ದಿನದಲ್ಲಿ ರೀಫಂಡ್ ಆಗುತ್ತೆ.", "roman": "sari sār. phōṭō mēl māḍi. eraḍu dinadalli pikap, āmēle aidu dinadalli rīphaṇḍ āgutte.", "en": "All right, sir. Email the photos. Pickup within two days, then the refund in five days." },
+      { "native": "ಖಂಡಿತ ಆಗುತ್ತಾ? ಹೋದ ಸಲ ಹೀಗೇ ಹೇಳಿ ಏನೂ ಮಾಡ್ಲಿಲ್ಲ.", "roman": "khaṇḍita āguttā? hōda sala hīgē hēḷi ēnū māḍlilla.", "en": "Will it definitely happen? Last time you said the same thing and did nothing." },
+      { "native": "ನಾನು ಭರವಸೆ ಕೊಡ್ತೀನಿ ಸಾರ್. ಕಂಪ್ಲೇಂಟ್ ನಂಬರ್ ಎಸ್‌ಎಂಎಸ್ ಮಾಡ್ತೀನಿ.", "roman": "nānu bharavase koḍtīni sār. kamplēṇṭ nambar esemes māḍtīni.", "en": "You have my word, sir. I'll text you the complaint number." },
+      { "native": "ಏನಂದ್ರು? ರೀಫಂಡ್ ಕೊಡ್ತಾರಂತಾ?", "roman": "ēnandru? rīphaṇḍ koḍtārantā?", "en": "What did they say? Are they giving you a refund?" },
+      { "native": "ಹೂಂ. ಫೋಟೋ ಮೇಲ್ ಮಾಡಿ ಅಂತ ಹೇಳಿದ್ರು. ಎರಡು ದಿನದಲ್ಲಿ ಪಿಕಪ್‌ಗೆ ಬರ್ತೀವಿ ಅಂದ್ರು.", "roman": "hūṃ. phōṭō mēl māḍi anta hēḷidru. eraḍu dinadalli pikapge bartīvi andru.", "en": "Yeah. They told me to email the photos. They said they'd come for the pickup in two days." },
+      { "native": "ನಿಜವಾಗಲೂ ಬರ್ತಾರೋ ಇಲ್ವೋ ನೋಡೋಣ. ಮತ್ತೆ ಕೂಗಾಡಿದ್ಯಾ?", "roman": "nijavāgalū bartārō ilvō nōḍōṇa. matte kūgāḍidyā?", "en": "Let's see whether they actually come. Were you shouting again?" },
+      { "native": "ಸ್ವಲ್ಪ... ಆದ್ರೆ ಆ ಹುಡುಗಿ ಪಾಪ, ಶಾಂತವಾಗಿ ಕೇಳಿಸ್ಕೊಂಡ್ಳು.", "roman": "svalpa... ādre ā huḍugi pāpa, shāntavāgi kēḷiskoṇḍḷu.", "en": "A bit... but that poor girl, she listened to it all calmly." }
+    ]
+  },
+  "culture": "When something goes wrong, the most effective Kannada is calm and a little formal. Start with ನಮಸ್ಕಾರ and ಸಾರ್ / ಮೇಡಂ, explain with ನೀವು and polite forms (ಮಾಡ್ಕೊಡ್ತೀರಾ?, ಸ್ವಲ್ಪ ನೋಡಿ), and save the firmer lines (ಇದು ಸರಿ ಅಲ್ಲ, ನಿಮ್ಮ ಸೀನಿಯರ್ ಹತ್ರ ಮಾತಾಡಬೇಕು) for when you need them. Shouting (ಕೂಗಾಡೋದು) at a junior employee or a delivery boy is frowned on, and a crowd will quickly take sides. Speaking Kannada itself helps: staff and police in Bengaluru often warm up when a newcomer makes the effort, and a shopkeeper who says ಸ್ಟಾಕ್ ಇಲ್ಲ in English might find one in Kannada.\n\nCall-centre staff mix Kannada and English freely (ಆರ್ಡರ್ ನಂಬರ್ ಹೇಳಿ, ರೀಫಂಡ್ ಇನಿಷಿಯೇಟ್ ಮಾಡಿದ್ದೀವಿ), so you can too. For a lost phone in Karnataka, first block the SIM and any cards, then report the loss to the police (online through the state police app, or at the nearest ಠಾಣೆ), because you'll need the report for a duplicate SIM. Beware of 'customer care' numbers found on Google and callers who ask for an OTP: that's the classic ಫ್ರಾಡ್.",
+  "lessons": [
+    {
+      "title": "Saying what went wrong",
+      "new": ["ಹಾಳು", "ರೀಫಂಡ್", "ಎಕ್ಸ್‌ಚೇಂಜ್", "ಸೈಜ್", "ಸ್ಟಾಕ್", "ನಾನು ಆರ್ಡರ್ ಮಾಡಿದ್ದು ಇದಲ್ಲ", "ಬಾಕ್ಸ್ ಒಡೆದು ಬಂದಿದೆ", "ನನಗೆ ರೀಫಂಡ್ ಬೇಕು", "ಇದನ್ನ ಎಕ್ಸ್‌ಚೇಂಜ್ ಮಾಡ್ಕೊಡ್ತೀರಾ?", "ಇದು ಸರಿ ಅಲ್ಲ ಸಾರ್"],
+      "sentences": [
+        { "native": "ನಾನು ಆರ್ಡರ್ ಮಾಡಿದ್ದು ನೀಲಿ, ಬಂದಿದ್ದು ಕಪ್ಪು.", "roman": "nānu ārḍar māḍiddu nīli, bandiddu kappu.", "en": "I ordered blue, and what came is black." },
+        { "native": "ಹಣ್ಣುಗಳು ಎಲ್ಲಾ ಹಾಳಾಗಿ ಬಂದಿವೆ.", "roman": "haṇṇugaḷu ellā hāḷāgi bandive.", "en": "All the fruit arrived spoilt." },
+        { "native": "ಈ ಅಂಗಿ ಸೈಜ್ ಸರಿ ಇಲ್ಲ, ಎಕ್ಸ್‌ಚೇಂಜ್ ಮಾಡ್ಬಹುದಾ?", "roman": "ī aṅgi saij sari illa, ekschēñj māḍbahudā?", "en": "This shirt is the wrong size, can I exchange it?" },
+        { "native": "ದೊಡ್ಡ ಸೈಜ್ ಸ್ಟಾಕ್ ಇಲ್ಲ ಅಂದ್ರೆ ರೀಫಂಡ್ ಕೊಡಿ.", "roman": "doḍḍa saij sṭāk illa andre rīphaṇḍ koḍi.", "en": "If the bigger size isn't in stock, give me a refund." },
+        { "native": "ರೀಫಂಡ್ ಎಷ್ಟು ದಿನದಲ್ಲಿ ಬರುತ್ತೆ?", "roman": "rīphaṇḍ eṣṭu dinadalli barutte?", "en": "How many days will the refund take?" },
+        { "native": "ಬಿಲ್ ಇಲ್ಲದಿದ್ರೆ ಎಕ್ಸ್‌ಚೇಂಜ್ ಆಗಲ್ಲ.", "roman": "bil illadidre ekschēñj āgalla.", "en": "Without the bill, no exchange." },
+        { "native": "ದೋಸೆ ತಣ್ಣಗಾಗಿ ಬಂತು, ಊಟ ಎಲ್ಲಾ ಹಾಳಾಯ್ತು.", "roman": "dōse taṇṇagāgi bantu, ūṭa ellā hāḷāytu.", "en": "The dosa arrived cold, the whole meal was ruined." },
+        { "native": "ಈ ಸೀರೆ ಮತ್ತೆ ಯಾವಾಗ ಸ್ಟಾಕ್‌ಗೆ ಬರುತ್ತೆ?", "roman": "ī sīre matte yāvāga sṭākge barutte?", "en": "When will this sari be back in stock?" },
+        { "native": "ಎರಡು ಸಲ ಎಕ್ಸ್‌ಚೇಂಜ್ ಮಾಡಿದ್ರೂ ಸೈಜ್ ಸರಿ ಬರ್ತಿಲ್ಲ.", "roman": "eraḍu sala ekschēñj māḍidrū saij sari bartilla.", "en": "Even after exchanging it twice, the size still isn't right." }
+      ]
+    },
+    {
+      "title": "Passing on what they told you",
+      "tip": { "title": "They said…: ಅಂತ ಹೇಳಿದ್ರು / ಅಂದ್ರು", "body": "- Quote their words + **ಅಂತ** + ಹೇಳು: ನಾಳೆ ಕಳಿಸ್ತೀವಿ ಅಂತ ಹೇಳಿದ್ರು 'they said they'd send it tomorrow'.\n- Keep **their** verb: ಬರ್ತೀನಿ ಅಂತ ಹೇಳಿದ = he said *he'd* come.\n- Short: **ಅಂದ / ಅಂದ್ಳು / ಅಂದ್ರು** 'he / she / they said'; ಏನಂದ್ರು? 'what did they say?'\n- No source, just hearsay: **-ಅಂತೆ**: ಬರುತ್ತಂತೆ 'apparently it's coming'.", "pattern": "\"…\" + ಅಂತ + ಹೇಳಿದ್ರು", "grammar": 0 },
+      "new": ["ಕಸ್ಟಮರ್ ಕೇರ್", "ಕಂಪ್ಲೇಂಟ್", "ವಿವರ", "ವಿಚಾರಿಸು", "ಭರವಸೆ", "ಅವರು ಏನಂದ್ರು?", "ಎರಡು ದಿನದಲ್ಲಿ ಸರಿ ಮಾಡ್ತೀವಿ ಅಂತ ಹೇಳಿದ್ರು"],
+      "sentences": [
+        { "native": "ಕಸ್ಟಮರ್ ಕೇರ್‌ಗೆ ಫೋನ್ ಮಾಡಿದ್ದೆ, ನಾಳೆ ಕಳಿಸ್ತೀವಿ ಅಂತ ಹೇಳಿದ್ರು.", "roman": "kasṭamar kērge phōn māḍidde, nāḷe kaḷistīvi anta hēḷidru.", "en": "I called customer care, they said they'd send it tomorrow.", "focus": "ಅಂತ", "wrong": ["ಅಂತೆ|ante", "ಆದ್ರೆ|ādre"] },
+        { "native": "ಅವನು ಸಾರಿ ಅಂದ, ಆದ್ರೆ ದುಡ್ಡು ವಾಪಸ್ ಕೊಡಲಿಲ್ಲ.", "roman": "avanu sāri anda, ādre duḍḍu vāpas koḍalilla.", "en": "He said sorry, but he didn't give the money back.", "focus": "ಅಂದ", "wrong": ["ಅಂತ|anta", "ಅಂದ್ರೆ|andre"] },
+        { "native": "ಕಂಪ್ಲೇಂಟ್ ಕೊಟ್ಟಾಗ ವಿಚಾರಿಸ್ತೀವಿ ಅಂತ ಹೇಳಿದ್ರು.", "roman": "kamplēṇṭ koṭṭāga vichāristīvi anta hēḷidru.", "en": "When I complained, they said they'd look into it.", "focus": "ವಿಚಾರಿಸ್ತೀವಿ", "wrong": ["ವಿಚಾರಿಸಿದ್ವಿ|vichārisidvi", "ವಿಚಾರಿಸು|vichārisu"] },
+        { "native": "ಅವರು ಏನಂದ್ರು ಅಂತ ವಿವರವಾಗಿ ಹೇಳು.", "roman": "avaru ēnandru anta vivaravāgi hēḷu.", "en": "Tell me in detail what they said." },
+        { "native": "ಪಾರ್ಸಲ್ ನಾಳೆ ಬರುತ್ತಂತೆ.", "roman": "pārsal nāḷe baruttante.", "en": "Apparently the parcel is coming tomorrow.", "focus": "ಬರುತ್ತಂತೆ", "wrong": ["ಬರುತ್ತಾ|baruttā", "ಬಂತು|bantu"] },
+        { "native": "ನಿಮಗೆ ಸಂಜೆ ಫೋನ್ ಮಾಡ್ತೀನಿ ಅಂತ ಮ್ಯಾನೇಜರ್ ಭರವಸೆ ಕೊಟ್ರು.", "roman": "nimage sañje phōn māḍtīni anta myānējar bharavase koṭru.", "en": "The manager promised he'd call you in the evening.", "focus": "ಮಾಡ್ತೀನಿ", "wrong": ["ಮಾಡ್ತಾರೆ|māḍtāre", "ಮಾಡಿದೆ|māḍide"] },
+        { "native": "ಕಂಪ್ಲೇಂಟ್ ನಂಬರ್ ಮತ್ತು ವಿವರ ಮೆಸೇಜ್ ಮಾಡ್ತೀವಿ ಅಂದ್ರು.", "roman": "kamplēṇṭ nambar mattu vivara mesēj māḍtīvi andru.", "en": "They said they'd message me the complaint number and the details.", "focus": "ಅಂದ್ರು", "wrong": ["ಅಂದ್ರೆ|andre", "ಅಂತೆ|ante"] },
+        { "native": "ನೀವು ಹೇಳಿದ ಹಾಗೆ ಕಸ್ಟಮರ್ ಕೇರ್‌ಗೆ ಮೇಲ್ ಮಾಡಿದೆ.", "roman": "nīvu hēḷida hāge kasṭamar kērge mēl māḍide.", "en": "I emailed customer care, as you said." },
+        { "native": "ಅವರು ಹೇಳಿದ್ದು ಏನಂದ್ರೆ, ಈ ವಾರ ರೀಫಂಡ್ ಆಗಲ್ಲ.", "roman": "avaru hēḷiddu ēnandre, ī vāra rīphaṇḍ āgalla.", "en": "What they said was, the refund won't happen this week." },
+        { "native": "ಭರವಸೆ ಕೊಟ್ರು, ಆದ್ರೆ ಯಾರೂ ಬರಲಿಲ್ಲ.", "roman": "bharavase koṭru, ādre yārū baralilla.", "en": "They promised, but nobody came." }
+      ]
+    },
+    {
+      "title": "They told me to wait",
+      "tip": { "title": "Told me to…: imperative + ಅಂತ ಹೇಳಿದ್ರು", "body": "- Quote the command: **ಕಾಯಿರಿ** ಅಂತ ಹೇಳಿದ್ರು 'they told me to wait'; **ಬಾ** ಅಂತ ಹೇಳಿದ 'he told me to come'.\n- Not to: **ಮಾಡಬೇಡಿ** ಅಂತ ಹೇಳಿದ್ರು.\n- Shorter: dative + **-ಓಕೆ** ಹೇಳು: ನನಗೆ ಬರೋಕೆ ಹೇಳಿದ್ರು.\n- 'Let him do it': **-ಲಿ** ಅಂತ ಹೇಳು: ಅವನೇ ಮಾಡಲಿ ಅಂತ ಹೇಳು.", "pattern": "command + ಅಂತ + ಹೇಳಿದ್ರು", "grammar": 1 },
+      "new": ["ಪ್ರೂಫ್", "ಮತ್ತೊಮ್ಮೆ", "ಖಾತ್ರಿ", "ಕಾಯಿರಿ ಅಂತ ಹೇಳಿದ್ರು"],
+      "sentences": [
+        { "native": "ಫೋಟೋ ಪ್ರೂಫ್ ಕಳಿಸಿ ಅಂತ ಹೇಳಿದ್ರು.", "roman": "phōṭō prūph kaḷisi anta hēḷidru.", "en": "They told me to send photo proof.", "focus": "ಕಳಿಸಿ", "wrong": ["ಕಳಿಸ್ತೀನಿ|kaḷistīni", "ಕಳಿಸಿದೆ|kaḷiside"] },
+        { "native": "ಅರ್ಧ ಗಂಟೆ ಆದ್ಮೇಲೆ ಮತ್ತೊಮ್ಮೆ ಫೋನ್ ಮಾಡಿ ಅಂದ್ರು.", "roman": "ardha gaṇṭe ādmēle mattomme phōn māḍi andru.", "en": "They told me to call again after half an hour.", "focus": "ಮಾಡಿ", "wrong": ["ಮಾಡ್ತೀನಿ|māḍtīni", "ಮಾಡಿದೆ|māḍide"] },
+        { "native": "ಮ್ಯಾನೇಜರ್ ನನಗೆ ಬಿಲ್ ತರೋಕೆ ಹೇಳಿದ್ರು.", "roman": "myānējar nanage bil tarōke hēḷidru.", "en": "The manager told me to bring the bill.", "focus": "ತರೋಕೆ", "wrong": ["ತಂದು|tandu", "ತರ್ತೀನಿ|tartīni"] },
+        { "native": "ಚಿಂತೆ ಮಾಡಬೇಡಿ ಅಂತ ಹೇಳಿದ್ರು, ಆದ್ರೆ ನನಗೆ ಖಾತ್ರಿ ಇಲ್ಲ.", "roman": "chinte māḍabēḍi anta hēḷidru, ādre nanage khātri illa.", "en": "They told me not to worry, but I'm not sure.", "focus": "ಮಾಡಬೇಡಿ", "wrong": ["ಮಾಡಿ|māḍi", "ಮಾಡ್ತೀನಿ|māḍtīni"] },
+        { "native": "ಅವನಿಗೆ ನನಗೆ ಫೋನ್ ಮಾಡು ಅಂತ ಹೇಳು.", "roman": "avanige nanage phōn māḍu anta hēḷu.", "en": "Tell him to call me.", "focus": "ಮಾಡು", "wrong": ["ಮಾಡ್ತೀನಿ|māḍtīni", "ಮಾಡಿದ|māḍida"] },
+        { "native": "ಅಮ್ಮ ನನಗೆ ರಾತ್ರಿ ಬೇಗ ಮನೆಗೆ ಬರೋಕೆ ಹೇಳಿದ್ದಾರೆ.", "roman": "amma nanage rātri bēga manege barōke hēḷiddāre.", "en": "Mum has told me to come home early tonight.", "focus": "ಬರೋಕೆ", "wrong": ["ಬಂದು|bandu", "ಬರ್ತೀನಿ|bartīni"] },
+        { "native": "ಅವನೇ ಬಂದು ಸರಿ ಮಾಡಲಿ ಅಂತ ಹೇಳಿ.", "roman": "avanē bandu sari māḍali anta hēḷi.", "en": "Tell him to come and fix it himself.", "focus": "ಮಾಡಲಿ", "wrong": ["ಮಾಡಿದ|māḍida", "ಮಾಡ್ತೀನಿ|māḍtīni"] },
+        { "native": "ನಿಮಗೆ ಖಾತ್ರಿ ಇದೆಯಾ? ಮತ್ತೊಮ್ಮೆ ನೋಡಿ.", "roman": "nimage khātri ideyā? mattomme nōḍi.", "en": "Are you sure? Please check again." },
+        { "native": "ಐಡಿ ಪ್ರೂಫ್ ಇಲ್ಲದೆ ಸಿಮ್ ಕೊಡಲ್ಲ ಅಂದ್ರು.", "roman": "aiḍi prūph illade sim koḍalla andru.", "en": "They said they won't give a SIM without ID proof." }
+      ]
+    },
+    {
+      "title": "They asked whether…",
+      "tip": { "title": "Asked if… · don't know where…: -ಆ vs -ಓ", "body": "- Reporting a question: keep it + **ಅಂತ ಕೇಳು**: ಬಿಲ್ **ಇದೆಯಾ** ಅಂತ ಕೇಳಿದ್ರು 'they asked if I had the bill'.\n- Hidden question after ಗೊತ್ತಿಲ್ಲ / ನೋಡೋಣ / ಹೇಳಿ: verb + **-ಓ**: ಎಲ್ಲಿ**ದೆಯೋ** ಗೊತ್ತಿಲ್ಲ 'I don't know where it is'.\n- Whether or not: **-ಓ ಇಲ್ವೋ**: ಬರ್ತಾನೋ ಇಲ್ವೋ ಗೊತ್ತಿಲ್ಲ.", "pattern": "verb-ಓ (ಇಲ್ವೋ) + ಗೊತ್ತಿಲ್ಲ", "grammar": 2 },
+      "new": ["ಒಪ್ಪಿಕೊಳ್ಳು", "ವಾರಂಟಿ", "ಬಿಲ್ ಇದೆಯಾ ಅಂತ ಕೇಳಿದ್ರು", "ಸಿಗುತ್ತೋ ಇಲ್ವೋ ಗೊತ್ತಿಲ್ಲ"],
+      "sentences": [
+        { "native": "ವಾರಂಟಿ ಇದೆಯಾ ಅಂತ ಕೇಳಿದೆ, ಇಲ್ಲ ಅಂದ್ರು.", "roman": "vāraṇṭi ideyā anta kēḷide, illa andru.", "en": "I asked if there was a warranty; they said no.", "focus": "ಇದೆಯಾ", "wrong": ["ಇದೆಯೋ|ideyō", "ಇದೆ|ide"] },
+        { "native": "ಫೋನ್ ಎಲ್ಲಿ ಕಳೆದುಕೊಂಡ್ರಿ ಅಂತ ಪೊಲೀಸರು ಕೇಳಿದ್ರು.", "roman": "phōn elli kaḷedukoṇḍri anta polīsaru kēḷidru.", "en": "The police asked where I had lost the phone.", "focus": "ಕೇಳಿದ್ರು", "wrong": ["ಹೇಳಿದ್ರು|hēḷidru", "ಕೇಳ್ತೀನಿ|kēḷtīni"] },
+        { "native": "ನನ್ನ ಪಾರ್ಸಲ್ ಎಲ್ಲಿದೆಯೋ ಗೊತ್ತಿಲ್ಲ.", "roman": "nanna pārsal ellideyō gottilla.", "en": "I don't know where my parcel is.", "focus": "ಎಲ್ಲಿದೆಯೋ", "wrong": ["ಎಲ್ಲಿದೆ|ellide", "ಎಲ್ಲಿದೆಯಾ|ellideyā"] },
+        { "native": "ಅವರು ತಪ್ಪು ಒಪ್ಪಿಕೊಳ್ತಾರೋ ಇಲ್ವೋ ಗೊತ್ತಿಲ್ಲ.", "roman": "avaru tappu oppikoḷtārō ilvō gottilla.", "en": "I don't know whether they'll admit their mistake or not.", "focus": "ಒಪ್ಪಿಕೊಳ್ತಾರೋ", "wrong": ["ಒಪ್ಪಿಕೊಳ್ತಾರಾ|oppikoḷtārā", "ಒಪ್ಪಿಕೊಂಡ್ರು|oppikoṇḍru"] },
+        { "native": "ರೀಫಂಡ್ ಯಾವಾಗ ಬರುತ್ತೆ ಅಂತ ಕೇಳು.", "roman": "rīphaṇḍ yāvāga barutte anta kēḷu.", "en": "Ask when the refund will come.", "focus": "ಕೇಳು", "wrong": ["ಹೇಳು|hēḷu", "ಕೇಳಿದೆ|kēḷide"] },
+        { "native": "ಎಷ್ಟು ಆಗುತ್ತೋ ಮೊದಲೇ ಹೇಳಿ.", "roman": "eṣṭu āguttō modalē hēḷi.", "en": "Tell me first how much it'll come to.", "focus": "ಆಗುತ್ತೋ", "wrong": ["ಆಗುತ್ತಾ|āguttā", "ಆಯ್ತು|āytu"] },
+        { "native": "ವಾರಂಟಿಯಲ್ಲಿ ಇದು ಬರುತ್ತೋ ಇಲ್ವೋ ಕೇಳಿ ನೋಡಿ.", "roman": "vāraṇṭiyalli idu baruttō ilvō kēḷi nōḍi.", "en": "Ask and see whether this is covered by the warranty.", "focus": "ಬರುತ್ತೋ", "wrong": ["ಬರುತ್ತಾ|baruttā", "ಬಂತು|bantu"] },
+        { "native": "ಬಿಲ್ ಇದೆಯಾ ಅಂತ ಕೇಳಿದ್ರು, ನಾನು ಮನೆಯಲ್ಲೇ ಬಿಟ್ಟಿದ್ದೆ.", "roman": "bil ideyā anta kēḷidru, nānu maneyallē biṭṭidde.", "en": "They asked whether I had the bill, and I had left it at home." },
+        { "native": "ಕಂಪನಿಯವರು ತಪ್ಪು ಒಪ್ಪಿಕೊಂಡು ದುಡ್ಡು ವಾಪಸ್ ಕೊಟ್ರು.", "roman": "kampaniyavaru tappu oppikoṇḍu duḍḍu vāpas koṭru.", "en": "The company admitted their mistake and gave the money back." }
+      ]
+    },
+    {
+      "title": "A lost phone and the police",
+      "new": ["ಕದಿ", "ಪರ್ಸ್", "ಬ್ಲಾಕ್", "ಎಫ್‌ಐಆರ್", "ಠಾಣೆ", "ನನ್ನ ಫೋನ್ ಕಳೆದು ಹೋಗಿದೆ"],
+      "sentences": [
+        { "native": "ಬಸ್ಸಲ್ಲಿ ಯಾರೋ ನನ್ನ ಪರ್ಸ್ ಕದ್ರು.", "roman": "bassalli yārō nanna pars kadru.", "en": "Someone stole my wallet on the bus." },
+        { "native": "ಮೊದಲು ಸಿಮ್ ಬ್ಲಾಕ್ ಮಾಡಿಸಿ.", "roman": "modalu sim blāk māḍisi.", "en": "First, get the SIM blocked." },
+        { "native": "ಕಾರ್ಡ್ ಕೂಡ ಪರ್ಸಲ್ಲಿತ್ತು, ಬ್ಯಾಂಕಿಗೆ ಫೋನ್ ಮಾಡಿ ಬ್ಲಾಕ್ ಮಾಡಿಸಿದೆ.", "roman": "kārḍ kūḍa parsallittu, byāṅkige phōn māḍi blāk māḍiside.", "en": "My card was in the wallet too; I called the bank and had it blocked." },
+        { "native": "ಹತ್ತಿರದ ಪೊಲೀಸ್ ಠಾಣೆ ಎಲ್ಲಿದೆ?", "roman": "hattirada polīs ṭhāṇe ellide?", "en": "Where's the nearest police station?" },
+        { "native": "ಠಾಣೆಯಲ್ಲಿ ಎಫ್‌ಐಆರ್ ಹಾಕಿಸ್ಕೊಂಡು ಬಂದೆ.", "roman": "ṭhāṇeyalli ephaiār hākiskoṇḍu bande.", "en": "I went to the station and got an FIR registered." },
+        { "native": "ಫೋನ್ ಎಲ್ಲಿ ಕಳೆದು ಹೋಯ್ತೋ ನೆನಪಿಲ್ಲ.", "roman": "phōn elli kaḷedu hōytō nenapilla.", "en": "I don't remember where I lost the phone.", "focus": "ಹೋಯ್ತೋ", "wrong": ["ಹೋಯ್ತಾ|hōytā", "ಹೋಯ್ತು|hōytu"] },
+        { "native": "ಆಟೋದಲ್ಲಿ ಬಿಟ್ಟಿರಬಹುದು, ಡ್ರೈವರ್‌ಗೆ ಫೋನ್ ಮಾಡಿ ನೋಡು.", "roman": "āṭōdalli biṭṭirabahudu, ḍraivarge phōn māḍi nōḍu.", "en": "Maybe you left it in the auto, try calling the driver." },
+        { "native": "ಯಾರೂ ಕದ್ದಿಲ್ಲ, ನೀನೇ ಎಲ್ಲೋ ಇಟ್ಟಿದ್ದೀಯ!", "roman": "yārū kaddilla, nīnē ellō iṭṭiddīya!", "en": "Nobody's stolen it, you've put it somewhere yourself!" },
+        { "native": "ನನ್ನ ಫೋನ್ ಕಳೆದು ಹೋಗಿದೆ, ನಿನ್ನ ಫೋನ್ ಸ್ವಲ್ಪ ಕೊಡ್ತೀಯಾ?", "roman": "nanna phōn kaḷedu hōgide, ninna phōn svalpa koḍtīyā?", "en": "I've lost my phone, can I borrow yours for a minute?" }
+      ]
+    },
+    {
+      "title": "Staying calm and getting it sorted",
+      "new": ["ಶಾಂತವಾಗಿ", "ಕೂಗು", "ಕೇಳಿಸಿಕೊಳ್ಳು", "ಸೀನಿಯರ್", "ಫ್ರಾಡ್", "ನಷ್ಟ", "ಪರಿಹಾರ", "ದಯವಿಟ್ಟು ಶಾಂತವಾಗಿ ಮಾತಾಡಿ", "ನಿಮ್ಮ ಸೀನಿಯರ್ ಹತ್ರ ಮಾತಾಡಬೇಕು", "ಮೊದಲು ನಾನು ಹೇಳೋದು ಕೇಳಿಸ್ಕೊಳ್ಳಿ"],
+      "sentences": [
+        { "native": "ಕೂಗಬೇಡಿ, ಶಾಂತವಾಗಿ ಮಾತಾಡೋಣ.", "roman": "kūgabēḍi, shāntavāgi mātāḍōṇa.", "en": "Don't shout, let's talk calmly." },
+        { "native": "ನೀವು ಕೂಗಿದ್ರೆ ಏನೂ ಪರಿಹಾರ ಸಿಗಲ್ಲ.", "roman": "nīvu kūgidre ēnū parihāra sigalla.", "en": "Shouting won't solve anything." },
+        { "native": "ಇದು ಮೋಸ! ಫೋಟೋದಲ್ಲಿ ಬೇರೆ, ಬಂದಿದ್ದು ಬೇರೆ.", "roman": "idu mōsa! phōṭōdalli bēre, bandiddu bēre.", "en": "This is a con! The photo showed one thing and something else came." },
+        { "native": "ನನಗೆ ಎರಡು ಸಾವಿರ ನಷ್ಟ ಆಯ್ತು.", "roman": "nanage eraḍu sāvira naṣṭa āytu.", "en": "I lost two thousand rupees." },
+        { "native": "ನಿಮ್ಮ ಸೀನಿಯರ್ ಏನು ಪರಿಹಾರ ಕೊಡ್ತಾರೆ ಅಂತ ಕೇಳಿ.", "roman": "nimma sīniyar ēnu parihāra koḍtāre anta kēḷi.", "en": "Ask your senior what solution he can offer." },
+        { "native": "ಅಲ್ಲಿ ಯಾರೂ ನನ್ನ ಮಾತು ಕೇಳಿಸ್ಕೊಳ್ತಿಲ್ಲ.", "roman": "alli yārū nanna mātu kēḷiskoḷtilla.", "en": "Nobody there is listening to me." },
+        { "native": "ನಿಮ್ಮ ತಪ್ಪಲ್ಲ ಅಂತ ಗೊತ್ತು, ಆದ್ರೆ ನನಗೆ ಪರಿಹಾರ ಬೇಕು.", "roman": "nimma tappalla anta gottu, ādre nanage parihāra bēku.", "en": "I know it's not your fault, but I need a solution." },
+        { "native": "ಇದು ಫ್ರಾಡ್ ಅನ್ನಿಸುತ್ತೆ, ಪೊಲೀಸರಿಗೆ ದೂರು ಕೊಡ್ತೀನಿ.", "roman": "idu phrāḍ annisutte, polīsarige dūru koḍtīni.", "en": "This looks like a scam, I'm going to the police." },
+        { "native": "ಐದು ದಿನದಲ್ಲಿ ರೀಫಂಡ್ ಆಗದಿದ್ರೆ ನಿಮ್ಮ ಸೀನಿಯರ್‌ಗೆ ಮೇಲ್ ಮಾಡ್ತೀನಿ.", "roman": "aidu dinadalli rīphaṇḍ āgadidre nimma sīniyarge mēl māḍtīni.", "en": "If the refund doesn't come in five days, I'll email your senior." },
+        { "native": "ಅಷ್ಟು ಜೋರಾಗಿ ಕೂಗಬೇಡ, ಎಲ್ಲರೂ ನೋಡ್ತಿದ್ದಾರೆ.", "roman": "aṣṭu jōrāgi kūgabēḍa, ellarū nōḍtiddāre.", "en": "Don't shout so loudly, everyone's watching." }
+      ]
+    }
+  ]
+}

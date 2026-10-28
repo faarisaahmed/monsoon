@@ -1,0 +1,221 @@
+{
+  "id": 21,
+  "title": "Making plans with friends",
+  "goal": "Ask a friend if they're free, suggest what to do, fix a time and place, say you're on your way or running late, and cancel without upsetting anyone.",
+  "intro": "Welcome to Part 2. From here on the course is about the Kannada you'll use with friends and around town, and it starts with the most common conversation of all: **making plans**. Are you free? Shall we go out? Where shall we meet? I'm on my way. Sorry, stuck in traffic. Let's do another day.\n\nWith friends your age you'll use **ನೀನು** and the bare verb, and this unit adds the warm extras young Kannadigas use with each other: **ಬಾರೋ / ಬಾರೇ** 'come on', **ಕಣೋ / ಕಣೇ** 'I'm telling you', **ಮಗಾ** 'dude'. You'll also practise **-ಓಣ** 'let's' and **-ಓಣ್ವಾ?** 'shall we?', the ways to say 'I'm off', 'on my way' and 'about to', and the English words everyone in Bengaluru drops into plans: **ಫ್ರೀ, ಪ್ಲಾನ್, ಲೇಟ್, ಟ್ರಾಫಿಕ್, ಕ್ಯಾನ್ಸಲ್**.",
+  "vocab": [
+    { "native": "ಫ್ರೀ", "roman": "phrī", "en": "free (not busy); free of charge", "pos": "adj", "note": "From English. ಫ್ರೀ ಇದ್ದೀಯಾ? 'are you free?'" },
+    { "native": "ಬಿಡುವು", "roman": "biḍuvu", "en": "free time, spare time", "pos": "noun", "note": "The Kannada word: ನಿನಗೆ ಬಿಡುವಿದೆಯಾ? 'do you have time?' (a little more careful than ಫ್ರೀ)." },
+    { "native": "ಪ್ಲಾನ್", "roman": "plān", "en": "plan", "pos": "noun", "note": "ಪ್ಲಾನ್ ಮಾಡು 'to plan'. Native word: ಯೋಜನೆ (unit 17), which sounds formal in chat." },
+    { "native": "ಬೋರ್", "roman": "bōr", "en": "bored; boring", "pos": "adj", "note": "From English. ಬೋರ್ ಆಗ್ತಿದೆ 'I'm bored' (lit. it's becoming boring); ಬೋರ್ ಹೊಡೆಸ್ತಿದೆ 'it's so boring'." },
+    { "native": "ಒಟ್ಟಿಗೆ", "roman": "oṭṭige", "en": "together", "pos": "adv" },
+    { "native": "ಎಲ್ಲಾದರೂ", "roman": "ellādarū", "en": "somewhere, anywhere", "pos": "adv", "note": "Spoken ಎಲ್ಲಾದ್ರೂ ellādrū. 'Nowhere' = ಎಲ್ಲೂ + negative: ಎಲ್ಲೂ ಹೋಗಲ್ಲ." },
+    { "native": "ಸುತ್ತಾಡು", "roman": "suttāḍu", "en": "to go around, wander about, hang out", "pos": "verb", "note": "ಊರು ಸುತ್ತಾಡು 'to go around town'." },
+    { "native": "ಮಾಲ್", "roman": "māl", "en": "shopping mall", "pos": "noun" },
+    { "native": "ಗೇಟ್", "roman": "gēṭ", "en": "gate, entrance", "pos": "noun", "note": "Metro stations and malls have numbered gates: ಗೇಟ್ ನಂಬರ್ ಎರಡು." },
+    { "native": "ಎದುರು", "roman": "eduru", "en": "opposite, facing, in front of", "pos": "postp", "note": "After the noun: ಮಾಲ್ ಎದುರು 'opposite the mall'." },
+    { "native": "ಪಕ್ಕಾ", "roman": "pakkā", "en": "definite, for sure; definitely", "pos": "adj", "note": "ಪಕ್ಕಾ? 'for sure?' — ಪಕ್ಕಾ! 'definitely!'" },
+    { "native": "ಹೊತ್ತಿಗೆ", "roman": "hottige", "en": "by, around (a time)", "pos": "postp", "note": "From ಹೊತ್ತು 'time': ಏಳು ಗಂಟೆ ಹೊತ್ತಿಗೆ 'by seven'." },
+    { "native": "ಕರೆದುಕೊಂಡು ಬರು", "roman": "karedukoṇḍu baru", "en": "to bring (a person) along", "pos": "verb", "note": "Spoken ಕರ್ಕೊಂಡು ಬಾ 'bring (them) along'. For things use ತರು." },
+    { "native": "ಫ್ರೆಂಡ್", "roman": "phreṇḍ", "en": "friend", "pos": "noun", "note": "From English, the everyday word for a friend of either sex; plural ಫ್ರೆಂಡ್ಸ್. Kannada: ಸ್ನೇಹಿತ (m), ಸ್ನೇಹಿತೆ (f), ಗೆಳೆಯ / ಗೆಳತಿ." },
+    { "native": "ಮಗಾ", "roman": "magā", "en": "dude, mate, bro (slang)", "pos": "interj", "note": "Literally 'son!'. Bengaluru slang between young men; joking, warm, and too familiar for anyone else." },
+    { "native": "ಕಣೋ", "roman": "kaṇō", "en": "(friendly emphasis) I'm telling you, man", "pos": "particle", "note": "At the end of a statement to a male friend: ಹೌದು ಕಣೋ 'yeah, man'. To a woman ಕಣೇ; more respectful ಕಣ್ರೀ." },
+    { "native": "ಅಂಕಲ್", "roman": "aṅkal", "en": "uncle (polite address to an older man, e.g. a friend's father)", "pos": "noun", "note": "From English. A woman of that age is ಆಂಟಿ āṇṭi. Both always get ನೀವು forms." },
+    { "native": "ನೆನಪಿಸು", "roman": "nenapisu", "en": "to remind", "pos": "verb", "note": "The person reminded is in the dative: ನನಗೆ ನೆನಪಿಸು 'remind me'. Spoken also ನೆನಪು ಮಾಡು." },
+    { "native": "ಹೊರಡು", "roman": "horaḍu", "en": "to set off, leave", "pos": "verb", "note": "Past ಹೊರಟ- (irregular): ಹೊರಟೆ 'I left / I'm off'. Present ಹೊರಡ್ತೀನಿ." },
+    { "native": "ಇನ್ನೇನು", "roman": "innēnu", "en": "any moment now, (just) about to", "pos": "adv", "note": "With the future: ಇನ್ನೇನು ಬರ್ತಾನೆ 'he'll be here any minute'." },
+    { "native": "ಹೇಗೂ", "roman": "hēgū", "en": "anyway, in any case (since)", "pos": "adv", "note": "ಹೇಗೂ ನಾಳೆ ರಜೆ 'tomorrow's a holiday anyway'." },
+    { "native": "ಲೇಟ್", "roman": "lēṭ", "en": "late", "pos": "adj", "note": "From English. ಲೇಟ್ ಆಗುತ್ತೆ 'I'll be late'; ಲೇಟಾಗಿ 'late (adv)'. Kannada: ತಡ." },
+    { "native": "ಟ್ರಾಫಿಕ್", "roman": "ṭrāphik", "en": "traffic", "pos": "noun", "note": "Spoken with locative: ಟ್ರಾಫಿಕ್ಕಲ್ಲಿ 'in traffic'." },
+    { "native": "ಸಿಕ್ಕಿಹಾಕಿಕೊಳ್ಳು", "roman": "sikkihākikoḷḷu", "en": "to get stuck, get caught", "pos": "verb", "note": "Spoken ಸಿಕ್ಕಾಕೊಳ್ಳು: ಸಿಕ್ಕಾಕೊಂಡಿದ್ದೀನಿ 'I'm stuck'." },
+    { "native": "ಕ್ಯಾನ್ಸಲ್", "roman": "kyānsal", "en": "cancel; cancelled", "pos": "verb", "note": "ಕ್ಯಾನ್ಸಲ್ ಮಾಡು 'to cancel', ಕ್ಯಾನ್ಸಲ್ ಆಯ್ತು 'it got cancelled'. Kannada: ರದ್ದು." },
+    { "native": "ಅರ್ಜೆಂಟ್", "roman": "arjeṇṭ", "en": "urgent", "pos": "adj", "note": "From English. Kannada: ತುರ್ತು." },
+    { "native": "ಮುಂದೂಡು", "roman": "mundūḍu", "en": "to postpone, put off", "pos": "verb", "note": "Spoken also ಪೋಸ್ಟ್‌ಪೋನ್ ಮಾಡು." }
+  ],
+  "phrases": [
+    { "native": "ಇವತ್ತು ಸಂಜೆ ಫ್ರೀ ಇದ್ದೀಯಾ?", "roman": "ivattu sañje phrī iddīyā?", "en": "Are you free this evening? (informal)", "note": "Polite: ಫ್ರೀ ಇದ್ದೀರಾ?" },
+    { "native": "ಎಲ್ಲಾದ್ರೂ ಹೋಗೋಣ್ವಾ?", "roman": "ellādrū hōgōṇvā?", "en": "Shall we go somewhere?" },
+    { "native": "ಏನ್ ಪ್ಲಾನ್?", "roman": "ēn plān?", "en": "What's the plan?" },
+    { "native": "ಎಲ್ಲಿ ಸಿಗೋಣ?", "roman": "elli sigōṇa?", "en": "Where shall we meet?" },
+    { "native": "ಮೆಟ್ರೋ ಸ್ಟೇಷನ್ ಗೇಟ್ ಹತ್ರ ಏಳು ಗಂಟೆಗೆ ಸಿಗೋಣ", "roman": "meṭrō sṭēshan gēṭ hatra ēḷu gaṇṭege sigōṇa", "en": "Let's meet at seven at the metro station gate." },
+    { "native": "ಪಕ್ಕಾ ಬರ್ತೀಯಾ?", "roman": "pakkā bartīyā?", "en": "You're definitely coming? (informal)" },
+    { "native": "ಹೊರಟೆ!", "roman": "horaṭe!", "en": "I'm off! I'm leaving now!", "note": "Literally 'I left'. Said as you walk out of the door." },
+    { "native": "ದಾರಿಯಲ್ಲಿದ್ದೀನಿ", "roman": "dāriyalliddīni", "en": "I'm on my way.", "note": "Spoken fast: ದಾರೀಲಿದ್ದೀನಿ." },
+    { "native": "ಇನ್ನೇನು ತಲುಪ್ತೀನಿ", "roman": "innēnu taluptīni", "en": "I'm nearly there. (I'll be there any minute)" },
+    { "native": "ಸಾರಿ, ಸ್ವಲ್ಪ ಲೇಟ್ ಆಗುತ್ತೆ", "roman": "sāri, svalpa lēṭ āgutte", "en": "Sorry, I'll be a bit late." },
+    { "native": "ಟ್ರಾಫಿಕ್ಕಲ್ಲಿ ಸಿಕ್ಕಾಕೊಂಡಿದ್ದೀನಿ", "roman": "ṭrāphikkalli sikkākoṇḍiddīni", "en": "I'm stuck in traffic." },
+    { "native": "ಇವತ್ತು ಆಗಲ್ಲ ಕಣೋ, ಇನ್ನೊಂದು ದಿನ ಮಾಡೋಣ", "roman": "ivattu āgalla kaṇō, innondu dina māḍōṇa", "en": "Can't make it today, man, let's do another day.", "note": "To a woman: ಕಣೇ." },
+    { "native": "ಏನೋ ಅರ್ಜೆಂಟ್ ಕೆಲಸ ಬಂತು", "roman": "ēnō arjeṇṭ kelasa bantu", "en": "Something urgent came up." },
+    { "native": "ಬಾರೋ, ಬೇಗ!", "roman": "bārō, bēga!", "en": "Come on, hurry up! (to a male friend)", "note": "To a female friend: ಬಾರೇ, ಬೇಗ!" },
+    { "native": "ನಾಳೆ ನನಗೆ ನೆನಪಿಸು", "roman": "nāḷe nanage nenapisu", "en": "Remind me tomorrow. (informal)" }
+  ],
+  "grammar": [
+    {
+      "title": "Let's… and shall we…?",
+      "body": "**Let's** = verb stem + **-ಓಣ** (unit 11): ಹೋಗೋಣ 'let's go', ತಿನ್ನೋಣ 'let's eat', ಸಿಗೋಣ 'let's meet', ಹೊರಡೋಣ 'let's leave'. Verbs in -ಇ/-ಎ add -ಯೋಣ: ಕುಡಿಯೋಣ 'let's drink'. It always includes you, so it's the natural way to suggest anything to a friend or a group.\n\n**Shall we?** = add the question **-ಆ**: **-ಓಣ್ವಾ?** (careful ಹೋಗೋಣವಾ?): ಸಿನಿಮಾಗೆ ಹೋಗೋಣ್ವಾ? 'shall we go to a film?'\n\n**Where / when / what shall we...?** = question word + -ಓಣ, with no -ಆ: ಎಲ್ಲಿ ಸಿಗೋಣ? 'where shall we meet?', ಎಷ್ಟು ಗಂಟೆಗೆ ಹೊರಡೋಣ? 'what time shall we leave?', ಏನು ಮಾಡೋಣ? 'what shall we do?'\n\n**Come on, let's...** = ಬಾ (or ನಡಿ 'move!') + -ಓಣ: ಬಾ, ಹೋಗೋಣ; ನಡಿ, ತಿನ್ನೋಣ.\n\n**Let's not** = verbal noun + **ಬೇಡ**: ಇವತ್ತು ಹೋಗೋದು ಬೇಡ 'let's not go today' (lit. going is not wanted). Don't say ಹೋಗೋಣ ಇಲ್ಲ.\n\n**Why don't we...?** = ಯಾಕೆ + infinitive + **-ಬಾರದು**: ಮೈಸೂರಿಗೆ ಯಾಕೆ ಹೋಗಬಾರದು? 'why don't we go to Mysuru?' (lit. why shouldn't we go?).\n\n**Maybe / let's see** = **ನೋಡೋಣ**. Be warned: a friend who answers ನೋಡೋಣ is often politely saying no.\n\n**Saying yes**: ಸರಿ, ಓಕೆ, ಆಯ್ತು, ಹೋಗೋಣ, or ಪಕ್ಕಾ! 'definitely!'",
+      "examples": [
+        { "native": "ಶನಿವಾರ ಎಲ್ಲಾದ್ರೂ ಹೋಗೋಣ್ವಾ?", "roman": "shanivāra ellādrū hōgōṇvā?", "en": "Shall we go somewhere on Saturday?" },
+        { "native": "ಎಷ್ಟು ಗಂಟೆಗೆ ಹೊರಡೋಣ?", "roman": "eṣṭu gaṇṭege horaḍōṇa?", "en": "What time shall we leave?" },
+        { "native": "ಬಾ, ಒಂದು ಕಾಫಿ ಕುಡಿಯೋಣ", "roman": "bā, ondu kāphi kuḍiyōṇa", "en": "Come on, let's have a coffee." },
+        { "native": "ಇವತ್ತು ಹೊರಗೆ ಹೋಗೋದು ಬೇಡ, ಮಳೆ ಬರ್ತಿದೆ", "roman": "ivattu horage hōgōdu bēḍa, maḷe bartide", "en": "Let's not go out today, it's raining." },
+        { "native": "ನಂದಿ ಬೆಟ್ಟಕ್ಕೆ ಯಾಕೆ ಹೋಗಬಾರದು?", "roman": "nandi beṭṭakke yāke hōgabāradu?", "en": "Why don't we go to Nandi Hills?" }
+      ]
+    },
+    {
+      "title": "Talking to friends: ನೀನು commands, -ಓ / -ಏ and ಕಣೋ",
+      "body": "With friends you use the **ನೀನು** forms, and the command is the bare verb stem (unit 11): ಬಾ 'come', ಹೋಗು 'go', ಹೇಳು 'tell', ನೋಡು 'look', ಇರು 'wait, hang on'. 'Don't' = infinitive + **-ಬೇಡ**: ಲೇಟ್ ಮಾಡಬೇಡ 'don't be late', ಮರೀಬೇಡ 'don't forget' (careful ಮರೆಯಬೇಡ).\n\n**The friendly -ಓ / -ಏ.** Young people add **-ಓ** when talking to a man and **-ಏ** to a woman. It replaces the final -ಉ, and ಬಾ adds ರ:\nಬಾ → **ಬಾರೋ** / **ಬಾರೇ** 'come on'\nಹೇಳು → **ಹೇಳೋ** / **ಹೇಳೇ** 'tell me'\nಹೋಗು → **ಹೋಗೋ** / **ಹೋಗೇ** 'go on; get lost (joking)'\nTo a group of friends: **-ರೋ**: ಬನ್ರೋ 'come on, guys'. These sound warm between friends and rude to anyone else.\n\n**ಕಣೋ / ಕಣೇ** at the end of a statement means 'I'm telling you' and makes it friendlier and more insistent: ಹೌದು ಕಣೋ 'yeah, man', ಬರ್ತೀನಿ ಕಣೇ 'I'm coming, I promise'. With an older person who's still informal with you, ಕಣ್ರೀ.\n\n**Just do it**: past participle + **ಬಿಡು** (unit 23 has more): ಹೇಳ್ಬಿಡು 'just tell me', ಬಂದ್ಬಿಡು 'just come over'.\n\n**When to switch back**: a friend's parents, anyone noticeably older, a shopkeeper, a new colleague all get the polite forms: ಬನ್ನಿ, ಹೇಳಿ, ಕೂತ್ಕೊಳ್ಳಿ, ಮರೀಬೇಡಿ.",
+      "examples": [
+        { "native": "ಬಾರೋ, ಸಿನಿಮಾ ಶುರು ಆಯ್ತು!", "roman": "bārō, sinimā shuru āytu!", "en": "Come on, man, the film's started!" },
+        { "native": "ಹೇಳೇ, ಏನು ಪ್ಲಾನ್?", "roman": "hēḷē, ēnu plān?", "en": "Tell me, what's the plan? (to a female friend)" },
+        { "native": "ಹೌದು ಕಣೋ, ನಾನೂ ಬರ್ತೀನಿ", "roman": "haudu kaṇō, nānū bartīni", "en": "Yeah, man, I'm coming too." },
+        { "native": "ಲೇಟ್ ಮಾಡಬೇಡ, ಸಿನಿಮಾ ಆರು ಗಂಟೆಗೆ ಶುರು", "roman": "lēṭ māḍabēḍa, sinimā āru gaṇṭege shuru", "en": "Don't be late, the film starts at six." },
+        { "native": "ಬನ್ರೋ, ಹೋಗೋಣ", "roman": "banrō, hōgōṇa", "en": "Come on, guys, let's go." }
+      ]
+    },
+    {
+      "title": "I'm off, on my way, about to: ಹೊರಟೆ, ದಾರಿಯಲ್ಲಿದ್ದೀನಿ, ಇನ್ನೇನು",
+      "body": "**Leaving this second.** Kannada uses the **past** for something that is starting right now, as if it were already done: **ಹೊರಟೆ!** 'I'm off!', **ಬಂದೆ!** 'coming!' (shouted to someone who's calling you). The present continuous says the same less dramatically: ಹೊರಡ್ತಿದ್ದೀನಿ 'I'm leaving now'.\n\n**Already set off.** Present perfect: ಹೊರಟಿದ್ದೀನಿ 'I've set off', ಇನ್ನೂ ಹೊರಟಿಲ್ಲ 'haven't left yet'.\n\n**On the way.** ದಾರಿಯಲ್ಲಿದ್ದೀನಿ (fast ದಾರೀಲಿದ್ದೀನಿ) 'I'm on the way'; ಬರ್ತಿದ್ದೀನಿ 'I'm coming'. Friends know that ಬರ್ತಿದ್ದೀನಿ sometimes means 'I'm about to get in the shower'.\n\n**Any minute now.** **ಇನ್ನೇನು** + future: ಇನ್ನೇನು ತಲುಪ್ತೀನಿ 'I'll be there any minute', ಸಿನಿಮಾ ಇನ್ನೇನು ಶುರು ಆಗುತ್ತೆ 'the film's about to start'.\n\n**Was about to (when...).** Verbal noun + **-ಅಲ್ಲಿದ್ದೆ**: ಹೊರಡೋದ್ರಲ್ಲಿದ್ದೆ 'I was just about to leave' (careful ಹೊರಡುವುದರಲ್ಲಿದ್ದೆ). Follow it with ಅಷ್ಟರಲ್ಲಿ for the interruption: ಹೊರಡೋದ್ರಲ್ಲಿದ್ದೆ, ಅಷ್ಟರಲ್ಲಿ ಮಳೆ ಬಂತು.\n\n**By a time.** ಹೊತ್ತಿಗೆ: ಏಳು ಗಂಟೆ ಹೊತ್ತಿಗೆ ಬರ್ತೀನಿ 'I'll be there by seven'.\n\n**Late is something that happens.** ಲೇಟ್ ಆಗುತ್ತೆ 'I'll be late' (lit. it will become late), ನನಗೆ ಲೇಟ್ ಆಯ್ತು 'I'm late', ನಿನಗೆ ಯಾಕೆ ಲೇಟ್ ಆಯ್ತು? 'why are you late?'. The trap: ನಾನು ಲೇಟ್ ✗. Being stuck is a state, so it takes the perfect: ಸಿಕ್ಕಾಕೊಂಡಿದ್ದೀನಿ 'I'm stuck' (I've got stuck).",
+      "examples": [
+        { "native": "ಹೊರಟೆ! ಇಪ್ಪತ್ತು ನಿಮಿಷದಲ್ಲಿ ಅಲ್ಲಿರ್ತೀನಿ", "roman": "horaṭe! ippattu nimiṣadalli allirtīni", "en": "I'm off! I'll be there in twenty minutes." },
+        { "native": "ಅವಳು ದಾರಿಯಲ್ಲಿದ್ದಾಳೆ, ಇನ್ನೇನು ಬರ್ತಾಳೆ", "roman": "avaḷu dāriyalliddāḷe, innēnu bartāḷe", "en": "She's on her way, she'll be here any minute." },
+        { "native": "ನಾನು ಹೊರಡೋದ್ರಲ್ಲಿದ್ದೆ, ಅಷ್ಟರಲ್ಲಿ ಅಮ್ಮ ಫೋನ್ ಮಾಡಿದ್ರು", "roman": "nānu horaḍōdrallidde, aṣṭaralli amma phōn māḍidru", "en": "I was just about to leave when Mum called." },
+        { "native": "ಎಂಟು ಗಂಟೆ ಹೊತ್ತಿಗೆ ಬಂದ್ಬಿಡು", "roman": "eṇṭu gaṇṭe hottige bandbiḍu", "en": "Be there by eight." },
+        { "native": "ಸಾರಿ, ನನಗೆ ಲೇಟ್ ಆಯ್ತು", "roman": "sāri, nanage lēṭ āytu", "en": "Sorry, I'm late." }
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": "Saturday in Indiranagar",
+    "setting": "On Thursday Arjun calls his friend Sneha to plan Saturday. Then it's Saturday, 6:15 pm, and everyone is waiting at the metro station.",
+    "lines": [
+      { "speaker": "Arjun", "native": "ಹಲೋ ಸ್ನೇಹಾ, ಶನಿವಾರ ಸಂಜೆ ಫ್ರೀ ಇದ್ದೀಯಾ?", "roman": "halō snēhā, shanivāra sañje phrī iddīyā?", "en": "Hello Sneha, are you free on Saturday evening?" },
+      { "speaker": "Sneha", "native": "ಹೂಂ, ಇದ್ದೀನಿ ಅನ್ಸುತ್ತೆ. ಯಾಕೆ, ಏನ್ ಪ್ಲಾನ್?", "roman": "hūṃ, iddīni ansutte. yāke, ēn plān?", "en": "Mm, I think so. Why, what's the plan?" },
+      { "speaker": "Arjun", "native": "ಎಲ್ಲಾ ಫ್ರೆಂಡ್ಸ್ ಒಟ್ಟಿಗೆ ಇಂದಿರಾನಗರದಲ್ಲಿ ಸುತ್ತಾಡೋಣ ಅಂತ. ಆಮೇಲೆ ಊಟ.", "roman": "ellā phreṇḍs oṭṭige indirānagaradalli suttāḍōṇa anta. āmēle ūṭa.", "en": "We thought the whole gang could hang out in Indiranagar. Then dinner." },
+      { "speaker": "Sneha", "native": "ಸೂಪರ್! ಎಲ್ಲಿ ಸಿಗೋಣ?", "roman": "sūpar! elli sigōṇa?", "en": "Super! Where shall we meet?" },
+      { "speaker": "Arjun", "native": "ಇಂದಿರಾನಗರ ಮೆಟ್ರೋ ಸ್ಟೇಷನ್ ಗೇಟ್ ಹತ್ರ, ಆರು ಗಂಟೆಗೆ. ಪಕ್ಕಾ ಬರ್ತೀಯಾ?", "roman": "indirānagara meṭrō sṭēshan gēṭ hatra, āru gaṇṭege. pakkā bartīyā?", "en": "At the Indiranagar metro station gate, at six. You're definitely coming?" },
+      { "speaker": "Sneha", "native": "ಪಕ್ಕಾ ಕಣೋ. ಶನಿವಾರ ಬೆಳಿಗ್ಗೆ ನನಗೆ ನೆನಪಿಸು, ಆಯ್ತಾ?", "roman": "pakkā kaṇō. shanivāra beḷigge nanage nenapisu, āytā?", "en": "Definitely. Remind me on Saturday morning, OK?" },
+      { "speaker": "Arjun", "native": "ಎಲ್ಲಿದ್ದೀಯ? ನಾವೆಲ್ಲಾ ಗೇಟ್ ಹತ್ರ ಕಾಯ್ತಿದ್ದೀವಿ!", "roman": "elliddīya? nāvellā gēṭ hatra kāytiddīvi!", "en": "Where are you? We're all waiting at the gate!" },
+      { "speaker": "Sneha", "native": "ಸಾರಿ ಸಾರಿ! ಹೊರಟೆ, ದಾರಿಯಲ್ಲಿದ್ದೀನಿ. ಸಿಲ್ಕ್ ಬೋರ್ಡ್ ಹತ್ರ ಟ್ರಾಫಿಕ್ಕಲ್ಲಿ ಸಿಕ್ಕಾಕೊಂಡಿದ್ದೀನಿ.", "roman": "sāri sāri! horaṭe, dāriyalliddīni. silk bōrḍ hatra ṭrāphikkalli sikkākoṇḍiddīni.", "en": "Sorry, sorry! I've left, I'm on my way. I'm stuck in traffic near Silk Board." },
+      { "speaker": "Arjun", "native": "ಸಿಲ್ಕ್ ಬೋರ್ಡಾ? ಅಯ್ಯೋ, ಹಾಗಾದ್ರೆ ಇನ್ನೂ ಒಂದು ಗಂಟೆ!", "roman": "silk bōrḍā? ayyō, hāgādre innū ondu gaṇṭe!", "en": "Silk Board? Oh no, then that's another hour!" },
+      { "speaker": "Sneha", "native": "ಇಲ್ಲ ಕಣೋ, ಆಟೋ ಬಿಟ್ಟು ಮೆಟ್ರೋದಲ್ಲಿ ಬರ್ತೀನಿ. ಇನ್ನೇನು ತಲುಪ್ತೀನಿ!", "roman": "illa kaṇō, āṭō biṭṭu meṭrōdalli bartīni. innēnu taluptīni!", "en": "No, man, I'll ditch the auto and take the metro. I'll be there any minute!" },
+      { "speaker": "Arjun", "native": "ಸರಿ, ಬೇಗ ಬಾರೇ. ಅಷ್ಟರಲ್ಲಿ ನಾವು ಒಂದು ಕಾಫಿ ಕುಡೀತೀವಿ.", "roman": "sari, bēga bārē. aṣṭaralli nāvu ondu kāphi kuḍītīvi.", "en": "OK, hurry up. We'll have a coffee meanwhile." },
+      { "speaker": "Sneha", "native": "ಊಟ ಮಾತ್ರ ಕ್ಯಾನ್ಸಲ್ ಮಾಡಬೇಡಿ, ಆಯ್ತಾ?", "roman": "ūṭa mātra kyānsal māḍabēḍi, āytā?", "en": "Just don't cancel dinner, OK?" },
+      { "speaker": "Arjun", "native": "ಹಹ, ಇಲ್ಲ. ಹೇಗೂ ಟೇಬಲ್ ಬುಕ್ ಮಾಡಿದ್ದೀವಿ.", "roman": "haha, illa. hēgū ṭēbal buk māḍiddīvi.", "en": "Haha, no. We've booked a table anyway." }
+    ]
+  },
+  "culture": "In Bengaluru every plan is built around the traffic. **Silk Board** junction is a running joke (people say they've 'aged' waiting there), and many friends now meet at a **Namma Metro** station gate because the metro is the one thing that runs on time. Weekend plans are things like a walk in Cubbon Park, Church Street or Indiranagar in the evening, a darshini breakfast, or an early drive to Nandi Hills for the sunrise. In Mysuru it's Chamundi Hills or the palace lights on a Sunday; in Mangaluru, the beach at Panambur or Tannirbhavi.\n\nTime is elastic. **ಬಂದೆ!** 'coming!' and **ದಾರಿಯಲ್ಲಿದ್ದೀನಿ** 'on my way' are said generously, and **ನೋಡೋಣ** 'let's see' usually means 'probably not'. When you cancel, always give a reason (**ಹುಷಾರಿಲ್ಲ**, **ಅರ್ಜೆಂಟ್ ಕೆಲಸ**) and offer **ಇನ್ನೊಂದು ದಿನ** 'another day'; a flat ಬರಲ್ಲ sounds cold.\n\nThe friendly **ಬಾರೋ / ಬಾರೇ**, **ಕಣೋ / ಕಣೇ** and **ಮಗಾ** are for friends your own age. Someone a few years older gets **ಅಣ್ಣ** 'big brother' or **ಅಕ್ಕ** 'big sister' tacked on (ಬನ್ನಿ ಅಣ್ಣ), even if they're not family, and a friend's parents are **ಅಂಕಲ್** and **ಆಂಟಿ** with full ನೀವು forms.",
+  "lessons": [
+    {
+      "title": "Are you free? Let's go out",
+      "tip": { "title": "Let's: -ಓಣ · Shall we?: -ಓಣ್ವಾ?", "body": "- **Let's** = stem + **-ಓಣ**: ಹೋಗೋಣ, ಸಿಗೋಣ, ಕುಡಿಯೋಣ.\n- **Shall we?** add -ಆ: **ಹೋಗೋಣ್ವಾ?**\n- **Let's not** = verbal noun + **ಬೇಡ**: ಹೋಗೋದು ಬೇಡ.\n- **Why don't we...?** = ಯಾಕೆ + **-ಬಾರದು**: ಯಾಕೆ ಹೋಗಬಾರದು?\n- **ನೋಡೋಣ** 'let's see' is often a polite no.", "pattern": "ಹೋಗು → ಹೋಗೋಣ → ಹೋಗೋಣ್ವಾ?", "grammar": 0 },
+      "new": ["ಫ್ರೀ", "ಬಿಡುವು", "ಪ್ಲಾನ್", "ಬೋರ್", "ಒಟ್ಟಿಗೆ", "ಎಲ್ಲಾದರೂ", "ಸುತ್ತಾಡು", "ಇವತ್ತು ಸಂಜೆ ಫ್ರೀ ಇದ್ದೀಯಾ?", "ಎಲ್ಲಾದ್ರೂ ಹೋಗೋಣ್ವಾ?", "ಏನ್ ಪ್ಲಾನ್?"],
+      "sentences": [
+        { "native": "ನಾಳೆ ಸಂಜೆ ಸಿನಿಮಾಗೆ ಹೋಗೋಣ್ವಾ?", "roman": "nāḷe sañje sinimāge hōgōṇvā?", "en": "Shall we go to a film tomorrow evening?", "focus": "ಹೋಗೋಣ್ವಾ", "wrong": ["ಹೋದೆ|hōde", "ಹೋಗ್ತಾರೆ|hōgtāre"] },
+        { "native": "ಬೋರ್ ಆಗ್ತಿದೆ, ಎಲ್ಲಾದ್ರೂ ಸುತ್ತಾಡೋಣ.", "roman": "bōr āgtide, ellādrū suttāḍōṇa.", "en": "I'm bored, let's go out somewhere.", "focus": "ಸುತ್ತಾಡೋಣ", "wrong": ["ಸುತ್ತಾಡಿದೆ|suttāḍide", "ಸುತ್ತಾಡು|suttāḍu"] },
+        { "native": "ಈ ವೀಕೆಂಡ್ ನಿನಗೆ ಬಿಡುವಿದೆಯಾ?", "roman": "ī vīkeṇḍ ninage biḍuvideyā?", "en": "Do you have any free time this weekend?", "focus": "ನಿನಗೆ", "wrong": ["ನೀನು|nīnu", "ನಿನ್ನ|ninna"] },
+        { "native": "ಎಲ್ಲರೂ ಒಟ್ಟಿಗೆ ಊಟ ಮಾಡೋಣ.", "roman": "ellarū oṭṭige ūṭa māḍōṇa.", "en": "Let's all have dinner together.", "focus": "ಮಾಡೋಣ", "wrong": ["ಮಾಡಿದ್ವಿ|māḍidvi", "ಮಾಡ್ತಾರೆ|māḍtāre"] },
+        { "native": "ಇವತ್ತು ಎಲ್ಲಾದರೂ ಹೋಗೋದು ಬೇಡ, ಮನೆಯಲ್ಲೇ ಇರೋಣ.", "roman": "ivattu ellādarū hōgōdu bēḍa, maneyallē irōṇa.", "en": "Let's not go anywhere today, let's just stay home.", "focus": "ಬೇಡ", "wrong": ["ಬೇಕು|bēku", "ಇಲ್ಲ|illa"] },
+        { "native": "ಭಾನುವಾರ ಕಬ್ಬನ್ ಪಾರ್ಕಿಗೆ ಯಾಕೆ ಹೋಗಬಾರದು?", "roman": "bhānuvāra kabban pārkige yāke hōgabāradu?", "en": "Why don't we go to Cubbon Park on Sunday?", "focus": "ಹೋಗಬಾರದು", "wrong": ["ಹೋಗಬೇಕು|hōgabēku", "ಹೋಗಲ್ಲ|hōgalla"] },
+        { "native": "ಇವತ್ತು ಸಂಜೆ ಫ್ರೀ ಇದ್ದೀಯಾ? ಒಂದು ಕಾಫಿ ಕುಡಿಯೋಣ.", "roman": "ivattu sañje phrī iddīyā? ondu kāphi kuḍiyōṇa.", "en": "Are you free this evening? Let's have a coffee.", "focus": "ಕುಡಿಯೋಣ", "wrong": ["ಕುಡೀತೀನಿ|kuḍītīni", "ಕುಡಿದ್ವಿ|kuḍidvi"] },
+        { "native": "ಸರಿ, ನೋಡೋಣ, ಶುಕ್ರವಾರ ಹೇಳ್ತೀನಿ.", "roman": "sari, nōḍōṇa, shukravāra hēḷtīni.", "en": "OK, let's see, I'll let you know on Friday.", "focus": "ನೋಡೋಣ", "wrong": ["ನೋಡಿದೆ|nōḍide", "ನೋಡು|nōḍu"] },
+        { "native": "ನಾನು ಇವತ್ತು ಫ್ರೀ ಇಲ್ಲ, ನಾಳೆ ಪ್ಲಾನ್ ಮಾಡೋಣ.", "roman": "nānu ivattu phrī illa, nāḷe plān māḍōṇa.", "en": "I'm not free today, let's plan tomorrow.", "focus": "ಮಾಡೋಣ", "wrong": ["ಮಾಡ್ತೀನಿ|māḍtīni", "ಮಾಡಿದೆ|māḍide"] },
+        { "native": "ಏನ್ ಪ್ಲಾನ್? ಸಿನಿಮಾನಾ, ಊಟಾನಾ?", "roman": "ēn plān? sinimānā, ūṭānā?", "en": "What's the plan? A film or dinner?" }
+      ]
+    },
+    {
+      "title": "Where and when shall we meet?",
+      "tip": { "title": "Fixing a time and place", "body": "- **ಎಲ್ಲಿ ಸಿಗೋಣ?** 'where shall we meet?' **ಎಷ್ಟು ಗಂಟೆಗೆ?** 'what time?'\n- Places: X **ಹತ್ರ** 'at / near X', X **ಎದುರು** 'opposite X', X **ಗೇಟ್ ಹತ್ರ** 'at the X gate'.\n- **ಹೊತ್ತಿಗೆ** 'by (a time)': ಏಳು ಗಂಟೆ ಹೊತ್ತಿಗೆ.\n- Seal it: **ಪಕ್ಕಾ?** — **ಪಕ್ಕಾ!**\n- People are brought along (**ಕರ್ಕೊಂಡು ಬಾ**); things are brought (**ತಗೊಂಡು ಬಾ / ತಾ**)." },
+      "new": [
+        "ಮಾಲ್",
+        "ಗೇಟ್",
+        "ಎದುರು",
+        "ಪಕ್ಕಾ",
+        "ಹೊತ್ತಿಗೆ",
+        "ಕರೆದುಕೊಂಡು ಬರು",
+        "ಎಲ್ಲಿ ಸಿಗೋಣ?",
+        "ಮೆಟ್ರೋ ಸ್ಟೇಷನ್ ಗೇಟ್ ಹತ್ರ ಏಳು ಗಂಟೆಗೆ ಸಿಗೋಣ",
+        "ಪಕ್ಕಾ ಬರ್ತೀಯಾ?"
+      ],
+      "sentences": [
+        { "native": "ಮಾಲ್ ಎದುರು ಇರೋ ಹೋಟೆಲ್ ಹತ್ರ ಸಿಗೋಣ.", "roman": "māl eduru irō hōṭel hatra sigōṇa.", "en": "Let's meet at the restaurant opposite the mall.", "focus": "ಎದುರು", "wrong": ["ಒಳಗೆ|oḷage", "ಮೇಲೆ|mēle"] },
+        { "native": "ಎಷ್ಟು ಗಂಟೆಗೆ ಸಿಗೋಣ?", "roman": "eṣṭu gaṇṭege sigōṇa?", "en": "What time shall we meet?", "focus": "ಸಿಗೋಣ", "wrong": ["ಸಿಕ್ತು|siktu", "ಸಿಗ್ತಾರೆ|sigtāre"] },
+        { "native": "ಏಳು ಗಂಟೆ ಹೊತ್ತಿಗೆ ಮಾಲ್ ಗೇಟ್ ಹತ್ರ ಇರು.", "roman": "ēḷu gaṇṭe hottige māl gēṭ hatra iru.", "en": "Be at the mall gate by seven.", "focus": "ಹೊತ್ತಿಗೆ", "wrong": ["ಹೊತ್ತು|hottu", "ಸಮಯ|samaya"] },
+        { "native": "ಪಕ್ಕಾ, ಎಂಟು ಗಂಟೆ ಹೊತ್ತಿಗೆ ಅಲ್ಲಿರ್ತೀನಿ.", "roman": "pakkā, eṇṭu gaṇṭe hottige allirtīni.", "en": "Definitely, I'll be there by eight.", "focus": "ಹೊತ್ತಿಗೆ", "wrong": ["ಹೊತ್ತು|hottu", "ವರೆಗೆ|varege"] },
+        { "native": "ನಿನ್ನ ತಮ್ಮನನ್ನೂ ಕರ್ಕೊಂಡು ಬಾ.", "roman": "ninna tammanannū karkoṇḍu bā.", "en": "Bring your little brother along too.", "focus": "ಬಾ", "wrong": ["ಬಂದು|bandu", "ಬರ್ತೀನಿ|bartīni"] },
+        { "native": "ಮಕ್ಕಳನ್ನ ಕರೆದುಕೊಂಡು ಬರ್ತೀರಾ?", "roman": "makkaḷanna karedukoṇḍu bartīrā?", "en": "Will you bring the children along? (polite)", "focus": "ಕರೆದುಕೊಂಡು", "wrong": ["ತಂದು|tandu", "ಕರೆದು|karedu"] },
+        { "native": "ಪಕ್ಕಾ ಬರ್ತೀಯಾ? ಆಮೇಲೆ ಕೈ ಕೊಡಬೇಡ!", "roman": "pakkā bartīyā? āmēle kai koḍabēḍa!", "en": "You're definitely coming? Don't let me down later!", "focus": "ಬರ್ತೀಯಾ", "wrong": ["ಬರ್ತೀನಾ|bartīnā", "ಬರ್ತಾನಾ|bartānā"] },
+        { "native": "ಮೆಟ್ರೋ ಸ್ಟೇಷನ್ ಗೇಟ್ ಹತ್ರ ಕಾಯ್ತಿರ್ತೀನಿ.", "roman": "meṭrō sṭēshan gēṭ hatra kāytirtīni.", "en": "I'll be waiting at the metro station gate.", "focus": "ಹತ್ರ", "wrong": ["ಇಂದ|inda", "ಗೆ|ge"] },
+        { "native": "ಎಲ್ಲಿ ಸಿಗೋಣ? ಮಾಲ್ ಒಳಗೆನಾ, ಹೊರಗೆನಾ?", "roman": "elli sigōṇa? māl oḷagenā, horagenā?", "en": "Where shall we meet? Inside the mall or outside?" },
+        { "native": "ಅದೇ ಜಾಗ, ಅದೇ ಸಮಯ, ಆಯ್ತಾ?", "roman": "adē jāga, adē samaya, āytā?", "en": "Same place, same time, OK?" }
+      ]
+    },
+    {
+      "title": "Talking to your friends",
+      "tip": { "title": "Friends' commands: ಬಾರೋ, ಹೇಳೇ, ಕಣೋ", "body": "- With friends: bare verb **ಬಾ, ಹೇಳು, ಇರು**; 'don't' = **-ಬೇಡ**: ಮರೀಬೇಡ.\n- Friendly **-ಓ** to a man, **-ಏ** to a woman: **ಬಾರೋ / ಬಾರೇ**, **ಹೇಳೋ / ಹೇಳೇ**; to a group **ಬನ್ರೋ**.\n- **ಕಣೋ / ಕಣೇ** after a statement: ಹೌದು ಕಣೋ 'yeah, man'.\n- Anyone older: **ಬನ್ನಿ, ಹೇಳಿ**.", "pattern": "ಬಾ → ಬಾರೋ / ಬಾರೇ  ·  ಹೌದು + ಕಣೋ", "grammar": 1 },
+      "new": ["ಫ್ರೆಂಡ್", "ಮಗಾ", "ಕಣೋ", "ಅಂಕಲ್", "ನೆನಪಿಸು", "ಬಾರೋ, ಬೇಗ!", "ನಾಳೆ ನನಗೆ ನೆನಪಿಸು"],
+      "sentences": [
+        { "native": "ಬಾರೇ, ಎಲ್ಲರೂ ಕಾಯ್ತಿದ್ದಾರೆ.", "roman": "bārē, ellarū kāytiddāre.", "en": "Come on, everyone's waiting. (to a female friend)", "focus": "ಬಾರೇ", "wrong": ["ಬಾರೋ|bārō", "ಬನ್ನಿ|banni"] },
+        { "native": "ಹೇಳೋ ಮಗಾ, ಏನು ವಿಷಯ?", "roman": "hēḷō magā, ēnu viṣaya?", "en": "Tell me, dude, what's up?", "focus": "ಹೇಳೋ", "wrong": ["ಹೇಳೇ|hēḷē", "ಹೇಳಿ|hēḷi"] },
+        { "native": "ಹೌದು ಕಣೋ, ನನಗೂ ಬೋರ್ ಆಗ್ತಿದೆ.", "roman": "haudu kaṇō, nanagū bōr āgtide.", "en": "Yeah, man, I'm bored too. (to a male friend)", "focus": "ಕಣೋ", "wrong": ["ಕಣೇ|kaṇē", "ಕಣ್ರೀ|kaṇrī"] },
+        { "native": "ನಾಳೆ ಬರ್ತೀನಿ ಕಣೇ, ಪಕ್ಕಾ.", "roman": "nāḷe bartīni kaṇē, pakkā.", "en": "I'll come tomorrow, I promise. (to a female friend)", "focus": "ಕಣೇ", "wrong": ["ಕಣೋ|kaṇō", "ಕಣ್ರೀ|kaṇrī"] },
+        { "native": "ಮರೀಬೇಡ ಮಗಾ, ಶನಿವಾರ ಆರು ಗಂಟೆ!", "roman": "marībēḍa magā, shanivāra āru gaṇṭe!", "en": "Don't forget, dude, Saturday at six!", "focus": "ಮರೀಬೇಡ", "wrong": ["ಮರೀಬೇಡಿ|marībēḍi", "ಮರೆತೆ|marete"] },
+        { "native": "ಅಂಕಲ್, ಒಳಗೆ ಬನ್ನಿ, ಕೂತ್ಕೊಳ್ಳಿ.", "roman": "aṅkal, oḷage banni, kūtkoḷḷi.", "en": "Uncle, come in, have a seat.", "focus": "ಬನ್ನಿ", "wrong": ["ಬಾ|bā", "ಬಾರೋ|bārō"] },
+        { "native": "ಬನ್ರೋ, ಎಲ್ಲಾ ಒಟ್ಟಿಗೆ ಫೋಟೋ ತಗೊಳ್ಳೋಣ.", "roman": "banrō, ellā oṭṭige phōṭō tagoḷḷōṇa.", "en": "Come on, guys, let's all take a photo together.", "focus": "ಬನ್ರೋ", "wrong": ["ಬಾರೋ|bārō", "ಬಾರೇ|bārē"] },
+        { "native": "ನಾಳೆ ನನಗೆ ನೆನಪಿಸು, ಇಲ್ಲಾಂದ್ರೆ ಮರೆತು ಹೋಗುತ್ತೆ.", "roman": "nāḷe nanage nenapisu, illāndre maretu hōgutte.", "en": "Remind me tomorrow, otherwise I'll forget.", "focus": "ನೆನಪಿಸು", "wrong": ["ನೆನಪಿಸಿದೆ|nenapiside", "ನೆನಪು|nenapu"] },
+        { "native": "ಒಂದು ನಿಮಿಷ ಇರು ಮಗಾ, ಬಂದೆ!", "roman": "ondu nimiṣa iru magā, bande!", "en": "Hang on a minute, dude, coming!", "focus": "ಇರು", "wrong": ["ಇರಿ|iri", "ಇದ್ದೆ|idde"] },
+        { "native": "ನನ್ನ ಫ್ರೆಂಡ್ ಒಬ್ಬ ಮೈಸೂರಿನಿಂದ ಬರ್ತಿದ್ದಾನೆ.", "roman": "nanna phreṇḍ obba maisūrininda bartiddāne.", "en": "A friend of mine is coming from Mysuru." }
+      ]
+    },
+    {
+      "title": "I'm on my way",
+      "tip": { "title": "Off, on the way, any minute", "body": "- Leaving this second: the past! **ಹೊರಟೆ!** 'I'm off!', **ಬಂದೆ!** 'coming!'\n- On the way: **ದಾರಿಯಲ್ಲಿದ್ದೀನಿ**; coming: **ಬರ್ತಿದ್ದೀನಿ**.\n- Any minute: **ಇನ್ನೇನು** + future: ಇನ್ನೇನು ತಲುಪ್ತೀನಿ.\n- Was about to: **ಹೊರಡೋದ್ರಲ್ಲಿದ್ದೆ** 'I was just about to leave'.", "pattern": "ಹೊರಟೆ!  ·  ಇನ್ನೇನು + ತಲುಪ್ತೀನಿ", "grammar": 2 },
+      "new": ["ಹೊರಡು", "ಇನ್ನೇನು", "ಹೇಗೂ", "ಹೊರಟೆ!", "ದಾರಿಯಲ್ಲಿದ್ದೀನಿ", "ಇನ್ನೇನು ತಲುಪ್ತೀನಿ"],
+      "sentences": [
+        { "native": "ಹತ್ತು ನಿಮಿಷದಲ್ಲಿ ಮನೆಯಿಂದ ಹೊರಡ್ತೀನಿ.", "roman": "hattu nimiṣadalli maneyinda horaḍtīni.", "en": "I'll leave home in ten minutes.", "focus": "ಹೊರಡ್ತೀನಿ", "wrong": ["ಹೊರಟೆ|horaṭe", "ಹೊರಟಿದ್ದೀನಿ|horaṭiddīni"] },
+        { "native": "ಹೊರಟೆ! ಮೆಟ್ರೋದಲ್ಲಿ ಬರ್ತಿದ್ದೀನಿ.", "roman": "horaṭe! meṭrōdalli bartiddīni.", "en": "I'm off! I'm coming by metro.", "focus": "ಬರ್ತಿದ್ದೀನಿ", "wrong": ["ಬರ್ತಿದ್ದಾನೆ|bartiddāne", "ಬಂದಿದ್ದೆ|bandidde"] },
+        { "native": "ಅವನು ಇನ್ನೂ ಮನೆಯಿಂದ ಹೊರಟಿಲ್ಲ!", "roman": "avanu innū maneyinda horaṭilla!", "en": "He hasn't even left home yet!", "focus": "ಹೊರಟಿಲ್ಲ", "wrong": ["ಹೊರಟ|horaṭa", "ಹೊರಡ್ತಾನೆ|horaḍtāne"] },
+        { "native": "ನಾವು ದಾರಿಯಲ್ಲಿದ್ದೀವಿ, ಇನ್ನೇನು ಬರ್ತೀವಿ.", "roman": "nāvu dāriyalliddīvi, innēnu bartīvi.", "en": "We're on the way, we'll be there any minute.", "focus": "ದಾರಿಯಲ್ಲಿದ್ದೀವಿ", "wrong": ["ದಾರಿಯಲ್ಲಿದ್ದೀನಿ|dāriyalliddīni", "ದಾರಿಯಲ್ಲಿದ್ದಾರೆ|dāriyalliddāre"] },
+        { "native": "ಸಿನಿಮಾ ಇನ್ನೇನು ಶುರು ಆಗುತ್ತೆ, ಬೇಗ ಬಾ!", "roman": "sinimā innēnu shuru āgutte, bēga bā!", "en": "The film's about to start, come quick!", "focus": "ಇನ್ನೇನು", "wrong": ["ಇನ್ನೂ|innū", "ನಿನ್ನೆ|ninne"] },
+        { "native": "ನಾನು ಹೊರಡೋದ್ರಲ್ಲಿದ್ದೆ, ಅಷ್ಟರಲ್ಲಿ ಮಳೆ ಬಂತು.", "roman": "nānu horaḍōdrallidde, aṣṭaralli maḷe bantu.", "en": "I was just about to leave when it started raining.", "focus": "ಹೊರಡೋದ್ರಲ್ಲಿದ್ದೆ", "wrong": ["ಹೊರಡ್ತೀನಿ|horaḍtīni", "ಹೊರಟಿದ್ದೀನಿ|horaṭiddīni"] },
+        { "native": "ಅಮ್ಮ ಕರೀತಿದ್ದಾರೆ. ಬಂದೆ, ಅಮ್ಮ!", "roman": "amma karītiddāre. bande, amma!", "en": "Mum's calling. Coming, Mum!", "focus": "ಬಂದೆ", "wrong": ["ಬರ್ತಾರೆ|bartāre", "ಬಂದ್ರು|bandru"] },
+        { "native": "ಇನ್ನೇನು ತಲುಪ್ತೀನಿ, ಎರಡೇ ನಿಮಿಷ!", "roman": "innēnu taluptīni, eraḍē nimiṣa!", "en": "I'm nearly there, just two minutes!", "focus": "ತಲುಪ್ತೀನಿ", "wrong": ["ತಲುಪಿದೆ|talupide", "ತಲುಪ್ತಾನೆ|taluptāne"] },
+        { "native": "ಹೇಗೂ ನಾನು ಅದೇ ಕಡೆ ಹೋಗ್ತಿದ್ದೀನಿ, ನಿನ್ನನ್ನ ಕರ್ಕೊಂಡು ಹೋಗ್ತೀನಿ.", "roman": "hēgū nānu adē kaḍe hōgtiddīni, ninnanna karkoṇḍu hōgtīni.", "en": "I'm going that way anyway, I'll take you along." },
+        { "native": "ಹೇಗೂ ನಾಳೆ ರಜೆ, ಇವತ್ತು ತಡವಾಗಿ ಹೊರಡೋಣ.", "roman": "hēgū nāḷe raje, ivattu taḍavāgi horaḍōṇa.", "en": "Tomorrow's a holiday anyway, let's leave late today." }
+      ]
+    },
+    {
+      "title": "Running late",
+      "tip": { "title": "Late is something that happens", "body": "- **ಲೇಟ್ ಆಗುತ್ತೆ** 'I'll be late', **ನನಗೆ ಲೇಟ್ ಆಯ್ತು** 'I'm late': lateness *happens* to you. Not ನಾನು ಲೇಟ್.\n- Stuck is a state, so use the perfect: **ಸಿಕ್ಕಾಕೊಂಡಿದ್ದೀನಿ** 'I'm stuck'.\n- Say how long: **ಇನ್ನೂ ಹತ್ತು ನಿಮಿಷ ಆಗುತ್ತೆ** 'it'll be another ten minutes'.", "pattern": "ನನಗೆ + ಲೇಟ್ + ಆಯ್ತು", "grammar": 2 },
+      "new": ["ಲೇಟ್", "ಟ್ರಾಫಿಕ್", "ಸಿಕ್ಕಿಹಾಕಿಕೊಳ್ಳು", "ಸಾರಿ, ಸ್ವಲ್ಪ ಲೇಟ್ ಆಗುತ್ತೆ", "ಟ್ರಾಫಿಕ್ಕಲ್ಲಿ ಸಿಕ್ಕಾಕೊಂಡಿದ್ದೀನಿ"],
+      "sentences": [
+        { "native": "ಸಾರಿ, ನನಗೆ ಹತ್ತು ನಿಮಿಷ ಲೇಟ್ ಆಗುತ್ತೆ.", "roman": "sāri, nanage hattu nimiṣa lēṭ āgutte.", "en": "Sorry, I'll be ten minutes late.", "focus": "ಆಗುತ್ತೆ", "wrong": ["ಆಯ್ತು|āytu", "ಇದ್ದೀನಿ|iddīni"] },
+        { "native": "ನಿನಗೆ ಯಾಕೆ ಯಾವಾಗಲೂ ಲೇಟ್ ಆಗುತ್ತೆ?", "roman": "ninage yāke yāvāgalū lēṭ āgutte?", "en": "Why are you always late?", "focus": "ನಿನಗೆ", "wrong": ["ನೀನು|nīnu", "ನಿನ್ನ|ninna"] },
+        { "native": "ಇವತ್ತು ಆಫೀಸಿಗೆ ಲೇಟ್ ಆಯ್ತು.", "roman": "ivattu āphīsige lēṭ āytu.", "en": "I was late for the office today.", "focus": "ಆಯ್ತು", "wrong": ["ಆಗುತ್ತೆ|āgutte", "ಇತ್ತು|ittu"] },
+        { "native": "ನಾನು ಟ್ರಾಫಿಕ್ಕಲ್ಲಿ ಸಿಕ್ಕಿಹಾಕಿಕೊಂಡೆ, ಅದಕ್ಕೆ ತಡ ಆಯ್ತು.", "roman": "nānu ṭrāphikkalli sikkihākikoṇḍe, adakke taḍa āytu.", "en": "I got stuck in traffic, that's why I was late.", "focus": "ಸಿಕ್ಕಿಹಾಕಿಕೊಂಡೆ", "wrong": ["ಸಿಕ್ಕಿಹಾಕಿಕೊಂಡ|sikkihākikoṇḍa", "ಸಿಕ್ಕಿಹಾಕಿಕೊಳ್ಳಿ|sikkihākikoḷḷi"] },
+        { "native": "ಅವರು ಹೆಬ್ಬಾಳದ ಹತ್ರ ಟ್ರಾಫಿಕ್ಕಲ್ಲಿ ಸಿಕ್ಕಾಕೊಂಡಿದ್ದಾರೆ.", "roman": "avaru hebbāḷada hatra ṭrāphikkalli sikkākoṇḍiddāre.", "en": "They're stuck in traffic near Hebbal.", "focus": "ಸಿಕ್ಕಾಕೊಂಡಿದ್ದಾರೆ", "wrong": ["ಸಿಕ್ಕಾಕೊಂಡಿದ್ದೀನಿ|sikkākoṇḍiddīni", "ಸಿಕ್ಕಾಕೊಂಡಿದ್ದಾಳೆ|sikkākoṇḍiddāḷe"] },
+        { "native": "ಇನ್ನೂ ಇಪ್ಪತ್ತು ನಿಮಿಷ ಆಗುತ್ತೆ, ನೀವು ಶುರು ಮಾಡಿ.", "roman": "innū ippattu nimiṣa āgutte, nīvu shuru māḍi.", "en": "It'll be another twenty minutes, you guys start.", "focus": "ಆಗುತ್ತೆ", "wrong": ["ಆಯ್ತು|āytu", "ಆಗಿತ್ತು|āgittu"] },
+        { "native": "ಬೇಗ ಹೊರಡು, ಇಲ್ಲಾಂದ್ರೆ ಲೇಟ್ ಆಗುತ್ತೆ.", "roman": "bēga horaḍu, illāndre lēṭ āgutte.", "en": "Leave early, otherwise you'll be late.", "focus": "ಹೊರಡು", "wrong": ["ಹೊರಟೆ|horaṭe", "ಹೊರಡ್ತೀನಿ|horaḍtīni"] },
+        { "native": "ಸಿಲ್ಕ್ ಬೋರ್ಡ್ ಹತ್ರ ತುಂಬಾ ಟ್ರಾಫಿಕ್ ಇದೆ.", "roman": "silk bōrḍ hatra tumbā ṭrāphik ide.", "en": "There's heavy traffic near Silk Board." },
+        { "native": "ಟ್ರಾಫಿಕ್ ಜಾಸ್ತಿ ಇದ್ರೆ ಮೆಟ್ರೋದಲ್ಲಿ ಬಾ.", "roman": "ṭrāphik jāsti idre meṭrōdalli bā.", "en": "If there's a lot of traffic, come by metro." },
+        { "native": "ಪರವಾಗಿಲ್ಲ, ಆರಾಮಾಗಿ ಬಾ.", "roman": "paravāgilla, ārāmāgi bā.", "en": "No problem, take your time." }
+      ]
+    },
+    {
+      "title": "Cancelling without upsetting anyone",
+      "tip": { "title": "Saying no nicely", "body": "- Give a reason: **ಏನೋ ಅರ್ಜೆಂಟ್ ಕೆಲಸ ಬಂತು**, **ಹುಷಾರಿಲ್ಲ** 'I'm not well'.\n- **ಇವತ್ತು ಆಗಲ್ಲ** 'I can't today' (lit. it won't happen) is softer than **ಬರಲ್ಲ** 'I won't come'.\n- Offer another day: **ಇನ್ನೊಂದು ದಿನ ಮಾಡೋಣ**, **ಮುಂದಿನ ವಾರ?**\n- A flat ಬರಲ್ಲ with no reason sounds cold." },
+      "new": ["ಕ್ಯಾನ್ಸಲ್", "ಅರ್ಜೆಂಟ್", "ಮುಂದೂಡು", "ಇವತ್ತು ಆಗಲ್ಲ ಕಣೋ, ಇನ್ನೊಂದು ದಿನ ಮಾಡೋಣ", "ಏನೋ ಅರ್ಜೆಂಟ್ ಕೆಲಸ ಬಂತು"],
+      "sentences": [
+        { "native": "ಸಾರಿ ಮಗಾ, ಇವತ್ತು ಆಗಲ್ಲ, ಹುಷಾರಿಲ್ಲ.", "roman": "sāri magā, ivattu āgalla, huṣārilla.", "en": "Sorry, dude, I can't today, I'm not well.", "focus": "ಆಗಲ್ಲ", "wrong": ["ಆಯ್ತು|āytu", "ಆಗುತ್ತೆ|āgutte"] },
+        { "native": "ಪ್ಲಾನ್ ಕ್ಯಾನ್ಸಲ್ ಆಯ್ತು, ಅವನಿಗೆ ಏನೋ ಅರ್ಜೆಂಟ್ ಕೆಲಸ ಬಂತಂತೆ.", "roman": "plān kyānsal āytu, avanige ēnō arjeṇṭ kelasa bantante.", "en": "The plan's off, apparently something urgent came up for him.", "focus": "ಬಂತಂತೆ", "wrong": ["ಬರುತ್ತಂತೆ|baruttante", "ಬಂತಾ|bantā"] },
+        { "native": "ಶನಿವಾರ ಆಗಲ್ಲ, ಭಾನುವಾರ ಮಾಡೋಣ್ವಾ?", "roman": "shanivāra āgalla, bhānuvāra māḍōṇvā?", "en": "Saturday's no good, shall we do Sunday?", "focus": "ಮಾಡೋಣ್ವಾ", "wrong": ["ಮಾಡಿದ್ವಾ|māḍidvā", "ಮಾಡ್ತಾರಾ|māḍtārā"] },
+        { "native": "ಕ್ಯಾನ್ಸಲ್ ಮಾಡಬೇಡ, ಸ್ವಲ್ಪ ಲೇಟಾಗಿ ಸಿಗೋಣ.", "roman": "kyānsal māḍabēḍa, svalpa lēṭāgi sigōṇa.", "en": "Don't cancel, let's meet a bit later.", "focus": "ಮಾಡಬೇಡ", "wrong": ["ಮಾಡಬೇಕು|māḍabēku", "ಮಾಡ್ತೀನಿ|māḍtīni"] },
+        { "native": "ಮಳೆ ಬಂದ್ರೆ ಪ್ಲಾನ್ ಮುಂದೂಡೋಣ.", "roman": "maḷe bandre plān mundūḍōṇa.", "en": "If it rains, let's postpone the plan.", "focus": "ಮುಂದೂಡೋಣ", "wrong": ["ಮುಂದೂಡಿದ್ರು|mundūḍidru", "ಮುಂದೂಡು|mundūḍu"] },
+        { "native": "ಮೀಟಿಂಗ್ ಮುಂದಿನ ವಾರಕ್ಕೆ ಮುಂದೂಡಿದ್ದಾರೆ.", "roman": "mīṭiṅg mundina vārakke mundūḍiddāre.", "en": "They've postponed the meeting to next week." },
+        { "native": "ಬೇಜಾರು ಮಾಡ್ಕೋಬೇಡ, ಮುಂದಿನ ವಾರ ಪಕ್ಕಾ ಬರ್ತೀನಿ.", "roman": "bējāru māḍkōbēḍa, mundina vāra pakkā bartīni.", "en": "Don't be upset, I'll definitely come next week." },
+        { "native": "ಅರ್ಜೆಂಟ್ ಇದ್ರೆ ಫೋನ್ ಮಾಡು.", "roman": "arjeṇṭ idre phōn māḍu.", "en": "Call me if it's urgent." },
+        { "native": "ಕೊನೆ ಕ್ಷಣದಲ್ಲಿ ಕ್ಯಾನ್ಸಲ್ ಮಾಡಿದ್ರೆ ಎಲ್ಲರಿಗೂ ಬೇಜಾರಾಗುತ್ತೆ.", "roman": "kone kṣaṇadalli kyānsal māḍidre ellarigū bējārāgutte.", "en": "If you cancel at the last minute, everyone gets upset." },
+        { "native": "ಸರಿ, ಪರವಾಗಿಲ್ಲ, ಇನ್ನೊಂದು ದಿನ ಸಿಗೋಣ.", "roman": "sari, paravāgilla, innondu dina sigōṇa.", "en": "OK, no problem, let's meet another day." }
+      ]
+    }
+  ]
+}
